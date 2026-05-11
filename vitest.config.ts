@@ -20,6 +20,9 @@ export default defineConfig({
       'lib/**/__tests__/**/*.test.tsx',
       'components/**/__tests__/**/*.test.ts',
       'components/**/__tests__/**/*.test.tsx',
+      // Plan 07: quality-scoring profiles live under scripts/audit/ per
+      // RESEARCH §1.7. Their unit tests collocate in __tests__ siblings.
+      'scripts/**/__tests__/**/*.test.ts',
     ],
     coverage: {
       provider: 'v8',
