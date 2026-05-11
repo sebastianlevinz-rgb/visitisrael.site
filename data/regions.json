@@ -1,0 +1,119 @@
+{
+  "_meta": {
+    "purpose": "Single source for the homepage + /regions/ hub region grid. Status field drives whether the card is a live link or a 'coming soon' stub. Phase 3 plans add `status: live` + Velite region MDX in lockstep.",
+    "phase": "02-pilot-region-jerusalem-m2 plan 05",
+    "addedBy": "Plan 2.5 task 1 (Wave 0)"
+  },
+  "regions": [
+    {
+      "slug": "jerusalem",
+      "name": { "en": "Jerusalem", "he": "ירושלים" },
+      "blurb": {
+        "en": "Israel's spiritual heart — Old City quarters, Western Wall, day trips to the Dead Sea.",
+        "he": "ליבה הרוחני של ישראל — הרבעים בעיר העתיקה, הכותל המערבי וטיולי יום לים המלח."
+      },
+      "image": "/images/regions/jerusalem/hero.jpg",
+      "status": "live"
+    },
+    {
+      "slug": "tel-aviv",
+      "name": { "en": "Tel Aviv", "he": "תל אביב" },
+      "blurb": {
+        "en": "Mediterranean beaches, Bauhaus architecture and 24-hour nightlife.",
+        "he": "חופי ים תיכון, אדריכלות באוהאוס וחיי לילה תוססים."
+      },
+      "image": "/images/regions/jerusalem/hero.jpg",
+      "status": "coming-soon"
+    },
+    {
+      "slug": "dead-sea",
+      "name": { "en": "Dead Sea", "he": "ים המלח" },
+      "blurb": {
+        "en": "The lowest place on Earth, with mineral spas and Masada at sunrise.",
+        "he": "המקום הנמוך ביותר בעולם, מינרלים, ספא ומצדה בזריחה."
+      },
+      "image": "/images/regions/jerusalem/hero.jpg",
+      "status": "coming-soon"
+    },
+    {
+      "slug": "galilee",
+      "name": { "en": "Galilee", "he": "הגליל" },
+      "blurb": {
+        "en": "Green hills, Sea of Galilee, Christian pilgrimage routes and wineries.",
+        "he": "גבעות ירוקות, הכנרת, מסלולי עלייה לרגל ויקבים."
+      },
+      "image": "/images/regions/jerusalem/hero.jpg",
+      "status": "coming-soon"
+    },
+    {
+      "slug": "eilat",
+      "name": { "en": "Eilat", "he": "אילת" },
+      "blurb": {
+        "en": "Red Sea diving, year-round sun and the Negev's southern gateway.",
+        "he": "צלילה בים סוף, שמש כל השנה ושער דרומי לנגב."
+      },
+      "image": "/images/regions/jerusalem/hero.jpg",
+      "status": "coming-soon"
+    },
+    {
+      "slug": "negev",
+      "name": { "en": "Negev", "he": "הנגב" },
+      "blurb": {
+        "en": "Desert craters, Bedouin hospitality and ancient Nabatean trade routes.",
+        "he": "מכתשי המדבר, אירוח בדואי ודרכי מסחר נבטיות עתיקות."
+      },
+      "image": "/images/regions/jerusalem/hero.jpg",
+      "status": "coming-soon"
+    },
+    {
+      "slug": "nazareth",
+      "name": { "en": "Nazareth", "he": "נצרת" },
+      "blurb": {
+        "en": "The town of Jesus' childhood — basilicas, markets and Arab-Israeli cuisine.",
+        "he": "העיר בה גדל ישוע — בזיליקות, שווקים ומטבח ערבי־ישראלי."
+      },
+      "image": "/images/regions/jerusalem/hero.jpg",
+      "status": "coming-soon"
+    },
+    {
+      "slug": "haifa",
+      "name": { "en": "Haifa", "he": "חיפה" },
+      "blurb": {
+        "en": "Hillside Bahá'í Gardens, Carmel slopes and Israel's third city.",
+        "he": "הגנים הבהאיים, מורדות הכרמל והעיר השלישית בגודלה בישראל."
+      },
+      "image": "/images/regions/jerusalem/hero.jpg",
+      "status": "coming-soon"
+    },
+    {
+      "slug": "golan-heights",
+      "name": { "en": "Golan Heights", "he": "רמת הגולן" },
+      "blurb": {
+        "en": "Volcanic plateau with wineries, hiking trails and panoramic viewpoints.",
+        "he": "רמה וולקנית של יקבים, מסלולי טיול ותצפיות פנורמיות."
+      },
+      "image": "/images/regions/jerusalem/hero.jpg",
+      "status": "coming-soon"
+    },
+    {
+      "slug": "caesarea",
+      "name": { "en": "Caesarea", "he": "קיסריה" },
+      "blurb": {
+        "en": "Herodian harbour ruins, Roman theatre and the Mediterranean coast.",
+        "he": "חורבות נמל הרודיאני, תיאטרון רומי וחוף הים התיכון."
+      },
+      "image": "/images/regions/jerusalem/hero.jpg",
+      "status": "coming-soon"
+    },
+    {
+      "slug": "akko",
+      "name": { "en": "Akko (Acre)", "he": "עכו" },
+      "blurb": {
+        "en": "Crusader-era port city — UNESCO Old City, Ottoman walls, vibrant souks.",
+        "he": "עיר נמל מימי הצלבנים — עיר עתיקה של אונסק\"ו, חומות עות'מאניות ושוק תוסס."
+      },
+      "image": "/images/regions/jerusalem/hero.jpg",
+      "status": "coming-soon"
+    }
+  ]
+}

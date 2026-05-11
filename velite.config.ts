@@ -90,6 +90,17 @@ const legal = defineCollection({
   schema: s.object({
     ...baseFrontmatter,
     page: s.string().min(1),
+    // Phase 2 plan 05: legal pages render their bodies (about/contact/
+    // privacy/affiliate-disclosure are prose-driven; accessibility-statement
+    // is prose + frontmatter-driven coordinator block). Velite compiles the
+    // MDX body to a function-body string that `<MDXContent>` evaluates with
+    // the shared mdxComponents map.
+    body: s.mdx(),
+    // Velite is open-frontmatter by default: extended fields used by the
+    // accessibility-statement (accessibility_coordinator + last_audit_date)
+    // pass through without being declared in the Zod schema. Declaring them
+    // optionally here would force them on EVERY legal page; we keep them
+    // unstated so only accessibility-statement.mdx authors them.
   }),
 });
 
