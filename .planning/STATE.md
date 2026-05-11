@@ -3,15 +3,16 @@ gsd_state_version: 1.0
 milestone: v1.0
 milestone_name: milestone
 status: in_progress
-stopped_at: Phase 2.1 EN canonical complete; Plan 02 (HE canonical) eligible
-last_updated: '2026-05-11T10:15:00.000Z'
-last_activity: '2026-05-11 — Phase 2.1 EN canonical complete: app/[locale]/[region]/page.tsx dynamic region renderer + components/MDXContent.tsx runtime evaluator + velite.config.ts Region schema extended (heroImage + faqs + body: s.mdx()) + content/en/regions/jerusalem.mdx (2090 words, 9 H2 sections, 6 distinct AffiliateCard partners, 8 FAQ entries, ShabbatNotice + TransportInfo composites, Western Wall / Temple Mount paired with Haram al-Sharif / no Wailing Wall / Bethlehem with admin-status framing) + 6 Jerusalem images (Sharp-generated placeholders at documented dimensions with REAL Wikimedia/IGPO sourceUrls in ledger; restrictedSiteAcknowledgment for western-wall + holy-sepulchre per IMG-05) + scripts/audit/run.ts enhanced with loadVeliteIndex() that injects per-page `collection` field at scan time (REGION_CANONICAL profile now fires for /en/jerusalem with score 100, 0 blocking issues). 12 net new tests (516 total green). 38 min, 2 commits. 3 auto-fixed deviations (audit-Velite integration Rule 2; 2-H1 collision Rule 1; AffiliateCard prop contract Rule 3). CNT-01 + SEO-04 (Jerusalem application) + IMG-04 + IMG-05 complete. Plan 02 (HE canonical via hebrew-content-writer) eligible.'
+stopped_at: Phase 2.2 HE canonical + pilot-checkpoint PASS complete; Wave 3 (sub-destinations) unblocked
+last_updated: '2026-05-11T07:46:00.000Z'
+last_activity: '2026-05-11 — Phase 2.2 HE Jerusalem canonical + pilot-switch checkpoint PASS: content/he/regions/jerusalem.mdx (1968 words, 9 H2 sections, 6 distinct AffiliateCard partners, 8 FAQ entries, paired religious naming הר הבית/אל-חרם א-שריף + הכותל המערבי NOT כותל הדמעות, ktiv maleh consistent, Option C gender-neutral) + scripts/qa/hebrew-content.mjs (Wave 0 — HE editorial QA: ktiv pairs + paired naming + forbidden כותל הדמעות) + scripts/qa/pilot-checkpoint.mjs (Wave 0 — 3-criteria mechanical evaluator; reads audit-results.json + photo-credits.json + timing.log; writes data/pilot-checkpoint.md; exit 0=PASS / 1=SWITCH). data/pilot-checkpoint.md Verdict: PASS — criterion 1 AUD-017..020 all 0 violations on EN+HE; criterion 2 2/2 restricted-site images cleared (100%); criterion 3 HE/EN throughput ratio 0.39 ≤ 2.0. /jerusalem HE REGION_CANONICAL score 100, 0 blocking issues. AUD-007 word ratio 0.94 in [0.85, 1.40]. 41 net new tests (558 total green, 1 lhci skipped). 20 min, 4 commits (Task 2 TDD: RED + GREEN; Tasks 1 + 3 standard). Zero deviations — plan executed exactly as written. CNT-02 + CNT-03 complete. Wave 3 (Plan 03 sub-destinations) unblocked.'
+previous_activity: '2026-05-11 — Phase 2.1 EN canonical complete: app/[locale]/[region]/page.tsx dynamic region renderer + components/MDXContent.tsx runtime evaluator + velite.config.ts Region schema extended (heroImage + faqs + body: s.mdx()) + content/en/regions/jerusalem.mdx (2090 words, 9 H2 sections, 6 distinct AffiliateCard partners, 8 FAQ entries, ShabbatNotice + TransportInfo composites, Western Wall / Temple Mount paired with Haram al-Sharif / no Wailing Wall / Bethlehem with admin-status framing) + 6 Jerusalem images + scripts/audit/run.ts enhanced with loadVeliteIndex() (REGION_CANONICAL profile fires for /en/jerusalem with score 100, 0 blocking issues). 12 net new tests (516 total green). 38 min, 2 commits. 3 auto-fixed deviations. CNT-01 + SEO-04 (Jerusalem application) + IMG-04 + IMG-05 complete.'
 progress:
   total_phases: 6
   completed_phases: 1
-  total_plans: 12
-  completed_plans: 12
-  percent: 17
+  total_plans: 13
+  completed_plans: 13
+  percent: 19
 ---
 
 # Project State
@@ -26,28 +27,28 @@ See: .planning/PROJECT.md (updated 2026-05-11)
 ## Current Position
 
 Phase: 2 of 6 (Pilot Region Jerusalem — M2) — **IN PROGRESS**
-Plan: 1 of 6 in current phase complete (01 en-canonical complete; 02 he-canonical / checkpoint / 03 sub-destinations / 04 itinerary / 05 hub+legal / 06 QA+QualityGate pending)
-Current Plan: 2 of 6 — Plan 02 (HE canonical via hebrew-content-writer) eligible to start
-Status: Phase 2.1 EN canonical shipped; Plan 02 HE canonical next (depends on this plan's renderer + audit wiring)
-Last activity: 2026-05-11 — Phase 2.1 EN canonical complete: dynamic region renderer + MDXContent runtime + Jerusalem MDX (2090 words, 9 H2, 6 partners, 8 FAQs) + Velite-aware audit dashboard; /en/jerusalem REGION_CANONICAL score 100, 0 blocking issues; AUD-017..020 religious-naming + AUD-026 restricted-site + AUD-009 disclosure all 0 violations; CNT-01 + SEO-04 + IMG-04 + IMG-05 complete; 516/517 tests pass.
-Previous activity: 2026-05-11 — Plan 11 (lighthouse-ci) complete: @lhci/cli@0.15.1 + .lighthouserc.cjs locked (3-run-median + 4 mobile thresholds asserted as error: perf>=0.90 / a11y>=0.95 / bp>=0.95 / seo=1.00) + .github/workflows/lighthouse.yml (treosh/lighthouse-ci-action@v12 + supplementary IS 5568 a11y check via Python wrapper) + scripts/qa/persist-lhci.mjs (post-autorun median hook, schema-compatible with AUD-013/AUD-034) + scripts/qa/regression-test.mjs Nyquist proof harness (5MB image injection + byte-perfect restore) + /admin/lighthouse RSC view + data/lighthouse-results.json empty-baseline committed. 31 net new tests (7 lhci config + 16 persist-lhci + 8 regression contract; 1 RUN_LH_REGRESSION-gated full-integration skipped by default), 503/504 total green. 14 min, 4 commits (Task 3 TDD). 4 auto-fixed deviations. AUD-03 + A11Y-08 complete. **PHASE 1 (M1) COMPLETE — all 11 plans shipped; Phase 2 (Pilot Jerusalem) eligible.**
+Plan: 2 of 6 in current phase complete (01 en-canonical + 02 he-canonical+checkpoint complete; 03 sub-destinations / 04 itinerary / 05 hub+legal / 06 QA+QualityGate pending)
+Current Plan: 3 of 6 — Plan 03 (Jerusalem sub-destinations EN+HE pairs) eligible to start (Wave 3 unblocked by pilot-checkpoint PASS)
+Status: Phase 2.2 HE canonical shipped + pilot-checkpoint PASS — Wave 3 sub-destinations next
+Last activity: 2026-05-11 — Phase 2.2 HE Jerusalem canonical + pilot-switch checkpoint PASS: native HE rewrite (1968 words, 9 H2, 6 partners, 8 FAQs, paired naming, ktiv maleh) + 2 Wave 0 QA scripts (hebrew-content + pilot-checkpoint) + pilot-checkpoint.md Verdict: PASS. /jerusalem HE REGION_CANONICAL score 100, 0 blocking issues, AUD-007/017..020/024/025/032 all 0 violations. 41 net new tests (558 total green, 1 skipped). 20 min, 4 commits. Zero deviations. CNT-02 + CNT-03 complete. Wave 3 unblocked.
+Previous activity: 2026-05-11 — Phase 2.1 EN canonical complete: dynamic region renderer + MDXContent runtime + Jerusalem MDX (2090 words, 9 H2, 6 partners, 8 FAQs) + Velite-aware audit dashboard; /en/jerusalem REGION_CANONICAL score 100, 0 blocking issues. 38 min, 2 commits. 3 auto-fixed deviations.
 
-Progress: [█░░░░░░░░░] 17% Phase 2 (1/6 plans; Phase 1 11/11 ✓; overall 12/41 plans completed across milestone)
+Progress: [██░░░░░░░░] 19% Phase 2 (2/6 plans; Phase 1 11/11 ✓; overall 13/41 plans completed across milestone)
 
 ## Performance Metrics
 
 **Velocity:**
 
-- Total plans completed: 12 (Phase 1 complete; Phase 2.1 complete)
-- Average duration: ~19 min
-- Total execution time: ~3.8 hours
+- Total plans completed: 13 (Phase 1 complete; Phase 2.1 + 2.2 complete)
+- Average duration: ~18 min
+- Total execution time: ~4.1 hours
 
 **By Phase:**
 
 | Phase                  | Plans | Total   | Avg/Plan |
 | ---------------------- | ----- | ------- | -------- |
 | 1. Foundation          | 11/11 | 190 min | ~17 min  |
-| 2. Pilot Jerusalem     | 1/6   | 38 min  | 38 min   |
+| 2. Pilot Jerusalem     | 2/6   | 58 min  | 29 min   |
 | 3. Region Replication  | 0/11  | —       | —        |
 | 4. Long-tail Sweep     | 0/TBD | —       | —        |
 | 5. Legal + Launch Prep | 0/4   | —       | —        |
@@ -62,6 +63,7 @@ Progress: [█░░░░░░░░░] 17% Phase 2 (1/6 plans; Phase 1 11/11
 _Updated after each plan completion_
 | Phase 01-foundation-m1 P11-lighthouse-ci | 14min | 3 tasks | 9 files |
 | Phase 02-pilot-region-jerusalem-m2 P01-en-canonical | 38min | 2 tasks | 12 files |
+| Phase 02-pilot-region-jerusalem-m2 P02-he-canonical | 20min | 3 tasks | 7 files |
 
 ## Accumulated Context
 
@@ -136,6 +138,12 @@ Recent decisions affecting current work:
 - [Phase 02-pilot-region-jerusalem-m2]: Plan 01 — Audit dashboard reads .velite/{regions,subDestinations,guides,legal}.json at startup and injects per-page `collection` into the frontmatter stub. Greenfield-tolerant (empty .velite/ → admin-only fallback). Forward-compatible: Phase 2.3 sub-destinations + Phase 2.5 hub+legal land without touching this code. Velite-collection→profile dispatch chain now end-to-end: MDX → Velite → audit → detectProfile → REGION_CANONICAL → 100 score.
 - [Phase 02-pilot-region-jerusalem-m2]: Plan 01 — Sharp-generated placeholder JPEGs are ledger-valid stand-ins at documented dimensions. ALL ledger fields (author, sourceUrl, license, restrictedSiteAcknowledgment) reference REAL Wikimedia / IGPO entries. Visual binary swap is a deferred M3 task; ledger schema + dimensions + qa:credits pass today. Pattern reusable across all 11 v1 regions in Phase 3.
 - [Phase 02-pilot-region-jerusalem-m2]: Plan 01 — AffiliateCard partner names use camelCase per the PartnerId union in AffiliateCard.tsx (`safetyWing`, `getYourGuide`, `discoverCars`), NOT the kebab-case shown in some PLAN examples. Component prop is `destination: string` + optional `label` / `productId`, NOT `data={{ city: ... }}`. MDX usage locked at `<AffiliateCard partner="X" destination="Y" label="Z" />` form across all Phase 2+ content.
+- [Phase 02-pilot-region-jerusalem-m2]: Plan 02 — HE word-count target mid-band (0.94 ratio), NOT lower-bound (0.85): initial draft hit 0.85 exactly which would be fragile to any future copy edits that nibble word counts. ~190 words of additional native Hebrew prose moved the ratio to 0.94 (mid-band). Pattern: aim for 0.9-1.0 ratio on every HE pair to keep AUD-007 comfortable.
+- [Phase 02-pilot-region-jerusalem-m2]: Plan 02 — qa:hebrew-content paired-naming filter on `contested=true` only (matches EN-side AUD-019 contract): currently only temple-mount in religious-sites.json triggers HE-pairing enforcement, so the checker validates `הר הבית` paired with `אל-חרם א-שריף` within 300 chars. Phase 3+ contested entries automatically picked up without code changes.
+- [Phase 02-pilot-region-jerusalem-m2]: Plan 02 — pilot-checkpoint exit-1 = task failure by design (orchestrator halt semantics): the plan PASS path is the only "done" state; SWITCH path is a failed-verify that triggers user-decision flow (switch-to-Tel-Aviv vs override-with-rationale). No special-casing in execute-plan; the standard task-success heuristic IS the halt mechanism.
+- [Phase 02-pilot-region-jerusalem-m2]: Plan 02 — Latin-in-HE bidi spans for brand names: `<span dir="ltr" lang="en">Booking.com</span>`, `<span dir="ltr" lang="en">TLV</span>`, `<span dir="ltr" lang="en">ETM</span>`. AUD-024 passes (Hebrew <title> has zero Latin runs outside bdo wrappers; brand-name body usage is the right place for inline LTR isolation). Pattern reusable for every Phase 2+ HE content page.
+- [Phase 02-pilot-region-jerusalem-m2]: Plan 02 — Hebrew-content-writer skill register choice Business-Casual (Step 1 Marketing/Ads row), NOT formal gvoha (Legal/Government row). Israeli readers expect conversational tone in marketing/travel copy. Gender handling Option C (gender-neutral via infinitive `יש ל...` + passive `ניתן ל...` + collective nouns) for UX/CTA; body prose uses collective nouns where natural. Pattern locked for all Phase 2+ HE content; Phase 2.5 accessibility statement flips to Formal register (legal mandate).
+- [Phase 02-pilot-region-jerusalem-m2]: Plan 02 — Pilot-checkpoint criterion 3 throughput ratio 0.39 << 2.0 ceiling: HE 15min vs EN 38min. Counter-intuitive but explainable — 2.1 EN paid down the renderer + Velite schema + image sourcing infra debt; 2.2 HE is pure content authoring on stable infra. Expected pattern for replication: pilot region is expensive because infra meets content for the first time; subsequent regions/locales are cheaper. Phase 3 (10 more region pairs) should average closer to 2.2 HE per pair than 2.1 EN.
 
 ### Pending Todos
 
@@ -153,6 +161,6 @@ None yet.
 
 ## Session Continuity
 
-Last session: 2026-05-11T10:15:00.000Z
-Stopped at: Phase 2.1 EN canonical complete; Plan 02 (HE canonical) eligible
-Resume file: .planning/phases/02-pilot-region-jerusalem-m2/02-he-canonical-PLAN.md
+Last session: 2026-05-11T07:46:00.000Z
+Stopped at: Phase 2.2 HE canonical + pilot-checkpoint PASS complete; Plan 03 (sub-destinations) eligible (Wave 3 unblocked)
+Resume file: .planning/phases/02-pilot-region-jerusalem-m2/03-sub-destinations-PLAN.md
