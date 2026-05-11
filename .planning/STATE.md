@@ -2,16 +2,16 @@
 gsd_state_version: 1.0
 milestone: v1.0
 milestone_name: milestone
-current_plan: "Phase 3 plans ready — `/gsd:execute-phase 03` (Wave 1: Tel Aviv solo first)"
+current_plan: 'Phase 3 plans ready — `/gsd:execute-phase 03` (Wave 1: Tel Aviv solo first)'
 status: planning
-stopped_at: "Completed 03-07-haifa-PLAN.md — Wave 4 Haifa PASS (policy-gap canary validated; data/haifa-bahai-policy.md REG-05 deliverable shipped; Bahá'í Place-schema fallback + Stella Maris PoW; 81/81 tests pass; soft-gate Verdict: PASS)"
-last_updated: "2026-05-11T16:30:04.953Z"
-last_activity: "2026-05-11 — Phase 2.6 Quality Gate PASS: scripts/audit/quality-gate.ts refactored to export pure helpers (evaluateCriteria, composeReport, writeReport, isAdminOrUtility) for Vitest pinning; 17 new tests pin mode auto-flip (structural<->content via contentPages.length) + per-criterion DEFER/PASS/FAIL semantics + Lighthouse threshold evaluation + full PASS/FAIL report markdown rendering. Pre-existing Plan 05 deferred-items.md homepage BreadcrumbList <2 schema error resolved by removing BreadcrumbList from app/[locale]/page.tsx (Option 1 over synthetic 2-item pair, CollectionPage alone satisfies AUD-033). Manual SERP review checklist template + filled instance (8 DEFERRED verdicts with per-keyword confidence proxy + post-launch human-review SLA per CONTEXT.md proxied-R3 strategy). Full QA pipeline: build OK + qa:credits OK + qa:schema 0 errors (77 pages / 68 JSON-LD) + qa:audit 0 critical / all 30 content pages >=85 + qa:axe stub + qa:audit-a11y Windows stub + qa:lighthouse Windows EPERM (empty baseline preserved → criterion 1 DEFERS cleanly). pnpm qa:quality-gate PASS mode=content. 805 tests green (+17 new). 15 min, 3 commits, 1 auto-fix (BreadcrumbList removal). CNT-01..07 + A11Y-03/04/05 + SEO-04 + IMG-04/05 verified at gate. Total Phase 2 wall-clock: 173 min (2h 53min)."
+stopped_at: Completed 03-10-akko-PLAN.md — Wave 4 Akko PASS (Bahá'í Mansion Place schema validated; cross-cascade YAML blockers absorbed; Wave 4 unblocks Bethlehem Wave 5)
+last_updated: '2026-05-11T16:32:14.163Z'
+last_activity: '2026-05-11 — Phase 2.6 Quality Gate PASS: scripts/audit/quality-gate.ts refactored to export pure helpers (evaluateCriteria, composeReport, writeReport, isAdminOrUtility) for Vitest pinning; 17 new tests pin mode auto-flip (structural<->content via contentPages.length) + per-criterion DEFER/PASS/FAIL semantics + Lighthouse threshold evaluation + full PASS/FAIL report markdown rendering. Pre-existing Plan 05 deferred-items.md homepage BreadcrumbList <2 schema error resolved by removing BreadcrumbList from app/[locale]/page.tsx (Option 1 over synthetic 2-item pair, CollectionPage alone satisfies AUD-033). Manual SERP review checklist template + filled instance (8 DEFERRED verdicts with per-keyword confidence proxy + post-launch human-review SLA per CONTEXT.md proxied-R3 strategy). Full QA pipeline: build OK + qa:credits OK + qa:schema 0 errors (77 pages / 68 JSON-LD) + qa:audit 0 critical / all 30 content pages >=85 + qa:axe stub + qa:audit-a11y Windows stub + qa:lighthouse Windows EPERM (empty baseline preserved → criterion 1 DEFERS cleanly). pnpm qa:quality-gate PASS mode=content. 805 tests green (+17 new). 15 min, 3 commits, 1 auto-fix (BreadcrumbList removal). CNT-01..07 + A11Y-03/04/05 + SEO-04 + IMG-04/05 verified at gate. Total Phase 2 wall-clock: 173 min (2h 53min).'
 progress:
   total_phases: 6
   completed_phases: 2
   total_plans: 28
-  completed_plans: 25
+  completed_plans: 26
   percent: 100
 ---
 
@@ -78,6 +78,7 @@ _Updated after each plan completion_
 | Phase 03-region-replication-m3 PP09-caesarea | 50 min | 4 tasks tasks | 18 files files |
 | Phase 03-region-replication-m3 P06-nazareth | 51 | 4 tasks | 18 files |
 | Phase 03-region-replication-m3 P07 | 55 | 4 tasks | 18 files |
+| Phase 03-region-replication-m3 P10-akko | 57 | 4 tasks | 20 files |
 
 ## Accumulated Context
 
@@ -205,6 +206,7 @@ Recent decisions affecting current work:
 - [Phase 03]: Wave 3 parallel-state cross-region cooperative fix locked: Caesarea agent patched Negev MDX TransportInfo to unblock build (Rule 3 blocking); precedent matches Wave 2 Galilee bundling Eilat
 - [Phase 03-region-replication-m3]: Plan 06 (Nazareth) — Two religious-site entries (basilica-of-the-annunciation + marys-well) for the two physically-distinct Christian-tradition Annunciation sites; ecumenical Catholic Franciscan + Greek Orthodox editorial throughout; Mount of Precipice TouristAttraction-only (outdoor cliff, no church)
 - [Phase 03-region-replication-m3]: Plan 07 Haifa: Bahá'í Place-schema via TouristAttraction fallback (omit religiousSiteId on Bahá'í Gardens MDX); stella-maris dual-entry religious-sites.json mirroring Nazareth pattern; REG-05 policy-gap canary doc shipped (data/haifa-bahai-policy.md with press@bahai.org Phase 6 commissioning gate; v1 Wikimedia-only locked; 65-75% aggregate v1 coverage); AUD-026 0 violations on 4 Bahá'í-subject ledger entries; respectful Bahá'í framing (Shrine of Báb closure as convention not exclusion); ecumenical Stella Maris Cave of Elijah framing (Catholic+GOC+Muslim+Druze)
+- [Phase 03-region-replication-m3]: Akko (Acre) dual-naming locked at first reference (H1 + first paragraph); Bahá'í Mansion of Bahjí emits Place schema NOT PlaceOfWorship per Bahá'í convention (second site after Haifa, same restrictedSiteAcknowledgment policy)
 
 ### Pending Todos
 
@@ -228,6 +230,6 @@ None yet.
 
 ## Session Continuity
 
-Last session: 2026-05-11T16:30:04.941Z
-Stopped at: Completed 03-07-haifa-PLAN.md — Wave 4 Haifa PASS (policy-gap canary validated; data/haifa-bahai-policy.md REG-05 deliverable shipped; Bahá'í Place-schema fallback + Stella Maris PoW; 81/81 tests pass; soft-gate Verdict: PASS)
+Last session: 2026-05-11T16:32:04.797Z
+Stopped at: Completed 03-10-akko-PLAN.md — Wave 4 Akko PASS (Bahá'í Mansion Place schema validated; cross-cascade YAML blockers absorbed; Wave 4 unblocks Bethlehem Wave 5)
 Resume file: None
