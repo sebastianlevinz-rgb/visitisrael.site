@@ -3,14 +3,14 @@ gsd_state_version: 1.0
 milestone: v1.0
 milestone_name: milestone
 status: executing
-stopped_at: Completed .planning/phases/01-foundation-m1/10-audit-dashboard-PLAN.md
-last_updated: "2026-05-11T03:41:35.495Z"
-last_activity: "2026-05-11 — Plan 10 (audit-dashboard) complete: 34 audit rules (AUD-001..AUD-034) + tsx orchestrator + 10-criterion Quality Gate (Phase-1 structural mode defers content criteria) + 3 RSC dashboard routes (iteration-1 fix — read JSON/MD via fs, never spawn) + /api/admin/audit + basic-auth middleware (closed-by-default in prod, dev bypass) + axe-core + audit_a11y.py stub wrappers + 92 net new tests (472/472 total green). 23 min, 3 commits. 7 auto-fixed deviations. AUD-01/02/04/05 + A11Y-06/07 complete."
+stopped_at: Completed .planning/phases/01-foundation-m1/11-lighthouse-ci-PLAN.md — Phase 1 (M1) complete (all 11 plans shipped); Phase 2 (Pilot Jerusalem) eligible
+last_updated: "2026-05-11T04:04:22.039Z"
+last_activity: "2026-05-11 — Plan 11 (lighthouse-ci) complete: @lhci/cli@0.15.1 + .lighthouserc.cjs locked (3-run-median + 4 mobile thresholds asserted as error: perf>=0.90 / a11y>=0.95 / bp>=0.95 / seo=1.00) + .github/workflows/lighthouse.yml (treosh/lighthouse-ci-action@v12 + supplementary IS 5568 a11y check via Python wrapper) + scripts/qa/persist-lhci.mjs (post-autorun median hook, schema-compatible with AUD-013/AUD-034) + scripts/qa/regression-test.mjs Nyquist proof harness (5MB image injection + byte-perfect restore) + /admin/lighthouse RSC view + data/lighthouse-results.json empty-baseline committed. 31 net new tests (7 lhci config + 16 persist-lhci + 8 regression contract; 1 RUN_LH_REGRESSION-gated full-integration skipped by default), 503/504 total green. 14 min, 4 commits (Task 3 TDD). 4 auto-fixed deviations. AUD-03 + A11Y-08 complete. **PHASE 1 (M1) COMPLETE — all 11 plans shipped; Phase 2 (Pilot Jerusalem) eligible.**"
 progress:
   total_phases: 6
-  completed_phases: 0
+  completed_phases: 1
   total_plans: 11
-  completed_plans: 10
+  completed_plans: 11
   percent: 91
 ---
 
@@ -25,35 +25,38 @@ See: .planning/PROJECT.md (updated 2026-05-11)
 
 ## Current Position
 
-Phase: 1 of 6 (Foundation — M1)
-Plan: 10 of 11 in current phase complete (01 scaffold + 02 design-tokens + 03 photo-credits + 04 schema-baseline + 05 component-lib + 06 affiliate-helpers + 07 quality-profiles + 08 seo-config + 09 ner-detection + 10 audit-dashboard); plan 11 (Lighthouse CI) is the last plan in Phase 1
-Status: Executing — Plan 10 (audit-dashboard) complete; plan 11 (Lighthouse CI) eligible to start
-Last activity: 2026-05-11 — Plan 10 (audit-dashboard) complete: 34 audit rules (AUD-001..AUD-034) + tsx orchestrator + 10-criterion Quality Gate (Phase-1 structural mode defers content criteria) + 3 RSC dashboard routes (iteration-1 fix — read JSON/MD via fs, never spawn) + /api/admin/audit + basic-auth middleware (closed-by-default in prod, dev bypass) + axe-core + audit_a11y.py stub wrappers + 92 net new tests (472/472 total green). 23 min, 3 commits. 7 auto-fixed deviations. AUD-01/02/04/05 + A11Y-06/07 complete.
+Phase: 1 of 6 (Foundation — M1) — **COMPLETE**
+Plan: 11 of 11 in current phase complete (01 scaffold + 02 design-tokens + 03 photo-credits + 04 schema-baseline + 05 component-lib + 06 affiliate-helpers + 07 quality-profiles + 08 seo-config + 09 ner-detection + 10 audit-dashboard + 11 lighthouse-ci); Phase 1 / M1 finished
+Status: Phase 1 complete — Phase 2 (Pilot Jerusalem) eligible to start (research blocker pending: Ahrefs Lite $129 or DataForSEO API $50 for R3 keyword validation BEFORE writing Phase 2.1 Jerusalem canonical)
+Last activity: 2026-05-11 — Plan 11 (lighthouse-ci) complete: @lhci/cli@0.15.1 + .lighthouserc.cjs locked (3-run-median + 4 mobile thresholds asserted as error: perf>=0.90 / a11y>=0.95 / bp>=0.95 / seo=1.00) + .github/workflows/lighthouse.yml (treosh/lighthouse-ci-action@v12 + supplementary IS 5568 a11y check via Python wrapper) + scripts/qa/persist-lhci.mjs (post-autorun median hook, schema-compatible with AUD-013/AUD-034) + scripts/qa/regression-test.mjs Nyquist proof harness (5MB image injection + byte-perfect restore) + /admin/lighthouse RSC view + data/lighthouse-results.json empty-baseline committed. 31 net new tests (7 lhci config + 16 persist-lhci + 8 regression contract; 1 RUN_LH_REGRESSION-gated full-integration skipped by default), 503/504 total green. 14 min, 4 commits (Task 3 TDD). 4 auto-fixed deviations. AUD-03 + A11Y-08 complete. **PHASE 1 (M1) COMPLETE — all 11 plans shipped; Phase 2 (Pilot Jerusalem) eligible.**
 
-Progress: [█████████░] 91% (10/11 plans in Phase 1; ~15% overall)
+Progress: [██████████] 100% (11/11 plans in Phase 1 complete; ~17% overall — 1 of 6 phases)
 
 ## Performance Metrics
 
 **Velocity:**
 
-- Total plans completed: 10
+- Total plans completed: 11 (Phase 1 complete)
 - Average duration: ~17 min
-- Total execution time: ~2.9 hours
+- Total execution time: ~3.2 hours
 
 **By Phase:**
 
-| Phase                  | Plans  | Total   | Avg/Plan |
-| ---------------------- | ------ | ------- | -------- |
-| 1. Foundation          | 10/11  | 176 min | ~17 min  |
-| 2. Pilot Jerusalem     | 0/6    | —       | —        |
-| 3. Region Replication  | 0/11   | —       | —        |
-| 4. Long-tail Sweep     | 0/TBD  | —       | —        |
-| 5. Legal + Launch Prep | 0/4    | —       | —        |
-| 6. Production Deploy   | 0/4    | —       | —        |
+| Phase                  | Plans   | Total   | Avg/Plan |
+| ---------------------- | ------- | ------- | -------- |
+| 1. Foundation          | 11/11   | 190 min | ~17 min  |
+| 2. Pilot Jerusalem     | 0/6     | —       | —        |
+| 3. Region Replication  | 0/11    | —       | —        |
+| 4. Long-tail Sweep     | 0/TBD   | —       | —        |
+| 5. Legal + Launch Prep | 0/4     | —       | —        |
+| 6. Production Deploy   | 0/4     | —       | —        |
 
-**Recent Trend:** Plan 10 (audit-dashboard) — 23 min — 53 files created + 3 modified, 3 commits (1 per task, all standard non-TDD), 92 net new tests (472/472 total green). 34 audit rule files (AUD-001..AUD-034) in scripts/audit/rules/ each exporting consistent {id, severity, description, scan(html, $, fm, lang)} Rule contract — Israel-specific rules (AUD-017..020 + AUD-028) import lib/seo/naming.ts + lib/seo/accessibility-link.ts verbatim as single source of truth; scripts/audit/run.ts tsx orchestrator walks .next/server/app/**/*.html via cheerio, applies all 34 rules per page, computes profile-aware score via scripts/audit/score.ts (consumes plan 07 ProfileSpec), merges NER mentions from data/ner-results.json, writes data/audit-results.json (47 pages × 34 rules → 406 issues on current Phase 1 build); scripts/audit/quality-gate.ts evaluates 10 Quality Gate criteria from ROADMAP.md with Phase-1 structural mode (criteria 2/3/5/9 DEFER when no content pages — admin/* + _not-found excluded from contentPages); 3 RSC routes /admin/audit/{index,[slug],quality-gate} READ pre-written JSON/MD via fs.readFile (iteration-1 fix — NEVER spawn child_process); /api/admin/audit JSON endpoint; middleware.ts extended with basic-auth via lib/auth/basic.ts (evaluateBasicAuth + isAdminPath, closed-by-default in production, dev bypass, api(?!/admin) matcher carve-out gates /api/admin/* while /api/* general bypasses); scripts/audit/axe.mjs Phase-1 stub for axe-core (plan 11 wires real); scripts/audit_a11y_wrapper.mjs spawns audit_a11y.py from skill bundle with stub-on-error so CI never crashes; violations.html + clean.html synthetic fixtures with two-pronged contract test. 7 auto-fixed deviations (block-comment terminator in JSDoc; implicit any[] in 9 rule files; violations fixture comment self-paired Temple Mount + Haram al-Sharif; test classifications mismatched real rule behavior for AUD-027/031/004; JSX namespace not available in TS 5.9 + React 19; inferSlug didn't strip /he/ prefix from built HTML; Quality Gate FAIL on greenfield → added phase1StructuralOnly mode). AUD-01/02/04/05 + A11Y-06/07 complete; Wave 7 (plan 11 Lighthouse CI) eligible.
+**Recent Trend:** Plan 11 (lighthouse-ci) — 14 min — 9 files created + 6 modified, 4 commits (Task 3 used TDD: RED + GREEN; Tasks 1 + 2 standard non-TDD), 31 net new tests (503/504 total green; 1 skipped behind RUN_LH_REGRESSION). @lhci/cli@0.15.1 + .lighthouserc.cjs locked (numberOfRuns=3 + aggregationMethod=median + 4 mobile thresholds asserted as error: perf>=0.90 / a11y>=0.95 / bp>=0.95 / seo=1.00) + .github/workflows/lighthouse.yml runs treosh/lighthouse-ci-action@v12 on every PR + push-to-main (ubuntu-latest, Chrome pre-installed) + supplementary IS 5568 a11y check via Python wrapper (curl-probe readiness, NOT fixed sleep) + concurrency-cancel for same ref + 90-day artifact retention; scripts/qa/persist-lhci.mjs post-autorun hook computes 3-run median per URL across 4 Lighthouse categories + total-blocking-time, derives {slug,lang} from URL, writes flat-array data/lighthouse-results.json matching AUD-013/AUD-034 consumer schema (greenfield-tolerant: empty [] when .lighthouseci absent); scripts/qa/regression-test.mjs Nyquist proof harness with ensureSetup (50KB baseline self-bootstrap) + injectRegression (5MB blob) + runLhci + byte-perfect restore via try/finally + evaluateExitCode (pass/fail/error classification); /admin/lighthouse RSC view reads data/lighthouse-results.json via fs.readFile (iteration-1 fix — NEVER spawns lhci from RSC); data/lighthouse-results.json committed as empty [] baseline (AUD-013/034 + Quality Gate Criterion 1 need a file to read); pure-helpers-exported-for-Vitest pattern (math + lifecycle helpers exported; main() runs only when entrypoint via import.meta.url === process.argv[1] check, drive-letter case-normalize for Windows); full integration test gated behind RUN_LH_REGRESSION=1. 4 auto-fixed deviations (Quality Gate Criterion 1 differentiates file-absent vs empty-array; data/lighthouse-results.json must be committed not gitignored; CI workflow uses curl-probe loop not sleep 8; gate:report repointed from placeholder to real qa:quality-gate). AUD-03 + A11Y-08 complete; **Phase 1 (M1) finished, all 11 plans + 503 tests green**. Phase 2 (Pilot Jerusalem) gated on R3 keyword research purchase ($129 Ahrefs Lite or $50 DataForSEO).
+
+**Previous Plan 10 (audit-dashboard)** — 23 min — 53 files created + 3 modified, 3 commits (1 per task, all standard non-TDD), 92 net new tests (472/472 total green). 34 audit rule files (AUD-001..AUD-034) in scripts/audit/rules/ each exporting consistent {id, severity, description, scan(html, $, fm, lang)} Rule contract — Israel-specific rules (AUD-017..020 + AUD-028) import lib/seo/naming.ts + lib/seo/accessibility-link.ts verbatim as single source of truth; scripts/audit/run.ts tsx orchestrator walks .next/server/app/**/*.html via cheerio, applies all 34 rules per page, computes profile-aware score via scripts/audit/score.ts (consumes plan 07 ProfileSpec), merges NER mentions from data/ner-results.json, writes data/audit-results.json (47 pages × 34 rules → 406 issues on current Phase 1 build); scripts/audit/quality-gate.ts evaluates 10 Quality Gate criteria from ROADMAP.md with Phase-1 structural mode (criteria 2/3/5/9 DEFER when no content pages — admin/* + _not-found excluded from contentPages); 3 RSC routes /admin/audit/{index,[slug],quality-gate} READ pre-written JSON/MD via fs.readFile (iteration-1 fix — NEVER spawn child_process); /api/admin/audit JSON endpoint; middleware.ts extended with basic-auth via lib/auth/basic.ts (evaluateBasicAuth + isAdminPath, closed-by-default in production, dev bypass, api(?!/admin) matcher carve-out gates /api/admin/* while /api/* general bypasses); scripts/audit/axe.mjs Phase-1 stub for axe-core (plan 11 wires real); scripts/audit_a11y_wrapper.mjs spawns audit_a11y.py from skill bundle with stub-on-error so CI never crashes; violations.html + clean.html synthetic fixtures with two-pronged contract test. 7 auto-fixed deviations (block-comment terminator in JSDoc; implicit any[] in 9 rule files; violations fixture comment self-paired Temple Mount + Haram al-Sharif; test classifications mismatched real rule behavior for AUD-027/031/004; JSX namespace not available in TS 5.9 + React 19; inferSlug didn't strip /he/ prefix from built HTML; Quality Gate FAIL on greenfield → added phase1StructuralOnly mode). AUD-01/02/04/05 + A11Y-06/07 complete; Wave 7 (plan 11 Lighthouse CI) eligible.
 
 _Updated after each plan completion_
+| Phase 01-foundation-m1 P11-lighthouse-ci | 14min | 3 tasks | 9 files |
 
 ## Accumulated Context
 
@@ -120,6 +123,9 @@ Recent decisions affecting current work:
 - [Phase 01-foundation-m1]: Plan 10 — Closed-by-default basic-auth: missing ADMIN_USER/ADMIN_PASS env vars in production → challenge (not allow). Eliminates Vercel-env-not-configured-before-deploy → public /admin exposure failure mode. Dev bypass (NODE_ENV !== production) preserves pnpm dev DX. Matcher api(?!/admin) carve-out lets /api/admin/* go through middleware (gated) while /api/* general bypasses
 - [Phase 01-foundation-m1]: Plan 10 — Deferred-rule severity policy: AUD-010 + AUD-011 emit severity=info unconditionally (Phase 6 cron). AUD-013 + AUD-034 emit info only when data/lighthouse-results.json missing; with the file present they fire normally. computeScore SKIPS info entries — deferred rules never deduct score, so the dashboard surfaces rule-attempted-but-data-unavailable cleanly
 - [Phase 01-foundation-m1]: Plan 10 — Stub-on-error wrappers for audit_a11y.py + axe.mjs: when underlying tool is unavailable (Python not installed, axe not yet wired in plan 11), wrapper writes stub JSON with status=fail + exits 0. CI surfaces tool unavailability via dashboard rather than crashing pipeline. Mirrors Phase-1 greenfield-tolerance pattern from plan 09
+- [Phase 01-foundation-m1]: Plan 11 — data/lighthouse-results.json committed as empty []: plan 10 AUD-013 + AUD-034 + Quality Gate Criterion 1 need a file to read in freshly-cloned repos; without baseline AUD rules would emit deferred-info indefinitely. Empty array is correct semantics (no runs yet) and rules already gracefully degrade. .gitignore comment documents intent. .lighthouseci/ + lhr-*.json remain gitignored — only the post-median JSON is tracked.
+- [Phase 01-foundation-m1]: Plan 11 — Pure-helpers-exported-for-Vitest pattern: scripts/qa/{persist-lhci,regression-test}.mjs export math/lifecycle helpers AND check import.meta.url === process.argv[1] before main(). Lets Vitest unit-test deterministic logic without builds or Chrome. Drive-letter case-normalize for Windows. Full integration test gated behind RUN_LH_REGRESSION=1.
+- [Phase 01-foundation-m1]: Plan 11 — Nyquist-proof-of-gate-firing via deliberate 5MB image regression + byte-perfect restore. ensureSetup creates 50KB baseline if absent; injectRegression swaps to 5MB; runLhci does pnpm build + pnpm lhci; restore uses copyFile from .original; evaluateExitCode classifies pass/fail/error. try/finally guarantees restore. Reusable pattern for every Phase 6 quality gate: ship a 'prove the gate fires' harness alongside the gate itself.
 
 ### Pending Todos
 
@@ -137,6 +143,6 @@ None yet.
 
 ## Session Continuity
 
-Last session: 2026-05-11T03:41:35.489Z
-Stopped at: Completed .planning/phases/01-foundation-m1/10-audit-dashboard-PLAN.md
+Last session: 2026-05-11T04:04:22.030Z
+Stopped at: Completed .planning/phases/01-foundation-m1/11-lighthouse-ci-PLAN.md — Phase 1 (M1) complete (all 11 plans shipped); Phase 2 (Pilot Jerusalem) eligible
 Resume file: None

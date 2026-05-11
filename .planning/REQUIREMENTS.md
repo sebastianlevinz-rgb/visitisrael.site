@@ -66,7 +66,7 @@ Beyond WCAG 2.1 AA — Israeli law mandates additional items. Up to 50,000 NIS d
 - [x] **A11Y-05**: Footer of every page links to accessibility statement in current locale (AUD-028)
 - [x] **A11Y-06**: All form inputs have associated labels; all interactive elements have aria-labels or accessible names; error messages use `role="alert"` and are rendered in Hebrew for Hebrew forms, English for English forms
 - [x] **A11Y-07**: ZERO accessibility overlays (accessiBe / UserWay / EqualWeb / AudioEye) — overlay-based remediation is explicitly prohibited (FTC $1M precedent + IS 5568 ineffectiveness)
-- [ ] **A11Y-08**: Lighthouse a11y score ≥95 mobile (3-run-median) per page; supplementary axe-core checks run in CI; Israeli-specific checks via `audit_a11y.py` from `israeli-accessibility-compliance` skill
+- [x] **A11Y-08**: Lighthouse a11y score ≥95 mobile (3-run-median) per page; supplementary axe-core checks run in CI; Israeli-specific checks via `audit_a11y.py` from `israeli-accessibility-compliance` skill
 
 ### Schema & SEO
 
@@ -92,7 +92,7 @@ Argentina lesson #3 fix — image contract enforced day-1.
 
 - [x] **AUD-01**: `/admin/audit/` route (noindex, basic-auth middleware) runs all 34 audit rules (AUD-001..AUD-034 from PITFALLS §6) over built pages; produces cached JSON + HTML view
 - [x] **AUD-02**: Per-page score (0–100) using one of the 5 quality profiles (FND-05); score gate ≥85 per page on pilot, ≥80 on replicated regions
-- [ ] **AUD-03**: Lighthouse CI (`@lhci/cli`) configured with `numberOfRuns: 3` + `aggregationMethod: 'median'`; thresholds: mobile perf ≥0.90, a11y ≥0.95, best-practices ≥0.95, SEO 1.00; deploy blocked on fail
+- [x] **AUD-03**: Lighthouse CI (`@lhci/cli`) configured with `numberOfRuns: 3` + `aggregationMethod: 'median'`; thresholds: mobile perf ≥0.90, a11y ≥0.95, best-practices ≥0.95, SEO 1.00; deploy blocked on fail
 - [x] **AUD-04**: Pre-commit hooks (Husky + lint-staged) run ESLint + TypeScript check + schema validator + photo-credits validator
 - [x] **AUD-05**: Quality Gate report generator: writes `data/quality-gate-{pass|failure}.md` summarizing every criterion result before Phase 3 advance
 
@@ -216,7 +216,7 @@ Per-requirement phase mapping (filled during roadmap creation 2026-05-11). Every
 | A11Y-05     | Phase 1 | Plan 01-08 (Footer wired to accessibilityStatementHref; single source of truth for AUD-028); page itself lands in Phase 2.5                                                                   | ✓ Complete (plan 08)                  |
 | A11Y-06     | Phase 1 | Plan 05 (form-a11y.test.tsx proves aria-required/invalid/role=alert contract); full audit coverage requires plan 10 + Phase 2.5 contact form                                                  | ⚠ Partial (plan 05; full = phase 2.5) |
 | A11Y-07     | Phase 1 | Plan 01-01 (project policy — no overlays installed ever)                                                                                                                                      | Pending                               |
-| A11Y-08     | Phase 1 | Plan 01-10 (Lighthouse CI a11y ≥0.95 threshold); enforced from Phase 2 onward                                                                                                                 | Pending                               |
+| A11Y-08     | Phase 1 | Plan 11 (Lighthouse mobile a11y ≥0.95 asserted as error in .lighthouserc.cjs; supplementary audit_a11y.py IS 5568 wrapper invoked in .github/workflows/lighthouse.yml after Lighthouse run; A11Y-06 axe-core already wired in plan 10) | ✓ Complete (plan 11)                  |
 | SEO-01      | Phase 1 | Plan 01-06 (schema-dts + `<JsonLd>` RSC component)                                                                                                                                            | Pending                               |
 | SEO-02      | Phase 1 | Plan 01-06 (11 schema generators)                                                                                                                                                             | Pending                               |
 | SEO-03      | Phase 1 | Plan 01-06 (`scripts/qa/validate-schema.mjs`)                                                                                                                                                 | Pending                               |
@@ -231,7 +231,7 @@ Per-requirement phase mapping (filled during roadmap creation 2026-05-11). Every
 | IMG-06      | Phase 1 | Plan 01-05 (source allowlist + license enum)                                                                                                                                                  | Pending                               |
 | AUD-01      | Phase 1 | Plan 01-09 (audit dashboard with 34 rules)                                                                                                                                                    | Pending                               |
 | AUD-02      | Phase 1 | Plan 01-09 (per-page scoring using 5 profiles from FND-05)                                                                                                                                    | Pending                               |
-| AUD-03      | Phase 1 | Plan 01-10 (Lighthouse CI 3-run-median config + thresholds)                                                                                                                                   | Pending                               |
+| AUD-03      | Phase 1 | Plan 11 (@lhci/cli@0.15.1 + .lighthouserc.cjs with numberOfRuns:3 + aggregationMethod:median + 4 thresholds asserted as error; treosh/lighthouse-ci-action@v12 in .github/workflows/lighthouse.yml blocks merge on threshold fail; scripts/qa/regression-test.mjs Nyquist proof; data/lighthouse-results.json + /admin/lighthouse RSC view) | ✓ Complete (plan 11)                  |
 | AUD-04      | Phase 1 | Plan 01-01 (Husky + lint-staged pre-commit)                                                                                                                                                   | Pending                               |
 | AUD-05      | Phase 1 | Plan 01-09 (quality-gate report generator); executed end of Phase 2.6                                                                                                                         | Pending                               |
 | CNT-01      | Phase 2 | Plan 02-01 (Jerusalem EN canonical)                                                                                                                                                           | Pending                               |

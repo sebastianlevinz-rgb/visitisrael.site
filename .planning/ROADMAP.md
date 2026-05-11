@@ -11,7 +11,7 @@ Six-phase delivery of a production-ready, bilingual (EN+HE) tourism affiliate we
 - Integer phases (1, 2, 3, 4, 5, 6): Planned milestone work
 - Decimal phases (e.g., 2.1, 2.2): Urgent insertions only (none planned)
 
-- [ ] **Phase 1: Foundation (M1)** — 11 sub-phase plans that build scaffold, design tokens, components, affiliate helpers, photo-credits ledger, schema lib, quality profiles, SEO config, audit dashboard, Lighthouse CI gate, NER detection — BEFORE any region page is written
+- [x] **Phase 1: Foundation (M1)** ✓ Completed 2026-05-11 — 11 sub-phase plans built: scaffold, design tokens, components, affiliate helpers, photo-credits ledger, schema lib, quality profiles, SEO config, audit dashboard, Lighthouse CI gate, NER detection — BEFORE any region page is written. 503/504 tests green; AUD-03 + A11Y-08 closed. Phase 2 (Pilot Jerusalem) eligible (R3 keyword research purchase pending).
 - [ ] **Phase 2: Pilot Region Jerusalem (M2)** — Production-depth Jerusalem in EN+HE with 5-10 sub-destinations, hub pages, legal pages; ends in hard Quality Gate
 - [ ] **Phase 3: Region Replication (M3)** — 10 more regions (Tel Aviv → Akko) using pilot template, each at audit ≥80 / Lighthouse ≥85 soft gate
 - [ ] **Phase 4: Long-tail Sub-destination Sweep (M4)** — Additional sub-destinations beyond the 30-80 of Phase 3, prioritized by Ahrefs/DataForSEO keyword volume
@@ -92,16 +92,16 @@ Generator: `AUD-05` (`/admin/audit/quality-gate` route or `pnpm qa:quality-gate`
 
 Plans:
 
-- [ ] 01-01: Scaffold — Next.js 15.5 + TS strict + Tailwind v4 + next-intl v3 (2 locales registered per Conflict A, 3-locale filesystem) + ESLint flat config + Vercel deploy config + Plausible decision lock-in
+- [x] 01-01: Scaffold — Next.js 15.5 + TS strict + Tailwind v4 + next-intl v3 (2 locales registered per Conflict A, 3-locale filesystem) + ESLint flat config + Vercel deploy config + Plausible decision lock-in ✓ Completed 2026-05-11
 - [x] 01-02: Design tokens — 3-layer (`@theme` foundation → semantic → component); Hebrew Tailwind preset; logical CSS properties only; ESLint enforcement for raw hex (AFF-05 layer A+B) ✓ Completed 2026-05-11
 - [x] 01-03: Component library — 7 primitives + 12 travel composites + 6 layout components (25 total; `<RegionHero>` / `<PhotoGallery>` / `<AffiliateCard>` STUB / `<ShabbatNotice>` STATIC / `<Price>` STATIC / `<SkipNav>` HE+EN) + `/admin/components/` noindex playground (40 static pages) ✓ Completed 2026-05-11
-- [ ] 01-04: Affiliate helpers — 9 real (`bookingLink`, `civitatisLink`, `viatorLink`, `getYourGuideLink`, `rentalcarsLink`, `safetyWingLink`, `skyscannerLink`, `hostelworldLink`, `discoverCarsLink`) + 2 stubs (`klookLink`, `goCityLink`) per Conflict D; Zod validation; 4+ Vitest tests each; ESLint `no-restricted-syntax` for raw partner URLs (AFF-04); `data/affiliate-status.json` + `data/affiliate-availability.json`; Travelpayouts aggregator scaffolded; FTC `<AffiliateDisclosure>` inline component (AFF-06)
-- [ ] 01-05: Photo credits ledger — `data/photo-credits.json` Zod schema (width≥1200, license, author, sourceUrl, blurDataURL, restrictedSiteAcknowledgment for Western Wall/Holy Sepulchre/Dome of the Rock/Bahá'í); `scripts/qa/check-credits.mjs` CI gate; IGPO + Wikimedia source allowlist in `next.config.ts` remotePatterns
-- [ ] 01-06: Schema baseline — `schema-dts` + `lib/schema/{organization,touristDestination,touristAttraction,religiousBuilding,place,localBusiness,breadcrumb,faq,webSite,collectionPage,webPage}.ts` builders; `<JsonLd>` RSC component; `data/religious-sites.json` with paired naming; `scripts/qa/validate-schema.mjs`
+- [x] 01-04: Affiliate helpers — 9 real (`bookingLink`, `civitatisLink`, `viatorLink`, `getYourGuideLink`, `rentalcarsLink`, `safetyWingLink`, `skyscannerLink`, `hostelworldLink`, `discoverCarsLink`) + 2 stubs (`klookLink`, `goCityLink`) per Conflict D; Zod validation; 4+ Vitest tests each; ESLint `no-restricted-syntax` for raw partner URLs (AFF-04); `data/affiliate-status.json` + `data/affiliate-availability.json`; Travelpayouts aggregator scaffolded; FTC `<AffiliateDisclosure>` inline component (AFF-06) ✓ Completed 2026-05-11
+- [x] 01-05: Photo credits ledger — `data/photo-credits.json` Zod schema (width≥1200, license, author, sourceUrl, blurDataURL, restrictedSiteAcknowledgment for Western Wall/Holy Sepulchre/Dome of the Rock/Bahá'í); `scripts/qa/check-credits.mjs` CI gate; IGPO + Wikimedia source allowlist in `next.config.ts` remotePatterns ✓ Completed 2026-05-11
+- [x] 01-06: Schema baseline — `schema-dts` + `lib/schema/{organization,touristDestination,touristAttraction,religiousBuilding,place,localBusiness,breadcrumb,faq,webSite,collectionPage,webPage}.ts` builders; `<JsonLd>` RSC component; `data/religious-sites.json` with paired naming; `scripts/qa/validate-schema.mjs` ✓ Completed 2026-05-11
 - [x] 01-07: Quality scoring profiles — 5 profiles (`REGION_CANONICAL`, `SUB_DESTINATION`, `GUIDE_OR_WINERY`, `UTILITY`, `HUB`) with distinct weight matrices; `scripts/audit/profiles/*.ts` ✓ Completed 2026-05-11
 - [x] 01-08: SEO config — Dynamic `app/sitemap.ts` (registered-locales only — Conflict A), `app/robots.ts` (disallow `/admin/`, `/api/`), hreflang generator (3 alternates: he, en, x-default→EN), `generateMetadataFor` Next.js Metadata builder (self-referential canonical + reciprocal alternates.languages), religious-naming AUD-017..AUD-020 regex helpers, accessibility-link single source of truth for AUD-028, 301 redirect map in `middleware.ts` ✓ Completed 2026-05-11
-- [ ] 01-09: Audit dashboard — `/admin/audit/` behind middleware basic-auth; runs AUD-001..AUD-034 over built pages; per-page score by profile; cached JSON + sortable HTML view; `AUD-05` quality-gate report generator at `/admin/audit/quality-gate`
-- [ ] 01-10: Lighthouse CI gate — `@lhci/cli` with `numberOfRuns: 3` + `aggregationMethod: median`; mobile thresholds perf≥0.90/a11y≥0.95/best-practices≥0.95/seo=1.00; GitHub Action `treosh/lighthouse-ci-action` blocks merge; `data/lighthouse-results.json` persisted
+- [x] 01-09: Audit dashboard (plan 10 file): `/admin/audit/` behind middleware basic-auth; runs AUD-001..AUD-034 over built pages; per-page score by profile; cached JSON + sortable HTML view; `AUD-05` quality-gate report generator at `/admin/audit/quality-gate` ✓ Completed 2026-05-11
+- [x] 01-10: Lighthouse CI gate (plan 11 file): `@lhci/cli@0.15.1` with `numberOfRuns: 3` + `aggregationMethod: median`; mobile thresholds perf≥0.90/a11y≥0.95/best-practices≥0.95/seo=1.00; GitHub Action `treosh/lighthouse-ci-action@v12` blocks merge; `data/lighthouse-results.json` persisted via `scripts/qa/persist-lhci.mjs` post-autorun hook; regression-test harness Nyquist proof + `/admin/lighthouse` RSC view + IS 5568 supplementary a11y check via Python wrapper ✓ Completed 2026-05-11
 - [x] 01-09 (actual filename) / 01-11 (legacy roadmap numbering): NER detection — `data/entity-dict.json` (6 classes × 113 starter entries: tour/hotel/restaurant/museum/transport/religious_site); `lib/ner/detector.ts` dictionary-backed regex with ±300 char AffiliateCard/Link coverage heuristic; `scripts/audit/scan-ner.ts` Velite walker (run via tsx) writing `data/ner-results.json` for plan 10 consumption; `pnpm qa:ner` CLI ✓ Completed 2026-05-11
 
 ---
@@ -256,7 +256,7 @@ Quality Gate failure between 2 and 3 halts the workflow; no auto-advance to Phas
 
 | Phase                                  | Plans Complete | Status      | Completed |
 | -------------------------------------- | -------------- | ----------- | --------- |
-| 1. Foundation (M1)                     | 10/11          | In Progress | -         |
+| 1. Foundation (M1)                     | 11/11          | Complete    | 2026-05-11 |
 | 2. Pilot Jerusalem (M2)                | 0/6            | Not started | -         |
 | — Quality Gate (hard stop)             | —              | Not reached | -         |
 | 3. Region Replication (M3)             | 0/11           | Not started | -         |
