@@ -28,7 +28,7 @@ The Quality Gate is NOT a phase. It is a **conditional advance** between Phase 2
 | 2   | 4/6                                        | Complete                                                                                   | 2026-05-11                  |
 | 3   | Critical bugs                              | 0                                                                                          | manual + AUD scan           |
 | 4   | Affiliate coverage of applicable partners  | ≥80% of applicable per page (5+ active on region canonical)                                | AUD-031 + AFF-01            |
-| 5   | EN + HE parity                             | 100% — every EN page has HE counterpart and vice-versa                                     | I18N-05 + AUD-032           |
+| 5   | 1/2                                        | In Progress                                                                                |                             |
 | 6   | Credited images ≥1200px                    | 100% of imported images have ledger entry, ≥1200px, srcset                                 | IMG-01, IMG-02, IMG-03      |
 | 7   | Raw hex codes in components                | 0 (excluding `tailwind.config.ts` / `@theme` foundation layer)                             | AFF-05 + AUD-001            |
 | 8   | hreflang valid (bidirectional + x-default) | every page emits `he` + `en` + `x-default`; reciprocal; canonical never cross-locale       | I18N-05 + AUD-032 + AUD-033 |
