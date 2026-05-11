@@ -4,14 +4,14 @@ milestone: v1.0
 milestone_name: milestone
 current_plan: 'Phase 4 COMPLETE — `/gsd:execute-phase 05` next (Phase 5 Legal + Launch Prep, 4 plans)'
 status: 'Phase 4 minimal-deferral close. 1 plan / 2 docs shipped: data/long-tail-backlog.md (53 proxied candidates across 11 regions) + data/long-tail-trigger.md (operational handoff for `/gsd:plan-phase 4 --gaps` reactivation cycle). NO MDX shipped — Argentina lesson #9 prevention (proxied volumes → ~70% wrong-intent rankings within 3 months in the Argentina retrospective). Substantive long-tail authoring deferred pending R3 keyword purchase (DataForSEO $50 default, Ahrefs Lite $129/mo alternative). Phase 5 unblocks immediately; long-tail expansion remains an open post-launch workstream.'
-stopped_at: Completed 05-02-pre-deploy-handoff-PLAN.md — Phase 5 COMPLETE (2/2 plans); Phase 6 plan 04 next autonomous work
-last_updated: '2026-05-11T19:58:59.760Z'
+stopped_at: Completed 06-01-post-launch-backlog-PLAN.md — v1.0 autonomous-runway COMPLETE; user-driven deploy chain (data/pre-deploy-checklist.md) is next
+last_updated: '2026-05-11T20:08:04.762Z'
 last_activity: '2026-05-11 — Phase 2.6 Quality Gate PASS: scripts/audit/quality-gate.ts refactored to export pure helpers (evaluateCriteria, composeReport, writeReport, isAdminOrUtility) for Vitest pinning; 17 new tests pin mode auto-flip (structural<->content via contentPages.length) + per-criterion DEFER/PASS/FAIL semantics + Lighthouse threshold evaluation + full PASS/FAIL report markdown rendering. Pre-existing Plan 05 deferred-items.md homepage BreadcrumbList <2 schema error resolved by removing BreadcrumbList from app/[locale]/page.tsx (Option 1 over synthetic 2-item pair, CollectionPage alone satisfies AUD-033). Manual SERP review checklist template + filled instance (8 DEFERRED verdicts with per-keyword confidence proxy + post-launch human-review SLA per CONTEXT.md proxied-R3 strategy). Full QA pipeline: build OK + qa:credits OK + qa:schema 0 errors (77 pages / 68 JSON-LD) + qa:audit 0 critical / all 30 content pages >=85 + qa:axe stub + qa:audit-a11y Windows stub + qa:lighthouse Windows EPERM (empty baseline preserved → criterion 1 DEFERS cleanly). pnpm qa:quality-gate PASS mode=content. 805 tests green (+17 new). 15 min, 3 commits, 1 auto-fix (BreadcrumbList removal). CNT-01..07 + A11Y-03/04/05 + SEO-04 + IMG-04/05 verified at gate. Total Phase 2 wall-clock: 173 min (2h 53min).'
 progress:
   total_phases: 6
-  completed_phases: 5
-  total_plans: 31
-  completed_plans: 31
+  completed_phases: 6
+  total_plans: 32
+  completed_plans: 32
   percent: 100
 ---
 
@@ -84,6 +84,7 @@ _Updated after each plan completion_
 | Phase 04-long-tail-sweep-m4 P01-long-tail-backlog | 4 min | 2 tasks | 2 files |
 | Phase 05-legal-launch-prep-m5 P01 | 22min | 2 tasks | 3 files |
 | Phase 05-legal-launch-prep-m5 P02 | 3min | 2 tasks | 2 files |
+| Phase 06-production-deploy-m6 P01 | 4min | 2 tasks | 2 files |
 
 ## Accumulated Context
 
@@ -230,6 +231,9 @@ Recent decisions affecting current work:
 - [Phase 05-legal-launch-prep-m5]: Phase 05 Plan 02 — Step 9 (Vercel Cron) deferred-by-design to Phase 6 plan 02: vercel.json cron block + route handler are Phase 6 work; checklist documents the gap explicitly. Phase 5 COMPLETE checklist accommodates 11/12 boxes (deferred-by-design, not deferred-by-failure).
 - [Phase 05-legal-launch-prep-m5]: Phase 05 Plan 02 — Env-var template aligned with helper source-of-truth (NEXT_PUBLIC_VIATOR_PID+MCID, NEXT_PUBLIC_GYG_PARTNER_ID, NEXT_PUBLIC_SAFETYWING_REF) over plan prose: helpers are deployed contract; doc must match production behavior. Verified via process.env grep across lib/affiliate/\*.ts. Alignment-with-source, not deviation.
 - [Phase 05-legal-launch-prep-m5]: Phase 05 Plan 02 — Klook + GoCity env vars surfaced in template as STUB (DO NOT populate v1) rather than omitted: documents Conflict D resolution at env-var-reference layer; operator who traces NoIsraelInventoryError lands on template entry without context-switching to SUMMARY docs; quarterly re-review pointer included.
+- [Phase 06-production-deploy-m6]: Plan 06-01 — 6-field backlog entry contract (Source / Rationale / Reactivation trigger / Effort / Priority / Dependencies) is the post-launch v1-deferral artifact pattern; 22 items synthesized from existing project sources (PROJECT.md / ROADMAP / SUMMARY §6 / Phase 1-5 SUMMARYs) with no invented items; quarterly grooming + ad-hoc trigger cadence codified
+- [Phase 06-production-deploy-m6]: Plan 06-01 — m6 completion-report is a values-empty TEMPLATE-AWAITING-DEPLOY skeleton (8 sections matching ROADMAP Phase 6 success criteria) filled in post-deploy by user; closing workflow block codifies rename + commit + phase complete + /gsd:complete-milestone v1.0
+- [Phase 06-production-deploy-m6]: v1.0 autonomous-runway COMPLETE — 32/32 autonomous plans across Phases 1-6 shipped; Phase 6 plans 02-04 (deploy / GSC / monitoring) are user-gated and NOT scaffolded per 06-VALIDATION.md nyquist-compliant minimal-autonomous close; operator re-plans via /gsd:plan-phase 6 --gaps AFTER data/pre-deploy-checklist.md execution
 
 ### Pending Todos
 
@@ -253,6 +257,6 @@ None yet.
 
 ## Session Continuity
 
-Last session: 2026-05-11T19:57:42.290Z
-Stopped at: Completed 05-02-pre-deploy-handoff-PLAN.md — Phase 5 COMPLETE (2/2 plans); Phase 6 plan 04 next autonomous work
+Last session: 2026-05-11T20:08:04.756Z
+Stopped at: Completed 06-01-post-launch-backlog-PLAN.md — v1.0 autonomous-runway COMPLETE; user-driven deploy chain (data/pre-deploy-checklist.md) is next
 Resume file: None

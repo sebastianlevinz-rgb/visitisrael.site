@@ -120,8 +120,8 @@ Argentina lesson #3 fix — image contract enforced day-1.
 - [ ] **DEP-02**: Google Search Console verified; sitemap submitted; IndexNow ping configured
 - [x] **DEP-03**: Audit dashboard accessible at `/admin/audit/` behind basic auth (middleware via env-stored credentials)
 - [ ] **DEP-04**: Lighthouse CI history retained for 90 days (regression detection)
-- [ ] **DEP-05**: Affiliate health monitor: weekly cron via Vercel Cron Jobs that HEAD-checks every affiliate URL pattern and writes failures to `data/affiliate-health.json`
-- [ ] **DEP-06**: `data/post-launch-backlog.md` enumerates everything punted (FR locale, Hebrew slugs, RU locale, Klook activation, GoCity activation, user accounts, AI itineraries) with rationale and re-evaluation trigger
+- [x] **DEP-05**: Affiliate health monitor: weekly cron via Vercel Cron Jobs that HEAD-checks every affiliate URL pattern and writes failures to `data/affiliate-health.json`
+- [x] **DEP-06**: `data/post-launch-backlog.md` enumerates everything punted (FR locale, Hebrew slugs, RU locale, Klook activation, GoCity activation, user accounts, AI itineraries) with rationale and re-evaluation trigger
 
 ---
 

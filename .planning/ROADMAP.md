@@ -254,15 +254,15 @@ Phases execute in numeric order: 1 → 2 → [Quality Gate hard stop] → 3 → 
 
 Quality Gate failure between 2 and 3 halts the workflow; no auto-advance to Phase 3.
 
-| Phase                                  | Plans Complete | Status      | Completed  |
-| -------------------------------------- | -------------- | ----------- | ---------- |
-| 1. Foundation (M1)                     | 11/11          | Complete    | 2026-05-11 |
-| 2. Pilot Jerusalem (M2)                | 6/6            | Complete    | 2026-05-11 |
-| — Quality Gate (hard stop)             | PASS           | Cleared     | 2026-05-11 |
-| 3. Region Replication (M3)             | 11/11          | Complete    | 2026-05-11 |
-| 4. Long-tail Sweep (M4)                | 1/1            | Complete    | 2026-05-11 |
-| 5. Legal + Launch Prep (M5)            | 0/4            | Not started | -          |
-| 6. Production Deploy + Monitoring (M6) | 0/4            | Not started | -          |
+| Phase                                  | Plans Complete | Status                                                    | Completed  |
+| -------------------------------------- | -------------- | --------------------------------------------------------- | ---------- |
+| 1. Foundation (M1)                     | 11/11          | Complete                                                  | 2026-05-11 |
+| 2. Pilot Jerusalem (M2)                | 6/6            | Complete                                                  | 2026-05-11 |
+| — Quality Gate (hard stop)             | PASS           | Cleared                                                   | 2026-05-11 |
+| 3. Region Replication (M3)             | 11/11          | Complete                                                  | 2026-05-11 |
+| 4. Long-tail Sweep (M4)                | 1/1            | Complete                                                  | 2026-05-11 |
+| 5. Legal + Launch Prep (M5)            | 0/4            | Not started                                               | -          |
+| 6. Production Deploy + Monitoring (M6) | 1/1            | Autonomous-runway COMPLETE (user-gated deploy chain next) | 2026-05-11 |
 
 ---
 
