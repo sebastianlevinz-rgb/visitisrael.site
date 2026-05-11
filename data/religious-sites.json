@@ -1,0 +1,6 @@
+{
+  "_meta": {
+    "description": "Paired-naming dictionary for religious sites (SEO-04, AUD-017..AUD-020). Populated by plan 04 Task 2.",
+    "schema": "lib/schema/types.ts → ReligiousSiteEntry"
+  }
+}

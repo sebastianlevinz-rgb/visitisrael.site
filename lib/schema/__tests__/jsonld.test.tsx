@@ -10,23 +10,23 @@ import { JsonLd } from '@/components/JsonLd';
 
 describe('<JsonLd>', () => {
   it('renders a <script type="application/ld+json"> tag', () => {
-    const schema: WithContext<TouristDestination> = {
+    const schema = {
       '@context': 'https://schema.org',
       '@type': 'TouristDestination',
       name: 'Jerusalem',
-    };
+    } as unknown as WithContext<TouristDestination>;
     const { container } = render(<JsonLd schema={schema} />);
     const script = container.querySelector('script[type="application/ld+json"]');
     expect(script).not.toBeNull();
   });
 
   it('innerHTML is JSON.stringify(schema)', () => {
-    const schema: WithContext<TouristDestination> = {
+    const schema = {
       '@context': 'https://schema.org',
       '@type': 'TouristDestination',
       name: 'Jerusalem',
       inLanguage: 'en',
-    };
+    } as unknown as WithContext<TouristDestination>;
     const { container } = render(<JsonLd schema={schema} />);
     const script = container.querySelector('script[type="application/ld+json"]');
     expect(script?.innerHTML).toBe(JSON.stringify(schema));

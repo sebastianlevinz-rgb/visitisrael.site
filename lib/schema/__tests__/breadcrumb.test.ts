@@ -6,6 +6,8 @@ import { describe, it, expect } from 'vitest';
 import { buildBreadcrumb } from '../breadcrumb';
 import { canonicalUrl } from '../../seo/canonical';
 
+type JsonLdShape = Record<string, unknown>;
+
 describe('buildBreadcrumb', () => {
   it('produces BreadcrumbList with at least 2 items', () => {
     const bc = buildBreadcrumb({
@@ -15,10 +17,10 @@ describe('buildBreadcrumb', () => {
         { slug: 'jerusalem', name: 'Jerusalem' },
         { slug: 'jerusalem/western-wall', name: 'Western Wall' },
       ],
-    });
+    }) as unknown as JsonLdShape;
     expect(bc['@context']).toBe('https://schema.org');
     expect(bc['@type']).toBe('BreadcrumbList');
-    const items = (bc as { itemListElement: unknown[] }).itemListElement;
+    const items = bc['itemListElement'] as unknown[];
     expect(items.length).toBeGreaterThanOrEqual(2);
   });
 
@@ -29,17 +31,13 @@ describe('buildBreadcrumb', () => {
         { slug: '', name: 'Home' },
         { slug: 'jerusalem', name: 'Jerusalem' },
       ],
-    });
-    const items = (
-      bc as {
-        itemListElement: Array<{
-          '@type': string;
-          position: number;
-          name: string;
-          item: string;
-        }>;
-      }
-    ).itemListElement;
+    }) as unknown as JsonLdShape;
+    const items = bc['itemListElement'] as Array<{
+      '@type': string;
+      position: number;
+      name: string;
+      item: string;
+    }>;
     expect(items[0]?.['@type']).toBe('ListItem');
     expect(items[0]?.position).toBe(1);
     expect(items[0]?.name).toBe('Home');
@@ -55,8 +53,8 @@ describe('buildBreadcrumb', () => {
         { slug: '', name: 'בית' },
         { slug: 'jerusalem', name: 'ירושלים' },
       ],
-    });
-    expect((bcHe as { inLanguage: string }).inLanguage).toBe('he');
+    }) as unknown as JsonLdShape;
+    expect(bcHe['inLanguage']).toBe('he');
   });
 
   it('@id includes the deepest segment canonical URL', () => {
@@ -66,7 +64,7 @@ describe('buildBreadcrumb', () => {
         { slug: '', name: 'Home' },
         { slug: 'jerusalem', name: 'Jerusalem' },
       ],
-    });
-    expect(bc['@id']).toContain(canonicalUrl('jerusalem', 'en'));
+    }) as unknown as JsonLdShape;
+    expect(bc['@id'] as string).toContain(canonicalUrl('jerusalem', 'en'));
   });
 });
