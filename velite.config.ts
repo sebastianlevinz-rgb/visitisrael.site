@@ -96,11 +96,26 @@ const legal = defineCollection({
     // MDX body to a function-body string that `<MDXContent>` evaluates with
     // the shared mdxComponents map.
     body: s.mdx(),
-    // Velite is open-frontmatter by default: extended fields used by the
-    // accessibility-statement (accessibility_coordinator + last_audit_date)
-    // pass through without being declared in the Zod schema. Declaring them
-    // optionally here would force them on EVERY legal page; we keep them
-    // unstated so only accessibility-statement.mdx authors them.
+    // A11Y-04 / IS 5568 — accessibility-statement.mdx ships a named
+    // coordinator (real name + reachable phone + monitored email) plus a
+    // last_audit_date within the last 90 days. The fields are declared as
+    // optional so the other 4 legal pages (about/contact/privacy/
+    // affiliate-disclosure) don't have to carry them, but when present
+    // they survive Velite's Zod strip-unknown default behavior.
+    accessibility_coordinator: s
+      .object({
+        name: s.string().min(1),
+        phone: s.string().min(7),
+        email: s.string().email(),
+      })
+      .optional(),
+    // Keep last_audit_date as raw YYYY-MM-DD string (NOT `s.isodate()` which
+    // normalizes to a full ISO datetime). The coordinator-format Vitest test
+    // asserts the literal `^\d{4}-\d{2}-\d{2}$` shape per A11Y-04 contract.
+    last_audit_date: s
+      .string()
+      .regex(/^\d{4}-\d{2}-\d{2}$/, 'last_audit_date must be YYYY-MM-DD')
+      .optional(),
   }),
 });
 
