@@ -15,7 +15,7 @@ This aggregate report is populated as each Phase 3 plan's Task 4 (per-region sof
 | negev               | 12 (2 canonical + 10 sub-dest) | 6 distinct (booking, viator, getYourGuide, civitatis, rentalcars, safetyWing) — image-gap canary REG-05             | DEFERRED-CI-owns | EN=100/HE=100                 | AUD-017..020=0 violations                       | PASS      |
 | nazareth            | 10 (2 canonical + 8 sub-dest)  | 6 distinct (booking, viator, getYourGuide, civitatis, skyscanner, rentalcars, safetyWing) + 2 PlaceOfWorship        | DEFERRED-CI-owns | EN=100/HE=100                 | AUD-017..020=0 violations                       | PASS      |
 | haifa               | 12 (2 canonical + 10 sub-dest) | 6 distinct (booking, getYourGuide, civitatis, viator, skyscanner, rentalcars, safetyWing) + Stella Maris PoW        | DEFERRED-CI-owns | EN=100/HE=100                 | AUD-017..020=0 violations                       | PASS      |
-| golan               | —                              | —                                                                                                                   | —                | —                             | —                                               | pending   |
+| golan               | 12 (2 canonical + 10 sub-dest) | 6 distinct (booking, viator, getYourGuide, skyscanner, rentalcars, safetyWing) — AUD-018 neutral framing            | DEFERRED-CI-owns | EN=100/HE=100                 | AUD-018=0 violations; Druze respectful framing  | PASS      |
 | caesarea            | 10 (2 canonical + 8 sub-dest)  | 7 distinct (booking, civitatis, getYourGuide, viator, skyscanner, rentalcars, safetyWing)                           | DEFERRED-CI-owns | EN=100/HE=100                 | AUD-017..020=0 violations                       | PASS      |
 | akko                | 12 (2 canonical + 10 sub-dest) | 7 distinct (booking, civitatis, getYourGuide, viator, skyscanner, rentalcars, safetyWing) + 1 Place (bahai-mansion) | DEFERRED-CI-owns | EN=100/HE=100                 | AUD-017..020=0 violations; AUD-026 0 violations | PASS      |
 | west-bank/bethlehem | —                              | —                                                                                                                   | —                | —                             | —                                               | pending   |
@@ -32,6 +32,7 @@ This aggregate report is populated as each Phase 3 plan's Task 4 (per-region sof
 | nazareth | PASS |
 | haifa    | PASS |
 | akko     | PASS |
+| golan    | PASS |
 
 (One-line per-region status mirror — readable by the plan's verify regex `\|\s*{region}\s*\|.*PASS \|` after prettier-aligned columns are minimized.)
 
