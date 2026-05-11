@@ -103,6 +103,19 @@ const STATIC_PATHS = [
   '/caesarea/harbour',
   '/caesarea/aqueduct-beach',
   '/caesarea/ralli-museum',
+  // Phase 3.7 — Haifa canonical + 5 sub-destinations (Wave 4; POLICY-GAP CANARY
+  // for REG-05). Bahá'í Gardens emits Place (NOT PlaceOfWorship per Bahá'í
+  // convention — Shrine of the Báb is the holy site, gardens are landscape
+  // architecture; renderer fallback to TouristAttraction-only via no
+  // religiousSiteId). Stella Maris emits PlaceOfWorship (Carmelite Catholic).
+  // German Colony / Wadi Nisnas / Carmel National Park = TouristAttraction only.
+  // ALL Bahá'í-subject images carry restrictedSiteAcknowledgment (AUD-026).
+  '/haifa',
+  '/haifa/bahai-gardens',
+  '/haifa/german-colony',
+  '/haifa/stella-maris',
+  '/haifa/wadi-nisnas',
+  '/haifa/carmel-national-park',
 ];
 
 /** Convert a (locale, path) pair to a fully-qualified URL string. */
