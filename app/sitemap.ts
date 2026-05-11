@@ -75,6 +75,16 @@ const STATIC_PATHS = [
   '/eilat/timna-park',
   '/eilat/dolphin-reef',
   '/eilat/red-canyon',
+  // Phase 3.5 — Negev canonical + 5 sub-destinations (Wave 3; image-gap canary
+  // for REG-05; all TouristAttraction-only — Avdat is Nabataean archaeological
+  // not PlaceOfWorship; Ben-Gurion grave at Sde Boker is national-memorial;
+  // Bedouin hospitality is experiential community-partnership).
+  '/negev',
+  '/negev/mitzpe-ramon',
+  '/negev/avdat',
+  '/negev/sde-boker',
+  '/negev/ein-avdat',
+  '/negev/bedouin-hospitality',
 ];
 
 /** Convert a (locale, path) pair to a fully-qualified URL string. */
