@@ -7,8 +7,10 @@
  *   1. <RegionHero> — Jerusalem hero image, frontmatter-free copy from translations
  *      (homepage doesn't read Velite; it owns its own copy via i18n + regions.json).
  *      `priority` + `fetchpriority="high"` per IMG-04 (RegionHero contract).
- *   2. <JsonLd> — CollectionPage schema (HUB profile required type) +
- *      BreadcrumbList (Home only — single segment).
+ *   2. <JsonLd> — CollectionPage schema (HUB profile required type).
+ *      No BreadcrumbList: the homepage IS the root, Schema.org requires
+ *      itemListElement.length >= 2 (Plan 06 fix-forward of the Plan 05
+ *      deferred BreadcrumbList <2 schema error).
  *   3. Region grid — 11 cards from `data/regions.json`. Status "live" → next/link
  *      to /<locale>/<slug>; Status "coming-soon" → aria-disabled card with the
  *      "Coming soon" / "בקרוב" label. Locale-aware blurbs.
@@ -29,7 +31,7 @@ import type { Metadata } from 'next';
 
 import { JsonLd } from '@/components/JsonLd';
 import { RegionHero } from '@/components/travel/RegionHero';
-import { buildCollectionPage, buildBreadcrumb } from '@/lib/schema';
+import { buildCollectionPage } from '@/lib/schema';
 import { generateMetadataFor } from '@/lib/seo/metadata';
 import { canonicalUrl } from '@/lib/seo/canonical';
 import type { Locale } from '@/i18n-config';
@@ -57,7 +59,8 @@ const HOMEPAGE_COPY = {
       'מדריכי תיירות לישראל מאת מומחים מקומיים: ירושלים, תל אביב, ים המלח, הגליל ועוד. אחד עשר אזורים, מסלולים בני שלושה ימים והזמנות אמינות.',
     hero: {
       title: 'ביקור בישראל',
-      subtitle: 'מדריך תיירות דו-לשוני: אחד עשר אזורים, מסלולי טיול וטיפים מעשיים.',
+      subtitle:
+        'מדריך תיירות דו-לשוני: אחד עשר אזורים, מסלולי טיול וטיפים מעשיים.',
     },
     regionsHeading: 'אזורי הביקור',
     ctaExploreJerusalem: 'לטיול בירושלים',
@@ -115,7 +118,11 @@ export default async function HomePage({ params }: HomePageProps) {
   const pageUrl = canonicalUrl('', locale);
   const homeUrl = pageUrl;
 
-  // CollectionPage schema (HUB profile requiredSchemaTypes).
+  // CollectionPage schema (HUB profile requiredSchemaTypes). AUD-033
+  // schema-presence is satisfied by CollectionPage alone — no BreadcrumbList
+  // emitted because the homepage is the root and Schema.org requires
+  // BreadcrumbList.itemListElement.length >= 2 (Plan 05 deferred-items.md →
+  // Plan 06 fix-forward).
   const collectionSchema = buildCollectionPage({
     slug: '',
     name: copy.title,
@@ -124,17 +131,9 @@ export default async function HomePage({ params }: HomePageProps) {
     image: '/images/regions/jerusalem/hero.jpg',
   });
 
-  // BreadcrumbList — single segment for the homepage so plan-10's AUD-033
-  // schema-presence check has a payload to validate.
-  const breadcrumbSchema = buildBreadcrumb({
-    lang: locale,
-    segments: [{ slug: '', name: copy.home }],
-  });
-
   return (
     <>
       <JsonLd schema={collectionSchema} />
-      <JsonLd schema={breadcrumbSchema} />
       <RegionHero
         imageSrc="/images/regions/jerusalem/hero.jpg"
         title={copy.hero.title}

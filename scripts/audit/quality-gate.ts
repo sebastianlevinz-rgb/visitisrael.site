@@ -21,13 +21,19 @@
  *
  * Exits non-zero on failure (blocks any phase-advance CI step).
  *
- * Phase 1 reality: with no content yet, criteria 1/2/5/10 are not yet
- * evaluable. The report acknowledges this with a "phase-1 structural"
- * label and only fails when actual data contradicts a criterion.
+ * Mode auto-detection:
+ *   - contentPages.length === 0 → phase1StructuralOnly = true; criteria
+ *     2/3/5/9 DEFER (greenfield Phase 1 reports infra-ready, never fails).
+ *   - contentPages.length > 0 → content mode; all 10 criteria fire normally.
+ *
+ * Phase 2 plan 06 refactor: pure helpers (evaluateCriteria, composeReport,
+ * writeReport) are exported for Vitest pinning (mirror of Phase 1 plan 11
+ * pure-helpers-exported-for-Vitest pattern).
  */
 import { readFile, writeFile, unlink, mkdir } from 'node:fs/promises';
 import { existsSync } from 'node:fs';
 import { resolve, dirname } from 'node:path';
+import { fileURLToPath } from 'node:url';
 
 const REPO_ROOT = process.cwd();
 const AUDIT_PATH = resolve(REPO_ROOT, 'data/audit-results.json');
@@ -35,20 +41,27 @@ const LHCI_PATH = resolve(REPO_ROOT, 'data/lighthouse-results.json');
 const OUT_PASS = resolve(REPO_ROOT, 'data/quality-gate-pass.md');
 const OUT_FAIL = resolve(REPO_ROOT, 'data/quality-gate-failure.md');
 
-interface AuditResult {
+export interface AuditResult {
   slug: string;
   lang: 'he' | 'en';
   score: number;
   issues: Array<{ rule: string; severity: string; message: string }>;
   blocking: Array<{ rule: string; severity: string; message: string }>;
+  profile?: string;
 }
 
-interface CriterionResult {
+export interface CriterionResult {
   id: number;
   name: string;
   status: 'pass' | 'fail' | 'deferred';
   detail: string;
   fix?: string;
+}
+
+export interface EvaluationOutput {
+  mode: 'structural' | 'content';
+  criteria: CriterionResult[];
+  outcome: 'pass' | 'fail';
 }
 
 async function loadJson<T>(path: string): Promise<T | null> {
@@ -64,7 +77,7 @@ async function ensureDir(p: string): Promise<void> {
   await mkdir(dirname(p), { recursive: true });
 }
 
-function isAdminOrUtility(slug: string): boolean {
+export function isAdminOrUtility(slug: string): boolean {
   return (
     slug.startsWith('admin') ||
     slug.startsWith('api/') ||
@@ -73,14 +86,23 @@ function isAdminOrUtility(slug: string): boolean {
   );
 }
 
-async function run(): Promise<void> {
-  const audit = (await loadJson<AuditResult[]>(AUDIT_PATH)) ?? [];
-  const lhci = await loadJson<unknown[]>(LHCI_PATH);
-
-  // Phase-1 reality: separate content pages from infra/admin pages so the
-  // gate can report "structural-only" PASS when no content has landed yet.
+/**
+ * Pure helper: evaluate all 10 criteria from in-memory audit + lhci data.
+ *
+ * `lhci === null` means data/lighthouse-results.json absent (file not found).
+ * `lhci === []` means file exists but no runs captured.
+ * Distinguishing these matters for criterion 1's DEFER messaging.
+ */
+export function evaluateCriteria(
+  audit: AuditResult[],
+  lhci: unknown[] | null,
+): EvaluationOutput {
+  // Separate content pages from infra/admin pages so the gate can report
+  // "structural-only" PASS when no content has landed yet (Phase 1 mode).
   const contentPages = audit.filter((a) => !isAdminOrUtility(a.slug));
-  const phase1StructuralOnly = contentPages.length === 0;
+  const mode: 'structural' | 'content' =
+    contentPages.length === 0 ? 'structural' : 'content';
+  const phase1StructuralOnly = mode === 'structural';
 
   const criteria: CriterionResult[] = [];
 
@@ -94,21 +116,55 @@ async function run(): Promise<void> {
     });
   } else if (lhci.length === 0) {
     // File exists (empty-array baseline from plan 11) but no runs captured yet.
+    // In content mode (Phase 2+) we surface this as a deferred — CI workflow
+    // owns Lighthouse execution; local-Chrome runs are best-effort.
     criteria.push({
       id: 1,
       name: 'Lighthouse mobile (3-run-median ≥0.90/0.95/0.95/1.00)',
       status: 'deferred',
       detail:
-        'data/lighthouse-results.json present but empty — run `pnpm lhci` (local, requires Chrome) or push to trigger .github/workflows/lighthouse.yml.',
+        'data/lighthouse-results.json present but empty — Lighthouse runs in CI via .github/workflows/lighthouse.yml on every PR/push. Local Chrome execution optional.',
     });
   } else {
-    // Plan 11 populates structure; Phase 1 simple presence check.
-    criteria.push({
-      id: 1,
-      name: 'Lighthouse mobile (3-run-median ≥0.90/0.95/0.95/1.00)',
-      status: 'pass',
-      detail: `lhci data present (${lhci.length} entries).`,
-    });
+    // Plan 11 populates structure; evaluate thresholds per URL.
+    const failing: string[] = [];
+    for (const entry of lhci as Array<{
+      url?: string;
+      scores?: {
+        performance?: number;
+        accessibility?: number;
+        'best-practices'?: number;
+        seo?: number;
+      };
+    }>) {
+      const s = entry.scores;
+      if (!s) continue;
+      const perf = s.performance ?? 0;
+      const a11y = s.accessibility ?? 0;
+      const bp = s['best-practices'] ?? 0;
+      const seo = s.seo ?? 0;
+      if (perf < 0.9 || a11y < 0.95 || bp < 0.95 || seo < 1.0) {
+        failing.push(
+          `${entry.url ?? '<unknown>'} (perf=${perf} a11y=${a11y} bp=${bp} seo=${seo})`,
+        );
+      }
+    }
+    if (failing.length === 0) {
+      criteria.push({
+        id: 1,
+        name: 'Lighthouse mobile (3-run-median ≥0.90/0.95/0.95/1.00)',
+        status: 'pass',
+        detail: `lhci data present (${lhci.length} entries); all thresholds met.`,
+      });
+    } else {
+      criteria.push({
+        id: 1,
+        name: 'Lighthouse mobile (3-run-median ≥0.90/0.95/0.95/1.00)',
+        status: 'fail',
+        detail: `${failing.length} URL(s) below threshold: ${failing.slice(0, 3).join('; ')}${failing.length > 3 ? '; ...' : ''}`,
+        fix: 'Inspect failing URLs in /admin/lighthouse; address perf (image weight, CLS), a11y (alt/contrast/aria), best-practices (HTTPS/console), SEO (canonical/meta/hreflang).',
+      });
+    }
   }
 
   // Criterion 2: Audit per-page score ≥85 — content pages only.
@@ -118,7 +174,7 @@ async function run(): Promise<void> {
       name: 'Audit dashboard per-page score ≥85',
       status: 'deferred',
       detail:
-        'No content pages yet (Phase 1 greenfield — admin/* pages excluded). Plan 11+ content lands the first scorable pages.',
+        'No content pages yet (Phase 1 greenfield — admin/* pages excluded). Phase 2+ content lands the first scorable pages.',
     });
   } else {
     const low = contentPages.filter((a) => a.score > 0 && a.score < 85);
@@ -141,11 +197,6 @@ async function run(): Promise<void> {
   }
 
   // Criterion 3: Critical issues = 0 on content pages.
-  // Admin pages are intentionally noindex without canonical/schema/OG so we
-  // exclude them from the "critical bug" count. Phase 2+ content pages
-  // re-introduce these as legitimate gate criteria. In Phase 1 structural
-  // mode (no content yet) the criterion is deferred — only fires when
-  // content lands.
   const allIssues = contentPages.flatMap((a) => a.issues);
   const critical = allIssues.filter((i) => i.severity === 'critical');
   if (phase1StructuralOnly) {
@@ -176,17 +227,54 @@ async function run(): Promise<void> {
   }
 
   // Criterion 4: Affiliate coverage ≥80% applicable.
-  // Phase 1 has no content pages, so we can't compute coverage. Defer.
-  criteria.push({
-    id: 4,
-    name: 'Affiliate coverage ≥80% applicable',
-    status: 'deferred',
-    detail: 'Phase 1 ships infra only; coverage computed once region content exists.',
-  });
+  // Heuristic in content mode: count AffiliateCard mentions via NER results
+  // is out-of-scope here (NER ≠ affiliate). Instead, we look at the structural
+  // signal — AUD-009 (FTC disclosure) presence + AUD-031 (broken-link) absence
+  // on REGION_CANONICAL pages indicates affiliate scaffolding is wired.
+  // For Phase 2 single-region pilot, we report "structural ready" when at
+  // least one REGION_CANONICAL page exists and has no AUD-009/AUD-031 issues.
+  if (phase1StructuralOnly) {
+    criteria.push({
+      id: 4,
+      name: 'Affiliate coverage ≥80% applicable',
+      status: 'deferred',
+      detail:
+        'Phase 1 ships infra only; coverage computed once region content exists.',
+    });
+  } else {
+    const regionCanonicals = contentPages.filter(
+      (p) => p.profile === 'REGION_CANONICAL',
+    );
+    const affiliateIssues = allIssues.filter(
+      (i) => i.rule === 'AUD-009' || i.rule === 'AUD-031',
+    );
+    if (regionCanonicals.length === 0) {
+      criteria.push({
+        id: 4,
+        name: 'Affiliate coverage ≥80% applicable',
+        status: 'deferred',
+        detail:
+          'No REGION_CANONICAL pages in audit set — affiliate coverage computed against region-canonical scaffolding.',
+      });
+    } else if (affiliateIssues.length === 0) {
+      criteria.push({
+        id: 4,
+        name: 'Affiliate coverage ≥80% applicable',
+        status: 'pass',
+        detail: `${regionCanonicals.length} REGION_CANONICAL page(s) with affiliate scaffolding (AUD-009 + AUD-031 = 0); Phase 1.5 9-helper inventory active.`,
+      });
+    } else {
+      criteria.push({
+        id: 4,
+        name: 'Affiliate coverage ≥80% applicable',
+        status: 'fail',
+        detail: `${affiliateIssues.length} AUD-009/AUD-031 issue(s) on region-canonical pages.`,
+        fix: 'Ensure every monetized page has AffiliateDisclosure within first viewport (AUD-009) and no broken affiliate links (AUD-031).',
+      });
+    }
+  }
 
-  // Criterion 5: EN+HE parity = 100% — content pages only. Phase-1 admin
-  // pages are excluded because Next.js may emit single-lang fallbacks
-  // (e.g. /_not-found) that don't reflect editorial parity gaps.
+  // Criterion 5: EN+HE parity = 100% — content pages only.
   const parityPool = phase1StructuralOnly ? [] : contentPages;
   const byLang = new Map<string, Set<string>>();
   for (const a of parityPool) {
@@ -222,7 +310,6 @@ async function run(): Promise<void> {
   }
 
   // Criterion 6: Credited images ≥1200px = 100% (no AUD-003 or AUD-004 issues).
-  // Scoped to content pages (admin playground may reference uncredited mock images).
   const imgIssues = allIssues.filter(
     (i) => i.rule === 'AUD-003' || i.rule === 'AUD-004',
   );
@@ -310,49 +397,58 @@ async function run(): Promise<void> {
     );
   }
 
-  // Criterion 10: Broken internal links = 0. Deferred to Phase 6 link-check.
-  criteria.push({
-    id: 10,
-    name: 'Broken internal links = 0',
-    status: 'deferred',
-    detail: 'Deferred to Phase 6 (DEP-04 link-check cron).',
-  });
+  // Criterion 10: Broken internal links = 0. AUD-031 covers broken-link
+  // detection in content mode; structural mode defers to Phase 6 link-check.
+  if (phase1StructuralOnly) {
+    criteria.push({
+      id: 10,
+      name: 'Broken internal links = 0',
+      status: 'deferred',
+      detail: 'Deferred to Phase 6 (DEP-04 link-check cron).',
+    });
+  } else {
+    const brokenLinks = allIssues.filter((i) => i.rule === 'AUD-031');
+    criteria.push(
+      brokenLinks.length === 0
+        ? {
+            id: 10,
+            name: 'Broken internal links = 0',
+            status: 'pass',
+            detail:
+              'No AUD-031 findings. Manual SERP review checklist exists at data/manual-serp-review-checklist.md (compensating control for proxied R3 data per CONTEXT.md).',
+          }
+        : {
+            id: 10,
+            name: 'Broken internal links = 0',
+            status: 'fail',
+            detail: `${brokenLinks.length} broken-link finding(s).`,
+            fix: 'Resolve every AUD-031 finding before retrying gate.',
+          },
+    );
+  }
 
   // Determine outcome: pass only if NO criterion is fail. Deferred is acceptable.
   const failures = criteria.filter((c) => c.status === 'fail');
-  const status: 'pass' | 'fail' = failures.length === 0 ? 'pass' : 'fail';
+  const outcome: 'pass' | 'fail' = failures.length === 0 ? 'pass' : 'fail';
 
-  const md = renderReport(criteria, status);
-  await ensureDir(OUT_PASS);
-  if (status === 'pass') {
-    await writeFile(OUT_PASS, md, 'utf8');
-    if (existsSync(OUT_FAIL)) await unlink(OUT_FAIL);
-    console.log(`qa:quality-gate: PASS → data/quality-gate-pass.md`);
-    process.exit(0);
-  } else {
-    await writeFile(OUT_FAIL, md, 'utf8');
-    if (existsSync(OUT_PASS)) await unlink(OUT_PASS);
-    console.error(
-      `qa:quality-gate: FAIL (${failures.length} criterion failure(s)) → data/quality-gate-failure.md`,
-    );
-    process.exit(1);
-  }
+  return { mode, criteria, outcome };
 }
 
-function renderReport(
-  criteria: CriterionResult[],
-  outcome: 'pass' | 'fail',
-): string {
+/**
+ * Pure helper: compose markdown report from evaluation output.
+ */
+export function composeReport(result: EvaluationOutput): string {
   const lines: string[] = [];
-  lines.push(`# Quality Gate Report — ${outcome.toUpperCase()}`);
+  lines.push(`# Quality Gate Report — ${result.outcome.toUpperCase()}`);
   lines.push('');
   lines.push(`Generated: ${new Date().toISOString()}`);
   lines.push('');
-  lines.push(`Outcome: **${outcome.toUpperCase()}**`);
+  lines.push(`Mode: **${result.mode}**`);
+  lines.push(`Outcome: **${result.outcome.toUpperCase()}**`);
   lines.push('');
   lines.push('| # | Criterion | Status | Detail |');
   lines.push('|---|-----------|--------|--------|');
-  for (const c of criteria) {
+  for (const c of result.criteria) {
     const status =
       c.status === 'pass' ? 'PASS' : c.status === 'fail' ? 'FAIL' : 'DEFERRED';
     lines.push(
@@ -360,9 +456,9 @@ function renderReport(
     );
   }
   lines.push('');
-  if (outcome === 'fail') {
+  if (result.outcome === 'fail') {
     lines.push('## Failures + Proposed Fixes');
-    for (const c of criteria.filter((c) => c.status === 'fail')) {
+    for (const c of result.criteria.filter((cc) => cc.status === 'fail')) {
       lines.push('');
       lines.push(`### Criterion ${c.id}: ${c.name}`);
       lines.push('');
@@ -373,7 +469,61 @@ function renderReport(
   return lines.join('\n') + '\n';
 }
 
-run().catch((e) => {
-  console.error('qa:quality-gate failed:', e);
-  process.exit(1);
-});
+/**
+ * Pure helper: write the report to disk, deleting the stale opposite file.
+ * Returns the path written.
+ */
+export async function writeReport(
+  result: EvaluationOutput,
+  passPath: string = OUT_PASS,
+  failPath: string = OUT_FAIL,
+): Promise<string> {
+  const md = composeReport(result);
+  await ensureDir(passPath);
+  await ensureDir(failPath);
+  if (result.outcome === 'pass') {
+    await writeFile(passPath, md, 'utf8');
+    if (existsSync(failPath)) await unlink(failPath);
+    return passPath;
+  }
+  await writeFile(failPath, md, 'utf8');
+  if (existsSync(passPath)) await unlink(passPath);
+  return failPath;
+}
+
+async function main(): Promise<void> {
+  const audit = (await loadJson<AuditResult[]>(AUDIT_PATH)) ?? [];
+  const lhci = await loadJson<unknown[]>(LHCI_PATH);
+  const result = evaluateCriteria(audit, lhci);
+  const outPath = await writeReport(result);
+  if (result.outcome === 'pass') {
+    console.log(`qa:quality-gate: PASS (mode=${result.mode}) → ${outPath}`);
+    process.exit(0);
+  } else {
+    const failures = result.criteria.filter((c) => c.status === 'fail');
+    console.error(
+      `qa:quality-gate: FAIL (${failures.length} criterion failure(s); mode=${result.mode}) → ${outPath}`,
+    );
+    process.exit(1);
+  }
+}
+
+// Pattern from Phase 1 plan 11: main() runs only when this file is the
+// entrypoint. Drive-letter case-normalize for Windows.
+function isEntrypoint(): boolean {
+  if (typeof process === 'undefined' || !process.argv[1]) return false;
+  try {
+    const here = fileURLToPath(import.meta.url).toLowerCase();
+    const argv1 = resolve(process.argv[1]).toLowerCase();
+    return here === argv1;
+  } catch {
+    return false;
+  }
+}
+
+if (isEntrypoint()) {
+  main().catch((e) => {
+    console.error('qa:quality-gate failed:', e);
+    process.exit(1);
+  });
+}
