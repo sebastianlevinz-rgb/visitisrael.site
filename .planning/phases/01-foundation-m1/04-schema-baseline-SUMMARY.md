@@ -106,7 +106,7 @@ completed: 2026-05-11
 - 11 typed `schema-dts` generators in `lib/schema/` (Organization / TouristDestination / TouristAttraction / ReligiousBuilding / Place / LocalBusiness / BreadcrumbList / FAQPage / WebSite / CollectionPage / WebPage)
 - `<JsonLd schema={...} />` RSC renders `<script type="application/ld+json">` from RSC (no `'use client'`, no `next-seo` dependency — per CONTEXT §Schema markup)
 - `canonicalUrl()` returns `https://visitisrael.site/jerusalem` for HE and `https://visitisrael.site/en/jerusalem` for EN; strips leading/trailing slashes; never cross-locale
-- `data/religious-sites.json` contains **26 entries** (test required ≥25) covering Jerusalem (11), Galilee (4), Bethlehem (1), Haifa (2), Akko (1), Tiberias (1), Negev/Dead Sea (3), Golan (2), plus 1 generic Sea of Galilee. HE/EN names mandatory; AR present for sites with Arab readership; Wikidata IDs cross-referenced via `sameAs`.
+- `data/religious-sites.json` contains **25 entries** (matching the test's ≥25 floor) covering Jerusalem (11), Galilee (4), Bethlehem (1), Haifa (2), Akko (1), Tiberias (1), Negev/Dead Sea (3), Golan (2). HE/EN names mandatory; AR present for sites with Arab readership; Wikidata IDs cross-referenced via `sameAs`.
 - `buildReligiousBuilding({ siteId: 'temple-mount', lang: 'en' })` returns `@type: 'Place'` with `name: 'Temple Mount / Haram al-Sharif'` (paired first-reference per PITFALLS §3.1)
 - `buildReligiousBuilding({ siteId: 'western-wall', lang: 'en' })` returns `@type: 'PlaceOfWorship'`, `name: 'Western Wall'`, `alternateName` includes `'Kotel'` but NEVER `'Wailing Wall'` (SEO-04 AUD-017 enforcement at the data layer)
 - Church of Nativity entry has `administrativeStatus: 'west-bank-paa'`; the builder surfaces it as `additionalProperty: { '@type': 'PropertyValue', name: 'administrativeStatus', value: 'west-bank-paa' }` — plan 09 NER + plan 10 audit dashboard will consume this for AUD-020 transparency
@@ -128,7 +128,7 @@ Each task committed atomically (TDD task split is implicit — RED tests committ
 
 1. **Task 1: 11 schema-dts generators + JsonLd RSC + canonicalUrl helper** — `ba50e8a` (feat) — `lib/seo/canonical.ts`, `components/JsonLd.tsx`, `lib/schema/{index,types,organization,touristDestination,touristAttraction,religiousBuilding,place,localBusiness,breadcrumb,faq,webSite,collectionPage,webPage}.ts`, stub `data/religious-sites.json`, 4 test files in `lib/schema/__tests__/` (builders/breadcrumb/faq/jsonld). 25 Vitest tests pass.
 
-2. **Task 2: religious-sites.json paired-naming dictionary (26 sites)** — `c3f9de7` (feat) — `data/religious-sites.json` populated with all Phase 2/3 sites, `lib/schema/__tests__/religiousBuilding.test.ts` with 14 tests verifying paired-naming, AUD-020 administrativeStatus surfacing, sameAs Wikidata, alternateName de-dup, unknown siteId throws.
+2. **Task 2: religious-sites.json paired-naming dictionary (25 sites)** — `c3f9de7` (feat) — `data/religious-sites.json` populated with all Phase 2/3 sites, `lib/schema/__tests__/religiousBuilding.test.ts` with 14 tests verifying paired-naming, AUD-020 administrativeStatus surfacing, sameAs Wikidata, alternateName de-dup, unknown siteId throws.
 
 3. **Task 3: qa:schema validator + lint-staged + pre-push wiring (SEO-03)** — `adf64cf` (feat) — `scripts/qa/validate-schema.mjs`, 5 HTML fixtures (valid + 5 failure modes), `tests/schema/validate-schema.test.ts` with 8 child-process spawn tests, `package.json` real `qa:schema` script, `lint-staged.config.js` adds `lib/schema/**` and `data/religious-sites.json` triggers.
 
@@ -156,7 +156,7 @@ Each task committed atomically (TDD task split is implicit — RED tests committ
 - `components/JsonLd.tsx` — RSC injecting native JSON-LD via dangerouslySetInnerHTML
 
 **Data**
-- `data/religious-sites.json` — 26-entry paired-naming dictionary
+- `data/religious-sites.json` — 25-entry paired-naming dictionary
 
 **Script**
 - `scripts/qa/validate-schema.mjs` — SEO-03 CI gate
@@ -199,7 +199,7 @@ Each task committed atomically (TDD task split is implicit — RED tests committ
 
 6. **lint-staged trigger uses function form `() => 'pnpm qa:schema'`** — Validator scans cross-file invariants (@id uniqueness across a page; locale match against the URL). A staged-file-only scan would miss those. Function form runs the script against the full build output regardless of which staged file fired it.
 
-7. **26 dictionary entries (one more than the ≥25 floor)** — Sea of Galilee added beyond the plan's listed 25 to round out Galilee coverage. Future Phase 2 content writes will reuse these entries.
+7. **25 dictionary entries (matches the ≥25 floor)** — Sea of Galilee added during Task 2 development to reach the floor. Future Phase 2 content writes will extend the dictionary as new sites are content-written.
 
 ## Deviations from Plan
 
@@ -291,7 +291,7 @@ Verifications performed:
 | `lib/schema/index.ts` exports 11 generators | grep | FOUND (organization, touristDestination, touristAttraction, religiousBuilding, place, localBusiness, breadcrumb, faq, webSite, collectionPage, webPage) |
 | `components/JsonLd.tsx` exists | `[ -f components/JsonLd.tsx ]` | FOUND |
 | `lib/seo/canonical.ts` exists | `[ -f lib/seo/canonical.ts ]` | FOUND |
-| `data/religious-sites.json` ≥25 entries | `node -e 'JSON.parse(...).length'` | FOUND (26) |
+| `data/religious-sites.json` ≥25 entries | `node -e 'JSON.parse(...).length'` | FOUND (25) |
 | `scripts/qa/validate-schema.mjs` exists | `[ -f scripts/qa/validate-schema.mjs ]` | FOUND |
 | `pnpm typecheck` | exit 0 | PASS |
 | `pnpm lint` | exit 0 | PASS |

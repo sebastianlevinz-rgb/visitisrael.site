@@ -5,7 +5,7 @@ milestone_name: milestone
 status: executing
 stopped_at: Completed .planning/phases/01-foundation-m1/04-schema-baseline-PLAN.md
 last_updated: "2026-05-11T01:38:27.036Z"
-last_activity: "2026-05-11 — Plan 04 (schema-baseline) complete: 11 schema-dts generators + JsonLd RSC + canonicalUrl + 26-site paired-naming dictionary + validate-schema.mjs CI gate; 25 min, 3 commits."
+last_activity: "2026-05-11 — Plan 04 (schema-baseline) complete: 11 schema-dts generators + JsonLd RSC + canonicalUrl + 25-site paired-naming dictionary + validate-schema.mjs CI gate; 25 min, 3 commits."
 progress:
   total_phases: 6
   completed_phases: 0
@@ -28,7 +28,7 @@ See: .planning/PROJECT.md (updated 2026-05-11)
 Phase: 1 of 6 (Foundation — M1)
 Plan: 4 of 11 in current phase complete (01 scaffold + 02 design-tokens + 03 photo-credits + 04 schema-baseline); Wave 2 fully complete, Wave 3 next (plan 05 component-lib)
 Status: Executing — Wave 2 fully green, plan 05 (component-lib) eligible to start
-Last activity: 2026-05-11 — Plan 04 (schema-baseline) complete: 11 schema-dts generators + JsonLd RSC + canonicalUrl + 26-site paired-naming dictionary + validate-schema.mjs CI gate; 25 min, 3 commits.
+Last activity: 2026-05-11 — Plan 04 (schema-baseline) complete: 11 schema-dts generators + JsonLd RSC + canonicalUrl + 25-site paired-naming dictionary + validate-schema.mjs CI gate; 25 min, 3 commits.
 
 Progress: [████░░░░░░] 36% (4/11 plans in Phase 1; ~7% overall)
 
