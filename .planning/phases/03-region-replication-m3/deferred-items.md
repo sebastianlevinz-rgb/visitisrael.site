@@ -59,6 +59,33 @@ sub-destination images) are all valid CC-BY-SA-3.0 / CC-BY-4.0 / IGPO-CC and
 pass the Zod schema when parsed in isolation. The Nazareth agent did NOT fix
 the Negev entry — that fix belongs to the Negev plan 05 agent's own scope.
 
+## Wave 4 (Akko agent — Golan YAML parse blocker)
+
+**Observed during Akko (plan 10) Task 2 Velite compile:**
+
+Golan plan-08 `content/en/regions/golan.mdx` FAQ entry on line 25 has an
+unquoted answer containing a colon: `answer: The practical option is a
+rental car — 2.5 hours from Tel Aviv... Public transport is thin: Egged bus
+843...`. The bare `is thin: Egged` substring is interpreted by YAML as a
+nested mapping under `answer:`, triggering Velite's grey-matter parser to
+throw `Nested mappings are not allowed in compact mappings at line 25,
+column 13`. **This halts `pnpm velite` for ALL files.**
+
+- **Owner:** Phase 3 Wave 4 plan 08 Golan agent
+- **Impact:** Akko's MDX content compiles cleanly when isolated (Velite must
+  be able to run successfully across the full content tree); per-file
+  invariants pass via `pnpm test --run tests/content/akko-region.test.ts`
+  (25 passed, 1 skip-blocked on missing Velite output). Akko Task 4 region
+  gate is deferred pending Golan fix.
+- **Fix recommendation:** Wrap the offending FAQ `answer` value in single or
+  double quotes — `answer: 'The practical option is a rental car — 2.5
+  hours from Tel Aviv... Public transport is thin: Egged bus 843...'`.
+  Single-char edit (or two edits if other FAQ answers in the same file
+  share the issue).
+- **Scope:** Out of Akko plan-10 scope per Phase 3 Wave 3/4 cross-cascade
+  policy locked since Nazareth SUMMARY. The Akko agent did NOT modify
+  `content/en/regions/golan.mdx`.
+
 ## Wave 2 (carryover — not addressed by Wave 3 agents)
 
 These were noted in Wave 2 but should be tracked here for completeness:

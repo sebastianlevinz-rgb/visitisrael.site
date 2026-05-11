@@ -116,6 +116,36 @@ const STATIC_PATHS = [
   '/haifa/stella-maris',
   '/haifa/wadi-nisnas',
   '/haifa/carmel-national-park',
+  // Phase 3.10 — Akko (Acre) canonical + 5 sub-destinations (Wave 4 parallel
+  // with Haifa + Golan; UNESCO 2001 Crusader-Ottoman Old City; mixed Arab-
+  // Jewish demographics). "Akko (Acre)" dual-naming locked in CONTEXT.md.
+  // Bahá'í Mansion of Bahjí (4km north) emits Place (NOT PlaceOfWorship per
+  // Bahá'í convention — Bahjí is the holy site/grave of Bahá'u'lláh; same
+  // Bahá'í International Community photo policy as Haifa Plan 07). Other 4
+  // sub-dests (Old City, Hospitaller Knights' Halls, Templar Tunnel, Khan
+  // al-Umdan) are TouristAttraction + Place archaeological — NO PlaceOfWorship.
+  '/akko',
+  '/akko/old-city',
+  '/akko/hospitaller-knights',
+  '/akko/templar-tunnel',
+  '/akko/khan-al-umdan',
+  '/akko/bahai-mansion',
+  // Phase 3.8 — Golan Heights canonical + 5 sub-destinations (Wave 4 parallel
+  // with Haifa + Akko; volcanic plateau with Mount Hermon ski + Banias /
+  // Caesarea Philippi + Nimrod Fortress + Druze villages + Mount Bental
+  // viewpoint). AUD-018 neutral framing locked (no "Israeli-occupied" / no
+  // "Judea and Samaria"). Reciprocal Caesarea Maritima / Caesarea Philippi
+  // disambiguation with plan 09 Caesarea. Banias + Nimrod emit Place schema
+  // (archaeological — Pan grotto cult site + Crusader/Mamluk fortification);
+  // 3 others TouristAttraction-only. NO PlaceOfWorship anywhere — Druze
+  // religious tradition is private and not emitted; villages page is
+  // cultural / culinary tourism only.
+  '/golan',
+  '/golan/mount-bental',
+  '/golan/banias',
+  '/golan/nimrod-fortress',
+  '/golan/druze-villages',
+  '/golan/mount-hermon',
 ];
 
 /** Convert a (locale, path) pair to a fully-qualified URL string. */
