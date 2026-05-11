@@ -61,8 +61,8 @@ Beyond WCAG 2.1 AA — Israeli law mandates additional items. Up to 50,000 NIS d
 
 - [x] **A11Y-01**: Every page declares `lang` and `dir` correctly (AUD-027)
 - [x] **A11Y-02**: Hebrew skip-navigation link (`דלג לתוכן הראשי`) is the first focusable element on every Hebrew page; English skip link on English pages
-- [ ] **A11Y-03**: `/accessibility-statement` (English) + `/הצהרת-נגישות` (Hebrew, transliterated slug allowed if Hebrew slug deferred) pages exist with all IS 5568 required content (commitment, standard, features, limitations, coordinator contact, last-audit date)
-- [ ] **A11Y-04**: Named accessibility coordinator (real person, real phone, real email — placeholder NOT acceptable) listed on accessibility statement page; same person reachable via `mailto:` and `tel:` links
+- [x] **A11Y-03**: `/accessibility-statement` (English) + `/הצהרת-נגישות` (Hebrew, transliterated slug allowed if Hebrew slug deferred) pages exist with all IS 5568 required content (commitment, standard, features, limitations, coordinator contact, last-audit date)
+- [x] **A11Y-04**: Named accessibility coordinator (real person, real phone, real email — placeholder NOT acceptable) listed on accessibility statement page; same person reachable via `mailto:` and `tel:` links
 - [x] **A11Y-05**: Footer of every page links to accessibility statement in current locale (AUD-028)
 - [x] **A11Y-06**: All form inputs have associated labels; all interactive elements have aria-labels or accessible names; error messages use `role="alert"` and are rendered in Hebrew for Hebrew forms, English for English forms
 - [x] **A11Y-07**: ZERO accessibility overlays (accessiBe / UserWay / EqualWeb / AudioEye) — overlay-based remediation is explicitly prohibited (FTC $1M precedent + IS 5568 ineffectiveness)
@@ -103,8 +103,8 @@ Argentina lesson #3 fix — image contract enforced day-1.
 - [x] **CNT-03**: Phase 2.2 checkpoint executed (post-CNT-02): AUD-017..AUD-020 editorial style passes + Old City restricted-site image sourcing cleared + Hebrew translation throughput acceptable for sub-dests; if any fails, pilot region switches to Tel Aviv before sub-dest writing
 - [x] **CNT-04**: 5–10 Jerusalem sub-destination pages (EN + HE) — each 800–1200 words, schema `TouristAttraction`, ≥1 affiliate per page, credited photos, breadcrumb back to Jerusalem canonical ✓ Completed 2026-05-11 (7 paired EN+HE sub-destinations shipped via plan 02-03)
 - [x] **CNT-05**: At least 1 Jerusalem itinerary page (e.g., "3 days in Jerusalem", "7 days in Israel including Jerusalem") that ties pilot region to day-trip neighbors
-- [ ] **CNT-06**: Hub pages: homepage (region grid + main CTAs), `/regions/` index, `/en/regions/`
-- [ ] **CNT-07**: Legal pages (in both EN + HE): About, Contact, Privacy, Affiliate Disclosure, Accessibility Statement — A11Y-03/A11Y-04 satisfied here
+- [x] **CNT-06**: Hub pages: homepage (region grid + main CTAs), `/regions/` index, `/en/regions/`
+- [x] **CNT-07**: Legal pages (in both EN + HE): About, Contact, Privacy, Affiliate Disclosure, Accessibility Statement — A11Y-03/A11Y-04 satisfied here
 
 ### Region Replication
 
