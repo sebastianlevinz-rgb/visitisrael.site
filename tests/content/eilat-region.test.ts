@@ -224,20 +224,23 @@ describe('Eilat HE canonical (Velite Region)', () => {
     expect(/כותל\s+הדמעות/.test(r.body)).toBe(false);
   });
 
-  it('Latin brand names (TLV, ETM) wrapped in <span dir="ltr"> (AUD-024)', () => {
+  it('Latin brand names (TLV, ETM) wrapped in <span dir="ltr"> in HE prose (AUD-024)', () => {
     if (!HAS_HE_MDX) return;
     const raw = readFileSync(HE_MDX_PATH, 'utf8');
-    const unwrappedRaw = raw.replace(
-      /<span[^>]*dir=["']ltr["'][^>]*>[^<]*<\/span>/g,
-      '',
-    );
+    // Strip frontmatter (between --- markers) and JSX attribute values
+    // (component props are programmatic, not body bidi prose).
+    const bodyOnly = raw
+      .replace(/^---[\s\S]*?---/, '')
+      .replace(/<[A-Z][a-zA-Z]*\b[^>]*\/>/g, '') // self-closing JSX components
+      .replace(/<[A-Z][a-zA-Z]*\b[\s\S]*?<\/[A-Z][a-zA-Z]*>/g, '') // open-close JSX components
+      .replace(/<span[^>]*dir=["']ltr["'][^>]*>[^<]*<\/span>/g, ''); // strip already-wrapped LTR spans
     expect(
-      /\bTLV\b/.test(unwrappedRaw),
-      'TLV must be inside <span dir="ltr">',
+      /\bTLV\b/.test(bodyOnly),
+      'TLV must be inside <span dir="ltr"> in body prose',
     ).toBe(false);
     expect(
-      /\bETM\b/.test(unwrappedRaw),
-      'ETM must be inside <span dir="ltr">',
+      /\bETM\b/.test(bodyOnly),
+      'ETM must be inside <span dir="ltr"> in body prose',
     ).toBe(false);
   });
 
