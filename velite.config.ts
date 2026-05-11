@@ -93,6 +93,46 @@ const legal = defineCollection({
   }),
 });
 
+/**
+ * Itinerary stop — schema-driven entry for a single attraction/location
+ * surfaced inside an itinerary. Drives TouristTrip.itinerary[]
+ * (TouristAttraction sub-nodes) at schema-emission time.
+ *
+ * `slug` — short slug under the parent region (e.g. "western-wall")
+ *           that the renderer joins with the parent region to
+ *           construct the canonical `/jerusalem/western-wall/` link.
+ * `day`  — 1-indexed day number (1..durationDays).
+ * `period` — morning / afternoon / evening (or "all-day" for day-trip).
+ */
+const itineraryStop = s.object({
+  slug: s.string().min(1),
+  day: s.number().int().positive(),
+  period: s.enum(['morning', 'afternoon', 'evening', 'all-day']),
+});
+
+const itineraries = defineCollection({
+  name: 'Itinerary',
+  pattern: '{he,en,fr}/itineraries/**/*.mdx',
+  schema: s.object({
+    ...baseFrontmatter,
+    /** Total days covered (1..N). Drives TouristTrip duration property. */
+    durationDays: s.number().int().positive(),
+    /** Regions referenced. First entry is the canonical starting region. */
+    regions: s.array(s.string()).min(1),
+    /** Primary starting region (must be in `regions`). */
+    startRegion: s.string().min(1),
+    /** Hero image (≥1200px wide; Sharp gate enforces). */
+    heroImage: s.string().min(1),
+    primaryKeyword: s.string().optional(),
+    secondaryKeywords: s.array(s.string()).optional(),
+    /** Stops the itinerary visits — drives TouristTrip.itinerary[]. */
+    stops: s.array(itineraryStop).min(1),
+    /** Optional FAQ block. */
+    faqs: s.array(faqEntry).min(3).max(10).optional(),
+    body: s.mdx(),
+  }),
+});
+
 export default defineConfig({
   root: 'content',
   output: {
@@ -102,5 +142,5 @@ export default defineConfig({
     name: '[name]-[hash:8].[ext]',
     clean: true,
   },
-  collections: { regions, subDestinations, guides, legal },
+  collections: { regions, subDestinations, guides, legal, itineraries },
 });

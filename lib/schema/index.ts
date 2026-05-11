@@ -25,6 +25,8 @@ export { buildFAQ } from './faq';
 export { buildWebSite } from './webSite';
 export { buildCollectionPage } from './collectionPage';
 export { buildWebPage } from './webPage';
+export { itinerarySchema } from './itinerary';
+export type { ItinerarySchemaInput, ItineraryStopInput } from './itinerary';
 
 // Re-export shared input types so callers get a single import surface.
 export type {

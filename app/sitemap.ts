@@ -37,6 +37,9 @@ const STATIC_PATHS = [
   '/jerusalem/mahane-yehuda',
   '/jerusalem/mount-of-olives',
   '/jerusalem/city-of-david',
+  // Phase 2.4 — Jerusalem itinerary. Replicates to
+  // /itineraries/3-days-in-jerusalem (HE root) + /en/itineraries/...
+  '/itineraries/3-days-in-jerusalem',
 ];
 
 /** Convert a (locale, path) pair to a fully-qualified URL string. */

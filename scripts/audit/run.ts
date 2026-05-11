@@ -76,6 +76,10 @@ function loadVeliteIndex(): VeliteIndex {
     ['subDestinations.json', 'subDestinations'],
     ['guides.json', 'guides'],
     ['legal.json', 'legal'],
+    // Plan 2.4 Wave 0: itineraries collection. Audit walker inferSlug for
+    // /en/itineraries/3-days-in-jerusalem/ produces "itineraries/3-days-in-jerusalem",
+    // so we prefix the lookup slug with "itineraries/" here to match.
+    ['itineraries.json', 'itineraries'],
   ];
   for (const [file, name] of mappings) {
     const entries = readVeliteCollection(file);
@@ -99,7 +103,9 @@ function loadVeliteIndex(): VeliteIndex {
           ? (e.region ?? e.slug)
           : name === 'subDestinations'
             ? `${e.parentRegion ?? ''}/${subDestShort}`
-            : e.slug;
+            : name === 'itineraries'
+              ? `itineraries/${e.slug}`
+              : e.slug;
       const key = `${lookupSlug}|${e.lang}`;
       collections.set(key, name);
       // Best-effort word count from compiled body (regions/subDest only
