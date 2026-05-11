@@ -25,13 +25,13 @@ const STATIC_PATHS = [
   '/privacy',
   '/affiliate-disclosure',
   '/accessibility-statement',
+  // Phase 2.1 — Jerusalem canonical (config-driven addition; replicates to
+  // /jerusalem (HE root) and /en/jerusalem via the localizedUrl loop below).
+  '/jerusalem',
 ];
 
 /** Convert a (locale, path) pair to a fully-qualified URL string. */
-function localizedUrl(
-  lang: (typeof locales)[number],
-  rawPath: string,
-): string {
+function localizedUrl(lang: (typeof locales)[number], rawPath: string): string {
   const cleanPath = rawPath.replace(/\/+$/, '');
   if (lang === defaultLocale) {
     return cleanPath === '' ? `${ORIGIN}/` : `${ORIGIN}${cleanPath}`;

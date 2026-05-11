@@ -24,20 +24,16 @@
       }
     ],
     "paths": {
-      "@/*": ["./*"]
+      "@/*": ["./*"],
+      "#site/content": ["./.velite"]
     }
   },
   "include": [
     "next-env.d.ts",
     "**/*.ts",
     "**/*.tsx",
-    ".next/types/**/*.ts"
+    ".next/types/**/*.ts",
+    ".velite/index.d.ts"
   ],
-  "exclude": [
-    "node_modules",
-    ".next",
-    "out",
-    "coverage",
-    ".velite"
-  ]
+  "exclude": ["node_modules", ".next", "out", "coverage"]
 }

@@ -9,8 +9,11 @@
     "node": ">=20"
   },
   "scripts": {
-    "dev": "next dev",
-    "build": "next build",
+    "velite": "velite build",
+    "velite:watch": "velite build --watch",
+    "dev": "velite build && next dev",
+    "build": "velite build && next build",
+    "prebuild": "velite build",
     "start": "next start",
     "lint": "node scripts/lint.mjs",
     "lint:fix": "eslint . --fix",

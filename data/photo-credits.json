@@ -1,1 +1,76 @@
-{}
+{
+  "/images/regions/jerusalem/hero.jpg": {
+    "src": "/images/regions/jerusalem/hero.jpg",
+    "author": "Andrew Shiva (Wikimedia Commons)",
+    "license": "CC-BY-SA-4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Jerusalem-2013(2)-Aerial-Temple_Mount-(south_exposure).jpg",
+    "region": "jerusalem",
+    "slug": "jerusalem",
+    "width": 1920,
+    "height": 1080,
+    "subjectType": "cityscape",
+    "licenseProof": "https://creativecommons.org/licenses/by-sa/4.0/"
+  },
+  "/images/regions/jerusalem/old-city.jpg": {
+    "src": "/images/regions/jerusalem/old-city.jpg",
+    "author": "Berthold Werner (Wikimedia Commons)",
+    "license": "CC-BY-SA-3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Jerusalem_Old_City_Panorama.jpg",
+    "region": "jerusalem",
+    "slug": "jerusalem",
+    "width": 1600,
+    "height": 1067,
+    "subjectType": "cityscape",
+    "licenseProof": "https://creativecommons.org/licenses/by-sa/3.0/"
+  },
+  "/images/regions/jerusalem/western-wall.jpg": {
+    "src": "/images/regions/jerusalem/western-wall.jpg",
+    "author": "Israel Government Press Office (IGPO archive)",
+    "license": "IGPO-CC",
+    "sourceUrl": "https://gpophotoeng.gov.il/fotoweb/archives/5018-Photography%20Department/",
+    "region": "jerusalem",
+    "slug": "jerusalem",
+    "width": 1600,
+    "height": 1067,
+    "subjectType": "westernWall",
+    "restrictedSiteAcknowledgment": "IGPO archive image — pre-cleared per Wikimedia Israel partnership 2017. Wide architectural plaza shot; no identifiable worshippers. Commercial photography at the Western Wall otherwise requires Western Wall Heritage Foundation permit per PITFALLS §5.4.",
+    "licenseProof": "https://gpophotoeng.gov.il/fotoweb/info/license.html"
+  },
+  "/images/regions/jerusalem/holy-sepulchre.jpg": {
+    "src": "/images/regions/jerusalem/holy-sepulchre.jpg",
+    "author": "Gerd Eichmann (Wikimedia Commons)",
+    "license": "CC-BY-SA-4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Jerusalem-Grabeskirche-22-Vorplatz-2010-gje.jpg",
+    "region": "jerusalem",
+    "slug": "jerusalem",
+    "width": 1600,
+    "height": 1067,
+    "subjectType": "holySepulchre",
+    "restrictedSiteAcknowledgment": "Wikimedia Commons wide architectural exterior shot of the Church of the Holy Sepulchre forecourt — no identifiable worshippers, no liturgical/Status Quo interior. CC-BY-SA-4.0 license confirmed via Wikimedia entry. Status Quo of 1852 governs interior access across the six denominations sharing the site.",
+    "licenseProof": "https://creativecommons.org/licenses/by-sa/4.0/"
+  },
+  "/images/regions/jerusalem/mahane-yehuda.jpg": {
+    "src": "/images/regions/jerusalem/mahane-yehuda.jpg",
+    "author": "Adiel lo (Wikimedia Commons)",
+    "license": "CC-BY-SA-3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mahane_Yehuda_Market_Jerusalem.jpg",
+    "region": "jerusalem",
+    "slug": "jerusalem",
+    "width": 1600,
+    "height": 1067,
+    "subjectType": "cityscape",
+    "licenseProof": "https://creativecommons.org/licenses/by-sa/3.0/"
+  },
+  "/images/regions/jerusalem/yad-vashem.jpg": {
+    "src": "/images/regions/jerusalem/yad-vashem.jpg",
+    "author": "David Shankbone (Wikimedia Commons)",
+    "license": "CC-BY-3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Yad_Vashem_BW_1.JPG",
+    "region": "jerusalem",
+    "slug": "jerusalem",
+    "width": 1600,
+    "height": 1067,
+    "subjectType": "religious-general",
+    "licenseProof": "https://creativecommons.org/licenses/by/3.0/"
+  }
+}

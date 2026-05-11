@@ -20,6 +20,15 @@ const baseFrontmatter = {
   updatedAt: s.isodate().optional(),
 };
 
+/**
+ * FAQ entry — used by FAQPage JSON-LD generator. Velite consumes from
+ * MDX frontmatter as an array of {question, answer} pairs.
+ */
+const faqEntry = s.object({
+  question: s.string().min(5),
+  answer: s.string().min(10),
+});
+
 const regions = defineCollection({
   name: 'Region',
   pattern: '{he,en,fr}/regions/**/*.mdx',
@@ -27,6 +36,14 @@ const regions = defineCollection({
     .object({
       ...baseFrontmatter,
       region: s.string().min(1),
+      heroImage: s.string().min(1),
+      primaryKeyword: s.string().optional(),
+      secondaryKeywords: s.array(s.string()).optional(),
+      latitude: s.number().optional(),
+      longitude: s.number().optional(),
+      faqs: s.array(faqEntry).min(5).max(10).optional(),
+      // Velite compiles MDX body to function-body JS string for runtime eval.
+      body: s.mdx(),
     })
     .transform((data, { meta }) => ({
       ...data,
