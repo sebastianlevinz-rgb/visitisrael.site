@@ -378,7 +378,28 @@
     "religion": "Christianity",
     "wikidataId": "Q1377942",
     "administrativeStatus": "israel-proper",
-    "notes": "Hilltop Carmelite monastery in Haifa; cave traditionally associated with Elijah."
+    "notes": "Hilltop Carmelite monastery in Haifa; cave traditionally associated with Elijah. Superseded as the Haifa religiousSiteId by `stella-maris` (added 2026-05-11 per plan 03-07 to match the canonical frontmatter pattern used across sub-destinations); retained as legacy alias for backward compatibility."
+  },
+
+  "stella-maris": {
+    "contested": false,
+    "name": {
+      "he": "מנזר סטלה מאריס",
+      "en": "Stella Maris Monastery",
+      "ar": "دير ستيلا ماريس"
+    },
+    "alternateName": {
+      "he": "מנזר הכרמליטים בכרמל",
+      "en": "Carmelite Monastery, Haifa"
+    },
+    "denomination": "Catholic (Discalced Carmelite Order — founded 1631 by Prosper of the Holy Spirit; rebuilt 1836 after Ottoman destruction; the present basilica is 19th-century with Antonio Barluzzi domed restoration; the Cave of Elijah on the lower terrace is a separate site venerated by Catholic, Greek Orthodox, Muslim and Druze visitors)",
+    "religion": "Christianity",
+    "wikidataId": "Q1377942",
+    "administrativeStatus": "israel-proper",
+    "coordinates": { "latitude": 32.8267, "longitude": 34.97 },
+    "restrictedAccess": false,
+    "pairedNamingRequired": false,
+    "notes": "Plan 03-07 PlaceOfWorship emission canary for Haifa. The Stella Maris Carmelite Monastery sits on the northwest tip of Mount Carmel above the Mediterranean; the Cave of Elijah on the lower terrace is a biblical site (1 Kings 18) venerated ecumenically by Catholic, Greek Orthodox, Muslim and Druze visitors. Modest dress required inside the basilica."
   },
 
   "el-jazzar-mosque": {
@@ -522,5 +543,27 @@
     "wikidataId": "Q2625555",
     "administrativeStatus": "israel-proper",
     "notes": "Symbolic Jordan River baptismal site near the southern Sea of Galilee outflow. Operated by Kibbutz Kinneret; immersion robes for rent. Ecumenical use across Christian denominations. Galilee Plan 03-03 PlaceOfWorship emission canary."
+  },
+
+  "bahai-mansion": {
+    "contested": false,
+    "name": {
+      "he": "בית הבהאי בבהג'י",
+      "en": "Bahá'í Mansion of Bahjí",
+      "ar": "البهجة"
+    },
+    "alternateName": {
+      "he": "מנזל בהג'י",
+      "en": "Mansion of Bahjí",
+      "ar": "قصر البهجة"
+    },
+    "denomination": null,
+    "religion": "Bahá'í Faith",
+    "wikidataId": "Q2891803",
+    "administrativeStatus": "israel-proper",
+    "coordinates": { "latitude": 32.9434, "longitude": 35.0925 },
+    "restrictedAccess": true,
+    "pairedNamingRequired": false,
+    "notes": "Plan 03-10 (Akko Wave 4) second Bahá'í pilgrimage site after Haifa Plan 07. The Mansion of Bahjí is the holiest Bahá'í site — final residence of Bahá'u'lláh (founder of the Bahá'í Faith); his shrine adjacent. 4km north of Akko Old City. Shrine interior closed to non-Bahá'í visitors during pilgrimage hours (architectural gardens + public terraces open to all). Photography policy: NO pilgrims/worshippers in any image (Bahá'í International Community policy — same as Haifa Bahá'í Gardens). All photo-credits.json entries for /bahai-mansion images MUST carry restrictedSiteAcknowledgment (AUD-026 enforced). Commercial commissioning gated on press@bahai.org written permission per Phase 6 milestone. Schema: emits Place (NOT PlaceOfWorship per Bahá'í convention — Bahjí is the holy site/grave). restrictedAccess:true triggers AUD-026 ledger enforcement."
   }
 }

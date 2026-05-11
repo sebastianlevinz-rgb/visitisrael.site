@@ -1106,5 +1106,67 @@
     "height": 1067,
     "subjectType": "landscape",
     "licenseProof": "https://creativecommons.org/licenses/by-sa/3.0/"
+  },
+  "/images/regions/haifa/hero.jpg": {
+    "src": "/images/regions/haifa/hero.jpg",
+    "author": "Zvi Roger (Wikimedia Commons)",
+    "license": "CC-BY-SA-3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bahai_Gardens_by_David_Shankbone.jpg",
+    "region": "haifa",
+    "slug": "haifa",
+    "width": 1920,
+    "height": 1080,
+    "subjectType": "bahaiGardens",
+    "restrictedSiteAcknowledgment": "Wikimedia Commons wide architectural panorama of the Bahá'í Gardens terraces and the Shrine of the Báb exterior dome from the upper terrace — no identifiable worshippers or pilgrims; Bahá'í International Community photo policy honored (architectural / garden public-terrace permitted; worshipper / pilgrim photography prohibited); commercial commissioning requires press@bahai.org written permission (deferred to Phase 6 — see data/haifa-bahai-policy.md).",
+    "licenseProof": "https://creativecommons.org/licenses/by-sa/3.0/"
+  },
+  "/images/regions/haifa/bahai-gardens.jpg": {
+    "src": "/images/regions/haifa/bahai-gardens.jpg",
+    "author": "Almog (Wikimedia Commons)",
+    "license": "CC-BY-SA-3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:PikiWiki_Israel_31336_Bahai_Gardens_in_Haifa.jpg",
+    "region": "haifa",
+    "slug": "haifa",
+    "width": 1600,
+    "height": 1067,
+    "subjectType": "bahaiGardens",
+    "restrictedSiteAcknowledgment": "Wikimedia Commons wide architectural shot of a Bahá'í Gardens public-access lower terrace — no identifiable worshippers or pilgrims; Bahá'í International Community photo policy honored (architectural / garden public-terrace permitted; worshipper / pilgrim photography prohibited); commercial commissioning requires press@bahai.org written permission (deferred to Phase 6 — see data/haifa-bahai-policy.md).",
+    "licenseProof": "https://creativecommons.org/licenses/by-sa/3.0/"
+  },
+  "/images/regions/haifa/german-colony.jpg": {
+    "src": "/images/regions/haifa/german-colony.jpg",
+    "author": "Yair Aronshtam (Wikimedia Commons)",
+    "license": "CC-BY-SA-3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:German_Colony,_Haifa,_Israel.jpg",
+    "region": "haifa",
+    "slug": "haifa",
+    "width": 1600,
+    "height": 1067,
+    "subjectType": "cityscape",
+    "licenseProof": "https://creativecommons.org/licenses/by-sa/3.0/"
+  },
+  "/images/regions/haifa/stella-maris.jpg": {
+    "src": "/images/regions/haifa/stella-maris.jpg",
+    "author": "Almog (Wikimedia Commons)",
+    "license": "CC-BY-SA-3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Stella_Maris_Monastery_Haifa.jpg",
+    "region": "haifa",
+    "slug": "haifa",
+    "width": 1600,
+    "height": 1067,
+    "subjectType": "religious-general",
+    "licenseProof": "https://creativecommons.org/licenses/by-sa/3.0/"
+  },
+  "/images/regions/haifa/carmel.jpg": {
+    "src": "/images/regions/haifa/carmel.jpg",
+    "author": "Bukvoed (Wikimedia Commons)",
+    "license": "CC-BY-4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mount_Carmel_National_Park.jpg",
+    "region": "haifa",
+    "slug": "haifa",
+    "width": 1600,
+    "height": 1067,
+    "subjectType": "landscape",
+    "licenseProof": "https://creativecommons.org/licenses/by/4.0/"
   }
 }
