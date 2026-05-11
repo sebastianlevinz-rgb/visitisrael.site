@@ -1,0 +1,62 @@
+{
+  "booking": {
+    "state": "pending",
+    "regions": [],
+    "notes": "Awaiting CJ or Awin application approval; helper returns public URL until NEXT_PUBLIC_BOOKING_AID arrives."
+  },
+  "civitatis": {
+    "state": "pending",
+    "regions": [],
+    "notes": "Israel routes confirmed (Jerusalem, Tel Aviv, Eilat); awaiting AID."
+  },
+  "viator": {
+    "state": "pending",
+    "regions": [],
+    "notes": "Israel destination d919 confirmed; awaiting PID + MCID via Impact."
+  },
+  "getYourGuide": {
+    "state": "pending",
+    "regions": [],
+    "notes": "Israel location l169033 confirmed; awaiting partner_id."
+  },
+  "rentalcars": {
+    "state": "pending",
+    "regions": [],
+    "notes": "Awin link generator; awaiting affiliateCode."
+  },
+  "safetyWing": {
+    "state": "pending",
+    "regions": [],
+    "notes": "Nomad insurance, destination-agnostic; awaiting referenceID."
+  },
+  "skyscanner": {
+    "state": "pending",
+    "regions": [],
+    "notes": "Partner program requires >=5K visitors/mo; Travelpayouts is the AFF-08 aggregator fallback."
+  },
+  "hostelworld": {
+    "state": "pending",
+    "regions": [],
+    "notes": "Partnerize integration; awaiting affiliateID."
+  },
+  "discoverCars": {
+    "state": "pending",
+    "regions": [],
+    "notes": "365-day cookie window; awaiting a_aid."
+  },
+  "klook": {
+    "state": "absent",
+    "regions": [],
+    "notes": "Conflict D resolution — thin Israel SKU coverage (<10 tours as of May 2026). Helper throws NoIsraelInventoryError. Re-evaluate quarterly."
+  },
+  "goCity": {
+    "state": "absent",
+    "regions": [],
+    "notes": "Conflict D resolution — no Israel destination as of May 2026. Helper throws NoIsraelInventoryError. Re-evaluate quarterly."
+  },
+  "travelpayouts": {
+    "state": "pending",
+    "regions": [],
+    "notes": "AFF-08 aggregator fallback for traffic-minimum partners (e.g., Skyscanner 5K visitors/mo gate). Marker env var: NEXT_PUBLIC_TRAVELPAYOUTS_MARKER."
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "booking": {
+    "aidEnvVar": "NEXT_PUBLIC_BOOKING_AID",
+    "aidReceivedAt": null,
+    "appliedAt": null,
+    "lastReviewedAt": "2026-05-11"
+  },
+  "civitatis": {
+    "aidEnvVar": "NEXT_PUBLIC_CIVITATIS_AID",
+    "aidReceivedAt": null,
+    "appliedAt": null,
+    "lastReviewedAt": "2026-05-11"
+  },
+  "viator": {
+    "aidEnvVar": "NEXT_PUBLIC_VIATOR_PID",
+    "aidReceivedAt": null,
+    "appliedAt": null,
+    "lastReviewedAt": "2026-05-11"
+  },
+  "getYourGuide": {
+    "aidEnvVar": "NEXT_PUBLIC_GYG_PARTNER_ID",
+    "aidReceivedAt": null,
+    "appliedAt": null,
+    "lastReviewedAt": "2026-05-11"
+  },
+  "rentalcars": {
+    "aidEnvVar": "NEXT_PUBLIC_RENTALCARS_AID",
+    "aidReceivedAt": null,
+    "appliedAt": null,
+    "lastReviewedAt": "2026-05-11"
+  },
+  "safetyWing": {
+    "aidEnvVar": "NEXT_PUBLIC_SAFETYWING_REF",
+    "aidReceivedAt": null,
+    "appliedAt": null,
+    "lastReviewedAt": "2026-05-11"
+  },
+  "skyscanner": {
+    "aidEnvVar": "NEXT_PUBLIC_SKYSCANNER_AID",
+    "aidReceivedAt": null,
+    "appliedAt": null,
+    "lastReviewedAt": "2026-05-11"
+  },
+  "hostelworld": {
+    "aidEnvVar": "NEXT_PUBLIC_HOSTELWORLD_AID",
+    "aidReceivedAt": null,
+    "appliedAt": null,
+    "lastReviewedAt": "2026-05-11"
+  },
+  "discoverCars": {
+    "aidEnvVar": "NEXT_PUBLIC_DISCOVERCARS_AID",
+    "aidReceivedAt": null,
+    "appliedAt": null,
+    "lastReviewedAt": "2026-05-11"
+  },
+  "klook": {
+    "aidEnvVar": "NEXT_PUBLIC_KLOOK_AID",
+    "aidReceivedAt": null,
+    "appliedAt": null,
+    "lastReviewedAt": "2026-05-11"
+  },
+  "goCity": {
+    "aidEnvVar": "NEXT_PUBLIC_GOCITY_AID",
+    "aidReceivedAt": null,
+    "appliedAt": null,
+    "lastReviewedAt": "2026-05-11"
+  },
+  "travelpayouts": {
+    "aidEnvVar": "NEXT_PUBLIC_TRAVELPAYOUTS_MARKER",
+    "aidReceivedAt": null,
+    "appliedAt": null,
+    "lastReviewedAt": "2026-05-11"
+  }
+}
