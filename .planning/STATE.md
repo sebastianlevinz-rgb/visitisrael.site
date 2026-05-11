@@ -4,8 +4,8 @@ milestone: v1.0
 milestone_name: milestone
 status: executing
 stopped_at: Completed .planning/phases/01-foundation-m1/03-photo-credits-PLAN.md
-last_updated: "2026-05-11T01:22:54Z"
-last_activity: "2026-05-11 — Plan 03 (photo-credits) complete: Zod ledger schema + Sharp CI gate + 27 tests + lint-staged wiring; 13 min, 4 commits."
+last_updated: '2026-05-11T01:22:54Z'
+last_activity: '2026-05-11 — Plan 03 (photo-credits) complete: Zod ledger schema + Sharp CI gate + 27 tests + lint-staged wiring; 13 min, 4 commits.'
 progress:
   total_phases: 6
   completed_phases: 0
@@ -35,24 +35,25 @@ Progress: [██░░░░░░░░] 18% (2/11 plans in Phase 1; ~3% overa
 ## Performance Metrics
 
 **Velocity:**
+
 - Total plans completed: 2
 - Average duration: 20 min
 - Total execution time: 0.67 hours
 
 **By Phase:**
 
-| Phase | Plans | Total | Avg/Plan |
-|-------|-------|-------|----------|
-| 1. Foundation | 2/11 | 40 min | 20 min |
-| 2. Pilot Jerusalem | 0/6 | — | — |
-| 3. Region Replication | 0/11 | — | — |
-| 4. Long-tail Sweep | 0/TBD | — | — |
-| 5. Legal + Launch Prep | 0/4 | — | — |
-| 6. Production Deploy | 0/4 | — | — |
+| Phase                  | Plans | Total  | Avg/Plan |
+| ---------------------- | ----- | ------ | -------- |
+| 1. Foundation          | 2/11  | 40 min | 20 min   |
+| 2. Pilot Jerusalem     | 0/6   | —      | —        |
+| 3. Region Replication  | 0/11  | —      | —        |
+| 4. Long-tail Sweep     | 0/TBD | —      | —        |
+| 5. Legal + Launch Prep | 0/4   | —      | —        |
+| 6. Production Deploy   | 0/4   | —      | —        |
 
 **Recent Trend:** Plan 03 (photo-credits) — 13 min — 15 files, 4 commits, 27 tests green, all must_haves verified.
 
-*Updated after each plan completion*
+_Updated after each plan completion_
 
 ## Accumulated Context
 

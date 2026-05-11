@@ -2,34 +2,57 @@
 phase: 01-foundation-m1
 plan: 03
 subsystem: infra
-tags: [photo-credits, zod, sharp, ci-gate, image-pipeline, lint-staged, husky, img-01, img-02, img-03, img-06]
+tags:
+  [
+    photo-credits,
+    zod,
+    sharp,
+    ci-gate,
+    image-pipeline,
+    lint-staged,
+    husky,
+    img-01,
+    img-02,
+    img-03,
+    img-06,
+  ]
 
 requires:
   - phase: 01-foundation-m1
-    provides: "Next.js scaffold + Vitest + Husky pre-commit/pre-push + lint-staged base + next.config.ts image block with deviceSizes [320,640,1024,1600] + formats [avif,webp] + remotePatterns for Wikimedia/Unsplash/Pexels/IGPO"
+    provides: 'Next.js scaffold + Vitest + Husky pre-commit/pre-push + lint-staged base + next.config.ts image block with deviceSizes [320,640,1024,1600] + formats [avif,webp] + remotePatterns for Wikimedia/Unsplash/Pexels/IGPO'
 
 provides:
-  - "Zod schema `lib/photo-credits-schema.ts` — 11-entry License enum (CC0/CC-BY-*/CC-BY-SA-*/PD/IGPO-CC/OWN/UNSPLASH/PEXELS), 10-entry SubjectType enum, CreditEntry object with width>=1200 + superRefine for 4 restricted religious sites (westernWall/holySepulchre/domeOfTheRock/bahaiGardens require restrictedSiteAcknowledgment)"
+  - 'Zod schema `lib/photo-credits-schema.ts` — 11-entry License enum (CC0/CC-BY-*/CC-BY-SA-*/PD/IGPO-CC/OWN/UNSPLASH/PEXELS), 10-entry SubjectType enum, CreditEntry object with width>=1200 + superRefine for 4 restricted religious sites (westernWall/holySepulchre/domeOfTheRock/bahaiGardens require restrictedSiteAcknowledgment)'
   - "Helper `lib/photo-credits.ts` — getCredit(src) throws Error('Missing photo-credits entry for ...') when src is absent from ledger; allCredits() exposes whole ledger for tools/audit"
-  - "Empty ledger `data/photo-credits.json` — `{}` valid against Zod; populated in Phase 2 with Jerusalem canonical images"
+  - 'Empty ledger `data/photo-credits.json` — `{}` valid against Zod; populated in Phase 2 with Jerusalem canonical images'
   - "CI gate `scripts/qa/check-credits.mjs` — walks app/components/content for <Image|HeroImage|PhotoGallery src=> references, walks public/images/ for orphans, Sharp-probes every ledger entry's actual width. Exits non-zero on UNDOCUMENTED / ORPHANED / UNDERSIZED / WIDTH MISMATCH / SCHEMA (Zod) failure."
-  - "Fixture images `data/photo-credits-fixtures/{valid-1600w,undersized-800w}.jpg` — committed for reproducible test runs (1600x900 blue, 800x450 red, synthesized via Sharp)"
-  - "package.json `qa:credits` + `validate:credits` scripts (real, replacing plan 01 placeholders) — pnpm qa:credits exits 0 on greenfield"
-  - "lint-staged wired — data/photo-credits.json + public/images/** + {app,components,content}/**.{tsx,mdx} all trigger full pnpm qa:credits sweep on staged change"
-  - "Husky pre-push hook continues to run pnpm qa:credits (was placeholder; now real)"
+  - 'Fixture images `data/photo-credits-fixtures/{valid-1600w,undersized-800w}.jpg` — committed for reproducible test runs (1600x900 blue, 800x450 red, synthesized via Sharp)'
+  - 'package.json `qa:credits` + `validate:credits` scripts (real, replacing plan 01 placeholders) — pnpm qa:credits exits 0 on greenfield'
+  - 'lint-staged wired — data/photo-credits.json + public/images/** + {app,components,content}/**.{tsx,mdx} all trigger full pnpm qa:credits sweep on staged change'
+  - 'Husky pre-push hook continues to run pnpm qa:credits (was placeholder; now real)'
 
-affects: [04-schema-baseline, 05-component-lib, 06-affiliate-helpers, 07-quality-profiles, 08-seo-config, 09-ner-detection, 10-audit-dashboard, 02-pilot-jerusalem (Phase 2)]
+affects:
+  [
+    04-schema-baseline,
+    05-component-lib,
+    06-affiliate-helpers,
+    07-quality-profiles,
+    08-seo-config,
+    09-ner-detection,
+    10-audit-dashboard,
+    02-pilot-jerusalem (Phase 2),
+  ]
 
 tech-stack:
   added:
-    - "sharp@0.34.5 (libvips prebuilt binaries; Windows-compatible)"
-    - "glob@13.0.6 (v13 — synchronous + globby-style; ESM-native)"
-    - "tsx@4.21.0 (devDep; reserved for future TS-script invocation, not used by qa:credits)"
+    - 'sharp@0.34.5 (libvips prebuilt binaries; Windows-compatible)'
+    - 'glob@13.0.6 (v13 — synchronous + globby-style; ESM-native)'
+    - 'tsx@4.21.0 (devDep; reserved for future TS-script invocation, not used by qa:credits)'
   patterns:
-    - "CI gate as `.mjs` with inlined Zod schema (zero TS runtime dep). Canonical schema lives in `lib/photo-credits-schema.ts`; mirror schema lives in `scripts/qa/check-credits.mjs`. Cross-test in `tests/photo-credits/check-credits.test.ts` catches divergence."
-    - "Test sandbox pattern: mkdtempSync + writeFileSync per-test ledger/source/public-images; spawn `node <absolute-path-to-script>` with `cwd: sandbox`. NODE_PATH does NOT work for ESM imports — absolute script path keeps node_modules resolution in the repo."
-    - "Restricted-site enforcement via Zod superRefine — subjectType ∈ {westernWall, holySepulchre, domeOfTheRock, bahaiGardens} REQUIRES restrictedSiteAcknowledgment field. All other subject types treat the field as optional."
-    - "Ledger source-of-truth pattern: `getCredit(src)` throws if missing — pairs with CI gate so runtime + buildtime both fail loudly. No silent fallback to placeholder URL."
+    - 'CI gate as `.mjs` with inlined Zod schema (zero TS runtime dep). Canonical schema lives in `lib/photo-credits-schema.ts`; mirror schema lives in `scripts/qa/check-credits.mjs`. Cross-test in `tests/photo-credits/check-credits.test.ts` catches divergence.'
+    - 'Test sandbox pattern: mkdtempSync + writeFileSync per-test ledger/source/public-images; spawn `node <absolute-path-to-script>` with `cwd: sandbox`. NODE_PATH does NOT work for ESM imports — absolute script path keeps node_modules resolution in the repo.'
+    - 'Restricted-site enforcement via Zod superRefine — subjectType ∈ {westernWall, holySepulchre, domeOfTheRock, bahaiGardens} REQUIRES restrictedSiteAcknowledgment field. All other subject types treat the field as optional.'
+    - 'Ledger source-of-truth pattern: `getCredit(src)` throws if missing — pairs with CI gate so runtime + buildtime both fail loudly. No silent fallback to placeholder URL.'
     - "Fixture committed for reproducibility — generate-fixtures.mjs is the recipe; the actual JPGs are committed so CI doesn't need Sharp to bootstrap tests (Sharp IS used inside the script and tests, but fixtures don't have to be re-synthesized per CI run)."
 
 key-files:
@@ -52,17 +75,17 @@ key-files:
     - lint-staged.config.js
 
 key-decisions:
-  - "Zod schema is duplicated between lib/photo-credits-schema.ts (TS source of truth) and scripts/qa/check-credits.mjs (inlined mirror). Rationale: keeps CI gate as pure .mjs with zero TS runtime dep (no tsx/ts-node spawn cost). Cross-test contract (tests/photo-credits/check-credits.test.ts case 5 — restricted site without acknowledgment) catches divergence."
+  - 'Zod schema is duplicated between lib/photo-credits-schema.ts (TS source of truth) and scripts/qa/check-credits.mjs (inlined mirror). Rationale: keeps CI gate as pure .mjs with zero TS runtime dep (no tsx/ts-node spawn cost). Cross-test contract (tests/photo-credits/check-credits.test.ts case 5 — restricted site without acknowledgment) catches divergence.'
   - "Plan task 1 GREEN used `import ... with { type: 'json' }` for the ledger (Node 22+ supported, TS 5.6+ accepts) — alternative was readFileSync at module-init time. Static import wins on type-safety + tree-shaking; if any CI hits an older Node, we fall back to readFileSync."
-  - "tsx@4 added as devDep but not used by qa:credits — kept as forward option for plan 09/10 audit scripts that may need to import from lib/* at script time."
-  - "Test sandbox uses mkdtempSync + ABSOLUTE script path (not copy + run-from-sandbox) — ESM does not honor NODE_PATH, so the only working pattern is to run the script from its repo location with cwd pointed at the sandbox. process.cwd()-relative paths inside the script make this work."
+  - 'tsx@4 added as devDep but not used by qa:credits — kept as forward option for plan 09/10 audit scripts that may need to import from lib/* at script time.'
+  - 'Test sandbox uses mkdtempSync + ABSOLUTE script path (not copy + run-from-sandbox) — ESM does not honor NODE_PATH, so the only working pattern is to run the script from its repo location with cwd pointed at the sandbox. process.cwd()-relative paths inside the script make this work.'
   - "Fixture images committed (8.8KB + 2.4KB) instead of generated on-demand — the test suite must work even when Sharp's libvips binaries are missing (e.g. corrupted node_modules) since the test ITSELF asserts Sharp works. Reproducibility recipe in generate-fixtures.mjs."
 
 patterns-established:
-  - "Photo-credits ledger pattern: every committed image MUST have ledger entry; restricted religious sites MUST carry restrictedSiteAcknowledgment field; width <1200 is structurally banned"
-  - "CI-gate `.mjs` pattern: import zod/glob/sharp directly; mirror schema inline; walk source-files via glob + regex for `<(Image|HeroImage|PhotoGallery) src=>`; cross-check ledger; Sharp-probe disk; report errors to stderr; exit 1 on any error"
-  - "Test sandbox subprocess pattern (for testing scripts): mkdtempSync sandbox + spawnSync with cwd pointing at sandbox + absolute script path + assert on status/stdout/stderr"
-  - "Fixture committal pattern: data/{topic}-fixtures/ with a generate-*.mjs recipe alongside the actual fixture files (committed). Recipe is for regeneration; CI uses committed files."
+  - 'Photo-credits ledger pattern: every committed image MUST have ledger entry; restricted religious sites MUST carry restrictedSiteAcknowledgment field; width <1200 is structurally banned'
+  - 'CI-gate `.mjs` pattern: import zod/glob/sharp directly; mirror schema inline; walk source-files via glob + regex for `<(Image|HeroImage|PhotoGallery) src=>`; cross-check ledger; Sharp-probe disk; report errors to stderr; exit 1 on any error'
+  - 'Test sandbox subprocess pattern (for testing scripts): mkdtempSync sandbox + spawnSync with cwd pointing at sandbox + absolute script path + assert on status/stdout/stderr'
+  - 'Fixture committal pattern: data/{topic}-fixtures/ with a generate-*.mjs recipe alongside the actual fixture files (committed). Recipe is for regeneration; CI uses committed files.'
 
 requirements-completed:
   - IMG-01
@@ -114,25 +137,30 @@ Each task committed atomically (Task 1 used TDD RED + GREEN split):
 ### Created (12)
 
 **Schema + helper (Task 1)**
+
 - `lib/photo-credits-schema.ts` — Zod schema with License enum (11) + SubjectType enum (10) + CreditEntry object with `width.min(1200)` + `superRefine` enforcing restrictedSiteAcknowledgment for 4 restricted religious sites; Ledger = `z.record(z.string(), CreditEntry)`
 - `lib/photo-credits.ts` — `getCredit(src: string): CreditEntry` throws with descriptive message; `allCredits()` returns whole ledger for audit/tools
 - `data/photo-credits.json` — empty `{}` ledger; valid against Zod; populated in Phase 2
 
 **CI gate (Task 2)**
+
 - `scripts/qa/check-credits.mjs` — 216-line script: Zod schema inlined (mirrors `lib/photo-credits-schema.ts`); walks `app/**`, `components/**`, `content/**` for `<Image|HeroImage|PhotoGallery src=>` regex; walks `public/images/**` for orphans; Sharp-probes every ledger entry's actual file. Exits non-zero on any failure with `- ` prefixed list to stderr.
 
 **Tests (Tasks 1-3)**
+
 - `tests/photo-credits/schema.test.ts` — 13 tests covering all Zod contracts (license enum, subject enum, width floor, superRefine, Ledger record, getCredit throw + message format)
 - `tests/photo-credits/check-credits.test.ts` — 6 subprocess-sandbox tests (empty greenfield, UNDOCUMENTED, ORPHANED, WIDTH MISMATCH, restricted-site SCHEMA fail, fully valid ledger pass)
 - `tests/photo-credits/next-config.test.ts` — 8 source-text assertions on next.config.ts (deviceSizes, formats, 4 remotePatterns hosts, minimumCacheTTL, https-only)
 
 **Fixtures (Task 2)**
+
 - `data/photo-credits-fixtures/.gitkeep` — dir marker
 - `data/photo-credits-fixtures/generate-fixtures.mjs` — recipe to regenerate fixtures (one-shot)
 - `data/photo-credits-fixtures/valid-1600w.jpg` — 1600x900 blue solid (~9KB) — passes width check
 - `data/photo-credits-fixtures/undersized-800w.jpg` — 800x450 red solid (~2.4KB) — fails width check
 
 **Tracking**
+
 - `.planning/phases/01-foundation-m1/deferred-items.md` — logs out-of-scope discoveries (plan 04 in-flight typecheck noise; cheerio added by another plan)
 
 ### Modified (3)
@@ -180,7 +208,7 @@ Each task committed atomically (Task 1 used TDD RED + GREEN split):
 **3. [Rule 2 - Missing Critical] `tsx` runtime dependency**
 
 - **Found during:** Task 2 design
-- **Issue:** Plan task 2 mentioned `.mjs` or `.ts via tsx`. Started down the `.ts` path to share the canonical schema with `lib/photo-credits-schema.ts`. After Decision 1 (inline mirror), `tsx` ended up unused in plan 03 — but kept installed because plans 09 (NER) and 10 (audit dashboard) will need TS scripts that import from lib/*.
+- **Issue:** Plan task 2 mentioned `.mjs` or `.ts via tsx`. Started down the `.ts` path to share the canonical schema with `lib/photo-credits-schema.ts`. After Decision 1 (inline mirror), `tsx` ended up unused in plan 03 — but kept installed because plans 09 (NER) and 10 (audit dashboard) will need TS scripts that import from lib/\*.
 - **Fix:** Left `tsx@^4.21.0` in devDependencies as a forward-investment. Documented in decisions above.
 - **Files modified:** `package.json`, `pnpm-lock.yaml`
 - **Verification:** `pnpm list tsx` reports `tsx 4.21.0`. Not invoked by any current script.
@@ -204,16 +232,19 @@ None — Phase 1 ledger ships empty (`{}`). The first ledger entry will land in 
 ## Next Phase Readiness
 
 **Plan 03 unblocks:**
+
 - **Plan 05 (component-lib, Wave 3)** — `<PhotoGallery>` and `<HeroImage>` components can now consume `getCredit(src)` and the typed `CreditEntry`; lint-staged hook will catch any new `<Image>` references that don't carry ledger entries
 - **Plan 10 (audit dashboard, Wave 7)** — AUD-003 (undocumented image), AUD-004 (width <1200), AUD-026 (restricted site without acknowledgment) all have their detection logic ready to wire into the build-time scanner
 - **Phase 2 Pilot Jerusalem (Plan 02-01)** — first Wikimedia Commons sourcing pass will commit `data/photo-credits.json` entries; pre-push hook ensures none ship undocumented
 
 **Notes for downstream plans:**
+
 - The Zod schema is the canonical source; any field addition (e.g. `captureDate`, `watermarkChecked`, `containsIdentifiablePerson` from PITFALLS §5.5 future-fields list) goes in `lib/photo-credits-schema.ts` AND the mirror in `scripts/qa/check-credits.mjs`. The check-credits subprocess test (case 5) will fail-loud on enum drift.
 - `restrictedSiteAcknowledgment` is the ONLY field where missing-when-required produces a Zod issue. If Phase 2 needs to enforce other site-specific constraints (e.g. Bahá'í photography permit), add to `RESTRICTED_SUBJECTS` set in both files.
 - `public/images/` is greenfield. Phase 2 will populate; the orphan-detection logic is already armed.
 
 **Wave 2 status:**
+
 - Plan 02 (design tokens) — in flight, will finalize Wave 2 alongside plan 04
 - Plan 03 (this plan) — ✅ complete
 - Plan 04 (schema baseline) — in flight; deferred-items.md tracks plan-04 typecheck artifacts that plan 03 saw
@@ -222,31 +253,31 @@ None — Phase 1 ledger ships empty (`{}`). The first ledger entry will land in 
 
 Verifications performed:
 
-| Check | Command | Result |
-|---|---|---|
-| Task 1 RED commit exists | `git log --oneline \| grep 49b819e` | FOUND |
-| Task 1 GREEN commit exists | `git log --oneline \| grep 9651e4f` | FOUND |
-| Task 2 commit exists | `git log --oneline \| grep 249df66` | FOUND |
-| Task 3 commit exists | `git log --oneline \| grep cd90008` | FOUND |
-| `lib/photo-credits-schema.ts` exists | `[ -f lib/photo-credits-schema.ts ]` | FOUND |
-| `lib/photo-credits.ts` exists | `[ -f lib/photo-credits.ts ]` | FOUND |
-| `data/photo-credits.json` exists (empty `{}`) | `cat` | FOUND |
-| `scripts/qa/check-credits.mjs` exists | `[ -f scripts/qa/check-credits.mjs ]` | FOUND |
-| `data/photo-credits-fixtures/valid-1600w.jpg` exists | `[ -f ...]` | FOUND |
-| `data/photo-credits-fixtures/undersized-800w.jpg` exists | `[ -f ...]` | FOUND |
-| `tests/photo-credits/schema.test.ts` exists | `[ -f ...]` | FOUND |
-| `tests/photo-credits/check-credits.test.ts` exists | `[ -f ...]` | FOUND |
-| `tests/photo-credits/next-config.test.ts` exists | `[ -f ...]` | FOUND |
-| `pnpm test --run tests/photo-credits/` | 27/27 pass | PASS |
-| `pnpm qa:credits` on greenfield | exit 0, "Photo credits check OK (0 entries)" | PASS |
-| Sharp probe works | subprocess test 4 (`UNDERSIZED` against 800w fixture) | PASS |
-| Restricted-site enforcement | subprocess test 5 (`restrictedSiteAcknowledgment` missing → exit non-zero) | PASS |
-| lint-staged contains `qa:credits` triggers | grep `lint-staged.config.js` | FOUND |
-| `.husky/pre-push` invokes `pnpm qa:credits` | `cat .husky/pre-push` | FOUND |
-| `next.config.ts` contract test | 8/8 pass | PASS |
+| Check                                                    | Command                                                                    | Result |
+| -------------------------------------------------------- | -------------------------------------------------------------------------- | ------ |
+| Task 1 RED commit exists                                 | `git log --oneline \| grep 49b819e`                                        | FOUND  |
+| Task 1 GREEN commit exists                               | `git log --oneline \| grep 9651e4f`                                        | FOUND  |
+| Task 2 commit exists                                     | `git log --oneline \| grep 249df66`                                        | FOUND  |
+| Task 3 commit exists                                     | `git log --oneline \| grep cd90008`                                        | FOUND  |
+| `lib/photo-credits-schema.ts` exists                     | `[ -f lib/photo-credits-schema.ts ]`                                       | FOUND  |
+| `lib/photo-credits.ts` exists                            | `[ -f lib/photo-credits.ts ]`                                              | FOUND  |
+| `data/photo-credits.json` exists (empty `{}`)            | `cat`                                                                      | FOUND  |
+| `scripts/qa/check-credits.mjs` exists                    | `[ -f scripts/qa/check-credits.mjs ]`                                      | FOUND  |
+| `data/photo-credits-fixtures/valid-1600w.jpg` exists     | `[ -f ...]`                                                                | FOUND  |
+| `data/photo-credits-fixtures/undersized-800w.jpg` exists | `[ -f ...]`                                                                | FOUND  |
+| `tests/photo-credits/schema.test.ts` exists              | `[ -f ...]`                                                                | FOUND  |
+| `tests/photo-credits/check-credits.test.ts` exists       | `[ -f ...]`                                                                | FOUND  |
+| `tests/photo-credits/next-config.test.ts` exists         | `[ -f ...]`                                                                | FOUND  |
+| `pnpm test --run tests/photo-credits/`                   | 27/27 pass                                                                 | PASS   |
+| `pnpm qa:credits` on greenfield                          | exit 0, "Photo credits check OK (0 entries)"                               | PASS   |
+| Sharp probe works                                        | subprocess test 4 (`UNDERSIZED` against 800w fixture)                      | PASS   |
+| Restricted-site enforcement                              | subprocess test 5 (`restrictedSiteAcknowledgment` missing → exit non-zero) | PASS   |
+| lint-staged contains `qa:credits` triggers               | grep `lint-staged.config.js`                                               | FOUND  |
+| `.husky/pre-push` invokes `pnpm qa:credits`              | `cat .husky/pre-push`                                                      | FOUND  |
+| `next.config.ts` contract test                           | 8/8 pass                                                                   | PASS   |
 
 ---
 
-*Phase: 01-foundation-m1*
-*Plan: 03 (photo-credits)*
-*Completed: 2026-05-11*
+_Phase: 01-foundation-m1_
+_Plan: 03 (photo-credits)_
+_Completed: 2026-05-11_
