@@ -53,3 +53,12 @@ coverage/
 # Lighthouse reports
 .lighthouseci/
 lighthouse-reports/
+
+# Velite build cache
+.velite/
+
+# Audit + Quality Gate ephemeral output
+data/audit-results.json
+data/lighthouse-results.json
+data/quality-gate-pass.md
+data/quality-gate-failure.md

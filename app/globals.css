@@ -1,0 +1,16 @@
+@import "tailwindcss";
+
+@theme {
+  /* Populated in plan 02 (design tokens).
+     Layer 1: foundation (raw OKLCH ramps)
+     Layer 2: semantic (purpose-driven aliases)
+     Layer 3: component (button-bg-primary etc.) */
+}
+
+html {
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  min-height: 100vh;
+}

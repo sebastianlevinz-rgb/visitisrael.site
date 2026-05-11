@@ -1,0 +1,12 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "buildCommand": "pnpm build",
+  "installCommand": "pnpm install",
+  "framework": "nextjs",
+  "git": {
+    "deploymentEnabled": {
+      "master": true
+    }
+  },
+  "ignoreCommand": "git diff --quiet HEAD^ HEAD -- ':!.planning/**' ':!MEGA-PROMPT-NEW-COUNTRY.md' ':!data/*.md'"
+}
