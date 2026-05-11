@@ -2,16 +2,17 @@
 gsd_state_version: 1.0
 milestone: v1.0
 milestone_name: milestone
-current_plan: 'Phase 3 plans ready — `/gsd:execute-phase 03` (Wave 1: Tel Aviv solo first)'
-status: planning
-stopped_at: Completed 03-11-bethlehem-PLAN.md — Wave 5 SOLO PASS; Phase 3 EXECUTION COMPLETE — all 11/11 plans PASS; Phase 4 long-tail sweep + Phase 5 launch prep unblocked
-last_updated: '2026-05-11T17:14:33.644Z'
-last_activity: '2026-05-11 — Phase 2.6 Quality Gate PASS: scripts/audit/quality-gate.ts refactored to export pure helpers (evaluateCriteria, composeReport, writeReport, isAdminOrUtility) for Vitest pinning; 17 new tests pin mode auto-flip (structural<->content via contentPages.length) + per-criterion DEFER/PASS/FAIL semantics + Lighthouse threshold evaluation + full PASS/FAIL report markdown rendering. Pre-existing Plan 05 deferred-items.md homepage BreadcrumbList <2 schema error resolved by removing BreadcrumbList from app/[locale]/page.tsx (Option 1 over synthetic 2-item pair, CollectionPage alone satisfies AUD-033). Manual SERP review checklist template + filled instance (8 DEFERRED verdicts with per-keyword confidence proxy + post-launch human-review SLA per CONTEXT.md proxied-R3 strategy). Full QA pipeline: build OK + qa:credits OK + qa:schema 0 errors (77 pages / 68 JSON-LD) + qa:audit 0 critical / all 30 content pages >=85 + qa:axe stub + qa:audit-a11y Windows stub + qa:lighthouse Windows EPERM (empty baseline preserved → criterion 1 DEFERS cleanly). pnpm qa:quality-gate PASS mode=content. 805 tests green (+17 new). 15 min, 3 commits, 1 auto-fix (BreadcrumbList removal). CNT-01..07 + A11Y-03/04/05 + SEO-04 + IMG-04/05 verified at gate. Total Phase 2 wall-clock: 173 min (2h 53min).'
+current_plan: 'Phase 4 COMPLETE (1/1 minimal-deferral close) — Phase 5 (Legal + Launch Prep) unblocks; `/gsd:execute-phase 05` next'
+status: ready-for-next-phase
+stopped_at: Completed 04-01-long-tail-backlog-PLAN.md — Phase 4 minimal-deferral close (53 candidates scaffolded across 11 regions; data/long-tail-trigger.md reactivation handoff live; NO MDX shipped per Argentina lesson #9); Phase 5 unblocked
+last_updated: '2026-05-11T19:30:18Z'
+last_activity: '2026-05-11 — Phase 4 Plan 01 (long-tail-backlog) MINIMAL-DEFERRAL CLOSE: 4 min, 2 commits, 0 deviations. data/long-tail-backlog.md (53 proxied candidates across 11 regions — 10 v1 + 2 v2-deferred Bethlehem; each entry tagged with proxied composite ~5-8 + source citation FEATURES/PITFALLS/CONTEXT + 1-line justification + affiliate-monetization angle; status: DEFERRED-AWAITING-R3-VALIDATION; documents DataForSEO $50 / Ahrefs Lite $129 trigger). data/long-tail-trigger.md (operational handoff: /gsd:plan-phase 4 --gaps reactivation command + vendor decision table + selection rubric N=ceil(existing_subdest*0.5) + Argentina-lesson-9 anti-pattern + 6-item operator checklist). Phase 4 ships as 1/1 plans (intentional minimal close per 04-VALIDATION.md nyquist_compliant=true and Phase 2 STATE.md Gap §6.1). Zero MDX in content/ (verified via git diff master~2..master --name-only). Phase 5 (Legal + Launch Prep) unblocks immediately. Long-tail expansion remains open post-launch workstream contingent on R3 keyword purchase (operator decision: $50 one-shot vs $129/mo cadence).'
+previous_activity: '2026-05-11 — Phase 2.6 Quality Gate PASS: scripts/audit/quality-gate.ts refactored to export pure helpers (evaluateCriteria, composeReport, writeReport, isAdminOrUtility) for Vitest pinning; 17 new tests pin mode auto-flip (structural<->content via contentPages.length) + per-criterion DEFER/PASS/FAIL semantics + Lighthouse threshold evaluation + full PASS/FAIL report markdown rendering. Pre-existing Plan 05 deferred-items.md homepage BreadcrumbList <2 schema error resolved by removing BreadcrumbList from app/[locale]/page.tsx (Option 1 over synthetic 2-item pair, CollectionPage alone satisfies AUD-033). Manual SERP review checklist template + filled instance (8 DEFERRED verdicts with per-keyword confidence proxy + post-launch human-review SLA per CONTEXT.md proxied-R3 strategy). Full QA pipeline: build OK + qa:credits OK + qa:schema 0 errors (77 pages / 68 JSON-LD) + qa:audit 0 critical / all 30 content pages >=85 + qa:axe stub + qa:audit-a11y Windows stub + qa:lighthouse Windows EPERM (empty baseline preserved → criterion 1 DEFERS cleanly). pnpm qa:quality-gate PASS mode=content. 805 tests green (+17 new). 15 min, 3 commits, 1 auto-fix (BreadcrumbList removal). CNT-01..07 + A11Y-03/04/05 + SEO-04 + IMG-04/05 verified at gate. Total Phase 2 wall-clock: 173 min (2h 53min).'
 progress:
   total_phases: 6
-  completed_phases: 3
-  total_plans: 28
-  completed_plans: 28
+  completed_phases: 4
+  total_plans: 29
+  completed_plans: 29
   percent: 100
 ---
 
@@ -26,14 +27,14 @@ See: .planning/PROJECT.md (updated 2026-05-11)
 
 ## Current Position
 
-Phase: 3 of 6 (Region Replication — M3) — **PLANNING COMPLETE, EXECUTE ELIGIBLE**
-Plan: 0 of 11 region plans executed; all 11 PLAN.md committed + verified by gsd-plan-checker; 03-VALIDATION.md `nyquist_compliant: true`
-Current Plan: Phase 3 plans ready — `/gsd:execute-phase 03` (Wave 1: Tel Aviv solo first)
-Status: Phase 3 PLANNING COMPLETE — 11 region plans + RESEARCH + VALIDATION (nyquist=true). Plan-checker found 1 blocker (verify-regex typo `PASS\s\*\|` in all 11 plans' Task 4 — fixed by switching to prettier-safe `PASS \|` literal-space match since the report-row template emits `| PASS |`) + 2 minor inconsistencies (plan-11 frontmatter, RESEARCH/CONTEXT filename) — all fixed. Phase 2 Jerusalem pilot Quality Gate PASS remains the proven template.
+Phase: 4 of 6 (Long-tail Sweep — M4) — **COMPLETE (minimal-deferral close)** → Phase 5 (Legal + Launch Prep) unblocked, EXECUTE ELIGIBLE
+Plan: 1 of 1 Phase 4 plans complete (intentional minimal close per 04-VALIDATION.md nyquist_compliant=true). Phase 3 also COMPLETE at 11/11. Cumulative: 29/29 plans across Phases 1–4.
+Current Plan: Phase 4 COMPLETE — `/gsd:execute-phase 05` next (Phase 5 Legal + Launch Prep, 4 plans)
+Status: Phase 4 minimal-deferral close. 1 plan / 2 docs shipped: data/long-tail-backlog.md (53 proxied candidates across 11 regions) + data/long-tail-trigger.md (operational handoff for `/gsd:plan-phase 4 --gaps` reactivation cycle). NO MDX shipped — Argentina lesson #9 prevention (proxied volumes → ~70% wrong-intent rankings within 3 months in the Argentina retrospective). Substantive long-tail authoring deferred pending R3 keyword purchase (DataForSEO $50 default, Ahrefs Lite $129/mo alternative). Phase 5 unblocks immediately; long-tail expansion remains an open post-launch workstream.
 Last activity: 2026-05-11 — Phase 2.6 Quality Gate PASS: scripts/audit/quality-gate.ts refactored to export pure helpers (evaluateCriteria, composeReport, writeReport, isAdminOrUtility) for Vitest pinning; 17 new tests pin mode auto-flip (structural<->content via contentPages.length) + per-criterion DEFER/PASS/FAIL semantics + Lighthouse threshold evaluation + full PASS/FAIL report markdown rendering. Pre-existing Plan 05 deferred-items.md homepage BreadcrumbList <2 schema error resolved by removing BreadcrumbList from app/[locale]/page.tsx (Option 1 over synthetic 2-item pair, CollectionPage alone satisfies AUD-033). Manual SERP review checklist template + filled instance (8 DEFERRED verdicts with per-keyword confidence proxy + post-launch human-review SLA per CONTEXT.md proxied-R3 strategy). Full QA pipeline: build OK + qa:credits OK + qa:schema 0 errors (77 pages / 68 JSON-LD) + qa:audit 0 critical / all 30 content pages >=85 + qa:axe stub + qa:audit-a11y Windows stub + qa:lighthouse Windows EPERM (empty baseline preserved → criterion 1 DEFERS cleanly). pnpm qa:quality-gate PASS mode=content. 805 tests green (+17 new). 15 min, 3 commits, 1 auto-fix (BreadcrumbList removal). CNT-01..07 + A11Y-03/04/05 + SEO-04 + IMG-04/05 verified at gate. Total Phase 2 wall-clock: 173 min (2h 53min).
 Previous activity: 2026-05-11 — Phase 2.5 hubs+legal: homepage (RegionHero + 11-card grid + 3 CTAs) + /regions/ index + 5 legal pages × 2 langs (about/contact/privacy/affiliate-disclosure/accessibility-statement). IS 5568 Hatzaharat Negishut with real named coordinator (Sebastian Levin / +972-53-371-3838 / accessibility@visitisrael.site / 2026-05-11) — resolves Gap §6.7 statutory blocker. 3-layer placeholder defense (pre-commit hook + Vitest coordinator-format + render-time assertNoPlaceholders) all share **REQUIRES_USER_INPUT** sentinel. 788 tests green (+26 from un-skipped coordinator-format + accessibility-statement). AUD-027 + AUD-028 = 0 across 77 pages site-wide. 46 min, 4 commits, 2 auto-fixed deviations. CNT-06 + CNT-07 + A11Y-03 + A11Y-04 + A11Y-05 complete.
 
-Progress: [██████████] 100% Phase 2 (6/6 plans; Phase 1 11/11 ✓; Phase 3 7/11 — tel-aviv + dead-sea + galilee + eilat + negev + caesarea + nazareth all PASS; haifa/golan/akko Wave 4 next; bethlehem Wave 5 last; overall 24/41 plans completed across milestone)
+Progress: [██████████] 100% Phase 4 (1/1 plan minimal-deferral close; Phase 1 11/11 ✓; Phase 2 6/6 ✓; Phase 3 11/11 ✓; Phase 4 1/1 ✓; overall 29/37 plans completed across milestone — Phase 5 4 plans + Phase 6 4 plans remain)
 
 ## Performance Metrics
 
@@ -45,14 +46,14 @@ Progress: [██████████] 100% Phase 2 (6/6 plans; Phase 1 11/1
 
 **By Phase:**
 
-| Phase                  | Plans | Total   | Avg/Plan |
-| ---------------------- | ----- | ------- | -------- |
-| 1. Foundation          | 11/11 | 190 min | ~17 min  |
-| 2. Pilot Jerusalem     | 6/6   | 173 min | ~29 min  |
-| 3. Region Replication  | 0/11  | —       | —        |
-| 4. Long-tail Sweep     | 0/TBD | —       | —        |
-| 5. Legal + Launch Prep | 0/4   | —       | —        |
-| 6. Production Deploy   | 0/4   | —       | —        |
+| Phase                  | Plans | Total    | Avg/Plan |
+| ---------------------- | ----- | -------- | -------- |
+| 1. Foundation          | 11/11 | 190 min  | ~17 min  |
+| 2. Pilot Jerusalem     | 6/6   | 173 min  | ~29 min  |
+| 3. Region Replication  | 11/11 | ~553 min | ~50 min  |
+| 4. Long-tail Sweep     | 1/1   | 4 min    | 4 min    |
+| 5. Legal + Launch Prep | 0/4   | —        | —        |
+| 6. Production Deploy   | 0/4   | —        | —        |
 
 \*_Latest Plan (Phase 2.1 en-canonical) — 38 min — 12 files created + 6 modified, 2 commits, 12 net new tests (516 total green). app/[locale]/[region]/page.tsx dynamic region renderer (Phase 1 shipped /admin/_ only); components/MDXContent.tsx runtime evaluator for Velite-compiled MDX (Function constructor + react/jsx-runtime, direct default-export invocation to avoid react-hooks/static-components violation); velite.config.ts Region schema extended with heroImage/primaryKeyword/secondaryKeywords/lat-lng/faqs[5-10]/body: s.mdx(); content/en/regions/jerusalem.mdx authored to 2090 words (mid-band 1800-2200) following PITFALLS §4.1 H-tag scaffolding verbatim — 9 H2 sections, 6 distinct AffiliateCard partners (booking, civitatis, viator, skyscanner, rentalcars, safetyWing), ShabbatNotice + TransportInfo composites, 8 FAQ entries; 6 Jerusalem images (hero 1920w + 5 inline 1600w) — Sharp-generated placeholders at documented dimensions with REAL Wikimedia/IGPO sourceUrls in ledger + restrictedSiteAcknowledgment for western-wall (IGPO 2017 partnership) and holy-sepulchre (wide architectural CC-BY-SA-4.0); scripts/audit/run.ts enhanced with loadVeliteIndex() that reads .velite/{regions,subDestinations,guides,legal}.json once at startup and injects the right `collection` field into the per-page frontmatter stub at scan time — REGION_CANONICAL profile now fires for /en/jerusalem (score moves from UNKNOWN/0 to 100); 3 auto-fixed deviations (audit-dashboard Velite integration as Rule 2 missing critical functionality; 2-H1 collision as Rule 1 bug — MDX H1 removed, RegionHero owns page H1; AffiliateCard prop contract mismatch with PLAN guidance as Rule 3 blocking — MDX uses `destination` not `data` per actual component signature). AUD-001/002/008/009/012/017/018/019/020/026/027/028/029/030/032/033 all 0 violations on /en/jerusalem; AUD-010/011/013/034 deferred-info (Phase 6 monitoring + Lighthouse). CNT-01 + SEO-04 (Jerusalem application) + IMG-04 + IMG-05 complete.
 
@@ -81,6 +82,7 @@ _Updated after each plan completion_
 | Phase 03-region-replication-m3 P10-akko | 57 | 4 tasks | 20 files |
 | Phase 03-region-replication-m3 P08-golan | 67 min | 4 tasks tasks | 18 files files |
 | Phase 03-region-replication-m3 P11-bethlehem | 19 min | 3 tasks tasks | 16 files files |
+| Phase 04-long-tail-sweep-m4 P01-long-tail-backlog | 4 min | 2 tasks | 2 files |
 
 ## Accumulated Context
 
@@ -89,6 +91,12 @@ _Updated after each plan completion_
 Decisions are logged in PROJECT.md Key Decisions table and SUMMARY.md §1 (Headline Decisions) + §3 (Conflict Resolutions).
 
 Recent decisions affecting current work:
+
+- **Phase 4 Plan 01 — Ship as minimal-deferral close (1 plan / 2 docs), NOT substantive long-tail authoring:** Argentina lesson #9 (proxied volumes → ~70% wrong-intent rankings within 3 months requiring rewrite that wipes out the velocity gain) explicitly precludes authoring against proxied composites. The proxied composites in `data/long-tail-backlog.md` are MEDIUM-LOW confidence — sufficient to answer "is this worth building" but insufficient to answer "which 5 of these 30 to write first." Trade-off accepted: Phase 4 looks thin in commit history vs Phase 3's 11 plans, but the alternative carries an order-of-magnitude higher cost in 3-month rewrite churn.
+- **Phase 4 Plan 01 — Default vendor: DataForSEO API $50 one-shot over Ahrefs Lite $129/mo:** Minimal commitment, sufficient for v1's single ranking-pass need. Quarterly cadence (Ahrefs Lite) is itself a v2-grade decision (depends on launch organic momentum), so v1 default cannot be the more expensive option. Operator can upgrade to Ahrefs Lite post-launch if organic velocity justifies it.
+- **Phase 4 Plan 01 — Selection rubric N=⌈existing_subdest × 0.5⌉ locked:** Yields ~51 v1 long-tail pages across the 10 v1-eligible regions, matching the 50 candidate-count in the backlog within ±2 entries — small slack absorbs substitutions when measured volumes contradict proxied composites.
+- **Phase 4 Plan 01 — Bethlehem long-tail explicitly deferred to v2:** The 2 Bethlehem entries (Shepherds Field, Manger Square Christmas) live in the backlog as planning surface only; `/gsd:plan-phase 4 --gaps` in v1 must NOT pick them up. Editorial sensitivity beyond v1 mitigation budget per Phase 3 CONTEXT.
+- **Phase 4 Plan 01 — Reactivation-handoff doc pattern established:** When a phase defers substantive work pending external input (R3 keyword purchase), ship a trigger doc (`data/long-tail-trigger.md`) with explicit re-entry command (`/gsd:plan-phase 4 --gaps`), vendor decision table, selection rubric, anti-pattern callout, and operator handoff checklist. Pattern reusable for any future input-gated phase.
 
 - **Plan 08 — Sitemap config-driven, NOT filesystem-driven:** The generator iterates `locales` from i18n-config.ts and a Phase-1 static path list — it does NOT walk content/{he,en,fr}/. Rationale: a filesystem-walking generator would silently emit FR URLs the moment a single test MDX file lands in content/fr/. Config-driven means Conflict A is structural, not defensive. Adding FR later = one-line change in i18n-config.ts; nothing here updates.
 - **Plan 08 — Hreflang x-default → EN, not HE:** HE is `defaultLocale` (URL routing — no prefix). EN is global hreflang `x-default` (international visitor fallback). Two different roles. ARCHITECTURE §6.2 explicitly: English is the global fallback for an Israel-focused property; an English-speaking visitor with no `Accept-Language: he` header should land on /en/ not /. Documented in hreflang.ts so future "fix" attempts don't reverse it.

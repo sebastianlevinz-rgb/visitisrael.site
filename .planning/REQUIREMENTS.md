@@ -137,7 +137,7 @@ Acknowledged but deferred. Tracked, not in current roadmap.
 
 ### Long-tail Sub-destinations
 
-- **SUB-V2-01**: Phase 4 long-tail sub-destination sweep — sub-destinations beyond the 30–80 built in REG-02, prioritized by validated keyword volume from Ahrefs/DataForSEO data. **Promoted to Phase 4 (v1 execution scope)** in ROADMAP.md after roadmap analysis confirmed long-tail is essential to the "compete on SEO" core value but only after canonicals stabilize per Argentina lesson #9.
+- **SUB-V2-01**: Phase 4 long-tail sub-destination sweep — sub-destinations beyond the 30–80 built in REG-02, prioritized by validated keyword volume from Ahrefs/DataForSEO data. **Promoted to Phase 4 (v1 execution scope)** in ROADMAP.md after roadmap analysis confirmed long-tail is essential to the "compete on SEO" core value but only after canonicals stabilize per Argentina lesson #9. **Status: PARTIALLY SATISFIED 2026-05-11 by Phase 4 Plan 01 minimal-deferral close** — scaffold shipped (`data/long-tail-backlog.md` + `data/long-tail-trigger.md`); substantive per-region long-tail plans deferred to R3-data-availability reactivation cycle via `/gsd:plan-phase 4 --gaps` per Phase 2 STATE.md Gap §6.1.
 
 ### Klook + GoCity Activation
 

@@ -13,8 +13,8 @@ Six-phase delivery of a production-ready, bilingual (EN+HE) tourism affiliate we
 
 - [x] **Phase 1: Foundation (M1)** ✓ Completed 2026-05-11 — 11 sub-phase plans built: scaffold, design tokens, components, affiliate helpers, photo-credits ledger, schema lib, quality profiles, SEO config, audit dashboard, Lighthouse CI gate, NER detection — BEFORE any region page is written. 503/504 tests green; AUD-03 + A11Y-08 closed. Phase 2 (Pilot Jerusalem) eligible (R3 keyword research purchase pending).
 - [x] **Phase 2: Pilot Region Jerusalem (M2)** ✓ Completed 2026-05-11 — 6 sub-phase plans built: EN canonical + HE canonical + checkpoint + 7 paired sub-dests + 1 itinerary pair + homepage/regions hubs + 5 legal × 2 langs (with real accessibility coordinator) + Quality Gate. 805/806 tests green. **Quality Gate PASS** (mode=content, 9/10 PASS + 1 DEFERRED — Lighthouse runs in CI). 30 content pages (15 HE + 15 EN, perfect parity). 0 critical bugs. AUD-001/003/004/009/031/032/033 all 0 on content. Phase 3 (Region Replication) UNBLOCKED. Total wall-clock 173 min (2h 53min).
-- [ ] **Phase 3: Region Replication (M3)** — 10 more regions (Tel Aviv → Akko) using pilot template, each at audit ≥80 / Lighthouse ≥85 soft gate
-- [ ] **Phase 4: Long-tail Sub-destination Sweep (M4)** — Additional sub-destinations beyond the 30-80 of Phase 3, prioritized by Ahrefs/DataForSEO keyword volume
+- [x] **Phase 3: Region Replication (M3)** ✓ Completed 2026-05-11 — 11/11 plans PASS (Tel Aviv + Dead Sea + Galilee + Eilat + Negev + Nazareth + Haifa + Golan + Caesarea + Akko + Bethlehem); ~120 region+sub-dest pages bilingual; all soft gates PASS at audit ≥80 / EN+HE parity 100% / 0 critical bugs; data/region-replication-report.md aggregate shows all 11 PASS.
+- [x] **Phase 4: Long-tail Sub-destination Sweep (M4)** ✓ Completed 2026-05-11 (minimal-deferral close) — 1/1 plans complete. data/long-tail-backlog.md (53 proxied candidates across 11 regions, status: DEFERRED-AWAITING-R3-VALIDATION) + data/long-tail-trigger.md (reactivation handoff for `/gsd:plan-phase 4 --gaps` after R3 keyword purchase: DataForSEO $50 default or Ahrefs Lite $129/mo). NO MDX shipped — Argentina lesson #9 prevention. Substantive long-tail expansion remains an open post-launch workstream contingent on R3 purchase.
 - [ ] **Phase 5: Legal + Launch Prep + Final QA (M5)** — IS 5568 statement final form, legal pages parity check, "Looks done but isn't" PITFALLS §13 checklist, deploy prep
 - [ ] **Phase 6: Production Deploy + Monitoring (M6)** — Vercel prod, GSC + sitemap submit, affiliate health monitor, Lighthouse CI history, post-launch backlog
 
@@ -192,7 +192,7 @@ Plans:
 
 **Plans**:
 
-- [ ] 04-01: Per-region long-tail expansion (parallelizable per region; one plan per region or one consolidated sweep — TBD during plan-phase based on validated volume distribution)
+- [x] 04-01: Long-tail backlog scaffolding + reactivation trigger (minimal-deferral close per `04-VALIDATION.md` nyquist_compliant=true) ✓ Completed 2026-05-11 — data/long-tail-backlog.md (53 candidates across 11 regions, proxied composites only) + data/long-tail-trigger.md (operator handoff: `/gsd:plan-phase 4 --gaps` re-entry command + DataForSEO $50 / Ahrefs Lite $129 vendor decision + N=⌈existing_subdest × 0.5⌉ selection rubric + Argentina-lesson-9 anti-pattern + 6-item checklist). Substantive per-region long-tail plans deferred to R3-data-availability reactivation cycle.
 
 ---
 
@@ -259,8 +259,8 @@ Quality Gate failure between 2 and 3 halts the workflow; no auto-advance to Phas
 | 1. Foundation (M1)                     | 11/11          | Complete    | 2026-05-11 |
 | 2. Pilot Jerusalem (M2)                | 6/6            | Complete    | 2026-05-11 |
 | — Quality Gate (hard stop)             | PASS           | Cleared     | 2026-05-11 |
-| 3. Region Replication (M3)             | 4/11           | In progress | 2026-05-11 |
-| 4. Long-tail Sweep (M4)                | 0/1 (TBD)      | Not started | -          |
+| 3. Region Replication (M3)             | 11/11          | Complete    | 2026-05-11 |
+| 4. Long-tail Sweep (M4)                | 1/1            | Complete    | 2026-05-11 |
 | 5. Legal + Launch Prep (M5)            | 0/4            | Not started | -          |
 | 6. Production Deploy + Monitoring (M6) | 0/4            | Not started | -          |
 
