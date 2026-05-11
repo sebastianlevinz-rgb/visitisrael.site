@@ -152,10 +152,18 @@
 ### INDEXNOW_KEY
 
 - **Required:** yes (for IndexNow protocol participation)
-- **Format:** 32-char hex string. Generate via `<random-32-char-hex-from-crypto-randomBytes>`. The exact command: `node -e "console.log(require('crypto').randomBytes(16).toString('hex'))"`.
+- **Format:** 32-char hex string. Generate via `node scripts/indexnow-key.mjs` — script writes `public/<key>.txt` AND prints the key to stdout in one shot.
 - **Where to obtain:** generate yourself; the key is intentionally PUBLIC (it gets served at `https://visitisrael.site/<INDEXNOW_KEY>.txt` as part of the IndexNow ownership-proof handshake). The "secret" property is that you control the value at build time and the file at the URL must match.
-- **Without it:** IndexNow ping route in the Phase 1 scaffold returns 500; new URLs are not auto-pushed to Bing/Yandex. GSC sitemap (Step 8b) still works as the primary indexing path.
-- **Read by:** Phase 1 IndexNow route handler (route serves the `.txt` file + emits pings on publish).
+- **Without it:** `lib/indexnow.ts` → `indexNowConfigFromEnv()` returns `null` and `indexNowPing()` is never called. New URLs are not auto-pushed to Bing/Yandex. GSC sitemap (Step 8b) still works as the primary indexing path.
+- **Read by:** `lib/indexnow.ts` helper (call sites wire into content-publish flow post-launch).
+
+### CRON_SECRET
+
+- **Required:** yes (for `/api/cron/affiliate-health` weekly cron — see `vercel.json` `crons` block)
+- **Format:** strong opaque token, 32+ characters. Vercel can generate one or you can use `node -e "console.log(require('crypto').randomBytes(32).toString('base64url'))"`.
+- **Where to obtain:** generate yourself; Vercel passes it as `Authorization: Bearer <CRON_SECRET>` on cron invocations.
+- **Without it:** the cron route accepts unauthenticated requests in dev. In production with the var unset, anyone can trigger the affiliate-health check (low risk — read-only HEAD requests to public partner pages — but not ideal).
+- **Read by:** `app/api/cron/affiliate-health/route.ts` → bearer-token check.
 
 ### LHCI_TOKEN
 

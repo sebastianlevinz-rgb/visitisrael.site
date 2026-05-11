@@ -128,11 +128,11 @@ Every entry below declares a **reactivation_trigger** — an observable event af
 
 ## Phase 2 editorial polish backlog
 
-- **Source:** Phase 2.6 quality-gate SUMMARY "Editorial polish sweep on Phase 2 deferred-items.md" recommendation; .planning/phases/02-pilot-region-jerusalem-m2/deferred-items.md.
-- **Rationale:** Non-gate-failing editorial drift surfaced during Phase 2 QA that did not warrant blocking the Quality Gate but should be cleaned up. Items: about/en Wailing Wall + Judea & Samaria descriptive references (AUD-017+018 hits in descriptive context where the regex is technically correct but the editorial intent is to document rather than use the biased name); accessibility-statement/he `<bdo>`-wrap on `WCAG 2.1 AA` (AUD-024 RTL acronym wrap); 3 Jerusalem sub-destinations missing `<Price>` wrappers on entry-fee strings (AUD-022 partial).
-- **Reactivation trigger:** Next time a documentation-sweep plan runs OR before v1.1 marketing push — whichever comes first; alternatively roll into the first Phase 3.x re-plan that touches editorial style guide.
-- **Estimated effort:** S — single-session editorial pass; <30 minutes per item, ~10 items total.
-- **Priority:** low — every item is sub-gate-threshold; non-blocking.
+- **Source:** Phase 2.6 quality-gate SUMMARY "Editorial polish sweep on Phase 2 deferred-items.md" recommendation; .planning/phases/02-pilot-region-jerusalem-m2/deferred-items.md; Phase 6 post-runway audit revealed AUD-022 scope is broader than originally documented.
+- **Rationale:** Non-gate-failing editorial drift. **2 items already resolved at autonomous-runway close (2026-05-11):** about/en Wailing Wall + Judea & Samaria descriptive references (AUD-017+018 — rewritten to neutral phrasing); accessibility-statement/he title (AUD-024 — `WCAG 2.1 AA` Latin run removed from H1, body retains all references with proper `<span dir="ltr">` wrapping). **Remaining:** AUD-022 (ILS/USD mixed without `<Price>` wrapper) fires on **22 pages** across all 10 Phase 3 regions + 2 admin playground entries — the rule design is arguably too aggressive for tourism content (parenthetic USD conversions are normal in travel guides), but the polish is to either wrap the prices in `<Price>` or remove USD conversions and use ILS-only.
+- **Reactivation trigger:** Next time a documentation-sweep plan runs OR before v1.1 marketing push — whichever comes first; alternatively roll into the first Phase 3.x re-plan that touches editorial style guide. Could also reconsider the AUD-022 rule itself (maybe drop to `info` severity or add an opt-out for travel-guide currency-conversion idiom).
+- **Estimated effort:** S for the rule-redesign path (~30 min); M for the 22-page sweep (~2-3h of manual `<Price>` wrapping or USD removal).
+- **Priority:** low — every item is sub-gate-threshold; non-blocking. The launch-readiness audit (2026-05-11) PASSED with these violations present.
 - **Dependencies:** none.
 
 ## Manual SERP review (Phase 2.6 compensating control)
