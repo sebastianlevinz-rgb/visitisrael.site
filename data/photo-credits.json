@@ -230,5 +230,89 @@
     "height": 1067,
     "subjectType": "landscape",
     "licenseProof": "https://creativecommons.org/licenses/by-sa/4.0/"
+  },
+  "/images/sub-destinations/tel-aviv/old-jaffa.jpg": {
+    "src": "/images/sub-destinations/tel-aviv/old-jaffa.jpg",
+    "author": "Berthold Werner (Wikimedia Commons)",
+    "license": "CC-BY-SA-3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Jaffa_Old_City_panorama.jpg",
+    "region": "tel-aviv",
+    "slug": "tel-aviv-old-jaffa",
+    "width": 1600,
+    "height": 1067,
+    "subjectType": "cityscape",
+    "licenseProof": "https://creativecommons.org/licenses/by-sa/3.0/"
+  },
+  "/images/sub-destinations/tel-aviv/carmel-market.jpg": {
+    "src": "/images/sub-destinations/tel-aviv/carmel-market.jpg",
+    "author": "Adiel lo (Wikimedia Commons)",
+    "license": "CC-BY-SA-3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Carmel_Market_Tel_Aviv.jpg",
+    "region": "tel-aviv",
+    "slug": "tel-aviv-carmel-market",
+    "width": 1600,
+    "height": 1067,
+    "subjectType": "cityscape",
+    "licenseProof": "https://creativecommons.org/licenses/by-sa/3.0/"
+  },
+  "/images/sub-destinations/tel-aviv/rothschild.jpg": {
+    "src": "/images/sub-destinations/tel-aviv/rothschild.jpg",
+    "author": "Talmoryair (Wikimedia Commons)",
+    "license": "CC-BY-SA-3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Rothschild_Boulevard_Tel_Aviv.jpg",
+    "region": "tel-aviv",
+    "slug": "tel-aviv-rothschild",
+    "width": 1600,
+    "height": 1067,
+    "subjectType": "cityscape",
+    "licenseProof": "https://creativecommons.org/licenses/by-sa/3.0/"
+  },
+  "/images/sub-destinations/tel-aviv/tel-aviv-museum.jpg": {
+    "src": "/images/sub-destinations/tel-aviv/tel-aviv-museum.jpg",
+    "author": "Eman (Wikimedia Commons)",
+    "license": "CC-BY-SA-3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tel_Aviv_Museum_of_Art_New_Building.jpg",
+    "region": "tel-aviv",
+    "slug": "tel-aviv-tel-aviv-museum",
+    "width": 1600,
+    "height": 1067,
+    "subjectType": "cityscape",
+    "licenseProof": "https://creativecommons.org/licenses/by-sa/3.0/"
+  },
+  "/images/sub-destinations/tel-aviv/florentin.jpg": {
+    "src": "/images/sub-destinations/tel-aviv/florentin.jpg",
+    "author": "Avishai Teicher (Wikimedia Commons)",
+    "license": "CC-BY-2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Florentin_Tel_Aviv_street_art.jpg",
+    "region": "tel-aviv",
+    "slug": "tel-aviv-florentin",
+    "width": 1600,
+    "height": 1067,
+    "subjectType": "cityscape",
+    "licenseProof": "https://creativecommons.org/licenses/by/2.0/"
+  },
+  "/images/sub-destinations/tel-aviv/tayelet.jpg": {
+    "src": "/images/sub-destinations/tel-aviv/tayelet.jpg",
+    "author": "Tomer Foltyn (Wikimedia Commons)",
+    "license": "CC-BY-SA-4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tel_Aviv_tayelet_promenade.jpg",
+    "region": "tel-aviv",
+    "slug": "tel-aviv-tayelet",
+    "width": 1600,
+    "height": 1067,
+    "subjectType": "landscape",
+    "licenseProof": "https://creativecommons.org/licenses/by-sa/4.0/"
+  },
+  "/images/sub-destinations/tel-aviv/neve-tzedek.jpg": {
+    "src": "/images/sub-destinations/tel-aviv/neve-tzedek.jpg",
+    "author": "Talmoryair (Wikimedia Commons)",
+    "license": "CC-BY-SA-3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Neve_Tzedek_Tel_Aviv.jpg",
+    "region": "tel-aviv",
+    "slug": "tel-aviv-neve-tzedek",
+    "width": 1600,
+    "height": 1067,
+    "subjectType": "cityscape",
+    "licenseProof": "https://creativecommons.org/licenses/by-sa/3.0/"
   }
 }
