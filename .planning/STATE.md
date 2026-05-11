@@ -2,11 +2,11 @@
 gsd_state_version: 1.0
 milestone: v1.0
 milestone_name: milestone
-current_plan: "Phase 3 plans ready — `/gsd:execute-phase 03` (Wave 1: Tel Aviv solo first)"
+current_plan: 'Phase 3 plans ready — `/gsd:execute-phase 03` (Wave 1: Tel Aviv solo first)'
 status: planning
-stopped_at: Completed 03-06-nazareth-PLAN.md — Wave 3 Nazareth PASS (ecumenical Catholic + Greek Orthodox + dual PlaceOfWorship; 51 min)
-last_updated: "2026-05-11T15:26:15.213Z"
-last_activity: "2026-05-11 — Phase 2.6 Quality Gate PASS: scripts/audit/quality-gate.ts refactored to export pure helpers (evaluateCriteria, composeReport, writeReport, isAdminOrUtility) for Vitest pinning; 17 new tests pin mode auto-flip (structural<->content via contentPages.length) + per-criterion DEFER/PASS/FAIL semantics + Lighthouse threshold evaluation + full PASS/FAIL report markdown rendering. Pre-existing Plan 05 deferred-items.md homepage BreadcrumbList <2 schema error resolved by removing BreadcrumbList from app/[locale]/page.tsx (Option 1 over synthetic 2-item pair, CollectionPage alone satisfies AUD-033). Manual SERP review checklist template + filled instance (8 DEFERRED verdicts with per-keyword confidence proxy + post-launch human-review SLA per CONTEXT.md proxied-R3 strategy). Full QA pipeline: build OK + qa:credits OK + qa:schema 0 errors (77 pages / 68 JSON-LD) + qa:audit 0 critical / all 30 content pages >=85 + qa:axe stub + qa:audit-a11y Windows stub + qa:lighthouse Windows EPERM (empty baseline preserved → criterion 1 DEFERS cleanly). pnpm qa:quality-gate PASS mode=content. 805 tests green (+17 new). 15 min, 3 commits, 1 auto-fix (BreadcrumbList removal). CNT-01..07 + A11Y-03/04/05 + SEO-04 + IMG-04/05 verified at gate. Total Phase 2 wall-clock: 173 min (2h 53min)."
+stopped_at: Completed 03-09-caesarea-PLAN.md — Wave 3 Caesarea PASS (all 3 Wave 3 plans PASS; Wave 4 unblocked)
+last_updated: '2026-05-11T15:26:22.613Z'
+last_activity: '2026-05-11 — Phase 2.6 Quality Gate PASS: scripts/audit/quality-gate.ts refactored to export pure helpers (evaluateCriteria, composeReport, writeReport, isAdminOrUtility) for Vitest pinning; 17 new tests pin mode auto-flip (structural<->content via contentPages.length) + per-criterion DEFER/PASS/FAIL semantics + Lighthouse threshold evaluation + full PASS/FAIL report markdown rendering. Pre-existing Plan 05 deferred-items.md homepage BreadcrumbList <2 schema error resolved by removing BreadcrumbList from app/[locale]/page.tsx (Option 1 over synthetic 2-item pair, CollectionPage alone satisfies AUD-033). Manual SERP review checklist template + filled instance (8 DEFERRED verdicts with per-keyword confidence proxy + post-launch human-review SLA per CONTEXT.md proxied-R3 strategy). Full QA pipeline: build OK + qa:credits OK + qa:schema 0 errors (77 pages / 68 JSON-LD) + qa:audit 0 critical / all 30 content pages >=85 + qa:axe stub + qa:audit-a11y Windows stub + qa:lighthouse Windows EPERM (empty baseline preserved → criterion 1 DEFERS cleanly). pnpm qa:quality-gate PASS mode=content. 805 tests green (+17 new). 15 min, 3 commits, 1 auto-fix (BreadcrumbList removal). CNT-01..07 + A11Y-03/04/05 + SEO-04 + IMG-04/05 verified at gate. Total Phase 2 wall-clock: 173 min (2h 53min).'
 progress:
   total_phases: 6
   completed_phases: 2
@@ -33,7 +33,7 @@ Status: Phase 3 PLANNING COMPLETE — 11 region plans + RESEARCH + VALIDATION (n
 Last activity: 2026-05-11 — Phase 2.6 Quality Gate PASS: scripts/audit/quality-gate.ts refactored to export pure helpers (evaluateCriteria, composeReport, writeReport, isAdminOrUtility) for Vitest pinning; 17 new tests pin mode auto-flip (structural<->content via contentPages.length) + per-criterion DEFER/PASS/FAIL semantics + Lighthouse threshold evaluation + full PASS/FAIL report markdown rendering. Pre-existing Plan 05 deferred-items.md homepage BreadcrumbList <2 schema error resolved by removing BreadcrumbList from app/[locale]/page.tsx (Option 1 over synthetic 2-item pair, CollectionPage alone satisfies AUD-033). Manual SERP review checklist template + filled instance (8 DEFERRED verdicts with per-keyword confidence proxy + post-launch human-review SLA per CONTEXT.md proxied-R3 strategy). Full QA pipeline: build OK + qa:credits OK + qa:schema 0 errors (77 pages / 68 JSON-LD) + qa:audit 0 critical / all 30 content pages >=85 + qa:axe stub + qa:audit-a11y Windows stub + qa:lighthouse Windows EPERM (empty baseline preserved → criterion 1 DEFERS cleanly). pnpm qa:quality-gate PASS mode=content. 805 tests green (+17 new). 15 min, 3 commits, 1 auto-fix (BreadcrumbList removal). CNT-01..07 + A11Y-03/04/05 + SEO-04 + IMG-04/05 verified at gate. Total Phase 2 wall-clock: 173 min (2h 53min).
 Previous activity: 2026-05-11 — Phase 2.5 hubs+legal: homepage (RegionHero + 11-card grid + 3 CTAs) + /regions/ index + 5 legal pages × 2 langs (about/contact/privacy/affiliate-disclosure/accessibility-statement). IS 5568 Hatzaharat Negishut with real named coordinator (Sebastian Levin / +972-53-371-3838 / accessibility@visitisrael.site / 2026-05-11) — resolves Gap §6.7 statutory blocker. 3-layer placeholder defense (pre-commit hook + Vitest coordinator-format + render-time assertNoPlaceholders) all share **REQUIRES_USER_INPUT** sentinel. 788 tests green (+26 from un-skipped coordinator-format + accessibility-statement). AUD-027 + AUD-028 = 0 across 77 pages site-wide. 46 min, 4 commits, 2 auto-fixed deviations. CNT-06 + CNT-07 + A11Y-03 + A11Y-04 + A11Y-05 complete.
 
-Progress: [██████████] 100% Phase 2 (6/6 plans; Phase 1 11/11 ✓; Phase 3 1/11 + galilee complete in parallel + Dead Sea/Eilat in flight; overall 18/41 plans completed across milestone)
+Progress: [██████████] 100% Phase 2 (6/6 plans; Phase 1 11/11 ✓; Phase 3 7/11 — tel-aviv + dead-sea + galilee + eilat + negev + caesarea + nazareth all PASS; haifa/golan/akko Wave 4 next; bethlehem Wave 5 last; overall 24/41 plans completed across milestone)
 
 ## Performance Metrics
 
@@ -200,6 +200,9 @@ Recent decisions affecting current work:
 - [Phase 03-region-replication-m3]: Plan 03-04 — Wave 2 parallel-state coordination: 3 agents writing to shared files caused false-attribution commit 000d94d (claimed Eilat but committed dead-sea content). Resolution: stage individual files (NEVER git add .), verify via git show <hash> --stat before proceeding, re-commit if needed (b7136de). Galilee gate report incidentally landed in Eilat commit 049c719. Pattern: tolerate occasional false attribution, verify by file content not commit message.
 - [Phase 03-region-replication-m3]: Plan 03-04 — Native HE expansion lighter than Tel Aviv (1 of 5 sub-dests needed expansion vs 5 of 7 for Tel Aviv). Beach/desert/tourism subject matter translates with less density-loss than Jerusalem religious-site content. underwater-observatory at 0.838 needed +30w expansion in Atmosphere section to lift to 0.870. Plans 05+ should expect 1-3 sub-dests per region needing expansion.
 - [Phase 03]: Negev image-gap canary validated (REG-05 deliverable shipped; data/negev-images.md with Wikimedia 40-50% coverage estimate + Phase 6 commission budget $1,500-$3,000 USD + synthetic placeholder swap list + editorial Bedouin framing lock); thinner 3-4 photo gallery accepted by soft-gate (evaluates audit scores not image count); respectful Bedouin hospitality framing template locked (named operators + fair-wage + consensual portraiture + Israeli citizenship acknowledgment); 5 sub-dests TouristAttraction-only with no religiousSiteId (Avdat Nabataean UNESCO = Place schema; Ben-Gurion grave = national-memorial; Bedouin hospitality = experiential)
+- [Phase 03]: Caesarea sub-dests all TouristAttraction+Place archaeology (NO PlaceOfWorship); Maritima/Philippi disambiguation locked reciprocally with plan 08 Golan/Banias
+- [Phase 03]: Wave 3 parallel-state cross-region cooperative fix locked: Caesarea agent patched Negev MDX TransportInfo to unblock build (Rule 3 blocking); precedent matches Wave 2 Galilee bundling Eilat
+- [Phase 03-region-replication-m3]: Plan 06 (Nazareth) — Two religious-site entries (basilica-of-the-annunciation + marys-well) for the two physically-distinct Christian-tradition Annunciation sites; ecumenical Catholic Franciscan + Greek Orthodox editorial throughout; Mount of Precipice TouristAttraction-only (outdoor cliff, no church)
 
 ### Pending Todos
 
@@ -223,6 +226,6 @@ None yet.
 
 ## Session Continuity
 
-Last session: 2026-05-11T15:26:15.203Z
-Stopped at: Completed 03-06-nazareth-PLAN.md — Wave 3 Nazareth PASS (ecumenical Catholic + Greek Orthodox + dual PlaceOfWorship; 51 min)
+Last session: 2026-05-11T15:26:18.253Z
+Stopped at: Completed 03-09-caesarea-PLAN.md — Wave 3 Caesarea PASS (all 3 Wave 3 plans PASS; Wave 4 unblocked)
 Resume file: None
