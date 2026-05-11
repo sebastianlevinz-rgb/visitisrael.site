@@ -80,12 +80,12 @@ Beyond WCAG 2.1 AA — Israeli law mandates additional items. Up to 50,000 NIS d
 
 Argentina lesson #3 fix — image contract enforced day-1.
 
-- [ ] **IMG-01**: `data/photo-credits.json` with schema `{ src, author, license, sourceUrl, region, slug, width, height, subjectType, restrictedSiteAcknowledgment?, licenseProof? }`; Zod validates on every commit
-- [ ] **IMG-02**: CI gate fails build if any imported image lacks a credits ledger entry, has width <1200px, or is referenced but missing from filesystem
-- [ ] **IMG-03**: PhotoGallery and all `<Image>` usages emit `srcset` at 320w / 640w / 1024w / 1600w; AVIF + WebP + JPEG fallback via `next/image`
+- [x] **IMG-01**: `data/photo-credits.json` with schema `{ src, author, license, sourceUrl, region, slug, width, height, subjectType, restrictedSiteAcknowledgment?, licenseProof? }`; Zod validates on every commit
+- [x] **IMG-02**: CI gate fails build if any imported image lacks a credits ledger entry, has width <1200px, or is referenced but missing from filesystem
+- [x] **IMG-03**: PhotoGallery and all `<Image>` usages emit `srcset` at 320w / 640w / 1024w / 1600w; AVIF + WebP + JPEG fallback via `next/image`
 - [ ] **IMG-04**: Hero images on canonical pages use `priority` + `fetchpriority="high"` (AUD-012)
 - [ ] **IMG-05**: `restrictedSiteAcknowledgment` field populated for every image from Western Wall, Holy Sepulchre, Dome of the Rock, Bahá'í Gardens; ledger validator fails if missing for those subjects
-- [ ] **IMG-06**: Primary source: Wikimedia Commons CC-BY/CC-BY-SA; supplementary: IGPO archive; abstract heroes from Unsplash/Pexels — origin tracked in `license` field
+- [x] **IMG-06**: Primary source: Wikimedia Commons CC-BY/CC-BY-SA; supplementary: IGPO archive; abstract heroes from Unsplash/Pexels — origin tracked in `license` field
 
 ### Audit Dashboard & Quality Gate
 

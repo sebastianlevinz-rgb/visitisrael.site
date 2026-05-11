@@ -1,6 +1,466 @@
 {
   "_meta": {
-    "description": "Paired-naming dictionary for religious sites (SEO-04, AUD-017..AUD-020). Populated by plan 04 Task 2.",
-    "schema": "lib/schema/types.ts → ReligiousSiteEntry"
+    "description": "Paired-naming dictionary for religious sites — SEO-04, AUD-017..AUD-020 data layer. Authored 2026-05-11 per plan 04 Task 2.",
+    "schema": "lib/schema/types.ts → ReligiousSiteEntry",
+    "convention": "Names follow BBC/AP paired-on-first-reference style (PITFALLS §3.1). Hebrew + English mandatory; Arabic where relevant (contested sites, mosques, Christian sites with Arabic readership). Wikidata IDs cross-reference the schema.org sameAs field.",
+    "administrativeStatus_values": [
+      "israel-proper",
+      "east-jerusalem",
+      "west-bank-paa",
+      "west-bank-area-c",
+      "golan-heights"
+    ]
+  },
+
+  "western-wall": {
+    "contested": false,
+    "name": {
+      "he": "הכותל המערבי",
+      "en": "Western Wall",
+      "ar": "حائط البراق"
+    },
+    "alternateName": {
+      "he": "הכותל",
+      "en": "Kotel",
+      "ar": "الحائط الغربي"
+    },
+    "denomination": null,
+    "religion": "Judaism",
+    "wikidataId": "Q134821",
+    "administrativeStatus": "east-jerusalem",
+    "notes": "SEO-04: NEVER use 'Wailing Wall' (archaic, mildly pejorative). 'Kotel' acceptable in context. Commercial photography requires Western Wall Heritage Foundation permit (see PITFALLS §5.4)."
+  },
+
+  "temple-mount": {
+    "contested": true,
+    "name": {
+      "he": "הר הבית",
+      "en": "Temple Mount",
+      "ar": "الحرم القدسي الشريف"
+    },
+    "alternateName": {
+      "he": "אל-חרם א-שריף",
+      "en": "Haram al-Sharif",
+      "ar": "جبل الهيكل"
+    },
+    "denomination": null,
+    "religion": null,
+    "wikidataId": "Q131808",
+    "administrativeStatus": "east-jerusalem",
+    "notes": "SEO-04 paired-naming on first reference: 'Temple Mount / Haram al-Sharif' (EN), 'הר הבית / אל-חרם א-שריף' (HE). AUD-019: regex catches Temple Mount without nearby Haram al-Sharif. Religion field is null (contested → neutral framing per PITFALLS §3.1)."
+  },
+
+  "holy-sepulchre": {
+    "contested": false,
+    "name": {
+      "he": "כנסיית הקבר",
+      "en": "Church of the Holy Sepulchre",
+      "ar": "كنيسة القيامة"
+    },
+    "alternateName": {
+      "he": "כנסיית התקומה",
+      "en": "Church of the Resurrection",
+      "ar": "كنيسة القبر المقدس"
+    },
+    "denomination": "Christian (shared by Greek Orthodox, Roman Catholic, Armenian Apostolic, Coptic Orthodox, Syriac Orthodox, Ethiopian Tewahedo — Status Quo of 1852)",
+    "religion": "Christianity",
+    "wikidataId": "Q173417",
+    "administrativeStatus": "east-jerusalem",
+    "notes": "Commercial photography requires acknowledgment; restrictedSiteAcknowledgment required in photo-credits.json (IMG-05). Six denominations share access via the Status Quo."
+  },
+
+  "dome-of-the-rock": {
+    "contested": false,
+    "name": {
+      "he": "כיפת הסלע",
+      "en": "Dome of the Rock",
+      "ar": "قبة الصخرة"
+    },
+    "alternateName": {
+      "he": "מסגד עומר",
+      "en": "Qubbat as-Sakhra",
+      "ar": "مسجد عمر"
+    },
+    "denomination": "Sunni Islam",
+    "religion": "Islam",
+    "wikidataId": "Q43169",
+    "administrativeStatus": "east-jerusalem",
+    "notes": "On the Temple Mount / Haram al-Sharif complex. restrictedSiteAcknowledgment required per IMG-05 (Wakf permission for non-Muslim entry — entry to Muslims only since 2003)."
+  },
+
+  "al-aqsa-mosque": {
+    "contested": false,
+    "name": {
+      "he": "מסגד אל-אקצא",
+      "en": "Al-Aqsa Mosque",
+      "ar": "المسجد الأقصى"
+    },
+    "alternateName": {
+      "he": "אל-מסג'יד אל-אקצא",
+      "en": "Al-Aqsa",
+      "ar": "الجامع الأقصى"
+    },
+    "denomination": "Sunni Islam",
+    "religion": "Islam",
+    "wikidataId": "Q207394",
+    "administrativeStatus": "east-jerusalem",
+    "notes": "Third-holiest site in Islam. On Temple Mount / Haram al-Sharif complex; entry restricted to Muslims by Wakf."
+  },
+
+  "garden-tomb": {
+    "contested": false,
+    "name": {
+      "he": "גן הקבר",
+      "en": "Garden Tomb",
+      "ar": "قبر الحديقة"
+    },
+    "alternateName": {
+      "he": "קבר גורדון",
+      "en": "Gordon's Calvary"
+    },
+    "denomination": "Protestant",
+    "religion": "Christianity",
+    "wikidataId": "Q1505562",
+    "administrativeStatus": "east-jerusalem",
+    "notes": "19th-century Protestant alternative crucifixion/burial site; not historically authenticated but a major Protestant pilgrim destination."
+  },
+
+  "tower-of-david": {
+    "contested": false,
+    "name": {
+      "he": "מגדל דוד",
+      "en": "Tower of David",
+      "ar": "برج داوود"
+    },
+    "alternateName": {
+      "he": "המצודה",
+      "en": "Jerusalem Citadel"
+    },
+    "denomination": null,
+    "religion": null,
+    "wikidataId": "Q1322568",
+    "administrativeStatus": "east-jerusalem",
+    "notes": "Museum + historic citadel — Place rather than ReligiousBuilding (no current religious function). administrativeStatus=east-jerusalem (within Old City walls)."
+  },
+
+  "yad-vashem": {
+    "contested": false,
+    "name": {
+      "he": "יד ושם",
+      "en": "Yad Vashem"
+    },
+    "alternateName": {
+      "he": "רשות הזיכרון לשואה ולגבורה",
+      "en": "World Holocaust Remembrance Center"
+    },
+    "denomination": null,
+    "religion": null,
+    "wikidataId": "Q156591",
+    "administrativeStatus": "israel-proper",
+    "notes": "Holocaust memorial and research institution; not a religious building but treated as memorial-religious heritage. Free admission; photography restrictions inside exhibition halls."
+  },
+
+  "mount-of-olives": {
+    "contested": false,
+    "name": {
+      "he": "הר הזיתים",
+      "en": "Mount of Olives",
+      "ar": "جبل الزيتون"
+    },
+    "alternateName": {
+      "he": "הר המשחה",
+      "en": "Jabal az-Zaytun"
+    },
+    "denomination": null,
+    "religion": null,
+    "wikidataId": "Q205769",
+    "administrativeStatus": "east-jerusalem",
+    "notes": "Multi-faith significance (Judaism: ancient cemetery; Christianity: Ascension); religion=null to remain neutral. Treat as Place rather than ReligiousBuilding."
+  },
+
+  "cenacle": {
+    "contested": false,
+    "name": {
+      "he": "חדר הסעודה האחרונה",
+      "en": "Cenacle",
+      "ar": "علية صهيون"
+    },
+    "alternateName": {
+      "he": "הר ציון",
+      "en": "Upper Room"
+    },
+    "denomination": "Christian (Catholic + Eastern Orthodox traditions)",
+    "religion": "Christianity",
+    "wikidataId": "Q1054950",
+    "administrativeStatus": "east-jerusalem",
+    "notes": "Traditional site of the Last Supper, in Mount Zion."
+  },
+
+  "city-of-david": {
+    "contested": false,
+    "name": {
+      "he": "עיר דוד",
+      "en": "City of David",
+      "ar": "مدينة داوود"
+    },
+    "alternateName": {
+      "he": "סילואן הארכאולוגי",
+      "en": "Silwan archaeological park"
+    },
+    "denomination": null,
+    "religion": null,
+    "wikidataId": "Q1093741",
+    "administrativeStatus": "east-jerusalem",
+    "notes": "Archaeological site overlapping with the Palestinian neighborhood of Silwan; controversy noted in editorial guidelines but not partisan-coded here."
+  },
+
+  "basilica-of-annunciation": {
+    "contested": false,
+    "name": {
+      "he": "כנסיית הבשורה",
+      "en": "Basilica of the Annunciation",
+      "ar": "كنيسة البشارة"
+    },
+    "alternateName": {
+      "he": "בזיליקת הבשורה בנצרת",
+      "en": "Nazareth Basilica"
+    },
+    "denomination": "Roman Catholic",
+    "religion": "Christianity",
+    "wikidataId": "Q801039",
+    "administrativeStatus": "israel-proper",
+    "notes": "Catholic site in Nazareth (Lower Galilee); major Christian pilgrim destination."
+  },
+
+  "church-of-multiplication": {
+    "contested": false,
+    "name": {
+      "he": "כנסיית הלחם והדגים",
+      "en": "Church of the Multiplication",
+      "ar": "كنيسة الخبز والأسماك"
+    },
+    "alternateName": {
+      "he": "כנסיית הריבוי",
+      "en": "Tabgha"
+    },
+    "denomination": "Catholic (Benedictine)",
+    "religion": "Christianity",
+    "wikidataId": "Q1378929",
+    "administrativeStatus": "israel-proper",
+    "notes": "On the Sea of Galilee shore; traditional site of the feeding-of-the-5000 miracle."
+  },
+
+  "mount-of-beatitudes": {
+    "contested": false,
+    "name": {
+      "he": "הר האושר",
+      "en": "Mount of Beatitudes",
+      "ar": "جبل التطويبات"
+    },
+    "alternateName": {
+      "he": "הר נופי הכינרת",
+      "en": "Mount Eremos"
+    },
+    "denomination": "Roman Catholic",
+    "religion": "Christianity",
+    "wikidataId": "Q1429244",
+    "administrativeStatus": "israel-proper",
+    "notes": "Traditional site of the Sermon on the Mount. Franciscan-administered."
+  },
+
+  "capernaum": {
+    "contested": false,
+    "name": {
+      "he": "כפר נחום",
+      "en": "Capernaum",
+      "ar": "كفر ناحوم"
+    },
+    "alternateName": {
+      "he": "כפר נחום הלאומי",
+      "en": "Kfar Nahum"
+    },
+    "denomination": null,
+    "religion": "Christianity",
+    "wikidataId": "Q166962",
+    "administrativeStatus": "israel-proper",
+    "notes": "Fishing-town archaeological site on Sea of Galilee; 'town of Jesus' per Synoptic gospels. Includes ancient synagogue ruins."
+  },
+
+  "church-of-nativity": {
+    "contested": false,
+    "name": {
+      "he": "כנסיית המולד",
+      "en": "Church of the Nativity",
+      "ar": "كنيسة المهد"
+    },
+    "alternateName": {
+      "he": "בית לחם — כנסיית המולד",
+      "en": "Bethlehem Basilica"
+    },
+    "denomination": "Christian (shared by Greek Orthodox, Armenian Apostolic, Roman Catholic)",
+    "religion": "Christianity",
+    "wikidataId": "Q190754",
+    "administrativeStatus": "west-bank-paa",
+    "notes": "AUD-020 enforcement entry: Bethlehem is in PA Area A. Site is administered under PA security control. Editorial guidance: refer to it as 'Bethlehem (West Bank)' on first reference. UNESCO World Heritage."
+  },
+
+  "bahai-gardens": {
+    "contested": false,
+    "name": {
+      "he": "הגנים הבהאים",
+      "en": "Baháʼí Gardens"
+    },
+    "alternateName": {
+      "he": "המרכז העולמי הבהאי",
+      "en": "Baháʼí World Centre Terraces"
+    },
+    "denomination": null,
+    "religion": "Baháʼí Faith",
+    "wikidataId": "Q775416",
+    "administrativeStatus": "israel-proper",
+    "notes": "IMG-05 image rights RESTRICTED — Baháʼí World Centre requires advance written permission for any commercial photography (see Phase 2.3 / press@bahai.org gap in SUMMARY §6.3). UNESCO World Heritage."
+  },
+
+  "stella-maris-monastery": {
+    "contested": false,
+    "name": {
+      "he": "מנזר סטלה מאריס",
+      "en": "Stella Maris Monastery",
+      "ar": "دير ستيلا ماريس"
+    },
+    "alternateName": {
+      "he": "מנזר הכרמליטים בכרמל",
+      "en": "Carmelite Monastery, Haifa"
+    },
+    "denomination": "Catholic (Carmelite)",
+    "religion": "Christianity",
+    "wikidataId": "Q1377942",
+    "administrativeStatus": "israel-proper",
+    "notes": "Hilltop Carmelite monastery in Haifa; cave traditionally associated with Elijah."
+  },
+
+  "el-jazzar-mosque": {
+    "contested": false,
+    "name": {
+      "he": "מסגד אל-ג'זאר",
+      "en": "El-Jazzar Mosque",
+      "ar": "جامع الجزار"
+    },
+    "alternateName": {
+      "he": "המסגד הלבן בעכו",
+      "en": "White Mosque of Acre"
+    },
+    "denomination": "Sunni Islam",
+    "religion": "Islam",
+    "wikidataId": "Q1326530",
+    "administrativeStatus": "israel-proper",
+    "notes": "18th-century Ottoman mosque in Akko Old City; UNESCO World Heritage site."
+  },
+
+  "tomb-of-maimonides": {
+    "contested": false,
+    "name": {
+      "he": "קבר הרמב\"ם",
+      "en": "Tomb of Maimonides"
+    },
+    "alternateName": {
+      "he": "ציון הרמב\"ם בטבריה",
+      "en": "Rambam's Tomb, Tiberias"
+    },
+    "denomination": null,
+    "religion": "Judaism",
+    "wikidataId": "Q3174378",
+    "administrativeStatus": "israel-proper",
+    "notes": "Jewish pilgrimage site in Tiberias; resting place of Moses ben Maimon (1138-1204)."
+  },
+
+  "mount-sodom": {
+    "contested": false,
+    "name": {
+      "he": "הר סדום",
+      "en": "Mount Sodom",
+      "ar": "جبل سدوم"
+    },
+    "alternateName": {
+      "he": "ההר המלוח",
+      "en": "Jebel Usdum"
+    },
+    "denomination": null,
+    "religion": null,
+    "wikidataId": "Q3074421",
+    "administrativeStatus": "israel-proper",
+    "notes": "Geological salt-rock formation by Dead Sea; place not religious building. religion=null."
+  },
+
+  "masada": {
+    "contested": false,
+    "name": {
+      "he": "מצדה",
+      "en": "Masada",
+      "ar": "مسعدة"
+    },
+    "alternateName": {
+      "he": "מצדה הלאומית",
+      "en": "Masada National Park"
+    },
+    "denomination": null,
+    "religion": null,
+    "wikidataId": "Q47545",
+    "administrativeStatus": "israel-proper",
+    "notes": "UNESCO World Heritage cliff-top fortress; historical-religious significance but treat as Place (use buildPlace, not buildReligiousBuilding)."
+  },
+
+  "qumran": {
+    "contested": false,
+    "name": {
+      "he": "קומראן",
+      "en": "Qumran",
+      "ar": "خربة قمران"
+    },
+    "alternateName": {
+      "he": "מגילות ים המלח (אתר)",
+      "en": "Khirbet Qumran"
+    },
+    "denomination": null,
+    "religion": "Judaism",
+    "wikidataId": "Q207148",
+    "administrativeStatus": "west-bank-area-c",
+    "notes": "Site of Dead Sea Scrolls discovery; in Area C of West Bank under Israeli administration. AUD-020: noted location for editorial transparency."
+  },
+
+  "mount-bental": {
+    "contested": false,
+    "name": {
+      "he": "הר בנטל",
+      "en": "Mount Bental",
+      "ar": "تل أبو الندى"
+    },
+    "alternateName": {
+      "he": "תצפית הר בנטל",
+      "en": "Bental Observatory"
+    },
+    "denomination": null,
+    "religion": null,
+    "wikidataId": "Q3148879",
+    "administrativeStatus": "golan-heights",
+    "notes": "Extinct volcanic cone in Golan Heights; UN-disputed status. Place (lookout/observation, not religious). administrativeStatus=golan-heights triggers AUD-020 transparency."
+  },
+
+  "sea-of-galilee": {
+    "contested": false,
+    "name": {
+      "he": "ים כנרת",
+      "en": "Sea of Galilee",
+      "ar": "بحيرة طبريا"
+    },
+    "alternateName": {
+      "he": "הכנרת",
+      "en": "Lake Kinneret"
+    },
+    "denomination": null,
+    "religion": null,
+    "wikidataId": "Q173387",
+    "administrativeStatus": "israel-proper",
+    "notes": "Freshwater lake (lowest freshwater lake on Earth); religious significance for Christianity (Jesus's ministry shore) but treated as Place. Israel's primary drinking-water reservoir."
   }
 }

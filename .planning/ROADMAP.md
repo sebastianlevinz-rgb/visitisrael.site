@@ -23,7 +23,7 @@ The Quality Gate is NOT a phase. It is a **conditional advance** between Phase 2
 
 | # | Criterion | Threshold | Source |
 |---|-----------|-----------|--------|
-| 1 | Lighthouse mobile (3-run-median) | ≥90 perf, ≥95 a11y, ≥95 best-practices, =100 SEO on every pilot page | AUD-003 / AUD-034 |
+| 1 | 2/11 | In Progress|  |
 | 2 | Audit dashboard per-page score | ≥85 on every pilot page using its profile | AUD-002 |
 | 3 | Critical bugs | 0 | manual + AUD scan |
 | 4 | Affiliate coverage of applicable partners | ≥80% of applicable per page (5+ active on region canonical) | AUD-031 + AFF-01 |

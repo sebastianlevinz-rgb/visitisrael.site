@@ -3,14 +3,14 @@ gsd_state_version: 1.0
 milestone: v1.0
 milestone_name: milestone
 status: executing
-stopped_at: Completed 01-scaffold-PLAN.md
-last_updated: "2026-05-11T01:04:13Z"
-last_activity: 2026-05-11 — Plan 01 (scaffold) complete: Next.js + i18n + ESLint + tooling green
+stopped_at: Completed .planning/phases/01-foundation-m1/03-photo-credits-PLAN.md
+last_updated: "2026-05-11T01:22:54Z"
+last_activity: "2026-05-11 — Plan 03 (photo-credits) complete: Zod ledger schema + Sharp CI gate + 27 tests + lint-staged wiring; 13 min, 4 commits."
 progress:
   total_phases: 6
   completed_phases: 0
   total_plans: 11
-  completed_plans: 1
+  completed_plans: 2
   percent: 9
 ---
 
@@ -26,31 +26,31 @@ See: .planning/PROJECT.md (updated 2026-05-11)
 ## Current Position
 
 Phase: 1 of 6 (Foundation — M1)
-Plan: 1 of 11 in current phase complete; next up: plan 02 (design tokens)
-Status: Executing — plan 01 green, parallel wave 2 (plans 02, 03, 04) eligible to start
-Last activity: 2026-05-11 — Plan 01 (scaffold) complete: Next.js 15.5 + TS strict + Tailwind v4 + next-intl + ESLint flat + Vitest + Husky + Plausible all green; 27 min, 5 commits.
+Plan: 2 of 11 in current phase complete; remaining wave 2 plans: 02 (design tokens) + 04 (schema baseline) in flight
+Status: Executing — plan 03 green, Wave 2 partially complete
+Last activity: 2026-05-11 — Plan 03 (photo-credits) complete: Zod ledger schema + Sharp CI gate + 27 tests + lint-staged wiring; 13 min, 4 commits.
 
-Progress: [█░░░░░░░░░] 9% (1/11 plans in Phase 1; ~3% overall)
+Progress: [██░░░░░░░░] 18% (2/11 plans in Phase 1; ~3% overall)
 
 ## Performance Metrics
 
 **Velocity:**
-- Total plans completed: 1
-- Average duration: 27 min
-- Total execution time: 0.45 hours
+- Total plans completed: 2
+- Average duration: 20 min
+- Total execution time: 0.67 hours
 
 **By Phase:**
 
 | Phase | Plans | Total | Avg/Plan |
 |-------|-------|-------|----------|
-| 1. Foundation | 1/11 | 27 min | 27 min |
+| 1. Foundation | 2/11 | 40 min | 20 min |
 | 2. Pilot Jerusalem | 0/6 | — | — |
 | 3. Region Replication | 0/11 | — | — |
 | 4. Long-tail Sweep | 0/TBD | — | — |
 | 5. Legal + Launch Prep | 0/4 | — | — |
 | 6. Production Deploy | 0/4 | — | — |
 
-**Recent Trend:** Plan 01 (scaffold) — 27 min — 31 files, 5 commits, 12 tests green, all must_haves verified.
+**Recent Trend:** Plan 03 (photo-credits) — 13 min — 15 files, 4 commits, 27 tests green, all must_haves verified.
 
 *Updated after each plan completion*
 
@@ -62,6 +62,10 @@ Decisions are logged in PROJECT.md Key Decisions table and SUMMARY.md §1 (Headl
 
 Recent decisions affecting current work:
 
+- **Plan 03 — Zod schema duplicated between TS source-of-truth and CI-gate mirror:** `lib/photo-credits-schema.ts` is canonical; `scripts/qa/check-credits.mjs` inlines an identical Zod schema. Rationale: zero TypeScript runtime dep in CI gate (`.mjs` only, no tsx spawn cost). Drift caught by cross-test `check-credits.test.ts` case 5 (restricted-site enforcement).
+- **Plan 03 — Sharp + glob installed with `pnpm.onlyBuiltDependencies` allowlist:** pnpm 10 blocks postinstall scripts by default; explicit allowlist (`[esbuild, sharp, unrs-resolver]`) approves prebuilt-binary install non-interactively. Resolves plan 01's "Issues Encountered" note about Sharp build-script warning.
+- **Plan 03 — Test sandbox uses absolute script path:** ESM does not honor NODE_PATH. Spawn `node <repo-absolute-path>/scripts/qa/check-credits.mjs` with `cwd: <sandbox>`. Script uses `process.cwd()`-relative paths internally, so this gives full module resolution from the repo's node_modules.
+- **Plan 03 — lint-staged uses function-form for photo-credits triggers:** `data/photo-credits.json` + `public/images/**/*.{img}` + `{app,components,content}/**/*.{tsx,mdx}` all trigger `() => 'pnpm qa:credits'` (full sweep, not partial scan). Cross-file failure modes (orphan/undocumented) require full visibility.
 - **Plan 01 — Plausible locked as v1 analytics (FND-08):** Single audit-trail commit `3a97015 chore(01-01): lock analytics=plausible`. PostHog kept as fallback in `data/dev-prereqs.md` for Phase 6 if product-analytics needs surface.
 - **Plan 01 — next-plausible downgraded to v3:** v4 broke the API (uses `src`, not `domain`). Documented choice; pinned at `next-plausible@^3` in package.json.
 - **Plan 01 — eslint-plugin-tailwindcss NOT loaded in v4 (RESEARCH §1.1 fallback):** Plugin v3.x cannot parse Tailwind v4's CSS-first @theme config — crashes ESLint startup. Replaced rule 1 (`tailwindcss/no-arbitrary-value`) with `no-restricted-syntax` regex selector against `className=".*\[#...\]"`. Plugin package still installed for plan 02 to re-evaluate.
@@ -88,6 +92,6 @@ None yet.
 
 ## Session Continuity
 
-Last session: 2026-05-11T01:04:13Z
-Stopped at: Completed .planning/phases/01-foundation-m1/01-scaffold-PLAN.md
-Resume file: .planning/phases/01-foundation-m1/02-design-tokens-PLAN.md (Wave 2 — eligible in parallel with plans 03, 04)
+Last session: 2026-05-11T01:22:54Z
+Stopped at: Completed .planning/phases/01-foundation-m1/03-photo-credits-PLAN.md
+Resume file: .planning/phases/01-foundation-m1/02-design-tokens-PLAN.md (Wave 2 — plan 02 in flight; plan 04 schema-baseline in flight)
