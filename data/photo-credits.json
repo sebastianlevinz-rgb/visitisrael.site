@@ -72,5 +72,91 @@
     "height": 1067,
     "subjectType": "religious-general",
     "licenseProof": "https://creativecommons.org/licenses/by/3.0/"
+  },
+  "/images/sub-destinations/jerusalem/old-city.jpg": {
+    "src": "/images/sub-destinations/jerusalem/old-city.jpg",
+    "author": "Berthold Werner (Wikimedia Commons)",
+    "license": "CC-BY-SA-3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Jerusalem_Old_City_Panorama.jpg",
+    "region": "jerusalem",
+    "slug": "jerusalem-old-city",
+    "width": 1600,
+    "height": 1067,
+    "subjectType": "cityscape",
+    "licenseProof": "https://creativecommons.org/licenses/by-sa/3.0/"
+  },
+  "/images/sub-destinations/jerusalem/western-wall.jpg": {
+    "src": "/images/sub-destinations/jerusalem/western-wall.jpg",
+    "author": "Israel Government Press Office (IGPO archive)",
+    "license": "IGPO-CC",
+    "sourceUrl": "https://gpophotoeng.gov.il/fotoweb/archives/5018-Photography%20Department/",
+    "region": "jerusalem",
+    "slug": "jerusalem-western-wall",
+    "width": 1600,
+    "height": 1067,
+    "subjectType": "westernWall",
+    "restrictedSiteAcknowledgment": "IGPO archive image — pre-cleared per Wikimedia Israel partnership 2017. Wide architectural plaza shot of the Western Wall (Kotel); no identifiable worshippers. Commercial photography at the Western Wall otherwise requires Western Wall Heritage Foundation permit per PITFALLS §5.4.",
+    "licenseProof": "https://gpophotoeng.gov.il/fotoweb/info/license.html"
+  },
+  "/images/sub-destinations/jerusalem/holy-sepulchre.jpg": {
+    "src": "/images/sub-destinations/jerusalem/holy-sepulchre.jpg",
+    "author": "Gerd Eichmann (Wikimedia Commons)",
+    "license": "CC-BY-SA-4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Jerusalem-Grabeskirche-22-Vorplatz-2010-gje.jpg",
+    "region": "jerusalem",
+    "slug": "jerusalem-holy-sepulchre",
+    "width": 1600,
+    "height": 1067,
+    "subjectType": "holySepulchre",
+    "restrictedSiteAcknowledgment": "Wikimedia Commons wide architectural exterior of the Church of the Holy Sepulchre forecourt — no identifiable worshippers, no liturgical/Status Quo interior frames. CC-BY-SA-4.0 license confirmed via Wikimedia entry. Status Quo of 1852 governs interior access across the six denominations sharing the site.",
+    "licenseProof": "https://creativecommons.org/licenses/by-sa/4.0/"
+  },
+  "/images/sub-destinations/jerusalem/yad-vashem.jpg": {
+    "src": "/images/sub-destinations/jerusalem/yad-vashem.jpg",
+    "author": "David Shankbone (Wikimedia Commons)",
+    "license": "CC-BY-3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Yad_Vashem_BW_1.JPG",
+    "region": "jerusalem",
+    "slug": "jerusalem-yad-vashem",
+    "width": 1600,
+    "height": 1067,
+    "subjectType": "religious-general",
+    "licenseProof": "https://creativecommons.org/licenses/by/3.0/"
+  },
+  "/images/sub-destinations/jerusalem/mahane-yehuda.jpg": {
+    "src": "/images/sub-destinations/jerusalem/mahane-yehuda.jpg",
+    "author": "Adiel lo (Wikimedia Commons)",
+    "license": "CC-BY-SA-3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mahane_Yehuda_Market_Jerusalem.jpg",
+    "region": "jerusalem",
+    "slug": "jerusalem-mahane-yehuda",
+    "width": 1600,
+    "height": 1067,
+    "subjectType": "cityscape",
+    "licenseProof": "https://creativecommons.org/licenses/by-sa/3.0/"
+  },
+  "/images/sub-destinations/jerusalem/mount-of-olives.jpg": {
+    "src": "/images/sub-destinations/jerusalem/mount-of-olives.jpg",
+    "author": "Andrew Shiva (Wikimedia Commons)",
+    "license": "CC-BY-SA-4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Jerusalem_from_Mount_of_Olives_Andrew_Shiva.jpg",
+    "region": "jerusalem",
+    "slug": "jerusalem-mount-of-olives",
+    "width": 1600,
+    "height": 1067,
+    "subjectType": "landscape",
+    "licenseProof": "https://creativecommons.org/licenses/by-sa/4.0/"
+  },
+  "/images/sub-destinations/jerusalem/city-of-david.jpg": {
+    "src": "/images/sub-destinations/jerusalem/city-of-david.jpg",
+    "author": "Ian Scott (Wikimedia Commons)",
+    "license": "CC-BY-SA-3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Jerusalem_City_of_David.jpg",
+    "region": "jerusalem",
+    "slug": "jerusalem-city-of-david",
+    "width": 1600,
+    "height": 1067,
+    "subjectType": "cityscape",
+    "licenseProof": "https://creativecommons.org/licenses/by-sa/3.0/"
   }
 }
