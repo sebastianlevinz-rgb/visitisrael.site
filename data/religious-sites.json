@@ -229,7 +229,49 @@
     "religion": "Christianity",
     "wikidataId": "Q801039",
     "administrativeStatus": "israel-proper",
-    "notes": "Catholic site in Nazareth (Lower Galilee); major Christian pilgrim destination."
+    "notes": "Catholic site in Nazareth (Lower Galilee); major Christian pilgrim destination. Superseded as the Nazareth religiousSiteId by `basilica-of-the-annunciation` (added 2026-05-11 per plan 03-06 to match the canonical frontmatter pattern used across sub-destinations); retained as legacy alias for backward compatibility."
+  },
+
+  "basilica-of-the-annunciation": {
+    "contested": false,
+    "name": {
+      "he": "בזיליקת הבשורה",
+      "en": "Basilica of the Annunciation",
+      "ar": "كنيسة البشارة"
+    },
+    "alternateName": {
+      "he": "כנסיית הבשורה בנצרת",
+      "en": "Nazareth Basilica"
+    },
+    "denomination": "Catholic (Franciscan Custody of the Holy Land) — built 1969 by Antonio Barluzzi over the earlier 4th-century Byzantine and 12th-century Crusader churches; the largest Christian church in the Middle East; widely visited by Catholic, Greek Orthodox, Protestant and Evangelical pilgrim groups",
+    "religion": "Christianity",
+    "wikidataId": "Q801039",
+    "administrativeStatus": "israel-proper",
+    "coordinates": { "latitude": 32.7019, "longitude": 35.2978 },
+    "restrictedAccess": false,
+    "pairedNamingRequired": false,
+    "notes": "Plan 03-06 PlaceOfWorship emission canary for Nazareth. The Latin Catholic tradition holds the Annunciation took place at Mary's home (this site); the Greek Orthodox tradition holds the Annunciation took place at Mary's Well — both traditions named ecumenically in the editorial copy. Modest dress required."
+  },
+
+  "marys-well": {
+    "contested": false,
+    "name": {
+      "he": "מעיין מרים",
+      "en": "Mary's Well",
+      "ar": "عين العذراء"
+    },
+    "alternateName": {
+      "he": "כנסיית הבשורה היוונית-אורתודוקסית",
+      "en": "Greek Orthodox Church of the Annunciation"
+    },
+    "denomination": "Greek Orthodox (Patriarchate of Jerusalem) — the well and the adjacent Greek Orthodox Church of the Annunciation are the Eastern Christian Annunciation site",
+    "religion": "Christianity",
+    "wikidataId": "Q2625888",
+    "administrativeStatus": "israel-proper",
+    "coordinates": { "latitude": 32.7039, "longitude": 35.2986 },
+    "restrictedAccess": false,
+    "pairedNamingRequired": false,
+    "notes": "Plan 03-06 second PlaceOfWorship site for Nazareth. The Greek Orthodox tradition holds the Annunciation took place at this well where Mary drew water; the adjacent Greek Orthodox Church of the Annunciation is the architectural anchor. Catholic tradition places the Annunciation at the Basilica of the Annunciation site — both traditions named ecumenically in editorial."
   },
 
   "church-of-multiplication": {

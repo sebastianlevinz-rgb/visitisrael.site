@@ -822,14 +822,14 @@
   "/images/regions/negev/desert.jpg": {
     "src": "/images/regions/negev/desert.jpg",
     "author": "Yair Aronshtam (Wikimedia Commons)",
-    "license": "CC-BY-SA-2.0",
+    "license": "CC-BY-SA-3.0",
     "sourceUrl": "https://commons.wikimedia.org/wiki/File:Negev_desert_landscape.jpg",
     "region": "negev",
     "slug": "negev",
     "width": 1600,
     "height": 1067,
     "subjectType": "landscape",
-    "licenseProof": "https://creativecommons.org/licenses/by-sa/2.0/"
+    "licenseProof": "https://creativecommons.org/licenses/by-sa/3.0/"
   },
   "/images/sub-destinations/negev/mitzpe-ramon.jpg": {
     "src": "/images/sub-destinations/negev/mitzpe-ramon.jpg",
@@ -890,5 +890,101 @@
     "height": 1067,
     "subjectType": "landscape",
     "licenseProof": "https://gpophotoeng.gov.il/fotoweb/info/license.html"
+  },
+  "/images/regions/nazareth/hero.jpg": {
+    "src": "/images/regions/nazareth/hero.jpg",
+    "author": "Berthold Werner (Wikimedia Commons)",
+    "license": "CC-BY-SA-3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Nazareth-old-city-2009.jpg",
+    "region": "nazareth",
+    "slug": "nazareth",
+    "width": 1920,
+    "height": 1080,
+    "subjectType": "cityscape",
+    "licenseProof": "https://creativecommons.org/licenses/by-sa/3.0/"
+  },
+  "/images/regions/nazareth/basilica.jpg": {
+    "src": "/images/regions/nazareth/basilica.jpg",
+    "author": "Gugganij (Wikimedia Commons)",
+    "license": "CC-BY-SA-3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Basilica_of_the_Annunciation_(Nazareth).jpg",
+    "region": "nazareth",
+    "slug": "nazareth",
+    "width": 1600,
+    "height": 1067,
+    "subjectType": "religious-general",
+    "licenseProof": "https://creativecommons.org/licenses/by-sa/3.0/"
+  },
+  "/images/regions/nazareth/old-city.jpg": {
+    "src": "/images/regions/nazareth/old-city.jpg",
+    "author": "Almog (Wikimedia Commons)",
+    "license": "CC-BY-SA-3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Nazareth_Old_City_market.jpg",
+    "region": "nazareth",
+    "slug": "nazareth",
+    "width": 1600,
+    "height": 1067,
+    "subjectType": "cityscape",
+    "licenseProof": "https://creativecommons.org/licenses/by-sa/3.0/"
+  },
+  "/images/regions/nazareth/mount-of-precipice.jpg": {
+    "src": "/images/regions/nazareth/mount-of-precipice.jpg",
+    "author": "Israel Government Press Office (IGPO archive)",
+    "license": "IGPO-CC",
+    "sourceUrl": "https://gpophotoeng.gov.il/fotoweb/archives/5018-Photography%20Department/",
+    "region": "nazareth",
+    "slug": "nazareth",
+    "width": 1600,
+    "height": 1067,
+    "subjectType": "landscape",
+    "licenseProof": "https://gpophotoeng.gov.il/fotoweb/info/license.html"
+  },
+  "/images/sub-destinations/nazareth/basilica-of-the-annunciation.jpg": {
+    "src": "/images/sub-destinations/nazareth/basilica-of-the-annunciation.jpg",
+    "author": "Daniel Ventura (Wikimedia Commons)",
+    "license": "CC-BY-SA-3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Basilica_of_the_Annunciation_interior_Nazareth.jpg",
+    "region": "nazareth",
+    "slug": "nazareth-basilica-of-the-annunciation",
+    "width": 1600,
+    "height": 1067,
+    "subjectType": "religious-general",
+    "licenseProof": "https://creativecommons.org/licenses/by-sa/3.0/"
+  },
+  "/images/sub-destinations/nazareth/old-city.jpg": {
+    "src": "/images/sub-destinations/nazareth/old-city.jpg",
+    "author": "Almog (Wikimedia Commons)",
+    "license": "CC-BY-SA-3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Nazareth_Old_City_alley.jpg",
+    "region": "nazareth",
+    "slug": "nazareth-old-city",
+    "width": 1600,
+    "height": 1067,
+    "subjectType": "cityscape",
+    "licenseProof": "https://creativecommons.org/licenses/by-sa/3.0/"
+  },
+  "/images/sub-destinations/nazareth/marys-well.jpg": {
+    "src": "/images/sub-destinations/nazareth/marys-well.jpg",
+    "author": "Berthold Werner (Wikimedia Commons)",
+    "license": "CC-BY-SA-3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Marys_Well_Nazareth_Greek_Orthodox.jpg",
+    "region": "nazareth",
+    "slug": "nazareth-marys-well",
+    "width": 1600,
+    "height": 1067,
+    "subjectType": "religious-general",
+    "licenseProof": "https://creativecommons.org/licenses/by-sa/3.0/"
+  },
+  "/images/sub-destinations/nazareth/mount-of-precipice.jpg": {
+    "src": "/images/sub-destinations/nazareth/mount-of-precipice.jpg",
+    "author": "Bukvoed (Wikimedia Commons)",
+    "license": "CC-BY-4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mount_Precipice_view_to_Jezreel_Valley.jpg",
+    "region": "nazareth",
+    "slug": "nazareth-mount-of-precipice",
+    "width": 1600,
+    "height": 1067,
+    "subjectType": "landscape",
+    "licenseProof": "https://creativecommons.org/licenses/by/4.0/"
   }
 }
