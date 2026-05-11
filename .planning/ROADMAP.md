@@ -128,7 +128,7 @@ Plans:
 
 Plans:
 
-- [ ] 02-01-en-canonical-PLAN.md — Jerusalem EN canonical (`/en/jerusalem/`): scaffold dynamic region route renderer, source 6 ledgered images (3 restricted-site with acknowledgments), author 1800-2200w MDX following PITFALLS §4.1 H-tag scaffolding verbatim, 5+ helper-routed affiliates, schema TouristDestination + BreadcrumbList + FAQPage (Wave 1; reqs CNT-01, SEO-04, IMG-04, IMG-05)
+- [x] 02-01-en-canonical-PLAN.md — Jerusalem EN canonical (`/en/jerusalem/`): scaffold dynamic region route renderer, source 6 ledgered images (2 restricted-site with acknowledgments — Western Wall + Holy Sepulchre; Dome of the Rock deferred to plan 02-03 where it has a sub-dest page), author 2090w MDX following PITFALLS §4.1 H-tag scaffolding verbatim, 6 helper-routed affiliates (booking, civitatis, viator, skyscanner, rentalcars, safetyWing), schema TouristDestination + BreadcrumbList + FAQPage (Wave 1; reqs CNT-01, SEO-04, IMG-04, IMG-05 — **all complete**; 38 min, 2 commits, score 100)
 - [ ] 02-02-he-canonical-PLAN.md — Jerusalem HE canonical (`/jerusalem/`) + pilot-switch checkpoint: build qa:hebrew-content + qa:pilot-checkpoint scripts, native Hebrew rewrite via hebrew-content-writer skill (≥85% EN word count, schema parity, paired religious naming), execute pilot-switch checkpoint at end (PASS = advance; SWITCH = halt, redo as Tel Aviv) (Wave 2; reqs CNT-02, CNT-03)
 - [ ] 02-03-sub-destinations-PLAN.md — 7 paired Jerusalem sub-destinations EN+HE (Old City Quarters, Western Wall, Holy Sepulchre, Yad Vashem, Mahane Yehuda, Mount of Olives, City of David): scaffold sub-dest renderer, author 14 MDX files (800-1200w each), schema TouristAttraction + ReligiousBuilding for restricted sites (Wave 3, gated by pilot-checkpoint PASS; req CNT-04)
 - [ ] 02-04-itinerary-PLAN.md — "3 Days in Jerusalem" itinerary EN+HE: add Itinerary collection to velite.config.ts, build lib/schema/itinerary.ts (TouristTrip), scaffold itinerary route renderer, author 2 MDX with ≥3 affiliates and ≥3 internal links to sub-dests, Bethlehem framing without canonical link (Wave 4; req CNT-05)
@@ -257,7 +257,7 @@ Quality Gate failure between 2 and 3 halts the workflow; no auto-advance to Phas
 | Phase                                  | Plans Complete | Status      | Completed  |
 | -------------------------------------- | -------------- | ----------- | ---------- |
 | 1. Foundation (M1)                     | 11/11          | Complete    | 2026-05-11 |
-| 2. Pilot Jerusalem (M2)                | 0/6            | Not started | -          |
+| 2. Pilot Jerusalem (M2)                | 1/6            | In progress | 2026-05-11 |
 | — Quality Gate (hard stop)             | —              | Not reached | -          |
 | 3. Region Replication (M3)             | 0/11           | Not started | -          |
 | 4. Long-tail Sweep (M4)                | 0/1 (TBD)      | Not started | -          |

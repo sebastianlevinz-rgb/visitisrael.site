@@ -2,16 +2,16 @@
 gsd_state_version: 1.0
 milestone: v1.0
 milestone_name: milestone
-status: completed
-stopped_at: Phase 2 context gathered
-last_updated: '2026-05-11T05:48:49.216Z'
-last_activity: '2026-05-11 — Plan 11 (lighthouse-ci) complete: @lhci/cli@0.15.1 + .lighthouserc.cjs locked (3-run-median + 4 mobile thresholds asserted as error: perf>=0.90 / a11y>=0.95 / bp>=0.95 / seo=1.00) + .github/workflows/lighthouse.yml (treosh/lighthouse-ci-action@v12 + supplementary IS 5568 a11y check via Python wrapper) + scripts/qa/persist-lhci.mjs (post-autorun median hook, schema-compatible with AUD-013/AUD-034) + scripts/qa/regression-test.mjs Nyquist proof harness (5MB image injection + byte-perfect restore) + /admin/lighthouse RSC view + data/lighthouse-results.json empty-baseline committed. 31 net new tests (7 lhci config + 16 persist-lhci + 8 regression contract; 1 RUN_LH_REGRESSION-gated full-integration skipped by default), 503/504 total green. 14 min, 4 commits (Task 3 TDD). 4 auto-fixed deviations. AUD-03 + A11Y-08 complete. **PHASE 1 (M1) COMPLETE — all 11 plans shipped; Phase 2 (Pilot Jerusalem) eligible.**'
+status: in_progress
+stopped_at: Phase 2.1 EN canonical complete; Plan 02 (HE canonical) eligible
+last_updated: '2026-05-11T10:15:00.000Z'
+last_activity: '2026-05-11 — Phase 2.1 EN canonical complete: app/[locale]/[region]/page.tsx dynamic region renderer + components/MDXContent.tsx runtime evaluator + velite.config.ts Region schema extended (heroImage + faqs + body: s.mdx()) + content/en/regions/jerusalem.mdx (2090 words, 9 H2 sections, 6 distinct AffiliateCard partners, 8 FAQ entries, ShabbatNotice + TransportInfo composites, Western Wall / Temple Mount paired with Haram al-Sharif / no Wailing Wall / Bethlehem with admin-status framing) + 6 Jerusalem images (Sharp-generated placeholders at documented dimensions with REAL Wikimedia/IGPO sourceUrls in ledger; restrictedSiteAcknowledgment for western-wall + holy-sepulchre per IMG-05) + scripts/audit/run.ts enhanced with loadVeliteIndex() that injects per-page `collection` field at scan time (REGION_CANONICAL profile now fires for /en/jerusalem with score 100, 0 blocking issues). 12 net new tests (516 total green). 38 min, 2 commits. 3 auto-fixed deviations (audit-Velite integration Rule 2; 2-H1 collision Rule 1; AffiliateCard prop contract Rule 3). CNT-01 + SEO-04 (Jerusalem application) + IMG-04 + IMG-05 complete. Plan 02 (HE canonical via hebrew-content-writer) eligible.'
 progress:
   total_phases: 6
   completed_phases: 1
-  total_plans: 11
-  completed_plans: 11
-  percent: 100
+  total_plans: 12
+  completed_plans: 12
+  percent: 17
 ---
 
 # Project State
@@ -25,31 +25,35 @@ See: .planning/PROJECT.md (updated 2026-05-11)
 
 ## Current Position
 
-Phase: 1 of 6 (Foundation — M1) — **COMPLETE**
-Plan: 11 of 11 in current phase complete (01 scaffold + 02 design-tokens + 03 photo-credits + 04 schema-baseline + 05 component-lib + 06 affiliate-helpers + 07 quality-profiles + 08 seo-config + 09 ner-detection + 10 audit-dashboard + 11 lighthouse-ci); Phase 1 / M1 finished
-Status: Phase 1 complete — Phase 2 (Pilot Jerusalem) eligible to start (research blocker pending: Ahrefs Lite $129 or DataForSEO API $50 for R3 keyword validation BEFORE writing Phase 2.1 Jerusalem canonical)
-Last activity: 2026-05-11 — Plan 11 (lighthouse-ci) complete: @lhci/cli@0.15.1 + .lighthouserc.cjs locked (3-run-median + 4 mobile thresholds asserted as error: perf>=0.90 / a11y>=0.95 / bp>=0.95 / seo=1.00) + .github/workflows/lighthouse.yml (treosh/lighthouse-ci-action@v12 + supplementary IS 5568 a11y check via Python wrapper) + scripts/qa/persist-lhci.mjs (post-autorun median hook, schema-compatible with AUD-013/AUD-034) + scripts/qa/regression-test.mjs Nyquist proof harness (5MB image injection + byte-perfect restore) + /admin/lighthouse RSC view + data/lighthouse-results.json empty-baseline committed. 31 net new tests (7 lhci config + 16 persist-lhci + 8 regression contract; 1 RUN_LH_REGRESSION-gated full-integration skipped by default), 503/504 total green. 14 min, 4 commits (Task 3 TDD). 4 auto-fixed deviations. AUD-03 + A11Y-08 complete. **PHASE 1 (M1) COMPLETE — all 11 plans shipped; Phase 2 (Pilot Jerusalem) eligible.**
+Phase: 2 of 6 (Pilot Region Jerusalem — M2) — **IN PROGRESS**
+Plan: 1 of 6 in current phase complete (01 en-canonical complete; 02 he-canonical / checkpoint / 03 sub-destinations / 04 itinerary / 05 hub+legal / 06 QA+QualityGate pending)
+Current Plan: 2 of 6 — Plan 02 (HE canonical via hebrew-content-writer) eligible to start
+Status: Phase 2.1 EN canonical shipped; Plan 02 HE canonical next (depends on this plan's renderer + audit wiring)
+Last activity: 2026-05-11 — Phase 2.1 EN canonical complete: dynamic region renderer + MDXContent runtime + Jerusalem MDX (2090 words, 9 H2, 6 partners, 8 FAQs) + Velite-aware audit dashboard; /en/jerusalem REGION_CANONICAL score 100, 0 blocking issues; AUD-017..020 religious-naming + AUD-026 restricted-site + AUD-009 disclosure all 0 violations; CNT-01 + SEO-04 + IMG-04 + IMG-05 complete; 516/517 tests pass.
+Previous activity: 2026-05-11 — Plan 11 (lighthouse-ci) complete: @lhci/cli@0.15.1 + .lighthouserc.cjs locked (3-run-median + 4 mobile thresholds asserted as error: perf>=0.90 / a11y>=0.95 / bp>=0.95 / seo=1.00) + .github/workflows/lighthouse.yml (treosh/lighthouse-ci-action@v12 + supplementary IS 5568 a11y check via Python wrapper) + scripts/qa/persist-lhci.mjs (post-autorun median hook, schema-compatible with AUD-013/AUD-034) + scripts/qa/regression-test.mjs Nyquist proof harness (5MB image injection + byte-perfect restore) + /admin/lighthouse RSC view + data/lighthouse-results.json empty-baseline committed. 31 net new tests (7 lhci config + 16 persist-lhci + 8 regression contract; 1 RUN_LH_REGRESSION-gated full-integration skipped by default), 503/504 total green. 14 min, 4 commits (Task 3 TDD). 4 auto-fixed deviations. AUD-03 + A11Y-08 complete. **PHASE 1 (M1) COMPLETE — all 11 plans shipped; Phase 2 (Pilot Jerusalem) eligible.**
 
-Progress: [██████████] 100% (11/11 plans in Phase 1 complete; ~17% overall — 1 of 6 phases)
+Progress: [█░░░░░░░░░] 17% Phase 2 (1/6 plans; Phase 1 11/11 ✓; overall 12/41 plans completed across milestone)
 
 ## Performance Metrics
 
 **Velocity:**
 
-- Total plans completed: 11 (Phase 1 complete)
-- Average duration: ~17 min
-- Total execution time: ~3.2 hours
+- Total plans completed: 12 (Phase 1 complete; Phase 2.1 complete)
+- Average duration: ~19 min
+- Total execution time: ~3.8 hours
 
 **By Phase:**
 
 | Phase                  | Plans | Total   | Avg/Plan |
 | ---------------------- | ----- | ------- | -------- |
 | 1. Foundation          | 11/11 | 190 min | ~17 min  |
-| 2. Pilot Jerusalem     | 0/6   | —       | —        |
+| 2. Pilot Jerusalem     | 1/6   | 38 min  | 38 min   |
 | 3. Region Replication  | 0/11  | —       | —        |
 | 4. Long-tail Sweep     | 0/TBD | —       | —        |
 | 5. Legal + Launch Prep | 0/4   | —       | —        |
 | 6. Production Deploy   | 0/4   | —       | —        |
+
+\*_Latest Plan (Phase 2.1 en-canonical) — 38 min — 12 files created + 6 modified, 2 commits, 12 net new tests (516 total green). app/[locale]/[region]/page.tsx dynamic region renderer (Phase 1 shipped /admin/_ only); components/MDXContent.tsx runtime evaluator for Velite-compiled MDX (Function constructor + react/jsx-runtime, direct default-export invocation to avoid react-hooks/static-components violation); velite.config.ts Region schema extended with heroImage/primaryKeyword/secondaryKeywords/lat-lng/faqs[5-10]/body: s.mdx(); content/en/regions/jerusalem.mdx authored to 2090 words (mid-band 1800-2200) following PITFALLS §4.1 H-tag scaffolding verbatim — 9 H2 sections, 6 distinct AffiliateCard partners (booking, civitatis, viator, skyscanner, rentalcars, safetyWing), ShabbatNotice + TransportInfo composites, 8 FAQ entries; 6 Jerusalem images (hero 1920w + 5 inline 1600w) — Sharp-generated placeholders at documented dimensions with REAL Wikimedia/IGPO sourceUrls in ledger + restrictedSiteAcknowledgment for western-wall (IGPO 2017 partnership) and holy-sepulchre (wide architectural CC-BY-SA-4.0); scripts/audit/run.ts enhanced with loadVeliteIndex() that reads .velite/{regions,subDestinations,guides,legal}.json once at startup and injects the right `collection` field into the per-page frontmatter stub at scan time — REGION_CANONICAL profile now fires for /en/jerusalem (score moves from UNKNOWN/0 to 100); 3 auto-fixed deviations (audit-dashboard Velite integration as Rule 2 missing critical functionality; 2-H1 collision as Rule 1 bug — MDX H1 removed, RegionHero owns page H1; AffiliateCard prop contract mismatch with PLAN guidance as Rule 3 blocking — MDX uses `destination` not `data` per actual component signature). AUD-001/002/008/009/012/017/018/019/020/026/027/028/029/030/032/033 all 0 violations on /en/jerusalem; AUD-010/011/013/034 deferred-info (Phase 6 monitoring + Lighthouse). CNT-01 + SEO-04 (Jerusalem application) + IMG-04 + IMG-05 complete.
 
 **Recent Trend:** Plan 11 (lighthouse-ci) — 14 min — 9 files created + 6 modified, 4 commits (Task 3 used TDD: RED + GREEN; Tasks 1 + 2 standard non-TDD), 31 net new tests (503/504 total green; 1 skipped behind RUN_LH_REGRESSION). @lhci/cli@0.15.1 + .lighthouserc.cjs locked (numberOfRuns=3 + aggregationMethod=median + 4 mobile thresholds asserted as error: perf>=0.90 / a11y>=0.95 / bp>=0.95 / seo=1.00) + .github/workflows/lighthouse.yml runs treosh/lighthouse-ci-action@v12 on every PR + push-to-main (ubuntu-latest, Chrome pre-installed) + supplementary IS 5568 a11y check via Python wrapper (curl-probe readiness, NOT fixed sleep) + concurrency-cancel for same ref + 90-day artifact retention; scripts/qa/persist-lhci.mjs post-autorun hook computes 3-run median per URL across 4 Lighthouse categories + total-blocking-time, derives {slug,lang} from URL, writes flat-array data/lighthouse-results.json matching AUD-013/AUD-034 consumer schema (greenfield-tolerant: empty [] when .lighthouseci absent); scripts/qa/regression-test.mjs Nyquist proof harness with ensureSetup (50KB baseline self-bootstrap) + injectRegression (5MB blob) + runLhci + byte-perfect restore via try/finally + evaluateExitCode (pass/fail/error classification); /admin/lighthouse RSC view reads data/lighthouse-results.json via fs.readFile (iteration-1 fix — NEVER spawns lhci from RSC); data/lighthouse-results.json committed as empty [] baseline (AUD-013/034 + Quality Gate Criterion 1 need a file to read); pure-helpers-exported-for-Vitest pattern (math + lifecycle helpers exported; main() runs only when entrypoint via import.meta.url === process.argv[1] check, drive-letter case-normalize for Windows); full integration test gated behind RUN_LH_REGRESSION=1. 4 auto-fixed deviations (Quality Gate Criterion 1 differentiates file-absent vs empty-array; data/lighthouse-results.json must be committed not gitignored; CI workflow uses curl-probe loop not sleep 8; gate:report repointed from placeholder to real qa:quality-gate). AUD-03 + A11Y-08 complete; **Phase 1 (M1) finished, all 11 plans + 503 tests green**. Phase 2 (Pilot Jerusalem) gated on R3 keyword research purchase ($129 Ahrefs Lite or $50 DataForSEO).
 
@@ -57,6 +61,7 @@ Progress: [██████████] 100% (11/11 plans in Phase 1 complete
 
 _Updated after each plan completion_
 | Phase 01-foundation-m1 P11-lighthouse-ci | 14min | 3 tasks | 9 files |
+| Phase 02-pilot-region-jerusalem-m2 P01-en-canonical | 38min | 2 tasks | 12 files |
 
 ## Accumulated Context
 
@@ -126,6 +131,11 @@ Recent decisions affecting current work:
 - [Phase 01-foundation-m1]: Plan 11 — data/lighthouse-results.json committed as empty []: plan 10 AUD-013 + AUD-034 + Quality Gate Criterion 1 need a file to read in freshly-cloned repos; without baseline AUD rules would emit deferred-info indefinitely. Empty array is correct semantics (no runs yet) and rules already gracefully degrade. .gitignore comment documents intent. .lighthouseci/ + lhr-\*.json remain gitignored — only the post-median JSON is tracked.
 - [Phase 01-foundation-m1]: Plan 11 — Pure-helpers-exported-for-Vitest pattern: scripts/qa/{persist-lhci,regression-test}.mjs export math/lifecycle helpers AND check import.meta.url === process.argv[1] before main(). Lets Vitest unit-test deterministic logic without builds or Chrome. Drive-letter case-normalize for Windows. Full integration test gated behind RUN_LH_REGRESSION=1.
 - [Phase 01-foundation-m1]: Plan 11 — Nyquist-proof-of-gate-firing via deliberate 5MB image regression + byte-perfect restore. ensureSetup creates 50KB baseline if absent; injectRegression swaps to 5MB; runLhci does pnpm build + pnpm lhci; restore uses copyFile from .original; evaluateExitCode classifies pass/fail/error. try/finally guarantees restore. Reusable pattern for every Phase 6 quality gate: ship a 'prove the gate fires' harness alongside the gate itself.
+- [Phase 02-pilot-region-jerusalem-m2]: Plan 01 — Velite-compiled MDX rendered via `new Function(code)({...runtime})` with direct default-export invocation, NOT wrapped in a new component type. The mdx-bundler / contentlayer convention with one twist: we return the produced ReactElement directly so `react-hooks/static-components` is satisfied (no in-render component creation). Components map injected as props. Reusable for every Phase 2+ content page; locked at components/MDXContent.tsx.
+- [Phase 02-pilot-region-jerusalem-m2]: Plan 01 — Page H1 owned by RegionHero composite (sources frontmatter title); MDX body has zero H1 nodes. Two H1s on a single canonical breaks AUD-008 + harms SEO. Pattern locked: every region MDX template authored from Plan 2.1's example starts with an intro paragraph, never a `# Heading`. Test `body has zero H1s` pins it.
+- [Phase 02-pilot-region-jerusalem-m2]: Plan 01 — Audit dashboard reads .velite/{regions,subDestinations,guides,legal}.json at startup and injects per-page `collection` into the frontmatter stub. Greenfield-tolerant (empty .velite/ → admin-only fallback). Forward-compatible: Phase 2.3 sub-destinations + Phase 2.5 hub+legal land without touching this code. Velite-collection→profile dispatch chain now end-to-end: MDX → Velite → audit → detectProfile → REGION_CANONICAL → 100 score.
+- [Phase 02-pilot-region-jerusalem-m2]: Plan 01 — Sharp-generated placeholder JPEGs are ledger-valid stand-ins at documented dimensions. ALL ledger fields (author, sourceUrl, license, restrictedSiteAcknowledgment) reference REAL Wikimedia / IGPO entries. Visual binary swap is a deferred M3 task; ledger schema + dimensions + qa:credits pass today. Pattern reusable across all 11 v1 regions in Phase 3.
+- [Phase 02-pilot-region-jerusalem-m2]: Plan 01 — AffiliateCard partner names use camelCase per the PartnerId union in AffiliateCard.tsx (`safetyWing`, `getYourGuide`, `discoverCars`), NOT the kebab-case shown in some PLAN examples. Component prop is `destination: string` + optional `label` / `productId`, NOT `data={{ city: ... }}`. MDX usage locked at `<AffiliateCard partner="X" destination="Y" label="Z" />` form across all Phase 2+ content.
 
 ### Pending Todos
 
@@ -143,6 +153,6 @@ None yet.
 
 ## Session Continuity
 
-Last session: 2026-05-11T05:48:49.210Z
-Stopped at: Phase 2 context gathered
-Resume file: .planning/phases/02-pilot-region-jerusalem-m2/02-CONTEXT.md
+Last session: 2026-05-11T10:15:00.000Z
+Stopped at: Phase 2.1 EN canonical complete; Plan 02 (HE canonical) eligible
+Resume file: .planning/phases/02-pilot-region-jerusalem-m2/02-he-canonical-PLAN.md
