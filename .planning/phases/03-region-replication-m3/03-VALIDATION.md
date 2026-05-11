@@ -104,6 +104,6 @@ _Status: ⬜ pending · ✅ green · ❌ red · ⚠️ flaky_
 - [x] Wave 0 covers all missing references (region-gate script, west-bank route, per-region image surveys)
 - [x] No watch-mode flags
 - [x] Feedback latency < 90s
-- [x] `nyquist_compliant: true` set in frontmatter — flipped 2026-05-11 after 11 PLANs committed + gsd-plan-checker confirmed all 5 REG IDs verified + 1 blocker (verify-regex typo `PASS\s\*\|` → `PASS\s*\|`) + 2 minor inconsistencies (plan-11 frontmatter `files_modified` added `scripts/audit/run.ts`; RESEARCH/CONTEXT filename `baha-i-photo-policy.md` → `haifa-bahai-policy.md`) resolved.
+- [x] `nyquist_compliant: true` set in frontmatter — flipped 2026-05-11 after 11 PLANs committed + gsd-plan-checker confirmed all 5 REG IDs verified + 1 blocker (verify-regex typo: literal `\*` in `PASS\s\*\|` → prettier-safe `PASS \|` since the report-row template emits `| PASS |` with exactly one space; switching to a literal-space match bypasses prettier's auto-escape of markdown `*`) + 2 minor inconsistencies (plan-11 frontmatter `files_modified` added `scripts/audit/run.ts`; RESEARCH/CONTEXT filename `baha-i-photo-policy.md` → `haifa-bahai-policy.md`) resolved.
 
 **Approval:** APPROVED 2026-05-11. All 5 REG req IDs map to working verification commands across 11 plans. Phase 3 execute eligible (`/gsd:execute-phase 03`).

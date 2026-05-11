@@ -355,7 +355,7 @@ Report row: 12 pages (2 canonical + 10 sub-dest); 5+ affiliate partners; image-g
 <automated>pnpm qa:region-gate negev</automated>
 <automated>node -e "const fs=require('fs'); if(!fs.existsSync('data/region-gates/negev.md'))process.exit(1); if(!/Verdict:\s*PASS/.test(fs.readFileSync('data/region-gates/negev.md','utf8')))process.exit(1)"</automated>
 <automated>node -e "const fs=require('fs'); if(!fs.existsSync('data/negev-images.md'))process.exit(1)"</automated>
-<automated>node -e "const fs=require('fs'); if(!/\|\s*negev\s*\|.*PASS\s\*\|/.test(fs.readFileSync('data/region-replication-report.md','utf8')))process.exit(1)"</automated>
+<automated>node -e "const fs=require('fs'); if(!/\|\s*negev\s*\|.*PASS \|/.test(fs.readFileSync('data/region-replication-report.md','utf8')))process.exit(1)"</automated>
 </verify>
 <done>pnpm qa:region-gate negev exits 0; Verdict: PASS; data/negev-images.md REG-05 policy doc exists with $1,500-$3,000 Phase 6 budget; report row populated.</done>
 </task>

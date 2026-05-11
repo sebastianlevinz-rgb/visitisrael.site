@@ -317,7 +317,7 @@ Report row: 12 pages (2 canonical + 10 sub-dest); 5+ partners; "Akko (Acre)" dua
 <automated>pnpm qa:audit</automated>
 <automated>pnpm qa:region-gate akko</automated>
 <automated>node -e "const fs=require('fs'); if(!fs.existsSync('data/region-gates/akko.md'))process.exit(1); if(!/Verdict:\s*PASS/.test(fs.readFileSync('data/region-gates/akko.md','utf8')))process.exit(1)"</automated>
-<automated>node -e "const fs=require('fs'); if(!/\|\s*akko\s*\|.*PASS\s\*\|/.test(fs.readFileSync('data/region-replication-report.md','utf8')))process.exit(1)"</automated>
+<automated>node -e "const fs=require('fs'); if(!/\|\s*akko\s*\|.*PASS \|/.test(fs.readFileSync('data/region-replication-report.md','utf8')))process.exit(1)"</automated>
 </verify>
 <done>pnpm qa:region-gate akko exits 0; Verdict: PASS; report row populated.</done>
 </task>

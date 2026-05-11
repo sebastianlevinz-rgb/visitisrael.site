@@ -315,7 +315,7 @@ Report row: 12 pages (2 canonical + 10 sub-dest); 5+ partners; AUD-018 0 violati
 <automated>pnpm qa:audit</automated>
 <automated>pnpm qa:region-gate golan</automated>
 <automated>node -e "const fs=require('fs'); if(!fs.existsSync('data/region-gates/golan.md'))process.exit(1); if(!/Verdict:\s*PASS/.test(fs.readFileSync('data/region-gates/golan.md','utf8')))process.exit(1)"</automated>
-<automated>node -e "const fs=require('fs'); if(!/\|\s*golan\s*\|.*PASS\s\*\|/.test(fs.readFileSync('data/region-replication-report.md','utf8')))process.exit(1)"</automated>
+<automated>node -e "const fs=require('fs'); if(!/\|\s*golan\s*\|.*PASS \|/.test(fs.readFileSync('data/region-replication-report.md','utf8')))process.exit(1)"</automated>
 </verify>
 <done>pnpm qa:region-gate golan exits 0; Verdict: PASS; report row populated.</done>
 </task>

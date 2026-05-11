@@ -298,7 +298,7 @@ Report row: 10 pages (2 canonical + 8 sub-dest); affiliate partners; PlaceOfWors
 <automated>pnpm qa:audit</automated>
 <automated>pnpm qa:region-gate nazareth</automated>
 <automated>node -e "const fs=require('fs'); if(!fs.existsSync('data/region-gates/nazareth.md'))process.exit(1); if(!/Verdict:\s*PASS/.test(fs.readFileSync('data/region-gates/nazareth.md','utf8')))process.exit(1)"</automated>
-<automated>node -e "const fs=require('fs'); if(!/\|\s*nazareth\s*\|.*PASS\s\*\|/.test(fs.readFileSync('data/region-replication-report.md','utf8')))process.exit(1)"</automated>
+<automated>node -e "const fs=require('fs'); if(!/\|\s*nazareth\s*\|.*PASS \|/.test(fs.readFileSync('data/region-replication-report.md','utf8')))process.exit(1)"</automated>
 </verify>
 <done>pnpm qa:region-gate nazareth exits 0; Verdict: PASS; report row populated.</done>
 </task>

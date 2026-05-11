@@ -380,7 +380,7 @@ Report row: 12 pages (2 canonical + 10 sub-dest); 5+ affiliate partners; AUD-026
 <automated>pnpm qa:region-gate haifa</automated>
 <automated>node -e "const fs=require('fs'); if(!fs.existsSync('data/region-gates/haifa.md'))process.exit(1); if(!/Verdict:\s*PASS/.test(fs.readFileSync('data/region-gates/haifa.md','utf8')))process.exit(1)"</automated>
 <automated>node -e "const fs=require('fs'); if(!fs.existsSync('data/haifa-bahai-policy.md'))process.exit(1)"</automated>
-<automated>node -e "const fs=require('fs'); if(!/\|\s*haifa\s*\|.*PASS\s\*\|/.test(fs.readFileSync('data/region-replication-report.md','utf8')))process.exit(1)"</automated>
+<automated>node -e "const fs=require('fs'); if(!/\|\s*haifa\s*\|.*PASS \|/.test(fs.readFileSync('data/region-replication-report.md','utf8')))process.exit(1)"</automated>
 </verify>
 <done>pnpm qa:region-gate haifa exits 0; Verdict: PASS; data/haifa-bahai-policy.md REG-05 policy doc exists with press@bahai.org Phase 6 gate; report row populated.</done>
 </task>

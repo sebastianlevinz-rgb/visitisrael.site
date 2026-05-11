@@ -282,7 +282,7 @@ Report row: 10 pages (2 canonical + 8 sub-dest); 5+ partners; Caesarea Maritima 
 <automated>pnpm qa:audit</automated>
 <automated>pnpm qa:region-gate caesarea</automated>
 <automated>node -e "const fs=require('fs'); if(!fs.existsSync('data/region-gates/caesarea.md'))process.exit(1); if(!/Verdict:\s*PASS/.test(fs.readFileSync('data/region-gates/caesarea.md','utf8')))process.exit(1)"</automated>
-<automated>node -e "const fs=require('fs'); if(!/\|\s*caesarea\s*\|.*PASS\s\*\|/.test(fs.readFileSync('data/region-replication-report.md','utf8')))process.exit(1)"</automated>
+<automated>node -e "const fs=require('fs'); if(!/\|\s*caesarea\s*\|.*PASS \|/.test(fs.readFileSync('data/region-replication-report.md','utf8')))process.exit(1)"</automated>
 </verify>
 <done>pnpm qa:region-gate caesarea exits 0; Verdict: PASS; report row populated.</done>
 </task>

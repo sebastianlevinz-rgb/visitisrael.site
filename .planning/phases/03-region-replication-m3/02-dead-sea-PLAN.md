@@ -362,7 +362,7 @@ Lighthouse: `data/lighthouse-results.json` likely empty/CI-owned per Phase 2.6 l
 <automated>pnpm qa:audit</automated>
 <automated>pnpm qa:region-gate dead-sea</automated>
 <automated>node -e "const fs=require('fs'); if(!fs.existsSync('data/region-gates/dead-sea.md'))process.exit(1); if(!/Verdict:\s*PASS/.test(fs.readFileSync('data/region-gates/dead-sea.md','utf8')))process.exit(1)"</automated>
-<automated>node -e "const fs=require('fs'); if(!/\|\s*dead-sea\s*\|.*PASS\s\*\|/.test(fs.readFileSync('data/region-replication-report.md','utf8')))process.exit(1)"</automated>
+<automated>node -e "const fs=require('fs'); if(!/\|\s*dead-sea\s*\|.*PASS \|/.test(fs.readFileSync('data/region-replication-report.md','utf8')))process.exit(1)"</automated>
 </verify>
 <done>pnpm qa:region-gate dead-sea exits 0; data/region-gates/dead-sea.md Verdict: PASS; data/region-replication-report.md dead-sea row populated.</done>
 </task>

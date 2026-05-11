@@ -492,7 +492,7 @@ Lighthouse: `data/lighthouse-results.json` likely empty/CI-owned — gate accept
 <automated>pnpm qa:audit</automated>
 <automated>pnpm qa:region-gate west-bank/bethlehem</automated>
 <automated>node -e "const fs=require('fs'); if(!fs.existsSync('data/region-gates/west-bank-bethlehem.md'))process.exit(1); if(!/Verdict:\s*PASS/.test(fs.readFileSync('data/region-gates/west-bank-bethlehem.md','utf8')))process.exit(1)"</automated>
-<automated>node -e "const fs=require('fs'); if(!/\|\s*west-bank\/bethlehem\s*\|.*PASS\s\*\|/.test(fs.readFileSync('data/region-replication-report.md','utf8')))process.exit(1)"</automated>
+<automated>node -e "const fs=require('fs'); if(!/\|\s*west-bank\/bethlehem\s*\|.*PASS \|/.test(fs.readFileSync('data/region-replication-report.md','utf8')))process.exit(1)"</automated>
 </verify>
 <done>pnpm qa:region-gate west-bank/bethlehem exits 0 with Verdict: PASS; data/region-gates/west-bank-bethlehem.md written; data/region-replication-report.md west-bank/bethlehem row populated with concrete numbers; ALL 11 Phase 3 plans complete — Phase 3 close eligible.</done>
 </task>

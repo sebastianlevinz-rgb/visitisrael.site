@@ -696,7 +696,7 @@ Avoid: treating soft-gate FAIL as advisory (it's mechanical; gate firing means t
 <automated>pnpm qa:audit</automated>
 <automated>pnpm qa:region-gate tel-aviv</automated>
 <automated>node -e "const fs=require('fs'); if(!fs.existsSync('data/region-gates/tel-aviv.md'))process.exit(1); const c=fs.readFileSync('data/region-gates/tel-aviv.md','utf8'); if(!/Verdict:\s*PASS/.test(c))process.exit(1)"</automated>
-<automated>node -e "const fs=require('fs'); const r=fs.readFileSync('data/region-replication-report.md','utf8'); if(!/\|\s*tel-aviv\s*\|.*PASS\s\*\|/.test(r))process.exit(1)"</automated>
+<automated>node -e "const fs=require('fs'); const r=fs.readFileSync('data/region-replication-report.md','utf8'); if(!/\|\s*tel-aviv\s*\|.*PASS \|/.test(r))process.exit(1)"</automated>
 </verify>
 <done>pnpm qa:region-gate tel-aviv exits 0 with Verdict: PASS; data/region-gates/tel-aviv.md written; data/region-replication-report.md tel-aviv row updated with concrete numbers + PASS verdict; Wave 2 (plans 02/03/04) is unblocked.</done>
 </task>

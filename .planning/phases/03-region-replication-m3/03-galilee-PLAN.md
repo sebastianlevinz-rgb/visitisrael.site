@@ -379,7 +379,7 @@ On PASS, report row records: 14 pages (2 canonical + 12 sub-dest); affiliate par
 <automated>pnpm qa:audit</automated>
 <automated>pnpm qa:region-gate galilee</automated>
 <automated>node -e "const fs=require('fs'); if(!fs.existsSync('data/region-gates/galilee.md'))process.exit(1); if(!/Verdict:\s*PASS/.test(fs.readFileSync('data/region-gates/galilee.md','utf8')))process.exit(1)"</automated>
-<automated>node -e "const fs=require('fs'); if(!/\|\s*galilee\s*\|.*PASS\s\*\|/.test(fs.readFileSync('data/region-replication-report.md','utf8')))process.exit(1)"</automated>
+<automated>node -e "const fs=require('fs'); if(!/\|\s*galilee\s*\|.*PASS \|/.test(fs.readFileSync('data/region-replication-report.md','utf8')))process.exit(1)"</automated>
 </verify>
 <done>pnpm qa:region-gate galilee exits 0; data/region-gates/galilee.md Verdict: PASS; data/region-replication-report.md galilee row populated; PlaceOfWorship schema emission validated.</done>
 </task>
