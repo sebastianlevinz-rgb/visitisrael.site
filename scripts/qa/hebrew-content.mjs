@@ -50,6 +50,7 @@ import { resolve, dirname } from 'node:path';
 
 const REPO_ROOT = process.cwd();
 const REGIONS_JSON = resolve(REPO_ROOT, '.velite/regions.json');
+const SUB_DEST_JSON = resolve(REPO_ROOT, '.velite/subDestinations.json');
 const RELIGIOUS_SITES_JSON = resolve(REPO_ROOT, 'data/religious-sites.json');
 const OUT_PATH = resolve(REPO_ROOT, 'data/hebrew-content-results.json');
 
@@ -239,8 +240,12 @@ async function ensureDir(filePath) {
 
 async function main() {
   const regions = await readJsonSafe(REGIONS_JSON, []);
+  const subDests = await readJsonSafe(SUB_DEST_JSON, []);
   const sites = await readJsonSafe(RELIGIOUS_SITES_JSON, {});
-  const result = checkAllPages(regions, sites);
+  // Phase 2.3: sub-destinations carry the same HE editorial rules as regions
+  // (paired naming on contested sites + forbidden כותל הדמעות + ktiv maleh).
+  // Concatenating them through checkAllPages keeps the rule logic single-source.
+  const result = checkAllPages([...regions, ...subDests], sites);
 
   await ensureDir(OUT_PATH);
   await writeFile(
