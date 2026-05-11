@@ -1,0 +1,132 @@
+name: Lighthouse CI
+
+# Phase 1.11 — AUD-03 + A11Y-08 + Quality Gate criterion 1 enforcement.
+# Runs on every PR to main + every push to main. Blocks merge if Lighthouse
+# thresholds fail (perf >=0.90, a11y >=0.95, best-practices >=0.95, SEO 1.00).
+#
+# Phase 1 URL set: localhost:3000/, /en, /admin/components (3 stable greenfield routes).
+# Phase 2+ expands once /jerusalem + /en/jerusalem land.
+
+on:
+  pull_request:
+    branches: [main]
+  push:
+    branches: [main]
+
+# Workflow concurrency: cancel in-progress runs on the same ref when a new push
+# arrives — avoids stacking Lighthouse jobs (each takes ~3min).
+concurrency:
+  group: lighthouse-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  lighthouse:
+    name: Lighthouse 3-run-median + supplementary IS 5568 a11y
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    permissions:
+      contents: read
+      pull-requests: write # treosh/lighthouse-ci-action comments results on PRs
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Install pnpm
+        uses: pnpm/action-setup@v3
+        with:
+          version: 10
+
+      - name: Setup Node.js 20
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: pnpm
+
+      - name: Install dependencies
+        run: pnpm install --frozen-lockfile
+
+      - name: Build Next.js
+        run: pnpm build
+
+      # Use treosh/lighthouse-ci-action@v12 per STACK.md §5.2:
+      # - Reads `.lighthouserc.cjs` for thresholds + URLs + numberOfRuns
+      # - Boots `pnpm start` via the config's startServerCommand
+      # - Uploads HTML reports to temporary-public-storage (90 days)
+      # - Comments PR with the 3-run-median scores + report URLs
+      # - Exits non-zero (blocking merge) if any assertion fails
+      - name: Run Lighthouse CI
+        id: lhci
+        uses: treosh/lighthouse-ci-action@v12
+        with:
+          configPath: ./.lighthouserc.cjs
+          uploadArtifacts: true
+          temporaryPublicStorage: true
+
+      - name: Persist Lighthouse JSON (median)
+        # Runs even if lhci failed — we still want the captured run data
+        # uploaded as an artifact for forensic analysis.
+        if: always()
+        run: node scripts/qa/persist-lhci.mjs
+
+      - name: Upload lighthouse-results.json
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: lighthouse-results-json
+          path: data/lighthouse-results.json
+          retention-days: 90
+
+      # Supplementary IS 5568 a11y check (A11Y-08 layer 2).
+      # Lighthouse a11y >=0.95 covers most cases; audit_a11y.py from
+      # `israeli-accessibility-compliance` skill adds Israeli-specific checks
+      # (Hebrew skip-nav, dual-direction RTL, Reg-35 widget if present).
+      - name: Setup Python 3.11
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install Python a11y deps
+        # `requests` + `beautifulsoup4` is the offline fallback path used by
+        # the skill's audit_a11y.py — selenium + chromedriver would also
+        # work but adds 30s+ to CI runtime.
+        run: pip install requests beautifulsoup4
+
+      - name: Start Next.js preview server
+        # Background — supplementary a11y wrapper hits localhost:3000.
+        # Workflow step (background process) is acceptable here because:
+        #   1. This is GitHub Actions linux runner, not the project's local
+        #      dev environment — `pnpm start &` is a CI primitive.
+        #   2. The "no POSIX in verify scripts" rule from iteration-1 W2
+        #      applies to project verify-block commands, NOT to CI shell.
+        run: |
+          pnpm start &
+          echo "PNPM_START_PID=$!" >> "$GITHUB_ENV"
+          # Wait until server responds (max 30s) — avoids fixed `sleep 8`.
+          for i in {1..30}; do
+            if curl -sf http://localhost:3000/ > /dev/null; then
+              echo "Server ready after ${i}s"
+              break
+            fi
+            sleep 1
+          done
+
+      - name: Run audit_a11y.py (IS-5568 supplementary)
+        run: node scripts/audit_a11y_wrapper.mjs
+        env:
+          AUDIT_TARGET_URL: http://localhost:3000
+
+      - name: Stop preview server
+        if: always()
+        run: |
+          if [ -n "$PNPM_START_PID" ]; then
+            kill "$PNPM_START_PID" || true
+          fi
+
+      - name: Upload IS 5568 a11y results
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: a11y-il-results
+          path: data/a11y-il-results.json
+          retention-days: 30

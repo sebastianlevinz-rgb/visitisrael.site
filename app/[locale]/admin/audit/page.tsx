@@ -73,7 +73,9 @@ export default async function AuditPage({
         <code>pnpm qa:audit</code> to regenerate.
       </p>
       <p className="mt-2">
-        <Link href={`/${locale}/admin/audit/quality-gate`}>Quality Gate report →</Link>
+        <Link href={`/${locale}/admin/audit/quality-gate`}>Quality Gate report →</Link>{' '}
+        ·{' '}
+        <Link href={`/${locale}/admin/lighthouse`}>Lighthouse results →</Link>
       </p>
       {results.length === 0 ? (
         <div className="mt-4 rounded border border-dashed p-4">

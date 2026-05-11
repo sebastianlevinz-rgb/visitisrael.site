@@ -85,12 +85,21 @@ async function run(): Promise<void> {
   const criteria: CriterionResult[] = [];
 
   // Criterion 1: Lighthouse thresholds.
-  if (lhci === null || lhci.length === 0) {
+  if (lhci === null) {
     criteria.push({
       id: 1,
       name: 'Lighthouse mobile (3-run-median ≥0.90/0.95/0.95/1.00)',
       status: 'deferred',
       detail: 'data/lighthouse-results.json absent — plan 11 lhci not yet run.',
+    });
+  } else if (lhci.length === 0) {
+    // File exists (empty-array baseline from plan 11) but no runs captured yet.
+    criteria.push({
+      id: 1,
+      name: 'Lighthouse mobile (3-run-median ≥0.90/0.95/0.95/1.00)',
+      status: 'deferred',
+      detail:
+        'data/lighthouse-results.json present but empty — run `pnpm lhci` (local, requires Chrome) or push to trigger .github/workflows/lighthouse.yml.',
     });
   } else {
     // Plan 11 populates structure; Phase 1 simple presence check.
