@@ -29,6 +29,7 @@ This aggregate report is populated as each Phase 3 plan's Task 4 (per-region sof
 | dead-sea | PASS |
 | negev    | PASS |
 | caesarea | PASS |
+| nazareth | PASS |
 
 (One-line per-region status mirror — readable by the plan's verify regex `\|\s*{region}\s*\|.*PASS \|` after prettier-aligned columns are minimized.)
 

@@ -23,6 +23,34 @@ schema only accepts CC-BY-SA-3.0+. Likely typo — should be `CC-BY-SA-3.0`.
 - **Fix:** Single character edit on the Negev entry. ~5 sec for the Negev agent
   in their own commit scope.
 
+## Wave 3 (Negev HE TransportInfo blocker — Nazareth observation)
+
+**3. Negev HE canonical `<TransportInfo partner="skyscanner" />` malformed:**
+The Negev plan-05 HE canonical `content/he/regions/negev.mdx` invokes
+`<TransportInfo partner="skyscanner" />` — but the `TransportInfo` component
+contract requires `airport: { code: string; name: string }` and
+`transportOptions: ReadonlyArray<TransportOption>` props (see
+`components/travel/TransportInfo.tsx` interface `TransportInfoProps`).
+The malformed invocation causes Next.js prerender to throw
+`TypeError: Cannot read properties of undefined (reading 'code')` on
+`/he/negev`, which **halts the entire `pnpm build`**.
+
+- **Owner:** Phase 3 Wave 3 plan 05 Negev agent
+- **Impact:** Phase 3 Wave 3 build completely blocked. ALL regions' Task 4
+  (`pnpm qa:audit` + `pnpm qa:region-gate <region>`) cannot run because
+  `data/audit-results.json` cannot be regenerated without a successful
+  build. Nazareth's own MDX content compiles cleanly via Velite and
+  `pnpm test --run tests/content/nazareth-region.test.ts` is 66/66 green.
+- **Recommended fix:** Either (a) remove the partner-only `<TransportInfo>`
+  call in Negev HE canonical (it's redundant — the EN canonical's
+  TransportInfo provides the schema), or (b) provide the full
+  `airport={{ code: 'TLV', name: 'שדה התעופה הבינלאומי בן גוריון' }}` +
+  `transportOptions={[...]}` props as the Galilee + Tel Aviv canonicals do.
+- **Scope:** Out of Nazareth plan-06 scope per scope-boundary policy;
+  belongs to Negev plan-05 agent. Nazareth Task 4 soft gate is deferred
+  pending Negev fix — Nazareth content audit cannot complete until the
+  Phase 3 Wave 3 build is unblocked.
+
 ## Wave 3 (Nazareth agent — same observation as Caesarea)
 
 The Nazareth (plan 06) agent observed the same Negev `CC-BY-SA-2.0` license-enum
