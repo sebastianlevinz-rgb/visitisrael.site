@@ -34,6 +34,7 @@ requirements:
   - CNT-07
   - A11Y-03
   - A11Y-04
+  - A11Y-05
 must_haves:
   truths:
     - 'Homepage renders at / (HE) and /en/ with RegionHero (Jerusalem) + region grid (Jerusalem live, 10 placeholders for Phase 3 regions)'
@@ -86,7 +87,7 @@ Wave 0 work:
 - Augment `.husky/pre-commit` to reject `__REQUIRES_USER_INPUT__` placeholders in accessibility MDX (statutory defense-in-depth per IS 5568)
 - Decision: HE accessibility statement slug — try `/הצהרת-נגישות` first; if next-intl rewrite is fragile, fall back to `/he/accessibility-statement` per CONTEXT.md authorization
 
-Purpose: Ship CNT-06 (hubs) + CNT-07 (legal pages) + A11Y-03 (statement page) + A11Y-04 (named coordinator), closing the operational blocker from STATE.md (`Phase 2.5 operational blocker (Gap §6.7): Named accessibility coordinator must be designated`).
+Purpose: Ship CNT-06 (hubs) + CNT-07 (legal pages) + A11Y-03 (statement page) + A11Y-04 (named coordinator) + A11Y-05 (footer accessibility link verified live via AUD-028), closing the operational blocker from STATE.md (`Phase 2.5 operational blocker (Gap §6.7): Named accessibility coordinator must be designated`).
 
 Output: 7 route renderers + 10 legal MDX files + 1 augmented pre-commit hook + 3 Vitest tests + sitemap updates.
 </objective>
@@ -200,6 +201,7 @@ fi
 
 3. **Executor pause flow** (the autonomous=false signal in this plan):
    When the coordinator-population task runs and finds the placeholder, executor HALTS and surfaces:
+
    ```
    ## PAUSED: Accessibility Coordinator Required (A11Y-04)
 
@@ -215,6 +217,7 @@ fi
 
    These values will be committed to the public site. Placeholder values are not legally acceptable.
    ```
+
    User responds → executor replaces the 4 placeholders in BOTH the EN and HE accessibility-statement MDX → commits.
    </placeholder_pause_pattern>
    </context>
@@ -292,7 +295,7 @@ Avoid: scaffolding renderers with hardcoded copy (consume Velite); making the ho
 <verify>
 <automated>pnpm typecheck</automated>
 <automated>pnpm lint app/[locale]/page.tsx app/[locale]/regions/page.tsx app/[locale]/about/page.tsx app/[locale]/contact/page.tsx app/[locale]/privacy/page.tsx app/[locale]/affiliate-disclosure/page.tsx app/[locale]/accessibility-statement/page.tsx</automated>
-<automated>test -f .husky/pre-commit && grep -q "REQUIRES_USER_INPUT" .husky/pre-commit</automated>
+<automated>node -e "const fs=require('fs'); const c=fs.readFileSync('.husky/pre-commit','utf8'); if(!c.includes('REQUIRES_USER_INPUT'))process.exit(1)"</automated>
 <automated>pnpm test --run tests/content/legal-pages.test.ts tests/content/coordinator-format.test.ts tests/content/accessibility-statement.test.ts</automated>
 </verify>
 <done>7 route renderers scaffolded (homepage + regions + 5 legal); .husky/pre-commit has the placeholder-rejection block; 3 Vitest test files exist with skipped groups; typecheck + lint green.</done>
@@ -544,13 +547,13 @@ Avoid: storing the coordinator data anywhere outside the MDX frontmatter (single
 - `tests/content/coordinator-format.test.ts` green (all 4 format assertions on EN + HE)
 - `tests/content/accessibility-statement.test.ts` green (IS 5568 sections + WCAG 2.1 AA + mailto: + tel: + last_audit_date)
 - AUD-027 reports 0 violations (statement exists in both locales)
-- AUD-028 reports 0 violations site-wide (footer link present on every page)
+- AUD-028 reports 0 violations site-wide (footer link present on every page — A11Y-05 verified live)
 - `pnpm qa:audit` reports HUB profile ≥85 on homepage + /regions/; UTILITY ≥85 on all 10 legal pages
 - HE statement slug routing decision documented (either `/הצהרת-נגישות` works OR `/he/accessibility-statement` fallback applied)
 </verification>
 
 <success_criteria>
-Hub pages (homepage + /regions/ index) live in both locales. 5 legal pages × 2 langs shipped with proper IS 5568 content on the accessibility statement (real coordinator values; pre-commit hook + Vitest format test both gate the contract). Footer accessibility-link wired live on every Jerusalem page (AUD-028 = 0). A11Y-04 statutory blocker (STATE.md Gap §6.7) resolved: named coordinator on record.
+Hub pages (homepage + /regions/ index) live in both locales. 5 legal pages × 2 langs shipped with proper IS 5568 content on the accessibility statement (real coordinator values; pre-commit hook + Vitest format test both gate the contract). Footer accessibility-link wired live on every Jerusalem page (AUD-028 = 0 → A11Y-05 satisfied). A11Y-04 statutory blocker (STATE.md Gap §6.7) resolved: named coordinator on record.
 </success_criteria>
 
 <output>
@@ -563,4 +566,5 @@ After completion, create `.planning/phases/02-pilot-region-jerusalem-m2/02-05-SU
 - AUD-027 + AUD-028 final audit verification
 - Wall-clock time
 - Any HE typography edge cases for Latin-wrapped phone/email observed
+</output>
 </output>

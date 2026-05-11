@@ -284,7 +284,7 @@ Avoid: TypeScript in scripts (Phase 1 lock — .mjs only); hardcoding paths (use
 </action>
 <verify>
 <automated>pnpm test --run tests/qa/pilot-checkpoint.test.ts</automated>
-<automated>node scripts/qa/pilot-checkpoint.mjs --help 2>&1 || true</automated>
+<automated>node -e "import('./scripts/qa/pilot-checkpoint.mjs').then(()=>process.exit(0),(e)=>{console.error(e);process.exit(1)})"</automated>
 <automated>node -e "require('./package.json').scripts['qa:pilot-checkpoint'] && require('./package.json').scripts['qa:hebrew-content'] || process.exit(1)"</automated>
 <automated>pnpm lint scripts/qa/hebrew-content.mjs scripts/qa/pilot-checkpoint.mjs</automated>
 </verify>
@@ -431,11 +431,16 @@ This is the cheapest-to-execute, highest-leverage checkpoint in Phase 2. Past th
 
 Avoid: continuing to Wave 3 with exit-1; treating SWITCH as advisory (it's not — the criteria are mechanical); allowing override without rationale appended to the report.
 </action>
+<rationale>
+**Halt semantics:** The automated verify below runs `pnpm qa:pilot-checkpoint`. The script exits 0 on PASS verdict (advance) and exits 1 on SWITCH verdict (halt). GSD orchestrator semantics: a task whose automated verify exits non-zero is treated as a FAILED task — which correctly blocks Wave 3 dependents from proceeding. This is the intended phase-halt mechanism for the SWITCH path.
+
+The `<done>` field below ONLY describes the PASS completion state. The SWITCH path is documented in the action prose above (steps 3-5) but is NOT a "done" state from the orchestrator's perspective — it is a failed verify that triggers the user-decision flow (switch-to-Tel-Aviv vs override). The existing automated verify (`pnpm qa:pilot-checkpoint` exits 0 or 1) already provides the machine-readable signal; the `<done>` field is aligned to PASS only so the orchestrator's task-success heuristic matches reality.
+</rationale>
 <verify>
 <automated>pnpm qa:pilot-checkpoint</automated>
-<automated>test -f data/pilot-checkpoint.md && grep -E "Verdict: (PASS|SWITCH|OVERRIDE)" data/pilot-checkpoint.md</automated>
+<automated>node -e "const fs=require('fs'); if(!fs.existsSync('data/pilot-checkpoint.md'))process.exit(1); const c=fs.readFileSync('data/pilot-checkpoint.md','utf8'); if(!c.match(/Verdict: (PASS|SWITCH|OVERRIDE)/))process.exit(1)"</automated>
 </verify>
-<done>data/pilot-checkpoint.md exists with Verdict field populated. Exit 0 → PASS verdict; downstream plans (02-03..06) unblocked. Exit 1 → SWITCH verdict; orchestrator halts Phase 2 and surfaces the report to the user for switch-vs-override decision.</done>
+<done>data/pilot-checkpoint.md exists with `Verdict: PASS` and exit 0 from pnpm qa:pilot-checkpoint; all 3 criteria evaluated to PASS; Wave 3 (plans 02-03..06) is unblocked. (SWITCH path = exit 1 = task FAILED by design; orchestrator halts Phase 2 and the report is surfaced to the user for the switch-vs-override decision — see <rationale> above.)</done>
 </task>
 
 </tasks>
@@ -464,4 +469,5 @@ After completion, create `.planning/phases/02-pilot-region-jerusalem-m2/02-02-SU
 - Pilot-checkpoint verdict + per-criterion details
 - Wall-clock time vs EN baseline (criterion 3 ratio)
 - Any deviations from EN structure (justify; ratio gate requires close parity)
+</output>
 </output>

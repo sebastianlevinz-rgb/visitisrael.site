@@ -263,7 +263,7 @@ Avoid: making SERP review automatable (CONTEXT.md explicitly defers automation);
 <verify>
 <automated>pnpm typecheck scripts/audit/quality-gate.ts</automated>
 <automated>pnpm test --run tests/qa/quality-gate-content-mode.test.ts</automated>
-<automated>test -f data/manual-serp-review-checklist.md</automated>
+<automated>node -e "const fs=require('fs'); if(!fs.existsSync('data/manual-serp-review-checklist.md'))process.exit(1)"</automated>
 </verify>
 <done>quality-gate.ts auto-detects content-mode from contentPages.length (refactor if needed); Vitest test pins both structural + content mode behaviors; manual SERP review checklist template exists with 8 keyword sections.</done>
 </task>
@@ -313,7 +313,7 @@ Note for Windows execution: Lighthouse requires Chrome installed and `pnpm build
 pnpm qa:axe
 ```
 
-Phase 1 plan 11 may have wired real axe-core (or it may still be the stub). If stub, swap to real invocation here — install `@axe-core/cli` if needed, configure to crawl the built pages, write results to `data/axe-results.json`. Acceptable to keep stub if Phase 1 left it as such — the script must exit 0 with the result file written either way (per stub-on-error pattern from plan 10).
+Phase 1 plan 11 may have wired real axe-core (or it may still be the stub). If stub, swap to real invocation here — install `@axe-core/cli` if needed, configure to crawl the built pages, write results to `data/axe-results.json`. Per stub-on-error policy from plan 10: the wrapper script exits 0 with a stub result file even when the underlying tool is missing or fails — so this command should exit 0 either way.
 
 **5. IS 5568 supplementary a11y:**
 
@@ -359,9 +359,9 @@ Avoid: skipping SERP review (CONTEXT.md mandates it as compensating control); ru
 <automated>pnpm velite && pnpm build</automated>
 <automated>pnpm qa:credits && pnpm qa:schema && pnpm qa:ner && pnpm qa:hebrew-content</automated>
 <automated>pnpm qa:audit</automated>
-<automated>pnpm qa:axe || true</automated>
-<automated>pnpm qa:audit-a11y || true</automated>
-<automated>test -f data/serp-review.md && grep -c "Verdict" data/serp-review.md | awk '{if($1<8){exit 1}}'</automated>
+<automated>pnpm qa:axe</automated>
+<automated>pnpm qa:audit-a11y</automated>
+<automated>node -e "const fs=require('fs'); if(!fs.existsSync('data/serp-review.md'))process.exit(1); const m=fs.readFileSync('data/serp-review.md','utf8').match(/Verdict:/g); if(!m||m.length<8)process.exit(1)"</automated>
 <automated>node -e "const r=require('./data/audit-results.json'); const jerusalemPages=r.filter(p=>p.slug==='jerusalem'||p.region==='jerusalem'||p.slug.startsWith('jerusalem-')||p.slug.includes('jerusalem')); const bad=jerusalemPages.filter(p=>p.score<85); if(bad.length){console.error('pages below 85:',bad.map(p=>p.lang+'/'+p.slug));process.exit(1);} console.log(jerusalemPages.length,'Jerusalem pages all >=85')"</automated>
 </verify>
 <done>Full QA pipeline ran successfully; all Jerusalem pages score ≥85; data/audit-results.json + data/lighthouse-results.json + data/axe-results.json + data/a11y-il-results.json all written; data/serp-review.md has 8 keyword verdicts (5 EN + 3 HE); any REWORK findings have been addressed and re-verified to PASS.</done>
@@ -430,7 +430,7 @@ Avoid: running the gate before SERP review is complete (Quality Gate doesn't che
 </action>
 <verify>
 <automated>pnpm qa:quality-gate</automated>
-<automated>test -f data/quality-gate-pass.md && grep -E "(PASS|✓)" data/quality-gate-pass.md | wc -l || test -f data/quality-gate-failure.md</automated>
+<automated>node -e "const fs=require('fs'); const pass=fs.existsSync('data/quality-gate-pass.md'); const fail=fs.existsSync('data/quality-gate-failure.md'); if(!pass&&!fail)process.exit(1); if(pass){const c=fs.readFileSync('data/quality-gate-pass.md','utf8'); if(!c.match(/PASS|✓/))process.exit(1)}"</automated>
 <automated>node -e "const fs=require('fs'); const pass=fs.existsSync('data/quality-gate-pass.md'); const fail=fs.existsSync('data/quality-gate-failure.md'); if(pass&&fail){console.error('both pass + failure files exist — delete the stale one');process.exit(1);} if(!pass&&!fail){console.error('neither file exists — gate did not run');process.exit(1);} console.log(pass?'PASS':'FAIL')"</automated>
 </verify>
 <done>Either data/quality-gate-pass.md (10/10 criteria green, exit 0 → Phase 3 unblocked) OR data/quality-gate-failure.md (failing criteria documented, exit 1 → HARD STOP) exists. STATE.md updated with verdict. If FAIL, user has been surfaced the report and asked to choose fix-vs-override.</done>
@@ -470,4 +470,5 @@ After completion, create `.planning/phases/02-pilot-region-jerusalem-m2/02-06-SU
 - If FAIL: per-criterion failure analysis + proposed remediation; backlog of changes needed before re-running gate
 - Total Phase 2 wall-clock time (sum of plans 02-01..06)
 - Lessons learned: anything that should flow back to PROJECT.md decisions or ROADMAP.md Phase 3+ planning
+</output>
 </output>
