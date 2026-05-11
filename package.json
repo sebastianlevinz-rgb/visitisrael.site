@@ -27,12 +27,14 @@
   },
   "dependencies": {
     "clsx": "^2.1.1",
+    "glob": "^13.0.6",
     "next": "^15.5.18",
     "next-intl": "^3.26.5",
     "next-plausible": "^3.12.5",
     "react": "^19.2.6",
     "react-dom": "^19.2.6",
     "schema-dts": "^2.0.0",
+    "sharp": "^0.34.5",
     "tailwind-merge": "^3.6.0",
     "zod": "^4.4.3"
   },
@@ -47,6 +49,7 @@
     "@typescript-eslint/parser": "^8.59.2",
     "@vitejs/plugin-react": "^4.7.0",
     "@vitest/coverage-v8": "^2.1.9",
+    "cheerio": "^1.2.0",
     "eslint": "^9.39.4",
     "eslint-config-next": "^16.2.6",
     "eslint-plugin-jsx-a11y": "^6.10.2",
@@ -63,5 +66,12 @@
     "typescript-eslint": "^8.59.2",
     "velite": "^0.3.1",
     "vitest": "^2.1.9"
+  },
+  "pnpm": {
+    "onlyBuiltDependencies": [
+      "esbuild",
+      "sharp",
+      "unrs-resolver"
+    ]
   }
 }
