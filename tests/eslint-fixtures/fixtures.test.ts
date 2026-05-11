@@ -16,7 +16,6 @@
  */
 import { spawnSync } from 'node:child_process';
 import { mkdtempSync, writeFileSync, rmSync } from 'node:fs';
-import { tmpdir } from 'node:os';
 import { join } from 'node:path';
 import { describe, expect, it } from 'vitest';
 
@@ -24,15 +23,18 @@ const repoRoot = process.cwd();
 const isWindows = process.platform === 'win32';
 
 function runLint(target: string) {
+  // Windows needs `shell: true` to invoke `.cmd` shims (pnpm.cmd).
+  // Unix can use the bare `pnpm` executable directly.
   const result = spawnSync(isWindows ? 'pnpm.cmd' : 'pnpm', ['lint', target], {
     cwd: repoRoot,
     encoding: 'utf8',
-    shell: false,
+    shell: isWindows,
   });
   return {
     exitCode: result.status,
     stdout: result.stdout ?? '',
     stderr: result.stderr ?? '',
+    error: result.error,
   };
 }
 
