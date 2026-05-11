@@ -10,6 +10,10 @@
 import { getLocale, getTranslations } from 'next-intl/server';
 import type { Locale } from '@/i18n-config';
 import { Container } from '@/components/ui/Container';
+import {
+  ACCESSIBILITY_SLUG,
+  accessibilityStatementHref,
+} from '@/lib/seo/accessibility-link';
 
 type FooterLink = {
   /** Path WITHOUT locale prefix (e.g. 'privacy'). */
@@ -23,15 +27,22 @@ const FOOTER_LINKS: ReadonlyArray<FooterLink> = [
   { slug: 'about', i18nKey: 'about' },
   { slug: 'contact', i18nKey: 'contact' },
   { slug: 'affiliate-disclosure', i18nKey: 'affiliate' },
-  { slug: 'accessibility', i18nKey: 'accessibility' },
+  { slug: ACCESSIBILITY_SLUG, i18nKey: 'accessibility' },
 ];
 
 /**
  * Build a locale-aware URL.
  * HE (default) has no prefix; EN lives at /en/.
  * Exported so plan-10 audit dashboard can validate the rule (AUD-028).
+ *
+ * For the accessibility-statement specifically, callers should prefer
+ * `accessibilityStatementHref` from `lib/seo/accessibility-link.ts` — it's
+ * the single source of truth that the AUD-028 scanner consumes directly.
  */
 export function footerLinkHref(slug: string, locale: Locale): string {
+  if (slug === ACCESSIBILITY_SLUG) {
+    return accessibilityStatementHref(locale);
+  }
   if (locale === 'he') return `/${slug}`;
   return `/${locale}/${slug}`;
 }
