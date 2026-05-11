@@ -44,17 +44,17 @@ A production-ready tourism affiliate website for Israel covering 5–15 tourist 
 
 The previous project (Discover Argentina) delivered 70 core pages × 5 languages but accumulated structural debt that required an entire sprint (S11) of corrections. Root causes are encoded as inviolable constraints below. Specific incidents:
 
-| # | Root cause | Cost incurred |
-|---|---|---|
-| 1 | No formalized design system day-1 | 6,089 raw hex codes to clean retroactively |
-| 2 | No affiliate strategy day-1 | One partner reached 92% coverage, another 18% — massive codemod |
-| 3 | No image contract | PhotoGallery without srcset for months, watermarks, low-res, patched credits ledger |
-| 4 | Legacy sub-pages | 783 bugs detected at once, emergency codemod |
-| 5 | Uniform quality scoring | Punished utility/hub pages unfairly until 5 profiles were introduced |
-| 6 | NER detection as afterthought | 14k monetization opportunities discovered late |
-| 7 | i18n bolted-on | Core language first, others added in separate sprints |
-| 8 | Lighthouse unmeasured until S11 | Plateau ~85, multiple iterations to reach 90+ |
-| 9 | Sub-pages built before canonical pattern stabilized | Had to be regenerated |
+| #   | Root cause                                          | Cost incurred                                                                       |
+| --- | --------------------------------------------------- | ----------------------------------------------------------------------------------- |
+| 1   | No formalized design system day-1                   | 6,089 raw hex codes to clean retroactively                                          |
+| 2   | No affiliate strategy day-1                         | One partner reached 92% coverage, another 18% — massive codemod                     |
+| 3   | No image contract                                   | PhotoGallery without srcset for months, watermarks, low-res, patched credits ledger |
+| 4   | Legacy sub-pages                                    | 783 bugs detected at once, emergency codemod                                        |
+| 5   | Uniform quality scoring                             | Punished utility/hub pages unfairly until 5 profiles were introduced                |
+| 6   | NER detection as afterthought                       | 14k monetization opportunities discovered late                                      |
+| 7   | i18n bolted-on                                      | Core language first, others added in separate sprints                               |
+| 8   | Lighthouse unmeasured until S11                     | Plateau ~85, multiple iterations to reach 90+                                       |
+| 9   | Sub-pages built before canonical pattern stabilized | Had to be regenerated                                                               |
 
 ### Israel-specific complexity (beyond the generic playbook)
 
@@ -93,16 +93,18 @@ See `data/skills-inventory.md` for full audit, install commands, and re-run guid
 
 ## Key Decisions
 
-| Decision | Rationale | Outcome |
-|----------|-----------|---------|
-| Country = Israel | User's explicit project goal; directory name `visitisrael.site` reflects this | — Pending |
-| Operating mode = YOLO until Quality Gate Phase 2 | User explicitly committed; mega prompt is well-specified enough to autonomously execute Phases 0–2 | — Pending |
-| Granularity = Coarse | 6 milestones in mega prompt fit Coarse's 3–5 phases; sub-phases become plans within each | — Pending |
-| Model profile = Quality (Opus for research/roadmap) | Scope of project (50+ pages × 2 langs) justifies higher per-token cost on planning agents | — Pending |
-| Skills foundation pre-installed | 15 skills audited and installed before Phase 0 so research and planning can invoke them | ✓ Good |
-| Mega prompt is the primary requirements doc | `MEGA-PROMPT-NEW-COUNTRY.md` is more specific than what GSD's normal questioning would produce — skip interactive questioning | — Pending |
-| Language strategy deferred to R6 | Default "EN + HE" assumed but Russian/French may displace one if data warrants | — Pending |
-| Pilot region selection deferred to R3 | Auto-elected by `volume × opportunity × competitor-weakness` from keyword research | — Pending |
+| Decision                                                     | Rationale                                                                                                                                                                                                                                                                  | Outcome                                                                          |
+| ------------------------------------------------------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------- |
+| Country = Israel                                             | User's explicit project goal; directory name `visitisrael.site` reflects this                                                                                                                                                                                              | — Pending                                                                        |
+| Operating mode = YOLO until Quality Gate Phase 2             | User explicitly committed; mega prompt is well-specified enough to autonomously execute Phases 0–2                                                                                                                                                                         | — Pending                                                                        |
+| Granularity = Coarse                                         | 6 milestones in mega prompt fit Coarse's 3–5 phases; sub-phases become plans within each                                                                                                                                                                                   | — Pending                                                                        |
+| Model profile = Quality (Opus for research/roadmap)          | Scope of project (50+ pages × 2 langs) justifies higher per-token cost on planning agents                                                                                                                                                                                  | — Pending                                                                        |
+| Skills foundation pre-installed                              | 15 skills audited and installed before Phase 0 so research and planning can invoke them                                                                                                                                                                                    | ✓ Good                                                                           |
+| Mega prompt is the primary requirements doc                  | `MEGA-PROMPT-NEW-COUNTRY.md` is more specific than what GSD's normal questioning would produce — skip interactive questioning                                                                                                                                              | — Pending                                                                        |
+| Language strategy deferred to R6                             | Default "EN + HE" assumed but Russian/French may displace one if data warrants                                                                                                                                                                                             | — Pending                                                                        |
+| Pilot region selection deferred to R3                        | Auto-elected by `volume × opportunity × competitor-weakness` from keyword research                                                                                                                                                                                         | ✓ Good — Jerusalem (composite 9.4) selected by all 3 region-aware research files |
+| **Phase 2 R3 data strategy: proxied (Google Trends + SERP)** | User chose 2026-05-11 to skip $50-$200 Ahrefs/DataForSEO purchase and proceed with proxied keyword volumes (±50% margin). Trade-off: faster start, less precise primary-keyword selection for canonicals. Mitigation: Phase 2.6 QA includes manual SERP review per region. | — Pending — re-evaluate after Phase 2 pilot ships if rankings underperform       |
 
 ---
-*Last updated: 2026-05-11 after initialization*
+
+_Last updated: 2026-05-11 after initialization_
