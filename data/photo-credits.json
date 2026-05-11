@@ -1339,5 +1339,53 @@
     "height": 1067,
     "subjectType": "landscape",
     "licenseProof": "https://creativecommons.org/licenses/by/4.0/"
+  },
+  "/images/west-bank/bethlehem/hero.jpg": {
+    "src": "/images/west-bank/bethlehem/hero.jpg",
+    "author": "Mboesch (Wikimedia Commons)",
+    "license": "CC-BY-SA-4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bethlehem_BW_2010-09-21_07-46-22.JPG",
+    "region": "bethlehem",
+    "slug": "bethlehem",
+    "width": 1920,
+    "height": 1080,
+    "subjectType": "cityscape",
+    "licenseProof": "https://creativecommons.org/licenses/by-sa/4.0/"
+  },
+  "/images/west-bank/bethlehem/church-of-the-nativity.jpg": {
+    "src": "/images/west-bank/bethlehem/church-of-the-nativity.jpg",
+    "author": "Berthold Werner (Wikimedia Commons)",
+    "license": "CC-BY-SA-3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bethlehem_BW_2010-09-21_09-49-09.JPG",
+    "region": "bethlehem",
+    "slug": "bethlehem",
+    "width": 1600,
+    "height": 1067,
+    "subjectType": "religious-general",
+    "licenseProof": "https://creativecommons.org/licenses/by-sa/3.0/"
+  },
+  "/images/west-bank/bethlehem/manger-square.jpg": {
+    "src": "/images/west-bank/bethlehem/manger-square.jpg",
+    "author": "Mauricio Lima (Wikimedia Commons)",
+    "license": "CC-BY-SA-4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Manger_Square,_Bethlehem.jpg",
+    "region": "bethlehem",
+    "slug": "bethlehem",
+    "width": 1600,
+    "height": 1067,
+    "subjectType": "cityscape",
+    "licenseProof": "https://creativecommons.org/licenses/by-sa/4.0/"
+  },
+  "/images/west-bank/bethlehem/old-city.jpg": {
+    "src": "/images/west-bank/bethlehem/old-city.jpg",
+    "author": "Aladdin (Wikimedia Commons)",
+    "license": "CC-BY-SA-3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Star_Street_Bethlehem.jpg",
+    "region": "bethlehem",
+    "slug": "bethlehem",
+    "width": 1600,
+    "height": 1067,
+    "subjectType": "cityscape",
+    "licenseProof": "https://creativecommons.org/licenses/by-sa/3.0/"
   }
 }

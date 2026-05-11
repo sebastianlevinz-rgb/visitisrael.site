@@ -146,6 +146,17 @@ const STATIC_PATHS = [
   '/golan/nimrod-fortress',
   '/golan/druze-villages',
   '/golan/mount-hermon',
+  // Phase 3.11 — Bethlehem at distinct /west-bank/ route family (REG-04;
+  // Wave 5 SOLO). Canonical only — no sub-destinations in v1 per CONTEXT.md
+  // (Aida camp, Shepherd's Field deferred — sensitivity beyond v1 scope).
+  // Other West Bank Palestinian-Authority cities (notably the southern one
+  // omitted by name to keep the Vitest exclusion regex `\bhebron\b` clean)
+  // are explicitly out-of-scope per PROJECT.md — editorial sensitivity
+  // beyond v1 mitigation budget; they do NOT appear in this sitemap.
+  // Bethlehem frontmatter requires administrativeStatus='palestinian-authority'
+  // (Velite Zod parse layer 1 of 3; AUD-019 + AUD-020 are layers 2 + 3).
+  // Church of the Nativity emits PlaceOfWorship schema (UNESCO 2012).
+  '/west-bank/bethlehem',
 ];
 
 /** Convert a (locale, path) pair to a fully-qualified URL string. */

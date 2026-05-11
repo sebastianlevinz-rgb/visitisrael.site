@@ -184,8 +184,8 @@ describe('Bethlehem HE canonical — /west-bank/bethlehem', () => {
     expect(window).toContain('הרשות הפלסטינית');
   });
 
-  it('HE H1 contains בית לחם', () => {
-    expect(/^#\s+.*בית\s+לחם/m.test(text)).toBe(true);
+  it('HE frontmatter title contains בית לחם (RegionHero owns the rendered H1; MDX has no H1 per AUD-008)', () => {
+    expect(fm['title']).toContain('בית לחם');
   });
 
   it('NO Hebrew "יהודה ושומרון" (biased framing)', () => {
