@@ -3,15 +3,15 @@ gsd_state_version: 1.0
 milestone: v1.0
 milestone_name: milestone
 status: executing
-stopped_at: Completed .planning/phases/01-foundation-m1/05-component-lib-PLAN.md
-last_updated: '2026-05-11T02:05:00.000Z'
-last_activity: '2026-05-11 — Plan 05 (component-lib) complete: 7 UI primitives + 12 travel composites + 6 layout components (25 total) with CVA variants + logical CSS + token-driven colors + /admin/components noindex playground (40 static pages); 20 min, 3 commits, 98 new tests (188/188 total).'
+stopped_at: Completed .planning/phases/01-foundation-m1/06-affiliate-helpers-PLAN.md
+last_updated: '2026-05-11T02:28:09.750Z'
+last_activity: '2026-05-11 — Plan 06 (affiliate-helpers) complete: 9 real helpers + 2 stubs (Conflict D) + 12 partner state JSON entries + 9 partner-URL ESLint fixtures + AffiliateCard wired (no more #TODO-PLAN-06); 12 min, 3 commits, 61 net new tests (249/249 total green). AFF-01..04, AFF-06..08 complete.'
 progress:
   total_phases: 6
   completed_phases: 0
   total_plans: 11
-  completed_plans: 5
-  percent: 45
+  completed_plans: 6
+  percent: 55
 ---
 
 # Project State
@@ -26,32 +26,32 @@ See: .planning/PROJECT.md (updated 2026-05-11)
 ## Current Position
 
 Phase: 1 of 6 (Foundation — M1)
-Plan: 5 of 11 in current phase complete (01 scaffold + 02 design-tokens + 03 photo-credits + 04 schema-baseline + 05 component-lib); Wave 3 fully complete, Wave 4 next (plan 06 affiliate-helpers)
-Status: Executing — Wave 3 fully green, plan 06 (affiliate-helpers) eligible to start
-Last activity: 2026-05-11 — Plan 05 (component-lib) complete: 25 components shipped (7 primitives + 12 composites + 6 layout) with CVA + logical CSS + token-driven colors; AffiliateCard STUB awaits plan 06 wiring; SkipNav + Footer wired into locale layout; /admin/components playground generates 40 static pages; 20 min, 3 commits, 98 new tests (188/188 total green).
+Plan: 6 of 11 in current phase complete (01 scaffold + 02 design-tokens + 03 photo-credits + 04 schema-baseline + 05 component-lib + 06 affiliate-helpers); Wave 4 complete, Wave 5 next (plans 07 quality-profiles + 08 seo-config)
+Status: Executing — Wave 4 fully green, Wave 5 (plans 07 + 08) eligible to start
+Last activity: 2026-05-11 — Plan 06 (affiliate-helpers) complete: 9 real helpers + 2 stubs (Conflict D) + 12 partner state JSON entries + 9 partner-URL ESLint fixtures + AffiliateCard wired (no more #TODO-PLAN-06); 12 min, 3 commits, 61 net new tests (249/249 total green). AFF-01..04, AFF-06..08 complete.
 
-Progress: [█████░░░░░] 45% (5/11 plans in Phase 1; ~9% overall)
+Progress: [██████░░░░] 55% (6/11 plans in Phase 1; ~11% overall)
 
 ## Performance Metrics
 
 **Velocity:**
 
-- Total plans completed: 5
-- Average duration: ~21 min
-- Total execution time: ~1.77 hours
+- Total plans completed: 6
+- Average duration: ~20 min
+- Total execution time: ~1.97 hours
 
 **By Phase:**
 
 | Phase                  | Plans | Total   | Avg/Plan |
 | ---------------------- | ----- | ------- | -------- |
-| 1. Foundation          | 5/11  | 106 min | ~21 min  |
+| 1. Foundation          | 6/11  | 118 min | ~20 min  |
 | 2. Pilot Jerusalem     | 0/6   | —       | —        |
 | 3. Region Replication  | 0/11  | —       | —        |
 | 4. Long-tail Sweep     | 0/TBD | —       | —        |
 | 5. Legal + Launch Prep | 0/4   | —       | —        |
 | 6. Production Deploy   | 0/4   | —       | —        |
 
-**Recent Trend:** Plan 05 (component-lib) — 20 min — 34 files created + 5 modified, 3 commits, 188/188 tests green (+98 new), full repo lint/typecheck/build all green; 4 auto-fixed deviations (1 blocking on async-component test resolution, 1 critical on vitest include paths, 2 bugs). 49 static pages generated (was 7 pre-plan-05).
+**Recent Trend:** Plan 06 (affiliate-helpers) — 12 min — 41 files created + 5 modified + 1 removed, 3 commits, 249/249 tests green (+61 net new: 36 real helper tests + 8 stub tests + 4 availability + 10 fixture + 7 wired-AffiliateCard − 4 superseded stub). pnpm lint / typecheck / build all green; 3 auto-fixed deviations (1 blocking on typecheck of widened return type, 2 bugs from upstream stub contract). 9 real affiliate helpers (booking, civitatis, viator, gyg, rentalcars, safetywing, skyscanner, hostelworld, discovercars) + 2 stubs (klook, gocity throwing NoIsraelInventoryError per Conflict D). AffiliateCard wired (no more #TODO-PLAN-06).
 
 _Updated after each plan completion_
 
@@ -63,6 +63,12 @@ Decisions are logged in PROJECT.md Key Decisions table and SUMMARY.md §1 (Headl
 
 Recent decisions affecting current work:
 
+- **Plan 06 — Codemod-ready AID pattern over per-deploy edits:** Each helper reads `process.env.NEXT_PUBLIC_<PARTNER>_<AID>` at call time. Setting the env var in Vercel project settings flips every call site from public URL to AID-tagged URL with zero code change. `scripts/codemods/flip-affiliate-aid.mjs` is a placeholder for the JSON-tracker update only (Phase 6 monitoring concern); never rewrites source files. Argentina lesson #2 (one affiliate dominating at 92%) is structurally prevented because every helper is symmetric and AID-aware.
+- **Plan 06 — Conflict D stubs throw with documented messages, never silently return:** klookLink + goCityLink each throw NoIsraelInventoryError with a 4-part message (partner name + rationale + quarterly review pointer + activation criterion). Self-documenting at runtime — anyone tracing the error reads the rationale directly without re-reading SUMMARY.md §3.
+- **Plan 06 — Two-layer availability gate (component-level + helper-level):** `<AffiliateCard>` reads `affiliateAvailability(partner)` FIRST; absent → return null without invoking helper. Stub error throw is the second line of defense (survives availability JSON drift). Either layer alone is sufficient; both layered are robust against single-source drift.
+- **Plan 06 — Per-partner ESLint fixture files (9 separate fixtures, not 1 omnibus):** Each `raw-partner-url-{partner}.tsx` exercises ONE partner URL; lint runs per-file. If `skyscanner.` regex group breaks but `booking.com` matches, only Skyscanner test fails — fast diagnostic. Explicit per-partner naming makes AFF-04 coverage matrix obvious from the file listing.
+- **Plan 06 — Travelpayouts as 12th availability entry (AFF-08 marker, not a helper):** Travelpayouts is an aggregator dashboard, not a direct affiliate program. Lives in `data/affiliate-availability.json` so Phase 6 monitoring sees ALL revenue-touching state (including the 5K visitors/mo Skyscanner gate fallback) in one view. No helper file — configured via partner dashboard, not a URL pattern.
+- **Plan 06 — AffiliateCard return type widened to `ReactElement | null`:** Signaling "this component may legitimately render nothing" is preferable to silently rendering an unavailable-partner card. Auto-fix Rule 3 (blocking) during execution: typecheck flagged the admin drill-down page; widened `renderComponent` return type to match.
 - **Plan 05 — Async-component resolution at consumer (await call-form, not JSX-form):** AffiliateCard / Header / admin playground all use `const x = await AsyncComponent(props)` instead of `<AsyncComponent />` when assembling JSX trees. Reason: React 19 RSC streaming handles nested async components natively in production, but the test renderer (jsdom) and any non-RSC payload renderer leave them as unresolved Promises. Resolving inline keeps the tree flat for tests + future renderers; production RSC behavior is unchanged (same payload either way).
 - **Plan 05 — AffiliateCard STUB uses literal sentinel `#TODO-PLAN-06`:** plan 06 will `grep -r '#TODO-PLAN-06' components/` to swap the href for `partnerLink({...})`. Sentinel + Vitest assertion (affiliatecard-stub.test.tsx) ensure the codemod is detectable + verifiable.
 - **Plan 05 — `footerLinkHref(slug, locale)` exported as named function:** plan 10 AUD-028 (accessibility-statement link presence) calls this directly during scanning rather than re-parsing Footer DOM. Pattern: layout components export their URL-builder helpers.
@@ -105,6 +111,6 @@ None yet.
 
 ## Session Continuity
 
-Last session: 2026-05-11T02:05:00Z
-Stopped at: Completed .planning/phases/01-foundation-m1/05-component-lib-PLAN.md
-Resume file: .planning/phases/01-foundation-m1/06-affiliate-helpers-PLAN.md (Wave 4 — depends on plan 05 component lib complete; consumes AffiliateCard stub + PartnerId type + footerLinkHref helper)
+Last session: 2026-05-11T02:28:09.741Z
+Stopped at: Completed .planning/phases/01-foundation-m1/06-affiliate-helpers-PLAN.md
+Resume file: None
