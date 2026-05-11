@@ -462,5 +462,23 @@
     "wikidataId": "Q173387",
     "administrativeStatus": "israel-proper",
     "notes": "Freshwater lake (lowest freshwater lake on Earth); religious significance for Christianity (Jesus's ministry shore) but treated as Place. Israel's primary drinking-water reservoir."
+  },
+
+  "yardenit": {
+    "contested": false,
+    "name": {
+      "he": "ירדנית",
+      "en": "Yardenit",
+      "ar": "موقع المعمودية يردنيت"
+    },
+    "alternateName": {
+      "he": "אתר הטבילה בירדן",
+      "en": "Jordan River Baptismal Site"
+    },
+    "denomination": "Christian (ecumenical — Greek Orthodox jurisdiction; widely used by Protestant + Catholic pilgrim groups)",
+    "religion": "Christianity",
+    "wikidataId": "Q2625555",
+    "administrativeStatus": "israel-proper",
+    "notes": "Symbolic Jordan River baptismal site near the southern Sea of Galilee outflow. Operated by Kibbutz Kinneret; immersion robes for rent. Ecumenical use across Christian denominations. Galilee Plan 03-03 PlaceOfWorship emission canary."
   }
 }
