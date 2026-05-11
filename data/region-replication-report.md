@@ -12,11 +12,11 @@ This aggregate report is populated as each Phase 3 plan's Task 4 (per-region sof
 | dead-sea            | 12 (2 canonical + 10 sub-dest) | 6 distinct (booking, viator, getYourGuide, civitatis, skyscanner, rentalcars, safetyWing)               | DEFERRED-CI-owns | EN=100/HE=100                 | AUD-017..020=0 violations | PASS      |
 | galilee             | 14 (2 canonical + 12 sub-dest) | 6 distinct (booking, viator, getYourGuide, skyscanner, rentalcars, safetyWing) + 3 PlaceOfWorship       | DEFERRED-CI-owns | EN=100/HE=100                 | AUD-017..020=0 violations | PASS      |
 | eilat               | 12 (2 canonical + 10 sub-dest) | 8 distinct (booking, civitatis, getYourGuide, viator, skyscanner, rentalcars, discoverCars, safetyWing) | DEFERRED-CI-owns | EN=100/HE=100                 | AUD-017..020=0 violations | PASS      |
-| negev               | —                              | —                                                                                                       | —                | —                             | —                         | pending   |
+| negev               | 12 (2 canonical + 10 sub-dest) | 6 distinct (booking, viator, getYourGuide, civitatis, rentalcars, safetyWing) — image-gap canary REG-05 | DEFERRED-CI-owns | EN=100/HE=100                 | AUD-017..020=0 violations | PASS      |
 | nazareth            | —                              | —                                                                                                       | —                | —                             | —                         | pending   |
 | haifa               | —                              | —                                                                                                       | —                | —                             | —                         | pending   |
 | golan               | —                              | —                                                                                                       | —                | —                             | —                         | pending   |
-| caesarea            | —                              | —                                                                                                       | —                | —                             | —                         | pending   |
+| caesarea            | 10 (2 canonical + 8 sub-dest)  | 7 distinct (booking, civitatis, getYourGuide, viator, skyscanner, rentalcars, safetyWing)               | DEFERRED-CI-owns | EN=100/HE=100                 | AUD-017..020=0 violations | PASS      |
 | akko                | —                              | —                                                                                                       | —                | —                             | —                         | pending   |
 | west-bank/bethlehem | —                              | —                                                                                                       | —                | —                             | —                         | pending   |
 
@@ -27,6 +27,8 @@ This aggregate report is populated as each Phase 3 plan's Task 4 (per-region sof
 | galilee  | PASS |
 | eilat    | PASS |
 | dead-sea | PASS |
+| negev    | PASS |
+| caesarea | PASS |
 
 (One-line per-region status mirror — readable by the plan's verify regex `\|\s*{region}\s*\|.*PASS \|` after prettier-aligned columns are minimized.)
 
