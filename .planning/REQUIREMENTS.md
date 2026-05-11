@@ -70,9 +70,9 @@ Beyond WCAG 2.1 AA — Israeli law mandates additional items. Up to 50,000 NIS d
 
 ### Schema & SEO
 
-- [ ] **SEO-01**: `schema-dts` library wired; native `<script type="application/ld+json">` injection from RSC; page-level injection (not layout) except `Organization` schema in root layout
-- [ ] **SEO-02**: Schema generators implemented for `TouristDestination`, `TouristAttraction`, `ReligiousBuilding`, `Place`, `LocalBusiness`, `BreadcrumbList`, `FAQPage`, `WebSite`, `CollectionPage`, `WebPage`, `Organization`
-- [ ] **SEO-03**: Local validator script (`scripts/qa/validate-schema.mjs`) catches malformed JSON-LD pre-commit; supplementary Google Rich Results Test sampling in CI for changed pages
+- [x] **SEO-01**: `schema-dts` library wired; native `<script type="application/ld+json">` injection from RSC; page-level injection (not layout) except `Organization` schema in root layout
+- [x] **SEO-02**: Schema generators implemented for `TouristDestination`, `TouristAttraction`, `ReligiousBuilding`, `Place`, `LocalBusiness`, `BreadcrumbList`, `FAQPage`, `WebSite`, `CollectionPage`, `WebPage`, `Organization`
+- [x] **SEO-03**: Local validator script (`scripts/qa/validate-schema.mjs`) catches malformed JSON-LD pre-commit; supplementary Google Rich Results Test sampling in CI for changed pages
 - [ ] **SEO-04**: Religious-site naming convention: paired naming on first reference (`Temple Mount / Haram al-Sharif`), `Western Wall` not `Wailing Wall`, `Bethlehem/Hebron/Jericho` carry `administrativeStatus` frontmatter; audit rules AUD-017..AUD-020
 - [x] **SEO-05**: Title tags 50–60 chars (Hebrew: ~50 chars accounting for character width); meta description 120–160 chars; H1 once per page; H2 every 200–300 words
 - [ ] **SEO-06**: Canonical URLs self-referential per locale (never cross-locale); no canonical pointing from EN page to HE page or vice versa

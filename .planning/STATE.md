@@ -3,15 +3,15 @@ gsd_state_version: 1.0
 milestone: v1.0
 milestone_name: milestone
 status: executing
-stopped_at: Completed .planning/phases/01-foundation-m1/02-design-tokens-PLAN.md
-last_updated: '2026-05-11T01:33:40.053Z'
-last_activity: '2026-05-11 — Plan 02 (design-tokens) complete: 3-layer @theme (44 OKLCH foundation + 11 semantic + 5 component) + Hebrew font/leading scale + scripts/lint.mjs dispatcher + 3 ESLint fixtures + /admin/tokens visual review; 21 min, 4 commits.'
+stopped_at: Completed .planning/phases/01-foundation-m1/04-schema-baseline-PLAN.md
+last_updated: "2026-05-11T01:38:27.036Z"
+last_activity: "2026-05-11 — Plan 04 (schema-baseline) complete: 11 schema-dts generators + JsonLd RSC + canonicalUrl + 26-site paired-naming dictionary + validate-schema.mjs CI gate; 25 min, 3 commits."
 progress:
   total_phases: 6
   completed_phases: 0
   total_plans: 11
-  completed_plans: 3
-  percent: 27
+  completed_plans: 4
+  percent: 36
 ---
 
 # Project State
@@ -26,32 +26,32 @@ See: .planning/PROJECT.md (updated 2026-05-11)
 ## Current Position
 
 Phase: 1 of 6 (Foundation — M1)
-Plan: 3 of 11 in current phase complete (01 scaffold + 02 design-tokens + 03 photo-credits); remaining wave 2 plan: 04 (schema baseline) in flight
-Status: Executing — plan 02 green, Wave 2 nearly complete (only 04 remaining)
-Last activity: 2026-05-11 — Plan 02 (design-tokens) complete: 3-layer @theme (44 OKLCH foundation + 11 semantic + 5 component) + Hebrew font/leading scale + scripts/lint.mjs dispatcher + 3 ESLint fixtures + /admin/tokens visual review; 21 min, 4 commits.
+Plan: 4 of 11 in current phase complete (01 scaffold + 02 design-tokens + 03 photo-credits + 04 schema-baseline); Wave 2 fully complete, Wave 3 next (plan 05 component-lib)
+Status: Executing — Wave 2 fully green, plan 05 (component-lib) eligible to start
+Last activity: 2026-05-11 — Plan 04 (schema-baseline) complete: 11 schema-dts generators + JsonLd RSC + canonicalUrl + 26-site paired-naming dictionary + validate-schema.mjs CI gate; 25 min, 3 commits.
 
-Progress: [███░░░░░░░] 27% (3/11 plans in Phase 1; ~5% overall)
+Progress: [████░░░░░░] 36% (4/11 plans in Phase 1; ~7% overall)
 
 ## Performance Metrics
 
 **Velocity:**
 
-- Total plans completed: 3
-- Average duration: ~20 min
-- Total execution time: ~1.02 hours
+- Total plans completed: 4
+- Average duration: ~22 min
+- Total execution time: ~1.43 hours
 
 **By Phase:**
 
 | Phase                  | Plans | Total  | Avg/Plan |
 | ---------------------- | ----- | ------ | -------- |
-| 1. Foundation          | 3/11  | 61 min | ~20 min  |
+| 1. Foundation          | 4/11  | 86 min | ~22 min  |
 | 2. Pilot Jerusalem     | 0/6   | —      | —        |
 | 3. Region Replication  | 0/11  | —      | —        |
 | 4. Long-tail Sweep     | 0/TBD | —      | —        |
 | 5. Legal + Launch Prep | 0/4   | —      | —        |
 | 6. Production Deploy   | 0/4   | —      | —        |
 
-**Recent Trend:** Plan 02 (design-tokens) — 21 min — 8 files, 4 commits, 4/4 fixture-contract tests green, full repo lint/typecheck/build all green; 3 deviations (1 bug + 2 blocking) all auto-fixed.
+**Recent Trend:** Plan 04 (schema-baseline) — 25 min — 30 files created + 4 modified, 3 commits, 90/90 tests green (+41 new), full repo lint/typecheck/build all green; 3 auto-fixed deviations + 1 cross-plan race noted.
 
 _Updated after each plan completion_
 
@@ -63,6 +63,10 @@ Decisions are logged in PROJECT.md Key Decisions table and SUMMARY.md §1 (Headl
 
 Recent decisions affecting current work:
 
+- **Plan 04 — schema-dts v2 vocabulary change (ReligiousBuilding → PlaceOfWorship):** schema-dts v2 dropped the historical `ReligiousBuilding` vocabulary entry. PlaceOfWorship used for non-contested holy sites; contested sites (Temple Mount, etc.) use Place per PITFALLS §3.1 neutral framing. Both validate as Google Rich Results.
+- **Plan 04 — `as unknown as WithContext<T>` cast applied uniformly across 11 generators:** schema-dts v2 doesn't type `inLanguage` on Place/Organization/LocalBusiness leaves (it's on CreativeWork-derived shapes in the spec). RESEARCH §1.6 Open Question 5 documented this exact gap; the escape hatch is used with a justifying comment in each generator.
+- **Plan 04 — Religious-site administrativeStatus surfaces as schema.org additionalProperty PropertyValue:** Bethlehem (west-bank-paa), Qumran (west-bank-area-c), Mount Bental (golan-heights), east-Jerusalem sites all carry their administrative status as a structured property. Plan 09 NER + plan 10 audit dashboard consume this for AUD-020 transparency.
+- **Plan 04 — Validator locale inference: URL path /en/ → en, else he:** Mirrors the Conflict A scaffold (HE default has no prefix, EN at /en/). When plan 05 wires real schemas onto pages, the validator will automatically catch any cross-locale schema leak.
 - **Plan 02 — Token names follow tailwind-design-system canon (primary/accent/ink/surface):** CONTEXT §4 (Claude's Discretion) explicitly delegated naming. Chose canonical over inventing project-specific terms (e.g., `israel-blue`); the earth-tone Israeliness lives in foundation ramps (`sand`, `olive`) where it's appropriate, not at semantic layer.
 - **Plan 02 — `pnpm lint <file>` contract requires dispatcher (`scripts/lint.mjs`):** ESLint flat config `ignores` skips files even when explicitly passed. Dispatcher: empty argv → `eslint .` (preserves full-repo crawl, keeps Husky/lint-staged behavior); non-empty argv → `eslint --no-warn-ignored --no-ignore <args>` (bypasses fixture global-ignore so deliberately-broken files fire their rules). VALIDATION rows + must_haves contract literally bind on `pnpm lint <fixture>` — dispatcher is the cleanest path.
 - **Plan 02 — `--color-danger` is direct OKLCH (no foundation ref):** Adding a full red-50..950 ramp for ONE semantic use was premature. Semantic-layer OKLCH documented as explicit exception in `app/globals.css`.
@@ -96,6 +100,6 @@ None yet.
 
 ## Session Continuity
 
-Last session: 2026-05-11T01:33:40.042Z
-Stopped at: Completed .planning/phases/01-foundation-m1/02-design-tokens-PLAN.md
-Resume file: None
+Last session: 2026-05-11T01:35:32Z
+Stopped at: Completed .planning/phases/01-foundation-m1/04-schema-baseline-PLAN.md
+Resume file: .planning/phases/01-foundation-m1/05-component-lib-PLAN.md (Wave 3 — depends on plans 02 + 03 + 04 all complete)
