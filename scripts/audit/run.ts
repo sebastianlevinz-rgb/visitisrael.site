@@ -244,15 +244,27 @@ async function run(): Promise<void> {
     // pair. When found, dispatch to the right profile (REGION_CANONICAL,
     // SUB_DESTINATION, GUIDE_OR_WINERY, UTILITY). When absent and the slug
     // is an admin/* page, treat as legal (Phase 1 behavior).
+    //
+    // Plan 2.5 enhancement: homepage (slug='index') and the /regions/ hub
+    // are HUB-profile pages — no Velite collection backs them but they
+    // surface region cards + carry CollectionPage schema. Force-dispatch
+    // them to the HUB profile via the isHub override flag.
     const veliteKey = `${slug}|${lang}`;
     const veliteCollection = veliteIndex.collections.get(veliteKey);
     const veliteWordCount = veliteIndex.wordCounts.get(veliteKey);
+
+    // Detect HUB pages by slug — the homepage (`index`) and the /regions/
+    // index are the only HUB pages at v1 launch. Phase 3+ may add more
+    // (`/guides`, `/by-theme`); extend this Set when they ship.
+    const HUB_SLUGS = new Set(['index', 'regions']);
+    const isHub = HUB_SLUGS.has(slug);
 
     const fm: Record<string, unknown> = {
       slug,
       lang,
       collection: veliteCollection ?? (slug.startsWith('admin') ? 'legal' : ''),
       isUtility: slug.startsWith('admin'),
+      isHub,
       ...(veliteWordCount !== undefined ? { wordCount: veliteWordCount } : {}),
     };
 

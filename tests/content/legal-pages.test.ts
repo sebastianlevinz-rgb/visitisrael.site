@@ -68,6 +68,31 @@ function wordCount(body: string): number {
     .filter((w) => w.length > 1 && /[\p{L}]/u.test(w)).length;
 }
 
+/**
+ * Read the RAW MDX file for accurate word count on legal prose.
+ *
+ * Velite's compiled body is JS function-body syntax (jsx calls + string
+ * literals); a regex-strip on that yields a low/inaccurate word count.
+ * The raw `.mdx` file under content/ is the source-of-truth surface for
+ * prose word count.
+ */
+function readRawMdx(lang: 'he' | 'en', page: string): string | null {
+  const path = resolve(
+    process.cwd(),
+    `content/${lang}/legal/${page}.mdx`,
+  );
+  if (!existsSync(path)) return null;
+  const raw = readFileSync(path, 'utf8');
+  // Strip the frontmatter block before counting prose.
+  return raw.replace(/^---[\s\S]*?---/, '');
+}
+
+function rawWordCount(lang: 'he' | 'en', page: string): number {
+  const body = readRawMdx(lang, page);
+  if (body === null) return 0;
+  return wordCount(body);
+}
+
 describe('Legal pages — structural invariants per (page, lang)', () => {
   for (const page of PAGES) {
     for (const lang of LANGS) {
@@ -105,7 +130,10 @@ describe('Legal pages — structural invariants per (page, lang)', () => {
         it.skipIf(!hasEntry)('word count in legal-copy band (300-1500)', () => {
           const e = findEntry(lang, page);
           if (!e) return;
-          const words = wordCount(e.body);
+          // Velite's compiled body is JS function-body syntax (jsx() calls +
+          // string literals); a regex-strip on that yields a low / inaccurate
+          // word count. We read the RAW .mdx file for prose word count.
+          const words = rawWordCount(lang, page);
           // 300 is the floor for a credible legal page; 1500 is the cap
           // (longer copy goes into a sub-section / dedicated page).
           expect(words).toBeGreaterThanOrEqual(300);
@@ -196,8 +224,8 @@ describe('Legal pages — HE/EN word-count parity per page', () => {
         const en = findEntry('en', page);
         const he = findEntry('he', page);
         if (!en || !he) return;
-        const enWords = wordCount(en.body);
-        const heWords = wordCount(he.body);
+        const enWords = rawWordCount('en', page);
+        const heWords = rawWordCount('he', page);
         const ratio = heWords / Math.max(enWords, 1);
         expect(ratio).toBeGreaterThanOrEqual(0.85);
         expect(ratio).toBeLessThanOrEqual(1.4);

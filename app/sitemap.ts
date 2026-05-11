@@ -20,6 +20,9 @@ const ORIGIN = 'https://visitisrael.site';
 /** Phase 1 placeholder paths. Phase 2+ pulls from `content/{he,en}/**` via Velite. */
 const STATIC_PATHS = [
   '', // homepage
+  // Phase 2.5 — hub + legal pages. All five legal pages ship in plan 2.5.
+  // accessibility-statement ships AFTER the coordinator-data checkpoint.
+  '/regions',
   '/about',
   '/contact',
   '/privacy',
