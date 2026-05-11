@@ -1,6 +1,7 @@
 import { NextResponse, type NextRequest } from 'next/server';
 import createMiddleware from 'next-intl/middleware';
 import { locales, defaultLocale } from './i18n-config';
+import { evaluateBasicAuth, isAdminPath } from './lib/auth/basic';
 
 /**
  * 301 redirect map.
@@ -32,14 +33,32 @@ export default function middleware(req: NextRequest) {
     return NextResponse.redirect(new URL(REDIRECTS[path], req.url), 301);
   }
 
-  // 2) (Basic-auth for /admin/* added in plan 10.)
+  // 2) Basic-auth gate for /admin/* (plan 10 / FND-04). Bypassed in dev so
+  //    pnpm dev never prompts; in production, missing env vars = closed.
+  if (isAdminPath(path)) {
+    const outcome = evaluateBasicAuth(req.headers.get('authorization'), {
+      user: process.env.ADMIN_USER,
+      pass: process.env.ADMIN_PASS,
+      nodeEnv: process.env.NODE_ENV,
+    });
+    if (outcome === 'challenge') {
+      return new NextResponse('Authentication required', {
+        status: 401,
+        headers: {
+          'WWW-Authenticate': 'Basic realm="Admin", charset="UTF-8"',
+        },
+      });
+    }
+    // 'allow' or 'bypass-dev' → fall through to i18n.
+  }
 
   // 3) i18n locale routing.
   return intl(req);
 }
 
 export const config = {
-  // Match everything except _next, api, favicon.ico, images, and files with extensions
-  // Basic-auth for /admin/* is added in plan 10.
-  matcher: ['/((?!_next|api|favicon.ico|images|.*\\..*).*)'],
+  // Match everything except _next, favicon, images, files with extensions.
+  // /api/admin/* IS matched (the negative `api(?!/admin)` carve-out lets the
+  // admin API routes go through middleware while regular /api/* bypasses it).
+  matcher: ['/((?!_next|api(?!/admin)|favicon.ico|images|.*\\..*).*)'],
 };
