@@ -136,6 +136,46 @@ const itineraryStop = s.object({
   period: s.enum(['morning', 'afternoon', 'evening', 'all-day']),
 });
 
+/**
+ * West Bank collection (REG-04 — Phase 3 plan 03-11 Bethlehem).
+ *
+ * Distinct route family at Israel-proper level:
+ *   /west-bank/<slug>/ — separate from /regions/ + /sub-destinations/.
+ *
+ * Pattern picks up `content/{he,en,fr}/west-bank/<slug>.mdx`. The schema
+ * REQUIRES `administrativeStatus: 'palestinian-authority'` — Velite Zod
+ * parse fails if missing, providing the first of three defense layers
+ * (Velite → AUD-019 → AUD-020 — see PITFALLS §3.3).
+ *
+ * Why Option B (distinct collection) over Option A (extend regions):
+ *   - Aligns 1:1 with the distinct `/west-bank/` URL family
+ *   - Mirrors future v2 expansion (Jericho, Aida camp, Shepherd's Field
+ *     if cleared) — they slot into the SAME collection
+ *   - Cleaner separation in audit walker — west-bank entries cannot be
+ *     mistaken for regions by detectProfile()
+ *   - administrativeStatus is REQUIRED here but irrelevant in `regions`
+ */
+const westBank = defineCollection({
+  name: 'WestBank',
+  pattern: '{he,en,fr}/west-bank/**/*.mdx',
+  schema: s.object({
+    ...baseFrontmatter,
+    region: s.string().min(1),
+    administrativeStatus: s.enum(['palestinian-authority']),
+    heroImage: s.string().min(1),
+    primaryKeyword: s.string().optional(),
+    secondaryKeywords: s.array(s.string()).optional(),
+    latitude: s.number().optional(),
+    longitude: s.number().optional(),
+    // Optional religious-site marker — when set, the west-bank renderer
+    // ALSO emits PlaceOfWorship schema. For Bethlehem this carries
+    // 'church-of-the-nativity'.
+    religiousSiteId: s.string().optional(),
+    faqs: s.array(faqEntry).min(5).max(10),
+    body: s.mdx(),
+  }),
+});
+
 const itineraries = defineCollection({
   name: 'Itinerary',
   pattern: '{he,en,fr}/itineraries/**/*.mdx',
@@ -168,5 +208,12 @@ export default defineConfig({
     name: '[name]-[hash:8].[ext]',
     clean: true,
   },
-  collections: { regions, subDestinations, guides, legal, itineraries },
+  collections: {
+    regions,
+    subDestinations,
+    guides,
+    legal,
+    itineraries,
+    westBank,
+  },
 });

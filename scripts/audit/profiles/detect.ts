@@ -22,8 +22,13 @@
  *                                          GUIDE profile per RESEARCH §8 OQ2;
  *                                          promote to its own ITINERARY profile
  *                                          only if scoring misleads.)
- *   7. `collection === 'legal'`          → UTILITY
- *   8. Otherwise                         → THROW (fail loud — never default)
+ *   7. `collection === 'westBank'`       → REGION_CANONICAL
+ *                                          (Plan 03-11 lock — REG-04 distinct
+ *                                          route family /west-bank/ at
+ *                                          Israel-proper level; scoring
+ *                                          contract mirrors regions canonical.)
+ *   8. `collection === 'legal'`          → UTILITY
+ *   9. Otherwise                         → THROW (fail loud — never default)
  *
  * Why throw instead of fall back: silent defaults were Argentina lesson #5
  * (one rubric for every page). If a new collection lands, the audit
@@ -44,6 +49,7 @@ export function detectProfile(fm: DetectInput): ProfileId {
   if (fm.collection === 'subDestinations') return 'SUB_DESTINATION';
   if (fm.collection === 'guides') return 'GUIDE_OR_WINERY';
   if (fm.collection === 'itineraries') return 'GUIDE_OR_WINERY';
+  if (fm.collection === 'westBank') return 'REGION_CANONICAL';
   if (fm.collection === 'legal') return 'UTILITY';
   throw new Error(
     `Cannot detect profile for collection=${fm.collection} ` +

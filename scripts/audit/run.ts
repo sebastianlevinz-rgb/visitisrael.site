@@ -80,6 +80,11 @@ function loadVeliteIndex(): VeliteIndex {
     // /en/itineraries/3-days-in-jerusalem/ produces "itineraries/3-days-in-jerusalem",
     // so we prefix the lookup slug with "itineraries/" here to match.
     ['itineraries.json', 'itineraries'],
+    // Plan 03-11 Wave 0: westBank collection (REG-04 — distinct route family).
+    // Audit walker inferSlug for /en/west-bank/bethlehem/ produces
+    // "west-bank/bethlehem", so we prefix the lookup slug with "west-bank/"
+    // below. Routes to REGION_CANONICAL profile (same as regions canonical).
+    ['westBank.json', 'westBank'],
   ];
   for (const [file, name] of mappings) {
     const entries = readVeliteCollection(file);
@@ -105,7 +110,9 @@ function loadVeliteIndex(): VeliteIndex {
             ? `${e.parentRegion ?? ''}/${subDestShort}`
             : name === 'itineraries'
               ? `itineraries/${e.slug}`
-              : e.slug;
+              : name === 'westBank'
+                ? `west-bank/${e.region ?? e.slug}`
+                : e.slug;
       const key = `${lookupSlug}|${e.lang}`;
       collections.set(key, name);
       // Best-effort word count from compiled body (regions/subDest only
