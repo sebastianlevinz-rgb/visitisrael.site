@@ -299,7 +299,7 @@ describe('evaluateRegion', () => {
       makeRegionEntry('tel-aviv', 'en', 90),
       makeRegionEntry('tel-aviv', 'he', 90),
     ];
-    audit[0].blocking = ['AUD-008: page has 2 H1 elements'];
+    audit[0]!.blocking = ['AUD-008: page has 2 H1 elements'];
     const result = helpers.evaluateRegion(audit, 'tel-aviv');
     expect(result.verdict).toBe('FAIL');
     expect(result.blocking).toBe(1);

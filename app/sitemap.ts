@@ -43,6 +43,15 @@ const STATIC_PATHS = [
   // Phase 2.4 — Jerusalem itinerary. Replicates to
   // /itineraries/3-days-in-jerusalem (HE root) + /en/itineraries/...
   '/itineraries/3-days-in-jerusalem',
+  // Phase 3.1 — Tel Aviv canonical + 7 sub-destinations.
+  '/tel-aviv',
+  '/tel-aviv/old-jaffa',
+  '/tel-aviv/carmel-market',
+  '/tel-aviv/rothschild',
+  '/tel-aviv/tel-aviv-museum',
+  '/tel-aviv/florentin',
+  '/tel-aviv/tayelet',
+  '/tel-aviv/neve-tzedek',
 ];
 
 /** Convert a (locale, path) pair to a fully-qualified URL string. */
