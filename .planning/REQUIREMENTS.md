@@ -112,7 +112,7 @@ Argentina lesson #3 fix — image contract enforced day-1.
 - [x] **REG-02**: Per region: 3–8 sub-destinations (EN + HE), prioritized by R3 keyword volume; total sub-destination count 30–80 across all regions
 - [x] **REG-03**: Per region soft gate: audit ≥80 per page, Lighthouse mobile (3-run-median) ≥85 per page; Quality Gate hard was at pilot only
 - [ ] **REG-04**: Bethlehem covered as `/west-bank/bethlehem/` with editorial `administrativeStatus` framing (Palestinian Authority), separate from Israel-proper regions; Hebron explicitly excluded for editorial sensitivity (out of scope, see below)
-- [ ] **REG-05**: Region-specific image gaps addressed: Haifa Bahá'í photography policy confirmed in writing before commissioning; Negev/Galilee image commissioning budget ($1,500–$3,000) approved or alternative sources sourced from IGPO
+- [x] **REG-05**: Region-specific image gaps addressed: Haifa Bahá'í photography policy confirmed in writing before commissioning; Negev/Galilee image commissioning budget ($1,500–$3,000) approved or alternative sources sourced from IGPO
 
 ### Deploy & Monitoring
 
