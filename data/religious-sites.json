@@ -343,7 +343,28 @@
     "religion": "Christianity",
     "wikidataId": "Q190754",
     "administrativeStatus": "west-bank-paa",
-    "notes": "AUD-020 enforcement entry: Bethlehem is in PA Area A. Site is administered under PA security control. Editorial guidance: refer to it as 'Bethlehem (West Bank)' on first reference. UNESCO World Heritage."
+    "notes": "AUD-020 enforcement entry: Bethlehem is in PA Area A. Site is administered under PA security control. Editorial guidance: refer to it as 'Bethlehem (West Bank)' on first reference. UNESCO World Heritage. Superseded as the Bethlehem religiousSiteId by `church-of-the-nativity` (added 2026-05-11 per plan 03-11 to match the canonical frontmatter pattern used across sub-destinations); retained as legacy alias for backward compatibility."
+  },
+
+  "church-of-the-nativity": {
+    "contested": false,
+    "name": {
+      "he": "כנסיית המולד",
+      "en": "Church of the Nativity",
+      "ar": "كنيسة المهد"
+    },
+    "alternateName": {
+      "he": "בית לחם — כנסיית המולד",
+      "en": "Bethlehem Basilica"
+    },
+    "denomination": "Christian (shared by Greek Orthodox, Armenian Apostolic, Roman Catholic Franciscan custody) — 1852 Status Quo of the Holy Land governs the three denominations' shared jurisdiction; 4th-century Constantinian basilica (rebuilt 6th-century Justinian); UNESCO World Heritage 2012",
+    "religion": "Christianity",
+    "wikidataId": "Q190754",
+    "administrativeStatus": "west-bank-paa",
+    "coordinates": { "latitude": 31.7042, "longitude": 35.2076 },
+    "restrictedAccess": false,
+    "pairedNamingRequired": false,
+    "notes": "Plan 03-11 PlaceOfWorship emission canary for Bethlehem (Wave 5 — distinct /west-bank/ route family per REG-04). AUD-020 enforcement: Bethlehem requires administrativeStatus frontmatter (palestinian-authority). Editorial guidance per PITFALLS §3.3: 'Bethlehem (in the West Bank, administered by the Palestinian Authority)' on first reference. Modest dress required; Door of Humility narrow entrance. Mosaic restoration 2013-2019. Grotto of the Nativity (silver star) marks the traditional birth site."
   },
 
   "bahai-gardens": {
