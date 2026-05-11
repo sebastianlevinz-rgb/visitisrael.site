@@ -2,5 +2,14 @@
   "common": {
     "siteName": "Visit Israel",
     "placeholder": "Bilingual tourism guide — content populated in Phase 2."
+  },
+  "footer": {
+    "navLabel": "Footer navigation",
+    "privacy": "Privacy",
+    "about": "About",
+    "contact": "Contact",
+    "affiliate": "Affiliate Disclosure",
+    "accessibility": "Accessibility Statement",
+    "copyright": "© {year} Visit Israel. All rights reserved."
   }
 }

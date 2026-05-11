@@ -2,5 +2,14 @@
   "common": {
     "siteName": "ביקור בישראל",
     "placeholder": "אתר תיירות דו-לשוני — תוכן ייטען בשלב 2."
+  },
+  "footer": {
+    "navLabel": "ניווט תחתון",
+    "privacy": "פרטיות",
+    "about": "אודות",
+    "contact": "צור קשר",
+    "affiliate": "גילוי שותפים",
+    "accessibility": "הצהרת נגישות",
+    "copyright": "© {year} ביקור בישראל. כל הזכויות שמורות."
   }
 }

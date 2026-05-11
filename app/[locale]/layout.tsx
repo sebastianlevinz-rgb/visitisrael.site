@@ -6,6 +6,8 @@ import { getMessages, setRequestLocale } from 'next-intl/server';
 import { notFound } from 'next/navigation';
 import PlausibleProvider from 'next-plausible';
 import { locales, localeDirection, type Locale } from '@/i18n-config';
+import { SkipNav } from '@/components/layout/SkipNav';
+import { Footer } from '@/components/layout/Footer';
 import '../globals.css';
 
 const heebo = Heebo({
@@ -57,14 +59,9 @@ export default async function LocaleLayout({
   const body = (
     <body>
       <NextIntlClientProvider locale={locale} messages={messages}>
-        <a
-          href="#main-content"
-          className="sr-only focus:not-sr-only"
-          data-skip-link
-        >
-          {locale === 'he' ? 'דלג לתוכן הראשי' : 'Skip to main content'}
-        </a>
+        <SkipNav />
         <div id="main-content">{children}</div>
+        <Footer />
       </NextIntlClientProvider>
     </body>
   );
