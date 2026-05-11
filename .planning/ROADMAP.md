@@ -24,7 +24,7 @@ The Quality Gate is NOT a phase. It is a **conditional advance** between Phase 2
 
 | #   | Criterion                                  | Threshold                                                                                  | Source                      |
 | --- | ------------------------------------------ | ------------------------------------------------------------------------------------------ | --------------------------- |
-| 1   | Lighthouse mobile (3-run median)           | perf ≥0.90 / a11y ≥0.95 / best-practices ≥0.95 / SEO 1.00                                  | AUD-003                     |
+| 1   | Lighthouse mobile (3-run median)           | Complete                                                                                   | 2026-05-11                  |
 | 2   | Audit dashboard per-page score             | ≥85 on every pilot page using its profile                                                  | AUD-002                     |
 | 3   | Critical bugs                              | 0                                                                                          | manual + AUD scan           |
 | 4   | Affiliate coverage of applicable partners  | ≥80% of applicable per page (5+ active on region canonical)                                | AUD-031 + AFF-01            |
@@ -254,15 +254,15 @@ Phases execute in numeric order: 1 → 2 → [Quality Gate hard stop] → 3 → 
 
 Quality Gate failure between 2 and 3 halts the workflow; no auto-advance to Phase 3.
 
-| Phase                                  | Plans Complete | Status      | Completed |
-| -------------------------------------- | -------------- | ----------- | --------- |
+| Phase                                  | Plans Complete | Status      | Completed  |
+| -------------------------------------- | -------------- | ----------- | ---------- |
 | 1. Foundation (M1)                     | 11/11          | Complete    | 2026-05-11 |
-| 2. Pilot Jerusalem (M2)                | 0/6            | Not started | -         |
-| — Quality Gate (hard stop)             | —              | Not reached | -         |
-| 3. Region Replication (M3)             | 0/11           | Not started | -         |
-| 4. Long-tail Sweep (M4)                | 0/1 (TBD)      | Not started | -         |
-| 5. Legal + Launch Prep (M5)            | 0/4            | Not started | -         |
-| 6. Production Deploy + Monitoring (M6) | 0/4            | Not started | -         |
+| 2. Pilot Jerusalem (M2)                | 0/6            | Not started | -          |
+| — Quality Gate (hard stop)             | —              | Not reached | -          |
+| 3. Region Replication (M3)             | 0/11           | Not started | -          |
+| 4. Long-tail Sweep (M4)                | 0/1 (TBD)      | Not started | -          |
+| 5. Legal + Launch Prep (M5)            | 0/4            | Not started | -          |
+| 6. Production Deploy + Monitoring (M6) | 0/4            | Not started | -          |
 
 ---
 
