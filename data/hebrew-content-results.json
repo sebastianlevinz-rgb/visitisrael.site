@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-05-11T08:24:42.944Z",
-  "totalPages": 8,
+  "generatedAt": "2026-05-11T08:55:46.374Z",
+  "totalPages": 9,
   "totalViolations": 0,
   "pages": [
     {
@@ -55,6 +55,13 @@
     {
       "slug": "jerusalem-yad-vashem",
       "region": "jerusalem",
+      "lang": "he",
+      "violations": [],
+      "inconsistencies": 0
+    },
+    {
+      "slug": "3-days-in-jerusalem",
+      "region": null,
       "lang": "he",
       "violations": [],
       "inconsistencies": 0
