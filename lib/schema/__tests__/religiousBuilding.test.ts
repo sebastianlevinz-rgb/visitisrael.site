@@ -154,15 +154,20 @@ describe('buildReligiousBuilding — paired naming (SEO-04, AUD-017..AUD-020)', 
 describe('religious-sites.json — dictionary completeness', () => {
   it('contains ≥25 entries (excluding _meta key)', () => {
     // Importing the raw JSON for assertions.
-    // eslint-disable-next-line @typescript-eslint/no-require-imports
-    const dict: Record<string, unknown> = require('../../../data/religious-sites.json');
+
+    const dict: Record<
+      string,
+      unknown
+    > = require('../../../data/religious-sites.json');
     const entries = Object.keys(dict).filter((k) => k !== '_meta');
     expect(entries.length).toBeGreaterThanOrEqual(25);
   });
 
   it('every entry has the required structural fields', () => {
-    // eslint-disable-next-line @typescript-eslint/no-require-imports
-    const dict: Record<string, unknown> = require('../../../data/religious-sites.json');
+    const dict: Record<
+      string,
+      unknown
+    > = require('../../../data/religious-sites.json');
     const entries = Object.entries(dict).filter(([k]) => k !== '_meta');
     for (const [id, raw] of entries) {
       const entry = raw as {

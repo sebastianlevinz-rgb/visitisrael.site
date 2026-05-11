@@ -18,6 +18,11 @@ const config = {
   'data/photo-credits.json': () => 'pnpm qa:credits',
   'public/images/**/*.{avif,webp,jpg,jpeg,png}': () => 'pnpm qa:credits',
   '{app,components,content}/**/*.{tsx,mdx}': () => 'pnpm qa:credits',
+  // Schema validator runs whenever schema generators or the religious-sites
+  // dictionary change (plan 04). Function form ensures full sweep regardless
+  // of which file in the set was staged.
+  'lib/schema/**/*.ts': () => 'pnpm qa:schema',
+  'data/religious-sites.json': () => 'pnpm qa:schema',
 };
 
 export default config;

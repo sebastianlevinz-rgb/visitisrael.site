@@ -17,10 +17,10 @@
     "typecheck": "tsc --noEmit",
     "test": "vitest",
     "test:watch": "vitest --watch",
-    "validate:schema": "echo \"validate:schema placeholder (populated in plan 04)\" && exit 0",
+    "validate:schema": "node scripts/qa/validate-schema.mjs",
     "validate:credits": "node scripts/qa/check-credits.mjs",
     "qa:credits": "node scripts/qa/check-credits.mjs",
-    "qa:schema": "echo \"qa:schema placeholder (populated in plan 04)\" && exit 0",
+    "qa:schema": "node scripts/qa/validate-schema.mjs",
     "gate:report": "echo \"gate:report placeholder (populated in plan 11)\" && exit 0",
     "lhci": "echo \"lhci placeholder (populated in plan 11)\" && exit 0",
     "prepare": "husky"
