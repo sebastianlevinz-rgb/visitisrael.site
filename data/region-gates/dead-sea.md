@@ -1,6 +1,6 @@
 # Region Gate Report: dead-sea
 
-**Evaluated:** 2026-05-11T14:22:24.127Z
+**Evaluated:** 2026-05-11T14:23:47.230Z
 
 Verdict: PASS
 
