@@ -5,7 +5,7 @@ milestone_name: milestone
 current_plan: 'Phase 3 plans ready — `/gsd:execute-phase 03` (Wave 1: Tel Aviv solo first)'
 status: planning
 stopped_at: Completed 03-11-bethlehem-PLAN.md — Wave 5 SOLO PASS; Phase 3 EXECUTION COMPLETE — all 11/11 plans PASS; Phase 4 long-tail sweep + Phase 5 launch prep unblocked
-last_updated: '2026-05-11T17:08:01.893Z'
+last_updated: '2026-05-11T17:14:33.644Z'
 last_activity: '2026-05-11 — Phase 2.6 Quality Gate PASS: scripts/audit/quality-gate.ts refactored to export pure helpers (evaluateCriteria, composeReport, writeReport, isAdminOrUtility) for Vitest pinning; 17 new tests pin mode auto-flip (structural<->content via contentPages.length) + per-criterion DEFER/PASS/FAIL semantics + Lighthouse threshold evaluation + full PASS/FAIL report markdown rendering. Pre-existing Plan 05 deferred-items.md homepage BreadcrumbList <2 schema error resolved by removing BreadcrumbList from app/[locale]/page.tsx (Option 1 over synthetic 2-item pair, CollectionPage alone satisfies AUD-033). Manual SERP review checklist template + filled instance (8 DEFERRED verdicts with per-keyword confidence proxy + post-launch human-review SLA per CONTEXT.md proxied-R3 strategy). Full QA pipeline: build OK + qa:credits OK + qa:schema 0 errors (77 pages / 68 JSON-LD) + qa:audit 0 critical / all 30 content pages >=85 + qa:axe stub + qa:audit-a11y Windows stub + qa:lighthouse Windows EPERM (empty baseline preserved → criterion 1 DEFERS cleanly). pnpm qa:quality-gate PASS mode=content. 805 tests green (+17 new). 15 min, 3 commits, 1 auto-fix (BreadcrumbList removal). CNT-01..07 + A11Y-03/04/05 + SEO-04 + IMG-04/05 verified at gate. Total Phase 2 wall-clock: 173 min (2h 53min).'
 progress:
   total_phases: 6

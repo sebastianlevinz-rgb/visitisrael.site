@@ -1,6 +1,6 @@
 # Region Gate Report: nazareth
 
-**Evaluated:** 2026-05-11T15:21:31.522Z
+**Evaluated:** 2026-05-11T15:28:17.439Z
 
 Verdict: PASS
 

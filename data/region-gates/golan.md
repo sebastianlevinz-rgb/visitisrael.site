@@ -1,6 +1,6 @@
 # Region Gate Report: golan
 
-**Evaluated:** 2026-05-11T16:36:31.316Z
+**Evaluated:** 2026-05-11T16:42:05.991Z
 
 Verdict: PASS
 

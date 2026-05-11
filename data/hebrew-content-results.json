@@ -1,8 +1,57 @@
 {
-  "generatedAt": "2026-05-11T13:26:04.025Z",
-  "totalPages": 17,
+  "generatedAt": "2026-05-11T16:59:21.894Z",
+  "totalPages": 70,
   "totalViolations": 0,
   "pages": [
+    {
+      "slug": "akko",
+      "region": "akko",
+      "lang": "he",
+      "violations": [],
+      "inconsistencies": 0
+    },
+    {
+      "slug": "caesarea",
+      "region": "caesarea",
+      "lang": "he",
+      "violations": [],
+      "inconsistencies": 0
+    },
+    {
+      "slug": "dead-sea",
+      "region": "dead-sea",
+      "lang": "he",
+      "violations": [],
+      "inconsistencies": 0
+    },
+    {
+      "slug": "eilat",
+      "region": "eilat",
+      "lang": "he",
+      "violations": [],
+      "inconsistencies": 0
+    },
+    {
+      "slug": "galilee",
+      "region": "galilee",
+      "lang": "he",
+      "violations": [],
+      "inconsistencies": 0
+    },
+    {
+      "slug": "golan",
+      "region": "golan",
+      "lang": "he",
+      "violations": [],
+      "inconsistencies": 0
+    },
+    {
+      "slug": "haifa",
+      "region": "haifa",
+      "lang": "he",
+      "violations": [],
+      "inconsistencies": 0
+    },
     {
       "slug": "jerusalem",
       "region": "jerusalem",
@@ -11,8 +60,267 @@
       "inconsistencies": 0
     },
     {
+      "slug": "nazareth",
+      "region": "nazareth",
+      "lang": "he",
+      "violations": [],
+      "inconsistencies": 0
+    },
+    {
+      "slug": "negev",
+      "region": "negev",
+      "lang": "he",
+      "violations": [],
+      "inconsistencies": 0
+    },
+    {
       "slug": "tel-aviv",
       "region": "tel-aviv",
+      "lang": "he",
+      "violations": [],
+      "inconsistencies": 0
+    },
+    {
+      "slug": "akko-bahai-mansion",
+      "region": "akko",
+      "lang": "he",
+      "violations": [],
+      "inconsistencies": 0
+    },
+    {
+      "slug": "akko-hospitaller-knights",
+      "region": "akko",
+      "lang": "he",
+      "violations": [],
+      "inconsistencies": 0
+    },
+    {
+      "slug": "akko-khan-al-umdan",
+      "region": "akko",
+      "lang": "he",
+      "violations": [],
+      "inconsistencies": 0
+    },
+    {
+      "slug": "akko-old-city",
+      "region": "akko",
+      "lang": "he",
+      "violations": [],
+      "inconsistencies": 0
+    },
+    {
+      "slug": "akko-templar-tunnel",
+      "region": "akko",
+      "lang": "he",
+      "violations": [],
+      "inconsistencies": 0
+    },
+    {
+      "slug": "caesarea-aqueduct-beach",
+      "region": "caesarea",
+      "lang": "he",
+      "violations": [],
+      "inconsistencies": 0
+    },
+    {
+      "slug": "caesarea-harbour",
+      "region": "caesarea",
+      "lang": "he",
+      "violations": [],
+      "inconsistencies": 0
+    },
+    {
+      "slug": "caesarea-national-park",
+      "region": "caesarea",
+      "lang": "he",
+      "violations": [],
+      "inconsistencies": 0
+    },
+    {
+      "slug": "caesarea-ralli-museum",
+      "region": "caesarea",
+      "lang": "he",
+      "violations": [],
+      "inconsistencies": 0
+    },
+    {
+      "slug": "dead-sea-ein-bokek",
+      "region": "dead-sea",
+      "lang": "he",
+      "violations": [],
+      "inconsistencies": 0
+    },
+    {
+      "slug": "dead-sea-ein-gedi",
+      "region": "dead-sea",
+      "lang": "he",
+      "violations": [],
+      "inconsistencies": 0
+    },
+    {
+      "slug": "dead-sea-masada",
+      "region": "dead-sea",
+      "lang": "he",
+      "violations": [],
+      "inconsistencies": 0
+    },
+    {
+      "slug": "dead-sea-mineral-beach",
+      "region": "dead-sea",
+      "lang": "he",
+      "violations": [],
+      "inconsistencies": 0
+    },
+    {
+      "slug": "dead-sea-qumran",
+      "region": "dead-sea",
+      "lang": "he",
+      "violations": [],
+      "inconsistencies": 0
+    },
+    {
+      "slug": "eilat-coral-beach",
+      "region": "eilat",
+      "lang": "he",
+      "violations": [],
+      "inconsistencies": 0
+    },
+    {
+      "slug": "eilat-dolphin-reef",
+      "region": "eilat",
+      "lang": "he",
+      "violations": [],
+      "inconsistencies": 0
+    },
+    {
+      "slug": "eilat-red-canyon",
+      "region": "eilat",
+      "lang": "he",
+      "violations": [],
+      "inconsistencies": 0
+    },
+    {
+      "slug": "eilat-timna-park",
+      "region": "eilat",
+      "lang": "he",
+      "violations": [],
+      "inconsistencies": 0
+    },
+    {
+      "slug": "eilat-underwater-observatory",
+      "region": "eilat",
+      "lang": "he",
+      "violations": [],
+      "inconsistencies": 0
+    },
+    {
+      "slug": "galilee-capernaum",
+      "region": "galilee",
+      "lang": "he",
+      "violations": [],
+      "inconsistencies": 0
+    },
+    {
+      "slug": "galilee-magdala",
+      "region": "galilee",
+      "lang": "he",
+      "violations": [],
+      "inconsistencies": 0
+    },
+    {
+      "slug": "galilee-mount-arbel",
+      "region": "galilee",
+      "lang": "he",
+      "violations": [],
+      "inconsistencies": 0
+    },
+    {
+      "slug": "galilee-mount-of-beatitudes",
+      "region": "galilee",
+      "lang": "he",
+      "violations": [],
+      "inconsistencies": 0
+    },
+    {
+      "slug": "galilee-tiberias",
+      "region": "galilee",
+      "lang": "he",
+      "violations": [],
+      "inconsistencies": 0
+    },
+    {
+      "slug": "galilee-yardenit",
+      "region": "galilee",
+      "lang": "he",
+      "violations": [],
+      "inconsistencies": 0
+    },
+    {
+      "slug": "golan-banias",
+      "region": "golan",
+      "lang": "he",
+      "violations": [],
+      "inconsistencies": 0
+    },
+    {
+      "slug": "golan-druze-villages",
+      "region": "golan",
+      "lang": "he",
+      "violations": [],
+      "inconsistencies": 0
+    },
+    {
+      "slug": "golan-mount-bental",
+      "region": "golan",
+      "lang": "he",
+      "violations": [],
+      "inconsistencies": 0
+    },
+    {
+      "slug": "golan-mount-hermon",
+      "region": "golan",
+      "lang": "he",
+      "violations": [],
+      "inconsistencies": 0
+    },
+    {
+      "slug": "golan-nimrod-fortress",
+      "region": "golan",
+      "lang": "he",
+      "violations": [],
+      "inconsistencies": 0
+    },
+    {
+      "slug": "haifa-bahai-gardens",
+      "region": "haifa",
+      "lang": "he",
+      "violations": [],
+      "inconsistencies": 0
+    },
+    {
+      "slug": "haifa-carmel-national-park",
+      "region": "haifa",
+      "lang": "he",
+      "violations": [],
+      "inconsistencies": 0
+    },
+    {
+      "slug": "haifa-german-colony",
+      "region": "haifa",
+      "lang": "he",
+      "violations": [],
+      "inconsistencies": 0
+    },
+    {
+      "slug": "haifa-stella-maris",
+      "region": "haifa",
+      "lang": "he",
+      "violations": [],
+      "inconsistencies": 0
+    },
+    {
+      "slug": "haifa-wadi-nisnas",
+      "region": "haifa",
       "lang": "he",
       "violations": [],
       "inconsistencies": 0
@@ -62,6 +370,69 @@
     {
       "slug": "jerusalem-yad-vashem",
       "region": "jerusalem",
+      "lang": "he",
+      "violations": [],
+      "inconsistencies": 0
+    },
+    {
+      "slug": "nazareth-basilica-of-the-annunciation",
+      "region": "nazareth",
+      "lang": "he",
+      "violations": [],
+      "inconsistencies": 0
+    },
+    {
+      "slug": "nazareth-marys-well",
+      "region": "nazareth",
+      "lang": "he",
+      "violations": [],
+      "inconsistencies": 0
+    },
+    {
+      "slug": "nazareth-mount-of-precipice",
+      "region": "nazareth",
+      "lang": "he",
+      "violations": [],
+      "inconsistencies": 0
+    },
+    {
+      "slug": "nazareth-old-city",
+      "region": "nazareth",
+      "lang": "he",
+      "violations": [],
+      "inconsistencies": 0
+    },
+    {
+      "slug": "negev-avdat",
+      "region": "negev",
+      "lang": "he",
+      "violations": [],
+      "inconsistencies": 0
+    },
+    {
+      "slug": "negev-bedouin-hospitality",
+      "region": "negev",
+      "lang": "he",
+      "violations": [],
+      "inconsistencies": 0
+    },
+    {
+      "slug": "negev-ein-avdat",
+      "region": "negev",
+      "lang": "he",
+      "violations": [],
+      "inconsistencies": 0
+    },
+    {
+      "slug": "negev-mitzpe-ramon",
+      "region": "negev",
+      "lang": "he",
+      "violations": [],
+      "inconsistencies": 0
+    },
+    {
+      "slug": "negev-sde-boker",
+      "region": "negev",
       "lang": "he",
       "violations": [],
       "inconsistencies": 0
