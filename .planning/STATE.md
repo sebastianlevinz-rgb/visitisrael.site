@@ -4,14 +4,14 @@ milestone: v1.0
 milestone_name: milestone
 current_plan: 'Phase 4 COMPLETE — `/gsd:execute-phase 05` next (Phase 5 Legal + Launch Prep, 4 plans)'
 status: 'Phase 4 minimal-deferral close. 1 plan / 2 docs shipped: data/long-tail-backlog.md (53 proxied candidates across 11 regions) + data/long-tail-trigger.md (operational handoff for `/gsd:plan-phase 4 --gaps` reactivation cycle). NO MDX shipped — Argentina lesson #9 prevention (proxied volumes → ~70% wrong-intent rankings within 3 months in the Argentina retrospective). Substantive long-tail authoring deferred pending R3 keyword purchase (DataForSEO $50 default, Ahrefs Lite $129/mo alternative). Phase 5 unblocks immediately; long-tail expansion remains an open post-launch workstream.'
-stopped_at: Completed 05-01-launch-readiness-audit-PLAN.md — Phase 5 Plan 02 (deploy-prep handoff) UNBLOCKED
-last_updated: '2026-05-11T19:51:08.336Z'
+stopped_at: Completed 05-02-pre-deploy-handoff-PLAN.md — Phase 5 COMPLETE (2/2 plans); Phase 6 plan 04 next autonomous work
+last_updated: '2026-05-11T19:57:52.124Z'
 last_activity: '2026-05-11 — Phase 2.6 Quality Gate PASS: scripts/audit/quality-gate.ts refactored to export pure helpers (evaluateCriteria, composeReport, writeReport, isAdminOrUtility) for Vitest pinning; 17 new tests pin mode auto-flip (structural<->content via contentPages.length) + per-criterion DEFER/PASS/FAIL semantics + Lighthouse threshold evaluation + full PASS/FAIL report markdown rendering. Pre-existing Plan 05 deferred-items.md homepage BreadcrumbList <2 schema error resolved by removing BreadcrumbList from app/[locale]/page.tsx (Option 1 over synthetic 2-item pair, CollectionPage alone satisfies AUD-033). Manual SERP review checklist template + filled instance (8 DEFERRED verdicts with per-keyword confidence proxy + post-launch human-review SLA per CONTEXT.md proxied-R3 strategy). Full QA pipeline: build OK + qa:credits OK + qa:schema 0 errors (77 pages / 68 JSON-LD) + qa:audit 0 critical / all 30 content pages >=85 + qa:axe stub + qa:audit-a11y Windows stub + qa:lighthouse Windows EPERM (empty baseline preserved → criterion 1 DEFERS cleanly). pnpm qa:quality-gate PASS mode=content. 805 tests green (+17 new). 15 min, 3 commits, 1 auto-fix (BreadcrumbList removal). CNT-01..07 + A11Y-03/04/05 + SEO-04 + IMG-04/05 verified at gate. Total Phase 2 wall-clock: 173 min (2h 53min).'
 progress:
   total_phases: 6
-  completed_phases: 4
+  completed_phases: 5
   total_plans: 31
-  completed_plans: 30
+  completed_plans: 31
   percent: 100
 ---
 
@@ -83,6 +83,7 @@ _Updated after each plan completion_
 | Phase 03-region-replication-m3 P11-bethlehem | 19 min | 3 tasks tasks | 16 files files |
 | Phase 04-long-tail-sweep-m4 P01-long-tail-backlog | 4 min | 2 tasks | 2 files |
 | Phase 05-legal-launch-prep-m5 P01 | 22min | 2 tasks | 3 files |
+| Phase 05-legal-launch-prep-m5 P02 | 3min | 2 tasks | 2 files |
 
 ## Accumulated Context
 
@@ -226,6 +227,9 @@ Recent decisions affecting current work:
 - [Phase 03-region-replication-m3]: Phase 3 close — all 11 region plans PASS (tel-aviv + dead-sea + galilee + eilat + negev + nazareth + caesarea + haifa + golan + akko + west-bank/bethlehem). data/region-replication-report.md status flipped to 'complete — all 11 regions PASS'. No separate Phase 3 hard gate per CONTEXT.md execution-at-scale model (Phase 2.6 was the hard gate; Phase 3 was per-region soft gates). Phase 4 long-tail sweep + Phase 5 launch prep both structurally unblocked.
 - [Phase 05-legal-launch-prep-m5]: Plan 05-01 — qa:lighthouse remains DEFER-CI-owns per Phase 2.6 Windows EPERM lesson; data/lighthouse-results.json committed empty-baseline lets every consumer (Quality Gate, AUD-013/034) render cleanly without conditional file-existence checks
 - [Phase 05-legal-launch-prep-m5]: Plan 05-01 — Launch-readiness verdict PASS at 26 PITFALLS-§13-items PASS + 5 DEFER-with-reactivation-triggers + 0 FAIL; Phase 5 Plan 02 deploy-prep handoff unblocked; auto-fixed 1 Rule-1 typecheck violation (bethlehem-region.test.ts strict-null guards, Phase 3 plan 11 carry-over)
+- [Phase 05-legal-launch-prep-m5]: Phase 05 Plan 02 — Step 9 (Vercel Cron) deferred-by-design to Phase 6 plan 02: vercel.json cron block + route handler are Phase 6 work; checklist documents the gap explicitly. Phase 5 COMPLETE checklist accommodates 11/12 boxes (deferred-by-design, not deferred-by-failure).
+- [Phase 05-legal-launch-prep-m5]: Phase 05 Plan 02 — Env-var template aligned with helper source-of-truth (NEXT_PUBLIC_VIATOR_PID+MCID, NEXT_PUBLIC_GYG_PARTNER_ID, NEXT_PUBLIC_SAFETYWING_REF) over plan prose: helpers are deployed contract; doc must match production behavior. Verified via process.env grep across lib/affiliate/\*.ts. Alignment-with-source, not deviation.
+- [Phase 05-legal-launch-prep-m5]: Phase 05 Plan 02 — Klook + GoCity env vars surfaced in template as STUB (DO NOT populate v1) rather than omitted: documents Conflict D resolution at env-var-reference layer; operator who traces NoIsraelInventoryError lands on template entry without context-switching to SUMMARY docs; quarterly re-review pointer included.
 
 ### Pending Todos
 
@@ -249,6 +253,6 @@ None yet.
 
 ## Session Continuity
 
-Last session: 2026-05-11T19:51:08.329Z
-Stopped at: Completed 05-01-launch-readiness-audit-PLAN.md — Phase 5 Plan 02 (deploy-prep handoff) UNBLOCKED
+Last session: 2026-05-11T19:57:42.290Z
+Stopped at: Completed 05-02-pre-deploy-handoff-PLAN.md — Phase 5 COMPLETE (2/2 plans); Phase 6 plan 04 next autonomous work
 Resume file: None

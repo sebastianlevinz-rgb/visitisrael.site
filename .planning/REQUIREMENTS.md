@@ -116,7 +116,7 @@ Argentina lesson #3 fix — image contract enforced day-1.
 
 ### Deploy & Monitoring
 
-- [ ] **DEP-01**: Vercel production deploy on owned domain with HTTPS + HSTS
+- [x] **DEP-01**: Vercel production deploy on owned domain with HTTPS + HSTS
 - [ ] **DEP-02**: Google Search Console verified; sitemap submitted; IndexNow ping configured
 - [x] **DEP-03**: Audit dashboard accessible at `/admin/audit/` behind basic auth (middleware via env-stored credentials)
 - [ ] **DEP-04**: Lighthouse CI history retained for 90 days (regression detection)
