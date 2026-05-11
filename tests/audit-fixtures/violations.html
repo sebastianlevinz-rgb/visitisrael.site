@@ -1,0 +1,60 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Violations Fixture JUDEA AND SAMARIA</title>
+    <!-- No canonical, no schema, no description, no OG, no hreflang — fires AUD-033 (5x) -->
+    <script src="https://example.com/1.js"></script>
+    <script src="https://example.com/2.js"></script>
+    <script src="https://example.com/3.js"></script>
+    <script src="https://example.com/4.js"></script>
+    <script src="https://example.com/5.js"></script>
+    <script src="https://example.com/6.js"></script>
+    <script src="https://example.com/7.js"></script>
+    <link rel="alternate" hreflang="fr" href="/fr/" />
+    <link rel="alternate" hreflang="zh" href="/zh/" />
+  </head>
+  <body>
+    <!-- AUD-001: inline-style hex -->
+    <div style="color: #abc">Inline hex</div>
+    <!-- AUD-001: arbitrary-class hex -->
+    <div class="bg-[#ff0000]">Arbitrary hex</div>
+
+    <!-- AUD-002: raw partner URL without data-aff-disclosed -->
+    <a href="https://www.booking.com/hotel/il/dan-tel-aviv.html">Book a hotel</a>
+
+    <!-- AUD-003: undocumented image; AUD-005: no srcset; AUD-012: lazy first-paint image -->
+    <img src="/images/uncredited.jpg" loading="lazy" />
+
+    <!-- AUD-014: many external scripts (already triggered above; ≥7 total) -->
+
+    <!-- AUD-015: iframe without dimensions -->
+    <iframe src="https://example.com/widget"></iframe>
+
+    <!-- AUD-017: Wailing Wall (banned phrasing) -->
+    <p>Visit the Wailing Wall today.</p>
+
+    <!-- AUD-018: biased framing (already in title; this body line also fires) -->
+    <p>Explored Judea and Samaria recently.</p>
+
+    <!-- AUD-019: unpaired holy site naming (rule fires when pairing absent within 300 chars) -->
+    <p>The Temple Mount is one of the most visited sites.</p>
+    <p>
+      Lorem ipsum padding text repeated to push the window past 300 chars Lorem
+      ipsum padding text repeated to push the window past 300 chars Lorem ipsum
+      padding text repeated to push the window past 300 chars Lorem ipsum
+      padding text repeated to push the window past 300 chars.
+    </p>
+
+    <!-- AUD-030: physical Tailwind utilities -->
+    <div class="ml-4 pr-2 text-left border-l">Physical utilities</div>
+
+    <!-- AUD-008: no <h1> in the body (intentional omission) -->
+    <p>No H1 present in this fixture.</p>
+
+    <!-- AUD-022: ILS + USD without <Price> -->
+    <p>Price: 100 ILS or $30 USD.</p>
+
+    <!-- AUD-009: affiliate link without preceding <AffiliateDisclosure> -->
+    <a href="https://booking.com/foo" data-aff-disclosed="true">Disclosed link</a>
+  </body>
+</html>

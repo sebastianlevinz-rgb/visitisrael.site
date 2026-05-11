@@ -22,6 +22,10 @@
     "qa:credits": "node scripts/qa/check-credits.mjs",
     "qa:schema": "node scripts/qa/validate-schema.mjs",
     "qa:ner": "tsx scripts/audit/scan-ner.ts",
+    "qa:audit": "tsx scripts/audit/run.ts",
+    "qa:quality-gate": "tsx scripts/audit/quality-gate.ts",
+    "qa:audit-a11y": "node scripts/audit_a11y_wrapper.mjs",
+    "qa:axe": "node scripts/audit/axe.mjs",
     "gate:report": "echo \"gate:report placeholder (populated in plan 11)\" && exit 0",
     "lhci": "echo \"lhci placeholder (populated in plan 11)\" && exit 0",
     "prepare": "husky"
