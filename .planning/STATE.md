@@ -2,17 +2,17 @@
 gsd_state_version: 1.0
 milestone: v1.0
 milestone_name: milestone
-status: in_progress
-stopped_at: Phase 2.3 sub-destinations complete; Plan 04 (itinerary) eligible (Wave 4 next)
-last_updated: '2026-05-11T08:30:00.000Z'
-last_activity: '2026-05-11 — Phase 2.3 Jerusalem sub-destinations complete: app/[locale]/[region]/[subdest]/page.tsx dynamic sub-dest renderer (Wave 0) with conditional PlaceOfWorship schema emission via frontmatter religiousSiteId opt-in (Western Wall + Holy Sepulchre) + velite.config.ts SubDestination schema extended (heroImage + faqs[3-10] + body: s.mdx() + religiousSiteId) + scripts/audit/run.ts loadVeliteIndex slug-prefix-stripping fix (audit walker inferSlug "jerusalem/western-wall" agrees with stripped Velite key) + scripts/qa/hebrew-content.mjs scope extension to scan subDestinations alongside regions + 7 EN sub-dest MDX (Old City 839w, Western Wall 850w, Holy Sepulchre 850w, Yad Vashem 854w, Mahane Yehuda 868w, Mount of Olives 810w, City of David 819w; 5890w total) + 7 HE paired MDX via hebrew-content-writer Business-Casual register (5884w total; HE/EN ratio range 0.937-1.027, avg 0.984 — mid-band) + 7 Sharp-generated hero images at 1600x1067 with REAL Wikimedia/IGPO ledger metadata (2 with restrictedSiteAcknowledgment for Western Wall IGPO + Holy Sepulchre Wikimedia) + tests/content/jerusalem-sub-destinations.test.ts (124 paired tests). All 14 sub-dest pages SUB_DESTINATION score 100, 0 blocking. AUD-007/017..020/024/025/031/032 all 0 violations. Paired naming Temple Mount / Haram al-Sharif (EN) + הר הבית / אל-חרם א-שריף (HE) on first reference in every applicable page. 124 net new tests (682 total green, 1 lhci skipped). 35 min, 3 commits, 6 auto-fixed deviations (audit-walker slug prefix as Rule 3 blocking, qa:hebrew-content scope as Rule 2 missing critical functionality, 2 EN + 3 HE Temple Mount/הר הבית unpaired first-references as Rule 1 bugs, title overflow + HE word count below floor as Rule 1 bugs). CNT-04 complete. Wave 4 (Plan 04 itinerary) eligible.'
-previous_activity: '2026-05-11 — Phase 2.2 HE Jerusalem canonical + pilot-switch checkpoint PASS: content/he/regions/jerusalem.mdx (1968 words, 9 H2 sections, 6 distinct AffiliateCard partners, 8 FAQ entries, paired religious naming הר הבית/אל-חרם א-שריף + הכותל המערבי NOT כותל הדמעות, ktiv maleh consistent, Option C gender-neutral) + scripts/qa/hebrew-content.mjs (Wave 0 — HE editorial QA: ktiv pairs + paired naming + forbidden כותל הדמעות) + scripts/qa/pilot-checkpoint.mjs (Wave 0 — 3-criteria mechanical evaluator). data/pilot-checkpoint.md Verdict: PASS. /jerusalem HE REGION_CANONICAL score 100, 0 blocking issues. AUD-007 word ratio 0.94. 41 net new tests (558 total green). 20 min, 4 commits. Zero deviations. CNT-02 + CNT-03 complete.'
+current_plan: 5 of 6 — Plan 05 (hub + legal pages) eligible to start (Wave 5)
+status: Phase 2.4 itinerary shipped (EN + HE pair, GUIDE_OR_WINERY 100/100, 0 blocking) — Wave 5 hub+legal next
+stopped_at: Phase 2.4 itinerary complete; Plan 05 (hub + legal pages) eligible (Wave 5)
+last_updated: '2026-05-11T09:04:49.042Z'
+last_activity: '2026-05-11 — Phase 2.4 Jerusalem itinerary: app/[locale]/itineraries/[slug]/page.tsx dynamic renderer + lib/schema/itinerary.ts TouristTrip generator + itineraries Velite collection + detectProfile itineraries->GUIDE_OR_WINERY + qa:hebrew-content scope extension + EN 1789w + HE 1660w (ratio 0.928 mid-band) + 6 distinct affiliate partners (booking/skyscanner/safetyWing/civitatis/getYourGuide/viator) + 7 internal links to Phase 2.3 sub-dests + Bethlehem mention with admin-status framing no /west-bank link + 1 hero image 1920x1080 Sharp+Wikimedia ledger. Both pages GUIDE_OR_WINERY 100/100, 0 blocking. AUD-007/017..020/024/025/031/032/033 all 0 violations. 31 net new tests (712 total green, 1 skipped). 19 min, 2 commits. Zero deviations. CNT-05 complete. Wave 5 unblocked.'
 progress:
   total_phases: 6
   completed_phases: 1
-  total_plans: 13
-  completed_plans: 14
-  percent: 21
+  total_plans: 17
+  completed_plans: 15
+  percent: 24
 ---
 
 # Project State
@@ -27,28 +27,28 @@ See: .planning/PROJECT.md (updated 2026-05-11)
 ## Current Position
 
 Phase: 2 of 6 (Pilot Region Jerusalem — M2) — **IN PROGRESS**
-Plan: 3 of 6 in current phase complete (01 en-canonical + 02 he-canonical+checkpoint + 03 sub-destinations complete; 04 itinerary / 05 hub+legal / 06 QA+QualityGate pending)
-Current Plan: 4 of 6 — Plan 04 (Jerusalem itinerary "X days in Jerusalem" EN+HE) eligible to start (Wave 4)
-Status: Phase 2.3 sub-destinations shipped (14 paired EN+HE pages, score 100 across the board) — Wave 4 itinerary next
-Last activity: 2026-05-11 — Phase 2.3 Jerusalem sub-destinations: 7 EN + 7 HE paired pages shipped (Old City, Western Wall, Holy Sepulchre, Yad Vashem, Mahane Yehuda, Mount of Olives, City of David); app/[locale]/[region]/[subdest]/page.tsx dynamic renderer with conditional PlaceOfWorship schema via religiousSiteId; Velite SubDestination schema extended; audit walker slug-prefix fix; qa:hebrew-content scope extended to subDestinations; HE/EN word ratio avg 0.984 (mid-band). All 14 SUB_DESTINATION score 100, 0 blocking. 124 net new tests (682 total green, 1 skipped). 35 min, 3 commits, 6 auto-fixed deviations. CNT-04 complete. Wave 4 unblocked.
-Previous activity: 2026-05-11 — Phase 2.2 HE Jerusalem canonical + pilot-switch checkpoint PASS: native HE rewrite (1968 words, 9 H2, 6 partners, 8 FAQs, paired naming, ktiv maleh) + 2 Wave 0 QA scripts + pilot-checkpoint.md Verdict: PASS. /jerusalem HE REGION_CANONICAL score 100. 41 net new tests (558 total green). 20 min, 4 commits. Zero deviations. CNT-02 + CNT-03 complete.
+Plan: 4 of 6 in current phase complete (01 en-canonical + 02 he-canonical+checkpoint + 03 sub-destinations + 04 itinerary complete; 05 hub+legal / 06 QA+QualityGate pending)
+Current Plan: 5 of 6 — Plan 05 (hub + legal pages) eligible to start (Wave 5)
+Status: Phase 2.4 itinerary shipped (EN + HE pair, GUIDE_OR_WINERY 100/100, 0 blocking) — Wave 5 hub+legal next
+Last activity: 2026-05-11 — Phase 2.4 Jerusalem itinerary: app/[locale]/itineraries/[slug]/page.tsx dynamic renderer + lib/schema/itinerary.ts TouristTrip generator + itineraries Velite collection + detectProfile itineraries->GUIDE_OR_WINERY + qa:hebrew-content scope extension + EN 1789w + HE 1660w (ratio 0.928 mid-band) + 6 distinct affiliate partners (booking/skyscanner/safetyWing/civitatis/getYourGuide/viator) + 7 internal links to Phase 2.3 sub-dests + Bethlehem mention with admin-status framing no /west-bank link + 1 hero image 1920x1080 Sharp+Wikimedia ledger. Both pages GUIDE_OR_WINERY 100/100, 0 blocking. AUD-007/017..020/024/025/031/032/033 all 0 violations. 31 net new tests (712 total green, 1 skipped). 19 min, 2 commits. Zero deviations. CNT-05 complete. Wave 5 unblocked.
+Previous activity: 2026-05-11 — Phase 2.3 Jerusalem sub-destinations: 7 EN + 7 HE paired pages shipped (Old City, Western Wall, Holy Sepulchre, Yad Vashem, Mahane Yehuda, Mount of Olives, City of David); app/[locale]/[region]/[subdest]/page.tsx dynamic renderer with conditional PlaceOfWorship schema via religiousSiteId; Velite SubDestination schema extended; audit walker slug-prefix fix; qa:hebrew-content scope extended to subDestinations; HE/EN word ratio avg 0.984 (mid-band). All 14 SUB_DESTINATION score 100, 0 blocking. 124 net new tests (682 total green, 1 skipped). 35 min, 3 commits, 6 auto-fixed deviations. CNT-04 complete.
 
-Progress: [██░░░░░░░░] 21% Phase 2 (3/6 plans; Phase 1 11/11 ✓; overall 14/41 plans completed across milestone)
+Progress: [██░░░░░░░░] 24% Phase 2 (4/6 plans; Phase 1 11/11 ✓; overall 15/41 plans completed across milestone)
 
 ## Performance Metrics
 
 **Velocity:**
 
-- Total plans completed: 14 (Phase 1 complete; Phase 2.1 + 2.2 + 2.3 complete)
+- Total plans completed: 15 (Phase 1 complete; Phase 2.1 + 2.2 + 2.3 + 2.4 complete)
 - Average duration: ~19 min
-- Total execution time: ~4.7 hours
+- Total execution time: ~5.0 hours
 
 **By Phase:**
 
 | Phase                  | Plans | Total   | Avg/Plan |
 | ---------------------- | ----- | ------- | -------- |
 | 1. Foundation          | 11/11 | 190 min | ~17 min  |
-| 2. Pilot Jerusalem     | 3/6   | 93 min  | 31 min   |
+| 2. Pilot Jerusalem     | 4/6   | 112 min | 28 min   |
 | 3. Region Replication  | 0/11  | —       | —        |
 | 4. Long-tail Sweep     | 0/TBD | —       | —        |
 | 5. Legal + Launch Prep | 0/4   | —       | —        |
@@ -65,6 +65,8 @@ _Updated after each plan completion_
 | Phase 02-pilot-region-jerusalem-m2 P01-en-canonical | 38min | 2 tasks | 12 files |
 | Phase 02-pilot-region-jerusalem-m2 P02-he-canonical | 20min | 3 tasks | 7 files |
 | Phase 02-pilot-region-jerusalem-m2 P03-sub-destinations | 35min | 3 tasks | 24 files |
+| Phase 02-pilot-region-jerusalem-m2 P04-itinerary | 19min | 2 tasks | 8 files |
+| Phase 02-pilot-region-jerusalem-m2 P04 | 19 min | 2 tasks | 16 files |
 
 ## Accumulated Context
 
@@ -150,6 +152,13 @@ Recent decisions affecting current work:
 - [Phase 02-pilot-region-jerusalem-m2]: Plan 03 — qa:hebrew-content scope extension via main()-only change: the script header comment claimed multi-collection scanning but main() loaded only regions.json. Extended to concat subDestinations into the same checkAllPages call. Pure helpers (checkAllPages, KTIV_PAIRS, WAILING_WALL_HE_REGEX, HE_PAIRING_WINDOW) unchanged; single-rule-source-of-truth invariant preserved. Phase 3+ HE sub-dest pages picked up automatically.
 - [Phase 02-pilot-region-jerusalem-m2]: Plan 03 — HE word-count mid-band targeting (avg 0.984 ratio across 7 pairs, range 0.937-1.027): mirrors plan 2.2 lock. Initial HE drafts landed at 0.76-0.87 ratio (below AUD-007 floor on 4 of 7 pairs); native HE expansion of 120-180 words per page (History-of-the-Western-Wall-plaza, Archaeology-timeline, Climbing-routes, etc — in-domain not filler) moved every pair into mid-band. Pattern: budget ~150w/page for native HE expansion after EN-mirroring first draft.
 - [Phase 02-pilot-region-jerusalem-m2]: Plan 03 — Paired religious naming applied symmetrically EN↔HE on every page that surfaces the entity: bolded markdown form on first reference, within 300-char AUD-019/HE_PAIRING_WINDOW. Auto-fixed during execution on 2 EN + 3 HE pages where first drafts landed outside the window. Sub-dest renderer enforces nothing at runtime; the audit dashboard + qa:hebrew-content together pin the contract. Pattern reusable for any Phase 3+ region where contested sites surface.
+- [Phase 02-pilot-region-jerusalem-m2]: Plan 04 — Audit profile for itineraries: itineraries Velite collection routed to GUIDE_OR_WINERY in detectProfile (Plan 2.4 lock per RESEARCH §8 OQ2). EN + HE itinerary pages both score 100/100 with 0 blocking — validates that an ITINERARY-specific profile is NOT needed at v1. Promote only if Phase 4 long-tail scoring misleads. Audit walker's loadVeliteIndex extended to include itineraries.json with `itineraries/<slug>` lookup-key prefix (mirrors plan 2.3 sub-dest prefix-stripping in reverse — prefix-adding here because the URL path itself starts with /itineraries/).
+- [Phase 02-pilot-region-jerusalem-m2]: Plan 04 — TouristTrip schema generator with @id `#trip` + `itinerary[]` of TouristAttraction stops + `additionalProperty` PropertyValue carrying `durationDays`: preserves structured value access for downstream consumers (plan 10 audit + plan 06 monitoring) without fighting schema-dts v2 type constraints. `as unknown as WithContext<T>` cast applied uniformly with the other 11 generators (Plan 1.4 lock).
+- [Phase 02-pilot-region-jerusalem-m2]: Plan 04 — Cross-collection Velite resolution for itinerary stops: frontmatter `stops: [{ slug, day, period }]` drives the schema generator's itinerary[] array via subDestinations Velite lookup. Missing sub-destinations (Phase 4 long-tail) are filtered gracefully — schema reflects shipped pages only. Decision pinned by tests/content/jerusalem-itinerary.test.ts assertion that all linked sub-dests are in the Phase 2.3 shipped set. Pattern reusable for Phase 4 multi-region itineraries that span across regions: same lookup mechanism resolves stops as long as the referenced sub-destinations are shipped.
+- [Phase 02-pilot-region-jerusalem-m2]: Plan 04 — Bethlehem mention with administrativeStatus framing but NO internal link: same pattern as plan 2.3 EN canonical day-trips section. PITFALLS §3.3 admin-status requirement satisfied via "Palestinian Authority administration" (EN) + "תחת מינהל הרשות הפלסטינית" (HE) explicit framing in Day 3 Option B. NO link to /west-bank/bethlehem/ — deferred until Phase 3. Pattern reusable for Hebron + Jericho + Qumran when Phase 3 covers them.
+- [Phase 02-pilot-region-jerusalem-m2]: Plan 04 — Provisional BreadcrumbList middle segment `/itineraries/`: Phase 2.5 hub page does not exist yet but the breadcrumb structurally reflects the URL hierarchy (Home → Itineraries → <Itinerary>). When the hub lands, the link resolves to a real page without any renderer change. Pattern: render breadcrumbs that match URL structure even when intermediate hub pages are not yet shipped — Schema.org BreadcrumbList accepts the resolution mismatch gracefully.
+- [Phase 02-pilot-region-jerusalem-m2]: Plan 04 — Affiliate density target 6 distinct partners on 1789-word itinerary (above ≥3 GUIDE_OR_WINERY floor). Partners segmented by editorial day theme: Day 0 prep (booking lodging + skyscanner transport + safetyWing insurance) → Day 1 (civitatis Old City tour) → Day 2 (getYourGuide Yad Vashem + viator Mahane Yehuda food tour) → Day 3 (getYourGuide Dead Sea sunrise). HE mirrors the exact 6 partners; no partner-mix drift between locales. Argentina lesson #2 (single-partner ≥85% concentration risk) structurally avoided.
+- [Phase 02-pilot-region-jerusalem-m2]: Plan 04 — HE word-count mid-band targeting (0.928 ratio): first HE draft hit 0.828 (below AUD-007 0.85 floor). Added 3 in-domain native HE expansion passages — Western Wall plaza historical context (Mughrabi Quarter narrative), Yad Vashem Safdie architecture + Avenue of the Righteous Among the Nations, Masada mineral-floor low-elevation note. Mid-band targeting matches plan 2.2 + 2.3 lock; budget ~150-200w of native HE expansion per page on first iteration is the locked workflow.
 
 ### Pending Todos
 
@@ -167,6 +176,6 @@ None yet.
 
 ## Session Continuity
 
-Last session: 2026-05-11T08:30:00.000Z
-Stopped at: Phase 2.3 sub-destinations complete; Plan 04 (itinerary "X days in Jerusalem") eligible (Wave 4)
-Resume file: .planning/phases/02-pilot-region-jerusalem-m2/04-itinerary-PLAN.md
+Last session: 2026-05-11T09:00:52.000Z
+Stopped at: Phase 2.4 itinerary complete; Plan 05 (hub + legal pages) eligible (Wave 5)
+Resume file: .planning/phases/02-pilot-region-jerusalem-m2/05-hub-legal-PLAN.md

@@ -102,7 +102,7 @@ Argentina lesson #3 fix — image contract enforced day-1.
 - [x] **CNT-02**: Jerusalem region canonical (HE, `/jerusalem/`) — native Hebrew rewrite via `hebrew-content-writer` skill (NOT literal translation), ≥85% of EN word count, full schema parity, paired religious naming where applicable
 - [x] **CNT-03**: Phase 2.2 checkpoint executed (post-CNT-02): AUD-017..AUD-020 editorial style passes + Old City restricted-site image sourcing cleared + Hebrew translation throughput acceptable for sub-dests; if any fails, pilot region switches to Tel Aviv before sub-dest writing
 - [x] **CNT-04**: 5–10 Jerusalem sub-destination pages (EN + HE) — each 800–1200 words, schema `TouristAttraction`, ≥1 affiliate per page, credited photos, breadcrumb back to Jerusalem canonical ✓ Completed 2026-05-11 (7 paired EN+HE sub-destinations shipped via plan 02-03)
-- [ ] **CNT-05**: At least 1 Jerusalem itinerary page (e.g., "3 days in Jerusalem", "7 days in Israel including Jerusalem") that ties pilot region to day-trip neighbors
+- [x] **CNT-05**: At least 1 Jerusalem itinerary page (e.g., "3 days in Jerusalem", "7 days in Israel including Jerusalem") that ties pilot region to day-trip neighbors
 - [ ] **CNT-06**: Hub pages: homepage (region grid + main CTAs), `/regions/` index, `/en/regions/`
 - [ ] **CNT-07**: Legal pages (in both EN + HE): About, Contact, Privacy, Affiliate Disclosure, Accessibility Statement — A11Y-03/A11Y-04 satisfied here
 

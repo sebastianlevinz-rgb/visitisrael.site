@@ -25,7 +25,7 @@ The Quality Gate is NOT a phase. It is a **conditional advance** between Phase 2
 | #   | Criterion                                  | Threshold                                                                                  | Source                      |
 | --- | ------------------------------------------ | ------------------------------------------------------------------------------------------ | --------------------------- |
 | 1   | Lighthouse mobile (3-run median)           | Complete                                                                                   | 2026-05-11                  |
-| 2   | Audit dashboard per-page score             | ≥85 on every pilot page using its profile                                                  | AUD-002                     |
+| 2   | 4/6                                        | In Progress                                                                                |                             |
 | 3   | Critical bugs                              | 0                                                                                          | manual + AUD scan           |
 | 4   | Affiliate coverage of applicable partners  | ≥80% of applicable per page (5+ active on region canonical)                                | AUD-031 + AFF-01            |
 | 5   | EN + HE parity                             | 100% — every EN page has HE counterpart and vice-versa                                     | I18N-05 + AUD-032           |
@@ -124,7 +124,7 @@ Plans:
 4. Phase 2.2 checkpoint report at `data/pilot-checkpoint.md` shows: AUD-017..AUD-020 (Wailing Wall regex, "Judea and Samaria" regex, Temple Mount paired-naming, administrativeStatus frontmatter) all pass on the EN canonical; Old City restricted-site images all have cleared `restrictedSiteAcknowledgment` per IMG-05; Hebrew translation throughput estimated within budgeted time for sub-destinations.
 5. Quality Gate report at `data/quality-gate-pass.md` exists with all 10 Quality Gate criteria explicitly marked PASS (or `data/quality-gate-failure.md` exists with detailed failure analysis and workflow halts).
 
-**Plans:** 6 plans (planned 2026-05-11; R3 strategy locked as PROXIED per CONTEXT.md — no Ahrefs/DataForSEO purchase; compensating control = manual SERP review in 02-06)
+**Plans:** 4/6 plans executed
 
 Plans:
 
