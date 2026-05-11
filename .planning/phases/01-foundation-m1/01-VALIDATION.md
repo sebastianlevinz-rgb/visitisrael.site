@@ -49,9 +49,10 @@ Phase 1 is special: **it builds the test infrastructure it then uses**. Wave 0 w
 | 1-01-* | 01 (scaffold) | 1 | I18N-01 | smoke | `curl localhost:3000/jerusalem 200` AND `curl localhost:3000/en/jerusalem 200` (placeholder pages) | ❌ W0 | ⬜ pending |
 | 1-01-* | 01 (scaffold) | 1 | I18N-02 | unit | `pnpm test src/i18n` — verifies `locales = ['he','en']` registered, `'fr'` allowed in type union | ❌ W0 | ⬜ pending |
 | 1-01-* | 01 (scaffold) | 1 | I18N-04 | unit | `pnpm test src/i18n` — verifies `<html lang="he" dir="rtl">` rendered for HE routes | ❌ W0 | ⬜ pending |
-| 1-01-* | 01 (scaffold) | 1 | I18N-05 | unit | `pnpm test src/lib/hreflang` — emits 3 alternates only for built locales | ❌ W0 | ⬜ pending |
+| 1-08-* | 08 (seo-config) | 5 | I18N-05 | unit | `pnpm test src/lib/seo/hreflang` — emits 3 alternates only for built locales | ❌ | ⬜ pending |
 | 1-01-* | 01 (scaffold) | 1 | AFF-04 (partial) | fixture | `pnpm lint __fixtures__/raw-partner-url.tsx` exits non-zero | ❌ W0 | ⬜ pending |
-| 1-01-* | 01 (scaffold) | 1 | AFF-05 | fixture | `pnpm lint __fixtures__/raw-hex.tsx` exits non-zero; `pnpm lint __fixtures__/physical-direction.tsx` exits non-zero | ❌ W0 | ⬜ pending |
+| 1-01-* | 01 (scaffold) | 1 | AFF-05 (rule loaded) | smoke | ESLint config has the three custom rules registered (loadable without error) | ❌ W0 | ⬜ pending |
+| 1-02-* | 02 (tokens) | 2 | AFF-05 (fixture fires) | fixture | `pnpm lint tests/eslint-fixtures/raw-hex.tsx` exits non-zero; `pnpm lint tests/eslint-fixtures/physical-util.tsx` exits non-zero | ❌ | ⬜ pending |
 | 1-02-* | 02 (tokens) | 2 | FND-02 | unit | `pnpm test src/lib/tokens` — verifies all semantic tokens resolve to HSL foundation values; zero raw hex via AST scan of `src/components` | ❌ | ⬜ pending |
 | 1-03-* | 03 (components) | 3 | FND-03 | unit | `pnpm test src/components` — primitives + composites render in both `dir="ltr"` and `dir="rtl"` modes without console errors | ❌ | ⬜ pending |
 | 1-03-* | 03 (components) | 3 | FND-04 | smoke | `curl localhost:3000/admin/components 200` AND `<meta name="robots" content="noindex">` present | ❌ | ⬜ pending |
@@ -59,8 +60,8 @@ Phase 1 is special: **it builds the test infrastructure it then uses**. Wave 0 w
 | 1-03-* | 03 (components) | 3 | A11Y-02 | unit | `pnpm test src/components/SkipNav` — first focusable element on every page; uses `inset-inline-start` | ❌ | ⬜ pending |
 | 1-04-* | 04 (affiliates) | 4 | AFF-01 | unit | `pnpm test lib/affiliate` — 36 tests pass (4 per × 9 real helpers) | ❌ | ⬜ pending |
 | 1-04-* | 04 (affiliates) | 4 | AFF-02 | unit | `pnpm test lib/affiliate/{klook,gocity}` — 4 stub-throw tests pass (`expect(() => klookLink()).toThrow('no Israel inventory')`) | ❌ | ⬜ pending |
-| 1-04-* | 04 (affiliates) | 4 | AFF-03 | unit | Test count check: `pnpm test lib/affiliate | grep '44 passed'` | ❌ | ⬜ pending |
-| 1-04-* | 04 (affiliates) | 4 | AFF-04 (full) | fixture | `pnpm lint __fixtures__/raw-partner-url-{booking,civitatis,viator,gyg,rentalcars,safetywing,skyscanner,hostelworld,discovercars}.tsx` — all 9 fail | ❌ | ⬜ pending |
+| 1-04-* | 04 (affiliates) | 4 | AFF-03 | unit | Test count check: `pnpm test lib/affiliate` reports ≥48 passed (36 real helper tests + 8 stub tests + 4 availability tests) | ❌ | ⬜ pending |
+| 1-04-* | 04 (affiliates) | 4 | AFF-04 (full) | fixture | `pnpm lint tests/eslint-fixtures/raw-partner-url-{booking,civitatis,viator,gyg,rentalcars,safetywing,skyscanner,hostelworld,discovercars}.tsx` — all 9 fail | ❌ | ⬜ pending |
 | 1-04-* | 04 (affiliates) | 4 | AFF-06 | unit | `pnpm test src/components/AffiliateCard` — FTC inline disclosure renders within first viewport AND on every monetized page (snapshot scan) | ❌ | ⬜ pending |
 | 1-04-* | 04 (affiliates) | 4 | AFF-07 | unit | `pnpm test data/affiliate-status` — schema validates; all 11 partners present | ❌ | ⬜ pending |
 | 1-04-* | 04 (affiliates) | 4 | AFF-08 | smoke | `data/affiliate-status.json` shows `travelpayouts.state ∈ {pending, applied, active}` | ❌ | ⬜ pending |
@@ -107,7 +108,7 @@ Wave 0 work is collapsed into sub-phase 1.1 (the scaffold). After 1.1 completes,
 - [ ] `package.json` scripts: `dev`, `build`, `start`, `lint`, `lint:fix`, `typecheck`, `test`, `test:watch`, `validate:schema`, `validate:credits`, `gate:report`
 - [ ] Husky v9 init via `pnpm exec husky init` → `.husky/pre-commit` runs `pnpm lint-staged`
 - [ ] `lint-staged.config.js` — runs ESLint on staged `*.{ts,tsx,js,jsx}` and Prettier on `*.{md,json,css}`
-- [ ] `__fixtures__/` directory exists with at minimum: `raw-hex.tsx`, `physical-direction.tsx`, `raw-partner-url.tsx` — each is a deliberately-failing test file that ESLint rejects (used by Per-Task Verification Map rows above)
+- [ ] `tests/eslint-fixtures/` directory exists (created in plan 02 for hex+direction fixtures, plan 06 for partner-url fixtures) — each fixture is a deliberately-failing test file that ESLint rejects (used by Per-Task Verification Map rows above)
 
 If after 1.1 the full suite fails to run, halt Phase 1 — every downstream wave depends on the pipeline.
 
