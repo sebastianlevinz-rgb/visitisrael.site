@@ -1,0 +1,14 @@
+{
+  "generatedAt": "2026-05-11T07:40:12.000Z",
+  "totalPages": 1,
+  "totalViolations": 0,
+  "pages": [
+    {
+      "slug": "jerusalem",
+      "region": "jerusalem",
+      "lang": "he",
+      "violations": [],
+      "inconsistencies": 0
+    }
+  ]
+}
