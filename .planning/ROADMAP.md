@@ -102,7 +102,7 @@ Plans:
 - [x] 01-08: SEO config — Dynamic `app/sitemap.ts` (registered-locales only — Conflict A), `app/robots.ts` (disallow `/admin/`, `/api/`), hreflang generator (3 alternates: he, en, x-default→EN), `generateMetadataFor` Next.js Metadata builder (self-referential canonical + reciprocal alternates.languages), religious-naming AUD-017..AUD-020 regex helpers, accessibility-link single source of truth for AUD-028, 301 redirect map in `middleware.ts` ✓ Completed 2026-05-11
 - [ ] 01-09: Audit dashboard — `/admin/audit/` behind middleware basic-auth; runs AUD-001..AUD-034 over built pages; per-page score by profile; cached JSON + sortable HTML view; `AUD-05` quality-gate report generator at `/admin/audit/quality-gate`
 - [ ] 01-10: Lighthouse CI gate — `@lhci/cli` with `numberOfRuns: 3` + `aggregationMethod: median`; mobile thresholds perf≥0.90/a11y≥0.95/best-practices≥0.95/seo=1.00; GitHub Action `treosh/lighthouse-ci-action` blocks merge; `data/lighthouse-results.json` persisted
-- [ ] 01-11: NER detection — `data/entity-dict.json` (tour/hotel/restaurant/museum/transport classes); regex-based detector scans MDX; surfaces unmonetized mentions in audit dashboard
+- [x] 01-09 (actual filename) / 01-11 (legacy roadmap numbering): NER detection — `data/entity-dict.json` (6 classes × 113 starter entries: tour/hotel/restaurant/museum/transport/religious_site); `lib/ner/detector.ts` dictionary-backed regex with ±300 char AffiliateCard/Link coverage heuristic; `scripts/audit/scan-ner.ts` Velite walker (run via tsx) writing `data/ner-results.json` for plan 10 consumption; `pnpm qa:ner` CLI ✓ Completed 2026-05-11
 
 ---
 
@@ -256,7 +256,7 @@ Quality Gate failure between 2 and 3 halts the workflow; no auto-advance to Phas
 
 | Phase                                  | Plans Complete | Status      | Completed |
 | -------------------------------------- | -------------- | ----------- | --------- |
-| 1. Foundation (M1)                     | 8/11           | In Progress | -         |
+| 1. Foundation (M1)                     | 9/11           | In Progress | -         |
 | 2. Pilot Jerusalem (M2)                | 0/6            | Not started | -         |
 | — Quality Gate (hard stop)             | —              | Not reached | -         |
 | 3. Region Replication (M3)             | 0/11           | Not started | -         |

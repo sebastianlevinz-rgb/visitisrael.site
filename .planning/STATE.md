@@ -3,15 +3,15 @@ gsd_state_version: 1.0
 milestone: v1.0
 milestone_name: milestone
 status: executing
-stopped_at: Completed .planning/phases/01-foundation-m1/08-seo-config-PLAN.md
-last_updated: '2026-05-11T02:49:17.000Z'
-last_activity: '2026-05-11 — Plan 08 (seo-config) complete: dynamic app/sitemap.ts (registered locales only — Conflict A) + app/robots.ts + hreflang generator (3 alternates: he, en, x-default→EN) + generateMetadataFor metadata builder (self-referential canonical + reciprocal alternates.languages) + religious-naming regex helpers (AUD-017..AUD-020 data layer) + accessibility-link single source of truth (A11Y-05) + 301 REDIRECTS map in middleware; 14 min, 3 commits, 66 net new tests (339/339 total green). FND-06, I18N-05, SEO-04, SEO-05, SEO-06, A11Y-01, A11Y-05 complete.'
+stopped_at: Completed .planning/phases/01-foundation-m1/09-ner-detection-PLAN.md
+last_updated: '2026-05-11T03:09:23.126Z'
+last_activity: '2026-05-11 — Plan 09 (ner-detection) complete: data/entity-dict.json 6 classes × 113 starter entries (tour/hotel/restaurant/museum/transport/religious_site) + lib/ner/detector.ts dictionary-backed regex scanner with ±300 char suggestedAction heuristic + lib/ner/types.ts Mention contract + scripts/audit/scan-ner.ts (tsx, NOT mjs — iteration-1 fix) + pnpm qa:ner CLI writing data/ner-results.json for plan 10; 11 min, 5 commits (2 TDD cycles + 1 standard), 41 net new tests (380/380 total green). 2 auto-fixed deviations (import.meta.url under jsdom; unused eslint-disable). FND-07 complete. Wave 7 (plan 10 audit dashboard) eligible to start.'
 progress:
   total_phases: 6
   completed_phases: 0
   total_plans: 11
-  completed_plans: 8
-  percent: 73
+  completed_plans: 9
+  percent: 82
 ---
 
 # Project State
@@ -26,32 +26,32 @@ See: .planning/PROJECT.md (updated 2026-05-11)
 ## Current Position
 
 Phase: 1 of 6 (Foundation — M1)
-Plan: 8 of 11 in current phase complete (01 scaffold + 02 design-tokens + 03 photo-credits + 04 schema-baseline + 05 component-lib + 06 affiliate-helpers + 07 quality-profiles + 08 seo-config); Wave 5 fully green (plans 07 + 08 done), Wave 6 (plan 09 NER) eligible to start
-Status: Executing — Wave 5 fully green; Wave 6 (plan 09 NER detection) eligible to start
-Last activity: 2026-05-11 — Plan 08 (seo-config) complete: dynamic app/sitemap.ts (registered locales only — Conflict A) + app/robots.ts + hreflang (3 alternates: he, en, x-default→EN) + generateMetadataFor builder + religious-naming regex helpers (AUD-017..AUD-020) + accessibility-link single source of truth + 301 REDIRECTS map in middleware; 14 min, 3 commits, 66 net new tests (339/339 total green). FND-06, I18N-05, SEO-04, SEO-05, SEO-06, A11Y-01, A11Y-05 complete.
+Plan: 9 of 11 in current phase complete (01 scaffold + 02 design-tokens + 03 photo-credits + 04 schema-baseline + 05 component-lib + 06 affiliate-helpers + 07 quality-profiles + 08 seo-config + 09 ner-detection); Wave 6 fully green (plan 09 done), Wave 7 (plan 10 audit dashboard) eligible to start
+Status: Executing — Wave 6 fully green; Wave 7 (plan 10 audit dashboard) eligible to start
+Last activity: 2026-05-11 — Plan 09 (ner-detection) complete: data/entity-dict.json 6 classes × 113 starter entries (tour/hotel/restaurant/museum/transport/religious_site) + lib/ner/detector.ts dictionary-backed regex scanner with ±300 char suggestedAction heuristic + lib/ner/types.ts Mention contract + scripts/audit/scan-ner.ts (tsx, NOT mjs — iteration-1 fix) + pnpm qa:ner CLI writing data/ner-results.json for plan 10; 11 min, 5 commits (2 TDD cycles + 1 standard), 41 net new tests (380/380 total green). 2 auto-fixed deviations (import.meta.url under jsdom; unused eslint-disable). FND-07 complete.
 
-Progress: [████████░░] 73% (8/11 plans in Phase 1; ~13% overall)
+Progress: [████████░░] 82% (9/11 plans in Phase 1; ~14% overall)
 
 ## Performance Metrics
 
 **Velocity:**
 
-- Total plans completed: 8
-- Average duration: ~18 min
-- Total execution time: ~2.36 hours
+- Total plans completed: 9
+- Average duration: ~17 min
+- Total execution time: ~2.55 hours
 
 **By Phase:**
 
 | Phase                  | Plans | Total   | Avg/Plan |
 | ---------------------- | ----- | ------- | -------- |
-| 1. Foundation          | 8/11  | 142 min | ~18 min  |
+| 1. Foundation          | 9/11  | 153 min | ~17 min  |
 | 2. Pilot Jerusalem     | 0/6   | —       | —        |
 | 3. Region Replication  | 0/11  | —       | —        |
 | 4. Long-tail Sweep     | 0/TBD | —       | —        |
 | 5. Legal + Launch Prep | 0/4   | —       | —        |
 | 6. Production Deploy   | 0/4   | —       | —        |
 
-**Recent Trend:** Plan 08 (seo-config) — 14 min — 14 files created + 2 modified, 3 commits, 66 net new tests (339/339 total green). app/sitemap.ts iterates REGISTERED locales only (Conflict A enforced); app/robots.ts disallows /admin/+/api/; hreflang emits 3 alternates (he, en, x-default→EN); generateMetadataFor wires self-referential canonical + reciprocal alternates.languages; religious-naming regex helpers (AUD-017..AUD-020) + accessibility-link single source of truth (A11Y-05); middleware 301 REDIRECTS map (empty baseline). 2 auto-fixed deviations (Next.js Metadata.twitter type cast in test; middleware test re-architected to stub next-intl). pnpm typecheck/lint/build all green.
+**Recent Trend:** Plan 09 (ner-detection) — 11 min — 7 files created + 2 modified, 5 commits (2 TDD cycles RED→GREEN + 1 standard), 41 net new tests (380/380 total green). data/entity-dict.json 6 classes × 113 starter entries (religious_site overlaps religious-sites.json EN names ≥8 — single-source-of-truth coherence pin); lib/ner/detector.ts dictionary-backed regex with case-insensitive word-boundary + ±300 char AffiliateCard/Link coverage heuristic + ±50 char contextSample window, source-ordered output; scripts/audit/scan-ner.ts via tsx (not mjs — iteration-1 fix landed) with defensive entry filtering (non-array files, malformed entries, lang≠'he'|'en'); greenfield Phase 1 reality → empty [] + exit 0 so plan 10 wires qa:ner today. 2 auto-fixed deviations (import.meta.url not file URL under Vite/jsdom — switched to process.cwd(); unused eslint-disable no-console directives — removed). FND-07 complete; Wave 7 (plan 10 audit dashboard) unblocked.
 
 _Updated after each plan completion_
 
@@ -107,6 +107,12 @@ Recent decisions affecting current work:
 - **Phase 2 pilot (Conflict C resolution):** Jerusalem with Phase 2.2 fallback checkpoint to Tel Aviv if AUD-017..AUD-020 / Old City image sourcing / Hebrew translation throughput fails.
 - **Quality Gate between Phase 2 and 3:** Hard stop with 10 explicit criteria (Lighthouse 3-run-median, audit ≥85, 0 critical bugs, ≥80% affiliate coverage, EN+HE 100% parity, 100% credited images ≥1200px, 0 raw hex, hreflang valid, schema validated, 0 broken links). Failure writes `data/quality-gate-failure.md` and halts.
 - **Granularity = coarse, Model = quality (Opus), Parallelization = on:** Per config.json. Phase 1 sub-phases parallelizable per ARCHITECTURE §8 bundles A-F.
+- [Phase 01-foundation-m1]: Plan 09 — Entity dict structure: 6 classes keyed top-level + \_meta documentation block; detector filters \_meta out via key === '\_meta' rather than nesting under classes:{} so plan 10 dashboard reads flat without unwrapping
+- [Phase 01-foundation-m1]: Plan 09 — Three-bucket suggestion policy with Set constants over inline ternary: AFFILIATE_CLASSES = hotel/tour/transport (add-affiliate when no AffiliateCard), INTERNAL_LINK_CLASSES = museum/religious_site/restaurant (add-internal-link when no Link), otherwise no-action. Set abstraction makes Phase 2 expansion one-line
+- [Phase 01-foundation-m1]: Plan 09 — .ts (not .mjs) for scripts/audit/scan-ner.ts via tsx: detector.ts imports without compile step or JS shim; filename and 'pnpm qa:ner' (= tsx scripts/audit/scan-ner.ts) extensions agree. Pattern adoptable for plan 10 audit scripts
+- [Phase 01-foundation-m1]: Plan 09 — Greenfield empty is success not error: scan-ner returns [] + exits 0 when .velite/ has no content. Lets plan 10 wire qa:ner into pre-deploy CI today and dashboard render the 0-mentions empty state without file-existence conditionals
+- [Phase 01-foundation-m1]: Plan 09 — religious_site overlap with religious-sites.json EN names ≥8 (test-pinned): same canonical entities, two consumers (NER detector + religious-naming audit AUD-017..020). Drift between dicts would silently disable cross-rule gating in plan 10
+- [Phase 01-foundation-m1]: Plan 09 — process.cwd() over import.meta.url in test path resolution: Vite test transform under jsdom doesn't always yield file: URL, causing fileURLToPath to throw. Vitest sets cwd to repo root reliably. Pattern reusable for future audit-script sandbox tests
 
 ### Pending Todos
 
@@ -124,6 +130,6 @@ None yet.
 
 ## Session Continuity
 
-Last session: 2026-05-11T02:49:17Z
-Stopped at: Completed .planning/phases/01-foundation-m1/08-seo-config-PLAN.md
+Last session: 2026-05-11T03:09:23.117Z
+Stopped at: Completed .planning/phases/01-foundation-m1/09-ner-detection-PLAN.md
 Resume file: None
