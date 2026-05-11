@@ -340,16 +340,17 @@ export function accessibilityStatementHref(lang: typeof locales[number]): string
 }
 ```
 
-Update `components/layout/Footer.tsx` (created in plan 05 with placeholder accessibility link):
+Update `components/layout/Footer.tsx` (created in plan 05 with placeholder accessibility link).
+
+CRITICAL: `<Footer>` is an RSC (no `'use client'` directive in plan 05). The next-intl v3 hook `useLocale` is a CLIENT hook and would force `'use client'` -- defeating the RSC tree and breaking the metadata-generator chain. Use the RSC-safe pattern from `.agents/skills/next-best-practices/SKILL.md` (RSC / client boundary):
 
 ```tsx
-import { useLocale } from 'next-intl';
-import Link from 'next-intl/link';
+import { getLocale } from 'next-intl/server';
+import { Link } from '@/i18n'; // next-intl v3 navigation Link (locale-aware)
 import { accessibilityStatementHref } from '@/lib/seo/accessibility-link';
 
-export function Footer() {
-  const locale = useLocale() as 'he' | 'en';
-  // ...
+export async function Footer() {
+  const locale = (await getLocale()) as 'he' | 'en';
   return (
     <footer>
       {/* ... other links */}
@@ -361,6 +362,10 @@ export function Footer() {
   );
 }
 ```
+
+Alternative pattern (also RSC-safe -- accept `locale` as a prop): the locale layout (`app/[locale]/layout.tsx`) already has `locale` in scope from `params`, so it can pass `<Footer locale={locale} />` and the Footer becomes a sync RSC. Pick whichever matches the plan 05 Footer signature; if plan 05 shipped `<Footer>` as a no-args RSC, prefer the `getLocale()` variant above.
+
+Reference: `.agents/skills/next-best-practices/SKILL.md` -- RSC vs client boundary (next-intl v3 RSC pattern).
 
 (NOTE: The accessibility-statement page itself is built in Phase 2.5; here we lock the link generator + footer wiring per A11Y-05 infrastructure.)
 

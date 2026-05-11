@@ -1,4 +1,4 @@
----
+﻿---
 phase: 01-foundation-m1
 plan: 11
 type: execute
@@ -26,13 +26,13 @@ requirements:
 must_haves:
   truths:
     - "`.lighthouserc.cjs` configured with `numberOfRuns: 3` + `aggregationMethod: 'median'`"
-    - "Mobile thresholds asserted: performance ≥0.90, accessibility ≥0.95, best-practices ≥0.95, SEO 1.00"
+    - "Mobile thresholds asserted: performance â‰¥0.90, accessibility â‰¥0.95, best-practices â‰¥0.95, SEO 1.00"
     - "`pnpm lhci autorun` exits 0 on a clean build; the GitHub Action blocks PR merge on threshold failure"
     - "Regression test harness `scripts/qa/regression-test.mjs` intentionally injects perf regression and proves the gate fires (Nyquist proof)"
     - "`data/lighthouse-results.json` persisted after each run (consumed by plan 10 AUD-034 + Quality Gate criterion 1)"
-    - "Lighthouse a11y ≥95 enforces A11Y-08; supplementary `audit_a11y.py` IS-5568 check runs in CI after Lighthouse"
+    - "Lighthouse a11y â‰¥95 enforces A11Y-08; supplementary `audit_a11y.py` IS-5568 check runs in CI after Lighthouse"
     - "`/admin/lighthouse/` RSC route renders latest median scores per page"
-    - "GitHub Action `treosh/lighthouse-ci-action@v12` used per STACK §5.2"
+    - "GitHub Action `treosh/lighthouse-ci-action@v12` used per STACK Â§5.2"
   artifacts:
     - path: ".lighthouserc.cjs"
       provides: "Lighthouse CI config with 3-run-median + assertions"
@@ -41,7 +41,7 @@ must_haves:
       provides: "GitHub Action invoking treosh/lighthouse-ci-action"
       contains: "treosh/lighthouse-ci-action"
     - path: "scripts/qa/regression-test.mjs"
-      provides: "Nyquist proof of gate-firing — injects 5MB image, asserts non-zero exit, reverts"
+      provides: "Nyquist proof of gate-firing â€” injects 5MB image, asserts non-zero exit, reverts"
       contains: "regression"
     - path: "app/[locale]/admin/lighthouse/page.tsx"
       provides: "RSC view of latest Lighthouse medians"
@@ -66,9 +66,9 @@ must_haves:
 ---
 
 <objective>
-Ship `@lhci/cli` with the canonical 3-run-median config, the GitHub Action `treosh/lighthouse-ci-action@v12` that blocks PR merge on threshold failure, the `scripts/qa/regression-test.mjs` harness that intentionally injects a performance regression and proves the gate fires (Nyquist proof of gate-firing), `data/lighthouse-results.json` persisted, the `/admin/lighthouse/` RSC view, and the `audit_a11y.py` IS-5568 supplementary CI invocation that complements Lighthouse a11y ≥95.
+Ship `@lhci/cli` with the canonical 3-run-median config, the GitHub Action `treosh/lighthouse-ci-action@v12` that blocks PR merge on threshold failure, the `scripts/qa/regression-test.mjs` harness that intentionally injects a performance regression and proves the gate fires (Nyquist proof of gate-firing), `data/lighthouse-results.json` persisted, the `/admin/lighthouse/` RSC view, and the `audit_a11y.py` IS-5568 supplementary CI invocation that complements Lighthouse a11y â‰¥95.
 
-Purpose: AUD-03 (Lighthouse mobile 3-run-median thresholds asserted, deploy blocked on regression) + A11Y-08 (a11y ≥95 + axe-core + IS-5568 supplementary) close the Phase 1 quality gate loop. Without this plan, Phase 2.6 cannot execute Quality Gate criterion 1 (Lighthouse mobile 3-run-median).
+Purpose: AUD-03 (Lighthouse mobile 3-run-median thresholds asserted, deploy blocked on regression) + A11Y-08 (a11y â‰¥95 + axe-core + IS-5568 supplementary) close the Phase 1 quality gate loop. Without this plan, Phase 2.6 cannot execute Quality Gate criterion 1 (Lighthouse mobile 3-run-median).
 
 Output: Working Lighthouse CI pipeline + regression-proof + dashboard view + GitHub Action + IS-5568 supplementary integration. The Quality Gate report generator (plan 10) can now read `data/lighthouse-results.json` and evaluate criterion 1.
 </objective>
@@ -98,8 +98,8 @@ Consumed (from prior plans):
 - `scripts/audit_a11y_wrapper.mjs` scaffolded (plan 10)
 
 Published:
-- `data/lighthouse-results.json` — consumed by plan 10's AUD-034 rule + `scripts/audit/quality-gate.ts`
-- `/admin/lighthouse/` route — visual view of latest Lighthouse medians
+- `data/lighthouse-results.json` â€” consumed by plan 10's AUD-034 rule + `scripts/audit/quality-gate.ts`
+- `/admin/lighthouse/` route â€” visual view of latest Lighthouse medians
 </interfaces>
 </context>
 
@@ -111,7 +111,7 @@ Published:
   <action>
 Install: `pnpm add -D @lhci/cli`.
 
-Create `.lighthouserc.cjs` VERBATIM from RESEARCH.md §1.10 "Concrete steps" + STACK §5.2:
+Create `.lighthouserc.cjs` VERBATIM from RESEARCH.md Â§1.10 "Concrete steps" + STACK Â§5.2:
 
 ```js
 module.exports = {
@@ -155,13 +155,13 @@ module.exports = {
     },
     upload: {
       target: 'temporary-public-storage',
-      // 90-day retention deferred to Phase 6 DEP-04 — Vercel-hosted LHCI server.
+      // 90-day retention deferred to Phase 6 DEP-04 â€” Vercel-hosted LHCI server.
     },
   },
 };
 ```
 
-Open Question 8 from RESEARCH §5 — confirmed: `startServerCommand: 'pnpm start'` works because Next.js + next-intl does NOT static-export. The `startServerReadyPattern: 'Ready in'` matches Next.js 15.5 boot output.
+Open Question 8 from RESEARCH Â§5 â€” confirmed: `startServerCommand: 'pnpm start'` works because Next.js + next-intl does NOT static-export. The `startServerReadyPattern: 'Ready in'` matches Next.js 15.5 boot output.
 
 Add to `package.json`:
 ```json
@@ -175,7 +175,7 @@ Add to `package.json`:
 }
 ```
 
-Create `data/lighthouse-results.json` as empty `{}` (or an empty array `[]` — match the AUD-034 rule's expectation; if rule expects array, use `[]`). Add post-run hook to write a deterministic summary.
+Create `data/lighthouse-results.json` as empty `{}` (or an empty array `[]` â€” match the AUD-034 rule's expectation; if rule expects array, use `[]`). Add post-run hook to write a deterministic summary.
 
 Add to `.gitignore`:
 ```
@@ -205,7 +205,15 @@ Invoked via `scripts/audit_a11y_wrapper.mjs` in CI after Lighthouse run complete
 ```
   </action>
   <verify>
-    <automated>pnpm build &amp;&amp; pnpm start &amp; sleep 5 &amp;&amp; pnpm lhci autorun || true</automated>
+    <!--
+      Local automated check: build succeeds AND .lighthouserc.cjs parses.
+      The actual pnpm lhci autorun (3-run-median + threshold assertion) runs
+      in GitHub Actions on ubuntu-latest via .github/workflows/lighthouse.yml
+      (created in task 2). Do NOT use || true here â€” masking gate failures
+      defeats the purpose of having a gate.
+    -->
+    <automated>pnpm build &amp;&amp; node -e "require('./.lighthouserc.cjs')"</automated>
+    <manual>CI: .github/workflows/lighthouse.yml runs pnpm lhci autorun on ubuntu-latest per PR; threshold failure blocks merge.</manual>
   </verify>
   <done>`.lighthouserc.cjs` exists with locked thresholds; `pnpm lhci autorun` boots server + runs 3-run-median + asserts; greenfield app passes all 4 categories (perf, a11y, best-practices, SEO).</done>
 </task>
@@ -214,7 +222,7 @@ Invoked via `scripts/audit_a11y_wrapper.mjs` in CI after Lighthouse run complete
   <name>Task 2: Build GitHub Action `.github/workflows/lighthouse.yml` + `/admin/lighthouse/` RSC view</name>
   <files>.github/workflows/lighthouse.yml, app/[locale]/admin/lighthouse/page.tsx</files>
   <action>
-Per RESEARCH.md §1.10 verbatim:
+Per RESEARCH.md Â§1.10 verbatim:
 
 Create `.github/workflows/lighthouse.yml`:
 ```yaml
@@ -262,7 +270,7 @@ jobs:
           path: data/a11y-il-results.json
 ```
 
-The action `treosh/lighthouse-ci-action@v12` (per RESEARCH §5 Open Question 8) supports Next.js 15.5 + `startServerCommand` path.
+The action `treosh/lighthouse-ci-action@v12` (per RESEARCH Â§5 Open Question 8) supports Next.js 15.5 + `startServerCommand` path.
 
 Create `app/[locale]/admin/lighthouse/page.tsx`:
 ```tsx
@@ -306,7 +314,7 @@ export default async function LighthousePage() {
 
 Note: This route is gated by the basic-auth middleware (plan 10).
 
-The actual population of `data/lighthouse-results.json` happens via post-run hook — see task 3 for the regression test which also exercises persistence.
+The actual population of `data/lighthouse-results.json` happens via post-run hook â€” see task 3 for the regression test which also exercises persistence.
 
 Persistence: Add a small post-`lhci` script `scripts/qa/persist-lhci.mjs` that reads `.lighthouseci/` after autorun completes and writes a flat array `[{ url, performance, accessibility, ... }]` to `data/lighthouse-results.json`. Wire into `package.json`:
 ```json
@@ -323,18 +331,18 @@ Persistence: Add a small post-`lhci` script `scripts/qa/persist-lhci.mjs` that r
   <name>Task 3: Build `scripts/qa/regression-test.mjs` Nyquist proof harness + tests</name>
   <files>scripts/qa/regression-test.mjs, tests/lighthouse/regression-test.test.ts, package.json</files>
   <behavior>
-    - Test: Running `node scripts/qa/regression-test.mjs` against a small clean app → script asserts that a freshly-built app passes thresholds, then INJECTS a 5MB image into a sample page, REBUILDS, runs lhci, expects NON-ZERO exit (gate fires), then RESTORES the original image
+    - Test: Running `node scripts/qa/regression-test.mjs` against a small clean app â†’ script asserts that a freshly-built app passes thresholds, then INJECTS a 5MB image into a sample page, REBUILDS, runs lhci, expects NON-ZERO exit (gate fires), then RESTORES the original image
     - Test: Final state after the harness is clean (no leftover 5MB image, original asset back in place)
-    - Test: Harness produces a clear PASS/FAIL line to stdout — PASS means "the gate fired when regression was introduced"; FAIL means "gate didn't fire (BROKEN gate)"
+    - Test: Harness produces a clear PASS/FAIL line to stdout â€” PASS means "the gate fired when regression was introduced"; FAIL means "gate didn't fire (BROKEN gate)"
   </behavior>
   <action>
-Per RESEARCH.md §1.10 verbatim:
+Per RESEARCH.md Â§1.10 verbatim:
 
 Create `scripts/qa/regression-test.mjs`:
 
 ```js
 #!/usr/bin/env node
-// scripts/qa/regression-test.mjs — Nyquist proof of Lighthouse gate firing.
+// scripts/qa/regression-test.mjs â€” Nyquist proof of Lighthouse gate firing.
 // Runs once during 1.10 sub-phase verification AND can be re-run on demand to prove the gate still fires.
 //
 // 1. Snapshot the current sample hero image (small/optimal)
@@ -350,14 +358,14 @@ import { spawnSync } from 'node:child_process';
 import { existsSync } from 'node:fs';
 import { Buffer } from 'node:buffer';
 
-// We use a TEST asset specifically created for this harness — not a real content image.
+// We use a TEST asset specifically created for this harness â€” not a real content image.
 const REAL = 'public/images/regression-test-hero.jpg';
 const BACKUP = 'public/images/regression-test-hero.jpg.original';
 
 async function ensureSetup() {
   // If the test image doesn't exist, create a small dummy ~50KB image
   if (!existsSync(REAL)) {
-    // 50KB random buffer (JPEG header + filler) — Sharp won't probe it properly but Lighthouse runs against the page rendering, not the image
+    // 50KB random buffer (JPEG header + filler) â€” Sharp won't probe it properly but Lighthouse runs against the page rendering, not the image
     // For deterministic test, generate a 50KB buffer with a JPEG SOI marker
     const small = Buffer.alloc(50 * 1024, 0);
     small[0] = 0xFF; small[1] = 0xD8; // JPEG SOI marker (placeholder; actual rendering in test page may fail, but Lighthouse perf still hits download cost)
@@ -401,10 +409,10 @@ function runLhci() {
   await restore();
 
   if (exitCode !== 0) {
-    console.log('REGRESSION TEST: PASS — Lighthouse gate fired (exit non-zero) when regression was introduced.');
+    console.log('REGRESSION TEST: PASS â€” Lighthouse gate fired (exit non-zero) when regression was introduced.');
     process.exit(0);
   } else {
-    console.error('REGRESSION TEST: FAIL — Lighthouse gate did NOT fire. Quality gate is broken.');
+    console.error('REGRESSION TEST: FAIL â€” Lighthouse gate did NOT fire. Quality gate is broken.');
     process.exit(1);
   }
 })();
@@ -413,12 +421,12 @@ function runLhci() {
 Add `"qa:lighthouse-regression": "node scripts/qa/regression-test.mjs"` to `package.json`.
 
 Create `tests/lighthouse/regression-test.test.ts`:
-- The test spawns `node scripts/qa/regression-test.mjs` as a subprocess (long-running — may take 60s; tag with `it.skip` or `it.runIf(process.env.RUN_LH_REGRESSION)`)
-- Asserts exit code 0 (= "PASS — gate fired")
+- The test spawns `node scripts/qa/regression-test.mjs` as a subprocess (long-running â€” may take 60s; tag with `it.skip` or `it.runIf(process.env.RUN_LH_REGRESSION)`)
+- Asserts exit code 0 (= "PASS â€” gate fired")
 - Verifies that AFTER the test, the original image is restored (no leftover 5MB file)
 - Asserts no `.original` backup file remains
 
-Mark the test as `it.skipIf(!process.env.RUN_LH_REGRESSION, 'Set RUN_LH_REGRESSION=1 to enable — takes ~60s')` so it doesn't slow the default test suite. The harness MUST still be runnable on demand AND verified to PASS at least once during plan 11 execution (a manual+automated verification — operator confirms exit 0 by running the script and committing the output to `data/lighthouse-regression-proof.txt` as evidence).
+Mark the test as `it.skipIf(!process.env.RUN_LH_REGRESSION, 'Set RUN_LH_REGRESSION=1 to enable â€” takes ~60s')` so it doesn't slow the default test suite. The harness MUST still be runnable on demand AND verified to PASS at least once during plan 11 execution (a manual+automated verification â€” operator confirms exit 0 by running the script and committing the output to `data/lighthouse-regression-proof.txt` as evidence).
 
 Update RESEARCH.md Open Question 8 resolution: confirmed the GitHub Action path; the regression-test is the local Nyquist proof.
   </action>
@@ -434,7 +442,7 @@ Update RESEARCH.md Open Question 8 resolution: confirmed the GitHub Action path;
 End of plan 11 checks:
 
 1. **AUD-03**: `pnpm lhci autorun` exits 0 on clean greenfield build (placeholder pages should easily hit all 4 thresholds); `scripts/qa/regression-test.mjs` exits 0 (proving the gate fires on regression).
-2. **A11Y-08**: Lighthouse a11y ≥0.95 enforced; axe-core CI gate present (plan 10); `audit_a11y.py` IS-5568 supplementary check invoked via wrapper after Lighthouse run; results uploaded as artifact.
+2. **A11Y-08**: Lighthouse a11y â‰¥0.95 enforced; axe-core CI gate present (plan 10); `audit_a11y.py` IS-5568 supplementary check invoked via wrapper after Lighthouse run; results uploaded as artifact.
 3. `/admin/lighthouse/` route renders.
 4. GitHub Action runs on every PR + push to main, blocks merge on threshold failure.
 5. `data/lighthouse-results.json` persisted after each run; consumed by plan 10 AUD-034 rule + Quality Gate criterion 1.
@@ -454,5 +462,5 @@ End of plan 11 checks:
 <output>
 After completion, create `.planning/phases/01-foundation-m1/11-lighthouse-ci-SUMMARY.md` documenting: lhci config thresholds, GitHub Action workflow, regression-test PASS evidence, `data/lighthouse-results.json` integration with AUD-034.
 
-This is the LAST plan in Phase 1. At end of plan 11, the Phase 1 (M1) audit gate should be complete — Phase 2 (Pilot Jerusalem) can begin with full enforcement of every Argentina root-cause fix.
+This is the LAST plan in Phase 1. At end of plan 11, the Phase 1 (M1) audit gate should be complete â€” Phase 2 (Pilot Jerusalem) can begin with full enforcement of every Argentina root-cause fix.
 </output>

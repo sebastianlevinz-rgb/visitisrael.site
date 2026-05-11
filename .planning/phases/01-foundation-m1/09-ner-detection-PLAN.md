@@ -14,7 +14,7 @@ files_modified:
   - lib/ner/detector.ts
   - lib/ner/__tests__/detector.test.ts
   - lib/ner/__tests__/entity-dict.test.ts
-  - scripts/audit/scan-ner.mjs
+  - scripts/audit/scan-ner.ts
   - tests/ner/scan-ner.test.ts
 autonomous: true
 requirements:
@@ -25,7 +25,7 @@ must_haves:
     - "`detectMentions(mdxBody, lang)` returns `Mention[]` with entity, class, span, suggestedAction"
     - "Sample MDX mentioning 'Abraham Hostel' WITHOUT `<AffiliateCard partner=\"hostelworld\">` nearby → emits `{ class: 'hotel', suggestedAction: 'add-affiliate' }`"
     - "Sample MDX mentioning 'Yad Vashem' WITHOUT `<Link>` to internal sub-dest → emits `{ class: 'museum', suggestedAction: 'add-internal-link' }`"
-    - "`scripts/audit/scan-ner.mjs` runs detector across all built Velite output; writes `data/ner-results.json`"
+    - "`scripts/audit/scan-ner.ts` runs detector across all built Velite output via `tsx`; writes `data/ner-results.json`"
     - "Detector handles both Hebrew and English text passages"
   artifacts:
     - path: "data/entity-dict.json"
@@ -34,15 +34,15 @@ must_haves:
     - path: "lib/ner/detector.ts"
       provides: "detectMentions(body, lang): Mention[]"
       contains: "matchAll"
-    - path: "scripts/audit/scan-ner.mjs"
-      provides: "Integration script — feeds plan 10 audit dashboard"
+    - path: "scripts/audit/scan-ner.ts"
+      provides: "Integration script (run via tsx) — feeds plan 10 audit dashboard"
       contains: "ner-results.json"
   key_links:
     - from: "lib/ner/detector.ts"
       to: "data/entity-dict.json"
       via: "iterates classes × entities"
       pattern: "Object.entries\\(dict"
-    - from: "scripts/audit/scan-ner.mjs"
+    - from: "scripts/audit/scan-ner.ts"
       to: "lib/ner/detector.ts"
       via: "runs detector on each Velite output body"
       pattern: "detectMentions"
@@ -90,8 +90,8 @@ export function detectMentions(body: string, lang: 'he' | 'en'): Mention[];
 ```
 
 ```bash
-# CLI consumed by plan 10
-node scripts/audit/scan-ner.mjs
+# CLI consumed by plan 10 (registered as `pnpm qa:ner` in package.json)
+pnpm exec tsx scripts/audit/scan-ner.ts
 # writes data/ner-results.json
 ```
 </interfaces>
@@ -247,8 +247,8 @@ For Hebrew test: dictionary currently has only English entries; the detector han
 </task>
 
 <task type="auto" tdd="true">
-  <name>Task 3: Build `scripts/audit/scan-ner.mjs` integration script + Vitest test</name>
-  <files>scripts/audit/scan-ner.mjs, package.json, tests/ner/scan-ner.test.ts</files>
+  <name>Task 3: Build `scripts/audit/scan-ner.ts` integration script (run via tsx) + Vitest test</name>
+  <files>scripts/audit/scan-ner.ts, package.json, tests/ner/scan-ner.test.ts</files>
   <behavior>
     - Test: Given a temp dir with `.velite/regions.json` (or similar) containing sample MDX bodies → script runs `detectMentions` per body → writes `data/ner-results.json`
     - Test: Output JSON has shape `Array<{ slug, lang, mentions: Mention[] }>`
@@ -256,16 +256,21 @@ For Hebrew test: dictionary currently has only English entries; the detector han
     - Test: Output is sorted by slug for deterministic snapshots
   </behavior>
   <action>
-Create `scripts/audit/scan-ner.mjs`:
+Install tsx if not yet present: `pnpm add -D tsx`.
 
-```js
-#!/usr/bin/env node
-// scripts/audit/scan-ner.mjs — runs NER detector across Velite output and writes data/ner-results.json
+Create `scripts/audit/scan-ner.ts` (NOT `.mjs` — we standardize on `.ts` + `tsx` so the script can import `lib/ner/detector.ts` directly without extension juggling or a JS-compilation shim):
+
+```ts
+#!/usr/bin/env tsx
+// scripts/audit/scan-ner.ts — runs NER detector across Velite output and writes data/ner-results.json.
+// Invoked via `pnpm qa:ner` (= `tsx scripts/audit/scan-ner.ts`).
 import { readFile, writeFile } from 'node:fs/promises';
 import { glob } from 'glob';
-import { detectMentions } from '../../lib/ner/detector.js'; // adjust if compilation needed
+import { detectMentions } from '../../lib/ner/detector'; // tsx resolves .ts — NO extension
 
-const out = [];
+type NerEntry = { slug: string; lang: 'he' | 'en'; mentions: ReturnType<typeof detectMentions> };
+
+const out: NerEntry[] = [];
 
 // Phase 1: content is empty, so no Velite outputs exist. Script must NOT crash.
 const veliteFiles = await glob('.velite/*.json');
@@ -285,14 +290,13 @@ await writeFile('data/ner-results.json', JSON.stringify(out, null, 2));
 console.log(`NER scan OK (${out.length} pages, ${out.reduce((a, b) => a + b.mentions.length, 0)} mentions).`);
 ```
 
-Important: The script imports from `lib/ner/detector.ts` — since the script is `.mjs` and detector is `.ts`, either:
-- Use `pnpm exec tsx scripts/audit/scan-ner.mjs` (tsx handles TS imports in scripts)
-- OR compile detector to JS first (more complex)
-- Recommended: `pnpm add -D tsx`; change script to `tsx scripts/audit/scan-ner.ts`
-
-Convert script to `.ts` if simpler with tsx; otherwise embed a minimal compiled JS detector for the script's use.
-
 Add `qa:ner` script in `package.json`: `"qa:ner": "tsx scripts/audit/scan-ner.ts"`.
+
+Rationale for `.ts` over `.mjs`:
+- `detector.ts` is TypeScript — a `.mjs` script can't import it without a compilation step or a `.js` shim
+- `tsx` (in devDeps after the install above) makes `.ts` script files first-class
+- Single source of truth for types; no `detector.js` artifact needed
+- Filename and the `qa:ner` script invocation now agree (was: `.mjs` filename but `tsx ... .ts` script — broken)
 
 Create `tests/ner/scan-ner.test.ts`:
 - Set up a temp `.velite/` with a fake `regions.json` containing sample MDX bodies
@@ -325,7 +329,7 @@ End of plan 09 checks:
 - 6 entity classes × ≥10 entities each in `data/entity-dict.json`
 - Detector exports `detectMentions(body, lang): Mention[]`
 - Suggestion heuristic: add-affiliate (hotel/tour/transport without nearby AffiliateCard) vs add-internal-link (museum/religious_site/restaurant without nearby Link) vs no-action
-- Integration script `scripts/audit/scan-ner.mjs` writes `data/ner-results.json`
+- Integration script `scripts/audit/scan-ner.ts` (run via tsx) writes `data/ner-results.json`
 - All Vitest tests pass (~15 NER tests across 3 files)
 - VALIDATION row FND-07 green
 </success_criteria>

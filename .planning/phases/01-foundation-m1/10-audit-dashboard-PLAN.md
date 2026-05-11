@@ -473,7 +473,44 @@ export default async function AuditPage() {
 
 Create `app/[locale]/admin/audit/[slug]/page.tsx` — per-page drill-down showing each issue with severity, rule, message.
 
-Create `app/[locale]/admin/audit/quality-gate/page.tsx` — runs `pnpm qa:quality-gate` via server-side child_process, renders the resulting markdown file.
+Create `app/[locale]/admin/audit/quality-gate/page.tsx` — RSC that ONLY reads the pre-written `data/quality-gate-pass.md` or `data/quality-gate-failure.md` file via `fs.readFile` (server-side, RSC-safe) and renders it.
+
+CRITICAL — DO NOT spawn `pnpm qa:quality-gate` (or any `child_process`) from inside the RSC render path. The Vercel runtime does NOT allow `child_process` from RSCs; this would crash in production (and even in local `pnpm start` it's an antipattern — RSC renders should be side-effect-free reads). The CLI `pnpm qa:quality-gate` is a separate build / pre-deploy step that writes the markdown file — the RSC merely surfaces what's already on disk.
+
+Pattern:
+```tsx
+import { readFile } from 'node:fs/promises';
+import { existsSync } from 'node:fs';
+
+export const metadata = { robots: { index: false, follow: false } };
+export const dynamic = 'force-dynamic'; // re-read file on each request
+
+export default async function QualityGatePage() {
+  const passPath = 'data/quality-gate-pass.md';
+  const failPath = 'data/quality-gate-failure.md';
+  let status: 'pass' | 'fail' | 'unknown' = 'unknown';
+  let body = 'Quality gate has not been run yet. Run `pnpm qa:quality-gate` locally or in CI to populate.';
+  if (existsSync(failPath)) {
+    status = 'fail';
+    body = await readFile(failPath, 'utf8');
+  } else if (existsSync(passPath)) {
+    status = 'pass';
+    body = await readFile(passPath, 'utf8');
+  }
+  return (
+    <main>
+      <h1>Quality Gate ({status})</h1>
+      <pre>{body}</pre>
+    </main>
+  );
+}
+```
+
+Where does `pnpm qa:quality-gate` actually run?
+- Locally: developer invokes `pnpm qa:quality-gate` after a `pnpm qa:audit` run; the script writes the MD file; refresh the RSC route to view.
+- CI: a pre-deploy GitHub Action step (see plan 11's workflow or a follow-on phase 2.6 workflow) runs `pnpm qa:audit && pnpm qa:quality-gate` and either commits the MD file or uploads it as an artifact + fails the deploy on non-zero exit. The deploy gate lives in CI, NOT in the RSC route.
+
+The `truths` line in this plan's frontmatter ("`/admin/audit/quality-gate/` route runs `pnpm qa:quality-gate` and renders the report") is reworded below — the route RENDERS the report; the CLI generates it.
 
 Create `app/api/admin/audit/route.ts`:
 ```ts

@@ -1,4 +1,4 @@
----
+﻿---
 phase: 01-foundation-m1
 plan: 01
 type: execute
@@ -46,10 +46,14 @@ requirements:
   - I18N-06
   - A11Y-01
   - A11Y-07
-  - AFF-04
-  - AFF-05
   - SEO-05
-  - AUD-04
+  # NOTE: AFF-04, AFF-05, AUD-04 are partially scaffolded here
+  # (ESLint flat-config rules loaded, Husky pre-commit hook installed)
+  # but full satisfaction/verification belongs to:
+  #   AFF-05 fixture firing  -> plan 02 (raw-hex / raw-partner / physical-dir fixtures)
+  #   AFF-04 partner-URL ban -> plan 06 (real helper bypass fixtures + Israel-destination tests)
+  #   AUD-04 pre-commit gate -> plan 10 (hook firing on a real violation fixture)
+  # Listing here would over-claim coverage; the three IDs remain in plans 02/06/10.
 must_haves:
   truths:
     - "`pnpm dev` boots Next.js 15.5 on localhost:3000"
@@ -91,9 +95,9 @@ must_haves:
 ---
 
 <objective>
-Boot the Next.js 15.5 + TS strict + Tailwind v4 + next-intl v3 scaffold with HE at root and EN at `/en/`, register ESLint flat config with the 3 inviolable rules (hex ban, partner URL ban, physical directional util ban), install Vitest + Husky + lint-staged + Plausible, and stand up the Velite content pipeline. This plan is the root of the Phase 1 DAG — every subsequent plan depends on this being green.
+Boot the Next.js 15.5 + TS strict + Tailwind v4 + next-intl v3 scaffold with HE at root and EN at `/en/`, register ESLint flat config with the 3 inviolable rules (hex ban, partner URL ban, physical directional util ban), install Vitest + Husky + lint-staged + Plausible, and stand up the Velite content pipeline. This plan is the root of the Phase 1 DAG â€” every subsequent plan depends on this being green.
 
-Purpose: Establish the toolchain that enforces all downstream invariants (Argentina lessons #1, #2, #7 — no raw hex, no raw partner URLs, no physical RTL utilities — must fire from commit 1).
+Purpose: Establish the toolchain that enforces all downstream invariants (Argentina lessons #1, #2, #7 â€” no raw hex, no raw partner URLs, no physical RTL utilities â€” must fire from commit 1).
 
 Output: A buildable, deployable, lint-clean, type-clean, test-clean Next.js app with HE+EN routing, FR-ready filesystem/types/Velite, and the linting/test/hook pipeline operational.
 </objective>
@@ -117,19 +121,19 @@ Output: A buildable, deployable, lint-clean, type-clean, test-clean Next.js app 
 @.agents/skills/israeli-accessibility-compliance/SKILL.md
 
 <conflict_resolutions>
-Conflict A (locales) — LOCKED:
+Conflict A (locales) â€” LOCKED:
 - `i18n-config.ts` registers EN+HE ONLY at launch
 - Filesystem/types/Velite accept `'he' | 'en' | 'fr'` for cheap FR addition later
 - Hreflang/sitemap generators iterate REGISTERED locales (`locales`), NOT `allowedLangs`
 
-Source: SUMMARY.md §3 Conflict A; PITFALLS §3.11 wins on registration; ARCHITECTURE §1.3 wins on filesystem readiness.
+Source: SUMMARY.md Â§3 Conflict A; PITFALLS Â§3.11 wins on registration; ARCHITECTURE Â§1.3 wins on filesystem readiness.
 </conflict_resolutions>
 
 <interfaces>
 The contracts this plan establishes (consumed by every downstream plan):
 
 ```ts
-// i18n-config.ts — single source of truth
+// i18n-config.ts â€” single source of truth
 export const locales = ['he', 'en'] as const;
 export const defaultLocale = 'he' as const;
 export const allowedLangs = ['he', 'en', 'fr'] as const;
@@ -138,12 +142,12 @@ export type AllowedLang = (typeof allowedLangs)[number];
 ```
 
 ```ts
-// Velite collection (velite.config.ts) — accepts FR for filesystem readiness
+// Velite collection (velite.config.ts) â€” accepts FR for filesystem readiness
 const collection = s.object({
   lang: s.enum(['he', 'en', 'fr']),
   title: s.string().max(70),
   description: s.string().min(120).max(160),
-  // … per collection
+  // â€¦ per collection
 });
 ```
 </interfaces>
@@ -155,7 +159,7 @@ const collection = s.object({
   <name>Task 1: Initialize Next.js 15.5 + pnpm + Tailwind v4 + all dependencies</name>
   <files>package.json, pnpm-lock.yaml, tsconfig.json, next.config.ts, app/globals.css, .gitignore, vercel.json</files>
   <action>
-Follow RESEARCH.md §1.1 "Concrete steps" verbatim:
+Follow RESEARCH.md Â§1.1 "Concrete steps" verbatim:
 
 1. `pnpm init` then `pnpm dlx create-next-app@15.5 . --typescript --tailwind --app --src-dir=false --import-alias="@/*" --no-eslint --no-git --use-pnpm`
 2. Install Tailwind v4: `pnpm add -D tailwindcss@^4 @tailwindcss/postcss` + `pnpm add clsx tailwind-merge`
@@ -178,7 +182,7 @@ Add to `.gitignore`: `.env.local`, `.velite`, `node_modules`, `.next`, `out`, `c
 
 Add scripts to `package.json`: `dev`, `build`, `start`, `lint`, `lint:fix`, `typecheck`, `test`, `test:watch`, `validate:schema`, `validate:credits`, `gate:report`, `qa:credits`, `qa:schema`, `lhci`.
 
-DO NOT install `eslint-plugin-tailwindcss` configuration for v4 yet if the plugin's v4 support is beta — use the `eslint-plugin-tailwindcss/no-arbitrary-value` rule only. Fall back to `no-restricted-syntax` hex regex if plugin fails to load.
+DO NOT install `eslint-plugin-tailwindcss` configuration for v4 yet if the plugin's v4 support is beta â€” use the `eslint-plugin-tailwindcss/no-arbitrary-value` rule only. Fall back to `no-restricted-syntax` hex regex if plugin fails to load.
   </action>
   <verify>
     <automated>pnpm install &amp;&amp; pnpm build &amp;&amp; pnpm typecheck</automated>
@@ -198,7 +202,7 @@ DO NOT install `eslint-plugin-tailwindcss` configuration for v4 yet if the plugi
     - Test: `app/[locale]/layout.tsx` renders `<html lang="he" dir="rtl">` for locale=he; `<html lang="en" dir="ltr">` for locale=en
   </behavior>
   <action>
-Per RESEARCH.md §1.1:
+Per RESEARCH.md Â§1.1:
 
 Create `i18n-config.ts`:
 ```ts
@@ -220,11 +224,11 @@ Create `app/[locale]/layout.tsx`:
 - Inject `NextIntlClientProvider`
 - Load fonts via `next/font/google` with `subsets:['hebrew','latin']` and `display:'swap'`: Heebo + Assistant + Frank Ruhl Libre
 - Wrap children in `<PlausibleProvider domain={process.env.NEXT_PUBLIC_PLAUSIBLE_DOMAIN}>` (no-op if env missing)
-- Include `<div id="main-content">` wrapper (skip-link target — A11Y per `israeli-accessibility-compliance/SKILL.md`)
+- Include `<div id="main-content">` wrapper (skip-link target â€” A11Y per `israeli-accessibility-compliance/SKILL.md`)
 
-Create `app/[locale]/page.tsx` — minimal placeholder homepage rendering "Visit Israel — placeholder".
+Create `app/[locale]/page.tsx` â€” minimal placeholder homepage rendering "Visit Israel â€” placeholder".
 
-Create `messages/he.json`, `messages/en.json` (skeletal namespace stubs `{ "common": { "siteName": "..." } }`), `messages/fr.json` (empty `{}` — Conflict A scaffold).
+Create `messages/he.json`, `messages/en.json` (skeletal namespace stubs `{ "common": { "siteName": "..." } }`), `messages/fr.json` (empty `{}` â€” Conflict A scaffold).
 
 Create `content/he/.gitkeep`, `content/en/.gitkeep`, `content/fr/.gitkeep` (FR scaffold per Conflict A).
 
@@ -232,7 +236,7 @@ Create `velite.config.ts` with collections `regions`, `subDestinations`, `guides
 
 Create `tests/i18n-config.test.ts` and `tests/velite-config.test.ts` per behavior block.
 
-Create `vitest.config.ts` with `environment: 'jsdom'`, `setupFiles: ['./vitest.setup.ts']`, alias `@/` → root, `coverage.provider: 'v8'`. Create `vitest.setup.ts` extending `expect` with `@testing-library/jest-dom`.
+Create `vitest.config.ts` with `environment: 'jsdom'`, `setupFiles: ['./vitest.setup.ts']`, alias `@/` -> root, `coverage.provider: 'v8'`. Create `vitest.setup.ts` extending `expect` with `@testing-library/jest-dom`.
   </action>
   <verify>
     <automated>pnpm test --run tests/i18n-config tests/velite-config &amp;&amp; pnpm build &amp;&amp; grep -q 'html lang="he" dir="rtl"' .next/server/app/index.html || grep -q 'html lang' .next/server/app/page.html</automated>
@@ -244,16 +248,16 @@ Create `vitest.config.ts` with `environment: 'jsdom'`, `setupFiles: ['./vitest.s
   <name>Task 3: Configure ESLint flat config with 3 inviolable rules + Prettier + Husky pre-commit + lint-staged + Plausible + .env.example</name>
   <files>eslint.config.js, .prettierrc.json, .husky/pre-commit, .husky/pre-push, lint-staged.config.js, .env.example, .env.local.example, data/dev-prereqs.md, app/[locale]/layout.tsx</files>
   <action>
-Per RESEARCH.md §1.1 "ESLint flat config sketch":
+Per RESEARCH.md Â§1.1 "ESLint flat config sketch":
 
-Create `eslint.config.js` with the EXACT structure from RESEARCH.md §1.1 (copy-paste the sketch). Three rules:
+Create `eslint.config.js` with the EXACT structure from RESEARCH.md Â§1.1 (copy-paste the sketch). Three rules:
 1. `tailwindcss/no-arbitrary-value: 'error'` (and `tailwindcss/no-unnecessary-arbitrary-value: 'error'`, `tailwindcss/classnames-order: 'warn'`)
 2. `no-restricted-syntax: ['error', ...]` with selectors for: (a) inline style hex `style={{ color: '#fff' }}`, (b) raw partner URL literals matching `booking|civitatis|getyourguide|viator|rentalcars|safetywing|skyscanner|hostelworld|klook|gocity|discovercars`, (c) physical Tailwind directional utilities matching `\b(ml-|mr-|pl-|pr-|left-|right-|border-l\b|border-r\b|rounded-l\b|rounded-r\b|text-left|text-right|scroll-ml-|scroll-mr-)\d?`
 3. Escape hatch: `{ files: ['lib/affiliate/**/*.ts', 'tailwind.config.ts', 'app/globals.css'], rules: { 'no-restricted-syntax': 'off' } }`
 
 Also include `@next/next/no-img-element: 'error'` (forces use of `next/image`) and `eslint-plugin-jsx-a11y` recommended config.
 
-Set `settings.tailwindcss.config = 'tailwind.config.ts'` for plugin compatibility (Open Question 1 per RESEARCH §5).
+Set `settings.tailwindcss.config = 'tailwind.config.ts'` for plugin compatibility (Open Question 1 per RESEARCH Â§5).
 
 Create `.prettierrc.json` with `prettier-plugin-tailwindcss` plugin reference.
 
@@ -264,21 +268,21 @@ export default {
   '*.{json,md,mdx,css}': ['prettier --write'],
 };
 ```
-(Schema + photo-credits validators are appended in plans 04 and 03 respectively per RESEARCH §4.2.)
+(Schema + photo-credits validators are appended in plans 04 and 03 respectively per RESEARCH Â§4.2.)
 
 Create `.husky/pre-commit` that runs `pnpm lint-staged`.
 Create `.husky/pre-push` that runs `pnpm qa:credits && pnpm qa:schema` (scripts exist as no-op placeholders for now; populated by plans 03 and 04).
 
 Create `.env.example` with placeholder entries:
 ```
-# Plausible (FND-08 — default; PostHog fallback documented in data/dev-prereqs.md)
+# Plausible (FND-08 â€” default; PostHog fallback documented in data/dev-prereqs.md)
 NEXT_PUBLIC_PLAUSIBLE_DOMAIN=
 
-# Admin (used by audit dashboard basic-auth — plan 10)
+# Admin (used by audit dashboard basic-auth â€” plan 10)
 ADMIN_USER=
 ADMIN_PASS=
 
-# Affiliate AIDs (populated in plan 06 — Conflict D: 9 real + 2 stubs)
+# Affiliate AIDs (populated in plan 06 â€” Conflict D: 9 real + 2 stubs)
 NEXT_PUBLIC_BOOKING_AID=
 NEXT_PUBLIC_CIVITATIS_AID=
 NEXT_PUBLIC_VIATOR_PID=
@@ -289,8 +293,8 @@ NEXT_PUBLIC_SAFETYWING_REF=
 NEXT_PUBLIC_SKYSCANNER_AID=
 NEXT_PUBLIC_HOSTELWORLD_AID=
 NEXT_PUBLIC_DISCOVERCARS_AID=
-NEXT_PUBLIC_KLOOK_AID=    # STUB — see Conflict D; helper throws NoIsraelInventoryError
-NEXT_PUBLIC_GOCITY_AID=   # STUB — see Conflict D; helper throws NoIsraelInventoryError
+NEXT_PUBLIC_KLOOK_AID=    # STUB â€” see Conflict D; helper throws NoIsraelInventoryError
+NEXT_PUBLIC_GOCITY_AID=   # STUB â€” see Conflict D; helper throws NoIsraelInventoryError
 # Travelpayouts aggregator (AFF-08 fallback for traffic-minimum partners like Skyscanner)
 NEXT_PUBLIC_TRAVELPAYOUTS_MARKER=
 ```
@@ -300,9 +304,9 @@ Wire Plausible into `app/[locale]/layout.tsx`: `<PlausibleProvider domain={proce
 
 Create `data/dev-prereqs.md` documenting: Node 20+, pnpm 9+, Python 3.9+ for `audit_a11y.py`, Vercel CLI, Plausible account or PostHog decision.
 
-Commit message convention for this plan: `chore(01-01): lock analytics=plausible` so the analytics decision lock is auditable (RESEARCH §4.6).
+Commit message convention for this plan: `chore(01-01): lock analytics=plausible` so the analytics decision lock is auditable (RESEARCH Â§4.6).
 
-DO NOT yet create eslint fixture files (`tests/eslint-fixtures/raw-hex.tsx` etc.) — those land in plan 02 along with the design tokens and verify ESLint fires.
+DO NOT yet create eslint fixture files (`tests/eslint-fixtures/raw-hex.tsx` etc.) â€” those land in plan 02 along with the design tokens and verify ESLint fires.
   </action>
   <verify>
     <automated>pnpm lint app/ &amp;&amp; pnpm test --run tests/i18n-config.test.ts tests/velite-config.test.ts &amp;&amp; test -f .husky/pre-commit &amp;&amp; test -f .env.example</automated>
@@ -320,7 +324,7 @@ End of plan 01 checks (executed by gsd-verifier against must_haves):
 3. **I18N-01**: `curl -sI http://localhost:3000/` (HE root) and `curl -sI http://localhost:3000/en` both return 200.
 4. **I18N-02**: `pnpm test tests/i18n-config.test.ts --run` passes; `locales` has 2 entries, `allowedLangs` has 3.
 5. **I18N-04**: `grep 'html lang="he" dir="rtl"' .next/server/app/**/*.html` finds matches for HE pages; `grep 'html lang="en" dir="ltr"'` finds matches for EN pages.
-6. **I18N-06**: `pnpm test tests/velite-config.test.ts --run` — `lang:'ru'` fixture rejected; `lang:'fr'` accepted.
+6. **I18N-06**: `pnpm test tests/velite-config.test.ts --run` â€” `lang:'ru'` fixture rejected; `lang:'fr'` accepted.
 7. **A11Y-01**: built HTML has `lang` and `dir` on `<html>` for every page.
 8. **A11Y-07**: `! grep -rE '(accessibe\.com|userway\.org|equalweb\.com|audioeye\.com)' .next/` (zero overlay scripts).
 9. **AFF-04 (installed)**: ESLint rule loaded; production verification in plan 06.
