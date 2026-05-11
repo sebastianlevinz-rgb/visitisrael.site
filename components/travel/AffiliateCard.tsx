@@ -1,19 +1,39 @@
 /**
- * <AffiliateCard> — STUB awaiting plan 06 helper wiring.
+ * <AffiliateCard> — wired to real affiliate helpers (plan 06).
  *
- * Plan 05 ships the COMPONENT CONTRACT + DOM-order proof (AFF-06):
- *   - `<AffiliateDisclosure>` renders BEFORE the affiliate `<a>` in the
- *     DOM, on every instance.
- *   - The `<a href>` is intentionally `#TODO-PLAN-06`. Plan 06 swaps it
- *     for `bookingLink({...})` / `civitatisLink({...})` / etc.
+ * Replaces the plan-05 STUB (which used `href="#TODO-PLAN-06"` as a grep
+ * sentinel). Now dispatches by `partner` prop to the correct helper in
+ * `lib/affiliate/{partner}.ts`.
  *
- * TODO(plan 06): swap href for partner helper invocation.
+ * AFF-06 contract preserved: `<AffiliateDisclosure>` DOM-precedes the
+ * affiliate `<a>` on every instance (verified via compareDocumentPosition
+ * in affiliatecard.test.tsx).
+ *
+ * Conflict D handling: Klook + GoCity helpers throw `NoIsraelInventoryError`.
+ * AffiliateCard catches that error AND short-circuits at availability check
+ * (`affiliateAvailability(partner) === 'absent'` → render null). Either
+ * path renders a safe fallback; neither crashes the page.
  */
 import type { ReactNode } from 'react';
 import * as React from 'react';
 import { Card } from '@/components/ui/Card';
 import { AffiliateDisclosure } from '@/components/travel/AffiliateDisclosure';
 import { cn } from '@/lib/cn';
+import {
+  bookingLink,
+  civitatisLink,
+  viatorLink,
+  getYourGuideLink,
+  rentalcarsLink,
+  safetyWingLink,
+  skyscannerLink,
+  hostelworldLink,
+  discoverCarsLink,
+  klookLink,
+  goCityLink,
+  affiliateAvailability,
+  NoIsraelInventoryError,
+} from '@/lib/affiliate';
 
 export type PartnerId =
   | 'booking'
@@ -24,7 +44,9 @@ export type PartnerId =
   | 'safetyWing'
   | 'skyscanner'
   | 'hostelworld'
-  | 'discoverCars';
+  | 'discoverCars'
+  | 'klook'
+  | 'goCity';
 
 export interface AffiliateCardProps {
   partner: PartnerId;
@@ -35,6 +57,56 @@ export interface AffiliateCardProps {
   className?: string;
 }
 
+/**
+ * Dispatches to the correct helper based on `partner`.
+ *
+ * Switch is exhaustive over the 11 PartnerId members. Klook + GoCity
+ * helpers throw NoIsraelInventoryError — the caller catches it.
+ */
+function resolveHref(
+  partner: PartnerId,
+  destination: string,
+  productId: string | undefined,
+  label: string | undefined,
+): string {
+  switch (partner) {
+    case 'booking':
+      return bookingLink({ destination, ...(label ? { label } : {}) });
+    case 'civitatis':
+      return civitatisLink({
+        city: destination,
+        ...(productId ? { productId } : {}),
+      });
+    case 'viator':
+      return viatorLink({
+        destinationCode: destination,
+        ...(productId ? { productId } : {}),
+      });
+    case 'getYourGuide':
+      return getYourGuideLink({
+        locationCode: destination,
+        ...(productId ? { productId } : {}),
+      });
+    case 'rentalcars':
+      return rentalcarsLink({ pickupLocation: destination });
+    case 'safetyWing':
+      return safetyWingLink({
+        destination,
+        ...(label ? { label } : {}),
+      });
+    case 'skyscanner':
+      return skyscannerLink({ origin: 'ANYWHERE', destination });
+    case 'hostelworld':
+      return hostelworldLink({ city: destination });
+    case 'discoverCars':
+      return discoverCarsLink({ city: destination });
+    case 'klook':
+      return klookLink();
+    case 'goCity':
+      return goCityLink();
+  }
+}
+
 export async function AffiliateCard({
   partner,
   destination,
@@ -42,18 +114,30 @@ export async function AffiliateCard({
   label,
   children,
   className,
-}: AffiliateCardProps): Promise<React.ReactElement> {
-  // STUB: plan 06 replaces the href with `partnerLink({partner, destination, productId})`.
-  // Until then we point at a fragment so the link is inert at runtime.
-  const stubHref = '#TODO-PLAN-06';
+}: AffiliateCardProps): Promise<React.ReactElement | null> {
+  // Conflict D — absent partners render null. This catches Klook + GoCity
+  // BEFORE any helper invocation, so the NoIsraelInventoryError throw is the
+  // explicit second line of defense (not the first).
+  if (affiliateAvailability(partner) === 'absent') {
+    return null;
+  }
+
+  let href: string;
+  try {
+    href = resolveHref(partner, destination, productId, label);
+  } catch (err) {
+    // Defense in depth: if availability JSON ever drifts and an 'absent'
+    // partner slips through, the stub still throws and we render null.
+    if (err instanceof NoIsraelInventoryError) return null;
+    throw err;
+  }
 
   const displayLabel =
     label ?? `${partner}: ${destination}${productId ? ` (${productId})` : ''}`;
 
   // Resolve the async disclosure component inline so the returned tree is
-  // fully synchronous from the caller's perspective. Keeps the RSC contract
-  // intact AND lets non-RSC consumers (tests, future story renderers)
-  // see a flat tree without nested unresolved promises.
+  // fully synchronous from the caller's perspective (AFF-06 DOM-order
+  // contract from plan 05 preserved).
   const disclosure = await AffiliateDisclosure({});
 
   return (
@@ -66,10 +150,11 @@ export async function AffiliateCard({
       {disclosure}
       <Card variant="interactive">
         <a
-          href={stubHref}
+          href={href}
           rel="sponsored nofollow noopener"
           target="_blank"
           data-affiliate-link
+          data-aff-disclosed="true"
           className="block text-[var(--color-primary)] hover:underline"
         >
           {displayLabel}

@@ -78,7 +78,7 @@ export async function generateMetadata({
 
 async function renderComponent(
   name: ComponentName,
-): Promise<React.ReactElement> {
+): Promise<React.ReactElement | null> {
   switch (name) {
     case 'button':
       return (

@@ -223,7 +223,7 @@ export default async function ComponentsPlayground({ params }: PageProps) {
 
       <ComponentSection
         id="affiliate-card"
-        title="AffiliateCard (STUB — plan 06 wires real helpers)"
+        title="AffiliateCard (wired: real bookingLink / civitatisLink helpers)"
       >
         <div className="flex flex-col gap-4">
           {affiliateCardBooking}

@@ -259,7 +259,7 @@ describe('Travel composites — render in both directions', () => {
     expect(screen.getByText(/€65/)).toBeInTheDocument();
   });
 
-  it('<AffiliateCard> stub renders #TODO-PLAN-06 href + DOM-precedes disclosure', async () => {
+  it('<AffiliateCard> wires real helper (booking.com URL) + DOM-precedes disclosure', async () => {
     const element = await AffiliateCard({
       partner: 'booking',
       destination: 'Jerusalem',
@@ -267,8 +267,10 @@ describe('Travel composites — render in both directions', () => {
     renderWithDir(element, 'rtl');
     const disclosure = screen.getByRole('note');
     const link = screen.getByRole('link');
-    expect(link.getAttribute('href')).toBe('#TODO-PLAN-06');
-    // DOM order: disclosure should come BEFORE link
+    // Plan 06 wired: href is now a real booking.com URL, NOT '#TODO-PLAN-06'.
+    expect(link.getAttribute('href')).toContain('booking.com');
+    expect(link.getAttribute('href')).not.toBe('#TODO-PLAN-06');
+    // AFF-06 — DOM order: disclosure should come BEFORE link
     expect(
       disclosure.compareDocumentPosition(link) &
         Node.DOCUMENT_POSITION_FOLLOWING,
