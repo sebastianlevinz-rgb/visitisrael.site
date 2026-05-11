@@ -1,0 +1,58 @@
+version: 2
+updates:
+  - package-ecosystem: npm
+    directory: /
+    schedule:
+      interval: weekly
+      day: monday
+      time: '06:00'
+      timezone: Asia/Jerusalem
+    open-pull-requests-limit: 5
+    versioning-strategy: increase-if-necessary
+    labels:
+      - dependencies
+      - automated
+    commit-message:
+      prefix: chore
+      include: scope
+    groups:
+      next-ecosystem:
+        patterns:
+          - 'next'
+          - '@next/*'
+          - 'next-*'
+      react-ecosystem:
+        patterns:
+          - 'react'
+          - 'react-dom'
+          - '@types/react'
+          - '@types/react-dom'
+      tailwind-ecosystem:
+        patterns:
+          - 'tailwindcss'
+          - '@tailwindcss/*'
+      eslint-ecosystem:
+        patterns:
+          - 'eslint'
+          - 'eslint-*'
+          - '@typescript-eslint/*'
+      vitest-ecosystem:
+        patterns:
+          - 'vitest'
+          - '@vitest/*'
+
+  - package-ecosystem: github-actions
+    directory: /
+    schedule:
+      interval: weekly
+      day: monday
+      time: '06:00'
+      timezone: Asia/Jerusalem
+    open-pull-requests-limit: 3
+    labels:
+      - dependencies
+      - automated
+      - github-actions
+    commit-message:
+      prefix: chore
+      include: scope
