@@ -31,11 +31,11 @@ function readIfExists(p: string): string | null {
 
 function frontmatter(src: string): Record<string, string> {
   const m = src.match(/^---\n([\s\S]*?)\n---/);
-  if (!m) return {};
+  if (!m || !m[1]) return {};
   const out: Record<string, string> = {};
   for (const line of m[1].split(/\n/)) {
     const kv = line.match(/^([a-zA-Z_][\w_]*):\s*(.*)$/);
-    if (kv) {
+    if (kv && kv[1] && kv[2] !== undefined) {
       out[kv[1]] = kv[2].replace(/^['"]|['"]$/g, '').trim();
     }
   }
@@ -44,7 +44,7 @@ function frontmatter(src: string): Record<string, string> {
 
 function body(src: string): string {
   const m = src.match(/^---\n[\s\S]*?\n---\n([\s\S]*)$/);
-  return m ? m[1] : src;
+  return m && m[1] ? m[1] : src;
 }
 
 function countWords(text: string): number {
@@ -111,7 +111,7 @@ describe('Bethlehem EN canonical — /en/west-bank/bethlehem', () => {
     const re = /partner="([^"]+)"/g;
     let m: RegExpExecArray | null;
     while ((m = re.exec(text)) !== null) {
-      partners.add(m[1]);
+      if (m[1]) partners.add(m[1]);
     }
     expect(partners.size).toBeGreaterThanOrEqual(5);
   });
@@ -129,13 +129,15 @@ describe('Bethlehem EN canonical — /en/west-bank/bethlehem', () => {
   });
 
   it('title between 40 and 70 chars', () => {
-    expect(fm['title'].length).toBeGreaterThanOrEqual(40);
-    expect(fm['title'].length).toBeLessThanOrEqual(70);
+    const title = fm['title'] ?? '';
+    expect(title.length).toBeGreaterThanOrEqual(40);
+    expect(title.length).toBeLessThanOrEqual(70);
   });
 
   it('description between 120 and 160 chars', () => {
-    expect(fm['description'].length).toBeGreaterThanOrEqual(120);
-    expect(fm['description'].length).toBeLessThanOrEqual(160);
+    const desc = fm['description'] ?? '';
+    expect(desc.length).toBeGreaterThanOrEqual(120);
+    expect(desc.length).toBeLessThanOrEqual(160);
   });
 
   it('references ecumenical Christian denominations (Catholic + Greek Orthodox + Armenian)', () => {
@@ -206,8 +208,9 @@ describe('Bethlehem HE canonical — /west-bank/bethlehem', () => {
   });
 
   it('HE description 120-160 chars', () => {
-    expect(fm['description'].length).toBeGreaterThanOrEqual(120);
-    expect(fm['description'].length).toBeLessThanOrEqual(160);
+    const desc = fm['description'] ?? '';
+    expect(desc.length).toBeGreaterThanOrEqual(120);
+    expect(desc.length).toBeLessThanOrEqual(160);
   });
 });
 
