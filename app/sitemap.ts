@@ -85,6 +85,24 @@ const STATIC_PATHS = [
   '/negev/sde-boker',
   '/negev/ein-avdat',
   '/negev/bedouin-hospitality',
+  // Phase 3.6 — Nazareth canonical + 4 sub-destinations (Wave 3; largest Arab
+  // city in Israel; ecumenical Christian pilgrimage — Basilica of the
+  // Annunciation Catholic Franciscan + Mary's Well Greek Orthodox both emit
+  // PlaceOfWorship; Old City + Mount of Precipice TouristAttraction/Place only).
+  '/nazareth',
+  '/nazareth/basilica-of-the-annunciation',
+  '/nazareth/old-city',
+  '/nazareth/marys-well',
+  '/nazareth/mount-of-precipice',
+  // Phase 3.9 — Caesarea canonical + 4 sub-destinations (Wave 3; UNESCO
+  // Herodian Roman port + Crusader walls; all TouristAttraction + Place
+  // archaeological — NO PlaceOfWorship). Critical reciprocal disambiguation
+  // with plan 08 Golan (Caesarea Maritima vs Caesarea Philippi / Banias).
+  '/caesarea',
+  '/caesarea/national-park',
+  '/caesarea/harbour',
+  '/caesarea/aqueduct-beach',
+  '/caesarea/ralli-museum',
 ];
 
 /** Convert a (locale, path) pair to a fully-qualified URL string. */
