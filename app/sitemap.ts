@@ -28,6 +28,15 @@ const STATIC_PATHS = [
   // Phase 2.1 — Jerusalem canonical (config-driven addition; replicates to
   // /jerusalem (HE root) and /en/jerusalem via the localizedUrl loop below).
   '/jerusalem',
+  // Phase 2.3 — Jerusalem sub-destinations (7 short slugs under /jerusalem).
+  // Each replicates to /jerusalem/<slug> + /en/jerusalem/<slug> via the loop.
+  '/jerusalem/old-city',
+  '/jerusalem/western-wall',
+  '/jerusalem/holy-sepulchre',
+  '/jerusalem/yad-vashem',
+  '/jerusalem/mahane-yehuda',
+  '/jerusalem/mount-of-olives',
+  '/jerusalem/city-of-david',
 ];
 
 /** Convert a (locale, path) pair to a fully-qualified URL string. */

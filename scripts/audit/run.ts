@@ -84,11 +84,21 @@ function loadVeliteIndex(): VeliteIndex {
       // page like /en/jerusalem/ is "jerusalem". Velite uses `region` /
       // `parentRegion` to denote that slug for the regions / subDest
       // collections; for guides / legal the `slug` field IS the URL slug.
+      // Sub-destination Velite slug is region-prefixed (e.g.
+      // "jerusalem-western-wall") to keep the flat collection on disk; the
+      // URL path uses just the short slug (e.g. /jerusalem/western-wall/).
+      // The audit walker infers slug = "jerusalem/western-wall" from the
+      // built HTML, so we strip the "<region>-" prefix on the Velite side
+      // to make the lookup keys agree.
+      const subDestShort =
+        name === 'subDestinations' && e.slug && e.parentRegion
+          ? e.slug.replace(new RegExp(`^${e.parentRegion}-`), '')
+          : e.slug;
       const lookupSlug =
         name === 'regions'
           ? (e.region ?? e.slug)
           : name === 'subDestinations'
-            ? `${e.parentRegion ?? ''}/${e.slug}`
+            ? `${e.parentRegion ?? ''}/${subDestShort}`
             : e.slug;
       const key = `${lookupSlug}|${e.lang}`;
       collections.set(key, name);

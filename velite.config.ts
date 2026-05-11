@@ -59,6 +59,19 @@ const subDestinations = defineCollection({
     ...baseFrontmatter,
     region: s.string().min(1),
     parentRegion: s.string().min(1),
+    heroImage: s.string().min(1),
+    primaryKeyword: s.string().optional(),
+    secondaryKeywords: s.array(s.string()).optional(),
+    latitude: s.number().optional(),
+    longitude: s.number().optional(),
+    // Religious-site marker: when set, the [subdest] renderer ALSO emits
+    // PlaceOfWorship / Place schema in addition to TouristAttraction.
+    // Value is a religious-sites.json key (e.g. "western-wall", "holy-sepulchre").
+    religiousSiteId: s.string().optional(),
+    // Optional FAQ block — sub-destinations may carry 3-7 Q&A pairs.
+    faqs: s.array(faqEntry).min(3).max(10).optional(),
+    // Velite compiles MDX body to function-body JS string for runtime eval.
+    body: s.mdx(),
   }),
 });
 
