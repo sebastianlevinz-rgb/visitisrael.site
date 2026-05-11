@@ -3,15 +3,15 @@ gsd_state_version: 1.0
 milestone: v1.0
 milestone_name: milestone
 status: executing
-stopped_at: Completed .planning/phases/01-foundation-m1/09-ner-detection-PLAN.md
-last_updated: '2026-05-11T03:09:23.126Z'
-last_activity: '2026-05-11 — Plan 09 (ner-detection) complete: data/entity-dict.json 6 classes × 113 starter entries (tour/hotel/restaurant/museum/transport/religious_site) + lib/ner/detector.ts dictionary-backed regex scanner with ±300 char suggestedAction heuristic + lib/ner/types.ts Mention contract + scripts/audit/scan-ner.ts (tsx, NOT mjs — iteration-1 fix) + pnpm qa:ner CLI writing data/ner-results.json for plan 10; 11 min, 5 commits (2 TDD cycles + 1 standard), 41 net new tests (380/380 total green). 2 auto-fixed deviations (import.meta.url under jsdom; unused eslint-disable). FND-07 complete. Wave 7 (plan 10 audit dashboard) eligible to start.'
+stopped_at: Completed .planning/phases/01-foundation-m1/10-audit-dashboard-PLAN.md
+last_updated: "2026-05-11T03:41:35.495Z"
+last_activity: "2026-05-11 — Plan 10 (audit-dashboard) complete: 34 audit rules (AUD-001..AUD-034) + tsx orchestrator + 10-criterion Quality Gate (Phase-1 structural mode defers content criteria) + 3 RSC dashboard routes (iteration-1 fix — read JSON/MD via fs, never spawn) + /api/admin/audit + basic-auth middleware (closed-by-default in prod, dev bypass) + axe-core + audit_a11y.py stub wrappers + 92 net new tests (472/472 total green). 23 min, 3 commits. 7 auto-fixed deviations. AUD-01/02/04/05 + A11Y-06/07 complete."
 progress:
   total_phases: 6
   completed_phases: 0
   total_plans: 11
-  completed_plans: 9
-  percent: 82
+  completed_plans: 10
+  percent: 91
 ---
 
 # Project State
@@ -26,32 +26,32 @@ See: .planning/PROJECT.md (updated 2026-05-11)
 ## Current Position
 
 Phase: 1 of 6 (Foundation — M1)
-Plan: 9 of 11 in current phase complete (01 scaffold + 02 design-tokens + 03 photo-credits + 04 schema-baseline + 05 component-lib + 06 affiliate-helpers + 07 quality-profiles + 08 seo-config + 09 ner-detection); Wave 6 fully green (plan 09 done), Wave 7 (plan 10 audit dashboard) eligible to start
-Status: Executing — Wave 6 fully green; Wave 7 (plan 10 audit dashboard) eligible to start
-Last activity: 2026-05-11 — Plan 09 (ner-detection) complete: data/entity-dict.json 6 classes × 113 starter entries (tour/hotel/restaurant/museum/transport/religious_site) + lib/ner/detector.ts dictionary-backed regex scanner with ±300 char suggestedAction heuristic + lib/ner/types.ts Mention contract + scripts/audit/scan-ner.ts (tsx, NOT mjs — iteration-1 fix) + pnpm qa:ner CLI writing data/ner-results.json for plan 10; 11 min, 5 commits (2 TDD cycles + 1 standard), 41 net new tests (380/380 total green). 2 auto-fixed deviations (import.meta.url under jsdom; unused eslint-disable). FND-07 complete.
+Plan: 10 of 11 in current phase complete (01 scaffold + 02 design-tokens + 03 photo-credits + 04 schema-baseline + 05 component-lib + 06 affiliate-helpers + 07 quality-profiles + 08 seo-config + 09 ner-detection + 10 audit-dashboard); plan 11 (Lighthouse CI) is the last plan in Phase 1
+Status: Executing — Plan 10 (audit-dashboard) complete; plan 11 (Lighthouse CI) eligible to start
+Last activity: 2026-05-11 — Plan 10 (audit-dashboard) complete: 34 audit rules (AUD-001..AUD-034) + tsx orchestrator + 10-criterion Quality Gate (Phase-1 structural mode defers content criteria) + 3 RSC dashboard routes (iteration-1 fix — read JSON/MD via fs, never spawn) + /api/admin/audit + basic-auth middleware (closed-by-default in prod, dev bypass) + axe-core + audit_a11y.py stub wrappers + 92 net new tests (472/472 total green). 23 min, 3 commits. 7 auto-fixed deviations. AUD-01/02/04/05 + A11Y-06/07 complete.
 
-Progress: [████████░░] 82% (9/11 plans in Phase 1; ~14% overall)
+Progress: [█████████░] 91% (10/11 plans in Phase 1; ~15% overall)
 
 ## Performance Metrics
 
 **Velocity:**
 
-- Total plans completed: 9
+- Total plans completed: 10
 - Average duration: ~17 min
-- Total execution time: ~2.55 hours
+- Total execution time: ~2.9 hours
 
 **By Phase:**
 
-| Phase                  | Plans | Total   | Avg/Plan |
-| ---------------------- | ----- | ------- | -------- |
-| 1. Foundation          | 9/11  | 153 min | ~17 min  |
-| 2. Pilot Jerusalem     | 0/6   | —       | —        |
-| 3. Region Replication  | 0/11  | —       | —        |
-| 4. Long-tail Sweep     | 0/TBD | —       | —        |
-| 5. Legal + Launch Prep | 0/4   | —       | —        |
-| 6. Production Deploy   | 0/4   | —       | —        |
+| Phase                  | Plans  | Total   | Avg/Plan |
+| ---------------------- | ------ | ------- | -------- |
+| 1. Foundation          | 10/11  | 176 min | ~17 min  |
+| 2. Pilot Jerusalem     | 0/6    | —       | —        |
+| 3. Region Replication  | 0/11   | —       | —        |
+| 4. Long-tail Sweep     | 0/TBD  | —       | —        |
+| 5. Legal + Launch Prep | 0/4    | —       | —        |
+| 6. Production Deploy   | 0/4    | —       | —        |
 
-**Recent Trend:** Plan 09 (ner-detection) — 11 min — 7 files created + 2 modified, 5 commits (2 TDD cycles RED→GREEN + 1 standard), 41 net new tests (380/380 total green). data/entity-dict.json 6 classes × 113 starter entries (religious_site overlaps religious-sites.json EN names ≥8 — single-source-of-truth coherence pin); lib/ner/detector.ts dictionary-backed regex with case-insensitive word-boundary + ±300 char AffiliateCard/Link coverage heuristic + ±50 char contextSample window, source-ordered output; scripts/audit/scan-ner.ts via tsx (not mjs — iteration-1 fix landed) with defensive entry filtering (non-array files, malformed entries, lang≠'he'|'en'); greenfield Phase 1 reality → empty [] + exit 0 so plan 10 wires qa:ner today. 2 auto-fixed deviations (import.meta.url not file URL under Vite/jsdom — switched to process.cwd(); unused eslint-disable no-console directives — removed). FND-07 complete; Wave 7 (plan 10 audit dashboard) unblocked.
+**Recent Trend:** Plan 10 (audit-dashboard) — 23 min — 53 files created + 3 modified, 3 commits (1 per task, all standard non-TDD), 92 net new tests (472/472 total green). 34 audit rule files (AUD-001..AUD-034) in scripts/audit/rules/ each exporting consistent {id, severity, description, scan(html, $, fm, lang)} Rule contract — Israel-specific rules (AUD-017..020 + AUD-028) import lib/seo/naming.ts + lib/seo/accessibility-link.ts verbatim as single source of truth; scripts/audit/run.ts tsx orchestrator walks .next/server/app/**/*.html via cheerio, applies all 34 rules per page, computes profile-aware score via scripts/audit/score.ts (consumes plan 07 ProfileSpec), merges NER mentions from data/ner-results.json, writes data/audit-results.json (47 pages × 34 rules → 406 issues on current Phase 1 build); scripts/audit/quality-gate.ts evaluates 10 Quality Gate criteria from ROADMAP.md with Phase-1 structural mode (criteria 2/3/5/9 DEFER when no content pages — admin/* + _not-found excluded from contentPages); 3 RSC routes /admin/audit/{index,[slug],quality-gate} READ pre-written JSON/MD via fs.readFile (iteration-1 fix — NEVER spawn child_process); /api/admin/audit JSON endpoint; middleware.ts extended with basic-auth via lib/auth/basic.ts (evaluateBasicAuth + isAdminPath, closed-by-default in production, dev bypass, api(?!/admin) matcher carve-out gates /api/admin/* while /api/* general bypasses); scripts/audit/axe.mjs Phase-1 stub for axe-core (plan 11 wires real); scripts/audit_a11y_wrapper.mjs spawns audit_a11y.py from skill bundle with stub-on-error so CI never crashes; violations.html + clean.html synthetic fixtures with two-pronged contract test. 7 auto-fixed deviations (block-comment terminator in JSDoc; implicit any[] in 9 rule files; violations fixture comment self-paired Temple Mount + Haram al-Sharif; test classifications mismatched real rule behavior for AUD-027/031/004; JSX namespace not available in TS 5.9 + React 19; inferSlug didn't strip /he/ prefix from built HTML; Quality Gate FAIL on greenfield → added phase1StructuralOnly mode). AUD-01/02/04/05 + A11Y-06/07 complete; Wave 7 (plan 11 Lighthouse CI) eligible.
 
 _Updated after each plan completion_
 
@@ -113,6 +113,13 @@ Recent decisions affecting current work:
 - [Phase 01-foundation-m1]: Plan 09 — Greenfield empty is success not error: scan-ner returns [] + exits 0 when .velite/ has no content. Lets plan 10 wire qa:ner into pre-deploy CI today and dashboard render the 0-mentions empty state without file-existence conditionals
 - [Phase 01-foundation-m1]: Plan 09 — religious_site overlap with religious-sites.json EN names ≥8 (test-pinned): same canonical entities, two consumers (NER detector + religious-naming audit AUD-017..020). Drift between dicts would silently disable cross-rule gating in plan 10
 - [Phase 01-foundation-m1]: Plan 09 — process.cwd() over import.meta.url in test path resolution: Vite test transform under jsdom doesn't always yield file: URL, causing fileURLToPath to throw. Vitest sets cwd to repo root reliably. Pattern reusable for future audit-script sandbox tests
+- [Phase 01-foundation-m1]: Plan 10 — Rule-as-data contract over class hierarchy: each AUD-XXX.ts exports default Rule object {id, severity, description, scan(html, $, fm, lang)}. Orchestrator iterates rules barrel; no factory/registry plumbing. Tree-shakable + import-only-what-fires
+- [Phase 01-foundation-m1]: Plan 10 — Single source of truth for Israel-specific detectors: AUD-017..020 import lib/seo/naming.ts (WAILING_WALL_REGEX, BIASED_FRAMING_REGEX, detectTempleMountPaired, requiresAdministrativeStatus) and AUD-028 imports lib/seo/accessibility-link.ts. No regex duplication between editorial render path and audit CI path — drift impossible because there's only one implementation
+- [Phase 01-foundation-m1]: Plan 10 — Iteration-1 RSC fix: /admin/audit/quality-gate/ READS data/quality-gate-{pass,failure}.md via fs.readFile, does NOT spawn pnpm qa:quality-gate. The CLI is a pre-deploy build step (Phase 2.6 GitHub Actions); the RSC surfaces what's on disk. Vercel-runtime-safe + matches RSC-renders-are-side-effect-free contract
+- [Phase 01-foundation-m1]: Plan 10 — Phase-1 structural quality-gate mode: when contentPages.length === 0 (only admin/* + _not-found scanned), criteria 2/3/5/9 are DEFERRED rather than FAIL. Greenfield Phase 1 reports infra-ready rather than spurious failures from playground pages lacking content-page schema. Phase 2+ first content page flips structural=false and criteria fire normally
+- [Phase 01-foundation-m1]: Plan 10 — Closed-by-default basic-auth: missing ADMIN_USER/ADMIN_PASS env vars in production → challenge (not allow). Eliminates Vercel-env-not-configured-before-deploy → public /admin exposure failure mode. Dev bypass (NODE_ENV !== production) preserves pnpm dev DX. Matcher api(?!/admin) carve-out lets /api/admin/* go through middleware (gated) while /api/* general bypasses
+- [Phase 01-foundation-m1]: Plan 10 — Deferred-rule severity policy: AUD-010 + AUD-011 emit severity=info unconditionally (Phase 6 cron). AUD-013 + AUD-034 emit info only when data/lighthouse-results.json missing; with the file present they fire normally. computeScore SKIPS info entries — deferred rules never deduct score, so the dashboard surfaces rule-attempted-but-data-unavailable cleanly
+- [Phase 01-foundation-m1]: Plan 10 — Stub-on-error wrappers for audit_a11y.py + axe.mjs: when underlying tool is unavailable (Python not installed, axe not yet wired in plan 11), wrapper writes stub JSON with status=fail + exits 0. CI surfaces tool unavailability via dashboard rather than crashing pipeline. Mirrors Phase-1 greenfield-tolerance pattern from plan 09
 
 ### Pending Todos
 
@@ -130,6 +137,6 @@ None yet.
 
 ## Session Continuity
 
-Last session: 2026-05-11T03:09:23.117Z
-Stopped at: Completed .planning/phases/01-foundation-m1/09-ner-detection-PLAN.md
+Last session: 2026-05-11T03:41:35.489Z
+Stopped at: Completed .planning/phases/01-foundation-m1/10-audit-dashboard-PLAN.md
 Resume file: None

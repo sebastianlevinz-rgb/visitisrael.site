@@ -256,7 +256,7 @@ Quality Gate failure between 2 and 3 halts the workflow; no auto-advance to Phas
 
 | Phase                                  | Plans Complete | Status      | Completed |
 | -------------------------------------- | -------------- | ----------- | --------- |
-| 1. Foundation (M1)                     | 9/11           | In Progress | -         |
+| 1. Foundation (M1)                     | 10/11          | In Progress | -         |
 | 2. Pilot Jerusalem (M2)                | 0/6            | Not started | -         |
 | — Quality Gate (hard stop)             | —              | Not reached | -         |
 | 3. Region Replication (M3)             | 0/11           | Not started | -         |

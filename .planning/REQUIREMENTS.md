@@ -64,7 +64,7 @@ Beyond WCAG 2.1 AA — Israeli law mandates additional items. Up to 50,000 NIS d
 - [ ] **A11Y-03**: `/accessibility-statement` (English) + `/הצהרת-נגישות` (Hebrew, transliterated slug allowed if Hebrew slug deferred) pages exist with all IS 5568 required content (commitment, standard, features, limitations, coordinator contact, last-audit date)
 - [ ] **A11Y-04**: Named accessibility coordinator (real person, real phone, real email — placeholder NOT acceptable) listed on accessibility statement page; same person reachable via `mailto:` and `tel:` links
 - [x] **A11Y-05**: Footer of every page links to accessibility statement in current locale (AUD-028)
-- [ ] **A11Y-06**: All form inputs have associated labels; all interactive elements have aria-labels or accessible names; error messages use `role="alert"` and are rendered in Hebrew for Hebrew forms, English for English forms
+- [x] **A11Y-06**: All form inputs have associated labels; all interactive elements have aria-labels or accessible names; error messages use `role="alert"` and are rendered in Hebrew for Hebrew forms, English for English forms
 - [x] **A11Y-07**: ZERO accessibility overlays (accessiBe / UserWay / EqualWeb / AudioEye) — overlay-based remediation is explicitly prohibited (FTC $1M precedent + IS 5568 ineffectiveness)
 - [ ] **A11Y-08**: Lighthouse a11y score ≥95 mobile (3-run-median) per page; supplementary axe-core checks run in CI; Israeli-specific checks via `audit_a11y.py` from `israeli-accessibility-compliance` skill
 
@@ -90,11 +90,11 @@ Argentina lesson #3 fix — image contract enforced day-1.
 
 ### Audit Dashboard & Quality Gate
 
-- [ ] **AUD-01**: `/admin/audit/` route (noindex, basic-auth middleware) runs all 34 audit rules (AUD-001..AUD-034 from PITFALLS §6) over built pages; produces cached JSON + HTML view
-- [ ] **AUD-02**: Per-page score (0–100) using one of the 5 quality profiles (FND-05); score gate ≥85 per page on pilot, ≥80 on replicated regions
+- [x] **AUD-01**: `/admin/audit/` route (noindex, basic-auth middleware) runs all 34 audit rules (AUD-001..AUD-034 from PITFALLS §6) over built pages; produces cached JSON + HTML view
+- [x] **AUD-02**: Per-page score (0–100) using one of the 5 quality profiles (FND-05); score gate ≥85 per page on pilot, ≥80 on replicated regions
 - [ ] **AUD-03**: Lighthouse CI (`@lhci/cli`) configured with `numberOfRuns: 3` + `aggregationMethod: 'median'`; thresholds: mobile perf ≥0.90, a11y ≥0.95, best-practices ≥0.95, SEO 1.00; deploy blocked on fail
-- [ ] **AUD-04**: Pre-commit hooks (Husky + lint-staged) run ESLint + TypeScript check + schema validator + photo-credits validator
-- [ ] **AUD-05**: Quality Gate report generator: writes `data/quality-gate-{pass|failure}.md` summarizing every criterion result before Phase 3 advance
+- [x] **AUD-04**: Pre-commit hooks (Husky + lint-staged) run ESLint + TypeScript check + schema validator + photo-credits validator
+- [x] **AUD-05**: Quality Gate report generator: writes `data/quality-gate-{pass|failure}.md` summarizing every criterion result before Phase 3 advance
 
 ### Pilot Region (Jerusalem)
 
