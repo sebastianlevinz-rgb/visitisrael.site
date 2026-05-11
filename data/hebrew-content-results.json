@@ -1,11 +1,18 @@
 {
-  "generatedAt": "2026-05-11T10:19:04.191Z",
-  "totalPages": 9,
+  "generatedAt": "2026-05-11T13:26:04.025Z",
+  "totalPages": 17,
   "totalViolations": 0,
   "pages": [
     {
       "slug": "jerusalem",
       "region": "jerusalem",
+      "lang": "he",
+      "violations": [],
+      "inconsistencies": 0
+    },
+    {
+      "slug": "tel-aviv",
+      "region": "tel-aviv",
       "lang": "he",
       "violations": [],
       "inconsistencies": 0
@@ -55,6 +62,55 @@
     {
       "slug": "jerusalem-yad-vashem",
       "region": "jerusalem",
+      "lang": "he",
+      "violations": [],
+      "inconsistencies": 0
+    },
+    {
+      "slug": "tel-aviv-carmel-market",
+      "region": "tel-aviv",
+      "lang": "he",
+      "violations": [],
+      "inconsistencies": 0
+    },
+    {
+      "slug": "tel-aviv-florentin",
+      "region": "tel-aviv",
+      "lang": "he",
+      "violations": [],
+      "inconsistencies": 0
+    },
+    {
+      "slug": "tel-aviv-neve-tzedek",
+      "region": "tel-aviv",
+      "lang": "he",
+      "violations": [],
+      "inconsistencies": 0
+    },
+    {
+      "slug": "tel-aviv-old-jaffa",
+      "region": "tel-aviv",
+      "lang": "he",
+      "violations": [],
+      "inconsistencies": 0
+    },
+    {
+      "slug": "tel-aviv-rothschild",
+      "region": "tel-aviv",
+      "lang": "he",
+      "violations": [],
+      "inconsistencies": 0
+    },
+    {
+      "slug": "tel-aviv-tayelet",
+      "region": "tel-aviv",
+      "lang": "he",
+      "violations": [],
+      "inconsistencies": 0
+    },
+    {
+      "slug": "tel-aviv-tel-aviv-museum",
+      "region": "tel-aviv",
       "lang": "he",
       "violations": [],
       "inconsistencies": 0
