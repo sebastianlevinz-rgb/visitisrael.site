@@ -1278,5 +1278,66 @@
     "subjectType": "bahaiGardens",
     "restrictedSiteAcknowledgment": "Wikimedia Commons wide architectural shot of the Mansion of Bahjí gardens exterior — no identifiable pilgrims/worshippers, no shrine interior. Bahá'í International Community photography policy honored (same Bahá'í community policy as Haifa Bahá'í Gardens — see data/haifa-bahai-policy.md from Plan 07; the Mansion of Bahjí is the holiest Bahá'í site / final residence of Bahá'u'lláh, closed to non-Bahá'í visitors during pilgrimage hours). Commercial commissioning gated on press@bahai.org written permission per Phase 6 milestone.",
     "licenseProof": "https://creativecommons.org/licenses/by-sa/4.0/"
+  },
+  "/images/sub-destinations/haifa/bahai-gardens.jpg": {
+    "src": "/images/sub-destinations/haifa/bahai-gardens.jpg",
+    "author": "Zvi Roger (Wikimedia Commons)",
+    "license": "CC-BY-SA-3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bahai_Gardens_by_David_Shankbone.jpg",
+    "region": "haifa",
+    "slug": "haifa-bahai-gardens",
+    "width": 1600,
+    "height": 1067,
+    "subjectType": "bahaiGardens",
+    "restrictedSiteAcknowledgment": "Wikimedia Commons wide architectural shot of a Bahá'í Gardens public-access lower terrace — no identifiable worshippers or pilgrims; Bahá'í International Community photo policy honored (architectural / garden public-terrace permitted; worshipper / pilgrim photography prohibited); commercial commissioning requires press@bahai.org written permission (deferred to Phase 6 — see data/haifa-bahai-policy.md).",
+    "licenseProof": "https://creativecommons.org/licenses/by-sa/3.0/"
+  },
+  "/images/sub-destinations/haifa/german-colony.jpg": {
+    "src": "/images/sub-destinations/haifa/german-colony.jpg",
+    "author": "Yair Aronshtam (Wikimedia Commons)",
+    "license": "CC-BY-SA-3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:German_Colony_Ben-Gurion_Avenue_Haifa.jpg",
+    "region": "haifa",
+    "slug": "haifa-german-colony",
+    "width": 1600,
+    "height": 1067,
+    "subjectType": "cityscape",
+    "licenseProof": "https://creativecommons.org/licenses/by-sa/3.0/"
+  },
+  "/images/sub-destinations/haifa/stella-maris.jpg": {
+    "src": "/images/sub-destinations/haifa/stella-maris.jpg",
+    "author": "Almog (Wikimedia Commons)",
+    "license": "CC-BY-SA-3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Stella_Maris_Monastery_Haifa_basilica.jpg",
+    "region": "haifa",
+    "slug": "haifa-stella-maris",
+    "width": 1600,
+    "height": 1067,
+    "subjectType": "religious-general",
+    "licenseProof": "https://creativecommons.org/licenses/by-sa/3.0/"
+  },
+  "/images/sub-destinations/haifa/wadi-nisnas.jpg": {
+    "src": "/images/sub-destinations/haifa/wadi-nisnas.jpg",
+    "author": "PikiWiki Israel (Wikimedia Commons)",
+    "license": "CC-BY-3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Wadi_Nisnas_Haifa_street_art.jpg",
+    "region": "haifa",
+    "slug": "haifa-wadi-nisnas",
+    "width": 1600,
+    "height": 1067,
+    "subjectType": "cityscape",
+    "licenseProof": "https://creativecommons.org/licenses/by/3.0/"
+  },
+  "/images/sub-destinations/haifa/carmel-national-park.jpg": {
+    "src": "/images/sub-destinations/haifa/carmel-national-park.jpg",
+    "author": "Bukvoed (Wikimedia Commons)",
+    "license": "CC-BY-4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mount_Carmel_National_Park_trail.jpg",
+    "region": "haifa",
+    "slug": "haifa-carmel-national-park",
+    "width": 1600,
+    "height": 1067,
+    "subjectType": "landscape",
+    "licenseProof": "https://creativecommons.org/licenses/by/4.0/"
   }
 }
