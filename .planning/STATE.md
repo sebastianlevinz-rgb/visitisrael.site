@@ -3,8 +3,8 @@ gsd_state_version: 1.0
 milestone: v1.0
 milestone_name: milestone
 status: completed
-stopped_at: Completed .planning/phases/01-foundation-m1/11-lighthouse-ci-PLAN.md — Phase 1 (M1) complete (all 11 plans shipped); Phase 2 (Pilot Jerusalem) eligible
-last_updated: '2026-05-11T04:17:16.538Z'
+stopped_at: Phase 2 context gathered
+last_updated: '2026-05-11T05:48:49.216Z'
 last_activity: '2026-05-11 — Plan 11 (lighthouse-ci) complete: @lhci/cli@0.15.1 + .lighthouserc.cjs locked (3-run-median + 4 mobile thresholds asserted as error: perf>=0.90 / a11y>=0.95 / bp>=0.95 / seo=1.00) + .github/workflows/lighthouse.yml (treosh/lighthouse-ci-action@v12 + supplementary IS 5568 a11y check via Python wrapper) + scripts/qa/persist-lhci.mjs (post-autorun median hook, schema-compatible with AUD-013/AUD-034) + scripts/qa/regression-test.mjs Nyquist proof harness (5MB image injection + byte-perfect restore) + /admin/lighthouse RSC view + data/lighthouse-results.json empty-baseline committed. 31 net new tests (7 lhci config + 16 persist-lhci + 8 regression contract; 1 RUN_LH_REGRESSION-gated full-integration skipped by default), 503/504 total green. 14 min, 4 commits (Task 3 TDD). 4 auto-fixed deviations. AUD-03 + A11Y-08 complete. **PHASE 1 (M1) COMPLETE — all 11 plans shipped; Phase 2 (Pilot Jerusalem) eligible.**'
 progress:
   total_phases: 6
@@ -120,7 +120,7 @@ Recent decisions affecting current work:
 - [Phase 01-foundation-m1]: Plan 10 — Single source of truth for Israel-specific detectors: AUD-017..020 import lib/seo/naming.ts (WAILING_WALL_REGEX, BIASED_FRAMING_REGEX, detectTempleMountPaired, requiresAdministrativeStatus) and AUD-028 imports lib/seo/accessibility-link.ts. No regex duplication between editorial render path and audit CI path — drift impossible because there's only one implementation
 - [Phase 01-foundation-m1]: Plan 10 — Iteration-1 RSC fix: /admin/audit/quality-gate/ READS data/quality-gate-{pass,failure}.md via fs.readFile, does NOT spawn pnpm qa:quality-gate. The CLI is a pre-deploy build step (Phase 2.6 GitHub Actions); the RSC surfaces what's on disk. Vercel-runtime-safe + matches RSC-renders-are-side-effect-free contract
 - [Phase 01-foundation-m1]: Plan 10 — Phase-1 structural quality-gate mode: when contentPages.length === 0 (only admin/\* + \_not-found scanned), criteria 2/3/5/9 are DEFERRED rather than FAIL. Greenfield Phase 1 reports infra-ready rather than spurious failures from playground pages lacking content-page schema. Phase 2+ first content page flips structural=false and criteria fire normally
-- [Phase 01-foundation-m1]: Plan 10 — Closed-by-default basic-auth: missing ADMIN_USER/ADMIN_PASS env vars in production → challenge (not allow). Eliminates Vercel-env-not-configured-before-deploy → public /admin exposure failure mode. Dev bypass (NODE_ENV !== production) preserves pnpm dev DX. Matcher api(?!/admin) carve-out lets /api/admin/_ go through middleware (gated) while /api/_ general bypasses
+- [Phase 01-foundation-m1]: Plan 10 — Closed-by-default basic-auth: missing ADMIN*USER/ADMIN_PASS env vars in production → challenge (not allow). Eliminates Vercel-env-not-configured-before-deploy → public /admin exposure failure mode. Dev bypass (NODE_ENV !== production) preserves pnpm dev DX. Matcher api(?!/admin) carve-out lets /api/admin/* go through middleware (gated) while /api/\_ general bypasses
 - [Phase 01-foundation-m1]: Plan 10 — Deferred-rule severity policy: AUD-010 + AUD-011 emit severity=info unconditionally (Phase 6 cron). AUD-013 + AUD-034 emit info only when data/lighthouse-results.json missing; with the file present they fire normally. computeScore SKIPS info entries — deferred rules never deduct score, so the dashboard surfaces rule-attempted-but-data-unavailable cleanly
 - [Phase 01-foundation-m1]: Plan 10 — Stub-on-error wrappers for audit_a11y.py + axe.mjs: when underlying tool is unavailable (Python not installed, axe not yet wired in plan 11), wrapper writes stub JSON with status=fail + exits 0. CI surfaces tool unavailability via dashboard rather than crashing pipeline. Mirrors Phase-1 greenfield-tolerance pattern from plan 09
 - [Phase 01-foundation-m1]: Plan 11 — data/lighthouse-results.json committed as empty []: plan 10 AUD-013 + AUD-034 + Quality Gate Criterion 1 need a file to read in freshly-cloned repos; without baseline AUD rules would emit deferred-info indefinitely. Empty array is correct semantics (no runs yet) and rules already gracefully degrade. .gitignore comment documents intent. .lighthouseci/ + lhr-\*.json remain gitignored — only the post-median JSON is tracked.
@@ -143,6 +143,6 @@ None yet.
 
 ## Session Continuity
 
-Last session: 2026-05-11T04:04:22.030Z
-Stopped at: Completed .planning/phases/01-foundation-m1/11-lighthouse-ci-PLAN.md — Phase 1 (M1) complete (all 11 plans shipped); Phase 2 (Pilot Jerusalem) eligible
-Resume file: None
+Last session: 2026-05-11T05:48:49.210Z
+Stopped at: Phase 2 context gathered
+Resume file: .planning/phases/02-pilot-region-jerusalem-m2/02-CONTEXT.md
