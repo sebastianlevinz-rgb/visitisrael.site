@@ -52,6 +52,29 @@ const STATIC_PATHS = [
   '/tel-aviv/florentin',
   '/tel-aviv/tayelet',
   '/tel-aviv/neve-tzedek',
+  // Phase 3.2 — Dead Sea canonical + 5 sub-destinations.
+  '/dead-sea',
+  '/dead-sea/masada',
+  '/dead-sea/ein-gedi',
+  '/dead-sea/qumran',
+  '/dead-sea/mineral-beach',
+  '/dead-sea/ein-bokek',
+  // Phase 3.3 — Galilee canonical + 6 sub-destinations.
+  '/galilee',
+  '/galilee/tiberias',
+  '/galilee/capernaum',
+  '/galilee/mount-of-beatitudes',
+  '/galilee/magdala',
+  '/galilee/yardenit',
+  '/galilee/mount-arbel',
+  // Phase 3.4 — Eilat canonical + 5 sub-destinations (Wave 2; Red Sea tourism
+  // enclave; all TouristAttraction-only — no religious sites in Eilat).
+  '/eilat',
+  '/eilat/coral-beach',
+  '/eilat/underwater-observatory',
+  '/eilat/timna-park',
+  '/eilat/dolphin-reef',
+  '/eilat/red-canyon',
 ];
 
 /** Convert a (locale, path) pair to a fully-qualified URL string. */
