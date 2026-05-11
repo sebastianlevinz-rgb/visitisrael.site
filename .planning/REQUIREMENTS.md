@@ -23,7 +23,7 @@ Requirements for initial production launch. Each maps to roadmap phases (traceab
 The 11 sub-phases of Phase 1 (mega-prompt Fase 1). All must complete and pass before any region canonical is written.
 
 - [x] **FND-01**: Next.js 15.5 + App Router + TypeScript 5.6+ strict + Tailwind v4 + pnpm scaffold deployed to Vercel with placeholder domain
-- [ ] **FND-02**: 3-layer design tokens (foundation / semantic / component) in Tailwind v4 `@theme`, all color usage routed through semantic tokens — zero raw hex codes in components
+- [x] **FND-02**: 3-layer design tokens (foundation / semantic / component) in Tailwind v4 `@theme`, all color usage routed through semantic tokens — zero raw hex codes in components
 - [ ] **FND-03**: Component primitives (`Button`, `Card`, `Tag`, `Badge`, `Section`, `Container`, `Grid`) with CVA variants and travel composites (`RegionHero`, `AttractionGrid`, `AffiliateCard`, `PhotoGallery`, `StickyCTA`, `ItineraryCard`, `WhereToStay`, `TransportInfo`, `BestTimeToVisit`, `ShabbatNotice`, `Price`, `SkipNav`)
 - [ ] **FND-04**: `/admin/components/` noindex playground showing every primitive + composite in default + edge-case states
 - [ ] **FND-05**: 5 quality scoring profiles implemented (`REGION_CANONICAL`, `SUB_DESTINATION`, `GUIDE_OR_WINERY`, `UTILITY`, `HUB`) with distinct weights — fixes Argentina lesson #5
@@ -39,7 +39,7 @@ Day-1 strategy fix to Argentina lesson #2 (one partner reached 92%, another 18%)
 - [ ] **AFF-02**: Stub helpers `klookLink()` and `goCityLink()` that throw a documented "no Israel inventory" error; placeholder env vars in `.env.example`; `data/affiliate-availability.json` flag set to `'absent'`
 - [ ] **AFF-03**: ≥4 Vitest unit tests per real helper (36 tests = 4 × 9 real helpers) + 8 stub-throw tests (4 × 2 stubs) + 4 affiliate-availability tests = **48 total tests** passing in `lib/affiliate/`
 - [ ] **AFF-04**: ESLint `no-restricted-syntax` rule prohibits raw partner URLs (`href="https://www.booking.com/..."`) in component JSX — escape hatch only for `lib/affiliate/**`
-- [ ] **AFF-05**: ESLint rules prohibit raw hex (`bg-[#abc]`, `text-[#fff]`, `style={{color: '#fff'}}`) and physical Tailwind directional utilities (`ml-`, `pr-`, `border-l`, `text-left`) in components
+- [x] **AFF-05**: ESLint rules prohibit raw hex (`bg-[#abc]`, `text-[#fff]`, `style={{color: '#fff'}}`) and physical Tailwind directional utilities (`ml-`, `pr-`, `border-l`, `text-left`) in components
 - [ ] **AFF-06**: FTC affiliate disclosure rendered INLINE within 1 viewport-height of FIRST affiliate link on every monetized page (not footer-only) — audit rule AUD-009
 - [ ] **AFF-07**: `data/affiliate-status.json` tracks AID receipt date and `state ∈ {pending, applied, active, sparse, absent}` per partner — re-evaluated quarterly
 - [ ] **AFF-08**: Travelpayouts aggregator account configured as fallback for partners with traffic minimums (Skyscanner 5K visitors/mo requirement)

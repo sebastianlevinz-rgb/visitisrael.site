@@ -3,15 +3,15 @@ gsd_state_version: 1.0
 milestone: v1.0
 milestone_name: milestone
 status: executing
-stopped_at: Completed .planning/phases/01-foundation-m1/03-photo-credits-PLAN.md
-last_updated: '2026-05-11T01:22:54Z'
-last_activity: '2026-05-11 — Plan 03 (photo-credits) complete: Zod ledger schema + Sharp CI gate + 27 tests + lint-staged wiring; 13 min, 4 commits.'
+stopped_at: Completed .planning/phases/01-foundation-m1/02-design-tokens-PLAN.md
+last_updated: '2026-05-11T01:33:40.053Z'
+last_activity: '2026-05-11 — Plan 02 (design-tokens) complete: 3-layer @theme (44 OKLCH foundation + 11 semantic + 5 component) + Hebrew font/leading scale + scripts/lint.mjs dispatcher + 3 ESLint fixtures + /admin/tokens visual review; 21 min, 4 commits.'
 progress:
   total_phases: 6
   completed_phases: 0
   total_plans: 11
-  completed_plans: 2
-  percent: 9
+  completed_plans: 3
+  percent: 27
 ---
 
 # Project State
@@ -26,32 +26,32 @@ See: .planning/PROJECT.md (updated 2026-05-11)
 ## Current Position
 
 Phase: 1 of 6 (Foundation — M1)
-Plan: 2 of 11 in current phase complete; remaining wave 2 plans: 02 (design tokens) + 04 (schema baseline) in flight
-Status: Executing — plan 03 green, Wave 2 partially complete
-Last activity: 2026-05-11 — Plan 03 (photo-credits) complete: Zod ledger schema + Sharp CI gate + 27 tests + lint-staged wiring; 13 min, 4 commits.
+Plan: 3 of 11 in current phase complete (01 scaffold + 02 design-tokens + 03 photo-credits); remaining wave 2 plan: 04 (schema baseline) in flight
+Status: Executing — plan 02 green, Wave 2 nearly complete (only 04 remaining)
+Last activity: 2026-05-11 — Plan 02 (design-tokens) complete: 3-layer @theme (44 OKLCH foundation + 11 semantic + 5 component) + Hebrew font/leading scale + scripts/lint.mjs dispatcher + 3 ESLint fixtures + /admin/tokens visual review; 21 min, 4 commits.
 
-Progress: [██░░░░░░░░] 18% (2/11 plans in Phase 1; ~3% overall)
+Progress: [███░░░░░░░] 27% (3/11 plans in Phase 1; ~5% overall)
 
 ## Performance Metrics
 
 **Velocity:**
 
-- Total plans completed: 2
-- Average duration: 20 min
-- Total execution time: 0.67 hours
+- Total plans completed: 3
+- Average duration: ~20 min
+- Total execution time: ~1.02 hours
 
 **By Phase:**
 
 | Phase                  | Plans | Total  | Avg/Plan |
 | ---------------------- | ----- | ------ | -------- |
-| 1. Foundation          | 2/11  | 40 min | 20 min   |
+| 1. Foundation          | 3/11  | 61 min | ~20 min  |
 | 2. Pilot Jerusalem     | 0/6   | —      | —        |
 | 3. Region Replication  | 0/11  | —      | —        |
 | 4. Long-tail Sweep     | 0/TBD | —      | —        |
 | 5. Legal + Launch Prep | 0/4   | —      | —        |
 | 6. Production Deploy   | 0/4   | —      | —        |
 
-**Recent Trend:** Plan 03 (photo-credits) — 13 min — 15 files, 4 commits, 27 tests green, all must_haves verified.
+**Recent Trend:** Plan 02 (design-tokens) — 21 min — 8 files, 4 commits, 4/4 fixture-contract tests green, full repo lint/typecheck/build all green; 3 deviations (1 bug + 2 blocking) all auto-fixed.
 
 _Updated after each plan completion_
 
@@ -63,6 +63,9 @@ Decisions are logged in PROJECT.md Key Decisions table and SUMMARY.md §1 (Headl
 
 Recent decisions affecting current work:
 
+- **Plan 02 — Token names follow tailwind-design-system canon (primary/accent/ink/surface):** CONTEXT §4 (Claude's Discretion) explicitly delegated naming. Chose canonical over inventing project-specific terms (e.g., `israel-blue`); the earth-tone Israeliness lives in foundation ramps (`sand`, `olive`) where it's appropriate, not at semantic layer.
+- **Plan 02 — `pnpm lint <file>` contract requires dispatcher (`scripts/lint.mjs`):** ESLint flat config `ignores` skips files even when explicitly passed. Dispatcher: empty argv → `eslint .` (preserves full-repo crawl, keeps Husky/lint-staged behavior); non-empty argv → `eslint --no-warn-ignored --no-ignore <args>` (bypasses fixture global-ignore so deliberately-broken files fire their rules). VALIDATION rows + must_haves contract literally bind on `pnpm lint <fixture>` — dispatcher is the cleanest path.
+- **Plan 02 — `--color-danger` is direct OKLCH (no foundation ref):** Adding a full red-50..950 ramp for ONE semantic use was premature. Semantic-layer OKLCH documented as explicit exception in `app/globals.css`.
 - **Plan 03 — Zod schema duplicated between TS source-of-truth and CI-gate mirror:** `lib/photo-credits-schema.ts` is canonical; `scripts/qa/check-credits.mjs` inlines an identical Zod schema. Rationale: zero TypeScript runtime dep in CI gate (`.mjs` only, no tsx spawn cost). Drift caught by cross-test `check-credits.test.ts` case 5 (restricted-site enforcement).
 - **Plan 03 — Sharp + glob installed with `pnpm.onlyBuiltDependencies` allowlist:** pnpm 10 blocks postinstall scripts by default; explicit allowlist (`[esbuild, sharp, unrs-resolver]`) approves prebuilt-binary install non-interactively. Resolves plan 01's "Issues Encountered" note about Sharp build-script warning.
 - **Plan 03 — Test sandbox uses absolute script path:** ESM does not honor NODE_PATH. Spawn `node <repo-absolute-path>/scripts/qa/check-credits.mjs` with `cwd: <sandbox>`. Script uses `process.cwd()`-relative paths internally, so this gives full module resolution from the repo's node_modules.
@@ -93,6 +96,6 @@ None yet.
 
 ## Session Continuity
 
-Last session: 2026-05-11T01:22:54Z
-Stopped at: Completed .planning/phases/01-foundation-m1/03-photo-credits-PLAN.md
-Resume file: .planning/phases/01-foundation-m1/02-design-tokens-PLAN.md (Wave 2 — plan 02 in flight; plan 04 schema-baseline in flight)
+Last session: 2026-05-11T01:33:40.042Z
+Stopped at: Completed .planning/phases/01-foundation-m1/02-design-tokens-PLAN.md
+Resume file: None
