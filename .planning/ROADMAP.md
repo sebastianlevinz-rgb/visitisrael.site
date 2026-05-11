@@ -98,7 +98,7 @@ Plans:
 - [ ] 01-04: Affiliate helpers — 9 real (`bookingLink`, `civitatisLink`, `viatorLink`, `getYourGuideLink`, `rentalcarsLink`, `safetyWingLink`, `skyscannerLink`, `hostelworldLink`, `discoverCarsLink`) + 2 stubs (`klookLink`, `goCityLink`) per Conflict D; Zod validation; 4+ Vitest tests each; ESLint `no-restricted-syntax` for raw partner URLs (AFF-04); `data/affiliate-status.json` + `data/affiliate-availability.json`; Travelpayouts aggregator scaffolded; FTC `<AffiliateDisclosure>` inline component (AFF-06)
 - [ ] 01-05: Photo credits ledger — `data/photo-credits.json` Zod schema (width≥1200, license, author, sourceUrl, blurDataURL, restrictedSiteAcknowledgment for Western Wall/Holy Sepulchre/Dome of the Rock/Bahá'í); `scripts/qa/check-credits.mjs` CI gate; IGPO + Wikimedia source allowlist in `next.config.ts` remotePatterns
 - [ ] 01-06: Schema baseline — `schema-dts` + `lib/schema/{organization,touristDestination,touristAttraction,religiousBuilding,place,localBusiness,breadcrumb,faq,webSite,collectionPage,webPage}.ts` builders; `<JsonLd>` RSC component; `data/religious-sites.json` with paired naming; `scripts/qa/validate-schema.mjs`
-- [ ] 01-07: Quality scoring profiles — 5 profiles (`REGION_CANONICAL`, `SUB_DESTINATION`, `GUIDE_OR_WINERY`, `UTILITY`, `HUB`) with distinct weight matrices; `scripts/audit/profiles/*.ts`
+- [x] 01-07: Quality scoring profiles — 5 profiles (`REGION_CANONICAL`, `SUB_DESTINATION`, `GUIDE_OR_WINERY`, `UTILITY`, `HUB`) with distinct weight matrices; `scripts/audit/profiles/*.ts` ✓ Completed 2026-05-11
 - [ ] 01-08: SEO config — Dynamic `app/sitemap.ts` (registered-locales only), `app/robots.ts` (disallow `/admin/`, `/api/`), hreflang generator (bidirectional + `x-default`), self-referential canonical generator, 301 redirect map in `middleware.ts`
 - [ ] 01-09: Audit dashboard — `/admin/audit/` behind middleware basic-auth; runs AUD-001..AUD-034 over built pages; per-page score by profile; cached JSON + sortable HTML view; `AUD-05` quality-gate report generator at `/admin/audit/quality-gate`
 - [ ] 01-10: Lighthouse CI gate — `@lhci/cli` with `numberOfRuns: 3` + `aggregationMethod: median`; mobile thresholds perf≥0.90/a11y≥0.95/best-practices≥0.95/seo=1.00; GitHub Action `treosh/lighthouse-ci-action` blocks merge; `data/lighthouse-results.json` persisted
@@ -256,7 +256,7 @@ Quality Gate failure between 2 and 3 halts the workflow; no auto-advance to Phas
 
 | Phase                                  | Plans Complete | Status      | Completed |
 | -------------------------------------- | -------------- | ----------- | --------- |
-| 1. Foundation (M1)                     | 5/11           | In Progress | -         |
+| 1. Foundation (M1)                     | 7/11           | In Progress | -         |
 | 2. Pilot Jerusalem (M2)                | 0/6            | Not started | -         |
 | — Quality Gate (hard stop)             | —              | Not reached | -         |
 | 3. Region Replication (M3)             | 0/11           | Not started | -         |

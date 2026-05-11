@@ -3,15 +3,15 @@ gsd_state_version: 1.0
 milestone: v1.0
 milestone_name: milestone
 status: executing
-stopped_at: Completed .planning/phases/01-foundation-m1/06-affiliate-helpers-PLAN.md
-last_updated: '2026-05-11T02:28:09.750Z'
-last_activity: '2026-05-11 — Plan 06 (affiliate-helpers) complete: 9 real helpers + 2 stubs (Conflict D) + 12 partner state JSON entries + 9 partner-URL ESLint fixtures + AffiliateCard wired (no more #TODO-PLAN-06); 12 min, 3 commits, 61 net new tests (249/249 total green). AFF-01..04, AFF-06..08 complete.'
+stopped_at: Completed .planning/phases/01-foundation-m1/07-quality-profiles-PLAN.md
+last_updated: '2026-05-11T02:48:07.263Z'
+last_activity: '2026-05-11 — Plan 07 (quality-profiles) complete: 5 ProfileSpec objects (REGION_CANONICAL/SUB_DESTINATION/GUIDE_OR_WINERY/UTILITY/HUB) with distinct weight matrices across AUD-001..034 + detectProfile fail-loud heuristic; 10 min, 3 commits, 29 plan-07 tests green. FND-05 complete. Argentina lesson #5 (uniform rubric → no signal) structurally fixed.'
 progress:
   total_phases: 6
   completed_phases: 0
   total_plans: 11
-  completed_plans: 6
-  percent: 55
+  completed_plans: 7
+  percent: 64
 ---
 
 # Project State
@@ -26,32 +26,32 @@ See: .planning/PROJECT.md (updated 2026-05-11)
 ## Current Position
 
 Phase: 1 of 6 (Foundation — M1)
-Plan: 6 of 11 in current phase complete (01 scaffold + 02 design-tokens + 03 photo-credits + 04 schema-baseline + 05 component-lib + 06 affiliate-helpers); Wave 4 complete, Wave 5 next (plans 07 quality-profiles + 08 seo-config)
-Status: Executing — Wave 4 fully green, Wave 5 (plans 07 + 08) eligible to start
-Last activity: 2026-05-11 — Plan 06 (affiliate-helpers) complete: 9 real helpers + 2 stubs (Conflict D) + 12 partner state JSON entries + 9 partner-URL ESLint fixtures + AffiliateCard wired (no more #TODO-PLAN-06); 12 min, 3 commits, 61 net new tests (249/249 total green). AFF-01..04, AFF-06..08 complete.
+Plan: 7 of 11 in current phase complete (01 scaffold + 02 design-tokens + 03 photo-credits + 04 schema-baseline + 05 component-lib + 06 affiliate-helpers + 07 quality-profiles); Wave 5 partial (plan 07 done, plan 08 still in flight)
+Status: Executing — Wave 5 half complete (plan 07 green); plan 08 (seo-config) remains; Wave 6 (plan 09 NER) blocked on plan 08
+Last activity: 2026-05-11 — Plan 07 (quality-profiles) complete: 5 ProfileSpec objects (REGION_CANONICAL/SUB_DESTINATION/GUIDE_OR_WINERY/UTILITY/HUB) with distinct weight matrices across AUD-001..034 + detectProfile fail-loud heuristic; 10 min, 3 commits, 29 plan-07 tests green. FND-05 complete. Argentina lesson #5 (uniform rubric → no signal) structurally fixed.
 
-Progress: [██████░░░░] 55% (6/11 plans in Phase 1; ~11% overall)
+Progress: [███████░░░] 64% (7/11 plans in Phase 1; ~12% overall)
 
 ## Performance Metrics
 
 **Velocity:**
 
-- Total plans completed: 6
-- Average duration: ~20 min
-- Total execution time: ~1.97 hours
+- Total plans completed: 7
+- Average duration: ~18 min
+- Total execution time: ~2.13 hours
 
 **By Phase:**
 
 | Phase                  | Plans | Total   | Avg/Plan |
 | ---------------------- | ----- | ------- | -------- |
-| 1. Foundation          | 6/11  | 118 min | ~20 min  |
+| 1. Foundation          | 7/11  | 128 min | ~18 min  |
 | 2. Pilot Jerusalem     | 0/6   | —       | —        |
 | 3. Region Replication  | 0/11  | —       | —        |
 | 4. Long-tail Sweep     | 0/TBD | —       | —        |
 | 5. Legal + Launch Prep | 0/4   | —       | —        |
 | 6. Production Deploy   | 0/4   | —       | —        |
 
-**Recent Trend:** Plan 06 (affiliate-helpers) — 12 min — 41 files created + 5 modified + 1 removed, 3 commits, 249/249 tests green (+61 net new: 36 real helper tests + 8 stub tests + 4 availability + 10 fixture + 7 wired-AffiliateCard − 4 superseded stub). pnpm lint / typecheck / build all green; 3 auto-fixed deviations (1 blocking on typecheck of widened return type, 2 bugs from upstream stub contract). 9 real affiliate helpers (booking, civitatis, viator, gyg, rentalcars, safetywing, skyscanner, hostelworld, discovercars) + 2 stubs (klook, gocity throwing NoIsraelInventoryError per Conflict D). AffiliateCard wired (no more #TODO-PLAN-06).
+**Recent Trend:** Plan 07 (quality-profiles) — 10 min — 11 files created + 2 modified, 3 commits, 29 plan-07 tests green via `pnpm test --run scripts/audit/profiles/__tests__/` (3 files / 29 tests in <4s). Focused-tsc clean. 5 ProfileSpec objects (REGION_CANONICAL/SUB_DESTINATION/GUIDE_OR_WINERY/UTILITY/HUB) with distinct weight matrices across AUD-001..034; weight sums 100/100/95/94/92 (documented cushions for future AUD-035-class rules). detectProfile heuristic throws on unknown collection (fail-loud, fixes Argentina lesson #5). Cross-profile differential scoring tests prove the profiles MATTER (same AUD-027 scores -4 on REGION vs -12 on UTILITY). Zero deviations — plan executed exactly as written.
 
 _Updated after each plan completion_
 
@@ -62,6 +62,13 @@ _Updated after each plan completion_
 Decisions are logged in PROJECT.md Key Decisions table and SUMMARY.md §1 (Headline Decisions) + §3 (Conflict Resolutions).
 
 Recent decisions affecting current work:
+
+- **Plan 07 — Sum-≤100 with documented cushions over rigid sum-to-100:** REGION_CANONICAL + SUB_DESTINATION sum to exactly 100; GUIDE_OR_WINERY/UTILITY/HUB sum to 95/94/92 with 5/6/8-point cushions documented as trailing comments. Cushion magnitudes correlate with how likely each profile is to absorb future AUD-035-class rules — HUB has the largest reserve because future "internal-link density" / "breadcrumb depth" rules will land there first. Pattern lets plan 10's audit dashboard add rules without breaking the sum invariant.
+- **Plan 07 — Omit-rule-to-signal-irrelevance over weight: 0 entries:** UTILITY + HUB profiles OMIT AUD-009 (FTC disclosure) from their `weights` arrays entirely rather than including it with `weight: 0`. Two tests pin this — `profiles.UTILITY.weights.find(w => w.rule === 'AUD-009')` must return `undefined`. The signal is: this rule is intentionally inapplicable, not just zero-weight. Plan 10 scorer treats absent rules as weight 0, so the math works out identically; the difference is what future maintainers READ when scanning the file.
+- **Plan 07 — Fail-loud detectProfile over silent default:** When frontmatter has an unknown `collection` AND no override flag, `detectProfile` THROWS with `Cannot detect profile for collection=<x>` rather than fall back to a default profile. Argentina lesson #5 root cause was silent defaulting — every page got the same generic rubric. Two test cases pin the failure mode (`collection: 'unknown'` and `collection: ''`).
+- **Plan 07 — Cross-profile differential scoring tests over single-profile unit tests:** `region_canonical-score.test.ts` does NOT just test REGION in isolation — it asserts the SAME issue produces DIFFERENT scores under UTILITY vs REGION_CANONICAL (e.g., AUD-027 → -4 vs -12; AUD-009 → -8 vs 0-impact). This proves the profiles aren't cosmetic; they materially change scoring outcomes. Without this test, two profiles could drift to identical scoring behavior and still pass.
+- **Plan 07 — GUIDE.requiredSchemaTypes includes 'Article' even though plan 04 didn't ship an Article generator:** Deliberate forward-reference. Plan 10 audit dashboard will report a `requiredSchemaTypes` miss when GUIDE pages first land, surfacing the Phase 3 task to add `articleSchema()` to `lib/schema/`. Deferred-by-design over deferred-by-accident — the audit dashboard is the surfacing mechanism.
+- **Plan 07 — Co-located `__tests__` under `scripts/audit/profiles/` mirrors `lib/affiliate/__tests__/`:** First plan to put tests under `scripts/` required adding `scripts/**/__tests__/**/*.test.ts` to vitest.config.ts include array. Pattern locked: scripts/ tests live next to their subject (same as lib/), not in a separate tests/ tree.
 
 - **Plan 06 — Codemod-ready AID pattern over per-deploy edits:** Each helper reads `process.env.NEXT_PUBLIC_<PARTNER>_<AID>` at call time. Setting the env var in Vercel project settings flips every call site from public URL to AID-tagged URL with zero code change. `scripts/codemods/flip-affiliate-aid.mjs` is a placeholder for the JSON-tracker update only (Phase 6 monitoring concern); never rewrites source files. Argentina lesson #2 (one affiliate dominating at 92%) is structurally prevented because every helper is symmetric and AID-aware.
 - **Plan 06 — Conflict D stubs throw with documented messages, never silently return:** klookLink + goCityLink each throw NoIsraelInventoryError with a 4-part message (partner name + rationale + quarterly review pointer + activation criterion). Self-documenting at runtime — anyone tracing the error reads the rationale directly without re-reading SUMMARY.md §3.
@@ -111,6 +118,6 @@ None yet.
 
 ## Session Continuity
 
-Last session: 2026-05-11T02:28:09.741Z
-Stopped at: Completed .planning/phases/01-foundation-m1/06-affiliate-helpers-PLAN.md
+Last session: 2026-05-11T02:44:33Z
+Stopped at: Completed .planning/phases/01-foundation-m1/07-quality-profiles-PLAN.md
 Resume file: None
