@@ -68,3 +68,26 @@ multiple `/images/sub-destinations/*/` and `/images/regions/*/` files on disk
 without corresponding entries in `data/photo-credits.json`. Likely from prior
 parallel-agent staging. Each agent's own region ledger is intact; this is
 cross-region orphan accumulation. Address in Phase 6 monitoring sweep.
+
+## Wave 4 (Golan agent observation)
+
+**4. Akko (plan 10) sub-dest + region images on disk without ledger entries:**
+Parallel Wave 4 Akko agent placed 9 image files on disk
+(`public/images/regions/akko/{hero,old-city,hospitaller,bahai-mansion}.jpg` +
+`public/images/sub-destinations/akko/{old-city,hospitaller-knights,templar-tunnel,khan-al-umdan,bahai-mansion}.jpg`)
+before adding the corresponding entries to `data/photo-credits.json`. This
+fails the cross-agent `pnpm qa:credits` global check during my Wave 4 staging
+window.
+
+- **Owner:** Phase 3 Wave 4 plan 10 Akko agent
+- **Impact:** My own 10 Golan ledger entries are individually valid (verified
+  per-entry: width >= 1200, valid sourceUrl, license in Zod enum). The cross-
+  region `qa:credits` failure is purely the Akko orphan accumulation; my
+  Golan content is unaffected.
+- **Caesarea / Wave 3 precedent:** Wave 3 agents shipped through identical
+  parallel-state orphans (Wave 2 image-without-ledger from Galilee, etc.)
+  and proved the soft-gate region-gate.mjs reads `data/audit-results.json`
+  (not photo-credits.json), so my Golan soft-gate is unaffected.
+- **Fix:** Akko agent's own Task 1 commit will resolve once they append
+  their 9 ledger entries. Per the Wave 2 lesson, this self-resolves within
+  the wave's atomic-merge window.
