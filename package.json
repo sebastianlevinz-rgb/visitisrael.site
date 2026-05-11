@@ -26,6 +26,7 @@
     "qa:schema": "node scripts/qa/validate-schema.mjs",
     "qa:hebrew-content": "node scripts/qa/hebrew-content.mjs",
     "qa:pilot-checkpoint": "node scripts/qa/pilot-checkpoint.mjs",
+    "qa:region-gate": "node scripts/qa/region-gate.mjs",
     "qa:ner": "tsx scripts/audit/scan-ner.ts",
     "qa:audit": "tsx scripts/audit/run.ts",
     "qa:quality-gate": "tsx scripts/audit/quality-gate.ts",

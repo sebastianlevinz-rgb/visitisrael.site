@@ -170,5 +170,65 @@
     "height": 1080,
     "subjectType": "cityscape",
     "licenseProof": "https://creativecommons.org/licenses/by-sa/4.0/"
+  },
+  "/images/regions/tel-aviv/hero.jpg": {
+    "src": "/images/regions/tel-aviv/hero.jpg",
+    "author": "Andrew Shiva (Wikimedia Commons)",
+    "license": "CC-BY-SA-4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tel_Aviv,_Israel_(48597135697).jpg",
+    "region": "tel-aviv",
+    "slug": "tel-aviv",
+    "width": 1920,
+    "height": 1080,
+    "subjectType": "cityscape",
+    "licenseProof": "https://creativecommons.org/licenses/by-sa/4.0/"
+  },
+  "/images/regions/tel-aviv/jaffa.jpg": {
+    "src": "/images/regions/tel-aviv/jaffa.jpg",
+    "author": "Berthold Werner (Wikimedia Commons)",
+    "license": "CC-BY-SA-3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Jaffa_Old_City_panorama.jpg",
+    "region": "tel-aviv",
+    "slug": "tel-aviv",
+    "width": 1600,
+    "height": 1067,
+    "subjectType": "cityscape",
+    "licenseProof": "https://creativecommons.org/licenses/by-sa/3.0/"
+  },
+  "/images/regions/tel-aviv/carmel-market.jpg": {
+    "src": "/images/regions/tel-aviv/carmel-market.jpg",
+    "author": "Adiel lo (Wikimedia Commons)",
+    "license": "CC-BY-SA-3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Carmel_Market_Tel_Aviv.jpg",
+    "region": "tel-aviv",
+    "slug": "tel-aviv",
+    "width": 1600,
+    "height": 1067,
+    "subjectType": "cityscape",
+    "licenseProof": "https://creativecommons.org/licenses/by-sa/3.0/"
+  },
+  "/images/regions/tel-aviv/rothschild.jpg": {
+    "src": "/images/regions/tel-aviv/rothschild.jpg",
+    "author": "Talmoryair (Wikimedia Commons)",
+    "license": "CC-BY-SA-3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Rothschild_Boulevard_Tel_Aviv.jpg",
+    "region": "tel-aviv",
+    "slug": "tel-aviv",
+    "width": 1600,
+    "height": 1067,
+    "subjectType": "cityscape",
+    "licenseProof": "https://creativecommons.org/licenses/by-sa/3.0/"
+  },
+  "/images/regions/tel-aviv/beaches.jpg": {
+    "src": "/images/regions/tel-aviv/beaches.jpg",
+    "author": "Tomer Foltyn (Wikimedia Commons)",
+    "license": "CC-BY-SA-4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tel_Aviv_beach_panorama.jpg",
+    "region": "tel-aviv",
+    "slug": "tel-aviv",
+    "width": 1600,
+    "height": 1067,
+    "subjectType": "landscape",
+    "licenseProof": "https://creativecommons.org/licenses/by-sa/4.0/"
   }
 }
