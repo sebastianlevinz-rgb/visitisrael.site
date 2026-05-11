@@ -397,7 +397,8 @@ export function renderReport(result, lighthouseResult, region) {
   return `# Region Gate Report: ${region}
 
 **Evaluated:** ${isoDate}
-**Verdict:** ${verdict}
+
+Verdict: ${verdict}
 
 ## Pages Audited
 

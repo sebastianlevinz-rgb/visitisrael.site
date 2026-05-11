@@ -422,7 +422,7 @@ describe('renderReport schema', () => {
     const lh = { status: 'DEFERRED-CI-owns', detail: 'baseline empty' };
     const md = helpers.renderReport(result, lh, 'tel-aviv');
     expect(md).toMatch(/^# Region Gate Report: tel-aviv/m);
-    expect(md).toMatch(/\*\*Verdict:\*\* PASS/);
+    expect(md).toMatch(/Verdict:\s*PASS/);
     expect(md).toMatch(/## Pages Audited/);
     expect(md).toMatch(/## Failures/);
     expect(md).toMatch(/## EN\+HE Parity/);
@@ -449,7 +449,7 @@ describe('renderReport schema', () => {
     };
     const lh = { status: 'PASS', detail: '2 runs ≥ 0.85' };
     const md = helpers.renderReport(result, lh, 'tel-aviv');
-    expect(md).toMatch(/\*\*Verdict:\*\* FAIL/);
+    expect(md).toMatch(/Verdict:\s*FAIL/);
     expect(md).toMatch(/canonical-below-threshold/);
     expect(md).toMatch(/score 78 < 80/);
   });
