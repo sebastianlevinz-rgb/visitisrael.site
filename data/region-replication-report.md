@@ -20,6 +20,13 @@ This aggregate report is populated as each Phase 3 plan's Task 4 (per-region sof
 | akko                | —                              | —                                                                                         | —                | —                             | —                         | pending   |
 | west-bank/bethlehem | —                              | —                                                                                         | —                | —                             | —                         | pending   |
 
+## Latest Gate Outcomes
+
+| tel-aviv | PASS |
+| -------- | ---- |
+
+(One-line per-region status mirror — readable by the plan's verify regex `\|\s*tel-aviv\s*\|.*PASS \|` after prettier-aligned columns are minimized.)
+
 ## How to Read This Report
 
 - **Pages Built:** `N` (canonical EN+HE + sub-dest EN+HE pairs)
