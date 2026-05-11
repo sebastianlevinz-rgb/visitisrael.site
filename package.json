@@ -26,8 +26,15 @@
     "qa:quality-gate": "tsx scripts/audit/quality-gate.ts",
     "qa:audit-a11y": "node scripts/audit_a11y_wrapper.mjs",
     "qa:axe": "node scripts/audit/axe.mjs",
-    "gate:report": "echo \"gate:report placeholder (populated in plan 11)\" && exit 0",
-    "lhci": "echo \"lhci placeholder (populated in plan 11)\" && exit 0",
+    "gate:report": "tsx scripts/audit/quality-gate.ts",
+    "lhci": "lhci autorun && node scripts/qa/persist-lhci.mjs",
+    "lhci:collect": "lhci collect",
+    "lhci:assert": "lhci assert",
+    "lhci:upload": "lhci upload",
+    "lhci:persist": "node scripts/qa/persist-lhci.mjs",
+    "qa:lighthouse": "lhci autorun && node scripts/qa/persist-lhci.mjs",
+    "qa:regression": "node scripts/qa/regression-test.mjs",
+    "qa:lighthouse-regression": "node scripts/qa/regression-test.mjs",
     "prepare": "husky"
   },
   "dependencies": {
@@ -45,6 +52,7 @@
     "zod": "^4.4.3"
   },
   "devDependencies": {
+    "@lhci/cli": "^0.15.1",
     "@tailwindcss/postcss": "^4.3.0",
     "@testing-library/jest-dom": "^6.9.1",
     "@testing-library/react": "^16.3.2",
