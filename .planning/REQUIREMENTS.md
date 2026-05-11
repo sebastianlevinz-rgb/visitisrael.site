@@ -27,7 +27,7 @@ The 11 sub-phases of Phase 1 (mega-prompt Fase 1). All must complete and pass be
 - [x] **FND-03**: Component primitives (`Button`, `Card`, `Tag`, `Badge`, `Section`, `Container`, `Grid`) with CVA variants and travel composites (`RegionHero`, `AttractionGrid`, `AffiliateCard`, `PhotoGallery`, `StickyCTA`, `ItineraryCard`, `WhereToStay`, `TransportInfo`, `BestTimeToVisit`, `ShabbatNotice`, `Price`, `SkipNav`)
 - [x] **FND-04**: `/admin/components/` noindex playground showing every primitive + composite in default + edge-case states
 - [x] **FND-05**: 5 quality scoring profiles implemented (`REGION_CANONICAL`, `SUB_DESTINATION`, `GUIDE_OR_WINERY`, `UTILITY`, `HUB`) with distinct weights — fixes Argentina lesson #5
-- [ ] **FND-06**: Dynamic `sitemap.ts` enumerates ONLY registered locales; `robots.ts` disallows `/admin/` and `/api/`; canonical URL generator; hreflang generator with reciprocal `<link>` tags + `x-default`; 301 redirects map in `middleware.ts`
+- [x] **FND-06**: Dynamic `sitemap.ts` enumerates ONLY registered locales; `robots.ts` disallows `/admin/` and `/api/`; canonical URL generator; hreflang generator with reciprocal `<link>` tags + `x-default`; 301 redirects map in `middleware.ts`
 - [ ] **FND-07**: NER / mention-detection dictionary (`data/entity-dict.json` with tour/hotel/restaurant/museum/transport classes) + regex-based detector that surfaces unmonetized mentions in MDX to the audit dashboard — fixes Argentina lesson #6
 - [x] **FND-08**: `Plausible` (or PostHog if user decides otherwise in Phase 1.1) wired with UTM tracking on every CTA; no cookie banner needed (Plausible is cookie-less)
 
@@ -52,7 +52,7 @@ Argentina lesson #7 fix — i18n NOT bolted-on.
 - [x] **I18N-02**: `i18n-config.ts` registers ONLY `he` and `en` at launch (Conflict A resolution); filesystem + types + Velite collection allow `'he' | 'en' | 'fr'` for cheap FR addition later
 - [x] **I18N-03**: Hebrew Tailwind preset from `skills-il/localization@hebrew-tailwind-preset` applied; all components use logical CSS properties (`ms-/me-/ps-/pe-/start-/end-/inset-inline-start`) — zero physical directional utilities
 - [x] **I18N-04**: `<html lang="he" dir="rtl">` for Hebrew pages and `<html lang="en" dir="ltr">` for English pages, set per-route via layout
-- [ ] **I18N-05**: Hreflang generator emits `<link rel="alternate" hreflang="he" />` and `<link rel="alternate" hreflang="en" />` + `x-default` only for built locales; reciprocal tagging audited (AUD-014)
+- [x] **I18N-05**: Hreflang generator emits `<link rel="alternate" hreflang="he" />` and `<link rel="alternate" hreflang="en" />` + `x-default` only for built locales; reciprocal tagging audited (AUD-014)
 - [x] **I18N-06**: Velite + MDX content pipeline with per-locale directories (`content/{he,en}/regions/*.mdx`); Velite collection schema enforces `lang: z.enum(['he','en','fr'])` future-readiness
 
 ### Accessibility (IS 5568)
@@ -63,7 +63,7 @@ Beyond WCAG 2.1 AA — Israeli law mandates additional items. Up to 50,000 NIS d
 - [x] **A11Y-02**: Hebrew skip-navigation link (`דלג לתוכן הראשי`) is the first focusable element on every Hebrew page; English skip link on English pages
 - [ ] **A11Y-03**: `/accessibility-statement` (English) + `/הצהרת-נגישות` (Hebrew, transliterated slug allowed if Hebrew slug deferred) pages exist with all IS 5568 required content (commitment, standard, features, limitations, coordinator contact, last-audit date)
 - [ ] **A11Y-04**: Named accessibility coordinator (real person, real phone, real email — placeholder NOT acceptable) listed on accessibility statement page; same person reachable via `mailto:` and `tel:` links
-- [ ] **A11Y-05**: Footer of every page links to accessibility statement in current locale (AUD-028)
+- [x] **A11Y-05**: Footer of every page links to accessibility statement in current locale (AUD-028)
 - [ ] **A11Y-06**: All form inputs have associated labels; all interactive elements have aria-labels or accessible names; error messages use `role="alert"` and are rendered in Hebrew for Hebrew forms, English for English forms
 - [x] **A11Y-07**: ZERO accessibility overlays (accessiBe / UserWay / EqualWeb / AudioEye) — overlay-based remediation is explicitly prohibited (FTC $1M precedent + IS 5568 ineffectiveness)
 - [ ] **A11Y-08**: Lighthouse a11y score ≥95 mobile (3-run-median) per page; supplementary axe-core checks run in CI; Israeli-specific checks via `audit_a11y.py` from `israeli-accessibility-compliance` skill
@@ -73,9 +73,9 @@ Beyond WCAG 2.1 AA — Israeli law mandates additional items. Up to 50,000 NIS d
 - [x] **SEO-01**: `schema-dts` library wired; native `<script type="application/ld+json">` injection from RSC; page-level injection (not layout) except `Organization` schema in root layout
 - [x] **SEO-02**: Schema generators implemented for `TouristDestination`, `TouristAttraction`, `ReligiousBuilding`, `Place`, `LocalBusiness`, `BreadcrumbList`, `FAQPage`, `WebSite`, `CollectionPage`, `WebPage`, `Organization`
 - [x] **SEO-03**: Local validator script (`scripts/qa/validate-schema.mjs`) catches malformed JSON-LD pre-commit; supplementary Google Rich Results Test sampling in CI for changed pages
-- [ ] **SEO-04**: Religious-site naming convention: paired naming on first reference (`Temple Mount / Haram al-Sharif`), `Western Wall` not `Wailing Wall`, `Bethlehem/Hebron/Jericho` carry `administrativeStatus` frontmatter; audit rules AUD-017..AUD-020
+- [x] **SEO-04**: Religious-site naming convention: paired naming on first reference (`Temple Mount / Haram al-Sharif`), `Western Wall` not `Wailing Wall`, `Bethlehem/Hebron/Jericho` carry `administrativeStatus` frontmatter; audit rules AUD-017..AUD-020
 - [x] **SEO-05**: Title tags 50–60 chars (Hebrew: ~50 chars accounting for character width); meta description 120–160 chars; H1 once per page; H2 every 200–300 words
-- [ ] **SEO-06**: Canonical URLs self-referential per locale (never cross-locale); no canonical pointing from EN page to HE page or vice versa
+- [x] **SEO-06**: Canonical URLs self-referential per locale (never cross-locale); no canonical pointing from EN page to HE page or vice versa
 
 ### Image Pipeline & Credits
 
@@ -192,7 +192,7 @@ Per-requirement phase mapping (filled during roadmap creation 2026-05-11). Every
 | FND-03      | Phase 1 | Plan 05 (7 primitives + 12 composites + 6 layout, 25 total)                                                                                        | ✓ Complete (plan 05)                  |
 | FND-04      | Phase 1 | Plan 05 (/admin/components index + drill-down; 40 static pages noindex)                                                                            | ✓ Complete (plan 05)                  |
 | FND-05      | Phase 1 | Plan 01-07 (quality scoring profiles)                                                                                                              | ✓ Complete (plan 07)                  |
-| FND-06      | Phase 1 | Plan 01-08 (SEO config)                                                                                                                            | Pending                               |
+| FND-06      | Phase 1 | Plan 01-08 (sitemap + robots + hreflang + canonical + 301 redirect map; FR never emitted — Conflict A)                                             | ✓ Complete (plan 08)                  |
 | FND-07      | Phase 1 | Plan 01-11 (NER detection)                                                                                                                         | Pending                               |
 | FND-08      | Phase 1 | Plan 01-01 (Plausible decision lock-in)                                                                                                            | Pending                               |
 | AFF-01      | Phase 1 | Plan 01-04 (9 real helpers — Conflict D)                                                                                                           | Pending                               |
@@ -207,22 +207,22 @@ Per-requirement phase mapping (filled during roadmap creation 2026-05-11). Every
 | I18N-02     | Phase 1 | Plan 01-01 (Conflict A: 2 locales registered, 3-locale filesystem)                                                                                 | Pending                               |
 | I18N-03     | Phase 1 | Plan 02 (ESLint rule + fixture) + plan 05 (25 components ship with zero physical utilities; AST scan + lint enforce)                               | ✓ Complete (plan 05)                  |
 | I18N-04     | Phase 1 | Plan 01-01 (lang/dir per route via layout)                                                                                                         | Pending                               |
-| I18N-05     | Phase 1 | Plan 01-08 (hreflang generator); first-verified live in Phase 2                                                                                    | Pending                               |
+| I18N-05     | Phase 1 | Plan 01-08 (hreflang generator); first-verified live in Phase 2                                                                                    | ✓ Complete (plan 08)                  |
 | I18N-06     | Phase 1 | Plan 01-01 (Velite config with 3-locale enum)                                                                                                      | Pending                               |
-| A11Y-01     | Phase 1 | Plan 01-01 (layout enforcement); verified in Phase 2                                                                                               | Pending                               |
+| A11Y-01     | Phase 1 | Plan 01-01 (layout enforcement); re-verified by plan 08 sitemap/hreflang generators emitting lang-correct alternates                                | ✓ Complete (plan 08)                  |
 | A11Y-02     | Phase 1 | Plan 05 (`<SkipNav>` Hebrew+English; wired as first body child of locale layout); rendered live in Phase 2 region pages                            | ✓ Complete (plan 05)                  |
 | A11Y-03     | Phase 2 | Plan 02-05 (Accessibility Statement page EN + HE)                                                                                                  | Pending                               |
 | A11Y-04     | Phase 2 | Plan 02-05 (named coordinator on statement page — operational blocker per Gap §6.7)                                                                | Pending                               |
-| A11Y-05     | Phase 2 | Plan 02-05 (footer link sweep); re-verified site-wide in Phase 5                                                                                   | Pending                               |
+| A11Y-05     | Phase 1 | Plan 01-08 (Footer wired to accessibilityStatementHref; single source of truth for AUD-028); page itself lands in Phase 2.5                        | ✓ Complete (plan 08)                  |
 | A11Y-06     | Phase 1 | Plan 05 (form-a11y.test.tsx proves aria-required/invalid/role=alert contract); full audit coverage requires plan 10 + Phase 2.5 contact form       | ⚠ Partial (plan 05; full = phase 2.5) |
 | A11Y-07     | Phase 1 | Plan 01-01 (project policy — no overlays installed ever)                                                                                           | Pending                               |
 | A11Y-08     | Phase 1 | Plan 01-10 (Lighthouse CI a11y ≥0.95 threshold); enforced from Phase 2 onward                                                                      | Pending                               |
 | SEO-01      | Phase 1 | Plan 01-06 (schema-dts + `<JsonLd>` RSC component)                                                                                                 | Pending                               |
 | SEO-02      | Phase 1 | Plan 01-06 (11 schema generators)                                                                                                                  | Pending                               |
 | SEO-03      | Phase 1 | Plan 01-06 (`scripts/qa/validate-schema.mjs`)                                                                                                      | Pending                               |
-| SEO-04      | Phase 2 | Plan 02-01 + 02-02 (Jerusalem paired religious naming, first editorial application); AUD-017..AUD-020 enforced from Phase 1.9 onward               | Pending                               |
-| SEO-05      | Phase 1 | Plan 01-08 (metadata API setup); enforced per-page from Phase 2                                                                                    | Pending                               |
-| SEO-06      | Phase 1 | Plan 01-08 (canonical generator self-referential)                                                                                                  | Pending                               |
+| SEO-04      | Phase 1 | Plan 01-08 (AUD-017..AUD-020 regex detectors + ADMIN_STATUS_REQUIRED_SITES + aggregated violation reporter); plan 10 wires audit-dashboard scan logic; first editorial application in Phase 2 | ✓ Complete (plan 08; data layer) |
+| SEO-05      | Phase 1 | Plan 01-08 (generateMetadataFor runtime warn on title/desc length drift; Velite primary enforcement); per-page from Phase 2                        | ✓ Complete (plan 08)                  |
+| SEO-06      | Phase 1 | Plan 01-08 (canonical generator self-referential; tested via metadata + canonical test suites)                                                     | ✓ Complete (plan 08)                  |
 | IMG-01      | Phase 1 | Plan 01-05 (Zod schema for photo-credits.json)                                                                                                     | Pending                               |
 | IMG-02      | Phase 1 | Plan 01-05 (`scripts/qa/check-credits.mjs` CI gate)                                                                                                | Pending                               |
 | IMG-03      | Phase 1 | Plan 01-05 + 01-03 (`next/image` config + PhotoGallery contract)                                                                                   | Pending                               |

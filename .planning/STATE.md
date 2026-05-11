@@ -3,15 +3,15 @@ gsd_state_version: 1.0
 milestone: v1.0
 milestone_name: milestone
 status: executing
-stopped_at: Completed .planning/phases/01-foundation-m1/07-quality-profiles-PLAN.md
-last_updated: '2026-05-11T02:48:07.263Z'
-last_activity: '2026-05-11 — Plan 07 (quality-profiles) complete: 5 ProfileSpec objects (REGION_CANONICAL/SUB_DESTINATION/GUIDE_OR_WINERY/UTILITY/HUB) with distinct weight matrices across AUD-001..034 + detectProfile fail-loud heuristic; 10 min, 3 commits, 29 plan-07 tests green. FND-05 complete. Argentina lesson #5 (uniform rubric → no signal) structurally fixed.'
+stopped_at: Completed .planning/phases/01-foundation-m1/08-seo-config-PLAN.md
+last_updated: '2026-05-11T02:49:17.000Z'
+last_activity: '2026-05-11 — Plan 08 (seo-config) complete: dynamic app/sitemap.ts (registered locales only — Conflict A) + app/robots.ts + hreflang generator (3 alternates: he, en, x-default→EN) + generateMetadataFor metadata builder (self-referential canonical + reciprocal alternates.languages) + religious-naming regex helpers (AUD-017..AUD-020 data layer) + accessibility-link single source of truth (A11Y-05) + 301 REDIRECTS map in middleware; 14 min, 3 commits, 66 net new tests (339/339 total green). FND-06, I18N-05, SEO-04, SEO-05, SEO-06, A11Y-01, A11Y-05 complete.'
 progress:
   total_phases: 6
   completed_phases: 0
   total_plans: 11
-  completed_plans: 7
-  percent: 64
+  completed_plans: 8
+  percent: 73
 ---
 
 # Project State
@@ -26,32 +26,32 @@ See: .planning/PROJECT.md (updated 2026-05-11)
 ## Current Position
 
 Phase: 1 of 6 (Foundation — M1)
-Plan: 7 of 11 in current phase complete (01 scaffold + 02 design-tokens + 03 photo-credits + 04 schema-baseline + 05 component-lib + 06 affiliate-helpers + 07 quality-profiles); Wave 5 partial (plan 07 done, plan 08 still in flight)
-Status: Executing — Wave 5 half complete (plan 07 green); plan 08 (seo-config) remains; Wave 6 (plan 09 NER) blocked on plan 08
-Last activity: 2026-05-11 — Plan 07 (quality-profiles) complete: 5 ProfileSpec objects (REGION_CANONICAL/SUB_DESTINATION/GUIDE_OR_WINERY/UTILITY/HUB) with distinct weight matrices across AUD-001..034 + detectProfile fail-loud heuristic; 10 min, 3 commits, 29 plan-07 tests green. FND-05 complete. Argentina lesson #5 (uniform rubric → no signal) structurally fixed.
+Plan: 8 of 11 in current phase complete (01 scaffold + 02 design-tokens + 03 photo-credits + 04 schema-baseline + 05 component-lib + 06 affiliate-helpers + 07 quality-profiles + 08 seo-config); Wave 5 fully green (plans 07 + 08 done), Wave 6 (plan 09 NER) eligible to start
+Status: Executing — Wave 5 fully green; Wave 6 (plan 09 NER detection) eligible to start
+Last activity: 2026-05-11 — Plan 08 (seo-config) complete: dynamic app/sitemap.ts (registered locales only — Conflict A) + app/robots.ts + hreflang (3 alternates: he, en, x-default→EN) + generateMetadataFor builder + religious-naming regex helpers (AUD-017..AUD-020) + accessibility-link single source of truth + 301 REDIRECTS map in middleware; 14 min, 3 commits, 66 net new tests (339/339 total green). FND-06, I18N-05, SEO-04, SEO-05, SEO-06, A11Y-01, A11Y-05 complete.
 
-Progress: [███████░░░] 64% (7/11 plans in Phase 1; ~12% overall)
+Progress: [████████░░] 73% (8/11 plans in Phase 1; ~13% overall)
 
 ## Performance Metrics
 
 **Velocity:**
 
-- Total plans completed: 7
+- Total plans completed: 8
 - Average duration: ~18 min
-- Total execution time: ~2.13 hours
+- Total execution time: ~2.36 hours
 
 **By Phase:**
 
 | Phase                  | Plans | Total   | Avg/Plan |
 | ---------------------- | ----- | ------- | -------- |
-| 1. Foundation          | 7/11  | 128 min | ~18 min  |
+| 1. Foundation          | 8/11  | 142 min | ~18 min  |
 | 2. Pilot Jerusalem     | 0/6   | —       | —        |
 | 3. Region Replication  | 0/11  | —       | —        |
 | 4. Long-tail Sweep     | 0/TBD | —       | —        |
 | 5. Legal + Launch Prep | 0/4   | —       | —        |
 | 6. Production Deploy   | 0/4   | —       | —        |
 
-**Recent Trend:** Plan 07 (quality-profiles) — 10 min — 11 files created + 2 modified, 3 commits, 29 plan-07 tests green via `pnpm test --run scripts/audit/profiles/__tests__/` (3 files / 29 tests in <4s). Focused-tsc clean. 5 ProfileSpec objects (REGION_CANONICAL/SUB_DESTINATION/GUIDE_OR_WINERY/UTILITY/HUB) with distinct weight matrices across AUD-001..034; weight sums 100/100/95/94/92 (documented cushions for future AUD-035-class rules). detectProfile heuristic throws on unknown collection (fail-loud, fixes Argentina lesson #5). Cross-profile differential scoring tests prove the profiles MATTER (same AUD-027 scores -4 on REGION vs -12 on UTILITY). Zero deviations — plan executed exactly as written.
+**Recent Trend:** Plan 08 (seo-config) — 14 min — 14 files created + 2 modified, 3 commits, 66 net new tests (339/339 total green). app/sitemap.ts iterates REGISTERED locales only (Conflict A enforced); app/robots.ts disallows /admin/+/api/; hreflang emits 3 alternates (he, en, x-default→EN); generateMetadataFor wires self-referential canonical + reciprocal alternates.languages; religious-naming regex helpers (AUD-017..AUD-020) + accessibility-link single source of truth (A11Y-05); middleware 301 REDIRECTS map (empty baseline). 2 auto-fixed deviations (Next.js Metadata.twitter type cast in test; middleware test re-architected to stub next-intl). pnpm typecheck/lint/build all green.
 
 _Updated after each plan completion_
 
@@ -63,6 +63,12 @@ Decisions are logged in PROJECT.md Key Decisions table and SUMMARY.md §1 (Headl
 
 Recent decisions affecting current work:
 
+- **Plan 08 — Sitemap config-driven, NOT filesystem-driven:** The generator iterates `locales` from i18n-config.ts and a Phase-1 static path list — it does NOT walk content/{he,en,fr}/. Rationale: a filesystem-walking generator would silently emit FR URLs the moment a single test MDX file lands in content/fr/. Config-driven means Conflict A is structural, not defensive. Adding FR later = one-line change in i18n-config.ts; nothing here updates.
+- **Plan 08 — Hreflang x-default → EN, not HE:** HE is `defaultLocale` (URL routing — no prefix). EN is global hreflang `x-default` (international visitor fallback). Two different roles. ARCHITECTURE §6.2 explicitly: English is the global fallback for an Israel-focused property; an English-speaking visitor with no `Accept-Language: he` header should land on /en/ not /. Documented in hreflang.ts so future "fix" attempts don't reverse it.
+- **Plan 08 — Religious-naming detectors case-insensitive + 300-char pairing window:** WAILING_WALL_REGEX, BIASED_FRAMING_REGEX both `/i`; detectTempleMountPaired uses 300-char window for "Temple Mount / Haram al-Sharif" first-reference heuristic (PITFALLS §3.1 says "first reference" literally — 300 chars allows a bilingual lead paragraph but rejects unpaired later paragraphs). detectUnpairedReligiousNaming returns structured ReligiousNamingViolation[] (rule + message + match) for plan-10 dashboard consumption.
+- **Plan 08 — accessibility-link.ts is single source of truth for A11Y-05 + AUD-028:** consumed by BOTH the Footer (render path) AND plan-10 audit scanner (audit path). Hebrew slug deferred to v2 per A11Y-03 — HE + EN both use English slug 'accessibility-statement' at launch. Footer.footerLinkHref retained as backward-compat export but delegates to accessibilityStatementHref for the accessibility slug.
+- **Plan 08 — Metadata length checks warn, don't throw:** Velite frontmatter validators (SEO-05) are primary enforcement at content-build time. Runtime console.warn is defense-in-depth — catches drift between Velite and runtime if frontmatter is generated dynamically. Throwing would crash a Phase 2 page render on first drift; warning surfaces in dev logs + CI without breaking visitor UX. Two-layer enforcement.
+- **Plan 08 — 301 redirect map runs BEFORE next-intl in middleware:** order-of-operations is load-bearing — if locale negotiation rewrote /old-slug → /en/old-slug first, our redirect map (keyed on literal request path) would miss the entry. Body comments document the order so a future contributor doesn't reorder for "logical grouping". Middleware test stubs next-intl (`vi.doMock('next-intl/middleware')`) rather than running it against fake NextRequest — next-intl's resolveLocale reads accept-language headers/cookies that don't exist in jsdom. Pattern reusable for plan-10 basic-auth additions.
 - **Plan 07 — Sum-≤100 with documented cushions over rigid sum-to-100:** REGION_CANONICAL + SUB_DESTINATION sum to exactly 100; GUIDE_OR_WINERY/UTILITY/HUB sum to 95/94/92 with 5/6/8-point cushions documented as trailing comments. Cushion magnitudes correlate with how likely each profile is to absorb future AUD-035-class rules — HUB has the largest reserve because future "internal-link density" / "breadcrumb depth" rules will land there first. Pattern lets plan 10's audit dashboard add rules without breaking the sum invariant.
 - **Plan 07 — Omit-rule-to-signal-irrelevance over weight: 0 entries:** UTILITY + HUB profiles OMIT AUD-009 (FTC disclosure) from their `weights` arrays entirely rather than including it with `weight: 0`. Two tests pin this — `profiles.UTILITY.weights.find(w => w.rule === 'AUD-009')` must return `undefined`. The signal is: this rule is intentionally inapplicable, not just zero-weight. Plan 10 scorer treats absent rules as weight 0, so the math works out identically; the difference is what future maintainers READ when scanning the file.
 - **Plan 07 — Fail-loud detectProfile over silent default:** When frontmatter has an unknown `collection` AND no override flag, `detectProfile` THROWS with `Cannot detect profile for collection=<x>` rather than fall back to a default profile. Argentina lesson #5 root cause was silent defaulting — every page got the same generic rubric. Two test cases pin the failure mode (`collection: 'unknown'` and `collection: ''`).
@@ -118,6 +124,6 @@ None yet.
 
 ## Session Continuity
 
-Last session: 2026-05-11T02:44:33Z
-Stopped at: Completed .planning/phases/01-foundation-m1/07-quality-profiles-PLAN.md
+Last session: 2026-05-11T02:49:17Z
+Stopped at: Completed .planning/phases/01-foundation-m1/08-seo-config-PLAN.md
 Resume file: None
