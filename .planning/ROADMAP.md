@@ -158,9 +158,9 @@ Plans:
 **Plans**:
 
 - [ ] 03-01: Tel Aviv canonical + sub-destinations (EN + HE)
-- [ ] 03-02: Dead Sea canonical + sub-destinations (incl. Masada per FEATURES taxonomy decision)
-- [ ] 03-03: Galilee canonical + sub-destinations
-- [ ] 03-04: Eilat canonical + sub-destinations
+- [x] 03-02: Dead Sea canonical + sub-destinations (incl. Masada per FEATURES taxonomy decision)
+- [x] 03-03: Galilee canonical + sub-destinations
+- [x] 03-04: Eilat canonical + sub-destinations
 - [ ] 03-05: Negev Desert canonical + sub-destinations (gated on REG-05 image budget)
 - [ ] 03-06: Nazareth canonical + sub-destinations
 - [ ] 03-07: Haifa canonical + sub-destinations (gated on Bahá'í photography policy decision)
@@ -259,7 +259,7 @@ Quality Gate failure between 2 and 3 halts the workflow; no auto-advance to Phas
 | 1. Foundation (M1)                     | 11/11          | Complete    | 2026-05-11 |
 | 2. Pilot Jerusalem (M2)                | 6/6            | Complete    | 2026-05-11 |
 | — Quality Gate (hard stop)             | PASS           | Cleared     | 2026-05-11 |
-| 3. Region Replication (M3)             | 1/11           | In progress | 2026-05-11 |
+| 3. Region Replication (M3)             | 4/11           | In progress | 2026-05-11 |
 | 4. Long-tail Sweep (M4)                | 0/1 (TBD)      | Not started | -          |
 | 5. Legal + Launch Prep (M5)            | 0/4            | Not started | -          |
 | 6. Production Deploy + Monitoring (M6) | 0/4            | Not started | -          |
