@@ -257,9 +257,9 @@ Quality Gate failure between 2 and 3 halts the workflow; no auto-advance to Phas
 | Phase                                  | Plans Complete | Status      | Completed  |
 | -------------------------------------- | -------------- | ----------- | ---------- |
 | 1. Foundation (M1)                     | 11/11          | Complete    | 2026-05-11 |
-| 2. Pilot Jerusalem (M2)                | 1/6            | In progress | 2026-05-11 |
-| — Quality Gate (hard stop)             | —              | Not reached | -          |
-| 3. Region Replication (M3)             | 0/11           | Not started | -          |
+| 2. Pilot Jerusalem (M2)                | 6/6            | Complete    | 2026-05-11 |
+| — Quality Gate (hard stop)             | PASS           | Cleared     | 2026-05-11 |
+| 3. Region Replication (M3)             | 1/11           | In progress | 2026-05-11 |
 | 4. Long-tail Sweep (M4)                | 0/1 (TBD)      | Not started | -          |
 | 5. Legal + Launch Prep (M5)            | 0/4            | Not started | -          |
 | 6. Production Deploy + Monitoring (M6) | 0/4            | Not started | -          |
