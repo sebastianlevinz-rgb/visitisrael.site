@@ -2,16 +2,16 @@
 gsd_state_version: 1.0
 milestone: v1.0
 milestone_name: milestone
-status: planning
-stopped_at: Phase 1 context gathered
-last_updated: "2026-05-10T23:50:47.762Z"
-last_activity: 2026-05-11 — Roadmap + STATE initialized after research synthesis
+status: executing
+stopped_at: Completed 01-scaffold-PLAN.md
+last_updated: "2026-05-11T01:04:13Z"
+last_activity: 2026-05-11 — Plan 01 (scaffold) complete: Next.js + i18n + ESLint + tooling green
 progress:
   total_phases: 6
   completed_phases: 0
-  total_plans: 0
-  completed_plans: 0
-  percent: 0
+  total_plans: 11
+  completed_plans: 1
+  percent: 9
 ---
 
 # Project State
@@ -26,31 +26,31 @@ See: .planning/PROJECT.md (updated 2026-05-11)
 ## Current Position
 
 Phase: 1 of 6 (Foundation — M1)
-Plan: 0 of 11 in current phase
-Status: Ready to plan
-Last activity: 2026-05-11 — Roadmap + STATE initialized after research synthesis
+Plan: 1 of 11 in current phase complete; next up: plan 02 (design tokens)
+Status: Executing — plan 01 green, parallel wave 2 (plans 02, 03, 04) eligible to start
+Last activity: 2026-05-11 — Plan 01 (scaffold) complete: Next.js 15.5 + TS strict + Tailwind v4 + next-intl + ESLint flat + Vitest + Husky + Plausible all green; 27 min, 5 commits.
 
-Progress: [░░░░░░░░░░] 0% (0/37 plans across 6 phases; plan count for Phase 4 TBD during plan-phase)
+Progress: [█░░░░░░░░░] 9% (1/11 plans in Phase 1; ~3% overall)
 
 ## Performance Metrics
 
 **Velocity:**
-- Total plans completed: 0
-- Average duration: —
-- Total execution time: 0.0 hours
+- Total plans completed: 1
+- Average duration: 27 min
+- Total execution time: 0.45 hours
 
 **By Phase:**
 
 | Phase | Plans | Total | Avg/Plan |
 |-------|-------|-------|----------|
-| 1. Foundation | 0/11 | — | — |
+| 1. Foundation | 1/11 | 27 min | 27 min |
 | 2. Pilot Jerusalem | 0/6 | — | — |
 | 3. Region Replication | 0/11 | — | — |
 | 4. Long-tail Sweep | 0/TBD | — | — |
 | 5. Legal + Launch Prep | 0/4 | — | — |
 | 6. Production Deploy | 0/4 | — | — |
 
-**Recent Trend:** None yet (no plans executed).
+**Recent Trend:** Plan 01 (scaffold) — 27 min — 31 files, 5 commits, 12 tests green, all must_haves verified.
 
 *Updated after each plan completion*
 
@@ -62,6 +62,10 @@ Decisions are logged in PROJECT.md Key Decisions table and SUMMARY.md §1 (Headl
 
 Recent decisions affecting current work:
 
+- **Plan 01 — Plausible locked as v1 analytics (FND-08):** Single audit-trail commit `3a97015 chore(01-01): lock analytics=plausible`. PostHog kept as fallback in `data/dev-prereqs.md` for Phase 6 if product-analytics needs surface.
+- **Plan 01 — next-plausible downgraded to v3:** v4 broke the API (uses `src`, not `domain`). Documented choice; pinned at `next-plausible@^3` in package.json.
+- **Plan 01 — eslint-plugin-tailwindcss NOT loaded in v4 (RESEARCH §1.1 fallback):** Plugin v3.x cannot parse Tailwind v4's CSS-first @theme config — crashes ESLint startup. Replaced rule 1 (`tailwindcss/no-arbitrary-value`) with `no-restricted-syntax` regex selector against `className=".*\[#...\]"`. Plugin package still installed for plan 02 to re-evaluate.
+- **Plan 01 — ESLint flat-config plugin scoping:** Rules referencing plugins from `eslint-config-next` (`@next/next/...`, `react/...`, `@typescript-eslint/...`) must live in the same block. Used `Array.map()` to augment the next-config blocks rather than redeclaring plugins.
 - **Phase 1.1 (Conflict A resolution):** Register only `he` + `en` in `i18n-config.ts` at launch; filesystem/types/Velite collection allow `'he' | 'en' | 'fr'` for cheap FR addition later. PITFALLS wins on registration, ARCHITECTURE wins on filesystem readiness.
 - **Phase 1.4 (Conflict D resolution):** Build 9 real affiliate helpers (Booking, Civitatis, Viator, GYG, Rentalcars, SafetyWing, Skyscanner, Hostelworld, DiscoverCars) + 2 stubs (Klook, GoCity) that throw documented "no Israel inventory" errors with placeholder env vars.
 - **Phase 2 pilot (Conflict C resolution):** Jerusalem with Phase 2.2 fallback checkpoint to Tel Aviv if AUD-017..AUD-020 / Old City image sourcing / Hebrew translation throughput fails.
@@ -84,6 +88,6 @@ None yet.
 
 ## Session Continuity
 
-Last session: 2026-05-10T23:50:47.752Z
-Stopped at: Phase 1 context gathered
-Resume file: .planning/phases/01-foundation-m1/01-CONTEXT.md
+Last session: 2026-05-11T01:04:13Z
+Stopped at: Completed .planning/phases/01-foundation-m1/01-scaffold-PLAN.md
+Resume file: .planning/phases/01-foundation-m1/02-design-tokens-PLAN.md (Wave 2 — eligible in parallel with plans 03, 04)
