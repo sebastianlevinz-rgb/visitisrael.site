@@ -60,7 +60,11 @@ There are three accommodation clusters and a fourth for slow travellers.
 
 **Eco-lodges and farms** (the term is **chavot bodedim** in Hebrew — single-family farms scattered across the central Negev) offer rustic accommodation with kitchen access and full silence. Search for properties around Ezuz, Halutza and Be'er Milka.
 
-<WhereToStay partner="booking" city="Mitzpe Ramon" />
+<AffiliateCard
+  partner="booking"
+  destination="Mitzpe Ramon"
+  label="Compare Mitzpe Ramon hotel prices on Booking.com"
+/>
 
 ## Top Things to Do in the Negev
 
@@ -124,7 +128,26 @@ The **Astronomy Israel** operator and the **Bereshit Hotel** observation deck ar
 
 **Eilat** has a smaller domestic airport (Ramon Airport, with regional flights) and is the southern entry option. From Eilat, Mitzpe Ramon is about two hours north along Route 40.
 
-<TransportInfo partner="skyscanner" />
+<TransportInfo
+  airport={{ code: 'TLV', name: 'Ben Gurion International Airport' }}
+  transportOptions={[
+    {
+      mode: 'Rental car (Tel Aviv to Mitzpe Ramon)',
+      description:
+        'About 2 hours via Route 40 / Route 25. The practical default for a Negev trip — public transport reaches the towns but not the smaller attractions.',
+    },
+    {
+      mode: 'Egged bus from Beersheba',
+      description:
+        'Routes 60 / 64 to Mitzpe Ramon and Sde Boker; connecting buses to Avdat and Ein Avdat trailheads are infrequent.',
+    },
+    {
+      mode: 'Ramon Airport (Eilat) regional flights',
+      description:
+        'Smaller domestic airport south of Mitzpe Ramon — useful for visitors entering via Eilat or combining a Red Sea segment with the desert.',
+    },
+  ]}
+/>
 
 <AffiliateCard
   partner="rentalcars"
@@ -154,6 +177,7 @@ The **Astronomy Israel** operator and the **Bereshit Hotel** observation deck ar
 
 <AffiliateCard
   partner="safetyWing"
+  destination="Israel"
   label="Travel insurance for Israel"
 />
 

@@ -60,7 +60,11 @@ faqs:
 
 **אכסניות אקולוגיות וחוות בודדים** (המונח בעברית הוא **חוות בודדים** — חוות משפחתיות הפזורות במרכז הנגב) מציעות לינה כפרית עם גישה למטבח ושקט מוחלט. כדאי לחפש נכסים סביב עזוז, חלוצה ובאר מילכה.
 
-<WhereToStay partner="booking" city="Mitzpe Ramon" />
+<AffiliateCard
+  partner="booking"
+  destination="Mitzpe Ramon"
+  label="השוו מחירי מלונות במצפה רמון ב-<span dir='ltr' lang='en'>Booking.com</span>"
+/>
 
 ## הדברים הטובים ביותר לעשות בנגב
 
@@ -130,7 +134,32 @@ faqs:
 
 **אילת** מארחת שדה תעופה פנים-ארצי קטן יותר (שדה תעופה רמון, עם טיסות פנים אזוריות) והיא נקודת הכניסה הדרומית. מאילת, מצפה רמון נמצאת כשעתיים צפונה לאורך כביש 40.
 
-<TransportInfo partner="skyscanner" />
+<TransportInfo
+  airport={{ code: 'TLV', name: 'נמל התעופה הבינלאומי בן גוריון (תל אביב)' }}
+  transportOptions={[
+    {
+      mode: 'רכב שכור מ-תל אביב (TLV) בכביש 40',
+      description: 'נסיעה של שעתיים למצפה רמון; ברירת המחדל המעשית לנגב.',
+      durationMinutes: 120,
+    },
+    {
+      mode: 'אוטובוס אגד באר שבע למצפה רמון',
+      description: 'קווים יומיים; אטיים אך זולים. דליל יותר לאתרים קטנים.',
+      durationMinutes: 90,
+    },
+    {
+      mode: 'טיסה פנים מתל אביב לרמון (ETM)',
+      description: 'טיסה אזורית קצרה לאילת; ממנה שעתיים צפונה לנגב.',
+      durationMinutes: 50,
+    },
+  ]}
+/>
+
+<AffiliateCard
+  partner="skyscanner"
+  destination="TLV"
+  label="חיפוש טיסות לישראל (TLV)"
+/>
 
 <AffiliateCard
   partner="rentalcars"
@@ -160,6 +189,7 @@ faqs:
 
 <AffiliateCard
   partner="safetyWing"
+  destination="Israel"
   label="ביטוח נסיעות לישראל"
 />
 
