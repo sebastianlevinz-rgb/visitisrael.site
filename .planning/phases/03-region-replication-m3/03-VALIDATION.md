@@ -2,7 +2,7 @@
 phase: 3
 slug: region-replication-m3
 status: draft
-nyquist_compliant: false
+nyquist_compliant: true
 wave_0_complete: false
 created: 2026-05-11
 ---
@@ -104,6 +104,6 @@ _Status: ⬜ pending · ✅ green · ❌ red · ⚠️ flaky_
 - [x] Wave 0 covers all missing references (region-gate script, west-bank route, per-region image surveys)
 - [x] No watch-mode flags
 - [x] Feedback latency < 90s
-- [ ] `nyquist_compliant: true` set in frontmatter — flip after planner produces 11 PLANs + checker confirms all 5 REG IDs verified
+- [x] `nyquist_compliant: true` set in frontmatter — flipped 2026-05-11 after 11 PLANs committed + gsd-plan-checker confirmed all 5 REG IDs verified + 1 blocker (verify-regex typo `PASS\s\*\|` → `PASS\s*\|`) + 2 minor inconsistencies (plan-11 frontmatter `files_modified` added `scripts/audit/run.ts`; RESEARCH/CONTEXT filename `baha-i-photo-policy.md` → `haifa-bahai-policy.md`) resolved.
 
-**Approval:** pending — flip `nyquist_compliant: true` after `gsd-plan-checker` confirms all 5 req IDs have working verification commands across 11 plans.
+**Approval:** APPROVED 2026-05-11. All 5 REG req IDs map to working verification commands across 11 plans. Phase 3 execute eligible (`/gsd:execute-phase 03`).

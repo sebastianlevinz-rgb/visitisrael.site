@@ -2,10 +2,10 @@
 gsd_state_version: 1.0
 milestone: v1.0
 milestone_name: milestone
-current_plan: 'Phase 2 COMPLETE — `/gsd:plan-phase 03` (Region Replication) eligible'
-status: Quality Gate PASS (mode=content) — 9/10 PASS + 1 DEFERRED + 0 FAIL. Jerusalem pilot launch-ready. Phase 3 unblocked.
-stopped_at: Phase 3 context gathered
-last_updated: '2026-05-11T10:59:57.700Z'
+current_plan: 'Phase 3 plans complete (11 PLAN.md + RESEARCH + VALIDATION nyquist_compliant=true) — `/gsd:execute-phase 03` eligible'
+status: Phase 3 PLANNING COMPLETE — 11 region plans verified by gsd-plan-checker (1 blocker fixed: verify-regex typo across all 11 plans; 2 minors fixed). nyquist_compliant flipped true. Wave 1 (Tel Aviv solo) ready to execute.
+stopped_at: Phase 3 plans verified and ready for execute-phase
+last_updated: '2026-05-11T12:00:00.000Z'
 last_activity: '2026-05-11 — Phase 2.6 Quality Gate PASS: scripts/audit/quality-gate.ts refactored to export pure helpers (evaluateCriteria, composeReport, writeReport, isAdminOrUtility) for Vitest pinning; 17 new tests pin mode auto-flip (structural<->content via contentPages.length) + per-criterion DEFER/PASS/FAIL semantics + Lighthouse threshold evaluation + full PASS/FAIL report markdown rendering. Pre-existing Plan 05 deferred-items.md homepage BreadcrumbList <2 schema error resolved by removing BreadcrumbList from app/[locale]/page.tsx (Option 1 over synthetic 2-item pair, CollectionPage alone satisfies AUD-033). Manual SERP review checklist template + filled instance (8 DEFERRED verdicts with per-keyword confidence proxy + post-launch human-review SLA per CONTEXT.md proxied-R3 strategy). Full QA pipeline: build OK + qa:credits OK + qa:schema 0 errors (77 pages / 68 JSON-LD) + qa:audit 0 critical / all 30 content pages >=85 + qa:axe stub + qa:audit-a11y Windows stub + qa:lighthouse Windows EPERM (empty baseline preserved → criterion 1 DEFERS cleanly). pnpm qa:quality-gate PASS mode=content. 805 tests green (+17 new). 15 min, 3 commits, 1 auto-fix (BreadcrumbList removal). CNT-01..07 + A11Y-03/04/05 + SEO-04 + IMG-04/05 verified at gate. Total Phase 2 wall-clock: 173 min (2h 53min).'
 progress:
   total_phases: 6
@@ -26,10 +26,10 @@ See: .planning/PROJECT.md (updated 2026-05-11)
 
 ## Current Position
 
-Phase: 2 of 6 (Pilot Region Jerusalem — M2) — **COMPLETE**
-Plan: 6 of 6 in current phase complete (01 en-canonical + 02 he-canonical+checkpoint + 03 sub-destinations + 04 itinerary + 05 hubs+legal + 06 QA+QualityGate)
-Current Plan: Phase 2 COMPLETE — `/gsd:plan-phase 03` (Region Replication) eligible
-Status: Quality Gate PASS (mode=content) — 9/10 PASS + 1 DEFERRED + 0 FAIL. Jerusalem pilot launch-ready. Phase 3 unblocked.
+Phase: 3 of 6 (Region Replication — M3) — **PLANNING COMPLETE, EXECUTE ELIGIBLE**
+Plan: 0 of 11 region plans executed; all 11 PLAN.md committed + verified by gsd-plan-checker; 03-VALIDATION.md `nyquist_compliant: true`
+Current Plan: Phase 3 plans ready — `/gsd:execute-phase 03` (Wave 1: Tel Aviv solo first)
+Status: Phase 3 PLANNING COMPLETE — 11 region plans + RESEARCH + VALIDATION (nyquist=true). Plan-checker found 1 blocker (verify-regex typo `PASS\s\*\|` → `PASS\s*\|` in all 11 plans' Task 4) + 2 minor inconsistencies (plan-11 frontmatter, RESEARCH/CONTEXT filename) — all fixed. Phase 2 Jerusalem pilot Quality Gate PASS remains the proven template.
 Last activity: 2026-05-11 — Phase 2.6 Quality Gate PASS: scripts/audit/quality-gate.ts refactored to export pure helpers (evaluateCriteria, composeReport, writeReport, isAdminOrUtility) for Vitest pinning; 17 new tests pin mode auto-flip (structural<->content via contentPages.length) + per-criterion DEFER/PASS/FAIL semantics + Lighthouse threshold evaluation + full PASS/FAIL report markdown rendering. Pre-existing Plan 05 deferred-items.md homepage BreadcrumbList <2 schema error resolved by removing BreadcrumbList from app/[locale]/page.tsx (Option 1 over synthetic 2-item pair, CollectionPage alone satisfies AUD-033). Manual SERP review checklist template + filled instance (8 DEFERRED verdicts with per-keyword confidence proxy + post-launch human-review SLA per CONTEXT.md proxied-R3 strategy). Full QA pipeline: build OK + qa:credits OK + qa:schema 0 errors (77 pages / 68 JSON-LD) + qa:audit 0 critical / all 30 content pages >=85 + qa:axe stub + qa:audit-a11y Windows stub + qa:lighthouse Windows EPERM (empty baseline preserved → criterion 1 DEFERS cleanly). pnpm qa:quality-gate PASS mode=content. 805 tests green (+17 new). 15 min, 3 commits, 1 auto-fix (BreadcrumbList removal). CNT-01..07 + A11Y-03/04/05 + SEO-04 + IMG-04/05 verified at gate. Total Phase 2 wall-clock: 173 min (2h 53min).
 Previous activity: 2026-05-11 — Phase 2.5 hubs+legal: homepage (RegionHero + 11-card grid + 3 CTAs) + /regions/ index + 5 legal pages × 2 langs (about/contact/privacy/affiliate-disclosure/accessibility-statement). IS 5568 Hatzaharat Negishut with real named coordinator (Sebastian Levin / +972-53-371-3838 / accessibility@visitisrael.site / 2026-05-11) — resolves Gap §6.7 statutory blocker. 3-layer placeholder defense (pre-commit hook + Vitest coordinator-format + render-time assertNoPlaceholders) all share **REQUIRES_USER_INPUT** sentinel. 788 tests green (+26 from un-skipped coordinator-format + accessibility-statement). AUD-027 + AUD-028 = 0 across 77 pages site-wide. 46 min, 4 commits, 2 auto-fixed deviations. CNT-06 + CNT-07 + A11Y-03 + A11Y-04 + A11Y-05 complete.
 
@@ -195,6 +195,6 @@ None yet.
 
 ## Session Continuity
 
-Last session: 2026-05-11T10:59:57.681Z
-Stopped at: Phase 3 context gathered
-Resume file: .planning/phases/03-region-replication-m3/03-CONTEXT.md
+Last session: 2026-05-11T12:00:00.000Z
+Stopped at: Phase 3 plans complete, verified, nyquist_compliant=true — ready for `/gsd:execute-phase 03`
+Resume file: .planning/phases/03-region-replication-m3/01-tel-aviv-PLAN.md (Wave 1, solo)

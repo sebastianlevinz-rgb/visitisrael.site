@@ -101,7 +101,7 @@ Inherits Phase 2 pattern. Per region:
 - **Primary source:** Wikimedia Commons CC-BY/CC-BY-SA — sufficient for Tel Aviv (80%+), Jerusalem-adjacent regions, Galilee tourist sites
 - **Supplementary:** IGPO archive for restricted/historical sites
 - **Synthetic placeholders OK for v1** — Phase 2 shipped placeholder JPEGs for restricted-site images (Sharp-generated 1600px PNG/JPG); same pattern applies here. CI gate validates width + ledger entry; ACTUAL imagery is Phase 6 swap
-- **Haifa (Bahá'í Gardens):** Wikimedia ONLY for v1. Do NOT commission new shoots. Note in `data/baha-i-photo-policy.md` that real commissioning requires `press@bahai.org` written permission (Phase 6 task)
+- **Haifa (Bahá'í Gardens):** Wikimedia ONLY for v1. Do NOT commission new shoots. Note in `data/haifa-bahai-policy.md` that real commissioning requires `press@bahai.org` written permission (Phase 6 task)
 - **Negev:** Wikimedia 40-50% coverage estimate from PITFALLS §5.2. Accept thinner gallery for v1 (3-4 photos vs Jerusalem's 6+). Synthetic placeholder for unsourceable subjects. Document gap in `data/negev-images.md` for Phase 6 commissioning ($1,500-$3,000).
 - **Restricted-site `restrictedSiteAcknowledgment` field** applies anywhere a CC-licensed photo depicts a site with commercial-photo restrictions (Bahá'í shrines, religious interiors)
 

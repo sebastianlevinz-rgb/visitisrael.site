@@ -43,7 +43,7 @@ Phase 3 is **execution-at-scale**, not new research. The Jerusalem pilot (Phase 
 - **Image sourcing strategy** (inherited):
   - Wikimedia Commons primary, IGPO secondary
   - Synthetic Sharp-generated placeholders OK for v1 with REAL ledger metadata (Phase 6 swap)
-  - Haifa Bahá'í: Wikimedia ONLY; document policy in `data/baha-i-photo-policy.md`
+  - Haifa Bahá'í: Wikimedia ONLY; document policy in `data/haifa-bahai-policy.md`
   - Negev: accept thinner 3-4 photos; document gap in `data/negev-images.md`
 - **Per-region soft gate criteria:**
   - REGION_CANONICAL profile pages: audit ≥80 (Phase 2 was ≥85 for pilot)
@@ -82,13 +82,13 @@ Phase 3 is **execution-at-scale**, not new research. The Jerusalem pilot (Phase 
 
 ## Phase Requirements
 
-| ID     | Description                                                                 | Research Support                                                                                                                                                                   |
-| ------ | --------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| REG-01 | 10 additional region canonicals (EN+HE pairs) in composite-score order      | Phase 2 pilot template proves the EN+HE canonical pattern; section 1 below specifies per-region task template; section 6 lists sub-dest pick deltas                                |
-| REG-02 | Per region 3-8 sub-destinations (EN+HE pairs); total 30-80                  | Phase 2 plan 03 (7 Jerusalem pairs) proves the sub-dest renderer + Velite schema; CONTEXT.md table assigns target counts per region                                                |
-| REG-03 | Per-region soft gate (audit ≥80 canonical / ≥75 sub-dest, Lighthouse ≥85)   | Section 3 specifies region-scoped filtering of `data/audit-results.json`; section 5 specifies new `pnpm qa:region-gate {slug}` script needed in Wave 0 of plan 01                  |
-| REG-04 | Bethlehem at `/west-bank/bethlehem/` + administrativeStatus framing         | Section 5 specifies new Velite West Bank collection + route family + AUD-019/AUD-020 enforcement; Section 6 plan-11 details                                                        |
-| REG-05 | Region-specific image gaps addressed (Haifa Bahá'í policy + Negev fallback) | CONTEXT.md locks Wikimedia-only for Bahá'í + thinner gallery for Negev; deliverable is `data/baha-i-photo-policy.md` + `data/negev-images.md` documenting Phase 6 commission notes |
+| ID     | Description                                                                 | Research Support                                                                                                                                                                  |
+| ------ | --------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| REG-01 | 10 additional region canonicals (EN+HE pairs) in composite-score order      | Phase 2 pilot template proves the EN+HE canonical pattern; section 1 below specifies per-region task template; section 6 lists sub-dest pick deltas                               |
+| REG-02 | Per region 3-8 sub-destinations (EN+HE pairs); total 30-80                  | Phase 2 plan 03 (7 Jerusalem pairs) proves the sub-dest renderer + Velite schema; CONTEXT.md table assigns target counts per region                                               |
+| REG-03 | Per-region soft gate (audit ≥80 canonical / ≥75 sub-dest, Lighthouse ≥85)   | Section 3 specifies region-scoped filtering of `data/audit-results.json`; section 5 specifies new `pnpm qa:region-gate {slug}` script needed in Wave 0 of plan 01                 |
+| REG-04 | Bethlehem at `/west-bank/bethlehem/` + administrativeStatus framing         | Section 5 specifies new Velite West Bank collection + route family + AUD-019/AUD-020 enforcement; Section 6 plan-11 details                                                       |
+| REG-05 | Region-specific image gaps addressed (Haifa Bahá'í policy + Negev fallback) | CONTEXT.md locks Wikimedia-only for Bahá'í + thinner gallery for Negev; deliverable is `data/haifa-bahai-policy.md` + `data/negev-images.md` documenting Phase 6 commission notes |
 
 </phase_requirements>
 
@@ -388,7 +388,7 @@ Mechanically:
 | REG-03    | Per-region soft gate evaluates audit + lighthouse                  | gate script        | `pnpm qa:region-gate {slug}`                                                                                                                                                                                                                                                                                                            | ❌ Wave 0 plan 01                                                              |
 | REG-04    | Bethlehem `/west-bank/bethlehem/` exists with administrativeStatus | route + audit      | `pnpm qa:audit \| grep west-bank/bethlehem` + `pnpm qa:region-gate west-bank/bethlehem` (AUD-019 + AUD-020 = 0 violations)                                                                                                                                                                                                              | ❌ Wave 0 plan 11 — `/west-bank/[slug]/page.tsx` needed                        |
 | REG-04    | Hebron page absent from sitemap                                    | sitemap inspection | `grep -L 'hebron' app/sitemap.ts` (negative test — must NOT contain)                                                                                                                                                                                                                                                                    | ✅ existing                                                                    |
-| REG-05    | `data/baha-i-photo-policy.md` exists with Phase 6 commission note  | file existence     | `test -f data/baha-i-photo-policy.md && grep -q "press@bahai.org" data/baha-i-photo-policy.md`                                                                                                                                                                                                                                          | ❌ plan 07 Wave 0                                                              |
+| REG-05    | `data/haifa-bahai-policy.md` exists with Phase 6 commission note   | file existence     | `test -f data/baha-i-photo-policy.md && grep -q "press@bahai.org" data/baha-i-photo-policy.md`                                                                                                                                                                                                                                          | ❌ plan 07 Wave 0                                                              |
 | REG-05    | `data/negev-images.md` exists with Phase 6 budget note             | file existence     | `test -f data/negev-images.md && grep -q "\$1,500" data/negev-images.md`                                                                                                                                                                                                                                                                | ❌ plan 05 Wave 0                                                              |
 | Aggregate | All regions pass + report generated                                | aggregate gate     | `pnpm qa:audit && pnpm qa:quality-gate` (existing) writes `data/phase-3-region-report.md`                                                                                                                                                                                                                                               | ❌ Wave 5 close-out task                                                       |
 
@@ -537,7 +537,7 @@ Template:
 
 Each plan's Task 4 appends its row on PASS.
 
-### `data/baha-i-photo-policy.md` (plan 07 Wave 0)
+### `data/haifa-bahai-policy.md` (plan 07 Wave 0)
 
 Content per REG-05:
 
@@ -615,7 +615,7 @@ Plan-by-plan deltas from the template. Each block is ~10 lines.
 
 - **Sub-dests (4-6):** Bahá'í Gardens (UNESCO), German Colony, Stella Maris Monastery, Wadi Nisnas / Hadar, Carmel National Park, Druze villages (Daliyat al-Karmel / Isfiya — optional)
 - **Religious naming:** Bahá'í World Centre is sensitive — see PITFALLS §3.7 / §5.4: **Bahá'í faithful photography prohibited**; architectural/garden public-terrace shots OK
-- **Images:** Wikimedia 65-75% (LOW-MEDIUM gap) for Bahá'í; **Wave 0 produces `data/baha-i-photo-policy.md`** with Wikimedia-only constraint + Phase 6 commission requires `press@bahai.org` written permission
+- **Images:** Wikimedia 65-75% (LOW-MEDIUM gap) for Bahá'í; **Wave 0 produces `data/haifa-bahai-policy.md`** with Wikimedia-only constraint + Phase 6 commission requires `press@bahai.org` written permission
 - **Religious-site dual schema:** Bahá'í Gardens (Place — not PlaceOfWorship per Bahá'í conventions); Stella Maris (PlaceOfWorship)
 - **Restricted-site `restrictedSiteAcknowledgment`** required on all Bahá'í Gardens images per AUD-026
 

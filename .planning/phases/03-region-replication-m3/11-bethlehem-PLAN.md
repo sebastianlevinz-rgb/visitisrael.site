@@ -14,6 +14,7 @@ files_modified:
   - data/photo-credits.json
   - data/religious-sites.json
   - app/sitemap.ts
+  - scripts/audit/run.ts
   - tests/content/bethlehem-region.test.ts
   - tests/routes/west-bank-route.test.ts
   - data/region-gates/west-bank-bethlehem.md
