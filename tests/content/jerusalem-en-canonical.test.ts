@@ -76,21 +76,33 @@ describe('Jerusalem EN canonical (Velite Region)', () => {
     expect(r.description.length).toBeLessThanOrEqual(160);
   });
 
-  it('compiled body contains exactly one H1 "Things to Do in Jerusalem"', () => {
+  it('compiled body contains the primary keyword "Things to Do in Jerusalem"', () => {
     const r = findJerusalemEn();
     if (!r) return;
-    // After MDX compile, H1 becomes `_jsx("h1", ...)` with the text inside.
-    // We match the literal page heading as it appears in the function body.
-    const occurrences = r.body.match(/Things to Do in Jerusalem/g);
-    expect(occurrences, 'H1 heading missing').not.toBeNull();
+    // Page-level H1 is owned by RegionHero (from frontmatter title); MDX body
+    // mentions the primary keyword in prose so AUD-008 single-H1 invariant
+    // is preserved and SEO keyword density still serves the canonical.
+    const occurrences = r.body.match(/Things to Do in Jerusalem/gi);
+    expect(occurrences, 'primary keyword missing from prose').not.toBeNull();
     expect((occurrences as RegExpMatchArray).length).toBeGreaterThanOrEqual(1);
+  });
+
+  it('compiled body has NO H1 (page H1 is owned by RegionHero)', () => {
+    const r = findJerusalemEn();
+    if (!r) return;
+    // Argentina-lesson-aware: two H1s break SEO + AUD-008. MDX body must
+    // omit `# Heading`; the RegionHero composite renders the single H1.
+    const matches = r.body.match(/\.h1[\s,)]/g) ?? [];
+    expect(matches.length).toBe(0);
   });
 
   it('compiled body declares 8-12 H2 sections', () => {
     const r = findJerusalemEn();
     if (!r) return;
-    // Velite compiles MDX `## Heading` into `_jsx("h2", ...)`. Count those.
-    const matches = r.body.match(/_jsx\(\s*["']h2["']/g) ?? [];
+    // Velite compiles MDX `## Heading` to jsx calls that reference the
+    // components map's `h2` member (e.g. `n.h2`). The factory function
+    // name is minified so we match the property accessor.
+    const matches = r.body.match(/\.h2[\s,)]/g) ?? [];
     expect(matches.length).toBeGreaterThanOrEqual(8);
     expect(matches.length).toBeLessThanOrEqual(12);
   });

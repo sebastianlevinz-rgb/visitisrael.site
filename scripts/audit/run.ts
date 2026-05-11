@@ -17,7 +17,7 @@
  */
 import { glob } from 'glob';
 import { readFile, writeFile, mkdir } from 'node:fs/promises';
-import { existsSync } from 'node:fs';
+import { existsSync, readFileSync } from 'node:fs';
 import { resolve, dirname } from 'node:path';
 import * as cheerio from 'cheerio';
 import { rules } from './rules';
@@ -30,6 +30,80 @@ const BUILD_ROOT = resolve(REPO_ROOT, '.next/server/app');
 const OUT_JSON = resolve(REPO_ROOT, 'data/audit-results.json');
 const OUT_HTML = resolve(REPO_ROOT, 'data/audit-results.html');
 const NER_PATH = resolve(REPO_ROOT, 'data/ner-results.json');
+const VELITE_ROOT = resolve(REPO_ROOT, '.velite');
+
+/**
+ * Phase 2 enhancement: read Velite collection outputs to enrich the
+ * frontmatter `collection` field per scanned slug, so detectProfile()
+ * dispatches to the correct ProfileSpec instead of returning UNKNOWN.
+ *
+ * Greenfield-tolerant: if .velite/ is absent (test/dev fresh clone),
+ * returns an empty map and the scanner falls back to the Phase-1
+ * admin-only inference.
+ */
+interface VeliteEntry {
+  slug: string;
+  lang: string;
+  region?: string;
+  parentRegion?: string;
+}
+
+interface VeliteIndex {
+  // slug+lang → collection name (regions / subDestinations / guides / legal)
+  collections: Map<string, string>;
+  // slug+lang → word count from compiled body (best-effort prose count)
+  wordCounts: Map<string, number>;
+}
+
+function readVeliteCollection(file: string): VeliteEntry[] {
+  const p = resolve(VELITE_ROOT, file);
+  if (!existsSync(p)) return [];
+  try {
+    return JSON.parse(readFileSync(p, 'utf8') as string) as VeliteEntry[];
+  } catch {
+    return [];
+  }
+}
+
+function loadVeliteIndex(): VeliteIndex {
+  const collections = new Map<string, string>();
+  const wordCounts = new Map<string, number>();
+  if (!existsSync(VELITE_ROOT)) {
+    return { collections, wordCounts };
+  }
+  const mappings: Array<[string, string]> = [
+    ['regions.json', 'regions'],
+    ['subDestinations.json', 'subDestinations'],
+    ['guides.json', 'guides'],
+    ['legal.json', 'legal'],
+  ];
+  for (const [file, name] of mappings) {
+    const entries = readVeliteCollection(file);
+    for (const e of entries) {
+      // The "slug" the audit scanner infers from built HTML for a region
+      // page like /en/jerusalem/ is "jerusalem". Velite uses `region` /
+      // `parentRegion` to denote that slug for the regions / subDest
+      // collections; for guides / legal the `slug` field IS the URL slug.
+      const lookupSlug =
+        name === 'regions'
+          ? (e.region ?? e.slug)
+          : name === 'subDestinations'
+            ? `${e.parentRegion ?? ''}/${e.slug}`
+            : e.slug;
+      const key = `${lookupSlug}|${e.lang}`;
+      collections.set(key, name);
+      // Best-effort word count from compiled body (regions/subDest only
+      // ship a `body` string today — guides/legal will follow same pattern).
+      const body = (e as unknown as { body?: string }).body;
+      if (typeof body === 'string') {
+        const prose = body.replace(/[^A-Za-z\s]/g, ' ');
+        const words = prose.split(/\s+/).filter((w) => w.length > 1).length;
+        wordCounts.set(key, words);
+      }
+    }
+  }
+  return { collections, wordCounts };
+}
 
 interface PageResult {
   slug: string;
@@ -102,10 +176,16 @@ async function loadNer(): Promise<NerPage[]> {
 function detectProfileSafe(fm: Record<string, unknown>): ProfileId | 'UNKNOWN' {
   try {
     return detectProfile({
-      collection: typeof fm['collection'] === 'string' ? (fm['collection'] as string) : '',
-      isHub: typeof fm['isHub'] === 'boolean' ? (fm['isHub'] as boolean) : false,
+      collection:
+        typeof fm['collection'] === 'string'
+          ? (fm['collection'] as string)
+          : '',
+      isHub:
+        typeof fm['isHub'] === 'boolean' ? (fm['isHub'] as boolean) : false,
       isUtility:
-        typeof fm['isUtility'] === 'boolean' ? (fm['isUtility'] as boolean) : false,
+        typeof fm['isUtility'] === 'boolean'
+          ? (fm['isUtility'] as boolean)
+          : false,
     });
   } catch {
     return 'UNKNOWN';
@@ -135,6 +215,7 @@ async function run(): Promise<void> {
   });
 
   const ner = await loadNer();
+  const veliteIndex = loadVeliteIndex();
   const results: PageResult[] = [];
 
   for (const file of htmlFiles) {
@@ -143,15 +224,20 @@ async function run(): Promise<void> {
     const slug = inferSlug(file);
     const lang = inferLang(file);
 
-    // Velite frontmatter is not loaded here — Phase 1 ships minimal slugs.
-    // Phase 2+ will read .velite/{regions,subDestinations,guides,legal}.json
-    // to inject `collection` + `parentRegion` + `wordCount`. For now,
-    // frontmatter is a stub keyed off slug for the admin/* pages.
+    // Phase 2 enhancement: lookup the Velite collection for the slug+lang
+    // pair. When found, dispatch to the right profile (REGION_CANONICAL,
+    // SUB_DESTINATION, GUIDE_OR_WINERY, UTILITY). When absent and the slug
+    // is an admin/* page, treat as legal (Phase 1 behavior).
+    const veliteKey = `${slug}|${lang}`;
+    const veliteCollection = veliteIndex.collections.get(veliteKey);
+    const veliteWordCount = veliteIndex.wordCounts.get(veliteKey);
+
     const fm: Record<string, unknown> = {
       slug,
       lang,
-      collection: slug.startsWith('admin') ? 'legal' : '',
+      collection: veliteCollection ?? (slug.startsWith('admin') ? 'legal' : ''),
       isUtility: slug.startsWith('admin'),
+      ...(veliteWordCount !== undefined ? { wordCount: veliteWordCount } : {}),
     };
 
     const profileId = detectProfileSafe(fm);
