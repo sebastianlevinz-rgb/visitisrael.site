@@ -24,8 +24,8 @@ The 11 sub-phases of Phase 1 (mega-prompt Fase 1). All must complete and pass be
 
 - [x] **FND-01**: Next.js 15.5 + App Router + TypeScript 5.6+ strict + Tailwind v4 + pnpm scaffold deployed to Vercel with placeholder domain
 - [x] **FND-02**: 3-layer design tokens (foundation / semantic / component) in Tailwind v4 `@theme`, all color usage routed through semantic tokens — zero raw hex codes in components
-- [ ] **FND-03**: Component primitives (`Button`, `Card`, `Tag`, `Badge`, `Section`, `Container`, `Grid`) with CVA variants and travel composites (`RegionHero`, `AttractionGrid`, `AffiliateCard`, `PhotoGallery`, `StickyCTA`, `ItineraryCard`, `WhereToStay`, `TransportInfo`, `BestTimeToVisit`, `ShabbatNotice`, `Price`, `SkipNav`)
-- [ ] **FND-04**: `/admin/components/` noindex playground showing every primitive + composite in default + edge-case states
+- [x] **FND-03**: Component primitives (`Button`, `Card`, `Tag`, `Badge`, `Section`, `Container`, `Grid`) with CVA variants and travel composites (`RegionHero`, `AttractionGrid`, `AffiliateCard`, `PhotoGallery`, `StickyCTA`, `ItineraryCard`, `WhereToStay`, `TransportInfo`, `BestTimeToVisit`, `ShabbatNotice`, `Price`, `SkipNav`)
+- [x] **FND-04**: `/admin/components/` noindex playground showing every primitive + composite in default + edge-case states
 - [ ] **FND-05**: 5 quality scoring profiles implemented (`REGION_CANONICAL`, `SUB_DESTINATION`, `GUIDE_OR_WINERY`, `UTILITY`, `HUB`) with distinct weights — fixes Argentina lesson #5
 - [ ] **FND-06**: Dynamic `sitemap.ts` enumerates ONLY registered locales; `robots.ts` disallows `/admin/` and `/api/`; canonical URL generator; hreflang generator with reciprocal `<link>` tags + `x-default`; 301 redirects map in `middleware.ts`
 - [ ] **FND-07**: NER / mention-detection dictionary (`data/entity-dict.json` with tour/hotel/restaurant/museum/transport classes) + regex-based detector that surfaces unmonetized mentions in MDX to the audit dashboard — fixes Argentina lesson #6
@@ -50,7 +50,7 @@ Argentina lesson #7 fix — i18n NOT bolted-on.
 
 - [x] **I18N-01**: `next-intl` v3 wired with App Router; `localePrefix: 'as-needed'` — HE at root, EN at `/en/`
 - [x] **I18N-02**: `i18n-config.ts` registers ONLY `he` and `en` at launch (Conflict A resolution); filesystem + types + Velite collection allow `'he' | 'en' | 'fr'` for cheap FR addition later
-- [ ] **I18N-03**: Hebrew Tailwind preset from `skills-il/localization@hebrew-tailwind-preset` applied; all components use logical CSS properties (`ms-/me-/ps-/pe-/start-/end-/inset-inline-start`) — zero physical directional utilities
+- [x] **I18N-03**: Hebrew Tailwind preset from `skills-il/localization@hebrew-tailwind-preset` applied; all components use logical CSS properties (`ms-/me-/ps-/pe-/start-/end-/inset-inline-start`) — zero physical directional utilities
 - [x] **I18N-04**: `<html lang="he" dir="rtl">` for Hebrew pages and `<html lang="en" dir="ltr">` for English pages, set per-route via layout
 - [ ] **I18N-05**: Hreflang generator emits `<link rel="alternate" hreflang="he" />` and `<link rel="alternate" hreflang="en" />` + `x-default` only for built locales; reciprocal tagging audited (AUD-014)
 - [x] **I18N-06**: Velite + MDX content pipeline with per-locale directories (`content/{he,en}/regions/*.mdx`); Velite collection schema enforces `lang: z.enum(['he','en','fr'])` future-readiness
@@ -60,7 +60,7 @@ Argentina lesson #7 fix — i18n NOT bolted-on.
 Beyond WCAG 2.1 AA — Israeli law mandates additional items. Up to 50,000 NIS damages per violation.
 
 - [x] **A11Y-01**: Every page declares `lang` and `dir` correctly (AUD-027)
-- [ ] **A11Y-02**: Hebrew skip-navigation link (`דלג לתוכן הראשי`) is the first focusable element on every Hebrew page; English skip link on English pages
+- [x] **A11Y-02**: Hebrew skip-navigation link (`דלג לתוכן הראשי`) is the first focusable element on every Hebrew page; English skip link on English pages
 - [ ] **A11Y-03**: `/accessibility-statement` (English) + `/הצהרת-נגישות` (Hebrew, transliterated slug allowed if Hebrew slug deferred) pages exist with all IS 5568 required content (commitment, standard, features, limitations, coordinator contact, last-audit date)
 - [ ] **A11Y-04**: Named accessibility coordinator (real person, real phone, real email — placeholder NOT acceptable) listed on accessibility statement page; same person reachable via `mailto:` and `tel:` links
 - [ ] **A11Y-05**: Footer of every page links to accessibility statement in current locale (AUD-028)
@@ -185,73 +185,73 @@ Explicitly excluded for v1 AND v2. Documented to prevent scope creep.
 
 Per-requirement phase mapping (filled during roadmap creation 2026-05-11). Every v1 requirement maps to exactly one primary phase. Some requirements have a secondary phase where they are first satisfied at infrastructure level (Phase 1) and re-verified or first observably-exercised at content level (Phase 2+); the "Phase" column shows the primary phase responsible for completion.
 
-| Requirement | Phase   | Notes / Cross-references                                                                                                                           | Status  |
-| ----------- | ------- | -------------------------------------------------------------------------------------------------------------------------------------------------- | ------- |
-| FND-01      | Phase 1 | Plan 01-01 (scaffold)                                                                                                                              | Pending |
-| FND-02      | Phase 1 | Plan 01-02 (design tokens)                                                                                                                         | Pending |
-| FND-03      | Phase 1 | Plan 01-03 (component lib)                                                                                                                         | Pending |
-| FND-04      | Phase 1 | Plan 01-03 (component lib playground)                                                                                                              | Pending |
-| FND-05      | Phase 1 | Plan 01-07 (quality scoring profiles)                                                                                                              | Pending |
-| FND-06      | Phase 1 | Plan 01-08 (SEO config)                                                                                                                            | Pending |
-| FND-07      | Phase 1 | Plan 01-11 (NER detection)                                                                                                                         | Pending |
-| FND-08      | Phase 1 | Plan 01-01 (Plausible decision lock-in)                                                                                                            | Pending |
-| AFF-01      | Phase 1 | Plan 01-04 (9 real helpers — Conflict D)                                                                                                           | Pending |
-| AFF-02      | Phase 1 | Plan 01-04 (Klook + GoCity stubs — Conflict D)                                                                                                     | Pending |
-| AFF-03      | Phase 1 | Plan 01-04 (Vitest tests, 44+4)                                                                                                                    | Pending |
-| AFF-04      | Phase 1 | Plan 01-04 (ESLint no-restricted-syntax for partner URLs)                                                                                          | Pending |
-| AFF-05      | Phase 1 | Plan 01-02 (ESLint hex + directional utility rules)                                                                                                | Pending |
-| AFF-06      | Phase 1 | Plan 01-04 (FTC inline disclosure component); first-rendered in Phase 2                                                                            | Pending |
-| AFF-07      | Phase 1 | Plan 01-04 (`data/affiliate-status.json` scaffold); operationally maintained in Phase 6                                                            | Pending |
-| AFF-08      | Phase 1 | Plan 01-04 (Travelpayouts fallback configured)                                                                                                     | Pending |
-| I18N-01     | Phase 1 | Plan 01-01 (next-intl v3, localePrefix as-needed)                                                                                                  | Pending |
-| I18N-02     | Phase 1 | Plan 01-01 (Conflict A: 2 locales registered, 3-locale filesystem)                                                                                 | Pending |
-| I18N-03     | Phase 1 | Plan 01-02 (Hebrew Tailwind preset, logical properties)                                                                                            | Pending |
-| I18N-04     | Phase 1 | Plan 01-01 (lang/dir per route via layout)                                                                                                         | Pending |
-| I18N-05     | Phase 1 | Plan 01-08 (hreflang generator); first-verified live in Phase 2                                                                                    | Pending |
-| I18N-06     | Phase 1 | Plan 01-01 (Velite config with 3-locale enum)                                                                                                      | Pending |
-| A11Y-01     | Phase 1 | Plan 01-01 (layout enforcement); verified in Phase 2                                                                                               | Pending |
-| A11Y-02     | Phase 1 | Plan 01-03 (`<SkipNav>` component HE+EN); rendered live in Phase 2                                                                                 | Pending |
-| A11Y-03     | Phase 2 | Plan 02-05 (Accessibility Statement page EN + HE)                                                                                                  | Pending |
-| A11Y-04     | Phase 2 | Plan 02-05 (named coordinator on statement page — operational blocker per Gap §6.7)                                                                | Pending |
-| A11Y-05     | Phase 2 | Plan 02-05 (footer link sweep); re-verified site-wide in Phase 5                                                                                   | Pending |
-| A11Y-06     | Phase 1 | Plan 01-03 (component-level form/error patterns)                                                                                                   | Pending |
-| A11Y-07     | Phase 1 | Plan 01-01 (project policy — no overlays installed ever)                                                                                           | Pending |
-| A11Y-08     | Phase 1 | Plan 01-10 (Lighthouse CI a11y ≥0.95 threshold); enforced from Phase 2 onward                                                                      | Pending |
-| SEO-01      | Phase 1 | Plan 01-06 (schema-dts + `<JsonLd>` RSC component)                                                                                                 | Pending |
-| SEO-02      | Phase 1 | Plan 01-06 (11 schema generators)                                                                                                                  | Pending |
-| SEO-03      | Phase 1 | Plan 01-06 (`scripts/qa/validate-schema.mjs`)                                                                                                      | Pending |
-| SEO-04      | Phase 2 | Plan 02-01 + 02-02 (Jerusalem paired religious naming, first editorial application); AUD-017..AUD-020 enforced from Phase 1.9 onward               | Pending |
-| SEO-05      | Phase 1 | Plan 01-08 (metadata API setup); enforced per-page from Phase 2                                                                                    | Pending |
-| SEO-06      | Phase 1 | Plan 01-08 (canonical generator self-referential)                                                                                                  | Pending |
-| IMG-01      | Phase 1 | Plan 01-05 (Zod schema for photo-credits.json)                                                                                                     | Pending |
-| IMG-02      | Phase 1 | Plan 01-05 (`scripts/qa/check-credits.mjs` CI gate)                                                                                                | Pending |
-| IMG-03      | Phase 1 | Plan 01-05 + 01-03 (`next/image` config + PhotoGallery contract)                                                                                   | Pending |
-| IMG-04      | Phase 2 | Plan 02-01 (hero image `priority` on Jerusalem canonical); enforced sitewide from Phase 3                                                          | Pending |
-| IMG-05      | Phase 2 | Plan 02-01 (`restrictedSiteAcknowledgment` for Old City sites — Western Wall, Holy Sepulchre, Dome of the Rock); schema enforcement from Phase 1.5 | Pending |
-| IMG-06      | Phase 1 | Plan 01-05 (source allowlist + license enum)                                                                                                       | Pending |
-| AUD-01      | Phase 1 | Plan 01-09 (audit dashboard with 34 rules)                                                                                                         | Pending |
-| AUD-02      | Phase 1 | Plan 01-09 (per-page scoring using 5 profiles from FND-05)                                                                                         | Pending |
-| AUD-03      | Phase 1 | Plan 01-10 (Lighthouse CI 3-run-median config + thresholds)                                                                                        | Pending |
-| AUD-04      | Phase 1 | Plan 01-01 (Husky + lint-staged pre-commit)                                                                                                        | Pending |
-| AUD-05      | Phase 1 | Plan 01-09 (quality-gate report generator); executed end of Phase 2.6                                                                              | Pending |
-| CNT-01      | Phase 2 | Plan 02-01 (Jerusalem EN canonical)                                                                                                                | Pending |
-| CNT-02      | Phase 2 | Plan 02-02 (Jerusalem HE canonical via hebrew-content-writer)                                                                                      | Pending |
-| CNT-03      | Phase 2 | Plan 02-02 (pilot-switch checkpoint — Conflict C resolution)                                                                                       | Pending |
-| CNT-04      | Phase 2 | Plan 02-03 (5-10 sub-destinations EN + HE)                                                                                                         | Pending |
-| CNT-05      | Phase 2 | Plan 02-04 (Jerusalem itinerary page)                                                                                                              | Pending |
-| CNT-06      | Phase 2 | Plan 02-05 (homepage + `/regions/` hubs)                                                                                                           | Pending |
-| CNT-07      | Phase 2 | Plan 02-05 (legal pages EN + HE)                                                                                                                   | Pending |
-| REG-01      | Phase 3 | Plans 03-01..03-10 (10 region canonicals in scoring order)                                                                                         | Pending |
-| REG-02      | Phase 3 | Per-region plans (3-8 sub-dests each, total 30-80)                                                                                                 | Pending |
-| REG-03      | Phase 3 | Per-region soft gate enforced by `gsd-verifier` against ROADMAP success criterion                                                                  | Pending |
-| REG-04      | Phase 3 | Plan 03-11 (Bethlehem under `/west-bank/` with administrativeStatus framing)                                                                       | Pending |
-| REG-05      | Phase 3 | Plan 03-05 (Negev image budget) + Plan 03-07 (Haifa Bahá'í policy) — research blockers per Gap §6.3, §6.4                                          | Pending |
-| DEP-01      | Phase 6 | Plan 06-01 (Vercel prod + HTTPS + HSTS)                                                                                                            | Pending |
-| DEP-02      | Phase 6 | Plan 06-02 (GSC + sitemap submit + IndexNow)                                                                                                       | Pending |
-| DEP-03      | Phase 6 | Plan 06-03 (basic-auth verified in prod); scaffolded in Phase 1.9                                                                                  | Pending |
-| DEP-04      | Phase 6 | Plan 06-03 (Lighthouse CI history 90-day retention)                                                                                                | Pending |
-| DEP-05      | Phase 6 | Plan 06-03 (affiliate health cron via Vercel Cron Jobs)                                                                                            | Pending |
-| DEP-06      | Phase 6 | Plan 06-04 (`data/post-launch-backlog.md` + executive summary)                                                                                     | Pending |
+| Requirement | Phase   | Notes / Cross-references                                                                                                                           | Status                                |
+| ----------- | ------- | -------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------- |
+| FND-01      | Phase 1 | Plan 01-01 (scaffold)                                                                                                                              | Pending                               |
+| FND-02      | Phase 1 | Plan 01-02 (design tokens)                                                                                                                         | Pending                               |
+| FND-03      | Phase 1 | Plan 05 (7 primitives + 12 composites + 6 layout, 25 total)                                                                                        | ✓ Complete (plan 05)                  |
+| FND-04      | Phase 1 | Plan 05 (/admin/components index + drill-down; 40 static pages noindex)                                                                            | ✓ Complete (plan 05)                  |
+| FND-05      | Phase 1 | Plan 01-07 (quality scoring profiles)                                                                                                              | Pending                               |
+| FND-06      | Phase 1 | Plan 01-08 (SEO config)                                                                                                                            | Pending                               |
+| FND-07      | Phase 1 | Plan 01-11 (NER detection)                                                                                                                         | Pending                               |
+| FND-08      | Phase 1 | Plan 01-01 (Plausible decision lock-in)                                                                                                            | Pending                               |
+| AFF-01      | Phase 1 | Plan 01-04 (9 real helpers — Conflict D)                                                                                                           | Pending                               |
+| AFF-02      | Phase 1 | Plan 01-04 (Klook + GoCity stubs — Conflict D)                                                                                                     | Pending                               |
+| AFF-03      | Phase 1 | Plan 01-04 (Vitest tests, 44+4)                                                                                                                    | Pending                               |
+| AFF-04      | Phase 1 | Plan 01-04 (ESLint no-restricted-syntax for partner URLs)                                                                                          | Pending                               |
+| AFF-05      | Phase 1 | Plan 01-02 (ESLint hex + directional utility rules)                                                                                                | Pending                               |
+| AFF-06      | Phase 1 | Plan 01-04 (FTC inline disclosure component); first-rendered in Phase 2                                                                            | Pending                               |
+| AFF-07      | Phase 1 | Plan 01-04 (`data/affiliate-status.json` scaffold); operationally maintained in Phase 6                                                            | Pending                               |
+| AFF-08      | Phase 1 | Plan 01-04 (Travelpayouts fallback configured)                                                                                                     | Pending                               |
+| I18N-01     | Phase 1 | Plan 01-01 (next-intl v3, localePrefix as-needed)                                                                                                  | Pending                               |
+| I18N-02     | Phase 1 | Plan 01-01 (Conflict A: 2 locales registered, 3-locale filesystem)                                                                                 | Pending                               |
+| I18N-03     | Phase 1 | Plan 02 (ESLint rule + fixture) + plan 05 (25 components ship with zero physical utilities; AST scan + lint enforce)                               | ✓ Complete (plan 05)                  |
+| I18N-04     | Phase 1 | Plan 01-01 (lang/dir per route via layout)                                                                                                         | Pending                               |
+| I18N-05     | Phase 1 | Plan 01-08 (hreflang generator); first-verified live in Phase 2                                                                                    | Pending                               |
+| I18N-06     | Phase 1 | Plan 01-01 (Velite config with 3-locale enum)                                                                                                      | Pending                               |
+| A11Y-01     | Phase 1 | Plan 01-01 (layout enforcement); verified in Phase 2                                                                                               | Pending                               |
+| A11Y-02     | Phase 1 | Plan 05 (`<SkipNav>` Hebrew+English; wired as first body child of locale layout); rendered live in Phase 2 region pages                            | ✓ Complete (plan 05)                  |
+| A11Y-03     | Phase 2 | Plan 02-05 (Accessibility Statement page EN + HE)                                                                                                  | Pending                               |
+| A11Y-04     | Phase 2 | Plan 02-05 (named coordinator on statement page — operational blocker per Gap §6.7)                                                                | Pending                               |
+| A11Y-05     | Phase 2 | Plan 02-05 (footer link sweep); re-verified site-wide in Phase 5                                                                                   | Pending                               |
+| A11Y-06     | Phase 1 | Plan 05 (form-a11y.test.tsx proves aria-required/invalid/role=alert contract); full audit coverage requires plan 10 + Phase 2.5 contact form       | ⚠ Partial (plan 05; full = phase 2.5) |
+| A11Y-07     | Phase 1 | Plan 01-01 (project policy — no overlays installed ever)                                                                                           | Pending                               |
+| A11Y-08     | Phase 1 | Plan 01-10 (Lighthouse CI a11y ≥0.95 threshold); enforced from Phase 2 onward                                                                      | Pending                               |
+| SEO-01      | Phase 1 | Plan 01-06 (schema-dts + `<JsonLd>` RSC component)                                                                                                 | Pending                               |
+| SEO-02      | Phase 1 | Plan 01-06 (11 schema generators)                                                                                                                  | Pending                               |
+| SEO-03      | Phase 1 | Plan 01-06 (`scripts/qa/validate-schema.mjs`)                                                                                                      | Pending                               |
+| SEO-04      | Phase 2 | Plan 02-01 + 02-02 (Jerusalem paired religious naming, first editorial application); AUD-017..AUD-020 enforced from Phase 1.9 onward               | Pending                               |
+| SEO-05      | Phase 1 | Plan 01-08 (metadata API setup); enforced per-page from Phase 2                                                                                    | Pending                               |
+| SEO-06      | Phase 1 | Plan 01-08 (canonical generator self-referential)                                                                                                  | Pending                               |
+| IMG-01      | Phase 1 | Plan 01-05 (Zod schema for photo-credits.json)                                                                                                     | Pending                               |
+| IMG-02      | Phase 1 | Plan 01-05 (`scripts/qa/check-credits.mjs` CI gate)                                                                                                | Pending                               |
+| IMG-03      | Phase 1 | Plan 01-05 + 01-03 (`next/image` config + PhotoGallery contract)                                                                                   | Pending                               |
+| IMG-04      | Phase 2 | Plan 02-01 (hero image `priority` on Jerusalem canonical); enforced sitewide from Phase 3                                                          | Pending                               |
+| IMG-05      | Phase 2 | Plan 02-01 (`restrictedSiteAcknowledgment` for Old City sites — Western Wall, Holy Sepulchre, Dome of the Rock); schema enforcement from Phase 1.5 | Pending                               |
+| IMG-06      | Phase 1 | Plan 01-05 (source allowlist + license enum)                                                                                                       | Pending                               |
+| AUD-01      | Phase 1 | Plan 01-09 (audit dashboard with 34 rules)                                                                                                         | Pending                               |
+| AUD-02      | Phase 1 | Plan 01-09 (per-page scoring using 5 profiles from FND-05)                                                                                         | Pending                               |
+| AUD-03      | Phase 1 | Plan 01-10 (Lighthouse CI 3-run-median config + thresholds)                                                                                        | Pending                               |
+| AUD-04      | Phase 1 | Plan 01-01 (Husky + lint-staged pre-commit)                                                                                                        | Pending                               |
+| AUD-05      | Phase 1 | Plan 01-09 (quality-gate report generator); executed end of Phase 2.6                                                                              | Pending                               |
+| CNT-01      | Phase 2 | Plan 02-01 (Jerusalem EN canonical)                                                                                                                | Pending                               |
+| CNT-02      | Phase 2 | Plan 02-02 (Jerusalem HE canonical via hebrew-content-writer)                                                                                      | Pending                               |
+| CNT-03      | Phase 2 | Plan 02-02 (pilot-switch checkpoint — Conflict C resolution)                                                                                       | Pending                               |
+| CNT-04      | Phase 2 | Plan 02-03 (5-10 sub-destinations EN + HE)                                                                                                         | Pending                               |
+| CNT-05      | Phase 2 | Plan 02-04 (Jerusalem itinerary page)                                                                                                              | Pending                               |
+| CNT-06      | Phase 2 | Plan 02-05 (homepage + `/regions/` hubs)                                                                                                           | Pending                               |
+| CNT-07      | Phase 2 | Plan 02-05 (legal pages EN + HE)                                                                                                                   | Pending                               |
+| REG-01      | Phase 3 | Plans 03-01..03-10 (10 region canonicals in scoring order)                                                                                         | Pending                               |
+| REG-02      | Phase 3 | Per-region plans (3-8 sub-dests each, total 30-80)                                                                                                 | Pending                               |
+| REG-03      | Phase 3 | Per-region soft gate enforced by `gsd-verifier` against ROADMAP success criterion                                                                  | Pending                               |
+| REG-04      | Phase 3 | Plan 03-11 (Bethlehem under `/west-bank/` with administrativeStatus framing)                                                                       | Pending                               |
+| REG-05      | Phase 3 | Plan 03-05 (Negev image budget) + Plan 03-07 (Haifa Bahá'í policy) — research blockers per Gap §6.3, §6.4                                          | Pending                               |
+| DEP-01      | Phase 6 | Plan 06-01 (Vercel prod + HTTPS + HSTS)                                                                                                            | Pending                               |
+| DEP-02      | Phase 6 | Plan 06-02 (GSC + sitemap submit + IndexNow)                                                                                                       | Pending                               |
+| DEP-03      | Phase 6 | Plan 06-03 (basic-auth verified in prod); scaffolded in Phase 1.9                                                                                  | Pending                               |
+| DEP-04      | Phase 6 | Plan 06-03 (Lighthouse CI history 90-day retention)                                                                                                | Pending                               |
+| DEP-05      | Phase 6 | Plan 06-03 (affiliate health cron via Vercel Cron Jobs)                                                                                            | Pending                               |
+| DEP-06      | Phase 6 | Plan 06-04 (`data/post-launch-backlog.md` + executive summary)                                                                                     | Pending                               |
 
 **Coverage Validation:**
 

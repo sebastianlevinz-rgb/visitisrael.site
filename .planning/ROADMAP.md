@@ -94,7 +94,7 @@ Plans:
 
 - [ ] 01-01: Scaffold — Next.js 15.5 + TS strict + Tailwind v4 + next-intl v3 (2 locales registered per Conflict A, 3-locale filesystem) + ESLint flat config + Vercel deploy config + Plausible decision lock-in
 - [x] 01-02: Design tokens — 3-layer (`@theme` foundation → semantic → component); Hebrew Tailwind preset; logical CSS properties only; ESLint enforcement for raw hex (AFF-05 layer A+B) ✓ Completed 2026-05-11
-- [ ] 01-03: Component library — 7 primitives + 12 travel composites (incl. `<RegionHero>`, `<PhotoGallery>`, `<AffiliateCard>`, `<ShabbatNotice>`, `<Price>`, `<SkipNav>`) + `/admin/components/` noindex playground
+- [x] 01-03: Component library — 7 primitives + 12 travel composites + 6 layout components (25 total; `<RegionHero>` / `<PhotoGallery>` / `<AffiliateCard>` STUB / `<ShabbatNotice>` STATIC / `<Price>` STATIC / `<SkipNav>` HE+EN) + `/admin/components/` noindex playground (40 static pages) ✓ Completed 2026-05-11
 - [ ] 01-04: Affiliate helpers — 9 real (`bookingLink`, `civitatisLink`, `viatorLink`, `getYourGuideLink`, `rentalcarsLink`, `safetyWingLink`, `skyscannerLink`, `hostelworldLink`, `discoverCarsLink`) + 2 stubs (`klookLink`, `goCityLink`) per Conflict D; Zod validation; 4+ Vitest tests each; ESLint `no-restricted-syntax` for raw partner URLs (AFF-04); `data/affiliate-status.json` + `data/affiliate-availability.json`; Travelpayouts aggregator scaffolded; FTC `<AffiliateDisclosure>` inline component (AFF-06)
 - [ ] 01-05: Photo credits ledger — `data/photo-credits.json` Zod schema (width≥1200, license, author, sourceUrl, blurDataURL, restrictedSiteAcknowledgment for Western Wall/Holy Sepulchre/Dome of the Rock/Bahá'í); `scripts/qa/check-credits.mjs` CI gate; IGPO + Wikimedia source allowlist in `next.config.ts` remotePatterns
 - [ ] 01-06: Schema baseline — `schema-dts` + `lib/schema/{organization,touristDestination,touristAttraction,religiousBuilding,place,localBusiness,breadcrumb,faq,webSite,collectionPage,webPage}.ts` builders; `<JsonLd>` RSC component; `data/religious-sites.json` with paired naming; `scripts/qa/validate-schema.mjs`
@@ -256,7 +256,7 @@ Quality Gate failure between 2 and 3 halts the workflow; no auto-advance to Phas
 
 | Phase                                  | Plans Complete | Status      | Completed |
 | -------------------------------------- | -------------- | ----------- | --------- |
-| 1. Foundation (M1)                     | 3/11           | In Progress | -         |
+| 1. Foundation (M1)                     | 5/11           | In Progress | -         |
 | 2. Pilot Jerusalem (M2)                | 0/6            | Not started | -         |
 | — Quality Gate (hard stop)             | —              | Not reached | -         |
 | 3. Region Replication (M3)             | 0/11           | Not started | -         |

@@ -3,15 +3,15 @@ gsd_state_version: 1.0
 milestone: v1.0
 milestone_name: milestone
 status: executing
-stopped_at: Completed .planning/phases/01-foundation-m1/04-schema-baseline-PLAN.md
-last_updated: "2026-05-11T01:38:27.036Z"
-last_activity: "2026-05-11 — Plan 04 (schema-baseline) complete: 11 schema-dts generators + JsonLd RSC + canonicalUrl + 25-site paired-naming dictionary + validate-schema.mjs CI gate; 25 min, 3 commits."
+stopped_at: Completed .planning/phases/01-foundation-m1/05-component-lib-PLAN.md
+last_updated: '2026-05-11T02:05:00.000Z'
+last_activity: '2026-05-11 — Plan 05 (component-lib) complete: 7 UI primitives + 12 travel composites + 6 layout components (25 total) with CVA variants + logical CSS + token-driven colors + /admin/components noindex playground (40 static pages); 20 min, 3 commits, 98 new tests (188/188 total).'
 progress:
   total_phases: 6
   completed_phases: 0
   total_plans: 11
-  completed_plans: 4
-  percent: 36
+  completed_plans: 5
+  percent: 45
 ---
 
 # Project State
@@ -26,32 +26,32 @@ See: .planning/PROJECT.md (updated 2026-05-11)
 ## Current Position
 
 Phase: 1 of 6 (Foundation — M1)
-Plan: 4 of 11 in current phase complete (01 scaffold + 02 design-tokens + 03 photo-credits + 04 schema-baseline); Wave 2 fully complete, Wave 3 next (plan 05 component-lib)
-Status: Executing — Wave 2 fully green, plan 05 (component-lib) eligible to start
-Last activity: 2026-05-11 — Plan 04 (schema-baseline) complete: 11 schema-dts generators + JsonLd RSC + canonicalUrl + 25-site paired-naming dictionary + validate-schema.mjs CI gate; 25 min, 3 commits.
+Plan: 5 of 11 in current phase complete (01 scaffold + 02 design-tokens + 03 photo-credits + 04 schema-baseline + 05 component-lib); Wave 3 fully complete, Wave 4 next (plan 06 affiliate-helpers)
+Status: Executing — Wave 3 fully green, plan 06 (affiliate-helpers) eligible to start
+Last activity: 2026-05-11 — Plan 05 (component-lib) complete: 25 components shipped (7 primitives + 12 composites + 6 layout) with CVA + logical CSS + token-driven colors; AffiliateCard STUB awaits plan 06 wiring; SkipNav + Footer wired into locale layout; /admin/components playground generates 40 static pages; 20 min, 3 commits, 98 new tests (188/188 total green).
 
-Progress: [████░░░░░░] 36% (4/11 plans in Phase 1; ~7% overall)
+Progress: [█████░░░░░] 45% (5/11 plans in Phase 1; ~9% overall)
 
 ## Performance Metrics
 
 **Velocity:**
 
-- Total plans completed: 4
-- Average duration: ~22 min
-- Total execution time: ~1.43 hours
+- Total plans completed: 5
+- Average duration: ~21 min
+- Total execution time: ~1.77 hours
 
 **By Phase:**
 
-| Phase                  | Plans | Total  | Avg/Plan |
-| ---------------------- | ----- | ------ | -------- |
-| 1. Foundation          | 4/11  | 86 min | ~22 min  |
-| 2. Pilot Jerusalem     | 0/6   | —      | —        |
-| 3. Region Replication  | 0/11  | —      | —        |
-| 4. Long-tail Sweep     | 0/TBD | —      | —        |
-| 5. Legal + Launch Prep | 0/4   | —      | —        |
-| 6. Production Deploy   | 0/4   | —      | —        |
+| Phase                  | Plans | Total   | Avg/Plan |
+| ---------------------- | ----- | ------- | -------- |
+| 1. Foundation          | 5/11  | 106 min | ~21 min  |
+| 2. Pilot Jerusalem     | 0/6   | —       | —        |
+| 3. Region Replication  | 0/11  | —       | —        |
+| 4. Long-tail Sweep     | 0/TBD | —       | —        |
+| 5. Legal + Launch Prep | 0/4   | —       | —        |
+| 6. Production Deploy   | 0/4   | —       | —        |
 
-**Recent Trend:** Plan 04 (schema-baseline) — 25 min — 30 files created + 4 modified, 3 commits, 90/90 tests green (+41 new), full repo lint/typecheck/build all green; 3 auto-fixed deviations + 1 cross-plan race noted.
+**Recent Trend:** Plan 05 (component-lib) — 20 min — 34 files created + 5 modified, 3 commits, 188/188 tests green (+98 new), full repo lint/typecheck/build all green; 4 auto-fixed deviations (1 blocking on async-component test resolution, 1 critical on vitest include paths, 2 bugs). 49 static pages generated (was 7 pre-plan-05).
 
 _Updated after each plan completion_
 
@@ -63,6 +63,11 @@ Decisions are logged in PROJECT.md Key Decisions table and SUMMARY.md §1 (Headl
 
 Recent decisions affecting current work:
 
+- **Plan 05 — Async-component resolution at consumer (await call-form, not JSX-form):** AffiliateCard / Header / admin playground all use `const x = await AsyncComponent(props)` instead of `<AsyncComponent />` when assembling JSX trees. Reason: React 19 RSC streaming handles nested async components natively in production, but the test renderer (jsdom) and any non-RSC payload renderer leave them as unresolved Promises. Resolving inline keeps the tree flat for tests + future renderers; production RSC behavior is unchanged (same payload either way).
+- **Plan 05 — AffiliateCard STUB uses literal sentinel `#TODO-PLAN-06`:** plan 06 will `grep -r '#TODO-PLAN-06' components/` to swap the href for `partnerLink({...})`. Sentinel + Vitest assertion (affiliatecard-stub.test.tsx) ensure the codemod is detectable + verifiable.
+- **Plan 05 — `footerLinkHref(slug, locale)` exported as named function:** plan 10 AUD-028 (accessibility-statement link presence) calls this directly during scanning rather than re-parsing Footer DOM. Pattern: layout components export their URL-builder helpers.
+- **Plan 05 — RegionHero / AttractionGrid / PhotoGallery omitted from /admin/components playground:** the components require ledgered images and `data/photo-credits.json` is empty at end of Phase 1. Tests cover them via `vi.mock('@/lib/photo-credits')` with synthetic credit. Phase 2 region MDX exercises them with real images.
+- **Plan 05 — Test-only `<img>` for next/image mock with inline ESLint disable:** `@next/next/no-img-element` disabled ONLY on the two mock-factory lines (composites.test.tsx + photogallery-srcset.test.tsx). Production code paths keep the rule active.
 - **Plan 04 — schema-dts v2 vocabulary change (ReligiousBuilding → PlaceOfWorship):** schema-dts v2 dropped the historical `ReligiousBuilding` vocabulary entry. PlaceOfWorship used for non-contested holy sites; contested sites (Temple Mount, etc.) use Place per PITFALLS §3.1 neutral framing. Both validate as Google Rich Results.
 - **Plan 04 — `as unknown as WithContext<T>` cast applied uniformly across 11 generators:** schema-dts v2 doesn't type `inLanguage` on Place/Organization/LocalBusiness leaves (it's on CreativeWork-derived shapes in the spec). RESEARCH §1.6 Open Question 5 documented this exact gap; the escape hatch is used with a justifying comment in each generator.
 - **Plan 04 — Religious-site administrativeStatus surfaces as schema.org additionalProperty PropertyValue:** Bethlehem (west-bank-paa), Qumran (west-bank-area-c), Mount Bental (golan-heights), east-Jerusalem sites all carry their administrative status as a structured property. Plan 09 NER + plan 10 audit dashboard consume this for AUD-020 transparency.
@@ -100,6 +105,6 @@ None yet.
 
 ## Session Continuity
 
-Last session: 2026-05-11T01:35:32Z
-Stopped at: Completed .planning/phases/01-foundation-m1/04-schema-baseline-PLAN.md
-Resume file: .planning/phases/01-foundation-m1/05-component-lib-PLAN.md (Wave 3 — depends on plans 02 + 03 + 04 all complete)
+Last session: 2026-05-11T02:05:00Z
+Stopped at: Completed .planning/phases/01-foundation-m1/05-component-lib-PLAN.md
+Resume file: .planning/phases/01-foundation-m1/06-affiliate-helpers-PLAN.md (Wave 4 — depends on plan 05 component lib complete; consumes AffiliateCard stub + PartnerId type + footerLinkHref helper)
