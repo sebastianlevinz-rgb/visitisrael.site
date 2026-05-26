@@ -72,3 +72,5 @@ data/ner-results.json
 # Plan 10: axe-core + IS-5568 a11y wrapper output (ephemeral)
 data/axe-results.json
 data/a11y-il-results.json
+
+.vercel
