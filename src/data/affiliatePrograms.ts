@@ -6,7 +6,17 @@
  */
 export interface AffiliateProgram {
   partner: string;
-  category: 'Hotels' | 'Tours' | 'Flights' | 'Car' | 'Insurance' | 'eSIM' | 'Hostels';
+  category:
+    | 'Hotels'
+    | 'Tours'
+    | 'Flights'
+    | 'Car'
+    | 'Insurance'
+    | 'eSIM'
+    | 'Hostels'
+    | 'Packages'
+    | 'Transfers'
+    | 'Tickets';
   signupUrl: string;
   idKey: string; // matching key in AFFILIATE_IDS
   status: 'pending' | 'applied' | 'live';
@@ -25,4 +35,10 @@ export const AFFILIATE_PROGRAMS: AffiliateProgram[] = [
   { partner: 'SafetyWing', category: 'Insurance', signupUrl: 'https://safetywing.com/affiliates', idKey: 'SAFETYWING_REF', status: 'pending', notes: 'Nomad travel-medical insurance; recurring commissions.' },
   { partner: 'Airalo', category: 'eSIM', signupUrl: 'https://www.airalo.com/affiliate-program', idKey: 'AIRALO_REF', status: 'pending', notes: 'Israel eSIM data plans; via Partnerize.' },
   { partner: 'Hostelworld', category: 'Hostels', signupUrl: 'https://www.hostelworld.com/affiliateprogram', idKey: 'HOSTELWORLD_AID', status: 'pending', notes: 'Hostels (Abraham, etc.); budget audience.' },
+  // Added after competitor analysis (Tourist Israel monetises all of these).
+  { partner: 'TourRadar', category: 'Packages', signupUrl: 'https://www.tourradar.com/affiliates', idKey: 'TOURRADAR_AID', status: 'pending', notes: 'Multi-day tour packages — Tourist Israel’s #1 product category; high AOV.' },
+  { partner: 'Welcome Pickups', category: 'Transfers', signupUrl: 'https://www.welcomepickups.com/affiliates/', idKey: 'WELCOMEPICKUPS_REF', status: 'pending', notes: 'Door-to-door airport transfers; meet-and-greet; strong for Ben Gurion page.' },
+  { partner: 'Kiwitaxi', category: 'Transfers', signupUrl: 'https://kiwitaxi.com/affiliates/', idKey: 'KIWITAXI_MARKER', status: 'pending', notes: 'Pre-booked taxi/shuttle transfers; usually via Travelpayouts.' },
+  { partner: 'DiscoverCars', category: 'Car', signupUrl: 'https://www.discovercars.com/affiliate', idKey: 'DISCOVERCARS_AID', status: 'pending', notes: 'Car-rental comparison; often higher commission than Rentalcars.' },
+  { partner: 'Tiqets', category: 'Tickets', signupUrl: 'https://www.tiqets.com/en/affiliates/', idKey: 'TIQETS_PARTNER', status: 'pending', notes: 'Skip-the-line attraction & museum tickets.' },
 ];

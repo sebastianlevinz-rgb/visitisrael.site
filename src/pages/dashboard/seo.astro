@@ -13,21 +13,38 @@ const rows = [...regions, ...attractions].map((e) => ({
 }));
 const covered = rows.filter((r) => r.primary !== '—').length;
 
-// Money keywords: commercial-intent terms the site targets through templates.
+// Money keywords: commercial-intent terms the site targets through templates
+// and dedicated money pages (several added after the competitor analysis).
 const moneyKeywords = [
   'jerusalem tours', 'masada sunrise tour', 'dead sea day trip from jerusalem',
   'tel aviv hotels', 'petra day trip from eilat', 'where to stay in jerusalem',
-  'israel travel insurance', 'israel esim', 'jerusalem hotels old city',
-  'eilat red sea diving', 'galilee wine tour', 'best tours in israel',
+  'israel travel insurance', 'israel esim', 'best esim for israel',
+  'ben gurion airport transfer', 'car rental israel', 'rent a car ben gurion',
+  'israel tour packages', 'multi day israel tours', 'private tour israel',
+  'best tours in israel', 'eilat red sea diving', 'galilee wine tour',
+  'skip the line tickets israel',
 ];
 
-// Coverage gaps — known high-value pages still to author.
+// Closed recently (competitor-gap pass): dedicated money pages now live.
+const recentlyClosed = [
+  'Israel eSIM (/israel-esim)',
+  'Ben Gurion airport transfers (/ben-gurion-airport-transfers)',
+  'Car rental in Israel (/car-rental-israel)',
+  'Travel insurance for Israel (/israel-travel-insurance)',
+  'Multi-day tour packages (/israel-tour-packages)',
+  'Best tours & day trips hub (/best-tours-in-israel)',
+  'Jerusalem net-new attractions (Temple Mount, Via Dolorosa, Tower of David, Israel Museum, Garden Tomb)',
+  'Itineraries 5-day & 10-day',
+];
+
+// Coverage gaps — remaining, several surfaced by the competitor analysis.
 const gaps = [
-  'Jerusalem: Temple Mount / Dome of the Rock, Via Dolorosa, Tower of David, Israel Museum, Garden Tomb sub-pages',
-  'Tel Aviv: Sarona Market, Bauhaus White City standalone, beach-by-beach guide',
-  'Itineraries: 5-day and 10-day routes; classic combos',
+  'Secret Tel Aviv angle: restaurant/bar “best of” listicles, rooftop bars, nightlife guides',
+  'Events & festivals calendar (seasonal traffic; tie to tours/tickets)',
+  'Day-trips-from hubs (day trips from Jerusalem / from Tel Aviv) as dedicated pages',
+  'Neighborhood deep-dives (e.g. best area to stay in Tel Aviv / Jerusalem)',
+  'Private & luxury tour packages landing page (Tourist Israel monetises this)',
   'Long-tail keyword research (DataForSEO / Ahrefs) to expand secondary terms',
-  'Per-attraction FAQ depth for featured-snippet capture',
 ];
 ---
 
@@ -73,6 +90,15 @@ const gaps = [
       </tbody>
     </table>
   </div>
+
+  <h2 class="mt-10 font-display text-2xl font-bold">Recently closed (competitor-gap pass)</h2>
+  <ul class="mt-3 space-y-2">
+    {recentlyClosed.map((g) => (
+      <li class="rounded-card border border-border bg-card px-4 py-2.5 text-ink shadow-card">
+        <span class="font-semibold text-primary">✓</span> {g}
+      </li>
+    ))}
+  </ul>
 
   <h2 class="mt-10 font-display text-2xl font-bold">Coverage gaps &amp; backlog</h2>
   <ul class="mt-3 space-y-2">

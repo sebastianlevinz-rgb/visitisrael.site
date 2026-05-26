@@ -43,9 +43,15 @@ const { Content } = await render(entry);
 
 const intro = data.intro ?? `${entry.data.description}`;
 const path = `/${entry.id}`;
-const flights = affiliateUrl('skyscanner', { destination: name });
-const insurance = affiliateUrl('safetywing', {});
-const esim = affiliateUrl('airalo', {});
+// Internal money-page links surfaced on every region page (competitor-gap pass).
+const essentials = [
+  { href: '/best-tours-in-israel', label: 'Best tours', icon: '🎟️' },
+  { href: '/israel-tour-packages', label: 'Tour packages', icon: '🧭' },
+  { href: '/ben-gurion-airport-transfers', label: 'Airport transfers', icon: '🚕' },
+  { href: '/car-rental-israel', label: 'Car rental', icon: '🚗' },
+  { href: '/israel-esim', label: 'Israel eSIM', icon: '📶' },
+  { href: '/israel-travel-insurance', label: 'Travel insurance', icon: '🛡️' },
+];
 
 const schema = [
   place({
@@ -180,12 +186,23 @@ const schema = [
     <Content />
   </article>
 
-  <!-- Before you go: flights / insurance / eSIM touchpoints. -->
-  <section class="mx-auto max-w-3xl px-4 pt-6">
-    <div class="grid gap-3 sm:grid-cols-3">
-      <a href={flights} target="_blank" rel="sponsored nofollow noopener" class="rounded-card border border-border bg-card p-4 text-center text-sm font-semibold text-ink no-underline shadow-card hover:shadow-card-hover">✈️ Find flights<br /><span class="text-xs font-normal text-ink-muted">via Skyscanner</span></a>
-      <a href={insurance} target="_blank" rel="sponsored nofollow noopener" class="rounded-card border border-border bg-card p-4 text-center text-sm font-semibold text-ink no-underline shadow-card hover:shadow-card-hover">🛡️ Travel insurance<br /><span class="text-xs font-normal text-ink-muted">via SafetyWing</span></a>
-      <a href={esim} target="_blank" rel="sponsored nofollow noopener" class="rounded-card border border-border bg-card p-4 text-center text-sm font-semibold text-ink no-underline shadow-card hover:shadow-card-hover">📶 Israel eSIM<br /><span class="text-xs font-normal text-ink-muted">via Airalo</span></a>
+  <!-- Plan the practical stuff: internal links to the money pages. -->
+  <section class="mx-auto max-w-6xl px-4 pt-12" aria-labelledby="essentials">
+    <h2 id="essentials" class="mb-5 font-display text-2xl font-bold text-ink">
+      Plan the practical stuff
+    </h2>
+    <div class="grid grid-cols-2 gap-3 sm:grid-cols-3 lg:grid-cols-6">
+      {
+        essentials.map((e) => (
+          <a
+            href={e.href}
+            class="rounded-card border border-border bg-card p-4 text-center text-sm font-semibold text-ink no-underline shadow-card transition-shadow hover:shadow-card-hover"
+          >
+            <span class="block text-xl" aria-hidden="true">{e.icon}</span>
+            <span class="mt-1 block">{e.label}</span>
+          </a>
+        ))
+      }
     </div>
   </section>
 

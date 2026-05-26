@@ -26,6 +26,13 @@ export const AFFILIATE_IDS = {
   AIRALO_REF: env('PUBLIC_AIRALO_REF', 'AIRALO_REF'),
   HOSTELWORLD_AID: env('PUBLIC_HOSTELWORLD_AID', 'HOSTELWORLD_AID'),
   ABRAHAM_TOURS_ID: env('PUBLIC_ABRAHAM_TOURS_ID', 'ABRAHAM_TOURS_ID'),
+  // Added after competitor analysis — money categories Tourist Israel et al.
+  // monetise that we were missing: multi-day packages, transfers, car, tickets.
+  TOURRADAR_AID: env('PUBLIC_TOURRADAR_AID', 'TOURRADAR_AID'),
+  WELCOMEPICKUPS_REF: env('PUBLIC_WELCOMEPICKUPS_REF', 'WELCOMEPICKUPS_REF'),
+  KIWITAXI_MARKER: env('PUBLIC_KIWITAXI_MARKER', 'KIWITAXI_MARKER'),
+  DISCOVERCARS_AID: env('PUBLIC_DISCOVERCARS_AID', 'DISCOVERCARS_AID'),
+  TIQETS_PARTNER: env('PUBLIC_TIQETS_PARTNER', 'TIQETS_PARTNER'),
 } as const;
 
 export type Partner =
@@ -39,12 +46,26 @@ export type Partner =
   | 'stay22'
   | 'airalo'
   | 'hostelworld'
-  | 'abraham';
+  | 'abraham'
+  | 'tourradar'
+  | 'welcomepickups'
+  | 'kiwitaxi'
+  | 'discovercars'
+  | 'tiqets';
 
 export interface PartnerMeta {
   id: Partner;
   label: string; // shown on the "via X" badge
-  category: 'hotels' | 'tours' | 'flights' | 'car' | 'insurance' | 'esim';
+  category:
+    | 'hotels'
+    | 'tours'
+    | 'flights'
+    | 'car'
+    | 'insurance'
+    | 'esim'
+    | 'packages'
+    | 'transfers'
+    | 'tickets';
 }
 
 export const PARTNERS: Record<Partner, PartnerMeta> = {
@@ -59,6 +80,11 @@ export const PARTNERS: Record<Partner, PartnerMeta> = {
   stay22: { id: 'stay22', label: 'Stay22', category: 'hotels' },
   airalo: { id: 'airalo', label: 'Airalo', category: 'esim' },
   hostelworld: { id: 'hostelworld', label: 'Hostelworld', category: 'hotels' },
+  tourradar: { id: 'tourradar', label: 'TourRadar', category: 'packages' },
+  welcomepickups: { id: 'welcomepickups', label: 'Welcome Pickups', category: 'transfers' },
+  kiwitaxi: { id: 'kiwitaxi', label: 'Kiwitaxi', category: 'transfers' },
+  discovercars: { id: 'discovercars', label: 'DiscoverCars', category: 'car' },
+  tiqets: { id: 'tiqets', label: 'Tiqets', category: 'tickets' },
 };
 
 const q = (params: Record<string, string>) =>
@@ -120,6 +146,29 @@ export function affiliateUrl(
       return `https://www.hostelworld.com/search?${q({
         aid: AFFILIATE_IDS.HOSTELWORLD_AID,
         search,
+      })}`;
+    case 'tourradar':
+      return `https://www.tourradar.com/d/israel?${q({
+        a_aid: AFFILIATE_IDS.TOURRADAR_AID,
+        ...(search ? { q: search } : {}),
+      })}`;
+    case 'welcomepickups':
+      return `https://www.welcomepickups.com/israel/?${q({
+        ref: AFFILIATE_IDS.WELCOMEPICKUPS_REF,
+      })}`;
+    case 'kiwitaxi':
+      return `https://kiwitaxi.com/?${q({
+        marker: AFFILIATE_IDS.KIWITAXI_MARKER,
+      })}`;
+    case 'discovercars':
+      return `https://www.discovercars.com/israel?${q({
+        a_aid: AFFILIATE_IDS.DISCOVERCARS_AID,
+        ...(dest ? { city: dest } : {}),
+      })}`;
+    case 'tiqets':
+      return `https://www.tiqets.com/en/search?${q({
+        partner: AFFILIATE_IDS.TIQETS_PARTNER,
+        q: search,
       })}`;
   }
 }

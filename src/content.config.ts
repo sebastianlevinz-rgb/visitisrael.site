@@ -62,6 +62,19 @@ const legal = defineCollection({
   }),
 });
 
+const affiliateCta = z.object({
+  partner: z.string(),
+  title: z.string(),
+  description: z.string(),
+  image: z.string(),
+  query: z.string().optional(),
+  destination: z.string().optional(),
+  priceFrom: z.number().optional(),
+  rating: z.number().optional(),
+  reviews: z.number().optional(),
+  cta: z.string().optional(),
+});
+
 const guides = defineCollection({
   loader: glob({ pattern: '*.md', base: './src/content/guides' }),
   schema: z.object({
@@ -71,6 +84,9 @@ const guides = defineCollection({
     category: z.string().optional(),
     updatedAt: z.coerce.date().optional(),
     faqs: z.array(faq).optional(),
+    // Money-page CTA cards rendered by the guide template from central config.
+    ctaHeading: z.string().optional(),
+    affiliateCtas: z.array(affiliateCta).optional(),
   }),
 });
 

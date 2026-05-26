@@ -4,8 +4,10 @@ import BaseLayout from '@/layouts/BaseLayout.astro';
 import Hero from '@/components/Hero.astro';
 import Breadcrumbs from '@/components/Breadcrumbs.astro';
 import AuthorByline from '@/components/AuthorByline.astro';
+import AffiliateCard from '@/components/AffiliateCard.astro';
 import FaqSection from '@/components/FaqSection.astro';
 import JsonLd from '@/components/JsonLd.astro';
+import type { Partner } from '@/config/affiliates';
 import { defaultAuthor } from '@/data/authors';
 import { article, breadcrumbList } from '@/lib/schema';
 
@@ -24,6 +26,19 @@ const data: any = entry.data;
 const path = `/${entry.id}`;
 const hero = data.heroImage as string | undefined;
 const faqs = data.faqs ?? [];
+const ctas = (data.affiliateCtas ?? []) as Array<{
+  partner: Partner;
+  title: string;
+  description: string;
+  image: string;
+  query?: string;
+  destination?: string;
+  priceFrom?: number;
+  rating?: number;
+  reviews?: number;
+  cta?: string;
+}>;
+const ctaCols = ctas.length >= 3 ? 'lg:grid-cols-3' : ctas.length === 2 ? 'sm:grid-cols-2' : '';
 const crumbs = [
   { name: 'Home', path: '/' },
   ...(kind === 'guide' ? [{ name: 'Plan your trip', path: '/plan-your-trip' }] : []),
@@ -62,7 +77,24 @@ const schema = [
   <Breadcrumbs items={crumbs} />
   <AuthorByline updated={data.updatedAt} />
 
-  <article class="prose-content mx-auto max-w-3xl px-4 pt-4">
+  {
+    ctas.length > 0 && (
+      <section class="mx-auto max-w-6xl px-4 pt-2" aria-labelledby="cta">
+        {data.ctaHeading && (
+          <h2 id="cta" class="mb-5 font-display text-2xl font-bold text-ink">
+            {data.ctaHeading}
+          </h2>
+        )}
+        <div class={`grid grid-cols-1 gap-5 ${ctaCols}`}>
+          {ctas.map((c) => (
+            <AffiliateCard {...c} />
+          ))}
+        </div>
+      </section>
+    )
+  }
+
+  <article class="prose-content mx-auto max-w-3xl px-4 pt-8">
     <Content />
   </article>
 
