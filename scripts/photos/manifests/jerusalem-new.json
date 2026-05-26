@@ -1,0 +1,7 @@
+[
+  { "outPath": "public/images/sub-destinations/jerusalem/temple-mount.jpg", "query": "Dome of the Rock Temple Mount Jerusalem", "width": 1920, "crop": { "w": 1600, "h": 1000 } },
+  { "outPath": "public/images/sub-destinations/jerusalem/via-dolorosa.jpg", "query": "Via Dolorosa Jerusalem old city street", "width": 1920, "crop": { "w": 1600, "h": 1000 } },
+  { "outPath": "public/images/sub-destinations/jerusalem/tower-of-david.jpg", "query": "Tower of David citadel Jerusalem", "width": 1920, "crop": { "w": 1600, "h": 1000 } },
+  { "outPath": "public/images/sub-destinations/jerusalem/israel-museum.jpg", "query": "Shrine of the Book Israel Museum Jerusalem", "width": 1920, "crop": { "w": 1600, "h": 1000 } },
+  { "outPath": "public/images/sub-destinations/jerusalem/garden-tomb.jpg", "query": "Garden Tomb Jerusalem", "width": 1920, "crop": { "w": 1600, "h": 1000 } }
+]

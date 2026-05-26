@@ -558,5 +558,45 @@
     "licenseProof": "https://creativecommons.org/licenses/by-sa/4.0",
     "sourceUrl": "https://commons.wikimedia.org/wiki/File:Eilat-coral-beach-reserve-a.JPG",
     "query": "Eilat Coral Reserve"
+  },
+  "/images/sub-destinations/jerusalem/temple-mount.jpg": {
+    "src": "/images/sub-destinations/jerusalem/temple-mount.jpg",
+    "author": "Godot13",
+    "license": "CC BY-SA 4.0",
+    "licenseProof": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Jerusalem-2013-Temple_Mount-Dome_of_the_Rock_%26_Chain_02.jpg",
+    "query": "Dome of the Rock Temple Mount Jerusalem"
+  },
+  "/images/sub-destinations/jerusalem/via-dolorosa.jpg": {
+    "src": "/images/sub-destinations/jerusalem/via-dolorosa.jpg",
+    "author": "Hoshvilim",
+    "license": "CC BY-SA 4.0",
+    "licenseProof": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Via_Dolorosa,_Jerusalem,_07.jpg",
+    "query": "Via Dolorosa Jerusalem 07"
+  },
+  "/images/sub-destinations/jerusalem/tower-of-david.jpg": {
+    "src": "/images/sub-destinations/jerusalem/tower-of-david.jpg",
+    "author": "Bukvoed",
+    "license": "CC BY 4.0",
+    "licenseProof": "https://creativecommons.org/licenses/by/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Jerusalem-Tower-of-David-V2-348.jpg",
+    "query": "Tower of David citadel Jerusalem"
+  },
+  "/images/sub-destinations/jerusalem/israel-museum.jpg": {
+    "src": "/images/sub-destinations/jerusalem/israel-museum.jpg",
+    "author": "Utilisateur:Djampa - User:Djampa",
+    "license": "CC BY-SA 4.0",
+    "licenseProof": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Jerusalem_Israel_Museum_Shrine_of_the_Book_Knesset.jpg",
+    "query": "Shrine of the Book Israel Museum Jerusalem"
+  },
+  "/images/sub-destinations/jerusalem/garden-tomb.jpg": {
+    "src": "/images/sub-destinations/jerusalem/garden-tomb.jpg",
+    "author": "Gary Todd from Xinzheng, China",
+    "license": "CC0",
+    "licenseProof": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Jerusalem_Garden_Tomb_(43300924231).jpg",
+    "query": "Garden Tomb Jerusalem"
   }
 }
