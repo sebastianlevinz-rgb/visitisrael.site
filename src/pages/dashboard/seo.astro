@@ -1,0 +1,83 @@
+---
+import { getCollection } from 'astro:content';
+import InternalLayout from '@/layouts/InternalLayout.astro';
+
+const regions = await getCollection('regions');
+const attractions = await getCollection('attractions');
+
+const rows = [...regions, ...attractions].map((e) => ({
+  title: e.data.title.split(/[:(]/)[0].trim(),
+  url: regions.includes(e as any) ? `/${e.id}` : '#',
+  primary: (e.data as any).primaryKeyword ?? '—',
+  secondary: (e.data as any).secondaryKeywords?.length ?? 0,
+}));
+const covered = rows.filter((r) => r.primary !== '—').length;
+
+// Money keywords: commercial-intent terms the site targets through templates.
+const moneyKeywords = [
+  'jerusalem tours', 'masada sunrise tour', 'dead sea day trip from jerusalem',
+  'tel aviv hotels', 'petra day trip from eilat', 'where to stay in jerusalem',
+  'israel travel insurance', 'israel esim', 'jerusalem hotels old city',
+  'eilat red sea diving', 'galilee wine tour', 'best tours in israel',
+];
+
+// Coverage gaps — known high-value pages still to author.
+const gaps = [
+  'Jerusalem: Temple Mount / Dome of the Rock, Via Dolorosa, Tower of David, Israel Museum, Garden Tomb sub-pages',
+  'Tel Aviv: Sarona Market, Bauhaus White City standalone, beach-by-beach guide',
+  'Itineraries: 5-day and 10-day routes; classic combos',
+  'Long-tail keyword research (DataForSEO / Ahrefs) to expand secondary terms',
+  'Per-attraction FAQ depth for featured-snippet capture',
+];
+---
+
+<InternalLayout title="SEO Intelligence">
+  <h1 class="font-display text-3xl font-bold">SEO &amp; GEO Intelligence</h1>
+  <p class="mt-1 text-ink-muted">Keyword coverage, money terms and content gaps.</p>
+
+  <div class="mt-6 grid grid-cols-2 gap-4 sm:grid-cols-4">
+    {[
+      { k: 'Pages with primary keyword', v: `${covered}/${rows.length}` },
+      { k: 'Money keywords targeted', v: `${moneyKeywords.length}` },
+      { k: 'Schema types', v: '6' },
+      { k: 'AI crawlers allowed', v: 'Yes' },
+    ].map((s) => (
+      <div class="rounded-card border border-border bg-card p-4 shadow-card">
+        <p class="text-2xl font-bold text-primary">{s.v}</p>
+        <p class="text-xs uppercase tracking-wide text-ink-muted">{s.k}</p>
+      </div>
+    ))}
+  </div>
+
+  <h2 class="mt-10 font-display text-2xl font-bold">Money keywords (commercial intent)</h2>
+  <div class="mt-3 flex flex-wrap gap-2">
+    {moneyKeywords.map((k) => (
+      <span class="rounded-full bg-gold/15 px-3 py-1 text-sm font-semibold text-gold-deep">{k}</span>
+    ))}
+  </div>
+
+  <h2 class="mt-10 font-display text-2xl font-bold">Region keyword coverage</h2>
+  <div class="mt-3 overflow-x-auto rounded-card border border-border bg-card shadow-card">
+    <table class="w-full text-sm">
+      <thead class="bg-sand-deep text-left">
+        <tr><th class="px-4 py-2">Page</th><th class="px-4 py-2">Primary keyword</th><th class="px-4 py-2">Secondary</th></tr>
+      </thead>
+      <tbody>
+        {regions.map((e) => (
+          <tr class="border-t border-border">
+            <td class="px-4 py-2"><a href={`/${e.id}`} class="font-semibold text-primary">{e.data.title.split(/[:(]/)[0].trim()}</a></td>
+            <td class="px-4 py-2">{(e.data as any).primaryKeyword ?? '—'}</td>
+            <td class="px-4 py-2">{(e.data as any).secondaryKeywords?.length ?? 0} terms</td>
+          </tr>
+        ))}
+      </tbody>
+    </table>
+  </div>
+
+  <h2 class="mt-10 font-display text-2xl font-bold">Coverage gaps &amp; backlog</h2>
+  <ul class="mt-3 space-y-2">
+    {gaps.map((g) => (
+      <li class="rounded-card border border-border bg-card px-4 py-2.5 text-ink shadow-card">⚑ {g}</li>
+    ))}
+  </ul>
+</InternalLayout>
