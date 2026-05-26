@@ -1,0 +1,533 @@
+[
+  {
+    "outPath": "public/images/sub-destinations/akko/bahai-mansion.jpg",
+    "query": "Bahji Bahai gardens Acre",
+    "width": 1920,
+    "crop": {
+      "w": 1600,
+      "h": 1000
+    }
+  },
+  {
+    "outPath": "public/images/sub-destinations/akko/hospitaller-knights.jpg",
+    "query": "Acre Knights Hospitaller hall crusader",
+    "width": 1920,
+    "crop": {
+      "w": 1600,
+      "h": 1000
+    }
+  },
+  {
+    "outPath": "public/images/sub-destinations/akko/khan-al-umdan.jpg",
+    "query": "Khan al-Umdan Acre",
+    "width": 1920,
+    "crop": {
+      "w": 1600,
+      "h": 1000
+    }
+  },
+  {
+    "outPath": "public/images/sub-destinations/akko/old-city.jpg",
+    "query": "Acre Akko old city sea wall",
+    "width": 1920,
+    "crop": {
+      "w": 1600,
+      "h": 1000
+    }
+  },
+  {
+    "outPath": "public/images/sub-destinations/akko/templar-tunnel.jpg",
+    "query": "Acre Templar tunnel",
+    "width": 1920,
+    "crop": {
+      "w": 1600,
+      "h": 1000
+    }
+  },
+  {
+    "outPath": "public'/images/west-bank/bethlehem/hero.jpg'",
+    "query": "Things to Do in Bethlehem bethlehem Israel",
+    "width": 1920,
+    "crop": {
+      "w": 1600,
+      "h": 1000
+    }
+  },
+  {
+    "outPath": "public/images/sub-destinations/caesarea/aqueduct-beach.jpg",
+    "query": "Caesarea Roman aqueduct beach",
+    "width": 1920,
+    "crop": {
+      "w": 1600,
+      "h": 1000
+    }
+  },
+  {
+    "outPath": "public/images/sub-destinations/caesarea/harbour.jpg",
+    "query": "Caesarea harbour ruins Israel",
+    "width": 1920,
+    "crop": {
+      "w": 1600,
+      "h": 1000
+    }
+  },
+  {
+    "outPath": "public/images/sub-destinations/caesarea/national-park.jpg",
+    "query": "Caesarea Maritima Roman theatre",
+    "width": 1920,
+    "crop": {
+      "w": 1600,
+      "h": 1000
+    }
+  },
+  {
+    "outPath": "public/images/sub-destinations/caesarea/ralli-museum.jpg",
+    "query": "Caesarea Israel sculpture",
+    "width": 1920,
+    "crop": {
+      "w": 1600,
+      "h": 1000
+    }
+  },
+  {
+    "outPath": "public/images/sub-destinations/dead-sea/ein-bokek.jpg",
+    "query": "Ein Bokek Dead Sea beach hotels",
+    "width": 1920,
+    "crop": {
+      "w": 1600,
+      "h": 1000
+    }
+  },
+  {
+    "outPath": "public/images/sub-destinations/dead-sea/ein-gedi.jpg",
+    "query": "Ein Gedi nature reserve waterfall",
+    "width": 1920,
+    "crop": {
+      "w": 1600,
+      "h": 1000
+    }
+  },
+  {
+    "outPath": "public/images/sub-destinations/dead-sea/masada.jpg",
+    "query": "Masada fortress Israel aerial",
+    "width": 1920,
+    "crop": {
+      "w": 1600,
+      "h": 1000
+    }
+  },
+  {
+    "outPath": "public/images/sub-destinations/dead-sea/mineral-beach.jpg",
+    "query": "Dead Sea mud beach floating",
+    "width": 1920,
+    "crop": {
+      "w": 1600,
+      "h": 1000
+    }
+  },
+  {
+    "outPath": "public/images/sub-destinations/dead-sea/qumran.jpg",
+    "query": "Qumran caves Dead Sea",
+    "width": 1920,
+    "crop": {
+      "w": 1600,
+      "h": 1000
+    }
+  },
+  {
+    "outPath": "public/images/sub-destinations/eilat/coral-beach.jpg",
+    "query": "Eilat Coral Beach Red Sea",
+    "width": 1920,
+    "crop": {
+      "w": 1600,
+      "h": 1000
+    }
+  },
+  {
+    "outPath": "public/images/sub-destinations/eilat/dolphin-reef.jpg",
+    "query": "Dolphin Reef Eilat",
+    "width": 1920,
+    "crop": {
+      "w": 1600,
+      "h": 1000
+    }
+  },
+  {
+    "outPath": "public/images/sub-destinations/eilat/red-canyon.jpg",
+    "query": "Red Canyon Eilat",
+    "width": 1920,
+    "crop": {
+      "w": 1600,
+      "h": 1000
+    }
+  },
+  {
+    "outPath": "public/images/sub-destinations/eilat/timna-park.jpg",
+    "query": "Timna Park pillars Negev",
+    "width": 1920,
+    "crop": {
+      "w": 1600,
+      "h": 1000
+    }
+  },
+  {
+    "outPath": "public/images/sub-destinations/eilat/underwater-observatory.jpg",
+    "query": "Eilat Underwater Observatory marine park",
+    "width": 1920,
+    "crop": {
+      "w": 1600,
+      "h": 1000
+    }
+  },
+  {
+    "outPath": "public/images/sub-destinations/galilee/capernaum.jpg",
+    "query": "Capernaum synagogue Sea of Galilee",
+    "width": 1920,
+    "crop": {
+      "w": 1600,
+      "h": 1000
+    }
+  },
+  {
+    "outPath": "public/images/sub-destinations/galilee/magdala.jpg",
+    "query": "Magdala synagogue Galilee",
+    "width": 1920,
+    "crop": {
+      "w": 1600,
+      "h": 1000
+    }
+  },
+  {
+    "outPath": "public/images/sub-destinations/galilee/mount-arbel.jpg",
+    "query": "Mount Arbel cliff Sea of Galilee",
+    "width": 1920,
+    "crop": {
+      "w": 1600,
+      "h": 1000
+    }
+  },
+  {
+    "outPath": "public/images/sub-destinations/galilee/mount-of-beatitudes.jpg",
+    "query": "Mount of Beatitudes church Galilee",
+    "width": 1920,
+    "crop": {
+      "w": 1600,
+      "h": 1000
+    }
+  },
+  {
+    "outPath": "public/images/sub-destinations/galilee/tiberias.jpg",
+    "query": "Tiberias Sea of Galilee promenade",
+    "width": 1920,
+    "crop": {
+      "w": 1600,
+      "h": 1000
+    }
+  },
+  {
+    "outPath": "public/images/sub-destinations/galilee/yardenit.jpg",
+    "query": "Yardenit baptismal site Jordan River",
+    "width": 1920,
+    "crop": {
+      "w": 1600,
+      "h": 1000
+    }
+  },
+  {
+    "outPath": "public/images/sub-destinations/golan/banias.jpg",
+    "query": "Banias waterfall Golan Heights",
+    "width": 1920,
+    "crop": {
+      "w": 1600,
+      "h": 1000
+    }
+  },
+  {
+    "outPath": "public/images/sub-destinations/golan/druze-villages.jpg",
+    "query": "Druze village Golan Heights",
+    "width": 1920,
+    "crop": {
+      "w": 1600,
+      "h": 1000
+    }
+  },
+  {
+    "outPath": "public/images/sub-destinations/golan/mount-bental.jpg",
+    "query": "Mount Bental Golan Heights view",
+    "width": 1920,
+    "crop": {
+      "w": 1600,
+      "h": 1000
+    }
+  },
+  {
+    "outPath": "public/images/sub-destinations/golan/mount-hermon.jpg",
+    "query": "Mount Hermon Golan snow",
+    "width": 1920,
+    "crop": {
+      "w": 1600,
+      "h": 1000
+    }
+  },
+  {
+    "outPath": "public/images/sub-destinations/golan/nimrod-fortress.jpg",
+    "query": "Nimrod Fortress Golan Heights",
+    "width": 1920,
+    "crop": {
+      "w": 1600,
+      "h": 1000
+    }
+  },
+  {
+    "outPath": "public/images/sub-destinations/haifa/bahai-gardens.jpg",
+    "query": "Bahai Gardens Haifa terraces",
+    "width": 1920,
+    "crop": {
+      "w": 1600,
+      "h": 1000
+    }
+  },
+  {
+    "outPath": "public/images/sub-destinations/haifa/carmel-national-park.jpg",
+    "query": "Mount Carmel national park Haifa",
+    "width": 1920,
+    "crop": {
+      "w": 1600,
+      "h": 1000
+    }
+  },
+  {
+    "outPath": "public/images/sub-destinations/haifa/german-colony.jpg",
+    "query": "German Colony Haifa Ben Gurion street",
+    "width": 1920,
+    "crop": {
+      "w": 1600,
+      "h": 1000
+    }
+  },
+  {
+    "outPath": "public/images/sub-destinations/haifa/stella-maris.jpg",
+    "query": "Stella Maris monastery Haifa",
+    "width": 1920,
+    "crop": {
+      "w": 1600,
+      "h": 1000
+    }
+  },
+  {
+    "outPath": "public/images/sub-destinations/haifa/wadi-nisnas.jpg",
+    "query": "Wadi Nisnas Haifa market",
+    "width": 1920,
+    "crop": {
+      "w": 1600,
+      "h": 1000
+    }
+  },
+  {
+    "outPath": "public/images/sub-destinations/jerusalem/city-of-david.jpg",
+    "query": "City of David Jerusalem Israel",
+    "width": 1920,
+    "crop": {
+      "w": 1600,
+      "h": 1000
+    }
+  },
+  {
+    "outPath": "public/images/sub-destinations/jerusalem/holy-sepulchre.jpg",
+    "query": "Church of the Holy Sepulchre Jerusalem Israel",
+    "width": 1920,
+    "crop": {
+      "w": 1600,
+      "h": 1000
+    }
+  },
+  {
+    "outPath": "public/images/sub-destinations/jerusalem/mahane-yehuda.jpg",
+    "query": "Mahane Yehuda Market Jerusalem Israel",
+    "width": 1920,
+    "crop": {
+      "w": 1600,
+      "h": 1000
+    }
+  },
+  {
+    "outPath": "public/images/sub-destinations/jerusalem/mount-of-olives.jpg",
+    "query": "Mount of Olives Jerusalem Israel",
+    "width": 1920,
+    "crop": {
+      "w": 1600,
+      "h": 1000
+    }
+  },
+  {
+    "outPath": "public/images/sub-destinations/jerusalem/old-city.jpg",
+    "query": "Jerusalem Old City Jerusalem Israel",
+    "width": 1920,
+    "crop": {
+      "w": 1600,
+      "h": 1000
+    }
+  },
+  {
+    "outPath": "public/images/sub-destinations/jerusalem/western-wall.jpg",
+    "query": "Western Wall Jerusalem Israel",
+    "width": 1920,
+    "crop": {
+      "w": 1600,
+      "h": 1000
+    }
+  },
+  {
+    "outPath": "public/images/sub-destinations/jerusalem/yad-vashem.jpg",
+    "query": "Yad Vashem Jerusalem Israel",
+    "width": 1920,
+    "crop": {
+      "w": 1600,
+      "h": 1000
+    }
+  },
+  {
+    "outPath": "public/images/sub-destinations/nazareth/basilica-of-the-annunciation.jpg",
+    "query": "Basilica of the Annunciation Nazareth",
+    "width": 1920,
+    "crop": {
+      "w": 1600,
+      "h": 1000
+    }
+  },
+  {
+    "outPath": "public/images/sub-destinations/nazareth/marys-well.jpg",
+    "query": "Marys Well Nazareth church",
+    "width": 1920,
+    "crop": {
+      "w": 1600,
+      "h": 1000
+    }
+  },
+  {
+    "outPath": "public/images/sub-destinations/nazareth/mount-of-precipice.jpg",
+    "query": "Mount Precipice Nazareth view",
+    "width": 1920,
+    "crop": {
+      "w": 1600,
+      "h": 1000
+    }
+  },
+  {
+    "outPath": "public/images/sub-destinations/nazareth/old-city.jpg",
+    "query": "Nazareth old city market",
+    "width": 1920,
+    "crop": {
+      "w": 1600,
+      "h": 1000
+    }
+  },
+  {
+    "outPath": "public/images/sub-destinations/negev/avdat.jpg",
+    "query": "Avdat Nabatean ruins Negev",
+    "width": 1920,
+    "crop": {
+      "w": 1600,
+      "h": 1000
+    }
+  },
+  {
+    "outPath": "public/images/sub-destinations/negev/bedouin-hospitality.jpg",
+    "query": "Bedouin tent Negev desert",
+    "width": 1920,
+    "crop": {
+      "w": 1600,
+      "h": 1000
+    }
+  },
+  {
+    "outPath": "public/images/sub-destinations/negev/ein-avdat.jpg",
+    "query": "Ein Avdat canyon spring Negev",
+    "width": 1920,
+    "crop": {
+      "w": 1600,
+      "h": 1000
+    }
+  },
+  {
+    "outPath": "public/images/sub-destinations/negev/mitzpe-ramon.jpg",
+    "query": "Makhtesh Ramon crater Mitzpe Ramon",
+    "width": 1920,
+    "crop": {
+      "w": 1600,
+      "h": 1000
+    }
+  },
+  {
+    "outPath": "public/images/sub-destinations/negev/sde-boker.jpg",
+    "query": "Sde Boker Ben Gurion Negev",
+    "width": 1920,
+    "crop": {
+      "w": 1600,
+      "h": 1000
+    }
+  },
+  {
+    "outPath": "public/images/sub-destinations/tel-aviv/carmel-market.jpg",
+    "query": "Carmel Market Tel Aviv",
+    "width": 1920,
+    "crop": {
+      "w": 1600,
+      "h": 1000
+    }
+  },
+  {
+    "outPath": "public/images/sub-destinations/tel-aviv/florentin.jpg",
+    "query": "Florentin Tel Aviv street art",
+    "width": 1920,
+    "crop": {
+      "w": 1600,
+      "h": 1000
+    }
+  },
+  {
+    "outPath": "public/images/sub-destinations/tel-aviv/neve-tzedek.jpg",
+    "query": "Neve Tzedek Tel Aviv",
+    "width": 1920,
+    "crop": {
+      "w": 1600,
+      "h": 1000
+    }
+  },
+  {
+    "outPath": "public/images/sub-destinations/tel-aviv/old-jaffa.jpg",
+    "query": "Old Jaffa port Tel Aviv",
+    "width": 1920,
+    "crop": {
+      "w": 1600,
+      "h": 1000
+    }
+  },
+  {
+    "outPath": "public/images/sub-destinations/tel-aviv/rothschild.jpg",
+    "query": "Rothschild Boulevard Tel Aviv Bauhaus",
+    "width": 1920,
+    "crop": {
+      "w": 1600,
+      "h": 1000
+    }
+  },
+  {
+    "outPath": "public/images/sub-destinations/tel-aviv/tayelet.jpg",
+    "query": "Tel Aviv beach promenade tayelet",
+    "width": 1920,
+    "crop": {
+      "w": 1600,
+      "h": 1000
+    }
+  },
+  {
+    "outPath": "public/images/sub-destinations/tel-aviv/tel-aviv-museum.jpg",
+    "query": "Tel Aviv Museum of Art building",
+    "width": 1920,
+    "crop": {
+      "w": 1600,
+      "h": 1000
+    }
+  }
+]

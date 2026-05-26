@@ -142,5 +142,421 @@
     "licenseProof": "https://creativecommons.org/licenses/by-sa/4.0",
     "sourceUrl": "https://commons.wikimedia.org/wiki/File:City_of_David,_Wadi_Hilweh_%E2%80%93_Palestinian_village,_Israeli_settlement,_Archaeological_site_%E2%80%93_from_the_air.jpg",
     "query": "City of David archaeological site Jerusalem"
+  },
+  "/images/sub-destinations/akko/bahai-mansion.jpg": {
+    "src": "/images/sub-destinations/akko/bahai-mansion.jpg",
+    "author": "אסף.צ from Hebrew Wikipedia",
+    "license": "CC BY-SA 3.0",
+    "licenseProof": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bahai_gardens_in_Acre.JPG",
+    "query": "Bahji Bahai gardens Acre"
+  },
+  "/images/sub-destinations/akko/hospitaller-knights.jpg": {
+    "src": "/images/sub-destinations/akko/hospitaller-knights.jpg",
+    "author": "Lev.Tsimbler",
+    "license": "CC BY-SA 3.0",
+    "licenseProof": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:%D7%94%D7%9E%D7%A6%D7%95%D7%93%D7%94_%D7%91%D7%A2%D7%9B%D7%95_%D7%91%D7%A4%D7%A0%D7%99%D7%9D.jpg",
+    "query": "Acre Knights Hospitaller hall crusader"
+  },
+  "/images/sub-destinations/akko/khan-al-umdan.jpg": {
+    "src": "/images/sub-destinations/akko/khan-al-umdan.jpg",
+    "author": "Ricardo Tulio Gandelman from Rio de Janeiro, Brazil",
+    "license": "CC BY 2.0",
+    "licenseProof": "https://creativecommons.org/licenses/by/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Khan_al-Umdan,_Acre_(5148545128).jpg",
+    "query": "Khan al-Umdan Acre"
+  },
+  "/images/sub-destinations/akko/old-city.jpg": {
+    "src": "/images/sub-destinations/akko/old-city.jpg",
+    "author": "The Israel Antiquities Authority scientific Archive 1919-1948",
+    "license": "CC BY-SA 4.0",
+    "licenseProof": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:General_view_of_Sea_Wall._Acre,_Old_City_(SRF_5;_284).jpg",
+    "query": "Acre Akko old city sea wall"
+  },
+  "/images/sub-destinations/akko/templar-tunnel.jpg": {
+    "src": "/images/sub-destinations/akko/templar-tunnel.jpg",
+    "author": "Oren Rozen",
+    "license": "CC BY-SA 4.0",
+    "licenseProof": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Acre_201016_Templar_Tunnel_01.jpg",
+    "query": "Acre Templar tunnel"
+  },
+  "/public'/images/west-bank/bethlehem/hero.jpg'": {
+    "src": "/public'/images/west-bank/bethlehem/hero.jpg'",
+    "author": "Wiggum",
+    "license": "CC BY-SA 3.0",
+    "licenseProof": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Israeli_West_Bank_Barrier_Bethlehem_Checkpoint_2009.jpg",
+    "query": "Things to Do in Bethlehem bethlehem Israel"
+  },
+  "/images/sub-destinations/caesarea/aqueduct-beach.jpg": {
+    "src": "/images/sub-destinations/caesarea/aqueduct-beach.jpg",
+    "author": "FLASHPACKER TRAVELGUIDE",
+    "license": "CC BY-SA 2.0",
+    "licenseProof": "https://creativecommons.org/licenses/by-sa/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Caesarea_Aqueduct_Aqu%C3%A4dukt_Israel_(35101295615).jpg",
+    "query": "Caesarea Roman aqueduct beach"
+  },
+  "/images/sub-destinations/caesarea/harbour.jpg": {
+    "src": "/images/sub-destinations/caesarea/harbour.jpg",
+    "author": "RonGafni",
+    "license": "CC BY-SA 4.0",
+    "licenseProof": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cesarea_Harbor_Ruins_%D7%A2%D7%AA%D7%99%D7%A7%D7%95%D7%AA_%D7%A0%D7%9E%D7%9C_%D7%A7%D7%99%D7%A1%D7%A8%D7%99%D7%94.jpg",
+    "query": "Caesarea harbour ruins Israel"
+  },
+  "/images/sub-destinations/caesarea/national-park.jpg": {
+    "src": "/images/sub-destinations/caesarea/national-park.jpg",
+    "author": "Larry Koester",
+    "license": "CC BY 2.0",
+    "licenseProof": "https://creativecommons.org/licenses/by/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Caesarea_-_Roman_theatre_(14)_(37125049536).jpg",
+    "query": "Caesarea Maritima Roman theatre"
+  },
+  "/images/sub-destinations/caesarea/ralli-museum.jpg": {
+    "src": "/images/sub-destinations/caesarea/ralli-museum.jpg",
+    "author": "Grand Parc - Bordeaux, France from France",
+    "license": "CC BY-SA 2.0",
+    "licenseProof": "https://creativecommons.org/licenses/by-sa/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Caesarea_-_Israel_-_07-2012_(7528068094).jpg",
+    "query": "Caesarea Israel sculpture"
+  },
+  "/images/sub-destinations/dead-sea/ein-bokek.jpg": {
+    "src": "/images/sub-destinations/dead-sea/ein-bokek.jpg",
+    "author": "ליזי שאנן",
+    "license": "CC BY 2.5",
+    "licenseProof": "https://creativecommons.org/licenses/by/2.5",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:139757_ein_bokek_-_dead_sea_beach_hotels_PikiWiki_Israel.jpg",
+    "query": "Ein Bokek Dead Sea beach hotels"
+  },
+  "/images/sub-destinations/dead-sea/ein-gedi.jpg": {
+    "src": "/images/sub-destinations/dead-sea/ein-gedi.jpg",
+    "author": "The Turtle Ninja",
+    "license": "CC BY-SA 3.0",
+    "licenseProof": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Waterfall_at_Ein_Gedi.jpg",
+    "query": "Ein Gedi nature reserve waterfall"
+  },
+  "/images/sub-destinations/dead-sea/masada.jpg": {
+    "src": "/images/sub-destinations/dead-sea/masada.jpg",
+    "author": "Godot13",
+    "license": "CC BY-SA 4.0",
+    "licenseProof": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Israel-2013-Aerial_21-Masada.jpg",
+    "query": "Masada fortress Israel aerial"
+  },
+  "/images/sub-destinations/eilat/dolphin-reef.jpg": {
+    "src": "/images/sub-destinations/eilat/dolphin-reef.jpg",
+    "author": "טל שמע",
+    "license": "CC BY-SA 4.0",
+    "licenseProof": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Eilat_Dolphin_Reef_(3).jpg",
+    "query": "Dolphin Reef Eilat"
+  },
+  "/images/sub-destinations/eilat/red-canyon.jpg": {
+    "src": "/images/sub-destinations/eilat/red-canyon.jpg",
+    "author": "Tiia Monto",
+    "license": "CC BY-SA 3.0",
+    "licenseProof": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Israel_Red_Canyon_5.jpg",
+    "query": "Red Canyon Eilat"
+  },
+  "/images/sub-destinations/eilat/timna-park.jpg": {
+    "src": "/images/sub-destinations/eilat/timna-park.jpg",
+    "author": "Little Savage",
+    "license": "Public domain",
+    "licenseProof": "",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Timna_1.jpg",
+    "query": "Timna Park pillars Negev"
+  },
+  "/images/sub-destinations/eilat/underwater-observatory.jpg": {
+    "src": "/images/sub-destinations/eilat/underwater-observatory.jpg",
+    "author": "Dr. Avishai Teicher",
+    "license": "CC BY 2.5",
+    "licenseProof": "https://creativecommons.org/licenses/by/2.5",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:PikiWiki_Israel_41914_Underwater_observatory_in_Eilat.JPG",
+    "query": "Eilat Underwater Observatory marine park"
+  },
+  "/images/sub-destinations/galilee/capernaum.jpg": {
+    "src": "/images/sub-destinations/galilee/capernaum.jpg",
+    "author": "Matson Collection",
+    "license": "Public domain",
+    "licenseProof": "",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Around_the_Sea_of_Galilee._Capernaum,_partially_restored_synagogue._Luke_7-5_LOC_matpc.22963.jpg",
+    "query": "Capernaum synagogue Sea of Galilee"
+  },
+  "/images/sub-destinations/galilee/magdala.jpg": {
+    "src": "/images/sub-destinations/galilee/magdala.jpg",
+    "author": "Hanay",
+    "license": "CC BY-SA 3.0",
+    "licenseProof": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Magdala_(3).jpg",
+    "query": "Magdala synagogue Galilee"
+  },
+  "/images/sub-destinations/galilee/mount-arbel.jpg": {
+    "src": "/images/sub-destinations/galilee/mount-arbel.jpg",
+    "author": "שלמה רודד",
+    "license": "CC BY 2.5",
+    "licenseProof": "https://creativecommons.org/licenses/by/2.5",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:130280_the_arbel_cliff_west_of_the_sea_of_galilee_-_viewe_PikiWiki_Israel.jpg",
+    "query": "Mount Arbel cliff Sea of Galilee"
+  },
+  "/images/sub-destinations/galilee/mount-of-beatitudes.jpg": {
+    "src": "/images/sub-destinations/galilee/mount-of-beatitudes.jpg",
+    "author": "Obendorf",
+    "license": "CC0",
+    "licenseProof": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:View_of_the_Sea_of_Galilee_from_the_Mount_of_the_Beatitudes.jpg",
+    "query": "Mount of Beatitudes church Galilee"
+  },
+  "/images/sub-destinations/galilee/tiberias.jpg": {
+    "src": "/images/sub-destinations/galilee/tiberias.jpg",
+    "author": "geagea",
+    "license": "CC BY 3.0",
+    "licenseProof": "https://creativecommons.org/licenses/by/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:View_of_Yigal_Allon_promenade_from_the_Sea_of_Galilee.JPG",
+    "query": "Tiberias Sea of Galilee promenade"
+  },
+  "/images/sub-destinations/galilee/yardenit.jpg": {
+    "src": "/images/sub-destinations/galilee/yardenit.jpg",
+    "author": "Bogdan Kosar",
+    "license": "CC BY-SA 4.0",
+    "licenseProof": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:The_Yardenit_Baptismal_Site._Israel..jpg",
+    "query": "Yardenit baptismal site Jordan River"
+  },
+  "/images/sub-destinations/golan/banias.jpg": {
+    "src": "/images/sub-destinations/golan/banias.jpg",
+    "author": "NahumDam at English Wikipedia",
+    "license": "Public domain",
+    "licenseProof": "",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Banias_Waterfall,_Golan_Heights.jpg",
+    "query": "Banias waterfall Golan Heights"
+  },
+  "/images/sub-destinations/golan/druze-villages.jpg": {
+    "src": "/images/sub-destinations/golan/druze-villages.jpg",
+    "author": "Wilson44691",
+    "license": "Public domain",
+    "licenseProof": "",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:MajdalShamsMay2009.jpg",
+    "query": "Druze village Golan Heights"
+  },
+  "/images/sub-destinations/golan/mount-bental.jpg": {
+    "src": "/images/sub-destinations/golan/mount-bental.jpg",
+    "author": "ישראל פרקר",
+    "license": "CC BY 2.5",
+    "licenseProof": "https://creativecommons.org/licenses/by/2.5",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:99370_mount_bental_-_golan_heights_PikiWiki_Israel.jpg",
+    "query": "Mount Bental Golan Heights view"
+  },
+  "/images/sub-destinations/golan/mount-hermon.jpg": {
+    "src": "/images/sub-destinations/golan/mount-hermon.jpg",
+    "author": "Someone35",
+    "license": "CC BY-SA 3.0",
+    "licenseProof": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Snow_in_mount_hermon,_Golan_Heights.jpg",
+    "query": "Mount Hermon Golan snow"
+  },
+  "/images/sub-destinations/golan/nimrod-fortress.jpg": {
+    "src": "/images/sub-destinations/golan/nimrod-fortress.jpg",
+    "author": "Frischoffn",
+    "license": "CC BY-SA 3.0",
+    "licenseProof": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Window_to_Nimrod.JPG",
+    "query": "Nimrod Fortress Golan Heights"
+  },
+  "/images/sub-destinations/haifa/bahai-gardens.jpg": {
+    "src": "/images/sub-destinations/haifa/bahai-gardens.jpg",
+    "author": "Dani Lavi 0007",
+    "license": "CC BY-SA 4.0",
+    "licenseProof": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bahai_Garden_in_Haifa_Israel.jpg",
+    "query": "Bahai Gardens Haifa terraces"
+  },
+  "/images/sub-destinations/haifa/carmel-national-park.jpg": {
+    "src": "/images/sub-destinations/haifa/carmel-national-park.jpg",
+    "author": "Chenspec",
+    "license": "CC BY-SA 4.0",
+    "licenseProof": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:%D7%A4%D7%90%D7%A8%D7%A7_%D7%94%D7%9B%D7%A8%D7%9E%D7%9C_4_-_%D7%92%D7%A0%D7%99%D7%9D_%D7%9C%D7%90%D7%95%D7%9E%D7%99%D7%99%D7%9D_%D7%91%D7%A6%D7%A4%D7%95%D7%9F_%D7%94%D7%90%D7%A8%D7%A5_-_%D7%90%D7%AA%D7%A8%D7%99_%D7%9E%D7%95%D7%A8%D7%A9%D7%AA_2016_(493).jpg",
+    "query": "Mount Carmel national park Haifa"
+  },
+  "/images/sub-destinations/haifa/german-colony.jpg": {
+    "src": "/images/sub-destinations/haifa/german-colony.jpg",
+    "author": "שועל",
+    "license": "CC BY-SA 3.0",
+    "licenseProof": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Haifa,_German_Colony_-_Ben_Gurion_No.30.jpg",
+    "query": "German Colony Haifa Ben Gurion street"
+  },
+  "/images/sub-destinations/haifa/stella-maris.jpg": {
+    "src": "/images/sub-destinations/haifa/stella-maris.jpg",
+    "author": "Dan Palraz",
+    "license": "CC BY-SA 4.0",
+    "licenseProof": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Stella_Maris_Monastery,_Haifa.jpg",
+    "query": "Stella Maris monastery Haifa"
+  },
+  "/images/sub-destinations/haifa/wadi-nisnas.jpg": {
+    "src": "/images/sub-destinations/haifa/wadi-nisnas.jpg",
+    "author": "udi Steinwell",
+    "license": "CC BY 2.5",
+    "licenseProof": "https://creativecommons.org/licenses/by/2.5",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:PikiWiki_Israel_28430_Cities_in_Israel.JPG",
+    "query": "Wadi Nisnas Haifa market"
+  },
+  "/images/sub-destinations/nazareth/basilica-of-the-annunciation.jpg": {
+    "src": "/images/sub-destinations/nazareth/basilica-of-the-annunciation.jpg",
+    "author": "Oren Rozen",
+    "license": "CC BY-SA 3.0",
+    "licenseProof": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Basilica_of_the_Annunciation_Nazareth_290314_06.jpg",
+    "query": "Basilica of the Annunciation Nazareth"
+  },
+  "/images/sub-destinations/nazareth/marys-well.jpg": {
+    "src": "/images/sub-destinations/nazareth/marys-well.jpg",
+    "author": "Daniel B. Shepp",
+    "license": "Public domain",
+    "licenseProof": "",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Nazareth._Churh_of_the_Annunciation_(interior),_XX._86.Holy_land_photographed._Daniel_B._Shepp._1894.jpg",
+    "query": "Marys Well Nazareth church"
+  },
+  "/images/sub-destinations/nazareth/old-city.jpg": {
+    "src": "/images/sub-destinations/nazareth/old-city.jpg",
+    "author": "Juandev",
+    "license": "CC BY-SA 3.0",
+    "licenseProof": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Nazareth,_Old_City,_market.JPG",
+    "query": "Nazareth old city market"
+  },
+  "/images/sub-destinations/negev/bedouin-hospitality.jpg": {
+    "src": "/images/sub-destinations/negev/bedouin-hospitality.jpg",
+    "author": "שלמה רודד",
+    "license": "CC BY 2.5",
+    "licenseProof": "https://creativecommons.org/licenses/by/2.5",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:111746_bedouin_food_in_the_ramat_negev_PikiWiki_Israel.jpg",
+    "query": "Bedouin tent Negev desert"
+  },
+  "/images/sub-destinations/negev/ein-avdat.jpg": {
+    "src": "/images/sub-destinations/negev/ein-avdat.jpg",
+    "author": "רוני קניגסברג",
+    "license": "CC BY 2.5",
+    "licenseProof": "https://creativecommons.org/licenses/by/2.5",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:140474_ein_avdat_PikiWiki_Israel.jpg",
+    "query": "Ein Avdat canyon spring Negev"
+  },
+  "/images/sub-destinations/negev/mitzpe-ramon.jpg": {
+    "src": "/images/sub-destinations/negev/mitzpe-ramon.jpg",
+    "author": "Godot13",
+    "license": "CC BY-SA 4.0",
+    "licenseProof": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:ISR-2016-Makhtesh_Ramon-Ibex_02.jpg",
+    "query": "Makhtesh Ramon crater Mitzpe Ramon"
+  },
+  "/images/sub-destinations/negev/sde-boker.jpg": {
+    "src": "/images/sub-destinations/negev/sde-boker.jpg",
+    "author": "COHEN FRITZ",
+    "license": "Public domain",
+    "licenseProof": "",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:David_Ben-Gurion_Na%D7%99al_Zin_D684-075.jpg",
+    "query": "Sde Boker Ben Gurion Negev"
+  },
+  "/images/sub-destinations/tel-aviv/carmel-market.jpg": {
+    "src": "/images/sub-destinations/tel-aviv/carmel-market.jpg",
+    "author": "Rakoon",
+    "license": "CC0",
+    "licenseProof": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:20171129-130948-tel-aviv-carmel-market-thai-food.jpg",
+    "query": "Carmel Market Tel Aviv"
+  },
+  "/images/sub-destinations/tel-aviv/florentin.jpg": {
+    "src": "/images/sub-destinations/tel-aviv/florentin.jpg",
+    "author": "Nizzan Cohen",
+    "license": "CC BY 4.0",
+    "licenseProof": "https://creativecommons.org/licenses/by/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Pet_shop_street_art_in_Florentin_street_Tel_Aviv.jpg",
+    "query": "Florentin Tel Aviv street art"
+  },
+  "/images/sub-destinations/tel-aviv/neve-tzedek.jpg": {
+    "src": "/images/sub-destinations/tel-aviv/neve-tzedek.jpg",
+    "author": "Radosław Botev",
+    "license": "CC BY 3.0 pl",
+    "licenseProof": "https://creativecommons.org/licenses/by/3.0/pl/deed.en",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Neve_Tzedek_Tel_Aviv_(2).jpg",
+    "query": "Neve Tzedek Tel Aviv"
+  },
+  "/images/sub-destinations/tel-aviv/old-jaffa.jpg": {
+    "src": "/images/sub-destinations/tel-aviv/old-jaffa.jpg",
+    "author": "Godot13",
+    "license": "CC BY-SA 4.0",
+    "licenseProof": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:ISR-2013-Aerial-Jaffa-Port_of_Jaffa.jpg",
+    "query": "Old Jaffa port Tel Aviv"
+  },
+  "/images/sub-destinations/tel-aviv/rothschild.jpg": {
+    "src": "/images/sub-destinations/tel-aviv/rothschild.jpg",
+    "author": "David Shankbone",
+    "license": "CC BY-SA 3.0",
+    "licenseProof": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:69_Rothschild_Boulevard_by_David_Shankbone.jpg",
+    "query": "Rothschild Boulevard Tel Aviv Bauhaus"
+  },
+  "/images/sub-destinations/tel-aviv/tayelet.jpg": {
+    "src": "/images/sub-destinations/tel-aviv/tayelet.jpg",
+    "author": "FLASHPACKER TRAVELGUIDE",
+    "license": "CC BY-SA 2.0",
+    "licenseProof": "https://creativecommons.org/licenses/by-sa/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tel_Aviv_Tayelet-Strand-Promenade_Beach_(34257299744).jpg",
+    "query": "Tel Aviv beach promenade tayelet"
+  },
+  "/images/sub-destinations/tel-aviv/tel-aviv-museum.jpg": {
+    "src": "/images/sub-destinations/tel-aviv/tel-aviv-museum.jpg",
+    "author": "Yair Haklai",
+    "license": "CC BY-SA 3.0",
+    "licenseProof": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Herta_and_Paul_Amir_Building-Tel_Aviv_Museum_of_Art-2.jpg",
+    "query": "Tel Aviv Museum of Art building"
+  },
+  "/images/sub-destinations/dead-sea/mineral-beach.jpg": {
+    "src": "/images/sub-destinations/dead-sea/mineral-beach.jpg",
+    "author": "Jan Helebrant",
+    "license": "CC0",
+    "licenseProof": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:2010-06-17_14-43-40_Israel_Dead_Sea_JH_(52794253055).jpg",
+    "query": "Dead Sea salt formations shore"
+  },
+  "/images/sub-destinations/dead-sea/qumran.jpg": {
+    "src": "/images/sub-destinations/dead-sea/qumran.jpg",
+    "author": "Mustang Joe",
+    "license": "CC0",
+    "licenseProof": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Qumran_National_Park,_Israel_(53722211982).jpg",
+    "query": "Qumran National Park Israel"
+  },
+  "/images/sub-destinations/nazareth/mount-of-precipice.jpg": {
+    "src": "/images/sub-destinations/nazareth/mount-of-precipice.jpg",
+    "author": "Boris Carmi",
+    "license": "CC BY 4.0",
+    "licenseProof": "https://creativecommons.org/licenses/by/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Jezreel_Valley_(997009324463505171.jpg",
+    "query": "Jezreel Valley view Israel"
+  },
+  "/images/sub-destinations/negev/avdat.jpg": {
+    "src": "/images/sub-destinations/negev/avdat.jpg",
+    "author": "Godot13",
+    "license": "CC BY-SA 4.0",
+    "licenseProof": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Israel-2013-Avdat_04.jpg",
+    "query": "Avdat Israel ancient"
+  },
+  "/images/sub-destinations/eilat/coral-beach.jpg": {
+    "src": "/images/sub-destinations/eilat/coral-beach.jpg",
+    "author": "Mboesch",
+    "license": "CC BY-SA 4.0",
+    "licenseProof": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Eilat-coral-beach-reserve-a.JPG",
+    "query": "Eilat Coral Reserve"
   }
 }

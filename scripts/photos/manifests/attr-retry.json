@@ -1,0 +1,4 @@
+[
+  { "outPath": "public/images/sub-destinations/eilat/coral-beach.jpg", "query": "Eilat Coral Reserve", "width": 1920, "crop": { "w": 1600, "h": 1000 } },
+  { "outPath": "public/images/sub-destinations/dead-sea/mineral-beach.jpg", "query": "Dead Sea salt formations shore", "width": 1920, "crop": { "w": 1600, "h": 1000 } }
+]

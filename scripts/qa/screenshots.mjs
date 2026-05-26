@@ -35,7 +35,14 @@ for (const p of paths) {
     });
     const page = await ctx.newPage();
     const url = new URL(p, BASE).href;
-    await page.goto(url, { waitUntil: 'networkidle', timeout: 30000 });
+    // domcontentloaded, not load/networkidle: external embeds (Stay22) with a
+    // placeholder ID never fire load, which would stall the page. Tolerate a
+    // goto timeout and screenshot whatever rendered.
+    try {
+      await page.goto(url, { waitUntil: 'domcontentloaded', timeout: 20000 });
+    } catch {
+      /* proceed to screenshot what loaded */
+    }
     // Scroll the full page in steps so loading="lazy" images enter the
     // viewport and decode before the full-page capture.
     await page.evaluate(async () => {
