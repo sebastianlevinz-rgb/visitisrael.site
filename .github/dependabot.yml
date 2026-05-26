@@ -1,5 +1,8 @@
 version: 2
 updates:
+  # npm — the Astro stack (post-rebuild). Next.js / React / Vitest / ESLint
+  # were removed when the site was rebuilt as an Astro SSG, so those groups
+  # are gone.
   - package-ecosystem: npm
     directory: /
     schedule:
@@ -16,30 +19,24 @@ updates:
       prefix: chore
       include: scope
     groups:
-      next-ecosystem:
+      astro:
         patterns:
-          - 'next'
-          - '@next/*'
-          - 'next-*'
-      react-ecosystem:
-        patterns:
-          - 'react'
-          - 'react-dom'
-          - '@types/react'
-          - '@types/react-dom'
-      tailwind-ecosystem:
+          - 'astro'
+          - '@astrojs/*'
+      tailwind:
         patterns:
           - 'tailwindcss'
           - '@tailwindcss/*'
-      eslint-ecosystem:
+      fonts:
         patterns:
-          - 'eslint'
-          - 'eslint-*'
-          - '@typescript-eslint/*'
-      vitest-ecosystem:
+          - '@fontsource/*'
+          - '@fontsource-variable/*'
+      dev-tooling:
         patterns:
-          - 'vitest'
-          - '@vitest/*'
+          - 'prettier'
+          - 'prettier-*'
+          - 'typescript'
+          - '@playwright/test'
 
   - package-ecosystem: github-actions
     directory: /
