@@ -1,0 +1,72 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '@/layouts/BaseLayout.astro';
+import Hero from '@/components/Hero.astro';
+import Breadcrumbs from '@/components/Breadcrumbs.astro';
+
+const itineraries = (await getCollection('itineraries')).sort(
+  (a, b) => (a.data.days ?? 0) - (b.data.days ?? 0),
+);
+const title = 'Israel Itineraries: 3, 5, 7 & 10-Day Routes';
+const description =
+  'Ready-made Israel travel itineraries for every trip length — from a focused 3 days in Jerusalem to a classic week and beyond, with tours, hotels and transport.';
+const crumbs = [
+  { name: 'Home', path: '/' },
+  { name: 'Itineraries', path: '/itineraries' },
+];
+---
+
+<BaseLayout title={title} description={description} path="/itineraries">
+  <Hero
+    image="/images/regions/jerusalem/hero.jpg"
+    title="Israel Itineraries"
+    subtitle="Day-by-day routes for first-time visitors and return trips."
+    alt="Jerusalem Old City — start of many Israel itineraries"
+  />
+  <Breadcrumbs items={crumbs} />
+
+  <section class="mx-auto max-w-6xl px-4 pt-10">
+    <p class="mx-auto max-w-3xl text-lg leading-relaxed text-ink">
+      Not sure how to string Israel together? These itineraries do the routing for
+      you — each balances the must-see sights with realistic travel times, and links
+      straight to the tours, hotels and transport you'll need.
+    </p>
+
+    <div class="mt-8 grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-3">
+      {
+        itineraries.map((it) => (
+          <a
+            href={`/itineraries/${it.id}`}
+            class="group relative block aspect-[3/2] overflow-hidden rounded-card shadow-card transition-shadow hover:shadow-card-hover"
+          >
+            <img
+              src={it.data.heroImage ?? '/images/regions/jerusalem/hero.jpg'}
+              alt={it.data.title}
+              width="800"
+              height="533"
+              loading="lazy"
+              class="absolute inset-0 h-full w-full object-cover transition-transform duration-500 group-hover:scale-105"
+            />
+            <div class="photo-overlay absolute inset-0" />
+            <div class="absolute inset-x-0 bottom-0 p-5">
+              {it.data.days && (
+                <span class="photo-title text-xs font-semibold uppercase tracking-widest opacity-90">
+                  {it.data.days} days
+                </span>
+              )}
+              <h2 class="photo-title mt-1 font-display text-xl font-bold leading-tight">
+                {it.data.title}
+              </h2>
+            </div>
+          </a>
+        ))
+      }
+    </div>
+
+    <p class="mx-auto mt-8 max-w-3xl text-ink-muted">
+      More routes are being added regularly. In the meantime, browse the
+      <a href="/" class="font-semibold text-primary">11 regions</a> or start with our
+      <a href="/first-time-in-israel" class="font-semibold text-primary">first-time guide</a>.
+    </p>
+  </section>
+</BaseLayout>

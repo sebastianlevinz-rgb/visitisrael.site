@@ -1,0 +1,58 @@
+---
+import { getCollection, render } from 'astro:content';
+import BaseLayout from '@/layouts/BaseLayout.astro';
+import Hero from '@/components/Hero.astro';
+import Breadcrumbs from '@/components/Breadcrumbs.astro';
+import AuthorByline from '@/components/AuthorByline.astro';
+import AffiliateCard from '@/components/AffiliateCard.astro';
+import FaqSection from '@/components/FaqSection.astro';
+import JsonLd from '@/components/JsonLd.astro';
+import { defaultAuthor } from '@/data/authors';
+import { article, breadcrumbList } from '@/lib/schema';
+
+export async function getStaticPaths() {
+  const itineraries = await getCollection('itineraries');
+  return itineraries.map((entry) => ({ params: { slug: entry.id }, props: { entry } }));
+}
+
+const { entry } = Astro.props;
+const { Content } = await render(entry);
+const d = entry.data;
+const hero = d.heroImage ?? '/images/regions/jerusalem/hero.jpg';
+const path = `/itineraries/${entry.id}`;
+const crumbs = [
+  { name: 'Home', path: '/' },
+  { name: 'Itineraries', path: '/itineraries' },
+  { name: d.title, path },
+];
+const tours = [
+  { partner: 'getyourguide' as const, title: 'Jerusalem Old City Tour', description: 'Walk the four quarters and the holy sites with a local guide.', image: '/images/regions/jerusalem/hero.jpg', query: 'Jerusalem Old City tour', priceFrom: 39, rating: 4.8, reviews: 5120 },
+  { partner: 'viator' as const, title: 'Masada & Dead Sea Day Trip', description: 'Sunrise at Masada and a float in the Dead Sea.', image: '/images/regions/dead-sea/hero.jpg', query: 'Masada Dead Sea day trip', priceFrom: 95, rating: 4.7, reviews: 3380 },
+  { partner: 'civitatis' as const, title: 'Tel Aviv & Jaffa Food Tour', description: 'Graze the Carmel Market and Old Jaffa with a foodie guide.', image: '/images/regions/tel-aviv/hero.jpg', query: 'Tel Aviv Jaffa food tour', priceFrom: 79, rating: 4.9, reviews: 1840 },
+];
+const schema = [
+  article({ headline: d.title, description: d.description, image: hero, path, authorName: defaultAuthor.name, authorUrl: defaultAuthor.url, datePublished: d.publishedAt, dateModified: d.updatedAt }),
+  breadcrumbList(crumbs),
+];
+---
+
+<BaseLayout title={d.title} description={d.description} path={path} image={hero}>
+  <JsonLd slot="head" schema={schema} />
+  <Hero image={hero} title={d.title} subtitle={d.days ? `${d.days}-day itinerary` : undefined} alt={d.title} />
+  <Breadcrumbs items={crumbs} />
+  <AuthorByline updated={d.updatedAt} />
+
+  <article class="prose-content mx-auto max-w-3xl px-4 pt-4">
+    <Content />
+  </article>
+
+  <section class="mx-auto max-w-6xl px-4 pt-10" aria-labelledby="book">
+    <h2 id="book" class="mb-5 font-display text-3xl font-bold text-ink">Book the key experiences</h2>
+    <div class="grid grid-cols-1 gap-5 sm:grid-cols-3">
+      {tours.map((t) => <AffiliateCard {...t} />)}
+    </div>
+  </section>
+
+  <FaqSection faqs={d.faqs ?? []} />
+  <AuthorByline updated={d.updatedAt} />
+</BaseLayout>

@@ -1,0 +1,71 @@
+---
+import { getCollection, render } from 'astro:content';
+import BaseLayout from '@/layouts/BaseLayout.astro';
+import Hero from '@/components/Hero.astro';
+import Breadcrumbs from '@/components/Breadcrumbs.astro';
+import AuthorByline from '@/components/AuthorByline.astro';
+import FaqSection from '@/components/FaqSection.astro';
+import JsonLd from '@/components/JsonLd.astro';
+import { defaultAuthor } from '@/data/authors';
+import { article, breadcrumbList } from '@/lib/schema';
+
+export async function getStaticPaths() {
+  const guides = await getCollection('guides');
+  const legal = await getCollection('legal');
+  return [
+    ...guides.map((entry) => ({ params: { slug: entry.id }, props: { entry, kind: 'guide' as const } })),
+    ...legal.map((entry) => ({ params: { slug: entry.id }, props: { entry, kind: 'legal' as const } })),
+  ];
+}
+
+const { entry, kind } = Astro.props;
+const { Content } = await render(entry);
+const data: any = entry.data;
+const path = `/${entry.id}`;
+const hero = data.heroImage as string | undefined;
+const faqs = data.faqs ?? [];
+const crumbs = [
+  { name: 'Home', path: '/' },
+  ...(kind === 'guide' ? [{ name: 'Plan your trip', path: '/plan-your-trip' }] : []),
+  { name: data.title, path },
+];
+
+const schema = [
+  article({
+    headline: data.title,
+    description: data.description ?? data.title,
+    image: hero ?? '/images/regions/jerusalem/hero.jpg',
+    path,
+    authorName: defaultAuthor.name,
+    authorUrl: defaultAuthor.url,
+    dateModified: data.updatedAt,
+  }),
+  breadcrumbList(crumbs),
+];
+---
+
+<BaseLayout title={data.title} description={data.description ?? data.title} path={path} image={hero}>
+  <JsonLd slot="head" schema={schema} />
+
+  {
+    hero ? (
+      <Hero image={hero} title={data.title} alt={data.title} />
+    ) : (
+      <header class="bg-sand-deep">
+        <div class="mx-auto max-w-3xl px-4 py-12">
+          <h1 class="font-display text-4xl font-bold text-ink">{data.title}</h1>
+        </div>
+      </header>
+    )
+  }
+
+  <Breadcrumbs items={crumbs} />
+  <AuthorByline updated={data.updatedAt} />
+
+  <article class="prose-content mx-auto max-w-3xl px-4 pt-4">
+    <Content />
+  </article>
+
+  <FaqSection faqs={faqs} />
+  <AuthorByline updated={data.updatedAt} />
+</BaseLayout>

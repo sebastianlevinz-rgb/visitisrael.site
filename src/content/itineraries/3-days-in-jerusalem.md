@@ -9,7 +9,8 @@ durationDays: 3
 regions:
   - jerusalem
 startRegion: jerusalem
-heroImage: /images/itineraries/jerusalem/3-days-in-jerusalem.jpg
+heroImage: /images/regions/jerusalem/hero.jpg
+days: 3
 primaryKeyword: 3 days in jerusalem
 secondaryKeywords:
   - jerusalem 3 day itinerary

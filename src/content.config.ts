@@ -62,4 +62,16 @@ const legal = defineCollection({
   }),
 });
 
-export const collections = { regions, attractions, itineraries, legal };
+const guides = defineCollection({
+  loader: glob({ pattern: '*.md', base: './src/content/guides' }),
+  schema: z.object({
+    title: z.string(),
+    description: z.string(),
+    heroImage: z.string().optional(),
+    category: z.string().optional(),
+    updatedAt: z.coerce.date().optional(),
+    faqs: z.array(faq).optional(),
+  }),
+});
+
+export const collections = { regions, attractions, itineraries, legal, guides };

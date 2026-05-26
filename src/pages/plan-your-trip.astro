@@ -1,0 +1,65 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '@/layouts/BaseLayout.astro';
+import Hero from '@/components/Hero.astro';
+import Breadcrumbs from '@/components/Breadcrumbs.astro';
+import DestinationCard from '@/components/DestinationCard.astro';
+import { REGIONS } from '@/data/regions';
+
+const guides = await getCollection('guides');
+const title = 'Plan Your Trip to Israel: Guides, Itineraries & Regions';
+const description =
+  'Everything you need to plan a trip to Israel in one place: practical guides, ready-made itineraries and in-depth guides to all 11 regions.';
+const crumbs = [
+  { name: 'Home', path: '/' },
+  { name: 'Plan your trip', path: '/plan-your-trip' },
+];
+---
+
+<BaseLayout title={title} description={description} path="/plan-your-trip">
+  <Hero
+    image="/images/regions/tel-aviv/hero.jpg"
+    title="Plan Your Trip"
+    subtitle="Practical guides, itineraries and the 11 regions — start here."
+    alt="Tel Aviv seafront — planning a trip to Israel"
+  />
+  <Breadcrumbs items={crumbs} />
+
+  <section class="mx-auto max-w-6xl px-4 pt-10" aria-labelledby="guides">
+    <h2 id="guides" class="mb-5 font-display text-3xl font-bold text-ink">Practical guides</h2>
+    <div class="grid grid-cols-2 gap-4 sm:grid-cols-3 lg:grid-cols-4">
+      {
+        guides.map((g) => (
+          <a
+            href={`/${g.id}`}
+            class="rounded-card border border-border bg-card p-5 no-underline shadow-card transition-shadow hover:shadow-card-hover"
+          >
+            {g.data.category && (
+              <span class="text-xs font-semibold uppercase tracking-wide text-primary">
+                {g.data.category}
+              </span>
+            )}
+            <h3 class="mt-1 font-display text-base font-bold leading-snug text-ink">
+              {g.data.title.split(':')[0]}
+            </h3>
+          </a>
+        ))
+      }
+    </div>
+  </section>
+
+  <section class="mx-auto max-w-6xl px-4 pt-12" aria-labelledby="plan-itineraries">
+    <h2 id="plan-itineraries" class="mb-3 font-display text-3xl font-bold text-ink">Itineraries</h2>
+    <p class="text-ink-muted">
+      Ready-made routes from 3 days to a full week —
+      <a href="/itineraries" class="font-semibold text-primary">browse all itineraries →</a>
+    </p>
+  </section>
+
+  <section class="mx-auto max-w-6xl px-4 pt-12" aria-labelledby="plan-regions">
+    <h2 id="plan-regions" class="mb-5 font-display text-3xl font-bold text-ink">The 11 regions</h2>
+    <div class="grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-3">
+      {REGIONS.map((r) => <DestinationCard region={r} />)}
+    </div>
+  </section>
+</BaseLayout>
