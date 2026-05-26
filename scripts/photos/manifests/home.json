@@ -1,0 +1,13 @@
+[
+  { "outPath": "public/images/regions/jerusalem/hero.jpg", "query": "Jerusalem Old City aerial view Temple Mount", "width": 1920, "crop": { "w": 1600, "h": 1000 } },
+  { "outPath": "public/images/regions/tel-aviv/hero.jpg", "query": "Tel Aviv Israel city beach", "width": 1920, "crop": { "w": 1600, "h": 1000 } },
+  { "outPath": "public/images/regions/dead-sea/hero.jpg", "query": "Dead Sea Israel shoreline salt", "width": 1920, "crop": { "w": 1600, "h": 1000 } },
+  { "outPath": "public/images/regions/galilee/hero.jpg", "query": "Sea of Galilee landscape Israel", "width": 1920, "crop": { "w": 1600, "h": 1000 } },
+  { "outPath": "public/images/regions/eilat/hero.jpg", "query": "Eilat Israel Red Sea bay city", "width": 1920, "crop": { "w": 1600, "h": 1000 } },
+  { "outPath": "public/images/regions/negev/hero.jpg", "query": "Makhtesh Ramon crater Negev desert", "width": 1920, "crop": { "w": 1600, "h": 1000 } },
+  { "outPath": "public/images/regions/nazareth/hero.jpg", "query": "Basilica of the Annunciation Nazareth", "width": 1920, "crop": { "w": 1600, "h": 1000 } },
+  { "outPath": "public/images/regions/haifa/hero.jpg", "query": "Bahai Gardens Haifa terraces", "width": 1920, "crop": { "w": 1600, "h": 1000 } },
+  { "outPath": "public/images/regions/golan-heights/hero.jpg", "query": "Golan Heights Israel vineyard landscape", "width": 1920, "crop": { "w": 1600, "h": 1000 } },
+  { "outPath": "public/images/regions/caesarea/hero.jpg", "query": "Caesarea National Park Israel ruins", "width": 1920, "crop": { "w": 1600, "h": 1000 } },
+  { "outPath": "public/images/regions/akko/hero.jpg", "query": "Acre Akko old city port Israel", "width": 1920, "crop": { "w": 1600, "h": 1000 } }
+]

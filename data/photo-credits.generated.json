@@ -1,0 +1,90 @@
+{
+  "/images/regions/jerusalem/hero.jpg": {
+    "src": "/images/regions/jerusalem/hero.jpg",
+    "author": "Godot13",
+    "license": "CC BY-SA 4.0",
+    "licenseProof": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Jerusalem-2013(2)-Aerial-Temple_Mount-(south_exposure).jpg",
+    "query": "Jerusalem Old City aerial view Temple Mount"
+  },
+  "/images/regions/dead-sea/hero.jpg": {
+    "src": "/images/regions/dead-sea/hero.jpg",
+    "author": "C26.AI",
+    "license": "CC BY 4.0",
+    "licenseProof": "https://creativecommons.org/licenses/by/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Dead_Sea_Halite_Terraces_and_Salt_Crust_Formations_02.jpg",
+    "query": "Dead Sea Israel shoreline salt"
+  },
+  "/images/regions/galilee/hero.jpg": {
+    "src": "/images/regions/galilee/hero.jpg",
+    "author": "Adam Jones from Kelowna, BC, Canada",
+    "license": "CC BY-SA 2.0",
+    "licenseProof": "https://creativecommons.org/licenses/by-sa/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Landscape_with_Lake_Kinnaret_(Sea_of_Galilee)_in_Distance_-_From_Golan_Heights_(5710776912).jpg",
+    "query": "Sea of Galilee landscape Israel"
+  },
+  "/images/regions/eilat/hero.jpg": {
+    "src": "/images/regions/eilat/hero.jpg",
+    "author": "Yigal Dekel",
+    "license": "CC BY-SA 4.0",
+    "licenseProof": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Eilat_night_hotels_2016.jpg",
+    "query": "Eilat hotels Israel"
+  },
+  "/images/regions/negev/hero.jpg": {
+    "src": "/images/regions/negev/hero.jpg",
+    "author": "Godot13",
+    "license": "CC BY-SA 4.0",
+    "licenseProof": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:ISR-2016-Makhtesh_Ramon-Ibex_02.jpg",
+    "query": "Makhtesh Ramon crater Negev desert"
+  },
+  "/images/regions/nazareth/hero.jpg": {
+    "src": "/images/regions/nazareth/hero.jpg",
+    "author": "Oren Rozen",
+    "license": "CC BY-SA 3.0",
+    "licenseProof": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Basilica_of_the_Annunciation_Nazareth_290314_06.jpg",
+    "query": "Basilica of the Annunciation Nazareth"
+  },
+  "/images/regions/haifa/hero.jpg": {
+    "src": "/images/regions/haifa/hero.jpg",
+    "author": "Dani Lavi 0007",
+    "license": "CC BY-SA 4.0",
+    "licenseProof": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bahai_Garden_in_Haifa_Israel.jpg",
+    "query": "Bahai Gardens Haifa terraces"
+  },
+  "/images/regions/golan-heights/hero.jpg": {
+    "src": "/images/regions/golan-heights/hero.jpg",
+    "author": "Frischoffn",
+    "license": "CC BY-SA 3.0",
+    "licenseProof": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Window_to_Nimrod.JPG",
+    "query": "Nimrod Fortress Golan Heights Israel"
+  },
+  "/images/regions/akko/hero.jpg": {
+    "src": "/images/regions/akko/hero.jpg",
+    "author": ". Ray in Manila",
+    "license": "CC BY 2.0",
+    "licenseProof": "https://creativecommons.org/licenses/by/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:The_Old_City_of_Acre,_Israel.jpg",
+    "query": "Acre Akko old city port Israel"
+  },
+  "/images/regions/tel-aviv/hero.jpg": {
+    "src": "/images/regions/tel-aviv/hero.jpg",
+    "author": "Unknown authorUnknown author",
+    "license": "Public domain",
+    "licenseProof": "",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:PikiWiki_Israel_46887_Tel_Aviv_beach_promenade.jpg",
+    "query": "Tel Aviv Israel city beach"
+  },
+  "/images/regions/caesarea/hero.jpg": {
+    "src": "/images/regions/caesarea/hero.jpg",
+    "author": "Mohammad Shad Siddiqui",
+    "license": "CC BY-SA 4.0",
+    "licenseProof": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Caesarea_national_park_is_located_almost_half_way_between_Tel_Aviv_and_Haifa._It_has_amazing_ancient_harbor_ruins,_beautiful_beaches,_impressive_restaurants_and_modern_residences._(16).jpg",
+    "query": "Caesarea National Park Israel ruins"
+  }
+}

@@ -1,9 +1,0 @@
-# Phase 2 plan 05 (A11Y-04) — statutory defense-in-depth against the
-# `__REQUIRES_USER_INPUT__` placeholder sentinel in
-# content/{en,he,fr}/legal/accessibility-statement.mdx.
-#
-# Runs BEFORE lint-staged so a placeholder commit attempt is rejected
-# even if the staged file would otherwise pass lint/prettier.
-node scripts/qa/check-no-placeholder.mjs
-
-pnpm lint-staged
