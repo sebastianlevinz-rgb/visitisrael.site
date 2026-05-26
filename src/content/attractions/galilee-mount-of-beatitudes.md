@@ -1,6 +1,6 @@
 ---
 lang: en
-title: 'Mount of Beatitudes: Visitor Guide to the Sermon on the Mount Site'
+title: 'Mount of Beatitudes: Sermon on the Mount Guide'
 description: 'Visit the Mount of Beatitudes overlooking the Sea of Galilee — the octagonal Catholic church, Sermon on the Mount tradition, hours, dress code and tours.'
 slug: galilee-mount-of-beatitudes
 region: galilee

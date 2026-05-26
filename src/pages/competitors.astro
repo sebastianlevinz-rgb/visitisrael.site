@@ -37,9 +37,12 @@ const findings = [
   { gap: 'Travel insurance', source: 'Lonely Planet (insurance guides)', status: 'closed', page: '/israel-travel-insurance', partner: 'SafetyWing' },
   { gap: 'eSIM / connectivity', source: 'Lonely Planet + a whole eSIM-comparison niche', status: 'closed', page: '/israel-esim', partner: 'Airalo' },
   { gap: 'Best tours & skip-the-line tickets hub', source: 'Tourist Israel, GetYourGuide', status: 'closed', page: '/best-tours-in-israel', partner: 'GetYourGuide, Viator, Tiqets' },
-  { gap: 'Restaurant / bar / nightlife “best of” listicles', source: 'Secret Tel Aviv', status: 'open', page: '', partner: 'food tours (GYG/Civitatis)' },
-  { gap: 'Events & festivals calendar', source: 'Secret Tel Aviv', status: 'open', page: '', partner: 'tickets/tours' },
-  { gap: 'Day-trips-from hubs + private/luxury packages page', source: 'Tourist Israel', status: 'open', page: '', partner: 'TourRadar, Viator' },
+  { gap: 'Tel Aviv food guide', source: 'Secret Tel Aviv', status: 'closed', page: '/tel-aviv-food-guide', partner: 'Civitatis, GetYourGuide (food tours)' },
+  { gap: 'Tel Aviv nightlife / bars', source: 'Secret Tel Aviv', status: 'closed', page: '/tel-aviv-nightlife', partner: 'GetYourGuide (bar tours)' },
+  { gap: 'Events & festivals calendar', source: 'Secret Tel Aviv', status: 'closed', page: '/israel-events-festivals', partner: 'Booking, GetYourGuide' },
+  { gap: 'Day trips from Jerusalem hub', source: 'Tourist Israel', status: 'closed', page: '/day-trips-from-jerusalem', partner: 'GYG, Viator, Abraham' },
+  { gap: 'Day trips from Tel Aviv hub', source: 'Tourist Israel', status: 'closed', page: '/day-trips-from-tel-aviv', partner: 'GYG, Viator, Civitatis' },
+  { gap: 'Private & luxury tours', source: 'Tourist Israel (private packages)', status: 'closed', page: '/private-tours-israel', partner: 'TourRadar, Viator' },
 ];
 ---
 
@@ -49,8 +52,8 @@ const findings = [
 
   <h2 class="mt-8 font-display text-2xl font-bold">Monetizable gap analysis</h2>
   <p class="text-ink-muted">
-    Categories competitors monetise that we studied — six now closed with dedicated
-    money pages + affiliate partners, three still open.
+    Categories competitors monetise that we studied — now all closed with dedicated
+    money pages + affiliate partners across two competitor-gap passes.
   </p>
   <div class="mt-3 overflow-x-auto rounded-card border border-border bg-card shadow-card">
     <table class="w-full text-sm">

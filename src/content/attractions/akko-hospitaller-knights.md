@@ -1,6 +1,6 @@
 ---
 lang: en
-title: "Hospitaller Knights' Halls: Akko's Underground Crusader Citadel"
+title: "Hospitaller Knights' Halls: Crusader Akko"
 description: "Visit Akko's Hospitaller Knights Halls — the underground 12th-century Crusader infirmary and citadel beneath the UNESCO Old City, restored in the 1990s."
 slug: akko-hospitaller-knights
 region: akko

@@ -1,6 +1,6 @@
 ---
 lang: en
-title: 'Druze Villages of the Golan: Majdal Shams + Masʻade Cultural Visit'
+title: 'Druze Villages of the Golan Heights: A Visit'
 description: 'Visit the Druze villages of the Golan Heights — Majdal Shams, Masʻade, Buqʻata, Ein Qiniyye — for hospitality, cuisine and respectful cultural orientation.'
 slug: golan-druze-villages
 region: golan

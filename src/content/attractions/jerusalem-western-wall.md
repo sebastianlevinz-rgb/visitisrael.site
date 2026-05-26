@@ -1,6 +1,6 @@
 ---
 lang: en
-title: "Western Wall (Kotel): Visitor's Guide to Judaism's Holiest Site"
+title: "Western Wall (Kotel): Complete Visitor Guide"
 description: 'Visit the Western Wall (Kotel) in Jerusalem: free 24-hour access, separate prayer sections, dress code, Friday-evening Shabbat services, and tunnel tours.'
 slug: jerusalem-western-wall
 region: jerusalem

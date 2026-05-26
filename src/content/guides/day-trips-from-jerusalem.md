@@ -1,0 +1,61 @@
+---
+title: 'The Best Day Trips from Jerusalem (2026)'
+description: 'The best day trips from Jerusalem: Masada & the Dead Sea, Bethlehem, Tel Aviv & Jaffa, the Galilee and more — distances, how to do them, and guided options.'
+heroImage: /images/regions/dead-sea/hero.jpg
+category: Tours
+updatedAt: 2026-05-27
+ctaHeading: 'Top day trips from Jerusalem'
+affiliateCtas:
+  - partner: getyourguide
+    title: 'Masada Sunrise & Dead Sea'
+    description: 'The classic Jerusalem day trip — dawn on Masada, the Ein Gedi oasis and a float in the Dead Sea.'
+    image: /images/sub-destinations/dead-sea/masada.jpg
+    query: Masada Dead Sea from Jerusalem
+    priceFrom: 95
+    rating: 4.7
+    reviews: 3380
+    cta: See this tour
+  - partner: viator
+    title: 'Bethlehem Half-Day Tour'
+    description: 'Cross to Bethlehem for the Church of the Nativity with a guide who handles the logistics.'
+    image: /images/regions/jerusalem/hero.jpg
+    query: Bethlehem tour from Jerusalem
+    priceFrom: 49
+    rating: 4.5
+    reviews: 1620
+    cta: See this tour
+  - partner: abraham
+    title: 'Petra from Jerusalem (2-Day)'
+    description: 'A backpacker-friendly overnight to the rose-red city of Petra in Jordan.'
+    image: /images/regions/eilat/hero.jpg
+    query: Petra from Jerusalem
+    priceFrom: 295
+    rating: 4.6
+    reviews: 540
+    cta: See this trip
+faqs:
+  - question: What is the best day trip from Jerusalem?
+    answer: 'The Masada sunrise and Dead Sea day trip is the classic and most popular — a dawn ascent of the Masada fortress, the Ein Gedi oasis, and a float in the Dead Sea, all within about 90 minutes of the city. Bethlehem and Tel Aviv/Jaffa are the other top choices.'
+  - question: Can you do Tel Aviv as a day trip from Jerusalem?
+    answer: 'Yes, easily — the high-speed train links the two cities in about 45 minutes, so you can spend a full day on the Tel Aviv beaches, in Old Jaffa and at the Carmel Market and be back for dinner.'
+  - question: How do you get to the Dead Sea from Jerusalem?
+    answer: 'It is about a 90-minute drive. An organised tour is the easiest way (it handles the pre-dawn Masada start), but buses run to Ein Gedi and Ein Bokek, and a rental car gives you full flexibility.'
+---
+
+[Jerusalem](/jerusalem) is the perfect base for day trips — the desert, the lowest point on Earth, the Mediterranean coast and even Bethlehem are all within easy reach. Here are the best, and how to do each.
+
+## The top day trips
+
+- **[Masada](/dead-sea/masada) & the [Dead Sea](/dead-sea)** — *~1.5 hrs.* The classic: sunrise on the fortress, the [Ein Gedi](/dead-sea/ein-gedi) oasis, then a float. Easiest as a guided tour.
+- **Bethlehem** — *~30 min.* The Church of the Nativity, in the West Bank; go with a guide or shared taxi (carry your passport).
+- **[Tel Aviv](/tel-aviv) & [Old Jaffa](/tel-aviv/old-jaffa)** — *~45 min by train.* Swap the stone city for the beach, [Carmel Market](/tel-aviv/carmel-market) and Bauhaus.
+- **The [Galilee](/galilee)** — *longer, ~2.5 hrs.* Big as a day; better with an early start or a tour.
+- **[Petra](/petra-from-eilat-vs-amman)** — a 2-day overnight rather than a day trip, but a bucket-list add-on.
+
+## How to do them
+
+For the desert trips, a **guided day tour** (above) removes the logistics — especially the pre-dawn Masada start. For Tel Aviv, just take the **[train](/transportation)**. For flexibility across several trips, consider **[renting a car](/car-rental-israel)** for a couple of days.
+
+## Plan your trip
+
+See the full [Jerusalem guide](/jerusalem) and the [3-day Jerusalem itinerary](/itineraries/3-days-in-jerusalem). Doing day trips the other way? See [day trips from Tel Aviv](/day-trips-from-tel-aviv). And browse all [tours and day trips](/best-tours-in-israel) or [multi-day packages](/israel-tour-packages).
