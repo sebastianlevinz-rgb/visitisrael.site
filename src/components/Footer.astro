@@ -58,7 +58,29 @@ const { year } = Astro.props;
   </div>
 
   <div class="border-t border-border">
-    <p class="mx-auto max-w-6xl px-4 py-5 text-xs text-ink-muted">
+    <div
+      class="mx-auto flex max-w-6xl flex-wrap items-center gap-x-4 gap-y-1 px-4 pt-4 text-xs text-ink-muted"
+    >
+      <span class="font-semibold uppercase tracking-wide">Internal</span>
+      {
+        [
+          { href: '/dashboard', label: 'Dashboard' },
+          { href: '/dashboard/seo', label: 'SEO Intelligence' },
+          { href: '/competitors', label: 'Competitors' },
+          { href: '/pitch', label: 'Pitch' },
+          { href: '/content-library', label: 'Content Library' },
+        ].map((l) => (
+          <a
+            href={l.href}
+            rel="nofollow"
+            class="no-underline hover:text-primary"
+          >
+            {l.label}
+          </a>
+        ))
+      }
+    </div>
+    <p class="mx-auto max-w-6xl px-4 pb-5 pt-3 text-xs text-ink-muted">
       © {year} VisitIsrael.site · Photography via Wikimedia Commons under their
       respective free licenses. This site contains affiliate links.
     </p>
