@@ -1,0 +1,54 @@
+---
+import type { Region } from '@/data/regions';
+export interface Props {
+  region: Region;
+  /** First row of cards can eager-load for a faster LCP; rest lazy. */
+  eager?: boolean;
+}
+const { region, eager = false } = Astro.props;
+---
+
+<a
+  href={`/${region.slug}`}
+  class="group relative block aspect-[4/5] overflow-hidden rounded-card shadow-card transition-shadow duration-300 hover:shadow-card-hover sm:aspect-[3/4]"
+>
+  <img
+    src={region.hero}
+    alt={`${region.name}, Israel — ${region.tagline}`}
+    width="1600"
+    height="1000"
+    class="absolute inset-0 h-full w-full object-cover transition-transform duration-500 group-hover:scale-105"
+    loading={eager ? 'eager' : 'lazy'}
+    decoding="async"
+  />
+  <div class="photo-overlay absolute inset-0"></div>
+  <div class="absolute inset-x-0 bottom-0 p-5">
+    <p
+      class="photo-title text-xs font-semibold uppercase tracking-widest opacity-90"
+    >
+      {region.tagline}
+    </p>
+    <h3 class="photo-title mt-1 font-display text-2xl font-bold">
+      {region.name}
+    </h3>
+    <p class="photo-title mt-1.5 text-sm leading-snug opacity-95">
+      {region.blurb}
+    </p>
+    <span
+      class="photo-title mt-3 inline-flex items-center gap-1 text-sm font-semibold"
+    >
+      Explore
+      <svg
+        class="h-4 w-4 transition-transform group-hover:translate-x-0.5"
+        viewBox="0 0 20 20"
+        fill="currentColor"
+        aria-hidden="true"
+      >
+        <path
+          fill-rule="evenodd"
+          d="M7.21 14.77a.75.75 0 0 1 .02-1.06L11.168 10 7.23 6.29a.75.75 0 1 1 1.04-1.08l4.5 4.25a.75.75 0 0 1 0 1.08l-4.5 4.25a.75.75 0 0 1-1.06-.02Z"
+          clip-rule="evenodd"></path>
+      </svg>
+    </span>
+  </div>
+</a>

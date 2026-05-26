@@ -1,0 +1,30 @@
+---
+import { affiliateUrl, PARTNERS, type Partner } from '@/config/affiliates';
+export interface Props {
+  partner: Partner;
+  text: string;
+  destination?: string;
+  query?: string;
+  productId?: string;
+  cta?: string;
+}
+const { partner, text, destination, query, productId, cta = 'Check availability' } =
+  Astro.props;
+const href = affiliateUrl(partner, { destination, query, productId });
+const meta = PARTNERS[partner];
+---
+
+<aside
+  class="my-6 flex flex-col gap-3 rounded-card border border-primary-soft bg-primary-soft/50 p-4 sm:flex-row sm:items-center sm:justify-between"
+  data-inline-cta
+>
+  <p class="text-sm font-medium text-ink">{text}</p>
+  <a
+    href={href}
+    target="_blank"
+    rel="sponsored nofollow noopener"
+    class="shrink-0 rounded-full bg-primary px-4 py-2 text-sm font-semibold text-white no-underline transition-colors hover:bg-primary-hover"
+  >
+    {cta} <span class="opacity-80">· {meta.label}</span>
+  </a>
+</aside>

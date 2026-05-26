@@ -1,0 +1,92 @@
+@import 'tailwindcss' source(none);
+/* Only scan our own source — not docs/.planning/content, which contain
+   stray `bg-[var(...)]`-style strings that aren't real utilities. */
+@source '../**/*.{astro,ts,tsx,js,jsx}';
+
+/* Self-hosted fonts (no render-blocking Google Fonts request). */
+@import '@fontsource/playfair-display/600.css';
+@import '@fontsource/playfair-display/700.css';
+@import '@fontsource-variable/source-sans-3';
+
+/*
+ * Visit Israel design system — editorial travel-magazine aesthetic.
+ * Tailwind v4 @theme: each token below generates utilities
+ * (e.g. --color-sand → bg-sand/text-sand; --font-display → font-display).
+ */
+@theme {
+  /* Warm sand canvas, never pure white */
+  --color-sand: #faf8f5;
+  --color-sand-deep: #f3eee5;
+  --color-card: #ffffff;
+  --color-border: #e7e0d4;
+
+  /* Ink */
+  --color-ink: #1f2421;
+  --color-ink-muted: #5c5750;
+
+  /* Mediterranean blue (primary) + Jerusalem gold (accent/stars) */
+  --color-primary: #1a6985;
+  --color-primary-hover: #145567;
+  --color-primary-soft: #e3eef2;
+  --color-gold: #c8a951;
+  --color-gold-deep: #a9883a;
+
+  /* Typography: serif display + legible humanist sans */
+  --font-display: 'Playfair Display', ui-serif, Georgia, serif;
+  --font-body: 'Source Sans 3 Variable', ui-sans-serif, system-ui, sans-serif;
+
+  /* Generous editorial radii + soft shadows */
+  --radius-card: 1rem;
+  --shadow-card: 0 1px 2px rgb(31 36 33 / 0.04), 0 8px 24px rgb(31 36 33 / 0.08);
+  --shadow-card-hover: 0 4px 8px rgb(31 36 33 / 0.06),
+    0 16px 40px rgb(31 36 33 / 0.14);
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  body {
+    background-color: var(--color-sand);
+    color: var(--color-ink);
+    font-family: var(--font-body);
+    font-size: 1.0625rem;
+    line-height: 1.7;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+  }
+  h1,
+  h2,
+  h3,
+  h4 {
+    font-family: var(--font-display);
+    font-weight: 700;
+    line-height: 1.15;
+    letter-spacing: -0.01em;
+    color: var(--color-ink);
+  }
+  a {
+    color: var(--color-primary);
+  }
+  :focus-visible {
+    outline: 3px solid var(--color-primary);
+    outline-offset: 2px;
+  }
+}
+
+@layer components {
+  /* The hero/card legibility contract: pure-white text over a dark
+     bottom-up gradient so titles read perfectly over any photo. */
+  .photo-overlay {
+    background: linear-gradient(
+      to top,
+      rgb(0 0 0 / 0.7) 0%,
+      rgb(0 0 0 / 0.35) 50%,
+      transparent 80%
+    );
+  }
+  .photo-title {
+    color: #ffffff;
+    text-shadow: 0 2px 12px rgb(0 0 0 / 0.55), 0 1px 3px rgb(0 0 0 / 0.6);
+  }
+}

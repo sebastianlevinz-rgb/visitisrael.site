@@ -1,0 +1,174 @@
+---
+import BaseLayout from '@/layouts/BaseLayout.astro';
+import Hero from '@/components/Hero.astro';
+import DestinationCard from '@/components/DestinationCard.astro';
+import AffiliateCard from '@/components/AffiliateCard.astro';
+import { REGIONS } from '@/data/regions';
+
+const title = 'Visit Israel — The English Travel Guide to Israel';
+const description =
+  'Plan a trip to Israel: in-depth guides to Jerusalem, Tel Aviv, the Dead Sea, the Galilee and 11 regions, with day-by-day itineraries, where to stay and trusted tours.';
+
+const featuredTours = [
+  {
+    partner: 'getyourguide' as const,
+    title: 'Jerusalem Old City: Guided Walking Tour',
+    description:
+      'Walk the four quarters with a local guide — the Western Wall, the Holy Sepulchre and the Via Dolorosa in half a day.',
+    image: '/images/regions/jerusalem/hero.jpg',
+    query: 'Jerusalem Old City walking tour',
+    priceFrom: 39,
+    rating: 4.8,
+    reviews: 5120,
+  },
+  {
+    partner: 'viator' as const,
+    title: 'Masada Sunrise & Dead Sea Float',
+    description:
+      'Climb Masada for sunrise, then float in the Dead Sea — a classic day trip from Jerusalem or Tel Aviv.',
+    image: '/images/regions/dead-sea/hero.jpg',
+    query: 'Masada sunrise Dead Sea tour',
+    priceFrom: 95,
+    rating: 4.7,
+    reviews: 3380,
+  },
+  {
+    partner: 'civitatis' as const,
+    title: 'Old Jaffa & Tel Aviv Food Tour',
+    description:
+      'Taste your way through Carmel Market and the lanes of Old Jaffa with a local foodie guide.',
+    image: '/images/regions/tel-aviv/hero.jpg',
+    query: 'Tel Aviv Jaffa food tour',
+    priceFrom: 79,
+    rating: 4.9,
+    reviews: 1840,
+  },
+  {
+    partner: 'getyourguide' as const,
+    title: 'Petra Day Trip from Eilat',
+    description:
+      'Cross into Jordan for a full day at the rose-red city of Petra, returning to Eilat by evening.',
+    image: '/images/regions/eilat/hero.jpg',
+    query: 'Petra day trip from Eilat',
+    priceFrom: 219,
+    rating: 4.6,
+    reviews: 990,
+  },
+];
+---
+
+<BaseLayout title={title} description={description} path="/">
+  <Hero
+    image="/images/regions/jerusalem/hero.jpg"
+    title="Visit Israel"
+    subtitle="An independent guide to 11 regions — from Jerusalem's Old City to the Red Sea — with itineraries, attractions and trusted booking links."
+    alt="Aerial view of Jerusalem's Old City and the Temple Mount at golden hour"
+    height="tall"
+  />
+
+  <!-- GEO intro: dense, data-rich first ~200 words for AI Overviews + SEO. -->
+  <section class="mx-auto max-w-3xl px-4 pt-12">
+    <p class="text-lg leading-relaxed text-ink">
+      <strong>Israel</strong> packs four millennia of history, three major faiths
+      and an astonishing range of landscapes into a country roughly the size of
+      New Jersey. In a single week you can stand at the
+      <strong>Western Wall</strong> in <a href="/jerusalem">Jerusalem</a>, swim off
+      the Mediterranean beaches of <a href="/tel-aviv">Tel Aviv</a>, float in the
+      <a href="/dead-sea">Dead Sea</a> — the lowest point on Earth at 430 m below
+      sea level — and dive Red Sea coral reefs in <a href="/eilat">Eilat</a>. Most
+      visitors arrive at Ben Gurion Airport (TLV) near Tel Aviv; from there fast,
+      affordable trains and buses reach every region covered in this guide. The
+      best times to visit are spring (March–May) and autumn (September–November),
+      when the weather is mild across the country. This guide covers
+      <strong>11 regions</strong> — Jerusalem, Tel Aviv, the Dead Sea, the
+      Galilee, Eilat, the Negev, Nazareth, Haifa, the Golan Heights, Caesarea and
+      Akko — with detailed attraction guides, sample itineraries from 3 to 10
+      days, where to stay for every budget, and practical advice on transport,
+      Shabbat, kosher food and safety.
+    </p>
+
+    <div class="mt-6 flex flex-wrap gap-3">
+      <a
+        href="/jerusalem"
+        class="rounded-full bg-primary px-5 py-2.5 text-sm font-semibold text-white no-underline transition-colors hover:bg-primary-hover"
+        >Explore Jerusalem</a
+      >
+      <a
+        href="/itineraries"
+        class="rounded-full border border-primary px-5 py-2.5 text-sm font-semibold text-primary no-underline transition-colors hover:bg-primary-soft"
+        >Plan an itinerary</a
+      >
+      <a
+        href="/first-time-in-israel"
+        class="rounded-full border border-primary px-5 py-2.5 text-sm font-semibold text-primary no-underline transition-colors hover:bg-primary-soft"
+        >First time in Israel</a
+      >
+    </div>
+  </section>
+
+  <!-- Region grid — photo cards, never solid color. -->
+  <section class="mx-auto max-w-6xl px-4 pt-14" aria-labelledby="regions">
+    <div class="mb-6 flex items-end justify-between">
+      <div>
+        <p class="text-sm font-semibold uppercase tracking-widest text-primary">
+          Where to go
+        </p>
+        <h2 id="regions" class="font-display text-3xl font-bold text-ink">
+          Explore the 11 regions
+        </h2>
+      </div>
+    </div>
+    <div class="grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-3">
+      {
+        REGIONS.map((region, i) => (
+          <DestinationCard region={region} eager={i < 3} />
+        ))
+      }
+    </div>
+  </section>
+
+  <!-- Featured tours — clean affiliate cards, integrated not exposed. -->
+  <section class="mx-auto max-w-6xl px-4 pt-16" aria-labelledby="tours">
+    <div class="mb-6">
+      <p class="text-sm font-semibold uppercase tracking-widest text-primary">
+        Hand-picked experiences
+      </p>
+      <h2 id="tours" class="font-display text-3xl font-bold text-ink">
+        Top-rated tours &amp; day trips
+      </h2>
+    </div>
+    <div class="grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-4">
+      {featuredTours.map((t) => <AffiliateCard {...t} />)}
+    </div>
+  </section>
+
+  <!-- Plan-your-trip practical links. -->
+  <section class="mx-auto max-w-6xl px-4 pt-16" aria-labelledby="plan">
+    <h2 id="plan" class="mb-6 font-display text-3xl font-bold text-ink">
+      Plan your trip
+    </h2>
+    <div class="grid grid-cols-2 gap-4 sm:grid-cols-3 lg:grid-cols-5">
+      {
+        [
+          { href: '/first-time-in-israel', label: 'First time in Israel' },
+          { href: '/israel-cost-budget', label: 'Cost & budget' },
+          { href: '/transportation', label: 'Getting around' },
+          { href: '/shabbat-guide', label: 'Shabbat guide' },
+          { href: '/is-israel-safe', label: 'Is Israel safe?' },
+          { href: '/best-time-to-visit-israel', label: 'Best time to visit' },
+          { href: '/kosher-food-guide', label: 'Kosher food' },
+          { href: '/border-crossings', label: 'Border crossings' },
+          { href: '/visa-information', label: 'Visa information' },
+          { href: '/itineraries', label: 'Itineraries' },
+        ].map((l) => (
+          <a
+            href={l.href}
+            class="rounded-card border border-border bg-card px-4 py-5 text-center text-sm font-semibold text-ink no-underline shadow-card transition-shadow hover:shadow-card-hover"
+          >
+            {l.label}
+          </a>
+        ))
+      }
+    </div>
+  </section>
+</BaseLayout>

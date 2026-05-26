@@ -1,0 +1,42 @@
+---
+import { REGIONS } from '@/data/regions';
+
+const navRegions = REGIONS.slice(0, 6);
+---
+
+<header
+  class="sticky top-0 z-40 border-b border-border bg-sand/85 backdrop-blur-md"
+>
+  <div
+    class="mx-auto flex max-w-6xl items-center justify-between gap-4 px-4 py-3"
+  >
+    <a href="/" class="font-display text-xl font-bold text-ink no-underline">
+      Visit<span class="text-primary">Israel</span>
+    </a>
+
+    <nav aria-label="Regions" class="hidden items-center gap-5 lg:flex">
+      {
+        navRegions.map((r) => (
+          <a
+            href={`/${r.slug}`}
+            class="text-sm font-semibold text-ink-muted no-underline transition-colors hover:text-primary"
+          >
+            {r.name}
+          </a>
+        ))
+      }
+      <a
+        href="/itineraries"
+        class="text-sm font-semibold text-ink-muted no-underline transition-colors hover:text-primary"
+        >Itineraries</a
+      >
+    </nav>
+
+    <a
+      href="/plan-your-trip"
+      class="rounded-full bg-primary px-4 py-2 text-sm font-semibold text-white no-underline transition-colors hover:bg-primary-hover"
+    >
+      Plan your trip
+    </a>
+  </div>
+</header>

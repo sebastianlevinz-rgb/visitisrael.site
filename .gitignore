@@ -3,11 +3,13 @@ node_modules/
 .pnp
 .pnp.js
 
-# Next.js
+# Astro / build output
 .next/
 out/
 build/
 dist/
+.astro/
+dist-screenshots/
 
 # Production
 *.tsbuildinfo
