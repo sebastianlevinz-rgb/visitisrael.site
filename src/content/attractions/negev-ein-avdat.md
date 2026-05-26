@@ -1,0 +1,96 @@
+---
+lang: en
+title: 'Ein Avdat: Canyon Hike + Spring Pools in the Negev'
+description: 'Hike Ein Avdat — the deep canyon below Sde Boker with year-round spring pools, ibex sightings and a marked trail along the Zin streambed in the central Negev.'
+slug: negev-ein-avdat
+region: negev
+parentRegion: negev
+heroImage: /images/sub-destinations/negev/ein-avdat.jpg
+primaryKeyword: ein avdat
+secondaryKeywords:
+  - ein avdat canyon
+  - ein avdat hike
+  - ein avdat spring pools
+  - zin valley hike
+latitude: 30.8336
+longitude: 34.7569
+publishedAt: 2026-05-11
+updatedAt: 2026-05-11
+faqs:
+  - question: How long is the Ein Avdat hike?
+    answer: The full one-way traverse is about three kilometres and takes two and a half hours including stops. Most visitors hike a shorter out-and-back from the southern entrance (about ninety minutes) to reach the main spring pools without the steep northern ladder section. The canyon floor is shaded for most of the route and the elevation gain is modest until the final ladders.
+  - question: Are the spring pools safe to swim in?
+    answer: No swimming is permitted — Ein Avdat is a protected nature reserve and the spring pools are critical for the ibex and rock-hyrax populations that live in the canyon. Visitors are asked to stay on the marked path and not enter the water. The pools are dramatic photographic subjects from the trail.
+  - question: When does Ein Avdat close?
+    answer: Standard hours are roughly 08:00 to 17:00 in summer (16:00 in winter); the southern entrance closes one hour before the gate. Friday and Saturday hours may be reduced; the Israel Nature and Parks Authority website holds the current schedule. Heavy winter rains occasionally flood the canyon and close the trail temporarily.
+  - question: Is Ein Avdat suitable for children?
+    answer: The southern out-and-back route is suitable for children eight and up who are comfortable with uneven terrain. The full traverse includes a steep ladder section in the northern third that is not suitable for young children or visitors with vertigo. The hike has shade and water sources along the route which makes it more tolerant of summer than the open-desert hikes nearby.
+---
+
+**Ein Avdat** is a deep canyon carved into the central Negev plateau just below the Sde Boker kibbutz — a narrow gorge with **year-round spring pools**, dramatic limestone walls, healthy ibex and rock-hyrax populations, and a marked hiking trail that follows the **Zin streambed** through the canyon floor. The combination of permanent water, vertical drama, and accessible distance from Sde Boker makes Ein Avdat one of the most rewarding day hikes in the Negev. This guide covers the trail options, what to bring, and how Ein Avdat fits into a central-Negev itinerary.
+
+## What is Ein Avdat?
+
+The canyon is a **protected nature reserve** managed by the Israel Nature and Parks Authority. The Zin stream — fed by springs that emerge from the limestone bedrock — flows year-round through the canyon, supporting a stable population of **Nubian ibex** (the desert wild goat), **rock hyraxes** (small rodent-like mammals related, surprisingly, to elephants), and a substantial **bird population** including griffon vultures that nest on the cliff walls.
+
+The canyon walls are roughly two hundred metres high in the deepest section. The trail traverses the canyon floor from south to north, passing several major spring pools, before climbing steeply up the northern wall via a ladder section to emerge on the plateau near the Sde Boker Midrasha.
+
+## Trail Options
+
+There are two ways to experience Ein Avdat.
+
+### Southern Out-and-Back (Recommended for Most Visitors)
+
+The **southern entrance** is the standard starting point — parking at the lower Ein Avdat trailhead off Route 40, then walking north along the canyon floor to the main spring pools and turning back. Total round-trip distance is about three kilometres; total time is roughly ninety minutes including photo stops.
+
+This route gives access to the main spring pools without the steep northern ascent and is suitable for most fitness levels. It is the standard option for families and for visitors combining Ein Avdat with Sde Boker, Avdat or other Negev stops in the same day.
+
+### Full Traverse (Southern Entrance to Northern Exit)
+
+The full traverse is one-way and requires either a shuttle or two cars staged at the entry and exit. The route covers the same southern canyon section, continues past the upper pools, and climbs the northern wall via a **steep ladder section** (vertical iron rungs anchored into the cliff face) to emerge on the plateau near the Sde Boker Midrasha.
+
+Total one-way distance is about three kilometres; total time is two and a half hours. The ladder section is **not suitable** for young children, visitors with vertigo, or anyone uncomfortable with exposed climbing. The northern exit access road is a short drive back to the southern parking lot via Route 40.
+
+## What You'll See
+
+**Spring pools.** The main pools are dramatic — deep, clear and surrounded by green vegetation that stands out vividly against the surrounding desert. The pools are protected and **swimming is not permitted**; the water supports the ibex and rock-hyrax populations.
+
+**Ibex.** The Nubian ibex herd in the canyon is one of the largest stable populations in the Negev. Animals are most active at dawn and dusk and are often visible on the cliff ledges from the trail. They are habituated to hikers but should not be approached or fed.
+
+**Rock hyraxes.** Small social mammals that live in colonies among the rocks; usually seen sunning on ledges near the spring pools.
+
+**Cliff walls.** The vertical limestone walls show clear sedimentary layering — the same geological history visible at Mitzpe Ramon, exposed at a smaller scale.
+
+**Hellenistic mausoleum and Byzantine cells.** The northern section of the canyon contains the remains of small **Byzantine monastic cells** carved into the cliff face — Christian hermits used the canyon as a retreat in the fifth and sixth centuries CE. The mausoleum and cell sites are visible from the trail.
+
+## When to Visit
+
+**Spring and autumn** are the best windows — pleasant temperatures, moderate water in the springs, and the surrounding wadis still showing some greenery from the winter rains.
+
+**Winter** is cooler and the water levels are highest after rainstorms, though the trail occasionally closes briefly after heavy rain due to flash-flood risk.
+
+**Summer** is tolerable in Ein Avdat because the canyon is shaded for most of its length; mid-day is still hot but the canyon floor stays cooler than the surrounding plateau. Start early.
+
+## Practical Tips
+
+**Water.** Carry one litre per person for the southern out-and-back; one and a half for the full traverse. There are no refill stations along the trail.
+
+**Footwear.** Closed shoes with grip — the trail has loose-gravel sections and several wet rock crossings. Sandals are not suitable.
+
+**Sun protection.** Hat and sunscreen for the entry and exit sections; the canyon itself is mostly shaded.
+
+**Stay on the marked trail.** The canyon is a protected reserve and off-trail walking disturbs the wildlife. Photography from the trail is welcomed.
+
+**Park hours.** The southern entrance closes one hour before the official park closure to ensure hikers can reach the exit in daylight. Check the Israel Nature and Parks Authority website for current seasonal hours.
+
+## Combining Ein Avdat with Other Sites
+
+**Sde Boker** is at the top of the northern exit — Ben-Gurion's grave overlooks the upper Zin valley. A natural rhythm is morning Ein Avdat hike (full traverse with shuttle) followed by Sde Boker visit and kibbutz lunch.
+
+**Avdat** is fifteen minutes south on Route 40 — the Nabataean UNESCO archaeological city. Pair Ein Avdat (nature) with Avdat (archaeology) for a varied day.
+
+**Mitzpe Ramon** is forty-five minutes south — the crater overlook and main accommodation cluster.
+
+## Why Visit
+
+Ein Avdat is the most rewarding short hike in the Negev. The combination of permanent water in the desert, dramatic limestone walls, reliable ibex sightings, and the historical layer of Byzantine monastic cells gives a ninety-minute walk a depth that other Negev trails lack. It is the right complement to the geological drama of Mitzpe Ramon and the archaeological depth of Avdat — together those three sites compress the central Negev experience into two well-paced days.

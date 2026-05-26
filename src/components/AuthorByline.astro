@@ -1,0 +1,26 @@
+---
+import { defaultAuthor, type Author } from '@/data/authors';
+export interface Props {
+  author?: Author;
+  updated?: Date;
+}
+const { author = defaultAuthor, updated } = Astro.props;
+const updatedLabel = (updated ?? new Date()).toLocaleDateString('en-GB', {
+  day: 'numeric',
+  month: 'long',
+  year: 'numeric',
+});
+---
+
+<div
+  class="mx-auto flex max-w-3xl items-center gap-3 px-4 py-4 text-sm text-ink-muted"
+>
+  <span
+    class="grid h-9 w-9 shrink-0 place-items-center rounded-full bg-primary-soft font-display font-bold text-primary"
+    aria-hidden="true">VI</span
+  >
+  <p>
+    By <a href={author.url} class="font-semibold text-ink no-underline hover:text-primary">{author.name}</a>
+    · Last updated <time>{updatedLabel}</time>
+  </p>
+</div>

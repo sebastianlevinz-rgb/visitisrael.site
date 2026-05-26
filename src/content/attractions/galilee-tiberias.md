@@ -1,0 +1,80 @@
+---
+lang: en
+title: 'Tiberias: Galilee Lakeside City and Pilgrim Base'
+description: 'Visit Tiberias on the Sea of Galilee — lakeside promenade, Hamat Tiberias hot springs, Maimonides tomb, hotels and how to use it as a Galilee base.'
+slug: galilee-tiberias
+region: galilee
+parentRegion: galilee
+heroImage: /images/sub-destinations/galilee/tiberias.jpg
+primaryKeyword: tiberias israel
+secondaryKeywords:
+  - sea of galilee hotels
+  - tiberias hot springs
+  - hamat tiberias
+  - maimonides tomb tiberias
+latitude: 32.7959
+longitude: 35.5311
+publishedAt: 2026-05-11
+updatedAt: 2026-05-11
+faqs:
+  - question: How long should I stay in Tiberias?
+    answer: Most travellers spend two nights in Tiberias as a base for the Sea of Galilee pilgrim circuit and Mount Arbel, with three nights if adding a Golan Heights day. Single-night stops are workable if you arrive late and leave the next afternoon, but the lakeside promenade and Hamat Tiberias hot springs deserve a relaxed evening.
+  - question: Is Tiberias on the Sea of Galilee?
+    answer: Yes — Tiberias sits directly on the western shore of the Sea of Galilee (Kinneret), the lowest freshwater lake on Earth. The lakeside tayelet promenade and most of the city hotels overlook the water; the eastern shore is roughly fifteen kilometres across by direct line.
+  - question: Are the Tiberias hot springs worth visiting?
+    answer: Yes for travellers interested in Roman archaeology or a relaxed spa afternoon. The Hamat Tiberias National Park combines a 4th-century synagogue mosaic with a Roman-era thermal-spring complex; a separate paid spa next door uses the same mineral water. Allow two hours for the park plus optional spa time.
+  - question: How do I get from Tiberias to the Christian pilgrim sites?
+    answer: A rental car is the easiest — Capernaum, Mount of Beatitudes and Yardenit are all within a 20-minute drive of central Tiberias. Bus routes from Tiberias central bus station reach Yardenit and the southern shore reliably; the northern shore pilgrim cluster is best by car or organised half-day tour.
+---
+
+**Tiberias** is the only city on the Sea of Galilee shore and the practical staging point for almost every visit to the region. Founded by Herod Antipas around 20 CE on Roman-era thermal springs, named for the emperor Tiberius, the city has been continuously inhabited for two thousand years and carries Roman, Crusader, Ottoman and Israeli layers within a one-kilometre stretch of lakeshore. Modern Tiberias is a mid-sized municipal city with a strong tourism economy: hotels run for two kilometres along the western shore, restaurants line the lakeside promenade, and the city's hot springs and Maimonides tomb pull steady year-round visitors.
+
+This guide covers what Tiberias is, the practical hotel cluster and lakeside layout, the headline sights inside the city, and how to use Tiberias as the base for both the pilgrim sites on the northern shore and the Mount Arbel hiking day to the west.
+
+## What is Tiberias?
+
+Tiberias is a small municipal city on the western shore of the Sea of Galilee, with a population of around 50,000. The city stretches along the lakeshore from the Hamat Tiberias hot springs at the southern end to the modern resort-hotel cluster at the northern end, with the historic core and main municipal services in the middle. Almost all the city's main visitor sights sit within a 1.5-kilometre walking distance from the central lakeside; the tayelet promenade itself runs the length of the city.
+
+Tiberias is historically one of the **Four Holy Cities of Judaism** (alongside Jerusalem, Hebron and Safed) — a designation tied to the city's status as a centre of rabbinic learning in the period after the destruction of the Second Temple. The **Tomb of Maimonides** is the most visible expression of that heritage; smaller tombs of important medieval rabbis cluster around it.
+
+## Visiting Tiberias Today
+
+**Access:** Egged buses run direct from Tel Aviv central bus station (around 2.5 hours) and from Jerusalem (around 2 hours). Driving from Ben Gurion via Route 6 and Route 65 takes about 2 hours. **Parking** is straightforward at most hotels and along the southern promenade; central streets near the lakeside are paid metered.
+
+**Layout:** the main lakeside hotels cluster in two zones — a northern strip near the Galei Kinneret historic hotel area, and the central waterfront. The Maimonides tomb sits a five-minute walk inland from the central promenade. **Hamat Tiberias** is at the southern edge of the city, accessible by car or local bus.
+
+**Atmosphere:** Tiberias has a relaxed lake-resort feel in the evenings and a more workaday city feel during business hours. Friday evenings on the tayelet are quiet but pleasant; Saturday is busy with Israeli weekend visitors from inland communities. The city is not a Tel Aviv-style late-night scene; most restaurants close by 22:30.
+
+## Top Things to See and Do
+
+### The Lakeside Promenade (Tayelet)
+
+The Tiberias **tayelet** runs along the western shore for about three kilometres, with restaurant terraces, fishing piers and small public beaches stitched together. The southern end overlaps the historic port area where the original Roman city's port stood; the northern end runs into the modern hotel cluster. An evening walk end-to-end takes about an hour at a relaxed pace and includes several lookout points back across the lake toward the Golan.
+
+### Hamat Tiberias National Park
+
+**Hamat Tiberias** at the southern edge of the city is a 2,000-year-old thermal-spring complex with a Roman-era mineral water source still flowing today. The national park section holds a small archaeological garden and the remarkable **4th-century synagogue mosaic** — the floor of an ancient synagogue preserved in situ, with a central zodiac wheel mosaic surrounded by representations of the four seasons. The mosaic is among the best-preserved late-Roman zodiac depictions in any synagogue in Israel. The separate paid **Tiberias Hot Springs spa** next door uses the same mineral water for modern thermal pools.
+
+### Tomb of Maimonides (Rambam)
+
+The **Tomb of Maimonides** in central Tiberias is the resting place of **Moses ben Maimon** (1138–1204) — the medieval Jewish philosopher, physician and codifier of Jewish law whose Mishneh Torah and Guide for the Perplexed are central works of Jewish thought. The site is a free-entry Jewish pilgrimage destination open daily; the surrounding plaza holds the tombs of several other medieval rabbis. Modest dress recommended; the atmosphere is observant but welcoming to visitors of any faith.
+
+### The Galilee Boat (Yigal Allon Museum)
+
+A short drive north of central Tiberias at **Kibbutz Ginosar**, the **Yigal Allon Museum** holds the **Galilee Boat** — a 27-foot wooden fishing boat dated to roughly the 1st century CE, discovered preserved in the lake-floor mud during a severe drought in 1986. The boat is the only intact ancient fishing vessel known from the Sea of Galilee period and is housed in a climate-controlled hall. The museum visit pairs well with a return to Tiberias via the pilgrim sites further north.
+
+## Tours from Tiberias
+
+Most travellers use Tiberias as the start point for guided Christian sites tours covering Capernaum, Mount of Beatitudes, Tabgha and Yardenit. Half-day options run mornings; full-day tours add Magdala or extend into the Golan.
+
+## Practical Tips
+
+**Stay near the lakeside** for the easiest evening rhythm — hotel choices range from the historic Galei Kinneret to several modern resort properties. **Hot springs etiquette:** the national park and the paid spa are separate tickets — visit the park for the mosaic and history, the spa for the thermal pools. **Combine the tomb with a quiet morning** before the city heats up; midday in summer in Tiberias is uncomfortable. **Friday afternoon to Saturday evening** is Shabbat — public transport pauses but lakeside restaurants and most hotels operate normally.
+
+## Why Visit
+
+Tiberias is the practical hub for the Sea of Galilee — every Christian pilgrim circuit, every Mount Arbel hiking day, and every Golan Heights day-trip starts here. The city's own draws — Hamat Tiberias hot springs, the Maimonides tomb and the lakeside tayelet — are enough to justify two nights in their own right, and the location turns a Galilee trip into a comfortable two-base itinerary rather than constant relocation.
+
+## Nearby Attractions
+
+**Mount Arbel** is fifteen minutes by car for the cliff-hike panorama. **Capernaum + Mount of Beatitudes + Tabgha** cluster on the northern shore, twenty minutes away. **Yardenit** is fifteen minutes south at the lake outflow. **Tzfat (Safed)** — another of the Four Holy Cities — is forty minutes north into the upper Galilee hills.

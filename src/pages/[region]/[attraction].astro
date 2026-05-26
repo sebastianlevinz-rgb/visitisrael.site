@@ -1,0 +1,182 @@
+---
+import { getCollection, render } from 'astro:content';
+import BaseLayout from '@/layouts/BaseLayout.astro';
+import Hero from '@/components/Hero.astro';
+import Breadcrumbs from '@/components/Breadcrumbs.astro';
+import AuthorByline from '@/components/AuthorByline.astro';
+import AffiliateCard from '@/components/AffiliateCard.astro';
+import InlineTourCTA from '@/components/InlineTourCTA.astro';
+import FaqSection from '@/components/FaqSection.astro';
+import AttractionCard from '@/components/AttractionCard.astro';
+import JsonLd from '@/components/JsonLd.astro';
+import { getRegion } from '@/data/regions';
+import {
+  attractionRegion,
+  attractionSlug,
+  attractionName,
+  attractionsForRegion,
+} from '@/lib/content';
+import { defaultAuthor } from '@/data/authors';
+import { affiliateUrl } from '@/config/affiliates';
+import { place, article, breadcrumbList } from '@/lib/schema';
+
+export async function getStaticPaths() {
+  const attractions = await getCollection('attractions');
+  return attractions.map((entry) => ({
+    params: { region: attractionRegion(entry), attraction: attractionSlug(entry) },
+    props: { entry },
+  }));
+}
+
+const { entry } = Astro.props;
+const region = attractionRegion(entry);
+const regionMeta = getRegion(region);
+const regionName = regionMeta?.name ?? region;
+const name = attractionName(entry);
+const hero = entry.data.heroImage;
+const path = `/${region}/${attractionSlug(entry)}`;
+const isReligious = Boolean(entry.data.religiousSiteId);
+const { Content } = await render(entry);
+
+const tours = [
+  {
+    partner: 'getyourguide' as const,
+    title: `${name}: Skip-the-Line & Guided Visits`,
+    description: `Guided tours and tickets that include ${name} with an expert local guide.`,
+    image: hero,
+    query: `${name} ${regionName}`,
+    priceFrom: 35,
+    rating: 4.7,
+    reviews: 1200,
+  },
+  {
+    partner: 'viator' as const,
+    title: `${regionName} Highlights Tour`,
+    description: `Small-group day tours of ${regionName} that take in ${name} and nearby sights.`,
+    image: regionMeta?.hero ?? hero,
+    query: `${regionName} Israel highlights`,
+    priceFrom: 59,
+    rating: 4.6,
+    reviews: 880,
+  },
+  {
+    partner: 'civitatis' as const,
+    title: `${regionName} Walking Tour`,
+    description: `English-language guided walks through ${regionName}'s historic core.`,
+    image: regionMeta?.hero ?? hero,
+    query: `${regionName} Israel walking tour`,
+    priceFrom: 29,
+    rating: 4.6,
+    reviews: 540,
+  },
+];
+
+const siblings = (await attractionsForRegion(region))
+  .filter((a) => a.id !== entry.id)
+  .slice(0, 3);
+
+const schema = [
+  place({
+    type: isReligious ? 'LandmarksOrHistoricalBuildings' : 'TouristAttraction',
+    name,
+    description: entry.data.description,
+    image: hero,
+    path,
+    latitude: entry.data.latitude,
+    longitude: entry.data.longitude,
+  }),
+  article({
+    headline: entry.data.title,
+    description: entry.data.description,
+    image: hero,
+    path,
+    authorName: defaultAuthor.name,
+    authorUrl: defaultAuthor.url,
+    datePublished: entry.data.publishedAt,
+    dateModified: entry.data.updatedAt,
+  }),
+  breadcrumbList([
+    { name: 'Home', path: '/' },
+    { name: regionName, path: `/${region}` },
+    { name, path },
+  ]),
+];
+---
+
+<BaseLayout title={entry.data.title} description={entry.data.description} path={path} image={hero}>
+  <JsonLd slot="head" schema={schema} />
+
+  <Hero image={hero} title={name} alt={`${name}, ${regionName}, Israel`} />
+  <Breadcrumbs
+    items={[
+      { name: 'Home', path: '/' },
+      { name: regionName, path: `/${region}` },
+      { name, path },
+    ]}
+  />
+  <AuthorByline updated={entry.data.updatedAt} />
+
+  <section class="mx-auto max-w-3xl px-4">
+    <p class="text-lg leading-relaxed text-ink">{entry.data.description}</p>
+  </section>
+
+  <article class="prose-content mx-auto max-w-3xl px-4 pt-6">
+    <Content />
+    <InlineTourCTA
+      partner="getyourguide"
+      text={`Make the most of your visit to ${name} with a guided tour.`}
+      query={`${name} ${regionName}`}
+      cta="See tours & tickets"
+    />
+  </article>
+
+  <!-- Featured tours. -->
+  <section class="mx-auto max-w-6xl px-4 pt-10" aria-labelledby="tours">
+    <h2 id="tours" class="mb-5 font-display text-3xl font-bold text-ink">
+      Tours that visit {name}
+    </h2>
+    <div class="grid grid-cols-1 gap-5 sm:grid-cols-3">
+      {tours.map((t) => <AffiliateCard {...t} />)}
+    </div>
+  </section>
+
+  <!-- Where to stay nearby. -->
+  <section class="mx-auto max-w-3xl px-4 pt-10">
+    <div class="rounded-card border border-border bg-card p-6 shadow-card">
+      <h2 class="font-display text-2xl font-bold text-ink">Stay near {name}</h2>
+      <p class="mt-2 text-ink-muted">
+        Browse hotels and guesthouses within easy reach of {name} in {regionName}.
+      </p>
+      <a
+        href={affiliateUrl('booking', { destination: `${regionName}, Israel`, query: `${name} ${regionName}` })}
+        target="_blank"
+        rel="sponsored nofollow noopener"
+        class="mt-3 inline-block rounded-full bg-primary px-5 py-2.5 text-sm font-semibold text-white no-underline hover:bg-primary-hover"
+      >
+        Find nearby hotels
+      </a>
+    </div>
+  </section>
+
+  <FaqSection faqs={entry.data.faqs ?? []} />
+
+  {
+    siblings.length > 0 && (
+      <section class="mx-auto max-w-6xl px-4 pb-4" aria-labelledby="more">
+        <h2 id="more" class="mb-5 font-display text-3xl font-bold text-ink">
+          More to see in {regionName}
+        </h2>
+        <div class="grid grid-cols-1 gap-4 sm:grid-cols-3">
+          {siblings.map((a) => (
+            <AttractionCard attraction={a} />
+          ))}
+        </div>
+        <p class="mt-5">
+          <a href={`/${region}`} class="font-semibold text-primary">← Back to the {regionName} guide</a>
+        </p>
+      </section>
+    )
+  }
+
+  <AuthorByline updated={entry.data.updatedAt} />
+</BaseLayout>

@@ -1,0 +1,26 @@
+---
+export interface Props {
+  facts: { label: string; value: string }[];
+  title?: string;
+}
+const { facts, title = 'Know before you go' } = Astro.props;
+---
+
+<aside
+  class="my-8 rounded-card border border-border bg-card p-5 shadow-card"
+  aria-label={title}
+>
+  <h2 class="mb-4 font-display text-xl font-bold text-ink">{title}</h2>
+  <dl class="grid grid-cols-1 gap-x-6 gap-y-3 sm:grid-cols-2">
+    {
+      facts.map((f) => (
+        <div class="border-b border-border pb-2">
+          <dt class="text-xs font-semibold uppercase tracking-wide text-primary">
+            {f.label}
+          </dt>
+          <dd class="mt-0.5 text-sm text-ink">{f.value}</dd>
+        </div>
+      ))
+    }
+  </dl>
+</aside>

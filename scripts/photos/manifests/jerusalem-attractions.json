@@ -1,0 +1,9 @@
+[
+  { "outPath": "public/images/sub-destinations/jerusalem/old-city.jpg", "query": "Jerusalem Old City walls panorama", "width": 1920, "crop": { "w": 1600, "h": 1000 } },
+  { "outPath": "public/images/sub-destinations/jerusalem/western-wall.jpg", "query": "Western Wall Jerusalem plaza Kotel", "width": 1920, "crop": { "w": 1600, "h": 1000 } },
+  { "outPath": "public/images/sub-destinations/jerusalem/holy-sepulchre.jpg", "query": "Church of the Holy Sepulchre Jerusalem facade", "width": 1920, "crop": { "w": 1600, "h": 1000 } },
+  { "outPath": "public/images/sub-destinations/jerusalem/mahane-yehuda.jpg", "query": "Mahane Yehuda Market Jerusalem", "width": 1920, "crop": { "w": 1600, "h": 1000 } },
+  { "outPath": "public/images/sub-destinations/jerusalem/mount-of-olives.jpg", "query": "Mount of Olives Jerusalem view", "width": 1920, "crop": { "w": 1600, "h": 1000 } },
+  { "outPath": "public/images/sub-destinations/jerusalem/yad-vashem.jpg", "query": "Yad Vashem Holocaust memorial Jerusalem", "width": 1920, "crop": { "w": 1600, "h": 1000 } },
+  { "outPath": "public/images/sub-destinations/jerusalem/city-of-david.jpg", "query": "City of David archaeological site Jerusalem", "width": 1920, "crop": { "w": 1600, "h": 1000 } }
+]

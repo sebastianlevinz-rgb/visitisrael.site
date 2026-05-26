@@ -1,0 +1,79 @@
+---
+lang: en
+title: "Capernaum: Visitor's Guide to Jesus's Galilean Hometown"
+description: "Visit Capernaum on the Sea of Galilee — white-limestone synagogue ruins, Peter's house memorial church, hours, dress code and tours with Mount of Beatitudes."
+slug: galilee-capernaum
+region: galilee
+parentRegion: galilee
+heroImage: /images/sub-destinations/galilee/capernaum.jpg
+religiousSiteId: capernaum
+primaryKeyword: capernaum israel
+secondaryKeywords:
+  - capernaum synagogue
+  - peter's house capernaum
+  - kfar nahum
+  - jesus capernaum
+latitude: 32.881
+longitude: 35.575
+publishedAt: 2026-05-11
+updatedAt: 2026-05-11
+faqs:
+  - question: How much time should I spend at Capernaum?
+    answer: One and a half to two hours covers the Franciscan Catholic section (synagogue ruins and Peter's house memorial church) plus a short walk to the Greek Orthodox section a hundred metres east. Most pilgrim itineraries combine Capernaum with Mount of Beatitudes and Tabgha in a single morning, which adds about three hours total for the cluster.
+  - question: Is there an entrance fee at Capernaum?
+    answer: Yes — the Franciscan Custody section charges a small entrance fee (around 10 NIS) that goes to site maintenance. The Greek Orthodox section is free. Modest dress is required at both sites — shoulders and knees covered.
+  - question: When is Capernaum open?
+    answer: The Franciscan section is generally open daily from 08:00 to 17:00; the Greek Orthodox section follows similar hours. Both sections may close earlier on Sundays and on Catholic / Orthodox feast days for liturgy; check before arrival if you have a tight schedule.
+  - question: What is the synagogue at Capernaum?
+    answer: The white-limestone synagogue ruins at Capernaum date from the 4th to 5th century CE and sit directly atop the basalt foundation of an earlier 1st-century synagogue — the synagogue that the Gospels describe Jesus teaching in. Visitors today see the later white synagogue's columns and walls, but the dark basalt foundation course visible below is what would have been there during Jesus's ministry.
+---
+
+**Capernaum** — known in Hebrew as **Kfar Nahum** and in Arabic as **Kafr Nahum** — is the northern-shore Sea of Galilee archaeological park that the Gospels identify as **Jesus's adopted town during his Galilean ministry**. The site holds two main draws: the white-limestone **synagogue ruins** that sit atop the basalt foundation of an earlier synagogue where Jesus would have taught, and the modern **memorial church** built over the traditional site of **Peter's house** (the fisherman who became one of Jesus's first disciples, whose home Jesus is said to have used as a base in Capernaum).
+
+The site is the most-visited stop on the Sea of Galilee pilgrim circuit and is administered jointly by the **Franciscan Custody of the Holy Land** at the western (Catholic) section and the **Greek Orthodox Patriarchate of Jerusalem** at a separate church a hundred metres east. The two sections together cover about three hectares of excavated 1st-century Roman-era fishing-town remains.
+
+## What is Capernaum?
+
+Capernaum was a small fishing town on the northern shore of the Sea of Galilee, inhabited from roughly the 2nd century BCE to the 11th century CE. At its peak during the Roman and Byzantine periods, the town held about 1,500 people. The **Gospel accounts** describe Jesus moving from Nazareth to Capernaum at the start of his public ministry (Matthew 4:13, Mark 1:21, Luke 4:31) and the town as the home base for many of his recorded miracles, parables and synagogue teachings.
+
+The site fell into ruin by the early Islamic period and was rediscovered and excavated from the 1860s onward — first by French and German expeditions, then continuously by the **Franciscan Custody of the Holy Land**, which purchased the Catholic section in 1894. The Greek Orthodox eastern section was excavated separately in the 20th century.
+
+## Visiting Capernaum Today
+
+**Access:** Capernaum is on Route 87 along the northern shore of the Sea of Galilee, about 20 minutes by car from central Tiberias. There is a paid car park at the Franciscan entrance. **Hours:** the Franciscan section runs 08:00 to 17:00 most days (closed Sundays for some hours for liturgy); the Greek Orthodox section follows similar daytime hours. **Cost:** the Franciscan section charges roughly 10 NIS; the Greek Orthodox section is free. **Dress:** shoulders and knees must be covered at both sites; cover-up shawls are not typically provided so come prepared.
+
+**Atmosphere:** the Catholic section is the more visited and has clear signage in multiple languages. The Greek Orthodox section is quieter and has a distinct Byzantine-influenced aesthetic. Both are explicitly active worship sites — visitors should be respectful especially if a service is in progress.
+
+## Top Things to See
+
+### The White Synagogue
+
+The most photographed feature of Capernaum is the **white-limestone synagogue ruins** in the Franciscan section. The standing structure dates from the 4th to 5th century CE, but it sits directly on top of the **black basalt foundation** of an earlier 1st-century synagogue — the synagogue that the Gospels describe Jesus teaching in. The two layers are clearly visible: the dark basalt foundation course is the 1st-century structure; the white limestone columns, walls and decorative carvings rising above are the later 4th-5th-century rebuild. The combination preserves both the historical and the narrative significance in a single visual.
+
+### Peter's House Memorial Church
+
+The modern **memorial church** built over the traditional site of **Peter's house** is the most architecturally distinctive feature of the site. Designed by Italian architect Ildo Avetta and completed in 1990, the octagonal church **floats on stilts** above the archaeological remains so that the 1st-century house foundations are preserved and visible through a **glass floor** in the centre of the nave. The house was identified by its later Byzantine-era conversion to a **house-church** (one of the earliest known examples of a Christian domestic-space sanctuary) and by 4th-century graffiti naming Peter on the walls.
+
+### The Greek Orthodox Section
+
+A short walk east along the lake shore reaches the **Greek Orthodox church and monastery** with its distinctive **seven red domes** visible from across the lake. The complex sits at the easternmost extent of the ancient town and includes a small church, a monastery, a quiet lakeside garden and excavated remains of the eastern Capernaum residential quarter. The atmosphere is contemplative and the site is usually quieter than the Catholic section.
+
+### The 1st-Century Insula Foundations
+
+Throughout the site, the visible foundations of 1st-century Roman-era residential buildings — built from black basalt with single-room ground floors and small inner courtyards — give the most direct sense of what the town actually looked like in Jesus's time. The houses are small and clustered, with shared walls and narrow alleys. The fishing-economy character of the town is reflected in the basalt anchor stones and net weights displayed in the small site museum.
+
+## Tours of Capernaum
+
+Most travellers visit Capernaum as part of a Sea of Galilee Christian-sites half-day tour from Tiberias, typically pairing the site with Mount of Beatitudes and Tabgha in a single morning. Independent visits by rental car are equally workable.
+
+## Practical Tips
+
+**Cover shoulders and knees** at both sections; staff will turn back visitors who arrive in beachwear or short shorts. **Photography is permitted** at both sites except during liturgy; flash inside the Peter's house memorial church is discouraged. **Bring water and sun protection** — the open archaeological park has limited shade, and Galilee summer temperatures peak at 32 to 36 degrees. **Combine the visit with Mount of Beatitudes** five kilometres west and **Tabgha** two kilometres west for a complete northern-shore morning.
+
+## Why Visit
+
+Capernaum is the single most concentrated Gospel-narrative location on the Sea of Galilee — the synagogue ruins and Peter's house together cover the public-ministry centre of Jesus's recorded activity. The site's preservation, the dual-section ecumenical structure (Catholic Franciscan + Greek Orthodox), and the direct combination of 1st-century domestic foundations with later memorial-church architecture make it the natural anchor of any Galilee pilgrim visit.
+
+## Nearby Attractions
+
+**Mount of Beatitudes** is five kilometres west along the lake. **Tabgha** sits two kilometres west — the Church of the Multiplication of the Loaves and Fishes and the Church of the Primacy of Peter. **Magdala** is roughly fifteen kilometres south on the western shore for the Mary Magdalene archaeological dig. **Tiberias** is twenty minutes south for hotels and food.

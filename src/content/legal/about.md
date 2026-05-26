@@ -1,0 +1,61 @@
+---
+lang: en
+title: 'About Visit Israel — Our Mission and Editorial Standards'
+description: 'Visit Israel is an independent bilingual travel guide. Read about our mission, editorial standards, religious-site naming policy and team disclosure.'
+slug: about
+page: about
+publishedAt: 2026-05-11
+updatedAt: 2026-05-11
+---
+
+## Our Mission
+
+Visit Israel is an independent, bilingual travel guide built around one promise: every tourist who lands on this site finds a credible, monetised path to booking what they came to research. No marketplace claims, no AI-generated itineraries, no political commentary — just first-hand research, real photos, and links that earn us a commission when you book.
+
+We cover eleven Israeli travel regions, with Jerusalem live today and the remainder rolling out in subsequent waves. The Galilee, the Negev, the Dead Sea, Tel Aviv, Eilat, Nazareth, Haifa, the Golan Heights, Caesarea and Akko are scheduled to follow. We do not cover Hebron and treat Bethlehem only as a day-trip from Jerusalem with explicit administrative-status framing.
+
+## Editorial Standards
+
+Our editorial standards are public and apply to every page on the site.
+
+### Religious-Site Naming
+
+We name religious sites by their conventional, neutral English forms. We use **Western Wall** (the academic and journalistic standard); we pair **Temple Mount** with **Haram al-Sharif** on the first reference of every page that mentions it, in line with style guides for contested-naming sites. We use **Church of the Holy Sepulchre** in full on first reference. We treat **City of David** and **Silwan** as paired references when archaeology and neighbourhood are both relevant.
+
+For sites in the West Bank — **Bethlehem**, **Hebron**, **Jericho** — we always carry administrative-status framing ("under Palestinian Authority administration") on the first reference. We use neutral toponyms — **West Bank**, never politically loaded alternatives — aiming for language a careful BBC or Al-Monitor editor would accept.
+
+### No Political Commentary
+
+We are a travel guide, not a news outlet. We do not editorialise on the conflict, on settlement policy, or on national-security issues. When practical information requires us to explain a checkpoint, a closure pattern, or an access restriction, we describe what travellers experience without taking sides.
+
+### Accessibility
+
+This site is built to IS 5568:2020 / WCAG 2.1 AA. We comply with the Equal Rights for Persons with Disabilities Act and publish a named accessibility coordinator on the [accessibility statement](/en/accessibility-statement) page. Keyboard navigation works across every page. Screen-reader support is verified against NVDA on Windows and VoiceOver on macOS.
+
+### Photography
+
+Every image on this site has a documented credit ledger entry — author, license, source URL, and (for restricted sites like the Western Wall, the Church of the Holy Sepulchre, the Dome of the Rock and the Bahá'í Gardens) an explicit acknowledgement of the permit or exemption under which the image is used. We rely primarily on Wikimedia Commons CC-BY / CC-BY-SA imagery and the Israel Government Press Office (IGPO) archive. We do not commission new shoots at restricted sites without written permits.
+
+### Itineraries
+
+Every itinerary on this site is hand-written by a human who has walked the route or, at minimum, cross-checked opening hours and Shabbat closures against current published schedules. We do not publish AI-generated itineraries.
+
+### Multilingual Parity
+
+Each page exists in English and Hebrew. The Hebrew is a native rewrite, not a translation — we apply business-casual register, ktiv maleh consistently, and gender-neutral framing where the meaning permits. Word counts stay within 85 to 140 percent of each other so neither locale feels thinner than the other.
+
+## Team Disclosure
+
+Visit Israel is, at v1 launch, the work of a single developer. We say that directly because Google's E-E-A-T (Experience, Expertise, Authoritativeness, Trustworthiness) signals reward transparent author bios over fictional "Editor Bot" identities. As the site grows, we may add contributing writers; if that happens, every author bio will be public and include geographic disclosure.
+
+### What We Are Not
+
+We are not a marketplace. We do not show live availability or real-time pricing. Affiliate links open the booking partner's site, where you complete the transaction under their terms. We do not store user accounts, do not save trips to a profile, and do not track individual visitor sessions. Our [privacy](/en/privacy) page describes what we do and do not collect.
+
+## Monetisation
+
+The site earns commission on bookings made through eleven affiliate programmes: Booking.com, Civitatis, Viator, GetYourGuide, RentalCars, SafetyWing, Skyscanner, Hostelworld, DiscoverCars (the nine active programmes), and Klook / GoCity (two programmes we list publicly but currently do not link to because they do not yet have Israel inventory). The [affiliate disclosure](/en/affiliate-disclosure) page lists every partner. Every monetised page carries an inline FTC-compliant disclosure within the first viewport — that is a Federal Trade Commission requirement and a hard rule on every link we publish.
+
+## Contact
+
+For editorial questions, factual corrections, or partnership inquiries, see the [contact page](/en/contact). Accessibility-specific feedback should go to our named accessibility coordinator, listed on the [accessibility statement](/en/accessibility-statement) page.

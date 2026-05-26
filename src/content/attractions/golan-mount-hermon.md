@@ -1,0 +1,97 @@
+---
+lang: en
+title: 'Mount Hermon: Israelʼs Only Ski Resort + Summer Cable Car'
+description: 'Visit Mount Hermon in the Golan Heights — Israelʼs only ski resort (Dec-Mar) with 11 runs and cable car, plus summer summit visits and hiking trails.'
+slug: golan-mount-hermon
+region: golan
+parentRegion: golan
+heroImage: /images/sub-destinations/golan/mount-hermon.jpg
+primaryKeyword: mount hermon ski
+secondaryKeywords:
+  - mount hermon ski resort
+  - israel ski resort
+  - mount hermon cable car
+  - mount hermon summit hike
+  - hermon ski season
+latitude: 33.2933
+longitude: 35.7775
+publishedAt: 2026-05-11
+updatedAt: 2026-05-11
+faqs:
+  - question: When is the Mount Hermon ski season?
+    answer: December through March, snow-dependent. Some seasons start late (mid-January) or close early (late February) depending on snowfall. The resort website publishes day-by-day operating status during the season; check before driving up. Lift tickets cost around 200 to 280 ILS per day; equipment rental adds 80 to 120 ILS. Weekends sell out on sunny snow days — book online if possible.
+  - question: Can I visit Mount Hermon in summer?
+    answer: Yes — the cable car continues to operate in summer for non-ski visitors who want the summit viewpoint. Operating hours are roughly 09:00 to 16:00 during summer; the round-trip cable-car ride takes about 30 minutes, with a viewing area at the top station. Marked walking trails near the upper station give 30 to 60 minute summer hike options.
+  - question: How high is Mount Hermon?
+    answer: The Israeli-controlled section of Mount Hermon reaches 2,224 metres — the highest point in Israeli territory. The wider Mount Hermon range continues north into Lebanon and Syria at higher elevations (the absolute summit, on the Syrian side, is 2,814 metres). The Israeli ski resort operates on the southern slope at elevations between 1,600 and 2,040 metres.
+  - question: Do I need to book lift tickets in advance?
+    answer: Yes, especially for weekends and Israeli school holidays. Sunny weekend snow days sell out completely; midweek is easier but still book ahead during peak season (January-February). The resort website handles online sales. Equipment rental can usually be done day-of at the base lodge.
+---
+
+**Mount Hermon** in the Golan Heights is **Israelʼs only ski resort** — a December-to-March winter operation with 11 runs, two cable cars, a ski school and a rental shop on the southern slope of the Mount Hermon range. In summer, the cable car continues to operate for non-ski visitors who want the summit viewpoint and access to marked walking trails. The Israeli-controlled section of Mount Hermon reaches **2,224 metres**, the highest point in Israeli territory.
+
+This guide covers the winter ski operation, the summer cable car + hiking option, the practical access from Tel Aviv, the booking and equipment logistics, and how Mount Hermon fits within a wider Golan visit.
+
+## What is Mount Hermon?
+
+**Mount Hermon** is the southern end of the Anti-Lebanon mountain range — a long limestone-and-snowmelt massif that runs along the border between Lebanon and Syria. The absolute summit (2,814 metres, on the Syrian side) is not accessible; the **Israeli-controlled section** reaches 2,224 metres at its highest point and includes the **Mount Hermon Ski Resort** on the southern slope.
+
+The resort is **Israelʼs only ski operation** — there is no other commercial ski resort in the country. The runs are short by European or North American standards (the longest is about 1.2 km) and the season is short (December through March, snow-dependent), but the novelty of skiing in the Middle East — bilingual Hebrew/English signage, falafel and shawarma in the base lodge, the unusual climatic context — is the distinctive draw. The resort serves Israeli weekend skiers primarily, with a growing international novelty-tourism audience.
+
+In summer, the cable car continues to operate for visitors who want the **summit viewpoint**. Marked walking trails near the upper station give 30 to 60 minute summer hike options. The combination of accessible-summit views and the only-ski-resort-in-Israel positioning makes Mount Hermon a year-round visit.
+
+## Visiting Mount Hermon Today
+
+The resort operates from a **base lodge at 1,600 metres** with two cable-car routes climbing to upper stations at 2,000 and 2,040 metres. **Parking** at the base lodge is paid; in heavy-snow weeks, the access road may require snow chains (the resort rents chains at the base). **Lift tickets** cost approximately **200 to 280 ILS per day** for adults; multi-day passes are available. **Equipment rental** (skis, boots, poles; snowboards) adds 80 to 120 ILS per day.
+
+The **ski school** offers private and group lessons in Hebrew and English; certified instructors handle all levels from never-skied to intermediate. The runs span beginner (green) through intermediate (blue) and one short advanced (red) — no expert/black-diamond terrain.
+
+Beyond skiing, the resort has a **base lodge restaurant** (Israeli buffet, hot drinks, falafel and shawarma), a **rental shop**, a small **kids' play area**, and **viewing platforms** at the upper stations that are accessible without a lift ticket if you only want the summit visit (the cable-car single-ticket pass).
+
+## Top Things to Do
+
+### Skiing (Winter, December to March)
+
+The **ski operation** is the headline winter activity. The runs are short — the longest is about 1.2 km — but the variety is reasonable for the resort scale: 11 marked runs covering beginner, intermediate and one short advanced. The **bilingual signage** (Hebrew + English) makes navigation straightforward for non-Hebrew speakers; the **ski school instructors** mostly speak English. **Weekends and school holidays are busy**; midweek is significantly quieter and more relaxed.
+
+The combination of **Israeli ski culture** — falafel breaks in the lodge, Hebrew-speaking instructors, the only-ski-resort-in-Israel novelty — is the distinctive experience. Visitors with serious skiing experience treat it as a curiosity rather than a destination; visitors with no skiing experience use it as a low-pressure introduction.
+
+### Cable Car Summit Visit (Summer)
+
+In **summer**, the cable car continues to operate for non-ski visitors who want the summit viewpoint. The **round-trip ride** takes about 30 minutes; viewing platforms at the upper station give panoramic views across the Golan plateau, the Hula valley, the Lebanese border ridges to the north and (on clear days) the Sea of Galilee to the south-west.
+
+### Summit Hiking Trails
+
+Near the upper cable-car station, **marked walking trails** offer 30 to 60 minute summer hike options on the high-elevation terrain. The hikes are not strenuous but the elevation (over 2,000 metres) and the exposed terrain require sturdy footwear and water. Sunny summer afternoons can be windy at the summit.
+
+### Snow Play (Winter, Non-Skiers)
+
+In winter, **non-skiers** can buy a base-lodge entry pass that allows sledding, snow-play and lodge access without lift use. This is the option for families visiting with young children who do not yet ski; the kids' play area and the base lodge restaurant are the natural day pattern.
+
+## Tours of Mount Hermon
+
+In winter, **Mount Hermon ski day tours** from Tel Aviv combine the drive up with ski lessons and equipment rental — Viator and Civitatis offer these as one-day or two-day options. The two-day option typically includes a night in a Katzrin hotel between two ski days.
+
+In summer, the cable-car summit visit is usually included as a stop on a wider "Golan + Galilee" day tour rather than as a stand-alone tour.
+
+## Nearby Attractions
+
+**Druze villages** (Majdal Shams is the closest, 15 minutes drive) are the natural lunch stop — many ski-day visitors descend at lunchtime for a Druze village meal before returning to the slopes. **Banias** (Caesarea Philippi) is 25 minutes south. **Nimrod Fortress** is 20 minutes. **Mount Bental** is 35 minutes south-east. The standard Mount Hermon visit pattern is morning skiing, Druze village lunch, optional afternoon Banias visit before the drive back to Tel Aviv.
+
+## Practical Tips
+
+**Booking ahead** — lift tickets and equipment rental sell out on sunny weekend snow days. Book through the resort website during peak season (January-February).
+
+**Snow chains** — the access road may require snow chains in heavy-snow weeks. The resort rents chains at the base; check road conditions on the resort website before driving up.
+
+**Cold and wind** — even on sunny ski days, the upper stations at over 2,000 metres are exposed and cold. Pack proper ski gear or a warm parka, hat and gloves; the base lodge has a rental option for outerwear at modest cost.
+
+**Children** — the kids' ski school and the base play area handle young children well. The cable-car summit visit (no ski equipment needed) is feasible for older children in winter and any age in summer.
+
+**Summer cable car** — operates 09:00 to 16:00 in summer with a roughly 30-minute round-trip. Buy the summer cable-car ticket (separate from any winter lift pass) at the base lodge.
+
+**Travel insurance** — most travel insurance policies cover Mount Hermon skiing without specialist endorsements, but check your policy. Standard ski insurance applies; no off-piste skiing is available at the resort so the typical policy exclusions are not triggered.
+
+## Why Visit Mount Hermon
+
+Mount Hermon is Israelʼs only ski resort and the highest point in Israeli-controlled territory at 2,224 metres — the combination makes it a distinctive year-round visit. The winter ski operation is small but reliable; the summer cable-car summit visit gives one of the best panoramic views in northern Israel. The novelty of skiing in the Middle East — bilingual signage, falafel in the lodge, the Druze village lunch stop on the descent — is the experiential signature. The site pairs naturally with Banias, Nimrod Fortress and the Druze villages for a complete northern-Golan day.

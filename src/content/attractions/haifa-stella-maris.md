@@ -1,0 +1,84 @@
+---
+lang: en
+title: "Stella Maris Monastery: Carmelite Catholic Mount Carmel Site"
+description: "Visit Stella Maris Carmelite Monastery in Haifa — Discalced Carmelite Order headquarters, Cave of Elijah, Mediterranean cliff-edge views, and hours."
+slug: haifa-stella-maris
+region: haifa
+parentRegion: haifa
+heroImage: /images/sub-destinations/haifa/stella-maris.jpg
+religiousSiteId: stella-maris
+primaryKeyword: stella maris monastery
+secondaryKeywords:
+  - carmelite monastery haifa
+  - cave of elijah haifa
+  - mount carmel monastery
+  - discalced carmelite order
+  - stella maris basilica
+latitude: 32.8267
+longitude: 34.97
+publishedAt: 2026-05-11
+updatedAt: 2026-05-11
+faqs:
+  - question: What is Stella Maris Monastery?
+    answer: Stella Maris is the Carmelite Catholic monastery on the northwest tip of Mount Carmel in Haifa — the world headquarters of the Discalced Carmelite Order. The site has three components — the upper basilica with the Italian dome and the icon of Our Lady of Mount Carmel; the lower Cave of Elijah, traditionally identified as the prophet's refuge before his contest with the prophets of Baal (1 Kings 18); and a cliff-edge promenade with wide Mediterranean views down toward Akko and the Bay of Haifa. Founded in 1631 by Prosper of the Holy Spirit; the present basilica is 19th-century.
+  - question: How do I get to Stella Maris from central Haifa?
+    answer: Stella Maris sits on the northwest tip of Mount Carmel, about 4 km from the city centre. The most efficient public-transport route is the Carmelit underground funicular to the Gan HaEm station plus a 15 minute walk west along Tchernichovsky street. By car, drive west from the German Colony along the Carmel ridge road; paid parking is available at the basilica. The Stella Maris cable car connects the basilica to the Bat Galim beach at the foot of the mountain (seasonal operation; check the schedule before relying on it).
+  - question: Is the Cave of Elijah really the biblical site?
+    answer: The Cave of Elijah on the lower level of the Stella Maris complex is traditionally identified as the place where the prophet Elijah took refuge before his contest with the prophets of Baal (1 Kings 18). Multiple traditions converge here — Catholic, Greek Orthodox, Muslim and Druze visitors all venerate the cave; the Druze religious tradition reveres Elijah as a prophet, and the Muslim tradition associates him with the figure of Khidr. The cave operates as a contemplative shrine; visitors of any faith are welcome to enter respectfully.
+  - question: Can I attend a Mass at Stella Maris?
+    answer: Yes. Daily Latin Mass is celebrated in the upper basilica at 06:30 and 18:30; Sunday Mass at 09:00 and 18:30. The Carmelite community maintains liturgical hours throughout the day. Visitors are welcome to attend; modest dress is required (shoulders and knees covered for both men and women). Check the official schedule for major feast-day variations — 16 July is the feast of Our Lady of Mount Carmel, the patronal feast of the Carmelite Order, with extended liturgy.
+  - question: How long should I spend at Stella Maris?
+    answer: One to one and a half hours covers the three components — the upper basilica with the dome interior and the small museum of Carmelite history, the lower Cave of Elijah, and the cliff-edge promenade with Mediterranean views. Add 30 minutes for the basilica gardens and the panoramic photography from the cliff-edge. Most visitors combine Stella Maris with a separate Bahá’í Gardens upper-terrace overlook visit (15 minutes by car east along the Carmel ridge) for a Mount Carmel half-day.
+---
+
+**Stella Maris** is the **Carmelite Catholic monastery** on the northwest tip of Mount Carmel in Haifa, above the Mediterranean and the Bat Galim port. The site is the world headquarters of the **Discalced Carmelite Order** — one of the Catholic Church's contemplative monastic orders, founded in 1593 as a reform branch of the medieval Carmelite Order which itself originated on Mount Carmel in the 12th century. The present basilica is 19th-century with an **Antonio Barluzzi domed restoration** in the early 20th century; the foundation goes back to 1631 when Prosper of the Holy Spirit reestablished a Carmelite presence on the mountain after Ottoman destruction.
+
+The Stella Maris complex has three distinct components — the **upper basilica** with its Italian dome and the icon of Our Lady of Mount Carmel, the **lower Cave of Elijah** (the biblical site traditionally identified as the prophet's refuge), and the **cliff-edge promenade** with Mediterranean views down the coastline toward Akko and the Bay of Haifa. The site is venerated ecumenically — Catholic, Greek Orthodox, Muslim and Druze visitors all visit the Cave of Elijah, and the basilica receives Catholic pilgrim groups year-round.
+
+## What is Stella Maris?
+
+The medieval Carmelite Order traces its origin to Christian hermits on Mount Carmel in the 12th century, organized around the **biblical figure of Elijah** (whose contest with the prophets of Baal on Mount Carmel is described in 1 Kings 18). The hermits adopted the Rule of Saint Albert around 1209. After the fall of Crusader Acre in 1291, the Carmelites were expelled and the order moved to Europe; the **Discalced Carmelite reform** emerged from the 16th-century Spanish reform led by **Teresa of Ávila** and **John of the Cross**.
+
+The **modern Stella Maris foundation** was established in 1631 by **Prosper of the Holy Spirit**, returning to reestablish the historic origin site. The original monastery was destroyed several times under Ottoman rule (in 1799 Napoleon's troops used it as a hospital). The present basilica was completed in the 1830s with **dome restoration by Antonio Barluzzi** — the architect who also restored Nazareth's Basilica of the Annunciation, the Mount of Beatitudes octagonal church, and the Basilica of the Agony at Gethsemane.
+
+The icon of **Our Lady of Mount Carmel** in the basilica is the patronal Carmelite Madonna, venerated worldwide.
+
+## Visiting Stella Maris Today
+
+**Access:** Stella Maris sits on the northwest tip of Mount Carmel, about 4 km from the city centre. The most efficient public-transport route is the **Carmelit underground funicular** to the Gan HaEm station, plus a 15-minute walk west along Tchernichovsky street. By car, drive west from the German Colony along the Carmel ridge road; paid parking is available at the basilica entrance. The **Stella Maris cable car** connects the basilica to the Bat Galim beach at the foot of the mountain (seasonal operation; check the schedule).
+
+**Hours:** the basilica is generally open daily 06:00 to 12:30 and 15:00 to 18:00. The Cave of Elijah is accessed through a separate doorway on the lower terrace and is open during basilica hours. **Daily Latin Mass** at 06:30 and 18:30; **Sunday Mass** at 09:00 and 18:30. Modest dress required (shoulders and knees covered); shawls available at the entrance.
+
+**Atmosphere:** Stella Maris is a working monastery rather than a tourist site — the Discalced Carmelite community of friars maintains contemplative liturgical hours throughout the day. Visitors are welcome but the prevailing atmosphere is quiet. The Cave of Elijah operates as a contemplative shrine with candles and prayer cushions; visitors of all faiths are welcome to enter respectfully.
+
+## Top Things to See
+
+### The Upper Basilica + Italian Dome Interior
+
+The **upper basilica** is the architectural centrepiece — the Antonio Barluzzi dome restoration, the **icon of Our Lady of Mount Carmel** at the high altar, and a small **museum of Carmelite history** in the right-side ambulatory. The dome interior is decorated with a colourful early-20th-century fresco depicting the prophets Elijah and Elisha and the patriarchs of the Carmelite Order. The fresco is one of Barluzzi's better-preserved interior works.
+
+The high altar with the icon is the focus of liturgy. Sit briefly in the nave during the daily liturgical hours (the Carmelite community sings the Divine Office at 06:00, 12:30 and 18:00) for the contemplative-monastery atmosphere.
+
+### The Cave of Elijah (Lower Terrace)
+
+The **Cave of Elijah** on the lower terrace is the actual biblical site, identified as the place where Elijah took refuge before his contest with the prophets of Baal (1 Kings 18). Accessed through a separate doorway from the basilica forecourt; stone steps descend to a small grotto.
+
+The cave is venerated **ecumenically** — Catholic, Greek Orthodox, Muslim and Druze visitors all come. The Druze religious tradition reveres Elijah as a prophet; the Muslim tradition associates him with **Khidr**, the green prophet. The cave operates as a contemplative shrine with lit candles, prayer cushions, and inscriptions in Hebrew, Arabic, English and German. The mixed pilgrim demographic — Catholic Mass-goers, Greek Orthodox visitors from Wadi Nisnas, Druze families from the Carmel back-slope villages, Muslim visitors from Haifa's Arab quarters — is one of the more authentic ecumenical experiences in Israel.
+
+### The Cliff-Edge Promenade + Bay of Haifa View
+
+The **cliff-edge promenade** in front of the basilica gives the wide-angle Mediterranean view down the coastline toward Akko (visible 14 km north) and the **Bay of Haifa** harbour. The promenade is paved and railed; benches face the sea. Best light is late afternoon when the Mediterranean is in long-shadow gold and the Akko ramparts are silhouetted in the distance.
+
+The **Stella Maris cable car** descends from the cliff-edge to the Bat Galim beach 200 metres below — a four-minute ride with panoramic Mediterranean views. Seasonal operation (typically April through October).
+
+## Practical Tips
+
+- **Modest dress required** — shoulders and knees covered for both men and women throughout the basilica and the Cave. Shawls available at the entrance.
+- **Combine with the Bahá’í Gardens upper-terrace overlook** for a Mount Carmel half-day — both are on the Carmel ridge, 15 minutes apart by car.
+- **The Cave of Elijah is the most ecumenical site in Haifa** — Catholic, Greek Orthodox, Muslim and Druze visitors all venerate it; respect the contemplative environment regardless of your own background.
+- **Late afternoon for the cliff-edge view** — Mediterranean long-shadow light gives the dramatic photography.
+- **Avoid liturgical hours** if you want to walk through quietly — the Carmelite community sings the Divine Office at 06:00, 12:30 and 18:00; a visit between 10:00 and 12:00 or 15:30 and 17:30 typically finds the basilica between liturgical times.
+
+## Why Visit Stella Maris
+
+Stella Maris is the most architecturally complete Catholic monastery on the Israeli pilgrim circuit — a working Discalced Carmelite community in the historic origin site of the Carmelite Order, with the biblical Cave of Elijah on the same terrace, a Barluzzi-domed basilica with a credible fresco interior, and a cliff-edge Mediterranean view that gives the geographic context. The ecumenical character of the Cave of Elijah — Catholic, Greek Orthodox, Muslim and Druze venerating the same biblical site — is one of the more authentic shared-religious-heritage experiences in the country. The visit is brief (one hour to 90 minutes) and pairs naturally with the Bahá’í Gardens upper-terrace overlook 15 minutes east along the Carmel ridge for a Mount Carmel religious-heritage half-day.

@@ -1,0 +1,158 @@
+---
+lang: en
+title: 'Things to Do in Jerusalem: The Complete 2026 Travel Guide'
+description: 'Plan your Jerusalem trip with our complete 2026 guide: Old City, top attractions, where to stay, day tours, getting around, food, and FAQs.'
+slug: jerusalem
+region: jerusalem
+heroImage: /images/regions/jerusalem/hero.jpg
+primaryKeyword: things to do in jerusalem
+secondaryKeywords:
+  - jerusalem itinerary
+  - jerusalem hotels
+  - jerusalem tours
+  - best time to visit jerusalem
+latitude: 31.7683
+longitude: 35.2137
+publishedAt: 2026-05-11
+updatedAt: 2026-05-11
+faqs:
+  - question: How many days should I spend in Jerusalem?
+    answer: Three full days lets you cover the Old City quarters, visit Yad Vashem and the Israel Museum, and take one short day trip to the Dead Sea or Bethlehem. Two days is tight but workable if you skip a day trip. Add a fourth day if you want unhurried evenings in Mahane Yehuda.
+  - question: Is Jerusalem safe for tourists?
+    answer: Yes. Jerusalem is one of the most heavily policed cities in the world and tourists rarely encounter problems. Stick to well-known attractions and neighbourhoods, carry your passport, and follow the same situational awareness you would in any large city. Check current advisories before you fly.
+  - question: When is the best time to visit Jerusalem?
+    answer: March to May (spring) and September to November (autumn) are the best windows. Days are warm and dry, evenings are cool, and the major Jewish, Christian and Muslim holidays cluster in these months. Summer is hot but tolerable; winter is mild but rainy and occasionally snowy.
+  - question: What should I wear when visiting religious sites?
+    answer: Cover shoulders and knees at all holy sites. Men need a head covering at the Western Wall (paper kippot are provided). Women should bring a scarf or pashmina for churches, mosques and the Western Wall plaza. Loose, light cotton is comfortable for full-day touring.
+  - question: Can I visit Jerusalem on Shabbat?
+    answer: Yes, but expect significantly reduced public transport, most Jewish-owned restaurants and shops closed from Friday afternoon to Saturday evening, and a much quieter Old City. Christian sites in the Christian Quarter remain open. The Old City and Mamilla areas come alive again after sundown on Saturday.
+  - question: Do I need to book Old City tours in advance?
+    answer: Walking tours of the Christian Quarter and the Via Dolorosa often sell out a week ahead during Easter and Christmas. For other periods you can usually book a day or two before. Specialist tunnel tours and rooftop tours sell out faster and benefit from booking online.
+  - question: How do I get from Tel Aviv airport to Jerusalem?
+    answer: The fastest option is the high-speed train from Ben Gurion Airport (TLV) to Yitzhak Navon station — around 30 minutes door-to-door. Sherut shared taxis run 24/7 including Shabbat for a slightly higher fare. A taxi takes 50 to 70 minutes depending on traffic.
+  - question: Is it possible to do a day trip to Bethlehem?
+    answer: Yes, and most travellers do. Bethlehem is in the West Bank under Palestinian Authority administration, so you carry your passport and travel on a guided tour or a shared taxi via the Gilo crossing. Pre-booked tours handle the logistics; independent travel is possible but slower.
+---
+
+Jerusalem rewards travellers who give it time, and a complete guide to things to do in Jerusalem starts with timing rather than sightseeing. The Old City packs four millennia of layered history into a square kilometre; the modern neighbourhoods west of the walls hold a food market that runs late into Thursday night, museums that anchor entire mornings, and quiet residential streets shaded by Jerusalem-stone arches. This guide covers every practical decision you will face — when to come, where to sleep, which sites to prioritise, how to get around, and what to eat — so you can spend your prep time on the questions that matter rather than the logistics.
+
+The information below assumes a first visit of two to four days. If you are returning, you will know where you want to spend the extra hours; the sections on day trips and West Jerusalem give you four directions to extend from. Local opening hours, especially around Shabbat and the Jewish, Christian and Muslim festival calendars, drive most of the planning here, so the timing section comes first.
+
+## When to Visit Jerusalem
+
+The two windows worth flying for are **March to May** and **September to November**. Spring delivers wildflowers in the Judean Hills, comfortable Old City temperatures, and the Easter / Passover convergence. Autumn brings the High Holidays and the start of olive harvest. Both shoulder seasons keep daytime highs in the low 20s Celsius and evening lows around 10 to 13 — perfect for the inevitable hours on your feet.
+
+**Summer** (June to August) is hot, dry and crowded. Daytime highs hit 32 Celsius but humidity stays low so it feels manageable in the shade. Start mornings early, hide indoors between one and four, and emerge for cool evenings on rooftop bars. **Winter** (December to February) is cool, wet and unpredictable — Jerusalem can dust with snow once or twice a winter, which is magical but shuts down the city until it melts. Hotels are cheaper in January and February.
+
+### Shabbat and the Holiday Calendar
+
+The single most important planning input is **Shabbat**: from roughly an hour before sunset on Friday until an hour after sunset on Saturday, Jewish-owned restaurants close, public transport pauses, and most shops shutter. The Old City Christian and Muslim Quarters keep going; Mamilla and Ben Yehuda dim down. Plan your Friday afternoon and Saturday accordingly — book a Saturday Bethlehem day trip or stay close to a Christian-Quarter restaurant.
+
+The major Jewish holidays (Passover in spring, the High Holidays in autumn, Hanukkah in winter) replicate Shabbat-style closures. Christian Holy Week and Christmas drive Old City accommodation prices up sharply. The Muslim holiday calendar shifts by about 11 days each year against the Gregorian calendar; check the dates before booking.
+
+## Where to Stay in Jerusalem
+
+Jerusalem has five practical neighbourhoods for visitors, each with a different trade-off between atmosphere and convenience.
+
+**Inside the Old City walls** gives you stone-arched alleys and dawn calls to prayer outside your window. You sleep ten minutes from the Western Wall and Holy Sepulchre. Trade-off: nights are very quiet (most of the Quarter shuts after dark), restaurants are limited, and small luggage-only access from the gates means no taxi door-pickup.
+
+**Mamilla and the city centre** sits just outside Jaffa Gate. Modern five-star hotels, a pedestrianised mall, walking access to both the Old City and West Jerusalem nightlife. The default choice for first-time visitors who want comfort plus proximity.
+
+**German Colony and Baka** are leafy residential neighbourhoods 15 minutes by light rail south of the centre. Boutique guesthouses in restored Templer houses, easy walks to Emek Refaim cafés, and considerably cheaper than Mamilla. Best for travellers who plan two or more nights and want a base rather than a bed.
+
+**Mahane Yehuda area** puts you a block from the food market and the city's best dinner streets — a draw for food-focused trips. Hostels and small boutiques dominate; budget travellers cluster here.
+
+**East Jerusalem** (Sheikh Jarrah and around Damascus Gate) is the most international option, with several long-running hotels frequented by Christian pilgrims. Cheaper than the centre and walkable to the Old City through Damascus Gate.
+
+## Top Things to Do in the Old City
+
+The Old City is one square kilometre divided into four quarters — Jewish, Christian, Muslim, and Armenian. A first visit takes a full day to walk slowly, two if you want time at each major site.
+
+### Western Wall (Kotel)
+
+The Western Wall is the surviving retaining wall of the Second Temple and Judaism's most significant prayer site. Access is free, 24 hours, with separate prayer sections for men and women. Men need a paper kippah (provided at the entrance); women should cover shoulders and knees. Friday-evening services as Shabbat begins are extraordinary to witness from the back of the plaza — go silent, photographs prohibited.
+
+The **Western Wall Tunnels** run for 488 metres along the full length of the wall and require a guided tour booked in advance. This is the single most underrated Old City experience for first-time visitors.
+
+### Church of the Holy Sepulchre
+
+Christianity's holiest site, traditionally identified as the location of the crucifixion, burial and resurrection of Jesus. The current basilica is shared by six denominations under the Status Quo agreement of 1852, which is why you see Greek Orthodox, Roman Catholic, Armenian Apostolic, Coptic, Syriac and Ethiopian sections each maintaining their own clergy and altars. Free entry, modest dress required, no photography during services. Aim for early morning (06:30 opening) to beat the queues at the Aedicule.
+
+### Temple Mount / Haram al-Sharif
+
+The Temple Mount — known as Haram al-Sharif to Muslims — is the platform that holds the Dome of the Rock and the Al-Aqsa Mosque, Islam's third-holiest site. Non-Muslim visitors enter via the wooden Mughrabi Bridge from the Western Wall plaza during specific morning and afternoon windows (typically Sunday to Thursday). The complex is administered by the Jordanian Waqf; rules around non-Muslim entry to the buildings change periodically — at present, entry to the Dome of the Rock and Al-Aqsa Mosque is limited to Muslim worshippers only. Modest dress is strictly enforced.
+
+### Via Dolorosa
+
+Christianity's traditional route of the cross winds through the Muslim and Christian Quarters in fourteen stations, terminating inside the Holy Sepulchre. Franciscan-led processions every Friday at three (winter four) are open to visitors. Walking the route slowly takes about ninety minutes; many travellers join a guided walk to follow the historical context properly.
+
+### The Four Quarters
+
+Beyond the headline sites, the Quarters themselves are the attraction. The **Jewish Quarter** holds the Cardo (excavated Roman main street), the Hurva Synagogue, and rooftop viewpoints over the Western Wall plaza. The **Christian Quarter** packs nine denominations into a few alleys; bring a map. The **Muslim Quarter** has the deepest bazaars and best street food. The **Armenian Quarter** is the smallest and quietest, with a famous ceramics tradition.
+
+## Top Things to Do in West Jerusalem
+
+Outside the walls, modern Jerusalem opens up. The west of the city is where locals work, eat and live; budget at least a full day here.
+
+### Mahane Yehuda Market
+
+The market — usually called "the shuk" — is open every day except Shabbat. Daytime is fruit, vegetables, spices, bakeries and halva. From Thursday night the alleys transform into the city's best bar street, packed until two in the morning. Eat your way through slowly; do not try to do it on a tight schedule. The market's exit on Agripas Street puts you ten minutes from the city centre on foot.
+
+### Yad Vashem
+
+Israel's central memorial to the Holocaust covers a hilltop site west of Mount Herzl. Plan at least three hours for the Holocaust History Museum alone; the full campus, including the Children's Memorial and the Hall of Names, takes a full half-day. Entry is free; closed on Saturdays and Jewish holidays. Photography is restricted inside the buildings.
+
+### The Israel Museum
+
+Anchor of West Jerusalem's museum cluster. The Shrine of the Book houses the Dead Sea Scrolls; the outdoor Second Temple Model maps Jerusalem at the year 66 CE; the archaeology wing is one of the world's strongest collections of Levantine antiquity. Allow half a day.
+
+### Mount Herzl and the National Cemetery
+
+Israel's national cemetery on the western edge of the city. Free entry, walkable from Yad Vashem via the Mount of Remembrance path. Combine with a visit to Yad Vashem in one half-day.
+
+## Top Day Trips from Jerusalem
+
+Jerusalem sits within ninety minutes of the Dead Sea and several other strong day-trip targets. Most travellers do one full day-trip on a multi-day visit.
+
+**Dead Sea and Masada** is the classic Jerusalem day trip. Sunrise climb of Masada, breakfast at the top, descent and float in the Dead Sea before lunch, back in Jerusalem by mid-afternoon. Tours run daily; self-drive is possible with a Tel Aviv car pickup.
+
+**Bethlehem** sits eight kilometres south of Jerusalem. The city is in the West Bank under Palestinian Authority administration; travel involves the Gilo crossing, where you carry your passport. Tours from Jerusalem include the Church of the Nativity, the Milk Grotto and the Banksy-painted separation wall, and handle the crossing logistics. Independent travel is possible by Arab bus 21 from the East Jerusalem central bus station; allow time. There is no canonical guide page on this site for Bethlehem in 2026 — administrative reality is in flux and we prefer not to publish until the situation stabilises.
+
+**Tel Aviv and Jaffa** are an hour west by train. Most visitors save Tel Aviv for a dedicated two- or three-day side trip rather than a Jerusalem day-trip, but the train link is fast enough that a day visit is realistic if you want one Mediterranean swim.
+
+## How to Get to Jerusalem
+
+International flights land at **Ben Gurion Airport** (TLV), forty-five kilometres west of Jerusalem near Tel Aviv. The airport handles the vast majority of inbound traffic; Eilat's Ramon airport (ETM) handles a few European seasonal flights only.
+
+From TLV to Jerusalem, four options work:
+
+- **Yitzhak Navon high-speed train** — 30 minutes direct, runs every 30 minutes during the week, paused Friday afternoon through Saturday evening.
+- **Sherut shared taxi** — door-to-door, 50 to 70 minutes, runs 24/7 including Shabbat. The default for late-night arrivals.
+- **Private taxi** — fastest off-peak, expensive on a fixed-rate metered fare from the airport. Set the meter or agree the price before getting in.
+- **Rental car** — only worth it if you plan day trips. Avoid renting for Jerusalem itself; parking is painful and the light rail covers the city well.
+
+Once in Jerusalem, the **light rail** (Red Line, Green Line) covers the spine of the city from Pisgat Ze'ev in the north through the centre to Mount Herzl in the south. Walking covers the Old City. **Taxis** are abundant; **Gett** is the local Uber-style app.
+
+If you want day-trip flexibility, pick up a rental car at TLV rather than in Jerusalem — airport pickup is faster and cheaper.
+
+## Where to Eat in Jerusalem
+
+Jerusalem food anchors on two traditions: Levantine (hummus, falafel, mezze) and Ashkenazi-Jewish (kugel, schnitzel, cholent). Modern chefs blend both. Three areas worth dedicating evenings to:
+
+**Mahane Yehuda** on a Thursday or Friday morning — work along Eitz Hayim and Hashikma alleys, stopping at Marzipan Bakery for rugelach, Uzi-Eli for spice-blend hummus, and Pereg for halva. Thursday evening the same alleys become the bar district; weeks book up for Friday lunch sittings at Machneyuda and Hatch.
+
+**Christian Quarter Road and Souk Khan al-Zeit** for Old City lunch — falafel and shawarma from a half-dozen contenders, fresh juice, and Armenian boureks from Sandrouni's bakery near Jaffa Gate.
+
+**Emek Refaim** in the German Colony for unhurried weekend brunches — Caffit and Tmol Shilshom anchor the street; both are reliable picks for first-time visitors.
+
+Vegan and vegetarian options are everywhere; kosher certification is common but not universal — check at the door if it matters to you.
+
+## Jerusalem on Shabbat: What's Open
+
+Friday afternoon through Saturday evening, Jerusalem changes character. Plan for it rather than against it. **What closes**: Mahane Yehuda market, almost all Jewish-owned restaurants, the light rail and public buses, most shops in West Jerusalem, museums (including Yad Vashem and the Israel Museum). **What stays open**: the Western Wall plaza (extraordinarily atmospheric on Friday evening as Shabbat begins), the entire Christian Quarter and Holy Sepulchre, the Muslim Quarter bazaars, Mamilla mall (partially), restaurants in East Jerusalem and the American Colony.
+
+Saturday is the right day for a Bethlehem or Dead Sea day trip, a long walk in the Old City, or a sit-down in a Christian-Quarter restaurant. Saturday night the city wakes up again — Ben Yehuda Street and the Mamilla mall come back to life by nine.
+
+## Frequently Asked Questions
+
+The FAQ entries above answer the most common questions about visiting Jerusalem — from how long to stay and how to dress at holy sites, through transport from Ben Gurion airport, to whether Bethlehem and Saturday work as combinations. The schema-driven FAQPage rendered at the bottom of this page surfaces these to search engines so travellers find them directly from a Google result. If your question is not covered, the contact page is the right next step.

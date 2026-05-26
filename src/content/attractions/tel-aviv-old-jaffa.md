@@ -1,0 +1,79 @@
+---
+lang: en
+title: "Old Jaffa: Tel Aviv's 4,000-Year-Old Port Quarter"
+description: "Visit Old Jaffa in Tel Aviv — the port, the flea market, St. Peter's Church, the Mahmoudiya Mosque, and how to spend a half-day walking from Jaffa back."
+slug: tel-aviv-old-jaffa
+region: tel-aviv
+parentRegion: tel-aviv
+heroImage: /images/sub-destinations/tel-aviv/old-jaffa.jpg
+primaryKeyword: old jaffa
+secondaryKeywords:
+  - jaffa flea market
+  - jaffa port
+  - tel aviv jaffa walking tour
+latitude: 32.0540
+longitude: 34.7506
+publishedAt: 2026-05-11
+updatedAt: 2026-05-11
+faqs:
+  - question: How do I get from central Tel Aviv to Old Jaffa?
+    answer: The walk from the south end of the tayelet (Charles Clore Park) to the harbour takes about 20 minutes along the seafront. By taxi it is 10 minutes from Rothschild. Bus 10 runs from the city centre. Driving in is possible but parking is limited near the harbour.
+  - question: How much time should I spend in Old Jaffa?
+    answer: A half-day works for a first visit — walk the harbour, climb to Kedumim Square, browse the flea market, and have a long lunch in one of the restored stone-house restaurants. A full day if you want to combine with a meal at sunset and a slow walk back to Tel Aviv.
+  - question: Is the Jaffa Flea Market open on Saturday?
+    answer: Most flea-market stalls are closed Saturday during Shabbat. The neighbouring restaurants in restored stone houses stay open, and Saturday-night the market alleys come alive again. Sunday through Thursday daytime is the main flea-market window; Friday mornings are particularly busy.
+  - question: Can I visit St. Peter's Church and the Mahmoudiya Mosque?
+    answer: St. Peter's Church (Franciscan) is open to visitors most weekdays with a small donation suggested; modest dress required. The Mahmoudiya Mosque (still an active mosque) is generally not open to non-Muslim visitors but the courtyard and exterior are easily viewed from the streets around Yefet.
+---
+
+**Old Jaffa** is the Mediterranean fishing harbour and Ottoman-era stone quarter on the southern end of Tel Aviv's tayelet. Continuously occupied for four millennia, Jaffa pre-dates Tel Aviv by almost everything — the port is mentioned in Egyptian records of the 15th century BC, served as the Phoenician and Greek gateway to the Levantine interior, and was the main port for pilgrims to Jerusalem through the Crusader and Ottoman periods. The modern quarter is a slow-walking experience: a harbour, a flea market, a hilltop park with city views, and a constellation of restored stone houses that hold restaurants, boutique shops and guesthouses.
+
+The quarter sits ten minutes by taxi from central Tel Aviv or twenty minutes on foot along the seafront — most travellers combine Jaffa with a long lunch and a walk back to the city. This guide covers the harbour, the flea market, the religious heritage (St. Peter's Church and the Mahmoudiya Mosque sit a hundred metres apart and tell the layered Christian-Muslim story of the quarter), the practical hours, and how Jaffa pairs with the rest of a Tel Aviv visit.
+
+## What is Old Jaffa?
+
+Old Jaffa is the historic core of the city of Yafo, which was an independent Arab-Christian-Muslim-Jewish town through the late Ottoman period and was absorbed administratively into the unified Tel Aviv-Yafo municipality in 1950. The quarter occupies a hill that rises directly from the Mediterranean — the **Kedumim Square** at the top of the hill offers the postcard view of Tel Aviv's skyline curving away to the north along the beach.
+
+The current restored Old Jaffa is the product of a 1960s urban renewal that preserved the stone buildings while clearing some of the dense alleyways. The **flea market** (Shuk HaPishpeshim) sits in the streets immediately north of the hill, and the **harbour** sits below it on the seaward side. Together these form the visitor core.
+
+## Visiting Old Jaffa Today
+
+**Hours:** the harbour and Kedumim Square are open continuously and free. The flea market stalls run Sunday to Thursday roughly 10:00 to 18:00, Friday until early afternoon, and most are closed Saturday during Shabbat. The restaurants in the restored houses run all week including Saturday evenings.
+
+**Getting there:** walk along the tayelet from central Tel Aviv (20 minutes), taxi from Rothschild (10 minutes), or take bus 10. Driving is possible but parking near the harbour is limited; the public car park at Charles Clore Park is the easiest.
+
+**Atmosphere:** Friday mornings are the busiest flea-market window with locals doing weekend shopping. Saturday daytime is quietest. Sunset is the photogenic hour at Kedumim Square. Late-evening dining in the restored stone houses is one of Tel Aviv's signature experiences.
+
+## Top Things to See and Do
+
+### The Harbour and Andromeda's Rock
+
+The small **Jaffa fishing harbour** still holds working fishing boats and a few restaurant pontoons. Offshore you can see **Andromeda's Rock**, the formation linked in Greek myth to Perseus rescuing Andromeda — the local connection is documented in classical sources from the 4th century BC onward. The harbour walk takes about 30 minutes; in summer evenings small concerts run on the harbour stage.
+
+### The Flea Market (Shuk HaPishpeshim)
+
+The flea market is the city's antique-and-vintage core — Iranian carpets, Bauhaus-era furniture, Ottoman copper, vintage clothing, and a dozen excellent small restaurants tucked into the alleys. **Yefet Street** is the main commercial axis; the smaller streets branching east hold the more interesting independent shops. Combine browsing with a long lunch.
+
+### Kedumim Square and St. Peter's Church
+
+**Kedumim Square** at the top of the hill is the panoramic viewpoint over the harbour and the Tel Aviv skyline. The square holds **St. Peter's Church**, a Franciscan church built in the 17th century on the site traditionally identified with the Apostle Peter's vision in the Book of Acts. Inside the church, the bell tower and the painted ceiling are the main draws. Modest dress required; a small donation is suggested.
+
+### The Mahmoudiya Mosque
+
+**Mahmoudiya Mosque** sits a hundred metres from St. Peter's, just north of Kedumim Square on Yefet Street. Built in the early 19th century by an Ottoman governor named Muhammad Abu Nabbut, it is the largest mosque in the Jaffa quarter and still an active congregation. Non-Muslim visitors generally do not enter the prayer hall but the courtyard and the elaborate stone facade are easily viewed from the street. The mosque's proximity to St. Peter's is one of the more visually direct expressions of Jaffa's Christian-Muslim layered past.
+
+## Nearby Attractions
+
+The harbour walk south along the seafront takes you to **Givat Aliya beach** in about ten minutes — the southern end of the Tel Aviv beach run. North from Old Jaffa you walk back through the **Manshiya** clearing along the tayelet to **Charles Clore Park** and then up to **Neve Tzedek** in twenty minutes. **HaTachana** (the restored Ottoman railway station) sits between Jaffa and Neve Tzedek and is a natural lunch stop on the walk back.
+
+## Tours of Old Jaffa
+
+Guided walking tours of Old Jaffa run daily — typically two to three hours covering the harbour, Kedumim Square, the flea market, and the church-mosque heritage. Food-focused tours add three or four tastings at flea-market restaurants.
+
+## Practical Tips
+
+**Wear comfortable shoes** — the stone streets are uneven. **Bring small cash** for the flea market though most restaurants take card. **Plan around Shabbat** — flea-market stalls close Saturday but restaurants stay open. **Eat late** if you want the sunset hour at Kedumim Square — many of the harbour restaurants open from 18:00. **Combine with a sunset walk** north along the tayelet for the best photos of the city.
+
+## Why Visit
+
+Old Jaffa is the quietest atmospheric quarter in greater Tel Aviv and the easiest way to feel the city's layered history. The harbour, the flea market, the church-mosque pair, and the stone-house dining together fill a half-day and leave you with a sense of the Mediterranean port that pre-dates the modern city by several thousand years.

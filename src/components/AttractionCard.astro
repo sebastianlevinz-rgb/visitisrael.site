@@ -1,0 +1,36 @@
+---
+import type { AttractionEntry } from '@/lib/content';
+import { attractionUrl, attractionName } from '@/lib/content';
+export interface Props {
+  attraction: AttractionEntry;
+  eager?: boolean;
+}
+const { attraction, eager = false } = Astro.props;
+const url = attractionUrl(attraction);
+const name = attractionName(attraction);
+const { heroImage, description } = attraction.data;
+---
+
+<a
+  href={url}
+  class="group relative block aspect-[3/2] overflow-hidden rounded-card shadow-card transition-shadow hover:shadow-card-hover"
+>
+  <img
+    src={heroImage}
+    alt={name}
+    width="800"
+    height="533"
+    loading={eager ? 'eager' : 'lazy'}
+    decoding="async"
+    class="absolute inset-0 h-full w-full object-cover transition-transform duration-500 group-hover:scale-105"
+  />
+  <div class="photo-overlay absolute inset-0"></div>
+  <div class="absolute inset-x-0 bottom-0 p-4">
+    <h3 class="photo-title font-display text-lg font-bold leading-tight">
+      {name}
+    </h3>
+    <p class="photo-title mt-1 line-clamp-2 text-xs opacity-95">
+      {description}
+    </p>
+  </div>
+</a>

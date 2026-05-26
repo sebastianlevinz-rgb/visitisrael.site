@@ -1,0 +1,16 @@
+---
+export interface Props {
+  schema: unknown | unknown[];
+}
+const { schema } = Astro.props;
+const blocks = Array.isArray(schema) ? schema : [schema];
+---
+
+{
+  blocks.map((b) => (
+    <script
+      type="application/ld+json"
+      set:html={JSON.stringify(b)}
+    />
+  ))
+}

@@ -1,0 +1,138 @@
+---
+lang: en
+title: "Things to Do in Haifa: Bahá’í World Centre Guide 2026"
+description: "Plan your Haifa trip — Bahá’í Gardens UNESCO terraces, German Colony, Stella Maris Monastery, Wadi Nisnas, Mount Carmel, and how to get there from Tel Aviv."
+slug: haifa
+region: haifa
+heroImage: /images/regions/haifa/hero.jpg
+primaryKeyword: things to do in haifa
+secondaryKeywords:
+  - bahai gardens haifa
+  - german colony haifa
+  - stella maris monastery
+  - mount carmel national park
+  - wadi nisnas
+  - haifa bahai world centre
+latitude: 32.794
+longitude: 34.9896
+publishedAt: 2026-05-11
+updatedAt: 2026-05-11
+faqs:
+  - question: How many days should I spend in Haifa?
+    answer: One full day covers the highlights — the Bahá’í Gardens public-access lower terraces on the free 12:00 tour, the German Colony for lunch and Templer architecture, and either Stella Maris Carmelite Monastery on the headland or Wadi Nisnas for hummus and Arab-Christian street art. Two days lets you add Mount Carmel National Park for a half-day hike and a Druze-village side trip to Daliyat al-Karmel. Most international visitors do not stay overnight in Haifa; they treat it as a day-trip from Tel Aviv (90 min by train) or pair it with Akko and Caesarea in a north-coast loop.
+  - question: When is the Bahá’í Gardens free public tour?
+    answer: The Bahá’í Gardens free public-access tour runs daily at 12:00 (English-language guide; check the official schedule as start times shift seasonally). The tour covers the upper-terrace overlook plus the lower-terrace gardens; the central terraces (around the Shrine of the Báb on terrace 11) are closed to non-Bahá’ís per Bahá’í convention. Independent visits to the upper-terrace overlook on Yefe Nof street are free and open daily. Photography is permitted of architectural and garden public-terrace subjects; photography of pilgrims and worshippers is not permitted per Bahá’í International Community guidance.
+  - question: Is Haifa worth visiting versus Tel Aviv or Jerusalem?
+    answer: Haifa covers a distinct register — a working Mediterranean port city, the world headquarters of the Bahá’í Faith with UNESCO-inscribed terraces, mixed Jewish, Arab-Christian, Arab-Muslim and small Druze populations, and the cooler Mount Carmel slopes above the coastline. It is less expensive than Tel Aviv, less religiously charged than Jerusalem, and more architecturally compact than either. Most travellers visit Haifa as a day-trip rather than an overnight base. The natural pairing is a north-coast loop — Haifa morning, Akko UNESCO Crusader Old City afternoon, return to Tel Aviv evening.
+  - question: How do I get to Haifa from Tel Aviv?
+    answer: Israel Railways runs the coastal line from Tel Aviv to Haifa in about 90 minutes; trains depart Tel Aviv Savidor every 30 minutes, stopping at Haifa Hof HaCarmel and Haifa Bat Galim stations. From either station, the Carmelit underground funicular climbs Mount Carmel to the city centre and the German Colony. Driving on Highway 2 takes 60 to 90 minutes depending on traffic. Civitatis and Viator both run Haifa + Akko + Caesarea day tours from central Tel Aviv hotels — collection 08:30, return 17:30.
+  - question: What is the Bahá’í World Centre and is it open to visitors?
+    answer: The Bahá’í World Centre is the spiritual and administrative headquarters of the Bahá’í Faith, located on the slopes of Mount Carmel in Haifa and centred on the Shrine of the Báb on terrace 11 of the 19-terrace UNESCO-inscribed gardens (UNESCO 2008). The terraced gardens are open to the public in two zones — the upper-terrace overlook on Yefe Nof street and the lower-terrace gardens at the foot of Ben-Gurion Avenue — with a free guided tour at 12:00 daily that links the two zones via the central terraces (visible from the path, not entered). The Shrine of the Báb itself is closed to non-Bahá’ís per Bahá’í convention. The governance buildings on the upper slope (the Universal House of Justice, the International Teaching Centre, and the Archives building) are not open to visitors.
+  - question: Can I photograph the Bahá’í Gardens?
+    answer: Photography of architectural and garden public-terrace subjects is permitted and widely practised — the upper-terrace overlook view down the 19 terraces toward the Mediterranean is among the most-photographed views in Israel. Photography of identifiable Bahá’í pilgrims and worshippers is not permitted per Bahá’í International Community guidance; the contemplative environment around the Shrine of the Báb is maintained accordingly. Commercial commissioning (paid photography for a monetized publication) requires written permission from press@bahai.org and a 4 to 6 week response cycle.
+  - question: Is Haifa safe and tolerant of all visitors?
+    answer: Haifa is one of the most mixed cities in Israel — Jewish, Arab-Christian, Arab-Muslim and a small Bahá’í community live and work alongside each other, with Wadi Nisnas (Arab-Christian quarter), the German Colony (Templer heritage), and the Carmel slopes (mixed residential) functioning as overlapping neighbourhoods rather than separated quarters. The annual Holiday of Holidays festival in December celebrates Hanukkah, Christmas and Ramadan together. Haifa is a working port city; standard travel precautions apply. The Bahá’í World Centre asks for contemplative respect on the upper inner terraces; standard tourist visits to the lower terraces and the upper-terrace overlook impose no constraint beyond that.
+  - question: Where should I eat in Haifa?
+    answer: Wadi Nisnas is the headline food quarter — long-running Arab-Christian hummus and falafel institutions (Falafel HaZkenim, Abu Shaker, Mama Falafel) and small fish restaurants near the market lanes. The German Colony brasseries (Fattoush, Douzan) serve mixed Levantine-Mediterranean food in restored Templer houses with garden seating facing the Bahá’í terraces. For a Druze pita and labneh side trip, the village of Daliyat al-Karmel on the Mount Carmel back side runs Saturday-market food stalls and small family restaurants — a 30 minute drive from the city centre. Haifa breakfast tradition is the Arab-style platter (hummus, ful, salads, fresh pita) rather than the Tel Aviv shakshuka-and-coffee model.
+---
+
+**Haifa** is Israel's third-largest city, a working Mediterranean port stretched along the slopes of **Mount Carmel** above a deep-water harbour, and the world headquarters of the **Bahá’í Faith** — the only city outside of Iran where the central spiritual and administrative institutions of the Bahá’í Faith sit on the same hillside. The **19-terrace gardens** that step down Mount Carmel from the Bahá’í governance buildings to Ben-Gurion Avenue in the German Colony were inscribed by **UNESCO** in 2008; they are widely considered the most striking architectural set-piece in Israel after the Jerusalem Old City. A complete guide to things to do in Haifa is also a guide to a particular kind of coexistence: Jewish, Arab-Christian, Arab-Muslim, and Bahá’í communities have lived and worked in the same urban fabric across Wadi Nisnas, the German Colony, Stella Maris on the headland, and the Carmel slopes for several generations.
+
+This guide covers when to come, where to stay across the German Colony boutique cluster and the Carmel slope residential hotels, the headline experiences (Bahá’í Gardens upper-terrace overlook and free 12:00 lower-terrace tour, German Colony Templer architecture, Stella Maris Carmelite Monastery, Wadi Nisnas food and street-art, Mount Carmel National Park), the natural north-coast pairings (Akko UNESCO Crusader Old City 30 minutes north, Caesarea Maritima 30 minutes south, Druze villages on the Carmel back side), the train and Carmelit funicular logistics from Tel Aviv, and the practical realities of visiting a working Mediterranean port city with a respected religious headquarters as its skyline anchor.
+
+## When to Visit Haifa
+
+The prime windows are **spring (March to May)** and **autumn (September to November)** — daytime highs of 20 to 26 degrees, Mount Carmel slopes green from the winter rains, and Mediterranean sea temperature comfortable for an afternoon at the city beaches. The Bahá’í Gardens are at their best when the rose-and-cypress plantings are in flower, which lines up with the shoulder seasons.
+
+**Summer** (June to August) is hot and humid in the coastal lower city — 28 to 32 degrees, Mediterranean humidity peaking around 70 percent on still days. The Carmel slope residential neighbourhoods sit 200 to 400 metres above the port and are noticeably cooler; the Stella Maris headland catches an onshore breeze. Most visitors plan morning archaeology in the gardens, midday lunch in the German Colony with garden seating, and afternoon at the Mount Carmel National Park slopes where the canopy mitigates the heat.
+
+**Winter** (December to February) is mild and wet — 12 to 17 degrees, occasional Mediterranean rain, and the most atmospheric light for the Bahá’í terraces (the long-shadow afternoon angles flatter the cypress allées). The Carmelit underground funicular runs irrespective of weather. **Hanukkah and Christmas** overlap in mid-to-late December; the annual **Holiday of Holidays festival** in Wadi Nisnas and the German Colony celebrates Hanukkah, Christmas and Ramadan together — locally significant and one of the more genuinely ecumenical events on the Israeli civic calendar.
+
+## Where to Stay in Haifa
+
+Haifa is not a tourist-overnight city the way Jerusalem or Tel Aviv are; most international visitors treat it as a day-trip from Tel Aviv or pair it with Akko and Caesarea in a north-coast loop. That said, three small accommodation clusters serve travellers who want to base in the city for a Mount Carmel-and-Bahá’í Gardens focused trip.
+
+**German Colony** is the boutique-and-walkable cluster — a handful of boutique hotels and serviced apartments along Ben-Gurion Avenue and the parallel streets, restored 19th-century Templer houses converted to small hotel use. Walking distance to the lower Bahá’í Gardens entrance and the brasseries; the visual axis up Ben-Gurion Avenue toward the Shrine of the Báb is the headline view in Haifa. Best for travellers who want the gardens-and-architecture focus.
+
+**Carmel slopes** is the residential mid-range cluster — three to five star hotels along Hanassi Avenue and the Carmel Centre area, 200 metres above the port. Cooler in summer, panoramic views over the Bay of Haifa and the harbour cranes, walking distance to the upper-terrace overlook. Better for travellers who want a quieter neighbourhood and the wide-angle harbour view.
+
+**Bat Galim and the port** is the budget cluster — guesthouses and apartments near the Bat Galim train station and the Stella Maris headland. Direct train access to Tel Aviv, walking distance to Stella Maris, but a 15 minute climb to the German Colony or 20 minutes to the upper-terrace overlook. Suited to short-budget visitors.
+
+## Top Things to Do in Haifa
+
+The Bahá’í World Centre is the headline draw; the German Colony and Wadi Nisnas are the contextualising neighbourhoods; Stella Maris and Mount Carmel National Park are the headland and natural pairings. Five experiences cover a thorough one-day or compact two-day visit.
+
+### Bahá’í Gardens (UNESCO terraces — public access zones)
+
+The **Bahá’í Gardens** step down Mount Carmel in 19 symmetrical terraces from the **Universal House of Justice** at the top to **Ben-Gurion Avenue** in the German Colony at the bottom. The terraces were inaugurated in 2001 and inscribed by **UNESCO** in 2008. The central terrace (terrace 11) is the **Shrine of the Báb** — the burial place of Sayyid 'Alí Muḥammad Shírází (the Báb, 1819-1850), the prophet-herald whose announcement preceded the founding of the Bahá’í Faith.
+
+Public access works in two zones. The **upper-terrace overlook** on Yefe Nof street is open daily, free, and offers the headline panorama down the 19 terraces toward the Mediterranean — the most-photographed view in Haifa. The **lower-terrace gardens** at the foot of Ben-Gurion Avenue are also open daily, free, and walkable. The **free guided tour at 12:00 daily** (English-language; check the official schedule for seasonal shifts) links the two via the central terraces (visible from the path, not entered).
+
+The Shrine of the Báb on terrace 11 is **closed to non-Bahá’ís** — this is a Bahá’í convention rather than a security closure; the central terraces are kept contemplative for pilgrims who come to visit the Shrine. The governance buildings on the upper slope (the **Universal House of Justice**, the **International Teaching Centre**, the **Centre for the Study of the Texts**, and the **Archives building**) are not open to visitors.
+
+**Photography policy:** architectural and garden public-terrace photography is permitted; photography of identifiable pilgrims and worshippers is not permitted per Bahá’í International Community guidance, and the contemplative environment on the upper inner terraces is maintained accordingly. Commercial commissioning requires written permission from press@bahai.org.
+
+### German Colony (Templer architecture + brasseries)
+
+The **German Colony** at the foot of Ben-Gurion Avenue is the 19th-century **Templer** settlement — German Protestant settlers who arrived in 1869 to build a model agricultural and craft community ahead of the expected Second Coming. The Templers built stone houses with pitched red-tile roofs along the wide central avenue, with biblical verses carved in German into the lintels (many still visible today). The community was expelled during the Second World War and the houses were restored from the 1990s onward as a heritage quarter and Bahá’í Gardens gateway.
+
+Today the German Colony is the dining and walkable quarter — **Fattoush** (Levantine-Mediterranean garden seating), **Douzan** (Armenian-Lebanese), **Ein el-Wadi** (Arabic mezze), and several boutique hotels along the central avenue. The visual axis up Ben-Gurion Avenue toward the Shrine of the Báb is the architectural set-piece. Best in late afternoon when the long shadow falls across the avenue and the cypress allées up the terraces glow against the sky.
+
+### Stella Maris Carmelite Monastery (Mount Carmel headland)
+
+**Stella Maris** is the **Carmelite Catholic monastery** on the northwest tip of Mount Carmel, above the Mediterranean and the Bat Galim port. Founded in **1631** by Prosper of the Holy Spirit on the traditional site of the **Cave of Elijah** (1 Kings 18), destroyed and rebuilt several times under Ottoman rule, the present basilica is 19th-century with an Antonio Barluzzi domed restoration. The **Discalced Carmelite Order** has its world headquarters here.
+
+The site has three components. The **upper basilica** has the Italian dome with a colourful interior fresco, the icon of Our Lady of Mount Carmel (the patronal Carmelite Madonna), and a small museum of the order's history. The **lower Cave of Elijah** is the actual biblical cave, traditionally identified as the place where the prophet Elijah took refuge before his contest with the prophets of Baal — venerated **ecumenically** by Catholic, Greek Orthodox, Muslim and Druze visitors (the Druze religious tradition reveres Elijah as a prophet; Muslim tradition associates him with Khidr). The **cliff-edge promenade** in front of the basilica gives the wide-angle Mediterranean view down toward Akko and the Bay of Haifa.
+
+Access by car or by the Carmelit funicular to the Gan HaEm station plus a 15 minute walk. Modest dress required inside the basilica; the Cave is accessed via a separate doorway and operates as a contemplative shrine.
+
+### Wadi Nisnas (Christian-Arab quarter + Holiday of Holidays)
+
+**Wadi Nisnas** is the long-running Arab-Christian quarter at the foot of Mount Carmel, between the lower city and Hadar HaCarmel. The neighbourhood is the heart of Arab-Christian Haifa — Greek Orthodox, Greek Catholic, Maronite and Roman Catholic parishes; small bakeries, hummus institutions, and street-art murals that overlap with the annual **Holiday of Holidays** festival in December (the city's signature ecumenical event, celebrating Hanukkah, Christmas and Ramadan together).
+
+For visitors, Wadi Nisnas is the city's headline food walk. **Falafel HaZkenim** ("Falafel of the Old Men", running since 1950), **Abu Shaker** and **Mama Falafel** are the long-running hummus and falafel institutions; the Wadi Nisnas market lanes also have small fish-and-chips counters and Arabic bakeries. The street-art murals (commissioned annually for the Holiday of Holidays) make a walk-and-eat itinerary in their own right; the Beit HaGefen Arab-Jewish Cultural Centre at the entrance to the quarter runs walking tours and ceramics workshops.
+
+### Mount Carmel National Park (Hai-Bar + Druze villages)
+
+**Mount Carmel National Park** covers the wooded back-slope of the mountain — Mediterranean pine and oak forest, walking trails, and the **Hai-Bar Carmel** wildlife reserve (gazelles, vultures, fallow deer reintroduced after near-extinction). The park is roughly 25 minutes from the city centre by car; trail heads at **Little Switzerland** (the closest to the city), **Etzba Cave**, and the **University of Haifa** entrance.
+
+The Druze villages of **Daliyat al-Karmel** and **Isfiya** sit on the Carmel mountain back-slope inside or adjacent to the park boundary. The Daliyat al-Karmel Saturday market is the headline visitor draw — Druze pita, labneh, Mount Carmel olive oil, and small family restaurants serving the traditional saj-bread-and-labneh plate. The Druze community is a distinct religious minority within the Israeli Arab population; Druze men serve in the Israeli army and the community holds full Israeli citizenship.
+
+## Day Trips from Haifa
+
+Haifa sits at the centre of the natural north-coast loop, with three major sites within 45 minutes by car or train.
+
+**Akko (Acre)** — 30 minutes north by train or car. The UNESCO Crusader Old City, the Hospitaller fortress, the Templar tunnels under the Old City, the el-Jazzar Mosque (Ottoman white-mosque from the 1780s), and the Akko fishing port. Pairs well with Haifa for a one-day north-coast loop — Haifa morning, Akko afternoon, return Tel Aviv evening.
+
+**Caesarea Maritima** — 30 minutes south. The UNESCO-inscribed Herodian Roman port + Crusader walls + Roman Theatre + Aqueduct Beach archaeology park (not to be confused with Caesarea Philippi / Banias in the Golan Heights, a completely different ancient site). See our Caesarea travel guide for the full archaeology walk-through.
+
+**Druze villages (Daliyat al-Karmel / Isfiya)** — 25 to 30 minutes by car on the Carmel back-slope. The Saturday market is the headline; weekday visits are quieter but the family restaurants stay open. The pairing with the Mount Carmel National Park makes a natural half-day combination.
+
+## How to Get to Haifa
+
+International flights to Israel land at **Ben Gurion International Airport (TLV)** near Tel Aviv. From there, three options reach Haifa.
+
+**Train** is the most efficient — Israel Railways coastal line runs every 30 minutes from Tel Aviv Savidor; the journey to **Haifa Hof HaCarmel** is 90 minutes; **Haifa Bat Galim** (closer to Stella Maris) is 95 minutes. The **Carmelit underground funicular** (Israel's only subway system, six stations from Paris Square up to Gan HaEm) connects the lower train stations to the German Colony and the Carmel slope hotels.
+
+**Rental car** is the flexible option — 60 to 90 minutes from central Tel Aviv on Highway 2 (the coastal highway), exit at the Haifa junction. Parking on the Carmel slopes is metered; parking in the German Colony and around the lower Bahá’í Gardens entrance is paid and competitive on weekends. The car is the natural choice if you plan to combine Haifa with Akko, Caesarea, or the Druze-village back-slope.
+
+**Day tour from Tel Aviv** — Civitatis and Viator both run Haifa + Akko + Caesarea day tours, with central Tel Aviv hotel pickup around 08:30 and return 17:30. The all-inclusive structure suits travellers who want a guide and don't want to drive.
+
+## Where to Eat in Haifa
+
+Haifa breakfast tradition is the Arab-style platter (hummus, ful medames, fresh pita, salads) rather than the Tel Aviv shakshuka-and-coffee model — try **Falafel HaZkenim** in Wadi Nisnas or **Hummus Eliyahu** below the upper terraces for the local register.
+
+**German Colony brasseries** — Fattoush (Levantine-Mediterranean garden seating along Ben-Gurion Avenue, with the Bahá’í terraces as the visual backdrop), Douzan (Armenian-Lebanese with a generous mezze format), Ein el-Wadi (Arabic family-style mezze). Best paired with a late-afternoon walk back up to the upper-terrace overlook for sunset.
+
+**Wadi Nisnas hummus + falafel institutions** — Falafel HaZkenim (since 1950, the Arab-Christian falafel benchmark), Abu Shaker (hummus + ful medames + amba pickle), and Mama Falafel; the small fish-and-chips counters along the market lanes are the working-port lunch register.
+
+**Druze pita + labneh (Daliyat al-Karmel)** — the Saturday market is the headline; small family restaurants in the village serve the traditional saj-bread-and-labneh plate, Mount Carmel olive oil, and grilled lamb. A 25 minute drive from the city centre; doubles as the Mount Carmel National Park lunch stop.
+
+## Practical Tips
+
+- **Bahá’í Gardens free public-tour 12:00 daily** — English-language; check the official schedule for seasonal shifts (Saturdays sometimes have different timings). The upper-terrace overlook is open daily independent of the tour.
+- **Shrine of the Báb on terrace 11 is closed to non-Bahá’ís** — this is a Bahá’í convention preserving the contemplative environment on the central terraces; the lower terraces and the upper-terrace overlook give the architectural views without entering the Shrine.
+- **Bahá’í photography policy** — architectural and public-terrace photography permitted; photography of pilgrims and worshippers not permitted per Bahá’í International Community guidance. Commercial commissioning requires written permission from press@bahai.org.
+- **Shabbat in Haifa** — partial closures Friday afternoon through Saturday afternoon; the German Colony brasseries and Wadi Nisnas Arab-Christian food stay open. The Carmelit funicular runs reduced hours on Shabbat; trains do not run Shabbat afternoon.
+- **Druze-village day** — Daliyat al-Karmel Saturday market is the most atmospheric; weekday visits work but with fewer market stalls.
+- **Modest dress at Stella Maris Monastery** — shoulders and knees covered for both men and women; shawls available at the entrance. The Cave of Elijah operates as a contemplative shrine.

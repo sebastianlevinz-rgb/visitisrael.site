@@ -1,0 +1,22 @@
+---
+import { AFFILIATE_IDS } from '@/config/affiliates';
+export interface Props {
+  lat: number;
+  lng: number;
+  label: string;
+}
+const { lat, lng, label } = Astro.props;
+const src = `https://www.stay22.com/embed/gm?aid=${AFFILIATE_IDS.STAY22_AID}&lat=${lat}&lng=${lng}&maincolor=1a6985`;
+---
+
+<div class="overflow-hidden rounded-card border border-border shadow-card">
+  <iframe
+    src={src}
+    title={`Hotel map for ${label}`}
+    loading="lazy"
+    referrerpolicy="no-referrer-when-downgrade"
+    class="h-[360px] w-full border-0"></iframe>
+</div>
+<p class="mt-1 text-center text-[11px] text-ink-muted">
+  Interactive hotel map · powered by Stay22
+</p>

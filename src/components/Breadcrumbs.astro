@@ -1,0 +1,27 @@
+---
+export interface Props {
+  items: { name: string; path: string }[];
+}
+const { items } = Astro.props;
+---
+
+<nav aria-label="Breadcrumb" class="mx-auto max-w-3xl px-4 pt-6">
+  <ol class="flex flex-wrap items-center gap-1.5 text-sm text-ink-muted">
+    {
+      items.map((it, i) => (
+        <li class="flex items-center gap-1.5">
+          {i < items.length - 1 ? (
+            <a href={it.path} class="no-underline hover:text-primary">
+              {it.name}
+            </a>
+          ) : (
+            <span aria-current="page" class="font-semibold text-ink">
+              {it.name}
+            </span>
+          )}
+          {i < items.length - 1 && <span aria-hidden="true">/</span>}
+        </li>
+      ))
+    }
+  </ol>
+</nav>

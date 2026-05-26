@@ -77,12 +77,12 @@ export const REGIONS: Region[] = [
     hero: '/images/regions/haifa/hero.jpg',
   },
   {
-    slug: 'golan-heights',
+    slug: 'golan',
     name: 'Golan Heights',
     tagline: 'Volcanic high country',
     blurb:
       'Wineries, hiking trails, Nimrod Fortress and panoramic viewpoints over the north.',
-    hero: '/images/regions/golan-heights/hero.jpg',
+    hero: '/images/regions/golan/hero.jpg',
   },
   {
     slug: 'caesarea',

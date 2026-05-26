@@ -86,5 +86,61 @@
     "licenseProof": "https://creativecommons.org/licenses/by-sa/4.0",
     "sourceUrl": "https://commons.wikimedia.org/wiki/File:Caesarea_national_park_is_located_almost_half_way_between_Tel_Aviv_and_Haifa._It_has_amazing_ancient_harbor_ruins,_beautiful_beaches,_impressive_restaurants_and_modern_residences._(16).jpg",
     "query": "Caesarea National Park Israel ruins"
+  },
+  "/images/sub-destinations/jerusalem/old-city.jpg": {
+    "src": "/images/sub-destinations/jerusalem/old-city.jpg",
+    "author": "Ian Scott",
+    "license": "CC BY-SA 2.0",
+    "licenseProof": "https://creativecommons.org/licenses/by-sa/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Old_Jerusalem_panorama_b_(6403877461).jpg",
+    "query": "Jerusalem Old City walls panorama"
+  },
+  "/images/sub-destinations/jerusalem/western-wall.jpg": {
+    "src": "/images/sub-destinations/jerusalem/western-wall.jpg",
+    "author": "Ian McKellar from San Francisco, CA, USA",
+    "license": "CC BY-SA 2.0",
+    "licenseProof": "https://creativecommons.org/licenses/by-sa/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Jerusalem_The_Western_Wall_(Kotel)_in_Jerusalem_(4348395982).jpg",
+    "query": "Western Wall Jerusalem plaza Kotel"
+  },
+  "/images/sub-destinations/jerusalem/holy-sepulchre.jpg": {
+    "src": "/images/sub-destinations/jerusalem/holy-sepulchre.jpg",
+    "author": "Berthold Werner",
+    "license": "CC BY-SA 3.0",
+    "licenseProof": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Jerusalem_Holy_Sepulchre_BW_19.JPG",
+    "query": "Church of the Holy Sepulchre Jerusalem facade"
+  },
+  "/images/sub-destinations/jerusalem/mahane-yehuda.jpg": {
+    "src": "/images/sub-destinations/jerusalem/mahane-yehuda.jpg",
+    "author": "-jkb-",
+    "license": "CC BY-SA 3.0",
+    "licenseProof": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mahane_Yehuda_Market_sales_2.JPG",
+    "query": "Mahane Yehuda Market Jerusalem"
+  },
+  "/images/sub-destinations/jerusalem/mount-of-olives.jpg": {
+    "src": "/images/sub-destinations/jerusalem/mount-of-olives.jpg",
+    "author": "Godot13",
+    "license": "CC BY-SA 4.0",
+    "licenseProof": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:2013-Aerial-Mount_of_Olives.jpg",
+    "query": "Mount of Olives Jerusalem view"
+  },
+  "/images/sub-destinations/jerusalem/yad-vashem.jpg": {
+    "src": "/images/sub-destinations/jerusalem/yad-vashem.jpg",
+    "author": "Godot13",
+    "license": "CC BY-SA 4.0",
+    "licenseProof": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Yad_Vashem_View.jpg",
+    "query": "Yad Vashem Holocaust memorial Jerusalem"
+  },
+  "/images/sub-destinations/jerusalem/city-of-david.jpg": {
+    "src": "/images/sub-destinations/jerusalem/city-of-david.jpg",
+    "author": "Avraham Graicer",
+    "license": "CC BY-SA 4.0",
+    "licenseProof": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:City_of_David,_Wadi_Hilweh_%E2%80%93_Palestinian_village,_Israeli_settlement,_Archaeological_site_%E2%80%93_from_the_air.jpg",
+    "query": "City of David archaeological site Jerusalem"
   }
 }

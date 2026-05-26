@@ -1,0 +1,203 @@
+---
+import { getCollection, render } from 'astro:content';
+import BaseLayout from '@/layouts/BaseLayout.astro';
+import Hero from '@/components/Hero.astro';
+import Breadcrumbs from '@/components/Breadcrumbs.astro';
+import AuthorByline from '@/components/AuthorByline.astro';
+import KeyFacts from '@/components/KeyFacts.astro';
+import AttractionCard from '@/components/AttractionCard.astro';
+import AffiliateCard from '@/components/AffiliateCard.astro';
+import InlineTourCTA from '@/components/InlineTourCTA.astro';
+import HotelCard from '@/components/HotelCard.astro';
+import Stay22Map from '@/components/Stay22Map.astro';
+import BestTimeTable from '@/components/BestTimeTable.astro';
+import DestinationCard from '@/components/DestinationCard.astro';
+import FaqSection from '@/components/FaqSection.astro';
+import PhotoGallery from '@/components/PhotoGallery.astro';
+import JsonLd from '@/components/JsonLd.astro';
+import { REGIONS, getRegion } from '@/data/regions';
+import { REGION_DATA, genericRegionData } from '@/data/regionData';
+import { attractionsForRegion, attractionName } from '@/lib/content';
+import { defaultAuthor } from '@/data/authors';
+import { affiliateUrl } from '@/config/affiliates';
+import { place, article, breadcrumbList, hotelList } from '@/lib/schema';
+
+export async function getStaticPaths() {
+  const regions = await getCollection('regions');
+  return regions.map((entry) => ({ params: { region: entry.id }, props: { entry } }));
+}
+
+const { entry } = Astro.props;
+const meta = getRegion(entry.id);
+const name = meta?.name ?? entry.data.title;
+const tagline = meta?.tagline ?? '';
+const hero = meta?.hero ?? entry.data.heroImage;
+
+const data = REGION_DATA[entry.id] ?? genericRegionData(entry.id, name, hero);
+const attractions = await attractionsForRegion(entry.id);
+const related = REGIONS.filter((r) => r.slug !== entry.id).slice(0, 3);
+const gallery = attractions
+  .slice(0, 4)
+  .map((a) => ({ src: a.data.heroImage, alt: `${attractionName(a)}, ${name}` }));
+const { Content } = await render(entry);
+
+const intro = data.intro ?? `${entry.data.description}`;
+const path = `/${entry.id}`;
+const flights = affiliateUrl('skyscanner', { destination: name });
+const insurance = affiliateUrl('safetywing', {});
+const esim = affiliateUrl('airalo', {});
+
+const schema = [
+  place({
+    type: 'TouristDestination',
+    name,
+    description: entry.data.description,
+    image: hero,
+    path,
+    latitude: entry.data.latitude,
+    longitude: entry.data.longitude,
+  }),
+  article({
+    headline: entry.data.title,
+    description: entry.data.description,
+    image: hero,
+    path,
+    authorName: defaultAuthor.name,
+    authorUrl: defaultAuthor.url,
+    datePublished: entry.data.publishedAt,
+    dateModified: entry.data.updatedAt,
+  }),
+  breadcrumbList([
+    { name: 'Home', path: '/' },
+    { name, path },
+  ]),
+  ...(data.hotels.length
+    ? [hotelList(data.hotels.map((h) => ({ name: h.name, url: path, rating: h.rating })), name)]
+    : []),
+];
+---
+
+<BaseLayout title={`${entry.data.title}`} description={entry.data.description} path={path} image={hero}>
+  <JsonLd slot="head" schema={schema} />
+
+  <Hero image={hero} title={name} subtitle={tagline} alt={`${name}, Israel`} height="tall" />
+  <Breadcrumbs items={[{ name: 'Home', path: '/' }, { name, path }]} />
+  <AuthorByline updated={entry.data.updatedAt} />
+
+  <!-- GEO intro (dense, first ~200 words). -->
+  <section class="mx-auto max-w-3xl px-4">
+    <p class="text-lg leading-relaxed text-ink">{intro}</p>
+    <KeyFacts facts={data.keyFacts} title={`${name} at a glance`} />
+  </section>
+
+  <!-- Top attractions with interspersed inline tour CTAs. -->
+  {
+    attractions.length > 0 && (
+      <section class="mx-auto max-w-6xl px-4 pt-6" aria-labelledby="things-to-do">
+        <p class="text-sm font-semibold uppercase tracking-widest text-primary">Things to do</p>
+        <h2 id="things-to-do" class="mb-5 font-display text-3xl font-bold text-ink">
+          Top attractions in {name}
+        </h2>
+        <div class="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3">
+          {attractions.map((a, i) => (
+            <AttractionCard attraction={a} eager={i < 3} />
+          ))}
+        </div>
+        <InlineTourCTA
+          partner={data.tours[0]?.partner ?? 'getyourguide'}
+          text={`Short on time? A guided tour is the fastest way to see the best of ${name}.`}
+          query={`${name} Israel tour`}
+          cta="Browse tours"
+        />
+      </section>
+    )
+  }
+
+  <!-- Featured tours — clean affiliate cards. -->
+  <section id="tours" class="mx-auto max-w-6xl px-4 pt-12" aria-labelledby="featured-tours">
+    <p class="text-sm font-semibold uppercase tracking-widest text-primary">Hand-picked</p>
+    <h2 id="featured-tours" class="mb-5 font-display text-3xl font-bold text-ink">
+      Best tours &amp; day trips in {name}
+    </h2>
+    <div class="grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-4">
+      {data.tours.map((t) => <AffiliateCard {...t} />)}
+    </div>
+  </section>
+
+  <!-- Where to stay. -->
+  <section id="where-to-stay" class="mx-auto max-w-6xl px-4 pt-14" aria-labelledby="stay">
+    <p class="text-sm font-semibold uppercase tracking-widest text-primary">Where to stay</p>
+    <h2 id="stay" class="mb-5 font-display text-3xl font-bold text-ink">
+      Best places to stay in {name}
+    </h2>
+    {
+      data.hotels.length > 0 ? (
+        <div class="grid gap-6 lg:grid-cols-2">
+          <div class="grid grid-cols-1 gap-4 sm:grid-cols-2">
+            {data.hotels.slice(0, 4).map((h) => (
+              <HotelCard hotel={h} regionName={name} />
+            ))}
+          </div>
+          {entry.data.latitude && entry.data.longitude && (
+            <Stay22Map lat={entry.data.latitude} lng={entry.data.longitude} label={name} />
+          )}
+        </div>
+      ) : (
+        <div class="rounded-card border border-border bg-card p-6 shadow-card">
+          <p class="text-ink-muted">
+            Compare hotels, guesthouses and apartments across {name} on Booking.com.
+          </p>
+          <a
+            href={affiliateUrl('booking', { destination: `${name}, Israel` })}
+            target="_blank"
+            rel="sponsored nofollow noopener"
+            class="mt-3 inline-block rounded-full bg-primary px-5 py-2.5 text-sm font-semibold text-white no-underline hover:bg-primary-hover"
+          >
+            Find hotels in {name}
+          </a>
+        </div>
+      )
+    }
+  </section>
+
+  <!-- Best time to visit. -->
+  {
+    data.bestTime && (
+      <section class="mx-auto max-w-3xl px-4 pt-14" aria-labelledby="best-time">
+        <h2 id="best-time" class="mb-4 font-display text-3xl font-bold text-ink">
+          Best time to visit {name}
+        </h2>
+        <BestTimeTable rows={data.bestTime} />
+      </section>
+    )
+  }
+
+  {gallery.length >= 3 && <PhotoGallery images={gallery} caption={`Highlights of ${name}`} />}
+
+  <!-- In-depth guide (the SEO-rich prose body, intentionally below the fold). -->
+  <article class="prose-content mx-auto max-w-3xl px-4 pt-14">
+    <h2 class="font-display !text-3xl">The complete {name} guide</h2>
+    <Content />
+  </article>
+
+  <!-- Before you go: flights / insurance / eSIM touchpoints. -->
+  <section class="mx-auto max-w-3xl px-4 pt-6">
+    <div class="grid gap-3 sm:grid-cols-3">
+      <a href={flights} target="_blank" rel="sponsored nofollow noopener" class="rounded-card border border-border bg-card p-4 text-center text-sm font-semibold text-ink no-underline shadow-card hover:shadow-card-hover">✈️ Find flights<br /><span class="text-xs font-normal text-ink-muted">via Skyscanner</span></a>
+      <a href={insurance} target="_blank" rel="sponsored nofollow noopener" class="rounded-card border border-border bg-card p-4 text-center text-sm font-semibold text-ink no-underline shadow-card hover:shadow-card-hover">🛡️ Travel insurance<br /><span class="text-xs font-normal text-ink-muted">via SafetyWing</span></a>
+      <a href={esim} target="_blank" rel="sponsored nofollow noopener" class="rounded-card border border-border bg-card p-4 text-center text-sm font-semibold text-ink no-underline shadow-card hover:shadow-card-hover">📶 Israel eSIM<br /><span class="text-xs font-normal text-ink-muted">via Airalo</span></a>
+    </div>
+  </section>
+
+  <FaqSection faqs={entry.data.faqs ?? []} />
+
+  <!-- Related regions (internal links). -->
+  <section class="mx-auto max-w-6xl px-4 pb-4" aria-labelledby="related">
+    <h2 id="related" class="mb-5 font-display text-3xl font-bold text-ink">Explore more of Israel</h2>
+    <div class="grid grid-cols-1 gap-5 sm:grid-cols-3">
+      {related.map((r) => <DestinationCard region={r} />)}
+    </div>
+  </section>
+
+  <AuthorByline updated={entry.data.updatedAt} />
+</BaseLayout>

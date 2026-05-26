@@ -1,0 +1,31 @@
+---
+export interface Props {
+  rows: { season: string; verdict: string; note: string }[];
+}
+const { rows } = Astro.props;
+const tone = (v: string) =>
+  /best/i.test(v) ? 'text-primary' : /hot|quiet/i.test(v) ? 'text-gold-deep' : 'text-ink-muted';
+---
+
+<div class="overflow-hidden rounded-card border border-border bg-card shadow-card">
+  <table class="w-full text-sm">
+    <thead>
+      <tr class="bg-sand-deep text-left">
+        <th class="px-4 py-2.5 font-bold">Season</th>
+        <th class="px-4 py-2.5 font-bold">Verdict</th>
+        <th class="px-4 py-2.5 font-bold">What to expect</th>
+      </tr>
+    </thead>
+    <tbody>
+      {
+        rows.map((r) => (
+          <tr class="border-t border-border">
+            <td class="px-4 py-2.5 font-semibold text-ink">{r.season}</td>
+            <td class={`px-4 py-2.5 font-semibold ${tone(r.verdict)}`}>{r.verdict}</td>
+            <td class="px-4 py-2.5 text-ink-muted">{r.note}</td>
+          </tr>
+        ))
+      }
+    </tbody>
+  </table>
+</div>

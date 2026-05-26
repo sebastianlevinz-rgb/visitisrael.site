@@ -1,0 +1,75 @@
+---
+lang: en
+title: "Mary's Well: Greek Orthodox Annunciation Site in Nazareth"
+description: "Visit Mary's Well in Nazareth — the Greek Orthodox Annunciation tradition, adjacent Greek Orthodox Church, ancient spring, hours and respectful visiting tips."
+slug: nazareth-marys-well
+region: nazareth
+parentRegion: nazareth
+heroImage: /images/sub-destinations/nazareth/marys-well.jpg
+religiousSiteId: marys-well
+primaryKeyword: marys well nazareth
+secondaryKeywords:
+  - greek orthodox church annunciation
+  - nazareth ein el adra
+  - marys well spring
+  - st gabriel church nazareth
+latitude: 32.7039
+longitude: 35.2986
+publishedAt: 2026-05-11
+updatedAt: 2026-05-11
+faqs:
+  - question: How much time should I spend at Mary's Well?
+    answer: 45 minutes to an hour covers both the open public fountain at street level and the adjacent Greek Orthodox Church of the Annunciation (also called St. Gabriel's Church) with the working spring in its crypt. Most pilgrim itineraries pair the visit with the Basilica of the Annunciation 10 minutes south for both Annunciation traditions in a single morning. Allow extra time on Sunday mornings when the church hosts the main Greek Orthodox liturgy.
+  - question: Why are there two Annunciation sites in Nazareth?
+    answer: The two Annunciation sites reflect two distinct Christian traditions about where the angel Gabriel met Mary. The Catholic Latin tradition places the Annunciation at Mary's home, the site enshrined within the Basilica of the Annunciation. The Greek Orthodox tradition places the Annunciation at the well where Mary drew water — Mary's Well, the spring at the northern edge of the Old City. Both traditions are visited respectfully by Christian pilgrims of every denomination, and most pilgrim itineraries include both sites.
+  - question: Is Mary's Well the same as the Greek Orthodox Church of the Annunciation?
+    answer: They are adjacent and form a single visit. The street-level fountain known as Mary's Well draws from a natural spring traditionally identified as the village water source in Mary's lifetime. The Greek Orthodox Church of the Annunciation (also called St. Gabriel's Church) is the small Byzantine-styled basilica built directly over the spring; the working spring is visible and accessible in the church's crypt. Pilgrims typically visit both as a unit.
+  - question: Is there an entrance fee at the Greek Orthodox Church of the Annunciation?
+    answer: No formal entrance fee, though small donations toward site upkeep are customary and welcomed at the candle stand inside the church. Modest dress is required — shoulders and knees covered for both men and women. The church is open daily during typical daytime hours (08:00 to 17:00) with adjustments for liturgy on Sundays and Greek Orthodox feast days.
+---
+
+**Mary's Well** — known in Arabic as **Ein el-Adra** ("the Virgin's Spring") and in Greek liturgy as the **Spring of the Annunciation** — sits at the northern edge of the Nazareth Old City, a sheltered fountain that draws from a natural spring traditionally identified as the village water source in Mary's lifetime. The **Greek Orthodox tradition** holds that the **Annunciation** took place at this well where Mary drew water, an account distinct from the Catholic Latin tradition centred at the Basilica of the Annunciation 10 minutes south.
+
+The adjacent **Greek Orthodox Church of the Annunciation** (also called **St. Gabriel's Church** in older Catholic sources, though the church belongs entirely to the Greek Orthodox Patriarchate of Jerusalem) is the architectural anchor of the site — a small Byzantine-styled basilica built directly over the spring, with the working spring visible and accessible in the church's crypt. The juxtaposition of the two Annunciation traditions — Catholic Latin at the Basilica + Greek Orthodox at Mary's Well — is the defining ecumenical feature of Christian pilgrimage in Nazareth, and the standard pilgrim itinerary visits both sites consecutively.
+
+## What is Mary's Well?
+
+The spring at Mary's Well is the only **natural year-round water source** in Nazareth — a critical fact for understanding the site's significance in Mary's lifetime. A 1st-century village clustered tightly around its water source; Mary, like every Nazareth woman of her time, would have walked daily to this spring to draw water for her household. The **Greek Orthodox tradition** holds that the angel Gabriel first appeared to Mary at this very spring, the **Annunciation** taking place there before Mary returned home — a sequence that differs from the Catholic Latin tradition (which places the Annunciation at Mary's home, the site preserved within the modern Basilica of the Annunciation).
+
+The site has several layered structures: the **street-level fountain** is the modern Ottoman-era public stone fountain (the current building dates from 1862, rebuilt several times over the centuries); behind and below it, the natural spring continues to flow through underground channels; above the spring, the **Greek Orthodox Church of the Annunciation** was built in the 18th century, with the church's crypt providing visitor access to the spring itself. The spring water has flowed continuously through every layer of construction.
+
+## Visiting Mary's Well Today
+
+**Access:** Mary's Well sits at the northern edge of the Old City, a 10-minute walk north from the Basilica of the Annunciation. Public parking is available at the small lot on Paulus VI Street; the fountain and church are both directly off the main street. **Hours:** The fountain is publicly accessible at street level at all hours; the Greek Orthodox Church is open daily 08:00 to 17:00 with adjustments on Sundays for liturgy and on Greek Orthodox feast days (the Greek Orthodox calendar uses the Julian dating system, so Christmas is celebrated in early January and Easter on a different date than the Catholic calendar). **Cost:** Free admission; small donations welcomed at the candle stand. **Dress:** Modest dress required inside the church — shoulders and knees covered.
+
+**Atmosphere:** The site is quieter than the Basilica of the Annunciation and feels more intimate — the church is small (a single-nave basilica with rich Byzantine-style iconography) and the spring crypt is a contemplative space. Greek Orthodox pilgrim groups attend regular liturgy here, especially on Greek Orthodox Annunciation day (March 25 or April 7 depending on the calendar) and on Greek Orthodox Christmas (January 7).
+
+## Top Things to See
+
+### The Public Fountain
+
+The street-level **Ottoman-era stone fountain** is the visible expression of the spring. The current structure was rebuilt in 1862 with traditional Galilee stonework; an older Ottoman fountain stood here from the 18th century, and earlier Mamluk and Crusader structures from the 13th century. The fountain is open to the street and is a working public water point — local Nazareth residents still draw water here today, particularly for religious observances.
+
+### The Greek Orthodox Church of the Annunciation
+
+The small **basilica directly behind and above the fountain** is the architectural anchor of the site. The interior is decorated with rich **Byzantine-style iconography** — the iconostasis (the icon-covered screen separating the sanctuary from the nave) and the walls of the nave are densely painted with scenes from the Gospel narrative and the lives of Eastern Christian saints. The acoustic and visual feel is distinctly Eastern Christian, with the contemplative atmosphere familiar from Greek Orthodox churches across the Holy Land. The church remains a working parish and hosts regular liturgy.
+
+### The Spring in the Crypt
+
+The most distinctive feature of the church is the **working spring in the crypt** — a stone basin in the lower level of the church holds water flowing directly from the natural spring, accessible to visitors. The crypt is the focal point of Greek Orthodox devotion at the site; pilgrims typically descend to the crypt for personal prayer and many fill small bottles with the spring water to take home. The crypt is preserved in the older Crusader-era stonework that long predated the current 18th-century church above it.
+
+## Tours and Visits
+
+Most travellers visit Mary's Well as part of a Nazareth pilgrim circuit that also covers the Basilica of the Annunciation and the Old City souq. The two Annunciation sites together make a coherent half-day in central Nazareth.
+
+## Practical Tips
+
+**Cover shoulders and knees** inside the church — the dress code is the same as at the Basilica. **Photography** is permitted in the church and crypt except during liturgy; visitors should be respectful and refrain from photographing pilgrims at prayer. **Combine the visit with the Basilica of the Annunciation** 10 minutes' walk south for the Catholic Latin Annunciation tradition; the two together cover both Christian traditions of the Annunciation in a single morning. **The Old City souq** runs south from Mary's Well to the Basilica — the walk between the two sites passes through the heart of the Arab-Israeli Old City and is itself part of the Nazareth visit.
+
+## Why Visit
+
+Mary's Well + the Greek Orthodox Church of the Annunciation is the **Eastern Christian Annunciation site** in Nazareth and the natural complement to the Catholic Basilica. Visiting both sites in sequence is the standard pilgrim approach and the only way to absorb the full ecumenical Christian tradition of the city. The working spring in the church crypt, the small basilica's rich Byzantine iconography, and the continuity of public water-drawing at the street fountain together give a stronger sense of 1st-century Nazareth than the larger Basilica can offer alone.
+
+## Nearby Attractions
+
+**Basilica of the Annunciation** is 10 minutes' walk south for the Catholic Latin Annunciation tradition. **Nazareth Old City + souq** is the walking corridor between the two Annunciation sites — slow exploration of the alleys is the natural way to absorb the Arab-Israeli character of the city. **Mount of Precipice** is a short drive south for the Jezreel Valley panorama. **Synagogue Church** (the Melkite Greek Catholic chapel built over the traditional 1st-century synagogue site where Jesus reportedly preached, Luke 4:16-30) is on the way between Mary's Well and the Basilica.
