@@ -1,6 +1,5 @@
 ---
 import { affiliateUrl } from '@/config/affiliates';
-import StarRating from '@/components/StarRating.astro';
 import type { Hotel } from '@/data/regionData';
 export interface Props {
   hotel: Hotel;
@@ -24,24 +23,18 @@ const tierLabel = { luxury: 'Luxury', value: 'Best value', hostel: 'Hostel' }[ho
         hotel.tier === 'hostel' && 'bg-sand-deep text-ink-muted',
       ]}>{tierLabel}</span
     >
-    <StarRating rating={hotel.rating} />
   </div>
   <h3 class="mt-2 font-display text-lg font-bold text-ink">{hotel.name}</h3>
   <p class="text-xs font-semibold uppercase tracking-wide text-ink-muted">
     {hotel.neighborhood}
   </p>
   <p class="mt-1.5 flex-1 text-sm text-ink-muted">{hotel.blurb}</p>
-  <div class="mt-3 flex items-center justify-between gap-3">
-    <p class="text-sm text-ink-muted">
-      from <span class="text-lg font-bold text-ink">${hotel.priceFrom}</span>
-      <span class="text-xs">/night</span>
-    </p>
-    <a
-      href={href}
-      target="_blank"
-      rel="sponsored nofollow noopener"
-      class="rounded-full bg-primary px-4 py-2 text-sm font-semibold text-white no-underline transition-colors hover:bg-primary-hover"
-      >Check rates</a
-    >
-  </div>
+  <a
+    href={href}
+    target="_blank"
+    rel="sponsored nofollow noopener"
+    class="mt-3 block rounded-full bg-primary px-4 py-2 text-center text-sm font-semibold text-white no-underline transition-colors hover:bg-primary-hover"
+    >Check rates &amp; availability</a
+  >
+  <p class="mt-1.5 text-center text-[11px] text-ink-muted">via Booking.com</p>
 </article>

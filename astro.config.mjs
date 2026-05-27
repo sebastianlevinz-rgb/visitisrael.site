@@ -1,6 +1,7 @@
 // @ts-check
 import { defineConfig } from 'astro/config';
 import sitemap from '@astrojs/sitemap';
+import pagefind from 'astro-pagefind';
 import tailwindcss from '@tailwindcss/vite';
 
 const SITE = 'https://visitisrael.site';
@@ -17,6 +18,7 @@ export default defineConfig({
       filter: (page) =>
         !/\/(dashboard|pitch|competitors|content-library)(\/|$)/.test(page),
     }),
+    pagefind(),
   ],
   image: {
     // Allow remote optimization only from Wikimedia (used by the photo pipeline

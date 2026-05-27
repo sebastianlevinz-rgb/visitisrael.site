@@ -1,6 +1,5 @@
 ---
 import { affiliateUrl, PARTNERS, type Partner } from '@/config/affiliates';
-import StarRating from '@/components/StarRating.astro';
 import AffiliateDisclosure from '@/components/AffiliateDisclosure.astro';
 
 export interface Props {
@@ -59,22 +58,15 @@ const href = affiliateUrl(partner, { destination, query, productId });
   </div>
 
   <div class="flex flex-1 flex-col gap-2 p-4">
-    {rating && <StarRating rating={rating} count={reviews} />}
     <h3 class="font-display text-lg font-bold leading-snug text-ink">{title}</h3>
     <p class="line-clamp-2 text-sm text-ink-muted">{description}</p>
 
     <div class="mt-auto pt-2">
-      {
-        priceFrom && (
-          <p class="mb-2 text-sm text-ink-muted">
-            from{' '}
-            <span class="text-lg font-bold text-ink">
-              {currency}
-              {priceFrom}
-            </span>
-          </p>
-        )
-      }
+      {/* Live, real price & reviews live on the partner site — we don't show
+          unverified figures here. */}
+      <p class="mb-2 text-sm text-ink-muted">
+        Live prices &amp; reviews on <span class="font-semibold text-ink">{meta.label}</span>
+      </p>
       {/* Disclosure DOM-precedes the affiliate link. */}
       <AffiliateDisclosure compact />
       <a

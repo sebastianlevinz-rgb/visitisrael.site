@@ -38,6 +38,12 @@ const path = `/${region}/${attractionSlug(entry)}`;
 const isReligious = Boolean(entry.data.religiousSiteId);
 const { Content } = await render(entry);
 
+const siblings = (await attractionsForRegion(region))
+  .filter((a) => a.id !== entry.id)
+  .slice(0, 3);
+// Distinct illustrative photos per tour card (no repeated image).
+const sibImg = (i: number) => siblings[i]?.data.heroImage ?? regionMeta?.hero ?? hero;
+
 const tours = [
   {
     partner: 'getyourguide' as const,
@@ -53,7 +59,7 @@ const tours = [
     partner: 'viator' as const,
     title: `${regionName} Highlights Tour`,
     description: `Small-group day tours of ${regionName} that take in ${name} and nearby sights.`,
-    image: regionMeta?.hero ?? hero,
+    image: sibImg(0),
     query: `${regionName} Israel highlights`,
     priceFrom: 59,
     rating: 4.6,
@@ -63,17 +69,13 @@ const tours = [
     partner: 'civitatis' as const,
     title: `${regionName} Walking Tour`,
     description: `English-language guided walks through ${regionName}'s historic core.`,
-    image: regionMeta?.hero ?? hero,
+    image: sibImg(1),
     query: `${regionName} Israel walking tour`,
     priceFrom: 29,
     rating: 4.6,
     reviews: 540,
   },
 ];
-
-const siblings = (await attractionsForRegion(region))
-  .filter((a) => a.id !== entry.id)
-  .slice(0, 3);
 
 const schema = [
   place({

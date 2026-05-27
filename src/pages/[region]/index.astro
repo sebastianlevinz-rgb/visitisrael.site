@@ -43,6 +43,12 @@ const { Content } = await render(entry);
 
 const intro = data.intro ?? `${entry.data.description}`;
 const path = `/${entry.id}`;
+// Give each featured-tour card a distinct photo from this region's attractions
+// (the tour images are illustrative) so no two cards repeat the same image.
+const tourCards = data.tours.map((t, i) => ({
+  ...t,
+  image: attractions.length ? (attractions[i % attractions.length]!.data.heroImage) : t.image,
+}));
 // Internal money-page links surfaced on every region page (competitor-gap pass).
 const essentials = [
   { href: '/best-tours-in-israel', label: 'Best tours', icon: '🎟️' },
@@ -126,7 +132,7 @@ const schema = [
       Best tours &amp; day trips in {name}
     </h2>
     <div class="grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-4">
-      {data.tours.map((t) => <AffiliateCard {...t} />)}
+      {tourCards.map((t) => <AffiliateCard {...t} />)}
     </div>
   </section>
 

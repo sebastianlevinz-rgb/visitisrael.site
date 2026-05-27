@@ -2,6 +2,12 @@
 import { REGIONS } from '@/data/regions';
 
 const navRegions = REGIONS.slice(0, 6);
+const planLinks = [
+  { href: '/itineraries', label: 'Itineraries' },
+  { href: '/best-tours-in-israel', label: 'Tours' },
+  { href: '/plan-your-trip', label: 'Plan your trip' },
+  { href: '/search', label: 'Search' },
+];
 ---
 
 <header
@@ -14,7 +20,8 @@ const navRegions = REGIONS.slice(0, 6);
       Visit<span class="text-primary">Israel</span>
     </a>
 
-    <nav aria-label="Regions" class="hidden items-center gap-5 lg:flex">
+    <!-- Desktop nav -->
+    <nav aria-label="Primary" class="hidden items-center gap-5 lg:flex">
       {
         navRegions.map((r) => (
           <a
@@ -32,11 +39,65 @@ const navRegions = REGIONS.slice(0, 6);
       >
     </nav>
 
-    <a
-      href="/plan-your-trip"
-      class="rounded-full bg-primary px-4 py-2 text-sm font-semibold text-white no-underline transition-colors hover:bg-primary-hover"
-    >
-      Plan your trip
-    </a>
+    <div class="flex items-center gap-2">
+      <a
+        href="/search"
+        aria-label="Search"
+        class="hidden h-10 w-10 place-items-center rounded-md text-ink-muted no-underline transition-colors hover:text-primary sm:grid"
+      >
+        <svg class="h-5 w-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="7" /><path d="M21 21l-4.3-4.3" /></svg>
+      </a>
+      <a
+        href="/plan-your-trip"
+        class="hidden rounded-full bg-primary px-4 py-2 text-sm font-semibold text-white no-underline transition-colors hover:bg-primary-hover sm:inline-block"
+      >
+        Plan your trip
+      </a>
+
+      <!-- Mobile menu (no-JS native disclosure) -->
+      <details class="group relative lg:hidden">
+        <summary
+          class="grid h-10 w-10 cursor-pointer list-none place-items-center rounded-md border border-border bg-card text-ink [&::-webkit-details-marker]:hidden"
+          aria-label="Open menu"
+        >
+          <svg class="h-5 w-5 group-open:hidden" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M4 6h16M4 12h16M4 18h16" /></svg>
+          <svg class="hidden h-5 w-5 group-open:block" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18" /></svg>
+        </summary>
+        <div
+          class="absolute right-0 top-12 max-h-[80vh] w-72 overflow-y-auto rounded-card border border-border bg-card p-4 shadow-card-hover"
+        >
+          <p class="mb-2 text-xs font-bold uppercase tracking-wide text-primary">Regions</p>
+          <ul class="grid grid-cols-2 gap-x-3 gap-y-1.5">
+            {
+              REGIONS.map((r) => (
+                <li>
+                  <a href={`/${r.slug}`} class="block py-1 text-sm text-ink no-underline hover:text-primary">
+                    {r.name}
+                  </a>
+                </li>
+              ))
+            }
+          </ul>
+          <p class="mb-2 mt-4 text-xs font-bold uppercase tracking-wide text-primary">Plan</p>
+          <ul class="space-y-1.5">
+            {
+              planLinks.map((l) => (
+                <li>
+                  <a href={l.href} class="block py-1 text-sm text-ink no-underline hover:text-primary">
+                    {l.label}
+                  </a>
+                </li>
+              ))
+            }
+          </ul>
+          <a
+            href="/plan-your-trip"
+            class="mt-4 block rounded-full bg-primary px-4 py-2.5 text-center text-sm font-semibold text-white no-underline hover:bg-primary-hover"
+          >
+            Plan your trip
+          </a>
+        </div>
+      </details>
+    </div>
   </div>
 </header>
