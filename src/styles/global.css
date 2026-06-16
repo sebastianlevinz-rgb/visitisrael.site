@@ -37,14 +37,35 @@
 
   /* Generous editorial radii + soft shadows */
   --radius-card: 1rem;
+  --radius-btn: 0.625rem;
   --shadow-card: 0 1px 2px rgb(31 36 33 / 0.04), 0 8px 24px rgb(31 36 33 / 0.08);
   --shadow-card-hover: 0 4px 8px rgb(31 36 33 / 0.06),
     0 16px 40px rgb(31 36 33 / 0.14);
+
+  /* Fluid modular type scale (base ~17→20px, perfect-fourth-ish), no breakpoints.
+     Drives Tailwind text-* utilities so hierarchy is mathematical, not hand-picked. */
+  --text-xs: clamp(0.78rem, 0.77rem + 0.05vw, 0.83rem);
+  --text-sm: clamp(0.94rem, 0.92rem + 0.1vw, 1rem);
+  --text-base: clamp(1.06rem, 1.04rem + 0.12vw, 1.25rem);
+  --text-lg: clamp(1.27rem, 1.2rem + 0.35vw, 1.56rem);
+  --text-xl: clamp(1.52rem, 1.4rem + 0.62vw, 1.95rem);
+  --text-2xl: clamp(1.83rem, 1.62rem + 1.05vw, 2.44rem);
+  --text-3xl: clamp(2.2rem, 1.86rem + 1.7vw, 3.05rem);
+  --text-display: clamp(2.6rem, 1.9rem + 3.6vw, 4.8rem);
+
+  /* 8-pt fluid spacing rhythm */
+  --spacing-section: clamp(3.5rem, 2.5rem + 5vw, 7rem);
+  --spacing-block: clamp(1.5rem, 1.1rem + 2vw, 2.5rem);
+
+  /* Apple-style motion: fast, eased, purposeful */
+  --ease-out: cubic-bezier(0.2, 0.7, 0.3, 1);
 }
 
 @layer base {
   html {
     scroll-behavior: smooth;
+    /* Anchored sections clear the sticky header */
+    scroll-padding-top: 5rem;
   }
   body {
     background-color: var(--color-sand);
@@ -72,9 +93,152 @@
     outline: 3px solid var(--color-primary);
     outline-offset: 2px;
   }
+  /* Tabular figures everywhere numbers are compared (prices, tables, facts) */
+  th,
+  td,
+  time,
+  .tabular {
+    font-variant-numeric: tabular-nums;
+  }
+  ::selection {
+    background: var(--color-primary-soft);
+    color: var(--color-ink);
+  }
+  /* Respect the user's motion preference globally */
+  @media (prefers-reduced-motion: reduce) {
+    html {
+      scroll-behavior: auto;
+    }
+    *,
+    *::before,
+    *::after {
+      animation-duration: 0.001ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 0.001ms !important;
+    }
+  }
 }
 
 @layer components {
+  /* ─── Button language ───────────────────────────────────────────────
+     One filled primary action visible at a time; everything else is ghost
+     or a text link. Gold is never a button color. */
+  .btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    border-radius: var(--radius-btn);
+    padding: 0.75rem 1.5rem;
+    font-weight: 600;
+    font-size: var(--text-sm);
+    text-decoration: none;
+    line-height: 1;
+    transition:
+      background 0.18s var(--ease-out),
+      border-color 0.18s var(--ease-out),
+      transform 0.18s var(--ease-out),
+      box-shadow 0.18s var(--ease-out);
+  }
+  .btn-primary {
+    background: var(--color-primary);
+    color: #fff;
+  }
+  .btn-primary:hover {
+    background: var(--color-primary-hover);
+    transform: translateY(-1px);
+    box-shadow: var(--shadow-card);
+  }
+  .btn-primary:active {
+    transform: translateY(0);
+  }
+  .btn-ghost {
+    border: 1.5px solid var(--color-border);
+    color: var(--color-ink);
+    background: transparent;
+  }
+  .btn-ghost:hover {
+    border-color: var(--color-primary);
+    color: var(--color-primary);
+  }
+  .btn-lg {
+    padding: 0.95rem 1.9rem;
+    font-size: var(--text-base);
+  }
+
+  /* ─── Section rhythm ────────────────────────────────────────────────── */
+  .section {
+    padding-block: var(--spacing-section);
+  }
+  .eyebrow {
+    font-size: var(--text-sm);
+    font-weight: 600;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: var(--color-primary);
+  }
+
+  /* ─── Scroll-reveal (fade-up only; JS just toggles .in) ─────────────── */
+  [data-reveal] {
+    opacity: 0;
+    transform: translateY(16px);
+    transition:
+      opacity 0.5s ease,
+      transform 0.5s var(--ease-out);
+  }
+  [data-reveal].in {
+    opacity: 1;
+    transform: none;
+  }
+
+  /* ─── Card image hover zoom ─────────────────────────────────────────── */
+  .img-zoom {
+    overflow: hidden;
+  }
+  .img-zoom img {
+    transition: transform 0.5s var(--ease-out);
+  }
+  .group:hover .img-zoom img,
+  .img-zoom:hover img {
+    transform: scale(1.04);
+  }
+
+  /* ─── Hero: very slow Ken Burns + scroll cue ───────────────────────── */
+  .hero-kenburns {
+    animation: kenburns 24s ease-out forwards;
+  }
+  @keyframes kenburns {
+    from {
+      transform: scale(1);
+    }
+    to {
+      transform: scale(1.06);
+    }
+  }
+  .scroll-cue {
+    animation: bob 1.8s var(--ease-out) infinite;
+  }
+  @keyframes bob {
+    0%,
+    100% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(6px);
+    }
+  }
+  @media (prefers-reduced-motion: reduce) {
+    .hero-kenburns,
+    .scroll-cue {
+      animation: none;
+    }
+    [data-reveal] {
+      opacity: 1;
+      transform: none;
+      transition: none;
+    }
+  }
+
   /* The hero/card legibility contract: pure-white text over a dark
      bottom-up gradient so titles read perfectly over any photo. */
   .photo-overlay {
@@ -98,14 +262,15 @@
     margin-top: 1.1em;
   }
   .prose-content h2 {
-    font-size: 1.9rem;
+    font-size: var(--text-2xl);
     margin-top: 2.2rem;
     margin-bottom: 0.2rem;
     scroll-margin-top: 5rem;
   }
   .prose-content h3 {
-    font-size: 1.4rem;
+    font-size: var(--text-xl);
     margin-top: 1.6rem;
+    scroll-margin-top: 5rem;
   }
   .prose-content p,
   .prose-content li {

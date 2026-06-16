@@ -10,10 +10,6 @@ export interface Props {
   destination?: string;
   query?: string;
   productId?: string;
-  priceFrom?: number;
-  currency?: string;
-  rating?: number;
-  reviews?: number;
   cta?: string;
 }
 const {
@@ -24,10 +20,6 @@ const {
   destination,
   query,
   productId,
-  priceFrom,
-  currency = '$',
-  rating,
-  reviews,
   cta = 'Book now',
 } = Astro.props;
 
@@ -36,11 +28,11 @@ const href = affiliateUrl(partner, { destination, query, productId });
 ---
 
 <article
-  class="flex flex-col overflow-hidden rounded-card border border-border bg-card shadow-card transition-shadow hover:shadow-card-hover"
+  class="group flex flex-col overflow-hidden rounded-card border border-border bg-card shadow-card transition-shadow hover:shadow-card-hover"
   data-affiliate-card
   data-partner={partner}
 >
-  <div class="relative aspect-[16/10] overflow-hidden">
+  <div class="img-zoom relative aspect-[16/10]">
     <img
       src={image}
       alt={title}

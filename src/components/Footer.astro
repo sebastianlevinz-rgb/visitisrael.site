@@ -7,7 +7,7 @@ const { year } = Astro.props;
 ---
 
 <footer class="mt-20 border-t border-border bg-sand-deep">
-  <div class="mx-auto grid max-w-6xl gap-8 px-4 py-12 sm:grid-cols-2 lg:grid-cols-5">
+  <div class="mx-auto grid max-w-6xl gap-8 px-4 py-12 sm:grid-cols-2 lg:grid-cols-6">
     <div>
       <p class="font-display text-lg font-bold text-ink">
         Visit<span class="text-primary">Israel</span>
@@ -40,10 +40,26 @@ const { year } = Astro.props;
       <h2 class="text-sm font-bold uppercase tracking-wide text-ink">Plan</h2>
       <ul class="mt-3 space-y-1.5">
         <li><a href="/itineraries" class="text-sm text-ink-muted no-underline hover:text-primary">Itineraries</a></li>
+        <li><a href="/plan-your-trip" class="text-sm text-ink-muted no-underline hover:text-primary">Plan your trip</a></li>
         <li><a href="/first-time-in-israel" class="text-sm text-ink-muted no-underline hover:text-primary">First time in Israel</a></li>
         <li><a href="/israel-cost-budget" class="text-sm text-ink-muted no-underline hover:text-primary">Cost &amp; budget</a></li>
+        <li><a href="/israel-trip-cost-calculator" class="text-sm text-ink-muted no-underline hover:text-primary">Cost calculator</a></li>
         <li><a href="/transportation" class="text-sm text-ink-muted no-underline hover:text-primary">Getting around</a></li>
+        <li><a href="/tel-aviv-to-jerusalem" class="text-sm text-ink-muted no-underline hover:text-primary">Tel Aviv → Jerusalem</a></li>
+        <li><a href="/whats-open-on-shabbat" class="text-sm text-ink-muted no-underline hover:text-primary">What's open on Shabbat</a></li>
         <li><a href="/is-israel-safe" class="text-sm text-ink-muted no-underline hover:text-primary">Is Israel safe?</a></li>
+      </ul>
+    </div>
+
+    <div>
+      <h2 class="text-sm font-bold uppercase tracking-wide text-ink">Day trips</h2>
+      <ul class="mt-3 space-y-1.5">
+        <li><a href="/masada-dead-sea-day-trip" class="text-sm text-ink-muted no-underline hover:text-primary">Masada &amp; Dead Sea</a></li>
+        <li><a href="/jerusalem-bethlehem-day-trip" class="text-sm text-ink-muted no-underline hover:text-primary">Jerusalem &amp; Bethlehem</a></li>
+        <li><a href="/nazareth-sea-of-galilee-day-trip" class="text-sm text-ink-muted no-underline hover:text-primary">Nazareth &amp; Galilee</a></li>
+        <li><a href="/petra-from-israel" class="text-sm text-ink-muted no-underline hover:text-primary">Petra from Israel</a></li>
+        <li><a href="/day-trips-from-jerusalem" class="text-sm text-ink-muted no-underline hover:text-primary">From Jerusalem</a></li>
+        <li><a href="/day-trips-from-tel-aviv" class="text-sm text-ink-muted no-underline hover:text-primary">From Tel Aviv</a></li>
       </ul>
     </div>
 
@@ -51,9 +67,10 @@ const { year } = Astro.props;
       <h2 class="text-sm font-bold uppercase tracking-wide text-ink">Essentials</h2>
       <ul class="mt-3 space-y-1.5">
         <li><a href="/best-tours-in-israel" class="text-sm text-ink-muted no-underline hover:text-primary">Best tours</a></li>
-        <li><a href="/israel-tour-packages" class="text-sm text-ink-muted no-underline hover:text-primary">Tour packages</a></li>
+        <li><a href="/israel-with-kids" class="text-sm text-ink-muted no-underline hover:text-primary">Israel with kids</a></li>
+        <li><a href="/hiking-in-israel" class="text-sm text-ink-muted no-underline hover:text-primary">Hiking in Israel</a></li>
+        <li><a href="/lgbtq-travel-israel" class="text-sm text-ink-muted no-underline hover:text-primary">LGBTQ travel</a></li>
         <li><a href="/ben-gurion-airport-transfers" class="text-sm text-ink-muted no-underline hover:text-primary">Airport transfers</a></li>
-        <li><a href="/car-rental-israel" class="text-sm text-ink-muted no-underline hover:text-primary">Car rental</a></li>
         <li><a href="/israel-esim" class="text-sm text-ink-muted no-underline hover:text-primary">Israel eSIM</a></li>
         <li><a href="/israel-travel-insurance" class="text-sm text-ink-muted no-underline hover:text-primary">Travel insurance</a></li>
       </ul>
@@ -70,31 +87,10 @@ const { year } = Astro.props;
   </div>
 
   <div class="border-t border-border">
-    <div
-      class="mx-auto flex max-w-6xl flex-wrap items-center gap-x-4 gap-y-1 px-4 pt-4 text-xs text-ink-muted"
-    >
-      <span class="font-semibold uppercase tracking-wide">Internal</span>
-      {
-        [
-          { href: '/dashboard', label: 'Dashboard' },
-          { href: '/dashboard/seo', label: 'SEO Intelligence' },
-          { href: '/competitors', label: 'Competitors' },
-          { href: '/pitch', label: 'Pitch' },
-          { href: '/content-library', label: 'Content Library' },
-        ].map((l) => (
-          <a
-            href={l.href}
-            rel="nofollow"
-            class="no-underline hover:text-primary"
-          >
-            {l.label}
-          </a>
-        ))
-      }
-    </div>
-    <p class="mx-auto max-w-6xl px-4 pb-5 pt-3 text-xs text-ink-muted">
-      © {year} VisitIsrael.site · Photography via Wikimedia Commons under their
-      respective free licenses. This site contains affiliate links.
+    <p class="mx-auto max-w-6xl px-4 pb-6 pt-4 text-xs text-ink-muted">
+      © {year} VisitIsrael.site · An independent travel guide. Photography via
+      Wikimedia Commons and original AI-assisted artwork. This site contains
+      affiliate links.
     </p>
   </div>
 </footer>
