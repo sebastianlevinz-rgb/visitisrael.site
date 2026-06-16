@@ -79,3 +79,4 @@ data/a11y-il-results.json
 
 # Local audit reports + AI image samples (not for repo)
 .audit/
+.preview.log
