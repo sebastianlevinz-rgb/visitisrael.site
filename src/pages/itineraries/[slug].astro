@@ -26,9 +26,9 @@ const crumbs = [
   { name: d.title, path },
 ];
 const tours = [
-  { partner: 'getyourguide' as const, title: 'Jerusalem Old City Tour', description: 'Walk the four quarters and the holy sites with a local guide.', image: '/images/regions/jerusalem/hero.jpg', query: 'Jerusalem Old City tour', priceFrom: 39, rating: 4.8, reviews: 5120 },
-  { partner: 'viator' as const, title: 'Masada & Dead Sea Day Trip', description: 'Sunrise at Masada and a float in the Dead Sea.', image: '/images/regions/dead-sea/hero.jpg', query: 'Masada Dead Sea day trip', priceFrom: 95, rating: 4.7, reviews: 3380 },
-  { partner: 'civitatis' as const, title: 'Tel Aviv & Jaffa Food Tour', description: 'Graze the Carmel Market and Old Jaffa with a foodie guide.', image: '/images/regions/tel-aviv/hero.jpg', query: 'Tel Aviv Jaffa food tour', priceFrom: 79, rating: 4.9, reviews: 1840 },
+  { partner: 'getyourguide' as const, title: 'Jerusalem Old City Tour', description: 'Walk the four quarters and the holy sites with a local guide.', image: '/images/regions/jerusalem/hero.jpg', query: 'Jerusalem Old City tour' },
+  { partner: 'viator' as const, title: 'Masada & Dead Sea Day Trip', description: 'Sunrise at Masada and a float in the Dead Sea.', image: '/images/regions/dead-sea/hero.jpg', query: 'Masada Dead Sea day trip' },
+  { partner: 'civitatis' as const, title: 'Tel Aviv & Jaffa Food Tour', description: 'Graze the Carmel Market and Old Jaffa with a foodie guide.', image: '/images/regions/tel-aviv/hero.jpg', query: 'Tel Aviv Jaffa food tour' },
 ];
 const schema = [
   article({ headline: d.title, description: d.description, image: hero, path, authorName: defaultAuthor.name, authorUrl: defaultAuthor.url, datePublished: d.publishedAt, dateModified: d.updatedAt }),
