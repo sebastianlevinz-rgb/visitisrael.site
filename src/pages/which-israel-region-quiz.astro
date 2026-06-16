@@ -1,0 +1,339 @@
+---
+import BaseLayout from '@/layouts/BaseLayout.astro';
+import Hero from '@/components/Hero.astro';
+import Breadcrumbs from '@/components/Breadcrumbs.astro';
+import JsonLd from '@/components/JsonLd.astro';
+import { breadcrumbList, faqPage } from '@/lib/schema';
+import { REGIONS } from '@/data/regions';
+
+const title = 'Which Israel Region Should You Visit? Free Quiz';
+const description =
+  'Take this quick 6-question quiz to find which parts of Israel suit you best — from Jerusalem’s history to Tel Aviv’s beaches, the Negev desert, the Galilee and Eilat’s Red Sea — with links to plan each one.';
+
+const crumbs = [
+  { name: 'Home', path: '/' },
+  { name: 'Which region quiz', path: '/which-israel-region-quiz' },
+];
+
+const faqs = [
+  {
+    question: 'How do I choose where to go in Israel?',
+    answer:
+      'Start with what you love — history and faith point to Jerusalem and Nazareth, beaches and nightlife to Tel Aviv and Eilat, nature and hiking to the Galilee, Golan and Negev, and food to Tel Aviv, Jerusalem and Haifa. The quiz above weighs your answers and suggests two or three regions that fit, all close enough to combine on one trip.',
+  },
+  {
+    question: 'How many regions can I see in one week in Israel?',
+    answer:
+      'Israel is small, so a week comfortably covers two or three areas — for example Jerusalem, the Dead Sea and Tel Aviv, or Tel Aviv, the Galilee and the Golan. The quiz recommends a top handful so you can build a focused route rather than rushing everywhere.',
+  },
+  {
+    question: 'Is this quiz a real itinerary?',
+    answer:
+      'It’s a starting point. The quiz scores the 11 regions against your interests and links you straight to each region guide, where you’ll find what to do, where to stay and how long to spend. From there, our itineraries stitch regions into day-by-day plans.',
+  },
+];
+
+const schema = [breadcrumbList(crumbs), faqPage(faqs)];
+
+// Quiz questions. Each option awards points to region slugs.
+const questions = [
+  {
+    q: 'What pulls you to a place most?',
+    opts: [
+      { label: 'History, ruins & sacred sites', score: { jerusalem: 3, nazareth: 2, caesarea: 2, akko: 2 } },
+      { label: 'Beaches, bars & city buzz', score: { 'tel-aviv': 3, eilat: 2, haifa: 1 } },
+      { label: 'Mountains, trails & wide-open nature', score: { golan: 3, galilee: 2, negev: 2, 'dead-sea': 1 } },
+      { label: 'Food, markets & wine', score: { 'tel-aviv': 2, jerusalem: 2, haifa: 1, galilee: 1, golan: 1 } },
+    ],
+  },
+  {
+    q: 'How do you feel about faith and pilgrimage?',
+    opts: [
+      { label: 'It’s the whole reason I’m going', score: { jerusalem: 3, nazareth: 3, galilee: 2 } },
+      { label: 'Interested, but not only that', score: { jerusalem: 2, nazareth: 1, akko: 1, haifa: 1 } },
+      { label: 'I’d rather skip the religious stuff', score: { 'tel-aviv': 2, eilat: 2, golan: 1, negev: 1 } },
+    ],
+  },
+  {
+    q: 'Pick your ideal day off.',
+    opts: [
+      { label: 'Floating in water and doing nothing', score: { 'dead-sea': 3, eilat: 2, 'tel-aviv': 1 } },
+      { label: 'A long hike to a big view', score: { golan: 3, negev: 2, galilee: 2 } },
+      { label: 'Wandering an old city on foot', score: { jerusalem: 2, akko: 2, nazareth: 1, caesarea: 1 } },
+      { label: 'Snorkelling or diving', score: { eilat: 3 } },
+    ],
+  },
+  {
+    q: 'What’s your travel pace?',
+    opts: [
+      { label: 'Slow and restful', score: { 'dead-sea': 2, galilee: 2, golan: 1, caesarea: 1 } },
+      { label: 'Busy — pack it in', score: { jerusalem: 2, 'tel-aviv': 2, akko: 1 } },
+      { label: 'Adventurous & outdoorsy', score: { negev: 2, golan: 2, eilat: 1 } },
+    ],
+  },
+  {
+    q: 'How does your budget look?',
+    opts: [
+      { label: 'Watching every shekel', score: { jerusalem: 2, negev: 2, nazareth: 1, akko: 1 } },
+      { label: 'Comfortable mid-range', score: { 'tel-aviv': 1, galilee: 1, haifa: 1, 'dead-sea': 1, caesarea: 1 } },
+      { label: 'Treating myself', score: { 'tel-aviv': 2, eilat: 2, 'dead-sea': 1 } },
+    ],
+  },
+  {
+    q: 'Sea or scenery?',
+    opts: [
+      { label: 'Mediterranean coast', score: { 'tel-aviv': 2, haifa: 2, caesarea: 2, akko: 1 } },
+      { label: 'Red Sea & coral', score: { eilat: 3 } },
+      { label: 'Desert & craters', score: { negev: 3, 'dead-sea': 2 } },
+      { label: 'Green hills & lakes', score: { galilee: 3, golan: 2 } },
+    ],
+  },
+];
+
+// Serialise region data for the client script.
+const regionData = REGIONS.map((r) => ({
+  slug: r.slug,
+  name: r.name,
+  tagline: r.tagline,
+  blurb: r.blurb,
+  hero: r.hero,
+}));
+---
+
+<BaseLayout
+  title={title}
+  description={description}
+  path="/which-israel-region-quiz"
+  image="/images/regions/negev/hero.jpg"
+  imageAlt="Which region of Israel should you visit?"
+>
+  <JsonLd schema={schema} slot="head" />
+  <Hero
+    image="/images/regions/negev/hero.jpg"
+    title="Which Israel Region Suits You?"
+    subtitle="Six quick questions, then we’ll point you at the two or three corners of Israel you’ll love most."
+    alt="Makhtesh Ramon in the Negev desert — choosing where to go in Israel"
+  />
+  <Breadcrumbs items={crumbs} />
+
+  <section class="mx-auto max-w-3xl px-4 pt-10">
+    <p class="eyebrow" data-reveal>Find your fit</p>
+    <h2 class="font-display text-3xl font-bold text-ink" data-reveal>
+      Take the quiz
+    </h2>
+    <p class="mt-2 text-ink-muted" data-reveal>
+      No email, nothing saved — it all happens right here in your browser. Browse
+      every region on the <a href="/" class="font-semibold text-primary">home page</a> if you’d
+      rather explore freely.
+    </p>
+
+    <!-- Quiz form -->
+    <form id="quiz" class="mt-8 space-y-6" aria-label="Region quiz">
+      {
+        questions.map((item, qi) => (
+          <fieldset class="rounded-card border border-border bg-card p-5 shadow-card">
+            <legend class="font-display text-lg font-bold text-ink">
+              <span class="text-primary">{qi + 1}.</span> {item.q}
+            </legend>
+            <div class="mt-3 grid gap-2">
+              {item.opts.map((opt, oi) => (
+                <label class="quiz-opt">
+                  <input
+                    type="radio"
+                    name={`q${qi}`}
+                    value={oi}
+                    class="sr-only"
+                    data-q={qi}
+                  />
+                  <span>{opt.label}</span>
+                </label>
+              ))}
+            </div>
+          </fieldset>
+        ))
+      }
+
+      <div class="flex flex-wrap items-center gap-3">
+        <button type="submit" class="btn btn-primary">See my regions</button>
+        <button type="button" id="retake" class="btn btn-ghost" hidden>Retake quiz</button>
+        <span id="answered" class="text-sm text-ink-muted" aria-live="polite"></span>
+      </div>
+    </form>
+
+    <!-- Results -->
+    <div id="results" class="mt-10 scroll-mt-6" aria-live="polite" tabindex="-1" hidden>
+      <h2 class="font-display text-2xl font-bold text-ink">Your top matches</h2>
+      <p class="mt-1 text-ink-muted">
+        Based on your answers — close enough to combine on one trip.
+      </p>
+      <div id="result-cards" class="mt-5 grid gap-5 sm:grid-cols-2"></div>
+      <div class="mt-6 flex flex-wrap gap-3">
+        <a href="/itineraries" class="btn btn-primary">Turn it into an itinerary</a>
+        <a href="/plan-your-trip" class="btn btn-ghost">Plan your trip</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="mx-auto max-w-3xl px-4 pb-4 pt-14">
+    <h2 class="mb-4 font-display text-2xl font-bold text-ink">
+      Frequently asked questions
+    </h2>
+    <div class="space-y-4">
+      {
+        faqs.map((f) => (
+          <details class="rounded-card border border-border bg-card p-4">
+            <summary class="cursor-pointer font-semibold text-ink">
+              {f.question}
+            </summary>
+            <p class="mt-2 text-ink-muted">{f.answer}</p>
+          </details>
+        ))
+      }
+    </div>
+  </section>
+
+  <script
+    is:inline
+    type="application/json"
+    id="quiz-data"
+    set:html={JSON.stringify({ questions, regions: regionData })}
+  />
+</BaseLayout>
+
+<style>
+  .quiz-opt {
+    display: block;
+    cursor: pointer;
+    border-radius: var(--radius-btn);
+    border: 1.5px solid var(--color-border);
+    padding: 0.7rem 0.9rem;
+    font-size: var(--text-base);
+    font-weight: 500;
+    color: var(--color-ink);
+    transition:
+      border-color 0.18s ease,
+      background 0.18s ease,
+      color 0.18s ease;
+  }
+  .quiz-opt:has(input:checked) {
+    border-color: var(--color-primary);
+    background: var(--color-primary-soft);
+    color: var(--color-primary);
+    font-weight: 600;
+  }
+  .quiz-opt:has(input:focus-visible) {
+    outline: 3px solid var(--color-primary);
+    outline-offset: 2px;
+  }
+</style>
+
+<script is:inline>
+  (function () {
+    var node = document.getElementById('quiz-data');
+    if (!node) return;
+    var DATA = JSON.parse(node.textContent);
+    var QS = DATA.questions;
+    var REGIONS = DATA.regions;
+    var byslug = {};
+    REGIONS.forEach(function (r) { byslug[r.slug] = r; });
+
+    var form = document.getElementById('quiz');
+    var results = document.getElementById('results');
+    var cards = document.getElementById('result-cards');
+    var retake = document.getElementById('retake');
+    var answered = document.getElementById('answered');
+
+    function countAnswered() {
+      var n = 0;
+      for (var i = 0; i < QS.length; i++) {
+        if (form.querySelector('input[name="q' + i + '"]:checked')) n++;
+      }
+      return n;
+    }
+
+    function updateCount() {
+      var n = countAnswered();
+      answered.textContent = n + ' / ' + QS.length + ' answered';
+    }
+
+    form.addEventListener('change', updateCount);
+
+    function score() {
+      var totals = {};
+      REGIONS.forEach(function (r) { totals[r.slug] = 0; });
+      for (var i = 0; i < QS.length; i++) {
+        var sel = form.querySelector('input[name="q' + i + '"]:checked');
+        if (!sel) continue;
+        var opt = QS[i].opts[parseInt(sel.value, 10)];
+        if (!opt) continue;
+        for (var slug in opt.score) {
+          totals[slug] = (totals[slug] || 0) + opt.score[slug];
+        }
+      }
+      return totals;
+    }
+
+    function render(top) {
+      cards.innerHTML = '';
+      top.forEach(function (entry, idx) {
+        var r = byslug[entry.slug];
+        if (!r) return;
+        var a = document.createElement('a');
+        a.href = '/' + r.slug;
+        a.className =
+          'group block overflow-hidden rounded-card border border-border bg-card shadow-card transition hover:shadow-lg focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary';
+        var img = document.createElement('img');
+        img.src = r.hero;
+        img.alt = r.name;
+        img.width = 800;
+        img.height = 500;
+        img.loading = 'lazy';
+        img.decoding = 'async';
+        img.className = 'h-40 w-full object-cover';
+        var body = document.createElement('div');
+        body.className = 'p-4';
+        var badge = idx === 0 ? 'Top match' : 'Also a great fit';
+        body.innerHTML =
+          '<p class="eyebrow">' + badge + '</p>' +
+          '<h3 class="mt-1 font-display text-xl font-bold text-ink">' + r.name + '</h3>' +
+          '<p class="text-sm font-semibold text-primary">' + r.tagline + '</p>' +
+          '<p class="mt-2 text-sm text-ink-muted">' + r.blurb + '</p>' +
+          '<span class="mt-3 inline-block text-sm font-semibold text-primary group-hover:underline">Explore ' + r.name + ' &rarr;</span>';
+        a.appendChild(img);
+        a.appendChild(body);
+        cards.appendChild(a);
+      });
+    }
+
+    form.addEventListener('submit', function (e) {
+      e.preventDefault();
+      if (countAnswered() === 0) {
+        answered.textContent = 'Pick at least one answer to get a result.';
+        return;
+      }
+      var totals = score();
+      var ranked = Object.keys(totals)
+        .map(function (slug) { return { slug: slug, n: totals[slug] }; })
+        .filter(function (x) { return x.n > 0; })
+        .sort(function (a, b) { return b.n - a.n; });
+      // top 3, but only those within reach of the leader
+      var top = ranked.slice(0, 3);
+      if (top.length === 0) top = ranked.slice(0, 1);
+      render(top);
+      results.hidden = false;
+      retake.hidden = false;
+      results.focus();
+      results.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    });
+
+    retake.addEventListener('click', function () {
+      form.reset();
+      results.hidden = true;
+      retake.hidden = true;
+      updateCount();
+      form.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    });
+
+    updateCount();
+  })();
+</script>

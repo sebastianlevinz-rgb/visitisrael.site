@@ -185,6 +185,52 @@ const featuredTours = [
     </div>
   </section>
 
+  <!-- Free travel tools — our interactive differentiator. -->
+  <section class="mx-auto max-w-6xl px-4 pt-16" aria-labelledby="tools-section">
+    <div class="mb-6" data-reveal>
+      <p class="eyebrow">Plan smarter</p>
+      <h2 id="tools-section" class="font-display text-3xl font-bold text-ink">
+        Free travel tools
+      </h2>
+    </div>
+    <div class="grid grid-cols-2 gap-4 lg:grid-cols-4">
+      {
+        [
+          {
+            href: '/israel-trip-cost-calculator',
+            label: 'Trip cost calculator',
+            note: 'Budget your whole trip',
+          },
+          {
+            href: '/israel-tipping-currency',
+            label: 'Currency & tipping',
+            note: 'Convert ₪ and tip right',
+          },
+          {
+            href: '/israel-packing-list',
+            label: 'Packing checklist',
+            note: 'Saves as you tick',
+          },
+          {
+            href: '/which-israel-region-quiz',
+            label: 'Which region quiz',
+            note: 'Find your match',
+          },
+        ].map((t) => (
+          <a
+            href={t.href}
+            class="rounded-card border border-border bg-card p-5 no-underline shadow-card transition-shadow hover:shadow-card-hover"
+          >
+            <h3 class="font-display text-lg font-bold leading-snug text-ink">
+              {t.label}
+            </h3>
+            <p class="mt-1 text-sm text-ink-muted">{t.note}</p>
+          </a>
+        ))
+      }
+    </div>
+  </section>
+
   <!-- Plan-your-trip practical links. -->
   <section class="mx-auto max-w-6xl px-4 pb-4 pt-16" aria-labelledby="plan">
     <h2 id="plan" class="mb-6 font-display text-3xl font-bold text-ink">
