@@ -17,9 +17,6 @@ const featuredTours = [
       'Walk the four quarters with a local guide — the Western Wall, the Holy Sepulchre and the Via Dolorosa in half a day.',
     image: '/images/regions/jerusalem/hero.jpg',
     query: 'Jerusalem Old City walking tour',
-    priceFrom: 39,
-    rating: 4.8,
-    reviews: 5120,
   },
   {
     partner: 'viator' as const,
@@ -28,9 +25,6 @@ const featuredTours = [
       'Climb Masada for sunrise, then float in the Dead Sea — a classic day trip from Jerusalem or Tel Aviv.',
     image: '/images/regions/dead-sea/hero.jpg',
     query: 'Masada sunrise Dead Sea tour',
-    priceFrom: 95,
-    rating: 4.7,
-    reviews: 3380,
   },
   {
     partner: 'civitatis' as const,
@@ -39,9 +33,6 @@ const featuredTours = [
       'Taste your way through Carmel Market and the lanes of Old Jaffa with a local foodie guide.',
     image: '/images/regions/tel-aviv/hero.jpg',
     query: 'Tel Aviv Jaffa food tour',
-    priceFrom: 79,
-    rating: 4.9,
-    reviews: 1840,
   },
   {
     partner: 'getyourguide' as const,
@@ -50,9 +41,6 @@ const featuredTours = [
       'Cross into Jordan for a full day at the rose-red city of Petra, returning to Eilat by evening.',
     image: '/images/regions/eilat/hero.jpg',
     query: 'Petra day trip from Eilat',
-    priceFrom: 219,
-    rating: 4.6,
-    reviews: 990,
   },
 ];
 ---
@@ -64,6 +52,9 @@ const featuredTours = [
     subtitle="An independent guide to 11 regions — from Jerusalem's Old City to the Red Sea — with itineraries, attractions and trusted booking links."
     alt="Aerial view of Jerusalem's Old City and the Temple Mount at golden hour"
     height="tall"
+    cta={{ href: '/itineraries', label: 'Plan your itinerary' }}
+    kenburns
+    scrollCue
   />
 
   <!-- GEO intro: dense, data-rich first ~200 words for AI Overviews + SEO. -->
@@ -88,29 +79,17 @@ const featuredTours = [
     </p>
 
     <div class="mt-6 flex flex-wrap gap-3">
-      <a
-        href="/jerusalem"
-        class="rounded-full bg-primary px-5 py-2.5 text-sm font-semibold text-white no-underline transition-colors hover:bg-primary-hover"
-        >Explore Jerusalem</a
-      >
-      <a
-        href="/itineraries"
-        class="rounded-full border border-primary px-5 py-2.5 text-sm font-semibold text-primary no-underline transition-colors hover:bg-primary-soft"
-        >Plan an itinerary</a
-      >
-      <a
-        href="/first-time-in-israel"
-        class="rounded-full border border-primary px-5 py-2.5 text-sm font-semibold text-primary no-underline transition-colors hover:bg-primary-soft"
-        >First time in Israel</a
-      >
+      <a href="/jerusalem" class="btn btn-primary">Explore Jerusalem</a>
+      <a href="/itineraries" class="btn btn-ghost">Plan an itinerary</a>
+      <a href="/first-time-in-israel" class="btn btn-ghost">First time in Israel</a>
     </div>
   </section>
 
   <!-- Region grid — photo cards, never solid color. -->
   <section class="mx-auto max-w-6xl px-4 pt-14" aria-labelledby="regions">
-    <div class="mb-6 flex items-end justify-between">
+    <div class="mb-6 flex items-end justify-between" data-reveal>
       <div>
-        <p class="text-sm font-semibold uppercase tracking-widest text-primary">
+        <p class="eyebrow">
           Where to go
         </p>
         <h2 id="regions" class="font-display text-3xl font-bold text-ink">
@@ -129,8 +108,8 @@ const featuredTours = [
 
   <!-- Featured tours — clean affiliate cards, integrated not exposed. -->
   <section class="mx-auto max-w-6xl px-4 pt-16" aria-labelledby="tours">
-    <div class="mb-6">
-      <p class="text-sm font-semibold uppercase tracking-widest text-primary">
+    <div class="mb-6" data-reveal>
+      <p class="eyebrow">
         Hand-picked experiences
       </p>
       <h2 id="tours" class="font-display text-3xl font-bold text-ink">
@@ -142,8 +121,72 @@ const featuredTours = [
     </div>
   </section>
 
+  <!-- Popular day trips — photo cards into the highest-value new guides. -->
+  <section class="mx-auto max-w-6xl px-4 pt-16" aria-labelledby="daytrips">
+    <div class="mb-6" data-reveal>
+      <p class="eyebrow">One day, one classic</p>
+      <h2 id="daytrips" class="font-display text-3xl font-bold text-ink">
+        Popular day trips
+      </h2>
+    </div>
+    <div class="grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-4">
+      {
+        [
+          {
+            href: '/masada-dead-sea-day-trip',
+            label: 'Masada & Dead Sea',
+            note: 'Sunrise climb, then float',
+            img: '/images/regions/dead-sea/masada.jpg',
+          },
+          {
+            href: '/jerusalem-bethlehem-day-trip',
+            label: 'Jerusalem & Bethlehem',
+            note: 'Old City to the West Bank',
+            img: '/images/regions/jerusalem/old-city.jpg',
+          },
+          {
+            href: '/nazareth-sea-of-galilee-day-trip',
+            label: 'Nazareth & Galilee',
+            note: 'Christian Galilee circuit',
+            img: '/images/regions/galilee/sea-of-galilee.jpg',
+          },
+          {
+            href: '/petra-from-israel',
+            label: 'Petra from Israel',
+            note: 'Cross into Jordan',
+            img: '/images/regions/eilat/hero.jpg',
+          },
+        ].map((c) => (
+          <a
+            href={c.href}
+            class="group relative block aspect-[4/3] overflow-hidden rounded-card shadow-card transition-shadow duration-300 hover:shadow-card-hover"
+          >
+            <img
+              src={c.img}
+              alt={c.label}
+              width="1600"
+              height="1000"
+              loading="lazy"
+              decoding="async"
+              class="absolute inset-0 h-full w-full object-cover transition-transform duration-500 group-hover:scale-105"
+            />
+            <div class="photo-overlay absolute inset-0" />
+            <div class="absolute inset-x-0 bottom-0 p-4">
+              <p class="photo-title text-xs font-semibold uppercase tracking-widest opacity-90">
+                {c.note}
+              </p>
+              <h3 class="photo-title mt-1 font-display text-xl font-bold">
+                {c.label}
+              </h3>
+            </div>
+          </a>
+        ))
+      }
+    </div>
+  </section>
+
   <!-- Plan-your-trip practical links. -->
-  <section class="mx-auto max-w-6xl px-4 pt-16" aria-labelledby="plan">
+  <section class="mx-auto max-w-6xl px-4 pb-4 pt-16" aria-labelledby="plan">
     <h2 id="plan" class="mb-6 font-display text-3xl font-bold text-ink">
       Plan your trip
     </h2>
@@ -151,13 +194,15 @@ const featuredTours = [
       {
         [
           { href: '/first-time-in-israel', label: 'First time in Israel' },
-          { href: '/israel-cost-budget', label: 'Cost & budget' },
+          { href: '/israel-trip-cost-calculator', label: 'Trip cost calculator' },
           { href: '/transportation', label: 'Getting around' },
-          { href: '/shabbat-guide', label: 'Shabbat guide' },
+          { href: '/tel-aviv-to-jerusalem', label: 'Tel Aviv → Jerusalem' },
+          { href: '/whats-open-on-shabbat', label: "What's open on Shabbat" },
           { href: '/is-israel-safe', label: 'Is Israel safe?' },
           { href: '/best-time-to-visit-israel', label: 'Best time to visit' },
           { href: '/kosher-food-guide', label: 'Kosher food' },
-          { href: '/border-crossings', label: 'Border crossings' },
+          { href: '/israel-with-kids', label: 'Israel with kids' },
+          { href: '/hiking-in-israel', label: 'Hiking in Israel' },
           { href: '/visa-information', label: 'Visa information' },
           { href: '/itineraries', label: 'Itineraries' },
         ].map((l) => (
