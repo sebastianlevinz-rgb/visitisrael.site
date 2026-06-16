@@ -76,3 +76,6 @@ data/axe-results.json
 data/a11y-il-results.json
 
 .vercel
+
+# Local audit reports + AI image samples (not for repo)
+.audit/
