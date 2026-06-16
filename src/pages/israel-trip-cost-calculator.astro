@@ -1,0 +1,323 @@
+---
+import BaseLayout from '@/layouts/BaseLayout.astro';
+import Hero from '@/components/Hero.astro';
+import Breadcrumbs from '@/components/Breadcrumbs.astro';
+import JsonLd from '@/components/JsonLd.astro';
+import { breadcrumbList, faqPage } from '@/lib/schema';
+
+const title = 'Israel Trip Cost Calculator — Estimate Your Budget';
+const description =
+  'Free interactive Israel trip cost calculator. Enter your days, travellers and travel style to estimate accommodation, food, transport, activities and day trips — in USD and shekels.';
+
+const crumbs = [
+  { name: 'Home', path: '/' },
+  { name: 'Trip cost calculator', path: '/israel-trip-cost-calculator' },
+];
+
+const faqs = [
+  {
+    question: 'How much does a trip to Israel cost?',
+    answer:
+      'As a rough guide, budget travellers spend about $70–90 per person per day, mid-range travellers $150–200, and luxury travellers $350+ — before international flights. A typical 7-day mid-range trip lands around $1,200–1,500 per person plus flights. Use the calculator above to estimate your own total.',
+  },
+  {
+    question: 'Is Israel expensive to visit?',
+    answer:
+      'Israel is one of the pricier destinations in the region — closer to Western European prices. Accommodation, eating out and alcohol are the biggest costs; supermarket food, falafel/hummus spots, free sites and public transport keep costs down.',
+  },
+  {
+    question: 'What currency is used in Israel?',
+    answer:
+      'The Israeli new shekel (₪, ILS). Cards are accepted almost everywhere; keep some cash for markets and small vendors. The calculator shows estimates in both US dollars and shekels at an approximate rate.',
+  },
+];
+
+const schema = [breadcrumbList(crumbs), faqPage(faqs)];
+---
+
+<BaseLayout
+  title={title}
+  description={description}
+  path="/israel-trip-cost-calculator"
+  image="/images/regions/tel-aviv/hero.jpg"
+  imageAlt="Plan and budget your trip to Israel"
+>
+  <JsonLd schema={schema} slot="head" />
+  <Hero
+    image="/images/regions/tel-aviv/hero.jpg"
+    title="Israel Trip Cost Calculator"
+    subtitle="Estimate your whole trip in seconds — accommodation, food, transport, activities and day trips, in dollars and shekels."
+    alt="Tel Aviv seafront at golden hour — planning a trip to Israel"
+  />
+  <Breadcrumbs items={crumbs} />
+
+  <section class="mx-auto max-w-5xl px-4 pt-10">
+    <p class="eyebrow" data-reveal>Plan with real numbers</p>
+    <h2 class="font-display text-3xl font-bold text-ink" data-reveal>
+      Build your estimate
+    </h2>
+    <p class="mt-2 max-w-2xl text-ink-muted" data-reveal>
+      Figures are grounded in 2026 on-the-ground prices. Everything updates as
+      you type. Adjust the travel style to see the range — see our full
+      <a href="/israel-cost-budget" class="font-semibold text-primary"
+        >cost &amp; budget guide</a
+      > for the detail behind these numbers.
+    </p>
+
+    <div class="mt-8 grid gap-8 lg:grid-cols-[1fr_1.1fr]">
+      <!-- Inputs -->
+      <form
+        id="calc"
+        class="rounded-card border border-border bg-card p-6 shadow-card"
+        aria-label="Trip cost inputs"
+      >
+        <div class="grid grid-cols-2 gap-4">
+          <label class="block">
+            <span class="text-sm font-semibold text-ink">Days</span>
+            <input
+              type="number"
+              id="days"
+              min="1"
+              max="60"
+              value="7"
+              class="mt-1 w-full rounded-btn border border-border bg-sand px-3 py-2 text-ink"
+            />
+          </label>
+          <label class="block">
+            <span class="text-sm font-semibold text-ink">Travellers</span>
+            <input
+              type="number"
+              id="travellers"
+              min="1"
+              max="20"
+              value="2"
+              class="mt-1 w-full rounded-btn border border-border bg-sand px-3 py-2 text-ink"
+            />
+          </label>
+        </div>
+
+        <fieldset class="mt-5">
+          <legend class="text-sm font-semibold text-ink">Travel style</legend>
+          <div class="mt-2 grid grid-cols-3 gap-2" role="radiogroup">
+            <label class="style-opt">
+              <input type="radio" name="style" value="budget" class="sr-only" />
+              <span>Budget</span>
+            </label>
+            <label class="style-opt">
+              <input
+                type="radio"
+                name="style"
+                value="mid"
+                class="sr-only"
+                checked
+              />
+              <span>Mid-range</span>
+            </label>
+            <label class="style-opt">
+              <input type="radio" name="style" value="luxury" class="sr-only" />
+              <span>Luxury</span>
+            </label>
+          </div>
+        </fieldset>
+
+        <div class="mt-5 grid grid-cols-2 gap-4">
+          <label class="block">
+            <span class="text-sm font-semibold text-ink">Guided day trips</span>
+            <input
+              type="number"
+              id="daytrips"
+              min="0"
+              max="30"
+              value="2"
+              class="mt-1 w-full rounded-btn border border-border bg-sand px-3 py-2 text-ink"
+            />
+            <span class="mt-1 block text-xs text-ink-muted"
+              >e.g. Masada, Petra (~$110 each)</span
+            >
+          </label>
+          <label class="block">
+            <span class="text-sm font-semibold text-ink">Rental car days</span>
+            <input
+              type="number"
+              id="cardays"
+              min="0"
+              max="60"
+              value="0"
+              class="mt-1 w-full rounded-btn border border-border bg-sand px-3 py-2 text-ink"
+            />
+            <span class="mt-1 block text-xs text-ink-muted"
+              >~$55/day, shared</span
+            >
+          </label>
+        </div>
+
+        <label class="mt-5 flex items-center gap-2">
+          <input type="checkbox" id="flights" class="h-4 w-4" />
+          <span class="text-sm font-semibold text-ink"
+            >Include rough international flights (~$750 pp)</span
+          >
+        </label>
+      </form>
+
+      <!-- Results -->
+      <div
+        class="rounded-card border border-border bg-sand-deep p-6 shadow-card"
+        aria-live="polite"
+      >
+        <p class="eyebrow">Estimated total</p>
+        <p class="mt-1">
+          <span id="total" class="tabular font-display text-5xl font-bold text-ink"
+            >$0</span
+          >
+          <span id="total-ils" class="ml-1 text-ink-muted">≈ ₪0</span>
+        </p>
+        <p id="perperson" class="mt-1 text-sm text-ink-muted">
+          for your group · $0 per person · $0 per person / day
+        </p>
+
+        <table class="mt-6 w-full text-sm">
+          <tbody id="breakdown" class="tabular">
+            <!-- rows injected by JS -->
+          </tbody>
+        </table>
+
+        <div class="mt-6 flex flex-wrap gap-3">
+          <a href="/itineraries" class="btn btn-primary">See itineraries</a>
+          <a href="/best-tours-in-israel" class="btn btn-ghost">Browse tours</a>
+        </div>
+        <p class="mt-4 text-xs text-ink-muted">
+          Estimates only, excluding travel insurance and shopping. Shekel
+          figures use an approximate rate of ₪3.7 = $1.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section class="mx-auto max-w-3xl px-4 pb-4 pt-14">
+    <h2 class="mb-4 font-display text-2xl font-bold text-ink">
+      Frequently asked questions
+    </h2>
+    <div class="space-y-4">
+      {
+        faqs.map((f) => (
+          <details class="rounded-card border border-border bg-card p-4">
+            <summary class="cursor-pointer font-semibold text-ink">
+              {f.question}
+            </summary>
+            <p class="mt-2 text-ink-muted">{f.answer}</p>
+          </details>
+        ))
+      }
+    </div>
+  </section>
+</BaseLayout>
+
+<style>
+  .style-opt {
+    display: block;
+    cursor: pointer;
+    border-radius: var(--radius-btn);
+    border: 1.5px solid var(--color-border);
+    padding: 0.55rem 0.25rem;
+    text-align: center;
+    font-size: var(--text-sm);
+    font-weight: 600;
+    color: var(--color-ink-muted);
+    transition:
+      border-color 0.18s ease,
+      background 0.18s ease,
+      color 0.18s ease;
+  }
+  .style-opt:has(input:checked) {
+    border-color: var(--color-primary);
+    background: var(--color-primary-soft);
+    color: var(--color-primary);
+  }
+  .style-opt:has(input:focus-visible) {
+    outline: 3px solid var(--color-primary);
+    outline-offset: 2px;
+  }
+</style>
+
+<script is:inline>
+  (function () {
+    var RATE = 3.7; // ILS per USD (approx)
+    var FLIGHT = 750; // pp rough
+    var DAYTRIP = 110; // pp each
+    var CAR = 55; // per day, shared
+    // Per-person, per-day by style
+    var STYLE = {
+      budget: { Accommodation: 35, 'Food & drink': 25, 'Local transport': 6, Activities: 12 },
+      mid: { Accommodation: 90, 'Food & drink': 50, 'Local transport': 12, Activities: 25 },
+      luxury: { Accommodation: 200, 'Food & drink': 100, 'Local transport': 30, Activities: 60 },
+    };
+
+    var $ = function (id) { return document.getElementById(id); };
+    var num = function (id, d) {
+      var v = parseFloat($(id).value);
+      return isNaN(v) || v < 0 ? d : v;
+    };
+    var money = function (n) {
+      return '$' + Math.round(n).toLocaleString('en-US');
+    };
+
+    function style() {
+      var el = document.querySelector('input[name="style"]:checked');
+      return el ? el.value : 'mid';
+    }
+
+    function compute() {
+      var days = Math.max(1, num('days', 7));
+      var pax = Math.max(1, num('travellers', 2));
+      var daytrips = num('daytrips', 0);
+      var cardays = num('cardays', 0);
+      var flights = $('flights').checked;
+      var s = STYLE[style()];
+
+      var rows = [];
+      var perPersonDaily = 0;
+      for (var k in s) {
+        var lineGroup = s[k] * days * pax;
+        perPersonDaily += s[k];
+        rows.push([k, lineGroup]);
+      }
+      var dayTripCost = daytrips * DAYTRIP * pax;
+      if (dayTripCost) rows.push(['Guided day trips', dayTripCost]);
+      var carCost = cardays * CAR;
+      if (carCost) rows.push(['Rental car', carCost]);
+      var flightCost = flights ? FLIGHT * pax : 0;
+      if (flightCost) rows.push(['Flights', flightCost]);
+
+      var total = rows.reduce(function (a, r) { return a + r[1]; }, 0);
+
+      $('total').textContent = money(total);
+      $('total-ils').textContent = '≈ ₪' + Math.round(total * RATE).toLocaleString('en-US');
+      var perPerson = total / pax;
+      $('perperson').textContent =
+        'for ' + pax + (pax > 1 ? ' travellers' : ' traveller') +
+        ' · ' + money(perPerson) + ' per person · ' +
+        money(perPerson / days) + ' per person / day';
+
+      var tb = $('breakdown');
+      tb.innerHTML = '';
+      rows.forEach(function (r) {
+        var tr = document.createElement('tr');
+        tr.className = 'border-b border-border';
+        var td1 = document.createElement('td');
+        td1.className = 'py-2 text-ink-muted';
+        td1.textContent = r[0];
+        var td2 = document.createElement('td');
+        td2.className = 'py-2 text-right font-semibold text-ink';
+        td2.textContent = money(r[1]);
+        tr.appendChild(td1); tr.appendChild(td2);
+        tb.appendChild(tr);
+      });
+    }
+
+    $('calc').addEventListener('input', compute);
+    document.querySelectorAll('input[name="style"]').forEach(function (el) {
+      el.addEventListener('change', compute);
+    });
+    compute();
+  })();
+</script>
