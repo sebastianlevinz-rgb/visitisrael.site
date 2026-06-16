@@ -3,6 +3,8 @@ import '@/styles/global.css';
 import Header from '@/components/Header.astro';
 import Footer from '@/components/Footer.astro';
 import StickyCTA from '@/components/StickyCTA.astro';
+import JsonLd from '@/components/JsonLd.astro';
+import { organization, website } from '@/lib/schema';
 import Analytics from '@vercel/analytics/astro';
 import SpeedInsights from '@vercel/speed-insights/astro';
 
@@ -10,22 +12,31 @@ export interface Props {
   title: string;
   description: string;
   image?: string;
+  imageAlt?: string;
   /** Path only, e.g. "/jerusalem" — canonical is derived from site config. */
   path?: string;
   noindex?: boolean;
+  /** "website" (default) or "article" for content pages. */
+  ogType?: 'website' | 'article';
 }
 
 const {
   title,
   description,
   image = '/images/regions/jerusalem/hero.jpg',
+  imageAlt = 'Israel travel guide',
   path = Astro.url.pathname,
   noindex = false,
+  ogType = 'website',
 } = Astro.props;
 
 const canonical = new URL(path, Astro.site).href;
 const ogImage = new URL(image, Astro.site).href;
 const year = new Date().getFullYear();
+
+// Organization + WebSite emitted once, sitewide — the publisher entity that
+// grounds every Article's {'@id'} reference and powers the sitelinks searchbox.
+const siteSchema = noindex ? [] : [organization(), website()];
 ---
 
 <!doctype html>
@@ -38,16 +49,34 @@ const year = new Date().getFullYear();
     <link rel="canonical" href={canonical} />
     {noindex && <meta name="robots" content="noindex, nofollow" />}
 
-    <!-- Open Graph / Twitter -->
-    <meta property="og:type" content="website" />
+    <!-- Preload the LCP hero image (same path the <Hero> renders above the fold). -->
+    <link rel="preload" as="image" href={image} fetchpriority="high" />
+
+    <!-- Open Graph -->
+    <meta property="og:type" content={ogType} />
+    <meta property="og:site_name" content="Visit Israel" />
+    <meta property="og:locale" content="en_US" />
     <meta property="og:title" content={title} />
     <meta property="og:description" content={description} />
     <meta property="og:image" content={ogImage} />
+    <meta property="og:image:width" content="1600" />
+    <meta property="og:image:height" content="1000" />
+    <meta property="og:image:alt" content={imageAlt} />
     <meta property="og:url" content={canonical} />
+
+    <!-- Twitter -->
     <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content={title} />
+    <meta name="twitter:description" content={description} />
+    <meta name="twitter:image" content={ogImage} />
+    <meta name="twitter:image:alt" content={imageAlt} />
 
     <meta name="theme-color" content="#1a6985" />
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
     <link rel="sitemap" href="/sitemap-index.xml" />
+
+    {siteSchema.length > 0 && <JsonLd schema={siteSchema} />}
     <slot name="head" />
   </head>
   <body class="min-h-screen">
@@ -65,5 +94,29 @@ const year = new Date().getFullYear();
     <StickyCTA />
     <Analytics />
     <SpeedInsights />
+
+    <!-- Scroll-reveal: native IntersectionObserver, CSS does the animation. -->
+    <script is:inline>
+      (function () {
+        if (!('IntersectionObserver' in window)) return;
+        if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
+        var io = new IntersectionObserver(
+          function (entries) {
+            entries.forEach(function (e) {
+              if (e.isIntersecting) {
+                e.target.classList.add('in');
+                io.unobserve(e.target);
+              }
+            });
+          },
+          { rootMargin: '0px 0px -10% 0px' }
+        );
+        document
+          .querySelectorAll('[data-reveal]')
+          .forEach(function (el) {
+            io.observe(el);
+          });
+      })();
+    </script>
   </body>
 </html>

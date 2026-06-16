@@ -11,6 +11,52 @@ export interface Faq {
   answer: string;
 }
 
+/** Stable @id for the publisher entity — referenced from Article publisher. */
+export const ORG_ID = `${SITE}/#organization`;
+export const WEBSITE_ID = `${SITE}/#website`;
+const LOGO = abs('/logo.png');
+
+/** Publisher entity. Emit once sitewide; reference elsewhere via {'@id': ORG_ID}. */
+export function organization() {
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'Organization',
+    '@id': ORG_ID,
+    name: 'Visit Israel',
+    url: SITE,
+    logo: {
+      '@type': 'ImageObject',
+      url: LOGO,
+      width: 512,
+      height: 512,
+    },
+    description:
+      'An independent English-language travel guide to Israel — regions, attractions, itineraries and trusted booking links.',
+    sameAs: [],
+  };
+}
+
+/** WebSite entity with SearchAction. Emit once sitewide. */
+export function website() {
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'WebSite',
+    '@id': WEBSITE_ID,
+    name: 'Visit Israel',
+    url: SITE,
+    publisher: { '@id': ORG_ID },
+    inLanguage: 'en',
+    potentialAction: {
+      '@type': 'SearchAction',
+      target: {
+        '@type': 'EntryPoint',
+        urlTemplate: `${SITE}/search?q={search_term_string}`,
+      },
+      'query-input': 'required name=search_term_string',
+    },
+  };
+}
+
 export function breadcrumbList(items: { name: string; path: string }[]) {
   return {
     '@context': 'https://schema.org',
@@ -87,11 +133,8 @@ export function article(opts: ArticleOpts) {
     image: abs(opts.image),
     mainEntityOfPage: abs(opts.path),
     author: { '@type': 'Person', name: opts.authorName, url: abs(opts.authorUrl) },
-    publisher: {
-      '@type': 'Organization',
-      name: 'Visit Israel',
-      url: SITE,
-    },
+    publisher: { '@id': ORG_ID },
+    isPartOf: { '@id': WEBSITE_ID },
     ...(opts.datePublished ? { datePublished: opts.datePublished.toISOString() } : {}),
     dateModified: (opts.dateModified ?? new Date()).toISOString(),
   };
