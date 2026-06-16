@@ -1,15 +1,16 @@
 {
   "/images/regions/jerusalem/hero.jpg": {
     "src": "/images/regions/jerusalem/hero.jpg",
-    "author": "Andrew Shiva (Wikimedia Commons)",
-    "license": "CC-BY-SA-4.0",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Jerusalem-2013(2)-Aerial-Temple_Mount-(south_exposure).jpg",
+    "author": "Generated with Higgsfield (Soul Location model)",
+    "license": "AI-generated",
+    "sourceUrl": "https://higgsfield.ai",
     "region": "jerusalem",
     "slug": "jerusalem",
-    "width": 1920,
-    "height": 1080,
-    "subjectType": "cityscape",
-    "licenseProof": "https://creativecommons.org/licenses/by-sa/4.0/"
+    "width": 1600,
+    "height": 1000,
+    "subjectType": "ai-landscape",
+    "licenseProof": "AI-generated illustrative artwork — not a photograph of the exact location",
+    "generator": "higgsfield/soul_location"
   },
   "/images/regions/jerusalem/old-city.jpg": {
     "src": "/images/regions/jerusalem/old-city.jpg",
@@ -173,15 +174,16 @@
   },
   "/images/regions/tel-aviv/hero.jpg": {
     "src": "/images/regions/tel-aviv/hero.jpg",
-    "author": "Andrew Shiva (Wikimedia Commons)",
-    "license": "CC-BY-SA-4.0",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tel_Aviv,_Israel_(48597135697).jpg",
+    "author": "Generated with Higgsfield (Soul Location model)",
+    "license": "AI-generated",
+    "sourceUrl": "https://higgsfield.ai",
     "region": "tel-aviv",
     "slug": "tel-aviv",
-    "width": 1920,
-    "height": 1080,
-    "subjectType": "cityscape",
-    "licenseProof": "https://creativecommons.org/licenses/by-sa/4.0/"
+    "width": 1600,
+    "height": 1000,
+    "subjectType": "ai-landscape",
+    "licenseProof": "AI-generated illustrative artwork — not a photograph of the exact location",
+    "generator": "higgsfield/soul_location"
   },
   "/images/regions/tel-aviv/jaffa.jpg": {
     "src": "/images/regions/tel-aviv/jaffa.jpg",
@@ -317,15 +319,16 @@
   },
   "/images/regions/dead-sea/hero.jpg": {
     "src": "/images/regions/dead-sea/hero.jpg",
-    "author": "Wilson44691 (Wikimedia Commons)",
-    "license": "CC-BY-SA-3.0",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:DeadSeaIsraelSaltFormations.jpg",
+    "author": "Generated with Higgsfield (Soul Location model)",
+    "license": "AI-generated",
+    "sourceUrl": "https://higgsfield.ai",
     "region": "dead-sea",
     "slug": "dead-sea",
-    "width": 1920,
-    "height": 1080,
-    "subjectType": "landscape",
-    "licenseProof": "https://creativecommons.org/licenses/by-sa/3.0/"
+    "width": 1600,
+    "height": 1000,
+    "subjectType": "ai-landscape",
+    "licenseProof": "AI-generated illustrative artwork — not a photograph of the exact location",
+    "generator": "higgsfield/soul_location"
   },
   "/images/regions/dead-sea/masada.jpg": {
     "src": "/images/regions/dead-sea/masada.jpg",
@@ -557,15 +560,16 @@
   },
   "/images/regions/galilee/hero.jpg": {
     "src": "/images/regions/galilee/hero.jpg",
-    "author": "Berthold Werner (Wikimedia Commons)",
-    "license": "CC-BY-SA-3.0",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Sea_of_Galilee_from_Mount_Arbel.jpg",
+    "author": "Generated with Higgsfield (Soul Location model)",
+    "license": "AI-generated",
+    "sourceUrl": "https://higgsfield.ai",
     "region": "galilee",
     "slug": "galilee",
-    "width": 1920,
-    "height": 1080,
-    "subjectType": "landscape",
-    "licenseProof": "https://creativecommons.org/licenses/by-sa/3.0/"
+    "width": 1600,
+    "height": 1000,
+    "subjectType": "ai-landscape",
+    "licenseProof": "AI-generated illustrative artwork — not a photograph of the exact location",
+    "generator": "higgsfield/soul_location"
   },
   "/images/regions/galilee/sea-of-galilee.jpg": {
     "src": "/images/regions/galilee/sea-of-galilee.jpg",
@@ -785,15 +789,16 @@
   },
   "/images/regions/negev/hero.jpg": {
     "src": "/images/regions/negev/hero.jpg",
-    "author": "Mboesch (Wikimedia Commons)",
-    "license": "CC-BY-SA-4.0",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Makhtesh_Ramon_view_from_Mitzpe_Ramon.jpg",
+    "author": "Generated with Higgsfield (Soul Location model)",
+    "license": "AI-generated",
+    "sourceUrl": "https://higgsfield.ai",
     "region": "negev",
     "slug": "negev",
-    "width": 1920,
-    "height": 1080,
-    "subjectType": "landscape",
-    "licenseProof": "https://creativecommons.org/licenses/by-sa/4.0/"
+    "width": 1600,
+    "height": 1000,
+    "subjectType": "ai-landscape",
+    "licenseProof": "AI-generated illustrative artwork — not a photograph of the exact location",
+    "generator": "higgsfield/soul_location"
   },
   "/images/regions/negev/mitzpe-ramon.jpg": {
     "src": "/images/regions/negev/mitzpe-ramon.jpg",
