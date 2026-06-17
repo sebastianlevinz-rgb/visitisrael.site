@@ -16,7 +16,7 @@ secondaryKeywords:
 latitude: 32.9215
 longitude: 35.0689
 publishedAt: 2026-05-11
-updatedAt: 2026-05-11
+updatedAt: 2026-06-17
 faqs:
   - question: What is the Templar Tunnel?
     answer: The Templar Tunnel is a 350-metre underground passage cut through the bedrock by the Knights Templar in the 12th century, connecting their fortified citadel on the western edge of Akko's Old City to the medieval harbour at the southern shore. The tunnel allowed people, supplies and military assets to move between the citadel and the harbour out of sight of the wider town. It was rediscovered in 1994 during a routine sewage-system survey when workers broke through into an unmapped underground space.
@@ -33,6 +33,17 @@ faqs:
 The **Templar Tunnel** is a 350-metre underground passage cut through the bedrock by the Knights Templar in the 12th century, connecting their fortified citadel on Akko's western seaward extremity to the medieval harbour. It allowed people, military assets and trade goods to move discreetly between the Templar headquarters and the port out of sight of the wider Crusader-era town. Forgotten after the Mamluk destruction of 1291, the tunnel was **rediscovered in 1994** by accident during a routine sewage-system survey; Israel Antiquities Authority excavation through 1995-1999 cleared it and added the wooden walkway visitors use today.
 
 This guide covers the Templar Order's distinctive identity, the tunnel's military-engineering purpose, the rediscovery story, and the visit logistics within the wider Akko Old City circuit.
+
+## Need to know
+
+| | |
+|---|---|
+| **Cost** | Ticketed; covered by the **combined Old City ticket** (Hospitaller Halls + Templar Tunnel + Hamam al-Pasha + Underground Prisoners Museum + ramparts). Check the official site for current prices. |
+| **Hours** | Typically open ~09:00 to late afternoon; check the official site for current hours. |
+| **Time needed** | ~15 min to walk the 350 m one-way; ~25 min if reading all the panels. |
+| **Getting there** | In Akko's Old City; entrance at the harbour-side (south) end, reached by a single flight of stairs from street level. Akko is ~30 min from Haifa. |
+| **Best time** | The tunnel stays ~18°C year-round — a cool route in summer heat. |
+| **Accessibility** | Reached by stairs from street level; the wooden walkway is otherwise level. Passage is ~2.5 m high and ~2 m wide. Not step-free; those with severe claustrophobia may prefer the open Hospitaller Halls. |
 
 ## Who were the Knights Templar?
 

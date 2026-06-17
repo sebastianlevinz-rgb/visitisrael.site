@@ -15,7 +15,7 @@ secondaryKeywords:
 latitude: 30.7942
 longitude: 34.7728
 publishedAt: 2026-05-11
-updatedAt: 2026-05-11
+updatedAt: 2026-06-17
 faqs:
   - question: What is Avdat?
     answer: Avdat is a Nabataean archaeological city in the central Negev, originally built around the second century BCE as a caravan way-station on the Incense Route between the Arabian peninsula and the Mediterranean ports. It later became a substantial Roman-era and Byzantine urban centre with terraced agriculture, an acropolis, and two churches. The site is presented as an archaeological complex, not a religious building.
@@ -28,6 +28,17 @@ faqs:
 ---
 
 **Avdat** is the most spectacular of the four Negev sites in the **UNESCO Incense Route — Desert Cities of the Negev** inscription. Built by the **Nabataeans** — the Arab trading civilisation that also constructed Petra in modern Jordan — Avdat was a caravan way-station and later a substantial Roman-era and Byzantine urban centre, supported by an extraordinary system of runoff-water agriculture that turned the surrounding desert into productive farmland. This guide covers the site's history, the visit, and how Avdat fits into a Negev itinerary.
+
+## Need to know
+
+| | |
+|---|---|
+| **Cost** | INPA national park entry (~₪28 / ~$8 adult; children less). The multi-park annual pass covers Avdat; combined tickets can add Mamshit and Shivta. |
+| **Hours** | Roughly 08:00–17:00 daily (slightly extended in summer; closes earlier on Friday). Check the official site for current hours. |
+| **Time needed** | 1.5–2 hours for the main loop (acropolis, Byzantine churches, residential quarter); add time for the agricultural-terrace trail in the Zin valley. |
+| **Getting there** | On Route 40 in the central Negev. Most easily reached by rental car or as part of a Negev day tour (usually combined with Sde Boker and Mitzpe Ramon). |
+| **Best time** | Mid-morning for the best light on the acropolis; late afternoon for golden light over the Zin valley. Avoid mid-day in summer. |
+| **Accessibility** | A paved road climbs to the acropolis parking; the marked loop has loose-gravel sections and the terrace trail is rougher. The site is exposed with little shade — carry 1.5 L water per person in summer. |
 
 ## What is Avdat?
 

@@ -1,0 +1,369 @@
+---
+import BaseLayout from '@/layouts/BaseLayout.astro';
+import Hero from '@/components/Hero.astro';
+import Breadcrumbs from '@/components/Breadcrumbs.astro';
+import JsonLd from '@/components/JsonLd.astro';
+import { breadcrumbList, faqPage } from '@/lib/schema';
+
+const title = 'Israel Tipping Guide & Shekel Currency Converter (2026)';
+const description =
+  'Live ILS ⇄ USD/EUR/GBP shekel converter plus an Israel tipping calculator. How much to tip in restaurants, cafés, bars, taxis, hotels and for tour guides — with a quick reference table.';
+
+const crumbs = [
+  { name: 'Home', path: '/' },
+  { name: 'Tipping & currency', path: '/israel-tipping-currency' },
+];
+
+const faqs = [
+  {
+    question: 'How much should you tip in Israel?',
+    answer:
+      'In sit-down restaurants the norm is about 10–12%, and many places now add a service line you can decline. Tip café and bar staff a few shekels or round up, give tour guides roughly ₪40–60 per person per day, hotel porters ₪10–20 per bag, and round up taxi fares. Tipping is customary in Israel but never compulsory.',
+  },
+  {
+    question: 'What currency is used in Israel?',
+    answer:
+      'The Israeli new shekel (₪, ILS). Cards are accepted almost everywhere, including for small purchases, but keep some cash for markets, small vendors and tips. The converter above uses approximate 2026 rates — check your bank or a live rate before exchanging money.',
+  },
+  {
+    question: 'Do you tip taxi drivers in Israel?',
+    answer:
+      'Tipping taxi drivers is not expected, but rounding the fare up to the nearest few shekels is common and appreciated. Always ask the driver to run the meter (moneh) rather than agreeing a flat price, except for fixed airport runs.',
+  },
+];
+
+const schema = [breadcrumbList(crumbs), faqPage(faqs)];
+
+const tipTable = [
+  { place: 'Restaurants (sit-down)', norm: '10–12%', note: 'Check if service is already added' },
+  { place: 'Cafés', norm: '~5–10%', note: 'Or round up / a few shekels' },
+  { place: 'Bars', norm: '₪5–10 / round', note: 'Or round the tab up' },
+  { place: 'Taxis', norm: 'Round up', note: 'Not expected, but appreciated' },
+  { place: 'Hotel porters', norm: '₪10–20 / bag', note: 'Housekeeping ₪10–20 / day' },
+  { place: 'Tour guides', norm: '₪40–60 pp / day', note: 'Drivers about half that' },
+];
+---
+
+<BaseLayout
+  title={title}
+  description={description}
+  path="/israel-tipping-currency"
+  image="/images/regions/tel-aviv/hero.jpg"
+  imageAlt="Tipping and currency in Israel"
+>
+  <JsonLd schema={schema} slot="head" />
+  <Hero
+    image="/images/regions/tel-aviv/hero.jpg"
+    title="Israel Tipping & Currency"
+    subtitle="Convert shekels in real time and work out a fair tip — restaurants, cafés, taxis, hotels and tour guides."
+    alt="Tel Aviv café terrace — paying and tipping in Israel"
+  />
+  <Breadcrumbs items={crumbs} />
+
+  <section class="mx-auto max-w-5xl px-4 pt-10">
+    <p class="eyebrow" data-reveal>Money, sorted</p>
+    <h2 class="font-display text-3xl font-bold text-ink" data-reveal>
+      Currency converter
+    </h2>
+    <p class="mt-2 max-w-2xl text-ink-muted" data-reveal>
+      Type any amount and it converts both ways instantly. Rates are
+      <strong>approximate 2026 values</strong> for orientation only — check a live
+      rate before you exchange money. See the full
+      <a href="/israel-cost-budget" class="font-semibold text-primary"
+        >cost &amp; budget guide</a
+      > for what things actually cost.
+    </p>
+
+    <div class="mt-8 grid gap-8 lg:grid-cols-2">
+      <!-- Converter -->
+      <form
+        id="fx"
+        class="rounded-card border border-border bg-card p-6 shadow-card"
+        aria-label="Currency converter"
+      >
+        <label class="block">
+          <span class="text-sm font-semibold text-ink">Shekels (₪ ILS)</span>
+          <input
+            type="number"
+            id="ils"
+            inputmode="decimal"
+            min="0"
+            step="any"
+            value="100"
+            class="mt-1 w-full rounded-btn border border-border bg-sand px-3 py-2 text-ink tabular"
+          />
+        </label>
+
+        <div class="my-4 flex items-center gap-3">
+          <span class="h-px flex-1 bg-border"></span>
+          <span class="text-xs font-semibold uppercase tracking-wide text-ink-muted"
+            >converts to / from</span
+          >
+          <span class="h-px flex-1 bg-border"></span>
+        </div>
+
+        <fieldset>
+          <legend class="text-sm font-semibold text-ink">Foreign currency</legend>
+          <div class="mt-2 grid grid-cols-3 gap-2" role="radiogroup">
+            <label class="cur-opt">
+              <input type="radio" name="cur" value="USD" class="sr-only" checked />
+              <span>USD $</span>
+            </label>
+            <label class="cur-opt">
+              <input type="radio" name="cur" value="EUR" class="sr-only" />
+              <span>EUR €</span>
+            </label>
+            <label class="cur-opt">
+              <input type="radio" name="cur" value="GBP" class="sr-only" />
+              <span>GBP £</span>
+            </label>
+          </div>
+        </fieldset>
+
+        <label class="mt-5 block">
+          <span class="text-sm font-semibold text-ink" id="foreign-label"
+            >US dollars ($)</span
+          >
+          <input
+            type="number"
+            id="foreign"
+            inputmode="decimal"
+            min="0"
+            step="any"
+            class="mt-1 w-full rounded-btn border border-border bg-sand px-3 py-2 text-ink tabular"
+          />
+        </label>
+
+        <p class="mt-4 text-xs text-ink-muted" aria-live="polite" id="rate-note">
+          Approximate rate
+        </p>
+      </form>
+
+      <!-- Tipping calculator -->
+      <div class="rounded-card border border-border bg-sand-deep p-6 shadow-card">
+        <p class="eyebrow">Tipping calculator</p>
+        <h3 class="mt-1 font-display text-xl font-bold text-ink">
+          Work out a fair tip
+        </h3>
+
+        <form id="tip" class="mt-4" aria-label="Tip calculator">
+          <label class="block">
+            <span class="text-sm font-semibold text-ink">Bill amount (₪)</span>
+            <input
+              type="number"
+              id="bill"
+              inputmode="decimal"
+              min="0"
+              step="any"
+              value="200"
+              class="mt-1 w-full rounded-btn border border-border bg-sand px-3 py-2 text-ink tabular"
+            />
+          </label>
+
+          <fieldset class="mt-4">
+            <legend class="text-sm font-semibold text-ink">Service</legend>
+            <div class="mt-2 grid grid-cols-3 gap-2" role="radiogroup">
+              <label class="tip-opt">
+                <input type="radio" name="svc" value="10" class="sr-only" />
+                <span>Good<br /><span class="text-xs font-normal">10%</span></span>
+              </label>
+              <label class="tip-opt">
+                <input type="radio" name="svc" value="12" class="sr-only" checked />
+                <span>Great<br /><span class="text-xs font-normal">12%</span></span>
+              </label>
+              <label class="tip-opt">
+                <input type="radio" name="svc" value="15" class="sr-only" />
+                <span>Excellent<br /><span class="text-xs font-normal">15%</span></span>
+              </label>
+            </div>
+          </fieldset>
+
+          <label class="mt-4 flex items-center gap-2">
+            <input type="number" id="split" min="1" max="50" value="1"
+              class="w-20 rounded-btn border border-border bg-sand px-3 py-2 text-ink tabular" />
+            <span class="text-sm font-semibold text-ink">split between (people)</span>
+          </label>
+        </form>
+
+        <div class="mt-5 rounded-card border border-border bg-card p-4" aria-live="polite">
+          <div class="flex items-baseline justify-between">
+            <span class="text-sm text-ink-muted">Suggested tip</span>
+            <span id="tip-amt" class="tabular font-display text-2xl font-bold text-ink">₪0</span>
+          </div>
+          <div class="mt-2 flex items-baseline justify-between">
+            <span class="text-sm text-ink-muted">Total with tip</span>
+            <span id="tip-total" class="tabular font-semibold text-ink">₪0</span>
+          </div>
+          <div class="mt-2 flex items-baseline justify-between" id="per-row">
+            <span class="text-sm text-ink-muted">Per person</span>
+            <span id="tip-per" class="tabular text-ink">₪0</span>
+          </div>
+        </div>
+        <p class="mt-3 text-xs text-ink-muted">
+          Tipping in Israel is customary but never compulsory — check whether a
+          service charge is already on the bill.
+        </p>
+      </div>
+    </div>
+
+    <!-- Quick reference table -->
+    <h2 class="mt-14 font-display text-2xl font-bold text-ink" data-reveal>
+      Tipping at a glance
+    </h2>
+    <div class="mt-4 overflow-x-auto rounded-card border border-border bg-card shadow-card">
+      <table class="w-full text-left text-sm">
+        <thead>
+          <tr class="border-b border-border bg-sand-deep">
+            <th class="px-4 py-3 font-semibold text-ink">Where</th>
+            <th class="px-4 py-3 font-semibold text-ink">Typical tip</th>
+            <th class="px-4 py-3 font-semibold text-ink">Notes</th>
+          </tr>
+        </thead>
+        <tbody>
+          {
+            tipTable.map((r) => (
+              <tr class="border-b border-border last:border-0">
+                <td class="px-4 py-3 font-semibold text-ink">{r.place}</td>
+                <td class="px-4 py-3 tabular text-primary">{r.norm}</td>
+                <td class="px-4 py-3 text-ink-muted">{r.note}</td>
+              </tr>
+            ))
+          }
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <section class="mx-auto max-w-3xl px-4 pb-4 pt-14">
+    <h2 class="mb-4 font-display text-2xl font-bold text-ink">
+      Frequently asked questions
+    </h2>
+    <div class="space-y-4">
+      {
+        faqs.map((f) => (
+          <details class="rounded-card border border-border bg-card p-4">
+            <summary class="cursor-pointer font-semibold text-ink">
+              {f.question}
+            </summary>
+            <p class="mt-2 text-ink-muted">{f.answer}</p>
+          </details>
+        ))
+      }
+    </div>
+  </section>
+
+  <section class="mx-auto max-w-3xl px-4 pb-16 pt-6">
+    <div class="rounded-card border border-border bg-sand-deep p-6 text-center shadow-card">
+      <h2 class="font-display text-2xl font-bold text-ink">Ready to plan the trip?</h2>
+      <p class="mx-auto mt-2 max-w-xl text-ink-muted">
+        Now you know the money side, map out where to go and for how long.
+      </p>
+      <div class="mt-5 flex flex-wrap justify-center gap-3">
+        <a href="/itineraries" class="btn btn-primary">See itineraries</a>
+        <a href="/plan-your-trip" class="btn btn-ghost">Plan your trip</a>
+      </div>
+    </div>
+  </section>
+</BaseLayout>
+
+<style>
+  .cur-opt,
+  .tip-opt {
+    display: block;
+    cursor: pointer;
+    border-radius: var(--radius-btn);
+    border: 1.5px solid var(--color-border);
+    padding: 0.55rem 0.25rem;
+    text-align: center;
+    font-size: var(--text-sm);
+    font-weight: 600;
+    color: var(--color-ink-muted);
+    transition:
+      border-color 0.18s ease,
+      background 0.18s ease,
+      color 0.18s ease;
+  }
+  .cur-opt:has(input:checked),
+  .tip-opt:has(input:checked) {
+    border-color: var(--color-primary);
+    background: var(--color-primary-soft);
+    color: var(--color-primary);
+  }
+  .cur-opt:has(input:focus-visible),
+  .tip-opt:has(input:focus-visible) {
+    outline: 3px solid var(--color-primary);
+    outline-offset: 2px;
+  }
+</style>
+
+<script is:inline>
+  (function () {
+    // Approximate 2026 ILS-per-unit rates.
+    var RATES = { USD: 3.7, EUR: 4.0, GBP: 4.7 };
+    var SYM = { USD: '$', EUR: '€', GBP: '£' };
+    var NAME = { USD: 'US dollars ($)', EUR: 'Euros (€)', GBP: 'British pounds (£)' };
+
+    var $ = function (id) { return document.getElementById(id); };
+    function cur() {
+      var el = document.querySelector('input[name="cur"]:checked');
+      return el ? el.value : 'USD';
+    }
+    function fmt(n) {
+      if (isNaN(n)) return '0';
+      return n.toLocaleString('en-US', { maximumFractionDigits: 2 });
+    }
+
+    // --- Currency converter (two-way) ---
+    var ils = $('ils'), foreign = $('foreign');
+    function syncFromIls() {
+      var v = parseFloat(ils.value);
+      var r = RATES[cur()];
+      foreign.value = isNaN(v) ? '' : (v / r).toFixed(2);
+      updateFxLabels();
+    }
+    function syncFromForeign() {
+      var v = parseFloat(foreign.value);
+      var r = RATES[cur()];
+      ils.value = isNaN(v) ? '' : (v * r).toFixed(2);
+      updateFxLabels();
+    }
+    function updateFxLabels() {
+      var c = cur();
+      $('foreign-label').textContent = NAME[c];
+      $('rate-note').textContent =
+        'Approximate rate: ₪1 ≈ ' + SYM[c] + (1 / RATES[c]).toFixed(2) +
+        '  ·  ' + SYM[c] + '1 ≈ ₪' + RATES[c].toFixed(2);
+    }
+
+    ils.addEventListener('input', syncFromIls);
+    foreign.addEventListener('input', syncFromForeign);
+    document.querySelectorAll('input[name="cur"]').forEach(function (el) {
+      el.addEventListener('change', syncFromIls);
+    });
+
+    // --- Tipping calculator ---
+    function svc() {
+      var el = document.querySelector('input[name="svc"]:checked');
+      return el ? parseFloat(el.value) : 12;
+    }
+    function computeTip() {
+      var bill = parseFloat($('bill').value);
+      if (isNaN(bill) || bill < 0) bill = 0;
+      var split = Math.max(1, parseInt($('split').value, 10) || 1);
+      var tip = bill * (svc() / 100);
+      var total = bill + tip;
+      $('tip-amt').textContent = '₪' + fmt(tip);
+      $('tip-total').textContent = '₪' + fmt(total);
+      $('tip-per').textContent = '₪' + fmt(total / split);
+      $('per-row').style.display = split > 1 ? '' : 'none';
+    }
+    $('tip').addEventListener('input', computeTip);
+    document.querySelectorAll('input[name="svc"]').forEach(function (el) {
+      el.addEventListener('change', computeTip);
+    });
+
+    // init
+    syncFromIls();
+    computeTip();
+  })();
+</script>

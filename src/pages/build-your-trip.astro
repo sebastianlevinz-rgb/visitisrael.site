@@ -1,0 +1,413 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '@/layouts/BaseLayout.astro';
+import Hero from '@/components/Hero.astro';
+import Breadcrumbs from '@/components/Breadcrumbs.astro';
+import JsonLd from '@/components/JsonLd.astro';
+import { breadcrumbList, faqPage } from '@/lib/schema';
+import { REGIONS, getRegion } from '@/data/regions';
+import {
+  attractionRegion,
+  attractionSlug,
+  attractionName,
+} from '@/lib/content';
+
+const title = 'Build Your Israel Trip — Free Itinerary Builder';
+const description =
+  'Pick the regions and attractions you want, and build a shareable day-by-day Israel itinerary. Free, saves automatically, and links straight to every guide.';
+
+const crumbs = [
+  { name: 'Home', path: '/' },
+  { name: 'Build your trip', path: '/build-your-trip' },
+];
+
+const attractions = await getCollection('attractions');
+// Catalog grouped by region, in REGIONS order.
+const catalog = REGIONS.map((r) => ({
+  slug: r.slug,
+  name: r.name,
+  tagline: r.tagline,
+  items: attractions
+    .filter((a) => attractionRegion(a) === r.slug)
+    .map((a) => ({
+      id: `${r.slug}/${attractionSlug(a)}`,
+      name: attractionName(a),
+      url: `/${r.slug}/${attractionSlug(a)}`,
+    }))
+    .sort((a, b) => a.name.localeCompare(b.name)),
+})).filter((r) => r.items.length);
+
+const faqs = [
+  {
+    question: 'How does the trip builder work?',
+    answer:
+      'Tap "Add" on any region or attraction to drop it into your trip. The builder estimates how many days you need, groups your picks by region, and saves everything in your browser automatically. Use "Copy share link" to send your plan to a travel companion or open it on another device.',
+  },
+  {
+    question: 'How many attractions can I fit per day?',
+    answer:
+      'As a rule of thumb, plan 2–3 main sights per day plus travel time. The builder estimates days from the number of attractions and regions you pick — treat it as a starting point and adjust to your pace.',
+  },
+  {
+    question: 'Does it book anything?',
+    answer:
+      "No — it's a free planning tool. Each pick links to our in-depth guide, and from there to trusted booking partners for tours and hotels. Nothing is reserved until you book on a partner site.",
+  },
+];
+
+const schema = [breadcrumbList(crumbs), faqPage(faqs)];
+---
+
+<BaseLayout
+  title={title}
+  description={description}
+  path="/build-your-trip"
+  image="/images/regions/galilee/hero.jpg"
+  imageAlt="Plan and build your Israel itinerary"
+>
+  <JsonLd schema={schema} slot="head" />
+  <Hero
+    image="/images/regions/galilee/hero.jpg"
+    title="Build Your Trip"
+    subtitle="Pick what you want to see — we'll shape it into a shareable day-by-day plan."
+    alt="Green hills of the Galilee at golden hour — plan your Israel trip"
+  />
+  <Breadcrumbs items={crumbs} />
+
+  <section class="mx-auto max-w-6xl px-4 pt-10">
+    <div class="grid gap-8 lg:grid-cols-[1.4fr_1fr]">
+      <!-- Catalog -->
+      <div>
+        <p class="eyebrow" data-reveal>Pick your places</p>
+        <h2 class="font-display text-3xl font-bold text-ink" data-reveal>
+          Choose regions & attractions
+        </h2>
+        <p class="mt-2 text-ink-muted" data-reveal>
+          Add a whole region or individual sights. Everything saves
+          automatically.
+        </p>
+
+        <div class="mt-6 space-y-8" id="catalog">
+          {
+            catalog.map((r) => (
+              <div>
+                <div class="mb-2 flex items-center justify-between gap-3">
+                  <div>
+                    <h3 class="font-display text-xl font-bold text-ink">
+                      <a
+                        href={`/${r.slug}`}
+                        class="no-underline hover:text-primary"
+                      >
+                        {r.name}
+                      </a>
+                    </h3>
+                    <p class="text-sm text-ink-muted">{r.tagline}</p>
+                  </div>
+                  <button
+                    type="button"
+                    class="trip-add-region btn btn-ghost shrink-0"
+                    style="padding:0.4rem 0.9rem;font-size:var(--text-sm)"
+                    data-ids={r.items.map((i) => i.id).join(',')}
+                  >
+                    Add all
+                  </button>
+                </div>
+                <div class="flex flex-wrap gap-2">
+                  {r.items.map((it) => (
+                    <button
+                      type="button"
+                      class="trip-add chip"
+                      data-id={it.id}
+                      data-name={it.name}
+                      data-url={it.url}
+                      data-region={r.name}
+                      aria-pressed="false"
+                    >
+                      <span class="chip-plus" aria-hidden="true">
+                        +
+                      </span>
+                      {it.name}
+                    </button>
+                  ))}
+                </div>
+              </div>
+            ))
+          }
+        </div>
+      </div>
+
+      <!-- Trip basket -->
+      <aside class="lg:sticky lg:top-20 lg:self-start">
+        <div class="rounded-card border border-border bg-sand-deep p-6 shadow-card">
+          <div class="flex items-baseline justify-between">
+            <p class="eyebrow">Your trip</p>
+            <button
+              type="button"
+              id="trip-clear"
+              class="text-sm font-semibold text-ink-muted no-underline hover:text-primary"
+              hidden>Clear</button
+            >
+          </div>
+          <p class="mt-1">
+            <span id="trip-days" class="tabular font-display text-5xl font-bold text-ink"
+              >0</span
+            >
+            <span class="text-ink-muted" id="trip-days-label">days</span>
+          </p>
+          <p id="trip-count" class="mt-1 text-sm text-ink-muted">
+            Nothing added yet — start picking on the left.
+          </p>
+
+          <div id="trip-list" class="mt-5 space-y-5" aria-live="polite"></div>
+
+          <div id="trip-actions" class="mt-6 flex flex-wrap gap-3" hidden>
+            <button type="button" id="trip-share" class="btn btn-primary"
+              >Copy share link</button
+            >
+            <a href="/itineraries" class="btn btn-ghost">See sample routes</a>
+          </div>
+          <p
+            id="trip-share-ok"
+            class="mt-3 text-sm font-semibold text-primary"
+            hidden
+          >
+            Link copied to clipboard ✓
+          </p>
+          <p class="mt-4 text-xs text-ink-muted">
+            Saved in your browser only. Estimate assumes ~2–3 sights per day plus
+            travel.
+          </p>
+        </div>
+      </aside>
+    </div>
+  </section>
+
+  <section class="mx-auto max-w-3xl px-4 pb-4 pt-14">
+    <h2 class="mb-4 font-display text-2xl font-bold text-ink">
+      Frequently asked questions
+    </h2>
+    <div class="space-y-4">
+      {
+        faqs.map((f) => (
+          <details class="rounded-card border border-border bg-card p-4">
+            <summary class="cursor-pointer font-semibold text-ink">
+              {f.question}
+            </summary>
+            <p class="mt-2 text-ink-muted">{f.answer}</p>
+          </details>
+        ))
+      }
+    </div>
+  </section>
+</BaseLayout>
+
+<style>
+  .chip {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.35rem;
+    border-radius: 9999px;
+    border: 1.5px solid var(--color-border);
+    background: var(--color-card);
+    padding: 0.4rem 0.85rem;
+    font-size: var(--text-sm);
+    font-weight: 600;
+    color: var(--color-ink);
+    cursor: pointer;
+    transition:
+      border-color 0.18s ease,
+      background 0.18s ease,
+      color 0.18s ease;
+  }
+  .chip:hover {
+    border-color: var(--color-primary);
+  }
+  .chip[aria-pressed='true'] {
+    background: var(--color-primary);
+    border-color: var(--color-primary);
+    color: #fff;
+  }
+  .chip[aria-pressed='true'] .chip-plus {
+    transform: rotate(45deg);
+  }
+  .chip-plus {
+    font-size: 1.05em;
+    line-height: 1;
+    transition: transform 0.18s ease;
+  }
+  .chip:focus-visible {
+    outline: 3px solid var(--color-primary);
+    outline-offset: 2px;
+  }
+</style>
+
+<script is:inline>
+  (function () {
+    var KEY = 'vi-trip';
+    var meta = {}; // id -> {name, url, region}
+    document.querySelectorAll('.trip-add').forEach(function (b) {
+      meta[b.dataset.id] = {
+        name: b.dataset.name,
+        url: b.dataset.url,
+        region: b.dataset.region,
+      };
+    });
+
+    var selected = new Set();
+
+    function load() {
+      var ids = [];
+      if (location.hash.length > 1) {
+        ids = decodeURIComponent(location.hash.slice(1))
+          .split(',')
+          .filter(Boolean);
+      } else {
+        try {
+          ids = JSON.parse(localStorage.getItem(KEY) || '[]');
+        } catch (e) {
+          ids = [];
+        }
+      }
+      ids.forEach(function (id) {
+        if (meta[id]) selected.add(id);
+      });
+    }
+
+    function save() {
+      try {
+        localStorage.setItem(KEY, JSON.stringify(Array.from(selected)));
+      } catch (e) {}
+    }
+
+    function estimateDays() {
+      var regions = {};
+      selected.forEach(function (id) {
+        regions[meta[id].region] = (regions[meta[id].region] || 0) + 1;
+      });
+      var nRegions = Object.keys(regions).length;
+      var perDay = Math.ceil(selected.size / 3);
+      return Math.max(nRegions, perDay, selected.size ? 1 : 0);
+    }
+
+    function render() {
+      // chip states
+      document.querySelectorAll('.trip-add').forEach(function (b) {
+        var on = selected.has(b.dataset.id);
+        b.setAttribute('aria-pressed', on ? 'true' : 'false');
+      });
+      // counters
+      var days = estimateDays();
+      document.getElementById('trip-days').textContent = days;
+      document.getElementById('trip-days-label').textContent =
+        days === 1 ? 'day' : 'days';
+      var count = selected.size;
+      var cEl = document.getElementById('trip-count');
+      var clearBtn = document.getElementById('trip-clear');
+      var actions = document.getElementById('trip-actions');
+      if (!count) {
+        cEl.textContent = 'Nothing added yet — start picking on the left.';
+        clearBtn.hidden = true;
+        actions.hidden = true;
+      } else {
+        cEl.textContent =
+          count + (count === 1 ? ' place' : ' places') + ' across your trip';
+        clearBtn.hidden = false;
+        actions.hidden = false;
+      }
+      // grouped list
+      var byRegion = {};
+      selected.forEach(function (id) {
+        var r = meta[id].region;
+        (byRegion[r] = byRegion[r] || []).push(id);
+      });
+      var list = document.getElementById('trip-list');
+      list.innerHTML = '';
+      Object.keys(byRegion).forEach(function (region) {
+        var h = document.createElement('p');
+        h.className =
+          'text-xs font-bold uppercase tracking-wide text-primary';
+        h.textContent = region;
+        list.appendChild(h);
+        var ul = document.createElement('ul');
+        ul.className = 'mt-1 mb-2 space-y-1';
+        byRegion[region].forEach(function (id) {
+          var li = document.createElement('li');
+          li.className = 'flex items-center justify-between gap-2 text-sm';
+          var a = document.createElement('a');
+          a.href = meta[id].url;
+          a.className = 'text-ink no-underline hover:text-primary';
+          a.textContent = meta[id].name;
+          var rm = document.createElement('button');
+          rm.type = 'button';
+          rm.className =
+            'shrink-0 text-ink-muted hover:text-primary';
+          rm.setAttribute('aria-label', 'Remove ' + meta[id].name);
+          rm.textContent = '✕';
+          rm.addEventListener('click', function () {
+            selected.delete(id);
+            commit();
+          });
+          li.appendChild(a);
+          li.appendChild(rm);
+          ul.appendChild(li);
+        });
+        list.appendChild(ul);
+      });
+    }
+
+    function commit() {
+      save();
+      render();
+    }
+
+    document.querySelectorAll('.trip-add').forEach(function (b) {
+      b.addEventListener('click', function () {
+        var id = b.dataset.id;
+        if (selected.has(id)) selected.delete(id);
+        else selected.add(id);
+        commit();
+      });
+    });
+    document.querySelectorAll('.trip-add-region').forEach(function (b) {
+      b.addEventListener('click', function () {
+        var ids = (b.dataset.ids || '').split(',').filter(Boolean);
+        var allOn = ids.every(function (id) {
+          return selected.has(id);
+        });
+        ids.forEach(function (id) {
+          if (allOn) selected.delete(id);
+          else selected.add(id);
+        });
+        commit();
+      });
+    });
+    document.getElementById('trip-clear').addEventListener('click', function () {
+      selected.clear();
+      commit();
+    });
+    document.getElementById('trip-share').addEventListener('click', function () {
+      var url =
+        location.origin +
+        location.pathname +
+        '#' +
+        encodeURIComponent(Array.from(selected).join(','));
+      var ok = document.getElementById('trip-share-ok');
+      function flash() {
+        ok.hidden = false;
+        setTimeout(function () {
+          ok.hidden = true;
+        }, 2500);
+      }
+      if (navigator.clipboard && navigator.clipboard.writeText) {
+        navigator.clipboard.writeText(url).then(flash, function () {
+          prompt('Copy your trip link:', url);
+        });
+      } else {
+        prompt('Copy your trip link:', url);
+      }
+    });
+
+    load();
+    render();
+  })();
+</script>

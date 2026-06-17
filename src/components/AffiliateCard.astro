@@ -1,6 +1,7 @@
 ---
 import { affiliateUrl, PARTNERS, type Partner } from '@/config/affiliates';
 import AffiliateDisclosure from '@/components/AffiliateDisclosure.astro';
+import Pic from '@/components/Pic.astro';
 
 export interface Props {
   partner: Partner;
@@ -10,10 +11,6 @@ export interface Props {
   destination?: string;
   query?: string;
   productId?: string;
-  priceFrom?: number;
-  currency?: string;
-  rating?: number;
-  reviews?: number;
   cta?: string;
 }
 const {
@@ -24,10 +21,6 @@ const {
   destination,
   query,
   productId,
-  priceFrom,
-  currency = '$',
-  rating,
-  reviews,
   cta = 'Book now',
 } = Astro.props;
 
@@ -36,18 +29,16 @@ const href = affiliateUrl(partner, { destination, query, productId });
 ---
 
 <article
-  class="flex flex-col overflow-hidden rounded-card border border-border bg-card shadow-card transition-shadow hover:shadow-card-hover"
+  class="group flex flex-col overflow-hidden rounded-card border border-border bg-card shadow-card transition-shadow hover:shadow-card-hover"
   data-affiliate-card
   data-partner={partner}
 >
-  <div class="relative aspect-[16/10] overflow-hidden">
-    <img
+  <div class="img-zoom relative aspect-[16/10]">
+    <Pic
       src={image}
       alt={title}
       width="800"
       height="500"
-      loading="lazy"
-      decoding="async"
       class="h-full w-full object-cover"
     />
     <span

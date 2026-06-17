@@ -15,7 +15,7 @@ secondaryKeywords:
 latitude: 30.6098
 longitude: 34.8019
 publishedAt: 2026-05-11
-updatedAt: 2026-05-11
+updatedAt: 2026-06-17
 faqs:
   - question: How big is Makhtesh Ramon?
     answer: Makhtesh Ramon is about forty kilometres long, two to ten kilometres wide, and roughly five hundred metres deep at the deepest point. It is the largest erosion crater on Earth — a geological feature called a makhtesh in Hebrew, formed by uplift and water erosion over millions of years, not by volcanic activity or a meteorite impact.
@@ -28,6 +28,17 @@ faqs:
 ---
 
 **Mitzpe Ramon** is the town on the northern rim of **Makhtesh Ramon** — the largest erosion crater on Earth and one of the most distinctive geological features in Israel. The town is small (population around five thousand) but it has become the focal point of Negev tourism, hosting the Israel Nature and Parks Authority visitor centre, the Ramon Crater Dark Sky Park, and a cluster of boutique desert lodges. This guide covers the crater itself, the visitor centre experience, dark-sky stargazing, accommodation, and how Mitzpe Ramon fits into a longer Negev itinerary.
+
+## Need to know
+
+| | |
+|---|---|
+| **Cost** | The rim promenade and main lookouts are free. The INPA visitor centre and the crater-floor descent road charge entry (multi-park pass honoured). Guided stargazing sessions are a separate paid booking. |
+| **Hours** | Visitor centre roughly 08:00–16:00 daily (slightly extended in summer). The rim promenade is free and open day or night. Check the official site for current hours. |
+| **Time needed** | A two-night stay is ideal (sunrise, daytime hike, after-dark stargazing). An afternoon-only visit feels compressed. |
+| **Getting there** | On Route 40 in the central Negev. Best by rental car; reduce speed near town at dawn/dusk for crossing ibex. |
+| **Best time** | New-moon weeks in winter (Dec–Feb) for the darkest skies and best telescope visibility. Sunrise and sunset at the Albert Promenade lookout. |
+| **Accessibility** | The rim promenade and main lookout are paved and largely level; crater-floor and summit trails are strenuous. At ~800 m altitude nights are cold — bring layers. Carry 1.5 L water per person for hikes. |
 
 ## What is Makhtesh Ramon?
 

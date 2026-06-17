@@ -14,7 +14,7 @@ secondaryKeywords:
 latitude: 31.3157
 longitude: 35.3534
 publishedAt: 2026-05-11
-updatedAt: 2026-05-11
+updatedAt: 2026-06-17
 faqs:
   - question: How long does it take to climb Masada via the Snake Path?
     answer: About 60 to 90 minutes for fit hikers in cool weather; longer in summer. The path is well marked, switchbacks up the eastern face, and gains roughly 350 metres in elevation. Bring at least 1.5 litres of water per person, sun protection, and shoes with good grip. The path opens at four in the morning for sunrise climbers.
@@ -29,6 +29,17 @@ faqs:
 ---
 
 **Masada** is the UNESCO World Heritage Site at the top of a high mesa above the western shore of the Dead Sea — a Roman-era fortified palace complex built by Herod the Great in the first century BCE, later occupied by Jewish defenders during the First Jewish-Roman War, and famously besieged by Roman legions in 73 CE. The plateau rises about four hundred metres above the surrounding salt plain; the view east across the Dead Sea to the Moab Mountains is one of the most dramatic in the Israeli desert. This guide covers the Snake Path versus cable-car decision, the sunrise visit, the major buildings on the summit, and how Masada fits into a Dead Sea itinerary.
+
+## Need to know
+
+| | |
+|---|---|
+| **Cost** | INPA national park entry (~₪31 / ~$8 adult). The cable car is a separate ticket (round-trip or one-way); combined park + cable-car tickets are sold at the visitor centre. Check the official site for current prices. |
+| **Hours** | Visitor centre & cable car ~08:00–16:00 (until ~17:00 in summer). The **Snake Path opens at 04:00** in the sunrise season (Apr–Oct). Closes earlier on Fri & holiday eves. |
+| **Time needed** | 2–3 hours on the summit; add ~1 hour for the Snake Path climb if hiking up. |
+| **Getting there** | On Route 90 above the Dead Sea. **Egged bus 444** from Jerusalem (~90 min) stops at the visitor centre; ~2.5 hr drive from Tel Aviv. Most sunrise tours pick up from Tel Aviv at 02:00–03:00. |
+| **Best time** | **Sunrise** is the marquee experience (climb the Snake Path before dawn). Avoid mid-day Snake Path climbs May–Sep. |
+| **Accessibility** | The **cable car** reaches the summit in ~3 min for visitors who can't hike; the summit itself has uneven ancient paving and steps between levels. |
 
 ## What is Masada?
 

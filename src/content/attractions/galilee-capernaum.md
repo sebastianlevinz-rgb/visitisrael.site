@@ -16,7 +16,7 @@ secondaryKeywords:
 latitude: 32.881
 longitude: 35.575
 publishedAt: 2026-05-11
-updatedAt: 2026-05-11
+updatedAt: 2026-06-17
 faqs:
   - question: How much time should I spend at Capernaum?
     answer: One and a half to two hours covers the Franciscan Catholic section (synagogue ruins and Peter's house memorial church) plus a short walk to the Greek Orthodox section a hundred metres east. Most pilgrim itineraries combine Capernaum with Mount of Beatitudes and Tabgha in a single morning, which adds about three hours total for the cluster.
@@ -31,6 +31,17 @@ faqs:
 **Capernaum** — known in Hebrew as **Kfar Nahum** and in Arabic as **Kafr Nahum** — is the northern-shore Sea of Galilee archaeological park that the Gospels identify as **Jesus's adopted town during his Galilean ministry**. The site holds two main draws: the white-limestone **synagogue ruins** that sit atop the basalt foundation of an earlier synagogue where Jesus would have taught, and the modern **memorial church** built over the traditional site of **Peter's house** (the fisherman who became one of Jesus's first disciples, whose home Jesus is said to have used as a base in Capernaum).
 
 The site is the most-visited stop on the Sea of Galilee pilgrim circuit and is administered jointly by the **Franciscan Custody of the Holy Land** at the western (Catholic) section and the **Greek Orthodox Patriarchate of Jerusalem** at a separate church a hundred metres east. The two sections together cover about three hectares of excavated 1st-century Roman-era fishing-town remains.
+
+## Need to know
+
+| | |
+|---|---|
+| **Cost** | Franciscan (Catholic) section ~₪10 / ~$3; Greek Orthodox section free. |
+| **Hours** | Franciscan section generally daily 08:00–17:00 (may close earlier Sundays / on feast days for liturgy); Greek Orthodox section similar daytime hours. |
+| **Time needed** | 1.5–2 hours for both sections; ~3 hours if combining with Mount of Beatitudes and Tabgha. |
+| **Getting there** | On Route 87, northern Sea of Galilee shore, ~20 min by car from central Tiberias. Paid car park at the Franciscan entrance. |
+| **Best time** | Earlier in the day for cooler temperatures and quieter crowds; the open park has little shade. |
+| **Accessibility** | Active worship sites — **shoulders and knees must be covered** at both; cover-ups not provided. Mostly flat archaeological paths with some uneven historic surfaces. |
 
 ## What is Capernaum?
 

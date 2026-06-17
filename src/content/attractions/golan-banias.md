@@ -16,7 +16,7 @@ secondaryKeywords:
 latitude: 33.2483
 longitude: 35.6947
 publishedAt: 2026-05-11
-updatedAt: 2026-05-11
+updatedAt: 2026-06-17
 faqs:
   - question: Is Banias the same as Caesarea Philippi?
     answer: Yes — Banias is the modern Arabic name (from the Greek "Paneion", the cult site of the god Pan) and Caesarea Philippi is the Roman-era name. The site is in the Golan Heights at the foot of Mount Hermon, at the headwaters of the Jordan River. This is NOT to be confused with Caesarea Maritima on the Mediterranean coast (45 minutes north of Tel Aviv — a separate Herodian Roman port covered in our Caesarea travel guide). The two share only the dynastic naming pattern.
@@ -35,6 +35,17 @@ faqs:
 **Banias / Caesarea Philippi — not to be confused with Caesarea Maritima** on the Mediterranean coast, the Herodian Roman port that is 200 kilometres south and the subject of a separate travel guide. The two share only the dynastic naming pattern (Herod the Great founded Maritima around 25 BCE; his son Herod Philip founded Philippi around 2 BCE) — they are two different ancient cities at two different geographies. Christian readers recognise Caesarea Philippi from the Gospel scene of Peter's confession.
 
 This guide covers the Pan grotto archaeology, the Banias spring and waterfall walks, the New Testament setting context, and the practical realities of a Banias nature reserve visit.
+
+## Need to know
+
+| | |
+|---|---|
+| **Cost** | Standard nature-reserve fee (~₪29 / ~$8 adult); free with the annual parks pass. A combined ticket allows entry through one gate and exit through the other. |
+| **Hours** | Roughly 08:00–17:00 in summer, shorter in winter. Open daily. |
+| **Time needed** | 2–3 hours for the combined visit (Pan grotto + spring ~1 hour; waterfall walk ~90 min round trip). |
+| **Getting there** | In the Golan at the foot of Mount Hermon. Two gates — upper (closer to the Pan grotto) and lower (closer to the waterfall). ~10 min from Nimrod Fortress; rental car or Golan day tour. |
+| **Best time** | Spring (Mar–May) for peak waterfall flow and wildflowers; summer is shadier along the stream; winter has strongest flow but slippery paths. |
+| **Accessibility** | Walking shoes needed — the Hermon stream trail has uneven stone footing, stairs and stream crossings; the Pan grotto zone is partially open with little shade. |
 
 ## What is Banias?
 

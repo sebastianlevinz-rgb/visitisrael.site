@@ -16,7 +16,7 @@ secondaryKeywords:
 latitude: 32.8137
 longitude: 34.99
 publishedAt: 2026-05-11
-updatedAt: 2026-05-11
+updatedAt: 2026-06-17
 faqs:
   - question: What is Wadi Nisnas?
     answer: Wadi Nisnas is the long-running Arab-Christian quarter at the foot of Mount Carmel in Haifa, between the lower city and Hadar HaCarmel. The neighbourhood is the heart of Arab-Christian Haifa — Greek Orthodox, Greek Catholic, Maronite and Roman Catholic parishes; small bakeries; long-running hummus and falafel institutions; street-art murals commissioned annually for the Holiday of Holidays festival; and the Beit HaGefen Arab-Jewish Cultural Centre at the entrance to the quarter.
@@ -33,6 +33,17 @@ faqs:
 **Wadi Nisnas** is the long-running **Arab-Christian quarter** at the foot of Mount Carmel in Haifa, between the lower city and Hadar HaCarmel commercial district. The neighbourhood is the heart of Arab-Christian Haifa — Greek Orthodox, Greek Catholic, Maronite and Roman Catholic parishes; small bakeries; long-running hummus and falafel institutions; street-art murals commissioned annually for the **Holiday of Holidays festival**; and the **Beit HaGefen Arab-Jewish Cultural Centre** at the entrance to the quarter, which has run cross-community programs continuously since 1963.
 
 For visitors, Wadi Nisnas is the city's headline food walk — **Falafel HaZkenim** ("Falafel of the Old Men", running since 1950), **Abu Shaker** and **Mama Falafel** are the long-running hummus and falafel institutions, with small fish-and-chips counters along the market lanes serving the working-port lunch register. The street-art murals commissioned annually for the **Holiday of Holidays** festival (December) make a walk-and-eat itinerary in their own right.
+
+## Need to know
+
+| | |
+|---|---|
+| **Cost** | **Free** to walk — a public quarter with no gates. You only pay for food (the hummus/falafel institutions are cash-preferred). |
+| **Hours** | An open neighbourhood. Food institutions run lunchtime through evening; the lunch rush builds from ~12:30. Being Arab-Christian, the quarter **stays open through Shabbat** (Fri–Sat). |
+| **Time needed** | ~1 hour for a focused food walk; ~2 hours with a Beit HaGefen tour. |
+| **Getting there** | ~10-min walk from the Paris Square Carmelit terminus; ~15 min from the German Colony; ~5 min from Hadar HaCarmel. Start at the Beit HaGefen Cultural Centre. |
+| **Best time** | Lunch at ~12:00 (before the queues build); **December** for the Holiday of Holidays festival. Murals are visible year-round. |
+| **Accessibility** | Pedestrianised central lanes with paved sidewalks; some streets are narrow and sloping at the foot of Mount Carmel. |
 
 ## What is Wadi Nisnas?
 

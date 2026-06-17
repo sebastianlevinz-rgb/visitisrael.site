@@ -15,7 +15,7 @@ secondaryKeywords:
 latitude: 32.6883
 longitude: 35.3036
 publishedAt: 2026-05-11
-updatedAt: 2026-05-11
+updatedAt: 2026-06-17
 faqs:
   - question: How much time should I spend at Mount of Precipice?
     answer: 45 minutes to an hour for the viewpoint terrace and a short walk along the cliff edge is sufficient for most visitors. Add 90 minutes if you want to walk the first section of the Jesus Trail down to the wadi at the base of the cliff. The panorama is exceptional in any season — Mount Tabor to the east, the full Jezreel Valley to the south, and the Carmel range to the west.
@@ -30,6 +30,17 @@ faqs:
 **Mount of Precipice** (Har HaKfitza in Hebrew; **Jebel Qafzeh** in Arabic) is the cliff edge a short drive south of central Nazareth with one of the most sweeping panoramas in northern Israel — **Mount Tabor** rising to the east, the full **Jezreel Valley** spread to the south, and the **Carmel range** on the western horizon. The site is the canonical pilgrim location for the Gospel account in **Luke 4:28-30** of Jesus being driven from the Nazareth synagogue toward a cliff and miraculously passing through the crowd. The cliff is also the formal **starting point of the Jesus Trail**, the 65-kilometre long-distance walking route east to Capernaum.
 
 The site is **open-air rather than an active worship site** — a paved viewpoint terrace, hiking access, a small visitor centre with interpretive signage in multiple languages, and a paid car park. There is no church at the cliff itself; the site is treated as a Place (panoramic viewpoint with Gospel-tradition significance) rather than a religious worship site.
+
+## Need to know
+
+| | |
+|---|---|
+| **Cost** | Viewpoint terrace is free; small parking fee at the visitor centre car park. |
+| **Hours** | Terrace open year-round during daylight hours; the visitor centre operates roughly 09:00–17:00. |
+| **Time needed** | 45 min–1 hour for the terrace and cliff edge; add ~90 min to walk the first section of the Jesus Trail down to the wadi and back. |
+| **Getting there** | ~10 min drive south of central Nazareth via the Nazareth Heights road; paid car park at the visitor centre. Walkable in ~30 min uphill from the Old City. |
+| **Best time** | Late afternoon in summer for soft light on Mount Tabor and the Jezreel Valley; early morning in winter for the clearest views north. |
+| **Accessibility** | Paved viewpoint terrace; the cliff is open and exposed with no shade. Closed shoes needed for the stone-stepped Jesus Trail descent, which can be slippery in winter. |
 
 ## What is Mount of Precipice?
 

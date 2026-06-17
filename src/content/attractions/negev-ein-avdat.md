@@ -15,7 +15,7 @@ secondaryKeywords:
 latitude: 30.8336
 longitude: 34.7569
 publishedAt: 2026-05-11
-updatedAt: 2026-05-11
+updatedAt: 2026-06-17
 faqs:
   - question: How long is the Ein Avdat hike?
     answer: The full one-way traverse is about three kilometres and takes two and a half hours including stops. Most visitors hike a shorter out-and-back from the southern entrance (about ninety minutes) to reach the main spring pools without the steep northern ladder section. The canyon floor is shaded for most of the route and the elevation gain is modest until the final ladders.
@@ -28,6 +28,17 @@ faqs:
 ---
 
 **Ein Avdat** is a deep canyon carved into the central Negev plateau just below the Sde Boker kibbutz — a narrow gorge with **year-round spring pools**, dramatic limestone walls, healthy ibex and rock-hyrax populations, and a marked hiking trail that follows the **Zin streambed** through the canyon floor. The combination of permanent water, vertical drama, and accessible distance from Sde Boker makes Ein Avdat one of the most rewarding day hikes in the Negev. This guide covers the trail options, what to bring, and how Ein Avdat fits into a central-Negev itinerary.
+
+## Need to know
+
+| | |
+|---|---|
+| **Cost** | INPA national park entry (~₪28 / ~$8 adult; children less). The multi-park annual pass is honoured. |
+| **Hours** | Roughly 08:00–17:00 in summer, until 16:00 in winter; the southern entrance closes ~1 hour before the gate. Friday/Saturday hours may be reduced. Heavy rain can close the canyon. Check the official site. |
+| **Time needed** | ~90 min for the southern out-and-back to the main pools; ~2.5 hours for the full one-way traverse. |
+| **Getting there** | Southern trailhead off Route 40 below Sde Boker. Best reached by rental car; the full traverse needs a shuttle or two cars staged at entry and exit. |
+| **Best time** | Spring and autumn for pleasant temperatures. **Start early.** Mostly shaded canyon floor makes it more summer-tolerant than open-desert hikes nearby. |
+| **Accessibility** | The southern out-and-back suits most fitness levels (uneven terrain); the full traverse includes a **steep vertical ladder section** not suitable for young children or anyone with vertigo. **No swimming** in the protected spring pools. Carry 1–1.5 L water per person. |
 
 ## What is Ein Avdat?
 

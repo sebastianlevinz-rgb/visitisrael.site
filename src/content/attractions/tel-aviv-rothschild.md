@@ -14,7 +14,7 @@ secondaryKeywords:
 latitude: 32.0668
 longitude: 34.7755
 publishedAt: 2026-05-11
-updatedAt: 2026-05-11
+updatedAt: 2026-06-17
 faqs:
   - question: What is the Bauhaus White City?
     answer: A UNESCO World Heritage Site recognising more than four thousand Bauhaus and International-Style buildings built in the 1930s by German Jewish architects who fled Europe. The densest cluster runs along Rothschild Boulevard and the feeder streets — Mazeh, Engel, Bialik and Dizengoff.
@@ -29,6 +29,17 @@ faqs:
 **Rothschild Boulevard** is the tree-lined pedestrian-friendly avenue that runs through the heart of central Tel Aviv. It is the historical and architectural anchor of the **Bauhaus White City**, a UNESCO World Heritage Site recognising more than four thousand 1930s Bauhaus and International-Style buildings built by Jewish architects who fled Nazi Germany. The boulevard itself is a daily local commute and café space; the buildings along it and the feeder streets are the architectural reason to walk it slowly. This guide covers the history, the walking route, the best Bauhaus facades, guided tour options, and how Rothschild fits into a Tel Aviv visit.
 
 The boulevard runs from **Habima Square** at its north end down through **HaShalom** to **Allenby** in the south — roughly 1.5 kilometres of green centre median, juice stands, café terraces and cycle path. The architectural density along the boulevard and the streets that feed into it (Mazeh, Engel, Bialik, Dizengoff) is the reason UNESCO inscribed Tel Aviv in 2003.
+
+## Need to know
+
+| | |
+|---|---|
+| **Cost** | Free — the boulevard is a public pedestrian space. Bauhaus Center self-guided audio tours cost a small fee; group walking tours typically ~₪100–150 per person. |
+| **Hours** | The boulevard is always open. The **Bauhaus Center** on Dizengoff St runs Sun–Thu 10:00–19:00, Fri 10:00–14:00, closed Saturday. |
+| **Time needed** | ~1 hour to walk end-to-end; allow ~2 hours with a guided/audio Bauhaus tour and a café stop. |
+| **Getting there** | Central Tel Aviv. **Habima** (north end) is a 10-min walk from Carmel Market; **Allenby** (south end) is 5 min from Carmel Market. Light-rail **Rothschild** station sits roughly midway. |
+| **Best time** | Early morning or late afternoon, when low light brings out the white plaster facades; mid-day flattens the depth. |
+| **Accessibility** | Flat, paved boulevard with a central pedestrian median; fully walkable. Some shade, but side streets are exposed. |
 
 ## What is Rothschild Boulevard?
 

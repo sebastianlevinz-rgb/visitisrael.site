@@ -4,7 +4,10 @@ import { REGIONS } from '@/data/regions';
 const navRegions = REGIONS.slice(0, 6);
 const planLinks = [
   { href: '/itineraries', label: 'Itineraries' },
+  { href: '/build-your-trip', label: 'Build your trip' },
   { href: '/best-tours-in-israel', label: 'Tours' },
+  { href: '/israel-trip-cost-calculator', label: 'Cost calculator' },
+  { href: '/israel-map', label: 'Map' },
   { href: '/plan-your-trip', label: 'Plan your trip' },
   { href: '/search', label: 'Search' },
 ];
@@ -54,11 +57,12 @@ const planLinks = [
         Plan your trip
       </a>
 
-      <!-- Mobile menu (no-JS native disclosure) -->
-      <details class="group relative lg:hidden">
+      <!-- Mobile menu — native disclosure, progressively enhanced by JS below -->
+      <details id="mobile-menu" class="group relative lg:hidden">
         <summary
           class="grid h-10 w-10 cursor-pointer list-none place-items-center rounded-md border border-border bg-card text-ink [&::-webkit-details-marker]:hidden"
           aria-label="Open menu"
+          aria-expanded="false"
         >
           <svg class="h-5 w-5 group-open:hidden" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M4 6h16M4 12h16M4 18h16" /></svg>
           <svg class="hidden h-5 w-5 group-open:block" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18" /></svg>
@@ -101,3 +105,34 @@ const planLinks = [
     </div>
   </div>
 </header>
+
+<script is:inline>
+  (function () {
+    var menu = document.getElementById('mobile-menu');
+    if (!menu) return;
+    var summary = menu.querySelector('summary');
+    function close() {
+      menu.removeAttribute('open');
+    }
+    function sync() {
+      if (summary)
+        summary.setAttribute('aria-expanded', menu.open ? 'true' : 'false');
+    }
+    menu.addEventListener('toggle', sync);
+    // Close on Escape, returning focus to the toggle.
+    document.addEventListener('keydown', function (e) {
+      if (e.key === 'Escape' && menu.open) {
+        close();
+        if (summary) summary.focus();
+      }
+    });
+    // Close on outside click.
+    document.addEventListener('click', function (e) {
+      if (menu.open && !menu.contains(e.target)) close();
+    });
+    // Close after choosing a destination.
+    menu.querySelectorAll('a').forEach(function (a) {
+      a.addEventListener('click', close);
+    });
+  })();
+</script>

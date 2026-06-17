@@ -16,7 +16,7 @@ secondaryKeywords:
 latitude: 32.9226
 longitude: 35.0719
 publishedAt: 2026-05-11
-updatedAt: 2026-05-11
+updatedAt: 2026-06-17
 faqs:
   - question: When was Akko's Old City inscribed by UNESCO?
     answer: The Old City of Akko was inscribed by UNESCO in 2001 under criteria recognising the rare stratigraphic intactness of the Crusader citadel beneath the Ottoman streets above. The Knights Hospitaller infirmary halls, the Templar Tunnel and the original Crusader street network all survive intact underground while the modern Ottoman-era town operates above. Few medieval European cities preserved their underground layers — Akko did because the Mamluk destruction of 1291 sealed everything below grade before the Ottomans rebuilt on top.
@@ -33,6 +33,17 @@ faqs:
 **Akko's Old City** is the UNESCO-inscribed Crusader-Ottoman heritage quarter that sits on a small fortified peninsula jutting into the Mediterranean. The unusual feature is the **stratigraphic intactness** — the Knights Hospitaller citadel and infirmary halls survive intact beneath the modern Ottoman-era streets above, with the medieval and modern layers reachable from the same street via two short staircases. Most medieval European cities lost their underground layers to centuries of rebuilding; Akko preserved hers because the Mamluk destruction of 1291 sealed everything below grade before the Ottomans rebuilt on top in the 18th century.
 
 This guide covers what the UNESCO inscription actually celebrates, the working bazaar that operates inside the walls today, the practical Ottoman-rampart circuit, the eating institutions inside the souq, and how the Old City sits within the wider Akko visitor map.
+
+## Need to know
+
+| | |
+|---|---|
+| **Cost** | Wandering the streets, souq and ramparts is **free**. A **combined ticket** at the visitor centre covers the headline indoor sites (Hospitaller Halls, Templar Tunnel, Hamam al-Pasha, Underground Prisoners Museum). Check the official site for current prices. |
+| **Hours** | Streets and souq are open all day; the indoor ticketed sites typically open ~09:00 and close late afternoon. Check the official site for current hours. |
+| **Time needed** | A focused 2-hour loop covers the sea walls and souq; a **full day** to add the Hospitaller Halls, Templar Tunnel, Khan al-Umdan and a souq lunch. |
+| **Getting there** | ~30 min from Haifa, ~1 hr from Caesarea. Akko is on the coastal rail line; the Old City is a walk or short taxi from the station. |
+| **Best time** | **Sunset** on the western sea walls is the photographic highlight. Dawn (~06:30) at the fishing harbour for the catch landing. |
+| **Accessibility** | Uneven stone-paved alleys, narrow lanes and several flights of steps. The sea-wall promenade and Khan al-Umdan are mostly accessible; consult the INPA accessibility guide. |
 
 ## What is Akko's Old City?
 

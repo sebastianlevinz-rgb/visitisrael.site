@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="Visit Israel">
+  <rect width="512" height="512" rx="112" fill="#1a6985"/>
+  <circle cx="256" cy="196" r="64" fill="#c8a951"/>
+  <path d="M64 384c54-72 104-72 152-18 44 50 96 54 152-14 18-22 40-30 40-30v90H64z" fill="#faf8f5"/>
+  <path d="M64 372c54-72 104-72 152-18 44 50 96 54 152-14" fill="none" stroke="#faf8f5" stroke-width="14" stroke-linecap="round" opacity="0.55"/>
+</svg>

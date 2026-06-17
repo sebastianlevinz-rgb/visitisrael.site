@@ -14,7 +14,7 @@ secondaryKeywords:
 latitude: 32.0628
 longitude: 34.7644
 publishedAt: 2026-05-11
-updatedAt: 2026-05-11
+updatedAt: 2026-06-17
 faqs:
   - question: What is Neve Tzedek best known for?
     answer: Neve Tzedek is the oldest neighbourhood in Tel Aviv, founded in 1887 as the first Jewish settlement north of Jaffa. Today it is a quiet quarter of restored single-storey Templer houses, the Suzanne Dellal Centre for performance arts, design shops, family-run cafés, and adjacent HaTachana — the restored Ottoman railway station complex.
@@ -29,6 +29,17 @@ faqs:
 **Neve Tzedek** is the oldest neighbourhood of Tel Aviv — founded in 1887 as the first Jewish settlement outside the walls of Jaffa, and predating the official founding of Tel Aviv (1909) by more than two decades. Today the neighbourhood is a quiet, beautifully-restored cluster of single-storey Templer-style houses on Shabazi Street, the Suzanne Dellal Centre for performance arts, design shops, family-run cafés, and adjacent HaTachana — the restored Ottoman-era railway station complex. This guide covers the architecture, the dance centre, HaTachana, and a half-day walking route that links Neve Tzedek to the rest of Tel Aviv.
 
 The neighbourhood sits at the boundary between the central Tel Aviv beach quarter and the Jaffa end of the city. Walking from Rothschild Boulevard south-west into Neve Tzedek takes ten minutes; walking from Neve Tzedek further south to Old Jaffa takes another fifteen. The combination makes Neve Tzedek a natural midpoint for a south-Tel-Aviv day.
+
+## Need to know
+
+| | |
+|---|---|
+| **Cost** | Free to walk the neighbourhood. Café and shop spending is moderate; Suzanne Dellal performance tickets typically ~₪80–200. |
+| **Hours** | Always accessible. Shops and cafés typically Sun–Thu 10:00–19:00, Fri until early afternoon, **closed Saturday during Shabbat** (some cafés reopen Sat evening). HaTachana restaurants open daily from ~11:00. |
+| **Time needed** | ~90 min for the Shabazi Street and HaTachana loop, plus lunch; an evening if you add a Suzanne Dellal performance. |
+| **Getting there** | 10-min walk from the south end of Rothschild Boulevard. Light-rail Red Line **Allenby** station, then ~5-min walk. |
+| **Best time** | Weekday mornings for the quietest walk and best light on the Shabazi facades; evenings for Batsheva at Suzanne Dellal (book ahead). |
+| **Accessibility** | Stone-paved streets, uneven in places; comfortable shoes recommended. |
 
 ## What is Neve Tzedek?
 

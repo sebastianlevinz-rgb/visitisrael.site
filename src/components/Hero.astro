@@ -1,4 +1,5 @@
 ---
+import Pic from '@/components/Pic.astro';
 export interface Props {
   image: string;
   title: string;
@@ -7,6 +8,12 @@ export interface Props {
   /** Hero is above the fold → eager + high priority for LCP. */
   eager?: boolean;
   height?: 'tall' | 'standard';
+  /** Single primary action, shown beneath the subtitle. One action only. */
+  cta?: { href: string; label: string };
+  /** Slow Ken Burns drift — landing heroes only. */
+  kenburns?: boolean;
+  /** Show the bottom-center scroll cue (landing heroes). */
+  scrollCue?: boolean;
 }
 const {
   image,
@@ -15,34 +22,70 @@ const {
   alt,
   eager = true,
   height = 'standard',
+  cta,
+  kenburns = false,
+  scrollCue = false,
 } = Astro.props;
-const h = height === 'tall' ? 'h-[68vh] min-h-[460px]' : 'h-[52vh] min-h-[380px]';
+const h =
+  height === 'tall'
+    ? 'h-[78vh] min-h-[520px] max-h-[820px]'
+    : 'h-[52vh] min-h-[380px]';
 ---
 
 <section class={`relative ${h} w-full overflow-hidden`}>
-  <img
+  <Pic
     src={image}
     alt={alt}
     width="1600"
     height="1000"
-    class="absolute inset-0 h-full w-full object-cover"
     loading={eager ? 'eager' : 'lazy'}
     fetchpriority={eager ? 'high' : 'auto'}
-    decoding="async"
+    class={`absolute inset-0 h-full w-full object-cover ${kenburns ? 'hero-kenburns' : ''}`}
   />
   <div class="photo-overlay absolute inset-0"></div>
-  <div
-    class="absolute inset-x-0 bottom-0 mx-auto max-w-6xl px-4 pb-10 sm:pb-14"
-  >
-    <h1 class="photo-title max-w-3xl text-4xl font-bold sm:text-5xl lg:text-6xl">
+  <div class="absolute inset-x-0 bottom-0 mx-auto max-w-6xl px-4 pb-12 sm:pb-16">
+    <h1
+      class="photo-title max-w-3xl font-display font-bold"
+      style="font-size: var(--text-display); letter-spacing: -0.02em; line-height: 1.05;"
+    >
       {title}
     </h1>
     {
       subtitle && (
-        <p class="photo-title mt-3 max-w-2xl text-lg font-medium sm:text-xl">
+        <p
+          class="photo-title mt-4 max-w-2xl font-medium"
+          style="font-size: var(--text-lg);"
+        >
           {subtitle}
         </p>
       )
     }
+    {
+      cta && (
+        <a href={cta.href} class="btn btn-primary btn-lg mt-6">
+          {cta.label}
+        </a>
+      )
+    }
   </div>
+  {
+    scrollCue && (
+      <div
+        class="scroll-cue pointer-events-none absolute inset-x-0 bottom-4 mx-auto flex justify-center text-white/80"
+        aria-hidden="true"
+      >
+        <svg
+          class="h-7 w-7 drop-shadow"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="2"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        >
+          <path d="M6 9l6 6 6-6" />
+        </svg>
+      </div>
+    )
+  }
 </section>

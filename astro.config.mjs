@@ -16,7 +16,9 @@ export default defineConfig({
     sitemap({
       // Internal modules are noindex; keep them out of the sitemap.
       filter: (page) =>
-        !/\/(dashboard|pitch|competitors|content-library)(\/|$)/.test(page),
+        !/\/(dashboard|pitch|competitors|content-library|search)(\/|$)/.test(
+          page
+        ),
     }),
     pagefind(),
   ],

@@ -15,7 +15,7 @@ secondaryKeywords:
 latitude: 30.9888
 longitude: 34.7444
 publishedAt: 2026-05-11
-updatedAt: 2026-05-11
+updatedAt: 2026-06-17
 faqs:
   - question: Are Bedouin in the Negev Israeli citizens?
     answer: Yes — the Bedouin community in the Negev region are Israeli citizens. Many serve in the army (the desert reconnaissance battalion has historic Bedouin participation), hold the same identification documents as other citizens, and vote in Israeli elections. The Bedouin Heritage Centre and several community-partnership operators frame visits around contemporary Israeli Bedouin life rather than romanticised "nomadic" framing.
@@ -30,6 +30,17 @@ faqs:
 ---
 
 **Bedouin hospitality** is one of the most distinctive experiences available in the Negev — when chosen carefully, an evening with a community-partnership operator is among the most memorable parts of an Israel trip. The framing matters. This is **contemporary Israeli Bedouin life**, not a romanticised "nomadic" theatre piece; the **tea-and-coffee tradition** is the hospitality custom that anchors the visit, not a folklore performance. This guide covers the established operators, what a visit looks like, and how to choose a respectful experience.
+
+## Need to know
+
+| | |
+|---|---|
+| **Cost** | Set by the operator and not fixed — most charge a per-person rate covering tea, coffee, dinner and hosting; overnight tent stays cost more. Confirm the fair-wage policy and price when booking. Bring cash for tips and cooperative purchases. |
+| **Hours** | Visits are arranged by appointment, usually late-afternoon arrival through the evening. Lakiya Negev Weaving runs daytime hosting with lunch. |
+| **Time needed** | 3–4 hours for a full evening (the long-form coffee and conversation rhythm is the point); overnight stays available at Kfar Hanokdim and Khan al-Sultan. |
+| **Getting there** | Operators are spread across the Negev — Kfar Hanokdim near Arad, Lakiya in the recognised town of Lakiya, Khan al-Sultan in the central desert. A rental car or operator-arranged transfer is usual; book ahead. |
+| **Best time** | Spring and autumn for pleasant evenings and stargazing; winter for the warm goat-hair tent contrast (layer up); summer evenings after sunset are tolerable. |
+| **Accessibility** | Tent settings are on sand/uneven ground with low cushion seating; ask the operator about access needs in advance. Dress modestly (long trousers, shoulders covered); ask before photographing named individuals. |
 
 ## The Bedouin Community in the Negev
 

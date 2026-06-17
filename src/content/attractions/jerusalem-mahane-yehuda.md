@@ -14,7 +14,7 @@ secondaryKeywords:
 latitude: 31.7857
 longitude: 35.2122
 publishedAt: 2026-05-11
-updatedAt: 2026-05-11
+updatedAt: 2026-06-17
 faqs:
   - question: When is Mahane Yehuda Market open?
     answer: Sunday through Thursday 08:00 to around 19:00, Friday 08:00 to about three hours before sunset, closed on Shabbat (Friday afternoon through Saturday evening). The bar district inside the alleys runs Thursday through Saturday from sunset until 02:00, peaking on Thursday night.
@@ -29,6 +29,17 @@ faqs:
 **Mahane Yehuda** — usually just called **the shuk** — is the open-air market that anchors west Jerusalem's food culture. By day it is a working produce, spice and bakery market on two parallel covered alleys; from Thursday evening through Saturday night the same alleys become the city's busiest bar district, packed shoulder-to-shoulder until two in the morning. This guide covers when to visit, what to eat and drink, the best food-tour options, and how to plan around the closure rhythms of Shabbat.
 
 The market sits between Jaffa Road and Agripas Street, a ten-minute walk west of the Old City and accessible by the **Jerusalem Light Rail** Red Line — the **Mahane Yehuda** station puts you directly at the eastern entrance. The market has run continuously since the late Ottoman period (the name commemorates the brother of an early 20th-century real-estate developer) and survived a major regeneration in the 2010s that brought boutique stalls, craft cocktail bars, and a new generation of chefs while keeping the family-run produce and spice merchants in place.
+
+## Need to know
+
+| | |
+|---|---|
+| **Cost** | Free to enter and browse; you pay only for what you eat. Bring small cash — older spice merchants still prefer shekels. |
+| **Hours** | Sun–Thu ~08:00–19:00; Fri 08:00 to ~3 hours before sunset; **closed Saturday during Shabbat**. Bar district runs Thu–Sat from ~19:00 until ~02:00, peaking Thursday night. |
+| **Time needed** | 1–2 hours for the market by day; an evening for the bar district. |
+| **Getting there** | Light Rail Red Line, station **Mahane Yehuda**, at the eastern entrance. ~15-min walk downhill from Mamilla / Jaffa Gate via Jaffa Road. |
+| **Best time** | Thursday morning for the full produce market, Thursday evening for the bars, Friday lunch for the busiest sittings. Avoid late Friday afternoon. |
+| **Accessibility** | Two parallel covered alleys, broadly flat but very crowded at peak times. |
 
 ## What is Mahane Yehuda?
 

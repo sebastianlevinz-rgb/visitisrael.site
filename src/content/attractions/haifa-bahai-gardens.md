@@ -16,7 +16,7 @@ secondaryKeywords:
 latitude: 32.8167
 longitude: 34.9867
 publishedAt: 2026-05-11
-updatedAt: 2026-05-11
+updatedAt: 2026-06-17
 faqs:
   - question: How do I visit the Bahá’í Gardens?
     answer: Two zones are open to the public free of charge. The upper-terrace overlook on Yefe Nof street is open daily, free, and gives the headline panorama down the 19 terraces toward the Mediterranean. The lower-terrace gardens at the foot of Ben-Gurion Avenue in the German Colony are also open daily, free, and walkable. A free guided public tour at 12:00 daily links the two zones via the central terraces (visible from the path, not entered). The Shrine of the Báb itself on terrace 11 is closed to non-Bahá’ís per Bahá’í convention.
@@ -35,6 +35,17 @@ faqs:
 The **Bahá’í Gardens** in Haifa are the 19-terrace landscape gardens stepping down Mount Carmel from the **Universal House of Justice** at the top to **Ben-Gurion Avenue** in the German Colony at the bottom, with the **Shrine of the Báb** on terrace 11 at the visual centre. The terraces were inaugurated in 2001 and inscribed on the **UNESCO World Heritage List in 2008** as part of the broader Bahá’í Holy Places property (which also covers the Mansion of Bahjí near Akko).
 
 The Gardens are the world headquarters of the **Bahá’í Faith** — the only city outside of Iran where the central institutions of the Bahá’í Faith are based. Three governance buildings on the upper Carmel slope — the **Universal House of Justice**, the **International Teaching Centre**, and the **Centre for the Study of the Texts** — are not open to visitors; the visitor experience focuses on the terraced gardens and the two public-access zones (upper-terrace overlook and lower-terrace gardens), linked by the free 12:00 guided public tour.
+
+## Need to know
+
+| | |
+|---|---|
+| **Cost** | **Free** for both public zones and the guided tour. |
+| **Hours** | Upper-terrace overlook (Yefe Nof street) and lower-terrace gardens (Ben-Gurion Avenue) open daily, free. Free English-language **public tour at 12:00 daily** links the two — start times shift seasonally, so check the official Bahá’í World Centre schedule. The Shrine of the Báb (terrace 11) is closed to non-Bahá’ís. |
+| **Time needed** | 15–30 min for the upper overlook; ~45–60 min for the full 12:00 tour. |
+| **Getting there** | Upper overlook on Yefe Nof street (Carmelit funicular to Gan HaEm + walk, or car/bus). Lower entrance at the foot of Ben-Gurion Avenue in the German Colony (near the Carmelit Paris Square station). |
+| **Best time** | **Late afternoon** — long shadow across the terraces; sunset gives the harbour-and-terraces composition. The tour descent is steep, so bring water. |
+| **Accessibility** | The 12:00 tour descends all 19 terraces (steep, many steps). The upper overlook and lower-terrace gardens give the architectural views with far less climbing. |
 
 ## What are the Bahá’í Gardens?
 

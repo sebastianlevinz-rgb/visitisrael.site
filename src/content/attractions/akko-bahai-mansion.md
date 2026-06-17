@@ -18,7 +18,7 @@ secondaryKeywords:
 latitude: 32.9434
 longitude: 35.0925
 publishedAt: 2026-05-11
-updatedAt: 2026-05-11
+updatedAt: 2026-06-17
 faqs:
   - question: What is the Bahá'í Mansion of Bahjí?
     answer: The Bahá'í Mansion of Bahjí is the final residence of Bahá'u'lláh — the founder of the Bahá'í Faith — who lived in the building from 1879 until his death in 1892. The Mansion stands four kilometres north of Akko's Old City in a complex with the adjacent Shrine of Bahá'u'lláh (his place of burial) and surrounding pilgrimage gardens. The Mansion is considered the holiest site in the Bahá'í Faith — more central to Bahá'í pilgrimage than the Bahá'í Gardens at Haifa (Mount Carmel) which is the religion's administrative World Centre.
@@ -35,6 +35,17 @@ faqs:
 The **Bahá'í Mansion of Bahjí** is the **holiest site in the Bahá'í Faith** — the final residence of Bahá'u'lláh, the religion's founder, who lived in the building from 1879 until his death in 1892. The Mansion stands four kilometres north of Akko's Old City, in a complex with the adjacent **Shrine of Bahá'u'lláh** (his place of burial) and surrounding pilgrimage gardens. Together with the Bahá'í Gardens at Haifa (see our Haifa travel guide for the Mount Carmel World Centre), the Mansion is one of the two anchors of the Bahá'í World Centre in northern Israel — Haifa is the administrative seat, Bahjí is the spiritual pilgrimage destination.
 
 This guide covers the Bahá'í Faith's basics for visitors, the Mansion's history under Bahá'u'lláh, the conservative visiting protocol (same Bahá'í International Community photo policy as Haifa Plan 07), the architectural gardens, and the practical logistics of a respectful visit.
+
+## Need to know
+
+| | |
+|---|---|
+| **Cost** | **Free.** No admission charge; donations are not solicited. |
+| **Hours** | Gardens typically ~09:00–12:00 daily; the Mansion interior usually Fri–Mon mornings; the Shrine has limited public hours (generally early morning). April and October pilgrimage peaks reduce public access. Always check the official Bahá'í World Centre site. |
+| **Time needed** | ~45 min for the gardens; ~1–1.5 hours including the Mansion interior. |
+| **Getting there** | **4 km north of Akko Old City.** Hourly Egged / Nateev Express bus from Akko central bus station, then ~5-min walk; taxi ~10 min. Parking at the main gate. |
+| **Best time** | Morning, within the standard gardens window; avoid the April/October pilgrimage peaks for wider public access. |
+| **Accessibility** | Formal flat (horizontal) gardens with paved radial paths — largely accessible; the Mansion building has steps. |
 
 ## The Bahá'í Faith — A Visitor's Introduction
 

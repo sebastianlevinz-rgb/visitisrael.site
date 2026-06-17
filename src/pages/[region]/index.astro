@@ -84,7 +84,7 @@ const schema = [
     { name, path },
   ]),
   ...(data.hotels.length
-    ? [hotelList(data.hotels.map((h) => ({ name: h.name, url: path, rating: h.rating })), name)]
+    ? [hotelList(data.hotels.map((h) => ({ name: h.name, url: path })), name)]
     : []),
 ];
 ---

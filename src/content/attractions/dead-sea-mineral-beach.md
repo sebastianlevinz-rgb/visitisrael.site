@@ -14,7 +14,7 @@ secondaryKeywords:
 latitude: 31.5817
 longitude: 35.3917
 publishedAt: 2026-05-11
-updatedAt: 2026-05-11
+updatedAt: 2026-06-17
 faqs:
   - question: Is Mineral Beach still open?
     answer: The original Mineral Beach concession closed in 2015 after sinkhole damage forced an extended renovation. The general concept — a paid public day-beach with mud stations and freshwater showers — is now offered at several alternative sites along the western shore, including the Kalia Beach (northern), the Ein Bokek public beach (southern), and the Ein Gedi public beach.
@@ -29,6 +29,19 @@ faqs:
 ---
 
 A **Dead Sea mineral beach** is a managed public day-beach offering the core Dead Sea experience — floating in the hypersaline water, applying the black mineral mud, and rinsing off at fresh-water showers — without staying at a hotel. The original concession known as Mineral Beach closed in 2015 after sinkhole damage, but the same model now operates at several alternative sites along the western shore. This guide covers what to expect, where to go, and how to choose between the public beaches and the hotel-strip beaches at Ein Bokek.
+
+> **Note:** The original Mineral Beach concession closed in 2015 after sinkhole damage. The same day-beach experience now operates at alternative sites — Kalia Beach (north), Ein Bokek public beach (south) and Ein Gedi public beach.
+
+## Need to know
+
+| | |
+|---|---|
+| **Cost** | Day-pass at the active public beaches ~₪60–100 (~$16–27) adult; children roughly half. Lockers ~₪10–15 extra; towels usually extra. |
+| **Hours** | Most open ~08:00 and close at sunset. Lifeguards on duty during posted hours (typically ~09:00–17:00 in summer, shorter in winter). Avoid swimming outside lifeguarded hours. |
+| **Time needed** | 2–3 hours for the full float-mud-rinse cycle; most people float only 10–20 min at a time. |
+| **Getting there** | Spread along Route 90's western Dead Sea shore. Kalia (north) is closest to Jerusalem; Ein Bokek public beach is walkable from the hotel strip; a rental car or organised tour is easiest. |
+| **Best time** | Mornings are calmer and cooler. Spring and autumn are most comfortable; midday sun is fierce year-round. |
+| **Accessibility** | Public beaches have parking, freshwater showers and shaded seating; shore entry is over sharp salt crystals (wear water shoes). Entry gradients vary by beach. |
 
 ## What is a Dead Sea Mineral Beach?
 

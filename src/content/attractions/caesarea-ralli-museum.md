@@ -16,7 +16,7 @@ secondaryKeywords:
 latitude: 32.5085
 longitude: 34.9023
 publishedAt: 2026-05-11
-updatedAt: 2026-05-11
+updatedAt: 2026-06-17
 faqs:
   - question: Where is the Ralli Museum in Caesarea?
     answer: The Ralli Museum sits in modern Caesarea about 1 km north-east of the National Park entrance, in the residential community. From the National Park, drive 5 minutes following signs to "Ralli Museum"; free parking on site. The museum is a separate facility — not part of the National Park ticket.
@@ -33,6 +33,17 @@ faqs:
 The **Ralli Museum** in modern Caesarea is a contemporary art museum holding the private collection of **Harry Recanati**, an Israeli-Greek banker (1919 to 2014) who founded four Ralli Museums worldwide (Caesarea, Jerusalem, Punta del Este in Uruguay, Santiago in Chile) — all with **free admission** as part of the **Recanati Foundation's** mission to make Latin American + Spanish art accessible to general visitors. The Caesarea museum is the original of the four and holds the largest single grouping of the collection.
 
 This guide covers the collection, the building and sculpture garden, the visit logistics, and how the Ralli Museum fits as a contemporary-art counterweight to a Caesarea archaeology day.
+
+## Need to know
+
+| | |
+|---|---|
+| **Cost** | **Free.** No ticket and no reservation for individual visitors; group bookings (10+) need advance contact. Donations welcomed but not requested. |
+| **Hours** | Typically Sat–Thu ~10:30–15:00, closed Friday and major Israeli holidays. Hours vary — check the Ralli Foundation website before driving over. |
+| **Time needed** | 60–90 min for the galleries and sculpture garden; up to ~2 hours for art enthusiasts. |
+| **Getting there** | ~5 min from the Caesarea National Park entrance in modern Caesarea; signed "Ralli Museum", free on-site parking. ~50 min from Tel Aviv. |
+| **Best time** | Morning is calmest. A good fully air-conditioned midday stop between morning archaeology and an afternoon beach. |
+| **Accessibility** | Purpose-built with open courtyards and ground-level galleries — largely accessible. |
 
 ## What is the Ralli Museum?
 

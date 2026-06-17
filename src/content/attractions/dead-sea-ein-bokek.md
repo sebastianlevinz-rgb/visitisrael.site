@@ -14,7 +14,7 @@ secondaryKeywords:
 latitude: 31.1972
 longitude: 35.3697
 publishedAt: 2026-05-11
-updatedAt: 2026-05-11
+updatedAt: 2026-06-17
 faqs:
   - question: How many hotels are in Ein Bokek?
     answer: About 15 large hotels — including Herods, Leonardo Plaza, Isrotel, David, Lot Spa, Daniel, Royal and a few mid-range chains — line the constructed beachfront. All offer direct sea access, mineral mud applications, full spa services and half-board dining. Most hotels were built in the 1980s and 1990s and have been progressively renovated.
@@ -29,6 +29,17 @@ faqs:
 ---
 
 **Ein Bokek** is the main Israeli hotel-resort strip along the southern shore of the Dead Sea — about fifteen large hotels along a constructed beachfront with direct sea access, mineral mud, spa services and half-board dining. The strip developed from the 1980s onward as the dominant Israeli lodging option for the lake; today it is the practical default for international visitors who want a multi-day Dead Sea stay with hotel comfort. This guide covers the hotel landscape, the dining, the spa scene and how Ein Bokek fits into a wider Dead Sea or Israel itinerary.
+
+## Need to know
+
+| | |
+|---|---|
+| **Cost** | The public beach and promenade are free. Hotel-beach day-passes for non-guests run ~₪80–150 (~$22–40). Spa treatments from ~₪200 (single mud wrap) up to ~₪1,500 (multi-treatment package). |
+| **Hours** | The strip is a 24-hour resort settlement; the public beach is open daylight hours with lifeguards on duty during posted times (roughly 09:00–17:00 in summer, shorter in winter). |
+| **Time needed** | Most visitors stay 2–3 nights, using it as a base for Masada and Ein Gedi day trips. |
+| **Getting there** | On Route 90, southern Dead Sea shore. ~90 min by car or **Egged bus 444** from Jerusalem; ~2.5 hr from Tel Aviv; ~2 hr 15 min from Ben Gurion Airport. |
+| **Best time** | Spring & autumn are peak (book by January for an April/May stay). Summer and winter are cheapest; summer is hot but most activity is indoors. |
+| **Accessibility** | The constructed beachfront has marked entry points, freshwater showers and a flat paved promenade; most large hotels have accessible rooms and pool/beach access. |
 
 ## What is Ein Bokek?
 

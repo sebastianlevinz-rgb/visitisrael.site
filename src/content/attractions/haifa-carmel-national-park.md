@@ -16,7 +16,7 @@ secondaryKeywords:
 latitude: 32.732
 longitude: 35.018
 publishedAt: 2026-05-11
-updatedAt: 2026-05-11
+updatedAt: 2026-06-17
 faqs:
   - question: What is Mount Carmel National Park?
     answer: Mount Carmel National Park covers the wooded back-slope of Mount Carmel south of Haifa — Mediterranean pine and oak forest, walking trails, the Hai-Bar Carmel wildlife reserve (gazelles, vultures, fallow deer reintroduced after near-extinction), and viewpoints across the Carmel ridge toward the Mediterranean. It is one of Israel's largest national parks at around 84 square kilometres. Trailheads at Little Switzerland (closest to Haifa), Etzba Cave, and the University of Haifa entrance.
@@ -33,6 +33,17 @@ faqs:
 **Mount Carmel National Park** covers the wooded back-slope of Mount Carmel south of Haifa — Mediterranean pine and oak forest, walking trails, the **Hai-Bar Carmel wildlife reserve** (the reintroduction project for Persian fallow deer, gazelles and vultures), and viewpoints across the Carmel ridge toward the Mediterranean. The park is one of Israel's largest at around **84 square kilometres** and a significant ecological reserve — much of it was burned in the catastrophic 2010 Carmel forest fire and has been replanted and replanned for fire resilience since.
 
 The park is also the territory of the two **Druze villages** of **Daliyat al-Karmel** and **Isfiya** — Druze communities with multi-generational ties to the Carmel mountain. The **Saturday market in Daliyat al-Karmel** draws regional visitors and is the largest weekend market in northern Israel.
+
+## Need to know
+
+| | |
+|---|---|
+| **Cost** | ~₪30 / ~$8 adult, ~₪16 child; INPA annual pass honoured. The Druze villages and markets are free to wander. Check the official site for current prices. |
+| **Hours** | Park hours typically ~08:00–17:00 winter / ~08:00–18:00 summer (last entry ~1 hr before close). Daliyat al-Karmel's signature market runs Saturdays. |
+| **Time needed** | ~90 min–2 hours for the Little Switzerland loop; ~90 min–2 hours for the Hai-Bar reserve; a half-day with a Druze-village lunch. |
+| **Getting there** | ~25 min from central Haifa by car (Little Switzerland trailhead on Hwy 672, via the University of Haifa road). Bus to the University, then short taxi/walk. |
+| **Best time** | Saturday for the Druze market; spring/autumn for hiking. Early morning or late afternoon for wildlife; vultures thermal at midday. |
+| **Accessibility** | Forest hiking trails with elevation gain and uneven terrain. The Hai-Bar reserve has signed routes with viewing platforms; villages are partly walkable. |
 
 ## What is Mount Carmel National Park?
 

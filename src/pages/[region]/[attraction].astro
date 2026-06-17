@@ -51,9 +51,6 @@ const tours = [
     description: `Guided tours and tickets that include ${name} with an expert local guide.`,
     image: hero,
     query: `${name} ${regionName}`,
-    priceFrom: 35,
-    rating: 4.7,
-    reviews: 1200,
   },
   {
     partner: 'viator' as const,
@@ -61,9 +58,6 @@ const tours = [
     description: `Small-group day tours of ${regionName} that take in ${name} and nearby sights.`,
     image: sibImg(0),
     query: `${regionName} Israel highlights`,
-    priceFrom: 59,
-    rating: 4.6,
-    reviews: 880,
   },
   {
     partner: 'civitatis' as const,
@@ -71,9 +65,6 @@ const tours = [
     description: `English-language guided walks through ${regionName}'s historic core.`,
     image: sibImg(1),
     query: `${regionName} Israel walking tour`,
-    priceFrom: 29,
-    rating: 4.6,
-    reviews: 540,
   },
 ];
 
@@ -157,6 +148,19 @@ const schema = [
       >
         Find nearby hotels
       </a>
+    </div>
+  </section>
+
+  <!-- Plan-your-visit contextual links (internal linking + tools). -->
+  <section class="mx-auto max-w-3xl px-4 pt-10">
+    <div class="rounded-card border border-border bg-sand-deep p-6">
+      <p class="eyebrow mb-3">Plan your visit</p>
+      <div class="flex flex-wrap gap-2">
+        <a href="/build-your-trip" class="btn btn-ghost" style="padding:0.5rem 1rem;font-size:var(--text-sm)">Add to your trip</a>
+        <a href={`/${region}`} class="btn btn-ghost" style="padding:0.5rem 1rem;font-size:var(--text-sm)">{regionName} guide</a>
+        <a href="/israel-trip-cost-calculator" class="btn btn-ghost" style="padding:0.5rem 1rem;font-size:var(--text-sm)">Budget calculator</a>
+        <a href="/first-time-in-israel" class="btn btn-ghost" style="padding:0.5rem 1rem;font-size:var(--text-sm)">First time in Israel</a>
+      </div>
     </div>
   </section>
 

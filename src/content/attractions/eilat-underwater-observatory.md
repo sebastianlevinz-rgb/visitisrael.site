@@ -15,7 +15,7 @@ secondaryKeywords:
 latitude: 29.5026
 longitude: 34.9181
 publishedAt: 2026-05-11
-updatedAt: 2026-05-11
+updatedAt: 2026-06-17
 faqs:
   - question: Where is the Underwater Observatory in Eilat?
     answer: The Underwater Observatory Marine Park is on the southern coastline of Eilat, approximately 7 km south of central Eilat and 1 km south of Coral Beach Nature Reserve. Drive along Highway 90 to the Coral Beach junction and continue south; local bus line 15 stops at the park entrance.
@@ -32,6 +32,17 @@ faqs:
 The **Underwater Observatory Marine Park** at the southern tip of Eilat's coastline is a 60-acre marine education complex centred on a 60-metre observation tower with a submerged viewing chamber that places visitors eye-level with the Red Sea reef without entering the water. The park combines the observation tower, multiple aquariums, a shark and stingray feeding tank, an oceanographic museum, the Coral 2000 glass-bottom boat, and a working marine research facility.
 
 This guide covers the observation tower (the headline attraction), the aquariums and the shark tank, the glass-bottom boat, practical visit logistics, and how the Observatory pairs with Coral Beach Reserve for a complete Red Sea day.
+
+## Need to know
+
+| | |
+|---|---|
+| **Cost** | ~₪119 adult / ~₪99 child (~$32/$27), including the tower, all aquariums, shark-tank feeding sessions and one Coral 2000 glass-bottom boat ride. Bundle tickets with Dolphin Reef or the Cable Car reduce the per-person cost. Check the official site for current prices. |
+| **Hours** | ~08:30–16:00 in winter, ~08:30–17:00 in summer; last entry ~1 hr before close. Open daily including Shabbat. |
+| **Time needed** | 3–4 hours for the full visit (aquariums, tower, boat, oceanarium and museum). |
+| **Getting there** | ~7 km south of central Eilat on Route 90, ~1 km south of Coral Beach; **bus line 15** stops at the entrance. Ample parking. |
+| **Best time** | Mornings are quieter and the indoor aquariums are cooler. Shark feedings (~11:00 and 14:30) draw the biggest crowds — arrive 20 min early. |
+| **Accessibility** | Strollers allowed on most paths; wheelchairs and motorised mobility access most exhibits. The tower has both stairs and a lift down to the submerged chamber. Good for non-swimmers, children and older travellers. |
 
 ## What is the Underwater Observatory?
 

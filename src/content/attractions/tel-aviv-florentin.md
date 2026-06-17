@@ -14,7 +14,7 @@ secondaryKeywords:
 latitude: 32.0556
 longitude: 34.7700
 publishedAt: 2026-05-11
-updatedAt: 2026-05-11
+updatedAt: 2026-06-17
 faqs:
   - question: Is Florentin safe at night?
     answer: Yes — Florentin is one of the busiest night neighbourhoods in central Tel Aviv and is well-patrolled. The bar streets (Frenkel, Vital, Florentin) are packed Thursday through Saturday until 04:00 with locals and visitors. Standard urban awareness applies as in any nightlife district.
@@ -29,6 +29,17 @@ faqs:
 **Florentin** is the south-Tel-Aviv quarter that has become the city's creative and nightlife centre over the past fifteen years. The neighbourhood is a tight triangle of warehouses, low-rise apartments, design studios and dive bars south of Rothschild Boulevard and east of Neve Tzedek. The walls are covered in street art — by some measures the densest concentration in Israel — and the bars on Frenkel and Vital streets are the city's longest-running late-night corridor. This guide covers the street art, the nightlife, the best food stops, and how Florentin pairs with the rest of a Tel Aviv visit.
 
 The quarter is named after **Solomon Florentin**, a Greek-Jewish merchant who developed the area in the 1920s as a workers' neighbourhood for Tel Aviv's expanding industrial base. The original buildings were workshops and small apartments; the 1990s and 2000s saw artists, designers and small workshops move in as rents stayed low; today the quarter holds a mix of warehouses-turned-galleries, hipster cafés, gritty bars, design studios and a strong street-art presence.
+
+## Need to know
+
+| | |
+|---|---|
+| **Cost** | Free to walk. Bars and restaurants vary widely; Florentin is one of the cheapest nightlife districts in central Tel Aviv. |
+| **Hours** | Always accessible. Cafés and design shops typically ~10:00–19:00 weekdays; bar streets (Frenkel, Vital, Florentin) ~19:00–04:00, busiest Thu–Sat. |
+| **Time needed** | ~90 min for a self-guided street-art walk; an evening for the bars and dinner. |
+| **Getting there** | 15-min walk from Allenby St (south end of Rothschild). Light-rail Red Line **Salame** station; bus 5, 10 or 25. |
+| **Best time** | Late afternoon into evening for the murals plus nightlife; Thu–Sat nights for the full bar district. |
+| **Accessibility** | Flat, walkable streets but narrow and gritty in places; some pavements uneven. |
 
 ## What is Florentin?
 

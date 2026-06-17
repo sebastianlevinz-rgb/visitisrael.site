@@ -15,7 +15,7 @@ secondaryKeywords:
 latitude: 29.5092
 longitude: 34.9217
 publishedAt: 2026-05-11
-updatedAt: 2026-05-11
+updatedAt: 2026-06-17
 faqs:
   - question: Where is Coral Beach Nature Reserve in Eilat?
     answer: Coral Beach is on the southern coastline of Eilat, about 6 km south of central Eilat. Drive along Route 90 to the Coral Beach junction, or take the local bus from central Eilat (line 15). Parking is available at the reserve entrance for a small fee.
@@ -32,6 +32,17 @@ faqs:
 **Coral Beach Nature Reserve** is a 1.2-kilometre stretch of protected coral reef on the southern coastline of Eilat — the only reef-protected snorkel beach in Israel, and one of the most accessible coral ecosystems in the world. The reserve combines a swimmer-accessible reef shelf, a marked snorkel corridor, equipment rental, and a year-round comfortable water temperature thanks to the Red Sea's stable thermal profile.
 
 This guide covers the reef itself (what to expect, where the marked routes go), entry logistics (hours, fees, parking, equipment), the reef-safe sunscreen enforcement, and how Coral Beach pairs with the broader Eilat Red Sea attractions.
+
+## Need to know
+
+| | |
+|---|---|
+| **Cost** | INPA reserve entry ~₪35 adult / ~₪21 child (~$10/$6). The national parks pass covers entry. Snorkel gear rental ~₪25 (mask, snorkel, fins). Small parking fee. |
+| **Hours** | Daily ~09:00–17:00 in winter, ~09:00–18:00 in summer; last entry ~1 hr before close. Open including Shabbat. |
+| **Time needed** | 2–3 hours: the marked snorkel corridor takes 30–60 min, plus the beach centre and shore time. |
+| **Getting there** | ~6 km / ~8 min south of central Eilat on Route 90; local **bus line 15** stops nearby. ~4 km from Ramon Airport (ETM). |
+| **Best time** | Mornings (09:00–12:00) for calmest water and best visibility before afternoon winds. Oct–Apr is peak season. |
+| **Accessibility** | A wooden pier reaches the entry points; snorkelling itself requires swimming over a reef shelf (2–6 m deep). Glass-bottom boat tours from the adjacent marina suit non-swimmers. **Reef-safe sunscreen is required** — rangers check at entry. |
 
 ## What is Coral Beach Nature Reserve?
 

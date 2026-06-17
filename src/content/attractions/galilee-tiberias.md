@@ -15,7 +15,7 @@ secondaryKeywords:
 latitude: 32.7959
 longitude: 35.5311
 publishedAt: 2026-05-11
-updatedAt: 2026-05-11
+updatedAt: 2026-06-17
 faqs:
   - question: How long should I stay in Tiberias?
     answer: Most travellers spend two nights in Tiberias as a base for the Sea of Galilee pilgrim circuit and Mount Arbel, with three nights if adding a Golan Heights day. Single-night stops are workable if you arrive late and leave the next afternoon, but the lakeside promenade and Hamat Tiberias hot springs deserve a relaxed evening.
@@ -30,6 +30,17 @@ faqs:
 **Tiberias** is the only city on the Sea of Galilee shore and the practical staging point for almost every visit to the region. Founded by Herod Antipas around 20 CE on Roman-era thermal springs, named for the emperor Tiberius, the city has been continuously inhabited for two thousand years and carries Roman, Crusader, Ottoman and Israeli layers within a one-kilometre stretch of lakeshore. Modern Tiberias is a mid-sized municipal city with a strong tourism economy: hotels run for two kilometres along the western shore, restaurants line the lakeside promenade, and the city's hot springs and Maimonides tomb pull steady year-round visitors.
 
 This guide covers what Tiberias is, the practical hotel cluster and lakeside layout, the headline sights inside the city, and how to use Tiberias as the base for both the pilgrim sites on the northern shore and the Mount Arbel hiking day to the west.
+
+## Need to know
+
+| | |
+|---|---|
+| **Cost** | The city is free to explore; the lakeside tayelet costs nothing. Hamat Tiberias National Park (~₪22 / ~$6) and the Maimonides tomb (free) are the main paid/free sights. |
+| **Hours** | A working city — open year-round. Most restaurants close by ~22:30; transport pauses Friday afternoon to Saturday evening (Shabbat). |
+| **Time needed** | 2 nights as a Galilee base (3 if adding a Golan day); a single evening covers the promenade and a meal. |
+| **Getting there** | Egged buses from Tel Aviv (~2.5 hrs) and Jerusalem (~2 hrs); ~2 hrs driving from Ben Gurion via Route 6/65. Parking at most hotels and the southern promenade. |
+| **Best time** | Spring and autumn for comfortable temperatures; summer midday is hot. Evenings on the tayelet are pleasant year-round. |
+| **Accessibility** | Lakeside promenade is largely flat and walkable; the historic core and tomb area have some slopes and steps. |
 
 ## What is Tiberias?
 

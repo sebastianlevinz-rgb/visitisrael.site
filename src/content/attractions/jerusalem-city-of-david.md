@@ -14,7 +14,7 @@ secondaryKeywords:
 latitude: 31.7733
 longitude: 35.2358
 publishedAt: 2026-05-11
-updatedAt: 2026-05-11
+updatedAt: 2026-06-17
 faqs:
   - question: Where is the City of David?
     answer: Just outside the Old City walls, south of Dung Gate, on the slope that runs down to the Kidron Valley. The site sits within the Palestinian neighborhood of Silwan in east Jerusalem; the archaeological park itself is administered by the Israel Nature and Parks Authority and the Ir David Foundation.
@@ -27,6 +27,17 @@ faqs:
 ---
 
 The **City of David** is the original urban core of Jerusalem — the Bronze Age and Iron Age settlement that pre-dates the Old City walls by 1,500 years. The archaeological park sits on a ridge running south from the **Temple Mount / Haram al-Sharif**, just outside the modern Old City walls beyond **Dung Gate**, on the slope that descends to the Kidron Valley. **Hezekiah's Tunnel**, an underground water channel cut through bedrock around 700 BCE, is the headline attraction; the **Pool of Siloam** at the southern end carries both biblical and engineering significance. This guide covers the practical decisions of visiting today: hours, tunnel logistics, the dual neighborhood context, and the half-day guided tour that pairs the site with the Old City.
+
+## Need to know
+
+| | |
+|---|---|
+| **Cost** | ~₪45 adult standard ticket; ~₪65 including the Pool of Siloam and Herodian Drainage Channel walk. Children's discounts apply. |
+| **Hours** | Sun–Thu 08:00–19:00 (summer) / 17:00 (winter); Fri and holiday eves 08:00–14:00; **closed Saturday**. |
+| **Time needed** | ~2 hours for a standard visit; add ~1 hour for Hezekiah's Tunnel; a half-day for a full guided experience. |
+| **Getting there** | 5-min walk south from **Dung Gate** of the Old City; ~10-min taxi from central Jerusalem. Bag check at entrance. |
+| **Best time** | Morning, to allow time for the wet tunnel; the cool tunnel air is welcome in summer. |
+| **Accessibility** | Visitors Center, main overlook and surface remains are wheelchair-accessible; Hezekiah's Tunnel and deeper sections are not, and the Pool of Siloam area has uneven steps. |
 
 ## What is the City of David?
 

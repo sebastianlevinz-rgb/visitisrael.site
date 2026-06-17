@@ -16,7 +16,7 @@ secondaryKeywords:
 latitude: 33.2933
 longitude: 35.7775
 publishedAt: 2026-05-11
-updatedAt: 2026-05-11
+updatedAt: 2026-06-17
 faqs:
   - question: When is the Mount Hermon ski season?
     answer: December through March, snow-dependent. Some seasons start late (mid-January) or close early (late February) depending on snowfall. The resort website publishes day-by-day operating status during the season; check before driving up. Lift tickets cost around 200 to 280 ILS per day; equipment rental adds 80 to 120 ILS. Weekends sell out on sunny snow days — book online if possible.
@@ -31,6 +31,17 @@ faqs:
 **Mount Hermon** in the Golan Heights is **Israelʼs only ski resort** — a December-to-March winter operation with 11 runs, two cable cars, a ski school and a rental shop on the southern slope of the Mount Hermon range. In summer, the cable car continues to operate for non-ski visitors who want the summit viewpoint and access to marked walking trails. The Israeli-controlled section of Mount Hermon reaches **2,224 metres**, the highest point in Israeli territory.
 
 This guide covers the winter ski operation, the summer cable car + hiking option, the practical access from Tel Aviv, the booking and equipment logistics, and how Mount Hermon fits within a wider Golan visit.
+
+## Need to know
+
+| | |
+|---|---|
+| **Cost** | Winter lift tickets ~₪200–280 / ~$55–75 per day; equipment rental ~₪80–120 / ~$22–32. Summer cable-car ticket is a separate, lower fee. Check the official site for current prices. |
+| **Hours** | Ski season December–March (snow-dependent). Summer cable car roughly 09:00–16:00. |
+| **Time needed** | A full day for skiing; ~1–2 hours for the summer cable-car summit visit and a short trail. |
+| **Getting there** | Southern slope of the Hermon range in the northern Golan; ~15 min from Majdal Shams, ~3 hrs from Tel Aviv. Rental car or ski/Golan day tour; access road may need snow chains in heavy snow. |
+| **Best time** | January–February for reliable snow (book lift tickets ahead — sunny weekend snow days sell out); summer for the cable-car panorama. |
+| **Accessibility** | Cable-car summit visit needs no ski gear and suits older children. Summit over 2,000 m is cold, exposed and windy — bring warm layers; sturdy footwear for summer trails. |
 
 ## What is Mount Hermon?
 

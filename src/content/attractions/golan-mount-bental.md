@@ -16,7 +16,7 @@ secondaryKeywords:
 latitude: 33.1167
 longitude: 35.7833
 publishedAt: 2026-05-11
-updatedAt: 2026-05-11
+updatedAt: 2026-06-17
 faqs:
   - question: How long do I need at Mount Bental?
     answer: 45 minutes to an hour covers the viewpoint, the small open-air sculpture installation and a cafe stop. Photography enthusiasts add another 30 minutes for the long views east toward the Quneitra valley and north toward Mount Hermon. No special permits or ticketing — access is free and parking is available at the summit.
@@ -31,6 +31,17 @@ faqs:
 **Mount Bental** is the 1,171-metre extinct volcanic crater on the eastern Golan plateau, repurposed as a panoramic viewpoint with one of Israel's best long views. The summit holds a small open-air sculpture installation made from old industrial parts, a cafe, an interpretive plaza, and walking paths around the crater rim. The view stretches east across the **Quneitra valley** toward the Syrian border, north to **Mount Hermon**, and south across the basalt Golan plateau with the **Sea of Galilee** visible in the distance on clear days.
 
 This guide covers what to do on a Mount Bental visit, why the site became known after the 1973 Yom Kippur War, the practical access from Katzrin and Tel Aviv, and how the viewpoint pairs with the wider Golan day-trip rhythm.
+
+## Need to know
+
+| | |
+|---|---|
+| **Cost** | Free — no entrance fee, ticketing or reservation. The summit cafe is paid. |
+| **Hours** | Open daily, sunrise to sunset; the summit cafe runs approximately 09:00–17:00 (longer in summer). |
+| **Time needed** | 45 min–1 hour for the viewpoint, sculpture installation and a cafe stop; the crater-rim walk is ~15–20 min. |
+| **Getting there** | ~30 min by car from Katzrin on Highway 959 (paved to summit parking); ~2.5–3 hrs from Tel Aviv. No public transport; rental car or day tour. |
+| **Best time** | Eastern Quneitra-valley overlook is best in the morning; the Mount Hermon view mid-day; the western plateau at golden hour. |
+| **Accessibility** | Paved road and summit parking; rim walk is short with some uneven ground. Exposed at 1,171 m — bring a layer; winter rim can be snowy or icy. |
 
 ## What is Mount Bental?
 
