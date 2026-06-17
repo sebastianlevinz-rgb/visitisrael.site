@@ -15,7 +15,9 @@
     "photos": "node scripts/photos/fetch-commons.mjs",
     "photos:optimize": "node scripts/photos/optimize-and-place.mjs",
     "photos:formats": "node scripts/photos/gen-avif-webp.mjs",
-    "qa:shots": "node scripts/qa/screenshots.mjs"
+    "photos:og": "node scripts/photos/gen-og.mjs",
+    "qa:shots": "node scripts/qa/screenshots.mjs",
+    "test:e2e": "playwright test"
   },
   "dependencies": {
     "@astrojs/rss": "^4.0.12",
