@@ -440,15 +440,16 @@
   },
   "/images/regions/eilat/hero.jpg": {
     "src": "/images/regions/eilat/hero.jpg",
-    "author": "Berthold Werner (Wikimedia Commons)",
-    "license": "CC-BY-SA-3.0",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Eilat_Coral_Reef.jpg",
+    "author": "Generated with Higgsfield (Soul Location model)",
+    "license": "AI-generated",
+    "sourceUrl": "https://higgsfield.ai",
     "region": "eilat",
     "slug": "eilat",
-    "width": 1920,
-    "height": 1080,
-    "subjectType": "cityscape",
-    "licenseProof": "https://creativecommons.org/licenses/by-sa/3.0/"
+    "width": 1600,
+    "height": 1000,
+    "subjectType": "ai-landscape",
+    "licenseProof": "AI-generated illustrative artwork — not a photograph of the exact location",
+    "generator": "higgsfield/soul_location"
   },
   "/images/regions/eilat/coral-beach.jpg": {
     "src": "/images/regions/eilat/coral-beach.jpg",
@@ -693,15 +694,16 @@
   },
   "/images/regions/caesarea/hero.jpg": {
     "src": "/images/regions/caesarea/hero.jpg",
-    "author": "Berthold Werner (Wikimedia Commons)",
-    "license": "CC-BY-SA-3.0",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Caesarea_maritima_BW_1.JPG",
+    "author": "Generated with Higgsfield (Soul Location model)",
+    "license": "AI-generated",
+    "sourceUrl": "https://higgsfield.ai",
     "region": "caesarea",
     "slug": "caesarea",
-    "width": 1920,
-    "height": 1080,
-    "subjectType": "cityscape",
-    "licenseProof": "https://creativecommons.org/licenses/by-sa/3.0/"
+    "width": 1600,
+    "height": 1000,
+    "subjectType": "ai-landscape",
+    "licenseProof": "AI-generated illustrative artwork — not a photograph of the exact location",
+    "generator": "higgsfield/soul_location"
   },
   "/images/regions/caesarea/roman-theatre.jpg": {
     "src": "/images/regions/caesarea/roman-theatre.jpg",
@@ -898,15 +900,16 @@
   },
   "/images/regions/nazareth/hero.jpg": {
     "src": "/images/regions/nazareth/hero.jpg",
-    "author": "Berthold Werner (Wikimedia Commons)",
-    "license": "CC-BY-SA-3.0",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Nazareth-old-city-2009.jpg",
+    "author": "Generated with Higgsfield (Soul Location model)",
+    "license": "AI-generated",
+    "sourceUrl": "https://higgsfield.ai",
     "region": "nazareth",
     "slug": "nazareth",
-    "width": 1920,
-    "height": 1080,
-    "subjectType": "cityscape",
-    "licenseProof": "https://creativecommons.org/licenses/by-sa/3.0/"
+    "width": 1600,
+    "height": 1000,
+    "subjectType": "ai-landscape",
+    "licenseProof": "AI-generated illustrative artwork — not a photograph of the exact location",
+    "generator": "higgsfield/soul_location"
   },
   "/images/regions/nazareth/basilica.jpg": {
     "src": "/images/regions/nazareth/basilica.jpg",
@@ -994,15 +997,16 @@
   },
   "/images/regions/golan/hero.jpg": {
     "src": "/images/regions/golan/hero.jpg",
-    "author": "Yair Aronshtam (Wikimedia Commons)",
-    "license": "CC-BY-SA-3.0",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Banias_waterfall_2.jpg",
+    "author": "Generated with Higgsfield (Soul Location model)",
+    "license": "AI-generated",
+    "sourceUrl": "https://higgsfield.ai",
     "region": "golan",
     "slug": "golan",
-    "width": 1920,
-    "height": 1080,
-    "subjectType": "landscape",
-    "licenseProof": "https://creativecommons.org/licenses/by-sa/3.0/"
+    "width": 1600,
+    "height": 1000,
+    "subjectType": "ai-landscape",
+    "licenseProof": "AI-generated illustrative artwork — not a photograph of the exact location",
+    "generator": "higgsfield/soul_location"
   },
   "/images/regions/golan/mount-bental.jpg": {
     "src": "/images/regions/golan/mount-bental.jpg",
@@ -1114,16 +1118,17 @@
   },
   "/images/regions/haifa/hero.jpg": {
     "src": "/images/regions/haifa/hero.jpg",
-    "author": "Zvi Roger (Wikimedia Commons)",
-    "license": "CC-BY-SA-3.0",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bahai_Gardens_by_David_Shankbone.jpg",
+    "author": "Generated with Higgsfield (Soul Location model)",
+    "license": "AI-generated",
+    "sourceUrl": "https://higgsfield.ai",
     "region": "haifa",
     "slug": "haifa",
-    "width": 1920,
-    "height": 1080,
-    "subjectType": "bahaiGardens",
+    "width": 1600,
+    "height": 1000,
+    "subjectType": "ai-landscape",
     "restrictedSiteAcknowledgment": "Wikimedia Commons wide architectural panorama of the Bahá'í Gardens terraces and the Shrine of the Báb exterior dome from the upper terrace — no identifiable worshippers or pilgrims; Bahá'í International Community photo policy honored (architectural / garden public-terrace permitted; worshipper / pilgrim photography prohibited); commercial commissioning requires press@bahai.org written permission (deferred to Phase 6 — see data/haifa-bahai-policy.md).",
-    "licenseProof": "https://creativecommons.org/licenses/by-sa/3.0/"
+    "licenseProof": "AI-generated illustrative artwork — not a photograph of the exact location",
+    "generator": "higgsfield/soul_location"
   },
   "/images/regions/haifa/bahai-gardens.jpg": {
     "src": "/images/regions/haifa/bahai-gardens.jpg",
@@ -1176,15 +1181,16 @@
   },
   "/images/regions/akko/hero.jpg": {
     "src": "/images/regions/akko/hero.jpg",
-    "author": "Vad.pol (Wikimedia Commons)",
-    "license": "CC-BY-SA-4.0",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Old_Acre_Sea_Wall_Panorama.jpg",
+    "author": "Generated with Higgsfield (Soul Location model)",
+    "license": "AI-generated",
+    "sourceUrl": "https://higgsfield.ai",
     "region": "akko",
     "slug": "akko",
-    "width": 1920,
-    "height": 1080,
-    "subjectType": "cityscape",
-    "licenseProof": "https://creativecommons.org/licenses/by-sa/4.0/"
+    "width": 1600,
+    "height": 1000,
+    "subjectType": "ai-landscape",
+    "licenseProof": "AI-generated illustrative artwork — not a photograph of the exact location",
+    "generator": "higgsfield/soul_location"
   },
   "/images/regions/akko/old-city.jpg": {
     "src": "/images/regions/akko/old-city.jpg",
