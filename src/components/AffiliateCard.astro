@@ -1,6 +1,7 @@
 ---
 import { affiliateUrl, PARTNERS, type Partner } from '@/config/affiliates';
 import AffiliateDisclosure from '@/components/AffiliateDisclosure.astro';
+import Pic from '@/components/Pic.astro';
 
 export interface Props {
   partner: Partner;
@@ -33,13 +34,11 @@ const href = affiliateUrl(partner, { destination, query, productId });
   data-partner={partner}
 >
   <div class="img-zoom relative aspect-[16/10]">
-    <img
+    <Pic
       src={image}
       alt={title}
       width="800"
       height="500"
-      loading="lazy"
-      decoding="async"
       class="h-full w-full object-cover"
     />
     <span
