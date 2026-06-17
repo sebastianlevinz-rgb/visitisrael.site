@@ -143,11 +143,13 @@ export function article(opts: ArticleOpts) {
 export interface HotelRef {
   name: string;
   url: string;
-  rating?: number;
   priceRange?: string;
 }
 
 export function hotelList(hotels: HotelRef[], regionName: string) {
+  // NOTE: no aggregateRating — we don't host our own hotel reviews, so emitting
+  // a ratingValue would be a fabricated, self-serving rating (Google policy
+  // violation). Ratings live on the partner (Booking.com) page we link to.
   return {
     '@context': 'https://schema.org',
     '@type': 'ItemList',
@@ -159,15 +161,6 @@ export function hotelList(hotels: HotelRef[], regionName: string) {
         '@type': 'Hotel',
         name: h.name,
         ...(h.priceRange ? { priceRange: h.priceRange } : {}),
-        ...(h.rating
-          ? {
-              aggregateRating: {
-                '@type': 'AggregateRating',
-                ratingValue: h.rating,
-                bestRating: 5,
-              },
-            }
-          : {}),
         address: { '@type': 'PostalAddress', addressLocality: regionName, addressCountry: 'IL' },
       },
     })),
