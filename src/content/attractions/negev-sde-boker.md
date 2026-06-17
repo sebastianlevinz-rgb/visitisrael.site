@@ -15,7 +15,7 @@ secondaryKeywords:
 latitude: 30.8744
 longitude: 34.7822
 publishedAt: 2026-05-11
-updatedAt: 2026-05-11
+updatedAt: 2026-06-17
 faqs:
   - question: Why is Ben-Gurion buried at Sde Boker?
     answer: David Ben-Gurion, the founding prime minister of Israel, retired to Sde Boker kibbutz in 1953 and chose it as the site for his grave alongside his wife Paula. He saw the Negev as the future of the country — "making the desert bloom" — and Sde Boker as the project's foundation. The grave is a quiet outdoor memorial above the Zin valley and is open to the public free of charge.
@@ -28,6 +28,17 @@ faqs:
 ---
 
 **Sde Boker** is the kibbutz in the central Negev where **David Ben-Gurion** — the founding prime minister of Israel — retired to in 1953 and chose to be buried alongside his wife Paula in a quiet outdoor memorial overlooking the Zin valley. The site combines three connected stops: the **grave**, **Ben-Gurion's Hut** (now a small museum), and the **Sde Boker Midrasha** academic centre that grew out of Ben-Gurion's "making the desert bloom" vision. This guide covers the visit and the historical context.
+
+## Need to know
+
+| | |
+|---|---|
+| **Cost** | The Ben-Gurion grave and rim promenade are free. Ben-Gurion's Hut (Tzrif Ben-Gurion) museum charges a modest entry fee. Check the official site for current prices. |
+| **Hours** | The grave is open daily during daylight hours. The hut museum is roughly 09:00–16:00 (slightly extended in summer; may close Fridays in some seasons). |
+| **Time needed** | 10–20 min at the grave; ~30–45 min at the hut museum; longer if combining with the Midrasha campus. |
+| **Getting there** | Off Route 40 in the central Negev, ~15 min north of Avdat. Best reached by rental car; the grave is ~10 min on foot from the Midrasha parking (a vehicle access road serves mobility needs). |
+| **Best time** | Any daylight hours; the Zin valley view is the focal point, best in morning or late-afternoon light. The kibbutz wind can be brisk. |
+| **Accessibility** | A paved path leads to the grave, with a vehicle access road for visitors with mobility needs. The hut museum is a single-storey building. |
 
 ## Why Ben-Gurion Came to Sde Boker
 

@@ -14,7 +14,7 @@ secondaryKeywords:
 latitude: 31.7411
 longitude: 35.4575
 publishedAt: 2026-05-11
-updatedAt: 2026-05-11
+updatedAt: 2026-06-17
 faqs:
   - question: Where are the actual Dead Sea Scrolls today?
     answer: The original scrolls are housed at the Shrine of the Book at the Israel Museum in Jerusalem. The Qumran archaeological site preserves the excavated settlement and gives visual access to the caves where the scrolls were discovered, but the manuscripts themselves are in Jerusalem for conservation reasons.
@@ -29,6 +29,17 @@ faqs:
 ---
 
 **Qumran** is the archaeological site on the northern Dead Sea shore where the Dead Sea Scrolls — one of the most significant manuscript discoveries of the twentieth century — were found in eleven nearby caves between 1947 and 1956. The excavated settlement is now a national park; the original scrolls are housed at the Shrine of the Book at the Israel Museum in Jerusalem. This guide covers what you see at the site, the broader story of the Essene community and the discovery, and how Qumran fits into a Dead Sea or Jerusalem day trip.
+
+## Need to know
+
+| | |
+|---|---|
+| **Cost** | INPA national park entry (~₪29 / ~$8 adult; children less). The multi-park pass is honoured. An audio guide is a small extra fee. |
+| **Hours** | Daily ~08:00–17:00 in summer (last entry 16:00), ~08:00–16:00 in winter (last entry 15:00). Friday & holiday eves close earlier. Check the official site for current hours. |
+| **Time needed** | 1–1.5 hours: a ~15-min intro film plus a 30–40 min self-guided walk through the settlement and cave viewpoints. |
+| **Getting there** | Northern Dead Sea shore on Route 90, ~1 hr drive from Jerusalem; **Egged bus 444** stops at the Qumran turnoff (~45 min). ~60 min north of Ein Bokek. |
+| **Best time** | Morning, before the heat — the marl terrace reflects light strongly and there is little shade. Pairs well with Masada and Ein Gedi in one loop. |
+| **Accessibility** | The settlement trail is paved and gently sloping, largely accessible; the caves themselves are not enterable and are viewed from the terrace. |
 
 ## What is Qumran?
 

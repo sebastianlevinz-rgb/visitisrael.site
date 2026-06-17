@@ -16,7 +16,7 @@ secondaryKeywords:
 latitude: 32.7167
 longitude: 35.5667
 publishedAt: 2026-05-11
-updatedAt: 2026-05-11
+updatedAt: 2026-06-17
 faqs:
   - question: How long does a Yardenit visit take?
     answer: One hour covers a standard visit — robe rental, walking down to one of the stepped baptismal pools by the river, optional immersion or symbolic prayer at the water's edge, and changing back. Group baptisms with a presiding pastor can run longer; the site has multiple parallel pool platforms so several groups operate simultaneously without crowding.
@@ -31,6 +31,17 @@ faqs:
 **Yardenit** is the symbolic **Jordan River baptismal site** at the southern outflow of the Sea of Galilee, where the river leaves the lake and begins its run south toward the Dead Sea. The site is operated under **Greek Orthodox jurisdiction** and is widely used by Christian groups of every tradition — Catholic, Greek Orthodox, Protestant, Evangelical, Anglican — for individual and group baptisms in the river itself, in white robes, at one of several stepped pool platforms cut into the riverbank.
 
 Yardenit is the most-visited baptismal site in Israel for international Christian pilgrim groups. It is operated by **Kibbutz Kinneret**, and the visitor centre includes robe rental, changing facilities, a riverside boardwalk along multiple pool platforms, and a small souvenir shop. The site has welcomed several million baptisms since its development as a formal facility in the 1980s.
+
+## Need to know
+
+| | |
+|---|---|
+| **Cost** | Entrance is free; robe rental is the main paid service (small fee). |
+| **Hours** | Daily ~08:00–18:00 (shorter in winter; Friday closes earlier, around 14:00). Closed on Yom Kippur. |
+| **Time needed** | ~1 hour for robe rental, immersion or symbolic prayer, and changing; longer for group baptisms. |
+| **Getting there** | On Route 90 at the southern lake outflow, ~15 min by car from central Tiberias. Free car park at the entrance. |
+| **Best time** | Quieter outside peak pilgrim-group hours; the river water can be cool even in summer. |
+| **Accessibility** | Stepped pool platforms have metal handrails into shallow water. **Modest dress** at the riverside; full-coverage baptismal robes provided at the changing facility. |
 
 ## What is Yardenit?
 

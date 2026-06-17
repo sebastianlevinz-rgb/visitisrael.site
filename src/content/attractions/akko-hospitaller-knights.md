@@ -16,7 +16,7 @@ secondaryKeywords:
 latitude: 32.9237
 longitude: 35.0700
 publishedAt: 2026-05-11
-updatedAt: 2026-05-11
+updatedAt: 2026-06-17
 faqs:
   - question: Who were the Knights Hospitaller?
     answer: The Knights Hospitaller — formally the Knights of the Order of St John of Jerusalem — were a medieval Christian military-medical order founded in Jerusalem around 1099 to provide care for sick and injured pilgrims. They became one of the two great Crusader military orders (alongside the Templars) and were the medical specialists; their infirmary at Akko could accommodate around two thousand patients, the largest hospital in the medieval Mediterranean. When Jerusalem fell to Saladin in 1187 they relocated their headquarters to Akko and held the city until the Mamluk destruction of 1291.
@@ -33,6 +33,17 @@ faqs:
 The **Hospitaller Knights' Halls** are the underground 12th-century Crusader citadel and infirmary complex beneath Akko's UNESCO Old City — the headline visit and the structural anchor of the city's UNESCO 2001 inscription. The Knights Hospitaller (Knights of the Order of St John of Jerusalem) used these halls as their headquarters during the period when Akko was the Crusader Kingdom's most important port and, after Jerusalem fell to Saladin in 1187, its de facto capital. The Mamluk destruction of 1291 sealed the halls intact beneath the rubble; the 1990s restoration brought them back to public view.
 
 This guide covers the Order's medical and military identity, the architectural circuit you walk today, the practical visit logistics, and how the Hospitaller visit relates to the Templar Tunnel further west.
+
+## Need to know
+
+| | |
+|---|---|
+| **Cost** | Ticketed; the **combined Old City ticket** (Hospitaller Halls + Templar Tunnel + Hamam al-Pasha + Underground Prisoners Museum + ramparts) is the best value — buying separately costs ~50% more. Check the official site for current prices. |
+| **Hours** | Typically open ~09:00 to late afternoon; check the official site for current hours. |
+| **Time needed** | A self-guided audio circuit is ~90 min; ~2 hours including the audio guide. |
+| **Getting there** | Inside Akko's Old City; enter via the visitor centre. Akko is ~30 min from Haifa and on the coastal rail line. |
+| **Best time** | The halls stay ~18°C year-round — a good midday refuge in summer heat. Audio guide strongly recommended. |
+| **Accessibility** | Lower level (refectory, columned crypt) partially accessible; upper infirmary halls and prison cells require two flights of medieval stairs. Consult the visitor centre. |
 
 ## Who were the Knights Hospitaller?
 

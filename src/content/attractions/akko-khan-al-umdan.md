@@ -16,7 +16,7 @@ secondaryKeywords:
 latitude: 32.9216
 longitude: 35.0716
 publishedAt: 2026-05-11
-updatedAt: 2026-05-11
+updatedAt: 2026-06-17
 faqs:
   - question: 'What does "Khan al-Umdan" mean?'
     answer: 'The word "Khan" is the Arabic and Ottoman Turkish word for a caravanserai — an inn-and-trading-post that hosted overland trade caravans arriving in cities from far destinations. "Al-Umdan" means "of the columns" or "of the pillars" in Arabic. The Khan al-Umdan is therefore literally the "Inn of the Columns" — named for the forty granite columns supporting the upper courtyard galleries. Many of those granite columns were scavenged from the Roman ruins at Caesarea (45 minutes south of Akko) when the Khan was built in 1785.'
@@ -33,6 +33,17 @@ faqs:
 **Khan al-Umdan** — the "Inn of the Columns" — is the most photogenic Ottoman-era building in Akko's Old City. Built in **1785** by Ahmed Pasha al-Jazzar as a caravanserai for overland trade caravans arriving from Damascus, the square courtyard is surrounded by two storeys of vaulted rooms supported on **forty granite columns** scavenged from the Roman ruins at Caesarea. The **clock tower** added by Sultan Abdul Hamid II in 1906 remains one of the city's most recognisable landmarks. The structure is the commercial anchor of Akko's 18th-century Ottoman rebuilding programme.
 
 This guide covers what a caravanserai was and what it did, the al-Jazzar-period reconstruction of Akko, the architectural details visible today, and how the Khan fits within the wider Ottoman period of the Old City.
+
+## Need to know
+
+| | |
+|---|---|
+| **Cost** | The **courtyard is free** to enter during daylight hours. Upper galleries are ticketed only when an exhibition is running; the adjacent Hamam al-Pasha is a separate ticket (usually on the combined Old City ticket). |
+| **Hours** | Courtyard open in daylight hours; check the visitor centre for current upper-gallery and Hamam hours. |
+| **Time needed** | ~20–30 min for the courtyard and clock tower; add ~30 min for the adjacent Hamam al-Pasha. |
+| **Getting there** | In Akko's Old City near the harbour, a short walk from the souq and visitor centre. Akko is ~30 min from Haifa. |
+| **Best time** | Late afternoon, when light hits the harbour-facing clock tower; the central courtyard is the textbook composition. |
+| **Accessibility** | Ground-floor courtyard is flat and largely accessible; some upper galleries and restoration areas may be closed. |
 
 ## What is a Caravanserai?
 

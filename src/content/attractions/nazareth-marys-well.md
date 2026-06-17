@@ -16,7 +16,7 @@ secondaryKeywords:
 latitude: 32.7039
 longitude: 35.2986
 publishedAt: 2026-05-11
-updatedAt: 2026-05-11
+updatedAt: 2026-06-17
 faqs:
   - question: How much time should I spend at Mary's Well?
     answer: 45 minutes to an hour covers both the open public fountain at street level and the adjacent Greek Orthodox Church of the Annunciation (also called St. Gabriel's Church) with the working spring in its crypt. Most pilgrim itineraries pair the visit with the Basilica of the Annunciation 10 minutes south for both Annunciation traditions in a single morning. Allow extra time on Sunday mornings when the church hosts the main Greek Orthodox liturgy.
@@ -31,6 +31,17 @@ faqs:
 **Mary's Well** — known in Arabic as **Ein el-Adra** ("the Virgin's Spring") and in Greek liturgy as the **Spring of the Annunciation** — sits at the northern edge of the Nazareth Old City, a sheltered fountain that draws from a natural spring traditionally identified as the village water source in Mary's lifetime. The **Greek Orthodox tradition** holds that the **Annunciation** took place at this well where Mary drew water, an account distinct from the Catholic Latin tradition centred at the Basilica of the Annunciation 10 minutes south.
 
 The adjacent **Greek Orthodox Church of the Annunciation** (also called **St. Gabriel's Church** in older Catholic sources, though the church belongs entirely to the Greek Orthodox Patriarchate of Jerusalem) is the architectural anchor of the site — a small Byzantine-styled basilica built directly over the spring, with the working spring visible and accessible in the church's crypt. The juxtaposition of the two Annunciation traditions — Catholic Latin at the Basilica + Greek Orthodox at Mary's Well — is the defining ecumenical feature of Christian pilgrimage in Nazareth, and the standard pilgrim itinerary visits both sites consecutively.
+
+## Need to know
+
+| | |
+|---|---|
+| **Cost** | Free; small donations customary at the candle stand inside the church. |
+| **Hours** | Street-level fountain accessible at all hours; the Greek Orthodox Church open daily ~08:00–17:00, with adjustments for Sunday liturgy and Greek Orthodox feast days. |
+| **Time needed** | 45 min–1 hour for the fountain and the church with its spring crypt. |
+| **Getting there** | Northern edge of the Old City, ~10 min walk north of the Basilica of the Annunciation. Small parking lot on Paulus VI Street. |
+| **Best time** | Quieter than the Basilica; allow extra time on Sunday mornings during the main Greek Orthodox liturgy. |
+| **Accessibility** | Active worship site — **shoulders and knees must be covered** inside the church. The spring is in a lower-level crypt reached by steps. |
 
 ## What is Mary's Well?
 

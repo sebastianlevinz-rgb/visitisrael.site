@@ -15,7 +15,7 @@ secondaryKeywords:
 latitude: 31.7767
 longitude: 35.2345
 publishedAt: 2026-05-11
-updatedAt: 2026-05-11
+updatedAt: 2026-06-17
 faqs:
   - question: Is the Western Wall free to visit?
     answer: Yes. The Western Wall plaza is open to visitors 24 hours a day, every day of the year, with no admission fee. The separate Western Wall Tunnels tour is paid and requires advance booking; entry to the men's and women's prayer sections is free with modest dress.
@@ -30,6 +30,17 @@ faqs:
 The Western Wall — known in Hebrew as **HaKotel HaMa'aravi** and widely called the **Kotel** — is the surviving western retaining wall of the Second Temple, and Judaism's most significant active prayer site. Free, open 24 hours, and a destination for every faith and every traveller passing through the Old City. This guide covers the practical decisions of visiting today: dress code, the separate prayer sections, the windows when Friday-evening Shabbat services become the most powerful experience of an Old City trip, and the paid Western Wall Tunnels tour beneath the plaza.
 
 The site has been Judaism's primary place of prayer since the destruction of the Second Temple in 70 CE. The plaza you see today was opened up after 1967, when the buildings that had stood within a few metres of the wall were cleared to create the large open prayer area. The Wall is administered by the **Western Wall Heritage Foundation**, an Israeli public benefit company; commercial photography and ceremony bookings go through the Foundation.
+
+## Need to know
+
+| | |
+|---|---|
+| **Cost** | Free. The separate Western Wall Tunnels tour is paid and requires advance booking. |
+| **Hours** | The plaza is open **24/7**, every day of the year; the prayer sections never close. Tunnels tours run ~06:00–23:00 most days. |
+| **Time needed** | 30–60 min at the plaza; ~75 min for the Tunnels tour. |
+| **Getting there** | Inside the Old City — closest entry is via **Dung Gate**, or walk down through the Jewish Quarter from Zion or Jaffa Gate. Bag check at every entrance; ID may be requested. |
+| **Best time** | Friday evening for Shabbat services (no photography from sundown); weekdays for photography. Tunnels tours book out weeks ahead during Holy Week and the High Holidays. |
+| **Accessibility** | The plaza is broad and largely step-free. Modest dress required (shoulders and knees covered); men need a head covering (free paper kippot at the entrance). |
 
 ## What is the Western Wall?
 

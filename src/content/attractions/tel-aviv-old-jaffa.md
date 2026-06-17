@@ -14,7 +14,7 @@ secondaryKeywords:
 latitude: 32.0540
 longitude: 34.7506
 publishedAt: 2026-05-11
-updatedAt: 2026-05-11
+updatedAt: 2026-06-17
 faqs:
   - question: How do I get from central Tel Aviv to Old Jaffa?
     answer: The walk from the south end of the tayelet (Charles Clore Park) to the harbour takes about 20 minutes along the seafront. By taxi it is 10 minutes from Rothschild. Bus 10 runs from the city centre. Driving in is possible but parking is limited near the harbour.
@@ -29,6 +29,17 @@ faqs:
 **Old Jaffa** is the Mediterranean fishing harbour and Ottoman-era stone quarter on the southern end of Tel Aviv's tayelet. Continuously occupied for four millennia, Jaffa pre-dates Tel Aviv by almost everything — the port is mentioned in Egyptian records of the 15th century BC, served as the Phoenician and Greek gateway to the Levantine interior, and was the main port for pilgrims to Jerusalem through the Crusader and Ottoman periods. The modern quarter is a slow-walking experience: a harbour, a flea market, a hilltop park with city views, and a constellation of restored stone houses that hold restaurants, boutique shops and guesthouses.
 
 The quarter sits ten minutes by taxi from central Tel Aviv or twenty minutes on foot along the seafront — most travellers combine Jaffa with a long lunch and a walk back to the city. This guide covers the harbour, the flea market, the religious heritage (St. Peter's Church and the Mahmoudiya Mosque sit a hundred metres apart and tell the layered Christian-Muslim story of the quarter), the practical hours, and how Jaffa pairs with the rest of a Tel Aviv visit.
+
+## Need to know
+
+| | |
+|---|---|
+| **Cost** | Harbour and Kedumim Square are free. St. Peter's Church suggests a small donation; flea-market shopping and dining are pay-as-you-go. |
+| **Hours** | Harbour and Kedumim Square open continuously. Flea market (Shuk HaPishpeshim) Sun–Thu ~10:00–18:00, Fri until early afternoon, **most stalls closed Saturday during Shabbat**; restaurants stay open all week. |
+| **Time needed** | Half a day to walk the harbour, climb to Kedumim Square, browse the flea market and have a long lunch. |
+| **Getting there** | 20-min walk south along the tayelet from central Tel Aviv; 10-min taxi from Rothschild; bus 10. Parking near the harbour is limited (Charles Clore Park car park is easiest). |
+| **Best time** | Friday mornings for the busiest flea market; sunset at Kedumim Square for the postcard view; Saturday daytime is quietest. |
+| **Accessibility** | Uneven stone streets and a hill up to Kedumim Square; wear comfortable shoes. Modest dress for St. Peter's Church. |
 
 ## What is Old Jaffa?
 

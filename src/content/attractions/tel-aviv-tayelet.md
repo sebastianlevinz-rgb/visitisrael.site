@@ -14,7 +14,7 @@ secondaryKeywords:
 latitude: 32.0853
 longitude: 34.7669
 publishedAt: 2026-05-11
-updatedAt: 2026-05-11
+updatedAt: 2026-06-17
 faqs:
   - question: How long is the Tel Aviv tayelet?
     answer: The full promenade runs 14 kilometres from Tel Aviv Port in the north (just south of Reading Power Station) to the Givat Aliya beach south of Old Jaffa. Walking end-to-end at slow pace takes about three hours; the central beach cluster (Hilton through Frishman) covers a more practical two kilometres in 30 minutes.
@@ -29,6 +29,17 @@ faqs:
 The **tayelet** is the 14-kilometre Mediterranean beach promenade that runs the full length of Tel Aviv's coastline. It connects **Tel Aviv Port** in the north — just south of the Reading Power Station — to the **Givat Aliya beach** at the southern edge of Old Jaffa. The promenade is paved end-to-end with a dedicated cycle path, lifeguarded swimming beaches, free public showers and toilets, and beachfront cafés at every major entrance. This guide covers the major beaches, the cycle path, the sunset hour, and how to use the tayelet as the spine of a Tel Aviv visit.
 
 The tayelet is the defining visual identity of Tel Aviv and the single feature that distinguishes the city from Jerusalem or any other Israeli city. Mediterranean culture and beach culture are central to daily Tel Aviv life — locals walk the promenade most mornings, swim through the warm months, and finish the day on a beach-side bar. For a first visit, plan to spend at least one full day on the tayelet.
+
+## Need to know
+
+| | |
+|---|---|
+| **Cost** | Free — all Tel Aviv beaches are public, with free showers, changing rooms and toilets. Sun-lounger or umbrella rental is ~₪25 for the day. |
+| **Hours** | The promenade is always open. Lifeguards are on duty at major beaches ~07:00–19:00 in summer (shorter in spring/autumn, mostly none in winter). Beach bars typically open ~11:00. |
+| **Time needed** | ~30 min to walk the central beach cluster; ~3 hours end-to-end on foot, or ~2 hours by bike. Plan a full day for the beach. |
+| **Getting there** | Any westward walk from central Tel Aviv reaches it. Nearest light-rail stops: **Allenby** (central beaches), **HaShomer** (Jaffa end). Tel-O-Fun bike-share docks at every major entrance. |
+| **Best time** | Sunset is the social and photographic peak (southern beaches frame the Jaffa skyline). Mornings are quietest. |
+| **Accessibility** | Broad, fully paved and largely flat with a dedicated cycle path; one of the most accessible routes in the city. |
 
 ## What is the Tayelet?
 

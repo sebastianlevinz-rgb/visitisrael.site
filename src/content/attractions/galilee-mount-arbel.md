@@ -15,7 +15,7 @@ secondaryKeywords:
 latitude: 32.8231
 longitude: 35.4992
 publishedAt: 2026-05-11
-updatedAt: 2026-05-11
+updatedAt: 2026-06-17
 faqs:
   - question: How long is the Mount Arbel hike?
     answer: The full loop down through the Arbel caves and back via the gentler northern route takes about three hours at a moderate pace. The summit-to-summit panorama walk from the upper car park takes 30 to 45 minutes round trip and is suitable for all visitors who can manage a short hill walk; only the cliff descent is exposed.
@@ -30,6 +30,17 @@ faqs:
 **Mount Arbel** rises 380 metres directly above the western shore of the Sea of Galilee and holds one of Israel's most distinctive **cliff-face hikes** — a chain of fixed hand-holds and steel cables down a Bronze Age natural defensive descent, ending in the **Arbel caves** that served as Jewish refuge bunkers during the Hasmonean revolt against Rome. From the summit, the panorama covers the **entire Sea of Galilee**, the Golan Heights, the Jordan Valley and on clear winter days the snow on **Mount Hermon**.
 
 The site is a designated **national park** managed by the Israel Nature and Parks Authority. The full hiking loop combines summit-to-summit panorama walk, cliff descent with caves, and a gentler northern return — three hours at a moderate pace. Shorter visits to the panorama lookout only take an hour round trip.
+
+## Need to know
+
+| | |
+|---|---|
+| **Cost** | Standard Israel National Parks entrance fee (~₪22–28 / ~$6–8); free with the annual parks pass. |
+| **Hours** | Daily 08:00–17:00 (summer) / 08:00–16:00 (winter); last entry well before closing. |
+| **Time needed** | Full cliff-descent loop ~3 hours; summit panorama walk only ~1 hour round trip. |
+| **Getting there** | ~15 min by car south-west of Tiberias via Route 77 to the upper car park (paid). Public transport is limited; rental car or hiking tour is practical. |
+| **Best time** | Start early (by 07:30 summer, 09:00 winter) for cooler conditions and the strongest panorama light; do the descent in good daylight. |
+| **Accessibility** | Summit panorama route suits anyone who can manage a short hill walk; the **cliff descent uses fixed cables and hand-holds** and is not suitable for vertigo, balance issues, very young children or limited mobility. |
 
 ## What is Mount Arbel?
 

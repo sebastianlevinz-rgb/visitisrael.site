@@ -15,7 +15,7 @@ secondaryKeywords:
 latitude: 31.7785
 longitude: 35.2298
 publishedAt: 2026-05-11
-updatedAt: 2026-05-11
+updatedAt: 2026-06-17
 faqs:
   - question: Is the Holy Sepulchre free to enter?
     answer: Yes. Admission is free during opening hours; the church does not charge tickets. The interior chapels run their own liturgical schedules; the Aedicule (Tomb of Jesus) has an interior crawl-space queue that often runs an hour at midday.
@@ -28,6 +28,17 @@ faqs:
 ---
 
 The **Church of the Holy Sepulchre** stands in the Christian Quarter of the Old City on the traditional site of the crucifixion, burial and resurrection of Jesus. Free, open daily, and one of the most layered religious buildings in Christendom — six denominations share the same roof under an 1852 agreement, and you can hear five liturgical languages in a single hour at the back of the rotunda. This guide covers the practical decisions of visiting today: when to arrive, what to expect in the queue for the Aedicule, dress code, and the half-day Christian-themed tour that adds context for a first visit.
+
+## Need to know
+
+| | |
+|---|---|
+| **Cost** | Free — the church does not charge admission. |
+| **Hours** | Main door opens ~04:00 most days, closing ~19:00 (winter) / ~21:00 (summer); schedules vary. The Aedicule (Tomb of Jesus) queue often runs 30–60+ min midday. |
+| **Time needed** | ~1 hour for the main basilica and chapels; add time for the Aedicule queue. |
+| **Getting there** | Christian Quarter of the Old City, a short walk from **Jaffa Gate**. Carry your passport — security at Old City gates may ask for ID. |
+| **Best time** | Arrive at the 04:00 dawn opening (or after 17:00) for an empty interior; busiest 09:00–14:00. |
+| **Accessibility** | Modest dress required (shoulders and knees covered, hats off inside). Historic stone floors, steep stairs to Calvary and Saint Helena's chapel; not step-free. |
 
 ## What is the Church of the Holy Sepulchre?
 

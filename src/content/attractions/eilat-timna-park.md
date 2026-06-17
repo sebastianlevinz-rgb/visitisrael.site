@@ -16,7 +16,7 @@ secondaryKeywords:
 latitude: 29.7842
 longitude: 34.9608
 publishedAt: 2026-05-11
-updatedAt: 2026-05-11
+updatedAt: 2026-06-17
 faqs:
   - question: Where is Timna Park?
     answer: Timna Park is in the southern Arava Valley, 25 km north of Eilat along Highway 90. The park entrance is signed and accessible by rental car, taxi or organised tour. No public transport directly to the park.
@@ -33,6 +33,17 @@ faqs:
 **Timna Park** is a 60 square kilometre desert reserve in the southern Arava Valley, 25 kilometres north of Eilat — sandstone landforms eroded over millennia into pillars, arches and the famous Mushroom Rock; 6,000-year-old Bronze Age copper mining shafts; a full-size replica of the biblical Mishkan (tabernacle); a chain of marked hiking trails from 20 minutes to a full day; and a small artificial lake with rental bicycles and paddle boats. The park is the headline desert excursion from Eilat and one of the most photographed landscapes in the southern Negev.
 
 This guide covers the geological highlights (Solomon's Pillars, Mushroom Rock, the Arches), the Bronze Age mining heritage, the tabernacle replica, practical logistics for self-drive and organised tour visits, and what makes Timna distinct from other Negev desert parks.
+
+## Need to know
+
+| | |
+|---|---|
+| **Cost** | Park entry ~₪49 adult / ~₪39 child (~$13/$11). The Israel National Parks pass covers entry. Lake Timna bike/paddle-boat rentals extra. Check the official site for current prices. |
+| **Hours** | Daily ~08:00–16:00 in winter, ~08:00–17:00 in summer; last entry ~2 hours before closing. Open including Shabbat. |
+| **Time needed** | Half a day (~4 hours) for the highlights; a full day for the longer hiking trails (Mount Timna, the Arches). |
+| **Getting there** | ~25 km / ~25 min north of Eilat on Route 90; ample parking. **No public bus to the park** — drive or organised tour. |
+| **Best time** | Early morning or late afternoon for cooler walking and the best landscape light; avoid the 12:00–15:00 window in summer (above 38 °C Jul–Sep). |
+| **Accessibility** | The visitor centre, tabernacle replica and Lake Timna area are largely flat and drivable between; longer trails (Mount Timna) are strenuous. Limited natural shade — carry 2–3 L water per person. |
 
 ## What is Timna Park?
 

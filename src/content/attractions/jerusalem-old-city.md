@@ -14,7 +14,7 @@ secondaryKeywords:
 latitude: 31.7767
 longitude: 35.2345
 publishedAt: 2026-05-11
-updatedAt: 2026-05-11
+updatedAt: 2026-06-17
 faqs:
   - question: How long do I need for the Jerusalem Old City?
     answer: One full day for a fast first visit; two days if you want time in each quarter, the major holy sites, and the rooftops. Many travellers add a third half-day for the Western Wall Tunnels or a guided Via Dolorosa walk.
@@ -27,6 +27,17 @@ faqs:
 ---
 
 The Jerusalem Old City packs four millennia of religious, architectural and political history into a square kilometre of stone-arched alleys behind a 16th-century Ottoman wall. Four quarters — Jewish, Christian, Muslim and Armenian — each carry their own atmosphere, ritual calendar, and best windows for an unhurried walk. This guide covers the practical decisions of a first visit: which gate to enter, how to plan your day across the quarters, what to wear at the major holy sites, and where the affiliate-driven walking tours add value versus where independent walking is fine.
+
+## Need to know
+
+| | |
+|---|---|
+| **Cost** | Free to walk and enter through the gates. Individual sites and guided tours are paid; many holy sites are free. |
+| **Hours** | The Quarters never close, but most shops and holy sites run ~08:00–17:00 (winter) / 19:00 (summer); the Holy Sepulchre opens earlier (~04:00). |
+| **Time needed** | One full day for a fast first visit; two days for time in each quarter and the major holy sites. |
+| **Getting there** | Eight historic gates; most first-timers enter via **Jaffa Gate** (west, near Mamilla). Carry your passport — checkpoints may ask for ID. |
+| **Best time** | Mornings are calmest. Plan around Shabbat (Jewish Quarter quiet Fri afternoon–Sat evening), Ramadan and Christian Holy Week. |
+| **Accessibility** | Uneven stone steps and narrow alleys throughout; wear closed shoes. Modest dress (shoulders and knees covered) at every religious site. |
 
 ## What is the Jerusalem Old City?
 

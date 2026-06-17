@@ -15,7 +15,7 @@ secondaryKeywords:
 latitude: 29.5360
 longitude: 34.9520
 publishedAt: 2026-05-11
-updatedAt: 2026-05-11
+updatedAt: 2026-06-17
 faqs:
   - question: Where is Dolphin Reef in Eilat?
     answer: Dolphin Reef sits on the southern Eilat beachfront, about 3 km south of central Eilat at the start of the Coral Beach district. Walking distance from southern hotels; taxi or local bus 15 from central Eilat (5 minutes).
@@ -32,6 +32,17 @@ faqs:
 **Dolphin Reef** is an interactive marine sanctuary on the southern Eilat beachfront — a resident pod of bottlenose dolphins that live in a semi-open enclosure of the Red Sea, with shore-based observation decks, dolphin-encounter swims and dives, a network of floating relaxation pools, and an unusually quiet beach atmosphere. The site combines marine wildlife observation with adult-focused relaxation more naturally than most beach destinations.
 
 This guide covers the dolphin sanctuary (what makes the enclosure different from a traditional dolphinarium), the encounter swim options, the floating relaxation pools that make Dolphin Reef distinct, practical visit logistics, and how the site pairs with the rest of an Eilat trip.
+
+## Need to know
+
+| | |
+|---|---|
+| **Cost** | Basic beach entry ~₪75 adult / ~₪50 child (~$20/$14), includes shore-based dolphin viewing. Encounter swims/dives ~₪350–600 extra. Floating relaxation pools ~₪80–120 extra (some areas adults-only). Check the official site for current prices. |
+| **Hours** | ~09:00–17:00 in winter, ~09:00–18:30 in summer. Open daily including Shabbat. |
+| **Time needed** | Half a day for general visits; a full day if you book an encounter swim (the encounter is 30–45 min but prep and deck time fill an afternoon). |
+| **Getting there** | ~3 km south of central Eilat on Route 90; walkable from southern hotels, or **bus line 15** / 5-min taxi. Parking on site. |
+| **Best time** | Mornings are quietest; dolphins are most active around feeding times (~09:30 and 14:00). **Book encounters 4–8 weeks ahead** for Dec–Apr peak season. |
+| **Accessibility** | Shore observation decks and the small beach are easy for most visitors and good for children (swims have a minimum age, typically 8). The relaxation pools are an adults-focused quiet zone. |
 
 ## What is Dolphin Reef?
 

@@ -16,7 +16,7 @@ secondaryKeywords:
 latitude: 33.2517
 longitude: 35.7142
 publishedAt: 2026-05-11
-updatedAt: 2026-05-11
+updatedAt: 2026-06-17
 faqs:
   - question: How long does the Nimrod Fortress visit take?
     answer: 90 minutes to 2 hours covers the main fortress complex — the concentric walls, towers, vaulted halls, secret stairways and water cisterns. The site is large enough that a focused archaeological visit can extend to 2.5 hours; a quick highlight visit is 60 minutes. Allow extra time in the morning for the southern views toward the Hula valley and Banias.
@@ -31,6 +31,17 @@ faqs:
 **Nimrod Fortress** is the largest medieval fortification in Israel — a Crusader and Mamluk castle built in the 1220s on an 800-metre ridge above the Banias valley in the Golan Heights. The site is unusually complete for a 13th-century fortification: concentric walls, towers, vaulted halls, secret stairways and water cisterns are all visible, walkable and partially restored. The fortress takes its modern name from medieval Arab folklore associating the ruined castle with **Nimrod**, the biblical hunter described in Genesis 10 as the founder of cities — by the Ottoman period the deserted castle was being attributed to legendary builders.
 
 This guide covers the Crusader and Mamluk history, what is visible today, the practical visit logistics, and how Nimrod Fortress pairs with the neighbouring Banias / Caesarea Philippi archaeological site.
+
+## Need to know
+
+| | |
+|---|---|
+| **Cost** | Standard national-park fee (~₪28 / ~$8 adult); free with the annual parks pass, which also covers other Golan reserves. |
+| **Hours** | Roughly 08:00–17:00 in summer, 08:00–16:00 in winter. |
+| **Time needed** | 90 min–2 hours for the main complex; up to 2.5 hours for a focused archaeological visit. |
+| **Getting there** | ~10 min by car from Banias on Highway 989; ~40 min from Katzrin, ~3 hrs from Tel Aviv. Paid parking at the entrance. |
+| **Best time** | Morning for the southern views toward the Hula valley and Banias; cooler temperatures before midday in summer. |
+| **Accessibility** | A medieval hilltop castle — stairs, narrow passages, uneven stone, steep approaches. **Not wheelchair- or stroller-friendly**; closed shoes essential. |
 
 ## What is Nimrod Fortress?
 

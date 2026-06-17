@@ -16,7 +16,7 @@ secondaryKeywords:
 latitude: 32.5006
 longitude: 34.8919
 publishedAt: 2026-05-11
-updatedAt: 2026-05-11
+updatedAt: 2026-06-17
 faqs:
   - question: Where is Caesarea National Park?
     answer: Caesarea National Park sits on the Mediterranean coast about 45 minutes north of Tel Aviv (Highway 2, signed exit at the Caesarea junction) and 30 minutes south of Haifa. The entrance gate is on the seaward side, with paid parking at the visitor centre. From the Caesarea-Pardes Hanna railway station, a 10-minute taxi reaches the park.
@@ -33,6 +33,17 @@ faqs:
 **Caesarea National Park** is the entire archaeological zone of Caesarea Maritima — the Herodian Roman port founded by Herod the Great around 25 BCE, continuously inhabited through Byzantine, early Islamic, Crusader and Ottoman periods, and inscribed by UNESCO in 2010. The park covers around 200 hectares of seafront archaeology including the **Roman Theatre**, the **Hippodrome of Herod**, the submerged **Sebastos harbour**, the **Crusader walls and gatehouse**, and the small **archaeology museum** at the visitor centre. A single combined ticket covers the entire zone.
 
 This guide covers the chronological layers visible on the site, the headline attractions, the combined-ticket logistics, and how Caesarea National Park pairs with the nearby Aqueduct Beach and Ralli Museum sub-destinations.
+
+## Need to know
+
+| | |
+|---|---|
+| **Cost** | ~₪39 / ~$11 adult, ~₪24 child; combined ticket with the Time Trek ~₪50. INPA annual pass honoured. Audio guide ~₪25. Check the official site for current prices. |
+| **Hours** | Daily, typically ~08:00–17:00 winter / ~08:00–18:00 summer (last entry ~1 hr before close). Open on Shabbat. |
+| **Time needed** | 2–3 hours for the headline ruins; ~4 hours to add the snorkel park and museum. |
+| **Getting there** | ~45 min north of Tel Aviv (Hwy 2, Caesarea junction); ~30 min south of Haifa. ~10-min taxi from Caesarea–Pardes Hanna rail station. Paid parking. |
+| **Best time** | Spring/autumn shoulder seasons; morning for long-shadow light, late afternoon for the harbour. Open-air with little shade. |
+| **Accessibility** | Largely open archaeological paths with some uneven historic surfaces; main routes are walkable. Consult the INPA accessibility guide. |
 
 ## What is Caesarea National Park?
 

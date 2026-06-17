@@ -14,7 +14,7 @@ secondaryKeywords:
 latitude: 31.7784
 longitude: 35.2434
 publishedAt: 2026-05-11
-updatedAt: 2026-05-11
+updatedAt: 2026-06-17
 faqs:
   - question: Where is the best Mount of Olives viewpoint?
     answer: The Seven Arches viewpoint outside the InterContinental Hotel offers the iconic west-facing panorama across the Kidron Valley to the Temple Mount and the Old City walls. Arrive 30 minutes before sunset for golden-hour light on the Dome of the Rock; sunrise is even quieter.
@@ -27,6 +27,17 @@ faqs:
 ---
 
 The **Mount of Olives** — **Har HaZeitim** in Hebrew, **Jabal az-Zaytun** in Arabic — is the ridge that faces the Old City across the Kidron Valley to the east. Best known for the **iconic panorama of the Old City** from the Seven Arches viewpoint, the ridge carries a 3,000-year-old Jewish cemetery, the Garden of Gethsemane at its base, and a clutch of major Christian churches commemorating events in the Passion narrative. This guide covers the practical decisions of visiting today: when to come for the light, how to walk the descent, and the half-day panorama tour that pairs the ridge with the Old City.
+
+## Need to know
+
+| | |
+|---|---|
+| **Cost** | The viewpoint is free. Some churches suggest a small donation; the Garden of Gethsemane is free. |
+| **Hours** | The Seven Arches viewpoint is open 24/7; the descent to Gethsemane is daylight only. Garden of Gethsemane and Church of All Nations ~08:00–17:00 (winter) / 18:00 (summer); other churches keep shorter, sometimes irregular hours. |
+| **Time needed** | ~30 min for the panorama; ~3 hours for the full guided descent to Gethsemane and the churches. |
+| **Getting there** | Taxi or Gett from the Old City ~10 min (₪40–60); ask for the Seven Arches viewpoint / InterContinental Hotel. Arab bus 75 also serves the ridge; walking up from Lion's Gate is ~25 min, steep. |
+| **Best time** | Sunrise for the strongest light and fewest crowds; 30 min before sunset for golden hour on the Dome of the Rock. Avoid midday in summer (no shade). |
+| **Accessibility** | The viewpoint is reachable by vehicle; the descent path is steep and gravelly. Modest dress at the churches; treat the cemetery with respect. |
 
 ## What is the Mount of Olives?
 

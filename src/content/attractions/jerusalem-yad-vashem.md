@@ -14,7 +14,7 @@ secondaryKeywords:
 latitude: 31.7741
 longitude: 35.1751
 publishedAt: 2026-05-11
-updatedAt: 2026-05-11
+updatedAt: 2026-06-17
 faqs:
   - question: Is Yad Vashem free?
     answer: Yes. Admission to the campus and to the Holocaust History Museum is free. The audio guide rental and the documentary archive consultation carry small fees. Guided tours in English run several times daily and benefit from advance reservation.
@@ -27,6 +27,17 @@ faqs:
 ---
 
 **Yad Vashem** — Israel's central memorial to the six million Jews murdered in the Holocaust — occupies a hilltop campus on Mount Herzl in west Jerusalem. Founded by Knesset law in 1953, it is a memorial, an archive, a research institution, and a documentary museum all at once. Free admission, no advance ticket required for individual entry, and consistently rated among the most important museum visits anywhere in Israel. This guide covers the practical decisions of visiting today: when to come, how to plan a half-day across the campus, the must-see sections, and the guided tour options.
+
+## Need to know
+
+| | |
+|---|---|
+| **Cost** | Free admission to the campus and the Holocaust History Museum. Audio guide rental ~₪35. |
+| **Hours** | Sun–Thu 09:00–17:00, Fri and holiday eves 09:00–14:00, **closed Saturday and on Jewish holidays**. Last museum entry is 60 min before closing. |
+| **Time needed** | Three hours minimum for the museum alone; a half-day (4–5 hours) for the full campus. |
+| **Getting there** | Light Rail Red Line to **Mount Herzl** station, ~5-min walk; ~25 min by light rail or ~15 by taxi from central Jerusalem. Bag check at the gate. |
+| **Best time** | Arrive early and allow more time than you expect; the campus is reverent and unhurried. |
+| **Accessibility** | The campus is hilly; wear solid shoes. The Holocaust History Museum is recommended for ages 10+ (no photography inside); the Children's Memorial is open to all ages. |
 
 ## What is Yad Vashem?
 

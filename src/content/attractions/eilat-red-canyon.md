@@ -15,7 +15,7 @@ secondaryKeywords:
 latitude: 29.6786
 longitude: 34.8536
 publishedAt: 2026-05-11
-updatedAt: 2026-05-11
+updatedAt: 2026-06-17
 faqs:
   - question: Where is Red Canyon near Eilat?
     answer: Red Canyon is in the Eilat Mountains, about 20 km northwest of central Eilat. Drive north on Highway 12 from Eilat to the marked trailhead parking area. No public transport; rental car, taxi or organised tour required.
@@ -32,6 +32,17 @@ faqs:
 **Red Canyon** is a narrow sandstone slot canyon in the Eilat Mountains, 20 kilometres northwest of central Eilat — a 90-minute loop hike that descends through metal ladders into a slot canyon of deep red sandstone walls, follows the canyon floor through narrow passages, and returns along the rim with panoramic views over the surrounding desert. The canyon is the most photographed short hike in the southern Negev and one of the easiest geological day-trips from Eilat.
 
 This guide covers the canyon itself (geology, the descent route, the slot section), trail logistics (length, difficulty, safety), what makes Red Canyon distinct from other Negev hikes, and how to combine it with Timna Park for a full desert-geology day from Eilat.
+
+## Need to know
+
+| | |
+|---|---|
+| **Cost** | Free — no entrance gate, fee or staffed visitor centre. Parking is free. |
+| **Hours** | Open continuously (no gate). Daylight hiking only — short winter days lose direct light in the lower canyon by ~16:00. |
+| **Time needed** | 90 min–2 hours for the full loop (~3 km), including the ladder descent and the ~30-min slot section. |
+| **Getting there** | ~20 km / ~25 min northwest of Eilat on Highway 12; short unpaved access road (standard rental cars fine). **No public transport** — drive, taxi or organised tour. |
+| **Best time** | Oct–Apr for comfortable temperatures and low flash-flood risk. Afternoon light (~15:00–16:30) brings out the red sandstone. **Avoid the slot during/after winter rain — flash-flood risk.** |
+| **Accessibility** | Not accessible — the descent uses several 2–4 m metal ladders and natural rock steps; requires balance and a head for heights. Carry 1.5–2 L water per person; there are no water sources on the trail. |
 
 ## What is Red Canyon?
 

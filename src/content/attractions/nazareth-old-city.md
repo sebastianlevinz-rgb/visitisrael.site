@@ -15,7 +15,7 @@ secondaryKeywords:
 latitude: 32.7025
 longitude: 35.298
 publishedAt: 2026-05-11
-updatedAt: 2026-05-11
+updatedAt: 2026-06-17
 faqs:
   - question: How much time should I spend in the Nazareth Old City?
     answer: Allow 2 to 3 hours for an unhurried walk through the souq and surrounding alleys, including time for knafeh at one of the established institutions, a hummus or mezze lunch, and a stop at one of the small artisan workshops. The Old City is the natural corridor between the Basilica of the Annunciation at the southern end and Mary's Well at the northern end — walking between the two pilgrim sites IS the Old City visit. A focused half-hour pass is possible but misses the rhythm.
@@ -30,6 +30,17 @@ faqs:
 The **Nazareth Old City** is the working Arab-Israeli heart of the city — a labyrinth of narrow stone alleys, Ottoman-era arched doorways and a centuries-old **souq market** that stretches between the **Basilica of the Annunciation** at the southern end and **Mary's Well** at the northern end. The walk between the two pilgrim sites passes directly through the souq and is the natural way to absorb both the Christian-pilgrimage character of Nazareth and the Arab-Israeli culture of the city's roughly 80,000 residents.
 
 The Old City is **unusual among Israeli markets** in that it remains primarily a working bazaar for local residents rather than a polished tourist arcade. Spice merchants, baklava and knafeh shops, cloth and embroidery stalls, hummus institutions, and several centuries-old artisan workshops have operated continuously through Ottoman, British Mandate and Israeli administrations. Pilgrim-aimed shops (devotional items, postcards) exist around the Basilica forecourt but do not dominate the souq character.
+
+## Need to know
+
+| | |
+|---|---|
+| **Cost** | Free to walk; bring small cash for souq purchases and food. The Synagogue Church (Melkite chapel) is free entry. |
+| **Hours** | Souq runs roughly Sat–Thu, most stalls ~09:00–18:00. Friday is lightest (some stalls close midday for Jumu'ah prayer). |
+| **Time needed** | 2–3 hours for an unhurried walk with knafeh, lunch and a workshop stop. |
+| **Getting there** | The corridor between the Basilica of the Annunciation (south end) and Mary's Well (north end). Public parking on the southern edge of the Old City. |
+| **Best time** | Tuesday/Wednesday mornings for the best balance of full opening and manageable crowds; morning light for the alleys, late afternoon for food. |
+| **Accessibility** | Built on a slope with stone-paved, uneven alleys — good walking shoes essential. **Modest dress** required for the Synagogue Church; ask before photographing residents, particularly women. |
 
 ## What is the Nazareth Old City?
 

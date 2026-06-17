@@ -14,7 +14,7 @@ secondaryKeywords:
 latitude: 32.0709
 longitude: 34.7693
 publishedAt: 2026-05-11
-updatedAt: 2026-05-11
+updatedAt: 2026-06-17
 faqs:
   - question: When is Carmel Market open?
     answer: Sunday through Thursday roughly 08:00 to 18:00, Friday from 08:00 to about three hours before sunset, closed Saturday during Shabbat. The market reopens with reduced stalls on Saturday evening.
@@ -29,6 +29,17 @@ faqs:
 **Carmel Market** — usually just called **the shuk** or **Shuk HaCarmel** — is Tel Aviv's central produce, spice and prepared-food market. It runs south from the junction with Allenby Street through a covered alleyway, and is the working market that supplies the city's Friday-night dinner tables. By day it is fruit, fish, spices and bakeries; on Friday mornings the alleys fill with chefs and locals doing their weekend shopping. This guide covers when to visit, what to eat and drink, the best food-tour options, and how the market pairs with a Tel Aviv first-day orientation.
 
 The market sits ten minutes by foot from Rothschild Boulevard and the beach — it is the natural midpoint between the Bauhaus blocks and the southern beaches. The shuk has run continuously since 1920 (an earlier informal market on the same site dated to the late Ottoman period) and survived a modest renovation in the 2000s that added covered roofing without changing the basic alley structure.
+
+## Need to know
+
+| | |
+|---|---|
+| **Cost** | Free to walk and browse; you pay only for what you eat. Bring small cash — older spice merchants still prefer shekels. |
+| **Hours** | Sun–Thu ~08:00–18:00; Fri 08:00 to ~3 hours before sunset. **Closed Saturday during Shabbat** (reopens on a smaller scale Saturday evening). |
+| **Time needed** | 1–2 hours to browse and snack; 2–3 hours for a full Friday-morning food crawl. |
+| **Getting there** | 10-min walk from Rothschild Boulevard or Allenby St; 6-min walk from Bograshov Beach. Nearest light-rail stop: **Allenby**. |
+| **Best time** | Friday late morning is busiest and most atmospheric; Tue/Wed mornings are calmer. Skip Friday afternoon if you dislike crowds. |
+| **Accessibility** | A single long covered alley, broadly flat but crowded; stall water runs across the floor, so wear closed-toe shoes. |
 
 ## What is Carmel Market?
 

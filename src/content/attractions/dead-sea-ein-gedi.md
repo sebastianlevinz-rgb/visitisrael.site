@@ -14,7 +14,7 @@ secondaryKeywords:
 latitude: 31.4642
 longitude: 35.3884
 publishedAt: 2026-05-11
-updatedAt: 2026-05-11
+updatedAt: 2026-06-17
 faqs:
   - question: How long does it take to hike Ein Gedi?
     answer: The short Nahal David loop to the first waterfall takes about an hour round trip. The full Nahal David circuit to the upper pools and back is two to three hours. The longer Nahal Arugot canyon hike to the Hidden Falls is three to four hours. All routes are well marked but vary in difficulty.
@@ -29,6 +29,17 @@ faqs:
 ---
 
 **Ein Gedi** is an oasis on the western shore of the Dead Sea where freshwater springs feed waterfalls and canyon pools in the middle of the surrounding desert. The contrast between the lush vegetation along the watercourses, the bare desert above the cliffs, and the salt-rich Dead Sea below is one of the most striking landscapes in the country. The reserve splits into two canyon systems — **Nahal David** for the easier family-friendly route and **Nahal Arugot** for the longer, more strenuous hike. This guide covers the trail options, the wildlife, the spring-fed pools and how Ein Gedi pairs with a Dead Sea day.
+
+## Need to know
+
+| | |
+|---|---|
+| **Cost** | INPA national park entry (~₪28 / ~$8 adult; children less). The multi-park pass is honoured. A combined ticket can include the Ein Gedi spa farther south. |
+| **Hours** | Daily ~08:00–17:00 in summer (last entry 16:00), ~08:00–16:00 in winter (last entry 15:00). Friday & holiday eves close earlier. Check the official site for current hours. |
+| **Time needed** | 1 hour for the short Nahal David loop; 2–3 hours for the full circuit; 3–4 hours for Nahal Arugot to the Hidden Falls. |
+| **Getting there** | On Route 90. ~15 min north of Ein Bokek; **Egged bus 444** from Jerusalem (~75 min) stops at the visitor centre. Paid parking on site. |
+| **Best time** | Spring (Mar–May) for full waterfalls and active wildlife. **Start early** — the first 90 minutes are coolest and the ibex are most active at dawn. |
+| **Accessibility** | The short Nahal David circuit is paved most of the way; deeper canyon routes involve rock scrambles and wet ledges and are not wheelchair-accessible. |
 
 ## What is Ein Gedi?
 

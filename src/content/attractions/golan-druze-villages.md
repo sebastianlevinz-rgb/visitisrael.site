@@ -16,7 +16,7 @@ secondaryKeywords:
 latitude: 33.2683
 longitude: 35.7625
 publishedAt: 2026-05-11
-updatedAt: 2026-05-11
+updatedAt: 2026-06-17
 faqs:
   - question: Which Druze village should I visit?
     answer: Majdal Shams is the largest (around 11,000 residents) and the most-visited — full of restaurants, cafes, and a vibrant Saturday market scene. Masʻade (3,500 residents) near the Birkat Ram lake is quieter and more atmospheric for a relaxed lunch. Buqʻata and Ein Qiniyye are smaller and less tourism-developed; visit those if you want a quieter encounter without restaurant infrastructure.
@@ -31,6 +31,17 @@ faqs:
 The **Druze villages of the Golan Heights** — Majdal Shams, Masʻade, Buqʻata, Ein Qiniyye — are home to about 25,000 Druze residents on the slopes of Mount Hermon and around the Birkat Ram lake. The community is a distinctive religious tradition with its own customs, cuisine and a hospitality culture that is the headline tourist experience in the Golan. **Lunch in a Druze village** — fresh-baked taboon bread, labneh with zaʻatar, Druze pita with melted cheese — is the most consistent recommendation in the entire Golan travel calendar.
 
 This guide covers the four Druze villages, the cuisine, the cultural respect that makes the visit work, the community-partnership operators that route bookings to fair-wage village hosts, and the practical logistics of a Druze village visit as part of a Golan day or two-day loop.
+
+## Need to know
+
+| | |
+|---|---|
+| **Cost** | Free to visit; budget for lunch — a full Druze meal runs roughly ₪80–150 / ~$22–40 per person depending on the restaurant. |
+| **Hours** | Druze restaurants typically serve lunch ~11:30–16:00; dinner is less common. Saturdays and Israeli holidays are busiest; weekdays quieter. |
+| **Time needed** | 2–3 hours — village walk, lunch, optional cultural-orientation conversation. |
+| **Getting there** | Majdal Shams and Masʻade are 30–45 min from Katzrin on Highway 98; ~2.75–3 hrs from Tel Aviv. Rental car or "Golan + Galilee" day tour. |
+| **Best time** | Cherry-picking season (May–June) around Majdal Shams; weekday lunches for a quieter encounter. |
+| **Accessibility** | Casual modest dress is appropriate. **Do not photograph khalwat (Druze meeting houses), religious figures or private homes**; ask before photographing people. |
 
 ## What are the Druze Villages of the Golan?
 

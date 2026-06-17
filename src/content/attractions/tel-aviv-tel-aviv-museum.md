@@ -14,7 +14,7 @@ secondaryKeywords:
 latitude: 32.0772
 longitude: 34.7861
 publishedAt: 2026-05-11
-updatedAt: 2026-05-11
+updatedAt: 2026-06-17
 faqs:
   - question: What are the Tel Aviv Museum of Art opening hours?
     answer: Sunday to Thursday 10:00 to 18:00 (Tuesday and Thursday until 21:00). Friday 10:00 to 14:00. Saturday 10:00 to 18:00 — yes, the museum is open on Shabbat, one of the few major institutions in Israel that is. Closed Sunday in some low-season months.
@@ -29,6 +29,17 @@ faqs:
 The **Tel Aviv Museum of Art** is Israel's flagship modern and contemporary art museum and one of the largest fine-art institutions in the country. Located in central Tel Aviv at 27 Shaul HaMelech Boulevard, the museum houses major collections of Israeli art, European Impressionist and post-Impressionist work, modernism from the early 20th century, and a rolling programme of contemporary exhibitions. The **Herta and Paul Amir building**, opened in 2011, is itself a major architectural draw with a folded-plate structure designed by Preston Scott Cohen. This guide covers the collections, the architecture, the practical hours, and how to combine the museum with other Tel Aviv experiences.
 
 The museum sits a fifteen-minute walk north of Habima Square (the top of Rothschild Boulevard) and works well as a half-day cultural anchor that pairs with an afternoon on the beach or a long Tel Aviv lunch.
+
+## Need to know
+
+| | |
+|---|---|
+| **Cost** | General admission ~₪50, with student and senior discounts; free for under-18s and on several promotion days (typically the first Saturday of each month). |
+| **Hours** | Sun–Thu 10:00–18:00 (Tue & Thu until 21:00); Fri 10:00–14:00; **Saturday 10:00–18:00** — one of the few major Israeli institutions open on Shabbat. |
+| **Time needed** | Three hours minimum; allow a half-day for the Israeli collection, the Impressionist wing and one rotating exhibition. |
+| **Getting there** | 27 Shaul HaMelech Boulevard, central Tel Aviv. 15-min walk from Habima Square; bus 18; light-rail Red Line **Shaul HaMelech** station. Limited paid parking behind the museum. |
+| **Best time** | Saturday, as a Shabbat cultural anchor; extended Tue/Thu evenings are quieter. Save the Amir building for afternoon light. |
+| **Accessibility** | Spacious modern galleries with step-free access throughout. |
 
 ## What is the Tel Aviv Museum of Art?
 

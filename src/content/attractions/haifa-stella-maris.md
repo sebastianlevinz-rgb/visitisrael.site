@@ -17,7 +17,7 @@ secondaryKeywords:
 latitude: 32.8267
 longitude: 34.97
 publishedAt: 2026-05-11
-updatedAt: 2026-05-11
+updatedAt: 2026-06-17
 faqs:
   - question: What is Stella Maris Monastery?
     answer: Stella Maris is the Carmelite Catholic monastery on the northwest tip of Mount Carmel in Haifa — the world headquarters of the Discalced Carmelite Order. The site has three components — the upper basilica with the Italian dome and the icon of Our Lady of Mount Carmel; the lower Cave of Elijah, traditionally identified as the prophet's refuge before his contest with the prophets of Baal (1 Kings 18); and a cliff-edge promenade with wide Mediterranean views down toward Akko and the Bay of Haifa. Founded in 1631 by Prosper of the Holy Spirit; the present basilica is 19th-century.
@@ -34,6 +34,17 @@ faqs:
 **Stella Maris** is the **Carmelite Catholic monastery** on the northwest tip of Mount Carmel in Haifa, above the Mediterranean and the Bat Galim port. The site is the world headquarters of the **Discalced Carmelite Order** — one of the Catholic Church's contemplative monastic orders, founded in 1593 as a reform branch of the medieval Carmelite Order which itself originated on Mount Carmel in the 12th century. The present basilica is 19th-century with an **Antonio Barluzzi domed restoration** in the early 20th century; the foundation goes back to 1631 when Prosper of the Holy Spirit reestablished a Carmelite presence on the mountain after Ottoman destruction.
 
 The Stella Maris complex has three distinct components — the **upper basilica** with its Italian dome and the icon of Our Lady of Mount Carmel, the **lower Cave of Elijah** (the biblical site traditionally identified as the prophet's refuge), and the **cliff-edge promenade** with Mediterranean views down the coastline toward Akko and the Bay of Haifa. The site is venerated ecumenically — Catholic, Greek Orthodox, Muslim and Druze visitors all visit the Cave of Elijah, and the basilica receives Catholic pilgrim groups year-round.
+
+## Need to know
+
+| | |
+|---|---|
+| **Cost** | **Free** to enter the basilica and Cave of Elijah. The Stella Maris cable car to Bat Galim beach is separately ticketed. |
+| **Hours** | Basilica generally daily ~06:00–12:30 and ~15:00–18:00; Cave of Elijah open during basilica hours. Daily Latin Mass ~06:30 & 18:30; Sunday ~09:00 & 18:30. Cable car is seasonal (~Apr–Oct). |
+| **Time needed** | ~1–1.5 hours for all three components; add ~30 min for the gardens and cliff-edge photography. |
+| **Getting there** | NW tip of Mount Carmel, ~4 km from the city centre. Carmelit funicular to Gan HaEm + ~15-min walk; or drive west along the Carmel ridge road (paid parking). |
+| **Best time** | **Late afternoon** for the cliff-edge Mediterranean view. Visit ~10:00–12:00 or ~15:30–17:30 to avoid the Divine Office (06:00, 12:30, 18:00). |
+| **Accessibility** | Basilica forecourt and cliff-edge promenade are paved and railed; the Cave of Elijah is reached by stone steps down to the grotto. Modest dress required (shawls available). |
 
 ## What is Stella Maris?
 

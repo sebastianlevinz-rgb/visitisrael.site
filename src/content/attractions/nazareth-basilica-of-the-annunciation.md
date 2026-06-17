@@ -16,7 +16,7 @@ secondaryKeywords:
 latitude: 32.7019
 longitude: 35.2978
 publishedAt: 2026-05-11
-updatedAt: 2026-05-11
+updatedAt: 2026-06-17
 faqs:
   - question: How much time should I spend at the Basilica of the Annunciation?
     answer: One to one and a half hours covers both levels of the basilica — the upper-level nave with its international Annunciation mosaic collection and the lower-level grotto chapel housing the rock face traditionally identified as Mary's home. Add 30 minutes for the surrounding Franciscan complex (the courtyard, the small archaeological museum, the Church of St. Joseph next door). Pair the visit with a walk to Mary's Well 10 minutes north for the Greek Orthodox Annunciation site.
@@ -31,6 +31,17 @@ faqs:
 The **Basilica of the Annunciation** is the largest Christian church in the Middle East and the architectural anchor of Nazareth — the modern Catholic Franciscan basilica completed in **1969** by Italian architect **Antonio Barluzzi** over the visible ruins of an earlier 4th-century Byzantine basilica and a 12th-century Crusader church. The site is held in **Catholic Franciscan custody** by the **Franciscan Custody of the Holy Land**, which has held custodianship of the Annunciation site continuously since 1620.
 
 The basilica is the Latin Catholic tradition's enshrinement of the **Annunciation** — the Gospel account (Luke 1:26-38) of the angel Gabriel announcing to Mary that she would conceive the Christ. The Catholic tradition places the Annunciation at Mary's home, the site preserved within the modern basilica's lower-level grotto chapel. A separate **Greek Orthodox tradition** places the Annunciation at Mary's Well a short walk north — both traditions are visited respectfully by Christian pilgrims of every denomination, and standard pilgrim itineraries visit both sites in a single morning.
+
+## Need to know
+
+| | |
+|---|---|
+| **Cost** | Free admission; donations welcomed toward upkeep. |
+| **Hours** | Generally Mon–Sat 08:00–18:00; Sun 14:00–17:00 (Sunday morning reserved for Latin liturgy). Closes earlier on major Catholic feast days. |
+| **Time needed** | 1–1.5 hours for both levels; add 30 min for the Franciscan courtyard, museum and Church of St. Joseph. |
+| **Getting there** | Central Nazareth, ~10 min walk north of Mary's Well; the Old City souq begins at the southern forecourt. Paid public parking on the southern edge of the Old City. |
+| **Best time** | Outside the Christmas and Easter peaks, and outside the 18:30 daily Mass and Sunday liturgy, for a quieter visit. |
+| **Accessibility** | Active worship site — **shoulders and knees must be covered** for everyone; shawls available at the entrance. Two levels connected by stairs. |
 
 ## What is the Basilica of the Annunciation?
 

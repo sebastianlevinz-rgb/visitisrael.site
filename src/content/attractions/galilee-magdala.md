@@ -15,7 +15,7 @@ secondaryKeywords:
 latitude: 32.8228
 longitude: 35.5189
 publishedAt: 2026-05-11
-updatedAt: 2026-05-11
+updatedAt: 2026-06-17
 faqs:
   - question: How much time should I spend at Magdala?
     answer: One and a half to two hours covers the archaeological dig (1st-century synagogue, residential quarter, fish-salting facilities) and the modern Duc in Altum spiritual centre with its boat-shaped chapel. Most travellers pair Magdala with Capernaum and Mount of Beatitudes in a single Sea of Galilee morning.
@@ -30,6 +30,17 @@ faqs:
 **Magdala** — known in Hebrew as **Migdal** — is the recently excavated archaeological site on the western shore of the Sea of Galilee, between Tiberias and Capernaum, that the Gospels identify as the **hometown of Mary Magdalene**. The site is unusual in the Galilee pilgrim circuit: it is an **active archaeological dig** rather than an established devotional site, and the focus is on the **1st-century town** that Mary Magdalene would have known rather than on a later-period church or shrine.
 
 The dig was begun in 2009 by the **Legionaries of Christ** order during construction work for a pilgrim retreat centre. The first trenches almost immediately exposed a 1st-century synagogue and a substantial portion of the residential and commercial quarter of the town. Work continues to the present day, and the open-air archaeological park is open to visitors alongside the modern spiritual centre.
+
+## Need to know
+
+| | |
+|---|---|
+| **Cost** | Modest combined entrance fee (~₪15 / ~$4) covering the dig and the Duc in Altum chapel. Check the official site for current prices. |
+| **Hours** | Daily, generally 08:00–18:00 (shorter winter hours). |
+| **Time needed** | 1.5–2 hours for the dig plus the Duc in Altum centre. |
+| **Getting there** | On Route 90, western shore, ~8 km north of central Tiberias (~10 min by car). Paid car park at the entrance. |
+| **Best time** | Earlier in the day for cooler temperatures; the archaeological dig is largely open-air with limited shade. |
+| **Accessibility** | Main paths are wheelchair-accessible; some side trenches are stairs-only. **Modest dress** recommended for the chapel. |
 
 ## What is Magdala?
 

@@ -16,7 +16,7 @@ secondaryKeywords:
 latitude: 32.5024
 longitude: 34.8898
 publishedAt: 2026-05-11
-updatedAt: 2026-05-11
+updatedAt: 2026-06-17
 faqs:
   - question: What is the Caesarea Maritima Harbour?
     answer: The Caesarea Maritima Harbour was the artificial deep-water port built by Herod the Great between 22 and 10 BCE. Called Sebastos in antiquity (Latin for "Augustus"), it was the largest harbour in the eastern Mediterranean for several centuries and the export point for grain shipments to Rome.
@@ -33,6 +33,17 @@ faqs:
 The **Caesarea Maritima Harbour** — known in antiquity as **Sebastos** — is the archaeological remains of the first artificial deep-water port in the ancient world. Built by Herod the Great between 22 and 10 BCE using Roman hydraulic-concrete technology, the harbour was the largest in the eastern Mediterranean for several centuries and the engineering marvel of its age. Today, most of the harbour structures are partially submerged in 1 to 4 metres of water — visible from the harbour promontory, walkable on the surface remains, and snorkel-accessible in summer through the underwater archaeology park.
 
 This guide covers the engineering achievement of the Sebastos harbour, the visible surface ruins and the underwater archaeology park, the Time Trek multimedia experience inside the Crusader walls, and how the harbour fits within the broader Caesarea National Park ticket.
+
+## Need to know
+
+| | |
+|---|---|
+| **Cost** | No separate gate — included in the **Caesarea National Park** combined ticket (~₪50 / ~$14 adult with Time Trek). Snorkel tour booked and paid separately at the visitor centre. Check the official site for current prices. |
+| **Hours** | Same as the National Park: daily, typically ~08:00–17:00 winter / ~08:00–18:00 summer. The underwater snorkel park runs only in summer/early autumn when sea conditions allow. |
+| **Time needed** | ~1 hour for the surface remains and Time Trek; add ~90 min for the guided snorkel. |
+| **Getting there** | Inside Caesarea National Park (Hwy 2, Caesarea junction). ~45 min from Tel Aviv, ~30 min from Haifa. |
+| **Best time** | Late morning for the underwater park (sun in the water column); sunset for the Crusader gatehouse silhouette. |
+| **Accessibility** | Open-air promontory paths over historic and uneven surfaces; the snorkel park requires swimming. Consult the INPA accessibility guide. |
 
 ## What is the Caesarea Maritima Harbour?
 

@@ -16,7 +16,7 @@ secondaryKeywords:
 latitude: 32.821
 longitude: 34.992
 publishedAt: 2026-05-11
-updatedAt: 2026-05-11
+updatedAt: 2026-06-17
 faqs:
   - question: Who were the Templers and what did they build in Haifa?
     answer: The Templers (Tempelgesellschaft, German Protestant settlers — not the medieval Templar Knights) arrived in Haifa in 1869 to build a model agricultural and craft community ahead of the expected Second Coming. They built stone houses with pitched red-tile roofs along a wide central avenue (now Ben-Gurion Avenue), with biblical verses carved in German into the lintels (many still visible today). The community was expelled during the Second World War and the houses were restored from the 1990s onward as a heritage quarter and Bahá’í Gardens gateway.
@@ -33,6 +33,17 @@ faqs:
 The **German Colony** at the foot of Ben-Gurion Avenue is the **19th-century Templer settlement** that became, over the past 25 years, the heritage-and-dining quarter of Haifa and the natural gateway to the Bahá’í Gardens. The colony was founded in 1869 by the **Templers** (Tempelgesellschaft) — a German Protestant religious community, distinct from the medieval Templar Knights — who came to the Holy Land to build a model agricultural and craft community in preparation for the expected Second Coming.
 
 The original Templer settlement consisted of stone houses with **pitched red-tile roofs** along a wide central avenue (now **Ben-Gurion Avenue**), with biblical verses carved in German into the lintels above doorways. Many of these inscriptions are still visible today, restored as part of the heritage restoration of the colony from the 1990s onward. The visual axis up Ben-Gurion Avenue — Templer houses on both sides, the rising terraces of the Bahá’í Gardens framed at the top, the golden dome of the Shrine of the Báb at the centre — is the architectural set-piece of the German Colony and among the most-photographed views in Haifa.
+
+## Need to know
+
+| | |
+|---|---|
+| **Cost** | **Free** — a public neighbourhood with no admission gates. You only pay for food and drink at the brasseries. |
+| **Hours** | The avenue is open 24 hours. Brasseries open daytime and evening; some Jewish-owned places reduce hours Friday afternoon through Saturday, while Arab-Christian-run restaurants typically stay open. |
+| **Time needed** | ~30 min for the architectural walk, plus a brasserie meal. |
+| **Getting there** | Lower entrance at Paris Square (Carmelit funicular terminus); walk up Ben-Gurion Avenue ~10–12 min to the lower-terrace Bahá’í Gardens entrance. |
+| **Best time** | **Late afternoon / evening** — long shadows on the avenue and the illuminated Shrine dome above after dark. |
+| **Accessibility** | Paved sidewalks and a gently rising avenue — largely accessible. |
 
 ## What is the German Colony?
 

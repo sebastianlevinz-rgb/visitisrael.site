@@ -16,7 +16,7 @@ secondaryKeywords:
 latitude: 32.881
 longitude: 35.55
 publishedAt: 2026-05-11
-updatedAt: 2026-05-11
+updatedAt: 2026-06-17
 faqs:
   - question: How long does a Mount of Beatitudes visit take?
     answer: One hour covers the octagonal church and the garden terraces with the Sea of Galilee panorama. Most pilgrim groups schedule an extra 20 to 30 minutes for outdoor prayer or quiet reflection in the gardens. Combined visits with Capernaum and Tabgha add up to a comfortable half-day morning from Tiberias.
@@ -31,6 +31,17 @@ faqs:
 The **Mount of Beatitudes** is the gentle hill above the northern shore of the Sea of Galilee that Catholic and Christian tradition identifies with Jesus's delivery of the **Sermon on the Mount** (Matthew 5–7). The summit holds the distinctive **octagonal Catholic church** built in 1938 by Italian architect Antonio Barluzzi, surrounded by terraced gardens that look directly across the lake to the Golan Heights — among the most photographed Christian-pilgrimage panoramas in Israel.
 
 The site is administered by the **Franciscan Custody of the Holy Land**. It is one of the three anchor stops on the northern-shore pilgrim circuit (alongside Capernaum and Tabgha) and is widely used by Christian groups of every tradition — Catholic, Greek Orthodox, Protestant, Evangelical — for outdoor liturgy and quiet meditation in the surrounding gardens.
+
+## Need to know
+
+| | |
+|---|---|
+| **Cost** | Entry is free; a small parking fee applies at the site car park. Donations welcomed. |
+| **Hours** | Church and gardens daily, generally 08:00–17:00. |
+| **Time needed** | ~1 hour for the church and garden terraces; add 20–30 min for prayer or reflection. |
+| **Getting there** | Short uphill road off Route 90 just north of Tabgha, ~20 min by car from central Tiberias. Paid car park at the entrance. |
+| **Best time** | Early morning or after 15:30 is quietest; mid-morning (09:30–11:30) brings the most tour buses. Late-afternoon light is best for photos. |
+| **Accessibility** | Active worship site — **shoulders and knees must be covered**; cover-ups sometimes available but come prepared. Gardens are terraced with paths and some steps. |
 
 ## What is the Mount of Beatitudes?
 

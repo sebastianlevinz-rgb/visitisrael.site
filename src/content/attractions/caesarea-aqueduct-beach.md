@@ -16,7 +16,7 @@ secondaryKeywords:
 latitude: 32.5097
 longitude: 34.8881
 publishedAt: 2026-05-11
-updatedAt: 2026-05-11
+updatedAt: 2026-06-17
 faqs:
   - question: Where is Caesarea Aqueduct Beach?
     answer: Aqueduct Beach is on the Mediterranean coast about 10 minutes north of the Caesarea National Park entrance, off Highway 2. Look for the signed turn-off to "Caesarea Aqueduct Beach" — the parking area sits directly behind the aqueduct, with the beach beyond. Free parking; no entrance fee.
@@ -33,6 +33,17 @@ faqs:
 **Aqueduct Beach** is the 1 km stretch of open Mediterranean coastline directly beneath the surviving arches of the **Roman aqueduct** built around 130 CE under the emperor Hadrian. The aqueduct carried fresh water from springs at Mount Carmel 10 km north to supply Caesarea Maritima with drinking water — a typical Roman provincial-capital engineering project. The arches that survive (and are partially restored) march directly into the Mediterranean surf, creating one of the most photographed beach scenes on the Israeli coast.
 
 This guide covers the aqueduct's engineering history, the swimming logistics, the photography window, and how Aqueduct Beach pairs with the Caesarea National Park visit.
+
+## Need to know
+
+| | |
+|---|---|
+| **Cost** | **Free** — no entrance fee, free parking, no gate. Seasonal sun-lounger and kiosk rentals only. |
+| **Hours** | Open 24/7 (no gate). Kiosks and loungers operate seasonally (~May–Oct, daylight). Lifeguard service is seasonal, typically summer weekends (Fri–Sat). |
+| **Time needed** | ~30 min for the aqueduct walk and photos; a half-day if swimming and picnicking. |
+| **Getting there** | ~10 min north of the Caesarea National Park entrance off Hwy 2; signed turn-off to "Caesarea Aqueduct Beach", parking behind the aqueduct. ~55 min from Tel Aviv. |
+| **Best time** | **Sunset** — the west-facing arches frame the Mediterranean at golden hour. Swimming best May–Oct. |
+| **Accessibility** | Open sandy beach with no shade; soft sand and gentle slope. No formal step-free beach access. |
 
 ## What is Aqueduct Beach?
 
