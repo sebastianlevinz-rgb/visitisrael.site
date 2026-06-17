@@ -29,19 +29,27 @@ const h =
   height === 'tall'
     ? 'h-[78vh] min-h-[520px] max-h-[820px]'
     : 'h-[52vh] min-h-[380px]';
+// Modern formats are pre-generated as siblings (scripts/photos/gen-avif-webp.mjs).
+const avif = image.replace(/\.jpe?g$/i, '.avif');
+const webp = image.replace(/\.jpe?g$/i, '.webp');
+const hasModern = /\.jpe?g$/i.test(image);
 ---
 
 <section class={`relative ${h} w-full overflow-hidden`}>
-  <img
-    src={image}
-    alt={alt}
-    width="1600"
-    height="1000"
-    class={`absolute inset-0 h-full w-full object-cover ${kenburns ? 'hero-kenburns' : ''}`}
-    loading={eager ? 'eager' : 'lazy'}
-    fetchpriority={eager ? 'high' : 'auto'}
-    decoding="async"
-  />
+  <picture>
+    {hasModern && <source srcset={avif} type="image/avif" />}
+    {hasModern && <source srcset={webp} type="image/webp" />}
+    <img
+      src={image}
+      alt={alt}
+      width="1600"
+      height="1000"
+      class={`absolute inset-0 h-full w-full object-cover ${kenburns ? 'hero-kenburns' : ''}`}
+      loading={eager ? 'eager' : 'lazy'}
+      fetchpriority={eager ? 'high' : 'auto'}
+      decoding="async"
+    />
+  </picture>
   <div class="photo-overlay absolute inset-0"></div>
   <div class="absolute inset-x-0 bottom-0 mx-auto max-w-6xl px-4 pb-12 sm:pb-16">
     <h1

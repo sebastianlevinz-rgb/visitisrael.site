@@ -6,21 +6,28 @@ export interface Props {
   eager?: boolean;
 }
 const { region, eager = false } = Astro.props;
+const avif = region.hero.replace(/\.jpe?g$/i, '.avif');
+const webp = region.hero.replace(/\.jpe?g$/i, '.webp');
+const hasModern = /\.jpe?g$/i.test(region.hero);
 ---
 
 <a
   href={`/${region.slug}`}
   class="group relative block aspect-[4/5] overflow-hidden rounded-card shadow-card transition-shadow duration-300 hover:shadow-card-hover sm:aspect-[3/4]"
 >
-  <img
-    src={region.hero}
-    alt={`${region.name}, Israel — ${region.tagline}`}
-    width="1600"
-    height="1000"
-    class="absolute inset-0 h-full w-full object-cover transition-transform duration-500 group-hover:scale-105"
-    loading={eager ? 'eager' : 'lazy'}
-    decoding="async"
-  />
+  <picture>
+    {hasModern && <source srcset={avif} type="image/avif" />}
+    {hasModern && <source srcset={webp} type="image/webp" />}
+    <img
+      src={region.hero}
+      alt={`${region.name}, Israel — ${region.tagline}`}
+      width="1600"
+      height="1000"
+      class="absolute inset-0 h-full w-full object-cover transition-transform duration-500 group-hover:scale-105"
+      loading={eager ? 'eager' : 'lazy'}
+      decoding="async"
+    />
+  </picture>
   <div class="photo-overlay absolute inset-0"></div>
   <div class="absolute inset-x-0 bottom-0 p-5">
     <p
