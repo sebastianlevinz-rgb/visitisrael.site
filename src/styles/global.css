@@ -89,6 +89,12 @@
   a {
     color: var(--color-primary);
   }
+  /* Body-text links must be distinguishable without colour (WCAG): underline
+     any link inside a paragraph unless it opts out (UI links use .no-underline). */
+  p a:not(.no-underline) {
+    text-decoration: underline;
+    text-underline-offset: 2px;
+  }
   :focus-visible {
     outline: 3px solid var(--color-primary);
     outline-offset: 2px;

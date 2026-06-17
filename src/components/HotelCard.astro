@@ -18,7 +18,7 @@ const tierLabel = { luxury: 'Luxury', value: 'Best value', hostel: 'Hostel' }[ho
     <span
       class:list={[
         'rounded-full px-2.5 py-0.5 text-xs font-semibold',
-        hotel.tier === 'luxury' && 'bg-gold/15 text-gold-deep',
+        hotel.tier === 'luxury' && 'bg-gold/20 text-[#6b5520]',
         hotel.tier === 'value' && 'bg-primary-soft text-primary',
         hotel.tier === 'hostel' && 'bg-sand-deep text-ink-muted',
       ]}>{tierLabel}</span

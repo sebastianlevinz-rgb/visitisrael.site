@@ -92,14 +92,17 @@ const schema = [breadcrumbList(crumbs), faqPage(faqs)];
             catalog.map((r) => (
               <div>
                 <div class="mb-2 flex items-center justify-between gap-3">
-                  <h3 class="font-display text-xl font-bold text-ink">
-                    <a href={`/${r.slug}`} class="no-underline hover:text-primary">
-                      {r.name}
-                    </a>
-                    <span class="ml-2 align-middle text-sm font-normal text-ink-muted">
-                      {r.tagline}
-                    </span>
-                  </h3>
+                  <div>
+                    <h3 class="font-display text-xl font-bold text-ink">
+                      <a
+                        href={`/${r.slug}`}
+                        class="no-underline hover:text-primary"
+                      >
+                        {r.name}
+                      </a>
+                    </h3>
+                    <p class="text-sm text-ink-muted">{r.tagline}</p>
+                  </div>
                   <button
                     type="button"
                     class="trip-add-region btn btn-ghost shrink-0"
