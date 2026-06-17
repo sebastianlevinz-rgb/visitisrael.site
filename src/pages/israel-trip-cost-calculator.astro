@@ -260,6 +260,28 @@ const schema = [breadcrumbList(crumbs), faqPage(faqs)];
     var money = function (n) {
       return '$' + Math.round(n).toLocaleString('en-US');
     };
+    var reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+    var prevTotal = 0;
+    function animateTotal(el, to) {
+      if (reduce) {
+        el.textContent = money(to);
+        prevTotal = to;
+        return;
+      }
+      var from = prevTotal;
+      prevTotal = to;
+      var start = null;
+      var dur = 450;
+      if (el._raf) cancelAnimationFrame(el._raf);
+      function step(ts) {
+        if (start === null) start = ts;
+        var p = Math.min(1, (ts - start) / dur);
+        var eased = 0.5 - Math.cos(p * Math.PI) / 2; // easeInOut
+        el.textContent = money(from + (to - from) * eased);
+        if (p < 1) el._raf = requestAnimationFrame(step);
+      }
+      el._raf = requestAnimationFrame(step);
+    }
 
     function style() {
       var el = document.querySelector('input[name="style"]:checked');
@@ -290,7 +312,7 @@ const schema = [breadcrumbList(crumbs), faqPage(faqs)];
 
       var total = rows.reduce(function (a, r) { return a + r[1]; }, 0);
 
-      $('total').textContent = money(total);
+      animateTotal($('total'), total);
       $('total-ils').textContent = '≈ ₪' + Math.round(total * RATE).toLocaleString('en-US');
       var perPerson = total / pax;
       $('perperson').textContent =
