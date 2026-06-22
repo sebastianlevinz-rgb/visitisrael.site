@@ -53,6 +53,17 @@ test('RSS feed is valid XML with items', async ({ request }) => {
   expect(body).toContain('Visit Israel');
 });
 
+test('sitemap carries <lastmod> dates from content updatedAt', async ({ request }) => {
+  const res = await request.get('/sitemap-0.xml');
+  expect(res.status()).toBe(200);
+  const body = await res.text();
+  // Most content pages (guides, regions, attractions, itineraries, legal) emit one.
+  const count = (body.match(/<lastmod>/g) || []).length;
+  expect(count).toBeGreaterThan(50);
+  // A known guide URL is followed by an ISO lastmod (value not pinned — content drifts).
+  expect(body).toMatch(/\/tel-aviv-to-jerusalem\/<\/loc><lastmod>\d{4}-\d{2}-\d{2}T/);
+});
+
 test('homepage exposes branded OG image + RSS link', async ({ page }) => {
   await page.goto('/');
   await expect(page.locator('meta[property="og:image"]')).toHaveAttribute(
