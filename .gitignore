@@ -85,3 +85,6 @@ data/a11y-il-results.json
 test-results/
 playwright-report/
 .playwright/
+
+# Autonomous loop operational state (local only)
+.loop/
