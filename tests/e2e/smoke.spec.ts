@@ -9,6 +9,7 @@ const ROUTES = [
   '/first-time-in-israel',
   '/israeli-food-cuisine-guide',
   '/best-holy-land-tours',
+  '/visa-information',
   '/plan-your-trip',
   '/build-your-trip',
   '/israel-map',
