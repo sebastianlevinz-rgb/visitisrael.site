@@ -1,0 +1,369 @@
+---
+/**
+ * High-intent "X to Y" transport comparison pages.
+ *
+ * One template, generated for popular intercity routes that travellers search
+ * ("Jerusalem to Dead Sea", "Tel Aviv to Eilat"...). Each page is an honest
+ * mode-by-mode comparison table (duration / typical cost / frequency / Shabbat)
+ * with a recommendation, FAQ + Article + Breadcrumb JSON-LD and dense internal
+ * links. Costs are presented as approximate ranges — never exact prices — and
+ * link out to live schedules; nothing here is fabricated.
+ *
+ * Namespaced under /transport/ to avoid colliding with the root [...slug]
+ * catch-all that serves guide + legal content.
+ */
+import BaseLayout from '@/layouts/BaseLayout.astro';
+import Hero from '@/components/Hero.astro';
+import Breadcrumbs from '@/components/Breadcrumbs.astro';
+import AuthorByline from '@/components/AuthorByline.astro';
+import InlineTourCTA from '@/components/InlineTourCTA.astro';
+import FaqSection from '@/components/FaqSection.astro';
+import JsonLd from '@/components/JsonLd.astro';
+import { getRegion } from '@/data/regions';
+import { defaultAuthor } from '@/data/authors';
+import { article, breadcrumbList, type Faq } from '@/lib/schema';
+import type { Partner } from '@/config/affiliates';
+
+interface Row {
+  option: string;
+  duration: string;
+  cost: string;
+  frequency: string;
+  shabbat: string;
+}
+interface RouteGuide {
+  /** Region slugs used for the hero image and "region guide" links. */
+  fromSlug: string;
+  toSlug: string;
+  /** Display names (the region slug's name is used if omitted). */
+  fromName?: string;
+  toName?: string;
+  /** Hero image override (defaults to the destination region hero). */
+  heroSlug?: string;
+  title: string;
+  description: string;
+  intro: string;
+  rows: Row[];
+  best: string[];
+  note: string;
+  cta?: { partner: Partner; text: string; query: string; cta: string };
+  faqs: Faq[];
+  related: { href: string; label: string }[];
+}
+
+const ROUTES: Record<string, RouteGuide> = {
+  'jerusalem-to-dead-sea': {
+    fromSlug: 'jerusalem',
+    toSlug: 'dead-sea',
+    title: 'Jerusalem to the Dead Sea: Bus, Tour, Taxi & Car Compared',
+    description:
+      'How to get from Jerusalem to the Dead Sea (Ein Bokek & Ein Gedi): intercity bus, organised day tour, private taxi and rental car compared — duration, cost, frequency and what runs on Shabbat.',
+    intro:
+      'The Dead Sea is the most popular day trip from Jerusalem — about 1.5 hours by road, with no train and no traffic once you drop toward the Rift Valley. How you go depends on whether you want a guided Masada-and-float day, an independent overnight at the Ein Bokek spa hotels, or the freedom of your own car. Here is the honest comparison.',
+    rows: [
+      { option: 'Organised day tour', duration: 'Full day', cost: 'Varies (incl. transport)', frequency: 'Most days', shabbat: 'Often runs' },
+      { option: 'Intercity bus', duration: '1h45–2h15', cost: '₪37–47 (~$10–13)', frequency: 'A few daily', shabbat: 'No' },
+      { option: 'Private taxi / transfer', duration: '1h15–1h30', cost: '₪400–550 (~$108–150)', frequency: 'On demand', shabbat: 'Yes' },
+      { option: 'Rental car (drive)', duration: '~1h30', cost: 'Fuel + rental', frequency: 'Anytime', shabbat: 'Yes' },
+    ],
+    best: [
+      '**Most first-time visitors:** an **organised day tour** — it bundles Masada, the Ein Gedi reserve and a float, and handles the pre-dawn start.',
+      '**Staying overnight at Ein Bokek:** the **Egged 486 bus** runs straight to the hotel strip; a **rental car** wins if you want to add Masada at sunrise.',
+      "**A group of 3–4 or travelling on Shabbat:** a **private taxi** door-to-door can rival the bus once you split it, and it isn't grounded by Shabbat.",
+    ],
+    note: 'Buses such as **Egged 486** (to the Ein Bokek hotels) and **444 / 421** (toward Ein Gedi and the northern shore) leave from Jerusalem Central Bus Station. Public fares use a **Rav-Kav** card; times and frequencies vary by season — check live schedules before you travel.',
+    cta: { partner: 'getyourguide', text: 'Short on time? A guided Masada, Ein Gedi & Dead Sea day trip handles the early start and the logistics.', query: 'Masada Ein Gedi Dead Sea tour from Jerusalem', cta: 'Browse day trips' },
+    faqs: [
+      {
+        question: 'How do you get from Jerusalem to the Dead Sea without a car?',
+        answer:
+          'Take an intercity Egged bus (such as the 486 to the Ein Bokek hotels, about 1h45–2h15) from Jerusalem Central Bus Station, or join an organised day tour that includes transport, Masada and Ein Gedi. A private taxi is the fastest door-to-door option but the priciest.',
+      },
+      {
+        question: 'How long does it take to drive from Jerusalem to the Dead Sea?',
+        answer:
+          'About 75–90 minutes. You descend on Route 1 then Route 90 along the shore — Ein Gedi is roughly 90 minutes, the Ein Bokek hotel strip a little further south.',
+      },
+      {
+        question: 'Is there a bus from Jerusalem to the Dead Sea on Shabbat?',
+        answer:
+          'No. Intercity buses stop from Friday afternoon to Saturday night. On Shabbat you would need a private taxi, a rental car, or a tour that runs that day.',
+      },
+      {
+        question: 'Should I do the Dead Sea as a day trip or stay overnight?',
+        answer:
+          'A day trip from Jerusalem is easy and popular. Stay overnight at Ein Bokek if you want a Masada sunrise, more spa time, or a slower pace away from the tour-bus crowds.',
+      },
+    ],
+    related: [
+      { href: '/masada-dead-sea-day-trip', label: 'Masada & Dead Sea day trip' },
+      { href: '/where-to-stay/dead-sea', label: 'Where to stay at the Dead Sea' },
+      { href: '/dead-sea', label: 'Dead Sea region guide' },
+      { href: '/day-trips-from-jerusalem', label: 'Day trips from Jerusalem' },
+    ],
+  },
+  'tel-aviv-to-haifa': {
+    fromSlug: 'tel-aviv',
+    toSlug: 'haifa',
+    title: 'Tel Aviv to Haifa: Train vs Bus vs Car Compared',
+    description:
+      'The fastest, cheapest ways from Tel Aviv to Haifa: the coastal train, intercity bus and driving compared — duration, cost, frequency and what runs on Shabbat.',
+    intro:
+      'Tel Aviv to Haifa is one of the easiest hops in Israel — about 90 km up the coast — and the train makes it almost effortless. Here is how the train, bus and a rental car stack up, and when each one makes sense.',
+    rows: [
+      { option: 'Train (Israel Railways)', duration: '57 min–1h05', cost: '₪27–35 (~$7.50–10)', frequency: 'Every 20–30 min', shabbat: 'No' },
+      { option: 'Intercity bus', duration: '1h30–2h', cost: '₪27–35 (~$7.50–10)', frequency: 'Frequent', shabbat: 'No' },
+      { option: 'Rental car (drive)', duration: '~1h', cost: 'Fuel + rental', frequency: 'Anytime', shabbat: 'Yes' },
+      { option: 'Private taxi', duration: '~1h', cost: '₪350–450 (~$95–122)', frequency: 'On demand', shabbat: 'Yes' },
+    ],
+    best: [
+      '**Almost everyone:** the **train** — it runs from all four Tel Aviv city stations to Haifa in about an hour, frequent and immune to coastal-road traffic.',
+      '**On a tight budget or near a bus terminal:** the **intercity bus** costs about the same but is slower in traffic.',
+      '**Exploring the coast (Caesarea, Akko) en route or travelling on Shabbat:** a **rental car** or a **taxi**, since trains and buses pause for Shabbat.',
+    ],
+    note: 'Trains leave from any of Tel Aviv’s four stations (HaHagana, HaShalom, Savidor Central, University) and arrive at Haifa’s central stations. Public fares use a **Rav-Kav** card; check live times before you travel.',
+    cta: { partner: 'getyourguide', text: 'Make a day of it: guided tours pair Haifa’s Bahá’í Gardens with Caesarea and Akko along the coast.', query: 'Caesarea Haifa Akko day tour', cta: 'Browse tours' },
+    faqs: [
+      {
+        question: 'What is the best way to get from Tel Aviv to Haifa?',
+        answer:
+          'The train. Israel Railways runs the coastal line from all four Tel Aviv stations to Haifa in about an hour, every 20–30 minutes, for roughly ₪27–35. It is faster and more reliable than the bus.',
+      },
+      {
+        question: 'How long is the train from Tel Aviv to Haifa?',
+        answer:
+          'About 57 minutes to 1 hour 5 minutes depending on the service, with express trains at the quicker end. Trains run every 20–30 minutes through the day.',
+      },
+      {
+        question: 'Does the Tel Aviv to Haifa train run on Shabbat?',
+        answer:
+          'No. The train and intercity buses stop from Friday afternoon to Saturday night. On Shabbat, use a rental car, a private taxi or a ride app.',
+      },
+    ],
+    related: [
+      { href: '/haifa', label: 'Haifa region guide' },
+      { href: '/caesarea', label: 'Caesarea region guide' },
+      { href: '/akko', label: 'Akko (Acre) region guide' },
+      { href: '/transportation', label: 'Getting around Israel' },
+    ],
+  },
+  'tel-aviv-to-eilat': {
+    fromSlug: 'tel-aviv',
+    toSlug: 'eilat',
+    title: 'Tel Aviv to Eilat: Flight vs Bus vs Driving Compared',
+    description:
+      'How to get from Tel Aviv to Eilat: the quick domestic flight, the long-haul intercity bus and the desert drive compared — duration, cost, frequency and what runs on Shabbat.',
+    intro:
+      'Eilat sits about 340 km south, at the very tip of Israel on the Red Sea, so getting there is a real journey rather than a hop. There is no train — your choice is a quick flight, a long but cheap bus, or a scenic desert drive. Here is how they compare.',
+    rows: [
+      { option: 'Domestic flight', duration: '~50 min in the air', cost: 'Varies by season', frequency: 'Several daily', shabbat: 'Limited' },
+      { option: 'Intercity bus', duration: '~5h', cost: '₪70 (~$19)', frequency: 'Roughly hourly', shabbat: 'No' },
+      { option: 'Rental car (drive)', duration: '4h–4h30', cost: 'Fuel + rental', frequency: 'Anytime', shabbat: 'Yes' },
+    ],
+    best: [
+      '**Short on time:** **fly**. Flights from Ben Gurion to Eilat (Ramon) take under an hour in the air; book ahead for the best fares.',
+      '**On a budget:** the **Egged 390/394 bus** is the cheapest way south at a capped intercity fare — book a seat ahead in peak season.',
+      '**Want the desert scenery and stops:** **drive**. The route through the Negev (or down the Arava via the Dead Sea) is a highlight in itself.',
+    ],
+    note: 'Eilat is served by flights into **Ramon Airport (ETM)**, about 18 km north of the city. Buses leave from Tel Aviv’s Arlozorov and Central terminals. Public fares use a **Rav-Kav** card; check live flight and bus schedules before booking.',
+    cta: { partner: 'getyourguide', text: 'Coming for the Red Sea? Browse Eilat diving, snorkelling and desert excursions.', query: 'Eilat diving desert tours', cta: 'See Eilat tours' },
+    faqs: [
+      {
+        question: 'What is the fastest way from Tel Aviv to Eilat?',
+        answer:
+          'Flying. A domestic flight from Ben Gurion Airport to Eilat’s Ramon Airport takes under an hour in the air, versus about five hours by bus or four to four-and-a-half hours driving.',
+      },
+      {
+        question: 'Is there a train from Tel Aviv to Eilat?',
+        answer:
+          'No. There is no rail line to Eilat. Your options are a domestic flight, the intercity bus (about 5 hours) or driving (about 4 to 4.5 hours).',
+      },
+      {
+        question: 'How much is the bus from Tel Aviv to Eilat?',
+        answer:
+          'Around ₪70 one way (about $19) at the capped intercity fare, paid with a Rav-Kav card. The Egged 390 and 394 buses run roughly hourly; reserve a seat ahead in busy periods.',
+      },
+      {
+        question: 'How long is the drive from Tel Aviv to Eilat?',
+        answer:
+          'About 4 to 4.5 hours for the roughly 340 km, either via the Negev (Route 6 then 40 past Beersheba) or down the Arava on Route 90 along the Dead Sea. Carry water and fuel up before the long desert stretches.',
+      },
+    ],
+    related: [
+      { href: '/eilat', label: 'Eilat region guide' },
+      { href: '/eilat-diving-snorkeling', label: 'Eilat diving & snorkelling' },
+      { href: '/car-rental-israel', label: 'Car rental in Israel' },
+      { href: '/petra-from-israel', label: 'Petra from Eilat' },
+    ],
+  },
+  'tel-aviv-to-dead-sea': {
+    fromSlug: 'tel-aviv',
+    toSlug: 'dead-sea',
+    title: 'Tel Aviv to the Dead Sea: Bus, Tour, Taxi & Car Compared',
+    description:
+      'How to get from Tel Aviv to the Dead Sea: intercity bus to Ein Bokek, organised day tour, private taxi and rental car compared — duration, cost, frequency and what runs on Shabbat.',
+    intro:
+      'The Dead Sea is about two hours from Tel Aviv by road — a bit further than from Jerusalem, with no train and no direct light option, so most visitors come on a guided day trip or drive. Here is how the realistic options compare.',
+    rows: [
+      { option: 'Organised day tour', duration: 'Full day', cost: 'Varies (incl. transport)', frequency: 'Most days', shabbat: 'Often runs' },
+      { option: 'Intercity bus', duration: '2h–2h30', cost: '₪44–55 (~$12–15)', frequency: 'A few daily', shabbat: 'No' },
+      { option: 'Private taxi / transfer', duration: '~2h', cost: '₪550–700 (~$150–190)', frequency: 'On demand', shabbat: 'Yes' },
+      { option: 'Rental car (drive)', duration: '~2h', cost: 'Fuel + rental', frequency: 'Anytime', shabbat: 'Yes' },
+    ],
+    best: [
+      '**Most visitors:** an **organised day tour** — the simplest way to combine Masada, Ein Gedi and a float without a 4am wake-up to self-drive.',
+      '**Staying overnight at Ein Bokek:** the **Egged 421 bus** runs to the hotel strip; a **rental car** adds the freedom to stop at Masada or the Arad lookout.',
+      '**Travelling on Shabbat:** a **private taxi**, **rental car** or a tour that runs that day, since intercity buses pause.',
+    ],
+    note: 'The **Egged 421** bus links Tel Aviv with the Ein Bokek hotels; other services route via Jerusalem or Beersheba. Public fares use a **Rav-Kav** card; times vary by season — check live schedules before you travel.',
+    cta: { partner: 'getyourguide', text: 'The easiest way from Tel Aviv: a guided Masada & Dead Sea day trip with hotel pick-up.', query: 'Masada Dead Sea day trip from Tel Aviv', cta: 'Browse day trips' },
+    faqs: [
+      {
+        question: 'How do you get from Tel Aviv to the Dead Sea?',
+        answer:
+          'Most people take an organised day tour (the simplest, combining Masada, Ein Gedi and a float) or drive — about two hours each way. The Egged 421 bus reaches the Ein Bokek hotels for independent travellers; a private taxi is fastest door-to-door but costly.',
+      },
+      {
+        question: 'How far is the Dead Sea from Tel Aviv?',
+        answer:
+          'Roughly 150–180 km depending on the route, about a two-hour drive via Jerusalem or via Beersheba to the Ein Bokek hotel strip on the southern shore.',
+      },
+      {
+        question: 'Is a Dead Sea day trip from Tel Aviv worth it?',
+        answer:
+          'Yes — it is a long but rewarding day. A guided tour makes it painless by handling the early start and the driving, and usually pairs the float with Masada and the Ein Gedi oasis.',
+      },
+    ],
+    related: [
+      { href: '/masada-dead-sea-day-trip', label: 'Masada & Dead Sea day trip' },
+      { href: '/where-to-stay/dead-sea', label: 'Where to stay at the Dead Sea' },
+      { href: '/dead-sea', label: 'Dead Sea region guide' },
+      { href: '/day-trips-from-tel-aviv', label: 'Day trips from Tel Aviv' },
+    ],
+  },
+};
+
+export function getStaticPaths() {
+  // Must match the ROUTES keys above (getStaticPaths is hoisted out of scope).
+  return [
+    'jerusalem-to-dead-sea',
+    'tel-aviv-to-haifa',
+    'tel-aviv-to-eilat',
+    'tel-aviv-to-dead-sea',
+  ].map((route) => ({ params: { route } }));
+}
+
+const { route } = Astro.params;
+const guide = ROUTES[route as string]!;
+const fromName = guide.fromName ?? getRegion(guide.fromSlug)?.name ?? guide.fromSlug;
+const toName = guide.toName ?? getRegion(guide.toSlug)?.name ?? guide.toSlug;
+const heroRegion = getRegion(guide.heroSlug ?? guide.toSlug);
+const hero = heroRegion?.hero ?? `/images/regions/${guide.toSlug}/hero.jpg`;
+const path = `/transport/${route}`;
+const heading = `${fromName} to ${toName}`;
+
+// The note/recommendation strings carry **markdown bold**; convert to <strong>
+// since they're injected via set:html (which renders HTML, not markdown).
+const md = (s: string) => s.replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>');
+
+const crumbs = [
+  { name: 'Home', path: '/' },
+  { name: 'Plan your trip', path: '/plan-your-trip' },
+  { name: heading, path },
+];
+
+const schema = [
+  article({
+    headline: guide.title,
+    description: guide.description,
+    image: hero,
+    path,
+    authorName: defaultAuthor.name,
+    authorUrl: defaultAuthor.url,
+  }),
+  breadcrumbList(crumbs),
+];
+---
+
+<BaseLayout title={guide.title} description={guide.description} path={path} image={hero}>
+  <JsonLd slot="head" schema={schema} />
+
+  <Hero image={hero} title={heading} alt={`Travelling from ${fromName} to ${toName}, Israel`} />
+  <Breadcrumbs items={crumbs} />
+  <AuthorByline />
+
+  <section class="mx-auto max-w-3xl px-4">
+    <p class="text-lg leading-relaxed text-ink">{guide.intro}</p>
+  </section>
+
+  <!-- At-a-glance comparison. -->
+  <section class="mx-auto max-w-3xl px-4 pt-10" aria-labelledby="at-a-glance">
+    <h2 id="at-a-glance" class="mb-4 font-display text-2xl font-bold text-ink">At a glance</h2>
+    <div class="overflow-x-auto rounded-card border border-border shadow-card">
+      <table class="w-full border-collapse text-left text-sm">
+        <caption class="sr-only">{heading}: travel options compared</caption>
+        <thead>
+          <tr class="bg-sand-deep">
+            <th scope="col" class="px-3 py-2.5 font-semibold text-ink">Option</th>
+            <th scope="col" class="px-3 py-2.5 font-semibold text-ink">Duration</th>
+            <th scope="col" class="px-3 py-2.5 font-semibold text-ink">Typical cost</th>
+            <th scope="col" class="px-3 py-2.5 font-semibold text-ink">Frequency</th>
+            <th scope="col" class="px-3 py-2.5 font-semibold text-ink">Shabbat</th>
+          </tr>
+        </thead>
+        <tbody>
+          {
+            guide.rows.map((r) => (
+              <tr class="border-t border-border">
+                <th scope="row" class="px-3 py-2.5 font-semibold text-ink">{r.option}</th>
+                <td class="px-3 py-2.5 text-ink-muted">{r.duration}</td>
+                <td class="px-3 py-2.5 text-ink-muted">{r.cost}</td>
+                <td class="px-3 py-2.5 text-ink-muted">{r.frequency}</td>
+                <td class="px-3 py-2.5 text-ink-muted">{r.shabbat}</td>
+              </tr>
+            ))
+          }
+        </tbody>
+      </table>
+    </div>
+    <p class="mt-3 text-sm text-ink-muted" set:html={md(guide.note)} />
+  </section>
+
+  {
+    guide.cta && (
+      <section class="mx-auto max-w-3xl px-4">
+        <InlineTourCTA partner={guide.cta.partner} text={guide.cta.text} query={guide.cta.query} cta={guide.cta.cta} />
+      </section>
+    )
+  }
+
+  <!-- Which should you choose? -->
+  <section class="mx-auto max-w-3xl px-4 pt-8" aria-labelledby="which">
+    <h2 id="which" class="mb-4 font-display text-2xl font-bold text-ink">Which should you choose?</h2>
+    <ul class="space-y-2.5">
+      {guide.best.map((b) => <li class="text-ink-muted" set:html={`&bull; ${md(b)}`} />)}
+    </ul>
+  </section>
+
+  <!-- Keep planning. -->
+  <section class="mx-auto max-w-3xl px-4 pt-12" aria-labelledby="related">
+    <h2 id="related" class="mb-4 font-display text-2xl font-bold text-ink">Keep planning</h2>
+    <ul class="flex flex-wrap gap-2.5">
+      {
+        guide.related.map((r) => (
+          <li>
+            <a
+              href={r.href}
+              class="inline-block rounded-full border border-border bg-card px-4 py-2 text-sm font-semibold text-ink no-underline transition-colors hover:border-primary hover:text-primary"
+            >
+              {r.label}
+            </a>
+          </li>
+        ))
+      }
+    </ul>
+  </section>
+
+  <FaqSection faqs={guide.faqs} />
+  <AuthorByline />
+</BaseLayout>

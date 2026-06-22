@@ -42,3 +42,13 @@ You don't need a car for the [Tel Aviv](/tel-aviv)–[Jerusalem](/jerusalem)–[
 ## On Shabbat
 
 Plan ahead for Friday afternoon to Saturday night: rely on **sheruts, taxis, ride apps or a rental car**. See our [Shabbat guide](/shabbat-guide) for the full rhythm of the week.
+
+## Popular routes compared
+
+Planning a specific hop? We compare every option — train, bus, tour, taxi and driving — with real durations and costs for the routes travellers ask about most:
+
+- [Tel Aviv to Jerusalem](/tel-aviv-to-jerusalem)
+- [Jerusalem to the Dead Sea](/transport/jerusalem-to-dead-sea)
+- [Tel Aviv to the Dead Sea](/transport/tel-aviv-to-dead-sea)
+- [Tel Aviv to Haifa](/transport/tel-aviv-to-haifa)
+- [Tel Aviv to Eilat](/transport/tel-aviv-to-eilat)

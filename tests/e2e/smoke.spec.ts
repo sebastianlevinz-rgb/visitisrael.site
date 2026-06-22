@@ -18,6 +18,10 @@ const ROUTES = [
   '/where-to-stay/jerusalem',
   '/where-to-stay/tel-aviv',
   '/where-to-stay/dead-sea',
+  '/transport/jerusalem-to-dead-sea',
+  '/transport/tel-aviv-to-haifa',
+  '/transport/tel-aviv-to-eilat',
+  '/transport/tel-aviv-to-dead-sea',
   '/search',
 ];
 
