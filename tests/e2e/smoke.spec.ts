@@ -79,6 +79,9 @@ test('localized home sets <html lang> and reciprocal hreflang', async ({ page })
   // og:locale is fr; the two other locales appear as og:locale:alternate.
   await expect(page.locator('meta[property="og:locale"]')).toHaveAttribute('content', 'fr_FR');
   await expect(page.locator('meta[property="og:locale:alternate"]')).toHaveCount(2);
+  // Header chrome is localized (Phase 1): French nav label + CTA.
+  await expect(page.locator('header')).toContainText('Itinéraires');
+  await expect(page.locator('header')).toContainText('Préparer votre voyage');
   // The English home reciprocates (required for valid hreflang).
   await page.goto('/');
   await expect(page.locator('html')).toHaveAttribute('lang', 'en');

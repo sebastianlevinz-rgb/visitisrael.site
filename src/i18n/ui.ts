@@ -66,6 +66,10 @@ const ui = {
     'nav.regions': 'Regions',
     'nav.itineraries': 'Itineraries',
     'nav.plan': 'Plan your trip',
+    'nav.planShort': 'Plan',
+    'nav.search': 'Search',
+    'nav.openMenu': 'Open menu',
+    'nav.language': 'Language',
   },
   fr: {
     'home.heroTitle': 'Visiter Israël',
@@ -79,6 +83,10 @@ const ui = {
     'nav.regions': 'Régions',
     'nav.itineraries': 'Itinéraires',
     'nav.plan': 'Préparer votre voyage',
+    'nav.planShort': 'Préparer',
+    'nav.search': 'Rechercher',
+    'nav.openMenu': 'Ouvrir le menu',
+    'nav.language': 'Langue',
   },
   de: {
     'home.heroTitle': 'Israel besuchen',
@@ -92,6 +100,10 @@ const ui = {
     'nav.regions': 'Regionen',
     'nav.itineraries': 'Reiserouten',
     'nav.plan': 'Reise planen',
+    'nav.planShort': 'Planen',
+    'nav.search': 'Suchen',
+    'nav.openMenu': 'Menü öffnen',
+    'nav.language': 'Sprache',
   },
 } satisfies Record<Locale, Record<string, string>>;
 
