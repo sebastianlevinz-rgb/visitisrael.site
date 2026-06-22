@@ -262,6 +262,13 @@ const hero = heroRegion?.hero ?? `/images/regions/${guide.toSlug}/hero.jpg`;
 const path = `/transport/${route}`;
 const heading = `${fromName} to ${toName}`;
 
+// Every route reciprocally links back to the distance calculator (which links
+// out to these routes) — closes an internal-linking gap found in review.
+const related = [
+  ...guide.related,
+  { href: '/israel-distance-calculator', label: 'Distance calculator' },
+];
+
 // The note/recommendation strings carry **markdown bold**; convert to <strong>
 // since they're injected via set:html (which renders HTML, not markdown).
 const md = (s: string) => s.replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>');
@@ -350,7 +357,7 @@ const schema = [
     <h2 id="related" class="mb-4 font-display text-2xl font-bold text-ink">Keep planning</h2>
     <ul class="flex flex-wrap gap-2.5">
       {
-        guide.related.map((r) => (
+        related.map((r) => (
           <li>
             <a
               href={r.href}
