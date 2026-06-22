@@ -76,6 +76,9 @@ test('localized home sets <html lang> and reciprocal hreflang', async ({ page })
   for (const hl of ['en', 'fr', 'de', 'x-default']) {
     await expect(page.locator(`link[rel="alternate"][hreflang="${hl}"]`)).toHaveCount(1);
   }
+  // og:locale is fr; the two other locales appear as og:locale:alternate.
+  await expect(page.locator('meta[property="og:locale"]')).toHaveAttribute('content', 'fr_FR');
+  await expect(page.locator('meta[property="og:locale:alternate"]')).toHaveCount(2);
   // The English home reciprocates (required for valid hreflang).
   await page.goto('/');
   await expect(page.locator('html')).toHaveAttribute('lang', 'en');
