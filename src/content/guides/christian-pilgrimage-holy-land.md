@@ -66,7 +66,7 @@ Spring and autumn bring the most comfortable weather for walking Jerusalem's hil
 
 ## Costs and how to go
 
-Israel is not a budget destination; see our [cost & budget guide](/israel-cost-budget) for the full picture. Day tours to Bethlehem or the Galilee typically run **$90–150 per person**; a guided multi-day pilgrimage with hotels, transport and a guide is the simplest option for groups and church trips. Independent travellers can self-drive the Galilee and north (a [rental car](/car-rental-israel) is ideal there) but should use tours or guides for Bethlehem and the Old City. Compare your options in our [best tours](/best-tours-in-israel) and [private tours](/private-tours-israel) guides.
+Israel is not a budget destination; see our [cost & budget guide](/israel-cost-budget) for the full picture. Day tours to Bethlehem or the Galilee typically run **$90–150 per person**; a guided multi-day pilgrimage with hotels, transport and a guide is the simplest option for groups and church trips. Independent travellers can self-drive the Galilee and north (a [rental car](/car-rental-israel) is ideal there) but should use tours or guides for Bethlehem and the Old City. Compare every option — group packages, private guides and day trips — in our [best Holy Land tours](/best-holy-land-tours) guide, or browse [best tours](/best-tours-in-israel) and [private tours](/private-tours-israel).
 
 ## Practical pilgrim tips
 
