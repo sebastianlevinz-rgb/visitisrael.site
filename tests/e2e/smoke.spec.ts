@@ -20,6 +20,7 @@ const ROUTES = [
   '/israel-packing-list',
   '/which-israel-region-quiz',
   '/israel-distance-calculator',
+  '/israel-how-many-days',
   '/where-to-stay/jerusalem',
   '/where-to-stay/tel-aviv',
   '/where-to-stay/dead-sea',

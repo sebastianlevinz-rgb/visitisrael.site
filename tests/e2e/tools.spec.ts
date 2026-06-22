@@ -70,6 +70,24 @@ test.describe('Distance calculator', () => {
   });
 });
 
+test.describe('How many days', () => {
+  test('recommends a trip length and reacts to region + pace', async ({ page }) => {
+    await page.goto('/israel-how-many-days');
+    const days = page.locator('#days');
+    // Defaults (Jerusalem + Tel Aviv + Dead Sea, balanced) compute on load.
+    await expect(days).toContainText(/day/);
+    const n = (s: string | null) => Number((s || '').replace(/[^0-9]/g, ''));
+    const before = n(await days.textContent());
+    // Add more regions → more days, and the itinerary link updates.
+    // Inputs are sr-only (visually hidden, styled via label) → force the check.
+    await page.locator('input[name="area"][value="galilee"]').check({ force: true });
+    await page.locator('input[name="area"][value="eilat"]').check({ force: true });
+    const after = n(await days.textContent());
+    expect(after).toBeGreaterThan(before);
+    await expect(page.locator('#itinerary-link')).toHaveAttribute('href', /\/itineraries\//);
+  });
+});
+
 test.describe('Packing list', () => {
   test('checking an item updates progress and persists', async ({ page }) => {
     await page.goto('/israel-packing-list');
