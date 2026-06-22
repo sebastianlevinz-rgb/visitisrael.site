@@ -8,7 +8,7 @@ faqs:
   - question: How many days do you need in Israel?
     answer: A week is the sweet spot for a first visit — enough for Jerusalem, Tel Aviv and the Dead Sea with a day trip or two. Ten days lets you add the Galilee and the north or Eilat and the Negev in the south. Five days is workable if you focus on Jerusalem and Tel Aviv.
   - question: Do I need a visa to visit Israel?
-    answer: Citizens of the US, UK, EU, Canada, Australia and many other countries do not need a visa for tourist stays of up to 90 days; you receive an entry permit on arrival. Always check your nationality's current requirements before booking.
+    answer: Citizens of the US, UK, EU, Canada, Australia and many other countries do not need a visa for tourist stays of up to 90 days. However, since January 2025 most of these visa-exempt travellers must obtain an approved ETA-IL (electronic travel authorization) online before they fly. See our visa and ETA-IL guide, and always check your nationality's current requirements before booking.
   - question: What currency is used in Israel?
     answer: The Israeli new shekel (ILS, ₪). Cards are accepted almost everywhere, including small shops and taxis. Carry a little cash for markets, some Old City vendors and tips.
 ---
@@ -23,7 +23,7 @@ For a first visit, plan around **a week**. A classic loop pairs two to three day
 
 ## Arriving: the airport and getting around
 
-Almost everyone flies into **Ben Gurion Airport (TLV)** near Tel Aviv. From there a fast, cheap **train** reaches central Tel Aviv in about 20 minutes and Jerusalem in about 30. Shared **sherut** taxis run around the clock, including on Shabbat when trains pause. Once here, an inter-city train and bus network connects the main cities; a **Rav-Kav** travel card covers all public transport. Full detail is in our [transportation guide](/transportation).
+Almost everyone flies into **Ben Gurion Airport (TLV)** near Tel Aviv. Before you fly, check the entry rules: most visa-exempt travellers now need an **[ETA-IL travel authorization](/visa-information)** (a quick, cheap online step) approved before boarding. From the airport a fast, cheap **train** reaches central Tel Aviv in about 20 minutes and Jerusalem in about 30. Shared **sherut** taxis run around the clock, including on Shabbat when trains pause. Once here, an inter-city train and bus network connects the main cities; a **Rav-Kav** travel card covers all public transport. Full detail is in our [transportation guide](/transportation).
 
 ## The single most important thing: Shabbat
 
