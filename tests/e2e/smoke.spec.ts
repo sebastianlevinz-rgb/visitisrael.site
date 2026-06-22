@@ -15,6 +15,7 @@ const ROUTES = [
   '/israel-tipping-currency',
   '/israel-packing-list',
   '/which-israel-region-quiz',
+  '/israel-distance-calculator',
   '/where-to-stay/jerusalem',
   '/where-to-stay/tel-aviv',
   '/where-to-stay/dead-sea',

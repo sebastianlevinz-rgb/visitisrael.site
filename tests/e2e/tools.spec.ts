@@ -52,6 +52,24 @@ test.describe('Currency & tipping', () => {
   });
 });
 
+test.describe('Distance calculator', () => {
+  test('computes distance + drive time and reacts to selection', async ({ page }) => {
+    await page.goto('/israel-distance-calculator');
+    // Default (Tel Aviv → Jerusalem) computes on load.
+    await expect(page.locator('#dist-km')).toContainText('km');
+    await expect(page.locator('#drive-time')).not.toHaveText('—');
+    const before = await page.locator('#dist-km').textContent();
+    // A far pair (Eilat → Golan Heights) must be a larger distance.
+    await page.locator('#from').selectOption({ label: 'Eilat' });
+    await page.locator('#to').selectOption({ label: 'Golan Heights' });
+    const after = await page.locator('#dist-km').textContent();
+    const n = (s: string | null) => Number((s || '').replace(/[^0-9]/g, ''));
+    expect(n(after)).toBeGreaterThan(n(before));
+    // Live-directions link points at Google Maps driving directions.
+    await expect(page.locator('#maps-link')).toHaveAttribute('href', /google\.com\/maps\/dir/);
+  });
+});
+
 test.describe('Packing list', () => {
   test('checking an item updates progress and persists', async ({ page }) => {
     await page.goto('/israel-packing-list');
