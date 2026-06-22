@@ -2,6 +2,8 @@ import { test, expect } from '@playwright/test';
 
 const ROUTES = [
   '/',
+  '/fr/',
+  '/de/',
   '/jerusalem',
   '/jerusalem/western-wall',
   '/itineraries',
@@ -64,6 +66,22 @@ test('sitemap carries <lastmod> dates from content updatedAt', async ({ request 
   expect(count).toBeGreaterThan(50);
   // A known guide URL is followed by an ISO lastmod (value not pinned — content drifts).
   expect(body).toMatch(/\/tel-aviv-to-jerusalem\/<\/loc><lastmod>\d{4}-\d{2}-\d{2}T/);
+});
+
+test('localized home sets <html lang> and reciprocal hreflang', async ({ page }) => {
+  await page.goto('/fr/');
+  await expect(page.locator('html')).toHaveAttribute('lang', 'fr');
+  // hreflang alternates for all three locales + x-default.
+  for (const hl of ['en', 'fr', 'de', 'x-default']) {
+    await expect(page.locator(`link[rel="alternate"][hreflang="${hl}"]`)).toHaveCount(1);
+  }
+  // The English home reciprocates (required for valid hreflang).
+  await page.goto('/');
+  await expect(page.locator('html')).toHaveAttribute('lang', 'en');
+  await expect(page.locator('link[rel="alternate"][hreflang="fr"]')).toHaveAttribute(
+    'href',
+    /\/fr\/$/
+  );
 });
 
 test('homepage exposes branded OG image + RSS link', async ({ page }) => {

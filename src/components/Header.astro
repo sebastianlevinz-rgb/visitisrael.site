@@ -1,6 +1,8 @@
 ---
 import { REGIONS } from '@/data/regions';
+import { locales, languageNames, getLocaleFromPath, localeHome } from '@/i18n/ui';
 
+const currentLocale = getLocaleFromPath(Astro.url.pathname);
 const navRegions = REGIONS.slice(0, 6);
 const planLinks = [
   { href: '/itineraries', label: 'Itineraries' },
@@ -44,6 +46,28 @@ const planLinks = [
     </nav>
 
     <div class="flex items-center gap-2">
+      <!-- Language switcher. Until a page is translated, links go to the locale home. -->
+      <nav aria-label="Language" class="hidden items-center gap-1 sm:flex">
+        {
+          locales.map((l) => (
+            <a
+              href={localeHome(l)}
+              hreflang={l}
+              lang={l}
+              aria-current={l === currentLocale ? 'true' : undefined}
+              class:list={[
+                'rounded px-1.5 py-1 text-xs font-semibold uppercase no-underline transition-colors',
+                l === currentLocale
+                  ? 'text-primary'
+                  : 'text-ink-muted hover:text-primary',
+              ]}
+              title={languageNames[l]}
+            >
+              {l}
+            </a>
+          ))
+        }
+      </nav>
       <a
         href="/search"
         aria-label="Search"
@@ -101,6 +125,27 @@ const planLinks = [
           >
             Plan your trip
           </a>
+          <p class="mb-2 mt-4 text-xs font-bold uppercase tracking-wide text-primary">Language</p>
+          <ul class="flex gap-3">
+            {
+              locales.map((l) => (
+                <li>
+                  <a
+                    href={localeHome(l)}
+                    hreflang={l}
+                    lang={l}
+                    aria-current={l === currentLocale ? 'true' : undefined}
+                    class:list={[
+                      'block py-1 text-sm no-underline hover:text-primary',
+                      l === currentLocale ? 'font-bold text-primary' : 'text-ink',
+                    ]}
+                  >
+                    {languageNames[l]}
+                  </a>
+                </li>
+              ))
+            }
+          </ul>
         </div>
       </details>
     </div>

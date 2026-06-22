@@ -5,6 +5,7 @@ import DestinationCard from '@/components/DestinationCard.astro';
 import AffiliateCard from '@/components/AffiliateCard.astro';
 import Pic from '@/components/Pic.astro';
 import { REGIONS } from '@/data/regions';
+import { homeAlternates } from '@/i18n/ui';
 
 const title = 'Visit Israel — The English Travel Guide to Israel';
 const description =
@@ -52,6 +53,7 @@ const featuredTours = [
   path="/"
   ogImage="/og-default.jpg"
   imageAlt="Visit Israel — the English travel guide to Israel"
+  alternates={homeAlternates()}
 >
   <Hero
     image="/images/regions/jerusalem/hero.jpg"

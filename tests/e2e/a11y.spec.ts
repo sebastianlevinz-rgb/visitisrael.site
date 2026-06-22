@@ -4,6 +4,7 @@ import AxeBuilder from '@axe-core/playwright';
 // Representative of every template type + each interactive tool.
 const ROUTES = [
   '/',
+  '/fr/',
   '/jerusalem',
   '/jerusalem/western-wall',
   '/itineraries/7-days-in-israel',

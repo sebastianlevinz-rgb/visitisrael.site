@@ -71,6 +71,13 @@ export default defineConfig({
   site: SITE,
   output: 'static',
   trailingSlash: 'ignore',
+  // English-first; French + German added progressively under /fr/ and /de/.
+  // prefixDefaultLocale:false keeps en at the root — see .loop/I18N-PLAN.md.
+  i18n: {
+    locales: ['en', 'fr', 'de'],
+    defaultLocale: 'en',
+    routing: { prefixDefaultLocale: false },
+  },
   integrations: [
     sitemap({
       // Internal modules are noindex; keep them out of the sitemap.

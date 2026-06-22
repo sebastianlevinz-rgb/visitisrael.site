@@ -1,0 +1,53 @@
+---
+import BaseLayout from '@/layouts/BaseLayout.astro';
+import Hero from '@/components/Hero.astro';
+import DestinationCard from '@/components/DestinationCard.astro';
+import { REGIONS } from '@/data/regions';
+import { useTranslations, homeAlternates } from '@/i18n/ui';
+
+const t = useTranslations('fr');
+const title = 'Visiter Israël — Guide de voyage';
+const description =
+  'Préparez votre voyage en Israël : 11 régions de Jérusalem à la mer Rouge, itinéraires, sites à voir et liens de réservation fiables. Guides détaillés en anglais.';
+---
+
+<BaseLayout
+  title={title}
+  description={description}
+  path="/fr/"
+  ogImage="/og-default.jpg"
+  imageAlt="Visiter Israël — guide de voyage"
+  alternates={homeAlternates()}
+>
+  <Hero
+    image="/images/regions/jerusalem/hero.jpg"
+    title={t('home.heroTitle')}
+    subtitle={t('home.heroSubtitle')}
+    alt="Vue aérienne de la vieille ville de Jérusalem à l'heure dorée"
+  />
+
+  <section class="mx-auto max-w-3xl px-4 pt-10">
+    <p class="rounded-card border border-border bg-sand-deep p-5 text-ink-muted">
+      {t('home.rolloutNotice')}
+      <a href="/" class="mt-2 inline-block font-semibold text-primary">{t('home.englishCta')} →</a>
+    </p>
+  </section>
+
+  <section class="mx-auto max-w-6xl px-4 pt-12" aria-labelledby="regions-fr">
+    <h2 id="regions-fr" class="mb-5 font-display text-3xl font-bold text-ink">
+      {t('home.regionsHeading')}
+    </h2>
+    <div class="grid grid-cols-2 gap-4 sm:grid-cols-3 lg:grid-cols-4">
+      {REGIONS.map((r, i) => <DestinationCard region={r} eager={i < 4} />)}
+    </div>
+  </section>
+
+  <section class="mx-auto max-w-3xl px-4 py-14 text-center">
+    <a
+      href="/plan-your-trip"
+      class="inline-block rounded-full bg-primary px-6 py-3 text-sm font-semibold text-white no-underline transition-colors hover:bg-primary-hover"
+    >
+      {t('home.planHeading')}
+    </a>
+  </section>
+</BaseLayout>
