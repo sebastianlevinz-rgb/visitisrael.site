@@ -34,6 +34,9 @@ const tagline = meta?.tagline ?? '';
 const hero = meta?.hero ?? entry.data.heroImage;
 
 const data = REGION_DATA[entry.id] ?? genericRegionData(entry.id, name, hero);
+// Cities with a dedicated "where to stay" money page (src/pages/where-to-stay/).
+const STAY_PAGES = new Set(['jerusalem', 'tel-aviv', 'dead-sea']);
+const hasStayPage = STAY_PAGES.has(entry.id);
 const attractions = await attractionsForRegion(entry.id);
 const related = REGIONS.filter((r) => r.slug !== entry.id).slice(0, 3);
 const gallery = attractions
@@ -142,6 +145,15 @@ const schema = [
     <h2 id="stay" class="mb-5 font-display text-3xl font-bold text-ink">
       Best places to stay in {name}
     </h2>
+    {
+      hasStayPage && (
+        <p class="mb-5 -mt-2 text-sm">
+          <a href={`/where-to-stay/${entry.id}`} class="font-semibold text-primary">
+            Full guide: where to stay in {name} — best areas & hotels →
+          </a>
+        </p>
+      )
+    }
     {
       data.hotels.length > 0 ? (
         <div class="grid gap-6 lg:grid-cols-2">

@@ -1,0 +1,392 @@
+---
+/**
+ * High-intent "where to stay in <city>" money pages.
+ *
+ * One template, generated for the top lodging-demand cities. Reuses the
+ * honestly-curated hotels in REGION_DATA (rendered via <HotelCard>, which links
+ * to live Booking.com rates — no fabricated prices or ratings on our side) and
+ * adds editorial neighbourhood + budget guidance that the generic region page
+ * doesn't carry. This is the page that ranks for "where to stay in Jerusalem",
+ * "best hotels in Tel Aviv", etc.
+ */
+import { getCollection } from 'astro:content';
+import BaseLayout from '@/layouts/BaseLayout.astro';
+import Hero from '@/components/Hero.astro';
+import Breadcrumbs from '@/components/Breadcrumbs.astro';
+import AuthorByline from '@/components/AuthorByline.astro';
+import HotelCard from '@/components/HotelCard.astro';
+import Stay22Map from '@/components/Stay22Map.astro';
+import FaqSection from '@/components/FaqSection.astro';
+import JsonLd from '@/components/JsonLd.astro';
+import { getRegion } from '@/data/regions';
+import { REGION_DATA } from '@/data/regionData';
+import { defaultAuthor } from '@/data/authors';
+import { affiliateUrl } from '@/config/affiliates';
+import { article, breadcrumbList, hotelList, type Faq } from '@/lib/schema';
+
+interface Neighborhood {
+  name: string;
+  best: string;
+  note: string;
+}
+interface CityGuide {
+  /** REGION_DATA / regions key this page draws hotels + hero from. */
+  region: string;
+  /** Preposition used in the H1: "in Jerusalem" vs "at the Dead Sea". */
+  place: string;
+  title: string;
+  description: string;
+  intro: string;
+  neighborhoods: Neighborhood[];
+  budget: { tier: string; range: string; note: string }[];
+  faqs: Faq[];
+  related: { href: string; label: string }[];
+}
+
+const GUIDES: Record<string, CityGuide> = {
+  jerusalem: {
+    region: 'jerusalem',
+    place: 'in Jerusalem',
+    title: 'Where to Stay in Jerusalem: Best Areas & Hotels (2026)',
+    description:
+      'Where to stay in Jerusalem — the best neighbourhoods and hotels for every budget, from the Old City and Mamilla to Nahalat Shiva and the German Colony, with live Booking.com rates.',
+    intro:
+      'Jerusalem rewards staying close to the Old City, but the right base depends on your trip. First-timers focused on the holy sites do best between the walls and West Jerusalem; foodies and night owls want the city centre and the Mahane Yehuda market. Here is where to stay by area and budget, and the hotels worth booking in each.',
+    neighborhoods: [
+      {
+        name: 'Mamilla & City Centre',
+        best: 'First-time visitors who want comfort and a short walk to the Old City',
+        note: 'The upscale strip between Jaffa Gate and West Jerusalem, home to the grandest hotels (King David, Mamilla, Waldorf Astoria) and a pedestrian promenade of shops and cafés. The most convenient all-round base.',
+      },
+      {
+        name: 'The Old City',
+        best: 'Pilgrims and history lovers who want to wake up inside the walls',
+        note: 'Atmospheric guesthouses in the Jewish and Christian Quarters put the Western Wall and Holy Sepulchre on your doorstep. Streets are stepped and car-free, and the quarter empties and quietens after dark.',
+      },
+      {
+        name: 'Nahalat Shiva & Ben Yehuda',
+        best: 'Mid-range travellers who want cafés, bars and a central buzz',
+        note: 'The pedestrian heart of West Jerusalem — boutique hotels above lively lanes of restaurants and nightlife, a 15-minute walk or one light-rail stop from the Old City.',
+      },
+      {
+        name: 'Mahane Yehuda',
+        best: 'Food-focused travellers and evening atmosphere',
+        note: 'Around the famous covered market, which flips from produce stalls by day to bars and live music by night. Walkable, on the light rail, and central.',
+      },
+      {
+        name: 'German Colony & Baka',
+        best: 'A quieter, leafier, more residential stay',
+        note: 'Tree-lined streets of restored Templer houses with boutique B&Bs and brunch spots, about 20–30 minutes on foot or a short bus from the Old City.',
+      },
+    ],
+    budget: [
+      { tier: 'Luxury', range: 'from roughly $400+/night', note: 'Landmark hotels in Mamilla and the city centre, with Old City views and full spas.' },
+      { tier: 'Mid-range', range: 'roughly $150–250/night', note: 'Boutique hotels around Nahalat Shiva, the German Colony and inside the Old City walls.' },
+      { tier: 'Budget & hostels', range: 'dorms from roughly $35/night', note: 'Sociable hostels near the centre with private rooms and their own day-tour desks.' },
+    ],
+    faqs: [
+      {
+        question: 'What is the best area to stay in Jerusalem for first-timers?',
+        answer:
+          'Mamilla and the city centre. They sit between the Old City and West Jerusalem, so you can walk to the Western Wall and the holy sites in minutes while still having restaurants, shops and the light rail on your doorstep.',
+      },
+      {
+        question: 'Is it worth staying inside the Old City of Jerusalem?',
+        answer:
+          'For atmosphere, yes — waking up steps from the Western Wall and the Church of the Holy Sepulchre is special, and the quarter is calm at night. Trade-offs are stepped, car-free lanes, simpler guesthouses and fewer dinner options once the day-trippers leave.',
+      },
+      {
+        question: 'Where should I stay in Jerusalem to be near the Western Wall?',
+        answer:
+          'Stay in the Jewish or Christian Quarter inside the Old City, or just outside at Mamilla by Jaffa Gate. Both put you within a 5–15 minute walk of the Western Wall plaza.',
+      },
+      {
+        question: 'How many nights should I spend in Jerusalem?',
+        answer:
+          'Two to four nights. Two covers the Old City and a Yad Vashem or Israel Museum morning; three or four lets you slow down and add a Dead Sea, Masada or Bethlehem day trip without changing hotels.',
+      },
+    ],
+    related: [
+      { href: '/jerusalem', label: 'Jerusalem region guide' },
+      { href: '/day-trips-from-jerusalem', label: 'Day trips from Jerusalem' },
+      { href: '/tel-aviv-to-jerusalem', label: 'Getting between Tel Aviv & Jerusalem' },
+      { href: '/whats-open-on-shabbat', label: "What's open on Shabbat" },
+    ],
+  },
+  'tel-aviv': {
+    region: 'tel-aviv',
+    place: 'in Tel Aviv',
+    title: 'Where to Stay in Tel Aviv: Best Areas & Hotels (2026)',
+    description:
+      'Where to stay in Tel Aviv — the best neighbourhoods and hotels for every budget, from the beachfront and Rothschild to Neve Tzedek, Florentin and Jaffa, with live Booking.com rates.',
+    intro:
+      'Tel Aviv is compact and walkable, so almost anywhere central puts you near the beach and the bars — but each area has a flavour. Sun-seekers want the promenade; design lovers head to Neve Tzedek and Jaffa; budget travellers and night owls land in Florentin. Here is where to stay by area and budget, and the hotels worth booking.',
+    neighborhoods: [
+      {
+        name: 'Rothschild & the White City (Lev Ha’ir)',
+        best: 'First-timers who want to be central and walk everywhere',
+        note: 'The Bauhaus heart of the city: leafy boulevards, cafés and boutique hotels, a 10-minute walk to the beach and surrounded by the best restaurants. The all-round best base.',
+      },
+      {
+        name: 'The Beachfront & Promenade',
+        best: 'Travellers who want a sea view and toes-in-the-sand mornings',
+        note: 'The string of hotels along the Tayelet promenade trades a little character for unbeatable access to the sand and sunset. Pricier, and busiest in summer.',
+      },
+      {
+        name: 'Neve Tzedek',
+        best: 'Design lovers and couples after charm',
+        note: 'The city’s prettiest historic quarter — low-rise lanes of boutiques, galleries and brunch spots between the centre and Jaffa, a short walk from the beach.',
+      },
+      {
+        name: 'Florentin',
+        best: 'Budget travellers, nightlife and a young creative crowd',
+        note: 'Gritty, street-art-covered and packed with bars and hostels. Less polished and a longer walk to the sea, but the best value and the liveliest nights.',
+      },
+      {
+        name: 'Jaffa (Yafo)',
+        best: 'Atmosphere, markets and design hotels',
+        note: 'The ancient port city at the southern end of the promenade, with the flea market, seafood and standout design hotels such as The Jaffa. Characterful and walkable to the beach.',
+      },
+    ],
+    budget: [
+      { tier: 'Luxury', range: 'from roughly $380+/night', note: 'Design icons on Rothschild, the seafront and in Jaffa, often with rooftop pools.' },
+      { tier: 'Mid-range', range: 'roughly $160–250/night', note: 'Boutique hotels and apartment-suites around the White City and the beachfront.' },
+      { tier: 'Budget & hostels', range: 'dorms from roughly $38/night', note: 'Flagship hostels in Florentin and near the centre, with bars and tour desks.' },
+    ],
+    faqs: [
+      {
+        question: 'What is the best area to stay in Tel Aviv?',
+        answer:
+          'For a first trip, Rothschild and the White City (Lev Ha’ir). It is central and walkable, about 10 minutes from the beach, and ringed by the city’s best cafés and restaurants. If a sea view matters most, choose the beachfront promenade instead.',
+      },
+      {
+        question: 'Where should I stay in Tel Aviv to be near the beach?',
+        answer:
+          'Book along the Tayelet promenade for direct beach access, or in the White City / Rothschild area for a 10-minute walk to the sand with more dining on your doorstep. Neve Tzedek and Jaffa are also a short stroll from the southern beaches.',
+      },
+      {
+        question: 'Where is the best area to stay in Tel Aviv on a budget?',
+        answer:
+          'Florentin has the most hostels and the liveliest, best-value nightlife, while still being walkable to the centre. Hostels here and near the centre offer dorms and private rooms with a sociable scene.',
+      },
+      {
+        question: 'Is Tel Aviv or Jerusalem a better base for a trip?',
+        answer:
+          'They are only an hour apart by train, so many visitors split their stay. Tel Aviv suits beach, food and nightlife; Jerusalem suits history and the holy sites. See our Tel Aviv vs Jerusalem comparison to choose.',
+      },
+    ],
+    related: [
+      { href: '/tel-aviv', label: 'Tel Aviv region guide' },
+      { href: '/tel-aviv-vs-jerusalem', label: 'Tel Aviv vs Jerusalem' },
+      { href: '/tel-aviv-food-guide', label: 'Tel Aviv food guide' },
+      { href: '/day-trips-from-tel-aviv', label: 'Day trips from Tel Aviv' },
+    ],
+  },
+  'dead-sea': {
+    region: 'dead-sea',
+    place: 'at the Dead Sea',
+    title: 'Where to Stay at the Dead Sea: Best Hotels & Areas (2026)',
+    description:
+      'Where to stay at the Dead Sea — Ein Bokek’s spa-resort strip vs the quieter northern shore near Ein Gedi and Masada, hotels for every budget, with live Booking.com rates.',
+    intro:
+      'Almost all Dead Sea hotels sit on one short strip — Ein Bokek, on the southern shore — where spa resorts back onto free public beaches and calm, shallow water. The wilder northern shore near Ein Gedi and Masada has far fewer beds but puts you next to the nature reserve. Many people visit on a day trip from Jerusalem; stay overnight to pair a Masada sunrise with unhurried spa time.',
+    neighborhoods: [
+      {
+        name: 'Ein Bokek',
+        best: 'Almost everyone — the main resort strip',
+        note: 'The cluster of spa hotels on the southern shore, fronting free, well-kept public beaches with lifeguards and the calmest floating. Walkable between hotels, restaurants and the beach promenade.',
+      },
+      {
+        name: 'Northern shore & Ein Gedi',
+        best: 'Hikers and nature lovers near Masada and the reserve',
+        note: 'A quieter, wilder stretch with the Ein Gedi nature reserve and the kibbutz hotel, closer to Masada and the Qumran caves but with far fewer resorts and beaches.',
+      },
+    ],
+    budget: [
+      { tier: 'Luxury / spa resorts', range: 'from roughly $300+/night', note: 'Full-service Ein Bokek spa hotels with private beaches, sulphur pools and treatments.' },
+      { tier: 'Mid-range & all-inclusive', range: 'roughly $190–250/night', note: 'Large resorts and all-inclusive options in Ein Bokek, plus the Ein Gedi kibbutz hotel.' },
+    ],
+    faqs: [
+      {
+        question: 'Where is the best place to stay at the Dead Sea?',
+        answer:
+          'Ein Bokek, on the southern shore. It is where nearly all the spa hotels are, and they back directly onto free, lifeguarded public beaches with the calmest, easiest floating — no need for a car once you arrive.',
+      },
+      {
+        question: 'Should I stay overnight at the Dead Sea or visit on a day trip?',
+        answer:
+          'Either works. The Dead Sea is about 90 minutes from Jerusalem, so a day trip is easy. Stay overnight if you want a Masada sunrise, more time in the mineral spas, or a slower pace away from the tour-bus crowds.',
+      },
+      {
+        question: 'Is Ein Bokek or the northern shore better?',
+        answer:
+          'Ein Bokek for resorts, restaurants and easy beach access; the northern shore (Ein Gedi) for nature, hiking and proximity to Masada, but with far fewer hotels and amenities.',
+      },
+      {
+        question: 'Do Dead Sea hotels have private beaches?',
+        answer:
+          'Many Ein Bokek resorts have their own beach access and pools, but the public beaches along the strip are free, clean and lifeguarded, so you are never far from the water wherever you stay.',
+      },
+    ],
+    related: [
+      { href: '/dead-sea', label: 'Dead Sea region guide' },
+      { href: '/masada-dead-sea-day-trip', label: 'Masada & Dead Sea day trip' },
+      { href: '/dead-sea-israel-vs-jordan', label: 'Dead Sea: Israel vs Jordan' },
+      { href: '/itineraries', label: 'Israel itineraries' },
+    ],
+  },
+};
+
+// NOTE: getStaticPaths is hoisted above the component scope, so it can't read
+// GUIDES. List the slugs here; they must match the GUIDES keys above.
+export function getStaticPaths() {
+  return ['jerusalem', 'tel-aviv', 'dead-sea'].map((city) => ({ params: { city } }));
+}
+
+const { city } = Astro.params;
+const guide = GUIDES[city as string]!;
+const region = getRegion(guide.region);
+const regionData = REGION_DATA[guide.region]!;
+const name = region?.name ?? guide.region;
+const hero = region?.hero ?? `/images/regions/${guide.region}/hero.jpg`;
+const path = `/where-to-stay/${city}`;
+const hotels = regionData.hotels;
+
+// Coordinates for the Stay22 hotel map come from the region's content entry.
+const regionEntries = await getCollection('regions');
+const regionEntry = regionEntries.find((r) => r.id === guide.region);
+const lat = regionEntry?.data.latitude;
+const lng = regionEntry?.data.longitude;
+
+const bookingUrl = affiliateUrl('booking', {
+  destination: `${name}, Israel`,
+  query: `${name} Israel`,
+});
+
+const priceRangeFor = (tier: string) =>
+  tier === 'luxury' ? '$$$' : tier === 'value' ? '$$' : '$';
+
+const crumbs = [
+  { name: 'Home', path: '/' },
+  { name: 'Plan your trip', path: '/plan-your-trip' },
+  { name: `Where to stay ${guide.place}`, path },
+];
+
+const schema = [
+  article({
+    headline: guide.title,
+    description: guide.description,
+    image: hero,
+    path,
+    authorName: defaultAuthor.name,
+    authorUrl: defaultAuthor.url,
+  }),
+  breadcrumbList(crumbs),
+  hotelList(
+    hotels.map((h) => ({
+      name: h.name,
+      url: affiliateUrl('booking', { destination: `${h.name}, ${name}`, query: `${h.name} ${name}` }),
+      priceRange: priceRangeFor(h.tier),
+    })),
+    name,
+  ),
+];
+---
+
+<BaseLayout title={guide.title} description={guide.description} path={path} image={hero}>
+  <JsonLd slot="head" schema={schema} />
+
+  <Hero image={hero} title={`Where to stay ${guide.place}`} alt={`Where to stay ${guide.place}, Israel`} />
+  <Breadcrumbs items={crumbs} />
+  <AuthorByline />
+
+  <section class="mx-auto max-w-3xl px-4">
+    <p class="text-lg leading-relaxed text-ink">{guide.intro}</p>
+    <div class="mt-5">
+      <a
+        href={bookingUrl}
+        target="_blank"
+        rel="sponsored nofollow noopener"
+        class="inline-block rounded-full bg-primary px-5 py-2.5 text-sm font-semibold text-white no-underline transition-colors hover:bg-primary-hover"
+        >Compare {name} hotels on Booking.com</a
+      >
+    </div>
+  </section>
+
+  <!-- Where to stay by area. -->
+  <section class="mx-auto max-w-3xl px-4 pt-12" aria-labelledby="by-area">
+    <p class="text-sm font-semibold uppercase tracking-widest text-primary">By neighbourhood</p>
+    <h2 id="by-area" class="mb-5 font-display text-3xl font-bold text-ink">
+      Best areas to stay {guide.place}
+    </h2>
+    <div class="space-y-4">
+      {
+        guide.neighborhoods.map((n) => (
+          <div class="rounded-card border border-border bg-card p-5 shadow-card">
+            <h3 class="font-display text-lg font-bold text-ink">{n.name}</h3>
+            <p class="mt-1 text-sm font-semibold text-primary">Best for: {n.best}</p>
+            <p class="mt-1.5 text-sm text-ink-muted">{n.note}</p>
+          </div>
+        ))
+      }
+    </div>
+  </section>
+
+  <!-- Curated hotels (HotelCard → live Booking rates). -->
+  <section class="mx-auto max-w-6xl px-4 pt-14" aria-labelledby="best-hotels">
+    <p class="text-sm font-semibold uppercase tracking-widest text-primary">Where to stay</p>
+    <h2 id="best-hotels" class="mb-5 font-display text-3xl font-bold text-ink">
+      Best hotels {guide.place}
+    </h2>
+    <div class="grid gap-6 lg:grid-cols-2">
+      <div class="grid grid-cols-1 gap-4 sm:grid-cols-2">
+        {hotels.map((h) => <HotelCard hotel={h} regionName={name} />)}
+      </div>
+      {lat && lng && <Stay22Map lat={lat} lng={lng} label={name} />}
+    </div>
+  </section>
+
+  <!-- By budget. -->
+  <section class="mx-auto max-w-3xl px-4 pt-14" aria-labelledby="by-budget">
+    <h2 id="by-budget" class="mb-5 font-display text-3xl font-bold text-ink">
+      How much to budget
+    </h2>
+    <p class="mb-4 text-sm text-ink-muted">
+      Rates swing with the season — expect peaks around Jewish holidays, Christian Holy Week and
+      summer. These are typical guide ranges; tap any hotel above for live, exact prices.
+    </p>
+    <div class="space-y-3">
+      {
+        guide.budget.map((b) => (
+          <div class="flex flex-col gap-1 rounded-card border border-border bg-card p-4 shadow-card sm:flex-row sm:items-baseline sm:gap-4">
+            <p class="min-w-[11rem] font-display text-base font-bold text-ink">{b.tier}</p>
+            <p class="text-sm font-semibold text-primary">{b.range}</p>
+            <p class="flex-1 text-sm text-ink-muted">{b.note}</p>
+          </div>
+        ))
+      }
+    </div>
+  </section>
+
+  <!-- Keep planning. -->
+  <section class="mx-auto max-w-3xl px-4 pt-14" aria-labelledby="related">
+    <h2 id="related" class="mb-4 font-display text-2xl font-bold text-ink">Keep planning</h2>
+    <ul class="flex flex-wrap gap-2.5">
+      {
+        guide.related.map((r) => (
+          <li>
+            <a
+              href={r.href}
+              class="inline-block rounded-full border border-border bg-card px-4 py-2 text-sm font-semibold text-ink no-underline transition-colors hover:border-primary hover:text-primary"
+            >
+              {r.label}
+            </a>
+          </li>
+        ))
+      }
+    </ul>
+  </section>
+
+  <FaqSection faqs={guide.faqs} />
+  <AuthorByline />
+</BaseLayout>
