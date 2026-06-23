@@ -1,13 +1,15 @@
 /**
  * Generate AVIF + WebP siblings for every JPEG under public/images.
- * Components serve them via <picture> with the original .jpg as fallback,
- * so paths/refs never change. Re-runnable: skips siblings already current.
+ * Also generates responsive srcset widths (-400w, -800w) so <Pic> can use
+ * srcset for better mobile performance. Re-runnable: skips already-current files.
  */
 import sharp from 'sharp';
 import { readdirSync, statSync, existsSync } from 'node:fs';
 import { join } from 'node:path';
 
 const ROOT = 'public/images';
+// Responsive widths generated in addition to the original (which is the 1600w slot).
+const SRCSET_WIDTHS = [400, 800];
 
 function listJpg(dir, acc = []) {
   for (const e of readdirSync(dir)) {
@@ -39,6 +41,25 @@ for (const p of listJpg(ROOT)) {
     webp++;
   }
   wpBytes += statSync(w).size;
+
+  // Responsive width variants — only when original is wider than the target.
+  const { width: origWidth } = await sharp(p).metadata();
+  for (const rw of SRCSET_WIDTHS) {
+    if ((origWidth ?? 0) > rw) {
+      const ra = `${base}-${rw}w.avif`;
+      const rwd = `${base}-${rw}w.webp`;
+      if (!existsSync(ra)) {
+        await sharp(p).resize(rw).avif({ quality: 55 }).toFile(ra);
+        avif++;
+      }
+      avBytes += statSync(ra).size;
+      if (!existsSync(rwd)) {
+        await sharp(p).resize(rw).webp({ quality: 75 }).toFile(rwd);
+        webp++;
+      }
+      wpBytes += statSync(rwd).size;
+    }
+  }
 }
 const mb = (n) => (n / 1048576).toFixed(1);
 console.log(`generated ${avif} avif, ${webp} webp`);

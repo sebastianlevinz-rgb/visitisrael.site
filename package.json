@@ -9,7 +9,7 @@
   },
   "scripts": {
     "dev": "astro dev",
-    "build": "astro build",
+    "build": "node scripts/photos/gen-avif-webp.mjs && astro build",
     "preview": "astro preview",
     "check": "astro check",
     "photos": "node scripts/photos/fetch-commons.mjs",

@@ -89,3 +89,8 @@ playwright-report/
 # Autonomous loop operational state — TRACKED so the cloud routine can read +
 # advance it across fresh checkouts. Only the local STOP control flag stays out.
 .loop/STOP
+
+# Responsive srcset width variants — generated at build time by gen-avif-webp.mjs
+# (run as the first step in pnpm build). Not committed; regenerated on every Vercel build.
+public/images/**/*-400w.*
+public/images/**/*-800w.*

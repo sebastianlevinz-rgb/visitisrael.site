@@ -22,6 +22,7 @@ const { heroImage, description } = attraction.data;
     width="800"
     height="533"
     loading={eager ? 'eager' : 'lazy'}
+    sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 400px"
     class="absolute inset-0 h-full w-full object-cover transition-transform duration-500 group-hover:scale-105"
   />
   <div class="photo-overlay absolute inset-0"></div>
