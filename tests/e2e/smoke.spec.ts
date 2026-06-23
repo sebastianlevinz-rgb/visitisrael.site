@@ -82,6 +82,8 @@ test('localized home sets <html lang> and reciprocal hreflang', async ({ page })
   // Header chrome is localized (Phase 1): French nav label + CTA.
   await expect(page.locator('header')).toContainText('Itinéraires');
   await expect(page.locator('header')).toContainText('Préparer votre voyage');
+  // Footer chrome is localized too (Phase 1b): French column heading.
+  await expect(page.locator('footer')).toContainText('Excursions');
   // The English home reciprocates (required for valid hreflang).
   await page.goto('/');
   await expect(page.locator('html')).toHaveAttribute('lang', 'en');

@@ -70,6 +70,13 @@ const ui = {
     'nav.search': 'Search',
     'nav.openMenu': 'Open menu',
     'nav.language': 'Language',
+    'footer.tagline':
+      'An independent English-language travel guide to Israel — regions, attractions, itineraries and trusted booking links.',
+    'footer.dayTrips': 'Day trips',
+    'footer.essentials': 'Essentials',
+    'footer.about': 'About',
+    'footer.copyright':
+      'An independent travel guide. Photography via Wikimedia Commons and original AI-assisted artwork. This site contains affiliate links.',
   },
   fr: {
     'home.heroTitle': 'Visiter Israël',
@@ -87,6 +94,13 @@ const ui = {
     'nav.search': 'Rechercher',
     'nav.openMenu': 'Ouvrir le menu',
     'nav.language': 'Langue',
+    'footer.tagline':
+      'Un guide de voyage indépendant, en anglais, sur Israël — régions, sites, itinéraires et liens de réservation fiables.',
+    'footer.dayTrips': 'Excursions',
+    'footer.essentials': 'Essentiel',
+    'footer.about': 'À propos',
+    'footer.copyright':
+      'Un guide de voyage indépendant. Photographies via Wikimedia Commons et illustrations originales assistées par IA. Ce site contient des liens d’affiliation.',
   },
   de: {
     'home.heroTitle': 'Israel besuchen',
@@ -104,6 +118,13 @@ const ui = {
     'nav.search': 'Suchen',
     'nav.openMenu': 'Menü öffnen',
     'nav.language': 'Sprache',
+    'footer.tagline':
+      'Ein unabhängiger englischsprachiger Reiseführer für Israel — Regionen, Sehenswürdigkeiten, Reiserouten und vertrauenswürdige Buchungslinks.',
+    'footer.dayTrips': 'Tagesausflüge',
+    'footer.essentials': 'Wissenswertes',
+    'footer.about': 'Über uns',
+    'footer.copyright':
+      'Ein unabhängiger Reiseführer. Fotos über Wikimedia Commons und originale KI-gestützte Grafiken. Diese Website enthält Affiliate-Links.',
   },
 } satisfies Record<Locale, Record<string, string>>;
 
