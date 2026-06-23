@@ -241,6 +241,50 @@ const ROUTES: Record<string, RouteGuide> = {
       { href: '/day-trips-from-tel-aviv', label: 'Day trips from Tel Aviv' },
     ],
   },
+  'haifa-to-akko': {
+    fromSlug: 'haifa',
+    toSlug: 'akko',
+    title: 'Haifa to Akko (Acre): Train, Bus & Car Compared',
+    description:
+      'How to get from Haifa to Akko (Acre): the quick coastal train, the intercity bus and driving compared — duration, cost, frequency and what runs on Shabbat.',
+    intro:
+      'Akko (Acre) sits just up the bay from Haifa — barely 25 km — so the Crusader port city is an easy half-day trip, and the train makes it almost effortless. Here is how the options compare.',
+    rows: [
+      { option: 'Train (Israel Railways)', duration: '~30 min', cost: '₪13–18 (~$3.50–5)', frequency: 'Every 30–60 min', shabbat: 'No' },
+      { option: 'Intercity bus', duration: '40–55 min', cost: '₪13–18 (~$3.50–5)', frequency: 'Frequent', shabbat: 'No' },
+      { option: 'Rental car (drive)', duration: '~30 min', cost: 'Fuel + rental', frequency: 'Anytime', shabbat: 'Yes' },
+    ],
+    best: [
+      '**Almost everyone:** the **train** — about 30 minutes from Haifa to Akko station, cheap and frequent; the old city is a 15-minute walk or short bus from the station.',
+      '**On Shabbat or coast-hopping:** a **rental car**, since trains and buses pause from Friday afternoon to Saturday night.',
+      '**Combining sights:** pair Akko with the [Bahá’í Gardens](/haifa/bahai-gardens) and [Caesarea](/caesarea) on a guided coastal day.',
+    ],
+    note: 'Trains run along the coast from Haifa’s stations to Akko; public fares use a **Rav-Kav** card. Akko’s train station is about 1.5 km from the old city — walk, taxi or local bus. Check live times before you travel.',
+    cta: { partner: 'getyourguide', text: 'See more of the coast: guided day tours link Akko’s Crusader old city with Haifa and Caesarea.', query: 'Akko Haifa Caesarea day tour', cta: 'Browse tours' },
+    faqs: [
+      {
+        question: 'How do you get from Haifa to Akko?',
+        answer:
+          'The easiest way is the coastal train — about 30 minutes from Haifa to Akko station, running every 30–60 minutes for roughly ₪13–18. Intercity buses also run frequently, and driving takes about 30 minutes.',
+      },
+      {
+        question: 'How far is Akko from Haifa?',
+        answer:
+          'About 25 km around the bay — a 30-minute train ride or drive. It makes an easy half-day trip from Haifa to the UNESCO-listed Crusader old city.',
+      },
+      {
+        question: 'Does the Haifa to Akko train run on Shabbat?',
+        answer:
+          'No. Trains and intercity buses stop from Friday afternoon to Saturday night. On Shabbat, use a rental car, a taxi or a ride app.',
+      },
+    ],
+    related: [
+      { href: '/akko', label: 'Akko (Acre) region guide' },
+      { href: '/haifa', label: 'Haifa region guide' },
+      { href: '/akko/old-city', label: 'Akko old city' },
+      { href: '/transportation', label: 'Getting around Israel' },
+    ],
+  },
 };
 
 export function getStaticPaths() {
@@ -250,6 +294,7 @@ export function getStaticPaths() {
     'tel-aviv-to-haifa',
     'tel-aviv-to-eilat',
     'tel-aviv-to-dead-sea',
+    'haifa-to-akko',
   ].map((route) => ({ params: { route } }));
 }
 
