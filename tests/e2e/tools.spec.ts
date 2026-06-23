@@ -36,6 +36,8 @@ test.describe('Build your trip', () => {
     await expect(page.locator('.trip-add[aria-pressed="true"]')).not.toHaveCount(
       0
     );
+    // print / save-as-PDF button is available once the trip has places
+    await expect(page.locator('#trip-print')).toBeVisible();
     // share link
     await page.locator('#trip-share').click();
     await expect(page.locator('#trip-share-ok')).toBeVisible();

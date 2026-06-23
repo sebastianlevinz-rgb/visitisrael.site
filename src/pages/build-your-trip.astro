@@ -164,6 +164,9 @@ const schema = [breadcrumbList(crumbs), faqPage(faqs)];
             <button type="button" id="trip-share" class="btn btn-primary"
               >Copy share link</button
             >
+            <button type="button" id="trip-print" class="btn btn-ghost"
+              >Print / Save as PDF</button
+            >
             <a href="/itineraries" class="btn btn-ghost">See sample routes</a>
           </div>
           <p
@@ -202,6 +205,22 @@ const schema = [breadcrumbList(crumbs), faqPage(faqs)];
 </BaseLayout>
 
 <style>
+  /* Clean print / "Save as PDF": keep the itinerary, drop the chrome + controls. */
+  @media print {
+    header,
+    footer,
+    nav[aria-label='Quick booking'],
+    #trip-actions,
+    #trip-share-ok,
+    [data-inline-cta],
+    [data-affiliate-card] {
+      display: none !important;
+    }
+    body {
+      background: #fff !important;
+    }
+  }
+
   .chip {
     display: inline-flex;
     align-items: center;
@@ -384,6 +403,9 @@ const schema = [breadcrumbList(crumbs), faqPage(faqs)];
     document.getElementById('trip-clear').addEventListener('click', function () {
       selected.clear();
       commit();
+    });
+    document.getElementById('trip-print').addEventListener('click', function () {
+      window.print();
     });
     document.getElementById('trip-share').addEventListener('click', function () {
       var url =
