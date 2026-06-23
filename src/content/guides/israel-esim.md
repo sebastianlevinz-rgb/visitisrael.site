@@ -3,7 +3,7 @@ title: 'Israel eSIM: The Best Way to Get Data in 2026'
 description: 'How to get mobile data in Israel with an eSIM: how it works, what it costs, eSIM vs local SIM, coverage at Ben Gurion Airport, and how to set one up before you fly.'
 heroImage: /images/regions/tel-aviv/hero.jpg
 category: Connectivity
-updatedAt: 2026-05-27
+updatedAt: 2026-06-23
 ctaHeading: 'Get connected the moment you land'
 affiliateCtas:
   - partner: airalo
@@ -42,6 +42,22 @@ Israel has excellent mobile coverage — three strong networks (Partner, Pelepho
 3. **On landing**, enable data roaming for the eSIM line — you connect automatically.
 
 Most travellers do fine on a few gigabytes for a one-to-two-week trip; pick a larger or unlimited plan if you tether or stream.
+
+## How much data do you need?
+
+Match the plan to your trip length and how heavily you use data. These are rough guides — data amounts and prices vary by provider, so check the live price before you buy.
+
+| Trip & usage | Suggested data | Rough price |
+| --- | --- | --- |
+| **Light** — maps, messaging, a few days | ~1–3 GB | from ~$5 |
+| **Standard** — maps, social, light browsing, ~1 week | ~5 GB | ~$8–15 |
+| **Heavy** — streaming, tethering, 1–2 weeks | ~10 GB+ or unlimited | ~$20–35 |
+
+A few tips that keep costs down:
+
+- **Most sightseeing is light on data** — offline maps and messaging use very little; you rarely need unlimited for a city break.
+- **Top up rather than over-buy** — most eSIM apps let you add data mid-trip if you run low, so start smaller.
+- **Use hotel and café Wi-Fi** for big downloads, video calls and photo backups.
 
 ## eSIM vs local SIM — quick verdict
 
