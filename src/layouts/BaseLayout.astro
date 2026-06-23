@@ -131,7 +131,7 @@ const siteSchema = noindex ? [] : [organization(), website()];
       {t('a11y.skipToContent')}
     </a>
     <Header />
-    <main id="main" data-pagefind-body>
+    <main id="main" tabindex="-1" data-pagefind-body>
       <slot />
     </main>
     <Footer year={year} />
