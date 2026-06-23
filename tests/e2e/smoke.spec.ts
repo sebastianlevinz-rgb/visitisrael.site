@@ -33,6 +33,7 @@ const ROUTES = [
   '/transport/tel-aviv-to-eilat',
   '/transport/tel-aviv-to-dead-sea',
   '/transport/haifa-to-akko',
+  '/cruise-shore-excursions-israel',
   '/search',
 ];
 
