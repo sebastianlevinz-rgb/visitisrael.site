@@ -503,6 +503,35 @@ Ship: committed to master b6580b7, pushed. CI in_progress run 28059276878 at sta
 Prod: pending Vercel deploy of b6580b7.
 Next: iter 39 = BUILD/monetization.
 
+## 2026-06-23 · iter 40 · RESEARCH · driving/shopping/road-trip/seniors/evening/volunteer scan (NO SHIP)
+Mode: RESEARCH (40%5==0). No code changed; gate not run.
+What: Searched 6 untapped competitor angles not captured in iters 5/10/20/30/35.
+Sources: Tourist Israel, Nomadic Matt, Walk My World, laidbacktrip, Tripadvisor, TourRadar,
+Bein Harim, GilTravel, exclusiveisraeltours.com, IsraelRail, Danny the Digger, Isrotel Magazine,
+OneVasco, VFI, IAA Friends, Biblical Archaeology Society, mukikapupstravels.
+Findings — 6 net-new BACKLOG items added:
+  1. Driving in Israel guide (seo-content, P1, S) — Tourist Israel/Walk My World/laidbacktrip/Nomadic
+     Matt all rank; car-rental-israel.md covers WHERE to rent; this fills HOW to drive (etiquette,
+     speed limits, Route 6 toll, Waze, kerb colour coding, city pitfalls, Yom Kippur, speed cameras).
+  2. Israel for seniors (monetization+seo, P2, M) — America Israel Tours, TourRadar, Bein Harim
+     ("Israel Trips for Seniors"), GilTravel ("Exploring Israel Over 60") all rank; zero seniors guide
+     on site; high commercial intent (escorted + private tours, $2,500–4,000/person).
+  3. Shopping in Israel guide (seo+monetization, P2, M) — Tourist Israel/Danny the Digger/Go-Tel Aviv
+     rank; absolutely no shopping content exists; markets comparison, Dead Sea cosmetics/Ahava,
+     Judaica, Armenian ceramics, Old City bargaining tips.
+  4. Self-drive road trip itinerary (seo+monetization, P2, M) — Nomadic Matt/Walk My World/WanderlustingK
+     rank; distinct from 5/7/10-day transport-agnostic guides; 7–8 day clockwise car-loop, ~850–1000km,
+     drives affiliate CTAs to car-rental-israel.md.
+  5. Evening activities & night experiences (seo-content, P2, S) — TripAdvisor/Bein Harim/IsraelRail
+     rank; distinct from tel-aviv-nightlife.md; Tower of David Night Spectacular, Masada sound+light
+     (Mar–Oct), Jerusalem Festival of Light (June), Mahane Yehuda evening transformation, Mitzpe Ramon
+     stargazing (IDA dark-sky park).
+  6. Volunteer archaeology & dig travel (seo-content, P3, S) — VFI/IAA Friends/BAS rank; Hippos-Sussita
+     (Jun–Jul 2026 active), City of David VFI Volun-Tour, Shiloh; honesty flag on kibbutz post-2023.
+De-duped: nightlife (tel-aviv-nightlife covered), car rental (covered), medical tourism (too specialized/
+sensitive, deferred), Passover (best folded into planned Jewish-holidays guide from iter35 backlog).
+Gate: N/A. Next: iter 41 = BUILD/monetization.
+
 ## 2026-06-23 · iter 39 · REVIEW · audited iters 36–38 + locale visa cross-link fix
 Audited the not-yet-reviewed slice (iters 36–38):
 - iter 36 (bdf599e i18n Phase 2 batch 1): hreflang en/fr/de/x-default correct; unique H1s per locale;

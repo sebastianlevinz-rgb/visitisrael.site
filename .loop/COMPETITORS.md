@@ -256,3 +256,104 @@ change. Jordan border crossing logistics: keep evergreen, link official sources 
 Jordan Tourism Board for Aqaba). Yom Kippur section: roads are genuinely empty by tradition/culture
 (not a legal ban) — frame as tradition, not law. Wellness/spa therapeutic claims: frame as "claimed"
 not guaranteed; link academic sources where available.
+
+### 2026-06-23 · iter 40 · driving / shopping / road-trip / seniors / evening / volunteer scan
+
+Researched 6 practical + traveler-segment angles not previously captured. De-duped against full
+DONE list + all 35 prior BACKLOG items before adding. Sources: Tourist Israel, Walk My World,
+laidbacktrip, Nomadic Matt, Tripadvisor, America Israel Tours, TourRadar, Bein Harim, GilTravel,
+exclusiveisraeltours.com, IsraelRail, Danny the Digger, Isrotel Magazine, OneVasco, VFI (volunteer
+programs), IAA Friends, Biblical Archaeology Society, mukikapupstravels.
+
+- **Driving in Israel guide (P1 gap)** — Tourist Israel (/driving-in-israel/2174/), Walk My World,
+  laidbacktrip, Nomadic Matt (budget road trip), Tripadvisor ("Israel: Driving") all rank. We have
+  car-rental-israel.md covering WHERE to rent (agencies, costs, booking) + a 5-bullet "essentials"
+  box. That box is not a driving guide. Competitors rank on: Israeli road etiquette (assertive drivers,
+  horn culture); speed limits (50 city / 80–90 highway / 110 Route 1 / 120 Route 6); Route 6 as
+  the only true toll road (auto-charged by antenna/plate); Waze is the dominant nav app in Israel
+  (better traffic data than Google Maps); kerb colour codes (blue+white = paid / red+white = forbidden
+  / grey = free); city-specific pitfalls (Jerusalem one-way + stone-paving zones, TLV chronic parking
+  scarcity + ZAP / Pango apps); Yom Kippur = complete no-drive by cultural tradition; fixed mobile
+  speed cameras on major routes. High-intent search "can I drive in Israel", "Israel driving rules 2026".
+  → BACKLOG (seo-content, P1, S). Cross-link: car-rental-israel.md (main money CTA), border-crossings.
+
+- **Israel for seniors guide (P2 monetization)** — America Israel Tours ("Holy Land Tours for Seniors"),
+  TourRadar ("10 Best Tours of Israel for Seniors"), Bein Harim ("Israel Trips for Seniors"), GilTravel
+  ("Exploring Israel Over 60"), easyisraeltours.com, exclusiveisraeltours.com/senior-tours all have
+  dedicated senior travel pages. We have israel-with-kids.md but ZERO content targeting older travelers
+  — a major commercial gap. Key selling points: spring/fall season (mild temperatures, fewer crowds);
+  comfortable 2–3 site days with afternoon rest; Masada cable car option eliminates the challenging
+  snake-path hike; tour operators select hotels ≤20 min from hospital; ~12–20 pax group sizes with
+  personal guide attention; private air-conditioned coach. Monetization: TourRadar "10-day senior
+  Israel" (≈$2,500–$4,000 pp, high affiliate value), Bein Harim escorted tours, Abraham Tours
+  private programs. → BACKLOG (monetization+seo, P2, M).
+
+- **Shopping in Israel guide (P2 gap)** — Tourist Israel (best souvenirs), Danny the Digger
+  (top-10 souvenirs), Go-Tel Aviv (souvenirs from Israel), Isrotel Magazine (Jerusalem shopping
+  guide), GPSMyCity (16 uniquely-Israel things to buy), OneVasco (artisan items) all rank for
+  "shopping Israel" and "best souvenirs Israel". ZERO shopping/souvenir content on our site. Market
+  breakdown: (1) Machane Yehuda (Jerusalem) — spices, halva, wine, artisan soaps, Judaica; doubles
+  as bar scene after dark; (2) Carmel Market (TLV) — largest bazaar, fresh produce + ceramics +
+  jewelry + dates; (3) Nahalat Binyamin (TLV, Tue+Fri) — artisan crafts market, handmade jewelry +
+  ceramics; (4) Jaffa Flea Market — vintage Judaica + antiques + eclectic finds; (5) Old City Muslim
+  Quarter — olive wood carvings, ceramics, keffiyeh, bargaining culture (start 50%); Christian Quarter —
+  Armenian ceramics (Balian family; 40–250 ILS). Key buys: Ahava Dead Sea cosmetics (factory store
+  near Ein-Gedi; also at airport duty-free at lower prices); Judaica (Kiddush cups, mezuzot,
+  menorahs — Ben Yehuda Street + Mamilla Mall); Safed ceramics (mystical art, kabbalistic motifs);
+  spices (za'atar, sumac, hawaij, baharat — much cheaper than western countries); Medjool dates
+  (Carmel Market bulk). Shopping tips: malls = fixed price; markets = negotiate; "Made in Israel"
+  label matters (some Old City items are Chinese-made). Amazon affiliate for Ahava / Dead Sea brands.
+  → BACKLOG (seo+monetization, P2, M).
+
+- **Self-drive Israel road trip itinerary (P2 gap)** — Nomadic Matt ("How to Road Trip Around Israel
+  on a Budget — Updated 2026"), Walk My World ("A 10 day Israel Itinerary"), WanderlustingK ("Road
+  Tripping Israeli Style"), travelingisrael.com, amateurtraveler.com ("4 Day Road Trip"), roadtripsbyiva
+  all rank for "Israel road trip". Our existing itinerary guides (5/7/10-day) are transport-agnostic;
+  our transport route comparisons are point-to-point segments — neither is a self-drive LOOP itinerary.
+  Standard 7–8 day clockwise route: pick up car at Ben Gurion → Caesarea (2h north, Roman ruins day
+  stop) → Haifa/Akko (Bahá'í + Crusader city) → Upper Galilee (Rosh Hanikra, Safed, Golan viewpoints)
+  → Jordan Valley/Beit She'an (National Park) → Dead Sea / Ein Gedi (overnight or day) → Masada →
+  Mitzpe Ramon / Negev → return TLV (or continue to Eilat). Total ~850–1,000 km. Driving content
+  needed: car pickup timing to avoid Shabbat office closure (Thu noon–Sat night); Route 6 toll
+  awareness; Waze for live traffic; West Bank excursion restriction; parking by city strategy.
+  → BACKLOG (seo+monetization, P2, M). Cross-link: car-rental-israel.md, driving guide, regions.
+
+- **Evening activities & night experiences (P2 gap)** — TripAdvisor (Tower of David "Night
+  Spectacular" reviews, Jerusalem Festival of Light listing), Bein Harim ("Sound and Light Shows
+  in Israel"), IsraelRail (Top 5 Light Shows), thingstodoinisrael.com all cover evening/night
+  culture. We have tel-aviv-nightlife.md (bars, clubs, LGBTQ scene) but NOTHING for cultural
+  evening experiences — a distinct segment (families, older travelers, non-clubbers). Key experiences:
+  Tower of David Night Spectacular (multiple shows/week year-round, TripAdvisor rating 4.5+,
+  projected narrative on medieval walls, simultaneous English translation via earphones);
+  Masada sound+light show (spectacular: desert silence + fortress backdrop, Mar–Oct Tue+Thu 9pm —
+  verify exact dates with Masada National Park); Jerusalem Festival of Light (free, June annually,
+  250k+ visitors, Old City walls as canvas); Mahane Yehuda evening transformation (market stalls
+  close ~9pm → bar scene opens, same alley); Western Wall at night (less crowded than daytime,
+  powerful atmosphere under floodlights); Jaffa port golden-hour walk (clock tower → port → galleries);
+  Mitzpe Ramon stargazing (IDA-certified dark-sky park, guided astronomy tours via Ramon Crater
+  Observatories). Note: Masada show is seasonal and schedule varies — ALWAYS frame as "check current
+  season/dates with the Israel Nature and Parks Authority". → BACKLOG (seo-content, P2, S).
+
+- **Volunteer archaeology & dig travel (P3 niche)** — VFI (Volunteers for Israel), IAA Friends
+  (friendsofiaa.org), Biblical Archaeology Society, haaretz.com/archaeology, mukikapupstravels all
+  cover this. Active 2026 programs: Hippos-Sussita (Sea of Galilee, Jun 28–Jul 23 2026, kibbutz Ein
+  Gev lodging, 5am starts); VFI City of David Volun-Tour (Jerusalem, 9-day structured, no age limit);
+  Shiloh spring excavation (5-week season, biblical site, ~30 min north of Jerusalem); IAA general
+  volunteer (free, apply via friendsofiaa.org). Distinct from heritage/pilgrimage — experiential,
+  hands-on. Niche audience: Jewish diaspora, Christian archaeology enthusiasts, history students.
+  Revenue: limited; GYG archaeology walking tours as secondary CTA. HONESTY caution: specific dig
+  seasons change year to year; kibbutz volunteer programs post-Oct-2023 have complex status — do NOT
+  claim kibbutz programs are actively recruiting without direct organizer confirmation; frame as
+  "contact the individual kibbutz for current availability". → BACKLOG (seo-content, P3, S).
+
+DE-DUPED (not added — already covered or in existing backlog): tel-aviv-nightlife.md covers bars/clubs
+(evening activities is DISTINCT — cultural/family); car-rental-israel.md covers rental (driving guide
+is DISTINCT — HOW to drive on Israeli roads); israel-with-kids.md covers family (seniors = separate
+segment); wellness/spa already in backlog (iter35 — distinct from medical tourism which was considered
+but deemed too specialized); Passover travel was considered but it's best folded into the planned
+"Traveling during Jewish holidays" backlog item (iter35) rather than as a separate page.
+
+CAUTION (iter 40): Israeli speed cameras and traffic enforcement change; do NOT quote specific fine
+amounts (frame as "cameras present, obey posted limits"); Yom Kippur driving ban is cultural/religious,
+NOT a legal prohibition in all areas (frame accurately). Archaeology dig dates verified via official
+organizer sites — all data is to be re-verified before publishing.
