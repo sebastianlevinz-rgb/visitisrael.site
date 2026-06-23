@@ -23,7 +23,7 @@ Für einen ersten Besuch sollten Sie **eine Woche** einplanen. Eine klassische R
 
 ## Ankunft: Flughafen und Mobilität
 
-Fast alle Besucher landen am **Ben-Gurion-Flughafen (TLV)** in der Nähe von Tel Aviv. Prüfen Sie vor dem Abflug die Einreisebedingungen: Die meisten visumbefreiten Reisenden benötigen jetzt eine **[ETA-IL-Einreisegenehmigung](/visa-information)** (ein schneller, kostengünstiger Online-Schritt) vor dem Einsteigen. Vom Flughafen erreicht ein günstiger **Zug** das Stadtzentrum von Tel Aviv in etwa 20 Minuten und Jerusalem in ca. 30 Minuten. Geteilte **Sherut-Taxis** fahren rund um die Uhr, auch am Schabbat, wenn die Züge ruhen. Im Land verbindet ein Intercity-Zug- und Busnetz die wichtigsten Städte; die **Rav-Kav-Karte** gilt für alle öffentlichen Verkehrsmittel. Alle Details finden Sie in unserem [Reiseführer Verkehr & Transport](/transportation).
+Fast alle Besucher landen am **Ben-Gurion-Flughafen (TLV)** in der Nähe von Tel Aviv. Prüfen Sie vor dem Abflug die Einreisebedingungen: Die meisten visumbefreiten Reisenden benötigen jetzt eine **[ETA-IL-Einreisegenehmigung](/de/visa-information)** (ein schneller, kostengünstiger Online-Schritt) vor dem Einsteigen. Vom Flughafen erreicht ein günstiger **Zug** das Stadtzentrum von Tel Aviv in etwa 20 Minuten und Jerusalem in ca. 30 Minuten. Geteilte **Sherut-Taxis** fahren rund um die Uhr, auch am Schabbat, wenn die Züge ruhen. Im Land verbindet ein Intercity-Zug- und Busnetz die wichtigsten Städte; die **Rav-Kav-Karte** gilt für alle öffentlichen Verkehrsmittel. Alle Details finden Sie in unserem [Reiseführer Verkehr & Transport](/transportation).
 
 ## Das Wichtigste: der Schabbat
 
