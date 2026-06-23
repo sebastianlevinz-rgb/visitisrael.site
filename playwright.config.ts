@@ -15,7 +15,7 @@ export default defineConfig({
   use: {
     baseURL: 'http://localhost:4321',
     trace: 'on-first-retry',
-    reducedMotion: 'reduce',
+    contextOptions: { reducedMotion: 'reduce' },
   },
   webServer: {
     command: 'pnpm preview',
