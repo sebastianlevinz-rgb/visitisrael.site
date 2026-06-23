@@ -17,7 +17,7 @@ bounded, gated BUILD item. Full architecture + honesty rules + progress tracker 
 - [P2] (i18n, S) Phase 6 — QA sweep: sitemap hreflang, hreflang coverage, missing-translation fallbacks, per-locale sitemap, a11y + dead-link check across fr/de. status: ready
 
 ## monetization
-- [P2] (monetization, M) Cruise port shore excursions guide (Haifa + Ashdod) — distinct segment (cruise passengers, 8–10h ashore, high day-tour booking intent); format "What to do from <port> in X hours" + recommended tour table + transport notes + GYG/Viator/Bein Harim CTAs; Haifa→Bahá'í/Akko/Caesarea, Ashdod→Jerusalem/Dead Sea/Masada; links to existing attraction/region pages. HONESTY: evergreen, no specific ship schedules; link live resources. [iter30 research] status: ready
+- [SHIPPED iter32] Cruise port shore excursions guide → b50ad64
 - [P2] (monetization, M) MORE per-hub tours-comparison pages (Masada tours compared, Petra options compared, Galilee tours) — extend the /jerusalem-tours-compared pattern; mind overlap with existing day-trip guides (enhance those with a table instead where overlap is high). status: ready
 - [P2] (monetization, S) "Is the <X> tour worth it?" verdict boxes added to top attraction/day-trip pages — conversion + dwell time — reusable verdict component. status: ready
 - [P2] (monetization, M) Attraction "tickets & how to visit / skip-the-line" blocks on top attraction pages (Masada cable car, Western Wall tunnels, Bahá'í Gardens, etc.) — capture ticket-booking intent on existing high-traffic pages — honest "how to get tickets" note (price RANGES only, link live booking) + Tiqets/GetYourGuide CTA. HONESTY: prices drift — no hard-coded exact prices. [iter10 research] status: ready
