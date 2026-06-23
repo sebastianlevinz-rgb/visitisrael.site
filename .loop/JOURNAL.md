@@ -46,7 +46,7 @@ Next: iter 4 = REVIEW mode.
 Audited the 3 loop features. Checks: (1) all 25 internal hrefs resolve — 0 dead links;
 (2) JSON-LD on each page type parses, correct @types (Article/Breadcrumb/ItemList/FAQPage),
 NO aggregateRating/ratingValue — honesty intact; (3) unique titles/descriptions, correct
-canonicalls + OG, exactly one H1; (4) all new pages in sitemap + reachable (footer/region/hub
+canonicas + OG, exactly one H1; (4) all new pages in sitemap + reachable (footer/region/hub
 + header/plan-your-trip); (5) no leaked markup — bold/bullets render, Booking links carry
 rel="sponsored nofollow noopener". Review CLEAN.
 Fix (quick + safe, through full gate): transport routes now reciprocally link back to the
@@ -118,7 +118,7 @@ Audited the not-yet-reviewed slice. Checks: (1) all 21 internal links in best-ho
 visa-information resolve — 0 dead; (2) external OFFICIAL ETA portal (israel-entry.piba.gov.il)
 returns HTTP 200 — authoritative link healthy; (3) JSON-LD valid on both (Org/WebSite/Article/
 Breadcrumb/FAQPage), no aggregateRating/ratingValue — honesty intact; (4) unique titles, correct
-canonicalls, single H1; (5) no prettier \* corruption in the .md tables, comparison table renders
+canonicas, single H1; (5) no prettier \* corruption in the .md tables, comparison table renders
 proper <strong>; (6) sitemap lastmod 123 (+1 for new guide, no regression). Review CLEAN.
 Fix (quick + safe, full gate): first-time-in-israel had NO inbound link to /visa-information (now
 a key page post-ETA); added an entry-requirements sentence linking it + updated its visa FAQ for
