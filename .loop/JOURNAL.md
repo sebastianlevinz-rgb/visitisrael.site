@@ -118,7 +118,7 @@ Audited the not-yet-reviewed slice. Checks: (1) all 21 internal links in best-ho
 visa-information resolve — 0 dead; (2) external OFFICIAL ETA portal (israel-entry.piba.gov.il)
 returns HTTP 200 — authoritative link healthy; (3) JSON-LD valid on both (Org/WebSite/Article/
 Breadcrumb/FAQPage), no aggregateRating/ratingValue — honesty intact; (4) unique titles, correct
-canonicas, single H1; (5) no prettier \* corruption in the .md tables, comparison table renders
+canoncias, single H1; (5) no prettier \* corruption in the .md tables, comparison table renders
 proper <strong>; (6) sitemap lastmod 123 (+1 for new guide, no regression). Review CLEAN.
 Fix (quick + safe, full gate): first-time-in-israel had NO inbound link to /visa-information (now
 a key page post-ETA); added an entry-requirements sentence linking it + updated its visa FAQ for
@@ -423,3 +423,15 @@ check:links 0 broken/orphans; e2e/a11y N/A (Chromium not available in cloud env,
 Ship: 3819295 pushed to master via GitHub MCP.
 CI: GitHub Actions run 28041414264 in_progress at commit time; prod deploy result pending.
 Next: iter 32 = BUILD/monetization.
+
+## 2026-06-23 · iter 34 · REVIEW · audited iters 31–33
+What: REVIEW of the last un-audited slice (iters 31–33: srcset Pic, cruise shore excursions, Jewish heritage guide).
+Iter 31 (3819295 srcset): Pic srcset paths correct; card components pass narrower sizes hints; CI success.
+Iter 32 (b50ad64 cruise): CTA images confirmed; all internal links resolve; price ranges only; Ashdod→/tel-aviv OK.
+Iter 33 (6de11d7 Jewish heritage): CI completed/success; all 3 CTA images exist; all link targets resolve
+(/shabbat-guide is a real page; /tel-aviv/rothschild, /galilee/capernaum all exist); Hebron factual mention
+(Four Holy Cities classification) acceptable — not a tourism page; no fabricated prices; Hebron excluded
+as a destination per project rules.
+Gate: pnpm check 0 err; pnpm build 157 pages; check:links 0 broken/orphans/unreachable/deep; max depth 2.
+Result: ALL CLEAN — no fixes shipped.
+Next: iter 35 = RESEARCH (35%5=0). After that: iter 36 BUILD should be i18n Phase 2 (severely overdue).
