@@ -89,6 +89,8 @@ test('localized home sets <html lang> and reciprocal hreflang', async ({ page })
   // Sitewide chrome (skip link + sticky booking bar) is localized, no EN leak.
   await expect(page.locator('body')).toContainText('Aller au contenu');
   await expect(page.locator('nav[aria-label="Réservation rapide"]')).toHaveCount(1);
+  // Mobile-menu nav labels are localized too (Phase 1c).
+  await expect(page.locator('header')).toContainText('Composer mon voyage');
   // The English home reciprocates (required for valid hreflang).
   await page.goto('/');
   await expect(page.locator('html')).toHaveAttribute('lang', 'en');
