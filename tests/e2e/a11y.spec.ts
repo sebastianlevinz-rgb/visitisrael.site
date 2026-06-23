@@ -16,6 +16,7 @@ const ROUTES = [
   '/israel-trip-cost-calculator',
   '/israel-tipping-currency',
   '/israel-packing-list',
+  '/israel-weather-packing',
   '/which-israel-region-quiz',
   '/israel-distance-calculator',
   '/israel-how-many-days',

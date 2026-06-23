@@ -1,0 +1,390 @@
+---
+import BaseLayout from '@/layouts/BaseLayout.astro';
+import Hero from '@/components/Hero.astro';
+import Breadcrumbs from '@/components/Breadcrumbs.astro';
+import JsonLd from '@/components/JsonLd.astro';
+import { breadcrumbList, faqPage } from '@/lib/schema';
+
+const title = 'Israel Weather & Packing Guide — Month by Month (2026)';
+const description =
+  'Pick a month and region to see current weather conditions and an instant packing list for Israel — coast, Jerusalem, Dead Sea/Negev or Galilee.';
+
+const crumbs = [
+  { name: 'Home', path: '/' },
+  { name: 'Plan your trip', path: '/plan-your-trip' },
+  { name: 'Weather & packing guide', path: '/israel-weather-packing' },
+];
+
+const faqs = [
+  {
+    question: 'What is the weather like in Israel in April?',
+    answer:
+      'April is one of the best months to visit. Temperatures range from about 16–24°C on the coast and in Jerusalem, 22–33°C in the desert south and 14–23°C in Galilee. It is mostly sunny with some lingering spring showers early in the month. Note that Passover (usually April) brings crowds and some closures.',
+  },
+  {
+    question: 'What should I pack for Israel in summer?',
+    answer:
+      'Pack lightweight, breathable clothing (linen or moisture-wicking fabrics), SPF 50+ sunscreen, a sunhat and a reusable water bottle. Modesty layers are essential if you plan to visit religious sites (Western Wall, churches, mosques): a lightweight scarf or wrap and long trousers will do. The coast is hot and humid; the desert south is extreme — avoid midday outdoor activity in July–August.',
+  },
+  {
+    question: 'Does it snow in Israel?',
+    answer:
+      'Jerusalem averages 1–3 snowfall events per winter, usually in January or February. Snow in the capital is a genuine possibility but rarely stays more than a day or two. The Golan Heights and Mount Hermon receive regular snow. Tel Aviv and the coastal plain almost never see snow. The Dead Sea and Eilat stay warm all year.',
+  },
+  {
+    question: 'What is the best time to visit Israel weather-wise?',
+    answer:
+      'Spring (March–May) and autumn (September–November) offer the most pleasant weather across the whole country — warm days, cool evenings and very little rain. Summer is ideal for beach tourism; winter is the quietest and cheapest period but can be cold and rainy in the north.',
+  },
+];
+
+const schema = [breadcrumbList(crumbs), faqPage(faqs)];
+---
+
+<BaseLayout
+  title={title}
+  description={description}
+  path="/israel-weather-packing"
+  image="/images/regions/galilee/hero.jpg"
+  imageAlt="Wildflowers in spring in Israel"
+>
+  <JsonLd schema={schema} slot="head" />
+  <Hero
+    image="/images/regions/galilee/hero.jpg"
+    title="Israel Weather & Packing Guide"
+    subtitle="Pick a month and region — get the weather and a ready-made packing list in seconds."
+    alt="Green spring hillsides and wildflowers in Galilee, Israel"
+  />
+  <Breadcrumbs items={crumbs} />
+
+  <section class="mx-auto max-w-5xl px-4 pt-10">
+    <p class="eyebrow" data-reveal>Know before you go</p>
+    <h2 class="font-display text-3xl font-bold text-ink" data-reveal>
+      Month & region picker
+    </h2>
+    <p class="mt-2 max-w-2xl text-ink-muted" data-reveal>
+      Israel packs several distinct climates into a small country. Temperature and packing advice
+      varies significantly by region — choose yours below. For the full season-by-season analysis,
+      read the
+      <a href="/best-time-to-visit-israel" class="font-semibold text-primary"
+        >best time to visit guide</a
+      >.
+    </p>
+
+    <!-- Widget -->
+    <div class="mt-8 space-y-6">
+      <!-- Month selector -->
+      <div>
+        <p id="month-label" class="mb-3 text-sm font-semibold text-ink">Select a month</p>
+        <div class="flex flex-wrap gap-2" role="group" aria-labelledby="month-label">
+          {
+            [
+              'Jan','Feb','Mar','Apr','May','Jun',
+              'Jul','Aug','Sep','Oct','Nov','Dec',
+            ].map((m, i) => (
+              <button
+                type="button"
+                class="month-btn rounded-btn border border-border bg-card px-3 py-1.5 text-sm font-semibold text-ink transition-colors hover:border-primary hover:bg-sand-deep focus-visible:outline-2 focus-visible:outline-primary"
+                data-month={i}
+                aria-pressed="false"
+              >
+                {m}
+              </button>
+            ))
+          }
+        </div>
+      </div>
+
+      <!-- Zone selector -->
+      <fieldset>
+        <legend class="mb-3 text-sm font-semibold text-ink">Select a region</legend>
+        <div class="flex flex-wrap gap-2">
+          {
+            [
+              { id: 'coastal', label: 'Coast (Tel Aviv, Haifa, Akko)' },
+              { id: 'hills', label: 'Jerusalem & Hills' },
+              { id: 'desert', label: 'Dead Sea, Negev & Eilat' },
+              { id: 'galilee', label: 'Galilee & Golan' },
+            ].map((z) => (
+              <label class="zone-label cursor-pointer rounded-btn border border-border bg-card px-3 py-1.5 text-sm font-semibold text-ink transition-colors hover:border-primary hover:bg-sand-deep has-[:checked]:border-primary has-[:checked]:bg-primary has-[:checked]:text-white">
+                <input
+                  type="radio"
+                  name="zone"
+                  value={z.id}
+                  class="sr-only"
+                  aria-label={z.label}
+                />
+                {z.label}
+              </label>
+            ))
+          }
+        </div>
+      </fieldset>
+
+      <!-- Result panel -->
+      <div
+        id="wp-result"
+        aria-live="polite"
+        aria-atomic="true"
+        class="min-h-[160px] rounded-card border border-border bg-sand-deep p-6 shadow-card"
+      >
+        <p id="wp-prompt" class="text-ink-muted">
+          ← Select a month and region above to see weather and packing advice.
+        </p>
+        <div id="wp-content" class="hidden">
+          <div class="mb-4 flex flex-wrap items-start gap-4">
+            <div>
+              <p class="text-xs font-semibold uppercase tracking-wide text-ink-muted">Temperature</p>
+              <p id="wp-temp" class="mt-0.5 text-2xl font-bold text-ink"></p>
+            </div>
+            <div>
+              <p class="text-xs font-semibold uppercase tracking-wide text-ink-muted">Conditions</p>
+              <p id="wp-cond" class="mt-0.5 font-semibold text-ink"></p>
+            </div>
+            <div>
+              <p class="text-xs font-semibold uppercase tracking-wide text-ink-muted">Crowd level</p>
+              <p id="wp-crowd" class="mt-0.5 font-semibold text-ink"></p>
+            </div>
+          </div>
+          <div>
+            <p class="mb-2 text-sm font-semibold text-ink">Pack this</p>
+            <ul id="wp-pack" class="flex flex-wrap gap-2"></ul>
+          </div>
+          <p id="wp-note" class="mt-4 text-sm text-ink-muted"></p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Seasonal quick-reference table -->
+    <div class="mt-14">
+      <h2 class="mb-4 font-display text-2xl font-bold text-ink">At a glance: Israel by season</h2>
+      <div class="overflow-x-auto">
+        <table class="w-full text-sm">
+          <thead>
+            <tr class="bg-sand-deep text-left">
+              <th class="rounded-tl-card px-4 py-2.5 font-bold">Month</th>
+              <th class="px-4 py-2.5 font-bold">Coast</th>
+              <th class="px-4 py-2.5 font-bold">Jerusalem</th>
+              <th class="px-4 py-2.5 font-bold">Dead Sea / Eilat</th>
+              <th class="rounded-tr-card px-4 py-2.5 font-bold">Galilee</th>
+            </tr>
+          </thead>
+          <tbody class="divide-y divide-border">
+            {
+              [
+                ['Jan','10–17°C mild, rainy','5–12°C cold, possible snow','15–22°C warm, pleasant','6–13°C cool, rainy'],
+                ['Feb','11–18°C mild, rainy','6–14°C cold, rainy','16–23°C warm','7–14°C cool, rainy'],
+                ['Mar','13–21°C spring','8–17°C spring, occasional rain','18–27°C warm','10–18°C spring'],
+                ['Apr','16–24°C warm ★','11–22°C warm ★','22–33°C hot','14–23°C warm ★'],
+                ['May','20–27°C warm','15–25°C warm','27–37°C very hot','18–27°C warm'],
+                ['Jun','22–29°C hot & humid','18–27°C hot','30–40°C extreme','21–31°C hot'],
+                ['Jul','25–32°C peak summer','22–30°C hot','33–43°C extreme','24–34°C hot'],
+                ['Aug','26–32°C peak summer','22–30°C hot','33–43°C extreme','24–34°C hot'],
+                ['Sep','24–31°C warm','20–28°C warm','30–40°C very hot','22–32°C warm'],
+                ['Oct','20–27°C warm ★','16–25°C warm ★','24–33°C hot','17–25°C warm ★'],
+                ['Nov','15–22°C mild','10–19°C cool, rainy','18–26°C warm','12–19°C cool'],
+                ['Dec','11–18°C cool, rainy','6–13°C cold, rainy','15–22°C warm','7–14°C cold, rainy'],
+              ].map(([m, c, j, d, g]) => (
+                <tr class="bg-card">
+                  <td class="px-4 py-2.5 font-semibold text-ink">{m}</td>
+                  <td class="px-4 py-2.5 text-ink-muted">{c}</td>
+                  <td class="px-4 py-2.5 text-ink-muted">{j}</td>
+                  <td class="px-4 py-2.5 text-ink-muted">{d}</td>
+                  <td class="px-4 py-2.5 text-ink-muted">{g}</td>
+                </tr>
+              ))
+            }
+          </tbody>
+        </table>
+      </div>
+      <p class="mt-2 text-xs text-ink-muted">★ = ideal shoulder season. All temperatures approximate (°C).</p>
+    </div>
+
+    <!-- Packing essentials always section -->
+    <div class="mt-14">
+      <h2 class="mb-4 font-display text-2xl font-bold text-ink">Always in your Israel bag</h2>
+      <p class="mb-4 text-ink-muted">
+        Whatever month you travel, these items should always come with you — regardless of region or season.
+      </p>
+      <div class="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+        {
+          [
+            { head: 'Modesty cover-up', body: 'A lightweight scarf or wrap and long trousers for religious sites — Western Wall, churches, mosques.' },
+            { head: 'Comfortable walking shoes', body: "Jerusalem's Old City, Masada and national parks are hard on feet. Closed-toe, cushioned soles." },
+            { head: 'Reusable water bottle', body: 'Tap water is safe to drink across Israel. A 1 L bottle saves money and plastic.' },
+            { head: 'Adapter & power bank', body: 'Israel uses Type H (or C/M) plugs at 230 V. A power bank keeps your nav app alive on long days.' },
+            { head: 'Sunscreen (SPF 50+)', body: 'UV index is high year-round — even in winter you can burn. Reapply every 2 hours outdoors.' },
+            { head: 'Cash (₪ shekels)', body: 'Cards accepted almost everywhere, but markets, small falafel stands and some holy-site donations need cash.' },
+          ].map((item) => (
+            <div class="rounded-card border border-border bg-card p-5 shadow-card">
+              <p class="font-semibold text-ink">{item.head}</p>
+              <p class="mt-1 text-sm text-ink-muted">{item.body}</p>
+            </div>
+          ))
+        }
+      </div>
+    </div>
+
+    <!-- Internal links -->
+    <div class="mt-12 rounded-card border border-border bg-sand-deep p-6">
+      <h2 class="mb-3 font-display text-lg font-bold text-ink">Plan the rest of your trip</h2>
+      <ul class="space-y-1 text-sm">
+        <li><a href="/best-time-to-visit-israel" class="font-semibold text-primary">Best time to visit Israel →</a> full season &amp; festival guide</li>
+        <li><a href="/first-time-in-israel" class="font-semibold text-primary">First-time visitor checklist →</a> ETA-IL, customs, SIM, transport</li>
+        <li><a href="/israel-packing-list" class="font-semibold text-primary">Interactive packing checklist →</a> tick items off as you pack</li>
+        <li><a href="/israel-trip-cost-calculator" class="font-semibold text-primary">Trip cost calculator →</a> estimate your budget</li>
+        <li><a href="/holy-sites-dress-code-etiquette" class="font-semibold text-primary">Dress code &amp; etiquette →</a> what to wear at religious sites</li>
+        <li><a href="/is-israel-safe" class="font-semibold text-primary">Is Israel safe? →</a> up-to-date safety guidance</li>
+      </ul>
+    </div>
+  </section>
+</BaseLayout>
+
+<script>
+  // Static climate data: [coastal, hills, desert, galilee] × 12 months
+  // Each entry: { temp, conditions, crowd, pack: string[], note }
+  type ZoneData = { temp: string; conditions: string; crowd: string; pack: string[]; note: string };
+  type MonthData = { coastal: ZoneData; hills: ZoneData; desert: ZoneData; galilee: ZoneData };
+
+  const DATA: MonthData[] = [
+    // Jan (0)
+    {
+      coastal: { temp: '10–17°C', conditions: 'Mild, rainy spells', crowd: 'Low season', pack: ['Light rain jacket','Layers (t-shirt + jumper)','Comfortable walking shoes','Umbrella','Long trousers'], note: 'Tel Aviv winters are mild and green. Rain showers come and go quickly. Perfect for museums and food tours.' },
+      hills: { temp: '5–12°C', conditions: 'Cold, rainy, possible snow', crowd: 'Very low', pack: ['Warm waterproof coat','Fleece or jumper','Waterproof boots','Gloves + scarf','Layers'], note: 'Jerusalem can receive light snow in January. Dress in warm layers and check forecasts before visiting the Old City.' },
+      desert: { temp: '15–22°C', conditions: 'Warm and sunny', crowd: 'High (peak Dead Sea season)', pack: ['T-shirts','Light trousers','Thin layer for evenings','Sandals + closed shoes','Light sunscreen'], note: 'January is peak season at the Dead Sea and Eilat — the nicest winter warm-weather escape in Israel. Book ahead.' },
+      galilee: { temp: '6–13°C', conditions: 'Cool and rainy, lush', crowd: 'Low', pack: ['Waterproof jacket','Fleece','Sturdy walking shoes','Layers','Umbrella'], note: 'The Galilee is green and beautiful in January rain. National parks like Banias are especially scenic.' },
+    },
+    // Feb (1)
+    {
+      coastal: { temp: '11–18°C', conditions: 'Mild, frequent rain', crowd: 'Low', pack: ['Light rain jacket','Layers','Comfortable shoes','Umbrella'], note: 'February is still rainy on the coast but days are lengthening. A good time for indoor cultural sights.' },
+      hills: { temp: '6–14°C', conditions: 'Cold, rainy, snow possible', crowd: 'Very low', pack: ['Warm coat','Fleece','Waterproof boots','Gloves','Layers'], note: 'Snow in Jerusalem is possible in February. Almond trees begin to blossom in the Judean Hills — a beautiful sight.' },
+      desert: { temp: '16–23°C', conditions: 'Warm, sunny', crowd: 'High', pack: ['T-shirts','Light trousers','Thin layer evenings','Sunscreen'], note: 'Still warm-season in the south. The Dead Sea resort strip is at its winter peak.' },
+      galilee: { temp: '7–14°C', conditions: 'Cool, rainy', crowd: 'Low', pack: ['Waterproof jacket','Warm layer','Waterproof shoes','Layers'], note: 'Ski season at Mount Hermon in northern Golan if there is enough snow. Sea of Galilee is calm and peaceful.' },
+    },
+    // Mar (2)
+    {
+      coastal: { temp: '13–21°C', conditions: 'Transitional, fewer showers', crowd: 'Low–Moderate', pack: ['Light jacket or cardigan','T-shirts','Comfortable shoes','Light rain layer'], note: 'March can bring both sunshine and showers. A great time to visit before Passover crowds arrive.' },
+      hills: { temp: '8–17°C', conditions: 'Spring beginning, some rain', crowd: 'Low–Moderate', pack: ['Light jacket','Layers','Comfortable shoes'], note: 'Wildflowers begin carpeting the Judean Hills. Cooler mornings and evenings; pack layers.' },
+      desert: { temp: '18–27°C', conditions: 'Warm, mainly sunny', crowd: 'Moderate', pack: ['T-shirts','Light trousers','Sunscreen','Hat','Layer for evenings'], note: 'March is excellent for Negev hiking — the desert wildflowers are out in Nahal Arugot and Makhtesh Ramon.' },
+      galilee: { temp: '10–18°C', conditions: 'Spring, occasional rain', crowd: 'Low–Moderate', pack: ['Light jacket','Layers','Waterproof layer just in case'], note: 'Spring wildflowers peak in March–April in Galilee. Hiking season begins in earnest.' },
+    },
+    // Apr (3)
+    {
+      coastal: { temp: '16–24°C', conditions: 'Warm and sunny', crowd: 'Moderate (Passover spike)', pack: ['T-shirts','Light trousers or shorts','Sunscreen SPF30+','Light cardigan evenings'], note: 'April is ideal on the coast — sea is still a little cool for most swimmers but perfect for outdoor sightseeing. Note: Passover (usually April) brings closures and higher prices.' },
+      hills: { temp: '11–22°C', conditions: 'Warm days, cool evenings', crowd: 'Moderate–High (Passover)', pack: ['T-shirts','Light layer for evenings','Comfortable walking shoes','Sunscreen'], note: 'One of Jerusalem\'s most beautiful months — spring light and wildflowers. Book accommodation early if your dates overlap Passover.' },
+      desert: { temp: '22–33°C', conditions: 'Hot, sunny', crowd: 'Moderate', pack: ['Breathable t-shirts','Sunscreen SPF50+','Wide-brim hat','Reusable water bottle','Light trousers'], note: 'Negev hiking season closes down from May onwards as the heat rises. April is your last comfortable window for desert hikes.' },
+      galilee: { temp: '14–23°C', conditions: 'Warm, last spring showers', crowd: 'Moderate (Passover)', pack: ['T-shirts','Light layer','Comfortable shoes','Sunscreen'], note: 'Best month for Galilee hiking. Wildflowers are at peak and weather is ideal for the Jesus Trail and northern trails.' },
+    },
+    // May (4)
+    {
+      coastal: { temp: '20–27°C', conditions: 'Warm, mainly sunny', crowd: 'Moderate', pack: ['T-shirts and shorts','Sunscreen SPF30+','Light layer evenings','Sandals + walking shoes'], note: 'The Mediterranean warms up. Tel Aviv beaches start filling up; a great shoulder-season window before peak summer.' },
+      hills: { temp: '15–25°C', conditions: 'Warm, dry and sunny', crowd: 'Moderate', pack: ['T-shirts','Light trousers','Sunscreen','Comfortable walking shoes'], note: 'Near-perfect Jerusalem weather. Very little rain, warm days, pleasant evenings. Independence Day (Yom Ha\'atzmaut) falls in April/May.' },
+      desert: { temp: '27–37°C', conditions: 'Hot — early desert heat', crowd: 'Low (too hot for most)', pack: ['SPF 50+ sunscreen','Wide-brim hat','Loose breathable fabrics','Reusable water bottle (2 L+)','Early-morning outings only'], note: 'Hiking season in the Negev is effectively over. The Dead Sea and Eilat remain very popular — sea swimming before the extreme summer heat.' },
+      galilee: { temp: '18–27°C', conditions: 'Warm, late season for wildflowers', crowd: 'Moderate', pack: ['T-shirts','Layer for evenings','Sunscreen','Comfortable shoes'], note: 'Hiking is still comfortable in the Golan. Sea of Galilee water temperature is inviting for swimming.' },
+    },
+    // Jun (5)
+    {
+      coastal: { temp: '22–29°C', conditions: 'Hot and humid, no rain', crowd: 'High (summer begins)', pack: ['Light breathable clothes','Sunscreen SPF50+','Sunhat','Swimwear','Sandals','Water bottle'], note: 'Tel Aviv beach season is in full swing. Humidity can feel oppressive — embrace the sea breeze.' },
+      hills: { temp: '18–27°C', conditions: 'Warm and dry', crowd: 'High', pack: ['Light t-shirts','Comfortable walking shoes','Sunscreen','Light evening layer for cooler nights'], note: 'Jerusalem in June is warm and dry — very comfortable for sightseeing, cooler than the coast.' },
+      desert: { temp: '30–40°C', conditions: 'Very hot — extreme in midday', crowd: 'Low (too hot for outdoor)', pack: ['Minimal light clothing','SPF 50+ applied every 2 hours','Wide-brim hat','Reusable water bottle (3 L+)','Avoid midday outdoors'], note: 'The Dead Sea and Eilat remain open but plan all outdoor activity before 9 am or after 5 pm. Indoor spa time is the approach.' },
+      galilee: { temp: '21–31°C', conditions: 'Warm to hot, dry', crowd: 'Moderate–High', pack: ['T-shirts','Sunscreen SPF30+','Hat','Swimwear for Galilee','Light layer evenings'], note: 'The Sea of Galilee is warm and the water parks of Tiberias are popular. Golan hikes are hot — start early.' },
+    },
+    // Jul (6)
+    {
+      coastal: { temp: '25–32°C', conditions: 'Peak summer heat and humidity', crowd: 'Peak', pack: ['Breathable linen or cotton','SPF 50+','Sunhat','Swimwear','Sandals','Water bottle','After-sun lotion'], note: 'July is the hottest, busiest month on the coast. Tel Aviv\'s beach and nightlife are at full throttle. Air-con is everywhere.' },
+      hills: { temp: '22–30°C', conditions: 'Hot and dry', crowd: 'Very high', pack: ['Light breathable t-shirts','Sunscreen','Comfortable walking shoes','Light evening layer'], note: 'Jerusalem is hot but the dry heat feels far more manageable than the coastal humidity. Morning and evening sightseeing is best.' },
+      desert: { temp: '33–43°C', conditions: 'Extreme heat', crowd: 'Very low outdoors', pack: ['Minimal light clothing (cover up for sun)','SPF 50+ (reapply every 90 min)','Wide-brim hat','Minimum 4 L water daily outdoors','Never hike midday'], note: 'Danger zone for outdoor activity. Eilat and the Dead Sea spa hotels are open but plan only early-morning beach/sea time.' },
+      galilee: { temp: '24–34°C', conditions: 'Hot', crowd: 'High', pack: ['Light breathable clothes','SPF 50+','Hat','Swimwear','Water bottle'], note: 'Sea of Galilee is a lifesaver in July heat. Water parks, boat trips and the Jordan River water park are popular with families.' },
+    },
+    // Aug (7)
+    {
+      coastal: { temp: '26–32°C', conditions: 'Peak summer, hot & humid', crowd: 'Peak', pack: ['Breathable fabrics','SPF 50+','Sunhat','Swimwear','Sandals','Water bottle'], note: 'Identical to July. The Levantine humidity peaks in August. Expect full beaches and restaurants.' },
+      hills: { temp: '22–30°C', conditions: 'Hot, dry', crowd: 'Very high', pack: ['Light t-shirts','Sunscreen','Walking shoes','Layer for evenings'], note: 'High season in Jerusalem. Book tours and holy-site visits in advance; early morning visits are cooler and quieter.' },
+      desert: { temp: '33–43°C', conditions: 'Extreme heat', crowd: 'Very low outdoors', pack: ['Sun-protection cover-up','SPF 50+','Wide-brim hat','4 L+ water outdoors','Avoid midday'], note: 'Same extreme caution as July. Reserve Eilat/Dead Sea trips for dawn or dusk. Resort pool or indoor spa is the right call.' },
+      galilee: { temp: '24–34°C', conditions: 'Hot', crowd: 'High (families)', pack: ['Light clothes','SPF 50+','Hat','Swimwear','Water bottle'], note: 'Family-holiday peak. Tiberias promenade, water parks and boat trips on the Sea of Galilee are at maximum capacity.' },
+    },
+    // Sep (8)
+    {
+      coastal: { temp: '24–31°C', conditions: 'Warm, heat easing slightly', crowd: 'High, easing', pack: ['T-shirts','Sunscreen SPF30+','Swimwear','Light layer evenings'], note: 'The High Holidays (Rosh Hashanah, Yom Kippur) fall in September–October. Expect partial closures on Yom Kippur — the most sacred day of the year — and a very peaceful atmosphere.' },
+      hills: { temp: '20–28°C', conditions: 'Warm, last dry days', crowd: 'High (High Holidays)', pack: ['T-shirts','Comfortable walking shoes','Sunscreen','Light jacket for nights'], note: 'Jerusalem is excellent in September. The Jewish New Year atmosphere in the Old City is memorable. Note Yom Kippur closures.' },
+      desert: { temp: '30–40°C', conditions: 'Still very hot', crowd: 'Low–Moderate', pack: ['SPF 50+','Hat','Breathable clothes','2–3 L water outdoors'], note: 'September is still too hot for serious Negev hiking. The Dead Sea spa hotels remain popular; early morning floats are manageable.' },
+      galilee: { temp: '22–32°C', conditions: 'Warm, ideal for hiking', crowd: 'Moderate', pack: ['T-shirts','Sunscreen','Hat','Layer for evenings','Comfortable hiking shoes'], note: 'Hiking season resumes in the Golan and upper Galilee. The autumn light is beautiful. Sukkot (Tabernacles) follows Rosh Hashanah — outdoor sukkahs are everywhere.' },
+    },
+    // Oct (9)
+    {
+      coastal: { temp: '20–27°C', conditions: 'Warm, occasional showers', crowd: 'Moderate ★', pack: ['T-shirts','Light rain layer','Layer for evenings','Comfortable shoes'], note: 'October is a sweet spot on the coast — warm enough for beaches, occasional short rains. Sukkot fills hotels early in the month.' },
+      hills: { temp: '16–25°C', conditions: 'Warm days, first autumn rains', crowd: 'Moderate–High ★', pack: ['T-shirts','Light jacket','Comfortable walking shoes','Fold-away rain layer'], note: 'Ideal Jerusalem month. Warm days, cool evenings, olive harvest in the surrounding hills. Late October rains are a welcome relief.' },
+      desert: { temp: '24–33°C', conditions: 'Hot but easing', crowd: 'Rising (winter season begins)', pack: ['Breathable clothes','Sunscreen SPF30+','Hat','Layer evenings'], note: 'Negev hiking season reopens in October. The Israel National Trail has its southern section busy from October.' },
+      galilee: { temp: '17–25°C', conditions: 'Warm, transitional ★', crowd: 'Moderate', pack: ['T-shirts','Light jacket','Comfortable shoes','Sunscreen'], note: 'Superb hiking weather in October. The Galilee is quiet after the High Holiday rush — a beautiful, peaceful time to visit.' },
+    },
+    // Nov (10)
+    {
+      coastal: { temp: '15–22°C', conditions: 'Mild, increasing rain', crowd: 'Low', pack: ['Light jacket','Layers','Comfortable shoes','Light rain layer'], note: 'November is quiet and affordable. Warm days, cool evenings and irregular showers. A good low-key trip window.' },
+      hills: { temp: '10–19°C', conditions: 'Cool and rainy', crowd: 'Low', pack: ['Mid-layer jacket','Jumper','Comfortable shoes','Fold-away umbrella'], note: 'Jerusalem turns cool and occasionally rainy. Great time for museums, the Israel Museum and the underground tour circuit.' },
+      desert: { temp: '18–26°C', conditions: 'Warm and pleasant', crowd: 'High (winter season)', pack: ['T-shirts','Light trousers','Thin layer evenings','Sunscreen'], note: 'Excellent Negev hiking all month. Eilat fills up for winter sun — book ahead. Dead Sea resort season in full swing.' },
+      galilee: { temp: '12–19°C', conditions: 'Cool, rainy, green', crowd: 'Low', pack: ['Mid-layer jacket','Waterproof layer','Waterproof shoes','Warm layer'], note: 'Galilee becomes lush and green. Banias waterfall and the Hula Valley bird migration are spectacular in November.' },
+    },
+    // Dec (11)
+    {
+      coastal: { temp: '11–18°C', conditions: 'Cool and rainy', crowd: 'Low (Christmas spike)', pack: ['Warm jacket','Jumper','Waterproof layer','Layers','Umbrella'], note: 'December is quiet and budget-friendly outside Christmas. Rain is frequent but days can be bright. Christmas Eve in Jaffa is festive.' },
+      hills: { temp: '6–13°C', conditions: 'Cold, rainy, possible snow', crowd: 'Low–Moderate (Christmas)', pack: ['Heavy coat','Fleece','Waterproof boots','Gloves','Scarf','Layers'], note: 'Jerusalem\'s Christmas Eve midnight mass at the Church of the Holy Sepulchre and celebrations in Bethlehem are extraordinary experiences. Book accommodation months in advance.' },
+      desert: { temp: '15–22°C', conditions: 'Warm, sunny, peak season', crowd: 'High (peak Eilat)', pack: ['T-shirts','Light trousers','Thin layer evenings','Swimwear for Eilat'], note: 'Eilat is at its warmest relative to the rest of Israel — a popular winter-sun escape for Israelis and Europeans. Dead Sea is pleasant and uncrowded weekdays.' },
+      galilee: { temp: '7–14°C', conditions: 'Cold, rainy, possible Golan snow', crowd: 'Low', pack: ['Heavy coat','Warm layers','Waterproof boots','Gloves','Scarf'], note: 'The Golan Heights may see snow in December. Christmas celebrations in Nazareth are warm and vibrant — the Old City lit up and the Orthodox and Catholic communities in festive procession.' },
+    },
+  ];
+
+  type ZoneKey = keyof MonthData;
+
+  let selectedMonth: number | null = null;
+  let selectedZone: ZoneKey | null = null;
+
+  function render() {
+    const prompt = document.getElementById('wp-prompt')!;
+    const content = document.getElementById('wp-content')!;
+    if (selectedMonth === null || selectedZone === null) {
+      prompt.classList.remove('hidden');
+      content.classList.add('hidden');
+      return;
+    }
+    const d = DATA[selectedMonth][selectedZone];
+    prompt.classList.add('hidden');
+    content.classList.remove('hidden');
+    document.getElementById('wp-temp')!.textContent = d.temp;
+    document.getElementById('wp-cond')!.textContent = d.conditions;
+    document.getElementById('wp-crowd')!.textContent = d.crowd;
+    document.getElementById('wp-note')!.textContent = d.note;
+    const packEl = document.getElementById('wp-pack')!;
+    packEl.innerHTML = d.pack
+      .map(
+        (item) =>
+          `<li class="rounded-full border border-border bg-card px-3 py-1 text-sm font-medium text-ink">${item}</li>`
+      )
+      .join('');
+  }
+
+  // Month buttons
+  document.querySelectorAll<HTMLButtonElement>('.month-btn').forEach((btn) => {
+    btn.addEventListener('click', () => {
+      document.querySelectorAll('.month-btn').forEach((b) => {
+        b.setAttribute('aria-pressed', 'false');
+        b.classList.remove('bg-primary', 'text-white', 'border-primary');
+        b.classList.add('bg-card', 'text-ink', 'border-border');
+      });
+      btn.setAttribute('aria-pressed', 'true');
+      btn.classList.remove('bg-card', 'text-ink', 'border-border');
+      btn.classList.add('bg-primary', 'text-white', 'border-primary');
+      selectedMonth = Number(btn.dataset.month);
+      render();
+    });
+  });
+
+  // Zone radios
+  document.querySelectorAll<HTMLInputElement>('input[name="zone"]').forEach((radio) => {
+    radio.addEventListener('change', () => {
+      if (radio.checked) {
+        selectedZone = radio.value as ZoneKey;
+        render();
+      }
+    });
+  });
+</script>

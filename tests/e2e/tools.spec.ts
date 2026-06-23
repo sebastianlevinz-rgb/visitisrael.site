@@ -132,3 +132,33 @@ test.describe('Interactive map', () => {
     });
   });
 });
+
+test.describe('Weather & packing widget', () => {
+  test('shows prompt initially, then displays weather and pack list after selecting month and zone', async ({
+    page,
+  }) => {
+    await page.goto('/israel-weather-packing');
+    // Initial state: prompt visible, content hidden
+    await expect(page.locator('#wp-prompt')).toBeVisible();
+    await expect(page.locator('#wp-content')).not.toBeVisible();
+
+    // Click April (index 3)
+    await page.locator('.month-btn[data-month="3"]').click();
+    // Still needs a zone — content still hidden
+    await expect(page.locator('#wp-content')).not.toBeVisible();
+
+    // Select coastal zone
+    await page.locator('input[name="zone"][value="coastal"]').check({ force: true });
+    // Result panel should now show temperature + packing items
+    await expect(page.locator('#wp-content')).toBeVisible();
+    await expect(page.locator('#wp-temp')).not.toHaveText('');
+    await expect(page.locator('#wp-pack li')).not.toHaveCount(0);
+
+    // Switching to a different zone updates the result
+    const tempBefore = await page.locator('#wp-temp').textContent();
+    await page.locator('input[name="zone"][value="desert"]').check({ force: true });
+    const tempAfter = await page.locator('#wp-temp').textContent();
+    // Desert in April is hotter than coast — different value
+    expect(tempAfter).not.toEqual(tempBefore);
+  });
+});

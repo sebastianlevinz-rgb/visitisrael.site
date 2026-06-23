@@ -110,6 +110,7 @@ const ui = {
     'tool.map': 'Travel map',
     'tool.distance': 'Distance calculator',
     'tool.days': 'How many days?',
+    'tool.weather': 'Weather & packing',
     'footer.tagline':
       'An independent English-language travel guide to Israel — regions, attractions, itineraries and trusted booking links.',
     'footer.dayTrips': 'Day trips',
@@ -166,6 +167,7 @@ const ui = {
     'tool.map': 'Carte de voyage',
     'tool.distance': 'Calculateur de distances',
     'tool.days': 'Combien de jours ?',
+    'tool.weather': 'Météo & bagages',
     'footer.tagline':
       'Un guide de voyage indépendant, en anglais, sur Israël — régions, sites, itinéraires et liens de réservation fiables.',
     'footer.dayTrips': 'Excursions',
@@ -222,6 +224,7 @@ const ui = {
     'tool.map': 'Reisekarte',
     'tool.distance': 'Entfernungsrechner',
     'tool.days': 'Wie viele Tage?',
+    'tool.weather': 'Wetter & Packliste',
     'footer.tagline':
       'Ein unabhängiger englischsprachiger Reiseführer für Israel — Regionen, Sehenswürdigkeiten, Reiserouten und vertrauenswürdige Buchungslinks.',
     'footer.dayTrips': 'Tagesausflüge',
