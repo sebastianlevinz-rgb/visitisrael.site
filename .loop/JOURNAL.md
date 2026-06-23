@@ -502,3 +502,20 @@ Gate: pnpm check 0 errors; build 162 pages; 97/97 e2e+a11y pass (up from 75 test
 Ship: committed to master b6580b7, pushed. CI in_progress run 28059276878 at state-write time.
 Prod: pending Vercel deploy of b6580b7.
 Next: iter 39 = BUILD/monetization.
+
+## 2026-06-23 · iter 39 · REVIEW · audited iters 36–38 + locale visa cross-link fix
+Audited the not-yet-reviewed slice (iters 36–38):
+- iter 36 (bdf599e i18n Phase 2 batch 1): hreflang en/fr/de/x-default correct; unique H1s per locale;
+  18 internal links all resolve; no fabricated prices (ETA-IL ₪25 = official, framed with change caveat);
+  evergreen entry-requirement framing; all 4 pages in sitemap. CI success confirmed. CLEAN.
+- iter 37 (b71cae8 weather widget): single H1, FAQPage+BreadcrumbList JSON-LD, no fake ratings, cross-link
+  to /best-time-to-visit-israel (exists), accessible aria-live + sr-only radio. CI success confirmed. CLEAN.
+- iter 38 (b6580b7 a11y/keyboard/perf/Leaflet): tabindex="-1" on #main for skip-link WCAG 2.4.1 confirmed;
+  Leaflet vendor (leaflet.css + leaflet.js + images/) present; 36-route axe spec; keyboard.spec.ts +
+  perf.spec.ts sound; CI success confirmed. Dependabot failure (run 28059340894) = sharp npm PR, unrelated.
+DEFECT FOUND & FIXED: fr/de first-time-in-israel linked /visa-information (EN) even though /fr/visa-information
+and /de/visa-information were shipped in the same iter 36 — locale-switching users would land on EN visa page.
+Fix: 2-line content edit (markdown link targets). Branch auto/review-39-locale-visa-links.
+Gate: pnpm check 0 err; build 162 pages; check:links 0 broken/orphan/unreachable/deep.
+Ship: squash-merged to master cb930ab, pushed. CI in_progress at state-write time (content-only change; e2e via CI).
+Next: iter 40 = RESEARCH (40%5=0); iter 41 = BUILD/monetization.
