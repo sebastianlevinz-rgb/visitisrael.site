@@ -488,3 +488,17 @@ Gate (local): pnpm check 0 errors (98 files); pnpm build 162 pages (+1); check:l
 orphan/0 unreachable/0 deep — max depth 3 (prev 2; advisory only, threshold >3; 0 pages exceed it).
 Ship: squash-commit b71cae8 pushed to master. CI run 28055361589 in_progress at state-write time.
 Next: iter 38 = BUILD/technical; iter after = i18n Phase 2 batch 2 (best-time/transport/cost).
+
+## 2026-06-23 · iter 38 · BUILD (technical) · a11y/keyboard/perf-budget tests + skip-link WCAG fix + Leaflet local bundle
+What: (1) a11y.spec.ts expanded from 22→36 routes: added de locale, itineraries collection, plan-your-trip,
+visa-info, more where-to-stay/transport variants, cruise/jewish-heritage guides, de guide translations.
+(2) keyboard.spec.ts (new): skip-link Tab-focus + Enter-to-main; cost-calc keyboard operability (#days
+reachable); distance-calc #swap keyboard-operable. (3) perf.spec.ts (new): homepage HTML/JS/CSS budget
+assertions (150/300/100/500 KB uncompressed). (4) BaseLayout.astro: tabindex="-1" on <main id="main">
+for proper WCAG 2.4.1 skip-link keyboard focus. (5) israel-map.astro: switch Leaflet CSS+JS from
+unpkg.com CDN to self-hosted /vendor/leaflet/ (CDN unreachable in cloud env was blocking e2e gate;
+eliminates external runtime dependency). leaflet@1.9.4 added as dep.
+Gate: pnpm check 0 errors; build 162 pages; 97/97 e2e+a11y pass (up from 75 tests).
+Ship: committed to master b6580b7, pushed. CI in_progress run 28059276878 at state-write time.
+Prod: pending Vercel deploy of b6580b7.
+Next: iter 39 = BUILD/monetization.

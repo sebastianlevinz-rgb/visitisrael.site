@@ -52,7 +52,7 @@ bounded, gated BUILD item. Full architecture + honesty rules + progress tracker 
 - [P3] (tools, M) Kosher / vegan restaurant finder (filterable list from curated data) — niche high-intent. status: ready
 
 ## technical
-- [P3] (technical, S) Add `@axe-core` keyboard-nav + color-contrast checks to more routes; performance budget assertion. status: ready
+- [SHIPPED iter38] Expanded a11y coverage (36 routes), keyboard-nav + perf-budget tests, skip-link WCAG fix, Leaflet self-hosted → b6580b7
 
 ## discovered (research mode appends here)
 <!-- loop adds competitor-derived opportunities below -->
