@@ -35,6 +35,10 @@ const ROUTES = [
   '/transport/haifa-to-akko',
   '/cruise-shore-excursions-israel',
   '/jewish-heritage-israel',
+  '/fr/first-time-in-israel',
+  '/fr/visa-information',
+  '/de/first-time-in-israel',
+  '/de/visa-information',
   '/search',
 ];
 
@@ -124,6 +128,37 @@ test('localized plan-your-trip is translated with reciprocal hreflang', async ({
   await expect(page.locator('link[rel="alternate"][hreflang="fr"]')).toHaveAttribute(
     'href',
     /\/fr\/plan-your-trip$/
+  );
+});
+
+test('translated guide sets lang, hreflang alternates, and reciprocates from EN', async ({ page }) => {
+  // French guide has correct lang + hreflang
+  await page.goto('/fr/first-time-in-israel');
+  await expect(page.locator('html')).toHaveAttribute('lang', 'fr');
+  for (const hl of ['en', 'fr', 'de', 'x-default']) {
+    await expect(page.locator(`link[rel="alternate"][hreflang="${hl}"]`)).toHaveCount(1);
+  }
+  await expect(page.locator('link[rel="alternate"][hreflang="en"]')).toHaveAttribute(
+    'href',
+    /\/first-time-in-israel$/
+  );
+  // German guide has lang=de
+  await page.goto('/de/visa-information');
+  await expect(page.locator('html')).toHaveAttribute('lang', 'de');
+  await expect(page.locator('link[rel="alternate"][hreflang="fr"]')).toHaveAttribute(
+    'href',
+    /\/fr\/visa-information$/
+  );
+  // EN guide reciprocates with hreflang to fr + de
+  await page.goto('/first-time-in-israel');
+  await expect(page.locator('html')).toHaveAttribute('lang', 'en');
+  await expect(page.locator('link[rel="alternate"][hreflang="fr"]')).toHaveAttribute(
+    'href',
+    /\/fr\/first-time-in-israel$/
+  );
+  await expect(page.locator('link[rel="alternate"][hreflang="de"]')).toHaveAttribute(
+    'href',
+    /\/de\/first-time-in-israel$/
   );
 });
 

@@ -9,23 +9,56 @@ import FaqSection from '@/components/FaqSection.astro';
 import JsonLd from '@/components/JsonLd.astro';
 import type { Partner } from '@/config/affiliates';
 import { defaultAuthor } from '@/data/authors';
-import { article, breadcrumbList } from '@/lib/schema';
+import { article, breadcrumbList, SITE } from '@/lib/schema';
+import { useTranslations, localeHome, type Locale } from '@/i18n/ui';
 
 export async function getStaticPaths() {
-  const guides = await getCollection('guides');
+  const allGuides = await getCollection('guides');
   const legal = await getCollection('legal');
+  const guideIdSet = new Set(allGuides.map((e) => e.id));
+
   return [
-    ...guides.map((entry) => ({ params: { slug: entry.id }, props: { entry, kind: 'guide' as const } })),
-    ...legal.map((entry) => ({ params: { slug: entry.id }, props: { entry, kind: 'legal' as const } })),
+    ...allGuides.map((entry) => {
+      const firstSeg = entry.id.split('/')[0];
+      const isLocalized = firstSeg === 'fr' || firstSeg === 'de';
+      const baseSlug = isLocalized ? entry.id.slice(firstSeg.length + 1) : entry.id;
+
+      const hasFr = guideIdSet.has(`fr/${baseSlug}`);
+      const hasDe = guideIdSet.has(`de/${baseSlug}`);
+      const hasEn = guideIdSet.has(baseSlug);
+
+      let guideAlternates: { hreflang: string; href: string }[] = [];
+      if (hasEn && (hasFr || hasDe)) {
+        guideAlternates = [
+          { hreflang: 'en', href: `${SITE}/${baseSlug}` },
+          ...(hasFr ? [{ hreflang: 'fr', href: `${SITE}/fr/${baseSlug}` }] : []),
+          ...(hasDe ? [{ hreflang: 'de', href: `${SITE}/de/${baseSlug}` }] : []),
+          { hreflang: 'x-default', href: `${SITE}/${baseSlug}` },
+        ];
+      }
+
+      return { params: { slug: entry.id }, props: { entry, kind: 'guide' as const, guideAlternates } };
+    }),
+    ...legal.map((entry) => ({
+      params: { slug: entry.id },
+      props: { entry, kind: 'legal' as const, guideAlternates: [] as { hreflang: string; href: string }[] },
+    })),
   ];
 }
 
-const { entry, kind } = Astro.props;
+const { entry, kind, guideAlternates = [] } = Astro.props;
 const { Content } = await render(entry);
 const data: any = entry.data;
 const path = `/${entry.id}`;
 const hero = data.heroImage as string | undefined;
 const faqs = data.faqs ?? [];
+
+// Detect locale from the entry id prefix (fr/... or de/...)
+const firstSeg = entry.id.split('/')[0];
+const entryLocale: Locale = firstSeg === 'fr' || firstSeg === 'de' ? (firstSeg as Locale) : 'en';
+const t = useTranslations(entryLocale);
+const planPath = `${localeHome(entryLocale)}plan-your-trip`;
+
 const ctas = (data.affiliateCtas ?? []) as Array<{
   partner: Partner;
   title: string;
@@ -41,8 +74,8 @@ const ctas = (data.affiliateCtas ?? []) as Array<{
 const ctaCols = ctas.length >= 3 ? 'lg:grid-cols-3' : ctas.length === 2 ? 'sm:grid-cols-2' : '';
 const ctaWrap = ctas.length === 1 ? 'max-w-md' : ctas.length === 2 ? 'max-w-3xl' : 'max-w-6xl';
 const crumbs = [
-  { name: 'Home', path: '/' },
-  ...(kind === 'guide' ? [{ name: 'Plan your trip', path: '/plan-your-trip' }] : []),
+  { name: t('nav.home'), path: localeHome(entryLocale) },
+  ...(kind === 'guide' ? [{ name: t('nav.plan'), path: planPath }] : []),
   { name: data.title, path },
 ];
 
@@ -60,7 +93,13 @@ const schema = [
 ];
 ---
 
-<BaseLayout title={data.title} description={data.description ?? data.title} path={path} image={hero}>
+<BaseLayout
+  title={data.title}
+  description={data.description ?? data.title}
+  path={path}
+  image={hero}
+  alternates={guideAlternates}
+>
   <JsonLd slot="head" schema={schema} />
 
   {

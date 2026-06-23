@@ -10,6 +10,7 @@ const ROUTES = [
   '/jerusalem/western-wall',
   '/itineraries/7-days-in-israel',
   '/first-time-in-israel',
+  '/fr/first-time-in-israel',
   '/build-your-trip',
   '/israel-map',
   '/israel-trip-cost-calculator',

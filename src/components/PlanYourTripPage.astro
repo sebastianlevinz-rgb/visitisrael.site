@@ -21,7 +21,16 @@ interface Props {
 const { locale } = Astro.props;
 const t = useTranslations(locale);
 
-const guides = await getCollection('guides');
+const allGuides = await getCollection('guides');
+// Root guides (no locale prefix) serve as the EN list and as fallbacks for fr/de.
+const rootGuides = allGuides.filter((g) => !g.id.includes('/'));
+// For fr/de: prefer the locale-translated entry; fall back to the English root entry.
+const localeMap = new Map(
+  allGuides
+    .filter((g) => g.id.startsWith(`${locale}/`))
+    .map((g) => [g.id.slice(locale.length + 1), g])
+);
+const guides = locale === 'en' ? rootGuides : rootGuides.map((g) => localeMap.get(g.id) ?? g);
 const path = locale === 'en' ? '/plan-your-trip' : `/${locale}/plan-your-trip`;
 const crumbs = [
   { name: t('nav.home'), path: localeHome(locale) },
