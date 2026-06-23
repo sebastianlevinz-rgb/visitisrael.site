@@ -5,6 +5,7 @@ import AxeBuilder from '@axe-core/playwright';
 const ROUTES = [
   '/',
   '/fr/',
+  '/fr/plan-your-trip',
   '/jerusalem',
   '/jerusalem/western-wall',
   '/itineraries/7-days-in-israel',

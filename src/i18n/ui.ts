@@ -52,6 +52,19 @@ export function homeAlternates(): { hreflang: string; href: string }[] {
   ];
 }
 
+/**
+ * Reciprocal hreflang alternates for a content page that exists in all locales.
+ * `slug` has no leading slash (e.g. 'plan-your-trip'); en lives at the root.
+ */
+export function pageAlternates(slug: string): { hreflang: string; href: string }[] {
+  return [
+    { hreflang: 'en', href: `${SITE}/${slug}` },
+    { hreflang: 'fr', href: `${SITE}/fr/${slug}` },
+    { hreflang: 'de', href: `${SITE}/de/${slug}` },
+    { hreflang: 'x-default', href: `${SITE}/${slug}` },
+  ];
+}
+
 /** UI strings. Keys are shared across locales; en is the fallback. */
 const ui = {
   en: {
@@ -77,6 +90,26 @@ const ui = {
     'nav.distanceCalculator': 'Distance calculator',
     'nav.howManyDays': 'How many days?',
     'nav.map': 'Map',
+    'nav.home': 'Home',
+    'plan.title': 'Plan Your Trip to Israel: Guides, Itineraries & Regions',
+    'plan.description':
+      'Everything you need to plan a trip to Israel in one place: practical guides, ready-made itineraries and in-depth guides to all 11 regions.',
+    'plan.heroTitle': 'Plan Your Trip',
+    'plan.heroSubtitle': 'Practical guides, itineraries and the 11 regions — start here.',
+    'plan.guidesHeading': 'Practical guides',
+    'plan.toolsHeading': 'Free travel tools',
+    'plan.itinerariesHeading': 'Itineraries',
+    'plan.itinerariesIntro': 'Ready-made routes from 3 days to a full week —',
+    'plan.browseAll': 'browse all itineraries →',
+    'plan.regionsHeading': 'The 11 regions',
+    'tool.buildTrip': 'Build your trip',
+    'tool.costCalc': 'Trip cost calculator',
+    'tool.currency': 'Currency & tipping',
+    'tool.packing': 'Packing checklist',
+    'tool.quiz': 'Which region quiz',
+    'tool.map': 'Travel map',
+    'tool.distance': 'Distance calculator',
+    'tool.days': 'How many days?',
     'footer.tagline':
       'An independent English-language travel guide to Israel — regions, attractions, itineraries and trusted booking links.',
     'footer.dayTrips': 'Day trips',
@@ -113,6 +146,26 @@ const ui = {
     'nav.distanceCalculator': 'Calculateur de distances',
     'nav.howManyDays': 'Combien de jours ?',
     'nav.map': 'Carte',
+    'nav.home': 'Accueil',
+    'plan.title': 'Préparer votre voyage en Israël : guides, itinéraires et régions',
+    'plan.description':
+      'Tout ce qu’il faut pour préparer un voyage en Israël au même endroit : guides pratiques, itinéraires prêts à l’emploi et guides détaillés des 11 régions.',
+    'plan.heroTitle': 'Préparez votre voyage',
+    'plan.heroSubtitle': 'Guides pratiques, itinéraires et les 11 régions — commencez ici.',
+    'plan.guidesHeading': 'Guides pratiques',
+    'plan.toolsHeading': 'Outils de voyage gratuits',
+    'plan.itinerariesHeading': 'Itinéraires',
+    'plan.itinerariesIntro': 'Des itinéraires prêts à l’emploi, de 3 jours à une semaine —',
+    'plan.browseAll': 'voir tous les itinéraires →',
+    'plan.regionsHeading': 'Les 11 régions',
+    'tool.buildTrip': 'Composer mon voyage',
+    'tool.costCalc': 'Calculateur de budget',
+    'tool.currency': 'Monnaie et pourboires',
+    'tool.packing': 'Liste de bagages',
+    'tool.quiz': 'Quiz : quelle région ?',
+    'tool.map': 'Carte de voyage',
+    'tool.distance': 'Calculateur de distances',
+    'tool.days': 'Combien de jours ?',
     'footer.tagline':
       'Un guide de voyage indépendant, en anglais, sur Israël — régions, sites, itinéraires et liens de réservation fiables.',
     'footer.dayTrips': 'Excursions',
@@ -149,6 +202,26 @@ const ui = {
     'nav.distanceCalculator': 'Entfernungsrechner',
     'nav.howManyDays': 'Wie viele Tage?',
     'nav.map': 'Karte',
+    'nav.home': 'Startseite',
+    'plan.title': 'Reise nach Israel planen: Reiseführer, Reiserouten & Regionen',
+    'plan.description':
+      'Alles für die Planung einer Israel-Reise an einem Ort: praktische Reiseführer, fertige Reiserouten und ausführliche Guides zu allen 11 Regionen.',
+    'plan.heroTitle': 'Planen Sie Ihre Reise',
+    'plan.heroSubtitle': 'Praktische Reiseführer, Reiserouten und die 11 Regionen — fangen Sie hier an.',
+    'plan.guidesHeading': 'Praktische Reiseführer',
+    'plan.toolsHeading': 'Kostenlose Reise-Tools',
+    'plan.itinerariesHeading': 'Reiserouten',
+    'plan.itinerariesIntro': 'Fertige Routen von 3 Tagen bis zu einer Woche —',
+    'plan.browseAll': 'alle Reiserouten ansehen →',
+    'plan.regionsHeading': 'Die 11 Regionen',
+    'tool.buildTrip': 'Reise zusammenstellen',
+    'tool.costCalc': 'Reisekostenrechner',
+    'tool.currency': 'Währung & Trinkgeld',
+    'tool.packing': 'Packliste',
+    'tool.quiz': 'Welche Region passt?',
+    'tool.map': 'Reisekarte',
+    'tool.distance': 'Entfernungsrechner',
+    'tool.days': 'Wie viele Tage?',
     'footer.tagline':
       'Ein unabhängiger englischsprachiger Reiseführer für Israel — Regionen, Sehenswürdigkeiten, Reiserouten und vertrauenswürdige Buchungslinks.',
     'footer.dayTrips': 'Tagesausflüge',

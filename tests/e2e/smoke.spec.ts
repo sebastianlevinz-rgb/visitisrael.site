@@ -4,6 +4,8 @@ const ROUTES = [
   '/',
   '/fr/',
   '/de/',
+  '/fr/plan-your-trip',
+  '/de/plan-your-trip',
   '/jerusalem',
   '/jerusalem/western-wall',
   '/itineraries',
@@ -97,6 +99,28 @@ test('localized home sets <html lang> and reciprocal hreflang', async ({ page })
   await expect(page.locator('link[rel="alternate"][hreflang="fr"]')).toHaveAttribute(
     'href',
     /\/fr\/$/
+  );
+});
+
+test('localized plan-your-trip is translated with reciprocal hreflang', async ({ page }) => {
+  await page.goto('/fr/plan-your-trip');
+  await expect(page.locator('html')).toHaveAttribute('lang', 'fr');
+  await expect(page.locator('h1')).toHaveText('Préparez votre voyage');
+  // hreflang points back to the en + de versions of THIS page.
+  await expect(page.locator('link[rel="alternate"][hreflang="en"]')).toHaveAttribute(
+    'href',
+    /\/plan-your-trip$/
+  );
+  await expect(page.locator('link[rel="alternate"][hreflang="de"]')).toHaveAttribute(
+    'href',
+    /\/de\/plan-your-trip$/
+  );
+  // The English page reciprocates.
+  await page.goto('/plan-your-trip');
+  await expect(page.locator('h1')).toHaveText('Plan Your Trip');
+  await expect(page.locator('link[rel="alternate"][hreflang="fr"]')).toHaveAttribute(
+    'href',
+    /\/fr\/plan-your-trip$/
   );
 });
 

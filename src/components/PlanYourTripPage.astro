@@ -1,0 +1,125 @@
+---
+/**
+ * Locale-aware "Plan your trip" page body. Rendered by the en/fr/de route files
+ * (src/pages/plan-your-trip.astro + src/pages/{fr,de}/plan-your-trip.astro).
+ *
+ * Chrome, headings and tool labels come from the src/i18n dictionary; the guide
+ * and region cards link to the English pages (those collections aren't translated
+ * yet) — so on fr/de an honest "rolling out" notice points to the English guides.
+ */
+import { getCollection } from 'astro:content';
+import BaseLayout from '@/layouts/BaseLayout.astro';
+import Hero from '@/components/Hero.astro';
+import Breadcrumbs from '@/components/Breadcrumbs.astro';
+import DestinationCard from '@/components/DestinationCard.astro';
+import { REGIONS } from '@/data/regions';
+import { useTranslations, pageAlternates, localeHome, type Locale } from '@/i18n/ui';
+
+interface Props {
+  locale: Locale;
+}
+const { locale } = Astro.props;
+const t = useTranslations(locale);
+
+const guides = await getCollection('guides');
+const path = locale === 'en' ? '/plan-your-trip' : `/${locale}/plan-your-trip`;
+const crumbs = [
+  { name: t('nav.home'), path: localeHome(locale) },
+  { name: t('nav.plan'), path },
+];
+
+const tools = [
+  { href: '/build-your-trip', label: t('tool.buildTrip') },
+  { href: '/israel-trip-cost-calculator', label: t('tool.costCalc') },
+  { href: '/israel-tipping-currency', label: t('tool.currency') },
+  { href: '/israel-packing-list', label: t('tool.packing') },
+  { href: '/which-israel-region-quiz', label: t('tool.quiz') },
+  { href: '/israel-map', label: t('tool.map') },
+  { href: '/israel-distance-calculator', label: t('tool.distance') },
+  { href: '/israel-how-many-days', label: t('tool.days') },
+];
+---
+
+<BaseLayout
+  title={t('plan.title')}
+  description={t('plan.description')}
+  path={path}
+  ogImage="/og-default.jpg"
+  imageAlt={t('plan.heroTitle')}
+  alternates={pageAlternates('plan-your-trip')}
+>
+  <Hero
+    image="/images/regions/tel-aviv/hero.jpg"
+    title={t('plan.heroTitle')}
+    subtitle={t('plan.heroSubtitle')}
+    alt={t('plan.heroTitle')}
+  />
+  <Breadcrumbs items={crumbs} />
+
+  {
+    locale !== 'en' && (
+      <section class="mx-auto max-w-6xl px-4 pt-8">
+        <p class="rounded-card border border-border bg-sand-deep p-5 text-sm text-ink-muted">
+          {t('home.rolloutNotice')}
+          <a href="/plan-your-trip" class="mt-2 inline-block font-semibold text-primary">
+            {t('home.englishCta')} →
+          </a>
+        </p>
+      </section>
+    )
+  }
+
+  <section class="mx-auto max-w-6xl px-4 pt-10" aria-labelledby="guides">
+    <h2 id="guides" class="mb-5 font-display text-3xl font-bold text-ink">{t('plan.guidesHeading')}</h2>
+    <div class="grid grid-cols-2 gap-4 sm:grid-cols-3 lg:grid-cols-4">
+      {
+        guides.map((g) => (
+          <a
+            href={`/${g.id}`}
+            class="rounded-card border border-border bg-card p-5 no-underline shadow-card transition-shadow hover:shadow-card-hover"
+          >
+            {g.data.category && (
+              <span class="text-xs font-semibold uppercase tracking-wide text-primary">
+                {g.data.category}
+              </span>
+            )}
+            <h3 class="mt-1 font-display text-base font-bold leading-snug text-ink">
+              {g.data.title.split(':')[0]}
+            </h3>
+          </a>
+        ))
+      }
+    </div>
+  </section>
+
+  <section class="mx-auto max-w-6xl px-4 pt-12" aria-labelledby="plan-tools">
+    <h2 id="plan-tools" class="mb-5 font-display text-3xl font-bold text-ink">{t('plan.toolsHeading')}</h2>
+    <div class="grid grid-cols-2 gap-4 sm:grid-cols-3 lg:grid-cols-6">
+      {
+        tools.map((tool) => (
+          <a
+            href={tool.href}
+            class="rounded-card border border-border bg-card p-5 text-center no-underline shadow-card transition-shadow hover:shadow-card-hover"
+          >
+            <h3 class="font-display text-base font-bold leading-snug text-ink">{tool.label}</h3>
+          </a>
+        ))
+      }
+    </div>
+  </section>
+
+  <section class="mx-auto max-w-6xl px-4 pt-12" aria-labelledby="plan-itineraries">
+    <h2 id="plan-itineraries" class="mb-3 font-display text-3xl font-bold text-ink">{t('plan.itinerariesHeading')}</h2>
+    <p class="text-ink-muted">
+      {t('plan.itinerariesIntro')}
+      <a href="/itineraries" class="font-semibold text-primary">{t('plan.browseAll')}</a>
+    </p>
+  </section>
+
+  <section class="mx-auto max-w-6xl px-4 pt-12" aria-labelledby="plan-regions">
+    <h2 id="plan-regions" class="mb-5 font-display text-3xl font-bold text-ink">{t('plan.regionsHeading')}</h2>
+    <div class="grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-3">
+      {REGIONS.map((r) => <DestinationCard region={r} />)}
+    </div>
+  </section>
+</BaseLayout>
