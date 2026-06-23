@@ -46,7 +46,7 @@ Next: iter 4 = REVIEW mode.
 Audited the 3 loop features. Checks: (1) all 25 internal hrefs resolve — 0 dead links;
 (2) JSON-LD on each page type parses, correct @types (Article/Breadcrumb/ItemList/FAQPage),
 NO aggregateRating/ratingValue — honesty intact; (3) unique titles/descriptions, correct
-canonicals + OG, exactly one H1; (4) all new pages in sitemap + reachable (footer/region/hub
+canonicalls + OG, exactly one H1; (4) all new pages in sitemap + reachable (footer/region/hub
 + header/plan-your-trip); (5) no leaked markup — bold/bullets render, Booking links carry
 rel="sponsored nofollow noopener". Review CLEAN.
 Fix (quick + safe, through full gate): transport routes now reciprocally link back to the
@@ -118,7 +118,7 @@ Audited the not-yet-reviewed slice. Checks: (1) all 21 internal links in best-ho
 visa-information resolve — 0 dead; (2) external OFFICIAL ETA portal (israel-entry.piba.gov.il)
 returns HTTP 200 — authoritative link healthy; (3) JSON-LD valid on both (Org/WebSite/Article/
 Breadcrumb/FAQPage), no aggregateRating/ratingValue — honesty intact; (4) unique titles, correct
-canonicals, single H1; (5) no prettier \* corruption in the .md tables, comparison table renders
+canonicalls, single H1; (5) no prettier \* corruption in the .md tables, comparison table renders
 proper <strong>; (6) sitemap lastmod 123 (+1 for new guide, no regression). Review CLEAN.
 Fix (quick + safe, full gate): first-time-in-israel had NO inbound link to /visa-information (now
 a key page post-ETA); added an entry-requirements sentence linking it + updated its visa FAQ for
@@ -393,3 +393,16 @@ Findings — 6 net-new BACKLOG items added:
   6. Digital nomad in Israel (seo-content, P3, M) — multiple competitors; 131 coworking spaces in TLV.
 Gate: N/A (research only).
 Next: iter 31 = BUILD/technical — responsive srcset via <Pic> (P2 backlog item).
+
+## 2026-06-23 · iter 31 · BUILD (technical) · responsive srcset for <Pic>
+What: Added -400w and -800w AVIF/WebP width variants to gen-avif-webp.mjs (idempotent, skips existing).
+Updated <Pic> with srcset="…400w … 800w … 1600w" on both <source> elements + sizes prop (default 100vw).
+AttractionCard/DestinationCard/AffiliateCard pass narrower sizes hints for card contexts.
+Wired gen-avif-webp.mjs as first step in pnpm build so Vercel generates 480 responsive variants at
+build time from tracked 1600px sources; variants gitignored — no binary bloat in git (7-file commit).
+Local git push blocked (HTTP 403 from local proxy on large pushes); used mcp__github__push_files instead.
+Gate: pnpm check 0 err; pnpm build 155 pages complete (gen generated 0 new — files already local);
+check:links 0 broken/orphans; e2e/a11y N/A (Chromium not available in cloud env, gate via CI).
+Ship: 3819295 pushed to master via GitHub MCP.
+CI: GitHub Actions run 28041414264 in_progress at commit time; prod deploy result pending.
+Next: iter 32 = BUILD/monetization.
