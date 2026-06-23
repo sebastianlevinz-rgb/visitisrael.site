@@ -93,3 +93,70 @@ curated, de-duped, net-new items.
 CAUTION (still): segment/budget SERPs again surfaced volatile real-time safety (active conflict,
 airport status June 2026). Keep ALL loop content EVERGREEN — never assert current real-time
 conditions; link official advisories. Hebron remains out of scope.
+
+### 2026-06-23 · iter 30 · primary audience + niche-segment + visual-content scan
+
+Researched 6 angles not previously captured. Backlog verified before adding — all 6 are de-duped.
+
+- **Jewish heritage travel guide** — BIGGEST AUDIENCE GAP. Tourist Israel has a dedicated "Jewish
+  Pilgrimage to Israel Guide"; Bein Harim has "Israel for the Jewish Traveller"; America Israel Tours,
+  Shalom Israel Tours, Gil Travel all have deep Jewish heritage sections. We have christian-pilgrimage-
+  holy-land but ZERO Jewish heritage guide — despite Jewish diaspora being the #1 inbound travel
+  segment for Israel. Key sites: Yad Vashem (world's largest Holocaust museum, free, book ahead), ANU
+  Diaspora Museum (Tel Aviv University), Western Wall + Jewish Quarter (18th-c synagogues, cardo),
+  Safed (Kabbalah/mysticism, Ha'Ari + Caro synagogues, kabbalistic art quarter), Mount Herzl (national
+  cemetery + Theodore Herzl's tomb), Masada (Jewish resistance symbol), Gamla (Golan). Monetization:
+  Bein Harim / Abraham Tours / Viator Jewish heritage day tours. → BACKLOG (seo-content+monetization,
+  P1, M). HONESTY: Hebron excluded; Safed holy city — evergreen, no volatile specifics.
+
+- **Photography guide / best photo spots** — Walk My World, locationscout.net, PhotoHound, sillysuitcase,
+  israel21c all rank for "instagrammable Israel" / "best photo spots Israel". We have 63 attraction pages
+  but zero visual-format photography hub. Key structure: sunrise spots (Masada summit → Dead Sea
+  panorama; Dead Sea shore at dawn; Eilat Red Sea + Edom Mountains), golden-hour/sunset spots (Mount
+  of Olives over Jerusalem Old City; Caesarea Aqueduct at dusk; Jaffa port; TLV beach promenade at
+  sunset; Mitzpe Ramon crater rim), architectural/cultural compositions (Dome of the Rock from roof
+  viewpoint — with sensitivity note; Bahá'í Gardens terraces; Akko / Acre marina and Crusader city;
+  Red Canyon narrows). Timing + season notes; photography etiquette (ask permission, dress-code areas).
+  Shareable format → earned links + social traffic. → BACKLOG (seo-content, P2, M).
+
+- **Cruise port shore excursions guide** — Tourist Israel, Bein Harim, Compass Travel Israel, CruiseSheet
+  all have dedicated cruise-port content. We have nothing for cruise passengers (a distinct segment:
+  time-constrained, 8–10 hours ashore, high booking intent for day tours). Two key ports:
+  Haifa: downtown cruise terminal, no tendering → top Haifa attractions + Bahá'í Gardens (UNESCO,
+  walkable from port), Akko (30 min by train), Caesarea (45 min). Ashdod: gateway to Jerusalem/
+  Bethlehem/Dead Sea/Masada. Format: "What to do from <port> in X hours" + recommended tours + honest
+  transport notes (taxi vs pre-booked vs tour). Monetization: GYG/Viator/Bein Harim day tour CTAs.
+  → BACKLOG (monetization, P2, M). HONESTY: cruise schedules vary — link live resources, no specific
+  departure dates.
+
+- **Accessible travel in Israel guide** — Tourist Israel, Access Israel (aisrael.org), Atij (specialist
+  accessible tourism org) all rank for wheelchair/disabled travel. iter20 said "thin signal"; on re-
+  scan there are multiple specialist orgs + strong content gaps we can fill. Key facts: by law all
+  public places must be accessible; city buses are accessible (intercity NOT); ~900 licensed accessible
+  taxis with lifts/ramps; Apollonia, Akko Crusader city, most major museums are wheelchair-friendly.
+  Underserved niche with high loyalty + word-of-mouth → strong return. → BACKLOG (seo-content, P2, M).
+  HONESTY: verify site-level accessibility claim-by-claim; cite Access Israel + official sources; do
+  not fabricate accessibility ratings.
+
+- **Layover in Tel Aviv guide** — Tourist Israel has explicit "Layover in Tel Aviv" page. We have
+  ben-gurion-airport-transfers (HOW to reach city) but nothing on WHAT TO DO during a layover. High-
+  intent search from transit passengers (Ben Gurion is a major hub for Africa/Asia/Europe routes).
+  Content: 4h layover (airport only: duty free, lounges, kosher food, fast WiFi); 6h layover
+  (can reach Jaffa / old port by train + Uber, ~45 min each way); 8–10h layover (TLV beaches, Carmel
+  market, Florentin streets, quick Jaffa visit); 24h+ (fuller city itinerary). ETA-IL note (needed
+  if leaving terminal for 24h+). Links: airport-transfers guide, TLV food/nightlife/beaches guides.
+  → BACKLOG (seo-content, P2, S). HONESTY: transit visa/ETA varies by nationality — link official
+  PIBA source; don't assert universal rules.
+
+- **Digital nomad in Israel guide** — psimonmyway, nomadglory, terravan, ronkin-list, nomads.com
+  all rank for "digital nomad Tel Aviv / Israel". 131 coworking spaces in TLV (WeWork, Mindspace from
+  ~₪1,000/month); avg internet 200-500 Mbps (top-20 globally); no official digital-nomad visa (90-day
+  tourist — evergreen, legal gray area; do not encourage overstay). Tel Aviv = world's 3rd most
+  expensive city. Unique angle vs competitors: integrate with our transport + where-to-stay + food +
+  cost-budget pages. → BACKLOG (seo-content, P3, M). HONESTY: visa status is a legal gray area —
+  frame factually, recommend official advice, no "how to stay longer" coaching.
+
+CAUTION (iter 30): photography SERPs include the Dome of the Rock / Western Wall as top shots — flag
+the restrictedSiteAcknowledgment requirement for photo-credits.json on any image used (already
+enforced by existing ESLint AFF-04 + credits gate). Cruise SERPs surfaced some real-time ship
+schedules — keep content evergreen, link live resources. Hebron excluded.

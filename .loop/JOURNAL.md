@@ -373,3 +373,23 @@ Gate (CI): GitHub Actions run 28028273089 → conclusion=success (pnpm check 0 e
 browser-version artifact (symlinked v1194 headless_shell ≠ expected v1228; CI uses correct binary).
 Ship: 64e33b6 pushed to master (by prior session); prod deploy confirmed CI success.
 Next: iter 30 = BUILD/technical — responsive srcset via <Pic> (P2 backlog item).
+
+## 2026-06-23 · iter 30 · RESEARCH · primary audience + niche-segment + visual-content scan
+Mode: RESEARCH (30%5==0). No ship.
+What: Searched 6 untapped competitor angles across tourist-segment, visual-content, and niche-access
+verticals. Verified against current guides (41 guides exist incl. airport-transfers, nightlife, events,
+kosher-food, christian-pilgrimage) to de-dupe before adding.
+Findings — 6 net-new BACKLOG items added:
+  1. Jewish heritage travel guide (seo-content, P1, M) — #1 audience gap; Tourist Israel/Bein Harim
+     rank; we have christian pilgrimage but ZERO Jewish heritage content despite diaspora = primary segment.
+  2. Layover in Tel Aviv (seo-content, P2, S) — Tourist Israel has explicit page; we have airport
+     transfers (HOW to get there) but not "what to do during layover" angle. Small effort, high intent.
+  3. Photography / best photo spots (seo-content, P2, M) — Walk My World, locationscout, israel21c
+     all rank; we have 63 attraction pages but no visual hub with timing + etiquette.
+  4. Accessible travel guide (seo-content, P2, M) — iter20 said thin signal; re-check found Access
+     Israel + Atij as active competitor orgs; underserved niche with strong word-of-mouth.
+  5. Cruise port shore excursions (monetization, P2, M) — Tourist Israel + Bein Harim rank; Haifa +
+     Ashdod ports; distinct time-constrained segment with high day-tour booking intent.
+  6. Digital nomad in Israel (seo-content, P3, M) — multiple competitors; 131 coworking spaces in TLV.
+Gate: N/A (research only).
+Next: iter 31 = BUILD/technical — responsive srcset via <Pic> (P2 backlog item).
