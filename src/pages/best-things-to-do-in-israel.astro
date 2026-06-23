@@ -1,0 +1,181 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '@/layouts/BaseLayout.astro';
+import Hero from '@/components/Hero.astro';
+import Breadcrumbs from '@/components/Breadcrumbs.astro';
+import AuthorByline from '@/components/AuthorByline.astro';
+import Pic from '@/components/Pic.astro';
+import FaqSection from '@/components/FaqSection.astro';
+import JsonLd from '@/components/JsonLd.astro';
+import { getRegion } from '@/data/regions';
+import { attractionName, attractionRegion, attractionSlug } from '@/lib/content';
+import { defaultAuthor } from '@/data/authors';
+import { article, breadcrumbList, SITE, type Faq } from '@/lib/schema';
+
+const title = 'Best Things to Do in Israel: 18 Must-See Highlights (2026)';
+const description =
+  'The best things to do in Israel — from Jerusalem’s Old City and floating in the Dead Sea to the Bahá’í Gardens, the Sea of Galilee and the Red Sea. A curated bucket list with where each one is and how to fit it into your trip.';
+const path = '/best-things-to-do-in-israel';
+
+// Curated, geographically-spread bucket list. Each maps to a real attraction
+// page (image + URL pulled from content — no fabricated data).
+const curated: { id: string; blurb: string }[] = [
+  { id: 'jerusalem-old-city', blurb: 'Lose yourself in the four walled quarters where Judaism, Christianity and Islam meet within a ten-minute walk.' },
+  { id: 'jerusalem-western-wall', blurb: "Stand at the Western Wall, the holiest site in Judaism and the surviving wall of the Second Temple." },
+  { id: 'jerusalem-holy-sepulchre', blurb: 'Enter the church built over the traditional sites of the Crucifixion and the empty Tomb.' },
+  { id: 'dead-sea-masada', blurb: 'Climb Herod’s cliff-top fortress for a desert sunrise, then descend by cable car.' },
+  { id: 'dead-sea-ein-gedi', blurb: 'Hike the waterfalls of the Ein Gedi oasis, then float effortlessly in the salty Dead Sea nearby.' },
+  { id: 'tel-aviv-tayelet', blurb: 'Walk or cycle the Mediterranean promenade between the city beaches and Old Jaffa.' },
+  { id: 'tel-aviv-old-jaffa', blurb: 'Wander the ancient port’s stone lanes, galleries and flea market at the south end of the beach.' },
+  { id: 'tel-aviv-carmel-market', blurb: 'Graze your way through Tel Aviv’s busiest food market, then dive into the surrounding bar scene.' },
+  { id: 'haifa-bahai-gardens', blurb: 'Marvel at the perfectly terraced Bahá’í Gardens cascading down Mount Carmel — a UNESCO site.' },
+  { id: 'galilee-capernaum', blurb: 'Follow the Gospels around the Sea of Galilee at Capernaum, “his own town”.' },
+  { id: 'nazareth-basilica-of-the-annunciation', blurb: 'See the largest church in the Middle East, built over the traditional home of Mary.' },
+  { id: 'caesarea-national-park', blurb: 'Explore the Roman harbour, theatre and aqueduct of Herod’s seaside city.' },
+  { id: 'akko-old-city', blurb: 'Descend into the vaulted Crusader halls beneath the Ottoman port city of Akko.' },
+  { id: 'negev-mitzpe-ramon', blurb: 'Stand on the rim of the Makhtesh Ramon, the world’s largest erosion crater, under dark desert skies.' },
+  { id: 'eilat-coral-beach', blurb: 'Snorkel or dive the Red Sea coral reefs at Israel’s southern tip.' },
+  { id: 'golan-mount-bental', blurb: 'Take in the volcanic Golan Heights and the Syrian border from the old bunkers of Mount Bental.' },
+  { id: 'jerusalem-yad-vashem', blurb: 'Pay your respects at Israel’s moving Holocaust memorial and museum.' },
+  { id: 'jerusalem-mahane-yehuda', blurb: 'Eat through the Mahane Yehuda market — produce stalls by day, bars and live music by night.' },
+];
+
+const attractions = await getCollection('attractions');
+const byId = Object.fromEntries(attractions.map((a) => [a.id, a]));
+const items = curated
+  .map((c) => byId[c.id] && { ...c, entry: byId[c.id]! })
+  .filter(Boolean)
+  .map((c: any) => ({
+    name: attractionName(c.entry),
+    region: getRegion(attractionRegion(c.entry))?.name ?? attractionRegion(c.entry),
+    href: `/${attractionRegion(c.entry)}/${attractionSlug(c.entry)}`,
+    image: c.entry.data.heroImage as string,
+    blurb: c.blurb as string,
+  }));
+
+const crumbs = [
+  { name: 'Home', path: '/' },
+  { name: 'Plan your trip', path: '/plan-your-trip' },
+  { name: 'Best things to do', path },
+];
+
+const faqs: Faq[] = [
+  {
+    question: 'What are the best things to do in Israel?',
+    answer:
+      'The headline experiences are exploring Jerusalem’s Old City, floating in the Dead Sea and climbing Masada at sunrise, the Bahá’í Gardens in Haifa, the Christian sites around the Sea of Galilee, Tel Aviv’s beaches and food scene, the Makhtesh Ramon crater in the Negev, and snorkelling the Red Sea at Eilat. This page is a curated bucket list of 18 of them across the country.',
+  },
+  {
+    question: 'What is the number one attraction in Israel?',
+    answer:
+      'Jerusalem’s Old City — the walled square kilometre holding the Western Wall, the Church of the Holy Sepulchre and the Dome of the Rock — is the single most-visited and most layered sight in the country, and the top of almost every Israel bucket list.',
+  },
+  {
+    question: 'How many days do you need to see the main sights?',
+    answer:
+      'A week covers the essentials (Jerusalem, Tel Aviv, the Dead Sea and a Galilee or Masada day); 10 days lets you add the Galilee and the south properly. Use our “how many days in Israel?” calculator to estimate your own, then turn it into a day-by-day itinerary.',
+  },
+  {
+    question: 'What is the best time to visit Israel?',
+    answer:
+      'Spring (March–May) and autumn (September–November) are ideal across the country — mild in Jerusalem and the Galilee, and not yet searing in the desert and at the Dead Sea. See our best-time-to-visit guide for the month-by-month picture.',
+  },
+];
+
+const itemListSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'ItemList',
+  name: 'Best things to do in Israel',
+  numberOfItems: items.length,
+  itemListElement: items.map((it, i) => ({
+    '@type': 'ListItem',
+    position: i + 1,
+    name: it.name,
+    url: `${SITE}${it.href}`,
+  })),
+};
+
+const schema = [
+  article({
+    headline: title,
+    description,
+    image: items[0]?.image ?? '/images/regions/jerusalem/hero.jpg',
+    path,
+    authorName: defaultAuthor.name,
+    authorUrl: defaultAuthor.url,
+  }),
+  breadcrumbList(crumbs),
+  itemListSchema,
+];
+---
+
+<BaseLayout
+  title={title}
+  description={description}
+  path={path}
+  ogImage="/og-default.jpg"
+  imageAlt="The best things to do in Israel"
+>
+  <JsonLd schema={schema} slot="head" />
+  <Hero
+    image="/images/regions/jerusalem/hero.jpg"
+    title="Best Things to Do in Israel"
+    subtitle="A curated bucket list of 18 must-see highlights — what they are, where to find them and how to fit them into your trip."
+    alt="Jerusalem’s Old City and the Dome of the Rock at golden hour"
+  />
+  <Breadcrumbs items={crumbs} />
+  <AuthorByline />
+
+  <section class="mx-auto max-w-3xl px-4">
+    <p class="text-lg leading-relaxed text-ink">
+      Israel packs an astonishing amount into a country the size of New Jersey — four
+      millennia of history, three of the world’s great faiths, a buzzing Mediterranean
+      coast and two deserts, all within a few hours’ drive. Here are the 18 experiences
+      worth building a trip around, spread across the
+      <a href="/" class="font-semibold text-primary">11 regions</a>. Short on time? See
+      <a href="/best-tours-in-israel" class="font-semibold text-primary">the best guided tours</a>
+      or use our <a href="/israel-how-many-days" class="font-semibold text-primary">trip-length calculator</a>.
+    </p>
+  </section>
+
+  <section class="mx-auto max-w-6xl px-4 pt-10" aria-labelledby="list">
+    <h2 id="list" class="sr-only">The 18 best things to do in Israel</h2>
+    <ol class="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
+      {
+        items.map((it, i) => (
+          <li class="flex flex-col overflow-hidden rounded-card border border-border bg-card shadow-card transition-shadow hover:shadow-card-hover">
+            <a href={it.href} class="img-zoom relative block aspect-[16/10] no-underline">
+              <Pic src={it.image} alt={it.name} width="800" height="500" class="h-full w-full object-cover" />
+              <span class="absolute left-3 top-3 rounded-full bg-black/60 px-2.5 py-1 text-xs font-semibold text-white backdrop-blur-sm">
+                {i + 1}. {it.region}
+              </span>
+            </a>
+            <div class="flex flex-1 flex-col gap-2 p-4">
+              <h3 class="font-display text-lg font-bold leading-snug text-ink">
+                <a href={it.href} class="no-underline hover:text-primary">{it.name}</a>
+              </h3>
+              <p class="flex-1 text-sm text-ink-muted">{it.blurb}</p>
+              <a href={it.href} class="mt-auto text-sm font-semibold text-primary no-underline hover:underline">
+                More on {it.name} &rarr;
+              </a>
+            </div>
+          </li>
+        ))
+      }
+    </ol>
+  </section>
+
+  <section class="mx-auto max-w-3xl px-4 pt-14" aria-labelledby="more">
+    <h2 id="more" class="mb-4 font-display text-2xl font-bold text-ink">Keep planning</h2>
+    <p class="text-ink-muted">
+      Stitch these into a route with our <a href="/itineraries" class="font-semibold text-primary">itineraries</a>
+      and <a href="/build-your-trip" class="font-semibold text-primary">trip builder</a>, add a
+      <a href="/petra-from-israel" class="font-semibold text-primary">Petra side-trip</a> from Eilat, and
+      sort <a href="/where-to-stay/jerusalem" class="font-semibold text-primary">where to stay</a> and the
+      <a href="/best-time-to-visit-israel" class="font-semibold text-primary">best time to visit</a> before you go.
+    </p>
+  </section>
+
+  <FaqSection faqs={faqs} />
+  <AuthorByline />
+</BaseLayout>

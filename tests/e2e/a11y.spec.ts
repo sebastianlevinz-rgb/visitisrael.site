@@ -17,6 +17,7 @@ const ROUTES = [
   '/which-israel-region-quiz',
   '/israel-distance-calculator',
   '/israel-how-many-days',
+  '/best-things-to-do-in-israel',
   '/where-to-stay/jerusalem',
   '/transport/jerusalem-to-dead-sea',
   '/search',

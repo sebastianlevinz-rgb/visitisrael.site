@@ -6,6 +6,7 @@ const currentLocale = getLocaleFromPath(Astro.url.pathname);
 const t = useTranslations(currentLocale);
 const navRegions = REGIONS.slice(0, 6);
 const planLinks = [
+  { href: '/best-things-to-do-in-israel', label: 'Things to do' },
   { href: '/itineraries', label: 'Itineraries' },
   { href: '/build-your-trip', label: 'Build your trip' },
   { href: '/best-tours-in-israel', label: 'Tours' },
