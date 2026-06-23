@@ -471,3 +471,20 @@ Gate: pnpm check 0 errors (97 files); build 161 pages (+4); CI success (run 2805
 Ship: master bdf599e (includes 4531117 content commit + bdf599e Playwright fix).
 fr: 4/147, de: 4/147 (home + plan-your-trip + first-time-in-israel + visa-information).
 Next: iter 37 = BUILD/tools (resume normal rotation). Next i18n = batch 2 (best-time/transport/cost).
+
+## 2026-06-23 · iter 37 · BUILD (tools) · weather & packing widget
+What: New /israel-weather-packing tool (P2 tools backlog). 12-month × 4-zone (Coast / Jerusalem
+& Hills / Dead Sea+Negev+Eilat / Galilee+Golan) interactive widget: pick month + region → instant
+packing list (5–7 items), temperature range, conditions note, crowd level, and contextual tip.
+Data: static typed TS (MonthData[12]), vanilla-JS island, aria-live="polite" result panel,
+WCAG-compliant accessible radio + button UI (focus-visible, sr-only hidden radio, has-[:checked]
+zone highlighting). Bonus: 12×4 seasonal at-a-glance reference table, and "always-in-your-bag"
+6-card evergreen packing section. Wired: Footer plan column + PlanYourTripPage tools grid (now 9
+tools) + i18n dict tool.weather key (en/fr/de). Playwright test: initial hidden state → month+zone
+→ result visible + items rendered + zone switch updates temp. Smoke + a11y routes added.
+Bug fixed during check pass: curly apostrophe in `'Jerusalem's Old City` (Astro template JS literal)
+→ changed to double-quoted string. Removed unused ZONES constant.
+Gate (local): pnpm check 0 errors (98 files); pnpm build 162 pages (+1); check:links 0 broken/0
+orphan/0 unreachable/0 deep — max depth 3 (prev 2; advisory only, threshold >3; 0 pages exceed it).
+Ship: squash-commit b71cae8 pushed to master. CI run 28055361589 in_progress at state-write time.
+Next: iter 38 = BUILD/technical; iter after = i18n Phase 2 batch 2 (best-time/transport/cost).

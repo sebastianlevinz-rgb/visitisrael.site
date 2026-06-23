@@ -49,7 +49,6 @@ bounded, gated BUILD item. Full architecture + honesty rules + progress tracker 
 - [P3] (seo-content, M) "Israel honeymoon / romantic getaway" guide — net-new, commercial intent (luxury stays, couples experiences, Dead Sea spa, wine country) → affiliate — roundup + where-to-stay/private-tours cross-links; honest, no fabricated prices. [iter20 research] status: ready
 
 ## tools
-- [P2] (tools, M) Month-by-month weather & "what to pack" widget by region — engagement — static climate data table + interactive month selector. status: ready
 - [P3] (tools, M) Kosher / vegan restaurant finder (filterable list from curated data) — niche high-intent. status: ready
 
 ## technical
