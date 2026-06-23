@@ -11,4 +11,6 @@ test('no broken internal links in the built site', () => {
     throw new Error('check-links failed:\n' + (e.stdout || '') + (e.stderr || ''));
   }
   expect(out).toContain('0 broken link(s)');
+  // Every page stays reachable from the home page (≤ a few clicks).
+  expect(out).toContain('0 unreachable');
 });

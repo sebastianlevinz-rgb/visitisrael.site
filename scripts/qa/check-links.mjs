@@ -69,6 +69,7 @@ const ORPHAN_EXCLUDE_PREFIX = ['/dashboard', '/pitch', '/competitors', '/content
 const htmlPages = allFiles.filter((f) => f.endsWith('.html'));
 const broken = []; // { page, href }
 const inbound = new Map(); // route → count
+const outbound = new Map(); // route → Set(target routes) — for click-depth BFS
 
 const HREF_RE = /href="([^"]*)"/g;
 
@@ -89,9 +90,36 @@ for (const file of htmlPages) {
     const target = normRoute(href);
     if (pageRoutes.has(target) && target !== route) {
       inbound.set(target, (inbound.get(target) || 0) + 1);
+      if (!outbound.has(route)) outbound.set(route, new Set());
+      outbound.get(route).add(target);
     }
   }
 }
+
+// Click-depth from the home page (BFS over the page-link graph). Goal: every
+// content page reachable in a few clicks. Advisory (warns), never fails.
+const DEPTH_WARN = 3;
+const depth = new Map([['/', 0]]);
+let frontier = ['/'];
+while (frontier.length) {
+  const next = [];
+  for (const node of frontier) {
+    for (const target of outbound.get(node) || []) {
+      if (!depth.has(target)) {
+        depth.set(target, depth.get(node) + 1);
+        next.push(target);
+      }
+    }
+  }
+  frontier = next;
+}
+const reachExclude = (r) =>
+  ORPHAN_EXCLUDE.has(r) || ORPHAN_EXCLUDE_PREFIX.some((p) => r === p || r.startsWith(p + '/'));
+const unreachable = [...pageRoutes].filter((r) => !depth.has(r) && !reachExclude(r));
+const deep = [...pageRoutes]
+  .filter((r) => depth.has(r) && depth.get(r) > DEPTH_WARN && !reachExclude(r))
+  .sort((a, b) => depth.get(b) - depth.get(a));
+const maxDepth = Math.max(0, ...[...depth.values()]);
 
 const orphans = [...pageRoutes].filter((r) => {
   if (inbound.get(r)) return false;
@@ -117,11 +145,20 @@ if (orphans.length) {
   console.warn('\nORPHAN pages (no inbound internal link — review):');
   for (const o of orphans.sort()) console.warn(`  ${o}`);
 }
+if (unreachable.length) {
+  console.warn('\nUNREACHABLE from home (not in the click graph — review):');
+  for (const u of unreachable.sort()) console.warn(`  ${u}`);
+}
+if (deep.length) {
+  console.warn(`\nDEEP pages (> ${DEPTH_WARN} clicks from home — consider a closer cross-link):`);
+  for (const d of deep) console.warn(`  ${depth.get(d)} clicks  ${d}`);
+}
 
 console.log(
-  `\nRESULT: ${brokenUnique.length} broken link(s), ${orphans.length} orphan page(s) ` +
-    `across ${htmlPages.length} pages.`
+  `\nRESULT: ${brokenUnique.length} broken link(s), ${orphans.length} orphan page(s), ` +
+    `${unreachable.length} unreachable, ${deep.length} deep (>${DEPTH_WARN} clicks); ` +
+    `max depth ${maxDepth} across ${htmlPages.length} pages.`
 );
 
-// Broken links fail the build; orphans are advisory only.
+// Broken links fail the build; orphans/depth are advisory only.
 process.exit(brokenUnique.length > 0 ? 1 : 0);
