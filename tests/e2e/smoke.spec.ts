@@ -11,6 +11,7 @@ const ROUTES = [
   '/first-time-in-israel',
   '/israeli-food-cuisine-guide',
   '/best-holy-land-tours',
+  '/jerusalem-tours-compared',
   '/visa-information',
   '/plan-your-trip',
   '/build-your-trip',
