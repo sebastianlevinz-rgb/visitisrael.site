@@ -52,14 +52,14 @@
 
 ## Progress tracker (loop updates this each i18n iteration)
 
-- Current phase: **Phase 2 STARTED (iter 25, SHA 2ec51a9)**: first content page translated — /fr/plan-your-trip + /de/plan-your-trip via a locale-aware <PlanYourTripPage locale> component + 3 route files + plan.*/tool.* dict keys + pageAlternates() helper. Localized-home "plan" CTA now points to the localized page (fixed orphan/unreachable the link-checker caught). PATTERN ESTABLISHED for non-collection .astro pages. Next: translate more .astro/landing pages (404 via per-locale routes, tool landing copy) the same way; GUIDES ×39 still need content-collection i18n routing (bigger sub-decision — dedicated iteration). fr 2/147, de 2/147 (home + plan-your-trip).
+- Current phase: **Phase 2 BATCH 1 DONE (iter 36, SHA bdf599e)**: first-time-in-israel + visa-information shipped in fr+de via src/content/guides/fr|de/ subdir routing. Hreflang alternates (en/fr/de/x-default) computed in [...slug].astro via guideAlternates prop. Locale detection from entry.id prefix; locale-aware breadcrumbs via useTranslations(entryLocale). CI all-green (21/21 e2e+a11y). fr 4/147, de 4/147 (home + plan-your-trip + first-time-in-israel + visa-information). Next batch: best-time-to-visit + transportation + cost-budget (fr+de).
 - Phase 1c — DONE (iter 22): mobile-menu nav labels. Phase 1a/1b/leak — chrome. NOTE: /plan-your-trip + 404 body copy need /fr/ + /de/ ROUTE VARIANTS (static host serves one /404.html for all 404s; root .astro pages have no locale variant) → fold into Phase 2 as .astro page clones (same proven pattern as the fr/de home pages). Page-aware switcher still deferred until ≥1 content page exists per locale.
 - Phase 1a/1b — DONE (iters 15/17): Header + Footer chrome.
 - Phase 1a — DONE (iter 15, 83379f9): Header chrome.
 - Phase 0 — DONE (iter 12, 5b80c35); og:locale:alternate added iter14 (1dc48a5).
 - Shipped in Phase 0: astro i18n config; src/i18n/ui.ts (locales/t()/helpers/dict); BaseLayout <html lang> + og:locale + reciprocal hreflang via `alternates` prop; header language switcher (desktop+mobile); /fr/ + /de/ localized landing pages (Hero + rollout notice + regions grid + plan CTA); homeAlternates() reciprocity on en home; smoke hreflang test + /fr/ a11y. Live: /fr/ + /de/ 200, lang+4 hreflang verified in prod.
 - DEFERRED (later phases, not regressions): sitemap hreflang; page-aware language switcher (currently → locale home); translated header/footer nav strings (en pages unaffected; fr/de pages still show EN chrome); per-collection content translation.
-- fr pages shipped: 1 / ~147 (home) · de pages shipped: 1 / ~147 (home)
+- fr pages shipped: 4 / ~147 (home + plan-your-trip + first-time-in-israel + visa-information) · de pages shipped: 4 / ~147 (same)
 - Notes: language decision = fr+de (user, 2026-06-22). Arabic explicitly NOT chosen (avoids RTL +
   contested-naming load). Hebrew not requested (audience is foreign tourists; old bilingual he/en site
   is on backup branch if ever revived).

@@ -10,7 +10,7 @@ bounded, gated BUILD item. Full architecture + honesty rules + progress tracker 
 - [x] Phase 1a — Header chrome localized (fr/de). DONE iter15 (83379f9).
 - [x] Phase 1b — Footer chrome localized (fr/de). DONE iter17 (360ded7).
 - [x] Phase 1c — mobile-menu nav labels localized (fr/de); all shared chrome done. DONE iter22 (2a3868d). (/plan-your-trip + 404 BODY copy moved into Phase 2 — need /fr//de/ route variants.)
-- [P1] (i18n, L) Phase 2 — guides ×39 in fr+de, batches of ~4–6/iteration, highest-intent first (first-time, visa/ETA, best-time, transportation, cost-budget, tours, day-trips). status: ready
+- [P1] (i18n, L) Phase 2 — guides ×39 in fr+de, batches of ~4–6/iteration. Batch 1 DONE (iter36): first-time-in-israel + visa-information (fr+de). Next batch: best-time-to-visit + transportation + cost-budget (fr+de). status: in-progress (4/39 guide pages shipped — fr/de 4/147 each)
 - [P2] (i18n, M) Phase 3 — regions ×11 in fr+de (2–3 batches). status: ready
 - [P2] (i18n, L) Phase 4 — attractions ×63 in fr+de (batches of ~8–10). status: ready
 - [P2] (i18n, M) Phase 5 — itineraries ×4 + tools-island UI strings; legal pages decision. status: ready

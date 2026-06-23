@@ -451,3 +451,23 @@ De-duped against DONE+existing backlog (wine/festivals/tel-aviv-vs-jerusalem/dea
 - P2 seo+monetization: Israel + Jordan 10-day combined itinerary (distinct from petra day-trip guide)
 No code changed; gate not run (research mode).
 Next: iter 36 = BUILD — i18n Phase 2 MANDATED (10 BUILD iters since last i18n, severely overdue).
+
+## 2026-06-23 · iter 36 · BUILD (i18n) · Phase 2 batch 1 — fr/de guides: first-time-in-israel + visa-information
+What: First guide-collection content translations for fr+de. Added 4 new guide pages:
+  src/content/guides/fr/first-time-in-israel.md — French first-timer guide (practical pre-trip checklist,
+    ETA-IL, customs, packing, SIM, transport — locale-specific CTAs to visa/esim/airport-transfers pages).
+  src/content/guides/de/first-time-in-israel.md — German equivalent.
+  src/content/guides/fr/visa-information.md — French visa/ETA-IL guide (ETA-IL cost/validity, border
+    entry slip, 90-day stay, land-crossing note — 6 FAQs covering the most-searched visa questions).
+  src/content/guides/de/visa-information.md — German equivalent.
+Routing: Astro content-collection glob picks up fr/de/ subdir automatically via existing [...slug].astro
+catch-all. Locale detection from entry.id prefix; hreflang alternates (en/fr/de + x-default) computed and
+passed as guideAlternates prop to BaseLayout. Locale-aware breadcrumbs + useTranslations(entryLocale).
+Playwright fix (bdf599e): contextOptions: { reducedMotion: 'reduce' } — was placed incorrectly directly
+in use: {} (ts(2769)); moved to contextOptions nested object per Playwright v1.61 BrowserContextOptions
+API. Eliminates data-reveal axe-core color-contrast false positives (opacity:0 at scan time).
+Gate: pnpm check 0 errors (97 files); build 161 pages (+4); CI success (run 28053366320):
+  type check ✓, build ✓, Playwright install ✓, e2e+a11y 21/21 ✓; SHA bdf599e.
+Ship: master bdf599e (includes 4531117 content commit + bdf599e Playwright fix).
+fr: 4/147, de: 4/147 (home + plan-your-trip + first-time-in-israel + visa-information).
+Next: iter 37 = BUILD/tools (resume normal rotation). Next i18n = batch 2 (best-time/transport/cost).
