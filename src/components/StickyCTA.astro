@@ -1,18 +1,20 @@
 ---
 import { affiliateUrl } from '@/config/affiliates';
+import { getLocaleFromPath, useTranslations } from '@/i18n/ui';
+const t = useTranslations(getLocaleFromPath(Astro.url.pathname));
 const flights = affiliateUrl('skyscanner', { destination: 'Israel' });
 const hotels = affiliateUrl('booking', { destination: 'Israel' });
 const tours = affiliateUrl('getyourguide', { query: 'Israel' });
 
 const items = [
-  { href: flights, label: 'Flights', icon: 'M3.5 19h17M4 14l5-1 4-6 2 1-2 5 5-1 1 2-13 4z' },
-  { href: hotels, label: 'Hotels', icon: 'M3 21V8l9-5 9 5v13M9 21v-6h6v6M3 21h18' },
-  { href: tours, label: 'Tours', icon: 'M12 2a7 7 0 0 0-7 7c0 5 7 13 7 13s7-8 7-13a7 7 0 0 0-7-7m0 9.5A2.5 2.5 0 1 1 12 6.5a2.5 2.5 0 0 1 0 5z' },
+  { href: flights, label: t('cta.flights'), icon: 'M3.5 19h17M4 14l5-1 4-6 2 1-2 5 5-1 1 2-13 4z' },
+  { href: hotels, label: t('cta.hotels'), icon: 'M3 21V8l9-5 9 5v13M9 21v-6h6v6M3 21h18' },
+  { href: tours, label: t('cta.tours'), icon: 'M12 2a7 7 0 0 0-7 7c0 5 7 13 7 13s7-8 7-13a7 7 0 0 0-7-7m0 9.5A2.5 2.5 0 1 1 12 6.5a2.5 2.5 0 0 1 0 5z' },
 ];
 ---
 
 <nav
-  aria-label="Quick booking"
+  aria-label={t('cta.quickBooking')}
   class="fixed inset-x-0 bottom-0 z-40 grid grid-cols-3 border-t border-border bg-card/95 backdrop-blur-md lg:hidden"
 >
   {

@@ -77,6 +77,11 @@ const ui = {
     'footer.about': 'About',
     'footer.copyright':
       'An independent travel guide. Photography via Wikimedia Commons and original AI-assisted artwork. This site contains affiliate links.',
+    'cta.flights': 'Flights',
+    'cta.hotels': 'Hotels',
+    'cta.tours': 'Tours',
+    'cta.quickBooking': 'Quick booking',
+    'a11y.skipToContent': 'Skip to content',
   },
   fr: {
     'home.heroTitle': 'Visiter Israël',
@@ -101,6 +106,11 @@ const ui = {
     'footer.about': 'À propos',
     'footer.copyright':
       'Un guide de voyage indépendant. Photographies via Wikimedia Commons et illustrations originales assistées par IA. Ce site contient des liens d’affiliation.',
+    'cta.flights': 'Vols',
+    'cta.hotels': 'Hôtels',
+    'cta.tours': 'Visites',
+    'cta.quickBooking': 'Réservation rapide',
+    'a11y.skipToContent': 'Aller au contenu',
   },
   de: {
     'home.heroTitle': 'Israel besuchen',
@@ -125,6 +135,11 @@ const ui = {
     'footer.about': 'Über uns',
     'footer.copyright':
       'Ein unabhängiger Reiseführer. Fotos über Wikimedia Commons und originale KI-gestützte Grafiken. Diese Website enthält Affiliate-Links.',
+    'cta.flights': 'Flüge',
+    'cta.hotels': 'Hotels',
+    'cta.tours': 'Touren',
+    'cta.quickBooking': 'Schnellbuchung',
+    'a11y.skipToContent': 'Zum Inhalt springen',
   },
 } satisfies Record<Locale, Record<string, string>>;
 
