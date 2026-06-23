@@ -118,7 +118,7 @@ Audited the not-yet-reviewed slice. Checks: (1) all 21 internal links in best-ho
 visa-information resolve — 0 dead; (2) external OFFICIAL ETA portal (israel-entry.piba.gov.il)
 returns HTTP 200 — authoritative link healthy; (3) JSON-LD valid on both (Org/WebSite/Article/
 Breadcrumb/FAQPage), no aggregateRating/ratingValue — honesty intact; (4) unique titles, correct
-canoncias, single H1; (5) no prettier \* corruption in the .md tables, comparison table renders
+canonicas, single H1; (5) no prettier \* corruption in the .md tables, comparison table renders
 proper <strong>; (6) sitemap lastmod 123 (+1 for new guide, no regression). Review CLEAN.
 Fix (quick + safe, full gate): first-time-in-israel had NO inbound link to /visa-information (now
 a key page post-ETA); added an entry-requirements sentence linking it + updated its visa FAQ for
@@ -435,3 +435,19 @@ as a destination per project rules.
 Gate: pnpm check 0 err; pnpm build 157 pages; check:links 0 broken/orphans/unreachable/deep; max depth 2.
 Result: ALL CLEAN — no fixes shipped.
 Next: iter 35 = RESEARCH (35%5=0). After that: iter 36 BUILD should be i18n Phase 2 (severely overdue).
+
+## 2026-06-23 · iter 35 · RESEARCH · adventure/lifecycle/wellness/food-tour/free/holidays/Jordan scan (NO SHIP)
+Mined 5 fresh competitor angles not covered in iters 5/10/20/30. Searched Tourist Israel, Plan It Israel,
+Time Out Israel, TripAdvisor, Touchpoint Israel, earthtrekkers, Viator, Bein Harim, Delicious Israel,
+Neshima Israel, deadsea.com, Israel First Hand, Bnei Mitzvah Trip.
+De-duped against DONE+existing backlog (wine/festivals/tel-aviv-vs-jerusalem/dead-sea/hiking/diving already covered).
+7 curated items added to BACKLOG:
+- P1 seo+monetization: Adventure sports & outdoor hub (missing segment; big competitor gap; GYG/Viator CTAs)
+- P1 seo+monetization: Bar/Bat Mitzvah destination travel (highest-intent Jewish lifecycle niche)
+- P2 seo+monetization: Jewish holidays practical travel guide (distinct from events-festivals calendar)
+- P2 seo+monetization: Wellness, spa & hot springs (distinct from Dead Sea comparison; booking CTAs)
+- P2 monetization: Food tours & cooking classes (distinct from food/restaurant guides; GYG/Viator)
+- P2 seo-content: Free things to do hub (budget segment; Bahá'í Gardens / Yad Vashem / TLV beaches)
+- P2 seo+monetization: Israel + Jordan 10-day combined itinerary (distinct from petra day-trip guide)
+No code changed; gate not run (research mode).
+Next: iter 36 = BUILD — i18n Phase 2 MANDATED (10 BUILD iters since last i18n, severely overdue).

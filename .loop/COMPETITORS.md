@@ -160,3 +160,99 @@ CAUTION (iter 30): photography SERPs include the Dome of the Rock / Western Wall
 the restrictedSiteAcknowledgment requirement for photo-credits.json on any image used (already
 enforced by existing ESLint AFF-04 + credits gate). Cruise SERPs surfaced some real-time ship
 schedules — keep content evergreen, link live resources. Hebron excluded.
+
+### 2026-06-23 · iter 35 · adventure/lifecycle/wellness/food-tour/free/holidays/Jordan scan
+
+Mined 5 fresh angles not previously covered. De-duped against DONE + existing backlog
+(wine = israel-wine-wineries.md DONE; tel-aviv-vs-jerusalem = DONE; dead-sea = DONE;
+events-festivals = DONE; hiking = DONE). Added 7 curated items.
+
+- **Adventure sports & outdoor activities** — Tourist Israel ("Extreme Sports in Israel"),
+  Plan It Israel ("11 Thrilling Adventure Activities in Israel"), Time Out Israel (Thrill-seekers
+  guide: land/water/sky), Viator, Israel First Hand all rank for "adventure activities Israel",
+  "extreme sports Israel", "outdoor activities Israel". We only cover hiking (long trails/day hikes)
+  and Eilat diving/snorkeling. Major missing cluster: surfing + windsurfing (TLV/Haifa/Eilat
+  Mediterranean), kitesurfing (Haifa Bay), canyoning + rappelling (Negev/Judean desert, Sodom Salt
+  Caves 80m abseil), sand surfing (Negev), hot-air balloon (Rize — 1-10 pax), Mount Hermon skiing
+  (50 snow days/year, Jan–March), cable waterskiing (Tel Aviv Begin Park Lake TLV), spelunking,
+  ATV, zip-lining. Strong GYG/Viator monetization. → BACKLOG (seo-content+monetization, P1, M).
+
+- **Bar/Bat Mitzvah destination travel** — Tourist Israel has a dedicated 10-day Bar Mitzvah tour
+  package page + type taxonomy (/type/bar-mitzvah-tours/); Ayelet Tours, Bein Harim, Danny the
+  Digger, Israel Connection Tours, Bnei Mitzvah Trip all have dedicated pages. Multigenerational
+  family travel driven by Jewish lifecycle milestone — highest-intent Jewish diaspora segment
+  (same audience as our jewish-heritage-israel.md, but distinct travel format). Key facts: boys
+  13yo / girls 12yo; 10–14 day trip recommended; 6–12 months ahead planning; ceremony venues
+  (Western Wall most popular, Masada dawn, Safed Ha'Ari synagogue). 80% of families report
+  stronger identity connection after return (high emotional ROI → word-of-mouth traffic). Keywords:
+  "bar mitzvah in Israel", "destination bar mitzvah", "bat mitzvah Israel trip". → BACKLOG
+  (seo-content+monetization, P1, M).
+
+- **Wellness, spa & hot springs** — deadsea.com, Neshima Israel (national spa guide), Touchpoint
+  Israel, Culture Trip, Frommers all have dedicated wellness content; distinct from our dead-sea
+  comparison guide (which is travel logistics, not therapeutic). Three anchors: (1) Dead Sea spa
+  hotels in Ein Bokek with mineral-mud treatments; (2) Tiberias Hot Springs / Hammat Tveria
+  (ancient sulfur pools, documented therapeutic use for rheumatism + skin conditions, rich in Mg/Ca/S);
+  (3) Old City hammam / Turkish bath (Jerusalem, Akko, Jaffa — authentic Ottoman tradition). Also:
+  Ein Gedi hot springs, Dead Sea psoriasis treatment programs. Hotel booking CTAs = good revenue.
+  Keywords: "Dead Sea spa Israel", "Tiberias hot springs", "wellness tourism Israel". → BACKLOG
+  (seo-content+monetization, P2, M).
+
+- **Food tours & cooking classes** — TripAdvisor ("10 Best Israel Food & Drink Tours 2026"),
+  Delicious Israel (dedicated culinary-tour operator), Cook In Israel, Touchpoint Israel ("8 Fabulous
+  Food Tours"), Israel21c, Dan Hotels blog all rank. Distinct from our existing food/restaurant
+  guides (WHAT to eat / WHERE to eat): this is HOW to experience food culture via guided experiences.
+  Machane Yehuda guided market tour (certified guides, up to 20 pax, free-to-tour plus optional
+  cooking demo in Tali Friedman's atelier); Carmel Market cooking workshop (Orly Ziv: breakfast →
+  tour → shop → cook 6 Mediterranean/ME dishes); hummus-making workshops; challah-baking workshops;
+  Jaffa food walk (Arab hummus corridor, Persian Jewish pastries, Yemenite cuisine). Keywords:
+  "food tour Israel", "cooking class Tel Aviv", "market tour Jerusalem". GYG/Viator CTAs.
+  → BACKLOG (monetization, P2, S).
+
+- **Free things to do in Israel** — TripAdvisor (two separate "10 Best Free Things" list pages for
+  Israel 2026), Touchpoint Israel ("18 Fun and Free Things in Tel Aviv"), United with Israel ("20
+  Best FREE Things in Israel"), Krista the Explorer (8 free Jerusalem activities), America Israel
+  Tours (7 free things) — all rank for "free things to do Israel". We have israel-cost-budget.md
+  (daily budget tiers + money-saving tips) but NO dedicated free-attractions hub. Key free items:
+  Yad Vashem (free, book online); Western Wall (free, 24/7); TLV beaches (free 13km strip,
+  Gordon/Frishman/Hilton/Alma); Yarkon Park (massive free public park with lakes, zoo, botanical
+  garden, sports); Ben-Gurion House (free English tours); Bahá'í Gardens guided tours (FREE —
+  competitors often miss this); Tel Aviv Greeters (free 3-4h walking tours, 6 pax max, book ahead);
+  Via Dolorosa (free walk); Machane Yehuda market walk (free to browse). Strong internal links to
+  our attraction/region pages. → BACKLOG (seo-content, P2, S).
+
+- **Traveling in Israel during Jewish holidays** — Tourist Israel has *dedicated* Passover-in-
+  Jerusalem, Passover-in-Tel-Aviv, Sukkot-in-Galilee, Purim, Hanukkah pages — not just a calendar.
+  Our israel-events-festivals.md is a month-by-month *calendar*; it does NOT serve the query
+  "what is it like to travel in Israel during Passover / Yom Kippur?" Key practical angles:
+  Passover: no chametz in most restaurants, Seder available via hotels/some restaurants, Birkat
+  Kohanim at the Kotel (hundreds of Kohanim + massive crowd — a once-in-a-year spectacle); Yom
+  Kippur: everything closes, zero cars, Israelis on bicycles — the "bicycle day", profound
+  atmosphere; Sukkot: outdoor sukkahs on balconies/restaurants, busy Jerusalem, festival events;
+  Hanukkah: street menorahs, holiday spirit, good time to visit; Purim: Tel Aviv carnivals and
+  street parties, costumes, one of the most festive days. → BACKLOG (seo-content, P2, M).
+
+- **Israel + Jordan 10-day combined itinerary** — Tourist Israel (10-day Israel+Jordan tour),
+  earthtrekkers.com ("10 Day Israel and Jordan Itinerary"), TourRadar, Compass Travel Israel,
+  Jordania Exclusiva all rank for "Israel and Jordan itinerary 10 days". Our petra-from-israel.md
+  covers a single border crossing for a day trip; not a multi-day combined trip. Standard 10-day
+  format: Jerusalem (3 days) → Dead Sea → Masada → Eilat → cross Yitzhak Rabin/Arava border →
+  Aqaba → Petra (2 days) → Wadi Rum → Amman → Jerash → re-enter via Allenby/King Hussein Bridge.
+  Note: Allenby crossing logistics (advance coordination required); Jordan stamp doesn't block
+  future Israeli entry but Israeli visa stamps can complicate Jordan/other Arab countries — frame
+  factually, recommend using a second passport if available. Keywords: "Israel Jordan trip 10 days",
+  "Israel and Jordan itinerary". Tour operator CTAs. → BACKLOG (seo-content+monetization, P2, M).
+
+DE-DUPED (not added — already covered): wine tourism (israel-wine-wineries.md DONE); festival
+calendar (israel-events-festivals.md DONE); Tel Aviv vs Jerusalem (tel-aviv-vs-jerusalem.md DONE);
+Dead Sea comparison (dead-sea-israel-vs-jordan.md DONE); hiking (hiking-in-israel.md DONE);
+Eilat diving (eilat-diving-snorkeling.md DONE); jewish heritage (jewish-heritage-israel.md DONE iter33).
+Also not re-added: budget/backpacking (iter20 decision stands), solo travel/honeymoon (iter20),
+digital nomad/accessible (iter30). Backlog now at ~25 ready items — curated, not bloated.
+
+CAUTION (iter 35): Bar/bat mitzvah SERPs mention specific Western Wall permit/coordination — frame
+as "contact your tour operator and local rabbi" rather than step-by-step instructions; conditions
+change. Jordan border crossing logistics: keep evergreen, link official sources (COGAT for Allenby,
+Jordan Tourism Board for Aqaba). Yom Kippur section: roads are genuinely empty by tradition/culture
+(not a legal ban) — frame as tradition, not law. Wellness/spa therapeutic claims: frame as "claimed"
+not guaranteed; link academic sources where available.
