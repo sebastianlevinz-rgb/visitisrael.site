@@ -203,7 +203,7 @@ What: /fr/ + /de/ showed an English header. Wired Header structural UI strings t
 dict (useTranslations): nav.itineraries label, nav.plan CTA (desktop+mobile), nav.search aria-label,
 mobile open-menu/Regions/Plan/Language labels. Added the 4 new keys (planShort/search/openMenu/
 language) in en/fr/de. EN pages verified UNCHANGED (en dict values == prior strings; /jerusalem still
-"Itineraries"/"Plan your trip"). FR verified localized (Itinéraires/Préparer votre voyage/Régions/
+"Itinéraires"/"Plan your trip"). FR verified localized (Itinéraires/Préparer votre voyage/Régions/
 Langue). Region + guide link DESTINATIONS stay English (point to English content) — labels are
 proper nouns; full link-label + footer + page-copy translation = Phase 1b.
 Gate: pnpm check 0 errors; build 150 pages; 59/59 e2e+a11y pass (new localized-header smoke assert).
@@ -393,6 +393,23 @@ Findings — 6 net-new BACKLOG items added:
   6. Digital nomad in Israel (seo-content, P3, M) — multiple competitors; 131 coworking spaces in TLV.
 Gate: N/A (research only).
 Next: iter 31 = BUILD/technical — responsive srcset via <Pic> (P2 backlog item).
+
+## 2026-06-23 · iter 32 · BUILD (monetization) · cruise port shore excursions guide
+What: New /cruise-shore-excursions-israel guide (P2 monetization backlog, top monetization item).
+Distinct segment: cruise passengers (high day-tour booking intent, time-constrained 4–9 hrs ashore).
+Haifa section: distance/time table (Bahá'í Gardens ~5min, Akko ~20min, Caesarea ~45min, Nazareth ~45min),
+3 recommended circuits (half-day/full-day/long-day). Ashdod section: same table format (Jerusalem
+~55min, Masada+Dead Sea ~2hr, Tel Aviv ~30min) + transport options (ship coach / sherut / private
+transfer / rental car). 3 affiliate CTAs: getyourguide (Haifa excursions), viator (Ashdod excursions),
+abraham (specialist Israel tour operators). 6 FAQs with honest price RANGES only (no exact prices),
+evergreen framing (no specific ship schedules). Dense internal links to existing pages.
+Wired: footer Day Trips column; smoke test route added. YAML Bahá'í apostrophe fix needed (single→double
+quotes for strings containing Bahá'í) — caught + fixed before ship.
+Gate: pnpm check 0 err; build 156 pages (+1); check:links 0 broken/orphans/unreachable/deep;
+e2e/a11y N/A (Chromium not in cloud env — CI covers gate, same as iter 31).
+Ship: b50ad64 pushed to master via GitHub MCP (local git push blocked HTTP 403 as in iter 31).
+CI: GitHub Actions run 28045013190 in_progress at state-write time.
+Next: iter 33 = BUILD/seo-content.
 
 ## 2026-06-23 · iter 31 · BUILD (technical) · responsive srcset for <Pic>
 What: Added -400w and -800w AVIF/WebP width variants to gen-avif-webp.mjs (idempotent, skips existing).
