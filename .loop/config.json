@@ -1,0 +1,17 @@
+{
+  "repo": "sebastianlevinz-rgb/visitisrael.site",
+  "productionBranch": "master",
+  "mergePolicy": "auto-merge-to-master-if-ci-green",
+  "rotation": ["monetization", "seo-content", "tools", "technical"],
+  "researchEveryNIterations": 5,
+  "reviewEveryNIterations": 5,
+  "higgsfield": {
+    "enabled": true,
+    "creditCapPerNight": 200,
+    "model": "soul_location",
+    "note": "QA every image for hallucinated text; reject & regenerate. Skip if MCP disconnected."
+  },
+  "gate": ["pnpm check", "pnpm build", "pnpm test:e2e"],
+  "notifyOn": ["prod-deploy-failure", "loop-stuck"],
+  "maxNewBacklogItemsPerResearch": 10
+}

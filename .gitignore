@@ -86,5 +86,6 @@ test-results/
 playwright-report/
 .playwright/
 
-# Autonomous loop operational state (local only)
-.loop/
+# Autonomous loop operational state — TRACKED so the cloud routine can read +
+# advance it across fresh checkouts. Only the local STOP control flag stays out.
+.loop/STOP
