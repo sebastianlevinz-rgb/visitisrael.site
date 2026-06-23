@@ -41,7 +41,7 @@ The Galilee is the heartland of the Gospels — the green hills, fishing village
 
 ## The pilgrimage circuit
 
-Most tours follow a version of this loop around the [Galilee](/galilee) and the [Sea of Galilee](/galilee/sea-of-galilee):
+Most tours follow a version of this loop around the [Galilee](/galilee) and its lakeside sites:
 
 - **[Nazareth](/nazareth)** — the town of the Annunciation, dominated by the vast modern **Basilica of the Annunciation** built over the traditional site of Mary's home. The [old city](/nazareth/old-city) and market add colour.
 - **[Capernaum](/galilee/capernaum)** — the lakeside town Jesus made his base. You'll see the ruins of an ancient synagogue and the octagonal church built over the traditional house of St Peter.
