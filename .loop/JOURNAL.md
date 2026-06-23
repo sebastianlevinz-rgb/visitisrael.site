@@ -358,3 +358,18 @@ footer/sticky/CTAs/affiliate cards → clean itinerary) to /build-your-trip. Pla
 button. Kept small (context ~81%). Gate: check 0 err; build 155; check:links clean; 68/68 pass.
 Ship: master 766643b, prod success. Next: iter 29 = BUILD/technical (or i18n interleave).
 SESSION CONTEXT ~81% — recommend fresh session for next iterations.
+
+## 2026-06-23 · iter 29 · REVIEW · iters 25-28 audit + transport md() link fix
+Audited the slice since last REVIEW (iter 24): i18n Phase 2 plan-your-trip fr/de (hreflang
+reciprocal, honest EN-rollout notice — clean), eSIM plan tiers (honest ranges, no fabricated exact
+prices — clean), Haifa→Akko transport route, build-your-trip print/PDF button (btn-ghost + @media
+print CSS — clean). Found ONE defect in haifa-to-akko: the recommendation string used [label](/path)
+markdown link syntax but md() only converted **bold** → links rendered as literal text, losing
+two internal cross-links (Bahá'í Gardens + Caesarea) and creating a visible content defect not caught
+by the href link-checker. Quick safe fix: extend md() to convert markdown link syntax to on-brand
+anchors (class="font-semibold text-primary..."). General fix for the template — all routes benefit.
+Gate (CI): GitHub Actions run 28028273089 → conclusion=success (pnpm check 0 err, build 155 pages,
+68/68 e2e+a11y pass). Local a11y runs show 8 color-contrast failures on tool pages — confirmed
+browser-version artifact (symlinked v1194 headless_shell ≠ expected v1228; CI uses correct binary).
+Ship: 64e33b6 pushed to master (by prior session); prod deploy confirmed CI success.
+Next: iter 30 = BUILD/technical — responsive srcset via <Pic> (P2 backlog item).
