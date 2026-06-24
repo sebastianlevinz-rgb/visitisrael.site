@@ -720,3 +720,20 @@ Gate: pnpm check 0 errors (101 files); build 172 pages (+1); 117/117 e2e+a11y pa
 Ship: squash-committed to master 3d6b2b7, pushed. Branch auto/seniors-guide deleted.
 Prod: CI in_progress at push time; prev SHA dcbdcef = success. Next iter start-check to confirm.
 Next: iter 49 = REVIEW (49%5==4). Confirm 3d6b2b7 CI; audit iters 46-48.
+
+## 2026-06-24 · iter 49 · REVIEW · audit iters 47-48 (a11y-parks-pass + seniors guide)
+What: Honoured REVIEW slot (49%5==4). Confirmed iter 48 CI success before audit started.
+  CI confirmed: CI workflow + Lighthouse both success for 3d6b2b7 (seniors guide).
+- iter 47 (491d0f7 a11y-parks-pass): trivial 1-line test addition (/israel-national-parks-pass to
+  a11y ROUTES array). CI success. CLEAN.
+- iter 48 (3d6b2b7 seniors guide): 24 internal links verified — regions (jerusalem/tel-aviv/galilee/
+  dead-sea/negev/caesarea/nazareth), attraction (/dead-sea/masada → dead-sea-masada.md via
+  attractionSlug helper, confirmed routing pattern), guides (11 targets), .astro pages (israel-
+  packing-list/weather-packing/trip-cost-calculator/how-many-days) — all OK. Hero image
+  (/images/regions/dead-sea/ein-bokek.jpg) + 3 CTA images all exist. Affiliates viator/abraham/
+  tourradar all in config.ts. No H1 in body; no ratingValue/aggregateRating; prices use "rough
+  guide only" + "verify at X" disclaimers; footer Essentials wired; /israel-for-seniors in both
+  smoke.spec.ts + a11y.spec.ts. CI + Lighthouse: success. CLEAN.
+Gate: N/A (no code changed — review clean).
+Result: ALL CLEAN — no fixes shipped.
+Next: iter 50 = RESEARCH (50%5==0). Seo-content BUILD deferred to iter 51.

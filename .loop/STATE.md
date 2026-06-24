@@ -1,27 +1,25 @@
 # LOOP STATE
 
-- iteration: 48
-- lastMode: BUILD
-- lastItem: Israel for seniors & over-50s guide (/israel-for-seniors) — monetization P2
-- lastResult: SHIPPED 3d6b2b7 — pnpm check 0 err; build 172 pages (+1); 117/117 e2e+a11y pass; CI in_progress
+- iteration: 49
+- lastMode: REVIEW
+- lastItem: review iters 47-48 (a11y-parks-pass fix + seniors guide) — CLEAN
+- lastResult: CLEAN — no defects found; CI 3d6b2b7 + 491d0f7 both confirmed success
 - nextRotationCategory: seo-content
 - higgsfieldSpent: 0
 - updatedAt: 2026-06-24
 - branch context: work on master; feature work on auto/<slug>
 
-Notes: iter 48 BUILD/monetization (48%5==3). Implemented Israel for seniors guide:
-  - /israel-for-seniors: best seasons, 2-3 sites/day pace, Dead Sea/Ein Bokek, Masada cable car,
-    Caesarea, Galilee boat trip, Old City Jerusalem with honest mobility caveats, small-group vs
-    private vs independent travel, medical infrastructure, medication, heat management, walking tips.
-  - 3 affiliate CTAs: Abraham Tours (escorted/private), TourRadar (comparison), Viator (day experiences).
-  - Footer Essentials link added after israel-with-kids; smoke + a11y routes added.
-  - Gate: pnpm check 0 errors (101 files); build 172 pages; 117/117 tests pass.
-  - Playwright 1.61 symlink workaround (same as iters 46-47): created
-    /opt/pw-browsers/chromium-1228/ (chromium) + /opt/pw-browsers/chromium_headless_shell-1228/ (a11y)
-    pointing to 1194 binaries — per-env, not persisted to repo.
-  - CI in_progress at push time; dcbdcef (prev) = success.
-Cron b7325b16 hourly @ :17. Loop history: 26 features + sitemap-lastmod + link-checker(+depth) + i18n
-Phase0/1a/1b/1c/2-batch1/2-batch2 + 11 review passes; iters 5/10/20/30/35/40/45 research.
+Notes: iter 49 REVIEW (49%5==4). Audited iters 47-48.
+  CI CONFIRMED: 3d6b2b7 (seniors guide) = CI success + Lighthouse success (both workflows).
+  - iter 47 (491d0f7 a11y parks-pass addition): trivial 1-line test fix; CI success. CLEAN.
+  - iter 48 (3d6b2b7 seniors guide): all 24 internal links resolve (dead-sea/masada via attractionSlug
+    helper — confirmed routing pattern from iter 47 review); hero + 3 CTA images all exist in public/;
+    affiliates (viator/abraham/tourradar) valid in config.ts; no H1 in body; no ratingValue fabrication;
+    footer Essentials wired; smoke + a11y specs both include /israel-for-seniors; price disclaimers
+    ("rough guide only", "verify at parks.org.il", "check live rates") present throughout. CLEAN.
+  Playwright symlink workaround re-applied (per-env, not persisted): chromium-1228 + chromium_headless_shell-1228
+  symlinked to -1194 binaries.
+  Loop history: 27 features + sitemap-lastmod + link-checker(+depth) + i18n Phase0/1a/1b/1c/2-batch1/2-batch2
+  + 12 review passes; iters 5/10/20/30/35/40/45 research.
 
-NEXT: iter 49 = BUILD/seo-content (49%5==4 → REVIEW). Actually 49%5==4 → REVIEW mode.
-  Recommend reviewing iters 46-48 (parks pass, a11y fix, seniors guide). Check CI confirm for 3d6b2b7.
+NEXT: iter 50 = RESEARCH (50%5==0). After that iter 51 = BUILD/seo-content (nextRotationCategory).
