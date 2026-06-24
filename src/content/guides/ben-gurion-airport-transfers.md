@@ -59,4 +59,4 @@ Airport taxis are metered (the rank is app-based via Gett). **Sheruts** are shar
 
 ## Plan the rest
 
-Sort your [eSIM](/israel-esim) and [travel insurance](/israel-travel-insurance) before you land, and if you are exploring beyond the cities, compare [car rental](/car-rental-israel). New to the country? Start with the [first-time-in-Israel guide](/first-time-in-israel).
+For everything else at the airport — terminal layout, security interview tips, the 2026 lounge situation (Priority Pass is no longer accepted), and duty-free — see the full [Ben Gurion Airport guide](/ben-gurion-airport-guide). Sort your [eSIM](/israel-esim) and [travel insurance](/israel-travel-insurance) before you land, and if you are exploring beyond the cities, compare [car rental](/car-rental-israel). New to the country? Start with the [first-time-in-Israel guide](/first-time-in-israel).

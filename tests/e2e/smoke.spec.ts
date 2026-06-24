@@ -43,6 +43,7 @@ const ROUTES = [
   '/israel-national-parks-pass',
   '/israel-for-seniors',
   '/israel-adventure-sports',
+  '/ben-gurion-airport-guide',
   '/fr/first-time-in-israel',
   '/fr/visa-information',
   '/fr/best-time-to-visit-israel',

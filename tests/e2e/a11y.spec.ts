@@ -56,6 +56,7 @@ const ROUTES = [
   '/israel-national-parks-pass',
   '/israel-for-seniors',
   '/israel-adventure-sports',
+  '/ben-gurion-airport-guide',
   '/search',
   '/404',
 ];
