@@ -566,3 +566,22 @@ Ship: 2412965 squash-committed to master, pushed.
 Prod: Vercel deploy in_progress; next iteration start-check confirms.
 fr: 7/147, de: 7/147. Next i18n batch: more guides (TBD from backlog priority).
 Next: iter 42 = BUILD/monetization.
+
+## 2026-06-24 · iter 42 · BUILD (monetization) · Israel food tours & cooking classes guide
+What: New /israel-food-tours-cooking-classes guide (P2 S, first unshipped monetization item).
+Fills the gap between WHAT-to-eat (israeli-food-cuisine-guide) and WHERE-to-eat (tel-aviv-food-guide)
+with HOW-to-experience-food: guided Machane Yehuda market tours (Jerusalem, daytime + Thu-Sat evening
+transition to bar-restaurant strip), Carmel Market cooking workshops in Tel Aviv (market shopping →
+hummus/shakshuka/mezze cook-off), hummus-from-scratch and challah-baking workshop formats, Jaffa food
+walk (Arab hummus, Persian Jewish pastry, Yemenite kubane, port seafood), Old City Jerusalem food walk
+(kanafeh, tabun bread, juice stalls, spice souk + Jewish Quarter contrast). 3 affiliate CTAs
+(GetYourGuide Jerusalem food tours / Viator Tel Aviv cooking classes / Abraham private culinary).
+Price ranges only; no fabricated exact prices. 6 FAQs. Dense cross-links to existing food/itinerary pages.
+Footer Essentials column wired (/israel-food-tours-cooking-classes after /israeli-food-cuisine-guide).
+Smoke + a11y specs extended (+1 route each). Fixed 3 broken /guides/* href prefixes during check:links.
+Branch slip: forgot to commit to auto/ branch — changes ended up in working tree, committed to master
+directly (gate was green at commit time; no integrity issue, just branch-discipline miss — noted in STATE).
+Gate: pnpm check 0 errors; build 169 pages (+1); check:links 0 broken/0 orphans/0 unreachable/0 deep;
+  e2e via CI (Chromium not in cloud env). CI in_progress run 28069047704 at state-write time.
+Ship: e974cf1 committed to master, pushed. Prod: Vercel deploy in_progress.
+Next: iter 43 = BUILD/seo-content (rotation advanced from monetization).
