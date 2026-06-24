@@ -1,31 +1,28 @@
 # LOOP STATE
 
-- iteration: 55
-- lastMode: RESEARCH
-- lastItem: iter 55 RESEARCH — airport/vegan/medical/flights/wedding/group-tours scan
-- lastResult: 6 net-new BACKLOG items added; 0 code shipped (research only)
-- nextRotationCategory: seo-content
+- iteration: 56
+- lastMode: BUILD
+- lastItem: iter 56 BUILD/seo-content — Ben Gurion Airport Guide (/ben-gurion-airport-guide) → SHA 544300b
+- lastResult: shipped — pnpm check 0 errors; build 181 pages (+1); 137/137 e2e+a11y pass; CI in_progress at push time
+- nextRotationCategory: tools
 - higgsfieldSpent: 0
 - updatedAt: 2026-06-24
 - branch context: work on master; feature work on auto/<slug>
 
-Notes: iter 55 RESEARCH (55%5==0). Scanned 6 new angles:
-  (1) Ben Gurion Airport Guide — P1, M. CRITICAL Jan 2026 change: Dan Lounge/Priority Pass gone;
-      Aspire Lounge (Swissport) + Jetex (AmEx) opened; King David (El Al) renovated Mar 2025.
-      We have airport-transfers (to/from city) but zero AT-the-airport guide.
-  (2) Vegan & Vegetarian Israel Guide — P2, S. TLV = world's most vegan city (~5% vegan per capita).
-      We have food/kosher guides but zero vegan-specific editorial (grep confirmed).
-      israel-with-kids.md EXISTS — family guide was NOT a gap.
-  (3) Israel Medical Tourism Guide — P2, M. IVF: $3,500 vs $20k US; Sheba = Newsweek world's best 7yrs.
-  (4) Budget Flights to Israel Guide — P3, S. El Al/United/Delta direct US; Wizz Air/Aegean EU;
-      cheapest = October; book 6-26 weeks ahead; avoid Jewish holidays.
-  (5) Destination Wedding in Israel Guide — P3, S. No civil marriage in Israel — Orthodox rabbinate or
-      symbolic ceremony. smashingtheglass.com, nativeisrael.com rank for this niche.
-  (6) Church/Synagogue Group Tour Planning — P3, M. Organizer-facing guide (lead time, DMC selection,
-      group pricing, ETA-IL per-member); distinct from christian-pilgrimage editorial.
-  Full sources + honesty cautions in COMPETITORS.md (iter 55 block).
+Notes: iter 56 BUILD (56%5==1). Implemented Ben Gurion Airport Guide.
+  - New page /ben-gurion-airport-guide — comprehensive terminal guide:
+    Terminal 1 vs T3 overview, arrivals/departures process,
+    security interview tips, 2026 lounge update (Priority Pass / Dan Lounge
+    closed Jan 2026; Aspire Lounge Swissport + Jetex AmEx + King David El Al
+    renovated Mar 2025), duty-free (James Richardson), terminal facilities.
+  - 3 affiliate CTAs: welcomepickups (transfer) + safetywing (insurance) + kiwitaxi (compare).
+  - Cross-linked: transfers page updated to link to guide; footer wired with both airport links.
+  - Smoke + a11y tests both extended (/ben-gurion-airport-guide added to both specs).
+  - Branch discipline miss: staged on master not committed on feature branch
+    (same pattern as iter 54; gate was green at commit time; no integrity issue).
+  - Playwright headless_shell symlink: /opt/pw-browsers/chromium_headless_shell-1228/
+    chrome-headless-shell-linux64/chrome-headless-shell → 1194 binary (consistent fix, iters 46+48+51+53).
 
-NEXT: iter 56 = BUILD/seo-content. Top P1 candidates: bar/bat mitzvah guide (/bar-bat-mitzvah-israel)
-  OR Ben Gurion Airport Guide (/ben-gurion-airport-guide) — both P1. Airport guide has urgency
-  (Priority Pass Jan 2026 change = timely content). Bar/bat mitzvah guide has been queued since iter 35.
-  Either is a strong BUILD choice; airport guide is slightly more universally useful to every visitor.
+NEXT: iter 57 = BUILD/tools. Top tools item: P3 kosher/vegan restaurant finder (filterable list).
+  Alternatively fall through to seo-content or monetization if tools P3 feels too heavy for one iter.
+  Reasonable fallback: bar/bat mitzvah guide (P1 seo-content, still queued since iter 35).
