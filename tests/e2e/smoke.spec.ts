@@ -38,8 +38,14 @@ const ROUTES = [
   '/jewish-heritage-israel',
   '/fr/first-time-in-israel',
   '/fr/visa-information',
+  '/fr/best-time-to-visit-israel',
+  '/fr/transportation',
+  '/fr/israel-cost-budget',
   '/de/first-time-in-israel',
   '/de/visa-information',
+  '/de/best-time-to-visit-israel',
+  '/de/transportation',
+  '/de/israel-cost-budget',
   '/search',
 ];
 
