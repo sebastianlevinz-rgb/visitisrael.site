@@ -45,6 +45,7 @@ const ROUTES = [
   '/jewish-heritage-israel',
   '/israel-food-tours-cooking-classes',
   '/driving-in-israel',
+  '/israel-national-parks-pass',
   '/search',
   '/404',
 ];
