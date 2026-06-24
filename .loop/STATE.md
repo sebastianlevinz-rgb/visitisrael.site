@@ -1,34 +1,23 @@
 # LOOP STATE
 
-- iteration: 40
-- lastMode: RESEARCH
-- lastItem: driving/shopping/road-trip/seniors/evening-activities/volunteer discovery — 6 net-new items added to BACKLOG
-- lastResult: NO SHIP (research mode); 6 curated backlog items appended; full findings in COMPETITORS.md
+- iteration: 41
+- lastMode: BUILD
+- lastItem: i18n Phase 2 batch 2 — best-time-to-visit-israel + transportation + israel-cost-budget in fr+de (6 pages)
+- lastResult: SHIPPED 2412965; pnpm check 0 err; build 168 pages (+6); check:links clean; CI in_progress (run 28066837242)
 - nextRotationCategory: monetization
 - higgsfieldSpent: 0
-- updatedAt: 2026-06-23
+- updatedAt: 2026-06-24
 - branch context: work on master; feature work on auto/<slug>
 
-Notes: iter 40 RESEARCH (40%5=0). Searched 6 angles not captured in iters 5/10/20/30/35:
-  1. Driving in Israel guide (P1 seo-content, S) — Tourist Israel/Walk My World/Nomadic Matt rank;
-     distinct from car-rental-israel.md (WHERE to rent vs HOW to drive); speed limits, Route 6 toll,
-     Waze, kerb colours, Yom Kippur, speed cameras.
-  2. Israel for seniors (P2 monetization, M) — America Israel Tours/TourRadar/Bein Harim/GilTravel
-     rank; zero seniors content on site; cable car, comfortable pace, hotel proximity to medical care.
-  3. Shopping in Israel guide (P2 seo+monetization, M) — Tourist Israel/Danny the Digger/Isrotel
-     rank; ZERO shopping content on site; markets comparison, Ahava/Dead Sea cosmetics, Judaica,
-     Armenian ceramics, Old City bargaining tips.
-  4. Self-drive road trip itinerary (P2 seo+monetization, M) — Nomadic Matt/Walk My World rank;
-     distinct from 5/7/10-day itineraries (transport-agnostic); 7-8 day clockwise loop, ~850-1000km.
-  5. Evening activities & night experiences (P2 seo-content, S) — TripAdvisor/Bein Harim/IsraelRail
-     rank; distinct from tel-aviv-nightlife.md (bars/clubs); Tower of David show, Masada S+L, Mitzpe
-     Ramon stargazing, Mahane Yehuda evening transformation.
-  6. Volunteer archaeology & dig travel (P3 seo-content, S) — VFI/IAA/BAS rank; Hippos-Sussita/
-     City of David/Shiloh; honesty flag on kibbutz post-2023 status.
-  Sources: Tourist Israel, Nomadic Matt, Tripadvisor, TourRadar, Bein Harim, GilTravel, IsraelRail,
-  Danny the Digger, VFI, IAA Friends, Walk My World, laidbacktrip, mukikapupstravels, OneVasco.
+Notes: iter 41 BUILD (i18n Phase 2 batch 2). Prioritized over monetization rotation because i18n is P1
+and 2 BUILD iters had passed since iter 36 (last i18n). All 3 highest-intent planning guides now in fr+de:
+- /fr/best-time-to-visit-israel, /de/best-time-to-visit-israel
+- /fr/transportation, /de/transportation
+- /fr/israel-cost-budget, /de/israel-cost-budget
+Hreflang alternates now present on EN guides for all 3. fr: 7/147, de: 7/147.
+SHA 2412965 pushed to master; CI in_progress run 28066837242. Gate via CI (Chromium unavailable in cloud env).
 
-NEXT: iter 41 = BUILD/monetization.
+NEXT: iter 42 = BUILD/monetization (resume rotation; i18n done for this cycle).
 REMINDER (§1): ALWAYS `git checkout -b auto/<slug>` before edits.
-Cron b7325b16 hourly @ :17. Loop history: 21 features + sitemap-lastmod + link-checker(+depth) + i18n
-Phase0/1a/1b/1c/2-batch1 + 9 review passes; iters 5/10/20/30/35/40 research.
+Cron b7325b16 hourly @ :17. Loop history: 22 features + sitemap-lastmod + link-checker(+depth) + i18n
+Phase0/1a/1b/1c/2-batch1/2-batch2 + 9 review passes; iters 5/10/20/30/35/40 research.

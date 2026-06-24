@@ -548,3 +548,21 @@ Fix: 2-line content edit (markdown link targets). Branch auto/review-39-locale-v
 Gate: pnpm check 0 err; build 162 pages; check:links 0 broken/orphan/unreachable/deep.
 Ship: squash-merged to master cb930ab, pushed. CI in_progress at state-write time (content-only change; e2e via CI).
 Next: iter 40 = RESEARCH (40%5=0); iter 41 = BUILD/monetization.
+
+## 2026-06-24 · iter 41 · BUILD (i18n) · Phase 2 batch 2 — fr/de guides: best-time + transportation + cost-budget
+What: i18n Phase 2 batch 2 — translated 3 highest-intent planning guides into fr+de (6 new pages):
+  src/content/guides/fr/best-time-to-visit-israel.md — French season/month guide; links to /fr/first-time-in-israel
+  src/content/guides/de/best-time-to-visit-israel.md — German equivalent; "Totes Meer" exonym used
+  src/content/guides/fr/transportation.md — French transport guide (Rav-Kav, sheruts, Shabbat logistics)
+  src/content/guides/de/transportation.md — German equivalent; locale-specific cross-links
+  src/content/guides/fr/israel-cost-budget.md — French budget guide (links /fr/best-time-to-visit-israel)
+  src/content/guides/de/israel-cost-budget.md — German equivalent (links /de/best-time-to-visit-israel)
+Routing: picked up by existing [...slug].astro glob; hreflang (en/fr/de/x-default) auto-computed.
+EN guides for all 3 now emit fr/de hreflang alternates. Smoke + a11y specs extended (+6 routes each).
+Prioritized over monetization rotation: P1 i18n overdue by 2 BUILD iters since iter36.
+Gate: pnpm check 0 errors (101 files); build 168 pages (+6); check:links 0 broken/0 orphans/0 unreachable/
+  0 deep; e2e via CI (Chromium not in cloud env). CI in_progress run 28066837242 at state-write time.
+Ship: 2412965 squash-committed to master, pushed.
+Prod: Vercel deploy in_progress; next iteration start-check confirms.
+fr: 7/147, de: 7/147. Next i18n batch: more guides (TBD from backlog priority).
+Next: iter 42 = BUILD/monetization.

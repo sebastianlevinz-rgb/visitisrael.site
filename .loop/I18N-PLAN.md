@@ -52,7 +52,7 @@
 
 ## Progress tracker (loop updates this each i18n iteration)
 
-- Current phase: **Phase 2 BATCH 1 DONE (iter 36, SHA bdf599e)**: first-time-in-israel + visa-information shipped in fr+de via src/content/guides/fr|de/ subdir routing. Hreflang alternates (en/fr/de/x-default) computed in [...slug].astro via guideAlternates prop. Locale detection from entry.id prefix; locale-aware breadcrumbs via useTranslations(entryLocale). CI all-green (21/21 e2e+a11y). fr 4/147, de 4/147 (home + plan-your-trip + first-time-in-israel + visa-information). Next batch: best-time-to-visit + transportation + cost-budget (fr+de).
+- Current phase: **Phase 2 BATCH 2 DONE (iter 41, SHA 2412965)**: best-time-to-visit-israel + transportation + israel-cost-budget shipped in fr+de. Hreflang alternates now present on all 5 shipped guide slugs in EN. Internal links use locale-specific targets where fr/de exist (/fr/best-time-to-visit-israel, /de/first-time-in-israel etc.), EN fallback otherwise. fr 7/147, de 7/147 (home + plan-your-trip + 5 guides each). CI in_progress run 28066837242 at state-write time. Next batch: high-intent guides (day-trips-from-jerusalem, day-trips-from-tel-aviv, or best-tours-in-israel — TBD by next i18n BUILD slot).
 - Phase 1c — DONE (iter 22): mobile-menu nav labels. Phase 1a/1b/leak — chrome. NOTE: /plan-your-trip + 404 body copy need /fr/ + /de/ ROUTE VARIANTS (static host serves one /404.html for all 404s; root .astro pages have no locale variant) → fold into Phase 2 as .astro page clones (same proven pattern as the fr/de home pages). Page-aware switcher still deferred until ≥1 content page exists per locale.
 - Phase 1a/1b — DONE (iters 15/17): Header + Footer chrome.
 - Phase 1a — DONE (iter 15, 83379f9): Header chrome.
