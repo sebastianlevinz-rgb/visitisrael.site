@@ -357,3 +357,105 @@ CAUTION (iter 40): Israeli speed cameras and traffic enforcement change; do NOT 
 amounts (frame as "cameras present, obey posted limits"); Yom Kippur driving ban is cultural/religious,
 NOT a legal prohibition in all areas (frame accurately). Archaeology dig dates verified via official
 organizer sites — all data is to be re-verified before publishing.
+
+### 2026-06-24 · iter 45 · national parks pass / hidden gems / Christmas / cycling / backpacking / Sea of Galilee scan
+
+Researched 6 angles not captured in prior research iters (5/10/20/30/35/40). All 6 items confirmed as
+genuine gaps via grep + file inspection of hiking-in-israel.md, transportation.md, best-time-to-visit-israel.md,
+israel-cost-budget.md, christian-pilgrimage-holy-land.md, galilee region page.
+
+- **Israel National Parks Pass guide (P1 gap)** — parks.org.il (official), WonderIsrael ("Visit 68
+  Sites in $50"), israel-in-photos.com, Anglo-List, Tripadvisor threads (high engagement for "Israel
+  parks card") all rank. The Israel Nature and Parks Authority offers 3 tourist combo cards valid for
+  2 weeks from first use: Blue (78₪, 3 sites), Green (110₪, 6 sites), Orange (150₪, unlimited); Matmon
+  annual pass (181₪/adult, ~$50, children to age 20 included, requires Israeli postal address at purchase
+  = hotel OK); Israel Pass (limited sites list + Rav-Kav transport credit). NOT included: Masada cable
+  car, City of David National Park, Roman amphitheater cable-car. Purchasing: at any national park
+  entrance desk; Matmon purchase requires name/passport; temporary card at purchase, permanent by post.
+  Our hiking-in-israel.md lists parks as destinations but zero pass information (confirmed grep).
+  SEO: "Israel national parks pass", "Israel nature parks card", "Matmon Israel". → BACKLOG (P1, S).
+
+- **Hidden gems / off-beaten-path Israel hub (P2 gap)** — Tourist Israel ("Israel's Hidden Gems: 7
+  Most Unique Experiences"), guideyourtrip (43 Offbeat Places), exclusiveisraeltours ("10 Off-the-Beaten-
+  Path Places"), immanuel-tours ("Best Israel Hidden Gems"), sareltours ("9 Off-The-Beaten-Track Places"),
+  Atlas Obscura (85+ Israel listings) all rank. We have 63 attraction pages but zero hidden-gems editorial
+  hub. Key under-visited sites: (1) Ein Prat / Wadi Qelt — Judean Desert canyon, ≤1hr from Jerusalem,
+  multiple natural pools, Monastery of St George clinging to cliff face; (2) Herodion — King Herod's
+  palace-fortress outside Bethlehem, his confirmed tomb, largely un-crowded vs Masada; (3) Beit Guvrin /
+  Maresha caves — ~3,000 rooms in a UNESCO cave network, relatively few tourists; (4) Rosh Pina —
+  Rothschild-era stone village, Nimrod Lookout (Golan/Houla panorama), craft galleries; (5) Ein Hod —
+  Carmel Mountains artists village, galleries + workshops; (6) Mar Saba Monastery — 5th-century Byzantine
+  cliff monastery above Wadi Kelt (men only to enter, women exterior view); (7) Nimrod Fortress —
+  Golan Heights, Crusader/Mamluk, sweeping Galilee views; (8) Tel Megiddo — archaeological Armageddon
+  site, 26 civilisation strata, UNESCO World Heritage; (9) Timna Park — Negev copper mines, mushroom
+  rock, King Solomon's Pillars, zodiac amphitheater; (10) Achziv beach — northernmost Israel coast,
+  ancient Phoenician port ruins, natural rock pools. Format: cards per site (region badge, season,
+  how to reach). → BACKLOG (seo-content, P2, M).
+
+- **Christmas in Israel + Winter travel guide (P2 gap)** — Tourist Israel ("Christmas in Israel"),
+  igoogledisrael.com ("Celebrating Christmas in Israel: Our Guide"), TourRadar ("10 Best Christmas &
+  New Year Tours"), mukikapupstravels ("Jerusalem in Winter"), Abraham Tours ("Israel In the Winter"),
+  Israel Travel Advisor ("Christmas and New Year in Israel Guide") all rank. best-time-to-visit-israel.md
+  mentions Christmas in 1 sentence ("Christmas in Nazareth and Bethlehem is special") — NOT a dedicated
+  guide. Key content: multiple Christmas Eves — Catholic/Protestant Dec 24 (Bethlehem Church of the
+  Nativity midnight mass), Greek Orthodox Jan 6, Armenian Jan 18; Ministry of Tourism free buses
+  Jerusalem↔Bethlehem (HONESTY: annually variable — link official MFA, never hardcode times); Checkpoint
+  300 logistics (under 5 min tourist vehicle); Nazareth Dec 24 festival (largest Arab-Israeli city
+  Christmas event); Jerusalem Old City Christmas ambience; Tel Aviv New Year countdown (secular, beach
+  + Dizengoff events); winter travel advantages (hotel prices 20–40% lower, crowds minimal, green
+  Galilee landscapes, Jerusalem snowfall ~5yr recurrence, Eilat/Dead Sea pleasant warm refuges).
+  HONESTY: Ministry bus logistics = "typically offered annually; confirm with MFA/Ministry of Tourism
+  website closer to date". → BACKLOG (seo-content+monetization, P2, M).
+
+- **Cycling / biking in Israel guide (P2 gap)** — psimonmyway ("The best way to get around Tel Aviv
+  is by bicycle"), Tourist Israel ("Exploring Tel Aviv By Bike"), packforisrael ("Biking in Tel Aviv:
+  Everything You Need to Know"), bike-israel.com, go-telaviv ("Tel Aviv Bike Share"), israel21c ("3
+  best and 3 worst places to cycle in Tel Aviv") all rank. transportation.md confirmed ZERO cycling
+  content (via grep — neither "bike", "cycling", "bicycle", nor "Tel-O-Fun" appears). Tel Aviv is
+  genuinely one of the world's best cycling cities: 150km+ dedicated bike lanes; 100k+ daily riders;
+  flat coastal terrain; Tel-O-Fun city bike-share (hundreds of docking stations, app + day pass
+  ~18₪/24hr, electric assist stations being added); key routes (north: seafront promenade → Herzliya
+  ~15km; south: Jaffa beach path ~5km; inland: Yarkon Park riverside path 8km+). Israel National Bike
+  Trail (Eilat to Dan, 1,100km, long-distance cyclists). Galilee cycling (hilly Golan — MTB preferred).
+  Practical: theft risk (D-lock required beyond cable); summer hydration essential; helmet not legally
+  required but recommended. → BACKLOG (seo-content, P2, S).
+
+- **Backpacking Israel + budget hostel guide (P2 gap)** — thebrokebackpacker.com ("Backpacking Israel
+  Travel Guide 2026", "20 BEST Hostels in Israel", "10 BEST Hostels in Tel Aviv"), nomadicmatt ("Best
+  Hostels in Tel Aviv"), hostelz.com, your-friends-in-israel.com ("Best Hostels in Israel") all rank.
+  israel-cost-budget.md covers "hostel dorm ₪80–150" in a tier table — NOT a hostel-by-city or
+  backpacker-logistics guide. The gap: where to stay by city (Abraham Hostel chain = gold standard
+  brand for Israel — Jerusalem/TLV/Haifa/Eilat, organises day tours from hostel desk at competitive
+  prices; Florentine Hostel TLV; Eilat beach hostels; Tiberias/Galilee for day trips); how to backpack
+  Israel efficiently (day-tour purchasing from hostel, sherut sharing, Thu grocery shop before Shabbat,
+  Tel-O-Fun in TLV for free movement). Volunteer hostels: board-for-work exists in urban hostels (careful
+  post-2023 kibbutz context — don't claim kibbutz programs are running without confirmation). Budget
+  reality: minimum ~$30–40/day (dorm + food + 1 activity); cannot go as low as SE Asia. HONESTY:
+  "dorm prices from ₪80–180+ — check Hostelworld/Booking for current rates"; no fabricated reviews/
+  ratings. → BACKLOG (seo-content+monetization, P2, M).
+
+- **Sea of Galilee boat tours + Kinneret experiences (P3 niche)** — seaofgalileeboat.com ("Sea of
+  Galilee Boat Tours"), Danny the Digger ("Sail on the Sea of Galilee"), Viator (Galilee region boat
+  rides), TripAdvisor Galilee (10 Best Boat Rides + Galilee Sailing Ltd), israel-taxi.com (Sea of
+  Galilee Ultimate Visitor Guide) all rank. christian-pilgrimage-holy-land.md covers Galilee broadly
+  (we have a "Sea of Galilee" section); galilee region page exists; nazareth-sea-of-galilee-day-trip.md
+  exists — but no dedicated boat-tour coverage. The "Jesus boat" experience: 45-min wooden-vessel ride
+  departing Tiberias / Ginosar / Ein Gev, recreates biblical lake crossing; key operators Galilee Sailing
+  Ltd + Holy Land Sailing (daily departures in season). Beyond pilgrims: Kinneret has 15 designated
+  swimming beaches (Ginosar, Ein Gev, Tiberias municipal beach, Amnon Beach), sunset kayaking / SUP,
+  Ancient Boat Museum at Kibbutz Ginosar (2,000-year-old wooden fishing boat, same era as Jesus). Best
+  season: spring + autumn. HONESTY: "Jesus boat" framing is traditional wooden vessel recreation — same
+  body of water, not the same boat; prices via affiliate Viator link only. → BACKLOG (P3, S).
+
+DE-DUPED (not added from iter45): transportation.md covers buses/trains/sherut (cycling is distinct),
+adventure-sports backlog item covers MTB/hiking (cycling guide focuses on urban TLV riding), christian-
+pilgrimage.md covers Galilee broadly (Sea of Galilee boats is a niche sub-experience), israel-cost-budget.md
+has accommodation tiers (hostel guide is a distinct backpacking-angle format), best-time.md has a season
+overview (Christmas/winter guide is much more specific event + logistics).
+
+CAUTION (iter 45): National parks pass prices from official parks.org.il — always note "verify current
+prices at site entrance"; Blue/Green/Orange cards described as tourist-targeted (correct per official site).
+Christmas logistics: Ministry of Tourism free bus service changes annually — NEVER hardcode departure
+times/locations; link official source. Multiple Christmas Eves is a factual nuance (Catholic/Orthodox/
+Armenian on different dates) — crucial to mention to avoid reader disappointment. City of David exclusion
+from national parks cards is a firm fact (consistently noted by multiple sources).

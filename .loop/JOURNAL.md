@@ -629,3 +629,38 @@ Gate: pnpm check 0 errors; build 170 pages (count stable); links.spec.ts ✓;
   e2e via CI (Chromium not in cloud env — consistent with iters 42/43).
 Ship: 15831d1 committed to master, pushed. CI + Lighthouse in_progress at state-write time.
 Next: iter 45 = RESEARCH (45%5==0).
+
+## 2026-06-24 · iter 45 · RESEARCH · parks pass / hidden gems / Christmas / cycling / backpacking / Sea of Galilee (NO SHIP)
+Mode: RESEARCH (45%5==0). No code changed; gate not run.
+What: Searched 6 untapped angles not captured in prior research iters (5/10/20/30/35/40).
+De-duped against all 44 prior DONE+BACKLOG items before adding.
+Sources: parks.org.il/WonderIsrael/Anglo-List (national parks pass), Tourist Israel/guideyourtrip/
+exclusiveisraeltours/immanuel-tours (hidden gems), Tourist Israel/igoogledisrael/TourRadar/Abraham
+Tours/mukikapupstravels (Christmas/winter), psimonmyway/bike-israel.com/Tourist Israel/israel21c
+(cycling), thebrokebackpacker/nomadicmatt/hostelz/your-friends-in-israel (backpacking), seaofgalileeboat/
+Danny the Digger/Viator (Sea of Galilee boat tours).
+Findings — 6 net-new BACKLOG items added:
+  1. Israel National Parks Pass guide (seo-content, P1, S) — WonderIsrael/parks.org.il/Anglo-List rank;
+     Blue(78₪/3)/Green(110₪/6)/Orange(150₪/unlimited) 2-week tourist cards; Matmon annual(181₪/adult);
+     hiking-in-israel.md mentions parks as sites but has ZERO pass guide content; confirmed via grep.
+  2. Hidden gems / off-beaten-path hub (seo-content, P2, M) — Tourist Israel/guideyourtrip/exclusiveisraeltours
+     rank; we have 63 attraction pages but no editorial hidden-gems hub; high-engagement listicle format;
+     sites: Ein Prat, Herodion, Beit Guvrin caves, Rosh Pina, Ein Hod, Mar Saba, Nimrod Fortress, Megiddo, Timna.
+  3. Christmas in Israel + Winter guide (seo-content+monetization, P2, M) — Tourist Israel/igoogledisrael/
+     TourRadar/Abraham Tours rank; best-time.md mentions "Christmas in Nazareth and Bethlehem is special"
+     in 1 sentence; dedicated guide missing; Checkpoint 300/Bethlehem logistics, midnight mass, TLV New Year;
+     honesty flag: Ministry of Tourism free buses change annually — link official source not hardcoded times.
+  4. Cycling / biking in Israel (seo-content, P2, S) — psimonmyway/bike-israel.com/Tourist Israel rank;
+     transportation.md confirmed ZERO cycling content (via grep); TLV: 150km+ lanes, 100k+ daily riders,
+     Tel-O-Fun bike-share (app + stations + day pass), Yarkon Park + north-Herzliya + south-Jaffa routes.
+  5. Backpacking Israel + budget hostel guide (seo-content+monetization, P2, M) — thebrokebackpacker
+     (20 BEST Hostels), nomadicmatt (Best Hostels Tel Aviv) rank; israel-cost-budget has tiers but NOT
+     hostel-by-city guide; Abraham hostel chain (Jerusalem/TLV/Haifa) = gold standard brand to mention.
+  6. Sea of Galilee boat tours / Kinneret experiences (seo-content+monetization, P3, S) — seaofgalileeboat/
+     Danny the Digger/Viator rank; "Jesus boat" 45-min wooden vessel from Tiberias/Ginosar/Ein Gev;
+     christian-pilgrimage + galilee region exist but no boat-tour standalone; Kinneret swimming/kayaking.
+De-duped (not added): transportation.md (buses/trains — cycling is distinct), cycling vs MTB-adventure
+(latter already in adventure-sports backlog item), Christian pilgrimage (covers Galilee broadly not boat-
+tours specifically), israel-cost-budget.md (tiers ≠ hostel guide), best-time.md (season overview ≠ dedicated
+Christmas guide). Higgsfield: MCP not available in cloud env → image work n/a.
+Gate: N/A (research only). Next: iter 46 = BUILD/tools (P3 kosher-restaurant-finder or fall-through to monetization).
