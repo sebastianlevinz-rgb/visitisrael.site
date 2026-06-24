@@ -44,6 +44,7 @@ const ROUTES = [
   '/cruise-shore-excursions-israel',
   '/jewish-heritage-israel',
   '/israel-food-tours-cooking-classes',
+  '/driving-in-israel',
   '/search',
   '/404',
 ];

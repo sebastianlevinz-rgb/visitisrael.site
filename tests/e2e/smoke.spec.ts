@@ -37,6 +37,7 @@ const ROUTES = [
   '/cruise-shore-excursions-israel',
   '/jewish-heritage-israel',
   '/israel-food-tours-cooking-classes',
+  '/driving-in-israel',
   '/fr/first-time-in-israel',
   '/fr/visa-information',
   '/fr/best-time-to-visit-israel',
