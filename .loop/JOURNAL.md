@@ -681,3 +681,22 @@ Gate: pnpm check 0 errors; build 171 pages (+1 = /israel-national-parks-pass); 1
 Ship: squash-merged to master 1723874, pushed.
 Prod: CI in_progress at push time — next iteration start-check to confirm. Per playbook: leave pending.
 Next: iter 47 = REVIEW (47%5==2); Playwright symlink fix is per-env — not persisted to repo.
+
+## 2026-06-24 · iter 47 · REVIEW · audit iters 44–46 + a11y coverage fix
+Honoured REVIEW slot (47%5==2). Confirmed iter 46 CI success before audit started (both CI + Lighthouse
+workflows completed/success for SHA 1723874).
+Audited the unreviewed slice since iter 44 REVIEW:
+- iter 44 (15831d1 Route 6 fix): Route 6 is plain text — confirmed, no hyperlink remains. CLEAN.
+- iter 45 RESEARCH: no code — N/A.
+- iter 46 (1723874 parks pass guide): hero /images/regions/negev/avdat.jpg EXISTS; no H1 in body;
+  all 13 internal links resolve (incl. /dead-sea/masada + /dead-sea/ein-gedi via attractionSlug helper
+  stripping region prefix); prices carry "verify at parks.org.il" caveats; footer wired; hiking-in-israel
+  cross-linked (/israel-national-parks-pass anchor confirmed); smoke test present. CLEAN except one gap:
+  /israel-national-parks-pass was in smoke.spec.ts but NOT in a11y.spec.ts ROUTES list. Minor defect.
+Fix: added '/israel-national-parks-pass' to ROUTES array in tests/e2e/a11y.spec.ts (1 line).
+Branch: auto/review-47-a11y-parks-pass.
+Gate: pnpm check 0 errors (101 files); build 171 pages (stable); check:links 0 broken/0 orphan/
+  0 unreachable/0 deep; e2e via CI (Playwright 1.61 download blocked in cloud env — consistent pattern).
+Ship: squash-committed to master 491d0f7, pushed. CI in_progress at push time.
+Next: iter 48 = BUILD/monetization. Top candidate: Israel for seniors guide (P2 M, well-researched
+  iter40, Abraham/Bein Harim CTAs, distinct audience gap vs israel-with-kids).
