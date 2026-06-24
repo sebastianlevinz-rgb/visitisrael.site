@@ -57,6 +57,7 @@ const ROUTES = [
   '/israel-for-seniors',
   '/israel-adventure-sports',
   '/ben-gurion-airport-guide',
+  '/israel-restaurant-finder',
   '/search',
   '/404',
 ];
