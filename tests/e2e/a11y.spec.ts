@@ -43,6 +43,7 @@ const ROUTES = [
   '/transport/tel-aviv-to-haifa',
   '/cruise-shore-excursions-israel',
   '/jewish-heritage-israel',
+  '/israel-food-tours-cooking-classes',
   '/search',
   '/404',
 ];
