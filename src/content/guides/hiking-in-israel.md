@@ -89,3 +89,5 @@ Other essentials: start at first light in warm weather; wear a hat and high-fact
 - **Hiking on Shabbat?** Trails stay open, but transit stops — plan a car or check [what's open on Shabbat](/whats-open-on-shabbat).
 
 Israel's trails are its best-kept secret. Pair this hub with our [first-time guide](/first-time-in-israel), the regional guides above, and our [itineraries](/itineraries) to weave a hike — or several — into your trip.
+
+Many trail sections pass through INPA nature reserves and national parks — the [Israel National Parks Pass](/israel-national-parks-pass) can cover multiple site entries on a single card and save you significant money if you are visiting three or more parks.

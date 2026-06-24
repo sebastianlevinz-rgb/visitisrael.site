@@ -38,6 +38,7 @@ const ROUTES = [
   '/jewish-heritage-israel',
   '/israel-food-tours-cooking-classes',
   '/driving-in-israel',
+  '/israel-national-parks-pass',
   '/fr/first-time-in-israel',
   '/fr/visa-information',
   '/fr/best-time-to-visit-israel',
