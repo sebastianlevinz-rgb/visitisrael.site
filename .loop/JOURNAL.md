@@ -934,3 +934,31 @@ Prod: CI in_progress at state-write time. Next iter start-check to confirm.
 Next: iter 59 = BUILD/monetization. Top candidate: "Is the tour worth it?" verdict boxes (P2)
   OR tours-comparison pages (Masada/Galilee hub). i18n also overdue (5 BUILD iters since batch 3);
   may interleave i18n Phase 2 batch 4 at iter 60.
+
+## 2026-06-24 · iter 59 · REVIEW · audit iters 55–58 + restaurant-finder a11y + meta desc fix
+What: Honoured REVIEW slot (59%5==4). Confirmed iter 58 CI success (e89f462) before starting.
+  Start-up: fresh cloud checkout had local master at 64e33b6 (diverged from origin/master at e89f462);
+  git fetch + hard-reset to origin/master required. Playwright symlink fix: corrected path from prior
+  session — binary is at chrome-linux/headless_shell, not headless_shell directly.
+Audited the unreviewed slice (iters 55-58):
+- iter 55 RESEARCH: no code, N/A.
+- iter 56 (544300b ben-gurion-airport-guide): hero image /images/regions/tel-aviv/hero.jpg + CTA images
+  exist; 12 internal links all valid (visa, car-rental, transfers, where-to-stay/tel-aviv, transportation,
+  tel-aviv, jerusalem, israel-travel-insurance, israel-esim); affiliates welcomepickups/safetywing/kiwitaxi
+  valid in config; desc 132c; smoke + a11y wired; no H1 in body; no fabricated prices. CLEAN.
+- iter 57 (040e358 restaurant-finder): kashrut disclaimer present; 15 restaurants, no ratings/prices;
+  footer + plan-your-trip wired; e2e filter test sound. TWO DEFECTS:
+  1. /israel-restaurant-finder missing from a11y.spec.ts ROUTES (same gap pattern as iter 47).
+  2. Meta description 171c > 160c limit (missed by iter 54/58 batch trim which targeted guides, not .astro).
+- iter 58 (0773347 meta-desc trim batch 2): all 10 pages ≤160c verified; holy-sites desc 157c confirmed
+  (YAML '' apostrophe escaping had fooled the regex; checked raw line). CLEAN.
+Fixes (both minor, safe, through full gate):
+  Branch auto/review-59-restaurant-finder-fixes:
+  1. tests/e2e/a11y.spec.ts: added '/israel-restaurant-finder' to ROUTES array (1 line).
+  2. src/pages/israel-restaurant-finder.astro: trimmed description from 171c to 145c.
+Gate: pnpm check 0 errors (103 files); build 182 pages (stable); 140/140 e2e+a11y pass (was 139 — new a11y test passes).
+  Playwright symlink fix: /opt/pw-browsers/chromium_headless_shell-1228/chrome-headless-shell-linux64/
+  chrome-headless-shell → chromium_headless_shell-1194/chrome-linux/headless_shell (corrected subpath vs prior iters).
+Ship: squash-merged to master 9a3e92d, pushed. CI in_progress at push time (prior SHA e89f462 = success).
+Next: iter 60 = BUILD — i18n Phase 2 batch 4 (shabbat-guide + best-tours-in-israel in fr+de; P1, overdue 7 BUILD iters since batch 3).
+  After that: iter 61 = monetization (verdict boxes / Masada tours comparison / ticket blocks).
