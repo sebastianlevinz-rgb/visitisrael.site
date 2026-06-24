@@ -550,3 +550,99 @@ Solo female guide: must link official government travel advisories and NOT make 
 Maccabiah 2026 is a confirmed live event window (Jun 30–Jul 13 2026) but check maccabiah.com for latest
 schedule closer to build date. Maccabi TLV match tickets genuinely sell out — frame as "book ahead for big
 EuroLeague matches".
+
+### 2026-06-24 · iter 55 · Airport/vegan/medical/flights/wedding/groups scan
+
+Searched 6 practical + traveler-segment angles not previously captured. De-duped against DONE list,
+all existing BACKLOG items, and existing content files before adding. Key de-dup checks: ben-gurion-
+airport-transfers.md EXISTS (transfers ≠ terminal guide); israel-with-kids.md EXISTS (family guide on
+site — NOT a gap); israeli-food-cuisine-guide.md + kosher-food-guide.md + tel-aviv-food-guide.md all
+EXIST (vegan guide = DISTINCT angle); vegan restaurant tool (P3 tools backlog) is a filterable data
+tool, not an editorial guide. Sources: tlvflights.com, vipbengurion.com, airfasttrack.com, iaa.gov.il,
+executivelounges.com, jpost.com (lounge news); exceedinglyvegan.com, passionpassport.com, spinach.guide,
+thetastyk.com, touristisrael.com/best-vegan-food-in-tel-aviv, israel.travel/tel-aviv-vegan-heaven;
+shebaonline.org, medicaltourism.com/destinations/israel, bookimed.com, en.wikipedia.org/Medical_tourism_
+in_Israel, bestclinicabroad.com, mediglobus.com; skyscanner.com, momondo.com, masaisrael.org/cost-to-
+travel; smashingtheglass.com, nativeisrael.com, two.travel, theisraeli.wedding; touristisrael.com/type/
+group-tours, touristisrael.com/type/christian-israel-tours.
+
+- **Ben Gurion Airport Guide (P1 gap)** — vipbengurion.com, tlvflights.com (terminal guide + duty-free
+  guide), airport-bengurion.com, airfasttrack.com (Terminal 3 map guide), israel-taxi.com/travel-blog/
+  ben-gurion-airport-arrival-tips, touristisrael.com/israeli-airport-security-expect, igoogledisrael.com
+  (security interview Q&A), worldnomads.com/travel-safety/israel/airport-security, pointmetotheplane/
+  boardingarea.com (security navigation) all have dedicated Ben Gurion Airport guide content. We have
+  ben-gurion-airport-transfers.md (HOW to get to/from the city) but ZERO content about what to do AT the
+  airport. CRITICAL Jan 2026 change: Dan Lounge (Priority Pass main venue at Ben Gurion) closed Dec 31
+  2025 permanently. Two replacements opened: Aspire Lounge (Swissport, Concourse E, for Max cardholders)
+  + Jetex Lounge (LAYAM, Concourse C, AmEx users). Priority Pass is no longer accepted at Ben Gurion as
+  of Jan 2026 (VERIFIED via jpost.com/consumerism/article-887901 + tlvflights.com/en/magazine/airport-
+  lounges). King David Lounge (El Al, T3 Concourse D) renovated and reopened March 2025. Airport security:
+  typical interview questions (why Israel, who do you know, where are you staying); factors that trigger
+  extra screening (solo traveler, recent Arab-country stamps, inconsistent answers); interview length
+  1 min–1 hr. T3 west wing 2024 expansion: 22 new check-in counters + 3,900 sqm. James Richardson duty-
+  free: alcohol + cosmetics best deal (30-50% off retail), electronics no savings. SEO: "Ben Gurion airport
+  guide 2026", "Israel airport security interview tips", "Ben Gurion lounge Priority Pass 2026".
+  → BACKLOG (seo-content+monetization, P1, M) — cross-link existing ben-gurion-airport-transfers.md.
+
+- **Vegan & Vegetarian Israel Guide (P2 gap)** — Tourist Israel ("Best Vegan Food in Tel Aviv"),
+  passionpassport.com ("A Vegan Guide to Tel Aviv"), spinach.guide/cities/tel-aviv (ranked + rated),
+  thetastyk.com ("Vegan Guide to Tel Aviv"), exceedinglyvegan.com ("Vegan Israel — most vegan-friendly
+  country in the world"), myadventuresacrosstheworld.com, brightnomad.net (vegan food tour), magdamagdas.com,
+  israel.travel/tel-aviv-vegan-heaven all rank. We have israeli-food-cuisine-guide.md + kosher-food-guide.md
+  + tel-aviv-food-guide.md, but ZERO vegan-specific editorial (confirmed via grep on "vegan" in guide
+  bodies). Tel Aviv genuinely has ~5% vegan population (world's highest per capita per multiple sources)
+  and 400+ vegan eateries. Spinach.guide rates 54 vegan-friendly venues in TLV. Top vegan restaurants
+  (consistently cited across sources): Meshek Barzilay (considered Israel's best vegan restaurant), Falafel
+  Sumsum, Green Cat (all-vegan pizzeria), Opa (high-end vegan). Kashrut infrastructure = accidentally
+  vegan (meat restaurants with parve menu have no dairy contamination). Naturally vegan Israeli staples:
+  hummus, falafel, shakshuka (eggs, verify no butter), meze, salads, roasted veg. Shabbat closure critical
+  for vegans (plant-based options mostly in cafes, many close). → BACKLOG (seo-content, P2, S).
+
+- **Israel Medical Tourism Guide (P2 gap)** — medicaltourism.com/destinations/israel (dedicated Israel
+  page), shebaonline.org/ivf-treatment-israel (full IVF tourism guide), bookimed.com (10+ Israel fertility
+  clinics ranked + priced), mediglobus.com, bestclinicabroad.com all cover this. Wikipedia has a full
+  "Medical tourism in Israel" article. No competitor in our travel niche (Tourist Israel, Lonely Planet,
+  Rough Guides) has medical tourism content — this is a NICHE GAP. Israel: IVF costs $3,000-$3,500 vs
+  $16,000-$20,000 in US (5x savings); 65% success rate for women <35 (among world's highest); Sheba
+  Medical Center = 7 consecutive years Newsweek world's best hospitals (most recent: 2026 list). Assuta
+  (JCI), Rambam (Haifa, Newsweek medical tourism recognition), Ichilov/Sourasky (TLV). Typical IVF trip
+  length: 10-14 days — real tourism potential (patients explore TLV/Jerusalem between appointments).
+  → BACKLOG (seo-content+monetization, P2, M).
+
+- **Budget Flights to Israel Guide (P3 gap)** — Skyscanner, Momondo, masaisrael.org ("Cost to Travel to
+  Israel 2026") all have flights-to-Israel content. No equivalent editorial on our site. Flights are the
+  #1 cost driver for most visitors (typically $450-$1,400 from North America; from Europe £47–£200 budget
+  vs £400+ legacy). Key findings: El Al + United + Delta + American fly direct from US; budget from Europe
+  = Wizz Air (from $47), Aegean, Ryanair; cheapest month = October; book 6-26 weeks ahead; avoid Jewish
+  holidays (surge). Google Flights + Skyscanner price-view = best tools. → BACKLOG (seo-content, P3, S).
+
+- **Destination Wedding in Israel Guide (P3 gap)** — smashingtheglass.com ("The Ultimate Guide to Planning
+  a Destination Wedding in Israel"), nativeisrael.com ("Getting Married in Israel: Legal Steps, Venues &
+  Traditions"), two.travel ("A Complete Guide to Planning Jewish Destination Weddings"), theisraeli.wedding
+  all rank. Critical content gap: NO civil marriage in Israel (very different from most countries); Jewish
+  couples = Orthodox rabbinate only (halachic Jewish requirement); non-Orthodox or interfaith couples need
+  "symbolic ceremony" + legal marriage elsewhere. High-intent niche (Jewish diaspora couples with Israel
+  connection). Dense link opportunity to jewish-heritage, where-to-stay, first-time-in-israel.
+  → BACKLOG (seo-content+monetization, P3, S).
+
+- **Church / Synagogue Group Tour Planning Guide (P3 gap)** — Tourist Israel offers full group-tour
+  packages (group-tours page, christian-israel-tours page, 6/7/8/9-day package tours); Abraham Tours
+  similarly. No equivalent ORGANIZER-facing planning guide on our site. Distinct from christian-pilgrimage-
+  holy-land.md (editorial destination content). Target audience = church pastor / synagogue coordinator
+  planning 20-50 person group. Key differentiator vs existing content: lead time (12-24 months), DMC
+  selection, group pricing mechanics, group insurance, per-person cost math (twin-share vs single), ETA-IL
+  per-member logistics. → BACKLOG (seo-content+monetization, P3, M).
+
+DE-DUPED (not added): israel-with-kids.md EXISTS → family guide not a gap. Medical tourism could overlap
+with israel-for-seniors.md (older traveler segment) — but medical tourism is about hospitals/procedures,
+not senior travel tips; distinct content justified. Budget flights overlaps somewhat with israel-cost-
+budget.md (mentions flights in passing) — dedicated flights guide is distinct. Honeymoon guide still in
+backlog (P3); wedding guide = separate upstream intent (planning ceremony ≠ post-wedding travel).
+
+CAUTION (iter 55): Ben Gurion Priority Pass change (Jan 2026) — verify with iaa.gov.il and lounge
+operators before building; frame as "as of [date] — verify before travel" not as permanent. Medical
+tourism success rates = population statistics, NOT guarantees; no patient referral; recommend consulting
+own specialist. Budget flights: ALL prices are estimates only — never present as current or guaranteed.
+Wedding: rabbinate eligibility requirements are politically/legally sensitive — handle with factual
+neutrality; link official rabbinate sources. Group tours: individual entry screening still applies per
+person; do not imply group entry approval.

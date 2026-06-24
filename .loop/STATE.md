@@ -1,21 +1,31 @@
 # LOOP STATE
 
-- iteration: 54
-- lastMode: REVIEW (seo-quality)
-- lastItem: Meta description trim — 11 pages from 148–248c → ≤155c (673584c)
-- lastResult: SHIPPED — pnpm check 0 errors, build 180 pages, 135/135 e2e+a11y pass; CI run 28102730575 in_progress at push time
+- iteration: 55
+- lastMode: RESEARCH
+- lastItem: iter 55 RESEARCH — airport/vegan/medical/flights/wedding/group-tours scan
+- lastResult: 6 net-new BACKLOG items added; 0 code shipped (research only)
 - nextRotationCategory: seo-content
 - higgsfieldSpent: 0
 - updatedAt: 2026-06-24
 - branch context: work on master; feature work on auto/<slug>
 
-Notes: iter 54 REVIEW. Audit found 20+ pages with meta descriptions over Google's ~155-char display window.
-  Fixed 11 most egregious (157–248c → 141–155c): israel-adventure-sports, jewish-heritage-israel,
-  cruise-shore-excursions-israel, israel-food-tours-cooking-classes, driving-in-israel,
-  israel-national-parks-pass, best-things-to-do-in-israel, fr/visa-information, fr/is-israel-safe,
-  fr/day-trips-from-tel-aviv, de/visa-information. ~10 more pages remain at 160–215c (added to BACKLOG).
-  Baseline verified: check 0 errors, build 180 pages, 135/135 e2e+a11y pass.
-  Hreflang verified on fr/de guides (all correct). Link checker: 0 broken. Schema on adventure-sports:
-  Organization, WebSite, Article, BreadcrumbList(3), FAQPage(6) all present.
+Notes: iter 55 RESEARCH (55%5==0). Scanned 6 new angles:
+  (1) Ben Gurion Airport Guide — P1, M. CRITICAL Jan 2026 change: Dan Lounge/Priority Pass gone;
+      Aspire Lounge (Swissport) + Jetex (AmEx) opened; King David (El Al) renovated Mar 2025.
+      We have airport-transfers (to/from city) but zero AT-the-airport guide.
+  (2) Vegan & Vegetarian Israel Guide — P2, S. TLV = world's most vegan city (~5% vegan per capita).
+      We have food/kosher guides but zero vegan-specific editorial (grep confirmed).
+      israel-with-kids.md EXISTS — family guide was NOT a gap.
+  (3) Israel Medical Tourism Guide — P2, M. IVF: $3,500 vs $20k US; Sheba = Newsweek world's best 7yrs.
+  (4) Budget Flights to Israel Guide — P3, S. El Al/United/Delta direct US; Wizz Air/Aegean EU;
+      cheapest = October; book 6-26 weeks ahead; avoid Jewish holidays.
+  (5) Destination Wedding in Israel Guide — P3, S. No civil marriage in Israel — Orthodox rabbinate or
+      symbolic ceremony. smashingtheglass.com, nativeisrael.com rank for this niche.
+  (6) Church/Synagogue Group Tour Planning — P3, M. Organizer-facing guide (lead time, DMC selection,
+      group pricing, ETA-IL per-member); distinct from christian-pilgrimage editorial.
+  Full sources + honesty cautions in COMPETITORS.md (iter 55 block).
 
-NEXT: iter 55 = BUILD/seo-content. Top P1 candidate: bar/bat mitzvah destination guide (/bar-bat-mitzvah-israel).
+NEXT: iter 56 = BUILD/seo-content. Top P1 candidates: bar/bat mitzvah guide (/bar-bat-mitzvah-israel)
+  OR Ben Gurion Airport Guide (/ben-gurion-airport-guide) — both P1. Airport guide has urgency
+  (Priority Pass Jan 2026 change = timely content). Bar/bat mitzvah guide has been queued since iter 35.
+  Either is a strong BUILD choice; airport guide is slightly more universally useful to every visitor.

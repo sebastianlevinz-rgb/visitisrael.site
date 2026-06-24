@@ -840,6 +840,29 @@ Gate: pnpm check 0 errors (101 files); build 180 pages (+1); check:links 0 broke
 Ship: committed to master 2c70684, pushed. CI run 28099371690 in_progress at push time.
 Next: iter 54 = BUILD/seo-content. Top P1 candidate: bar/bat mitzvah destination guide.
 
+## 2026-06-24 · iter 55 · RESEARCH · airport/vegan/medical/flights/wedding/group-tours scan (NO SHIP)
+Mode: RESEARCH (55%5==0). No code changed; gate not run.
+What: Searched 6 new angles. De-duped against all DONE+BACKLOG items + content file listing before adding.
+  Key de-dup finding: israel-with-kids.md EXISTS on site — family guide was NOT a gap (removed from candidates).
+  CRITICAL finding: Ben Gurion Dan Lounge closed Dec 31 2025; Priority Pass no longer accepted at TLV as of
+  Jan 2026. Aspire Lounge (Swissport, Concourse E) + Jetex (AmEx, Concourse C) replaced it. King David
+  Lounge (El Al, T3 Concourse D) renovated + reopened March 2025. This is time-sensitive, linkable content.
+Sources: tlvflights.com, vipbengurion.com, airfasttrack.com, iaa.gov.il, jpost.com/article-887901;
+  touristisrael.com/best-vegan-food-in-tel-aviv, passionpassport.com, spinach.guide, exceedinglyvegan.com;
+  shebaonline.org, medicaltourism.com, bookimed.com, wikipedia/Medical_tourism_in_Israel;
+  skyscanner.com, momondo.com, masaisrael.org; smashingtheglass.com, nativeisrael.com, two.travel;
+  touristisrael.com/type/group-tours, touristisrael.com/type/christian-israel-tours.
+6 net-new BACKLOG items added:
+  1. Ben Gurion Airport Guide (P1, M) — terminal/security/lounges/duty-free; Priority Pass gone Jan 2026.
+  2. Vegan & Vegetarian Israel Guide (P2, S) — ~5% vegan population world's highest; 400+ TLV eateries.
+  3. Israel Medical Tourism Guide (P2, M) — IVF $3,500 vs $20k US; Sheba Newsweek world's best 7yrs.
+  4. Budget Flights to Israel Guide (P3, S) — cheapest month Oct; book 6-26 wks ahead; avoid Jewish holidays.
+  5. Destination Wedding in Israel Guide (P3, S) — no civil marriage in Israel; Orthodox rabbinate or symbolic.
+  6. Church/Synagogue Group Tour Planning (P3, M) — organizer-facing; lead time/DMC/ETA-IL per member.
+Gate: N/A (research only).
+Next: iter 56 = BUILD/seo-content. Top P1 candidates: Ben Gurion Airport Guide (timely; Priority Pass change)
+  OR bar/bat mitzvah guide (queued since iter35). Airport guide slightly more universally useful to every visitor.
+
 ## 2026-06-24 · iter 54 · REVIEW (seo-quality) · Meta description trim (11 pages)
 What: REVIEW pass (54 % 5 == 4). Audit of recently-shipped content + SEO fundamentals sweep.
   Findings: (1) link checker clean (0 broken, 0 orphans across 180 pages); (2) hreflang on fr/de
