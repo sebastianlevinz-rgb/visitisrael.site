@@ -1,6 +1,6 @@
 ---
 title: 'Jewish Heritage Travel in Israel: A Complete Guide'
-description: 'Discover the depth of Jewish heritage across Israel — Yad Vashem, the Western Wall, Jewish Quarter, Safed, Masada, Mount Herzl, the Israel Museum and more. Planning tips, recommended tours and itinerary ideas for Jewish diaspora travelers.'
+description: 'Yad Vashem, the Western Wall, Jewish Quarter, Safed, Masada and more — Jewish heritage guide to Israel with planning tips and tour recommendations.'
 heroImage: /images/sub-destinations/jerusalem/western-wall.jpg
 category: Planning
 updatedAt: 2026-06-23

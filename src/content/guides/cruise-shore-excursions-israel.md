@@ -1,6 +1,6 @@
 ---
 title: 'Israel Cruise Shore Excursions: Haifa & Ashdod Port Guide (2026)'
-description: "Best shore excursions from Haifa and Ashdod cruise ports — what to see, how long you have and how to book a guided day trip or explore independently. Haifa: Bahá'í Gardens, Akko, Caesarea. Ashdod: Jerusalem, Masada, Dead Sea, Tel Aviv."
+description: "Best shore excursions from Haifa and Ashdod cruise ports — Bahá'í Gardens, Akko, Caesarea, Jerusalem, Masada and Dead Sea. What to see and how to book."
 heroImage: /images/regions/haifa/hero.jpg
 category: Tours
 updatedAt: 2026-06-23

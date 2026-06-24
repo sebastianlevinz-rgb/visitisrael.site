@@ -1,6 +1,6 @@
 ---
 title: "Israël est-il sûr ? Un guide honnête pour 2026"
-description: "Un regard pratique et honnête sur la sécurité en Israël pour les touristes : ce à quoi s'attendre au quotidien, comment consulter les conseils officiels, notes régionales et précautions de bon sens."
+description: "Guide pratique sur la sécurité en Israël pour les touristes : conseils officiels, vie quotidienne, notes régionales et précautions à prendre."
 heroImage: /images/regions/tel-aviv/hero.jpg
 category: Planification
 updatedAt: 2026-05-20

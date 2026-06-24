@@ -1,6 +1,6 @@
 ---
 title: 'Israel National Parks Pass: Blue, Green, Orange & Matmon Cards'
-description: 'Everything you need to know about the Israel National Parks Pass — Blue, Green and Orange tourist cards and the Matmon annual pass — how much they cost, which sites they cover, what is excluded, and where to buy them.'
+description: 'Israel National Parks Pass guide — Blue, Green and Orange tourist cards plus the Matmon annual pass. What each covers, costs and where to buy.'
 heroImage: /images/regions/negev/avdat.jpg
 category: Planning
 updatedAt: 2026-06-24

@@ -1,6 +1,6 @@
 ---
 title: 'Adventure Sports & Outdoor Activities in Israel: The Complete Guide'
-description: 'From canyoning in the Negev to surfing the Mediterranean and skiing Mount Hermon — every major adventure sport and outdoor activity in Israel, with best seasons, where to go, and how to book.'
+description: 'Canyoning, surfing, jeep tours, kitesurfing, skiing Mount Hermon and more — every major adventure sport in Israel with best seasons and booking tips.'
 heroImage: /images/regions/negev/desert.jpg
 category: Outdoor
 updatedAt: 2026-06-24

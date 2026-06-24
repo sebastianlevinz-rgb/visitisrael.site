@@ -1,6 +1,6 @@
 ---
 title: "Visum und ETA-IL für Israel: Einreisebedingungen für Touristen (2026)"
-description: "Einreisebedingungen für Touristen in Israel: wer ein Visum benötigt, die obligatorische ETA-IL-Reisegenehmigung (Kosten, Gültigkeit, Antragstellung), der Einreiseschein auf Papier, die zulässige Aufenthaltsdauer und was Sie an der Grenze erwartet."
+description: "Einreisebedingungen für Israel-Touristen: Visum, obligatorische ETA-IL-Reisegenehmigung, Einreiseschein auf Papier, Aufenthaltsdauer und Grenzformalitäten."
 heroImage: /images/regions/tel-aviv/hero.jpg
 category: Planung
 updatedAt: 2026-06-22

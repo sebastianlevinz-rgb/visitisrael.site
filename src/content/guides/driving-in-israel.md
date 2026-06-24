@@ -1,6 +1,6 @@
 ---
 title: 'Driving in Israel: Road Rules, Parking, Tolls & Local Tips'
-description: 'Everything you need to know about driving in Israel as a tourist — speed limits, Route 6 toll, colour-coded parking, Waze navigation, Shabbat and Yom Kippur rules, city caveats in Jerusalem and Tel Aviv, and West Bank restrictions.'
+description: 'Driving in Israel as a tourist: speed limits, Route 6 toll, colour-coded parking, Waze tips, Shabbat rules and West Bank restrictions explained.'
 heroImage: /images/regions/negev/hero.jpg
 category: Transport
 updatedAt: 2026-06-24
