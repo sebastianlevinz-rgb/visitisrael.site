@@ -133,6 +133,39 @@ test.describe('Interactive map', () => {
   });
 });
 
+test.describe('Restaurant finder', () => {
+  test('filters by city and diet type, updates count', async ({ page }) => {
+    await page.goto('/israel-restaurant-finder');
+    // All restaurants visible by default
+    const countEl = page.locator('#count-num');
+    const totalText = await countEl.textContent();
+    const total = Number(totalText);
+    expect(total).toBeGreaterThan(0);
+
+    // Filter to Jerusalem only
+    await page.locator('#city-filter').selectOption('Jerusalem');
+    const jerCount = Number(await countEl.textContent());
+    expect(jerCount).toBeGreaterThan(0);
+    expect(jerCount).toBeLessThan(total);
+
+    // Filter to vegan only (subset of Jerusalem)
+    await page.locator('#diet-filter').selectOption('vegan');
+    const veganJerCount = Number(await countEl.textContent());
+    expect(veganJerCount).toBeGreaterThanOrEqual(0);
+    expect(veganJerCount).toBeLessThanOrEqual(jerCount);
+
+    // Resetting city to all while keeping vegan filter
+    await page.locator('#city-filter').selectOption('all');
+    const veganAllCount = Number(await countEl.textContent());
+    expect(veganAllCount).toBeGreaterThanOrEqual(veganJerCount);
+
+    // Cards not visible for kosher-only when vegan filter is active
+    const hiddenCards = page.locator('.restaurant-card[style*="display: none"]');
+    const hiddenCount = await hiddenCards.count();
+    expect(hiddenCount).toBeGreaterThan(0);
+  });
+});
+
 test.describe('Weather & packing widget', () => {
   test('shows prompt initially, then displays weather and pack list after selecting month and zone', async ({
     page,

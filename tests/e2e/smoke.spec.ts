@@ -44,6 +44,7 @@ const ROUTES = [
   '/israel-for-seniors',
   '/israel-adventure-sports',
   '/ben-gurion-airport-guide',
+  '/israel-restaurant-finder',
   '/fr/first-time-in-israel',
   '/fr/visa-information',
   '/fr/best-time-to-visit-israel',
