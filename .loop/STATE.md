@@ -1,28 +1,26 @@
 # LOOP STATE
 
-- iteration: 50
-- lastMode: RESEARCH
-- lastItem: research birdwatching/genealogy/film-TV/solo-female/sports-tourism — 5 new BACKLOG items
-- lastResult: RESEARCH COMPLETE — 5 net-new de-duped items added; no code changed
-- nextRotationCategory: seo-content
+- iteration: 51
+- lastMode: BUILD (seo-content)
+- lastItem: 2-days-in-tel-aviv itinerary + FAQPage JSON-LD on itinerary template (e79ea65)
+- lastResult: SHIPPED — /itineraries/2-days-in-tel-aviv live; [slug].astro now emits FAQPage JSON-LD + context-aware tour CTAs via startRegion; gate pnpm check 0 errors, build 173 pages (+1), check:links clean; CI in_progress run 28092615897 at push time
+- nextRotationCategory: tools
 - higgsfieldSpent: 0
 - updatedAt: 2026-06-24
 - branch context: work on master; feature work on auto/<slug>
 
-Notes: iter 50 RESEARCH (50%5==0). Searched 5 fresh angles not covered in prior research iters (5/10/20/30/35/40/45).
-  Sources: kkl-jnf.org/hike-israel.com/airial.travel/swarovskioptik.com (birdwatching),
-  anumuseum.org.il/nli.org.il/masaisrael.org/jewishgen.org/welcome-israel.com (genealogy tourism),
-  touristisrael.com/forward.com/filmapia.com/thecinemaholic.com (film/TV tourism),
-  jessieonajourney.com/mukikapupstravels/hersafevoyage.com/solofemaletravelers.club (solo female),
-  touristisrael.com/jpost.com/your-friends-in-israel.com/ticombo.com/themedialine.org (sports tourism).
-  5 items added: birdwatching hub (P2 M), Jewish genealogy travel (P2 M), film+TV tourism (P2 S),
-  solo female travel (P2 S — distinct from generic P3 solo item), sports/live events (P3 S).
-  De-duped: jewish-heritage-israel.md (heritage sites ≠ genealogy research focus), lgbtq guide (≠ solo female),
-  day-trips-from-tel-aviv.md EXISTS (confirmed via glob — NOT re-added).
-  Loop history: 28 features + sitemap-lastmod + link-checker(+depth) + i18n Phase0/1a/1b/1c/2-batch1/2-batch2
-  + 13 review passes; iters 5/10/20/30/35/40/45/50 research.
+Notes: iter 51 BUILD (seo-content). P1 city & short itineraries item delivered:
+  - 2-days-in-tel-aviv.md created (Carmel Market/beach/Jaffa day 1; Neve Tzedek/White City/Florentin day 2;
+    6 FAQs; honest price ranges; cross-links to region/attraction/itinerary pages)
+  - 3-days-in-jerusalem.md was pre-existing in content (pre-loop content); FAQPage JSON-LD now added via template
+  - [slug].astro: startRegion field added to content.config.ts schema; FAQPage JSON-LD emitted when d.faqs present;
+    tour CTAs switch between Tel Aviv set (food tour/Jaffa walk/Masada from TLV) and Jerusalem set (Old City/Masada/TLV food)
+  - Backlog item P1 seo-content "city & short itineraries" downgraded: 2-days-in-tel-aviv SHIPPED;
+    3-days-in-jerusalem pre-existing; 3-days-in-israel (new standalone page) deferred to P3
+  Loop history: 29 features + sitemap-lastmod + link-checker(+depth) + i18n Phase0/1a/1b/1c/2-batch1/2-batch2
+  + 14 review passes; iters 5/10/20/30/35/40/45/50 research.
 
-NEXT: iter 51 = BUILD/seo-content. Top P1 candidates: adventure sports hub, bar/bat mitzvah guide, city short
-  itineraries (3-days-jerusalem / 2-days-tel-aviv), neighborhood guides TLV/Jerusalem. Of these, the 3-days-in-
-  jerusalem + 2-days-in-tel-aviv itinerary pair is most bounded (M effort, high-intent, clear implementation
-  path matching existing itinerary pattern). Recommended for iter 51.
+NEXT: iter 52 = tools (P3 kosher-finder likely falls through → i18n Phase 2 batch 3 is P1 recommended,
+  or monetization: adventure sports hub / bar-bat-mitzvah are both P1 seo+monetization).
+  i18n Phase 2 batch 3: good candidates = bar-bat-mitzvah + adventure-sports + city-short-itinerary fr/de pair.
+  Recommended: i18n Phase 2 batch 3 (4 guides, fr+de = 8 pages), since last i18n was iter 41 (10 iters ago).

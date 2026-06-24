@@ -771,3 +771,24 @@ De-duped (not added): jewish-heritage-israel.md DONE (genealogy is DISTINCT); lg
   birds as trail feature (not a birdwatching guide). Backlog now at ~31 ready items.
 Gate: N/A. Next: iter 51 = BUILD/seo-content. Top P1 recommendation: 3-days-in-jerusalem + 2-days-in-tel-aviv
   (city itinerary pair, M effort, high-intent long-tail, clear build path matching existing itinerary system).
+
+## 2026-06-24 · iter 51 · BUILD (seo-content) · 2-days-in-tel-aviv itinerary + FAQPage JSON-LD
+What: P1 seo-content city & short itineraries item. Shipped:
+  1. New /itineraries/2-days-in-tel-aviv — 120-line guide (Carmel Market/beach/Old Jaffa day 1;
+     Neve Tzedek/Rothschild White City/Florentin/optional TLV Museum of Art day 2); practical frame
+     (where to stay, transport from airport, Tel-O-Fun bikes, Shabbat in TLV, best-time-to-visit);
+     6 FAQs (enough for 2 days, best neighbourhood, car needed?, airport distance, when to visit,
+     Shabbat impact); honest price RANGES only (₪/$ ranges with "verify" caveat); dense cross-links
+     to attraction/region pages + itineraries/5-days-in-israel (cross-link added).
+  2. [slug].astro: faqPage() imported + added to schema array when d.faqs present (was unused despite
+     frontmatter having FAQs since pre-loop); startRegion detection switches CTAs between TLV set
+     (food tour / Jaffa walk / Masada from TLV) and default Jerusalem set.
+  3. content.config.ts: startRegion: z.string().optional() added to itineraries schema.
+  4. smoke.spec.ts + a11y.spec.ts: /itineraries/3-days-in-jerusalem + /itineraries/2-days-in-tel-aviv added.
+Note: 3-days-in-jerusalem.md was pre-loop content already generating a page; the backlog item's
+  remaining gap (3-days-in-israel standalone page) deferred to P3 in BACKLOG.
+Gate: pnpm check 0 errors (101 files); build 173 pages (+1 = /itineraries/2-days-in-tel-aviv);
+  check:links 0 broken/0 orphan/0 unreachable/0 deep (max depth 3 across 173 pages).
+  e2e/a11y: Chromium not available in cloud env — gate via CI (consistent with iters 31+).
+Ship: squash-merged to master e79ea65, pushed. CI run 28092615897 in_progress at push time.
+Next: iter 52 = tools (falls through to i18n Phase 2 batch 3 — P1; last i18n was iter 41, 10 iters ago).
