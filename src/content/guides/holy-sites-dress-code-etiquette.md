@@ -1,6 +1,6 @@
 ---
 title: 'Dress Code & Etiquette at Israel''s Holy Sites'
-description: 'What to wear and how to behave at Israel''s holy sites — the Western Wall, the Temple Mount, churches and mosques. Modesty rules, head covering, photography, Shabbat etiquette and a per-site, per-gender guide.'
+description: 'Dress code at Israel''s holy sites — the Western Wall, Temple Mount, churches and mosques. Modesty rules, photography, Shabbat etiquette and a per-site guide.'
 heroImage: /images/regions/jerusalem/western-wall.jpg
 category: Planning
 updatedAt: 2026-06-17

@@ -1,6 +1,6 @@
 ---
 title: 'Diving & Snorkeling in Eilat: The Red Sea Guide'
-description: 'A complete guide to diving and snorkeling in Eilat on the Red Sea — the best reefs and dive sites, Coral Beach Nature Reserve, seasons, costs, courses and operators, plus beginner vs certified-diver advice.'
+description: 'Diving and snorkeling in Eilat, Red Sea: best reefs, Coral Beach Reserve, seasons, costs, courses and operators — beginner and certified-diver advice.'
 heroImage: /images/regions/eilat/coral-beach.jpg
 category: Activities
 updatedAt: 2026-06-17

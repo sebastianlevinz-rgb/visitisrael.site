@@ -1,6 +1,6 @@
 ---
 title: 'Christian Pilgrimage to the Holy Land: A Planning Guide'
-description: 'How to plan a Christian pilgrimage in Israel — the holy-land circuit through Jerusalem, Bethlehem, Nazareth and the Sea of Galilee, suggested routes, tours, costs and practical tips for visiting the sites of Jesus.'
+description: 'Plan a Christian pilgrimage in Israel: Jerusalem, Bethlehem, Nazareth and the Sea of Galilee — suggested routes, tours, costs and tips for holy-land sites.'
 heroImage: /images/regions/jerusalem/holy-sepulchre.jpg
 category: Planning
 updatedAt: 2026-06-17

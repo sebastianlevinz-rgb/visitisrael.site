@@ -1,6 +1,6 @@
 ---
 title: 'Tel Aviv to Jerusalem: Train vs Bus vs Sherut vs Taxi'
-description: 'The fastest, cheapest and easiest ways from Tel Aviv to Jerusalem compared: the high-speed train, buses 480 and 405, sherut shared taxis and private taxi — cost, duration, frequency and where they depart.'
+description: 'Tel Aviv to Jerusalem: high-speed train, buses 480 and 405, sherut taxis and private taxi compared — cost, duration, frequency and departure points.'
 heroImage: /images/regions/jerusalem/hero.jpg
 category: Planning
 updatedAt: 2026-06-16

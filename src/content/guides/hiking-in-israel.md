@@ -1,6 +1,6 @@
 ---
 title: 'Hiking in Israel: The National Trail & Jesus Trail Guide'
-description: 'A complete hiking hub for Israel: the Israel National Trail (Shvil) and the Jesus Trail explained, the best sections, when to go, difficulty, water and safety, plus the best day hikes if you only have a day.'
+description: 'Israel hiking guide: the National Trail (Shvil) and Jesus Trail — best sections, when to go, difficulty, water and safety, plus the top day hikes.'
 heroImage: /images/regions/negev/desert.jpg
 category: Planning
 updatedAt: 2026-06-16

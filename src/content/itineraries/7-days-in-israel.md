@@ -1,7 +1,7 @@
 ---
 lang: en
 title: '7 Days in Israel: The Classic First-Time Itinerary'
-description: 'A perfect one-week Israel itinerary: Jerusalem, the Dead Sea and Masada, Tel Aviv and Jaffa, plus the Galilee or the coast — with day-by-day timings, real costs in ₪ and $, transport, hotels and bookable tours.'
+description: 'One-week Israel itinerary: Jerusalem, Dead Sea and Masada, Tel Aviv and Jaffa, plus the Galilee — day-by-day timings, costs, transport, hotels and tours.'
 slug: 7-days-in-israel
 days: 7
 heroImage: /images/regions/jerusalem/hero.jpg

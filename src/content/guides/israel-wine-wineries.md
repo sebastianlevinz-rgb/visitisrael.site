@@ -1,6 +1,6 @@
 ---
 title: 'Israel Wine Country & Wineries: Regions & Tasting Tours'
-description: 'A guide to Israeli wine and wine country — the key regions (Galilee, Golan Heights, Judean Hills and the Negev), how to visit wineries, tasting tours and costs, and how to build a wine day into your trip.'
+description: 'Israeli wine guide: the key regions (Galilee, Golan Heights, Judean Hills and Negev), how to visit wineries, tasting tours, costs and how to plan a wine day.'
 heroImage: /images/regions/golan/mount-bental.jpg
 category: Activities
 updatedAt: 2026-06-17
