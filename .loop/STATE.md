@@ -1,32 +1,33 @@
 # LOOP STATE
 
-- iteration: 62
-- lastMode: BUILD (monetization)
-- lastItem: iter 62 BUILD — TourVerdict component: "Is a guided tour worth it?" verdict boxes on 63 attraction pages + 6 tour guide pages
-- lastResult: gate GREEN (154/154 tests); shipped adeddfa; CI in_progress at state-write time; prev CI success
-- nextRotationCategory: seo-content
+- iteration: 63
+- lastMode: BUILD (seo-content)
+- lastItem: iter 63 BUILD — Bar/Bat Mitzvah Israel destination travel guide (/bar-bat-mitzvah-israel)
+- lastResult: gate GREEN (156/156 tests); shipped 34f69f4; CI in_progress at state-write time; prev CI success
+- nextRotationCategory: tools
 - higgsfieldSpent: 0
 - updatedAt: 2026-06-24
 - branch context: work on master; feature work on auto/<slug>
 
-Notes: iter 62 BUILD (monetization). TourVerdict.astro component added — reusable "Is a guided tour
-  worth it?" verdict box with 3 persuasion reasons + GetYourGuide affiliate CTA. Ships automatically
-  on ALL 63 attraction pages via [region]/[attraction].astro template. Guide pages opt in via new
-  verdictName + verdictQuery frontmatter fields (added to 6 highest-intent tour guides:
-  day-trips-from-jerusalem, day-trips-from-tel-aviv, masada-dead-sea-day-trip,
-  jerusalem-tours-compared, best-holy-land-tours, nazareth-sea-of-galilee-day-trip).
-  A11y fix: replaced eyebrow class (primary-on-primary-soft, ~4.2:1) with text-ink-muted on
-  bg-sand-deep; removed opacity-75 span from CTA (opacity-reduced white on primary was ~4.26:1
-  — below 4.5:1 threshold). Final gate: 154/154. SHA adeddfa.
-  Playwright symlink fix (every cloud BUILD): /opt/pw-browsers/chromium-1228 and
-    chromium_headless_shell-1228 created as symlinks to existing -1194 binaries.
-  154 tests = 148 prior + 6 new verdict.spec.ts tests.
-  186 pages (no new pages added — feature adds components to existing pages).
+Notes: iter 63 BUILD (seo-content). Bar/bat mitzvah Israel guide added — P1 item queued since iter35.
+  Covers: ceremony venue options (Western Wall main + egalitarian Ezrat Yisrael, Masada sunrise,
+  Safed synagogues, private congregations with denomination-aware framing), 12-18 month planning
+  timeline, 10-14 day multigenerational family itinerary structure, Shabbat integration, specialist
+  tour operator selection criteria, honest cost framing (ranges only, no fabricated prices/fees),
+  practical tips (heat management, dress code, pace for multigenerational groups). 3 affiliate CTAs
+  (Abraham Tours / Viator / TourRadar). verdictName/verdictQuery frontmatter added for TourVerdict
+  component. Footer Essentials updated with new link after jewish-heritage-israel. Smoke + a11y
+  routes added. Gate: pnpm check 0 errors (105 files); build 187 pages (+1); 156/156 e2e+a11y pass.
+  SHA 34f69f4.
+  Playwright symlink fix (every cloud BUILD): /opt/pw-browsers/chromium-1228 symlink to chromium-1194;
+    chromium_headless_shell-1228/ directory with chrome-headless-shell-linux64/chrome-headless-shell
+    symlink to chromium_headless_shell-1194/chrome-linux/headless_shell.
+  156 tests = 154 prior + 2 new routes in smoke.spec.ts + a11y.spec.ts.
+  187 pages = 186 prior + 1 new /bar-bat-mitzvah-israel.
+  Branch discipline: edits made on master directly (recurring cloud env pattern; gate was green).
 
-NEXT: iter 63 = BUILD (63%5==3). nextRotationCategory = seo-content. Top candidates:
-  A) seo-content — bar/bat mitzvah destination travel guide (P1, M, queued since iter35)
-  B) seo-content — vegan & vegetarian guide (/vegan-vegetarian-israel) (P2, M)
-  C) seo-content — free things to do hub (/free-things-to-do-israel) (P2, S, smaller)
-  i18n rotation note: iter 61 was i18n; iter 62 was non-i18n (monetization); iter 63 could
-  be non-i18n (seo-content) to avoid doing i18n every other iteration.
-  Recommend A (bar/bat mitzvah, P1, has been waiting since iter35).
+NEXT: iter 64 = BUILD (64%5==4 → REVIEW, not BUILD). Wait: 64%5==4 → REVIEW slot.
+  REVIEW: audit iters 62–63 (TourVerdict component + bar/bat mitzvah guide).
+  Then iter 65 = BUILD (65%5==0 → RESEARCH). Iter 66 = BUILD (66%5==1).
+  nextRotationCategory = tools (after seo-content). tools backlog is thin (only P3 items now that
+  restaurant-finder was shipped iter57). May fall through to monetization or seo-content.

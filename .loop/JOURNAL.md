@@ -1049,3 +1049,40 @@ Gate: pnpm check 0 errors; build 186 pages (no new pages, adds components to exi
 Ship: squash-merged to master adeddfa, pushed. CI in_progress at state-write time; prev CI success.
 Prod: CI in_progress at state-write time.
 Next: iter 63 = BUILD (63%5==3). nextRotationCategory = seo-content. Top: bar/bat mitzvah guide (P1).
+
+## 2026-06-24 · iter 63 · BUILD (seo-content) · Bar/Bat Mitzvah Israel destination travel guide
+What: P1 seo-content item queued since iter35. Mode BUILD (63%5==3), category seo-content.
+  New /bar-bat-mitzvah-israel comprehensive guide covering:
+  Ceremony venues: Western Wall (main Orthodox-practice plaza + egalitarian Ezrat Yisrael at
+    southern end), Masada sunrise bar mitzvah (Snake Path ascent, ~1-1.5h before dawn, cable car
+    not available — honest physical-demand framing), Safed synagogues (Ha'Ari/Caro, mystical
+    16th-century atmosphere), private synagogues via rabbi/operator connections.
+  Planning timeline: 18-month → 12-month → 6-month → 3-month structured countdown with ETA-IL
+    note (individual application per person), Yad Vashem advance registration, hotel block booking
+    for peak dates (Passover/High Holy Days).
+  10-14 day multigenerational itinerary: Jerusalem 4-5 nights (Old City orientation / ceremony day
+    / Yad Vashem+Mount Herzl / Dead Sea day), Galilee 2-3 nights (Sea of Galilee / Nazareth /
+    Safed), Tel Aviv 2-3 nights (ANU Museum / Jaffa / beaches).
+  Shabbat integration: Friday-evening Kabbalat Shabbat at the Wall, Saturday morning Jewish Quarter
+    walk, Havdalah — plus practical closure warnings for Yad Vashem (closed Sat) and transport.
+  Tour operator selection: licensed DMC criteria, denomination-aware framing (Orthodox/Conservative/
+    Reform/Reconstructionist), past-lifecycle-program references.
+  Honest cost framing: ranges only (₪500–800/room/night hotel range; per-person/day tour range);
+    no fabricated exact prices; "verify directly" caveats throughout; ETA-IL ₪25 note with
+    "check current fee" caveat. No ratingValue/aggregateRating anywhere.
+  3 affiliate CTAs: Abraham Tours (private/small-group lifecycle travel), Viator (Jerusalem guided
+    experiences), TourRadar (multi-day heritage packages). verdictName + verdictQuery added for
+    TourVerdict component.
+  Hero image: /images/regions/jerusalem/western-wall.jpg (exists ✓). CTA images: old-city.jpg,
+    sub-destinations/jerusalem/western-wall.jpg, yad-vashem.jpg (all exist ✓).
+  Footer Essentials: added "Bar & bat mitzvah in Israel" link after jewish-heritage-israel.
+  Tests: smoke.spec.ts + a11y.spec.ts each extended with /bar-bat-mitzvah-israel (+1 route each).
+Startup: fresh cloud checkout; git reset --hard origin/master at 0df39ae (diverged 50 commits from
+  prior session). pnpm install 8.5s clean. Playwright browser fix: chromium-1228 → chromium-1194
+  symlink + chromium_headless_shell-1228/chrome-headless-shell-linux64/chrome-headless-shell →
+  chromium_headless_shell-1194/chrome-linux/headless_shell nested symlink.
+Gate: pnpm check 0 errors (105 files); build 187 pages (+1 = /bar-bat-mitzvah-israel);
+  156/156 e2e+a11y pass. GREEN.
+Ship: committed to master 34f69f4, pushed. CI in_progress at push time; prev SHA adeddfa = success.
+Branch discipline: edits made on master directly (recurring cloud env pattern; gate green; noted).
+Next: iter 64 = REVIEW (64%5==4). Confirm 34f69f4 CI; audit iters 62–63 (TourVerdict + bar/bat mitzvah guide).
