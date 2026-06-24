@@ -19,11 +19,11 @@ bounded, gated BUILD item. Full architecture + honesty rules + progress tracker 
 ## monetization
 - [SHIPPED iter32] Cruise port shore excursions guide → b50ad64
 - [SHIPPED iter42] Israel food tours & cooking classes guide → e974cf1
+- [SHIPPED iter48] Israel for seniors & over-50s guide → 3d6b2b7
 - [P2] (monetization, M) MORE per-hub tours-comparison pages (Masada tours compared, Petra options compared, Galilee tours) — extend the /jerusalem-tours-compared pattern; mind overlap with existing day-trip guides (enhance those with a table instead where overlap is high). status: ready
 - [P2] (monetization, S) "Is the <X> tour worth it?" verdict boxes added to top attraction/day-trip pages — conversion + dwell time — reusable verdict component. status: ready
 - [P2] (monetization, M) Attraction "tickets & how to visit / skip-the-line" blocks on top attraction pages (Masada cable car, Western Wall tunnels, Bahá'í Gardens, etc.) — capture ticket-booking intent on existing high-traffic pages — honest "how to get tickets" note (price RANGES only, link live booking) + Tiqets/GetYourGuide CTA. HONESTY: prices drift — no hard-coded exact prices. [iter10 research] status: ready
 - [P2] (monetization, S) Deepen travel-insurance + car-rental pages with plan-tier/comparison tables (eSIM done iter26 781630a) — same pattern; honest ranges. status: ready
-- [P2] (monetization+seo, M) Israel for seniors & over-50s guide (/israel-for-seniors) — America Israel Tours, TourRadar, Bein Harim ("Israel Trips for Seniors"), GilTravel ("Exploring Israel Over 60"), exclusiveisraeltours.com all have dedicated senior-travel pages; we have israel-with-kids but NOTHING for older travelers. Content: best seasons (spring/fall for mild temps + fewer crowds), comfortable pace (2–3 sites/day), Masada cable car option vs sunrise hike, private coach over sherut, hotel proximity to medical care (tour operators select hotels ≤20 min from a hospital), accessible site picks, small group benefits, early evening hotel return, senior-friendly culinary options. Monetization: Bein Harim senior tours, Abraham Tours escorted, TourRadar small-group CTAs. [iter40 research] status: ready
 
 ## seo-content
 - [SHIPPED iter33] Jewish heritage travel guide → 6de11d7

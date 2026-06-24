@@ -700,3 +700,23 @@ Gate: pnpm check 0 errors (101 files); build 171 pages (stable); check:links 0 b
 Ship: squash-committed to master 491d0f7, pushed. CI in_progress at push time.
 Next: iter 48 = BUILD/monetization. Top candidate: Israel for seniors guide (P2 M, well-researched
   iter40, Abraham/Bein Harim CTAs, distinct audience gap vs israel-with-kids).
+
+## 2026-06-24 · iter 48 · BUILD (monetization) · Israel for seniors guide
+What: /israel-for-seniors guide (P2 monetization, M effort). Mode BUILD (48%5==3), category monetization.
+Backlog item: "Israel for seniors & over-50s guide (/israel-for-seniors)" — recommended in iter47 STATE.
+Content: best seasons (spring/autumn, avoid Jul-Aug heat), 2-3 sites/day pace with midday break, key
+senior-friendly sites (Dead Sea/Ein Bokek flat promenade + floating, Masada cable car no-hike option,
+Caesarea paved paths, Galilee boat trip, Jerusalem Old City with honest mobility caveats), small-group
+escorted vs private guided vs independent travel, medical infrastructure (Hadassah/Ichilov/Rambam),
+medication tips, heat management, walking surface warnings, dietary requirements, packing notes.
+Monetization: 3 CTAs — Abraham Tours (escorted/private), TourRadar (package comparison), Viator (day
+experiences). No fabricated prices (price ranges only, honesty intact). No fabricated ratings/reviews.
+Implementation: src/content/guides/israel-for-seniors.md; footer Essentials link added after
+israel-with-kids; smoke + a11y routes added (/israel-for-seniors).
+Fix during gate: Playwright 1.61.0 requires chromium_headless_shell-1228 but env has 1194 — same pattern
+as iters 46-47. Created dir symlinks for both chromium-1228 and chromium_headless_shell-1228 (ONE fix
+per playbook §4). 117/117 tests passed after fix.
+Gate: pnpm check 0 errors (101 files); build 172 pages (+1); 117/117 e2e+a11y pass. GREEN.
+Ship: squash-committed to master 3d6b2b7, pushed. Branch auto/seniors-guide deleted.
+Prod: CI in_progress at push time; prev SHA dcbdcef = success. Next iter start-check to confirm.
+Next: iter 49 = REVIEW (49%5==4). Confirm 3d6b2b7 CI; audit iters 46-48.
