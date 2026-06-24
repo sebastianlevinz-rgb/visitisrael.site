@@ -962,3 +962,32 @@ Gate: pnpm check 0 errors (103 files); build 182 pages (stable); 140/140 e2e+a11
 Ship: squash-merged to master 9a3e92d, pushed. CI in_progress at push time (prior SHA e89f462 = success).
 Next: iter 60 = BUILD — i18n Phase 2 batch 4 (shabbat-guide + best-tours-in-israel in fr+de; P1, overdue 7 BUILD iters since batch 3).
   After that: iter 61 = monetization (verdict boxes / Masada tours comparison / ticket blocks).
+
+## 2026-06-24 · iter 60 · RESEARCH · experience & niche travel gaps — 6 new backlog items
+What: RESEARCH mode (60%5==0). Previous iter prediction "iter 60 = BUILD" was incorrect — playbook
+  rotation rule takes precedence. Startup: fresh cloud checkout; git fetch + hard reset to origin/master
+  at b0220ff (iter 59 state commit). pnpm install clean (8.7s). STOP flag absent.
+Research scope: 10 targeted web searches across Tourist Israel, Lonely Planet, TripAdvisor, Viator,
+  Secret Tel Aviv, Gil Travel, wanderingcarol.com, isra.land, Times of Israel, Frommers, igoogledisrael,
+  LevyIsraelTours, DannyTheDigger, ISRAEL21c, Bein Harim, desert-prime.com, Astronomy Israel, Tzur Tours,
+  Out of Office, The Luxury Editor, weknowhotels.com, myisraelstay.com. Confirmed existing site content
+  (grep + ls) to de-dup before adding items.
+Findings (6 net-new P2 items, all de-duped against site + backlog):
+  1. Kibbutz experience & hotels (/kibbutz-israel-guide) — Tourist Israel+Lonely Planet+TripAdvisor rank;
+     ZERO kibbutz content on site; 270+ kibbutzim; Booking.com CTA opportunity; (P2, M).
+  2. Negev stargazing / dark sky (/negev-stargazing-guide) — First IDA Dark Sky Park Middle East; guided
+     telescope tours; adventure-sports.md has 1 sentence only; (P2, S).
+  3. Bedouin experience & overnight camp (/bedouin-experience-israel) — Tourist Israel, Bein Harim, ISRAEL21c,
+     Kfar HaNokdim rank; zero site coverage; bucket-list experience; Viator CTA; (P2, M).
+  4. Glamping & desert camping (/glamping-israel) — wanderingcarol, Times of Israel, Frommers cover; Selina
+     Ramon + Desert Shade + Kibbutz Lotan; no camping guide on site; (P2, S).
+  5. Mount Hermon skiing (/mount-hermon-skiing) — Israel's ONLY ski resort; tourist rank + dedicated page
+     at touristisrael.com; adventure-sports.md has 1 FAQ para only; (P2, S).
+  6. Luxury Israel travel (/luxury-travel-israel) — 6 Forbes hotels 2026; TourRadar/Tzur Tours rank;
+     $300-400/day private tours; high CPA; no luxury guide on site; (P2, M).
+  De-duped (not added): lgbtq/with-kids/wine/cooking-classes/adventure-sports guides all exist on site.
+Gate: N/A (RESEARCH mode, no shipping).
+Ship: N/A.
+Next: iter 61 = BUILD (61%5==1). i18n Phase 2 batch 4 overdue (8 BUILD iters since batch 3); OR
+  monetization item (luxury travel guide newly added, high CPA potential). Recommend i18n batch 4 first
+  (shabbat-guide + best-tours-in-israel fr+de) given P1 priority + long overdue.

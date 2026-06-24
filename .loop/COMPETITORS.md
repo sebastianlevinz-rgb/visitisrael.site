@@ -646,3 +646,95 @@ own specialist. Budget flights: ALL prices are estimates only — never present 
 Wedding: rabbinate eligibility requirements are politically/legally sensitive — handle with factual
 neutrality; link official rabbinate sources. Group tours: individual entry screening still applies per
 person; do not imply group entry approval.
+
+### 2026-06-24 · iter 60 · RESEARCH — experience & niche travel gaps
+
+Searched: Tourist Israel, Lonely Planet, TripAdvisor, Viator, Secret Tel Aviv, Gil Travel,
+wanderingcarol.com, isra.land, Times of Israel, Frommers, igoogledisrael, LevyIsraelTours,
+DannyTheDigger, ISRAEL21c, Bein Harim, desert-prime.com, Desert Time Israel, Astronomy Israel,
+Tzur Tours, Out of Office, The Luxury Editor, weknowhotels.com, myisraelstay.com.
+Checked existing site (grep for jeep/kibbutz/hermon/bedouin/glamping/luxury) + backlog (de-dup pass).
+
+- **Kibbutz experience & kibbutz hotels (P2 gap)** — Tourist Israel (Best Kibbutz Hotels page — shows
+  photos, types, by region), Lonely Planet (overnight accommodation kibbutzim guide), TripAdvisor (#1
+  Israel Kibbutz 2026 with prices), Secret Tel Aviv (separate guides: Sea of Galilee kibbutz hotels,
+  Central Israel, full list), Viator (The Israeli Kibbutz Experience tour — day + overnight), Gil Travel
+  (kibbutz hotels guide + FAQ). 270+ kibbutzim in Israel. Kibbutz hotel types range from budget-rustic
+  (communal dining, basic rooms) to luxury (Kibbutz Sde Yoav Dream Island — spa + hydrotherapy + wine room
+  + upscale suites; opened recently). Key regional picks: Ein Gedi Kibbutz Hotel (Dead Sea — private beach,
+  10min from Dead Sea); Ramat Rachel (Jerusalem outskirts — panoramic city views, archaeological site on
+  grounds); Nof Ginosar (Sea of Galilee — houses the Ancient Boat Museum); Kibbutz Lotan (South Negev —
+  eco-lodge, birding, meditation). Post-2023 context: traditional volunteer-work programs significantly
+  reduced; pivot to hotel + tourism income. ZERO kibbutz guide on our site; distinct from where-to-stay
+  (general) and regions (geographic overview). → BACKLOG (seo-content+monetization, P2, M).
+
+- **Negev stargazing / dark sky (P2 gap)** — desert-prime.com (commercial guided stargazing Mitzpe Ramon),
+  deserttimeisrael.com/stargazing (Desert Time, "astronomy in Mitzpe Ramon"), astronomyisrael.com
+  (telescope programs), Gil Travel top-10 stargazing spots, Tourist Israel Negev Night Sky Tour,
+  negevtour.co.il/harnegev-en/mizpe_ramon_en/ramon-crater-international-dark-sky, mustseespots.com,
+  evendo.com/Landroom-Observatory (stargazing venue). Makhtesh Ramon was designated the first IDA-
+  certified International Dark Sky Park in the Middle East (strict light-pollution controls by Nature
+  and Parks Authority). Milky Way visible to naked eye on clear new-moon nights year-round. Guided tours
+  1–3h; telescopes + laser pointers; Perseid meteor shower (August) peak demand. Landroom Observatory
+  is a purpose-built facility in the crater. adventure-sports.md FAQ mentions Mitzpe Ramon stargazing
+  in one sentence — not a standalone guide. → BACKLOG (seo-content, P2, S).
+
+- **Bedouin experience & overnight desert camp (P2 gap)** — Tourist Israel (dedicated "Negev Desert and
+  Bedouin Experience Day Tour" + "Bedouin Hospitality" editorial); Bein Harim ("Bedouins in Israel"
+  editorial); ISRAEL21c ("10 unforgettable Bedouin tourism experiences in Israel" with specific sites);
+  Kfar HaNokdim kfarhanokdim.co.il (official site: camel ranch + overnight tents near Masada/Arad;
+  referenced in Israel With Israelis; GTI tours journal). Camel rides, traditional feast, bonfire, overnight
+  tent stays, stargazing at dark-sky sites. Growing "immersive" travel niche; frequently cited as bucket-list
+  Israel experience. ZERO Bedouin/desert hospitality content on site; distinct from adventure-sports (no
+  cultural angle) and Israel-with-kids (family focus). Note: some Bedouin "experience" sites are more
+  tourist-polished than authentic — recommend honest framing as "Bedouin-run hospitality businesses"
+  vs "see authentic nomadic Bedouin life." → BACKLOG (seo-content+monetization, P2, M).
+
+- **Glamping & desert camping (P2 gap)** — wanderingcarol.com (dedicated "glamping in Israel" guide;
+  Negev focus; mentions Selina Ramon, Samar eco-tent camp); isra.land ("glamping in Israel — a new vein
+  between desert and yield"); Times of Israel ("With glamping, an Israeli tourism growth sector gets in
+  tents"); Frommers sustainable-travel/ecotourism section; Sustainable tourism/The Switchers piece.
+  Key sites: Selina Ramon (inside Makhtesh Ramon, opened 2021; glamping tents + private rooms; 5-acre
+  Ramon Nature Reserve setting; bookable on selina.com); Desert Shade (eco-camp near Ramon Crater, "silent
+  stark desert" experience); Kibbutz Lotan (Arava Valley — founded 1980s by American immigrants; eco-study
+  programs + organic farm + meditation + birding; eco-structures with sawdust toilets). Glamping sector
+  growing significantly in Israel (economic diversification for peripheral communities). ZERO camping/
+  glamping guide on site. → BACKLOG (seo-content, P2, S).
+
+- **Mount Hermon skiing guide (P2 gap)** — Tourist Israel (dedicated Mount Hermon Ski Resort page;
+  photos + overview); igoogledisrael.com ("Snow and skiing in Israel? Are you kidding me?" — high
+  enthusiasm post); LevyIsraelTours ("Ultimate Guide to Israel's Highest Peak and Winter Wonderland");
+  DannyTheDigger (Ski Hermon post); snow-forecast.com/resorts/mounthermon; skihermon.co.il (official
+  site, English). Israel's ONLY ski resort; Golan Heights; 1640–2073m elevation; 13 runs (2 black, 7 red,
+  3 blue, 1 green); 10 lifts; ~50 ski days/year when snow permits; 300,000 visitors/season; ski school
+  + full equipment rental on site; pre-order ticket system required (no walk-in — changed from previous
+  policy). Summer: cable cars, zip-line, mountain biking, hiking. adventure-sports.md has a single FAQ
+  answer mentioning Mount Hermon but no standalone guide. "skiing Israel" = unique curiosity-driven search
+  from global audience (people surprised Israel has skiing). → BACKLOG (seo-content, P2, S).
+
+- **Luxury Israel travel guide (P2 gap)** — TourRadar (10 Best Luxury Israel Tours 2026/2027; $300-400/day
+  private luxury); Tzur Tours (Luxury Trips to Israel / Private VIP Tours); Out of Office (tailor-made
+  luxury Israel 2026 & 2027); The Luxury Editor (5-star Israel hotels 2026); weknowhotels.com / Forbes
+  Travel Guide (6 Israel hotels back on 2026 Forbes list after 2-year absence: Waldorf Astoria Jerusalem,
+  Ritz-Carlton Herzliya, David Citadel, King David Jerusalem, Dan Tel Aviv — 5 confirmed); myisraelstay.com
+  (17 hotel openings shaping Israel's summer 2026 — 1,000+ new rooms); privateupgrades.com (5-star Israel
+  2026). Zero luxury guide on site. Private tour packages $300-400/day (Tzur Tours confirmed range).
+  Experiences cited consistently: private Masada at dawn with archaeologist guide; Mahane Yehuda private
+  chef's table; Golan Heights VIP boutique winery tastings; City of David private tunnel tour; Dead Sea
+  spa suite. High-CPA segment (luxury travelers spend 3-5× average and book through premium operators).
+  → BACKLOG (monetization+seo-content, P2, M).
+
+DE-DUPED (not added): lgbtq-travel-israel.md EXISTS → LGBTQ not re-added. israel-wine-wineries.md
+EXISTS → winery/Golan wine tours not added. israel-with-kids.md EXISTS → family guide not re-added.
+israel-adventure-sports.md has jeep + skiing FAQs → added as standalone P2 guides but acknowledged
+lower priority given partial coverage. israel-food-tours-cooking-classes.md EXISTS → not re-added.
+Haifa guide: haifa.md region page EXISTS → full editorial Haifa guide not a gap. Eilat guide:
+eilat.md region page + eilat-diving-snorkeling.md → water parks is a narrow P3 at most (skipped).
+
+CAUTION (iter 60): Mount Hermon is in Israeli-occupied Golan Heights — link is-israel-safe for current
+area context; never assert "safe" in absolute terms. Luxury hotel Forbes rankings are from a specific
+2026 source — frame as "recognized in 2026 Forbes review" not as guaranteed current status. Bedouin
+experience: avoid romanticizing or trivializing; frame as hosted cultural enterprise. Stargazing: dark
+sky conditions are weather+moon dependent — frame carefully. Glamping prices change seasonally — ranges
+only. Kibbutz volunteer programs: post-2023 significant reduction in kibbutz volunteer programs — DO NOT
+present volunteer programs as currently active without verification from organizer.
