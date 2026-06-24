@@ -57,7 +57,7 @@ Fixed speed cameras are positioned on Road 1 (Tel Aviv–Jerusalem), Road 4 and 
 
 ## Route 6 (Trans-Israel Highway) toll
 
-[Route 6](/transport/tel-aviv-to-haifa) is a north–south toll motorway with **no physical toll booths** — overhead cameras photograph your plate at each section entry. If you rent a car, the rental company automatically charges the toll to your credit card after the trip (plus a small admin fee; check your contract). The road is fast and largely congestion-free: it is the best way to move between the [Galilee](/galilee) and the [Negev](/negev) without cutting through Tel Aviv.
+Route 6 is a north–south toll motorway with **no physical toll booths** — overhead cameras photograph your plate at each section entry. If you rent a car, the rental company automatically charges the toll to your credit card after the trip (plus a small admin fee; check your contract). The road is fast and largely congestion-free: it is the best way to move between the [Galilee](/galilee) and the [Negev](/negev) without cutting through Tel Aviv.
 
 If you enter Israel in a foreign-registered vehicle, register and pay at [Derech Eretz](https://www.derechEretz.co.il) within 30 days of travel.
 
