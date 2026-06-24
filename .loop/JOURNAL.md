@@ -792,3 +792,28 @@ Gate: pnpm check 0 errors (101 files); build 173 pages (+1 = /itineraries/2-days
   e2e/a11y: Chromium not available in cloud env — gate via CI (consistent with iters 31+).
 Ship: squash-merged to master e79ea65, pushed. CI run 28092615897 in_progress at push time.
 Next: iter 52 = tools (falls through to i18n Phase 2 batch 3 — P1; last i18n was iter 41, 10 iters ago).
+
+## 2026-06-24 · iter 52 · BUILD (i18n) · Phase 2 batch 3 — fr+de guides: day-trips-from-jerusalem + day-trips-from-tel-aviv + is-israel-safe
+What: i18n Phase 2 batch 3. tools category had only P3 kosher-finder (effort M) → fell through to i18n (P1).
+  Delivered 3 high-intent day-trip + safety guides × fr+de = 6 new locale pages:
+  src/content/guides/fr/day-trips-from-jerusalem.md — French excursions guide; locale-correct cross-links
+    to /fr/transportation + /fr/day-trips-from-tel-aviv (newly created); all 3 affiliate CTAs in French.
+  src/content/guides/de/day-trips-from-jerusalem.md — German equivalent; cross-links to /de/transportation
+    + /de/day-trips-from-tel-aviv; CTAs localized (Tour ansehen / Reise ansehen).
+  src/content/guides/fr/day-trips-from-tel-aviv.md — French version; cross-links to /fr/day-trips-from-jerusalem;
+    3 partners (getyourguide / viator / civitatis); note Bahá'í with accent handled correctly.
+  src/content/guides/de/day-trips-from-tel-aviv.md — German version; mutual cross-link to /de/day-trips-from-jerusalem.
+  src/content/guides/fr/is-israel-safe.md — French safety guide; cross-links to /fr/first-time-in-israel
+    (already translated); links to Quai d'Orsay + DFAE for Swiss; honest framing — no security guarantees;
+    3 FAQs on current situation, Jerusalem/Tel Aviv, and travel insurance.
+  src/content/guides/de/is-israel-safe.md — German equivalent; Auswärtiges Amt + EDA Switzerland linked;
+    same honest framing; cross-link to /de/first-time-in-israel.
+smoke.spec.ts + a11y.spec.ts: +6 routes each (fr+de ×3 new slugs).
+Hreflang alternates: auto-computed by [...slug].astro using hasFr/hasDe set — all 3 EN guides now emit
+  fr+de alternates; all 6 new locale pages have correct hreflang back-links.
+Gate: pnpm check 0 errors (101 files); build 179 pages (+6); check:links 0 broken/0 orphans/0 unreachable/
+  0 deep; e2e/a11y: 133/133 pass (Playwright 1.61.0 headless_shell-1228 symlink to 1194 — consistent fix
+  with iters 46/48).
+Ship: squash-committed to master 989f751, pushed. CI run 28095871662 in_progress at push time.
+fr: 10/147, de: 10/147. Next i18n batch: more guides (shabbat-guide, best-tours-in-israel, or is-israel-safe already done).
+Next: iter 53 = BUILD/monetization. Top P1 candidate: adventure sports hub /israel-adventure-sports.

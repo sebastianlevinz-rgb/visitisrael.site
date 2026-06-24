@@ -1,26 +1,26 @@
 # LOOP STATE
 
-- iteration: 51
-- lastMode: BUILD (seo-content)
-- lastItem: 2-days-in-tel-aviv itinerary + FAQPage JSON-LD on itinerary template (e79ea65)
-- lastResult: SHIPPED — /itineraries/2-days-in-tel-aviv live; [slug].astro now emits FAQPage JSON-LD + context-aware tour CTAs via startRegion; gate pnpm check 0 errors, build 173 pages (+1), check:links clean; CI in_progress run 28092615897 at push time
-- nextRotationCategory: tools
+- iteration: 52
+- lastMode: BUILD (i18n)
+- lastItem: i18n Phase 2 batch 3 — fr+de: day-trips-from-jerusalem + day-trips-from-tel-aviv + is-israel-safe (989f751)
+- lastResult: SHIPPED — 6 new locale pages; gate pnpm check 0 errors, build 179 pages (+6), check:links 0 broken/orphans, 133/133 e2e+a11y pass; CI in_progress run 28095871662 at push time
+- nextRotationCategory: monetization
 - higgsfieldSpent: 0
 - updatedAt: 2026-06-24
 - branch context: work on master; feature work on auto/<slug>
 
-Notes: iter 51 BUILD (seo-content). P1 city & short itineraries item delivered:
-  - 2-days-in-tel-aviv.md created (Carmel Market/beach/Jaffa day 1; Neve Tzedek/White City/Florentin day 2;
-    6 FAQs; honest price ranges; cross-links to region/attraction/itinerary pages)
-  - 3-days-in-jerusalem.md was pre-existing in content (pre-loop content); FAQPage JSON-LD now added via template
-  - [slug].astro: startRegion field added to content.config.ts schema; FAQPage JSON-LD emitted when d.faqs present;
-    tour CTAs switch between Tel Aviv set (food tour/Jaffa walk/Masada from TLV) and Jerusalem set (Old City/Masada/TLV food)
-  - Backlog item P1 seo-content "city & short itineraries" downgraded: 2-days-in-tel-aviv SHIPPED;
-    3-days-in-jerusalem pre-existing; 3-days-in-israel (new standalone page) deferred to P3
-  Loop history: 29 features + sitemap-lastmod + link-checker(+depth) + i18n Phase0/1a/1b/1c/2-batch1/2-batch2
+Notes: iter 52 BUILD (i18n Phase 2 batch 3). tools category had only P3 kosher-finder → fell through.
+  Delivered 3 high-intent guides × fr+de = 6 pages:
+  - fr/day-trips-from-jerusalem + de/day-trips-from-jerusalem (affiliate CTAs localized, cross-links to
+    fr/de transportation + newly created fr/de day-trips-from-tel-aviv)
+  - fr/day-trips-from-tel-aviv + de/day-trips-from-tel-aviv (mutual cross-links with Jerusalem page)
+  - fr/is-israel-safe + de/is-israel-safe (links to fr/de first-time-in-israel already translated;
+    official govt advisory links; honest safety framing, no security guarantees)
+  smoke.spec.ts + a11y.spec.ts: +6 routes each. fr: 10/147, de: 10/147.
+  Loop history: 30 features + sitemap-lastmod + link-checker(+depth) + i18n Phase0/1a/1b/1c/2-batch1/2-batch2/2-batch3
   + 14 review passes; iters 5/10/20/30/35/40/45/50 research.
 
-NEXT: iter 52 = tools (P3 kosher-finder likely falls through → i18n Phase 2 batch 3 is P1 recommended,
-  or monetization: adventure sports hub / bar-bat-mitzvah are both P1 seo+monetization).
-  i18n Phase 2 batch 3: good candidates = bar-bat-mitzvah + adventure-sports + city-short-itinerary fr/de pair.
-  Recommended: i18n Phase 2 batch 3 (4 guides, fr+de = 8 pages), since last i18n was iter 41 (10 iters ago).
+NEXT: iter 53 = monetization (P1 adventure sports hub or P1 bar/bat mitzvah guide).
+  Recommended: adventure sports hub /israel-adventure-sports (P1, M effort; Tourist Israel/Plan It Israel/
+  Time Out Israel/Viator all rank; missing segment: surfing/canyoning/Negev sand-surfing/hot-air-balloon/
+  Mount Hermon skiing/zip-lining; format: activity cards by type+season+region; GYG/Viator adventure tour CTAs).
