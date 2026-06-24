@@ -11,6 +11,7 @@ import type { Partner } from '@/config/affiliates';
 import { defaultAuthor } from '@/data/authors';
 import { article, breadcrumbList, SITE } from '@/lib/schema';
 import { useTranslations, localeHome, type Locale } from '@/i18n/ui';
+import TourVerdict from '@/components/TourVerdict.astro';
 
 export async function getStaticPaths() {
   const allGuides = await getCollection('guides');
@@ -137,6 +138,18 @@ const schema = [
   <article class="prose-content mx-auto max-w-3xl px-4 pt-8">
     <Content />
   </article>
+
+  {
+    data.verdictName && (
+      <section class="mx-auto max-w-3xl px-4">
+        <TourVerdict
+          name={data.verdictName as string}
+          partner="getyourguide"
+          query={(data.verdictQuery ?? data.verdictName) as string}
+        />
+      </section>
+    )
+  }
 
   <FaqSection faqs={faqs} />
   <AuthorByline updated={data.updatedAt} />

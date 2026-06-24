@@ -19,6 +19,7 @@ import {
 import { defaultAuthor } from '@/data/authors';
 import { affiliateUrl } from '@/config/affiliates';
 import { place, article, breadcrumbList } from '@/lib/schema';
+import TourVerdict from '@/components/TourVerdict.astro';
 
 export async function getStaticPaths() {
   const attractions = await getCollection('attractions');
@@ -122,6 +123,15 @@ const schema = [
       cta="See tours & tickets"
     />
   </article>
+
+  <!-- Tour verdict box. -->
+  <section class="mx-auto max-w-3xl px-4">
+    <TourVerdict
+      name={name}
+      partner="getyourguide"
+      query={`${name} ${regionName}`}
+    />
+  </section>
 
   <!-- Featured tours. -->
   <section class="mx-auto max-w-6xl px-4 pt-10" aria-labelledby="tours">

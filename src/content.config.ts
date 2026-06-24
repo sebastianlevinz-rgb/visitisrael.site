@@ -88,6 +88,9 @@ const guides = defineCollection({
     // Money-page CTA cards rendered by the guide template from central config.
     ctaHeading: z.string().optional(),
     affiliateCtas: z.array(affiliateCta).optional(),
+    // "Is a guided tour worth it?" verdict box.
+    verdictName: z.string().optional(),
+    verdictQuery: z.string().optional(),
   }),
 });
 

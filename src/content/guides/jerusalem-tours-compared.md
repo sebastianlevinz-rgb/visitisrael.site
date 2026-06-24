@@ -3,6 +3,8 @@ title: 'Jerusalem Tours Compared: Which Guided Tour Is Best? (2026)'
 description: 'Jerusalem tours compared: Old City walks, full-day tours, Bethlehem combo, Western Wall Tunnels and private guides — what each costs and where to book.'
 heroImage: /images/regions/jerusalem/hero.jpg
 category: Tours
+verdictName: Jerusalem tours
+verdictQuery: Jerusalem guided tour Israel
 updatedAt: 2026-06-23
 ctaHeading: 'Top-rated Jerusalem tours & tickets'
 affiliateCtas:

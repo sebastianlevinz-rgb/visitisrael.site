@@ -3,6 +3,8 @@ title: 'Best Holy Land Tours: Christian Tours of Israel Compared (2026)'
 description: 'Holy Land tours compared: group pilgrimages, private Christian guides, Bethlehem and Galilee day trips — how to choose, what it costs and where to book.'
 heroImage: /images/regions/galilee/sea-of-galilee.jpg
 category: Tours
+verdictName: Holy Land tours
+verdictQuery: Holy Land tour Israel
 updatedAt: 2026-06-22
 ctaHeading: 'Browse Holy Land & Christian tours'
 affiliateCtas:

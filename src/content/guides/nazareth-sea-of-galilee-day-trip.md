@@ -3,6 +3,8 @@ title: 'Nazareth & Sea of Galilee Day Trip: The Christian Galilee Circuit'
 description: 'A complete guide to the Christian Galilee day trip — Nazareth, Capernaum, the Mount of Beatitudes, Tabgha and the Yardenit baptism site — with costs, logistics and what to expect.'
 heroImage: /images/regions/galilee/hero.jpg
 category: Tours
+verdictName: Galilee day trip
+verdictQuery: Nazareth Sea of Galilee day trip Israel
 updatedAt: 2026-06-16
 ctaHeading: 'Book the Christian Galilee day trip'
 affiliateCtas:

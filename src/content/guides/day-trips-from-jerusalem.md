@@ -3,6 +3,8 @@ title: 'The Best Day Trips from Jerusalem (2026)'
 description: 'The best day trips from Jerusalem: Masada & the Dead Sea, Bethlehem, Tel Aviv & Jaffa, the Galilee and more — distances, how to do them, and guided options.'
 heroImage: /images/regions/dead-sea/hero.jpg
 category: Tours
+verdictName: day trips from Jerusalem
+verdictQuery: day trips from Jerusalem Israel
 updatedAt: 2026-05-27
 ctaHeading: 'Top day trips from Jerusalem'
 affiliateCtas:
