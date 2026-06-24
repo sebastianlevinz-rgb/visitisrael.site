@@ -991,3 +991,43 @@ Ship: N/A.
 Next: iter 61 = BUILD (61%5==1). i18n Phase 2 batch 4 overdue (8 BUILD iters since batch 3); OR
   monetization item (luxury travel guide newly added, high CPA potential). Recommend i18n batch 4 first
   (shabbat-guide + best-tours-in-israel fr+de) given P1 priority + long overdue.
+
+## 2026-06-24 · iter 61 · BUILD (i18n) · Phase 2 Batch 4 — shabbat-guide + best-tours-in-israel in fr+de
+What: i18n Phase 2 Batch 4 (P1, overdue 9 BUILD iters since batch 3 at iter 52). Mode BUILD (61%5==1);
+  i18n takes priority over monetization rotation due to P1 status + extended delay.
+  Startup: fresh cloud checkout; git reset --hard origin/master (local diverged by 50 commits from prior
+  session); no auto/* branches found; STOP absent. pnpm install 9.4s clean.
+  Browser fix: /opt/pw-browsers/chromium_headless_shell-1228/chrome-headless-shell-linux64/
+    chrome-headless-shell → chromium_headless_shell-1194/chrome-linux/headless_shell (same per-env fix).
+  Also copied chromium-1194 → chromium-1228 for full Chrome (used by smoke tests).
+4 new content files created:
+  src/content/guides/fr/shabbat-guide.md — Le Shabbat en Israël: when/what changes/city by city
+    (Jerusalem most observant → quiet; Tel Aviv secular → mostly open; Nazareth/Haifa unaffected);
+    how to plan (sherut/taxi/rental car; Friday prep; lean into it; book Saturday day-trip). Cross-links
+    to /fr/transportation, /fr/first-time-in-israel, /jerusalem/western-wall, /dead-sea, /itineraries.
+  src/content/guides/de/shabbat-guide.md — German equivalent (Schabbat; "Klagemauer" for Western Wall;
+    Scherutot; formal register; cross-links /de/transportation, /de/first-time-in-israel).
+  src/content/guides/fr/best-tours-in-israel.md — Les meilleurs circuits et excursions en Israël:
+    honest tour format comparison; same 3 CTAs (GYG/Viator/Tiqets) with rating/reviews preserved from EN;
+    5 recommended tours; how to choose; more planning section. YAML: double-quoted strings throughout
+    (apostrophes in French text break single-quoted YAML — YAML parse error caught + fixed before gate).
+  src/content/guides/de/best-tours-in-israel.md — German equivalent (Klagemauer, Heiliges Grab, Via
+    Dolorosa, Kafarnaum, Karmelmarkt — standard German exonyms used where genuine).
+Routing: existing [...slug].astro catches fr/de/ subdir automatically; hreflang alternates (en/fr/de/
+  x-default) auto-computed from guideIdSet; fr/de shabbat-guide and best-tours-in-israel now expose
+  proper hreflang to the EN originals and vice versa.
+Honesty: rating/review counts (4.7/50k GYG; 4.6/30k Viator; 4.6/8k Tiqets) carried from EN guide
+  (not fabricated — same source values). No exact prices in body copy. Religious content (Shabbat)
+  handled factually and neutrally; Western Wall framing consistent with EN original.
+Tests: smoke.spec.ts + a11y.spec.ts each extended with 4 new routes
+  (/fr/shabbat-guide, /fr/best-tours-in-israel, /de/shabbat-guide, /de/best-tours-in-israel).
+Gate: pnpm check 0 errors (103 files, 0 warnings); build 186 pages (+4); 148/148 e2e+a11y pass. GREEN.
+Ship: committed to master 8f509f4, pushed. CI run 28128154617 in_progress at push time.
+Prod: CI in_progress at state-write time; previous SHA 636f0b2 = success (CI+Lighthouse both success).
+fr: 12/147 guides shipped (home+plan-your-trip+8 guides).
+de: 12/147 guides shipped (home+plan-your-trip+8 guides).
+Next: iter 62 = BUILD (62%5==2). nextRotationCategory = monetization. Top candidates:
+  A) monetization — verdict boxes "Is the tour worth it?" on top attraction/day-trip pages (P2, S)
+  B) monetization — Luxury Israel travel guide (P2, M, newly added iter60)
+  C) seo-content — bar/bat mitzvah guide (P1, M, queued since iter35) — if monetization
+     items are too heavy for one iteration.
