@@ -39,6 +39,7 @@ const ROUTES = [
   '/israel-food-tours-cooking-classes',
   '/driving-in-israel',
   '/israel-national-parks-pass',
+  '/israel-for-seniors',
   '/fr/first-time-in-israel',
   '/fr/visa-information',
   '/fr/best-time-to-visit-israel',

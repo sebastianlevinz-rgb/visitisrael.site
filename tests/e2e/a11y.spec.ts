@@ -46,6 +46,7 @@ const ROUTES = [
   '/israel-food-tours-cooking-classes',
   '/driving-in-israel',
   '/israel-national-parks-pass',
+  '/israel-for-seniors',
   '/search',
   '/404',
 ];
