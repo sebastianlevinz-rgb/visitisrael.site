@@ -817,3 +817,25 @@ Gate: pnpm check 0 errors (101 files); build 179 pages (+6); check:links 0 broke
 Ship: squash-committed to master 989f751, pushed. CI run 28095871662 in_progress at push time.
 fr: 10/147, de: 10/147. Next i18n batch: more guides (shabbat-guide, best-tours-in-israel, or is-israel-safe already done).
 Next: iter 53 = BUILD/monetization. Top P1 candidate: adventure sports hub /israel-adventure-sports.
+
+## 2026-06-24 · iter 53 · BUILD (seo-content+monetization) · Adventure sports & outdoor activities hub
+What: P1 seo-content+monetization. New /israel-adventure-sports comprehensive guide covering:
+  desert canyoning + rappelling (Negev/Judean Desert: Makhtesh Ramon, Nahal Paran, Wadi Qelt, Red Canyon);
+  jeep & 4×4 tours (Golan Heights + Negev basalt terrain + Eilat Mountains); ATV/quad (Mitzpe Ramon/Galilee);
+  surfing + windsurfing (Mediterranean: Tel Aviv Hilton Beach/breakwaters, Bat Yam, Herzliya Pier);
+  kitesurfing (Haifa Bay Kiryat Yam + Eilat lagoon year-round); Red Sea diving/snorkelling (Eilat: Coral
+  Beach Reserve/Dolphin Reef/Moses Rock — cross-link to eilat-diving-snorkeling.md); sand surfing (Nitzana
+  + Mamshit); hot-air ballooning (Galilee dawn / Negev crater); Mount Hermon skiing + summer MTB/zip-line;
+  zip-lining (Atlit cliff over Mediterranean, Keshet Cave, Hermon, Kfar Hananya); MTB (Golan/Negev).
+  Activity summary table (region, best season, effort rating). 3 CTAs (GYG adventure/Viator jeep-ATV/
+  Abraham Tours hiking). 6 FAQs: best activities, best season, canyoning safety, surfing, skiing, Eilat.
+  Dense cross-links to existing guides (hiking/eilat-diving/transportation/negev/golan/eilat/galilee).
+  Fixed broken link: /cycling-in-israel (not yet built) → removed reference, linked /transportation.
+  Fixed YAML parse error: Israel's apostrophe in skiing FAQ answer inside single-quoted string → double-quote.
+  smoke.spec.ts + a11y.spec.ts: +1 route each (/israel-adventure-sports).
+  Playwright symlink: /opt/pw-browsers/chromium_headless_shell-1228/chrome-headless-shell-linux64/
+    chrome-headless-shell → headless_shell-1194 binary (consistent per-env fix; not in repo).
+Gate: pnpm check 0 errors (101 files); build 180 pages (+1); check:links 0 broken/0 orphans/0 unreachable;
+  135/135 e2e+a11y pass.
+Ship: committed to master 2c70684, pushed. CI run 28099371690 in_progress at push time.
+Next: iter 54 = BUILD/seo-content. Top P1 candidate: bar/bat mitzvah destination guide.
