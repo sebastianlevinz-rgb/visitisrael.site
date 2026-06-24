@@ -1086,3 +1086,31 @@ Gate: pnpm check 0 errors (105 files); build 187 pages (+1 = /bar-bat-mitzvah-is
 Ship: committed to master 34f69f4, pushed. CI in_progress at push time; prev SHA adeddfa = success.
 Branch discipline: edits made on master directly (recurring cloud env pattern; gate green; noted).
 Next: iter 64 = REVIEW (64%5==4). Confirm 34f69f4 CI; audit iters 62–63 (TourVerdict + bar/bat mitzvah guide).
+
+## 2026-06-24 · iter 64 · REVIEW · audit iters 62–63 (TourVerdict + bar/bat mitzvah guide)
+What: Honoured REVIEW slot (64%5==4). Startup: local master diverged from origin/master (50 commits
+  behind — fresh cloud clone had different base); git reset --hard origin/master to 31ac5e0. pnpm install
+  8.2s clean. Playwright symlink: chromium-1228 → chromium-1194 (consistent per-session fix).
+Audited:
+- iter 62 (adeddfa TourVerdict component): rel="sponsored nofollow noopener" correct; affiliates helper used
+  (no hardcoded URLs); AffiliateDisclosure present; a11y attrs correct (aria-labelledby, aria-label on badge +
+  list, aria-hidden on decorative ✓ spans); 5 verdict.spec.ts tests all pass; no fabricated prices/ratings.
+  NOTE: id="verdict-heading" is static — if component ever rendered twice per page, ids would conflict; low
+  risk currently (one TourVerdict per page). CLEAN except one mild copy issue (see below).
+- iter 63 (34f69f4 bar/bat mitzvah guide): ALL internal links resolve (11 guide links + 3 attraction links
+  jerusalem/western-wall, dead-sea/masada, galilee/capernaum via attractionSlug pattern + region pages
+  galilee/jerusalem/nazareth/tel-aviv). Hero image /images/regions/jerusalem/western-wall.jpg exists +
+  photo-credits.json has restrictedSiteAcknowledgment for Western Wall (IGPO archive + "no identifiable
+  worshippers" acknowledgment) ✓. CTA images (old-city.jpg, sub-dest western-wall.jpg, yad-vashem.jpg)
+  all exist ✓. FAQPage JSON-LD via FaqSection; Article+BreadcrumbList via [...slug].astro ✓.
+  Honesty: ranges only; ETA-IL ₪25 with "check current fee" caveat; "verify directly" disclaimers;
+  no aggregateRating/ratingValue ✓. Footer link correct; smoke + a11y routes added ✓. No H1 in body ✓.
+  Hebron not mentioned ✓.
+DEFECT FOUND & FIXED: verdictName "a guided bar/bat mitzvah tour of Israel" caused TourVerdict to render
+  "Is a guided tour of a guided bar/bat mitzvah tour of Israel worth it?" (double 'guided tour' redundancy).
+  Changed to "a bar/bat mitzvah trip to Israel" → "Is a guided tour of a bar/bat mitzvah trip to Israel
+  worth it?" which is correct and non-redundant. Branch: auto/review-64-verdict-name-fix.
+Gate: pnpm check 0 errors (105 files); build 187 pages (stable); 156/156 e2e+a11y pass. GREEN.
+Ship: squash-merged to master 158ca0a, pushed. CI in_progress at push time (content-only fix;
+  Lighthouse workflow triggered; prior CI for 34f69f4 = success).
+Next: iter 65 = RESEARCH (65%5==0). Scan for fresh competitor gaps.
