@@ -605,3 +605,27 @@ Gate: pnpm check 0 errors (101 files); build 170 pages (+1); check:links 0 broke
 e2e via CI (Chromium not available in cloud env). CI in_progress at state-write time.
 Ship: a3d1254 squash-committed to master, pushed. Prod: Vercel deploy in_progress.
 Next: iter 44 = BUILD/tools (tools category has only P3 item → likely fall-through to monetization).
+
+## 2026-06-24 · iter 44 · REVIEW · audit iters 40-43 (i18n batch 2 / food tours / driving guide)
+What: Honoured the REVIEW slot (44%5==4). Audited the unreviewed slice since iter 39 REVIEW.
+- iter 40 RESEARCH: no code changes — nothing to audit.
+- iter 41 i18n Phase 2 batch 2: fr+de for best-time-to-visit-israel, transportation, israel-cost-budget.
+  Checked frontmatter (valid categories, heroImages exist), translation quality (native phrasing,
+  correct locale), internal links (transport route links /transport/tel-aviv-to-haifa etc. all resolve),
+  hreflang wiring (uses BaseLayout alternates pattern from Phase 0). CLEAN.
+- iter 42 food tours guide: hero images (tel-aviv/carmel-market.jpg, jaffa.jpg) exist in public/; footer
+  link present (/israel-food-tours-cooking-classes in Essentials column); internal links checked:
+  /tel-aviv/old-jaffa (resolves via attractionSlug stripping `tel-aviv-` prefix → /tel-aviv/old-jaffa
+  ✓), /israeli-food-cuisine-guide ✓, /tel-aviv-food-guide ✓, /build-your-trip ✓. Price section uses
+  "rough guide only" disclaimer + explicit "check live rates". JSON-LD: no fabricated ratingValue.
+  Affiliate partners (getyourguide/viator/abraham) valid in config. CLEAN.
+- iter 43 driving guide: 1 DEFECT found — "[Route 6](/transport/tel-aviv-to-haifa)" incorrectly
+  hyperlinked the Route 6 toll motorway (north-south Hadera→Be'er Sheva) to the Tel Aviv→Haifa
+  transport page (covers Road 2, the coastal road — factually distinct). Other 14 internal links
+  all resolve. JSON-LD (Article + FAQ template), no ratingValue. CLEAN except the mislabelled link.
+Fix: Removed the false hyperlink; "Route 6" now plain text (described in detail in the same section
+  and accurately in the road-numbers table below). Minimal, safe change.
+Gate: pnpm check 0 errors; build 170 pages (count stable); links.spec.ts ✓;
+  e2e via CI (Chromium not in cloud env — consistent with iters 42/43).
+Ship: 15831d1 committed to master, pushed. CI + Lighthouse in_progress at state-write time.
+Next: iter 45 = RESEARCH (45%5==0).
