@@ -47,11 +47,17 @@ const ROUTES = [
   '/fr/best-time-to-visit-israel',
   '/fr/transportation',
   '/fr/israel-cost-budget',
+  '/fr/day-trips-from-jerusalem',
+  '/fr/day-trips-from-tel-aviv',
+  '/fr/is-israel-safe',
   '/de/first-time-in-israel',
   '/de/visa-information',
   '/de/best-time-to-visit-israel',
   '/de/transportation',
   '/de/israel-cost-budget',
+  '/de/day-trips-from-jerusalem',
+  '/de/day-trips-from-tel-aviv',
+  '/de/is-israel-safe',
   '/search',
 ];
 
