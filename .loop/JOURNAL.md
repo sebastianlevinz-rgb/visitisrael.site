@@ -917,3 +917,20 @@ Ship: committed to master 040e358, pushed. CI run in_progress at push time.
 Prod: CI in_progress at state-write time; previous iteration CI/Vercel all success.
 Next: iter 58 = BUILD/technical. Top item: meta-desc trim batch (10 pages still overlong
   from iter54 REVIEW). Fallback: bar/bat mitzvah guide (P1 seo-content).
+
+## 2026-06-24 · iter 58 · BUILD (technical) · meta description trim batch 2 (10 pages)
+What: Trimmed 10 remaining overlong meta descriptions (204–214c) to 146–158c (all ≤160).
+  Pages: christian-pilgrimage-holy-land (214→155c), jerusalem-tours-compared (213→151c),
+  visa-information (212→158c), itineraries/7-days-in-israel (210→153c),
+  holy-sites-dress-code-etiquette (208→157c), best-holy-land-tours (208→152c),
+  hiking-in-israel (207→146c), eilat-diving-snorkeling (206→150c),
+  israel-wine-wineries (204→157c), tel-aviv-to-jerusalem (204→148c).
+  Key terms retained in all trimmed versions; no content meaning lost.
+Gate: pnpm check 0 errors; build 182 pages; 139/139 e2e+a11y pass. Playwright headless_shell-1228
+  symlink fix applied (consistent with iters 46+48+51+53+56+57).
+Ship: squash-merged to master 0773347, pushed. CI in_progress at push time (content-only change;
+  no new pages; prior CI all success → expect success).
+Prod: CI in_progress at state-write time. Next iter start-check to confirm.
+Next: iter 59 = BUILD/monetization. Top candidate: "Is the tour worth it?" verdict boxes (P2)
+  OR tours-comparison pages (Masada/Galilee hub). i18n also overdue (5 BUILD iters since batch 3);
+  may interleave i18n Phase 2 batch 4 at iter 60.
