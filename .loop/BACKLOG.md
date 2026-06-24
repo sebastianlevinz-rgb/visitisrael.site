@@ -21,7 +21,7 @@ bounded, gated BUILD item. Full architecture + honesty rules + progress tracker 
 - [SHIPPED iter42] Israel food tours & cooking classes guide → e974cf1
 - [SHIPPED iter48] Israel for seniors & over-50s guide → 3d6b2b7
 - [P2] (monetization, M) MORE per-hub tours-comparison pages (Masada tours compared, Petra options compared, Galilee tours) — extend the /jerusalem-tours-compared pattern; mind overlap with existing day-trip guides (enhance those with a table instead where overlap is high). status: ready
-- [P2] (monetization, S) "Is the <X> tour worth it?" verdict boxes added to top attraction/day-trip pages — conversion + dwell time — reusable verdict component. status: ready
+- [SHIPPED iter62] "Is the tour worth it?" verdict boxes (TourVerdict component) — adeddfa — all 63 attractions + 6 tour guide pages
 - [P2] (monetization, M) Attraction "tickets & how to visit / skip-the-line" blocks on top attraction pages (Masada cable car, Western Wall tunnels, Bahá'í Gardens, etc.) — capture ticket-booking intent on existing high-traffic pages — honest "how to get tickets" note (price RANGES only, link live booking) + Tiqets/GetYourGuide CTA. HONESTY: prices drift — no hard-coded exact prices. [iter10 research] status: ready
 - [P2] (monetization, S) Deepen travel-insurance + car-rental pages with plan-tier/comparison tables (eSIM done iter26 781630a) — same pattern; honest ranges. status: ready
 

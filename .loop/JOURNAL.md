@@ -1031,3 +1031,21 @@ Next: iter 62 = BUILD (62%5==2). nextRotationCategory = monetization. Top candid
   B) monetization — Luxury Israel travel guide (P2, M, newly added iter60)
   C) seo-content — bar/bat mitzvah guide (P1, M, queued since iter35) — if monetization
      items are too heavy for one iteration.
+
+## 2026-06-24 · iter 62 · BUILD (monetization) · TourVerdict verdict boxes
+What: new TourVerdict.astro component — "Is a guided tour of X worth it?" verdict box with 3
+  persuasion reasons + GetYourGuide affiliate CTA. Automatically added to all 63 attraction pages
+  via [region]/[attraction].astro. Guide pages opt in via new verdictName/verdictQuery frontmatter
+  fields: added to 6 high-intent tour guides (day-trips-from-jerusalem, day-trips-from-tel-aviv,
+  masada-dead-sea-day-trip, jerusalem-tours-compared, best-holy-land-tours,
+  nazareth-sea-of-galilee-day-trip). Also added verdictName/verdictQuery to content.config.ts schema.
+  New Playwright test file verdict.spec.ts (6 tests: attraction visibility, guide visibility,
+  non-tour exclusion, a11y label checks).
+A11y fix required: opacity-75 on partner name span in CTA button reduced white text contrast to
+  ~4.26:1 (below WCAG AA 4.5:1); also eyebrow class (primary on primary-soft) needed bg-sand-deep
+  fix. Both resolved before gate passed.
+Gate: pnpm check 0 errors; build 186 pages (no new pages, adds components to existing); 154/154
+  e2e+a11y pass. GREEN.
+Ship: squash-merged to master adeddfa, pushed. CI in_progress at state-write time; prev CI success.
+Prod: CI in_progress at state-write time.
+Next: iter 63 = BUILD (63%5==3). nextRotationCategory = seo-content. Top: bar/bat mitzvah guide (P1).
