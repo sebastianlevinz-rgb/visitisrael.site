@@ -1,26 +1,21 @@
 # LOOP STATE
 
-- iteration: 53
-- lastMode: BUILD (seo-content+monetization)
-- lastItem: Adventure sports & outdoor activities hub /israel-adventure-sports (2c70684)
-- lastResult: SHIPPED — 180 pages (+1); pnpm check 0 errors, build clean, check:links 0 broken, 135/135 e2e+a11y pass; CI in_progress run 28099371690 at push time
+- iteration: 54
+- lastMode: REVIEW (seo-quality)
+- lastItem: Meta description trim — 11 pages from 148–248c → ≤155c (673584c)
+- lastResult: SHIPPED — pnpm check 0 errors, build 180 pages, 135/135 e2e+a11y pass; CI run 28102730575 in_progress at push time
 - nextRotationCategory: seo-content
 - higgsfieldSpent: 0
 - updatedAt: 2026-06-24
 - branch context: work on master; feature work on auto/<slug>
 
-Notes: iter 53 BUILD (seo-content+monetization). Delivered P1 adventure sports hub:
-  canyoning/rappelling, jeep/ATV, surfing/windsurfing (Mediterranean), kitesurfing (Haifa Bay/Eilat),
-  Red Sea diving (Eilat), sand surfing (Nitzana), hot-air ballooning, Mount Hermon skiing, zip-lining, MTB.
-  Activity table (region/season/effort). 3 CTAs (GYG/Viator/Abraham). 6 FAQs. Playwright symlink fix:
-  chromium_headless_shell-1228 dir with chrome-headless-shell → headless_shell-1194 binary.
-  Loop history: 31 features + sitemap-lastmod + link-checker(+depth) + i18n Phase0/1a/1b/1c/2-batch1/2-batch2/2-batch3
-  + 14 review passes; iters 5/10/20/30/35/40/45/50 research.
+Notes: iter 54 REVIEW. Audit found 20+ pages with meta descriptions over Google's ~155-char display window.
+  Fixed 11 most egregious (157–248c → 141–155c): israel-adventure-sports, jewish-heritage-israel,
+  cruise-shore-excursions-israel, israel-food-tours-cooking-classes, driving-in-israel,
+  israel-national-parks-pass, best-things-to-do-in-israel, fr/visa-information, fr/is-israel-safe,
+  fr/day-trips-from-tel-aviv, de/visa-information. ~10 more pages remain at 160–215c (added to BACKLOG).
+  Baseline verified: check 0 errors, build 180 pages, 135/135 e2e+a11y pass.
+  Hreflang verified on fr/de guides (all correct). Link checker: 0 broken. Schema on adventure-sports:
+  Organization, WebSite, Article, BreadcrumbList(3), FAQPage(6) all present.
 
-NEXT: iter 54 = seo-content rotation. Top candidates:
-  - [P1] Bar/Bat Mitzvah destination travel guide (/bar-bat-mitzvah-israel) — highest-intent Jewish
-    diaspora niche; Ayelet Tours/Bein Harim/Danny the Digger all have dedicated pages; ceremony
-    venue options (Western Wall, Masada dawn, Safed), planning timeline, tour CTAs.
-  - [P2] Traveling in Israel during Jewish holidays practical guide (/traveling-israel-jewish-holidays).
-  - [P2] Evening activities & night experiences (/israel-evening-activities).
-  Recommended: bar/bat mitzvah guide (P1 seo-content+monetization, M effort).
+NEXT: iter 55 = BUILD/seo-content. Top P1 candidate: bar/bat mitzvah destination guide (/bar-bat-mitzvah-israel).

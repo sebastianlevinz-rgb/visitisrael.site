@@ -109,3 +109,4 @@ bounded, gated BUILD item. Full architecture + honesty rules + progress tracker 
   events guide (P3, S). De-duped: jewish-heritage-israel.md (heritage sites — genealogy is DISTINCT research-
   focus), lgbtq-travel-israel.md (female solo is distinct), transport/hiking guides (no birdwatching content).
   Full findings + sources in COMPETITORS.md.
+- iter54 (2026-06-24) REVIEW finding: 10 more pages with meta descriptions 161–215c remain (iter54 fixed top 11 of 20+). Pages still to trim: /christian-pilgrimage-holy-land(214c), /jerusalem-tours-compared(213c), /visa-information(212c), /itineraries/7-days-in-israel(210c), /holy-sites-dress-code-etiquette(208c), /best-holy-land-tours(208c), /hiking-in-israel(207c), /eilat-diving-snorkeling(206c), /israel-wine-wineries(204c), /tel-aviv-to-jerusalem(204c). Low-effort batch fix; file as technical-SEO P3. status: ready

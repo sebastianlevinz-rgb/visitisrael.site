@@ -839,3 +839,19 @@ Gate: pnpm check 0 errors (101 files); build 180 pages (+1); check:links 0 broke
   135/135 e2e+a11y pass.
 Ship: committed to master 2c70684, pushed. CI run 28099371690 in_progress at push time.
 Next: iter 54 = BUILD/seo-content. Top P1 candidate: bar/bat mitzvah destination guide.
+
+## 2026-06-24 · iter 54 · REVIEW (seo-quality) · Meta description trim (11 pages)
+What: REVIEW pass (54 % 5 == 4). Audit of recently-shipped content + SEO fundamentals sweep.
+  Findings: (1) link checker clean (0 broken, 0 orphans across 180 pages); (2) hreflang on fr/de
+  guides correct — all 4 alternates (en/fr/de/x-default) present and reciprocal; (3) JSON-LD schemas
+  on adventure-sports correct (Organization, WebSite, Article, BreadcrumbList, FAQPage×6).
+  Key issue: 20+ pages had meta descriptions well over Google's ~155-char display window (range 161–248c).
+  Fix: trimmed 11 most egregious pages to ≤155c while preserving keyword density and honest framing.
+  Files: israel-adventure-sports(191→149c), jewish-heritage-israel(239→147c),
+  cruise-shore-excursions-israel(235→151c), israel-food-tours-cooking-classes(232→148c),
+  driving-in-israel(231→144c), israel-national-parks-pass(217→142c), best-things-to-do-in-israel(228→155c),
+  fr/visa-information(248→152c), fr/is-israel-safe(198→141c), fr/day-trips-from-tel-aviv(188→151c),
+  de/visa-information(247→155c). ~10 more remain at 160–215c (added to BACKLOG).
+Gate: pnpm check 0 errors; build 180 pages; 135/135 e2e+a11y pass.
+Ship: committed to master 673584c, pushed. CI run 28102730575 in_progress at push time.
+Next: iter 55 = BUILD/seo-content. Top P1 candidate: bar/bat mitzvah destination guide (/bar-bat-mitzvah-israel).
