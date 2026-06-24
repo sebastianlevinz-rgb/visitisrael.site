@@ -46,6 +46,7 @@ const itineraries = defineCollection({
     days: z.number().optional(),
     heroImage: z.string().optional(),
     lang: z.string().optional(),
+    startRegion: z.string().optional(),
     publishedAt: z.coerce.date().optional(),
     updatedAt: z.coerce.date().optional(),
     faqs: z.array(faq).optional(),
