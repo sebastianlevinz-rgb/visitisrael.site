@@ -53,6 +53,8 @@ const ROUTES = [
   '/fr/day-trips-from-jerusalem',
   '/fr/day-trips-from-tel-aviv',
   '/fr/is-israel-safe',
+  '/fr/shabbat-guide',
+  '/fr/best-tours-in-israel',
   '/de/first-time-in-israel',
   '/de/visa-information',
   '/de/best-time-to-visit-israel',
@@ -61,6 +63,8 @@ const ROUTES = [
   '/de/day-trips-from-jerusalem',
   '/de/day-trips-from-tel-aviv',
   '/de/is-israel-safe',
+  '/de/shabbat-guide',
+  '/de/best-tours-in-israel',
   '/search',
 ];
 
