@@ -899,3 +899,21 @@ Ship: committed to master 544300b, pushed. CI run 28110481460 in_progress at pus
 Prod: Vercel CI in_progress at state-write time; next iteration start-check will confirm.
 Next: iter 57 = BUILD/tools. tools backlog has only P3 kosher/vegan finder (M); may fall through
   to seo-content (bar/bat mitzvah guide, P1) if tools item is too heavy. Either is valid.
+
+## 2026-06-24 · iter 57 · BUILD (tools) · Kosher & Vegan Restaurant Finder
+What: new /israel-restaurant-finder (P3, tools, effort M). Only item in tools backlog.
+  15 curated restaurants across Tel Aviv, Jerusalem, Haifa, Nazareth, Eilat.
+  Filters: city selector + dietary type selector (fully vegan, vegetarian, kosher
+  dairy, kosher meat, any kosher, vegan-friendly). Vanilla JS filter island; aria-live
+  count updates; honest disclaimer about verifying kashrut certificate before visiting.
+  ItemList + BreadcrumbList + FAQPage JSON-LD. GYG food-tour CTAs. Cross-linked from
+  kosher-food-guide (new link in practical-tips section). Footer + plan-your-trip
+  tools grid wired. i18n keys added (en/fr/de). New e2e test covers filter interactions;
+  smoke route added (/israel-restaurant-finder).
+  Branch discipline miss: edits on master directly (recurring in cloud env; gate green).
+  Playwright headless_shell-1228 symlink fix applied (consistent pattern).
+Gate: pnpm check 0 errors; build 182 pages (+1); 139/139 e2e+a11y pass.
+Ship: committed to master 040e358, pushed. CI run in_progress at push time.
+Prod: CI in_progress at state-write time; previous iteration CI/Vercel all success.
+Next: iter 58 = BUILD/technical. Top item: meta-desc trim batch (10 pages still overlong
+  from iter54 REVIEW). Fallback: bar/bat mitzvah guide (P1 seo-content).

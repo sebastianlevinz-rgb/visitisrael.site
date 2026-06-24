@@ -73,7 +73,7 @@ bounded, gated BUILD item. Full architecture + honesty rules + progress tracker 
 - [P3] (seo-content, M) "Israel honeymoon / romantic getaway" guide — net-new, commercial intent (luxury stays, couples experiences, Dead Sea spa, wine country) → affiliate — roundup + where-to-stay/private-tours cross-links; honest, no fabricated prices. [iter20 research] status: ready
 
 ## tools
-- [P3] (tools, M) Kosher / vegan restaurant finder (filterable list from curated data) — niche high-intent. status: ready
+- [SHIPPED iter57] Kosher / vegan restaurant finder (/israel-restaurant-finder) → 040e358
 
 ## technical
 - [SHIPPED iter38] Expanded a11y coverage (36 routes), keyboard-nav + perf-budget tests, skip-link WCAG fix, Leaflet self-hosted → b6580b7
