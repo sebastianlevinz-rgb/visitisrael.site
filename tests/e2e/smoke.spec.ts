@@ -42,6 +42,7 @@ const ROUTES = [
   '/driving-in-israel',
   '/israel-national-parks-pass',
   '/israel-for-seniors',
+  '/israel-adventure-sports',
   '/fr/first-time-in-israel',
   '/fr/visa-information',
   '/fr/best-time-to-visit-israel',

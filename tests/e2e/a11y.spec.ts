@@ -55,6 +55,7 @@ const ROUTES = [
   '/driving-in-israel',
   '/israel-national-parks-pass',
   '/israel-for-seniors',
+  '/israel-adventure-sports',
   '/search',
   '/404',
 ];
