@@ -585,3 +585,23 @@ Gate: pnpm check 0 errors; build 169 pages (+1); check:links 0 broken/0 orphans/
   e2e via CI (Chromium not in cloud env). CI in_progress run 28069047704 at state-write time.
 Ship: e974cf1 committed to master, pushed. Prod: Vercel deploy in_progress.
 Next: iter 43 = BUILD/seo-content (rotation advanced from monetization).
+
+## 2026-06-24 · iter 43 · BUILD (seo-content) · Driving in Israel guide
+What: New /driving-in-israel guide (P1 S, top-priority seo-content item from BACKLOG).
+Fills distinct gap between car-rental-israel.md (where/how to rent) and this HOW to DRIVE:
+  Road etiquette (horn culture, roundabouts, hazard-light double-parking), speed limits table
+  (50/80/90–100/110–120 km/h), Route 6 no-booth electronic toll (rental card charge + Derech Eretz
+  for foreign vehicles), Waze navigation tips (offline maps for Negev/Golan), kerb colour system
+  (blue+white=paid Pango/Cellopark, red+white=forbidden, grey=free), city-specific caveats
+  (Tel Aviv ZAP Parking; Jerusalem Mamilla/Safra Square car parks + stone-zone one-way streets),
+  Shabbat rental-office timing + quiet-roads advantage, Yom Kippur park-and-walk guidance,
+  West Bank/Jordan rental restriction. Key road numbers table (Roads 1/2/6/40/90).
+2 affiliate CTAs: discovercars (Compare cars) + rentalcars (BG Airport Car Hire).
+Footer: Driving in Israel + Car rental added to Plan column transport section.
+Smoke + a11y specs extended (+1 route each).
+Fix caught by check:links: /jerusalem/bethlehem → /jerusalem-bethlehem-day-trip corrected.
+Branch: auto/driving-in-israel. Proper branch discipline followed (commit on branch, squash-merge).
+Gate: pnpm check 0 errors (101 files); build 170 pages (+1); check:links 0 broken/0 orphans/0 unreachable/0 deep.
+e2e via CI (Chromium not available in cloud env). CI in_progress at state-write time.
+Ship: a3d1254 squash-committed to master, pushed. Prod: Vercel deploy in_progress.
+Next: iter 44 = BUILD/tools (tools category has only P3 item → likely fall-through to monetization).
