@@ -459,3 +459,94 @@ Christmas logistics: Ministry of Tourism free bus service changes annually — N
 times/locations; link official source. Multiple Christmas Eves is a factual nuance (Catholic/Orthodox/
 Armenian on different dates) — crucial to mention to avoid reader disappointment. City of David exclusion
 from national parks cards is a firm fact (consistently noted by multiple sources).
+
+### 2026-06-24 · iter 50 · birdwatching / genealogy / film-TV tourism / solo female / sports tourism scan
+
+Researched 5 fresh angles not captured in prior research iters (5/10/20/30/35/40/45). All 5 confirmed as
+genuine gaps (no equivalent guide or page on site, confirmed via content/guides file listing).
+Sources: kkl-jnf.org/airial.travel/hike-israel.com/buckettripper.com/swarovskioptik.com/birdingplaces.eu
+(birdwatching), anumuseum.org.il/nli.org.il/jewishgen.org/masaisrael.org/welcome-israel.com/natlibrary
+(genealogy), touristisrael.com/thecinemaholic.com/forward.com/filmapia.com (film-TV tourism),
+jessieonajourney.com/mukikapupstravels/hersafevoyage.com/solofemaletravelers.club/israeltraveladvisor.org
+(solo female), touristisrael.com/jpost.com/your-friends-in-israel.com/ticombo.com/themedialine.org (sports).
+
+- **Birdwatching & wildlife tourism (P2 gap)** — Israel is one of the world's top 3 birding countries,
+  sitting on the Great Rift Valley tri-continental migration corridor (Africa/Asia/Europe). 500+ species.
+  Key sites: Agamon HaHula (Hula Valley, northern Galilee) — 100,000+ cranes peak November; Sunrise
+  Safari Wagon guided tours (advance booking required; annual Hula Valley Bird Festival in Nov);
+  Eilat International Birding & Research Center — KKL-JNF managed bird park, free admission, daily
+  bird-ringing and on-site guides; annual Eilat Birding Festival (mid-March, world-class springtime
+  migration, hosted by Birdlife Israel); Hai-Bar Yotvata wildlife reserve (southern Negev) — white
+  oryx and Asiatic wild ass reintroduction program, small vehicle safari; Qatzrin raptor watch (Golan
+  Heights, September–October). Additional: Ein Afek Nature Reserve (north Israel, winter warblers/
+  waterfowl), Yizreel Valley pelican/stork flyovers. Swarovski Optik, KKL-JNF, hike-israel.com,
+  Tripadvisor, evendo.com/airial.travel all cover this; ZERO equivalent content on visitisrael.site.
+  International birding tour operators worldwide route clients specifically to Agamon HaHula + Eilat.
+  → BACKLOG (seo-content, P2, M).
+
+- **Jewish roots & genealogy travel (P2 gap)** — Distinct from jewish-heritage-israel.md which covers
+  historical sites and the Jewish people's story. This targets diaspora travelers wanting to RESEARCH
+  their own specific family history during an Israel visit. Key institutions: ANU Museum (Beit Hatfutsot,
+  Tel Aviv University campus) — hosts the Douglas E. Goldman Jewish Genealogy Center, free database
+  with world's most comprehensive Jewish genealogy collection (family names + community maps + photo
+  archives + Holocaust records + cemetery data); pre-book a research appointment with staff genealogists.
+  Yad Vashem — Central Database of Shoah Victims' Names (~4.8M names, searchable online; in-person
+  research guidance from Yad Vashem staff available). National Library of Israel (Givat Ram, Jerusalem)
+  — free genealogy research service with expert librarians, open to all. masaisrael.org runs structured
+  Jewish Heritage Tours that combine site visits with genealogy research. welcome-israel.com ranks for
+  "how to trace Jewish ancestry using online archives". Family Tree Magazine + JewishGen (jewishgen.org)
+  are the digital prep resources travelers should use before arriving. → BACKLOG (seo-content, P2, M).
+
+- **Film & TV tourism (P2 gap)** — Netflix + streaming have created a massive, global, non-Jewish-diaspora
+  audience interested in visiting Israel specifically because of what they watched: Fauda (4 seasons, filmed
+  primarily in Kfar Kasim 12km east of TLV, Jaffa "default stand-in for Beirut", Golan Heights including
+  Magdel Shams + Mount Hermon); Shtisel (Mea She'arim / Geula Quarter, Jerusalem; David Citadel Hotel
+  lobby used); Tehran (filmed across TLV and industrial areas pretending to be Iran); The Ambassador.
+  Tourist Israel offers "The Fauda Experience" — a guided tour package led by a former senior Israeli
+  intelligence agent, with visits to Kfar Kasim filming locations and meetings with former undercover
+  veterans (noted by Forward.com, 2024 article). Shtisel self-guided walks are popular in Mea She'arim
+  (dress code + sensitivity required). Jerusalem overall: Variety (2022) reports it is among the most
+  filmed cities per sq km in the world. No equivalent guide on site. Shareable format → earns inbound
+  links from entertainment/travel crossover audiences. → BACKLOG (seo-content, P2, S).
+
+- **Solo female travel in Israel (P2 gap)** — Generic P3 "solo travel in Israel" exists in backlog;
+  THIS is a distinct page targeting female-specific keywords + content that earn much higher search volume
+  ("solo female travel Israel" / "is Israel safe for women"). jessieonajourney.com, mukikapupstravels,
+  Israel Travel Advisor, Her Safe Voyage, solofemaletravelers.club all have dedicated female solo Israel
+  guides and rank well for the query cluster. Key female-specific angle: safety reality (Israel low violent
+  crime; strong security presence; most female travelers report feeling safe; street harassment is below
+  regional average but Israeli men can be forward/flirtatious — must explain cultural vs threatening
+  distinction to reassure readers); neighbourhood awareness in TLV (avoid Neve Sha'anan/Shapira/HaTikva
+  after dark); Jerusalem Old City (disorienting alleys at night, stick to lit streets); beach safety
+  (locker system, never leave valuables on towel); airport security experience (women's body scanner
+  lane, thorough questioning — prepare psychologically); dress-code zones (Kotel/church areas);
+  app toolkit (Gett over hailing taxis, Moovit, Waze). Practical community links (Gappers, Facebook
+  "Girls Who Travel" Israel groups). → BACKLOG (seo-content, P2, S).
+
+- **Sports tourism: live events (P3 niche)** — Tourist Israel has a "Sporting Events in Israel" page;
+  your-friends-in-israel.com covers attending games in detail. (1) Maccabi Tel Aviv B.C. — 56x Israeli
+  league champion, 6x EuroLeague champion; plays at Menora Mivtachim Arena (Yad Eliyahu), EuroLeague
+  season Oct–May, tickets ₪100–300 from official site or Ticombo; often sells out big EuroLeague games
+  weeks ahead. (2) Tel Aviv Marathon — late Feb/early March, since 1981, 30+ countries, tourists can
+  register to run the 10k/half/full. (3) Jerusalem Marathon — March, route goes through Old City streets
+  + Mount Scopus — considered one of the most scenic marathon routes worldwide (TripAdvisor/JPost review).
+  (4) Football: Maccabi TLV + Beitar Jerusalem derbies, Bloomfield + Teddy stadiums, ₪60–150. (5) Maccabiah
+  Games — quadrennial Jewish Olympics; 2026 edition: Jun 30–Jul 13 at Expo TLV + national stadiums (theme
+  "More Than Ever"); city experience open to public at Expo TLV Jul 6–10; 40 sports; 2026 is a live window
+  for sports-minded travelers. Ticombo affiliate applicable. → BACKLOG (seo-content+monetization, P3, S).
+
+DE-DUPED (not added): jewish-heritage-israel.md covers heritage sites (genealogy = research focus, distinct);
+lgbtq-travel-israel.md covers LGBTQ travel (solo female is DIFFERENT audience/intent); transportation.md
+(no birdwatching content); hiking-in-israel.md (birds mentioned as trail feature, not a birdwatching guide);
+tel-aviv-nightlife.md (not sports). day-trips-from-tel-aviv.md confirmed to EXIST (checked file listing) —
+NOT a gap.
+
+CAUTION (iter 50): Birdwatching festival/tour dates change annually — frame all scheduling as "check official
+organizer site"; Agamon Sunrise Tours must be pre-booked (link to agamon.hula.org.il or equivalent official
+site). Genealogy databases: JewishGen + Yad Vashem are incomplete — set honest expectation "you may find"
+not "you will find"; NLI/Yad Vashem research appointments limited, book weeks ahead. Film locations: Shtisel
++ Mea She'arim requires cultural sensitivity (dress code, no filming residents — emphasise this strongly).
+Solo female guide: must link official government travel advisories and NOT make security guarantees.
+Maccabiah 2026 is a confirmed live event window (Jun 30–Jul 13 2026) but check maccabiah.com for latest
+schedule closer to build date. Maccabi TLV match tickets genuinely sell out — frame as "book ahead for big
+EuroLeague matches".

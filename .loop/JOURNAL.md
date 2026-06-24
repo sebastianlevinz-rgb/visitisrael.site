@@ -737,3 +737,37 @@ What: Honoured REVIEW slot (49%5==4). Confirmed iter 48 CI success before audit 
 Gate: N/A (no code changed — review clean).
 Result: ALL CLEAN — no fixes shipped.
 Next: iter 50 = RESEARCH (50%5==0). Seo-content BUILD deferred to iter 51.
+
+## 2026-06-24 · iter 50 · RESEARCH · birdwatching/genealogy/film-TV/solo-female/sports tourism (NO SHIP)
+Mode: RESEARCH (50%5==0). No code changed; gate not run.
+What: Searched 5 fresh angles not captured in prior research iters (5/10/20/30/35/40/45).
+Sources: kkl-jnf.org/hike-israel.com/airial.travel/swarovskioptik.com/birdingplaces.eu (birdwatching);
+  anumuseum.org.il/nli.org.il/masaisrael.org/jewishgen.org/welcome-israel.com (genealogy tourism);
+  touristisrael.com/forward.com/filmapia.com/thecinemaholic.com/variety.com (film-TV tourism);
+  jessieonajourney.com/mukikapupstravels/hersafevoyage.com/solofemaletravelers.club/travelladies.app
+  (solo female); touristisrael.com/jpost.com/your-friends-in-israel.com/ticombo.com/themedialine.org
+  (sports tourism/Maccabiah Games/marathons).
+Findings — 5 net-new BACKLOG items added:
+  1. Birdwatching & wildlife hub (seo-content, P2, M) — Great Rift Valley corridor, 500+ species;
+     Agamon HaHula (100k+ cranes Nov, Sunrise Safari Wagon tours), Eilat IBRC + Birding Festival
+     (mid-March), Hai-Bar Yotvata (Negev wildlife reserve), Qatzrin raptors (Golan). ZERO birdwatching
+     content on site; high international-demand niche (specialist tour operators worldwide route clients).
+  2. Jewish roots & genealogy travel guide (seo-content, P2, M) — distinct from jewish-heritage-israel.md;
+     targets diaspora researching their specific family tree. ANU Museum Douglas Goldman Genealogy Center
+     (free, world's largest Jewish genealogy collection), Yad Vashem Central Database (4.8M names), NLI
+     free genealogy research service. welcome-israel.com ranks; no equivalent on site.
+  3. Film & TV tourism guide (seo-content, P2, S) — Fauda/Shtisel/Tehran/Beauty Queen = massive global
+     audiences; Tourist Israel offers "Fauda Experience" guided tour (Forward.com noted). Shtisel tour:
+     Mea She'arim walk (dress code). Jerusalem = most-filmed city per sq km globally. No equivalent on site.
+  4. Solo female travel guide (seo-content, P2, S) — distinct keywords + deeper content vs generic P3
+     solo-travel item. jessieonajourney/mukikapupstravels/hersafevoyage all rank; safety reality framing,
+     neighbourhood tips by city, beach safety, airport security prep, dress-code zones, app toolkit.
+     HONESTY: link official govt advisories; no security guarantees.
+  5. Sports tourism: live events guide (seo+monetization, P3, S) — Maccabi TLV basketball (EuroLeague
+     Oct–May, Ticombo affiliate), Tel Aviv + Jerusalem Marathons (tourists can register to run), Maccabiah
+     Games 2026 (Jun 30–Jul 13, live window). Tourist Israel has page; zero equivalent on site.
+De-duped (not added): jewish-heritage-israel.md DONE (genealogy is DISTINCT); lgbtq guide DONE (≠ solo female);
+  day-trips-from-tel-aviv.md EXISTS (confirmed via file listing — NOT a gap); hiking-in-israel.md mentions
+  birds as trail feature (not a birdwatching guide). Backlog now at ~31 ready items.
+Gate: N/A. Next: iter 51 = BUILD/seo-content. Top P1 recommendation: 3-days-in-jerusalem + 2-days-in-tel-aviv
+  (city itinerary pair, M effort, high-intent long-tail, clear build path matching existing itinerary system).
