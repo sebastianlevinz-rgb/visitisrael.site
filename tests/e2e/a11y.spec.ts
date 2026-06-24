@@ -55,6 +55,7 @@ const ROUTES = [
   '/transport/tel-aviv-to-haifa',
   '/cruise-shore-excursions-israel',
   '/jewish-heritage-israel',
+  '/bar-bat-mitzvah-israel',
   '/israel-food-tours-cooking-classes',
   '/driving-in-israel',
   '/israel-national-parks-pass',

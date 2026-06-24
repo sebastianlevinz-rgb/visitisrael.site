@@ -38,6 +38,7 @@ const ROUTES = [
   '/transport/haifa-to-akko',
   '/cruise-shore-excursions-israel',
   '/jewish-heritage-israel',
+  '/bar-bat-mitzvah-israel',
   '/israel-food-tours-cooking-classes',
   '/driving-in-israel',
   '/israel-national-parks-pass',
