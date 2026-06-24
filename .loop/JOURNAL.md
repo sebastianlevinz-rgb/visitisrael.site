@@ -664,3 +664,20 @@ De-duped (not added): transportation.md (buses/trains — cycling is distinct), 
 tours specifically), israel-cost-budget.md (tiers ≠ hostel guide), best-time.md (season overview ≠ dedicated
 Christmas guide). Higgsfield: MCP not available in cloud env → image work n/a.
 Gate: N/A (research only). Next: iter 46 = BUILD/tools (P3 kosher-restaurant-finder or fall-through to monetization).
+
+## 2026-06-24 · iter 46 · BUILD (seo-content) · Israel National Parks Pass guide
+What: new /israel-national-parks-pass guide (P1, seo-content, effort S). tools category had only P3
+kosher-finder (effort M) → fell through to seo-content per rotation rules. Built 750-word guide covering
+Blue (3-site, ~₪78)/Green (6-site, ~₪110)/Orange (unlimited, ~₪150) 14-day tourist cards and Matmon
+annual pass (~₪181/adult). All prices carry "verify current at parks.org.il" caveat — HONESTY intact.
+Exclusions table: Masada cable car (private), City of David (Ir David Foundation), Bahá'í Gardens (free
+but separate booking). Dense internal links to Dead Sea, Negev, Galilee, Masada, Ein Gedi, Caesarea,
+car-rental, transportation, first-time, cost-calculator. Footer Essentials wired (after hiking link).
+Hiking-in-israel.md cross-linked. Smoke test route added (/israel-national-parks-pass).
+Fix during gate: Playwright 1.61.0 requires chromium_headless_shell-1228 but cloud env only has 1194;
+created symlink /opt/pw-browsers/chromium_headless_shell-1228/chrome-headless-shell-linux64/chrome-headless-shell
+→ headless_shell-1194 binary (ONE focused fix per playbook §4); all 114 tests passed after fix.
+Gate: pnpm check 0 errors; build 171 pages (+1 = /israel-national-parks-pass); 114/114 e2e+a11y pass.
+Ship: squash-merged to master 1723874, pushed.
+Prod: CI in_progress at push time — next iteration start-check to confirm. Per playbook: leave pending.
+Next: iter 47 = REVIEW (47%5==2); Playwright symlink fix is per-env — not persisted to repo.
