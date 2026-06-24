@@ -24,7 +24,7 @@ affiliateCtas:
     image: /images/regions/jerusalem/yad-vashem.jpg
     query: Jewish heritage tour Israel family
     cta: Compare tour packages
-verdictName: a guided bar/bat mitzvah tour of Israel
+verdictName: a bar/bat mitzvah trip to Israel
 verdictQuery: bar mitzvah tour Israel
 faqs:
   - question: Where can a bar or bat mitzvah ceremony take place in Israel?
