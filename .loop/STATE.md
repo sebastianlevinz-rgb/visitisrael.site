@@ -1,28 +1,33 @@
 # LOOP STATE
 
-- iteration: 72
+- iteration: 73
 - lastMode: BUILD
-- lastItem: iter 72 BUILD (seo-content) — Akko (Acre) UNESCO city travel guide (/akko-acre-guide)
-- lastResult: CLEAN — gate 176/176 pass; commit 3b031d9; CI + Lighthouse in_progress at push time
-- nextRotationCategory: tools
+- lastItem: iter 73 BUILD (seo-content fallthrough) — Safed (Tzfat) Kabbalistic city travel guide (/safed-tzfat-guide)
+- lastResult: CLEAN — gate 178/178 pass; commit 5cb3377; CI + Lighthouse in_progress at push time
+- nextRotationCategory: monetization
 - higgsfieldSpent: 0
 - updatedAt: 2026-06-25
 - branch context: work on master; feature work on auto/<slug>
 
-Notes: iter 72 BUILD (seo-content). Shipped new destination guide /akko-acre-guide — Akko (Acre)
-  UNESCO Crusader Old City. Content: Hospitaller Knights Halls + Templar Tunnel, Al-Jazzar Mosque,
-  souq + harbour, seafood picks, Bahai Mansion of Bahji 4km north. 3 affiliate CTAs (GYG, Viator,
-  Civitatis). 5 FAQs. Dense cross-links. Smoke +1, a11y +1 (176 total). Build: 195 pages (+1).
-  playwright.config.ts fixed for cloud env Chromium version mismatch (1194 vs 1228 expected).
+Notes: iter 73 BUILD (seo-content fallthrough from tools+technical — both empty).
+  Shipped new destination guide /safed-tzfat-guide — Safed (Tzfat), Israel's highest city and
+  16th-century Kabbalistic capital. Content: Ha'Ari/Abuhav/Caro synagogues, Artists' Quarter &
+  candle-making, Old Cemetery kabbalist tombs, Shabbat atmosphere, Sukkot festival, getting there
+  from Haifa/Tiberias, half-day vs full-day planning. 3 affiliate CTAs (GYG, Viator, Civitatis).
+  6 FAQs. Dense cross-links. Wired: footer link, galilee.md day-trips section.
+  Smoke +1, a11y +1 (178 total). Build: 196 pages (+1).
+  ALSO FIXED: playwright.config.ts — the iter72 executablePath fix didn't work because PW
+  resolves headless-shell by version tag at BROWSERS_PATH lookup time (before config executablePath
+  is applied). New fix: resolve path via fs.existsSync() in config, use launchOptions.executablePath
+  in the project block — now correctly points to chromium_headless_shell-1194/chrome-linux/headless_shell.
+  All 178 tests pass in cloud env.
   CI/Lighthouse in_progress at push time — next iteration will confirm.
-  Git divergence resolved: local master was 50 commits stale; reset --hard to origin/master.
 
-NEXT: iter 73 = BUILD (73%5==3) → category: tools.
-  But tools backlog may be thin — fall through to next category if nothing ready.
-  Top BUILD candidates in priority order:
-  - tools: check BACKLOG for any ready tools items
-  - seo-content (fallthrough): Safed (Tzfat) city travel guide (P2, S) — ready since iter 65
-  - seo-content (fallthrough): Dead Sea practical visitor guide (P2, S) — ready since iter 70
-  - seo-content (fallthrough): Eilat city travel guide (P2, M) — ready since iter 70
-  - seo-content (fallthrough): Haifa city travel guide (P2, M) — ready since iter 70
-  - i18n Phase 2 Batch 6 (bar-bat-mitzvah, hiking, kosher-food in fr+de)
+NEXT: iter 74 = BUILD (74%5==4) → REVIEW mode.
+  REVIEW: pick a slice of recent shipped work and audit for correctness, SEO, a11y, dead links.
+  Good candidates: iters 70-73 (tours-compared Masada/Galilee, Akko guide, Safed guide).
+  After REVIEW: iter 75 = RESEARCH (75%5==0).
+  After RESEARCH: iter 76 = BUILD (76%5==1) → category: monetization.
+  Top BUILD candidates for monetization:
+  - [P2] Petra tours compared (/petra-tours-compared) — small effort, extends existing pattern
+  - [P2] Attraction ticket/skip-the-line blocks on top attraction pages
