@@ -1261,3 +1261,22 @@ De-dup notes: Eilat + Haifa: region pages (eilat.md, haifa.md) ≠ practical gui
 Backlog now ~60 ready items.
 Next: iter 71 = BUILD (71%5==1) → category: monetization.
   Top candidates: Masada/Galilee tours-comparison pages (P2 monetization) OR new Dead Sea guide (P2 S).
+
+## 2026-06-25 · iter 71 · BUILD (monetization) · Masada + Galilee tours-comparison pages
+What: two new per-hub tours-comparison guide pages extending the /jerusalem-tours-compared pattern.
+  /masada-tours-compared: sunrise snake-path hike vs daytime cable-car vs self-drive vs private guide;
+    comparison table (tour type / start time / effort / duration / best-for); 5 FAQs; 3 affiliate CTAs
+    (GYG Masada sunrise + Viator cable-car daytime + civitatis night sound & light show); verdictName
+    wired for TourVerdict. Wired from masada-dead-sea-day-trip.md (cross-link in "Plan the rest").
+  /galilee-tours-compared: Christian pilgrimage (Nazareth/Capernaum/Sea of Galilee), Jewish heritage
+    (Safed/Tiberias), Sea of Galilee + Golan, multi-day north Israel, self-drive, private guide;
+    comparison table; 5 FAQs; 3 CTAs (GYG Christian + Viator Galilee + Abraham multi-day).
+  Forward-reference link fixes: /dead-sea-guide→/dead-sea, /israel-road-trip→/driving-in-israel,
+    /akko-acre-guide→/akko (all three targets not yet built; fixed before gate run).
+  Wired from best-tours-in-israel.md: "Masada" and "Galilee" bullets extended with comparison links.
+  Smoke +2 routes (/masada-tours-compared, /galilee-tours-compared → 79 routes).
+  A11y +2 routes (same → 77 routes tested).
+Gate: pnpm check 0 errors (105 files); build 194 pages (+2); 174/174 e2e+a11y pass. GREEN.
+Ship: squash-merged to master 452e7f8, pushed. CI + Lighthouse in_progress at push time.
+Next: iter 72 = BUILD (72%5==2) → category: seo-content.
+  Top candidates: Akko UNESCO guide (P2, S), Safed guide (P2, S), Dead Sea how-to (P2, S).
