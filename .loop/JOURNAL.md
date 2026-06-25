@@ -1303,3 +1303,20 @@ Note: git divergence resolved — local master was 50 commits behind origin; res
 Next: iter 73 = BUILD (73%5==3) → category: tools.
   Top candidates: Safed (Tzfat) city travel guide (P2, S), Dead Sea practical guide (P2, S).
 - iter73 · Safed (Tzfat) Kabbalistic city travel guide (/safed-tzfat-guide) → 5cb3377 · P2 seo-content (tools/technical categories empty → fell through to seo-content); destination guide for Israel's highest city (900m) and 16th-century Kabbalistic capital; Ha'Ari/Abuhav/Caro synagogues, Artists' Quarter & candle-making, Old Cemetery kabbalist tombs, Shabbat atmosphere, Sukkot festival, getting there from Haifa (75min bus) / Tiberias (45min), half-day vs full-day planning; 6 FAQs; 3 affiliate CTAs (GYG Safed+Galilee day tours / Viator Upper Galilee Safed+Golan+Banias / Civitatis private guide); cross-links to /galilee + /jewish-heritage-israel + /bar-bat-mitzvah-israel + /day-trips-from-tel-aviv + /hiking-in-israel; footer Essentials wired; galilee.md day-trips section wired; smoke+a11y +1 each (178 total); 196 pages (+1). ALSO FIXED: playwright.config.ts — resolveCloudChromium() uses fs.existsSync() to find headless_shell-1194 binary; launchOptions.executablePath in project use block — resolves iter72 fix that didn't actually work (PW resolves headless shell by version tag at BROWSERS_PATH lookup time before global executablePath is applied). 178/178 tests pass. [seo-content P2 iter65 research]
+
+## 2026-06-25 · iter 74 · REVIEW · audit of iters 70-73 shipped pages
+What: Full review of masada-tours-compared, galilee-tours-compared, akko-acre-guide, safed-tzfat-guide.
+  Checked: all image paths (all verified present in /public/images/), internal link targets (all valid),
+  partner slugs (getyourguide/viator/civitatis/abraham all valid), honesty framing (prices as ranges only,
+  seasonal caveats on shows/hours), schema fields (verdictName+query on tour-compared pages), accessibility.
+  No dead links, no broken images, no honesty violations found.
+Two fixes shipped as 341457d:
+  1. akko-acre-guide: Nahal Kziv water-hiking cross-link added to "What to combine nearby"
+     (water-hiking guide already references Akko; creates reciprocal link pair)
+  2. akko-acre-guide: removed visible *Internal links:...* italic paragraph (was rendered markup noise;
+     all those links already appear in body paragraphs)
+  3. safed-tzfat-guide: water-hiking cross-link added to "Cross-links" footer section
+Gate: pnpm check 0 errors; build 196 pages; 178/178 e2e+a11y pass.
+Ship: 341457d pushed to master. CI + Lighthouse in_progress at push time.
+  Iter 73 Lighthouse = success (3ce81b7) — baseline healthy.
+Also noted: local master was 50 commits behind origin/master (session recovery: git reset --hard origin/master).
