@@ -89,4 +89,4 @@ For first-time visitors, yes — emphatically. It packs three iconic, very diffe
 
 ## Plan the rest of your trip
 
-This is the top pick in our [day trips from Jerusalem](/day-trips-from-jerusalem) and [day trips from Tel Aviv](/day-trips-from-tel-aviv) guides. Compare the two shores in [Dead Sea: Israel vs Jordan](/dead-sea-israel-vs-jordan), browse all our [best tours in Israel](/best-tours-in-israel), or slot it into the [3-day Jerusalem itinerary](/itineraries/3-days-in-jerusalem).
+For a detailed breakdown of sunrise vs cable-car, private guide vs self-drive, and how each format compares, see our [Masada tours compared](/masada-tours-compared) guide. This is the top pick in our [day trips from Jerusalem](/day-trips-from-jerusalem) and [day trips from Tel Aviv](/day-trips-from-tel-aviv) guides. Compare the two shores in [Dead Sea: Israel vs Jordan](/dead-sea-israel-vs-jordan), browse all our [best tours in Israel](/best-tours-in-israel), or slot it into the [3-day Jerusalem itinerary](/itineraries/3-days-in-jerusalem).

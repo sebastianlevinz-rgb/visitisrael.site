@@ -57,6 +57,8 @@ const ROUTES = [
   '/where-to-stay/dead-sea',
   '/transport/jerusalem-to-dead-sea',
   '/transport/tel-aviv-to-haifa',
+  '/masada-tours-compared',
+  '/galilee-tours-compared',
   '/cruise-shore-excursions-israel',
   '/jewish-heritage-israel',
   '/bar-bat-mitzvah-israel',
