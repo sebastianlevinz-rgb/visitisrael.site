@@ -79,6 +79,12 @@ const ROUTES = [
   '/de/best-tours-in-israel',
   '/de/border-crossings',
   '/de/car-rental-israel',
+  '/fr/bar-bat-mitzvah-israel',
+  '/fr/hiking-in-israel',
+  '/fr/kosher-food-guide',
+  '/de/bar-bat-mitzvah-israel',
+  '/de/hiking-in-israel',
+  '/de/kosher-food-guide',
   '/search',
 ];
 
