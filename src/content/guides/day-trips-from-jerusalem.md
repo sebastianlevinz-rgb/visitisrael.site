@@ -48,7 +48,7 @@ faqs:
 
 ## The top day trips
 
-- **[Masada](/dead-sea/masada) & the [Dead Sea](/dead-sea)** — *~1.5 hrs.* The classic: sunrise on the fortress, the [Ein Gedi](/dead-sea/ein-gedi) oasis, then a float. Easiest as a guided tour.
+- **[Masada](/dead-sea/masada) & the [Dead Sea](/dead-sea)** — *~1.5 hrs.* The classic: sunrise on the fortress, the [Ein Gedi](/dead-sea/ein-gedi) oasis, then a float. Easiest as a guided tour. Ein Gedi also offers some of Israel's best [water hiking](/water-hiking-israel) — the Wadi David trail reaches David's Waterfall through a cool, spring-fed gorge.
 - **Bethlehem** — *~30 min.* The Church of the Nativity, in the West Bank; go with a guide or shared taxi (carry your passport).
 - **[Tel Aviv](/tel-aviv) & [Old Jaffa](/tel-aviv/old-jaffa)** — *~45 min by train.* Swap the stone city for the beach, [Carmel Market](/tel-aviv/carmel-market) and Bauhaus.
 - **The [Galilee](/galilee)** — *longer, ~2.5 hrs.* Big as a day; better with an early start or a tour.

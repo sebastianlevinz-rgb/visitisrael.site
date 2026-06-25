@@ -48,6 +48,7 @@ const ROUTES = [
   '/israel-restaurant-finder',
   '/israel-travel-insurance',
   '/car-rental-israel',
+  '/water-hiking-israel',
   '/fr/first-time-in-israel',
   '/fr/visa-information',
   '/fr/best-time-to-visit-israel',

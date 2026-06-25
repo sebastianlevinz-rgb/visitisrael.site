@@ -91,3 +91,7 @@ Other essentials: start at first light in warm weather; wear a hat and high-fact
 Israel's trails are its best-kept secret. Pair this hub with our [first-time guide](/first-time-in-israel), the regional guides above, and our [itineraries](/itineraries) to weave a hike — or several — into your trip.
 
 Many trail sections pass through INPA nature reserves and national parks — the [Israel National Parks Pass](/israel-national-parks-pass) can cover multiple site entries on a single card and save you significant money if you are visiting three or more parks.
+
+## Water hikes: the nahal trail experience
+
+A whole category of Israeli hiking involves walking in and through flowing water — wading nahal stream corridors, swimming in canyon pools and following spring-fed gorges through desert cliffs. If you are visiting in spring or autumn, these "water hikes" are among the most memorable outdoor experiences the country offers. See the dedicated [water hiking in Israel guide](/water-hiking-israel) for the top nahal trails: Ein Gedi, Nahal HaKibbutzim, Nahal Kziv, Wadi Qelt and Banias.

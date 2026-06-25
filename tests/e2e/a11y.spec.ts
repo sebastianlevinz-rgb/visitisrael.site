@@ -65,6 +65,7 @@ const ROUTES = [
   '/israel-restaurant-finder',
   '/israel-travel-insurance',
   '/car-rental-israel',
+  '/water-hiking-israel',
   '/search',
   '/404',
 ];
