@@ -1409,3 +1409,19 @@ Gate: pnpm check 0 errors; build 198 pages (+1); 182/182 e2e+a11y pass locally. 
 Ship: committed to master 69258b6, pushed. CI in_progress at push time.
   Previous iter CI (34f0c0c) confirmed success on push. Consistent pattern.
 Next: iter 78 = BUILD (78%5==3) → category: tools.
+
+## 2026-06-25 · iter 78 · BUILD (tools) · Israel Shabbat & Jewish Holiday Calendar
+What: new /israel-shabbat-calendar vanilla-JS tool. Astronomical sunset calculation
+  (Jean Meeus simplified) for candlelighting (18 min before sunset) + Havdalah
+  (42 min after) across 5 cities: Jerusalem, Tel Aviv, Haifa, Eilat, Beersheba.
+  Month-navigable calendar (2026–2027) with Shabbat Friday/Saturday highlights
+  and 19 Jewish holidays marked (5786 tail + 5787: Purim, Passover, Yom Kippur,
+  Rosh Hashanah, Sukkot, Hanukkah, Shavuot, etc.). Click any holiday cell for
+  practical visitor-impact notes. Holiday table lists all dates + tourist context.
+  Accessible: aria-live on banner + calendar, role/tabindex on holiday cells.
+  i18n: tool.shabbatCalendar key added to en/fr/de. Wired to plan-your-trip grid
+  + footer. Cloud env divergence recovered via git reset --hard origin/master.
+  iter 77 CI confirmed success (20c0153).
+Gate: pnpm check 0 errors; build 199 pages (+1); 183/183 e2e+a11y pass locally. GREEN.
+Ship: committed to master 32c20d1, pushed. CI in_progress at push time.
+Next: iter 79 = REVIEW (79%5==4) → audit recent tools pages.
