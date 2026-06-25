@@ -1114,3 +1114,45 @@ Gate: pnpm check 0 errors (105 files); build 187 pages (stable); 156/156 e2e+a11
 Ship: squash-merged to master 158ca0a, pushed. CI in_progress at push time (content-only fix;
   Lighthouse workflow triggered; prior CI for 34f69f4 = success).
 Next: iter 65 = RESEARCH (65%5==0). Scan for fresh competitor gaps.
+
+## 2026-06-25 · iter 65 · RESEARCH · Muslim travel / water hiking / Safed / wildflowers / Akko / passport stamp (NO SHIP)
+Mode: RESEARCH (65%5==0). No code changed; gate not run.
+Startup: fresh cloud clone; local master diverged (50 commits behind origin/master); git reset --hard
+  origin/master to dd4ec4e. pnpm install 10.7s clean. No Playwright fix needed (RESEARCH mode, no e2e run).
+What: Searched for competitor gaps not yet in backlog or DONE. Sources: Bein Harim, Tourist Israel,
+  israel-in-photos.com, BackpackIsrael, TripAdvisor, Laidback Trip, americaisraeltours, Against the
+  Compass, igoogledisrael, hike-israel.com, TripAdvisor Safed/Akko, GetYourGuide Akko. De-duped all
+  6 new items against ~46+ existing BACKLOG items + full DONE list before adding.
+Findings — 6 net-new BACKLOG items:
+  1. Muslim-friendly Israel travel guide (seo-content+monetization, P2, M) — Bein Harim has dedicated
+     "Israel for Muslim travelers" page; we have ZERO dedicated content (only brief fragments in
+     holy-sites-dress-code + first-time); large global Muslim tourism market. Content: Al-Aqsa access
+     (non-Muslim restrictions), halal food, mosques (Al-Jazzar/Akko, Hassan Bek/Jaffa, White/Nazareth),
+     Ramadan practical tips, prayer logistics. HONESTY: Al-Aqsa access changes frequently — never guarantee.
+  2. Water hiking & nahal swimming guide (seo-content, P2, S) — israel-in-photos, Bein Harim, BackpackIsrael,
+     ISRAEL21c all rank; hiking-in-israel.md confirmed ZERO water-hiking content (grep verified). 6 key sites:
+     Nahal HaKibbutzim, Nahal Arugot (Ein Gedi), Wadi David (Ein Gedi), Nahal Kziv, Wadi Qelt, Banias
+     waterfall. Flash flood safety must be prominent.
+  3. Safed (Tzfat) city guide (seo-content, P2, S) — Tourist Israel, Timeout Israel, Bein Harim, TripAdvisor
+     rank; we have fragments in bar-bat-mitzvah + galilee page but no standalone guide. City of Kabbalah;
+     16th-century synagogues (Ha'Ari, Caro, Abuhav); Artists' Quarter; Sukkot festival; high at 900m.
+  4. Wildflower & spring bloom guide (seo-content, P3, S) — Tourist Israel + americaisraeltours.com rank;
+     our best-time guide has 3 brief lines; no site-specific content. Red kalanit (anemone); Darom Adom
+     festival Jan-Feb (dates vary by rainfall — link official site); Shokeda Forest; Elah Valley; Adulam;
+     Galilee spring. Strong link-bait / photo-sharing angle.
+  5. Akko (Acre) UNESCO city guide (seo-content, P2, S) — Tourist Israel, TripAdvisor, GetYourGuide, Laidback
+     Trip rank; we have 5 attraction pages + region page but no standalone destination guide. UNESCO
+     Crusader city; Knights' Halls; Templar Tunnel; Al-Jazzar Mosque; old port seafood; practical day-trip
+     planning from Haifa or TLV; Rosh Hanikra + Bahai as add-ons.
+  6. Israeli passport stamp guide (seo-content, P3, S) — Tourist Israel, Against the Compass, igoogledisrael
+     all have dedicated pages; visa-information.md has 2 sentences only. Ben Gurion no-stamp policy;
+     land border exceptions; country entry implications. HONESTY: policies change — link readers' home
+     government advisories; never list countries as absolutes.
+De-duped (not added): christian-pilgrimage already covers Jordan River baptism sites well (Qasr al-Yahud
+  + Yardenit both named + practical info); cooking-classes already in israel-food-tours-cooking-classes.md.
+Gate: N/A (RESEARCH mode).
+Ship: N/A (memory-only update; .loop/ files committed to master).
+Next: iter 66 = BUILD (66%5==1). nextRotationCategory = tools (P3 only; fall through). Top BUILD
+  candidates: Muslim travel guide (P2, M, new — large audience), water hiking (P2, S, quick win),
+  luxury Israel guide (P2, M, high CPA), or i18n Phase 2 Batch 5 (P1, overdue). Recommend luxury
+  guide or Muslim travel guide at iter 66 for monetization rotation; i18n batch 5 at iter 67.

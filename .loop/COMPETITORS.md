@@ -738,3 +738,78 @@ experience: avoid romanticizing or trivializing; frame as hosted cultural enterp
 sky conditions are weather+moon dependent — frame carefully. Glamping prices change seasonally — ranges
 only. Kibbutz volunteer programs: post-2023 significant reduction in kibbutz volunteer programs — DO NOT
 present volunteer programs as currently active without verification from organizer.
+
+### 2026-06-25 · iter 65 · Muslim travel / water hiking / Safed / wildflowers / Akko / passport stamp scan
+
+Searched: Bein Harim, Tourist Israel, israel-in-photos.com, BackpackIsrael, americaisraeltours.com,
+TripAdvisor, Laidback Trip, Against the Compass, igoogledisrael, hike-israel.com, GetYourGuide Akko.
+
+- **Muslim-friendly / Halal Israel travel guide (P2 gap)** — Bein Harim has a dedicated "Israel for
+  Muslim travelers" editorial page; MEJDI Tours offers dedicated Muslim group itineraries; HalalTrip
+  lists Israel. We have ZERO dedicated Muslim/halal content (only brief fragments in holy-sites-dress-code
+  and first-time-in-israel). Large market: 57 OIC member-state Muslims + SE Asian Muslim-majority countries
+  (Malaysia, Indonesia, Brunei all send tourists to Jerusalem). Key content: Al-Aqsa Mosque and Dome of
+  the Rock context (Haram al-Sharif = Islam's third holiest site; Muslim-only access to interiors; non-
+  Muslim plaza access severely restricted and changes without notice — Waqf-managed); Islamic sites beyond
+  Temple Mount (Al-Jazzar Mosque Akko, Hassan Bek Mosque Jaffa/TLV, White Mosque Nazareth); halal food
+  (Muslim Quarter Jerusalem, Akko, Nazareth, Jaffa — Arab-Israeli cuisine typically halal); Ramadan
+  practical tips (most tourist sites open normal hours; Muslim Quarter restaurants have iftar schedules);
+  qibla direction + prayer times app recommendations. HONESTY: Al-Aqsa access policy changes with security
+  situation and Waqf decisions — never guarantee access; Dome of the Rock interior closed to non-Muslims.
+  → BACKLOG (seo-content+monetization, P2, M).
+
+- **Water hiking & nahal swimming guide (P2 gap)** — israel-in-photos.com ("Water Hikes, Springs and
+  Rivers in Israel — 25+ Places"), Bein Harim ("Top 5 Water Hike Trails"), BackpackIsrael ("My Top 5
+  Picks + Bonuses"), totallyjewishtravel.com, ISRAEL21c ("Stay cool with Israel's top 10 water hikes")
+  all rank. Confirmed gap via grep on hiking-in-israel.md — only brief mention of "springs, streams,
+  rolling hills" in one phrase; "wadi" used only in flash-flood safety context. Content: top 6 sites
+  (Nahal HaKibbutzim/Spring Valley Park, Nahal Arugot at Ein Gedi, Ein Gedi Wadi David, Nahal Kziv
+  Galilee, Wadi Qelt, Banias waterfall). Flash flood risk must be prominently stated. Best season
+  spring/autumn. Practical: water shoes, timing, National Parks pass compatibility.
+  → BACKLOG (seo-content, P2, S).
+
+- **Safed (Tzfat) city guide (P2 gap)** — Tourist Israel ("A Walk Through Safed"), Timeout Israel
+  ("Tzfat: A Guide to the Mystical City"), Bein Harim ("Things to See and Do in Safed"), semerenkogroup
+  ("Tzfat/Safed Israel Guide: Mystical City of Kabbalah & Art"), TripAdvisor ("15 Best Things to Do
+  in Safed"), Laidback Trip all rank. We have fragments across bar-bat-mitzvah.md (Safed synagogues
+  for ceremonies) and galilee region page, but NO standalone destination guide. Key content: 16th-century
+  Kabbalah centre; Ha'Ari Sephardic Synagogue; Caro Synagogue; Abuhav Synagogue; Artists' Quarter;
+  Visitors Center + excavations; Old Cemetery (kabbalist sages' tombs); Sukkot in Safed festival;
+  Shabbat atmosphere. Practical: 900m elevation (highest city Israel); bus from Haifa 75min/Tiberias
+  45min; no train.
+  → BACKLOG (seo-content, P2, S).
+
+- **Wildflower & spring bloom guide (P3 gap)** — Tourist Israel ("Best Places to See Spring Flowers
+  in Israel"), americaisraeltours.com ("Spring Wildflowers of Israel: Best Spots, Festivals & When to
+  Visit"), hike-israel.com ("WildFlowers in Israel"), rove.me ("Anemone in Blossom Israel 2026"),
+  travelujah.com (anemone guide) all rank. Our best-time-to-visit-israel.md mentions "wildflowers" in
+  3 brief lines with no site specifics. Content: red kalanit/anemone (Israel's national flower; Jan–March
+  carpet blooms near Eshkol/Gaza border region); Darom Adom ("Red South") annual festival Jan–Feb in
+  Eshkol Region (bloom-tracking + guided walks; dates vary by rainfall); Shokeda Forest; Elah Valley
+  lupines; Adulam Reserve; Galilee spring flowers. Strong link-bait / photography-community angle.
+  HONESTY: bloom timing varies significantly with rainfall; Darom Adom dates change annually — link
+  official daromadom.co.il site.
+  → BACKLOG (seo-content, P3, S).
+
+- **Akko (Acre) UNESCO city destination guide (P2 gap)** — Tourist Israel, TripAdvisor ("15 Best Things
+  to Do in Acre"), GetYourGuide Akko tours (multiple offerings), Laidback Trip ("A Guide to Akko (Acre)
+  in Israel"), nextleveloftravel.com ("Top 10 Things to Do in Akko"), takeyourbackpack.com ("Akko City
+  Guide Israel 2026"), travelsetu.com all rank. We have 5 Akko attraction pages (akko-old-city,
+  akko-templar-tunnel, akko-hospitaller-knights, akko-khan-al-umdan, akko-bahai-mansion) + akko region
+  page, but NO standalone destination guide capturing "Akko day trip / what to do in Akko" intent.
+  Distinct from region page: practical guide with itinerary + food scene + transport planning. UNESCO
+  status (only intact Crusader city globally) is a strong hook; old port seafood scene is distinctive;
+  combination with Rosh Hanikra + Haifa as a full-day itinerary.
+  → BACKLOG (seo-content, P2, S).
+
+- **Israeli passport stamp — travel implications guide (P3 gap)** — Tourist Israel ("Israeli Passport
+  Stamp — What to Know"), Against the Compass ("Need to Know About Israeli Passport Stamps in 2026"),
+  igoogledisrael ("Can I Visit Arab Countries with the Israel Passport Stamp"), Young Pioneer Tours
+  ("The Lowdown on an Israeli Passport Stamp"), swiftpassportservices.com, worldnomads.com all rank.
+  visa-information.md has only 2 sentences ("Israel typically does not stamp passports at BGA... Keeping
+  the stamp out can simplify later travel to some countries"). A full guide captures long-tail from
+  travellers planning Israel + Jordan + Egypt + other Middle East multi-country trips. Ben Gurion
+  no-stamp-by-default policy; land border caveats (Jordan/Egypt crossings may stamp); which countries
+  normalisation states (Jordan, Egypt, UAE, Bahrain, Morocco, Oman — no issue); HONESTY: country policies
+  evolve and must not be stated as absolutes — link home-government travel advisories.
+  → BACKLOG (seo-content, P3, S).
