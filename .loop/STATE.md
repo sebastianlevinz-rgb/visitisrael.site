@@ -1,28 +1,24 @@
 # LOOP STATE
 
-- iteration: 81
-- lastMode: BUILD
-- lastItem: TicketBlock — tickets & entry info on top attraction pages (monetization)
-- lastResult: SHIPPED — 1addc81; 189/189 e2e+a11y pass; CI pending at push time
-- nextRotationCategory: seo-content (82%5==2 → BUILD; after monetization → seo-content)
+- iteration: 82
+- lastMode: BUILD (i18n)
+- lastItem: i18n Phase 2 batch 6 — bar-bat-mitzvah-israel + hiking-in-israel + kosher-food-guide in fr+de
+- lastResult: SHIPPED — b8a46d6; 201/201 e2e+a11y pass; CI in_progress at push time
+- nextRotationCategory: tools (83%5==3 → BUILD; seo-content slot used for i18n → advance to tools)
 - higgsfieldSpent: 0
 - updatedAt: 2026-06-25
 - branch context: work on master; feature work on auto/<slug>
 
-Notes: iter 81 BUILD/monetization — new TicketBlock.astro component adds "Tickets & entry"
-  cards to 9 high-traffic attractions. Schema extended with optional ticketInfo object
-  (freeEntry, priceRange, bookingRecommended/Required, tipText, tiqets/gygTicketsQuery).
-  Attractions updated: Masada, Bahá'í Gardens, Yad Vashem, Tower of David, City of David,
-  Caesarea NP, Ein Gedi, Dolphin Reef, Underwater Observatory.
-  All prices shown as ranges only — no hard-coded exact prices (honesty rule).
-  6 new Playwright tests in ticket-blocks.spec.ts; gate 189/189 pass.
-  Tiqets partner already existed in affiliates.ts; no new partner needed.
+Notes: iter 82 BUILD/i18n — Phase 2 batch 6. 6 new locale guide pages:
+  fr+de versions of bar-bat-mitzvah-israel, hiking-in-israel, kosher-food-guide.
+  All price ranges only; honest framing; locale-correct cross-links (links to untranslated
+  guides — israel-national-parks-pass, israel-travel-insurance — use EN root paths).
+  6 new routes in smoke + a11y specs; 201/201 tests pass. 205 pages built.
+  fr: 17/~147 · de: 17/~147. i18n batch 6 overdue (14 BUILD iters since iter68); caught up.
 
-NEXT: iter 82 = BUILD (82%5==2) → category: seo-content.
-  Top seo-content candidates (ready):
-  - Israel eSIM & SIM card guide (/israel-esim-sim-card) — P2, S — every visitor faces this query
-  - Israel money, ATM & currency guide (/israel-money-guide) — P2, S — strong practical gap
-  - Tel Aviv Light Rail (Red Line) tourist guide (/tel-aviv-light-rail) — P2, S — new 2023 transit
-  - Jordan River baptism sites guide (/jordan-river-baptism) — P2, S — pilgrimage high-intent
-  Also consider i18n Phase 2 batch 6 (bar-bat-mitzvah-israel, hiking-in-israel, kosher-food-guide)
-    which is overdue (~8 BUILD iters since last i18n batch at iter68). Should interleave next BUILD.
+NEXT: iter 83 = BUILD (83%5==3) → category: tools.
+  Top tools candidates (ready):
+  - Israel visa & ETA-IL fee calculator/checker (/israel-eta-calculator) — P2, S — interactive pre-trip tool
+  - Build-your-trip enhancements or other tools from backlog
+  Also consider i18n Phase 2 batch 7 (next wave of fr+de guide translations — e.g. hiking, adventure-sports).
+  Top seo-content candidates still waiting: eSIM guide, money/ATM guide, Tel Aviv Light Rail, Jordan River baptism.

@@ -1493,3 +1493,17 @@ Prod: CI/Vercel deploy pending at push time (commit confirmed on GitHub — SHA 
 Next: iter 82 = BUILD (82%5==2) → category: seo-content.
   Candidates: Israel eSIM guide, Israel money/ATM guide, Tel Aviv Light Rail guide, Jordan River
   baptism sites guide. Also overdue for i18n Phase 2 batch 6 (~8 BUILD iters since iter68).
+
+## 2026-06-25 · iter 82 · BUILD (i18n) · Phase 2 batch 6 — bar-bat-mitzvah, hiking, kosher-food in fr+de
+What: 6 new locale guide pages — fr+de versions of bar-bat-mitzvah-israel, hiking-in-israel,
+  kosher-food-guide. Each locale file: locale-specific title/description/category labels,
+  condensed but comprehensive content, locale-correct cross-links to existing translated guides
+  (/fr|de/shabbat-guide, /fr|de/transportation, /fr|de/best-time-to-visit-israel, etc.).
+  Fix: links to untranslated guides (israel-national-parks-pass, israel-travel-insurance) corrected
+  from nonexistent /fr|de/ paths to EN root paths — caught by links.spec.ts check-links test.
+  6 new routes added to smoke + a11y specs.
+Gate: pnpm check 0 errors; pnpm build 205 pages (+6); pnpm test:e2e 201/201 pass (1 fix cycle).
+Ship: squash-commit b8a46d6 pushed to master. CI run 28195924483 in_progress at state-write time.
+Prod: Vercel CI in_progress — next iteration confirms.
+i18n progress: fr 17/~147 · de 17/~147 (home + plan-your-trip + 15 guides each).
+Next: iter 83 = BUILD/tools (83%5==3).
