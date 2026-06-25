@@ -70,4 +70,4 @@ A little Friday-afternoon prep makes the weekend effortless:
 
 ## The bottom line
 
-Nothing about Shabbat needs to slow your trip down — it just rewards a bit of planning. Choose your Saturday city deliberately, sort transport on Friday, and treat the weekend rhythm as part of the experience rather than an obstacle. For the wider context, read our [Shabbat guide](/shabbat-guide), and plan the rest of the week with our [first-time guide](/first-time-in-israel) and [itineraries](/itineraries).
+Nothing about Shabbat needs to slow your trip down — it just rewards a bit of planning. Choose your Saturday city deliberately, sort transport on Friday, and treat the weekend rhythm as part of the experience rather than an obstacle. For the exact candlelighting and Havdalah times on your travel dates, use our [Shabbat & holiday calendar](/israel-shabbat-calendar). For the wider context, read our [Shabbat guide](/shabbat-guide), and plan the rest of the week with our [first-time guide](/first-time-in-israel) and [itineraries](/itineraries).

@@ -3,7 +3,7 @@ title: 'Shabbat in Israel: A Practical Guide for Travellers'
 description: 'What Shabbat means for visitors to Israel: opening hours, transport, what closes and stays open in each city, and how to plan a smooth Friday and Saturday.'
 heroImage: /images/regions/jerusalem/hero.jpg
 category: Planning
-updatedAt: 2026-05-20
+updatedAt: 2026-06-25
 faqs:
   - question: What happens on Shabbat in Israel?
     answer: From about an hour before sunset on Friday to nightfall on Saturday, much of Jewish Israel pauses — public transport stops, and many shops and Jewish-owned restaurants close. The degree varies a lot by city, from near-total in religious Jerusalem neighbourhoods to barely noticeable in Tel Aviv.
@@ -35,5 +35,7 @@ During Shabbat, in Jewish areas: **public transport (trains and most buses) stop
 - **Move by sherut, taxi, ride app or car**, not train/bus. See the [transportation guide](/transportation).
 - **Lean into it.** A Friday-night dinner, a slow Saturday walk in the Old City, or a beach day in Tel Aviv are part of the experience. At the [Western Wall](/jerusalem/western-wall), Friday-evening prayers are unforgettable (no photography once Shabbat begins).
 - **Book a Saturday day trip** — e.g. to the [Dead Sea](/dead-sea) or Bethlehem — through an operator that provides transport.
+
+Need the exact candlelighting and Havdalah times for your travel dates? Use our [Shabbat & Jewish Holiday Calendar](/israel-shabbat-calendar) — it shows city-by-city times for Jerusalem, Tel Aviv, Haifa, Eilat and Beersheba, plus all major Jewish holidays for 2026–2027.
 
 Plan the rest of your week with our [first-time guide](/first-time-in-israel) and [itineraries](/itineraries).
