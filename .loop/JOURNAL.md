@@ -1280,3 +1280,25 @@ Gate: pnpm check 0 errors (105 files); build 194 pages (+2); 174/174 e2e+a11y pa
 Ship: squash-merged to master 452e7f8, pushed. CI + Lighthouse in_progress at push time.
 Next: iter 72 = BUILD (72%5==2) → category: seo-content.
   Top candidates: Akko UNESCO guide (P2, S), Safed guide (P2, S), Dead Sea how-to (P2, S).
+
+## 2026-06-25 · iter 72 · BUILD (seo-content) · Akko (Acre) UNESCO city travel guide
+What: new /akko-acre-guide destination guide — Akko (Acre) UNESCO Crusader Old City, Israel's most
+  intact medieval city. Content: Hospitaller Knights Halls complex + Templar Tunnel (UNESCO visit);
+  Al-Jazzar Mosque (Ottoman 1781-82; non-Muslim visitor info; modest dress); Old City souq + harbour;
+  seafood restaurant picks (Abu Christo, Uri Buri, Hummus Said); Bahai Mansion of Bahji 4km north;
+  getting there (Haifa 25-30min train; Tel Aviv 90min train; no direct from Jerusalem → tour/car);
+  what to combine (Haifa, Rosh HaNikra 30km north, Caesarea 60km south). 3 affiliate CTAs:
+  GYG Akko walking tours, Viator Akko+Haifa+Rosh HaNikra combo, Civitatis private guide.
+  5 FAQs: time needed, Haifa transit, Tel Aviv transit, entrance fees, seafood reputation.
+  Dense internal links: /haifa, /galilee, /day-trips-from-tel-aviv, /transport/haifa-to-akko,
+  /israel-national-parks-pass, /christian-pilgrimage-holy-land.
+  Cross-link added in day-trips-from-tel-aviv.md Caesarea/Haifa/Akko bullet → /akko-acre-guide.
+  playwright.config.ts: add executablePath cloud env fallback (Playwright 1.61.0 expects
+  chromium_headless_shell-1228 but /opt/pw-browsers only ships 1194; created compat symlink
+  + set executablePath fallback via PLAYWRIGHT_BROWSERS_PATH check in config).
+  Smoke +1 (176/176), a11y +1 (176/176). Build: 195 pages (+1 from 194).
+Gate: pnpm check 0 errors; build 195 pages; 176/176 e2e+a11y pass. GREEN.
+Ship: commit 3b031d9 pushed to master. CI + Lighthouse in_progress at push time.
+Note: git divergence resolved — local master was 50 commits behind origin; reset --hard to origin.
+Next: iter 73 = BUILD (73%5==3) → category: tools.
+  Top candidates: Safed (Tzfat) city travel guide (P2, S), Dead Sea practical guide (P2, S).

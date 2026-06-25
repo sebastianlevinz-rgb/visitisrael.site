@@ -1,30 +1,28 @@
 # LOOP STATE
 
-- iteration: 71
+- iteration: 72
 - lastMode: BUILD
-- lastItem: iter 71 BUILD (monetization) — Masada tours compared + Galilee tours compared
-- lastResult: CLEAN — gate 174/174 pass; squash-merged 452e7f8; CI + Lighthouse in_progress at push time
-- nextRotationCategory: seo-content
+- lastItem: iter 72 BUILD (seo-content) — Akko (Acre) UNESCO city travel guide (/akko-acre-guide)
+- lastResult: CLEAN — gate 176/176 pass; commit 3b031d9; CI + Lighthouse in_progress at push time
+- nextRotationCategory: tools
 - higgsfieldSpent: 0
 - updatedAt: 2026-06-25
 - branch context: work on master; feature work on auto/<slug>
 
-Notes: iter 71 BUILD (monetization). Shipped two new per-hub tours-comparison pages:
-  /masada-tours-compared (sunrise vs cable car vs self-drive vs private guide, 5 FAQs, 3 affiliate
-  CTAs: GYG + Viator + civitatis) and /galilee-tours-compared (Christian pilgrimage, Jewish heritage,
-  Sea of Galilee + Golan, multi-day, self-drive, 5 FAQs, 3 affiliate CTAs: GYG + Viator + abraham).
-  Both carry verdictName/verdictQuery for TourVerdict box. Wired from best-tours-in-israel.md
-  (bullet cross-links with comparison guides) and masada-dead-sea-day-trip.md. Smoke +2 routes,
-  a11y +2 routes (174 total). Build: 194 pages (+2 from 192).
-  Forward-reference links fixed: /dead-sea-guide → /dead-sea (region hub); /israel-road-trip →
-  /driving-in-israel; /akko-acre-guide → /akko (region hub).
+Notes: iter 72 BUILD (seo-content). Shipped new destination guide /akko-acre-guide — Akko (Acre)
+  UNESCO Crusader Old City. Content: Hospitaller Knights Halls + Templar Tunnel, Al-Jazzar Mosque,
+  souq + harbour, seafood picks, Bahai Mansion of Bahji 4km north. 3 affiliate CTAs (GYG, Viator,
+  Civitatis). 5 FAQs. Dense cross-links. Smoke +1, a11y +1 (176 total). Build: 195 pages (+1).
+  playwright.config.ts fixed for cloud env Chromium version mismatch (1194 vs 1228 expected).
   CI/Lighthouse in_progress at push time — next iteration will confirm.
+  Git divergence resolved: local master was 50 commits stale; reset --hard to origin/master.
 
-NEXT: iter 72 = BUILD (72%5==2) → category: seo-content.
-  Top BUILD candidates (in priority order):
-  - seo-content: Akko (Acre) UNESCO city travel guide (P2, S) — ready since iter 65
-  - seo-content: Safed (Tzfat) city travel guide (P2, S) — ready since iter 65
-  - seo-content: Dead Sea practical visitor guide (P2, S) — ready since iter 70
-  - seo-content: Eilat city travel guide (P2, M) — ready since iter 70
-  - seo-content: Haifa city travel guide (P2, M) — ready since iter 70
-  - i18n Phase 2 Batch 6 (bar-bat-mitzvah, hiking, kosher-food guides in fr+de)
+NEXT: iter 73 = BUILD (73%5==3) → category: tools.
+  But tools backlog may be thin — fall through to next category if nothing ready.
+  Top BUILD candidates in priority order:
+  - tools: check BACKLOG for any ready tools items
+  - seo-content (fallthrough): Safed (Tzfat) city travel guide (P2, S) — ready since iter 65
+  - seo-content (fallthrough): Dead Sea practical visitor guide (P2, S) — ready since iter 70
+  - seo-content (fallthrough): Eilat city travel guide (P2, M) — ready since iter 70
+  - seo-content (fallthrough): Haifa city travel guide (P2, M) — ready since iter 70
+  - i18n Phase 2 Batch 6 (bar-bat-mitzvah, hiking, kosher-food in fr+de)
