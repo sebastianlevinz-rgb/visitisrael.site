@@ -1528,3 +1528,22 @@ Gate: pnpm check 0 errors; pnpm build 206 pages (+1); pnpm test:e2e 204/204 pass
 Ship: commit a576156 pushed to master. CI run 28198858525 in_progress at state-write time.
 Prod: Vercel CI in_progress — next iteration confirms.
 Next: iter 84 = REVIEW (84%5==4).
+
+## 2026-06-25 · iter 84 · REVIEW · visa checker discoverability audit
+What: REVIEW iteration. CI for iter 83 (a576156) confirmed success before this run.
+  Audited 3 recently-shipped tool pages: /israel-visa-eta-checker (iter83), 
+  /israel-shabbat-calendar (iter78), /israel-restaurant-finder (iter57).
+  Shabbat calendar: CLEAN — JSON-LD valid, cross-links to /whats-open-on-shabbat +
+    /shabbat-guide + /israel-trip-cost-calculator, in footer (Plan col) + PlanYourTripPage.
+  Restaurant finder: CLEAN — ItemList + FAQPage + BreadcrumbList schema, cross-linked
+    from kosher-food-guide (en/fr/de), in footer (Essentials) + PlanYourTripPage.
+  Visa checker: 3 gaps found and fixed:
+    1. Footer Plan column linked shabbat-calendar (line 67) + restaurant-finder (line 101)
+       but NOT /israel-visa-eta-checker. Fix: added footer link adjacent to /visa-information.
+    2. visa-information.md "Before you go" section had no cross-link to the checker.
+       Fix: added one-line CTA "Not sure? Use our Visa & ETA-IL checker — covers 150+ countries."
+    3. Meta description said "Covers 50+ nationalities" — understated vs 192 countries in data.
+       Fix: corrected to "150+".
+Gate: pnpm check 0 errors; pnpm build 206 pages; pnpm test:e2e 204/204 pass.
+Ship: commit 517beb9 pushed to master. CI in_progress at push time.
+Prod: CI in_progress — if failure, revert and journal.
