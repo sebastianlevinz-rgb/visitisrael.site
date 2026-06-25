@@ -59,6 +59,8 @@ const ROUTES = [
   '/fr/is-israel-safe',
   '/fr/shabbat-guide',
   '/fr/best-tours-in-israel',
+  '/fr/border-crossings',
+  '/fr/car-rental-israel',
   '/de/first-time-in-israel',
   '/de/visa-information',
   '/de/best-time-to-visit-israel',
@@ -69,6 +71,8 @@ const ROUTES = [
   '/de/is-israel-safe',
   '/de/shabbat-guide',
   '/de/best-tours-in-israel',
+  '/de/border-crossings',
+  '/de/car-rental-israel',
   '/search',
 ];
 
