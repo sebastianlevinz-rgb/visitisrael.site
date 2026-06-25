@@ -71,3 +71,4 @@
 
 ## Loop items (auto-shipped via nightly loop)
 - iter74 REVIEW · fix(review-74): cross-link akko+safed → water-hiking-israel; remove markup-noise footer from akko-acre-guide · 341457d · internal-linking improvement + cosmetic cleanup on iters 70-73 pages
+- iter76 · Petra tours compared (/petra-tours-compared) → 83e219d · P2 monetization; extends tours-compared pattern for Petra from Israel: Eilat border day trip vs. overnight vs. multi-day Israel+Jordan vs. private guide; honest price RANGES; TourVerdict; 3 CTAs (GYG/Viator/TourRadar); footer link; smoke+a11y +1; 197 pages; 180/180 tests pass locally; CI in_progress at push.

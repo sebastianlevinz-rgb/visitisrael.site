@@ -1364,3 +1364,23 @@ Gate: pnpm check 0 errors; build 196 pages; 178/178 e2e+a11y pass.
 Ship: 341457d pushed to master. CI + Lighthouse in_progress at push time.
   Iter 73 Lighthouse = success (3ce81b7) — baseline healthy.
 Also noted: local master was 50 commits behind origin/master (session recovery: git reset --hard origin/master).
+
+## 2026-06-25 · iter 76 · BUILD (monetization S) · Petra tours compared (/petra-tours-compared)
+What: new /petra-tours-compared guide — extends tours-compared pattern (Jerusalem/Masada/Galilee) with
+  a Petra format comparison: Eilat border day trip (~$150–250, 12–14h), Eilat overnight (1 night, Monastery),
+  multi-day Israel+Jordan combined itinerary (TourRadar), self-drive from Aqaba, private guide+driver
+  (~$400–600/day). Comparison table (tour type / duration / best-for / rough cost per person). Honest
+  price RANGES only; all prices flagged as rough guides. TourVerdict wired (verdictName+verdictQuery).
+  3 affiliate CTAs: GYG (Petra day trip from Eilat), Viator (overnight), TourRadar (Israel+Jordan combined).
+  Dense cross-links: border-crossings, eilat, petra-from-eilat-vs-amman, masada-dead-sea-day-trip,
+  masada-tours-compared, galilee-tours-compared, best-tours-in-israel. Footer link added after
+  petra-from-israel. Smoke + a11y tests each +1 (180 total). 197 pages (+1).
+Startup: fresh cloud clone; git reset --hard origin/master (local at 64e33b6 → diverged 50 commits;
+  reset to c6fd308). Playwright symlink: chromium_headless_shell-1228 → chromium-1194 binary.
+Gate: pnpm check 0 errors (105 files); build 197 pages (+1 = /petra-tours-compared);
+  180/180 e2e+a11y pass (all locally green). GREEN.
+Ship: squash-merged to master 83e219d, pushed. CI + Lighthouse in_progress at push time.
+  Consistent with prior iteration pattern (CI confirms on next run).
+Next: iter 77 = BUILD (77%5==2) → category: seo-content.
+  Top candidates: Nazareth city guide (P2, M), Jerusalem food guide (P2, M), Day trips from Haifa (P2, M),
+  Neighborhood guides for Tel Aviv/Jerusalem (P1, M).

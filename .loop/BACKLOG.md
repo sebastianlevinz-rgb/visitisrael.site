@@ -21,7 +21,7 @@ bounded, gated BUILD item. Full architecture + honesty rules + progress tracker 
 - [SHIPPED iter42] Israel food tours & cooking classes guide → e974cf1
 - [SHIPPED iter48] Israel for seniors & over-50s guide → 3d6b2b7
 - [SHIPPED iter71] Masada tours compared + Galilee tours compared → 452e7f8
-- [P2] (monetization, S) Petra tours compared (/petra-tours-compared) — extend the tours-compared pattern for Petra; formats: Wadi Araba/Eilat border day tour, Allenby/Jordan day tour, multi-day fly-drive, private guide; complements petra-from-eilat-vs-amman.md (border-crossing logistics) with a tour-type comparison table. status: ready
+- [SHIPPED iter76] Petra tours compared (/petra-tours-compared) → 83e219d
 - [SHIPPED iter62] "Is the tour worth it?" verdict boxes (TourVerdict component) — adeddfa — all 63 attractions + 6 tour guide pages
 - [P2] (monetization, M) Attraction "tickets & how to visit / skip-the-line" blocks on top attraction pages (Masada cable car, Western Wall tunnels, Bahá'í Gardens, etc.) — capture ticket-booking intent on existing high-traffic pages — honest "how to get tickets" note (price RANGES only, link live booking) + Tiqets/GetYourGuide CTA. HONESTY: prices drift — no hard-coded exact prices. [iter10 research] status: ready
 - [SHIPPED iter66] Deepen travel-insurance + car-rental pages with plan-tier/comparison tables → b4b904a
