@@ -16,6 +16,10 @@ export default defineConfig({
     baseURL: 'http://localhost:4321',
     trace: 'on-first-retry',
     contextOptions: { reducedMotion: 'reduce' },
+    // Cloud env pre-installs Chromium at a fixed path; the version tag may differ.
+    ...(process.env.PLAYWRIGHT_BROWSERS_PATH
+      ? { executablePath: '/opt/pw-browsers/chromium' }
+      : {}),
   },
   webServer: {
     command: 'pnpm preview',
@@ -23,5 +27,10 @@ export default defineConfig({
     reuseExistingServer: !process.env.CI,
     timeout: 60_000,
   },
-  projects: [{ name: 'chromium', use: { ...devices['Desktop Chrome'] } }],
+  projects: [
+    {
+      name: 'chromium',
+      use: { ...devices['Desktop Chrome'] },
+    },
+  ],
 });

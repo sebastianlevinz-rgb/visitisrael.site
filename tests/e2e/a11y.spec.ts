@@ -72,6 +72,7 @@ const ROUTES = [
   '/israel-travel-insurance',
   '/car-rental-israel',
   '/water-hiking-israel',
+  '/akko-acre-guide',
   '/search',
   '/404',
 ];
