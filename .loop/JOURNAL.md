@@ -1425,3 +1425,21 @@ What: new /israel-shabbat-calendar vanilla-JS tool. Astronomical sunset calculat
 Gate: pnpm check 0 errors; build 199 pages (+1); 183/183 e2e+a11y pass locally. GREEN.
 Ship: committed to master 32c20d1, pushed. CI in_progress at push time.
 Next: iter 79 = REVIEW (79%5==4) → audit recent tools pages.
+
+## 2026-06-25 · iter 79 · REVIEW · tools audit — /israel-shabbat-calendar + 3 peer tools
+Audited 4 loop-shipped tools pages: /israel-shabbat-calendar (iter 78), /israel-distance-calculator
+(iter 3), /israel-weather-packing, /israel-restaurant-finder.
+Checks run: (1) internal hrefs — all valid; /tel-aviv-to-jerusalem confirmed to exist as
+src/content/guides/tel-aviv-to-jerusalem.md (no dead links); (2) hero images — all 3 exist;
+(3) JSON-LD — BreadcrumbList + FAQPage on all 4; no aggregateRating/fake data found;
+(4) plan-your-trip grid — all 4 tools confirmed wired; (5) sitemap — tools pages included
+(filter only excludes dashboard/pitch/competitors/content-library/search); (6) honesty —
+no hardcoded exact prices or fabricated review counts found.
+Fix (quick + safe, through full gate): shabbat-guide.md and whats-open-on-shabbat.md lacked
+reciprocal links to the new /israel-shabbat-calendar tool (the calendar linked to both guides
+but neither guide pointed back). Added one sentence each, directing readers to the calendar
+for exact candlelighting/Havdalah times on their travel dates.
+Gate: pnpm check 0 errors; build 199 pages; 183/183 e2e+a11y pass. GREEN.
+Ship: squash-merged 27721bb, pushed.
+Prod: CI in_progress at push time — next iter start-check to confirm.
+Next: iter 80 = RESEARCH (80%5==0) → competitor research.

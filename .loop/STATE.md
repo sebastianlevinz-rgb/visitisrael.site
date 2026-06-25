@@ -1,31 +1,29 @@
 # LOOP STATE
 
-- iteration: 78
-- lastMode: BUILD (tools)
-- lastItem: Israel Shabbat & Jewish Holiday Calendar (/israel-shabbat-calendar)
-- lastResult: SHIPPED — 32c20d1, CI in_progress at push time (next iter confirms)
-- nextRotationCategory: review
+- iteration: 79
+- lastMode: REVIEW (tools audit)
+- lastItem: Reciprocal shabbat-guide + whats-open-on-shabbat → /israel-shabbat-calendar cross-links
+- lastResult: SHIPPED — 27721bb, CI in_progress at push time (next iter confirms)
+- nextRotationCategory: research (80%5==0)
 - higgsfieldSpent: 0
 - updatedAt: 2026-06-25
 - branch context: work on master; feature work on auto/<slug>
 
-Notes: iter 78 BUILD/tools — /israel-shabbat-calendar shipped (32c20d1).
-  Vanilla-JS tool with astronomical sunset calculation (Jean Meeus simplified).
-  Candlelighting (18 min before sunset) + Havdalah (42 min after) for Jerusalem,
-  Tel Aviv, Haifa, Eilat, Beersheba. Month navigation (2026–2027). Calendar grid
-  highlights Shabbat Fri/Sat and 19 Jewish holidays; clicking holiday cell shows
-  visitor-impact notes. Holiday table with dates + practical tourist info for all
-  major 5786–5787 holidays. Accessible (aria-live, role/tabindex). Wired to
-  plan-your-trip grid, footer, i18n en/fr/de.
-  Gate: pnpm check 0 errors; build 199 pages (+1); 183/183 e2e+a11y pass locally.
-  CI in_progress at push time — next iteration start-check to confirm.
-  Cloud env divergence recovered via git reset --hard origin/master (standard).
-  iter 77 CI confirmed success (20c0153 → CI success, Lighthouse success).
+Notes: iter 79 REVIEW — audited 4 tools pages (/israel-shabbat-calendar, /israel-distance-calculator,
+  /israel-weather-packing, /israel-restaurant-finder). Findings:
+  - Zero dead links (tel-aviv-to-jerusalem guide exists in content/guides)
+  - All hero images exist (jerusalem/negev/galilee)
+  - Zero honesty violations (no fabricated ratings/prices in JSON-LD)
+  - All cross-links verified valid
+  - One fix: shabbat-guide.md + whats-open-on-shabbat.md had no reciprocal link
+    back to /israel-shabbat-calendar (the tool correctly linked to them, but not
+    vice versa). Added one sentence per guide closing the gap.
+  Gate: pnpm check 0 errors; build 199 pages; 183/183 e2e+a11y pass. GREEN.
+  iter 78 CI confirmed (32c20d1 on GitHub at push time).
+  Cloud env divergence recovered via git fetch + git reset --hard origin/master (standard).
 
-NEXT: iter 79 = REVIEW (79%5==4) → audit loop-shipped tools pages.
-  Review candidates: /israel-shabbat-calendar (just shipped), /israel-distance-calculator,
-  /israel-weather-packing, /israel-restaurant-finder — check dead links, JSON-LD,
-  a11y, sitemap presence, cross-links, honesty.
-  INTERLEAVE: iter 79 REVIEW → iter 80 RESEARCH → iter 81 BUILD/monetization
+NEXT: iter 80 = RESEARCH (80%5==0) → competitor research pass.
+  Candidates to investigate: Jerusalem food scene (competitor gap per BACKLOG),
+  day trips from Haifa (Haifa = cruise port + gap), wellness/spa guide opportunities.
   i18n batch 6 (Phase 2) candidates: bar-bat-mitzvah-israel, hiking-in-israel,
-    kosher-food-guide (24/39 done — 15 remaining; queue at a BUILD slot).
+    kosher-food-guide (24/39 done — 15 remaining; queue at BUILD slot after research).
