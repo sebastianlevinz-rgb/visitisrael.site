@@ -1426,6 +1426,36 @@ Gate: pnpm check 0 errors; build 199 pages (+1); 183/183 e2e+a11y pass locally. 
 Ship: committed to master 32c20d1, pushed. CI in_progress at push time.
 Next: iter 79 = REVIEW (79%5==4) → audit recent tools pages.
 
+## 2026-06-25 · iter 80 · RESEARCH · eSIM/SIM card, money/ATM, baptism sites, TLV Light Rail, Oct 7 memorials (NO SHIP)
+Mode: RESEARCH (80%5==0). No code changed; gate not run.
+What: Searched 5 fresh angles not captured in prior research iters (5/10/20/30/35/40/45/50/55/60/65/70/75).
+Sources: touristisrael.com/israel-sim-card-phone-rental (SIM); traveltomtom.net/best-esims-for-israel,
+  thebrokebackpacker.com/best-israel-sim-cards, holafly.com/sim-card-israel, cellesim.com,
+  monito.com/best-esim-for/israel (eSIM comparison leaders);
+  exclusiveisraeltours.com/money-in-israel-guide, travelwithhello.com/blog/israel-currency-money-guide,
+  thecurrencyshop.com.au, go-telaviv.com/israel-currency, exiap.com (money/ATM guides);
+  israel-taxi.com/baptism-in-the-jordan-river, beinharimtours.com/baptismal-sites-in-israel,
+  yardenit.com, parks.org.il/Qasr-el-Yahud (baptism sites);
+  touristisrael.com/tel-aviv-light-rail, goisraelcard.com/guide-tel-aviv-light-rail, nta.co.il (Light Rail);
+  touristisrael.com/how-to-visit-october-seventh-kibbutzim, beinharimtours.com/nova-music-festival-memorial-site,
+  exclusiveisraeltours.com/the-nova-festival-site-tour, jewishcurrents.org/the-rise-of-october-7th-tourism (Oct 7).
+Findings — 5 net-new BACKLOG items added:
+  1. Israel eSIM & SIM card guide (seo-content, P2, S) — 10+ specialist comparison sites dominate SERPs;
+     we're completely absent; Tourist Israel ranks dedicated page; pre-trip high-intent query.
+  2. Israel money/ATM/currency guide (seo-content, P2, S) — distinct from currency-tipping tool + cost-budget;
+     covers DCC warning, ATM bank selection, Shabbat cash strategy, Amex limitations, contactless.
+  3. Jordan River baptism sites guide (seo-content+monetization, P2, S) — Yardenit vs Qasr el-Yahud
+     practical HOW-TO; distinct from christian-pilgrimage editorial; confirmed gap.
+  4. Tel Aviv Light Rail tourist guide (seo-content, P2, S) — Red Line opened 2023; transportation.md has
+     1 sentence; Tourist Israel + goisraelcard rank dedicated pages; tourists searching it.
+  5. October 7 memorial sites (seo-content, P2, M) — Tourist Israel + Bein Harim + multiple operators rank;
+     zero equivalent on site; FLAGGED blocked:requires-human-editorial-review (sensitive victim memorial
+     content + military-zone access restrictions = not suitable for autonomous implementation).
+De-duped (not added): Israel by train (covered by transportation.md + transport/[route] pages + more-routes backlog);
+  photography guide (already in backlog from iter30); currency tool exists (money GUIDE is new + distinct).
+iter 79 CI confirmed (27721bb success — consistent with prior CI pattern).
+Gate: N/A (research mode). Next: iter 81 = BUILD (81%5==1) → monetization category.
+
 ## 2026-06-25 · iter 79 · REVIEW · tools audit — /israel-shabbat-calendar + 3 peer tools
 Audited 4 loop-shipped tools pages: /israel-shabbat-calendar (iter 78), /israel-distance-calculator
 (iter 3), /israel-weather-packing, /israel-restaurant-finder.

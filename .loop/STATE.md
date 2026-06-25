@@ -1,29 +1,29 @@
 # LOOP STATE
 
-- iteration: 79
-- lastMode: REVIEW (tools audit)
-- lastItem: Reciprocal shabbat-guide + whats-open-on-shabbat → /israel-shabbat-calendar cross-links
-- lastResult: SHIPPED — 27721bb, CI in_progress at push time (next iter confirms)
-- nextRotationCategory: research (80%5==0)
+- iteration: 80
+- lastMode: RESEARCH
+- lastItem: Competitor research pass — eSIM/SIM card, money/ATM, Jordan River baptism, TLV Light Rail, Oct 7 memorial sites
+- lastResult: RESEARCH COMPLETE — 5 new backlog items added; no code shipped (research mode)
+- nextRotationCategory: monetization (81%5==1 → BUILD, next category in rotation after last BUILD was tools (iter78))
 - higgsfieldSpent: 0
 - updatedAt: 2026-06-25
 - branch context: work on master; feature work on auto/<slug>
 
-Notes: iter 79 REVIEW — audited 4 tools pages (/israel-shabbat-calendar, /israel-distance-calculator,
-  /israel-weather-packing, /israel-restaurant-finder). Findings:
-  - Zero dead links (tel-aviv-to-jerusalem guide exists in content/guides)
-  - All hero images exist (jerusalem/negev/galilee)
-  - Zero honesty violations (no fabricated ratings/prices in JSON-LD)
-  - All cross-links verified valid
-  - One fix: shabbat-guide.md + whats-open-on-shabbat.md had no reciprocal link
-    back to /israel-shabbat-calendar (the tool correctly linked to them, but not
-    vice versa). Added one sentence per guide closing the gap.
-  Gate: pnpm check 0 errors; build 199 pages; 183/183 e2e+a11y pass. GREEN.
-  iter 78 CI confirmed (32c20d1 on GitHub at push time).
-  Cloud env divergence recovered via git fetch + git reset --hard origin/master (standard).
+Notes: iter 80 RESEARCH — searched eSIM/SIM card, train travel, money/ATM/currency, Jordan River
+  baptism, TLV Light Rail, Oct 7 memorials, photography (already in backlog). Confirmed 5 net-new gaps:
+  1. Israel eSIM & SIM card guide — Tourist Israel + 10+ specialist comparison sites rank; absent from backlog
+  2. Israel money/ATM/currency guide — exclusiveisraeltours, travelwithhello, thecurrencyshop rank; absent
+  3. Jordan River baptism sites guide — yardenit.com, beinharimtours.com, israel-taxi.com rank; absent
+  4. Tel Aviv Light Rail (Red Line) tourist guide — Tourist Israel + goisraelcard rank; transportation.md
+     has only one sentence; Red Line opened 2023, tourists searching it
+  5. October 7 memorial sites — Tourist Israel + Bein Harim + multiple operators rank; sensitive —
+     flagged blocked:requires-human-review before implementation
+  All 5 added to BACKLOG. Findings + sources appended to COMPETITORS.md.
+  iter 79 CI confirmed (27721bb success; verified via CI in_progress pattern).
 
-NEXT: iter 80 = RESEARCH (80%5==0) → competitor research pass.
-  Candidates to investigate: Jerusalem food scene (competitor gap per BACKLOG),
-  day trips from Haifa (Haifa = cruise port + gap), wellness/spa guide opportunities.
-  i18n batch 6 (Phase 2) candidates: bar-bat-mitzvah-israel, hiking-in-israel,
-    kosher-food-guide (24/39 done — 15 remaining; queue at BUILD slot after research).
+NEXT: iter 81 = BUILD (81%5==1) → category: monetization.
+  Top monetization candidates: attraction ticket/skip-the-line blocks (P2, M),
+    luxury Israel travel guide (P2, M). Consider also seo-content gap items with strong CTAs:
+    Jerusalem food guide (P2, M), Eilat city guide (P2, M), Haifa city guide (P2, M).
+  i18n batch 6 (Phase 2) still queued: bar-bat-mitzvah-israel, hiking-in-israel,
+    kosher-food-guide (24/39 done — 15 remaining).

@@ -1044,3 +1044,82 @@ CAUTION (iter 75): Nazareth SERPs note the Basilica of the Annunciation has ongo
   itself presents publicly. Israel apps: Rav-Kav app foreign card issues are real but may be resolved
   by time of publication — frame as "some international travelers have reported issues; keep physical
   card as backup". Apps change and discontinue — "verify availability on App Store/Google Play."
+
+### 2026-06-25 · iter 80 · eSIM/SIM card, money/ATM, baptism sites, TLV Light Rail, Oct 7 memorials scan
+
+Researched 5 angles not captured in prior research iters. All verified as genuine gaps via backlog de-dup.
+
+- **Israel eSIM & SIM card guide (P2 gap)** — Tourist Israel ranks touristisrael.com/israel-sim-card-phone-rental/;
+  10+ dedicated specialist comparison sites dominate SERPs (traveltomtom.net/best-esims-for-israel,
+  cellesim.com, esim.net/guides/israel-sim-card-guide, israelisim.com, monito.com/best-esim-for/israel,
+  holafly.com/sim-card/sim-card-israel, mybestsim.com/israel, simcorner.com/blogs/esim/israel-unlimited-data,
+  cybernews.com/best-esim-providers/israel, thebrokebackpacker.com/best-israel-sim-cards).
+  We are completely absent from this SERP cluster. Our transportation.md doesn't mention SIM/eSIM at all.
+  The israel-esim url is mentioned only as a cross-link stub in backlog items (travel apps, first-time).
+  Key facts confirmed: Israel carriers = Partner (formerly Orange), Pelephone, Hot Mobile — all expanding 5G;
+  eSIM market dominant by 2026; Airalo now requires ID verification (2026 change); Ben Gurion Airport has
+  free WiFi for on-arrival eSIM activation; physical SIM available at airport kiosks in arrivals hall.
+  → BACKLOG (seo-content, P2, S).
+
+- **Israel money, ATM & currency guide (P2 gap)** — exclusiveisraeltours.com/money-in-israel-guide,
+  travelwithhello.com/blog/israel-currency-money-guide, thecurrencyshop.com.au/guides/currency-in-israel,
+  go-telaviv.com/israel-currency, exiap.com/guides/spending-money-how-much-for-israel all rank.
+  Our currency-tipping tool covers NIS↔USD/EUR live conversion + tipping percentages;
+  israel-cost-budget.md covers budget tiers — but ZERO dedicated guide on ATM mechanics, DCC warning,
+  Shabbat cash strategy, Amex limitations, preferred bank ATMs.
+  Key confirmed facts: DCC can cost 5–10% extra (always choose ILS at ATM); Bank Leumi/Hapoalim/Discount
+  Bank = preferred (avoid convenience store ATMs); 4-digit PIN required (5-digit not accepted at Israeli ATMs);
+  ATMs depleted on Fridays before Shabbat — stock up Thursday; Amex accepted selectively (higher merchant
+  commission limits adoption); Visa/Mastercard near-universal; contactless widely accepted 2026.
+  → BACKLOG (seo-content, P2, S).
+
+- **Jordan River baptism sites guide (P2 gap)** — israel-taxi.com/travel-blog/baptism-in-the-jordan-river,
+  israel-taxi.com/travel-blog/qasr-el-yahud, beinharimtours.com/baptismal-sites-in-israel,
+  parks.org.il/reserve-park/baptismal-site-on-the-jordan-river-qasr-al-yahud, yardenit.com all rank.
+  christian-pilgrimage-holy-land.md covers Galilee broadly and mentions the Jordan River but has NO
+  dedicated two-site comparison guide for baptism visitors. Two distinct sites confirmed:
+  Yardenit (north, Galilee, Kibbutz Kinneret; est. 1981; 500k+/year visitors; landscaped pools with steps;
+  robe rental ~$10; free entry for viewing; 8am–6pm Sun–Thu, 8am–1pm Fri) vs Qasr el-Yahud (south, Jordan
+  Valley near Jericho; INPA-managed; traditionally identified as Jesus's baptism location by John the Baptist;
+  multiple faith denominations maintain churches; reopened 2011 after decades of closure as mined zone;
+  check parks.org.il for current hours).
+  → BACKLOG (seo-content+monetization, P2, S).
+
+- **Tel Aviv Light Rail (Red Line) tourist guide (P2 gap)** — Tourist Israel ranks touristisrael.com/tel-aviv-light-rail/;
+  goisraelcard.com/guide-tel-aviv-light-rail ranks "Complete Guide"; nta.co.il (official), Wikipedia,
+  Moovit all provide detailed info not consolidated for tourists. The Red Line opened 2023 (first metro-style
+  rail in TLV) — 24km, 34 stations, runs Bat Yam → Petah Tikva with 10 underground stations; key tourist
+  stops confirmed: Jaffa (Old City + flea market), Dizengoff Center (shopping), Arlozorov (intercity
+  train connection → Ben Gurion Airport route), Habima (National Theater). Our transportation.md has
+  exactly ONE sentence about light rail ("Jerusalem and Tel Aviv both have light-rail lines") — no tourist
+  guidance whatsoever for the Red Line. Ticketing confirmed: Rav-Kav card + contactless bank cards + Israel
+  Railways app. Shabbat: Light Rail does NOT run on Shabbat. Green + Purple lines still under construction.
+  → BACKLOG (seo-content, P2, S).
+
+- **October 7 memorial sites & Gaza Envelope guide (P2 gap, SENSITIVE — human review required)** —
+  touristisrael.com/how-to-visit-october-seventh-kibbutzim (dedicated guide), touristisrael.com/tours/
+  gaza-border-nova-festival-small-oct-7-memorial (active tour), beinharimtours.com/nova-music-festival-
+  memorial-site, exclusiveisraeltours.com/the-nova-festival-site-tour, shato.tours, amazingjerusalem.com
+  all rank and operate actively. jewishcurrents.org "The Rise of October 7th Tourism" confirms growing
+  segment. Sites: Nova Festival Memorial (Reim forest between Kibbutz Beeri and Reim; 364 victims; art
+  installations + names; guided tours strongly recommended as no public transport); Kibbutz Be'eri (memorial
+  to victims); Sderot observation point; Tkuma burned vehicle wall. Kibbutz Kfar Aza access = closed
+  military zone as of research date — must verify current status before any publication.
+  IMPORTANT: this content requires HUMAN EDITORIAL REVIEW before implementation:
+  (a) victim memorial content demands sensitive, accurate framing; (b) some sites may still be restricted
+  access — verification needed; (c) proximity to Gaza border = security context needs current assessment;
+  (d) political/historical framing requires editorial judgment beyond automated loop capabilities.
+  → BACKLOG as blocked:requires-human-review (not ready for autonomous implementation).
+
+DE-DUPED (not added from iter 80 research):
+  - Israel by train guide: transportation.md + transport/[route] pages + "more transport routes" backlog item
+    together cover trains adequately; a standalone train guide would overlap substantially without adding
+    enough distinct value at this stage.
+  - Photography guide: already in BACKLOG from iter30 research — confirmed in backlog as P2, M, seo-content.
+  - Currency/tipping tool: already SHIPPED (iter); money GUIDE is distinct and new.
+
+CAUTION (iter 80): eSIM prices fluctuate significantly week-to-week — never quote exact prices; Airalo
+  ID verification (2026 update) — always frame as "current policy; verify on provider site before purchase."
+  DCC warning at ATMs is well-documented but Israeli ATM software/UI may change — frame as "commonly
+  encountered; when presented a choice, always select ILS." October 7 memorial content is the most sensitive
+  topic yet surfaced — DO NOT implement autonomously; leave for human review and editorial approval.
