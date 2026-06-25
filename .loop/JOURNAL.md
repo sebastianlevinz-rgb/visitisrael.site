@@ -1547,3 +1547,27 @@ What: REVIEW iteration. CI for iter 83 (a576156) confirmed success before this r
 Gate: pnpm check 0 errors; pnpm build 206 pages; pnpm test:e2e 204/204 pass.
 Ship: commit 517beb9 pushed to master. CI in_progress at push time.
 Prod: CI in_progress — if failure, revert and journal.
+
+## 2026-06-25 · iter 85 · RESEARCH · Mitzpe Ramon / Tiberias / Rosh Hanikra / Western Galilee / TLV museums / 2026-update scan
+Mode: RESEARCH (85%5==0). No code changed; gate not run; no ship.
+What: Searched for content gaps not yet captured in the 71-item backlog from iters 5–80.
+  Confirmed most major city/destination guides (Haifa, Eilat, Jaffa, Dead Sea, Tiberias boat tours,
+  beaches, solo, honeymoon) already in backlog from earlier research rounds. Found 6 genuinely net-new
+  opportunities:
+  1. Mitzpe Ramon & Ramon Crater destination guide (P2, M) — biggest new find; multiple nearby
+     activity guides (stargazing/bedouin/glamping) already in backlog but no destination hub;
+     Beresheet Hotel = luxury monetization; makhtesh geology (NOT meteor crater) = unique hook;
+     IDA dark sky park; Ilan Ramon astronaut memorial; strong SERP from Israel Taxi/Laidback
+     Trip/Timeout/Tourist Israel/TripAdvisor.
+  2. Tiberias city guide (P2, S) — nazareth-sea-of-galilee-day-trip.md + sea-of-galilee-boat-tours
+     backlog item are both distinct; Hamat Tiberias 4th-century zodiac mosaic synagogue anchor;
+     Jewish holy city + northern base = uncovered.
+  3. Western Galilee multi-site guide (P2, M) — Lohamei HaGeta'ot Holocaust museum (founded by
+     Uprising survivors), Montfort Castle, Nahal Kziv, Peqi'in village, Achzivland, Beit She'arim
+     UNESCO — no competitor has a single comprehensive guide for this cluster.
+  4. Rosh Hanikra sea caves guide (P3, S) — cable car restored 2026; freshness hook; northern cap.
+  5. Tel Aviv museums guide (P3, S) — Ben-Gurion House (free), ANU, Eretz Israel Museum, Design
+     Museum Holon; museum segment not covered; distinct from White City/food/nightlife guides.
+  6. Israel tourism 2026 update page (P3, S) — topicality signal; Tourist Israel ranks equivalent;
+     covers 17 new hotels, Delta flights, Rosh Hanikra reopening, National Campus Archaeology.
+Gate: N/A (RESEARCH). Next: iter 86 = BUILD/monetization.

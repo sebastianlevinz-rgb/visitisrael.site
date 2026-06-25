@@ -1123,3 +1123,67 @@ CAUTION (iter 80): eSIM prices fluctuate significantly week-to-week — never qu
   DCC warning at ATMs is well-documented but Israeli ATM software/UI may change — frame as "commonly
   encountered; when presented a choice, always select ILS." October 7 memorial content is the most sensitive
   topic yet surfaced — DO NOT implement autonomously; leave for human review and editorial approval.
+
+### 2026-06-25 · iter 85 · Mitzpe Ramon / Tiberias / Rosh Hanikra / tourism recovery scan (RESEARCH — no ship)
+
+Searched for content gaps NOT yet in the ~71-item backlog. Most previously-obvious gaps (Haifa/Eilat/Jaffa/
+Dead Sea practical/beaches/solo/honeymoon/street food/craft beer/White City) had been captured in iters
+5–80. Research confirmed 6 net-new items this iteration.
+
+**Key searches + sources:**
+- Tourist Israel content catalog scan (touristisrael.com/israel-travel-resources) → found "Israel Travel
+  2026" page, confirmed no Mitzpe Ramon city-guide equivalent in our backlog (only 3 nearby activity guides).
+- Israel travel 2026 tourism recovery: travelandtourworld.com, jewishlink.news, myisraelstay.com →
+  confirmed 17 new hotel openings summer 2026, Delta Atlanta/Boston resumption, Rosh Hanikra cable car
+  restored, National Campus for Archaeology of Israel opening, Skyfield extreme park Jaffa (new).
+- Mitzpe Ramon search: israel-taxi.com, laidbacktrip.com, timeout.com/israel, levyisraeltours.com,
+  tripadvisor.com/g303968, trip.com → strong SERP with 10+ high-ranking competitor guides; the makhtesh
+  (unique geological feature not found elsewhere) + Beresheet Hotel + IDA dark sky park + Ilan Ramon
+  Memorial = 4 distinct hook points none of which are on site. Beresheet = luxury monetization anchor.
+- Tiberias guide scan: israel-taxi.com/sea-of-galilee, laidbacktrip.com/sea-of-galilee, TripAdvisor
+  Tiberias, America Israel Tours tiberias section, Bein Harim Tiberias → confirmed gap: nazareth-sea-of-
+  galilee-day-trip.md focuses on ONE DAY trip; sea-of-galilee-boat-tours backlog item is lake-activity
+  specific; Tiberias AS A CITY + base for northern touring = uncovered. Hamat Tiberias (4th-century
+  zodiac mosaic synagogue) = anchor attraction not in any existing content.
+- Rosh Hanikra: kkl-jnf.org, Tourist Israel, Laidback Trip, Bein Harim → cable car restoration = 2026
+  freshness hook; mentioned in 3 backlog items as an aside but no standalone guide planned.
+- Western Galilee: Bein Harim western-galilee, Abraham Tours programs, americaisraeltours.com →
+  Lohamei HaGeta'ot (Holocaust museum by Uprising survivors), Montfort Castle, Nahal Kziv, Peqi'in,
+  Achzivland, Beit She'arim (UNESCO 2015) — all uncovered, form coherent touring cluster west of Akko.
+- Tel Aviv museums: Timeout Israel, Tourist Israel, TripAdvisor museums filter → ANU genealogy center,
+  Eretz Israel Museum (live dig), Ben-Gurion House (free), Design Museum Holon, Independence Hall —
+  all uncovered in seo-content; museum segment distinct from food/nightlife/White City content.
+
+**6 new BACKLOG items added** (see [iter85 research] tags in BACKLOG.md):
+1. Mitzpe Ramon & Ramon Crater destination guide (P2, M) — highest-priority: many nearby activity
+   guides already planned but no destination hub; Beresheet = premium monetization; makhtesh = unique.
+2. Tiberias & Sea of Galilee city guide (P2, S) — base city for northern touring region; distinct
+   from day-trip and boat-tour items; Hamat Tiberias mosaic synagogue = strong anchor.
+3. Western Galilee multi-site touring guide (P2, M) — synthesizes Lohamei HaGeta'ot, Montfort,
+   Nahal Kziv, Peqi'in, Achzivland, Beit She'arim; no competitor has a single comprehensive guide.
+4. Rosh Hanikra sea caves guide (P3, S) — cable car restored 2026; natural northern cap for itineraries.
+5. Tel Aviv museums guide (P3, S) — museum traveler segment not covered; Ben-Gurion House free = hook.
+6. Israel tourism 2026 update page (P3, S) — time-sensitive topicality page; Tourist Israel ranks one;
+   new hotels/flights/attractions; cross-links is-israel-safe; freshness signal for whole site.
+
+**DE-DUPED (confirmed already in backlog, not re-added):**
+- Haifa city guide (iter70, P2, M) — confirmed in backlog lines ~72
+- Eilat destination guide (iter70, P2, M) — in backlog
+- Jaffa travel guide (iter70, P2, S) — in backlog
+- Dead Sea practical visitor guide (iter70, P2, S) — in backlog
+- Israel beaches guide (iter5, P2, S-ish) — in backlog line 64
+- Solo travel (iter20, P3, M; iter50 solo-female P2, S) — both in backlog
+- Honeymoon/romantic (iter20, P3, M) — in backlog
+- Israel eSIM (iter80, P2, S), money/ATM (iter80, P2, S), Light Rail (iter80, P2, S) — in backlog
+- Negev stargazing (iter60, P2, S) — in backlog (distinct from Mitzpe Ramon CITY guide)
+- Bedouin experience (iter60, P2, M) — in backlog
+- Glamping Israel (iter60, P2, S) — in backlog
+
+**CAUTION (iter 85):**
+- Mitzpe Ramon "crater" must NOT be called "impact crater" or "meteor crater" — it is a makhtesh
+  (geological erosion valley); this is a common misconception and important to correct editorially.
+- Rosh Hanikra Lebanese border proximity: never make security assertions; link is-israel-safe.
+- Lohamei HaGeta'ot: Holocaust memorial museum — sensitive content; frame with care; do NOT reduce
+  to a tourist attraction "tip"; treat as a place of memory and education.
+- Israel 2026 page: ceasefire status must use evergreen language; never describe as permanent;
+  always direct reader to official government travel advisory for current situation.
