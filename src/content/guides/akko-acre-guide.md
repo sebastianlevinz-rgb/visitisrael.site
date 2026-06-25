@@ -109,6 +109,8 @@ A taxi from the Old City takes about ten minutes. If you are combining Akko with
 
 **Caesarea (60 km south)** — the Roman theatre, Crusader walls and Herodian harbour ruins of [Caesarea](/caesarea) pair well on a longer road-trip day along the northern coast.
 
+**Nahal Kziv water hike (45 min east)** — a forested limestone canyon in the hills east of Akko with clear pools, small waterfalls and ancient water mills, flowing October–May. One of the best water hikes in northern Israel and a natural pairing with an Akko day for drivers. See the [water hiking Israel guide](/water-hiking-israel) for trail details and what to bring.
+
 ---
 
 ## Getting there
@@ -136,5 +138,3 @@ A taxi from the Old City takes about ten minutes. If you are combining Akko with
 **Day-trip pacing:** Arrive at opening time for the underground complex, walk the Old City before midday heat builds in summer, eat a seafood lunch at the port (12:30–13:30 to beat queues), and spend the afternoon at the sea walls and Bahá'í Mansion before heading back. That schedule gives you a complete visit without rushing.
 
 ---
-
-*Internal links: [Haifa travel guide](/haifa) · [Israel National Parks Pass](/israel-national-parks-pass) · [Day trips from Tel Aviv](/day-trips-from-tel-aviv) · [Christian pilgrimage guide](/christian-pilgrimage-holy-land) · [Galilee region](/galilee) · [Northern coast transport](/transport/haifa-to-akko)*
