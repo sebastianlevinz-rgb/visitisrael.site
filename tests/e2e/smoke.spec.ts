@@ -52,6 +52,7 @@ const ROUTES = [
   '/car-rental-israel',
   '/water-hiking-israel',
   '/akko-acre-guide',
+  '/safed-tzfat-guide',
   '/fr/first-time-in-israel',
   '/fr/visa-information',
   '/fr/best-time-to-visit-israel',

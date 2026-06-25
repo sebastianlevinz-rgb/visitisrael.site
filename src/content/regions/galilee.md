@@ -124,6 +124,8 @@ The Galilee's central position in the north makes it the natural base for day tr
 
 **The Golan Heights** climb away to the east — **Mount Bental** observation lookout (a Yom Kippur War heritage site with a panorama deep into Syria), Banias waterfall, the **Nimrod Fortress** Crusader-era castle, and the **Druze villages** of Majdal Shams and the Druze of Mount Hermon. A full day comfortably covers two or three of these stops.
 
+**Safed (Tzfat)** is 45 minutes north-west from Tiberias — Israel's highest city at 900 metres and the historic centre of Jewish Kabbalistic mysticism, with 16th-century synagogues, a working Artists' Quarter, and panoramic views over the Upper Galilee. See the full [Safed travel guide](/safed-tzfat-guide).
+
 **Akko (Acre)** on the Mediterranean coast is a 1.5-hour drive west, with the UNESCO Crusader Old City, the Hospitaller Knights' Halls, and the Templar Tunnel. The combination of Galilee freshwater shore plus Mediterranean Crusader port works well as a two- or three-day touring loop.
 
 ## How to Get to the Galilee

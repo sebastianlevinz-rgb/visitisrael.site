@@ -1,4 +1,21 @@
 import { defineConfig, devices } from '@playwright/test';
+import fs from 'fs';
+
+// Cloud env: Playwright 1.61 expects chromium_headless_shell-1228 but the pre-installed
+// binary is headless_shell-1194. Resolve to whichever headless shell exists on the host.
+function resolveCloudChromium(): string | undefined {
+  const candidates = [
+    '/opt/pw-browsers/chromium_headless_shell-1194/chrome-linux/headless_shell',
+    '/opt/pw-browsers/chromium-1194/chrome-linux/chrome',
+    '/opt/pw-browsers/chromium',
+  ];
+  for (const p of candidates) {
+    if (fs.existsSync(p)) return p;
+  }
+  return undefined;
+}
+
+const cloudBinary = resolveCloudChromium();
 
 /**
  * E2E tests run against the built static site via `astro preview`.
@@ -16,10 +33,6 @@ export default defineConfig({
     baseURL: 'http://localhost:4321',
     trace: 'on-first-retry',
     contextOptions: { reducedMotion: 'reduce' },
-    // Cloud env pre-installs Chromium at a fixed path; the version tag may differ.
-    ...(process.env.PLAYWRIGHT_BROWSERS_PATH
-      ? { executablePath: '/opt/pw-browsers/chromium' }
-      : {}),
   },
   webServer: {
     command: 'pnpm preview',
@@ -30,7 +43,11 @@ export default defineConfig({
   projects: [
     {
       name: 'chromium',
-      use: { ...devices['Desktop Chrome'] },
+      use: {
+        ...devices['Desktop Chrome'],
+        // Use the pre-installed binary when available; fall back to Playwright's default.
+        ...(cloudBinary ? { launchOptions: { executablePath: cloudBinary } } : {}),
+      },
     },
   ],
 });

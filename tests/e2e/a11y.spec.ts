@@ -73,6 +73,7 @@ const ROUTES = [
   '/car-rental-israel',
   '/water-hiking-israel',
   '/akko-acre-guide',
+  '/safed-tzfat-guide',
   '/search',
   '/404',
 ];
