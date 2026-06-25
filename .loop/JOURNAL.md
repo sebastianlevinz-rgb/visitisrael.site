@@ -1156,3 +1156,21 @@ Next: iter 66 = BUILD (66%5==1). nextRotationCategory = tools (P3 only; fall thr
   candidates: Muslim travel guide (P2, M, new — large audience), water hiking (P2, S, quick win),
   luxury Israel guide (P2, M, high CPA), or i18n Phase 2 Batch 5 (P1, overdue). Recommend luxury
   guide or Muslim travel guide at iter 66 for monetization rotation; i18n batch 5 at iter 67.
+
+## 2026-06-25 · iter 66 · BUILD (monetization S) · deepen travel-insurance + car-rental comparison tables
+What: Added plan-tier comparison tables to both israel-travel-insurance.md and car-rental-israel.md,
+  following the eSIM tier-table pattern (iter26). Travel insurance: 4-tier table (Basic/Standard/
+  Comprehensive/Adventure) with medical limits, evacuation, cancellation, baggage, activity cover,
+  and indicative weekly price ranges; caveats on honesty (ranges only, insurer/age/trip-length vary);
+  2 new FAQs. Car rental: vehicle category table (economy to 7-seater; off-peak/peak day rates;
+  indicative ranges) + extras section (CDW waiver, young-driver fee, one-way, Route 6 toll) + 2 new
+  FAQs (extras, auto vs manual). Both /israel-travel-insurance and /car-rental-israel added to smoke
+  + a11y tests. No new pages; no new affiliates needed (SafetyWing + DiscoverCars/RentalCars already
+  wired). All prices are RANGES only; honesty caveats explicit throughout.
+Startup: fresh cloud clone; git reset --hard origin/master to 3f193fa. pnpm install 8.4s clean.
+  Playwright symlink: chromium-1228 → chromium-1194 (consistent per-session fix).
+Gate: pnpm check 0 errors (105 files); build 187 pages (stable); 160/160 e2e+a11y pass. GREEN.
+Ship: squash-merged to master b4b904a, pushed. CI completed success; Lighthouse completed success.
+Next: iter 67 = BUILD (67%5==2). nextRotationCategory = seo-content. Top candidates: water hiking guide
+  (S effort), Akko destination guide (S effort), Safed city guide (S effort), vegan guide (S effort).
+  i18n Phase 2 Batch 5 also eligible at iter 67 or 68.
