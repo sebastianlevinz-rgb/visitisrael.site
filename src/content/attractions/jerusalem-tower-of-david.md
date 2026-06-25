@@ -14,7 +14,13 @@ secondaryKeywords:
 latitude: 31.7767
 longitude: 35.2275
 publishedAt: 2026-05-27
-updatedAt: 2026-06-16
+updatedAt: 2026-06-25
+ticketInfo:
+  priceRange: "~₪60 / ~$16 adult daytime; Night Spectacular ~₪60–70 separate"
+  bookingRequired: true
+  tipText: "The Night Spectacular sound-and-light show regularly sells out — book in advance at the Tower of David website. Combined day + evening tickets offer a small saving. Daytime admission is walk-in but booking online saves queuing at the Jaffa Gate entrance."
+  tiqetsQuery: "Tower of David Jerusalem"
+  gygTicketsQuery: "Tower of David Museum Jerusalem"
 faqs:
   - question: What is the Tower of David?
     answer: 'The Tower of David is a medieval citadel just inside Jaffa Gate, built and rebuilt over two millennia on fortifications dating back to the Hasmonean and Herodian periods. Despite the name it has no direct link to King David; it now houses the Tower of David Museum, which tells the story of Jerusalem across 4,000 years.'

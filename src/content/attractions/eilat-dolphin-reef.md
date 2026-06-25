@@ -15,7 +15,13 @@ secondaryKeywords:
 latitude: 29.5360
 longitude: 34.9520
 publishedAt: 2026-05-11
-updatedAt: 2026-06-17
+updatedAt: 2026-06-25
+ticketInfo:
+  priceRange: "~₪75 / ~$20 adult beach entry; dolphin swims ~₪350–600 extra"
+  bookingRequired: true
+  tipText: "Dolphin encounter swims and supervised dives book out weeks ahead in high season (Jul–Aug, Passover, Sukkot) — reserve online at dolphinreef.co.il. Standard beach entry is walk-in. Check the site for current prices as they vary by season and experience type."
+  tiqetsQuery: "Dolphin Reef Eilat"
+  gygTicketsQuery: "Dolphin Reef Eilat experience"
 faqs:
   - question: Where is Dolphin Reef in Eilat?
     answer: Dolphin Reef sits on the southern Eilat beachfront, about 3 km south of central Eilat at the start of the Coral Beach district. Walking distance from southern hotels; taxi or local bus 15 from central Eilat (5 minutes).

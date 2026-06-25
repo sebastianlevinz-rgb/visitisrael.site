@@ -15,7 +15,12 @@ secondaryKeywords:
 latitude: 29.5026
 longitude: 34.9181
 publishedAt: 2026-05-11
-updatedAt: 2026-06-17
+updatedAt: 2026-06-25
+ticketInfo:
+  priceRange: "~₪119 adult / ~₪99 child (includes tower, aquariums, glass-bottom boat)"
+  bookingRequired: false
+  tipText: "Walk-in entry at the park gates — no advance booking required. The ticket covers all exhibits including the observation tower and Coral 2000 glass-bottom boat. Family combination tickets reduce the per-person cost. Check the official site for current prices and shark-tank feeding session times."
+  tiqetsQuery: "Eilat Underwater Observatory Marine Park"
 faqs:
   - question: Where is the Underwater Observatory in Eilat?
     answer: The Underwater Observatory Marine Park is on the southern coastline of Eilat, approximately 7 km south of central Eilat and 1 km south of Coral Beach Nature Reserve. Drive along Highway 90 to the Coral Beach junction and continue south; local bus line 15 stops at the park entrance.

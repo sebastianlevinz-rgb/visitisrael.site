@@ -16,7 +16,11 @@ secondaryKeywords:
 latitude: 32.8167
 longitude: 34.9867
 publishedAt: 2026-05-11
-updatedAt: 2026-06-17
+updatedAt: 2026-06-25
+ticketInfo:
+  freeEntry: true
+  bookingRequired: false
+  tipText: "Entry to the upper-terrace overlook (Yefe Nof) and the lower-terrace gardens is free with no ticket needed. The free public guided tour at 12:00 daily is walk-in — arrive 15 minutes early at the Yefe Nof upper entrance. Verify the current tour schedule at bahai.org before your visit as times can vary seasonally."
 faqs:
   - question: How do I visit the Bahá’í Gardens?
     answer: Two zones are open to the public free of charge. The upper-terrace overlook on Yefe Nof street is open daily, free, and gives the headline panorama down the 19 terraces toward the Mediterranean. The lower-terrace gardens at the foot of Ben-Gurion Avenue in the German Colony are also open daily, free, and walkable. A free guided public tour at 12:00 daily links the two zones via the central terraces (visible from the path, not entered). The Shrine of the Báb itself on terrace 11 is closed to non-Bahá’ís per Bahá’í convention.

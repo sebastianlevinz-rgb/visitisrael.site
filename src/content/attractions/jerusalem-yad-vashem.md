@@ -14,7 +14,12 @@ secondaryKeywords:
 latitude: 31.7741
 longitude: 35.1751
 publishedAt: 2026-05-11
-updatedAt: 2026-06-17
+updatedAt: 2026-06-25
+ticketInfo:
+  freeEntry: true
+  bookingRequired: false
+  tipText: "Admission to the campus and the Holocaust History Museum is free — no advance ticket needed for individual visitors. Guided tours in English run several times daily and benefit from advance reservation via the Yad Vashem website. Allow at least 3–4 hours. Closed Saturday and Jewish holidays."
+  gygTicketsQuery: "Yad Vashem guided tour Jerusalem"
 faqs:
   - question: Is Yad Vashem free?
     answer: Yes. Admission to the campus and to the Holocaust History Museum is free. The audio guide rental and the documentary archive consultation carry small fees. Guided tours in English run several times daily and benefit from advance reservation.

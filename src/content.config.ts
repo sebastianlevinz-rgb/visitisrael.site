@@ -28,12 +28,23 @@ const regions = defineCollection({
   schema: z.object(base),
 });
 
+const ticketInfo = z.object({
+  freeEntry: z.boolean().optional(),
+  priceRange: z.string().optional(),
+  bookingRecommended: z.boolean().optional(),
+  bookingRequired: z.boolean().optional(),
+  tipText: z.string(),
+  tiqetsQuery: z.string().optional(),
+  gygTicketsQuery: z.string().optional(),
+});
+
 const attractions = defineCollection({
   loader: glob({ pattern: '*.md', base: './src/content/attractions' }),
   schema: z.object({
     ...base,
     parentRegion: z.string().optional(),
     religiousSiteId: z.string().optional(),
+    ticketInfo: ticketInfo.optional(),
   }),
 });
 

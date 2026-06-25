@@ -14,7 +14,12 @@ secondaryKeywords:
 latitude: 31.4642
 longitude: 35.3884
 publishedAt: 2026-05-11
-updatedAt: 2026-06-17
+updatedAt: 2026-06-25
+ticketInfo:
+  priceRange: "~₪31 / ~$8 adult (INPA entry)"
+  bookingRequired: false
+  tipText: "Pay at the visitor centre on arrival — no advance booking needed. The Israel National Parks annual pass covers entry. Arrive early in summer (before 08:30) to beat the heat and secure trailhead parking. Entry to Ein Gedi Spa (a separate facility south of the reserve) carries a different ticket."
+  gygTicketsQuery: "Ein Gedi Dead Sea tour Israel"
 faqs:
   - question: How long does it take to hike Ein Gedi?
     answer: The short Nahal David loop to the first waterfall takes about an hour round trip. The full Nahal David circuit to the upper pools and back is two to three hours. The longer Nahal Arugot canyon hike to the Hidden Falls is three to four hours. All routes are well marked but vary in difficulty.

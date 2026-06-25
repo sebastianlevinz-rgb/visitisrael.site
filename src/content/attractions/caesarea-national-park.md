@@ -16,7 +16,13 @@ secondaryKeywords:
 latitude: 32.5006
 longitude: 34.8919
 publishedAt: 2026-05-11
-updatedAt: 2026-06-17
+updatedAt: 2026-06-25
+ticketInfo:
+  priceRange: "~₪28–50 adult (standard or combined Time Trek ticket)"
+  bookingRequired: false
+  tipText: "Walk-in entry at the visitor centre — no advance booking required for standard visits. The Israel National Parks annual pass is valid. The combined ticket including the Time Trek multimedia experience is recommended for most visitors. Check parks.org.il for current prices."
+  tiqetsQuery: "Caesarea National Park Israel"
+  gygTicketsQuery: "Caesarea day trip Israel"
 faqs:
   - question: Where is Caesarea National Park?
     answer: Caesarea National Park sits on the Mediterranean coast about 45 minutes north of Tel Aviv (Highway 2, signed exit at the Caesarea junction) and 30 minutes south of Haifa. The entrance gate is on the seaward side, with paid parking at the visitor centre. From the Caesarea-Pardes Hanna railway station, a 10-minute taxi reaches the park.

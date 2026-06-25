@@ -14,7 +14,13 @@ secondaryKeywords:
 latitude: 31.7733
 longitude: 35.2358
 publishedAt: 2026-05-11
-updatedAt: 2026-06-17
+updatedAt: 2026-06-25
+ticketInfo:
+  priceRange: "~₪25–50 adult (standard or tunnels combo ticket)"
+  bookingRecommended: true
+  tipText: "Hezekiah's Tunnel timed-entry slots can fill up on busy days — book the combo ticket online in advance. Bring water shoes and a head-torch for the wet tunnel route (knee-deep water in season). The dry Canaanite tunnel is shorter and partially lit if you prefer to stay dry. Verify current admission prices at parks.org.il."
+  tiqetsQuery: "City of David Jerusalem"
+  gygTicketsQuery: "City of David Hezekiah Tunnel tour Jerusalem"
 faqs:
   - question: Where is the City of David?
     answer: Just outside the Old City walls, south of Dung Gate, on the slope that runs down to the Kidron Valley. The site sits within the Palestinian neighborhood of Silwan in east Jerusalem; the archaeological park itself is administered by the Israel Nature and Parks Authority and the Ir David Foundation.

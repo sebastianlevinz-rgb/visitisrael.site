@@ -20,6 +20,7 @@ import { defaultAuthor } from '@/data/authors';
 import { affiliateUrl } from '@/config/affiliates';
 import { place, article, breadcrumbList } from '@/lib/schema';
 import TourVerdict from '@/components/TourVerdict.astro';
+import TicketBlock from '@/components/TicketBlock.astro';
 
 export async function getStaticPaths() {
   const attractions = await getCollection('attractions');
@@ -113,6 +114,21 @@ const schema = [
   <section class="mx-auto max-w-3xl px-4">
     <p class="text-lg leading-relaxed text-ink">{entry.data.description}</p>
   </section>
+
+  {entry.data.ticketInfo && (
+    <section class="mx-auto max-w-3xl px-4 pt-4">
+      <TicketBlock
+        name={name}
+        freeEntry={entry.data.ticketInfo.freeEntry}
+        priceRange={entry.data.ticketInfo.priceRange}
+        bookingRecommended={entry.data.ticketInfo.bookingRecommended}
+        bookingRequired={entry.data.ticketInfo.bookingRequired}
+        tipText={entry.data.ticketInfo.tipText}
+        tiqetsQuery={entry.data.ticketInfo.tiqetsQuery}
+        gygTicketsQuery={entry.data.ticketInfo.gygTicketsQuery}
+      />
+    </section>
+  )}
 
   <article class="prose-content mx-auto max-w-3xl px-4 pt-6">
     <Content />

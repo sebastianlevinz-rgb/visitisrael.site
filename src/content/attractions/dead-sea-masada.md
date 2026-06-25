@@ -14,7 +14,13 @@ secondaryKeywords:
 latitude: 31.3157
 longitude: 35.3534
 publishedAt: 2026-05-11
-updatedAt: 2026-06-17
+updatedAt: 2026-06-25
+ticketInfo:
+  priceRange: "~₪31 / ~$8 adult (INPA entry); cable car ~₪60 round-trip extra"
+  bookingRecommended: true
+  tipText: "Buy a combined park + cable-car ticket at the visitor centre. Sunrise tour packages from Tel Aviv include entry and a guide — book at least a few days ahead in peak season (Mar–Oct). INPA annual pass holders enter free."
+  tiqetsQuery: "Masada Israel"
+  gygTicketsQuery: "Masada sunrise tour Israel"
 faqs:
   - question: How long does it take to climb Masada via the Snake Path?
     answer: About 60 to 90 minutes for fit hikers in cool weather; longer in summer. The path is well marked, switchbacks up the eastern face, and gains roughly 350 metres in elevation. Bring at least 1.5 litres of water per person, sun protection, and shoes with good grip. The path opens at four in the morning for sunrise climbers.
