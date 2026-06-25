@@ -1212,3 +1212,23 @@ Ship: committed 1a36d6d to master (direct commit; branch had no tracked commits 
   CI + Lighthouse both in_progress at state-write time.
 i18n progress: fr: 14/~147 pages (12 guides + home + plan-your-trip); de: same.
 Next: iter 69 = REVIEW (69%5==4). Audit i18n batch 5 + prior un-reviewed items; nextRotationCategory = monetization.
+
+## 2026-06-25 · iter 69 · REVIEW · audit i18n batch 5 (FR+DE border-crossings + car-rental)
+Mode: REVIEW (69%5==4). No new feature shipped.
+Startup: fresh cloud clone; git reset --hard origin/master (local at 64e33b6; origin at 17802d4 — 50+ commits ahead).
+  Playwright two-step fix required: (1) top-level symlink chromium_headless_shell-1228→1194;
+  (2) mkdir chrome-headless-shell-linux64/ + nested symlink →chrome-linux/headless_shell.
+  (Confirms iter 67 procedure; iter 68 may have worked with one-step due to env variation.)
+  pnpm build: 192 pages. pnpm check: 0 errors (105 files). pnpm test:e2e: 170/170 pass.
+Audit — iter 68 i18n batch 5 (all CLEAN):
+  Content quality: FR/DE translations natural and accurate; register appropriate; no machine-translated feel.
+  HTML lang: lang=fr / lang=de set correctly on all 4 new pages.
+  Hreflang: 4 alternates (en/fr/de/x-default) on all 4 new pages.
+  JSON-LD: Article + BreadcrumbList + FAQPage present; FAQPage uses translated question/answer text.
+  Affiliate CTA: AffiliateCard component does NOT render rating/reviews from frontmatter
+    (confirmed in component code + HTML grep) — honesty design intentional and correct.
+  Cross-links: all /fr/ and /de/ locale paths resolve (visa-information, is-israel-safe,
+    first-time-in-israel, shabbat-guide, border-crossings all in dist ✓).
+  Build: 192 pages stable. Gate: 170/170 e2e+a11y pass.
+Result: ALL CLEAN — no issues found; no code changes; no fixes shipped.
+Next: iter 70 = RESEARCH (70%5==0). nextRotationCategory = monetization (unchanged by REVIEW).
