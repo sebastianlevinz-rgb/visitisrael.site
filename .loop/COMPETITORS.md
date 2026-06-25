@@ -813,3 +813,120 @@ TripAdvisor, Laidback Trip, Against the Compass, igoogledisrael, hike-israel.com
   normalisation states (Jordan, Egypt, UAE, Bahrain, Morocco, Oman — no issue); HONESTY: country policies
   evolve and must not be stated as absolutes — link home-government travel advisories.
   → BACKLOG (seo-content, P3, S).
+
+### 2026-06-25 · iter 70 · city guides / experience / food / sustainability gap scan
+
+Researched 8 fresh angles targeting city-specific gaps (Eilat, Haifa, Jaffa), experience gaps
+(Dead Sea practical how-to, craft beer, White City/Bauhaus), food gap (street food), sustainability.
+Sources: Tourist Israel, Bein Harim, TripAdvisor, GetYourGuide, Viator, Expedia, Atlas Obscura,
+UNESCO WHC, Bauhaus Center, Timeout Israel, Danny the Digger, Abraham Tours, RateBeer, ByFood,
+WanderLog, laidbacktrip.com, exclusiveisraeltours.com, deadsea.com, americaisraeltours.com,
+nextleveloftravel.com, travelforawhile.com, harrysbaked.com, telavivwalks.com, takeyourbackpack.com,
+travelsetu.com, Frommers, responsibletravel.com, ISRAEL21c, ecoisraeltours.com, genesis-tours.com.
+
+- **Eilat city travel guide (P2 gap)** — Tourist Israel has "Eilat Travel Guide", "10 Best Things
+  to Do in Eilat", "24 Hours in Eilat", "Top Attractions in Eilat"; Lonely Planet Eilat; Bein Harim
+  "Traveling to Eilat" + "Top Attractions in Eilat". We have eilat.md (region hub) + eilat-diving-
+  snorkeling.md (scuba-specific) + petra-from-eilat-vs-amman.md — NO practical city guide.
+  Eilat as a RED SEA RESORT CITY is a distinct travel segment (beach holiday vs cultural tourism):
+  year-round sun 360 days, tax-free zone, Dolphin Reef, Underwater Observatory Park (800+ species,
+  no diving needed), Coral Beach Nature Reserve (NPA-managed snorkel reef), Timna National Park
+  (copper mines, desert sculptures, 30km north), Red Sea water sports, flight from TLV ~50min.
+  iter 60 noted "not a gap" for Eilat, but that assessment covered "water parks = P3 only."
+  A CITY GUIDE is broader than water parks — captures "things to do in Eilat", "Eilat trip planning",
+  "Eilat Red Sea beach guide" intents not served by the region hub or diving guide. Akko precedent
+  (region hub + destination guide both valid) confirms this pattern. → BACKLOG (P2, M).
+
+- **Haifa city travel guide (P2 gap)** — TripAdvisor (15 Best Things to Do in Haifa 2026),
+  GetYourGuide (Haifa hub), Viator (What to do in Haifa), Expedia, Tourist Israel, travelsetu.com,
+  Trip.com all rank for "Haifa travel guide" / "things to do in Haifa". haifa.md exists as a region
+  hub. iter 60 called this "not a gap" — but the GUIDE-FORMAT page is different from a region hub.
+  Same logic as Akko: the destination guide captures "things to do in Haifa" practical intent.
+  Haifa has unique USPs not served by a region hub: Carmelit (Israel's ONLY underground funicular,
+  6 stations, runs Shabbat = rare), Wadi Nisnas (coexistence art district, open-air murals),
+  German Colony (Templar architecture, restaurant row, leads to Bahá'í Gardens axis), MadaTech
+  science museum (hands-on, families), Stella Maris monastery (panoramic). Buses run 7 days/week
+  including Shabbat (ONLY Israeli city with full Shabbat bus service — real practical advantage).
+  Strong combination with Akko (30min train). → BACKLOG (P2, M).
+
+- **Dead Sea practical visitor guide (P2 gap)** — deadsea.com ("Complete Visitor Guide 2026"),
+  laidbacktrip ("Ultimate Guide to Dead Sea in Israel"), exclusiveisraeltours ("The Ultimate Insider
+  Guide 2026"), nextleveloftravel (3-day Dead Sea itinerary), americaisraeltours ("7 Things to Know
+  Before You Go"), goaheadtours.com all rank for "how to visit the Dead Sea" / "floating tips".
+  We have 3 existing Dead Sea items: dead-sea.md (region hub), dead-sea-israel-vs-jordan.md
+  (comparison guide — logistics/access only), masada-dead-sea-day-trip.md (1-day itinerary).
+  NONE covers: floating technique, 15-20min safety limit, eye contact risk, Kalia vs Ein Bokek
+  vs Ein Gedi beaches, mud ritual, what to bring (old swimsuit, water shoes, 2L fresh water),
+  Dead Sea shrinkage context, photography (sunrise reflections), overnight vs day-trip decision.
+  This is pure HOW-TO guide — the format deadsea.com + exclusiveisraeltours monetize heavily.
+  → BACKLOG (P2, S).
+
+- **Israeli craft beer & brewery guide (P2 gap)** — Timeout Israel ("7 Bucketlist Craft Breweries"),
+  Abraham Tours (Best Israeli Beer guide), Danny the Digger (Top 10 Breweries in Israel), RateBeer
+  TLV guide, WanderLog (37 TLV breweries), ByFood (craft beer tour), TripAdvisor (verified reviews
+  for multiple craft beer tours) all rank and have dedicated content. Israel's craft beer revolution:
+  from 3 commercial brands pre-2005 to 200+ craft brands. Beer Bazaar (4 locations, 100+ drafts
+  each); Schnitt Brewery (TLV's first brewpub, guided tastings); Dancing Camel (pioneer since 2006).
+  We have israel-wine-wineries.md but ZERO beer content. Beer is an entirely distinct product,
+  audience, and SEO cluster from wine. Strong GYG/ByFood monetization (guided beer tours ~$30-50,
+  well-reviewed). → BACKLOG (P2, S).
+
+- **Tel Aviv White City / Bauhaus architecture guide (P2 gap)** — UNESCO WHC 2003 proclamation;
+  Tourist Israel ("The White City"), Bein Harim ("UNESCO Site: The White City"), Atlas Obscura
+  (detailed Bauhaus guide), ArchDaily (6 buildings guide), mywanderlust.pl (dedicated Bauhaus TLV
+  guide), UNESCO WHC itself (whc.unesco.org/en/list/1096), Bauhaus Center (official tour operator)
+  all rank. 4,000+ International Style buildings; world's largest Bauhaus-influenced collection.
+  ZERO architecture/UNESCO content on site. Design/architecture travelers are a distinct segment
+  (also reached by the Schocken Library, Rubin Museum, ARC Museum crowds). Free self-guided walk
+  + Fri/Sun guided tours from Bauhaus Center = easy to include as a free activity recommendation.
+  Strong UNESCO angle for backlink opportunities from architecture/heritage publications.
+  → BACKLOG (P2, S).
+
+- **Jaffa complete travel guide (P2 gap)** — travelsetu.com (Complete Guide Jaffa Yafo 2026),
+  takeyourbackpack.com (Jaffa Old Port + Flea Market 2026), TripAdvisor (15 Best Things in Jaffa
+  2026), GetYourGuide (Jaffa hub with 50+ tours), Tourist Israel (8 Best Things in Jaffa), booking-
+  tours.com (The Perfect Old City Guide 2026), Expedia (Visit Jaffa 2026), telavivwalks.com all rank
+  for "Jaffa travel guide" / "things to do in Jaffa". Jaffa is distinct from Tel Aviv in travel intent
+  (old port city, flea market, hummus institutions, Franciscan church, ancient history) vs TLV
+  (modern city, nightlife, beaches, restaurants). Abu Hassan hummus is a genuine culinary pilgrimage
+  destination cited across multiple sources as possibly Israel's best hummus. Old Jaffa Clock Tower +
+  working fishing harbor + Ilana Goor Museum + Abouelafia bakery (24/7 za'atar pita) = coherent
+  standalone half-day to full-day itinerary. → BACKLOG (P2, S).
+
+- **Israeli street food guide (P2 gap)** — Tourist Israel ("Fast Eats and Street Food in Israel"),
+  Bein Harim ("Best Street Food in Israel"), nextleveloftravel ("13 Best Israeli Street Foods"),
+  travelinsighter ("Best Israeli Street Food: 13 Dishes"), travelforawhile ("Amazing Street Food
+  and Food Markets"), GetYourGuide (TLV street food tour hub), TripAdvisor (Best Street Food Tel
+  Aviv 2026) all rank with dedicated content. We have 4 food guides (cuisine culture overview,
+  restaurant recs, kosher/religious, food tours) but NONE covers "best falafel vendor / best
+  hummus spot / best sabich in Jerusalem" — the practical "where to find it" intent.
+  HaKosem falafel = consistently cited across ALL sources as #1 in TLV. Abu Hassan Jaffa = #1
+  hummus. Sabich Tchernikhovsky = top sabich. These specific vendor recommendations drive real
+  bookmarking/sharing behavior (street food guides get high social shares). → BACKLOG (P2, S).
+
+- **Sustainable eco-tourism guide (P3 gap)** — Frommers (dedicated "Sustainable Travel & Ecotourism"
+  Israel section), responsibletravel.com ("Responsible Tourism in Israel"), ISRAEL21c ("Top 10 ways
+  to green your visit"), ecoisraeltours.com (dedicated eco-tours), genesis-tours.com (Sustainable
+  Pilgrimage Tour), TripAdvisor (15 Best Israel Eco Tours with prices). Growing 2026 travel niche.
+  Key anchors: Kibbutz Lotan (eco-cooperative, short stays, Arava desert); Ariel Sharon Park (landfill
+  → 2,000-acre park, ecological restoration story); Israel's 90% wastewater recycling record (global
+  leader — factual, verifiable); Clil eco-village (northern Israel). P3 only because: lower direct
+  monetization vs P2 items; partially covered by glamping guide (Kibbutz Lotan) + birdwatching guide
+  (Hula Valley restoration). → BACKLOG (P3, M).
+
+KEY COMPETITOR PATTERN OBSERVED (iter 70):
+  Tourist Israel's most-visited content is city-level "X Best Things to Do in [City]" pages (distinct
+  from their regional hub pages). They have these for: Eilat, Haifa, Jaffa, Safed, Akko — all as
+  GUIDES, not just region hubs. We have been building region hubs but lagging on city-level guide pages.
+  Priority recommendation: after Akko + Safed (already in backlog), build Jaffa + Haifa + Eilat +
+  Dead Sea guide as the next seo-content BUILD iteration cluster.
+
+DE-DUPED (not added from iter 70 research):
+  - Markets guide (harrysbaked.com / Timeout Israel ranked): overlaps too heavily with planned
+    shopping guide (that covers Machane Yehuda + Carmel Market + Jaffa Flea + haggling). The street
+    food guide captures the culinary market experience; shopping guide gets the commerce angle.
+  - Rav-Kav public transport card guide: transportation.md covers bus/train/sherut (Rav-Kav is
+    the payment system, not a destination/guide topic; add a section to transportation.md instead
+    of a new page — low standalone SEO value for a payment card).
+  - Beersheba as Negev gateway: thin standalone guide value vs negev region page + Bedouin guide
+    (most content would duplicate). Reconsider in Phase 4 if region pages need specific city guides.

@@ -1232,3 +1232,32 @@ Audit — iter 68 i18n batch 5 (all CLEAN):
   Build: 192 pages stable. Gate: 170/170 e2e+a11y pass.
 Result: ALL CLEAN — no issues found; no code changes; no fixes shipped.
 Next: iter 70 = RESEARCH (70%5==0). nextRotationCategory = monetization (unchanged by REVIEW).
+
+## 2026-06-25 · iter 70 · RESEARCH · city guides + experience + food gaps (NO SHIP)
+Mode: RESEARCH (70%5==0). No new feature shipped; no code changed; gate not run.
+Startup: fresh cloud clone had local master diverged 50/50 from origin (prior session left local
+  commits behind) — resolved via `git reset --hard origin/master` before starting.
+Scope: mined 8 fresh angles not covered in prior RESEARCH iterations (5/10/20/30/35/40/45/50/55/60/65).
+  All verified de-duped against DONE + existing backlog via content file listing + BACKLOG scan.
+  Research sources: Tourist Israel, Bein Harim, TripAdvisor, GetYourGuide, Viator, Expedia,
+    Atlas Obscura, UNESCO WHC, Bauhaus Center, Timeout Israel, Danny the Digger, Abraham Tours,
+    RateBeer, ByFood, WanderLog, laidbacktrip, exclusiveisraeltours, deadsea.com, Frommers,
+    responsibletravel.com, ISRAEL21c, ecoisraeltours.com, travelsetu.com, nextleveloftravel.com,
+    travelforawhile.com, harrysbaked.com, telavivwalks.com, takeyourbackpack.com, expedia.com.
+8 new BACKLOG items added:
+  P2 M: Eilat city travel guide (/eilat-travel-guide) — resort city gap; eilat.md ≠ practical guide
+  P2 M: Haifa city travel guide (/haifa-travel-guide) — Carmelit/Wadi Nisnas/German Colony; guide-format
+  P2 S: Dead Sea practical visitor guide (/dead-sea-guide) — HOW-TO floating, beaches, safety, mud
+  P2 S: Israeli craft beer & brewery guide (/israel-craft-beer) — Beer Bazaar, Schnitt, Dancing Camel
+  P2 S: Tel Aviv White City / Bauhaus architecture guide (/tel-aviv-white-city-bauhaus) — 4,000 buildings, UNESCO
+  P2 S: Jaffa complete travel guide (/jaffa-travel-guide) — old port, flea market, Abu Hassan hummus
+  P2 S: Israeli street food guide (/israeli-street-food-guide) — falafel/sabich/hummus by best vendor
+  P3 M: Sustainable eco-tourism guide (/sustainable-travel-israel) — Kibbutz Lotan, Ariel Sharon Park, etc.
+De-dup notes: Eilat + Haifa: region pages (eilat.md, haifa.md) ≠ practical guide pages; Akko precedent
+  confirms this distinction (iter60 called Haifa "not a gap" but iter65 added Akko despite akko.md existing).
+  Dead Sea: 3 existing items (region hub, Jordan comparison, Masada day-trip) all distinct from HOW-TO guide.
+  Beer: wine guide covers entirely different beverage/audience. Jaffa: TLV food guide is different scope.
+  Street food: 4 food guides all distinct from vendor-specific street dish guide. Eco: net-new topic.
+Backlog now ~60 ready items.
+Next: iter 71 = BUILD (71%5==1) → category: monetization.
+  Top candidates: Masada/Galilee tours-comparison pages (P2 monetization) OR new Dead Sea guide (P2 S).
