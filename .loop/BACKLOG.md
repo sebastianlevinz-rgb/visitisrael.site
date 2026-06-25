@@ -23,7 +23,7 @@ bounded, gated BUILD item. Full architecture + honesty rules + progress tracker 
 - [SHIPPED iter71] Masada tours compared + Galilee tours compared → 452e7f8
 - [SHIPPED iter76] Petra tours compared (/petra-tours-compared) → 83e219d
 - [SHIPPED iter62] "Is the tour worth it?" verdict boxes (TourVerdict component) — adeddfa — all 63 attractions + 6 tour guide pages
-- [P2] (monetization, M) Attraction "tickets & how to visit / skip-the-line" blocks on top attraction pages (Masada cable car, Western Wall tunnels, Bahá'í Gardens, etc.) — capture ticket-booking intent on existing high-traffic pages — honest "how to get tickets" note (price RANGES only, link live booking) + Tiqets/GetYourGuide CTA. HONESTY: prices drift — no hard-coded exact prices. [iter10 research] status: ready
+- [SHIPPED iter81] TicketBlock component — tickets & entry info on 9 top attractions → 1addc81
 - [SHIPPED iter66] Deepen travel-insurance + car-rental pages with plan-tier/comparison tables → b4b904a
 
 ## seo-content

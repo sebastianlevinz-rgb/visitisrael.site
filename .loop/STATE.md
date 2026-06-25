@@ -1,29 +1,28 @@
 # LOOP STATE
 
-- iteration: 80
-- lastMode: RESEARCH
-- lastItem: Competitor research pass — eSIM/SIM card, money/ATM, Jordan River baptism, TLV Light Rail, Oct 7 memorial sites
-- lastResult: RESEARCH COMPLETE — 5 new backlog items added; no code shipped (research mode)
-- nextRotationCategory: monetization (81%5==1 → BUILD, next category in rotation after last BUILD was tools (iter78))
+- iteration: 81
+- lastMode: BUILD
+- lastItem: TicketBlock — tickets & entry info on top attraction pages (monetization)
+- lastResult: SHIPPED — 1addc81; 189/189 e2e+a11y pass; CI pending at push time
+- nextRotationCategory: seo-content (82%5==2 → BUILD; after monetization → seo-content)
 - higgsfieldSpent: 0
 - updatedAt: 2026-06-25
 - branch context: work on master; feature work on auto/<slug>
 
-Notes: iter 80 RESEARCH — searched eSIM/SIM card, train travel, money/ATM/currency, Jordan River
-  baptism, TLV Light Rail, Oct 7 memorials, photography (already in backlog). Confirmed 5 net-new gaps:
-  1. Israel eSIM & SIM card guide — Tourist Israel + 10+ specialist comparison sites rank; absent from backlog
-  2. Israel money/ATM/currency guide — exclusiveisraeltours, travelwithhello, thecurrencyshop rank; absent
-  3. Jordan River baptism sites guide — yardenit.com, beinharimtours.com, israel-taxi.com rank; absent
-  4. Tel Aviv Light Rail (Red Line) tourist guide — Tourist Israel + goisraelcard rank; transportation.md
-     has only one sentence; Red Line opened 2023, tourists searching it
-  5. October 7 memorial sites — Tourist Israel + Bein Harim + multiple operators rank; sensitive —
-     flagged blocked:requires-human-review before implementation
-  All 5 added to BACKLOG. Findings + sources appended to COMPETITORS.md.
-  iter 79 CI confirmed (27721bb success; verified via CI in_progress pattern).
+Notes: iter 81 BUILD/monetization — new TicketBlock.astro component adds "Tickets & entry"
+  cards to 9 high-traffic attractions. Schema extended with optional ticketInfo object
+  (freeEntry, priceRange, bookingRecommended/Required, tipText, tiqets/gygTicketsQuery).
+  Attractions updated: Masada, Bahá'í Gardens, Yad Vashem, Tower of David, City of David,
+  Caesarea NP, Ein Gedi, Dolphin Reef, Underwater Observatory.
+  All prices shown as ranges only — no hard-coded exact prices (honesty rule).
+  6 new Playwright tests in ticket-blocks.spec.ts; gate 189/189 pass.
+  Tiqets partner already existed in affiliates.ts; no new partner needed.
 
-NEXT: iter 81 = BUILD (81%5==1) → category: monetization.
-  Top monetization candidates: attraction ticket/skip-the-line blocks (P2, M),
-    luxury Israel travel guide (P2, M). Consider also seo-content gap items with strong CTAs:
-    Jerusalem food guide (P2, M), Eilat city guide (P2, M), Haifa city guide (P2, M).
-  i18n batch 6 (Phase 2) still queued: bar-bat-mitzvah-israel, hiking-in-israel,
-    kosher-food-guide (24/39 done — 15 remaining).
+NEXT: iter 82 = BUILD (82%5==2) → category: seo-content.
+  Top seo-content candidates (ready):
+  - Israel eSIM & SIM card guide (/israel-esim-sim-card) — P2, S — every visitor faces this query
+  - Israel money, ATM & currency guide (/israel-money-guide) — P2, S — strong practical gap
+  - Tel Aviv Light Rail (Red Line) tourist guide (/tel-aviv-light-rail) — P2, S — new 2023 transit
+  - Jordan River baptism sites guide (/jordan-river-baptism) — P2, S — pilgrimage high-intent
+  Also consider i18n Phase 2 batch 6 (bar-bat-mitzvah-israel, hiking-in-israel, kosher-food-guide)
+    which is overdue (~8 BUILD iters since last i18n batch at iter68). Should interleave next BUILD.

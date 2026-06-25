@@ -1473,3 +1473,23 @@ Gate: pnpm check 0 errors; build 199 pages; 183/183 e2e+a11y pass. GREEN.
 Ship: squash-merged 27721bb, pushed.
 Prod: CI in_progress at push time — next iter start-check to confirm.
 Next: iter 80 = RESEARCH (80%5==0) → competitor research.
+
+## 2026-06-25 · iter 81 · BUILD (monetization) · TicketBlock — tickets & entry info on attraction pages
+What: New TicketBlock.astro component renders a "Tickets & entry" card on attraction pages where
+  ticketInfo frontmatter is set. Shows: admission price range or "Free entry" badge; booking status
+  (walk-in / recommended / required); tip text; Tiqets + GYG CTA buttons.
+  Schema: added optional ticketInfo z.object() to attractions collection in content.config.ts.
+  Updated 9 top-traffic attractions: Masada (paid + bookingRecommended), Bahá'í Gardens (free,
+  walk-in daily tour), Yad Vashem (free, GYG guided tours CTA), Tower of David (paid +
+  bookingRequired — Night Spectacular sells out), City of David (paid + bookingRecommended —
+  Hezekiah Tunnel slots fill), Caesarea NP (paid walk-in, INPA pass valid), Ein Gedi (paid
+  walk-in), Dolphin Reef Eilat (paid + bookingRequired — dolphin swims book weeks ahead),
+  Underwater Observatory Eilat (paid walk-in).
+  Prices as ranges only (₪), no exact/fabricated prices. All CTAs use affiliateUrl() helpers.
+  6 new Playwright tests in tests/e2e/ticket-blocks.spec.ts.
+Gate: pnpm check 0 errors, 0 warnings; build 199 pages; 189/189 e2e+a11y pass (↑6 from 183).
+Ship: squash-committed to master 1addc81, pushed.
+Prod: CI/Vercel deploy pending at push time (commit confirmed on GitHub — SHA 1addc81).
+Next: iter 82 = BUILD (82%5==2) → category: seo-content.
+  Candidates: Israel eSIM guide, Israel money/ATM guide, Tel Aviv Light Rail guide, Jordan River
+  baptism sites guide. Also overdue for i18n Phase 2 batch 6 (~8 BUILD iters since iter68).
