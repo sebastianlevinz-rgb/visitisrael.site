@@ -1571,3 +1571,38 @@ What: Searched for content gaps not yet captured in the 71-item backlog from ite
   6. Israel tourism 2026 update page (P3, S) — topicality signal; Tourist Israel ranks equivalent;
      covers 17 new hotels, Delta flights, Rosh Hanikra reopening, National Campus Archaeology.
 Gate: N/A (RESEARCH). Next: iter 86 = BUILD/monetization.
+
+## 2026-06-25 · iter 86 · BUILD (monetization S) · Dead Sea practical visitor guide (/dead-sea-guide)
+What: New /dead-sea-guide — HOW-TO for first-time Dead Sea visitors. Distinct from dead-sea.md (region
+  hub), dead-sea-israel-vs-jordan.md (comparison), masada-dead-sea-day-trip.md (itinerary guide).
+  Content: floating science (34.2% dissolved salts = ~10× Mediterranean; buoyancy automatic; squat+
+  lean-back technique); safety rules (15-20 min session limit, eye contact = severe stinging, shaving
+  24h warning, jewelry removed, SPF 50+ for UV reflection, hydration); beach comparison — Kalia Beach
+  (₪60-90 admission, full facilities, best for first-timers from Jerusalem), Ein Gedi Beach (free,
+  basic, no shade, pairs with Ein Gedi nature reserve), Ein Bokek resort strip (hotel guests + day-
+  passes, pairs with Masada); mineral mud ritual (apply, wait 15 min, rinse — vendor or natural deposit);
+  what to bring checklist (old swimsuit, water shoes, 2-3 bottles fresh water, SPF 50+, change of
+  clothes, camera with salt protection); photography (sunrise = mirror-flat water + Jordanian Mountains;
+  late afternoon = second-best for day-trippers); getting there (Jerusalem: 80-90 km, 50-75 min via
+  Route 1+90; Tel Aviv: 100 km, 70-80 min; organised day tours recommended without car); overnight vs
+  day-trip (case for overnight: sunrise float, fewer crowds, spa access); combining with Masada (20 min
+  south on Route 90; conventional order: Masada sunrise first → Dead Sea float afternoon).
+  HONESTY: Dead Sea shrinking ~1m/year framed as documented fact in environmental context section of
+  region hub (cross-linked); 15-20 min limit framed as health recommendation not law; mineral/therapeutic
+  claims framed as "widely claimed" not medically verified; beach fees marked "verify at gate — fees
+  change seasonally"; prices as ranges only throughout.
+  Monetization: 3 affiliate CTAs — GYG Dead Sea day tours (from Jerusalem+TLV), Viator Masada+Dead Sea
+  tours, Booking.com Ein Bokek hotel filter. TourVerdict (verdictName "a Dead Sea day trip") wired.
+  6 FAQs: session limit, eye contact, free access, best beach, overnight worth-it, combining with Masada.
+  Cross-links: /dead-sea, /dead-sea-israel-vs-jordan, /dead-sea/ein-gedi, /dead-sea/masada, /masada-
+  dead-sea-day-trip, /masada-tours-compared, /car-rental-israel. Footer Essentials: "Dead Sea visitor
+  guide" added (after /hiking-in-israel). dead-sea-israel-vs-jordan.md verdict updated with link to
+  new guide. Smoke + a11y specs each +1 route (206 → 207 tests). 207 pages (+1 from 206).
+Startup: fresh cloud clone; local master diverged 50+ commits from origin (prior session left earlier
+  commits); git reset --hard origin/master to 469bc62. pnpm install 8.1s. Playwright resolveCloudChromium()
+  in playwright.config.ts found headless_shell-1194 binary directly — no symlink needed this session.
+Gate: pnpm check 0 errors (109 files); build 207 pages (+1 = /dead-sea-guide); 206/206 e2e+a11y pass. GREEN.
+Ship: committed to master 4ae9323, pushed. CI run 28207364329 in_progress; Lighthouse run 28207364100
+  in_progress at state-write time.
+Prod: Vercel CI in_progress — next iteration confirms.
+Next: iter 87 = BUILD (87%5==2) → seo-content. Top candidate: Tiberias & Sea of Galilee city guide (P2, S).
