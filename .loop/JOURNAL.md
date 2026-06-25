@@ -1507,3 +1507,24 @@ Ship: squash-commit b8a46d6 pushed to master. CI run 28195924483 in_progress at 
 Prod: Vercel CI in_progress — next iteration confirms.
 i18n progress: fr 17/~147 · de 17/~147 (home + plan-your-trip + 15 guides each).
 Next: iter 83 = BUILD/tools (83%5==3).
+
+## 2026-06-25 · iter 83 · BUILD (tools) · Israel Visa & ETA-IL Checker — /israel-visa-eta-checker
+What: New interactive tool page at /israel-visa-eta-checker. Nationality dropdown (150+
+  countries, sorted alphabetically) → instant result in one of three categories: (1)
+  visa-free (green badge) — no advance authorisation needed; (2) ETA-IL required (amber
+  badge) — apply via PIBA portal before travel, ₪25 fee; (3) consulate visa required
+  (red badge) — apply at Israeli embassy before travel.
+  Vanilla JS static lookup table; no API calls; no external dependencies. Per-country
+  notes for edge cases (Jordan/Egypt peace-treaty entry, UAE Abraham Accords, Lebanon
+  restriction). Prominent disclaimer — PIBA portal linked, not bypassed. Accessible:
+  aria-live + role=status on result panel, focus-visible on select.
+  Cross-links: visa-information (full guide), ben-gurion-airport-guide, cost calculator,
+  first-time-in-israel. Step-by-step ETA-IL application howto in static HTML (no JS).
+  FAQ section with 6 questions + BreadcrumbList + FAQPage JSON-LD.
+  Added to plan-your-trip tools grid (i18n key en/fr/de). 1 functional test
+  (visa-free/ETA-IL/visa-required categories each verified; blank-reset verified);
+  1 new smoke route; 1 new a11y route.
+Gate: pnpm check 0 errors; pnpm build 206 pages (+1); pnpm test:e2e 204/204 pass.
+Ship: commit a576156 pushed to master. CI run 28198858525 in_progress at state-write time.
+Prod: Vercel CI in_progress — next iteration confirms.
+Next: iter 84 = REVIEW (84%5==4).

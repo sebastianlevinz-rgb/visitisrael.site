@@ -1,24 +1,27 @@
 # LOOP STATE
 
-- iteration: 82
-- lastMode: BUILD (i18n)
-- lastItem: i18n Phase 2 batch 6 — bar-bat-mitzvah-israel + hiking-in-israel + kosher-food-guide in fr+de
-- lastResult: SHIPPED — b8a46d6; 201/201 e2e+a11y pass; CI in_progress at push time
-- nextRotationCategory: tools (83%5==3 → BUILD; seo-content slot used for i18n → advance to tools)
+- iteration: 83
+- lastMode: BUILD (tools)
+- lastItem: Israel Visa & ETA-IL Checker — /israel-visa-eta-checker
+- lastResult: SHIPPED — a576156; 204/204 e2e+a11y pass; CI in_progress at push time
+- nextRotationCategory: technical (84%5==4 → REVIEW; 85%5==0 → RESEARCH; 86%5==1 → monetization; 87%5==2 → seo-content; 88%5==3 → tools)
 - higgsfieldSpent: 0
 - updatedAt: 2026-06-25
 - branch context: work on master; feature work on auto/<slug>
 
-Notes: iter 82 BUILD/i18n — Phase 2 batch 6. 6 new locale guide pages:
-  fr+de versions of bar-bat-mitzvah-israel, hiking-in-israel, kosher-food-guide.
-  All price ranges only; honest framing; locale-correct cross-links (links to untranslated
-  guides — israel-national-parks-pass, israel-travel-insurance — use EN root paths).
-  6 new routes in smoke + a11y specs; 201/201 tests pass. 205 pages built.
-  fr: 17/~147 · de: 17/~147. i18n batch 6 overdue (14 BUILD iters since iter68); caught up.
+Notes: iter 83 BUILD/tools — Israel Visa & ETA-IL Checker (/israel-visa-eta-checker).
+  Interactive tool: nationality dropdown → instant result (visa-free / ETA-IL / consulate
+  visa) for 150+ countries. Static JS lookup; no API; accessible (aria-live, role=status).
+  Covers 2026 PIBA entry categories with per-country notes where relevant.
+  Added to plan-your-trip tools grid; en/fr/de i18n key added; 3 new Playwright tests.
+  206 pages built; 204/204 tests pass. CI in_progress at push.
+  "Israel visa/ETA checker" backlog item shipped; "Israel trip budget planner v2"
+  remains in tools backlog.
 
-NEXT: iter 83 = BUILD (83%5==3) → category: tools.
-  Top tools candidates (ready):
-  - Israel visa & ETA-IL fee calculator/checker (/israel-eta-calculator) — P2, S — interactive pre-trip tool
-  - Build-your-trip enhancements or other tools from backlog
-  Also consider i18n Phase 2 batch 7 (next wave of fr+de guide translations — e.g. hiking, adventure-sports).
-  Top seo-content candidates still waiting: eSIM guide, money/ATM guide, Tel Aviv Light Rail, Jordan River baptism.
+NEXT: iter 84 = REVIEW (84%5==4) → audit a slice of shipped content/tools.
+  Candidates: audit the 4 newest seo-content pages (jordan-river-baptism, eSIM guide,
+  money/ATM guide, Tel Aviv Light Rail — once built) OR audit the i18n fr/de locale
+  pages (hreflang coverage, cross-link accuracy, honesty compliance across batch 6).
+  Most likely: review of recently-shipped tool pages (visa checker + shabbat calendar
+  + restaurant finder) for dead links, honesty, a11y, JSON-LD, plan-your-trip wiring.
+  Also confirm iter 83 CI/Vercel result at start of next iteration.

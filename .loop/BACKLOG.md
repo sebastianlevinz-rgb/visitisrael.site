@@ -107,7 +107,7 @@ bounded, gated BUILD item. Full architecture + honesty rules + progress tracker 
 ## tools
 - [SHIPPED iter57] Kosher / vegan restaurant finder (/israel-restaurant-finder) → 040e358
 - [SHIPPED iter78] Israel Shabbat & Jewish Holiday Calendar (/israel-shabbat-calendar) → 32c20d1
-- [P2] (tools, M) Israel visa/ETA checker — dropdown nationality → shows ETA-IL requirement / visa-free / consulate visa; vanilla JS static lookup table with ~50 nationalities; Playwright-tested. status: ready
+- [SHIPPED iter83] Israel Visa & ETA-IL Checker (/israel-visa-eta-checker) → a576156
 - [P2] (tools, M) Israel trip budget planner v2 — extend the existing cost calculator with accommodation tier selection + duration and give a daily/total breakdown + save-to-PDF. status: ready
 
 ## technical
