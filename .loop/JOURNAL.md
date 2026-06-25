@@ -1174,3 +1174,23 @@ Ship: squash-merged to master b4b904a, pushed. CI completed success; Lighthouse 
 Next: iter 67 = BUILD (67%5==2). nextRotationCategory = seo-content. Top candidates: water hiking guide
   (S effort), Akko destination guide (S effort), Safed city guide (S effort), vegan guide (S effort).
   i18n Phase 2 Batch 5 also eligible at iter 67 or 68.
+
+## 2026-06-25 · iter 67 · BUILD (seo-content S) · water hiking in Israel guide
+What: New /water-hiking-israel guide — Israel's nahal stream-corridor hike network. Covers 6 sites:
+  Wadi David + Nahal Arugot at Ein Gedi (spring-fed, year-round, INPA pass valid), Nahal HaKibbutzim
+  near Beit She'an (thermal springs, deepest family wading), Nahal Kziv in Western Galilee (forested
+  limestone canyon, best in spring), Wadi Qelt / Ein Prat (Judean Desert gorge, Byzantine aqueducts +
+  St George's Monastery), Banias in Golan (Israel's tallest waterfall, scenic walkway). Flash-flood
+  safety primer (primary danger — catchment-area rain warning), season/water-level table, gear checklist.
+  2 affiliate CTA cards (GYG Ein Gedi day tours + Abraham Tours Judean Desert hikes). 7 FAQs.
+  Wired: hiking-in-israel.md got new "Water hikes" section + cross-link; day-trips-from-jerusalem.md
+  Ein Gedi bullet extended with water-hiking link. Smoke + a11y tests each +1 (→ 162 total).
+  Link fix caught by links.spec.ts: /akko-acre-guide (not yet built) → /akko (2 occurrences).
+Startup: git reset --hard origin/master (cloud clone diverged from 4a55a71). pnpm install 17.3s.
+  Playwright headless_shell fix: mkdir /opt/pw-browsers/chromium_headless_shell-1228/
+  chrome-headless-shell-linux64/ + symlink → chromium_headless_shell-1194/chrome-linux/headless_shell.
+Gate: pnpm check 0 errors (105 files); build 188 pages (+1); 162/162 e2e+a11y pass. GREEN.
+Ship: squash-merged to master 9bb1c79, pushed. CI in_progress (build+typecheck success, e2e pending);
+  Lighthouse in_progress.
+Next: iter 68 = BUILD (68%5==3). nextRotationCategory = technical (thin — fall through likely to i18n
+  Phase 2 Batch 5 P1 overdue, or Akko/Safed/Vegan seo-content guides).

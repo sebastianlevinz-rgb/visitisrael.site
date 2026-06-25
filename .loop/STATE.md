@@ -1,33 +1,35 @@
 # LOOP STATE
 
-- iteration: 66
+- iteration: 67
 - lastMode: BUILD
-- lastItem: iter 66 BUILD (monetization S) — deepen travel-insurance + car-rental guides with plan-tier comparison tables
-- lastResult: SHIPPED → b4b904a; gate 160/160 tests pass; CI+Lighthouse success
-- nextRotationCategory: seo-content
+- lastItem: iter 67 BUILD (seo-content S) — water hiking in Israel guide (/water-hiking-israel)
+- lastResult: SHIPPED → 9bb1c79; gate 162/162 tests pass; CI in_progress (build+typecheck success)
+- nextRotationCategory: technical
 - higgsfieldSpent: 0
 - updatedAt: 2026-06-25
 - branch context: work on master; feature work on auto/<slug>
 
-Notes: iter 66 BUILD (66%5==1). nextRotationCategory was tools but tools backlog is empty (only shipped
-  item: restaurant-finder iter57). Fell through to monetization S-effort item: deepen travel-insurance
-  and car-rental guides with comparison tables (eSIM pattern, iter26 reference).
-  Travel insurance: added plan-tier comparison table (Basic/Standard/Comprehensive/Adventure with medical
-  limits, evacuation, cancellation, baggage, activity cover, indicative weekly price ranges ≥25 chars
-  honesty caveats); 2 new FAQs (adventure cover, single-trip vs annual). Car rental: added vehicle
-  category + cost range table (economy→7-seater, off-peak vs peak daily rates, indicative ranges only);
-  extras section (CDW, young-driver, one-way, Route 6 toll); 2 new FAQs (extras, auto vs manual).
-  Both routes added to smoke + a11y tests (+2 each).
-  Startup: git reset --hard origin/master after diverged cloud clone. pnpm install 8.4s clean.
-  Playwright fix: chromium-1228→chromium-1194 symlinks + headless_shell nested symlink.
-  Gate: pnpm check 0 errors (105 files); build 187 pages; 160/160 e2e+a11y pass. GREEN.
-  Ship: committed b4b904a to master; pushed; branch auto/deepen-insurance-carrental deleted.
-  Prod: CI completed success; Lighthouse completed success for b4b904a (2026-06-25T01:43:04).
+Notes: iter 67 BUILD (67%5==2). nextRotationCategory = seo-content; shipped water-hiking-israel.
+  New guide: nahal water hiking (Israel stream-corridor hikes). 6 sites: Wadi David (Ein Gedi,
+  spring-fed, year-round), Nahal Arugot (Ein Gedi, longer/wilder), Nahal HaKibbutzim (Beit She'an
+  Valley, family-friendly thermal springs, deepest water), Nahal Kziv (Western Galilee, forested
+  limestone canyon), Wadi Qelt / Ein Prat (Judean Desert, Byzantine aqueducts + monastery), Banias
+  (Golan Heights, Israel's tallest waterfall). Flash-flood safety primer; season table; gear
+  checklist; 2 affiliate CTAs (GYG Ein Gedi + Abraham Tours); 7 FAQs. Cross-linked from
+  hiking-in-israel.md (new "Water hikes" section) and day-trips-from-jerusalem.md (Ein Gedi entry).
+  Smoke + a11y tests extended (+1 each → 162 total). 188 pages built.
+  Startup: git reset --hard origin/master (cloud diverged). pnpm install 17.3s.
+  Playwright fix: chromium_headless_shell-1228 symlink at /opt/pw-browsers/ (chrome-headless-shell-linux64/
+  chrome-headless-shell → chromium_headless_shell-1194/chrome-linux/headless_shell).
+  Link fix: /akko-acre-guide (not yet shipped) → /akko in 2 places in the guide body.
+  Gate: pnpm check 0 errors (105 files); build 188 pages (+1); 162/162 e2e+a11y pass. GREEN.
+  Ship: committed 9bb1c79 to master; pushed; branch auto/water-hiking-israel deleted.
+  Prod: CI in_progress (build+typecheck completed success; e2e pending); Lighthouse in_progress.
 
-NEXT: iter 67 = BUILD (67%5==2). nextRotationCategory = seo-content. Top P2 seo-content candidates:
-  - water hiking guide (S effort, quick win, confirmed gap in hiking-in-israel.md)
-  - Akko (Acre) destination guide (S effort, standalone guide vs existing 5 attraction pages)
-  - Safed (Tzfat) city guide (S effort, confirmed gap)
-  - Vegan & Vegetarian Israel Guide (S effort, distinct from restaurant-finder tool)
-  Consider i18n Phase 2 Batch 5 at iter 67 or 68 (border-crossings + car-rental-israel + one more guide
-  in fr+de — due since iter 61 batch 4 at iter 61).
+NEXT: iter 68 = BUILD (68%5==3). nextRotationCategory = technical.
+  Technical backlog is thin (only pre-loop items shipped). Fall-through candidates:
+  - i18n Phase 2 Batch 5 (P1, overdue since iter 61) — border-crossings + car-rental-israel in fr+de
+  - seo-content: Akko (Acre) destination guide (P2, S)
+  - seo-content: Safed (Tzfat) city guide (P2, S)
+  - seo-content: Vegan & Vegetarian Guide (P2, S)
+  Recommend: i18n Phase 2 Batch 5 (P1 overdue) — this would be the batch-5 priority.
