@@ -35,4 +35,4 @@ You're touring Jordan (Amman, Jerash, Petra) and want a luxury resort night by t
 
 ## The verdict
 
-For travellers focused on Israel, the **Israeli side wins on convenience, sights and free access**. If you're crossing to Jordan anyway — perhaps via the [Eilat or Allenby crossings](/border-crossings) — the Jordanian resorts make a relaxing add-on. Plan the Israeli side with our [Dead Sea guide](/dead-sea).
+For travellers focused on Israel, the **Israeli side wins on convenience, sights and free access**. If you're crossing to Jordan anyway — perhaps via the [Eilat or Allenby crossings](/border-crossings) — the Jordanian resorts make a relaxing add-on. Plan the Israeli side with our [Dead Sea visitor guide](/dead-sea-guide) (floating tips, which beach to choose, what to bring) or the [Dead Sea region hub](/dead-sea) for the full overview.

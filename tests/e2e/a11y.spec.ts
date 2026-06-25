@@ -82,6 +82,7 @@ const ROUTES = [
   '/akko-acre-guide',
   '/safed-tzfat-guide',
   '/nazareth-travel-guide',
+  '/dead-sea-guide',
   '/israel-visa-eta-checker',
   '/search',
   '/404',
