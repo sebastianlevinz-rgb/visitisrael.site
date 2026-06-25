@@ -1384,3 +1384,28 @@ Ship: squash-merged to master 83e219d, pushed. CI + Lighthouse in_progress at pu
 Next: iter 77 = BUILD (77%5==2) → category: seo-content.
   Top candidates: Nazareth city guide (P2, M), Jerusalem food guide (P2, M), Day trips from Haifa (P2, M),
   Neighborhood guides for Tel Aviv/Jerusalem (P1, M).
+
+## 2026-06-25 · iter 77 · BUILD (seo-content) · Nazareth city travel guide
+What: /nazareth-travel-guide — comprehensive destination guide for Israel's largest
+  Arab city and 3rd most-visited Christian destination. Covers: Basilica of the
+  Annunciation (honest renovation caveat → custodia.org for current hours/access),
+  Mary's Well / Church of St Gabriel (Greek Orthodox Annunciation tradition, Byzantine
+  spring crypt), Nazareth Village living museum (1st-century reconstructed village,
+  advance booking required), Old City souq (spices, sweets, knafeh tradition),
+  Christmas festival (links nazareth.muni.il for current-year logistics), where to
+  eat (hummus, knafeh, El-Babour/Diwan), and practical getting-there from TLV
+  (~90 min car / ~1.5h public transport), Haifa (45 min bus 331/332), Jerusalem.
+  7 FAQ items covering time needed, getting there, basilica access caveat, knafeh,
+  day-trip from Jerusalem, and the Christmas festival. Three affiliate CTAs:
+  GYG Nazareth+Galilee, Viator Christian circuit, Civitatis private guide.
+  Dense cross-links: /galilee, /galilee-tours-compared, /christian-pilgrimage-holy-land,
+  /day-trips-from-tel-aviv, /nazareth-sea-of-galilee-day-trip, /safed-tzfat-guide,
+  /akko-acre-guide, /bar-bat-mitzvah-israel, /jewish-heritage-israel.
+  Hero image: /images/regions/nazareth/hero.jpg (pre-existing). No exact prices;
+  honest framing throughout (renovation caveat, "knafeh debate" framed as contested,
+  Christmas dates/logistics via municipality link not hardcoded).
+  Smoke +1 (/nazareth-travel-guide), a11y +1 → 182/182 total.
+Gate: pnpm check 0 errors; build 198 pages (+1); 182/182 e2e+a11y pass locally. GREEN.
+Ship: committed to master 69258b6, pushed. CI in_progress at push time.
+  Previous iter CI (34f0c0c) confirmed success on push. Consistent pattern.
+Next: iter 78 = BUILD (78%5==3) → category: tools.

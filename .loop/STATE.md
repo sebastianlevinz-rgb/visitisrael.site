@@ -1,28 +1,33 @@
 # LOOP STATE
 
-- iteration: 76
-- lastMode: BUILD (monetization)
-- lastItem: Petra tours compared (/petra-tours-compared)
-- lastResult: SHIPPED — 83e219d, CI in_progress at push time (next iter confirms)
-- nextRotationCategory: seo-content
+- iteration: 77
+- lastMode: BUILD (seo-content)
+- lastItem: Nazareth city travel guide (/nazareth-travel-guide)
+- lastResult: SHIPPED — 69258b6, CI in_progress at push time (next iter confirms)
+- nextRotationCategory: tools
 - higgsfieldSpent: 0
 - updatedAt: 2026-06-25
 - branch context: work on master; feature work on auto/<slug>
 
-Notes: iter 76 BUILD/monetization — /petra-tours-compared shipped (83e219d).
-  Extends tours-compared pattern (Masada/Galilee/Jerusalem) with Petra format comparison:
-  Eilat border day trip vs. overnight vs. multi-day Israel+Jordan vs. private guide.
-  Honest price RANGES only; TourVerdict wired; footer link; smoke+a11y tests +1 each.
-  Gate: pnpm check 0 errors; build 197 pages (+1); 180/180 e2e+a11y pass locally.
+Notes: iter 77 BUILD/seo-content — /nazareth-travel-guide shipped (69258b6).
+  Comprehensive Nazareth destination guide: Basilica of the Annunciation (honest
+  renovation caveat → custodia.org), Mary's Well / Church of St Gabriel, Nazareth
+  Village (advance booking required), Old City souq, knafeh, Christmas festival
+  (dates/logistics → nazareth.muni.il). Getting there from TLV/Haifa/Jerusalem.
+  Honest framing throughout; no exact prices. Dense cross-links.
+  Gate: pnpm check 0 errors; build 198 pages (+1); 182/182 e2e+a11y pass locally.
   CI in_progress at push time — next iteration start-check to confirm.
-  Cloud env divergence recovered via git reset --hard origin/master (standard issue).
+  Cloud env divergence recovered via git reset --hard origin/master (standard).
 
-NEXT: iter 77 = BUILD (77%5==2) → category: seo-content.
-  Top BUILD candidates for seo-content (P1 first):
-  - [P1] Neighborhood guides for Tel Aviv (Neve Tzedek / Rothschild / Jaffa) + Jerusalem quarters — M effort
-  - [P2] Nazareth city travel guide (/nazareth-travel-guide) — M effort, research done iter75
-  - [P2] Jerusalem food & restaurant guide (/jerusalem-food-guide) — M effort, research done iter75
-  - [P2] Day trips from Haifa guide (/day-trips-from-haifa) — M effort, research done iter75
-  INTERLEAVE: iter 77 BUILD/seo-content → iter 78 BUILD/tools → iter 79 BUILD/technical → iter 80 RESEARCH
-  i18n batch 6 (Phase 2) candidates: bar-bat-mitzvah-israel (fr/de already shipped iter63 EN — need fr/de),
-    hiking-in-israel, kosher-food-guide (24/39 done — 15 remaining; do next i18n at a BUILD slot).
+NEXT: iter 78 = BUILD (78%5==3) → category: tools.
+  Top BUILD candidates for tools (P1 first):
+  - [P1] New interactive tool: Israel public holiday / Shabbat calendar tool — shows
+    upcoming Shabbat start/end times + Jewish holidays by month; vanilla JS, no external
+    API needed (use pre-computed data), accessible, Playwright-tested.
+  - [P2] New interactive tool: Israel visa/ETA checker — dropdown nationality → shows
+    ETA requirement / visa-free / consulate visa; vanilla JS static lookup table.
+  - [P2] Israel trip budget planner v2 — extend the existing cost calculator with
+    accommodation tier selection + duration and give a daily/total breakdown.
+  INTERLEAVE: iter 78 BUILD/tools → iter 79 REVIEW → iter 80 RESEARCH
+  i18n batch 6 (Phase 2) candidates: bar-bat-mitzvah-israel, hiking-in-israel,
+    kosher-food-guide (24/39 done — 15 remaining; queue at a BUILD slot).
