@@ -1194,3 +1194,21 @@ Ship: squash-merged to master 9bb1c79, pushed. CI in_progress (build+typecheck s
   Lighthouse in_progress.
 Next: iter 68 = BUILD (68%5==3). nextRotationCategory = technical (thin — fall through likely to i18n
   Phase 2 Batch 5 P1 overdue, or Akko/Safed/Vegan seo-content guides).
+
+## 2026-06-25 · iter 68 · BUILD (i18n Phase 2 Batch 5) · border-crossings + car-rental-israel in fr + de
+What: i18n Phase 2 Batch 5 — 4 new locale pages: /fr/border-crossings, /de/border-crossings,
+  /fr/car-rental-israel, /de/car-rental-israel.
+  border-crossings: 3 Jordan crossings + Taba/Egypt crossing explained; visa-on-arrival nuance;
+  practical tips (cash, passport + entry slip, organised Petra tour recommendation). Cross-links to
+  /fr|de/is-israel-safe + /fr|de/first-time-in-israel + /fr|de/visa-information (all locale-aware).
+  car-rental-israel: full vehicle-category comparison table; price ranges (off-peak/peak); CDW/extras
+  section; Shabbat + border + West Bank driving notes (cross-links /fr|de/shabbat-guide and
+  /fr|de/border-crossings locale-aware); 2 affiliate CTAs (discovercars + rentalcars). 6 FAQs each.
+  Smoke + a11y specs extended (+4 routes each, 162→170 total). 192 pages built (up from 188).
+  Startup: fresh cloud clone; git reset --hard origin/master to e173dd7.
+  Playwright symlink: chromium_headless_shell-1228 → chromium_headless_shell-1194 (per-env fix).
+Gate: pnpm check 0 errors (105 files); build 192 pages (+4); 170/170 e2e+a11y pass. GREEN.
+Ship: committed 1a36d6d to master (direct commit; branch had no tracked commits in worktree), pushed.
+  CI + Lighthouse both in_progress at state-write time.
+i18n progress: fr: 14/~147 pages (12 guides + home + plan-your-trip); de: same.
+Next: iter 69 = REVIEW (69%5==4). Audit i18n batch 5 + prior un-reviewed items; nextRotationCategory = monetization.

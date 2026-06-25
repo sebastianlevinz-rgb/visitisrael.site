@@ -52,14 +52,14 @@
 
 ## Progress tracker (loop updates this each i18n iteration)
 
-- Current phase: **Phase 2 BATCH 4 DONE (iter 61, SHA 8f509f4)**: shabbat-guide + best-tours-in-israel shipped in fr+de. Locale-correct cross-links: fr shabbat → /fr/transportation + /fr/first-time-in-israel; de shabbat → /de/transportation + /de/first-time-in-israel. best-tours both locales link to EN region/attraction pages (not yet translated). Hreflang alternates on all 4 new pages (auto-computed by [...slug].astro). fr 12/147, de 12/147 (home + plan-your-trip + 10 guides each). CI in_progress 28128154617 at state-write time. YAML lesson: French content requires double-quoted frontmatter strings (apostrophes in d'Israël/d'une break single-quoted YAML). Next batch: border-crossings, car-rental-israel, bar-bat-mitzvah-israel, or other high-intent guides (TBD by next i18n BUILD slot).
+- Current phase: **Phase 2 BATCH 5 DONE (iter 68, SHA 1a36d6d)**: border-crossings + car-rental-israel shipped in fr+de. Locale-correct cross-links: /fr|de/is-israel-safe, /fr|de/first-time-in-israel, /fr|de/visa-information, /fr|de/shabbat-guide all wired correctly. car-rental: 2 affiliate CTAs (discovercars + rentalcars) preserved in locale files; vehicle comparison table + extras translated; price RANGES only. fr 14/147, de 14/147 (home + plan-your-trip + 12 guides each). 170/170 tests pass; 192 pages built. Next batch: bar-bat-mitzvah-israel + hiking-in-israel + kosher-food-guide (TBD by next i18n BUILD slot, after iter69 REVIEW).
 - Phase 1c — DONE (iter 22): mobile-menu nav labels. Phase 1a/1b/leak — chrome. NOTE: /plan-your-trip + 404 body copy need /fr/ + /de/ ROUTE VARIANTS (static host serves one /404.html for all 404s; root .astro pages have no locale variant) → fold into Phase 2 as .astro page clones (same proven pattern as the fr/de home pages). Page-aware switcher still deferred until ≥1 content page exists per locale.
 - Phase 1a/1b — DONE (iters 15/17): Header + Footer chrome.
 - Phase 1a — DONE (iter 15, 83379f9): Header chrome.
 - Phase 0 — DONE (iter 12, 5b80c35); og:locale:alternate added iter14 (1dc48a5).
 - Shipped in Phase 0: astro i18n config; src/i18n/ui.ts (locales/t()/helpers/dict); BaseLayout <html lang> + og:locale + reciprocal hreflang via `alternates` prop; header language switcher (desktop+mobile); /fr/ + /de/ localized landing pages (Hero + rollout notice + regions grid + plan CTA); homeAlternates() reciprocity on en home; smoke hreflang test + /fr/ a11y. Live: /fr/ + /de/ 200, lang+4 hreflang verified in prod.
 - DEFERRED (later phases, not regressions): sitemap hreflang; page-aware language switcher (currently → locale home); translated header/footer nav strings (en pages unaffected; fr/de pages still show EN chrome); per-collection content translation.
-- fr pages shipped: 4 / ~147 (home + plan-your-trip + first-time-in-israel + visa-information) · de pages shipped: 4 / ~147 (same)
+- fr pages shipped: 14 / ~147 (home + plan-your-trip + 12 guides) · de pages shipped: 14 / ~147 (same)
 - Notes: language decision = fr+de (user, 2026-06-22). Arabic explicitly NOT chosen (avoids RTL +
   contested-naming load). Hebrew not requested (audience is foreign tourists; old bilingual he/en site
   is on backup branch if ever revived).
