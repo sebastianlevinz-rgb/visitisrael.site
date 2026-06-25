@@ -1304,6 +1304,50 @@ Next: iter 73 = BUILD (73%5==3) → category: tools.
   Top candidates: Safed (Tzfat) city travel guide (P2, S), Dead Sea practical guide (P2, S).
 - iter73 · Safed (Tzfat) Kabbalistic city travel guide (/safed-tzfat-guide) → 5cb3377 · P2 seo-content (tools/technical categories empty → fell through to seo-content); destination guide for Israel's highest city (900m) and 16th-century Kabbalistic capital; Ha'Ari/Abuhav/Caro synagogues, Artists' Quarter & candle-making, Old Cemetery kabbalist tombs, Shabbat atmosphere, Sukkot festival, getting there from Haifa (75min bus) / Tiberias (45min), half-day vs full-day planning; 6 FAQs; 3 affiliate CTAs (GYG Safed+Galilee day tours / Viator Upper Galilee Safed+Golan+Banias / Civitatis private guide); cross-links to /galilee + /jewish-heritage-israel + /bar-bat-mitzvah-israel + /day-trips-from-tel-aviv + /hiking-in-israel; footer Essentials wired; galilee.md day-trips section wired; smoke+a11y +1 each (178 total); 196 pages (+1). ALSO FIXED: playwright.config.ts — resolveCloudChromium() uses fs.existsSync() to find headless_shell-1194 binary; launchOptions.executablePath in project use block — resolves iter72 fix that didn't actually work (PW resolves headless shell by version tag at BROWSERS_PATH lookup time before global executablePath is applied). 178/178 tests pass. [seo-content P2 iter65 research]
 
+## 2026-06-25 · iter 75 · RESEARCH · Nazareth / Jerusalem dining / Haifa day trips / Caesarea / Druze Carmel / Israel apps gap scan (NO SHIP)
+Mode: RESEARCH (75%5==0). No code changed; gate not run.
+Startup: fresh cloud clone had local master diverged 50 commits behind origin/master; recovered via
+  git reset --hard origin/master. pnpm install clean. Playwright not needed (RESEARCH mode).
+Scope: Mined 6 fresh angles not covered in prior research iters (5/10/20/30/35/40/45/50/55/60/65/70).
+  Verified de-dup via: content/guides/ file listing (confirmed 4 Nazareth attraction pages + no destination guide;
+  4 Caesarea attraction pages + no guide; golan-druze-villages.md = Golan only); BACKLOG scan (none of 6 in backlog).
+  Research sources: TripAdvisor, Expedia, GetYourGuide, Viator, Tourist Israel, Bein Harim, Fodor's,
+    Time Out Israel, iTravelJerusalem, Trip.com, Hebrew Heartbeat (itsbaba.com), TravelingIsrael,
+    BackpackIsrael, TooManyAdapters, Compass Travel Israel, Gray Line Israel, JWeekly.
+6 net-new BACKLOG items added (all P2):
+  1. Nazareth city travel guide (P2, M) — 4 attraction pages + day-trip guide exist; no standalone
+     destination guide for "things to do Nazareth" + "Nazareth travel guide" queries. Nazareth = Israel's
+     largest Arab city + 3rd most-visited Christian destination. Basilica of Annunciation + Nazareth Village
+     living museum + Old City souq + knafeh pastry + Christmas festival angle.
+  2. Jerusalem food & restaurant guide (P2, M) — tel-aviv-food-guide.md on site; no Jerusalem equivalent.
+     Completely distinct food scene: Machneyuda market restaurants, Eucalyptus biblical menu, Muslim Quarter
+     hummus corridor (Abu Shukri, Azura), Yemenite food, Jerusalem mixed grill, Marzipan bakery rugelach.
+     Strong Shabbat-closure practical angle (closes earlier/more completely than TLV).
+  3. Day trips from Haifa guide (P2, M) — day-trips-from-jerusalem + day-trips-from-tel-aviv exist; no
+     Haifa equivalent despite Haifa being a major cruise port + northern rail hub. Covers: Akko (25 min train),
+     Rosh Hanikra (45 min), Caesarea (45 min south), Zichron Yaakov (wine country), Nazareth (45 min),
+     Beit She'arim (UNESCO necropolis), Megiddo. Cruise passenger angle = strong commercial intent.
+  4. Caesarea complete day trip guide (P2, S) — 4 attraction pages exist; no guide-format page (same pattern
+     as Akko iter72). Roman amphitheater (active concerts), Herodian harbor, Aqueduct Beach (photogenic),
+     Ralli Museum (free), port village. Israel National Parks Pass valid. Cross-link opportunity with day-trips-
+     from-haifa and future nazareth guide.
+  5. Israel travel apps guide (P2, S) — transportation/driving mention Moovit/Waze/Pango in passing; no
+     dedicated hub. Moovit (transit), Waze (navigation), Gett (taxi), Rav-Kav Online (transit card), Pango
+     (parking), Wolt (food), WhatsApp (local comms). High pre-trip research intent; creates sticky bookmarked
+     resource; no competitor owns this cleanly.
+  6. Druze experience on Mount Carmel guide (P2, S) — golan-druze-villages.md exists for GOLAN Druze;
+     CARMEL Druze (Daliyat el-Carmel, Isfiya — Haifa district) is separate, more accessible (40 min from
+     Haifa), not covered. Druze pita street food + market + Carmel National Park + El-Muhraka monastery.
+     Cultural respect rules prominent (do NOT photograph khalwat/religious figures).
+De-duped (not added): Rosh Hanikra standalone (better within day-trips-from-haifa guide); Jerusalem
+  neighbourhood quarter pages (better as attraction pages than standalone guides at this stage); Beit
+  She'arim/Megiddo standalone (better within Haifa day-trips guide context).
+Gate: N/A (RESEARCH mode).
+Ship: N/A (memory-only update; .loop/ files committed to master).
+Next: iter 76 = BUILD (76%5==1). nextRotationCategory = monetization.
+  Top candidates: Petra tours compared (S effort), Dead Sea practical guide (S effort, already research-backed),
+  Eilat city guide (M effort), Attraction ticket blocks (M effort).
+
 ## 2026-06-25 · iter 74 · REVIEW · audit of iters 70-73 shipped pages
 What: Full review of masada-tours-compared, galilee-tours-compared, akko-acre-guide, safed-tzfat-guide.
   Checked: all image paths (all verified present in /public/images/), internal link targets (all valid),

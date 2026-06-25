@@ -930,3 +930,117 @@ DE-DUPED (not added from iter 70 research):
     of a new page — low standalone SEO value for a payment card).
   - Beersheba as Negev gateway: thin standalone guide value vs negev region page + Bedouin guide
     (most content would duplicate). Reconsider in Phase 4 if region pages need specific city guides.
+
+### 2026-06-25 · iter 75 · Nazareth / Jerusalem dining / Haifa day trips / Caesarea / Druze Carmel / apps gap scan
+
+Searched: TripAdvisor, Expedia, GetYourGuide, Viator, Tourist Israel, Bein Harim, Fodor's, Time Out
+Israel, itraveljerusalem.com, Trip.com, Secret Jerusalem, Hebrew Heartbeat (itsbaba.com), TravelingIsrael,
+BackpackIsrael, TooManyAdapters, Compass Travel Israel, Gray Line Israel, Slava Guide.
+Verified on-site de-dup via guides/ listing + existing BACKLOG scan before adding.
+
+- **Nazareth city guide (P2 gap)** — TripAdvisor (15 Best Things to Do in Nazareth 2026), Expedia, GetYourGuide,
+  Viator, TravelSetu all rank for "things to do Nazareth Israel". We have 4 Nazareth attraction pages
+  (nazareth-basilica-of-the-annunciation, nazareth-marys-well, nazareth-mount-of-precipice, nazareth-old-city) +
+  nazareth-sea-of-galilee-day-trip.md, but NO standalone guide-format destination page capturing "Nazareth travel
+  guide" + "Nazareth itinerary" queries. Nazareth is Israel's largest Arab city (77k residents) and third most-visited
+  Christian destination after Jerusalem and Bethlehem. Competitors cover: Basilica of the Annunciation (UNESCO
+  candidate, largest church in Middle East), Nazareth Village living museum (1st-century period actors), Mary's
+  Well/Church of St Gabriel, Old City souq, White Mosque, Arab-Galilean food scene (knafeh pastry), Dec 24
+  Christmas festival (largest in Israel by attendance). Dense cross-link opportunity: galilee, christian-pilgrimage,
+  galilee-tours-compared, day-trips-from-tel-aviv, bar-bat-mitzvah-israel. → BACKLOG (P2, M).
+
+- **Jerusalem food & restaurant guide (P2 gap)** — Tourist Israel ("Best Restaurants in Jerusalem"),
+  iTravelJerusalem, TripAdvisor, Trip.com, Fodor's, Time Out Israel all have dedicated Jerusalem dining pages.
+  We have tel-aviv-food-guide.md but ZERO Jerusalem equivalent. Jerusalem has a completely distinct food scene
+  from TLV: Machane Yehuda market restaurants (Machneyuda/Yudale/Allegra — celebrity chefs, market stall ingredients,
+  open kitchen; by night the market alleys become cocktail bars); Eucalyptus (biblical-themed menu, kosher, near
+  Old City); Armenian Quarter (Quarter Cafe, olive oil + za'atar traditions); Muslim Quarter hummus corridor
+  (Abu Shukri, Azura — long-standing institutions for Israelis); Yemenite food (Beit El Yemenite kitchen, Mahane
+  Yehuda area); "Jerusalem mix" (grilled chicken offal mixed plate — local specialty, Mashawsha area).
+  Strong Shabbat-dynamic angle (Jerusalem restaurants close earlier and more completely than TLV — practical guide
+  for tourists).  Monetization: GYG Jerusalem food tour + Mahane Yehuda market cooking class CTAs. SEO:
+  "best restaurants Jerusalem Israel 2026", "where to eat Jerusalem guide", "Jerusalem food scene". → BACKLOG (P2, M).
+
+- **Day trips from Haifa (P2 gap)** — TripAdvisor (15 Best Day Trips from Haifa 2026), GetYourGuide,
+  Viator, Tourist Israel, Compass Travel Israel, Israel Tours 4U all have dedicated Haifa day-trip content.
+  We have day-trips-from-jerusalem.md and day-trips-from-tel-aviv.md but NO equivalent from Haifa.
+  Haifa is a cruise port and rail hub with excellent connections: Akko (25-30 min train — UNESCO Crusader city,
+  cross-link to akko-acre-guide); Rosh Hanikra (45 min north — white cliff grottoes, cable car, Lebanese border
+  viewpoint — Israel's most dramatic coastal scenery); Caesarea (45 min south — Roman amphitheater, ancient harbor,
+  aqueduct beach — cross-link to future caesarea guide); Zichron Yaakov (45 min south — Rothschild-era wine town,
+  Carmel Ridge wineries, Founders Museum); Nazareth (45 min east — Christian pilgrimage, food scene);
+  Beit She'arim (30 min east — UNESCO necropolis, ancient Jewish catacombs, Sanhedrin capital);
+  Megiddo/Armageddon (45 min — UNESCO Tel Megiddo, 26 civilization strata). Practical: Haifa rail hub makes most
+  destinations reachable without a car (Akko, Caesarea by rail + local bus, Zichron Yaakov via Binyamina station).
+  Strong audience: cruise passengers with 8-10h in port + Haifa city-hotel tourists.
+  Monetization: GYG/Viator "day trip from Haifa" tour CTAs. → BACKLOG (P2, M).
+
+- **Caesarea complete day trip guide (P2 gap)** — Expedia, GetYourGuide, Viator, TripAdvisor (15 Best
+  Things to Do in Caesarea 2026), Gray Line Israel, Slava Guide, Israel-taxi all rank for "Caesarea day trip"
+  and "things to do in Caesarea Israel". We have 4 attraction pages (caesarea-national-park.md, caesarea-
+  harbour.md, caesarea-aqueduct-beach.md, caesarea-ralli-museum.md) but NO guide-format page. Pattern
+  validated by Akko: region attraction pages + guide page serve different queries. Caesarea is one of Israel's
+  top-visited archaeological sites (Roman amphitheater still hosting international concerts, Herodian harbor,
+  Byzantine mosaics, Crusader fortification all in one park). Key distinctive: Ralli Museum (free admission —
+  sculpture park + Latin American art + Israeli modern art = unique in Middle East); Aqueduct Beach (intact
+  2km Roman aqueduct running to Mediterranean = one of Israel's most photogenic scenes; excellent swimming);
+  underwater dive sites (2 national park underwater reserves). Combined itinerary value: Caesarea + Haifa
+  Bahá'í Gardens = classic full-day (45 min between them); Caesarea + Akko = full northern coastal loop.
+  Israel National Parks Pass valid here (cross-link). Monetization: GYG/Viator Caesarea day tour CTAs.
+  → BACKLOG (P2, S).
+
+- **Israel travel apps guide (P2 gap)** — Hebrew Heartbeat (itsbaba.com — "15 Must-Have Apps for Traveling
+  or Living in Israel 2026"), TravelingIsrael, BackpackIsrael, TooManyAdapters, JWeekly, TripAdvisor forum
+  threads all mention apps but no single authoritative hub page exists. No competitor dominates this query
+  comprehensively. Key traveler apps not covered anywhere on site: Moovit (transit directions — works better
+  than Google Maps for Israeli buses/rail stops), Waze (navigation — Israel's native app, superior local
+  traffic data), Gett (primary taxi hailing app, covers Jerusalem + Haifa + TLV; Uber covers TLV only),
+  Rav-Kav app (load transit card without queuing; note: foreign credit cards sometimes problematic — keep
+  physical card backup), Pango (metered parking payment — essential for drivers in Israeli cities, avoids
+  parking fines), Wolt (food delivery across major cities), Ten Bis (restaurant discovery and vouchers,
+  popular with locals), Lime (scooters/e-bikes in TLV and Jerusalem). Practical format: grouped by use-case
+  (transport / food / parking / language). High practical value, "sticky" content in trip-planning phase,
+  dense cross-links to transportation.md, driving-in-israel.md, tel-aviv-food-guide.md, restaurant-finder.
+  Monetization: low direct but strong internal discovery engine. → BACKLOG (P2, S).
+
+- **Druze experience on Mount Carmel / Daliyat el-Carmel guide (P2 gap)** — Tourist Israel ("Druze
+  Hospitality"), Fodor's ("Daliyat el Carmel and Isfiya Travel Guide"), EL AL Israel Airlines (Druze
+  culture feature), Bein Harim (Druze village visits), Giltravel (Carmel Druze + Haifa combo), Shalom
+  Israel Tours, TripAdvisor (Druze village day trip from Haifa) all rank for "Druze villages Israel",
+  "Daliyat el-Carmel visit", "Druze experience Israel". NOTE: golan-druze-villages.md EXISTS as an
+  attraction page covering GOLAN Druze (Majdal Shams/Masade — Golan Heights only). THE GAP is the
+  CARMEL DRUZE — Daliyat el-Carmel and Isfiya, on Mount Carmel 40 min south of Haifa — which are (1)
+  Israel's primary mass-market Druze day-trip destination, (2) much more accessible (30-45 min from Haifa
+  by shared taxi; rental car not required), (3) the Druze experience most tourists actually have. Carmel
+  Druze content: Daliyat el-Carmel main market street (Druze flat pita stuffed with cheese = must-eat street
+  food; spice merchants + hand-embroidery + honey + olive oil vendors; antiques + Judaica stalls; Saturday
+  = busiest day); Druze Heritage Museum; Isfiya (neighboring village, quieter, overlooks Haifa Bay from
+  Carmel ridge); Carmel National Park adjacency (8,000-hectare forest, panoramic views, Israel's largest
+  forest park); El-Muhraka Carmelite Monastery on the ridge (Crusader-era, site of Elijah's contest with
+  Ba'al prophets — powerful panoramic viewpoint, low tourist traffic). Cultural context: Druze = distinct
+  religious-ethnic minority (split from Ismaili Islam 11th century, secret religion not shared with
+  outsiders); Druze men serve in IDF (unlike Arab citizens); genuine Israel coexistence story; do NOT
+  photograph khalwat (sacred meeting houses) or religious figures — must be stated clearly. Good natural
+  pairing: Haifa AM (Bahá'í Gardens + German Colony) → Carmel Druze PM = complete Haifa-area day.
+  Monetization: GYG/Viator "Haifa + Carmel + Druze" combo day tour CTA + Booking.com Haifa hotels.
+  → BACKLOG (P2, S).
+
+DE-DUPED (not added from iter 75 research):
+  - Rosh Hanikra standalone guide: exists as a standard attraction card in haifa.md region hub and
+    day-trips-from-tel-aviv.md; low search volume for dedicated standalone page vs. being included in the
+    planned day-trips-from-haifa guide (much more natural context).
+  - Jerusalem neighbourhood guides: partially covered by the planned Nazareth guide + Jewish heritage guide
+    + bar-bat-mitzvah guide; quarter-specific pages (Armenian/Christian Quarter) are better as attraction
+    pages than standalone guides given thin standalone search volume.
+  - Beit She'arim / Megiddo standalone: better as content within day-trips-from-haifa guide than separate
+    pages at this stage; UNESCO sites with lower standalone guide search volume than Caesarea/Nazareth.
+
+CAUTION (iter 75): Nazareth SERPs note the Basilica of the Annunciation has ongoing renovation phases —
+  always frame as "check which sections are accessible before visiting"; construction status changes.
+  Jerusalem dining SERPs: restaurants change rapidly — no specific prices; frame as "typically popular"
+  with caveat to verify current status; Machneyuda is a consistently high-cited landmark but verify
+  operating days. Druze Carmel: respectful photography rules must be stated prominently;
+  Druze religion is secret/closed to outsiders — do not describe beliefs beyond what Druze community
+  itself presents publicly. Israel apps: Rav-Kav app foreign card issues are real but may be resolved
+  by time of publication — frame as "some international travelers have reported issues; keep physical
+  card as backup". Apps change and discontinue — "verify availability on App Store/Google Play."
