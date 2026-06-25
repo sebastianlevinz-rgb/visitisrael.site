@@ -63,6 +63,8 @@ const ROUTES = [
   '/israel-adventure-sports',
   '/ben-gurion-airport-guide',
   '/israel-restaurant-finder',
+  '/israel-travel-insurance',
+  '/car-rental-israel',
   '/search',
   '/404',
 ];
