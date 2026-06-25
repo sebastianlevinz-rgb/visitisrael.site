@@ -75,6 +75,7 @@ const ROUTES = [
   '/water-hiking-israel',
   '/akko-acre-guide',
   '/safed-tzfat-guide',
+  '/nazareth-travel-guide',
   '/search',
   '/404',
 ];

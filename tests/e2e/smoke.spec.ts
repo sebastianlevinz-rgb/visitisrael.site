@@ -54,6 +54,7 @@ const ROUTES = [
   '/water-hiking-israel',
   '/akko-acre-guide',
   '/safed-tzfat-guide',
+  '/nazareth-travel-guide',
   '/fr/first-time-in-israel',
   '/fr/visa-information',
   '/fr/best-time-to-visit-israel',
