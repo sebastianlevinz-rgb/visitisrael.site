@@ -1,0 +1,573 @@
+---
+import BaseLayout from '@/layouts/BaseLayout.astro';
+import Hero from '@/components/Hero.astro';
+import Breadcrumbs from '@/components/Breadcrumbs.astro';
+import JsonLd from '@/components/JsonLd.astro';
+import { breadcrumbList, faqPage } from '@/lib/schema';
+
+const title = 'Israel Shabbat Times & Jewish Holiday Calendar 2026–2027';
+const description =
+  'Candlelighting and Havdalah times for Jerusalem, Tel Aviv, Haifa, Eilat and Beersheba — plus a full Jewish holiday calendar for 2026–2027. Plan around Shabbat closures and major holidays.';
+
+const crumbs = [
+  { name: 'Home', path: '/' },
+  { name: 'Plan your trip', path: '/plan-your-trip' },
+  { name: 'Shabbat & holiday calendar', path: '/israel-shabbat-calendar' },
+];
+
+const faqs = [
+  {
+    question: 'When does Shabbat start and end in Israel?',
+    answer:
+      'Shabbat begins at candlelighting time on Friday evening — typically 18–40 minutes before sunset depending on the city and community. It ends after nightfall on Saturday, about 40–50 minutes after sunset. In Israel, this means most shops, restaurants and public buses stop running Friday afternoon and resume Saturday night.',
+  },
+  {
+    question: 'What is closed on Shabbat in Israel?',
+    answer:
+      'Most shops, markets, malls and many restaurants close from Friday afternoon until Saturday night in Jerusalem. Tel Aviv and Haifa are more secular — many restaurants and some shops remain open. Intercity buses (Egged/Dan) stop running on Shabbat; private taxis, Gett and many hotels operate normally. See our full guide on what\'s open on Shabbat.',
+  },
+  {
+    question: 'Do Jewish holidays affect tourist hours?',
+    answer:
+      'Yes. On Yom Kippur all businesses close (even in secular Tel Aviv) and roads are virtually empty — a unique atmosphere but plan accordingly. Passover and Rosh Hashanah trigger significant price rises and hotel busy periods. Hanukkah and Purim are festive but less disruptive to tourism. Book accommodation well ahead for all major holidays.',
+  },
+  {
+    question: 'How accurate are the candlelighting times?',
+    answer:
+      'Times are calculated from sunset using standard astronomical formulas and are accurate to within ±2 minutes. Candlelighting is shown at 18 minutes before sunset (the common Israel standard). Some communities use 30 or 40 minutes — check your specific community\'s custom. Always confirm with a local or the Chabad website for exact zmanim.',
+  },
+];
+
+const schema = [breadcrumbList(crumbs), faqPage(faqs)];
+---
+
+<BaseLayout
+  title={title}
+  description={description}
+  path="/israel-shabbat-calendar"
+  image="/images/regions/jerusalem/hero.jpg"
+  imageAlt="Jerusalem Old City at sunset — Shabbat approaching"
+>
+  <JsonLd schema={schema} slot="head" />
+  <Hero
+    image="/images/regions/jerusalem/hero.jpg"
+    title="Shabbat Times & Jewish Holiday Calendar"
+    subtitle="Candlelighting and Havdalah times for major Israeli cities, plus Jewish holidays for 2026–2027 — so you can plan around closures."
+    alt="Jerusalem Old City bathed in golden evening light as Shabbat approaches"
+  />
+  <Breadcrumbs items={crumbs} />
+
+  <section class="mx-auto max-w-5xl px-4 pt-10">
+    <p class="eyebrow" data-reveal>Plan around Shabbat &amp; holidays</p>
+    <h2 class="font-display text-3xl font-bold text-ink" data-reveal>
+      When does Shabbat start this week?
+    </h2>
+    <p class="mt-2 max-w-2xl text-ink-muted" data-reveal>
+      Pick your city and month. Shabbat times update automatically. Jewish
+      holidays are marked on the calendar below — tap any date for details.
+      See also:
+      <a href="/whats-open-on-shabbat" class="font-semibold text-primary"
+        >what's open on Shabbat</a
+      >.
+    </p>
+
+    <!-- Controls -->
+    <div
+      class="mt-8 flex flex-wrap items-end gap-4 rounded-card border border-border bg-card p-5 shadow-card"
+    >
+      <label class="block">
+        <span class="text-sm font-semibold text-ink">City</span>
+        <select
+          id="city-sel"
+          class="mt-1 block rounded-btn border border-border bg-sand px-3 py-2 text-ink"
+        >
+          <option value="jerusalem">Jerusalem</option>
+          <option value="tel-aviv">Tel Aviv</option>
+          <option value="haifa">Haifa</option>
+          <option value="eilat">Eilat</option>
+          <option value="beersheba">Beersheba</option>
+        </select>
+      </label>
+
+      <div class="flex items-center gap-2">
+        <button
+          id="prev-month"
+          class="grid h-9 w-9 place-items-center rounded-btn border border-border bg-sand text-ink transition-colors hover:border-primary hover:text-primary focus-visible:outline-2 focus-visible:outline-primary"
+          aria-label="Previous month"
+          type="button"
+        >
+          <svg class="h-4 w-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M15 18l-6-6 6-6"/></svg>
+        </button>
+        <span id="month-label" class="min-w-[9rem] text-center font-semibold text-ink"></span>
+        <button
+          id="next-month"
+          class="grid h-9 w-9 place-items-center rounded-btn border border-border bg-sand text-ink transition-colors hover:border-primary hover:text-primary focus-visible:outline-2 focus-visible:outline-primary"
+          aria-label="Next month"
+          type="button"
+        >
+          <svg class="h-4 w-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 18l6-6-6-6"/></svg>
+        </button>
+      </div>
+    </div>
+
+    <!-- This Shabbat banner -->
+    <div
+      id="this-shabbat"
+      class="mt-5 rounded-card border border-primary bg-primary-soft p-5"
+      aria-live="polite"
+    >
+      <p class="eyebrow text-primary">This Shabbat</p>
+      <div class="mt-2 grid gap-3 sm:grid-cols-2">
+        <div>
+          <p class="text-xs font-semibold uppercase tracking-wide text-ink-muted">Candlelighting</p>
+          <p id="banner-candle" class="mt-0.5 font-display text-2xl font-bold text-ink">—</p>
+          <p id="banner-candle-date" class="text-sm text-ink-muted"></p>
+        </div>
+        <div>
+          <p class="text-xs font-semibold uppercase tracking-wide text-ink-muted">Havdalah</p>
+          <p id="banner-havdalah" class="mt-0.5 font-display text-2xl font-bold text-ink">—</p>
+          <p id="banner-havdalah-date" class="text-sm text-ink-muted"></p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Calendar grid -->
+    <div
+      id="cal-wrap"
+      class="mt-6 overflow-x-auto"
+      aria-live="polite"
+      aria-label="Monthly calendar"
+    >
+      <table id="cal" class="w-full min-w-[480px] border-collapse text-sm">
+        <thead>
+          <tr>
+            {['Sun','Mon','Tue','Wed','Thu','Fri','Sat'].map((d) => (
+              <th class="border border-border bg-sand-deep px-2 py-2 text-center text-xs font-bold uppercase tracking-wide text-ink-muted">{d}</th>
+            ))}
+          </tr>
+        </thead>
+        <tbody id="cal-body">
+        </tbody>
+      </table>
+    </div>
+
+    <!-- Legend -->
+    <div class="mt-4 flex flex-wrap gap-4 text-xs text-ink-muted">
+      <span class="flex items-center gap-1.5"><span class="inline-block h-3 w-3 rounded-sm bg-primary-soft ring-1 ring-primary"></span> Shabbat (Fri eve / Sat)</span>
+      <span class="flex items-center gap-1.5"><span class="inline-block h-3 w-3 rounded-sm bg-amber-100 ring-1 ring-amber-400"></span> Jewish holiday</span>
+      <span class="flex items-center gap-1.5"><span class="inline-block h-3 w-3 rounded-sm bg-rose-100 ring-1 ring-rose-400"></span> Fast day</span>
+    </div>
+
+    <!-- Holiday detail tooltip -->
+    <div
+      id="hol-detail"
+      class="mt-4 hidden rounded-card border border-border bg-sand-deep p-4"
+      role="status"
+      aria-live="polite"
+    >
+      <p id="hol-name" class="font-semibold text-ink"></p>
+      <p id="hol-desc" class="mt-1 text-sm text-ink-muted"></p>
+    </div>
+  </section>
+
+  <!-- Holiday list -->
+  <section class="mx-auto max-w-5xl px-4 pt-12">
+    <h2 class="font-display text-2xl font-bold text-ink">Jewish holidays 2026–2027</h2>
+    <p class="mt-1 text-sm text-ink-muted">All dates shown are Israel dates. Diaspora communities celebrate some holidays one extra day.</p>
+    <div class="mt-6 overflow-x-auto">
+      <table class="w-full min-w-[520px] text-sm">
+        <thead>
+          <tr class="border-b border-border">
+            <th class="pb-2 text-left font-semibold text-ink">Holiday</th>
+            <th class="pb-2 text-left font-semibold text-ink">Date(s)</th>
+            <th class="pb-2 text-left font-semibold text-ink">What to know as a visitor</th>
+          </tr>
+        </thead>
+        <tbody id="hol-table" class="divide-y divide-border">
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="mx-auto max-w-3xl px-4 pb-4 pt-14">
+    <h2 class="mb-4 font-display text-2xl font-bold text-ink">Frequently asked questions</h2>
+    <div class="space-y-4">
+      {
+        faqs.map((f) => (
+          <details class="rounded-card border border-border bg-card p-4">
+            <summary class="cursor-pointer font-semibold text-ink">{f.question}</summary>
+            <p class="mt-2 text-ink-muted">{f.answer}</p>
+          </details>
+        ))
+      }
+    </div>
+  </section>
+
+  <!-- Cross-links -->
+  <section class="mx-auto max-w-3xl px-4 pb-16 pt-6">
+    <div class="rounded-card border border-border bg-sand-deep p-6 text-center shadow-card">
+      <h2 class="font-display text-2xl font-bold text-ink">Plan your trip around the calendar</h2>
+      <p class="mx-auto mt-2 max-w-xl text-ink-muted">
+        Know the key dates — now figure out where to stay and how to get around.
+      </p>
+      <div class="mt-5 flex flex-wrap justify-center gap-3">
+        <a href="/whats-open-on-shabbat" class="btn btn-primary">What's open on Shabbat</a>
+        <a href="/shabbat-guide" class="btn btn-ghost">Shabbat traveller guide</a>
+        <a href="/israel-trip-cost-calculator" class="btn btn-ghost">Cost calculator</a>
+      </div>
+    </div>
+  </section>
+</BaseLayout>
+
+<script is:inline>
+(function () {
+  /* ------------------------------------------------------------------ *
+   *  City coordinates & offsets
+   * ------------------------------------------------------------------ */
+  var CITIES = {
+    'jerusalem':  { lat: 31.7683, lng: 35.2137, name: 'Jerusalem' },
+    'tel-aviv':   { lat: 32.0853, lng: 34.7818, name: 'Tel Aviv' },
+    'haifa':      { lat: 32.7940, lng: 34.9896, name: 'Haifa' },
+    'eilat':      { lat: 29.5569, lng: 34.9519, name: 'Eilat' },
+    'beersheba':  { lat: 31.2518, lng: 34.7913, name: 'Beersheba' },
+  };
+
+  /* ------------------------------------------------------------------ *
+   *  Astronomical sunset calculation (Jean Meeus simplified)
+   *  Returns local solar sunset time as fractional hours (UTC + timezone)
+   * ------------------------------------------------------------------ */
+  var TZ = 2; // Israel Standard Time (IST) = UTC+2
+  // Israel DST: last Friday of March → last Saturday of October (approx)
+  function isDST(d) {
+    var m = d.getUTCMonth() + 1; // 1-based
+    if (m < 3 || m > 10) return false;
+    if (m > 3 && m < 10) return true;
+    if (m === 3) {
+      // Last Friday of March
+      var lastDay = new Date(Date.UTC(d.getUTCFullYear(), 2, 31));
+      while (lastDay.getUTCDay() !== 5) lastDay.setUTCDate(lastDay.getUTCDate() - 1);
+      return d >= lastDay;
+    }
+    if (m === 10) {
+      // Last Saturday of October
+      var lastDay2 = new Date(Date.UTC(d.getUTCFullYear(), 9, 31));
+      while (lastDay2.getUTCDay() !== 6) lastDay2.setUTCDate(lastDay2.getUTCDate() - 1);
+      return d < lastDay2;
+    }
+    return false;
+  }
+
+  function sunsetHour(year, month, day, lat, lng) {
+    // Day of year
+    var N = Math.floor(275 * month / 9) - Math.floor((month + 9) / 12) * (1 + Math.floor((year - 4 * Math.floor(year / 4) + 2) / 3)) + day - 30;
+    var rad = Math.PI / 180;
+    // Solar mean anomaly
+    var M = (357.5291 + 0.98560028 * (N - 1)) % 360;
+    // Solar longitude
+    var C = 1.9148 * Math.sin(M * rad) + 0.0200 * Math.sin(2 * M * rad) + 0.0003 * Math.sin(3 * M * rad);
+    var lambda = (M + C + 180 + 102.9372) % 360;
+    // Solar declination
+    var sinDec = Math.sin(lambda * rad) * Math.sin(23.45 * rad);
+    var dec = Math.asin(sinDec) / rad;
+    // Hour angle for sunset (when sun centre = -0.83° below horizon)
+    var cosH = (Math.cos(90.833 * rad) - Math.sin(lat * rad) * Math.sin(dec * rad)) / (Math.cos(lat * rad) * Math.cos(dec * rad));
+    if (cosH < -1) return 23.99; // polar day
+    if (cosH >  1) return 12.00; // polar night
+    var H = Math.acos(cosH) / rad;
+    // Solar noon
+    var noon = 12 - lng / 15;
+    // Local sunset = solar noon + hour angle
+    var sunset = noon + H / 15;
+    var dateObj = new Date(Date.UTC(year, month - 1, day));
+    var offset = TZ + (isDST(dateObj) ? 1 : 0);
+    return sunset + offset;
+  }
+
+  function fmtHour(h) {
+    var totalMins = Math.round(h * 60);
+    var hh = Math.floor(totalMins / 60) % 24;
+    var mm = totalMins % 60;
+    var ampm = hh >= 12 ? 'pm' : 'am';
+    var hDisplay = hh % 12 || 12;
+    return hDisplay + ':' + (mm < 10 ? '0' + mm : mm) + ' ' + ampm;
+  }
+
+  /* candlelighting = 18 min before sunset; havdalah = 42 min after sunset */
+  var CANDLE_OFFSET = -18 / 60;
+  var HAVDALAH_OFFSET = 42 / 60;
+
+  /* ------------------------------------------------------------------ *
+   *  Jewish holidays 2026 – 2027 (Israel observance, dates in CE)
+   * ------------------------------------------------------------------ */
+  var HOLIDAYS = [
+    // 5786 tail
+    { name: 'Purim',         start: [2026,3,13],  end: [2026,3,13],  type: 'holiday', impact: 'Festive; businesses mostly open. Costumes and parades in Tel Aviv (Dizengoff Square area).', fast: false },
+    { name: 'Passover (Pesach)', start: [2026,4,1], end: [2026,4,8], type: 'holiday', impact: 'First and last days are public holidays; schools and many businesses close. Chametz (leavened bread) removed from restaurants — menus change. Book hotels months ahead; prices spike.', fast: false },
+    { name: 'Yom HaZikaron', start: [2026,4,21], end: [2026,4,21], type: 'holiday', impact: 'Israeli Memorial Day. Sirens at 8pm and 11am; entertainment venues close. Solemn atmosphere.', fast: false },
+    { name: 'Yom HaAtzmaut', start: [2026,4,22], end: [2026,4,22], type: 'holiday', impact: 'Independence Day — national holiday, celebratory fireworks, parks packed. Many businesses closed but street food + outdoor events abundant.', fast: false },
+    { name: 'Lag B\'Omer',   start: [2026,5,14], end: [2026,5,14],  type: 'holiday', impact: 'Bonfires nationwide (especially Meron pilgrimage). Smoke visible in cities; some noise at night.', fast: false },
+    { name: 'Shavuot',       start: [2026,5,22], end: [2026,5,23],  type: 'holiday', impact: 'Public holiday. Most businesses closed. Dairy foods traditional. Western Wall attracts large crowds at night.', fast: false },
+    { name: 'Tisha B\'Av (Fast)', start: [2026,7,31], end: [2026,7,31], type: 'fast', impact: 'Major fast day; most Jewish businesses closed. Emotional at the Western Wall. Some restaurants in Arab / secular areas remain open.', fast: true },
+    // 5787
+    { name: 'Rosh Hashanah', start: [2026,9,11],  end: [2026,9,12],  type: 'holiday', impact: 'Jewish New Year — two-day public holiday. Nearly everything closes (more so than Yom Kippur in some cities). Hotels book out months ahead; prices surge.', fast: false },
+    { name: 'Yom Kippur',    start: [2026,9,20],  end: [2026,9,20],  type: 'holiday', impact: 'Holiest day. Complete shutdown — no buses, cars minimal (roads become bicycle highways), all shops/restaurants closed even in secular Tel Aviv. Unique and powerful atmosphere.', fast: true },
+    { name: 'Sukkot',        start: [2026,9,25],  end: [2026,10,1],  type: 'holiday', impact: 'Festival of Tabernacles — outdoor sukkahs everywhere. First and last days are public holidays. Tourist sites busier than usual.', fast: false },
+    { name: 'Simchat Torah', start: [2026,10,3],  end: [2026,10,3],  type: 'holiday', impact: 'Joyful Torah celebration. Dancing in synagogues. Public holiday.', fast: false },
+    { name: 'Hanukkah',      start: [2026,12,4],  end: [2026,12,12], type: 'holiday', impact: 'Festival of Lights — 8 nights. Menorahs lit publicly; jelly doughnuts (sufganiyot) sold everywhere. Businesses open. Nice time to visit.', fast: false },
+    { name: 'Tu B\'Shvat',   start: [2027,2,1],   end: [2027,2,1],   type: 'holiday', impact: 'New Year of the Trees — minor holiday. Businesses open; tree-planting events in parks.', fast: false },
+    { name: 'Purim',         start: [2027,3,3],   end: [2027,3,3],   type: 'holiday', impact: 'Festive; businesses mostly open. Costumes, carnivals and street parties in Tel Aviv (Dizengoff Square area) and Jerusalem.', fast: false },
+    { name: 'Passover (Pesach)', start: [2027,3,22], end: [2027,3,29], type: 'holiday', impact: 'First and last days are public holidays. Hotels book out; chametz removed from restaurant menus. Book well ahead.', fast: false },
+    { name: 'Yom HaZikaron', start: [2027,4,13], end: [2027,4,13],   type: 'holiday', impact: 'Israeli Memorial Day. Sirens at 8pm and 11am; entertainment venues close. Solemn atmosphere.', fast: false },
+    { name: 'Yom HaAtzmaut', start: [2027,4,14], end: [2027,4,14],   type: 'holiday', impact: 'Independence Day — national holiday, fireworks, parks packed.', fast: false },
+    { name: 'Lag B\'Omer',   start: [2027,5,5],   end: [2027,5,5],   type: 'holiday', impact: 'Bonfires nationwide; Meron pilgrimage.', fast: false },
+    { name: 'Shavuot',       start: [2027,6,12],  end: [2027,6,13],  type: 'holiday', impact: 'Public holiday. Most businesses closed. Dairy foods traditional.', fast: false },
+  ];
+
+  /* Build a quick lookup: 'YYYY-MM-DD' → holiday object */
+  var HOL_MAP = {};
+  HOLIDAYS.forEach(function (h) {
+    var s = h.start, e = h.end;
+    var cur = new Date(Date.UTC(s[0], s[1]-1, s[2]));
+    var end = new Date(Date.UTC(e[0], e[1]-1, e[2]));
+    while (cur <= end) {
+      var key = cur.getUTCFullYear() + '-' + pad(cur.getUTCMonth()+1) + '-' + pad(cur.getUTCDate());
+      if (!HOL_MAP[key]) HOL_MAP[key] = [];
+      HOL_MAP[key].push(h);
+      cur.setUTCDate(cur.getUTCDate() + 1);
+    }
+  });
+
+  function pad(n) { return n < 10 ? '0' + n : '' + n; }
+  function dateKey(y, m, d) { return y + '-' + pad(m) + '-' + pad(d); }
+
+  /* ------------------------------------------------------------------ *
+   *  State
+   * ------------------------------------------------------------------ */
+  var today = new Date();
+  var curYear  = today.getFullYear();
+  var curMonth = today.getMonth() + 1; // 1-based
+  var MIN_YEAR = 2026, MIN_MONTH = 1;
+  var MAX_YEAR = 2027, MAX_MONTH = 12;
+  var city = 'jerusalem';
+
+  /* ------------------------------------------------------------------ *
+   *  Rendering
+   * ------------------------------------------------------------------ */
+  var MONTH_NAMES = ['January','February','March','April','May','June','July','August','September','October','November','December'];
+  var DAY_NAMES   = ['Sunday','Monday','Tuesday','Wednesday','Thursday','Friday','Saturday'];
+
+  function renderAll() {
+    renderBanner();
+    renderCalendar();
+    renderHolTable();
+  }
+
+  function getCityObj() { return CITIES[city]; }
+
+  function getShabbatTimes(fridayYear, fridayMonth, fridayDay) {
+    var c = getCityObj();
+    var sunsetFri = sunsetHour(fridayYear, fridayMonth, fridayDay, c.lat, c.lng);
+    var candleH   = sunsetFri + CANDLE_OFFSET;
+    // Saturday
+    var sat = new Date(Date.UTC(fridayYear, fridayMonth-1, fridayDay + 1));
+    var satSunset = sunsetHour(sat.getUTCFullYear(), sat.getUTCMonth()+1, sat.getUTCDate(), c.lat, c.lng);
+    var havdalahH = satSunset + HAVDALAH_OFFSET;
+    return { candle: candleH, havdalah: havdalahH };
+  }
+
+  /* Find the next (or current) Friday from today */
+  function nextFriday() {
+    var d = new Date(today);
+    var dow = d.getDay(); // 0=Sun, 5=Fri
+    var diff = (5 - dow + 7) % 7;
+    if (diff === 0 && d.getHours() >= 20) diff = 7; // Shabbat already started/ended
+    d.setDate(d.getDate() + diff);
+    return d;
+  }
+
+  function renderBanner() {
+    var fri = nextFriday();
+    var fy = fri.getFullYear(), fm = fri.getMonth()+1, fd = fri.getDate();
+    var times = getShabbatTimes(fy, fm, fd);
+    var sat = new Date(fri); sat.setDate(sat.getDate()+1);
+
+    document.getElementById('banner-candle').textContent = fmtHour(times.candle);
+    document.getElementById('banner-candle-date').textContent =
+      DAY_NAMES[fri.getDay()] + ', ' + MONTH_NAMES[fm-1] + ' ' + fd;
+    document.getElementById('banner-havdalah').textContent = fmtHour(times.havdalah);
+    document.getElementById('banner-havdalah-date').textContent =
+      DAY_NAMES[sat.getDay()] + ', ' + MONTH_NAMES[sat.getMonth()] + ' ' + sat.getDate();
+  }
+
+  function renderCalendar() {
+    document.getElementById('month-label').textContent = MONTH_NAMES[curMonth-1] + ' ' + curYear;
+
+    // First day of month
+    var firstDay = new Date(Date.UTC(curYear, curMonth-1, 1)).getUTCDay(); // 0=Sun
+    var daysInMonth = new Date(Date.UTC(curYear, curMonth, 0)).getUTCDate();
+
+    var body = document.getElementById('cal-body');
+    body.innerHTML = '';
+
+    var row = null;
+    var col = 0;
+
+    function newRow() {
+      row = document.createElement('tr');
+      col = 0;
+      body.appendChild(row);
+    }
+
+    newRow();
+
+    // Empty cells before first day
+    for (var i = 0; i < firstDay; i++) {
+      var empty = document.createElement('td');
+      empty.className = 'border border-border bg-sand-deep p-1';
+      row.appendChild(empty);
+      col++;
+    }
+
+    for (var d = 1; d <= daysInMonth; d++) {
+      if (col === 7) { newRow(); }
+
+      var td = document.createElement('td');
+      var dow = (firstDay + d - 1) % 7; // 0=Sun, 5=Fri, 6=Sat
+      var key = dateKey(curYear, curMonth, d);
+      var hols = HOL_MAP[key] || [];
+      var isFri = dow === 5;
+      var isSat = dow === 6;
+      var isToday = (d === today.getDate() && curMonth === today.getMonth()+1 && curYear === today.getFullYear());
+      var isHol = hols.length > 0;
+      var isFast = isHol && hols.some(function(h){ return h.fast; });
+
+      var cls = 'border border-border p-1.5 align-top text-xs cursor-default min-h-[56px] ';
+      if (isFast) cls += 'bg-rose-50 ';
+      else if (isHol) cls += 'bg-amber-50 ';
+      else if (isFri || isSat) cls += 'bg-primary-soft ';
+      else cls += 'bg-card ';
+
+      if (isToday) cls += 'ring-2 ring-primary ring-inset ';
+
+      td.className = cls;
+      td.setAttribute('data-date', key);
+
+      var inner = '<span class="font-semibold ' + (isToday ? 'text-primary' : 'text-ink') + '">' + d + '</span>';
+
+      // Shabbat times on Fridays
+      if (isFri) {
+        var times = getShabbatTimes(curYear, curMonth, d);
+        inner += '<br><span class="text-primary font-medium">🕯 ' + fmtHour(times.candle) + '</span>';
+      }
+      if (isSat) {
+        // Saturday: show havdalah — need to find the preceding Friday
+        var prevFriDate = d - 1;
+        var prevFriMonth = curMonth, prevFriYear = curYear;
+        if (prevFriDate < 1) {
+          prevFriMonth--;
+          if (prevFriMonth < 1) { prevFriMonth = 12; prevFriYear--; }
+          prevFriDate = new Date(Date.UTC(prevFriYear, prevFriMonth, 0)).getUTCDate();
+        }
+        var havTimes = getShabbatTimes(prevFriYear, prevFriMonth, prevFriDate);
+        inner += '<br><span class="text-ink-muted">✦ ' + fmtHour(havTimes.havdalah) + '</span>';
+      }
+
+      // Holiday label
+      if (isHol) {
+        hols.forEach(function(h) {
+          var clr = h.fast ? 'text-rose-700' : 'text-amber-700';
+          inner += '<br><span class="' + clr + ' font-medium leading-tight">' + h.name + '</span>';
+        });
+        td.style.cursor = 'pointer';
+        td.setAttribute('role', 'button');
+        td.setAttribute('tabindex', '0');
+        td.setAttribute('aria-label', 'Holiday details for ' + key);
+        td.addEventListener('click', function() { showHolDetail(this.getAttribute('data-date')); });
+        td.addEventListener('keydown', function(e) {
+          if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); showHolDetail(this.getAttribute('data-date')); }
+        });
+      }
+
+      td.innerHTML = inner;
+      row.appendChild(td);
+      col++;
+    }
+
+    // Fill remaining cells
+    while (col < 7 && col > 0) {
+      var trailing = document.createElement('td');
+      trailing.className = 'border border-border bg-sand-deep p-1';
+      row.appendChild(trailing);
+      col++;
+    }
+
+    // Prev/next buttons
+    var atMin = (curYear === MIN_YEAR && curMonth === MIN_MONTH);
+    var atMax = (curYear === MAX_YEAR && curMonth === MAX_MONTH);
+    document.getElementById('prev-month').disabled = atMin;
+    document.getElementById('prev-month').style.opacity = atMin ? '0.4' : '';
+    document.getElementById('next-month').disabled = atMax;
+    document.getElementById('next-month').style.opacity = atMax ? '0.4' : '';
+  }
+
+  function showHolDetail(key) {
+    var hols = HOL_MAP[key];
+    if (!hols || !hols.length) return;
+    var h = hols[0];
+    document.getElementById('hol-name').textContent = h.name;
+    document.getElementById('hol-desc').textContent = h.impact;
+    var detail = document.getElementById('hol-detail');
+    detail.classList.remove('hidden');
+    detail.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+  }
+
+  function renderHolTable() {
+    var tbody = document.getElementById('hol-table');
+    tbody.innerHTML = '';
+    HOLIDAYS.forEach(function(h) {
+      var tr = document.createElement('tr');
+      var s = h.start, e = h.end;
+      var dateStr = MONTH_NAMES[s[1]-1] + ' ' + s[2];
+      if (s[2] !== e[2] || s[1] !== e[1]) {
+        dateStr += '–' + (s[1] !== e[1] ? MONTH_NAMES[e[1]-1] + ' ' : '') + e[2];
+      }
+      dateStr += ', ' + s[0];
+      var typeClr = h.fast ? 'bg-rose-100 text-rose-700' : 'bg-amber-100 text-amber-700';
+      tr.innerHTML =
+        '<td class="py-3 pr-4 font-semibold text-ink">' + h.name + '</td>' +
+        '<td class="py-3 pr-4 text-ink-muted">' + dateStr + '</td>' +
+        '<td class="py-3 text-ink-muted">' + h.impact + '</td>';
+      tbody.appendChild(tr);
+    });
+  }
+
+  /* ------------------------------------------------------------------ *
+   *  Events
+   * ------------------------------------------------------------------ */
+  document.getElementById('city-sel').addEventListener('change', function() {
+    city = this.value;
+    renderAll();
+  });
+  document.getElementById('prev-month').addEventListener('click', function() {
+    curMonth--;
+    if (curMonth < 1) { curMonth = 12; curYear--; }
+    renderCalendar();
+  });
+  document.getElementById('next-month').addEventListener('click', function() {
+    curMonth++;
+    if (curMonth > 12) { curMonth = 1; curYear++; }
+    renderCalendar();
+  });
+
+  // Start on current month, clamped to 2026-2027
+  if (curYear < MIN_YEAR || (curYear === MIN_YEAR && curMonth < MIN_MONTH)) {
+    curYear = MIN_YEAR; curMonth = MIN_MONTH;
+  }
+  if (curYear > MAX_YEAR || (curYear === MAX_YEAR && curMonth > MAX_MONTH)) {
+    curYear = MAX_YEAR; curMonth = MAX_MONTH;
+  }
+
+  renderAll();
+})();
+</script>

@@ -112,6 +112,7 @@ const ui = {
     'tool.days': 'How many days?',
     'tool.weather': 'Weather & packing',
     'tool.restaurantFinder': 'Kosher & vegan restaurants',
+    'tool.shabbatCalendar': 'Shabbat & holiday calendar',
     'footer.tagline':
       'An independent English-language travel guide to Israel — regions, attractions, itineraries and trusted booking links.',
     'footer.dayTrips': 'Day trips',
@@ -170,6 +171,7 @@ const ui = {
     'tool.days': 'Combien de jours ?',
     'tool.weather': 'Météo & bagages',
     'tool.restaurantFinder': 'Restaurants kasher & végétaliens',
+    'tool.shabbatCalendar': 'Calendrier Shabbat & fêtes',
     'footer.tagline':
       'Un guide de voyage indépendant, en anglais, sur Israël — régions, sites, itinéraires et liens de réservation fiables.',
     'footer.dayTrips': 'Excursions',
@@ -228,6 +230,7 @@ const ui = {
     'tool.days': 'Wie viele Tage?',
     'tool.weather': 'Wetter & Packliste',
     'tool.restaurantFinder': 'Koscher- & Vegan-Restaurants',
+    'tool.shabbatCalendar': 'Schabbat- & Feiertagskalender',
     'footer.tagline':
       'Ein unabhängiger englischsprachiger Reiseführer für Israel — Regionen, Sehenswürdigkeiten, Reiserouten und vertrauenswürdige Buchungslinks.',
     'footer.dayTrips': 'Tagesausflüge',
