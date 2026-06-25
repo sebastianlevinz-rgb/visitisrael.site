@@ -235,3 +235,35 @@ test.describe('Weather & packing widget', () => {
     expect(tempAfter).not.toEqual(tempBefore);
   });
 });
+
+test.describe('Israel Visa & ETA-IL Checker', () => {
+  test('shows correct category for each entry type and reacts to selection', async ({ page }) => {
+    await page.goto('/israel-visa-eta-checker');
+
+    // Initial state: result hidden, prompt visible.
+    await expect(page.locator('#visa-result')).not.toBeVisible();
+    await expect(page.locator('#visa-prompt')).toBeVisible();
+
+    // Select a visa-free country (United States).
+    await page.locator('#nationality-sel').selectOption('United States');
+    await expect(page.locator('#visa-result')).toBeVisible();
+    await expect(page.locator('#visa-prompt')).not.toBeVisible();
+    await expect(page.locator('#result-badge')).toContainText(/visa-free/i);
+    await expect(page.locator('#result-headline')).toContainText(/no advance/i);
+
+    // Select an ETA-IL required country (South Africa).
+    await page.locator('#nationality-sel').selectOption('South Africa');
+    await expect(page.locator('#result-badge')).toContainText(/ETA-IL/i);
+    await expect(page.locator('#result-headline')).toContainText(/ETA-IL/i);
+
+    // Select a visa-required country (India).
+    await page.locator('#nationality-sel').selectOption('India');
+    await expect(page.locator('#result-badge')).toContainText(/visa/i);
+    await expect(page.locator('#result-headline')).toContainText(/consulate/i);
+
+    // Resetting to blank hides the result and shows prompt again.
+    await page.locator('#nationality-sel').selectOption('');
+    await expect(page.locator('#visa-result')).not.toBeVisible();
+    await expect(page.locator('#visa-prompt')).toBeVisible();
+  });
+});

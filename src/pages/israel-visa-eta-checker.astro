@@ -1,0 +1,536 @@
+---
+import BaseLayout from '@/layouts/BaseLayout.astro';
+import Hero from '@/components/Hero.astro';
+import Breadcrumbs from '@/components/Breadcrumbs.astro';
+import JsonLd from '@/components/JsonLd.astro';
+import { breadcrumbList, faqPage } from '@/lib/schema';
+
+const title = 'Israel Visa & ETA-IL Checker 2026 — Do I Need a Visa?';
+const description =
+  'Find out instantly whether you need a visa, an ETA-IL (Electronic Travel Authorisation), or can enter Israel visa-free. Covers 50+ nationalities with entry requirements for 2026.';
+
+const crumbs = [
+  { name: 'Home', path: '/' },
+  { name: 'Plan your trip', path: '/plan-your-trip' },
+  { name: 'Visa & ETA-IL checker', path: '/israel-visa-eta-checker' },
+];
+
+const faqs = [
+  {
+    question: 'What is the ETA-IL for Israel?',
+    answer:
+      'The ETA-IL (Electronic Travel Authorisation for Israel) is a pre-travel authorisation launched in 2024. Citizens of eligible countries must obtain an ETA-IL online before travelling to Israel. It is not a visa — no embassy visit is required. The application is made through the Israeli Population and Immigration Authority (PIBA) website. The fee is ₪25 per application. Always check the official PIBA portal for the latest list of ETA-IL required nationalities, as the list is updated periodically.',
+  },
+  {
+    question: 'How long can I stay in Israel on a tourist entry?',
+    answer:
+      'Most visitors from visa-exempt and ETA-IL countries are granted a tourist stay of up to 90 days on entry (B/2 tourist visa issued at the border). Israeli border officials can grant less than 90 days at their discretion. Extensions can be applied for at PIBA offices inside Israel.',
+  },
+  {
+    question: 'Do I need a visa if I have a passport from a country that requires one?',
+    answer:
+      'If your nationality requires a consulate visa, you must apply at the nearest Israeli embassy or consulate before travelling. Allow several weeks for processing. Requirements and processing times vary by country. Check the Israeli Ministry of Foreign Affairs website for the current application procedure.',
+  },
+  {
+    question: 'Can I be refused entry even if I have a visa or ETA-IL?',
+    answer:
+      'Yes. A visa or ETA-IL authorises you to board a flight to Israel; entry is still subject to the discretion of Israeli border officials at Ben Gurion Airport or at land borders. Officials may ask detailed questions about your purpose of visit, itinerary, financial means, and connections to the region. This is normal — answer honestly and pack an itinerary and hotel bookings if possible.',
+  },
+  {
+    question: 'Will Israel stamp my passport?',
+    answer:
+      'Since approximately 2013, Israel typically issues a paper entry slip rather than stamping your passport at Ben Gurion Airport, keeping your Israel visit out of your passport. Land borders (Jordan, Egypt) may operate differently — ask for a slip rather than a stamp. Keep the entry slip throughout your trip: hotels and internal checkpoints may ask to see it.',
+  },
+  {
+    question: 'Are there nationalities that cannot visit Israel at all?',
+    answer:
+      'Israel does not maintain diplomatic relations with a small number of countries, and citizens of some states may face significant difficulties obtaining entry. This checker provides general guidance based on published entry category. Always verify with the Israeli embassy or your government\'s travel advisory before booking, as entry policy can change.',
+  },
+];
+
+const schema = [breadcrumbList(crumbs), faqPage(faqs)];
+---
+
+<BaseLayout
+  title={title}
+  description={description}
+  path="/israel-visa-eta-checker"
+  image="/images/regions/tel-aviv/hero.jpg"
+  imageAlt="Ben Gurion Airport arrivals terminal — Israel entry"
+>
+  <JsonLd schema={schema} slot="head" />
+  <Hero
+    image="/images/regions/tel-aviv/hero.jpg"
+    title="Israel Visa & ETA-IL Checker"
+    subtitle="Select your nationality to see whether you need a visa, an ETA-IL pre-travel authorisation, or can enter Israel visa-free — plus how to apply."
+    alt="Ben Gurion Airport terminal — entry to Israel"
+  />
+  <Breadcrumbs items={crumbs} />
+
+  <!-- Tool section -->
+  <section class="mx-auto max-w-3xl px-4 pt-10">
+    <p class="eyebrow" data-reveal>Entry requirements 2026</p>
+    <h2 class="font-display text-3xl font-bold text-ink" data-reveal>
+      Do I need a visa or ETA-IL for Israel?
+    </h2>
+    <p class="mt-2 max-w-2xl text-ink-muted" data-reveal>
+      Select your passport country below for an instant result. Requirements
+      are for ordinary tourist/leisure travel by air via Ben Gurion Airport.
+      Always verify with the{' '}
+      <a
+        href="https://www.gov.il/en/departments/population_and_immigration_authority"
+        class="font-semibold text-primary"
+        target="_blank"
+        rel="noopener noreferrer"
+      >official PIBA portal</a
+      >{' '}before travelling — requirements can change.
+    </p>
+
+    <!-- Checker widget -->
+    <div class="mt-8 rounded-card border border-border bg-card p-6 shadow-card">
+      <label class="block">
+        <span class="text-sm font-semibold text-ink">Your passport country</span>
+        <select
+          id="nationality-sel"
+          class="mt-2 block w-full rounded-btn border border-border bg-sand px-3 py-2.5 text-ink focus-visible:outline-2 focus-visible:outline-primary"
+          aria-label="Select your passport country"
+        >
+          <option value="">— Choose your country —</option>
+        </select>
+      </label>
+
+      <!-- Result panel -->
+      <div
+        id="visa-result"
+        class="mt-5 hidden"
+        role="status"
+        aria-live="polite"
+        aria-label="Visa requirement result"
+      >
+        <!-- Badge -->
+        <div id="result-badge" class="mb-3 inline-flex items-center gap-2 rounded-full px-4 py-1.5 text-sm font-bold"></div>
+
+        <!-- Heading -->
+        <p id="result-headline" class="font-display text-xl font-bold text-ink"></p>
+
+        <!-- Body text -->
+        <p id="result-body" class="mt-2 text-ink-muted"></p>
+
+        <!-- Action link -->
+        <div id="result-action" class="mt-4"></div>
+      </div>
+
+      <p id="visa-prompt" class="mt-4 text-sm text-ink-muted">
+        Select a country above to see entry requirements.
+      </p>
+    </div>
+
+    <!-- Disclaimer -->
+    <p class="mt-4 text-xs text-ink-muted">
+      This tool provides general guidance based on publicly available entry categories as of 2026. Entry is always subject to the discretion of Israeli border officials. Requirements can change at short notice — verify with the
+      <a
+        href="https://www.gov.il/en/departments/population_and_immigration_authority"
+        class="underline hover:text-primary"
+        target="_blank"
+        rel="noopener noreferrer"
+      >Israeli Population and Immigration Authority</a
+      > and your home government's travel advisory before booking.
+    </p>
+  </section>
+
+  <!-- Overview explainer -->
+  <section class="mx-auto max-w-3xl px-4 pt-14">
+    <h2 class="font-display text-2xl font-bold text-ink">Israel entry categories explained</h2>
+    <div class="mt-6 grid gap-4 sm:grid-cols-3">
+      <!-- Visa-free -->
+      <div class="rounded-card border border-border bg-card p-5 shadow-card">
+        <span class="inline-block rounded-full bg-emerald-100 px-3 py-1 text-xs font-bold uppercase tracking-wide text-emerald-700">Visa-free</span>
+        <h3 class="mt-3 font-display font-bold text-ink">Visa-free entry</h3>
+        <p class="mt-1 text-sm text-ink-muted">
+          No advance visa or ETA needed. Present your passport at the border. A tourist entry stamp (or paper slip) is issued on arrival for up to 90 days.
+        </p>
+      </div>
+      <!-- ETA-IL -->
+      <div class="rounded-card border border-border bg-card p-5 shadow-card">
+        <span class="inline-block rounded-full bg-amber-100 px-3 py-1 text-xs font-bold uppercase tracking-wide text-amber-700">ETA-IL required</span>
+        <h3 class="mt-3 font-display font-bold text-ink">Electronic Travel Authorisation</h3>
+        <p class="mt-1 text-sm text-ink-muted">
+          Apply online via the PIBA portal before travel. Fee: ₪25. No embassy visit needed. Typically approved within minutes to a few hours. Required <em>before boarding</em>.
+        </p>
+      </div>
+      <!-- Consulate visa -->
+      <div class="rounded-card border border-border bg-card p-5 shadow-card">
+        <span class="inline-block rounded-full bg-rose-100 px-3 py-1 text-xs font-bold uppercase tracking-wide text-rose-700">Visa required</span>
+        <h3 class="mt-3 font-display font-bold text-ink">Consulate visa</h3>
+        <p class="mt-1 text-sm text-ink-muted">
+          Apply at the Israeli embassy or consulate in your country. Requirements and fees vary. Allow several weeks for processing. Not available on arrival.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ETA-IL how to apply -->
+  <section class="mx-auto max-w-3xl px-4 pt-14">
+    <h2 class="font-display text-2xl font-bold text-ink">How to apply for an ETA-IL</h2>
+    <ol class="mt-5 space-y-4">
+      <li class="flex gap-4">
+        <span class="flex h-8 w-8 shrink-0 items-center justify-center rounded-full bg-primary text-sm font-bold text-white">1</span>
+        <div>
+          <p class="font-semibold text-ink">Visit the official PIBA portal</p>
+          <p class="mt-0.5 text-sm text-ink-muted">Go to the Israeli Population and Immigration Authority website. Look for the ETA-IL (Electronic Travel Authorisation) application section.</p>
+        </div>
+      </li>
+      <li class="flex gap-4">
+        <span class="flex h-8 w-8 shrink-0 items-center justify-center rounded-full bg-primary text-sm font-bold text-white">2</span>
+        <div>
+          <p class="font-semibold text-ink">Complete the application form</p>
+          <p class="mt-0.5 text-sm text-ink-muted">You'll need your passport details, intended travel dates, and an email address. The form is in English and available online 24/7.</p>
+        </div>
+      </li>
+      <li class="flex gap-4">
+        <span class="flex h-8 w-8 shrink-0 items-center justify-center rounded-full bg-primary text-sm font-bold text-white">3</span>
+        <div>
+          <p class="font-semibold text-ink">Pay the fee</p>
+          <p class="mt-0.5 text-sm text-ink-muted">The ETA-IL fee is ₪25 per person (approximately $7–8 USD). Payment is by credit/debit card online.</p>
+        </div>
+      </li>
+      <li class="flex gap-4">
+        <span class="flex h-8 w-8 shrink-0 items-center justify-center rounded-full bg-primary text-sm font-bold text-white">4</span>
+        <div>
+          <p class="font-semibold text-ink">Receive your ETA-IL by email</p>
+          <p class="mt-0.5 text-sm text-ink-muted">Most ETA-ILs are approved within a few hours. Print or save the confirmation email — airlines may check it at check-in before you board.</p>
+        </div>
+      </li>
+      <li class="flex gap-4">
+        <span class="flex h-8 w-8 shrink-0 items-center justify-center rounded-full bg-primary text-sm font-bold text-white">5</span>
+        <div>
+          <p class="font-semibold text-ink">Apply well before your trip</p>
+          <p class="mt-0.5 text-sm text-ink-muted">Apply at least 24–48 hours before departure. Do not leave it until the day of travel in case of delays or queries.</p>
+        </div>
+      </li>
+    </ol>
+  </section>
+
+  <!-- FAQ -->
+  <section class="mx-auto max-w-3xl px-4 pb-4 pt-14">
+    <h2 class="mb-4 font-display text-2xl font-bold text-ink">Frequently asked questions</h2>
+    <div class="space-y-4">
+      {
+        faqs.map((f) => (
+          <details class="rounded-card border border-border bg-card p-4">
+            <summary class="cursor-pointer font-semibold text-ink">{f.question}</summary>
+            <p class="mt-2 text-ink-muted">{f.answer}</p>
+          </details>
+        ))
+      }
+    </div>
+  </section>
+
+  <!-- Cross-links -->
+  <section class="mx-auto max-w-3xl px-4 pb-16 pt-6">
+    <div class="rounded-card border border-border bg-sand-deep p-6 text-center shadow-card">
+      <h2 class="font-display text-2xl font-bold text-ink">Keep planning your trip</h2>
+      <p class="mx-auto mt-2 max-w-xl text-ink-muted">
+        Entry sorted — now figure out when to go, how to get around, and what it will cost.
+      </p>
+      <div class="mt-5 flex flex-wrap justify-center gap-3">
+        <a href="/visa-information" class="btn btn-primary">Full visa guide</a>
+        <a href="/ben-gurion-airport-guide" class="btn btn-ghost">Ben Gurion Airport guide</a>
+        <a href="/israel-trip-cost-calculator" class="btn btn-ghost">Cost calculator</a>
+        <a href="/first-time-in-israel" class="btn btn-ghost">First-time guide</a>
+      </div>
+    </div>
+  </section>
+</BaseLayout>
+
+<script is:inline>
+(function () {
+  /* ------------------------------------------------------------------ *
+   *  Nationality data
+   *  Categories: 'visa-free' | 'eta-il' | 'visa-required' | 'complex'
+   *  Source: PIBA / Israeli MFA published entry categories (2024-2026).
+   *  This is general guidance — always verify at gov.il before travel.
+   * ------------------------------------------------------------------ */
+  var COUNTRIES = [
+    // === VISA-FREE (no advance requirement) ===
+    { name: 'Albania', cat: 'visa-free' },
+    { name: 'Andorra', cat: 'visa-free' },
+    { name: 'Argentina', cat: 'visa-free' },
+    { name: 'Australia', cat: 'visa-free' },
+    { name: 'Austria', cat: 'visa-free' },
+    { name: 'Bahrain', cat: 'visa-free' },
+    { name: 'Belgium', cat: 'visa-free' },
+    { name: 'Bolivia', cat: 'visa-free' },
+    { name: 'Bosnia and Herzegovina', cat: 'visa-free' },
+    { name: 'Brazil', cat: 'visa-free' },
+    { name: 'Bulgaria', cat: 'visa-free' },
+    { name: 'Canada', cat: 'visa-free' },
+    { name: 'Chile', cat: 'visa-free' },
+    { name: 'Colombia', cat: 'visa-free' },
+    { name: 'Costa Rica', cat: 'visa-free' },
+    { name: 'Croatia', cat: 'visa-free' },
+    { name: 'Cyprus', cat: 'visa-free' },
+    { name: 'Czech Republic', cat: 'visa-free' },
+    { name: 'Denmark', cat: 'visa-free' },
+    { name: 'Ecuador', cat: 'visa-free' },
+    { name: 'Egypt', cat: 'visa-free', note: 'Egypt–Israel peace treaty; entry conditions may vary at land borders.' },
+    { name: 'Estonia', cat: 'visa-free' },
+    { name: 'Finland', cat: 'visa-free' },
+    { name: 'France', cat: 'visa-free' },
+    { name: 'Georgia', cat: 'visa-free' },
+    { name: 'Germany', cat: 'visa-free' },
+    { name: 'Greece', cat: 'visa-free' },
+    { name: 'Guatemala', cat: 'visa-free' },
+    { name: 'Hong Kong (SAR)', cat: 'visa-free' },
+    { name: 'Hungary', cat: 'visa-free' },
+    { name: 'Iceland', cat: 'visa-free' },
+    { name: 'Ireland', cat: 'visa-free' },
+    { name: 'Italy', cat: 'visa-free' },
+    { name: 'Jamaica', cat: 'visa-free' },
+    { name: 'Japan', cat: 'visa-free' },
+    { name: 'Jordan', cat: 'visa-free', note: 'Jordan–Israel peace treaty. Most commonly entered via Allenby/King Hussein Bridge or Eilat/Aqaba crossing.' },
+    { name: 'Kazakhstan', cat: 'visa-free' },
+    { name: 'Kosovo', cat: 'visa-free' },
+    { name: 'Latvia', cat: 'visa-free' },
+    { name: 'Liechtenstein', cat: 'visa-free' },
+    { name: 'Lithuania', cat: 'visa-free' },
+    { name: 'Luxembourg', cat: 'visa-free' },
+    { name: 'Macao (SAR)', cat: 'visa-free' },
+    { name: 'Malta', cat: 'visa-free' },
+    { name: 'Mexico', cat: 'visa-free' },
+    { name: 'Moldova', cat: 'visa-free' },
+    { name: 'Monaco', cat: 'visa-free' },
+    { name: 'Montenegro', cat: 'visa-free' },
+    { name: 'Morocco', cat: 'visa-free' },
+    { name: 'Netherlands', cat: 'visa-free' },
+    { name: 'New Zealand', cat: 'visa-free' },
+    { name: 'North Macedonia', cat: 'visa-free' },
+    { name: 'Norway', cat: 'visa-free' },
+    { name: 'Panama', cat: 'visa-free' },
+    { name: 'Paraguay', cat: 'visa-free' },
+    { name: 'Peru', cat: 'visa-free' },
+    { name: 'Philippines', cat: 'visa-free' },
+    { name: 'Poland', cat: 'visa-free' },
+    { name: 'Portugal', cat: 'visa-free' },
+    { name: 'Romania', cat: 'visa-free' },
+    { name: 'San Marino', cat: 'visa-free' },
+    { name: 'Serbia', cat: 'visa-free' },
+    { name: 'Singapore', cat: 'visa-free' },
+    { name: 'Slovakia', cat: 'visa-free' },
+    { name: 'Slovenia', cat: 'visa-free' },
+    { name: 'South Korea', cat: 'visa-free' },
+    { name: 'Spain', cat: 'visa-free' },
+    { name: 'Sweden', cat: 'visa-free' },
+    { name: 'Switzerland', cat: 'visa-free' },
+    { name: 'Taiwan', cat: 'visa-free' },
+    { name: 'Thailand', cat: 'visa-free' },
+    { name: 'Trinidad and Tobago', cat: 'visa-free' },
+    { name: 'Turkey', cat: 'visa-free' },
+    { name: 'Ukraine', cat: 'visa-free' },
+    { name: 'United Arab Emirates', cat: 'visa-free', note: 'Abraham Accords normalisation (2020). Check latest PIBA guidance.' },
+    { name: 'United Kingdom', cat: 'visa-free' },
+    { name: 'United States', cat: 'visa-free' },
+    { name: 'Uruguay', cat: 'visa-free' },
+    { name: 'Vatican City', cat: 'visa-free' },
+    { name: 'Venezuela', cat: 'visa-free' },
+    // === ETA-IL REQUIRED ===
+    { name: 'Antigua and Barbuda', cat: 'eta-il' },
+    { name: 'Armenia', cat: 'eta-il' },
+    { name: 'Azerbaijan', cat: 'eta-il' },
+    { name: 'Bahamas', cat: 'eta-il' },
+    { name: 'Barbados', cat: 'eta-il' },
+    { name: 'Belize', cat: 'eta-il' },
+    { name: 'Benin', cat: 'eta-il' },
+    { name: 'Botswana', cat: 'eta-il' },
+    { name: 'Cambodia', cat: 'eta-il' },
+    { name: 'Cape Verde', cat: 'eta-il' },
+    { name: 'Dominican Republic', cat: 'eta-il' },
+    { name: 'El Salvador', cat: 'eta-il' },
+    { name: 'Fiji', cat: 'eta-il' },
+    { name: 'Gabon', cat: 'eta-il' },
+    { name: 'Ghana', cat: 'eta-il' },
+    { name: 'Grenada', cat: 'eta-il' },
+    { name: 'Guyana', cat: 'eta-il' },
+    { name: 'Haiti', cat: 'eta-il' },
+    { name: 'Honduras', cat: 'eta-il' },
+    { name: 'Ivory Coast', cat: 'eta-il' },
+    { name: 'Kenya', cat: 'eta-il' },
+    { name: 'Kiribati', cat: 'eta-il' },
+    { name: 'Laos', cat: 'eta-il' },
+    { name: 'Lesotho', cat: 'eta-il' },
+    { name: 'Liberia', cat: 'eta-il' },
+    { name: 'Madagascar', cat: 'eta-il' },
+    { name: 'Malawi', cat: 'eta-il' },
+    { name: 'Maldives', cat: 'eta-il' },
+    { name: 'Marshall Islands', cat: 'eta-il' },
+    { name: 'Mauritius', cat: 'eta-il' },
+    { name: 'Micronesia', cat: 'eta-il' },
+    { name: 'Mongolia', cat: 'eta-il' },
+    { name: 'Mozambique', cat: 'eta-il' },
+    { name: 'Myanmar', cat: 'eta-il' },
+    { name: 'Namibia', cat: 'eta-il' },
+    { name: 'Nauru', cat: 'eta-il' },
+    { name: 'Nepal', cat: 'eta-il' },
+    { name: 'Nicaragua', cat: 'eta-il' },
+    { name: 'Nigeria', cat: 'eta-il' },
+    { name: 'Palau', cat: 'eta-il' },
+    { name: 'Papua New Guinea', cat: 'eta-il' },
+    { name: 'Rwanda', cat: 'eta-il' },
+    { name: 'Saint Kitts and Nevis', cat: 'eta-il' },
+    { name: 'Saint Lucia', cat: 'eta-il' },
+    { name: 'Saint Vincent and the Grenadines', cat: 'eta-il' },
+    { name: 'Samoa', cat: 'eta-il' },
+    { name: 'São Tomé and Príncipe', cat: 'eta-il' },
+    { name: 'Senegal', cat: 'eta-il' },
+    { name: 'Sierra Leone', cat: 'eta-il' },
+    { name: 'Solomon Islands', cat: 'eta-il' },
+    { name: 'South Africa', cat: 'eta-il' },
+    { name: 'Sri Lanka', cat: 'eta-il' },
+    { name: 'Suriname', cat: 'eta-il' },
+    { name: 'Tanzania', cat: 'eta-il' },
+    { name: 'Togo', cat: 'eta-il' },
+    { name: 'Tonga', cat: 'eta-il' },
+    { name: 'Tuvalu', cat: 'eta-il' },
+    { name: 'Uganda', cat: 'eta-il' },
+    { name: 'Vanuatu', cat: 'eta-il' },
+    { name: 'Zambia', cat: 'eta-il' },
+    { name: 'Zimbabwe', cat: 'eta-il' },
+    // === VISA REQUIRED (consulate) ===
+    { name: 'Afghanistan', cat: 'visa-required' },
+    { name: 'Algeria', cat: 'visa-required' },
+    { name: 'Angola', cat: 'visa-required' },
+    { name: 'Bangladesh', cat: 'visa-required' },
+    { name: 'Belarus', cat: 'visa-required' },
+    { name: 'Burkina Faso', cat: 'visa-required' },
+    { name: 'Burundi', cat: 'visa-required' },
+    { name: 'Cameroon', cat: 'visa-required' },
+    { name: 'Central African Republic', cat: 'visa-required' },
+    { name: 'Chad', cat: 'visa-required' },
+    { name: 'China (PRC)', cat: 'visa-required' },
+    { name: 'Comoros', cat: 'visa-required' },
+    { name: 'Congo (Brazzaville)', cat: 'visa-required' },
+    { name: 'DR Congo', cat: 'visa-required' },
+    { name: 'Cuba', cat: 'visa-required' },
+    { name: 'Djibouti', cat: 'visa-required' },
+    { name: 'Equatorial Guinea', cat: 'visa-required' },
+    { name: 'Eritrea', cat: 'visa-required' },
+    { name: 'Eswatini', cat: 'visa-required' },
+    { name: 'Ethiopia', cat: 'visa-required' },
+    { name: 'Gambia', cat: 'visa-required' },
+    { name: 'Guinea', cat: 'visa-required' },
+    { name: 'Guinea-Bissau', cat: 'visa-required' },
+    { name: 'India', cat: 'visa-required' },
+    { name: 'Indonesia', cat: 'visa-required' },
+    { name: 'Iran', cat: 'visa-required' },
+    { name: 'Iraq', cat: 'visa-required' },
+    { name: 'Kyrgyzstan', cat: 'visa-required' },
+    { name: 'Lebanon', cat: 'visa-required', note: 'Lebanese passport holders are not permitted to enter Israel.' },
+    { name: 'Libya', cat: 'visa-required' },
+    { name: 'Malaysia', cat: 'visa-required' },
+    { name: 'Mali', cat: 'visa-required' },
+    { name: 'Mauritania', cat: 'visa-required' },
+    { name: 'Niger', cat: 'visa-required' },
+    { name: 'North Korea', cat: 'visa-required' },
+    { name: 'Oman', cat: 'visa-required' },
+    { name: 'Pakistan', cat: 'visa-required' },
+    { name: 'Qatar', cat: 'visa-required' },
+    { name: 'Russia', cat: 'visa-required' },
+    { name: 'Saudi Arabia', cat: 'visa-required' },
+    { name: 'Somalia', cat: 'visa-required' },
+    { name: 'South Sudan', cat: 'visa-required' },
+    { name: 'Sudan', cat: 'visa-required' },
+    { name: 'Syria', cat: 'visa-required' },
+    { name: 'Tajikistan', cat: 'visa-required' },
+    { name: 'Timor-Leste', cat: 'visa-required' },
+    { name: 'Tunisia', cat: 'visa-required' },
+    { name: 'Turkmenistan', cat: 'visa-required' },
+    { name: 'Uzbekistan', cat: 'visa-required' },
+    { name: 'Vietnam', cat: 'visa-required' },
+    { name: 'Yemen', cat: 'visa-required' },
+  ];
+
+  /* Sort alphabetically */
+  COUNTRIES.sort(function (a, b) { return a.name.localeCompare(b.name); });
+
+  /* Populate the dropdown */
+  var sel = document.getElementById('nationality-sel');
+  COUNTRIES.forEach(function (c) {
+    var opt = document.createElement('option');
+    opt.value = c.name;
+    opt.textContent = c.name;
+    sel.appendChild(opt);
+  });
+
+  /* ------------------------------------------------------------------ *
+   *  Result copy by category
+   * ------------------------------------------------------------------ */
+  var RESULTS = {
+    'visa-free': {
+      badge: 'Visa-free entry',
+      badgeCls: 'bg-emerald-100 text-emerald-700',
+      headline: 'Great news — no advance authorisation needed.',
+      body: 'As a passport holder of this country, you can enter Israel without obtaining a visa or ETA-IL in advance. Present your valid passport at the border. A tourist entry authorisation for up to 90 days is typically issued on arrival.',
+      action: '<a href="/visa-information" class="btn btn-primary" style="display:inline-block">Full visa &amp; entry guide</a>',
+    },
+    'eta-il': {
+      badge: 'ETA-IL required',
+      badgeCls: 'bg-amber-100 text-amber-700',
+      headline: 'You need to apply for an ETA-IL before travelling.',
+      body: 'Citizens of this country must obtain an ETA-IL (Electronic Travel Authorisation for Israel) before boarding a flight to Israel. The application is made online via the Israeli Population and Immigration Authority (PIBA) portal. The fee is ₪25. Most applications are approved quickly. Apply at least 24–48 hours before departure — do not leave it to the day of travel.',
+      action: '<a href="https://www.gov.il/en/departments/population_and_immigration_authority" class="btn btn-primary" style="display:inline-block" target="_blank" rel="noopener noreferrer">Apply on the official PIBA portal</a> <a href="/visa-information" class="btn btn-ghost" style="display:inline-block">Full visa &amp; entry guide</a>',
+    },
+    'visa-required': {
+      badge: 'Consulate visa required',
+      badgeCls: 'bg-rose-100 text-rose-700',
+      headline: 'You need to apply for a visa at an Israeli consulate.',
+      body: 'Citizens of this country require a consulate visa to enter Israel. You must apply at the Israeli embassy or consulate in your country before travelling — visas are not available on arrival. Requirements, processing times and fees vary. Contact the nearest Israeli diplomatic mission for the current application procedure.',
+      action: '<a href="https://mfa.gov.il/MFA/ConsularServices/Pages/Visas.aspx" class="btn btn-primary" style="display:inline-block" target="_blank" rel="noopener noreferrer">Israeli MFA visa information</a> <a href="/visa-information" class="btn btn-ghost" style="display:inline-block">Full visa &amp; entry guide</a>',
+    },
+  };
+
+  /* ------------------------------------------------------------------ *
+   *  Event handler
+   * ------------------------------------------------------------------ */
+  sel.addEventListener('change', function () {
+    var countryName = this.value;
+    var result = document.getElementById('visa-result');
+    var prompt = document.getElementById('visa-prompt');
+    var badge = document.getElementById('result-badge');
+    var headline = document.getElementById('result-headline');
+    var body = document.getElementById('result-body');
+    var action = document.getElementById('result-action');
+
+    if (!countryName) {
+      result.classList.add('hidden');
+      prompt.style.display = '';
+      return;
+    }
+
+    var countryObj = null;
+    for (var i = 0; i < COUNTRIES.length; i++) {
+      if (COUNTRIES[i].name === countryName) { countryObj = COUNTRIES[i]; break; }
+    }
+    if (!countryObj) return;
+
+    var r = RESULTS[countryObj.cat];
+    if (!r) return;
+
+    badge.textContent = r.badge;
+    badge.className = 'mb-3 inline-flex items-center gap-2 rounded-full px-4 py-1.5 text-sm font-bold ' + r.badgeCls;
+    headline.textContent = r.headline;
+
+    var bodyText = r.body;
+    if (countryObj.note) {
+      bodyText += ' Note: ' + countryObj.note;
+    }
+    body.textContent = bodyText;
+    action.innerHTML = r.action;
+
+    result.classList.remove('hidden');
+    prompt.style.display = 'none';
+
+    /* Scroll result into view smoothly */
+    result.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+  });
+})();
+</script>

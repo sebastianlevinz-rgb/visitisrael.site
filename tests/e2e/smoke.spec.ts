@@ -55,6 +55,7 @@ const ROUTES = [
   '/akko-acre-guide',
   '/safed-tzfat-guide',
   '/nazareth-travel-guide',
+  '/israel-visa-eta-checker',
   '/fr/first-time-in-israel',
   '/fr/visa-information',
   '/fr/best-time-to-visit-israel',
