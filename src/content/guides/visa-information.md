@@ -53,4 +53,6 @@ If you need longer than your permitted stay, enquire with the Population and Imm
 
 ## Before you go
 
+Not sure which category applies to your passport? Use our [Visa & ETA-IL checker](/israel-visa-eta-checker) for an instant result by nationality — covers 150+ countries.
+
 Pair this with our [first-time guide](/first-time-in-israel) and read [Is Israel safe to visit?](/is-israel-safe) for current-advice guidance. Sort the practical essentials too — an [eSIM](/israel-esim), [travel insurance](/israel-travel-insurance) and your [airport transfer](/ben-gurion-airport-transfers) — before you fly.
