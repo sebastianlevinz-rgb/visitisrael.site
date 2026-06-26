@@ -93,3 +93,13 @@
   "Israel currency 2026" — high-intent pre-trip queries where exclusiveisraeltours.com,
   travelwithhello.com rank and we had no equivalent page. DCC explanation, bank ATM strategy,
   Shabbat cash timing, credit card landscape, currency exchange comparison, cash-only markets.
+
+## iter 93 (2026-06-26) — Israel travel time calculator
+- SHA: 79a1e37
+- URL: /israel-travel-time
+- Category: tools (P2, S effort)
+- Value: First curated travel time tool for Israeli tourist routes — distinct from existing distance
+  calculator (haversine straight-line). Covers 32 city-pair routes bidirectionally with actual train
+  times, bus info, Shabbat impact badges (red/amber), and practical tips. Train details (time +
+  schedule notes) for 12 rail-served routes. Captures "how long from Tel Aviv to Jerusalem" and
+  similar high-intent queries where third-party sites rank and we had nothing. 214 e2e tests pass.

@@ -1,28 +1,25 @@
 # LOOP STATE
 
-- iteration: 92
+- iteration: 93
 - lastMode: BUILD
-- lastItem: Israel money, ATM & currency guide (/israel-money-guide) — seo-content, P2, S effort
-- lastResult: SHIPPED 4ef5c32 — gate GREEN (0 errors / 210 pages / 209/209 e2e PASS); CI+Lighthouse in_progress at push
-- nextRotationCategory: 93%5==3 → tools; 94%5==4 → REVIEW; 95%5==0 → RESEARCH; 96%5==1 → monetization
+- lastItem: Israel city travel time calculator (/israel-travel-time) — tools, P2, S effort
+- lastResult: SHIPPED 79a1e37 — gate GREEN (0 errors / 211 pages / 214/214 e2e PASS); CI+Lighthouse in_progress at push
+- nextRotationCategory: 94%5==4 → REVIEW; 95%5==0 → RESEARCH; 96%5==1 → monetization; 97%5==2 → seo-content
 - higgsfieldSpent: 0
 - updatedAt: 2026-06-26
 - branch context: work on master; feature work on auto/<slug>
 
-Notes: iter 92 BUILD (seo-content) — shipped Israel money, ATM & currency guide. Chose money guide
-  over eSIM guide since israel-esim.md already existed (different slug, but topic overlap warranted
-  picking a clearly standalone page first). One gate fix: removed /israel-travel-apps link (page not
-  yet built). Prior iter CI: a1cfa60 (state push for iter91) showed CI+Lighthouse completed SUCCESS,
-  confirming iter91 zimmer guide (59f8018) passed CI cleanly.
-  CI for iter92 (4ef5c32): CI + Lighthouse in_progress at push — expected to succeed per pattern.
+Notes: iter 93 BUILD (tools) — shipped Israel travel time calculator. Interactive tool with curated
+  train/bus/drive times for 30+ tourist city-pair routes. Distinct from existing distance calculator
+  (haversine straight-line): this uses static curated transit data including train schedules, bus info,
+  Shabbat impact badges (red/amber), and practical tips per route. 4 Playwright tests added (drive time
+  on load, route update on selection change, swap button, Shabbat badge visible). 211 pages built.
+  Added tool to PlanYourTripPage tools list + i18n keys (en/fr/de). Route data covers 32 key tourist
+  city-pair routes bidirectionally.
+  CI for iter92 (4ef5c32): CI + Lighthouse expected to succeed per established pattern.
+  CI for iter93 (79a1e37): in_progress at push — expected to succeed.
 
-NEXT: iter 93 = BUILD (93%5==3 → tools). Top tools candidates from backlog:
-  - Israel city travel time lookup tool (/israel-travel-time) — P2, S effort [iter90 research]
-  - Israel holiday impact planner (/israel-holiday-planner) — P2, S effort [iter90 research]
-  - Golden-hour photography calculator (/israel-golden-hour) — P3, S effort [iter90 research]
-  Travel time lookup is highest priority — no competitor Israel site has it, strong differentiation.
-  Remaining seo-content items for subsequent BUILD iterations:
-  - Israel eSIM & SIM card guide (/israel-esim-sim-card) — P2, S
-  - "Where to stay in Israel" accommodation hub (/israel-accommodation-guide) — P2, S
-  - Tel Aviv Light Rail guide (/tel-aviv-light-rail) — P2, S
-  - Israel base-city planning guide (/israel-base-city-guide) — P2, S
+NEXT: iter 94 = REVIEW (94%5==4). Review slice: tools built in iters 78/83/88/93 (shabbat calendar,
+  visa checker, trip cost calculator v2, travel time calculator). Check for dead links, correct JSON-LD,
+  a11y (no WCAG violations), data accuracy, honesty. Also confirm CI/Lighthouse for iter93 completed.
+  Secondary: check for any shipped content needing cross-link updates.

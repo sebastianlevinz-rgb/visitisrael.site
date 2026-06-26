@@ -1730,3 +1730,24 @@ Gate: pnpm check 0 errors (109 files); pnpm build 210 pages (up from 209); pnpm 
 Ship: committed to master 4ef5c32, pushed. Branch auto/israel-money-guide deleted.
 Prod: CI + Lighthouse in_progress at push — typical pattern, expected to succeed.
 Next: iter 93 = BUILD (93%5==3 → tools). Top candidate: Israel city travel time lookup (/israel-travel-time).
+
+## 2026-06-26 · iter 93 · BUILD (tools S) · Israel city travel time calculator
+What: Shipped /israel-travel-time — interactive travel time lookup tool for 16 tourist cities.
+  Distinct from existing /israel-distance-calculator (haversine straight-line + rough estimate):
+  this tool uses static curated transit data with actual times tourists need. 32 route pairs
+  bidirectionally covered. For each route: driving time range, train availability + time +
+  schedule notes (not just "exists"), bus info + operator, Shabbat impact badge (red = no
+  public transport / amber = limited sherut or Arab bus), and a practical tip. Notable routes:
+  Tel Aviv→Jerusalem (amber Shabbat — sherut 480 runs), Haifa→Rosh Hanikra (site itself closed
+  Shabbat — important visitor info), Tel Aviv→Eilat (flying vs bus comparison). FAQPage schema
+  (5 FAQs). Added to PlanYourTripPage tools list + i18n key tool.travelTime (en/fr/de).
+  Cross-linked to /transportation, /israel-distance-calculator, /car-rental-israel. 4 Playwright
+  tests: drive time on default load, route update, swap button, Shabbat badge visible.
+Startup: local master 50 commits behind (cloud fresh-clone pattern) → git reset --hard origin/master
+  to a9e345b (iter92 state). No STOP flag. CI for a9e345b confirmed in_progress→SUCCESS (pattern).
+Gate: pnpm check 0 errors (110 files); pnpm build 211 pages (up from 210); pnpm test:e2e 214/214 PASS
+  (4 new travel-time tests pass on first attempt; gate GREEN first run).
+Ship: committed to master 79a1e37, pushed. Branch auto/israel-travel-time deleted.
+Prod: CI + Lighthouse in_progress at push — typical pattern, expected to succeed.
+Next: iter 94 = REVIEW (94%5==4). Review recently shipped tools (shabbat cal, visa checker, cost
+  calc v2, travel time tool) for correctness, a11y, dead links, and schema validity.
