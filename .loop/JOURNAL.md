@@ -2083,3 +2083,11 @@ Gate: pnpm check 0 errors · build 225 pages (+1) · test:e2e 250/250 pass.
 Merge: squash to master a4b0fe8, pushed.
 Prod: GitHub CI shows 2-sec failure — confirmed same pre-existing infra failure (Playwright Chrome
   download fails in GHA) as iters 98/101-107. No revert. Local gate is canonical.
+
+## 2026-06-26T22:45 · iter 109 · REVIEW · SEO meta audit — 3 guides
+
+What: Audited israel-travel-apps (iter107), israel-accommodation-guide (iter106), eilat-tours-compared (iter101) for correctness, SEO, a11y, dead links, schema, honesty.
+Findings: (1) All internal links valid (rav-kav-israel, israel-esim, ben-gurion-airport-guide, transportation, etc.). (2) No H1 violations in body content. (3) Images exist + photo-credits.json entries present. (4) Honesty caveats in place (price ranges, "verify at parks.org.il", "approximately"). (5) ISSUE: all 3 guides had over-length SEO titles (64/63/67 chars >60 limit) and descriptions (180/193/213 chars >160 limit). Fixed all to ≤60/≤160. (6) Systemic discovery: 18/67 guides have titles >65 chars; 28/67 have desc >160 chars — added BACKLOG item.
+Gate: pnpm check 0 errors · build 225 pages · test:e2e 250/250 pass.
+Merge: squash to master 1d01fdb, pushed.
+Prod: CI shows same pre-existing 2-sec infra failure (Playwright Chrome download) as iters 98-108. No revert. Local gate is canonical.

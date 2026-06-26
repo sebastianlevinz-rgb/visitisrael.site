@@ -3,6 +3,9 @@
 Format: `- [P1] (category, effort S/M/L) Title — why valuable — impl sketch — status`
 Priorities P0 (highest) → P3. Status: ready | blocked:<reason> | in-progress.
 
+## technical / SEO-health
+- [P2] (technical, S) Batch SEO meta optimization: fix over-length titles and descriptions across 18 guides — iter109 REVIEW found 18/67 guides with titles >65 chars (worst: galilee-tours-compared 92, petra-tours-compared 83, tiberias-guide 79, israel-food-tours-cooking-classes 78, jerusalem-bethlehem-day-trip 78, akko-acre-guide 75, safed-tzfat-guide 75, israel-for-seniors 73, israel-zimmer-guide 72, ben-gurion-airport-guide 71, nazareth-travel-guide 71, petra-from-israel 71, masada-tours-compared 70, dead-sea-guide 68, israel-adventure-sports 67, qumran-guide 67, tel-aviv-tours-compared 66, eilat-tours-compared 67) and 28/67 with desc >160 chars. iter109 fixed the 3 reviewed guides; remaining 15 titles >65 and 25 descriptions >160 need fixing. Impl: read each guide, craft a tighter title preserving primary keyword, trim desc. Quick but requires reading each for context. [iter109 review discovery] status: ready
+
 ## i18n epic (fr + de) — USER PRIORITY, phased; see .loop/I18N-PLAN.md
 Interleave one i18n phase roughly every other BUILD iteration (don't do only i18n). Each phase is a
 bounded, gated BUILD item. Full architecture + honesty rules + progress tracker live in I18N-PLAN.md.
