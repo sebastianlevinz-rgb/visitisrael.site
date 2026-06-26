@@ -1937,3 +1937,30 @@ Next: iter 101 = BUILD/monetization.
 **i18n progress:** fr 20/~147, de 20/~147 (home + plan-your-trip + 18 guides each).
 **Startup:** standard stale-master recovery (git fetch + reset --hard origin/master).
 **Next:** iter 103 = BUILD/tools per rotation; or advance i18n Batch 8 as P1.
+
+## 2026-06-26 · iter 103 · BUILD/tools · Israel Jewish holiday impact planner
+
+**Item:** Israel Jewish holiday impact planner (/israel-holiday-planner) — P2 tools item from iter90 research.
+
+**What:** New interactive tool page. User picks arrival + departure dates (2026–2027 range); vanilla JS
+computes: (1) which Jewish holidays / fast days / national days fall in the trip with traveler-impact
+notes; (2) count of Shabbats in the date range + practical Shabbat closure reminder; (3) booking-pressure
+badge — HIGH (Passover, Rosh HaShana/YK/Sukkot, summer Jun–Aug), MEDIUM (Yom HaAtzmaut/HaZikaron,
+Simchat Torah, Shavuot), LOW (quiet periods). Zero-holiday path: "No major Jewish holidays in your
+dates — good low-pressure window to visit." Validation: end ≤ start shows error, clears results.
+Accessible: aria-live results panel, aria-label on results div, all inputs labelled, inline error
+has role="alert". Dense cross-links: shabbat-guide, israel-shabbat-calendar, whats-open-on-shabbat,
+best-time-to-visit-israel. Wired to plan-your-trip tools grid. i18n labels: en/fr/de in ui.ts.
+19 holidays across 2026–2027; reuses HOLIDAYS data pattern from shabbat-calendar page.
+
+**Startup:** stale local master (50 commits behind) resolved via git fetch origin master + reset --hard.
+
+**Gate:** pnpm check 0 errors · pnpm build 222 pages (+1) · pnpm test:e2e 235/235 passed (+6 new tests:
+4 holiday-planner + 1 smoke route + 1 a11y route).
+
+**Merge SHA:** cc3a0df — squash-committed to master; pushed.
+
+**CI:** GitHub Actions ci.yml + lighthouse.yml both 2-second runtime failures (no runners — same infra
+pattern as iter98/101/102). No revert; local gate fully green; no content regression.
+
+**Next:** iter 104 = REVIEW mode per rotation (104%5==4).

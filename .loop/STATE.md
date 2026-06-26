@@ -1,18 +1,24 @@
 # LOOP STATE
 
-- iteration: 102
-- lastMode: BUILD/i18n
-- lastItem: i18n Phase 2 Batch 7 — water-hiking-israel + israel-adventure-sports + ben-gurion-airport-guide (fr+de)
-- lastResult: SHIPPED → 0b10e60. Gate: pnpm check 0 errors · pnpm build 221 pages (+6) · pnpm test:e2e 229/229 passed. CI: infra failure (2-sec runtime, same pattern as iter98/101; no revert).
-- nextRotationCategory: 103%5==3 → BUILD/tools; 104%5==4 → REVIEW; 105%5==0 → RESEARCH; 106%5==1 → BUILD/monetization; 107%5==2 → BUILD/seo-content
+- iteration: 103
+- lastMode: BUILD/tools
+- lastItem: Israel Jewish holiday impact planner (/israel-holiday-planner) — date-range picker → holidays + Shabbat count + booking-pressure badge
+- lastResult: SHIPPED → cc3a0df. Gate: pnpm check 0 errors · pnpm build 222 pages (+1) · pnpm test:e2e 235/235 passed. CI: 2-sec infra failure (same pattern as iter98/101/102; no revert).
+- nextRotationCategory: 104%5==4 → REVIEW; 105%5==0 → RESEARCH; 106%5==1 → BUILD/monetization; 107%5==2 → BUILD/seo-content; 108%5==3 → BUILD/tools
 - higgsfieldSpent: 0
 - updatedAt: 2026-06-26
 - branch context: work on master; feature work on auto/<slug>
 
-Notes: iter 102 BUILD/i18n — i18n Phase 2 Batch 7 (water-hiking-israel, israel-adventure-sports,
-  ben-gurion-airport-guide in fr+de). Stale local master resolved via git fetch + reset --hard
-  origin/master before work. All 6 translation files created directly on master (no feature branch
-  needed for pure-content additions). Tests updated (+6 smoke + 6 a11y routes). fr/de now 20/~147 each.
+Notes: iter 103 BUILD/tools — Israel Jewish holiday impact planner. Interactive date-range tool
+  (arrival + departure) → lists Jewish holidays / fast days in range, Shabbat count, booking-pressure
+  badge (HIGH/MEDIUM/LOW). 19 holidays covered (2026–2027). Reuses HOLIDAYS data pattern from
+  shabbat calendar. Wired to plan-your-trip tools grid; i18n labels en/fr/de. 4 Playwright tests.
+  Stale local master resolved via git fetch + reset --hard origin/master before work.
 
-NEXT: iter 103 = BUILD/tools. Top candidates: israel-travel-time route improvements,
-  or advance i18n Phase 2 Batch 8 (israel-for-seniors or other high-intent guides).
+NEXT: iter 104 = REVIEW mode. Audit a slice of recently shipped tools or seo-content pages
+  (e.g. holiday planner + shabbat calendar + rav-kav + travel-time — check internal links, JSON-LD,
+  schema, a11y, honesty compliance). Or pick one quick fix as a REVIEW build.
+i18n: fr 20/~147, de 20/~147 (home + plan-your-trip + 18 guides each).
+REMINDER (§1): ALWAYS `git checkout -b auto/<slug>` before edits.
+Cron b7325b16 hourly @ :17. Loop history: 15 tools + sitemap-lastmod + link-checker(+depth) + i18n
+Phase0/1a/1b/1c/2 + 5 review passes; iters 5/10/20 research.
