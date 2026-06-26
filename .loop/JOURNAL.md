@@ -1606,3 +1606,29 @@ Ship: committed to master 4ae9323, pushed. CI run 28207364329 in_progress; Light
   in_progress at state-write time.
 Prod: Vercel CI in_progress — next iteration confirms.
 Next: iter 87 = BUILD (87%5==2) → seo-content. Top candidate: Tiberias & Sea of Galilee city guide (P2, S).
+
+## 2026-06-26 · iter 87 · BUILD (seo-content) · tiberias-guide
+What: new /tiberias-guide — Tiberias & Sea of Galilee city guide. Distinct from galilee.md
+  region hub and nazareth-sea-of-galilee-day-trip.md (day trip angle). Covers: Hamat Tiberias
+  National Park (4th-century zodiac mosaic synagogue — one of Israel's finest ancient artworks,
+  plus thermal mineral pool); Jesus Boat Museum at Ginosar (2,000-year-old wooden fishing
+  vessel, carbon-dated 100 BCE–70 CE, framed as contemporaneous not as "the" Jesus boat);
+  Tiberias lakefront Tayelet promenade; St. Peter's Church (Franciscan, post-resurrection
+  site); Rabbi Meir Baal Haness Shrine (blue twin domes, pilgrimage site); Sea of Galilee
+  swimming (Ginosar/Ein Gev beaches + Hamat thermal pool); Tiberias as Galilee base
+  (Capernaum/Mount of Beatitudes 20min, Safed 45min, Nazareth 40min, Golan 30min); transport
+  from TLV/Haifa/Jerusalem. 7 FAQs + FAQPage JSON-LD. 3 affiliate CTAs (GYG Sea of Galilee
+  day tours, Viator Christian Galilee circuit, Booking.com Tiberias hotels). Reciprocal
+  cross-links added to Safed guide and Nazareth guide ("combine with" sections updated).
+  One broken link caught and fixed in gate: /jordan-river-baptism not yet built → removed
+  from cross-links section (page backlogged for future iteration). 208 pages (+1 from 207).
+Startup: fresh cloud clone; local master diverged 50+ commits from origin/master (same
+  cloud-init issue as iter 86); git reset --hard origin/master to 33125c9. corepack+pnpm OK.
+  playwright install --with-deps failed (version mismatch 1194 vs 1228) but playwright.config.ts
+  already resolves pre-installed /opt/pw-browsers/chromium_headless_shell-1194 binary correctly.
+Gate: pnpm check 0 errors (109 files); build 208 pages; 206/206 e2e+a11y PASS (broken link
+  found in first run — fixed by removing /jordan-river-baptism ref; re-run GREEN). 
+Ship: committed to master e67bdde, pushed. CI pending at push time.
+Prod: Vercel pending after ~5min polling — next iteration confirms.
+Next: iter 88 = tools BUILD (88%5==3). Top candidate: Israel trip budget planner v2 (P2, M)
+  — extend cost calculator with accommodation tier selection + duration + daily/total breakdown.
