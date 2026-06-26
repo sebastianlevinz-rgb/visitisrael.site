@@ -2091,3 +2091,29 @@ Findings: (1) All internal links valid (rav-kav-israel, israel-esim, ben-gurion-
 Gate: pnpm check 0 errors · build 225 pages · test:e2e 250/250 pass.
 Merge: squash to master 1d01fdb, pushed.
 Prod: CI shows same pre-existing 2-sec infra failure (Playwright Chrome download) as iters 98-108. No revert. Local gate is canonical.
+
+## 2026-06-26 · iter 110 · RESEARCH · Experience-tourism & activity gap scan
+
+What: RESEARCH mode (110%5==0). Surveyed 8 competitor-informed content angles not yet in backlog:
+  (1) Hamat Gader hot springs & Israel thermal springs guide (P2, S — Golan Heights thermal resort
+      complex; wellness tourism; Bein Harim + TouristIsrael rank; zero on site);
+  (2) Israel National Trail (Shvil Yisrael) section hiking guide (P2, M — INT as bucket-list tourist
+      experience, 3–7 day sections; currently only thru-hike angle on site; NG named INT one of world's
+      greatest trails; TING + HikeIsrael rank);
+  (3) Jordan River kayaking & Galilee river adventures guide (P2, S — Kfar Blum/HaGoshrim operators;
+      family-friendly; iGoogledIsrael + GalilandGolan rank; 1 mention on site in with-kids guide only);
+  (4) Horseback riding & equestrian tours in Israel (P2, S — Sirin Riders / Vered HaGalil / King David
+      Stables; ride-israel.com + TripAdvisor rank; 1 FAQ bullet in adventure-sports only);
+  (5) Judean Hills winery day-trip guide from Jerusalem (P2, M — 40+ boutique wineries 30–45 min from
+      Jerusalem; ByFood + DebbeBest rank; wine guide has 1 paragraph; Jerusalem-based tourist segment);
+  (6) Sarona Market & TLV indoor food halls guide (P2, S — Templar-colony heritage site; 90+ vendors;
+      Nuvo + Airial rank; 1 sentence in food guide; distinct from Carmel Market + street food);
+  (7) Masada access guide: Snake Path vs Cable Car vs sunrise hike (P2, S — high-volume query cluster;
+      TouristIsrael + Bein Harim rank; masada.md + day-trip guide exist but no dedicated HOW-TO page);
+  (8) Israel music & arts festivals experience guide (P2, S — Meteor/Tamar/Jerusalem Light/JIFF/TLV Jazz;
+      TimeOut Israel + TouristIsrael rank; events calendar exists but has no HOW-TO attend content).
+
+Gate: N/A (research mode — no shipping).
+Merge: none.
+Prod: n/a.
+Loop state: iteration bumped to 110; BACKLOG now ~105 ready items; COMPETITORS.md appended.

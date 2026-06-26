@@ -1400,3 +1400,150 @@ Key findings:
 - Nomadic Matt's Israel road trip post has 850–1,000km circuit with specific cost data ($146 Jerusalem
   3-day tour, $375 5-day northern/coastal tour) — our road trip guide should include comparable context.
 - Hostelz.com shows dorms from $12 in Israel for 2026 — hostel guide pricing context.
+
+### 2026-06-26 · iter 110 · thermal springs / INT hiking / kayaking / horseback / Judean Hills wine / Sarona / Masada access / music festivals scan
+
+Searched for activity-tourism and experience-tourism angles not previously captured. Sources checked:
+TouristIsrael, BeinHarimTours, iGoogledIsrael, GalilandGolan, HikeIsrael, TING (Israel National Trail),
+Outdooractive, Tripadvisor (Hamat Gader, Kfar Blum, Masada access, Sarona, horseback riding, music festivals),
+Ride-Israel.com, Wanderlog (TLV food halls), Nuvo Magazine (Sarona), ByFood (Judean Hills wine), DebbeBest
+(Jerusalem wineries), Israel National Trail app reviews, KfarBlum.co.il, Supergan.co.il (Shvil thru-hike blog),
+Meteor Festival site, Tamar Festival at Dead Sea, TimeOut Israel events, TopHotSprings.com.
+
+- **Hamat Gader hot springs & Israel thermal springs guide (P2 gap)** — TouristIsrael ranks
+  touristisrael.com/hamat-gader; BeinHarimTours ("Hamat Gader Guide"); GalilandGolan ("Hamat Gader
+  Hot Springs and More"); TopHotSprings.com all have dedicated pages ranking well. Hamat Gader =
+  Israel's premier thermal resort complex: Golan Heights at junction of Jordan, Yarmouk, Ruqad rivers;
+  natural hot-spring pools (45°C water; alligator park on site; ancient Roman bath complex ruins);
+  spa hotel + day-pass thermal pools; 2h from TLV + 45 min from Tiberias. Distinct from Tiberias
+  thermal pools (Hamat Tiberias = archaeology site; Hamat Gader = full resort experience). Also:
+  Tiberias city hot spring baths (Roman-era thermal water within modern spa hotels; mineral content
+  certified therapeutic by Israeli standards). Our site has ZERO thermal-springs tourism content;
+  Tiberias guide (in backlog) touches archaeology but not the spa experience. High wellness-tourism
+  commercial intent; Booking.com spa-hotel CTAs. → BACKLOG (seo-content+monetization, P2, S).
+
+- **Israel National Trail (Shvil Yisrael) section hiking guide (P2 gap)** — HikeIsrael.com
+  ("Israel National Trail: A Comprehensive Guide"); TING (Israel National Trail + GreenWay info
+  partnership); Outdooractive (100+ trail segments marked); National Geographic designated it one
+  of the world's greatest trails; Supergan.co.il thru-hike community + multiple English thru-hike
+  blogs all rank. Our hiking-in-israel.md covers the INT as a 45–60 day thru-hike adventure (correct
+  but inaccessible to 95% of tourists). ZERO section-hiking content: 3–7 day accessible sections,
+  trail-angel network culture (free hospitality from Israeli families along the route = a famous
+  Israel institution), key section options (Eilat → Timna, Galilee rim, Carmel section, Jerusalem
+  hills), transport logistics for section start/end points. High-intent search: "Israel National
+  Trail 5 days" / "Shvil section hiking" / "INT hike logistics". Growing bucket-list segment
+  internationally since NG recognition. → BACKLOG (seo-content, P2, M).
+
+- **Jordan River kayaking & Galilee river adventures guide (P2 gap)** — iGoogledIsrael.com
+  ("Where to Go Kayaking in Israel: The Essential Guide"); GalilandGolan ("Kfar Blum Kayaks");
+  KfarBlum.co.il (official site: guided kayak tours Apr–Sep, 3–8km routes, group packages);
+  TripAdvisor (Kfar Blum kayaks 4.5+ rating, 300+ reviews); Bein Harim (Galilee kayaking tours
+  listed) all rank for "kayaking Israel" / "Jordan River kayaking". Our site: ONE passing mention
+  in israel-with-kids.md ("kayaking on the Jordan River"). No logistics, no operators, no seasonal
+  guidance, no comparison (Kfar Blum north vs. HaGoshrim = gentler current for children). Commercial
+  activity with clear booking intent; family-friendly; ties naturally to Sea of Galilee cluster
+  (cross-link: Tiberias guide, Galilee region, day-trips-from-tel-aviv). GYG/Viator kayak tour CTAs.
+  → BACKLOG (seo-content+monetization, P2, S).
+
+- **Horseback riding & equestrian tours in Israel (P2 gap)** — TripAdvisor (15+ horseback riding
+  tours listed; Sirin Riders P1 ranking; King David Stables); Ride-Israel.com (dedicated operator +
+  route planning); Israel-Extreme.com (equestrian activity packages); TravelUjah ("Best Horse
+  Riding in Israel") all rank for "Israel horseback riding" / "equestrian Israel". Our
+  adventure-sports.md mentions horse riding in passing (one FAQ bullet). No standalone guide.
+  Key operators: Sirin Riders (Galilee, 1–3h trail rides on Sea of Galilee rim ≈₪250–400/hr),
+  King David Stables (Judean Hills, scenic woodland + valley rides), Vered HaGalil (Galilee,
+  overnight trail rides, guesthouse on site). Family-accessible (ages 6+), no experience required
+  for trail rides; distinct from MTB/hiking adventure sports. GYG/Viator affiliate CTAs.
+  → BACKLOG (seo-content+monetization, P2, S).
+
+- **Judean Hills winery day-trip guide from Jerusalem (P2 gap)** — ByFood (Judean Hills wine
+  tasting tour from Jerusalem listing); DebbeBest ("Top 10 Jerusalem Area Winery Visits"); Exclusive
+  Israel Tours (Jerusalem wine tour packages); ViaSabra (Judean Hills wine trail guide); TripAdvisor
+  (Judean Hills wine tours 4.5+ ratings; 200+ reviews for region) all rank. Our israel-wine-wineries.md
+  covers Judean Hills in ONE paragraph ("cool hills west and south of Jerusalem, fashionable boutique-
+  winery belt, easily reachable"). No standalone guide. The gap: 40+ boutique wineries within 30–45
+  min of Jerusalem; specific winery recommendations with visits/tasting format (Tzora = award-winning
+  biodynamic; Flam = 20+ years, critic favourite; Psagot = panoramic Jerusalem Hills views; Sphera =
+  organic; Nevo = 10-acre estate); day-trip format (self-drive or private tour from Jerusalem);
+  reservation requirement (most require advance booking 1–2 weeks); costs (tasting sessions ₪50–150,
+  estate visits €80–150/couple for guided); best season (harvest Oct–Nov adds atmosphere; spring wildflowers
+  + grape bud-break also popular); pairing with Nahal Sorek hiking or Beit Guvrin caves as full-day.
+  HONESTY: exact winery prices change annually — link each winery direct; never quote exact prices.
+  Monetization: private wine tour operators (ByFood, Viator), discovercars affiliate for self-drive.
+  → BACKLOG (seo-content+monetization, P2, M).
+
+- **Sarona Market & Tel Aviv indoor food hall guide (P2 gap)** — Wanderlog (46-item TLV food-hall
+  list; Sarona prominently ranked); Nuvo Magazine ("Sarona Market Food Guide" with vendor spotlight);
+  Airial Travel (dedicated Sarona tourist guide); Visit-Tel-Aviv (Sarona highlights); Isrotel Magazine
+  all have dedicated content ranking for "Sarona Market Tel Aviv" / "Tel Aviv food halls". Our
+  tel-aviv-food-guide.md mentions Sarona in ONE sentence ("polished indoor food hall for a rainy day
+  or a sit-down graze"). The gap: Sarona Complex in former German Templar colony (WWII-era buildings
+  restored; designated heritage site); 90+ food vendors, bars, and restaurants; distinct from outdoor
+  Carmel Market and street food (indoor, curated, upscale, year-round regardless of weather = practical
+  advantage for tourists). Key vendors: Taizu (modern Asian), Nini HaSasson (Israeli comfort food),
+  multiple craft beer + wine bars, gourmet ice cream; also design boutiques + bookshops. Strong
+  "rainy day" hook + heritage building interest + foodie destination-dining. Distinct from street food
+  guide (vendor-roaming) and Carmel Market guide (outdoor produce-market). GYG food tour CTA.
+  → BACKLOG (seo-content+monetization, P2, S).
+
+- **Masada access guide: Snake Path vs Cable Car vs sunrise hike (P2 gap)** — TouristIsrael
+  ("How to Visit Masada: Snake Path vs Cable Car"); BeinHarimTours ("Masada Sunrise Hike Guide");
+  Laidback Trip (Masada access comparison page); GYG / Viator (Masada sunrise tour SKUs, 5-star
+  reviews) all rank for "Masada snake path" / "Masada cable car" / "Masada sunrise hike" —
+  consistently high-volume query cluster. Our site: masada.md attraction page + masada-dead-sea-
+  day-trip.md (day trip logistics) + national parks calculator. NONE of these are a dedicated
+  HOW-TO visitor guide addressing: Snake Path (45 min ascent; 4:30am start for sunrise; bring 2L
+  water + torch; closed in extreme heat July–Aug 10am–3pm); Cable Car (opens 8am; ₪92 round-trip;
+  30-day advance ticket booking recommended May–Sep; limited capacity); Sunrise hike logistics
+  (arrive Masada at 4am; park gates open 4am; Snake Path; top at dawn — most dramatic views); who
+  should choose each option (family with kids = cable car; fitness hikers = snake path; bucket-list
+  experience = sunrise hike); Masada Sound+Light Show (seasonal Mar–Oct Tue+Thu 9pm — verify with
+  INPA for current schedule); top-of-fortress what to see (Northern Palace, serpentine path, storerooms,
+  synagogue, Herod's palace terrace). Dense cross-links: national-parks-pass, dead-sea-practical,
+  masada-dead-sea-day-trip, jordan-river-baptism. Monetization: GYG Masada sunrise tour CTA + INPA pass.
+  HONESTY: sunrise time varies by season — direct to sunrise calculator; heat warnings mandatory; Cable
+  Car ticket availability = must verify on INPA/masada.org.il — cannot guarantee 30-day in all seasons.
+  → BACKLOG (seo-content+monetization, P2, S).
+
+- **Israel music & arts festivals guide (P2 gap)** — TimeOut Israel (annual festivals guide);
+  TouristIsrael ("Best Music Festivals in Israel 2026"); JPost events calendar; Israel21c
+  ("Top Music Festivals in Israel") + festival official sites all rank. Our israel-events-festivals.md
+  is a calendar (lists festivals briefly by month) — NOT a guide to the EXPERIENCE of attending.
+  Key festivals with distinct tourist appeal: Meteor Festival (electronic/ambient music in Negev
+  desert, Ramon Crater setting = one of world's most unique festival venues — international artists;
+  typically September; tickets ₪450–900 multi-day; camping on crater rim); Tamar Festival (classical
+  + world music at Dead Sea salt flats, outdoor stage; October); Jerusalem Light Festival (arts/light
+  installations in Old City streets; free walking route; June; 200k+ visitors); Tel Aviv Gay Pride
+  Week (June; parade + parties; free parade, club events); Eilat Groove (jazz + R&B; December;
+  indoor venue + beach stages); Purim TLV street parties (costume culture, Feb/March; Dizengoff Square
+  main stage + bar crawl; not a ticketed festival but significant tourist experience); Jerusalem Film
+  Festival (July; internationally recognised; Cinematheque venue + open-air). Distinct from events-
+  festivals.md: that page tells WHEN; this tells HOW to attend (tickets, logistics, camping, crowd
+  management). GYG "festival tour" CTAs + accommodation cross-links (where to stay near Mitzpe Ramon
+  for Meteor). HONESTY: festival dates shift by 2–3 weeks year to year — ALWAYS link official festival
+  site for current dates; ticket prices above are 2026 approximations — link for current. → BACKLOG
+  (seo-content, P2, S).
+
+DE-DUPED (not added from iter 110 research):
+- Digital nomad coworking guide: already in backlog (iter30, P3, M "digital nomad guide TLV") —
+  coworking infrastructure is best folded into that guide as a dedicated section, not a new page.
+- Judean Hills hike standalone: best folded into the planned hiking trails category (hiking-in-israel.md
+  + INT section guide planned above) rather than a geography-specific hike page.
+- Masada Sound+Light Show standalone: included within the Masada access guide above; not enough content
+  for a separate page (seasonal events page = redundant with events guide).
+- Israel cooking class guide vs food tours: food-tours-cooking-classes.md EXISTS and is DONE.
+
+CAUTION (iter 110): Hamat Gader = Israeli-operated site in the Golan Heights (territory context applies);
+  never assert permanent Israeli sovereignty; link is-israel-safe for current access context. Golan Heights
+  military areas adjacent to ski resort + Hamat Gader — never photograph military infrastructure.
+  INT trail angels: personal hospitality not guaranteed; frame as "a famous Israeli tradition, often
+  spontaneously offered along the route" not as a formal booking system. Kfar Blum kayaks are in
+  the Jordan Valley north (Upper Galilee / Galil Elyon area — not the southern Jordan River near
+  Jericho); don't conflate with political/border-area associations of southern Jordan River. Horseback
+  riding: age/weight limits vary by operator (many = 12+ and <90kg for trail rides) — state clearly.
+  Judean Hills wine: some smaller wineries only open Fri–Sat or by appointment; always verify operating
+  days; kosher certification varies (most Judean Hills wineries are kosher but not all). Masada heat:
+  in July–Aug, Masada INPA closes the Snake Path between 10am–3pm for heat safety — this must be stated.
+  Music festivals: Meteor has camping in Negev — summer/autumn desert camping = extreme temperature swings;
+  always include realistic weather framing. Jerusalem Festival of Light in Old City: tight alleys + large
+  crowds + late night (9pm–midnight) — sensible safety advice for solo travelers.
