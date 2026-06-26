@@ -1,28 +1,34 @@
 # LOOP STATE
 
-- iteration: 94
-- lastMode: REVIEW
-- lastItem: Shabbat calendar DST bug fix + travel-time footer link
-- lastResult: SHIPPED 5b30786 — gate GREEN (0 errors / 211 pages / 214/214 e2e PASS)
-- nextRotationCategory: 95%5==0 → RESEARCH; 96%5==1 → monetization; 97%5==2 → seo-content; 98%5==3 → tools
+- iteration: 95
+- lastMode: RESEARCH
+- lastItem: competitor gap scan — Rav-Kav guide + tools + Qumran + Carmel Market + car-quiz + TLV tours
+- lastResult: NO SHIP (RESEARCH mode) — 6 net-new items added to BACKLOG
+- nextRotationCategory: 96%5==1 → monetization; 97%5==2 → seo-content; 98%5==3 → tools; 99%5==4 → REVIEW
 - higgsfieldSpent: 0
 - updatedAt: 2026-06-26
 - branch context: work on master; feature work on auto/<slug>
 
-Notes: iter 94 REVIEW — audited tools from iters 78/83/88/93 (shabbat calendar, visa checker,
-  trip cost calculator v2, travel time calculator).
-  CI for iter93 (79a1e37): CONFIRMED SUCCESS on GitHub Actions.
-  All 4 tools: internal links verified (all pages exist), JSON-LD (FAQPage+BreadcrumbList on all 4),
-  a11y clean (aria-live, role=status, labels present), honesty caveats present.
-  Two actionable fixes found and shipped in one branch:
-  (1) DST end rule in shabbat calendar: code checked for last Saturday of October (JS day 6)
-      but Israeli DST ends on last Sunday (JS day 0) since 2013 law. Fixed to != 0. This was
-      causing displayed candlelighting times to be ~1h late for up to 6 days in late October.
-  (2) /israel-travel-time missing from footer — all 3 sibling tools (shabbat-calendar,
-      visa-checker, trip-cost-calculator) were in footer but travel-time was not. Added between
-      distance-calculator and how-many-days.
+Notes: iter 95 RESEARCH — searched touristisrael.com, thingstodoinisrael.com, israeltraveladvisor.org,
+  backpackisrael.com, mukikapupstravels.com, timeout.com/israel, wanderingcarol.com, glamping.co.il,
+  travelingisrael.com, laidbacktrip.com for content gaps. Backlog is dense (~84+ ready items) after
+  94 iterations. Found 6 genuinely new items after thorough de-duplication:
+  (1) Rav-Kav tourist card guide (P1, S) — critical practical guide, every tourist needs it,
+      touristisrael/travelingisrael/israeltraveladvisor all rank; only 2 sentences in transportation.md
+  (2) National Parks Pass cost calculator tool (P2, tools, S) — no competitor has interactive tool;
+      our existing guide describes 3 cards (Blue/Green/Orange), tool picks best value for your parks
+  (3) Qumran & Dead Sea Scrolls visitor guide (P2, S) — major archaeological site adjacent to Dead Sea;
+      touristisrael/tripadvisor rank for it; zero content on site; INPA pass valid
+  (4) Tel Aviv Carmel Market complete guide (P2, S) — market mentioned in 5 existing/backlog pages
+      but no dedicated guide; touristisrael/timeout rank; distinct from food guide
+  (5) "Should I rent a car in Israel?" interactive decision quiz (P2, tools, S) — car-rental guide
+      (done) covers logistics, driving guide (done) covers rules; no tool to help decide yes/no
+  (6) Tel Aviv tours compared money page (P2, monetization, S) — follows masada/galilee/jerusalem/petra
+      pattern (all shipped), TLV city tours missing from comparison; GYG/Viator affiliate CTAs
 
-NEXT: iter 95 = RESEARCH (95%5==0). Research 1-2 competitors for profitable features/content gaps
-  we lack. Suggested focus areas: tools category (still thin after 4 shipped), or fresh content
-  gap research (Eilat guide, Haifa guide, Jerusalem food guide are all P2/M items in backlog).
-  Cap at 6-10 new backlog items.
+NEXT: iter 96 = BUILD/monetization (96%5==1). Top monetization items in backlog:
+  - Tel Aviv tours compared (P2, S) — new this iteration, high-commercial-intent, proven format
+  - Israel accommodation guide hub (P2, S)
+  - Israel zimmer guide (SHIPPED iter91 — check if removed from backlog)
+  - Israel where to base yourself guide (P2, S)
+  Check backlog top for highest-priority monetization item.

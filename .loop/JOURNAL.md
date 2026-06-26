@@ -1775,3 +1775,27 @@ Gate: pnpm check 0 errors (110 files); pnpm build 211 pages; pnpm test:e2e 214/2
 Ship: committed to master 5b30786, pushed. Branch auto/review-94-shabbat-dst-footer deleted.
 Prod: CI + Lighthouse in_progress at push — typical pattern, expected to succeed.
 Next: iter 95 = RESEARCH (95%5==0). Research competitors for profitable features/content gaps.
+
+## 2026-06-26 · iter 95 · RESEARCH · competitor gap scan — Rav-Kav + INPA calculator + Qumran + Carmel Market + car-quiz + TLV tours
+Mode: RESEARCH (95%5==0). No code changed; gate not run.
+Sources: touristisrael.com (WebSearch fallback — 403), thingstodoinisrael.com, israeltraveladvisor.org
+  (WebSearch fallback — 403), backpackisrael.com, mukikapupstravels.com, timeout.com/israel,
+  wanderingcarol.com, glamping.co.il, travelingisrael.com, laidbacktrip.com.
+De-duped against DONE.md + full BACKLOG (~84 ready items). Many candidates already present:
+  glamping (iter60), Mitzpe Ramon guide (iter85), solo travel (iter20+50), honeymoon (iter20),
+  luxury travel (iter60), Haifa/Eilat/Jerusalem food/Jaffa/White City/Druze Carmel all in backlog.
+6 net-new BACKLOG items added:
+  1. Rav-Kav Israel tourist card guide (P1, seo-content, S) — every tourist needs it; touristisrael,
+     travelingisrael, israeltraveladvisor all rank for it; site has only 2 sentences in transportation.md.
+  2. Israel National Parks Pass cost calculator (P2, tools, S) — interactive tool: checkbox 20+ INPA sites
+     → JS picks cheapest of Blue/Green/Orange card; no competitor has interactive version of this.
+  3. "Should I rent a car in Israel?" decision quiz (P2, tools, S) — 6-question flowchart → yes/no/maybe
+     verdict with reasoning; distinct from existing car-rental-israel.md (logistics) and driving guide (rules).
+  4. Qumran & Dead Sea Scrolls visitor guide (P2, seo-content+monetization, S) — major archaeological site
+     adjacent to Dead Sea; touristisrael/tripadvisor rank; zero content on site; INPA pass valid.
+  5. Tel Aviv Carmel Market complete guide (P2, seo-content+monetization, S) — market mentioned in 5 existing
+     pages but no dedicated guide; touristisrael/timeout.com/israel rank for it.
+  6. Tel Aviv tours compared money page (P2, monetization, S) — follows masada/galilee/jerusalem/petra pattern
+     (all shipped); TLV city-tour comparison missing; GYG/Viator CTAs; TourVerdict component.
+Next: iter 96 = BUILD/monetization. Top candidate: Tel Aviv tours compared money page (proven format,
+  highest commercial intent, quickest to implement following existing pattern).

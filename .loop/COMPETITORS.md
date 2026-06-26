@@ -1261,3 +1261,24 @@ Searched for: (1) interactive tools competitors have that we lack; (2) accommoda
   about smaller infrastructure; honest trade-off framing is the key to trust here.
 - Pride guide: party lineup and venue information change each year; NEVER hardcode specific party names
   as current; always link official Tel Aviv Gay Center / Tel Aviv Pride org website for current lineup.
+
+### 2026-06-26 · iter 95 · broad gap scan (touristisrael/thingstodoinisrael/laidbacktrip/timeout/wanderingcarol)
+Sources: touristisrael.com (403 → WebSearch fallback), thingstodoinisrael.com, israeltraveladvisor.org
+  (403 → WebSearch fallback), backpackisrael.com, mukikapupstravels.com, timeout.com/israel,
+  wanderingcarol.com, glamping.co.il, travelingisrael.com, laidbacktrip.com.
+Key findings:
+- **Rav-Kav card**: touristisrael.com, travelingisrael.com, israeltraveladvisor.org all rank page-1 for
+  "rav kav israel tourist" — our site has 2 sentences only. High-volume practical query; add dedicated guide.
+- **INPA National Parks Pass**: no competitor has an interactive calculator — they all describe the 3-card
+  tiers in prose (Blue/Green/Orange). Tooling moat opportunity: build checkbox picker → JS cost comparison.
+- **Car rental decision**: touristisrael/laidbacktrip have "should you rent a car" prose; none have an
+  interactive flowchart quiz. Distinct from car-rental-israel.md (logistics) and driving guide (rules).
+- **Qumran**: tripadvisor and touristisrael rank for "Qumran national park visitor guide"; zero content
+  on site. Adjacent to Dead Sea guide (already done); logical next content piece for Dead Sea cluster.
+- **Carmel Market**: timeout.com/israel and touristisrael both rank for Tel Aviv market guides with
+  Carmel Market as centerpiece; we mention it in 5 pages but have no dedicated guide.
+- **TLV tours compared**: Viator/GYG/Abraham Tours/Bein Harim all heavily promote TLV city tours; our
+  masada/galilee/jerusalem/petra comparison format is proven — TLV is the obvious missing vertical.
+Already-captured — do NOT re-add: glamping (iter60), Mitzpe Ramon guide (iter85), solo travel
+  (iter20+50), honeymoon (iter20), luxury (iter60), Haifa/Eilat/Jerusalem food/Jaffa/White City/Druze
+  Carmel/eSIM/Light Rail/Jordan River baptism/accommodation hub/base city — all confirmed in backlog.
