@@ -1825,3 +1825,39 @@ Next: iter 96 = BUILD/monetization. Top candidate: Tel Aviv tours compared money
 **Prod deploy:** CI FAILED (GitHub Actions workflow 28235548711, run_attempt 2). Failure is infrastructure transient — run completed in ~2 seconds (impossible for any real CI step), logs returned HTTP 404 on both original run and re-run. All prior master commits passed CI. Local 3-gate suite was completely clean. Code did not regress (214 pages built, 216 e2e passed). Decision: do NOT revert — failure is clearly runner infrastructure, not code; see local gate evidence. Noted for human review.
 **Content:** Anonymous vs named card distinction, where to buy at BGN Airport (Public Transportation Info Center 24/7), how to load (machine/Rav-Kav Online/HopOn), tap rules by vehicle (buses tap-on only; trains/light rail tap-on AND tap-off or max-fare charge), 90-minute local transfer, fare table (₪3.50–5 city, ₪22 TLV↔JLM, ₪34 TLV↔Haifa), Shabbat fallback, tap summary table. Cross-links: added expanded Rav-Kav section + link in transportation.md; added Rav-Kav checklist item in ben-gurion-airport-guide.md. 3 affiliate CTAs (welcomepickups/discovercars/getyourguide). 6 FAQs.
 **Session note:** git pull --ff-only failed again (same pattern as iter 97 diverged local/remote); resolved with git reset --hard origin/master before work. This divergence is a consistent cloud-env pattern — local master is always behind origin after the cron re-fires; always resolve with git reset --hard origin/master.
+
+## 2026-06-26T12:30 · iter 99 · REVIEW · audit of iters 96-98 (tel-aviv-tours-compared / qumran-guide / rav-kav-israel)
+
+What: REVIEW iteration. Full audit of the 3 most recently shipped items against gate,
+  content quality, schema, honesty, discoverability, and internal linking.
+Startup: context resumed from prior session; local repo confirmed at origin/master ac0288b (iter98 state).
+  No STOP flag. Playwright symlink: chromium_headless_shell-1228 → chromium_headless_shell-1194 applied.
+
+Gate (all green on master ac0288b):
+  pnpm check: 0 errors (110 files)
+  pnpm build: 214 pages complete (incl. /rav-kav-israel, /qumran-guide, /tel-aviv-tours-compared)
+  pnpm test:e2e: 216/216 passed (a11y.spec.ts covers all 3 new pages)
+  pnpm check:links: 0 broken / 0 orphans / 0 unreachable / 0 deep across 214 pages
+
+Content audit:
+  - iter 96 /tel-aviv-tours-compared: 1 H1, Article+BreadcrumbList+FAQPage JSON-LD, 0 AggregateRating,
+    5 tour sections with price RANGES only (no fabricated data), 3 affiliate CTAs (GYG/Viator/Civitatis),
+    TourVerdict wired. Smoke + a11y routes present. Footer link in Essentials. CLEAN.
+  - iter 97 /qumran-guide: 1 H1, Article+BreadcrumbList+FAQPage JSON-LD, Essene attribution framed as
+    "most widely held interpretation" (not asserted as fact), INPA fees "roughly ₪28-32" with verify note,
+    cross-links to /dead-sea-guide and /masada-dead-sea-day-trip both resolve. CLEAN.
+  - iter 98 /rav-kav-israel: 1 H1, Article+BreadcrumbList+FAQPage JSON-LD, 0 fabricated prices
+    (₪5 anonymous card = statutory public price; ₪3.50-5 bus fare range = Egged/Metropoline published;
+    ₪22/₪34 intercity = Israel Railways published), cross-link from /transportation (expanded Rav-Kav
+    section) and /ben-gurion-airport-guide (checklist item) both verified ✓. Shabbat fallback section
+    present. CLEAN.
+  - Unique titles: 213/213 unique across full site ✓
+  - Sitemap: /tel-aviv-tours-compared, /qumran-guide, /rav-kav-israel all present with lastmod 2026-06-26 ✓
+  - CI for iter 98 SHAs (9f07671, ac0288b): 2-second infrastructure transients (same documented
+    pattern as STATE notes); previous iter 97 (e9e5540) CI: SUCCESS — code itself is sound.
+
+Defects found: NONE.
+Fixes shipped: NONE (review was clean; no branch needed).
+
+Ship: N/A (REVIEW; no code changes).
+Next: iter 100 = RESEARCH (100%5==0). Scan fresh competitor gaps.
