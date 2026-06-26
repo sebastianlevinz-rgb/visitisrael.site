@@ -1,6 +1,6 @@
 ---
-title: 'Eilat Tours Compared: Red Sea, Desert, Petra & Dolphin Tours (2026)'
-description: 'Eilat tours compared: Red Sea snorkeling and diving tours, Eilat Mountains jeep safaris, Petra day trips from Eilat, Dolphin Reef experiences and glass-bottom boat tours — which is right for you and where to book.'
+title: 'Eilat Tours Compared: Red Sea, Petra & Desert Safaris 2026'
+description: 'Eilat tours compared: Red Sea snorkeling, Eilat Mountains jeep safaris, Petra day trips and Dolphin Reef — what each covers and where to book.'
 heroImage: /images/regions/eilat/red-sea.jpg
 category: Tours
 verdictName: Eilat tours

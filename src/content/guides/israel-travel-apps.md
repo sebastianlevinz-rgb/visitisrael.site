@@ -1,6 +1,6 @@
 ---
-title: 'Essential Israel Travel Apps 2026: Transport, Food, Taxis & More'
-description: 'The best apps for traveling in Israel in 2026 — Moovit for buses, Waze for driving, Gett for taxis, Pango for parking, Wolt for food delivery, and what to download before you land.'
+title: 'Best Israel Travel Apps 2026: Moovit, Waze, Gett & Pango'
+description: 'Top apps for Israel travel: Moovit for buses, Waze for driving, Gett for taxis, Pango for parking, WhatsApp essential. Download all before you land.'
 heroImage: /images/regions/tel-aviv/hero.jpg
 category: Planning
 updatedAt: 2026-06-26

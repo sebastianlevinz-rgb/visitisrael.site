@@ -1,6 +1,6 @@
 ---
-title: 'Where to Stay in Israel: Types of Accommodation Compared (2026)'
-description: 'Hotels, zimmers, kibbutz guesthouses, hostels, glamping, Bedouin tents — a complete guide to Israel accommodation types for 2026 with price ranges, traveller profiles and honest booking advice.'
+title: 'Where to Stay in Israel: Accommodation Types Compared 2026'
+description: 'Hotels, kibbutz guesthouses, zimmers, hostels, glamping and Bedouin camps — Israel accommodation guide with 2026 price ranges and honest booking advice.'
 heroImage: /images/regions/jerusalem/hero.jpg
 category: Accommodation
 updatedAt: 2026-06-26
