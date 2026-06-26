@@ -2047,3 +2047,22 @@ Gate: pnpm check 0 errors · build 223 pages (+1) · test:e2e 240/240 pass.
 Merge: squash to master 2195040, pushed.
 Prod: Vercel auto-deploys on push. GitHub CI has pre-existing infra failure (Playwright Chrome download
 fails in GHA; same as iters 98/101/102/103 — no revert needed). Local gate is canonical.
+
+## 2026-06-26T20:33 · iter 107 · BUILD/seo-content · Israel travel apps guide
+
+What: New /israel-travel-apps — comprehensive guide to 10 essential Israel travel apps (2026).
+Transport: Moovit (public transit, real-time, better than Google Maps for Israeli buses),
+  Waze (Israeli-built navigation, Route 6 toll routing, speed camera alerts),
+  Gett (ride-hailing; TLV only for Uber; Gett covers Jerusalem/Haifa/countrywide),
+  Rav-Kav Online (transit top-up via app; honest caveat: international cards sometimes fail — keep physical Rav-Kav),
+  Lime (e-scooters/e-bikes in TLV + Jerusalem).
+Parking: Pango (metered street parking payment; zone number or QR code; remote time extension).
+Food: Wolt (delivery, English menus), Ten Bis (restaurant discovery, primarily Hebrew but navigable).
+Communication: WhatsApp (essential — Israeli hotels/businesses/guides use exclusively),
+  Google Translate (camera-scan Hebrew menus; download Hebrew offline pack before flying).
+Pre-flight checklist table: Moovit/Waze/Gett/Pango/WhatsApp/Google Translate (all register before landing).
+Dense cross-links: transportation, driving-in-israel, israel-esim, rav-kav-israel, ben-gurion-airport-guide.
+Gate: pnpm check 0 errors · build 224 pages (+1) · test:e2e 242/242 pass.
+Merge: squash to master 4649a54, pushed.
+Prod: GitHub CI shows failure — confirmed same 2-second pre-existing infra failure (Playwright Chrome
+  download fails in GHA) as iters 98/101/102/103/104/105/106. No revert. Local gate is canonical.
