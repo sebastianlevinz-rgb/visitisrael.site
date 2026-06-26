@@ -1,33 +1,34 @@
 # LOOP STATE
 
-- iteration: 99
-- lastMode: REVIEW
-- lastItem: REVIEW audit iters 96-98 (tel-aviv-tours-compared / qumran-guide / rav-kav-israel)
-- lastResult: CLEAN — pnpm check (0 errors, 110 files), pnpm build (214 pages), pnpm test:e2e (216/216 passed); 0 broken links / 0 orphans / 0 unreachable / 0 deep across 214 pages; schema, honesty, H1, unique-titles all clean; no fixes needed; no ship
-- nextRotationCategory: 100%5==0 → RESEARCH; 101%5==1 → BUILD/monetization; 102%5==2 → BUILD/seo-content; 103%5==3 → BUILD/tools; 104%5==4 → REVIEW
+- iteration: 100
+- lastMode: RESEARCH
+- lastItem: RESEARCH iter100 — 7 new backlog items (Bethlehem guide, Eilat tours compared, South Israel itinerary, Israel+Egypt, rainy-day activities, Jerusalem Festival of Light, Haifa food guide)
+- lastResult: RESEARCH — no ship. Container had stale local master (50 diverged commits from Jun 23); hard-reset to origin/master (iter 99 HEAD) before proceeding. 7 new items added to BACKLOG; findings in COMPETITORS.md.
+- nextRotationCategory: 101%5==1 → BUILD/monetization; 102%5==2 → BUILD/seo-content; 103%5==3 → BUILD/tools; 104%5==4 → REVIEW; 105%5==0 → RESEARCH
 - higgsfieldSpent: 0
 - updatedAt: 2026-06-26
 - branch context: work on master; feature work on auto/<slug>
 
-Notes: iter 99 REVIEW — full audit of the iter 96-98 slice (tel-aviv-tours-compared,
-  qumran-guide, rav-kav-israel). Gate ran completely clean: 0 TS errors, 214 pages built,
-  216/216 e2e+a11y tests passed (Playwright chromium_headless_shell-1228 symlink to 1194 applied),
-  pnpm check:links returned 0 broken / 0 orphans / 0 unreachable / 0 deep across 214 pages.
+Notes: iter 100 RESEARCH — stale container recovery: local master had diverged 50 commits from
+  origin (Jun 23 commits vs origin/master at iter 99 Jun 26). Hard-reset local to origin/master
+  before any work. No auto/* branches to recover.
 
-  Content audit results:
-  - JSON-LD schemas: Article + BreadcrumbList + FAQPage on all 3 new pages; 0 AggregateRating /
-    0 fabricated ratingValue — honesty intact.
-  - H1 discipline: exactly 1 H1 per page on all 3 new pages ✓
-  - Unique titles: 213/213 unique across full site ✓
-  - Sitemap: all 3 new pages present with lastmod 2026-06-26 ✓
-  - Cross-links: /rav-kav-israel linked from /transportation (expanded section) and
-    /ben-gurion-airport-guide (checklist item) ✓
-  - Honesty: rav-kav prices are statutory/ranges (₪5 anonymous card, ₪3.50-5 city fares,
-    ₪22/34 intercity). qumran-guide uses "most widely held" framing for Essene attribution;
-    fees framed as "roughly ₪28-32". tel-aviv-tours-compared uses price ranges, 0 fabricated data.
-  - CI for iter 98 (9f07671 + ac0288b) shows 2-second transient infrastructure failure —
-    consistent with documented pattern; previous iter (e9e5540 qumran) CI: success.
-  No defects found; no fixes shipped.
+  Research method: 8 targeted web searches covering Tourist Israel taxonomy, competitor money
+  pages, Negev/South Israel itinerary gaps, Bethlehem visitor guides, Haifa food scene,
+  Israel+Egypt combos, rainy day activities, Jerusalem annual events.
 
-NEXT: iter 100 = RESEARCH (100%5==0). Scan for fresh competitor content gaps and profitable
-  feature opportunities not yet in backlog. Backlog currently has ~85+ ready items.
+  7 new BACKLOG items added (see BACKLOG.md iter100 research tags):
+  1. Bethlehem complete visitor guide (P2, M) — distinct from existing jerusalem-bethlehem-day-trip
+  2. Eilat tours compared money page (P2, S) — extends proven tours-compared format to Eilat
+  3. South Israel/Negev circuit road trip itinerary (P2, M) — Beer Sheva→Avdat→Mitzpe Ramon→Eilat
+  4. Israel + Egypt combined travel guide (P2, M) — distinct from Israel+Jordan; Taba crossing
+  5. Israel rainy day activities guide (P3, S) — Tourist Israel has this; winter visitor need
+  6. Jerusalem Festival of Light dedicated guide (P3, S) — 200k+ visitors annual; 1 line in events-festivals
+  7. Haifa food guide (P3, S) — gap in food guide coverage; Wadi Nisnas + German Colony
+
+  De-duped: money/ATM guide already in backlog (iter80); Israel+Jordan already in backlog;
+  "best time" seasonal content already in backlog; photography guide already in backlog;
+  traveling-israel-jewish-holidays covers Passover (Jerusalem Festival of Light is DISTINCT).
+  Backlog now ~92 ready items.
+
+NEXT: iter 101 = BUILD/monetization. Pick top monetization item from backlog.

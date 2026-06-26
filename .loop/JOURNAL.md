@@ -1861,3 +1861,37 @@ Fixes shipped: NONE (review was clean; no branch needed).
 
 Ship: N/A (REVIEW; no code changes).
 Next: iter 100 = RESEARCH (100%5==0). Scan fresh competitor gaps.
+
+## 2026-06-26 · iter 100 · RESEARCH · 7 new backlog items
+
+Recovery: stale container — local master was 50 commits behind origin/master (diverged Jun 23 session
+  commits vs origin at iter 99 Jun 26). Hard-reset to origin/master before research.
+
+Research: 8 web searches covering Tourist Israel new pages, money-page gaps (Eilat/Bethlehem),
+  South Israel circuit itinerary, Israel+Egypt combo travel, indoor/rainy-day activities,
+  Jerusalem annual events, Haifa food scene.
+
+7 new items added to BACKLOG (all confirmed not already present):
+  1. Bethlehem complete visitor guide (P2, M) — elijah tours/Tourist Israel/Bein Harim all rank;
+     distinct from jerusalem-bethlehem-day-trip.md (itinerary) — standalone destination guide
+     covering Checkpoint 300, Church of Nativity, Manger Square, Banksy Wall, where to eat;
+     heavy honesty requirements: evergreen safety framing, link to home govt advisories, no
+     political editorial, "routinely visited by tourists" framing with appropriate caveats.
+  2. Eilat tours compared (P2, S) — GYG (from $22), Viator (20 Best Eilat Tours 2026), Tourist
+     Israel (9 Eilat tour categories) all have inventory; extends proven money-page format.
+  3. South Israel/Negev circuit road trip itinerary (P2, M) — BackpackIsrael ranks 6-day Negev
+     itinerary; notesontraveling.com, desertsfun.com, Viator private Negev tours all rank; fills
+     the car-rental → itinerary funnel for the Negev; complements mitzpe-ramon/eilat destination guides.
+  4. Israel + Egypt combined travel guide (P2, M) — Tourist Israel ("Visit Cairo from Israel");
+     egypttoursplus.com, nomadicniko.com rank; distinct from Israel+Jordan (Taba crossing vs Allenby);
+     requires prominent safety framing (US Embassy Taba March 2026 alert noted); evergreen advisory links.
+  5. Rainy day activities Israel (P3, S) — Tourist Israel has separate Jerusalem + TLV rainy day pages;
+     Bein Harim, TripAdvisor, lux-israel.com rank; winter visitor need unmet in current site content.
+  6. Jerusalem Festival of Light guide (P3, S) — Tourist Israel; visitjlm.com; Time Out Israel rank;
+     200,000+ annual visitors; currently 1 line in events-festivals.md; dedicated guide captures
+     "June Jerusalem" search intent + planning season (April–May) traffic.
+  7. Haifa food guide (P3, S) — BackpackIsrael (Wadi Nisnas), TripAdvisor, Fodor's, Evendo rank;
+     logical complement to haifa-travel-guide backlog item; Wadi Nisnas + German Colony dining districts.
+
+Ship: N/A (RESEARCH). No code changes.
+Next: iter 101 = BUILD/monetization.

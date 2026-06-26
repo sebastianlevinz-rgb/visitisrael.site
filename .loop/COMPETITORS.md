@@ -1282,3 +1282,46 @@ Key findings:
 Already-captured — do NOT re-add: glamping (iter60), Mitzpe Ramon guide (iter85), solo travel
   (iter20+50), honeymoon (iter20), luxury (iter60), Haifa/Eilat/Jerusalem food/Jaffa/White City/Druze
   Carmel/eSIM/Light Rail/Jordan River baptism/accommodation hub/base city — all confirmed in backlog.
+
+### 2026-06-26 · iter 100 · South Israel/Bethlehem/Eilat tours/Egypt/rainy-day/Festival-of-Light/Haifa-food scan
+Sources: touristisrael.com, backpackisrael.com, thingstodoinisrael.com, bein-harim.com,
+  elijah-tours.com, visitjlm.com, tripadvisor.com/Israel, fodors.com, lonelyplanet.com/israel,
+  US Embassy Cairo travel advisory (March 2026), TimeOut Israel.
+Key findings:
+- **Bethlehem visitor guide**: elijah-tours.com, touristisrael.com, and bein-harim.com all rank page-1
+  for "visiting Bethlehem from Jerusalem". We have jerusalem-bethlehem-day-trip.md (itinerary format)
+  but no standalone destination guide. Gap: Checkpoint 300 logistics, Church of Nativity interior layout,
+  Manger Square, Shepherds' Field, Banksy Walled Off Hotel/Wall art, Palestinian craft shops. Heavy
+  honesty framing mandatory — political neutrality, West Bank advisory, no fabricated "safety scores".
+  Monetization: Elijah Tours, Bein Harim, Viator West Bank tours.
+- **Eilat tours compared**: GYG and Viator both show 80+ Eilat tour SKUs; backpackisrael.com and
+  touristisrael.com list top Eilat activities. We have eilat-travel-guide.md but no "tours compared"
+  money page. Gap: snorkeling/diving, jeep/4x4 desert, Petra day-trip from Eilat, glass-bottom boat,
+  Dolphin Reef — identical verdict-box format proven on masada-tours-compared and similar pages.
+- **South Israel/Negev circuit**: backpackisrael.com "6 Days in the Negev" and lonelyplanet.com Negev
+  section rank well. We have mitzpe-ramon-guide in backlog, but no road-trip itinerary connecting
+  Beer Sheva → Ein Avdat → Avdat → Mitzpe Ramon → Timna → Eilat. 4-5 day self-drive; car rental
+  affiliate is the primary CTA.
+- **Israel + Egypt combined guide**: touristisrael.com ranks for "Israel and Egypt itinerary"; Taba
+  crossing (Eilat → Taba → Dahab/Sharm) is heavily searched. Distinct from Israel+Jordan (different
+  border crossing, different affiliate partners). US Embassy Cairo issued a March 2026 Level 2 alert
+  for Taba region; South Sinai remains lower-risk than North Sinai. Honesty rules: must cite current
+  advisory, never assert Sinai is "safe", distinguish North vs South Sinai risk profiles explicitly.
+- **Rainy day activities Israel**: touristisrael.com has dedicated Jerusalem rainy-day and TLV rainy-day
+  pages that rank in winter months. We have zero rainy-day coverage. Gap is modest but fills a real
+  winter-visitor need: museums, cooking classes, wine tasting (Golan winery visits), spa days, indoor
+  markets, food halls. A single guide covering nationwide options is enough.
+- **Jerusalem Festival of Light**: visitjlm.com and touristisrael.com both rank for "Jerusalem Light
+  Festival 2026". Our events-festivals.md mentions the festival in one line. 200k+ annual visitors;
+  free walking route through Old City, June/July timing. A dedicated 600w guide with route map notes,
+  best viewing spots, logistics (parking, crowds) would capture clear organic traffic.
+- **Haifa food guide**: backpackisrael.com, tripadvisor.com/Restaurant_Review, and fodors.com all rank
+  for "best restaurants Haifa". We have haifa-travel-guide in backlog but no food-specific page.
+  Wadi Nisnas (Arab street food, hummus) and German Colony (upscale dining) are the two anchor zones.
+  Complements the base city guide; stand-alone food page captures "best food Haifa" queries separately.
+De-duplication check: jerusalem-bethlehem-day-trip.md is an itinerary, not a destination guide (DISTINCT).
+  Israel+Jordan itinerary already in backlog (Egypt via Taba is a different crossing — DISTINCT).
+  events-festivals.md mentions Festival of Light in 1 line (standalone guide is DISTINCT).
+  money/ATM guide already in backlog from iter80 — not re-added.
+  traveling-israel-jewish-holidays covers Passover; Festival of Light is a visual arts event (DISTINCT).
+  Backlog now ~92 ready items.
