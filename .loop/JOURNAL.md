@@ -1708,3 +1708,25 @@ Gate: pnpm check 0 errors (109 files); pnpm build 209 pages (up from 208); pnpm 
 Ship: committed to master 59f8018, pushed. Branch auto/zimmer-guide deleted.
 Prod: CI + Lighthouse in_progress at push — typical pattern, expected to succeed.
 Next: iter 92 = BUILD (92%5==2 → seo-content). Top candidate: Israel eSIM guide or money/ATM guide (P2, S).
+
+## 2026-06-26 · iter 92 · BUILD (seo-content) · Israel money, ATM & currency guide
+What: Shipped /israel-money-guide — comprehensive practical guide targeting "money in Israel tourist
+  guide", "ATM Israel tips", "Israel currency 2026", "best way to pay in Israel". Competitors ranking:
+  exclusiveisraeltours.com, travelwithhello.com, thecurrencyshop.com.au, go-telaviv.com. We had no
+  dedicated guide (only israel-cost-budget + currency-tipping tool). Content: NIS denominations (coins
+  ₪0.5–10, notes ₪20–200); ATM strategy (Bank Leumi/Hapoalim/Discount; 4-digit PIN requirement; always
+  choose NIS to avoid DCC); DCC explanation with comparison table showing how to decline at ATMs and
+  card terminals; credit card landscape (Visa/MC universal, Amex selective); Shabbat cash strategy
+  (withdraw Thu/Fri morning — machines run low by Friday afternoon); currency exchange comparison table
+  (airport worst → bank ATM best); cash-only markets (Machane Yehuda, Carmel Market, Old City bazaar);
+  Wise/Revolut editorial mention. SafetyWing travel insurance affiliate CTA. Footer Essentials link.
+  Dense cross-links: israel-cost-budget, israel-tipping-currency, transportation, ben-gurion-airport-guide,
+  first-time-in-israel. Chose money guide over eSIM guide since israel-esim.md already exists (different
+  slug but topic overlap warranted routing to clearly standalone page).
+Startup: local master 50 commits behind origin (cloud fresh-clone pattern) → git reset --hard origin/master
+  to a1cfa60 (iter91 state). No STOP flag. CI for a1cfa60 (iter91 docs): CI + Lighthouse SUCCESS confirmed.
+Gate: pnpm check 0 errors (109 files); pnpm build 210 pages (up from 209); pnpm test:e2e 209/209 PASS.
+  One fix: removed /israel-travel-apps link from Related Guides (page not yet built — would break link checker).
+Ship: committed to master 4ef5c32, pushed. Branch auto/israel-money-guide deleted.
+Prod: CI + Lighthouse in_progress at push — typical pattern, expected to succeed.
+Next: iter 93 = BUILD (93%5==3 → tools). Top candidate: Israel city travel time lookup (/israel-travel-time).

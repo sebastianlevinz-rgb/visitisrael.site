@@ -84,3 +84,12 @@
 - iter88 · Israel trip budget planner v2 (/israel-trip-cost-calculator) → 418e6f0 · P2 tools; 6-tier accommodation select (hostel $22 → luxury $380 pp/night); travel style decoupled to food/transport/activities only; quick day preset pills (5/7/10/14 days); 3-column breakdown table (per-day + total); total summary row; Print/Save-as-PDF button (window.print() + @media print styles); 4 new Playwright tests; 209/209 tests; 208 pages (same count, upgrade not new page).
 - iter89 REVIEW · fix(review-89): footer discoverability — /tiberias-guide, /nazareth-travel-guide, /akko-acre-guide added to Footer Essentials · 58876bd · all three city guides now linked from every page footer; CI confirmed SUCCESS for iters 86/87/88.
 - [iter91] Israel zimmer & rural B&B guide (/israel-zimmer-guide) → 59f8018 — Comprehensive guide to Israel's ~10,000 rural cabin B&Bs; the country's most popular hotel alternative with no previous dedicated page; Booking.com B&B affiliate CTA; 7 FAQs; 5-region breakdown; footer link added.
+
+## iter 92 (2026-06-26) — Israel money, ATM & currency guide
+- SHA: 4ef5c32
+- URL: /israel-money-guide
+- Category: seo-content (P2, S effort)
+- Value: First dedicated money guide on the site targeting "money in Israel", "ATM Israel tips",
+  "Israel currency 2026" — high-intent pre-trip queries where exclusiveisraeltours.com,
+  travelwithhello.com rank and we had no equivalent page. DCC explanation, bank ATM strategy,
+  Shabbat cash timing, credit card landscape, currency exchange comparison, cash-only markets.
