@@ -121,4 +121,5 @@ For detailed route comparisons, Shabbat schedules, and prices to Tel Aviv, Jerus
 - [Travel insurance](/israel-travel-insurance) (required for some visa categories; highly recommended for all)
 - [eSIM or SIM card](/israel-esim) (avoid roaming charges — activate before or on arrival)
 - [Airport transfer pre-booked](/ben-gurion-airport-transfers) if arriving on Shabbat or late at night
+- [Rav-Kav transit card](/rav-kav-israel) — buy at the Public Transportation Information Center in arrivals before boarding the train
 - Hotel or accommodation confirmation for the security interview

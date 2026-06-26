@@ -19,6 +19,8 @@ Israel's public transport is modern, affordable and easy once you have a travel 
 
 The **Rav-Kav** is a rechargeable smart card that works across trains, intercity and city buses, and light rail nationwide. Pick one up at Ben Gurion Airport, any train station or a bus hub, then load either pay-as-you-go credit or a daily/period pass. Tap on each journey. There's also a mobile app if you prefer your phone.
 
+The card costs ₪5 and requires no ID — the anonymous card tourists buy works identically to the registered version for all travel. One key rule: buses need a tap on boarding only; trains and light rail need a tap **on and off** at each journey end, or the system charges you the maximum fare. See the [complete Rav-Kav guide](/rav-kav-israel) for buying locations, loading options, fare ranges, the 90-minute transfer rule and the full tap-on/tap-off breakdown by vehicle type.
+
 ## Trains
 
 [Israel Railways](/first-time-in-israel) runs a fast, comfortable network along the coast and inland. The flagship line links **Ben Gurion Airport** to central [Tel Aviv](/tel-aviv) in about 20 minutes and to [Jerusalem](/jerusalem) (Yitzhak Navon station) in about 30. Trains also reach [Haifa](/haifa), Akko, Beer Sheva and the coastal towns. Trains do not run on Shabbat.

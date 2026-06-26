@@ -58,6 +58,7 @@ const ROUTES = [
   '/nazareth-travel-guide',
   '/dead-sea-guide',
   '/qumran-guide',
+  '/rav-kav-israel',
   '/israel-visa-eta-checker',
   '/fr/first-time-in-israel',
   '/fr/visa-information',
