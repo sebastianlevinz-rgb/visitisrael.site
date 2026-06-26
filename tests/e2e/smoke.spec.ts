@@ -62,6 +62,7 @@ const ROUTES = [
   '/qumran-guide',
   '/israel-accommodation-guide',
   '/rav-kav-israel',
+  '/israel-travel-apps',
   '/israel-holiday-planner',
   '/israel-visa-eta-checker',
   '/fr/first-time-in-israel',
