@@ -173,3 +173,5 @@ The natural pairing. [Masada](/dead-sea/masada) is 20 km south of Ein Bokek on R
 3. **Afternoon at the Dead Sea** — drive north 20 minutes to Ein Bokek or Kalia for the float (15:00–17:00 is a pleasant time, heat easing and crowds thinning).
 
 The reverse order (beach first, Masada second) also works for the daytime cable-car version but is not practical for sunrise. See our [Masada & Dead Sea day trip guide](/masada-dead-sea-day-trip) for the full breakdown and our [Masada tours comparison](/masada-tours-compared) for the guided vs self-drive options.
+
+**Add Qumran:** If you are driving yourself, the [Qumran National Park](/qumran-guide) — where the Dead Sea Scrolls were discovered in 1947 — is directly on Route 90 about 12 km north of Ein Bokek. A 90-minute detour at Qumran in the morning fits naturally before you head to the float beaches in the afternoon.

@@ -66,7 +66,7 @@ In summer the sunrise tour is genuinely the smart choice — you climb in the co
 
 Group tours typically run **$89–120 per person**. The biggest gotcha is that the headline price often **excludes** the Masada cable car (around ₪75 / $20 return on daytime tours) and national-park entry. Lunch, Dead Sea beach/locker fees and mud are also frequently extra. Read the "what's included" list before booking, and budget another $20–40 on top of the ticket price for a daytime trip.
 
-Private tours cost more — often $400+ for a small group — but you control the timing, can add Qumran or Ein Bokek, and avoid the group schedule.
+Private tours cost more — often $400+ for a small group — but you control the timing, can add [Qumran](/qumran-guide) or Ein Bokek, and avoid the group schedule.
 
 ## How to get there
 
