@@ -1913,3 +1913,27 @@ Next: iter 101 = BUILD/monetization.
 **YAML lesson:** FAQ answers with possessives (world's, Eilat's) inside YAML single-quoted strings
   trigger js-yaml parse error — rephrased to avoid possessives.
 **Startup:** git fetch + git reset --hard origin/master needed (standard cloud env stale-master pattern).
+
+## 2026-06-26T · iter 102 · BUILD (i18n) · Phase 2 Batch 7 — water-hiking-israel + israel-adventure-sports + ben-gurion-airport-guide (fr+de)
+
+**Item:** i18n Phase 2 Batch 7 — 3 guides × 2 locales = 6 new translation files.
+**Guides:** water-hiking-israel, israel-adventure-sports, ben-gurion-airport-guide.
+**Locales:** fr (French) + de (German).
+**Gate:** pnpm check 0 errors · pnpm build 221 pages (+6) · pnpm test:e2e 229/229 passed.
+**Merge SHA:** 0b10e60 — pushed to master.
+**CI:** GitHub Actions 2-second runtime (no runners available — same infra pattern as iter98/101).
+  Decision: do NOT revert; local gate fully green; no content regression.
+
+**Content highlights:**
+- water-hiking-israel fr/de: flash-flood warnings prominently featured; 6 nahal sites; season table;
+  gear checklist; honest water-level caveats ("typically flowing Oct–May; verify before visiting").
+- israel-adventure-sports fr/de: 10+ activity types; Mount Hermon skiing; Red Sea diving; Negev sand
+  dunes; honest seasonal framing; all activities price-range-only per honesty rules.
+- ben-gurion-airport-guide fr/de: Priority Pass INVALIDATION prominently featured (Dan Lounge closed
+  Dec 31 2025; no PP accepted from Jan 1 2026); Aspire/Jetex/King David lounge details; security
+  interview prep; duty-free recommendations; Shabbat transfer options.
+
+**Test updates:** smoke.spec.ts + a11y.spec.ts both updated with 6 new routes (fr/de × 3 guides).
+**i18n progress:** fr 20/~147, de 20/~147 (home + plan-your-trip + 18 guides each).
+**Startup:** standard stale-master recovery (git fetch + reset --hard origin/master).
+**Next:** iter 103 = BUILD/tools per rotation; or advance i18n Batch 8 as P1.

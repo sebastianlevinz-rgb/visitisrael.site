@@ -52,7 +52,7 @@
 
 ## Progress tracker (loop updates this each i18n iteration)
 
-- Current phase: **Phase 2 BATCH 6 DONE (iter 82, SHA b8a46d6)**: bar-bat-mitzvah-israel + hiking-in-israel + kosher-food-guide shipped in fr+de. Locale-correct cross-links; untranslated guide links (israel-national-parks-pass, israel-travel-insurance) use EN root paths. fr 17/~147, de 17/~147 (home + plan-your-trip + 15 guides each). 201/201 tests pass; 205 pages built. Next batch: candidate guides include water-hiking-israel, israel-adventure-sports, ben-gurion-airport-guide, israel-for-seniors — or other high-intent guides not yet translated.
+- Current phase: **Phase 2 BATCH 7 DONE (iter 102, SHA 0b10e60)**: water-hiking-israel + israel-adventure-sports + ben-gurion-airport-guide shipped in fr+de. Key lounge update in airport guide (Priority Pass no longer valid as of Jan 1 2026; Dan Lounge closed; Aspire/Jetex/King David remain). Locale-correct cross-links; untranslated guide links use EN root paths. fr 20/~147, de 20/~147 (home + plan-your-trip + 18 guides each). 229/229 tests pass; 221 pages built. Next batch: candidate guides include israel-for-seniors, israel-packing-list, first-time-in-israel DE-specific variations, or other high-intent guides not yet translated.
 - Phase 1c — DONE (iter 22): mobile-menu nav labels. Phase 1a/1b/leak — chrome. NOTE: /plan-your-trip + 404 body copy need /fr/ + /de/ ROUTE VARIANTS (static host serves one /404.html for all 404s; root .astro pages have no locale variant) → fold into Phase 2 as .astro page clones (same proven pattern as the fr/de home pages). Page-aware switcher still deferred until ≥1 content page exists per locale.
 - Phase 1a/1b — DONE (iters 15/17): Header + Footer chrome.
 - Phase 1a — DONE (iter 15, 83379f9): Header chrome.
