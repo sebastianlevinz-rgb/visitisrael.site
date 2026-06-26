@@ -1632,3 +1632,23 @@ Ship: committed to master e67bdde, pushed. CI pending at push time.
 Prod: Vercel pending after ~5min polling — next iteration confirms.
 Next: iter 88 = tools BUILD (88%5==3). Top candidate: Israel trip budget planner v2 (P2, M)
   — extend cost calculator with accommodation tier selection + duration + daily/total breakdown.
+
+## 2026-06-26 · iter 88 · BUILD (tools) · Israel trip budget planner v2
+What: Upgraded /israel-trip-cost-calculator to v2. Added accommodation tier select
+  (6 tiers: hostel/dorm $22 → guesthouse $55 → budget hotel $80 → mid-range hotel
+  $120 → boutique $220 → luxury $380 pp/night). Travel style radiogroup now controls
+  only food, transport & activities (cleaner separation). Quick day preset pill buttons
+  (5/7/10/14 days) update the days input and highlight the active preset. Breakdown
+  table upgraded to 3 columns (Category / Per day / Total) with a bold total row.
+  "Print / Save as PDF" button triggers window.print() with @media print styles that
+  hide the form panel and reveal a clean print header (trip config meta: days, pax,
+  accom tier, travel style). 4 new Playwright tests: tier switching increases/decreases
+  total correctly; presets update days input; table column headers; print button visible.
+  One bug caught during gate: print header used <h1> → 2 H1s → smoke test fail; fixed
+  to <p> element before rerun.
+Startup: master diverged from origin (cloud fresh clone); git reset --hard origin/master.
+Gate: pnpm check 0 errors (109 files); build 208 pages; 209/209 e2e+a11y PASS.
+Ship: committed to master 418e6f0, pushed. CI + Lighthouse both in_progress at push.
+Prod: CI in_progress beyond 5-min polling window — per playbook, left pending; next
+  iteration start-check will confirm (previous runs for equivalent changes all succeeded).
+Next: iter 89 = REVIEW (89%5==4). Audit iters 83–88 slice.
