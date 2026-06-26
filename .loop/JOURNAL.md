@@ -1666,3 +1666,26 @@ Fix: branch auto/review-89-city-guide-footer-links; added 3 <li> entries to Foot
 Gate: 0 errors (109 files); 208 pages; 209/209 e2e+a11y PASS. GREEN.
 Prod: CI in_progress at push time — next iteration will confirm.
 Next: iter 90 = RESEARCH (90%5==0).
+
+## 2026-06-26 · iter 90 · RESEARCH · accommodation types / tools gaps scan
+What: RESEARCH iteration. Searched for new competitive opportunities not yet in backlog (~77 items going in).
+  Focused on two under-represented categories: TOOLS (backlog was empty after 4 shipped items) and
+  accommodation-type content gaps. Research covered: Tourist Israel content catalog, thebrokebackpacker.com,
+  zimmeril.com/zimertop.co.il/bordo100.co.il (Israel zimmer ecosystem), globalhighlights.com, bookmundi.com,
+  misterbandb.com, eurogaytravel.com, gayborhood.com, distancecalculator.globefeed.com + distantias.com
+  (travel time tool competitors), frommers.com, travelingisrael.com.
+Startup: local master diverged 50 commits from origin/master (cloud fresh-clone issue, same as iters 86/87/
+  88/89); git reset --hard origin/master to fb00dc9 (iter89 state). Confirmed no STOP flag.
+Gate: N/A (RESEARCH mode — no implementation).
+Ship: N/A.
+Findings: 7 net-new items discovered (all DE-DUPED vs DONE + prior backlog):
+  tools: Israel city travel time lookup (P2,S), holiday impact planner (P2,S), golden-hour calc (P3,S);
+  seo-content+monetization: zimmer guide (P2,S), accommodation types hub (P2,S), base-city guide (P2,S),
+  Tel Aviv Pride guide (P3,S). Key insight: no competitor Israel site has either an interactive travel
+  time tool or a holiday impact planner — strong differentiation opportunity for tool builds.
+  Zimmer accommodation type (Israel's 10,000+ rural B&Bs) entirely unaddressed on site.
+  Backlog now ~84 ready items; tools section refilled with 3 items after being empty.
+Memory: STATE.md, JOURNAL.md, BACKLOG.md, COMPETITORS.md all updated.
+Next: iter 91 = BUILD (91%5==1 → monetization). Top candidates: Eilat city guide (P2,M),
+  Haifa city guide (P2,M), zimmer guide (P2,S new), accommodation hub (P2,S new), Jerusalem food guide (P2,M).
+  S-effort monetization items (zimmer + hub) have full impl specs and are immediately buildable.

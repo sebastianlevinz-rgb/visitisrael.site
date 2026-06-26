@@ -1187,3 +1187,77 @@ Dead Sea practical/beaches/solo/honeymoon/street food/craft beer/White City) had
   to a tourist attraction "tip"; treat as a place of memory and education.
 - Israel 2026 page: ceasefire status must use evergreen language; never describe as permanent;
   always direct reader to official government travel advisory for current situation.
+
+### 2026-06-26 · iter 90 · Accommodation types / tools gaps scan (RESEARCH — no ship)
+
+Searched for: (1) interactive tools competitors have that we lack; (2) accommodation content gaps;
+(3) new high-intent content not yet in the ~77-item backlog.
+
+**Key searches + sources:**
+- Tourist Israel tools audit: touristisrael.com/israel-travel-resources → confirmed NO proprietary
+  interactive tools (quiz/calculator/planner) on their site; all trip planning handled by static articles.
+  Third-party tools (Wanderlog, TripPlanner.ai, MindTrip) provide general planning but NO Israel-specific
+  tools. Opportunity: we are already differentiated on tools (5 shipped) and should continue building.
+  distancecalculator.globefeed.com, distantias.com, travelmath.com rank for "Israel driving distance" /
+  "Israel travel time" queries — these are generic tools, not Israel-travel-context tools. Our on-site
+  city-pair travel time lookup would outperform them for tourist intent.
+- Accommodation gap: thebrokebackpacker.com/where-to-stay-in-israel ranks #4 for "Where to stay in
+  Israel." frommers.com + thefamilyvoyage.com also rank. Our where-to-stay.md is a brief stub. A top-level
+  accommodation types hub (comparison table of hotel/kibbutz/zimmer/hostel/glamping/Bedouin) doesn't exist
+  on site. zimmeril.com (10,000 zimmers; English directory + booking), zimertop.co.il, bordo100.co.il
+  all rank for "Israel zimmer" — this accommodation type has dedicated booking platforms but we have no
+  editorial coverage beyond brief mentions in golan.md, israel-with-kids.md, 10-days itinerary.
+- Jewish holidays impact: travelers consistently report surprise at Passover closures, Yom Kippur's
+  car-free streets, Sukkot hotel price spikes. Our shabbat-calendar (iter78) shows WHEN shabbat/holidays
+  are but doesn't synthesize "what does this mean for my specific travel dates?" — a date-range input tool
+  fills that gap. No competitor has this as an interactive tool (only static articles by Tourist Israel,
+  americaisraeltours.com).
+- Base city planning: travelingisrael.com/ultimate-guide-planning-trip-israel, globalhighlights.com/
+  israel/plan-a-trip, bookmundi.com rank for "best base city Israel" intent. We have no equivalent.
+  A clear "base city" guide (Jerusalem vs. Tel Aviv vs. Haifa vs. Tiberias by trip type/length) with
+  hotel picks per base city = highly monetizable planning page.
+- Tel Aviv Pride: touristisrael.com has 2 dedicated Pride pages; misterbandb.com, eurogaytravel.com,
+  gayborhood.com, rainbowindex.com all rank for "Tel Aviv Pride 2026/2027". We have lgbtq-travel-israel.md
+  (general guide) but no event-specific Pride guide. 2026 Pride was June 12; evergreen annual guide
+  effective for 2027 planning immediately.
+- Photographer/hiker tool: photography guide (iter30 backlog P2, M) would be a good long-form editorial
+  page; a sunrise/golden-hour CALCULATOR reusing the same astronomical formula from the shabbat calendar
+  codebase (already in src/) would be a fast, distinct tool serving the same audience. Masada sunrise hike
+  + Dead Sea reflection + Bahá'í terrace golden-hour all have documented search intent.
+
+**7 new BACKLOG items added** (see [iter90 research] tags in BACKLOG.md):
+1. Israel city travel time lookup tool (P2, S, tools) — own the "Israel distances" query with
+   tourist-contextual data (train/bus/car + Shabbat indicator + 1-line tips).
+2. Israel Jewish holiday impact planner (P2, S, tools) — date-range → holidays list + traveler impact;
+   complements shabbat calendar with actionable pre-trip planning utility.
+3. Israel sunrise / golden-hour calculator (P3, S, tools) — reuses existing astronomical JS formula;
+   photographer + hiker utility tied to Masada sunrise, Dead Sea reflection, etc.
+4. Israel zimmer & rural B&B guide (P2, S, seo-content+monetization) — 10,000+ rural cabin B&Bs;
+   no English editorial guide exists on site; distinct from kibbutz (collective hotel) and glamping.
+5. "Where to stay in Israel" accommodation types hub (P2, S, seo-content+monetization) — master
+   comparison table linking all accommodation sub-guides; ranks for high-volume top-level intent.
+6. Israel "where to base yourself" city planning guide (P2, S, seo-content) — Jerusalem/TLV/Haifa/
+   Tiberias/Eilat comparison by trip type + length; highly monetizable hotel CTAs per base.
+7. Tel Aviv Pride annual guide (P3, S, seo-content+monetization) — event-specific companion to
+   lgbtq-travel-israel.md; evergreen for 2027 planning with accommodation CTAs.
+
+**DE-DUPED (confirmed already in backlog, not re-added):**
+- Honeymoon/romantic guide (iter20, P3, M) — zimmer guide is accommodation TYPE; honeymoon is
+  itinerary/experience guide; both are distinct + both kept.
+- Kibbutz guide (iter60, P2, M) — zimmer = private rural B&B; kibbutz = collective hotel stay.
+- Photography guide (iter30, P2, M) — sunrise calculator is a TOOL; photography guide is editorial.
+- Neighborhood guides TLV/Jerusalem (P1, M) — within-city hotel zone; base-city guide = which city.
+- Shabbat calendar (shipped iter78) — shows WHEN; holiday planner shows WHAT IT MEANS for trip dates.
+- LGBTQ guide (lgbtq-travel-israel.md, existing) — year-round; Pride guide = event-specific annual.
+
+**CAUTION (iter 90):**
+- Zimmer booking: zimmeril.com has English interface but Israeli-language zimmer.co.il has wider
+  inventory — never tell users the English site has all options; acknowledge wider inventory on Hebrew
+  platform and suggest using Google Translate or booking.com B&B filter as alternatives.
+- Holiday impact planner: Jewish calendar uses lunar-solar computation — holiday dates in the JSON data
+  must be verified against authoritative sources (hebcal.com API or similar) before publication; never
+  hardcode dates from memory alone.
+- Base city guide: never claim Haifa is "as good as Jerusalem/TLV for tourists" without honest caveats
+  about smaller infrastructure; honest trade-off framing is the key to trust here.
+- Pride guide: party lineup and venue information change each year; NEVER hardcode specific party names
+  as current; always link official Tel Aviv Gay Center / Tel Aviv Pride org website for current lineup.
