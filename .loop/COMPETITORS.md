@@ -1325,3 +1325,78 @@ De-duplication check: jerusalem-bethlehem-day-trip.md is an itinerary, not a des
   money/ATM guide already in backlog from iter80 — not re-added.
   traveling-israel-jewish-holidays covers Passover; Festival of Light is a visual arts event (DISTINCT).
   Backlog now ~92 ready items.
+
+### 2026-06-26 · iter 105 · RESEARCH — bachelorette/campervan/surfing/Muslim-travel/drone/2026-recovery scan
+Sources: WebSearch (thebrokebackpacker.com, nomadicmatt.com, touristisrael.com, terravan.co.il,
+  muslimtravelgirl.com, nta.co.il Purple Line, travelandtourworld.com, americaisraeltours.com,
+  caai.gov.il, surfstation.co.il, viator.com/Israel, nomads.com/tel-aviv, beinharimtours.com).
+
+Key findings:
+
+**Israel tourism 2026 recovery (confirmed active):**
+- Ministry of Tourism approved $55M+ infrastructure budget; 50%+ tourist arrivals increase YTD 2026 vs 2025.
+- 17 new hotel openings across country summer 2026 (Bazaar Hotel Jaffa 104 rooms, InterContinental
+  Jerusalem, Yacht Hotel Herzliya marina, Fattal Hotels 8 new properties adding 1,000+ rooms).
+- New flight routes: Delta resuming Atlanta + Boston from Oct 2026; Israir expanding to Tokyo/Bangkok/Delhi.
+- Reopened attractions: Rosh Hanikra sea caves + cable car restored. National Campus for the Archaeology
+  of Israel (Jerusalem) expected to fully open 2026.
+- New 2026 experiences: Skyfield extreme adventure park at Bloomfield Stadium Jaffa.
+- NOTE: Israel-tourism-2026 backlog item (iter85) already covers this — no new backlog item needed.
+
+**Tel Aviv Purple Line update:**
+- NTA confirms Purple Line expected to open in 2026 (28km, 22 stops) — NOT 2027+ as previously noted.
+- Green Line still 2028. Updated tel-aviv-light-rail backlog item accordingly.
+
+**Gaps identified — NEW (not in backlog):**
+
+1. **Tel Aviv bachelorette/hen party** (P2, M, seo-content+monetization):
+   - No competitor has a dedicated Israel bachelorette guide; generic nightlife guides exist.
+   - Secret Tel Aviv, Timeout Israel cover venue-by-venue but not group-trip-planning format.
+   - High commercial intent: group private tours, boutique hotel bookings, cooking classes.
+   - Monetization: GYG private tour + Booking.com boutique hotel CTAs.
+
+2. **Israel campervan/RV guide** (P2, M, seo-content+monetization):
+   - TerraVan (terravan.co.il) growing operator; campervans-israel.com also rents.
+   - Facebook group "VanLife Israel" 5k+ members = real audience.
+   - No competitor has a comprehensive tourist campervan guide for Israel.
+   - Distinct from road trip (no hotels) and glamping (fixed sites).
+
+3. **Israel surfing guide** (P2, S, seo-content):
+   - Surf Station Gordon Beach TLV = main operator; ISRA Surf Association governs.
+   - Mediterranean waves Oct–March; not world-class but consistent 1–2m.
+   - No competitor has a dedicated Israel surfing guide for tourists.
+   - Small but loyal audience pre-booking; builds adventure-sports SEO cluster.
+
+4. **Muslim travel guide to Israel** (P2, M, seo-content):
+   - muslimtravelgirl.com, halfawayaroundtheworld.com cover this with high engagement.
+   - Growing segment: Malaysian, Indonesian, Turkish, UK Muslim visitors.
+   - Key concerns: Al-Aqsa access times, halal food logistics, prayer facilities, Ramadan.
+   - Politically sensitive: requires paired naming + neutral framing for Haram Al-Sharif/Temple Mount.
+   - No equivalent content on site; HONESTY rules apply strictly.
+
+5. **Drone photography regulations** (P3, S, seo-content):
+   - CAAI has strict permit requirements; tourists often confused.
+   - No competitor has a dedicated regulatory guide for Israel drones.
+   - TripAdvisor/DJI forums show high search demand from photography travelers.
+   - Low monetization but high trust-building; dense cross-links to photography guide.
+
+**Already-in-backlog (confirmed, not re-added):**
+- Digital nomad TLV (iter30, P3, M — nomads.com, psimonmyway confirmed competitors)
+- Honeymoon/romantic (iter20, P3, M)
+- Eco-tourism (iter70, P3, M)
+- Backpacking/hostels (iter45, P2, M)
+- Best beaches (backlog P2 M)
+- Road trip car-based (iter40, P2, M)
+- Museums TLV (iter85, P3, S)
+- Genealogy tourism (iter50, P2, M)
+- Israel 2026 update page (iter85, P3, S)
+- Rainy day activities (iter100, P3, S)
+- Israel accommodation hub (iter90, P2, S)
+- Tel Aviv Pride (iter90, P3, S)
+
+**2026-specific intelligence worth tracking:**
+- TourRadar top Israel tour operators for 2026: Abraham Tours, Bein Harim, Tourist Israel, Gil Travel.
+- Viator Israel category has 80+ tour SKUs for Eilat specifically — confirms eilat-tours-compared is high-value.
+- Nomadic Matt's Israel road trip post has 850–1,000km circuit with specific cost data ($146 Jerusalem
+  3-day tour, $375 5-day northern/coastal tour) — our road trip guide should include comparable context.
+- Hostelz.com shows dorms from $12 in Israel for 2026 — hostel guide pricing context.

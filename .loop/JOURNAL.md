@@ -2005,3 +2005,31 @@ Ship: committed 09472a7 to master, pushed. Branch auto/review-104 cleaned up.
 CI: GitHub Actions ci.yml + lighthouse.yml both 2-second runtime / runner_id=0 transient
   (same pattern as iters 98/101/102/103). No revert; local gate fully green.
 Next: iter 105 = RESEARCH (105%5==0). Scan fresh competitor gaps.
+
+## 2026-06-26 · iter 105 · RESEARCH · competitor gap scan (bachelorette/campervan/surfing/Muslim-travel/drone/2026-recovery)
+
+What: RESEARCH iteration (105%5==0). Scanned competitors for profitable features/content gaps not yet in backlog.
+Sources consulted: thebrokebackpacker.com, nomadicmatt.com, touristisrael.com, terravan.co.il,
+  muslimtravelgirl.com, nta.co.il (Purple Line update), travelandtourworld.com/americaisraeltours.com
+  (2026 recovery intel), viator.com/Israel, caai.gov.il, surfstation.co.il, beinharimtours.com.
+
+Key 2026 intelligence surfaced:
+- Israel tourism recovery confirmed: 50%+ arrivals increase Jan 2026 vs 2025; $55M+ Ministry of Tourism
+  infrastructure investment; 17 new hotels opening summer 2026.
+- Tel Aviv Purple Line: NTA confirms 2026 opening (28km, 22 stops) — NOT 2027+ as previously noted in
+  backlog; updated tel-aviv-light-rail item to reflect correct year.
+- Rosh Hanikra cable car: reopened after security-related closure — note for attractions audit next REVIEW.
+- National Campus for Archaeology of Israel (Jerusalem): expected 2026 full opening.
+
+5 net-new backlog items added:
+1. Tel Aviv bachelorette/hen party guide (P2, M, seo-content+monetization) — no competitor has dedicated Israel guide; high commercial intent; GYG + hotel CTAs.
+2. Israel campervan/motorhome guide (P2, M, seo-content+monetization) — TerraVan growing, VanLife Israel community 5k+; no competitor editorial guide.
+3. Israel surfing guide (P2, S, seo-content) — Surf Station Gordon Beach; Med waves Oct–March; no competitor guide.
+4. Muslim travel guide to Israel (P2, M, seo-content) — growing segment; Al-Aqsa/halal/Ramadan; politically sensitive; requires extra care.
+5. Israel drone photography regulations (P3, S, seo-content) — CAAI strict permit rules; tourists confused; no competitor has dedicated guide.
+
+De-duplicated: ~12 items confirmed already in backlog (digital nomad, honeymoon, eco-tourism, backpacking/hostels, beaches, road trip, museums, genealogy, Israel 2026 update, rainy day, accommodation hub, Tel Aviv Pride). Full sources in COMPETITORS.md iter105 section.
+Backlog now ~97 ready items. State, JOURNAL, BACKLOG, COMPETITORS all updated.
+No code changes. No gate run needed (research-only iteration).
+
+Next: iter 106 = BUILD/monetization. Recommended item: eilat-tours-compared money page (P2, S, proven format).
