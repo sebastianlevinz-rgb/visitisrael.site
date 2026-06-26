@@ -1,0 +1,385 @@
+---
+import BaseLayout from '@/layouts/BaseLayout.astro';
+import Hero from '@/components/Hero.astro';
+import Breadcrumbs from '@/components/Breadcrumbs.astro';
+import JsonLd from '@/components/JsonLd.astro';
+import { breadcrumbList, faqPage } from '@/lib/schema';
+
+const title = 'Israel Holiday Impact Planner 2026–2027';
+const description =
+  'Enter your travel dates and instantly see which Jewish holidays, fast days and busy periods fall in your trip — with honest traveler-impact notes. Know before you go.';
+
+const crumbs = [
+  { name: 'Home', path: '/' },
+  { name: 'Plan your trip', path: '/plan-your-trip' },
+  { name: 'Holiday impact planner', path: '/israel-holiday-planner' },
+];
+
+const faqs = [
+  {
+    question: 'Which Jewish holidays cause the biggest disruption for tourists?',
+    answer:
+      'Yom Kippur is the most disruptive — all businesses close, even in secular Tel Aviv, and roads are essentially empty. Rosh Hashanah (2 days) and the first/last days of Passover also cause widespread closures and price spikes. Hanukkah and Purim are festive but have minimal impact on tourist access.',
+  },
+  {
+    question: 'Should I avoid Israel during Passover?',
+    answer:
+      'Not necessarily — Passover is a fascinating time to visit, with special atmosphere and events. However, expect higher prices, fully booked hotels (especially in Jerusalem), and restaurant menus without bread products (chametz). Book accommodation 3–6 months ahead if you plan to visit.',
+  },
+  {
+    question: 'What is the "booking pressure" warning?',
+    answer:
+      'High booking pressure means hotel demand surges during this period — rooms sell out months in advance and prices rise significantly. Passover, Rosh Hashanah/Yom Kippur/Sukkot, and summer (June–August) are peak periods. Low pressure indicates a quieter window with better availability and rates.',
+  },
+  {
+    question: 'Does the tool show Christian and Muslim holidays?',
+    answer:
+      'Currently the tool covers Jewish holidays and Israeli public holidays (which are based on the Jewish calendar). Christmas in Bethlehem and Nazareth (Dec 24 / Jan 6 / Jan 18) and Easter are not yet included — plan your visit to these sites separately if they are relevant to your trip.',
+  },
+];
+
+const schema = [breadcrumbList(crumbs), faqPage(faqs)];
+---
+
+<BaseLayout
+  title={title}
+  description={description}
+  path="/israel-holiday-planner"
+  image="/images/regions/jerusalem/hero.jpg"
+  imageAlt="Jerusalem Old City at Rosh Hashanah — people gathered at the Western Wall"
+>
+  <JsonLd schema={schema} slot="head" />
+  <Hero
+    image="/images/regions/jerusalem/hero.jpg"
+    title="Israel Holiday Impact Planner"
+    subtitle="Enter your travel dates to see which Jewish holidays, fast days and busy periods fall in your trip — with honest traveler-impact notes."
+    alt="Jerusalem Western Wall plaza filled with visitors during a Jewish holiday"
+  />
+  <Breadcrumbs items={crumbs} />
+
+  <section class="mx-auto max-w-3xl px-4 pt-10">
+    <p class="eyebrow" data-reveal>Know before you go</p>
+    <h2 class="font-display text-3xl font-bold text-ink" data-reveal>
+      What holidays fall during your trip?
+    </h2>
+    <p class="mt-2 max-w-2xl text-ink-muted" data-reveal>
+      Select your arrival and departure dates. The planner covers Jewish holidays and
+      Israeli national days for 2026–2027. Covers 2 years of dates.
+    </p>
+
+    <!-- Date inputs -->
+    <div
+      class="mt-8 rounded-card border border-border bg-card p-6 shadow-card"
+    >
+      <div class="grid gap-5 sm:grid-cols-2">
+        <label class="block">
+          <span class="text-sm font-semibold text-ink">Arrival date</span>
+          <input
+            id="start-date"
+            type="date"
+            min="2026-01-01"
+            max="2027-12-31"
+            value="2026-09-01"
+            class="mt-1 block w-full rounded-btn border border-border bg-sand px-3 py-2 text-ink"
+          />
+        </label>
+        <label class="block">
+          <span class="text-sm font-semibold text-ink">Departure date</span>
+          <input
+            id="end-date"
+            type="date"
+            min="2026-01-01"
+            max="2027-12-31"
+            value="2026-09-14"
+            class="mt-1 block w-full rounded-btn border border-border bg-sand px-3 py-2 text-ink"
+          />
+        </label>
+      </div>
+      <p id="date-error" class="mt-3 hidden text-sm text-rose-600" role="alert">
+        Departure date must be after arrival date. Please adjust your dates.
+      </p>
+    </div>
+
+    <!-- Results panel -->
+    <div
+      id="results"
+      class="mt-6"
+      aria-live="polite"
+      aria-label="Holiday impact results"
+    >
+      <!-- Rendered by JS -->
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="mx-auto max-w-3xl px-4 pb-4 pt-14">
+    <h2 class="mb-4 font-display text-2xl font-bold text-ink">Frequently asked questions</h2>
+    <div class="space-y-4">
+      {
+        faqs.map((f) => (
+          <details class="rounded-card border border-border bg-card p-4">
+            <summary class="cursor-pointer font-semibold text-ink">{f.question}</summary>
+            <p class="mt-2 text-ink-muted">{f.answer}</p>
+          </details>
+        ))
+      }
+    </div>
+  </section>
+
+  <!-- Cross-links -->
+  <section class="mx-auto max-w-3xl px-4 pb-16 pt-6">
+    <div class="rounded-card border border-border bg-sand-deep p-6 text-center shadow-card">
+      <h2 class="font-display text-2xl font-bold text-ink">Plan around the calendar</h2>
+      <p class="mx-auto mt-2 max-w-xl text-ink-muted">
+        Know the key dates — now figure out what to expect during your visit.
+      </p>
+      <div class="mt-5 flex flex-wrap justify-center gap-3">
+        <a href="/shabbat-guide" class="btn btn-primary">Shabbat traveller guide</a>
+        <a href="/israel-shabbat-calendar" class="btn btn-ghost">Shabbat times calendar</a>
+        <a href="/whats-open-on-shabbat" class="btn btn-ghost">What's open on Shabbat</a>
+        <a href="/best-time-to-visit-israel" class="btn btn-ghost">Best time to visit</a>
+      </div>
+    </div>
+  </section>
+</BaseLayout>
+
+<script is:inline>
+(function () {
+  /* ------------------------------------------------------------------ *
+   *  Jewish holidays 2026–2027 (Israel observance, dates in CE)
+   * ------------------------------------------------------------------ */
+  var HOLIDAYS = [
+    // 5786
+    { name: 'Purim', start: [2026,3,13], end: [2026,3,13], fast: false, pressure: 'low',
+      impact: 'Festive; businesses mostly open. Costumes and parades in Tel Aviv (Dizengoff Square) and Jerusalem.' },
+    { name: 'Passover (Pesach)', start: [2026,4,1], end: [2026,4,8], fast: false, pressure: 'high',
+      impact: 'First and last days are public holidays; schools and many businesses close. No chametz (leavened bread) in restaurants — menus change. Hotels book out months ahead; prices spike significantly.' },
+    { name: 'Yom HaZikaron (Memorial Day)', start: [2026,4,21], end: [2026,4,21], fast: false, pressure: 'medium',
+      impact: 'Israeli Memorial Day. Sirens at 8 pm and 11 am; entertainment venues close. Solemn atmosphere — restaurants and bars typically quiet.' },
+    { name: 'Yom HaAtzmaut (Independence Day)', start: [2026,4,22], end: [2026,4,22], fast: false, pressure: 'medium',
+      impact: 'National holiday with fireworks, outdoor concerts and packed parks. Many businesses closed but street food and events are plentiful. Festive atmosphere across the country.' },
+    { name: "Lag B'Omer", start: [2026,5,14], end: [2026,5,14], fast: false, pressure: 'low',
+      impact: 'Bonfires nationwide; Meron pilgrimage draws hundreds of thousands. Smoke visible in cities overnight. Businesses mostly open the next day.' },
+    { name: 'Shavuot', start: [2026,5,22], end: [2026,5,23], fast: false, pressure: 'medium',
+      impact: 'Two-day public holiday. Most businesses close. Dairy foods are traditional. Western Wall attracts large crowds overnight (Tikkun Leil Shavuot).' },
+    { name: "Tisha B'Av (Fast day)", start: [2026,7,31], end: [2026,7,31], fast: true, pressure: 'low',
+      impact: 'Major fast day; most Jewish businesses close. Powerful, mournful atmosphere at the Western Wall. Some restaurants in Arab and secular areas remain open.' },
+    // 5787
+    { name: 'Rosh Hashanah (Jewish New Year)', start: [2026,9,11], end: [2026,9,12], fast: false, pressure: 'high',
+      impact: 'Two-day public holiday. Nearly everything closes — even more so than Yom Kippur in many places. Hotels book out months ahead; prices surge. Expect quiet streets, family-focused atmosphere.' },
+    { name: 'Yom Kippur (Day of Atonement)', start: [2026,9,20], end: [2026,9,20], fast: true, pressure: 'high',
+      impact: 'Holiest day. Complete shutdown — no buses, minimal cars (roads become bicycle highways), all shops and restaurants closed even in secular Tel Aviv. Unique and powerful atmosphere; respectful dress advised near synagogues.' },
+    { name: 'Sukkot', start: [2026,9,25], end: [2026,10,1], fast: false, pressure: 'high',
+      impact: 'Festival of Tabernacles — outdoor sukkahs appear everywhere. First and last days are public holidays. Tourist sites significantly busier than usual. Book well in advance.' },
+    { name: 'Simchat Torah', start: [2026,10,3], end: [2026,10,3], fast: false, pressure: 'medium',
+      impact: 'Joyful Torah celebration with dancing in synagogues. Public holiday. Businesses mostly closed; festive atmosphere in Jerusalem and religious neighbourhoods.' },
+    { name: 'Hanukkah (Festival of Lights)', start: [2026,12,4], end: [2026,12,12], fast: false, pressure: 'low',
+      impact: 'Eight-night festival. Public menorahs lit; jelly doughnuts (sufganiyot) sold everywhere. Businesses open. A wonderful time to visit — festive, low-disruption.' },
+    // 5787 cont.
+    { name: "Tu B'Shvat", start: [2027,2,1], end: [2027,2,1], fast: false, pressure: 'low',
+      impact: 'Minor holiday — New Year of the Trees. Businesses open; tree-planting events in parks. No disruption to tourist activities.' },
+    { name: 'Purim', start: [2027,3,3], end: [2027,3,3], fast: false, pressure: 'low',
+      impact: 'Festive; businesses mostly open. Carnivals and street parties in Tel Aviv (Dizengoff Square) and Jerusalem. Noise at night.' },
+    { name: 'Passover (Pesach)', start: [2027,3,22], end: [2027,3,29], fast: false, pressure: 'high',
+      impact: 'First and last days are public holidays. Hotels book out; chametz removed from restaurant menus. Book accommodation 3–6 months ahead.' },
+    { name: 'Yom HaZikaron (Memorial Day)', start: [2027,4,13], end: [2027,4,13], fast: false, pressure: 'medium',
+      impact: 'Israeli Memorial Day. Sirens at 8 pm and 11 am; entertainment venues close. Solemn atmosphere.' },
+    { name: 'Yom HaAtzmaut (Independence Day)', start: [2027,4,14], end: [2027,4,14], fast: false, pressure: 'medium',
+      impact: 'National holiday; fireworks, concerts, packed parks. Many businesses closed but outdoor events plentiful.' },
+    { name: "Lag B'Omer", start: [2027,5,5], end: [2027,5,5], fast: false, pressure: 'low',
+      impact: 'Bonfires nationwide; Meron pilgrimage.' },
+    { name: 'Shavuot', start: [2027,6,12], end: [2027,6,13], fast: false, pressure: 'medium',
+      impact: 'Two-day public holiday. Most businesses closed. Dairy foods traditional. Western Wall crowded overnight.' },
+  ];
+
+  /* Build day-key lookup: 'YYYY-MM-DD' → holiday */
+  var HOL_MAP = {};
+  function pad(n) { return n < 10 ? '0' + n : '' + n; }
+
+  HOLIDAYS.forEach(function (h) {
+    var cur = new Date(Date.UTC(h.start[0], h.start[1]-1, h.start[2]));
+    var end = new Date(Date.UTC(h.end[0], h.end[1]-1, h.end[2]));
+    while (cur <= end) {
+      var k = cur.getUTCFullYear() + '-' + pad(cur.getUTCMonth()+1) + '-' + pad(cur.getUTCDate());
+      if (!HOL_MAP[k]) HOL_MAP[k] = h;
+      cur.setUTCDate(cur.getUTCDate() + 1);
+    }
+  });
+
+  /* Summer high-season dates (pressure = 'high' inherently) */
+  function isSummerHigh(d) {
+    var m = d.getUTCMonth() + 1;
+    return m >= 6 && m <= 8; // June, July, August
+  }
+
+  /* ------------------------------------------------------------------ *
+   *  Core computation
+   * ------------------------------------------------------------------ */
+  function computeImpact(startStr, endStr) {
+    var startD = new Date(startStr + 'T00:00:00Z');
+    var endD   = new Date(endStr   + 'T00:00:00Z');
+
+    var holidays = [];      // deduplicated holiday objects in range
+    var seenNames = {};
+    var shabbatCount = 0;   // Saturdays in range
+    var maxPressure  = 'low';
+    var pressureRank = { low: 0, medium: 1, high: 2 };
+
+    var cur = new Date(startD);
+    while (cur <= endD) {
+      var dow = cur.getUTCDay();   // 0=Sun … 6=Sat
+      if (dow === 6) shabbatCount++;
+
+      var k = cur.getUTCFullYear() + '-' + pad(cur.getUTCMonth()+1) + '-' + pad(cur.getUTCDate());
+      var hol = HOL_MAP[k];
+      if (hol && !seenNames[hol.name]) {
+        seenNames[hol.name] = true;
+        holidays.push(hol);
+        if (pressureRank[hol.pressure] > pressureRank[maxPressure]) maxPressure = hol.pressure;
+      }
+      if (isSummerHigh(cur) && pressureRank['high'] > pressureRank[maxPressure]) maxPressure = 'high';
+
+      cur.setUTCDate(cur.getUTCDate() + 1);
+    }
+
+    /* Overall pressure: if any single day is summer, escalate */
+    var hasSummer = false;
+    var tmp = new Date(startD);
+    while (tmp <= endD) {
+      if (isSummerHigh(tmp)) { hasSummer = true; break; }
+      tmp.setUTCDate(tmp.getUTCDate() + 1);
+    }
+    if (hasSummer && pressureRank['high'] > pressureRank[maxPressure]) maxPressure = 'high';
+
+    return { holidays: holidays, shabbatCount: shabbatCount, maxPressure: maxPressure };
+  }
+
+  /* ------------------------------------------------------------------ *
+   *  Rendering
+   * ------------------------------------------------------------------ */
+  var MONTH_NAMES = ['January','February','March','April','May','June','July','August','September','October','November','December'];
+
+  function dateLabel(arr) {
+    return MONTH_NAMES[arr[1]-1] + ' ' + arr[2] + ', ' + arr[0];
+  }
+  function dateRangeLabel(h) {
+    if (h.start[0] === h.end[0] && h.start[1] === h.end[1] && h.start[2] === h.end[2]) {
+      return dateLabel(h.start);
+    }
+    var sameYear = h.start[0] === h.end[0];
+    var sameMonth = sameYear && h.start[1] === h.end[1];
+    if (sameMonth) return MONTH_NAMES[h.start[1]-1] + ' ' + h.start[2] + '–' + h.end[2] + ', ' + h.start[0];
+    if (sameYear)  return MONTH_NAMES[h.start[1]-1] + ' ' + h.start[2] + ' – ' + MONTH_NAMES[h.end[1]-1] + ' ' + h.end[2] + ', ' + h.start[0];
+    return dateLabel(h.start) + ' – ' + dateLabel(h.end);
+  }
+
+  function pressureBadge(p) {
+    var map = {
+      high:   { cls: 'bg-rose-100 text-rose-700 ring-rose-300',   label: 'HIGH DEMAND' },
+      medium: { cls: 'bg-amber-100 text-amber-700 ring-amber-300', label: 'MODERATE DEMAND' },
+      low:    { cls: 'bg-green-100 text-green-700 ring-green-300', label: 'LOW DEMAND' },
+    };
+    var d = map[p] || map['low'];
+    return '<span class="inline-flex items-center rounded-full px-3 py-1 text-xs font-bold uppercase tracking-wide ring-1 ' + d.cls + '">' + d.label + '</span>';
+  }
+
+  function pressureExplain(p, hasSummer) {
+    if (p === 'high') {
+      if (hasSummer) return 'Your dates include the peak summer season (June–August) or a major holiday period. Book accommodation well in advance — prices are highest during this window.';
+      return 'Your dates include a major holiday period. Hotels fill up months in advance; prices rise significantly. Book as early as possible.';
+    }
+    if (p === 'medium') return 'Moderate booking demand during your dates. Some public holidays may affect opening hours. Book accommodation a few weeks ahead to secure your preference.';
+    return 'This is a relatively quiet window to visit Israel. Good availability and competitive hotel rates. Still book ahead for popular properties during any Shabbat/holiday weekend.';
+  }
+
+  function render() {
+    var startStr = document.getElementById('start-date').value;
+    var endStr   = document.getElementById('end-date').value;
+    var errEl    = document.getElementById('date-error');
+    var results  = document.getElementById('results');
+
+    if (!startStr || !endStr) { results.innerHTML = ''; return; }
+
+    var startD = new Date(startStr + 'T00:00:00Z');
+    var endD   = new Date(endStr   + 'T00:00:00Z');
+
+    if (endD <= startD) {
+      errEl.classList.remove('hidden');
+      results.innerHTML = '';
+      return;
+    }
+    errEl.classList.add('hidden');
+
+    var tripDays = Math.round((endD - startD) / 86400000) + 1;
+    var result   = computeImpact(startStr, endStr);
+
+    var hasSummer = false;
+    var tmp = new Date(startD);
+    while (tmp <= endD) {
+      if (isSummerHigh(tmp)) { hasSummer = true; break; }
+      tmp.setUTCDate(tmp.getUTCDate() + 1);
+    }
+
+    var html = '';
+
+    /* Summary strip */
+    html += '<div class="rounded-card border border-border bg-card p-5 shadow-card">';
+    html += '<div class="flex flex-wrap items-start justify-between gap-3">';
+    html += '<div>';
+    html += '<p class="text-sm font-semibold text-ink-muted">Your trip</p>';
+    html += '<p class="font-display text-2xl font-bold text-ink">' + tripDays + ' day' + (tripDays !== 1 ? 's' : '') + '</p>';
+    html += '</div>';
+    html += '<div class="text-right">';
+    html += '<p class="text-sm font-semibold text-ink-muted">Booking pressure</p>';
+    html += '<div class="mt-1">' + pressureBadge(result.maxPressure) + '</div>';
+    html += '</div>';
+    html += '</div>';
+    html += '<p class="mt-3 text-sm text-ink-muted">' + pressureExplain(result.maxPressure, hasSummer) + '</p>';
+    html += '</div>';
+
+    /* Shabbat count */
+    html += '<div class="mt-4 rounded-card border border-border bg-primary-soft p-4">';
+    if (result.shabbatCount === 0) {
+      html += '<p class="font-semibold text-ink">No full Shabbats during your trip</p>';
+      html += '<p class="mt-1 text-sm text-ink-muted">Your dates do not include a Friday-evening-to-Saturday-night period. Weekday schedules apply throughout.</p>';
+    } else {
+      html += '<p class="font-semibold text-ink">' + result.shabbatCount + ' Shabbat' + (result.shabbatCount !== 1 ? 's' : '') + ' during your trip</p>';
+      html += '<p class="mt-1 text-sm text-ink-muted">Intercity buses stop from Friday afternoon until Saturday night. Many restaurants in Jerusalem close; Tel Aviv and Haifa stay more open. Taxis and Gett operate normally. See <a href="/whats-open-on-shabbat" class="font-semibold text-primary underline">what\'s open on Shabbat</a>.</p>';
+    }
+    html += '</div>';
+
+    /* Holiday list */
+    if (result.holidays.length === 0) {
+      html += '<div class="mt-4 rounded-card border border-green-300 bg-green-50 p-5">';
+      html += '<p class="font-semibold text-green-800">No major Jewish holidays in your dates</p>';
+      html += '<p class="mt-1 text-sm text-green-700">This is a good low-pressure window to visit Israel. Restaurants, attractions and public transport operate on normal schedules (Shabbat closures still apply on Fridays/Saturdays — see above).</p>';
+      html += '</div>';
+    } else {
+      html += '<div class="mt-4 space-y-3">';
+      html += '<h3 class="font-display text-xl font-bold text-ink">' + result.holidays.length + ' holiday' + (result.holidays.length !== 1 ? 's' : '') + ' during your trip</h3>';
+      result.holidays.forEach(function (h) {
+        var borderCls = h.fast ? 'border-rose-300 bg-rose-50' : (h.pressure === 'high' ? 'border-amber-300 bg-amber-50' : 'border-border bg-card');
+        var tagCls = h.fast ? 'bg-rose-100 text-rose-700' : (h.pressure === 'high' ? 'bg-amber-100 text-amber-700' : 'bg-sand-deep text-ink-muted');
+        var tagLabel = h.fast ? 'Fast day' : (h.pressure === 'high' ? 'High impact' : 'Low impact');
+        html += '<div class="rounded-card border p-4 ' + borderCls + '">';
+        html += '<div class="flex flex-wrap items-start justify-between gap-2">';
+        html += '<p class="font-semibold text-ink">' + h.name + '</p>';
+        html += '<span class="rounded-full px-2 py-0.5 text-xs font-semibold ' + tagCls + '">' + tagLabel + '</span>';
+        html += '</div>';
+        html += '<p class="mt-0.5 text-xs text-ink-muted">' + dateRangeLabel(h) + '</p>';
+        html += '<p class="mt-2 text-sm text-ink-muted">' + h.impact + '</p>';
+        html += '</div>';
+      });
+      html += '</div>';
+    }
+
+    results.innerHTML = html;
+  }
+
+  document.getElementById('start-date').addEventListener('change', render);
+  document.getElementById('end-date').addEventListener('change', render);
+
+  /* Initial render */
+  render();
+})();
+</script>

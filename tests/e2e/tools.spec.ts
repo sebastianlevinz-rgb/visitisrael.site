@@ -354,3 +354,55 @@ test.describe('Israel Visa & ETA-IL Checker', () => {
     await expect(page.locator('#visa-prompt')).toBeVisible();
   });
 });
+
+test.describe('Israel Holiday Impact Planner', () => {
+  test('shows Rosh Hashanah and HIGH demand for Sep 2026 dates', async ({ page }) => {
+    await page.goto('/israel-holiday-planner');
+
+    // Set date range covering Rosh Hashanah 2026 (Sep 11–12).
+    await page.locator('#start-date').fill('2026-09-01');
+    await page.locator('#end-date').fill('2026-09-20');
+
+    const results = page.locator('#results');
+    await expect(results).toContainText(/Rosh Hashanah/i);
+    await expect(results).toContainText(/HIGH DEMAND/i);
+    // Should also mention Yom Kippur (Sep 20).
+    await expect(results).toContainText(/Yom Kippur/i);
+  });
+
+  test('shows no-holidays message for a quiet window', async ({ page }) => {
+    await page.goto('/israel-holiday-planner');
+
+    // Mid-January 2026 — no Jewish holidays.
+    await page.locator('#start-date').fill('2026-01-10');
+    await page.locator('#end-date').fill('2026-01-20');
+
+    const results = page.locator('#results');
+    await expect(results).toContainText(/no major jewish holidays/i);
+    // Booking pressure should NOT be high.
+    await expect(results).not.toContainText(/HIGH DEMAND/i);
+  });
+
+  test('counts Shabbats correctly for a 2-week stay', async ({ page }) => {
+    await page.goto('/israel-holiday-planner');
+
+    // 14-night stay starting Monday — includes 2 Saturdays.
+    await page.locator('#start-date').fill('2026-06-01');
+    await page.locator('#end-date').fill('2026-06-14');
+
+    const results = page.locator('#results');
+    await expect(results).toContainText(/2 Shabbat/i);
+  });
+
+  test('shows validation error for invalid date range', async ({ page }) => {
+    await page.goto('/israel-holiday-planner');
+
+    // End before start — should show an error.
+    await page.locator('#start-date').fill('2026-09-20');
+    await page.locator('#end-date').fill('2026-09-10');
+
+    await expect(page.locator('#date-error')).toBeVisible();
+    // Results panel should be empty.
+    await expect(page.locator('#results')).toHaveText('');
+  });
+});
