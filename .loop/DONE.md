@@ -103,3 +103,12 @@
   times, bus info, Shabbat impact badges (red/amber), and practical tips. Train details (time +
   schedule notes) for 12 rail-served routes. Captures "how long from Tel Aviv to Jerusalem" and
   similar high-intent queries where third-party sites rank and we had nothing. 214 e2e tests pass.
+
+## iter 94 (2026-06-26) — REVIEW: Shabbat DST fix + travel-time footer link
+- SHA: 5b30786
+- URL: /israel-shabbat-calendar (fix) + Footer.astro (fix)
+- Category: REVIEW
+- Value: Fixed DST end rule (Saturday→Sunday) correcting up to 6 days/year of 1h-late
+  Shabbat times displayed in the calendar tool. Added /israel-travel-time footer link
+  (was the only recently-shipped tool missing from footer). All 4 reviewed tools confirmed
+  clean on links, JSON-LD, a11y, and honesty.

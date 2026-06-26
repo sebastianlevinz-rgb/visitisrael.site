@@ -1751,3 +1751,27 @@ Ship: committed to master 79a1e37, pushed. Branch auto/israel-travel-time delete
 Prod: CI + Lighthouse in_progress at push — typical pattern, expected to succeed.
 Next: iter 94 = REVIEW (94%5==4). Review recently shipped tools (shabbat cal, visa checker, cost
   calc v2, travel time tool) for correctness, a11y, dead links, and schema validity.
+
+## 2026-06-26 · iter 94 · REVIEW · Shabbat DST fix + travel-time footer link
+What: REVIEW iteration. Audited tools from iters 78/83/88/93 (shabbat calendar, visa checker,
+  trip cost calculator v2, travel time calculator).
+  CI for iter93 (79a1e37): CONFIRMED SUCCESS (GitHub Actions completed/success).
+  Startup: local master 50 commits behind origin (cloud fresh-clone pattern) → git reset --hard
+  origin/master to 7b4f156 (iter93 state). No STOP flag.
+  All 4 tools review:
+  - Internal links: all verified. /shabbat-guide, /whats-open-on-shabbat, /visa-information,
+    /ben-gurion-airport-guide, /first-time-in-israel, /israel-cost-budget, /itineraries,
+    /best-tours-in-israel, /israel-tipping-currency, /israel-how-many-days, /israel-distance-calculator,
+    /tel-aviv-to-jerusalem (content guide), /transport/jerusalem-to-dead-sea,
+    /transport/tel-aviv-to-haifa, /transport/tel-aviv-to-eilat, /transport/haifa-to-akko all exist.
+  - JSON-LD: FAQPage + BreadcrumbList schema on all 4 tools — ✓
+  - A11y: aria-live / role=status / form labels present on all 4 tools — ✓
+  - Honesty: all tools disclaim accuracy, link to official sources (PIBA, rail.co.il, Chabad) — ✓
+  Bugs found: (1) Shabbat calendar DST end: getUTCDay() !== 6 (Saturday) should be !== 0 (Sunday);
+  Israeli law since 2013 ends DST on last Sunday of October, not Saturday — up to 6-day window of
+  1h-off times in late October. (2) /israel-travel-time missing from footer despite all 3 sibling
+  tools present.
+Gate: pnpm check 0 errors (110 files); pnpm build 211 pages; pnpm test:e2e 214/214 PASS. GREEN.
+Ship: committed to master 5b30786, pushed. Branch auto/review-94-shabbat-dst-footer deleted.
+Prod: CI + Lighthouse in_progress at push — typical pattern, expected to succeed.
+Next: iter 95 = RESEARCH (95%5==0). Research competitors for profitable features/content gaps.
