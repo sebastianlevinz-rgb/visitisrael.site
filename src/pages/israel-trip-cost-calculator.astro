@@ -7,7 +7,7 @@ import { breadcrumbList, faqPage } from '@/lib/schema';
 
 const title = 'Israel Trip Cost Calculator — Estimate Your Budget';
 const description =
-  'Free interactive Israel trip cost calculator. Enter your days, travellers and travel style to estimate accommodation, food, transport, activities and day trips — in USD and shekels.';
+  'Free interactive Israel trip budget planner. Choose your accommodation tier, travel style and trip length to get a daily + total breakdown in USD and shekels — with a save-to-PDF summary.';
 
 const crumbs = [
   { name: 'Home', path: '/' },
@@ -18,17 +18,22 @@ const faqs = [
   {
     question: 'How much does a trip to Israel cost?',
     answer:
-      'As a rough guide, budget travellers spend about $70–90 per person per day, mid-range travellers $150–200, and luxury travellers $350+ — before international flights. A typical 7-day mid-range trip lands around $1,200–1,500 per person plus flights. Use the calculator above to estimate your own total.',
+      'Budget travellers (hostel, street food, free sites) spend around $70–90 per person per day. Mid-range travellers with a comfortable hotel and sit-down meals pay $150–220. Luxury travellers can spend $400+ per day. A typical 7-day mid-range trip lands around $1,200–1,600 per person, excluding international flights. Use the calculator to build your own estimate.',
   },
   {
     question: 'Is Israel expensive to visit?',
     answer:
-      'Israel is one of the pricier destinations in the region — closer to Western European prices. Accommodation, eating out and alcohol are the biggest costs; supermarket food, falafel/hummus spots, free sites and public transport keep costs down.',
+      'Israel is one of the pricier destinations in the region — broadly comparable to Western Europe. Accommodation and eating out are the biggest cost drivers. Public transport, street food (falafel/hummus) and free or low-cost sites (beaches, Western Wall, Bahá\'í Gardens guided tour) help stretch the budget.',
   },
   {
     question: 'What currency is used in Israel?',
     answer:
       'The Israeli new shekel (₪, ILS). Cards are accepted almost everywhere; keep some cash for markets and small vendors. The calculator shows estimates in both US dollars and shekels at an approximate rate.',
+  },
+  {
+    question: 'How can I save my budget estimate?',
+    answer:
+      'Click "Print / Save as PDF" in the results panel. Your browser will open a print dialog — choose "Save as PDF" to export a clean one-page summary of your trip budget.',
   },
 ];
 
@@ -45,33 +50,46 @@ const schema = [breadcrumbList(crumbs), faqPage(faqs)];
   <JsonLd schema={schema} slot="head" />
   <Hero
     image="/images/regions/tel-aviv/hero.jpg"
-    title="Israel Trip Cost Calculator"
-    subtitle="Estimate your whole trip in seconds — accommodation, food, transport, activities and day trips, in dollars and shekels."
+    title="Israel Trip Budget Planner"
+    subtitle="Choose your accommodation tier, travel style and trip length — get a daily and total breakdown in dollars and shekels."
     alt="Tel Aviv seafront at golden hour — planning a trip to Israel"
   />
   <Breadcrumbs items={crumbs} />
 
-  <section class="mx-auto max-w-5xl px-4 pt-10">
+  <section class="mx-auto max-w-5xl px-4 pt-10 no-print">
     <p class="eyebrow" data-reveal>Plan with real numbers</p>
     <h2 class="font-display text-3xl font-bold text-ink" data-reveal>
       Build your estimate
     </h2>
     <p class="mt-2 max-w-2xl text-ink-muted" data-reveal>
       Figures are grounded in 2026 on-the-ground prices. Everything updates as
-      you type. Adjust the travel style to see the range — see our full
+      you type. See our full
       <a href="/israel-cost-budget" class="font-semibold text-primary"
         >cost &amp; budget guide</a
       > for the detail behind these numbers.
     </p>
+  </section>
 
-    <div class="mt-8 grid gap-8 lg:grid-cols-[1fr_1.1fr]">
+  <div class="mx-auto max-w-5xl px-4 pt-8 pb-4">
+    <div class="grid gap-8 lg:grid-cols-[1fr_1.1fr]">
       <!-- Inputs -->
       <form
         id="calc"
-        class="rounded-card border border-border bg-card p-6 shadow-card"
-        aria-label="Trip cost inputs"
+        class="rounded-card border border-border bg-card p-6 shadow-card no-print"
+        aria-label="Trip budget inputs"
       >
-        <div class="grid grid-cols-2 gap-4">
+        <!-- Quick day presets -->
+        <div class="mb-1">
+          <span class="text-sm font-semibold text-ink">Trip length</span>
+          <div class="mt-2 flex flex-wrap gap-2" role="group" aria-label="Quick duration presets">
+            <button type="button" class="day-preset" data-days="5">5 days</button>
+            <button type="button" class="day-preset" data-days="7">7 days</button>
+            <button type="button" class="day-preset" data-days="10">10 days</button>
+            <button type="button" class="day-preset" data-days="14">14 days</button>
+          </div>
+        </div>
+
+        <div class="mt-4 grid grid-cols-2 gap-4">
           <label class="block">
             <span class="text-sm font-semibold text-ink">Days</span>
             <input
@@ -96,8 +114,25 @@ const schema = [breadcrumbList(crumbs), faqPage(faqs)];
           </label>
         </div>
 
+        <!-- Accommodation tier -->
+        <label class="mt-5 block">
+          <span class="text-sm font-semibold text-ink">Accommodation</span>
+          <select
+            id="accom-tier"
+            class="mt-1 w-full rounded-btn border border-border bg-sand px-3 py-2 text-ink"
+          >
+            <option value="hostel">Hostel / dorm — ~$22 pp/night</option>
+            <option value="guesthouse">Guesthouse (private room) — ~$55 pp/night</option>
+            <option value="budget_hotel">Budget hotel / B&amp;B — ~$80 pp/night</option>
+            <option value="mid_hotel" selected>Mid-range hotel — ~$120 pp/night</option>
+            <option value="boutique">Boutique / upscale hotel — ~$220 pp/night</option>
+            <option value="luxury_hotel">Luxury / 5-star hotel — ~$380 pp/night</option>
+          </select>
+        </label>
+
+        <!-- Travel style (food / transport / activities) -->
         <fieldset class="mt-5">
-          <legend class="text-sm font-semibold text-ink">Travel style</legend>
+          <legend class="text-sm font-semibold text-ink">Travel style <span class="font-normal text-ink-muted">(food, transport &amp; activities)</span></legend>
           <div class="mt-2 grid grid-cols-3 gap-2" role="radiogroup">
             <label class="style-opt">
               <input type="radio" name="style" value="budget" class="sr-only" />
@@ -161,9 +196,16 @@ const schema = [breadcrumbList(crumbs), faqPage(faqs)];
 
       <!-- Results -->
       <div
+        id="results-panel"
         class="rounded-card border border-border bg-sand-deep p-6 shadow-card"
         aria-live="polite"
       >
+        <!-- Print header (hidden on screen, shown in PDF) -->
+        <div class="print-only mb-4 border-b border-border pb-4">
+          <p class="font-display text-2xl font-bold text-ink">Israel Trip Budget Summary</p>
+          <p id="print-meta" class="mt-1 text-sm text-ink-muted"></p>
+        </div>
+
         <p class="eyebrow">Estimated total</p>
         <p class="mt-1">
           <span id="total" class="tabular font-display text-5xl font-bold text-ink"
@@ -175,15 +217,26 @@ const schema = [breadcrumbList(crumbs), faqPage(faqs)];
           for your group · $0 per person · $0 per person / day
         </p>
 
-        <table class="mt-6 w-full text-sm">
+        <table class="mt-6 w-full text-sm" id="breakdown-table">
+          <thead>
+            <tr class="border-b-2 border-border">
+              <th class="pb-2 text-left text-xs font-semibold uppercase tracking-wide text-ink-muted">Category</th>
+              <th class="pb-2 text-right text-xs font-semibold uppercase tracking-wide text-ink-muted">Per day</th>
+              <th class="pb-2 text-right text-xs font-semibold uppercase tracking-wide text-ink-muted">Total</th>
+            </tr>
+          </thead>
           <tbody id="breakdown" class="tabular">
             <!-- rows injected by JS -->
           </tbody>
         </table>
 
-        <div class="mt-6 flex flex-wrap gap-3">
+        <div class="mt-6 flex flex-wrap gap-3 no-print">
           <a href="/itineraries" class="btn btn-primary">See itineraries</a>
           <a href="/best-tours-in-israel" class="btn btn-ghost">Browse tours</a>
+          <button id="print-btn" type="button" class="btn btn-ghost flex items-center gap-1.5">
+            <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="6 9 6 2 18 2 18 9"/><path d="M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2"/><rect x="6" y="14" width="12" height="8"/></svg>
+            Print / Save as PDF
+          </button>
         </div>
         <p class="mt-4 text-xs text-ink-muted">
           Estimates only, excluding travel insurance and shopping. Shekel
@@ -191,9 +244,9 @@ const schema = [breadcrumbList(crumbs), faqPage(faqs)];
         </p>
       </div>
     </div>
-  </section>
+  </div>
 
-  <section class="mx-auto max-w-3xl px-4 pb-4 pt-14">
+  <section class="mx-auto max-w-3xl px-4 pb-4 pt-14 no-print">
     <h2 class="mb-4 font-display text-2xl font-bold text-ink">
       Frequently asked questions
     </h2>
@@ -209,6 +262,14 @@ const schema = [breadcrumbList(crumbs), faqPage(faqs)];
         ))
       }
     </div>
+  </section>
+
+  <section class="mx-auto max-w-3xl px-4 pb-16 pt-10 no-print">
+    <p class="text-sm text-ink-muted">
+      Also useful: <a href="/israel-cost-budget" class="font-semibold text-primary">Israel cost &amp; budget guide</a>
+      · <a href="/israel-tipping-currency" class="font-semibold text-primary">Currency &amp; tipping</a>
+      · <a href="/israel-how-many-days" class="font-semibold text-primary">How many days do I need?</a>
+    </p>
   </section>
 </BaseLayout>
 
@@ -237,6 +298,46 @@ const schema = [breadcrumbList(crumbs), faqPage(faqs)];
     outline: 3px solid var(--color-primary);
     outline-offset: 2px;
   }
+
+  .day-preset {
+    border-radius: var(--radius-btn);
+    border: 1.5px solid var(--color-border);
+    padding: 0.3rem 0.75rem;
+    font-size: var(--text-sm);
+    font-weight: 600;
+    color: var(--color-ink-muted);
+    background: transparent;
+    cursor: pointer;
+    transition:
+      border-color 0.15s ease,
+      background 0.15s ease,
+      color 0.15s ease;
+  }
+  .day-preset:hover {
+    border-color: var(--color-primary);
+    color: var(--color-primary);
+  }
+  .day-preset.active {
+    border-color: var(--color-primary);
+    background: var(--color-primary-soft);
+    color: var(--color-primary);
+  }
+  .day-preset:focus-visible {
+    outline: 3px solid var(--color-primary);
+    outline-offset: 2px;
+  }
+
+  @media print {
+    .no-print { display: none !important; }
+    .print-only { display: block !important; }
+    #results-panel {
+      border: none;
+      box-shadow: none;
+      padding: 0;
+    }
+    body { background: white; }
+  }
+  .print-only { display: none; }
 </style>
 
 <script is:inline>
@@ -245,11 +346,22 @@ const schema = [breadcrumbList(crumbs), faqPage(faqs)];
     var FLIGHT = 750; // pp rough
     var DAYTRIP = 110; // pp each
     var CAR = 55; // per day, shared
-    // Per-person, per-day by style
+
+    // Accommodation cost per person per night
+    var ACCOMS = {
+      hostel:       22,
+      guesthouse:   55,
+      budget_hotel: 80,
+      mid_hotel:    120,
+      boutique:     220,
+      luxury_hotel: 380,
+    };
+
+    // Per-person, per-day for non-accom costs by style
     var STYLE = {
-      budget: { Accommodation: 35, 'Food & drink': 25, 'Local transport': 6, Activities: 12 },
-      mid: { Accommodation: 90, 'Food & drink': 50, 'Local transport': 12, Activities: 25 },
-      luxury: { Accommodation: 200, 'Food & drink': 100, 'Local transport': 30, Activities: 60 },
+      budget: { 'Food & drink': 22, 'Local transport': 5,  Activities: 10 },
+      mid:    { 'Food & drink': 50, 'Local transport': 12, Activities: 25 },
+      luxury: { 'Food & drink': 100,'Local transport': 30, Activities: 60 },
     };
 
     var $ = function (id) { return document.getElementById(id); };
@@ -260,14 +372,11 @@ const schema = [breadcrumbList(crumbs), faqPage(faqs)];
     var money = function (n) {
       return '$' + Math.round(n).toLocaleString('en-US');
     };
+
     var reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
     var prevTotal = 0;
     function animateTotal(el, to) {
-      if (reduce) {
-        el.textContent = money(to);
-        prevTotal = to;
-        return;
-      }
+      if (reduce) { el.textContent = money(to); prevTotal = to; return; }
       var from = prevTotal;
       prevTotal = to;
       var start = null;
@@ -276,7 +385,7 @@ const schema = [breadcrumbList(crumbs), faqPage(faqs)];
       function step(ts) {
         if (start === null) start = ts;
         var p = Math.min(1, (ts - start) / dur);
-        var eased = 0.5 - Math.cos(p * Math.PI) / 2; // easeInOut
+        var eased = 0.5 - Math.cos(p * Math.PI) / 2;
         el.textContent = money(from + (to - from) * eased);
         if (p < 1) el._raf = requestAnimationFrame(step);
       }
@@ -288,6 +397,18 @@ const schema = [breadcrumbList(crumbs), faqPage(faqs)];
       return el ? el.value : 'mid';
     }
 
+    function accomRate() {
+      var sel = $('accom-tier');
+      return ACCOMS[sel ? sel.value : 'mid_hotel'] || 120;
+    }
+
+    function updatePresetButtons(days) {
+      document.querySelectorAll('.day-preset').forEach(function (btn) {
+        var d = parseInt(btn.getAttribute('data-days'), 10);
+        btn.classList.toggle('active', d === days);
+      });
+    }
+
     function compute() {
       var days = Math.max(1, num('days', 7));
       var pax = Math.max(1, num('travellers', 2));
@@ -295,30 +416,46 @@ const schema = [breadcrumbList(crumbs), faqPage(faqs)];
       var cardays = num('cardays', 0);
       var flights = $('flights').checked;
       var s = STYLE[style()];
+      var ppn = accomRate();
 
+      updatePresetButtons(days);
+
+      // rows: [label, perPersonPerDay, total]
       var rows = [];
+      var accomTotal = ppn * days * pax;
+      rows.push(['Accommodation', ppn, accomTotal]);
+
       var perPersonDaily = 0;
       for (var k in s) {
-        var lineGroup = s[k] * days * pax;
-        perPersonDaily += s[k];
-        rows.push([k, lineGroup]);
+        var ppd = s[k];
+        perPersonDaily += ppd;
+        rows.push([k, ppd, ppd * days * pax]);
       }
-      var dayTripCost = daytrips * DAYTRIP * pax;
-      if (dayTripCost) rows.push(['Guided day trips', dayTripCost]);
-      var carCost = cardays * CAR;
-      if (carCost) rows.push(['Rental car', carCost]);
-      var flightCost = flights ? FLIGHT * pax : 0;
-      if (flightCost) rows.push(['Flights', flightCost]);
 
-      var total = rows.reduce(function (a, r) { return a + r[1]; }, 0);
+      var dayTripCost = daytrips * DAYTRIP * pax;
+      if (dayTripCost) rows.push(['Guided day trips', null, dayTripCost]);
+      var carCost = cardays * CAR;
+      if (carCost) rows.push(['Rental car', null, carCost]);
+      var flightCost = flights ? FLIGHT * pax : 0;
+      if (flightCost) rows.push(['Flights', null, flightCost]);
+
+      var total = rows.reduce(function (a, r) { return a + r[2]; }, 0);
 
       animateTotal($('total'), total);
       $('total-ils').textContent = '≈ ₪' + Math.round(total * RATE).toLocaleString('en-US');
       var perPerson = total / pax;
+      var perPersonPerDay = perPerson / days;
       $('perperson').textContent =
         'for ' + pax + (pax > 1 ? ' travellers' : ' traveller') +
         ' · ' + money(perPerson) + ' per person · ' +
-        money(perPerson / days) + ' per person / day';
+        money(perPersonPerDay) + ' per person / day';
+
+      // Update print meta
+      var accomSel = $('accom-tier');
+      var accomLabel = accomSel ? accomSel.options[accomSel.selectedIndex].text.split(' —')[0] : 'Mid-range hotel';
+      $('print-meta').textContent =
+        days + ' days · ' + pax + (pax > 1 ? ' travellers' : ' traveller') +
+        ' · ' + accomLabel + ' · ' + style() + ' travel style';
 
       var tb = $('breakdown');
       tb.innerHTML = '';
@@ -329,17 +466,44 @@ const schema = [breadcrumbList(crumbs), faqPage(faqs)];
         td1.className = 'py-2 text-ink-muted';
         td1.textContent = r[0];
         var td2 = document.createElement('td');
-        td2.className = 'py-2 text-right font-semibold text-ink';
-        td2.textContent = money(r[1]);
-        tr.appendChild(td1); tr.appendChild(td2);
+        td2.className = 'py-2 text-right text-ink-muted text-xs';
+        td2.textContent = r[1] !== null ? money(r[1]) + '/day' : '—';
+        var td3 = document.createElement('td');
+        td3.className = 'py-2 text-right font-semibold text-ink';
+        td3.textContent = money(r[2]);
+        tr.appendChild(td1); tr.appendChild(td2); tr.appendChild(td3);
         tb.appendChild(tr);
       });
+      // Total row
+      var trTotal = document.createElement('tr');
+      trTotal.className = 'font-bold';
+      var tdLabel = document.createElement('td');
+      tdLabel.className = 'pt-3 text-ink';
+      tdLabel.textContent = 'Total';
+      var tdEmpty = document.createElement('td');
+      var tdTotal = document.createElement('td');
+      tdTotal.className = 'pt-3 text-right text-ink';
+      tdTotal.textContent = money(total);
+      trTotal.appendChild(tdLabel); trTotal.appendChild(tdEmpty); trTotal.appendChild(tdTotal);
+      tb.appendChild(trTotal);
     }
 
     $('calc').addEventListener('input', compute);
     document.querySelectorAll('input[name="style"]').forEach(function (el) {
       el.addEventListener('change', compute);
     });
+    document.querySelectorAll('.day-preset').forEach(function (btn) {
+      btn.addEventListener('click', function () {
+        var d = btn.getAttribute('data-days');
+        $('days').value = d;
+        compute();
+      });
+    });
+
+    $('print-btn').addEventListener('click', function () {
+      window.print();
+    });
+
     compute();
   })();
 </script>

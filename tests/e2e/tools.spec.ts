@@ -1,6 +1,6 @@
 import { test, expect } from '@playwright/test';
 
-test.describe('Trip cost calculator', () => {
+test.describe('Trip cost calculator v2', () => {
   test('computes a total and reacts to inputs', async ({ page }) => {
     await page.goto('/israel-trip-cost-calculator');
     const total = page.locator('#total');
@@ -13,6 +13,50 @@ test.describe('Trip cost calculator', () => {
     const n = (s: string | null) => Number((s || '').replace(/[^0-9]/g, ''));
     expect(n(after)).toBeGreaterThan(n(before));
     await expect(page.locator('#breakdown tr')).not.toHaveCount(0);
+  });
+
+  test('accommodation tier changes total, quick presets set days', async ({ page }) => {
+    await page.goto('/israel-trip-cost-calculator');
+    const total = page.locator('#total');
+    const n = (s: string | null) => Number((s || '').replace(/[^0-9]/g, ''));
+
+    // Switch to luxury hotel — total should increase vs mid-range default.
+    const midTotal = n(await total.textContent());
+    await page.locator('#accom-tier').selectOption('luxury_hotel');
+    await page.waitForTimeout(600);
+    const luxuryTotal = n(await total.textContent());
+    expect(luxuryTotal).toBeGreaterThan(midTotal);
+
+    // Switch to hostel — total should be less than mid-range.
+    await page.locator('#accom-tier').selectOption('hostel');
+    await page.waitForTimeout(600);
+    const hostelTotal = n(await total.textContent());
+    expect(hostelTotal).toBeLessThan(midTotal);
+
+    // Quick day preset: click "10 days" → days input updates.
+    await page.locator('.day-preset[data-days="10"]').click();
+    await expect(page.locator('#days')).toHaveValue('10');
+    await page.waitForTimeout(600);
+    const tenDayTotal = n(await total.textContent());
+    // 10 days > default 7 days at same style.
+    const sevenDayPresetTotal = hostelTotal; // was at 7 days
+    expect(tenDayTotal).toBeGreaterThan(sevenDayPresetTotal);
+  });
+
+  test('breakdown table has daily and total columns', async ({ page }) => {
+    await page.goto('/israel-trip-cost-calculator');
+    // Table header should show "Per day" and "Total" columns.
+    await expect(page.locator('#breakdown-table thead th').nth(1)).toContainText(/per day/i);
+    await expect(page.locator('#breakdown-table thead th').nth(2)).toContainText(/total/i);
+    // Accommodation row has a per-day cost.
+    await expect(page.locator('#breakdown tr').first()).toContainText('$');
+  });
+
+  test('print button is present and accessible', async ({ page }) => {
+    await page.goto('/israel-trip-cost-calculator');
+    const printBtn = page.locator('#print-btn');
+    await expect(printBtn).toBeVisible();
+    await expect(printBtn).toContainText(/print/i);
   });
 });
 
