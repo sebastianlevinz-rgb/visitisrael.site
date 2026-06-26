@@ -1689,3 +1689,22 @@ Memory: STATE.md, JOURNAL.md, BACKLOG.md, COMPETITORS.md all updated.
 Next: iter 91 = BUILD (91%5==1 → monetization). Top candidates: Eilat city guide (P2,M),
   Haifa city guide (P2,M), zimmer guide (P2,S new), accommodation hub (P2,S new), Jerusalem food guide (P2,M).
   S-effort monetization items (zimmer + hub) have full impl specs and are immediately buildable.
+
+## 2026-06-26 · iter 91 · BUILD (monetization) · Israel zimmer & rural B&B guide
+What: Shipped /israel-zimmer-guide — comprehensive guide to Israel's ~10,000 rural cabin/B&B properties
+  ("zimmers"). No competitor Israel site had a dedicated guide; zimmeril.com, zimertop.co.il, touristisrael.com
+  all rank for this intent. Content: what a zimmer is (etymology, self-contained cabin, private hot tub in
+  romantic complexes), regional breakdown by 5 regions (Upper Galilee heartland, Sea of Galilee lakefront,
+  Golan Heights mountain/vineyard, Negev desert adobe, Judaean Hills wine country), booking platforms
+  (zimmeril.com, Booking.com, zimmer.co.il), price ranges (₪350–900/unit/night), seasonal advice, practical
+  notes (car required, Shabbat timing, kashrut). Booking.com B&B affiliate CTA. 7 FAQs for FAQPage schema.
+  Footer Essentials link added. Dense internal links (galilee, golan, tiberias-guide, car-rental-israel,
+  shabbat-calendar, hiking-in-israel).
+Startup: local master 50 commits behind origin (fresh cloud clone issue) → git reset --hard origin/master
+  to b6b25fa (iter90 state). No STOP flag. CI for b6b25fa: COMPLETED SUCCESS (confirms iter90 + prior chain).
+Gate: pnpm check 0 errors (109 files); pnpm build 209 pages (up from 208); pnpm test:e2e 209/209 PASS.
+  One fix during gate: /where-to-stay link broke internal link checker (no index page, only city sub-pages
+  exist) — changed to /where-to-stay/jerusalem.
+Ship: committed to master 59f8018, pushed. Branch auto/zimmer-guide deleted.
+Prod: CI + Lighthouse in_progress at push — typical pattern, expected to succeed.
+Next: iter 92 = BUILD (92%5==2 → seo-content). Top candidate: Israel eSIM guide or money/ATM guide (P2, S).

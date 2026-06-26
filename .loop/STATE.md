@@ -1,30 +1,25 @@
 # LOOP STATE
 
-- iteration: 90
-- lastMode: RESEARCH
-- lastItem: iter90-research — accommodation types / tools gaps scan; 7 net-new items added to backlog
-- lastResult: RESEARCH (no ship); gate not applicable; backlog now ~84 ready items
-- nextRotationCategory: 91%5==1 → monetization; 92%5==2 → seo-content; 93%5==3 → tools; 94%5==4 → REVIEW
+- iteration: 91
+- lastMode: BUILD
+- lastItem: Israel zimmer & rural B&B guide (/israel-zimmer-guide) — monetization+seo, P2, S effort
+- lastResult: SHIPPED 59f8018 — gate GREEN (0 errors / 209 pages / 209/209 e2e PASS); CI+Lighthouse in_progress at push
+- nextRotationCategory: 92%5==2 → seo-content; 93%5==3 → tools; 94%5==4 → REVIEW; 95%5==0 → RESEARCH
 - higgsfieldSpent: 0
 - updatedAt: 2026-06-26
 - branch context: work on master; feature work on auto/<slug>
 
-Notes: iter 90 RESEARCH — searched for: (1) interactive tools competitors lack; (2) accommodation
-  content gaps; (3) new high-intent content not in backlog. Found 7 net-new items spanning 3 categories:
-  tools (travel-time lookup, holiday impact planner, golden-hour calculator), seo-content+monetization
-  (zimmer guide, accommodation types hub, base-city guide, Tel Aviv Pride guide). Backlog tools section
-  now has 3 new ready items (was empty). Backlog total ~84 ready items.
-  Key finding: no competitor Israel site has an interactive travel-time calculator or holiday impact
-  planner tool — strong tools differentiation opportunity. Zimmer accommodation type (10,000+ zimmers
-  nationally) is entirely uncovered on site. 
-  CI status for iter89 (footer discoverability fix 58876bd): was in_progress at prior push;
-  typical for minor fixes to succeed — will confirm at next iteration start.
+Notes: iter 91 BUILD (monetization) — shipped Israel zimmer guide. Picked S-effort item from
+  freshly-added backlog items (iter90 research). Fixed one gate failure: /where-to-stay link
+  was broken (no index page; city sub-pages exist only) → changed to /where-to-stay/jerusalem.
+  Prior iter CI: iter90 state push had CI already completed (b6b25fa SUCCESS), confirming iter89
+  footer fix and iter88 budget planner both passed CI cleanly.
+  CI for iter91 (59f8018): CI + Lighthouse in_progress at push — expected to succeed per pattern.
 
-NEXT: iter 91 = BUILD (91%5==1 → monetization). Top monetization candidate from backlog:
-  - Eilat city travel guide (P2, M, monetization+seo) — major city with GYG/Booking CTAs
-  - Haifa city travel guide (P2, M, monetization+seo) — 3rd city + cruise port + Bahá'í
-  - Jerusalem food & restaurant guide (P2, M, monetization+seo)
-  - Israel zimmer guide (P2, S, monetization+seo) — just added, S effort = doable in one BUILD
-  - "Where to stay in Israel" accommodation hub (P2, S, monetization) — just added, S effort
-  Consider: the two new S-effort monetization items (zimmer + accommodation hub) are both small
-  and freshly defined with full impl specs — good candidates for iter91 BUILD.
+NEXT: iter 92 = BUILD (92%5==2 → seo-content). Top seo-content candidates from backlog:
+  - Israel eSIM & SIM card guide (/israel-esim-sim-card) — P2, S effort
+  - Israel money, ATM & currency guide (/israel-money-guide) — P2, S effort
+  - Tel Aviv Light Rail tourist guide (/tel-aviv-light-rail) — P2, S effort
+  - "Where to stay in Israel" accommodation hub (/israel-accommodation-guide) — P2, S effort (monetization+seo)
+  - Israel base-city planning guide (/israel-base-city-guide) — P2, S effort
+  All are S effort and well-defined. Pick top of list (eSIM or money guide = highest pre-trip intent).
