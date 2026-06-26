@@ -112,3 +112,13 @@
   Shabbat times displayed in the calendar tool. Added /israel-travel-time footer link
   (was the only recently-shipped tool missing from footer). All 4 reviewed tools confirmed
   clean on links, JSON-LD, a11y, and honesty.
+
+## iter 96 (2026-06-26) — Tel Aviv tours compared money page
+- SHA: 5c5970d
+- URL: /tel-aviv-tours-compared
+- Category: monetization (P2, S effort)
+- Value: Completes the 5-page tours-compared money-page series (masada/galilee/jerusalem/petra + tel-aviv).
+  Covers Old Jaffa walking tours, White City Bauhaus tours, food & Carmel Market tours, nightlife tours
+  and private city guide — comparison table + 3 affiliate CTAs (GYG/Viator/Civitatis). Targets
+  "Tel Aviv tours compared 2026", "best guided tours Tel Aviv", "TLV walking tour vs food tour" —
+  high-commercial-intent queries where GYG/Viator/touristisrael rank and we had no equivalent.

@@ -1799,3 +1799,11 @@ De-duped against DONE.md + full BACKLOG (~84 ready items). Many candidates alrea
      (all shipped); TLV city-tour comparison missing; GYG/Viator CTAs; TourVerdict component.
 Next: iter 96 = BUILD/monetization. Top candidate: Tel Aviv tours compared money page (proven format,
   highest commercial intent, quickest to implement following existing pattern).
+
+## 2026-06-26T09:34 · iter 96 · BUILD/monetization · Tel Aviv tours compared
+
+**Item:** `/tel-aviv-tours-compared` — 5th entry in tours-compared money-page series.
+**Gate:** pnpm check 0 errors · pnpm build completed 213 pages · pnpm test:e2e 214/214 passed.
+**Merge SHA:** 5c5970d — pushed to master; CI in_progress at iteration end.
+**Prod deploy:** pending (CI in_progress); next iteration start-check will confirm.
+**Content:** Comparison table + 5 tour sections (Jaffa walk, White City Bauhaus, food/market, nightlife, private guide) + 5 FAQs + 3 affiliate CTAs (GYG/Viator/Civitatis). Honest framing throughout — price ranges, Shabbat notes, no fabricated ratings.
