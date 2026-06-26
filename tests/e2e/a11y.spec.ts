@@ -75,6 +75,7 @@ const ROUTES = [
   '/tel-aviv-tours-compared',
   '/eilat-tours-compared',
   '/cruise-shore-excursions-israel',
+  '/israel-accommodation-guide',
   '/jewish-heritage-israel',
   '/bar-bat-mitzvah-israel',
   '/israel-food-tours-cooking-classes',

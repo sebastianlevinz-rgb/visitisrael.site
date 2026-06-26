@@ -60,6 +60,7 @@ const ROUTES = [
   '/nazareth-travel-guide',
   '/dead-sea-guide',
   '/qumran-guide',
+  '/israel-accommodation-guide',
   '/rav-kav-israel',
   '/israel-holiday-planner',
   '/israel-visa-eta-checker',
