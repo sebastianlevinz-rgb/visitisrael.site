@@ -30,6 +30,7 @@ const ROUTES = [
   '/israel-weather-packing',
   '/which-israel-region-quiz',
   '/israel-distance-calculator',
+  '/israel-travel-time',
   '/israel-how-many-days',
   '/where-to-stay/jerusalem',
   '/where-to-stay/tel-aviv',

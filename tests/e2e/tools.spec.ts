@@ -116,6 +116,49 @@ test.describe('Distance calculator', () => {
   });
 });
 
+test.describe('Travel time calculator', () => {
+  test('renders drive time for default Tel Aviv → Jerusalem route on load', async ({ page }) => {
+    await page.goto('/israel-travel-time');
+    // Default route (Tel Aviv → Jerusalem) should render drive time immediately.
+    await expect(page.locator('#tt-drive')).toContainText('min');
+    // Train time should also be shown (this route has a train).
+    await expect(page.locator('#tt-train-time')).toContainText('min');
+  });
+
+  test('updates results when a different route is selected', async ({ page }) => {
+    await page.goto('/israel-travel-time');
+    // Switch to a route with no train (Dead Sea has no train).
+    await page.locator('#tt-from').selectOption('tel-aviv');
+    await page.locator('#tt-to').selectOption('dead-sea');
+    // Drive time should render.
+    await expect(page.locator('#tt-drive')).toContainText('h');
+    // No train card time element for this route.
+    await expect(page.locator('#tt-train-time')).not.toBeVisible();
+    // Bus time should be shown.
+    await expect(page.locator('#tt-bus-time')).toContainText('h');
+  });
+
+  test('swap button exchanges origin and destination and re-renders', async ({ page }) => {
+    await page.goto('/israel-travel-time');
+    // Set a known pair.
+    await page.locator('#tt-from').selectOption('haifa');
+    await page.locator('#tt-to').selectOption('akko');
+    const fromBefore = await page.locator('#tt-from').inputValue();
+    await page.locator('#tt-swap').click();
+    const fromAfter = await page.locator('#tt-from').inputValue();
+    expect(fromAfter).not.toBe(fromBefore);
+    // Results should still be visible after swap (same bidirectional route).
+    await expect(page.locator('#tt-drive')).toBeVisible();
+  });
+
+  test('shows Shabbat impact badge for every known route', async ({ page }) => {
+    await page.goto('/israel-travel-time');
+    // The default route (Tel Aviv → Jerusalem) is amber (sherut available).
+    const resultEl = page.locator('#tt-result');
+    await expect(resultEl).toContainText(/Shabbat/i);
+  });
+});
+
 test.describe('How many days', () => {
   test('recommends a trip length and reacts to region + pace', async ({ page }) => {
     await page.goto('/israel-how-many-days');

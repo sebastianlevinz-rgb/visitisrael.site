@@ -1,0 +1,595 @@
+---
+import BaseLayout from '@/layouts/BaseLayout.astro';
+import Hero from '@/components/Hero.astro';
+import Breadcrumbs from '@/components/Breadcrumbs.astro';
+import JsonLd from '@/components/JsonLd.astro';
+import { breadcrumbList, faqPage } from '@/lib/schema';
+
+const title = 'Israel Travel Time Calculator — Train, Bus & Drive Times 2026';
+const description =
+  'How long does it take to travel between Israeli cities? Curated train, bus and driving times for 30+ tourist routes, with Shabbat impact alerts and practical tips.';
+
+const crumbs = [
+  { name: 'Home', path: '/' },
+  { name: 'Plan your trip', path: '/plan-your-trip' },
+  { name: 'Travel time calculator', path: '/israel-travel-time' },
+];
+
+const faqs = [
+  {
+    question: 'How long does it take to travel from Tel Aviv to Jerusalem?',
+    answer:
+      'The high-speed train takes 34 minutes (Jerusalem Navon station). By car it is 45–65 minutes (longer during rush hour). Egged bus line 480 takes 1–1.5 hours. On Shabbat, trains and buses do not run, but a shared sherut taxi (line 480) operates between Tel Aviv Central Bus Station and Jerusalem.',
+  },
+  {
+    question: 'Do Israeli trains and buses run on Shabbat?',
+    answer:
+      'National rail and intercity buses stop from Friday afternoon (about 2 hours before sunset) until Saturday night. Haifa city buses are the exception — they run all week including Shabbat. Private taxis and Gett/Uber operate on Shabbat at normal (or slightly higher) rates. Some Arab-operated buses also run on Shabbat on certain routes — verify locally.',
+  },
+  {
+    question: 'What is the fastest way to get from Ben Gurion Airport to Tel Aviv?',
+    answer:
+      'The Airport Rail Link takes 19 minutes to Tel Aviv Hashalom or Arlozorov station (₪30). On Shabbat the train does not run — a taxi costs approximately ₪120–180 to central Tel Aviv.',
+  },
+  {
+    question: 'How do I get from Tel Aviv to Eilat?',
+    answer:
+      'There is no train to Eilat. By bus (Metropoline/Egged) the journey is 4–5 hours. Budget airlines (EL AL Express, Arkia) fly the route in 50 minutes from Ben Gurion Airport and are often cheaper than the bus when booked in advance.',
+  },
+  {
+    question: 'Is public transport available to the Dead Sea?',
+    answer:
+      'There is no train to the Dead Sea. Egged buses run from Jerusalem to Ein Bokek (1–1.5 hours, line 444) and from Jerusalem to Masada/Ein Gedi (1.5–2 hours, line 487), but do not operate on Shabbat. From Tel Aviv a transfer in Jerusalem is needed. Renting a car or joining an organised day tour is the most flexible option.',
+  },
+];
+
+const schema = [breadcrumbList(crumbs), faqPage(faqs)];
+
+const CITIES = [
+  { key: 'tel-aviv', label: 'Tel Aviv' },
+  { key: 'jerusalem', label: 'Jerusalem' },
+  { key: 'airport', label: 'Ben Gurion Airport (TLV)' },
+  { key: 'haifa', label: 'Haifa' },
+  { key: 'dead-sea', label: 'Dead Sea / Ein Bokek' },
+  { key: 'masada', label: 'Masada & Ein Gedi' },
+  { key: 'tiberias', label: 'Tiberias / Sea of Galilee' },
+  { key: 'nazareth', label: 'Nazareth' },
+  { key: 'akko', label: 'Akko (Acre)' },
+  { key: 'safed', label: 'Safed (Tzfat)' },
+  { key: 'eilat', label: 'Eilat' },
+  { key: 'mitzpe-ramon', label: 'Mitzpe Ramon' },
+  { key: 'caesarea', label: 'Caesarea' },
+  { key: 'rosh-hanikra', label: 'Rosh Hanikra' },
+  { key: 'beit-shean', label: "Beit She'an" },
+  { key: 'beersheva', label: "Be'er Sheva" },
+];
+
+// Route data: key = "A|B" (always origin as-declared; lookup checks both orders)
+// shabbat: "red" = no public transport; "amber" = limited (sherut / Arab bus)
+const ROUTES = {
+  'tel-aviv|jerusalem': {
+    drive: '45–65 min',
+    train: { time: '34 min', notes: 'High-speed to Jerusalem Navon; runs ~06:00–23:00; not Shabbat' },
+    bus: { time: '1–1.5 h', notes: 'Egged 480; frequent weekdays; not Shabbat' },
+    shabbat: 'amber',
+    shabbatNote: 'Shared sherut (line 480) runs on Shabbat from Tel Aviv CBS to Jerusalem.',
+    tip: 'Train to Jerusalem Navon is fastest (34 min, ≈₪35). Sherut taxi runs on Shabbat.',
+  },
+  'tel-aviv|airport': {
+    drive: '15–30 min',
+    train: { time: '19 min', notes: 'Airport Rail from Hashalom or Arlozorov; every 30 min; not Shabbat' },
+    bus: null,
+    shabbat: 'red',
+    shabbatNote: 'No trains on Shabbat. Taxi to central Tel Aviv ≈ ₪120–180.',
+    tip: 'Train from Tel Aviv Hashalom or Arlozorov station (≈₪30) is fastest and cheapest.',
+  },
+  'tel-aviv|haifa': {
+    drive: '55–75 min',
+    train: { time: '55 min', notes: 'Intercity express; every 20–30 min; not Shabbat' },
+    bus: { time: '1.5 h', notes: 'Egged; not Shabbat' },
+    shabbat: 'red',
+    shabbatNote: 'No trains or intercity buses on Shabbat. Taxi ≈ ₪350–500.',
+    tip: 'Train from Tel Aviv Savidor or Hashalom to Haifa Merkaz (≈₪40). Book at rail.co.il.',
+  },
+  'tel-aviv|dead-sea': {
+    drive: '1.5–2 h',
+    train: null,
+    bus: { time: '2–2.5 h', notes: 'Transfer at Jerusalem; Egged 444 from Jerusalem CBS; not Shabbat' },
+    shabbat: 'red',
+    shabbatNote: 'No public transport to the Dead Sea on Shabbat.',
+    tip: 'No direct public transport. Car rental or organised day tour is most practical.',
+  },
+  'tel-aviv|masada': {
+    drive: '2–2.5 h',
+    train: null,
+    bus: { time: '2.5–3 h', notes: 'Transfer at Jerusalem; Egged 487 from Jerusalem; not Shabbat' },
+    shabbat: 'red',
+    shabbatNote: 'No public transport to Masada on Shabbat.',
+    tip: 'Most visitors join an organised day tour from Tel Aviv or Jerusalem (≈₪180–280).',
+  },
+  'tel-aviv|tiberias': {
+    drive: '1.5–2 h',
+    train: null,
+    bus: { time: '2.5–3 h', notes: 'Egged direct from Tel Aviv Central; several departures daily; not Shabbat' },
+    shabbat: 'red',
+    shabbatNote: 'No intercity buses on Shabbat. Private taxi ≈ ₪600–900.',
+    tip: 'Direct Egged buses run several times daily from Tel Aviv Central Bus Station.',
+  },
+  'tel-aviv|nazareth': {
+    drive: '1–1.5 h',
+    train: null,
+    bus: { time: '1.5–2 h', notes: 'Several operators via Afula or Haifa; not Shabbat' },
+    shabbat: 'amber',
+    shabbatNote: 'Arab-operated buses sometimes run on Shabbat — verify locally before relying on it.',
+    tip: 'Several bus options available; Arab operators may run on Shabbat — confirm locally.',
+  },
+  'tel-aviv|eilat': {
+    drive: '3.5–4 h',
+    train: null,
+    bus: { time: '4–5 h', notes: 'Metropoline / Egged; not Shabbat' },
+    shabbat: 'red',
+    shabbatNote: 'No buses on Shabbat. Budget flights are far faster.',
+    tip: 'Flying (50 min, EL AL/Arkia from Ben Gurion) is often cheaper than the bus when booked ahead.',
+  },
+  'tel-aviv|caesarea': {
+    drive: '45–60 min',
+    train: { time: '40–50 min', notes: 'Train to Caesarea-Pardes Hanna station + 5 km taxi; not Shabbat' },
+    bus: { time: '1–1.5 h', notes: 'Several lines; not Shabbat' },
+    shabbat: 'red',
+    shabbatNote: 'No public transport on Shabbat. Taxi or tour recommended.',
+    tip: 'Train to Caesarea-Pardes Hanna + short taxi is the easiest public transport option.',
+  },
+  'tel-aviv|mitzpe-ramon': {
+    drive: '2.5–3 h',
+    train: null,
+    bus: { time: '3–4 h', notes: 'Transfer at Be\'er Sheva; several buses daily; not Shabbat' },
+    shabbat: 'red',
+    shabbatNote: 'No public transport on Shabbat. Car rental strongly recommended for Negev.',
+    tip: 'Car rental is essential for the Negev — public transport is limited to a few buses per day.',
+  },
+  'tel-aviv|beersheva': {
+    drive: '1–1.5 h',
+    train: { time: '50 min–1 h', notes: 'Intercity; frequent weekdays; not Shabbat' },
+    bus: { time: '1.5 h', notes: 'Egged; not Shabbat' },
+    shabbat: 'red',
+    shabbatNote: 'No trains or intercity buses on Shabbat. Taxi ≈ ₪350–450.',
+    tip: 'Train from Tel Aviv is convenient and frequent. Book at rail.co.il.',
+  },
+  'jerusalem|airport': {
+    drive: '30–45 min',
+    train: { time: '22 min', notes: 'High-speed line from Jerusalem Navon direct to airport; not Shabbat' },
+    bus: { time: '1–1.5 h', notes: 'Egged 947 or sherut; not Shabbat' },
+    shabbat: 'red',
+    shabbatNote: 'No trains or buses on Shabbat. Taxi from Jerusalem ≈ ₪250–350.',
+    tip: 'High-speed train from Jerusalem Navon to the airport takes 22 min. Check times at rail.co.il.',
+  },
+  'jerusalem|dead-sea': {
+    drive: '1–1.5 h',
+    train: null,
+    bus: { time: '1–1.5 h', notes: 'Egged 444 to Ein Bokek; not Shabbat' },
+    shabbat: 'red',
+    shabbatNote: 'No buses on Shabbat. Taxi ≈ ₪250–350.',
+    tip: 'Egged bus 444 runs directly from Jerusalem Central Bus Station to Ein Bokek beach.',
+  },
+  'jerusalem|masada': {
+    drive: '1–1.5 h',
+    train: null,
+    bus: { time: '1.5–2 h', notes: 'Egged 487; departs Jerusalem; not Shabbat' },
+    shabbat: 'red',
+    shabbatNote: 'No buses on Shabbat. Many visitors join an organised tour.',
+    tip: 'Egged 487 from Jerusalem to Masada — depart early to avoid heat at the summit.',
+  },
+  'jerusalem|haifa': {
+    drive: '1.5–2 h',
+    train: { time: '1.5 h', notes: 'Via Binyamina; intercity express; not Shabbat' },
+    bus: { time: '2–2.5 h', notes: 'Egged; not Shabbat' },
+    shabbat: 'amber',
+    shabbatNote: 'Shared sherut taxi from Jerusalem to Haifa sometimes available. Taxi ≈ ₪350–500.',
+    tip: 'Train via Binyamina offers pleasant views of the Carmel hills. Book at rail.co.il.',
+  },
+  'jerusalem|tiberias': {
+    drive: '2–2.5 h',
+    train: null,
+    bus: { time: '2.5–3 h', notes: 'Egged 961/962 from Jerusalem CBS; several departures; not Shabbat' },
+    shabbat: 'red',
+    shabbatNote: 'No buses on Shabbat. Taxi ≈ ₪550–750.',
+    tip: 'Direct Egged buses run from Jerusalem Central Bus Station to Tiberias several times daily.',
+  },
+  'jerusalem|nazareth': {
+    drive: '1.5–2 h',
+    train: null,
+    bus: { time: '2–2.5 h', notes: 'Change at Afula; or Arab bus from East Jerusalem; not Shabbat' },
+    shabbat: 'amber',
+    shabbatNote: 'Arab bus lines from East Jerusalem sometimes run on Shabbat — verify locally.',
+    tip: 'Change at Afula junction, or take an Arab bus line from East Jerusalem.',
+  },
+  'jerusalem|eilat': {
+    drive: '3.5–4 h',
+    train: null,
+    bus: { time: '4–5 h', notes: 'Metropoline; not Shabbat' },
+    shabbat: 'red',
+    shabbatNote: 'No buses on Shabbat. Flying from Ben Gurion saves 3+ hours.',
+    tip: 'Flying from Ben Gurion is far faster. Drive via Route 90 (Dead Sea road) is scenic.',
+  },
+  'jerusalem|beersheva': {
+    drive: '1–1.5 h',
+    train: { time: '1 h', notes: 'Via Beit Shemesh; not Shabbat' },
+    bus: { time: '1.5 h', notes: 'Egged; not Shabbat' },
+    shabbat: 'red',
+    shabbatNote: 'No trains or buses on Shabbat. Taxi ≈ ₪350–450.',
+    tip: 'Train from Jerusalem is comfortable with pleasant hill country views.',
+  },
+  'haifa|akko': {
+    drive: '20–30 min',
+    train: { time: '20 min', notes: 'Intercity rail; frequent weekdays; not Shabbat' },
+    bus: { time: '30–45 min', notes: 'Metrodan/Egged; not Shabbat. Haifa city buses run on Shabbat but not to Akko.' },
+    shabbat: 'red',
+    shabbatNote: 'Intercity train and bus stop on Shabbat. Haifa city buses do not reach Akko.',
+    tip: 'Train from Haifa Merkaz-HaShmona is quick (20 min, ≈₪20). Runs frequently on weekdays.',
+  },
+  'haifa|tiberias': {
+    drive: '50–70 min',
+    train: null,
+    bus: { time: '1.5–2 h', notes: 'Egged; several departures daily; not Shabbat' },
+    shabbat: 'red',
+    shabbatNote: 'No public transport to Tiberias from Haifa on Shabbat.',
+    tip: 'Direct Egged buses run several times daily. A rental car opens up Galilee day trips.',
+  },
+  'haifa|nazareth': {
+    drive: '35–50 min',
+    train: null,
+    bus: { time: '1–1.5 h', notes: 'Several operators; not Shabbat' },
+    shabbat: 'amber',
+    shabbatNote: 'Arab-operated buses sometimes run on Shabbat between Haifa and Nazareth — verify locally.',
+    tip: 'Several bus options; Arab operators may run on Shabbat — confirm locally before travel.',
+  },
+  'haifa|rosh-hanikra': {
+    drive: '35–45 min',
+    train: { time: '50 min', notes: 'Train to Nahariya (30 min) + taxi 10 km (~20 min); not Shabbat' },
+    bus: { time: '1.5 h', notes: 'Via Nahariya; not Shabbat' },
+    shabbat: 'red',
+    shabbatNote: 'The Rosh Hanikra site itself is closed on Shabbat — plan a weekday visit.',
+    tip: 'Rosh Hanikra is closed on Shabbat. Train to Nahariya + taxi is the easiest route.',
+  },
+  'haifa|safed': {
+    drive: '1–1.5 h',
+    train: null,
+    bus: { time: '1.5–2 h', notes: 'Via Rosh Pina junction; Egged; not Shabbat' },
+    shabbat: 'red',
+    shabbatNote: 'No buses on Shabbat. Safed itself is heavily observant — most of the city closes.',
+    tip: 'Most businesses in Safed close on Shabbat. Plan your visit for a weekday.',
+  },
+  'haifa|airport': {
+    drive: '50–70 min',
+    train: { time: '50–60 min', notes: 'Intercity to Ben Gurion; not Shabbat' },
+    bus: { time: '1.5 h', notes: 'Egged; not Shabbat' },
+    shabbat: 'red',
+    shabbatNote: 'No trains or buses on Shabbat. Taxi ≈ ₪250–350.',
+    tip: 'Train from Haifa Merkaz or HaShmona is reliable. Book at rail.co.il.',
+  },
+  'haifa|caesarea': {
+    drive: '30–40 min',
+    train: { time: '30–40 min', notes: 'Train south to Caesarea-Pardes Hanna + 5 km taxi; not Shabbat' },
+    bus: { time: '45 min–1 h', notes: 'Egged south; not Shabbat' },
+    shabbat: 'red',
+    shabbatNote: 'No public transport on Shabbat. Taxi or tour recommended.',
+    tip: 'An easy half-day: Caesarea AM + Haifa Bahá\'í Gardens PM is a classic northern circuit.',
+  },
+  'tiberias|nazareth': {
+    drive: '35–50 min',
+    train: null,
+    bus: { time: '1–1.5 h', notes: 'Via Afula junction; several operators; not Shabbat' },
+    shabbat: 'amber',
+    shabbatNote: 'Arab bus operators sometimes serve this route on Shabbat — verify locally.',
+    tip: 'Easy day-trip combination. Arab operators may run on Shabbat — check locally.',
+  },
+  'tiberias|safed': {
+    drive: '35–50 min',
+    train: null,
+    bus: { time: '1–1.5 h', notes: 'Egged; several departures; not Shabbat' },
+    shabbat: 'red',
+    shabbatNote: 'No buses on Shabbat. Safed is heavily observant — city closes on Shabbat.',
+    tip: 'Classic Galilee day: Sea of Galilee + Jordan River + Safed. Plan for a weekday.',
+  },
+  'tiberias|beit-shean': {
+    drive: '30–40 min',
+    train: null,
+    bus: { time: '45 min–1 h', notes: 'Egged; not Shabbat' },
+    shabbat: 'red',
+    shabbatNote: 'No buses on Shabbat. Private taxi available.',
+    tip: 'Easy to combine with a Dead Sea or Jordan Valley loop — Beit She\'an National Park is unmissable.',
+  },
+  'eilat|airport': {
+    drive: '3.5–4 h',
+    train: null,
+    bus: { time: '4–5 h', notes: 'Metropoline/Egged; not Shabbat' },
+    shabbat: 'red',
+    shabbatNote: 'No buses on Shabbat. Flying is strongly recommended.',
+    tip: 'EL AL and Arkia fly Eilat–Ben Gurion in 50 min. Often cheaper than the bus when booked ahead.',
+  },
+  'mitzpe-ramon|eilat': {
+    drive: '1.5–2 h',
+    train: null,
+    bus: { time: '2–2.5 h', notes: 'Egged; several daily; not Shabbat' },
+    shabbat: 'red',
+    shabbatNote: 'No buses on Shabbat. Car rental recommended for Negev travel.',
+    tip: 'A natural stop on the scenic Route 40 road-trip from Tel Aviv to Eilat.',
+  },
+  'dead-sea|masada': {
+    drive: '15–30 min',
+    train: null,
+    bus: { time: '30–45 min', notes: 'Egged between Ein Bokek and Masada junction; not Shabbat' },
+    shabbat: 'red',
+    shabbatNote: 'No public transport on Shabbat. Many visitors combine both in one organised day.',
+    tip: 'Only 25–30 km apart — combine Dead Sea floating with a Masada sunrise on the same day.',
+  },
+  'beersheva|airport': {
+    drive: '45–60 min',
+    train: { time: '50–60 min', notes: 'Via Lod junction; not Shabbat' },
+    bus: { time: '1.5 h', notes: 'Egged; not Shabbat' },
+    shabbat: 'red',
+    shabbatNote: 'No trains or buses on Shabbat. Taxi ≈ ₪220–300.',
+    tip: 'Train via Lod from Be\'er Sheva Center to the airport. Check times at rail.co.il.',
+  },
+};
+---
+
+<BaseLayout
+  title={title}
+  description={description}
+  path="/israel-travel-time"
+  image="/images/regions/negev/hero.jpg"
+  imageAlt="Israel highways at golden hour"
+>
+  <JsonLd schema={schema} slot="head" />
+  <Hero
+    image="/images/regions/negev/hero.jpg"
+    title="Israel Travel Time Calculator"
+    subtitle="Curated train, bus and driving times between 16 tourist cities — with Shabbat impact alerts and practical tips."
+    alt="Highway through the Israeli Negev desert at golden hour"
+  />
+  <Breadcrumbs items={crumbs} />
+
+  <section class="mx-auto max-w-3xl px-4 pt-10">
+    <p class="eyebrow" data-reveal>How long does it take?</p>
+    <h2 class="font-display text-3xl font-bold text-ink" data-reveal>
+      Travel times between Israeli cities
+    </h2>
+    <p class="mt-2 max-w-2xl text-ink-muted" data-reveal>
+      Select an origin and destination for curated train, bus and driving times — plus a
+      <strong>Shabbat impact</strong> alert so you can plan around Friday/Saturday closures.
+      For straight-line distances, see the{' '}
+      <a href="/israel-distance-calculator" class="text-primary font-semibold">distance calculator</a>.
+    </p>
+
+    <!-- Tool card -->
+    <div class="mt-8 rounded-card border border-border bg-card p-6 shadow-card">
+      <form id="tt-form" aria-label="Travel time lookup">
+        <div class="grid gap-4 sm:grid-cols-[1fr_auto_1fr] sm:items-end">
+          <label class="block">
+            <span class="text-sm font-semibold text-ink">From</span>
+            <select
+              id="tt-from"
+              class="mt-1 w-full rounded-btn border border-border bg-sand px-3 py-2 text-ink"
+            >
+              {CITIES.map((c) => <option value={c.key}>{c.label}</option>)}
+            </select>
+          </label>
+
+          <button
+            type="button"
+            id="tt-swap"
+            class="mb-1 grid h-10 w-10 place-items-center self-center rounded-btn border border-border bg-sand text-ink transition-colors hover:border-primary hover:text-primary sm:self-end"
+            aria-label="Swap origin and destination"
+          >
+            <svg class="h-5 w-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <path d="M7 10l-3 3 3 3" /><path d="M4 13h11" />
+              <path d="M17 14l3-3-3-3" /><path d="M20 11H9" />
+            </svg>
+          </button>
+
+          <label class="block">
+            <span class="text-sm font-semibold text-ink">To</span>
+            <select
+              id="tt-to"
+              class="mt-1 w-full rounded-btn border border-border bg-sand px-3 py-2 text-ink"
+            >
+              {CITIES.map((c) => <option value={c.key}>{c.label}</option>)}
+            </select>
+          </label>
+        </div>
+      </form>
+
+      <!-- Results region (aria-live for screen readers) -->
+      <div id="tt-result" aria-live="polite" class="mt-6">
+        <!-- JS renders result cards here -->
+        <p class="text-sm text-ink-muted">Select a route above to see travel times.</p>
+      </div>
+    </div>
+
+    <!-- Cross-links to detailed route pages -->
+    <div class="mt-8">
+      <h2 class="font-display text-xl font-bold text-ink">Full route comparisons</h2>
+      <p class="mt-1 text-sm text-ink-muted">
+        Train vs bus vs taxi vs driving — with real costs and booking tips:
+      </p>
+      <ul class="mt-3 flex flex-wrap gap-2.5">
+        {[
+          { href: '/tel-aviv-to-jerusalem', label: 'Tel Aviv → Jerusalem' },
+          { href: '/transport/jerusalem-to-dead-sea', label: 'Jerusalem → Dead Sea' },
+          { href: '/transport/tel-aviv-to-haifa', label: 'Tel Aviv → Haifa' },
+          { href: '/transport/tel-aviv-to-eilat', label: 'Tel Aviv → Eilat' },
+          { href: '/transport/tel-aviv-to-dead-sea', label: 'Tel Aviv → Dead Sea' },
+          { href: '/transport/haifa-to-akko', label: 'Haifa → Akko' },
+        ].map((r) => (
+          <li>
+            <a
+              href={r.href}
+              class="inline-block rounded-full border border-border bg-card px-4 py-2 text-sm font-semibold text-ink no-underline transition-colors hover:border-primary hover:text-primary"
+            >
+              {r.label}
+            </a>
+          </li>
+        ))}
+      </ul>
+    </div>
+
+    <div class="mt-6 rounded-card border border-border bg-sand-deep p-4 text-sm text-ink-muted">
+      <strong class="text-ink">Note on Shabbat:</strong> Israeli national rail and intercity buses
+      stop from approximately 2 hours before Friday sunset until Saturday night. Haifa city buses
+      run all week. Private taxis (Gett/inDriver) operate normally on Shabbat at standard fares.
+      Some Arab-operated bus lines run on Shabbat on specific routes — always verify locally.
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="mx-auto max-w-3xl px-4 pb-4 pt-14">
+    <h2 class="mb-4 font-display text-2xl font-bold text-ink">Frequently asked questions</h2>
+    <div class="space-y-4">
+      {
+        faqs.map((f) => (
+          <details class="rounded-card border border-border bg-card p-4">
+            <summary class="cursor-pointer font-semibold text-ink">{f.question}</summary>
+            <p class="mt-2 text-ink-muted">{f.answer}</p>
+          </details>
+        ))
+      }
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="mx-auto max-w-3xl px-4 pb-16 pt-6">
+    <div class="rounded-card border border-border bg-sand-deep p-6 text-center shadow-card">
+      <h2 class="font-display text-2xl font-bold text-ink">Ready to plan the route?</h2>
+      <p class="mx-auto mt-2 max-w-xl text-ink-muted">
+        Put your journey into a day-by-day itinerary, or check transport options in detail.
+      </p>
+      <div class="mt-5 flex flex-wrap justify-center gap-3">
+        <a href="/build-your-trip" class="btn btn-primary">Build your trip</a>
+        <a href="/transportation" class="btn btn-ghost">Transport guide</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Inline data blob -->
+  <script type="application/json" id="tt-routes" set:html={JSON.stringify(ROUTES)} />
+  <script type="application/json" id="tt-cities" set:html={JSON.stringify(CITIES)} />
+</BaseLayout>
+
+<script is:inline>
+(function () {
+  var routesEl = document.getElementById('tt-routes');
+  var citiesEl = document.getElementById('tt-cities');
+  if (!routesEl || !citiesEl) return;
+
+  var ROUTES = JSON.parse(routesEl.textContent || '{}');
+  var CITIES = JSON.parse(citiesEl.textContent || '[]');
+
+  var fromSel = document.getElementById('tt-from');
+  var toSel = document.getElementById('tt-to');
+  var resultEl = document.getElementById('tt-result');
+
+  // Default: Tel Aviv → Jerusalem
+  if (fromSel && toSel) {
+    fromSel.value = 'tel-aviv';
+    toSel.value = 'jerusalem';
+  }
+
+  function getRoute(a, b) {
+    return ROUTES[a + '|' + b] || ROUTES[b + '|' + a] || null;
+  }
+
+  function shabbatBadge(shabbat, note) {
+    var color = shabbat === 'red'
+      ? 'bg-red-50 border-red-200 text-red-800'
+      : 'bg-amber-50 border-amber-200 text-amber-800';
+    var icon = shabbat === 'red' ? '🔴' : '🟡';
+    var label = shabbat === 'red' ? 'No public transport on Shabbat' : 'Limited Shabbat options';
+    return '<div class="rounded-card border ' + color + ' p-4">'
+      + '<p class="text-xs font-semibold uppercase tracking-wide opacity-70">Shabbat impact</p>'
+      + '<p class="mt-1 font-semibold">' + icon + ' ' + label + '</p>'
+      + '<p class="mt-1 text-sm opacity-80">' + note + '</p>'
+      + '</div>';
+  }
+
+  function modeCard(label, icon, content, available) {
+    if (!available) {
+      return '<div class="rounded-card border border-border bg-sand-deep p-4 opacity-60">'
+        + '<p class="text-xs font-semibold uppercase tracking-wide text-ink-muted">' + icon + ' ' + label + '</p>'
+        + '<p class="mt-1 text-sm text-ink-muted">Not available on this route</p>'
+        + '</div>';
+    }
+    return '<div class="rounded-card border border-border bg-card p-4">'
+      + '<p class="text-xs font-semibold uppercase tracking-wide text-ink-muted">' + icon + ' ' + label + '</p>'
+      + content
+      + '</div>';
+  }
+
+  function render() {
+    if (!fromSel || !toSel || !resultEl) return;
+    var from = fromSel.value;
+    var to = toSel.value;
+
+    if (from === to) {
+      resultEl.innerHTML = '<p class="text-sm text-ink-muted italic">Please select different cities.</p>';
+      return;
+    }
+
+    var route = getRoute(from, to);
+
+    if (!route) {
+      resultEl.innerHTML =
+        '<div class="rounded-card border border-border bg-sand-deep p-5 text-sm text-ink-muted">'
+        + '<strong class="text-ink">Route not in our database yet.</strong> '
+        + 'Try the <a href="/israel-distance-calculator" class="text-primary font-semibold">distance calculator</a> for a driving estimate, '
+        + 'or consult <a href="/transportation" class="text-primary font-semibold">our transport guide</a> for options.'
+        + '</div>';
+      return;
+    }
+
+    var driveCard = modeCard(
+      'By car',
+      '🚗',
+      '<p id="tt-drive" class="mt-1 font-display text-xl font-bold text-ink">' + route.drive + '</p>',
+      true
+    );
+
+    var trainContent = route.train
+      ? '<p id="tt-train-time" class="mt-1 font-display text-xl font-bold text-ink">' + route.train.time + '</p>'
+        + '<p class="mt-0.5 text-xs text-ink-muted">' + route.train.notes + '</p>'
+      : null;
+    var trainCard = modeCard('By train', '🚆', trainContent || '', !!route.train);
+
+    var busContent = route.bus
+      ? '<p id="tt-bus-time" class="mt-1 font-display text-xl font-bold text-ink">' + route.bus.time + '</p>'
+        + '<p class="mt-0.5 text-xs text-ink-muted">' + route.bus.notes + '</p>'
+      : null;
+    var busCard = modeCard('By bus', '🚌', busContent || '', !!route.bus);
+
+    var shabCard = shabbatBadge(route.shabbat, route.shabbatNote);
+
+    var tipHtml = route.tip
+      ? '<div class="mt-4 rounded-card border border-primary/30 bg-primary/5 p-4 text-sm text-ink">'
+          + '<strong>Tip:</strong> ' + route.tip
+          + '</div>'
+      : '';
+
+    resultEl.innerHTML =
+      '<div class="grid gap-3 sm:grid-cols-3">' + driveCard + trainCard + busCard + '</div>'
+      + '<div class="mt-3">' + shabCard + '</div>'
+      + tipHtml;
+  }
+
+  if (fromSel) fromSel.addEventListener('change', render);
+  if (toSel) toSel.addEventListener('change', render);
+  document.getElementById('tt-swap') && document.getElementById('tt-swap').addEventListener('click', function () {
+    var tmp = fromSel.value;
+    fromSel.value = toSel.value;
+    toSel.value = tmp;
+    render();
+  });
+
+  // Initial render
+  render();
+})();
+</script>
