@@ -1964,3 +1964,44 @@ best-time-to-visit-israel. Wired to plan-your-trip tools grid. i18n labels: en/f
 pattern as iter98/101/102). No revert; local gate fully green; no content regression.
 
 **Next:** iter 104 = REVIEW mode per rotation (104%5==4).
+
+## 2026-06-26 · iter 104 · REVIEW · audit iters 101-103 (eilat-tours-compared / i18n batch 7 / israel-holiday-planner)
+
+What: REVIEW iteration (104%5==4). Audited the 3 items shipped since the last REVIEW (iter 99).
+Startup: local master 50 commits behind origin (cloud fresh-clone divergence) → git reset --hard
+  origin/master to 10e3f50. No STOP flag. pnpm install clean. Playwright symlink fix applied
+  (chromium_headless_shell-1228 → chromium_headless_shell-1194; nested chrome-headless-shell symlink).
+
+Audit — iter 101 /eilat-tours-compared (5f3a2f8):
+  10 internal links verified: /eilat, /eilat/coral-beach, /eilat-diving-snorkeling,
+    /eilat/underwater-observatory, /eilat/red-canyon, /eilat/timna-park, /eilat/dolphin-reef,
+    /petra-from-eilat-vs-amman, /petra-tours-compared, /best-tours-in-israel — all resolve.
+  Hero image /images/regions/eilat/red-sea.jpg + CTA images (coral-beach.jpg, red-canyon.jpg,
+    timna-park.jpg) all exist. photo-credits.json entry for red-sea.jpg exists.
+  Prices: ranges only ($22–60, $50–110, $80–150, $40–90, $150–220, ₪80–120, ₪150–250)
+    with "ranges vary by operator" + "Check live pricing" disclaimers. Honesty intact.
+  Footer Essentials column + eilat region cross-link + best-tours-in-israel cross-link all verified.
+  Smoke route present. DEFECT: /eilat-tours-compared absent from a11y.spec.ts — FIXED.
+
+Audit — iter 102 i18n batch 7 fr+de (0b10e60):
+  FR water-hiking, adventure-sports, ben-gurion-airport + DE equivalents: 6 files.
+  Hero images: ein-gedi.jpg, negev/desert.jpg, tel-aviv/hero.jpg — all exist for both locales.
+  Category fields present. Smoke + a11y routes: all 6 routes in both specs. CLEAN.
+
+Audit — iter 103 /israel-holiday-planner (cc3a0df):
+  Cross-links: /shabbat-guide ✓ /israel-shabbat-calendar ✓ /whats-open-on-shabbat ✓
+    (guides/whats-open-on-shabbat.md → routed via [...slug].astro) /best-time-to-visit-israel ✓
+  Hero image /images/regions/jerusalem/hero.jpg exists. BreadcrumbList + FAQPage JSON-LD ✓.
+  a11y: aria-live="polite" on results div; role="alert" on error element. No fake prices. CLEAN.
+
+Bonus defect: /tel-aviv-tours-compared (iter96, 5c5970d) missing from BOTH smoke.spec.ts AND
+  a11y.spec.ts. Added alongside eilat-tours-compared fix in the same commit.
+
+Fix: added /tel-aviv-tours-compared to smoke.spec.ts; added /eilat-tours-compared and
+  /tel-aviv-tours-compared to a11y.spec.ts (3 entries total).
+Gate: pnpm check 0 errors (111 files); pnpm build 222 pages (stable); pnpm test:e2e 238/238 PASS
+  (3 new tests vs iter103 baseline of 235). GREEN.
+Ship: committed 09472a7 to master, pushed. Branch auto/review-104 cleaned up.
+CI: GitHub Actions ci.yml + lighthouse.yml both 2-second runtime / runner_id=0 transient
+  (same pattern as iters 98/101/102/103). No revert; local gate fully green.
+Next: iter 105 = RESEARCH (105%5==0). Scan fresh competitor gaps.
