@@ -2066,3 +2066,20 @@ Gate: pnpm check 0 errors · build 224 pages (+1) · test:e2e 242/242 pass.
 Merge: squash to master 4649a54, pushed.
 Prod: GitHub CI shows failure — confirmed same 2-second pre-existing infra failure (Playwright Chrome
   download fails in GHA) as iters 98/101/102/103/104/105/106. No revert. Local gate is canonical.
+
+## 2026-06-26T21:38 · iter 108 · BUILD/tools · Israel National Parks Pass calculator
+
+What: New /israel-parks-pass-calculator — interactive tool for choosing the right INPA tourist card.
+  23 INPA parks with approximate adult gate prices (₪17–₪49 range).
+  JS compares total gate cost vs Blue (₪90/3 parks), Green (₪130/6 parks), Orange (₪175/unlimited).
+  aria-live result panel updates on every checkbox change. Clear-all button. Sticky result panel on desktop.
+  Prominent amber callout: "Not included in any card: City of David · Masada cable car · Bahá'í Gardens"
+  Recommendation logic: ≤gate price → "Pay at the gate"; else → cheapest applicable card with savings amount.
+  Cross-linked from /israel-national-parks-pass guide (intro + practical tips section),
+  homepage tools grid (7th card), plan-your-trip PlanYourTripPage component.
+  i18n key 'tool.parksCalc' added in en/fr/de locales.
+6 Playwright tests added to tests/e2e/tools.spec.ts; 1 smoke route + 1 a11y route added.
+Gate: pnpm check 0 errors · build 225 pages (+1) · test:e2e 250/250 pass.
+Merge: squash to master a4b0fe8, pushed.
+Prod: GitHub CI shows 2-sec failure — confirmed same pre-existing infra failure (Playwright Chrome
+  download fails in GHA) as iters 98/101-107. No revert. Local gate is canonical.
