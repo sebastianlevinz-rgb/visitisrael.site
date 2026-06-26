@@ -238,7 +238,7 @@ const schema = [breadcrumbList(crumbs), faqPage(faqs)];
    *  Returns local solar sunset time as fractional hours (UTC + timezone)
    * ------------------------------------------------------------------ */
   var TZ = 2; // Israel Standard Time (IST) = UTC+2
-  // Israel DST: last Friday of March → last Saturday of October (approx)
+  // Israel DST: last Friday of March → last Sunday of October (Israeli law 2013+)
   function isDST(d) {
     var m = d.getUTCMonth() + 1; // 1-based
     if (m < 3 || m > 10) return false;
@@ -250,9 +250,9 @@ const schema = [breadcrumbList(crumbs), faqPage(faqs)];
       return d >= lastDay;
     }
     if (m === 10) {
-      // Last Saturday of October
+      // Last Sunday of October (Israeli law since 2013)
       var lastDay2 = new Date(Date.UTC(d.getUTCFullYear(), 9, 31));
-      while (lastDay2.getUTCDay() !== 6) lastDay2.setUTCDate(lastDay2.getUTCDate() - 1);
+      while (lastDay2.getUTCDay() !== 0) lastDay2.setUTCDate(lastDay2.getUTCDate() - 1);
       return d < lastDay2;
     }
     return false;
