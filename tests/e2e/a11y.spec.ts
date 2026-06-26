@@ -72,6 +72,8 @@ const ROUTES = [
   '/masada-tours-compared',
   '/galilee-tours-compared',
   '/petra-tours-compared',
+  '/tel-aviv-tours-compared',
+  '/eilat-tours-compared',
   '/cruise-shore-excursions-israel',
   '/jewish-heritage-israel',
   '/bar-bat-mitzvah-israel',
