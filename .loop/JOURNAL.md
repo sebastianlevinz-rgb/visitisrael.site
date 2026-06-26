@@ -2033,3 +2033,17 @@ Backlog now ~97 ready items. State, JOURNAL, BACKLOG, COMPETITORS all updated.
 No code changes. No gate run needed (research-only iteration).
 
 Next: iter 106 = BUILD/monetization. Recommended item: eilat-tours-compared money page (P2, S, proven format).
+
+## 2026-06-26 · iter 106 · BUILD/monetization · Israel accommodation hub
+
+What: New /israel-accommodation-guide — top-level hub comparing 7 Israel accommodation types
+(city hotel, kibbutz guesthouse, zimmer/B&B, hostel, serviced apartment, glamping, Bedouin tent).
+Comparison table with price ranges (₪/night, Where found, Best for, Book via, Shabbat impact).
+Traveller-profile section (couples → zimmer/boutique; families → kibbutz; solo → Abraham Hostel;
+eco → Kibbutz Lotan/glamping; pilgrims → Old City guesthouses; luxury → Waldorf/King David/Beresheet).
+3 affiliate CTAs: Booking.com (hotels), Hostelworld/Abraham (hostels), Booking.com (luxury tier).
+7 FAQs. Smoke + a11y specs updated (+1 route each).
+Gate: pnpm check 0 errors · build 223 pages (+1) · test:e2e 240/240 pass.
+Merge: squash to master 2195040, pushed.
+Prod: Vercel auto-deploys on push. GitHub CI has pre-existing infra failure (Playwright Chrome download
+fails in GHA; same as iters 98/101/102/103 — no revert needed). Local gate is canonical.
