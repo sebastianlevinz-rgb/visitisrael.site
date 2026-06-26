@@ -134,3 +134,4 @@
   to /dead-sea-guide, /masada-dead-sea-day-trip, /israel-national-parks-pass, /car-rental-israel.
   Targets: "Qumran visitor guide Israel 2026", "Dead Sea Scrolls discovery site", "visiting Qumran
   national park", "Qumran caves guide Israel".
+- iter98 BUILD/tools: Rav-Kav Israel public transport card guide (/rav-kav-israel) → 9f07671 — P1 high-impact transport guide covering RFID card, anonymous vs named, Ben Gurion Airport Public Transportation Center (24/7), tap-on only on buses, tap-on+off on trains/light rail, 90-min transfer, fare table, Shabbat fallback. Cross-links from /transportation and /ben-gurion-airport-guide.
