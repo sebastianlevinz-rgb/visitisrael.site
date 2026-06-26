@@ -135,7 +135,7 @@ Stock up at the Thursday or Friday morning market near Kikar HaMeginim for bread
 
 ## Combine with nearby destinations
 
-- **Tiberias and the Sea of Galilee** (45 min): A natural pairing — Safed's mystical intensity followed by the water and warmth of the lake shore
+- **Tiberias and the Sea of Galilee** (45 min): A natural pairing — Safed's mystical intensity followed by the water and warmth of the lake shore. See the [Tiberias & Sea of Galilee guide](/tiberias-guide) for the Hamat Tiberias zodiac mosaics, the Jesus Boat Museum, and swimming beaches
 - **Rosh Pina** (20 min south): A beautifully preserved Rothschild-era Jewish agricultural village with a good restaurant scene — easy to add on the road between Safed and Tiberias
 - **Banias (Caesarea Philippi)** (50 min north): Israel's most dramatic waterfall and a major biblical/Roman site — extends a northern Galilee day considerably
 - **Akko (Acre)** (60 min west via Haifa): The medieval Crusader city makes a striking contrast to Safed's Kabbalistic atmosphere; combine the two for a full northern day if you have a car
