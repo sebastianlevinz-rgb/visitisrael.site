@@ -91,6 +91,12 @@ const ROUTES = [
   '/de/bar-bat-mitzvah-israel',
   '/de/hiking-in-israel',
   '/de/kosher-food-guide',
+  '/fr/water-hiking-israel',
+  '/fr/israel-adventure-sports',
+  '/fr/ben-gurion-airport-guide',
+  '/de/water-hiking-israel',
+  '/de/israel-adventure-sports',
+  '/de/ben-gurion-airport-guide',
   '/search',
 ];
 
