@@ -122,3 +122,15 @@
   and private city guide — comparison table + 3 affiliate CTAs (GYG/Viator/Civitatis). Targets
   "Tel Aviv tours compared 2026", "best guided tours Tel Aviv", "TLV walking tour vs food tour" —
   high-commercial-intent queries where GYG/Viator/touristisrael rank and we had no equivalent.
+
+## iter 97 · 2026-06-26 · BUILD/seo-content
+- **Item:** Qumran National Park & Dead Sea Scrolls visitor guide (`/qumran-guide`)
+- **SHA:** e9e5540
+- **Value:** First dedicated Qumran content on site — fills a significant gap given Qumran's SEO demand
+  (touristisrael, tripadvisor, laidbacktrip all rank). Covers the 1947 discovery story, the Essene
+  community context (scholarly-uncertainty framed honestly), walking trail highlights (Cave 4 overlook,
+  scriptorium, ritual baths), practical visitor info, combination itineraries with Dead Sea & Masada,
+  and Shrine of the Book cross-link. 3 affiliate CTAs (GYG/Abraham/Viator). Dense internal linking
+  to /dead-sea-guide, /masada-dead-sea-day-trip, /israel-national-parks-pass, /car-rental-israel.
+  Targets: "Qumran visitor guide Israel 2026", "Dead Sea Scrolls discovery site", "visiting Qumran
+  national park", "Qumran caves guide Israel".

@@ -1,24 +1,26 @@
 # LOOP STATE
 
-- iteration: 96
-- lastMode: BUILD/monetization
-- lastItem: Tel Aviv tours compared money page (/tel-aviv-tours-compared) — SHA 5c5970d
-- lastResult: SHIPPED — pnpm check (0 errors), pnpm build (212→213 pages), pnpm test:e2e (214 passed); pushed master; CI in_progress at commit time
-- nextRotationCategory: 97%5==2 → seo-content; 98%5==3 → tools; 99%5==4 → REVIEW; 100%5==0 → RESEARCH
+- iteration: 97
+- lastMode: BUILD/seo-content
+- lastItem: Qumran National Park & Dead Sea Scrolls visitor guide (/qumran-guide) — SHA e9e5540
+- lastResult: SHIPPED — pnpm check (0 errors), pnpm build (213 pages incl. /qumran-guide), pnpm test:e2e (215 passed); pushed master; CI in_progress at commit time
+- nextRotationCategory: 98%5==3 → tools; 99%5==4 → REVIEW; 100%5==0 → RESEARCH; 101%5==1 → BUILD/monetization
 - higgsfieldSpent: 0
 - updatedAt: 2026-06-26
 - branch context: work on master; feature work on auto/<slug>
 
-Notes: iter 96 BUILD/monetization — shipped /tel-aviv-tours-compared completing the 5-page
-  tours-compared money-page series (masada/galilee/jerusalem/petra + tel-aviv). Page follows exact
-  proven pattern: comparison table, 5 tour-type sections, 5 FAQs, 3 affiliate CTAs (GYG/Viator/Civitatis).
-  Covers Jaffa walking, White City Bauhaus, food+market, nightlife and private guide formats.
-  214 e2e tests passed locally; CI was in_progress at push time.
+Notes: iter 97 BUILD/seo-content — shipped /qumran-guide covering Qumran National Park where
+  the Dead Sea Scrolls were discovered. Discovery story, Essene community background (with
+  honest scholarly-uncertainty framing), walking trail highlights (cisterns, scriptorium, Cave 4
+  overlook), practical visitor info (hours, INPA pass, getting there), combination itineraries with
+  Dead Sea, and where to see the actual scrolls at Shrine of the Book. 3 affiliate CTAs
+  (GYG/Abraham/Viator), 5 FAQs, smoke test added. Cross-links from /dead-sea-guide and
+  /masada-dead-sea-day-trip. 215 e2e tests passed; CI in_progress at push time.
+  Note: git pull --ff-only failed (50/50 diverged local/remote); resolved with git reset --hard
+  origin/master before starting work.
 
-NEXT: iter 97 = BUILD/seo-content (97%5==2). Top seo-content candidates in backlog:
-  - "Where to stay in Israel" accommodation types hub (P2, S) — high-volume top-level query hub
-  - Israel "where to base yourself" planning guide (P2, S)
-  - Qumran & Dead Sea Scrolls visitor guide (P2, S) — new iter95, INPA park + strong SEO demand
-  - Tel Aviv Carmel Market complete guide (P2, S) — new iter95, dedicated market page
-  - Israel eSIM & SIM card guide (P2, S)
-  Consider i18n Phase 2 batch 7 (water-hiking-israel, israel-adventure-sports, ben-gurion-airport-guide) if rotating to i18n.
+NEXT: iter 98 = BUILD/tools (98%5==3). Top tools candidates in backlog:
+  - "Where to stay in Israel" accommodation types hub (P2, S) if rotating seo-content again
+  - Israel travel apps guide (P2, S) — could be a tools-adjacent guide
+  - Consider any new interactive tool items in backlog
+  - i18n Phase 2 batch 7 (water-hiking-israel, israel-adventure-sports, ben-gurion-airport-guide) viable as BUILD

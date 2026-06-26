@@ -1807,3 +1807,12 @@ Next: iter 96 = BUILD/monetization. Top candidate: Tel Aviv tours compared money
 **Merge SHA:** 5c5970d — pushed to master; CI in_progress at iteration end.
 **Prod deploy:** pending (CI in_progress); next iteration start-check will confirm.
 **Content:** Comparison table + 5 tour sections (Jaffa walk, White City Bauhaus, food/market, nightlife, private guide) + 5 FAQs + 3 affiliate CTAs (GYG/Viator/Civitatis). Honest framing throughout — price ranges, Shabbat notes, no fabricated ratings.
+
+## 2026-06-26T10:36 · iter 97 · BUILD/seo-content · Qumran National Park visitor guide
+
+**Item:** `/qumran-guide` — Qumran National Park & Dead Sea Scrolls visitor guide.
+**Gate:** pnpm check 0 errors · pnpm build completed 213 pages (incl. /qumran-guide) · pnpm test:e2e 215/215 passed.
+**Merge SHA:** e9e5540 — pushed to master; CI in_progress at iteration end.
+**Prod deploy:** pending (CI in_progress); next iteration start-check will confirm.
+**Content:** Discovery story (1947 Bedouin shepherd find), Essene community background (scholarly-uncertainty framed as "most widely held" not "certain"), walking trail highlights (ritual baths, scriptorium, communal dining hall, Cave 4 overlook), practical visitor info (hours, INPA pass, no direct bus), combination itinerary suggestions (Qumran AM + Dead Sea PM; Masada + Qumran; self-drive Route 90 logic), where to see actual scrolls (Shrine of the Book + Rockefeller Museum). 3 affiliate CTAs (GYG/Abraham/Viator), 5 FAQs. Cross-links added from /dead-sea-guide and /masada-dead-sea-day-trip. Smoke test route added.
+**Session note:** git pull --ff-only failed (50/50 commits diverged local vs origin); resolved with git reset --hard origin/master before work. Cause: cloud env checked out stale local master.
