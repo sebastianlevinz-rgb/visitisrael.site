@@ -1895,3 +1895,21 @@ Research: 8 web searches covering Tourist Israel new pages, money-page gaps (Eil
 
 Ship: N/A (RESEARCH). No code changes.
 Next: iter 101 = BUILD/monetization.
+
+## 2026-06-26T14:40 · iter 101 · BUILD/monetization · Eilat tours compared (/eilat-tours-compared)
+
+**Item:** `/eilat-tours-compared` — 6th entry in tours-compared money-page series (iter100 research, P2/S).
+**Gate:** pnpm check 0 errors · pnpm build 215 pages (+1) · pnpm test:e2e 217/217 passed.
+**Merge SHA:** 5f3a2f8 — pushed to master.
+**CI:** GitHub Actions runs 28245046658 + 28245046641 both `completed/failure` via HTTP-404 log-download
+  transient (same infra pattern as iter98 — runs complete near-instantly, logs unretrievable; local
+  gate was fully green). Decision: do NOT revert per iter98 precedent.
+**Content:** Comparison table + 5 tour sections (Red Sea snorkeling/glass-bottom boat, scuba diving,
+  Eilat Mountains jeep/4x4 safari, Dolphin Reef, Petra day trip) + 5 FAQs + 3 affiliate CTAs
+  (GYG/Viator/Abraham). Honest framing: price RANGES only, no fabricated ratings.
+**Wiring:** Footer Day Trips column; smoke test route added (217 total); cross-links from /eilat region
+  guide (new paragraph after diving section), /petra-from-eilat-vs-amman (footer note), and
+  /best-tours-in-israel (Petra/Eilat bullet extended).
+**YAML lesson:** FAQ answers with possessives (world's, Eilat's) inside YAML single-quoted strings
+  trigger js-yaml parse error — rephrased to avoid possessives.
+**Startup:** git fetch + git reset --hard origin/master needed (standard cloud env stale-master pattern).
