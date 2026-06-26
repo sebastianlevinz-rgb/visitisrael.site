@@ -47,7 +47,7 @@ Israel rewards a few well-chosen guided days — especially for sites where a su
 
 - **[Jerusalem](/jerusalem) Old City** — the four quarters, [Western Wall](/jerusalem/western-wall), [Holy Sepulchre](/jerusalem/holy-sepulchre) and [Via Dolorosa](/jerusalem/via-dolorosa) with a guide who unlocks the history. ([Jerusalem tours compared](/jerusalem-tours-compared) — which type to pick.)
 - **[Masada](/dead-sea/masada) sunrise & the [Dead Sea](/dead-sea)** — the classic day trip; an organised tour handles the pre-dawn start. ([Masada tours compared](/masada-tours-compared) — sunrise vs cable car vs self-drive.)
-- **[Petra](/petra-from-eilat-vs-amman) from [Eilat](/eilat)** — a tour manages the Jordan border, visa and the long day.
+- **[Petra](/petra-from-eilat-vs-amman) from [Eilat](/eilat)** — a tour manages the Jordan border, visa and the long day. Or stay on the Israeli side with a [Red Sea snorkel or desert jeep safari](/eilat-tours-compared).
 - **[Galilee](/galilee) & [Nazareth](/nazareth)** — Capernaum, the Mount of Beatitudes and the Sea of Galilee. ([Galilee tours compared](/galilee-tours-compared) — Christian pilgrimage, Jewish heritage, multi-day and self-drive.)
 - **[Tel Aviv](/tel-aviv) & [Old Jaffa](/tel-aviv/old-jaffa) food tour** — graze the [Carmel Market](/tel-aviv/carmel-market) with a local.
 
