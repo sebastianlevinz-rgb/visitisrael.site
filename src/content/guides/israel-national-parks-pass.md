@@ -19,7 +19,7 @@ faqs:
     answer: "The Bahá'í Gardens in Haifa are a UNESCO World Heritage Site managed by the Bahá'í Faith, not the Israel Nature and Parks Authority, so they are not included in any national parks pass. Guided tours of the terraced gardens are free but require advance booking — register at the Bahá'í Gardens website."
 ---
 
-Visiting three or more national parks in Israel? The **Israel National Parks Pass** — sold by the Israel Nature and Parks Authority (INPA) under four tiers — can cut your entrance fees significantly. A combination as common as [Masada](/dead-sea/masada) + [Ein Gedi](/dead-sea/ein-gedi) + [Caesarea](/caesarea) already justifies the mid-tier card. Here is how the cards work, what they cover, and what the fine print excludes.
+Visiting three or more national parks in Israel? The **Israel National Parks Pass** — sold by the Israel Nature and Parks Authority (INPA) under four tiers — can cut your entrance fees significantly. A combination as common as [Masada](/dead-sea/masada) + [Ein Gedi](/dead-sea/ein-gedi) + [Caesarea](/caesarea) already justifies the mid-tier card. Use the **[parks pass calculator](/israel-parks-pass-calculator)** to tick your planned sites and see which card (if any) saves you money. Here is how the cards work, what they cover, and what the fine print excludes.
 
 ## The four pass tiers
 
@@ -142,6 +142,7 @@ Caesarea + Beit She'an + Megiddo + Banias + Beit Guvrin + Nimrod = 6 sites — d
 - **Combined [car rental](/car-rental-israel) strategy**: most INPA sites are not on public transit routes. A rental car is the most practical way to access Avdat, Timna, Megiddo and the Golan sites in the same trip. See our [car rental guide](/car-rental-israel) and [transport options](/transportation).
 - **Shabbat**: most national parks are open on Shabbat, but hours may differ and park buses (where they exist) do not run. This is an advantage of a [rental car](/car-rental-israel) on Shabbat weekends — see our [Shabbat guide](/shabbat-guide) for the logistics.
 - **First-time visitors**: if this is your first Israel trip, cross-reference our [first-time guide](/first-time-in-israel) to build the parks into a broader itinerary, and use the [Israel trip cost calculator](/israel-trip-cost-calculator) to budget your entry fees vs the card cost.
+- **Not sure which card to buy?** Use the interactive **[parks pass calculator](/israel-parks-pass-calculator)** — tick your planned sites and get an instant recommendation.
 
 ---
 

@@ -65,6 +65,7 @@ const ROUTES = [
   '/israel-travel-apps',
   '/israel-holiday-planner',
   '/israel-visa-eta-checker',
+  '/israel-parks-pass-calculator',
   '/fr/first-time-in-israel',
   '/fr/visa-information',
   '/fr/best-time-to-visit-israel',

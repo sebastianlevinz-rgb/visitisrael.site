@@ -95,6 +95,7 @@ const ROUTES = [
   '/dead-sea-guide',
   '/israel-holiday-planner',
   '/israel-visa-eta-checker',
+  '/israel-parks-pass-calculator',
   '/search',
   '/404',
 ];

@@ -406,3 +406,64 @@ test.describe('Israel Holiday Impact Planner', () => {
     await expect(page.locator('#results')).toHaveText('');
   });
 });
+
+test.describe('Israel National Parks Pass Calculator', () => {
+  test('shows prompt when no parks are selected', async ({ page }) => {
+    await page.goto('/israel-parks-pass-calculator');
+    // No parks ticked — zero state visible.
+    await expect(page.locator('#result-zero')).toBeVisible();
+    await expect(page.locator('#result-content')).not.toBeVisible();
+  });
+
+  test('recommends paying at the gate for 1–2 parks (gate is cheapest)', async ({ page }) => {
+    await page.goto('/israel-parks-pass-calculator');
+    // Tick just Masada (₪29) — 1 park is always cheaper at the gate than Blue card (₪90).
+    await page.locator('#park-masada').check();
+    await expect(page.locator('#result-content')).toBeVisible();
+    await expect(page.locator('#rec-label')).toContainText(/gate/i);
+  });
+
+  test('recommends Blue card for 3 parks', async ({ page }) => {
+    await page.goto('/israel-parks-pass-calculator');
+    // Masada ₪29 + Ein Gedi ₪29 + Caesarea ₪29 = ₪87; but Blue card = ₪90 — let us use
+    // higher-priced parks. Rosh HaNikra ₪49 + Timna ₪49 + Masada ₪29 = ₪127 > ₪90.
+    await page.locator('#park-rosh-hanikra').check();
+    await page.locator('#park-timna').check();
+    await page.locator('#park-masada').check();
+    await expect(page.locator('#result-content')).toBeVisible();
+    await expect(page.locator('#rec-label')).toContainText(/blue/i);
+  });
+
+  test('recommends Orange card for 8+ parks', async ({ page }) => {
+    await page.goto('/israel-parks-pass-calculator');
+    // Check 8 parks: combined gate price well exceeds ₪175 (Orange).
+    const parks = [
+      'park-masada', 'park-ein-gedi', 'park-caesarea', 'park-beit-shean',
+      'park-megiddo', 'park-banias', 'park-avdat', 'park-rosh-hanikra',
+    ];
+    for (const id of parks) {
+      await page.locator(`#${id}`).check();
+    }
+    await expect(page.locator('#result-content')).toBeVisible();
+    await expect(page.locator('#rec-label')).toContainText(/orange/i);
+  });
+
+  test('clear all resets to zero state', async ({ page }) => {
+    await page.goto('/israel-parks-pass-calculator');
+    await page.locator('#park-masada').check();
+    await page.locator('#park-ein-gedi').check();
+    await expect(page.locator('#result-content')).toBeVisible();
+    // Click clear all.
+    await page.locator('#clear-all').click();
+    await expect(page.locator('#result-zero')).toBeVisible();
+    await expect(page.locator('#result-content')).not.toBeVisible();
+  });
+
+  test('exclusion caveat is visible on the page', async ({ page }) => {
+    await page.goto('/israel-parks-pass-calculator');
+    // The amber warning box lists excluded sites.
+    const caveat = page.locator('p.rounded-btn');
+    await expect(caveat).toContainText(/City of David/);
+    await expect(caveat).toContainText(/Masada cable car/);
+  });
+});
