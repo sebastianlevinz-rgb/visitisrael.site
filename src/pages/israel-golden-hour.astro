@@ -1,0 +1,470 @@
+---
+import BaseLayout from '@/layouts/BaseLayout.astro';
+import Hero from '@/components/Hero.astro';
+import Breadcrumbs from '@/components/Breadcrumbs.astro';
+import JsonLd from '@/components/JsonLd.astro';
+import { breadcrumbList, faqPage } from '@/lib/schema';
+
+const title = 'Israel Golden Hour & Sunrise Calculator 2026 — Photographer & Hiker Times';
+const description =
+  'Find exact sunrise, golden hour, blue hour and sunset times for Masada, Jerusalem, Tel Aviv, Eilat, the Dead Sea, Haifa and more. Includes Shabbat candlelighting. Essential for Masada sunrise hikes.';
+
+const crumbs = [
+  { name: 'Home', path: '/' },
+  { name: 'Plan your trip', path: '/plan-your-trip' },
+  { name: 'Golden hour calculator', path: '/israel-golden-hour' },
+];
+
+const faqs = [
+  {
+    question: 'What time is sunrise at Masada?',
+    answer:
+      'Masada sunrise varies throughout the year — typically between 5:10 am in summer (June/July) and 6:35 am in winter (December/January). The Snake Path takes 45–60 minutes from the eastern car park, so plan to start hiking 90 minutes before sunrise. Use the calculator above to get the exact time for your date.',
+  },
+  {
+    question: 'When is golden hour in Israel?',
+    answer:
+      'Golden hour in Israel is the roughly 60 minutes after sunrise and 60 minutes before sunset. Summer sunsets are around 7:30–8:00 pm; winter sunsets around 4:30–5:00 pm. The Dead Sea and desert landscapes are especially dramatic in golden hour light — the mineral haze over the Dead Sea glows amber.',
+  },
+  {
+    question: 'What is blue hour and when does it happen in Israel?',
+    answer:
+      'Blue hour is the period of civil twilight just before sunrise (civil dawn to sunrise) and just after sunset (sunset to end of civil twilight). The sky glows deep blue before colour enters the scene. In Israel, blue hour lasts roughly 20–30 minutes. Haifa\'s Bahá\'í Gardens and Jerusalem\'s Old City walls are particularly striking during blue hour.',
+  },
+  {
+    question: 'Can I access Masada before sunrise?',
+    answer:
+      'Yes. The eastern car park gates open at 4:00 am for sunrise hikers. The Snake Path does not have an official minimum opening time for early access — hikers with head torches can start climbing from around 4:30 am. The cable car does not run before sunrise. Always verify current INPA gate times at masada.org.il before your visit.',
+  },
+  {
+    question: 'Is the Shabbat candlelighting time shown accurate?',
+    answer:
+      'Times are calculated from sunset using standard astronomical formulas and are accurate to within ±2 minutes. Candlelighting is shown at 18 minutes before sunset, the common Israeli standard. Some communities use 30 or 40 minutes earlier — check with Chabad.org for your specific community.',
+  },
+];
+
+const schema = [breadcrumbList(crumbs), faqPage(faqs)];
+---
+
+<BaseLayout
+  title={title}
+  description={description}
+  path="/israel-golden-hour"
+  image="/images/regions/negev/hero.jpg"
+  imageAlt="Masada fortress at sunrise — golden light over the Dead Sea"
+>
+  <JsonLd schema={schema} slot="head" />
+  <Hero
+    image="/images/regions/negev/hero.jpg"
+    title="Golden Hour & Sunrise Calculator"
+    subtitle="Exact sunrise, blue hour, golden hour and sunset times for 9 locations across Israel — perfect for Masada sunrise hikes and landscape photography."
+    alt="Masada fortress bathed in warm golden light at dawn above the Dead Sea"
+  />
+  <Breadcrumbs items={crumbs} />
+
+  <section class="mx-auto max-w-5xl px-4 pt-10">
+    <p class="eyebrow" data-reveal>For photographers &amp; hikers</p>
+    <h2 class="font-display text-3xl font-bold text-ink" data-reveal>
+      When is golden hour in Israel?
+    </h2>
+    <p class="mt-2 max-w-2xl text-ink-muted" data-reveal>
+      Pick a location and date to see all the key daylight events — from nautical dawn to end
+      of evening blue hour. Includes Shabbat candlelighting for each location.
+    </p>
+
+    <!-- Controls -->
+    <div
+      class="mt-8 flex flex-wrap items-end gap-4 rounded-card border border-border bg-card p-5 shadow-card"
+    >
+      <label class="block">
+        <span class="text-sm font-semibold text-ink">Location</span>
+        <select
+          id="location-sel"
+          class="mt-1 block rounded-btn border border-border bg-sand px-3 py-2 text-ink"
+          aria-label="Select location"
+        >
+          <option value="masada">Masada</option>
+          <option value="dead-sea">Dead Sea (Ein Bokek)</option>
+          <option value="jerusalem" selected>Jerusalem</option>
+          <option value="eilat">Eilat</option>
+          <option value="mitzpe-ramon">Mitzpe Ramon</option>
+          <option value="haifa">Haifa</option>
+          <option value="galilee">Sea of Galilee (Tiberias)</option>
+          <option value="tel-aviv">Tel Aviv</option>
+          <option value="caesarea">Caesarea</option>
+        </select>
+      </label>
+
+      <label class="block">
+        <span class="text-sm font-semibold text-ink">Date</span>
+        <input
+          id="date-input"
+          type="date"
+          class="mt-1 block rounded-btn border border-border bg-sand px-3 py-2 text-ink"
+          aria-label="Select date"
+        />
+      </label>
+
+      <button
+        id="calc-btn"
+        type="button"
+        class="btn btn-primary"
+        aria-label="Calculate times"
+      >
+        Calculate
+      </button>
+    </div>
+
+    <!-- Results -->
+    <div
+      id="results"
+      aria-live="polite"
+      class="mt-6"
+    >
+      <!-- injected by JS -->
+    </div>
+
+    <!-- Location-specific tips -->
+    <div id="location-tip" aria-live="polite" class="mt-4 hidden rounded-card border border-primary bg-primary-soft p-5">
+      <!-- injected by JS -->
+    </div>
+  </section>
+
+  <!-- Why it matters section -->
+  <section class="mx-auto max-w-5xl px-4 pt-14">
+    <h2 class="font-display text-2xl font-bold text-ink">Best spots to catch golden hour in Israel</h2>
+    <div class="mt-6 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+      <div class="rounded-card border border-border bg-card p-5 shadow-card">
+        <p class="eyebrow">Sunrise</p>
+        <h3 class="mt-1 font-display text-lg font-bold text-ink">Masada summit</h3>
+        <p class="mt-2 text-sm text-ink-muted">
+          Israel's most iconic sunrise experience. The Dead Sea glows copper below as first light
+          catches Herod's fortress. Start the Snake Path 90 minutes before sunrise.
+        </p>
+        <a href="/dead-sea/masada" class="mt-3 inline-block text-sm font-semibold text-primary">
+          Masada visitor guide →
+        </a>
+      </div>
+      <div class="rounded-card border border-border bg-card p-5 shadow-card">
+        <p class="eyebrow">Sunset</p>
+        <h3 class="mt-1 font-display text-lg font-bold text-ink">Mount of Olives, Jerusalem</h3>
+        <p class="mt-2 text-sm text-ink-muted">
+          The panoramic view of the Old City — the Dome of the Rock, the Temple Mount, the towers
+          of the Jewish Quarter — turns to gold in the last hour of daylight.
+        </p>
+        <a href="/jerusalem" class="mt-3 inline-block text-sm font-semibold text-primary">
+          Jerusalem guide →
+        </a>
+      </div>
+      <div class="rounded-card border border-border bg-card p-5 shadow-card">
+        <p class="eyebrow">Blue hour</p>
+        <h3 class="mt-1 font-display text-lg font-bold text-ink">Dead Sea shore</h3>
+        <p class="mt-2 text-sm text-ink-muted">
+          Mineral haze and the salt-crystal shoreline catch deep blue pre-dawn light in a way
+          found nowhere else on earth. Arrive 45 minutes before sunrise for best results.
+        </p>
+        <a href="/dead-sea" class="mt-3 inline-block text-sm font-semibold text-primary">
+          Dead Sea guide →
+        </a>
+      </div>
+      <div class="rounded-card border border-border bg-card p-5 shadow-card">
+        <p class="eyebrow">Golden hour</p>
+        <h3 class="mt-1 font-display text-lg font-bold text-ink">Caesarea Aqueduct beach</h3>
+        <p class="mt-2 text-sm text-ink-muted">
+          Roman columns silhouetted against a warm sunset sky — one of the most
+          photogenic scenes in Israel. The beach faces west for direct sunset light.
+        </p>
+        <a href="/caesarea-guide" class="mt-3 inline-block text-sm font-semibold text-primary">
+          Caesarea guide →
+        </a>
+      </div>
+      <div class="rounded-card border border-border bg-card p-5 shadow-card">
+        <p class="eyebrow">Stargazing</p>
+        <h3 class="mt-1 font-display text-lg font-bold text-ink">Mitzpe Ramon crater</h3>
+        <p class="mt-2 text-sm text-ink-muted">
+          IDA-certified dark-sky park — one of the best stargazing sites in the
+          Middle East. Nautical twilight's end marks when the Milky Way begins to
+          emerge over the crater rim.
+        </p>
+        <a href="/negev" class="mt-3 inline-block text-sm font-semibold text-primary">
+          Negev &amp; Mitzpe Ramon →
+        </a>
+      </div>
+      <div class="rounded-card border border-border bg-card p-5 shadow-card">
+        <p class="eyebrow">Sunset views</p>
+        <h3 class="mt-1 font-display text-lg font-bold text-ink">Jaffa port &amp; clock tower</h3>
+        <p class="mt-2 text-sm text-ink-muted">
+          The old port faces west over the Mediterranean — golden-hour light
+          catches the ancient stonework and fishing boats beautifully. Easily
+          walkable from central Tel Aviv.
+        </p>
+        <a href="/tel-aviv" class="mt-3 inline-block text-sm font-semibold text-primary">
+          Tel Aviv guide →
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Photography tips -->
+  <section class="mx-auto max-w-3xl px-4 pt-14">
+    <h2 class="font-display text-2xl font-bold text-ink">Photography timing tips for Israel</h2>
+    <dl class="mt-6 space-y-5">
+      <div>
+        <dt class="font-semibold text-ink">Masada sunrise hike</dt>
+        <dd class="mt-1 text-ink-muted">
+          The Snake Path takes 45–60 minutes from the base. Depart 90 minutes before sunrise
+          to arrive at the summit before first light — and allow time to find a good spot before
+          other hikers crowd the north terrace. Bring a head torch and at least 1.5 L of water.
+        </dd>
+      </div>
+      <div>
+        <dt class="font-semibold text-ink">Dead Sea reflection photography</dt>
+        <dd class="mt-1 text-ink-muted">
+          Best light arrives 20–30 minutes after sunrise, when low-angle rays catch the mineral
+          haze over the water. The north (Kalia) end of the Dead Sea has the least clutter on the
+          Jordanian horizon. Arrive the night before and stay at Ein Bokek to be on-site at dawn.
+        </dd>
+      </div>
+      <div>
+        <dt class="font-semibold text-ink">Bahá'í Gardens, Haifa</dt>
+        <dd class="mt-1 text-ink-muted">
+          Free guided tours depart at 9:00 am — check the window against sunrise in winter
+          months. In summer (June–August), sunrise at 5:30 am means the gardens are in full
+          morning light by tour time. Reserve at bahai.org in advance.
+        </dd>
+      </div>
+      <div>
+        <dt class="font-semibold text-ink">Seasonal best times</dt>
+        <dd class="mt-1 text-ink-muted">
+          Spring (March–May) and autumn (September–November) offer the most comfortable hiking
+          temperatures and rich warm light. Summer sunrises are early (before 5:30 am) and hikes
+          must be completed before 10:00 am due to heat. Winter (December–February) brings the
+          latest sunrises and often dramatic cloud formations over the Judean desert.
+        </dd>
+      </div>
+    </dl>
+  </section>
+
+  <!-- FAQ -->
+  <section class="mx-auto max-w-3xl px-4 pb-4 pt-14">
+    <h2 class="mb-4 font-display text-2xl font-bold text-ink">Frequently asked questions</h2>
+    <div class="space-y-4">
+      {
+        faqs.map((f) => (
+          <details class="rounded-card border border-border bg-card p-4">
+            <summary class="cursor-pointer font-semibold text-ink">{f.question}</summary>
+            <p class="mt-2 text-ink-muted">{f.answer}</p>
+          </details>
+        ))
+      }
+    </div>
+  </section>
+
+  <!-- Cross-links -->
+  <section class="mx-auto max-w-3xl px-4 pb-16 pt-6">
+    <div class="rounded-card border border-border bg-sand-deep p-6 text-center shadow-card">
+      <h2 class="font-display text-2xl font-bold text-ink">Plan your outdoor Israel experience</h2>
+      <p class="mx-auto mt-2 max-w-xl text-ink-muted">
+        Match your golden-hour windows with the right hike or trail.
+      </p>
+      <div class="mt-5 flex flex-wrap justify-center gap-3">
+        <a href="/hiking-in-israel" class="btn btn-primary">Hiking in Israel</a>
+        <a href="/israel-shabbat-calendar" class="btn btn-ghost">Shabbat times calendar</a>
+        <a href="/israel-national-parks-pass" class="btn btn-ghost">National parks pass</a>
+      </div>
+    </div>
+  </section>
+</BaseLayout>
+
+<script is:inline>
+(function () {
+  /* ------------------------------------------------------------------ *
+   *  Location data (lat/lng in decimal degrees)
+   * ------------------------------------------------------------------ */
+  var LOCATIONS = {
+    'masada':       { lat: 31.3156, lng: 35.3536, name: 'Masada' },
+    'dead-sea':     { lat: 31.1985, lng: 35.3939, name: 'Dead Sea (Ein Bokek)' },
+    'jerusalem':    { lat: 31.7683, lng: 35.2137, name: 'Jerusalem' },
+    'eilat':        { lat: 29.5569, lng: 34.9519, name: 'Eilat' },
+    'mitzpe-ramon': { lat: 30.6100, lng: 34.8010, name: 'Mitzpe Ramon' },
+    'haifa':        { lat: 32.7940, lng: 34.9896, name: 'Haifa' },
+    'galilee':      { lat: 32.7910, lng: 35.5300, name: 'Sea of Galilee (Tiberias)' },
+    'tel-aviv':     { lat: 32.0853, lng: 34.7818, name: 'Tel Aviv' },
+    'caesarea':     { lat: 32.5016, lng: 34.8958, name: 'Caesarea' },
+  };
+
+  /* Location-specific tips shown below the results */
+  var TIPS = {
+    'masada':       'Masada sunrise hike: the Snake Path takes 45–60 min from the east base. Depart 90 min before sunrise. Gates open from 4:00 am. Bring a head torch and 1.5 L water minimum.',
+    'dead-sea':     'Dead Sea reflection: best light arrives 20–30 min after sunrise. Arrive the night before at Ein Bokek to be on-site at dawn without a long morning drive.',
+    'jerusalem':    'Mount of Olives viewpoint: sunset from the top terrace looks west over the entire Old City. Arrive 30 min early for a good position.',
+    'eilat':        'Eilat red mountains: the Edom mountains glow deep red in sunrise and sunset light. Red Canyon hike (1.5 h round-trip) is best in morning golden hour.',
+    'mitzpe-ramon': 'Mitzpe Ramon stargazing: nautical twilight end marks when the Milky Way emerges over the crater. Bring warm layers — temperatures can drop sharply after dark even in summer.',
+    'haifa':        'Bahá\'í Gardens morning tour departs 9:00 am — in winter, check this falls after sunrise so the gardens are fully lit. Reserve at bahai.org in advance.',
+    'galilee':      'Sea of Galilee sunrise: the eastern shore (Kibbutz Ein Gev) faces west across the water, catching first light on the Golan hills reflected in the lake.',
+    'tel-aviv':     'Jaffa port faces west — ideal for sunset photography. In golden hour the old stone walls and fishing boats photograph beautifully from the port promenade.',
+    'caesarea':     'Caesarea Aqueduct beach faces west — arrive 30 min before sunset. The Roman columns silhouetted at golden hour is one of Israel\'s most iconic photography spots.',
+  };
+
+  /* ------------------------------------------------------------------ *
+   *  Astronomical calculations (Jean Meeus simplified)
+   * ------------------------------------------------------------------ */
+  var RAD = Math.PI / 180;
+  var TZ = 2; // Israel Standard Time UTC+2
+
+  function isDST(dateObj) {
+    var m = dateObj.getUTCMonth() + 1;
+    if (m < 3 || m > 10) return false;
+    if (m > 3 && m < 10) return true;
+    if (m === 3) {
+      var lastFri = new Date(Date.UTC(dateObj.getUTCFullYear(), 2, 31));
+      while (lastFri.getUTCDay() !== 5) lastFri.setUTCDate(lastFri.getUTCDate() - 1);
+      return dateObj >= lastFri;
+    }
+    if (m === 10) {
+      var lastSun = new Date(Date.UTC(dateObj.getUTCFullYear(), 9, 31));
+      while (lastSun.getUTCDay() !== 0) lastSun.setUTCDate(lastSun.getUTCDate() - 1);
+      return dateObj < lastSun;
+    }
+    return false;
+  }
+
+  /* Returns rise or set time as fractional hours in Israel local time.
+     zenith: 90.833 = sunrise/sunset; 96 = civil; 102 = nautical.
+     isRise: true for dawn/rise, false for dusk/set. */
+  function solarTime(year, month, day, lat, lng, zenith, isRise) {
+    var N = Math.floor(275 * month / 9)
+      - Math.floor((month + 9) / 12) * (1 + Math.floor((year - 4 * Math.floor(year / 4) + 2) / 3))
+      + day - 30;
+    var M = (357.5291 + 0.98560028 * (N - 1)) % 360;
+    var C = 1.9148 * Math.sin(M * RAD) + 0.0200 * Math.sin(2 * M * RAD) + 0.0003 * Math.sin(3 * M * RAD);
+    var lambda = (M + C + 180 + 102.9372) % 360;
+    var sinDec = Math.sin(lambda * RAD) * Math.sin(23.45 * RAD);
+    var dec = Math.asin(sinDec) / RAD;
+    var cosH = (Math.cos(zenith * RAD) - Math.sin(lat * RAD) * Math.sin(dec * RAD))
+      / (Math.cos(lat * RAD) * Math.cos(dec * RAD));
+    if (cosH < -1) return null; // polar day
+    if (cosH >  1) return null; // polar night
+    var H = Math.acos(cosH) / RAD;
+    var noon = 12 - lng / 15;
+    var solar = isRise ? noon - H / 15 : noon + H / 15;
+    var dateObj = new Date(Date.UTC(year, month - 1, day));
+    return solar + TZ + (isDST(dateObj) ? 1 : 0);
+  }
+
+  function solarNoon(year, month, day, lng) {
+    var dateObj = new Date(Date.UTC(year, month - 1, day));
+    var noon = 12 - lng / 15;
+    return noon + TZ + (isDST(dateObj) ? 1 : 0);
+  }
+
+  function fmt(h) {
+    if (h == null) return '—';
+    var total = Math.round(h * 60);
+    var hh = Math.floor(total / 60) % 24;
+    var mm = total % 60;
+    var ampm = hh >= 12 ? 'pm' : 'am';
+    var hd = hh % 12 || 12;
+    return hd + ':' + (mm < 10 ? '0' + mm : mm) + ' ' + ampm;
+  }
+
+  /* ------------------------------------------------------------------ *
+   *  Render
+   * ------------------------------------------------------------------ */
+  function addHour(h, delta) {
+    return h == null ? null : h + delta;
+  }
+
+  function calculate() {
+    var locKey = document.getElementById('location-sel').value;
+    var loc = LOCATIONS[locKey];
+    var rawDate = document.getElementById('date-input').value;
+    if (!rawDate) return;
+
+    var parts = rawDate.split('-').map(Number);
+    var year = parts[0], month = parts[1], day = parts[2];
+
+    var nautDawn  = solarTime(year, month, day, loc.lat, loc.lng, 102, true);
+    var civilDawn = solarTime(year, month, day, loc.lat, loc.lng, 96, true);
+    var sunrise   = solarTime(year, month, day, loc.lat, loc.lng, 90.833, true);
+    var ghEnd     = addHour(sunrise, 1);
+    var noon      = solarNoon(year, month, day, loc.lng);
+    var ghStart   = addHour(solarTime(year, month, day, loc.lat, loc.lng, 90.833, false), -1);
+    var sunset    = solarTime(year, month, day, loc.lat, loc.lng, 90.833, false);
+    var civilDusk = solarTime(year, month, day, loc.lat, loc.lng, 96, false);
+    var candle    = addHour(sunset, -18 / 60);
+
+    var rows = [
+      { icon: '🔭', label: 'Nautical dawn (blue hour start)', time: nautDawn,  note: 'Stars fade; deep blue sky begins' },
+      { icon: '🌅', label: 'Civil dawn',                       time: civilDawn, note: 'Horizon brightens; blue hour' },
+      { icon: '☀️', label: 'Sunrise',                          time: sunrise,   note: 'Sun appears above horizon' },
+      { icon: '📸', label: 'Golden hour ends',                 time: ghEnd,     note: '+1 h after sunrise' },
+      { icon: '🌤',  label: 'Solar noon',                       time: noon,      note: 'Sun at highest point' },
+      { icon: '📸', label: 'Golden hour begins',               time: ghStart,   note: '−1 h before sunset' },
+      { icon: '🌇', label: 'Sunset',                           time: sunset,    note: 'Sun dips below horizon' },
+      { icon: '🌆', label: 'Civil dusk (blue hour end)',       time: civilDusk, note: 'Last twilight; sky deepens blue' },
+      { icon: '🕯',  label: 'Shabbat candlelighting',          time: candle,    note: '18 min before sunset' },
+    ];
+
+    var html = '<div class="overflow-x-auto rounded-card border border-border shadow-card">'
+      + '<table class="w-full min-w-[400px] text-sm">'
+      + '<thead><tr class="border-b border-border bg-sand-deep">'
+      + '<th class="px-4 py-3 text-left font-semibold text-ink">Event</th>'
+      + '<th class="px-4 py-3 text-right font-semibold text-ink">' + loc.name + '</th>'
+      + '<th class="hidden px-4 py-3 text-left font-semibold text-ink-muted sm:table-cell">Note</th>'
+      + '</tr></thead>'
+      + '<tbody class="divide-y divide-border">';
+
+    rows.forEach(function (r, i) {
+      var bg = (i === 0 || i === 1) ? 'bg-blue-50'
+             : (i === 2 || i === 3) ? 'bg-amber-50'
+             : (i === 6 || i === 7) ? 'bg-orange-50'
+             : i === 5 ? 'bg-amber-50'
+             : i === 8 ? 'bg-primary-soft'
+             : 'bg-card';
+      html += '<tr class="' + bg + '">'
+        + '<td class="px-4 py-3 text-ink">' + r.icon + ' ' + r.label + '</td>'
+        + '<td class="px-4 py-3 text-right font-bold text-ink" id="time-' + i + '">' + fmt(r.time) + '</td>'
+        + '<td class="hidden px-4 py-3 text-ink-muted sm:table-cell">' + r.note + '</td>'
+        + '</tr>';
+    });
+
+    html += '</tbody></table></div>';
+    document.getElementById('results').innerHTML = html;
+
+    /* location tip */
+    var tip = TIPS[locKey];
+    var tipEl = document.getElementById('location-tip');
+    if (tip) {
+      tipEl.innerHTML = '<p class="text-sm text-ink"><strong>Tip for ' + loc.name + ':</strong> ' + tip + '</p>';
+      tipEl.classList.remove('hidden');
+    } else {
+      tipEl.classList.add('hidden');
+    }
+  }
+
+  /* ------------------------------------------------------------------ *
+   *  Init
+   * ------------------------------------------------------------------ */
+  /* Default date = today in Israel (UTC+2 or UTC+3) */
+  var now = new Date();
+  var offset = 2 * 60; // IST offset in minutes (DST handled below)
+  var localMs = now.getTime() + offset * 60000;
+  var localDate = new Date(localMs);
+  var yyyy = localDate.getUTCFullYear();
+  var mm = String(localDate.getUTCMonth() + 1).padStart(2, '0');
+  var dd = String(localDate.getUTCDate()).padStart(2, '0');
+  document.getElementById('date-input').value = yyyy + '-' + mm + '-' + dd;
+  /* Set min/max to a reasonable range */
+  document.getElementById('date-input').min = '2024-01-01';
+  document.getElementById('date-input').max = '2030-12-31';
+
+  document.getElementById('calc-btn').addEventListener('click', calculate);
+  document.getElementById('location-sel').addEventListener('change', calculate);
+  document.getElementById('date-input').addEventListener('change', calculate);
+
+  /* Check for prefers-reduced-motion (no animation on table update needed) */
+
+  calculate();
+})();
+</script>

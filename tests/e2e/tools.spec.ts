@@ -539,3 +539,70 @@ test.describe('Car rental decision quiz', () => {
     expect(checkedCount).toBe(0);
   });
 });
+
+test.describe('Golden hour & sunrise calculator', () => {
+  test('loads with today\'s date and renders a results table', async ({ page }) => {
+    await page.goto('/israel-golden-hour');
+
+    // Results table should be visible on load (auto-calculates)
+    const table = page.locator('#results table');
+    await expect(table).toBeVisible();
+
+    // Should contain sunrise row
+    await expect(page.locator('#results')).toContainText(/Sunrise/i);
+
+    // Time cells should show formatted time (e.g. "5:30 am")
+    const timeCells = page.locator('#results td:nth-child(2)');
+    const count = await timeCells.count();
+    expect(count).toBeGreaterThanOrEqual(7);
+    const firstTime = await timeCells.first().textContent();
+    expect(firstTime).toMatch(/\d+:\d+\s*(am|pm)/i);
+  });
+
+  test('switching location recalculates with correct location name in header', async ({ page }) => {
+    await page.goto('/israel-golden-hour');
+
+    // Default is Jerusalem — header should mention Jerusalem
+    await expect(page.locator('#results table thead')).toContainText(/Jerusalem/i);
+
+    // Switch to Eilat — header should update
+    await page.locator('#location-sel').selectOption('eilat');
+    await expect(page.locator('#results table thead')).toContainText(/Eilat/i);
+  });
+
+  test('Masada selection shows hike-specific tip', async ({ page }) => {
+    await page.goto('/israel-golden-hour');
+    await page.locator('#location-sel').selectOption('masada');
+    const tip = page.locator('#location-tip');
+    await expect(tip).toBeVisible();
+    await expect(tip).toContainText(/Snake Path/i);
+  });
+
+  test('changing date updates sunrise time', async ({ page }) => {
+    await page.goto('/israel-golden-hour');
+
+    // Get summer sunrise (June 21)
+    await page.locator('#date-input').fill('2026-06-21');
+    await page.locator('#date-input').dispatchEvent('change');
+    const summerRows = page.locator('#results tbody tr');
+    const sunriseRowSummer = summerRows.nth(2); // Sunrise is 3rd row
+    const summerTime = await sunriseRowSummer.locator('td:nth-child(2)').textContent();
+
+    // Get winter sunrise (Dec 21)
+    await page.locator('#date-input').fill('2026-12-21');
+    await page.locator('#date-input').dispatchEvent('change');
+    const winterRows = page.locator('#results tbody tr');
+    const sunriseRowWinter = winterRows.nth(2);
+    const winterTime = await sunriseRowWinter.locator('td:nth-child(2)').textContent();
+
+    // Winter sunrise should be later than summer (Israel) — both truthy
+    expect(summerTime).toBeTruthy();
+    expect(winterTime).toBeTruthy();
+    expect(summerTime).not.toBe(winterTime);
+  });
+
+  test('Shabbat candlelighting row is present', async ({ page }) => {
+    await page.goto('/israel-golden-hour');
+    await expect(page.locator('#results')).toContainText(/candlelighting/i);
+  });
+});
