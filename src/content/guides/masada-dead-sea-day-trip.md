@@ -37,6 +37,14 @@ faqs:
     answer: 'The Snake Path is a steep, switchbacking climb of about 350 metres that takes most people 45–60 minutes. It is strenuous but not technical. If you would rather not hike, the cable car runs from around 8am and most daytime tours use it.'
   - question: Do you actually float in the Dead Sea?
     answer: 'Yes — the salt content is so high you bob on the surface effortlessly. Bring or rent water shoes, do not shave beforehand, keep the water away from your eyes, and rinse off in the fresh-water showers afterwards. Twenty minutes in the water is plenty.'
+events:
+  - name: 'Masada Sound and Light Show 2026'
+    startDate: '2026-03-01'
+    endDate: '2026-10-31'
+    description: 'The Masada Sound and Light Show brings the siege of Masada to life with dramatic lighting, narration and music at the foot of the fortress. Runs Tuesday and Thursday evenings at 9pm from March through October.'
+    locationName: 'Masada National Park'
+    locationLocality: 'Masada'
+    url: '/masada-dead-sea-day-trip'
 ---
 
 The Masada and Dead Sea day trip is the single most-booked excursion in Israel — and for good reason. In one outing you climb a desert fortress with one of the most dramatic stories in the country's history, hike a freshwater oasis, and float in the lowest, saltiest body of water on Earth. Here's exactly what to expect and how to do it.

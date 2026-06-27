@@ -140,6 +140,40 @@ export function article(opts: ArticleOpts) {
   };
 }
 
+export interface EventSchemaOpts {
+  name: string;
+  description: string;
+  startDate: string;
+  endDate?: string;
+  locationName: string;
+  locationLocality: string;
+  url?: string;
+}
+
+export function eventSchema(opts: EventSchemaOpts) {
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'Event',
+    name: opts.name,
+    description: opts.description,
+    startDate: opts.startDate,
+    ...(opts.endDate ? { endDate: opts.endDate } : {}),
+    eventStatus: 'https://schema.org/EventScheduled',
+    eventAttendanceMode: 'https://schema.org/OfflineEventAttendanceMode',
+    location: {
+      '@type': 'Place',
+      name: opts.locationName,
+      address: {
+        '@type': 'PostalAddress',
+        addressLocality: opts.locationLocality,
+        addressCountry: 'IL',
+      },
+    },
+    ...(opts.url ? { url: abs(opts.url) } : {}),
+    organizer: { '@id': ORG_ID },
+  };
+}
+
 export interface HotelRef {
   name: string;
   url: string;

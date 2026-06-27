@@ -9,7 +9,7 @@ import FaqSection from '@/components/FaqSection.astro';
 import JsonLd from '@/components/JsonLd.astro';
 import type { Partner } from '@/config/affiliates';
 import { defaultAuthor } from '@/data/authors';
-import { article, breadcrumbList, SITE } from '@/lib/schema';
+import { article, breadcrumbList, eventSchema, SITE, type EventSchemaOpts } from '@/lib/schema';
 import { useTranslations, localeHome, type Locale } from '@/i18n/ui';
 import TourVerdict from '@/components/TourVerdict.astro';
 
@@ -80,6 +80,7 @@ const crumbs = [
   { name: data.title, path },
 ];
 
+const guideEvents = (data.events ?? []) as EventSchemaOpts[];
 const schema = [
   article({
     headline: data.title,
@@ -91,6 +92,7 @@ const schema = [
     dateModified: data.updatedAt,
   }),
   breadcrumbList(crumbs),
+  ...guideEvents.map((e) => eventSchema(e)),
 ];
 ---
 

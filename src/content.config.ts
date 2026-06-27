@@ -87,6 +87,16 @@ const affiliateCta = z.object({
   cta: z.string().optional(),
 });
 
+const guideEvent = z.object({
+  name: z.string(),
+  description: z.string(),
+  startDate: z.string(),
+  endDate: z.string().optional(),
+  locationName: z.string(),
+  locationLocality: z.string(),
+  url: z.string().optional(),
+});
+
 const guides = defineCollection({
   loader: glob({ pattern: '**/*.md', base: './src/content/guides' }),
   schema: z.object({
@@ -102,6 +112,8 @@ const guides = defineCollection({
     // "Is a guided tour worth it?" verdict box.
     verdictName: z.string().optional(),
     verdictQuery: z.string().optional(),
+    // Event schema for pages with schedulable annual experiences.
+    events: z.array(guideEvent).optional(),
   }),
 });
 
