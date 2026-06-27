@@ -39,4 +39,4 @@ Israel is a very common, well-organised tourist destination, and most visits are
 
 ## Next steps
 
-Browse the [11 regions](/), pick a [where-to-stay](/jerusalem#where-to-stay) base, and price your trip with our [cost and budget guide](/israel-cost-budget).
+Browse the [11 regions](/), use our [base city guide](/israel-base-city-guide) to choose whether Jerusalem, Tel Aviv or Haifa suits your itinerary, and price your trip with our [cost and budget guide](/israel-cost-budget).

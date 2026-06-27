@@ -197,6 +197,7 @@ The **Waldorf Astoria Jerusalem**, **King David Hotel**, and **Beresheet Resort*
 - [Israel zimmer guide](/israel-zimmer-guide) — rural B&B stays in detail by region
 - [Israel cost and budget guide](/israel-cost-budget) — overall daily expenditure ranges
 - [First time in Israel](/first-time-in-israel) — complete planning overview
+- [Which city to base yourself in](/israel-base-city-guide) — Jerusalem vs Tel Aviv vs Haifa compared
 - [Hiking in Israel](/hiking-in-israel) — trails accessible from Galilee and Negev accommodation bases
 - [Car rental in Israel](/car-rental-israel) — essential for reaching kibbutzim and zimmers
 - [Israel Shabbat calendar](/israel-shabbat-calendar) — Friday sunset times for accommodation planning
