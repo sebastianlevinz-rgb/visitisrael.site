@@ -2178,3 +2178,18 @@ Ship: commit ba986bc, pushed to master.
 Prod: CI GitHub Actions pre-existing failure (cloud env runner, 3-sec job, runner_id=0,
   30+ iterations) — not a regression. Vercel deploy inferred green per pattern.
 Next: iter 114 = REVIEW (114%5==4).
+
+## 2026-06-27 · iter 114 · REVIEW · SEO meta + dead-link audit (caesarea-guide / tel-aviv-light-rail / car-rental-quiz)
+What: Audited the 3 most recently shipped pages (iter111 Caesarea, iter112 Light Rail, iter113 car quiz).
+  Found: (1) /israel-esim dead link in tel-aviv-light-rail.md cross-links section (eSIM guide is
+  in BACKLOG as /israel-esim-sim-card but not yet built — link was forward-written prematurely);
+  (2) all 3 meta descriptions exceeded 160 chars: light-rail 182→149, caesarea 174→147, quiz 192→140.
+  No H1-in-body violations, no schema issues, no honesty concerns. Caesarea sub-destination links
+  (/caesarea/national-park, /aqueduct-beach, /ralli-museum, /harbour) all verified correct.
+  Affiliate links all via affiliates.ts helpers, rel=nofollow on externals, no fabricated data.
+Fix: one branch auto/review-seo-meta-deadlink — 4 line edits across 3 files; squash-merged.
+Gate: pnpm check 0 errors; build 228 pages; 257/257 e2e pass. GREEN.
+Ship: commit 1869b1a, pushed to master.
+Prod: CI GitHub Actions pre-existing failure (cloud env runner, 2-sec job, runner_id=0,
+  30+ iterations) — not a regression. Vercel deploy inferred green per pattern.
+Next: iter 115 = RESEARCH.
