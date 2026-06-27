@@ -1,6 +1,6 @@
 ---
 title: 'Tel Aviv Light Rail (Red Line) Tourist Guide 2026'
-description: 'How to use the Tel Aviv Red Line light rail: key tourist stations, ticketing, Rav-Kav cards, airport connection, Shabbat and what to expect on the first metro-style rail in Israel.'
+description: 'How to use the Tel Aviv Red Line light rail: key tourist stations, ticketing, Rav-Kav cards, airport connection, Shabbat schedule and practical tips.'
 heroImage: /images/regions/tel-aviv/hero.jpg
 category: Transport
 updatedAt: 2026-06-27
@@ -163,4 +163,4 @@ The Red Line works best as part of a multi-modal approach across Tel Aviv:
 
 ---
 
-**Cross-links:** [Ben Gurion Airport Guide](/ben-gurion-airport-guide) · [Transportation in Israel](/transportation) · [Israel eSIM Guide](/israel-esim) · [Israel Travel Apps](/israel-travel-apps) · [Shabbat Guide](/shabbat-guide) · [Day trips from Tel Aviv](/day-trips-from-tel-aviv) · [Things to do in Tel Aviv](/tel-aviv)
+**Cross-links:** [Ben Gurion Airport Guide](/ben-gurion-airport-guide) · [Transportation in Israel](/transportation) · [Israel Travel Apps](/israel-travel-apps) · [Shabbat Guide](/shabbat-guide) · [Day trips from Tel Aviv](/day-trips-from-tel-aviv) · [Things to do in Tel Aviv](/tel-aviv)

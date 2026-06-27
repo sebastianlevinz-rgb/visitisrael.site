@@ -1,6 +1,6 @@
 ---
 title: 'Caesarea Israel: Complete Day Trip Guide (2026)'
-description: 'Everything for a Caesarea day trip: Roman Theatre, Herodian harbour, Crusader walls, Aqueduct Beach, Ralli Museum, where to eat, and how to get there from Tel Aviv or Haifa.'
+description: 'Caesarea day trip guide: Roman Theatre, Herodian harbour, Crusader walls, Aqueduct Beach, Ralli Museum and how to get there from Tel Aviv or Haifa.'
 heroImage: /images/regions/caesarea/hero.jpg
 category: Destinations
 updatedAt: 2026-06-27
