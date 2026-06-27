@@ -183,3 +183,10 @@
   descriptions (>160 chars) in i18n Batch 10 files. EN files (jaffa + solo-female) audited clean.
   Keyword clusters preserved. Gate: 0 errors, 254 pages, 307/307 tests. Value: SERP display
   no longer truncates FR/DE titles in Google.
+
+## iter 131 · BUILD/monetization · verdict-boxes-expansion (714a9eb)
+- Added verdictName + verdictQuery to 6 guides: Caesarea, Akko (Acre), Christian pilgrimage
+  Holy Land, Eilat diving/snorkeling, Israel cruise shore excursions, best-tours-in-Israel.
+  TourVerdict CTA ("Is a guided tour of X worth it? ✓ Worth it" → GetYourGuide affiliate)
+  now renders on 20 pages (was 14). 12-line frontmatter-only diff; no component changes.
+  Value: broadened conversion surface on high-intent attraction and activity guides.

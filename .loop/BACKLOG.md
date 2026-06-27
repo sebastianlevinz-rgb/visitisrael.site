@@ -28,6 +28,7 @@ bounded, gated BUILD item. Full architecture + honesty rules + progress tracker 
 - [SHIPPED iter71] Masada tours compared + Galilee tours compared → 452e7f8
 - [SHIPPED iter76] Petra tours compared (/petra-tours-compared) → 83e219d
 - [SHIPPED iter62] "Is the tour worth it?" verdict boxes (TourVerdict component) — adeddfa — all 63 attractions + 6 tour guide pages
+- [SHIPPED iter131] TourVerdict expansion — added verdictName+verdictQuery to 6 more guide pages: Caesarea, Akko, Christian-pilgrimage, Eilat-diving, cruise-shore-excursions, best-tours-in-israel → 714a9eb. 20 pages total now carry the verdict CTA (was 14).
 - [SHIPPED iter81] TicketBlock component — tickets & entry info on 9 top attractions → 1addc81
 - [SHIPPED iter66] Deepen travel-insurance + car-rental pages with plan-tier/comparison tables → b4b904a
 - [SHIPPED iter101] Eilat tours compared money page (/eilat-tours-compared) → 5f3a2f8

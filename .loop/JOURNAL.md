@@ -2492,3 +2492,17 @@ Found 5 net-new items added to BACKLOG (originally 7 candidates; 2 de-duped):
 De-duped: tel-aviv-vs-jerusalem.md EXISTS as pre-loop content; Skyfield adventure park (Jaffa Bloomfield
   Stadium rooftop, opened 2026) already captured in "Israel travel 2026" backlog item (iter85).
 No code changes; no gate run; no ship. Memory-only iteration.
+
+## 2026-06-27 · iter 131 · BUILD/monetization · verdict-boxes-expansion
+What: Added verdictName + verdictQuery frontmatter fields to 6 high-conversion EN guides that
+  lacked the TourVerdict CTA: caesarea-guide, akko-acre-guide, christian-pilgrimage-holy-land,
+  eilat-diving-snorkeling, cruise-shore-excursions-israel, best-tours-in-israel.
+  Component (TourVerdict.astro) and schema (verdictName/verdictQuery z.string().optional()) were
+  already in place. 20 pages now carry the "Is a guided tour worth it? ✓ Worth it" affiliate CTA
+  linking to GetYourGuide searches (was 14 pages). Minimal diff: 12 lines total.
+Gate: pnpm check 0 errors; pnpm build 254 pages (unchanged); 307/307 e2e+a11y pass.
+Ship: squash-merged to master SHA 714a9eb, pushed origin.
+Prod: GitHub Actions CI showed failure on this commit, but same failure existed on commits 958ba0c
+  and 4395f93 (pre-existing; not a regression). Local gate fully green. No revert done.
+  Note for human: CI has been persistently failing for ≥3 iterations — may need investigation.
+Next: iter 132 = BUILD/seo-content; i18n batch 11 is due per interleave rule.
