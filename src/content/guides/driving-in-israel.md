@@ -111,6 +111,8 @@ Road 90 along the Jordan Valley offers dramatic scenery between the [Dead Sea](/
 
 ## Before you drive
 
+Not sure yet whether you need a car at all? Take the quick [Should I rent a car in Israel? quiz](/israel-car-rental-quiz) for a personalised answer based on your itinerary.
+
 Make sure you have sorted:
 
 - **[Car rental](/car-rental-israel)** — compare companies and pick up timing so you avoid Shabbat office closures

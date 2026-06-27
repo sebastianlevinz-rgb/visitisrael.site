@@ -467,3 +467,75 @@ test.describe('Israel National Parks Pass Calculator', () => {
     await expect(caveat).toContainText(/Masada cable car/);
   });
 });
+
+test.describe('Car rental decision quiz', () => {
+  async function fillQuiz(
+    page: import('@playwright/test').Page,
+    opts: {
+      base: string;
+      negev: string;
+      golan: string;
+      shabbat: string;
+      comfort: string;
+      group: string;
+    }
+  ) {
+    await page.locator(`input[name="base"][value="${opts.base}"]`).check({ force: true });
+    await page.locator(`input[name="negev"][value="${opts.negev}"]`).check({ force: true });
+    await page.locator(`input[name="golan"][value="${opts.golan}"]`).check({ force: true });
+    await page.locator(`input[name="shabbat"][value="${opts.shabbat}"]`).check({ force: true });
+    await page.locator(`input[name="comfort"][value="${opts.comfort}"]`).check({ force: true });
+    await page.locator(`input[name="group"][value="${opts.group}"]`).check({ force: true });
+    await page.locator('#quiz-submit').click();
+  }
+
+  test('negev=yes + confident driving → YES recommendation', async ({ page }) => {
+    await page.goto('/israel-car-rental-quiz');
+    await fillQuiz(page, { base: 'touring', negev: 'yes', golan: 'no', shabbat: 'yes', comfort: 'yes', group: '2' });
+    await expect(page.locator('#quiz-result')).toBeVisible();
+    await expect(page.locator('#result-verdict')).toContainText(/YES/i);
+    // Result bullets should mention Negev/Eilat.
+    await expect(page.locator('#result-bullets')).toContainText(/Negev/i);
+    // Car rental CTA link should be present in results.
+    await expect(page.locator('#result-links a[href="/car-rental-israel"]')).toBeVisible();
+  });
+
+  test('Tel Aviv only, not comfortable driving → NO recommendation', async ({ page }) => {
+    await page.goto('/israel-car-rental-quiz');
+    await fillQuiz(page, { base: 'tlv_only', negev: 'no', golan: 'no', shabbat: 'no', comfort: 'no', group: '1' });
+    await expect(page.locator('#quiz-result')).toBeVisible();
+    await expect(page.locator('#result-verdict')).toContainText(/NO/i);
+    // Transport guide link in results.
+    await expect(page.locator('#result-links a[href="/transportation"]')).toBeVisible();
+  });
+
+  test('multiple cities, group of 3 → YES or PROBABLY YES', async ({ page }) => {
+    await page.goto('/israel-car-rental-quiz');
+    await fillQuiz(page, { base: 'multiple', negev: 'no', golan: 'no', shabbat: 'yes', comfort: 'yes', group: '3plus' });
+    await expect(page.locator('#quiz-result')).toBeVisible();
+    await expect(page.locator('#result-verdict')).toContainText(/YES/i);
+    // Group bullet should mention cost-sharing.
+    await expect(page.locator('#result-bullets')).toContainText(/3 or more/i);
+  });
+
+  test('shows validation error when not all questions answered', async ({ page }) => {
+    await page.goto('/israel-car-rental-quiz');
+    // Only answer two questions then submit.
+    await page.locator('input[name="base"][value="jlm_only"]').check({ force: true });
+    await page.locator('input[name="negev"][value="no"]').check({ force: true });
+    await page.locator('#quiz-submit').click();
+    await expect(page.locator('#quiz-error')).toBeVisible();
+    await expect(page.locator('#quiz-result')).not.toBeVisible();
+  });
+
+  test('start over resets quiz and hides result', async ({ page }) => {
+    await page.goto('/israel-car-rental-quiz');
+    await fillQuiz(page, { base: 'touring', negev: 'yes', golan: 'yes', shabbat: 'yes', comfort: 'yes', group: '2' });
+    await expect(page.locator('#quiz-result')).toBeVisible();
+    await page.locator('#quiz-reset').click();
+    await expect(page.locator('#quiz-result')).not.toBeVisible();
+    // All radios should be unchecked.
+    const checkedCount = await page.locator('#quiz input[type="radio"]:checked').count();
+    expect(checkedCount).toBe(0);
+  });
+});

@@ -45,6 +45,8 @@ Israel is small and the trains are excellent between the main cities — so you 
 
 **Rent a car for** the [Galilee](/galilee), [Golan Heights](/golan) and [Negev](/negev), where sights like wineries, viewpoints and the Makhtesh Ramon crater are scattered and transit is sparse. A common strategy: do the cities by train, then rent for two or three days in the north or south.
 
+Not sure if your specific itinerary needs one? Try the [Should I rent a car in Israel? quiz](/israel-car-rental-quiz) — answer six questions about your cities, nature sites and Shabbat plans and get a personalised recommendation.
+
 ## Which vehicle type?
 
 Choose a category based on your itinerary. All rates are indicative ranges only — always compare live prices, as availability and season move them significantly.

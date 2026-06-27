@@ -1,0 +1,434 @@
+---
+import BaseLayout from '@/layouts/BaseLayout.astro';
+import Hero from '@/components/Hero.astro';
+import Breadcrumbs from '@/components/Breadcrumbs.astro';
+import JsonLd from '@/components/JsonLd.astro';
+import { breadcrumbList, faqPage } from '@/lib/schema';
+import { affiliateUrl } from '@/config/affiliates';
+
+const title = 'Should I Rent a Car in Israel? — Decision Quiz (2026)';
+const description =
+  'Answer 6 quick questions and get a personalised recommendation: do you need a car in Israel, public transport, or a mix? Covers cities, Negev, Golan, Shabbat, group size and driving comfort.';
+
+const crumbs = [
+  { name: 'Home', path: '/' },
+  { name: 'Plan your trip', path: '/plan-your-trip' },
+  { name: 'Car rental quiz', path: '/israel-car-rental-quiz' },
+];
+
+const rentalUrl = affiliateUrl('rentalcars', { destination: 'Tel Aviv' });
+const discoverUrl = affiliateUrl('discovercars');
+
+const faqs = [
+  {
+    question: 'Do I need a car in Israel?',
+    answer:
+      'It depends on your itinerary. If you are staying in Jerusalem and Tel Aviv only, buses, trains and sheruts work well and a car adds parking headaches. But the Negev, Mitzpe Ramon, Golan Heights and many Galilee nature reserves are car-only — and on Shabbat, when intercity buses stop, a rental car keeps you mobile.',
+  },
+  {
+    question: 'Can I drive in the West Bank with an Israeli rental car?',
+    answer:
+      'Most Israeli rental contracts prohibit driving in Palestinian Authority Area A. Some allow Area C. Read your rental agreement carefully — violations can void your insurance. Our full car rental guide has a section on West Bank restrictions.',
+  },
+  {
+    question: 'Is driving in Israel difficult for tourists?',
+    answer:
+      'Main highways are modern and well signed in English. City driving in Tel Aviv and Jerusalem can be congested and parking is expensive. Israelis drive assertively, so be confident and use GPS navigation. An international driving licence is not required for most EU, US or Australian licence holders, but verify this with your rental company.',
+  },
+  {
+    question: 'What happens with rental cars on Shabbat?',
+    answer:
+      'Rental offices close Friday afternoon and reopen Saturday night, so you cannot pick up or drop off during Shabbat. Plan your rental dates to pick up before Friday afternoon or after Havdalah on Saturday night. Having the car during Shabbat is actually a major advantage — you can travel when buses cannot.',
+  },
+  {
+    question: 'How much does renting a car in Israel cost?',
+    answer:
+      'Compact cars typically run USD 40–90 per day including basic insurance. Mandatory Israeli insurance surcharges apply on top. Prices vary considerably between companies — compare on DiscoverCars or Rentalcars to find the best deal for your dates.',
+  },
+];
+
+const schema = [breadcrumbList(crumbs), faqPage(faqs)];
+---
+
+<BaseLayout
+  title={title}
+  description={description}
+  path="/israel-car-rental-quiz"
+  image="/images/regions/negev/hero.jpg"
+  imageAlt="Open road through the Negev desert, Israel"
+>
+  <JsonLd schema={schema} slot="head" />
+  <Hero
+    image="/images/regions/negev/hero.jpg"
+    title="Should I Rent a Car in Israel?"
+    subtitle="Answer 6 quick questions and get a personalised recommendation for your itinerary."
+    alt="Desert highway through the Negev, Israel"
+  />
+  <Breadcrumbs items={crumbs} />
+
+  <section class="mx-auto max-w-3xl px-4 pt-10">
+    <p class="eyebrow" data-reveal>Quiz</p>
+    <h2 class="font-display text-3xl font-bold text-ink" data-reveal>
+      Do you need a rental car?
+    </h2>
+    <p class="mt-2 max-w-2xl text-ink-muted" data-reveal>
+      Answer all six questions below, then tap <em>Get my recommendation</em>. The result is
+      based on your specific cities, nature sites and travel style — not a generic answer.
+    </p>
+
+    <form id="quiz" class="mt-8 space-y-6" aria-label="Car rental decision quiz" novalidate>
+
+      <!-- Q1: Base cities -->
+      <fieldset class="rounded-card border border-border bg-card p-5 shadow-card">
+        <legend class="font-semibold text-ink">
+          1 of 6 &nbsp;·&nbsp; Where are you mainly basing yourself?
+        </legend>
+        <div class="mt-3 space-y-2">
+          {[
+            { value: 'jlm_only', label: 'Jerusalem only' },
+            { value: 'tlv_only', label: 'Tel Aviv only' },
+            { value: 'both', label: 'Both Jerusalem and Tel Aviv' },
+            { value: 'multiple', label: 'Multiple cities (e.g. also Haifa or Tiberias)' },
+            { value: 'touring', label: 'Road-tripping / no fixed base' },
+          ].map((opt) => (
+            <label class="flex cursor-pointer items-center gap-3 rounded-btn border border-transparent px-3 py-2 text-ink hover:border-primary hover:bg-sand has-[:checked]:border-primary has-[:checked]:bg-sand">
+              <input
+                type="radio"
+                name="base"
+                value={opt.value}
+                class="h-4 w-4 accent-primary focus-visible:outline-offset-2"
+              />
+              <span>{opt.label}</span>
+            </label>
+          ))}
+        </div>
+      </fieldset>
+
+      <!-- Q2: Negev / Eilat -->
+      <fieldset class="rounded-card border border-border bg-card p-5 shadow-card">
+        <legend class="font-semibold text-ink">
+          2 of 6 &nbsp;·&nbsp; Are you planning to visit the Negev desert, Mitzpe Ramon or Eilat?
+        </legend>
+        <div class="mt-3 flex flex-wrap gap-3">
+          {[
+            { value: 'yes', label: 'Yes' },
+            { value: 'no', label: 'No' },
+          ].map((opt) => (
+            <label class="flex cursor-pointer items-center gap-2 rounded-btn border border-transparent px-4 py-2 text-ink hover:border-primary hover:bg-sand has-[:checked]:border-primary has-[:checked]:bg-sand">
+              <input
+                type="radio"
+                name="negev"
+                value={opt.value}
+                class="h-4 w-4 accent-primary focus-visible:outline-offset-2"
+              />
+              <span>{opt.label}</span>
+            </label>
+          ))}
+        </div>
+      </fieldset>
+
+      <!-- Q3: Golan / North -->
+      <fieldset class="rounded-card border border-border bg-card p-5 shadow-card">
+        <legend class="font-semibold text-ink">
+          3 of 6 &nbsp;·&nbsp; Are you planning to visit the Golan Heights or northern nature sites (Banias, Nahal Ayun, Upper Galilee trails)?
+        </legend>
+        <div class="mt-3 flex flex-wrap gap-3">
+          {[
+            { value: 'yes', label: 'Yes' },
+            { value: 'no', label: 'No' },
+          ].map((opt) => (
+            <label class="flex cursor-pointer items-center gap-2 rounded-btn border border-transparent px-4 py-2 text-ink hover:border-primary hover:bg-sand has-[:checked]:border-primary has-[:checked]:bg-sand">
+              <input
+                type="radio"
+                name="golan"
+                value={opt.value}
+                class="h-4 w-4 accent-primary focus-visible:outline-offset-2"
+              />
+              <span>{opt.label}</span>
+            </label>
+          ))}
+        </div>
+      </fieldset>
+
+      <!-- Q4: Shabbat -->
+      <fieldset class="rounded-card border border-border bg-card p-5 shadow-card">
+        <legend class="font-semibold text-ink">
+          4 of 6 &nbsp;·&nbsp; Does your trip include at least one Shabbat (Friday evening to Saturday night)?
+        </legend>
+        <div class="mt-3 flex flex-wrap gap-3">
+          {[
+            { value: 'yes', label: 'Yes' },
+            { value: 'no', label: 'No' },
+          ].map((opt) => (
+            <label class="flex cursor-pointer items-center gap-2 rounded-btn border border-transparent px-4 py-2 text-ink hover:border-primary hover:bg-sand has-[:checked]:border-primary has-[:checked]:bg-sand">
+              <input
+                type="radio"
+                name="shabbat"
+                value={opt.value}
+                class="h-4 w-4 accent-primary focus-visible:outline-offset-2"
+              />
+              <span>{opt.label}</span>
+            </label>
+          ))}
+        </div>
+      </fieldset>
+
+      <!-- Q5: Driving comfort -->
+      <fieldset class="rounded-card border border-border bg-card p-5 shadow-card">
+        <legend class="font-semibold text-ink">
+          5 of 6 &nbsp;·&nbsp; How comfortable are you driving in a foreign country?
+        </legend>
+        <div class="mt-3 space-y-2">
+          {[
+            { value: 'yes', label: 'Confident — I have driven abroad before' },
+            { value: 'unsure', label: 'Slightly nervous, but open to trying it' },
+            { value: 'no', label: 'Not comfortable — I would rather not drive' },
+          ].map((opt) => (
+            <label class="flex cursor-pointer items-center gap-3 rounded-btn border border-transparent px-3 py-2 text-ink hover:border-primary hover:bg-sand has-[:checked]:border-primary has-[:checked]:bg-sand">
+              <input
+                type="radio"
+                name="comfort"
+                value={opt.value}
+                class="h-4 w-4 accent-primary focus-visible:outline-offset-2"
+              />
+              <span>{opt.label}</span>
+            </label>
+          ))}
+        </div>
+      </fieldset>
+
+      <!-- Q6: Group size -->
+      <fieldset class="rounded-card border border-border bg-card p-5 shadow-card">
+        <legend class="font-semibold text-ink">
+          6 of 6 &nbsp;·&nbsp; How many adults are travelling together?
+        </legend>
+        <div class="mt-3 flex flex-wrap gap-3">
+          {[
+            { value: '1', label: '1 (solo)' },
+            { value: '2', label: '2 (couple or friends)' },
+            { value: '3plus', label: '3 or more' },
+          ].map((opt) => (
+            <label class="flex cursor-pointer items-center gap-2 rounded-btn border border-transparent px-4 py-2 text-ink hover:border-primary hover:bg-sand has-[:checked]:border-primary has-[:checked]:bg-sand">
+              <input
+                type="radio"
+                name="group"
+                value={opt.value}
+                class="h-4 w-4 accent-primary focus-visible:outline-offset-2"
+              />
+              <span>{opt.label}</span>
+            </label>
+          ))}
+        </div>
+      </fieldset>
+
+      <div id="quiz-error" class="hidden rounded-btn bg-red-50 px-4 py-3 text-sm text-red-700" role="alert" aria-live="polite">
+        Please answer all six questions before getting your recommendation.
+      </div>
+
+      <button type="button" id="quiz-submit" class="btn btn-primary">
+        Get my recommendation
+      </button>
+    </form>
+
+    <!-- Result panel -->
+    <div
+      id="quiz-result"
+      class="mt-8 hidden rounded-card border p-6 shadow-card"
+      aria-live="polite"
+      aria-atomic="true"
+    >
+      <p class="eyebrow">Our recommendation</p>
+      <h2 id="result-verdict" class="mt-1 font-display text-2xl font-bold text-ink"></h2>
+      <ul id="result-bullets" class="mt-4 list-inside list-disc space-y-2 text-ink-muted"></ul>
+      <div id="result-links" class="mt-6 flex flex-wrap gap-3"></div>
+      <button type="button" id="quiz-reset" class="mt-5 text-sm text-ink-muted underline hover:text-ink">
+        Start over
+      </button>
+    </div>
+
+    <!-- Cross-links -->
+    <div class="mt-10">
+      <h2 class="font-display text-xl font-bold text-ink">Related guides</h2>
+      <ul class="mt-3 flex flex-wrap gap-2.5">
+        {[
+          { href: '/car-rental-israel', label: 'Car rental in Israel guide' },
+          { href: '/driving-in-israel', label: 'Driving in Israel' },
+          { href: '/transportation', label: 'Israel transport overview' },
+          { href: '/rav-kav-israel', label: 'Rav-Kav card guide' },
+          { href: '/israel-travel-time', label: 'Travel time calculator' },
+        ].map((l) => (
+          <li>
+            <a
+              href={l.href}
+              class="inline-block rounded-full border border-border bg-card px-4 py-2 text-sm font-semibold text-ink no-underline transition-colors hover:border-primary hover:text-primary"
+            >
+              {l.label}
+            </a>
+          </li>
+        ))}
+      </ul>
+    </div>
+  </section>
+
+  <!-- FAQs -->
+  <section class="mx-auto max-w-3xl px-4 pb-4 pt-14">
+    <h2 class="mb-4 font-display text-2xl font-bold text-ink">Frequently asked questions</h2>
+    <div class="space-y-4">
+      {
+        faqs.map((f) => (
+          <details class="rounded-card border border-border bg-card p-4">
+            <summary class="cursor-pointer font-semibold text-ink">{f.question}</summary>
+            <p class="mt-2 text-ink-muted">{f.answer}</p>
+          </details>
+        ))
+      }
+    </div>
+  </section>
+
+  <!-- Bottom CTA -->
+  <section class="mx-auto max-w-3xl px-4 pb-16 pt-6">
+    <div class="rounded-card border border-border bg-sand-deep p-6 text-center shadow-card">
+      <h2 class="font-display text-2xl font-bold text-ink">Decided to rent?</h2>
+      <p class="mx-auto mt-2 max-w-xl text-ink-muted">
+        Our full car rental guide covers picking up at Ben Gurion Airport, insurance, Shabbat
+        timing, West Bank restrictions and one-way returns.
+      </p>
+      <div class="mt-5 flex flex-wrap justify-center gap-3">
+        <a href="/car-rental-israel" class="btn btn-primary">Read the car rental guide</a>
+        <a
+          href={discoverUrl}
+          target="_blank"
+          rel="noopener noreferrer nofollow"
+          class="btn btn-ghost"
+        >Compare car prices</a>
+      </div>
+    </div>
+  </section>
+
+  <script is:inline define:vars={{ rentalUrl, discoverUrl }}>
+    (function () {
+      var $ = function (id) { return document.getElementById(id); };
+
+      function val(name) {
+        var el = document.querySelector('input[name="' + name + '"]:checked');
+        return el ? el.value : null;
+      }
+
+      $('quiz-submit').addEventListener('click', function () {
+        var base    = val('base');
+        var negev   = val('negev');
+        var golan   = val('golan');
+        var shabbat = val('shabbat');
+        var comfort = val('comfort');
+        var group   = val('group');
+
+        if (!base || !negev || !golan || !shabbat || !comfort || !group) {
+          $('quiz-error').classList.remove('hidden');
+          return;
+        }
+        $('quiz-error').classList.add('hidden');
+
+        var score = 0;
+        if (base === 'jlm_only' || base === 'tlv_only') score -= 2;
+        else if (base === 'multiple') score += 1;
+        else if (base === 'touring')  score += 2;
+
+        if (negev   === 'yes') score += 4;
+        if (golan   === 'yes') score += 3;
+        if (shabbat === 'yes') score += 1;
+        if (comfort === 'no')    score -= 4;
+        else if (comfort === 'unsure') score -= 1;
+        if (group   === '3plus') score += 1;
+
+        var bullets = [];
+        if (negev === 'yes')
+          bullets.push('The Negev and Eilat region has minimal public transport — a car is the only practical way to explore freely.');
+        if (golan === 'yes')
+          bullets.push('Golan Heights waterfalls, reserves and scenic roads are car-only; no regular buses serve these routes.');
+        if (shabbat === 'yes' && score > 0)
+          bullets.push('On Shabbat, intercity buses stop entirely — your rental car keeps you fully mobile.');
+        if (group === '3plus')
+          bullets.push('With 3 or more adults sharing the cost, a rental is often cheaper per person than intercity taxis or tour transfers.');
+        if (base === 'jlm_only' || base === 'tlv_only')
+          bullets.push('In Jerusalem and Tel Aviv a car adds congestion and expensive parking with little benefit — buses, trains and sheruts work well.');
+        if (comfort === 'no')
+          bullets.push("If you prefer not to drive abroad, Israel's intercity buses and guided tours are a stress-free alternative.");
+        if (comfort === 'unsure')
+          bullets.push('If you are slightly nervous about driving, consider a short rental for just the Negev or Galilee leg where public transport is sparse.');
+        if (bullets.length === 0)
+          bullets.push('Your answers suggest a balanced trip — the recommendation above gives you the most flexibility for your plans.');
+
+        var verdict, extraClass, links;
+        if (score >= 5) {
+          verdict = 'YES — a rental car is strongly recommended';
+          extraClass = 'border-green-200 bg-green-50';
+          links = [
+            { href: '/car-rental-israel', label: 'Car rental guide for Israel', primary: true },
+            { href: discoverUrl, label: 'Compare prices on DiscoverCars', primary: false, ext: true },
+            { href: rentalUrl,   label: 'Search Rentalcars',               primary: false, ext: true },
+          ];
+        } else if (score >= 2) {
+          verdict = 'PROBABLY YES — a car is worth considering for your itinerary';
+          extraClass = 'border-blue-200 bg-blue-50';
+          links = [
+            { href: '/car-rental-israel', label: 'Car rental tips for Israel', primary: true },
+            { href: discoverUrl,           label: 'Compare car prices',         primary: false, ext: true },
+            { href: '/transportation',     label: 'Israel transport guide',     primary: false },
+          ];
+        } else if (score >= 0) {
+          verdict = 'SPLIT — consider renting a car for specific legs outside the main cities';
+          extraClass = 'border-amber-200 bg-amber-50';
+          links = [
+            { href: '/car-rental-israel', label: 'Car rental guide (for that leg)', primary: true },
+            { href: '/transportation',    label: 'Israel transport guide',          primary: false },
+            { href: '/rav-kav-israel',    label: 'Rav-Kav card guide',             primary: false },
+          ];
+        } else {
+          verdict = 'NO — public transport covers your trip well';
+          extraClass = 'border-border bg-sand-deep';
+          bullets.unshift("Israel's cities are well connected by train and bus; a Rav-Kav transit card covers buses, trains and the Tel Aviv Light Rail.");
+          links = [
+            { href: '/transportation',       label: 'Israel transport guide',   primary: true  },
+            { href: '/rav-kav-israel',       label: 'Rav-Kav card guide',       primary: false },
+            { href: '/israel-travel-time',   label: 'Travel time calculator',   primary: false },
+          ];
+        }
+
+        var res = $('quiz-result');
+        res.className = 'mt-8 rounded-card border p-6 shadow-card ' + extraClass;
+
+        $('result-verdict').textContent = verdict;
+
+        var ul = $('result-bullets');
+        ul.innerHTML = '';
+        bullets.forEach(function (b) {
+          var li = document.createElement('li');
+          li.textContent = b;
+          ul.appendChild(li);
+        });
+
+        var linksEl = $('result-links');
+        linksEl.innerHTML = '';
+        links.forEach(function (l) {
+          var a = document.createElement('a');
+          a.href = l.href;
+          a.textContent = l.label;
+          a.className = 'btn ' + (l.primary ? 'btn-primary' : 'btn-ghost');
+          if (l.ext) { a.target = '_blank'; a.rel = 'noopener noreferrer nofollow'; }
+          linksEl.appendChild(a);
+        });
+
+        res.classList.remove('hidden');
+        res.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+      });
+
+      $('quiz-reset').addEventListener('click', function () {
+        document.querySelectorAll('#quiz input[type="radio"]').forEach(function (el) {
+          el.checked = false;
+        });
+        $('quiz-result').classList.add('hidden');
+        $('quiz').scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+      });
+    })();
+  </script>
+</BaseLayout>
