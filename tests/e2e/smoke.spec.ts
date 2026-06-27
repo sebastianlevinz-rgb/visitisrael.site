@@ -56,6 +56,7 @@ const ROUTES = [
   '/car-rental-israel',
   '/water-hiking-israel',
   '/akko-acre-guide',
+  '/caesarea-guide',
   '/safed-tzfat-guide',
   '/nazareth-travel-guide',
   '/dead-sea-guide',

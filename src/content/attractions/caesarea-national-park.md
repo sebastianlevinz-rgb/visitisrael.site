@@ -87,7 +87,7 @@ The **Time Trek** multimedia experience is a 20-minute walk-through inside the C
 
 ## Tours of Caesarea National Park
 
-Self-guided with the audio guide works for most visitors. Guided tours (90 to 120 minutes with a licensed Israeli guide) are available on a small-group basis through Civitatis and several Tel Aviv-based operators; these add archaeological-historical narrative depth and identify the less-obvious features. Combined Caesarea + Haifa + Akko day tours from Tel Aviv are also common — see the Caesarea regional guide for the full day-tour overview.
+Self-guided with the audio guide works for most visitors. Guided tours (90 to 120 minutes with a licensed Israeli guide) are available on a small-group basis through Civitatis and several Tel Aviv-based operators; these add archaeological-historical narrative depth and identify the less-obvious features. Combined Caesarea + Haifa + Akko day tours from Tel Aviv are also common — see the [Caesarea day-trip guide](/caesarea-guide) for the full visit overview, combination options and practical logistics.
 
 ## Nearby Attractions
 
