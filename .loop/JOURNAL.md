@@ -2377,3 +2377,18 @@ Gate: pnpm check 0 errors · pnpm build 246 pages · pnpm test:e2e 293/293 pass.
 Ship: commit 9c3a95e, pushed to master (6 files, 12 insertions/12 deletions).
 Prod: GitHub CI pre-existing 3-second failure (runner/billing issue, 30+ iters) — not a regression.
 Next: iter 125 = RESEARCH (125%5==0).
+
+## 2026-06-27 · iter 125 · RESEARCH · competitor scan + 6 new backlog items
+What: Research pass covering 8 topic areas not well-represented on site: birdwatching, UNESCO hub,
+  Jerusalem neighborhoods, Tel Aviv street art, travel phrases, Wadi Rum day trip, plus 2 considered
+  but de-duped (craft beer iter70, glamping iter60). Used WebSearch across Tourist Israel, Lonely Planet,
+  Culture Trip, Time Out, Frommers, Atlas Obscura, Israel21c, SPNI to validate demand and confirm gaps.
+Added 6 curated items to BACKLOG:
+  - [P2 seo-content M] Israel birdwatching guide (/birdwatching-israel) — Eilat Bird Festival + Hula cranes
+  - [P2 seo-content M] Israel UNESCO World Heritage Sites hub (/israel-unesco-sites) — 9 WHS aggregator
+  - [P2 seo-content M] Jerusalem neighborhoods guide (/jerusalem-neighborhoods) — 4 quarters + modern districts
+  - [P2 seo-content S] Tel Aviv street art & Florentin (/tel-aviv-street-art) — mural scene, social sharing
+  - [P3 seo-content S] Israel travel phrases (/israel-travel-phrases) — Hebrew + Arabic phrasebook
+  - [P3 seo-content S] Wadi Rum from Eilat (/wadi-rum-from-eilat) — Jordan red desert UNESCO, distinct from existing Jordan guides
+Ship: no ship (RESEARCH mode).
+Next: iter 126 = BUILD/monetization (126%5==1).

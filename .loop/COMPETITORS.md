@@ -1809,3 +1809,48 @@ CAUTION (iter 120):
   Sinai tourist corridor ONLY.
 - "1 day Jerusalem": Temple Mount access for non-Muslims = volatile, regulated by Waqf; never promise access in
   any guide text. Kotel Tunnels = advance booking essential at peak times.
+
+### 2026-06-27 · iter 125 · birdwatching + UNESCO hub + Jerusalem neighborhoods + Tel Aviv street art + travel phrases + Wadi Rum scan
+
+6 net-new curated items added to BACKLOG. Research covered 8 topic areas; de-duped against existing 
+DONE items and backlog. All 6 items confirmed absent from existing content and backlog before adding.
+
+- **Israel birdwatching** — Israel is one of the world's premier birdwatching destinations due to its 
+  position on the Africa-Eurasia flyway; 500+ species recorded. Key events: Eilat Bird Festival (March 
+  22-26), Hula Valley crane migration (November, 30,000+ cranes). Competitors covering this: Haaretz, 
+  Times of Israel, Israel21c, SPNI (Society for Protection of Nature in Israel). No major travel site 
+  has a dedicated birdwatching guide. High-intent niche with passionate audience (birders book trips 
+  specifically around sightings). Monetization: guided birding tours on GYG/Viator. → P2 seo-content M.
+
+- **Israel UNESCO World Heritage Sites hub** — Israel has 9 UNESCO WHS (Masada, White City TLV, Old 
+  City Acre, Bahá'í Haifa+Akko, Incense Route-Negev, Beit She'arim, Maresha/Beit Guvrin, Carmel Caves, 
+  Biblical Tels). Competitors: Tourist Israel, Frommers, Lonely Planet each list some but none aggregate 
+  all 9 with a dedicated hub. UNESCO designation is a high-intent search signal and evergreen. A hub page 
+  linking to each site's regional page would boost internal linking significantly. → P2 seo-content M.
+
+- **Jerusalem neighborhoods/quarters guide** — Competitors (Lonely Planet, Frommers, Culture Trip, 
+  Time Out Jerusalem) all have dedicated neighborhood guides covering the 4 Old City quarters + modern 
+  districts (German Colony, Yemin Moshe, Nachlaot, Ein Kerem, Talbiyeh, Mahane Yehuda area). Site has 
+  Jerusalem as a region page but no dedicated neighborhoods breakdown. High-intent searchers ("where to 
+  stay in Jerusalem by neighborhood", "Jerusalem German Colony") convert well to hotel CTAs. Distinct 
+  from the P1 TLV-neighborhoods bundle already in backlog. → P2 seo-content M.
+
+- **Tel Aviv street art & Florentin district** — Florentin neighborhood is internationally recognized 
+  mural scene; distinct from White City architecture and Bauhaus content. Competitors: Time Out TLV, 
+  Haaretz, Culture Trip, Atlas Obscura all have dedicated street art content. Zero street art content 
+  on site currently. Moderate search volume; strong image/social sharing potential. → P2 seo-content S.
+
+- **Israel travel phrases (Hebrew + Arabic phrasebook)** — Zero language content on site. Competitors: 
+  Tourist Israel, Frommers, Lonely Planet, TripAdvisor (traveler-contributed phrase lists) all have 
+  basic phrasebook content. Low effort S page with evergreen value; internal linking from pre-trip 
+  planning guides (packing, insurance, visa). Hebrew romanization must be carefully reviewed. → P3 seo-content S.
+
+- **Wadi Rum from Eilat day trip** — Wadi Rum is Jordan's UNESCO-listed red desert; accessible via 
+  Wadi Araba crossing from Eilat (2-3h from Eilat). Competitors: several petra-from-eilat guides mention 
+  Wadi Rum but none have a standalone guide. Distinct from existing petra-from-eilat-vs-amman and 
+  israel-jordan-itinerary guides. Rising search interest. Honesty note: border crossing requires proper 
+  Jordan visa; access situation may change — frame with evergreen caveats. → P3 seo-content S.
+
+De-duped against DONE: wine/TLV-vs-Jerusalem/Dead Sea/hiking all DONE. Against existing BACKLOG: 
+craft-beer (iter70), glamping (iter60), vegan guide (iter55), photography (iter30), beaches (iter5), 
+honeymoon (iter20) — all confirmed already in backlog. None of the 6 new items overlapped.
