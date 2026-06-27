@@ -2136,3 +2136,25 @@ Prod: CI GitHub Actions showing pre-existing failure on every commit for 30+ ite
   (cloud env; no runner available) — not a regression. Vercel deploy inferred green per
   prior-iteration pattern; Vercel status not directly checkable without gh CLI.
 Next: iter 112 = BUILD/seo-content.
+
+## 2026-06-27 · iter 112 · BUILD (seo-content) · Tel Aviv Light Rail (Red Line) tourist guide
+What: new /tel-aviv-light-rail guide. Fills critical gap: transportation.md had exactly 1 sentence
+  on light rail; ben-gurion-airport-guide mentions Arlozorov transfer but no tutorial. Israel's
+  first metro-style rail (opened 2023) is completely unfamiliar to tourists — no signage guide, no
+  ticketing walkthrough, no airport-connection how-to existed on the site.
+  Content: Red Line overview (24km, 34 stations, 10 underground, Bat Yam → Petah Tikva); key
+  tourist stations (Jaffa/HaKishon → flea market/port; Carlebach → city centre/Azrieli; Habima →
+  White City/Museum of Art; Arlozorov → intercity rail/airport interchange); ticketing (Rav-Kav
+  smart card, contactless bank card, Israel Railways app, 90-min transfer window); practical tips
+  (rush hours, a/c, English signage, accessibility); airport connection step-by-step (Red Line →
+  Arlozorov → intercity, ~20–25 min to Ben Gurion); Shabbat closure with alternatives; Purple/Green
+  Line outlook (Purple target 2026 — HONEST: not confirmed open as of June 2026). 3 affiliate CTAs:
+  Airalo eSIM (Moovit data angle), WelcomePickups (Shabbat transfer fallback), GYG walking tour.
+  6 FAQs. Footer: "Tel Aviv Light Rail" link added under Getting around section. transportation.md
+  updated with Red Line paragraph + /tel-aviv-light-rail link.
+  YAML fix: "Tel Aviv's" bare apostrophe in single-quoted FAQ answer → "Tel Aviv''s".
+Gate: pnpm check 0 errors; build 227 pages (+1); 251/251 e2e+a11y pass.
+Ship: commit 6f64790, pushed to master.
+Prod: CI GitHub Actions pre-existing failure (cloud env runner issue, 30+ iterations) — not a
+  regression; same failure on prior commit 58a7e395. Vercel deploy inferred green per pattern.
+Next: iter 113 = BUILD/tools.
