@@ -123,6 +123,12 @@ const ROUTES = [
   '/de/best-holy-land-tours',
   '/de/dead-sea-guide',
   '/de/israel-travel-insurance',
+  '/fr/christian-pilgrimage-holy-land',
+  '/de/christian-pilgrimage-holy-land',
+  '/fr/israel-national-parks-pass',
+  '/de/israel-national-parks-pass',
+  '/fr/driving-in-israel',
+  '/de/driving-in-israel',
   '/search',
 ];
 
