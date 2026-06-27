@@ -2252,3 +2252,21 @@ Ship: commit 2e71798, pushed to master.
 Prod: CI GitHub Actions 1-sec infra failure (runner_id=0, runner_name="") — pre-existing cloud env
   issue consistent across 30+ iterations; not a regression. Vercel deploy inferred green per pattern.
 Next: iter 118 = BUILD/tools.
+
+## 2026-06-27 · iter 118 · BUILD/tools · Israel golden hour & sunrise calculator (/israel-golden-hour)
+What: New vanilla-JS tool at /israel-golden-hour. 9 locations (Masada, Dead Sea, Jerusalem,
+  Eilat, Mitzpe Ramon, Haifa, Galilee/Tiberias, Tel Aviv, Caesarea) + any date input (2024–2030)
+  → 9-row table: nautical dawn (blue-hour start), civil dawn, sunrise, golden-hour end (+1h),
+  solar noon, golden-hour start (−1h), sunset, civil dusk (blue-hour end), Shabbat candlelighting
+  (18 min before sunset). Uses generalised solarTime(zenith, isRise) function extending the Jean
+  Meeus formula from israel-shabbat-calendar. Location-specific hiker/photographer tips shown for
+  each location (Masada Snake Path 90-min pre-sunrise rule, Dead Sea 20-30 min after sunrise,
+  Bahá'í Gardens 9am tour window, Mitzpe Ramon nautical dusk → Milky Way). 6 best-spots cards +
+  4 photography-timing DL sections. FAQPage + BreadcrumbList JSON-LD. i18n labels added en/fr/de.
+  Wired: plan-your-trip tools grid, footer. 5 Playwright tests in tools.spec.ts. Broken-link fix:
+  /negev/masada → /dead-sea/masada caught by links.spec.ts on first gate pass.
+Gate: pnpm check 0 errors · pnpm build 231 pages (+1 from 230) · pnpm test:e2e 264/264 pass. GREEN.
+Ship: commit f1cedb7, pushed to master.
+Prod: CI GitHub Actions 1-sec infra failure (runner_id=0) — pre-existing cloud env issue, 30+ iter
+  pattern. Vercel inferred green.
+Next: iter 119 = REVIEW mode.
