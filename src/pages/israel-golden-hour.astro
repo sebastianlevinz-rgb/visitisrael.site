@@ -5,9 +5,9 @@ import Breadcrumbs from '@/components/Breadcrumbs.astro';
 import JsonLd from '@/components/JsonLd.astro';
 import { breadcrumbList, faqPage } from '@/lib/schema';
 
-const title = 'Israel Golden Hour & Sunrise Calculator 2026 — Photographer & Hiker Times';
+const title = 'Israel Golden Hour Calculator: Sunrise, Sunset & Blue Hour';
 const description =
-  'Find exact sunrise, golden hour, blue hour and sunset times for Masada, Jerusalem, Tel Aviv, Eilat, the Dead Sea, Haifa and more. Includes Shabbat candlelighting. Essential for Masada sunrise hikes.';
+  'Sunrise, golden hour, blue hour and sunset times for Masada, Jerusalem, Dead Sea, Tel Aviv, Eilat and Haifa. Includes Shabbat candlelighting times.';
 
 const crumbs = [
   { name: 'Home', path: '/' },
@@ -81,7 +81,6 @@ const schema = [breadcrumbList(crumbs), faqPage(faqs)];
         <select
           id="location-sel"
           class="mt-1 block rounded-btn border border-border bg-sand px-3 py-2 text-ink"
-          aria-label="Select location"
         >
           <option value="masada">Masada</option>
           <option value="dead-sea">Dead Sea (Ein Bokek)</option>
@@ -101,7 +100,6 @@ const schema = [breadcrumbList(crumbs), faqPage(faqs)];
           id="date-input"
           type="date"
           class="mt-1 block rounded-btn border border-border bg-sand px-3 py-2 text-ink"
-          aria-label="Select date"
         />
       </label>
 
@@ -409,9 +407,9 @@ const schema = [breadcrumbList(crumbs), faqPage(faqs)];
     var html = '<div class="overflow-x-auto rounded-card border border-border shadow-card">'
       + '<table class="w-full min-w-[400px] text-sm">'
       + '<thead><tr class="border-b border-border bg-sand-deep">'
-      + '<th class="px-4 py-3 text-left font-semibold text-ink">Event</th>'
-      + '<th class="px-4 py-3 text-right font-semibold text-ink">' + loc.name + '</th>'
-      + '<th class="hidden px-4 py-3 text-left font-semibold text-ink-muted sm:table-cell">Note</th>'
+      + '<th scope="col" class="px-4 py-3 text-left font-semibold text-ink">Event</th>'
+      + '<th scope="col" class="px-4 py-3 text-right font-semibold text-ink">' + loc.name + '</th>'
+      + '<th scope="col" class="hidden px-4 py-3 text-left font-semibold text-ink-muted sm:table-cell">Note</th>'
       + '</tr></thead>'
       + '<tbody class="divide-y divide-border">';
 
@@ -446,9 +444,9 @@ const schema = [breadcrumbList(crumbs), faqPage(faqs)];
   /* ------------------------------------------------------------------ *
    *  Init
    * ------------------------------------------------------------------ */
-  /* Default date = today in Israel (UTC+2 or UTC+3) */
+  /* Default date = today in Israel (UTC+2 IST; UTC+3 IDT during DST) */
   var now = new Date();
-  var offset = 2 * 60; // IST offset in minutes (DST handled below)
+  var offset = (isDST(now) ? 3 : 2) * 60;
   var localMs = now.getTime() + offset * 60000;
   var localDate = new Date(localMs);
   var yyyy = localDate.getUTCFullYear();
