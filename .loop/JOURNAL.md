@@ -2158,3 +2158,23 @@ Ship: commit 6f64790, pushed to master.
 Prod: CI GitHub Actions pre-existing failure (cloud env runner issue, 30+ iterations) — not a
   regression; same failure on prior commit 58a7e395. Vercel deploy inferred green per pattern.
 Next: iter 113 = BUILD/tools.
+
+## 2026-06-27 · iter 113 · BUILD (tools) · "Should I rent a car in Israel?" decision quiz
+What: new /israel-car-rental-quiz interactive tool. 6 questions: (1) base cities
+  (jlm_only/tlv_only/both/multiple/touring), (2) Negev/Eilat y/n, (3) Golan/North y/n,
+  (4) Shabbat y/n, (5) driving comfort (yes/unsure/no), (6) group size (1/2/3+).
+  Scoring: jlm_only/tlv_only -2, multiple +1, touring +2, negev +4, golan +3, shabbat +1,
+  comfort=no -4, comfort=unsure -1, group=3+ +1. Verdicts: ≥5=YES, ≥2=PROBABLY YES,
+  ≥0=SPLIT, <0=NO. Each result shows contextual bullet reasoning (Negev/Golan/Shabbat/group
+  bullets for car-positive answers; city/comfort bullets for car-negative answers). YES/PROBABLY
+  links to car-rental-israel + DiscoverCars + Rentalcars affiliate CTAs; SPLIT links to
+  car-rental + transportation + rav-kav; NO links to transportation + rav-kav + travel-time.
+  Validation error shown if questions skipped. "Start over" resets form.
+  Wired: plan-your-trip tools grid (tool.carQuiz key added to en/fr/de i18n).
+  Cross-links added: car-rental-israel.md after "When a car is worth it" section;
+  driving-in-israel.md "Before you drive" section. 5 new Playwright tests. Smoke spec +1.
+Gate: pnpm check 0 errors; build 228 pages (+1); 257/257 e2e+a11y pass. GREEN.
+Ship: commit ba986bc, pushed to master.
+Prod: CI GitHub Actions pre-existing failure (cloud env runner, 3-sec job, runner_id=0,
+  30+ iterations) — not a regression. Vercel deploy inferred green per pattern.
+Next: iter 114 = REVIEW (114%5==4).
