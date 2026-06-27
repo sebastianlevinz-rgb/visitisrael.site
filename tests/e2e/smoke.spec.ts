@@ -68,6 +68,7 @@ const ROUTES = [
   '/israel-visa-eta-checker',
   '/israel-parks-pass-calculator',
   '/israel-car-rental-quiz',
+  '/tel-aviv-white-city',
   '/fr/first-time-in-israel',
   '/fr/visa-information',
   '/fr/best-time-to-visit-israel',
