@@ -27,7 +27,7 @@ La bonne nouvelle, c'est que personne ne s'attend à ce que les visiteurs connai
 2. **Portez une écharpe ou une couche légère.** Un pashmina ou une chemise à manches longues dans votre sac vous couvre instantanément à la prochaine église ou sanctuaire et évite d'avoir à en emprunter un.
 3. **Soyez silencieux et discret.** Ce sont des lieux de prière. Baissez la voix, passez votre téléphone en mode silencieux et ne marchez jamais devant des personnes en train de prier ni ne les photographiez.
 4. **Suivez les panneaux affichés et le personnel.** Chaque site définit ses propres règles concernant la photographie, les chaussures et l'accès ; en cas de doute, demandez ou observez ce que font les locaux.
-5. **Tenez compte du calendrier.** Les règles se resserrent pendant le [Shabbat](/shabbat-guide), les jours saints juifs et chrétiens, et le Ramadan/les vendredis dans les mosquées.
+5. **Tenez compte du calendrier.** Les règles se resserrent pendant le [Shabbat](/fr/shabbat-guide), les jours saints juifs et chrétiens, et le Ramadan/les vendredis dans les mosquées.
 
 ## Le Mur occidental (Kotel)
 
@@ -74,7 +74,7 @@ Israël et la Cisjordanie ont des mosquées actives (et vous pouvez en visiter c
 
 ## Étiquette du Shabbat et des jours saints
 
-Le [Shabbat](/shabbat-guide) va du **coucher du soleil du vendredi au samedi à la nuit tombée**. Dans les quartiers religieux — et au Mur occidental — cela signifie **pas de photographie, de téléphones, d'écriture ni d'appareils électroniques**, et s'habiller modestement est doublement important. Les transports en commun s'arrêtent largement ; voir [ce qui est ouvert pendant le Shabbat](/fr/whats-open-on-shabbat) pour se déplacer. La même discrétion s'applique lors des grandes fêtes juives, des jours saints chrétiens dans les églises et les vendredis/le Ramadan dans les mosquées. Visiter avec respect pendant ces périodes peut être profondément mémorable — suivez simplement l'exemple de ceux qui prient autour de vous.
+Le [Shabbat](/fr/shabbat-guide) va du **coucher du soleil du vendredi au samedi à la nuit tombée**. Dans les quartiers religieux — et au Mur occidental — cela signifie **pas de photographie, de téléphones, d'écriture ni d'appareils électroniques**, et s'habiller modestement est doublement important. Les transports en commun s'arrêtent largement ; voir [ce qui est ouvert pendant le Shabbat](/fr/whats-open-on-shabbat) pour se déplacer. La même discrétion s'applique lors des grandes fêtes juives, des jours saints chrétiens dans les églises et les vendredis/le Ramadan dans les mosquées. Visiter avec respect pendant ces périodes peut être profondément mémorable — suivez simplement l'exemple de ceux qui prient autour de vous.
 
 ## Quoi emporter pour visiter les sites saints
 

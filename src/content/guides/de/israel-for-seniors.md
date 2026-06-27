@@ -127,13 +127,13 @@ Abraham Tours und die meisten in Jerusalem ansässigen Agenturen organisieren ga
 
 ### Individualreise
 
-Israel ist für unabhängige Senioren per Auto gut zu bereisen. [Fahren in Israel](/driving-in-israel) erfolgt rechts; [Mietwagen](/fr/car-rental-israel) sind von großen internationalen Unternehmen am Flughafen Ben Gurion erhältlich. Das innerstädtische Busnetz ist gut, beinhaltet aber hebräische Beschilderung und Sicherheitswarteschlangen — machbar, aber anstrengender als ein privates Fahrzeug. Private Flughafentransfers zu Ihrem ersten Hotel werden für einen entspannten Start dringend empfohlen; siehe den [Flughafentransfer-Leitfaden](/ben-gurion-airport-transfers).
+Israel ist für unabhängige Senioren per Auto gut zu bereisen. [Fahren in Israel](/driving-in-israel) erfolgt rechts; [Mietwagen](/de/car-rental-israel) sind von großen internationalen Unternehmen am Flughafen Ben Gurion erhältlich. Das innerstädtische Busnetz ist gut, beinhaltet aber hebräische Beschilderung und Sicherheitswarteschlangen — machbar, aber anstrengender als ein privates Fahrzeug. Private Flughafentransfers zu Ihrem ersten Hotel werden für einen entspannten Start dringend empfohlen; siehe den [Flughafentransfer-Leitfaden](/ben-gurion-airport-transfers).
 
 ---
 
 ## Medizinische und praktische Überlegungen
 
-**Medizinische Versorgung:** Israels Krankenhaussystem ist erstklassig. Das Hadassah Medical Center (Jerusalem), Ichilov/Sourasky (Tel Aviv) und Rambam (Haifa) arbeiten alle nach europäischen Standards. Eine [Reiseversicherung](/israel-travel-insurance) mit Notfall-Krankenrückführung wird dringend empfohlen — der Reiseversicherungsleitfaden erklärt, worauf bei einer für ältere Reisende geeigneten Police zu achten ist, einschließlich der Deckung für Vorerkrankungen.
+**Medizinische Versorgung:** Israels Krankenhaussystem ist erstklassig. Das Hadassah Medical Center (Jerusalem), Ichilov/Sourasky (Tel Aviv) und Rambam (Haifa) arbeiten alle nach europäischen Standards. Eine [Reiseversicherung](/de/israel-travel-insurance) mit Notfall-Krankenrückführung wird dringend empfohlen — der Reiseversicherungsleitfaden erklärt, worauf bei einer für ältere Reisende geeigneten Police zu achten ist, einschließlich der Deckung für Vorerkrankungen.
 
 **Medikamente:** Apotheken in Israel (*beit merkachat*) sind gut ausgestattet und Apotheker sprechen typischerweise Englisch. Bringen Sie einen vollen Vorrat an verschreibungspflichtigen Medikamenten plus mindestens 2 Wochen Reservevorrat mit; einige Medikamente sind lokal unter anderen Markennamen erhältlich. Führen Sie eine schriftliche Liste der generischen Medikamentennamen und Dosierungen auf Englisch mit.
 
@@ -155,6 +155,6 @@ Israel ist für unabhängige Senioren per Auto gut zu bereisen. [Fahren in Israe
 
 ---
 
-Nutzen Sie den [Reisekostenrechner](/israel-trip-cost-calculator) für Ihre Budgetplanung und den [Ratgeber zur Reisedauer](/israel-5-vs-7-vs-10-days) für die Entscheidung über die Länge. Für Reiserouten mit christlichem Erbe lesen Sie den [Heilig-Land-Pilgerleitfaden](/christian-pilgrimage-holy-land); für jüdisches Erbe den [Leitfaden für jüdisches Erbe](/jewish-heritage-israel).
+Nutzen Sie den [Reisekostenrechner](/israel-trip-cost-calculator) für Ihre Budgetplanung und den [Ratgeber zur Reisedauer](/de/israel-5-vs-7-vs-10-days) für die Entscheidung über die Länge. Für Reiserouten mit christlichem Erbe lesen Sie den [Heilig-Land-Pilgerleitfaden](/christian-pilgrimage-holy-land); für jüdisches Erbe den [Leitfaden für jüdisches Erbe](/jewish-heritage-israel).
 
 Siehe auch: [Erstbesuch in Israel](/de/first-time-in-israel) · [Beste Reisezeit](/de/best-time-to-visit-israel) · [Totes Meer](/dead-sea) · [Jerusalem](/jerusalem) · [Masada](/dead-sea/masada) · [Caesarea](/caesarea)

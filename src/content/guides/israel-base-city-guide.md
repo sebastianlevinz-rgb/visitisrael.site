@@ -1,6 +1,6 @@
 ---
-title: 'Where to Base Yourself in Israel: Jerusalem vs Tel Aviv vs Haifa 2026'
-description: 'Which city should you base yourself in for your Israel trip? Honest comparison of Jerusalem, Tel Aviv, Haifa and Tiberias as bases — who each suits and by trip length.'
+title: 'Where to Base in Israel: Jerusalem, Tel Aviv or Haifa 2026'
+description: 'Which city to base yourself in for Israel? Compare Jerusalem, Tel Aviv, Haifa and Tiberias — who each suits and by trip length.'
 heroImage: /images/regions/jerusalem/hero.jpg
 category: Planning
 updatedAt: 2026-06-27

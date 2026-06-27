@@ -133,7 +133,7 @@ Israël est gérable pour les seniors voyageant de façon indépendante en voitu
 
 ## Considérations médicales et pratiques
 
-**Soins médicaux :** Le système hospitalier israélien est de classe mondiale. Le Centre médical Hadassah (Jérusalem), Ichilov/Sourasky (Tel Aviv) et Rambam (Haïfa) fonctionnent tous selon les standards européens. Une [assurance voyage](/israel-travel-insurance) couvrant l'évacuation médicale d'urgence est fortement recommandée — le guide de l'assurance voyage explique ce qu'il faut chercher dans une police adaptée aux voyageurs plus âgés, y compris la couverture des conditions préexistantes.
+**Soins médicaux :** Le système hospitalier israélien est de classe mondiale. Le Centre médical Hadassah (Jérusalem), Ichilov/Sourasky (Tel Aviv) et Rambam (Haïfa) fonctionnent tous selon les standards européens. Une [assurance voyage](/fr/israel-travel-insurance) couvrant l'évacuation médicale d'urgence est fortement recommandée — le guide de l'assurance voyage explique ce qu'il faut chercher dans une police adaptée aux voyageurs plus âgés, y compris la couverture des conditions préexistantes.
 
 **Médicaments :** Les pharmacies en Israël (*beit merkachat*) sont bien approvisionnées et les pharmaciens parlent généralement anglais. Apportez un stock complet de médicaments sur ordonnance plus au moins 2 semaines supplémentaires ; certains médicaments sont disponibles localement sous des noms de marque différents. Portez une liste écrite des noms génériques des médicaments et des dosages en anglais.
 
@@ -155,6 +155,6 @@ Israël est gérable pour les seniors voyageant de façon indépendante en voitu
 
 ---
 
-Utilisez le [calculateur de coût de voyage](/israel-trip-cost-calculator) pour budgétiser votre voyage et le [guide du nombre de jours](/israel-5-vs-7-vs-10-days) pour décider de la durée. Pour les itinéraires de patrimoine chrétien, voir le [guide de pèlerinage en Terre Sainte](/christian-pilgrimage-holy-land) ; pour le patrimoine juif, voir le [guide du patrimoine juif](/jewish-heritage-israel).
+Utilisez le [calculateur de coût de voyage](/israel-trip-cost-calculator) pour budgétiser votre voyage et le [guide du nombre de jours](/fr/israel-5-vs-7-vs-10-days) pour décider de la durée. Pour les itinéraires de patrimoine chrétien, voir le [guide de pèlerinage en Terre Sainte](/christian-pilgrimage-holy-land) ; pour le patrimoine juif, voir le [guide du patrimoine juif](/jewish-heritage-israel).
 
 Voir aussi : [Premier voyage en Israël](/fr/first-time-in-israel) · [Meilleure période pour visiter](/fr/best-time-to-visit-israel) · [Mer Morte](/dead-sea) · [Jérusalem](/jerusalem) · [Masada](/dead-sea/masada) · [Césarée](/caesarea)

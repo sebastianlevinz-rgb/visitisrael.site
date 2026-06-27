@@ -27,7 +27,7 @@ Die gute Nachricht: Niemand erwartet, dass Besucher jeden Brauch kennen. Das Per
 2. **Tragen Sie einen Schal oder eine leichte Schicht.** Ein Pashmina oder ein langärmeliges Hemd in Ihrer Tasche deckt Sie sofort an der nächsten Kirche oder dem nächsten Heiligtum ab und erspart das Ausleihen.
 3. **Seien Sie ruhig und unauffällig.** Dies sind Gebetsorte. Dämpfen Sie Ihre Stimme, schalten Sie Ihr Handy auf stumm und gehen Sie niemals vor Betenden vorbei oder fotografieren Sie diese.
 4. **Befolgen Sie ausgehängte Schilder und Personal-Anweisungen.** Jede Stätte legt ihre eigenen Regeln für Fotografie, Schuhwerk und Zutritt fest; fragen Sie im Zweifel oder beobachten Sie, was Einheimische tun.
-5. **Achten Sie auf den Kalender.** Die Regeln verschärfen sich am [Schabbat](/shabbat-guide), an jüdischen und christlichen Feiertagen sowie am Ramadan/freitags in Moscheen.
+5. **Achten Sie auf den Kalender.** Die Regeln verschärfen sich am [Schabbat](/de/shabbat-guide), an jüdischen und christlichen Feiertagen sowie am Ramadan/freitags in Moscheen.
 
 ## Die Westmauer (Kotel)
 
@@ -74,7 +74,7 @@ Israel und das Westjordanland haben funktionierende Moscheen (einige können Sie
 
 ## Schabbat- und Feiertagsetikette
 
-Der [Schabbat](/shabbat-guide) dauert von **Freitagsonnenuntergang bis Samstageinbruch der Dunkelheit**. In religiösen Vierteln — und an der Westmauer — bedeutet das **keine Fotografie, Handys, Schreiben oder Elektronik**, und bescheiden gekleidet zu sein ist doppelt wichtig. Öffentliche Verkehrsmittel halten weitgehend an; siehe [was am Schabbat geöffnet ist](/de/whats-open-on-shabbat) für Fortbewegungsmöglichkeiten. Dieselbe Diskretion gilt an großen jüdischen Feiertagen, christlichen Feiertagen in Kirchen sowie freitags/am Ramadan in Moscheen. Einen respektvollen Besuch während dieser Zeiten zu machen kann tief beeindruckend sein — folgen Sie einfach dem Vorbild der Betenden um Sie herum.
+Der [Schabbat](/de/shabbat-guide) dauert von **Freitagsonnenuntergang bis Samstageinbruch der Dunkelheit**. In religiösen Vierteln — und an der Westmauer — bedeutet das **keine Fotografie, Handys, Schreiben oder Elektronik**, und bescheiden gekleidet zu sein ist doppelt wichtig. Öffentliche Verkehrsmittel halten weitgehend an; siehe [was am Schabbat geöffnet ist](/de/whats-open-on-shabbat) für Fortbewegungsmöglichkeiten. Dieselbe Diskretion gilt an großen jüdischen Feiertagen, christlichen Feiertagen in Kirchen sowie freitags/am Ramadan in Moscheen. Einen respektvollen Besuch während dieser Zeiten zu machen kann tief beeindruckend sein — folgen Sie einfach dem Vorbild der Betenden um Sie herum.
 
 ## Was man für den Besuch heiliger Stätten einpacken sollte
 

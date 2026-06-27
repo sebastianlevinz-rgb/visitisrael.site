@@ -17,7 +17,7 @@ faqs:
     answer: "Environ une heure avant le coucher du soleil le vendredi jusqu'à la nuit tombée le samedi — environ 25 heures. Les horaires varient selon la saison (plus tôt en hiver, plus tard en été). Votre hôtel affiche les horaires exacts d'allumage des bougies et de fin du Shabbat de la semaine dans le hall."
 ---
 
-Le Shabbat ne ferme pas Israël — il change la carte de ce qui est ouvert, et cette carte est complètement différente selon la ville dans laquelle vous vous trouvez. Ce guide est le complément pratique à notre [présentation du Shabbat](/shabbat-guide) : une analyse ville par ville de ce qui reste réellement ouvert le samedi, comment se déplacer, et comment planifier le vendredi et le samedi pour éviter les mauvaises surprises.
+Le Shabbat ne ferme pas Israël — il change la carte de ce qui est ouvert, et cette carte est complètement différente selon la ville dans laquelle vous vous trouvez. Ce guide est le complément pratique à notre [présentation du Shabbat](/fr/shabbat-guide) : une analyse ville par ville de ce qui reste réellement ouvert le samedi, comment se déplacer, et comment planifier le vendredi et le samedi pour éviter les mauvaises surprises.
 
 ## La fenêtre de 25 heures
 
