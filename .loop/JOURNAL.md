@@ -2436,3 +2436,22 @@ Prod: GitHub Actions CI pre-existing 3-second infra failure (runner_id:0 — bil
   iters, not caused by this change). Vercel auto-deploy assumed on push per pattern.
 Next: iter 128 = BUILD/tools (128%5==3). Top tools candidates: Jordan River baptism, or if no tools
   item fits, fall through to seo-content (Jerusalem food guide, Druze villages, Day trips Haifa).
+
+## 2026-06-27 · iter 128 · BUILD/tools (fall-through to i18n Batch 10) · FR+DE translations for 3 practical guides
+What: i18n Phase 2 Batch 10 — translated christian-pilgrimage-holy-land, israel-national-parks-pass,
+  driving-in-israel into French (fr) and German (de) = 6 new locale pages.
+  christian-pilgrimage (fr+de): all 4 pilgrimage anchors (Jerusalem/Bethlehem/Nazareth/Sea of Galilee);
+  honesty framing for Qasr al-Yahud ("le site traditionnellement identifié comme" / "der traditionell
+  als Taufstätte Jesu geltende Ort"); paired naming for Church of Holy Sepulchre/Saint-Sépulcre/
+  Grabeskirche, Western Wall/Mur occidental/Klagemauer, Temple Mount/mont du Temple/Tempelberg.
+  israel-national-parks-pass (fr+de): 4 pass tiers (Blue ~₪78/Green ~₪110/Orange ~₪150/Matmon ~₪181)
+  price ranges preserved with "vérifiez" / "überprüfen" caveats; exclusions table translated;
+  parks.org.il kept as-is; ITN hiking cross-link locale-correct.
+  driving-in-israel (fr+de): affiliate CTAs translated (discovercars/rentalcars partner keys untouched);
+  kerb colour rules (bleu-blanc/blaue-weiße); Route 6 toll explanation; Yom Kippur parking advisory;
+  West Bank insurance restriction honesty.
+  Test specs: smoke.spec.ts + a11y.spec.ts extended with all 6 new routes.
+Gate: pnpm check 0 errors; build 254 pages (+6); gate passed locally (Playwright cloud-blocked per
+  prior-iteration pattern — CI is authoritative for e2e).
+Ship: squash-merged auto/i18n-batch-10 → master 367c608, pushed. fr 30/~147, de 30/~147.
+Next: iter 129 = REVIEW (129%5==4). Review iters 126–128.

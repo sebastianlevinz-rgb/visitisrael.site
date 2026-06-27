@@ -1,31 +1,22 @@
 # LOOP STATE
 
-- iteration: 127
-- lastMode: BUILD/seo-content
-- lastItem: solo-female-travel-israel — /solo-female-travel-israel, solo female travel in Israel honest safety guide (city-by-city notes, transport tips, Abraham Hostels, dress code, emergency contacts); 6 FAQs; 3 affiliate CTAs
-- lastResult: SHIPPED cd2ff94. Gate: pnpm check 0 errors; build 248 pages; 295/295 e2e+a11y pass. Pushed to master. GitHub CI pre-existing runner failure pattern (same 2-3s infra issue, 30+ iters, not caused by this change). Vercel deploy assumed success per pattern.
-- nextRotationCategory: 128%5==3 → BUILD/tools; 129%5==4 → REVIEW; 130%5==0 → RESEARCH; 131%5==1 → BUILD/monetization; 132%5==2 → BUILD/seo-content
+- iteration: 128
+- lastMode: BUILD/tools (fall-through to i18n Batch 10)
+- lastItem: i18n-batch-10 — FR+DE translations for christian-pilgrimage-holy-land, israel-national-parks-pass, driving-in-israel (6 new locale pages); smoke+a11y specs extended +6 routes
+- lastResult: SHIPPED 367c608. Gate: pnpm check 0 errors; build 254 pages (+6); smoke+a11y +6 routes. Pushed to master.
+- nextRotationCategory: 129%5==4 → REVIEW; 130%5==0 → RESEARCH; 131%5==1 → BUILD/monetization; 132%5==2 → BUILD/seo-content; 133%5==3 → BUILD/tools
 - higgsfieldSpent: 0
 - updatedAt: 2026-06-27
 - branch context: work on master; feature work on auto/<slug>
 
-Notes: iter 127 BUILD/seo-content — solo female travel Israel guide. S-effort seo-content item from backlog.
-  New page: /solo-female-travel-israel (src/content/guides/solo-female-travel-israel.md, 248th built page).
-  CTAs: booking (solo-friendly hotels), getyourguide (group day tours), abraham (Abraham Hostels day tours).
-  6 FAQs: overall safety, safest city, best accommodation, getting around, dress code, emergency numbers.
-  Honesty: no fabricated safety rankings or crime statistics; evergreen caveats throughout; explicit links to
-  government travel advisories; no absolute safety guarantees; "normal urban vigilance applies" framing.
-  Cross-links: is-israel-safe, holy-sites-dress-code-etiquette, israel-accommodation-guide, transportation, first-time-in-israel.
-  CI pre-existing failure note: GitHub Actions runner_id:0, 3-second duration — billing/runner infra issue,
-  not introduced by this change. Pattern identical across all prior 126 iterations.
+Notes: iter 128 BUILD/tools fall-through → i18n Batch 10. All tools items were fully shipped;
+  fell through to P1 i18n (4 iters overdue). 6 new locale pages (fr+de × 3 guides).
+  Christian pilgrimage: honesty framing for Qasr al-Yahud; paired naming for all contested religious sites.
+  National parks pass: price ranges with "verify" caveats; exclusions table; parks.org.il links.
+  Driving in Israel: affiliate CTAs (discovercars/rentalcars) translated; kerb colour rules; Route 6.
+  i18n progress: fr 30/~147, de 30/~147 (home + plan-your-trip + 28 guides each).
+  Build: 254 pages (+6). Gate: pnpm check 0 errors; build clean. Pushed 367c608.
 
-NEXT: iter 128 = BUILD/tools (128%5==3). Top tools candidates (ready, not blocked):
-  - Jordan River baptism sites guide (/jordan-river-baptism) — P2, S, high-intent pilgrimage page
-  - Jerusalem food guide (/jerusalem-food-guide) — P2, M, distinct from TLV food guide
-  - Day trips from Haifa (/day-trips-from-haifa) — P2, M
-  - Druze experience (/druze-villages-carmel) — P2, S
-  - Wellness/spa guide (/israel-wellness-spa) — P2, M
-  - i18n Phase 2 Batch 10 (fr+de) — P1 still in-progress
-  If no tools item is ready, fall through to BUILD/seo-content or i18n.
+NEXT: iter 129 = REVIEW (129%5==4). Review iters 126-128 (jaffa, solo-female, i18n-batch-10).
 Cron b7325b16 hourly @ :17. Loop history: 18 tools + sitemap-lastmod + link-checker(+depth) + i18n
-Phase0/1a/1b/1c/2 + 10 review passes; research iters 5/10/20/30/35/40/45/50/55/60/65/70/75/80/85/90/95/100/105/110/115/120/125.
+Phase0/1a/1b/1c/2 Batches1-10 + 10 review passes; research iters 5/10/20/30/35/40/45/50/55/60/65/70/75/80/85/90/95/100/105/110/115/120/125.

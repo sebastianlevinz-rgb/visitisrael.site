@@ -167,3 +167,13 @@
   3 affiliate CTAs (Booking.com, GYG group tours, Abraham Hostels). No fabricated safety stats.
   Captures: "solo female travel Israel 2026", "is Israel safe solo woman", "Israel women solo guide".
   248 pages (+1). Gate: pnpm check 0 errors · build 248 pages · 295/295 e2e+a11y pass.
+
+## iter 128 · i18n Phase 2 Batch 10 · FR+DE translations — 3 practical guides (367c608)
+- [i18n] /fr/christian-pilgrimage-holy-land + /de/christian-pilgrimage-holy-land: pilgrimage circuit
+  (Jerusalem/Bethlehem/Nazareth/Sea of Galilee); honesty framing for Qasr al-Yahud; paired naming
+  for contested religious sites (Holy Sepulchre, Western Wall, Temple Mount) in FR+DE.
+- [i18n] /fr/israel-national-parks-pass + /de/israel-national-parks-pass: 4 pass tiers with price
+  ranges (~₪78/₪110/₪150/₪181) + "verify" caveats; exclusions table; locale-correct links.
+- [i18n] /fr/driving-in-israel + /de/driving-in-israel: affiliate CTAs translated; kerb colour
+  system; Route 6 toll; Yom Kippur advisory; West Bank insurance restriction.
+  254 pages (+6). Gate: pnpm check 0 errors · build 254 pages · gate passed.
