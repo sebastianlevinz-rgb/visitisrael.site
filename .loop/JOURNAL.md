@@ -2506,3 +2506,21 @@ Prod: GitHub Actions CI showed failure on this commit, but same failure existed 
   and 4395f93 (pre-existing; not a regression). Local gate fully green. No revert done.
   Note for human: CI has been persistently failing for ≥3 iterations — may need investigation.
 Next: iter 132 = BUILD/seo-content; i18n batch 11 is due per interleave rule.
+
+## 2026-06-27 · iter 132 · BUILD/seo-content (i18n batch 11) · i18n-batch-11
+What: Translated 4 EN guides into French (fr) and German (de) — 8 new locale pages total:
+  solo-female-travel-israel: city-by-city safety notes, transport, accommodation section,
+    community-building. Paired naming at contested sites: Mur des Lamentations/Kotel (fr),
+    Klagemauer/Kotel (de). Honest framing — comparable to S. Europe safety, no alarmism.
+  israel-with-kids: regions (TLV coast, Jerusalem, Dead Sea, Galilee, Eilat, Negev),
+    accommodation types, transport tips (trains, car rental, Shabbat avoidance), sample week.
+  tel-aviv-vs-jerusalem: comparison table (history/beaches/nightlife/Shabbat/day trips),
+    honest "do both" recommendation, 45-min train context.
+  israel-events-festivals: month-by-month calendar (Pessah/Pâques, Pride, High Holidays,
+    Hanukkah/Christmas), booking-ahead emphasis for Pride and High Holidays, affiliate CTAs.
+Gate: pnpm check 0 errors; pnpm build 262 pages (+8); 307/307 e2e+a11y pass.
+Ship: committed 8 files directly to master SHA 815e5bb, pushed origin.
+Prod: GitHub Actions CI showed failure on this commit, same pre-existing pattern as all
+  recent commits — not a regression. Local gate fully green. No revert done.
+  i18n progress: fr 34/~147, de 34/~147 (home + plan-your-trip + 32 guides each).
+Next: iter 133 = BUILD/tools.

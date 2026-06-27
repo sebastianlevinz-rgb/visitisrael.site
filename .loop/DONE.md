@@ -190,3 +190,4 @@
   TourVerdict CTA ("Is a guided tour of X worth it? ✓ Worth it" → GetYourGuide affiliate)
   now renders on 20 pages (was 14). 12-line frontmatter-only diff; no component changes.
   Value: broadened conversion surface on high-intent attraction and activity guides.
+- i18n Batch 11 (iter132, 815e5bb): solo-female-travel-israel + israel-with-kids + tel-aviv-vs-jerusalem + israel-events-festivals in fr+de — 8 new locale pages; paired naming for Klagemauer/Kotel; fr/de now 34/~147 each.
