@@ -2286,3 +2286,22 @@ Ship: commit 94726c6, pushed to master.
 Prod: CI Lighthouse 1-sec infra failure (runner_id=0) — pre-existing 30+ iteration pattern.
   Vercel inferred green.
 Next: iter 120 = RESEARCH mode.
+
+## 2026-06-27T00:00Z · iter 120 · RESEARCH · sea-of-galilee-boat / timna-park / beer-sheva / maccabiah-2026 / israel-archaeology / sinai-from-eilat / 1-day-jerusalem
+
+Mode: RESEARCH (120 % 5 == 0). No code changed; no gate runs; no merge.
+
+What: 12 targeted web searches across previously unresearched gap clusters: Sea of Galilee boat/Jesus Boat
+  experiences, Timna National Park copper mines + desert, Beer Sheva Negev capital + Bedouin market,
+  Maccabiah Games 2026 spectator/volunteer guide, Israel archaeological dig volunteering, South Sinai
+  (Dahab/Sharm) experience from Eilat (distinct from border-crossings.md logistics), 1-day Jerusalem
+  itinerary standalone page (top-5 global Israel query; site has no optimized standalone page despite
+  abundant Jerusalem content).
+
+Deduplication: confirmed each item is distinct from ~105 existing BACKLOG entries + 60+ existing guides.
+  Sinai verified by reading border-crossings.md (covers crossing only; no experience content).
+  1-day Jerusalem verified against day-trips-from-tel-aviv, day-trips-from-jerusalem, jerusalem-tours-compared.
+
+Result: 7 net-new BACKLOG items added (all P2 seo-content+monetization); findings + sources appended to
+  COMPETITORS.md iter120 section. Backlog ~112 ready items.
+

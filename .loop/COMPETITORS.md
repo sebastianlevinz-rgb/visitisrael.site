@@ -1620,3 +1620,192 @@ DE-DUPED (not added from iter 115 research):
 - Israel eSIM/SIM: israel-esim.md EXISTS with eSIM tier table. BACKLOG duplicate removed.
 - Jordan + Petra multi-day itinerary: israel-jordan-itinerary already in BACKLOG (P2). Not duplicated.
 - Israel digital nomad: already in BACKLOG (P3). Confirmed still valid, not elevated.
+
+---
+
+## iter 120 · RESEARCH · 2026-06-27 — Galilee boat tours, Timna, Beer Sheva, Maccabiah, archaeology digs, Sinai, 1-day Jerusalem
+
+Searched: elijahtours.com, seaofgalileeboat.com, tripadvisor.com (Sea of Galilee), americaisraeltours.com,
+laidbacktrip.com, touristisrael.com/timna-park, hike-israel.com/timna-park, loneyplanet.com/timna-park,
+tripadvisor.com/Beersheba, expedia.com/Beersheba, takeyourbackpack.com/Beersheba, kupi.com/Beersheba,
+touristisrael.com/maccabiah-games, maccabiah.com, jewishlink.news (Maccabiah 2026 coverage),
+mukikapupstravels.com/archaeological-excavation, digforaday.com, friendsofiaa.org/volunteer, vfi-usa.org/archaeology,
+nomadicniko.com/taba-crossing, egypttoursplus.com, eilat.city/en/taba-border-crossing, touristisrael.com/sinai,
+touristisrael.com/24-hours-in-jerusalem, itraveljerusalem.com, elijahtours.com/jerusalem-guide, onegirlwholeworld.com.
+
+Confirmed gaps verified against existing site content + full BACKLOG scan before adding.
+
+- **Sea of Galilee boat ride & sailing guide (P2 gap)** — elijahtours.com ("Sea of Galilee Boat Ride 2026:
+  What to Expect, Where to Book"), seaofgalileeboat.com (dedicated operator site), americaisraeltours.com
+  ("/jesus-boat"), TripAdvisor ("Sea of Galilee Worship Boats — Private Tours"), laidbacktrip.com ("Ultimate
+  Guide to the Sea of Galilee") all rank with dedicated content for "sea of galilee boat tour" / "galilee boat
+  ride" / "jesus boat israel". Our tiberias-guide.md covers the Jesus Boat Museum at Kibbutz Ginosar (the preserved
+  2,000-year-old boat) and references sailing, but NO dedicated how-to guide for the EXPERIENCE of taking a boat tour.
+  Operators: Holyland Sailing (Tiberias marina departure, more commercial, walk-in); Sea of Galilee Worship Boats
+  at Kibbutz Ginosar (private, 30+ years, Daniel Carmel family, Christian pilgrimage focus; best paired with Jesus
+  Boat Museum on-site). Price: $20/person walk-in or $350+ private cruise, 45 min. Experience: replica first-century
+  Galilean wooden vessel; captain reads Mark 4:35-41 Gospel (storm calming); 5 min silence in centre of lake with
+  engine off — deeply spiritual for pilgrims. Departure points: two distinct options (Tiberias marina = day-tripper
+  hub; Kibbutz Ginosar = pilgrim/museum pairing). Cross-links: tiberias-guide, galilee, christian-pilgrimage,
+  jordan-river-baptism-sites, day-trips-from-tel-aviv. Monetization: GYG/Viator galilee sailing tour CTAs.
+  SEO: "Sea of Galilee boat tour guide", "Galilee sailing Israel", "Jesus boat experience", "boat ride Sea of
+  Galilee 2026". → BACKLOG (seo-content+monetization, P2, S).
+
+- **Timna National Park comprehensive guide (P2 gap)** — Tourist Israel ("Timna Park"), Lonely Planet
+  (attraction listing), hike-israel.com ("Timna Park: Complete Guide with Maps"), tzurtours.com, worldheritagesite.org
+  (UNESCO tentative listing), israel-travel-secrets.com, Peek.com (day tours from Eilat) all rank for "Timna Park"
+  / "Timna National Park Israel" / "Timna copper mines". Our site: Timna is mentioned ONCE in the hidden-gems hub
+  backlog item as one of 10-12 brief cards; no standalone attraction page; no dedicated guide. Gap is real and
+  significant: Timna is a major standalone destination and natural day-trip from Eilat (25km north). Key hooks:
+  world's oldest copper mines (~5,000 BCE, pre-Pharaonic and Pharaonic periods); Solomon's Pillars (massive natural
+  sandstone formations, erosion columns — most photographed feature); Egyptian Hathor Temple (14th–12th century BCE
+  — oldest Egyptian cult structure outside Egypt); Valley of Inscriptions (Nabataean + Egyptian petroglyphs);
+  Mushroom Rock (famous formation); artificial lake with pedal boats; 20+ hiking trails (1h to full-day); night
+  laser-light show on Solomon's Pillars (seasonal); INPA pass valid. UNESCO tentative listing = freshness/authority
+  hook. Eilat + Timna = natural 1-day combo. Cross-links: eilat, eilat-tours-compared, national-parks-pass,
+  negev, petra-from-eilat-vs-amman (for Eilat cluster context). Monetization: GYG/Viator "Timna Park tour from
+  Eilat" CTAs + INPA pass calculator. SEO: "Timna National Park guide", "Timna Park Israel 2026", "Timna copper
+  mines visit", "Solomon's Pillars Israel". → BACKLOG (seo-content+monetization, P2, S).
+
+- **Beer Sheva (Beersheba) city & Negev gateway guide (P2 gap)** — Expedia ("Visit Beersheba: 2026 Travel
+  Guide"), TripAdvisor ("15 Best Things to Do in Beersheba 2026"), takeyourbackpack.com ("Beersheba City Guide
+  Israel 2026"), kupi.com ("Abraham's Well History & Visitor Guide"), seetheholyland.net, holylandtourstravel.com
+  all have dedicated Beer Sheva content. We have NO Beer Sheva content; it appears only in the road-trip route
+  context as a waypoint. Beer Sheva is Israel's 4th-largest city (200,000 residents) and the Negev's capital.
+  Key hooks: Tel Be'er Sheva — UNESCO World Heritage Site (2005, Iron Age fortified city 2,900 years old; 20 min
+  outside city center); Abraham's Well International Visitor Center (Abraham's Well biblical site + interactive
+  museum — highly rated TripAdvisor; 12th-century well preserved); Old Turkish Town (Ottoman-era grid, early 20th
+  century, crumbling charm; Negev Museum of Art within); Thursday Bedouin market (largest in Middle East — 6,000+
+  vendors selling livestock, produce, textiles; closed on other days; market runs 5am–noon approximately); Ben-
+  Gurion University campus (architecturally unusual for Negev; marks city as Israel's tech/education hub for the
+  south); gateway framing (1h from TLV, 1.5h from Jerusalem, natural stop en route to Mitzpe Ramon/Negev).
+  HONESTY: Bedouin market vendor composition changes weekly; UNESCO site hours change seasonally — link official
+  INPA Parks Authority; Old Town buildings vary in accessibility state. Monetization: Booking.com accommodation CTA
+  + GYG "Negev day tour from Tel Aviv" CTA. Dense cross-links: negev, bedouin-experience (backlog), mitzpe-ramon
+  (backlog), car-rental-israel, national-parks-pass. SEO: "Beer Sheva travel guide 2026", "Beersheba things to do
+  Israel", "Beer Sheva Negev day trip", "Abraham's Well visitor guide". → BACKLOG (seo-content, P2, S).
+
+- **Maccabiah Games 2026 dedicated visitor guide — URGENT time-sensitive (P2 gap)** — Tourist Israel
+  ("Maccabiah Games June 30th–July 14th 2026"), maccabiah.com, jewishlink.news ("Israel Welcomes the World for
+  Maccabiah 2026"), itraveljerusalem.com, funinjerusalem.com, KKL-JNF all have content. Currently in BACKLOG
+  only as 1 of 5 items in a bundled P3 "Sports tourism: live events" item. Games start June 30, 2026 — in 3 days
+  from today. This window makes it an URGENT P2 content opportunity: 10,000 athletes, 80 countries, "Jewish
+  Olympics" branding; Maccabiah City at Tel Aviv Expo (Jul 6–10, FREE public entry, Expo TLV venue); Opening
+  ceremony Teddy Stadium Jerusalem (Jul 1); closing ceremony Tel Aviv Jul 13; all tournament watching FREE. New
+  2026 features: surfing at Herzliya + SRF PARK TLV wave pool; road cycling through Gaza-border communities
+  (Re'im/Sderot route = symbolic post-Oct 7 story); multiple cities hosting (Jerusalem = Open category; Haifa =
+  Juniors; Herzliya = Masters; Ra'anana = baseball/squash/table tennis; Hadera = football/judo/karate). For the
+  tourist visitor: attend Maccabiah City (free, family-friendly, interactive sports + performance), watch opening
+  ceremony at Teddy Stadium or closing in TLV (free), catch a basketball or athletics event at respective venue.
+  HONESTY: individual event schedules change — link maccabiah.com for current schedule; accommodation is very
+  tight in July (book now or use hostels); July in Israel is peak summer heat 30–36°C. Evergreen value: next
+  Maccabiah = 2030 → page remains useful for 2030 planning. → BACKLOG (seo-content, P2, S — elevated from P3
+  sports bundle; stand-alone guide for 2026 + evergreen for 2030).
+
+- **Israel archaeological dig experience guide (P2 gap)** — mukikapupstravels.com ("Israel Archaeology:
+  Volunteer on an Excavation in 2026"), digforaday.com ("Dig for a Day at Beit Guvrin — 1–4 day custom programs"),
+  friendsofiaa.org/volunteer (Friends of Israel Antiquities Authority), iaa.org.il/en/page/iaa-volunteer (IAA free
+  volunteer program), vfi-usa.org/archaeology (VFI 9-day Archaeology Volun-Tour), biblearchaeology.org/Shiloh
+  (Shiloh Excavations 2026 still taking reservations) all rank. ZERO content on site about participating in
+  archaeology — a niche but passionate audience (biblical archaeology + adventure travel crossover). Key products:
+  (1) Dig for a Day at Beit Guvrin — the most tourist-accessible option; commercial program adjacent to Beit
+  Guvrin-Maresha National Park (UNESCO WHS 2014 — the cave cities of Bell Caves); 1–4 day programs led by
+  professional archaeologists under IAA supervision; includes real excavation + artifact sifting + pottery
+  analysis; ~$100–200/day estimate (prices change — link digforaday.com); no experience required; (2) IAA Free
+  Volunteer Program — longer-stay volunteers who want to join an active ongoing excavation for free; must apply
+  through iaa.org.il; locations change by dig season; best for those staying 2+ weeks; (3) VFI Volun-Tour — 9-day
+  organized program ($2,500+ estimate) combining excavation days with touring; all-inclusive; popular with North
+  American Jewish heritage travelers; (4) Shiloh Excavation (Associates for Biblical Research) — week-long
+  slots, specifically focused on biblical-period Tel Shiloh site in the West Bank; framing note: site is in Area
+  C of the West Bank — link is-israel-safe and frame access factually. HONESTY: IAA dig volunteer assignments
+  depend on active digs and may not be available year-round; "dig for a day" is at specific fixed site (Beit
+  Guvrin) — can always be booked regardless of active IAA digs; VFI prices are tour-operator estimates, link
+  directly; West Bank sites (Shiloh) require West Bank access framing. Monetization: GYG "archaeology tour Israel"
+  / "Beit Guvrin cave experience" CTAs + digforaday.com direct link. Dense cross-links: qumran-guide,
+  jewish-heritage-israel, beit-guvrin (within day-trips-from-tel-aviv), national-parks-pass. SEO: "archaeological
+  dig Israel tourist", "Dig for a Day Israel", "Israel archaeology volunteer 2026", "Beit Guvrin excavation
+  experience". → BACKLOG (seo-content+monetization, P2, S).
+
+- **Sinai & South Egypt experience from Eilat guide (P2 gap)** — Tourist Israel ("How to Get from Israel to
+  Sinai"), nomadicniko.com ("Taba Border Crossing"), egypttoursplus.com (multiple Sinai guides), eilat.city/en/
+  taba-border-crossing, bordercrossinghub.com all rank for "Israel to Egypt Eilat" / "Taba crossing Sinai" /
+  "Sinai from Israel". border-crossings.md EXISTS covering Taba crossing logistics briefly (2 short paragraphs).
+  Gap: NO guide to the Sinai EXPERIENCE itself. This would be an experience-and-destination guide (what to DO in
+  South Sinai once you cross), complementing border-crossings.md the way petra-from-israel.md complements the
+  Jordan crossing section. Key South Sinai destinations reachable from Eilat: Taba Heights (5-star resort complex,
+  12km from crossing, world-class diving — Fjord/Napoleon's Garden reefs, Lighthouse Corner, Thomas Reef; luxury
+  hotel complex; easiest Sinai option for a 1-day excursion); Dahab (90 min south — world-famous windsurfing
+  capital; Blue Hole dive site — famous 90m underwater arch, advanced divers only; surface snorkel outside the
+  arch; Canyon dive site; Lagoon for beginners; laid-back hippie-backpacker vibe; excellent seafood restaurants);
+  Sharm el-Sheikh (90km south, 90 min drive; full international resort city; Ras Mohammed NP = coral reef
+  spectacular at southernmost tip of Sinai; Naama Bay = main tourist hub); Saint Catherine's Monastery (3h drive
+  from Taba = all-day trip; UNESCO WHS; oldest continuously inhabited Christian monastery; morning prayer tours
+  ~6am; Greek Orthodox, non-denominational welcome; icon collection unrivalled). CRITICAL HONESTY: North Sinai
+  province has had persistent insurgency/terrorism (US + UK + Australian advisories currently Level 3–4 for
+  North Sinai); South Sinai (where tourist sites are) has Level 2 advisories — possible with precautions; must
+  ALWAYS link reader's home-government travel advisory; do NOT state it is "safe" categorically; recommend
+  checking within 30 days of travel. Entry: Sinai-only visa-free up to 14 days for most nationalities; crossing
+  to rest of Egypt requires ~$25 tourist visa obtained at border; Israeli re-entry after Egypt visit is
+  straightforward (Egypt-Israel peace treaty since 1979 = no passport issue). Fees: ~NIS 107 exit fee Israel
+  side + E£400 (~NIS 80) Egyptian side; must have cash (NIS or USD). Times: daily 6:30am–8pm, reduced Fri/
+  holidays. Cross-links: border-crossings, eilat, eilat-diving-snorkeling, eilat-tours-compared, is-israel-safe,
+  petra-from-eilat-vs-amman. Monetization: GYG "Dahab day trip from Eilat" CTA + Booking.com Taba Heights hotel.
+  SEO: "Sinai from Eilat guide", "Taba crossing day trip", "Dahab from Israel", "Sharm el-Sheikh from Eilat".
+  → BACKLOG (seo-content+monetization, P2, M — needs honest safety framing).
+
+- **"1 Day in Jerusalem" short itinerary guide (P2 gap)** — Tourist Israel ("24 Hours in Jerusalem"),
+  iTravelJerusalem ("Top Jerusalem Vacation Itineraries"), elijahtours.com ("Jerusalem Travel Guide — 24-Hour
+  Itinerary"), onegirlwholeworld.com ("What to Do in Jerusalem: A 24-Hour Itinerary"), psimonmyway.com all rank
+  for "1 day in Jerusalem" / "24 hours in Jerusalem" / "one day Jerusalem itinerary". We have 3-days-in-jerusalem
+  (pre-loop content, existing full-format guide), but NO short-format 1-day or 24-hour guide. Gap is real and
+  commercially important: massive audience of cruise passengers (Ashdod/Haifa port → Jerusalem day trips),
+  Tel Aviv tourists who have one free day, people routing Tel Aviv → Jerusalem → Dead Sea → Masada in sequence.
+  These travelers cannot use the 3-day guide (too much content; incompatible pace); they need a specifically
+  curated 1-day route. Competitor "24 Hours in Jerusalem" content structure: 8am–10am = Mount of Olives + Garden
+  of Gethsemane + descent via Via Dolorosa; 10am–1pm = Old City (Church of Holy Sepulchre / Dome of the Rock
+  plaza / Western Wall + Kotel tunnels with advance booking); 1pm–2pm = Old City lunch at Armenian Quarter Cafe
+  or Muristan; 2pm–4:30pm = Jewish Quarter (Cardo excavation, Hurva Synagogue) + Tower of David Museum; 4:30pm–
+  6pm = Jaffa Gate sunset + Mamilla pedestrian mall; optional evening: Mahane Yehuda for dinner (transforms 8pm
+  into cocktail bars). For each stop: honest time estimates + "if tight on time, skip X" guidance. HONESTY: Temple
+  Mount/Dome of the Rock access for non-Muslims is highly restricted (specific hours, not guaranteed — link
+  official Waqf note and is-israel-safe; do NOT include as a guaranteed agenda item); Kotel Tunnels require
+  advance online booking (tunnel.org.il; book weeks ahead at peak season); Jerusalem is very walkable but hilly —
+  factor in fatigue. Monetization: Jerusalem Tours compared CTA + GYG "Jerusalem Walking Tour" + Booking.com
+  Jerusalem hotel. Dense cross-links: jerusalem-tours-compared, christian-pilgrimage-holy-land, 3-days-in-jerusalem
+  (upsell), jewish-heritage-israel, holy-sites-dress-code-etiquette, day-trips-from-tel-aviv. SEO: "1 day in
+  Jerusalem itinerary 2026", "24 hours in Jerusalem", "one day Jerusalem what to do", "Jerusalem day trip guide".
+  Sources: touristisrael.com/24-hours-in-jerusalem, elijahtours.com/blogs/jerusalem-guide, itraveljerusalem.com,
+  onegirlwholeworld.com/what-to-do-in-jerusalem. → BACKLOG (seo-content+monetization, P2, S).
+
+DE-DUPED (not added from iter 120 research):
+- Jaffa flea market standalone guide: covered by planned "Jaffa travel guide" (iter70, P2, S, backlog) + "shopping
+  in Israel" guide (iter40, P2, M, backlog). Adding a 3rd guide for the same market would be redundant.
+- Passover hotel programs: covered by "traveling-israel-jewish-holidays" practical guide (iter35, P2, M, backlog).
+- Camping (INPA campgrounds) — confirmed INPA camping is already INCLUDED in the "Glamping & desert camping in
+  Israel" combined backlog item (iter60, P2, S). Tent camping at INPA sites is part of that item. Not separate.
+- Medical tourism: already in BACKLOG as P3 (iter55 research noted it). Not elevated.
+- Maccabiah as sports-bundle: de-duplicated — standalone guide added as separate item elevating from P3 bundle.
+- Sea of Galilee general guide: laidbacktrip.com / israel-taxi.com have comprehensive lake-area guides, but
+  tiberias-guide.md (iter87) covers the city + Sea of Galilee swimming + Jesus Boat Museum adequately;
+  the GAP is specifically the boat TOUR EXPERIENCE, not a general lake guide. Added only the boat tour guide.
+
+CAUTION (iter 120):
+- Sea of Galilee boat tour: boat capacity varies (worship boats book private groups weeks ahead for pilgrim season
+  March–May); walk-in pricing confirmed at $20/person as of 2026 but operators change — link directly to operator
+  websites.
+- Timna: UNESCO tentative status can change — frame as "on Israel's UNESCO tentative list" not "UNESCO listed";
+  night show is seasonal (check timna.co.il for current schedule); park access road Route 90 south of Eilat = INPA
+  territory, no military zone issues.
+- Beer Sheva: Thursday Bedouin market hours are early (5am–noon approximately) and the market location should be
+  verified before publication; never publish exact addresses for the livestock section (can change).
+- Maccabiah 2026 guide: post-games (after Jul 13, 2026) page must pivot gracefully to "2030 preview + what the
+  event was like" — add an evergreen section so the page retains value.
+- Archaeology digs: Shiloh site is in West Bank Area C — access is via Israeli-controlled zone but Palestinians
+  dispute this; political sensitivity requires the same "factual framing without editorializing" policy as other
+  West Bank references.
+- Sinai guide: SAFETY IS PRIMARY CONCERN. Must never categorically state Sinai is safe; must link UK FCDO, US
+  State Dept, Australian DFAT government advisories prominently at the top of the page; South Sinai = Level 2
+  (exercise increased caution) while North Sinai = Level 3-4 (reconsider/do not travel); guide covers South
+  Sinai tourist corridor ONLY.
+- "1 day Jerusalem": Temple Mount access for non-Muslims = volatile, regulated by Waqf; never promise access in
+  any guide text. Kotel Tunnels = advance booking essential at peak times.
