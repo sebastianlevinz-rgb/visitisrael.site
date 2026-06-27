@@ -3,6 +3,8 @@ title: 'Christian Pilgrimage to the Holy Land: A Planning Guide'
 description: 'Plan a Christian pilgrimage in Israel: Jerusalem, Bethlehem, Nazareth and the Sea of Galilee — suggested routes, tours, costs and tips for holy-land sites.'
 heroImage: /images/regions/jerusalem/holy-sepulchre.jpg
 category: Planning
+verdictName: 'a Holy Land pilgrimage tour'
+verdictQuery: 'Christian pilgrimage Holy Land Israel tour'
 updatedAt: 2026-06-17
 faqs:
   - question: How many days do I need for a Christian pilgrimage in Israel?

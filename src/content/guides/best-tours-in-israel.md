@@ -3,6 +3,8 @@ title: 'The Best Tours & Day Trips in Israel (2026)'
 description: 'The best tours and day trips in Israel: Jerusalem Old City, Masada & the Dead Sea, Petra from Eilat, Galilee and more — how to choose and where to book.'
 heroImage: /images/regions/dead-sea/hero.jpg
 category: Tours
+verdictName: 'guided tours in Israel'
+verdictQuery: 'best guided tours Israel day trips'
 updatedAt: 2026-05-27
 ctaHeading: 'Top-rated tours & tickets'
 affiliateCtas:

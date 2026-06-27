@@ -3,6 +3,8 @@ title: 'Diving & Snorkeling in Eilat: The Red Sea Guide'
 description: 'Diving and snorkeling in Eilat, Red Sea: best reefs, Coral Beach Reserve, seasons, costs, courses and operators — beginner and certified-diver advice.'
 heroImage: /images/regions/eilat/coral-beach.jpg
 category: Activities
+verdictName: 'an Eilat diving or snorkeling excursion'
+verdictQuery: 'Eilat diving snorkeling tour Red Sea'
 updatedAt: 2026-06-17
 faqs:
   - question: When is the best time to dive in Eilat?
