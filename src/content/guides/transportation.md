@@ -29,6 +29,8 @@ The card costs ₪5 and requires no ID — the anonymous card tourists buy works
 
 Buses cover everywhere the trains don't, from intercity Egged and Metropoline coaches to dense city networks. Jerusalem and Tel Aviv both have **light-rail** lines that are quick for getting around the centre. All take the Rav-Kav.
 
+The **[Tel Aviv Red Line](/tel-aviv-light-rail)** — Israel's first metro-style rail, opened 2023 — runs 24 km from Bat Yam south through central Tel Aviv to Petah Tikva northeast, with 10 underground stations. Key tourist stops: Jaffa area, Carlebach (city centre), Habima (White City / culture), and Arlozorov (intercity rail interchange for the airport). Contactless bank cards accepted at all validators. See the [Tel Aviv Light Rail guide](/tel-aviv-light-rail) for station-by-station breakdown, ticketing options and the airport connection.
+
 ## Sherut shared taxis
 
 **Sheruts** are shared minibuses that run fixed routes, leaving when full. They're cheap, frequent, and crucially they **keep running on Shabbat** on key routes — including between the airport, Tel Aviv and Jerusalem — when trains and most buses pause.
