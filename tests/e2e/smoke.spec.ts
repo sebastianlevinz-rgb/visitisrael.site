@@ -106,6 +106,12 @@ const ROUTES = [
   '/de/water-hiking-israel',
   '/de/israel-adventure-sports',
   '/de/ben-gurion-airport-guide',
+  '/fr/israel-for-seniors',
+  '/fr/whats-open-on-shabbat',
+  '/fr/holy-sites-dress-code-etiquette',
+  '/de/israel-for-seniors',
+  '/de/whats-open-on-shabbat',
+  '/de/holy-sites-dress-code-etiquette',
   '/search',
 ];
 
