@@ -157,3 +157,13 @@
 - iter123 BUILD/i18n Batch 9: israel-5-vs-7-vs-10-days + dead-sea-guide + best-holy-land-tours + israel-travel-insurance → e125d77 — fr+de translations of 4 high-intent guides (8 new locale pages). Honesty: rating/reviews fields dropped from israel-travel-insurance affiliateCta (fabricated data in source). Locale-correct internal links (/fr/ and /de/ prefixes for already-translated guides; EN paths for untranslated). 246 pages (+8), 293/293 e2e+a11y pass. fr/de now 27/~147 pages each.
 - [iter124 REVIEW] i18n Batch 8+9 cross-link audit + base-city-guide meta trim → 9c3a95e. Fixed 10 wrong-locale cross-links across 6 files: fr/de israel-for-seniors (EN paths → locale-prefixed), de/israel-for-seniors /fr/car-rental-israel → /de/ (wrong-locale-prefix bug), fr/de whats-open-on-shabbat + holy-sites-dress-code-etiquette (/shabbat-guide → /fr|de/shabbat-guide). israel-base-city-guide SEO meta trimmed: title 71→58 chars, desc 171→129 chars. Gate: 246 pages, 293/293 e2e+a11y pass.
 - iter126 BUILD/monetization: Jaffa (Yafo) complete travel guide (/jaffa-travel-guide) → da13227 — Old Port + Clock Tower + St Peter's Church + Ilana Goor Museum + Flea Market (Shuk HaPishpeshim) + Abu Hassan hummus + Abouelafia bakery + Kalamata port fine dining + 1948 history context + practical tips. 3 affiliate CTAs (GYG walking tour, Viator food tour, Civitatis TLV highlights). Cross-links: tel-aviv-food-guide + day-trips-from-jerusalem updated. 247 pages (+1), 294/294 e2e+a11y pass.
+
+- iter127 BUILD/seo-content: Solo female travel in Israel guide (/solo-female-travel-israel) → cd2ff94
+  — Honest, practical safety guide for solo women. City-by-city notes (TLV safest; Jerusalem Old City
+  daylight-recommended for Muslim Quarter; Haifa calm; Eilat resort strip). Transport: Gett/Yango apps
+  over street-hailing; sheruts + trains safe; night rideshare recommended. Abraham Hostels female-only
+  dorms in 4 cities + built-in day-tour programme as social mechanism. Dress code overview + cross-link.
+  Emergency contacts (Police 100, Ambulance 101, IMOD 1207). 6 FAQs covering top solo-travel queries.
+  3 affiliate CTAs (Booking.com, GYG group tours, Abraham Hostels). No fabricated safety stats.
+  Captures: "solo female travel Israel 2026", "is Israel safe solo woman", "Israel women solo guide".
+  248 pages (+1). Gate: pnpm check 0 errors · build 248 pages · 295/295 e2e+a11y pass.

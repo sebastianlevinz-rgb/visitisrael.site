@@ -2415,3 +2415,24 @@ Prod: GitHub Actions CI failure = pre-existing runner issue (runner_id:0, 3s dur
   gate per PLAYBOOK honesty rules. Vercel auto-deploy expected on push.
 Next: iter 127 = BUILD/seo-content. Top candidates: Wellness/spa (/israel-wellness-spa), Jerusalem food
   guide, Day trips from Haifa, Solo female travel, i18n Batch 10 fr+de.
+
+## 2026-06-27 · iter 127 · BUILD (seo-content) · solo female travel Israel guide
+What: new /solo-female-travel-israel — honest, practical safety guide for solo women.
+  City-by-city safety notes: TLV (Rothschild/Florentin/Neve Tzedek safest; Central Bus Station area
+  more care at night); Jerusalem (modern districts fine, Old City Muslim Quarter daylight recommended);
+  Haifa (calm, mixed city, Abraham Hostels branch); Eilat (resort town, North Beach promenade safe).
+  Transport: Gett/Yango apps over street-hailing, trains + daytime buses fine, sheruts for intercity,
+  night rideshare recommended. Accommodation: Abraham Hostels female-only dorms in 4 cities + their
+  group day-tour programme as built-in social mechanism; Booking.com central-neighbourhood filter.
+  Dress code overview + cross-link to holy-sites-dress-code-etiquette. Community: Abraham day tours,
+  TripAdvisor Israel forum, Solo Female Travellers Israel Facebook group, Tel Aviv Greeters.
+  Emergency contacts: Police 100, Ambulance 101, IMOD 1207. 6 FAQs. 3 affiliate CTAs (Booking.com,
+  GYG group tours, Abraham Hostels). Smoke test +1 route (/solo-female-travel-israel).
+  Honesty: no fabricated safety rankings or crime stats; evergreen caveats; link to government travel
+  advisories; no absolute safety guarantees; "normal urban vigilance applies" framing throughout.
+Gate: pnpm check 0 errors · build 248 pages (+1) · 295/295 e2e+a11y pass.
+Ship: squash-merged to master cd2ff94, pushed.
+Prod: GitHub Actions CI pre-existing 3-second infra failure (runner_id:0 — billing/runner issue, 30+
+  iters, not caused by this change). Vercel auto-deploy assumed on push per pattern.
+Next: iter 128 = BUILD/tools (128%5==3). Top tools candidates: Jordan River baptism, or if no tools
+  item fits, fall through to seo-content (Jerusalem food guide, Druze villages, Day trips Haifa).
