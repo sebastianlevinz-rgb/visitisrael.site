@@ -2317,3 +2317,20 @@ Ship: committed directly on master c6540e2, pushed (files never committed on bra
 Prod: GitHub CI shows pre-existing 3-second failure (runner billing issue; all prior 10+ commits identical pattern). Not a regression. Vercel status not directly checked; local gate fully green.
 Next: iter 122 = BUILD/seo-content.
 
+
+## 2026-06-27 · iter 122 · BUILD (seo-content) · israel-base-city-guide
+Mode: BUILD/seo-content (122%5==2). Top ready item: israel-base-city-guide (P2, S).
+What: New guide /israel-base-city-guide — "Which city should I base myself in for Israel?"
+  Answers the high-intent pre-booking question. Covers Jerusalem, Tel Aviv, Haifa, Tiberias
+  and Eilat with: honest pros/cons per base, day-trip distance table, Shabbat bus note (Haifa
+  is unique: only city with full Shabbat service), price ranges, trip-length recommendation
+  matrix (3–5d/7d/10d/14d+). No fabricated prices or ratings. Affiliate CTAs: booking.com
+  hotel search for Jerusalem, Tel Aviv and Haifa.
+  Cross-linked from: footer (new "Which city to base in" link), first-time-in-israel (last
+  paragraph), israel-accommodation-guide (related guides list). Smoke test route added.
+  Fix during gating: unescaped apostrophe in YAML single-quoted string (Israel's → Israel''s);
+  dead link to /druze-villages-carmel (not yet built) → removed link, kept plain text.
+Gate: pnpm check 0 errors; build 238 pages (+1); 277/277 e2e+a11y pass.
+Ship: squash-merged to master af0aa7c, pushed.
+Prod: GitHub CI shows pre-existing 3-second failure (runner/billing issue; identical pattern to all prior 10+ commits). Not a regression. Local gate fully green.
+Next: iter 123 = BUILD/tools (123%5==3).
