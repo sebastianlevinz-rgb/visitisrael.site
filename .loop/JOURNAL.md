@@ -2524,3 +2524,21 @@ Prod: GitHub Actions CI showed failure on this commit, same pre-existing pattern
   recent commits — not a regression. Local gate fully green. No revert done.
   i18n progress: fr 34/~147, de 34/~147 (home + plan-your-trip + 32 guides each).
 Next: iter 133 = BUILD/tools.
+
+## 2026-06-27 · iter 133 · BUILD/technical · event-schema-upgrade
+What: Added schema.org/Event JSON-LD to guide pages with schedulable annual experiences.
+  Motivation: Google dropped FAQPage rich results (May 2026); Event schema is now the
+  top structured-data performer for travel content. Tools backlog fully shipped → fell
+  through to technical category per playbook rule.
+  Changes: eventSchema() helper in src/lib/schema.ts; guideEvent Zod schema +
+  events[] field in content.config.ts; [...slug].astro emits Event blocks from frontmatter.
+  israel-events-festivals.md: 5 Events (TLV Pride June 12, Rosh Hashanah Oct 11-12,
+  Yom Kippur Oct 20, Sukkot Oct 15-22, Hanukkah Dec 14-22 — all 2026).
+  masada-dead-sea-day-trip.md: 1 Event (Sound and Light Show season Mar–Oct 2026,
+  Tue+Thu 9pm). 3 new Playwright E2E tests (event blocks present, required fields,
+  no aggregateRating honesty gate).
+Gate: pnpm check 0 errors; build 262 pages; 310/310 e2e+a11y pass.
+Ship: squash-merged to master 32c3e07, pushed.
+Prod: GitHub Actions CI showed failure — same pre-existing pattern as all recent commits.
+  Local gate fully green. No revert done.
+Next: iter 134 = REVIEW mode.

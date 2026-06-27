@@ -191,3 +191,4 @@
   now renders on 20 pages (was 14). 12-line frontmatter-only diff; no component changes.
   Value: broadened conversion surface on high-intent attraction and activity guides.
 - i18n Batch 11 (iter132, 815e5bb): solo-female-travel-israel + israel-with-kids + tel-aviv-vs-jerusalem + israel-events-festivals in fr+de — 8 new locale pages; paired naming for Klagemauer/Kotel; fr/de now 34/~147 each.
+- Event schema upgrade (iter133, 32c3e07): eventSchema() helper + Event JSON-LD emitted from guides with schedulable annual experiences. israel-events-festivals.md: 5 Events (TLV Pride, Rosh Hashanah, Yom Kippur, Sukkot, Hanukkah — 2026 dates). masada-dead-sea-day-trip.md: 1 Event (Sound and Light Show season). 3 new Playwright tests. Value: Event structured-data now the top SERP performer for travel (Google dropped FAQPage rich results May 2026); page is ready to emit Events for any future guide that adds an events[] frontmatter array.
