@@ -2220,3 +2220,17 @@ Gate: N/A (research mode — no ship).
 Merge: none. State persisted to git.
 Next: iter 116 = BUILD/monetization. Best fit: Tel Aviv White City guide (S effort, monetization
   CTAs via Bein Harim + GYG) — or Jerusalem food guide (M effort). White City recommended.
+
+## 2026-06-27 · iter 116 · BUILD/monetization · Tel Aviv White City guide
+What: Authored /tel-aviv-white-city — full UNESCO White City & Bauhaus architecture guide.
+  Historical context (German-Jewish architects 1930s), Bauhaus Center at 77 Dizengoff St,
+  self-guided walking route (Bialik Square → Rothschild Blvd → Dizengoff Square), 6 must-see
+  buildings, photography timing tips, 6 FAQs. Rothschild.jpg hero image (existing asset).
+  3 affiliate CTAs: GYG "White City Bauhaus walking tour", Viator "Jaffa to Bauhaus walk",
+  Civitatis private guide. Cross-links: tel-aviv-food-guide, tel-aviv-nightlife, tel-aviv-light-rail.
+  Smoke test route added. 229 pages total (+1 from 228).
+Gate: pnpm check 0 errors · pnpm build 229 pages · pnpm test:e2e 258/258 pass. GREEN.
+Ship: commit ba84bf5, pushed to master.
+Prod: CI GitHub Actions 2-sec infra failure (runner_id=0, runner_name="") — pre-existing cloud
+  env issue consistent across 30+ iterations; not a regression. Vercel deploy inferred green.
+Next: iter 117 = BUILD/seo-content. Israeli street food guide recommended.
