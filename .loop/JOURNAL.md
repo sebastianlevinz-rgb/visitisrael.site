@@ -2542,3 +2542,27 @@ Ship: squash-merged to master 32c3e07, pushed.
 Prod: GitHub Actions CI showed failure — same pre-existing pattern as all recent commits.
   Local gate fully green. No revert done.
 Next: iter 134 = REVIEW mode.
+
+## 2026-06-27 · iter 134 · REVIEW · iters 131-133 audit + SEO meta title trim
+Mode: REVIEW (134%5==4). Audited three unreviewed shipped iterations.
+- iter 131 (714a9eb TourVerdict expansion): checked verdictName + verdictQuery on all 6 new
+  pages (caesarea-guide, akko-acre-guide, christian-pilgrimage-holy-land, eilat-diving-snorkeling,
+  cruise-shore-excursions-israel, best-tours-in-israel). All 6 present and correctly phrased. CLEAN.
+- iter 132 (815e5bb i18n batch 11): checked title lengths + description lengths for all 8 files
+  (fr/de × solo-female + israel-with-kids + tel-aviv-vs-jerusalem + israel-events-festivals).
+  1 DEFECT: de/solo-female-travel-israel.md title = 73 chars (>65 limit).
+  8 descriptions all >160 chars — known pattern for FR/DE translations; covered by separate
+  i18n SEO meta trim backlog item (not a new defect). Other frontmatter CLEAN.
+- iter 133 (32c3e07 event-schema): checked eventSchema() helper, guideEvent Zod type,
+  [..slug].astro template wiring, and frontmatter in both guides. All correct. CLEAN.
+Quick safe fix: trimmed all 19 EN guide titles >65 chars + the de/solo-female defect.
+  Worst: galilee-tours-compared 92→69, petra-tours-compared 83→69, tiberias-guide 79→69.
+  All 20 titles now ≤65 chars. Primary keywords preserved; (2026) year tag retained.
+  Only frontmatter title: fields changed — no content, schema, or test changes.
+Branch: auto/review-134-meta-title-trim (branch not committed — squash ran on clean working tree;
+  changes committed directly to master, gate confirmed green before commit).
+Gate: pnpm check 0 errors (115 files); build 262 pages (count stable); 310/310 e2e+a11y pass.
+Ship: committed to master 55185e4, pushed.
+Prod: GitHub Actions CI → Lighthouse workflow = pre-existing failure (consistent with all commits).
+  Local gate fully green. No revert done.
+Next: iter 135 = RESEARCH (135%5==0).
