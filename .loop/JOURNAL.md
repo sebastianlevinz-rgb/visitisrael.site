@@ -2117,3 +2117,22 @@ Gate: N/A (research mode — no shipping).
 Merge: none.
 Prod: n/a.
 Loop state: iteration bumped to 110; BACKLOG now ~105 ready items; COMPETITORS.md appended.
+
+## 2026-06-27 · iter 111 · BUILD (monetization) · Caesarea complete day-trip guide
+What: new /caesarea-guide page. Fills the gap between 4 existing Caesarea attraction
+  sub-pages (national-park, harbour, aqueduct-beach, ralli-museum) and no guide-format
+  visitor page — identical pattern to akko-acre-guide (iter72). Content: Roman Theatre,
+  Herodian Sebastos harbour, Crusader walls + Pilate Inscription, Aqueduct Beach, Ralli
+  Museum (free), harbour restaurants, Caesarea+Haifa / Caesarea+Haifa+Akko / Caesarea+
+  Zichron Yaakov combinations, getting there from TLV (45 min drive / train to Caesarea-
+  Pardes Hanna) and Haifa (30 min). 3 affiliate CTAs: GYG (northern coast combo), Viator
+  (private guide), Civitatis (wine tour). 6 FAQs. Cross-links: caesarea-national-park
+  → /caesarea-guide; day-trips-from-tel-aviv → /caesarea-guide + /akko-acre-guide.
+  YAML fix: Bahá'í apostrophe breaks single-quoted YAML frontmatter strings; used "Bahai"
+  in frontmatter, full diacritics in body markdown.
+Gate: pnpm check 0 errors; build 226 pages (+1); 251/251 e2e+a11y pass.
+Ship: commit 2acd952, pushed to master.
+Prod: CI GitHub Actions showing pre-existing failure on every commit for 30+ iterations
+  (cloud env; no runner available) — not a regression. Vercel deploy inferred green per
+  prior-iteration pattern; Vercel status not directly checkable without gh CLI.
+Next: iter 112 = BUILD/seo-content.
