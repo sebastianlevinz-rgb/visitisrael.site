@@ -1,22 +1,23 @@
 # LOOP STATE
 
-- iteration: 128
-- lastMode: BUILD/tools (fall-through to i18n Batch 10)
-- lastItem: i18n-batch-10 — FR+DE translations for christian-pilgrimage-holy-land, israel-national-parks-pass, driving-in-israel (6 new locale pages); smoke+a11y specs extended +6 routes
-- lastResult: SHIPPED 367c608. Gate: pnpm check 0 errors; build 254 pages (+6); smoke+a11y +6 routes. Pushed to master.
-- nextRotationCategory: 129%5==4 → REVIEW; 130%5==0 → RESEARCH; 131%5==1 → BUILD/monetization; 132%5==2 → BUILD/seo-content; 133%5==3 → BUILD/tools
+- iteration: 129
+- lastMode: REVIEW
+- lastItem: review-i18n-meta-trim — audit iters 126-128; fixed 3 over-length FR/DE titles + 3 over-length descriptions in i18n Batch 10 (fr/driving, fr/parks, de/driving, fr/christian-pilgrimage)
+- lastResult: SHIPPED 115419d. Gate: pnpm check 0 errors; build 254 pages; 307/307 e2e+a11y. EN files (jaffa, solo-female) audited clean. Note: GitHub CI has pre-existing failure on all master commits (infrastructure issue, not a regression).
+- nextRotationCategory: 130%5==0 → RESEARCH; 131%5==1 → BUILD/monetization; 132%5==2 → BUILD/seo-content; 133%5==3 → BUILD/tools; 134%5==4 → REVIEW
 - higgsfieldSpent: 0
 - updatedAt: 2026-06-27
 - branch context: work on master; feature work on auto/<slug>
 
-Notes: iter 128 BUILD/tools fall-through → i18n Batch 10. All tools items were fully shipped;
-  fell through to P1 i18n (4 iters overdue). 6 new locale pages (fr+de × 3 guides).
-  Christian pilgrimage: honesty framing for Qasr al-Yahud; paired naming for all contested religious sites.
-  National parks pass: price ranges with "verify" caveats; exclusions table; parks.org.il links.
-  Driving in Israel: affiliate CTAs (discovercars/rentalcars) translated; kerb colour rules; Route 6.
-  i18n progress: fr 30/~147, de 30/~147 (home + plan-your-trip + 28 guides each).
-  Build: 254 pages (+6). Gate: pnpm check 0 errors; build clean. Pushed 367c608.
+Notes: iter 129 REVIEW. Audited iters 126-128 (jaffa-travel-guide, solo-female-travel-israel,
+  i18n Batch 10). Both EN guides clean. FR/DE Batch 10 had 3 titles >65 chars and 3 descs >160 chars.
+  Fixed: fr/national-parks title 69→52; fr/driving title 81→52, desc 188→136;
+  de/driving title 75→53, desc 169→130; fr/christian-pilgrimage desc 171→143.
+  de/national-parks title at exactly 65 chars — boundary, left as-is.
+  i18n progress: fr 30/~147, de 30/~147. Build: 254 pages (stable).
 
-NEXT: iter 129 = REVIEW (129%5==4). Review iters 126-128 (jaffa, solo-female, i18n-batch-10).
+NEXT: iter 130 = RESEARCH (130%5==0). Research pass: study competitors for profitable features
+  not yet in BACKLOG; append 6-10 new items. Candidates: Haifa city guide gap, Eilat city guide,
+  Jordan River baptism, event schema upgrade opportunities, i18n Batch 11 candidates.
 Cron b7325b16 hourly @ :17. Loop history: 18 tools + sitemap-lastmod + link-checker(+depth) + i18n
-Phase0/1a/1b/1c/2 Batches1-10 + 10 review passes; research iters 5/10/20/30/35/40/45/50/55/60/65/70/75/80/85/90/95/100/105/110/115/120/125.
+Phase0/1a/1b/1c/2 Batches1-10 + 11 review passes; research iters 5/10/20/30/35/40/45/50/55/60/65/70/75/80/85/90/95/100/105/110/115/120/125.

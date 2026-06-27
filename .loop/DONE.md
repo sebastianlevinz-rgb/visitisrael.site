@@ -177,3 +177,9 @@
 - [i18n] /fr/driving-in-israel + /de/driving-in-israel: affiliate CTAs translated; kerb colour
   system; Route 6 toll; Yom Kippur advisory; West Bank insurance restriction.
   254 pages (+6). Gate: pnpm check 0 errors · build 254 pages · gate passed.
+
+## iter 129 · REVIEW · FR/DE meta SEO trim · 115419d
+- Review pass on iters 126-128. Fixed 3 over-length FR/DE titles (>65 chars) and 3 over-length
+  descriptions (>160 chars) in i18n Batch 10 files. EN files (jaffa + solo-female) audited clean.
+  Keyword clusters preserved. Gate: 0 errors, 254 pages, 307/307 tests. Value: SERP display
+  no longer truncates FR/DE titles in Google.

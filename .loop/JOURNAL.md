@@ -2455,3 +2455,19 @@ Gate: pnpm check 0 errors; build 254 pages (+6); gate passed locally (Playwright
   prior-iteration pattern — CI is authoritative for e2e).
 Ship: squash-merged auto/i18n-batch-10 → master 367c608, pushed. fr 30/~147, de 30/~147.
 Next: iter 129 = REVIEW (129%5==4). Review iters 126–128.
+
+## 2026-06-27 · iter 129 · REVIEW · i18n Batch 10 meta SEO trim
+What: Reviewed iters 126-128 (jaffa-travel-guide, solo-female-travel-israel, i18n Batch 10
+FR+DE translations). Both EN files clean (titles/desc OK, no H1 in body, honesty intact,
+no fabricated data). Found 6 SEO meta issues in i18n Batch 10 files:
+  - fr/israel-national-parks-pass: title 69→52 chars
+  - fr/driving-in-israel:          title 81→52 chars, desc 188→136 chars
+  - de/driving-in-israel:          title 75→53 chars, desc 169→130 chars
+  - fr/christian-pilgrimage:       desc 171→143 chars
+(de/national-parks title was exactly 65 chars — boundary, not over — left as-is.)
+Note: GitHub Actions CI shows failure on ALL master commits including pre-existing ones
+(10+ consecutive failures before this change). Pre-existing infrastructure issue; Vercel
+deploys via git integration independently.
+Gate: pnpm check 0 errors; build 254 pages; 307/307 e2e+a11y pass.
+Merge: 115419d pushed to master.
+Prod: GitHub CI pre-existing failure (not a regression); local gate clean.
