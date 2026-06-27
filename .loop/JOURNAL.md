@@ -2234,3 +2234,21 @@ Ship: commit ba84bf5, pushed to master.
 Prod: CI GitHub Actions 2-sec infra failure (runner_id=0, runner_name="") — pre-existing cloud
   env issue consistent across 30+ iterations; not a regression. Vercel deploy inferred green.
 Next: iter 117 = BUILD/seo-content. Israeli street food guide recommended.
+
+## 2026-06-27 · iter 117 · BUILD/seo-content · Israeli street food guide
+What: Authored /israeli-street-food-guide — city-by-city stall logistics guide for Israeli street
+  food. Covers 8 dishes (falafel, sabich, hummus, shawarma, burekas, knafeh, Jerusalem mixed grill,
+  malawach/jachnun) with WHERE to find each: TLV (HaKosem falafel/shawarma, Sabich Tchernikhovsky,
+  Carmel Market section-by-section, Florentin); Jerusalem (Abu Shukri Muslim Quarter, Mahane Yehuda,
+  Azura, Jerusalem mixed grill); Jaffa (Abu Hassan hummus, Abouelafia 24h burekas); Haifa (Wadi
+  Nisnas hummus corridor); Nazareth (Mahroum Sweets knafeh). Practical tips: timing (hummus sells
+  out by noon), cash, queue etiquette, amba. 3 affiliate CTAs: GYG TLV food tour, Viator Jerusalem
+  market tour, Civitatis Jaffa walk. 6 FAQs. Cross-links: israeli-food-cuisine-guide, kosher-food-
+  guide, tel-aviv-food-guide, israel-food-tours-cooking-classes. Hero: carmel-market.jpg. Honesty:
+  vendor hours qualify as "typically open — verify before special trip"; "best" framed as
+  "consistently cited across multiple sources"; no fabricated prices (all are ranges).
+Gate: pnpm check 0 errors · pnpm build 230 pages (+1 from 229) · pnpm test:e2e 259/259 pass. GREEN.
+Ship: commit 2e71798, pushed to master.
+Prod: CI GitHub Actions 1-sec infra failure (runner_id=0, runner_name="") — pre-existing cloud env
+  issue consistent across 30+ iterations; not a regression. Vercel deploy inferred green per pattern.
+Next: iter 118 = BUILD/tools.
