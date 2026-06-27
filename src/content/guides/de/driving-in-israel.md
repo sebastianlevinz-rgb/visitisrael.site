@@ -1,6 +1,6 @@
 ---
-title: "Autofahren in Israel: Verkehrsregeln, Parken, Mautgebühren und lokale Tipps"
-description: "Als Tourist in Israel fahren: Geschwindigkeitsbeschränkungen, Route-6-Maut, farbkodiertes Parken, Waze-Tipps, Schabbat-Regeln und Westjordanland-Einschränkungen erklärt."
+title: "Autofahren in Israel: Regeln, Parken und Mautgebühren"
+description: "Als Tourist in Israel fahren: Tempolimits, Route-6-Maut, Parken, Waze, Schabbat-Regeln und Westjordanland-Einschränkungen erklärt."
 heroImage: /images/regions/negev/hero.jpg
 category: Transport
 updatedAt: 2026-06-27

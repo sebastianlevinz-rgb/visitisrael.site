@@ -1,6 +1,6 @@
 ---
 title: "Pèlerinage chrétien en Terre Sainte : guide de planification"
-description: "Planifier un pèlerinage chrétien en Israël : Jérusalem, Bethléem, Nazareth et la mer de Galilée — itinéraires, circuits, coûts et conseils pratiques pour les sites saints."
+description: "Pèlerinage chrétien en Israël : Jérusalem, Bethléem, Nazareth, mer de Galilée — itinéraires, circuits, coûts et conseils pour les sites saints."
 heroImage: /images/regions/jerusalem/holy-sepulchre.jpg
 category: Planning
 updatedAt: 2026-06-27

@@ -1,6 +1,6 @@
 ---
-title: "Conduire en Israël : règles de la route, stationnement, péages et conseils locaux"
-description: "Conduire en Israël en tant que touriste : limitations de vitesse, péage de la Route 6, stationnement par couleur, conseils Waze, règles du Shabbat et restrictions en Cisjordanie expliqués."
+title: "Conduire en Israël : règles, stationnement et péages"
+description: "Conduire en Israël : vitesse, péage Route 6, stationnement par couleur, conseils Waze, règles du Shabbat et restrictions en Cisjordanie."
 heroImage: /images/regions/negev/hero.jpg
 category: Transport
 updatedAt: 2026-06-27
