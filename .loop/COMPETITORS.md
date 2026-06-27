@@ -1547,3 +1547,76 @@ CAUTION (iter 110): Hamat Gader = Israeli-operated site in the Golan Heights (te
   Music festivals: Meteor has camping in Negev — summer/autumn desert camping = extreme temperature swings;
   always include realistic weather framing. Jerusalem Festival of Light in Old City: tight alleys + large
   crowds + late night (9pm–midnight) — sensible safety advice for solo travelers.
+
+---
+
+## iter 115 · RESEARCH · 2026-06-27 — Schema changes, solo travel, city guides, street food gaps
+
+### Google Schema Changes (May 2026 — critical technical finding)
+- **FAQ rich results DEAD**: Google removed FAQPage rich results entirely as of May 7, 2026
+  (searchenginejournal.com; confirmed by digitalapplied.com schema update post). Existing FAQPage
+  markup on our pages is harmless but generates zero SERP lift. Do NOT add new FAQPage schema.
+- **Event schema is the 2026 winner**: time-specific content (festivals, tours, seasonal shows) gets
+  the strongest SERP treatment from Event schema. Prioritize adding Event JSON-LD to
+  israel-events-festivals.md, evening-activities guide (when built), Masada/Tower of David show refs.
+- **HowTo schema demoted**: on "supplementary content" per March 2026 core update — still valid
+  for core how-to instructions but no longer a reliable SERP trigger.
+- **AI search signal**: structured data's value is shifting from SERP-display trigger to AI-crawl
+  trust signal — continue marking up for LLM discoverability even when rich results don't fire.
+
+### Tourist Israel — New 2026 Content (iter 115)
+- **Gaza Border Tour / Oct 7 Memorial**: new active product (confirmed in search results); already
+  in BACKLOG as BLOCKED item (human editorial review required). Tourist Israel + Bein Harim +
+  Exclusive Israel Tours all now operating organized tours. Not for autonomous implementation.
+- **Haifa coverage**: touristisrael.com has a "What to Do in Haifa" page but not a comprehensive
+  city guide. Gap exists for us to build the definitive Haifa travel guide.
+- **Street food**: touristisrael.com has 2 dedicated street food pages ("Fast Eats and Street Food
+  in Israel"; "Guide to Israeli Food: How to Eat Like a Local") — we have a cuisine overview but
+  no logistics/where-to-find guide. Added to BACKLOG.
+
+### Solo Female Travel Gap (iter 115)
+- **Specialists dominating**: israeltraveladvisor.org, mukikapupstravels.com, jessieonajourney.com,
+  secret-israel.com, backpackisrael.com, hersafevoyage.com all rank for "solo female travel Israel".
+  Israel ranked #59/~150 globally for solo female safety (travelladies.app 2026 data).
+- **Key safety nuances**: avoid Neve Shanan/Shapira/Hatikva in TLV at night (Central Bus Station
+  area); Muslim Quarter in Jerusalem = unwanted attention for solo women but not dangerous; female-
+  only dorms at Abraham Hostels in all major cities; Gett app preferred over street-hail at night.
+- **Our gap**: is-israel-safe.md covers general security — no female-specific content. Added to BACKLOG.
+
+### Tel Aviv White City (iter 115)
+- **Bauhaus Center Tel Aviv** (bauhaus-center.com): the authoritative org; runs English tours Fri+Sun
+  10am; produces official city map; UNESCO coordination partner.
+- **Key players**: Atlas Obscura, ArchDaily, Bein Harim ("White City Bauhaus Tour"), mywanderlust.pl,
+  GPSmyCity self-guided walking tour all rank. Tourist Israel has a short overview page.
+- **Our gap**: no dedicated architecture/White City guide. 4,000+ UNESCO Bauhaus buildings = major
+  cultural draw especially for design/architecture tourists (growing segment). Added to BACKLOG.
+
+### Haifa City Guide Gap (iter 115)
+- **Competitors**: Expedia, TripAdvisor, israel-taxi.com, magnificenttravel.com all have dedicated
+  Haifa city guides. Tourist Israel has activity overview.
+- **Haifa's unique hooks**: only Israeli city with full Shabbat bus service; Bahá'í World Centre
+  (UNESCO) = free guided tours; German Colony = best restaurant strip outside TLV; world's only
+  dedicated Japanese Art museum (Tikotin) outside Japan.
+- **Our gap**: day-trips-from-haifa + druze-villages-carmel both in BACKLOG but no Haifa city guide
+  exists. Builds the hub page that the day-trips guide will cross-link to. Added to BACKLOG (M effort).
+
+### Israeli Street Food (iter 115)
+- **Competitors**: Next Level of Travel ("13 Best Israeli Street Foods"), Travel With Hello,
+  Tourist Israel (two dedicated pages), Go World Travel, travelinsighter.com all rank.
+- **Gap**: israeli-food-cuisine-guide.md = overview; tel-aviv-food-guide.md = restaurants. What's
+  missing: the where-to-find-it logistics guide with city-by-city best spots, stall timing tips
+  (hummus sells out by noon), dietary flags, price ranges. Added to BACKLOG.
+
+### Digital Nomad / Coworking (confirming P3 item)
+- Tel Aviv ranked highly for remote work infrastructure: 200-500 Mbps fiber standard; WeWork,
+  Mindspace, free Mazeh9 municipality coworking. No Israel-specific digital nomad visa (90-day
+  tourist, gray-area enforcement for foreign-client remote workers). Multiple specialists rank:
+  psimonmyway.com, digitalnomads.world, nomadglory.com, whitecollarwanderer.com.
+- Existing P3 BACKLOG item (/digital-nomad-guide TLV) remains valid. Not elevated (P3 sufficient).
+
+DE-DUPED (not added from iter 115 research):
+- "What to wear in Israel": holy-sites-dress-code-etiquette.md EXISTS — covers this topic. SKIP.
+- Tiberias guide: tiberias-guide.md EXISTS. SKIP.
+- Israel eSIM/SIM: israel-esim.md EXISTS with eSIM tier table. BACKLOG duplicate removed.
+- Jordan + Petra multi-day itinerary: israel-jordan-itinerary already in BACKLOG (P2). Not duplicated.
+- Israel digital nomad: already in BACKLOG (P3). Confirmed still valid, not elevated.

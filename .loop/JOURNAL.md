@@ -2193,3 +2193,30 @@ Ship: commit 1869b1a, pushed to master.
 Prod: CI GitHub Actions pre-existing failure (cloud env runner, 2-sec job, runner_id=0,
   30+ iterations) — not a regression. Vercel deploy inferred green per pattern.
 Next: iter 115 = RESEARCH.
+
+## 2026-06-27 · iter 115 · RESEARCH · Schema changes, solo female, White City, Haifa, street food
+
+What: Web-researched 2 focus areas from STATE.md: (1) touristisrael.com new pages + competitor
+  gaps in comparison/money pages; (2) schema patterns competitors use.
+Key findings:
+  - CRITICAL TECHNICAL: Google dropped FAQPage rich results entirely May 7, 2026. Existing
+    FAQPage markup on our pages = harmless but zero SERP lift. Event schema is now the strongest
+    structured-data type for travel content. Added "Event schema upgrade" to technical BACKLOG.
+  - SOLO FEMALE TRAVEL GAP: 6+ specialists dominate (israeltraveladvisor.org, mukikapupstravels,
+    jessieonajourney, secret-israel, backpackisrael, hersafevoyage). Our is-israel-safe.md covers
+    general security only. Added solo-female-travel-israel guide to BACKLOG (P2, seo-content, S).
+  - TEL AVIV WHITE CITY GAP: Atlas Obscura, ArchDaily, Bein Harim, Tourist Israel, bauhaus-center.com
+    all rank. 4,000+ UNESCO Bauhaus buildings; world's largest collection. Zero on our site.
+    Added tel-aviv-white-city guide to BACKLOG (P2, seo-content+monetization, S).
+  - HAIFA CITY GUIDE: Expedia, TripAdvisor, israel-taxi.com, Tourist Israel all have Haifa guides.
+    We have day-trips-from-haifa + druze-villages-carmel in backlog but no hub page. Added
+    haifa-travel-guide to BACKLOG (P2, seo-content, M).
+  - ISRAELI STREET FOOD LOGISTICS: Tourist Israel has 2 dedicated street food pages; multiple
+    others rank. Our cuisine guide covers dishes broadly; missing where-to-find logistics.
+    Added israeli-street-food-guide to BACKLOG (P2, seo-content, S).
+  - ESIM CLEANUP: israel-esim.md already exists with full content + tier table. Removed duplicate
+    BACKLOG item (/israel-esim-sim-card). 
+Gate: N/A (research mode — no ship).
+Merge: none. State persisted to git.
+Next: iter 116 = BUILD/monetization. Best fit: Tel Aviv White City guide (S effort, monetization
+  CTAs via Bein Harim + GYG) — or Jerusalem food guide (M effort). White City recommended.
