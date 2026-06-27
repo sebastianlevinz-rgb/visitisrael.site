@@ -1,30 +1,29 @@
 # LOOP STATE
 
-- iteration: 123
-- lastMode: BUILD (i18n batch 9 — fell through from tools, no ready tools items)
-- lastItem: iter123 i18n Batch 9 — israel-5-vs-7-vs-10-days, dead-sea-guide, best-holy-land-tours, israel-travel-insurance (fr+de)
-- lastResult: SHIP success, SHA e125d77. pnpm check 0 errors; 246 pages built; 293/293 e2e+a11y pass. GitHub CI shows pre-existing 3-second Lighthouse failure (runner/billing issue, all prior commits identical pattern). Local gate fully green.
-- nextRotationCategory: 124%5==4 → REVIEW; 125%5==0 → RESEARCH; 126%5==1 → BUILD/monetization; 127%5==2 → BUILD/seo-content; 128%5==3 → BUILD/tools
+- iteration: 124
+- lastMode: REVIEW
+- lastItem: iter124 REVIEW — i18n Batch 8+9 cross-link audit + base-city-guide meta trim
+- lastResult: SHIP success, SHA 9c3a95e. pnpm check 0 errors; 246 pages built; 293/293 e2e+a11y pass. GitHub CI shows pre-existing 3-second Lighthouse failure (runner/billing issue, all prior commits identical pattern). Local gate fully green.
+- nextRotationCategory: 125%5==0 → RESEARCH; 126%5==1 → BUILD/monetization; 127%5==2 → BUILD/seo-content; 128%5==3 → BUILD/tools; 129%5==4 → REVIEW
 - higgsfieldSpent: 0
 - updatedAt: 2026-06-27
 - branch context: work on master; feature work on auto/<slug>
 
-Notes: iter 123 BUILD/i18n Batch 9.
-  No tools items ready in backlog (all 10 shipped). Fell through to i18n (P1).
-  Shipped 8 translation files (fr+de × 4 guides):
-  - /fr/israel-5-vs-7-vs-10-days, /de/israel-5-vs-7-vs-10-days
-  - /fr/dead-sea-guide, /de/dead-sea-guide
-  - /fr/best-holy-land-tours, /de/best-holy-land-tours
-  - /fr/israel-travel-insurance, /de/israel-travel-insurance
-  Locale-correct internal links (/fr/ and /de/ prefixes for translated guides).
-  rating/reviews fields dropped from affiliateCtas (honesty). Smoke+a11y +8 routes.
+Notes: iter 124 REVIEW — audit of i18n Batches 8+9 (iters 121-123) and israel-base-city-guide (iter 122).
+  Found and fixed 10 wrong-locale cross-links across 6 files:
+  - fr/israel-for-seniors: /israel-5-vs-7-vs-10-days → /fr/, /israel-travel-insurance → /fr/
+  - de/israel-for-seniors: /fr/car-rental-israel → /de/ (wrong locale prefix!), /israel-5-vs-7-vs-10-days → /de/, /israel-travel-insurance → /de/
+  - fr/whats-open-on-shabbat: intro /shabbat-guide → /fr/shabbat-guide
+  - fr/holy-sites-dress-code-etiquette: /shabbat-guide ×2 → /fr/shabbat-guide
+  - de/holy-sites-dress-code-etiquette: /shabbat-guide ×2 → /de/shabbat-guide
+  Fixed israel-base-city-guide SEO meta: title 71→58 chars, desc 171→129 chars.
+  Also discovered: all 14 i18n Batch 8+9 fr/de files have titles >65 and/or desc >160 chars
+  (translations run longer than EN originals) — added to BACKLOG as new item.
   246 total pages; 293 e2e tests.
-  fr/de now 27/~147 each.
 
-NEXT: iter 124 = REVIEW. Audit a recent batch of shipped work.
-  Good candidates: iters 118-123 (golden hour calculator, i18n batches 8+9, base city guide).
-  Also eligible: seo-meta batch fix (technical, S) — 15 titles >65 chars still in BACKLOG.
-  i18n Batch 9 next cross-link fix: israel-for-seniors fr/de reference /israel-5-vs-7-vs-10-days
-    (EN path) — should be /fr/israel-5-vs-7-vs-10-days and /de/ equivalent. Safe quick fix.
+NEXT: iter 125 = RESEARCH (125%5==0). Good candidates: deep competitor scan for missing money pages,
+  wellness/spa gap, solo-female gap, or check BACKLOG for recent research deficits.
+  Also available: Jordan River baptism guide (P2 seo-content, ready), Jerusalem food guide (P2, M),
+  Day trips from Haifa (P2, M), Druze Carmel villages (P2, S) — all strong seo-content items.
 Cron b7325b16 hourly @ :17. Loop history: 18 tools + sitemap-lastmod + link-checker(+depth) + i18n
-Phase0/1a/1b/1c/2 + 9 review passes; research iters 5/10/20/30/35/40/45/50/55/60/65/70/75/80/85/90/95/100/105/110/115/120.
+Phase0/1a/1b/1c/2 + 10 review passes; research iters 5/10/20/30/35/40/45/50/55/60/65/70/75/80/85/90/95/100/105/110/115/120.

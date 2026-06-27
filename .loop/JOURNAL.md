@@ -2360,3 +2360,20 @@ Ship: committed 8 guide files + 2 test files directly to master e125d77, pushed.
 Prod: GitHub CI shows pre-existing 3-second failure (runner/billing issue; all prior 10+ commits identical
   pattern). Not a regression. Local gate fully green.
 Next: iter 124 = REVIEW (124%5==4). Audit iters 118-123 (golden hour calculator, i18n batches 8+9, base-city guide).
+
+## 2026-06-27 · iter 124 · REVIEW · i18n Batch 8+9 cross-link audit + base-city-guide meta trim
+What: Audited i18n Batches 8+9 (iters 121-123) and israel-base-city-guide (iter 122) for
+  correctness, dead links, SEO meta, and honesty. Found and fixed 10 wrong-locale cross-links:
+  - fr/israel-for-seniors: /israel-5-vs-7-vs-10-days → /fr/, /israel-travel-insurance → /fr/
+  - de/israel-for-seniors: /fr/car-rental-israel → /de/ (wrong-prefix bug!), /israel-5-vs-7-vs-10-days → /de/,
+    /israel-travel-insurance → /de/
+  - fr/whats-open-on-shabbat: intro /shabbat-guide → /fr/shabbat-guide
+  - fr/holy-sites-dress-code-etiquette: /shabbat-guide ×2 → /fr/shabbat-guide
+  - de/holy-sites-dress-code-etiquette: /shabbat-guide ×2 → /de/shabbat-guide
+  SEO meta fix: israel-base-city-guide title 71→58 chars, desc 171→129 chars.
+  Discovered: all 14 i18n Batch 8+9 fr/de files have titles >65 and/or desc >160 (FR/DE translations
+  run longer than EN originals) — added as new BACKLOG item (technical, M).
+Gate: pnpm check 0 errors · pnpm build 246 pages · pnpm test:e2e 293/293 pass. GREEN.
+Ship: commit 9c3a95e, pushed to master (6 files, 12 insertions/12 deletions).
+Prod: GitHub CI pre-existing 3-second failure (runner/billing issue, 30+ iters) — not a regression.
+Next: iter 125 = RESEARCH (125%5==0).
