@@ -2305,3 +2305,15 @@ Deduplication: confirmed each item is distinct from ~105 existing BACKLOG entrie
 Result: 7 net-new BACKLOG items added (all P2 seo-content+monetization); findings + sources appended to
   COMPETITORS.md iter120 section. Backlog ~112 ready items.
 
+## 2026-06-27 · iter 121 · BUILD (i18n Batch 8) · israel-for-seniors + whats-open-on-shabbat + holy-sites-dress-code-etiquette (fr+de)
+Mode: BUILD/monetization (121%5==1); i18n Batch 8 P1 overdue by 19 iters → took priority over P2 monetization items.
+What: Translated 3 high-intent EN guides to fr+de:
+  - /fr/israel-for-seniors + /de/israel-for-seniors — full monetization CTAs (Abraham/TourRadar/Viator) translated; medical/pace/site-specific advice; locale-correct cross-links to car-rental-israel, shabbat-guide, israel-cost-budget
+  - /fr/whats-open-on-shabbat + /de/whats-open-on-shabbat — city-by-city table, transport workarounds, Fri-Sat planning guide; cross-links to translated shabbat-guide + transportation
+  - /fr/holy-sites-dress-code-etiquette + /de/holy-sites-dress-code-etiquette — per-site dress/photo rules; cross-links to newly-translated whats-open-on-shabbat
+  6 new routes added to smoke + a11y test specs (276 total tests). fr/de at 23/~147 pages each.
+Gate: pnpm check 0 errors; build 237 pages (+16 vs iter120 — new fr/de pages); 276/276 e2e+a11y pass.
+Ship: committed directly on master c6540e2, pushed (files never committed on branch — working-tree pattern).
+Prod: GitHub CI shows pre-existing 3-second failure (runner billing issue; all prior 10+ commits identical pattern). Not a regression. Vercel status not directly checked; local gate fully green.
+Next: iter 122 = BUILD/seo-content.
+
