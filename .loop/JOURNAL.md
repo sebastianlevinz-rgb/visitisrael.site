@@ -2270,3 +2270,19 @@ Ship: commit f1cedb7, pushed to master.
 Prod: CI GitHub Actions 1-sec infra failure (runner_id=0) — pre-existing cloud env issue, 30+ iter
   pattern. Vercel inferred green.
 Next: iter 119 = REVIEW mode.
+
+## 2026-06-27 · iter 119 · REVIEW · Golden hour calculator SEO/a11y audit
+What: Audited /israel-golden-hour (shipped iter 118) for correctness, SEO, and a11y issues.
+  Found and fixed 5 issues in src/pages/israel-golden-hour.astro:
+  1. SEO title 75→58 chars (>65-char limit): "Israel Golden Hour Calculator: Sunrise, Sunset & Blue Hour"
+  2. SEO description 198→147 chars (>160-char limit): trimmed to city list + candlelighting line
+  3. A11y: removed redundant aria-label on <select id="location-sel"> + <input id="date-input">
+     (both already wrapped in <label> — redundant attribute overrides label in some screen readers)
+  4. A11y: added scope="col" to JS-generated table <th> elements for data-table semantics
+  5. Correctness: default date offset was hardcoded UTC+2; now uses isDST(now) → UTC+2 or UTC+3
+     (so the pre-filled date is correct during IDT summer hours, not off by 1 day near midnight)
+Gate: pnpm check 0 errors · pnpm build 231 pages · pnpm test:e2e 264/264 pass. GREEN.
+Ship: commit 94726c6, pushed to master.
+Prod: CI Lighthouse 1-sec infra failure (runner_id=0) — pre-existing 30+ iteration pattern.
+  Vercel inferred green.
+Next: iter 120 = RESEARCH mode.

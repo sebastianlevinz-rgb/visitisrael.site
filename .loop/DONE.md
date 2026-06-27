@@ -151,3 +151,4 @@
 - [iter117] Israeli street food guide (/israeli-street-food-guide) — 2e71798 — city-by-city stall guide (falafel/sabich/hummus/shawarma/burekas/knafeh/malawach); TLV, Jerusalem, Jaffa, Haifa, Nazareth; 3 affiliate CTAs; 230 pages
 
 - iter118 BUILD/tools: Israel golden hour & sunrise calculator (/israel-golden-hour) → f1cedb7 — 9-location picker + date → nautical dawn / civil dawn / sunrise / golden-hour-end / solar noon / golden-hour-start / sunset / civil dusk / Shabbat candlelighting. Extends Shabbat calendar's Meeus formula. Hiker/photographer tips per location. FAQPage + BreadcrumbList JSON-LD. i18n en/fr/de. 5 Playwright tests. 231 pages, 264/264 e2e pass.
+- [iter119 REVIEW] Golden hour calculator SEO/a11y fixes → 94726c6. Title 75→58 chars, desc 198→147 chars, aria-label cleanup, scope="col" on table headers, DST-aware default date.
