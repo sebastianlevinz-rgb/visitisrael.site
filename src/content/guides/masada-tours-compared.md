@@ -1,5 +1,5 @@
 ---
-title: 'Masada Tours Compared: Sunrise, Cable Car, Private & Self-Drive (2026)'
+title: 'Masada Tours Compared: Sunrise, Cable Car & Private (2026)'
 description: 'Masada tours compared: sunrise hike, cable-car daytime, Masada & Dead Sea combo, private guide and self-drive — which is right for you and where to book.'
 heroImage: /images/regions/dead-sea/masada.jpg
 category: Tours

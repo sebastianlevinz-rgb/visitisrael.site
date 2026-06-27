@@ -1,5 +1,5 @@
 ---
-title: 'Petra Tours Compared: Eilat Day Trip, Overnight, Jordan Pass & Private Guide (2026)'
+title: 'Petra Tours Compared: Day Trip, Overnight & Private Guide (2026)'
 description: 'Petra tours from Israel compared: Eilat border day trip, Aqaba overnight, multi-day Jordan fly-drive and private guide — which format suits your trip and where to book.'
 heroImage: /images/regions/eilat/hero.jpg
 category: Tours

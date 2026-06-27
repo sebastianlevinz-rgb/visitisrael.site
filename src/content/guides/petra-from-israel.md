@@ -1,5 +1,5 @@
 ---
-title: 'Petra from Israel: Eilat Day Trip vs Tel Aviv with Flights vs Jerusalem'
+title: 'Petra from Israel: Day Trip, Flights or Overland (2026 Guide)'
 description: 'How to visit Petra from Israel — the Eilat one-day trip, the Tel Aviv trip with flights, and the Jerusalem multi-day route compared on cost, time, the border and the Jordan visa.'
 heroImage: /images/regions/eilat/hero.jpg
 category: Compare

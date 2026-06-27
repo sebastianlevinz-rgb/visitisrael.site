@@ -1,5 +1,5 @@
 ---
-title: 'Israel Food Tours & Cooking Classes: Markets, Workshops & Culinary Experiences'
+title: 'Israel Food Tours & Cooking Classes: Markets & Workshops (2026)'
 description: 'Best food tours and cooking classes in Israel — Machane Yehuda market tours, Tel Aviv cooking workshops, hummus-making classes and Jaffa food walks.'
 heroImage: /images/regions/tel-aviv/carmel-market.jpg
 category: Food & Drink

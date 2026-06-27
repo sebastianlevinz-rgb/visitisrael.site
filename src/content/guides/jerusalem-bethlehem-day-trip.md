@@ -1,5 +1,5 @@
 ---
-title: 'Jerusalem & Bethlehem Day Trip (+ Optional Jericho): Crossing to the West Bank'
+title: 'Jerusalem & Bethlehem Day Trip: West Bank Crossing Guide (2026)'
 description: 'How to do the Jerusalem and Bethlehem day trip — the Church of the Nativity, crossing into the West Bank, whether it is safe, the cost ($106–150) and how to book.'
 heroImage: /images/west-bank/bethlehem/hero.jpg
 category: Tours

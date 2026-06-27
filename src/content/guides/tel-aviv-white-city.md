@@ -1,5 +1,5 @@
 ---
-title: 'Tel Aviv White City: Bauhaus Architecture Guide & Walking Tour (2026)'
+title: 'Tel Aviv White City: Bauhaus Guide & Walking Tour (2026)'
 description: 'Explore Tel Aviv White City — the world largest Bauhaus collection and a UNESCO World Heritage Site. Walking routes, must-see buildings, and practical visitor tips for 2026.'
 heroImage: /images/regions/tel-aviv/rothschild.jpg
 category: Architecture

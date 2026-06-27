@@ -1,5 +1,5 @@
 ---
-title: "Alleinreisende Frauen in Israel: Ein ehrlicher Sicherheitsratgeber (2026)"
+title: "Alleinreisende Frauen in Israel: Sicherheitsratgeber (2026)"
 description: "Ist Israel sicher für alleinreisende Frauen? Stadt-für-Stadt-Hinweise, Transporttipps, Sicherheit in den Stadtvierteln, Unterkunftsempfehlungen und praktische Ratschläge — ehrlich, ohne Panikmache."
 heroImage: /images/sub-destinations/tel-aviv/tayelet.jpg
 category: Planung

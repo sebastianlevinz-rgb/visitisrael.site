@@ -1,5 +1,5 @@
 ---
-title: 'Israeli Street Food Guide: Best Falafel, Hummus & Where to Eat (2026)'
+title: 'Israeli Street Food Guide: Falafel, Hummus & Where to Eat (2026)'
 description: 'Where to find the best falafel, sabich, hummus and shawarma in Israel — a city-by-city guide to the top street food spots, markets, and stalls.'
 heroImage: /images/regions/tel-aviv/carmel-market.jpg
 category: Food

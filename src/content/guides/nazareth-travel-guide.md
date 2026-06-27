@@ -1,5 +1,5 @@
 ---
-title: 'Nazareth Travel Guide: Things to Do, Where to Eat & How to Visit (2026)'
+title: 'Nazareth Travel Guide: Things to Do & Where to Eat (2026)'
 description: "Complete Nazareth travel guide — Basilica of the Annunciation, Mary's Well, Nazareth Village, the Old City souq, knafeh, the Christmas festival, and how to get there from Tel Aviv and Haifa."
 heroImage: /images/regions/nazareth/hero.jpg
 category: Destinations

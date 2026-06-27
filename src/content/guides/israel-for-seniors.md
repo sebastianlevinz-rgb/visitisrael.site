@@ -1,5 +1,5 @@
 ---
-title: 'Israel for Seniors & Over-50s: Comfortable, Accessible & Rewarding Travel'
+title: 'Israel for Seniors & Over-50s: Accessible Travel Guide (2026)'
 description: 'Plan a senior-friendly trip to Israel — best seasons, comfortable pace, accessible sites, Masada cable car, small-group tours, and practical tips for travellers over 50 and 60.'
 heroImage: /images/regions/dead-sea/ein-bokek.jpg
 category: Planning

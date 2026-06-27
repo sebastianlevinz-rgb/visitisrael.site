@@ -1,5 +1,5 @@
 ---
-title: 'Galilee Tours Compared: Christian Pilgrimage, Jewish Heritage, Multi-Day & Self-Drive (2026)'
+title: 'Galilee Tours Compared: Pilgrimage, Heritage & Self-Drive (2026)'
 description: 'Galilee tours compared: Christian pilgrimage, Jewish heritage, Sea of Galilee cruise, multi-day and self-drive — which format suits your trip and where to book.'
 heroImage: /images/regions/galilee/hero.jpg
 category: Tours

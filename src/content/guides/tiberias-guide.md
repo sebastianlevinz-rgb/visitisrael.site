@@ -1,5 +1,5 @@
 ---
-title: 'Tiberias & Sea of Galilee Guide: Things to Do, Day Trips & Getting There (2026)'
+title: 'Tiberias & Sea of Galilee Guide: Things to Do & Day Trips (2026)'
 description: 'Complete Tiberias travel guide — Hamat Tiberias zodiac mosaics, the Jesus Boat Museum, Sea of Galilee swimming, and using Tiberias as a base for Safed, Capernaum and the Golan Heights.'
 heroImage: /images/regions/galilee/tiberias.jpg
 category: Destinations

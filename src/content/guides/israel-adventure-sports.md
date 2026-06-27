@@ -1,5 +1,5 @@
 ---
-title: 'Adventure Sports & Outdoor Activities in Israel: The Complete Guide'
+title: 'Adventure Sports & Outdoor Activities in Israel (2026 Guide)'
 description: 'Canyoning, surfing, jeep tours, kitesurfing, skiing Mount Hermon and more — every major adventure sport in Israel with best seasons and booking tips.'
 heroImage: /images/regions/negev/desert.jpg
 category: Outdoor

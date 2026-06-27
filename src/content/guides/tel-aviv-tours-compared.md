@@ -1,5 +1,5 @@
 ---
-title: 'Tel Aviv Tours Compared: Jaffa, Bauhaus, Food & Night Tours (2026)'
+title: 'Tel Aviv Tours Compared: Jaffa, Bauhaus & Night Tours (2026)'
 description: 'Tel Aviv tours compared: Old Jaffa walking tours, White City Bauhaus tours, food market tours, nightlife tours and private city guides — which is right for you and where to book.'
 heroImage: /images/regions/tel-aviv/jaffa.jpg
 category: Tours

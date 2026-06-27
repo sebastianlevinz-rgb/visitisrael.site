@@ -1,5 +1,5 @@
 ---
-title: 'Ben Gurion Airport Guide 2026: Terminals, Security, Lounges & Duty-Free'
+title: 'Ben Gurion Airport Guide: Terminals, Security & Lounges (2026)'
 description: 'Ben Gurion Airport (TLV) guide: terminals, departures, security interview tips, 2026 lounges update, duty-free and onward transfers.'
 heroImage: /images/regions/tel-aviv/hero.jpg
 category: Transport

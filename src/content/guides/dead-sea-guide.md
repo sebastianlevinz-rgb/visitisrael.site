@@ -1,5 +1,5 @@
 ---
-title: 'How to Visit the Dead Sea: Floating, Beaches & Practical Tips (2026)'
+title: 'How to Visit the Dead Sea: Beaches, Floating & Tips (2026)'
 description: 'First-timer Dead Sea guide — floating technique, safety rules, best beaches (Kalia, Ein Gedi, Ein Bokek), mud ritual, what to bring, how to get there, and whether to stay overnight.'
 heroImage: /images/regions/dead-sea/hero.jpg
 category: Destinations

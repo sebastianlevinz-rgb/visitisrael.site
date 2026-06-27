@@ -1,5 +1,5 @@
 ---
-title: 'Visiting Qumran: Where the Dead Sea Scrolls Were Found (2026 Guide)'
+title: 'Visiting Qumran: Where the Dead Sea Scrolls Were Found (2026)'
 description: "Complete visitor guide to Qumran National Park — the site where the Dead Sea Scrolls were discovered. Cave 4, the Essene settlement, practical tips, how to get there, and how to combine it with a Dead Sea day."
 heroImage: /images/regions/dead-sea/qumran.jpg
 category: Destinations
