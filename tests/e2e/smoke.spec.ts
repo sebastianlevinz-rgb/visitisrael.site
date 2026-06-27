@@ -70,6 +70,7 @@ const ROUTES = [
   '/israel-parks-pass-calculator',
   '/israel-car-rental-quiz',
   '/tel-aviv-white-city',
+  '/jaffa-travel-guide',
   '/israeli-street-food-guide',
   '/fr/first-time-in-israel',
   '/fr/visa-information',

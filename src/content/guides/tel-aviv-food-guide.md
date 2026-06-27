@@ -57,7 +57,7 @@ A guided **food tour** (above) is the fastest way to eat the highlights with con
 
 - **[Florentin](/tel-aviv/florentin)** — street food, hole-in-the-wall gems and late-night bites.
 - **[Neve Tzedek](/tel-aviv/neve-tzedek)** — pretty lanes with cafés and upscale dining.
-- **[Old Jaffa](/tel-aviv/old-jaffa)** — hummus institutions, bakeries and seafood by the sea.
+- **[Old Jaffa](/jaffa-travel-guide)** — hummus institutions, Abouelafia bakery, Abu Hassan and seafood at the ancient port. See the [complete Jaffa travel guide](/jaffa-travel-guide).
 - **The port (Namal)** — breezy waterfront dining.
 
 ## Plan your trip
