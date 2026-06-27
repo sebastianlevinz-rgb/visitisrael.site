@@ -1854,3 +1854,58 @@ DONE items and backlog. All 6 items confirmed absent from existing content and b
 De-duped against DONE: wine/TLV-vs-Jerusalem/Dead Sea/hiking all DONE. Against existing BACKLOG: 
 craft-beer (iter70), glamping (iter60), vegan guide (iter55), photography (iter30), beaches (iter5), 
 honeymoon (iter20) — all confirmed already in backlog. None of the 6 new items overlapped.
+
+### 2026-06-27 · iter 130 · Michelin/fine-dining + new cultural attractions + rooftop/street-food gap scan
+
+Researched 2026-specific gaps: new Michelin Guide Israel launch, new Jerusalem cultural openings (National
+Library), high-traffic format gaps (rooftop bars, street food), and Jerusalem museum cluster gap.
+10 searches across: touristisrael.com 2026 update content, secrettelaviv.com upscale dining, guide.michelin.com/il,
+La Liste 2026 Israel, laliste.com, nli.org.il/en/visit, itraveljerusalem.com, timeout.com/israel/bars/rooftops,
+therooftopguide.com/tel-aviv, tripadvisor.com Jerusalem museums, imj.org.il, nextleveloftravel.com/street-food,
+tasteatlas.com/israel, touristisrael.com/fast-food-street-food-in-israel.
+
+- **Israeli fine dining & Michelin Guide gap** — Michelin officially entered Israel 2025–2026 (Israel Tourism
+  Ministry partnership); Shmoné Jerusalem earned Israel's first ever MICHELIN Star (Chef Nir Mesika; tasting
+  menu format); 8 Israeli restaurants appear in La Liste 2026 top 1,000 globally (OCD TLV, Pastel TLV,
+  Chakra Jerusalem among confirmed). guide.michelin.com/il now live. Zero dedicated fine dining guide on site
+  (tel-aviv-food-guide = mid-range/casual; jerusalem-food-guide backlog item = Machane Yehuda casual). MICHELIN
+  launch = rare editorial moment + high-intent "best restaurant Israel" query anchor. → BACKLOG (seo-content+monetization, P2, M).
+
+- **Israeli street food gap confirmed** — touristisrael.com has a dedicated "fast-food-street-food-in-israel"
+  page; tasteatlas.com + nextleveloftravel.com + eater.com all rank for "Israeli street food guide" as distinct
+  from sit-down dining. Our tel-aviv-food-guide + israeli-food-cuisine-guide exist but neither is a vendor-level
+  street food guide with dish profiles per dish type (falafel, shawarma, sabich, bourekas, Jerusalem bagel,
+  knafeh). Carmel Market backlog item references the "street food guide BACKLOG item" — confirming it was
+  planned in iter70 but entry was apparently removed when Jaffa guide shipped. Re-confirmed as genuine gap;
+  re-added to BACKLOG. → BACKLOG (seo-content+monetization, P2, S).
+
+- **Jerusalem museums cluster gap** — imj.org.il, blmj.org, tripadvisor.com Jerusalem museums, timeout.com/israel
+  Jerusalem museums all produce strong SERP results. BACKLOG has "Tel Aviv museums guide" (P3, iter85) but no
+  Jerusalem equivalent, despite Jerusalem having arguably the world's most significant museum cluster for Jewish,
+  Christian, and archaeological tourism (Israel Museum + Shrine of the Book + Bible Lands Museum + Tower of David +
+  Rockefeller Museum + Yad Vashem). Confirmed gap. → BACKLOG (seo-content, P2, M).
+
+- **Israel rooftop bars & terraces gap** — timeout.com/israel/bars/best-rooftop-bars-tel-aviv and
+  touristisrael.com/best-rooftops-tel-aviv both have dedicated rooftop bar pages. therooftopguide.com/tel-aviv
+  + skylevels.co/israel rank separately. tel-aviv-nightlife.md exists but covers clubs + general nightlife —
+  zero rooftop-specific section. "Rooftop bar" = a high-traffic distinct format (summer Mediterranean sunset
+  cocktail demographic separate from club-nightlife audience). → BACKLOG (seo-content+monetization, P2, S).
+
+- **National Library of Israel new building** — Herzog & de Meuron–designed new building opened 2023–2024;
+  nli.org.il/en/visit + itraveljerusalem.com list it as major new Jerusalem cultural site; haaretz.com and
+  Dezeen covered the architecture. 5M books + Hebrew manuscripts + Einstein archive + Jewish music collection.
+  General-public exhibitions open (not just researchers). Only mentioned briefly in iter50 genealogy guide as a
+  research tool — NOT as an architectural/cultural visitor destination. → BACKLOG (seo-content, P3, S).
+
+DE-DUPED (not added):
+- "Tel Aviv vs Jerusalem comparison" — tel-aviv-vs-jerusalem.md EXISTS as pre-loop content page; confirmed
+  by file glob. Not a gap.
+- "Skyfield adventure park Jaffa" (2026 new extreme park at Bloomfield Stadium rooftop) — already captured
+  in "Israel tourism 2026: what's new & open" backlog item ([iter85 research]). Not adding as duplicate;
+  note it is appropriate content for that page. Also a potential short update to jaffa-travel-guide.md.
+- "Israeli celebrity chef dining ecosystem" (Machneyuda, Uri Navon et al.) — folded into the fine dining
+  guide backlog item above.
+- "Interactive tools competitors have" — we already lead significantly in tool depth (10 shipped tools);
+  no net-new competitor tool gaps identified that aren't already in backlog.
+
+Backlog now ~123 ready items.

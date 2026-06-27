@@ -2471,3 +2471,24 @@ deploys via git integration independently.
 Gate: pnpm check 0 errors; build 254 pages; 307/307 e2e+a11y pass.
 Merge: 115419d pushed to master.
 Prod: GitHub CI pre-existing failure (not a regression); local gate clean.
+
+## 2026-06-27 · iter 130 · RESEARCH · Michelin/fine-dining + Jerusalem cultural + rooftop/street-food gap scan
+What: 10 web searches across touristisrael.com, guide.michelin.com/il, laliste.com, secrettelaviv.com,
+  timeout.com/israel, therooftopguide.com, imj.org.il, nli.org.il/en/visit, nextleveloftravel.com, tasteatlas.com.
+  Focus: 2026-specific new opportunities (Michelin Guide Israel launch), Jerusalem cultural cluster gaps,
+  high-traffic format gaps competitors exploit (rooftop bars, street food).
+Found 5 net-new items added to BACKLOG (originally 7 candidates; 2 de-duped):
+  1. Israeli fine dining & Michelin Guide (P2, M) — Israel's first MICHELIN Star (Shmoné Jerusalem);
+     8 Israeli restaurants in La Liste 2026 top 1,000. Zero dedicated fine dining page on site.
+  2. Jerusalem museums complete guide (P2, M) — Israel Museum + Shrine of Book + Bible Lands + Tower of
+     David + Rockefeller Museum cluster; only TLV museums guide in BACKLOG (iter85 P3 S).
+  3. Israel rooftop bars & terraces guide (P2, S) — dedicated competitor pages on timeout.com/israel and
+     touristisrael.com; tel-aviv-nightlife.md covers clubs/pubs but zero rooftop-specific content.
+  4. Israeli street food guide (P2, S) — gap re-confirmed; iter70 entry appears lost; touristisrael.com,
+     tasteatlas.com, nextleveloftravel.com all rank for dedicated "Israeli street food" queries.
+  5. National Library of Israel visitor guide (P3, S) — new Herzog & de Meuron building opened 2023–2024;
+     5M books + rare manuscripts + public exhibitions; NOT covered as visitor destination (only as genealogy
+     research tool in iter50 guide).
+De-duped: tel-aviv-vs-jerusalem.md EXISTS as pre-loop content; Skyfield adventure park (Jaffa Bloomfield
+  Stadium rooftop, opened 2026) already captured in "Israel travel 2026" backlog item (iter85).
+No code changes; no gate run; no ship. Memory-only iteration.
