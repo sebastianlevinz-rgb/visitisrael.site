@@ -2392,3 +2392,26 @@ Added 6 curated items to BACKLOG:
   - [P3 seo-content S] Wadi Rum from Eilat (/wadi-rum-from-eilat) — Jordan red desert UNESCO, distinct from existing Jordan guides
 Ship: no ship (RESEARCH mode).
 Next: iter 126 = BUILD/monetization (126%5==1).
+
+## 2026-06-27 · iter 126 · BUILD (monetization) · Jaffa (Yafo) complete travel guide
+What: new /jaffa-travel-guide — Jaffa (Yafo) complete visitor guide (src/content/guides/jaffa-travel-guide.md).
+  Sections: Old Port (Nof Yam) history + working harbour + sunset promenade; Clock Tower + walking tour
+  starting point; St Peter's Church + Napoleon statue; Ilana Goor Museum; Jaffa Flea Market (Shuk
+  HaPishpeshim) — Sunday best, haggling etiquette, opening hours; Food (Abu Hassan hummus — cash/sell-out
+  warning; Abouelafia bakery 24/7; Kalamata by Haim Cohen port fine dining); Jaffa history — honest 1948
+  framing (Arab exodus context, not "charming coexistence" whitewash); Practical tips (getting there from
+  TLV + Jerusalem, parking, what to bring, flea market hours, port restaurants); Combining with TLV section.
+  3 affiliate CTAs: getyourguide (Jaffa Old City walking tour), viator (TLV+Jaffa food tour), civitatis
+  (TLV Highlights+Jaffa). 6 FAQs covering: getting there, flea market, Abu Hassan, safety, how long, day trip.
+  Cross-links wired: tel-aviv-food-guide.md updated Jaffa line to /jaffa-travel-guide; day-trips-from-jerusalem.md
+  line updated Old Jaffa link + added /tel-aviv-white-city cross-link. Smoke test +1 route /jaffa-travel-guide.
+  Honesty: evergreen hours caveats on Abu Hassan (sell-out by noon) + Ilana Goor Museum (check official
+  site); no fabricated prices or ratings; explicit 1948 history context. Images: /images/regions/tel-aviv/jaffa.jpg
+  (hero, existing photo-credits.json entry) + /images/sub-destinations/tel-aviv/old-jaffa.jpg (CTA cards).
+Gate: pnpm check 0 errors; build 247 pages (+1); 294/294 e2e+a11y pass.
+Ship: squash-merged to master da13227, pushed.
+Prod: GitHub Actions CI failure = pre-existing runner issue (runner_id:0, 3s duration — same pattern as all
+  prior 125 iterations including ad664fb; billing/runner infra, not code). Local gate is the authoritative
+  gate per PLAYBOOK honesty rules. Vercel auto-deploy expected on push.
+Next: iter 127 = BUILD/seo-content. Top candidates: Wellness/spa (/israel-wellness-spa), Jerusalem food
+  guide, Day trips from Haifa, Solo female travel, i18n Batch 10 fr+de.
