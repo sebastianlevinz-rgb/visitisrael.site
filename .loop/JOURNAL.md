@@ -2334,3 +2334,29 @@ Gate: pnpm check 0 errors; build 238 pages (+1); 277/277 e2e+a11y pass.
 Ship: squash-merged to master af0aa7c, pushed.
 Prod: GitHub CI shows pre-existing 3-second failure (runner/billing issue; identical pattern to all prior 10+ commits). Not a regression. Local gate fully green.
 Next: iter 123 = BUILD/tools (123%5==3).
+
+## 2026-06-27 · iter 123 · BUILD (i18n Batch 9) · israel-5-vs-7-vs-10-days + dead-sea-guide + best-holy-land-tours + israel-travel-insurance (fr+de)
+Mode: BUILD/tools (123%5==3); all 10 tools items SHIPPED → fell through to i18n (P1 priority).
+What: Translated 4 high-intent EN guides to fr+de = 8 new locale pages.
+  - /fr/israel-5-vs-7-vs-10-days + /de/israel-5-vs-7-vs-10-days — comparison guide; locale-correct
+    cross-links: /fr|de/israel-cost-budget for translated guide, EN paths for itineraries.
+  - /fr/dead-sea-guide + /de/dead-sea-guide — full HOW-TO guide (floating, safety, beaches, mud ritual,
+    getting there, overnight vs day); 3 affiliateCtas (getyourguide/viator/booking); locale-correct
+    cross-link /fr|de/car-rental-israel; 6 FAQs translated.
+  - /fr/best-holy-land-tours + /de/best-holy-land-tours — tours comparison; 3 affiliateCtas
+    (tourradar/getyourguide/viator); 5 FAQs; locale-correct cross-links to /fr|de/car-rental-israel,
+    /fr|de/best-tours-in-israel, /fr|de/holy-sites-dress-code-etiquette, /fr|de/shabbat-guide,
+    /fr|de/israel-travel-insurance.
+  - /fr/israel-travel-insurance + /de/israel-travel-insurance — single safetywing affiliateCta; rating
+    and reviews fields DROPPED (honesty rule — source had rating:4.5, reviews:12000 which are fabricated);
+    policy tier table preserved; locale-correct cross-links to /fr|de/is-israel-safe, /fr|de/car-rental-israel,
+    /fr|de/first-time-in-israel.
+  Tests: smoke.spec.ts + a11y.spec.ts each extended +8 routes (293 total). fr/de now 27/~147 each.
+  Startup: git pull --ff-only failed (remote had force-update); resolved via git fetch + reset --hard
+    origin/master. Chromium fix: resolveCloudChromium() in playwright.config.ts → pre-installed binary.
+  Bug caught: de/israel-5-vs-7-vs-10-days initially had /fr/israel-cost-budget cross-link; fixed to /de/.
+Gate: pnpm check 0 errors; build 246 pages (+8); 293/293 e2e+a11y pass. GREEN.
+Ship: committed 8 guide files + 2 test files directly to master e125d77, pushed.
+Prod: GitHub CI shows pre-existing 3-second failure (runner/billing issue; all prior 10+ commits identical
+  pattern). Not a regression. Local gate fully green.
+Next: iter 124 = REVIEW (124%5==4). Audit iters 118-123 (golden hour calculator, i18n batches 8+9, base-city guide).
