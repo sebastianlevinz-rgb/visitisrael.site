@@ -73,6 +73,7 @@ const ROUTES = [
   '/jaffa-travel-guide',
   '/israeli-street-food-guide',
   '/solo-female-travel-israel',
+  '/jordan-river-baptism',
   '/fr/first-time-in-israel',
   '/fr/visa-information',
   '/fr/best-time-to-visit-israel',

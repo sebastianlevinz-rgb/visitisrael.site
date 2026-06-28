@@ -50,7 +50,7 @@ Drive north and the Gospels shift to open countryside. **[Nazareth](/nazareth)**
 
 ## Baptism at the Jordan River
 
-Two sites mark the Jordan. **Qasr al-Yahud**, near Jericho, is the traditional place of Jesus's baptism, on the river itself opposite the Jordanian bank. **[Yardenit](/galilee/yardenit)**, at the lake's southern outflow, is the easy, well-equipped pilgrim option — robe rental, changing rooms, and space for group renewals of baptismal vows. Either works for a renewal service; if you want a formal ceremony led by your own minister, arrange it in advance.
+Two sites mark the Jordan. **Qasr al-Yahud**, near Jericho, is the traditional place of Jesus's baptism, on the river itself opposite the Jordanian bank. **[Yardenit](/galilee/yardenit)**, at the lake's southern outflow, is the easy, well-equipped pilgrim option — robe rental, changing rooms, and space for group renewals of baptismal vows. Either works for a renewal service; if you want a formal ceremony led by your own minister, arrange it in advance. Our dedicated [Jordan River baptism sites guide](/jordan-river-baptism) compares both sites in detail — facilities, access and which to choose for your itinerary.
 
 ## Suggested routes
 

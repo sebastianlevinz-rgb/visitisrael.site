@@ -49,7 +49,7 @@ Most tours follow a version of this loop around the [Galilee](/galilee) and its 
 - **[Capernaum](/galilee/capernaum)** — the lakeside town Jesus made his base. You'll see the ruins of an ancient synagogue and the octagonal church built over the traditional house of St Peter.
 - **[Mount of Beatitudes](/galilee/mount-of-beatitudes)** — the gentle hillside above the lake associated with the Sermon on the Mount, crowned by a serene Italian-built church and gardens with sweeping views.
 - **Tabgha** — home to the Church of the Multiplication (the loaves and fishes mosaic) and the Church of the Primacy of St Peter, right on the shore.
-- **Yardenit** — the baptism site where the Jordan River leaves the Sea of Galilee, where pilgrims are baptised or renew their vows in the river.
+- **[Yardenit](/jordan-river-baptism)** — the baptism site where the Jordan River leaves the Sea of Galilee, where pilgrims are baptised or renew their vows in the river.
 
 Some itineraries also fold in **Cana** (the wedding miracle) or a stop in **[Tiberias](/galilee/tiberias)** on the lake.
 
