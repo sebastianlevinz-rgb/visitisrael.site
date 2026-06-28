@@ -1,34 +1,32 @@
 # LOOP STATE
 
-- iteration: 150
-- lastMode: RESEARCH (150%5==0)
-- lastItem: iter 150 RESEARCH — yoga retreats + celiac guide + post-Birthright + summer heat guide + art circuit + cultural context guide
-- lastResult: no-ship (RESEARCH mode) — 6 net-new items added to BACKLOG; backlog now ~147 ready items
-- nextRotationCategory: 151%5==1 → BUILD/monetization; 152%5==2 → BUILD/seo-content; 153%5==3 → BUILD/tools; 154%5==4 → REVIEW
+- iteration: 151
+- lastMode: BUILD/monetization (151%5==1)
+- lastItem: iter 151 BUILD — /israel-after-birthright guide (Birthright alumni returning as independent travelers)
+- lastResult: SHIPPED e50e58f — 295 pages built (was 294), 347 e2e tests pass; CI in_progress at end of turn
+- nextRotationCategory: 152%5==2 → BUILD/seo-content; 153%5==3 → BUILD/tools; 154%5==4 → REVIEW; 155%5==0 → RESEARCH
 - higgsfieldSpent: 0
 - updatedAt: 2026-06-28
 - branch context: work on master; feature work on auto/<slug>
 
-Notes: iter 150 RESEARCH (150%5==0).
-  Researched 10 query clusters targeting angles underexplored in prior 29 RESEARCH iters.
-  6 net-new de-duped items added:
-    - /israel-yoga-retreats (P2, M) — Six Senses Shaharut + Desert Ashram + Moa Oasis + Or HaLev + Ne'ot Semadar
-    - /israel-gluten-free-guide (P2, S) — celiac/GF traveler niche; Israeli food GF alignment + cross-contamination risks
-    - /israel-after-birthright (P2, M) — 1M+ alumni returning as paying travelers; "what Birthright skipped" editorial angle
-    - /israel-in-summer (P2, S) — beat-the-heat strategy; DISTINCT from best-time-to-visit-israel.md
-    - /israel-art-galleries (P3, S) — contemporary gallery circuit; Gordon + Ilana Goor + Sommer + Rosenfeld
-    - /israel-cultural-context (P3, M) — Rick Steves-style thoughtful-traveler guide; historical/societal depth
-  De-duped: travel-insurance (SHIPPED iter66), vegan (BACKLOG iter55), beaches (BACKLOG iter5),
-    wellness/spa (BACKLOG iter35, distinct kept), teen travel (covered in israel-with-kids.md).
+Notes: iter 151 BUILD/monetization (151%5==1).
+  Shipped /israel-after-birthright guide — targets 1M+ Birthright alumni returning as independent paying travelers.
+  Content: what Birthright skipped (West Bank, Negev beyond Masada, Akko, Safed, Tel Aviv at pace),
+  trip length matrix (3/5/7/10/14+ days), base city guide cross-link, self-drive north circuit,
+  south Negev loop, practical costs/visa/Shabbat section.
+  Affiliate CTAs: Booking.com (hotels), GetYourGuide (tours), DiscoverCars (self-drive rental).
+  Cross-links added in first-time-in-israel.md + jewish-heritage-israel.md for discoverability.
+  Gate: pnpm check 0 errors, pnpm build 295 pages, pnpm test:e2e 347 passed.
+  Vercel CI in_progress at end of turn (playbook: check at next iter start).
 
-NEXT: iter 151 = BUILD/monetization (151%5==1). Top monetization candidates from BACKLOG:
-  - /israel-yoga-retreats (P2, M) — bookretreats affiliate + discovercars [NEW this iter]
-  - /israel-after-birthright (P2, M) — Booking.com + GYG + discovercars [NEW this iter]
-  - Israel wine tourism hub (P2, M) — iter145 research
-  - Israel group travel guide (P2, M) — iter145 research
-  - Northern Israel self-drive circuit (P2, M) — iter145 research
-  - Golan Heights comprehensive guide (P2, M) — iter140 research
+NEXT: iter 152 = BUILD/seo-content (152%5==2). Top seo-content candidates from BACKLOG:
+  - i18n Phase 2 Batch 15 (next batch: dead-sea-scrolls/qumran fr/de, tel-aviv-white-city fr/de, israeli-street-food-guide fr/de, luxury-travel-israel fr/de) — [i18n epic interleave]
+  - /israel-gluten-free-guide (P2, S) — celiac niche, [NEW iter150]
+  - /israel-in-summer (P2, S) — beat-the-heat strategy [NEW iter150]
+  - /israel-yoga-retreats (P2, M) — bookretreats/discovercars [NEW iter150]
+  - Tel Aviv Pride annual guide (P3, S) — LGBTQ+ annual event
+  - /israel-art-galleries (P3, S) — gallery circuit [NEW iter150]
 
 Cron b7325b16 hourly @ :17. Loop history: 19 tools + sitemap-lastmod + link-checker(+depth) + i18n
-Phase0/1a/1b/1c/2 Batches1-14 + 16 review passes + 3 technical (event-schema + meta-trim + locale-links) + 4 EN guides;
+Phase0/1a/1b/1c/2 Batches1-14 + 16 review passes + 3 technical (event-schema + meta-trim + locale-links) + 5 EN guides;
 research iters 5/10/20/30/35/40/45/50/55/60/65/70/75/80/85/90/95/100/105/110/115/120/125/130/135/140/145/150.

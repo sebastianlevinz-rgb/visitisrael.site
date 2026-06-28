@@ -210,3 +210,4 @@ Akko (UNESCO Crusader city), Safed (Kabbalistic Judaism). Each with 3 affiliate 
 FR/DE guide count now 45 each (47 locale pages incl. home + plan-your-trip).
 - Bulk locale-link correction (iter 148) — 6bcc717 — 219 cross-locale links in 81 FR+DE guide files upgraded from /<slug> to /fr/<slug> or /de/<slug>; region/tool pages unchanged. Fixes systemic issue found iter 144 REVIEW. [technical]
 - [iter 149] REVIEW — luxury-travel-israel honesty fix: removed fabricated Michelin-star claim + unsupported Forbes claim → 9cd2b81. Batch-14 + locale-link CLEAN.
+- iter151 · feat(monetization): /israel-after-birthright — Birthright alumni return trip guide; affiliate CTAs booking+GYG+discovercars; 295 pages; 347 e2e pass → e50e58f (2026-06-28)

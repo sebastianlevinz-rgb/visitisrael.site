@@ -2899,3 +2899,14 @@ De-duped confirmed: israel-travel-insurance.md (SHIPPED iter66 — in guides/), 
   6. /israel-cultural-context — P3, M, seo-content (Rick Steves-style thoughtful-traveler guide; historical layers, contemporary society, Israeli-Palestinian context framing, cultural etiquette; NPR-listener demographic)
 No ship (RESEARCH mode).
 Next: iter 151 = BUILD/monetization (151%5==1).
+
+## 2026-06-28 · iter 151 · BUILD/monetization · /israel-after-birthright guide
+Mode: BUILD/monetization (151%5==1). Top candidate: /israel-after-birthright (P2, M) — freshly researched in iter 150.
+Built: new guide at src/content/guides/israel-after-birthright.md targeting 1M+ Birthright alumni returning as independent paying travelers. Content covers what Birthright skipped (West Bank/Bethlehem, Negev beyond Masada, Akko, Safed, Tel Aviv at pace), trip-length matrix (3/5/7/10/14+ days), base city picks, self-drive north circuit, south Negev loop, practical costs/Shabbat/visa tips. Affiliate CTAs: Booking.com (hotels), GetYourGuide (tours), DiscoverCars (self-drive). Cross-links added in first-time-in-israel.md ("Birthright alumni? See our returning guide") and jewish-heritage-israel.md (final paragraph).
+Gate:
+  pnpm check: 0 errors (117 files) ✓
+  pnpm build: 295 pages (was 294; new page added) ✓
+  pnpm test:e2e: 347 passed (0 failed) ✓
+Ship: committed to master e50e58f, pushed.
+Prod: CI + Lighthouse in_progress at end of turn. Previous CI (dc0b252) was success. Will confirm at next iter start.
+Next: iter 152 = BUILD/seo-content (152%5==2). i18n Phase 2 Batch 15 is the interleave candidate; /israel-gluten-free-guide and /israel-in-summer are alternative seo-content picks.
