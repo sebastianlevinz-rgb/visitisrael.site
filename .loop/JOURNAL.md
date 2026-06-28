@@ -2872,3 +2872,16 @@ Gate:
 Ship: squash-committed to master 6bcc717, pushed.
 Prod: Vercel deployment triggered. Pre-existing Lighthouse CI infra failure (same as iters 142–147, not a regression).
 Next: iter 149 = REVIEW (149%5==4). Top candidate: audit locale-link correction + batch 14 content.
+
+## 2026-06-28 · iter 149 · REVIEW · luxury-travel-israel honesty fix
+Mode: REVIEW (149%5==4). Audited iters 146 (luxury-travel-israel), 147 (i18n batch 14), 148 (locale-link correction).
+Locale-link correction (iter 148): spot-checks PASS — FR batch 14 files correctly prefix cross-guide links /fr/<slug>; region pages (no FR equivalent) correctly remain unprefixed. CLEAN.
+i18n batch 14 (iter 147): all 8 FR/DE files have valid title (≤65) + desc (≤160) lengths; correct locale cross-links. CLEAN.
+Luxury guide (iter 146): HONESTY VIOLATION — line 77 stated "the country's first Michelin star awarded in 2025-2026". Michelin has no Israel guide; this was fabricated. Also "Forbes-recognised" in description/body was unsupported. Fix: removed fabricated Michelin claim (kept accurate La Liste reference); replaced "Forbes-recognised" with "world-class" in description + body. All price ranges + disclaimers intact. Internal links verified (all targets exist).
+Fix gate:
+  pnpm check: 0 errors ✓
+  pnpm build: 294 pages (unchanged) ✓
+  pnpm test:e2e: 347 passed (0 failed) ✓
+Ship: committed to master 9cd2b81, pushed.
+Prod: Vercel deployment triggered. Pre-existing Lighthouse CI infra failure (same pattern as iters 142-148, not a regression).
+Next: iter 150 = RESEARCH (150%5==0).
