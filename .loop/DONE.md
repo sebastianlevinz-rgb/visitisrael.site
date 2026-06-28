@@ -211,3 +211,4 @@ FR/DE guide count now 45 each (47 locale pages incl. home + plan-your-trip).
 - Bulk locale-link correction (iter 148) — 6bcc717 — 219 cross-locale links in 81 FR+DE guide files upgraded from /<slug> to /fr/<slug> or /de/<slug>; region/tool pages unchanged. Fixes systemic issue found iter 144 REVIEW. [technical]
 - [iter 149] REVIEW — luxury-travel-israel honesty fix: removed fabricated Michelin-star claim + unsupported Forbes claim → 9cd2b81. Batch-14 + locale-link CLEAN.
 - iter151 · feat(monetization): /israel-after-birthright — Birthright alumni return trip guide; affiliate CTAs booking+GYG+discovercars; 295 pages; 347 e2e pass → e50e58f (2026-06-28)
+- iter152 · feat(i18n): batch 15 — FR+DE × qumran-guide, tel-aviv-white-city, israeli-street-food-guide, luxury-travel-israel; 8 new locale pages; fr/de now 49 guides each (50 locale pages); 303 pages; 363 e2e pass → b1cb4cc (2026-06-28)

@@ -2910,3 +2910,26 @@ Gate:
 Ship: committed to master e50e58f, pushed.
 Prod: CI + Lighthouse in_progress at end of turn. Previous CI (dc0b252) was success. Will confirm at next iter start.
 Next: iter 152 = BUILD/seo-content (152%5==2). i18n Phase 2 Batch 15 is the interleave candidate; /israel-gluten-free-guide and /israel-in-summer are alternative seo-content picks.
+
+## 2026-06-28 · iter 152 · BUILD/seo-content — i18n Phase 2 Batch 15
+Mode: BUILD/seo-content (152%5==2). i18n interleave eligible (last i18n was iter 147 batch 14; one non-i18n BUILD since). Selected i18n Phase 2 Batch 15.
+Built: 8 new locale pages — FR+DE translations of qumran-guide, tel-aviv-white-city, israeli-street-food-guide, luxury-travel-israel.
+  - fr/qumran-guide: Dead Sea Scrolls / Essene settlement guide; GYG + Abraham + Viator CTAs.
+  - de/qumran-guide: Same in German (Reiseziele category).
+  - fr/tel-aviv-white-city: UNESCO Bauhaus architecture guide; GYG + Viator + Civitatis CTAs.
+  - de/tel-aviv-white-city: Same in German (Architektur category).
+  - fr/israeli-street-food-guide: City-by-city falafel/sabich/hummus/shawarma/burekas/knafeh guide; GYG + Civitatis CTAs.
+  - de/israeli-street-food-guide: Same in German (Gastronomie category).
+  - fr/luxury-travel-israel: 5-star hotels, private guides, VIP experiences; TourRadar + Abraham + Booking CTAs.
+  - de/luxury-travel-israel: Same in German (Reisen category).
+Defects caught and fixed during gate:
+  1. YAML typographic-quote bug in de/israeli-street-food-guide.md: „Am besten" had ASCII U+0022 closing quote inside YAML double-quoted string → replaced with U+201C (LEFT DOUBLE QUOTATION MARK).
+  2. 4 broken internal links: /fr/israel-food-tours-cooking-classes + /de/israel-food-tours-cooking-classes not yet translated → corrected to unprefixed /israel-food-tours-cooking-classes in all 4 affected files.
+Smoke tests added for all 8 routes to both smoke.spec.ts and a11y.spec.ts.
+Gate:
+  pnpm check: 0 errors (117 files) ✓
+  pnpm build: 303 pages (was 295; +8 new) ✓
+  pnpm test:e2e: 363 passed (0 failed) ✓
+Ship: squash-merged to master b1cb4cc, pushed.
+FR/DE guide count now 49/~147 each (50 locale pages incl. home + plan-your-trip).
+Next: iter 153 = BUILD/tools (153%5==3).
