@@ -116,6 +116,7 @@ const ROUTES = [
   '/israel-holiday-planner',
   '/israel-visa-eta-checker',
   '/israel-parks-pass-calculator',
+  '/israel-shabbat-countdown',
   '/search',
   '/404',
 ];

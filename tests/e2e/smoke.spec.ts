@@ -74,6 +74,7 @@ const ROUTES = [
   '/israeli-street-food-guide',
   '/solo-female-travel-israel',
   '/jordan-river-baptism',
+  '/israel-shabbat-countdown',
   '/fr/first-time-in-israel',
   '/fr/visa-information',
   '/fr/best-time-to-visit-israel',

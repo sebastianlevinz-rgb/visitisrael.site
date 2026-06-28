@@ -119,6 +119,7 @@ const ui = {
     'tool.parksCalc': 'Parks pass calculator',
     'tool.carQuiz': 'Should I rent a car?',
     'tool.goldenHour': 'Sunrise & golden hour calculator',
+    'tool.shabbatCountdown': 'Is it Shabbat right now?',
     'footer.tagline':
       'An independent English-language travel guide to Israel — regions, attractions, itineraries and trusted booking links.',
     'footer.dayTrips': 'Day trips',
@@ -184,6 +185,7 @@ const ui = {
     'tool.parksCalc': 'Calculateur de pass parcs nationaux',
     'tool.carQuiz': 'Faut-il louer une voiture ?',
     'tool.goldenHour': 'Calculateur lever du soleil & heure dorée',
+    'tool.shabbatCountdown': 'Est-ce Shabbat en ce moment ?',
     'footer.tagline':
       'Un guide de voyage indépendant, en anglais, sur Israël — régions, sites, itinéraires et liens de réservation fiables.',
     'footer.dayTrips': 'Excursions',
@@ -249,6 +251,7 @@ const ui = {
     'tool.parksCalc': 'Nationalpark-Pass-Rechner',
     'tool.carQuiz': 'Mietwagen nötig?',
     'tool.goldenHour': 'Sonnenaufgang & goldene Stunde',
+    'tool.shabbatCountdown': 'Ist jetzt Schabbat?',
     'footer.tagline':
       'Ein unabhängiger englischsprachiger Reiseführer für Israel — Regionen, Sehenswürdigkeiten, Reiserouten und vertrauenswürdige Buchungslinks.',
     'footer.dayTrips': 'Tagesausflüge',

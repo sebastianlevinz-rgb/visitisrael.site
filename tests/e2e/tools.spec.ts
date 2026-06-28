@@ -606,3 +606,59 @@ test.describe('Golden hour & sunrise calculator', () => {
     await expect(page.locator('#results')).toContainText(/candlelighting/i);
   });
 });
+
+test.describe('Shabbat countdown tool', () => {
+  test('loads and shows Israel time and countdown', async ({ page }) => {
+    await page.goto('/israel-shabbat-countdown');
+
+    // The status card should appear after JS runs
+    const card = page.locator('#sc-card');
+    await expect(card).toBeVisible();
+
+    // Should show a current-time label with "Israel time"
+    await expect(card).toContainText(/Israel time/i);
+
+    // Should show a status label (active or not active)
+    await expect(card).toContainText(/Shabbat/i);
+
+    // Should show a countdown with digits
+    const countdown = page.locator('#sc-countdown');
+    await expect(countdown).toBeVisible();
+    await expect(countdown).toContainText(/\d/);
+  });
+
+  test('shows candlelighting and Havdalah times', async ({ page }) => {
+    await page.goto('/israel-shabbat-countdown');
+
+    const times = page.locator('#sc-times');
+    await expect(times).toBeVisible();
+    await expect(times).toContainText(/candlelighting/i);
+    await expect(times).toContainText(/Havdalah/i);
+
+    // Candlelighting time should be a formatted time (e.g. "7:24 pm")
+    const candle = page.locator('#sc-candle');
+    await expect(candle).toContainText(/\d+:\d+\s*(am|pm)/i);
+  });
+
+  test('switching city updates candlelighting time', async ({ page }) => {
+    await page.goto('/israel-shabbat-countdown');
+
+    const candle = page.locator('#sc-candle');
+    const jerusalemTime = await candle.textContent();
+
+    await page.locator('#sc-city').selectOption('eilat');
+    const eilatTime = await candle.textContent();
+
+    // Jerusalem and Eilat have different latitudes → different sunset → different times
+    expect(jerusalemTime).toBeTruthy();
+    expect(eilatTime).toBeTruthy();
+    // Eilat is further south, so its sunset times differ from Jerusalem
+    expect(jerusalemTime).not.toBe(eilatTime);
+  });
+
+  test('plan-your-trip page links to the countdown tool', async ({ page }) => {
+    await page.goto('/plan-your-trip');
+    const link = page.locator('a[href="/israel-shabbat-countdown"]');
+    await expect(link).toBeVisible();
+  });
+});

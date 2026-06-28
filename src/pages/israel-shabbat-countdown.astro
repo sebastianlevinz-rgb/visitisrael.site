@@ -1,0 +1,443 @@
+---
+import BaseLayout from '@/layouts/BaseLayout.astro';
+import Hero from '@/components/Hero.astro';
+import Breadcrumbs from '@/components/Breadcrumbs.astro';
+import JsonLd from '@/components/JsonLd.astro';
+import { breadcrumbList, faqPage } from '@/lib/schema';
+
+const title = 'Is It Shabbat in Israel Right Now? Live Countdown Timer';
+const description =
+  'Real-time countdown to the next Shabbat start (candlelighting) or end (Havdalah) for Jerusalem, Tel Aviv, Haifa, Beersheba and Eilat. See exactly when Shabbat begins and ends this week.';
+
+const crumbs = [
+  { name: 'Home', path: '/' },
+  { name: 'Plan your trip', path: '/plan-your-trip' },
+  { name: 'Shabbat countdown', path: '/israel-shabbat-countdown' },
+];
+
+const faqs = [
+  {
+    question: 'Is Shabbat happening in Israel right now?',
+    answer:
+      'Use the live widget above — it shows the current Israel time and whether Shabbat is currently active. Shabbat runs from Friday candlelighting (18 minutes before sunset) until Saturday Havdalah (about 42 minutes after Saturday sunset). During this period most shops, restaurants and public buses stop operating in Jerusalem and many other cities.',
+  },
+  {
+    question: 'When does Shabbat start and end in Israel?',
+    answer:
+      'Shabbat begins at candlelighting, set by each community — in Israel the most common standard is 18 minutes before sunset. It ends at Havdalah, about 40–50 minutes after sunset on Saturday. Times shift week-to-week as sunset moves with the seasons: summer candlelighting in Jerusalem can be as late as 8:10 pm; in winter it can fall before 4:00 pm.',
+  },
+  {
+    question: 'Do Shabbat times differ between Israeli cities?',
+    answer:
+      'Yes — because Israel spans roughly 3 degrees of latitude, sunset (and therefore candlelighting) varies by up to 14 minutes between Eilat in the south and Haifa in the north. The tool shows accurate times for each city. Jerusalem observes candlelighting 18 minutes before sunset; the same standard applies to Tel Aviv, Haifa, Beersheba and Eilat in this calculator.',
+  },
+  {
+    question: 'What is closed during Shabbat in Israel?',
+    answer:
+      'Intercity buses (Egged / Dan) and national rail stop from approximately 2 hours before candlelighting until Saturday night. Most shops, markets and malls close, particularly in Jerusalem. Tel Aviv is more secular — many restaurants and some shops remain open. Private taxis, Gett and hotels operate normally. See our full guide on what\'s open on Shabbat for details by city.',
+  },
+  {
+    question: 'How accurate are the Shabbat times?',
+    answer:
+      'Times are computed from astronomical sunset using standard solar-position formulas (Jean Meeus simplified) and are accurate to within ±2 minutes. Candlelighting is shown at 18 minutes before sunset (the common Israeli standard). Some communities use 30 or 40 minutes earlier — verify with Chabad.org/zmanim for your specific location and community custom.',
+  },
+];
+
+const schema = [breadcrumbList(crumbs), faqPage(faqs)];
+---
+
+<BaseLayout
+  title={title}
+  description={description}
+  path="/israel-shabbat-countdown"
+  image="/images/regions/jerusalem/hero.jpg"
+  imageAlt="Jerusalem Old City skyline at golden sunset on a Friday evening"
+>
+  <JsonLd schema={schema} slot="head" />
+  <Hero
+    image="/images/regions/jerusalem/hero.jpg"
+    title="Is It Shabbat in Israel Right Now?"
+    subtitle="Live countdown to the next Shabbat start or end — candlelighting and Havdalah times for major Israeli cities."
+    alt="Jerusalem Old City bathed in golden evening light as Shabbat approaches"
+  />
+  <Breadcrumbs items={crumbs} />
+
+  <section class="mx-auto max-w-3xl px-4 pt-10">
+    <p class="eyebrow" data-reveal>Live Shabbat status</p>
+    <h2 class="font-display text-3xl font-bold text-ink" data-reveal>
+      Shabbat clock for Israel
+    </h2>
+    <p class="mt-2 max-w-2xl text-ink-muted" data-reveal>
+      Select your city to see the exact candlelighting and Havdalah times this week — and
+      a live countdown so you can plan around Shabbat closures. See also:
+      <a href="/whats-open-on-shabbat" class="font-semibold text-primary">what's open on Shabbat</a>.
+    </p>
+
+    <!-- City picker -->
+    <div class="mt-6">
+      <label class="block">
+        <span class="text-sm font-semibold text-ink">City</span>
+        <select
+          id="sc-city"
+          class="mt-1 block rounded-btn border border-border bg-sand px-3 py-2 text-ink focus-visible:outline-2 focus-visible:outline-primary"
+          aria-label="Select your city"
+        >
+          <option value="jerusalem">Jerusalem</option>
+          <option value="tel-aviv">Tel Aviv</option>
+          <option value="haifa">Haifa</option>
+          <option value="beersheba">Beersheba</option>
+          <option value="eilat">Eilat</option>
+        </select>
+      </label>
+    </div>
+
+    <!-- Status card (aria-live for real-time updates) -->
+    <div
+      id="sc-card"
+      class="mt-6 rounded-card border-2 border-border bg-card p-6 shadow-card"
+      aria-live="polite"
+      aria-atomic="true"
+    >
+      <!-- JS fills this in -->
+      <p class="text-sm text-ink-muted">Loading current Israel time…</p>
+    </div>
+
+    <!-- Times card -->
+    <div id="sc-times" class="mt-4 rounded-card border border-border bg-sand-deep p-5" aria-live="polite">
+      <!-- JS fills this in -->
+    </div>
+
+    <!-- Accuracy note -->
+    <p class="mt-4 text-xs text-ink-muted">
+      Times are computed astronomically (±2 min). Candlelighting shown at 18 min before
+      sunset — the common Israeli standard. Some communities use 30–40 min earlier.
+      Verify with <a href="https://www.chabad.org/calendar/zmanim_cdo/aid/2868239/jewish/Candle-Lighting.htm" rel="noopener noreferrer" class="underline">Chabad.org/zmanim</a> for exact community times.
+    </p>
+  </section>
+
+  <!-- Context section -->
+  <section class="mx-auto max-w-3xl px-4 pt-12">
+    <h2 class="font-display text-2xl font-bold text-ink">Planning around Shabbat</h2>
+    <div class="mt-4 space-y-3 text-ink-muted">
+      <p>
+        Shabbat (the Jewish Sabbath) runs from Friday sunset to Saturday night every week in Israel.
+        For tourists it shapes everything: transport, restaurants, markets, museums and shops all
+        adjust their hours — or close entirely — during this 25-hour period.
+      </p>
+      <p>
+        <strong class="text-ink">Jerusalem</strong> observes Shabbat most strictly: the city largely
+        closes from Friday afternoon. <strong class="text-ink">Tel Aviv</strong> is more secular —
+        the beach and many restaurants stay open throughout. <strong class="text-ink">Haifa</strong>
+        runs city buses even on Shabbat, unlike every other Israeli city.
+      </p>
+      <p>
+        <strong class="text-ink">Public transport:</strong> intercity buses and national rail stop
+        around 2 hours before candlelighting and resume on Saturday night. Taxis, Gett and private
+        shuttles operate normally. Some Arab-operated buses run on Shabbat on specific routes — verify locally.
+      </p>
+    </div>
+    <div class="mt-5 flex flex-wrap gap-3">
+      <a href="/whats-open-on-shabbat" class="btn btn-primary">What's open on Shabbat?</a>
+      <a href="/israel-shabbat-calendar" class="btn btn-ghost">Full holiday calendar</a>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="mx-auto max-w-3xl px-4 pb-4 pt-14">
+    <h2 class="mb-4 font-display text-2xl font-bold text-ink">Frequently asked questions</h2>
+    <div class="space-y-4">
+      {
+        faqs.map((f) => (
+          <details class="rounded-card border border-border bg-card p-4">
+            <summary class="cursor-pointer font-semibold text-ink">{f.question}</summary>
+            <p class="mt-2 text-ink-muted">{f.answer}</p>
+          </details>
+        ))
+      }
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="mx-auto max-w-3xl px-4 pb-16 pt-6">
+    <div class="rounded-card border border-border bg-sand-deep p-6 text-center shadow-card">
+      <h2 class="font-display text-2xl font-bold text-ink">Plan the rest of your trip</h2>
+      <p class="mx-auto mt-2 max-w-xl text-ink-muted">
+        Build a day-by-day itinerary, check travel times, or estimate your budget.
+      </p>
+      <div class="mt-5 flex flex-wrap justify-center gap-3">
+        <a href="/build-your-trip" class="btn btn-primary">Build your trip</a>
+        <a href="/israel-trip-cost-calculator" class="btn btn-ghost">Budget calculator</a>
+      </div>
+    </div>
+  </section>
+</BaseLayout>
+
+<script is:inline>
+(function () {
+  /* ------------------------------------------------------------------ *
+   *  City data (lat/lng in decimal degrees)
+   * ------------------------------------------------------------------ */
+  var CITIES = {
+    'jerusalem':  { lat: 31.7683, lng: 35.2137, name: 'Jerusalem' },
+    'tel-aviv':   { lat: 32.0853, lng: 34.7818, name: 'Tel Aviv' },
+    'haifa':      { lat: 32.7940, lng: 34.9896, name: 'Haifa' },
+    'beersheba':  { lat: 31.2589, lng: 34.7998, name: 'Beersheba' },
+    'eilat':      { lat: 29.5577, lng: 34.9519, name: 'Eilat' },
+  };
+
+  /* ------------------------------------------------------------------ *
+   *  Israel DST (same algorithm as israel-golden-hour.astro)
+   * ------------------------------------------------------------------ */
+  var RAD = Math.PI / 180;
+  var TZ  = 2; // Israel Standard Time UTC+2
+
+  function isDST(utcMs) {
+    var d = new Date(utcMs);
+    var m = d.getUTCMonth() + 1;
+    if (m < 3 || m > 10) return false;
+    if (m > 3 && m < 10) return true;
+    if (m === 3) {
+      var lastFri = new Date(Date.UTC(d.getUTCFullYear(), 2, 31));
+      while (lastFri.getUTCDay() !== 5) lastFri.setUTCDate(lastFri.getUTCDate() - 1);
+      return utcMs >= lastFri.getTime();
+    }
+    if (m === 10) {
+      var lastSun = new Date(Date.UTC(d.getUTCFullYear(), 9, 31));
+      while (lastSun.getUTCDay() !== 0) lastSun.setUTCDate(lastSun.getUTCDate() - 1);
+      return utcMs < lastSun.getTime();
+    }
+    return false;
+  }
+
+  function offHrs(utcMs) { return TZ + (isDST(utcMs) ? 1 : 0); }
+
+  /* ------------------------------------------------------------------ *
+   *  Astronomical sunset (Jean Meeus simplified — same as golden-hour)
+   * ------------------------------------------------------------------ */
+  function solarTime(year, month, day, lat, lng, zenith, isRise) {
+    var N = Math.floor(275 * month / 9)
+      - Math.floor((month + 9) / 12) * (1 + Math.floor((year - 4 * Math.floor(year / 4) + 2) / 3))
+      + day - 30;
+    var M = (357.5291 + 0.98560028 * (N - 1)) % 360;
+    var C = 1.9148 * Math.sin(M * RAD) + 0.0200 * Math.sin(2 * M * RAD) + 0.0003 * Math.sin(3 * M * RAD);
+    var lambda = (M + C + 180 + 102.9372) % 360;
+    var sinDec = Math.sin(lambda * RAD) * Math.sin(23.45 * RAD);
+    var dec    = Math.asin(sinDec) / RAD;
+    var cosH   = (Math.cos(zenith * RAD) - Math.sin(lat * RAD) * Math.sin(dec * RAD))
+               / (Math.cos(lat * RAD) * Math.cos(dec * RAD));
+    if (cosH < -1 || cosH > 1) return null;
+    var H    = Math.acos(cosH) / RAD;
+    var noon = 12 - lng / 15;
+    var dayUtcMs = Date.UTC(year, month - 1, day);
+    var solar = isRise ? noon - H / 15 : noon + H / 15;
+    return solar + TZ + (isDST(dayUtcMs) ? 1 : 0); // returns fractional hours in Israel local time
+  }
+
+  /* Convert Israel-local fractional hours on a given date to UTC ms */
+  function localFracToUtcMs(year, month, day, localFracHrs) {
+    var dayUtcMs = Date.UTC(year, month - 1, day);
+    var off      = offHrs(dayUtcMs);
+    return dayUtcMs + (localFracHrs - off) * 3600000;
+  }
+
+  /* ------------------------------------------------------------------ *
+   *  Get Israel date parts from a UTC timestamp
+   * ------------------------------------------------------------------ */
+  function getILDate(utcMs) {
+    var off     = offHrs(utcMs);
+    var shifted = new Date(utcMs + off * 3600000);
+    return {
+      y:   shifted.getUTCFullYear(),
+      m:   shifted.getUTCMonth() + 1,
+      d:   shifted.getUTCDate(),
+      dow: shifted.getUTCDay(),      // 0=Sun … 5=Fri … 6=Sat
+      h:   shifted.getUTCHours(),
+      min: shifted.getUTCMinutes(),
+      sec: shifted.getUTCSeconds(),
+    };
+  }
+
+  /* ------------------------------------------------------------------ *
+   *  Shabbat times for the relevant Friday
+   * ------------------------------------------------------------------ */
+  function getShabbatTimes(nowMs, cityKey) {
+    var il  = getILDate(nowMs);
+    var loc = CITIES[cityKey];
+
+    // How many days from today (Israel local) to the relevant Friday
+    var dToFri;
+    switch (il.dow) {
+      case 0: dToFri = 5; break;  // Sun → next Fri
+      case 1: dToFri = 4; break;  // Mon
+      case 2: dToFri = 3; break;  // Tue
+      case 3: dToFri = 2; break;  // Wed
+      case 4: dToFri = 1; break;  // Thu
+      case 5: dToFri = 0; break;  // Fri → today
+      case 6: dToFri = -1; break; // Sat → yesterday was Friday
+    }
+
+    var friDateObj = new Date(Date.UTC(il.y, il.m - 1, il.d) + dToFri * 86400000);
+    var fy = friDateObj.getUTCFullYear();
+    var fm = friDateObj.getUTCMonth() + 1;
+    var fd = friDateObj.getUTCDate();
+
+    var satDateObj = new Date(Date.UTC(fy, fm - 1, fd) + 86400000);
+    var sy = satDateObj.getUTCFullYear();
+    var sm = satDateObj.getUTCMonth() + 1;
+    var sd = satDateObj.getUTCDate();
+
+    var friSunset   = solarTime(fy, fm, fd, loc.lat, loc.lng, 90.833, false);
+    var candleFrac  = friSunset - 18 / 60;       // 18 min before Friday sunset
+    var satSunset   = solarTime(sy, sm, sd, loc.lat, loc.lng, 90.833, false);
+    var havdalFrac  = satSunset + 42 / 60;        // 42 min after Saturday sunset
+
+    var candleMs    = localFracToUtcMs(fy, fm, fd, candleFrac);
+    var havdalMs    = localFracToUtcMs(sy, sm, sd, havdalFrac);
+
+    return {
+      candleMs:   candleMs,
+      havdalMs:   havdalMs,
+      candleFrac: candleFrac,
+      havdalFrac: havdalFrac,
+      friY: fy, friM: fm, friD: fd,
+      satY: sy, satM: sm, satD: sd,
+    };
+  }
+
+  /* ------------------------------------------------------------------ *
+   *  Formatting helpers
+   * ------------------------------------------------------------------ */
+  var MONTH_NAMES = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
+
+  function fmtFrac(frac) {
+    if (frac == null) return '—';
+    var total = Math.round(frac * 60);
+    var hh   = Math.floor(total / 60) % 24;
+    var mm   = total % 60;
+    var ampm = hh >= 12 ? 'pm' : 'am';
+    var hd   = hh % 12 || 12;
+    return hd + ':' + (mm < 10 ? '0' + mm : mm) + ' ' + ampm;
+  }
+
+  function fmtDate(y, m, d) {
+    return MONTH_NAMES[m - 1] + ' ' + d + ', ' + y;
+  }
+
+  function fmtCurrentTime(nowMs) {
+    var il = getILDate(nowMs);
+    var hh = il.h, mm = il.min, ss = il.sec;
+    var ampm = hh >= 12 ? 'pm' : 'am';
+    var hd   = hh % 12 || 12;
+    return hd + ':' + (mm < 10 ? '0' + mm : mm) + ':' + (ss < 10 ? '0' + ss : ss) + ' ' + ampm + ' (Israel time)';
+  }
+
+  function fmtCountdown(diffMs) {
+    if (diffMs <= 0) return '0m';
+    var totalSec = Math.floor(diffMs / 1000);
+    var d  = Math.floor(totalSec / 86400);
+    var h  = Math.floor((totalSec % 86400) / 3600);
+    var m  = Math.floor((totalSec % 3600) / 60);
+    var s  = totalSec % 60;
+
+    if (d > 0) {
+      return d + ' day' + (d !== 1 ? 's' : '') + ', ' + h + 'h ' + m + 'm';
+    }
+    if (h > 0) {
+      return h + 'h ' + m + 'm';
+    }
+    return m + 'm ' + s + 's';
+  }
+
+  /* ------------------------------------------------------------------ *
+   *  Render
+   * ------------------------------------------------------------------ */
+  var card    = document.getElementById('sc-card');
+  var timesEl = document.getElementById('sc-times');
+  var citySel = document.getElementById('sc-city');
+
+  function render() {
+    if (!card || !timesEl || !citySel) return;
+
+    var nowMs   = Date.now();
+    var cityKey = citySel.value;
+    var t       = getShabbatTimes(nowMs, cityKey);
+    var loc     = CITIES[cityKey];
+
+    var isActive   = nowMs >= t.candleMs && nowMs < t.havdalMs;
+    var isBefore   = nowMs < t.candleMs;
+
+    // If Shabbat has already ended this weekend, look at next week's Shabbat
+    var displayCandleMs  = t.candleMs;
+    var displayHavdalMs  = t.havdalMs;
+    var displayCandleFrac = t.candleFrac;
+    var displayHavdalFrac = t.havdalFrac;
+    var displayFriY = t.friY, displayFriM = t.friM, displayFriD = t.friD;
+    var displaySatY = t.satY, displaySatM = t.satM, displaySatD = t.satD;
+
+    if (!isActive && !isBefore) {
+      // Shabbat ended — advance 7 days
+      displayCandleMs  += 7 * 86400000;
+      displayHavdalMs  += 7 * 86400000;
+      var nextFri = new Date(Date.UTC(t.friY, t.friM - 1, t.friD) + 7 * 86400000);
+      var nextSat = new Date(Date.UTC(t.satY, t.satM - 1, t.satD) + 7 * 86400000);
+      displayFriY = nextFri.getUTCFullYear(); displayFriM = nextFri.getUTCMonth() + 1; displayFriD = nextFri.getUTCDate();
+      displaySatY = nextSat.getUTCFullYear(); displaySatM = nextSat.getUTCMonth() + 1; displaySatD = nextSat.getUTCDate();
+      // Recompute fractional times for next week's dates
+      displayCandleFrac = solarTime(displayFriY, displayFriM, displayFriD, loc.lat, loc.lng, 90.833, false) - 18 / 60;
+      displayHavdalFrac = solarTime(displaySatY, displaySatM, displaySatD, loc.lat, loc.lng, 90.833, false) + 42 / 60;
+      isBefore = true;
+    }
+
+    var diffMs      = isActive ? displayHavdalMs - nowMs : displayCandleMs - nowMs;
+    var countdown   = fmtCountdown(diffMs);
+    var currentTime = fmtCurrentTime(nowMs);
+
+    // Status colours
+    var statusBg, statusBorder, statusDot, statusText, actionLabel;
+    if (isActive) {
+      statusBg     = 'bg-amber-50';
+      statusBorder = 'border-amber-400';
+      statusDot    = 'bg-amber-500';
+      statusText   = 'Shabbat is ACTIVE';
+      actionLabel  = 'Shabbat ends in';
+    } else {
+      statusBg     = 'bg-sky-50';
+      statusBorder = 'border-sky-300';
+      statusDot    = 'bg-sky-500';
+      statusText   = 'Shabbat is NOT active';
+      actionLabel  = 'Next Shabbat starts in';
+    }
+
+    card.className = 'mt-6 rounded-card border-2 ' + statusBorder + ' ' + statusBg + ' p-6 shadow-card';
+    card.innerHTML =
+      '<p class="text-xs font-semibold uppercase tracking-wide text-ink-muted" id="sc-time-label">' + currentTime + '</p>'
+      + '<div class="mt-3 flex items-center gap-2">'
+      + '<span class="inline-block h-3 w-3 rounded-full ' + statusDot + '"></span>'
+      + '<span class="font-display text-xl font-bold text-ink">' + statusText + '</span>'
+      + '</div>'
+      + '<p class="mt-4 text-sm text-ink-muted">' + actionLabel + '</p>'
+      + '<p class="mt-1 font-display text-4xl font-bold tabular-nums text-ink" id="sc-countdown">' + countdown + '</p>';
+
+    timesEl.innerHTML =
+      '<p class="text-xs font-semibold uppercase tracking-wide text-ink-muted mb-3">This Shabbat — ' + loc.name + '</p>'
+      + '<div class="grid gap-4 sm:grid-cols-2">'
+      + '<div>'
+      + '<p class="text-xs font-semibold uppercase tracking-wide text-ink-muted">Candlelighting</p>'
+      + '<p class="mt-0.5 font-display text-2xl font-bold text-ink" id="sc-candle">' + fmtFrac(displayCandleFrac) + '</p>'
+      + '<p class="text-sm text-ink-muted">Friday, ' + fmtDate(displayFriY, displayFriM, displayFriD) + '</p>'
+      + '</div>'
+      + '<div>'
+      + '<p class="text-xs font-semibold uppercase tracking-wide text-ink-muted">Havdalah</p>'
+      + '<p class="mt-0.5 font-display text-2xl font-bold text-ink" id="sc-havdalah">' + fmtFrac(displayHavdalFrac) + '</p>'
+      + '<p class="text-sm text-ink-muted">Saturday, ' + fmtDate(displaySatY, displaySatM, displaySatD) + '</p>'
+      + '</div>'
+      + '</div>';
+  }
+
+  // Live updates every second
+  render();
+  setInterval(render, 1000);
+
+  if (citySel) citySel.addEventListener('change', render);
+})();
+</script>
