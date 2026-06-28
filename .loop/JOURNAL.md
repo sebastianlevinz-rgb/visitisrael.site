@@ -2636,3 +2636,27 @@ Prod: GitHub Actions CI = failure — same pre-existing Lighthouse pattern as al
   (2-second job failure = infrastructure issue, not a code regression). Local gate fully green.
   No revert. fr: 39/~147 pages, de: 39/~147 pages.
 Next: iter 138 = BUILD/tools.
+
+## 2026-06-28 · iter 138 · BUILD/tools · israel-shabbat-countdown
+Mode: BUILD/tools (138%5==3). Category: tools. All prior tools items were SHIPPED → added this
+  new candidate from iter137 STATE.md suggestions.
+Item: /israel-shabbat-countdown — real-time Shabbat status + live countdown widget.
+What: New tool at /israel-shabbat-countdown. Features:
+  - Live current Israel time (updated every second via setInterval)
+  - Status badge: "Shabbat is ACTIVE" (amber) vs "Shabbat is NOT active" (blue)
+  - Live countdown to next candlelighting (Friday, 18 min before sunset) or Havdalah (Saturday,
+    42 min after sunset)
+  - City selector: Jerusalem, Tel Aviv, Haifa, Beersheba, Eilat (5 cities)
+  - Candlelighting + Havdalah times + date display in times card
+  - Post-Havdalah Saturday → auto-advances to next week's Shabbat
+  - Uses same Jean Meeus simplified astronomical sunset algorithm as israel-golden-hour.astro (±2 min)
+  - Same isDST() function (consistent with existing codebase)
+  - 5 FAQs with FAQPage JSON-LD; breadcrumb; cross-links to whats-open-on-shabbat + shabbat-calendar
+  - Wired to plan-your-trip tools grid; i18n keys added for EN/FR/DE
+  4 Playwright tests added to tools.spec.ts:
+    (1) loads and shows Israel time + countdown, (2) shows candlelighting + Havdalah times,
+    (3) switching city updates candlelighting time, (4) plan-your-trip links to tool.
+Gate: pnpm check 0 errors (116 files); build 274 pages (+1 was 273); 327/327 e2e+a11y pass (was 321, +6: 4 new tools tests + 2 smoke/a11y routes).
+Ship: squash-merged to master 0bc6005, pushed.
+Prod: GitHub Actions CI = failure — same pre-existing Lighthouse pattern as iters 132–137 (infrastructure issue; prev commit 11c28f37 also shows failure; local gate fully green). No revert.
+Next: iter 139 = REVIEW (139%5==4). Review candidates: new shabbat-countdown tool + recent i18n batch 12 pages + jordan-river-baptism.

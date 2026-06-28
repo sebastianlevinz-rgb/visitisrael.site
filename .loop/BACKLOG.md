@@ -147,6 +147,7 @@ bounded, gated BUILD item. Full architecture + honesty rules + progress tracker 
 - [SHIPPED iter93] Israel city travel time lookup (/israel-travel-time) → 79a1e37
 - [SHIPPED iter103] Israel Jewish holiday impact planner (/israel-holiday-planner) → cc3a0df
 - [SHIPPED iter118] Israel sunrise / golden-hour calculator (/israel-golden-hour) → f1cedb7
+- [SHIPPED iter138] Live Shabbat countdown & status widget (/israel-shabbat-countdown) → 0bc6005
 
 ## technical
 - [SHIPPED iter38] Expanded a11y coverage (36 routes), keyboard-nav + perf-budget tests, skip-link WCAG fix, Leaflet self-hosted → b6580b7
