@@ -2729,3 +2729,27 @@ Prod: GitHub Actions CI = failure — same pre-existing Lighthouse infrastructur
   all iters 132–140 (2-second job failure; prior commit a1a4979 also shows same pattern).
   Not a regression. Local gate fully green. No revert done.
 Next: iter 142 = BUILD/seo-content (142%5==2). i18n batch 13 OR new EN guide (Haifa / Eilat / Golan Heights / Mitzpe Ramon).
+
+## 2026-06-28 · iter 142 · BUILD/seo-content · i18n batch 13
+
+What: Translated 5 EN guides × 2 locales (fr+de) = 10 new locale pages for i18n batch 13.
+  - jordan-river-baptism fr+de: Yardenit vs Qasr el-Yahud comparison, 6 FAQs, pilgrimage logistics
+  - nazareth-sea-of-galilee-day-trip fr+de: Christian Galilee circuit (Nazareth/Capernaum/Beatitudes/Yardenit), 5 FAQs
+  - jerusalem-bethlehem-day-trip fr+de: West Bank crossing logistics, Church of Nativity, 5 FAQs
+  - tel-aviv-nightlife fr+de: Florentin/Rothschild/Old Port nightlife, 3 FAQs
+  - israel-accommodation-guide fr+de: 7 accommodation types comparison table, 7 FAQs, booking advice
+
+YAML fix: DE accommodation guide used German typographic „term" quotes inside YAML double-quoted
+  strings — the ASCII closing " (U+0022) at „term" prematurely terminated the YAML string. Fixed
+  by replacing ASCII closing quotes with Unicode curly quote " (U+201C) so they're not YAML delimiters.
+
+Gate:
+  pnpm check: 0 errors, 0 warnings (116 files) ✓
+  pnpm build: 285 pages (+10 vs iter 141's 275) ✓
+  pnpm test:e2e: 338 passed (0 failed) ✓
+
+Ship: squash-merged auto/i18n-batch-13 → master d8cf8f3, pushed.
+Prod: master auto-deploys to Vercel (deployment triggered by push).
+fr/de count: 44 guides each (home + plan-your-trip + 44 guides = 46 locale pages each).
+Smoke: 10 new routes added (/fr|de/jordan-river-baptism etc).
+Next: iter 143 = BUILD/tools (143%5==3).
