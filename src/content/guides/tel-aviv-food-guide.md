@@ -39,7 +39,7 @@ Tel Aviv is, simply, one of the world great eating cities — a sun-soaked, mark
 
 The heart of Tel Aviv food culture is its markets:
 
-- **[Carmel Market (Shuk HaCarmel)](/tel-aviv/carmel-market)** — the big one: produce, spices, bakeries and a growing strip of street-food stalls and bars.
+- **[Carmel Market (Shuk HaCarmel)](/tel-aviv-carmel-market)** — the big one: produce, spices, bakeries and a growing strip of street-food stalls and bars. See the [complete Carmel Market guide](/tel-aviv-carmel-market).
 - **Levinsky Market** — the spice-and-deli district, now lined with superb small eateries.
 - **Sarona Market** — a polished indoor food hall for a rainy day or a sit-down graze.
 

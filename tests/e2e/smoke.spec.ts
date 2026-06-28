@@ -169,6 +169,7 @@ const ROUTES = [
   '/de/israeli-street-food-guide',
   '/fr/luxury-travel-israel',
   '/de/luxury-travel-israel',
+  '/tel-aviv-carmel-market',
   '/search',
 ];
 
