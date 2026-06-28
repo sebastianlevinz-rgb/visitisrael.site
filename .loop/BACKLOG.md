@@ -4,6 +4,7 @@ Format: `- [P1] (category, effort S/M/L) Title — why valuable — impl sketch 
 Priorities P0 (highest) → P3. Status: ready | blocked:<reason> | in-progress.
 
 ## technical / SEO-health
+- [P2] (technical, M) Bulk locale-link correction pass — FR/DE batch 1–13 pages contain internal links to EN equivalents when FR/DE versions now exist (e.g. /masada-dead-sea-day-trip in FR pages → /fr/masada-dead-sea-day-trip). Systemic pattern from iterative batching. Script: grep all markdown links, check if /fr/<slug>.md exists, replace. Affects ~40 FR files. Gate: check:links passes + build stable. Found iter144 REVIEW. status: ready
 - [SHIPPED iter134] EN guide title trim — 19 EN guides trimmed to ≤65 chars (galilee-tours-compared, petra-tours-compared, tiberias-guide, jerusalem-bethlehem-day-trip, israel-food-tours-cooking-classes, safed-tzfat-guide, akko-acre-guide, israel-for-seniors, israel-zimmer-guide, petra-from-israel, nazareth-travel-guide, ben-gurion-airport-guide, masada-tours-compared, tel-aviv-white-city, israeli-street-food-guide, dead-sea-guide, qumran-guide, israel-adventure-sports, tel-aviv-tours-compared) + de/solo-female-travel-israel (iter132 defect 73→59 chars) → 55185e4
 - [SHIPPED iter143] i18n SEO meta trim — all 84 FR+DE guides: 31 title fixes (≤65), 60 desc fixes (≤160); 0 violations remain → 7c62f66
 - [SHIPPED iter133] Event schema upgrade — eventSchema() helper + Event JSON-LD on israel-events-festivals (5 events) and masada-dead-sea-day-trip (Sound+Light show season) → 32c3e07

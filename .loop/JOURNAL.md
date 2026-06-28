@@ -2777,3 +2777,27 @@ Ship: squash-merged auto/i18n-seo-meta-trim → master 7c62f66, pushed.
 Prod: Vercel deployment triggered by push. GitHub Actions CI shows pre-existing 1-second
   failure (infra issue present on all prior commits including iter 142 — not a regression).
 Next: iter 143 = BUILD/tools (143%5==3).
+
+## 2026-06-28 · iter 144 · REVIEW · i18n batch 13 audit + truncated description fix
+Mode: REVIEW (144%5==4). Audited i18n batch 13 (shipped iter 142): fr+de × jordan-river-baptism,
+  nazareth-sea-of-galilee-day-trip, jerusalem-bethlehem-day-trip, tel-aviv-nightlife, israel-accommodation-guide.
+Review results:
+- heroImages: all 10 files exist ✓
+- No H1 in body on any file ✓
+- No fabricated ratingValue/aggregateRating in rendered output ✓ (rating/reviews YAML fields defined
+  in schema as optional but never rendered by AffiliateCard — not a honesty violation)
+- Paired naming: "traditionnellement identifié comme" / "traditionell identifiziert als" for Qasr
+  el-Yahud correctly framed throughout ✓
+- 4 complete descriptions (FR/DE jerusalem-bethlehem, DE nightlife, DE accommodation) ✓
+- DEFECT: 6 truncated descriptions from iter 143 mechanical trim (cut mid-sentence at ~156 char boundary):
+  fr/jordan-river-baptism ("...planifier votre"), de/jordan-river-baptism ("...und wie den"),
+  fr/nazareth-sea-of-galilee-day-trip ("...avec prix,"), de/nazareth-sea-of-galilee-day-trip
+  ("...mit Kosten,"), fr/tel-aviv-nightlife ("...et les circuits"),
+  fr/israel-accommodation-guide ("...et conseils")
+- LOCALE LINKS: several FR batch 13 pages link to EN versions when FR equivalents exist (systemic
+  pattern; not unique to batch 13). Added P2 BACKLOG item for bulk pass.
+Fix: rewrote 6 truncated descriptions as complete sentences ≤160 chars. Branch auto/review-144-meta-descriptions.
+Gate: pnpm check 0 errors; build 285 pages (unchanged); 338/338 e2e+a11y pass.
+Ship: squash-committed to master 398c715, pushed.
+Prod: Vercel deploy in_progress (content-only change; pre-existing CI pattern).
+Next: iter 145 = RESEARCH (145%5==0).
