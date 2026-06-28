@@ -130,6 +130,16 @@ const ROUTES = [
   '/de/israel-national-parks-pass',
   '/fr/driving-in-israel',
   '/de/driving-in-israel',
+  '/fr/jaffa-travel-guide',
+  '/de/jaffa-travel-guide',
+  '/fr/tel-aviv-food-guide',
+  '/de/tel-aviv-food-guide',
+  '/fr/israeli-food-cuisine-guide',
+  '/de/israeli-food-cuisine-guide',
+  '/fr/masada-dead-sea-day-trip',
+  '/de/masada-dead-sea-day-trip',
+  '/fr/israel-money-guide',
+  '/de/israel-money-guide',
   '/search',
 ];
 
