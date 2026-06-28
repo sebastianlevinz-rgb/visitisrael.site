@@ -1,6 +1,6 @@
 ---
 title: 'Luxury Travel in Israel: Hotels, Tours & VIP Experiences'
-description: 'Plan a luxury Israel trip: Forbes-recognised 5-star hotels, private guide days, VIP archaeological access, Dead Sea spa escapes, and fine-dining itineraries.'
+description: 'Plan a luxury Israel trip: world-class 5-star hotels, private guide days, VIP archaeological access, Dead Sea spa escapes, and fine-dining itineraries.'
 heroImage: /images/regions/jerusalem/hero.jpg
 category: Tours
 updatedAt: 2026-06-28
@@ -41,7 +41,7 @@ For travellers who want Israel at its finest — a dedicated expert guide, rooms
 
 ## Why Israel rewards a higher spend
 
-The same country that holds some of the world's most significant ancient sites also has Forbes-recognised 5-star hotels, a growing Michelin-tier restaurant scene, boutique wineries with private cellar-door tastings, and a corps of Ministry-of-Tourism licensed guides who are among the best at their craft. The distances are short enough that a private driver-guide can take you from Jerusalem's Western Wall to a Golan Heights winery and a Dead Sea sunset in a single day — something no scheduled group tour can match.
+The same country that holds some of the world's most significant ancient sites also has world-class 5-star hotels, a rapidly evolving fine-dining scene, boutique wineries with private cellar-door tastings, and a corps of Ministry-of-Tourism licensed guides who are among the best at their craft. The distances are short enough that a private driver-guide can take you from Jerusalem's Western Wall to a Golan Heights winery and a Dead Sea sunset in a single day — something no scheduled group tour can match.
 
 ## Luxury hotels by city
 
@@ -74,7 +74,7 @@ At **Yad Vashem**, a private guide delivers a profoundly personal experience tha
 
 ## Fine dining
 
-Israel's restaurant scene has gained serious international recognition in recent years, with the country's first Michelin star awarded in 2025–2026 and several Israeli restaurants appearing in La Liste's global top 1,000. Jerusalem and Tel Aviv both have tasting-menu restaurants where advance booking (weeks to months ahead) is the norm. See our [Tel Aviv food guide](/tel-aviv-food-guide) for the mid-range and top-end dining scene in the city, and look out for our forthcoming fine dining guide for the Michelin tier.
+Israel's restaurant scene has gained serious international recognition in recent years, with several Israeli restaurants appearing in La Liste's global top 1,000 and the country's top chefs increasingly profiled in international food media. Jerusalem and Tel Aviv both have tasting-menu restaurants where advance booking (weeks to months ahead) is the norm. See our [Tel Aviv food guide](/tel-aviv-food-guide) for the mid-range and top-end dining scene in the city.
 
 ## Shabbat planning for luxury travellers
 
