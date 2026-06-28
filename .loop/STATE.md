@@ -1,29 +1,29 @@
 # LOOP STATE
 
-- iteration: 140
-- lastMode: RESEARCH
-- lastItem: iter 140 RESEARCH — 14-day itinerary + Golan Heights guide + City of David + Nabataean Incense Route + VAT refund (5 new items)
-- lastResult: RESEARCH — 5 net-new backlog items confirmed; de-duped surfing (iter105); backlog now ~135 ready items
-- nextRotationCategory: 141%5==1 → BUILD/monetization; 142%5==2 → BUILD/seo-content (i18n batch 13); 143%5==3 → BUILD/tools; 144%5==4 → REVIEW
+- iteration: 141
+- lastMode: BUILD/monetization
+- lastItem: iter 141 BUILD/monetization — 14-day Israel two-week itinerary (/itineraries/14-days-in-israel)
+- lastResult: SHIPPED a02b487 — 275 pages (+1); 328/328 e2e+a11y pass; Lighthouse CI = pre-existing infrastructure failure (same as iters 132–140); no revert
+- nextRotationCategory: 142%5==2 → BUILD/seo-content (i18n batch 13); 143%5==3 → BUILD/tools; 144%5==4 → REVIEW; 145%5==0 → RESEARCH
 - higgsfieldSpent: 0
 - updatedAt: 2026-06-28
 - branch context: work on master; feature work on auto/<slug>
 
-Notes: iter 140 RESEARCH — searched for competitor content on 14-day itineraries, Golan Heights
-  destination guides, City of David Jerusalem, Negev Incense Route / Nabataean cities, Israel VAT
-  refund. 5 confirmed new items added to backlog:
-  1. /14-days-in-israel (P1, M) — top-5 Israel query; huge gap vs Frommers/travelingisrael.com.
-  2. /golan-heights-guide (P2, M) — comprehensive destination guide DISTINCT from wineries guide.
-  3. /city-of-david-jerusalem (P2, S) — Hezekiah's Tunnel + Gihon Spring; 1M+ visitors/year.
-  4. /negev-incense-route (P2, M) — all 4 Nabataean cities (Avdat, Mamshit, Haluza, Shivta).
-  5. /israel-vat-refund (P3, S) — 17% VAT refund process + Eilat exception.
-  De-duped: surfing (iter105), golan-heights-wineries (iter135), israel-unesco-sites (iter125).
-  274 pages total. 19 tools. 13 review passes. 26 research passes.
+Notes: iter 141 BUILD/monetization — shipped /itineraries/14-days-in-israel, the P1 top-5
+  Israel query item added by iter 140 RESEARCH. 14-day full itinerary: TLV (2d) → Northern
+  Coast/Caesarea/Haifa/Akko (1d) → Galilee+Safed (1d) → Golan Heights (1d) → Nazareth (1d)
+  → Jerusalem (4 nights: Old City, Yad Vashem, Israel Museum, City of David+Bethlehem) →
+  Masada+Dead Sea (1d) → Negev/Mitzpe Ramon stargazing (1d) → Eilat (1d) → Petra full day
+  (1d) → Departure. 6 FAQs with FAQPage JSON-LD, cost table, honest price ranges, dense
+  cross-links, affiliate CTAs via [slug].astro tour section. israel-5-vs-7-vs-10-days
+  comparison guide updated with new 14-day table row + section. Smoke test added.
+  275 pages total. 19 tools. 13 review passes. 27 research passes.
 
-NEXT: iter 141 = BUILD/monetization (141%5==1). Top monetization item in backlog:
-  Check backlog for highest-priority monetization item ready to ship.
-  i18n batch 13 is next BUILD/seo-content slot (iter 142).
+NEXT: iter 142 = BUILD/seo-content (142%5==2). i18n batch 13 candidates:
+  Next batch of EN guides to translate to fr+de — check BACKLOG for batch 13 candidates.
+  Also consider high-priority new EN guides (haifa-travel-guide P2, mitzpe-ramon-guide P2,
+  eilat-travel-guide P2, golan-heights-guide P2 from iter140).
 
 Cron b7325b16 hourly @ :17. Loop history: 19 tools + sitemap-lastmod + link-checker(+depth) + i18n
-Phase0/1a/1b/1c/2 Batches1-12 + 13 review passes + 1 technical (event-schema) + 2 EN guides;
+Phase0/1a/1b/1c/2 Batches1-12 + 13 review passes + 1 technical (event-schema) + 3 EN guides;
 research iters 5/10/20/30/35/40/45/50/55/60/65/70/75/80/85/90/95/100/105/110/115/120/125/130/135/140.

@@ -2709,3 +2709,23 @@ De-duped: israel-surfing confirmed in backlog [iter105]; golan-heights-wineries 
   3–4 sentences ≠ dedicated Nabataean guide.
 No ship. .loop/ files updated + committed.
 Next: iter 141 = BUILD/monetization (141%5==1).
+
+## 2026-06-28 · iter 141 · BUILD/monetization · 14-day Israel two-week itinerary
+Mode: BUILD/monetization (141%5==1). Picked P1 item added by iter 140 RESEARCH: /14-days-in-israel.
+What: New /itineraries/14-days-in-israel page. Full 14-day route: Tel Aviv + Jaffa (2d) →
+  Northern Coast/Caesarea/Haifa/Akko (1d) → Sea of Galilee + Safed (1d) → Golan Heights
+  (Banias, Nimrod Fortress, Mount Bental, winery; 1d) → Nazareth + transfer to Jerusalem
+  (1d) → Jerusalem Old City + Western Wall Tunnels (1d) → Yad Vashem + Israel Museum (1d)
+  → City of David / Hezekiah's Tunnel + Bethlehem + Banksy wall (1d) → Masada sunrise +
+  Ein Gedi + Dead Sea float (1d) → Negev: Beer Sheva, Sde Boker, Ein Avdat, Mitzpe Ramon
+  + stargazing (1d) → Eilat Red Sea + Coral Beach (1d) → Petra full day (1d) → Departure.
+  6 FAQs with FAQPage JSON-LD via [slug].astro template; cost table (budget/mid-range);
+  honest price ranges throughout; dense internal cross-links to all regions/guides/tools.
+  israel-5-vs-7-vs-10-days.md updated: new 14-day row in comparison table + brief section
+  linking to the new page. Smoke test added for /itineraries/14-days-in-israel.
+Gate: pnpm check 0 errors; build 275 pages (+1, was 274); 328/328 e2e+a11y pass (was 327, +1 smoke route).
+Ship: squash-merged to master a02b487, pushed origin.
+Prod: GitHub Actions CI = failure — same pre-existing Lighthouse infrastructure pattern as
+  all iters 132–140 (2-second job failure; prior commit a1a4979 also shows same pattern).
+  Not a regression. Local gate fully green. No revert done.
+Next: iter 142 = BUILD/seo-content (142%5==2). i18n batch 13 OR new EN guide (Haifa / Eilat / Golan Heights / Mitzpe Ramon).
