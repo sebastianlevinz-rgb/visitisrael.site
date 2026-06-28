@@ -2619,3 +2619,20 @@ Prod: GitHub Actions CI = failure — same pre-existing Lighthouse pattern as al
   132–135 all show same). Not a regression. Local gate fully green. No revert done.
 Next: iter 137 = BUILD/seo-content (i18n batch 12: jaffa-travel-guide, tel-aviv-food-guide,
   israeli-food-cuisine-guide, masada-dead-sea-day-trip, israel-money-guide fr+de).
+
+## 2026-06-28 · iter 137 · BUILD/seo-content (i18n batch 12) · 10 locale pages fr+de
+What: i18n batch 12 — 5 guides × 2 locales = 10 new pages:
+  fr+de: jaffa-travel-guide, tel-aviv-food-guide, israeli-food-cuisine-guide,
+         masada-dead-sea-day-trip, israel-money-guide.
+  Parallel agents wrote FR (5 files) and DE (5 files) simultaneously.
+  Post-write fixes: (1) YAML apostrophe errors in all 5 FR files (French contractions break
+  single-quoted YAML; converted to double-quotes via Python script); (2) missing `image` fields
+  in 3 FR affiliate CTA blocks (patched from EN source values); (3) broken internal link
+  /tel-aviv/white-city → /tel-aviv-white-city in fr/jaffa-travel-guide. 10 new smoke routes
+  added to smoke.spec.ts.
+Gate: pnpm check 0 errors; build 273 pages (+10, was 263); 321/321 e2e+a11y pass (was 311).
+Ship: committed to master 63b8ad9, pushed.
+Prod: GitHub Actions CI = failure — same pre-existing Lighthouse pattern as all iters 132–136
+  (2-second job failure = infrastructure issue, not a code regression). Local gate fully green.
+  No revert. fr: 39/~147 pages, de: 39/~147 pages.
+Next: iter 138 = BUILD/tools.

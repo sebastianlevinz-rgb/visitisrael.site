@@ -52,14 +52,15 @@
 
 ## Progress tracker (loop updates this each i18n iteration)
 
-- Current phase: **Phase 2 BATCH 11 DONE (iter 132, SHA 815e5bb)**: solo-female-travel-israel + israel-with-kids + tel-aviv-vs-jerusalem + israel-events-festivals shipped in fr+de (8 new locale pages). Paired naming at contested sites: Mur des Lamentations/Kotel (fr), Klagemauer/Kotel (de). Honest safety framing for solo-female guide. fr 34/~147, de 34/~147 (home + plan-your-trip + 32 guides each). 262 pages built. Next batch candidates: jaffa-travel-guide fr/de, tel-aviv-food-guide fr/de, israeli-food-cuisine-guide fr/de, masada-dead-sea-day-trip fr/de, israel-money-guide fr/de.
+- Current phase: **Phase 2 BATCH 12 DONE (iter 137, SHA 63b8ad9)**: jaffa-travel-guide + tel-aviv-food-guide + israeli-food-cuisine-guide + masada-dead-sea-day-trip + israel-money-guide shipped in fr+de (10 new locale pages). YAML apostrophe fix for all FR files (French contractions break single-quoted YAML). Broken link /tel-aviv/white-city → /tel-aviv-white-city patched. fr 39/~147, de 39/~147 (home + plan-your-trip + 37 guides each). 273 pages built. Next batch 13 candidates: jordan-river-baptism fr/de, nazareth-sea-of-galilee-day-trip fr/de, jerusalem-bethlehem-day-trip fr/de, tel-aviv-nightlife fr/de, israel-accommodation-guide fr/de.
+- Phase 2 BATCH 11 DONE (iter 132, SHA 815e5bb): solo-female-travel-israel + israel-with-kids + tel-aviv-vs-jerusalem + israel-events-festivals shipped in fr+de (8 new locale pages). Paired naming at contested sites: Mur des Lamentations/Kotel (fr), Klagemauer/Kotel (de). fr 34/~147, de 34/~147.
 - Phase 1c — DONE (iter 22): mobile-menu nav labels. Phase 1a/1b/leak — chrome. NOTE: /plan-your-trip + 404 body copy need /fr/ + /de/ ROUTE VARIANTS (static host serves one /404.html for all 404s; root .astro pages have no locale variant) → fold into Phase 2 as .astro page clones (same proven pattern as the fr/de home pages). Page-aware switcher still deferred until ≥1 content page exists per locale.
 - Phase 1a/1b — DONE (iters 15/17): Header + Footer chrome.
 - Phase 1a — DONE (iter 15, 83379f9): Header chrome.
 - Phase 0 — DONE (iter 12, 5b80c35); og:locale:alternate added iter14 (1dc48a5).
 - Shipped in Phase 0: astro i18n config; src/i18n/ui.ts (locales/t()/helpers/dict); BaseLayout <html lang> + og:locale + reciprocal hreflang via `alternates` prop; header language switcher (desktop+mobile); /fr/ + /de/ localized landing pages (Hero + rollout notice + regions grid + plan CTA); homeAlternates() reciprocity on en home; smoke hreflang test + /fr/ a11y. Live: /fr/ + /de/ 200, lang+4 hreflang verified in prod.
 - DEFERRED (later phases, not regressions): sitemap hreflang; page-aware language switcher (currently → locale home); translated header/footer nav strings (en pages unaffected; fr/de pages still show EN chrome); per-collection content translation.
-- fr pages shipped: 14 / ~147 (home + plan-your-trip + 12 guides) · de pages shipped: 14 / ~147 (same)
+- fr pages shipped: 39 / ~147 (home + plan-your-trip + 37 guides) · de pages shipped: 39 / ~147 (same)
 - Notes: language decision = fr+de (user, 2026-06-22). Arabic explicitly NOT chosen (avoids RTL +
   contested-naming load). Hebrew not requested (audience is foreign tourists; old bilingual he/en site
   is on backup branch if ever revived).
