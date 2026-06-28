@@ -1,6 +1,6 @@
 ---
 title: "Taufstätten am Jordan: Yardenit vs. Qasr el-Yahud (2026)"
-description: "Vollständiger Reiseführer zu den Taufstätten am Jordan in Israel — Yardenit vs. Qasr el-Yahud im Vergleich: Einrichtungen, Zugang, was mitnehmen und wie den"
+description: "Yardenit oder Qasr el-Yahud? Taufstätten am Jordan im Vergleich — Einrichtungen, Zugang, Packliste und Tipps zur Planung Ihrer Taufe in Israel."
 heroImage: /images/sub-destinations/galilee/yardenit.jpg
 category: Planung
 verdictName: a Jordan River baptism tour

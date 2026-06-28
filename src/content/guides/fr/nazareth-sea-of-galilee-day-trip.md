@@ -1,6 +1,6 @@
 ---
 title: "Nazareth & mer de Galilée : le Circuit Chrétien en Galilée (2026)"
-description: "Guide complet de l'excursion chrétienne en Galilée — Nazareth, Capharnaüm, le mont des Béatitudes, Tabgha et le site de baptême de Yardenit — avec prix,"
+description: "Circuit chrétien en Galilée — Nazareth, Capharnaüm, mont des Béatitudes, Tabgha et Yardenit : prix, durée, sites clés et conseils pratiques."
 heroImage: /images/regions/galilee/hero.jpg
 category: Excursions
 verdictName: Galilee day trip

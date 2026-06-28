@@ -1,6 +1,6 @@
 ---
 title: "Sites de Baptême du Jourdain : Yardenit vs Qasr el-Yahud"
-description: "Guide complet des sites de baptême du Jourdain en Israël — Yardenit vs Qasr el-Yahud : équipements, accès, ce qu'il faut apporter et comment planifier votre"
+description: "Comparez Yardenit et Qasr el-Yahud — équipements, accès, ce qu'il faut apporter et comment planifier votre visite au Jourdain en Israël."
 heroImage: /images/sub-destinations/galilee/yardenit.jpg
 category: Planification
 verdictName: a Jordan River baptism tour

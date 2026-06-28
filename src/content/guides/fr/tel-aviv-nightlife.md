@@ -1,6 +1,6 @@
 ---
 title: "Vie Nocturne à Tel Aviv : Bars, Rooftops & Clubs 2026"
-description: "Guide de la vie nocturne à Tel Aviv : les meilleurs bars, terrasses panoramiques, beach bars et clubs, les quartiers qui s'animent la nuit et les circuits"
+description: "Guide de la vie nocturne à Tel Aviv : meilleurs bars, rooftops, beach clubs et circuits guidés — les quartiers qui s'animent après minuit."
 heroImage: /images/sub-destinations/tel-aviv/florentin.jpg
 category: Vie nocturne
 updatedAt: 2026-05-27

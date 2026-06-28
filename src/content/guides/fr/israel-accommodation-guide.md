@@ -1,6 +1,6 @@
 ---
 title: "Où Dormir en Israël : Types d'Hébergement Comparés 2026"
-description: "Hôtels, pensions de kibboutz, zimmers, auberges, glamping et campements bédouins — guide de l'hébergement en Israël avec fourchettes de prix 2026 et conseils"
+description: "Hôtels, zimmers, auberges, glamping et campements bédouins — comparatif des hébergements en Israël avec fourchettes de prix 2026 et conseils de réservation."
 heroImage: /images/regions/jerusalem/hero.jpg
 category: Hébergement
 updatedAt: 2026-06-26
