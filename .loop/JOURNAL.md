@@ -2945,3 +2945,13 @@ What: P3 tools/monetization. Added Amazon Associates "Shop →" badges to /israe
 Gate: pnpm check 0 errors (117 files); build 303 pages (unchanged); test:e2e 366 passed (+3).
 Ship: squash-committed to master c80acac, pushed. CI run 28332150362 in_progress at push time.
 Next: iter 154 = REVIEW (154%5==4). Audit slice: iter 151 (birthright guide), iter 152 (batch 15 i18n), iter 153 (affiliate badges).
+
+## 2026-06-28T19:33Z · iter 154 · REVIEW · de/qumran-guide cross-locale link fix
+Mode: REVIEW (154%5==4). Audited slice from iters 151–153.
+Findings:
+  1. iter 151 (israel-after-birthright.md): all 20+ internal links verified valid; affiliate CTAs correct. No issues.
+  2. iter 152 (batch 15 FR+DE): hreflang auto-computed from [slug].astro for all 4 slug triads. Internal locale links: FOUND BUG — de/qumran-guide.md line 106 linked to /fr/car-rental-israel instead of /de/car-rental-israel (copy-paste error from FR source). No other /fr/ links in DE files or /de/ links in FR files.
+  3. iter 153 (packing list affiliate badges): rel=sponsored, aria-label, distinct Amazon k= params all confirmed present and correct.
+Fix: one-char link fix in de/qumran-guide.md (auto/fix-de-qumran-locale-link branch).
+Gate: pnpm check 0 errors (117 files), pnpm build 303 pages, pnpm test:e2e 366 passed.
+Merge: squash-committed 7c4b1f2 to master, pushed. CI pending at turn-end.
