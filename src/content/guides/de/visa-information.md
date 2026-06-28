@@ -49,8 +49,8 @@ Rechnen Sie mit Sicherheitsfragen bei der Ankunft — zu Ihrer Reise, Ihrem Aufe
 
 ## Aufenthaltsverlängerung und Einreise auf dem Landweg
 
-Falls Sie länger als die erlaubte Aufenthaltsdauer bleiben möchten, wenden Sie sich während Ihres Aufenthalts an die Bevölkerungs- und Einwanderungsbehörde. Bei der **Einreise auf dem Landweg aus Jordanien oder Ägypten** gelten abweichende ETA-IL-Anforderungen und Verfahren je nach Grenzübergang — lesen Sie unseren [Ratgeber zu Grenzübergängen](/border-crossings).
+Falls Sie länger als die erlaubte Aufenthaltsdauer bleiben möchten, wenden Sie sich während Ihres Aufenthalts an die Bevölkerungs- und Einwanderungsbehörde. Bei der **Einreise auf dem Landweg aus Jordanien oder Ägypten** gelten abweichende ETA-IL-Anforderungen und Verfahren je nach Grenzübergang — lesen Sie unseren [Ratgeber zu Grenzübergängen](/de/border-crossings).
 
 ## Vor der Abreise
 
-Ergänzen Sie diesen Leitfaden mit unserem [Reiseführer für Erstbesucher](/first-time-in-israel) und lesen Sie [Ist Israel sicher?](/is-israel-safe) für aktuelle Sicherheitshinweise. Kümmern Sie sich auch um die praktischen Grundlagen — eine [eSIM](/israel-esim), eine [Reiseversicherung](/israel-travel-insurance) und Ihren [Flughafentransfer](/ben-gurion-airport-transfers) — bevor Sie fliegen.
+Ergänzen Sie diesen Leitfaden mit unserem [Reiseführer für Erstbesucher](/de/first-time-in-israel) und lesen Sie [Ist Israel sicher?](/de/is-israel-safe) für aktuelle Sicherheitshinweise. Kümmern Sie sich auch um die praktischen Grundlagen — eine [eSIM](/israel-esim), eine [Reiseversicherung](/de/israel-travel-insurance) und Ihren [Flughafentransfer](/ben-gurion-airport-transfers) — bevor Sie fliegen.

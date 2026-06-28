@@ -27,7 +27,7 @@ Israel ist kein Billigziel — die Kosten liegen eher auf westeuropäischem Nive
 
 **Essen** variiert stark: Ein Marktmittagessen oder Falafel/Hummus kostet wenige Dollar, ein Casual-Restaurant 15–25 $, ein gehobenes Abendessen 60 $ und mehr. Märkte wie [Machane Jehuda](/jerusalem/mahane-yehuda) und der [Karmelmarkt](/tel-aviv/carmel-market) sind gleichzeitig Erlebnis und Sparmaßnahme.
 
-**Transport** ist günstig. Intercity-Zug- und Bustickets sind mit einer [Rav-Kav](/transportation) erschwinglich; der Flughafen-Stadtbahn-Transfer kostet nur wenige Dollar. Ein Mietwagen wird teurer, sobald Kraftstoff und Parken hinzukommen.
+**Transport** ist günstig. Intercity-Zug- und Bustickets sind mit einer [Rav-Kav](/de/transportation) erschwinglich; der Flughafen-Stadtbahn-Transfer kostet nur wenige Dollar. Ein Mietwagen wird teurer, sobald Kraftstoff und Parken hinzukommen.
 
 **Sehenswürdigkeiten und Touren** variieren. Die [Klagemauer](/jerusalem/western-wall) und viele Aussichtspunkte sind kostenlos; Nationalparks und Museen erheben moderate Eintrittspreise; geführte Tagestouren kosten in der Regel 40–120 $, und die Petra-Tagesreise von Eilat aus ist ein Premium-Erlebnis ab 200 $.
 

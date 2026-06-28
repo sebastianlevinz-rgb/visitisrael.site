@@ -124,7 +124,7 @@ Israël présente une grande variété selon les endroits. En résumé :
 - **Vieille Ville et lieux saints** : épaules et genoux couverts pour les hommes comme pour les femmes. Un foulard ou un cardigan qui se plie à plat dans le sac est la solution la plus pratique.
 - **Mea She'arim (Jérusalem ultra-orthodoxe)** : ce quartier applique son propre code vestimentaire strict — manches longues, jupes longues (pas de pantalons). De nombreuses voyageuses solo évitent ce quartier lors d'un court séjour.
 
-Pour des conseils détaillés site par site, consultez notre [guide des codes vestimentaires et de l'étiquette dans les lieux saints](/holy-sites-dress-code-etiquette).
+Pour des conseils détaillés site par site, consultez notre [guide des codes vestimentaires et de l'étiquette dans les lieux saints](/fr/holy-sites-dress-code-etiquette).
 
 ---
 
@@ -154,8 +154,8 @@ Le voyage en solo en Israël est suffisamment répandu pour que rejoindre d'autr
 
 ## Guides connexes
 
-- [Israël est-il sûr ?](/is-israel-safe) — la situation sécuritaire d'ensemble pour tous les voyageurs
-- [Codes vestimentaires et étiquette dans les lieux saints](/holy-sites-dress-code-etiquette) — guide complet site par site
-- [Guide de l'hébergement en Israël](/israel-accommodation-guide) — comment choisir où dormir
-- [Transports en Israël](/transportation) — guide complet des transports en commun
-- [Première visite en Israël](/first-time-in-israel) — orientation pratique pour tout nouveau visiteur
+- [Israël est-il sûr ?](/fr/is-israel-safe) — la situation sécuritaire d'ensemble pour tous les voyageurs
+- [Codes vestimentaires et étiquette dans les lieux saints](/fr/holy-sites-dress-code-etiquette) — guide complet site par site
+- [Guide de l'hébergement en Israël](/fr/israel-accommodation-guide) — comment choisir où dormir
+- [Transports en Israël](/fr/transportation) — guide complet des transports en commun
+- [Première visite en Israël](/fr/first-time-in-israel) — orientation pratique pour tout nouveau visiteur

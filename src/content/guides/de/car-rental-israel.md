@@ -81,4 +81,4 @@ Häufige Zusatzkosten zum Einplanen:
 
 ## Die restliche Planung
 
-Besorgen Sie sich Ihre [eSIM](/israel-esim) für Navigationsdaten und Ihre [Reiseversicherung](/israel-travel-insurance) vor der Abreise. Wenn Sie lieber nicht vom Flughafen fahren möchten, lesen Sie [Ben-Gurion-Flughafentransfers](/ben-gurion-airport-transfers). Um die Optionen für Selbstfahrerrouten zu verstehen, behandelt der [Reiseführer zum Autofahren in Israel](/driving-in-israel) Straßenverhältnisse, Benzin und stadtspezifische Parktipps.
+Besorgen Sie sich Ihre [eSIM](/israel-esim) für Navigationsdaten und Ihre [Reiseversicherung](/de/israel-travel-insurance) vor der Abreise. Wenn Sie lieber nicht vom Flughafen fahren möchten, lesen Sie [Ben-Gurion-Flughafentransfers](/ben-gurion-airport-transfers). Um die Optionen für Selbstfahrerrouten zu verstehen, behandelt der [Reiseführer zum Autofahren in Israel](/de/driving-in-israel) Straßenverhältnisse, Benzin und stadtspezifische Parktipps.

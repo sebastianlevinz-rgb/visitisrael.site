@@ -34,8 +34,8 @@ Les deux plus grandes villes d'Israël se trouvent à moins d'une heure l'une de
 ## Quelle convient à votre voyage ?
 
 - **Choisissez Jérusalem si** vous êtes attirés par l'histoire et la religion, souhaitez être proches de la [mer Morte](/dead-sea) et de Bethléem, et ne craignez pas les soirées calmes.
-- **Choisissez Tel Aviv si** vous voulez soleil, mer, gastronomie et vie nocturne, et une base plus animée — y compris pendant le [Shabbat](/shabbat-guide).
+- **Choisissez Tel Aviv si** vous voulez soleil, mer, gastronomie et vie nocturne, et une base plus animée — y compris pendant le [Shabbat](/fr/shabbat-guide).
 
 ## La réponse honnête : faites les deux
 
-Elles sont à 45 minutes en train, donc il y a peu de raisons de choisir. La semaine classique se divise en environ trois nuits dans chacune — consultez notre [itinéraire de 7 jours en Israël](/itineraries/7-days-in-israel) et le [guide pour les premiers visiteurs](/first-time-in-israel) pour planifier votre séjour.
+Elles sont à 45 minutes en train, donc il y a peu de raisons de choisir. La semaine classique se divise en environ trois nuits dans chacune — consultez notre [itinéraire de 7 jours en Israël](/itineraries/7-days-in-israel) et le [guide pour les premiers visiteurs](/fr/first-time-in-israel) pour planifier votre séjour.

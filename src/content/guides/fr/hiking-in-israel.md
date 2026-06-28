@@ -84,8 +84,8 @@ Autres essentiels : partez aux premières lueurs par temps chaud ; portez un cha
 - **Se déplacer :** une [voiture de location](/fr/car-rental-israel) est presque indispensable pour les points de départ en Galilée, Golan et Néguev. Voir [transports](/fr/transportation) pour les alternatives.
 - **Randonnée le Chabbat ?** Les sentiers restent ouverts, mais les transports s'arrêtent — prévoyez une voiture.
 
-Beaucoup de sections traversent des réserves naturelles et parcs nationaux INPA — le [Passeport des Parcs Nationaux d'Israël](/israel-national-parks-pass) peut couvrir plusieurs entrées sur une seule carte.
+Beaucoup de sections traversent des réserves naturelles et parcs nationaux INPA — le [Passeport des Parcs Nationaux d'Israël](/fr/israel-national-parks-pass) peut couvrir plusieurs entrées sur une seule carte.
 
 ## Randonnées aquatiques : l'expérience des canyons de nahal
 
-Une catégorie entière de randonnée israélienne consiste à marcher dans des corridors de cours d'eau — wading de gorges en cours d'eau, nage dans des vasques de canyon, suivi de gorges alimentées par des sources dans des falaises désertiques. Au printemps ou en automne, ces « randonnées aquatiques » font partie des expériences outdoor les plus mémorables du pays. Consultez le [guide des randonnées aquatiques en Israël](/water-hiking-israel) pour les meilleurs sentiers de nahal.
+Une catégorie entière de randonnée israélienne consiste à marcher dans des corridors de cours d'eau — wading de gorges en cours d'eau, nage dans des vasques de canyon, suivi de gorges alimentées par des sources dans des falaises désertiques. Au printemps ou en automne, ces « randonnées aquatiques » font partie des expériences outdoor les plus mémorables du pays. Consultez le [guide des randonnées aquatiques en Israël](/fr/water-hiking-israel) pour les meilleurs sentiers de nahal.

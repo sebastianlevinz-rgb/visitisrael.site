@@ -81,7 +81,7 @@ Yardenit wird vom Kibbutz Kinneret verwaltet und öffnet typischerweise Sonntag�
 
 ### Wie es in Ihre Reise passt
 
-Yardenit ist die naheliegende Wahl, wenn der Reiseschwerpunkt auf **[Galiläa](/galilee)** liegt — es passt natürlich in einen christlichen Rundtrip mit [Nazareth](/nazareth), [Kapernaum](/galilee/capernaum), dem [Berg der Seligpreisungen](/galilee/mount-of-beatitudes) und Tabgha. Die meisten [Galiläa-Tagesausflüge ab Tel Aviv oder Jerusalem](/nazareth-sea-of-galilee-day-trip) schließen Yardenit als letzten Stopp ein.
+Yardenit ist die naheliegende Wahl, wenn der Reiseschwerpunkt auf **[Galiläa](/galilee)** liegt — es passt natürlich in einen christlichen Rundtrip mit [Nazareth](/nazareth), [Kapernaum](/galilee/capernaum), dem [Berg der Seligpreisungen](/galilee/mount-of-beatitudes) und Tabgha. Die meisten [Galiläa-Tagesausflüge ab Tel Aviv oder Jerusalem](/de/nazareth-sea-of-galilee-day-trip) schließen Yardenit als letzten Stopp ein.
 
 ---
 
@@ -103,7 +103,7 @@ Der Eintritt ist frei. Aktuelle Öffnungszeiten und Zugangshinweise unter [parks
 
 ### Wie es in Ihre Reise passt
 
-Qasr el-Yahud lässt sich gut mit einem **[Totes-Meer-](/dead-sea-guide)** und **[Masada-](/masada-dead-sea-day-trip)**-Tag oder einem Jericho-Besuch kombinieren. Von Jerusalem dauert die Fahrt ostwärts nach Jericho und dann südlich zum Fluss rund 45–50 Minuten. Öffentliche Verkehrsmittel fahren nicht direkt dorthin; mit dem Auto oder im Rahmen einer organisierten Jordantal-Tour anreisen.
+Qasr el-Yahud lässt sich gut mit einem **[Totes-Meer-](/de/dead-sea-guide)** und **[Masada-](/de/masada-dead-sea-day-trip)**-Tag oder einem Jericho-Besuch kombinieren. Von Jerusalem dauert die Fahrt ostwärts nach Jericho und dann südlich zum Fluss rund 45–50 Minuten. Öffentliche Verkehrsmittel fahren nicht direkt dorthin; mit dem Auto oder im Rahmen einer organisierten Jordantal-Tour anreisen.
 
 ---
 
@@ -153,4 +153,4 @@ Fotografieren im Wasserbereich ist in der Regel erlaubt. **Andere Pilger oder Gl
 
 ## Die breitere Pilgerreise planen
 
-Die Jordan-Taufstätten fügen sich in den umfassenderen Rundtrip ein, der in unserem [Christlichen Pilgerfahrt-Reiseführer](/christian-pilgrimage-holy-land) beschrieben wird, der Jerusalem, Bethlehem, Nazareth und den See Genezareth vollständig abdeckt. Wer den [Galiläa-Tagesausflug](/nazareth-sea-of-galilee-day-trip) mit [Totem Meer](/dead-sea-guide) und Masada kombiniert, findet die südliche Jordantal-Route in unserem [Masada- & Totes-Meer-Reiseführer](/masada-dead-sea-day-trip). Für einen breiteren Überblick über das, was in diesem Teil Israels zu sehen und zu erleben ist, deckt der [Galiläa-Regionalführer](/galilee) den gesamten Norden ab.
+Die Jordan-Taufstätten fügen sich in den umfassenderen Rundtrip ein, der in unserem [Christlichen Pilgerfahrt-Reiseführer](/de/christian-pilgrimage-holy-land) beschrieben wird, der Jerusalem, Bethlehem, Nazareth und den See Genezareth vollständig abdeckt. Wer den [Galiläa-Tagesausflug](/de/nazareth-sea-of-galilee-day-trip) mit [Totem Meer](/de/dead-sea-guide) und Masada kombiniert, findet die südliche Jordantal-Route in unserem [Masada- & Totes-Meer-Reiseführer](/de/masada-dead-sea-day-trip). Für einen breiteren Überblick über das, was in diesem Teil Israels zu sehen und zu erleben ist, deckt der [Galiläa-Regionalführer](/galilee) den gesamten Norden ab.

@@ -172,6 +172,6 @@ Die natürliche Verbindung. [Masada](/dead-sea/masada) ist 20 km südlich von Ei
 2. **Morgen in Masada** — das Plateau erkunden (2–3 Stunden), per Seilbahn oder zu Fuß absteigen.
 3. **Nachmittag am Toten Meer** — 20 Minuten nördlich nach Ein Bokek oder Kalia zum Schwimmen fahren (15–17 Uhr ist angenehm, wenn die Hitze nachlässt und die Menschenmassen sich lichten).
 
-Die umgekehrte Reihenfolge (zuerst Strand, dann Masada) funktioniert auch für die Seilbahn-Variante tagsüber, ist aber für Sonnenaufgang nicht praktisch. Siehe unseren [Masada & Totes Meer Tagesausflugsführer](/masada-dead-sea-day-trip) für die vollständige Übersicht und unseren [Masada-Tourvergleich](/masada-tours-compared) für die Optionen geführt versus eigenständig.
+Die umgekehrte Reihenfolge (zuerst Strand, dann Masada) funktioniert auch für die Seilbahn-Variante tagsüber, ist aber für Sonnenaufgang nicht praktisch. Siehe unseren [Masada & Totes Meer Tagesausflugsführer](/de/masada-dead-sea-day-trip) für die vollständige Übersicht und unseren [Masada-Tourvergleich](/masada-tours-compared) für die Optionen geführt versus eigenständig.
 
 **Qumran hinzufügen:** Wenn Sie selbst fahren, liegt der [Nationalpark Qumran](/qumran-guide) — wo die Schriftrollen vom Toten Meer 1947 entdeckt wurden — direkt an der Route 90, etwa 12 km nördlich von Ein Bokek. Ein 90-minütiger Abstecher nach Qumran am Morgen passt gut, bevor Sie nachmittags zu den Schwimmstränden weiterfahren.

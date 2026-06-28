@@ -55,11 +55,11 @@ En ajoutant **Jéricho** — à environ 40 minutes à l'est — vous atteignez l
 C'est la partie qui inquiète les voyageurs, et c'est plus simple qu'il n'y paraît — mais c'est la raison pour laquelle la plupart des gens ne conduisent pas eux-mêmes.
 
 - **Vous traversez un checkpoint.** Bethléem est en **Zone A**, sous contrôle de l'Autorité palestinienne. Vous passez par un checkpoint israélien au niveau de la barrière de séparation. Emportez votre **passeport**.
-- **Les voitures de location israéliennes ne peuvent généralement pas y accéder.** L'assurance standard des voitures de location israéliennes ne couvre pas la Zone A, donc [conduire soi-même](/car-rental-israel) n'est pas l'option pratique. C'est la question la plus fréquente sur les forums de voyage concernant la Cisjordanie.
+- **Les voitures de location israéliennes ne peuvent généralement pas y accéder.** L'assurance standard des voitures de location israéliennes ne couvre pas la Zone A, donc [conduire soi-même](/fr/car-rental-israel) n'est pas l'option pratique. C'est la question la plus fréquente sur les forums de voyage concernant la Cisjordanie.
 - **La plupart des gens utilisent donc un guide ou un taxi agréé.** Un circuit guidé gère le passage sans problème ; sinon, un taxi agréé de Jérusalem-Est ou palestinien est autorisé à entrer. Le bus arabe **231** depuis Jerusalem dessert également le checkpoint.
 - **Le retour.** En rentrant à Jerusalem, les véhicules peuvent être contrôlés au checkpoint — les cars guidés en ont l'habitude et c'est de la routine.
 
-Consultez notre [guide des passages frontaliers](/border-crossings) pour avoir une vue d'ensemble des déplacements dans le pays.
+Consultez notre [guide des passages frontaliers](/fr/border-crossings) pour avoir une vue d'ensemble des déplacements dans le pays.
 
 ## Est-ce sûr ?
 

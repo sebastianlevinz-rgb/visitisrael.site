@@ -88,8 +88,8 @@ Casual en règle générale. Pour entrer dans l'église Saint-Pierre, couvrez é
 
 Jaffa s'intègre parfaitement dans une journée plus large autour de Tel Aviv. Commencez par les [plages de Tel Aviv](/tel-aviv) le matin, puis remontez vers le nord pour explorer la [Ville Blanche Bauhaus](/tel-aviv-white-city) avant de redescendre à Jaffa en fin d'après-midi. Si vous arrivez depuis Jerusalem, le [train à grande vitesse](/tel-aviv-to-jerusalem) (45 minutes) vous dépose à quelques kilomètres du Vieux Port.
 
-Pour approfondir votre visite : [excursions depuis Tel Aviv](/day-trips-from-tel-aviv) et [excursions depuis Jerusalem](/day-trips-from-jerusalem).
+Pour approfondir votre visite : [excursions depuis Tel Aviv](/fr/day-trips-from-tel-aviv) et [excursions depuis Jerusalem](/fr/day-trips-from-jerusalem).
 
 ---
 
-*Voir aussi : [Guide gastronomique de Tel Aviv](/tel-aviv-food-guide) · [Guide de Jaffa](/jaffa-travel-guide)*
+*Voir aussi : [Guide gastronomique de Tel Aviv](/fr/tel-aviv-food-guide) · [Guide de Jaffa](/fr/jaffa-travel-guide)*

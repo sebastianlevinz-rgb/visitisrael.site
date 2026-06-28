@@ -51,10 +51,10 @@ Ben Gourion dispose de deux terminaux passagers actifs. **Le Terminal 3** est le
 
 Les vols internationaux atterrissent dans le **hall d'arrivées du Terminal 3 (niveau 1)**. Après l'atterrissage, le processus se déroule ainsi :
 
-1. **Contrôle des passeports** : les citoyens israéliens utilisent les e-gates ; les ressortissants étrangers font la queue aux guichets avec agents. Ayez votre ETA-IL ou votre documentation de visa prête — consultez le [guide visa](/visa-information) si vous n'êtes pas sûr d'en avoir besoin.
+1. **Contrôle des passeports** : les citoyens israéliens utilisent les e-gates ; les ressortissants étrangers font la queue aux guichets avec agents. Ayez votre ETA-IL ou votre documentation de visa prête — consultez le [guide visa](/fr/visa-information) si vous n'êtes pas sûr d'en avoir besoin.
 2. **Récupération des bagages** : les tapis roulants se trouvent dans le hall d'arrivées principal ; le numéro du tapis s'affiche sur les écrans suspendus dès l'atterrissage de votre vol.
 3. **Douanes** : la plupart des visiteurs passent par le couloir vert. Le couloir rouge est réservé à ceux qui ont des biens à déclarer (au-delà des franchises hors-taxes, liquidités supérieures à 20 000 $, ou articles réglementés).
-4. **Hall d'arrivées** : les [agences de location de voiture](/car-rental-israel) se trouvent au rez-de-chaussée du hall d'arrivées (Avis, Hertz, Budget, Sixt, Eldan). Des distributeurs automatiques, un bureau de change, une pharmacie et une épicerie se trouvent dans le même hall.
+4. **Hall d'arrivées** : les [agences de location de voiture](/fr/car-rental-israel) se trouvent au rez-de-chaussée du hall d'arrivées (Avis, Hertz, Budget, Sixt, Eldan). Des distributeurs automatiques, un bureau de change, une pharmacie et une épicerie se trouvent dans le même hall.
 5. **Transport en commun** : la gare ferroviaire est accessible par une liaison directe sous le hall d'arrivées. La station de taxi et la zone de prise en charge des transferts se trouvent à la sortie du hall. Pour toutes les options, consultez le [guide des transferts depuis l'aéroport](/ben-gurion-airport-transfers).
 
 ## Départs : calendrier et processus
@@ -107,7 +107,7 @@ Il existe également une **boutique James Richardson à l'arrivée** avant le co
 
 ## Rejoindre la ville
 
-Pour des comparaisons détaillées d'itinéraires, les horaires du Shabbat et les tarifs vers Tel-Aviv, Jérusalem, Haïfa et Eilat, consultez le [guide des transferts depuis l'aéroport Ben Gourion](/ben-gurion-airport-transfers) et notre [aperçu des transports](/transportation). Options principales :
+Pour des comparaisons détaillées d'itinéraires, les horaires du Shabbat et les tarifs vers Tel-Aviv, Jérusalem, Haïfa et Eilat, consultez le [guide des transferts depuis l'aéroport Ben Gourion](/ben-gurion-airport-transfers) et notre [aperçu des transports](/fr/transportation). Options principales :
 
 - **Train** : le plus rapide et le moins cher — [Tel-Aviv](/tel-aviv) en ~20 min, [Jérusalem](/jerusalem) en ~30 min. Aucun service le Shabbat.
 - **Transfert privé** : tarif fixe, chauffeur vous attendant, disponible le Shabbat.
@@ -117,8 +117,8 @@ Pour des comparaisons détaillées d'itinéraires, les horaires du Shabbat et le
 
 ## Avant de prendre l'avion : liste de contrôle rapide
 
-- [Autorisation de voyage préalable ETA-IL](/visa-information) (la plupart des nationalités l'exigent ; faites la demande 72h avant de prendre l'avion)
-- [Assurance voyage](/israel-travel-insurance) (obligatoire pour certaines catégories de visa ; fortement recommandée pour tous)
+- [Autorisation de voyage préalable ETA-IL](/fr/visa-information) (la plupart des nationalités l'exigent ; faites la demande 72h avant de prendre l'avion)
+- [Assurance voyage](/fr/israel-travel-insurance) (obligatoire pour certaines catégories de visa ; fortement recommandée pour tous)
 - [eSIM ou carte SIM](/israel-esim) (évitez les frais d'itinérance — activez avant ou à l'arrivée)
 - [Transfert aéroport pré-réservé](/ben-gurion-airport-transfers) si vous arrivez le Shabbat ou tard dans la nuit
 - [Carte de transit Rav-Kav](/rav-kav-israel) — achetez-la au Centre d'information sur les transports en commun à l'arrivée avant de prendre le train

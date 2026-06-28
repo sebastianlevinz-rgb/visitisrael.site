@@ -58,7 +58,7 @@ Matmon kaufen: Wenden Sie sich an den INPA-Kundenservice (Telefon oder E-Mail au
 
 ### Israel Pass Combo (Rav-Kav + Parks)
 
-Gelegentlich bietet das israelische Tourismusministerium einen Kombi-Pass an, der ÖPNV-Guthaben (über die [Rav-Kav-Karte](/transportation)) mit Nationalpark-Eintritt bündelt. Verfügbarkeit und Konditionen ändern sich je nach Saison — erkundigen Sie sich beim Israel Tourism Board oder beim Concierge Ihres Hotels näher an Ihrem Reisedatum.
+Gelegentlich bietet das israelische Tourismusministerium einen Kombi-Pass an, der ÖPNV-Guthaben (über die [Rav-Kav-Karte](/de/transportation)) mit Nationalpark-Eintritt bündelt. Verfügbarkeit und Konditionen ändern sich je nach Saison — erkundigen Sie sich beim Israel Tourism Board oder beim Concierge Ihres Hotels näher an Ihrem Reisedatum.
 
 ---
 

@@ -62,19 +62,19 @@ De nombreux hôtels permettent aux jeunes enfants de séjourner gratuitement dan
 ## Se déplacer avec des enfants
 
 - **Les trains** sont la colonne vertébrale familiale du centre : propres, fréquents, et les enfants voyagent gratuitement ou à prix réduit avec une Rav-Kav. Les poussettes s'embarquent directement.
-- **Une voiture de location** est indispensable dès que vous partez vers la Galilée, le Golan ou le Néguev. Apportez ou réservez à l'avance des **sièges auto pour enfants** (obligatoires légalement pour les jeunes enfants — la plupart des loueurs en proposent, mais réservez à l'avance). Voir [location de voiture](/car-rental-israel).
-- **Évitez le Shabbat pour les journées dépendant des transports en commun** — trains et bus s'arrêtent du vendredi après-midi au samedi soir. Prévoyez une journée à la plage ou à la piscine, ou utilisez une voiture. Voir [ce qui est ouvert le Shabbat](/whats-open-on-shabbat).
+- **Une voiture de location** est indispensable dès que vous partez vers la Galilée, le Golan ou le Néguev. Apportez ou réservez à l'avance des **sièges auto pour enfants** (obligatoires légalement pour les jeunes enfants — la plupart des loueurs en proposent, mais réservez à l'avance). Voir [location de voiture](/fr/car-rental-israel).
+- **Évitez le Shabbat pour les journées dépendant des transports en commun** — trains et bus s'arrêtent du vendredi après-midi au samedi soir. Prévoyez une journée à la plage ou à la piscine, ou utilisez une voiture. Voir [ce qui est ouvert le Shabbat](/fr/whats-open-on-shabbat).
 
 ## Conseils pratiques
 
-- **Battez la chaleur.** Le printemps et l'automne sont les meilleurs moments pour les familles. En été, privilégiez les activités aquatiques et en intérieur, emportez beaucoup d'eau et reposez-vous à midi — surtout à la mer Morte, à Eilat et dans le désert. Voir [meilleure période pour visiter](/best-time-to-visit-israel).
+- **Battez la chaleur.** Le printemps et l'automne sont les meilleurs moments pour les familles. En été, privilégiez les activités aquatiques et en intérieur, emportez beaucoup d'eau et reposez-vous à midi — surtout à la mer Morte, à Eilat et dans le désert. Voir [meilleure période pour visiter](/fr/best-time-to-visit-israel).
 - **La protection solaire est non négociable** — crème à haute protection, chapeaux et ombre. Le soleil du désert et de la mer Morte est implacable.
 - **Dosez l'histoire.** Les sites religieux et archéologiques impliquent beaucoup de marche et de temps debout. Alternez une journée « culture » avec une journée « active ».
-- **La nourriture est facile.** Falafel, houmous, pain frais, fruits, shakshuka et pizza sont partout et appréciés des enfants. Voir le [guide de la cuisine casher](/kosher-food-guide) et le [guide gastronomique de Tel Aviv](/tel-aviv-food-guide).
+- **La nourriture est facile.** Falafel, houmous, pain frais, fruits, shakshuka et pizza sont partout et appréciés des enfants. Voir le [guide de la cuisine casher](/fr/kosher-food-guide) et le [guide gastronomique de Tel Aviv](/fr/tel-aviv-food-guide).
 - **Poussettes vs porte-bébés.** Les ruelles de la Vieille Ville et de nombreuses ruines ont des marches et des pavés ; un porte-bébé est préférable à une poussette dans les grands sites historiques.
 
 ## Un exemple de semaine en famille
 
-Un itinéraire relaxant avec peu de transferts : **2 nuits à Tel Aviv** (plages, Jaffa, musées) → **2 nuits à Jérusalem** (Vieille Ville le matin, zoo ou temps libre l'après-midi) → **1 nuit à la mer Morte** (flottaison + Ein Guedi) → **2 nuits en Galilée** (sources, kayak, séjour à la ferme). Pour un voyage plus long ou plus lent, consultez nos [itinéraires de 5, 7 et 10 jours](/israel-5-vs-7-vs-10-days) et le [hub itinéraires](/itineraries).
+Un itinéraire relaxant avec peu de transferts : **2 nuits à Tel Aviv** (plages, Jaffa, musées) → **2 nuits à Jérusalem** (Vieille Ville le matin, zoo ou temps libre l'après-midi) → **1 nuit à la mer Morte** (flottaison + Ein Guedi) → **2 nuits en Galilée** (sources, kayak, séjour à la ferme). Pour un voyage plus long ou plus lent, consultez nos [itinéraires de 5, 7 et 10 jours](/fr/israel-5-vs-7-vs-10-days) et le [hub itinéraires](/itineraries).
 
-Israël récompense les familles qui maintiennent un rythme doux et profitent de la nature. Associez ce guide à notre [guide pour les premiers visiteurs](/first-time-in-israel) et vous serez prêts.
+Israël récompense les familles qui maintiennent un rythme doux et profitent de la nature. Associez ce guide à notre [guide pour les premiers visiteurs](/fr/first-time-in-israel) et vous serez prêts.

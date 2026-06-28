@@ -84,8 +84,8 @@ Weitere Essentials: bei warmem Wetter bei Tagesanbruch starten; Hut und Sonnensc
 - **Anreise:** Ein [Mietwagen](/de/car-rental-israel) ist für Trailheads in Galiläa, Golan und Negev fast unerlässlich. Siehe [Transport](/de/transportation) für Alternativen.
 - **Wandern am Schabbat?** Trails bleiben offen, aber der ÖPNV hält an — Auto einplanen.
 
-Viele Abschnitte durchqueren INPA-Naturschutzgebiete und Nationalparks — der [Israelische Nationalparkpass](/israel-national-parks-pass) kann mehrere Eintritte auf einer Karte abdecken und bei drei oder mehr Parks erheblich Geld sparen.
+Viele Abschnitte durchqueren INPA-Naturschutzgebiete und Nationalparks — der [Israelische Nationalparkpass](/de/israel-national-parks-pass) kann mehrere Eintritte auf einer Karte abdecken und bei drei oder mehr Parks erheblich Geld sparen.
 
 ## Wasserwanderungen: das Nahal-Erlebnis
 
-Eine ganze Kategorie israelischen Wanderns beinhaltet das Gehen in und durch fließendes Wasser — Durchwaten von Bachkorridoren, Schwimmen in Canyonbecken und das Verfolgen quellengespeister Schluchten durch Wüstenfelsen. Im Frühling oder Herbst gehören diese Wasserwanderungen zu den unvergesslichsten Outdoor-Erlebnissen des Landes. Lesen Sie den [Führer zu Wasserwanderungen in Israel](/water-hiking-israel) für die besten Nahal-Trails.
+Eine ganze Kategorie israelischen Wanderns beinhaltet das Gehen in und durch fließendes Wasser — Durchwaten von Bachkorridoren, Schwimmen in Canyonbecken und das Verfolgen quellengespeister Schluchten durch Wüstenfelsen. Im Frühling oder Herbst gehören diese Wasserwanderungen zu den unvergesslichsten Outdoor-Erlebnissen des Landes. Lesen Sie den [Führer zu Wasserwanderungen in Israel](/de/water-hiking-israel) für die besten Nahal-Trails.

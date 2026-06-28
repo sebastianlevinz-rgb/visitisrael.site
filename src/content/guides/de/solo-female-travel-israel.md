@@ -124,7 +124,7 @@ Israel zeigt je nach Ort sehr unterschiedliche Anforderungen. Die Kurzfassung:
 - **Altstadt und heilige Stätten**: bedeckte Schultern und Knie für Männer und Frauen. Ein leichtes Tuch oder eine Strickjacke, die flach im Rucksack liegt, ist die praktischste Lösung — anlegen beim Betreten.
 - **Mea She'arim (ultraorthodoxes Jerusalem)**: Dieses Viertel hat eine eigene strenge Kleiderordnung — lange Ärmel, lange Röcke (keine Hosen). Viele Alleinreisende lassen dieses Viertel bei einer kurzen Reise aus.
 
-Für standortspezifische Hinweise lesen Sie unseren [Kleiderordnungs- und Etikette-Ratgeber für heilige Stätten](/holy-sites-dress-code-etiquette).
+Für standortspezifische Hinweise lesen Sie unseren [Kleiderordnungs- und Etikette-Ratgeber für heilige Stätten](/de/holy-sites-dress-code-etiquette).
 
 ---
 
@@ -154,8 +154,8 @@ Alleinreisen in Israel ist verbreitet genug, um andere Reisende unkompliziert zu
 
 ## Verwandte Ratgeber
 
-- [Ist Israel sicher?](/is-israel-safe) — die allgemeine Sicherheitslage für alle Reisenden
-- [Kleiderordnung & Etikette an heiligen Stätten](/holy-sites-dress-code-etiquette) — vollständiger standortspezifischer Ratgeber
-- [Israel-Unterkunftsratgeber](/israel-accommodation-guide) — wie Sie die richtige Unterkunft wählen
-- [Transport in Israel](/transportation) — vollständiger ÖPNV-Ratgeber
-- [Erstmals in Israel](/first-time-in-israel) — praktische Orientierung für alle Neuankömmlinge
+- [Ist Israel sicher?](/de/is-israel-safe) — die allgemeine Sicherheitslage für alle Reisenden
+- [Kleiderordnung & Etikette an heiligen Stätten](/de/holy-sites-dress-code-etiquette) — vollständiger standortspezifischer Ratgeber
+- [Israel-Unterkunftsratgeber](/de/israel-accommodation-guide) — wie Sie die richtige Unterkunft wählen
+- [Transport in Israel](/de/transportation) — vollständiger ÖPNV-Ratgeber
+- [Erstmals in Israel](/de/first-time-in-israel) — praktische Orientierung für alle Neuankömmlinge

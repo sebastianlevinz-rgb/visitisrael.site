@@ -172,6 +172,6 @@ L'association naturelle. [Masada](/dead-sea/masada) est à 20 km au sud d'Ein Bo
 2. **Matinée à Masada** — explorez le plateau (2 à 3 heures), redescendez en téléphérique ou à pied.
 3. **Après-midi à la mer Morte** — conduisez 20 minutes vers le nord jusqu'à Ein Bokek ou Kalia pour la flottaison (15h–17h est un moment agréable, la chaleur diminuant et les foules se dissipant).
 
-L'ordre inverse (plage d'abord, Masada ensuite) fonctionne aussi pour la version téléphérique en journée mais n'est pas pratique pour le lever de soleil. Voir notre [guide d'excursion Masada & mer Morte](/masada-dead-sea-day-trip) pour le détail complet et notre [comparaison des circuits Masada](/masada-tours-compared) pour les options guidées versus en autonomie.
+L'ordre inverse (plage d'abord, Masada ensuite) fonctionne aussi pour la version téléphérique en journée mais n'est pas pratique pour le lever de soleil. Voir notre [guide d'excursion Masada & mer Morte](/fr/masada-dead-sea-day-trip) pour le détail complet et notre [comparaison des circuits Masada](/masada-tours-compared) pour les options guidées versus en autonomie.
 
 **Ajouter Qumran :** Si vous conduisez vous-même, le [Parc national de Qumran](/qumran-guide) — où les Rouleaux de la mer Morte ont été découverts en 1947 — se trouve directement sur la Route 90 à environ 12 km au nord d'Ein Bokek. Une halte de 90 minutes à Qumran le matin s'intègre naturellement avant de rejoindre les plages de flottaison l'après-midi.

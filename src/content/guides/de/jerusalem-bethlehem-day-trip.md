@@ -55,11 +55,11 @@ Mit **Jericho** — rund 40 Minuten östlich — erreicht man eine der ältesten
 Das ist der Teil, den Reisende fürchten — und er ist einfacher als gedacht, aber der Grund, warum die meisten nicht selbst fahren.
 
 - **Man passiert einen Checkpoint.** Bethlehem liegt in **Zone A** unter Kontrolle der Palästinensischen Behörde. Man passiert einen israelischen Checkpoint an der Sperranlage. **Reisepass** mitführen.
-- **Israelische Mietwagen können in der Regel nicht einreisen.** Die Standard-Kfz-Versicherung israelischer Mietwagen deckt Zone A nicht ab — [selbst fahren](/car-rental-israel) ist deshalb nicht praktisch. Das ist die häufigste Westjordanland-Frage in Reiseforen.
+- **Israelische Mietwagen können in der Regel nicht einreisen.** Die Standard-Kfz-Versicherung israelischer Mietwagen deckt Zone A nicht ab — [selbst fahren](/de/car-rental-israel) ist deshalb nicht praktisch. Das ist die häufigste Westjordanland-Frage in Reiseforen.
 - **Daher nutzen die meisten einen Reiseleiter oder ein zugelassenes Taxi.** Eine geführte Tour managt den Übergang nahtlos; alternativ ist ein lizenziertes Ost-Jerusalem- oder palästinensisches Taxi berechtigt einzureisen. Der arabische Bus **231** ab Jerusalem fährt ebenfalls zum Checkpoint.
 - **Rückfahrt.** Bei der Rückkehr nach Jerusalem können Fahrzeuge am Checkpoint kontrolliert werden — Reisebusse sind das gewohnt, es ist Routine.
 
-Einen Überblick über die Bewegungsfreiheit im Land gibt unser [Grenzübergänge-Reiseführer](/border-crossings).
+Einen Überblick über die Bewegungsfreiheit im Land gibt unser [Grenzübergänge-Reiseführer](/de/border-crossings).
 
 ## Ist es sicher?
 

@@ -71,7 +71,7 @@ Rund 4 km nördlich der Altstadt liegt **Bahjí** — der heiligste Ort der Bah�
 
 **Haifa:** 22 km südlich, 25–30 Minuten per Zug — ideal als Morgenstation, dann Akko am Nachmittag. Die [Bahai-Gärten in Haifa](/haifa) ergänzen Bahjí thematisch.
 
-**Rosh HaNikra:** 30 km nördlich, die Meeresgrotten an der libanesischen Grenze — Halbtagserweiterung für Naturinteressierte, see also [Wandern in Israel](/water-hiking-israel).
+**Rosh HaNikra:** 30 km nördlich, die Meeresgrotten an der libanesischen Grenze — Halbtagserweiterung für Naturinteressierte, see also [Wandern in Israel](/de/water-hiking-israel).
 
 **Caesarea:** 60 km südlich, 50–60 Minuten per Auto — machbar als Teil einer Nordküsten-Zweitages-Kombination.
 
@@ -87,4 +87,4 @@ Rund 4 km nördlich der Altstadt liegt **Bahjí** — der heiligste Ort der Bah�
 
 Aktuelle Öffnungszeiten und kombinierte Eintrittstickets (Kreuzritteruntergeschoss + Türkisches Bad-Museum) auf [akko.org.il](https://www.akko.org.il). Im Sommer Frühanreise empfehlen sich wegen Hitze und Andrang. Die Gassen der Altstadt sind eng und kopfsteingepflastert — bequeme Schuhe sind Pflicht.
 
-Weitere Informationen: [Haifa-Guide](/haifa), [Wandern in Israel](/water-hiking-israel), [Caesarea-Guide](/caesarea), [Mietwagen in Israel](/car-rental-israel).
+Weitere Informationen: [Haifa-Guide](/haifa), [Wandern in Israel](/de/water-hiking-israel), [Caesarea-Guide](/caesarea), [Mietwagen in Israel](/de/car-rental-israel).

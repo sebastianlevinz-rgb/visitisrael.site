@@ -90,7 +90,7 @@ Ein privater Guide macht die Altstadt deutlich angenehmer — er kennt die Stra�
 
 ### Caesarea — einer der barrierefreiesten Archäologieparks
 
-[Caesarea](/caesarea), die antike Hafenstadt von Herodes dem Großen, verfügt über gut gepflegte gepflasterte Wege durch sein römisches Theater, die Kreuzfahrerfestungen und herodianischen Hafenruinen — meist flach, mit guter Beschattung am Morgen. Es eignet sich gut als halbtägiger Morgenbesuch auf einer Fahrt von Tel Aviv nach Nordisrael. Der [Israel National Parks Pass](/israel-national-parks-pass) umfasst den Eintritt.
+[Caesarea](/caesarea), die antike Hafenstadt von Herodes dem Großen, verfügt über gut gepflegte gepflasterte Wege durch sein römisches Theater, die Kreuzfahrerfestungen und herodianischen Hafenruinen — meist flach, mit guter Beschattung am Morgen. Es eignet sich gut als halbtägiger Morgenbesuch auf einer Fahrt von Tel Aviv nach Nordisrael. Der [Israel National Parks Pass](/de/israel-national-parks-pass) umfasst den Eintritt.
 
 ### Galiläa — Bootsausflug und Aussichtspunkte
 
@@ -121,13 +121,13 @@ Eine gut getaktete 7-tägige Kleingruppenreise umfasst typischerweise Jerusalem 
 - Reiseroute, die an Ihr körperliches Tempo an diesem Tag angepasst wird
 - Klimatisiertes Fahrzeug jederzeit verfügbar
 - Das Urteil des Guides darüber, wann weiterzumachen und wann zu rasten
-- Personalisierten Fokus: [Christliche Pilgerfahrt](/christian-pilgrimage-holy-land), [Jüdisches Erbe](/jewish-heritage-israel), Archäologie, Kulinarik — was Ihnen am wichtigsten ist
+- Personalisierten Fokus: [Christliche Pilgerfahrt](/de/christian-pilgrimage-holy-land), [Jüdisches Erbe](/jewish-heritage-israel), Archäologie, Kulinarik — was Ihnen am wichtigsten ist
 
 Abraham Tours und die meisten in Jerusalem ansässigen Agenturen organisieren ganztägige private Führungserlebnisse. Vergleichen Sie Preise direkt mit den Veranstaltern.
 
 ### Individualreise
 
-Israel ist für unabhängige Senioren per Auto gut zu bereisen. [Fahren in Israel](/driving-in-israel) erfolgt rechts; [Mietwagen](/de/car-rental-israel) sind von großen internationalen Unternehmen am Flughafen Ben Gurion erhältlich. Das innerstädtische Busnetz ist gut, beinhaltet aber hebräische Beschilderung und Sicherheitswarteschlangen — machbar, aber anstrengender als ein privates Fahrzeug. Private Flughafentransfers zu Ihrem ersten Hotel werden für einen entspannten Start dringend empfohlen; siehe den [Flughafentransfer-Leitfaden](/ben-gurion-airport-transfers).
+Israel ist für unabhängige Senioren per Auto gut zu bereisen. [Fahren in Israel](/de/driving-in-israel) erfolgt rechts; [Mietwagen](/de/car-rental-israel) sind von großen internationalen Unternehmen am Flughafen Ben Gurion erhältlich. Das innerstädtische Busnetz ist gut, beinhaltet aber hebräische Beschilderung und Sicherheitswarteschlangen — machbar, aber anstrengender als ein privates Fahrzeug. Private Flughafentransfers zu Ihrem ersten Hotel werden für einen entspannten Start dringend empfohlen; siehe den [Flughafentransfer-Leitfaden](/ben-gurion-airport-transfers).
 
 ---
 
@@ -149,12 +149,12 @@ Israel ist für unabhängige Senioren per Auto gut zu bereisen. [Fahren in Israe
 
 - **Wanderschuhe mit Grip** sind das wichtigste Kleidungsstück — keine Sandalen
 - **Lagen:** Frühlings- und Herbstmorgen können kühl sein (10–15 °C); Nachmittage warm (22–28 °C)
-- **Bescheidene Kleidung:** erforderlich an der Westmauer, in Kirchen und religiösen Stätten (Schultern und Knie bedeckt); siehe den [Dresscode-Leitfaden](/holy-sites-dress-code-etiquette)
+- **Bescheidene Kleidung:** erforderlich an der Westmauer, in Kirchen und religiösen Stätten (Schultern und Knie bedeckt); siehe den [Dresscode-Leitfaden](/de/holy-sites-dress-code-etiquette)
 - **Sonnenschutz:** Hut, Sonnencreme LSF 50+, UV-Schutzsonnenbrille
 - **Gehstock oder Trekkingstöcke:** optional, aber wertvoll für die Altstadt und felsiges Gelände
 
 ---
 
-Nutzen Sie den [Reisekostenrechner](/israel-trip-cost-calculator) für Ihre Budgetplanung und den [Ratgeber zur Reisedauer](/de/israel-5-vs-7-vs-10-days) für die Entscheidung über die Länge. Für Reiserouten mit christlichem Erbe lesen Sie den [Heilig-Land-Pilgerleitfaden](/christian-pilgrimage-holy-land); für jüdisches Erbe den [Leitfaden für jüdisches Erbe](/jewish-heritage-israel).
+Nutzen Sie den [Reisekostenrechner](/israel-trip-cost-calculator) für Ihre Budgetplanung und den [Ratgeber zur Reisedauer](/de/israel-5-vs-7-vs-10-days) für die Entscheidung über die Länge. Für Reiserouten mit christlichem Erbe lesen Sie den [Heilig-Land-Pilgerleitfaden](/de/christian-pilgrimage-holy-land); für jüdisches Erbe den [Leitfaden für jüdisches Erbe](/jewish-heritage-israel).
 
 Siehe auch: [Erstbesuch in Israel](/de/first-time-in-israel) · [Beste Reisezeit](/de/best-time-to-visit-israel) · [Totes Meer](/dead-sea) · [Jerusalem](/jerusalem) · [Masada](/dead-sea/masada) · [Caesarea](/caesarea)

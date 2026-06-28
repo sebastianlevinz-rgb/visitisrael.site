@@ -89,6 +89,6 @@ Die Altstadt besteht aus **steilen Kopfsteinpflastergassen** — Rollstühle und
 
 ## Kombinationen
 
-[Tiberias und See Genezareth](/tiberias-guide): 45 Minuten bergab — ideal als Nachmittagsziel nach einem Safed-Morgen. Rosh Pina: charmantes Gründerdorf, 20 Minuten südlich. Banias-Wasserfall (Nationalpark Hermon): 50 Minuten nördlich. [Akko](/akko-acre-guide): 60 Minuten westlich — Kreuzritter und Osmanen als historische Ergänzung.
+[Tiberias und See Genezareth](/tiberias-guide): 45 Minuten bergab — ideal als Nachmittagsziel nach einem Safed-Morgen. Rosh Pina: charmantes Gründerdorf, 20 Minuten südlich. Banias-Wasserfall (Nationalpark Hermon): 50 Minuten nördlich. [Akko](/de/akko-acre-guide): 60 Minuten westlich — Kreuzritter und Osmanen als historische Ergänzung.
 
-Weitere Informationen: [Galiläa-Reiseführer](/galilee), [Wandern in Israel](/hiking-in-israel), [Tagesausflüge ab Tel Aviv](/day-trips-from-tel-aviv), [Bar- und Bat-Mizwa in Israel](/bar-bat-mitzvah-israel), [Wasserwandern in Israel](/water-hiking-israel).
+Weitere Informationen: [Galiläa-Reiseführer](/galilee), [Wandern in Israel](/de/hiking-in-israel), [Tagesausflüge ab Tel Aviv](/de/day-trips-from-tel-aviv), [Bar- und Bat-Mizwa in Israel](/de/bar-bat-mitzvah-israel), [Wasserwandern in Israel](/de/water-hiking-israel).

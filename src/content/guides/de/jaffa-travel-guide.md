@@ -115,7 +115,7 @@ Heute hat Jaffa eine gemischt jüdisch-arabische Bevölkerung von rund 50.000 Me
 
 **Anreise ab Tel Aviv:** Entlang der Strandpromenade zu Fuß nach Süden (15–20 Minuten von den Strandhotels), mit der [Roten Linie der Tel-Aviv-Stadtbahn](/tel-aviv-light-rail) oder per Gett/Yango-Ridesharing (bei wenig Verkehr rund 10 Minuten vom Stadtzentrum).
 
-**Anreise ab Jerusalem:** Der Hochgeschwindigkeitszug erreicht Tel Aviv in ca. 45 Minuten; von der Station Tel Aviv HaShalom führt ein kurzer Ridesharing-Weg nach Süden ins alte Jaffa. Hervorragend geeignet als [Tagesausflug von Jerusalem](/day-trips-from-jerusalem).
+**Anreise ab Jerusalem:** Der Hochgeschwindigkeitszug erreicht Tel Aviv in ca. 45 Minuten; von der Station Tel Aviv HaShalom führt ein kurzer Ridesharing-Weg nach Süden ins alte Jaffa. Hervorragend geeignet als [Tagesausflug von Jerusalem](/de/day-trips-from-jerusalem).
 
 **Parken:** Rund um die Altstadt begrenzt und teuer. Wer aus der Umgebung mit dem Auto anreist, parkt am besten in der Mitte von Tel Aviv und geht dann zu Fuß südwärts.
 
@@ -129,7 +129,7 @@ Heute hat Jaffa eine gemischt jüdisch-arabische Bevölkerung von rund 50.000 Me
 
 ## Jaffa mit Tel Aviv kombinieren
 
-Die naheliegende Tagesplanung von jeder Unterkunft in Tel Aviv aus lautet: morgens ins alte Jaffa (Uhrenturm → Hafen → Hummus bei Abu Hassan) → Carmel Market zum Nachmittagsbummel ([vollständiger Carmel-Market-Guide](/tel-aviv-food-guide)) → Strandpromenade nordwärts entlangschlendern → Abendessen in Florentin oder am Rothschild Boulevard.
+Die naheliegende Tagesplanung von jeder Unterkunft in Tel Aviv aus lautet: morgens ins alte Jaffa (Uhrenturm → Hafen → Hummus bei Abu Hassan) → Carmel Market zum Nachmittagsbummel ([vollständiger Carmel-Market-Guide](/de/tel-aviv-food-guide)) → Strandpromenade nordwärts entlangschlendern → Abendessen in Florentin oder am Rothschild Boulevard.
 
 Für Architekturliebhaberinnen und -liebhaber beginnt die [Bauhaus-Route der Weißen Stadt](/tel-aviv-white-city) rund 10 Gehminuten nördlich des Carmel Markets — Jaffa und die Weiße Stadt ergeben zusammen ein vollständiges Tagesitinerar.
 

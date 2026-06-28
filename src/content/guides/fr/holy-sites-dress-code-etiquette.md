@@ -90,4 +90,4 @@ Au-delà des règles par site ci-dessus, quelques habitudes vous identifient com
 - **Les dons et pourboires** dans les églises et sanctuaires sont appréciés mais jamais exigés.
 - **Demandez avant de photographier des personnes**, surtout en tenue religieuse ou en train de prier.
 
-Planifiez le reste de votre voyage avec notre [guide du premier voyage en Israël](/fr/first-time-in-israel) et, si vous voyagez pour la foi, le [guide de pèlerinage chrétien](/christian-pilgrimage-holy-land) — et vous traverserez les lieux les plus saints d'Israël comme un visiteur attentionné plutôt qu'un simple touriste.
+Planifiez le reste de votre voyage avec notre [guide du premier voyage en Israël](/fr/first-time-in-israel) et, si vous voyagez pour la foi, le [guide de pèlerinage chrétien](/fr/christian-pilgrimage-holy-land) — et vous traverserez les lieux les plus saints d'Israël comme un visiteur attentionné plutôt qu'un simple touriste.

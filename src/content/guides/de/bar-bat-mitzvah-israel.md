@@ -76,7 +76,7 @@ Die **[Klagemauer](/jerusalem/western-wall)** ist die erste Wahl der meisten Fam
 
 **3 Monate vorher:**
 - Endgültige Teilnehmerzahlen, Ernährungsanforderungen, Mobilitätsbedürfnisse.
-- [Reiseversicherung abschließen](/israel-travel-insurance) — für Gruppenreisen dringend empfohlen.
+- [Reiseversicherung abschließen](/de/israel-travel-insurance) — für Gruppenreisen dringend empfohlen.
 
 ---
 
@@ -130,7 +130,7 @@ Die Kosten variieren erheblich nach Familiengröße, Unterkunftsniveau und Zerem
 - **Unterkunft in Jerusalem:** von 3-Sterne-Hotels bis zu 5-Sterne-Häusern (Waldorf Astoria, King David) — aktuelle Preise direkt bei den Häusern prüfen.
 - **Zeremonie:** Tora-Leser, Koordination, Zubehör — Ihr Veranstalter liefert Schätzungen.
 - **ETA-IL:** ₪25 pro Person zum Zeitpunkt dieser Redaktion — aktuelle Gebühren und Verfahren auf dem offiziellen Portal prüfen.
-- **Eintrittsgelder:** Yad Vashem (kostenlos), Klagemauer (kostenlos), Massada (kostenpflichtig), Israelmuseum (kostenpflichtig) — siehe [Nationalparks-Pass-Führers](/israel-national-parks-pass).
+- **Eintrittsgelder:** Yad Vashem (kostenlos), Klagemauer (kostenlos), Massada (kostenpflichtig), Israelmuseum (kostenpflichtig) — siehe [Nationalparks-Pass-Führers](/de/israel-national-parks-pass).
 
 Das Gesamtbudget für Israel finden Sie in unserem [Kosten- und Budgetführer](/de/israel-cost-budget).
 

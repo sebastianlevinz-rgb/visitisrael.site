@@ -49,7 +49,7 @@ La plupart des circuits suivent une version de cette boucle autour de la [Galil�
 - **[Capharnaüm](/galilee/capernaum)** — la ville lacustre que Jésus avait choisie comme quartier général. On y voit les ruines d'une ancienne synagogue et l'église octogonale construite sur la maison traditionnelle de saint Pierre.
 - **[Mont des Béatitudes](/galilee/mount-of-beatitudes)** — la douce colline surplombant le lac, associée au Sermon sur la montagne, couronnée d'une église sereine de style italien et de jardins avec des vues panoramiques.
 - **Tabgha** — l'église de la Multiplication (la mosaïque des pains et des poissons) et l'église de la Primauté de saint Pierre, directement sur la rive.
-- **[Yardenit](/jordan-river-baptism)** — le site de baptême où le Jourdain quitte la mer de Galilée, où les pèlerins se font baptiser ou renouvellent leurs vœux dans le fleuve.
+- **[Yardenit](/fr/jordan-river-baptism)** — le site de baptême où le Jourdain quitte la mer de Galilée, où les pèlerins se font baptiser ou renouvellent leurs vœux dans le fleuve.
 
 Certains itinéraires incluent également **Cana** (le miracle des noces) ou une halte à **[Tibériade](/galilee/tiberias)** au bord du lac.
 
@@ -64,7 +64,7 @@ Les circuits en groupe coûtent généralement entre **$98 et $108 par personne*
 ## Comment y accéder
 
 - **Circuit guidé (le plus simple).** Les sites sont dispersés et mal desservis par les transports publics, donc une excursion guidée d'une journée est de loin le moyen le plus simple de voir le circuit. Des circuits partent de [Jerusalem](/jerusalem), [Tel Aviv](/tel-aviv) et Tibériade.
-- **En voiture.** Il faut environ **2h30** depuis Jerusalem ou Tel Aviv. Une [voiture de location](/car-rental-israel) offre une totale liberté pour s'attarder, et les routes de Galilée sont faciles. Partez tôt.
+- **En voiture.** Il faut environ **2h30** depuis Jerusalem ou Tel Aviv. Une [voiture de location](/fr/car-rental-israel) offre une totale liberté pour s'attarder, et les routes de Galilée sont faciles. Partez tôt.
 - **Passer la nuit.** Comme le trajet est long, beaucoup de voyageurs séjournent à **Nazareth** ou **Tibériade** pour une nuit et visitent les sites sans se presser — la meilleure option si vous voulez vous imprégner de chaque lieu.
 
 ## Ce qu'il faut apporter
@@ -81,4 +81,4 @@ Pour quiconque a un intérêt chrétien — et pour beaucoup de visiteurs laïcs
 
 ## Préparer le reste de votre voyage
 
-Associez cette excursion aux guides de la [Galilée](/galilee) et de [Nazareth](/nazareth), voyez comment elle s'intègre dans nos itinéraires de [7 jours](/itineraries/7-days-in-israel) et de [10 jours](/itineraries/10-days-in-israel), et parcourez toutes nos [meilleures excursions en Israël](/best-tours-in-israel). Pour l'équivalent sud, voir l'[excursion Masada & mer Morte](/masada-dead-sea-day-trip).
+Associez cette excursion aux guides de la [Galilée](/galilee) et de [Nazareth](/nazareth), voyez comment elle s'intègre dans nos itinéraires de [7 jours](/itineraries/7-days-in-israel) et de [10 jours](/itineraries/10-days-in-israel), et parcourez toutes nos [meilleures excursions en Israël](/fr/best-tours-in-israel). Pour l'équivalent sud, voir l'[excursion Masada & mer Morte](/fr/masada-dead-sea-day-trip).

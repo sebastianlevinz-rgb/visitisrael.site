@@ -71,7 +71,7 @@ Avant toute randonnée nahal, consultez les prévisions du [Service météorolog
 **Localisation :** couloir de la mer Morte, 1h30 de Jérusalem et 2h de Tel-Aviv  
 **Sentier :** boucle d'env. 3 km, 1 à 2 heures, facile à modéré  
 **Eau :** toute l'année (source naturelle)  
-**Laissez-passer parcs nationaux :** Oui — [carte bleue, verte ou orange](/israel-national-parks-pass) valide
+**Laissez-passer parcs nationaux :** Oui — [carte bleue, verte ou orange](/fr/israel-national-parks-pass) valide
 
 La randonnée aquatique la plus célèbre d'Israël, et à juste titre. [Ein Guedi](/dead-sea/ein-gedi) est une oasis dramatique sur la rive occidentale de la [mer Morte](/dead-sea) — une réserve naturelle de sources d'eau douce, de bouquetins, de damans et de dattiers accrochés à des falaises calcaires verticales. Wadi David est le sentier principal : une boucle d'une heure jusqu'à **la cascade de David** (environ 9 mètres de haut), passant par plusieurs piscines naturelles où l'on peut patauger et nager. L'eau est fraîche toute l'année car les sources sont alimentées par des nappes phréatiques et ne dépendent pas uniquement des précipitations saisonnières, ce qui en fait l'une des rares randonnées aquatiques praticables en été.
 
@@ -133,7 +133,7 @@ Le sentier étant linéaire, la plupart des randonneurs organisent une navette v
 
 Il s'agit davantage d'une randonnée en canyon et d'une destination photographique que d'un site de baignade — les niveaux d'eau dans le chenal sont variables et les sections de marche dans l'eau sont peu profondes et accessoires plutôt que l'attraction principale. La récompense est le paysage : la gorge est l'une des promenades visuellement les plus saisissantes d'Israël.
 
-**Conseils pratiques :** La gorge complète fait 14 km dans un sens et nécessite une navette voiture. La plupart des visiteurs font un aller-retour plus court depuis l'entrée Ein Prat (Wadi Qelt). Le site est proche de Jéricho en Cisjordanie — consultez les [conseils d'accès actuels](/is-israel-safe) et les avertissements aux voyageurs avant de visiter ; la réserve elle-même se trouve en zone C et est accessible aux visiteurs internationaux, mais l'accès routier passe près de zones sous Autorité palestinienne. Faites appel à un guide local en cas de doute.
+**Conseils pratiques :** La gorge complète fait 14 km dans un sens et nécessite une navette voiture. La plupart des visiteurs font un aller-retour plus court depuis l'entrée Ein Prat (Wadi Qelt). Le site est proche de Jéricho en Cisjordanie — consultez les [conseils d'accès actuels](/fr/is-israel-safe) et les avertissements aux voyageurs avant de visiter ; la réserve elle-même se trouve en zone C et est accessible aux visiteurs internationaux, mais l'accès routier passe près de zones sous Autorité palestinienne. Faites appel à un guide local en cas de doute.
 
 ---
 
@@ -148,7 +148,7 @@ Banias n'est pas principalement un site de baignade ou de marche dans l'eau — 
 
 Combinez Banias avec la **forteresse de Nimrod** voisine (château mamluk-croisé avec vue sur le Golan) pour une journée complète dans le nord du Golan.
 
-**Conseils pratiques :** Le sentier de la cascade (4 km aller-retour) comporte quelques sections raides ; le circuit plus court de la source (2 km) est accessible à la plupart des niveaux de forme physique. Le site est proche de la frontière libanaise dans le Golan — consultez [is-israel-safe](/is-israel-safe) pour les conseils actuels sur la zone.
+**Conseils pratiques :** Le sentier de la cascade (4 km aller-retour) comporte quelques sections raides ; le circuit plus court de la source (2 km) est accessible à la plupart des niveaux de forme physique. Le site est proche de la frontière libanaise dans le Golan — consultez [is-israel-safe](/fr/is-israel-safe) pour les conseils actuels sur la zone.
 
 ---
 

@@ -36,4 +36,4 @@ Israel vereint mehrere Klimazonen in einem kompakten Land — die „beste" Reis
 
 ## Feiertage im Blick behalten
 
-Jüdische, christliche und muslimische Feiertage beeinflussen Öffnungszeiten und Preise. Der jüdische Kalender ist luni-solar; der islamische Kalender verschiebt sich jedes Jahr um etwa 11 Tage. Prüfen Sie genaue Daten vor der Buchung und lesen Sie unseren [Schabbat-Ratgeber](/shabbat-guide) für den wöchentlichen Rhythmus. Bereit zum Planen? Entdecken Sie unsere [Reiserouten](/itineraries) und unseren [Ratgeber für Erstbesucher](/de/first-time-in-israel).
+Jüdische, christliche und muslimische Feiertage beeinflussen Öffnungszeiten und Preise. Der jüdische Kalender ist luni-solar; der islamische Kalender verschiebt sich jedes Jahr um etwa 11 Tage. Prüfen Sie genaue Daten vor der Buchung und lesen Sie unseren [Schabbat-Ratgeber](/de/shabbat-guide) für den wöchentlichen Rhythmus. Bereit zum Planen? Entdecken Sie unsere [Reiserouten](/itineraries) und unseren [Ratgeber für Erstbesucher](/de/first-time-in-israel).

@@ -23,11 +23,11 @@ Pour un premier séjour, prévoyez **une semaine**. Un circuit classique associe
 
 ## Arriver : l'aéroport et les déplacements
 
-La quasi-totalité des visiteurs atterrit à **l'aéroport Ben Gourion (TLV)**, près de Tel Aviv. Avant de partir, vérifiez les conditions d'entrée : la plupart des voyageurs exemptés de visa doivent désormais disposer d'une **[autorisation de voyage ETA-IL](/fr/visa-information)** (une démarche en ligne rapide et peu coûteuse) approuvée avant l'embarquement. Depuis l'aéroport, un **train** rapide et économique rejoint le centre de Tel Aviv en une vingtaine de minutes et Jérusalem en environ 30 minutes. Les taxis collectifs **sherut** circulent 24 h/24, y compris le Shabbat lorsque les trains s'arrêtent. Sur place, un réseau ferroviaire et de bus interurbains relie les principales villes ; la carte **Rav-Kav** couvre l'ensemble des transports publics. Tous les détails se trouvent dans notre [guide des transports](/transportation).
+La quasi-totalité des visiteurs atterrit à **l'aéroport Ben Gourion (TLV)**, près de Tel Aviv. Avant de partir, vérifiez les conditions d'entrée : la plupart des voyageurs exemptés de visa doivent désormais disposer d'une **[autorisation de voyage ETA-IL](/fr/visa-information)** (une démarche en ligne rapide et peu coûteuse) approuvée avant l'embarquement. Depuis l'aéroport, un **train** rapide et économique rejoint le centre de Tel Aviv en une vingtaine de minutes et Jérusalem en environ 30 minutes. Les taxis collectifs **sherut** circulent 24 h/24, y compris le Shabbat lorsque les trains s'arrêtent. Sur place, un réseau ferroviaire et de bus interurbains relie les principales villes ; la carte **Rav-Kav** couvre l'ensemble des transports publics. Tous les détails se trouvent dans notre [guide des transports](/fr/transportation).
 
 ## L'essentiel : le Shabbat
 
-Du vendredi après-midi jusqu'au samedi soir, le **Shabbat** ralentit la vie dans les quartiers juifs du pays : les transports publics s'arrêtent et de nombreux commerces et restaurants appartenant à des propriétaires juifs ferment. Tel Aviv reste relativement animée, les quartiers arabes et chrétiens fonctionnent normalement, et les sites touristiques des quartiers chrétiens et musulmans de la Vieille Ville restent ouverts. Planifiez un vendredi soir et un samedi détendus, et lisez notre [guide du Shabbat](/shabbat-guide) avant de partir.
+Du vendredi après-midi jusqu'au samedi soir, le **Shabbat** ralentit la vie dans les quartiers juifs du pays : les transports publics s'arrêtent et de nombreux commerces et restaurants appartenant à des propriétaires juifs ferment. Tel Aviv reste relativement animée, les quartiers arabes et chrétiens fonctionnent normalement, et les sites touristiques des quartiers chrétiens et musulmans de la Vieille Ville restent ouverts. Planifiez un vendredi soir et un samedi détendus, et lisez notre [guide du Shabbat](/fr/shabbat-guide) avant de partir.
 
 ## Argent, connectivité et bagages
 
@@ -35,8 +35,8 @@ La monnaie est le **shekel** ; les cartes bancaires fonctionnent presque partout
 
 ## La sécurité
 
-Israël est une destination touristique très fréquentée et bien organisée, et la grande majorité des séjours se déroule sans incident. Nous abordons les aspects pratiques avec honnêteté dans [Israël, est-ce sûr ?](/is-israel-safe). Consultez les conseils de voyage de votre gouvernement avant de partir, gardez votre passeport sur vous et vous constaterez que le quotidien est bien plus calme que ce que les gros titres laissent paraître.
+Israël est une destination touristique très fréquentée et bien organisée, et la grande majorité des séjours se déroule sans incident. Nous abordons les aspects pratiques avec honnêteté dans [Israël, est-ce sûr ?](/fr/is-israel-safe). Consultez les conseils de voyage de votre gouvernement avant de partir, gardez votre passeport sur vous et vous constaterez que le quotidien est bien plus calme que ce que les gros titres laissent paraître.
 
 ## Prochaines étapes
 
-Explorez les [11 régions](/), choisissez un [hébergement](/jerusalem#where-to-stay) et estimez votre budget avec notre [guide des coûts](/israel-cost-budget).
+Explorez les [11 régions](/), choisissez un [hébergement](/jerusalem#where-to-stay) et estimez votre budget avec notre [guide des coûts](/fr/israel-cost-budget).

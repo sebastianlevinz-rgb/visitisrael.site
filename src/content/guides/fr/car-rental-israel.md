@@ -81,4 +81,4 @@ Options courantes à budgéter :
 
 ## Préparez le reste
 
-Procurez-vous votre [eSIM](/israel-esim) pour les données de navigation et votre [assurance voyage](/israel-travel-insurance) avant de partir, et si vous préférez ne pas conduire depuis l'aéroport, consultez les [transferts depuis Ben Gourion](/ben-gurion-airport-transfers). Pour comprendre les options d'itinéraires en voiture, le [guide de conduite en Israël](/driving-in-israel) couvre les conditions routières, l'essence et les conseils de stationnement ville par ville.
+Procurez-vous votre [eSIM](/israel-esim) pour les données de navigation et votre [assurance voyage](/fr/israel-travel-insurance) avant de partir, et si vous préférez ne pas conduire depuis l'aéroport, consultez les [transferts depuis Ben Gourion](/ben-gurion-airport-transfers). Pour comprendre les options d'itinéraires en voiture, le [guide de conduite en Israël](/fr/driving-in-israel) couvre les conditions routières, l'essence et les conseils de stationnement ville par ville.

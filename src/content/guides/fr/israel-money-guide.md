@@ -106,7 +106,7 @@ Les espèces restent incontournables sur les marchés :
 
 ### Stratégie Shabbat : le retrait du jeudi soir
 
-Le vendredi après-midi, de nombreuses agences bancaires ferment plus tôt et les distributeurs peuvent manquer de billets en soirée. Si vous avez besoin de liquide pour le week-end, **retirez le jeudi soir ou le vendredi matin avant 11h**. Les commerces casher fermant du vendredi soir au samedi soir, certains paiements sont de toute façon impossibles pendant Shabbat — consultez notre [guide du Shabbat](/shabbat-guide) pour tout savoir.
+Le vendredi après-midi, de nombreuses agences bancaires ferment plus tôt et les distributeurs peuvent manquer de billets en soirée. Si vous avez besoin de liquide pour le week-end, **retirez le jeudi soir ou le vendredi matin avant 11h**. Les commerces casher fermant du vendredi soir au samedi soir, certains paiements sont de toute façon impossibles pendant Shabbat — consultez notre [guide du Shabbat](/fr/shabbat-guide) pour tout savoir.
 
 ## Bureaux de change
 
@@ -132,8 +132,8 @@ La stratégie la plus efficace : retirer des shekels directement au distributeur
 
 ## Guides complémentaires
 
-- [Coût de la vie et budget en Israël](/israel-cost-budget)
+- [Coût de la vie et budget en Israël](/fr/israel-cost-budget)
 - [Pourboires et monnaie en Israël](/israel-tipping-currency)
-- [Transports en Israël](/transportation)
-- [Guide de l'aéroport Ben Gourion](/ben-gurion-airport-guide)
-- [Premier voyage en Israël](/first-time-in-israel)
+- [Transports en Israël](/fr/transportation)
+- [Guide de l'aéroport Ben Gourion](/fr/ben-gurion-airport-guide)
+- [Premier voyage en Israël](/fr/first-time-in-israel)

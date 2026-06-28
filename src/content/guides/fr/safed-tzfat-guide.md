@@ -77,11 +77,11 @@ Les options de restauration à Safed sont plus limitées que dans une grande vil
 
 ## Combiner avec les environs
 
-Safed est le point de départ naturel pour explorer la **Haute-Galilée** : le mont Méron (le plus haut sommet d'Israël hors Golan), les réserves naturelles de Nahal Amud et Nahal Kziv, et la frontière libanaise à Rosh HaNikra. Vers le sud, la **mer de Galilée** et [Nazareth](/nazareth-travel-guide) forment un circuit nord complet de deux jours. [Akko](/akko-acre-guide) est à 55 minutes à l'ouest pour une journée côte.
+Safed est le point de départ naturel pour explorer la **Haute-Galilée** : le mont Méron (le plus haut sommet d'Israël hors Golan), les réserves naturelles de Nahal Amud et Nahal Kziv, et la frontière libanaise à Rosh HaNikra. Vers le sud, la **mer de Galilée** et [Nazareth](/fr/nazareth-travel-guide) forment un circuit nord complet de deux jours. [Akko](/fr/akko-acre-guide) est à 55 minutes à l'ouest pour une journée côte.
 
 ## Liens utiles
 
 - [Galilée — guide régional](/galilee)
-- [Guide de Nazareth](/nazareth-travel-guide)
-- [Guide d'Akko](/akko-acre-guide)
-- [Excursions depuis Tel Aviv](/day-trips-from-tel-aviv)
+- [Guide de Nazareth](/fr/nazareth-travel-guide)
+- [Guide d'Akko](/fr/akko-acre-guide)
+- [Excursions depuis Tel Aviv](/fr/day-trips-from-tel-aviv)

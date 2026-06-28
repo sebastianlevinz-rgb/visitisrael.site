@@ -79,8 +79,8 @@ Private Touren kosten mehr — häufig 400 $ und mehr für eine kleine Gruppe �
 ## Anreise
 
 - **Geführte Tour (einfachste Option).** Ein Gruppen-Tagesausflug nimmt jeden logistischen Kopfzerbrechen ab — der Frühstart, die Parkeingänge, die Fahrt — und erklärt, warum die meisten Reisenden eine buchen. Abholung läuft ab zentralen Hotels in [Jerusalem](/jerusalem) und [Tel Aviv](/tel-aviv).
-- **Mit dem Auto.** Die Fahrt dauert von Jerusalem aus etwa **90 Minuten** auf der Route 1 und dann Route 90. Eigenes Auto bietet volle Flexibilität (und einen frühen Vorsprung beim Sonnenaufgang), erfordert aber eigenständige Planung der Parkzeiten. Lesen Sie unseren [Mietwagenguide](/car-rental-israel).
-- **Mit dem Bus.** Egged-Busse fahren von Jerusalem in Richtung Ein Gedi und Ein Bokek, aber die Taktung macht einen vollständigen Selbstorganisierungs-Tag eng; Details im [Transportguide](/transportation).
+- **Mit dem Auto.** Die Fahrt dauert von Jerusalem aus etwa **90 Minuten** auf der Route 1 und dann Route 90. Eigenes Auto bietet volle Flexibilität (und einen frühen Vorsprung beim Sonnenaufgang), erfordert aber eigenständige Planung der Parkzeiten. Lesen Sie unseren [Mietwagenguide](/de/car-rental-israel).
+- **Mit dem Bus.** Egged-Busse fahren von Jerusalem in Richtung Ein Gedi und Ein Bokek, aber die Taktung macht einen vollständigen Selbstorganisierungs-Tag eng; Details im [Transportguide](/de/transportation).
 
 ## Was mitnehmen
 
@@ -97,4 +97,4 @@ Für Erstbesucher: ja, unbedingt. Drei ikonische, sehr verschiedene Erlebnisse a
 
 ## Die restliche Reise planen
 
-Einen detaillierten Vergleich von Sonnenaufgang versus Seilbahn, privatem Guide versus Selbstfahrt und wie die verschiedenen Formate abschneiden, bietet unser Guide [Masada-Touren im Vergleich](/masada-tours-compared). Dieser Ausflug ist der meistempfohlene in unseren Guides [Tagesausflüge von Jerusalem](/day-trips-from-jerusalem) und [Tagesausflüge von Tel Aviv](/day-trips-from-tel-aviv). Vergleichen Sie beide Ufer in [Totes Meer: Israel versus Jordanien](/dead-sea-israel-vs-jordan), stöbern Sie in allen [Top-Touren Israels](/best-tours-in-israel) oder bauen Sie den Ausflug in das [3-Tage-Jerusalem-Itinerar](/itineraries/3-days-in-jerusalem) ein.
+Einen detaillierten Vergleich von Sonnenaufgang versus Seilbahn, privatem Guide versus Selbstfahrt und wie die verschiedenen Formate abschneiden, bietet unser Guide [Masada-Touren im Vergleich](/masada-tours-compared). Dieser Ausflug ist der meistempfohlene in unseren Guides [Tagesausflüge von Jerusalem](/de/day-trips-from-jerusalem) und [Tagesausflüge von Tel Aviv](/de/day-trips-from-tel-aviv). Vergleichen Sie beide Ufer in [Totes Meer: Israel versus Jordanien](/dead-sea-israel-vs-jordan), stöbern Sie in allen [Top-Touren Israels](/de/best-tours-in-israel) oder bauen Sie den Ausflug in das [3-Tage-Jerusalem-Itinerar](/itineraries/3-days-in-jerusalem) ein.

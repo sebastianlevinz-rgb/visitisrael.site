@@ -51,9 +51,9 @@ Eine geführte **Kulinariktour** (siehe oben) ist der schnellste Weg, die Highli
 
 - **[Florentin](/tel-aviv/florentin)** — Straßenküche, versteckte Perlen und nächtliche Snacks.
 - **[Neve Tzedek](/tel-aviv/neve-tzedek)** — hübsche Gassen mit Cafés und gehobenem Essen.
-- **[Altes Jaffa](/jaffa-travel-guide)** — Hummus-Institutionen, die Abouelafia-Bäckerei, Abu Hassan und Meeresfrüchte am antiken Hafen. Lesen Sie dazu den [vollständigen Jaffa-Reiseführer](/jaffa-travel-guide).
+- **[Altes Jaffa](/de/jaffa-travel-guide)** — Hummus-Institutionen, die Abouelafia-Bäckerei, Abu Hassan und Meeresfrüchte am antiken Hafen. Lesen Sie dazu den [vollständigen Jaffa-Reiseführer](/de/jaffa-travel-guide).
 - **Der Hafen (Namal)** — entspanntes Essen mit Seeblick.
 
 ## Reise planen
 
-Kombinieren Sie die kulinarische Tour mit dem Rest von [Tel Aviv](/tel-aviv), und wenn die Sonne untergeht, lesen Sie unseren [Tel-Aviv-Nightlife-Guide](/tel-aviv-nightlife). Erledigen Sie die Grundlagen — eine [eSIM](/israel-esim), einen [Flughafentransfer](/ben-gurion-airport-transfers) und eine [Reiseversicherung](/israel-travel-insurance) — vor dem Abflug, und stöbern Sie in weiteren [Touren und Tagesausflügen](/best-tours-in-israel).
+Kombinieren Sie die kulinarische Tour mit dem Rest von [Tel Aviv](/tel-aviv), und wenn die Sonne untergeht, lesen Sie unseren [Tel-Aviv-Nightlife-Guide](/de/tel-aviv-nightlife). Erledigen Sie die Grundlagen — eine [eSIM](/israel-esim), einen [Flughafentransfer](/ben-gurion-airport-transfers) und eine [Reiseversicherung](/de/israel-travel-insurance) — vor dem Abflug, und stöbern Sie in weiteren [Touren und Tagesausflügen](/de/best-tours-in-israel).

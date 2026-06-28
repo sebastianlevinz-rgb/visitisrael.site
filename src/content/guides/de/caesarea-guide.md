@@ -81,7 +81,7 @@ Am **modernen Hafen von Caesarea** — getrennt vom historischen Sebastos-Bereic
 
 ## Praktisches
 
-**Öffnungszeiten und Eintritt:** Auf [parks.org.il](https://www.parks.org.il) prüfen; der **INPA-Nationalparks-Pass** schließt Caesarea ein und rechnet sich bei mehreren Parkbesuchen. Ein [Israel National Parks Pass](/israel-national-parks-pass) lohnt sich für Rundreisende.
+**Öffnungszeiten und Eintritt:** Auf [parks.org.il](https://www.parks.org.il) prüfen; der **INPA-Nationalparks-Pass** schließt Caesarea ein und rechnet sich bei mehreren Parkbesuchen. Ein [Israel National Parks Pass](/de/israel-national-parks-pass) lohnt sich für Rundreisende.
 
 **Audioguide:** Gegen Aufpreis erhältlich; empfehlenswert für das Sebastos-Hafengelände, dessen Ingenieursgeschichte ohne Erklärung nicht sofort erschließt.
 
@@ -89,4 +89,4 @@ Am **modernen Hafen von Caesarea** — getrennt vom historischen Sebastos-Bereic
 
 **Konzerte:** An Veranstaltungsabenden im Theater ist das Gelände für Tagesbesucher früher geschlossen — Öffnungszeiten im Voraus prüfen.
 
-Weitere Informationen: [Nationalpark Caesarea](/caesarea/national-park), [INPA-Nationalparks-Pass](/israel-national-parks-pass), [Tagesausflüge ab Tel Aviv](/day-trips-from-tel-aviv), [Akko-Guide](/akko-acre-guide), [Mietwagen in Israel](/car-rental-israel).
+Weitere Informationen: [Nationalpark Caesarea](/caesarea/national-park), [INPA-Nationalparks-Pass](/de/israel-national-parks-pass), [Tagesausflüge ab Tel Aviv](/de/day-trips-from-tel-aviv), [Akko-Guide](/de/akko-acre-guide), [Mietwagen in Israel](/de/car-rental-israel).

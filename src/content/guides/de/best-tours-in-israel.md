@@ -57,4 +57,4 @@ Passen Sie das Format an Ihre Reise an: **Skip-the-Line-Tickets** für stark bes
 
 ## Weitere Planungsmöglichkeiten
 
-Bevorzugen Sie ein Komplettpaket? Lesen Sie unsere [Mehrtages-Reisepakete](/israel-tour-packages). Planen Sie Ihre eigene Route? Nutzen Sie unsere [Reiserouten](/itineraries) und die [11 Regionen](/). Vergessen Sie nicht die praktischen Details — eine [eSIM](/israel-esim), eine [Reiseversicherung](/israel-travel-insurance) und Ihren [Flughafentransfer](/ben-gurion-airport-transfers) — vor dem Abflug.
+Bevorzugen Sie ein Komplettpaket? Lesen Sie unsere [Mehrtages-Reisepakete](/israel-tour-packages). Planen Sie Ihre eigene Route? Nutzen Sie unsere [Reiserouten](/itineraries) und die [11 Regionen](/). Vergessen Sie nicht die praktischen Details — eine [eSIM](/israel-esim), eine [Reiseversicherung](/de/israel-travel-insurance) und Ihren [Flughafentransfer](/ben-gurion-airport-transfers) — vor dem Abflug.

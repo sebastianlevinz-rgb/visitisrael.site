@@ -161,8 +161,8 @@ Für aktuelle NIS-Wechselkurse empfiehlt sich [xe.com](https://www.xe.com) — n
 
 ## Verwandte Reiseführer
 
-- [Israel Kosten & Budgetguide](/israel-cost-budget) — was pro Tag für Unterkunft, Essen, Transport und Aktivitäten einplanen
+- [Israel Kosten & Budgetguide](/de/israel-cost-budget) — was pro Tag für Unterkunft, Essen, Transport und Aktivitäten einplanen
 - [Währung und Trinkgeld](/israel-tipping-currency) — interaktiver Rechner für NIS-Trinkgeld und Währungsumrechnung
-- [Transportguide](/transportation) — Busse, Züge und Sammeltaxis; wie man die Rav-Kav-Nahverkehrskarte lädt und nutzt
-- [Ben-Gurion-Flughafen-Guide](/ben-gurion-airport-guide) — Flughafenplan, Automaten auf der Landseite und die Wechselschalter
-- [Erstbesucher-Guide für Israel](/first-time-in-israel) — vollständige Checkliste für die Vorbereitung
+- [Transportguide](/de/transportation) — Busse, Züge und Sammeltaxis; wie man die Rav-Kav-Nahverkehrskarte lädt und nutzt
+- [Ben-Gurion-Flughafen-Guide](/de/ben-gurion-airport-guide) — Flughafenplan, Automaten auf der Landseite und die Wechselschalter
+- [Erstbesucher-Guide für Israel](/de/first-time-in-israel) — vollständige Checkliste für die Vorbereitung

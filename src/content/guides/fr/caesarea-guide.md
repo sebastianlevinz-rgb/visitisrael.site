@@ -72,7 +72,7 @@ Le **port moderne de Césarée** concentre les restaurants, avec une vue directe
 Césarée s'intègre naturellement dans plusieurs itinéraires :
 
 - **Haïfa** (30 min au nord) : jardins bahá'ís en terrasses et quartier allemand — la combinaison classique de la côte nord.
-- **Akko** (25 min au nord de Haïfa) : la vieille ville croisée, pour une journée entière sur la côte. Voir le [guide d'Akko](/akko-acre-guide).
+- **Akko** (25 min au nord de Haïfa) : la vieille ville croisée, pour une journée entière sur la côte. Voir le [guide d'Akko](/fr/akko-acre-guide).
 - **Zichron Yaakov** (20 min au nord de Césarée) : village fondé par le baron Edmond de Rothschild, avec caves viticoles et rue principale piétonne — bon arrêt pour une dégustation en fin d'après-midi.
 
 ## Informations pratiques
@@ -80,13 +80,13 @@ Césarée s'intègre naturellement dans plusieurs itinéraires :
 - **Depuis Tel Aviv :** autoroute 2 nord, 45 min en voiture ; ou train côtier jusqu'à Caesarea–Pardes Hanna puis taxi (10 min).
 - **Depuis Haïfa :** autoroute 2 sud, 30–35 min ; ou train jusqu'à Caesarea–Pardes Hanna.
 - **Horaires :** le parc national est généralement ouvert de 08 h 00 à 17 h 00 (18 h 00 en été) — vérifiez sur parks.org.il.
-- **Pass INPA :** le pass annuel de l'Autorité des parcs naturels d'Israël couvre l'entrée au parc national de Césarée. Voir le guide du [pass parcs nationaux](/israel-national-parks-pass).
+- **Pass INPA :** le pass annuel de l'Autorité des parcs naturels d'Israël couvre l'entrée au parc national de Césarée. Voir le guide du [pass parcs nationaux](/fr/israel-national-parks-pass).
 - **Concerts d'été :** le théâtre romain programme régulièrement des concerts de juin à septembre ; billets sur le site du théâtre.
 
 ## Liens utiles
 
 - [Parc national de Césarée](/caesarea/national-park)
-- [Pass parcs nationaux d'Israël](/israel-national-parks-pass)
-- [Excursions depuis Tel Aviv](/day-trips-from-tel-aviv)
-- [Guide d'Akko](/akko-acre-guide)
-- [Location de voiture en Israël](/car-rental-israel)
+- [Pass parcs nationaux d'Israël](/fr/israel-national-parks-pass)
+- [Excursions depuis Tel Aviv](/fr/day-trips-from-tel-aviv)
+- [Guide d'Akko](/fr/akko-acre-guide)
+- [Location de voiture en Israël](/fr/car-rental-israel)

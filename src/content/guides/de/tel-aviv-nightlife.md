@@ -44,4 +44,4 @@ Eine **geführte Bar-Tour** (oben) ist eine großartige Möglichkeit, die Szene 
 
 ## Ihre Reise planen
 
-Stärken Sie sich zuerst mit unserem [Tel Aviv-Reiseführer für Essen](/tel-aviv-food-guide), erkunden Sie den Rest von [Tel Aviv](/tel-aviv), und sorgen Sie vor dem Abflug für eine [eSIM](/israel-esim), einen [Flughafentransfer](/ben-gurion-airport-transfers) und eine [Reiseversicherung](/israel-travel-insurance). Planen Sie Ihre Reise rund um eine Veranstaltung? Sehen Sie unseren [Leitfaden für Veranstaltungen und Festivals](/israel-events-festivals).
+Stärken Sie sich zuerst mit unserem [Tel Aviv-Reiseführer für Essen](/de/tel-aviv-food-guide), erkunden Sie den Rest von [Tel Aviv](/tel-aviv), und sorgen Sie vor dem Abflug für eine [eSIM](/israel-esim), einen [Flughafentransfer](/ben-gurion-airport-transfers) und eine [Reiseversicherung](/de/israel-travel-insurance). Planen Sie Ihre Reise rund um eine Veranstaltung? Sehen Sie unseren [Leitfaden für Veranstaltungen und Festivals](/de/israel-events-festivals).

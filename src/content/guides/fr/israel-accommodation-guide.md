@@ -175,9 +175,9 @@ Le **Waldorf Astoria Jerusalem**, le **King David Hotel** et le **Beresheet Reso
 ## Guides associés
 
 - [Guide des zimmers en Israël](/israel-zimmer-guide) — séjours en B&B rural par région
-- [Guide du budget de voyage en Israël](/israel-cost-budget) — fourchettes de dépenses quotidiennes
-- [Premier voyage en Israël](/first-time-in-israel) — vue d'ensemble complète de la planification
+- [Guide du budget de voyage en Israël](/fr/israel-cost-budget) — fourchettes de dépenses quotidiennes
+- [Premier voyage en Israël](/fr/first-time-in-israel) — vue d'ensemble complète de la planification
 - [Dans quelle ville vous baser](/israel-base-city-guide) — Jerusalem vs Tel Aviv vs Haïfa comparées
-- [Randonnée en Israël](/hiking-in-israel) — sentiers accessibles depuis les bases en Galilée et au Néguev
-- [Location de voiture en Israël](/car-rental-israel) — indispensable pour rejoindre kibboutzim et zimmers
-- [Sécurité en Israël](/is-israel-safe) — contexte de sécurité actuel pour les visiteurs
+- [Randonnée en Israël](/fr/hiking-in-israel) — sentiers accessibles depuis les bases en Galilée et au Néguev
+- [Location de voiture en Israël](/fr/car-rental-israel) — indispensable pour rejoindre kibboutzim et zimmers
+- [Sécurité en Israël](/fr/is-israel-safe) — contexte de sécurité actuel pour les visiteurs

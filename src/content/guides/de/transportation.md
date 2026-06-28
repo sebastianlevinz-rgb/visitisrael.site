@@ -41,7 +41,7 @@ Für das Dreieck [Tel Aviv](/tel-aviv)–[Jerusalem](/jerusalem)–[Haifa](/haif
 
 ## Am Schabbat
 
-Planen Sie für Freitagnachmittag bis Samstagabend voraus: Nutzen Sie **Sheruts, Taxis, Ride-Hailing-Apps oder einen Mietwagen**. Unseren [Schabbat-Ratgeber](/shabbat-guide) lesen für den vollständigen Wochenrhythmus.
+Planen Sie für Freitagnachmittag bis Samstagabend voraus: Nutzen Sie **Sheruts, Taxis, Ride-Hailing-Apps oder einen Mietwagen**. Unseren [Schabbat-Ratgeber](/de/shabbat-guide) lesen für den vollständigen Wochenrhythmus.
 
 ## Streckenvergleiche
 

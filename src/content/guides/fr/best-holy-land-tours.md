@@ -39,7 +39,7 @@ faqs:
     answer: "La plupart, oui. Bethléem et l'église de la Nativité se trouvent à environ 10 km au sud de Jérusalem en Cisjordanie, et presque tous les itinéraires chrétiens l'incluent comme demi-journée. Les voitures de location standard ne sont pas assurées en zone A, donc un circuit guidé ou un guide local agréé est la façon la plus simple de visiter — apportez votre passeport pour le checkpoint."
 ---
 
-« Circuit en Terre Sainte » couvre tout, d'un pèlerinage d'église de 12 jours à une seule matinée guidée à Bethléem — la vraie question n'est donc pas *quel circuit est le meilleur*, mais *quel type correspond à votre voyage*. Ce guide compare les principales options, ce que chacune coûte et où réserver, afin que vous puissiez associer le format à votre tradition confessionnelle, à votre groupe et à votre temps. Pour les sites eux-mêmes et comment les organiser, associez ce guide à notre [guide de planification de pèlerinage chrétien](/christian-pilgrimage-holy-land).
+« Circuit en Terre Sainte » couvre tout, d'un pèlerinage d'église de 12 jours à une seule matinée guidée à Bethléem — la vraie question n'est donc pas *quel circuit est le meilleur*, mais *quel type correspond à votre voyage*. Ce guide compare les principales options, ce que chacune coûte et où réserver, afin que vous puissiez associer le format à votre tradition confessionnelle, à votre groupe et à votre temps. Pour les sites eux-mêmes et comment les organiser, associez ce guide à notre [guide de planification de pèlerinage chrétien](/fr/christian-pilgrimage-holy-land).
 
 ## Les options de circuits en Terre Sainte comparées
 
@@ -64,8 +64,8 @@ Un **guide et chauffeur privé** vous rend maître de l'itinéraire : centrez le
 
 Vous voyagez de façon indépendante ? Vous pouvez explorer la [Galilée](/galilee) et le nord en [voiture de location](/fr/car-rental-israel) et compléter par des **excursions guidées** d'une journée pour les parties plus complexes à faire seul :
 
-- **[Jérusalem et Bethléem](/jerusalem-bethlehem-day-trip)** — les lieux saints de la vieille ville et l'église de la Nativité, avec le checkpoint géré pour vous.
-- **[Nazareth et la mer de Galilée](/nazareth-sea-of-galilee-day-trip)** — Capharnaüm, le Mont des Béatitudes et les rives du lac en une journée guidée.
+- **[Jérusalem et Bethléem](/fr/jerusalem-bethlehem-day-trip)** — les lieux saints de la vieille ville et l'église de la Nativité, avec le checkpoint géré pour vous.
+- **[Nazareth et la mer de Galilée](/fr/nazareth-sea-of-galilee-day-trip)** — Capharnaüm, le Mont des Béatitudes et les rives du lac en une journée guidée.
 - **Un [circuit de marche dans la vieille ville de Jérusalem](/fr/best-tours-in-israel)** — les quatre quartiers, le Saint-Sépulcre et la Via Dolorosa avec un guide.
 
 Les excursions d'une journée coûtent généralement **90 à 150 $ par personne** et sont la façon la plus flexible et la moins contraignante d'ajouter l'expertise guidée là où elle compte.
@@ -83,4 +83,4 @@ Les excursions d'une journée coûtent généralement **90 à 150 $ par personne
 - **Apportez votre passeport** pour Bethléem et tout arrêt en Cisjordanie, et **habillez-vous modestement** dans tous les sanctuaires — voir notre [guide du code vestimentaire et de l'étiquette](/fr/holy-sites-dress-code-etiquette).
 - **Tenez compte du [Chabbat](/fr/shabbat-guide)** et des jours saints chrétiens et musulmans, quand les horaires et les transports changent.
 
-Prêt à planifier l'itinéraire lui-même ? Notre [guide de pèlerinage chrétien](/christian-pilgrimage-holy-land) trace le circuit complet en Terre Sainte, et les [itinéraires de 7 et 10 jours](/itineraries) le séquencent jour par jour. Réglez les aspects pratiques avec une [eSIM](/israel-esim), une [assurance voyage](/fr/israel-travel-insurance) et votre [transfert aéroport](/ben-gurion-airport-transfers) avant de partir.
+Prêt à planifier l'itinéraire lui-même ? Notre [guide de pèlerinage chrétien](/fr/christian-pilgrimage-holy-land) trace le circuit complet en Terre Sainte, et les [itinéraires de 7 et 10 jours](/itineraries) le séquencent jour par jour. Réglez les aspects pratiques avec une [eSIM](/israel-esim), une [assurance voyage](/fr/israel-travel-insurance) et votre [transfert aéroport](/ben-gurion-airport-transfers) avant de partir.

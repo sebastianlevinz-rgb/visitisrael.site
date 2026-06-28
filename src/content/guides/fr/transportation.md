@@ -41,7 +41,7 @@ Vous n'avez pas besoin d'une voiture pour le triangle [Tel Aviv](/tel-aviv)–[J
 
 ## Le Shabbat
 
-Préparez à l'avance le vendredi après-midi jusqu'au samedi soir : privilégiez les **sheruts, les taxis, les applications de covoiturage ou la voiture de location**. Consultez notre [guide du Shabbat](/shabbat-guide) pour comprendre le rythme complet de la semaine.
+Préparez à l'avance le vendredi après-midi jusqu'au samedi soir : privilégiez les **sheruts, les taxis, les applications de covoiturage ou la voiture de location**. Consultez notre [guide du Shabbat](/fr/shabbat-guide) pour comprendre le rythme complet de la semaine.
 
 ## Comparaisons d'itinéraires
 

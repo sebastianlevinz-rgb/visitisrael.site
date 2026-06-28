@@ -69,7 +69,7 @@ Le quartier branché par excellence : cantines bon marché, bars à cocktails, g
 **Neve Tzedek** — [/tel-aviv/neve-tzedek](/tel-aviv/neve-tzedek)
 Le quartier le plus romantique de Tel Aviv, avec ses maisons basses et ses bougainvillées. Les restaurants y sont plus raffinés, les terrasses plus soignées. Parfait pour un déjeuner tranquille ou un dîner en amoureux.
 
-**Vieux Jaffa** — [/jaffa-travel-guide](/jaffa-travel-guide)
+**Vieux Jaffa** — [/jaffa-travel-guide](/fr/jaffa-travel-guide)
 Le houmous d'Abu Hassan, la boulangerie Abouelafia ouverte 24h/24, et les restaurants de fruits de mer face au port antique. Jaffa mérite une demi-journée à elle seule — voir le guide complet.
 
 **Le Port (Namal)**
@@ -77,4 +77,4 @@ Le front de mer de Tel Aviv, entre la marina et les jetées, abrite quelques-une
 
 ## Préparez votre séjour
 
-Consultez le [guide principal de Tel Aviv](/tel-aviv) pour l'hébergement, les quartiers et les incontournables. Quand le soleil se couche, la [vie nocturne de Tel Aviv](/tel-aviv-nightlife) prend le relais. Pour les essentiels logistiques : [eSIM pour Israël](/israel-esim), [transferts aéroport Ben Gourion](/ben-gurion-airport-transfers), [assurance voyage Israël](/israel-travel-insurance). Et pour organiser vos excursions : [les meilleures visites guidées en Israël](/best-tours-in-israel).
+Consultez le [guide principal de Tel Aviv](/tel-aviv) pour l'hébergement, les quartiers et les incontournables. Quand le soleil se couche, la [vie nocturne de Tel Aviv](/fr/tel-aviv-nightlife) prend le relais. Pour les essentiels logistiques : [eSIM pour Israël](/israel-esim), [transferts aéroport Ben Gourion](/ben-gurion-airport-transfers), [assurance voyage Israël](/fr/israel-travel-insurance). Et pour organiser vos excursions : [les meilleures visites guidées en Israël](/fr/best-tours-in-israel).

@@ -17,7 +17,7 @@ faqs:
     answer: "Etwa eine Stunde vor Sonnenuntergang am Freitag bis zum Einbruch der Dunkelheit am Samstag — ungefähr 25 Stunden. Die Zeiten verschieben sich mit der Jahreszeit (früher im Winter, später im Sommer). Ihr Hotel veröffentlicht die genauen Kerzenanzündzeiten und die Schabbat-Endzeiten der Woche in der Lobby."
 ---
 
-Der Schabbat legt Israel nicht lahm — er verändert die Karte dessen, was geöffnet ist, und diese Karte sieht völlig unterschiedlich aus, je nachdem, in welcher Stadt man sich befindet. Dieser Leitfaden ist der praktische Begleiter zu unserem [Schabbat-Überblick](/shabbat-guide): eine stadtweise Aufschlüsselung dessen, was samstags tatsächlich geöffnet ist, wie man sich fortbewegt und wie man Freitag und Samstag plant, damit nichts überraschend kommt.
+Der Schabbat legt Israel nicht lahm — er verändert die Karte dessen, was geöffnet ist, und diese Karte sieht völlig unterschiedlich aus, je nachdem, in welcher Stadt man sich befindet. Dieser Leitfaden ist der praktische Begleiter zu unserem [Schabbat-Überblick](/de/shabbat-guide): eine stadtweise Aufschlüsselung dessen, was samstags tatsächlich geöffnet ist, wie man sich fortbewegt und wie man Freitag und Samstag plant, damit nichts überraschend kommt.
 
 ## Das 25-Stunden-Fenster
 

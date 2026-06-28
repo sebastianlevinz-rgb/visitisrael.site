@@ -32,7 +32,7 @@ Reisehinweise unterscheiden in der Regel zwischen Regionen. Der zentrale Tourism
 - **Führen Sie Ihren Pass mit sich**; Sie werden an Sehenswürdigkeiten, Verkehrsknotenpunkten und in Einkaufszentren Sicherheitskontrollen passieren — das ist Routine.
 - **Kennen Sie das Alarmsystem.** Wenn Sirenen ertönen, folgen Sie den Menschen in der Nähe zum nächsten Schutzraum; öffentliche Gebäude haben gesicherte Räume.
 - **Nutzen Sie lizenzierte Taxis oder Apps** und vereinbaren Sie den Fahrpreis im Voraus oder bestehen Sie auf dem Taxameter.
-- **Respektieren Sie religiöse und kulturelle Gepflogenheiten**, insbesondere an heiligen Stätten und am [Schabbat](/shabbat-guide).
+- **Respektieren Sie religiöse und kulturelle Gepflogenheiten**, insbesondere an heiligen Stätten und am [Schabbat](/de/shabbat-guide).
 - **Schließen Sie eine Reiseversicherung ab**, die medizinische Versorgung und Reiseunterbrechungen abdeckt.
 
 ## Fazit

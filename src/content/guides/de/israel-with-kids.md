@@ -62,19 +62,19 @@ Viele Hotels lassen kleine Kinder kostenlos im Elternzimmer übernachten und bie
 ## Unterwegs mit Kindern
 
 - **Züge** sind das familienfreundliche Rückgrat des Zentrums: sauber, häufig, und Kinder fahren kostenlos oder mit starkem Rabatt mit einer Rav-Kav. Kinderwagen können direkt mitgenommen werden.
-- **Ein Mietwagen** zahlt sich aus, sobald man Richtung Galiläa, Golan oder Negev fährt. Bringen Sie **Kindersitze** mit oder reservieren Sie sie im Voraus (für kleine Kinder gesetzlich vorgeschrieben — die meisten Verleihfirmen bieten sie an, aber im Voraus buchen). Lesen Sie [Mietwagen](/car-rental-israel).
-- **Meiden Sie den Schabbat für ÖPNV-abhängige Tage** — Züge und Busse fahren von Freitagabend bis Samstagabend nicht. Planen Sie einen Strand- oder Pooltag ein oder nutzen Sie ein Auto. Lesen Sie [was am Schabbat geöffnet ist](/whats-open-on-shabbat).
+- **Ein Mietwagen** zahlt sich aus, sobald man Richtung Galiläa, Golan oder Negev fährt. Bringen Sie **Kindersitze** mit oder reservieren Sie sie im Voraus (für kleine Kinder gesetzlich vorgeschrieben — die meisten Verleihfirmen bieten sie an, aber im Voraus buchen). Lesen Sie [Mietwagen](/de/car-rental-israel).
+- **Meiden Sie den Schabbat für ÖPNV-abhängige Tage** — Züge und Busse fahren von Freitagabend bis Samstagabend nicht. Planen Sie einen Strand- oder Pooltag ein oder nutzen Sie ein Auto. Lesen Sie [was am Schabbat geöffnet ist](/de/whats-open-on-shabbat).
 
 ## Praktische Tipps
 
-- **Die Hitze schlagen.** Frühling und Herbst sind die familienfreundlichsten Jahreszeiten. Im Sommer Wasser- und Indoor-Aktivitäten bevorzugen, viel Wasser mitnehmen und mittags pausieren — besonders am Toten Meer, in Eilat und in der Wüste. Lesen Sie [beste Reisezeit](/best-time-to-visit-israel).
+- **Die Hitze schlagen.** Frühling und Herbst sind die familienfreundlichsten Jahreszeiten. Im Sommer Wasser- und Indoor-Aktivitäten bevorzugen, viel Wasser mitnehmen und mittags pausieren — besonders am Toten Meer, in Eilat und in der Wüste. Lesen Sie [beste Reisezeit](/de/best-time-to-visit-israel).
 - **Sonnenschutz ist nicht verhandelbar** — hoher Lichtschutzfaktor, Hüte und Schatten. Die Wüsten- und Tote-Meer-Sonne ist intensiv.
 - **Geschichte dosieren.** Religiöse und archäologische Stätten bedeuten viel Laufen und Stehen. Wechseln Sie einen „Kultur"-Tag mit einem „Aktiv"-Tag ab.
-- **Essen ist unkompliziert.** Falafel, Hummus, frisches Brot, Früchte, Shakshuka und Pizza gibt es überall und werden von Kindern gerne gegessen. Lesen Sie den [Koscher-Ernährungs-Ratgeber](/kosher-food-guide) und den [Tel-Aviv-Gastronomieführer](/tel-aviv-food-guide).
+- **Essen ist unkompliziert.** Falafel, Hummus, frisches Brot, Früchte, Shakshuka und Pizza gibt es überall und werden von Kindern gerne gegessen. Lesen Sie den [Koscher-Ernährungs-Ratgeber](/de/kosher-food-guide) und den [Tel-Aviv-Gastronomieführer](/de/tel-aviv-food-guide).
 - **Kinderwagen vs. Tragehilfen.** Gassen der Altstadt und viele Ruinen haben Stufen und Kopfsteinpflaster; eine Tragehilfe ist an den großen historischen Stätten einem Kinderwagen überlegen.
 
 ## Eine Familienwoche als Beispiel
 
-Eine entspannte Route mit wenigen Transfers: **2 Nächte Tel Aviv** (Strände, Jaffa, Museen) → **2 Nächte Jerusalem** (Altstadt morgens, Zoo oder Auszeit nachmittags) → **1 Nacht Totes Meer** (Schwimmen + Ein Gedi) → **2 Nächte Galiläa** (Quellen, Kajak, Bauernhofaufenthalt). Für eine langsamere oder längere Reise lesen Sie unsere [5-, 7- und 10-Tages-Reiserouten](/israel-5-vs-7-vs-10-days) und den [Reiserouten-Hub](/itineraries).
+Eine entspannte Route mit wenigen Transfers: **2 Nächte Tel Aviv** (Strände, Jaffa, Museen) → **2 Nächte Jerusalem** (Altstadt morgens, Zoo oder Auszeit nachmittags) → **1 Nacht Totes Meer** (Schwimmen + Ein Gedi) → **2 Nächte Galiläa** (Quellen, Kajak, Bauernhofaufenthalt). Für eine langsamere oder längere Reise lesen Sie unsere [5-, 7- und 10-Tages-Reiserouten](/de/israel-5-vs-7-vs-10-days) und den [Reiserouten-Hub](/itineraries).
 
-Israel belohnt Familien, die das Tempo moderat halten und die Natur genießen. Kombinieren Sie dies mit unserem [Erstbesucher-Ratgeber](/first-time-in-israel) und Sie sind bestens vorbereitet.
+Israel belohnt Familien, die das Tempo moderat halten und die Natur genießen. Kombinieren Sie dies mit unserem [Erstbesucher-Ratgeber](/de/first-time-in-israel) und Sie sind bestens vorbereitet.

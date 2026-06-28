@@ -49,8 +49,8 @@ Attendez-vous à des questions de sécurité à l'arrivée — sur votre voyage,
 
 ## Prolongation de séjour et entrée par voie terrestre
 
-Si vous avez besoin de rester plus longtemps que la durée autorisée, renseignez-vous auprès de l'Autorité de la population et de l'immigration pendant votre séjour. Si vous entrez **par voie terrestre depuis la Jordanie ou l'Égypte**, les exigences concernant l'ETA-IL et les procédures diffèrent selon le poste-frontière — consultez notre [guide des passages frontaliers](/border-crossings).
+Si vous avez besoin de rester plus longtemps que la durée autorisée, renseignez-vous auprès de l'Autorité de la population et de l'immigration pendant votre séjour. Si vous entrez **par voie terrestre depuis la Jordanie ou l'Égypte**, les exigences concernant l'ETA-IL et les procédures diffèrent selon le poste-frontière — consultez notre [guide des passages frontaliers](/fr/border-crossings).
 
 ## Avant de partir
 
-Complétez ce guide avec notre [guide pour les premiers voyageurs](/first-time-in-israel) et lisez [Israël, est-ce sûr ?](/is-israel-safe) pour les conseils de voyage actuels. Pensez aussi aux essentiels pratiques — une [eSIM](/israel-esim), une [assurance voyage](/israel-travel-insurance) et votre [transfert depuis l'aéroport](/ben-gurion-airport-transfers) — avant de prendre l'avion.
+Complétez ce guide avec notre [guide pour les premiers voyageurs](/fr/first-time-in-israel) et lisez [Israël, est-ce sûr ?](/fr/is-israel-safe) pour les conseils de voyage actuels. Pensez aussi aux essentiels pratiques — une [eSIM](/israel-esim), une [assurance voyage](/fr/israel-travel-insurance) et votre [transfert depuis l'aéroport](/ben-gurion-airport-transfers) — avant de prendre l'avion.

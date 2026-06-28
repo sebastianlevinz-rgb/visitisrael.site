@@ -54,8 +54,8 @@ faqs:
 
 ## Planung und Organisation
 
-Für Wüstenausflüge nimmt Ihnen eine **geführte Tour** (oben) die gesamte Logistik ab — insbesondere den Frühstart für Masada. Nach Tel Aviv fahren Sie einfach mit dem **[Zug](/de/transportation)**. Wer mehrere Ausflüge flexibel kombinieren möchte, sollte sich einen **[Mietwagen](/car-rental-israel)** für ein paar Tage überlegen.
+Für Wüstenausflüge nimmt Ihnen eine **geführte Tour** (oben) die gesamte Logistik ab — insbesondere den Frühstart für Masada. Nach Tel Aviv fahren Sie einfach mit dem **[Zug](/de/transportation)**. Wer mehrere Ausflüge flexibel kombinieren möchte, sollte sich einen **[Mietwagen](/de/car-rental-israel)** für ein paar Tage überlegen.
 
 ## Ihre Reise planen
 
-Entdecken Sie den vollständigen [Jerusalem-Reiseführer](/jerusalem) und die [3-Tage-Reiseroute für Jerusalem](/itineraries/3-days-in-jerusalem). Starten Sie stattdessen von Tel Aviv? Sehen Sie sich die [Tagesausflüge von Tel Aviv](/de/day-trips-from-tel-aviv) an. Stöbern Sie auch in allen [Touren und Ausflügen](/best-tours-in-israel) oder buchen Sie ein [mehrtägiges Reisepaket](/israel-tour-packages).
+Entdecken Sie den vollständigen [Jerusalem-Reiseführer](/jerusalem) und die [3-Tage-Reiseroute für Jerusalem](/itineraries/3-days-in-jerusalem). Starten Sie stattdessen von Tel Aviv? Sehen Sie sich die [Tagesausflüge von Tel Aviv](/de/day-trips-from-tel-aviv) an. Stöbern Sie auch in allen [Touren und Ausflügen](/de/best-tours-in-israel) oder buchen Sie ein [mehrtägiges Reisepaket](/israel-tour-packages).

@@ -102,7 +102,7 @@ Israël est l'un des meilleurs pays au monde pour manger végane. Même les rest
 Le sésame est omniprésent — tahini dans le houmous, za'atar sur le pain, halva en dessert. Si vous êtes allergique, signalez-le systématiquement. Les pistaches et les noix abondent dans les pâtisseries.
 
 **Shabbat**
-De nombreux restaurants casher ferment du vendredi soir au samedi soir. Les établissements non-casher (majorité à Tel Aviv) restent ouverts. Consultez notre [guide du Shabbat](/shabbat-guide) pour tout savoir.
+De nombreux restaurants casher ferment du vendredi soir au samedi soir. Les établissements non-casher (majorité à Tel Aviv) restent ouverts. Consultez notre [guide du Shabbat](/fr/shabbat-guide) pour tout savoir.
 
 ## Manger bien à tous les budgets
 
@@ -119,4 +119,4 @@ Le pourboire en Israël est de 10–12 % dans les restaurants avec service à ta
 
 Un itinéraire gourmand idéal commence à **Jerusalem** : grillades mixtes au Mahane Yehuda, rugelach en chemin, levée de rideau sur la cuisine israélienne dans toute sa profondeur historique. Ensuite, **Tel Aviv** pour la modernité et la créativité — Carmel Market le matin, restaurant végane de pointe le soir. Vers le **nord** pour la cuisine druze dans les villages du Golan, le mezze de Nazareth et les tables de poisson d'Akko. Terminez dans le **Néguev** avec un repas bédouin sous les étoiles du désert.
 
-Consultez aussi : [Guide gastronomique de Tel Aviv](/tel-aviv-food-guide) · [Guide de la cuisine casher](/kosher-food-guide)
+Consultez aussi : [Guide gastronomique de Tel Aviv](/fr/tel-aviv-food-guide) · [Guide de la cuisine casher](/fr/kosher-food-guide)

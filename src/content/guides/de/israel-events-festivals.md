@@ -48,12 +48,12 @@ Israel packt eine bemerkenswerte Anzahl von Festivals, Kulturveranstaltungen und
 
 ## Die zwei wichtigsten Planungsfaktoren
 
-**Die Tel Aviv Pride (Juni)** ist die größte Pride im Nahen Osten — eine Woche voller Events und eine riesige Parade. Die Stadt füllt sich und Zimmer werden Monate im Voraus ausgebucht: **Unterkunft frühzeitig buchen** (oben). Lesen Sie unseren [Tel-Aviv-Nachtleben-Ratgeber](/tel-aviv-nightlife).
+**Die Tel Aviv Pride (Juni)** ist die größte Pride im Nahen Osten — eine Woche voller Events und eine riesige Parade. Die Stadt füllt sich und Zimmer werden Monate im Voraus ausgebucht: **Unterkunft frühzeitig buchen** (oben). Lesen Sie unseren [Tel-Aviv-Nachtleben-Ratgeber](/de/tel-aviv-nightlife).
 
-**Der Feiertagskalender** bestimmt Schließungen und Preise. Jüdische Feiertage (Pessach, die [Hohen Feiertage](/best-time-to-visit-israel)) führen zu [Schabbat](/shabbat-guide)-ähnlichen Schließungen und höheren Tarifen; die christliche Karwoche und Weihnachten füllen Jerusalem und Galiläa. Logistik entsprechend einplanen.
+**Der Feiertagskalender** bestimmt Schließungen und Preise. Jüdische Feiertage (Pessach, die [Hohen Feiertage](/de/best-time-to-visit-israel)) führen zu [Schabbat](/de/shabbat-guide)-ähnlichen Schließungen und höheren Tarifen; die christliche Karwoche und Weihnachten füllen Jerusalem und Galiläa. Logistik entsprechend einplanen.
 
 ## Wie man die Reise rund um Veranstaltungen plant
 
 - **Sie kommen für ein Event?** Hotels und Touren **Monate im Voraus** buchen — diese Termine sind die Jahreshöchstpunkte.
-- **Sie meiden Menschenmassen und hohe Preise?** Reisen Sie in den **Schulterwochen** davor oder danach — lesen Sie [beste Reisezeit](/best-time-to-visit-israel).
-- **In jedem Fall**: lesen Sie den [Erstbesucher-Ratgeber](/first-time-in-israel) und denken Sie an Ihre [eSIM](/israel-esim) und [Reiseversicherung](/israel-travel-insurance).
+- **Sie meiden Menschenmassen und hohe Preise?** Reisen Sie in den **Schulterwochen** davor oder danach — lesen Sie [beste Reisezeit](/de/best-time-to-visit-israel).
+- **In jedem Fall**: lesen Sie den [Erstbesucher-Ratgeber](/de/first-time-in-israel) und denken Sie an Ihre [eSIM](/israel-esim) und [Reiseversicherung](/de/israel-travel-insurance).

@@ -49,7 +49,7 @@ Die meisten Touren folgen einer Version dieser Schleife rund um [Galiläa](/gali
 - **[Kapernaum](/galilee/capernaum)** — die Seeufer-Stadt, die Jesus zu seiner Basis machte. Zu sehen sind Überreste einer antiken Synagoge und die achteckige Kirche über dem überlieferten Haus des heiligen Petrus.
 - **[Berg der Seligpreisungen](/galilee/mount-of-beatitudes)** — der sanfte Hügel über dem See, verbunden mit der Bergpredigt, gekrönt von einer ruhigen, italienisch gebauten Kirche und Gärten mit weitem Blick.
 - **Tabgha** — Heimat der Kirche der Brotvermehrung (Fischermosaik) und der Kirche des Vorrangs des Petrus, direkt am Ufer.
-- **[Yardenit](/jordan-river-baptism)** — die Taufstätte, wo der Jordan den See verlässt, wo Pilger sich taufen lassen oder ihre Taufgelübde erneuern.
+- **[Yardenit](/de/jordan-river-baptism)** — die Taufstätte, wo der Jordan den See verlässt, wo Pilger sich taufen lassen oder ihre Taufgelübde erneuern.
 
 Manche Reiserouten schließen auch **Kana** (das Hochzeitswunder) oder einen Halt in **[Tiberias](/galilee/tiberias)** am See ein.
 
@@ -64,7 +64,7 @@ Gruppentouren kosten typischerweise **$98–108 pro Person**, Transport und Reis
 ## Anreise
 
 - **Geführte Tour (einfachste Option).** Die Stätten liegen weit verstreut und sind schlecht mit öffentlichen Verkehrsmitteln erreichbar — ein geführter Tagesausflug ist bei weitem der unkomplizierteste Weg. Touren fahren von [Jerusalem](/jerusalem), [Tel Aviv](/tel-aviv) und Tiberias ab.
-- **Mit dem Auto.** Es sind etwa **2,5 Stunden** von Jerusalem oder Tel Aviv. Ein [Mietwagen](/car-rental-israel) gibt volle Freiheit zum Verweilen — die Straßen Galiläas sind einfach. Früh aufbrechen.
+- **Mit dem Auto.** Es sind etwa **2,5 Stunden** von Jerusalem oder Tel Aviv. Ein [Mietwagen](/de/car-rental-israel) gibt volle Freiheit zum Verweilen — die Straßen Galiläas sind einfach. Früh aufbrechen.
 - **Übernachten.** Da die Fahrt lang ist, wählen viele Reisende eine Nacht in **Nazareth** oder **Tiberias** und besichtigen die Stätten in Ruhe — die bessere Option, wenn Sie jede Stätte wirklich aufnehmen möchten.
 
 ## Was mitnehmen
@@ -81,4 +81,4 @@ Für alle mit einem christlichen Interesse — und für viele weltliche Besucher
 
 ## Den Rest Ihrer Reise planen
 
-Kombinieren Sie diesen Ausflug mit den Reiseführern für [Galiläa](/galilee) und [Nazareth](/nazareth), sehen Sie, wie er in unsere [7-Tage-](/itineraries/7-days-in-israel) und [10-Tage-Routen](/itineraries/10-days-in-israel) passt, und stöbern Sie in unseren [besten Touren in Israel](/best-tours-in-israel). Das südliche Pendant: der [Masada- & Totes-Meer-Ausflug](/masada-dead-sea-day-trip).
+Kombinieren Sie diesen Ausflug mit den Reiseführern für [Galiläa](/galilee) und [Nazareth](/nazareth), sehen Sie, wie er in unsere [7-Tage-](/itineraries/7-days-in-israel) und [10-Tage-Routen](/itineraries/10-days-in-israel) passt, und stöbern Sie in unseren [besten Touren in Israel](/de/best-tours-in-israel). Das südliche Pendant: der [Masada- & Totes-Meer-Ausflug](/de/masada-dead-sea-day-trip).

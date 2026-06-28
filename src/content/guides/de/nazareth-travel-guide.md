@@ -85,4 +85,4 @@ Jedes Jahr am 24. Dezember veranstaltet Nazareth das **größte Weihnachtsfest I
 
 ## Kombinationen
 
-Nazareth kombiniert sich ideal mit [Tiberias und dem See Genezareth](/tiberias-guide) (30 Min.), [Safed (Tzfat)](/safed-tzfat-guide) (45 Min.) und [Akko](/akko-acre-guide) (60 Min.) zu einer mehrtägigen Galiläa-Rundreise. Weitere Hintergründe: [Galiläa-Reiseführer](/galilee), [Christliche Pilgerreise ins Heilige Land](/christian-pilgrimage-holy-land), [Tagesausflüge ab Tel Aviv](/day-trips-from-tel-aviv).
+Nazareth kombiniert sich ideal mit [Tiberias und dem See Genezareth](/tiberias-guide) (30 Min.), [Safed (Tzfat)](/de/safed-tzfat-guide) (45 Min.) und [Akko](/de/akko-acre-guide) (60 Min.) zu einer mehrtägigen Galiläa-Rundreise. Weitere Hintergründe: [Galiläa-Reiseführer](/galilee), [Christliche Pilgerreise ins Heilige Land](/de/christian-pilgrimage-holy-land), [Tagesausflüge ab Tel Aviv](/de/day-trips-from-tel-aviv).

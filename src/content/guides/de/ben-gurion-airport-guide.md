@@ -51,10 +51,10 @@ Ben Gurion hat zwei aktive Passagierterminals. **Terminal 3** ist das Haupt-Inte
 
 Internationale Flüge landen in der **Terminal-3-Ankunftshalle (Ebene 1)**. Nach der Landung läuft der Prozess wie folgt ab:
 
-1. **Passkontrolle**: Israelische Staatsbürger nutzen E-Gates; ausländische Staatsangehörige reihen sich an bemannten Schaltern ein. ETA-IL oder Visa-Dokumentation bereithalten — siehe den [Visa-Guide](/visa-information) wenn Sie unsicher sind ob Sie eines benötigen.
+1. **Passkontrolle**: Israelische Staatsbürger nutzen E-Gates; ausländische Staatsangehörige reihen sich an bemannten Schaltern ein. ETA-IL oder Visa-Dokumentation bereithalten — siehe den [Visa-Guide](/de/visa-information) wenn Sie unsicher sind ob Sie eines benötigen.
 2. **Gepäckausgabe**: Bänder befinden sich in der Hauptankunftshalle; die Bandnummer wird auf Hängebildschirmen angezeigt sobald Ihr Flug landet.
 3. **Zoll**: Die meisten Besucher passieren den grünen Kanal. Der rote Kanal ist für jene mit anzumeldenden Waren (über Duty-Free-Freimengen, Bargeld über 20.000 USD, oder regulierte Artikel).
-4. **Ankunftshalle**: [Mietwagendesks](/car-rental-israel) befinden sich im Erdgeschoss der Ankunftshalle (Avis, Hertz, Budget, Sixt, Eldan). Geldautomaten, ein Wechselbüro, eine Apotheke und ein Kiosk sind in derselben Halle.
+4. **Ankunftshalle**: [Mietwagendesks](/de/car-rental-israel) befinden sich im Erdgeschoss der Ankunftshalle (Avis, Hertz, Budget, Sixt, Eldan). Geldautomaten, ein Wechselbüro, eine Apotheke und ein Kiosk sind in derselben Halle.
 5. **Weiterreise**: Der Bahnhof ist über eine direkte Verbindung unter der Ankunftshalle erreichbar. Taxistand und Transfer-Abholzone befinden sich am Hallenausgang. Alle Optionen finden Sie im [Airport-Transfer-Guide](/ben-gurion-airport-transfers).
 
 ## Abflug: Zeitplan und Prozess
@@ -107,7 +107,7 @@ Es gibt auch einen **James Richardson-Ankunftsshop** vor der Passkontrolle mit A
 
 ## In die Stadt kommen
 
-Vollständige Streckenvergleiche, Schabbat-Fahrpläne und Preise nach Tel Aviv, Jerusalem, Haifa und Eilat finden Sie im [Ben-Gurion-Airport-Transfer-Guide](/ben-gurion-airport-transfers) und unserem [Transportüberblick](/transportation). Wichtigste Optionen:
+Vollständige Streckenvergleiche, Schabbat-Fahrpläne und Preise nach Tel Aviv, Jerusalem, Haifa und Eilat finden Sie im [Ben-Gurion-Airport-Transfer-Guide](/ben-gurion-airport-transfers) und unserem [Transportüberblick](/de/transportation). Wichtigste Optionen:
 
 - **Zug**: am schnellsten und günstigsten — [Tel Aviv](/tel-aviv) in ~20 Min, [Jerusalem](/jerusalem) in ~30 Min. Kein Schabbat-Service.
 - **Privattransfer**: Festpreis, Fahrer wartet auf Sie, Schabbat-freundlich.
@@ -117,8 +117,8 @@ Vollständige Streckenvergleiche, Schabbat-Fahrpläne und Preise nach Tel Aviv, 
 
 ## Vor dem Flug: Schnell-Checkliste
 
-- [ETA-IL Vorausreisegenehmigung](/visa-information) (die meisten Nationalitäten benötigen dies; 72h vor dem Flug beantragen)
-- [Reiseversicherung](/israel-travel-insurance) (für einige Visumkategorien verpflichtend; für alle dringend empfohlen)
+- [ETA-IL Vorausreisegenehmigung](/de/visa-information) (die meisten Nationalitäten benötigen dies; 72h vor dem Flug beantragen)
+- [Reiseversicherung](/de/israel-travel-insurance) (für einige Visumkategorien verpflichtend; für alle dringend empfohlen)
 - [eSIM oder SIM-Karte](/israel-esim) (Roaming-Gebühren vermeiden — vor oder bei Ankunft aktivieren)
 - [Flughafentransfer vorbuchen](/ben-gurion-airport-transfers) bei Ankunft am Schabbat oder spät nachts
 - [Rav-Kav-Transitkarte](/rav-kav-israel) — am Öffentlicher-Nahverkehr-Informationszentrum in der Ankunftshalle kaufen, bevor Sie den Zug besteigen

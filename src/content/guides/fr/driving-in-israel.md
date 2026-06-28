@@ -63,7 +63,7 @@ Si vous entrez en Israël dans un véhicule immatriculé à l'étranger, enregis
 
 ## Navigation : Waze et Google Maps
 
-Les deux fonctionnent bien. Waze est le favori local et se met à jour en temps réel avec des rapports de police, des fermetures de routes et des travaux. Téléchargez des cartes hors ligne pour les zones à couverture insuffisante (certaines parties du [Néguev](/negev) et du [plateau du Golan](/golan) peuvent perdre le signal). Remarque : Waze ne dirige pas toujours de façon optimale à travers la [Cisjordanie](/border-crossings) pour les conducteurs dont le contrat limite cette zone — restez sur l'Autoroute 1 et la Route côtière 2.
+Les deux fonctionnent bien. Waze est le favori local et se met à jour en temps réel avec des rapports de police, des fermetures de routes et des travaux. Téléchargez des cartes hors ligne pour les zones à couverture insuffisante (certaines parties du [Néguev](/negev) et du [plateau du Golan](/golan) peuvent perdre le signal). Remarque : Waze ne dirige pas toujours de façon optimale à travers la [Cisjordanie](/fr/border-crossings) pour les conducteurs dont le contrat limite cette zone — restez sur l'Autoroute 1 et la Route côtière 2.
 
 ## Stationnement : la signification des couleurs de bord de trottoir
 
@@ -89,13 +89,13 @@ Les agences de location, cependant, ferment souvent le vendredi après-midi et n
 
 ## Yom Kippour : garez la voiture
 
-Pendant le [Yom Kippour](/israel-events-festivals), presque tous les Israéliens arrêtent de conduire du coucher du soleil jusqu'au lendemain soir — les routes se vident complètement et les cyclistes (y compris les enfants) utilisent toutes les autoroutes. Il est légal de conduire en tant que touriste, mais profondément irrespectueux dans la plupart des communautés et profondément dangereux étant donné les piétons et cyclistes inattendus sur la route. **Garez la voiture et marchez** : les rues sans voitures sont l'une des expériences annuelles les plus extraordinaires d'Israël.
+Pendant le [Yom Kippour](/fr/israel-events-festivals), presque tous les Israéliens arrêtent de conduire du coucher du soleil jusqu'au lendemain soir — les routes se vident complètement et les cyclistes (y compris les enfants) utilisent toutes les autoroutes. Il est légal de conduire en tant que touriste, mais profondément irrespectueux dans la plupart des communautés et profondément dangereux étant donné les piétons et cyclistes inattendus sur la route. **Garez la voiture et marchez** : les rues sans voitures sont l'une des expériences annuelles les plus extraordinaires d'Israël.
 
 ## Restrictions en Cisjordanie et aux frontières
 
-La plupart des contrats de location **interdisent d'emmener la voiture en Jordanie** et peuvent annuler l'assurance dans la Zone A de l'Autorité palestinienne (les principales villes de Cisjordanie). Si vous voulez visiter [Petra](/petra-from-israel), réservez un circuit organisé depuis [Eilat](/eilat) ou franchissez la frontière de façon indépendante et louez une voiture jordanienne distincte — ne prenez pas le véhicule loué à travers. Pour le [guide des postes frontières](/border-crossings), voir la logistique complète.
+La plupart des contrats de location **interdisent d'emmener la voiture en Jordanie** et peuvent annuler l'assurance dans la Zone A de l'Autorité palestinienne (les principales villes de Cisjordanie). Si vous voulez visiter [Petra](/petra-from-israel), réservez un circuit organisé depuis [Eilat](/eilat) ou franchissez la frontière de façon indépendante et louez une voiture jordanienne distincte — ne prenez pas le véhicule loué à travers. Pour le [guide des postes frontières](/fr/border-crossings), voir la logistique complète.
 
-Si vous conduisez près de [Bethléem](/jerusalem-bethlehem-day-trip), notez que l'entrée en Zone A (signalée par des panneaux d'avertissement rouges en hébreu, arabe et anglais) annule votre assurance de location. La plupart des sites touristiques en Cisjordanie (Église de la Nativité à Bethléem, Jéricho) sont accessibles via des circuits coordonnés plutôt que la conduite autonome.
+Si vous conduisez près de [Bethléem](/fr/jerusalem-bethlehem-day-trip), notez que l'entrée en Zone A (signalée par des panneaux d'avertissement rouges en hébreu, arabe et anglais) annule votre assurance de location. La plupart des sites touristiques en Cisjordanie (Église de la Nativité à Bethléem, Jéricho) sont accessibles via des circuits coordonnés plutôt que la conduite autonome.
 
 ## Numéros de routes clés à connaître
 

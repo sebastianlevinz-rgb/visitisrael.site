@@ -57,4 +57,4 @@ Adaptez le format à votre voyage : **billets coupe-file** pour les musées trè
 
 ## D'autres façons de préparer votre voyage
 
-Vous préférez tout inclus ? Consultez les [forfaits multi-jours](/israel-tour-packages). Vous construisez votre propre itinéraire ? Utilisez nos [itinéraires](/itineraries) et les [11 régions](/). Et réglez les détails pratiques — une [eSIM](/israel-esim), une [assurance voyage](/israel-travel-insurance) et votre [transfert aéroport](/ben-gurion-airport-transfers) — avant de partir.
+Vous préférez tout inclus ? Consultez les [forfaits multi-jours](/israel-tour-packages). Vous construisez votre propre itinéraire ? Utilisez nos [itinéraires](/itineraries) et les [11 régions](/). Et réglez les détails pratiques — une [eSIM](/israel-esim), une [assurance voyage](/fr/israel-travel-insurance) et votre [transfert aéroport](/ben-gurion-airport-transfers) — avant de partir.

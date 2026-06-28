@@ -34,8 +34,8 @@ Israels zwei größte Städte liegen weniger als eine Stunde voneinander entfern
 ## Welche passt zu Ihrer Reise?
 
 - **Wählen Sie Jerusalem,** wenn Sie sich von Geschichte und Religion angezogen fühlen, nah am [Toten Meer](/dead-sea) und Bethlehem sein möchten und ruhige Abende kein Problem sind.
-- **Wählen Sie Tel Aviv,** wenn Sie Sonne, Meer, Essen und Nachtleben möchten und eine lebendigere Basis bevorzugen — auch am [Schabbat](/shabbat-guide).
+- **Wählen Sie Tel Aviv,** wenn Sie Sonne, Meer, Essen und Nachtleben möchten und eine lebendigere Basis bevorzugen — auch am [Schabbat](/de/shabbat-guide).
 
 ## Die ehrliche Antwort: Besuchen Sie beide
 
-Sie sind nur 45 Minuten mit dem Zug voneinander entfernt, also gibt es wenig Grund zu wählen. Die klassische Woche teilt sich auf etwa drei Nächte in jeder Stadt auf — lesen Sie unsere [7-Tage-Israel-Reiseroute](/itineraries/7-days-in-israel) und den [Erstbesucher-Ratgeber](/first-time-in-israel), um es zu planen.
+Sie sind nur 45 Minuten mit dem Zug voneinander entfernt, also gibt es wenig Grund zu wählen. Die klassische Woche teilt sich auf etwa drei Nächte in jeder Stadt auf — lesen Sie unsere [7-Tage-Israel-Reiseroute](/itineraries/7-days-in-israel) und den [Erstbesucher-Ratgeber](/de/first-time-in-israel), um es zu planen.

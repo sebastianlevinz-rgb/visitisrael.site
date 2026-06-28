@@ -58,7 +58,7 @@ Pour acheter un Matmon : contactez le service clientèle de l'INPA, fournissez u
 
 ### Combo Israel Pass (Rav-Kav + parcs)
 
-Périodiquement, le Ministère du tourisme d'Israël propose un pass combiné incluant des crédits de transport public (via la [carte Rav-Kav](/transportation)) et l'entrée aux parcs nationaux. La disponibilité et les conditions changent selon la saison — vérifiez auprès de l'Office du tourisme d'Israël ou du concierge de votre hôtel avant votre voyage.
+Périodiquement, le Ministère du tourisme d'Israël propose un pass combiné incluant des crédits de transport public (via la [carte Rav-Kav](/fr/transportation)) et l'entrée aux parcs nationaux. La disponibilité et les conditions changent selon la saison — vérifiez auprès de l'Office du tourisme d'Israël ou du concierge de votre hôtel avant votre voyage.
 
 ---
 

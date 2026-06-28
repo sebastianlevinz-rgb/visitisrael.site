@@ -48,12 +48,12 @@ Israël concentre un nombre remarquable de festivals, d'événements culturels e
 
 ## Les deux grands facteurs à prendre en compte
 
-**La Tel Aviv Pride (juin)** est la plus grande Pride du Moyen-Orient — une semaine d'événements et un immense défilé. La ville se remplit et les chambres d'hôtel se réservent des mois à l'avance : **réservez votre hébergement tôt** (voir ci-dessus). Consultez notre [guide de la vie nocturne à Tel Aviv](/tel-aviv-nightlife).
+**La Tel Aviv Pride (juin)** est la plus grande Pride du Moyen-Orient — une semaine d'événements et un immense défilé. La ville se remplit et les chambres d'hôtel se réservent des mois à l'avance : **réservez votre hébergement tôt** (voir ci-dessus). Consultez notre [guide de la vie nocturne à Tel Aviv](/fr/tel-aviv-nightlife).
 
-**Le calendrier des fêtes** détermine les fermetures et les prix. Les fêtes juives (Pessah, les [Hautes Fêtes](/best-time-to-visit-israel)) entraînent des fermetures similaires au [Shabbat](/shabbat-guide) et des tarifs plus élevés ; la Semaine Sainte chrétienne et Noël remplissent Jérusalem et la Galilée. Anticipez votre logistique en conséquence.
+**Le calendrier des fêtes** détermine les fermetures et les prix. Les fêtes juives (Pessah, les [Hautes Fêtes](/fr/best-time-to-visit-israel)) entraînent des fermetures similaires au [Shabbat](/fr/shabbat-guide) et des tarifs plus élevés ; la Semaine Sainte chrétienne et Noël remplissent Jérusalem et la Galilée. Anticipez votre logistique en conséquence.
 
 ## Comment planifier autour des événements
 
 - **Vous venez pour un événement ?** Réservez hôtels et circuits **plusieurs mois à l'avance** — ces dates sont les pics de l'année.
-- **Vous évitez la foule et les prix élevés ?** Voyagez pendant les **semaines intermédiaires** de part et d'autre — consultez [la meilleure période pour visiter](/best-time-to-visit-israel).
-- **Dans tous les cas**, lisez le [guide pour les premiers visiteurs](/first-time-in-israel) et pensez à votre [eSIM](/israel-esim) et à votre [assurance voyage](/israel-travel-insurance).
+- **Vous évitez la foule et les prix élevés ?** Voyagez pendant les **semaines intermédiaires** de part et d'autre — consultez [la meilleure période pour visiter](/fr/best-time-to-visit-israel).
+- **Dans tous les cas**, lisez le [guide pour les premiers visiteurs](/fr/first-time-in-israel) et pensez à votre [eSIM](/israel-esim) et à votre [assurance voyage](/fr/israel-travel-insurance).

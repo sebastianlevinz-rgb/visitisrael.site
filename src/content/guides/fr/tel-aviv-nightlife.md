@@ -44,4 +44,4 @@ Un **circuit bar guidé** (ci-dessus) est une excellente façon de découvrir la
 
 ## Préparer votre séjour
 
-Commencez par vous restaurer avec notre [guide gastronomique de Tel Aviv](/tel-aviv-food-guide), explorez le reste de [Tel Aviv](/tel-aviv), et pensez à vous procurer une [eSIM](/israel-esim), un [transfert depuis l'aéroport](/ben-gurion-airport-transfers) et une [assurance voyage](/israel-travel-insurance) avant de prendre l'avion. Vous planifiez votre séjour autour d'un événement ? Consultez notre [guide des fêtes et festivals](/israel-events-festivals).
+Commencez par vous restaurer avec notre [guide gastronomique de Tel Aviv](/fr/tel-aviv-food-guide), explorez le reste de [Tel Aviv](/tel-aviv), et pensez à vous procurer une [eSIM](/israel-esim), un [transfert depuis l'aéroport](/ben-gurion-airport-transfers) et une [assurance voyage](/fr/israel-travel-insurance) avant de prendre l'avion. Vous planifiez votre séjour autour d'un événement ? Consultez notre [guide des fêtes et festivals](/fr/israel-events-festivals).

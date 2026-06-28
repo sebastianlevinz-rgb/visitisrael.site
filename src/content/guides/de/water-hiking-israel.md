@@ -71,7 +71,7 @@ Die wichtigste Sicherheitsregel für jede Wasserwanderung oder jeden Wadispazier
 **Lage:** Totes-Meer-Korridor, 1,5 Stunden von Jerusalem, 2 Stunden von Tel Aviv  
 **Weg:** ca. 3-km-Schleife, 1–2 Stunden, leicht bis moderat  
 **Wasser:** Ganzjährig (quellengespeist)  
-**Nationalparkausweis:** Ja — [blaue, grüne oder orange Karte](/israel-national-parks-pass) gültig
+**Nationalparkausweis:** Ja — [blaue, grüne oder orange Karte](/de/israel-national-parks-pass) gültig
 
 Die bekannteste Wasserwanderung Israels, und zu Recht. [Ein Gedi](/dead-sea/ein-gedi) liegt in einer dramatischen Oase am Westufer des [Toten Meeres](/dead-sea) — ein Naturreservat mit Süßwasserquellen, Steinböcken, Klippschliefern und Dattelpalmen, die an senkrechten Kalksteinklippen hängen. Wadi David ist der Hauptweg: eine 1-stündige Schleife zu **Davids Wasserfall** (etwa 9 Meter hoch), vorbei an mehreren natürlichen Becken, wo man waten und schwimmen kann. Das Wasser ist ganzjährig kühl, da die Quellen durch unterirdische Grundwasserleiter gespeist werden und nicht nur von saisonalen Regenfällen abhängen — eine der wenigen zuverlässigen Wasserwanderungen im Sommer.
 
@@ -133,7 +133,7 @@ Da der Weg linear ist, organisieren die meisten Wanderer ein Auto-Shuttle zwisch
 
 Dies ist eher eine Canyonwanderung und Fotografie-Destination als ein Schwimmloch — Wasserstände im Kanal sind variabel, und Watpassagen sind flach und beiläufig statt der Hauptattraktion. Die Belohnung ist die Landschaft: Die Schlucht gehört zu den visuell beeindruckendsten Wanderungen Israels.
 
-**Praktische Tipps:** Die gesamte Schlucht ist 14 km einfach und erfordert ein Auto-Shuttle. Die meisten Besucher machen eine kürzere Hin- und Rücktour vom Eingang Ein Prat (Wadi Qelt). Der Standort liegt bei Jericho im Westjordanland — prüfen Sie [aktuelle Einreisehinweise](/is-israel-safe) und Reisewarnungen vor dem Besuch; das Reservat selbst liegt in Zone C und ist für internationale Besucher zugänglich, aber der Straßenzugang führt nahe an Gebieten der Palästinensischen Autonomiebehörde vorbei. Im Zweifelsfall einen lokalen Guide engagieren.
+**Praktische Tipps:** Die gesamte Schlucht ist 14 km einfach und erfordert ein Auto-Shuttle. Die meisten Besucher machen eine kürzere Hin- und Rücktour vom Eingang Ein Prat (Wadi Qelt). Der Standort liegt bei Jericho im Westjordanland — prüfen Sie [aktuelle Einreisehinweise](/de/is-israel-safe) und Reisewarnungen vor dem Besuch; das Reservat selbst liegt in Zone C und ist für internationale Besucher zugänglich, aber der Straßenzugang führt nahe an Gebieten der Palästinensischen Autonomiebehörde vorbei. Im Zweifelsfall einen lokalen Guide engagieren.
 
 ---
 
@@ -148,7 +148,7 @@ Banias ist kein Wate- oder Schwimmstandort — es ist ein spektakulärer Wasserf
 
 Kombinieren Sie Banias mit der benachbarten **Nimrod-Festung** (Mamluk-Kreuzritter-Burg mit Golan-Panorama) für einen vollen Tag im nördlichen Golan.
 
-**Praktische Tipps:** Der Wasserfall-Weg (4 km Hin- und Rückweg) hat einige steile Abschnitte; die kürzere Quellenrunde (2 km) ist für die meisten Fitnessniveaus zugänglich. Der Standort liegt nahe der libanesischen Grenze auf den Golanhöhen — prüfen Sie [is-israel-safe](/is-israel-safe) für aktuelle Gebietshinweise.
+**Praktische Tipps:** Der Wasserfall-Weg (4 km Hin- und Rückweg) hat einige steile Abschnitte; die kürzere Quellenrunde (2 km) ist für die meisten Fitnessniveaus zugänglich. Der Standort liegt nahe der libanesischen Grenze auf den Golanhöhen — prüfen Sie [is-israel-safe](/de/is-israel-safe) für aktuelle Gebietshinweise.
 
 ---
 

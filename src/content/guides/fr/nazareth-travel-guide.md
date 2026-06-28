@@ -75,10 +75,10 @@ Nazareth est à **90 km de Tel Aviv** (75–90 min en voiture, autoroute 6 puis 
 
 ## Combiner avec les environs
 
-Nazareth s'inscrit naturellement dans un circuit du nord : une nuit à Tibériade donne accès à la [mer de Galilée](/galilee), Capharnaüm et le Mont des Béatitudes. [Safed](/safed-tzfat-guide) est à 45 minutes au nord-est pour un dépaysement total dans la cité kabbalistique. [Akko](/akko-acre-guide) est à 50 minutes au nord-ouest pour une journée côte croisée.
+Nazareth s'inscrit naturellement dans un circuit du nord : une nuit à Tibériade donne accès à la [mer de Galilée](/galilee), Capharnaüm et le Mont des Béatitudes. [Safed](/fr/safed-tzfat-guide) est à 45 minutes au nord-est pour un dépaysement total dans la cité kabbalistique. [Akko](/fr/akko-acre-guide) est à 50 minutes au nord-ouest pour une journée côte croisée.
 
 ## Liens utiles
 
 - [Galilée — guide régional](/galilee)
-- [Pèlerinage chrétien en Terre Sainte](/christian-pilgrimage-holy-land)
-- [Excursions depuis Tel Aviv](/day-trips-from-tel-aviv)
+- [Pèlerinage chrétien en Terre Sainte](/fr/christian-pilgrimage-holy-land)
+- [Excursions depuis Tel Aviv](/fr/day-trips-from-tel-aviv)

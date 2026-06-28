@@ -82,11 +82,11 @@ Akko possède l'une des meilleures scènes de fruits de mer d'Israël. Les adres
 - **Haïfa** (25 min au sud) : jardins bahá'ís en terrasses, quartier Wadi Nisnas et marché du samedi — combinaison classique de la journée côte nord.
 - **Rosh HaNikra** (30 min au nord) : les grottes marines à la frontière libanaise, idéal pour une fin d'après-midi spectaculaire.
 - **Nahal Kziv** : randonnée dans le wadi boisé entre Akko et les collines de Galilée occidentale.
-- **Césarée** (55 min au sud) : en voiture, la côte entière entre Akko et Césarée peut se faire en une longue journée. Voir le [guide de Césarée](/caesarea-guide).
+- **Césarée** (55 min au sud) : en voiture, la côte entière entre Akko et Césarée peut se faire en une longue journée. Voir le [guide de Césarée](/fr/caesarea-guide).
 
 ## Liens utiles
 
 - [Galilée — guide régional](/galilee)
-- [Guide de Césarée](/caesarea-guide)
-- [Excursions depuis Tel Aviv](/day-trips-from-tel-aviv)
-- [Location de voiture en Israël](/car-rental-israel)
+- [Guide de Césarée](/fr/caesarea-guide)
+- [Excursions depuis Tel Aviv](/fr/day-trips-from-tel-aviv)
+- [Location de voiture en Israël](/fr/car-rental-israel)

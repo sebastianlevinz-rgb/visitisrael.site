@@ -39,7 +39,7 @@ faqs:
     answer: "Die meisten schon. Bethlehem und die Geburtskirche liegen etwa 10 km südlich von Jerusalem im Westjordanland, und fast jedes christliche Programm schließt es als Halbtag ein. Da Standard-Mietwagen für die Zone A nicht versichert sind, ist eine geführte Tour oder ein lizenzierter Ortsführer der einfachste Weg für einen Besuch — bringen Sie Ihren Reisepass für den Checkpoint mit."
 ---
 
-„Heilig-Land-Tour" umfasst alles von einer 12-tägigen Kirchenwall­fahrt bis zu einem einzigen geführten Morgen in Bethlehem — die eigentliche Frage ist daher nicht *welche Tour die beste ist*, sondern *welche Art zu Ihrer Reise passt*. Dieser Leitfaden vergleicht die wichtigsten Optionen, was jede kostet und wo man bucht, damit Sie das Format auf Ihre Glaubenstradition, Ihre Gruppe und Ihre Zeit abstimmen können. Für die Stätten selbst und deren Zusammenstellung lesen Sie unseren [Planungsführer für christliche Pilgerreisen](/christian-pilgrimage-holy-land).
+„Heilig-Land-Tour" umfasst alles von einer 12-tägigen Kirchenwall­fahrt bis zu einem einzigen geführten Morgen in Bethlehem — die eigentliche Frage ist daher nicht *welche Tour die beste ist*, sondern *welche Art zu Ihrer Reise passt*. Dieser Leitfaden vergleicht die wichtigsten Optionen, was jede kostet und wo man bucht, damit Sie das Format auf Ihre Glaubenstradition, Ihre Gruppe und Ihre Zeit abstimmen können. Für die Stätten selbst und deren Zusammenstellung lesen Sie unseren [Planungsführer für christliche Pilgerreisen](/de/christian-pilgrimage-holy-land).
 
 ## Die Heilig-Land-Tour-Optionen im Vergleich
 
@@ -64,8 +64,8 @@ Ein **privater Reiseführer und Fahrer** gibt Ihnen die Kontrolle über den Reis
 
 Sie reisen unabhängig? Sie können die [Galiläa](/galilee) und den Norden mit einem [Mietwagen](/de/car-rental-israel) selbst erkunden und **Tagesausflüge** für die komplizierteren Teile hinzubuchen:
 
-- **[Jerusalem und Bethlehem](/jerusalem-bethlehem-day-trip)** — die heiligen Stätten der Altstadt und die Geburtskirche, mit dem für Sie verwalteten Checkpoint.
-- **[Nazareth und der See Genezareth](/nazareth-sea-of-galilee-day-trip)** — Kafarnaum, der Berg der Seligpreisungen und die Seeufer an einem geführten Tag.
+- **[Jerusalem und Bethlehem](/de/jerusalem-bethlehem-day-trip)** — die heiligen Stätten der Altstadt und die Geburtskirche, mit dem für Sie verwalteten Checkpoint.
+- **[Nazareth und der See Genezareth](/de/nazareth-sea-of-galilee-day-trip)** — Kafarnaum, der Berg der Seligpreisungen und die Seeufer an einem geführten Tag.
 - **Eine [Stadtführung durch Jerusalems Altstadt](/de/best-tours-in-israel)** — die vier Viertel, das Heilige Grab und die Via Dolorosa mit einem Guide.
 
 Tagesausflüge kosten in der Regel **90–150 $ pro Person** und sind die flexibelste, unverbindlichste Art, dort Expertenwissen zu gewinnen, wo es am meisten zählt.
@@ -83,4 +83,4 @@ Tagesausflüge kosten in der Regel **90–150 $ pro Person** und sind die flexib
 - **Reisepass mitbringen** für Bethlehem und jeden Zwischenstopp im Westjordanland, und **bescheiden kleiden** in jedem Heiligtum — siehe unseren [Kleidungs- und Verhaltensratgeber](/de/holy-sites-dress-code-etiquette).
 - **Beachten Sie [Schabbat](/de/shabbat-guide)** und christliche und muslimische Feiertage, wenn sich Öffnungszeiten und Verkehrsverbindungen ändern.
 
-Bereit für die Reiseroutenplanung? Unser [christlicher Pilgerführer](/christian-pilgrimage-holy-land) kartiert den vollständigen Heilig-Land-Rundkurs, und die [7- und 10-Tage-Reiserouten](/itineraries) sequenzieren ihn Tag für Tag. Klären Sie die Praktisches mit einer [eSIM](/israel-esim), einer [Reiseversicherung](/de/israel-travel-insurance) und Ihrem [Flughafentransfer](/ben-gurion-airport-transfers) vor dem Abflug.
+Bereit für die Reiseroutenplanung? Unser [christlicher Pilgerführer](/de/christian-pilgrimage-holy-land) kartiert den vollständigen Heilig-Land-Rundkurs, und die [7- und 10-Tage-Reiserouten](/itineraries) sequenzieren ihn Tag für Tag. Klären Sie die Praktisches mit einer [eSIM](/israel-esim), einer [Reiseversicherung](/de/israel-travel-insurance) und Ihrem [Flughafentransfer](/ben-gurion-airport-transfers) vor dem Abflug.

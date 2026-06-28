@@ -23,11 +23,11 @@ Für einen ersten Besuch sollten Sie **eine Woche** einplanen. Eine klassische R
 
 ## Ankunft: Flughafen und Mobilität
 
-Fast alle Besucher landen am **Ben-Gurion-Flughafen (TLV)** in der Nähe von Tel Aviv. Prüfen Sie vor dem Abflug die Einreisebedingungen: Die meisten visumbefreiten Reisenden benötigen jetzt eine **[ETA-IL-Einreisegenehmigung](/de/visa-information)** (ein schneller, kostengünstiger Online-Schritt) vor dem Einsteigen. Vom Flughafen erreicht ein günstiger **Zug** das Stadtzentrum von Tel Aviv in etwa 20 Minuten und Jerusalem in ca. 30 Minuten. Geteilte **Sherut-Taxis** fahren rund um die Uhr, auch am Schabbat, wenn die Züge ruhen. Im Land verbindet ein Intercity-Zug- und Busnetz die wichtigsten Städte; die **Rav-Kav-Karte** gilt für alle öffentlichen Verkehrsmittel. Alle Details finden Sie in unserem [Reiseführer Verkehr & Transport](/transportation).
+Fast alle Besucher landen am **Ben-Gurion-Flughafen (TLV)** in der Nähe von Tel Aviv. Prüfen Sie vor dem Abflug die Einreisebedingungen: Die meisten visumbefreiten Reisenden benötigen jetzt eine **[ETA-IL-Einreisegenehmigung](/de/visa-information)** (ein schneller, kostengünstiger Online-Schritt) vor dem Einsteigen. Vom Flughafen erreicht ein günstiger **Zug** das Stadtzentrum von Tel Aviv in etwa 20 Minuten und Jerusalem in ca. 30 Minuten. Geteilte **Sherut-Taxis** fahren rund um die Uhr, auch am Schabbat, wenn die Züge ruhen. Im Land verbindet ein Intercity-Zug- und Busnetz die wichtigsten Städte; die **Rav-Kav-Karte** gilt für alle öffentlichen Verkehrsmittel. Alle Details finden Sie in unserem [Reiseführer Verkehr & Transport](/de/transportation).
 
 ## Das Wichtigste: der Schabbat
 
-Vom Freitagabend bis Samstagabend verlangsamt der **Schabbat** das Leben in jüdischen Stadtteilen: Der öffentliche Nahverkehr stellt den Betrieb ein, und viele jüdische Geschäfte und Restaurants schließen. Tel Aviv bleibt relativ lebhaft, arabische und christliche Viertel laufen normal, und Touristenattraktionen in den christlichen und muslimischen Vierteln der Altstadt sind geöffnet. Planen Sie einen ruhigen Freitagabend und Samstag ein, und lesen Sie unseren [Schabbat-Ratgeber](/shabbat-guide) vor der Reise.
+Vom Freitagabend bis Samstagabend verlangsamt der **Schabbat** das Leben in jüdischen Stadtteilen: Der öffentliche Nahverkehr stellt den Betrieb ein, und viele jüdische Geschäfte und Restaurants schließen. Tel Aviv bleibt relativ lebhaft, arabische und christliche Viertel laufen normal, und Touristenattraktionen in den christlichen und muslimischen Vierteln der Altstadt sind geöffnet. Planen Sie einen ruhigen Freitagabend und Samstag ein, und lesen Sie unseren [Schabbat-Ratgeber](/de/shabbat-guide) vor der Reise.
 
 ## Geld, Konnektivität und Gepäck
 
@@ -35,8 +35,8 @@ Die Währung ist der **Schekel**; Kartenzahlungen funktionieren fast überall, f
 
 ## Sicherheit
 
-Israel ist ein sehr häufig besuchtes und gut organisiertes Reiseziel, und die meisten Aufenthalte verlaufen problemlos. Die praktischen Aspekte behandeln wir ehrlich in [Ist Israel sicher?](/is-israel-safe). Informieren Sie sich vor der Abreise über die aktuellen Reisehinweise Ihrer Regierung, führen Sie Ihren Reisepass mit sich, und Sie werden feststellen, dass der Alltag weit ruhiger ist, als die Schlagzeilen vermuten lassen.
+Israel ist ein sehr häufig besuchtes und gut organisiertes Reiseziel, und die meisten Aufenthalte verlaufen problemlos. Die praktischen Aspekte behandeln wir ehrlich in [Ist Israel sicher?](/de/is-israel-safe). Informieren Sie sich vor der Abreise über die aktuellen Reisehinweise Ihrer Regierung, führen Sie Ihren Reisepass mit sich, und Sie werden feststellen, dass der Alltag weit ruhiger ist, als die Schlagzeilen vermuten lassen.
 
 ## Nächste Schritte
 
-Entdecken Sie die [11 Regionen](/), wählen Sie eine [Unterkunft](/jerusalem#where-to-stay) und kalkulieren Sie Ihr Budget mit unserem [Ratgeber zu Reisekosten](/israel-cost-budget).
+Entdecken Sie die [11 Regionen](/), wählen Sie eine [Unterkunft](/jerusalem#where-to-stay) und kalkulieren Sie Ihr Budget mit unserem [Ratgeber zu Reisekosten](/de/israel-cost-budget).

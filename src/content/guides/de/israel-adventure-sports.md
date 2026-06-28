@@ -162,7 +162,7 @@ Israel hat wachsende dedizierte Infrastruktur für Rennradfahren und Trail-MTB:
 
 - **Golan-MTB-Trails** — Singletrack durch vulkanisches Basaltgelände, fordernde Anstiege und technische Abfahrten; Katzrin ist der Hub für Routenkarten und Fahrradverleih.
 - **Negev-Trail-Riding** — technisches Wüsten-MTB in den Eilat-Bergen und rund um den Ramon-Krater; Routen für alle Niveaus.
-- **Tel-Aviv-Fahrradkultur** — 150 km dedizierter Stadtspuren und der 38-km-Yarkon-Fluss-Weg eignen sich besser für E-Bikes und Cruiser als für MTB; siehe den Fahrradabschnitt in unserem [Transportreiseführer](/transportation) für Bike-Share-Logistik.
+- **Tel-Aviv-Fahrradkultur** — 150 km dedizierter Stadtspuren und der 38-km-Yarkon-Fluss-Weg eignen sich besser für E-Bikes und Cruiser als für MTB; siehe den Fahrradabschnitt in unserem [Transportreiseführer](/de/transportation) für Bike-Share-Logistik.
 
 ---
 
@@ -182,4 +182,4 @@ Israel hat wachsende dedizierte Infrastruktur für Rennradfahren und Trail-MTB:
 
 Für jede Wüstenaktivität ausreichend Wasser mitbringen — die israelische Wüstenhitze und Trockenluft dehydrieren schneller als die meisten Besucher erwarten. Mindestens 1,5–2 Liter pro Person für einen halbstündigen Outdoor-Ausflug mitführen, mehr für ganztägige Wüstentouren.
 
-Vollständige Wanderrouten einschließlich des Israelischen Nationaltrails und des Jesus Trails finden Sie in unserem [Israel-Wanderreiseführer](/hiking-in-israel).
+Vollständige Wanderrouten einschließlich des Israelischen Nationaltrails und des Jesus Trails finden Sie in unserem [Israel-Wanderreiseführer](/de/hiking-in-israel).

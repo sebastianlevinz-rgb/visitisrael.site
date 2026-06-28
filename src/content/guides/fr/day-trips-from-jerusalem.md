@@ -54,8 +54,8 @@ faqs:
 
 ## Comment s'organiser
 
-Pour les excursions dans le désert, un **circuit guidé** (ci-dessus) règle toute la logistique — notamment le départ avant l'aube pour Masada. Pour Tel Aviv, prenez simplement le **[train](/fr/transportation)**. Si vous souhaitez enchaîner plusieurs excursions en toute liberté, envisagez de **[louer une voiture](/car-rental-israel)** quelques jours.
+Pour les excursions dans le désert, un **circuit guidé** (ci-dessus) règle toute la logistique — notamment le départ avant l'aube pour Masada. Pour Tel Aviv, prenez simplement le **[train](/fr/transportation)**. Si vous souhaitez enchaîner plusieurs excursions en toute liberté, envisagez de **[louer une voiture](/fr/car-rental-israel)** quelques jours.
 
 ## Planifiez votre séjour
 
-Consultez le [guide complet de Jérusalem](/jerusalem) et l'[itinéraire de 3 jours à Jérusalem](/itineraries/3-days-in-jerusalem). Vous partez plutôt de Tel Aviv ? Découvrez les [excursions depuis Tel Aviv](/fr/day-trips-from-tel-aviv). Parcourez aussi tous les [circuits et excursions](/best-tours-in-israel) ou optez pour un [séjour multi-jours](/israel-tour-packages).
+Consultez le [guide complet de Jérusalem](/jerusalem) et l'[itinéraire de 3 jours à Jérusalem](/itineraries/3-days-in-jerusalem). Vous partez plutôt de Tel Aviv ? Découvrez les [excursions depuis Tel Aviv](/fr/day-trips-from-tel-aviv). Parcourez aussi tous les [circuits et excursions](/fr/best-tours-in-israel) ou optez pour un [séjour multi-jours](/israel-tour-packages).

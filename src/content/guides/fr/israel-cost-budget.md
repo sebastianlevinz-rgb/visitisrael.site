@@ -27,7 +27,7 @@ Israël n'est pas une destination bon marché — ses coûts se rapprochent dava
 
 **La nourriture** varie largement : un déjeuner au marché ou un falafel/houmous coûte quelques dollars, un repas dans un restaurant casual 15–25 $, et un dîner haut de gamme 60 $ et plus. Les marchés comme [Mahané Yehouda](/jerusalem/mahane-yehuda) et le [Marché du Carmel](/tel-aviv/carmel-market) sont à la fois une expérience et une façon d'économiser.
 
-**Les transports** sont bon marché. Les tarifs de train et de bus interurbains sont modestes avec une [Rav-Kav](/transportation) ; le train aéroport-ville ne coûte que quelques dollars. La location de voiture revient plus cher une fois l'essence et le stationnement inclus.
+**Les transports** sont bon marché. Les tarifs de train et de bus interurbains sont modestes avec une [Rav-Kav](/fr/transportation) ; le train aéroport-ville ne coûte que quelques dollars. La location de voiture revient plus cher une fois l'essence et le stationnement inclus.
 
 **Les visites et excursions** varient. Le [Mur des Lamentations](/jerusalem/western-wall) et de nombreux points de vue sont gratuits ; les parcs nationaux et les musées facturent des droits d'entrée raisonnables ; les excursions guidées d'une journée coûtent généralement 40–120 $, et l'excursion à Petra depuis Eilat est une expérience premium à 200 $ et plus.
 

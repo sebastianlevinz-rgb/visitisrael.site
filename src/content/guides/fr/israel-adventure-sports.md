@@ -162,7 +162,7 @@ Israël dispose d'une infrastructure croissante pour le cyclisme sur route et le
 
 - **Pistes VTT des hauteurs du Golan** — singletrack sur terrain volcanique de basalte, montées exigeantes et descentes techniques ; Katzrin est le hub pour les cartes d'itinéraires et la location de vélos.
 - **VTT dans le Néguev** — VTT de désert technique dans les montagnes d'Eilat et autour du cratère de Ramon ; itinéraires pour tous niveaux.
-- **Culture cycliste de Tel-Aviv** — 150 km de voies dédiées en ville et la piste de 38 km le long de la rivière Yarkon conviennent mieux aux vélos électriques et aux cruisers qu'au VTT ; consultez la section cyclisme de notre [guide des transports](/transportation) pour la logistique du vélo en libre-service.
+- **Culture cycliste de Tel-Aviv** — 150 km de voies dédiées en ville et la piste de 38 km le long de la rivière Yarkon conviennent mieux aux vélos électriques et aux cruisers qu'au VTT ; consultez la section cyclisme de notre [guide des transports](/fr/transportation) pour la logistique du vélo en libre-service.
 
 ---
 
@@ -182,4 +182,4 @@ Israël dispose d'une infrastructure croissante pour le cyclisme sur route et le
 
 Emportez suffisamment d'eau pour toute activité dans le désert — la chaleur et l'air sec du désert israélien déshydratent plus vite que la plupart des visiteurs ne le pensent. Emportez au moins 1,5 à 2 litres par personne pour une excursion de plein air d'une demi-journée, et davantage pour les sorties désertiques d'une journée entière.
 
-Pour les itinéraires complets de randonnée, y compris le Sentier National d'Israël et le Jesus Trail, consultez notre [guide de randonnée en Israël](/hiking-in-israel).
+Pour les itinéraires complets de randonnée, y compris le Sentier National d'Israël et le Jesus Trail, consultez notre [guide de randonnée en Israël](/fr/hiking-in-israel).

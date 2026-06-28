@@ -53,8 +53,8 @@ faqs:
 
 ## Planung und Organisation
 
-Nach Jerusalem fahren Sie einfach mit dem **[Zug](/de/transportation)** — schnell, günstig und häufig. Für die Küste und die Wüste bündelt eine **geführte Tagestour** (oben) Fahrt und Sehenswürdigkeiten. Planen Sie mehrere weit entfernte Ausflüge? **[Mieten Sie ein Auto](/car-rental-israel)** für ein oder zwei Tage.
+Nach Jerusalem fahren Sie einfach mit dem **[Zug](/de/transportation)** — schnell, günstig und häufig. Für die Küste und die Wüste bündelt eine **geführte Tagestour** (oben) Fahrt und Sehenswürdigkeiten. Planen Sie mehrere weit entfernte Ausflüge? **[Mieten Sie ein Auto](/de/car-rental-israel)** für ein oder zwei Tage.
 
 ## Ihre Reise planen
 
-Entdecken Sie den vollständigen [Tel Aviv-Reiseführer](/tel-aviv) und unsere [Reiserouten](/itineraries). Stattdessen in der Heiligen Stadt? Sehen Sie sich die [Tagesausflüge von Jerusalem](/de/day-trips-from-jerusalem) an. Stöbern Sie auch in allen [Touren und Ausflügen](/best-tours-in-israel) oder buchen Sie ein [mehrtägiges Reisepaket](/israel-tour-packages).
+Entdecken Sie den vollständigen [Tel Aviv-Reiseführer](/tel-aviv) und unsere [Reiserouten](/itineraries). Stattdessen in der Heiligen Stadt? Sehen Sie sich die [Tagesausflüge von Jerusalem](/de/day-trips-from-jerusalem) an. Stöbern Sie auch in allen [Touren und Ausflügen](/de/best-tours-in-israel) oder buchen Sie ein [mehrtägiges Reisepaket](/israel-tour-packages).

@@ -90,7 +90,7 @@ Un guide privé rend la vieille ville bien plus agréable — il connaît les ru
 
 ### Césarée — l'un des parcs archéologiques les plus accessibles
 
-[Césarée](/caesarea), l'ancienne cité portuaire construite par Hérode le Grand, dispose d'allées pavées bien entretenues à travers son théâtre romain, ses fortifications croisées et ses ruines du port hérodien — principalement plat, avec une bonne couverture d'ombre le matin. Elle fonctionne bien comme demi-journée de visite matinale lors d'un trajet Tel Aviv → nord d'Israël. Le [Billet national des parcs d'Israël](/israel-national-parks-pass) couvre l'entrée.
+[Césarée](/caesarea), l'ancienne cité portuaire construite par Hérode le Grand, dispose d'allées pavées bien entretenues à travers son théâtre romain, ses fortifications croisées et ses ruines du port hérodien — principalement plat, avec une bonne couverture d'ombre le matin. Elle fonctionne bien comme demi-journée de visite matinale lors d'un trajet Tel Aviv → nord d'Israël. Le [Billet national des parcs d'Israël](/fr/israel-national-parks-pass) couvre l'entrée.
 
 ### Galilée — excursion en bateau et points de vue
 
@@ -121,13 +121,13 @@ Un circuit accompagné en petit groupe bien rythmé de 7 jours couvre générale
 - Un itinéraire ajusté à votre rythme physique du jour
 - Un véhicule climatisé disponible à tout moment
 - Le jugement du guide sur quand pousser et quand se reposer
-- Un focus personnalisé : [pèlerinage chrétien](/christian-pilgrimage-holy-land), [patrimoine juif](/jewish-heritage-israel), archéologie, gastronomie — ce qui vous importe le plus
+- Un focus personnalisé : [pèlerinage chrétien](/fr/christian-pilgrimage-holy-land), [patrimoine juif](/jewish-heritage-israel), archéologie, gastronomie — ce qui vous importe le plus
 
 Abraham Tours et la plupart des agences basées à Jérusalem organisent des expériences guidées privées à la journée. Comparez les tarifs directement avec les opérateurs.
 
 ### Voyage indépendant
 
-Israël est gérable pour les seniors voyageant de façon indépendante en voiture. [Conduire en Israël](/driving-in-israel) se fait à droite ; les [voitures de location](/fr/car-rental-israel) sont disponibles auprès des grandes sociétés internationales à l'aéroport Ben Gourion. Le réseau de bus interurbains est bon mais comporte une signalétique en hébreu et des files de sécurité — gérable, mais plus fatigant qu'un véhicule privé. Les transferts aéroport privés vers votre premier hôtel sont fortement recommandés pour un début de voyage reposant ; voir le [guide des transferts aéroport](/ben-gurion-airport-transfers).
+Israël est gérable pour les seniors voyageant de façon indépendante en voiture. [Conduire en Israël](/fr/driving-in-israel) se fait à droite ; les [voitures de location](/fr/car-rental-israel) sont disponibles auprès des grandes sociétés internationales à l'aéroport Ben Gourion. Le réseau de bus interurbains est bon mais comporte une signalétique en hébreu et des files de sécurité — gérable, mais plus fatigant qu'un véhicule privé. Les transferts aéroport privés vers votre premier hôtel sont fortement recommandés pour un début de voyage reposant ; voir le [guide des transferts aéroport](/ben-gurion-airport-transfers).
 
 ---
 
@@ -149,12 +149,12 @@ Israël est gérable pour les seniors voyageant de façon indépendante en voitu
 
 - **Chaussures de marche avec adhérence** — l'article le plus important, pas des sandales
 - **Superpositions :** les matins de printemps et d'automne peuvent être frais (10–15 °C) ; les après-midi chauds (22–28 °C)
-- **Vêtements modestes :** requis au Mur occidental, dans les églises et les sites religieux (épaules et genoux couverts) ; voir le [guide du code vestimentaire](/holy-sites-dress-code-etiquette)
+- **Vêtements modestes :** requis au Mur occidental, dans les églises et les sites religieux (épaules et genoux couverts) ; voir le [guide du code vestimentaire](/fr/holy-sites-dress-code-etiquette)
 - **Protection solaire :** chapeau, crème solaire SPF50+, lunettes de soleil anti-UV
 - **Canne ou bâtons de randonnée :** facultatifs mais précieux pour la vieille ville et le terrain rocheux
 
 ---
 
-Utilisez le [calculateur de coût de voyage](/israel-trip-cost-calculator) pour budgétiser votre voyage et le [guide du nombre de jours](/fr/israel-5-vs-7-vs-10-days) pour décider de la durée. Pour les itinéraires de patrimoine chrétien, voir le [guide de pèlerinage en Terre Sainte](/christian-pilgrimage-holy-land) ; pour le patrimoine juif, voir le [guide du patrimoine juif](/jewish-heritage-israel).
+Utilisez le [calculateur de coût de voyage](/israel-trip-cost-calculator) pour budgétiser votre voyage et le [guide du nombre de jours](/fr/israel-5-vs-7-vs-10-days) pour décider de la durée. Pour les itinéraires de patrimoine chrétien, voir le [guide de pèlerinage en Terre Sainte](/fr/christian-pilgrimage-holy-land) ; pour le patrimoine juif, voir le [guide du patrimoine juif](/jewish-heritage-israel).
 
 Voir aussi : [Premier voyage en Israël](/fr/first-time-in-israel) · [Meilleure période pour visiter](/fr/best-time-to-visit-israel) · [Mer Morte](/dead-sea) · [Jérusalem](/jerusalem) · [Masada](/dead-sea/masada) · [Césarée](/caesarea)

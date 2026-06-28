@@ -81,7 +81,7 @@ Yardenit est géré par le kibboutz Kinneret et ouvre généralement du dimanche
 
 ### Comment cela s'intègre dans votre voyage
 
-Yardenit est le choix évident si votre itinéraire est centré sur la **[Galilée](/galilee)** — il s'inscrit naturellement dans un circuit chrétien avec [Nazareth](/nazareth), [Capharnaüm](/galilee/capernaum), le [mont des Béatitudes](/galilee/mount-of-beatitudes) et Tabgha. La plupart des [excursions en Galilée depuis Tel Aviv ou Jerusalem](/nazareth-sea-of-galilee-day-trip) l'incluent comme dernière étape.
+Yardenit est le choix évident si votre itinéraire est centré sur la **[Galilée](/galilee)** — il s'inscrit naturellement dans un circuit chrétien avec [Nazareth](/nazareth), [Capharnaüm](/galilee/capernaum), le [mont des Béatitudes](/galilee/mount-of-beatitudes) et Tabgha. La plupart des [excursions en Galilée depuis Tel Aviv ou Jerusalem](/fr/nazareth-sea-of-galilee-day-trip) l'incluent comme dernière étape.
 
 ---
 
@@ -103,7 +103,7 @@ L'entrée est gratuite. Vérifiez les horaires actuels et d'éventuelles notes d
 
 ### Comment cela s'intègre dans votre voyage
 
-Qasr el-Yahud se combine naturellement avec une journée à la **[mer Morte](/dead-sea-guide)** et **[Masada](/masada-dead-sea-day-trip)**, ou avec une visite à Jéricho. Depuis Jerusalem, le trajet vers l'est jusqu'à Jéricho puis vers le sud jusqu'au fleuve prend environ 45–50 minutes. Le site n'est pas bien desservi par les transports publics ; venez en voiture ou dans le cadre d'une visite organisée couvrant la vallée du Jourdain.
+Qasr el-Yahud se combine naturellement avec une journée à la **[mer Morte](/fr/dead-sea-guide)** et **[Masada](/fr/masada-dead-sea-day-trip)**, ou avec une visite à Jéricho. Depuis Jerusalem, le trajet vers l'est jusqu'à Jéricho puis vers le sud jusqu'au fleuve prend environ 45–50 minutes. Le site n'est pas bien desservi par les transports publics ; venez en voiture ou dans le cadre d'une visite organisée couvrant la vallée du Jourdain.
 
 ---
 
@@ -153,4 +153,4 @@ La photographie dans les zones aquatiques est généralement autorisée. **Ne ph
 
 ## Planifier votre pèlerinage plus large
 
-Les sites de baptême du Jourdain s'inscrivent dans le circuit plus large décrit dans notre [guide du pèlerinage chrétien](/christian-pilgrimage-holy-land), qui couvre Jerusalem, Bethléem, Nazareth et la mer de Galilée en intégralité. Si vous combinez l'[excursion en Galilée](/nazareth-sea-of-galilee-day-trip) avec la [mer Morte](/dead-sea-guide) et Masada, notre [guide de l'excursion Masada & mer Morte](/masada-dead-sea-day-trip) trace l'itinéraire de la vallée du Jourdain sud. Pour un panorama plus large de ce qu'il y a à voir et à faire dans cette partie d'Israël, le [guide de la région Galilée](/galilee) couvre tout le nord.
+Les sites de baptême du Jourdain s'inscrivent dans le circuit plus large décrit dans notre [guide du pèlerinage chrétien](/fr/christian-pilgrimage-holy-land), qui couvre Jerusalem, Bethléem, Nazareth et la mer de Galilée en intégralité. Si vous combinez l'[excursion en Galilée](/fr/nazareth-sea-of-galilee-day-trip) avec la [mer Morte](/fr/dead-sea-guide) et Masada, notre [guide de l'excursion Masada & mer Morte](/fr/masada-dead-sea-day-trip) trace l'itinéraire de la vallée du Jourdain sud. Pour un panorama plus large de ce qu'il y a à voir et à faire dans cette partie d'Israël, le [guide de la région Galilée](/galilee) couvre tout le nord.

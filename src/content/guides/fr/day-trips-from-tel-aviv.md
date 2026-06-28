@@ -53,8 +53,8 @@ faqs:
 
 ## Comment s'organiser
 
-Pour Jérusalem, prenez simplement le **[train](/fr/transportation)** — rapide, bon marché et fréquent. Pour la côte et le désert, un **circuit guidé** (ci-dessus) regroupe le trajet et les sites à visiter. Vous prévoyez plusieurs excursions vers des lieux éloignés ? **[Louez une voiture](/car-rental-israel)** pour un jour ou deux.
+Pour Jérusalem, prenez simplement le **[train](/fr/transportation)** — rapide, bon marché et fréquent. Pour la côte et le désert, un **circuit guidé** (ci-dessus) regroupe le trajet et les sites à visiter. Vous prévoyez plusieurs excursions vers des lieux éloignés ? **[Louez une voiture](/fr/car-rental-israel)** pour un jour ou deux.
 
 ## Planifiez votre séjour
 
-Consultez le [guide complet de Tel Aviv](/tel-aviv) et nos [itinéraires](/itineraries). Vous séjournez plutôt dans la ville sainte ? Découvrez les [excursions depuis Jérusalem](/fr/day-trips-from-jerusalem). Parcourez aussi tous les [circuits et excursions](/best-tours-in-israel) ou optez pour un [séjour multi-jours](/israel-tour-packages).
+Consultez le [guide complet de Tel Aviv](/tel-aviv) et nos [itinéraires](/itineraries). Vous séjournez plutôt dans la ville sainte ? Découvrez les [excursions depuis Jérusalem](/fr/day-trips-from-jerusalem). Parcourez aussi tous les [circuits et excursions](/fr/best-tours-in-israel) ou optez pour un [séjour multi-jours](/israel-tour-packages).

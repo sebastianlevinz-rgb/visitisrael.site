@@ -76,7 +76,7 @@ Le **[Mur occidental](/jerusalem/western-wall)** est le premier choix de la majo
 
 **3 mois avant :**
 - Effectifs définitifs, régimes alimentaires, besoins de mobilité.
-- Souscrire une [assurance voyage](/israel-travel-insurance).
+- Souscrire une [assurance voyage](/fr/israel-travel-insurance).
 
 ---
 
@@ -130,7 +130,7 @@ Les coûts varient considérablement selon la taille de la famille, le niveau d'
 - **Hébergement à Jérusalem :** d'un hôtel 3 étoiles à des établissements 5 étoiles (Waldorf Astoria, King David) — vérifiez les tarifs actuels directement auprès des établissements.
 - **Cérémonie :** lecteur de Torah, coordination, location d'accessoires — votre opérateur fournira des estimations.
 - **ETA-IL :** ₪25 par personne au moment de la rédaction — vérifiez le montant et la procédure actuels sur le portail officiel.
-- **Droits d'entrée :** Yad Vashem (gratuit), Mur occidental (gratuit), Massada (payant), Israel Museum (payant) — voir notre [guide du passeport national des parcs](/israel-national-parks-pass).
+- **Droits d'entrée :** Yad Vashem (gratuit), Mur occidental (gratuit), Massada (payant), Israel Museum (payant) — voir notre [guide du passeport national des parcs](/fr/israel-national-parks-pass).
 
 Pour le budget global, consultez notre [guide des coûts et budget en Israël](/fr/israel-cost-budget).
 

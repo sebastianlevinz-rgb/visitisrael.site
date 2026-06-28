@@ -63,7 +63,7 @@ Fahren Sie ein ausländisches Fahrzeug nach Israel, registrieren und zahlen Sie 
 
 ## Navigation: Waze und Google Maps
 
-Beide funktionieren gut. Waze ist der lokale Favorit und wird in Echtzeit mit Polizeimeldungen, Straßensperrungen und Baustellen aktualisiert. Laden Sie Offline-Karten für Gebiete mit schlechter Abdeckung herunter (Teile des [Negev](/negev) und der [Golanhöhen](/golan) können den Empfang verlieren). Hinweis: Waze führt für Mietwagenfahrer mit Gebietseinschränkungen nicht immer optimal durch das [Westjordanland](/border-crossings) — halten Sie sich an Autobahn 1 und die Küstenstraße 2.
+Beide funktionieren gut. Waze ist der lokale Favorit und wird in Echtzeit mit Polizeimeldungen, Straßensperrungen und Baustellen aktualisiert. Laden Sie Offline-Karten für Gebiete mit schlechter Abdeckung herunter (Teile des [Negev](/negev) und der [Golanhöhen](/golan) können den Empfang verlieren). Hinweis: Waze führt für Mietwagenfahrer mit Gebietseinschränkungen nicht immer optimal durch das [Westjordanland](/de/border-crossings) — halten Sie sich an Autobahn 1 und die Küstenstraße 2.
 
 ## Parken: Erklärung der Bordsteinfarben
 
@@ -89,13 +89,13 @@ Mietwagenagenturen schließen jedoch oft Freitagmittag und öffnen erst Samstaga
 
 ## Jom Kippur: Auto parken
 
-An [Jom Kippur](/israel-events-festivals) hören fast alle Israelis von Sonnenuntergang bis zum Einbruch des folgenden Abends auf zu fahren — die Straßen leeren sich vollständig, und Radfahrer (einschließlich Kinder) nutzen alle Autobahnen. Als Tourist ist Fahren zwar legal, aber in den meisten Gemeinschaften äußerst respektlos und aufgrund von unerwarteten Fußgängern und Radfahrern auf der Fahrbahn gefährlich. **Parken Sie das Auto und gehen Sie zu Fuß**: Die autofreien Straßen sind eines der außergewöhnlichsten jährlichen Erlebnisse Israels.
+An [Jom Kippur](/de/israel-events-festivals) hören fast alle Israelis von Sonnenuntergang bis zum Einbruch des folgenden Abends auf zu fahren — die Straßen leeren sich vollständig, und Radfahrer (einschließlich Kinder) nutzen alle Autobahnen. Als Tourist ist Fahren zwar legal, aber in den meisten Gemeinschaften äußerst respektlos und aufgrund von unerwarteten Fußgängern und Radfahrern auf der Fahrbahn gefährlich. **Parken Sie das Auto und gehen Sie zu Fuß**: Die autofreien Straßen sind eines der außergewöhnlichsten jährlichen Erlebnisse Israels.
 
 ## Westjordanland und Grenzeinschränkungen
 
 Die meisten Mietverträge **verbieten die Einfahrt nach Jordanien** und können den Versicherungsschutz in der palästinensischen Autonomiebehörde Zone A (den Hauptstädten des Westjordanlandes) aufheben. Wenn Sie [Petra](/petra-from-israel) besuchen möchten, buchen Sie eine organisierte Tour ab [Eilat](/eilat) oder überqueren Sie unabhängig die Grenze und mieten ein separates jordanisches Fahrzeug — nehmen Sie den Mietwagen nicht mit. Den vollständigen Leitfaden zu [Grenzübergängen](/de/border-crossings) finden Sie in unserem Ratgeber.
 
-Wenn Sie in der Nähe von [Bethlehem](/jerusalem-bethlehem-day-trip) fahren, beachten Sie, dass die Einfahrt in Zone A (mit roten Warnschildern in Hebräisch, Arabisch und Englisch markiert) Ihre Mietwagenversicherung aufhebt. Die meisten Touristenstätten im Westjordanland (Geburtskirche in Bethlehem, Jericho) sind über koordinierte Touren erreichbar und nicht per Eigenfahrt.
+Wenn Sie in der Nähe von [Bethlehem](/de/jerusalem-bethlehem-day-trip) fahren, beachten Sie, dass die Einfahrt in Zone A (mit roten Warnschildern in Hebräisch, Arabisch und Englisch markiert) Ihre Mietwagenversicherung aufhebt. Die meisten Touristenstätten im Westjordanland (Geburtskirche in Bethlehem, Jericho) sind über koordinierte Touren erreichbar und nicht per Eigenfahrt.
 
 ## Wichtige Straßennummern
 

@@ -90,4 +90,4 @@ Ein bisschen Weitsicht hält Sie — buchstäblich — an jeder Tür bedeckt. Pa
 - **Spenden und Trinkgelder** in Kirchen und Schreinen sind willkommen, aber niemals verlangt.
 - **Fragen Sie vor dem Fotografieren von Personen**, besonders in religiöser Kleidung oder beim Beten.
 
-Planen Sie den Rest Ihrer Reise mit unserem [Erstbesuchs-Leitfaden für Israel](/de/first-time-in-israel) und, wenn Sie aus Glaubensgründen reisen, dem [Christlichen Pilgerleitfaden](/christian-pilgrimage-holy-land) — und Sie werden durch Israels heiligste Orte als rücksichtsvoller Gast, nicht als Tourist schlendern.
+Planen Sie den Rest Ihrer Reise mit unserem [Erstbesuchs-Leitfaden für Israel](/de/first-time-in-israel) und, wenn Sie aus Glaubensgründen reisen, dem [Christlichen Pilgerleitfaden](/de/christian-pilgrimage-holy-land) — und Sie werden durch Israels heiligste Orte als rücksichtsvoller Gast, nicht als Tourist schlendern.

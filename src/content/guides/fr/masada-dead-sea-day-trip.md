@@ -88,10 +88,10 @@ Prévoyez $20–40 de dépenses supplémentaires. Les visites privées (voiture 
 **Circuit guidé (recommandé)**
 La solution la plus simple : prise en charge à l'hôtel, transport aller-retour, guide anglophone ou francophone selon disponibilité. Vous n'avez à penser à rien.
 
-**En voiture** — [/car-rental-israel](/car-rental-israel)
+**En voiture** — [/car-rental-israel](/fr/car-rental-israel)
 Environ 90 minutes depuis Jerusalem en empruntant la Route 1 puis la Route 90 le long de la mer Morte. La Route 90 est un des axes routiers les plus spectaculaires d'Israël, avec des vues permanentes sur la mer Morte et les falaises de Judée. Stationnement disponible à Masada (payant).
 
-**En bus** — [/transportation](/transportation)
+**En bus** — [/transportation](/fr/transportation)
 Des bus Egged partent de la gare routière de Jerusalem. Les horaires sont serrés et coordonner Masada, Ein Gedi et la mer Morte en transport en commun demande une bonne organisation — cette option convient mieux aux voyageurs expérimentés disposant de temps.
 
 ## Ce qu'il faut emporter
@@ -121,8 +121,8 @@ Pour les familles avec enfants en bas âge ou les personnes à mobilité réduit
 ## Pour organiser la suite de votre séjour
 
 - [Comparatif des circuits Masada](/masada-tours-compared)
-- [Excursions depuis Jerusalem](/day-trips-from-jerusalem)
-- [Excursions depuis Tel Aviv](/day-trips-from-tel-aviv)
+- [Excursions depuis Jerusalem](/fr/day-trips-from-jerusalem)
+- [Excursions depuis Tel Aviv](/fr/day-trips-from-tel-aviv)
 - [mer Morte : côté israélien ou jordanien ?](/dead-sea-israel-vs-jordan)
-- [Les meilleures visites guidées en Israël](/best-tours-in-israel)
+- [Les meilleures visites guidées en Israël](/fr/best-tours-in-israel)
 - [Itinéraire 3 jours à Jerusalem](/itineraries/3-days-in-jerusalem)

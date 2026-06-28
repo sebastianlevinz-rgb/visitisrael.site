@@ -32,7 +32,7 @@ Les conseils distinguent généralement les régions. L'axe touristique principa
 - **Ayez votre passeport sur vous** ; vous passerez par des contrôles de sécurité sur les sites, dans les transports et dans les centres commerciaux — c'est une pratique courante.
 - **Familiarisez-vous avec le système d'alerte.** En cas de sirènes, suivez les personnes autour de vous vers l'espace abrité le plus proche ; les bâtiments publics disposent de pièces sécurisées.
 - **Utilisez des taxis agréés ou des applications**, et convenez du prix à l'avance ou veillez à ce que le compteur soit enclenché.
-- **Respectez les usages religieux et culturels**, en particulier sur les lieux saints et pendant le [Shabbat](/shabbat-guide).
+- **Respectez les usages religieux et culturels**, en particulier sur les lieux saints et pendant le [Shabbat](/fr/shabbat-guide).
 - **Souscrivez une assurance voyage** couvrant les soins médicaux et les annulations.
 
 ## En résumé
