@@ -153,6 +153,14 @@ const ROUTES = [
   '/de/tel-aviv-nightlife',
   '/fr/israel-accommodation-guide',
   '/de/israel-accommodation-guide',
+  '/fr/nazareth-travel-guide',
+  '/de/nazareth-travel-guide',
+  '/fr/caesarea-guide',
+  '/de/caesarea-guide',
+  '/fr/akko-acre-guide',
+  '/de/akko-acre-guide',
+  '/fr/safed-tzfat-guide',
+  '/de/safed-tzfat-guide',
   '/search',
 ];
 
