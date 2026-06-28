@@ -2660,3 +2660,19 @@ Gate: pnpm check 0 errors (116 files); build 274 pages (+1 was 273); 327/327 e2e
 Ship: squash-merged to master 0bc6005, pushed.
 Prod: GitHub Actions CI = failure — same pre-existing Lighthouse pattern as iters 132–137 (infrastructure issue; prev commit 11c28f37 also shows failure; local gate fully green). No revert.
 Next: iter 139 = REVIEW (139%5==4). Review candidates: new shabbat-countdown tool + recent i18n batch 12 pages + jordan-river-baptism.
+
+## 2026-06-28 · iter 139 · REVIEW · shabbat-countdown + jordan-river-baptism + i18n batch 12
+Mode: REVIEW (139%5==4). No shipping this iteration.
+Audited 3 recently shipped items — all CLEAN:
+  1. /israel-shabbat-countdown: FAQPage JSON-LD ✓, breadcrumb ✓, single H1 in layout ✓,
+     cross-links /whats-open-on-shabbat + /israel-shabbat-calendar both resolve ✓,
+     wired in PlanYourTripPage.astro line 58 ✓, no hardcoded affiliate URLs ✓, meta set ✓.
+  2. jordan-river-baptism.md: frontmatter complete ✓, no H1 in body ✓, prices ranges only ✓,
+     cross-links resolve + back-links confirmed ✓, "traditionally identified as" framing present ✓,
+     all 3 affiliate partners (getyourguide/viator/civitatis) valid ✓.
+  3. i18n batch 12 (10 files — fr+de × jaffa-travel-guide, tel-aviv-food-guide,
+     israeli-food-cuisine-guide, masada-dead-sea-day-trip, israel-money-guide): YAML valid ✓,
+     required fields complete ✓, no H1 in bodies ✓, /tel-aviv-white-city links correct ✓,
+     hreflang via [...slug].astro routing ✓, locales by dir structure ✓, no fabricated data ✓.
+No bugs found. No fixes needed. Review count: 13 review passes total.
+Next: iter 140 = RESEARCH.
