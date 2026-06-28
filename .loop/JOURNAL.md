@@ -2752,4 +2752,28 @@ Ship: squash-merged auto/i18n-batch-13 → master d8cf8f3, pushed.
 Prod: master auto-deploys to Vercel (deployment triggered by push).
 fr/de count: 44 guides each (home + plan-your-trip + 44 guides = 46 locale pages each).
 Smoke: 10 new routes added (/fr|de/jordan-river-baptism etc).
+
+## 2026-06-28 · iter 143 · BUILD/technical (tools fallthrough) · i18n SEO meta trim
+
+What: trimmed all 42 FR + 42 DE translated guide frontmatter fields so every title ≤65 chars
+  and every description ≤160 chars. Before: 31 title violations (66–94 chars) + 60 description
+  violations (161–250 chars). After: ALL CLEAR — 0 violations. Files touched: 69 (all in
+  src/content/guides/de/ and src/content/guides/fr/). Tools fallthrough: no ready tools items
+  in BACKLOG, fell through to technical category per PLAYBOOK §2.
+
+Fix detail: initial Node.js script had a `$` backreference bug in String.prototype.replace —
+  `$1nn` amounts in FAQ answers (e.g. `$106–150`, `$108`, `$120`) were corrupted because `$1`
+  was interpreted as capture group 1 (`---\n`). Caught 4 corrupted files: fr/masada-dead-sea-
+  day-trip, fr/nazareth-sea-of-galilee-day-trip, de/jerusalem-bethlehem-day-trip,
+  fr/jerusalem-bethlehem-day-trip. All restored from git and re-patched via Edit tool (no
+  regex substitution). Remaining 65 files unaffected (none with `$1nn` in frontmatter).
+
+Gate:
+  pnpm check: 0 errors, 0 warnings (116 files) ✓
+  pnpm build: 285 pages (unchanged count) ✓
+  pnpm test:e2e: 338 passed (0 failed) ✓
+
+Ship: squash-merged auto/i18n-seo-meta-trim → master 7c62f66, pushed.
+Prod: Vercel deployment triggered by push. GitHub Actions CI shows pre-existing 1-second
+  failure (infra issue present on all prior commits including iter 142 — not a regression).
 Next: iter 143 = BUILD/tools (143%5==3).
