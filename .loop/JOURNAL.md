@@ -2885,3 +2885,17 @@ Fix gate:
 Ship: committed to master 9cd2b81, pushed.
 Prod: Vercel deployment triggered. Pre-existing Lighthouse CI infra failure (same pattern as iters 142-148, not a regression).
 Next: iter 150 = RESEARCH (150%5==0).
+
+## 2026-06-28 · iter 150 · RESEARCH · competitor gap scan — yoga, celiac, post-Birthright, summer heat, art circuit, cultural context
+Mode: RESEARCH (150%5==0). Web-researched 10 query clusters across underexplored angles not covered in prior 29 RESEARCH iterations (iters 5–145).
+Searches: bookretreats.com/israel-spiritual-retreats, bookyogaretreats.com/israel, sixsenses.com/shaharut, theisraelbites.com/gluten-free, theglutenfreetravelbliss.com/gluten-free-tel-aviv, pomegranate-travel.com/gluten-free-israel, authenticisrael.com/israel-revisited, myguesttlv.com/summer, israelwitharky.com/summer-israel, aardvarkisrael.com/heat, beinharimtours.com/summer, timeout.com/israel-art-galleries, gordonallenby.co.il, rosenfeld-gallery.com, ricksteves.com/israel.
+De-duped confirmed: israel-travel-insurance.md (SHIPPED iter66 — in guides/), vegan-vegetarian guide (BACKLOG iter55, not shipped — do not re-add), beaches guide (BACKLOG iter5, not shipped — do not re-add), wellness/spa (BACKLOG iter35, DISTINCT from yoga retreats — both kept), teen travel (covered in israel-with-kids.md).
+6 net-new items added to BACKLOG:
+  1. /israel-yoga-retreats — P2, M, seo-content+monetization (Six Senses Shaharut, Desert Ashram, Moa Oasis, Or HaLev, Ne'ot Semadar; bookretreats affiliate)
+  2. /israel-gluten-free-guide — P2, S, seo-content (celiac traveler niche; naturally GF Israeli food vs. cross-contamination risks; city-by-city restaurant guide)
+  3. /israel-after-birthright — P2, M, seo-content+monetization (1M+ alumni returning as paying travelers; "what Birthright skipped" angle; Booking.com + GYG + discovercars)
+  4. /israel-in-summer — P2, S, seo-content (beat-the-heat strategy; early-morning sightseeing, midday indoor refuges, Masada closure times, coast rotation; distinct from best-time-to-visit)
+  5. /israel-art-galleries — P3, S, seo-content (Gordon, Rosenfeld, Sommer, Ilana Goor Museum, Israel Museum contemporary; gallery circuit for art-tourist segment)
+  6. /israel-cultural-context — P3, M, seo-content (Rick Steves-style thoughtful-traveler guide; historical layers, contemporary society, Israeli-Palestinian context framing, cultural etiquette; NPR-listener demographic)
+No ship (RESEARCH mode).
+Next: iter 151 = BUILD/monetization (151%5==1).
