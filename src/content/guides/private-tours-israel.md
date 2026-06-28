@@ -54,4 +54,4 @@ Expect roughly **$350–700+ per day** for a private guide and vehicle, plus ent
 
 ## Plan your trip
 
-Prefer to self-drive or join group day trips instead? See [the best tours & day trips](/best-tours-in-israel), [day trips from Jerusalem](/day-trips-from-jerusalem) and [from Tel Aviv](/day-trips-from-tel-aviv), or build your own with our [itineraries](/itineraries). Sort an [eSIM](/israel-esim) and [travel insurance](/israel-travel-insurance) before you go.
+Prefer to self-drive or join group day trips instead? See [the best tours & day trips](/best-tours-in-israel), [day trips from Jerusalem](/day-trips-from-jerusalem) and [from Tel Aviv](/day-trips-from-tel-aviv), or build your own with our [itineraries](/itineraries). For the full luxury-travel picture — 5-star hotels, VIP experiences and fine dining — see our [luxury travel guide](/luxury-travel-israel). Sort an [eSIM](/israel-esim) and [travel insurance](/israel-travel-insurance) before you go.

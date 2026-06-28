@@ -44,6 +44,7 @@ const ROUTES = [
   '/transport/tel-aviv-to-dead-sea',
   '/transport/haifa-to-akko',
   '/cruise-shore-excursions-israel',
+  '/luxury-travel-israel',
   '/jewish-heritage-israel',
   '/bar-bat-mitzvah-israel',
   '/israel-food-tours-cooking-classes',
