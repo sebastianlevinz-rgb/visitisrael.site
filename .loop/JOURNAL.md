@@ -2933,3 +2933,15 @@ Gate:
 Ship: squash-merged to master b1cb4cc, pushed.
 FR/DE guide count now 49/~147 each (50 locale pages incl. home + plan-your-trip).
 Next: iter 153 = BUILD/tools (153%5==3).
+
+## 2026-06-28 · iter 153 · BUILD (tools) · packing list affiliate shop badges
+What: P3 tools/monetization. Added Amazon Associates "Shop →" badges to /israel-packing-list.
+  - AMAZON_ASSOCIATE_TAG + amazonSearchUrl() helper wired into src/config/affiliates.ts (per project pattern)
+  - 6 items get badges: money belt (NEW item added to Documents section), rain jacket, sun hat (summer),
+    flip-flops/water shoes, Type-H adapter, and power bank — each links to a distinct Amazon category search
+  - shop-badge CSS: hover bg-primary, focus-visible outline, rel="noopener noreferrer sponsored"
+  - aria-label="Shop <item> on Amazon (opens in new tab)" on every badge
+  - 3 new Playwright tests in tools.spec.ts: badge count > 0, accessible attrs, distinct k= params per badge
+Gate: pnpm check 0 errors (117 files); build 303 pages (unchanged); test:e2e 366 passed (+3).
+Ship: squash-committed to master c80acac, pushed. CI run 28332150362 in_progress at push time.
+Next: iter 154 = REVIEW (154%5==4). Audit slice: iter 151 (birthright guide), iter 152 (batch 15 i18n), iter 153 (affiliate badges).
