@@ -161,6 +161,14 @@ const ROUTES = [
   '/de/akko-acre-guide',
   '/fr/safed-tzfat-guide',
   '/de/safed-tzfat-guide',
+  '/fr/qumran-guide',
+  '/de/qumran-guide',
+  '/fr/tel-aviv-white-city',
+  '/de/tel-aviv-white-city',
+  '/fr/israeli-street-food-guide',
+  '/de/israeli-street-food-guide',
+  '/fr/luxury-travel-israel',
+  '/de/luxury-travel-israel',
   '/search',
 ];
 
