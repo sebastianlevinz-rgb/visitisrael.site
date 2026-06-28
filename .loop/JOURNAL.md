@@ -3005,3 +3005,10 @@ Gate:
   pnpm test:e2e: 368 passed (0 failed) ✓
 Ship: committed 1e9088a to master, pushed. CI (run 28338317454) + Lighthouse (run 28338317463) in_progress at turn-end. Previous run (e89a5e9) was success.
 Next: iter 157 = BUILD/seo-content (157%5==2). Top candidate: /jerusalem-food-guide (P2, M) or /day-trips-from-haifa (P2, M) or Tel Aviv neighborhood hubs (P1, M).
+
+## 2026-06-28T23:36Z · iter 157 · BUILD/seo-content · /tel-aviv-neighborhoods-guide
+Mode: BUILD/seo-content (157%5==2). Picked P1 backlog item: "Neighborhood guides for Tel Aviv (Neve Tzedek/Rothschild/Jaffa hubs)".
+What: New /tel-aviv-neighborhoods-guide guide page — comprehensive "which Tel Aviv neighborhood suits MY trip?" hub. Covers 5 neighborhoods (Rothschild/White City, Neve Tzedek, Florentin, Old Jaffa, Beachfront/Hayarkon) each with vibe, eat, stay-type, best-streets and honest comparison. Opening comparison table for fast decisions. Distinct from individual attraction pages (which are "visit here" guides) and /where-to-stay/tel-aviv (hotel picks only, 1-2 sentence neighborhood summaries). 3 affiliate CTAs: Booking.com (Tel Aviv hotels), GYG (neighborhood walking tours), Viator (Old Jaffa + White City city tour). 6 FAQs. Dense internal links to all existing Tel Aviv content. Footer link added after where-to-stay/tel-aviv; where-to-stay/tel-aviv related-links updated with /tel-aviv-neighborhoods-guide. Smoke + a11y +2 routes = 370 tests.
+Gate: pnpm check 0 errors (117 files); pnpm build 305 pages (+1); check:links 0 broken/0 orphan/0 unreachable/0 deep; pnpm test:e2e 370/370 pass.
+Ship: squash-committed b17d802 to master, pushed. CI run 28339852631 + Lighthouse run 28339852632 in_progress at turn-end.
+Next: iter 158 = BUILD/tools (158%5==3); tools backlog has only P3 item — likely fall-through to seo-content or i18n Phase 3.

@@ -215,3 +215,7 @@ FR/DE guide count now 45 each (47 locale pages incl. home + plan-your-trip).
 - Packing list affiliate shop badges (iter 153, c80acac): /israel-packing-list — Amazon "Shop →" badges on 6 gear items (money belt, rain jacket, sun hat, water shoes, Type-H adapter, power bank); AMAZON_ASSOCIATE_TAG + amazonSearchUrl() helper in affiliates.ts; 3 new Playwright assertions; 366 e2e tests pass. [tools P3 iter145 research]
 - iter154 · REVIEW — de/qumran-guide cross-locale link fix (/fr/car-rental-israel → /de/car-rental-israel); packing list badge audit clean; birthright guide links verified. → 7c4b1f2 (2026-06-28)
 - iter156 · feat(seo-content+monetization): /tel-aviv-carmel-market — Complete Carmel Market guide (Shuk HaCarmel): layout, street food (burekas/pomegranate juice/knafeh/falafel), Friday-evening bar transformation, HaBasta restaurant, 6 FAQs, practical info; GYG + Civitatis food tour CTAs; footer link + tel-aviv-food-guide cross-link; 304 pages; 368 e2e pass → 1e9088a (2026-06-28) [P2 seo-content+monetization]
+
+## iter 157 · 2026-06-28 · b17d802
+**Tel Aviv Neighborhoods Guide** (`/tel-aviv-neighborhoods-guide`)
+Comprehensive "best area to stay in Tel Aviv" hub covering Rothschild/White City, Neve Tzedek, Florentin, Old Jaffa and Beachfront/Hayarkon. Comparison table, per-neighborhood vibe/eat/stay/streets, 6 FAQs, 3 affiliate CTAs (Booking.com + GYG + Viator). Dense internal links to all existing Tel Aviv attraction pages and guides. 305 pages; 370 e2e tests.
