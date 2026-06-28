@@ -201,3 +201,10 @@
 - i18n SEO meta trim (iter143, 7c62f66): all 42 FR + 42 DE guide files — 31 title fixes (66–94 chars → ≤65) + 60 description fixes (161–250 chars → ≤160). ALL CLEAR: 0 violations after fix. Bug caught during fix: `$1nn` amounts in YAML FAQ answers corrupted by JS regex `$1` backreference (4 files restored from git + re-patched via safe Edit tool). Value: SEO meta compliance across entire FR/DE locale tier; search engines now see clean snippet-length titles and descriptions; eliminates truncation artifacts in SERPs for both locales.
 - iter 144 REVIEW · fix truncated FR/DE meta descriptions (batch 13) → 398c715 · Fixed 6 descriptions cut mid-sentence by iter 143 mechanical trim; all now complete sentences ≤160 chars
 - Luxury Israel travel guide (iter 146) — 69c7fee — /luxury-travel-israel: 5-star hotels by city (Jerusalem/TLV/Dead Sea), private guide cost ranges, VIP experiences, Shabbat planning, 3 affiliate CTAs (TourRadar/Abraham/Booking.com); no fabricated ratings/prices. [monetization]
+
+## iter 147 · i18n batch 14 · 56f45be
+8 files: fr+de × nazareth-travel-guide, caesarea-guide, akko-acre-guide, safed-tzfat-guide.
+Value: FR/DE audiences now get natively authored destination guides for 4 key northern-Israel
+sites — Nazareth (Christian pilgrimage + Arab-Israeli culture), Caesarea (Roman archaeology),
+Akko (UNESCO Crusader city), Safed (Kabbalistic Judaism). Each with 3 affiliate CTAs + FAQs.
+FR/DE guide count now 45 each (47 locale pages incl. home + plan-your-trip).

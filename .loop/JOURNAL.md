@@ -2834,3 +2834,23 @@ Gate:
 Ship: committed to master 69c7fee, pushed. CI pre-existing infra failure (same pattern as all prior commits — not a regression; Lighthouse + CI fail on every commit in this repo's current CI setup).
 Prod: Vercel deployment triggered by push; pre-existing CI infra issue confirmed same as iters 142-145.
 Next: iter 147 = BUILD/seo-content (147%5==2). Top candidate: i18n batch 14 (nazareth-travel-guide + more fr/de), or Jerusalem food guide, or Haifa travel guide.
+
+## 2026-06-28 · iter 147 · BUILD/seo-content · i18n batch 14 (Nazareth, Caesarea, Akko, Safed × fr+de)
+Mode: BUILD/seo-content (147%5==2). Selected: i18n Phase 2 batch 14 — 4 EN destination guides
+  translated/authored natively in FR+DE: nazareth-travel-guide, caesarea-guide, akko-acre-guide,
+  safed-tzfat-guide. 8 files total. Agents ran in parallel (FR agent + DE agent).
+What per file: 3 affiliate CTAs matching EN source images/queries, 6–7 FAQs, 500–700 word body,
+  titles ≤65 chars, descriptions ≤160 chars. No H1 in body. No fabricated ratings/prices.
+  category "Destinations" (FR) / "Reiseziele" (DE). updatedAt 2026-06-28.
+  Smoke tests extended by 8 routes (fr/de × 4 guides).
+Gate:
+  pnpm check: 0 errors (116 files) ✓
+  pnpm build: 294 pages (+8 vs iter 146's 286) ✓
+  pnpm test:e2e: 347 passed (0 failed) ✓
+Ship: committed to master 56f45be, pushed.
+Prod: Vercel deployment triggered by push. Pre-existing lighthouse CI infra failure (HTTP 404
+  on log download — same pattern as iters 142–146, not a regression).
+FR count: 45 guides (home + plan-your-trip + 45 guides = 47 locale pages).
+DE count: 45 guides (home + plan-your-trip + 45 guides = 47 locale pages).
+Next: iter 148 = BUILD/tools (148%5==3). No tools items in BACKLOG — likely fall-through to
+  BUILD/technical (bulk locale-link correction pass, P2).
