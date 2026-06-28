@@ -2676,3 +2676,36 @@ Audited 3 recently shipped items — all CLEAN:
      hreflang via [...slug].astro routing ✓, locales by dir structure ✓, no fabricated data ✓.
 No bugs found. No fixes needed. Review count: 13 review passes total.
 Next: iter 140 = RESEARCH.
+
+## 2026-06-28 · iter 140 · RESEARCH · 14-day itinerary + Golan Heights guide + City of David + Nabataean Incense Route + VAT refund
+Mode: RESEARCH (140%5==0). No ship this iteration.
+Searched: 14-day Israel itinerary competitors, Golan Heights destination guides, City of David
+  Jerusalem visitor content, Negev Incense Route / Nabataean cities, Israel VAT refund process,
+  Israel surfing (pre-check: confirmed already in backlog iter105).
+5 net-new backlog items confirmed (surfing de-duped — already in backlog [iter105]):
+  1. Israel 14-day itinerary (/14-days-in-israel) — P1, M, seo-content+monetization. Top-5
+     Israel query; travelingisrael.com + globalhighlights.com + Frommers + Bein Harim all rank.
+     We have 5/7/10-day itineraries but zero 14-day guide. Drives multi-city Booking.com bookings.
+  2. Golan Heights comprehensive destination guide (/golan-heights-guide) — P2, M,
+     seo-content+monetization. DISTINCT from golan.md region hub + golan-heights-wineries (wine
+     only). touristisrael.com + backpackisrael.com + lonelyplanet.com + TripAdvisor all rank.
+     Covers Gamla Nature Reserve (Masada of North + tallest waterfall + vulture colony) + Nimrod
+     Fortress + Banias + Katzrin + Druze villages + Yehudiya Forest pools. Car-essential =
+     discovercars affiliate anchor.
+  3. City of David & Hezekiah's Tunnel guide (/city-of-david-jerusalem) — P2, S,
+     seo-content+monetization. cityofdavid.org.il + US News + TripAdvisor + Bein Harim rank.
+     1M+ visitors/year; zero standalone page on site. Wet tunnel vs dry route comparison + GYG
+     tour CTA. Political/management context note: Elad Foundation + Silwan framing.
+  4. Negev Incense Route & Nabataean cities guide (/negev-incense-route) — P2, M,
+     seo-content+monetization. UNESCO WHS #1107. DISTINCT from israel-unesco-sites BACKLOG (hub
+     gives 3–4 sentences) + south-israel-itinerary BACKLOG (Avdat = 2-sentence stop). Covers all
+     4 cities: Avdat (developed), Mamshit (best-preserved), Haluza (enthusiasts only), Shivta
+     (remote). Spring/autumn only — 40°C+ summer = dangerous. Car essential.
+  5. Israel VAT refund guide (/israel-vat-refund) — P3, S, seo-content. iaa.gov.il + ottoisrael.com
+     + eazyvat.com rank. DISTINCT from shopping-in-israel (WHERE to shop). 17% VAT refund
+     step-by-step + Eilat VAT-free exception. Low volume but high purchase intent.
+De-duped: israel-surfing confirmed in backlog [iter105]; golan-heights-wineries (iter135) is
+  wine-specific ≠ general destination guide; israel-unesco-sites (iter125) gives Incense Route
+  3–4 sentences ≠ dedicated Nabataean guide.
+No ship. .loop/ files updated + committed.
+Next: iter 141 = BUILD/monetization (141%5==1).
