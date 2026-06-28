@@ -138,4 +138,4 @@ Add: [Golan Heights](/golan) (Gamla, Druze villages), deeper time in the Galilee
 - **Language:** most heritage sites have excellent English signage and audio guides; licensed guides fluent in English, French, Russian and Spanish are widely available.
 - **Costs:** see our [Israel cost & budget guide](/israel-cost-budget) for entry fees (most state museums are paid; Yad Vashem and the Western Wall plaza are free) and overall day budgets. No exact admission prices are listed here as they change; check official sites before you travel.
 
-For the full Israel planning picture, start with our [first-time in Israel guide](/first-time-in-israel), check [best time to visit](/best-time-to-visit-israel) and use our [Israel trip planner](/build-your-trip) to build your itinerary.
+For the full Israel planning picture, start with our [first-time in Israel guide](/first-time-in-israel), check [best time to visit](/best-time-to-visit-israel) and use our [Israel trip planner](/build-your-trip) to build your itinerary. **Birthright alumni** returning for a second visit will find tailored guidance in our [Israel after Birthright guide](/israel-after-birthright).
