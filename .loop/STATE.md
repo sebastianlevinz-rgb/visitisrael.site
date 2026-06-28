@@ -1,39 +1,42 @@
 # LOOP STATE
 
-- iteration: 134
-- lastMode: REVIEW (iters 131-133 audit + SEO meta title trim)
-- lastItem: review-134-meta-title-trim — audited TourVerdict expansion (iter 131), i18n batch 11 (iter 132), event-schema (iter 133). Quick safe fix: trimmed 20 over-length guide titles (19 EN + 1 DE) to ≤65 chars
-- lastResult: SHIPPED 55185e4. 20 files changed. Gate: 0 errors, 262 pages, 310/310 e2e+a11y. CI Lighthouse pre-existing failure (consistent with all prior commits). No revert.
-- nextRotationCategory: 135%5==0 → RESEARCH; 136%5==1 → BUILD/monetization; 137%5==2 → BUILD/seo-content (i18n batch 12 due); 138%5==3 → BUILD/tools; 139%5==4 → REVIEW
+- iteration: 135
+- lastMode: RESEARCH (iter 135 — wine region + Jaffa flea market + Northern Israel cluster + wildflowers)
+- lastItem: research-135-golan-wine-jaffa-flea-market-northern-cluster — 7 new backlog items: Golan Heights wineries guide (P2, M), Jaffa flea market standalone (P3, S), Rosh Pina village guide (P2, S), Zichron Yaakov wine village (P2, S), Beit She'an Roman city guide (P2, M), Nahariya visitor guide (P3, S), Israel spring wildflowers guide (P2, S)
+- lastResult: RESEARCH (no ship). 7 new backlog items confirmed. Backlog now ~130 ready items.
+- nextRotationCategory: 136%5==1 → BUILD/monetization; 137%5==2 → BUILD/seo-content (i18n batch 12 due); 138%5==3 → BUILD/tools; 139%5==4 → REVIEW; 140%5==0 → RESEARCH
 - higgsfieldSpent: 0
-- updatedAt: 2026-06-27
+- updatedAt: 2026-06-28
 - branch context: work on master; feature work on auto/<slug>
 
-Notes: iter 134 REVIEW — audited iters 131-133.
-  iter 131 (TourVerdict expansion 714a9eb): CLEAN — all 6 new guide pages have
-    correct verdictName + verdictQuery fields (caesarea, akko, christian-pilgrimage,
-    eilat-diving, cruise-shore-excursions, best-tours-in-israel).
-  iter 132 (i18n batch 11 815e5bb): 1 defect found — de/solo-female-travel-israel.md
-    title was 73 chars (>65 limit). 8 batch 11 descriptions all >160 chars (known
-    pattern; tracked under separate i18n SEO meta trim backlog item).
-  iter 133 (event-schema 32c3e07): CLEAN — eventSchema() helper is well-formed,
-    guideEvent Zod schema covers all required fields, [..slug].astro correctly maps
-    events[] to JSON-LD array. Frontmatter in both guides is correct.
-  Quick safe fix shipped: trimmed all 19 EN guide titles >65 chars + the de/solo-female
-    defect. Worst offenders: galilee-tours-compared 92→69 chars, petra-tours-compared
-    83→69, tiberias-guide 79→69. All 20 titles now ≤65 chars. Only frontmatter changed.
-  Backlog EN meta title trim item DONE. i18n SEO meta trim (batches 8+9) still open.
-  NOTE on i18n batch 11 descriptions (>160 chars): these 8 files still need desc trims;
-    added tracking note to i18n SEO meta trim backlog item.
-  CI: Lighthouse failure = pre-existing on all commits. Local gate fully green. No revert.
-  Build: 262 pages (unchanged). Tests: 310/310.
+Notes: iter 135 RESEARCH — 7 confirmed net-new backlog items added.
+  Golan Heights wineries (P2, M): distinct from judean-hills-wine-trail (Jerusalem-area) and
+    israel-wine-wineries.md (overview only). Golan = Israel's most internationally awarded wine
+    region; volcanic basalt soil + altitude 700–1200m. Top producers: Yarden, Chateau Golan,
+    Assaf, Pelter. golanwinetour.com, ottoisrael.com, galilandgolan.com all rank; ZERO guide on site.
+    Political note: Golan = Israeli-administered; frame factually, do not take sides.
+  Jaffa flea market (P3, S): distinct from jaffa-travel-guide.md (ancient port area ≠ south Jaffa
+    market neighbourhood). TripAdvisor, visit-tel-aviv.com, takeyourbackpack.com, Frommers all rank.
+  Rosh Pina (P2, S): only a bullet in hidden-gems hub (iter45). 1882 moshava; Galilee wine route hub;
+    touristisrael.com + roughguides.com + lonelyplanet.com all have dedicated pages; ZERO standalone.
+  Zichron Yaakov (P2, S): only 2 sentences in day-trips-from-haifa backlog. Carmel Winery 1882
+    (Israel's oldest); touristisrael.com + beinharimtours.com have dedicated pages; ZERO standalone.
+  Beit She'an (P2, M): only mentioned as 1-sentence Jordan Valley waypoint in road-trip backlog.
+    7,000-seat Roman theater = best-preserved in Israel; touristisrael.com + roughguides.com + Frommers
+    all rank; ZERO standalone guide. Gan HaShlosha spring pools 3km away = natural combo.
+  Nahariya (P3, S): only transit mention in rosh-hanikra + western-galilee backlog items. Northernmost
+    Mediterranean beach city; founded 1935 by German Jewish refugees; European character; transit hub
+    for Rosh Hanikra + Western Galilee cluster.
+  Israel spring wildflowers (P2, S): best-time-to-visit.md mentions March wildflowers in 2 sentences.
+    kalanit/anemone season (Jan–Apr); inpa.gov.il/flowers = official bloom tracker; ZERO dedicated guide.
+    Honesty: bloom timing rainfall-dependent — always link INPA tracker, not forecast dates.
+  De-duped: israel-surfing (iter105), rosh-hanikra (iter85), western-galilee (iter85), horseback (iter110).
 
-NEXT: iter 135 = RESEARCH (135%5==0). Good angles: Negev tourism (desert landscape,
-  Mitzpe Ramon crater, Timna, stargazing dark-sky); Tel Aviv Jaffa flea market (antiques,
-  Saturday scene); Israeli wine tours and vineyard guide; Sea of Galilee boat experience
-  standalone guide; Israeli music festival calendar.
+NEXT: iter 136 = BUILD/monetization (136%5==1).
+  Good angles: affiliate revenue optimisation on high-traffic pages (tours, accommodation, transport),
+  new money-page for a high-intent travel segment, or upgrading existing CTA density on top guides.
   i18n batch 12 due at iter 137: jaffa-travel-guide, tel-aviv-food-guide,
-  israeli-food-cuisine-guide, masada-dead-sea-day-trip, israel-money-guide.
+  israeli-food-cuisine-guide, masada-dead-sea-day-trip, israel-money-guide fr+de.
 Cron b7325b16 hourly @ :17. Loop history: 18 tools + sitemap-lastmod + link-checker(+depth) + i18n
 Phase0/1a/1b/1c/2 Batches1-11 + 12 review passes + 1 technical (event-schema); research iters
-5/10/20/30/35/40/45/50/55/60/65/70/75/80/85/90/95/100/105/110/115/120/125/130.
+5/10/20/30/35/40/45/50/55/60/65/70/75/80/85/90/95/100/105/110/115/120/125/130/135.

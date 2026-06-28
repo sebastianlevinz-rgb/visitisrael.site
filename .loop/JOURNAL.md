@@ -2566,3 +2566,36 @@ Ship: committed to master 55185e4, pushed.
 Prod: GitHub Actions CI → Lighthouse workflow = pre-existing failure (consistent with all commits).
   Local gate fully green. No revert done.
 Next: iter 135 = RESEARCH (135%5==0).
+
+## 2026-06-28 · iter 135 · RESEARCH · wine region + Jaffa flea market + Northern Israel cluster + wildflowers
+Mode: RESEARCH (135%5==0). No ship this iteration.
+Searched: Golan Heights wine tourism, Jaffa flea market, Rosh Pina village, Zichron Yaakov wine
+village, Beit She'an Roman ruins, Nahariya, Israel spring wildflowers.
+7 net-new backlog items confirmed (none were duplicates of existing entries):
+  1. Golan Heights wine tour & wineries guide (P2, M) — most internationally awarded wine region in
+     Israel; volcanic basalt soils + 700–1,200m altitude; Yarden/Chateau Golan/Assaf/Pelter as top
+     producers; golanwinetour.com, ottoisrael.com, galilandgolan.com all rank; ZERO guide on site.
+     Distinct from: judean-hills-wine-trail (Jerusalem-area sub-region) + israel-wine-wineries.md
+     (all-Israel overview). Golan political note: Israeli-administered framing, not advocacy.
+  2. Jaffa flea market standalone guide (P3, S) — Shuk HaPishpishim in south Jaffa (different
+     neighbourhood from jaffa-travel-guide.md's ancient port focus); 100+ years; antiques, Judaica,
+     vintage; competitor presence: TripAdvisor, visit-tel-aviv.com, Frommers all rank.
+  3. Rosh Pina village guide (P2, S) — 1882 moshava; Galilee wine hub; Nimrod Lookout; romantic
+     guesthouses; touristisrael.com + roughguides.com + lonelyplanet.com have dedicated pages; only
+     a bullet in our hidden-gems hub backlog (iter45).
+  4. Zichron Yaakov wine village guide (P2, S) — Carmel Winery 1882 (Israel's oldest); Hameyasdim
+     St cobbled Ottoman promenade; Ramat Hanadiv Rothschild memorial gardens; Beit Aaronson/Nili
+     museum; only 2-sentence sub-item in our day-trips-from-haifa backlog (iter75).
+  5. Beit She'an Roman & Byzantine city guide (P2, M) — 7,000-seat Roman theater (best-preserved in
+     Israel) + colonnaded cardo + Byzantine mosaics; touristisrael.com + Frommers rank; previously
+     only a 1-sentence Jordan Valley waypoint in our road-trip backlog.
+  6. Nahariya visitor guide (P3, S) — northernmost Mediterranean beach city; founded 1935 by German
+     Jewish refugees; European café culture; key base for Rosh Hanikra + Western Galilee circuit;
+     previously only transit mention in rosh-hanikra + western-galilee backlog items.
+  7. Israel spring wildflowers & kalanit season guide (P2, S) — kalanit/anemone fields (Jan–March);
+     cyclamen forests (Sasa, Kikar Haarmonim); desert annuals post-rain (Mitzpe Ramon); INPA bloom
+     tracker = authoritative source; best-time-to-visit.md has only 2 sentences on wildflowers.
+De-duped (confirmed already in backlog): israel-surfing (iter105), rosh-hanikra (iter85),
+western-galilee-guide (iter85), horseback-riding (iter110). Eilat guide = in backlog.
+No ship. .loop/ files updated + committed.
+Next: iter 136 = BUILD/monetization.

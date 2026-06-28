@@ -1909,3 +1909,55 @@ DE-DUPED (not added):
   no net-new competitor tool gaps identified that aren't already in backlog.
 
 Backlog now ~123 ready items.
+
+### 2026-06-28 · iter 135 · wine-region + Jaffa flea market + Northern Israel cluster + wildflowers
+
+Searched: Golan Heights wine tourism (golanwinetour.com, golan-wines.co.il, ottoisrael.com,
+galilandgolan.com, winetourism.com, exclusiveisraeltours.com); Jaffa flea market (TripAdvisor,
+visit-tel-aviv.com, takeyourbackpack.com, beinharimtours.com, Frommers); Northern Israel village
+tourism (touristisrael.com/rosh-pina, touristisrael.com/zichron-yaakov, beinharimtours.com); Beit
+She'an ruins (touristisrael.com/beit-shean, roughguides.com, Frommers, parks.org.il); Nahariya
+(touristisrael.com/nahariya, roughguides.com); Israel wildflowers (inpa.gov.il/flowers,
+natureisrael.org, timeout.co.il, israel21c.org).
+
+**Golan Heights wine gap confirmed** — golanwinetour.com, ottoisrael.com, galilandgolan.com,
+winetourism.com all rank specifically for Golan wine tourism with dedicated multi-page guides. Our
+israel-wine-wineries.md covers Golan in ~2 sentences; the judean-hills-wine-trail backlog item covers
+Jerusalem-area Judean Hills only. Israel's most internationally award-winning wine region has ZERO
+dedicated guide on site. Key producers: Yarden (flagship mass-premium), Chateau Golan (boutique),
+Assaf (boutique award-winning), Pelter (most visitor-friendly). All require advance booking in peak
+season. Golan's volcanic basalt soil + altitude 700–1,200m = distinctive terroir story to tell.
+
+**Jaffa flea market gap confirmed** — TripAdvisor (Shuk HaPishpishim #3 Tel Aviv shopping experience),
+visit-tel-aviv.com (full dedicated article), takeyourbackpack.com (full guide), beinharimtours.com
+(day-tour feature), Frommers (dedicated entry) all rank for "Jaffa flea market guide". jaffa-travel-guide.md
+(iter126) covers the ancient port area but not the south Jaffa market neighbourhood (different geography:
+~1km south of Clock Tower area). The surrounding restaurant block that grew around the market in the
+2010s adds strong food + nightlife content potential.
+
+**Northern Israel village cluster gap** — both Rosh Pina (Upper Galilee, 1882 moshava) and Zichron
+Yaakov (Carmel wine village, also 1882 + Carmel Winery) have dedicated competitor pages at touristisrael.com,
+beinharimtours.com, and roughguides.com. Our only mentions are: Rosh Pina as a bullet in hidden-gems hub
+(iter45); Zichron Yaakov as a 2-sentence sub-item in day-trips-from-haifa. Both are P2 targets — they rank
+well, attract wine + heritage audiences, and pair naturally with existing monetization (winery tours,
+guesthouse accommodation, discovercars).
+
+**Beit She'an confirmed largest missing archaeological site** — touristisrael.com, roughguides.com, and
+Frommers all rank for "Beit She'an guide". The 7,000-seat Roman theater + complete colonnaded cardo is
+arguably the most impressive Roman site in the country yet only appears as a 1-sentence Jordan Valley
+waypoint in our road-trip backlog item. The Biblical Tels UNESCO backlog covers Megiddo/Hazor/Beer-Sheba
+only — Beit She'an is a separate national park with entirely different character (Byzantine city ruin, not
+just tel). Gan HaShlosha spring pools 3km away = natural combo page pairing.
+
+**Wildflowers gap confirmed** — inpa.gov.il, natureisrael.org, timeout.co.il/israel, and israel21c.org
+all have seasonal wildflower content; Google Trends shows "kalanit Israel" peaks Jan–March annually.
+Our best-time-to-visit-israel.md mentions "wildflower season" in one March bullet. No competitor has a
+genuinely comprehensive guide combining the kalanit/anemone fields, cyclamen forests, desert annuals,
+and regional variation. Honesty requirement: bloom timing is rainfall-dependent — always link
+inpa.gov.il/flowers as live bloom tracker; do NOT publish forecast dates that will be stale.
+
+DE-DUPED this iteration (confirmed already in backlog): israel-surfing (P2, S, iter105), rosh-hanikra
+(P3, S, iter85), western-galilee multi-site guide (P2, M, iter85), Eilat travel guide (P2, M, present),
+horseback riding (P2, S, iter110). No competitor tool gaps identified beyond existing backlog.
+
+7 net-new items added to BACKLOG. Backlog now ~130 ready items.
