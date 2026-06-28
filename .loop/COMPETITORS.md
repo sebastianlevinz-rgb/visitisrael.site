@@ -2021,3 +2021,54 @@ Searches: bookretreats.com/israel-spiritual-retreats, bookyogaretreats.com/israe
 DE-DUPED this iteration: israel-travel-insurance.md (SHIPPED iter66 — confirmed in guides/), vegan-vegetarian guide (ALREADY IN BACKLOG iter55 — NOT shipped), beaches guide (ALREADY IN BACKLOG iter5 — NOT shipped), wellness/spa (ALREADY IN BACKLOG iter35 — DISTINCT from yoga retreats), teen travel (covered in israel-with-kids.md description + bar-bat-mitzvah guide), summer-with-kids (P3 low priority given existing kids guide + general summer guide above covers families).
 
 6 net-new items added to BACKLOG. Backlog now ~147 ready items.
+
+### 2026-06-28 · iter155 · RESEARCH — Passover in Israel, accessible travel depth, National Library, cruise port, backlog dedup
+
+**Passover in Israel — dedicated page gap confirmed (P2, S)** — touristisrael.com has TWO separate
+dedicated Passover pages: /passover-in-jerusalem/5813 and /passover-in-tel-aviv/10076, each with
+logistics specific to that city's Passover experience. totallyjewishtravel.com has a comprehensive
+Pesach programs directory with curated hotel programs. israelmaven.com/pesach-programs-israel lists
+kosher hotel packages. passoverlistings.com is a dedicated Passover travel booking site. Our existing
+traveling-israel-jewish-holidays.md (BACKLOG iter35) covers Passover in one section among 5+ holidays
+— NOT a standalone dedicated guide. Commercial intent: Pesach hotel programs = $2,000–$8,000+ per
+person per week = highest per-booking affiliate value of any Israel tourism product. Western Wall
+Birkat Kohanim (Priestly Blessing at Kotel) = unique unmissable Passover/Sukkot-only experience that
+drives dedicated Passover travel. Abraham Hostels community Seder = accessible option for budget
+travelers. Gap confirmed; NEW backlog item added.
+
+**Accessible Israel travel — competitor research enriched (BACKLOG iter30, still unshipped)** —
+atij.org (Association for Tourism and Inclusion of the Jewish People) maintains multiple dedicated
+pages for accessible Israel travel by disability type; aisrael.org has a multi-page accessible
+vacation guide; wheelchairtraveling.com/israel covers wheelchair travel across Israel; sagetraveling.com
+has an Israel accessible travel section. touristisrael.com/accessible-travel-israel/12347 is a
+dedicated page. Our existing BACKLOG entry (iter30, P2, M) is brief — this competitor research
+confirms the gap is real and the entry is actionable. Israeli law requires all public spaces to
+be accessible in principle; Yad Sarah NGO loans free wheelchairs; ~900 licensed accessible taxis.
+Key honesty note: practice varies significantly from legal requirement — Al-Aqsa = inaccessible,
+Bahá'í terraces = inaccessible (750 steps), but Western Wall Plaza = accessible, most major museums
+= accessible. Recommend upgrading existing BACKLOG entry with this research context when building.
+
+**National Library of Israel (new building) — confirmed open 2024** — NLI's new building by Herzog
+& de Meuron (architects of Tate Modern extension, Beijing Olympic Aquatics Center) opened in Jerusalem
+2024. Located at Eliezer Kaplan St 1, between Knesset and Israel Museum on the Givat Ram campus.
+English guided tours available May 29–Aug 31 2026 (₪54 adult, 90 min). Opening hours: Sun–Thu 9am–6pm,
+Fri 9am–1pm. Features: 5 million items, rare manuscripts, Einstein archive, "Treasury of Words"
+permanent exhibition, children's activity kits (English/Hebrew/Arabic). funinjerusalem.com, nli.org.il,
+itraveljerusalem.com, tripadvisor.com all listing the attraction now. Our BACKLOG has dedicated NLI
+visitor guide (iter130, P3, S, status: ready). Competitor coverage growing as awareness builds post-opening.
+
+**Israel cruise port — SHIPPED iter32** — Verified that cruise-shore-excursions guide was shipped in
+iter32. Shore excursion market remains active: compasstravelisrael.com, beinharimtours.com, tourguide-israel.com,
+slavaguide.com, getyourguide.com/ashdod, cruiseweb.com/ports/ashdod-israel all actively ranking for
+"Israel shore excursions 2026." Haifa cruise terminal has expanded amenities (WiFi, currency exchange,
+cafeteria, duty-free). Our existing guide (SHIPPED) is competitive; no update needed.
+
+**Backlog deduplication intelligence (for future REVIEW iteration):**
+  1. Haifa travel guide: iter70 (brief, line ~89) AND iter115 (detailed, line ~56) — same slug
+     /haifa-travel-guide; iter115 entry is significantly more detailed (Carmelit, Wadi Nisnas, German
+     Colony, Bahá'í tours, Shabbat bus service) and should be considered the canonical entry; iter70
+     entry is redundant and should be removed in a REVIEW pass.
+  2. Muslim travel guide: iter65 (brief, /muslim-travel-israel, line ~86) AND iter105 (very detailed,
+     /israel-muslim-travel-guide, line ~289, with Al-Aqsa specifics, halal food map, Ramadan logistics,
+     ETA-IL nuances for Muslim-majority country passport holders); iter105 entry is definitive; iter65
+     is superseded and should be removed; consolidate to the iter105 slug.

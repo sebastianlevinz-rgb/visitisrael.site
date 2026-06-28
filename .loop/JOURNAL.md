@@ -2955,3 +2955,32 @@ Findings:
 Fix: one-char link fix in de/qumran-guide.md (auto/fix-de-qumran-locale-link branch).
 Gate: pnpm check 0 errors (117 files), pnpm build 303 pages, pnpm test:e2e 366 passed.
 Merge: squash-committed 7c4b1f2 to master, pushed. CI pending at turn-end.
+
+## 2026-06-28T20:00Z · iter 155 · RESEARCH · Passover in Israel content gap + backlog dedup scan
+Mode: RESEARCH (155%5==0). Web-research for new profitable content/tool gaps.
+Searches (12): accessible travel Israel; Passover in Israel/Pesach guide; Mt Hermon ski; Haifa
+  travel guide; Jewish holidays Israel; Tel Aviv beaches; Muslim/Islamic heritage sites; Israel
+  cruise port Haifa+Ashdod shore excursions; National Library of Israel visitor guide; 14-day
+  Israel itinerary; Israel ETA-IL/visa entry requirements; Tel Aviv neighborhoods 2026.
+De-duped findings:
+  - accessible travel: BACKLOG (iter30, brief); competitor research enhanced (atij.org, aisrael.org,
+    wheelchairtraveling.com all rank — confirms gap still unaddressed; iter30 entry is ready)
+  - Jewish holidays: BACKLOG (iter35) — traveling-israel-jewish-holidays.md = confirmed general guide
+  - Tel Aviv beaches: BACKLOG (iter5 minimal entry); beaches guide still unshipped
+  - photography spots: BACKLOG (iter30)
+  - Haifa guide: DUPLICATE in backlog — iter70 (line 89, brief) AND iter115 (line 56, detailed) — same
+    slug /haifa-travel-guide; iter115 entry is definitive; iter70 entry redundant (flagged for cleanup)
+  - Mt Hermon skiing: BACKLOG iter145 (definitive entry exists)
+  - Muslim travel guide: DUPLICATE — iter65 (/muslim-travel-israel, brief) AND iter105
+    (/israel-muslim-travel-guide, very detailed with Al-Aqsa specifics); iter105 is definitive
+  - cruise port / shore excursions: SHIPPED iter32 ✓
+  - National Library of Israel: BACKLOG iter130 (P3, S); confirmed NLI new building opened 2024 by
+    Herzog & de Meuron, English guided tours active May–Aug 2026, ₪54 admission
+  - 14-day Israel itinerary: SHIPPED iter141 ✓
+  - medical tourism: BACKLOG iter55 (P2, M)
+  - ETA-IL checker tool: SHIPPED iter83 ✓; visa-information.md EXISTS as content guide ✓
+Net-new items: 1 — /passover-in-israel (P2, S) — dedicated Passover guide distinct from
+  traveling-israel-jewish-holidays; HIGH commercial intent (Pesach hotel programs $2k–$8k+/week);
+  competitors: touristisrael.com/passover-in-jerusalem, touristisrael.com/passover-in-tel-aviv,
+  totallyjewishtravel.com, israelmaven.com/pesach-programs-israel, passoverlistings.com all rank.
+State: advanced to iter 155 RESEARCH; next iter 156 = BUILD/monetization.
