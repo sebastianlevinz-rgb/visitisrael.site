@@ -1,6 +1,6 @@
 ---
-title: "Excursion Masada & mer Morte : Lever de Soleil, Ein Gedi & ce qu'il Faut Savoir"
-description: "Le guide complet pour l'excursion Masada et mer Morte depuis Jerusalem ou Tel Aviv — lever de soleil ou visite en journée, fourchettes de prix, comment y aller, quoi apporter et comment réserver."
+title: "Excursion Masada & mer Morte : Lever de Soleil & Ein Gedi"
+description: "Le guide complet pour l'excursion Masada et mer Morte depuis Jerusalem ou Tel Aviv — lever de soleil ou visite en journée, fourchettes de prix,"
 heroImage: /images/regions/dead-sea/hero.jpg
 category: Excursions
 verdictName: Masada & Dead Sea

@@ -1,6 +1,6 @@
 ---
 title: "Reiseversicherung für Israel: Was Sie 2026 brauchen"
-description: "Warum und wie Sie eine Reiseversicherung für Israel abschließen: auf welche medizinische Absicherung und Reiserücktrittsversicherung Sie achten sollten, wie die regionale Lage die Policen beeinflusst und wie Sie einen Tarif wählen."
+description: "Warum und wie Sie eine Reiseversicherung für Israel abschließen: auf welche medizinische Absicherung und Reiserücktrittsversicherung Sie achten sollten, wie"
 heroImage: /images/regions/galilee/hero.jpg
 category: Planung
 updatedAt: 2026-06-25

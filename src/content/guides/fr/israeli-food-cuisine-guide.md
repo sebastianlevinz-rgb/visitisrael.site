@@ -1,6 +1,6 @@
 ---
 title: "La Cuisine Israélienne : Le Guide Complet de ce qu'il Faut Goûter"
-description: "Guide national de la cuisine israélienne — les plats incontournables (houmous, falafel, sabich, shakshuka, knafeh et bien d'autres), les spécialités régionales, les meilleurs marchés alimentaires et conseils pratiques pour les voyageurs."
+description: "Guide national de la cuisine israélienne — les plats incontournables (houmous, falafel, sabich, shakshuka, knafeh et bien d'autres), les spécialités"
 heroImage: /images/regions/jerusalem/mahane-yehuda.jpg
 category: Gastronomie
 updatedAt: 2026-06-17

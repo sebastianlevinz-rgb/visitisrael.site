@@ -1,6 +1,6 @@
 ---
 title: "Israel mit Kindern: Ein Familienreiseratgeber"
-description: "So planen Sie eine Familienreise nach Israel: die besten Regionen und Attraktionen für Kinder, Unterkunftstipps, Fortbewegung mit Kindern und praktische Ratschläge für alle Altersgruppen."
+description: "So planen Sie eine Familienreise nach Israel: die besten Regionen und Attraktionen für Kinder, Unterkunftstipps, Fortbewegung mit Kindern und praktische"
 heroImage: /images/regions/galilee/sea-of-galilee.jpg
 category: Planung
 updatedAt: 2026-06-16

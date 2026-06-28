@@ -1,6 +1,6 @@
 ---
-title: "Ce qui est ouvert pendant le Shabbat en Israël : guide ville par ville"
-description: "Ce qui reste ouvert et ce qui ferme pendant le Shabbat à Jérusalem, Tel Aviv et Haïfa, comment se déplacer le samedi et comment organiser un vendredi et un samedi sans mauvaises surprises."
+title: "Ouvert le Shabbat en Israël : guide ville par ville 2026"
+description: "Ce qui reste ouvert et ce qui ferme pendant le Shabbat à Jérusalem, Tel Aviv et Haïfa, comment se déplacer le samedi et comment organiser un vendredi et un"
 heroImage: /images/regions/tel-aviv/beaches.jpg
 category: Planification
 updatedAt: 2026-06-16

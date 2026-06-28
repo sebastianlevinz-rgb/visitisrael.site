@@ -1,6 +1,6 @@
 ---
-title: "Budget voyage Israël 2026 : coûts et dépenses selon le type de voyageur"
-description: "Combien coûte un voyage en Israël ? Budgets journaliers réalistes pour les voyageurs avec petit budget, milieu de gamme et luxe, avec les prix des hôtels, repas, transports et visites."
+title: "Budget voyage Israël 2026 : coûts par type de voyageur"
+description: "Combien coûte un voyage en Israël ? Budgets journaliers réalistes pour les voyageurs avec petit budget, milieu de gamme et luxe, avec les prix des hôtels,"
 heroImage: /images/regions/jerusalem/hero.jpg
 category: Planification
 updatedAt: 2026-05-20

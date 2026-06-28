@@ -1,6 +1,6 @@
 ---
-title: "Israël pour la première fois : le guide complet pour préparer votre voyage"
-description: "Tout ce qu'un premier visiteur en Israël doit savoir : quand partir, combien de temps, arriver depuis l'aéroport, le Shabbat, l'argent, les bagages et un exemple de circuit."
+title: "Israël pour la première fois : guide complet 2026"
+description: "Tout ce qu'un premier visiteur en Israël doit savoir : quand partir, combien de temps, arriver depuis l'aéroport, le Shabbat, l'argent, les bagages et un"
 heroImage: /images/regions/jerusalem/hero.jpg
 category: Planification
 updatedAt: 2026-05-20

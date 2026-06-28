@@ -1,6 +1,6 @@
 ---
 title: 'Essen in Tel Aviv: Märkte, Hummus und kulinarischer Stadtführer'
-description: 'Der Foodie-Guide für Tel Aviv: die besten Märkte, Hummus, Straßenküche und Stadtteile zum Essen, plus geführte Kulinariktouren durch den Carmel Market und das alte Jaffa.'
+description: "Der Foodie-Guide für Tel Aviv: die besten Märkte, Hummus, Straßenküche und Stadtteile zum Essen, plus geführte Kulinariktouren durch den Carmel Market und das"
 heroImage: /images/sub-destinations/tel-aviv/carmel-market.jpg
 category: Gastronomie
 updatedAt: 2026-05-27

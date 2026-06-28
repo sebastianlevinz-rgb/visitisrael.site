@@ -1,6 +1,6 @@
 ---
 title: "Les meilleurs circuits et excursions en Israël (2026)"
-description: "Les meilleurs circuits et excursions d'une journée en Israël : vieille ville de Jérusalem, Masada et mer Morte, Pétra depuis Eilat, Galilée et plus — comment choisir et où réserver."
+description: "Les meilleurs circuits et excursions d'une journée en Israël : vieille ville de Jérusalem, Masada et mer Morte, Pétra depuis Eilat, Galilée et plus — comment"
 heroImage: /images/regions/dead-sea/hero.jpg
 category: Circuits
 updatedAt: 2026-05-27

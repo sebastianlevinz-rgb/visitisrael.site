@@ -1,6 +1,6 @@
 ---
-title: "Sports d'aventure et activités de plein air en Israël : le guide complet"
-description: "Canyonisme, surf, excursions en jeep, kitesurf, ski au Mont Hermon et plus — tous les grands sports d'aventure en Israël avec les meilleures saisons et conseils de réservation."
+title: "Sports d'aventure en Israël : canyonisme, surf & jeep"
+description: "Canyonisme, surf, excursions en jeep, kitesurf, ski au Mont Hermon et plus — tous les grands sports d'aventure en Israël avec les meilleures saisons et"
 heroImage: /images/regions/negev/desert.jpg
 category: Aventure
 updatedAt: 2026-06-26

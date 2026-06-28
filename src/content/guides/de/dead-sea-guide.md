@@ -1,6 +1,6 @@
 ---
-title: "Das Tote Meer besuchen: Schwimmen, Strände und praktische Tipps (2026)"
-description: "Erstbesucher-Guide für das Tote Meer — Schwimmtechnik, Sicherheitsregeln, beste Strände (Kalia, Ein Gedi, Ein Bokek), Mineralschlamm-Ritual, was Sie mitbringen sollten, wie Sie hinkommen und ob sich eine Übernachtung lohnt."
+title: "Das Tote Meer 2026: Strände, Schwimmen & Tipps"
+description: "Erstbesucher-Guide für das Tote Meer — Schwimmtechnik, Sicherheitsregeln, beste Strände (Kalia, Ein Gedi, Ein Bokek), Mineralschlamm-Ritual, was Sie"
 heroImage: /images/regions/dead-sea/hero.jpg
 category: Reiseziele
 updatedAt: 2026-06-25

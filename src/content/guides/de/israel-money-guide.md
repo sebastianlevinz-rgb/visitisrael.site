@@ -1,6 +1,6 @@
 ---
 title: 'Geld in Israel: Geldautomaten, Währung & Bezahlen (2026)'
-description: 'Vollständiger Guide zu Geld und Bezahlen in Israel für Reisende: NIS-Stückelungen, Tipps zu Geldautomaten (DCC vermeiden), Kartenzahlung, Schabbat-Bargeldstrategie, Geldwechsel und welche Märkte nur Bargeld akzeptieren.'
+description: "Vollständiger Guide zu Geld und Bezahlen in Israel für Reisende: NIS-Stückelungen, Tipps zu Geldautomaten (DCC vermeiden), Kartenzahlung,"
 heroImage: /images/regions/tel-aviv/hero.jpg
 category: Planung
 updatedAt: 2026-06-26

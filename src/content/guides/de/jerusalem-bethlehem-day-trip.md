@@ -1,6 +1,6 @@
 ---
-title: "Tagesausflug Jerusalem & Bethlehem: Einreise ins Westjordanland (2026)"
-description: "Der Jerusalem-Bethlehem-Tagesausflug erklärt — Geburtskirche, Einreise ins Westjordanland, Sicherheit, Kosten ($106–150) und Buchungshinweise."
+title: "Tagesausflug Jerusalem & Bethlehem: Westjordanland 2026"
+description: "Der Jerusalem-Bethlehem-Tagesausflug erklärt — Geburtskirche, Einreise ins Westjordanland, Sicherheit, Kosten und Buchungshinweise."
 heroImage: /images/west-bank/bethlehem/hero.jpg
 category: Touren
 updatedAt: 2026-06-16

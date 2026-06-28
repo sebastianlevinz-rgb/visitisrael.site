@@ -1,6 +1,6 @@
 ---
 title: "Tel Aviv ou Jérusalem : laquelle visiter ?"
-description: "Tel Aviv ou Jérusalem ? Une comparaison côte à côte des deux grandes villes d'Israël — ambiance, sites, plages, gastronomie, vie nocturne, Shabbat et laquelle choisir comme base."
+description: "Tel Aviv ou Jérusalem ? Une comparaison côte à côte des deux grandes villes d'Israël — ambiance, sites, plages, gastronomie, vie nocturne, Shabbat et laquelle"
 heroImage: /images/regions/tel-aviv/hero.jpg
 category: Comparaison
 updatedAt: 2026-05-22

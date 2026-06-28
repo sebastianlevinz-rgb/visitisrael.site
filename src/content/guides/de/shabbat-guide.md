@@ -1,6 +1,6 @@
 ---
 title: 'Schabbat in Israel: Ein praktischer Reiseführer'
-description: 'Was der Schabbat für Israelbesucher bedeutet: Öffnungszeiten, Transportmittel, was schließt und was geöffnet bleibt in jeder Stadt — und wie Sie Ihren Freitag und Samstag entspannt planen.'
+description: "Was der Schabbat für Israelbesucher bedeutet: Öffnungszeiten, Transportmittel, was schließt und was geöffnet bleibt in jeder Stadt — und wie Sie Ihren Freitag"
 heroImage: /images/regions/jerusalem/hero.jpg
 category: Planung
 updatedAt: 2026-05-20

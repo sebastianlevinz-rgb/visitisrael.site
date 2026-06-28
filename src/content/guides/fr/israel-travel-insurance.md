@@ -1,6 +1,6 @@
 ---
 title: "Assurance voyage pour Israël : ce qu'il faut prévoir en 2026"
-description: "Pourquoi et comment souscrire une assurance voyage pour Israël : garanties médicales et annulation, impact de la situation régionale sur les polices, et comment choisir une formule adaptée."
+description: "Pourquoi et comment souscrire une assurance voyage pour Israël : garanties médicales et annulation, impact de la situation régionale sur les polices, et"
 heroImage: /images/regions/galilee/hero.jpg
 category: Planification
 updatedAt: 2026-06-25

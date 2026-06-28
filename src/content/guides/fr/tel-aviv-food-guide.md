@@ -1,6 +1,6 @@
 ---
 title: 'Où Manger à Tel Aviv : Marchés, Houmous & Guide Gastronomique'
-description: 'Le guide gastronomique de Tel Aviv pour les gourmands : les meilleurs marchés, adresses de houmous, street food et quartiers où se régaler, plus des circuits guidés au Carmel Market et dans le Vieux Jaffa.'
+description: "Le guide gastronomique de Tel Aviv pour les gourmands : les meilleurs marchés, adresses de houmous, street food et quartiers où se régaler, plus des circuits"
 heroImage: /images/sub-destinations/tel-aviv/carmel-market.jpg
 category: Gastronomie
 updatedAt: 2026-05-27

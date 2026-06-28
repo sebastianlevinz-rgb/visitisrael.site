@@ -1,6 +1,6 @@
 ---
 title: "Christliche Pilgerreise ins Heilige Land: Planungsratgeber"
-description: "Christliche Pilgerreise nach Israel planen: Jerusalem, Bethlehem, Nazareth und der See Genezareth — empfohlene Routen, Touren, Kosten und Tipps für heilige Stätten."
+description: "Christliche Pilgerreise nach Israel planen: Jerusalem, Bethlehem, Nazareth und der See Genezareth — empfohlene Routen, Touren, Kosten und Tipps für heilige"
 heroImage: /images/regions/jerusalem/holy-sepulchre.jpg
 category: Planning
 updatedAt: 2026-06-27

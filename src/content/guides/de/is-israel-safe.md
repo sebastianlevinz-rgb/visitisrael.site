@@ -1,6 +1,6 @@
 ---
 title: "Ist Israel sicher? Ein ehrlicher Reiseführer für 2026"
-description: "Ein praktischer, ehrlicher Blick auf die Sicherheit in Israel für Touristen: Alltag vor Ort, offizielle Reisehinweise, regionale Besonderheiten und sinnvolle Vorsichtsmaßnahmen."
+description: "Ein praktischer, ehrlicher Blick auf die Sicherheit in Israel für Touristen: Alltag vor Ort, offizielle Reisehinweise, regionale Besonderheiten und sinnvolle"
 heroImage: /images/regions/tel-aviv/hero.jpg
 category: Planung
 updatedAt: 2026-05-20

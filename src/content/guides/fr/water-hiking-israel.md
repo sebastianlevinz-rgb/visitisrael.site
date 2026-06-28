@@ -1,6 +1,6 @@
 ---
-title: "Randonnées aquatiques en Israël : sentiers nahal et piscines naturelles"
-description: "Guide des randonnées aquatiques en Israël — les meilleurs sentiers nahal et piscines naturelles : Ein Guedi, Nahal HaKibbutzim, Nahal Kziv, Wadi Qelt et plus. Sécurité, saisons et équipement."
+title: "Randonnées aquatiques en Israël : sentiers nahal 2026"
+description: "Guide des randonnées aquatiques en Israël — les meilleurs sentiers nahal et piscines naturelles : Ein Guedi, Nahal HaKibbutzim, Nahal Kziv, Wadi Qelt et plus."
 heroImage: /images/regions/dead-sea/ein-gedi.jpg
 category: Plein air
 updatedAt: 2026-06-26

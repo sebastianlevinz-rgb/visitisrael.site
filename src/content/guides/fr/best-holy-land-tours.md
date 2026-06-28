@@ -1,6 +1,6 @@
 ---
-title: "Les meilleurs circuits en Terre Sainte : circuits chrétiens en Israël comparés (2026)"
-description: "Circuits en Terre Sainte comparés : pèlerinages de groupe, guides chrétiens privés, excursions à Bethléem et en Galilée — comment choisir, combien ça coûte et où réserver."
+title: "Circuits en Terre Sainte : tours chrétiens en Israël 2026"
+description: "Circuits en Terre Sainte comparés : pèlerinages de groupe, guides chrétiens privés, excursions à Bethléem et en Galilée — comment choisir, combien ça coûte et"
 heroImage: /images/regions/galilee/sea-of-galilee.jpg
 category: Circuits
 verdictName: circuits en Terre Sainte

@@ -1,6 +1,6 @@
 ---
 title: "Code vestimentaire et étiquette dans les sites saints d'Israël"
-description: "Code vestimentaire dans les sites saints d'Israël — Mur occidental, Mont du Temple, églises et mosquées. Règles de modestie, photographie, étiquette du Shabbat et guide site par site."
+description: "Code vestimentaire dans les sites saints d'Israël — Mur occidental, Mont du Temple, églises et mosquées. Règles de modestie, photographie, étiquette du"
 heroImage: /images/regions/jerusalem/western-wall.jpg
 category: Planification
 updatedAt: 2026-06-17

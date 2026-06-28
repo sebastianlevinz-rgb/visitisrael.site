@@ -1,6 +1,6 @@
 ---
 title: 'Israel in 5, 7 oder 10 Tagen: Wie viel Zeit brauchen Sie?'
-description: 'Wie viele Tage für Israel? Vergleichen Sie 5-, 7- und 10-tägige Reisen — was jede Länge abdeckt, was Sie verpassen, und welche Dauer sich für einen Erstbesuch eignet.'
+description: "Wie viele Tage für Israel? Vergleichen Sie 5-, 7- und 10-tägige Reisen — was jede Länge abdeckt, was Sie verpassen, und welche Dauer sich für einen Erstbesuch"
 heroImage: /images/regions/jerusalem/hero.jpg
 category: Vergleich
 updatedAt: 2026-05-22

@@ -1,6 +1,6 @@
 ---
 title: "Se déplacer en Israël : trains, bus, sheruts et carte Rav-Kav"
-description: "Comment circuler en Israël : la carte Rav-Kav, les trains interurbains, les bus, les sheruts (taxis collectifs), la location de voiture et ce qui circule le Shabbat."
+description: "Comment circuler en Israël : la carte Rav-Kav, les trains interurbains, les bus, les sheruts (taxis collectifs), la location de voiture et ce qui circule le"
 heroImage: /images/sub-destinations/tel-aviv/tayelet.jpg
 category: Planification
 updatedAt: 2026-05-20

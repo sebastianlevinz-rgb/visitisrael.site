@@ -1,6 +1,6 @@
 ---
 title: "Die besten Tagesausflüge von Tel Aviv (2026)"
-description: "Die besten Tagesausflüge von Tel Aviv: Jerusalem, die Nordküste (Caesarea–Haifa–Akko), Masada und das Tote Meer, Galiläa und mehr — Planung und geführte Optionen."
+description: "Die besten Tagesausflüge von Tel Aviv: Jerusalem, die Nordküste (Caesarea–Haifa–Akko), Masada und das Tote Meer, Galiläa und mehr — Planung und geführte"
 heroImage: /images/regions/caesarea/hero.jpg
 category: Ausflüge
 updatedAt: 2026-05-27

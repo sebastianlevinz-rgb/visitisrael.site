@@ -1,5 +1,5 @@
 ---
-title: "Passages frontaliers d'Israël vers la Jordanie et l'Égypte : guide pratique"
+title: "Passages frontaliers Israël–Jordanie et Égypte : guide"
 description: "Les trois passages vers la Jordanie et le passage vers l'Égypte (Taba) expliqués — lequel utiliser pour Petra, Amman et le Sinaï, avec frais, visas et conseils."
 heroImage: /images/regions/eilat/hero.jpg
 category: Planification

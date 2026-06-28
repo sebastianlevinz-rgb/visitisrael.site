@@ -1,5 +1,5 @@
 ---
-title: 'Jaffa (Yafo) Reiseführer: Alter Hafen, Flohmarkt & Kulinarik (2026)'
+title: "Jaffa Reiseführer: Alter Hafen, Flohmarkt & Kulinarik 2026"
 description: 'Vollständiger Jaffa-Reiseführer: Alter Hafen, Uhrenturm, Flohmarkt, Hummus bei Abu Hassan, Abouelafia-Bäckerei und Anreise ab Tel Aviv und Jerusalem.'
 heroImage: /images/regions/tel-aviv/jaffa.jpg
 category: Reiseziele

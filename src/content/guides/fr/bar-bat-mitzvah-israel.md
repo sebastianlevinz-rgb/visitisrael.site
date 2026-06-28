@@ -1,6 +1,6 @@
 ---
 title: "Bar et bat mitsva en Israël : guide de voyage complet"
-description: "Planifiez un voyage bar ou bat mitsva en Israël — lieux de cérémonie, calendrier de planification, itinéraires familiaux multigénérationnels et opérateurs spécialisés."
+description: "Planifiez un voyage bar ou bat mitsva en Israël — lieux de cérémonie, calendrier de planification, itinéraires familiaux multigénérationnels et opérateurs"
 heroImage: /images/regions/jerusalem/western-wall.jpg
 category: Planification
 updatedAt: 2026-06-25

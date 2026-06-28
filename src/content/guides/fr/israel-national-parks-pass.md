@@ -1,6 +1,6 @@
 ---
 title: "Pass parcs nationaux Israël : Bleue, Verte et Orange"
-description: "Guide du pass parcs nationaux d'Israël — cartes touristiques Bleue, Verte et Orange plus le pass annuel Matmon. Ce que chaque carte couvre, les tarifs et où les acheter."
+description: "Guide du pass parcs nationaux d'Israël — cartes touristiques Bleue, Verte et Orange plus le pass annuel Matmon. Ce que chaque carte couvre, les tarifs et où"
 heroImage: /images/regions/negev/avdat.jpg
 category: Planning
 updatedAt: 2026-06-27

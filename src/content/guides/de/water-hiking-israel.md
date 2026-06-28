@@ -1,6 +1,6 @@
 ---
-title: "Wasserwandern in Israel: Nahal-Trails und natürliche Schwimmlöcher"
-description: "Israel Wasserwandern Reiseführer — die besten Nahal-Wanderungen und natürliche Schwimmlöcher: Ein Gedi, Nahal HaKibbutzim, Nahal Kziv, Wadi Qelt und mehr. Sicherheit, Jahreszeiten und Ausrüstung."
+title: "Wasserwandern in Israel: Nahal-Trails & Schwimmlöcher"
+description: "Israel Wasserwandern Reiseführer — die besten Nahal-Wanderungen und natürliche Schwimmlöcher: Ein Gedi, Nahal HaKibbutzim, Nahal Kziv, Wadi Qelt und mehr."
 heroImage: /images/regions/dead-sea/ein-gedi.jpg
 category: Outdoor
 updatedAt: 2026-06-26

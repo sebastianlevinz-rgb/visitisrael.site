@@ -1,6 +1,6 @@
 ---
 title: "L'Argent en Israël : Distributeurs, Monnaie & Paiements en 2026"
-description: "Guide complet sur l'argent en Israël pour les touristes : coupures du shekel, conseils pour les distributeurs (éviter la conversion dynamique), paiement par carte, stratégie liquide pour le Shabbat, bureaux de change et marchés en espèces uniquement."
+description: "Guide complet sur l'argent en Israël pour les touristes : coupures du shekel, conseils pour les distributeurs (éviter la conversion dynamique), paiement par"
 heroImage: /images/regions/tel-aviv/hero.jpg
 category: Planification
 updatedAt: 2026-06-26

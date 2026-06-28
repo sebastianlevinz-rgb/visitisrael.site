@@ -1,6 +1,6 @@
 ---
 title: "Israël en famille : le guide du voyage avec enfants"
-description: "Comment planifier un voyage en famille en Israël : les meilleures régions et attractions pour les enfants, où séjourner, comment se déplacer avec des enfants et les conseils pratiques de 0 à ado."
+description: "Comment planifier un voyage en famille en Israël : les meilleures régions et attractions pour les enfants, où séjourner, comment se déplacer avec des enfants"
 heroImage: /images/regions/galilee/sea-of-galilee.jpg
 category: Planification
 updatedAt: 2026-06-16

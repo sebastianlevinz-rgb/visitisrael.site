@@ -1,6 +1,6 @@
 ---
 title: "Location de voiture en Israël : guide complet 2026"
-description: "Tout sur la location de voiture en Israël : quand ça vaut le coup, les coûts, les règles de conduite, le Shabbat, le stationnement, les restrictions aux frontières et où réserver."
+description: "Tout sur la location de voiture en Israël : quand ça vaut le coup, les coûts, les règles de conduite, le Shabbat, le stationnement, les restrictions aux"
 heroImage: /images/regions/negev/hero.jpg
 category: Transport
 updatedAt: 2026-06-25

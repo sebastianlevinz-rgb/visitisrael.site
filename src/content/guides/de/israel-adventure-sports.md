@@ -1,6 +1,6 @@
 ---
-title: "Abenteuersport & Outdoor-Aktivitäten in Israel: Der vollständige Reiseführer"
-description: "Canyoning, Surfen, Jeep-Touren, Kitesurfen, Skifahren am Mount Hermon und mehr — alle wichtigen Abenteuersportarten in Israel mit den besten Jahreszeiten und Buchungstipps."
+title: "Abenteuersport in Israel: Canyoning, Jeep & Skifahren 2026"
+description: "Canyoning, Surfen, Jeep-Touren, Kitesurfen, Skifahren am Mount Hermon und mehr — alle wichtigen Abenteuersportarten in Israel mit den besten Jahreszeiten und"
 heroImage: /images/regions/negev/desert.jpg
 category: Abenteuer
 updatedAt: 2026-06-26

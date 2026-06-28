@@ -1,6 +1,6 @@
 ---
-title: 'Jaffa (Yafo) : Guide de Voyage — Vieux Port, Marché aux Puces & Gastronomie (2026)'
-description: "Guide complet de Jaffa : Vieux Port, Tour de l'Horloge, Marché aux Puces, houmous chez Abu Hassan, boulangerie Abouelafia, et comment s'y rendre depuis Tel Aviv et Jerusalem."
+title: "Jaffa (Yafo) : Vieux Port, Marché aux Puces & Gastronomie"
+description: "Guide complet de Jaffa : Vieux Port, Tour de l'Horloge, Marché aux Puces, houmous chez Abu Hassan, boulangerie Abouelafia, et comment s'y rendre depuis Tel"
 heroImage: /images/regions/tel-aviv/jaffa.jpg
 category: Destinations
 updatedAt: 2026-06-27

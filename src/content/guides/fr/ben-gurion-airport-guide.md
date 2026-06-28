@@ -1,6 +1,6 @@
 ---
-title: "Guide de l'aéroport Ben Gourion 2026 : terminaux, sécurité, salons et hors-taxes"
-description: "Guide complet de l'aéroport Ben Gourion (TLV) : terminaux, départs, conseils pour l'entretien de sécurité, mise à jour salons 2026, hors-taxes et correspondances."
+title: "Aéroport Ben Gourion 2026 : terminaux, salons & duty-free"
+description: "Guide complet de l'aéroport Ben Gourion (TLV) : terminaux, départs, conseils pour l'entretien de sécurité, mise à jour salons 2026, hors-taxes et"
 heroImage: /images/regions/tel-aviv/hero.jpg
 category: Transport
 updatedAt: 2026-06-26

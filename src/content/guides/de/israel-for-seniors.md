@@ -1,6 +1,6 @@
 ---
-title: "Israel für Senioren und Reisende über 50: komfortabel, barrierefrei und unvergesslich"
-description: "Planen Sie eine seniorengerechte Reise nach Israel — beste Jahreszeiten, angenehmes Tempo, barrierefreie Sehenswürdigkeiten, Masada-Seilbahn, Kleingruppen-Touren und praktische Tipps für Reisende über 50 und 60."
+title: "Israel für Senioren ab 50: komfortabel & barrierefrei 2026"
+description: "Planen Sie eine seniorengerechte Reise nach Israel — beste Jahreszeiten, angenehmes Tempo, barrierefreie Sehenswürdigkeiten, Masada-Seilbahn,"
 heroImage: /images/regions/dead-sea/ein-bokek.jpg
 category: Planung
 updatedAt: 2026-06-24

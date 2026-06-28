@@ -1,6 +1,6 @@
 ---
 title: "Le Shabbat en Israël : guide pratique pour les voyageurs"
-description: "Ce que le Shabbat signifie pour les visiteurs d'Israël : horaires d'ouverture, transports, ce qui ferme et ce qui reste ouvert dans chaque ville, et comment organiser son vendredi et son samedi."
+description: "Ce que le Shabbat signifie pour les visiteurs d'Israël : horaires d'ouverture, transports, ce qui ferme et ce qui reste ouvert dans chaque ville, et comment"
 heroImage: /images/regions/jerusalem/hero.jpg
 category: Planification
 updatedAt: 2026-05-20

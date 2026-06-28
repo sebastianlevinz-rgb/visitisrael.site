@@ -1,6 +1,6 @@
 ---
 title: "Was ist am Schabbat in Israel geöffnet? Ein stadtweiser Leitfaden"
-description: "Was bleibt am Schabbat in Jerusalem, Tel Aviv und Haifa geöffnet und was schließt, wie man sich am Samstag fortbewegt und wie man einen reibungslosen Freitag und Samstag plant."
+description: "Was bleibt am Schabbat in Jerusalem, Tel Aviv und Haifa geöffnet und was schließt, wie man sich am Samstag fortbewegt und wie man einen reibungslosen Freitag"
 heroImage: /images/regions/tel-aviv/beaches.jpg
 category: Planung
 updatedAt: 2026-06-16

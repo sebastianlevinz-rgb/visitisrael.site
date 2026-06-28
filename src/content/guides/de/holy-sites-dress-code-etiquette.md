@@ -1,6 +1,6 @@
 ---
 title: "Dresscode und Etikette an Israels heiligen Stätten"
-description: "Dresscode an Israels heiligen Stätten — Westmauer, Tempelberg, Kirchen und Moscheen. Bescheidenheitsregeln, Fotografie, Schabbat-Etikette und ein ortsweiser Leitfaden."
+description: "Dresscode an Israels heiligen Stätten — Westmauer, Tempelberg, Kirchen und Moscheen. Bescheidenheitsregeln, Fotografie, Schabbat-Etikette und ein ortsweiser"
 heroImage: /images/regions/jerusalem/western-wall.jpg
 category: Planung
 updatedAt: 2026-06-17

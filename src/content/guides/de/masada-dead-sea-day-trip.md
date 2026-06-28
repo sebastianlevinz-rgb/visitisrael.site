@@ -1,6 +1,6 @@
 ---
-title: 'Masada & Totes Meer: Sonnenaufgang, Ein Gedi und was Sie erwartet'
-description: 'Der vollständige Guide zum Tagesausflug nach Masada und ans Tote Meer ab Jerusalem oder Tel Aviv — Sonnenaufgang versus Tagestour, Kostenüberblick, Anreise, was mitnehmen und wie buchen.'
+title: "Masada & Totes Meer: Sonnenaufgang, Ein Gedi & Tipps 2026"
+description: "Der vollständige Guide zum Tagesausflug nach Masada und ans Tote Meer ab Jerusalem oder Tel Aviv — Sonnenaufgang versus Tagestour, Kostenüberblick, Anreise,"
 heroImage: /images/regions/dead-sea/hero.jpg
 category: Touren
 verdictName: Masada & Dead Sea

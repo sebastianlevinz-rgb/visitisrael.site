@@ -1,5 +1,5 @@
 ---
-title: "Ben-Gurion-Flughafen Guide 2026: Terminals, Sicherheit, Lounges & Duty-Free"
+title: "Ben-Gurion-Flughafen 2026: Terminals, Lounges & Duty-Free"
 description: "Ben-Gurion-Flughafen (TLV) Reiseführer: Terminals, Abflüge, Tipps zum Sicherheitsgespräch, Lounges-Update 2026, Duty-Free und Weiterreise."
 heroImage: /images/regions/tel-aviv/hero.jpg
 category: Transport

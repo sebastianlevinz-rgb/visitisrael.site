@@ -1,6 +1,6 @@
 ---
-title: "Excursion Jerusalem & Bethléem : Guide du Passage en Cisjordanie (2026)"
-description: "Comment réussir l'excursion Jerusalem-Bethléem — l'église de la Nativité, le passage en Cisjordanie, la sécurité, le coût ($106–150) et comment réserver."
+title: "Excursion Jérusalem & Bethléem : Cisjordanie 2026"
+description: "Comment réussir l'excursion Jérusalem-Bethléem — église de la Nativité, passage en Cisjordanie, sécurité, coût et comment réserver."
 heroImage: /images/west-bank/bethlehem/hero.jpg
 category: Excursions
 updatedAt: 2026-06-16

@@ -1,5 +1,5 @@
 ---
-title: "Israel mit öffentlichen Verkehrsmitteln: Züge, Busse, Sheruts und die Rav-Kav-Karte"
+title: "Israel mit öffentlichen Verkehrsmitteln: Züge & Rav-Kav"
 description: "So reisen Sie durch Israel: die Rav-Kav-Karte, Intercity-Züge, Busse, Sherut-Sammeltaxis, Mietwagen und was am Schabbat fährt."
 heroImage: /images/sub-destinations/tel-aviv/tayelet.jpg
 category: Planung

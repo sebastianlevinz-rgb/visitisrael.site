@@ -1,5 +1,5 @@
 ---
-title: "Essen in Israel: Leitfaden zu koscherer Küche, Märkten und Spezialitäten"
+title: "Essen in Israel: Koscheres, Märkte & Spezialitäten 2026"
 description: "Israelisches Essen für Reisende: Koscher-Grundlagen, Gerichte, die man probieren sollte, Märkte und wo man nicht-koschere und arabische Küche findet."
 heroImage: /images/sub-destinations/jerusalem/mahane-yehuda.jpg
 category: Gastronomie

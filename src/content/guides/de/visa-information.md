@@ -1,5 +1,5 @@
 ---
-title: "Visum und ETA-IL für Israel: Einreisebedingungen für Touristen (2026)"
+title: "Visum & ETA-IL für Israel: Einreisebedingungen 2026"
 description: "Einreisebedingungen für Israel-Touristen: Visum, obligatorische ETA-IL-Reisegenehmigung, Einreiseschein auf Papier, Aufenthaltsdauer und Grenzformalitäten."
 heroImage: /images/regions/tel-aviv/hero.jpg
 category: Planung

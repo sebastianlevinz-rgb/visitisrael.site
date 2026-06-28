@@ -1,6 +1,6 @@
 ---
-title: "Israël pour les seniors et les plus de 50 ans : voyage confortable, accessible et enrichissant"
-description: "Planifiez un voyage adapté aux seniors en Israël — meilleures saisons, rythme confortable, sites accessibles, téléphérique de Masada, circuits en petit groupe et conseils pratiques pour les voyageurs de plus de 50 et 60 ans."
+title: "Israël pour les seniors : voyage accessible & enrichissant"
+description: "Planifiez un voyage adapté aux seniors en Israël — meilleures saisons, rythme confortable, sites accessibles, téléphérique de Masada, circuits en petit groupe"
 heroImage: /images/regions/dead-sea/ein-bokek.jpg
 category: Planification
 updatedAt: 2026-06-24

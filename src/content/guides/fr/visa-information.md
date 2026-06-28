@@ -1,5 +1,5 @@
 ---
-title: "Visa et ETA-IL pour visiter Israël : conditions d'entrée pour les touristes (2026)"
+title: "Visa & ETA-IL Israël : conditions d'entrée touristes 2026"
 description: "Conditions d'entrée en Israël : visa, autorisation ETA-IL obligatoire, bulletin d'entrée papier, durée de séjour autorisée et procédures à la frontière."
 heroImage: /images/regions/tel-aviv/hero.jpg
 category: Planification

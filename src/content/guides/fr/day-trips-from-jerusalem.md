@@ -1,6 +1,6 @@
 ---
 title: "Les meilleures excursions d'une journée depuis Jérusalem (2026)"
-description: "Les meilleures excursions d'une journée depuis Jérusalem : Masada et la mer Morte, Bethléhem, Tel Aviv et Jaffa, la Galilée et plus — distances, comment s'organiser et options guidées."
+description: "Les meilleures excursions d'une journée depuis Jérusalem : Masada et la mer Morte, Bethléhem, Tel Aviv et Jaffa, la Galilée et plus — distances, comment"
 heroImage: /images/regions/dead-sea/hero.jpg
 category: Excursions
 updatedAt: 2026-05-27

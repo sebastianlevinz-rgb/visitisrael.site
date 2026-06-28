@@ -1,6 +1,6 @@
 ---
 title: "Randonnée en Israël : le Sentier National et le Jesus Trail"
-description: "Guide de randonnée en Israël : le Sentier National (Shvil) et le Jesus Trail — meilleures sections, saison idéale, eau et sécurité, et meilleures randonnées à la journée."
+description: "Guide de randonnée en Israël : le Sentier National (Shvil) et le Jesus Trail — meilleures sections, saison idéale, eau et sécurité, et meilleures randonnées à"
 heroImage: /images/regions/negev/desert.jpg
 category: Aventure
 updatedAt: 2026-06-25

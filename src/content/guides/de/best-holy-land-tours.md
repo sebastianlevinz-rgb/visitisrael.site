@@ -1,6 +1,6 @@
 ---
-title: "Die besten Heilig-Land-Touren: Christliche Israel-Touren im Vergleich (2026)"
-description: "Heilig-Land-Touren im Vergleich: Gruppenwall­fahrten, private christliche Reiseführer, Tagesausflüge nach Bethlehem und Galiläa — wie Sie wählen, was es kostet und wo Sie buchen."
+title: "Heilig-Land-Touren: Christliche Israel-Touren im Vergleich"
+description: "Heilig-Land-Touren im Vergleich: Gruppenwall­fahrten, private christliche Reiseführer, Tagesausflüge nach Bethlehem und Galiläa — wie Sie wählen, was es"
 heroImage: /images/regions/galilee/sea-of-galilee.jpg
 category: Touren
 verdictName: Heilig-Land-Touren

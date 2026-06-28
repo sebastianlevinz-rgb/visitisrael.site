@@ -1,6 +1,6 @@
 ---
 title: "Tel Aviv oder Jerusalem: Welche Stadt sollten Sie besuchen?"
-description: "Tel Aviv oder Jerusalem? Ein direkter Vergleich der beiden großen Städte Israels — Atmosphäre, Sehenswürdigkeiten, Strände, Küche, Nachtleben, Schabbat und welche als Basis taugt."
+description: "Tel Aviv oder Jerusalem? Ein direkter Vergleich der beiden großen Städte Israels — Atmosphäre, Sehenswürdigkeiten, Strände, Küche, Nachtleben, Schabbat und"
 heroImage: /images/regions/tel-aviv/hero.jpg
 category: Vergleich
 updatedAt: 2026-05-22

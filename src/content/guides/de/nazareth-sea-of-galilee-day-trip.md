@@ -1,6 +1,6 @@
 ---
-title: "Nazareth & See Genezareth: Der Christliche Galiläa-Rundtrip (2026)"
-description: "Kompletter Reiseführer für den christlichen Galiläa-Tagesausflug — Nazareth, Kapernaum, Berg der Seligpreisungen, Tabgha und Taufstätte Yardenit — mit Kosten, Logistik und allem Wissenswerten."
+title: "Nazareth & See Genezareth: Christlicher Galiläa-Rundtrip"
+description: "Kompletter Reiseführer für den christlichen Galiläa-Tagesausflug — Nazareth, Kapernaum, Berg der Seligpreisungen, Tabgha und Taufstätte Yardenit — mit Kosten,"
 heroImage: /images/regions/galilee/hero.jpg
 category: Touren
 verdictName: Galilee day trip

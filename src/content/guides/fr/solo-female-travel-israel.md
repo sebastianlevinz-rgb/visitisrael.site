@@ -1,6 +1,6 @@
 ---
 title: "Voyager seule en Israël : guide honnête de sécurité (2026)"
-description: "Israël est-il sûr pour les femmes voyageant seules ? Notes ville par ville, conseils de transport, sécurité des quartiers, hébergements recommandés et conseils pratiques — honnêtes, sans alarmisme."
+description: "Israël est-il sûr pour les femmes voyageant seules ? Notes ville par ville, conseils de transport, sécurité des quartiers, hébergements recommandés et"
 heroImage: /images/sub-destinations/tel-aviv/tayelet.jpg
 category: Planification
 updatedAt: 2026-06-27

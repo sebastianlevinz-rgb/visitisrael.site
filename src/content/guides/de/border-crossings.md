@@ -1,6 +1,6 @@
 ---
-title: "Grenzübergänge von Israel nach Jordanien und Ägypten: Praktischer Reiseführer"
-description: "Die drei Übergänge nach Jordanien und der Übergang nach Ägypten (Taba) erklärt — welchen Sie für Petra, Amman und den Sinai nutzen, mit Gebühren, Visa und Tipps."
+title: "Grenzübergänge Israel: Jordanien & Ägypten – Reiseführer"
+description: "Die drei Übergänge nach Jordanien und der Übergang nach Ägypten (Taba) erklärt — welchen Sie für Petra, Amman und den Sinai nutzen, mit Gebühren, Visa und"
 heroImage: /images/regions/eilat/hero.jpg
 category: Planung
 updatedAt: 2026-05-20

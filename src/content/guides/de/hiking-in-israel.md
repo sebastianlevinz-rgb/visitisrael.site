@@ -1,6 +1,6 @@
 ---
 title: "Wandern in Israel: Nationaltrail und Jesus Trail"
-description: "Wanderführer für Israel: der Nationaltrail (Shvil Yisrael) und der Jesus Trail — beste Abschnitte, ideale Jahreszeit, Wasserversorgung und Sicherheit sowie die besten Tageswanderungen."
+description: "Wanderführer für Israel: der Nationaltrail (Shvil Yisrael) und der Jesus Trail — beste Abschnitte, ideale Jahreszeit, Wasserversorgung und Sicherheit sowie"
 heroImage: /images/regions/negev/desert.jpg
 category: Abenteuer
 updatedAt: 2026-06-25

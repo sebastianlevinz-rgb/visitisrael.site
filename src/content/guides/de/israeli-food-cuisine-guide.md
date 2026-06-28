@@ -1,6 +1,6 @@
 ---
 title: 'Israelische Küche: Der vollständige Guide zum Essen in Israel'
-description: 'Ein landesweiter Guide zur israelischen Küche — die Gerichte, die man probiert haben muss, regionale Spezialitäten, die besten Lebensmittelmärkte und Ernährungshinweise für Reisende.'
+description: "Ein landesweiter Guide zur israelischen Küche — die Gerichte, die man probiert haben muss, regionale Spezialitäten, die besten Lebensmittelmärkte und"
 heroImage: /images/regions/jerusalem/mahane-yehuda.jpg
 category: Gastronomie
 updatedAt: 2026-06-17

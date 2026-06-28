@@ -1,6 +1,6 @@
 ---
 title: 'Die besten Touren und Ausflüge in Israel (2026)'
-description: 'Die besten geführten Touren und Tagesausflüge in Israel: Jerusalemer Altstadt, Masada und Totes Meer, Petra von Eilat aus, Galiläa und mehr — wie man wählt und wo man bucht.'
+description: "Die besten geführten Touren und Tagesausflüge in Israel: Jerusalemer Altstadt, Masada und Totes Meer, Petra von Eilat aus, Galiläa und mehr — wie man wählt"
 heroImage: /images/regions/dead-sea/hero.jpg
 category: Touren
 updatedAt: 2026-05-27
