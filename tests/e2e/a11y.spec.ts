@@ -126,6 +126,7 @@ const ROUTES = [
   '/fr/luxury-travel-israel',
   '/de/luxury-travel-israel',
   '/tel-aviv-carmel-market',
+  '/tel-aviv-neighborhoods-guide',
   '/search',
   '/404',
 ];
