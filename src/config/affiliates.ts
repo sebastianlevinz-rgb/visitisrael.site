@@ -33,6 +33,7 @@ export const AFFILIATE_IDS = {
   KIWITAXI_MARKER: env('PUBLIC_KIWITAXI_MARKER', 'KIWITAXI_MARKER'),
   DISCOVERCARS_AID: env('PUBLIC_DISCOVERCARS_AID', 'DISCOVERCARS_AID'),
   TIQETS_PARTNER: env('PUBLIC_TIQETS_PARTNER', 'TIQETS_PARTNER'),
+  AMAZON_ASSOCIATE_TAG: env('PUBLIC_AMAZON_ASSOCIATE_TAG', 'AMAZON_ASSOCIATE_TAG'),
 } as const;
 
 export type Partner =
@@ -171,4 +172,12 @@ export function affiliateUrl(
         q: search,
       })}`;
   }
+}
+
+/** Build an Amazon product search URL with the associate tag. */
+export function amazonSearchUrl(keywords: string): string {
+  return `https://www.amazon.com/s?${q({
+    k: keywords,
+    tag: AFFILIATE_IDS.AMAZON_ASSOCIATE_TAG,
+  })}`;
 }

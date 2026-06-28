@@ -662,3 +662,41 @@ test.describe('Shabbat countdown tool', () => {
     await expect(link).toBeVisible();
   });
 });
+
+test.describe('Packing list affiliate badges', () => {
+  test('renders shop badges for affiliate items', async ({ page }) => {
+    await page.goto('/israel-packing-list');
+    const badges = page.locator('.shop-badge');
+    await expect(badges).not.toHaveCount(0);
+    // Each badge must link to Amazon with a tag parameter
+    const hrefs = await badges.evaluateAll((els: HTMLAnchorElement[]) =>
+      els.map((a) => a.href),
+    );
+    for (const href of hrefs) {
+      expect(href).toContain('amazon.com/s');
+      expect(href).toContain('tag=');
+    }
+  });
+
+  test('shop badge has accessible aria-label and opens externally', async ({ page }) => {
+    await page.goto('/israel-packing-list');
+    const firstBadge = page.locator('.shop-badge').first();
+    await expect(firstBadge).toHaveAttribute('aria-label', /shop/i);
+    await expect(firstBadge).toHaveAttribute('target', '_blank');
+    await expect(firstBadge).toHaveAttribute('rel', /noopener/);
+  });
+
+  test('each shop badge points to a distinct Amazon search', async ({ page }) => {
+    await page.goto('/israel-packing-list');
+    const hrefs = await page.locator('.shop-badge').evaluateAll((els: HTMLAnchorElement[]) =>
+      els.map((a) => new URL(a.href).searchParams.get('k')),
+    );
+    // Each badge has a non-empty search query
+    for (const k of hrefs) {
+      expect(k).toBeTruthy();
+    }
+    // Queries are distinct (each item links to a different product search)
+    const unique = new Set(hrefs);
+    expect(unique.size).toBe(hrefs.length);
+  });
+});
