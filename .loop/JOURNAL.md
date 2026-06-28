@@ -2984,3 +2984,24 @@ Net-new items: 1 — /passover-in-israel (P2, S) — dedicated Passover guide di
   competitors: touristisrael.com/passover-in-jerusalem, touristisrael.com/passover-in-tel-aviv,
   totallyjewishtravel.com, israelmaven.com/pesach-programs-israel, passoverlistings.com all rank.
 State: advanced to iter 155 RESEARCH; next iter 156 = BUILD/monetization.
+
+## 2026-06-28T22:35Z · iter 156 · BUILD/seo-content+monetization · /tel-aviv-carmel-market
+Mode: BUILD/monetization (156%5==1). Pure monetization backlog section fully shipped (all 10 items SHIPPED). Fell through to highest-priority seo-content+monetization P2/S item: Tel Aviv Carmel Market complete guide.
+Built: src/content/guides/tel-aviv-carmel-market.md — dedicated Shuk HaCarmel guide:
+  - Market layout (north produce / south goods; Nahalat Binyamin artisan market Tue+Fri)
+  - Street food stalls: burekas, pomegranate juice, knafeh, falafel, roasted corn/sweet potato
+  - Friday-evening transformation: 2pm Shabbat close → 5pm bar strip (distinct from nightlife guide)
+  - HaBasta restaurant (farm-to-table, advance booking required)
+  - The Port north-end boutique bar/wine/vinyl
+  - 6 FAQs covering hours, best time, what to eat/buy, guided tours, getting there
+  - Practical: hours Mon–Fri 8am–dusk closed Sat; cash preferred; accessibility note
+  Monetization: GYG "Carmel Market food tour" CTA + Civitatis "Tel Aviv & Jaffa food tour" CTA
+  Discoverability: footer link added (after "Israeli food"); tel-aviv-food-guide.md Carmel Market
+    bullet updated to deep-link /tel-aviv-carmel-market; dense internal links throughout content
+  Smoke + a11y tests: +1 route each → 368 total (was 366)
+Gate:
+  pnpm check: 0 errors (117 files) ✓
+  pnpm build: 304 pages (was 303; +1) ✓
+  pnpm test:e2e: 368 passed (0 failed) ✓
+Ship: committed 1e9088a to master, pushed. CI (run 28338317454) + Lighthouse (run 28338317463) in_progress at turn-end. Previous run (e89a5e9) was success.
+Next: iter 157 = BUILD/seo-content (157%5==2). Top candidate: /jerusalem-food-guide (P2, M) or /day-trips-from-haifa (P2, M) or Tel Aviv neighborhood hubs (P1, M).
