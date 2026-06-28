@@ -2599,3 +2599,23 @@ De-duped (confirmed already in backlog): israel-surfing (iter105), rosh-hanikra 
 western-galilee-guide (iter85), horseback-riding (iter110). Eilat guide = in backlog.
 No ship. .loop/ files updated + committed.
 Next: iter 136 = BUILD/monetization.
+
+## 2026-06-28 · iter 136 · BUILD/seo-content (fell through from monetization) · jordan-river-baptism
+Mode: BUILD/monetization (136%5==1) → monetization category fully shipped → fell through to seo-content per playbook.
+Item: Jordan River baptism sites guide (/jordan-river-baptism) — P2, S, seo-content+monetization.
+What: New guide comparing Yardenit (Sea of Galilee outflow; 500k visitors/year; robe rental, facilities;
+  privately managed by Kibbutz Kinneret) vs Qasr el-Yahud (Jordan Valley near Jericho; INPA-managed;
+  traditionally identified as Jesus's baptism site; multiple denomination churches on-site). Includes
+  facilities comparison table, what-to-bring checklist, individual vs organised ceremony logistics,
+  photography etiquette (do not photograph other worshippers), and 3 affiliate CTAs (GetYourGuide,
+  Viator, Civitatis — Bein Harim not registered partner). HONESTY: Qasr el-Yahud framed as
+  "traditionally identified as" throughout; hours deferred to official INPA + Yardenit sites.
+  Cross-links added: christian-pilgrimage-holy-land.md (baptism section → /jordan-river-baptism);
+  nazareth-sea-of-galilee-day-trip.md (Yardenit bullet → links to /jordan-river-baptism).
+  Smoke test added for /jordan-river-baptism.
+Gate: pnpm check 0 errors; build 263 pages (+1); 311/311 e2e+a11y pass.
+Ship: squash-merged to master 95bdf04, pushed origin.
+Prod: GitHub Actions CI = failure — same pre-existing Lighthouse pattern as all recent commits (iters
+  132–135 all show same). Not a regression. Local gate fully green. No revert done.
+Next: iter 137 = BUILD/seo-content (i18n batch 12: jaffa-travel-guide, tel-aviv-food-guide,
+  israeli-food-cuisine-guide, masada-dead-sea-day-trip, israel-money-guide fr+de).
