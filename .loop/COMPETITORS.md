@@ -1979,3 +1979,25 @@ horseback riding (P2, S, iter110). No competitor tool gaps identified beyond exi
 **De-duped this iteration**: israel-surfing (/israel-surfing, P2, S) was a candidate but confirmed already in backlog at iter105 (re-confirmed de-duped at iter135); golan-heights-wineries (iter135) is wine-specific, NOT a general Golan visitor guide so new destination guide is distinct; israel-unesco-sites (iter125) covers Incense Route in 3–4 sentences within 9-site hub — dedicated Nabataean guide is distinct.
 
 5 net-new items added to BACKLOG. Backlog now ~135 ready items.
+
+---
+
+### 2026-06-28 · iter145 · RESEARCH — Wine tourism, Northern circuit, Group travel, Hermon ski, Budget-by-style, Packing affiliate
+
+Searches: winetourism.com/wine-country/israel, ottoisrael.com/blog/israel-wine-regions, golanwinetour.com, goisrael.com/wine; nomadicmatt.com/northern-israel-road-trip, travelingisrael.com/galilee-self-drive, wanderlog.com/israel; beinharimtours.com/group-tours, abrahamtours.com/group, pilgrimtours.com, eo-tours.com; skihermon.co.il, israel21c.org/ski-israel-guide-to-mount-hermon, lonelyplanet.com/israel/outdoor-activities; nomadicmatt.com/budget-travel/israel, budgetyourtrip.com/israel, onesostep4ward.com/israel-budget-travel; alltrails.com/israel (hiking/packing research).
+
+**Israel wine tourism hub gap confirmed (P2, M)** — WineTourism.com, ottoisrael.com, golanwinetour.com, and goisrael.com all maintain multi-region wine guides. Our golan-heights-wineries (BACKLOG, Golan-only) and judean-hills-wine-trail (BACKLOG, Judean Hills-only) are region-specific; no page covers all 5 Israeli wine regions in a single hub targeting "Israel wine regions" query. Hub format (comparison table by region: Golan, Galilee, Judean Hills, Shomron, Negev) + GYG wine tour affiliate CTAs is the most-shared format. High affiliate revenue potential (wine tourists spend 2-3× average tourist spend).
+
+**Northern Israel self-drive gap confirmed (P2, M)** — Nomadic Matt, travelingisrael.com, wanderlog.com, and Tourist Israel all have dedicated Northern Israel road trip content. Our /israel-road-trip (BACKLOG) covers national full-country loop; no 3-4 day Galilee+Golan focused circuit guide exists. This circuit (TLV → Caesarea → Haifa/Akko → Rosh Hanikra → Sea of Galilee → Nazareth → Golan → TLV) is confirmed as one of the most-booked Israel self-drive formats. Strong discovercars.com affiliate angle.
+
+**Israel group travel planning gap confirmed (P2, M)** — Bein Harim, Abraham Tours, Seagull Tours, TourRadar, Pilgrim Tours, EO Tours all have dedicated group-travel sales pages but no single authoritative planning guide exists on competitor travel sites. Confirmed ~30-40% of Israel tourism = group travel (Ministry of Tourism data). Zero group-specific guide on our site. Highest per-page affiliate revenue potential (group bookings = 20-50+ travelers). Licensed Israeli guide requirements (Ministry of Tourism mandate at many sites) is genuinely useful planning info that differentiates this from generic tour-search pages.
+
+**Mount Hermon ski gap confirmed (P3, S)** — skihermon.co.il, israel21c.org, and Lonely Planet reference Hermon as Israel's only ski resort. iter53 adventure hub has one-bullet mention. No competitor travel site has a comprehensive standalone ski guide. Unique angle ("skiing in the Middle East") is inherently shareable + linkbait content. Seasonal traffic spike Jan-Mar.
+
+**Budget-by-traveler-style gap confirmed (P3, S)** — Nomadic Matt and Budget Your Trip segment Israel costs by traveler type (backpacker/mid/luxury) in a narrative format. Our cost calculator (iter88) is a tool; israel-cost-budget.md is a general guide. Neither has the per-persona breakdown + vendor-recommendation format that captures "Israel backpacker vs mid vs luxury cost" head-terms.
+
+**Packing tool monetization gap** — Our packing list tool has zero affiliate monetization. AllTrails, Lonely Planet, and Nomadic Matt all link gear on their packing pages (Amazon Associates). Adding Amazon gear links to packing items is the lowest-effort monetization enhancement available.
+
+DE-DUPED this iteration: Rav-Kav guide (SHIPPED iter98), solo female travel (SHIPPED iter127), holiday impact planner (SHIPPED iter103), Shabbat countdown (SHIPPED iter138), Bedouin camping (BACKLOG iter60), accessible travel (BACKLOG iter30), Christmas+winter guide (BACKLOG iter45 as /christmas-in-israel), Michelin fine dining (BACKLOG iter130), Caesarea guide (SHIPPED iter111), food tours & cooking classes (SHIPPED iter42).
+
+6 net-new items added to BACKLOG. Backlog now ~141 ready items.

@@ -2801,3 +2801,24 @@ Gate: pnpm check 0 errors; build 285 pages (unchanged); 338/338 e2e+a11y pass.
 Ship: squash-committed to master 398c715, pushed.
 Prod: Vercel deploy in_progress (content-only change; pre-existing CI pattern).
 Next: iter 145 = RESEARCH (145%5==0).
+
+## 2026-06-28 · iter 145 · RESEARCH · wine tourism, Northern circuit, group travel, Hermon ski, budget-by-style, packing affiliate
+Mode: RESEARCH (145%5==0). Last research was iter 140; 5 iterations since last research pass.
+Env note: local master was behind origin/master on startup (local at 64e33b6, origin at 27a5366 — fresh
+  cloud env had a pre-existing stale checkout). `git reset --hard origin/master` realigned to iter 144
+  state before starting work.
+Research method: Explore subagent fetched touristisrael.com, lonelyplanet.com, getyourguide.com,
+  nomadicmatt.com, winetourism.com, alltrails.com/israel, budgetyourtrip.com/israel, skihermon.co.il
+  + manual cross-check against BACKLOG.md and DONE.md.
+Agent returned 12 findings; 6 confirmed net-new after thorough de-duplication:
+  1. Israel wine tourism hub — P2, monetization+seo, M — /israel-wine-regions
+  2. Northern Israel self-drive circuit — P2, seo+monetization, M — /northern-israel-road-trip
+  3. Israel group travel planning guide — P2, seo+monetization, M — /israel-group-travel
+  4. Mount Hermon ski guide — P3, seo-content, S — /mount-hermon-skiing
+  5. Israel trip cost by travel style — P3, seo-content, S — /israel-trip-cost-by-style
+  6. Packing list affiliate gear links enhancement — P3, monetization, S — (tool enhancement)
+Gate: N/A (RESEARCH mode — no build, no gate).
+Ship: None. Loop state committed to master.
+Prod: No deploy.
+Next: iter 146 = BUILD/monetization (146%5==1). Top candidate: Israel luxury travel guide (P1,
+  iter140) or Israel wine tourism hub (P2, iter145) or Israel group travel guide (P2, iter145).
