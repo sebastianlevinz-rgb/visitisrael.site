@@ -103,7 +103,7 @@ Am Ende des Weges bietet eine Plattform einen direkten Blick auf Höhle 4 — al
 
 **Anreise:** Kein Direktbus bis zum Parkeingang. Möglichkeiten:
 
-- **Mietwagen** (flexibelste Option): direkte Fahrt auf Straße 90 ab Jerusalem (40 Min.) oder von den Hotelhotels Ein Bokek (20 Min. nördlich). Siehe unseren [Mietwagen-Guide](/fr/car-rental-israel).
+- **Mietwagen** (flexibelste Option): direkte Fahrt auf Straße 90 ab Jerusalem (40 Min.) oder von den Hotelhotels Ein Bokek (20 Min. nördlich). Siehe unseren [Mietwagen-Guide](/de/car-rental-israel).
 - **Geführte Tour** (praktischste Option): viele Totes-Meer-Touren ab Jerusalem und Tel Aviv können Qumran einschließen — Itinerare genau prüfen, da viele es auslassen.
 - **Sherut-Sammeltaxi**: ab Jerusalem in Richtung Jericho / Totes Meer; am Qumran-Abzweig aussteigen.
 
