@@ -2854,3 +2854,21 @@ FR count: 45 guides (home + plan-your-trip + 45 guides = 47 locale pages).
 DE count: 45 guides (home + plan-your-trip + 45 guides = 47 locale pages).
 Next: iter 148 = BUILD/tools (148%5==3). No tools items in BACKLOG — likely fall-through to
   BUILD/technical (bulk locale-link correction pass, P2).
+
+## 2026-06-28 · iter 148 · BUILD/technical (tools fallthrough) · bulk locale-link correction
+What: All tools BACKLOG items were SHIPPED; fell through to technical per PLAYBOOK §2.
+  Bulk locale-link correction pass across 81 FR+DE guide files (40 FR + 41 DE).
+  Problem: iteratively-batched i18n guides (iters 122–147) contained cross-links like
+  ]( /caesarea-guide ) when /fr/caesarea-guide exists — readers were dropped to EN pages.
+  Fix: scripts/fix-locale-links.mjs builds the slug set per locale from the guides directory,
+  then rewrites ]( /<slug> ) → ]( /fr/<slug> ) / ]( /de/<slug> ) in body text only (frontmatter
+  untouched). Region/city/tool pages without locale equivalents (/galilee, /jerusalem,
+  /israel-esim, /where-to-stay/*, etc.) left as-is — correctly unchanged.
+  Result: 113 FR links + 106 DE links upgraded across 81 files.
+Gate:
+  pnpm check: 0 errors (117 files) ✓
+  pnpm build: 294 pages (unchanged count) ✓
+  pnpm test:e2e: 347 passed (0 failed) ✓
+Ship: squash-committed to master 6bcc717, pushed.
+Prod: Vercel deployment triggered. Pre-existing Lighthouse CI infra failure (same as iters 142–147, not a regression).
+Next: iter 149 = REVIEW (149%5==4). Top candidate: audit locale-link correction + batch 14 content.

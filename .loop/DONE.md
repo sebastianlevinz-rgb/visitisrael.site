@@ -208,3 +208,4 @@ Value: FR/DE audiences now get natively authored destination guides for 4 key no
 sites — Nazareth (Christian pilgrimage + Arab-Israeli culture), Caesarea (Roman archaeology),
 Akko (UNESCO Crusader city), Safed (Kabbalistic Judaism). Each with 3 affiliate CTAs + FAQs.
 FR/DE guide count now 45 each (47 locale pages incl. home + plan-your-trip).
+- Bulk locale-link correction (iter 148) — 6bcc717 — 219 cross-locale links in 81 FR+DE guide files upgraded from /<slug> to /fr/<slug> or /de/<slug>; region/tool pages unchanged. Fixes systemic issue found iter 144 REVIEW. [technical]
