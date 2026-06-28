@@ -2822,3 +2822,15 @@ Ship: None. Loop state committed to master.
 Prod: No deploy.
 Next: iter 146 = BUILD/monetization (146%5==1). Top candidate: Israel luxury travel guide (P1,
   iter140) or Israel wine tourism hub (P2, iter145) or Israel group travel guide (P2, iter145).
+
+## 2026-06-28 · iter 146 · BUILD/monetization · luxury-travel-israel guide
+Mode: BUILD/monetization (146%5==1). Selected: Israel luxury travel guide (/luxury-travel-israel, P2 monetization, iter60 research).
+Chosen over newer items (wine tourism hub, Northern circuit, group travel — all iter145) because luxury guide had been waiting since iter60 and offers highest per-booking affiliate value (5-star hotels + private luxury tour packages).
+What: new /luxury-travel-israel guide covering 5-star hotels by city (Jerusalem: Waldorf Astoria + King David; Tel Aviv: The Norman + Dan; Dead Sea: Kempinski + Herods), private licensed guide costs ($350–700+/day ranges), VIP experiences (City of David private archaeologist, Machane Yehuda private chef's experience, Golan boutique winery with sommelier, dawn Masada ascent, Negev desert 4×4, helicopter charter mention), Shabbat planning for luxury travellers, how-to-book section. 3 affiliate CTAs (TourRadar luxury packages, Abraham private days, Booking.com luxury filter). 5 FAQs. Honesty: price ranges only, no fabricated ratings/reviews, no aggregateRating JSON-LD, hotels framed as "recently recognised" not permanent guarantee. Wired: Footer adds "Luxury travel" link; private-tours-israel.md "Plan your trip" section cross-links to new guide.
+Gate:
+  pnpm check: 0 errors (116 files) ✓
+  pnpm build: 286 pages (+1 vs iter 145's 285) ✓
+  pnpm test:e2e: 339 passed (0 failed; +1 smoke route for /luxury-travel-israel) ✓
+Ship: committed to master 69c7fee, pushed. CI pre-existing infra failure (same pattern as all prior commits — not a regression; Lighthouse + CI fail on every commit in this repo's current CI setup).
+Prod: Vercel deployment triggered by push; pre-existing CI infra issue confirmed same as iters 142-145.
+Next: iter 147 = BUILD/seo-content (147%5==2). Top candidate: i18n batch 14 (nazareth-travel-guide + more fr/de), or Jerusalem food guide, or Haifa travel guide.
