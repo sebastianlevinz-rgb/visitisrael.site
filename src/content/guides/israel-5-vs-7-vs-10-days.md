@@ -22,6 +22,7 @@ The most common planning question for Israel is simply: **how long?** The countr
 | **5 days** | Jerusalem + Tel Aviv + one big day trip (Dead Sea/Masada) | The north and the south |
 | **7 days** | The above + the Galilee/north *or* deeper city time | Eilat, the Negev, Petra |
 | **10 days** | Adds Eilat + Petra + Negev, *or* a full northern loop | Little — a complete first trip |
+| **14 days** | All of the above + City of David, Bethlehem, Negev overnight | Nothing — the full country at a relaxed pace |
 
 ## 5 days — the essentials
 
@@ -35,6 +36,10 @@ The [classic week](/itineraries/7-days-in-israel): Jerusalem, the Dead Sea and T
 
 Everything in the week, plus the **south**: fly or drive to [Eilat](/eilat) for the Red Sea, a [Petra day trip](/petra-from-eilat-vs-amman), and the [Negev](/negev) desert and Makhtesh Ramon. Or stay north and go deep into the [Golan Heights](/golan) and the Galilee. Ten days makes a truly rounded first visit.
 
+## 14 days — the whole country at a relaxed pace
+
+The [two-week itinerary](/itineraries/14-days-in-israel) adds what the 10-day route skips: a morning underground in [Hezekiah's Tunnel at the City of David](/jerusalem/city-of-david), an afternoon in [Bethlehem](/jerusalem) and the Church of the Nativity, an overnight in the [Negev](/negev) at Mitzpe Ramon for crater hiking and dark-sky stargazing, and a **full day** in [Petra](/petra-from-eilat-vs-amman) (rather than the rushed day-trip version). This is the pace at which nothing feels rushed.
+
 ## Our recommendation
 
-For most first-timers, **seven days** is the sweet spot. Tight on time? The 5-day essentials still deliver. Got the holiday? Ten days leaves you wanting nothing. Compare routes on the [itineraries page](/itineraries) and price them with the [cost guide](/israel-cost-budget).
+For most first-timers, **seven days** is the sweet spot. Tight on time? The 5-day essentials still deliver. Got the holiday? Ten days leaves you wanting nothing. Two full weeks? The [14-day itinerary](/itineraries/14-days-in-israel) covers the whole country without a single rushed morning. Compare routes on the [itineraries page](/itineraries) and price them with the [cost guide](/israel-cost-budget).
