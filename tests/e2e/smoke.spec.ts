@@ -142,6 +142,16 @@ const ROUTES = [
   '/de/masada-dead-sea-day-trip',
   '/fr/israel-money-guide',
   '/de/israel-money-guide',
+  '/fr/jordan-river-baptism',
+  '/de/jordan-river-baptism',
+  '/fr/nazareth-sea-of-galilee-day-trip',
+  '/de/nazareth-sea-of-galilee-day-trip',
+  '/fr/jerusalem-bethlehem-day-trip',
+  '/de/jerusalem-bethlehem-day-trip',
+  '/fr/tel-aviv-nightlife',
+  '/de/tel-aviv-nightlife',
+  '/fr/israel-accommodation-guide',
+  '/de/israel-accommodation-guide',
   '/search',
 ];
 
