@@ -3414,3 +3414,27 @@ Gate: pnpm check 0 errors (117 files) · pnpm build 347 pages (unchanged) · pnp
 Ship: committed cec46a2 to master, pushed. Branch auto/dead-sea-sinkhole-update deleted.
 Prod: CI in_progress at push (standard pattern). Previous commits all succeeded.
 Next: iter 177 = BUILD (seo-content priority). i18n batch 18 (13 untranslated EN guides) or Druze/Carmel guide (S).
+
+## 2026-06-29 · iter 177 · BUILD (i18n) · batch 18 part 2 — eilat-tours-compared + tel-aviv-tours-compared + eilat-diving-snorkeling → FR+DE
+
+Mode: BUILD (177%5==2, seo-content rotation). i18n batch 18 continuation (P1 priority).
+Startup: git pull --ff-only → master at 2c38ba6 (iter 176 state). Clean. No leftover branches.
+Item: 3 EN guides translated to FR and DE (6 new locale pages).
+
+Guides translated:
+  - eilat-tours-compared: Red Sea snorkeling/boat, scuba diving, Eilat Mountains jeep safari,
+    Dolphin Reef, Petra day trips — comparison table + how-to-choose section.
+  - tel-aviv-tours-compared: Old Jaffa walking tours, White City Bauhaus tours, food & Carmel
+    Market tours, nightlife tours, private city guide — comparison table + how-to-choose.
+  - eilat-diving-snorkeling: Coral Beach Reserve, best dive sites, snorkeling vs diving,
+    seasons/conditions, costs, practical tips, beyond-the-reef section.
+
+All 6 files follow established FR/DE YAML format. Paired-naming not required (no contested sites).
+Brand names/place-names preserved (Jaffa, Bauhaus, PADI, Eilat, Timna Park, Petra, etc.).
+Prices presented as ranges only (₪ / $) — no fabricated exact prices.
+
+Gate: pnpm check 0 errors (117 files) · pnpm build 353 pages (+6) · pnpm test:e2e 434/434 pass. GREEN.
+Smoke tests +6 routes (/fr/eilat-tours-compared, /de/eilat-tours-compared, /fr/tel-aviv-tours-compared, /de/tel-aviv-tours-compared, /fr/eilat-diving-snorkeling, /de/eilat-diving-snorkeling).
+Ship: committed c7674a6 to master, pushed. Branch auto/i18n-batch18-part2 deleted.
+Prod: CI in_progress at push (standard). 10 guides remain in batch 18; also 1-day-jerusalem-itinerary needs FR+DE.
+Next: iter 178 = BUILD (tools rotation or continue i18n batch 18). fr/de: 72 locale pages each.

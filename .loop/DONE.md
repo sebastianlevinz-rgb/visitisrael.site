@@ -295,3 +295,7 @@ sinkhole danger. Updated all 3 locale variants: replaced Ein Gedi section with c
 corrected 2 FAQs, removed Ein Gedi references from mineral mud + packing sections, added
 sinkhole context (7,000+ since 1980s), clarified that Ein Gedi NATURE RESERVE (hiking) remains
 open. 347 pages (unchanged). 428/428 e2e+a11y pass.
+
+## iter 177 · i18n batch 18 part 2 · SHA c7674a6
+eilat-tours-compared + tel-aviv-tours-compared + eilat-diving-snorkeling translated to FR+DE.
+6 new locale pages; 353 pages built; 434 e2e+a11y tests pass. fr/de now 70 guides each (72 locale pages each).
