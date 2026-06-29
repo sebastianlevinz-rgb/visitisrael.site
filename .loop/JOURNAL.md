@@ -3252,3 +3252,20 @@ Prod: CI + Lighthouse in_progress at push (runs 28369297344 + 28369297349) — p
 fr/de count: 63 guides each (65 locale pages incl. home + plan-your-trip). 337 pages built.
 Remaining batch 18 untranslated: 16 EN guides.
 Next: iter 169 = REVIEW (169%5==4). Review recent i18n batch 18 pages + tool correctness.
+
+## 2026-06-29 · iter 169 · REVIEW · audit recent i18n batch 18 DE pages for locale-link bugs
+Mode: REVIEW (169%5==4). Scope: 5 DE guides shipped in iters 167–168 (petra-from-israel,
+  dead-sea-israel-vs-jordan, tel-aviv-to-jerusalem, jerusalem-food-guide, day-trips-from-haifa).
+Checks: (1) locale-link correctness (no /fr/ in DE files, no /de/ in FR files); (2) verify FR
+  guides were clean; (3) confirm all target locale pages exist.
+Findings: 7 /fr/ links in 3 DE files — same defect class as iter 148 bulk fix. Affected:
+  de/petra-from-israel.md (2 links: /fr/border-crossings, /fr/best-tours-in-israel);
+  de/dead-sea-israel-vs-jordan.md (2 links: /fr/border-crossings, /fr/dead-sea-guide);
+  de/tel-aviv-to-jerusalem.md (3 links: /fr/transportation ×2, /fr/tel-aviv-vs-jerusalem).
+  All 5 target DE pages confirmed to exist. FR guides: zero /de/ links — clean.
+  jerusalem-food-guide (de+fr) and day-trips-from-haifa (de+fr) — no locale-link issues.
+Fix: branch auto/review-169-de-locale-links → 7 link corrections → squash-merged to master.
+Gate: pnpm check 0 errors; pnpm build 337 pages (unchanged count); pnpm test:e2e 416/416 PASS.
+Ship: committed 2467b26 to master, pushed. CI+Lighthouse in_progress at state-write time.
+  Prior SHA 166616f5 CI+Lighthouse both SUCCESS — expected to pass.
+Next: iter 170 = RESEARCH (170%5==0).
