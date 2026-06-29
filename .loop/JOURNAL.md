@@ -3035,3 +3035,20 @@ Gate:
 Ship: committed 11a2006 to master, pushed. CI run 28341800920 + Lighthouse run 28341800941 in_progress at turn-end.
 fr/de guide count: 53 each (home + plan-your-trip + 51 guides). fr/de locale pages: 53 each.
 Next: iter 159 = REVIEW (159%5==4). Review batch 16 locale quality; check CI from iters 157+158.
+
+## 2026-06-29T01:17Z · iter 159 · REVIEW · batch 16 locale quality + CI confirmation
+What: Reviewed all 6 batch 16 locale pages (fr+de × israel-after-birthright, tel-aviv-carmel-market,
+  tel-aviv-neighborhoods-guide). Confirmed CI success for both pending runs from iters 157+158.
+  Session note: fresh cloud checkout had local master diverged from origin (no common ancestor); resolved
+  via git reset --hard origin/master before work — no .loop/ state was lost (all state is origin/master).
+CI check: iter 157 run 28339852631 = success ✓; iter 158 run 28341800920 = success ✓.
+Audit findings (all 6 files):
+  - H1 in body: 0 (all sections use ##) ✓
+  - Fabricated data: none (price ranges only; priceFrom on affiliateCtas = valid schema field) ✓
+  - Internal locale links: /fr/ and /de/ prefix applied where translations exist; unprefixed for EN-only pages ✓
+  - Attraction sub-page links (/tel-aviv/rothschild etc.): confirmed correct via attractionSlug() strip ✓
+  - Smoke spec coverage: all 6 routes at lines 172–177 ✓
+  - [tour guidé](#) bare anchor: intentional, matches EN original ✓
+  - Honesty: no aggregateRating/ratingValue; Westjordanland/Cisjordanie framing neutral ✓
+Result: CLEAN — zero issues; no BACKLOG entries filed; no fixes needed.
+Next: iter 160 = RESEARCH.
