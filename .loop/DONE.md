@@ -219,3 +219,10 @@ FR/DE guide count now 45 each (47 locale pages incl. home + plan-your-trip).
 ## iter 157 · 2026-06-28 · b17d802
 **Tel Aviv Neighborhoods Guide** (`/tel-aviv-neighborhoods-guide`)
 Comprehensive "best area to stay in Tel Aviv" hub covering Rothschild/White City, Neve Tzedek, Florentin, Old Jaffa and Beachfront/Hayarkon. Comparison table, per-neighborhood vibe/eat/stay/streets, 6 FAQs, 3 affiliate CTAs (Booking.com + GYG + Viator). Dense internal links to all existing Tel Aviv attraction pages and guides. 305 pages; 370 e2e tests.
+
+## iter 158 · i18n Batch 16 · 2026-06-29 · 11a2006
+**6 new locale pages (fr+de × 3 guides)**
+- `fr/israel-after-birthright.md` + `de/israel-after-birthright.md` — Birthright alumni return trip guide; category Planification/Planung; affiliate CTAs booking+GYG+discovercars
+- `fr/tel-aviv-carmel-market.md` + `de/tel-aviv-carmel-market.md` — Shuk HaCarmel visitor guide; category Gastronomie; CTAs GYG food tour + Civitatis Old Jaffa food tour
+- `fr/tel-aviv-neighborhoods-guide.md` + `de/tel-aviv-neighborhoods-guide.md` — Neighborhood comparison hub; category Destinations/Reiseziele; CTAs Booking.com+GYG+Viator
+FR/DE guide count: 53 each. 311 pages; 382 e2e tests pass.

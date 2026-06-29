@@ -3012,3 +3012,26 @@ What: New /tel-aviv-neighborhoods-guide guide page — comprehensive "which Tel 
 Gate: pnpm check 0 errors (117 files); pnpm build 305 pages (+1); check:links 0 broken/0 orphan/0 unreachable/0 deep; pnpm test:e2e 370/370 pass.
 Ship: squash-committed b17d802 to master, pushed. CI run 28339852631 + Lighthouse run 28339852632 in_progress at turn-end.
 Next: iter 158 = BUILD/tools (158%5==3); tools backlog has only P3 item — likely fall-through to seo-content or i18n Phase 3.
+
+## 2026-06-29T00:00Z · iter 158 · BUILD/i18n · Batch 16 (fr+de × israel-after-birthright + carmel-market + neighborhoods-guide)
+Mode: BUILD/tools (158%5==3) → fall-through to i18n Batch 16 (tools backlog only has P3 item; last i18n was iter 152, 6 BUILD iters ago; interleave rule applies).
+What: 6 new locale pages translating 3 recently-shipped EN guides into FR+DE:
+  - fr/israel-after-birthright.md + de/israel-after-birthright.md (EN shipped iter 151)
+  - fr/tel-aviv-carmel-market.md + de/tel-aviv-carmel-market.md (EN shipped iter 156)
+  - fr/tel-aviv-neighborhoods-guide.md + de/tel-aviv-neighborhoods-guide.md (EN shipped iter 157)
+Content notes:
+  - israel-after-birthright: FR category=Planification, DE category=Planung; affiliate CTAs booking+GYG+discovercars;
+    6 FAQs (visa, duration, West Bank, gaps, cost, safety); internal links use /fr/ or /de/ prefix only for
+    confirmed-translated guides, else unprefixed
+  - tel-aviv-carmel-market: FR+DE category=Gastronomie; CTAs GYG food tour + Civitatis Old Jaffa food tour;
+    6 FAQs; links to existing /fr|de/tel-aviv-food-guide, /fr|de/israeli-street-food-guide, /fr|de/jaffa-travel-guide
+  - tel-aviv-neighborhoods-guide: FR category=Destinations, DE category=Reiseziele; CTAs Booking.com+GYG+Viator;
+    6 FAQs; cross-batch link to /fr|de/tel-aviv-carmel-market (created same batch, safe to link)
+Test updates: smoke.spec.ts + a11y.spec.ts each +6 routes (fr+de × 3 guides) = 382 total tests.
+Gate:
+  pnpm check: 0 errors ✓
+  pnpm build: 311 pages (was 305; +6) ✓
+  pnpm test:e2e: 382/382 passed (+12) ✓
+Ship: committed 11a2006 to master, pushed. CI run 28341800920 + Lighthouse run 28341800941 in_progress at turn-end.
+fr/de guide count: 53 each (home + plan-your-trip + 51 guides). fr/de locale pages: 53 each.
+Next: iter 159 = REVIEW (159%5==4). Review batch 16 locale quality; check CI from iters 157+158.
