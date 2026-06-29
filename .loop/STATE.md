@@ -1,23 +1,23 @@
 # LOOP STATE
 
-- iteration: 174
-- lastMode: REVIEW (174%5==4) — audit iters 171-173; fixed over-length SEO meta on 2 guides + added 2 missing a11y test routes
-- lastItem: iter 174 REVIEW — /israel-evening-activities (title 63→52, desc 193→158) + /1-day-jerusalem-itinerary (title 62→55, desc 169→149); both added to a11y.spec.ts; SHA 0a50d49
-- lastResult: REVIEW SHIPPED — gate green (0 errors / 347 pages / 428 e2e pass); pushed to master; CI in_progress at push
-- nextRotationCategory: 175%5==0 → RESEARCH; or continue i18n batch 18 (13 EN guides still untranslated: cruise-shore-excursions-israel, eilat-diving-snorkeling, eilat-tours-compared, israel-base-city-guide, israel-tour-packages, israel-travel-apps, israel-wine-wineries, israel-zimmer-guide, petra-from-eilat-vs-amman, petra-tours-compared, private-tours-israel, tel-aviv-tours-compared + israel-evening-activities now translated)
+- iteration: 175
+- lastMode: RESEARCH (175%5==0) — visa checker tool, day-trips-from-eilat, water parks, military heritage, visa extension, dead-sea safety update, fine dining guide
+- lastItem: iter 175 RESEARCH — 7 net-new BACKLOG items (see BACKLOG.md + COMPETITORS.md for full details); no code changed; no gate run
+- lastResult: RESEARCH COMPLETE — 7 new items added to BACKLOG; 12 items de-duped (confirmed already in backlog or shipped); COMPETITORS.md updated; no shipping this turn
+- nextRotationCategory: 176%5==1 → BUILD (monetization priority; or i18n batch 18 — 13 EN guides still untranslated). Top P1 BUILD candidates: monetization = any high-intent money page; or i18n batch 18 next slug batch; or top P2 = Israel visa checker tool (tools/S)
 - higgsfieldSpent: 0
 - updatedAt: 2026-06-29
 - branch context: work on master; feature work on auto/<slug>
 
-Notes: iter 174 REVIEW — audited iters 171-173 (israel-evening-activities, i18n batch 18 transport guides FR+DE, 1-day-jerusalem-itinerary).
-  All internal links verified (all targets exist). Batch 18 transport FR+DE: no cross-locale link bugs. No honesty violations.
-  Bugs found and fixed:
-  (1) /israel-evening-activities: title 63 chars >60 → "Evening Activities in Israel: After-Dark Experiences" (52 chars); desc 193 chars >160 → 158 chars.
-  (2) /1-day-jerusalem-itinerary: title 62 chars >60 → "1 Day in Jerusalem: The Essential First-Timer Itinerary" (55 chars); desc 169 chars >160 → 149 chars.
-  (3) Both guides missing from a11y.spec.ts ROUTES array → added (428 tests, was 426).
-  428/428 e2e pass.
-  NEXT: iter 175 = RESEARCH (175%5==0). i18n batch 18 has 13 EN guides still untranslated — eligible for next BUILD iter (176).
+Notes: iter 175 RESEARCH — site now has 85 guides + 6 tools. Backlog ~127 ready items after this addition.
+  8 targeted web searches. All border crossing content already covered in border-crossings.md.
+  Dead Sea guide needs sinkhole safety update (Ein Gedi Beach permanently closed — ACCURACY GAP).
+  Visa checker tool = highest-priority new find (tools category, S effort, high SEO value per-country queries).
+  Day trips from Eilat = next best content gap (matches our day-trips-from-TLV format; GYG monetization).
+  Fine dining guide = good P2 monetization play once Michelin publishes Israel guide (announced but not yet active).
+  NEXT: iter 176 = BUILD. Rotate: monetization or tools (if visa checker is next) or i18n batch 18.
+  Priority suggestion: dead-sea-guide.md sinkhole safety update first (P2 accuracy fix, S effort) or visa checker tool (P2 tools S).
 
 Cron b7325b16 hourly @ :17. Loop history: 19 tools + sitemap-lastmod + link-checker(+depth) + i18n
-Phase0/1a/1b/1c/2 Batches1-18(partial) + 22 review passes + 3 technical (event-schema + meta-trim + locale-links) + 12 EN guides + 3 tools-monetization;
-research iters 5/10/20/30/35/40/45/50/55/60/65/70/75/80/85/90/95/100/105/110/115/120/125/130/135/140/145/150/155/160/165/170.
+Phase0/1a/1b/1c/2 Batches1-18(partial) + 23 review passes + 3 technical (event-schema + meta-trim + locale-links) + 12 EN guides + 3 tools-monetization;
+research iters 5/10/20/30/35/40/45/50/55/60/65/70/75/80/85/90/95/100/105/110/115/120/125/130/135/140/145/150/155/160/165/170/175.

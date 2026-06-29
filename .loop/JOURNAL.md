@@ -3370,3 +3370,24 @@ Gate: pnpm check 0 errors (117 files) · pnpm build 347 pages (unchanged) · pnp
 Ship: committed 0a50d49 to master, pushed. Branch auto/review-174-a11y-meta deleted.
 Prod: CI in_progress at push (standard pattern). Prior SHA 0d47d7d CI pattern: success expected.
 Next: iter 175 = RESEARCH (175%5==0). i18n batch 18 has 13 EN guides still untranslated — eligible for BUILD at iter 176.
+
+## 2026-06-29 · iter 175 · RESEARCH · visa-checker tool + Eilat day trips + water parks + military heritage + visa extension + Dead Sea update + fine dining
+
+Mode: RESEARCH (175%5==0). No code changed; no gate run; no shipping.
+Startup: git pull --ff-only → master advanced to b31f1f5 (iter 174 state commit). Clean.
+
+Research scope: 8 web searches across touristisrael.com, lonelyplanet.com, roughguides.com, backpackisrael.com, walkmyworld.com, igoogledisrael.com, piba.gov.il, guide.michelin.com, deadsea.com, plus full audit of 85 existing guide slugs vs 120+ backlog items.
+
+7 net-new BACKLOG items added:
+  (1) Israel visa/ETA nationality checker tool (tools, P2, S) — interactive JS dropdown per-country lookup; no competitor has this; ranks "[nationality] Israel visa 2026" per-country queries.
+  (2) Day trips from Eilat guide (seo+mon, P2, M) — same format as day-trips-from-TLV; covers Timna, Red Canyon, Coral Beach, Dolphin Reef, glass-bottom boats, Aqaba; GYG monetization.
+  (3) Israel water parks & summer family attractions (seo, P2, S) — Luna Gal, Shefayim, Aqua Kef; zero coverage on site; high summer intent.
+  (4) Israel military heritage sites for tourists (seo+mon, P2, S) — Latrun, Palmach Museum, IAF Museum Hatzerim, Ammunition Hill; distinct from jewish-heritage guide.
+  (5) Israel tourist visa extension guide (seo, P2, S) — Population Authority process, border-run gray area, MASA pathways; gap in visa-information.md.
+  (6) UPDATE dead-sea-guide.md: sinkhole zones + Ein Gedi closure 2026 (technical/accuracy, P2, S) — content accuracy fix; Ein Gedi Beach permanently closed; 7,000+ sinkholes; guide currently silent on this.
+  (7) Israel fine dining & culinary excellence guide (seo+mon, P2, S) — OCD, Pastel, Milgo & Milbar, Chakra; Michelin announced but unpublished; gap in culinary content.
+
+12 items de-duped (confirmed in backlog or already shipped; NOT re-added): glamping iter60, digital nomad iter30, photography iter30, things-not-to-do iter10, Jewish holidays shipped iter78+103, airport security in ben-gurion-airport-guide, border crossings guide exists, ETA-IL in visa-information.md, surfing iter105, campervan iter105, north road trip iter145, birdwatching iter50.
+
+Backlog now ~127 ready items.
+Next: iter 176 = BUILD (176%5==1). Priority: dead-sea-guide.md sinkhole safety update (accuracy fix, S) or Israel visa checker tool (tools, S) or i18n batch 18 (P1 i18n, next ~5 EN guides FR+DE).

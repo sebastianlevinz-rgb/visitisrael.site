@@ -2296,3 +2296,48 @@ Territories) is a genuine gotcha for travelers from any country. 220V/50Hz; Euro
 - Kosher restaurants guide: kosher-food-guide.md EXISTS (shipped); supermarket guide is DISTINCT.
 
 6 net-new items added to BACKLOG. Backlog now ~164 ready items.
+
+### 2026-06-29 · iter 175 · RESEARCH — border crossings, glamping/eco-lodges, airport security, Dead Sea safety, fine dining, summer tips, military heritage, family/water parks, digital nomad, day trips from Eilat
+
+**Research scope:** 8 web searches across competitor sites (touristisrael.com, lonelyplanet.com, roughguides.com, backpackisrael.com, walkmyworld.com, igoogledisrael.com, etc.) + site audit (all 85 current guide slugs listed and de-duped against full ~120-item backlog).
+
+**Key findings (confirmed GAPS vs site + backlog):**
+
+1. **Nationality visa checker tool** — No Israel travel site has an interactive per-country visa/ETA eligibility tool. Very high SEO value for "[nationality] Israel visa 2026" long-tail queries. Vanilla JS lookup table, low effort, high utility. → Added to BACKLOG P2 tools S.
+
+2. **Day trips from Eilat** — day-trips-from-TLV and day-trips-from-jerusalem both exist and rank well; Sinai-from-Eilat and petra-from-eilat are in backlog; BUT no "day trips from Eilat" hub guide covering Timna (18km north), Red Canyon (30min, free hike), Coral Beach Nature Reserve, Dolphin Reef, glass-bottom boats, Aqaba (Jordan). High intent from Eilat-staying tourists. → Added BACKLOG P2 seo M.
+
+3. **Israel water parks + summer family guide** — iGoogledIsrael.com, TravelTriangle, TripAdvisor all rank "water parks Israel 2026". israel-with-kids.md is general family travel; ZERO water park specific content on site. Luna Gal (Golan/Sea of Galilee), Shefayim (TLV-Haifa corridor), Aqua Kef (Tiberias). Summer peak season (Jul–Aug). → Added BACKLOG P2 seo S.
+
+4. **Israel military heritage sites** — Tourist Israel has individual pages (Latrun, Ammunition Hill); no editorial guide for tourists interested in military history. Distinct from jewish-heritage-israel.md. Latrun Armored Corps Museum (between TLV + Jerusalem, on the way), Palmach Museum, IAF Museum Hatzerim, Ammunition Hill. Oct 7 memorial context makes IDF history particularly resonant in 2026. → Added BACKLOG P2 seo+mon S.
+
+5. **Visa extension / long stay guide** — visa-information.md covers entry + ETA-IL well; gap = what happens at 90 days. Gap-year students, relatives visiting, remote workers searching "Israel visa extension 2026". Population Authority process, border-run gray area, MASA pathways. → Added BACKLOG P2 seo S.
+
+6. **Dead Sea 2026 sinkhole safety update** — Critical accuracy gap: 7,000+ sinkholes around Dead Sea shoreline (JPost March 2026, INPA confirmation); Ein Gedi Beach PERMANENTLY CLOSED. Our dead-sea-guide.md does not mention this. Needed update, not new page. → Added BACKLOG P2 technical S (content update to existing guide).
+
+7. **Fine dining / culinary excellence guide** — israeli-food-cuisine-guide.md (traditional), tel-aviv-food-guide.md and jerusalem-food-guide.md (neighborhood/casual) all exist. Gap = high-end scene: OCD (88.5 S.Pellegrino), Pastel, Milgo & Milbar, Chakra Jerusalem (World Culinary Award 2025 Best Restaurant Israel). Michelin Guide announced but not yet published. Wanderlog, Secret Tel Aviv, forward.com all cover this space; no editorial travel guide page on site. → Added BACKLOG P2 seo+mon S.
+
+**De-duped (confirmed existing — do NOT re-add):**
+- glamping/eco-lodge guide → BACKLOG iter60 P2 S ✓
+- digital nomad Israel → BACKLOG iter30 P3 M ✓
+- photography spots → BACKLOG iter30 P2 ✓
+- things not to do → BACKLOG iter10 P2 M ✓
+- Jewish holidays impact → SHIPPED iter78 (shabbat calendar) + iter103 (holiday planner) ✓
+- airport security tips → covered in ben-gurion-airport-guide.md ✓
+- border crossings → border-crossings.md covers all 4 crossings (3 Jordan + Taba Egypt) ✓
+- ETA-IL → visa-information.md fully updated with ETA-IL details ✓
+- surfing guide → BACKLOG iter105 P2 S ✓
+- campervan → BACKLOG iter105 P2 M ✓
+- north road trip → BACKLOG iter145 P2 M ✓
+- birdwatching → BACKLOG iter50 P2 M ✓
+
+**Sources:**
+- israelwelcome.com/crossing-allenby-bridge-2026-guide, jitours.com/jordan-israel-border-crossings, againstthecompass.com/en/crossing-jordan-israel-border, touristisrael.com/allenby-king-hussein-border-crossing
+- wanderingcarol.com/israel-glamping, isra.land/glamping, lonelyplanet.com/israel/hotels/desert-days-negev-ecolodge
+- vipbengurion.com/en/israeli-airport-security-checks, beinharimtours.com/airport-security-in-israel
+- israel-entry.piba.gov.il, embassies.gov.il/eta-il, il.usembassy.gov/eta-il
+- deadsea.com/dead-sea-sinkholes, jpost.com/jerusalem-report/article-884469, timesofisrael.com/dead-sea-bill
+- guide.michelin.com/en/restaurants/israeli, timesofisrael.com/tourism-ministry-greenlights-michelin, secrettelaviv.com/best-upscale-restaurants-in-tel-aviv
+- igoogledisrael.com/water-parks-in-israel, tripadvisor.com/Attractions-g293977-Activities-c52-Israel
+- backpackisrael.com/destinations/eilat-travel-guide, walkmyworld.com/unmissable-things-to-do-in-eilat
+- touristisrael.com/latrun-armored-corps-museum, palmachmuseum.com, iaf.org.il/Galleries/Aviation-Museum
