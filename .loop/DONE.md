@@ -226,3 +226,6 @@ Comprehensive "best area to stay in Tel Aviv" hub covering Rothschild/White City
 - `fr/tel-aviv-carmel-market.md` + `de/tel-aviv-carmel-market.md` — Shuk HaCarmel visitor guide; category Gastronomie; CTAs GYG food tour + Civitatis Old Jaffa food tour
 - `fr/tel-aviv-neighborhoods-guide.md` + `de/tel-aviv-neighborhoods-guide.md` — Neighborhood comparison hub; category Destinations/Reiseziele; CTAs Booking.com+GYG+Viator
 FR/DE guide count: 53 each. 311 pages; 382 e2e tests pass.
+
+## iter 161 · ba000da · Jerusalem food & restaurant guide (/jerusalem-food-guide)
+Comprehensive Jerusalem dining guide: Machane Yehuda market restaurants (Machneyuda advance booking, Marzipan rugelach, evening bar transformation), Old City hummus corridor (Abu Shukri Muslim Quarter, Azura Iraqi-Jewish sell-out-by-noon), Yemenite jachnun/malawach Saturday morning tradition, Jerusalem mixed grill, Eucalyptus kosher fine dining near Jaffa Gate, Shabbat closure dynamics (Jerusalem closes earlier+more completely than TLV), German Colony and Mamilla as Shabbat dining options. 3 CTAs (GYG/Viator/Civitatis Jerusalem food tours). 6 FAQs. Footer + cross-links from TLV food guide + street food guide. Gate: pnpm check 0 errors; build 312 pages (+1); 384/384 e2e+a11y pass (1 fix: broken /jerusalem-neighborhoods-guide link).

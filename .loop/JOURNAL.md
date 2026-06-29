@@ -3062,3 +3062,27 @@ Net-new items (6): (1) /purim-in-israel P2 S — TLV street party 250k+; Tourist
 Gate: N/A (research mode). Merge: N/A. Prod deploy: N/A.
 BACKLOG: 6 items appended; backlog now ~153 ready items. COMPETITORS.md updated with iter160 section. STATE.md bumped to iter 160.
 Next: iter 161 = BUILD/monetization. Pure monetization section fully shipped; fall-through likely to seo-content+monetization P2 — top candidates: /purim-in-israel (P2, S, just added), /jerusalem-food-guide (P2, M), /day-trips-from-haifa (P2, M).
+
+## 2026-06-29T03:30Z · iter 161 · BUILD/monetization (fall-through seo-content) · /jerusalem-food-guide
+Mode: BUILD/monetization (161%5==1). Pure monetization section fully shipped; fell through to P2 seo-content+monetization: Jerusalem food & restaurant guide — waiting since iter75 research.
+Cloud checkout diverged on startup; resolved via git reset --hard origin/master before work (same pattern as iters 155/159/160).
+What: New /jerusalem-food-guide guide page — comprehensive Jerusalem dining guide:
+  - Machane Yehuda market restaurants: Machneyuda (advance booking essential), Marzipan Bakery rugelach, evening bar transformation from ~18:00
+  - Old City hummus corridor: Abu Shukri (Al-Wad St, Muslim Quarter, sell-out by 12:30), Azura (Iraqi-Jewish stovetop, opens early, sell-out by noon)
+  - Yemenite food tradition: jachnun/malawach Saturday morning only, Yemenite vendors at market perimeter
+  - Jerusalem mixed grill: spiced chicken organs in pita, market perimeter stalls
+  - Eucalyptus Restaurant: biblical-era kosher fine dining near Jaffa Gate
+  - Shabbat dynamics: Jerusalem closes earlier+more completely than TLV; Mamilla Mall + German Colony as Shabbat options
+  - German Colony (Emek Refaim): evening restaurant strip for relaxed dinners
+  3 affiliate CTAs: GYG Jerusalem food tour, Viator Machane Yehuda tasting walk, Civitatis Old City food walk.
+  6 FAQs covering: what Jerusalem is famous for, best restaurant, best hummus, Shabbat impact, cost, kosher options.
+  Honesty: no exact prices (₪ ranges labelled as approximate), no fabricated ratings/reviews, "most cited across sources" framing for hummus superlatives, restaurant caveats throughout.
+  Discoverability: footer Essentials link added after "Israeli food"; tel-aviv-food-guide cross-link added; israeli-street-food-guide Where to next section updated.
+  Broken link fix: /jerusalem-neighborhoods-guide (BACKLOG, not shipped) → replaced with /jerusalem region link; caught by links.spec.ts on first gate pass.
+Gate:
+  pnpm check: 0 errors (117 files) ✓
+  pnpm build: 312 pages (+1 from 311) ✓
+  pnpm test:e2e: 384/384 pass (1 fix cycle) ✓
+Ship: committed ba000da to master, pushed. CI in_progress at push time.
+Prod: Vercel deployment triggered by push. Pre-existing Lighthouse CI infra failure pattern (same as 40+ iterations).
+Next: iter 162 = BUILD/seo-content (162%5==2). Top candidates: /day-trips-from-haifa (P2, M), /haifa-travel-guide (P2, M), /purim-in-israel (P2, S), /israel-in-summer (P2, S).
