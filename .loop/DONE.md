@@ -302,3 +302,6 @@ eilat-tours-compared + tel-aviv-tours-compared + eilat-diving-snorkeling transla
 
 ## iter 178 — free-things-to-do-israel guide (SHA a6af0fa)
 10-experience free-attractions hub targeting "free things to do Israel" + city variants. Yad Vashem, Western Wall, Tel Aviv beaches, Bahá'í Gardens free tours, Via Dolorosa, Machane Yehuda, Mount of Olives, Old Jaffa, TLV Greeters, Ben-Gurion House. Dense internal links + GYG/Booking CTAs. 354 pages, 435/435 tests.
+
+## iter 179 — REVIEW: Ein Gedi beach safety cleanup (SHA 1fcaae3)
+Safety + SEO accuracy fix across 6 files. The iter-176 sinkhole closure fix applied correctly to dead-sea-guide body text but missed: (1) EN/FR/DE dead-sea-guide meta descriptions — FR/DE still listed Ein Gedi in the beach parenthetical and were truncated mid-sentence (iter-143 trim artifact); EN description was 181 chars (>170 audit flag). (2) EN/FR/DE qumran-guide itinerary still suggested "Ein Gedi beach or nature reserve" as a day-trip stop. All fixed: descriptions rewritten to complete sentences, ≤169 chars, no closed-beach reference; qumran itinerary now says "Ein Gedi nature reserve" only. 354 pages, 435/435 tests.

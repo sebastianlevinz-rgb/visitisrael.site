@@ -3465,3 +3465,24 @@ Gate: pnpm check 0 errors (117 files) · pnpm build 354 pages (+1) · pnpm test:
 Ship: committed a6af0fa to master, pushed. No feature branch committed (files added directly).
 Prod: CI in_progress at push (standard). Previous commits all succeeded (iter 176: cec46a2 success; iter 177: c7674a6 success).
 Next: iter 179 = REVIEW (179%5==4). Audit a slice of shipped work.
+
+## 2026-06-29 · iter 179 · REVIEW · Ein Gedi beach safety cleanup
+
+Mode: REVIEW (179%5==4).
+Startup: git pull --ff-only → master at 0333d24 (iter 178 state). Clean. No leftover branches.
+Audit scope: reviewed free-things-to-do-israel (iter 178 — all internal links valid, SEO meta 60 chars title / 163 chars desc within bounds, no honesty issues); then checked dead-sea-guide accuracy following iter-176 sinkhole safety fix.
+
+Finding: iter-176 incompletely propagated the Ein Gedi beach closure to 3 categories of content:
+  (a) EN dead-sea-guide meta description: 181 chars (>170 audit threshold).
+  (b) FR dead-sea-guide meta description: truncated mid-sentence ("...rituel de la"), 157 chars, and listed "Ein Gedi" in beach parenthetical.
+  (c) DE dead-sea-guide meta description: truncated mid-sentence ("...was Sie"), 148 chars, and listed "Ein Gedi" in beach parenthetical.
+  (d) EN qumran-guide: day-trip itinerary still said "Ein Gedi beach or nature reserve".
+  (e) FR qumran-guide: day-trip itinerary still said "plage ou réserve naturelle d'Ein Gedi".
+  (f) DE qumran-guide: day-trip itinerary still said "Ein Gedi Strand oder Naturreservat".
+
+Fix: rewritten descriptions (complete sentences, ≤169 chars, no closed-beach ref); qumran itineraries updated to "Ein Gedi nature reserve" only. 6 files, branch auto/dead-sea-ein-gedi-safety-fix.
+
+Gate: pnpm check 0 errors (117 files) · pnpm build 354 pages (unchanged) · pnpm test:e2e 435/435 pass. GREEN first run.
+Ship: committed 1fcaae3 to master, pushed. Branch deleted.
+Prod: CI in_progress at push (standard pattern). Previous iterations all deployed successfully.
+Next: iter 180 = RESEARCH (180%5==0). Scout competitors for profitable new content/features.
