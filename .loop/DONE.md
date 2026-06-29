@@ -246,3 +246,6 @@ israel-food-tours-cooking-classes (Gastronomie, 3 CTAs). DE: same 3 guides (Plan
 German typographic quotes avoided in YAML (known parsing bug). Smoke+a11y specs +6 routes each.
 Gate: pnpm check 0 errors; build 319 pages (+6); 396/396 e2e+a11y pass.
 fr/de count: 56 locale pages each (home + plan-your-trip + 54 guides).
+
+## iter 164 · REVIEW · 2026-06-29 · f0c4c94
+Test coverage fix: added /day-trips-from-haifa to smoke.spec.ts + a11y.spec.ts (oversight from iter 162 shipping). Gate now 398 tests. Full audit of iters 161-163 passed: links, hreflang, JSON-LD, honesty all clean.

@@ -3140,3 +3140,18 @@ fr/de count: 56 locale pages each (home + plan-your-trip + 54 guides each).
 Next: iter 164 = REVIEW (164%5==4). Audit iter 161/162 EN guides + batch 17 cross-locale links.
   Batch 18 untranslated EN guide candidates: tiberias-guide, masada-tours-compared, galilee-tours-compared,
   jerusalem-tours-compared, jerusalem-food-guide, day-trips-from-haifa (25 total untranslated).
+
+## 2026-06-29 · iter 164 · REVIEW · audit iters 161-163 + test-coverage fix
+Mode: REVIEW (164%5==4). Audited iter 161 (jerusalem-food-guide), iter 162 (day-trips-from-haifa), and iter 163 (batch 17: jewish-heritage-israel + lgbtq-travel-israel + israel-food-tours-cooking-classes FR+DE).
+Findings:
+  - All internal links from EN guides resolve (shabbat-guide, cruise-shore-excursions-israel, galilee-tours-compared, transport/haifa-to-akko, etc.) ✓
+  - All locale-specific links from batch 17 FR+DE pages resolve (checked all 18 per locale) ✓
+  - hreflang: en/fr/de/x-default present and correct on fr/de/jewish-heritage-israel; og:locale fr_FR/de_DE; canonical correct ✓
+  - JSON-LD Article/Breadcrumb/FAQ schemas valid; no aggregateRating on guides; no fabricated prices displayed ✓
+  - Honesty: price ranges labelled approximate; ₪ ranges throughout; "most cited" framing for superlatives ✓
+  - BUG FOUND: /day-trips-from-haifa missing from smoke.spec.ts and a11y.spec.ts (oversight from iter 162) → fixed
+Fix: Added '/day-trips-from-haifa' to smoke.spec.ts (line 77) and a11y.spec.ts (line 143). +2 tests.
+Gate: pnpm check 0 errors ✓; build 319 pages (unchanged) ✓; pnpm test:e2e 398/398 pass ✓
+Ship: committed f0c4c94 to master, pushed. CI completed success.
+Prod: Vercel deploy triggered; prior SHA (4c7091d) CI pattern: success.
+Next: iter 165 = RESEARCH (165%5==0). Scope competitor research for batch 18 i18n candidates + any new profitable gaps.
