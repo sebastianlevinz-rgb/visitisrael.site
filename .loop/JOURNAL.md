@@ -3438,3 +3438,30 @@ Smoke tests +6 routes (/fr/eilat-tours-compared, /de/eilat-tours-compared, /fr/t
 Ship: committed c7674a6 to master, pushed. Branch auto/i18n-batch18-part2 deleted.
 Prod: CI in_progress at push (standard). 10 guides remain in batch 18; also 1-day-jerusalem-itinerary needs FR+DE.
 Next: iter 178 = BUILD (tools rotation or continue i18n batch 18). fr/de: 72 locale pages each.
+
+## 2026-06-29 · iter 178 · BUILD (seo-content) · free-things-to-do-israel guide
+
+Mode: BUILD (178%5==3, tools rotation; fell through to seo-content since no ready tools-category items in backlog).
+Startup: git pull --ff-only → master at 81e9af2 (iter 177 state commit). Clean. No leftover branches.
+Item selected: free-things-to-do-israel guide (P2, S effort, seo-content).
+  Reason: TripAdvisor, Touchpoint Israel, Krista the Explorer, United with Israel all rank for "free things Israel";
+  our israel-cost-budget.md covers daily budget tiers but not a dedicated free-attractions hub. Distinct niche.
+
+What changed:
+  - src/content/guides/free-things-to-do-israel.md (new — 120 lines)
+    10-experience hub: Yad Vashem, Western Wall, Tel Aviv beaches (13km), Bahá'í Gardens guided tours,
+    Via Dolorosa walk, Machane Yehuda Market, Mount of Olives viewpoint, Old Jaffa wander, TLV Greeters
+    free walking tours, Ben-Gurion House free tours.
+  - Dense internal links: /jerusalem/yad-vashem, /jerusalem/western-wall, /tel-aviv/tayelet,
+    /haifa/bahai-gardens, /jerusalem/via-dolorosa, /jerusalem/mahane-yehuda, /jerusalem/mount-of-olives,
+    /tel-aviv/old-jaffa, /israel-parks-pass-calculator, /israel-cost-budget, /transportation,
+    /israel-tipping-currency.
+  - Affiliate CTAs: GetYourGuide (guided tours) + Booking.com (budget accommodation).
+  - Hero: /images/regions/tel-aviv/beaches.jpg (no restricted-site photo credit needed).
+  - 6 honest FAQs, no fabricated prices or ratings.
+  - tests/e2e/smoke.spec.ts: +1 route (/free-things-to-do-israel).
+
+Gate: pnpm check 0 errors (117 files) · pnpm build 354 pages (+1) · pnpm test:e2e 435/435 pass. GREEN first run.
+Ship: committed a6af0fa to master, pushed. No feature branch committed (files added directly).
+Prod: CI in_progress at push (standard). Previous commits all succeeded (iter 176: cec46a2 success; iter 177: c7674a6 success).
+Next: iter 179 = REVIEW (179%5==4). Audit a slice of shipped work.
