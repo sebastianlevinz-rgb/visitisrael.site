@@ -3086,3 +3086,23 @@ Gate:
 Ship: committed ba000da to master, pushed. CI in_progress at push time.
 Prod: Vercel deployment triggered by push. Pre-existing Lighthouse CI infra failure pattern (same as 40+ iterations).
 Next: iter 162 = BUILD/seo-content (162%5==2). Top candidates: /day-trips-from-haifa (P2, M), /haifa-travel-guide (P2, M), /purim-in-israel (P2, S), /israel-in-summer (P2, S).
+
+## 2026-06-29 · iter 162 · BUILD (seo-content) · /day-trips-from-haifa
+What: New /day-trips-from-haifa guide page — covers 7 destinations with train-accessible vs.
+  car-required tables and cruise port time windows (8h/10h/12h). Destinations:
+  Akko/Acre (train 25-30 min, cross-link haifa-to-akko transport + akko-acre-guide),
+  Rosh Hanikra (car/bus, Lebanon border sea caves; honest Shabbat-closure + hours caveat),
+  Caesarea (train to Caesarea–Pardes Hanna + taxi, Roman amphitheatre; cross-link caesarea-guide),
+  Zichron Yaakov (train via Binyamina, Rothschild wine village, Carmel Winery),
+  Nazareth (car/bus, cross-link nazareth-travel-guide),
+  Beit She'arim (car, UNESCO necropolis, INPA pass, cross-link israel-national-parks-pass),
+  Tel Megiddo/Armageddon (car, 26-layer UNESCO mound).
+  3 affiliate CTAs: GYG (Akko tour), Viator (Rosh Hanikra), Civitatis (Caesarea). 5 FAQs.
+  Footer: "From Haifa" entry added to Day Trips column.
+  Fix: /where-to-stay/haifa link broken (only 3 cities built) — removed to keep links clean.
+Gate:
+  pnpm check: 0 errors ✓
+  pnpm build: 313 pages (+1 from 312) ✓
+  pnpm test:e2e: 384/384 pass ✓
+Ship: committed 73eea79 to master, pushed. CI in_progress at push time.
+Next: iter 163 = BUILD/tools (163%5==3). Consider i18n batch 17 as alternative (due: batch 16 was iter 158; roughly every other BUILD).

@@ -229,3 +229,12 @@ FR/DE guide count: 53 each. 311 pages; 382 e2e tests pass.
 
 ## iter 161 · ba000da · Jerusalem food & restaurant guide (/jerusalem-food-guide)
 Comprehensive Jerusalem dining guide: Machane Yehuda market restaurants (Machneyuda advance booking, Marzipan rugelach, evening bar transformation), Old City hummus corridor (Abu Shukri Muslim Quarter, Azura Iraqi-Jewish sell-out-by-noon), Yemenite jachnun/malawach Saturday morning tradition, Jerusalem mixed grill, Eucalyptus kosher fine dining near Jaffa Gate, Shabbat closure dynamics (Jerusalem closes earlier+more completely than TLV), German Colony and Mamilla as Shabbat dining options. 3 CTAs (GYG/Viator/Civitatis Jerusalem food tours). 6 FAQs. Footer + cross-links from TLV food guide + street food guide. Gate: pnpm check 0 errors; build 312 pages (+1); 384/384 e2e+a11y pass (1 fix: broken /jerusalem-neighborhoods-guide link).
+
+## iter 162 · 73eea79 · Day trips from Haifa guide (/day-trips-from-haifa)
+7-destination day-trips guide completing the Jerusalem/Tel Aviv/Haifa day-trips trifecta.
+Akko (train 25-30 min, cross-links haifa-to-akko transport), Rosh Hanikra (sea caves at
+Lebanon border, honest Shabbat caveat), Caesarea (train to Caesarea–Pardes Hanna+taxi),
+Zichron Yaakov (train via Binyamina, Rothschild wine village), Nazareth, Beit She'arim
+(UNESCO necropolis), Tel Megiddo/Armageddon. Train-accessible vs. car-required table.
+Cruise port windows (8h/10h/12h). 3 CTAs (GYG/Viator/Civitatis). 5 FAQs. Footer wired.
+Gate: pnpm check 0 errors; build 313 pages (+1); 384/384 e2e+a11y pass.
