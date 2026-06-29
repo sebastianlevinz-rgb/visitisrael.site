@@ -3308,3 +3308,21 @@ Prod: CI + Lighthouse in_progress at push time (same pattern as iters 101-170). 
   not verified but iter 170 was docs-only — expected clean. Next iter start-check to confirm 945bf3f.
 Next: iter 172 = BUILD (172%5==2), seo-content rotation. Consider i18n batch 18 continuation
   (4th BUILD since last i18n iter — interleave rule "roughly every other" suggests doing i18n next).
+
+## 2026-06-29T15:47Z · iter 172 · BUILD (i18n) · batch 18 transport guides FR+DE
+
+What: i18n batch 18 continuation — 4 high-value transport/practical guides translated to FR+DE:
+  - ben-gurion-airport-transfers (airport transfer comparison: train ~$5/taxi ~$30-80/sherut/485 bus;
+    Shabbat planning; pré-réservé/vorgebuchter private transfer CTAs with welcomepickups + kiwitaxi)
+  - rav-kav-israel (complete Rav-Kav tourist guide: buy at Ben Gurion arrivals hall 24h info center;
+    anonymous vs named; tap rules by vehicle type bus/train/tram; 90-min transfer rule; load amounts)
+  - israel-esim (eSIM setup + data plan table; eSIM vs local SIM comparison; Ben Gurion coverage note)
+  - tel-aviv-light-rail (Red Line: Salame/HaKishon/Carlebach/Habima/Arlozorov stations; ticketing;
+    Shabbat closure; airport connection via Arlozorov; Purple/Green lines future status)
+  8 new locale pages (fr×4 + de×4). Cross-links use /fr/ and /de/ prefixes for translated guides;
+  plain paths for untranslated (israel-travel-apps, regions). Smoke spec +10 routes.
+  Startup note: local master diverged again (force-push of cloud state); reset --hard to origin/master.
+Gate: pnpm check 0 errors; pnpm build 346 pages (+8 from 338); pnpm test:e2e 425/425 PASS.
+Ship: squash-committed to master 8026f16, pushed. Branch auto/i18n-batch18-transport-guides deleted.
+Prod: CI + Lighthouse in_progress at push (standard pattern). Next iter start-check to confirm 8026f16.
+Next: iter 173 = BUILD (173%5==3), tools rotation. 13 EN guides still untranslated in batch 18.

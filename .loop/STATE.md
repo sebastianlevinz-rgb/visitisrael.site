@@ -1,26 +1,24 @@
 # LOOP STATE
 
-- iteration: 171
-- lastMode: BUILD (171%5==1) — monetization rotation; /israel-evening-activities guide shipped
-- lastItem: iter 171 BUILD — new Evening Activities in Israel guide (P2 monetization, S effort); 7 evening experience categories; GYG+Viator CTAs; footer wired; 417/417 e2e pass; SHA 945bf3f
-- lastResult: BUILD SHIPPED — gate green (0 errors / 338 pages / 417 e2e pass); pushed to master; CI in_progress at push (prior SHA success — expected to pass); /israel-evening-activities live
-- nextRotationCategory: 172%5==2 → BUILD (seo-content rotation next); or i18n batch 18 continuation (16 EN guides remain untranslated)
+- iteration: 172
+- lastMode: BUILD (172%5==2) — i18n batch 18 continuation; 4 transport guides FR+DE shipped
+- lastItem: iter 172 BUILD — i18n batch 18 transport guides (ben-gurion-airport-transfers + rav-kav-israel + israel-esim + tel-aviv-light-rail) FR+DE (8 locale pages); 346 pages built; 425/425 e2e pass; SHA 8026f16
+- lastResult: BUILD SHIPPED — gate green (0 errors / 346 pages / 425 e2e pass); pushed to master; CI in_progress at push (prior pattern expected to pass); 8 locale pages live
+- nextRotationCategory: 173%5==3 → BUILD (tools rotation); or i18n batch 18 continuation (13 EN guides remain untranslated)
 - higgsfieldSpent: 0
 - updatedAt: 2026-06-29
 - branch context: work on master; feature work on auto/<slug>
 
-Notes: iter 171 BUILD — shipped /israel-evening-activities (P2 monetization, S). Covers Tower of David
-  Night Spectacular, Masada sound-and-light show (Mar–Oct Tue/Thu), Jerusalem Festival of Light (June),
-  Mahane Yehuda after dark, Western Wall at night, Jaffa port sunset walk, Mitzpe Ramon Dark Sky Park
-  stargazing. GetYourGuide + Viator CTAs. Footer "Evening activities" link added. Smoke test +1 route.
-  This was picked over larger M-effort monetization guides to keep iteration bounded (S effort = 1 guide).
-  NEXT: iter 172 = BUILD (172%5==2). Rotation: seo-content next. Also eligible: i18n batch 18 continuation
-  (16 untranslated EN guides remain — ben-gurion-airport-transfers, eilat-diving-snorkeling, eilat-tours-compared,
-  israel-base-city-guide, israel-esim, israel-tour-packages, israel-travel-apps, israel-wine-wineries,
-  israel-zimmer-guide, petra-from-eilat-vs-amman, private-tours-israel, rav-kav-israel, tel-aviv-light-rail,
-  tel-aviv-tours-compared, cruise-shore-excursions-israel, ben-gurion-airport-transfers). Per interleave rule:
-  last i18n was iter 168; iter 172 is 4th BUILD since then → do i18n or seo-content (either is fine, interleave
-  says "roughly every other BUILD" so i18n is overdue).
+Notes: iter 172 BUILD — shipped 4 transport/practical guides as FR+DE (i18n batch 18 continuation).
+  Guides shipped: ben-gurion-airport-transfers, rav-kav-israel, israel-esim, tel-aviv-light-rail.
+  Cross-links use /fr/ and /de/ prefixes for already-translated guides; plain paths for untranslated.
+  Smoke spec +10 routes (fr/de × 5 pairs → 10 routes).
+  NEXT: iter 173 = BUILD (173%5==3). Rotation: tools next. Also eligible: i18n batch 18 continuation
+  (13 untranslated EN guides remain: cruise-shore-excursions-israel, eilat-diving-snorkeling,
+  eilat-tours-compared, israel-tour-packages, israel-travel-apps, israel-wine-wineries,
+  israel-zimmer-guide, petra-from-eilat-vs-amman, petra-tours-compared, private-tours-israel,
+  tel-aviv-tours-compared, israel-base-city-guide, israel-evening-activities).
+  Per interleave rule: last i18n was iter 172 — next iter 173 should do tools, then iter 174 i18n.
 
 Cron b7325b16 hourly @ :17. Loop history: 19 tools + sitemap-lastmod + link-checker(+depth) + i18n
 Phase0/1a/1b/1c/2 Batches1-18(partial) + 21 review passes + 3 technical (event-schema + meta-trim + locale-links) + 11 EN guides + 3 tools-monetization;
