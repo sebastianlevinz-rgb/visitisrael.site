@@ -1,6 +1,6 @@
 ---
 title: 'How to Visit the Dead Sea: Beaches, Floating & Tips (2026)'
-description: 'First-timer Dead Sea guide — floating technique, safety rules, best open beaches 2026 (Kalia, Ein Bokek), mud ritual, what to bring, how to get there, and whether to stay overnight.'
+description: 'First-timer Dead Sea guide — floating technique, safety rules, best open beaches (Kalia, Ein Bokek), mud ritual, what to bring and how to get there.'
 heroImage: /images/regions/dead-sea/hero.jpg
 category: Destinations
 updatedAt: 2026-06-29

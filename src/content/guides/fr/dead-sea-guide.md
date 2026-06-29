@@ -1,6 +1,6 @@
 ---
 title: "Visiter la mer Morte : plages, flottaison & conseils 2026"
-description: "Guide de la mer Morte pour les premiers visiteurs — technique de flottaison, règles de sécurité, meilleures plages (Kalia, Ein Gedi, Ein Bokek), rituel de la"
+description: "Guide mer Morte pour premiers visiteurs — flottaison, sécurité, meilleures plages 2026 (Kalia, Ein Bokek), rituel de boue minérale, équipement et accès depuis Jérusalem."
 heroImage: /images/regions/dead-sea/hero.jpg
 category: Destinations
 updatedAt: 2026-06-25

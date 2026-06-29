@@ -113,7 +113,7 @@ At the far end of the trail, a platform gives you a direct view across the ravin
 
 Qumran sits directly on Route 90, the main artery running alongside the Dead Sea. This makes combining it with other Dead Sea sites very natural:
 
-**Classic combination (self-drive):** Jerusalem → Route 1 east → pass the Sea Level sign → Qumran (AM, 1.5h) → Ein Gedi beach or nature reserve (30 min south, AM/early PM) → Ein Bokek float and mud (PM) → back to Jerusalem. This is a full but very manageable day.
+**Classic combination (self-drive):** Jerusalem → Route 1 east → pass the Sea Level sign → Qumran (AM, 1.5h) → Ein Gedi nature reserve (30 min south, AM/early PM) → Ein Bokek float and mud (PM) → back to Jerusalem. This is a full but very manageable day.
 
 **Masada + Qumran:** Masada is 20 km south of Ein Bokek on Route 90. If you are doing the daytime cable car version of Masada (rather than the pre-dawn Snake Path hike), you can add Qumran in the morning before heading south. Sunrise Masada hikers are usually too tired to add Qumran the same day.
 

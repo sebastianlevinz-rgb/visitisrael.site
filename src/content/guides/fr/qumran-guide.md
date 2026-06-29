@@ -113,7 +113,7 @@ Au bout du sentier, une plateforme offre une vue directe sur la grotte 4, visibl
 
 Qumrân est situé directement sur la route 90, l'artère principale longeant la mer Morte. La combinaison avec d'autres sites est très naturelle :
 
-**Combinaison classique (voiture) :** Jérusalem → route 1 est → panneau du niveau de la mer → Qumrân (matin, 1 h 30) → plage ou réserve naturelle d'Ein Gedi (30 min au sud) → flottaison et boue à Ein Bokek (après-midi) → retour à Jérusalem. Une journée complète mais très gérable.
+**Combinaison classique (voiture) :** Jérusalem → route 1 est → panneau du niveau de la mer → Qumrân (matin, 1 h 30) → réserve naturelle d'Ein Gedi (30 min au sud) → flottaison et boue à Ein Bokek (après-midi) → retour à Jérusalem. Une journée complète mais très gérable.
 
 **Massada + Qumrân :** Massada est à 20 km au sud d'Ein Bokek sur la route 90. Si vous faites le téléphérique de Massada en journée (plutôt que la montée à l'aube via le sentier du Serpent), vous pouvez ajouter Qumrân le matin avant de descendre vers le sud.
 

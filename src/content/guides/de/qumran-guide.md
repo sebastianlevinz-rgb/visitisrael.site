@@ -113,7 +113,7 @@ Am Ende des Weges bietet eine Plattform einen direkten Blick auf Höhle 4 — al
 
 Qumran liegt direkt an der Straße 90, der Hauptachse entlang des Toten Meeres. Die Kombination mit anderen Stätten ist sehr natürlich:
 
-**Klassische Kombination (Mietwagen):** Jerusalem → Straße 1 ostwärts → Meeresspiegel-Schild → Qumran (Vormittag, 1,5 Std.) → Ein Gedi Strand oder Naturreservat (30 Min. südlich) → Schwimmen und Mineralschlamm in Ein Bokek (Nachmittag) → zurück nach Jerusalem. Ein voller, aber gut machbarer Tag.
+**Klassische Kombination (Mietwagen):** Jerusalem → Straße 1 ostwärts → Meeresspiegel-Schild → Qumran (Vormittag, 1,5 Std.) → Ein-Gedi-Naturschutzgebiet (30 Min. südlich) → Schwimmen und Mineralschlamm in Ein Bokek (Nachmittag) → zurück nach Jerusalem. Ein voller, aber gut machbarer Tag.
 
 **Masada + Qumran:** Masada liegt 20 km südlich von Ein Bokek auf Straße 90. Wer tagsüber mit der Seilbahn nach Masada fährt (statt dem Sonnenaufgangs-Serpentinen-Aufstieg), kann Qumran am Morgen davor besuchen.
 
