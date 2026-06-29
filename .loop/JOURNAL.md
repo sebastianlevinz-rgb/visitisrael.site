@@ -3052,3 +3052,13 @@ Audit findings (all 6 files):
   - Honesty: no aggregateRating/ratingValue; Westjordanland/Cisjordanie framing neutral ✓
 Result: CLEAN — zero issues; no BACKLOG entries filed; no fixes needed.
 Next: iter 160 = RESEARCH.
+
+## 2026-06-29T03:00Z · iter 160 · RESEARCH · Holiday-specific guides + startup tech tourism + extended stays + guided comparison
+
+Mode: RESEARCH (160%5==0). Cloud checkout divergence resolved via git reset --hard origin/master (same pattern as iter 159).
+Searches (14): touristisrael.com taxonomy scan (Purim × 3, Sukkot × 2, High Holidays, Startup tour, monthly guides), secrettelaviv.com (Purim + Sukkot events), masaisrael.org (volunteer programs), kibbutzulpan.org, techitforward.com + beisraeltours.com (startup tours), itraveljerusalem.com (High Holidays events), walkmyworld.com + locationscout.net (photography — already BACKLOG), jitours.com + israelwelcome.com (border crossings — already SHIPPED), nativeisrael.com (Purim), worldsmarathons.com (marathons — already BACKLOG iter50), gaytravel4u.com (Purim/Pride).
+De-duped: border-crossings.md EXISTS; nightlife EXISTS; bar-bat-mitzvah EXISTS; photography spots BACKLOG iter30; wildflowers BACKLOG iter65+135; marathon BACKLOG iter50; south-israel-itinerary BACKLOG iter100; cycling BACKLOG iter45; VAT refund BACKLOG iter140; volunteer archaeology BACKLOG iter40+120.
+Net-new items (6): (1) /purim-in-israel P2 S — TLV street party 250k+; Tourist Israel has 3 Purim pages; standalone distinct from general holidays guide; (2) /sukkot-in-israel P2 S — Oct peak season + Birkat Kohanim at Kotel + Galilee balloon festival; Tourist Israel 2 pages; (3) /high-holidays-israel P3 S — Yom Kippur = zero-car Israel + BG Airport closure = critical planning must-know; (4) /israel-startup-tech-tour P3 M — Silicon Wadi business/diaspora tourism; Tech It Forward tours; (5) /extended-stay-israel P3 M — Masa Israel volunteer programs ($400/6wk), Kibbutz Ulpan (5-month Hebrew); distinct from backpacking + birthright-alumni; (6) /guided-vs-self-guided-israel P3 S — balanced decision guide, no equivalent anywhere.
+Gate: N/A (research mode). Merge: N/A. Prod deploy: N/A.
+BACKLOG: 6 items appended; backlog now ~153 ready items. COMPETITORS.md updated with iter160 section. STATE.md bumped to iter 160.
+Next: iter 161 = BUILD/monetization. Pure monetization section fully shipped; fall-through likely to seo-content+monetization P2 — top candidates: /purim-in-israel (P2, S, just added), /jerusalem-food-guide (P2, M), /day-trips-from-haifa (P2, M).

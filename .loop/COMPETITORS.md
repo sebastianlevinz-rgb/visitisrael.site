@@ -2072,3 +2072,27 @@ cafeteria, duty-free). Our existing guide (SHIPPED) is competitive; no update ne
      /israel-muslim-travel-guide, line ~289, with Al-Aqsa specifics, halal food map, Ramadan logistics,
      ETA-IL nuances for Muslim-majority country passport holders); iter105 entry is definitive; iter65
      is superseded and should be removed; consolidate to the iter105 slug.
+
+---
+
+### 2026-06-29 · iter160 · RESEARCH — Purim, Sukkot, High Holidays, startup tech tourism, extended stays, guided-vs-self-guided
+
+Searches: touristisrael.com (Purim pages × 3, Sukkot pages × 2, High Holidays, startup tours, monthly guides), secrettelaviv.com (Purim parties, Sukkot events), masaisrael.org (volunteer programs), kibbutzulpan.org, techitforward.com, beisraeltours.com, itraveljerusalem.com (Sukkot/Rosh Hashanah/Yom Kippur events), walkmyworld.com (photography spots — already in BACKLOG), jitours.com + israelwelcome.com (border crossings — already SHIPPED), nativeisrael.com (Purim guide), worldsmarathons.com (Israel marathons — already covered in sports-events BACKLOG iter50), gaytravel4u.com (Purim + Pride).
+
+**Purim gap confirmed (P2, S)** — Tourist Israel has 3 dedicated Purim pages + Secret Tel Aviv Purim events page. Our traveling-israel-jewish-holidays (BACKLOG iter35) covers Purim in one section. The Tel Aviv Purim street party (250,000+ attendees, Dizengoff Square) is one of the world's largest costume events — a dedicated guide targets "Purim in Tel Aviv 2027" query specifically. New BACKLOG item: /purim-in-israel (P2, S).
+
+**Sukkot gap confirmed (P2, S)** — Tourist Israel has 2 dedicated Sukkot pages; iTravelJerusalem Sukkot events; totallyjewishtravel.com Sukkot portal. October = Israel's peak travel season; Birkat Kohanim (Priestly Blessing at Western Wall) during Sukkot = one of Jerusalem's most attended public events, drawing tens of thousands. No dedicated guide on site; general holidays guide covers it in one section. New BACKLOG item: /sukkot-in-israel (P2, S).
+
+**High Holidays (Rosh Hashanah + Yom Kippur) gap confirmed (P3, S)** — Yom Kippur in Israel = the most distinctive travel experience that no competitor fully captures: 25-hour total national shutdown; Tel Aviv empty streets fill with bicycles; Ben Gurion Airport literally closes. Zero cars driving in the world's most car-dependent country = uniquely surreal tourist experience. Tourist Israel has content; itraveljerusalem.com has High Holidays events. Travel planning CRITICAL: no flights from Ben Gurion on Yom Kippur — this is a planning must-know. New BACKLOG item: /high-holidays-israel (P3, S).
+
+**Startup/tech tourism gap confirmed (P3, M)** — Tourist Israel "Visiting Tel Aviv Startups" page (10440); Tech It Forward customized innovation tours; JNF blog tech tour post; Be Israel Tours "High-Tech and Start-Up Nation Tour"; Timeout Israel "Touring the Tech District." ZERO equivalent editorial guide on site. "Silicon Wadi" angle for business travelers + curious diaspora. New BACKLOG item: /israel-startup-tech-tour (P3, M).
+
+**Extended stays / Masa programs gap confirmed (P3, M)** — masaisrael.org has comprehensive program pages for 6-week volunteer ($400), Kibbutz Ulpan (5-month), internship programs. 7 city placements. Kibbutz Volunteers Program Center (KPC) active. Post-birthright-guide covers "returning as tourist" but NOT "staying weeks/months as volunteer/ulpan student." ZERO dedicated guide for multi-week extended stay programs on site. Audience = Jewish diaspora ages 18–35. New BACKLOG item: /extended-stay-israel (P3, M).
+
+**Guided vs self-guided comparison gap confirmed (P3, S)** — All competitor travel sites either promote guided tours (Abraham, Bein Harim) or promote self-guided (Nomadic Matt). NO balanced comparison/decision guide exists. Israel has a unique licensing requirement (Tourism Ministry licensed guide mandatory at some major sites). This is a high-value conversion/decision page. New BACKLOG item: /guided-vs-self-guided-israel (P3, S).
+
+DE-DUPED this iteration: border crossings (SHIPPED — border-crossings.md exists), tel-aviv-nightlife.md (EXISTS), bar-bat-mitzvah-israel.md (EXISTS), photography spots (BACKLOG iter30 P2 M — already detailed entry), wildflower guide (BACKLOG iter65 + iter135 — two detailed entries both present), marathon/running (BACKLOG iter50 as sports-events P3 S), south-israel-itinerary (BACKLOG iter100 P2 M), cycling guide (BACKLOG iter45 P2 S), VAT refund (BACKLOG iter140 P3 S), volunteer archaeology (BACKLOG iter40 + iter120).
+
+NOTE for future REVIEW iteration: beaches guide entry (iter5) is a minimal one-liner compared to later detailed entries. When building it, use the detailed iter5 entry as spec but plan for a fuller write-up comparable in depth to later P2 guide entries (Tel Aviv: Banana/Gordon/Hilton/Alma/Metzitzim + north Herzliya Silver Beach + Eilat North Beach + Dead Sea beach notes).
+
+6 net-new items added to BACKLOG. Backlog now ~153 ready items.
