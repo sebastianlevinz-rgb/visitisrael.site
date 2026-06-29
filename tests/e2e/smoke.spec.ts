@@ -219,6 +219,7 @@ const ROUTES = [
   '/tel-aviv-neighborhoods-guide',
   '/israel-evening-activities',
   '/1-day-jerusalem-itinerary',
+  '/free-things-to-do-israel',
   '/search',
 ];
 
