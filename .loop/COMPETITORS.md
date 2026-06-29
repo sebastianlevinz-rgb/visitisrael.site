@@ -2341,3 +2341,50 @@ Territories) is a genuine gotcha for travelers from any country. 220V/50Hz; Euro
 - igoogledisrael.com/water-parks-in-israel, tripadvisor.com/Attractions-g293977-Activities-c52-Israel
 - backpackisrael.com/destinations/eilat-travel-guide, walkmyworld.com/unmissable-things-to-do-in-eilat
 - touristisrael.com/latrun-armored-corps-museum, palmachmuseum.com, iaf.org.il/Galleries/Aviation-Museum
+
+### 2026-06-29 · iter 180 · RESEARCH — Haifa guide gap, Golan Heights gap, cheap flights, 1-day TLV itinerary, markets hub, power plug, Nazareth food
+
+**Research scope:** 6 web searches + competitor content audit across Expedia, TripAdvisor, Tourist Israel, takeyourbackpack.com, Frommers, Kayak, Skyscanner, Timeout Israel, iGoogledIsrael, Lonely Planet. BACKLOG Python-search to de-dupe all 7 findings against existing ~170 backlog items.
+
+**Key findings (confirmed GAPS vs site + backlog):**
+
+1. **Haifa complete travel guide** (`/haifa-travel-guide`) — Haifa is Israel's 3rd-largest city (400k residents), UNESCO World Heritage Bahá'í Gardens, German Colony, Carmelit subway, Wadi Nisnas. Our site has `day-trips-from-haifa.md` (Haifa as a hub) but NO standalone city guide. ALL major competitors have Haifa content: Expedia "Haifa Travel Guide 2026", TripAdvisor "15 BEST Things to Do in Haifa 2026", touristisrael.com/haifa, takeyourbackpack.com Bahá'í Gardens + German Colony 2026. Confirmed NOT in BACKLOG → added P2, M.
+
+2. **Golan Heights complete travel guide** (`/golan-heights-guide`) — golan-druze-villages.md covers Druze villages only; no comprehensive Golan guide. Top competitor pages: takeyourbackpack.com/visit-golan-heights, Frommers Upper Galilee & Golan, TripAdvisor Golan Heights attractions, Expedia Golan guide, private-tours-in-israel.com Ultimate Guide. Key draws: Nimrod Fortress (best Crusader castle in Israel), Banias Nature Reserve (spring + waterfall), Yehudiya basalt swimming pools, Golan Heights Winery (Yarden/Gamla/Golan labels exported globally), Gamla (griffon vultures + Jewish Masada parallel), Mount Hermon skiing/summer hiking. Confirmed NOT in BACKLOG → added P2, M.
+
+3. **Cheap flights to Israel guide** (`/cheap-flights-to-israel`) — Nothing on site covers how to get to Israel by air. Kayak, Expedia, ASAP Tickets, Skyscanner, Momondo all rank for "cheap flights to TLV 2026". Key data: cheapest months Jan/Feb/Nov; booking sweet spot 61 days ahead; El Al + budget carriers (Wizz, Ryanair, easyJet from Europe); TLV only major international airport; Shabbat affects El Al scheduling. High monetization potential via Skyscanner/Kiwi affiliate. Confirmed NOT in BACKLOG → added P2, S.
+
+4. **1-day Tel Aviv itinerary** (`/1-day-tel-aviv-itinerary`) — 1-day-jerusalem-itinerary.md shipped iter176; natural companion not yet planned. Tourist Israel, Nomadic Matt, Timeout, Travel+Leisure all rank for "one day in Tel Aviv." High intent from cruise/day-tripper segment. Itinerary flow: Jaffa (sunrise/morning) → White City walk → Carmel Market lunch → beach afternoon → Neve Tzedek evening. Confirmed NOT in BACKLOG → added P2, S.
+
+5. **Israel markets & shuk hub guide** (`/israel-markets-guide`) — tel-aviv-carmel-market.md exists; NO hub guide covers all major Israeli shuk experiences. Gaps: Machane Yehuda Jerusalem (250 stalls; Thursday Night Market), Levinsky Market TLV (spice specialty; distinct from Carmel), Jaffa Flea Market (antiques/vintage), Haifa Wadi Nisnas (Arab neighbourhood market), Nazareth Old City souk. iGoogledIsrael, Timeout Israel, Secret Tel Aviv, TripAdvisor all have "best markets Israel" content. Confirmed NOT in BACKLOG → added P3, S.
+
+6. **Israel power plug & electricity guide** (`/israel-power-plug`) — Was in COMPETITORS.md iter170 but NOT added to BACKLOG (oversight confirmed by Python search). Type H plug unique to Israel+Palestine; 220V/50Hz; European Type C works backwards; US travelers need adapter. wikitravel.org, voltagedb.com, TripAdvisor forums all rank. Confirmed NOT in BACKLOG → added P3, S.
+
+7. **Nazareth food & Arab-Israeli cuisine guide** (`/nazareth-food-guide`) — nazareth-travel-guide.md is a city overview; no dedicated food guide. Tel Aviv food guide + Jerusalem food guide exist; Nazareth completes the trilogy. Timeout Israel, Haaretz travel, TripAdvisor "Best Nazareth restaurants" all cover this. Key: Diana restaurant (widely considered Nazareth's finest; owner Daoud Bulus), El Babour mill, knafeh + sweets, Old City spice souk. Confirmed NOT in BACKLOG → added P3, S.
+
+**De-duped this iteration (confirmed existing — do NOT re-add):**
+- October 7 / Gaza Envelope guide → BACKLOG blocked:HUMAN REVIEW iter80 ✓
+- Accessible travel Israel → BACKLOG P2 iter90 ✓
+- Eco-tourism / sustainable travel → BACKLOG P3 iter155 ✓
+- Jesus Trail → BACKLOG P2 iter165 ✓
+- Fine dining / Michelin → BACKLOG P2 iter175 ✓
+- Visa extension → BACKLOG P2 iter175 ✓
+- Water parks / summer family → BACKLOG P2 iter175 ✓
+- Military heritage → BACKLOG P2 iter175 ✓
+- Day trips from Eilat → BACKLOG P2 iter175 ✓
+- Supermarket guide → BACKLOG P3 iter170 ✓
+- Yom HaZikaron / Ha'atzmaut guide → BACKLOG P2 iter170 ✓
+- Beaches guide (general) → BACKLOG P2 iter5 ✓
+- Photography spots → BACKLOG P2 iter30 ✓
+- Dark sky stargazing → subsumed in Mitzpe Ramon guide BACKLOG iter85 ✓
+
+**Sources:**
+- expedia.com/Haifa.dx1446, tripadvisor.com/Tourism-g293982-Haifa, touristisrael.com/haifa/33404
+- takeyourbackpack.com/backpacking-in-israel/visit-golan-heights, frommers.com/destinations/upper-galilee-and-the-golan-heights, tripadvisor.com/Attractions-g1389503-Activities-Golan_Heights
+- kayak.com/flight-routes/United-States-US0/Tel-Aviv-Ben-Gurion-Intl-TLV, skyscanner.com/flights-from/tlv, expedia.com/Cheap-Flights-To-Tel-Aviv
+- touristisrael.com, nomadicmatt.com/travel-guides/israel-travel-tips/tel-aviv, timeout.com/israel/things-to-do/one-day-in-tel-aviv
+- igoogledisrael.com, timeout.com/israel/attractions/the-best-markets-in-israel, secrettelaviv.com/markets
+- wikitravel.org/en/Israel, voltagedb.com/israel
+- timeout.com/israel restaurants, tripadvisor.com/Restaurants-g297702-Nazareth, haaretz.com/israel-news/travel
+
+7 net-new items added. Backlog now ~177 ready items.

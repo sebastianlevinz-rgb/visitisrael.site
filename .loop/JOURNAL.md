@@ -3486,3 +3486,26 @@ Gate: pnpm check 0 errors (117 files) · pnpm build 354 pages (unchanged) · pnp
 Ship: committed 1fcaae3 to master, pushed. Branch deleted.
 Prod: CI in_progress at push (standard pattern). Previous iterations all deployed successfully.
 Next: iter 180 = RESEARCH (180%5==0). Scout competitors for profitable new content/features.
+
+## 2026-06-29 · iter 180 · RESEARCH · competitor gap analysis
+
+Mode: RESEARCH (180%5==0).
+Startup: git pull --ff-only → master at 5d99f90 (iter 179 state + Ein Gedi safety fix). Clean. No leftover branches.
+
+Research scope: 6 web searches (Haifa travel guide competitors, GYG Israel best tours, Israel dark sky/Negev, Nova Festival memorial tourism, Golan Heights guide, cheap flights TLV, Haifa guide 2026) + Python BACKLOG dedup search to confirm 14 candidates against existing ~170 backlog items.
+
+Findings (7 net-new items added to BACKLOG):
+1. haifa-travel-guide (P2, M) — Israel's 3rd city has no standalone guide; day-trips-from-haifa.md treats it as hub only; all major competitors (Expedia, TripAdvisor, Tourist Israel) have dedicated Haifa guides.
+2. golan-heights-guide (P2, M) — golan-druze-villages.md exists but covers Druze only; Nimrod Fortress, Banias Nature Reserve, Yehudiya pools, Golan winery, Gamla, Hermon = all uncovered.
+3. cheap-flights-to-israel (P2, S, monetization) — Nothing covers getting to Israel by air; Kayak/Skyscanner/Expedia rank for these high-intent queries; Skyscanner affiliate monetization opportunity.
+4. 1-day-tel-aviv-itinerary (P2, S) — Natural companion to iter176's 1-day-jerusalem guide; Tourist Israel, Nomadic Matt, Timeout all rank for "one day in Tel Aviv."
+5. israel-markets-guide (P3, S) — Hub covering Machane Yehuda, Levinsky Market, Jaffa Flea, Haifa Wadi Nisnas, Nazareth souk; extends beyond existing Carmel Market guide.
+6. israel-power-plug (P3, S) — Was in COMPETITORS.md iter170 but never added to BACKLOG (oversight); Type H plug unique to Israel; simple evergreen content.
+7. nazareth-food-guide (P3, S) — Completes TLV+Jerusalem food guide trilogy; Diana restaurant + El Babour + knafeh; Timeout Israel, Haaretz, TripAdvisor all cover this.
+
+De-duped: Oct 7 memorial (blocked), accessible travel (P2 iter90), eco-tourism (P3 iter155), Jesus Trail (P2 iter165), fine dining (P2 iter175), visa extension (P2 iter175), water parks (P2 iter175), military heritage (P2 iter175), day trips Eilat (P2 iter175), supermarket (P3 iter170), Yom HaZikaron (P2 iter170), beaches (P2 iter5), photography (P2 iter30), dark sky/Mitzpe Ramon (iter85 — subsumed).
+
+Gate: N/A (RESEARCH mode, no code changes).
+Ship: N/A.
+Prod: N/A.
+Next: iter 181 = BUILD (181%5==1, monetization rotation). Top candidate: cheap-flights-to-israel (P2, S, monetization) — aligns with rotation + highest near-term revenue potential. Alternative: 1-day-tel-aviv-itinerary (P2, S) or i18n batch 18 continuation.
