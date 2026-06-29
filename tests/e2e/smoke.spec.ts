@@ -212,6 +212,7 @@ const ROUTES = [
   '/tel-aviv-carmel-market',
   '/tel-aviv-neighborhoods-guide',
   '/israel-evening-activities',
+  '/1-day-jerusalem-itinerary',
   '/search',
 ];
 

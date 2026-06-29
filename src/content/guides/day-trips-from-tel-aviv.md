@@ -48,7 +48,7 @@ faqs:
 
 ## The top day trips
 
-- **[Jerusalem](/jerusalem)** — *~45 min by train.* The number-one trip: the [Old City](/jerusalem/old-city), [Western Wall](/jerusalem/western-wall) and [Holy Sepulchre](/jerusalem/holy-sepulchre).
+- **[Jerusalem](/jerusalem)** — *~45 min by train.* The number-one trip: the [Old City](/jerusalem/old-city), [Western Wall](/jerusalem/western-wall) and [Holy Sepulchre](/jerusalem/holy-sepulchre). For a minute-by-minute plan, see the [1-day Jerusalem itinerary](/1-day-jerusalem-itinerary).
 - **[Caesarea](/caesarea), [Haifa](/haifa) & [Akko](/akko)** — *the northern coast.* Roman ruins, the [Bahá'í Gardens](/haifa/bahai-gardens) and a Crusader port in one guided day. See the full [Caesarea day-trip guide](/caesarea-guide) and [Akko travel guide](/akko-acre-guide).
 - **[Masada](/dead-sea/masada) & the [Dead Sea](/dead-sea)** — *~2 hrs.* The desert classic; easiest by tour.
 - **The [Galilee](/galilee) & [Nazareth](/nazareth)** — *longer.* Better with an early start or a guide.
