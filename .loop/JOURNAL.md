@@ -3269,3 +3269,22 @@ Gate: pnpm check 0 errors; pnpm build 337 pages (unchanged count); pnpm test:e2e
 Ship: committed 2467b26 to master, pushed. CI+Lighthouse in_progress at state-write time.
   Prior SHA 166616f5 CI+Lighthouse both SUCCESS — expected to pass.
 Next: iter 170 = RESEARCH (170%5==0).
+
+## 2026-06-29T00:00Z · iter 170 · RESEARCH · multi-competitor gap analysis
+
+Scanned: touristisrael.com, musliminisrael.com, islamiclandmarks.com, secrettelaviv.com,
+timeoutisrael.com, tripadvisor.com (Israel top attractions list), lonelyplanet.com,
+roughguides.com, yadvashem.org, israelforever.org, itraveljerusalem.com, jnf.org,
+seriouseats.com, saveur.com, timeout.com/israel — 18+ sources across Muslim travel,
+memorial sites, urban beaches, national holidays, practical utility, food-retail verticals.
+De-duped all candidates against full 404-line BACKLOG (many expected candidates confirmed
+already present from iters 5/30/60/85/100/125/155/160/165).
+Found 6 net-new confirmed gaps: (1) Ramadan travel in Israel guide (P2, seo-content, S);
+(2) Yad Vashem comprehensive standalone visitor guide (P2, seo-content, S);
+(3) Tel Aviv beaches dedicated guide (P2, seo-content, M — DISTINCT from iter5 national beaches);
+(4) Yom HaZikaron + Yom Ha'atzmaut experience guide (P2, seo-content, S);
+(5) Israeli supermarket & grocery shopping guide (P3, seo-content, S);
+(6) Israel power plug & electricity guide (P3, technical+seo, S).
+All 6 appended to BACKLOG with full detail; COMPETITORS.md updated with iter170 section.
+Backlog now ~164 ready items. No gate/ship (RESEARCH mode, memory-only update).
+Next: iter 171 = BUILD (171%5==1), monetization rotation first.

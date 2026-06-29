@@ -2220,3 +2220,79 @@ DE-DUPED this iteration:
 - Kosher restaurants guide: kosher-food-guide.md EXISTS (shipped); no new standalone guide needed.
 
 5 net-new items added to BACKLOG. Backlog now ~158 ready items.
+
+### 2026-06-29 · iter 170 · Multi-competitor scan: Muslim travel, memorial sites, practical guides, urban beaches
+
+**Research scope**: Scanned touristisrael.com, islamiclandmarks.com, musliminisrael.com, lonelyplanet.com,
+secrettelaviv.com, timeoutisrael.com, tripadvisor.com (Israel top attractions), theworldpursuit.com,
+thebrokebackpacker.com, yadvashem.org, roughguides.com, nomadicmatt.com, israelforever.org,
+itraveljerusalem.com, jnf.org, seriouseats.com, saveur.com, timeout.com/israel. De-duped
+all candidates against the full 404-line BACKLOG.
+
+**Confirmed new gaps (6 net-new items added):**
+
+**Ramadan travel in Israel (P2, seo-content, S)** — musliminisrael.com, islamiclandmarks.com, TripAdvisor
+forums, Lonely Planet all serve "visiting Israel during Ramadan" / "Al-Aqsa Ramadan tourist guide" queries;
+ZERO equivalent editorial on visitisrael.site. Dual audience: Muslim pilgrims + curious non-Muslim travelers.
+Key value: Al-Aqsa Ramadan pilgrimage context + Jaffa/Nazareth iftar atmosphere + logistics (what's open/closed).
+HONESTY guard: Al-Aqsa non-Muslim access during Ramadan changes annually per Israeli security policy — MUST
+warn and link to current WAQF/police announcements rather than asserting access.
+→ BACKLOG (seo-content, P2, S) — [iter170 research].
+
+**Yad Vashem standalone visitor guide (P2, seo-content, S)** — TripAdvisor ranks it as Israel's top attraction
+worldwide; Lonely Planet, Rough Guides, Rick Steves all have thin Yad Vashem pages (practical info, no
+emotional preparation); yadvashem.org/visit is authoritative but not SEO-competitive as editorial; 0 standalone
+BACKLOG entry (jerusalem-museums BACKLOG at iter130 treats it as one of six museum items). Standalone guide
+justified: mandatory free advance booking fills weeks ahead; 3.5–4h emotionally intensive experience requiring
+specific preparation unlike any other museum. Children's Memorial, Hall of Names, Avenue of Righteous each
+warrant dedicated description. HONESTY guard: frame as emotionally significant, not "5-star experience";
+timed-entry booking ONLY via yadvashem.org.
+→ BACKLOG (seo-content, P2, S) — [iter170 research].
+
+**Tel Aviv beaches dedicated guide (P2, seo-content, M)** — secrettelaviv.com, timeoutisrael.com,
+theworldpursuit.com, thebrokebackpacker.com all have strong TLV-beach-only guides; 14km of named public
+beaches with distinct personalities = highest-shareability content type. DISTINCT from BACKLOG iter5 "Israel
+beaches guide" (national coverage); this targets "Tel Aviv beach guide" + "best beach Tel Aviv" keywords
+exclusively. Key commercial value: beachfront hotels (Sheraton, Dan, Isrotel Tower) are premium Booking.com
+CTAs. Key content differentiator: Hilton Beach tri-zone (LGBTQ+/dogs/surf), Nordau gender-separated Orthodox
+beach (rotating schedule), jellyfish season warning (Aug–Oct), disabled beach wheelchair booking.
+→ BACKLOG (seo-content, P2, M) — [iter170 research].
+
+**Yom HaZikaron + Yom Ha'atzmaut experience guide (P2, seo-content, S)** — touristisrael.com,
+itraveljerusalem.com, jnf.org, israelforever.org all cover these holidays; israel-events-festivals.md
+covers them in a one-liner calendar entry; the highway-siren / cars-stopping + fireworks-transition = most
+distinctive Israeli cultural experiences for visitors. HONESTY guard: Yom HaZikaron closure for entertainment
+is near-total in Jewish sector (no exceptions); must acknowledge Nakba Day context respectfully without false
+equivalence or erasure.
+→ BACKLOG (seo-content, P2, S) — [iter170 research].
+
+**Israeli supermarket & grocery guide (P3, seo-content, S)** — secrettelaviv.com, timeout.com/israel,
+Saveur magazine Israel pieces all cover "what to buy at Israeli supermarket"; kosher-food-guide.md covers
+restaurant kosher eating; israeli-food-cuisine-guide.md covers food culture; NO guide covers navigating chain
+options (Shufersal/Rami Levy/AM:PM/Tiv Ta'am), reading kashrut labels, or food souvenirs (tahini, silan,
+Bamba, halva, za'atar). High social shareability.
+→ BACKLOG (seo-content, P3, S) — [iter170 research].
+
+**Israel power plug & electricity guide (P3, technical+seo, S)** — wikitravel.org, voltagedb.com,
+tripadvisor forums all surface "Israel power plug adapter" queries; ben-gurion-airport-guide.md and
+israel-esim.md do not mention power; Type H plug (unique 3-pin triangular, used only in Israel + Palestinian
+Territories) is a genuine gotcha for travelers from any country. 220V/50Hz; European Type C also fits
+(backwards compatible). Minimal content effort for evergreen SEO.
+→ BACKLOG (technical+seo, P3, S) — [iter170 research].
+
+**DE-DUPED this iteration (confirmed already in BACKLOG or DONE):**
+- Photography guide (BACKLOG iter30, P2, M) — confirmed present.
+- Mitzpe Ramon guide (BACKLOG iter85, P3, S) — confirmed present.
+- Golan Heights guide (BACKLOG iter100 + iter155, P2, M) — confirmed × 2 detailed entries.
+- Bedouin experience (BACKLOG iter60, P2, M) — confirmed present.
+- Tel Aviv street art (BACKLOG iter125, P2, S) — confirmed present.
+- Wadi Rum from Eilat (BACKLOG iter125, P3, S) — confirmed present.
+- Passover guide (BACKLOG iter155, P2, S) — confirmed present.
+- Purim guide (BACKLOG iter160, P2, S) — confirmed present.
+- Sukkot guide (BACKLOG iter160, P2, S) — confirmed present.
+- Israel by train (BACKLOG iter165, P3, S) — confirmed present.
+- Layover at Ben Gurion guide: ben-gurion-airport-guide.md (SHIPPED) + airport-transfers (SHIPPED) cover it.
+- General Israel beaches guide: BACKLOG iter5, P2, M — confirmed present (DISTINCT from new TLV beaches item).
+- Kosher restaurants guide: kosher-food-guide.md EXISTS (shipped); supermarket guide is DISTINCT.
+
+6 net-new items added to BACKLOG. Backlog now ~164 ready items.
