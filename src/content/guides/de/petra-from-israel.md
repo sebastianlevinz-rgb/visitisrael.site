@@ -89,7 +89,7 @@ Welche Route Sie auch wählen, planen Sie die Grenzformalitäten von Anfang an e
 - **Reisepass:** Pflicht, mindestens sechs Monate gültig, physisch mitzuführen.
 - **Zeitpuffer:** Grenzübergänge können zu Stoßzeiten langsam sein — organisierte Touren erleichtern dies, aber planen Sie Puffer ein.
 
-Details zum Übergang Wadi Araba finden Sie in unserem [Grenzübergänge-Ratgeber](/fr/border-crossings).
+Details zum Übergang Wadi Araba finden Sie in unserem [Grenzübergänge-Ratgeber](/de/border-crossings).
 
 ## Welche Route wählen?
 
@@ -97,4 +97,4 @@ Details zum Übergang Wadi Araba finden Sie in unserem [Grenzübergänge-Ratgebe
 - **Basis in der Landesmitte, wenig Zeit?** Die **Flugreise ab Tel Aviv** erledigt Petra an einem (teuren) Tag.
 - **Petra wirklich erleben?** Buchen Sie die **Übernachtungsreise ab Jerusalem / Tel Aviv** — der zusätzliche Tag verwandelt den Besuch.
 
-Starten Sie mit unserem [Eilat-Reiseführer](/eilat), vergleichen Sie die jordanische Seite in [Petra ab Eilat oder ab Amman](/petra-from-eilat-vs-amman), und entdecken Sie weitere Optionen in unseren [besten Israel-Touren](/fr/best-tours-in-israel).
+Starten Sie mit unserem [Eilat-Reiseführer](/eilat), vergleichen Sie die jordanische Seite in [Petra ab Eilat oder ab Amman](/petra-from-eilat-vs-amman), und entdecken Sie weitere Optionen in unseren [besten Israel-Touren](/de/best-tours-in-israel).

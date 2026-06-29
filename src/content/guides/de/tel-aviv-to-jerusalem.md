@@ -29,7 +29,7 @@ Es ist die meistbefahrene Tourismusstrecke Israels — kaum 60 km, doch vier gru
 | **Sherut (Sammeltaxi)** | 50–70 Min. | ₪25–35 (~7–10 $) | Bei Vollbesetzung | Ja |
 | **Privattaxi** | 45–70 Min. | ₪280–400 (~75–110 $) | Auf Anfrage | Ja |
 
-Alle Fahrpreise im öffentlichen Nahverkehr werden mit der **Rav-Kav**-Karte oder der App bezahlt — weitere Infos in unserem [Israel-Transportratgeber](/fr/transportation).
+Alle Fahrpreise im öffentlichen Nahverkehr werden mit der **Rav-Kav**-Karte oder der App bezahlt — weitere Infos in unserem [Israel-Transportratgeber](/de/transportation).
 
 ## Der Schnellzug (die Standardwahl)
 
@@ -70,4 +70,4 @@ Ein Privattaxi von Tür zu Tür kostet rund **₪280–400**, je nach Tageszeit,
 - **Reise am Schabbat oder spät nachts:** **Sherut** (günstig) oder **Taxi** (Komfort).
 - **Gruppe von 3–4 Personen mit Gepäck:** ein **Sammeltaxi** kann bei Tür-zu-Tür-Komfort mit öffentlichen Tarifen mithalten.
 
-Nach der Ankunft entdecken Sie unseren [Jerusalem-Reginenführer](/jerusalem) und den [3-Tage-Jerusalem-Reiseplan](/itineraries), oder vergleichen Sie die beiden Städte in [Tel Aviv vs. Jerusalem](/fr/tel-aviv-vs-jerusalem). Für die Mobilität in ganz Israel, lesen Sie [Reisen in Israel](/fr/transportation).
+Nach der Ankunft entdecken Sie unseren [Jerusalem-Reginenführer](/jerusalem) und den [3-Tage-Jerusalem-Reiseplan](/itineraries), oder vergleichen Sie die beiden Städte in [Tel Aviv vs. Jerusalem](/de/tel-aviv-vs-jerusalem). Für die Mobilität in ganz Israel, lesen Sie [Reisen in Israel](/de/transportation).
