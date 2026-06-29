@@ -238,3 +238,11 @@ Zichron Yaakov (train via Binyamina, Rothschild wine village), Nazareth, Beit Sh
 (UNESCO necropolis), Tel Megiddo/Armageddon. Train-accessible vs. car-required table.
 Cruise port windows (8h/10h/12h). 3 CTAs (GYG/Viator/Civitatis). 5 FAQs. Footer wired.
 Gate: pnpm check 0 errors; build 313 pages (+1); 384/384 e2e+a11y pass.
+
+## iter 163 · 213083c · i18n Phase 2 Batch 17 (FR+DE × jewish-heritage-israel, lgbtq-travel-israel, israel-food-tours-cooking-classes)
+6 new locale pages. Paired naming: Mur des Lamentations/Kotel (FR), Klagemauer/Kotel (DE).
+FR: jewish-heritage-israel (Planification, 3 CTAs), lgbtq-travel-israel (Planification, no CTAs),
+israel-food-tours-cooking-classes (Gastronomie, 3 CTAs). DE: same 3 guides (Planung/Essen und Trinken).
+German typographic quotes avoided in YAML (known parsing bug). Smoke+a11y specs +6 routes each.
+Gate: pnpm check 0 errors; build 319 pages (+6); 396/396 e2e+a11y pass.
+fr/de count: 56 locale pages each (home + plan-your-trip + 54 guides).

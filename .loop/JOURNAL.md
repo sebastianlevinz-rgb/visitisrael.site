@@ -3106,3 +3106,37 @@ Gate:
   pnpm test:e2e: 384/384 pass ✓
 Ship: committed 73eea79 to master, pushed. CI in_progress at push time.
 Next: iter 163 = BUILD/tools (163%5==3). Consider i18n batch 17 as alternative (due: batch 16 was iter 158; roughly every other BUILD).
+
+## 2026-06-29 · iter 163 · BUILD/i18n · Phase 2 Batch 17 (jewish-heritage-israel + lgbtq-travel-israel + israel-food-tours-cooking-classes FR+DE)
+Mode: BUILD (163%5==3, tools category); tools backlog fully depleted (all 11 items SHIPPED) → fell through to i18n batch 17.
+Startup: context resumed from prior run (files staged but not committed); git status confirmed 8 files staged; committed directly.
+Stale plan note: I18N-PLAN.md batch 17 candidates (israel-gluten-free-guide, israel-in-summer, israel-yoga-retreats, solo-female-travel-israel) were invalid — EN guides don't exist, or already translated. Derived actual batch by diffing EN guides vs fr/ directory.
+What: 6 new locale pages:
+  - fr/jewish-heritage-israel.md — "Tourisme du patrimoine juif en Israël : guide complet"
+    Paired naming: Mur des Lamentations (Kotel) throughout. Category: Planification. 3 affiliate
+    CTAs (GYG Jewish Heritage tour, Viator Jerusalem guided tour, Abraham private guide). 6 FAQs.
+    Dense cross-links to /fr/bar-bat-mitzvah-israel, /fr/christian-pilgrimage-holy-land, /jerusalem, /masada.
+  - fr/lgbtq-travel-israel.md — "Voyage LGBTQ+ en Israël et la Fierté de Tel Aviv"
+    No affiliateCtas (none in EN source). 5 FAQs. Cross-links to /fr/tel-aviv-nightlife, /fr/is-israel-safe, /fr/israel-travel-insurance.
+  - fr/israel-food-tours-cooking-classes.md — "Tours gastronomiques et cours de cuisine en Israël (2026)"
+    Category: Gastronomie. 3 affiliate CTAs (GYG food tour, Airbnb Experiences, Viator cooking class). 6 FAQs.
+  - de/jewish-heritage-israel.md — "Jüdisches Kulturerbe in Israel: Der vollständige Reiseführer"
+    Paired naming: Klagemauer (Kotel). Category: Planung. Same 3 affiliate CTAs as FR version. 6 FAQs.
+    German typographic quotes avoided in YAML (known parsing bug).
+  - de/lgbtq-travel-israel.md — "LGBTQ+-Reisen in Israel und Tel Aviv Pride"
+    Category: Planung. No affiliateCtas. 5 FAQs. Cross-links to /de/ locale guides.
+  - de/israel-food-tours-cooking-classes.md — "Kulinarische Touren und Kochkurse in Israel (2026)"
+    Category: Essen und Trinken. Same 3 affiliate CTAs. 6 FAQs.
+  + smoke.spec.ts + a11y.spec.ts: both updated with 6 new routes
+    (/fr/jewish-heritage-israel, /de/jewish-heritage-israel, /fr/lgbtq-travel-israel,
+    /de/lgbtq-travel-israel, /fr/israel-food-tours-cooking-classes, /de/israel-food-tours-cooking-classes).
+Gate:
+  pnpm check: 0 errors ✓
+  pnpm build: 319 pages (+6 from 313) ✓
+  pnpm test:e2e: 396/396 pass (+12 from 384: 6 smoke + 6 a11y) ✓
+Ship: committed 213083c to master, pushed. Branch auto/i18n-batch-17 deleted.
+Prod: CI + Lighthouse in_progress at push time. Prior SHA 73eea79 (iter162) confirmed success pattern.
+fr/de count: 56 locale pages each (home + plan-your-trip + 54 guides each).
+Next: iter 164 = REVIEW (164%5==4). Audit iter 161/162 EN guides + batch 17 cross-locale links.
+  Batch 18 untranslated EN guide candidates: tiberias-guide, masada-tours-compared, galilee-tours-compared,
+  jerusalem-tours-compared, jerusalem-food-guide, day-trips-from-haifa (25 total untranslated).
