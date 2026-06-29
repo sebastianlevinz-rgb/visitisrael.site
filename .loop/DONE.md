@@ -271,3 +271,16 @@ New /israel-evening-activities guide: Tower of David Night Spectacular, Masada s
 (Mar–Oct), Jerusalem Festival of Light (June), Mahane Yehuda after dark, Western Wall at night,
 Jaffa port sunset, Mitzpe Ramon stargazing. GetYourGuide + Viator CTAs. Footer wired.
 338 pages built. 417/417 e2e pass.
+
+## iter 172 · 8026f16 · BUILD/i18n · Batch 18 transport guides (FR+DE)
+i18n Phase 2 batch 18 continued — 4 transport/practical guides translated into FR+DE (8 locale pages):
+ben-gurion-airport-transfers, rav-kav-israel, israel-esim, tel-aviv-light-rail.
+Smoke spec +10 routes (fr/de × 5 pairs). 346 pages built. 425/425 e2e pass.
+
+## iter 173 · 7d52184 · BUILD/seo-content · 1-day Jerusalem itinerary guide
+New /1-day-jerusalem-itinerary targeting top-5 highest-volume Israel travel query (~10k+ monthly searches).
+Two tested routes: (1) Old City highlights — Western Wall → Holy Sepulchre → Via Dolorosa → Tower of
+David → Mount of Olives → Mahane Yehuda; (2) Deeper cut — Yad Vashem (advance booking required) →
+Mahane Yehuda → City of David + Hezekiah's Tunnel wet walk. Three affiliate CTAs (GYG private tour,
+Viator Old City walk, Abraham Tours). 5 FAQs. 10+ internal links. Cross-link added to
+day-trips-from-tel-aviv.md. Smoke spec +1 route. 347 pages built. 426/426 e2e pass.

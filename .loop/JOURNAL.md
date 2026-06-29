@@ -3326,3 +3326,26 @@ Gate: pnpm check 0 errors; pnpm build 346 pages (+8 from 338); pnpm test:e2e 425
 Ship: squash-committed to master 8026f16, pushed. Branch auto/i18n-batch18-transport-guides deleted.
 Prod: CI + Lighthouse in_progress at push (standard pattern). Next iter start-check to confirm 8026f16.
 Next: iter 173 = BUILD (173%5==3), tools rotation. 13 EN guides still untranslated in batch 18.
+
+## 2026-06-29 · iter 173 · BUILD (seo-content) · 1-day Jerusalem itinerary guide
+Mode: BUILD (173%5==3); tools rotation exhausted (all 11 tools items SHIPPED) → fell through to seo-content.
+Startup: fresh cloud clone; git pull --ff-only; local already up to date (8026f16 from iter172).
+What: Shipped /1-day-jerusalem-itinerary — the "1 day in Jerusalem" query (~10k+ monthly searches) is
+  among the top-5 highest-volume Israel travel queries; zero dedicated page existed on site despite abundant
+  Jerusalem content. Two tested routes: (1) Old City highlights for first-timers (Western Wall 8am →
+  Holy Sepulchre 9-12pm → Via Dolorosa + Tower of David 1-3pm → Mahane Yehuda 3-5pm → Mount of Olives
+  sunset 5-7pm → dinner Mahane Yehuda/Mamilla 7-9pm); (2) Deeper cut for repeat visitors (Yad Vashem
+  [ADVANCE BOOKING REQUIRED] 8-11am → Machane Yehuda 11:30am → City of David + Hezekiah's Tunnel 2-4:30pm
+  → Ben Yehuda + German Colony evening). Three affiliate CTAs (GYG private day tour, Viator Old City walk,
+  Abraham Tours city tour). 5 FAQs covering: is 1 day enough, TLV→Jerusalem train logistics, Yad Vashem
+  advance booking, what to skip, guide value. 10+ internal links to existing Jerusalem/Israel pages.
+  Cross-link added to day-trips-from-tel-aviv.md Jerusalem bullet. Smoke spec +1 route.
+  Honesty: Yad Vashem advance booking warning prominent; "wheelchair accessibility limited in Old City"
+  noted; no fabricated prices — all cost references use ranges or omit; dress code cross-linked.
+Gate: pnpm check 0 errors (117 files); pnpm build 347 pages (+1 from 346); pnpm test:e2e 426/426 pass.
+  GREEN first run, no fixes needed.
+Ship: committed 7d52184 to master, pushed. Branch auto/1-day-jerusalem-itinerary deleted.
+Prod: CI + Lighthouse in_progress at push — typical pattern, expected to succeed.
+Next: iter 174 = REVIEW (174%5==4). Review recently shipped guides (iter171 evening-activities,
+  iter173 1-day-jerusalem-itinerary, and cross-links). Also eligible: i18n batch 18 continuation
+  (13 untranslated guides remain).
