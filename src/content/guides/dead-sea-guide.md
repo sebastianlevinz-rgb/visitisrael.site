@@ -1,9 +1,9 @@
 ---
 title: 'How to Visit the Dead Sea: Beaches, Floating & Tips (2026)'
-description: 'First-timer Dead Sea guide — floating technique, safety rules, best beaches (Kalia, Ein Gedi, Ein Bokek), mud ritual, what to bring, how to get there, and whether to stay overnight.'
+description: 'First-timer Dead Sea guide — floating technique, safety rules, best open beaches 2026 (Kalia, Ein Bokek), mud ritual, what to bring, how to get there, and whether to stay overnight.'
 heroImage: /images/regions/dead-sea/hero.jpg
 category: Destinations
-updatedAt: 2026-06-25
+updatedAt: 2026-06-29
 ctaHeading: 'Book Dead Sea tours & hotels'
 affiliateCtas:
   - partner: getyourguide
@@ -32,9 +32,9 @@ faqs:
   - question: What happens if Dead Sea water gets in your eyes?
     answer: 'It causes intense, immediate burning and temporary vision blurriness. Keep your head back while floating and absolutely do not touch your face with salty hands. Most beaches have fresh-water rinse stations for this exact reason — locate them before you enter the water. If you do get water in your eyes, rinse immediately and thoroughly with fresh water. Wear goggles if you are prone to splashing. The burning passes within minutes of rinsing, but it is unpleasant enough to plan around.'
   - question: Is the Dead Sea free to visit?
-    answer: 'Partially. Ein Gedi public beach (basic facilities, no shade) is free. Kalia Beach in the north charges a fee of roughly ₪60–90 per person which includes changing rooms, showers and chairs. Ein Bokek resort beaches are mostly for hotel guests, though some resorts sell day-passes (₪100–200 range). Verify current pricing at the entrance — fees change seasonally.'
+    answer: 'Kalia Beach in the north charges a fee of roughly ₪60–90 per person which includes changing rooms, showers and chairs. Ein Bokek resort beaches are mostly for hotel guests, though some resorts sell day-passes (₪100–200 range). Note: Ein Gedi public beach is permanently closed by the Israel Nature and Parks Authority due to sinkhole danger — do not visit it. Verify current pricing at the entrance to Kalia or your Ein Bokek resort — fees change seasonally.'
   - question: What is the best beach at the Dead Sea?
-    answer: 'For a first-time visit with full facilities and the easiest access from Jerusalem (80 km north of Ein Bokek), Kalia Beach is the most practical. For a free alternative with more of a natural feel, Ein Gedi Beach works but has no shade or food. If you are staying overnight at Ein Bokek, the resort beach in front of your hotel will typically be your best option.'
+    answer: 'For a first-time visit with full facilities and the easiest access from Jerusalem (80 km north of Ein Bokek), Kalia Beach is the most practical. If you are staying overnight at Ein Bokek, the resort beach in front of your hotel will typically be your best option. Ein Gedi Beach is permanently closed due to sinkhole danger and cannot be visited — please do not go there.'
   - question: Is it worth staying overnight at the Dead Sea?
     answer: 'Yes, if your budget allows. Waking up to a Dead Sea sunrise — the water is flat and mirror-like at dawn, and the Jordanian Mountains glow amber across the water — is one of the more memorable sights in Israel. Staying overnight also lets you float in the late afternoon light when day-trippers have left, and gives you time for a proper spa treatment. Ein Bokek has options at several price tiers — from mid-range resorts to high-end spa hotels.'
   - question: Can you combine the Dead Sea with Masada on the same day?
@@ -71,9 +71,13 @@ A few rules matter more here than at any other beach:
 
 ---
 
-## Which beach to choose
+## Which beach to choose (2026)
 
-The Dead Sea has three main visitor beach options on the Israeli shore, each with a different character.
+The Dead Sea shoreline has changed significantly in recent years due to sinkholes — over 7,000 have formed since the 1980s as the sea level drops roughly one metre per year, exposing unstable salt karst. **Only visit INPA-designated, monitored beaches.** Do not walk on unfenced shoreline or unmanaged beach areas.
+
+> **Safety update:** Ein Gedi public beach is **permanently closed** by the Israel Nature and Parks Authority. Sinkhole collapse risk makes the area dangerous. The site is fenced. Do not go there.
+
+Two safe public beach options remain on the Israeli shore:
 
 ### Kalia Beach (northern Dead Sea — nearest to Jerusalem)
 
@@ -83,11 +87,9 @@ Kalia Beach is 80 km from Jerusalem and approximately 45 minutes by car. It is t
 
 **Note:** Kalia sits at the northern, freshwater-influenced end of the Dead Sea. Salt concentration is slightly lower here than at Ein Bokek, though the difference is minor and floating is still effortless.
 
-### Ein Gedi Beach (central — below the oasis)
+### ~~Ein Gedi Beach~~ — permanently closed
 
-**Best for:** Budget visitors; those pairing the beach with Ein Gedi nature reserve; a more natural feel.
-
-Ein Gedi Beach is free to enter. It has basic changing and shower facilities but no shade, no café and no chairs. The experience is raw and the scenery — salt-encrusted rocks, exposed flats of crystallised salt, the Jordanian mountains across the water — is striking. Pair this with a morning walk in the [Ein Gedi nature reserve](/dead-sea/ein-gedi) (a separate site 2 km to the north — the reserve has its own car park and admission fee). The beach is at a natural section of shoreline with visible salt formations underfoot; bring water shoes.
+> **Do not visit.** Ein Gedi public beach was permanently closed by the Israel Nature and Parks Authority due to sinkhole danger. The shoreline in this central section has seen extensive sinkhole formation — the beach is fenced off and the facilities are decommissioned. If you see older travel advice or tour brochures recommending Ein Gedi Beach, disregard them. The [Ein Gedi nature reserve](/dead-sea/ein-gedi) (for hiking — canyon, waterfall, ibex) remains open 2 km north; only the beach section is closed.
 
 ### Ein Bokek (southern resort strip — nearest to Masada)
 
@@ -105,7 +107,7 @@ Dead Sea mineral mud is high in magnesium, bromide and sulphur — minerals wide
 
 **How to do it:** Scoop or buy the black mineral mud and apply it generously to arms, legs and torso. Avoid the face if you have sensitive skin, and keep it well away from eyes. Wait 10–15 minutes while it dries to a grey crust. Rinse off in the sea (the salt water dissolves it quickly) and follow with a fresh-water shower. Most beaches with facilities have dedicated mud stations.
 
-Natural mud is also available in shallow areas of the beach at spots like Ein Gedi — look for dark deposits at the water's edge or in low-lying areas near the shoreline.
+Natural mud is also available at the Kalia Beach mud station and in shallow areas at Ein Bokek beaches — look for dark deposits at the water's edge. Stick to officially managed beach areas.
 
 ---
 
@@ -114,11 +116,11 @@ Natural mud is also available in shallow areas of the beach at spots like Ein Ge
 Packing for the Dead Sea is specific enough to be worth planning:
 
 - **Old swimsuit:** The salt bleaches and damages swimwear. Wear something you are not attached to — or buy an inexpensive one for the trip. Dark colours show the salt least.
-- **Water shoes:** The shoreline at natural beaches (Ein Gedi, parts of Kalia) has salt crystal formations underfoot that are sharp and uncomfortable barefoot. Lightweight water shoes or sandals that you can walk in through shallow water are essential.
+- **Water shoes:** The shoreline at Kalia Beach has salt crystal formations underfoot that are sharp and uncomfortable barefoot. Lightweight water shoes or sandals that you can walk in through shallow water are essential.
 - **2–3 bottles of fresh water:** One for drinking throughout the day; one to rinse your face/eyes in an emergency; one for after your float if the shower queue is long.
 - **SPF 50+ sunscreen:** Reapply after the float and the post-float shower.
 - **A change of clothes:** You will want to feel clean and dry before the drive back to Jerusalem or Tel Aviv.
-- **Snacks and lunch:** Food options at public beaches are limited; Ein Gedi has no food at all. Pack a cooler bag or buy something at the Kalia kiosk. Ein Bokek has hotel restaurants for sit-down meals.
+- **Snacks and lunch:** Food at Kalia is limited to a café/kiosk. Pack a cooler bag if you want a full lunch. Ein Bokek has hotel restaurants for sit-down meals.
 - **Camera with salt protection:** The flat expanse of water reflecting sky and distant mountains is extraordinary. Salt spray will damage lens elements — keep your camera in a bag until you are dry.
 
 ---

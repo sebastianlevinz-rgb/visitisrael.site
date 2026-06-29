@@ -32,9 +32,9 @@ faqs:
   - question: Que se passe-t-il si l'eau de la mer Morte entre dans les yeux ?
     answer: "Cela provoque une brûlure intense et immédiate ainsi qu'une vision temporairement floue. Gardez la tête en arrière en flottant et ne touchez absolument pas votre visage avec les mains salées. La plupart des plages disposent de stations de rinçage à l'eau douce pour cette raison exacte — repérez-les avant d'entrer dans l'eau. Si de l'eau entre dans vos yeux, rincez immédiatement et abondamment à l'eau douce. La brûlure passe en quelques minutes après rinçage, mais c'est suffisamment désagréable pour l'anticiper."
   - question: La mer Morte est-elle gratuite à visiter ?
-    answer: "En partie. La plage publique d'Ein Gedi (installations basiques, pas d'ombre) est gratuite. Kalia Beach facture environ 60 à 90 ₪ par personne, ce qui inclut vestiaires, douches et chaises. Les plages des complexes hôteliers d'Ein Bokek sont principalement réservées aux clients, bien que certains vendent des pass journaliers (fourchette de 100 à 200 ₪). Vérifiez le tarif actuel à l'entrée — les prix changent selon les saisons."
+    answer: "Kalia Beach facture environ 60 à 90 ₪ par personne, ce qui inclut vestiaires, douches et chaises. Les plages des complexes hôteliers d'Ein Bokek sont principalement réservées aux clients, bien que certains vendent des pass journaliers (fourchette de 100 à 200 ₪). Remarque : la plage publique d'Ein Gedi est définitivement fermée par l'Autorité Israélienne Nature et Parcs en raison du danger d'affaissements. Ne vous y rendez pas. Vérifiez le tarif actuel à l'entrée de Kalia ou de votre complexe d'Ein Bokek."
   - question: Quelle est la meilleure plage à la mer Morte ?
-    answer: "Pour une première visite avec toutes les installations et l'accès le plus facile depuis Jérusalem (80 km au nord d'Ein Bokek), Kalia Beach est la plus pratique. Pour une alternative gratuite avec un aspect plus naturel, Ein Gedi Beach fonctionne mais n'a ni ombre ni restauration. Si vous séjournez à Ein Bokek, la plage du complexe devant votre hôtel sera généralement votre meilleure option."
+    answer: "Pour une première visite avec toutes les installations et l'accès le plus facile depuis Jérusalem (80 km au nord d'Ein Bokek), Kalia Beach est la plus pratique. Si vous séjournez à Ein Bokek, la plage du complexe devant votre hôtel sera généralement votre meilleure option. La plage d'Ein Gedi est définitivement fermée en raison du danger d'affaissements — ne vous y rendez pas."
   - question: Vaut-il la peine de passer une nuit à la mer Morte ?
     answer: "Oui, si votre budget le permet. Se réveiller face à un lever de soleil sur la mer Morte — l'eau est plate et lisse comme un miroir à l'aube, et les montagnes jordaniennes rougeoient de l'autre côté — est l'un des plus beaux spectacles d'Israël. Passer la nuit permet également de flotter à la lumière du crépuscule quand les excursionnistes sont partis, et de profiter d'un vrai soin spa. Ein Bokek propose des options à plusieurs niveaux de prix — des complexes milieu de gamme aux hôtels spa haut de gamme."
   - question: Peut-on combiner la mer Morte avec Masada dans la même journée ?
@@ -71,9 +71,13 @@ Quelques règles comptent plus ici que sur n'importe quelle autre plage :
 
 ---
 
-## Quelle plage choisir
+## Quelle plage choisir (2026)
 
-La mer Morte compte trois principales options de plage du côté israélien, chacune avec un caractère différent.
+Le littoral de la mer Morte a considérablement changé ces dernières années en raison des affaissements — plus de 7 000 se sont formés depuis les années 1980, au fur et à mesure que le niveau de la mer baisse d'environ un mètre par an. **Ne visitez que les plages désignées et surveillées par l'INPA.** Ne marchez pas sur un littoral non clôturé.
+
+> **Mise à jour sécurité :** La plage publique d'Ein Gedi est **définitivement fermée** par l'Autorité Israélienne Nature et Parcs. Le risque d'effondrement par affaissement rend le site dangereux. Le site est clôturé. Ne vous y rendez pas.
+
+Il reste deux options de plage publique sûres sur le rivage israélien :
 
 ### Kalia Beach (mer Morte nord — la plus proche de Jérusalem)
 
@@ -83,11 +87,9 @@ Kalia Beach est à 80 km de Jérusalem, environ 45 minutes en voiture. C'est la 
 
 **Note :** Kalia se trouve à l'extrémité nord, influencée par les eaux douces. La concentration en sel y est légèrement inférieure à celle d'Ein Bokek, bien que la différence soit mineure et la flottaison toujours sans effort.
 
-### Ein Gedi Beach (zone centrale — au pied de l'oasis)
+### ~~Ein Gedi Beach~~ — définitivement fermée
 
-**Idéale pour :** les budgets serrés ; ceux qui combinent la plage avec la réserve naturelle d'Ein Gedi ; un aspect plus naturel.
-
-Ein Gedi Beach est gratuite. Elle dispose d'installations basiques de vestiaires et de douches, mais sans ombre, sans café et sans chaises. L'expérience est brute et le paysage — rochers incrustés de sel, étendues de sel cristallisé, montagnes jordaniennes de l'autre côté — est saisissant. Associez ce site avec une marche matinale dans la [réserve naturelle d'Ein Gedi](/dead-sea/ein-gedi) (site distinct à 2 km au nord — la réserve a son propre parking et son droit d'entrée). La plage est sur une portion naturelle du rivage avec des formations de sel visibles sous les pieds ; apportez des chaussures aquatiques.
+> **Ne vous y rendez pas.** La plage publique d'Ein Gedi a été définitivement fermée par l'Autorité Israélienne Nature et Parcs en raison du danger d'affaissements. Le littoral dans cette section centrale a connu de nombreux affaissements — la plage est clôturée et les installations sont hors service. Si vous voyez d'anciens conseils de voyage recommandant Ein Gedi Beach, ignorez-les. La [réserve naturelle d'Ein Gedi](/dead-sea/ein-gedi) (randonnée — canyon, cascade, bouquetins) reste ouverte à 2 km au nord ; seule la plage est fermée.
 
 ### Ein Bokek (bande hôtelière sud — la plus proche de Masada)
 
@@ -105,7 +107,7 @@ La boue minérale de la mer Morte est riche en magnésium, bromure et soufre —
 
 **Comment procéder :** Prélevez ou achetez la boue minérale noire et appliquez-la généreusement sur les bras, les jambes et le torse. Évitez le visage si vous avez la peau sensible, et tenez-la bien éloignée des yeux. Attendez 10 à 15 minutes que la boue sèche en une croûte grise. Rincez dans la mer (l'eau salée la dissout rapidement) et terminez par une douche à l'eau douce. La plupart des plages équipées disposent de stations de boue dédiées.
 
-De la boue naturelle est également disponible dans les zones peu profondes de la plage à des endroits comme Ein Gedi — cherchez des dépôts sombres à la ligne d'eau ou dans les zones basses près du rivage.
+De la boue naturelle est également disponible dans les zones peu profondes à Kalia Beach et sur les plages d'Ein Bokek — cherchez des dépôts sombres à la ligne d'eau. Restez dans les zones de plage officiellement gérées.
 
 ---
 
@@ -114,11 +116,11 @@ De la boue naturelle est également disponible dans les zones peu profondes de l
 La préparation pour la mer Morte est suffisamment spécifique pour valoir la peine d'y réfléchir :
 
 - **Vieux maillot de bain :** Le sel décolore et abîme les vêtements de bain. Portez quelque chose qui ne vous tient pas à cœur — ou achetez-en un bon marché pour le voyage. Les couleurs sombres montrent le moins le sel.
-- **Chaussures aquatiques :** Le rivage des plages naturelles (Ein Gedi, certaines parties de Kalia) présente des formations de cristaux de sel sous les pieds qui sont pointues et inconfortables pieds nus. Des chaussures aquatiques légères ou des sandales dans lesquelles vous pouvez marcher dans l'eau peu profonde sont indispensables.
+- **Chaussures aquatiques :** Le rivage de Kalia Beach présente des formations de cristaux de sel sous les pieds qui sont pointues et inconfortables pieds nus. Des chaussures aquatiques légères ou des sandales dans lesquelles vous pouvez marcher dans l'eau peu profonde sont indispensables.
 - **2 à 3 bouteilles d'eau douce :** Une pour boire tout au long de la journée ; une pour vous rincer le visage/les yeux en cas d'urgence ; une pour après la flottaison si la file d'attente à la douche est longue.
 - **Crème solaire SPF 50+ :** Réappliquez après la flottaison et la douche post-flottaison.
 - **Des vêtements de rechange :** Vous voudrez vous sentir propre et sec avant le trajet de retour vers Jérusalem ou Tel Aviv.
-- **Repas et collations :** Les options alimentaires sur les plages publiques sont limitées ; Ein Gedi n'a aucune nourriture du tout. Apportez un sac isotherme ou achetez quelque chose au kiosque de Kalia. Ein Bokek dispose de restaurants d'hôtel pour les repas assis.
+- **Repas et collations :** Les options alimentaires à Kalia se limitent à un café et un kiosque. Apportez un sac isotherme si vous souhaitez un vrai repas. Ein Bokek dispose de restaurants d'hôtel pour les repas assis.
 - **Appareil photo protégé du sel :** L'étendue d'eau plate reflétant ciel et lointaines montagnes est extraordinaire. Les embruns salés endommageront les éléments d'objectif — gardez votre appareil dans un sac jusqu'à ce que vous soyez sec.
 
 ---

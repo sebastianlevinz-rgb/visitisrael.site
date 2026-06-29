@@ -32,9 +32,9 @@ faqs:
   - question: Was passiert, wenn Totes-Meer-Wasser in die Augen gelangt?
     answer: "Es verursacht sofortiges, intensives Brennen und vorübergehende Sehunschärfe. Halten Sie beim Schwimmen den Kopf zurück und berühren Sie auf keinen Fall Ihr Gesicht mit salzigen Händen. Die meisten Strände haben Süßwasser-Spülstationen genau für diesen Zweck — suchen Sie diese, bevor Sie ins Wasser gehen. Spülen Sie bei Augenkontakt sofort und gründlich mit Süßwasser. Das Brennen klingt innerhalb weniger Minuten nach dem Spülen ab, aber es ist unangenehm genug, um es zu vermeiden."
   - question: Ist das Tote Meer kostenlos zu besuchen?
-    answer: "Teilweise. Der öffentliche Strand Ein Gedi (einfache Einrichtungen, kein Schatten) ist kostenlos. Kalia Beach erhebt eine Gebühr von etwa 60–90 ₪ pro Person, die Umkleiden, Duschen und Stühle einschließt. Die Resortstrände in Ein Bokek sind meist für Hotelgäste reserviert, obwohl einige Resorts Tageskarten verkaufen (Preisbereich 100–200 ₪). Prüfen Sie den aktuellen Preis am Eingang — die Gebühren ändern sich saisonal."
+    answer: "Kalia Beach erhebt eine Gebühr von etwa 60–90 ₪ pro Person, die Umkleiden, Duschen und Stühle einschließt. Die Resortstrände in Ein Bokek sind meist für Hotelgäste reserviert, obwohl einige Resorts Tageskarten verkaufen (Preisbereich 100–200 ₪). Hinweis: Der öffentliche Strand Ein Gedi ist dauerhaft von der Israelischen Natur- und Parkverwaltung wegen Erdfallgefahr gesperrt — besuchen Sie ihn nicht. Prüfen Sie den aktuellen Preis am Eingang von Kalia oder Ihrem Ein-Bokek-Resort."
   - question: Was ist der beste Strand am Toten Meer?
-    answer: "Für einen Erstbesuch mit vollständigen Einrichtungen und dem einfachsten Zugang von Jerusalem (80 km nördlich von Ein Bokek) ist Kalia Beach am praktischsten. Für eine kostenlose Alternative mit natürlicherem Flair eignet sich Ein Gedi Beach, hat aber keinen Schatten und keine Gastronomie. Wenn Sie in Ein Bokek übernachten, ist der Resortstrand vor Ihrem Hotel typischerweise Ihre beste Option."
+    answer: "Für einen Erstbesuch mit vollständigen Einrichtungen und dem einfachsten Zugang von Jerusalem (80 km nördlich von Ein Bokek) ist Kalia Beach am praktischsten. Wenn Sie in Ein Bokek übernachten, ist der Resortstrand vor Ihrem Hotel typischerweise Ihre beste Option. Der Ein-Gedi-Strand ist dauerhaft wegen Erdfallgefahr gesperrt — besuchen Sie ihn bitte nicht."
   - question: Lohnt es sich, am Toten Meer zu übernachten?
     answer: "Ja, wenn Ihr Budget es erlaubt. Den Sonnenaufgang über dem Toten Meer zu erleben — das Wasser ist bei Morgengrauen spiegelglatt, und die jordanischen Berge leuchten am anderen Ufer in Bernstein — gehört zu den eindrucksvollsten Bildern Israels. Eine Übernachtung ermöglicht außerdem ein Schwimmen im Nachmittagslicht, wenn die Tagesausflügler abgereist sind, und Zeit für eine richtige Spa-Behandlung. Ein Bokek bietet Optionen auf verschiedenen Preisstufen — von mittelklassigen Resorts bis zu Hochklasse-Spa-Hotels."
   - question: Kann man das Tote Meer und Masada an einem Tag kombinieren?
@@ -71,9 +71,13 @@ Ein paar Regeln sind hier wichtiger als an jedem anderen Strand:
 
 ---
 
-## Welchen Strand wählen
+## Welchen Strand wählen (2026)
 
-Das Tote Meer hat drei Hauptstrandoptionen am israelischen Ufer, jede mit eigenem Charakter.
+Das Tote-Meer-Ufer hat sich in den letzten Jahren durch Erdfall stark verändert — über 7.000 Erdeinbrüche haben sich seit den 1980er Jahren gebildet, da der Meeresspiegel jährlich um etwa einen Meter sinkt. **Besuchen Sie nur von der INPA ausgewiesene und beaufsichtigte Strände.** Gehen Sie nicht auf unbefriedeten oder unverwalteten Uferabschnitten.
+
+> **Sicherheitshinweis:** Der öffentliche Strand Ein Gedi ist dauerhaft von der Israelischen Natur- und Parkverwaltung (INPA) gesperrt. Erdfallgefahr macht das Gebiet gefährlich. Das Gelände ist eingezäunt. Besuchen Sie ihn nicht.
+
+Es verbleiben zwei sichere öffentliche Strandoptionen am israelischen Ufer:
 
 ### Kalia Beach (nördliches Totes Meer — am nächsten zu Jerusalem)
 
@@ -83,11 +87,9 @@ Kalia Beach ist 80 km von Jerusalem entfernt und etwa 45 Minuten Fahrt. Es ist d
 
 **Hinweis:** Kalia liegt am nördlichen, vom Süßwasser beeinflussten Ende des Toten Meeres. Die Salzkonzentration ist hier leicht geringer als in Ein Bokek, der Unterschied ist jedoch gering und der Auftrieb immer noch mühelos.
 
-### Ein Gedi Beach (Mitte — unterhalb der Oase)
+### ~~Ein Gedi Beach~~ — dauerhaft gesperrt
 
-**Am besten für:** Budgetbewusste Reisende; alle, die den Strand mit dem Naturschutzgebiet Ein Gedi verbinden; ein naturnaheres Erlebnis.
-
-Ein Gedi Beach ist kostenlos. Es gibt einfache Umkleiden und Duschen, aber keinen Schatten, kein Café und keine Stühle. Das Erlebnis ist ursprünglich; die Landschaft — mit Salz verkrustete Felsen, freiliegende Salzflächen, jordanische Berge jenseits des Wassers — ist eindrucksvoll. Kombinieren Sie diesen Strand mit einem morgendlichen Spaziergang im [Ein-Gedi-Naturschutzgebiet](/dead-sea/ein-gedi) (separates Gelände 2 km nördlich — eigener Parkplatz und Eintrittspreis). Der Strand liegt an einem natürlichen Küstenabschnitt mit sichtbaren Salzformationen unter den Füßen; Wasserschuhe mitbringen.
+> **Nicht besuchen.** Der öffentliche Strand Ein Gedi wurde dauerhaft von der Israelischen Natur- und Parkverwaltung wegen Erdfallgefahr geschlossen. Der Küstenabschnitt in diesem mittleren Bereich verzeichnet starke Erdfallbildung — der Strand ist eingezäunt und die Einrichtungen außer Betrieb. Wenn Sie ältere Reisehinweise sehen, die Ein Gedi Beach empfehlen, ignorieren Sie diese. Das [Ein-Gedi-Naturschutzgebiet](/dead-sea/ein-gedi) (Wandern — Schlucht, Wasserfall, Steinböcke) bleibt 2 km nördlich geöffnet; nur der Strandbereich ist geschlossen.
 
 ### Ein Bokek (südlicher Hotelstreifen — am nächsten zu Masada)
 
@@ -105,7 +107,7 @@ Totes-Meer-Mineralschlamm ist reich an Magnesium, Bromid und Schwefel — Minera
 
 **So geht es:** Schöpfen oder kaufen Sie den schwarzen Mineralschlamm und tragen Sie ihn großzügig auf Arme, Beine und Oberkörper auf. Vermeiden Sie das Gesicht bei empfindlicher Haut und halten Sie ihn gut von den Augen fern. Warten Sie 10–15 Minuten, bis er zu einer grauen Kruste eintrocknet. Im Meer abspülen (das Salzwasser löst ihn schnell auf) und dann mit einer Süßwasserdusche abschließen. Die meisten Strände mit Einrichtungen haben eigene Schlamm-Stationen.
 
-Natürlicher Schlamm ist auch in flachen Bereichen des Strandes an Orten wie Ein Gedi verfügbar — achten Sie auf dunkle Ablagerungen an der Wasserkante oder in tiefer gelegenen Bereichen nahe dem Ufer.
+Natürlicher Schlamm ist auch in flachen Bereichen an Kalia Beach und an den Ein-Bokek-Stränden verfügbar — achten Sie auf dunkle Ablagerungen an der Wasserkante. Bleiben Sie in offiziell verwalteten Strandbereichen.
 
 ---
 
@@ -114,11 +116,11 @@ Natürlicher Schlamm ist auch in flachen Bereichen des Strandes an Orten wie Ein
 Die Vorbereitung fürs Tote Meer ist spezifisch genug, um sie durchzudenken:
 
 - **Alten Badeanzug:** Das Salz bleicht und beschädigt Badebekleidung. Tragen Sie etwas, an dem Sie nicht hängen — oder kaufen Sie ein günstiges Stück für die Reise. Dunkle Farben zeigen das Salz am wenigsten.
-- **Wasserschuhe:** Das Ufer an natürlichen Stränden (Ein Gedi, Teile von Kalia) hat Salzkristallformationen unter den Füßen, die barfuß scharf und unangenehm sind. Leichte Wasserschuhe oder Sandalen, in denen man durch flaches Wasser gehen kann, sind unverzichtbar.
+- **Wasserschuhe:** Das Ufer an Kalia Beach hat Salzkristallformationen unter den Füßen, die barfuß scharf und unangenehm sind. Leichte Wasserschuhe oder Sandalen, in denen man durch flaches Wasser gehen kann, sind unverzichtbar.
 - **2–3 Flaschen Süßwasser:** Eine zum Trinken über den Tag; eine zum Spülen von Gesicht/Augen im Notfall; eine nach dem Schwimmen, falls die Duschschlange lang ist.
 - **LSF-50+-Sonnenschutz:** Nach dem Schwimmen und der Dusche danach erneut auftragen.
 - **Wechselkleidung:** Sie werden sich sauber und trocken fühlen wollen, bevor Sie zurück nach Jerusalem oder Tel Aviv fahren.
-- **Snacks und Mittagessen:** Die Speisemöglichkeiten an öffentlichen Stränden sind begrenzt; Ein Gedi hat gar keine Verpflegung. Bringen Sie eine Kühltasche mit oder kaufen Sie am Kalia-Kiosk etwas. Ein Bokek hat Hotelrestaurants für Mahlzeiten.
+- **Snacks und Mittagessen:** Die Speisemöglichkeiten in Kalia beschränken sich auf ein Café und einen Kiosk. Bringen Sie eine Kühltasche mit, wenn Sie eine vollständige Mahlzeit wünschen. Ein Bokek hat Hotelrestaurants für Mahlzeiten.
 - **Kamera mit Salzschutz:** Die flache Wasserfläche, die Himmel und ferne Berge spiegelt, ist außerordentlich. Salzgischt beschädigt Linsenelemente — halten Sie Ihre Kamera in einer Tasche, bis Sie trocken sind.
 
 ---
