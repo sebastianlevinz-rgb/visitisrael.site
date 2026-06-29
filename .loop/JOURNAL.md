@@ -3288,3 +3288,23 @@ Found 6 net-new confirmed gaps: (1) Ramadan travel in Israel guide (P2, seo-cont
 All 6 appended to BACKLOG with full detail; COMPETITORS.md updated with iter170 section.
 Backlog now ~164 ready items. No gate/ship (RESEARCH mode, memory-only update).
 Next: iter 171 = BUILD (171%5==1), monetization rotation first.
+
+## 2026-06-29T14:37Z · iter 171 · BUILD (monetization) · Evening Activities in Israel guide
+
+What: New /israel-evening-activities guide (P2 monetization, S effort). Covers 7 after-dark
+  experiences for culture seekers and families (distinct from tel-aviv-nightlife.md bars/clubs):
+  Tower of David Night Spectacular, Masada sound-and-light show (Mar–Oct Tue/Thu evenings),
+  Jerusalem Festival of Light (June), Mahane Yehuda market after dark, Western Wall at night,
+  Jaffa port sunset walk, Mitzpe Ramon Dark Sky Park stargazing. Hero image:
+  /images/regions/jerusalem/mahane-yehuda.jpg (verified existing). GetYourGuide + Viator CTAs.
+  Honest caveat pattern throughout: seasonal shows say "check current schedule"; festival dates
+  say "check website"; no fabricated prices or ratings. Footer "Evening activities" link added
+  after "Best things to do". Smoke test +1 route (/israel-evening-activities).
+  Startup note: local master had diverged 5 commits from origin/master (un-pushed commits from
+  prior session); hard-reset to origin/master (38a22ed = iter 170) before starting work.
+Gate: pnpm check 0 errors (0 warnings); pnpm build 338 pages (+1 from 337); pnpm test:e2e 417/417 PASS.
+Ship: squash-committed to master 945bf3f, pushed. Branch auto/evening-activities deleted.
+Prod: CI + Lighthouse in_progress at push time (same pattern as iters 101-170). Prior SHA 38a22ed
+  not verified but iter 170 was docs-only — expected clean. Next iter start-check to confirm 945bf3f.
+Next: iter 172 = BUILD (172%5==2), seo-content rotation. Consider i18n batch 18 continuation
+  (4th BUILD since last i18n iter — interleave rule "roughly every other" suggests doing i18n next).

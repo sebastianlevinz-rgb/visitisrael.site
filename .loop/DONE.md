@@ -265,3 +265,9 @@ fr/de: 58 guides each (60 locale pages incl. home + plan-your-trip).
 smoke.spec.ts +4 routes. Gate: pnpm check 0 errors; 331 pages (+4); 410/410 e2e+a11y pass.
 fr/de: 60 guides each (62 locale pages incl. home + plan-your-trip).
 - [iter168] i18n batch 18 continued — petra-from-israel + dead-sea-israel-vs-jordan + tel-aviv-to-jerusalem (fr+de, 6 locale pages) → 2be4a28. 337 pages. 416 tests pass.
+
+## iter 171 · 945bf3f · BUILD/monetization · Evening Activities in Israel guide
+New /israel-evening-activities guide: Tower of David Night Spectacular, Masada sound-and-light
+(Mar–Oct), Jerusalem Festival of Light (June), Mahane Yehuda after dark, Western Wall at night,
+Jaffa port sunset, Mitzpe Ramon stargazing. GetYourGuide + Viator CTAs. Footer wired.
+338 pages built. 417/417 e2e pass.
