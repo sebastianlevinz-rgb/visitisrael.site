@@ -2096,3 +2096,127 @@ DE-DUPED this iteration: border crossings (SHIPPED — border-crossings.md exist
 NOTE for future REVIEW iteration: beaches guide entry (iter5) is a minimal one-liner compared to later detailed entries. When building it, use the detailed iter5 entry as spec but plan for a fuller write-up comparable in depth to later P2 guide entries (Tel Aviv: Banana/Gordon/Hilton/Alma/Metzitzim + north Herzliya Silver Beach + Eilat North Beach + Dead Sea beach notes).
 
 6 net-new items added to BACKLOG. Backlog now ~153 ready items.
+
+---
+
+### 2026-06-29 · iter 165 · RESEARCH — water parks, Jesus Trail, intercity rail, scenic drives, teens guide
+
+Searches: igoogledisrael.com water parks, shalomisraeltours.com/water-parks-israel, tripadvisor.com Israel
+amusement parks, familywithkids.com/israel-water-parks, jesustrail.com/about, myadventuresacrosstheworld.com/
+jesus-trail-israel, levyisraeltours.com/jesus-trail, seat61.com/israel, touristisrael.com/trains-in-israel,
+israeltrain.co.il tourist packages, dangerousroads.org/israel, touristisrael.com/best-driving-roads-in-israel,
+times-of-israel-travel/scenic-drives, dekel-tours.com/israel-with-teenagers, jewishchronicle.org.uk/israel-teens,
+wendyperrin.com/israel-travel-tips-teens.
+
+**Israel water parks & family amusement parks gap confirmed (P2, seo-content+monetization, M)** —
+igoogledisrael.com (dedicated family water park round-up), shalomisraeltours.com, TravelTriangle,
+FamilyWithKids.com, and TripAdvisor all rank for "Israel water parks" and "best amusement parks Israel."
+Zero dedicated guide on site. israel-with-kids.md covers beaches and general family activities but has NO
+dedicated water-park or amusement-park section. Key parks: Shefayim Water Park (central coast near Herzliya;
+22 water slides, largest in Israel; seasonal May–October; ₪100–150 estimate — link shefayim.co.il); Luna Gal
+(Sea of Galilee shore, Tiberias area; waterslides + beach + lake swimming; April–October; family-oriented);
+Ashkeluna (Ashkelon beach, Mediterranean coastal park; combined beach + water slides; southern Israel);
+Water World Eilat (year-round, Red Sea location; covered pools + outdoor slides; largest Eilat option);
+Superland (Rishon LeZion, south TLV; dry amusement park — roller coasters, rides, not water-specific;
+Israel's closest equivalent to a classic theme park); Kif Tzuba (Jerusalem hills; family adventure park +
+zip-lines, not water-focused; appeals to teens + older children). Strategic opportunity: water parks are
+high-search-volume family-travel queries peaking June–August (exact season when most families visit Israel);
+GYG/Viator do not dominate this SERP — editorial content wins. Monetization: Booking.com nearby
+accommodation CTA (e.g., Sea of Galilee hotels + Shefayim area hotels) + direct park links.
+HONESTY: prices seasonal and change annually — always link park websites for current rates; Shefayim
+open May–October only (confirmed closed Shabbat = Friday afternoon–Sat night); Superland is NOT a water
+park — clearly distinguish dry vs wet amusement parks; water park crowding peaks Israeli holidays
+(Passover/Sukkot/summer) — advise arriving early.
+→ BACKLOG (seo-content+monetization, P2, M).
+
+**Jesus Trail hiking pilgrimage gap confirmed (P2, seo-content+monetization, M)** — jesustrail.com
+(official trail organisation), pieceofholyland.com/jesus-trail-guide, myadventuresacrosstheworld.com/
+jesus-trail-israel, Levy Israel Tours ("Jesus Trail 4-Day Walk"), and Abraham Tours all rank for "Jesus
+Trail Israel" and "hiking pilgrimage Israel Galilee." Our christian-pilgrimage-holy-land.md covers
+the Galilee region broadly (Nazareth + Sea of Galilee + Sermon on the Mount + Capernaum) but has ZERO
+content about the 65km marked multi-day hiking trail. The Jesus Trail is a distinct product:
+a 4-day waymarked route from Nazareth to Capernaum (Sea of Galilee) following the footsteps of Jesus;
+includes Cana/Kafr Kanna (first miracle); Mount Arbel (dramatic sea of galilee views); Magdala
+(excavated synagogue, birthplace of Mary Magdalene). Key logistics: 65km over 4 days; trail-angel
+network + guesthouses at Cana, Lavi, Moshav Arbel, Capernaum; average 14–16km/day; terrain = paved
+roads + dirt tracks + rocky hillsides; suitable for moderate-fitness hikers; no technical climbing.
+Main operator gap: self-guided vs. guided (Levy Israel Tours + Abraham Tours offer guided versions;
+self-guided maps at jesustrail.com). DISTINCT from christian-pilgrimage-holy-land.md: that page is
+editorial overview of sites; this is a how-to hiking/logistics guide for a specific named multi-day
+route. High commercial intent: Christian tourists actively plan this as a bucket-list pilgrimage hike;
+GYG + Viator both have "Jesus Trail" listed tours. Monetization: GYG "Jesus Trail guided walk" CTA
++ Booking.com Nazareth/Tiberias accommodation. HONESTY: 65km over 4 days is genuine moderate hiking
+(not strenuous); trail route passes through Arab-Israeli villages — cultural sensitivity framing needed;
+trail markers maintained by volunteers, may be incomplete in spots — recommend jesustrail.com offline
+app. SEO: "Jesus Trail Israel guide", "Nazareth to Capernaum hiking", "Jesus Trail 4 days self-guided",
+"Christian hiking pilgrimage Israel Galilee."
+→ BACKLOG (seo-content+monetization, P2, M).
+
+**Israel by train intercity tourist guide gap confirmed (P3, seo-content, S)** — Seat61.com/Israel
+("Trains in Israel"), touristisrael.com/trains-in-israel, and israeltrain.co.il tourist packages all
+rank for "Israel train travel tourist." Our rav-kav-israel.md covers the Rav Kav card mechanics (how
+to load, use, top up); transportation.md covers trains as one transport option. Neither is a tourist-
+oriented route-planning guide for intercity rail. Gap: travellers planning Tel Aviv → Haifa (1hr direct,
+frequent), Tel Aviv → Be'er Sheva (1.5hr), Tel Aviv → Jerusalem (30 min via high-speed line but
+Jerusalem Yitzhak Navon is NOT the convenient stop — note that central-station tourists need Ben Gurion
+or Haganah for connections), Ben Gurion Airport → cities (all major cities directly). Tourist angle:
+train is BETTER than buses for most intercity routes in Israel (faster, more comfortable, no traffic);
+many tourists don't know this and book shared taxis unnecessarily. HONESTY: Tel Aviv–Jerusalem by
+train does NOT reach the Old City/City Center easily (Navon station is western Jerusalem — bus or taxi
+needed from there); train schedules are different on Shabbat (no trains at all Friday dusk to Saturday
+night — critical planning information). Cross-links: transportation, rav-kav-israel, ben-gurion-airport.
+SEO: "Israel train travel guide tourist", "train Tel Aviv Jerusalem", "Israel by train route guide."
+→ BACKLOG (seo-content, P3, S).
+
+**Israel scenic drives gap confirmed (P3, seo-content, S)** — touristisrael.com/best-driving-roads-
+in-israel, Times of Israel travel section, and dangerousroads.org all rank for "scenic drives Israel."
+Our car-rental-israel.md + driving-in-israel.md cover logistics (how to rent, drive rules, toll roads),
+and our itineraries are route-based; but no single page captures Israel's best SCENIC road experiences
+in a curated highlight format. Gap: Route 90 (Jordan Valley north–south — Dead Sea shore, date palms,
+Jericho plains; most dramatic = Masada to Ein Gedi stretch); Rosh Hanikra coastal road (R4 north, sea
+cliffs, Lebanese border view); Gamla/Golan Heights crater-rim loop (Route 808 + 869; Galilee landscape
++ valley views); Mitzpe Ramon crater rim (Route 40 south through Negev highveld; dramatic cliff-edge
+viewpoints); Route 375 Jerusalem–Efrat (Judean Hills; biblical landscape + Ein Gedi valley vistas).
+Distinct from the planned road-trip itinerary (which is a 7-day driving loop — this is a curated
+highlights page for travellers who want to know WHICH roads are worth driving for views, not a
+full itinerary). HONESTY: Route 90 in the Jordan Valley passes near sensitive areas — link is-israel-safe;
+Golan Heights roads near Syrian border — same. Cross-links: car-rental-israel, driving-in-israel,
+israel-national-parks-pass, mitzpe-ramon-guide (when built).
+SEO: "scenic drives Israel guide", "best roads Israel views", "Israel scenic route drive."
+→ BACKLOG (seo-content, P3, S).
+
+**Israel with teenagers gap confirmed (P3, seo-content, S)** — Dekel Tours ("Best Teen-Friendly
+Activities Israel"), Jewish Chronicle ("Teens in Israel Travel Tips"), Wendy Perrin ("What Works and
+What Doesn't for Teen Travel in Israel") and several Birthright-context travel sites all have teen-
+specific Israel content. Our israel-with-kids.md is framed as family travel (explicitly mentions young
+children + strollers + activity centres for young ages); no section addresses the distinct priorities
+of 13–17 year old travelers (Masada Snake Path challenge + challenge-hiking; Dead Sea floating photo
+ops; Carmel Market + street food freedom; bar/bat mitzvah heritage context; bar-crawl-free alternatives
+to tel-aviv-nightlife; laser tag + escape rooms + bowling in malls; Bedouin overnight camp; surfing
+lesson at Gordon Beach; zip-lining + adventure parks). Distinct from israel-with-kids.md: teenagers
+reject "family" framing in travel research; they search "things to do in Israel as a teenager" or
+parents search "Israel trip for teens" separately. de-duped: BACKLOG iter150 notes said "teen travel
+covered in israel-with-kids.md description" but a read of that guide confirms it is almost entirely
+young-family/toddler content (strollers, Eretz Israel Museum children's wing, etc.) — teen gap is
+real and distinct. HONESTY: teen nightlife in Israel = legal drinking age 18 (strictly enforced in TLV
+bars); be clear that bar-scene content from tel-aviv-nightlife.md is NOT for under-18. Cross-links:
+israel-with-kids, masada attraction, israel-adventure-sports, jordan-river-kayaking (when built),
+israel-surfing (when built). SEO: "Israel with teenagers guide", "teen activities Israel", "Israel
+travel teens family."
+→ BACKLOG (seo-content, P3, S).
+
+DE-DUPED this iteration:
+- Shopping/souvenirs guide (BACKLOG iter40, P2, M) — confirmed in backlog.
+- Jerusalem Festival of Light (BACKLOG iter100, P3, S) — confirmed in backlog.
+- Tel Aviv street art (BACKLOG iter125, P2, S) — confirmed in backlog.
+- Jewish genealogy tourism (BACKLOG iter50, P2, M) — confirmed in backlog.
+- Sea of Galilee boat tours (BACKLOG iter45, P2, S) — confirmed in backlog.
+- Beer Sheva guide (BACKLOG iter120, P2, S) — confirmed in backlog.
+- Wildflower/spring guide (BACKLOG iter65+135, P3, S) — confirmed × 2 detailed entries.
+- Dead Sea floating guide: dead-sea-guide.md (SHIPPED iter86) + dead-sea-practical BACKLOG (iter70)
+  both cover floating; no new gap.
+- Bible archaeology tour: covered by volunteer-archaeology-guide BACKLOG (iter40 + iter120) and
+  qumran-guide.md (SHIPPED iter88). Not a new gap.
+- Kosher restaurants guide: kosher-food-guide.md EXISTS (shipped); no new standalone guide needed.
+
+5 net-new items added to BACKLOG. Backlog now ~158 ready items.

@@ -3155,3 +3155,28 @@ Gate: pnpm check 0 errors ✓; build 319 pages (unchanged) ✓; pnpm test:e2e 39
 Ship: committed f0c4c94 to master, pushed. CI completed success.
 Prod: Vercel deploy triggered; prior SHA (4c7091d) CI pattern: success.
 Next: iter 165 = RESEARCH (165%5==0). Scope competitor research for batch 18 i18n candidates + any new profitable gaps.
+
+## 2026-06-29 · iter 165 · RESEARCH · water parks, Jesus Trail, intercity rail, scenic drives, teens guide
+Mode: RESEARCH (165%5==0). 14 web searches across: water parks/amusement parks, Jesus Trail Galilee hiking,
+Israel by train (tourist route-planning), scenic drives, teen travel, plus de-dup checks on shopping, Festival
+of Light, street art, genealogy, Sea of Galilee boats, Beer Sheva, wildflowers, Dead Sea, bible archaeology,
+kosher guide.
+Gate: N/A (research mode — no code changes, no gate run).
+5 net-new BACKLOG items (all confirmed not in BACKLOG or DONE):
+  1. /israel-water-parks-family-fun (P2, seo-content+monetization, M) — Shefayim, Luna Gal, Ashkeluna,
+     Water World Eilat, Superland, Kif Tzuba; zero dedicated guide; families peak June–Aug.
+  2. /jesus-trail-israel (P2, seo-content+monetization, M) — 65km waymarked 4-day Nazareth→Capernaum;
+     christian-pilgrimage.md covers Galilee broadly, not this specific hiking route.
+  3. /israel-by-train (P3, seo-content, S) — tourist route-planning guide; Seat61 + Tourist Israel rank;
+     rav-kav-israel.md covers the card, not routes; Shabbat closure = critical planning info.
+  4. /israel-scenic-drives (P3, seo-content, S) — Route 90 Jordan Valley, Rosh Hanikra coastal, Golan rim,
+     Mitzpe Ramon Route 40; distinct from road-trip itinerary (BACKLOG iter40).
+  5. /israel-with-teenagers (P3, seo-content, S) — israel-with-kids.md is toddler/young-family oriented;
+     teen-specific hooks: Masada Snake Path, adventure parks, surfing, Bedouin camp, bar mitzvah context.
+De-duped (already in BACKLOG or DONE): shopping guide (iter40), Festival of Light (iter100), street art
+(iter125), genealogy tourism (iter50), Sea of Galilee boats (iter45), Beer Sheva (iter120), wildflowers
+(iter65+135), Dead Sea practical (iter70), volunteer archaeology (iter40+120), kosher guide (SHIPPED).
+COMPETITORS.md updated (iter165 section appended). BACKLOG.md updated (+5 items). Backlog now ~158 ready.
+Next: iter 166 = BUILD/monetization (166%5==1). Top candidate: i18n batch 18 (tiberias-guide,
+masada-tours-compared, galilee-tours-compared, jerusalem-tours-compared, jerusalem-food-guide,
+day-trips-from-haifa — 25 EN guides still untranslated).
