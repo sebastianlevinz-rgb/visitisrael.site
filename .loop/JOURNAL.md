@@ -3180,3 +3180,31 @@ COMPETITORS.md updated (iter165 section appended). BACKLOG.md updated (+5 items)
 Next: iter 166 = BUILD/monetization (166%5==1). Top candidate: i18n batch 18 (tiberias-guide,
 masada-tours-compared, galilee-tours-compared, jerusalem-tours-compared, jerusalem-food-guide,
 day-trips-from-haifa — 25 EN guides still untranslated).
+
+## 2026-06-29 · iter 166 · BUILD (i18n batch 18 partial) · tiberias-guide + masada-tours-compared + galilee-tours-compared + jerusalem-tours-compared (fr+de)
+Mode: BUILD (166%5==1). Item: i18n Phase 2 Batch 18 — 4 guides × 2 locales = 8 new translation files.
+Startup: context resumed from prior session (context-compaction). Confirmed SHA 2dbb7b7 already committed
+  and pushed to origin/master before context was compacted.
+Guides shipped:
+  - fr/tiberias-guide.md + de/tiberias-guide.md: Tiberias & Sea of Galilee city guide FR+DE.
+    Category: Destinations (FR) / Reiseziele (DE). Covers Hamat-Tibériade/Hamat-Tiberias, Jesus Boat
+    Museum (contemporaneous framing), lakefront Tayelet, St Peter's Church, Rabbi Meir Baal Haness,
+    Sea of Galilee swimming, Tiberias as base. 3 CTAs GYG/Viator/Booking. 7 FAQs.
+  - fr/masada-tours-compared.md + de/masada-tours-compared.md: Masada tours comparison FR+DE.
+    Category: Circuits (FR) / Touren (DE). verdictName/verdictQuery set. Comparison table: sunrise hike
+    / cable car / self-drive / private guide. 5 FAQs. 3 CTAs GYG/Viator/Civitatis.
+  - fr/galilee-tours-compared.md + de/galilee-tours-compared.md: Galilee tours comparison FR+DE.
+    Category: Circuits (FR) / Touren (DE). verdictName/verdictQuery set. Comparison: Christian pilgrimage
+    / Jewish heritage / Sea+Golan / multi-day / self-drive / private. 5 FAQs. 3 CTAs GYG/Viator/Abraham.
+  - fr/jerusalem-tours-compared.md + de/jerusalem-tours-compared.md: Jerusalem tours comparison FR+DE.
+    Category: Circuits (FR) / Touren (DE). verdictName/verdictQuery set. Comparison: Old City walk /
+    full day / Bethlehem combo / Western Wall Tunnels / private. 5 FAQs. 3 CTAs GYG/Viator/Civitatis.
+smoke.spec.ts: +8 routes (/fr/tiberias-guide, /de/tiberias-guide, /fr/masada-tours-compared,
+  /de/masada-tours-compared, /fr/galilee-tours-compared, /de/galilee-tours-compared,
+  /fr/jerusalem-tours-compared, /de/jerusalem-tours-compared).
+Gate: pnpm check 0 errors; pnpm build 327 pages (+8 from 319); pnpm test:e2e 406/406 pass. GREEN.
+Ship: committed 2dbb7b7 to master, pushed. Branch auto/i18n-batch-18 deleted.
+fr/de count: 58 guides each (60 locale pages incl. home + plan-your-trip). 327 pages built.
+Remaining batch 18 untranslated: jerusalem-food-guide, day-trips-from-haifa + 19 other EN guides.
+Next: iter 167 = BUILD/seo-content (167%5==2). Recommended: continue i18n batch 18 —
+  ship jerusalem-food-guide + day-trips-from-haifa (fr+de).

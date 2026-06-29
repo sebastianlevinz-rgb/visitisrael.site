@@ -249,3 +249,12 @@ fr/de count: 56 locale pages each (home + plan-your-trip + 54 guides).
 
 ## iter 164 · REVIEW · 2026-06-29 · f0c4c94
 Test coverage fix: added /day-trips-from-haifa to smoke.spec.ts + a11y.spec.ts (oversight from iter 162 shipping). Gate now 398 tests. Full audit of iters 161-163 passed: links, hreflang, JSON-LD, honesty all clean.
+
+## iter 166 · i18n Batch 18 (partial) · 2026-06-29 · 2dbb7b7
+**4 guides × FR+DE = 8 new locale pages**
+- `fr/tiberias-guide.md` + `de/tiberias-guide.md` — Tiberias & Sea of Galilee city guide; category Destinations/Reiseziele; 3 CTAs GYG/Viator/Booking; 7 FAQs
+- `fr/masada-tours-compared.md` + `de/masada-tours-compared.md` — Masada tours comparison; category Circuits/Touren; verdictName/verdictQuery set; comparison table sunrise/cable-car/self-drive/private; 3 CTAs GYG/Viator/Civitatis
+- `fr/galilee-tours-compared.md` + `de/galilee-tours-compared.md` — Galilee tours comparison; category Circuits/Touren; verdictName/verdictQuery set; Christian pilgrimage/Jewish heritage/Sea+Golan/multi-day/self-drive/private; 3 CTAs GYG/Viator/Abraham
+- `fr/jerusalem-tours-compared.md` + `de/jerusalem-tours-compared.md` — Jerusalem tours comparison; category Circuits/Touren; verdictName/verdictQuery set; Old City/full-day/Bethlehem/Western Wall Tunnels/private; 3 CTAs GYG/Viator/Civitatis
+smoke.spec.ts +8 routes. Gate: pnpm check 0 errors; 327 pages (+8); 406/406 e2e+a11y pass.
+fr/de: 58 guides each (60 locale pages incl. home + plan-your-trip).
