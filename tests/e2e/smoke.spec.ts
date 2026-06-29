@@ -203,6 +203,7 @@ const ROUTES = [
   '/de/tel-aviv-to-jerusalem',
   '/tel-aviv-carmel-market',
   '/tel-aviv-neighborhoods-guide',
+  '/israel-evening-activities',
   '/search',
 ];
 
