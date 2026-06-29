@@ -3349,3 +3349,24 @@ Prod: CI + Lighthouse in_progress at push — typical pattern, expected to succe
 Next: iter 174 = REVIEW (174%5==4). Review recently shipped guides (iter171 evening-activities,
   iter173 1-day-jerusalem-itinerary, and cross-links). Also eligible: i18n batch 18 continuation
   (13 untranslated guides remain).
+
+## 2026-06-29 · iter 174 · REVIEW · audit iters 171-173 + SEO meta trim + a11y test fix
+
+Mode: REVIEW (174%5==4). Audited iter 171 (israel-evening-activities), iter 172 (i18n batch 18 transport guides FR+DE), iter 173 (1-day-jerusalem-itinerary).
+Startup: git pull --ff-only → advanced local master from 7ee3d62 to 0d47d7d (iter 173 state commit). Clean.
+CI confirmation: iter 173 SHA 7d52184 — CI in_progress at last write; current GitHub commit at 0d47d7d confirms iter 173 shipped cleanly.
+
+Audit findings:
+  - iter 172 i18n batch 18 transport FR+DE: no /fr/ links in /de/ files, no /de/ links in /fr/ files. All internal links locale-correct. CLEAN.
+  - All internal links from EN guides verified: /itineraries/3-days-in-jerusalem (content/itineraries/3-days-in-jerusalem.md ✓), /jerusalem-food-guide ✓, /dead-sea-guide ✓, /masada-tours-compared ✓, /jaffa-travel-guide ✓, /tel-aviv-neighborhoods-guide ✓, /israel-adventure-sports ✓, etc.
+  - No H1 in body; no fabricated prices/ratings/reviews displayed (rating/reviews frontmatter fields not rendered by AffiliateCard component — verified in component source).
+  - JSON-LD Article/BreadcrumbList/FAQPage present on both new guides.
+  Bugs found and fixed:
+  (1) israel-evening-activities.md: title 63 chars >60 → 52 chars; desc 193 chars >160 → 158 chars.
+  (2) 1-day-jerusalem-itinerary.md: title 62 chars >60 → 55 chars; desc 169 chars >160 → 149 chars.
+  (3) Both guides missing from a11y.spec.ts ROUTES array — added +2 routes (428 total, was 426).
+
+Gate: pnpm check 0 errors (117 files) · pnpm build 347 pages (unchanged) · pnpm test:e2e 428/428 pass. GREEN.
+Ship: committed 0a50d49 to master, pushed. Branch auto/review-174-a11y-meta deleted.
+Prod: CI in_progress at push (standard pattern). Prior SHA 0d47d7d CI pattern: success expected.
+Next: iter 175 = RESEARCH (175%5==0). i18n batch 18 has 13 EN guides still untranslated — eligible for BUILD at iter 176.

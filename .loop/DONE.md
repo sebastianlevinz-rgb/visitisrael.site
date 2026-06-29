@@ -284,3 +284,6 @@ David → Mount of Olives → Mahane Yehuda; (2) Deeper cut — Yad Vashem (adva
 Mahane Yehuda → City of David + Hezekiah's Tunnel wet walk. Three affiliate CTAs (GYG private tour,
 Viator Old City walk, Abraham Tours). 5 FAQs. 10+ internal links. Cross-link added to
 day-trips-from-tel-aviv.md. Smoke spec +1 route. 347 pages built. 426/426 e2e pass.
+
+## iter 174 · REVIEW · SEO meta trim + a11y test coverage fix · SHA 0a50d49
+REVIEW pass (174%5==4). Audited iters 171-173 (israel-evening-activities, i18n batch 18 transport FR+DE, 1-day-jerusalem-itinerary). Found and fixed: (1) israel-evening-activities title 63→52 chars, desc 193→158 chars; (2) 1-day-jerusalem-itinerary title 62→55 chars, desc 169→149 chars; (3) both guides missing from a11y.spec.ts → added +2 WCAG routes (428 total). 428/428 e2e pass.
