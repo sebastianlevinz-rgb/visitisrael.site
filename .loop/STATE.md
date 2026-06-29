@@ -1,22 +1,25 @@
 # LOOP STATE
 
-- iteration: 167
-- lastMode: BUILD (167%5==2)
-- lastItem: iter 167 BUILD — i18n batch 18 continued: jerusalem-food-guide + day-trips-from-haifa (fr+de, 4 new locale pages)
-- lastResult: GREEN — 331 pages (+4 from 327), 410 e2e+a11y pass, SHA 4e8eb8e
-- nextRotationCategory: 168%5==3 → BUILD/tools (or seo-content if i18n interleaved)
+- iteration: 168
+- lastMode: BUILD (168%5==3 → tools → empty → fell through to i18n batch 18)
+- lastItem: iter 168 BUILD — i18n batch 18 continued: petra-from-israel + dead-sea-israel-vs-jordan + tel-aviv-to-jerusalem (fr+de, 6 new locale pages)
+- lastResult: GREEN — 337 pages (+6 from 331), 416 e2e+a11y pass, SHA 2be4a28
+- nextRotationCategory: 169%5==4 → REVIEW
 - higgsfieldSpent: 0
 - updatedAt: 2026-06-29
 - branch context: work on master; feature work on auto/<slug>
 
-Notes: iter 167 BUILD — i18n batch 18 continued. Shipped jerusalem-food-guide (fr+de) and
-  day-trips-from-haifa (fr+de). 4 new locale files. smoke.spec.ts +4 routes.
-  fr/de: now 60 guides each (62 locale pages incl. home + plan-your-trip). 331 pages built.
-  Remaining batch 18 candidates (untranslated): 19 EN guides.
-  NEXT: iter 168 = BUILD/tools (168%5==3). Candidates:
-    - tools item from BACKLOG (e.g. build-your-trip, packing list, etc.)
-    - OR continue i18n batch 18: next 2-4 guides from the 19 remaining
-  Recommended: take a tools/technical item per rotation; resume i18n in iter 169.
+Notes: iter 168 BUILD — tools backlog empty; technical backlog empty; fell through to i18n
+  batch 18 continuation. Shipped petra-from-israel (fr+de), dead-sea-israel-vs-jordan (fr+de),
+  tel-aviv-to-jerusalem (fr+de). 6 new locale files. smoke.spec.ts +6 routes.
+  fr/de: now 63 guides each (65 locale pages incl. home + plan-your-trip). 337 pages built.
+  Remaining batch 18 (16 EN guides untranslated): ben-gurion-airport-transfers,
+  cruise-shore-excursions-israel, eilat-diving-snorkeling, eilat-tours-compared,
+  israel-base-city-guide, israel-esim, israel-tour-packages, israel-travel-apps,
+  israel-wine-wineries, israel-zimmer-guide, petra-from-eilat-vs-amman, private-tours-israel,
+  rav-kav-israel, tel-aviv-light-rail, tel-aviv-tours-compared.
+  NEXT: iter 169 = REVIEW (169%5==4). Review recent i18n batch 18 pages for correctness,
+  dead links, hreflang, a11y. Then iter 170 = RESEARCH (170%5==0).
 
 Cron b7325b16 hourly @ :17. Loop history: 19 tools + sitemap-lastmod + link-checker(+depth) + i18n
 Phase0/1a/1b/1c/2 Batches1-18(partial) + 20 review passes + 3 technical (event-schema + meta-trim + locale-links) + 10 EN guides + 2 tools-monetization;

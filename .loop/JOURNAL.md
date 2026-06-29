@@ -3229,3 +3229,26 @@ CI GitHub Actions run in_progress at state-write time (CI + Lighthouse). Local g
 fr/de count: 60 guides each (62 locale pages incl. home + plan-your-trip). 331 pages built.
 Remaining batch 18 untranslated: 19 EN guides (see BACKLOG).
 Next: iter 168 = BUILD/technical (168%5==3). Candidates: seo-content or tools (since i18n interleaved).
+
+## 2026-06-29 · iter 168 · BUILD (i18n batch 18 continued) · petra-from-israel + dead-sea-israel-vs-jordan + tel-aviv-to-jerusalem (fr+de)
+Mode: BUILD (168%5==3 → tools). Tools backlog empty; technical backlog empty; fell through to i18n batch 18.
+Startup: fresh cloud clone; local master 50+ commits behind origin; git reset --hard origin/master to
+  3849c3b (iter 167 docs state). pnpm install 9.4s. No STOP flag.
+What: Continued i18n batch 18 with 3 high-intent EN guides translated to FR+DE (6 new locale pages).
+  1. petra-from-israel — Petra from Israel: 3-route comparison (Eilat day trip vs TLV with flights vs
+     multi-day Jerusalem); affiliate CTAs (GYG/Viator/Abraham); 5 FAQs; honest price ranges ($215–407,
+     $399–445, $295+); cross-links to /fr/border-crossings, /fr/best-tours-in-israel; FR apostrophe
+     handling via double-quoted YAML strings; kept petra-from-eilat-vs-amman as bare link (not yet in FR).
+  2. dead-sea-israel-vs-jordan — Israel vs Jordan Dead Sea shore comparison; 3 FAQs; cross-links to
+     /fr/dead-sea-guide, /fr/border-crossings; "Totes Meer" used in DE title (correct German exonym).
+  3. tel-aviv-to-jerusalem — Train/bus/sherut/taxi comparison table; 5 FAQs; Shabbat transport note
+     prominent; cross-links /fr/transportation, /fr/tel-aviv-vs-jerusalem; /rav-kav-israel kept as bare
+     link (no FR version yet). "Sherut" kept as proper noun in FR/DE.
+  smoke.spec.ts: +6 routes (/fr/de × 3 guides).
+Gate: pnpm check 0 errors (117 files); pnpm build 337 pages (+6 from 331); pnpm test:e2e 416/416 PASS.
+Ship: committed to master 2be4a28, pushed. No feature branch (files were in working tree untracked).
+Prod: CI + Lighthouse in_progress at push (runs 28369297344 + 28369297349) — prior SHA 3849c3b confirmed
+  CI+Lighthouse SUCCESS. Typical pattern; expected to succeed.
+fr/de count: 63 guides each (65 locale pages incl. home + plan-your-trip). 337 pages built.
+Remaining batch 18 untranslated: 16 EN guides.
+Next: iter 169 = REVIEW (169%5==4). Review recent i18n batch 18 pages + tool correctness.
