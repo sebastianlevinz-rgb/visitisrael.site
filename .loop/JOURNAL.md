@@ -3208,3 +3208,24 @@ fr/de count: 58 guides each (60 locale pages incl. home + plan-your-trip). 327 p
 Remaining batch 18 untranslated: jerusalem-food-guide, day-trips-from-haifa + 19 other EN guides.
 Next: iter 167 = BUILD/seo-content (167%5==2). Recommended: continue i18n batch 18 —
   ship jerusalem-food-guide + day-trips-from-haifa (fr+de).
+
+## 2026-06-29 · iter 167 · BUILD (i18n) · batch 18 continued: jerusalem-food-guide + day-trips-from-haifa (fr+de)
+What: 4 new locale pages — FR+DE for jerusalem-food-guide and day-trips-from-haifa.
+  - fr/jerusalem-food-guide: Machane Yehuda (marché, soir, Machneyuda), vieille ville (Abu Shukri,
+    houmous corridors), quartiers (Azura, cuisine yéménite, mixed grill, Colonie allemande, Mamilla),
+    gastronomie casher fine (Eucalyptus), impact shabbat section, 6 FAQs. Locale links to fr/shabbat-guide,
+    fr/whats-open-on-shabbat, fr/israeli-street-food-guide, fr/israel-travel-insurance, fr/ben-gurion-airport-guide.
+  - de/jerusalem-food-guide: full DE equivalent. Locale links to de/ equivalents.
+  - fr/day-trips-from-haifa: 7 destinations (Akko, Rosh Hanikra, Césarée, Zichron Yaakov, Nazareth,
+    Beit She'arim, Tel Megiddo), train vs voiture tables, cruise-port windows, verdictName/verdictQuery set.
+    Locale links to fr/akko-acre-guide, fr/caesarea-guide, fr/nazareth-travel-guide, fr/israel-national-parks-pass,
+    fr/car-rental-israel, fr/transportation, fr/galilee-tours-compared, fr/best-tours-in-israel.
+  - de/day-trips-from-haifa: full DE equivalent. Locale links to de/ equivalents.
+smoke.spec.ts: +4 routes (/fr/jerusalem-food-guide, /de/jerusalem-food-guide, /fr/day-trips-from-haifa,
+  /de/day-trips-from-haifa).
+Gate: pnpm check 0 errors; pnpm build 331 pages (+4 from 327); pnpm test:e2e 410/410 pass. GREEN.
+Ship: committed 4e8eb8e to master, pushed. Branch auto/i18n-batch18-food-haifa deleted.
+CI GitHub Actions run in_progress at state-write time (CI + Lighthouse). Local gate fully green.
+fr/de count: 60 guides each (62 locale pages incl. home + plan-your-trip). 331 pages built.
+Remaining batch 18 untranslated: 19 EN guides (see BACKLOG).
+Next: iter 168 = BUILD/technical (168%5==3). Candidates: seo-content or tools (since i18n interleaved).

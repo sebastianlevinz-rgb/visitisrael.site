@@ -258,3 +258,9 @@ Test coverage fix: added /day-trips-from-haifa to smoke.spec.ts + a11y.spec.ts (
 - `fr/jerusalem-tours-compared.md` + `de/jerusalem-tours-compared.md` — Jerusalem tours comparison; category Circuits/Touren; verdictName/verdictQuery set; Old City/full-day/Bethlehem/Western Wall Tunnels/private; 3 CTAs GYG/Viator/Civitatis
 smoke.spec.ts +8 routes. Gate: pnpm check 0 errors; 327 pages (+8); 406/406 e2e+a11y pass.
 fr/de: 58 guides each (60 locale pages incl. home + plan-your-trip).
+
+## iter 167 · 2026-06-29 · BUILD (i18n) · i18n batch 18 continued: jerusalem-food-guide + day-trips-from-haifa (fr+de) · SHA 4e8eb8e
+- `fr/jerusalem-food-guide.md` + `de/jerusalem-food-guide.md` — Jerusalem food guide; category Gastronomie; Machane Yehuda (marché/Markt, Marzipan, evening bars, Machneyuda), Old City hummus (Abu Shukri, Azura), neighbourhood-by-neighbourhood, kosher fine dining (Eucalyptus), shabbat impact section, 6 FAQs
+- `fr/day-trips-from-haifa.md` + `de/day-trips-from-haifa.md` — Day trips from Haifa; category Circuits/Touren; verdictName/verdictQuery set; 7 destinations (Akko, Rosh Hanikra, Césarée/Caesarea, Zichron Yaakov, Nazareth, Beit She'arim, Tel Megiddo); train vs car tables; cruise-port windows section (8/10/12hr); 5 FAQs
+smoke.spec.ts +4 routes. Gate: pnpm check 0 errors; 331 pages (+4); 410/410 e2e+a11y pass.
+fr/de: 60 guides each (62 locale pages incl. home + plan-your-trip).
