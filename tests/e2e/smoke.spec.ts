@@ -74,6 +74,7 @@ const ROUTES = [
   '/tel-aviv-white-city',
   '/jaffa-travel-guide',
   '/jerusalem-food-guide',
+  '/day-trips-from-haifa',
   '/israeli-street-food-guide',
   '/solo-female-travel-israel',
   '/jordan-river-baptism',
