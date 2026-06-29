@@ -73,6 +73,7 @@ const ROUTES = [
   '/israel-car-rental-quiz',
   '/tel-aviv-white-city',
   '/jaffa-travel-guide',
+  '/jerusalem-food-guide',
   '/israeli-street-food-guide',
   '/solo-female-travel-israel',
   '/jordan-river-baptism',

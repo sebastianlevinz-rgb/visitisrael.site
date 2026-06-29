@@ -62,4 +62,4 @@ A guided **food tour** (above) is the fastest way to eat the highlights with con
 
 ## Plan your trip
 
-Pair the food with the rest of [Tel Aviv](/tel-aviv), and when the sun goes down see our [Tel Aviv nightlife guide](/tel-aviv-nightlife). Sort the essentials — an [eSIM](/israel-esim), [airport transfer](/ben-gurion-airport-transfers) and [travel insurance](/israel-travel-insurance) — before you fly, and browse more [tours and day trips](/best-tours-in-israel).
+Pair the food with the rest of [Tel Aviv](/tel-aviv), and when the sun goes down see our [Tel Aviv nightlife guide](/tel-aviv-nightlife). Planning time in Jerusalem too? The [Jerusalem food guide](/jerusalem-food-guide) covers the Machane Yehuda restaurant scene, Old City hummus and Shabbat planning in the holy city. Sort the essentials — an [eSIM](/israel-esim), [airport transfer](/ben-gurion-airport-transfers) and [travel insurance](/israel-travel-insurance) — before you fly, and browse more [tours and day trips](/best-tours-in-israel).

@@ -133,6 +133,7 @@ const ROUTES = [
   '/de/tel-aviv-neighborhoods-guide',
   '/tel-aviv-carmel-market',
   '/tel-aviv-neighborhoods-guide',
+  '/jerusalem-food-guide',
   '/search',
   '/404',
 ];
