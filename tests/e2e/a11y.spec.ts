@@ -141,6 +141,8 @@ const ROUTES = [
   '/tel-aviv-neighborhoods-guide',
   '/jerusalem-food-guide',
   '/day-trips-from-haifa',
+  '/israel-evening-activities',
+  '/1-day-jerusalem-itinerary',
   '/search',
   '/404',
 ];

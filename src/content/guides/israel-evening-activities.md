@@ -1,6 +1,6 @@
 ---
-title: 'Evening Activities in Israel: Night Experiences Beyond the Bars'
-description: 'Tower of David Night Spectacular, Masada sound-and-light show, Western Wall at night, Mitzpe Ramon stargazing, and the Mahane Yehuda bar strip — evening Israel for culture seekers and families.'
+title: 'Evening Activities in Israel: After-Dark Experiences'
+description: 'Tower of David Night Spectacular, Masada sound-and-light, Western Wall at night and Mitzpe Ramon stargazing — evening Israel for families and culture seekers.'
 heroImage: /images/regions/jerusalem/mahane-yehuda.jpg
 category: Activities
 updatedAt: 2026-06-29

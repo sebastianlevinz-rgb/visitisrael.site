@@ -1,6 +1,6 @@
 ---
-title: '1 Day in Jerusalem: The Essential First-Timer Itinerary (2026)'
-description: 'How to spend one day in Jerusalem: two tested routes for the Old City highlights and a deeper-cut Yad Vashem option, with transport from Tel Aviv, timing tips and tours.'
+title: '1 Day in Jerusalem: The Essential First-Timer Itinerary'
+description: 'One day in Jerusalem: two tested routes for the Old City highlights and a Yad Vashem deeper-cut option, with timing tips and transport from Tel Aviv.'
 heroImage: /images/regions/jerusalem/hero.jpg
 category: Tours
 updatedAt: 2026-06-29
