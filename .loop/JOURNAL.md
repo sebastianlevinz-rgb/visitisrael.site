@@ -3391,3 +3391,26 @@ Research scope: 8 web searches across touristisrael.com, lonelyplanet.com, rough
 
 Backlog now ~127 ready items.
 Next: iter 176 = BUILD (176%5==1). Priority: dead-sea-guide.md sinkhole safety update (accuracy fix, S) or Israel visa checker tool (tools, S) or i18n batch 18 (P1 i18n, next ~5 EN guides FR+DE).
+
+## 2026-06-29 · iter 176 · BUILD (seo-content/accuracy) · dead-sea-guide sinkhole safety update
+
+Mode: BUILD (176%5==1, monetization rotation; fell to seo-content/accuracy since no S-effort monetization items ready; visa checker found already shipped at iter83).
+Startup: git pull --ff-only → master advanced to e084185 (iter 175 state commit). Clean.
+Item selected: dead-sea-guide.md sinkhole safety update (P2, S effort, accuracy gap).
+  Reason: Ein Gedi Beach permanently closed by INPA due to sinkhole danger; guide described it
+  as "free to enter" and recommended it as budget option — a genuine safety risk for readers.
+  Visa checker backlog item found already shipped (iter83); BACKLOG cleaned up.
+
+What changed (dead-sea-guide.md EN/FR/DE):
+  - Replaced "Ein Gedi Beach" section with permanent closure warning (fenced, sinkhole danger)
+  - Updated FAQs: removed "Ein Gedi is free" / "Ein Gedi works for budget visitors"
+  - Added sinkhole context (7,000+ since 1980s) to "Which beach to choose" section header
+  - Clarified Ein Gedi NATURE RESERVE (hiking) remains open — only the beach is closed
+  - Removed Ein Gedi references from mineral mud + packing sections
+  - Updated updatedAt to 2026-06-29
+  - Changes applied consistently across EN, FR (fr/), and DE (de/) variants
+
+Gate: pnpm check 0 errors (117 files) · pnpm build 347 pages (unchanged) · pnpm test:e2e 428/428 pass. GREEN first run.
+Ship: committed cec46a2 to master, pushed. Branch auto/dead-sea-sinkhole-update deleted.
+Prod: CI in_progress at push (standard pattern). Previous commits all succeeded.
+Next: iter 177 = BUILD (seo-content priority). i18n batch 18 (13 untranslated EN guides) or Druze/Carmel guide (S).

@@ -287,3 +287,11 @@ day-trips-from-tel-aviv.md. Smoke spec +1 route. 347 pages built. 426/426 e2e pa
 
 ## iter 174 · REVIEW · SEO meta trim + a11y test coverage fix · SHA 0a50d49
 REVIEW pass (174%5==4). Audited iters 171-173 (israel-evening-activities, i18n batch 18 transport FR+DE, 1-day-jerusalem-itinerary). Found and fixed: (1) israel-evening-activities title 63→52 chars, desc 193→158 chars; (2) 1-day-jerusalem-itinerary title 62→55 chars, desc 169→149 chars; (3) both guides missing from a11y.spec.ts → added +2 WCAG routes (428 total). 428/428 e2e pass.
+
+## iter 176 · BUILD (accuracy fix) · Dead Sea guide sinkhole safety update · SHA cec46a2
+Corrected critical safety inaccuracy in dead-sea-guide.md (EN/FR/DE): Ein Gedi Beach described
+as "free to enter" and "good for budget visitors" when it is permanently closed by INPA due to
+sinkhole danger. Updated all 3 locale variants: replaced Ein Gedi section with closure warning,
+corrected 2 FAQs, removed Ein Gedi references from mineral mud + packing sections, added
+sinkhole context (7,000+ since 1980s), clarified that Ein Gedi NATURE RESERVE (hiking) remains
+open. 347 pages (unchanged). 428/428 e2e+a11y pass.
