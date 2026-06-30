@@ -3796,3 +3796,33 @@ Gate: pnpm check 0 errors · pnpm build 380 pages (+1) · 475/475 e2e+a11y pass.
 Ship: squash-merged to master, commit 1c842fa, pushed origin/master.
 Prod: CI triggered; previous runs all success; no revert triggered.
 Next: iter 194 = REVIEW mode (194%5==4).
+
+## 2026-06-30T13:38:19Z · iter 194 · REVIEW · internal-link audit + cross-link gap fix
+
+Mode: REVIEW (194%5==4). Audited the 3 most recently shipped guides (yad-vashem-visitor-guide,
+haifa-travel-guide, druze-villages-carmel) plus the batch of Jerusalem guides shipped in iters 186-191
+(church-holy-sepulchre-guide, jerusalem-old-city-walking-tour, 1-day-jerusalem-itinerary).
+Audit dimensions:
+  (1) heroImages — all exist in /public/images/ ✓
+  (2) photo-credits.json — all images have correct entries; restricted sites (holy-sepulchre,
+      bahai-gardens, western-wall) all carry restrictedSiteAcknowledgment ✓
+  (3) Internal links — 17 distinct outbound links in the 3 new guides all resolve ✓;
+      /golan/druze-villages confirmed valid via attractionSlug strip-prefix logic ✓
+  (4) TypeScript: 0 errors, 0 warnings (111 hints pre-existing)  ✓
+  (5) Honesty: AffiliateCard confirmed does NOT render rating/reviews/priceFrom fields
+      (comment in component says "Live prices & reviews on partner site" — hardcoded); ✓
+  (6) Cross-link gaps found: 1-day-jerusalem-itinerary.md mentioned Yad Vashem at length
+      but only linked to /jewish-heritage-israel (not /yad-vashem-visitor-guide);
+      jerusalem-old-city-walking-tour mentioned Holy Sepulchre in full detail without linking
+      to /church-holy-sepulchre-guide; christian-pilgrimage-holy-land linked to the bare
+      attraction stub /jerusalem/holy-sepulchre rather than the dedicated guide.
+Fix applied:
+  - 1-day-jerusalem-itinerary.md: added /yad-vashem-visitor-guide link in Route 2 section
+  - jerusalem-old-city-walking-tour.md: added /church-holy-sepulchre-guide ref after Holy
+    Sepulchre section; linked /yad-vashem-visitor-guide in "Combining" callout
+  - christian-pilgrimage-holy-land.md: upgraded to /church-holy-sepulchre-guide + inline CTA
+Gate: pnpm check 0 errors · pnpm build 380 pages (no new pages) · 475/475 e2e+a11y pass. GREEN.
+Ship: commit fbe12a4 to master, pushed. CI triggered; prior runs all success; no revert triggered.
+Next: iter 195 = RESEARCH mode (195%5==0). Top research candidates: Mount Tabor / Tel Megiddo
+  (both P2 seo-content items from iter190 research that are ready); check competitor gaps for
+  monetization angle (itinerary combo, wellness/spa, self-drive road trip).
