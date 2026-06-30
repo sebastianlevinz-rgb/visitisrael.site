@@ -229,6 +229,7 @@ const ROUTES = [
   '/cheap-flights-to-israel',
   '/jerusalem-old-city-walking-tour',
   '/church-holy-sepulchre-guide',
+  '/yad-vashem-visitor-guide',
   '/fr/1-day-jerusalem-itinerary',
   '/de/1-day-jerusalem-itinerary',
   '/fr/israel-tour-packages',

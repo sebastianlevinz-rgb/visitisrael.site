@@ -42,9 +42,9 @@ Israel is not a budget destination — but it is one where many of the most memo
 
 ## 1. Yad Vashem — free with advance registration
 
-[Yad Vashem](/jerusalem/yad-vashem) is Israel's national Holocaust memorial and the world's most comprehensive Holocaust museum. Entry is entirely free. The main complex covers over 18,000 square metres and includes the Holocaust History Museum, the Children's Memorial, the Avenue of the Righteous Among the Nations and extensive sculpture gardens.
+[Yad Vashem](/yad-vashem-visitor-guide) is Israel's national Holocaust memorial and the world's most comprehensive Holocaust museum. Entry is entirely free. The main complex covers over 18,000 square metres and includes the Holocaust History Museum, the Children's Memorial, the Avenue of the Righteous Among the Nations and extensive sculpture gardens.
 
-Allow three to four hours minimum. Online registration through the Yad Vashem website is required and runs out well ahead of peak dates — book as early as possible. Free guided tours depart at scheduled times; register for these separately on the same website. Yad Vashem sits on Mount Herzl in west Jerusalem, easily reached by Egged bus or light rail.
+Allow three to four hours minimum. Online registration through the Yad Vashem website is required and runs out well ahead of peak dates — book as early as possible. Free guided tours depart at scheduled times; register for these separately on the same website. Yad Vashem sits on Mount Herzl in west Jerusalem, easily reached by Egged bus or light rail. See our [complete Yad Vashem visitor guide](/yad-vashem-visitor-guide) for detailed timing, registration, and what to expect in each section.
 
 ## 2. Western Wall — free, 24 hours
 

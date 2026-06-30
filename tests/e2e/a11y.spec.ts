@@ -154,6 +154,7 @@ const ROUTES = [
   '/de/israel-travel-apps',
   '/fr/free-things-to-do-israel',
   '/de/free-things-to-do-israel',
+  '/yad-vashem-visitor-guide',
   '/search',
   '/404',
 ];
