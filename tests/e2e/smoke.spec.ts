@@ -220,6 +220,7 @@ const ROUTES = [
   '/israel-evening-activities',
   '/1-day-jerusalem-itinerary',
   '/free-things-to-do-israel',
+  '/cheap-flights-to-israel',
   '/search',
 ];
 
