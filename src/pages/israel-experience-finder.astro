@@ -1,0 +1,465 @@
+---
+import BaseLayout from '@/layouts/BaseLayout.astro';
+import Hero from '@/components/Hero.astro';
+import Breadcrumbs from '@/components/Breadcrumbs.astro';
+import JsonLd from '@/components/JsonLd.astro';
+import { breadcrumbList, faqPage } from '@/lib/schema';
+import { affiliateUrl } from '@/config/affiliates';
+
+const title = 'What Type of Israel Traveler Are You? Experience Finder Quiz';
+const description =
+  'Six quick questions reveal your Israel traveler profile — Cultural Explorer, Adventure Seeker, Spiritual Pilgrim, Foodie, or Beach lover — with personalised activity picks and booking links.';
+
+const crumbs = [
+  { name: 'Home', path: '/' },
+  { name: 'Experience finder quiz', path: '/israel-experience-finder' },
+];
+
+const faqs = [
+  {
+    question: 'Is this quiz scientifically accurate?',
+    answer:
+      "No — and we say so right on the page. The five profiles are editorial shortcuts, not data-driven psychology. Think of them as a starting point: they point you at activities and guides we genuinely believe you'd enjoy, based on the travel style you describe. The real trip is yours to build.",
+  },
+  {
+    question: "What if my result doesn't feel right?",
+    answer:
+      'Retake the quiz or just browse the activity and guide links we surface for each profile — they all live on the site. Israel is small enough that even a week covers two or three very different experiences, so mixing profiles is completely fine.',
+  },
+  {
+    question: 'Do I need to create an account or share my email?',
+    answer:
+      'No. The quiz runs entirely in your browser — nothing is saved or transmitted. Reload the page and it starts fresh.',
+  },
+  {
+    question: 'Can I share my result with a travel companion?',
+    answer:
+      "Yes. After you get your result there's a Copy link button that adds a ?result= parameter to the URL so you can share your exact profile with anyone.",
+  },
+];
+
+const schema = [breadcrumbList(crumbs), faqPage(faqs)];
+
+// 6 quiz questions. Each option scores one or more of the 5 profile keys.
+// Profiles: cultural | adventure | spiritual | foodie | beach
+const questions = [
+  {
+    q: "What's your ideal travel pace?",
+    opts: [
+      { label: 'Slow and restful — quality over quantity', score: { beach: 2, foodie: 1 } },
+      { label: 'Steady — a few highlights each day', score: { cultural: 2, spiritual: 1, foodie: 1 } },
+      { label: 'Non-stop — I want to see everything', score: { adventure: 2, cultural: 1 } },
+    ],
+  },
+  {
+    q: 'What draws you to a destination most?',
+    opts: [
+      { label: 'History, archaeology and ancient ruins', score: { cultural: 3, spiritual: 1 } },
+      { label: 'Nature, hiking and outdoor adventure', score: { adventure: 3 } },
+      { label: 'Restaurants, markets and local food', score: { foodie: 3, cultural: 1 } },
+      { label: 'Sacred sites and spiritual significance', score: { spiritual: 3, cultural: 1 } },
+      { label: 'Beaches, sun and sea', score: { beach: 3 } },
+    ],
+  },
+  {
+    q: 'How would you describe your fitness level?',
+    opts: [
+      { label: 'Easy — I prefer flat walks and comfortable tours', score: { cultural: 1, spiritual: 1, beach: 1 } },
+      { label: 'Moderate — I can handle a few hours on my feet', score: { cultural: 1, foodie: 1, spiritual: 1 } },
+      { label: "Active — I'll climb, hike and swim no problem", score: { adventure: 2, beach: 1 } },
+    ],
+  },
+  {
+    q: 'Who are you travelling with?',
+    opts: [
+      { label: 'Solo', score: { adventure: 1, foodie: 1 } },
+      { label: 'As a couple', score: { beach: 1, foodie: 1, cultural: 1 } },
+      { label: 'Family with children', score: { cultural: 1, beach: 1 } },
+      { label: 'Group of friends', score: { foodie: 1, adventure: 1, beach: 1 } },
+    ],
+  },
+  {
+    q: 'How long is your trip?',
+    opts: [
+      { label: 'A weekend or long weekend (2-4 days)', score: { cultural: 1, foodie: 1 } },
+      { label: '5 to 7 days', score: { adventure: 1, spiritual: 1, beach: 1 } },
+      { label: '10 days or more', score: { adventure: 1, cultural: 1, spiritual: 1 } },
+    ],
+  },
+  {
+    q: "What's your budget style?",
+    opts: [
+      { label: 'Budget — hostels, street food, free sights', score: { adventure: 1, foodie: 1 } },
+      { label: 'Mid-range — comfortable hotels, some tours', score: { cultural: 1, spiritual: 1, beach: 1 } },
+      { label: 'Splurge — boutique stays, private guides, fine dining', score: { beach: 1, foodie: 1, cultural: 1 } },
+    ],
+  },
+];
+
+// Build the 5 traveler profiles with affiliate CTAs resolved at build time.
+const profiles = [
+  {
+    key: 'cultural',
+    name: 'Cultural Explorer',
+    tagline: 'History, ruins and stories written in stone',
+    description:
+      "You'll be most at home wandering the layered lanes of Jerusalem's Old City, decoding Crusader walls in Caesarea and standing at the foot of Masada at dawn. Israel's density of history — Canaanite, Roman, Byzantine, Crusader, Ottoman and modern — is unmatched, and you're here for all of it.",
+    highlights: [
+      { label: 'Jerusalem Old City walking tour guide', href: '/jerusalem-old-city-walking-tour' },
+      { label: 'Caesarea Roman ruins', href: '/caesarea' },
+      { label: 'Masada at sunrise', href: '/dead-sea/masada' },
+      { label: '1-day Jerusalem itinerary', href: '/1-day-jerusalem-itinerary' },
+    ],
+    ctaLabel: 'Browse Jerusalem guided tours',
+    ctaHref: affiliateUrl('getyourguide', { query: 'Jerusalem Old City tour' }),
+    ctaNote: 'Tours via GetYourGuide',
+    image: '/images/regions/jerusalem/hero.jpg',
+    imageAlt: 'Jerusalem Old City golden rooftops at sunrise',
+  },
+  {
+    key: 'adventure',
+    name: 'Adventure Seeker',
+    tagline: 'Trails, craters and the great outdoors',
+    description:
+      "The Negev's vast craters, the cliff trails above the Galilee and a midnight rappel into a spring-fed canyon — these are your postcards. Israel surprises people with how much wild space it packs into a small country, and you're set up to explore all of it.",
+    highlights: [
+      { label: 'Hiking in Israel guide', href: '/hiking-in-israel' },
+      { label: 'Mitzpe Ramon & Makhtesh Ramon', href: '/negev/mitzpe-ramon' },
+      { label: 'Water hiking (wadi trekking)', href: '/water-hiking-israel' },
+      { label: 'Israel adventure sports', href: '/israel-adventure-sports' },
+    ],
+    ctaLabel: 'Find Negev & hiking tours',
+    ctaHref: affiliateUrl('getyourguide', { query: 'Negev hiking tour Israel' }),
+    ctaNote: 'Tours via GetYourGuide',
+    image: '/images/regions/negev/hero.jpg',
+    imageAlt: 'Makhtesh Ramon crater in the Negev desert',
+  },
+  {
+    key: 'spiritual',
+    name: 'Spiritual Pilgrim',
+    tagline: 'Sacred sites, quiet reflection and living faith',
+    description:
+      "From the Western Wall to the Via Dolorosa, from the Sea of Galilee to the Baha'i Gardens, Israel is the spiritual heartland of three world religions — and dozens of quieter traditions. You'll find moments of deep stillness here even in the busiest holy sites.",
+    highlights: [
+      { label: 'Christian pilgrimage in the Holy Land', href: '/christian-pilgrimage-holy-land' },
+      { label: 'Jewish heritage sites guide', href: '/jewish-heritage-israel' },
+      { label: 'Yad Vashem visitor guide', href: '/yad-vashem-visitor-guide' },
+      { label: 'Holy sites etiquette & dress code', href: '/holy-sites-dress-code-etiquette' },
+    ],
+    ctaLabel: 'Book Jerusalem spiritual site tours',
+    ctaHref: affiliateUrl('getyourguide', { query: 'Jerusalem spiritual sites pilgrimage tour' }),
+    ctaNote: 'Tours via GetYourGuide',
+    image: '/images/regions/jerusalem/holy-sepulchre.jpg',
+    imageAlt: 'Church of the Holy Sepulchre in Jerusalem',
+  },
+  {
+    key: 'foodie',
+    name: 'Foodie & City Explorer',
+    tagline: 'Markets, mezze and late-night Tel Aviv',
+    description:
+      "The Carmel Market at 8 am, a Mahane Yehuda bar after midnight, a Druze village kitchen in the Galilee — food is how you travel. Tel Aviv has quietly become one of the world's great restaurant cities, and Jerusalem's food scene is not far behind.",
+    highlights: [
+      { label: 'Tel Aviv food guide', href: '/tel-aviv-food-guide' },
+      { label: 'Israeli street food guide', href: '/israeli-street-food-guide' },
+      { label: 'Israeli food & cuisine guide', href: '/israeli-food-cuisine-guide' },
+      { label: 'Food tours & cooking classes', href: '/israel-food-tours-cooking-classes' },
+    ],
+    ctaLabel: 'Book a Tel Aviv food tour',
+    ctaHref: affiliateUrl('getyourguide', { query: 'Tel Aviv food tour market' }),
+    ctaNote: 'Tours via GetYourGuide',
+    image: '/images/regions/tel-aviv/carmel-market.jpg',
+    imageAlt: 'Colourful spices and produce at Tel Aviv Carmel Market',
+  },
+  {
+    key: 'beach',
+    name: 'Beach & Relaxation',
+    tagline: 'Sun, salt and doing absolutely nothing',
+    description:
+      "Floating in the Dead Sea at Ein Bokek, snorkelling above Eilat's coral gardens, watching the sun go down from Tel Aviv's promenade — Israel's coastlines are wildly varied and consistently underrated. You've got the right idea.",
+    highlights: [
+      { label: 'Dead Sea guide', href: '/dead-sea-guide' },
+      { label: 'Eilat diving & snorkelling', href: '/eilat-diving-snorkeling' },
+      { label: 'Tel Aviv beaches', href: '/tel-aviv' },
+      { label: 'Where to stay at the Dead Sea', href: '/where-to-stay/dead-sea' },
+    ],
+    ctaLabel: 'Find Dead Sea & Eilat hotels',
+    ctaHref: affiliateUrl('booking', { destination: 'Eilat Israel' }),
+    ctaNote: 'Hotels via Booking.com',
+    image: '/images/regions/tel-aviv/beaches.jpg',
+    imageAlt: 'Tel Aviv beach and Mediterranean sea on a sunny day',
+  },
+];
+---
+
+<BaseLayout
+  title={title}
+  description={description}
+  path="/israel-experience-finder"
+  image="/images/regions/negev/hero.jpg"
+  imageAlt="Israel experience finder quiz — find your perfect traveler profile"
+>
+  <JsonLd schema={schema} slot="head" />
+  <Hero
+    image="/images/regions/negev/hero.jpg"
+    title="What Type of Israel Traveler Are You?"
+    subtitle="Six questions. One profile. Personalised activity picks — no email, nothing saved."
+    alt="Makhtesh Ramon in the Negev — Israel experience finder quiz"
+  />
+  <Breadcrumbs items={crumbs} />
+
+  <section class="mx-auto max-w-3xl px-4 pt-10">
+    <p class="eyebrow" data-reveal>Discover your travel style</p>
+    <h2 class="font-display text-3xl font-bold text-ink" data-reveal>
+      Take the quiz
+    </h2>
+    <p class="mt-2 text-ink-muted" data-reveal>
+      Results are editorial recommendations, not data science — we think you'd love these based
+      on what you tell us. Browse all our
+      <a href="/plan-your-trip" class="font-semibold text-primary">planning tools</a> to explore freely.
+    </p>
+
+    <form id="quiz" class="mt-8 space-y-6" aria-label="Israel experience finder quiz">
+      {
+        questions.map((item, qi) => (
+          <fieldset class="rounded-card border border-border bg-card p-5 shadow-card">
+            <legend class="font-display text-lg font-bold text-ink">
+              <span class="text-primary">{qi + 1}.</span> {item.q}
+            </legend>
+            <div class="mt-3 grid gap-2">
+              {(item.opts ?? []).map((opt, oi) => (
+                <label class="quiz-opt">
+                  <input
+                    type="radio"
+                    name={`q${qi}`}
+                    value={oi}
+                    class="sr-only"
+                    data-q={qi}
+                  />
+                  <span>{opt.label}</span>
+                </label>
+              ))}
+            </div>
+          </fieldset>
+        ))
+      }
+
+      <div class="flex flex-wrap items-center gap-3">
+        <button type="submit" id="quiz-submit" class="btn btn-primary">Find my profile</button>
+        <button type="button" id="retake" class="btn btn-ghost" hidden>Retake quiz</button>
+        <span id="answered" class="text-sm text-ink-muted" aria-live="polite"></span>
+      </div>
+    </form>
+
+    <!-- Results -->
+    <div id="results" class="mt-10 scroll-mt-6" aria-live="polite" tabindex="-1" hidden>
+      <div id="result-profile" class="rounded-card border border-border bg-card shadow-card overflow-hidden">
+        <!-- Populated by script -->
+      </div>
+      <div class="mt-6 flex flex-wrap gap-3">
+        <button type="button" id="share-btn" class="btn btn-ghost">Copy link to my profile</button>
+        <span id="share-ok" class="hidden text-sm text-emerald-600 self-center" aria-live="polite">Copied!</span>
+      </div>
+      <div class="mt-4 flex flex-wrap gap-3">
+        <a href="/build-your-trip" class="btn btn-primary">Build my itinerary</a>
+        <a href="/plan-your-trip" class="btn btn-ghost">All planning tools</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="mx-auto max-w-3xl px-4 pb-4 pt-14">
+    <h2 class="mb-4 font-display text-2xl font-bold text-ink">
+      Frequently asked questions
+    </h2>
+    <div class="space-y-4">
+      {
+        faqs.map((f) => (
+          <details class="rounded-card border border-border bg-card p-4">
+            <summary class="cursor-pointer font-semibold text-ink">
+              {f.question}
+            </summary>
+            <p class="mt-2 text-ink-muted">{f.answer}</p>
+          </details>
+        ))
+      }
+    </div>
+    <div class="mt-8">
+      <p class="text-sm text-ink-muted">
+        Not sure which region suits you? Try the
+        <a href="/which-israel-region-quiz" class="font-semibold text-primary">Which region quiz</a>
+        for location-focused recommendations, or browse our
+        <a href="/itineraries" class="font-semibold text-primary">ready-made itineraries</a>.
+      </p>
+    </div>
+  </section>
+
+  <script
+    is:inline
+    type="application/json"
+    id="quiz-data"
+    set:html={JSON.stringify({ questions, profiles })}
+  />
+</BaseLayout>
+
+<style>
+  .quiz-opt {
+    display: block;
+    cursor: pointer;
+    border-radius: var(--radius-btn);
+    border: 1.5px solid var(--color-border);
+    padding: 0.7rem 0.9rem;
+    font-size: var(--text-base);
+    font-weight: 500;
+    color: var(--color-ink);
+    transition:
+      border-color 0.18s ease,
+      background 0.18s ease,
+      color 0.18s ease;
+  }
+  .quiz-opt:has(input:checked) {
+    border-color: var(--color-primary);
+    background: var(--color-primary-soft);
+    color: var(--color-primary);
+    font-weight: 600;
+  }
+  .quiz-opt:has(input:focus-visible) {
+    outline: 3px solid var(--color-primary);
+    outline-offset: 2px;
+  }
+</style>
+
+<script is:inline>
+  (function () {
+    var node = document.getElementById('quiz-data');
+    if (!node) return;
+    var DATA = JSON.parse(node.textContent);
+    var QS = DATA.questions;
+    var PROFILES = DATA.profiles;
+    var byKey = {};
+    PROFILES.forEach(function (p) { byKey[p.key] = p; });
+
+    var form = document.getElementById('quiz');
+    var results = document.getElementById('results');
+    var profileEl = document.getElementById('result-profile');
+    var retake = document.getElementById('retake');
+    var answered = document.getElementById('answered');
+    var shareBtn = document.getElementById('share-btn');
+    var shareOk = document.getElementById('share-ok');
+
+    function countAnswered() {
+      var n = 0;
+      for (var i = 0; i < QS.length; i++) {
+        if (form.querySelector('input[name="q' + i + '"]:checked')) n++;
+      }
+      return n;
+    }
+
+    function updateCount() {
+      var n = countAnswered();
+      answered.textContent = n + ' / ' + QS.length + ' answered';
+    }
+
+    form.addEventListener('change', updateCount);
+
+    function score() {
+      var totals = { cultural: 0, adventure: 0, spiritual: 0, foodie: 0, beach: 0 };
+      for (var i = 0; i < QS.length; i++) {
+        var sel = form.querySelector('input[name="q' + i + '"]:checked');
+        if (!sel) continue;
+        var opt = QS[i].opts[parseInt(sel.value, 10)];
+        if (!opt) continue;
+        for (var k in opt.score) {
+          totals[k] = (totals[k] || 0) + opt.score[k];
+        }
+      }
+      return totals;
+    }
+
+    function topProfile(totals) {
+      var best = null;
+      var bestN = -1;
+      for (var k in totals) {
+        if (totals[k] > bestN) {
+          bestN = totals[k];
+          best = k;
+        }
+      }
+      return best || 'cultural';
+    }
+
+    function renderProfile(key) {
+      var p = byKey[key];
+      if (!p) return;
+
+      var links = p.highlights.map(function (h) {
+        return '<li><a href="' + h.href + '" class="text-primary hover:underline font-semibold">' + h.label + '</a></li>';
+      }).join('');
+
+      profileEl.innerHTML =
+        '<img src="' + p.image + '" alt="' + p.imageAlt + '" width="900" height="500" loading="lazy" decoding="async" class="h-56 w-full object-cover">' +
+        '<div class="p-6">' +
+          '<p class="eyebrow">Your traveler profile</p>' +
+          '<h3 class="mt-1 font-display text-2xl font-bold text-ink">' + p.name + '</h3>' +
+          '<p class="mt-1 text-sm font-semibold text-primary">' + p.tagline + '</p>' +
+          '<p class="mt-3 text-ink-muted">' + p.description + '</p>' +
+          "<h4 class=\"mt-5 font-display text-lg font-bold text-ink\">We think you'd love…</h4>" +
+          '<ul class="mt-2 space-y-1 list-disc list-inside text-ink-muted">' + links + '</ul>' +
+          '<div class="mt-5">' +
+            '<a href="' + p.ctaHref + '" target="_blank" rel="noopener sponsored" class="btn btn-primary">' + p.ctaLabel + '</a>' +
+            '<p class="mt-1 text-xs text-ink-muted">' + p.ctaNote + ' — affiliate link</p>' +
+          '</div>' +
+        '</div>';
+    }
+
+    function getResultKey() {
+      var params = new URLSearchParams(window.location.search);
+      return params.get('result');
+    }
+
+    function showResult(key) {
+      renderProfile(key);
+      results.hidden = false;
+      retake.hidden = false;
+      results.focus();
+      results.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    }
+
+    form.addEventListener('submit', function (e) {
+      e.preventDefault();
+      if (countAnswered() === 0) {
+        answered.textContent = 'Pick at least one answer to get a result.';
+        return;
+      }
+      var totals = score();
+      var key = topProfile(totals);
+      var url = new URL(window.location.href);
+      url.searchParams.set('result', key);
+      history.replaceState(null, '', url.toString());
+      showResult(key);
+    });
+
+    retake.addEventListener('click', function () {
+      form.reset();
+      results.hidden = true;
+      retake.hidden = true;
+      updateCount();
+      var url = new URL(window.location.href);
+      url.searchParams.delete('result');
+      history.replaceState(null, '', url.toString());
+      form.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    });
+
+    shareBtn.addEventListener('click', function () {
+      navigator.clipboard.writeText(window.location.href).then(function () {
+        shareOk.classList.remove('hidden');
+        setTimeout(function () { shareOk.classList.add('hidden'); }, 2500);
+      });
+    });
+
+    var preloaded = getResultKey();
+    if (preloaded && byKey[preloaded]) {
+      showResult(preloaded);
+    }
+
+    updateCount();
+  })();
+</script>

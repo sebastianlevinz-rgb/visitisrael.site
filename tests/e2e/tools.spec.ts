@@ -700,3 +700,63 @@ test.describe('Packing list affiliate badges', () => {
     expect(unique.size).toBe(hrefs.length);
   });
 });
+
+test.describe('Israel experience finder quiz', () => {
+  test('answering all questions reveals a traveler profile with affiliate CTA', async ({ page }) => {
+    await page.goto('/israel-experience-finder');
+    // Pick the first option for each question.
+    const groups = await page.locator('input[type="radio"]').evaluateAll((els) =>
+      Array.from(new Set(els.map((e) => (e as HTMLInputElement).name)))
+    );
+    for (const name of groups) {
+      await page.locator(`input[type="radio"][name="${name}"]`).first().check({ force: true });
+    }
+    await page.locator('#quiz-submit').click();
+    await expect(page.locator('#results')).toBeVisible();
+    // Profile card should render name, tagline, highlights and CTA.
+    await expect(page.locator('#result-profile')).toContainText(/Explorer|Seeker|Pilgrim|Foodie|Beach/i);
+    await expect(page.locator('#result-profile a')).not.toHaveCount(0);
+    // Affiliate CTA link is present.
+    const ctaLink = page.locator('#result-profile a[target="_blank"]');
+    await expect(ctaLink).toBeVisible();
+  });
+
+  test('retake button resets the quiz and hides results', async ({ page }) => {
+    await page.goto('/israel-experience-finder');
+    const groups = await page.locator('input[type="radio"]').evaluateAll((els) =>
+      Array.from(new Set(els.map((e) => (e as HTMLInputElement).name)))
+    );
+    for (const name of groups) {
+      await page.locator(`input[type="radio"][name="${name}"]`).first().check({ force: true });
+    }
+    await page.locator('#quiz-submit').click();
+    await expect(page.locator('#results')).toBeVisible();
+    await page.locator('#retake').click();
+    await expect(page.locator('#results')).not.toBeVisible();
+    const checkedCount = await page.locator('#quiz input[type="radio"]:checked').count();
+    expect(checkedCount).toBe(0);
+  });
+
+  test('shared ?result=adventure link shows Adventure Seeker profile without submitting quiz', async ({ page }) => {
+    await page.goto('/israel-experience-finder?result=adventure');
+    await expect(page.locator('#results')).toBeVisible();
+    await expect(page.locator('#result-profile')).toContainText('Adventure Seeker');
+  });
+
+  test('share button copies URL with result param to clipboard', async ({ page, context }) => {
+    await context.grantPermissions(['clipboard-read', 'clipboard-write']);
+    await page.goto('/israel-experience-finder');
+    const groups = await page.locator('input[type="radio"]').evaluateAll((els) =>
+      Array.from(new Set(els.map((e) => (e as HTMLInputElement).name)))
+    );
+    for (const name of groups) {
+      await page.locator(`input[type="radio"][name="${name}"]`).first().check({ force: true });
+    }
+    await page.locator('#quiz-submit').click();
+    await expect(page.locator('#results')).toBeVisible();
+    await page.locator('#share-btn').click();
+    await expect(page.locator('#share-ok')).toBeVisible();
+    const copied = await page.evaluate(() => navigator.clipboard.readText());
+    expect(copied).toContain('result=');
+  });
+});
