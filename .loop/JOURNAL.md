@@ -3844,3 +3844,28 @@ Competitors scanned: Tourist Israel, Bein Harim, Lonely Planet Israel, GetYourGu
 Deduplication confirmed (NOT added): Israel birding (iter50+iter125), solo female travel (SHIPPED iter127), group travel (iter145), Caesarea diving (iter190).
 
 COMPETITORS.md updated. STATE.md bumped to iter 195. Next: 196%5==1 → BUILD. Priority candidates: i18n batch 18 (5 remaining guides) or monetization BUILD item.
+
+## 2026-06-30 · iter 196 · BUILD · i18n batch 18 COMPLETE (5 remaining guides fr+de)
+
+Mode: BUILD (196%5==1). i18n batch 18 completion selected (P1) over monetization BUILD (P2).
+
+What: Translated the 5 remaining batch 18 English guides into both French and German, completing
+the entire batch 18 translation scope. 10 new locale pages total:
+  - /fr/petra-from-eilat-vs-amman + /de/petra-from-eilat-vs-amman (comparison: Eilat vs Amman border)
+  - /fr/private-tours-israel + /de/private-tours-israel (private tour types + affiliate CTAs)
+  - /fr/cheap-flights-to-israel + /de/cheap-flights-to-israel (airline table, booking timing, Skyscanner CTA)
+  - /fr/church-holy-sepulchre-guide + /de/church-holy-sepulchre-guide (six-denomination Status Quo, neutral framing, paired naming)
+  - /fr/jerusalem-old-city-walking-tour + /de/jerusalem-old-city-walking-tour (7-step route, paired naming)
+
+Religious site care: church-holy-sepulchre-guide + jerusalem-old-city-walking-tour required extra care
+(contested site rules per I18N-PLAN.md). Used neutral Status Quo framing; Mur des Lamentations/Kotel (FR)
+and Klagemauer/Kotel (DE) paired naming; no fabricated claims; no side-taking on denomination disputes.
+
+Test coverage: smoke.spec.ts +10 routes; a11y.spec.ts +5 representative routes (church-holy-sepulchre-guide
+en/fr/de + jerusalem-old-city-walking-tour fr/de).
+
+Gate: pnpm check 0 errors · pnpm build 390 pages (+10) · 490/490 e2e+a11y pass. GREEN.
+Ship: committed all 12 files (10 new content + 2 spec updates) directly to master as 0a8b047, pushed.
+Prod: CI triggered; auto-deploy to Vercel production.
+Next: iter 197 = BUILD (197%5==2 → seo-content). Top candidates from backlog: Jordan Pass guide,
+  Israel in Autumn guide, Arab-Israeli culture guide, Tel Megiddo guide, or next i18n phase (regions).

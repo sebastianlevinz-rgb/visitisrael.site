@@ -335,3 +335,14 @@ REVIEW audit of i18n batches 18-b and 18-c. Found: 3 DE files from batch 18-c ha
 - [iter192] /haifa-travel-guide — Standalone city guide for Israel's 3rd-largest city + primary cruise port: Bahá'í World Centre UNESCO terraces (free guided tours), Carmelit funicular (Israel's only subway, Shabbat-operating), German Colony, Wadi Nisnas, Stella Maris, beaches, 7 FAQs, 3 affiliate CTAs → 991b8f1
 - [iter193] /druze-villages-carmel — Mount Carmel Druze Villages guide (Daliyat el-Carmel + Isfiya): market, Druze pita, El-Muhraka Monastery, Carmel NP; cross-links: haifa-travel-guide + day-trips-from-haifa → 1c842fa
 - REVIEW cross-link audit iter194 (iter 194) — fbe12a4 — audited yad-vashem, haifa, druze-carmel guides; fixed 4 cross-link gaps from hub pages to new dedicated guides (yad-vashem-visitor-guide, church-holy-sepulchre-guide). [review]
+
+## iter 196 · 0a8b047 · BUILD/i18n · batch 18 COMPLETE — 5 remaining guides fr+de
+10 new locale pages completing i18n batch 18 (all 5 remaining English guides now translated):
+- /fr/petra-from-eilat-vs-amman + /de/petra-from-eilat-vs-amman — Eilat vs Amman Petra comparison
+- /fr/private-tours-israel + /de/private-tours-israel — private tour types + tourradar/viator CTAs
+- /fr/cheap-flights-to-israel + /de/cheap-flights-to-israel — airline tables, booking timing, Skyscanner CTA
+- /fr/church-holy-sepulchre-guide + /de/church-holy-sepulchre-guide — Status Quo explainer, paired naming
+- /fr/jerusalem-old-city-walking-tour + /de/jerusalem-old-city-walking-tour — 7-step Old City route
+Religious site care: neutral Status Quo framing; Mur des Lamentations/Kotel (FR), Klagemauer/Kotel (DE).
+Smoke spec +10 routes; a11y spec +5 routes. 390 pages; 490/490 e2e+a11y pass.
+Batch 18 now 100% DONE. fr/de at 87 guides each (89 locale pages each).
