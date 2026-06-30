@@ -260,6 +260,7 @@ const ROUTES = [
   '/israel-experience-finder',
   '/search',
   '/israel-vat-refund',
+  '/israel-museum-jerusalem',
 ];
 
 for (const route of ROUTES) {

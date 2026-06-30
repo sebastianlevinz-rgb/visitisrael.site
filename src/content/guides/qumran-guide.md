@@ -125,7 +125,7 @@ Qumran sits directly on Route 90, the main artery running alongside the Dead Sea
 
 Qumran holds replica jars and context exhibits. The original manuscripts are not displayed here. If seeing the real thing matters to you:
 
-**Shrine of the Book, Israel Museum, Jerusalem.** This specially designed wing houses some of the most significant scrolls — the Great Isaiah Scroll, the Community Rule, and the Pesher Habakkuk — in a climate-controlled, darkened environment. The building's white dome echoes the lids of the scroll jars; the design is worth the visit in its own right. The Israel Museum is 8 km west of the Old City; see museum opening hours on imj.org.il.
+**Shrine of the Book, Israel Museum, Jerusalem.** This specially designed wing houses some of the most significant scrolls — the Great Isaiah Scroll, the Community Rule, and the Pesher Habakkuk — in a climate-controlled, darkened environment. The building's white dome echoes the lids of the scroll jars; the design is worth the visit in its own right. See our [Israel Museum Jerusalem visitor guide](/israel-museum-jerusalem) for full practical details.
 
 **Rockefeller Archaeological Museum, East Jerusalem.** Houses additional fragments and significant archaeological finds from Qumran excavations.
 
