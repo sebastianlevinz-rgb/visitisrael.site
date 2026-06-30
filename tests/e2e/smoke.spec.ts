@@ -235,6 +235,14 @@ const ROUTES = [
   '/de/israel-tour-packages',
   '/fr/petra-tours-compared',
   '/de/petra-tours-compared',
+  '/fr/israel-travel-apps',
+  '/de/israel-travel-apps',
+  '/fr/israel-wine-wineries',
+  '/de/israel-wine-wineries',
+  '/fr/israel-zimmer-guide',
+  '/de/israel-zimmer-guide',
+  '/fr/free-things-to-do-israel',
+  '/de/free-things-to-do-israel',
   '/search',
 ];
 

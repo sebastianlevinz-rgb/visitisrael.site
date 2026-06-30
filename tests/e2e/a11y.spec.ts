@@ -150,6 +150,10 @@ const ROUTES = [
   '/de/israel-tour-packages',
   '/fr/petra-tours-compared',
   '/de/petra-tours-compared',
+  '/fr/israel-travel-apps',
+  '/de/israel-travel-apps',
+  '/fr/free-things-to-do-israel',
+  '/de/free-things-to-do-israel',
   '/search',
   '/404',
 ];
