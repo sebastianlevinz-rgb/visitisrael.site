@@ -3976,3 +3976,24 @@ Smoke test: /israel-museum-jerusalem added to ROUTES.
 Gate: pnpm check 0 errors · pnpm build 394 pages (+1) · pnpm test:e2e 500/500 pass. GREEN.
 Ship: squash-merged to master 78e20b0, pushed. CI in_progress at write time; prior iter CI = success.
 Next: iter 203 = BUILD mode (tools). Top tools candidates in BACKLOG.
+
+## 2026-06-30T22:38Z · iter 203 · BUILD (seo-content fallthrough from tools) · Golan Heights visitor guide
+
+What: new /golan-heights-guide — comprehensive visitor guide to the Golan Heights.
+Covers: Mount Bental volcanic crater + Syrian bunkers (panoramic views), Banias Nature Reserve
+(Pan grotto + Hermon Stream waterfall), Nimrod Fortress (Crusader/Ayyubid castle), Druze villages
+(Majdal Shams, Mas'ade, Buq'ata, Ein Qiniyye — Shouting Hill, Druze food), Golan Heights wineries
+(Yarden/Gamla/Golan labels, Pelter, Bazelet, Odem Mountain), Gamla Nature Reserve + Griffon vulture
+colony + Gamla waterfall, Mount Hermon ski resort + year-round cable car + high-elevation hiking.
+Hiking table: Zavitan Canyon, Banias Waterfall trail, Avital–Bental circuit, Yehudiyye Forest loop,
+Gamla circuit. Practical section: car rental essential, guided day trip alternative, TLV/JLM routes,
+spring wildflowers / autumn harvest / winter ski seasons, zimmer accommodation, Shabbat note.
+3 affiliate CTAs: GYG jeep tours, Viator day trip from TLV, Booking.com stays. 7 FAQs. TourVerdict.
+Footer Essentials: "Golan Heights guide" added. Cross-links: hiking-in-israel Banias row →
+/golan-heights-guide; israel-adventure-sports Hermon non-skiers line → /golan-heights-guide.
+Smoke test route added. Category fallthrough: tools (all 11 shipped) → seo-content.
+Cloud env note: diverged local master (50 commits behind remote); recovered via git reset --hard
+origin/master before work; branch created without commits; staged + committed directly after gate.
+Gate: pnpm check 0 errors · pnpm build 395 pages (+1) · pnpm test:e2e 501/501 pass. GREEN.
+Ship: committed directly to master 62e613c, pushed. CI in_progress at write time; prior iter CI = success.
+Next: iter 204 = REVIEW mode (204%5==4).
