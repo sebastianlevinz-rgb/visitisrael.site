@@ -3617,4 +3617,20 @@ No-issues confirmed: hreflang auto-generated from file existence check in [...sl
   Felsendom) correct throughout all 6 batch-18 FR+DE files.
 Fix: Rewrote all 3 DE files with proper Unicode umlauts. Branch auto/fix-de-umlaut-batch18.
 Gate: pnpm check 0 errors (117 files) · pnpm build 367 pages · pnpm test:e2e 454/454 pass. GREEN.
+
+## 2026-06-30 · iter 185 · RESEARCH · Jerusalem sacred-site visitor guides
+
+Mode RESEARCH (185%5==0). No code changed, no gate run. Focus: high-traffic Jerusalem sites where we hold thin attraction stubs (84–91 lines) while competitors have full practical visitor guides.
+
+Competitor research performed: touristisrael.com, beinharim.com, lonelyplanet.com, tripadvisor.com, nomadicmatt.com, yadvashem.org (official). 12 web searches across topic clusters: (1) Yad Vashem logistics + competitor coverage, (2) Jerusalem Old City walking tour format + TripAdvisor ranking, (3) Church of Holy Sepulchre six-denomination complexity, (4) Mount of Olives viewpoint + Dominus Flevit + Gethsemane.
+
+De-duplication: searched BACKLOG.md for "Yad Vashem visitor|Old City walk|Church.*Holy|Mount.*Olives|Holy Sepulchre" and all candidate slugs — zero existing entries found. All 4 items are genuinely net-new.
+
+4 net-new items added to BACKLOG.md:
+1. [P2] /yad-vashem-visitor-guide (seo-content+monetization, M) — practical logistics for 1M+/year visitors; GYG tour CTA; Children's Memorial + Hall of Names; group booking rules
+2. [P2] /jerusalem-old-city-walking-tour (seo-content+monetization, S) — step-by-step four-quarters route (Jaffa Gate → Armenian → Jewish Quarter → Western Wall → Via Dolorosa → Holy Sepulchre); TripAdvisor #1 most-booked Jerusalem activity
+3. [P2] /church-holy-sepulchre-guide (seo-content, S) — six-denomination custody explainer; Edicule queue management; restrictedSiteAcknowledgment required for hero image
+4. [P2] /mount-of-olives-guide (seo-content, M) — Viewpoint + Church of All Nations + Dominus Flevit (iconic chalice window photograph) + Garden of Gethsemane + Cemetery; top-to-bottom 2km walking route; olive tree age caveat
+
+All 4 items tagged [iter185 research] status: ready. Competitors logged in COMPETITORS.md iter185 section.
 Ship: committed 4373ff6 to master, pushed. Vercel CI in_progress at push (standard).

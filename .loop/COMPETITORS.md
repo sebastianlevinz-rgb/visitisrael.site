@@ -2387,4 +2387,38 @@ Territories) is a genuine gotcha for travelers from any country. 220V/50Hz; Euro
 - wikitravel.org/en/Israel, voltagedb.com/israel
 - timeout.com/israel restaurants, tripadvisor.com/Restaurants-g297702-Nazareth, haaretz.com/israel-news/travel
 
+---
+
+## iter185 — 2026-06-30 — RESEARCH — Jerusalem Sacred-Site Visitor Guides
+
+**Focus:** Jerusalem high-traffic sacred site visitor guides. We hold 91/85/84-line attraction stubs for Yad Vashem / Holy Sepulchre / Mount of Olives but lack the full practical visitor guides that competitors rank for.
+
+**Competitor landscape observed:**
+
+| Competitor | Coverage gap vs. us |
+|---|---|
+| touristisrael.com | Full Yad Vashem page /yad-vashem-holocaust-museum/409/ + Holy Sepulchre page + Mount of Olives page |
+| beinharim.com | 3 dedicated Mount of Olives pages + Holy Sepulchre tour CTA + Yad Vashem combination tours |
+| lonelyplanet.com | Detailed attraction listings for all 4 gap sites with practical logistics |
+| tripadvisor.com | #1 ranked "Jerusalem Old City walking tour" content; review aggregation for all 4 sites |
+| nomadicmatt.com | Jerusalem Old City walking guide with four-quarters route |
+
+**Key findings:**
+- Yad Vashem: ~1M visitors/year; massive search volume for practical logistics (entry rules, children's memorial, group booking, arriving early). Our attraction stub has zero practical info. GYG monetisation possible (guided tours = legitimate added value for Holocaust education context).
+- Jerusalem Old City walking tour: TripAdvisor #1 most-booked Jerusalem activity. Our 1-day-jerusalem-itinerary covers top sites but NOT a street-level walk format with Via Dolorosa directions + quarter-by-quarter navigation. Gap is format, not content overlap.
+- Church of Holy Sepulchre: six-denomination complexity confuses visitors; competitors profit from explaining custody rotation and Edicule queue management. Our 85-line stub has none of this. NOTE: hero image requires restrictedSiteAcknowledgment.
+- Mount of Olives: Dominus Flevit church window photo is Jerusalem's most-shared architectural photograph — extremely high intent query ("Dominus Flevit Jerusalem"). Bein Harim has 3 dedicated pages; we have an 84-line stub.
+
+**De-duplication note:** All 4 items are confirmed absent from BACKLOG.md via grep. Confirmed against: Yad Vashem (no entry; only attraction stub), Old City walk (no walking-tour format guide), Holy Sepulchre (no standalone guide, only attraction stub), Mount of Olives (no standalone guide, only attraction stub).
+
+**Net-new items added this iteration:** 4
+
+**Sources:**
+- yadvashem.org/visit (official logistics)
+- touristisrael.com/yad-vashem-holocaust-museum/409, touristisrael.com/church-of-holy-sepulchre, touristisrael.com/mount-of-olives
+- beinharim.com (Old City walking tour + Yad Vashem combination tour pages + 3 Mount of Olives pages)
+- lonelyplanet.com/israel/jerusalem/attractions/yad-vashem, lonelyplanet.com/israel/jerusalem/attractions/church-of-the-holy-sepulchre, lonelyplanet.com/israel/jerusalem/attractions/mount-of-olives
+- tripadvisor.com/Attraction_Review-g293983-Jerusalem_walking_tours (Old City walk #1 ranking confirmation)
+- nomadicmatt.com/travel-guides/israel-travel-tips/jerusalem (Old City walking route)
+
 7 net-new items added. Backlog now ~177 ready items.
