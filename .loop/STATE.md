@@ -1,26 +1,24 @@
 # LOOP STATE
 
-- iteration: 187
-- lastMode: BUILD (187%5==2) — seo-content
-- lastItem: iter187 BUILD — /church-holy-sepulchre-guide new guide (seo-content, S). Practical 2026 visitor guide: Edicule queue strategy (04:00 dawn arrival = <10 min wait vs 60–90 min midday), six-denomination Status Quo explainer (Greek Orthodox / RC Franciscan / Armenian / Coptic / Syriac / Ethiopian + Joudeh/Nuseibeh door-key tradition), room-by-room coverage (Stone of Unction, Calvary, Edicule, Chapel of St Helena, Ethiopian Monastery rooftop, Syrian Chapel), Via Dolorosa connection (Lions Gate → 14 Stations → church terminus), photography rules, guided-tour verdict. GYG Via Dolorosa tour CTA + Viator private + Abraham CTAs. Hero: /images/regions/jerusalem/holy-sepulchre.jpg (restrictedSiteAcknowledgment already in photo-credits.json). 457/457 tests pass; 369 pages.
-- lastResult: SHIPPED — commit 87eafa4, pushed master. CI in_progress at push (standard Lighthouse pipeline).
-- nextRotationCategory: 188%5==3 → BUILD/tools
+- iteration: 188
+- lastMode: BUILD (188%5==3) — i18n (tools category depleted; fell through to i18n batch 18)
+- lastItem: iter188 BUILD — i18n batch 18 near-complete: FR+DE translations of israel-travel-apps, israel-wine-wineries, israel-zimmer-guide, free-things-to-do-israel (8 new locale pages). Broken link /fr|de/private-tours-israel → /private-tours-israel EN fallback. smoke.spec.ts +10 routes; a11y.spec.ts +4 routes. 469/469 tests pass; 377 pages built.
+- lastResult: SHIPPED — commit 198b54a, pushed master. CI in_progress at push (standard Lighthouse pipeline).
+- nextRotationCategory: 189%5==4 → REVIEW
 - higgsfieldSpent: 0
 - updatedAt: 2026-06-30
 - branch context: work on master; feature work on auto/<slug>
 
-Notes: iter 187 BUILD/seo-content — /church-holy-sepulchre-guide shipped (87eafa4).
-  NEXT: iter 188 = BUILD / tools (188%5==3).
-  Top tools candidates (from backlog):
-    - Travel time calculator / Jerusalem-to-Dead-Sea route planner (tools, M)
-    - Check BACKLOG for highest-priority tools item
-  Remaining seo-content candidates (all P2, ready):
-    - Yad Vashem visitor guide (/yad-vashem-visitor-guide) — iter185 research, monetization+seo-content, M
-    - Mount of Olives guide (/mount-of-olives-guide) — iter185 research, seo-content, M
-    - Haifa city guide (/haifa-travel-guide) — iter70 research, monetization+seo-content, M
-  i18n batch 18 reminder: 7 guides still untranslated (israel-travel-apps, israel-wine-wineries,
-    israel-zimmer-guide, petra-from-eilat-vs-amman, private-tours-israel, free-things-to-do-israel,
-    cheap-flights-to-israel).
+Notes: iter 188 BUILD/i18n — 4 guides FR+DE batch 18 shipped (198b54a).
+  tools category completely depleted (all 11 tools shipped iters 57/78/83/88/93/98/103/108/113/118/138).
+  NEXT: iter 189 = REVIEW (189%5==4). Pick a slice of already-shipped work to audit.
+  Candidates for review:
+    - Audit FR/DE locale links for broken refs across recently-shipped locale pages
+    - Review church-holy-sepulchre-guide + jerusalem-old-city-walking-tour for accuracy/honesty
+    - Quick safe fix of any dead links found
+  i18n batch 18 reminder: 3 guides still untranslated (petra-from-eilat-vs-amman, private-tours-israel,
+    cheap-flights-to-israel) + 2 newly-shipped EN guides not yet in i18n
+    (church-holy-sepulchre-guide, jerusalem-old-city-walking-tour).
   NOTE for future DE iterations: watch for ASCII digraph substitutions (ae/oe/ue) in DE content.
   NOTE: /mount-of-olives-guide hero image will need restrictedSiteAcknowledgment if it shows
     the Dome of the Rock; confirmed /church-holy-sepulchre-guide hero was already in photo-credits.json.

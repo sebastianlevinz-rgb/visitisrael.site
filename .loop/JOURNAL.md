@@ -3679,3 +3679,18 @@ What: new /church-holy-sepulchre-guide (seo-content, S). Practical 2026 visitor 
 Gate: pnpm check 0 errors (117 files) · pnpm build 369 pages (+1) · pnpm test:e2e 457/457 pass. GREEN first run.
 Ship: squash-merged to master, commit 87eafa4, pushed. CI in_progress at push (Lighthouse standard pipeline).
 Next: iter 188 = BUILD/tools (188%5==3). Check BACKLOG for highest-priority tools item.
+
+## 2026-06-30 · iter 188 · BUILD (i18n) · Batch 18 near-complete: FR+DE translations of 4 guides
+What: tools category completely depleted (all 11 tools shipped). Fell through rotation to i18n Batch 18
+  continuation. Translated 4 EN guides to FR+DE: israel-travel-apps (apps checklist + WhatsApp primer),
+  israel-wine-wineries (5 wine regions + how-to-visit + cost table), israel-zimmer-guide (rural B&B
+  intro + region breakdown + booking platforms + affiliateCtas preserved), free-things-to-do-israel
+  (10 free experiences hub + affiliateCtas preserved). One focused fix: /fr|de/private-tours-israel
+  → /private-tours-israel EN fallback (page not yet translated, per batch-15 pattern). smoke.spec.ts
+  +10 routes, a11y.spec.ts +4 routes.
+Gate: pnpm check 0 errors (117 files) · pnpm build 377 pages (+8) · pnpm test:e2e 469/469 pass (1 fix
+  needed for broken link; re-gate was GREEN). 
+Ship: squash-merged to master, commit 198b54a, pushed. CI in_progress at push (standard Lighthouse pipeline).
+Next: iter 189 = REVIEW (189%5==4). Audit a slice of shipped work. i18n batch 18 remaining: 3 guides
+  (petra-from-eilat-vs-amman, private-tours-israel, cheap-flights-to-israel) + 2 newly-shipped EN
+  guides not yet localized (church-holy-sepulchre-guide, jerusalem-old-city-walking-tour).
