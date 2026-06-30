@@ -3509,3 +3509,31 @@ Gate: N/A (RESEARCH mode, no code changes).
 Ship: N/A.
 Prod: N/A.
 Next: iter 181 = BUILD (181%5==1, monetization rotation). Top candidate: cheap-flights-to-israel (P2, S, monetization) — aligns with rotation + highest near-term revenue potential. Alternative: 1-day-tel-aviv-itinerary (P2, S) or i18n batch 18 continuation.
+
+## 2026-06-30 · iter 181 · BUILD (monetization) · cheap-flights-to-israel guide
+
+Mode: BUILD (181%5==1, monetization rotation).
+Startup: git pull --ff-only → master at 1a475cb (iter 180 state). Clean. No leftover branches.
+Item selected: cheap-flights-to-israel (P2, S effort, monetization — Skyscanner affiliate CTA).
+  Reason: SERP gap confirmed iter-180 research — Kayak/Skyscanner/Expedia all rank for "cheapest flights to Israel", "budget airlines to Israel". Skyscanner is pre-wired partner in affiliates.ts (flights category, SKYSCANNER_MARKER). Distinct from airport-guide (terminal/security) and airport-transfers (ground transport).
+
+What changed:
+  - src/content/guides/cheap-flights-to-israel.md (new — 120+ lines)
+    Sections: when to travel for cheapest fares (October = lowest demand, avoid Passover/High
+    Holidays/Sukkot/Christmas with honest "dates shift by Hebrew calendar" caveat); airlines from
+    North America table (El Al/United/Delta/American; JFK/EWR/MIA/ORD/LAX routes); budget EU
+    carriers table (Wizz Air/Ryanair/easyJet/Aegean); how far in advance (20–26 wks NA, 8–16 wks
+    EU); fare tools section (Skyscanner month-view, Google Flights, ITA Matrix); open-jaw routings
+    (TLV→AQJ/AMM or TLV→ETH); ETA-IL reminder; practical cross-links.
+  - Skyscanner affiliate CTA via pre-wired 'skyscanner' partner in affiliates.ts.
+  - 5 SEO FAQs: cheapest time to fly, how far ahead to book, direct flights from US, budget EU
+    airlines, which airport to use (TLV vs Ramon).
+  - HONESTY: all prices framed as "typically", "ranges are illustrative"; dates as "typically
+    falls in" (Hebrew calendar shift noted); no fabricated exact fares; airline list is factual
+    as of training data, framed as "check current route availability".
+  - tests/e2e/smoke.spec.ts: +1 route (/cheap-flights-to-israel).
+
+Gate: pnpm check 0 errors (117 files) · pnpm build 355 pages (+1) · pnpm test:e2e 436/436 pass. GREEN first run.
+Ship: committed 01a4fe2 to master, pushed. Branch auto/cheap-flights-to-israel deleted.
+Prod: CI in_progress at push (standard). Previous 2 completed runs (1a475cb): CI success + Lighthouse success.
+Next: iter 182 = BUILD (182%5==2, tools rotation; fall through to seo-content — no ready tools items). Top candidates: 1-day-tel-aviv-itinerary (P2, S) or i18n batch 18 continuation (next 3–4 untranslated guides from remaining 10).
