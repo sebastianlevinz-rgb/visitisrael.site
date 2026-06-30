@@ -155,6 +155,7 @@ const ROUTES = [
   '/fr/free-things-to-do-israel',
   '/de/free-things-to-do-israel',
   '/yad-vashem-visitor-guide',
+  '/haifa-travel-guide',
   '/search',
   '/404',
 ];

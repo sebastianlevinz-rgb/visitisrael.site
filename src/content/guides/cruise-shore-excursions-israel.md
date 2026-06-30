@@ -68,7 +68,7 @@ Cruise ships calling at Israel dock at two main ports: **Haifa** in the north an
 
 The **Bahá'í Gardens** are free to walk up; the interior terraces are by guided tour only (book ahead, limited slots). **Akko** is the easiest independent option — frequent trains from Haifa HaMifratz station (the station nearest the port) to Akko take about 20 minutes. **Caesarea** has no train; take a taxi or join a guided tour. For Nazareth you'll need a car or taxi — no direct rail.
 
-Cruise-ship transfer services and private local guides operate at the port; rates are set per excursion. Many passengers find a **private guide + car for 4–5 people** cheaper than ship-sold packages and more flexible. See our [Haifa region guide](/haifa) for orientation and our [transport comparison](/transport/tel-aviv-to-haifa) for context on the wider network.
+Cruise-ship transfer services and private local guides operate at the port; rates are set per excursion. Many passengers find a **private guide + car for 4–5 people** cheaper than ship-sold packages and more flexible. See our [Haifa travel guide](/haifa-travel-guide) for Bahá'í Gardens, Carmelit, beaches and German Colony orientation, and our [transport comparison](/transport/tel-aviv-to-haifa) for the wider rail network.
 
 ---
 

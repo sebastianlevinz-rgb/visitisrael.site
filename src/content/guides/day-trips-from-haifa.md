@@ -93,4 +93,4 @@ See the full [cruise shore-excursions guide for Haifa](/cruise-shore-excursions-
 
 ## Plan your trip
 
-Read the full [Haifa city guide](/haifa) for orientation. Visiting the region by train? The [transportation guide](/transportation) covers Israel Rail routes and Rav-Kav cards. For the north more broadly, see the [Galilee tours guide](/galilee-tours-compared) and the [Akko travel guide](/akko-acre-guide). Explore all [tours and day trips](/best-tours-in-israel) or [multi-day packages](/israel-tour-packages).
+Read the complete [Haifa travel guide](/haifa-travel-guide) for full city orientation — Bahá'í Gardens, the Carmelit funicular, German Colony, and beaches. Visiting the region by train? The [transportation guide](/transportation) covers Israel Rail routes and Rav-Kav cards. For the north more broadly, see the [Galilee tours guide](/galilee-tours-compared) and the [Akko travel guide](/akko-acre-guide). Explore all [tours and day trips](/best-tours-in-israel) or [multi-day packages](/israel-tour-packages).

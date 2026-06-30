@@ -105,7 +105,7 @@ A taxi from the Old City takes about ten minutes. If you are combining Akko with
 
 ## What to combine nearby
 
-**Haifa (22 km south)** — combine Akko with Haifa for a full northern coast day: Crusader city in the morning, Bahá'í Gardens terraces in the afternoon, dinner in the German Colony. The train takes 25–30 minutes. See our [Haifa travel guide](/haifa) for the Bahá'í Gardens, Carmelit and Wadi Nisnas.
+**Haifa (22 km south)** — combine Akko with Haifa for a full northern coast day: Crusader city in the morning, Bahá'í Gardens terraces in the afternoon, dinner in the German Colony. The train takes 25–30 minutes. See our [Haifa travel guide](/haifa-travel-guide) for the Bahá'í Gardens, Carmelit and Wadi Nisnas.
 
 **Rosh HaNikra (30 km north)** — the sea grottos cut into the white chalk cliffs on the Lebanon border are one of the most dramatic natural sites in northern Israel. A cable car descends to the grottos; the UNESCO-blue waters inside are extraordinary. A full northern coast day from Tel Aviv — Akko, Haifa and Rosh HaNikra — is ambitious but doable with an early start or an overnight in Akko or Haifa.
 
