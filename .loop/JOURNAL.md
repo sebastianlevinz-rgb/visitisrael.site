@@ -3657,3 +3657,25 @@ Gate: pnpm check 0 errors (117 files) · pnpm build 368 pages (+1) · pnpm test:
 Ship: committed 28c503a to master, pushed. CI in_progress at push (standard Lighthouse pipeline).
 Next: iter 187 = BUILD/seo-content (187%5==2). Top candidates: Yad Vashem visitor guide or
   Church of Holy Sepulchre guide (both iter185 research items, ready).
+
+## 2026-06-30 · iter 187 · BUILD (seo-content) · Church of the Holy Sepulchre visitor guide
+What: new /church-holy-sepulchre-guide (seo-content, S). Practical 2026 visitor guide for one of
+  Jerusalem's most-searched sacred sites. Key content: Edicule queue strategy (arrive 04:00 for
+  <10 min wait vs 60–90 min midday), six-denomination Status Quo explainer (Greek Orthodox / Roman
+  Catholic Franciscan / Armenian Apostolic / Coptic Orthodox / Syriac Orthodox / Ethiopian Tewahedo;
+  Joudeh+Nuseibeh Muslim key-holders since Saladin era), room-by-room walkthrough (Stone of Unction,
+  Calvary Chapels/Golgotha, Edicule, Chapel of St Helena with descent to True Cross chamber, Ethiopian
+  Monastery rooftop — the most underrated quiet corner, Syrian Chapel/Chapel of Adam), Via Dolorosa
+  terminus connection (Lion's Gate → 14 Stations → church; Friday 15:00 Franciscan procession),
+  photography rules (permitted; no flash in Edicule; cameras down during services), guided-tour
+  verdict box (verdictName: 'a guided Via Dolorosa and Holy Sepulchre tour'). Quick-reference table,
+  7 FAQs, practical tips section. Hero: /images/regions/jerusalem/holy-sepulchre.jpg (already had
+  restrictedSiteAcknowledgment in photo-credits.json — no new entry needed). Three affiliate CTAs:
+  GYG Via Dolorosa + Holy Sepulchre walking tour, Viator private Christian Quarter tour, Abraham.
+  Dense internal links: /jerusalem-old-city-walking-tour, /1-day-jerusalem-itinerary,
+  /jerusalem-tours-compared, /holy-sites-dress-code-etiquette, /jerusalem/western-wall,
+  /jerusalem/mount-of-olives, /where-to-stay/jerusalem, /day-trips-from-jerusalem.
+  Added route /church-holy-sepulchre-guide to tests/e2e/smoke.spec.ts.
+Gate: pnpm check 0 errors (117 files) · pnpm build 369 pages (+1) · pnpm test:e2e 457/457 pass. GREEN first run.
+Ship: squash-merged to master, commit 87eafa4, pushed. CI in_progress at push (Lighthouse standard pipeline).
+Next: iter 188 = BUILD/tools (188%5==3). Check BACKLOG for highest-priority tools item.

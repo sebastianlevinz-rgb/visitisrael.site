@@ -322,3 +322,5 @@ REVIEW audit of i18n batches 18-b and 18-c. Found: 3 DE files from batch 18-c ha
 - SHA: 28c503a
 - Route: /jerusalem-old-city-walking-tour
 - Value: Four-quarter Old City walk at street level (Jaffa Gate → Armenian → Jewish Quarter → Western Wall → Muslim Quarter/Via Dolorosa → Holy Sepulchre). GYG/Viator/Abraham CTAs; verdictName wired; 456/456 tests pass; 368 pages. TripAdvisor #1 most-booked Jerusalem activity captured.
+
+- [iter187] /church-holy-sepulchre-guide — SHA 87eafa4 — Practical 2026 visitor guide: Edicule queue strategy (04:00 arrival), six-denomination Status Quo explainer, room-by-room walkthrough, Via Dolorosa connection, 7 FAQs, 3 affiliate CTAs. 369 pages, 457 tests.
