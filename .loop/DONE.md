@@ -351,3 +351,9 @@ Batch 18 now 100% DONE. fr/de at 87 guides each (89 locale pages each).
 **Layover in Tel Aviv guide** — `0b8c26b` — `/layover-tel-aviv`
 New guide covering 4h/6h/8–10h/24h+ windows from Ben Gurion Airport. Honest ETA-IL caveat (nationality-dependent, links to MFA portal). Dense internal links to airport, Jaffa, transportation, visa pages. Footer + airport guide cross-wired. Affiliate CTAs: welcomepickups, GYG, booking.com.
 - iter198 · Israel experience finder quiz (/israel-experience-finder) → e68148d · P2 tools; 6-question activity quiz → 5 traveler profiles (Cultural Explorer, Adventure Seeker, Spiritual Pilgrim, Foodie & City Explorer, Beach & Relaxation); each with highlight links + affiliate CTA (GYG tours or Booking.com hotels); share-link via ?result= param; accessible (aria-live, keyboard, focus-visible); plan-your-trip grid + footer wired; 4 new Playwright tests; 498/498 e2e+a11y pass; 392 pages.
+
+## iter 201 — /israel-vat-refund — SHA 15a8907
+Israel VAT refund guide for tourists — step-by-step: eligibility (non-residents, ₪400+ single receipt),
+in-store ZIV-1 form, BGN Airport operators (Global Blue/Planet/TaxFree Israel), net return 5–11%,
+Dead Sea cosmetics tip, Eilat VAT-free exception. Affiliate CTAs: GYG market tours + Booking airport hotels.
+Wired: footer Planning section, airport guide callout, cost-budget cross-link. 393 pages / 499 tests.

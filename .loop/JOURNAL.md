@@ -3949,3 +3949,16 @@ BACKLOG: 7 entries appended (tagged [iter200 research], all status: ready).
 COMPETITORS.md: iter200 section added.
 Gate: N/A (research iteration — no code/content shipped).
 Next: iter 201 = BUILD mode (201%5==1 → monetization).
+
+## 2026-06-30T20:38Z · iter 201 · BUILD (monetization) · Israel VAT refund guide
+
+What: new /israel-vat-refund guide — step-by-step coverage of Israel's 17% VAT refund for tourists.
+Covers eligibility (non-residents, ₪400+ single receipt), in-store ZIV-1 form process, Ben Gurion
+Airport refund desk operators (Global Blue / Planet / TaxFree Israel), net return reality (5–11%
+after handling fees), and key caveats (Dead Sea cosmetics at airport duty-free already VAT-excluded;
+Eilat = VAT-free zone, no refund). Affiliate CTAs: GYG Tel Aviv market tours + Booking.com airport
+hotels. Footer wired, airport guide and cost-budget cross-linked, smoke test added.
+Gate: pnpm check 0 errors · pnpm build 393 pages (+1) · pnpm test:e2e 499/499 pass. GREEN.
+Ship: squash-merged to master 15a8907, pushed. Prod: Vercel deploy pending at write time.
+Next: iter 202 = BUILD mode (seo-content). Top candidates: /israel-museum-jerusalem (2400 SV/mo),
+/golan-heights-guide (2100 SV/mo), /israel-in-spring (1900 SV/mo).
