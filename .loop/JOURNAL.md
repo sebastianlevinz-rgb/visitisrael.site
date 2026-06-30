@@ -3997,3 +3997,30 @@ origin/master before work; branch created without commits; staged + committed di
 Gate: pnpm check 0 errors · pnpm build 395 pages (+1) · pnpm test:e2e 501/501 pass. GREEN.
 Ship: committed directly to master 62e613c, pushed. CI in_progress at write time; prior iter CI = success.
 Next: iter 204 = REVIEW mode (204%5==4).
+
+## 2026-06-30T23:35Z · iter 204 · REVIEW · audit iters 201–203 (VAT refund, Israel Museum, Golan Heights)
+
+Mode: REVIEW (204%5==4). Audited the 3 most recently shipped guides: /israel-vat-refund (iter201),
+/israel-museum-jerusalem (iter202), /golan-heights-guide (iter203).
+
+Audit checks performed:
+1. Internal links — all 14 internal hrefs resolve (VAT: 3, Museum: 3, Golan: 8); /golan/banias confirmed
+   as valid [region]/[attraction] route (slug: golan-banias). 0 dead links.
+2. Hero/CTA images — all 7 images exist in public/. 0 missing.
+3. H1 in body — 0 H1 nodes in body for all 3 guides (layout owns H1 per AUD-008).
+4. Footer wiring — /golan-heights-guide confirmed in Footer.astro. Museum + VAT in [...slug].astro layout.
+5. Smoke test wiring — all 3 routes in ROUTES array (tests/e2e/smoke.spec.ts lines 262–264).
+6. Meta titles: VAT 60/65 ✓; Museum 54/65 ✓; Golan 77/65 OVER → DEFECT.
+7. Meta descriptions: all 3 at exactly 160 chars ✓.
+8. Honesty: price ranges only; no AggregateRating/ratingValue; imj.org.il referenced for live
+   hours/tickets; VAT thresholds flagged as "verify with Tax Authority"; Golan political status
+   presented accurately with competing perspectives ✓.
+
+DEFECT FOUND & FIXED: Golan Heights guide title was 77 chars (over 65 limit):
+  Before: "Golan Heights: Complete Visitor Guide — Hiking, Wineries & Attractions (2026)"
+  After:  "Golan Heights Guide: Hiking, Wineries & Attractions (2026)" (58 chars)
+  Branch: auto/review-204-golan-title-fix (committed directly to master; same cloud-env pattern as iter203).
+Gate: pnpm check 0 errors · pnpm build 395 pages · pnpm test:e2e 501/501 pass. GREEN.
+Ship: committed 4caba37 to master, pushed. CI pending at write time.
+Startup: fresh cloud clone; git reset --hard origin/master (50 commits behind remote).
+Next: iter 205 = RESEARCH mode (205%5==0). Scan for fresh competitor gaps.
