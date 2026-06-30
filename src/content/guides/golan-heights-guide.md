@@ -1,5 +1,5 @@
 ---
-title: 'Golan Heights: Complete Visitor Guide — Hiking, Wineries & Attractions (2026)'
+title: 'Golan Heights Guide: Hiking, Wineries & Attractions (2026)'
 description: 'Plan your Golan Heights trip — Mount Bental, Banias, Nimrod Fortress, Druze villages, wineries, skiing on Hermon, and the best hiking trails in northern Israel.'
 heroImage: /images/regions/golan/hero.jpg
 category: Destinations
