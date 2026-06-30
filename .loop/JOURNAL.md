@@ -3903,3 +3903,25 @@ Branch discipline: working tree (not on auto/ branch) — same pattern as iter42
 Gate: pnpm check 0 errors · pnpm build 392 pages (+1) · 498/498 e2e+a11y pass. GREEN.
 Ship: committed e68148d to master, pushed. CI + Lighthouse in_progress at state-write time.
 Next: iter 199 = REVIEW mode (199%5==4).
+
+## 2026-06-30T18:39Z · iter 199 · REVIEW · experience-finder description fix
+
+Mode: REVIEW (199%5==4). Audited iter197 (/layover-tel-aviv) and iter198 (/israel-experience-finder).
+
+Checks performed: title/desc length, image presence, internal link resolution, JSON-LD schema types,
+discoverability (Footer + hub wiring), honesty (no fabricated ratings/prices), H1 count, a11y markup.
+
+Findings — layover-tel-aviv: CLEAN. Title 56ch, desc 154ch. Footer + airport-guide cross-link. All
+internal links resolve. Affiliate CTAs via helper. Honest ranges throughout. ETA-IL correctly caveated.
+Note: frontmatter rating/reviews fields NOT rendered (AffiliateCard uses live link text only).
+
+Findings — experience-finder: 1 defect. Description 190 chars — 30 over the 160-char SERP limit.
+All other checks clean: title 60ch, 5 images exist, all internal links resolve (/caesarea confirmed
+as region page not guide; /dead-sea/masada confirmed via region:dead-sea frontmatter), JSON-LD
+BreadcrumbList+FAQPage (no AggregateRating), Footer+PlanYourTripPage wired.
+
+Fix: trimmed description to 159 chars by removing 'quick', Oxford comma + 'lover' from Beach label,
+and 'and booking links' from tail. Branch: auto/review-199-desc-fix.
+Gate: pnpm check 0 errors · pnpm build 392 pages · pnpm test:e2e 498/498 pass. GREEN.
+Ship: committed aa9c453 to master, pushed. CI in_progress at state-write time.
+Next: iter 200 = RESEARCH mode (200%5==0).
