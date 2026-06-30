@@ -3596,3 +3596,25 @@ Prod: Vercel deploy triggered by push (standard); CI in_progress at push.
 fr/de: 76 guides each → 78 locale pages each (home + plan-your-trip + 76 guides). 367 pages total.
 Next: iter 184 = REVIEW (184%5==4). Audit iters 182-183 i18n batches (honesty, paired-naming, hreflang, locale cross-links).
   Remaining batch 18 after iter 183: 7 untranslated guides (israel-travel-apps, israel-wine-wineries, israel-zimmer-guide, petra-from-eilat-vs-amman, private-tours-israel, free-things-to-do-israel, cheap-flights-to-israel).
+
+## 2026-06-30 · iter 184 · REVIEW · Fix ASCII digraph umlauts in DE batch-18 guides
+What: REVIEW pass on i18n batches 18-b and 18-c (iters 182-183). Audited: paired naming, hreflang,
+  locale cross-links, honesty, umlaut quality.
+Found issues:
+  - de/1-day-jerusalem-itinerary.md: systematic ASCII digraph substitutions throughout
+    (e.g. 'fuer' → 'für', 'moechten' → 'möchten', 'Oelberg' → 'Ölberg', 'Zuege' → 'Züge',
+    'religioese' → 'religiöse', 'Staetten' → 'Stätten', etc.)
+  - de/israel-tour-packages.md: same issue ('Mehrtaegige' → 'Mehrtägige', 'Gefuehrte' → 'Geführte',
+    'Galilaea' → 'Galiläa', 'massgeschneiderte' → 'maßgeschneiderte', etc.)
+  - de/petra-tours-compared.md: same issue ('Uebernachtung' → 'Übernachtung', 'nabataeische' →
+    'nabatäische', 'Saeulenstrasse' → 'Säulenstraße', 'Koenigsgraeber' → 'Königsgräber', etc.)
+  - 3 other DE batch-18 files (cruise-shore-excursions, israel-base-city-guide, israel-evening-
+    activities): already correct umlauts — no issue.
+No-issues confirmed: hreflang auto-generated from file existence check in [...slug].astro;
+  all FR/DE locale cross-links (/fr/*, /de/*) resolve to existing guides;
+  AffiliateCard Props interface excludes rating/reviews/priceFrom → not rendered to users;
+  paired naming (Mur des Lamentations (Kotel), Klagemauer (Kotel), Grabeskirche, Dôme du Rocher,
+  Felsendom) correct throughout all 6 batch-18 FR+DE files.
+Fix: Rewrote all 3 DE files with proper Unicode umlauts. Branch auto/fix-de-umlaut-batch18.
+Gate: pnpm check 0 errors (117 files) · pnpm build 367 pages · pnpm test:e2e 454/454 pass. GREEN.
+Ship: committed 4373ff6 to master, pushed. Vercel CI in_progress at push (standard).
