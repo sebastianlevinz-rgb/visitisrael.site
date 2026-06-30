@@ -57,7 +57,7 @@ Not everyone has days to spare. Israel's best day hikes deliver outsized scenery
 | **Ein Gedi** (Wadi David to the falls) | [Dead Sea](/dead-sea) | 1–3 hrs | Easy–moderate |
 | **Masada Snake Path** (sunrise climb) | [Dead Sea](/dead-sea) | 45–60 min up | Moderate–strenuous |
 | **Mount Arbel cliff** | [Galilee](/galilee) | 1–2 hrs | Moderate |
-| **Banias / Hermon Stream falls** | [Golan](/golan) | 1.5–3 hrs | Easy–moderate |
+| **Banias / Hermon Stream falls** | [Golan](/golan-heights-guide) | 1.5–3 hrs | Easy–moderate |
 | **Ramon Crater rim & trails** | [Negev](/negev) | flexible | Easy–strenuous |
 | **Mount Carmel forest trails** | [Haifa](/haifa) | 1–3 hrs | Easy–moderate |
 

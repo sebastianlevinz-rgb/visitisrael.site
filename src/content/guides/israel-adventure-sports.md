@@ -141,7 +141,7 @@ Check availability in advance — flights are popular in spring wildflower seaso
 - **Summer season:** the resort stays open year-round, offering a chair lift for hiking, mountain biking trails, and zip-lining across the Hermon plateau.
 - **How to reach:** Hermon is about 2.5 hours from Tel Aviv and Jerusalem. Ski and snowboard rental is available on-site. Check the Hermon resort website for current season conditions before travelling.
 
-The [Golan Heights region](/golan) has walking trails at all elevations for non-skiers; the plateau in summer is one of the least-visited and most spectacular corners of the country.
+The [Golan Heights](/golan-heights-guide) has walking trails at all elevations for non-skiers; the plateau in summer is one of the least-visited and most spectacular corners of the country.
 
 ---
 

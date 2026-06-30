@@ -261,6 +261,7 @@ const ROUTES = [
   '/search',
   '/israel-vat-refund',
   '/israel-museum-jerusalem',
+  '/golan-heights-guide',
 ];
 
 for (const route of ROUTES) {
