@@ -329,3 +329,5 @@ REVIEW audit of i18n batches 18-b and 18-c. Found: 3 DE files from batch 18-c ha
 - **SHA**: 198b54a
 - **Pages added**: /fr/israel-travel-apps, /de/israel-travel-apps, /fr/israel-wine-wineries, /de/israel-wine-wineries, /fr/israel-zimmer-guide, /de/israel-zimmer-guide, /fr/free-things-to-do-israel, /de/free-things-to-do-israel (8 pages)
 - **Value**: Closes gap on batch 18; fr/de now 82 guides each. 377 pages total.
+
+- [iter189 REVIEW] Via Dolorosa Station I factual fix in 1-day-jerusalem-itinerary (790b97a) — corrected "Chain Gate" → "Lion's Gate (eastern wall, Antonia Fortress site)"; found during accuracy audit of recently-shipped Jerusalem guides; FR/DE unaffected.

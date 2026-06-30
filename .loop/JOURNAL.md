@@ -3694,3 +3694,16 @@ Ship: squash-merged to master, commit 198b54a, pushed. CI in_progress at push (s
 Next: iter 189 = REVIEW (189%5==4). Audit a slice of shipped work. i18n batch 18 remaining: 3 guides
   (petra-from-eilat-vs-amman, private-tours-israel, cheap-flights-to-israel) + 2 newly-shipped EN
   guides not yet localized (church-holy-sepulchre-guide, jerusalem-old-city-walking-tour).
+
+## 2026-06-30 · iter 189 · REVIEW · Via Dolorosa factual accuracy fix
+What: REVIEW pass over recently-shipped Jerusalem content (church-holy-sepulchre-guide, jerusalem-old-city-walking-tour, 1-day-jerusalem-itinerary) + FR/DE locale-link audit across all batch-18 pages.
+Findings:
+  - All /fr/* and /de/* internal links across all FR/DE guides resolve to existing translated files — 0 broken.
+  - /israel-tipping-currency link in free-things-to-do-israel.md initially appeared broken; is a valid static Astro page (src/pages/israel-tipping-currency.astro) — false positive.
+  - church-holy-sepulchre-guide: accurate. Six-denomination Status Quo, Joudeh/Nuseibeh key tradition, Edicule queue times, photography rules all correct. Affiliate CTA rating/reviews in frontmatter NOT rendered to users (AffiliateCard.astro shows "Live prices & reviews on partner site").
+  - jerusalem-old-city-walking-tour: accurate. Correctly states Via Dolorosa starts at Lion's Gate.
+  - 1-day-jerusalem-itinerary: FACTUAL ERROR — said Station I of Via Dolorosa is "near the Umayyad remains by the Chain Gate". The Chain Gate (Bab as-Silsilah) is a western Temple Mount entrance, not the Via Dolorosa start. Station I is at Lion's Gate (eastern wall, Antonia Fortress site). Inconsistent with other two Jerusalem guides. FR/DE versions correctly omit the Station I note.
+Fix: changed "start at Station I (near the Umayyad remains by the Chain Gate)" to "start at Station I near Lion's Gate (the eastern Old City wall, at the site of the Antonia Fortress)" in 1-day-jerusalem-itinerary.md (EN only).
+Gate: pnpm check 0 errors (117 files) · pnpm build 377 pages · pnpm test:e2e 469/469 pass. GREEN.
+Ship: committed 790b97a to master, pushed. CI pending at push.
+Next: iter 190 = RESEARCH (190%5==0).
