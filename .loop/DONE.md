@@ -311,3 +311,6 @@ New monetization guide /cheap-flights-to-israel. Covers: when to book (20–26 w
 
 ## iter 182 · f84cedd · BUILD/i18n · i18n batch 18-b — cruise-shore-excursions + israel-base-city-guide + israel-evening-activities in fr+de
 6 new locale pages: cruise-shore-excursions-israel (FR+DE), israel-base-city-guide (FR+DE), israel-evening-activities (FR+DE). Paired naming: Mur des Lamentations (Kotel) [FR], Klagemauer (Kotel) [DE] throughout. smoke.spec.ts +8 routes. 361 pages built (+6). 442/442 e2e+a11y tests pass. fr/de now 73 guides each (75 locale pages each).
+
+## iter 183 · eed3dba · BUILD/i18n · i18n batch 18-c — 1-day-jerusalem-itinerary + israel-tour-packages + petra-tours-compared in fr+de
+6 new locale pages: 1-day-jerusalem-itinerary (FR+DE), israel-tour-packages (FR+DE), petra-tours-compared (FR+DE). Paired naming: Mur des Lamentations (Kotel) + Église du Saint-Sépulcre + Dôme du Rocher [FR]; Klagemauer (Kotel) + Grabeskirche + Felsendom [DE]. petra-tours-compared verdictName/verdictQuery set in both locales. smoke.spec.ts +6 routes; a11y.spec.ts +6 routes. 367 pages built (+6). 454/454 e2e+a11y tests pass. fr/de now 76 guides each (78 locale pages each).

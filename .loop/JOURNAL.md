@@ -3562,3 +3562,37 @@ Ship: committed f84cedd to master (direct — branch had uncommitted state), pus
 Prod: CI in_progress at push (standard).
 fr/de: 73 guides each → 75 locale pages each (home + plan-your-trip + 73 guides). 361 pages total.
 Next: iter 183 = BUILD (183%5==3, technical → fall through to i18n). Remaining batch 18: 10 untranslated guides.
+
+## 2026-06-30 · iter 183 · BUILD (i18n batch 18-c) · 1-day-jerusalem-itinerary + israel-tour-packages + petra-tours-compared in fr+de
+What: 3 EN guides translated to FR+DE (6 new locale pages):
+  fr/1-day-jerusalem-itinerary.md — Un jour à Jérusalem : l'itinéraire essentiel.
+    Route 1: Vieille Ville & lieux saints (Kotel → Old City 4 quarters → Holy Sepulchre → Via
+    Dolorosa → Mahane Yehuda → mont des Oliviers sunset → dinner). Route 2: Yad Vashem +
+    Davidsstadt + Mahane Yehuda + Cité de David Hizqiyahu tunnel. Paired naming: Mur des
+    Lamentations (Kotel), Église du Saint-Sépulcre, Dôme du Rocher. 5 FAQs. 3 CTAs
+    (GYG/Viator/Abraham). Locale-correct cross-links to /fr/ guides where available.
+  de/1-day-jerusalem-itinerary.md — Ein Tag in Jerusalem: Das unverzichtbare Reiseprogramm.
+    Klagemauer (Kotel), Grabeskirche, Felsendom paired naming. Same 2 routes. 5 FAQs.
+    3 CTAs. DE cross-links to /de/ guides throughout.
+  fr/israel-tour-packages.md — Circuits Israël : voyages guidés multi-jours (2026).
+    Sections: pour qui, petit groupe vs privé, durées+routes table, avant de réserver.
+    2 CTAs (TourRadar/Abraham). 4 FAQs. Cross-links to /fr/best-tours-in-israel,
+    /fr/shabbat-guide, /fr/israel-esim, /fr/israel-travel-insurance, /fr/first-time-in-israel.
+  de/israel-tour-packages.md — Israel Reisepakete: Mehrtaegige Gefuehrte Touren (2026).
+    Same structure. YAML ASCII quotes only (no DE typographic quotes in frontmatter).
+  fr/petra-tours-compared.md — Circuits Pétra depuis Israël : comparatif 2026.
+    verdictName: "les circuits Pétra depuis Israël". 5-row comparison table (journée / nuit /
+    multi-jours / autonome / privé). 3 CTAs (GYG/Viator/TourRadar). 5 FAQs. Cross-links to
+    /fr/border-crossings, /fr/masada-dead-sea-day-trip, /fr/masada-tours-compared,
+    /fr/galilee-tours-compared, /fr/best-tours-in-israel. Petra-from-eilat-vs-amman link
+    kept unprefixed (no FR translation yet).
+  de/petra-tours-compared.md — Petra-Touren ab Israel im Vergleich (2026).
+    verdictName: "Petra-Touren ab Israel". Same structure and cross-links as FR variant.
+smoke.spec.ts: +6 routes (/fr/de for all 3 guides).
+a11y.spec.ts: +6 routes (same).
+Gate: pnpm check 0 errors (117 files) · pnpm build 367 pages (+6) · pnpm test:e2e 454/454 pass. GREEN.
+Ship: committed eed3dba to master, pushed.
+Prod: Vercel deploy triggered by push (standard); CI in_progress at push.
+fr/de: 76 guides each → 78 locale pages each (home + plan-your-trip + 76 guides). 367 pages total.
+Next: iter 184 = REVIEW (184%5==4). Audit iters 182-183 i18n batches (honesty, paired-naming, hreflang, locale cross-links).
+  Remaining batch 18 after iter 183: 7 untranslated guides (israel-travel-apps, israel-wine-wineries, israel-zimmer-guide, petra-from-eilat-vs-amman, private-tours-israel, free-things-to-do-israel, cheap-flights-to-israel).

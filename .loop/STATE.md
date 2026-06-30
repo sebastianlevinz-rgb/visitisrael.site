@@ -1,17 +1,17 @@
 # LOOP STATE
 
-- iteration: 182
-- lastMode: BUILD (182%5==2, tools rotation fall-through → i18n batch 18-b)
-- lastItem: i18n batch 18-b — cruise-shore-excursions-israel + israel-base-city-guide + israel-evening-activities translated to FR+DE (6 new locale pages). French: cruises (Haïfa/Ashdod ports, Jardins Bahá'í), base-city (Jérusalem/Tel Aviv/Haïfa/Tibériade/Eilat comparison table), evening activities (Tour de David nuit, son-et-lumière Masada, Mahane Yehuda après 20h, Kotel, Jaffa, Mitzpe Ramon). German: same 3 guides (Kreuzfahrtausflüge, Basisstadt, Abendaktivitäten). Paired naming throughout: Mur des Lamentations (Kotel) [FR], Klagemauer (Kotel) [DE].
-- lastResult: GREEN — 442/442 e2e+a11y pass; 361 pages built (+6); 0 check errors; pushed f84cedd; CI in_progress (standard)
-- nextRotationCategory: 183%5==3 → BUILD (technical rotation). No ready technical items in backlog → fall through to i18n batch 18 continuation. Remaining: israel-tour-packages, israel-travel-apps, israel-wine-wineries, israel-zimmer-guide, petra-from-eilat-vs-amman, petra-tours-compared, private-tours-israel (7 original) + 1-day-jerusalem-itinerary + free-things-to-do-israel + cheap-flights-to-israel (3 new EN guides needing FR+DE). Recommend next 3–4 from this list.
+- iteration: 183
+- lastMode: BUILD (183%5==3, technical rotation fall-through → i18n batch 18-c)
+- lastItem: i18n batch 18-c — 1-day-jerusalem-itinerary + israel-tour-packages + petra-tours-compared translated to FR+DE (6 new locale pages). French: Un jour à Jérusalem (Route 1 Old City + Route 2 Yad Vashem), Circuits Israël multi-jours (small-group vs private table), Circuits Pétra depuis Israël comparatif (verdictName/verdictQuery set). German: Ein Tag in Jerusalem (Klagemauer/Kotel + Grabeskirche paired naming), Israel Reisepakete mehrtägige Touren, Petra-Touren ab Israel im Vergleich (verdictName/verdictQuery set). Locale-correct cross-links throughout; price ranges only; no fabricated ratings.
+- lastResult: GREEN — 454/454 e2e+a11y pass; 367 pages built (+6); 0 check errors; pushed eed3dba; Vercel deploy triggered
+- nextRotationCategory: 184%5==4 → REVIEW. Audit recent i18n batches (18-b and 18-c) for honesty, link correctness, hreflang, and paired-naming compliance. Quick safe fixes through full gate.
 - higgsfieldSpent: 0
 - updatedAt: 2026-06-30
 - branch context: work on master; feature work on auto/<slug>
 
-Notes: iter 182 BUILD (i18n batch 18-b) — 6 FR+DE locale pages shipped. smoke.spec.ts +8 routes (fr/de for cruise/base-city/evening, plus fr/de eilat-diving-snorkeling already added by iter177 — +8 net new in smoke for this iter). fr/de now 73 guides each (75 locale pages each incl. home + plan-your-trip). 361 pages.
-  NEXT: iter 183 = BUILD (183%5==3, technical rotation; no ready technical items → fall through to i18n). Continue batch 18: translate 3–4 of the 10 remaining guides listed in nextRotationCategory above.
-  i18n batch 18 reminder: 10 guides still untranslated after iter182. fr/de at 75 locale pages each.
+Notes: iter 183 BUILD (i18n batch 18-c) — 6 FR+DE locale pages shipped. smoke.spec.ts +6 routes (fr/de for 1-day-jerusalem-itinerary, israel-tour-packages, petra-tours-compared). fr/de now 76 guides each (78 locale pages each incl. home + plan-your-trip). 367 pages.
+  NEXT: iter 184 = REVIEW (184%5==4). Audit iters 182-183 i18n batches.
+  i18n batch 18 reminder: 7 guides still untranslated after iter183. Remaining: israel-travel-apps, israel-wine-wineries, israel-zimmer-guide, petra-from-eilat-vs-amman, private-tours-israel, free-things-to-do-israel, cheap-flights-to-israel.
 
 Cron b7325b16 hourly @ :17. Loop history: 19 tools + sitemap-lastmod + link-checker(+depth) + i18n
 Phase0/1a/1b/1c/2 Batches1-18(partial) + 24 review passes + 3 technical (event-schema + meta-trim + locale-links) + 14 EN guides + 3 tools-monetization + 3 accuracy-fix;
