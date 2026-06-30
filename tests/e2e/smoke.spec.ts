@@ -256,6 +256,7 @@ const ROUTES = [
   '/de/church-holy-sepulchre-guide',
   '/fr/jerusalem-old-city-walking-tour',
   '/de/jerusalem-old-city-walking-tour',
+  '/layover-tel-aviv',
   '/search',
 ];
 

@@ -107,7 +107,7 @@ There is also a **James Richardson arrivals store** before passport control, sto
 
 ## Getting to and from the city
 
-For detailed route comparisons, Shabbat schedules, and prices to Tel Aviv, Jerusalem, Haifa, and Eilat, see the [Ben Gurion Airport transfers guide](/ben-gurion-airport-transfers) and our [transportation overview](/transportation). Key options:
+For detailed route comparisons, Shabbat schedules, and prices to Tel Aviv, Jerusalem, Haifa, and Eilat, see the [Ben Gurion Airport transfers guide](/ben-gurion-airport-transfers) and our [transportation overview](/transportation). If you have a few hours between flights, see the [Tel Aviv layover guide](/layover-tel-aviv) for what's reachable on 4, 6, 8 or 24 hours. Key options:
 
 - **Train**: fastest and cheapest — [Tel Aviv](/tel-aviv) in ~20 min, [Jerusalem](/jerusalem) in ~30 min. No Shabbat service.
 - **Private transfer**: fixed price, driver waits for you, Shabbat-friendly.
