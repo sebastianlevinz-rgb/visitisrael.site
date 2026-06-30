@@ -3962,3 +3962,17 @@ Gate: pnpm check 0 errors · pnpm build 393 pages (+1) · pnpm test:e2e 499/499 
 Ship: squash-merged to master 15a8907, pushed. Prod: Vercel deploy pending at write time.
 Next: iter 202 = BUILD mode (seo-content). Top candidates: /israel-museum-jerusalem (2400 SV/mo),
 /golan-heights-guide (2100 SV/mo), /israel-in-spring (1900 SV/mo).
+
+## 2026-06-30T21:38Z · iter 202 · BUILD (seo-content) · Israel Museum Jerusalem guide
+
+What: new /israel-museum-jerusalem guide — complete visitor guide to Israel's largest cultural institution.
+Covers Shrine of the Book (Dead Sea Scrolls), Holyland Model at 1:50 scale, Archaeology Wing, Fine Arts Wing,
+Billy Rose Art Garden (Isamu Noguchi), Judaica & Jewish Ethnography Wing. Practical section: opening hours
+(visitors directed to imj.org.il — not hardcoded), tickets, getting there (bus 9/17, taxi/rideshare, car).
+3 affiliate CTAs: Tiqets skip-the-line tickets, GYG guided tours, Viator Jerusalem full-day cultural.
+6 FAQs. TourVerdict (verdictName/verdictQuery) wired. Footer "Essentials" section: Israel Museum link added.
+Qumran guide cross-linked: existing "Shrine of the Book" mention updated to link /israel-museum-jerusalem.
+Smoke test: /israel-museum-jerusalem added to ROUTES.
+Gate: pnpm check 0 errors · pnpm build 394 pages (+1) · pnpm test:e2e 500/500 pass. GREEN.
+Ship: squash-merged to master 78e20b0, pushed. CI in_progress at write time; prior iter CI = success.
+Next: iter 203 = BUILD mode (tools). Top tools candidates in BACKLOG.

@@ -357,3 +357,4 @@ Israel VAT refund guide for tourists — step-by-step: eligibility (non-resident
 in-store ZIV-1 form, BGN Airport operators (Global Blue/Planet/TaxFree Israel), net return 5–11%,
 Dead Sea cosmetics tip, Eilat VAT-free exception. Affiliate CTAs: GYG market tours + Booking airport hotels.
 Wired: footer Planning section, airport guide callout, cost-budget cross-link. 393 pages / 499 tests.
+- [iter202] /israel-museum-jerusalem — Complete visitor guide to Israel's largest cultural institution: Shrine of the Book (Dead Sea Scrolls), Holyland Model (1:50 scale second-temple Jerusalem), Archaeology Wing, Fine Arts Wing, Billy Rose Art Garden, Judaica Wing. Practical info (hours link to imj.org.il, tickets, getting there). 3 affiliate CTAs (Tiqets skip-the-line, GYG guided tours, Viator Jerusalem full-day). 6 FAQs. TourVerdict wired. Footer + qumran-guide cross-linked. 2400 SV/mo. → 78e20b0
