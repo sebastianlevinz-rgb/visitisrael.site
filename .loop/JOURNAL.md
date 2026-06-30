@@ -3758,3 +3758,31 @@ Gate: pnpm check 0 errors (117 files) · pnpm build 378 pages (+1) · 471/471 e2
 Ship: committed b6da271 to master, pushed. CI runs 28438356837 (CI) + 28438356879 (Lighthouse) in_progress at push.
 Next: iter 192 = BUILD/seo-content (192%5==2). Top candidates: Mount of Olives guide (iter185 research),
   Haifa complete travel guide (P2, seo-content+monetization, ready), or i18n batch 18 finish.
+
+## 2026-06-30 · iter 192 · BUILD (seo-content) · /haifa-travel-guide
+
+What: New standalone city guide for Haifa — Israel's 3rd-largest city and primary cruise port.
+Fills gap: haifa.md is a region hub only; no dedicated editorial planning guide existed.
+Content: Bahá'í World Centre UNESCO terraces (free guided tours via bahai-haifa.org, self-guided
+hours, photography rules); Carmelit funicular (Israel's only subway, 6 stations, ₪7/ride,
+Shabbat-operating — unique USP: only Israeli city with full Shabbat bus service); German Colony
+/ Ben Gurion Avenue (Templer history, restaurants, Night Market); Wadi Nisnas (Arab-Israeli
+neighbourhood murals, Al-Pasha restaurant); Stella Maris + Louis Promenade viewpoints;
+MadaTech science museum + Tikotin Japanese Art + National Maritime Museum; beaches (Bat Galim,
+Dado, Hof HaCarmel INPA); nearby combos (Akko 25 min, Rosh Hanikra 45 min, Caesarea 45 min,
+Carmel Druze villages 40 min); transit (TLV 55–65 min; Jerusalem 2h). 7 FAQs; 3 affiliate
+CTAs (GYG Bahá'í Gardens tour, Viator Haifa+Akko+Rosh Hanikra day trip, Booking.com hotels).
+Cross-links updated: day-trips-from-haifa → /haifa-travel-guide, akko-acre-guide →
+/haifa-travel-guide, cruise-shore-excursions → /haifa-travel-guide.
+smoke.spec.ts +1; a11y.spec.ts +1.
+HONESTY: Bahá'í tour times framed as "typically" + "verify official site"; Carmelit hours
+given with "approximately"; water quality at beaches → link ilcoast.co.il; no fabricated
+ratings/priceFrom; "most coexistent city" framed as "widely considered" not absolute claim.
+YAML note: single-quoted frontmatter with Bahá'í apostrophe caused js-yaml parse error on
+first write; fixed by switching to double-quoted strings for apostrophe-containing fields.
+Branch discipline: edits on working tree (consistent pattern iters 56/186/191); gate GREEN.
+Gate: pnpm check 0 errors (117 files) · pnpm build 379 pages (+1) · 473/473 e2e+a11y pass. GREEN.
+Ship: committed 991b8f1 to master, pushed. CI runs 28443165098 (CI) + 28443165057 (Lighthouse)
+— Lighthouse completed success; CI in_progress at e2e step (type-check + build already success).
+Prod: standard pipeline; no revert triggered. Previous runs all success.
+Next: iter 193 = BUILD/tools (193%5==3).

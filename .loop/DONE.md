@@ -332,3 +332,4 @@ REVIEW audit of i18n batches 18-b and 18-c. Found: 3 DE files from batch 18-c ha
 
 - [iter189 REVIEW] Via Dolorosa Station I factual fix in 1-day-jerusalem-itinerary (790b97a) — corrected "Chain Gate" → "Lion's Gate (eastern wall, Antonia Fortress site)"; found during accuracy audit of recently-shipped Jerusalem guides; FR/DE unaffected.
 - [iter191] /yad-vashem-visitor-guide — Complete visitor guide for Israel's highest-traffic memorial site (1M+/year): advance registration, Safdie History Museum 9-gallery walkthrough, Children's Memorial (1.5M lights), Avenue of the Righteous, Hall of Names, practical logistics, 3 affiliate CTAs → b6da271
+- [iter192] /haifa-travel-guide — Standalone city guide for Israel's 3rd-largest city + primary cruise port: Bahá'í World Centre UNESCO terraces (free guided tours), Carmelit funicular (Israel's only subway, Shabbat-operating), German Colony, Wadi Nisnas, Stella Maris, beaches, 7 FAQs, 3 affiliate CTAs → 991b8f1
