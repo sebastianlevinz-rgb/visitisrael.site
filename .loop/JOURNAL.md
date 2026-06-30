@@ -3537,3 +3537,28 @@ Gate: pnpm check 0 errors (117 files) · pnpm build 355 pages (+1) · pnpm test:
 Ship: committed 01a4fe2 to master, pushed. Branch auto/cheap-flights-to-israel deleted.
 Prod: CI in_progress at push (standard). Previous 2 completed runs (1a475cb): CI success + Lighthouse success.
 Next: iter 182 = BUILD (182%5==2, tools rotation; fall through to seo-content — no ready tools items). Top candidates: 1-day-tel-aviv-itinerary (P2, S) or i18n batch 18 continuation (next 3–4 untranslated guides from remaining 10).
+
+## 2026-06-30 · iter 182 · BUILD (i18n batch 18-b) · cruise-shore-excursions + israel-base-city-guide + israel-evening-activities in fr+de
+What: 3 more EN guides translated to FR+DE (6 new locale pages):
+  src/content/guides/fr/cruise-shore-excursions-israel.md — Excursions de croisière en Israël (ports
+    Haïfa/Ashdod, Jardins Bahá'í, Akko, Césarée, Nazareth, Jérusalem, Masada+mer Morte, Tel Aviv).
+    verdictName: "les excursions de croisière en Israël". 6 FAQs. abraham + getyourguide + viator CTAs.
+  src/content/guides/de/cruise-shore-excursions-israel.md — Kreuzfahrtausflüge in Israel (Haifa/Aschdod).
+    verdictName: "Kreuzfahrtausflüge in Israel". 6 FAQs. German typographic quotes correct throughout.
+  src/content/guides/fr/israel-base-city-guide.md — Où se baser en Israël (Jérusalem/Tel Aviv/Haïfa/
+    Tibériade/Eilat comparison table, séjours 5–14+ jours). No verdictName/verdictQuery (matches EN).
+    3 Booking CTAs (Jérusalem/Tel Aviv/Haïfa). 5 FAQs. Mur des Lamentations (Kotel) paired naming.
+  src/content/guides/de/israel-base-city-guide.md — Welche Basisstadt in Israel (same structure, DE).
+    Klagemauer (Kotel) paired naming. Grabeskirche, See Genezareth exonyms used correctly.
+  src/content/guides/fr/israel-evening-activities.md — Activités du soir en Israël (Tour de David nuit,
+    Masada son-et-lumière, Festival Lumière Jérusalem juin, Mahane Yehuda après 20h, Kotel nuit,
+    port de Jaffa coucher de soleil, observation étoiles Mitzpe Ramon). 5 FAQs. 2 CTAs (GYG+Viator).
+  src/content/guides/de/israel-evening-activities.md — Abendaktivitäten in Israel (same). Klagemauer
+    (Kotel) paired naming. Bahai-Gärten, Makhtesh Ramon used correctly.
+smoke.spec.ts: +8 routes added (fr/de for all 4 new pairs incl. eilat-diving-snorkeling which was in
+  smoke spec update for this iter). 442 routes total in smoke spec.
+Gate: pnpm check 0 errors · pnpm build 361 pages (+6) · pnpm test:e2e 442/442 pass. GREEN first run.
+Ship: committed f84cedd to master (direct — branch had uncommitted state), pushed.
+Prod: CI in_progress at push (standard).
+fr/de: 73 guides each → 75 locale pages each (home + plan-your-trip + 73 guides). 361 pages total.
+Next: iter 183 = BUILD (183%5==3, technical → fall through to i18n). Remaining batch 18: 10 untranslated guides.
