@@ -2492,3 +2492,42 @@ Mediterranean coastal diving / Caesarea underwater park; historic synagogues vis
 - touristisrael.com/mount-tabor, touristisrael.com/christian-sites-in-galilee
 
 6 net-new items added. Backlog now ~183 ready items.
+
+---
+
+## iter 195 — 2026-06-30 — RESEARCH — Competitor Gap Analysis
+
+**Mode:** RESEARCH (195 % 5 == 0)
+**Competitors scanned:** Tourist Israel, Bein Harim, Lonely Planet Israel, GetYourGuide Israel, Viator Israel, TripAdvisor Israel, Abraham Tours, Israel Travel Guide (Fodor's), travel blogs (two monkeys travel, adventurous miriam)
+
+### Content gaps identified
+
+**1. Jordan Pass guide** — High-intent "Jordan Pass Israel" / "Jordan Pass worth it" queries. Competitors: lonelyplanet.com/jordan/activities/jordan-pass covers it; we have petra-from-israel but no pass-specific guide. Jordan Pass bundles Petra entry + 40+ sites + visa waiver. Monetization via Booking.com Petra hotels + GYG Petra tours. Cross-links: petra-from-israel, petra-from-eilat-vs-amman, petra-tours-compared.
+
+**2. Israel in Autumn guide** — Oct–Nov travel window underserved; queries "visiting Israel October" / "Israel November travel". Hula Valley crane migration (best Nov), grape harvest tourism, Negev hiking reopens post-summer. Jewish holiday timing (Yom Kippur/Sukkot) creates specific trip-planning need. Competitors: touristisrael.com has "best time" seasonal pages; we only have best-time-to-visit-israel.md (generic).
+
+**3. Arab-Israeli culture & food tourism guide** — No site covers this distinct sub-niche for general tourists wanting to experience Arab-Israeli culture (Wadi Nisnas, Nazareth Old City, Old Jaffa, Akko Arab Quarter, Abu Gosh hummus). Distinct from muslim-travel-guide (for Muslim visitors). Natural cross-sell with haifa-travel-guide, jaffa-travel-guide, akko-acre-guide. Competitor gap confirmed: Lonely Planet has scattered mentions; no dedicated guide found.
+
+**4. Israel tour operators compared** — High-intent "Abraham Tours review", "best Israel tour company 2026" queries. Competitors: tripadvisor.com/Attractions-g293977 top-ranked; we have category pages (galilee-tours-compared etc.) but no meta-guide on operators themselves. Compares Abraham Tours, Bein Harim, GYG, Viator, Keshet, IMTA private guides. Highest affiliate revenue potential.
+
+**5. Activity quiz / experience recommender** — Tool gap: we have region quiz but nothing mapping visitor *interests* to activities. 6-question quiz → 5 traveler profiles. Vanilla JS, accessible, Playwright-tested. Distinct from existing tools.
+
+**6. Israel visa eligibility checker** — Country dropdown → ETA-IL eligible / tourist visa required / special cases. High search volume: "do I need a visa for Israel [nationality]". Links to official sources (piba.gov.il, mfa.gov.il). Prominent "requirements change — always verify" disclaimer. Playwright test for 5 nationalities.
+
+### Deduplication confirmed (items NOT added due to existing backlog entries)
+- Israel birding guide — already in backlog iter50 + iter125
+- Solo female travel — SHIPPED iter127
+- Israel group travel guide — in backlog iter145
+- Scuba diving Caesarea — added iter190
+
+**Net-new items added this iteration:** 6
+
+**Sources:**
+- lonelyplanet.com/jordan/activities (Jordan Pass coverage)
+- touristisrael.com/best-time-to-visit-israel (seasonal content benchmarking)
+- tripadvisor.com/Attractions-g293977-Israel (operator rankings)
+- getYourGuide.com/israel-l93/tours, viator.com/Israel/d723 (operator inventory)
+- abraham-tours.com, beinharim.com (operator comparison research)
+- piba.gov.il, mfa.gov.il (visa eligibility verification for honesty caveat)
+- jordanpass.jo (Jordan Pass official product page)
+- hula-agamon.com (Hula Valley crane migration season data)

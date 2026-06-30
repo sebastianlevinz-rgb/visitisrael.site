@@ -3826,3 +3826,21 @@ Ship: commit fbe12a4 to master, pushed. CI triggered; prior runs all success; no
 Next: iter 195 = RESEARCH mode (195%5==0). Top research candidates: Mount Tabor / Tel Megiddo
   (both P2 seo-content items from iter190 research that are ready); check competitor gaps for
   monetization angle (itinerary combo, wellness/spa, self-drive road trip).
+
+## 2026-06-30 · iter 195 · RESEARCH · competitor gap analysis (6 net-new backlog items)
+
+Mode: RESEARCH (195 % 5 == 0). No code shipped.
+
+Competitors scanned: Tourist Israel, Bein Harim, Lonely Planet Israel, GetYourGuide Israel, Viator Israel, TripAdvisor Israel, Abraham Tours, travel blogs (two monkeys travel, adventurous miriam).
+
+6 net-new items added to BACKLOG after deduplication against 180+ existing items:
+  1. /jordan-pass-guide — P2 seo-content+monetization S — high-intent "Jordan Pass worth it" queries; Booking.com Petra CTA
+  2. /israel-in-autumn — P2 seo-content S — Oct-Nov Hula Valley cranes + Jewish holiday timing content gap
+  3. /arab-israeli-culture-guide — P2 seo-content+monetization M — distinct from muslim-travel-guide; Wadi Nisnas/Nazareth/Jaffa/Akko/Abu Gosh
+  4. /israel-tour-operators-guide — P2 monetization+seo-content M — Abraham Tours vs Bein Harim vs GYG vs Viator meta-guide
+  5. /israel-experience-finder — P2 tools S — 6-question activity quiz → 5 traveler profiles + affiliate CTAs
+  6. /israel-visa-checker — P2 tools S — country dropdown → ETA-IL/visa/special-cases; official source links + date caveat
+
+Deduplication confirmed (NOT added): Israel birding (iter50+iter125), solo female travel (SHIPPED iter127), group travel (iter145), Caesarea diving (iter190).
+
+COMPETITORS.md updated. STATE.md bumped to iter 195. Next: 196%5==1 → BUILD. Priority candidates: i18n batch 18 (5 remaining guides) or monetization BUILD item.
