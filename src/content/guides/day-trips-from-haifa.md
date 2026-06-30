@@ -59,6 +59,7 @@ faqs:
 - **[Nazareth](/nazareth-travel-guide)** — *~45–50 min east by car or bus.* The Annunciation Basilica, the old souk and authentic Arab-Israeli restaurants. Best by car or guided tour; direct buses run but are infrequent.
 - **Beit She'arim** — *~30 min east by car.* An often-overlooked UNESCO site: a vast necropolis of Sanhedrin-era catacombs carved into limestone hillsides. Rarely crowded. Covered by the [Israel National Parks Pass](/israel-national-parks-pass).
 - **Tel Megiddo (Armageddon)** — *~40 min south-east by car.* A UNESCO World Heritage mound with 26 layers of civilisation from 7,000 BCE — the site the Book of Revelation named. A haunting, scholarly trip best combined with Beit She'arim.
+- **[Carmel Druze Villages](/druze-villages-carmel)** — *~40 min south by car.* Daliyat el-Carmel market street for Druze pita cooked fresh on the saj, za'atar spice stalls and embroidery, then El-Muhraka Monastery above the Jezreel Valley for one of the best panoramic views in the north. Saturday is the busiest market day. Best by car or guided tour; no convenient direct bus from Haifa.
 
 ## By train or by car?
 
@@ -78,6 +79,7 @@ faqs:
 | Nazareth | ~40 min |
 | Beit She'arim | ~30 min |
 | Tel Megiddo | ~40 min |
+| [Carmel Druze Villages](/druze-villages-carmel) | ~40 min |
 
 For a rental car, compare options at [Discovercars or RentalCars](/car-rental-israel) and book in advance — demand is high in summer.
 

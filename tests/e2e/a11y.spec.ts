@@ -156,6 +156,7 @@ const ROUTES = [
   '/de/free-things-to-do-israel',
   '/yad-vashem-visitor-guide',
   '/haifa-travel-guide',
+  '/druze-villages-carmel',
   '/search',
   '/404',
 ];

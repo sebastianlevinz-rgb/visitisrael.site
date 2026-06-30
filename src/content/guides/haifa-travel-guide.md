@@ -124,7 +124,7 @@ Water quality on Haifa beaches varies seasonally — check the current status at
 
 **Caesarea (45 min south by car or train):** Roman theatre, Herodian harbour and Crusader walls south of Haifa — see the [Caesarea guide](/caesarea-guide).
 
-**Carmel Druze Villages (40 min by car):** Daliyat el-Carmel and Isfiya on the Carmel mountain ridge — Druze market street, pita-and-cheese street food, and the El-Muhraka Carmelite Monastery with a panoramic Jezreel Valley view. No direct public bus; car or organised tour required.
+**[Carmel Druze Villages](/druze-villages-carmel) (40 min by car):** Daliyat el-Carmel and Isfiya on the Carmel mountain ridge — Druze market street, pita-and-cheese street food fresh off the saj, and the El-Muhraka Carmelite Monastery with a panoramic Jezreel Valley view. Saturday is the busiest market day. No direct public bus; car or organised tour required.
 
 **Zichron Yaakov (30 min south by car):** A Rothschild-era winery village with vine-covered stone streets — the birthplace of Israeli wine tourism. Carmel Winery is the main address.
 
