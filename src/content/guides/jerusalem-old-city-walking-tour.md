@@ -138,6 +138,8 @@ Follow the Via Dolorosa or signs through the Christian Quarter to the **Church o
 
 **Photography** is allowed throughout the church, including the Edicule interior.
 
+For a fuller treatment of the Edicule queue, the six-denomination Status Quo and timing tips, see the [Church of the Holy Sepulchre complete visitor guide](/church-holy-sepulchre-guide).
+
 ---
 
 ### Step 7 — Exit and options
@@ -168,7 +170,7 @@ From the Church of the Holy Sepulchre, you have two natural exit routes:
 
 The walking tour works best as a morning activity combined with afternoon Jerusalem experiences:
 
-- **Yad Vashem Holocaust Museum**: book in advance, located west of the city, best visited on a separate day or combined with a morning walking tour by taxi (not walkable from the Old City)
+- **[Yad Vashem Holocaust Museum](/yad-vashem-visitor-guide)**: book in advance, located west of the city, best visited on a separate day or combined with a morning walking tour by taxi (not walkable from the Old City)
 - **Tower of David Museum**: directly at Jaffa Gate entry — a 45-minute stop at the start adds historical context for everything that follows
 - **Mount of Olives viewpoint**: 15 minutes by taxi from the Old City; the panorama above the Dome of the Rock at sunset is Jerusalem's best single view — see the [1-day Jerusalem itinerary](/1-day-jerusalem-itinerary) for how to time it
 - **Mahane Yehuda Market**: 20 minutes by light rail or taxi from Jaffa Gate; evening transformation from market to bar district starts around 8pm
