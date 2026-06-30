@@ -346,3 +346,7 @@ REVIEW audit of i18n batches 18-b and 18-c. Found: 3 DE files from batch 18-c ha
 Religious site care: neutral Status Quo framing; Mur des Lamentations/Kotel (FR), Klagemauer/Kotel (DE).
 Smoke spec +10 routes; a11y spec +5 routes. 390 pages; 490/490 e2e+a11y pass.
 Batch 18 now 100% DONE. fr/de at 87 guides each (89 locale pages each).
+
+## iter 197 · 2026-06-30 · BUILD (seo-content)
+**Layover in Tel Aviv guide** — `0b8c26b` — `/layover-tel-aviv`
+New guide covering 4h/6h/8–10h/24h+ windows from Ben Gurion Airport. Honest ETA-IL caveat (nationality-dependent, links to MFA portal). Dense internal links to airport, Jaffa, transportation, visa pages. Footer + airport guide cross-wired. Affiliate CTAs: welcomepickups, GYG, booking.com.

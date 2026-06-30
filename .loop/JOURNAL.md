@@ -3869,3 +3869,19 @@ Ship: committed all 12 files (10 new content + 2 spec updates) directly to maste
 Prod: CI triggered; auto-deploy to Vercel production.
 Next: iter 197 = BUILD (197%5==2 → seo-content). Top candidates from backlog: Jordan Pass guide,
   Israel in Autumn guide, Arab-Israeli culture guide, Tel Megiddo guide, or next i18n phase (regions).
+
+## 2026-06-30 · iter 197 · BUILD (seo-content) · layover-tel-aviv guide
+
+Mode: BUILD (197%5==2 → seo-content). Selected "Layover in Tel Aviv" from BACKLOG (P2, seo-content, S).
+
+What: New guide /layover-tel-aviv covering 4h / 6h / 8–10h / 24h+ layover tiers from Ben Gurion Airport.
+Tiered content: what's reachable in each window, transport options (train 20min, Shabbat caveat),
+honest ETA-IL/entry note (nationality-dependent; links to Israeli MFA portal — no universal guarantees),
+price ranges only (no fabricated exact prices). Summary comparison table for quick scanning.
+Internal links: airport guide, airport transfers, Jaffa, transportation, visa, Old City, itineraries.
+Discoverability: Footer wired near airport cluster; cross-link added to ben-gurion-airport-guide.md.
+Affiliate CTAs: welcomepickups (transfer), GYG (layover tours), booking.com (layover hotels near TLV).
+
+Gate: pnpm check 0 errors · pnpm build 391 pages (+1) · 492/492 e2e+a11y pass. GREEN.
+Ship: squash-merged to master 0b8c26b, pushed. CI in_progress at write time.
+Next: iter 198 = BUILD (tools). Top candidates: /israel-experience-finder (6-question activity quiz), /israel-visa-checker (country dropdown ETA-IL tool), or /israel-tour-operators-guide.
