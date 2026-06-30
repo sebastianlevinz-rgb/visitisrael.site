@@ -228,6 +228,7 @@ const ROUTES = [
   '/free-things-to-do-israel',
   '/cheap-flights-to-israel',
   '/jerusalem-old-city-walking-tour',
+  '/church-holy-sepulchre-guide',
   '/fr/1-day-jerusalem-itinerary',
   '/de/1-day-jerusalem-itinerary',
   '/fr/israel-tour-packages',
