@@ -3707,3 +3707,19 @@ Fix: changed "start at Station I (near the Umayyad remains by the Chain Gate)" t
 Gate: pnpm check 0 errors (117 files) · pnpm build 377 pages · pnpm test:e2e 469/469 pass. GREEN.
 Ship: committed 790b97a to master, pushed. CI pending at push.
 Next: iter 190 = RESEARCH (190%5==0).
+
+## 2026-06-30 · iter 190 · RESEARCH · Mediterranean diving + synagogue guide + Galilee Christian circuit + helicopter tours + Mount Tabor + Tel Megiddo (NO SHIP)
+Mode: RESEARCH (190%5==0). No code changed; gate not run.
+What: Searched 6 content gap angles not present in the 183-item backlog. De-duped extensively via grep.
+Topics searched: Mediterranean coastal diving / Caesarea underwater park; historic synagogues multi-site visitor circuit; Galilee Christian New Testament sites self-drive loop; Israel helicopter scenic tours; Mount Tabor & Transfiguration site; Tel Megiddo (Armageddon) standalone visitor guide.
+De-duped (confirmed already in backlog): medical tourism (iter55), AHAVA tour (iter40), Eilat Observatory (iter70), Haifa food (iter100), Druze cuisine (iter75+100), Rosh Hanikra standalone (iter85), street art/Florentin (iter125), Christmas (iter45), kibbutz (iter60), Beit She'an (iter135), Nahariya (iter135), wildflowers (iters65+135), Negev stargazing (iter60), Mount Hermon skiing (iters60+145), eco-tourism (iter70), Mitzpe Ramon (iter85), Masada access (iter110), Northern Israel road trip (iter145), Tiberias (SHIPPED iter87), Jerusalem food (SHIPPED iter161), Golan wineries (iter135), Israel wine hub (iter145).
+Findings — 6 net-new BACKLOG items added:
+  1. /israel-mediterranean-diving [P2, seo-content+monetization, M] — world's first underwater archaeological park at Caesarea; PADI operator on-site; Mediterranean dive + snorkel circuit; distinct from eilat-diving-snorkeling.md (Red Sea) and caesarea-guide.md (one sentence only).
+  2. /israel-synagogue-guide [P2, seo-content, M] — multi-site: Hurva (Jerusalem), Four Sephardic complex, Great Synagogue, Abuhav Safed (Kabbalistic), Italian Synagogue (Baroque salvaged from Conegliano Veneto), Beit Alpha (Byzantine floor mosaic); distinct from jewish-heritage-israel.md (broad cultural) and safed-tzfat-guide.md (brief city mentions).
+  3. /galilee-christian-sites-circuit [P2, seo-content+monetization, M] — self-drive day circuit: Capernaum, Tabgha Church of Multiplication (Byzantine mosaic), Church of Beatitudes, Magdala (1st-century synagogue, 2009 excavation), Church of Primacy of Peter, Kursi; DISTINCT FORMAT from christian-pilgrimage-holy-land.md (broad overview) and Jesus Trail backlog (65km hike).
+  4. /israel-helicopter-tours [P3, seo-content+monetization, S] — Israel Sightseeing Helicopters + other operators; Jerusalem/Masada/Sea of Galilee/Negev routes; ₪800–1,500/person; 15–30 min scenic flights; point-to-point charter; luxury-travel-israel.md has exactly 1 sentence.
+  5. /mount-tabor-guide [P2, seo-content+monetization, S] — 575m isolated dome above Jezreel Valley; Basilica of Transfiguration (1924, Barluzzi); Greek Orthodox church; personal cars CANNOT drive to summit (servee/taxi from Daburiyya only); Crusader ruins; combine with Nazareth (10km) + Megiddo (20km); zero prior backlog entry confirmed.
+  6. /tel-megiddo-guide [P2, seo-content+monetization, M] — "Har Megiddo" → "Armageddon" (Revelation 16:16); 26 strata 7,000 years; UNESCO WHS 2005; Solomonic gate; Ahab's water tunnel (walkable); Jezreel Valley panorama; site museum with Megiddo Ivories; 30 min from Haifa; standalone guide distinct from hidden-gems hub + UNESCO hub + dig-for-a-day cluster entries.
+Gate: not run (RESEARCH mode). 377 pages / 469/469 tests last known GREEN (iter189 commit 790b97a).
+Ship: .loop/ memory files only. Commit: docs(loop): advance state iter 190 — RESEARCH 6 items.
+Next: iter 191 = BUILD/monetization (191%5==1). Top monetization item from BACKLOG.

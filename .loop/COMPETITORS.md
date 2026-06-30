@@ -2422,3 +2422,73 @@ Territories) is a genuine gotcha for travelers from any country. 220V/50Hz; Euro
 - nomadicmatt.com/travel-guides/israel-travel-tips/jerusalem (Old City walking route)
 
 7 net-new items added. Backlog now ~177 ready items.
+
+---
+
+## iter190 — 2026-06-30 — RESEARCH
+
+**Mode:** RESEARCH (190%5==0). No code changed. Searched for content gaps not yet covered by the ~183-item backlog.
+
+**Topics searched this iteration:**
+Mediterranean coastal diving / Caesarea underwater park; historic synagogues visitor circuit; Galilee Christian New Testament sites self-drive; Israel helicopter scenic tours; Mount Tabor & Transfiguration; Tel Megiddo standalone visitor guide.
+
+**Items de-duped and confirmed already in backlog (skipped):**
+- Medical tourism (iter55, line 109)
+- AHAVA factory tour (subsumed in Shopping in Israel, iter40)
+- Eilat Underwater Observatory (within Eilat city guide, iter70)
+- Haifa travel guide (lines 56+90, iters 60/70/115 — now dedicated P2 iter180 entry)
+- Haifa food guide (iter100, line 134)
+- Druze cuisine (covered by druze-villages-carmel + haifa-food-guide)
+- Rosh Hanikra standalone (iter85, line 125)
+- Street art / Florentin (iter125, line 326)
+- Christmas in Israel (iter45, line 67)
+- Kibbutz experience (iter60, line 112)
+- Beit She'an (iter135, line 339)
+- Nahariya (iter135, line 340)
+- Spring wildflowers (iters 65+135, lines 98+341)
+- Negev stargazing (iter60, line 113)
+- Mount Hermon skiing (iters 60+145, lines 116+144)
+- Eco/sustainable tourism (iter70, line 101)
+- Mitzpe Ramon (iter85, line 123 — full standalone entry)
+- Masada access guide (iter110, line 300)
+- Northern Israel road trip (iter145, line 142)
+- Tiberias guide (SHIPPED iter87)
+- Jerusalem food guide (SHIPPED iter161)
+- Golan Heights wineries (iter135, line 335)
+- Israel wine tourism hub (iter145, line 141)
+
+**Competitor landscape observed:**
+
+| Competitor | Content angle noted |
+|---|---|
+| caesarea-diving.com | Full dive operator site; ranks for "Caesarea diving Israel"; PADI Old Caesarea Diving Center |
+| biblewalks.com | Comprehensive Megiddo walk-through + Mount Tabor photos + narrative; strong SEO for biblical sites |
+| touristisrael.com | Megiddo National Park guide; Mount Tabor page; Christian sites in Galilee overview; helicopter listing |
+| franciscan-cyberspot.org | Authoritative Tabgha mosaic + Church of Beatitudes + Basilica of Transfiguration coverage |
+| parks.org.il/megiddo | Official INPA Megiddo page; limited visitor narrative but authoritative logistics |
+| getyourguide.com / viator.com | Helicopter Israel tour listings; Galilee Christian sites day-tour listings; "Capernaum Tabgha Beatitudes" tours |
+| jewishquarter.org.il | Hurva Synagogue + Four Sephardic Synagogues official site — authoritative logistics source |
+| tripadvisor.com | #2–#5 rankings for "Galilee Christian sites day trip"; #1 ranking for "things to do Caesarea snorkeling" |
+
+**Key findings:**
+- Mediterranean diving: Caesarea Underwater National Park is a genuine world-first (1994); caesarea-guide.md has only one sentence; clear gap vs. comprehensive competitors.
+- Synagogue guide: No multi-site guide exists despite Hurva, Four Sephardic, Abuhav, and Beit Alpha all being high-intent visitor sites; competitor gap confirmed vs. touristisrael.com/jewish-quarter-synagogues.
+- Galilee Christian circuit: Distinct format (self-drive day loop) vs. existing christian-pilgrimage-holy-land.md (broad overview) and Jesus Trail backlog (65km hike). Capernaum + Tabgha loaves mosaic = high-value content with competitor coverage by GYG and franciscan-cyberspot.
+- Helicopter tours: Only one sentence on site; GYG + Viator both have Israel helicopter listings; luxury-travel-israel.md cross-link creates natural funnel but no guide captures the search volume.
+- Mount Tabor: Zero backlog entry confirmed by grep; only mention on site is adventure-sports.md line 130 in balloon context. Strong Christian pilgrimage + Galilee itinerary cross-sell angle; Barluzzi architect connection (same as Tabgha + Dominus Flevit) adds interest for architecture visitors.
+- Tel Megiddo: Confirmed zero standalone guide; Megiddo appears only in 3 cluster entries (hidden gems, UNESCO hub, archaeology dig). "Armageddon" hook drives secular and Christian tourist traffic; biblewalks.com has comprehensive coverage we lack; water tunnel walk = genuinely distinctive experience.
+
+**Net-new items added this iteration:** 6
+
+**Sources:**
+- caesarea-diving.com (PADI Old Caesarea Diving Center booking page)
+- parks.org.il/megiddo, biblewalks.com/Megiddo, touristisrael.com/megiddo-national-park
+- franciscan-cyberspot.org (Tabgha Church of Multiplication + Beatitudes + Basilica of Transfiguration Mount Tabor)
+- biblewalks.com/Tabor, tripadvisor.com/Attraction_Review-g297702-Mount_Tabor
+- jewishquarter.org.il (Hurva + Four Sephardic official logistics)
+- israelnationalparks.org/beit-alpha (Beit Alpha Synagogue)
+- getyourguide.com/israel-l93/helicopter-tours-tc228, viator.com/Israel/d723
+- traveltriangle.com/blog/scuba-diving-in-israel, snorkeling-report.com/israel
+- touristisrael.com/mount-tabor, touristisrael.com/christian-sites-in-galilee
+
+6 net-new items added. Backlog now ~183 ready items.
