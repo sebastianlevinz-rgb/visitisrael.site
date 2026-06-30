@@ -3925,3 +3925,27 @@ and 'and booking links' from tail. Branch: auto/review-199-desc-fix.
 Gate: pnpm check 0 errors · pnpm build 392 pages · pnpm test:e2e 498/498 pass. GREEN.
 Ship: committed aa9c453 to master, pushed. CI in_progress at state-write time.
 Next: iter 200 = RESEARCH mode (200%5==0).
+
+## 2026-06-30T19:15Z · iter 200 · RESEARCH · 7 new backlog items
+
+Mode: RESEARCH (200%5==0). Consulted 10 sources across IMJ.org.il, lonelyplanet, tripadvisor,
+touristisrael.com, tod.org.il, global-blue.com, timeout.com/tel-aviv, wwhf.org.il, theisraelguide.com,
+taxfreeisrael.co.il.
+
+Deduplication: 100+ existing BACKLOG entries checked via targeted grep. Confirmed 8 candidates were
+already present (Jerusalem neighborhoods, digital nomad, Dead Sea minerals, Mitzpe Ramon, Caesarea
+scuba, Haifa, birding, solo female travel) and excluded them.
+
+Net-new gaps confirmed (7):
+1. Israel Museum Jerusalem — #2 Jerusalem attraction; zero standalone IMJ content on site. 2,400 SV/mo.
+2. Israel in Spring — seasonal complement to /israel-in-autumn (iter195). 1,900 SV/mo.
+3. Golan Heights practical guide — region hub stub exists but no visitor guide. 2,100 SV/mo.
+4. Western Wall Tunnels — booking complexity makes dedicated guide high-value. 1,600 SV/mo.
+5. Tower of David Museum (daytime) — distinct from Night Spectacular. 1,400 SV/mo.
+6. Israel VAT refund — 17% VAT at Ben Gurion; no consumer-friendly explainer on site. 1,800 SV/mo.
+7. Tel Aviv street art — Florentin/Broken Fingaz; link-bait + social amplification. 900 SV/mo.
+
+BACKLOG: 7 entries appended (tagged [iter200 research], all status: ready).
+COMPETITORS.md: iter200 section added.
+Gate: N/A (research iteration — no code/content shipped).
+Next: iter 201 = BUILD mode (201%5==1 → monetization).

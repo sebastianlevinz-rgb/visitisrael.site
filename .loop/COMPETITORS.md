@@ -2531,3 +2531,64 @@ Mediterranean coastal diving / Caesarea underwater park; historic synagogues vis
 - piba.gov.il, mfa.gov.il (visa eligibility verification for honesty caveat)
 - jordanpass.jo (Jordan Pass official product page)
 - hula-agamon.com (Hula Valley crane migration season data)
+
+---
+
+## iter 200 — 2026-06-30 — RESEARCH
+
+### Sources consulted
+- imj.org.il (Israel Museum Jerusalem official site — ticket prices, exhibits, opening hours)
+- lonelyplanet.com/israel/jerusalem/attractions (Jerusalem attraction rankings)
+- touristisrael.com/best-time-to-visit-israel (seasonal breakdown including spring)
+- tripadvisor.com/Attraction_Review-g293977 (visitor reviews — Western Wall Tunnels, Tower of David)
+- theisraelguide.com/golan-heights (Golan Heights attractions overview)
+- english.tod.org.il (Tower of David Museum official — ticket prices, hours)
+- global-blue.com/en/tax-free-shopping/israel (VAT refund operator documentation)
+- taxfreeisrael.co.il (domestic VAT refund operator)
+- timeout.com/tel-aviv/things-to-do/street-art-tel-aviv (Florentin & street art coverage)
+- wwhf.org.il (Western Wall Heritage Foundation — tunnels tour booking)
+
+### Competitor findings
+
+**1. Israel Museum Jerusalem** — tripadvisor.com ranks it #2 attraction in Jerusalem; lonelyplanet
+gives full editorial treatment (Shrine of the Book, Second Temple Period Model, Impressionist wing).
+visitjerusalemsites.com has an IMJ page (330 words, thin). We have zero standalone IMJ content.
+Opportunity: 2,400 SV/mo "Israel Museum Jerusalem", strong Viator/GYG tour affiliate hooks.
+
+**2. Israel in Spring** — touristisrael.com covers spring as best-time-to-visit but has no dedicated
+/israel-in-spring landing page. We ship /israel-in-autumn (iter195). Seasonal symmetry + wildflower
+season (anemones Feb–Apr, late snowfall on Hermon) differentiates from autumn. 1,900 SV/mo.
+
+**3. Golan Heights practical guide** — theisraelguide.com has a Golan page (450 words, no itinerary,
+no affiliate CTAs). We have a /regions/golan-heights hub stub but no visitor guide. Banias Waterfall,
+Gamla Eagle Lookout, Nimrod Fortress, Golan Heights Winery — all underserved. 2,100 SV/mo.
+
+**4. Western Wall Tunnels** — wwhf.org.il is the only authoritative source; no major travel publisher
+has written a proper visitor guide. Most content is a brief paragraph within a broader Jerusalem
+attractions list. Advance-booking complexity (WWHF only; exits via Via Dolorosa) makes a dedicated
+guide high-value. 1,600 SV/mo "Western Wall Tunnels tour".
+
+**5. Tower of David Museum** — english.tod.org.il has the official page; tripadvisor reviews are
+strong (4.5, 14k reviews). We cover the Night Spectacular (iter139 evening-activities) but have no
+daytime museum guide. ₪50–60 entry, accessible via Jaffa Gate. 1,400 SV/mo.
+
+**6. Israel VAT refund** — global-blue.com and taxfreeisrael.co.il provide the mechanics, but no
+major Israel travel publisher has a consumer-friendly explainer. Our /israel-shopping-guide mentions
+VAT in passing. Full guide (17% VAT, ₪400/receipt minimum, desk at Ben Gurion T3) is a clear gap
+with strong search intent: "Israel VAT refund tourists", "Israel tax refund airport". 1,800 SV/mo.
+
+**7. Tel Aviv street art** — timeout.com/tel-aviv has a list article (top 10 murals); we have
+nothing. Florentin district, Broken Fingaz Crew, Dizengoff walls. Visual, shareable, link-bait.
+Lower commercial intent but good for link acquisition and social amplification. 900 SV/mo.
+
+### Deduplication confirmed (items NOT added — already in backlog or DONE)
+- Jerusalem Old City walking routes — SHIPPED iter055
+- Tel Aviv beaches guide — SHIPPED iter012
+- Jerusalem neighborhoods guide — in backlog iter170
+- Digital nomad guide — in backlog iter145
+- Dead Sea minerals / skin care — in backlog iter175
+- Mitzpe Ramon crater guide — in backlog iter180
+- Scuba diving Caesarea — in backlog iter190
+- Hiking in Israel — in backlog iter015
+
+**Net-new items added this iteration:** 7
