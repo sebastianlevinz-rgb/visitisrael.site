@@ -3786,3 +3786,13 @@ Ship: committed 991b8f1 to master, pushed. CI runs 28443165098 (CI) + 2844316505
 — Lighthouse completed success; CI in_progress at e2e step (type-check + build already success).
 Prod: standard pipeline; no revert triggered. Previous runs all success.
 Next: iter 193 = BUILD/tools (193%5==3).
+
+## 2026-06-30T12:44:17Z · iter 193 · BUILD (tools→seo-content fallthrough) · /druze-villages-carmel
+
+Mode: BUILD/tools (193%5==3). Tools category fully exhausted (all 11 tool pages shipped); fell through to seo-content per playbook rule.
+Item: P2/S seo-content — Mount Carmel Druze Villages guide (/druze-villages-carmel).
+What: New standalone guide for Daliyat el-Carmel and Isfiya — Israel's most accessible Druze destination, 40 min from Haifa. Carmel villages were mentioned in 3 places across the site but had no standalone editorial depth. Content: Druze community intro (monotheistic faith, khalwat photography rules, no-doctrine-probing); Daliyat el-Carmel market street (za'atar, spices, embroidery, honey, Druze Heritage Museum); Druze pita on the saj (Saturday = busiest); Isfiya (Haifa Bay panorama, maqlouba); Carmel National Park trailheads; El-Muhraka Carmelite Monastery (1 Kings 18 Elijah site, expansive Jezreel Valley rooftop panorama, restricted hours caveat); transport (car recommended; no convenient direct bus); recommended full-day Haifa+Druze combo. 7 FAQs. 3 affiliate CTAs: GYG Haifa+Druze, Viator northern Israel, Booking.com Haifa. Cross-links updated: haifa-travel-guide → /druze-villages-carmel (direct link replacing bare mention); day-trips-from-haifa → /druze-villages-carmel added to list + car table. Broken link caught by gate: /golan-druze-villages → fixed to /golan/druze-villages (attraction URL pattern). smoke.spec.ts +1; a11y.spec.ts +1.
+Gate: pnpm check 0 errors · pnpm build 380 pages (+1) · 475/475 e2e+a11y pass. GREEN on second run (first run caught broken link; fixed in one focused edit, re-gated GREEN).
+Ship: squash-merged to master, commit 1c842fa, pushed origin/master.
+Prod: CI triggered; previous runs all success; no revert triggered.
+Next: iter 194 = REVIEW mode (194%5==4).
