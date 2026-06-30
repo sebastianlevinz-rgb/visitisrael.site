@@ -143,6 +143,12 @@ const ROUTES = [
   '/day-trips-from-haifa',
   '/israel-evening-activities',
   '/1-day-jerusalem-itinerary',
+  '/fr/1-day-jerusalem-itinerary',
+  '/de/1-day-jerusalem-itinerary',
+  '/fr/israel-tour-packages',
+  '/de/israel-tour-packages',
+  '/fr/petra-tours-compared',
+  '/de/petra-tours-compared',
   '/search',
   '/404',
 ];

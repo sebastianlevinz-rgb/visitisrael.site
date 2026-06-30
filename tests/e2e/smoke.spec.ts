@@ -227,6 +227,12 @@ const ROUTES = [
   '/1-day-jerusalem-itinerary',
   '/free-things-to-do-israel',
   '/cheap-flights-to-israel',
+  '/fr/1-day-jerusalem-itinerary',
+  '/de/1-day-jerusalem-itinerary',
+  '/fr/israel-tour-packages',
+  '/de/israel-tour-packages',
+  '/fr/petra-tours-compared',
+  '/de/petra-tours-compared',
   '/search',
 ];
 
