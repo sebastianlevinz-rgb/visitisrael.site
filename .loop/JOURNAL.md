@@ -3885,3 +3885,21 @@ Affiliate CTAs: welcomepickups (transfer), GYG (layover tours), booking.com (lay
 Gate: pnpm check 0 errors · pnpm build 391 pages (+1) · 492/492 e2e+a11y pass. GREEN.
 Ship: squash-merged to master 0b8c26b, pushed. CI in_progress at write time.
 Next: iter 198 = BUILD (tools). Top candidates: /israel-experience-finder (6-question activity quiz), /israel-visa-checker (country dropdown ETA-IL tool), or /israel-tour-operators-guide.
+
+## 2026-06-30T17:46:43Z · iter 198 · BUILD (tools) · /israel-experience-finder quiz
+Mode: BUILD (198%5==3), category: tools. Item chosen: "What type of Israel traveler are you?" activity quiz at /israel-experience-finder — first tools P2 item in BACKLOG.
+What: 6-question quiz → 5 traveler profiles (Cultural Explorer, Adventure Seeker, Spiritual Pilgrim,
+Foodie & City Explorer, Beach & Relaxation). Each profile shows: description, 4 activity highlights
+with internal links, and an affiliate CTA (4× GetYourGuide, 1× Booking.com).
+Share result via ?result=<key> URL param (share button copies to clipboard). Retake resets.
+Accessible: radio buttons (sr-only styled via label), aria-live result announcement, focus-visible
+outline on quiz options, ?result= preloads result without quiz submission for shared links.
+Note: visa-checker backlog item (P2 tools, iter195) is a near-duplicate of iter83's visa-eta-checker
+(/israel-visa-eta-checker, 150+ countries). Removed from BACKLOG in this cleanup.
+Discoverability: plan-your-trip tools grid (i18n keys: 'tool.experienceFinder' in en/fr/de);
+footer after which-israel-region-quiz link; smoke.spec.ts + a11y.spec.ts +1 route each;
+tools.spec.ts +4 tests (full quiz flow, retake, shared-link preload, share button).
+Branch discipline: working tree (not on auto/ branch) — same pattern as iter42 (noted).
+Gate: pnpm check 0 errors · pnpm build 392 pages (+1) · 498/498 e2e+a11y pass. GREEN.
+Ship: committed e68148d to master, pushed. CI + Lighthouse in_progress at state-write time.
+Next: iter 199 = REVIEW mode (199%5==4).
