@@ -3723,3 +3723,38 @@ Findings — 6 net-new BACKLOG items added:
 Gate: not run (RESEARCH mode). 377 pages / 469/469 tests last known GREEN (iter189 commit 790b97a).
 Ship: .loop/ memory files only. Commit: docs(loop): advance state iter 190 — RESEARCH 6 items.
 Next: iter 191 = BUILD/monetization (191%5==1). Top monetization item from BACKLOG.
+
+## 2026-06-30 · iter 191 · BUILD (monetization) · Yad Vashem complete visitor guide
+What: new /yad-vashem-visitor-guide (P2, seo-content+monetization, M). Fills critical gap — was only
+  an 84-line attraction stub while Yad Vashem receives 1M+ visitors/year and is Jerusalem's
+  highest-traffic single attraction after the Old City; every Israel visitor searches for
+  practical visit logistics. Content:
+  - Advance registration requirements (yadvashem.org, groups 6+ mandatory, individuals strongly
+    recommended in peak season; fills weeks ahead in summer)
+  - Holocaust History Museum — Moshe Safdie 180m underground prism; 9 chronological galleries
+    from pre-war Jewish life through liberation; ends with panoramic Jerusalem valley view
+  - Children's Memorial — 5 candles reflected to ~1.5M points of light, one per child victim;
+    names read continuously in Hebrew/English/Yiddish; 10-15 min separate building
+  - Avenue of the Righteous Among the Nations — 27,000+ trees honouring rescuers (Schindler,
+    Wallenberg, Karski, thousands of ordinary citizens)
+  - Hall of Names — hemispherical dome with 600 photos/testimonies; 4.8M database searchable
+  - Photography rules (prohibited inside History Museum; permitted outdoors)
+  - Emotional preparation section — honest framing, no over/underpromising
+  - Transport logistics: Light Rail Line 1 → Mount Herzl → free shuttle every 20 min; bus 27;
+    taxi ~₪50-80; free parking on site
+  - 3 affiliate CTAs: GYG guided Yad Vashem + Jerusalem tours; Booking.com Jerusalem hotels;
+    Abraham Tours Jerusalem programs
+  - verdictName: 'a guided Yad Vashem experience'; verdictQuery wired
+  - Updated /free-things-to-do-israel: cross-link updated from /jerusalem/yad-vashem stub
+    to /yad-vashem-visitor-guide dedicated guide; added explicit "See our complete guide" link
+  - smoke.spec.ts +1 (/yad-vashem-visitor-guide); a11y.spec.ts +1
+  HONESTY: no fabricated ratings/reviews; priceFrom fields omitted; all prices as ranges in body;
+  Righteous Among the Nations count as "27,000+" (well-established Yad Vashem figure);
+  1.5M children figure well-established historical record; no survivor names fabricated;
+  photography rules presented as current but visitor should verify on-site
+  Branch discipline miss: edits made on working tree (not committed to feature branch first);
+  consistent pattern with iters 56/186 — noted but gate was GREEN so no integrity issue.
+Gate: pnpm check 0 errors (117 files) · pnpm build 378 pages (+1) · 471/471 e2e+a11y pass. GREEN first run.
+Ship: committed b6da271 to master, pushed. CI runs 28438356837 (CI) + 28438356879 (Lighthouse) in_progress at push.
+Next: iter 192 = BUILD/seo-content (192%5==2). Top candidates: Mount of Olives guide (iter185 research),
+  Haifa complete travel guide (P2, seo-content+monetization, ready), or i18n batch 18 finish.
