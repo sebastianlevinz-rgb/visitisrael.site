@@ -157,6 +157,11 @@ const ROUTES = [
   '/yad-vashem-visitor-guide',
   '/haifa-travel-guide',
   '/druze-villages-carmel',
+  '/church-holy-sepulchre-guide',
+  '/fr/church-holy-sepulchre-guide',
+  '/de/church-holy-sepulchre-guide',
+  '/fr/jerusalem-old-city-walking-tour',
+  '/de/jerusalem-old-city-walking-tour',
   '/search',
   '/404',
 ];

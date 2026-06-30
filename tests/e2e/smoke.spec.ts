@@ -246,6 +246,16 @@ const ROUTES = [
   '/de/israel-zimmer-guide',
   '/fr/free-things-to-do-israel',
   '/de/free-things-to-do-israel',
+  '/fr/petra-from-eilat-vs-amman',
+  '/de/petra-from-eilat-vs-amman',
+  '/fr/private-tours-israel',
+  '/de/private-tours-israel',
+  '/fr/cheap-flights-to-israel',
+  '/de/cheap-flights-to-israel',
+  '/fr/church-holy-sepulchre-guide',
+  '/de/church-holy-sepulchre-guide',
+  '/fr/jerusalem-old-city-walking-tour',
+  '/de/jerusalem-old-city-walking-tour',
   '/search',
 ];
 
