@@ -94,6 +94,8 @@ The main duty-free is operated by **James Richardson** across a large footprint 
 
 There is also a **James Richardson arrivals store** before passport control, stocked with alcohol, tobacco, and confectionery. This is a convenient option if you want duty-free on the way in rather than carrying bottles through your trip.
 
+**VAT refund desk:** Tourists who made qualifying city purchases (₪400+ per receipt at participating stores) can claim Israel's 17% VAT back before departing. The Global Blue, Planet, and TaxFree Israel counters are in the Terminal 3 departures hall before the security checkpoint. Arrive 30 minutes earlier than usual if you have forms to process. See the [Israel VAT refund guide](/israel-vat-refund) for the full process.
+
 ## Terminal facilities
 
 - **Wi-Fi**: free throughout Terminal 3 departures and arrivals; connect to the airport network and accept the terms page.

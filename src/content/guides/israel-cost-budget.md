@@ -44,3 +44,5 @@ Israel is not a budget destination — costs sit closer to Western Europe than t
 ## Tips to spend less
 
 Travel in the **shoulder seasons** (see our [best-time guide](/best-time-to-visit-israel)), eat from markets and bakeries, lean on **public transport**, prioritise the many **free sites**, and book hotels and tours early to dodge holiday surges. Then start planning with our [itineraries](/itineraries).
+
+**Reclaim Israel's 17% VAT.** Tourists who spend ₪400 or more on a single receipt at a participating city store can reclaim a portion of the VAT at Ben Gurion Airport before departure. The net return is typically 5–11% of the purchase price — worthwhile on Dead Sea cosmetics or Judaica. See the [Israel VAT refund guide](/israel-vat-refund).

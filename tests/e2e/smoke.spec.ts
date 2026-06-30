@@ -259,6 +259,7 @@ const ROUTES = [
   '/layover-tel-aviv',
   '/israel-experience-finder',
   '/search',
+  '/israel-vat-refund',
 ];
 
 for (const route of ROUTES) {
