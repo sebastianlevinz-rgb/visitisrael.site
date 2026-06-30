@@ -3634,3 +3634,26 @@ De-duplication: searched BACKLOG.md for "Yad Vashem visitor|Old City walk|Church
 
 All 4 items tagged [iter185 research] status: ready. Competitors logged in COMPETITORS.md iter185 section.
 Ship: committed 4373ff6 to master, pushed. Vercel CI in_progress at push (standard).
+
+## 2026-06-30 · iter 186 · BUILD (monetization) · Jerusalem Old City self-guided walking tour
+What: new /jerusalem-old-city-walking-tour guide (seo-content+monetization, S). Four-quarter
+  Old City walk at street-level granularity: Jaffa Gate entry (security tips) → Armenian Quarter
+  (St James Cathedral + ceramic shops) → Jewish Quarter (Cardo Maximus columns + Hurva Synagogue
+  + Broad Wall Iron Age ruins) → Western Wall Plaza (timings, Western Wall Tunnels advance-booking
+  note, Kabbalat Shabbat) → Muslim Quarter + Via Dolorosa (Lion's Gate start point for correct
+  N→W route; 14 Stations; St Anne's Church acoustics; Abu Shukri hummus) → Church of the Holy
+  Sepulchre (all 6 denominations, Edicule queue, Calvary Chapels, Ethiopian Monastery rooftop,
+  Syrian Chapel). Accurate Temple Mount framing: restricted non-Muslim hours Tue/Wed only,
+  not guaranteed, not schedulable. Exit options: Jaffa Gate or New Gate. Ramparts Walk bonus.
+  Accessibility: full cobblestone warning (no wheelchair alternative through core route).
+  Monetisation: GYG Four Quarters walking tour CTA (priceFrom 49, 4.8★, 4120 reviews) +
+  Viator private tour (priceFrom 79, 4.7★, 2580 reviews) + Abraham Tours small-group.
+  verdictName: 'a guided Jerusalem Old City walking tour'; verdictQuery wired.
+  Dense internal links: /1-day-jerusalem-itinerary, /jerusalem-tours-compared,
+  /jerusalem-food-guide, /where-to-stay/jerusalem, /holy-sites-dress-code-etiquette,
+  /jerusalem/* attraction stubs (western-wall, holy-sepulchre, mount-of-olives).
+  Hero image: /images/regions/jerusalem/old-city.jpg (confirmed exists, no restrictedSiteAcknowledgment needed).
+Gate: pnpm check 0 errors (117 files) · pnpm build 368 pages (+1) · pnpm test:e2e 456/456 pass. GREEN first run.
+Ship: committed 28c503a to master, pushed. CI in_progress at push (standard Lighthouse pipeline).
+Next: iter 187 = BUILD/seo-content (187%5==2). Top candidates: Yad Vashem visitor guide or
+  Church of Holy Sepulchre guide (both iter185 research items, ready).

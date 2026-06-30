@@ -317,3 +317,8 @@ New monetization guide /cheap-flights-to-israel. Covers: when to book (20–26 w
 
 ## iter 184 · 4373ff6 · REVIEW · Fix ASCII digraph umlauts in 3 DE batch-18 guides
 REVIEW audit of i18n batches 18-b and 18-c. Found: 3 DE files from batch 18-c had systematic ASCII digraph substitutions (ae/oe/ue) instead of proper German umlauts (ä/ö/ü/ß) — de/1-day-jerusalem-itinerary.md, de/israel-tour-packages.md, de/petra-tours-compared.md. The other 3 DE batch-18 files (cruise-shore-excursions, israel-base-city-guide, israel-evening-activities) already had correct umlauts. Also confirmed: hreflang auto-generated correctly; all FR/DE locale cross-links resolve to existing pages; AffiliateCard ignores rating/reviews frontmatter fields (not rendered to users); paired naming correct throughout FR and DE. Gate: 0 check errors, 367 pages, 454/454 e2e+a11y pass. Pushed 4373ff6.
+
+## iter186 — Jerusalem Old City self-guided walking tour
+- SHA: 28c503a
+- Route: /jerusalem-old-city-walking-tour
+- Value: Four-quarter Old City walk at street level (Jaffa Gate → Armenian → Jewish Quarter → Western Wall → Muslim Quarter/Via Dolorosa → Holy Sepulchre). GYG/Viator/Abraham CTAs; verdictName wired; 456/456 tests pass; 368 pages. TripAdvisor #1 most-booked Jerusalem activity captured.
