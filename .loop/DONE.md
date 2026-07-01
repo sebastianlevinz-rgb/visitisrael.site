@@ -378,3 +378,6 @@ Value: fills top-5 Jerusalem bucket-list experience gap; captures "Kotel tunnels
 - Value: Fills the #2-reviewed Jerusalem attraction gap (TripAdvisor 15,000+ reviews); distinct
   from israel-evening-activities (Night Spectacular only); daytime museum + Night Spectacular
   covered separately; TourVerdict + 2 affiliate CTAs; corrects stale ₪30 price in walking tour.
+
+## iter 209 — REVIEW — meta desc fix — aa0f655
+Audited iter206-208 guides; fixed over-length meta descriptions on tower-of-david-guide (218→141 chars) and western-wall-tunnels-guide (217→143 chars). Both now under 160-char SEO limit. No dead links, images verified, titles within 65 chars.

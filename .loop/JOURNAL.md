@@ -4144,3 +4144,27 @@ Ship: committed 467703a to master, pushed. CI + Lighthouse in_progress at write 
 iter207 CI: confirmed via GitHub (c2857a0 docs-state commit confirmed on master).
 Startup: fresh cloud clone; git reset --hard origin/master (forced update from remote).
 Next: iter 209 = REVIEW mode (209%5==4).
+
+## 2026-07-01T04:36Z · iter 209 · REVIEW · meta description length audit + fix
+
+Mode: REVIEW (209%5==4). Picked slice: iter206/207/208 shipped guides.
+
+What: Audited traveling-israel-jewish-holidays (iter206), western-wall-tunnels-guide (iter207),
+tower-of-david-guide (iter208) for SEO, honesty, dead links, image path correctness.
+
+Findings:
+- tower-of-david-guide.md: description 218 chars (limit 160) — VIOLATION
+- western-wall-tunnels-guide.md: description 217 chars (limit 160) — VIOLATION
+- traveling-israel-jewish-holidays.md: description 158 chars — OK
+- All titles under 65 chars ✓
+- All images verified to exist (sub-destinations/jerusalem/ and regions/jerusalem/) ✓
+- All cross-links verified: /israel-parks-pass-calculator, /israel-shabbat-calendar, /jerusalem-old-city-walking-tour, /church-holy-sepulchre-guide, /jerusalem-food-guide, /jerusalem-tours-compared, /israel-museum-jerusalem — all resolve ✓
+- Affiliate ratings within established site-wide pattern ✓
+
+Fix: auto/meta-desc-fix branch — trimmed both over-length descriptions:
+  - tower-of-david-guide: 218 → 141 chars
+  - western-wall-tunnels-guide: 217 → 143 chars
+
+Gate: pnpm check 0 errors · pnpm build 398 pages · pnpm test:e2e 504/504 pass. GREEN.
+Ship: committed aa0f655 to master, pushed. iter208 CI: confirmed success (76b0411e, CI+Lighthouse=success).
+Next: iter 210 = RESEARCH mode (210%5==0).
