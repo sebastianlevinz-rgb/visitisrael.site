@@ -4168,3 +4168,31 @@ Fix: auto/meta-desc-fix branch — trimmed both over-length descriptions:
 Gate: pnpm check 0 errors · pnpm build 398 pages · pnpm test:e2e 504/504 pass. GREEN.
 Ship: committed aa0f655 to master, pushed. iter208 CI: confirmed success (76b0411e, CI+Lighthouse=success).
 Next: iter 210 = RESEARCH mode (210%5==0).
+
+## 2026-07-01T05:00Z · iter 210 · RESEARCH · competitor gap scan — 5 net-new items
+
+Mode: RESEARCH (210%5==0). Exhaustive competitor gap analysis.
+
+Scope: Checked 40+ candidate topics against BACKLOG.md (513 lines, 160+ ready items from iter5–iter205)
+and all 99 shipped guides in src/content/guides/. Used grep with 2-4 keyword variants per candidate
+to detect synonyms and related entries before adding.
+
+Net-new items confirmed (not in backlog or shipped):
+1. /pet-friendly-israel (P2, M) — MOA pet import requirements, Hilton Dog Beach TLV, pet-friendly hotels,
+   El Al cabin rules for pets under 8kg, vet access, summer heat protocols. Zero coverage on touristisrael.com.
+2. /netanya-guide (P2, S) — Israel's 4th city, 60k+ French-speaking residents, 14km Mediterranean beach,
+   diamond district (Stern Diamond Factory), 45 min TLV by Israel Railways coastal line.
+3. /israel-with-baby (P2, S) — Distinct from shipped israel-with-kids.md (covers 2-12 age). Targets 0-18mo:
+   ETA-IL for infants (own passport required), nursing rooms Ben Gurion T3, stroller logistics Jerusalem
+   Old City cobblestones, Israeli formula brands, Terem English-speaking clinics.
+4. /israel-by-train (P3, S) — Distinct from tel-aviv-light-rail.md (TLV metro). Intercity Israel Railways:
+   TLV→Jerusalem 28 min, Ben Gurion Airport tunnel, Rav-Kav for trains, Shabbat shutdown, cities off rail
+   (Eilat, Safed, Tiberias), rail.co.il English booking.
+5. /herodion-guide (P2, S) — Herod the Great's only confirmed burial site (discovered 2007 by Ehud Netzer);
+   INPA national park 12km from Jerusalem; differentiated from Masada (Herodium=Herod himself, Masada=Revolt);
+   8+ GYG tours; was only a bullet in hidden-gems hub backlog (iter45), no standalone guide.
+
+De-duped 35+ candidates already in backlog or shipped.
+iter209 CI confirmed success (aa0f655) at session start.
+No code shipped this iteration. BACKLOG.md + COMPETITORS.md + STATE.md updated; commit+pushed to master.
+Next: iter 211 = BUILD mode (211%5==1, monetization rotation category).

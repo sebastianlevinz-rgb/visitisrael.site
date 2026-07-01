@@ -2668,3 +2668,68 @@ SV/mo.
 - Haifa travel guide — already in backlog
 
 **Net-new items added this iteration:** 6
+
+---
+
+## iter210 — 2026-07-01 — RESEARCH — 5 net-new competitor gap items
+
+### Methodology
+Checked 40+ candidate topics against BACKLOG.md (513 lines, 160+ ready items from iter5–iter205). Used
+targeted `grep -in` with 2–4 keyword variants per topic to detect synonyms and related entries. Compared
+against all shipped guides in src/content/guides/ (99 guides) using glob + grep.
+
+### Competitor gaps identified
+
+**1. Pet-friendly Israel** — touristisrael.com has NO dedicated page for pet travel; backpackisrael.com
+has one brief paragraph in general logistics; thepointsguy.com + dogfriendly.com have generic
+international content not Israel-specific. Israel MOA pet import requirements (microchip + rabies titre
+test + 3+ months prep) are uniquely stringent and poorly documented for tourists. Tel Aviv's Hilton Dog
+Beach is internationally ranked. Zero dedicated coverage in our 99 shipped guides or 160 backlog items.
+Added as /pet-friendly-israel (P2, M).
+
+**2. Netanya guide** — touristisrael.com and lonelyplanet.com/israel each have ~400-word overview pages
+with no practical depth. No dedicated guide in our backlog despite Netanya being Israel's 4th city
+(220,000 pop), 45 min from TLV by train, home to 60,000+ French-speaking residents (the largest
+French Jewish community outside France/Belgium), and world-class diamond industry. Added as
+/netanya-guide (P2, S).
+
+**3. Israel with baby/infant** — no dedicated competitor coverage found for 0–18 month travel; parenting
+blogs (babycenter.com/travel) have scattered posts but no structured guide. Israel-specific infant ETA-IL
+requirements, stroller logistics on Jerusalem Old City cobblestones, and Super-Pharm formula availability
+are undocumented in English-language travel guides. Our shipped israel-with-kids.md covers 2–12 age
+range; this is a distinct 0–18 month segment. Added as /israel-with-baby (P2, S).
+
+**4. Israel intercity rail guide** — rome2rio.com and seat61.com/israel have generic rail info; neither
+covers Rav-Kav for trains, Shabbat shutdown impact, or the TLV→Jerusalem 28-min route via Ben Gurion
+tunnel in depth. Our shipped tel-aviv-light-rail.md covers TLV metro only; transportation.md covers
+all modes briefly. No intercity rail standalone guide anywhere on site or in backlog. Added as
+/israel-by-train (P3, S).
+
+**5. Herodion (Herodium) visitor guide** — nationalgeographic.com/history covered the 2007 Herod tomb
+discovery; Wikipedia article is comprehensive but not tourist-oriented. GetYourGuide lists 8+ Herodion
+day tours from Jerusalem. Our existing content: one bullet in hidden-gems hub backlog entry (iter45);
+no standalone guide in backlog or shipped. Herodium = Herod the Great's only confirmed burial site,
+12km from Jerusalem, INPA-managed, high GYG tour volume, and clearly differentiated from Masada.
+Added as /herodion-guide (P2, S).
+
+### Deduplication confirmed (candidates checked and rejected — already covered)
+wine/wineries (backlog iter40), cooking classes (SHIPPED iter42), birdwatching (backlog iter55),
+cycling (backlog iter50), kibbutz stay (backlog iter65), Bar/Bat Mitzvah (SHIPPED iter63), digital nomad
+(backlog iter85), senior travel (SHIPPED iter134), medical tourism (backlog iter75), accessible travel
+(backlog iter80), film/TV tourism (backlog iter90), bedouin experience (backlog iter70), day trips
+from Haifa (SHIPPED iter162), evening activities (SHIPPED iter171), Purim (backlog iter160), Tel Aviv
+museums (backlog iter95), archaeology dig (backlog iter100), Golan Heights wineries (backlog iter105),
+Judean Hills wine trail (backlog iter110), Jordan River kayaking (backlog iter115), sustainable
+eco-tourism (backlog iter120), December/winter (backlog iter125), paragliding (backlog iter130),
+Israel+Jordan itinerary (backlog iter135), Timna Park (backlog iter140), Sinai from Eilat (backlog
+iter145), Rosh Hanikra (backlog iter150), Wadi Rum day trip (backlog iter155), Ramadan guide (backlog
+iter160), Israeli breakfast guide (SHIPPED iter205/206), Israel in Winter (backlog iter205), Israel in
+Spring (backlog iter200), Jericho day trip (backlog iter205), Hanukkah in Israel (backlog iter205),
+Shavuot in Israel (backlog iter205), Mount Carmel hiking (backlog iter205).
+
+**Net-new items added this iteration:** 5
+
+Sources checked: touristisrael.com, backpackisrael.com, lonelyplanet.com/israel, seat61.com/israel.htm,
+nationalgeographic.com/history/herod-tomb-herodium, gov.il/en/eta-il, rail.co.il/en,
+inpa.gov.il/herodion, stern-diamond.com, el-al.com/en/flying-with-pets, dogfriendly.com/israel,
+rome2rio.com/israel, getyourguide.com/herodion-l95369.
