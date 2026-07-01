@@ -1,6 +1,6 @@
 ---
 title: 'Western Wall Tunnels: Complete Visitor & Booking Guide (2026)'
-description: "How to book and visit the Western Wall Tunnels in Jerusalem — what you see underground, advance booking tips, tour length, exit through Via Dolorosa, and what makes this one of Jerusalem's most compelling experiences."
+description: "How to book the Western Wall Tunnels: what you see underground, advance booking tips, tour length, the Via Dolorosa exit, and who should visit."
 heroImage: /images/regions/jerusalem/western-wall.jpg
 category: Sacred Sites
 updatedAt: 2026-07-01

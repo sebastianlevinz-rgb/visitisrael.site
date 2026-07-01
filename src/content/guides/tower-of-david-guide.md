@@ -1,6 +1,6 @@
 ---
 title: 'Tower of David Museum Jerusalem: Visitor Guide (2026)'
-description: "Plan your visit to the Tower of David Museum in Jerusalem — what the citadel contains, how to get the most from the chronological exhibits, rooftop views, the Night Spectacular, and how to combine it with the Old City."
+description: "Tower of David Museum in Jerusalem — what the citadel holds, rooftop views, the Night Spectacular, and how to work it into an Old City visit."
 heroImage: /images/sub-destinations/jerusalem/tower-of-david.jpg
 category: Sacred Sites
 updatedAt: 2026-07-01
