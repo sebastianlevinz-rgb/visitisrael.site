@@ -4464,3 +4464,18 @@ Tools rotation had nothing ready (all 11 tools shipped in prior iterations) → 
 Gate: pnpm check 0 errors; build 407 pages (+1 vs 406); 515/515 e2e+a11y pass.
 Ship: committed b60e624 to master, pushed. CI in_progress at journal-write time.
 Next: iter 224 = REVIEW mode (224%5==4).
+
+## 2026-07-01 · iter 224 · REVIEW · meta title/desc audit of iter221-223 guides
+What: REVIEW mode (224%5==4). Audited galilee-christian-sites-circuit, israel-eta-guide, haifa-neighborhoods-guide.
+Checks performed: (1) meta title ≤65 chars; (2) meta desc ≤160 chars; (3) hero images exist (4/4 OK);
+  (4) internal link targets resolve (12/12 OK); (5) no H1 in MDX body (0/3 violations); (6) smoke test coverage (3/3 OK).
+Violations found and fixed:
+  - israel-eta-guide title: 81 chars → 61 chars ('Israel ETA-IL: Complete Application Guide for Visitors (2026)')
+  - israel-eta-guide desc: 166 chars → 131 chars (removed 'scam-site warnings, and' from list)
+  - haifa-neighborhoods-guide desc: 196 chars → 152 chars (rewritten to drop 2nd sentence)
+  - galilee-christian-sites-circuit: clean (63/142 — no changes needed)
+Gate: pnpm check 0 errors; build 407 pages (unchanged); 515/515 e2e+a11y pass.
+Ship: committed c76082d to master, pushed. CI in_progress at journal-write time.
+Next: iter 225 = RESEARCH mode (225%5==0). Top candidates for discovery: travel niche gaps,
+  seasonal/month content, contested-site guides, practical logistics (Temple Mount visitor guide P2 M,
+  israel-by-month P2 M, israel-in-summer P2 S still in backlog).
