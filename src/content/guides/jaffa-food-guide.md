@@ -1,5 +1,5 @@
 ---
-title: "Jaffa Food Guide: Best Restaurants & Street Food in Old Jaffa (2026)"
+title: "Jaffa Food Guide: Best Restaurants & Street Food (2026)"
 description: "Where to eat in Jaffa: Abu Hassan hummus, Dr. Shakshuka, Old Man and the Sea seafood mezze, Said, port fish restaurants and the flea market bar scene."
 heroImage: /images/sub-destinations/tel-aviv/old-jaffa.jpg
 category: Food

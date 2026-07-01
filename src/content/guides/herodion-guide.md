@@ -1,6 +1,6 @@
 ---
 title: "Herodion Visitor Guide: King Herod's Burial Mountain (2026)"
-description: "Complete guide to Herodion (Herodium) national park — King Herod's burial mountain 12 km south of Jerusalem. The 2007 tomb discovery, upper palace ruins, lower city, practical tips and how to get there."
+description: "Herodion national park guide: Herod's burial mountain 12 km south of Jerusalem, the 2007 tomb discovery, upper palace, lower city and getting there."
 heroImage: /images/regions/jerusalem/hero.jpg
 category: Destinations
 verdictName: a Herodion day tour from Jerusalem

@@ -1,6 +1,6 @@
 ---
 title: 'Mahane Yehuda Market Jerusalem: Complete Visitor Guide (2026)'
-description: 'Complete guide to Mahane Yehuda market (the Shuk) in Jerusalem: what to eat, best time to visit, the famous evening bar scene, seasonal events and food tour options.'
+description: 'Complete guide to Mahane Yehuda market (the Shuk) in Jerusalem: what to eat, best time to visit, the evening bar scene, seasonal events and food tour options.'
 heroImage: /images/sub-destinations/jerusalem/mahane-yehuda.jpg
 category: Food
 updatedAt: 2026-07-01
@@ -47,7 +47,7 @@ faqs:
 
 **Mahane Yehuda market** — the Shuk — is the centrepiece of Jerusalem's food culture and one of the great open-air markets of the Middle East. Two hundred and fifty stalls crowd the covered and open-air lanes between Jaffa Road and Agrippa Street, selling everything from fresh-ground spices and Medjool dates to Israeli cheeses and halva sliced from enormous wheels. On Friday mornings the whole city's pre-Shabbat energy is concentrated here. On Thursday and Saturday evenings the produce stalls close their shutters and the same lanes open as a bar district.
 
-A [guided food tour](#) is the fastest route into the market's rhythms — the booking options above combine Machane Yehuda with the Old City for a full half-day. But the market navigates well independently; this guide covers the layout, the food, the evening transformation and the seasonal variations.
+A [guided food tour](/israel-food-tours-cooking-classes) is the fastest route into the market's rhythms — the booking options above combine Machane Yehuda with the Old City for a full half-day. But the market navigates well independently; this guide covers the layout, the food, the evening transformation and the seasonal variations.
 
 ---
 
