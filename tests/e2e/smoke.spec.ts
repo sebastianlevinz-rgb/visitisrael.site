@@ -77,6 +77,7 @@ const ROUTES = [
   '/day-trips-from-haifa',
   '/israeli-street-food-guide',
   '/israeli-breakfast-guide',
+  '/netanya-guide',
   '/solo-female-travel-israel',
   '/jordan-river-baptism',
   '/israel-shabbat-countdown',
