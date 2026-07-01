@@ -410,3 +410,6 @@ Trimmed over-length SEO titles/descriptions on iter211-213 guides: israeli-break
 
 ## iter 222 (2026-07-01)
 - /israel-eta-guide — SHA c4cc58e — Israel ETA-IL step-by-step application guide; official-portal-only warning; 7-step workflow; scam-site signals; post-approval + declined-application paths; common mistakes; 514/514 e2e pass
+
+## iter 223 (2026-07-01)
+- /haifa-neighborhoods-guide — SHA b60e624 — Haifa neighborhoods & where-to-stay guide; 6 neighborhoods (German Colony, Wadi Nisnas, Hadar HaCarmel, Merkaz HaCarmel, Bat Galim, Old City/Port); navigation table; Carmelit logistics; Holiday of Holidays noted accurately; Booking.com + GYG CTAs; cross-link from haifa-travel-guide; 515/515 e2e pass

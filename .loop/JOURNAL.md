@@ -4452,3 +4452,15 @@ Gate: pnpm check 0 errors; build 406 pages (+1 vs 405); 514/514 e2e+a11y pass.
 Ship: committed c4cc58e to master, pushed. CI in_progress at journal-write time.
 Next: iter 223 = BUILD mode (223%5==3) / tools rotation. Top P2 ready: haifa-neighborhoods-guide (S),
   temple-mount-visitor-guide (M), israel-by-month (M), israel-in-summer (S), or a tools item.
+
+## 2026-07-01 · iter 223 · BUILD (tools → seo-content fallthrough) · haifa-neighborhoods-guide
+What: new /haifa-neighborhoods-guide — Haifa neighborhoods & where-to-stay guide. 6 neighborhood
+sections (German Colony, Wadi Nisnas, Hadar HaCarmel, Merkaz HaCarmel, Bat Galim, Old City/Port)
+each with character, eat, stay-here-if and key streets. Navigation table showing neighborhood →
+Bahá'í Gardens transit time. Carmelit logistics (₪7, Shabbat operation, 6 stations). Holiday of
+Holidays (Wadi Nisnas December festival) noted accurately per HONESTY rules. Cross-link added to
+haifa-travel-guide Planning section. Booking.com + GYG CTAs. Smoke test route +1 (514→515).
+Tools rotation had nothing ready (all 11 tools shipped in prior iterations) → fell through to seo-content.
+Gate: pnpm check 0 errors; build 407 pages (+1 vs 406); 515/515 e2e+a11y pass.
+Ship: committed b60e624 to master, pushed. CI in_progress at journal-write time.
+Next: iter 224 = REVIEW mode (224%5==4).

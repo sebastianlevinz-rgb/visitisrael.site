@@ -1,13 +1,29 @@
 # LOOP STATE
 
-- iteration: 222
-- lastMode: BUILD (seo-content rotation)
-- lastItem: israel-eta-guide — new guide /israel-eta-guide shipped; 514/514 e2e pass; commit c4cc58e
-- lastResult: COMPLETE — pnpm check 0 errors; build 406 pages (+1); 514/514 e2e+a11y pass; squash-merged to master; CI in_progress at state-write time
-- nextRotationCategory: 223%5==3 → BUILD (tools rotation)
+- iteration: 223
+- lastMode: BUILD (tools rotation → fell through to seo-content; tools all shipped)
+- lastItem: haifa-neighborhoods-guide — new guide /haifa-neighborhoods-guide shipped; 515/515 e2e pass; commit b60e624
+- lastResult: COMPLETE — pnpm check 0 errors; build 407 pages (+1); 515/515 e2e+a11y pass; merged to master; CI in_progress at state-write time
+- nextRotationCategory: 224%5==4 → REVIEW
 - higgsfieldSpent: 0
 - updatedAt: 2026-07-01
 - branch context: work on master; feature work on auto/<slug>
+
+Notes: iter 223 BUILD (tools rotation → seo-content fallthrough) — haifa-neighborhoods-guide shipped:
+  - New guide: /haifa-neighborhoods-guide — Haifa neighborhoods & where-to-stay guide
+      6 neighborhoods: German Colony (foot of Bahá'í Gardens, best restaurants, boutique hotels),
+      Wadi Nisnas (Arab-Christian art quarter, Holiday of Holidays, street food), Hadar HaCarmel
+      (mid-slope, budget, Carmelit access), Merkaz HaCarmel (hilltop, panoramas, calmer),
+      Bat Galim (coastal, beach, local), Old City/Port (Russian Compound, emerging boutique)
+  - Navigation table + Carmelit logistics (₪7/ride, Shabbat operation noted)
+  - Cross-link added to haifa-travel-guide Planning section
+  - Monetization: Booking.com "Haifa hotel German Colony boutique Mount Carmel" + GYG Bahá'í tour CTAs
+  - Smoke test +1 route (/haifa-neighborhoods-guide); 514→515 e2e pass
+  - heroImage: /images/regions/haifa/german-colony.jpg (verified exists)
+  - Dense cross-links: haifa-travel-guide, day-trips-from-haifa, druze-villages-carmel
+  - Tools rotation had nothing ready (all 11 tools shipped iter3–138); fell through to seo-content
+  - Gate: pnpm check 0 errors; build 407 pages (+1 vs 406); 515/515 e2e+a11y pass
+  - Commit b60e624 on master; pushed to origin; CI in_progress at state-write time
 
 Notes: iter 222 BUILD (seo-content) — israel-eta-guide shipped:
   - New guide: /israel-eta-guide — Israel ETA-IL Electronic Travel Authorization step-by-step
@@ -54,5 +70,5 @@ Active items from recent research (all in BACKLOG, ready):
 
 Cron b7325b16 hourly @ :17. Loop history: 19 tools + sitemap-lastmod + link-checker(+depth) + i18n
 Phase0/1a/1b/1c/2 Batches1-18(COMPLETE) + 30 review passes + 3 technical (event-schema + meta-trim + locale-links) + 23 EN guides + 3 tools-monetization + 5 accuracy-fix + VAT-refund + israel-museum + golan-heights + review(204-title-fix) + research(205-6-items) + traveling-israel-jewish-holidays(206) + western-wall-tunnels-guide(207) + tower-of-david-guide(208) + review/meta-desc-fix(209) + research(210-5-items) + israeli-breakfast-guide(211) + netanya-guide(212) + jericho-day-trip-from-jerusalem(213) + review/meta-desc-fix(214) + research(215-6-items) + jaffa-food-guide(216) + mahane-yehuda-market-guide(217);
-herodion-guide(218) + review/meta-desc-fix(219) + research(220-6-items) + galilee-christian-sites-circuit(221) + israel-eta-guide(222);
+herodion-guide(218) + review/meta-desc-fix(219) + research(220-6-items) + galilee-christian-sites-circuit(221) + israel-eta-guide(222) + haifa-neighborhoods-guide(223);
 research iters 5/10/20/30/35/40/45/50/55/60/65/70/75/80/85/90/95/100/105/110/115/120/125/130/135/140/145/150/155/160/165/170/175/180/185/190/195/200/205/210/215/220.
