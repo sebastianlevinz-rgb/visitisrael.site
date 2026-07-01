@@ -4479,3 +4479,17 @@ Ship: committed c76082d to master, pushed. CI in_progress at journal-write time.
 Next: iter 225 = RESEARCH mode (225%5==0). Top candidates for discovery: travel niche gaps,
   seasonal/month content, contested-site guides, practical logistics (Temple Mount visitor guide P2 M,
   israel-by-month P2 M, israel-in-summer P2 S still in backlog).
+
+## 2026-07-01 · iter 225 · RESEARCH · research-6-new-items-225
+What: RESEARCH mode (225%5==0). Surveyed TripAdvisor Israel, GetYourGuide/Viator Israel, timeout.com/israel,
+  touristisrael.com (multiple pages), cruisecritic.com/ports/ashdod, lonelyplanet.com/israel, timeout.com/tel-aviv,
+  trypswithtots.com (teen Israel travel), timeout.com/tel-aviv/music, backpackisrael.com.
+De-duped: tel-aviv-beaches-guide (backlog iter170), mount-tabor-guide (backlog iter190), city-of-david-guide
+  (backlog iter140), masada-visitor-guide (backlog iter110), mitzpe-ramon-guide (backlog iter85), Haifa cruise port
+  (cruise-shore-excursions-israel.md + day-trips-from-haifa.md both cover; low marginal value), 2-day TLV itinerary
+  (lower intent; 3-day TLV in backlog iter170).
+Net-new items added (6): /tel-aviv-things-to-do (P2 M), /israel-with-teenagers (P2 S),
+  /ashdod-cruise-port-excursions (P2 S), /1-day-tel-aviv-itinerary (P2 S), /layover-jerusalem (P2 S),
+  /israel-music-guide (P3 M).
+No code changes; .loop/ memory files updated and pushed to master.
+Next: iter 226 = BUILD mode (226%5==1 → monetization category).

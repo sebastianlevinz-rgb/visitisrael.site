@@ -2850,3 +2850,42 @@ christian-pilgrimage-holy-land (SHIPPED iter94), church-holy-sepulchre-guide (SH
 western-wall-tunnels-guide (SHIPPED iter207), jordan-river-baptism (SHIPPED iter136).
 
 **Net-new items added this iteration:** 6
+
+## iter225 · 2026-07-01 · RESEARCH
+
+**Competitors surveyed:** TripAdvisor Israel (Attractions-g293984-Activities-Tel_Aviv; Israel teen travel forum threads; Jerusalem layover forum threads), GetYourGuide /Israel + /ashdod + /tel-aviv activity hubs, Viator Israel (Ashdod cruise filter), timeout.com/israel/things-to-do + timeout.com/tel-aviv/music, touristisrael.com (things-to-do-in-tel-aviv, israel-for-teens, ashdod-cruise-port, one-day-in-tel-aviv, things-to-do-in-israel-music), cruisecritic.com/ports/ashdod, lonelyplanet.com/israel/tel-aviv-jaffa + /israel/jerusalem, trypswithtots.com/travel-in-israel-with-teenagers, timeout.com/tel-aviv/things-to-do/one-day-in-tel-aviv-itinerary, ipo.co.il (Israel Philharmonic), barby.co.il (Barby Club TLV), redsea-jazz.com (Red Sea Jazz Festival), leaan.co.il (Israeli ticket platform), backpackisrael.com.
+
+**Method:** Web searches on high-intent terms not currently captured by our guides; cross-referenced all results against 553-line BACKLOG.md and 108 shipped guides in src/content/guides/; confirmed gaps by grep-checking all relevant slug/keyword patterns in backlog + DONE.md entries.
+
+**Key competitive gaps identified:**
+
+1. **"Things to do in Tel Aviv" head term** — TripAdvisor, GetYourGuide, Viator, timeout.com/israel all rank; our site has strong TLV sub-content (food, nightlife, carmel market, white city, neighborhoods, light rail, jaffa guides) but zero hub page capturing this category-level query. Tel Aviv activity hub exists as "(when built)" cross-link in 4 guides but never as a standalone backlog item.
+
+2. **Israel teen travel** — touristisrael.com/israel-for-teens, trypswithtots.com have dedicated pages; TripAdvisor Israel teen travel forum has 100+ threads. Our israel-with-kids.md covers ages 2-12 only; 13-18 segment (Masada sunrise hike, surfing, Yad Vashem teen programs, Birthright-prep family context) is uncovered. Distinct search intent: "Israel with teenagers" vs "Israel with kids."
+
+3. **Ashdod cruise port excursions** — Viator has 15+ Ashdod-specific products; cruisecritic.com has dedicated Ashdod port page; touristisrael.com has Ashdod cruise guide. Our cruise-shore-excursions-israel.md covers Ashdod in ~300 generic words alongside Haifa; a dedicated Ashdod guide serving the Jerusalem/Dead Sea/TLV day-trip pattern is distinctly more valuable and commercially competitive.
+
+4. **"One day in Tel Aviv" itinerary** — timeout.com/tel-aviv, lonelyplanet.com/israel, touristisrael.com all publish dedicated 1-day TLV guides. Our 1-day-jerusalem-itinerary.md (SHIPPED) is a proven format with good SEO; the TLV equivalent is missing entirely. High-intent visitors (cruise passengers, day-trippers from Jerusalem, transit visitors) search this exact term.
+
+5. **Jerusalem layover guide** — TripAdvisor Jerusalem forum has several dedicated "layover in Jerusalem" threads each with 100+ replies from travelers asking the exact question. Our layover-tel-aviv.md (SHIPPED) captures Ben Gurion → TLV (15 min = easily feasible); Jerusalem layover (40-50 min each way; requires 8h+ layover) is a genuinely distinct guide with different logistics and audience.
+
+6. **Israel live music / concert guide** — timeout.com/israel/music, tlvcity.com/guides/music rank for live music queries in Israel with no competition from our site. Israel has globally recognized classical (IPO), jazz (Red Sea Jazz Festival), indie/folk, and festival scenes entirely uncovered beyond our tel-aviv-nightlife.md (bars/clubs only) and single-line mentions in israel-events-festivals.md.
+
+**Candidates considered and de-duped:**
+- Tel Aviv beach guide: already queued [backlog iter170]
+- Mount Tabor guide: already queued [backlog iter190]
+- City of David guide: already queued [backlog iter140]
+- Masada visitor guide: already queued [backlog iter110]
+- Mitzpe Ramon guide: already queued [backlog iter85]
+- Israel travel safety 2026 update: is-israel-safe.md (SHIPPED); ETA-IL now in israel-eta-guide.md (SHIPPED iter222) — covered
+- Haifa cruise port dedicated guide: cruise-shore-excursions-israel.md (generic Haifa coverage) + day-trips-from-haifa.md (SHIPPED iter162) covers Haifa cruise window — lower marginal value vs Ashdod gap
+- 2-day Tel Aviv itinerary: lower intent than 1-day; 3-day TLV itinerary already in backlog [iter170]
+- Israel music festivals standalone: merged into broader israel-music-guide concept for higher completeness value
+
+**Net-new items added this iteration:** 6
+- /tel-aviv-things-to-do (P2, M, seo-content+monetization)
+- /israel-with-teenagers (P2, S, seo-content)
+- /ashdod-cruise-port-excursions (P2, S, seo-content+monetization)
+- /1-day-tel-aviv-itinerary (P2, S, seo-content+monetization)
+- /layover-jerusalem (P2, S, seo-content)
+- /israel-music-guide (P3, M, seo-content)
