@@ -101,7 +101,7 @@ The **Western Wall** (HaKotel) is the remaining western retaining wall of Herod 
 
 **Timings:** The plaza is open 24 hours. Morning is the most serene time. Jewish holidays and Friday night (Kabbalat Shabbat services) bring the largest crowds and the most extraordinary atmosphere.
 
-**Western Wall Tunnels:** The underground tunnel running along the full length of the Wall's western face — exposing the complete Herodian-era wall down to its original foundation courses — requires **advance booking** at the Israel Nature and Parks Authority website. This is a significant add-on if you can pre-book before travelling; it is not part of the self-guided day route.
+**Western Wall Tunnels:** The underground tunnel running along the full length of the Wall's western face — exposing the complete Herodian-era wall down to its original foundation courses — requires **advance booking** at the Western Wall Heritage Foundation (english.thekotel.org). Slots sell out weeks ahead in peak season. See our [Western Wall Tunnels guide](/western-wall-tunnels-guide) for booking details, what you'll see, and the exit route onto the Via Dolorosa. This is a significant add-on if you can pre-book before travelling; it is not part of the self-guided day route.
 
 ---
 

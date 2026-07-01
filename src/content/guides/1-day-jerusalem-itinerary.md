@@ -63,7 +63,7 @@ This is the classic day — four religious quarters, the Western Wall and the ci
 
 ### 8am — Western Wall Plaza
 
-Take the Jewish Quarter entrance (Dung Gate from outside, or Jaffa Gate then down through the Jewish Quarter) and reach the **[Western Wall](/jerusalem/western-wall)** before the tour groups. The plaza is serene in the early morning. Men and women enter separate sections; non-Jewish visitors are welcome at both. Leave a note in the wall if you wish — it is a custom shared across traditions. The tunnels alongside the wall require advance booking (online at the Israel Nature and Parks Authority site) — if you want these, book before you travel.
+Take the Jewish Quarter entrance (Dung Gate from outside, or Jaffa Gate then down through the Jewish Quarter) and reach the **[Western Wall](/jerusalem/western-wall)** before the tour groups. The plaza is serene in the early morning. Men and women enter separate sections; non-Jewish visitors are welcome at both. Leave a note in the wall if you wish — it is a custom shared across traditions. The [Western Wall Tunnels](/western-wall-tunnels-guide) run beneath the Muslim Quarter alongside the full original 488-metre Herodian wall — a guided underground experience that reveals the Western Stone, Warren's Gate, and 2,000-year-old street paving. Slots sell out weeks ahead; book via english.thekotel.org before you travel.
 
 ### 9am–12pm — Old City walk
 

@@ -263,6 +263,7 @@ const ROUTES = [
   '/israel-museum-jerusalem',
   '/golan-heights-guide',
   '/traveling-israel-jewish-holidays',
+  '/western-wall-tunnels-guide',
 ];
 
 for (const route of ROUTES) {
