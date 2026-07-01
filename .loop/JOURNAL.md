@@ -4124,3 +4124,23 @@ Ship: committed 6490512 to master, pushed. CI + Lighthouse in_progress at write 
 iter206 CI: confirmed success via GitHub Actions (78ae8d9 docs state commit showed CI=success).
 Startup: fresh cloud clone; git reset --hard origin/master (forced update from remote).
 Next: iter 208 = BUILD mode (208%5==3, tools rotation).
+
+## 2026-07-01T03:38Z · iter 208 · BUILD (tools → fell through to monetization) · /tower-of-david-guide
+
+Mode: BUILD (208%5==3, tools rotation). All tools items SHIPPED — fell through to monetization.
+Picked /tower-of-david-guide (P2 seo-content+monetization, S) from iter200 research backlog.
+
+What: New /tower-of-david-guide — complete visitor guide for the Tower of David Museum at Jaffa Gate,
+Jerusalem. Guide covers: what the citadel is (Hasmonean/Herodian/Crusader/Mamluk/Ottoman layers;
+name misnomer — no connection to King David); daytime museum route (chronological Bronze Age →
+Ottoman, scale model, Herodian Phasael Tower base, Crusader hall, rooftop panorama); Night
+Spectacular (distinct experience, separate ticket ~₪50-60 range, tod.org.il); 7 FAQs; 2 affiliate
+CTAs (GYG Old City combo + Viator Night Spectacular); TourVerdict box. Wired: israel-evening-
+activities (Tower of David mention → link added), 1-day-jerusalem-itinerary (same), and
+jerusalem-old-city-walking-tour (stale ₪30 price corrected to ₪50-60 + link added).
+
+Gate: pnpm check 0 errors · pnpm build 398 pages (+1) · pnpm test:e2e 504/504 pass. GREEN.
+Ship: committed 467703a to master, pushed. CI + Lighthouse in_progress at write time.
+iter207 CI: confirmed via GitHub (c2857a0 docs-state commit confirmed on master).
+Startup: fresh cloud clone; git reset --hard origin/master (forced update from remote).
+Next: iter 209 = REVIEW mode (209%5==4).

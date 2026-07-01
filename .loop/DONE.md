@@ -371,3 +371,10 @@ GYG English tunnels tour (4.9★, 520 reviews) + Viator private. TourVerdict wir
 Cross-links: jerusalem-old-city-walking-tour.md + 1-day-jerusalem-itinerary.md. 503 smoke tests pass.
 Value: fills top-5 Jerusalem bucket-list experience gap; captures "Kotel tunnels how to book",
 "Western Wall Tunnels visitor guide 2026", "underground Jerusalem tour" keywords.
+
+## iter208 — Tower of David Museum visitor guide
+- SHA: 467703a
+- Route: /tower-of-david-guide
+- Value: Fills the #2-reviewed Jerusalem attraction gap (TripAdvisor 15,000+ reviews); distinct
+  from israel-evening-activities (Night Spectacular only); daytime museum + Night Spectacular
+  covered separately; TourVerdict + 2 affiliate CTAs; corrects stale ₪30 price in walking tour.
