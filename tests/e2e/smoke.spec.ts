@@ -267,6 +267,7 @@ const ROUTES = [
   '/traveling-israel-jewish-holidays',
   '/western-wall-tunnels-guide',
   '/tower-of-david-guide',
+  '/jericho-day-trip-from-jerusalem',
 ];
 
 for (const route of ROUTES) {
