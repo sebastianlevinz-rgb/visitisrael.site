@@ -4024,3 +4024,67 @@ Gate: pnpm check 0 errors · pnpm build 395 pages · pnpm test:e2e 501/501 pass.
 Ship: committed 4caba37 to master, pushed. CI pending at write time.
 Startup: fresh cloud clone; git reset --hard origin/master (50 commits behind remote).
 Next: iter 205 = RESEARCH mode (205%5==0). Scan for fresh competitor gaps.
+
+## 2026-07-01T00:00Z · iter 205 · RESEARCH · holiday/seasonal/food/hiking gap scan
+
+Mode: RESEARCH (205%5==0). Scanned competitor landscape for profitable content gaps not yet in
+backlog or DONE list.
+
+Sources consulted (10):
+- touristisrael.com (Hanukkah, Jericho day trip, Shavuot festival pages)
+- backpackisrael.com (winter Israel guide)
+- hike-israel.com (Mount Carmel trail listings)
+- inpa.gov.il (Nahal Me'arot / Carmel Caves UNESCO site)
+- timeout.com/israel (best breakfasts in Israel)
+- dannytheDigger.com (Jericho Tel es-Sultan archaeology)
+- visitpalestine.ps (Jericho Area A logistics)
+- lonelyplanet.com/israel/jericho (Jericho attraction coverage)
+- BACKLOG.md dedup grep (499-line, 420KB file, multiple targeted searches)
+- DONE.md + PROJECT.md cross-reference (exclusion zones check)
+
+Deduplication log — items checked and confirmed ALREADY IN BACKLOG or DONE:
+- /yom-kippur-in-israel → DUPLICATE: /high-holidays-israel (iter160) covers RH+YK in full
+  depth (bicycle culture, 25-hour city silence, Kol Nidre, 4am Ne'ilah at Western Wall);
+  standalone Yom Kippur guide would be redundant and thin
+- /christmas-in-israel → EXISTING: iter045 in backlog
+- /easter-in-jerusalem → EXISTING: iter155 in backlog
+- /passover-in-israel → EXISTING: iter155 in backlog
+- /sukkot-in-israel → EXISTING: iter160 in backlog
+- /purim-in-israel → EXISTING: iter160 in backlog
+- /israel-in-spring → EXISTING: iter200 in backlog (just added last research cycle)
+- /israel-in-autumn → SHIPPED: iter195
+- /bethlehem-day-trip → EXISTING: iter150 West Bank logistics guide in backlog
+- /tel-aviv-food-guide → SHIPPED
+- /israeli-street-food-guide → EXISTING: in backlog (falafel/sabich/shawarma)
+- /haifa-travel-guide → EXISTING: in backlog
+
+6 net-new items added to BACKLOG.md (lines 500-513, search tag: [iter205 research]):
+1. /hanukkah-in-israel [P3 seo-content+monetization S] ~800 SV/mo — Kotel nightly
+   menorahs, Torch Relay from Modi'in, sufganiyot culture, Haifa "Holiday of Holidays",
+   Tower of David projections; touristisrael.com has 3 pages but no single hub; monetize
+   with Tower of David tickets + Jerusalem December hotels
+2. /israel-in-winter [P2 seo-content M] ~1,800 SV/mo — Jan-Feb specific (whale sharks
+   Eilat, cheapest travel period, Negev wildflowers beginning, possible Jerusalem snow,
+   Dead Sea comfortable); distinct from /christmas-in-israel (Dec 24-25 focus)
+3. /jericho-day-trip-from-jerusalem [P2 seo-content+monetization M] ~1,200 SV/mo —
+   Tell es-Sultan 8,000 BCE walls, Hisham's Palace Tree of Life mosaic, Mount of
+   Temptation cable car+monastery, Qasr al-Yahud baptism site; Area A logistics (PA
+   taxis from Damascus Gate; Israeli citizens prohibited, foreign tourists enter freely)
+4. /shavuot-in-israel [P3 seo-content S] ~600 SV/mo — completes holiday set (Passover,
+   Sukkot, RH+YK, Purim, Hanukkah all covered); tikkun leyl all-night Torah study,
+   Western Wall 4am sunrise service, dairy food tradition, kibbutz first-fruits
+5. /mount-carmel-hiking-guide [P3 seo-content S] ~700 SV/mo — Nahal Me'arot UNESCO
+   cave site (INPA card valid), Elijah's Cave (triple-sacred), Stella Maris Monastery,
+   Muhraka contest site + Jezreel Valley panorama; hiking-in-israel.md covers Carmel
+   only in passing
+6. /israeli-breakfast-guide [P2 seo-content+monetization S] ~1,200-1,500 SV/mo — aruchat
+   boker internationally recognized; shakshuka, Israeli salad, labneh, hummus, bourekas;
+   Benedict TLV, Dr. Shakshuka Jaffa, Sarona Market; no overlap with food/street-food
+   guides already in backlog (those cover dinner/street foods); GYG food tour + Booking.com
+   "breakfast included" filter CTAs
+
+COMPETITORS.md: iter205 section appended (findings 1-6 + dedup log).
+Gate: N/A for RESEARCH mode — no code shipped.
+Startup: fresh cloud clone; git reset --hard origin/master before initial sync (reverted local
+  changes); re-applied all appends after reset; committed cleanly.
+Next: iter 206 = BUILD mode (206%5==1, monetization rotation).

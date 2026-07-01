@@ -2592,3 +2592,79 @@ Lower commercial intent but good for link acquisition and social amplification. 
 - Hiking in Israel — in backlog iter015
 
 **Net-new items added this iteration:** 7
+
+---
+
+## iter 205 — 2026-07-01 — RESEARCH
+
+### Sources consulted
+- touristisrael.com/hanukkah-in-israel (Hanukkah events overview)
+- touristisrael.com/jericho-day-trip (Jericho itinerary)
+- touristisrael.com/shavuot-in-israel (Shavuot festival coverage)
+- backpackisrael.com/winter-israel (winter travel guide)
+- hike-israel.com/mount-carmel (Carmel trail listings)
+- inpa.gov.il (Nahal Me'arot / Carmel Caves UNESCO info)
+- timeout.com/israel/restaurants/best-breakfasts-in-israel (Israeli breakfast coverage)
+- dannytheDigger.com (Jericho Tel es-Sultan archaeology context)
+- visitpalestine.ps (Jericho Area A logistics)
+- lonelyplanet.com/israel/jericho (Jericho attraction ranking)
+
+### Competitor findings
+
+**1. Hanukkah in Israel** — touristisrael.com has 3 separate Hanukkah pages (events, what to do,
+food). We have /jewish-holidays-guide (general) but zero standalone Hanukkah guide. Key content
+gaps they leave open: full nightly Kotel menorah schedule, Haifa "Holiday of Holidays" multicultural
+angle, Tower of David projections booking instructions, 2026 exact dates (Dec 4-12). ~800 SV/mo.
+Commercial hook: Tower of David tickets + Jerusalem December hotel CTAs.
+
+**2. Israel in Winter (January-February)** — backpackisrael.com has a "winter in Israel" post
+(~600 words, no affiliate hooks). Our /christmas-in-israel (iter45) covers December Christmas
+specifically; January-February is genuinely distinct: whale sharks at Eilat (Jan-Feb only),
+cheapest flight+hotel period of year, Negev wildflowers beginning in February, possible Jerusalem
+snow (Hermon skiing), Dead Sea most comfortable weather. ~1,800 SV/mo.
+
+**3. Jericho day trip from Jerusalem** — touristisrael.com has a Jericho itinerary; lonelyplanet
+gives it editorial treatment. We have only passing references (Wadi Qelt description, Jordan River
+kayak context). Tell es-Sultan (8,000 BCE walls = world's oldest city), Hisham's Palace Tree of Life
+mosaic, Mount of Temptation cable car + monastery, Qasr al-Yahud baptism site. Area A complexity
+(PA taxis from Damascus Gate; Israeli rental cars technically not permitted; Israeli citizens
+prohibited but foreign tourists enter freely) makes a proper guide high-value. ~1,200 SV/mo.
+
+**4. Shavuot in Israel** — touristisrael.com has a Shavuot festival page (~400 words). All other
+Jewish holidays have standalone guides in our backlog or DONE list (Passover iter155, Sukkot
+iter160, Rosh HaShanah+Yom Kippur iter160, Purim iter160, Hanukkah = this iter); grep for
+"shavuot" in 499-line BACKLOG returned empty. Content: all-night Torah study (tikkun leyl), Western
+Wall sunrise service at 4am (tens of thousands), dairy food tradition, kibbutz first-fruits
+ceremonies. 2027 dates: May 21-22. ~600 SV/mo.
+
+**5. Mount Carmel hiking** — hike-israel.com lists 8 Carmel-area trails; inpa.gov.il covers Nahal
+Me'arot UNESCO cave site (4 prehistoric caves, 500,000+ years occupation). Our /hiking-in-israel
+(shipped) mentions Carmel in passing; haifa-travel-guide (backlog) covers city only. Nahal Me'arot
+(INPA card valid), Elijah's Cave (triple-sacred Jewish+Christian+Muslim), Stella Maris Monastery
+(panoramic sea+Haifa views), Muhraka (Elijah's contest site, Jezreel Valley panorama). ~700 SV/mo.
+
+**6. Israeli breakfast guide** — timeout.com/israel has a "best breakfasts in Israel" restaurant
+list. We have /israeli-food-cuisine-guide (shipped, general), /tel-aviv-food-guide (shipped,
+restaurant-focused), /israeli-street-food-guide (backlog, falafel/sabich/shawarma = evening foods).
+None cover the Israeli breakfast (aruchat boker) specifically. Internationally recognized format;
+hotel breakfast is famous globally; shakshuka, Israeli salad, labneh, hummus, bourekas, cheeses,
+tahini, olives. Key venues: Benedict TLV (24/7), Dr. Shakshuka Jaffa, Sarona Market. ~1,200-1,500
+SV/mo.
+
+### Deduplication confirmed (items NOT added — already in backlog or DONE)
+- Yom Kippur in Israel — DUPLICATE of /high-holidays-israel (iter160, covers RH+YK together
+  including bicycle culture, 25-hour silence, Western Wall Ne'ilah; standalone Yom Kippur guide
+  would be thin/redundant)
+- Christmas in Israel — already in backlog iter045
+- Easter in Jerusalem — already in backlog iter155
+- Passover in Israel — already in backlog iter155
+- Sukkot / Succot in Israel — already in backlog iter160
+- Purim in Israel — already in backlog iter160
+- Israel in Spring — already in backlog iter200
+- Israel in Autumn — SHIPPED iter195
+- Bethlehem day trip — already in backlog iter150 (West Bank logistics guide)
+- Tel Aviv food guide — SHIPPED
+- Israeli street food — already in backlog
+- Haifa travel guide — already in backlog
+
+**Net-new items added this iteration:** 6
