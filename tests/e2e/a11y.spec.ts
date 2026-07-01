@@ -140,6 +140,7 @@ const ROUTES = [
   '/tel-aviv-carmel-market',
   '/tel-aviv-neighborhoods-guide',
   '/jerusalem-food-guide',
+  '/israeli-breakfast-guide',
   '/day-trips-from-haifa',
   '/israel-evening-activities',
   '/1-day-jerusalem-itinerary',
