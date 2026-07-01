@@ -1,13 +1,27 @@
 # LOOP STATE
 
-- iteration: 214
-- lastMode: REVIEW (214%5==4)
-- lastItem: meta-desc-fix-214 — SEO title/description trimming for iter211-213 guides (israeli-breakfast-guide, netanya-guide, jericho-day-trip-from-jerusalem)
-- lastResult: SHIPPED — 7597921 master; pnpm check 0 errors; 401 pages built; 508/508 e2e+a11y pass; CI in_progress at state-write time
-- nextRotationCategory: 215%5==0 → RESEARCH mode
+- iteration: 215
+- lastMode: RESEARCH (215%5==0)
+- lastItem: research-215 — 6 net-new backlog items (easter-in-jerusalem, east-jerusalem-guide, beit-guvrin-caves-guide, galilee-food-guide, mahane-yehuda-market-guide, jaffa-food-guide)
+- lastResult: RESEARCH COMPLETE — 6 items appended to BACKLOG; COMPETITORS.md updated; no ship
+- nextRotationCategory: 216%5==1 → BUILD mode / monetization rotation
 - higgsfieldSpent: 0
 - updatedAt: 2026-07-01
 - branch context: work on master; feature work on auto/<slug>
+
+Notes: iter 215 RESEARCH — 6 net-new backlog items:
+  - easter-in-jerusalem (P2 M) — Holy Week pilgrim guide; itraveljerusalem.com, vaticannews.va rank;
+    church-holy-sepulchre-guide.md has only 1 sentence on Good Friday; confirmed NOT in backlog
+  - east-jerusalem-guide (P2 M) — East Jerusalem visitor guide; Garden Tomb, Rockefeller Museum,
+    Zedekiah's Cave, Damascus Gate souk, American Colony Hotel; all our Jerusalem content is W-centric
+  - beit-guvrin-caves-guide (P2 S) — UNESCO WHS 2014; Bell Caves + Sidonian murals; Bein Harim ranks;
+    referenced only in hidden-gems hub cluster, no standalone backlog entry confirmed
+  - galilee-food-guide (P3 S) — Druze flatbread, Saint Peter's Fish framing, Golan wines, Nazareth
+    Arab cuisine; jerusalem/tel-aviv food guides shipped; Galilee equivalent confirmed gap
+  - mahane-yehuda-market-guide (P2 S) — Jerusalem shuk standalone; mirrors shipped /tel-aviv-carmel-
+    market format; /israel-markets-guide hub too broad; /mahane-yehuda slug confirmed NOT in backlog
+  - jaffa-food-guide (P2 S) — Jaffa culinary guide; jaffa-travel-guide.md covers history only;
+    Abu Hassan, Dr. Shakshuka, Old Man and the Sea; confirmed NOT in backlog as standalone
 
 Notes: iter 214 REVIEW (meta title/description fix):
   - Audited iter211-213 guides: internal links all OK, images exist, cross-links verified

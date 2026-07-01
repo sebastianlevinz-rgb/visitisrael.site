@@ -4277,3 +4277,61 @@ Fix: branch auto/meta-desc-fix-214 — trimmed all 3 to within limits:
 Gate: pnpm check 0 errors · 401 pages · 508/508 e2e+a11y pass. GREEN.
 Ship: 7597921 committed to master + pushed. CI run 28508085647 in_progress at turn-end.
 Next: iter 215 = RESEARCH mode (215%5==0).
+
+## 2026-07-01T10:00Z · iter 215 · RESEARCH · 6 net-new competitor gap items
+
+Mode: RESEARCH (215%5==0). No ship this iteration.
+
+Methodology: Checked 40+ candidate topics against 525-line BACKLOG.md using Python regex with 3–6
+keyword variants per topic (slug patterns + "[P" priority-entry patterns + synonym variants). Also
+cross-checked against shipped guides via glob (89 EN guides). Two initial candidates from the prior
+research phase (israel-honeymoon, tel-aviv-beaches-guide) were confirmed already in the backlog on
+re-check and replaced with fresh gaps.
+
+6 net-new items appended to BACKLOG.md:
+
+1. /easter-in-jerusalem [P2, seo-content+monetization, M]
+   itraveljerusalem.com, touristisrael.com, vaticannews.va, holylandtourstravel.com all rank.
+   church-holy-sepulchre-guide.md has 1 sentence on Good Friday procession; no Holy Week guide.
+   Key content: full Holy Week calendar, Holy Fire ceremony depth (Greek Orthodox), Catholic vs
+   Eastern Orthodox date divergence, 12-month-ahead booking logistics.
+   Confirmed NOT in backlog ("/easter" slug search + "easter.*jerusalem" search returned no P-entries).
+
+2. /east-jerusalem-guide [P2, seo-content, M]
+   lonelyplanet.com, frommers.com, timeout.com/israel all cover East Jerusalem as tourist district.
+   Our 89 guides are Old City/West Jerusalem/Israeli-site focused.
+   Key content: Damascus Gate souk, Zedekiah's Cave, Rockefeller Museum, Garden Tomb, American Colony.
+   HONESTY: political status framed as practical visitor guidance, no advocacy.
+   Confirmed NOT in backlog ("east.jerusalem.guide" + "/east-jerusalem" patterns returned no hits).
+
+3. /beit-guvrin-caves-guide [P2, seo-content+monetization, S]
+   UNESCO WHS 2014; Bein Harim + touristisrael.com have dedicated pages.
+   Our backlog references Beit Guvrin only within hidden-gems hub cluster (iter45), never standalone.
+   Key content: Bell Caves (800 bell-shaped chambers; photogenic), Sidonian painted murals (Hellenistic;
+   hunting scenes + peacocks), Roman amphitheater, INPA National Parks Pass validity.
+   Confirmed NOT in backlog as standalone ("/beit-guvrin" slug + "beit.guvrin.caves.guide" pattern = 0 hits).
+
+4. /galilee-food-guide [P3, seo-content, S]
+   touristisrael.com + timeout.com/israel rank for Galilean cuisine.
+   jerusalem-food-guide.md + tel-aviv-food-guide.md both shipped; Galilee equivalent is clear gap.
+   Key content: Saint Peter's Fish (honesty: mostly farmed today), Druze flatbread cooperatives,
+   Golan Heights wine tasting, Nazareth Arab cuisine (Diana restaurant), Rosh Pina farm-to-table.
+   Confirmed NOT in backlog ("galilee.food.guide" + "/galilee-food" patterns = zero hits).
+
+5. /mahane-yehuda-market-guide [P2, seo-content+monetization, S]
+   timeout.com/israel, lonelyplanet.com, touristisrael.com all have dedicated Mahane Yehuda content.
+   /tel-aviv-carmel-market.md (SHIPPED iter68) proves standalone market format performs.
+   /israel-markets-guide (P3 backlog) is too broad; no standalone Mahane Yehuda entry exists.
+   Key content: daytime shuk character vs evening bar transformation, Friday pre-Shabbat timing,
+   seasonal events (Sukkot, Chanukah sufganiyot), light rail access.
+   Confirmed NOT in backlog ("/mahane-yehuda-guide" + "/mahane-yehuda-market" slugs = 0 hits).
+
+6. /jaffa-food-guide [P2, seo-content+monetization, S]
+   timeout.com/israel/restaurants/jaffa, secrettelaviv.com/jaffa-food, Bon Appétit have coverage.
+   jaffa-travel-guide.md (SHIPPED) covers history; tel-aviv-food-guide.md covers TLV broadly.
+   jaffa-flea-market (P3 backlog) covers the market, not restaurants. Standalone culinary gap confirmed.
+   Key content: Abu Hassan (hummus institution; morning only; cash; queue), Dr. Shakshuka (North African
+   Jewish cuisine), Old Man and the Sea (seafood mezze spreads), Said (neighbourhood hummus), port fish.
+   Confirmed NOT in backlog ("- [P.*jaffa.food" + "/jaffa-food-guide" patterns = 0 hits).
+
+Next: iter 216 = BUILD mode (216%5==1) / monetization rotation.

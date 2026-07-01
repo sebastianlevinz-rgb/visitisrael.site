@@ -2733,3 +2733,67 @@ Sources checked: touristisrael.com, backpackisrael.com, lonelyplanet.com/israel,
 nationalgeographic.com/history/herod-tomb-herodium, gov.il/en/eta-il, rail.co.il/en,
 inpa.gov.il/herodion, stern-diamond.com, el-al.com/en/flying-with-pets, dogfriendly.com/israel,
 rome2rio.com/israel, getyourguide.com/herodion-l95369.
+
+---
+
+## iter215 — 2026-07-01 — RESEARCH — 6 net-new competitor gap items
+
+### Methodology
+Checked 40+ candidate topics against BACKLOG.md (525 lines, 165+ ready items from iter5–iter214). Used
+Python `re.findall()` with 3–6 keyword variants per topic (slug patterns + priority-entry patterns +
+synonym variants) to detect existing entries and synonyms. Cross-checked against all shipped guides via
+`ls src/content/guides/`. Two candidates from prior research (israel-honeymoon, tel-aviv-beaches-guide)
+were discovered to already exist in the backlog on re-check and were replaced with new gaps.
+
+### Competitor gaps identified
+
+**1. Easter & Holy Week in Jerusalem** — itraveljerusalem.com, touristisrael.com, vaticannews.va,
+holylandtourstravel.com all rank for "Easter in Jerusalem" with dedicated Holy Week content. Our
+church-holy-sepulchre-guide.md has ONE sentence on Good Friday Franciscan procession; zero Holy Week
+or Easter pilgrim guide. High season intent (2026 Catholic Easter = April 5; 2027 = April 25; 2027
+Orthodox = April 20 — note divergence). Added as /easter-in-jerusalem (P2, M).
+
+**2. East Jerusalem visitor guide** — lonelyplanet.com, frommers.com, timeout.com/israel all cover
+East Jerusalem as a distinct tourist district. Our 89 shipped guides are Old City / West Jerusalem /
+Israeli-site focused. East Jerusalem attractions (Garden Tomb, Rockefeller Museum, Zedekiah's Cave,
+Damascus Gate souk, American Colony Hotel) are essentially unmentioned on site. Added as
+/east-jerusalem-guide (P2, M).
+
+**3. Beit Guvrin / Maresha caves** — UNESCO World Heritage Site 2014; Bein Harim, touristisrael.com,
+christravelblog.com all have dedicated Beit Guvrin pages. Our backlog references it only as one of
+many items inside a hidden-gems hub cluster (iter45); no standalone guide. Bell Caves are among
+Israel's most photogenic underground sites. Added as /beit-guvrin-caves-guide (P2, S).
+
+**4. Galilee food & wine** — touristisrael.com, timeout.com/israel both rank for "food in the Galilee."
+We have jerusalem-food-guide.md + tel-aviv-food-guide.md; no Galilee culinary guide despite the
+region's distinct food identity (Druze flatbread, Saint Peter's Fish, Golan Heights wine, Nazareth Arab
+cooking). Added as /galilee-food-guide (P3, S).
+
+**5. Mahane Yehuda market standalone guide** — timeout.com/israel, lonelyplanet.com/israel,
+touristisrael.com all have dedicated Mahane Yehuda content. Our /tel-aviv-carmel-market.md (SHIPPED
+iter68) proves this standalone market format performs well; Jerusalem's equivalent shuk has no
+standalone guide. The /israel-markets-guide hub in backlog is too broad. Added as
+/mahane-yehuda-market-guide (P2, S).
+
+**6. Jaffa food guide** — timeout.com/israel/restaurants/jaffa, secrettelaviv.com/jaffa-food,
+Bon Appétit and Eater have covered Jaffa's food scene. Our jaffa-travel-guide.md covers history/port
+but zero culinary depth; tel-aviv-food-guide.md covers TLV broadly. Jaffa's distinct Arab-Israeli
+culinary identity (Abu Hassan hummus, Dr. Shakshuka, Old Man and the Sea) needs dedicated treatment.
+Added as /jaffa-food-guide (P2, S).
+
+### Deduplication confirmed (candidates checked and rejected — already covered)
+Israel honeymoon (backlog iter20, P3 seo-content), Tel Aviv beaches guide (backlog iter210, P2 as
+/tel-aviv-beach-guide), Sea of Galilee experiences (backlog iter5, P3 /sea-of-galilee-experiences),
+Eilat snorkeling (SHIPPED eilat-diving-snorkeling.md), Israel road trip (backlog P2
+/israel-road-trip), Haifa city guide (SHIPPED iter192), Israel wellness/spa (backlog P2
+/israel-wellness-spa), Israel thermal springs (backlog P2 /israel-thermal-springs), Nazareth food
+(backlog P2 /nazareth-food-guide), Tel Aviv art galleries (backlog P3 /israel-art-galleries), Tel Aviv
+museums (backlog P2 /tel-aviv-museums), Israel markets hub (backlog P3 /israel-markets-guide), Sea of
+Galilee boat tours (backlog P3 /sea-of-galilee-experiences), Volunteer archaeology (backlog P3
+/volunteer-archaeology-israel), Jaffa flea market (backlog P3 /jaffa-flea-market).
+
+**Net-new items added this iteration:** 6
+
+Sources checked: itraveljerusalem.com, touristisrael.com, timeout.com/israel, lonelyplanet.com/israel,
+frommers.com/destinations/jerusalem, secrettelaviv.com, beinharimtours.com/beit-guvrin,
+christravelblog.com/beit-guvrin, inpa.gov.il, tripadvisor.com/jaffa-restaurants.
