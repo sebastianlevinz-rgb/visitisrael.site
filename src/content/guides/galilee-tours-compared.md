@@ -88,6 +88,6 @@ A private guide and driver on a dedicated vehicle makes the Galilee genuinely fl
 - **Jewish heritage focus:** the **Jewish heritage Galilee day tour** with Safed and Tiberias.
 - **Nature + views + wine:** the **Sea of Galilee and Golan Heights** day tour.
 - **Want to see it all properly:** a **multi-day north Israel tour** with overnight stays.
-- **Independent traveller with a car:** **self-drive**, using our [Galilee region guide](/galilee) as your companion.
+- **Independent traveller with a car:** **self-drive** the lakeshore — our [Galilee Christian sites circuit guide](/galilee-christian-sites-circuit) maps the full anti-clockwise loop from Tiberias (Capernaum → Tabgha → Mount of Beatitudes → Magdala) with site-by-site detail and driving logistics.
 
 Compare the broader picture in our [best tours in Israel](/best-tours-in-israel) guide, then explore the [Galilee region](/galilee), [Nazareth](/nazareth) and our [day trips from Tel Aviv](/day-trips-from-tel-aviv) for more ideas.

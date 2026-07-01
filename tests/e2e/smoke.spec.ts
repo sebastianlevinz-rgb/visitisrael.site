@@ -271,6 +271,7 @@ const ROUTES = [
   '/tower-of-david-guide',
   '/jericho-day-trip-from-jerusalem',
   '/herodion-guide',
+  '/galilee-christian-sites-circuit',
 ];
 
 for (const route of ROUTES) {
