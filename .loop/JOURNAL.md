@@ -4335,3 +4335,23 @@ re-check and replaced with fresh gaps.
    Confirmed NOT in backlog ("- [P.*jaffa.food" + "/jaffa-food-guide" patterns = 0 hits).
 
 Next: iter 216 = BUILD mode (216%5==1) / monetization rotation.
+
+## 2026-07-01 · iter 216 · BUILD (monetization) · jaffa-food-guide
+What: new /jaffa-food-guide — Jaffa culinary guide distinct from jaffa-travel-guide.md (history/
+architecture) and jerusalem-food-guide.md (Machane Yehuda focus). Covers: Abu Hassan hummus
+(morning-only, cash, closes when sold out), Said (local alternative), Dr. Shakshuka (Libyan-Jewish,
+tagines + couscous + shakshuka variations), Old Man and the Sea (seafood mezze spreads, 20–30 cold
+salads), Abouelafia bakery (24h, open Shabbat), port fish restaurants (Margaret Tayar comparison to
+Old Man and the Sea), flea market bar scene (Puaa, Jaffa Bar, Container after 21:00). 8 FAQs
+covering institution origins, what to order, when to visit, Shabbat access. Affiliate CTAs:
+getyourguide (Jaffa food + walking tour), viator (Tel Aviv & Jaffa culinary experience), booking
+(hotels near Jaffa). heroImage: /images/sub-destinations/tel-aviv/old-jaffa.jpg (distinct from
+jaffa-travel-guide hero). Cross-links to /jaffa-travel-guide, /tel-aviv-carmel-market,
+/jerusalem-food-guide, /israel-food-tours-cooking-classes.
+Candidate selection: mahane-yehuda-market-guide rejected (jerusalem-food-guide.md already has full
+Machane Yehuda section + food tour CTAs); jaffa-food-guide confirmed gap.
+Smoke + a11y test suites extended with /jaffa-food-guide route.
+Gate: pnpm check 0 errors; build 402 pages (+1 vs iter215 base); 510/510 e2e+a11y pass.
+Ship: squash-merged to master 0eed122, pushed.
+Vercel: deploy triggered (auto-deploy on master push); CI check pending at state-write time.
+Next: iter 217 = BUILD mode (217%5==2) / seo-content rotation.

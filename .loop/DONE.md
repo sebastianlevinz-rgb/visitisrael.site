@@ -400,3 +400,5 @@ queries; Booking.com "breakfast included" CTA = high conversion purchase trigger
 
 ## iter 214 — REVIEW — meta-desc-fix-214 — 7597921
 Trimmed over-length SEO titles/descriptions on iter211-213 guides: israeli-breakfast-guide (title 72→58, desc 188→139), netanya-guide (title 80→60), jericho-day-trip-from-jerusalem (desc 201→135). All within 65/160 char limits. 508/508 e2e pass.
+- iter215 · RESEARCH · 6 net-new backlog items: /easter-in-jerusalem (P2 M), /east-jerusalem-guide (P2 M), /beit-guvrin-caves-guide (P2 S), /galilee-food-guide (P3 S), /mahane-yehuda-market-guide (P2 S), /jaffa-food-guide (P2 S). COMPETITORS.md updated with 3 competitor ranking entries (itraveljerusalem.com/holy-week, timeout.com/israel/restaurants/jaffa, touristisrael.com/beit-guvrin).
+- [iter216] Jaffa food guide (/jaffa-food-guide) → 0eed122 — P2 seo-content+monetization; Abu Hassan hummus, Said, Dr. Shakshuka (Libyan-Jewish cuisine), Old Man and the Sea (seafood mezze), Abouelafia bakery (24h/Shabbat), port fish restaurants, flea market bar scene; 8 FAQs; getyourguide+viator+booking CTAs; 402 pages built; 510/510 e2e+a11y pass.
