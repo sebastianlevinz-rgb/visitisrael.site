@@ -138,6 +138,7 @@ const ROUTES = [
   '/fr/israel-food-tours-cooking-classes',
   '/de/israel-food-tours-cooking-classes',
   '/tel-aviv-carmel-market',
+  '/jaffa-food-guide',
   '/tel-aviv-neighborhoods-guide',
   '/jerusalem-food-guide',
   '/israeli-breakfast-guide',
