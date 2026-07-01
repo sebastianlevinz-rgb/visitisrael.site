@@ -1,13 +1,34 @@
 # LOOP STATE
 
-- iteration: 216
-- lastMode: BUILD / monetization
-- lastItem: jaffa-food-guide — new /jaffa-food-guide content page (0eed122)
-- lastResult: SHIPPED — gate passed (0 check errors, 402 pages built, 510/510 e2e+a11y pass); squash-merged to master; pushed
-- nextRotationCategory: 217%5==2 → BUILD mode / seo-content rotation
+- iteration: 217
+- lastMode: BUILD / seo-content
+- lastItem: mahane-yehuda-market-guide — new /mahane-yehuda-market-guide content page (d6a84f9)
+- lastResult: SHIPPED — gate passed (0 check errors, 403 pages built, 511/511 e2e+a11y pass); committed to master; pushed
+- nextRotationCategory: 218%5==3 → BUILD mode / tools rotation
 - higgsfieldSpent: 0
 - updatedAt: 2026-07-01
 - branch context: work on master; feature work on auto/<slug>
+
+Notes: iter 217 BUILD (seo-content) — mahane-yehuda-market-guide shipped:
+  - New guide: /mahane-yehuda-market-guide — Mahane Yehuda (the Shuk) Jerusalem standalone
+      visitor guide, mirroring the shipped /tel-aviv-carmel-market format
+  - Content: market layout (covered iron-roofed hall, open-air spice lanes, outer ring,
+      Beit Yaakov restaurant strip); what to eat (Marzipan rugelach, burekas, knafeh,
+      fresh-pressed juices, spices to take home, halva); evening transformation
+      (Thursday/Friday/Saturday-after-Havdalah bar district); seasonal events (Passover,
+      Sukkot sukkahs, Hanukkah sufganiyot); Beit Yaakov restaurants (Machneyuda booking
+      caveats, Azura Iraqi-Jewish hummus); 8 FAQs covering hours, best time, what to eat,
+      evening scene, holiday events, safety, getting there, kashrut
+  - Affiliate CTAs: GYG food tour, Viator Jerusalem market+Old City combo, Booking Jerusalem
+  - heroImage: /images/sub-destinations/jerusalem/mahane-yehuda.jpg (distinct from
+      jerusalem-food-guide which uses /images/regions/jerusalem/mahane-yehuda.jpg)
+  - Smoke test extended with /mahane-yehuda-market-guide route
+  - Cross-link added: jerusalem-food-guide.md → new standalone guide
+  - Note: iter216 rejected mahane-yehuda as duplicate of jerusalem-food-guide; iter217 ships
+      it as standalone (same logic as carmel-market vs tel-aviv-food-guide — distinct page,
+      dedicated keyword target for "Mahane Yehuda market guide" queries)
+  - Gate: pnpm check 0 errors; build 403 pages (+1); 511/511 e2e+a11y pass
+  - Commit d6a84f9 on master; pushed to origin; CI in_progress at state-write time
 
 Notes: iter 216 BUILD (monetization) — jaffa-food-guide shipped:
   - New guide: /jaffa-food-guide — Jaffa culinary/food guide distinct from:
@@ -66,5 +87,5 @@ Active items from recent research (all in BACKLOG, ready):
   iter210: /pet-friendly-israel [P2 M], /israel-with-baby [P2 S], /israel-by-train [P3 S], /herodion-guide [P2 S]
 
 Cron b7325b16 hourly @ :17. Loop history: 19 tools + sitemap-lastmod + link-checker(+depth) + i18n
-Phase0/1a/1b/1c/2 Batches1-18(COMPLETE) + 30 review passes + 3 technical (event-schema + meta-trim + locale-links) + 23 EN guides + 3 tools-monetization + 5 accuracy-fix + VAT-refund + israel-museum + golan-heights + review(204-title-fix) + research(205-6-items) + traveling-israel-jewish-holidays(206) + western-wall-tunnels-guide(207) + tower-of-david-guide(208) + review/meta-desc-fix(209) + research(210-5-items) + israeli-breakfast-guide(211) + netanya-guide(212) + jericho-day-trip-from-jerusalem(213) + review/meta-desc-fix(214) + research(215-6-items) + jaffa-food-guide(216);
-research iters 5/10/20/30/35/40/45/50/55/60/65/70/75/80/85/90/95/100/105/110/115/120/125/130/135/140/145/150/155/160/165/170/175/180/185/190/195/200/205/210.
+Phase0/1a/1b/1c/2 Batches1-18(COMPLETE) + 30 review passes + 3 technical (event-schema + meta-trim + locale-links) + 23 EN guides + 3 tools-monetization + 5 accuracy-fix + VAT-refund + israel-museum + golan-heights + review(204-title-fix) + research(205-6-items) + traveling-israel-jewish-holidays(206) + western-wall-tunnels-guide(207) + tower-of-david-guide(208) + review/meta-desc-fix(209) + research(210-5-items) + israeli-breakfast-guide(211) + netanya-guide(212) + jericho-day-trip-from-jerusalem(213) + review/meta-desc-fix(214) + research(215-6-items) + jaffa-food-guide(216) + mahane-yehuda-market-guide(217);
+research iters 5/10/20/30/35/40/45/50/55/60/65/70/75/80/85/90/95/100/105/110/115/120/125/130/135/140/145/150/155/160/165/170/175/180/185/190/195/200/205/210/215.

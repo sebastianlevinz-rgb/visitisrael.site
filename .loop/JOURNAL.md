@@ -4355,3 +4355,21 @@ Gate: pnpm check 0 errors; build 402 pages (+1 vs iter215 base); 510/510 e2e+a11
 Ship: squash-merged to master 0eed122, pushed.
 Vercel: deploy triggered (auto-deploy on master push); CI check pending at state-write time.
 Next: iter 217 = BUILD mode (217%5==2) / seo-content rotation.
+
+## 2026-07-01 · iter 217 · BUILD (seo-content) · mahane-yehuda-market-guide
+What: new /mahane-yehuda-market-guide — Mahane Yehuda (the Shuk) Jerusalem standalone visitor
+guide mirroring the shipped /tel-aviv-carmel-market format. P2 seo-content, S effort. Distinct
+from jerusalem-food-guide.md which mentions the Shuk in passing; this page dedicates itself to
+the market with: full layout breakdown (covered hall, open-air spice lanes, outer ring, Beit Yaakov
+restaurant strip), what to eat (Marzipan rugelach, burekas, knafeh, fresh-pressed juices, spices,
+halva), evening transformation (Thursday/Friday/Saturday-after-Havdalah bar district), seasonal
+events (Passover, Sukkot sukkahs, Hanukkah sufganiyot), Beit Yaakov restaurants (Machneyuda +
+Azura), 8 FAQs covering hours/best-time/what-to-eat/evening-scene/holidays/safety/transport/kashrut.
+Affiliate CTAs: GYG market food tour, Viator Jerusalem market+Old City combo, Booking Jerusalem.
+heroImage: /images/sub-destinations/jerusalem/mahane-yehuda.jpg. Smoke test extended (+1 route).
+Cross-link added from jerusalem-food-guide → new standalone guide.
+Note: iter216 had rejected this candidate as covered by jerusalem-food-guide; iter217 ships it as
+a dedicated standalone page (same rationale as tel-aviv-carmel-market vs tel-aviv-food-guide).
+Gate: pnpm check 0 errors; build 403 pages (+1 vs iter216 base 402); 511/511 e2e+a11y pass.
+Ship: committed d6a84f9 to master, pushed. CI in_progress at journal-write time.
+Next: iter 218 = BUILD mode (218%5==3) / tools rotation.
