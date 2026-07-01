@@ -4254,3 +4254,26 @@ Next: iter 213 = BUILD mode (213%5==3, tools rotation).
 - 3 affiliate CTAs: GYG (Jericho+Dead Sea combo), Viator (Jericho+Qumran+Dead Sea), Abraham Tours (Bethlehem+Jericho West Bank).
 - Cross-link added to day-trips-from-jerusalem.md (new Jericho bullet).
 - Smoke test +1 route.
+
+## 2026-07-01T09:36Z · iter 214 · REVIEW · meta-desc-fix iter211-213 guides
+
+Mode: REVIEW (214%5==4). Audited the 3 most-recently shipped guides (iter211-213).
+
+Audit checks:
+- Internal links: all 21 links verified (guides, regions, pages) — 0 dead links
+- Hero images: all 8 image paths exist in public/ — 0 missing
+- Cross-links: verified in related guides (israeli-food-cuisine-guide, israeli-street-food-guide, day-trips-from-tel-aviv, caesarea-guide, day-trips-from-jerusalem) — all intact
+
+Violations found (SEO title/description lengths):
+- israeli-breakfast-guide: title 72 chars (limit 65) + description 188 chars (limit 160)
+- netanya-guide: title 80 chars (limit 65)
+- jericho-day-trip-from-jerusalem: description 201 chars (limit 160)
+
+Fix: branch auto/meta-desc-fix-214 — trimmed all 3 to within limits:
+  - israeli-breakfast-guide title: 72→58 chars; desc: 188→139 chars
+  - netanya-guide title: 80→60 chars
+  - jericho-day-trip-from-jerusalem desc: 201→135 chars
+
+Gate: pnpm check 0 errors · 401 pages · 508/508 e2e+a11y pass. GREEN.
+Ship: 7597921 committed to master + pushed. CI run 28508085647 in_progress at turn-end.
+Next: iter 215 = RESEARCH mode (215%5==0).

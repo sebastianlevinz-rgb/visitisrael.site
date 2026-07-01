@@ -1,13 +1,20 @@
 # LOOP STATE
 
-- iteration: 213
-- lastMode: BUILD (tools rotation fell through → monetization+seo-content — 213%5==3)
-- lastItem: jericho-day-trip-from-jerusalem — /jericho-day-trip-from-jerusalem; Tell es-Sultan; Mount of Temptation cable car; Hisham's Palace Tree of Life mosaic; Area A logistics; Medjool dates; GYG+Viator+Abraham CTAs
-- lastResult: SHIPPED — 1109630 master; pnpm check 0 errors; 401 pages built; 508/508 e2e+a11y pass; CI in_progress at state-write time
-- nextRotationCategory: 214%5==4 → REVIEW mode
+- iteration: 214
+- lastMode: REVIEW (214%5==4)
+- lastItem: meta-desc-fix-214 — SEO title/description trimming for iter211-213 guides (israeli-breakfast-guide, netanya-guide, jericho-day-trip-from-jerusalem)
+- lastResult: SHIPPED — 7597921 master; pnpm check 0 errors; 401 pages built; 508/508 e2e+a11y pass; CI in_progress at state-write time
+- nextRotationCategory: 215%5==0 → RESEARCH mode
 - higgsfieldSpent: 0
 - updatedAt: 2026-07-01
 - branch context: work on master; feature work on auto/<slug>
+
+Notes: iter 214 REVIEW (meta title/description fix):
+  - Audited iter211-213 guides: internal links all OK, images exist, cross-links verified
+  - Found 3 violations: israeli-breakfast-guide title 72→58 chars + desc 188→139 chars;
+    netanya-guide title 80→60 chars; jericho-day-trip desc 201→135 chars
+  - All fixed in one branch (auto/meta-desc-fix-214), gate passed, squash-merged to master
+  - iter213 CI: run 28508085647 in_progress at state-write time
 
 Notes: iter 213 BUILD (tools rotation → fell through to monetization+seo-content):
   - Tools category fully shipped; fell through to monetization/seo-content

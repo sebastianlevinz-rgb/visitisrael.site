@@ -397,3 +397,6 @@ Value: captures "Israeli breakfast guide", "shakshuka Israel", "aruchat boker re
 queries; Booking.com "breakfast included" CTA = high conversion purchase trigger for Israel hotels.
 - iter212 · /netanya-guide · SHA 00d1a19 · P2 S seo-content+monetization · Netanya city guide: cliff-top promenade, 14km Mediterranean beach, Franco-Israeli café culture on HaPeled Street, Stern Diamond Factory tour, Booking.com hotel CTA + GYG northern-coast day tour CTA; cross-links to day-trips-from-tel-aviv + caesarea-guide
 - [iter213] Jericho day trip from Jerusalem guide (/jericho-day-trip-from-jerusalem) → 1109630 — world's oldest city framing; Tell es-Sultan; Mount of Temptation cable car; Hisham's Palace Tree of Life mosaic; Area A logistics for foreign tourists; 3 affiliate CTAs (GYG+Viator+Abraham); 508/508 e2e+a11y pass.
+
+## iter 214 — REVIEW — meta-desc-fix-214 — 7597921
+Trimmed over-length SEO titles/descriptions on iter211-213 guides: israeli-breakfast-guide (title 72→58, desc 188→139), netanya-guide (title 80→60), jericho-day-trip-from-jerusalem (desc 201→135). All within 65/160 char limits. 508/508 e2e pass.
