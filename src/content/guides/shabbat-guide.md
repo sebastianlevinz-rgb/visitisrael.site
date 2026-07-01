@@ -38,4 +38,6 @@ During Shabbat, in Jewish areas: **public transport (trains and most buses) stop
 
 Need the exact candlelighting and Havdalah times for your travel dates? Use our [Shabbat & Jewish Holiday Calendar](/israel-shabbat-calendar) — it shows city-by-city times for Jerusalem, Tel Aviv, Haifa, Eilat and Beersheba, plus all major Jewish holidays for 2026–2027.
 
+Visiting during a Jewish holiday? See our dedicated [guide to traveling in Israel during Jewish holidays](/traveling-israel-jewish-holidays) — Passover, Yom Kippur, Sukkot, Hanukkah, and Purim from a tourist perspective.
+
 Plan the rest of your week with our [first-time guide](/first-time-in-israel) and [itineraries](/itineraries).

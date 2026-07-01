@@ -84,7 +84,7 @@ Israel packs a remarkable number of festivals, cultural events and religious hol
 
 **Tel Aviv Pride (June)** is the largest Pride in the Middle East — a week of events and a vast parade. The city fills and rooms sell out months ahead, so **book accommodation early** (above). See our [Tel Aviv nightlife guide](/tel-aviv-nightlife).
 
-**The holiday calendar** drives closures and prices. Jewish holidays (Passover, the [High Holidays](/best-time-to-visit-israel)) bring [Shabbat](/shabbat-guide)-style shutdowns and higher rates; Christian Holy Week and Christmas pack Jerusalem and the Galilee. Plan logistics accordingly.
+**The holiday calendar** drives closures and prices. Jewish holidays (Passover, the [High Holidays](/best-time-to-visit-israel)) bring [Shabbat](/shabbat-guide)-style shutdowns and higher rates; Christian Holy Week and Christmas pack Jerusalem and the Galilee. For a holiday-by-holiday tourist breakdown — what changes, what to book in advance, and what's worth staying for — see our [guide to traveling in Israel during Jewish holidays](/traveling-israel-jewish-holidays).
 
 ## How to plan around events
 
