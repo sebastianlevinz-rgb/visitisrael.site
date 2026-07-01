@@ -275,6 +275,7 @@ const ROUTES = [
   '/herodion-guide',
   '/galilee-christian-sites-circuit',
   '/israel-eta-guide',
+  '/tel-aviv-things-to-do',
 ];
 
 for (const route of ROUTES) {
