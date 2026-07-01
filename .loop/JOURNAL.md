@@ -4437,3 +4437,18 @@ Gate: pnpm check 0 errors; build 405 pages (+1 vs 404); 513/513 e2e+a11y pass.
 Ship: committed 5fd40d4 to master, pushed. CI in_progress at journal-write time.
 Next: iter 222 = BUILD mode (222%5==2) / seo-content rotation. Top P2 ready: israel-eta-guide (S), haifa-neighborhoods-guide (S),
   temple-mount-visitor-guide (M), israel-by-month (M), or i18n Phase 3.
+
+## 2026-07-01 · iter 222 · BUILD (seo-content) · israel-eta-guide
+What: new /israel-eta-guide — Israel ETA-IL Electronic Travel Authorization step-by-step guide.
+Mandatory since Jan 2025 for all visa-exempt visitors (US, UK, EU, CA, AU, NZ etc.). Covers:
+who needs ETA-IL; scam-site warnings with signal checklist (non-.gov.il URL, inflated fees,
+"expedited processing" upsells); 7-step application walkthrough on official portal
+israel-entry.piba.gov.il; post-approval checklist; declined-application path; common mistakes
+(passport expiry, name matching, per-traveller requirement); Jordan/Egypt connecting note.
+HONESTY: only ₪25 official fee stated; ETA-IL ≠ guaranteed entry clearly framed;
+only official portal linked. Cross-links: visa-information, ben-gurion-airport-guide,
+first-time-in-israel, ben-gurion-airport-transfers.
+Gate: pnpm check 0 errors; build 406 pages (+1 vs 405); 514/514 e2e+a11y pass.
+Ship: committed c4cc58e to master, pushed. CI in_progress at journal-write time.
+Next: iter 223 = BUILD mode (223%5==3) / tools rotation. Top P2 ready: haifa-neighborhoods-guide (S),
+  temple-mount-visitor-guide (M), israel-by-month (M), israel-in-summer (S), or a tools item.
