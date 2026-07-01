@@ -406,3 +406,4 @@ Trimmed over-length SEO titles/descriptions on iter211-213 guides: israeli-break
 
 ## iter 218 (2026-07-01)
 - /herodion-guide — Herodion (Herodium) national park visitor guide; King Herod's burial mountain 12km from Jerusalem; 2007 tomb discovery, upper/lower palace, Area C logistics, INPA pass valid; GYG+Viator+Booking CTAs → 5b2a72b
+- [iter221] /galilee-christian-sites-circuit — SHA 5fd40d4 — Galilee Christian sites self-drive circuit (Capernaum, Tabgha loaves+fishes mosaic, Church of Beatitudes, Church of Primacy of Peter, Magdala Ark+Duc in Altum, Kursi); GYG+discovercars+Booking CTAs; 513/513 e2e pass

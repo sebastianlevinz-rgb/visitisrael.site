@@ -4422,3 +4422,18 @@ Next: iter 221 = BUILD (221%5==1) → monetization rotation. Top P2 ready moneti
   i18n Phase 3 (P2 i18n, M) or top monetization candidate (Tel Aviv Pride guide P3 S, or
   highest-priority M item). Recommend i18n Phase 3 (regions fr+de batch 1) as P2 priority.
 Next: iter 220 = BUILD mode (220%5==0 → RESEARCH mode actually; 220%5==0 → RESEARCH).
+
+## 2026-07-01 · iter 221 · BUILD (monetization) · galilee-christian-sites-circuit
+What: New guide /galilee-christian-sites-circuit — Galilee Christian sites self-drive circuit P2 seo-content+monetization.
+Circuit: anti-clockwise ~45km loop from Tiberias — Capernaum INPA park (Peter's house + 5th-c synagogue, ~₪35/INPA pass),
+  Church of the Multiplication Tabgha (original 5th-c Byzantine loaves+fishes mosaic, free, closes midday Fri),
+  Church of the Beatitudes (1938 Franciscan, free, Galilee panorama), Church of the Primacy of Peter (Mensa Christi
+  rock, black basalt lakeside chapel, free), Magdala (1st-c synagogue + Ark of Magdala + Duc in Altum, free),
+  Kursi NP optional extension. Driving logistics, heat/dress tips, Nazareth combination.
+HONESTY: traditions framed clearly (Peter's house = Byzantine/Crusader tradition; Tabgha mosaic = original 5th-c not replica).
+Affiliate CTAs: GYG Galilee Christian tour, discovercars.com car rental, Booking Tiberias hotels.
+Cross-links: christian-pilgrimage-holy-land + galilee-tours-compared. Smoke test +1 route (512→513).
+Gate: pnpm check 0 errors; build 405 pages (+1 vs 404); 513/513 e2e+a11y pass.
+Ship: committed 5fd40d4 to master, pushed. CI in_progress at journal-write time.
+Next: iter 222 = BUILD mode (222%5==2) / seo-content rotation. Top P2 ready: israel-eta-guide (S), haifa-neighborhoods-guide (S),
+  temple-mount-visitor-guide (M), israel-by-month (M), or i18n Phase 3.
