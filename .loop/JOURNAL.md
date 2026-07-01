@@ -4506,3 +4506,15 @@ Defect found + fixed: referenced /ashdod-cruise-port-excursions (not yet built) 
 Gate: pnpm check 0 errors; build 408 pages (+1 vs 407); 516/516 e2e+a11y pass.
 Ship: commit 9b5fd01 on master; pushed to origin; CI in_progress at time of writing.
 Next: iter 227 = BUILD mode (227%5==2 → seo-content category). Top candidates: /layover-jerusalem (P2 S), /israel-with-teenagers (P2 S).
+
+## 2026-07-01T22:35 · iter 227 · BUILD (seo-content) · tel-aviv-things-to-do
+What: New guide /tel-aviv-things-to-do — complete Tel Aviv activity & attractions hub targeting
+  head term "things to do in Tel Aviv". Sections: Old Jaffa, beaches (Gordon/Hilton/Metzitzim/Alma
+  + tayelet promenade), White City / Bauhaus UNESCO district, neighbourhoods (Neve Tzedek, Florentin,
+  Dizengoff), food & markets (Carmel Market, Levinsky, Sarona), culture & museums (Museum of Art,
+  Eretz Israel Museum, Independence Hall, Palmach), nightlife, day trips, getting around. Dense
+  internal links to all existing TLV sub-guides. Affiliate CTAs: GYG free walking tour + Viator city
+  highlights + Booking.com TLV. Six FAQs. Smoke test route +1 (517 total).
+Gate: pnpm check 0 errors; build 409 pages (+1 vs 408); 517/517 e2e+a11y pass — GREEN.
+Ship: squash-merged to master 062f3b6, pushed to origin.
+Prod: CI in_progress at state-write time — next iter will confirm.

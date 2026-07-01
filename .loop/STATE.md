@@ -1,13 +1,28 @@
 # LOOP STATE
 
-- iteration: 226
-- lastMode: BUILD (monetization) — /1-day-tel-aviv-itinerary shipped
-- lastItem: 1-day-tel-aviv-itinerary
-- lastResult: COMPLETE — 408 pages (+1 vs 407); 516/516 e2e+a11y pass; commit 9b5fd01 on master; CI in_progress at state-write time
-- nextRotationCategory: 227%5==2 → BUILD/seo-content
+- iteration: 227
+- lastMode: BUILD (seo-content) — /tel-aviv-things-to-do shipped
+- lastItem: tel-aviv-things-to-do
+- lastResult: COMPLETE — 409 pages (+1 vs 408); 517/517 e2e+a11y pass; commit 062f3b6 on master; CI in_progress at state-write time
+- nextRotationCategory: 228%5==3 → BUILD/tools (fallthrough to seo-content if tools empty)
 - higgsfieldSpent: 0
 - updatedAt: 2026-07-01
 - branch context: work on master; feature work on auto/<slug>
+
+Notes: iter 227 BUILD (seo-content) — tel-aviv-things-to-do shipped:
+  - New guide: /tel-aviv-things-to-do — complete Tel Aviv activity and attractions hub targeting
+    head term "things to do in Tel Aviv". Covers: Old Jaffa (port, flea market, eating), beaches
+    (Gordon, Hilton, Metzitzim, Alma, tayelet promenade), White City / Bauhaus UNESCO district
+    (self-guided route Rothschild → Dizengoff Square), neighbourhoods (Neve Tzedek, Florentin,
+    Dizengoff), food & markets (Carmel Market, Levinsky, Sarona), culture & museums (Museum of
+    Art, Eretz Israel Museum, Independence Hall, Palmach Museum), nightlife (Florentin, Port,
+    Rothschild bar strip), day trips (Jerusalem, Dead Sea, Caesarea, Haifa), getting around
+    (Light Rail, scooters, bikes). Dense internal links to all existing TLV sub-guides.
+  - Affiliate CTAs: GYG free walking tour + Viator city highlights + Booking.com TLV hotels.
+  - Six FAQs covering free things, days needed, best beach, walkability, White City, timing, families.
+  - Smoke test route added (+1 to ROUTES array, 517 total).
+  - Gate: pnpm check 0 errors; build 409 pages (+1 vs 408); 517/517 e2e+a11y pass
+  - Commit 062f3b6 on master; pushed to origin; CI in_progress at state-write time
 
 Notes: iter 226 BUILD (monetization) — 1-day-tel-aviv-itinerary shipped:
   - New guide: /1-day-tel-aviv-itinerary — morning-to-evening tested itinerary for first-timers
@@ -67,10 +82,10 @@ Active items from recent research (all in BACKLOG, ready):
   iter210: /pet-friendly-israel [P2 M], /israel-with-baby [P2 S], /israel-by-train [P3 S]
   iter215: /easter-in-jerusalem [P2 M], /east-jerusalem-guide [P2 M], /beit-guvrin-caves-guide [P2 S], /galilee-food-guide [P3 S]
   iter220: /israel-by-month [P2 M], /israel-in-summer [P2 S], /temple-mount-visitor-guide [P2 M]
-  iter225: /tel-aviv-things-to-do [P2 M], /israel-with-teenagers [P2 S], /ashdod-cruise-port-excursions [P2 S], /layover-jerusalem [P2 S], /israel-music-guide [P3 M]
+  iter225: /israel-with-teenagers [P2 S], /ashdod-cruise-port-excursions [P2 S], /layover-jerusalem [P2 S], /israel-music-guide [P3 M]
   iter190: /mount-tabor-guide [P2 S]
 
 Cron b7325b16 hourly @ :17. Loop history: 19 tools + sitemap-lastmod + link-checker(+depth) + i18n
 Phase0/1a/1b/1c/2 Batches1-18(COMPLETE) + 30 review passes + 3 technical (event-schema + meta-trim + locale-links) + 23 EN guides + 3 tools-monetization + 5 accuracy-fix + VAT-refund + israel-museum + golan-heights + review(204-title-fix) + research(205-6-items) + traveling-israel-jewish-holidays(206) + western-wall-tunnels-guide(207) + tower-of-david-guide(208) + review/meta-desc-fix(209) + research(210-5-items) + israeli-breakfast-guide(211) + netanya-guide(212) + jericho-day-trip-from-jerusalem(213) + review/meta-desc-fix(214) + research(215-6-items) + jaffa-food-guide(216) + mahane-yehuda-market-guide(217);
-herodion-guide(218) + review/meta-desc-fix(219) + research(220-6-items) + galilee-christian-sites-circuit(221) + israel-eta-guide(222) + haifa-neighborhoods-guide(223) + review/meta-desc-fix(224) + research(225-6-items) + 1-day-tel-aviv-itinerary(226);
+herodion-guide(218) + review/meta-desc-fix(219) + research(220-6-items) + galilee-christian-sites-circuit(221) + israel-eta-guide(222) + haifa-neighborhoods-guide(223) + review/meta-desc-fix(224) + research(225-6-items) + 1-day-tel-aviv-itinerary(226) + tel-aviv-things-to-do(227);
 research iters 5/10/20/30/35/40/45/50/55/60/65/70/75/80/85/90/95/100/105/110/115/120/125/130/135/140/145/150/155/160/165/170/175/180/185/190/195/200/205/210/215/220/225.

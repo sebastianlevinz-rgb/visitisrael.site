@@ -416,3 +416,6 @@ Trimmed over-length SEO titles/descriptions on iter211-213 guides: israeli-break
 
 ## iter 226 — 1-day-tel-aviv-itinerary
 - /1-day-tel-aviv-itinerary — SHA 9b5fd01 — Morning-to-evening Tel Aviv day plan (Jaffa + promenade + Carmel + White City + Neve Tzedek/Florentin); companion to 1-day-jerusalem-itinerary; GYG/Viator/Booking CTAs; captures "one day in Tel Aviv itinerary" head-term.
+
+## iter 227 — tel-aviv-things-to-do (062f3b6) [2026-07-01]
+Complete Tel Aviv activity & attractions hub targeting "things to do in Tel Aviv" head term. Covers beaches, White City, Old Jaffa, neighbourhoods, food & markets, museums, nightlife, day trips and getting around with dense internal links to all existing TLV sub-guides. GYG + Viator + Booking CTAs.
