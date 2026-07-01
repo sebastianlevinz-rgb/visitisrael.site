@@ -4385,3 +4385,16 @@ Cross-link added to day-trips-from-jerusalem. Smoke test extended with /herodion
 Gate: pnpm check 0 errors; build 404 pages (+1 vs 403); 512/512 e2e+a11y pass.
 Ship: committed 5b2a72b to master, pushed. CI in_progress at journal-write time.
 Next: iter 219 = REVIEW mode (219%5==4).
+
+## 2026-07-01 · iter 219 · REVIEW · meta title/desc audit of iter216-218 guides
+What: Audited jaffa-food-guide, mahane-yehuda-market-guide, herodion-guide for SEO correctness.
+Found 3 meta violations + 1 dead anchor:
+  - jaffa-food-guide title: 68 chars (>65 limit) → trimmed to 55 chars
+  - mahane-yehuda-market-guide desc: 165 chars (>160 limit) → trimmed to 158 chars (removed "famous ")
+  - herodion-guide desc: 204 chars (>160 limit) → rewritten to 148 chars
+  - mahane-yehuda: dead anchor [guided food tour](#) → fixed to /israel-food-tours-cooking-classes
+All hero images verified (4/4 exist). All internal link targets verified (11/11 OK).
+Smoke tests confirmed: all 3 pages registered in tests/e2e/smoke.spec.ts.
+Gate: pnpm check 0 errors; build 404 pages (unchanged); 512/512 e2e+a11y pass.
+Ship: committed fe074df to master, pushed. CI in_progress at journal-write time.
+Next: iter 220 = BUILD mode (220%5==0 → RESEARCH mode actually; 220%5==0 → RESEARCH).

@@ -1,13 +1,25 @@
 # LOOP STATE
 
-- iteration: 218
-- lastMode: BUILD / seo-content (fallthrough from tools — all tools items shipped)
-- lastItem: herodion-guide — new /herodion-guide content page (5b2a72b)
+- iteration: 219
+- lastMode: REVIEW — meta title/desc audit of iter216-218 guides
+- lastItem: meta-desc-fix-219 — fixed 3 meta violations (jaffa-food-guide title 68→55, mahane-yehuda desc 165→158, herodion desc 204→148) + dead anchor in mahane-yehuda (fe074df)
 - lastResult: SHIPPED — gate passed (0 check errors, 404 pages built, 512/512 e2e+a11y pass); committed to master; pushed; CI in_progress at state-write time
-- nextRotationCategory: 219%5==4 → REVIEW mode
+- nextRotationCategory: 220%5==0 → RESEARCH mode
 - higgsfieldSpent: 0
 - updatedAt: 2026-07-01
 - branch context: work on master; feature work on auto/<slug>
+
+Notes: iter 219 REVIEW — meta title/desc audit (iter216-218 guides):
+  - Audited: jaffa-food-guide, mahane-yehuda-market-guide, herodion-guide
+  - Violations fixed (3 meta + 1 dead link):
+      jaffa-food-guide title 68→55 chars (dropped "in Old Jaffa" clause)
+      mahane-yehuda desc 165→158 chars (dropped "famous ")
+      herodion desc 204→148 chars (rewrote to fit 160-char limit)
+      mahane-yehuda dead [guided food tour](#) → /israel-food-tours-cooking-classes
+  - All hero images verified (4/4 exist); all internal link targets OK (11/11)
+  - Gate: pnpm check 0 errors; build 404 pages (unchanged); 512/512 e2e+a11y pass
+  - Commit fe074df on master; pushed; CI in_progress at state-write time
+  - iter218 CI: 5b2a72b/5fb563d both show "success" in completed workflow list
 
 Notes: iter 218 BUILD (seo-content, fallthrough from tools) — herodion-guide shipped:
   - New guide: /herodion-guide — King Herod's burial mountain, 12 km south of Jerusalem
@@ -106,4 +118,5 @@ Active items from recent research (all in BACKLOG, ready):
 
 Cron b7325b16 hourly @ :17. Loop history: 19 tools + sitemap-lastmod + link-checker(+depth) + i18n
 Phase0/1a/1b/1c/2 Batches1-18(COMPLETE) + 30 review passes + 3 technical (event-schema + meta-trim + locale-links) + 23 EN guides + 3 tools-monetization + 5 accuracy-fix + VAT-refund + israel-museum + golan-heights + review(204-title-fix) + research(205-6-items) + traveling-israel-jewish-holidays(206) + western-wall-tunnels-guide(207) + tower-of-david-guide(208) + review/meta-desc-fix(209) + research(210-5-items) + israeli-breakfast-guide(211) + netanya-guide(212) + jericho-day-trip-from-jerusalem(213) + review/meta-desc-fix(214) + research(215-6-items) + jaffa-food-guide(216) + mahane-yehuda-market-guide(217);
-research iters 5/10/20/30/35/40/45/50/55/60/65/70/75/80/85/90/95/100/105/110/115/120/125/130/135/140/145/150/155/160/165/170/175/180/185/190/195/200/205/210/215.
+herodion-guide(218) + review/meta-desc-fix(219);
+research iters 5/10/20/30/35/40/45/50/55/60/65/70/75/80/85/90/95/100/105/110/115/120/125/130/135/140/145/150/155/160/165/170/175/180/185/190/195/200/205/210/215/220.
