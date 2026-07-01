@@ -65,7 +65,7 @@ Jerusalem's Old City is one kilometre square and contains Christianity's most sa
 
 ### Step 1 — Jaffa Gate (entry)
 
-Enter through the **Jaffa Gate** archway. Immediately inside, you will see the **Citadel (Tower of David)** on your right — the medieval fortification built on Hasmonean and Herodian foundations. If archaeology and Jerusalem's urban history interest you, the Tower of David Museum (₪30 entry; book online to skip the queue) is worth a 45-minute stop. Otherwise, continue straight ahead.
+Enter through the **Jaffa Gate** archway. Immediately inside, you will see the **Citadel (Tower of David)** on your right — the medieval fortification built on Hasmonean and Herodian foundations. If archaeology and Jerusalem's urban history interest you, the [Tower of David Museum](/tower-of-david-guide) (₪50–60 entry; book online to skip the queue) is worth a 45-minute stop. Otherwise, continue straight ahead.
 
 You are now on **David Street**, the main tourist artery of the Old City. It descends gently toward the market and the quarters below.
 

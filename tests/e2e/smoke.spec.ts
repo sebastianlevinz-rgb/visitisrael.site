@@ -264,6 +264,7 @@ const ROUTES = [
   '/golan-heights-guide',
   '/traveling-israel-jewish-holidays',
   '/western-wall-tunnels-guide',
+  '/tower-of-david-guide',
 ];
 
 for (const route of ROUTES) {

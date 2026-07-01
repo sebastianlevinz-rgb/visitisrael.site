@@ -43,7 +43,7 @@ Israel's evenings are rarely quiet. Once the day-trip crowds clear and the sun d
 
 ## Tower of David Night Spectacular (Jerusalem)
 
-The **Tower of David Museum** runs its Night Spectacular almost every evening year-round — a 45-minute sound-and-light show projected onto the stones of the medieval citadel, tracing 3,000 years of Jerusalem's history. The show plays out across the entire courtyard as you walk through it, so the experience is immersive rather than seated.
+The **[Tower of David Museum](/tower-of-david-guide)** runs its Night Spectacular almost every evening year-round — a 45-minute sound-and-light show projected onto the stones of the medieval citadel, tracing 3,000 years of Jerusalem's history. The show plays out across the entire courtyard as you walk through it, so the experience is immersive rather than seated.
 
 **Practical notes:**
 

@@ -77,7 +77,7 @@ The **Muslim Quarter hummus shops** (Abu Shukri on Al-Wad Street is the most cit
 
 ### 1pm–3pm — Via Dolorosa, Tower of David
 
-If you did not walk the Via Dolorosa in the morning, do it now. From Jaffa Gate, the **Tower of David Museum** is a five-minute walk — one of the best historical museums in the city, with a scale model that makes the layers of Jerusalem's history make sense. Book the skip-the-line ticket online; the queue for walk-ins on busy days is real.
+If you did not walk the Via Dolorosa in the morning, do it now. From Jaffa Gate, the **[Tower of David Museum](/tower-of-david-guide)** is a five-minute walk — one of the best historical museums in the city, with a scale model that makes the layers of Jerusalem's history make sense. Book the skip-the-line ticket online; the queue for walk-ins on busy days is real.
 
 ### 3pm–5pm — Mahane Yehuda or Ben Yehuda
 
