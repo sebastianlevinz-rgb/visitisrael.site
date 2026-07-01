@@ -4397,4 +4397,28 @@ All hero images verified (4/4 exist). All internal link targets verified (11/11 
 Smoke tests confirmed: all 3 pages registered in tests/e2e/smoke.spec.ts.
 Gate: pnpm check 0 errors; build 404 pages (unchanged); 512/512 e2e+a11y pass.
 Ship: committed fe074df to master, pushed. CI in_progress at journal-write time.
+
+## 2026-07-01 · iter 220 · RESEARCH · 6 net-new backlog items (entry requirements, neighborhoods, seasonal, Temple Mount, Galilee)
+What: RESEARCH mode (220%5==0). Researched competitor gaps across touristisrael.com, timeout.com/israel,
+  lonelyplanet.com/israel, roughguides.com, beinharimtours.com, thingstodoinisrael.com, tripadvisor.com
+  Jerusalem forums. Startup: fresh cloud checkout; git diverged 50 commits → reset --hard origin/master.
+6 net-new items appended to BACKLOG.md (all status: ready):
+  1. /israel-eta-guide (P2, S) — ETA-IL step-by-step application guide; Jan 2025 mandatory requirement
+     for all visa-exempt visitors; official portal only; scam-site warning framing required
+  2. /haifa-neighborhoods-guide (P2, S) — 6 Haifa neighborhoods + where to stay; parallel to shipped
+     /tel-aviv-neighborhoods-guide (iter157); haifa-travel-guide lacks this breakdown
+  3. /israel-by-month (P2, M) — 12-card month-by-month hub; touristisrael.com + thingstodoinisrael.com
+     both publish this format; distinct from seasonal overview best-time-to-visit-israel
+  4. /israel-in-summer (P2, S) — companion to backlog /israel-in-winter; Jul-Aug school-holiday families;
+     honest heat-safety angle on Dead Sea/Negev/Masada differentiates from competitor content
+  5. /temple-mount-visitor-guide (P2, M) — most-asked Jerusalem FAQ; PAIRED NAMING required throughout;
+     plaza-only access for non-Muslims; roughguides/lonelyplanet/timeout all rank; zero coverage on site
+  6. /galilee-christian-heritage (P2, S+monetization) — Capernaum→Tabgha→Mount of Beatitudes half-day
+     circuit; distinct from country-wide pilgrimage guide and day-trip logistics; beinharimtours.com ranks
+De-duped 15+ candidates against BACKLOG + DONE. No gate/ship (RESEARCH mode).
+Gate: N/A.
+Ship: N/A.
+Next: iter 221 = BUILD (221%5==1) → monetization rotation. Top P2 ready monetization items:
+  i18n Phase 3 (P2 i18n, M) or top monetization candidate (Tel Aviv Pride guide P3 S, or
+  highest-priority M item). Recommend i18n Phase 3 (regions fr+de batch 1) as P2 priority.
 Next: iter 220 = BUILD mode (220%5==0 → RESEARCH mode actually; 220%5==0 → RESEARCH).

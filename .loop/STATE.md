@@ -1,13 +1,31 @@
 # LOOP STATE
 
-- iteration: 219
-- lastMode: REVIEW — meta title/desc audit of iter216-218 guides
-- lastItem: meta-desc-fix-219 — fixed 3 meta violations (jaffa-food-guide title 68→55, mahane-yehuda desc 165→158, herodion desc 204→148) + dead anchor in mahane-yehuda (fe074df)
-- lastResult: SHIPPED — gate passed (0 check errors, 404 pages built, 512/512 e2e+a11y pass); committed to master; pushed; CI in_progress at state-write time
-- nextRotationCategory: 220%5==0 → RESEARCH mode
+- iteration: 220
+- lastMode: RESEARCH — 6 net-new backlog items (ETA-IL guide, Haifa neighborhoods, Israel by month, Israel in summer, Temple Mount visitor guide, Galilee Christian heritage circuit)
+- lastItem: research-220 — 6 new items appended to BACKLOG; competitor findings appended to COMPETITORS.md
+- lastResult: COMPLETE — research mode, no gate/ship; BACKLOG + COMPETITORS + STATE + JOURNAL updated; committed to master
+- nextRotationCategory: 221%5==1 → BUILD (monetization rotation)
 - higgsfieldSpent: 0
 - updatedAt: 2026-07-01
 - branch context: work on master; feature work on auto/<slug>
+
+Notes: iter 220 RESEARCH — 6 net-new backlog items:
+  - israel-eta-guide (P2 S) — ETA-IL step-by-step guide; Jan 2025 mandatory for all visa-exempt
+      visitors; official portal only (israel-entry.piba.gov.il); scam-site warnings required
+  - haifa-neighborhoods-guide (P2 S) — 6 Haifa neighborhoods + where to stay; parallel to shipped
+      /tel-aviv-neighborhoods-guide; haifa-travel-guide (iter192) covers activities but not areas
+  - israel-by-month (P2 M) — month-by-month hub (12 cards); touristisrael.com/thingstodoinisrael.com
+      both have format; distinct from best-time-to-visit-israel seasonal overview
+  - israel-in-summer (P2 S) — companion to backlog /israel-in-winter; Jul-Aug families/school hols;
+      heat safety angle differentiator; Masada/Negev/Dead Sea caveats; beach/festival highlights
+  - temple-mount-visitor-guide (P2 M) — most-asked Jerusalem FAQ; PAIRED NAMING required throughout;
+      plaza access only (never mosque interior); roughguides/lonelyplanet/timeout all rank; zero
+      comprehensive coverage on site
+  - galilee-christian-heritage (P2 S+monetization) — Capernaum→Tabgha→Mount of Beatitudes circuit;
+      distinct from christian-pilgrimage-holy-land (country-wide) and nazareth-sea-of-galilee-day-trip
+      (logistics); beinharimtours.com #1-3 for "Galilee Christian tour"
+  - No gate / no ship (RESEARCH mode)
+  - iter219 CI: fe074df pushed; CI in_progress at prior state-write time
 
 Notes: iter 219 REVIEW — meta title/desc audit (iter216-218 guides):
   - Audited: jaffa-food-guide, mahane-yehuda-market-guide, herodion-guide
@@ -118,5 +136,5 @@ Active items from recent research (all in BACKLOG, ready):
 
 Cron b7325b16 hourly @ :17. Loop history: 19 tools + sitemap-lastmod + link-checker(+depth) + i18n
 Phase0/1a/1b/1c/2 Batches1-18(COMPLETE) + 30 review passes + 3 technical (event-schema + meta-trim + locale-links) + 23 EN guides + 3 tools-monetization + 5 accuracy-fix + VAT-refund + israel-museum + golan-heights + review(204-title-fix) + research(205-6-items) + traveling-israel-jewish-holidays(206) + western-wall-tunnels-guide(207) + tower-of-david-guide(208) + review/meta-desc-fix(209) + research(210-5-items) + israeli-breakfast-guide(211) + netanya-guide(212) + jericho-day-trip-from-jerusalem(213) + review/meta-desc-fix(214) + research(215-6-items) + jaffa-food-guide(216) + mahane-yehuda-market-guide(217);
-herodion-guide(218) + review/meta-desc-fix(219);
+herodion-guide(218) + review/meta-desc-fix(219) + research(220-6-items);
 research iters 5/10/20/30/35/40/45/50/55/60/65/70/75/80/85/90/95/100/105/110/115/120/125/130/135/140/145/150/155/160/165/170/175/180/185/190/195/200/205/210/215/220.

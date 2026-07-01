@@ -2797,3 +2797,56 @@ Galilee boat tours (backlog P3 /sea-of-galilee-experiences), Volunteer archaeolo
 Sources checked: itraveljerusalem.com, touristisrael.com, timeout.com/israel, lonelyplanet.com/israel,
 frommers.com/destinations/jerusalem, secrettelaviv.com, beinharimtours.com/beit-guvrin,
 christravelblog.com/beit-guvrin, inpa.gov.il, tripadvisor.com/jaffa-restaurants.
+
+---
+
+## iter220 (2026-07-01) RESEARCH — ETA-IL + entry requirements, neighborhoods, seasonal guides, Temple Mount, Galilee Christian circuit
+
+**Sources checked:** israel-entry.piba.gov.il, il.usembassy.gov/eta-il-advisory, embassies.gov.il/wellington,
+touristisrael.com/israel-entry-guidelines, timeout.com/israel/haifa, lonelyplanet.com/israel,
+roughguides.com/destinations/middle-east/israel/jerusalem, beinharimtours.com, tripadvisor.com (Jerusalem
+forums), thingstodoinisrael.com, americaisraeltours.com/galilee, pilgrimtours.com.
+
+**Key findings:**
+
+**ETA-IL (January 2025 requirement):** Since January 2025 ALL visa-exempt nationalities require ETA-IL
+before boarding any flight to Israel. Official portal: israel-entry.piba.gov.il. US Embassy Jerusalem,
+Australian Embassy, NZ Embassy all publish dedicated ETA-IL advisory pages. Multiple commercial
+fee-charging scam sites (israeleta.info, etc.) mimic the official portal — important to warn visitors
+explicitly. Our visa-information.md covers visa categories generally but has no dedicated ETA-IL guide.
+SEO opportunity: "Israel ETA 2026 how to apply" has zero competition from Israeli tourism sites that
+actually explain the process step-by-step.
+
+**Haifa neighborhoods gap:** haifa-travel-guide.md (SHIPPED iter192) covers activities + Baha'i but
+has no neighborhood/where-to-stay breakdown. timeout.com/israel/haifa and lonelyplanet.com/haifa both
+have neighborhood guides. 6 distinct areas: German Colony, Hadar HaCarmel, Merkaz HaCarmel, Bat Galim,
+Wadi Nisnas (Arab-Christian, Holiday of Holidays Dec), Old City/Russian Compound.
+
+**Seasonal "Israel in [month]" queries:** touristisrael.com and thingstodoinisrael.com each publish
+12 dedicated monthly pages. Our best-time-to-visit-israel.md covers seasons broadly — no month-specific
+hub. The /israel-by-month format is a distinct page from the general seasonal guide.
+
+**Israel in summer:** We have israel-in-autumn (SHIPPED iter195) + israel-in-winter (backlog iter205).
+Summer guide is the obvious missing companion. Key competitive angle: honest heat-safety guidance that
+competitors gloss over (Negev/Dead Sea in July = genuine risk; Masada snake path closed afternoons).
+
+**Temple Mount / Haram al-Sharif access:** Top Jerusalem FAQ with zero comprehensive standalone coverage
+on our site. roughguides.com, lonelyplanet.com, timeout.com/israel all have dedicated access guides.
+tripadvisor.com Jerusalem forum has 200+ posts on this question per month. CRITICAL: paired naming
+required per project rules; must be framed as exterior plaza access only (mosque interiors = never
+for non-Muslims); access closures happen without notice.
+
+**Galilee Christian circuit:** beinharimtours.com ranks #1–3 for "Galilee Christian tour" with
+dedicated itinerary pages (Capernaum → Tabgha → Mount of Beatitudes circuit). We have
+christian-pilgrimage-holy-land.md (country-wide) and nazareth-sea-of-galilee-day-trip.md (logistics
+focused) but no dedicated Galilee-ministry-sites guide. Distinct search intent: "Capernaum Tabgha
+visit" queries are separate from general "Christian pilgrimage Israel" queries.
+
+**De-duped candidates (found in backlog or already shipped):** israel-in-winter (backlog iter205),
+galilee-food-guide (backlog iter215), visa-information (SHIPPED — ETA-IL is new distinct content),
+tiberias-guide (SHIPPED iter87), haifa-travel-guide (SHIPPED iter192), best-time-to-visit-israel
+(SHIPPED — monthly hub is distinct), tel-aviv-neighborhoods-guide (SHIPPED iter157),
+christian-pilgrimage-holy-land (SHIPPED iter94), church-holy-sepulchre-guide (SHIPPED iter164),
+western-wall-tunnels-guide (SHIPPED iter207), jordan-river-baptism (SHIPPED iter136).
+
+**Net-new items added this iteration:** 6
