@@ -4088,3 +4088,21 @@ Gate: N/A for RESEARCH mode — no code shipped.
 Startup: fresh cloud clone; git reset --hard origin/master before initial sync (reverted local
   changes); re-applied all appends after reset; committed cleanly.
 Next: iter 206 = BUILD mode (206%5==1, monetization rotation).
+
+## 2026-07-01T01:37Z · iter 206 · BUILD (monetization) · /traveling-israel-jewish-holidays
+
+Mode: BUILD (206%5==1, monetization rotation). Picked highest-priority P2 seo-content+monetization
+ready item from backlog (line 64, iter35 research — been queued the longest).
+
+What: New /traveling-israel-jewish-holidays guide (1,800+ words). Holiday-by-holiday tourist
+breakdown of all 6 major Jewish holidays — Passover, Shavuot, Rosh Hashanah, Yom Kippur,
+Sukkot, Hanukkah, Purim — from a practical visitor perspective: what closes, what to experience,
+when to book, and 2026/2027 calendar dates. 3 affiliate CTAs (Booking advance accommodation,
+GYG holiday tours, Viator Jerusalem tours). 6 FAQs. Wired into Footer holiday section, cross-links
+from events-festivals.md and shabbat-guide.md.
+
+Gate: pnpm check 0 errors · pnpm build 396 pages (+1) · pnpm test:e2e 502/502 pass (was 501). GREEN.
+Ship: squash-merged + committed 4249ae4 to master, pushed.
+Prod: CI + Lighthouse in_progress at write time — next iteration's start-check will confirm.
+Startup: fresh cloud clone; git reset --hard origin/master (forced update from remote).
+Next: iter 207 = BUILD mode (207%5==2, seo-content rotation).
