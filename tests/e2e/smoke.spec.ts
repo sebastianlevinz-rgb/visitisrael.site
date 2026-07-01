@@ -272,6 +272,7 @@ const ROUTES = [
   '/jericho-day-trip-from-jerusalem',
   '/herodion-guide',
   '/galilee-christian-sites-circuit',
+  '/israel-eta-guide',
 ];
 
 for (const route of ROUTES) {
