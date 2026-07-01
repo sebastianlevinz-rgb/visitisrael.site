@@ -1,6 +1,6 @@
 ---
 title: 'Haifa Neighborhoods Guide: Best Areas to Stay (2026)'
-description: 'Where to stay in Haifa by neighborhood — German Colony, Wadi Nisnas, Hadar, Merkaz HaCarmel, Bat Galim and the Port. Which area matches your trip and how to navigate Haifa''s three vertical levels.'
+description: 'Where to stay in Haifa by neighborhood: German Colony, Wadi Nisnas, Hadar, Merkaz HaCarmel, Bat Galim and the Port area — plus Carmelit navigation tips.'
 heroImage: /images/regions/haifa/german-colony.jpg
 category: Destinations
 updatedAt: 2026-07-01

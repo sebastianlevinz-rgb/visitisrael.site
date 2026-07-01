@@ -1,6 +1,6 @@
 ---
-title: 'Israel ETA-IL Guide: How to Apply for Your Electronic Travel Authorization (2026)'
-description: 'Step-by-step guide to applying for Israel ETA-IL before you fly: who needs it, the official portal, cost, timeline, scam-site warnings, and what to do after approval.'
+title: 'Israel ETA-IL: Complete Application Guide for Visitors (2026)'
+description: 'Step-by-step guide to applying for Israel ETA-IL: who needs it, the official portal, cost, timeline, and what to do after approval.'
 heroImage: /images/regions/tel-aviv/hero.jpg
 category: Planning
 updatedAt: 2026-07-01
