@@ -396,3 +396,4 @@ Smoke + a11y specs extended (+1 route each). 399 pages built; 506/506 e2e+a11y p
 Value: captures "Israeli breakfast guide", "shakshuka Israel", "aruchat boker restaurants Tel Aviv"
 queries; Booking.com "breakfast included" CTA = high conversion purchase trigger for Israel hotels.
 - iter212 · /netanya-guide · SHA 00d1a19 · P2 S seo-content+monetization · Netanya city guide: cliff-top promenade, 14km Mediterranean beach, Franco-Israeli café culture on HaPeled Street, Stern Diamond Factory tour, Booking.com hotel CTA + GYG northern-coast day tour CTA; cross-links to day-trips-from-tel-aviv + caesarea-guide
+- [iter213] Jericho day trip from Jerusalem guide (/jericho-day-trip-from-jerusalem) → 1109630 — world's oldest city framing; Tell es-Sultan; Mount of Temptation cable car; Hisham's Palace Tree of Life mosaic; Area A logistics for foreign tourists; 3 affiliate CTAs (GYG+Viator+Abraham); 508/508 e2e+a11y pass.

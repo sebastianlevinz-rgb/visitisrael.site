@@ -4232,3 +4232,25 @@ in_progress at turn-end.
 iter211 CI run 28498632237: status pending confirmation — check next iter.
 Startup: fresh cloud clone; git reset --hard origin/master (forced update from remote).
 Next: iter 213 = BUILD mode (213%5==3, tools rotation).
+
+## 2026-07-01T08:37 · iter 213 · BUILD (tools rotation→monetization+seo-content) · jericho-day-trip-from-jerusalem
+
+**Item:** `/jericho-day-trip-from-jerusalem` — iter205 research, P2, M (monetization+seo-content).
+**Mode:** Tools rotation (213%5==3) but tools category fully shipped; fell through to monetization/seo-content. Picked Jericho day trip as highest-priority ready item.
+**Gate:** pnpm check 0 errors · pnpm build 401 pages (+1) · pnpm test:e2e 508/508 passed.
+**Merge SHA:** 1109630 — pushed to master.
+**CI:** GitHub Actions in_progress at push time (standard cloud env pattern).
+
+**Content highlights:**
+- Tell es-Sultan (ancient Jericho): world's oldest city framing — traces of occupation 10,000+ BCE; Neolithic stone tower ~8,000 BCE; modest but significant interpretation.
+- Mount of Temptation cable car: Jebel Quruntul; Greek Orthodox Monastery of the Temptation; panoramic Jordan Valley views; practical cable car hours/dress code.
+- Hisham's Palace: 8th-century Umayyad winter palace; Tree of Life mosaic — world-class Early Islamic art; Palestinian Authority site (INPA pass likely not valid, noted).
+- Qasr el-Yahud cross-link: baptism site accessed from Israeli side, pairs naturally with Jericho.
+- Jericho Medjool dates: date stalls accessible without entering Area A; contextual detail.
+- Area A logistics: Israeli citizens cannot legally enter (prominently noted); rental car restrictions (most Israeli agreements prohibit Area A, insurance implications); sherut from Damascus Gate; guided tour as recommended option.
+- Full-day combos: Jericho + Dead Sea (natural 175km loop), Jericho + Bethlehem.
+- Honesty: safety advisory links provided (UK FCDO, US State); heat warnings for summer; site hours caveat; Hisham's Palace sarcophagus replica vs original distinction.
+- 7 FAQs: safety, Israeli citizens, rental car, independent transit, duration, Tell es-Sultan, Hisham's Palace.
+- 3 affiliate CTAs: GYG (Jericho+Dead Sea combo), Viator (Jericho+Qumran+Dead Sea), Abraham Tours (Bethlehem+Jericho West Bank).
+- Cross-link added to day-trips-from-jerusalem.md (new Jericho bullet).
+- Smoke test +1 route.
