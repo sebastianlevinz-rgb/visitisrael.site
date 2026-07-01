@@ -360,3 +360,14 @@ Wired: footer Planning section, airport guide callout, cost-budget cross-link. 3
 - [iter202] /israel-museum-jerusalem — Complete visitor guide to Israel's largest cultural institution: Shrine of the Book (Dead Sea Scrolls), Holyland Model (1:50 scale second-temple Jerusalem), Archaeology Wing, Fine Arts Wing, Billy Rose Art Garden, Judaica Wing. Practical info (hours link to imj.org.il, tickets, getting there). 3 affiliate CTAs (Tiqets skip-the-line, GYG guided tours, Viator Jerusalem full-day). 6 FAQs. TourVerdict wired. Footer + qumran-guide cross-linked. 2400 SV/mo. → 78e20b0
 - [DONE iter203] Golan Heights complete visitor guide (/golan-heights-guide) — 2,100 SV/mo; Mount Bental, Banias, Nimrod Fortress, Druze villages, wineries, Gamla, Hermon; 3 affiliate CTAs; 7 FAQs; hiking table; footer + 2 cross-links; 501 tests pass — 62e613c
 - [iter206] /traveling-israel-jewish-holidays → 4249ae4 — Jewish holiday practical tourist guide (Passover/Yom Kippur/Sukkot/Hanukkah/Purim); 3 affiliate CTAs; 6 FAQs; wired Footer + events-festivals + shabbat cross-links; 502/502 e2e pass.
+
+## iter 207 — /western-wall-tunnels-guide — SHA 6490512
+Western Wall Tunnels complete visitor and booking guide. Covers what the Tunnels are (underground
+Herodian excavation beneath Muslim Quarter exposing the full 488m original wall), key sights
+(Western Stone 570T, Warren's Gate, Hasmonean aqueduct), advance booking requirement via
+english.thekotel.org (sells out weeks ahead), 60-70 min guided-only format, exit onto Via Dolorosa,
+practical tips (narrow passages, no wheelchair access, photography, dress code). 2 affiliate CTAs:
+GYG English tunnels tour (4.9★, 520 reviews) + Viator private. TourVerdict wired. 6 FAQs.
+Cross-links: jerusalem-old-city-walking-tour.md + 1-day-jerusalem-itinerary.md. 503 smoke tests pass.
+Value: fills top-5 Jerusalem bucket-list experience gap; captures "Kotel tunnels how to book",
+"Western Wall Tunnels visitor guide 2026", "underground Jerusalem tour" keywords.

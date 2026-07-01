@@ -4106,3 +4106,21 @@ Ship: squash-merged + committed 4249ae4 to master, pushed.
 Prod: CI + Lighthouse in_progress at write time — next iteration's start-check will confirm.
 Startup: fresh cloud clone; git reset --hard origin/master (forced update from remote).
 Next: iter 207 = BUILD mode (207%5==2, seo-content rotation).
+
+## 2026-07-01T02:40Z · iter 207 · BUILD (seo-content) · /western-wall-tunnels-guide
+
+Mode: BUILD (207%5==2, seo-content rotation). Picked top P2 seo-content/S item from iter200 backlog.
+
+What: New /western-wall-tunnels-guide — complete visitor and booking guide for the underground
+Herodian excavation beneath Jerusalem's Muslim Quarter. Guide covers: what the Tunnels are (488m
+original Herodian wall exposed underground), key sights (Western Stone 570T, Warren's Gate,
+Hasmonean aqueduct, Struthion Pool cistern), advance booking requirement (english.thekotel.org —
+sells out weeks ahead), guided-only format (60-70 min), and the surprising exit onto Via Dolorosa.
+2 affiliate CTAs (GYG English tunnels tour 4.9★/520 reviews + Viator private), TourVerdict box,
+6 FAQs. Cross-links added to jerusalem-old-city-walking-tour.md + 1-day-jerusalem-itinerary.md.
+
+Gate: pnpm check 0 errors · pnpm build 397 pages (+1) · pnpm test:e2e 503/503 pass. GREEN.
+Ship: committed 6490512 to master, pushed. CI + Lighthouse in_progress at write time.
+iter206 CI: confirmed success via GitHub Actions (78ae8d9 docs state commit showed CI=success).
+Startup: fresh cloud clone; git reset --hard origin/master (forced update from remote).
+Next: iter 208 = BUILD mode (208%5==3, tools rotation).
