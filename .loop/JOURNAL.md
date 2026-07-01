@@ -4196,3 +4196,13 @@ De-duped 35+ candidates already in backlog or shipped.
 iter209 CI confirmed success (aa0f655) at session start.
 No code shipped this iteration. BACKLOG.md + COMPETITORS.md + STATE.md updated; commit+pushed to master.
 Next: iter 211 = BUILD mode (211%5==1, monetization rotation category).
+
+## 2026-07-01 · iter 211 · BUILD (monetization) · /israeli-breakfast-guide
+What: new /israeli-breakfast-guide — aruchat boker tradition, shakshuka varieties (classic/green/white),
+key restaurants (Benedict TLV, Dr. Shakshuka Jaffa, Meshek Barzilay, Azura Jerusalem), hotel vs
+restaurant comparison, Galilean/Druze regional variations, kosher + Shabbat practical tips.
+CTAs: GYG Mahane Yehuda morning market tour + Booking.com breakfast-included hotel filter.
+Cross-links added to israeli-food-cuisine-guide + israeli-street-food-guide. Smoke + a11y +1 route.
+Gate (local): pnpm check 0 errors; 399 pages built (+1); 506/506 e2e+a11y pass.
+Ship: d367fb7 committed to master + pushed. CI run 28498632237 in_progress at turn-end.
+Prod: CI confirmed in_progress (build step running); next iter to confirm CI=success.

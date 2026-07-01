@@ -381,3 +381,17 @@ Value: fills top-5 Jerusalem bucket-list experience gap; captures "Kotel tunnels
 
 ## iter 209 — REVIEW — meta desc fix — aa0f655
 Audited iter206-208 guides; fixed over-length meta descriptions on tower-of-david-guide (218→141 chars) and western-wall-tunnels-guide (217→143 chars). Both now under 160-char SEO limit. No dead links, images verified, titles within 65 chars.
+
+## iter 211 — /israeli-breakfast-guide — SHA d367fb7
+Israeli breakfast (aruchat boker) guide — S effort, seo-content+monetization. Covers:
+aruchat boker kibbutz origins; what's on the table (labneh, cheeses, bourekas, finely diced
+salad, shakshuka, hummus, olives, bread); shakshuka varieties (classic/green/white + North
+African Jewish origins); key breakfast restaurants: Benedict TLV (Rothschild, 24h), Meshek
+Barzilay Florentin (vegan pioneer), Dr. Shakshuka Jaffa (Bino Gabso, Libyan-Jewish institution),
+Sarona Market, Azura/Mahane Yehuda Jerusalem; hotel vs restaurant comparison + Booking.com
+"breakfast included" advice; Galilean/Druze regional variations; kashrut + Shabbat practical tips.
+Affiliate CTAs: GYG Mahane Yehuda morning market tour + Booking.com Israel hotels breakfast included.
+Cross-links added: israeli-food-cuisine-guide (closing §) + israeli-street-food-guide (where to next).
+Smoke + a11y specs extended (+1 route each). 399 pages built; 506/506 e2e+a11y pass locally.
+Value: captures "Israeli breakfast guide", "shakshuka Israel", "aruchat boker restaurants Tel Aviv"
+queries; Booking.com "breakfast included" CTA = high conversion purchase trigger for Israel hotels.
