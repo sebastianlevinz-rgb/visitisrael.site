@@ -142,6 +142,8 @@ Water quality on Haifa beaches varies seasonally — check the current status at
 
 ## Planning your visit
 
+For a full breakdown of which neighborhood suits your trip — German Colony, Wadi Nisnas, Hadar, Merkaz HaCarmel, Bat Galim or the Port area — see the [Haifa neighborhoods & where to stay guide](/haifa-neighborhoods-guide).
+
 **One full day:** Morning — Bahá'í Gardens guided tour (book ahead; 09:00 start), followed by the German Colony for lunch. Afternoon — Wadi Nisnas neighbourhood walk, Carmelit up to the Carmel ridge, Stella Maris, Louis Promenade sunset. Return by train to Tel Aviv or Jerusalem by 21:00.
 
 **Two days:** Day 1 as above. Day 2 — Akko in the morning (train, 25 min), afternoon free in Haifa or Rosh Hanikra by car. Alternatively use Day 2 for MadaTech (families) or the Carmel Druze villages.
