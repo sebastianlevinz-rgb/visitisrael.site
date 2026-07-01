@@ -4206,3 +4206,29 @@ Cross-links added to israeli-food-cuisine-guide + israeli-street-food-guide. Smo
 Gate (local): pnpm check 0 errors; 399 pages built (+1); 506/506 e2e+a11y pass.
 Ship: d367fb7 committed to master + pushed. CI run 28498632237 in_progress at turn-end.
 Prod: CI confirmed in_progress (build step running); next iter to confirm CI=success.
+
+## 2026-07-01T07:40Z · iter 212 · BUILD (seo-content) · /netanya-guide
+
+Mode: BUILD (212%5==2, seo-content rotation). Picked top P2/S seo-content item from iter210 research backlog.
+
+What: New /netanya-guide — complete city guide for Netanya, Israel's 4th-largest city and the
+"French Riviera of Israel". Guide covers: cliff-top promenade + Independence Square (Kikar HaAtzmaut),
+HaPeled "French Street" + 60,000+ francophone resident community (honest: French Riviera is a nickname
+for climate+culture, not luxury resort claims), Stern Diamond Factory free tour (honest: commercial
+showroom environment; tour is interesting but purpose is sales), beaches (Poleg Blue Flag, Sironit,
+northern quieter beaches), day-trip combos from Netanya (Caesarea 30km/20 min train, Haifa 45km,
+Sharon wine route), getting there (Israel Railways coastal line 45 min from TLV; station 2km east
+of city centre — bus 1 or taxi; direct Egged 872 bus also available). 6 FAQs.
+Affiliate CTAs: GYG Caesarea+northern coast day tour + Booking.com Netanya sea-view hotels.
+Cross-links added to: day-trips-from-tel-aviv (Netanya bullet in "top day trips" list),
+caesarea-guide (cross-link footer). Smoke test: /netanya-guide route added.
+YAML fix required: apostrophes in single-quoted strings (Netanya's, world's, Israel's) —
+rewrote to avoid possessives or switched to double-quoted strings.
+Broken link fixed: /tel-aviv-complete-guide → /tel-aviv (correct region slug).
+
+Gate: pnpm check 0 errors · pnpm build 400 pages (+1) · pnpm test:e2e 507/507 pass. GREEN.
+Ship: 00d1a19 committed to master + pushed. CI runs 28501658509 (Lighthouse) + 28501658550 (CI)
+in_progress at turn-end.
+iter211 CI run 28498632237: status pending confirmation — check next iter.
+Startup: fresh cloud clone; git reset --hard origin/master (forced update from remote).
+Next: iter 213 = BUILD mode (213%5==3, tools rotation).
