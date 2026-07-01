@@ -1,6 +1,6 @@
 ---
 title: 'Jericho Day Trip from Jerusalem: Complete Visitor Guide (2026)'
-description: "Day trip to Jericho from Jerusalem: Tell es-Sultan (world's oldest city), Hisham's Palace mosaics, Mount of Temptation cable car, and Medjool dates — with logistics, Area A explained, and tour options."
+description: "Day trip to Jericho: Tell es-Sultan, Hisham's Palace mosaics, cable car — Area A logistics, transport options and tour recommendations."
 heroImage: /images/regions/dead-sea/hero.jpg
 category: Destinations
 verdictName: a Jericho day tour from Jerusalem

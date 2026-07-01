@@ -1,5 +1,5 @@
 ---
-title: 'Netanya Guide: French Riviera of Israel — Beaches, Diamonds & Cliff Walks (2026)'
+title: 'Netanya Guide: French Riviera of Israel — Beaches & Diamonds'
 description: 'Netanya travel guide: cliff-top cafés, 14km Mediterranean beach, Stern Diamond Factory, the French connection, and how to reach it from Tel Aviv in 45 minutes.'
 heroImage: /images/regions/haifa/hero.jpg
 category: Destinations

@@ -1,6 +1,6 @@
 ---
-title: 'Israeli Breakfast Guide: Shakshuka, Labneh & the Aruchat Boker Tradition'
-description: 'What is an Israeli breakfast, where to eat the best shakshuka and labneh, and how the aruchat boker tradition works — from kibbutz origins to Tel Aviv brunch restaurants and hotel buffets.'
+title: 'Israeli Breakfast Guide: Shakshuka, Labneh & Aruchat Boker'
+description: 'What is an Israeli breakfast? Shakshuka, labneh and the aruchat boker tradition — from kibbutz origins to Tel Aviv cafés and hotel buffets.'
 heroImage: /images/regions/jerusalem/mahane-yehuda.jpg
 category: Food
 updatedAt: 2026-07-01
