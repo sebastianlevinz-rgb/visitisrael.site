@@ -1,13 +1,31 @@
 # LOOP STATE
 
-- iteration: 217
-- lastMode: BUILD / seo-content
-- lastItem: mahane-yehuda-market-guide — new /mahane-yehuda-market-guide content page (d6a84f9)
-- lastResult: SHIPPED — gate passed (0 check errors, 403 pages built, 511/511 e2e+a11y pass); committed to master; pushed
-- nextRotationCategory: 218%5==3 → BUILD mode / tools rotation
+- iteration: 218
+- lastMode: BUILD / seo-content (fallthrough from tools — all tools items shipped)
+- lastItem: herodion-guide — new /herodion-guide content page (5b2a72b)
+- lastResult: SHIPPED — gate passed (0 check errors, 404 pages built, 512/512 e2e+a11y pass); committed to master; pushed; CI in_progress at state-write time
+- nextRotationCategory: 219%5==4 → REVIEW mode
 - higgsfieldSpent: 0
 - updatedAt: 2026-07-01
 - branch context: work on master; feature work on auto/<slug>
+
+Notes: iter 218 BUILD (seo-content, fallthrough from tools) — herodion-guide shipped:
+  - New guide: /herodion-guide — King Herod's burial mountain, 12 km south of Jerusalem
+  - Content: why Herodion ≠ Masada (tomb vs revolt), full history (23 BCE construction,
+      Josephus burial procession, 2007 Ehud Netzer tomb discovery, Byzantine+Crusader layers),
+      upper palace (4 towers, mikveh, rebel synagogue, tomb niche + replica sarcophagus,
+      summit panorama to Dead Sea), lower city (theater seating 400, pool, bath house mosaics),
+      practical info (Area C West Bank — no permit required, INPA pass valid, ~₪29 entry,
+      no public bus, summer heat caveats, limited parking), 3 combining itineraries
+      (Herodion only, +Bethlehem, +Qumran+Dead Sea)
+  - Affiliate CTAs: GYG Herodion tour, Viator Herodion+Bethlehem, Booking Jerusalem hotels
+  - heroImage: /images/regions/jerusalem/hero.jpg
+  - Smoke test extended with /herodion-guide route (512 → 512 total)
+  - Cross-link added: day-trips-from-jerusalem.md → new Herodion bullet
+  - Tools rotation empty → fell through to seo-content; herodion-guide (P2 S) picked as
+      highest-priority S-effort ready item
+  - Gate: pnpm check 0 errors; build 404 pages (+1); 512/512 e2e+a11y pass
+  - Commit 5b2a72b on master; pushed to origin; CI in_progress at state-write time
 
 Notes: iter 217 BUILD (seo-content) — mahane-yehuda-market-guide shipped:
   - New guide: /mahane-yehuda-market-guide — Mahane Yehuda (the Shuk) Jerusalem standalone

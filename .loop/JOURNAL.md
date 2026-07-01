@@ -4373,3 +4373,15 @@ a dedicated standalone page (same rationale as tel-aviv-carmel-market vs tel-avi
 Gate: pnpm check 0 errors; build 403 pages (+1 vs iter216 base 402); 511/511 e2e+a11y pass.
 Ship: committed d6a84f9 to master, pushed. CI in_progress at journal-write time.
 Next: iter 218 = BUILD mode (218%5==3) / tools rotation.
+
+## 2026-07-01 · iter 218 · BUILD (seo-content, tools fallthrough) · herodion-guide
+What: new /herodion-guide — Herodion (Herodium) national park visitor guide, P2 S seo-content.
+Tools category fully shipped → fell through to seo-content. Picked herodion-guide as top P2 S
+ready item. Content: Herod vs Masada distinction, 23 BCE construction, 2007 Ehud Netzer tomb
+discovery, upper palace (mikveh/rebel synagogue/summit panorama/tomb niche), lower city (theater
+seating 400/pool/bath house mosaics), Area C logistics (no permit from Israeli side), INPA pass
+valid, ~₪29 entry, 3 combining itineraries, 8 FAQs. CTAs: GYG, Viator (+Bethlehem), Booking.
+Cross-link added to day-trips-from-jerusalem. Smoke test extended with /herodion-guide.
+Gate: pnpm check 0 errors; build 404 pages (+1 vs 403); 512/512 e2e+a11y pass.
+Ship: committed 5b2a72b to master, pushed. CI in_progress at journal-write time.
+Next: iter 219 = REVIEW mode (219%5==4).
