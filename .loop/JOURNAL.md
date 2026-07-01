@@ -4493,3 +4493,16 @@ Net-new items added (6): /tel-aviv-things-to-do (P2 M), /israel-with-teenagers (
   /israel-music-guide (P3 M).
 No code changes; .loop/ memory files updated and pushed to master.
 Next: iter 226 = BUILD mode (226%5==1 → monetization category).
+
+## 2026-07-01 · iter 226 · BUILD (monetization) · 1-day-tel-aviv-itinerary
+What: New guide /1-day-tel-aviv-itinerary — morning-to-evening tested itinerary for first-timers.
+Covers Old Jaffa port (7:30am, flea market), seafront promenade walk (9:30am), Carmel Market lunch (11:30am),
+White City Bauhaus walk incl. Ben Gurion House + Dizengoff Square + Bialik Square (1:30pm), beach/museum
+option (4pm), Neve Tzedek or Florentin dinner (7pm). Mirrors 1-day-jerusalem-itinerary.md format.
+Three affiliate CTAs (GYG Jaffa tour priceFrom 25, Viator city highlights priceFrom 49, Booking.com TLV hotels).
+Six FAQs. At-a-glance table. Cross-link added to 1-day-jerusalem-itinerary closing paragraph.
+Defect found + fixed: referenced /ashdod-cruise-port-excursions (not yet built) → replaced with
+/cruise-shore-excursions-israel (existing). Smoke test +1 (/1-day-tel-aviv-itinerary).
+Gate: pnpm check 0 errors; build 408 pages (+1 vs 407); 516/516 e2e+a11y pass.
+Ship: commit 9b5fd01 on master; pushed to origin; CI in_progress at time of writing.
+Next: iter 227 = BUILD mode (227%5==2 → seo-content category). Top candidates: /layover-jerusalem (P2 S), /israel-with-teenagers (P2 S).

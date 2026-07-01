@@ -413,3 +413,6 @@ Trimmed over-length SEO titles/descriptions on iter211-213 guides: israeli-break
 
 ## iter 223 (2026-07-01)
 - /haifa-neighborhoods-guide — SHA b60e624 — Haifa neighborhoods & where-to-stay guide; 6 neighborhoods (German Colony, Wadi Nisnas, Hadar HaCarmel, Merkaz HaCarmel, Bat Galim, Old City/Port); navigation table; Carmelit logistics; Holiday of Holidays noted accurately; Booking.com + GYG CTAs; cross-link from haifa-travel-guide; 515/515 e2e pass
+
+## iter 226 — 1-day-tel-aviv-itinerary
+- /1-day-tel-aviv-itinerary — SHA 9b5fd01 — Morning-to-evening Tel Aviv day plan (Jaffa + promenade + Carmel + White City + Neve Tzedek/Florentin); companion to 1-day-jerusalem-itinerary; GYG/Viator/Booking CTAs; captures "one day in Tel Aviv itinerary" head-term.

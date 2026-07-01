@@ -1,21 +1,29 @@
 # LOOP STATE
 
-- iteration: 225
-- lastMode: RESEARCH — 6 new items: tel-aviv-things-to-do, israel-with-teenagers, ashdod-cruise-port-excursions, 1-day-tel-aviv-itinerary, layover-jerusalem, israel-music-guide
-- lastItem: research-6-new-items-225
-- lastResult: COMPLETE — 6 net-new backlog items appended; no code changes
-- nextRotationCategory: 226%5==1 → BUILD/monetization
+- iteration: 226
+- lastMode: BUILD (monetization) — /1-day-tel-aviv-itinerary shipped
+- lastItem: 1-day-tel-aviv-itinerary
+- lastResult: COMPLETE — 408 pages (+1 vs 407); 516/516 e2e+a11y pass; commit 9b5fd01 on master; CI in_progress at state-write time
+- nextRotationCategory: 227%5==2 → BUILD/seo-content
 - higgsfieldSpent: 0
 - updatedAt: 2026-07-01
 - branch context: work on master; feature work on auto/<slug>
 
-Notes: iter 225 RESEARCH — 6 net-new backlog items:
-  iter225: /tel-aviv-things-to-do (P2 M, seo-content+monetization) — TLV activity hub; head-term "things to do Tel Aviv" currently uncaptured
-  iter225: /israel-with-teenagers (P2 S, seo-content) — distinct from israel-with-kids.md (ages 2-12); 13-18 segment (Masada, surfing, Yad Vashem teen, Birthright-prep)
-  iter225: /ashdod-cruise-port-excursions (P2 S, seo-content+monetization) — distinct from cruise-shore-excursions-israel.md (generic); Ashdod = primary Israel cruise port; GYG/Viator affiliate opportunity
-  iter225: /1-day-tel-aviv-itinerary (P2 S, seo-content+monetization) — 1-day-jerusalem-itinerary.md exists; TLV equivalent missing; targets cruise/transit/day-tripper
-  iter225: /layover-jerusalem (P2 S, seo-content) — layover-tel-aviv.md SHIPPED; Jerusalem layover is distinct (40-50 min BGY→Jerusalem; 8h minimum)
-  iter225: /israel-music-guide (P3 M, seo-content) — zero live music/concert content; tel-aviv-nightlife covers clubs only; IPO, jazz, festival circuit uncovered
+Notes: iter 226 BUILD (monetization) — 1-day-tel-aviv-itinerary shipped:
+  - New guide: /1-day-tel-aviv-itinerary — morning-to-evening tested itinerary for first-timers
+    covering Old Jaffa port (7:30am), seafront promenade walk (9:30am), Carmel Market lunch
+    (11:30am), White City Bauhaus walk (1:30pm), beach/museum option (4pm), Neve Tzedek or
+    Florentin dinner (7pm). Mirrors 1-day-jerusalem-itinerary.md format with time-stamped
+    sections and practical transport notes.
+  - Three affiliate CTAs: GYG Old Jaffa walking tour, Viator TLV city highlights, Booking.com
+    TLV central hotels. Six FAQs. At-a-glance table. Cross-link added to 1-day-jerusalem-itinerary.
+  - One broken internal link caught and fixed: /ashdod-cruise-port-excursions → not yet built;
+    replaced with /cruise-shore-excursions-israel which covers both ports.
+  - Smoke test route added (+1 to ROUTES array).
+  - Gate: pnpm check 0 errors; build 408 pages (+1 vs 407); 516/516 e2e+a11y pass
+  - Commit 9b5fd01 on master; pushed to origin; CI in_progress at state-write time
+
+Notes: iter 225 RESEARCH — 6 new items: tel-aviv-things-to-do, israel-with-teenagers, ashdod-cruise-port-excursions, 1-day-tel-aviv-itinerary, layover-jerusalem, israel-music-guide
 
 Notes: iter 224 REVIEW — meta title/desc audit of iter221-223 guides:
   - Audited 3 guides: galilee-christian-sites-circuit, israel-eta-guide, haifa-neighborhoods-guide
@@ -59,10 +67,10 @@ Active items from recent research (all in BACKLOG, ready):
   iter210: /pet-friendly-israel [P2 M], /israel-with-baby [P2 S], /israel-by-train [P3 S]
   iter215: /easter-in-jerusalem [P2 M], /east-jerusalem-guide [P2 M], /beit-guvrin-caves-guide [P2 S], /galilee-food-guide [P3 S]
   iter220: /israel-by-month [P2 M], /israel-in-summer [P2 S], /temple-mount-visitor-guide [P2 M]
-  iter225: /tel-aviv-things-to-do [P2 M], /israel-with-teenagers [P2 S], /ashdod-cruise-port-excursions [P2 S], /1-day-tel-aviv-itinerary [P2 S], /layover-jerusalem [P2 S], /israel-music-guide [P3 M]
+  iter225: /tel-aviv-things-to-do [P2 M], /israel-with-teenagers [P2 S], /ashdod-cruise-port-excursions [P2 S], /layover-jerusalem [P2 S], /israel-music-guide [P3 M]
   iter190: /mount-tabor-guide [P2 S]
 
 Cron b7325b16 hourly @ :17. Loop history: 19 tools + sitemap-lastmod + link-checker(+depth) + i18n
 Phase0/1a/1b/1c/2 Batches1-18(COMPLETE) + 30 review passes + 3 technical (event-schema + meta-trim + locale-links) + 23 EN guides + 3 tools-monetization + 5 accuracy-fix + VAT-refund + israel-museum + golan-heights + review(204-title-fix) + research(205-6-items) + traveling-israel-jewish-holidays(206) + western-wall-tunnels-guide(207) + tower-of-david-guide(208) + review/meta-desc-fix(209) + research(210-5-items) + israeli-breakfast-guide(211) + netanya-guide(212) + jericho-day-trip-from-jerusalem(213) + review/meta-desc-fix(214) + research(215-6-items) + jaffa-food-guide(216) + mahane-yehuda-market-guide(217);
-herodion-guide(218) + review/meta-desc-fix(219) + research(220-6-items) + galilee-christian-sites-circuit(221) + israel-eta-guide(222) + haifa-neighborhoods-guide(223) + review/meta-desc-fix(224) + research(225-6-items);
+herodion-guide(218) + review/meta-desc-fix(219) + research(220-6-items) + galilee-christian-sites-circuit(221) + israel-eta-guide(222) + haifa-neighborhoods-guide(223) + review/meta-desc-fix(224) + research(225-6-items) + 1-day-tel-aviv-itinerary(226);
 research iters 5/10/20/30/35/40/45/50/55/60/65/70/75/80/85/90/95/100/105/110/115/120/125/130/135/140/145/150/155/160/165/170/175/180/185/190/195/200/205/210/215/220/225.
