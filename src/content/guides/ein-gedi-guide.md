@@ -1,6 +1,6 @@
 ---
 title: 'Ein Gedi Nature Reserve: Complete Visitor Guide (2026)'
-description: 'Ein Gedi visitor guide — Wadi David waterfall trail, Nahal Arugot gorge, ibex watching, botanical garden, opening hours, entrance fees, transport and how to combine with the Dead Sea.'
+description: 'Ein Gedi visitor guide: Wadi David waterfall, Nahal Arugot gorge, ibex watching, botanical garden, opening hours, transport and Dead Sea tips.'
 heroImage: /images/regions/dead-sea/ein-gedi.jpg
 category: Destinations
 updatedAt: 2026-07-02

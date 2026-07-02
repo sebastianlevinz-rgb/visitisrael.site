@@ -1,6 +1,6 @@
 ---
 title: 'Israel with Teenagers: What Teens Actually Love (2026)'
-description: 'Plan an Israel trip teens will enjoy — Masada Snake Path at sunrise, Dead Sea float, Tel Aviv surfing, rappelling in the Judean Desert, street art and adventure parks.'
+description: 'Plan an Israel trip teens will love — Masada Snake Path, Dead Sea float, Tel Aviv surfing, Judean Desert rappelling, street art and adventure parks.'
 heroImage: /images/regions/dead-sea/masada.jpg
 category: Planning
 updatedAt: 2026-07-02
