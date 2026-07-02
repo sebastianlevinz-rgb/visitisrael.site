@@ -1,6 +1,6 @@
 ---
 title: 'Jerusalem Neighborhoods Guide: Best Areas to Stay (2026)'
-description: 'Jerusalem neighborhoods guide — Old City quarters, German Colony, Mahane Yehuda and Mamilla. Which area to base yourself in, where to eat and how to get around.'
+description: 'Jerusalem neighborhoods: Old City quarters, German Colony, Mahane Yehuda and Mamilla. Which area to base yourself, where to eat and how to get around.'
 heroImage: /images/regions/jerusalem/old-city.jpg
 category: Destinations
 updatedAt: 2026-07-02
