@@ -15,6 +15,8 @@ faqs:
     answer: Many are. Beaches, water parks, the Jerusalem Biblical Zoo, science museums, the Dead Sea float, glass-bottom boats in Eilat and easy national-park trails all suit young kids. Some historic and religious sites involve a lot of walking and standing, so balance heavy sightseeing days with active, outdoor ones.
 ---
 
+**Travelling with teenagers (ages 13–18)?** See the dedicated [Israel with teenagers guide](/israel-with-teenagers) for teen-specific experiences — the Masada Snake Path, surfing in Tel Aviv, rappelling in the Judean Desert and street art in Florentin.
+
 Israel is one of the easiest countries in the world to travel with children — and one of the most underrated. The whole country fits in a space smaller than many single US states, so you're never far from a beach, a park or an ice cream. Israelis adore kids and welcome them everywhere, from white-tablecloth restaurants to ancient ruins. This guide covers where to go, where to stay, and how to keep everyone happy.
 
 ## Why Israel works for families
