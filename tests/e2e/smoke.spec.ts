@@ -284,6 +284,7 @@ const ROUTES = [
   '/israel-in-summer',
   '/cycling-in-israel',
   '/vegan-vegetarian-israel',
+  '/best-hotels-tel-aviv',
 ];
 
 for (const route of ROUTES) {
