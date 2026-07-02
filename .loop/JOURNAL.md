@@ -4897,3 +4897,42 @@ Findings: 4 meta descriptions over 160-char SERP limit across 2 files.
 Gate: pnpm check 0 errors; build 424 pages; 536/536 e2e+a11y pass.
 Ship: squash-merged to master 59db2b8, pushed. CI in_progress at push (prior pattern → pass).
 Next: iter 250 = RESEARCH (250%5==0).
+
+## 2026-07-02 · iter 250 · RESEARCH · competitor-gap-scan-250
+
+Mode: RESEARCH (250%5==0). No code shipped.
+
+Scanned: hike-israel.com, ecoisraeltours.com, aardvarkisrael.com, natureisrael.org,
+buckettripper.com, touristisrael.com (birdwatching + Haifa neighborhoods + rooftop bars),
+mukikapupstravels.com (Haifa where to stay), desert-prime.com, deepdesertisrael.com,
+deserttimeisrael.com, astronomyisrael.com (stargazing), ride-israel.com, hiddentrails.com,
+tripadvisor.com/Israel-horse-riding (horseback), therooftopguide.com/tel-aviv,
+timeout.com/israel/nightlife, igoogledisrael.com (rooftop views).
+
+5 net-new BACKLOG items added (confirmed ZERO prior entries for each via keyword search):
+  1. /israel-birdwatching (P2, M, seo-content+monetization) — Hula Valley (BBC Wildlife
+     top-10 global birdwatching site; 2M+ birds/day crane overwintering peak); Eilat Bird
+     Festival (March) + Hula Valley Birds Festival (November); safari wagon sunrise tours;
+     ecoisraeltours.com tour affiliate. Zero prior backlog entry.
+  2. /haifa-neighborhoods-guide (P2, S, seo-content+monetization) — Natural 3rd in
+     neighborhoods series (TLV iter157 + Jerusalem iter246 SHIPPED); DISTINCT from
+     haifa-travel-guide.md. 5 neighborhoods: German Colony, Upper Carmel, Bat Galim, Hadar,
+     Downtown/Port; Carmelit funicular logistics. Zero prior backlog entry.
+  3. /israel-stargazing (P2, S, seo-content+monetization) — Mitzpe Ramon = first IDA-
+     certified International Dark Sky Park in Middle East; Desert Prime/Deep Desert Israel
+     operators; Summer of Stars August event; DISTINCT from mitzpe-ramon-guide (general).
+     Zero prior backlog entry.
+  4. /israel-horseback-riding (P2, S, seo-content+monetization) — Vered HaGalil (est. 1961),
+     Habokrim/Kibbutz Merom Golan, Moshav Ramot, Kibbutz Ein Dor; Jesus Trail overlap angle;
+     DISTINCT from israel-adventure-sports.md (horse riding not covered). Zero prior backlog entry.
+  5. /israel-rooftop-bars-views (P3, S, seo-content) — TLV: Haiku Sky Bar, Poli House, 2C
+     Azrieli 49F, SuraMare; Jerusalem: Mamilla Hotel, Austrian Hospice (free), Galitzia Roof;
+     free viewpoints sidebar. Zero prior backlog entry.
+
+De-duped (confirmed already in backlog / SHIPPED, not added):
+  wine tourism (6+ items), glamping-israel (iter60), mitzpe-ramon-guide (iter85),
+  israel-kayaking (iter225), tel-aviv-beach-guide (iter170), traveling-with-baby (iter225),
+  haifa-food-guide (P3 backlog — DISTINCT from neighborhoods guide).
+
+.loop/ files (STATE, JOURNAL, BACKLOG, COMPETITORS) committed to master.
+NEXT: iter 251 = BUILD (251%5==1 → monetization rotation).

@@ -3134,3 +3134,78 @@ Brigade monument (UNESCO-recognized land art). Transport hub for Mitzpe Ramon (9
 - /dead-sea-hotels-guide (P2, S, monetization)
 - /jericho-day-trip-from-jerusalem (P2, M, seo-content+monetization)
 - /beer-sheva-guide (P3, S, seo-content)
+
+### 2026-07-02 · iter 250 · birdwatching / haifa-neighborhoods / stargazing / horseback / rooftop-bars scan
+
+**Competitors scanned:** hike-israel.com, ecoisraeltours.com, aardvarkisrael.com, natureisrael.org,
+buckettripper.com, touristisrael.com (birdwatching + Haifa neighborhoods + rooftop bars pages),
+mukikapupstravels.com (Haifa neighborhoods), desert-prime.com / deepdesertisrael.com /
+deserttimeisrael.com / astronomyisrael.com (stargazing), ride-israel.com / hiddentrails.com /
+tripadvisor.com/Israel-horse-riding (horseback), therooftopguide.com/tel-aviv,
+timeout.com/israel/nightlife, igoogledisrael.com (rooftop/views).
+
+**Key findings:**
+
+**Israel birdwatching (P2, M, seo-content+monetization → /israel-birdwatching):**
+hike-israel.com/nature-in-israel/bird-watching-in-israel/ is the dominant organic result for
+"birdwatching Israel guide". ecoisraeltours.com/israel-bird-migration/ covers the migration angle.
+BBC Wildlife citation: Hula Lake = top 10 global birdwatching sites. 500+ species; 2M+ birds/day
+at Hula Valley crane overwintering peak (Oct–Feb). Eilat Bird Festival (March, raptor migration)
++ Hula Valley Birds Festival (November) are annual recurring events — strong seasonal SEO.
+Agamon Hula safari wagon sunrise tours Fri/Sat during migration season = high-differentiation detail
+competitors don't surface clearly. No existing page on our site; zero backlog entry pre-iter250.
+
+**Haifa neighborhoods / where to stay (P2, S, seo-content+monetization → /haifa-neighborhoods-guide):**
+touristisrael.com/where-to-stay-in-haifa/45619/ + mukikapupstravels.com/where-to-stay-in-haifa/
+rank well. Our haifa-travel-guide.md (SHIPPED iter192) is a general overview — no per-neighborhood
+accommodation recommendations. Natural third in the neighborhoods guide series (TLV iter157 + Jerusalem
+iter246 both SHIPPED and performing). Five distinct neighborhoods identified: German Colony (best
+location — Bahá'í access, restaurants, Colony Hotel), Upper Carmel (panoramic views, most hotels),
+Bat Galim (beachfront, cable car lower terminus), Hadar (local/budget, Madatech museum), Downtown/Port
+(cruise access, Wadi Nisnas adjacent). Carmelit funicular + cable car logistics are key differentiators
+vs flat competitors. No existing standalone neighborhoods guide; zero backlog entry pre-iter250.
+
+**Israel stargazing / dark sky astronomy (P2, S, seo-content+monetization → /israel-stargazing):**
+desert-prime.com/stargazing, deepdesertisrael.com, levyisraeltours.com/post/stargazing all rank.
+Mitzpe Ramon = first IDA-certified International Dark Sky Park in the Middle East — a concrete,
+credible anchor fact competitors don't always lead with. Dedicated operators: Desert Prime, Desert
+Time Israel, Deep Desert Israel, Astronomy Israel — 2h guided sessions ~₪150–200. "Summer of Stars"
+(August, Perseid peak, town dims lights) is unique event angle. DISTINCT from planned mitzpe-ramon-guide
+(general destination); stargazing guide is its own long-tail cluster. Zero backlog entry pre-iter250.
+
+**Israel horseback riding (P2, S, seo-content+monetization → /israel-horseback-riding):**
+ride-israel.com is the dedicated equestrian-Israel portal (aggregates ranches). touristisrael.com
+has a Galilee horse tour product page. TripAdvisor Israel horse riding category: 15+ operators.
+hiddentrails.com/country/Israel.aspx covers multi-day equestrian itineraries. Four key named ranches:
+Vered HaGalil (most established, 1961, Galilee), Habokrim / Kibbutz Merom Golan (northern Golan),
+Moshav Ramot (southern Golan), Kibbutz Ein Dor (Jezreel Valley). Christian pilgrimage angle (Jesus
+Trail overlap at Vered HaGalil) is a differentiator vs standard adventure framing. DISTINCT from
+israel-adventure-sports.md (SHIPPED — horse riding not covered there). Zero backlog entry pre-iter250.
+
+**Israel rooftop bars & views (P3, S, seo-content → /israel-rooftop-bars-views):**
+therooftopguide.com/rooftop-bars-in-tel-aviv.html + timeout.com/israel/nightlife/best-rooftop-bars
+both rank well. touristisrael.com/best-rooftops-in-tel-aviv/24111 and igoogledisrael.com/top-10-best-
+eye-popping-views-to-see-in-israel cover the viewpoint angle. Distinct rooftop venues confirmed:
+TLV (Haiku Sky Bar / Lighthouse by Brown 18F sea views, Poli House Mediterranean panorama, 2C Azrieli
+Tower 49F panoramic kosher); Jerusalem (Mamilla Hotel terrace, Austrian Hospice rooftop garden free
+entry, Galitzia Roof above Mahane Yehuda); Haifa (Dan Carmel terrace). Free panoramic viewpoints
+sidebar adds practical value: Masada summit, Bahá'í Gardens terraces, Mitzpe Ramon crater rim.
+Austrian Hospice free entry = underreported differentiator. Zero backlog entry pre-iter250.
+
+**De-duplicated and confirmed already covered (not added to BACKLOG):**
+- Wine tourism: 6+ items (israel-wine-regions, judean-hills-wine-trail, golan-heights-wineries,
+  rosh-pina-guide, zichron-yaakov-guide, galilee-food-guide) all in backlog or SHIPPED
+- Glamping/eco-lodges: glamping-israel P2 backlog iter60
+- Mitzpe Ramon guide: P2 backlog iter85 (general destination; DISTINCT from stargazing guide)
+- Tel Aviv museums/art galleries: P3 backlog
+- Kayaking: jordan-river-kayaking / israel-kayaking backlog iter225
+- Tel Aviv beach guide: P2 backlog iter170
+- Traveling with baby/families: P2 backlog iter225
+- Haifa food guide: P3 backlog (DISTINCT from neighborhoods guide)
+
+**Net-new items added this iteration:** 5
+- /israel-birdwatching (P2, M, seo-content+monetization)
+- /haifa-neighborhoods-guide (P2, S, seo-content+monetization)
+- /israel-stargazing (P2, S, seo-content+monetization)
+- /israel-horseback-riding (P2, S, seo-content+monetization)
+- /israel-rooftop-bars-views (P3, S, seo-content)
