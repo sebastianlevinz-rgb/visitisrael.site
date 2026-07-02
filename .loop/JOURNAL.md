@@ -4559,3 +4559,21 @@ De-duped: stargazing (iter60), accessible travel (iter30), cycling (iter45), bir
 New items: 6 — /ein-gedi-guide (P2 S), /israel-for-gulf-travelers (P2 M), /israel-monasteries-guide (P2 M), /akko-food-guide (P3 S), /ramla-lod-guide (P3 S), /india-to-israel-guide (P3 M).
 Gate: N/A (RESEARCH mode — no code changes).
 Next: iter 231 = BUILD/monetization (231%5==1). Top monetization P2 items ready: israel-for-gulf-travelers (new, P2 M), or existing monetization items in backlog (east-jerusalem-guide P2 M, pet-friendly-israel P2 M, israel-by-month P2 M).
+
+## 2026-07-02 · iter 231 · BUILD (monetization) · eilat-travel-guide
+What: /eilat-travel-guide — practical city guide for Eilat, distinct from the existing eilat.md
+(region hub) and eilat-tours-compared.md (tour comparison) and eilat-diving-snorkeling.md
+(scuba-only). Content: North Beach vs Coral Beach Nature Reserve (the reef snorkel distinction
+is a key practical choice; Coral Beach charges NPA fee, mandatory reef-safe sunscreen); Dolphin
+Reef with honest semi-wild framing (encounters not guaranteed — this is a documented fact that
+distinguishes ethical content; piers ~₪80-120, swim session additional ~₪150-250); Underwater
+Observatory Marine Park (800+ species; rain-free alternative; ~₪90-110 entry); Timna Park (25km
+north, King Solomon's Pillars + Mushroom Rock + copper mines, car required, half-day, seasonal
+heat warnings); tax-free shopping (17% VAT exempt; Ahava/cosmetics angle); getting there (fly
+50min BG→ETM, drive 4-5h via Route 90 Dead Sea road or Route 40 Negev highlands, bus 5h);
+trip-length planning table (1-day/2-day/3-day/weekend).
+Three affiliate CTAs: Booking.com Eilat hotels + GYG activities + Viator Dolphin Reef/Timna.
+Cross-link added to eilat.md region page. Smoke test route +1 (519 total).
+Gate: pnpm check 0 errors; build 411 pages (+1 vs 410); 519/519 e2e+a11y pass.
+Merge SHA: 92b8239 on master; pushed to origin; CI in_progress at journal-write time.
+Next: iter 232 = BUILD/seo-content (232%5==2).

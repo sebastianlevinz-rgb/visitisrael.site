@@ -1,13 +1,32 @@
 # LOOP STATE
 
-- iteration: 230
-- lastMode: RESEARCH — new tourist segments + niche destination gaps
-- lastItem: research-230
-- lastResult: COMPLETE — 6 new backlog items: ein-gedi-guide (P2 S), israel-for-gulf-travelers (P2 M), israel-monasteries-guide (P2 M), akko-food-guide (P3 S), ramla-lod-guide (P3 S), india-to-israel-guide (P3 M); COMPETITORS.md updated; no code changes
-- nextRotationCategory: 231%5==1 → BUILD/monetization
+- iteration: 231
+- lastMode: BUILD (monetization)
+- lastItem: eilat-travel-guide
+- lastResult: COMPLETE — /eilat-travel-guide shipped; 411 pages; 519/519 e2e+a11y pass; commit 92b8239
+- nextRotationCategory: 232%5==2 → BUILD/seo-content
 - higgsfieldSpent: 0
 - updatedAt: 2026-07-02
 - branch context: work on master; feature work on auto/<slug>
+
+Notes: iter 231 BUILD (monetization) — eilat-travel-guide shipped:
+  - New guide: /eilat-travel-guide — practical Eilat city guide for first-time visitors.
+    Covers North Beach promenade vs Coral Beach Nature Reserve (snorkel distinction),
+    Dolphin Reef with honest semi-wild expectations framing (encounters not guaranteed),
+    Underwater Observatory Marine Park (800+ species; rain-free alternative), Timna Park
+    (25km north; seasonal heat warning for summer; King Solomon's Pillars + Mushroom Rock
+    + copper mines; car required or guided jeep tour), tax-free shopping zone (17% VAT
+    exempt; Ahava/cosmetics/alcohol angle), getting there (fly 50min vs drive 4-5hrs via
+    Route 90 Dead Sea road or Route 40 Negev highlands), trip-length planning table
+    (1-day/2-day/3-day/weekend templates), hotel tier overview (North Beach strip for
+    first-timers; budget options behind strip). Day trips: Petra (long but feasible),
+    Wadi Rum, Negev self-drive.
+  - Three affiliate CTAs: Booking.com Eilat hotels + GYG activities (Red Sea/Timna) +
+    Viator (Dolphin Reef/Timna).
+  - Cross-link added to eilat.md region page (after existing tours-compared link).
+  - Smoke test route added (+1 to ROUTES array; 519 total).
+  - Gate: pnpm check 0 errors; build 411 pages (+1 vs 410); 519/519 e2e+a11y pass
+  - Commit 92b8239 on master; pushed to origin; CI in_progress at state-write time
 
 Notes: iter 230 RESEARCH — 6 new backlog items: new tourist segments + niche destination gaps:
   - /ein-gedi-guide (P2, S): standalone visitor guide for Israel's most-visited nature reserve; 2026 flood damage note (Wadi David upper trail); water-hiking-israel.md covered it in 200 words only; competitors deadsea.com, hike-israel.com, touristisrael.com all have full guides
@@ -115,8 +134,10 @@ Active items from recent research (all in BACKLOG, ready):
   iter220: /israel-by-month [P2 M], /israel-in-summer [P2 S], /temple-mount-visitor-guide [P2 M]
   iter225: /israel-with-teenagers [P2 S], /ashdod-cruise-port-excursions [P2 S], /israel-music-guide [P3 M]
   iter190: /mount-tabor-guide [P2 S]
+  iter230: /ein-gedi-guide [P2 S], /israel-for-gulf-travelers [P2 M], /israel-monasteries-guide [P2 M], /akko-food-guide [P3 S], /ramla-lod-guide [P3 S], /india-to-israel-guide [P3 M]
 
 Cron b7325b16 hourly @ :17. Loop history: 19 tools + sitemap-lastmod + link-checker(+depth) + i18n
 Phase0/1a/1b/1c/2 Batches1-18(COMPLETE) + 30 review passes + 3 technical (event-schema + meta-trim + locale-links) + 23 EN guides + 3 tools-monetization + 5 accuracy-fix + VAT-refund + israel-museum + golan-heights + review(204-title-fix) + research(205-6-items) + traveling-israel-jewish-holidays(206) + western-wall-tunnels-guide(207) + tower-of-david-guide(208) + review/meta-desc-fix(209) + research(210-5-items) + israeli-breakfast-guide(211) + netanya-guide(212) + jericho-day-trip-from-jerusalem(213) + review/meta-desc-fix(214) + research(215-6-items) + jaffa-food-guide(216) + mahane-yehuda-market-guide(217);
 herodion-guide(218) + review/meta-desc-fix(219) + research(220-6-items) + galilee-christian-sites-circuit(221) + israel-eta-guide(222) + haifa-neighborhoods-guide(223) + review/meta-desc-fix(224) + research(225-6-items) + 1-day-tel-aviv-itinerary(226) + tel-aviv-things-to-do(227) + layover-jerusalem(228) + review/meta-desc-fix(229);
-research iters 5/10/20/30/35/40/45/50/55/60/65/70/75/80/85/90/95/100/105/110/115/120/125/130/135/140/145/150/155/160/165/170/175/180/185/190/195/200/205/210/215/220/225.
+research(230-6-items) + eilat-travel-guide(231).
+research iters 5/10/20/30/35/40/45/50/55/60/65/70/75/80/85/90/95/100/105/110/115/120/125/130/135/140/145/150/155/160/165/170/175/180/185/190/195/200/205/210/215/220/225/230.

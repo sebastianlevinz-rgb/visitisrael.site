@@ -422,3 +422,6 @@ Complete Tel Aviv activity & attractions hub targeting "things to do in Tel Aviv
 
 ## iter 228 — layover-jerusalem (34df41e) [2026-07-02]
 New guide /layover-jerusalem — Jerusalem layover feasibility guide: honest transit timing (50 min each way BGY→Old City), city-time breakdown per window (6h/8h/10h/24h), Shabbat transport fallback, timed walking circuits for each layover length. Companion to /layover-tel-aviv. Captures "visit Jerusalem on a layover" and related "Ben Gurion Airport to Jerusalem time" queries. GYG + WelcomePickups + Booking CTAs.
+
+## iter 231 — eilat-travel-guide (92b8239) [2026-07-02]
+New guide /eilat-travel-guide — practical city guide for Eilat as a Red Sea resort destination (distinct from region hub, tours-compared, and dive-snorkel guide). Covers North Beach vs Coral Beach Nature Reserve snorkel distinction, Dolphin Reef with honest semi-wild expectations, Underwater Observatory, Timna Park with seasonal heat warnings, tax-free VAT-exempt shopping (17% saving on cosmetics/alcohol), fly vs drive vs bus options, trip-length planning table (1-day/2-day/3-day/weekend), hotel tier overview. Booking.com + GYG + Viator CTAs. Cross-link from eilat.md region page. Targets "Eilat travel guide 2026", "things to do in Eilat", "Eilat Red Sea beach".
