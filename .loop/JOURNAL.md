@@ -4769,3 +4769,20 @@ Gate: pnpm check 0 errors; build 417 pages (+1); 524/524 e2e+a11y pass.
 Ship: squash-merged to master 785ab1d, pushed.
 Prod: CI in_progress at state-write time; next iter start-check will confirm.
 Next: iter 242 = BUILD (242%5==2 → seo-content).
+
+## 2026-07-02T14:41Z · iter 242 · BUILD (seo-content) · vegan-vegetarian-israel
+What: new /vegan-vegetarian-israel guide — plant-based eating hub for Israel.
+  Covers naturally-vegan Middle Eastern staples (hummus, falafel, sabich, msabbaha,
+  amba), dedicated TLV vegan restaurants (Meshek Barzilay, Falafel Sumsum, HaKosem,
+  Green Cat, Opa), kashrut system explained for vegans (parve + kosher-meat = no dairy),
+  Jerusalem scene (Mahane Yehuda, Abu Shukri, Nachlaot), Haifa/Galilee Arab restaurants,
+  Hebrew supermarket label reading (chalav/parve/basari), Shabbat grocery planning.
+  1× GYG Tel Aviv food tour CTA + 1× Booking.com TLV hotel CTA.
+  Cross-links: kosher-food-guide, tel-aviv-food-guide, carmel-market, shabbat-guide,
+  jaffa-travel-guide, nazareth-travel-guide, mahane-yehuda-market-guide.
+  Back-links added: kosher-food-guide.md + tel-aviv-food-guide.md.
+  YAML fix needed mid-build: apostrophe in `'Taste Tel Aviv's food scene'` and `city's`
+  inside single-quoted strings — fixed to double quotes.
+Gate: pnpm check 0 errors; build 418 pages (+1 from 417); 525/525 e2e+a11y pass.
+Merge: f2c65cf on master; pushed to origin.
+Prod: CI + Lighthouse workflows in_progress at push time (expected pattern; prior 241 CI = success).

@@ -469,3 +469,16 @@ strip (Dan Eilat, Isrotel Royal Beach, Prima Music Hotel, U Boutique), Coral Bea
 matrix by visitor priority. 2× Booking.com CTAs (resort + budget) + 1× GYG activity CTA.
 eilat-travel-guide.md updated: corrected price ranges (were understated in iter231) + added
 cross-link to new companion page. 417 pages; 524/524 e2e+a11y pass. [monetization]
+
+## iter 242 (2026-07-02) — vegan-vegetarian-israel — f2c65cf
+New /vegan-vegetarian-israel guide — comprehensive plant-based eating hub for Israel.
+Covers: key Middle Eastern dishes that are naturally vegan (hummus, falafel, sabich,
+msabbaha, amba); Tel Aviv dedicated vegan restaurants (Meshek Barzilay, Falafel Sumsum,
+HaKosem/sabich, Green Cat vegan pizza, Opa fine dining); Carmel Market as plant-based
+food hub; how to use the kashrut system — parve meaning + kosher-meat restaurant = zero
+dairy guarantee; Jerusalem (Mahane Yehuda, Abu Shukri, Nachlaot/German Colony cafés,
+Shabbat closure planning); Haifa and Galilee (Arab restaurant mezze, Wadi Nisnas,
+Nazareth Arab restaurants); Israeli supermarket label reading (chalav/parve/basari in
+Hebrew); Shabbat grocery planning. 1× GYG food tour CTA + 1× Booking.com TLV hotel CTA.
+kosher-food-guide.md + tel-aviv-food-guide.md updated with back-links.
+418 pages; 525/525 e2e+a11y pass. [seo-content]
