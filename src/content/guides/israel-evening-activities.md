@@ -150,7 +150,7 @@ Several local operators run **guided stargazing nights** from Mitzpe Ramon, with
 - The 2.5-hour drive from Tel Aviv or Jerusalem makes this a natural overnight stay.
 - Combine with a day hike in the crater, which is free to explore on foot.
 
-Cross-links: [Negev region](/negev) · [Israel adventure sports](/israel-adventure-sports) · [Israel distance calculator](/israel-distance-calculator)
+Cross-links: [Negev region](/negev) · [Israel adventure sports](/israel-adventure-sports) · [Israel distance calculator](/israel-distance-calculator) · [Full stargazing guide: operators, seasons & overnight planning](/israel-stargazing)
 
 ---
 
