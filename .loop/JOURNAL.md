@@ -4727,3 +4727,31 @@ What: Full EN guide frontmatter audit — checked all guide titles (≤65 chars)
 Gate: pnpm check 0 errors; build 416 pages; 524/524 e2e+a11y pass. GREEN.
 Ship: committed to master 957afaf, pushed. CI in_progress at journal-write time.
 Next: iter 240 = RESEARCH mode (240%5==0).
+
+## 2026-07-02 · iter 240 · RESEARCH · competitor-gap-scan-240
+What: Competitor gap scan — systematically searched touristisrael.com, thebrokebackpacker.com,
+  agoda.com, misstourist.com, backpackisrael.com for content gaps vs our site.
+  Research queries covered: hotel-picks by city (Eilat, Tel Aviv), seasonal content, budget
+  travel by city, and cross-checked 40+ existing backlog items for duplicates.
+  After 240 iterations the backlog is highly saturated (~130+ ready items); finding 3
+  genuinely new items is appropriate.
+  Net-new items added (3 total):
+    monetization=eilat-hotels-guide (P2, S): hotel picks at 3 budget tiers for Eilat's
+      distinct zones (North Shore/Coral Beach/city center); Booking.com CTAs; distinct from
+      eilat-travel-guide.md (iter231, destination overview) which has zero hotel recommendations.
+    monetization=best-hotels-tel-aviv (P2, S): hotel picks at 3 budget tiers by TLV area;
+      distinct from tel-aviv-neighborhoods-guide.md (iter157, neighborhood character only,
+      no specific hotel names or affiliate CTAs); monetization companion page.
+    seo-content=tel-aviv-budget-guide (P3, S): "free and cheap things to do in Tel Aviv";
+      distinct from free-things-to-do-israel.md (national hub with only 2 TLV entries) and
+      israel-cost-budget.md (cost overview, not experience guide); captures "free things to
+      do Tel Aviv" long-tail from thebrokebackpacker.com, backpackisrael.com.
+  De-duped: israel-in-autumn (iter195), mitzpe-ramon (iter85), passover (iter155),
+    sukkot (iter160), high-holidays (iter160), spring (SHIPPED iter203), Tel Aviv Pride
+    (iter90), vegan-vegetarian (iter55), best beaches (iter5), digital nomad (iter30),
+    genealogy (iter50), volunteer archaeology (iter40), wine regions (SHIPPED), eilat general
+    (SHIPPED iter231), Dead Sea hotels (covered by dead-sea-guide P2), 14-day itinerary
+    (SHIPPED iter141). No gate needed for RESEARCH mode.
+Ship: committed .loop/ files to master.
+Next: iter 241 = BUILD (241%5==1 → rotation[1%4] = monetization → eilat-hotels-guide or
+  best-hotels-tel-aviv are top candidates).

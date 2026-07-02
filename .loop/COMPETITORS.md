@@ -2980,3 +2980,93 @@ Sources: touristisrael.com, jpost.com, secrettelaviv.com, tlvfest.com, midburn.o
 - /tlvfest-guide (P3, S, seo-content)
 - /indnegev-festival (P3, S, seo-content)
 - /israel-festival-jerusalem-guide (P3, S, seo-content)
+
+## iter240 (2026-07-02) — RESEARCH: seasonal gaps + monetization hotel pages + festival guides
+
+Sources: touristisrael.com, israel-taxi.com, thebrokebackpacker.com, misstourist.com, kimkim.com,
+globalhighlights.com, timeout.com/israel, laidbacktrip.com, magnificenttravel.com,
+passoverlistings.com, totallyjewishtravel.com, agoda.com, mukikapupstravels.com, expedia.com
+
+### Findings
+
+1. **Israel in Autumn / Fall** — September-October-November is Israel's BEST travel season
+   (temperatures 22-27°C, Negev hiking perfect, wine harvest in Golan, Hula Valley crane migration
+   with 500M birds, Rosh Hashana+Sukkot unique experiences). Kimkim, globalhighlights, tzurtours,
+   mukikapupstravels, audleytravel all rank for "Israel in fall", "Israel autumn travel". We have
+   /israel-in-summer (SHIPPED iter237) and /israel-in-winter (backlog iter205) but NO autumn guide.
+   Critical seasonal gap: autumn = highest-intent travel season yet no corresponding content.
+
+2. **Mitzpe Ramon standalone guide** — israel-taxi.com ("The Ultimate Guide"), timeout.com
+   ("A tourist's guide to Mitzpe Ramon"), laidbacktrip.com, trip.com, thesanetravel.com all have
+   dedicated visitor guides. We have negev-mitzpe-ramon ATTRACTION page + passing mention in 14-day
+   itinerary, but NO guide. Ramon Crater = world's largest erosion crater; IDA-certified Dark Sky Park
+   (one of few in Middle East); Beresheet hotel (Israel's top desert luxury property); Be'erot
+   campground INSIDE crater. Zero guide-level competitor gap remains on our site.
+
+3. **Passover in Israel dedicated guide** — touristisrael.com has "Passover in Tel Aviv" +
+   "Passover in Israel" as TWO separate dedicated pages; totallyjewishtravel.com, passoverlistings.com
+   have detailed program guides. Our traveling-israel-jewish-holidays covers all holidays but Passover
+   gets ~200 words. Tourist Israel generates dedicated Passover content because search intent
+   is high-volume and date-specific ("Passover Israel 2027" peaks months in advance). Birkat Kohanim
+   at Kotel during Chol Hamoed = spectacular mass priestly blessing experience unique in the world.
+   No-chametz restaurant situation, hotel Seder programs, Chol Hamoed family activities = all
+   practically useful content for tourists that we don't have in depth.
+
+4. **Where to stay in Eilat / best Eilat hotels** — touristisrael.com has dedicated "Where to Stay
+   in Eilat" page. Agoda, TripAdvisor, Expedia, Marriott all rank for hotel queries. eilat-travel-
+   guide.md (iter231) covers the destination but NOT specific hotel picks by budget tier. Tourist
+   Israel format: North Shore hotel zone vs South Shore (snorkeling/diving focus) + hotel picks
+   at 3 price points. Strong Booking.com affiliate monetization opportunity. 380+ hotels in Eilat.
+
+5. **Best hotels in Tel Aviv** — touristisrael.com has BOTH "Best Area to Stay in Tel Aviv"
+   AND "Best Hotels in Tel Aviv 2026" as distinct separate pages. Our tel-aviv-neighborhoods-guide.md
+   covers neighborhood character, NOT specific hotel name recommendations with Booking.com CTAs.
+   israel-taxi.com, thebrokebackpacker.com, misstourist.com all have standalone "best hotels" format
+   (Norman, Kempinski/David, Setai, Renoma, Florentin-area budget picks) distinct from neighborhoods.
+   Companion monetization page to our existing neighborhoods guide.
+
+6. **Israel in Spring** — March-May: wildflower season (kalanit/anemones + red poppies in Galilee
+   peaking late February-March), Easter Holy Fire ceremony at Church of Holy Sepulchre (Holy Saturday),
+   Passover atmosphere, perfect hiking temperatures, lowest crowds between Purim and Passover. Kimkim,
+   globalhighlights, tzurtours all rank for "Israel in spring" / "Israel March travel". Completes
+   our seasonal guide set (we have summer SHIPPED, winter and autumn in backlog).
+
+7. **Sukkot in Israel dedicated guide** — touristisrael.com has dedicated Sukkot page. Sukkot is
+   the most visually unique Jewish holiday for tourists: temporary booths (sukkot) appear everywhere
+   (balconies, restaurants, synagogue courtyards); Four Species/Arba Minim street vendors a distinctive
+   sight; Simchat Torah dancing on last night; Kotel ceremonies; Chol Hamoed family activities.
+   traveling-israel-jewish-holidays covers Sukkot in ~150 words. A dedicated guide targets
+   "Sukkot in Israel" directly and cross-links seasonally with /israel-in-autumn.
+
+8. **Tel Aviv on a budget** — timeout.com/israel, secrettelaviv.com, thebrokebackpacker.com all
+   rank for "free things to do in Tel Aviv" / "Tel Aviv on a budget". Our free-things-to-do-israel
+   is national (10 experiences). A TLV-specific budget guide covers: 14km free beaches, free Bauhaus
+   architecture walks, Tel-O-Fun bike (first 30 min included in day pass), Saturday Carmel Market
+   evening food crawl, free Sunday at TLV Museum of Art, Jaffa Old Town free walk, Levinsky spice
+   market, Nahalat Binyamin craft market (Tue/Fri free entry), official City Greeter free tours
+   (telaviv.gov.il — book ahead). Distinct from free-things-to-do-israel and israel-cost-budget.
+
+**De-duped (already in DONE or BACKLOG):**
+- 14-day / 2-week Israel itinerary → SHIPPED iter141 (a02b487)
+- Jerusalem neighborhoods + where to stay → backlog iter line 84 (jerusalem-neighborhoods-guide P2)
+- Israel in winter → backlog iter205 (P2, M)
+- Digital nomad guide → backlog iter30 (P3, M)
+- Jewish genealogy trip → backlog iter50 (P2, M)
+- Israel best beaches → backlog iter5 (P2, M)
+- Photography spots → backlog iter30 (P2, M)
+- Things to know before visiting → backlog iter10 (P2, M)
+- Volunteer archaeology → backlog iter40 (P3, S)
+- Israel wine regions hub → backlog iter145 (P2, M)
+- Shopping in Israel → backlog iter40 (P2, M)
+- Kibbutz guide → backlog iter60 (P2, M)
+- Eilat travel guide → SHIPPED iter231
+
+**Net-new items added this iteration:** 8
+- /israel-in-autumn (P2, S, seo-content)
+- /mitzpe-ramon-guide (P2, S, seo-content+monetization)
+- /passover-in-israel-guide (P2, S, seo-content+monetization)
+- /eilat-hotels-guide (P2, S, monetization)
+- /best-hotels-tel-aviv (P2, S, monetization)
+- /israel-in-spring (P3, S, seo-content)
+- /sukkot-in-israel (P3, S, seo-content)
+- /tel-aviv-budget-guide (P3, S, seo-content)

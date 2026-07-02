@@ -1,13 +1,24 @@
 # LOOP STATE
 
-- iteration: 239
-- lastMode: REVIEW
-- lastItem: meta-desc-fix-239
-- lastResult: COMPLETE — fixed 4 title violations + 35 desc violations across EN guides (957afaf); 416 pages; 524/524 tests pass
-- nextRotationCategory: 240%5==0 → RESEARCH
+- iteration: 240
+- lastMode: RESEARCH
+- lastItem: competitor-gap-scan-240
+- lastResult: COMPLETE — 3 net-new backlog items: eilat-hotels-guide (P2 monetization), best-hotels-tel-aviv (P2 monetization), tel-aviv-budget-guide (P3 seo-content); backlog ~140 ready items
+- nextRotationCategory: 241%5==1 → monetization
 - higgsfieldSpent: 0
 - updatedAt: 2026-07-02
 - branch context: work on master; feature work on auto/<slug>
+
+Notes: iter 240 RESEARCH — competitor-gap-scan-240:
+  3 net-new backlog items after thorough dedup vs ~140 existing items.
+  eilat-hotels-guide (P2, monetization, S): hotel picks at 3 tiers for Eilat's
+    distinct zones; companion to eilat-travel-guide.md (iter231).
+  best-hotels-tel-aviv (P2, monetization, S): hotel picks at 3 tiers by TLV area;
+    companion to tel-aviv-neighborhoods-guide.md (iter157).
+  tel-aviv-budget-guide (P3, seo-content, S): "free & cheap things to do in Tel Aviv";
+    distinct from free-things-to-do-israel (national hub) and israel-cost-budget (cost overview).
+  Backlog fully saturated; 3 new items appropriate after 240 iterations.
+  No gate needed (RESEARCH mode). .loop/ files committed to master.
 
 Notes: iter 239 REVIEW — meta-desc-fix-239 shipped:
   Full EN guide frontmatter audit: all guides checked against ≤65-char title / ≤160-char
