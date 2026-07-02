@@ -419,3 +419,6 @@ Trimmed over-length SEO titles/descriptions on iter211-213 guides: israeli-break
 
 ## iter 227 — tel-aviv-things-to-do (062f3b6) [2026-07-01]
 Complete Tel Aviv activity & attractions hub targeting "things to do in Tel Aviv" head term. Covers beaches, White City, Old Jaffa, neighbourhoods, food & markets, museums, nightlife, day trips and getting around with dense internal links to all existing TLV sub-guides. GYG + Viator + Booking CTAs.
+
+## iter 228 — layover-jerusalem (34df41e) [2026-07-02]
+New guide /layover-jerusalem — Jerusalem layover feasibility guide: honest transit timing (50 min each way BGY→Old City), city-time breakdown per window (6h/8h/10h/24h), Shabbat transport fallback, timed walking circuits for each layover length. Companion to /layover-tel-aviv. Captures "visit Jerusalem on a layover" and related "Ben Gurion Airport to Jerusalem time" queries. GYG + WelcomePickups + Booking CTAs.

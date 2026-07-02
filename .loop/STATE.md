@@ -1,13 +1,28 @@
 # LOOP STATE
 
-- iteration: 227
-- lastMode: BUILD (seo-content) — /tel-aviv-things-to-do shipped
-- lastItem: tel-aviv-things-to-do
-- lastResult: COMPLETE — 409 pages (+1 vs 408); 517/517 e2e+a11y pass; commit 062f3b6 on master; CI in_progress at state-write time
-- nextRotationCategory: 228%5==3 → BUILD/tools (fallthrough to seo-content if tools empty)
+- iteration: 228
+- lastMode: BUILD (seo-content/tools-fallthrough) — /layover-jerusalem shipped
+- lastItem: layover-jerusalem
+- lastResult: COMPLETE — 410 pages (+1 vs 409); 518/518 e2e+a11y pass; commit 34df41e on master; CI in_progress at state-write time
+- nextRotationCategory: 229%5==4 → REVIEW
 - higgsfieldSpent: 0
-- updatedAt: 2026-07-01
+- updatedAt: 2026-07-02
 - branch context: work on master; feature work on auto/<slug>
+
+Notes: iter 228 BUILD (tools → seo-content fallthrough) — layover-jerusalem shipped:
+  - New guide: /layover-jerusalem — Jerusalem layover guide for travellers with long Ben Gurion
+    connections. Honest transit math: train is 50 min total each way (28 min train + platform
+    egress); 3h security buffer on return; yields ~80 min city time on 6h layover, ~3.5h on 8h,
+    ~5h on 10h. Timed walking circuits for each window: 6h (Western Wall only), 8h (Wall +
+    Holy Sepulchre), 10h (full Old City circuit — Jewish/Armenian/Christian/Muslim quarters),
+    24h (full Jerusalem + Yad Vashem + City of David options). Shabbat transport logistics (no
+    trains, taxi ₪250–350 each way). Cross-links to layover-tel-aviv (reciprocal link added),
+    1-day-jerusalem-itinerary, ben-gurion-airport-guide, western-wall-tunnels-guide.
+  - Three affiliate CTAs: GYG layover tours + WelcomePickups transfer + Booking.com Jerusalem hotels.
+  - Six FAQs covering minimum length, transit time, visa, Shabbat, minimum feasible layover, safety.
+  - Smoke test route added (+1 to ROUTES array, 518 total).
+  - Gate: pnpm check 0 errors; build 410 pages (+1 vs 409); 518/518 e2e+a11y pass
+  - Commit 34df41e on master; pushed to origin; CI in_progress at state-write time
 
 Notes: iter 227 BUILD (seo-content) — tel-aviv-things-to-do shipped:
   - New guide: /tel-aviv-things-to-do — complete Tel Aviv activity and attractions hub targeting
@@ -82,10 +97,10 @@ Active items from recent research (all in BACKLOG, ready):
   iter210: /pet-friendly-israel [P2 M], /israel-with-baby [P2 S], /israel-by-train [P3 S]
   iter215: /easter-in-jerusalem [P2 M], /east-jerusalem-guide [P2 M], /beit-guvrin-caves-guide [P2 S], /galilee-food-guide [P3 S]
   iter220: /israel-by-month [P2 M], /israel-in-summer [P2 S], /temple-mount-visitor-guide [P2 M]
-  iter225: /israel-with-teenagers [P2 S], /ashdod-cruise-port-excursions [P2 S], /layover-jerusalem [P2 S], /israel-music-guide [P3 M]
+  iter225: /israel-with-teenagers [P2 S], /ashdod-cruise-port-excursions [P2 S], /israel-music-guide [P3 M]
   iter190: /mount-tabor-guide [P2 S]
 
 Cron b7325b16 hourly @ :17. Loop history: 19 tools + sitemap-lastmod + link-checker(+depth) + i18n
 Phase0/1a/1b/1c/2 Batches1-18(COMPLETE) + 30 review passes + 3 technical (event-schema + meta-trim + locale-links) + 23 EN guides + 3 tools-monetization + 5 accuracy-fix + VAT-refund + israel-museum + golan-heights + review(204-title-fix) + research(205-6-items) + traveling-israel-jewish-holidays(206) + western-wall-tunnels-guide(207) + tower-of-david-guide(208) + review/meta-desc-fix(209) + research(210-5-items) + israeli-breakfast-guide(211) + netanya-guide(212) + jericho-day-trip-from-jerusalem(213) + review/meta-desc-fix(214) + research(215-6-items) + jaffa-food-guide(216) + mahane-yehuda-market-guide(217);
-herodion-guide(218) + review/meta-desc-fix(219) + research(220-6-items) + galilee-christian-sites-circuit(221) + israel-eta-guide(222) + haifa-neighborhoods-guide(223) + review/meta-desc-fix(224) + research(225-6-items) + 1-day-tel-aviv-itinerary(226) + tel-aviv-things-to-do(227);
+herodion-guide(218) + review/meta-desc-fix(219) + research(220-6-items) + galilee-christian-sites-circuit(221) + israel-eta-guide(222) + haifa-neighborhoods-guide(223) + review/meta-desc-fix(224) + research(225-6-items) + 1-day-tel-aviv-itinerary(226) + tel-aviv-things-to-do(227) + layover-jerusalem(228);
 research iters 5/10/20/30/35/40/45/50/55/60/65/70/75/80/85/90/95/100/105/110/115/120/125/130/135/140/145/150/155/160/165/170/175/180/185/190/195/200/205/210/215/220/225.

@@ -4518,3 +4518,24 @@ What: New guide /tel-aviv-things-to-do — complete Tel Aviv activity & attracti
 Gate: pnpm check 0 errors; build 409 pages (+1 vs 408); 517/517 e2e+a11y pass — GREEN.
 Ship: squash-merged to master 062f3b6, pushed to origin.
 Prod: CI in_progress at state-write time — next iter will confirm.
+
+## 2026-07-02 · iter 228 · BUILD (tools → seo-content fallthrough) · layover-jerusalem
+What: New guide /layover-jerusalem — Jerusalem layover guide targeting "visit Jerusalem on a layover"
+  and related queries. Companion to existing /layover-tel-aviv. Tools category empty (all 11 shipped)
+  → fell through to seo-content. Key content: honest transit math (train 50 min total each way:
+  28 min BGY→Navon + 10 min platform + 10 min egress); 3h security buffer on return = city time per
+  layover length: 6h→80 min (Western Wall only), 8h→3.5h (Wall + Holy Sepulchre), 10h→5h (full
+  Old City circuit), 24h→full day. Shabbat transport logistics (no trains Fri afternoon→Sat night;
+  taxi ₪250–350 each way). Timed walking circuits for 8h and 10h windows covering Jewish/Armenian/
+  Christian/Muslim quarters. At-a-glance tables for city-time vs security-buffer vs luggage.
+  Three affiliate CTAs (GYG layover tours priceFrom 55, WelcomePickups transfer, Booking.com
+  Jerusalem hotels). Six FAQs covering feasibility, transit time, visa, Shabbat, minimum viable
+  layover, safety. Cross-links: reciprocal link added to layover-tel-aviv; link added to
+  1-day-jerusalem-itinerary closing paragraph. Smoke test route +1 (518 total).
+Startup note: master had diverged (forced-update on origin); resolved via git reset --hard origin/master.
+  pnpm install clean; Playwright browser version mismatch (pre-installed 1194 vs required 1228) —
+  resolved by PLAYWRIGHT_BROWSERS_PATH=/opt/pw-browsers env var (resolveCloudChromium() in playwright.config.ts).
+Gate: pnpm check 0 errors; build 410 pages (+1 vs 409); 518/518 e2e+a11y pass — GREEN.
+Ship: squash-merged to master 34df41e, pushed to origin. CI in_progress at journal-write time.
+Next: iter 229 = REVIEW mode (229%5==4). Audit recent guides (layover-jerusalem, tel-aviv-things-to-do,
+  1-day-tel-aviv-itinerary) for title length, desc length, hero image paths, internal links, H1 violations.
