@@ -1,13 +1,26 @@
 # LOOP STATE
 
-- iteration: 240
-- lastMode: RESEARCH
-- lastItem: competitor-gap-scan-240
-- lastResult: COMPLETE — 3 net-new backlog items: eilat-hotels-guide (P2 monetization), best-hotels-tel-aviv (P2 monetization), tel-aviv-budget-guide (P3 seo-content); backlog ~140 ready items
-- nextRotationCategory: 241%5==1 → monetization
+- iteration: 241
+- lastMode: BUILD (monetization)
+- lastItem: eilat-hotels-guide
+- lastResult: COMPLETE — SHA 785ab1d; /eilat-hotels-guide live; 417 pages; 524/524 e2e+a11y pass
+- nextRotationCategory: 242%5==2 → seo-content
 - higgsfieldSpent: 0
 - updatedAt: 2026-07-02
 - branch context: work on master; feature work on auto/<slug>
+
+Notes: iter 241 BUILD (monetization) — eilat-hotels-guide:
+  New /eilat-hotels-guide companion to eilat-travel-guide.md (iter231). Covers Eilat's
+  3 hotel zones (North Beach resort strip, Coral Beach South, city-centre budget area)
+  with hotel picks at 3 price tiers: budget ₪350-600 (Amdar Hostel, Manta Ray Inn, city-
+  centre guesthouses), mid-range ₪600-1,200 (Prima Music Hotel, Orchid Hotel+Resort,
+  U Boutique), luxury ₪1,200+ (Dan Eilat, Isrotel Royal Beach+Yam Suf, Princess Hotel).
+  Seasonal pricing table (Jan cheapest ~₪640/night, June peak ~₪2,300/night). Booking
+  decision matrix by priority. 2× Booking.com CTAs + 1× GYG. Dense cross-links to
+  eilat-travel-guide, eilat-diving-snorkeling, eilat-tours-compared, petra-from-eilat-vs-amman.
+  eilat-travel-guide.md updated with corrected price ranges + companion guide cross-link.
+  Gate: pnpm check 0 errors; build 417 pages; 524/524 e2e+a11y pass.
+  Commit: 785ab1d on master; pushed to origin.
 
 Notes: iter 240 RESEARCH — competitor-gap-scan-240:
   3 net-new backlog items after thorough dedup vs ~140 existing items.

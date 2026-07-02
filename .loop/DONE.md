@@ -456,3 +456,16 @@ base; Sea of Galilee/Upper Galilee north circuit; Eilat Red Sea water activities
 practical heat management checklist; 7-day summer itinerary table. Three GYG+Booking CTAs.
 7 FAQs. 523/523 tests pass; 415 pages built. [seo-content]
 - /cycling-in-israel (715ce8f, iter238) — Tel Aviv cycling guide: Tel-O-Fun scheme, 4 TLV routes (Tayelet, Yarkon, White City, TLV→Jaffa), Sea of Galilee loop, Golan/Negev MTB, IBT 1,200km. SEO: "biking Tel Aviv", "Tel-O-Fun guide", "cycling Israel", "Tel Aviv bike share".
+- /cycling-in-israel (715ce8f, iter238) — Tel Aviv cycling guide: Tel-O-Fun scheme, 4 TLV routes (Tayelet, Yarkon, White City, TLV→Jaffa), Sea of Galilee loop, Golan/Negev MTB, IBT 1,200km. SEO: "biking Tel Aviv", "Tel-O-Fun guide", "cycling Israel", "Tel Aviv bike share".
+- iter239 REVIEW meta-desc-fix-239 (957afaf): Full EN guide frontmatter audit — 4 title fixes (church-holy-sepulchre-guide 71→57, haifa-travel-guide 92→61, jordan-river-baptism 66→60, yad-vashem-visitor-guide 75→54) + 35 description fixes across guides; all ≤65 title / ≤160 desc. 524/524 e2e pass.
+
+## iter 241 (2026-07-02) — eilat-hotels-guide — 785ab1d
+New /eilat-hotels-guide — where to stay in Eilat by hotel zone and budget tier. Companion
+to eilat-travel-guide.md (iter231, destination overview). 3 zones: North Beach resort
+strip (Dan Eilat, Isrotel Royal Beach, Prima Music Hotel, U Boutique), Coral Beach South
+(Isrotel Yam Suf, Princess Hotel — reef-snorkel/diver priority), city-centre budget
+(Amdar Hostel, Manta Ray Inn, Sderot HaTmarim guesthouses). Seasonal pricing table
+(Jan ~₪640/night cheapest; Jun ~₪2,300 peak; booking windows by month). Zone decision
+matrix by visitor priority. 2× Booking.com CTAs (resort + budget) + 1× GYG activity CTA.
+eilat-travel-guide.md updated: corrected price ranges (were understated in iter231) + added
+cross-link to new companion page. 417 pages; 524/524 e2e+a11y pass. [monetization]

@@ -4755,3 +4755,17 @@ What: Competitor gap scan — systematically searched touristisrael.com, thebrok
 Ship: committed .loop/ files to master.
 Next: iter 241 = BUILD (241%5==1 → rotation[1%4] = monetization → eilat-hotels-guide or
   best-hotels-tel-aviv are top candidates).
+
+## 2026-07-02 · iter 241 · BUILD (monetization) · eilat-hotels-guide
+What: New /eilat-hotels-guide — where to stay in Eilat by zone and budget tier. Covers
+  North Beach resort strip (Dan Eilat, Isrotel Royal Beach, Prima Music Hotel), Coral Beach
+  South zone (Isrotel Yam Suf, Princess Hotel), and city-centre budget area (Amdar Hostel,
+  Manta Ray Inn, budget guesthouses). Budget ₪350-600 / mid-range ₪600-1,200 / luxury ₪1,200+.
+  Seasonal pricing table (Jan ~₪640 avg = cheapest; Jun ~₪2,300 avg = peak). Booking decision
+  matrix by priority. 2× Booking.com CTAs + 1× GYG activity CTA. Dense cross-links to
+  eilat-travel-guide, eilat-diving-snorkeling, eilat-tours-compared, petra-from-eilat-vs-amman.
+  eilat-travel-guide.md updated: corrected price ranges (were understated) + cross-link added.
+Gate: pnpm check 0 errors; build 417 pages (+1); 524/524 e2e+a11y pass.
+Ship: squash-merged to master 785ab1d, pushed.
+Prod: CI in_progress at state-write time; next iter start-check will confirm.
+Next: iter 242 = BUILD (242%5==2 → seo-content).
