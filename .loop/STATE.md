@@ -1,13 +1,21 @@
 # LOOP STATE
 
-- iteration: 229
-- lastMode: REVIEW — meta desc audit of iter226-228 guides
-- lastItem: review-meta-desc-229
-- lastResult: COMPLETE — 2 desc violations fixed (tel-aviv-things-to-do 163→154, layover-jerusalem 197→148); 410 pages unchanged; 518/518 e2e+a11y pass; commit ab5c16e on master; CI state=unknown (no commit-status integration)
-- nextRotationCategory: 230%5==0 → RESEARCH
+- iteration: 230
+- lastMode: RESEARCH — new tourist segments + niche destination gaps
+- lastItem: research-230
+- lastResult: COMPLETE — 6 new backlog items: ein-gedi-guide (P2 S), israel-for-gulf-travelers (P2 M), israel-monasteries-guide (P2 M), akko-food-guide (P3 S), ramla-lod-guide (P3 S), india-to-israel-guide (P3 M); COMPETITORS.md updated; no code changes
+- nextRotationCategory: 231%5==1 → BUILD/monetization
 - higgsfieldSpent: 0
 - updatedAt: 2026-07-02
 - branch context: work on master; feature work on auto/<slug>
+
+Notes: iter 230 RESEARCH — 6 new backlog items: new tourist segments + niche destination gaps:
+  - /ein-gedi-guide (P2, S): standalone visitor guide for Israel's most-visited nature reserve; 2026 flood damage note (Wadi David upper trail); water-hiking-israel.md covered it in 200 words only; competitors deadsea.com, hike-israel.com, touristisrael.com all have full guides
+  - /israel-for-gulf-travelers (P2, M): Abraham Accords (UAE/Bahrain/Morocco) new tourist segment; practical halal food + mosque + ETA-IL + direct flight logistics; no competitor has comprehensive editorial guide for this segment; high-spend audience
+  - /israel-monasteries-guide (P2, M): Judean Wilderness monastery circuit (St George/Wadi Qelt, Mar Saba, Latrun winery, Abu Gosh Benedictine); distinct from galilee-christian-sites-circuit (SHIPPED) and christian-pilgrimage-holy-land; HONESTY: Mar Saba women excluded from interior; Area C access context
+  - /akko-food-guide (P3, S): Uri Buri + Al-Marsa + souk + Hummus Sa'id; parallel to jaffa-food-guide + mahane-yehuda-market-guide format; akko-acre-guide.md is history-only
+  - /ramla-lod-guide (P3, S): Pool of St Helena underground boat ride, White Tower, Lod Mosaic (ex-Louvre/Met), Church of St George/Al-Omari Mosque co-existence site; ZERO prior coverage; "hidden gems near TLV" angle
+  - /india-to-israel-guide (P3, M): El Al TLV-Mumbai 2024 launch; ETA-IL for Indian passport; vegetarian-friendliness; Bene Israel Jewish diaspora; Indian Christian pilgrims; ZERO prior backlog entry
 
 Notes: iter 229 REVIEW — meta title/desc audit of iter226-228 guides:
   - Audited 3 guides: 1-day-tel-aviv-itinerary, tel-aviv-things-to-do, layover-jerusalem

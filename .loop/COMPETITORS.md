@@ -2889,3 +2889,58 @@ western-wall-tunnels-guide (SHIPPED iter207), jordan-river-baptism (SHIPPED iter
 - /1-day-tel-aviv-itinerary (P2, S, seo-content+monetization)
 - /layover-jerusalem (P2, S, seo-content)
 - /israel-music-guide (P3, M, seo-content)
+
+---
+
+## iter230 · 2026-07-02 · RESEARCH — New tourist segments + niche destination gaps
+
+**Research focus:** Lateral angle discovery — new tourist segments (Gulf/Abraham Accords travelers, Indian visitors) and specific destination/experience gaps not captured in 44 prior research passes.
+
+**Competitor sources consulted:**
+- inpa.gov.il/content_page/ein-gedi (INPA official Ein Gedi page)
+- deadsea.com/ein-gedi + hike-israel.com/ein-gedi (nature travel sites)
+- touristisrael.com/ein-gedi (competitor Ein Gedi guide)
+- businesstraveller.com (UAE-Israel tourism growth coverage 2024)
+- abrahamaccords.com/tourism (Abraham Accords Peace Institute — Israel tourism data)
+- timesofisrael.com/uae-visitors-israel (Times of Israel Gulf tourism coverage)
+- goisrael.com (MOT official — Gulf visitor campaign pages)
+- secret-israel.com/monasteries + viator.com/Judean-Desert-Monasteries
+- toursbylocals.com/Israel/monasteries + holylandtourstravel.com/judaean-desert-monasteries
+- danny-the-digger.com (Israeli travel blogger — monasteries + Akko food + Ramla)
+- timeout.com/israel/akko/restaurants + lonelyplanet.com/israel/northern-israel/akko
+- uriburi.co.il (Uri Buri official — verification of Akko flagship restaurant)
+- lonelyplanet.com/israel/central-israel/ramla + lodmosaic.org (Lod Mosaic museum)
+- el-al.com (TLV-Mumbai route confirmation)
+- traveltriangle.com/israel + holidify.com/places/israel (Indian travel market sites)
+
+**Key competitor patterns identified:**
+
+1. **Ein Gedi gap** — deadsea.com, hike-israel.com, touristisrael.com, takeyourbackpack.com all have comprehensive standalone Ein Gedi visitor guides with trail breakdowns, hours, pricing, and animal/plant highlights. Our site's water-hiking-israel.md covers it in ~200 words as two of six sites. 2026 update: INPA reporting Wadi David upper trail damaged by May 2026 floods; Nahal Arugot open. High monetization potential via Dead Sea + Ein Gedi day-trip affiliate products (GYG lists 12+ operators).
+
+2. **Gulf travelers / Abraham Accords segment** — Business Traveller (UAE), Abraham Accords Peace Institute, and Israel MOT all report growing Emirati/Bahraini tourism post-normalization. Israel MOT ran UAE + Bahrain dedicated outreach campaigns 2023–2024. 100k+ Israelis visited UAE in year 1; reciprocal Emirati visitors growing. No competitor has a standalone comprehensive EDITORIAL GUIDE for Gulf travelers — coverage is journalistic/news, not practical travel guide format. Strong monetization: Gulf visitors tend to be high-spend (luxury hotels, organized tours). No competitor owns this SEO position.
+
+3. **Christian monasteries circuit** — secret-israel.com, toursbylocals.com, viator.com, Danny the Digger, and holylandtourstravel.com all have monastery circuit content. Key monasteries: St George (Wadi Qelt — most photogenic, accessible), Mar Saba (most dramatic, women excluded from interior), Latrun (wine + olive oil; winery shop; Crusader history), Abu Gosh Benedictine (Gregorian chant; free; 10km from Jerusalem). No single competitor has a fully comprehensive standalone guide covering all four with access details, opening hours, and HONESTY notes on women's access at Mar Saba. Viator lists "Judean Desert Monasteries" as a bookable product with 40+ reviews.
+
+4. **Akko food** — timeout.com/israel/akko/restaurants, lonelyplanet.com, Danny the Digger all cover Akko food but not as a standalone destination food guide. Uri Buri (James Beard community recognition, Arab-Israeli seafood) consistently appears as Israel's best non-TLV restaurant in Israeli food media (Haaretz, Timeout Israel). Our akko-acre-guide.md (SHIPPED) covers history only. Parallel to our jaffa-food-guide.md format would complete the northern Israel food coverage alongside haifa-food-guide (backlog).
+
+5. **Ramla & Lod** — Two genuinely underrated cities with world-class hidden attractions: Pool of St Helena (underground boat ride — unique in the region), White Tower of Ramla (panoramic view, Mamluk architecture), Lod Mosaic (toured the Louvre + Metropolitan Museum; now installed in dedicated museum). Danny the Digger has the only substantive coverage; lonelyplanet.com has 2 pages. Our site has ZERO coverage. Strong angle for "hidden gems near Tel Aviv" and "day trips near Ben Gurion Airport" search intent.
+
+6. **India to Israel segment** — El Al launched TLV-Mumbai direct route in 2024 (3x/week). India's 1.4B population has a growing outbound tourism segment. Israeli MOT ran dedicated India campaigns. Indian travel aggregators (traveltriangle.com, holidify.com, thrillophilia.com) have Israel content but no Israel MOT-backed comprehensive editorial guide exists for Indian visitors. Our site has ZERO India-specific content. Indian visitor interests: Dead Sea (unique in the world), TLV beach culture, Christian pilgrimage (large Indian Christian community), Jewish diaspora identity (Bene Israel community from Mumbai area). Vegetarian-friendliness of Israel is a key selling point for Indian tourists.
+
+**De-duped items considered but already covered:**
+- Negev stargazing → backlog iter60 ([P2])
+- Accessible travel → backlog iter30 ([P2])
+- Cycling in Israel → backlog iter45 ([P2])
+- Birdwatching Israel → backlog iter50 ([P2])
+- Judean Hills winery day-trip → backlog iter110 ([P2])
+- israel-wine-wineries.md → SHIPPED iter58
+- Muslim travel guide → backlog iter65/105 ([P2])
+- Photography spots → backlog iter30 ([P2])
+
+**Net-new items added this iteration:** 6
+- /ein-gedi-guide (P2, S, seo-content)
+- /israel-for-gulf-travelers (P2, M, seo-content+monetization)
+- /israel-monasteries-guide (P2, M, seo-content)
+- /akko-food-guide (P3, S, seo-content)
+- /ramla-lod-guide (P3, S, seo-content)
+- /india-to-israel-guide (P3, M, seo-content)

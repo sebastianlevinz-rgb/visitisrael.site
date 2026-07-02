@@ -4551,3 +4551,11 @@ Findings:
 Gate: pnpm check 0 errors; build 410 pages (unchanged); 518/518 e2e+a11y pass — GREEN.
 Ship: committed ab5c16e to master, pushed. CI state=unknown at journal-write time (no commit-status integration, consistent with all prior iters).
 Next: iter 230 = RESEARCH mode (230%5==0). Candidates: /israel-with-teenagers (P2 S), /ashdod-cruise-port-excursions (P2 S), /israel-by-month (P2 M), /temple-mount-visitor-guide (P2 M), /east-jerusalem-guide (P2 M), /israel-in-summer (P2 S).
+
+## 2026-07-02 · iter 230 · RESEARCH · research-230
+What: RESEARCH mode (230%5==0). Lateral angle discovery — new tourist segments and niche destination gaps not captured in prior 44 research iterations.
+Approach: (1) targeted backlog deduplication via grep across all candidate categories; (2) identified gaps via cross-referencing competitor content; (3) verified Ein Gedi 2026 status (Wadi David trail flood damage), Gulf traveler segment (Abraham Accords tourism growth), monastery circuit (Judean Wilderness access + Mar Saba women exclusion policy), Akko food (Uri Buri profile), Ramla/Lod (Lod Mosaic + Pool of St Helena), India segment (El Al TLV-Mumbai route 2024).
+De-duped: stargazing (iter60), accessible travel (iter30), cycling (iter45), birdwatching (iter50), Judean Hills winery (iter110), photography (iter30), wine-wineries (SHIPPED iter58), Muslim travel guide (iter65/105).
+New items: 6 — /ein-gedi-guide (P2 S), /israel-for-gulf-travelers (P2 M), /israel-monasteries-guide (P2 M), /akko-food-guide (P3 S), /ramla-lod-guide (P3 S), /india-to-israel-guide (P3 M).
+Gate: N/A (RESEARCH mode — no code changes).
+Next: iter 231 = BUILD/monetization (231%5==1). Top monetization P2 items ready: israel-for-gulf-travelers (new, P2 M), or existing monetization items in backlog (east-jerusalem-guide P2 M, pet-friendly-israel P2 M, israel-by-month P2 M).
