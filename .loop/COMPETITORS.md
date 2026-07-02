@@ -3070,3 +3070,67 @@ passoverlistings.com, totallyjewishtravel.com, agoda.com, mukikapupstravels.com,
 - /israel-in-spring (P3, S, seo-content)
 - /sukkot-in-israel (P3, S, seo-content)
 - /tel-aviv-budget-guide (P3, S, seo-content)
+
+### 2026-07-02 · iter 245 · Dead Sea hotels / Jericho day trip / Beer Sheva gap scan
+
+Methodology: Targeted scan of Dead Sea accommodation market, Palestinian Authority day-trip
+destinations adjacent to Jerusalem, and southern Israel city gaps. De-duped against all ~200
+DONE items and full BACKLOG before adding. Backlog remains highly saturated (~145+ ready items).
+
+**Dead Sea hotels market** — Tourist Israel ("Where to Stay at the Dead Sea – Best Hotels at
+Ein Bokek 2026"), israel-taxi.com ("Best Dead Sea Hotels – Where To Stay At Ein Bokek In 2026"),
+secrettelaviv.com ("Best Hotels in the Dead Sea 2026"), deadsea.com ("Dead Sea Israel Hotels:
+Complete Guide") all have dedicated hotel-picks pages. We have dead-sea-guide.md (SHIPPED iter86)
+as a general destination guide but ZERO hotel-recommendations companion. Ein Bokek is Israel's
+only resort strip at the Dead Sea (~3.5 km coastal zone, virtually all 3-5 star, no budget
+options): luxury tier (Kayma boutique, Herods Dead Sea, Herbert Samuel Milos, David Dead Sea
+Resort & Spa ~606 rooms); mid-range (Isrotel Ganim, Royal Rimonim). Authentic budget alternative:
+En Gedi Kibbutz Guest House (~₪480–600) 20 km north. Seasonal: spring/autumn = ideal; summer
+= scorching but cheapest rates. Natural third entry in the hotels-guide series (eilat-hotels-guide
+iter241 + best-hotels-tel-aviv iter243). → BACKLOG (monetization, P2, S).
+
+**Jericho day trip demand** — GetYourGuide offers 40+ Jericho day-trip products from Jerusalem;
+Viator "Day Trip to Jericho from Jerusalem" (from $35/pp, high booking volume). Abraham Tours,
+touristisrael.com/jericho all have dedicated Jericho content. We have Bethlehem day trip SHIPPED
+(iter87); Hebron explicitly excluded (PROJECT.md); Jericho is NOT excluded and is the world's
+oldest continuously inhabited city (Tell Jericho ~10,000 BCE). Sites: Tell Jericho (UNESCO),
+Mount of Temptation cable car (₪60–90), Hisham's Palace mosaics, Sycamore Tree. Logistics:
+organized tour only (Israeli-plated cars cannot enter Area A; foreign tourists handle checkpoint
+with minimal delay via guide). GYG/Viator CTA opportunity = strong affiliate revenue. Distinct
+from bethlehem-day-trip in geography, content, and audience (archaeology/biblical emphasis vs
+Christian pilgrimage). → BACKLOG (seo-content+monetization, P2, M).
+
+**Beer Sheva standalone gap** — Beer Sheva (capital of the Negev, ~220,000 pop, Israel's 4th
+largest city) is referenced as a "when built" cross-link target in 4 existing backlog items
+(negev-incense-route, south-israel-itinerary, indnegev-festival iter235, planned Bedouin content)
+but has NO standalone backlog entry. touristisrael.com/beer-sheva, go2israel.com, wikitravel.org
+all have content; we have nothing. Key: Tel Be'er Sheva UNESCO site (10th-c BCE Israelite city),
+IAF Air Force Museum (150+ historic aircraft, largest air museum in Middle East), Thursday Bedouin
+market (largest in ME, though livestock section contracted vs reputation), Dani Karavan Negev
+Brigade monument (UNESCO-recognized land art). Transport hub for Mitzpe Ramon (90 min), Sde Boker
+(40 min), IndNegev festival venue, Petra. Direct train from Tel Aviv 1h10 ₪42. → BACKLOG (seo-content, P3, S).
+
+**De-duplicated and confirmed already covered (not added):**
+- Haifa travel guide → SHIPPED iter192
+- Tiberias guide → SHIPPED iter87
+- Jerusalem food guide → SHIPPED iter161
+- Israel craft beer → SHIPPED iter236
+- Cycling in Israel → SHIPPED iter238
+- Israel summer guide → SHIPPED iter237
+- Israel wellness/spa → backlog iter35 (P2, M)
+- Jerusalem neighborhoods → backlog (P2, M)
+- Shopping in Israel → backlog (P2, M)
+- Israel hidden gems → backlog (P2, M)
+- Haifa food guide → backlog (P3)
+- Glamping Israel → backlog iter60 (P2)
+- Mitzpe Ramon guide → backlog iter85 (P2)
+- Passover guide → backlog iter155 (P2)
+- Temple Mount guide → backlog iter220 (P2)
+- City of David guide → backlog iter140 (P2)
+- Galilee food guide → backlog iter215 (P3)
+- Tel Aviv budget guide → backlog iter240 (P3)
+
+**Net-new items added this iteration:** 3
+- /dead-sea-hotels-guide (P2, S, monetization)
+- /jericho-day-trip-from-jerusalem (P2, M, seo-content+monetization)
+- /beer-sheva-guide (P3, S, seo-content)

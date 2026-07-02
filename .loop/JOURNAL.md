@@ -4814,3 +4814,20 @@ back-links in kosher-food-guide + tel-aviv-food-guide confirmed. No honesty issu
 Gate: pnpm check 0 errors; build 419 pages; 526/526 e2e+a11y pass.
 Ship: a859c79 on master; pushed; CI in_progress at push time (prior pattern → pass).
 Next: iter 245 = RESEARCH (245%5==0).
+
+## 2026-07-02 · iter 245 · RESEARCH · competitor-gap-scan-245
+What: Dead Sea accommodation market + Jerusalem-adjacent PA day-trip destinations + southern
+Israel city gaps. Scanned touristisrael.com, israel-taxi.com, secrettelaviv.com, deadsea.com,
+GetYourGuide, Viator, Abraham Tours, wikitravel. Methodical de-dup vs ~200 DONE items + full
+BACKLOG (~145+ ready items). 3 net-new items confirmed and added to BACKLOG:
+  1. dead-sea-hotels-guide (P2, S, monetization) — natural third companion to eilat-hotels-guide
+     (iter241) + best-hotels-tel-aviv (iter243); Ein Bokek resort strip hotel picks at 3 tiers;
+     all major competitors have dedicated pages we lack; Booking.com CTA opportunity.
+  2. jericho-day-trip-from-jerusalem (P2, M, seo-content+monetization) — world's oldest city;
+     NOT on Hebron exclusion list; Bethlehem day trip (iter87) precedent confirmed this format
+     works; GYG/Viator 40+ tour products = strong affiliate demand; Tell Jericho UNESCO,
+     Mount of Temptation cable car, Hisham's Palace mosaics; honest Area A / organized-tour framing.
+  3. beer-sheva-guide (P3, S, seo-content) — referenced as cross-link target in 4 backlog items
+     but never added standalone; Negev capital, 4th-largest city, UNESCO Tel Be'er Sheva, IAF
+     Air Force Museum, Thursday Bedouin market; key transport hub for Negev touring.
+No gate (RESEARCH mode). .loop/ files updated and committed.

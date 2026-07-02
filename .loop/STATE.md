@@ -1,13 +1,27 @@
 # LOOP STATE
 
-- iteration: 244
-- lastMode: REVIEW
-- lastItem: review-desc-trim-244 (meta description length audit)
-- lastResult: REVIEW SHIPPED — SHA a859c79; 3 over-limit descriptions fixed + vegan cross-link added; 419 pages; 526/526 e2e+a11y pass; CI in_progress at push (prior pattern expected to pass)
-- nextRotationCategory: 245%5==0 → RESEARCH
+- iteration: 245
+- lastMode: RESEARCH
+- lastItem: competitor-gap-scan-245 (Dead Sea hotels / Jericho day trip / Beer Sheva gap scan)
+- lastResult: RESEARCH COMPLETE — 3 net-new items added to BACKLOG: dead-sea-hotels-guide (P2, S, monetization), jericho-day-trip-from-jerusalem (P2, M, seo-content+monetization), beer-sheva-guide (P3, S, seo-content); COMPETITORS.md + JOURNAL.md updated; no gate (research mode)
+- nextRotationCategory: 246%5==1 → BUILD (seo-content rotation)
 - higgsfieldSpent: 0
 - updatedAt: 2026-07-02
 - branch context: work on master; feature work on auto/<slug>
+
+Notes: iter 245 RESEARCH — competitor-gap-scan-245:
+  Dead Sea accommodation market + Jerusalem-adjacent PA day-trip destinations + southern Israel city gaps.
+  Scanned: touristisrael.com, israel-taxi.com, secrettelaviv.com, deadsea.com, GetYourGuide, Viator,
+  Abraham Tours, wikitravel.org. De-duped ~200 DONE items + 145+ BACKLOG items. 3 net-new items:
+    dead-sea-hotels-guide (P2, S, monetization): natural 3rd companion to eilat-hotels-guide/best-hotels-
+      tel-aviv; Ein Bokek resort strip hotel picks (luxury/mid/budget); all competitors have this; we don't.
+    jericho-day-trip-from-jerusalem (P2, M, seo-content+monetization): world's oldest city; NOT excluded;
+      Bethlehem day-trip precedent; GYG/Viator 40+ tour products; Tell Jericho UNESCO + Mount of
+      Temptation cable car + Hisham's Palace; honest Area A / organized-tour framing required.
+    beer-sheva-guide (P3, S, seo-content): Negev capital cross-link target in 4 backlog items but
+      never added standalone; UNESCO Tel Be'er Sheva + IAF Air Force Museum + Thursday Bedouin market.
+  No gate (research mode). .loop/ files committed to master.
+  NEXT: iter 246 = BUILD (246%5==1 → seo-content rotation).
 
 Notes: iter 244 REVIEW — review-desc-trim-244:
   Audited iter-242 (vegan-vegetarian-israel) and iter-243 (best-hotels-tel-aviv) guides.
