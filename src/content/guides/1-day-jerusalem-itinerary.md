@@ -128,3 +128,5 @@ If you are based in [Tel Aviv](/tel-aviv) and doing Jerusalem as a single day tr
 Other day trips that work well after or instead of Jerusalem: the [Dead Sea and Masada](/masada-dead-sea-day-trip) make a full day in their own right. For a full list of what to combine from Tel Aviv, see the [day trips from Tel Aviv guide](/day-trips-from-tel-aviv). If you are spending a dedicated day in Tel Aviv itself, see the [1-day Tel Aviv itinerary](/1-day-tel-aviv-itinerary) for a morning-to-evening plan covering Jaffa, the seafront and the White City.
 
 For tour comparisons — Jerusalem group tours, private tours and themed tours — see the [Jerusalem tours compared guide](/jerusalem-tours-compared). For dressing appropriately at the religious sites (which matters at the Western Wall and the Church of the Holy Sepulchre), see the [holy sites dress code guide](/holy-sites-dress-code-etiquette).
+
+Visiting Jerusalem during a flight connection? The [Jerusalem layover guide](/layover-jerusalem) maps out exactly what is feasible at 6, 8, 10 and 24 hours, with honest transport timing from Ben Gurion Airport.

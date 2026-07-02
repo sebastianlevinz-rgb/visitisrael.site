@@ -119,7 +119,7 @@ With the full city available, a 24-hour itinerary might look like:
 
 A room in a Tel Aviv hotel or hostel makes a 24-hour layover more comfortable. Hotels around Airport City, Bnei Brak or Ramat Gan (all 10–15 minutes from the airport) are cheaper than central TLV if you're only sleeping.
 
-For travellers wanting to see **Jerusalem**: the Yitzhak Navon high-speed station brings Jerusalem within 30 minutes of the airport. Even on a 24-hour layover, a half-day in Jerusalem means a rushed Old City walk — doable, but you'll want more time. See our [3-day Jerusalem itinerary](/itineraries/3-days-in-jerusalem) to understand the scope.
+For travellers wanting to see **Jerusalem**: the Yitzhak Navon high-speed station brings Jerusalem within 28 minutes of the airport. Even on a 24-hour layover, a half-day in Jerusalem means a rushed Old City walk — doable, but you'll want more time. See the [Jerusalem layover guide](/layover-jerusalem) for the timing breakdown, or our [3-day Jerusalem itinerary](/itineraries/3-days-in-jerusalem) to understand the full scope.
 
 ---
 
