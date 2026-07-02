@@ -4678,3 +4678,27 @@ Prod: CI Lighthouse workflow in_progress at commit time; previous master (39637e
   state=success. Per playbook, leaving in_progress — next iteration start-check will confirm.
 Next: iter 237 = BUILD (237%5==2 → tools). Check if tools backlog has ready items; otherwise
   fall through to seo-content.
+
+## 2026-07-02 · iter 237 · BUILD (tools→seo-content fallthrough) · israel-in-summer
+What: New guide /israel-in-summer — beat-the-heat strategy for visitors in July–August.
+  Heat geography (coast 28–32°C, Jerusalem dry, Dead Sea 40–45°C, Negev trail closures,
+  Galilee 28–34°C); early-morning-first strategy (Masada 3:30am, Western Wall pre-10am);
+  midday refuge options (Mahane Yehuda, Israel Museum, Sarona, malls); Dead Sea dawn-only
+  window (viable 5–9am, Kalia Beach 8am, Masada sunrise combination); Tel Aviv as summer
+  base (morning beach, Old Jaffa afternoon, Florentin evening, Carmel Thursday bar scene);
+  Sea of Galilee/Upper Galilee summer circuit (kayaking, Jordan River float, Achziv NP,
+  Rosh Hanikra caves); Jerusalem heat management (Temple Mount strictly pre-10am, Yad
+  Vashem + Israel Museum for midday); Eilat Red Sea water activities; practical management
+  (water, SPF, clothing, Shabbat summer timing); 7-day summer itinerary table.
+  Tools backlog all shipped; technical all shipped; monetization all shipped → fell through
+  to seo-content. /israel-in-summer (P2, S) selected as highest-priority seasonal item
+  (today = July 2, 2026 = peak summer; maximally timely).
+  HONESTY: Masada closure linked to INPA (not hardcoded); temperatures are ranges; Dead
+  Sea timing framed with "verify Kalia opening hours"; Negev hiking clearly warned against.
+  Three affiliate CTAs: GYG Tel Aviv tours + GYG Masada sunrise + Booking.com Israel.
+  Seven FAQs. Cross-link added from best-time-to-visit-israel.md summer section.
+  Smoke test route +1 (/israel-in-summer); 523 total.
+Gate: pnpm check 0 errors (118 files); build 415 pages (+1 vs 414); 523/523 e2e+a11y pass. GREEN.
+Ship: committed to master 5ee2ab3, pushed. CI Lighthouse in_progress at state-write time.
+Prod: CI in_progress — next iteration start-check will confirm.
+Next: iter 238 = BUILD (238%5==3 → technical; likely fallthrough to seo-content).

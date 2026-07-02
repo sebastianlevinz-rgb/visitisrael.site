@@ -446,3 +446,12 @@ New guide /israel-craft-beer — Israel's craft beer revolution: Beer Bazaar (4 
 2006). Brand guide: Alexander, Negev, Malka, Shapiro, Gordon. Self-guided tasting route.
 Kashrut + Shabbat hours notes. Honest pricing (₪35–55/pour). GYG beer tour + Booking.com TLV
 CTAs. 7 FAQs. 522/522 tests pass; 414 pages built. [seo-content+monetization]
+
+## iter 237 · /israel-in-summer · 5ee2ab3
+Summer heat strategy guide for visitors who must travel in July–August.
+Heat geography map (coast 28–32°C vs Dead Sea 40–45°C vs Negev trail-closure zone);
+early-morning-first site timing; midday refuge options (covered markets, museums, malls);
+Dead Sea dawn-only window (viable 5–9am; Masada sunrise combination); Tel Aviv as summer
+base; Sea of Galilee/Upper Galilee north circuit; Eilat Red Sea water activities;
+practical heat management checklist; 7-day summer itinerary table. Three GYG+Booking CTAs.
+7 FAQs. 523/523 tests pass; 415 pages built. [seo-content]
