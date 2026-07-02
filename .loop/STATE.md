@@ -1,13 +1,21 @@
 # LOOP STATE
 
-- iteration: 228
-- lastMode: BUILD (seo-content/tools-fallthrough) — /layover-jerusalem shipped
-- lastItem: layover-jerusalem
-- lastResult: COMPLETE — 410 pages (+1 vs 409); 518/518 e2e+a11y pass; commit 34df41e on master; CI in_progress at state-write time
-- nextRotationCategory: 229%5==4 → REVIEW
+- iteration: 229
+- lastMode: REVIEW — meta desc audit of iter226-228 guides
+- lastItem: review-meta-desc-229
+- lastResult: COMPLETE — 2 desc violations fixed (tel-aviv-things-to-do 163→154, layover-jerusalem 197→148); 410 pages unchanged; 518/518 e2e+a11y pass; commit ab5c16e on master; CI state=unknown (no commit-status integration)
+- nextRotationCategory: 230%5==0 → RESEARCH
 - higgsfieldSpent: 0
 - updatedAt: 2026-07-02
 - branch context: work on master; feature work on auto/<slug>
+
+Notes: iter 229 REVIEW — meta title/desc audit of iter226-228 guides:
+  - Audited 3 guides: 1-day-tel-aviv-itinerary, tel-aviv-things-to-do, layover-jerusalem
+  - 1-day-tel-aviv-itinerary: title 57 OK, desc 160 OK, hero OK, links 17/17 OK, H1 clean, smoke ✓
+  - tel-aviv-things-to-do: title 63 OK, desc 163 OVER → trimmed to 154 ✓, hero OK, links 14/14 OK, H1 clean, smoke ✓
+  - layover-jerusalem: title 59 OK, desc 197 OVER → trimmed to 148 ✓, hero OK, links all verified (apparent "missing" were valid dynamic routes: /jerusalem/western-wall, /jerusalem/holy-sepulchre, /where-to-stay/jerusalem, /tel-aviv all resolve via [region], [attraction], [city] dynamic pages), H1 clean, smoke ✓
+  - Gate: pnpm check 0 errors; build 410 pages (unchanged); 518/518 e2e+a11y pass
+  - Commit ab5c16e on master; pushed to origin; CI state=unknown at journal-write time
 
 Notes: iter 228 BUILD (tools → seo-content fallthrough) — layover-jerusalem shipped:
   - New guide: /layover-jerusalem — Jerusalem layover guide for travellers with long Ben Gurion
@@ -102,5 +110,5 @@ Active items from recent research (all in BACKLOG, ready):
 
 Cron b7325b16 hourly @ :17. Loop history: 19 tools + sitemap-lastmod + link-checker(+depth) + i18n
 Phase0/1a/1b/1c/2 Batches1-18(COMPLETE) + 30 review passes + 3 technical (event-schema + meta-trim + locale-links) + 23 EN guides + 3 tools-monetization + 5 accuracy-fix + VAT-refund + israel-museum + golan-heights + review(204-title-fix) + research(205-6-items) + traveling-israel-jewish-holidays(206) + western-wall-tunnels-guide(207) + tower-of-david-guide(208) + review/meta-desc-fix(209) + research(210-5-items) + israeli-breakfast-guide(211) + netanya-guide(212) + jericho-day-trip-from-jerusalem(213) + review/meta-desc-fix(214) + research(215-6-items) + jaffa-food-guide(216) + mahane-yehuda-market-guide(217);
-herodion-guide(218) + review/meta-desc-fix(219) + research(220-6-items) + galilee-christian-sites-circuit(221) + israel-eta-guide(222) + haifa-neighborhoods-guide(223) + review/meta-desc-fix(224) + research(225-6-items) + 1-day-tel-aviv-itinerary(226) + tel-aviv-things-to-do(227) + layover-jerusalem(228);
+herodion-guide(218) + review/meta-desc-fix(219) + research(220-6-items) + galilee-christian-sites-circuit(221) + israel-eta-guide(222) + haifa-neighborhoods-guide(223) + review/meta-desc-fix(224) + research(225-6-items) + 1-day-tel-aviv-itinerary(226) + tel-aviv-things-to-do(227) + layover-jerusalem(228) + review/meta-desc-fix(229);
 research iters 5/10/20/30/35/40/45/50/55/60/65/70/75/80/85/90/95/100/105/110/115/120/125/130/135/140/145/150/155/160/165/170/175/180/185/190/195/200/205/210/215/220/225.

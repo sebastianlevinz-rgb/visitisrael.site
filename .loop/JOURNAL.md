@@ -4539,3 +4539,15 @@ Gate: pnpm check 0 errors; build 410 pages (+1 vs 409); 518/518 e2e+a11y pass �
 Ship: squash-merged to master 34df41e, pushed to origin. CI in_progress at journal-write time.
 Next: iter 229 = REVIEW mode (229%5==4). Audit recent guides (layover-jerusalem, tel-aviv-things-to-do,
   1-day-tel-aviv-itinerary) for title length, desc length, hero image paths, internal links, H1 violations.
+
+## 2026-07-02 · iter 229 · REVIEW · review-meta-desc-229
+What: REVIEW mode (229%5==4). Audited the three guides shipped in iters 226-228.
+Checks: (1) meta title ≤65 chars; (2) meta desc ≤160 chars; (3) hero images exist; (4) internal links resolve; (5) no H1 in body; (6) smoke test coverage.
+Findings:
+  - 1-day-tel-aviv-itinerary: title 57 OK, desc 160 OK, hero tayelet.jpg ✓, 17 links ✓, H1 clean, smoke ✓
+  - tel-aviv-things-to-do: desc 163 OVER → trimmed to 154 ('beaches and activities' condensed); rest OK
+  - layover-jerusalem: desc 197 OVER → trimmed to 148 (rewritten for concision); rest OK
+  - All apparent "MISSING" links (/tel-aviv, /jerusalem/western-wall, /jerusalem/holy-sepulchre, /where-to-stay/jerusalem) verified as valid dynamic routes via [region], [attraction], [city] page templates
+Gate: pnpm check 0 errors; build 410 pages (unchanged); 518/518 e2e+a11y pass — GREEN.
+Ship: committed ab5c16e to master, pushed. CI state=unknown at journal-write time (no commit-status integration, consistent with all prior iters).
+Next: iter 230 = RESEARCH mode (230%5==0). Candidates: /israel-with-teenagers (P2 S), /ashdod-cruise-port-excursions (P2 S), /israel-by-month (P2 M), /temple-mount-visitor-guide (P2 M), /east-jerusalem-guide (P2 M), /israel-in-summer (P2 S).
