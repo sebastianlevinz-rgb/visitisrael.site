@@ -4577,3 +4577,30 @@ Cross-link added to eilat.md region page. Smoke test route +1 (519 total).
 Gate: pnpm check 0 errors; build 411 pages (+1 vs 410); 519/519 e2e+a11y pass.
 Merge SHA: 92b8239 on master; pushed to origin; CI in_progress at journal-write time.
 Next: iter 232 = BUILD/seo-content (232%5==2).
+
+## 2026-07-02 · iter 232 · BUILD (seo-content) · ein-gedi-guide
+What: Shipped /ein-gedi-guide — standalone visitor guide for Ein Gedi Nature Reserve, Israel's
+  most-visited nature reserve. Wadi David trail (3km loop to David's Waterfall, year-round
+  spring-fed; 2026 upper-trail flood-damage note with INPA check-before-visiting advice),
+  Nahal Arugot gorge (6.6km return; advance booking required at peak; more demanding/immersive),
+  wildlife (Nubian ibex + rock hyrax roaming freely near car park and trails; heron/kingfisher
+  in stream), Kibbutz Ein Gedi botanical garden (900+ species; accessible with hotel stay or
+  day ticket), practical transport (Bus 486 from Jerusalem ~90min; car via Route 1→90;
+  no Uber at reserve), opening hours + NP Pass coverage, seasonal table, Dead Sea combination
+  (Kalia or Ein Bokek 20–30min south by car; Ein Gedi public beach permanently closed = key
+  honesty note from dead-sea-guide), overnight-at-kibbutz angle (sunrise/sunset oasis
+  experience). Cross-links added from dead-sea-guide.md and water-hiking-israel.md.
+  Three CTAs: GYG Ein Gedi day tours + Abraham Tours Judean Desert + Booking.com Kibbutz Hotel.
+  Seven FAQs. Smoke test route +1 (519→520).
+Startup: local master 50 commits behind origin (fresh cloud clone) → git reset --hard
+  origin/master to 9268c59 (iter231 state). No STOP flag. CI for 9268c59: CONFIRMED SUCCESS
+  (CI+Lighthouse completed/success for iter231 eilat-travel-guide).
+Gate: pnpm check 0 errors (118 files); pnpm build 412 pages (up from 411); pnpm test:e2e
+  520/520 PASS (pre-installed chromium at /opt/pw-browsers — PLAYWRIGHT_BROWSERS_PATH set).
+  Note: auto/ein-gedi-guide branch had no git commits (working-tree only) — squash merge
+  returned "already up to date"; staged and committed directly on master.
+Ship: committed to master 9afd319, pushed. Branch auto/ein-gedi-guide deleted.
+Prod: CI + Lighthouse in_progress at push — typical pattern; prior commit 9268c59 = SUCCESS.
+Next: iter 233 = BUILD (233%5==3 → tools). Top candidate: none of the 11 shipped tools need
+  extension; fall through to seo-content. Top P2 seo-content candidates: /israel-for-gulf-travelers
+  (P2 M) or /israel-monasteries-guide (P2 M) or /israel-wellness-spa (P2 M).

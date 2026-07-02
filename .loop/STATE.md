@@ -1,13 +1,34 @@
 # LOOP STATE
 
-- iteration: 231
-- lastMode: BUILD (monetization)
-- lastItem: eilat-travel-guide
-- lastResult: COMPLETE — /eilat-travel-guide shipped; 411 pages; 519/519 e2e+a11y pass; commit 92b8239
-- nextRotationCategory: 232%5==2 → BUILD/seo-content
+- iteration: 232
+- lastMode: BUILD (seo-content)
+- lastItem: ein-gedi-guide
+- lastResult: COMPLETE — /ein-gedi-guide shipped; 412 pages; 520/520 e2e+a11y pass; commit 9afd319
+- nextRotationCategory: 233%5==3 → BUILD/tools
 - higgsfieldSpent: 0
 - updatedAt: 2026-07-02
 - branch context: work on master; feature work on auto/<slug>
+
+Notes: iter 232 BUILD (seo-content) — ein-gedi-guide shipped:
+  - New guide: /ein-gedi-guide — standalone visitor guide for Ein Gedi Nature Reserve,
+    Israel's most-visited nature reserve on the western Dead Sea shore.
+    Covers Wadi David trail (3km loop to David's Waterfall, year-round spring-fed,
+    2026 flood damage note: upper trail closed — check parks.org.il before visiting),
+    Nahal Arugot gorge (6.6km return, advance booking required during peak periods),
+    wildlife (Nubian ibex, rock hyrax, heron, kingfisher), Kibbutz Ein Gedi botanical
+    garden (900+ species), practical transport (Bus 486 from Jerusalem ~90min, car via
+    Route 90), opening hours, National Parks Pass coverage, seasonal guide, Dead Sea
+    combination table (Kalia Beach 30min south, Ein Bokek 30min south), overnight at
+    Kibbutz Ein Gedi Hotel angle.
+  - Three affiliate CTAs: GYG Ein Gedi day tours + Abraham Tours Judean Desert +
+    Booking.com Kibbutz Ein Gedi Hotel.
+  - Seven FAQs: 2026 trail status, Wadi David vs Nahal Arugot, transport without car,
+    parks pass, best time, Dead Sea combination, wildlife.
+  - Cross-links added from dead-sea-guide.md (after Ein Gedi mention in transport section)
+    and water-hiking-israel.md (after Wadi David practical tips).
+  - Smoke test route added (+1 to ROUTES array; 520 total).
+  - Gate: pnpm check 0 errors; build 412 pages (+1 vs 411); 520/520 e2e+a11y pass
+  - Commit 9afd319 on master; pushed to origin; CI in_progress at state-write time
 
 Notes: iter 231 BUILD (monetization) — eilat-travel-guide shipped:
   - New guide: /eilat-travel-guide — practical Eilat city guide for first-time visitors.
@@ -134,10 +155,10 @@ Active items from recent research (all in BACKLOG, ready):
   iter220: /israel-by-month [P2 M], /israel-in-summer [P2 S], /temple-mount-visitor-guide [P2 M]
   iter225: /israel-with-teenagers [P2 S], /ashdod-cruise-port-excursions [P2 S], /israel-music-guide [P3 M]
   iter190: /mount-tabor-guide [P2 S]
-  iter230: /ein-gedi-guide [P2 S], /israel-for-gulf-travelers [P2 M], /israel-monasteries-guide [P2 M], /akko-food-guide [P3 S], /ramla-lod-guide [P3 S], /india-to-israel-guide [P3 M]
+  iter230: /israel-for-gulf-travelers [P2 M], /israel-monasteries-guide [P2 M], /akko-food-guide [P3 S], /ramla-lod-guide [P3 S], /india-to-israel-guide [P3 M]
 
 Cron b7325b16 hourly @ :17. Loop history: 19 tools + sitemap-lastmod + link-checker(+depth) + i18n
 Phase0/1a/1b/1c/2 Batches1-18(COMPLETE) + 30 review passes + 3 technical (event-schema + meta-trim + locale-links) + 23 EN guides + 3 tools-monetization + 5 accuracy-fix + VAT-refund + israel-museum + golan-heights + review(204-title-fix) + research(205-6-items) + traveling-israel-jewish-holidays(206) + western-wall-tunnels-guide(207) + tower-of-david-guide(208) + review/meta-desc-fix(209) + research(210-5-items) + israeli-breakfast-guide(211) + netanya-guide(212) + jericho-day-trip-from-jerusalem(213) + review/meta-desc-fix(214) + research(215-6-items) + jaffa-food-guide(216) + mahane-yehuda-market-guide(217);
 herodion-guide(218) + review/meta-desc-fix(219) + research(220-6-items) + galilee-christian-sites-circuit(221) + israel-eta-guide(222) + haifa-neighborhoods-guide(223) + review/meta-desc-fix(224) + research(225-6-items) + 1-day-tel-aviv-itinerary(226) + tel-aviv-things-to-do(227) + layover-jerusalem(228) + review/meta-desc-fix(229);
-research(230-6-items) + eilat-travel-guide(231).
+research(230-6-items) + eilat-travel-guide(231) + ein-gedi-guide(232).
 research iters 5/10/20/30/35/40/45/50/55/60/65/70/75/80/85/90/95/100/105/110/115/120/125/130/135/140/145/150/155/160/165/170/175/180/185/190/195/200/205/210/215/220/225/230.
