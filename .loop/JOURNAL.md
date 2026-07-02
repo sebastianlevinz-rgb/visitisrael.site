@@ -4936,3 +4936,20 @@ De-duped (confirmed already in backlog / SHIPPED, not added):
 
 .loop/ files (STATE, JOURNAL, BACKLOG, COMPETITORS) committed to master.
 NEXT: iter 251 = BUILD (251%5==1 → monetization rotation).
+
+## 2026-07-02 · iter 251 · BUILD (monetization) · israel-stargazing
+What: New /israel-stargazing guide — Mitzpe Ramon IDA-certified International Dark Sky Park
+  (first in Middle East); operators (Desert Prime, Deep Desert Israel, Astronomy Israel);
+  season/moon-phase table; guided vs self-guided; Summer of Stars August festival (Event schema);
+  equipment checklist; getting there (car 2.5h TLV, bus via Beersheba); overnight vs day-trip
+  planning; alternatives (Arava, Eilat Mountains, Galilee). 6 FAQs. TourVerdict box.
+  Affiliate CTAs: GYG stargazing tours, Viator Negev night sky, Booking.com Mitzpe Ramon hotels.
+  Cross-links: Footer Essentials (after /israel-evening-activities); israel-evening-activities
+  Mitzpe Ramon section extended with full-guide link; israel-adventure-sports end-of-guide note.
+  Also caught + fixed BACKLOG de-dupe: haifa-neighborhoods-guide was SHIPPED iter223 (b60e624)
+  but iter250 research erroneously re-added it; marked ARCHIVED-DUPE in BACKLOG.
+Gate: pnpm check 0 errors; build 425 pages (+1); 538/538 e2e+a11y pass. GREEN.
+Ship: committed to master 9c7cb08, pushed. CI in_progress at push time; prior SHA 122aea3 = success.
+Prod: CI in_progress at state-write time (consistent prior pattern → success).
+Next: iter 252 = BUILD (252%5==2 → seo-content rotation). Top candidates: israel-horseback-riding
+  (P2, S, seo-content+monetization) or israel-birdwatching (P2, M) or wellness-spa (P2, M).

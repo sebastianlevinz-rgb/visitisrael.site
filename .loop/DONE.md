@@ -508,3 +508,7 @@ guides. 3× affiliate CTAs, 6 FAQs, cross-link from /jerusalem region page.
 - iter248 /transport/ben-gurion-to-jerusalem + /transport/ben-gurion-to-tel-aviv + /transport/jerusalem-to-nazareth (6da8bc2) — 3 new transport comparison pages for high-intent airport and Galilee route searches. A1 express train featured prominently; Shabbat gap covered on all 3; 536/536 e2e+a11y.
 - iter248 tel-aviv-white-city-bauhaus (via existing) — BACKLOG item closed: tel-aviv-white-city.md (iter116) already comprehensively covers Bauhaus content; new slug would be duplicate.
 - iter249 REVIEW: review-desc-trim-249 (59db2b8) — Fixed 4 meta descriptions over 160 chars: ben-gurion-to-jerusalem (194→148), ben-gurion-to-tel-aviv (170→131), jerusalem-to-nazareth (180→136) in [route].astro; jerusalem-neighborhoods-guide.md (162→150). No other issues found in iter246-248 audit.
+
+## iter 251 — israel-stargazing
+
+- /israel-stargazing — SHA 9c7cb08 — Israel stargazing guide: Mitzpe Ramon IDA-certified International Dark Sky Park (first in Middle East); operators (Desert Prime, Deep Desert Israel, Astronomy Israel); season/moon table; guided vs self-guided; Summer of Stars August event (Event schema); equipment checklist; overnight planning; Booking.com Mitzpe hotels + GYG/Viator tour CTAs; TourVerdict box; cross-links from Footer + evening-activities + adventure-sports; 538/538 e2e pass

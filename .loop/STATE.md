@@ -1,13 +1,30 @@
 # LOOP STATE
 
-- iteration: 250
-- lastMode: RESEARCH
-- lastItem: competitor-gap-scan-250 (birdwatching/haifa-neighborhoods/stargazing/horseback-riding/rooftop-bars; 5 net-new BACKLOG items)
-- lastResult: RESEARCH only (no ship) — 5 net-new items added to BACKLOG: israel-birdwatching (P2, M, seo-content+monetization), haifa-neighborhoods-guide (P2, S, seo-content+monetization), israel-stargazing (P2, S, seo-content+monetization), israel-horseback-riding (P2, S, seo-content+monetization), israel-rooftop-bars-views (P3, S, seo-content). Confirmed ZERO prior backlog entries for all 5 via keyword search. De-duped: wine tourism (6+ items already), glamping-israel (iter60), mitzpe-ramon-guide (iter85), kayaking (iter225), beach guide (iter170), baby travel (iter225), haifa-food-guide (P3 backlog).
-- nextRotationCategory: 251%5==1 → BUILD (monetization rotation)
+- iteration: 251
+- lastMode: BUILD (monetization rotation)
+- lastItem: israel-stargazing (P2, S, seo-content+monetization) → 9c7cb08
+- lastResult: SHIPPED — /israel-stargazing guide; 425 pages (+1); 538/538 e2e+a11y pass; CI in_progress at state-write (consistent prior pattern → success). Also caught BACKLOG de-dupe error: haifa-neighborhoods-guide was SHIPPED iter223 (b60e624) but iter250 research re-added it to BACKLOG without checking DONE.md; marked ARCHIVED-DUPE.
+- nextRotationCategory: 252%5==2 → BUILD (seo-content rotation)
 - higgsfieldSpent: 0
 - updatedAt: 2026-07-02
 - branch context: work on master; feature work on auto/<slug>
+
+Notes: iter 251 BUILD (monetization) — israel-stargazing:
+  Picked highest-priority P2, S, seo-content+monetization item from iter250 BACKLOG additions.
+  haifa-neighborhoods-guide skipped — confirmed SHIPPED iter223 (b60e624) via DONE.md grep;
+  iter250 research had erroneously added it to BACKLOG without checking DONE.md. Marked ARCHIVED-DUPE.
+  Chose israel-stargazing (P2, S) as first in-BACKLOG monetization item.
+  Content: Mitzpe Ramon IDA-certified International Dark Sky Park (first in Middle East);
+    operators (Desert Prime, Deep Desert Israel, Astronomy Israel); season/moon-phase table;
+    guided vs self-guided; Summer of Stars August festival (Event schema); equipment checklist;
+    getting there (car 2.5h TLV, bus Beersheba→Mitzpe); overnight vs day-trip;
+    beyond Mitzpe (Arava, Eilat Mountains, Galilee). 6 FAQs. TourVerdict box.
+  Affiliate CTAs: GYG stargazing tours, Viator Negev night sky, Booking.com Mitzpe Ramon hotels.
+  Cross-links: Footer Essentials column; israel-evening-activities (Mitzpe section extended);
+    israel-adventure-sports (end of guide).
+  Gate: pnpm check 0 errors; build 425 pages (+1); 538/538 e2e+a11y pass. GREEN.
+  Commit: 9c7cb08 on master; pushed to origin; CI in_progress at push time.
+  NEXT: iter 252 = BUILD (252%5==2 → seo-content rotation).
 
 Notes: iter 250 RESEARCH — competitor-gap-scan-250:
   Scanned: hike-israel.com, ecoisraeltours.com, aardvarkisrael.com, natureisrael.org,
@@ -23,10 +40,11 @@ Notes: iter 250 RESEARCH — competitor-gap-scan-250:
       iter246 SHIPPED); DISTINCT from haifa-travel-guide.md (iter192 general). German Colony
       (Bahá'í access, restaurants, Colony Hotel), Upper Carmel (views, hotels), Bat Galim
       (beachfront), Hadar (local/budget, Madatech), Downtown/Port (cruise). Carmelit funicular
-      + cable car logistics = key differentiator.
+      + cable car logistics = key differentiator. [NOTE: was already SHIPPED iter223 — iter250
+      research error; marked ARCHIVED-DUPE in BACKLOG]
     /israel-stargazing (P2, S): Mitzpe Ramon = first IDA-certified International Dark Sky Park
       Middle East. Operators: Desert Prime, Deep Desert Israel, Astronomy Israel. Summer of Stars
-      August event. DISTINCT from mitzpe-ramon-guide (general destination).
+      August event. DISTINCT from mitzpe-ramon-guide (general destination). → SHIPPED iter251.
     /israel-horseback-riding (P2, S): ride-israel.com + 15+ TripAdvisor operators. Vered
       HaGalil (est. 1961, Sea of Galilee views), Habokrim/Kibbutz Merom Golan, Moshav Ramot,
       Kibbutz Ein Dor. Jesus Trail overlap angle. DISTINCT from israel-adventure-sports.md
