@@ -1,13 +1,34 @@
 # LOOP STATE
 
-- iteration: 248
-- lastMode: BUILD
-- lastItem: more-transport-routes (seo-content rotation; tel-aviv-white-city-bauhaus skipped — existing tel-aviv-white-city.md already comprehensive)
-- lastResult: SHIPPED — 3 new /transport/[route] pages: ben-gurion-to-jerusalem (A1 express train + Bus 485 + sherut + taxi), ben-gurion-to-tel-aviv (direct train + bus + sherut + taxi), jerusalem-to-nazareth (organised tour + bus with transfer + taxi + car). Footer +3 links, transportation.md hub updated, ben-gurion-airport-transfers.md cross-linked. Gate: pnpm check 0 errors; build 424 pages (+3); 536/536 e2e+a11y pass. Commit: 6da8bc2. CI in_progress at push (prior pattern → pass).
-- nextRotationCategory: 249%5==4 → REVIEW
+- iteration: 249
+- lastMode: REVIEW
+- lastItem: review-desc-trim-249 (audit of iter246-248 pages: 4 meta descriptions over 160 chars found and fixed)
+- lastResult: SHIPPED — 4 meta description overflows fixed: ben-gurion-to-jerusalem (194→148), ben-gurion-to-tel-aviv (170→131), jerusalem-to-nazareth (180→136) in [route].astro; jerusalem-neighborhoods-guide.md (162→150). Gate: pnpm check 0 errors; build 424 pages; 536/536 e2e+a11y pass. Commit: 59db2b8. CI in_progress at push (prior pattern → pass).
+- nextRotationCategory: 250%5==0 → RESEARCH
 - higgsfieldSpent: 0
 - updatedAt: 2026-07-02
 - branch context: work on master; feature work on auto/<slug>
+
+Notes: iter 249 REVIEW — review-desc-trim-249:
+  Audited iter246 (jerusalem-neighborhoods-guide), iter247 (dead-sea-hotels-guide), and
+  iter248 (3 transport routes: ben-gurion-to-jerusalem, ben-gurion-to-tel-aviv,
+  jerusalem-to-nazareth) for: dead links in related/cross-links, JSON-LD (no
+  aggregateRating), meta title/description uniqueness and length, honesty (no exact
+  fabricated prices — all ranges), Shabbat notes present, sitemap coverage (424 pages
+  confirmed), accessibility gate (536/536).
+  Findings: dead-sea-hotels-guide and best-hotels-tel-aviv descriptions clean (≤160).
+  4 descriptions over 160 chars SERP limit:
+    [route].astro ben-gurion-to-jerusalem: 194 → 148
+    [route].astro ben-gurion-to-tel-aviv: 170 → 131
+    [route].astro jerusalem-to-nazareth: 180 → 136
+    jerusalem-neighborhoods-guide.md: 162 → 150
+  Related-link audit: /tel-aviv-light-rail referenced in ben-gurion-to-tel-aviv related
+  links — guide exists at src/content/guides/tel-aviv-light-rail.md, route valid.
+  All internal hrefs in recent pages resolve to existing routes.
+  JSON-LD: no aggregateRating found; Article + Breadcrumb + FAQPage schema types correct.
+  Fix shipped through full gate: commit 59db2b8.
+  CI in_progress at push (prior pattern → pass).
+  NEXT: iter 250 = RESEARCH (250%5==0).
 
 Notes: iter 248 BUILD (seo-content) — more-transport-routes:
   Picked highest-priority seo-content item. tel-aviv-white-city-bauhaus skipped:

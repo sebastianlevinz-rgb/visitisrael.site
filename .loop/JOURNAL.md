@@ -4884,3 +4884,16 @@ What: 3 new /transport/[route] comparison pages extending the shipped template.
 Gate: pnpm check 0 errors; build 424 pages (+3); 536/536 e2e+a11y pass.
 Ship: squash-merged to master 6da8bc2, pushed. CI in_progress at push (prior pattern → pass).
 Next: iter 249 = REVIEW (249%5==4).
+
+## 2026-07-02T21:31Z · iter 249 · REVIEW · review-desc-trim-249
+What: Audited iter246-248 pages (jerusalem-neighborhoods-guide, dead-sea-hotels-guide,
+best-hotels-tel-aviv, 3 new transport routes) for dead links, JSON-LD honesty,
+description lengths, cross-link integrity, and Shabbat notes.
+Findings: 4 meta descriptions over 160-char SERP limit across 2 files.
+  [route].astro: ben-gurion-to-jerusalem 194→148, ben-gurion-to-tel-aviv 170→131,
+  jerusalem-to-nazareth 180→136. jerusalem-neighborhoods-guide.md 162→150.
+  All internal links valid; /tel-aviv-light-rail guide confirmed exists.
+  No fabricated prices or aggregateRating JSON-LD found. Honesty intact.
+Gate: pnpm check 0 errors; build 424 pages; 536/536 e2e+a11y pass.
+Ship: squash-merged to master 59db2b8, pushed. CI in_progress at push (prior pattern → pass).
+Next: iter 250 = RESEARCH (250%5==0).
