@@ -145,7 +145,7 @@ The **North Beach hotel strip** puts you steps from the main beach, the promenad
 
 **Budget and mid-range options** cluster near the Eilat Central Bus Station and behind the main strip — further from the beach but walkable (10–15 minutes) and significantly cheaper than the beachfront hotels.
 
-The overall hotel tier range in Eilat: budget guesthouses ₪200–350/night; mid-range hotels ₪400–700/night; resort hotels ₪700–1,500+/night in high season. Prices are heavily seasonal — January–March is cheaper than school-holiday periods and July–August. Always check live rates before booking; Eilat hotel prices fluctuate widely.
+The overall hotel tier range in Eilat: budget guesthouses ₪350–600/night; mid-range hotels ₪600–1,200/night; resort hotels ₪1,200–3,000+/night in high season. Prices are heavily seasonal — January–March is cheaper than school-holiday periods and July–August. Always check live rates before booking; Eilat hotel prices fluctuate widely. For specific hotel picks at each tier and a zone-by-zone breakdown, see our [Eilat hotels guide](/eilat-hotels-guide).
 
 ---
 
