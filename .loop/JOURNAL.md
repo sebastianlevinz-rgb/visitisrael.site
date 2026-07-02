@@ -4715,3 +4715,15 @@ Gate: pnpm check 0 errors; build 416 pages (+1); 524/524 e2e+a11y pass.
 Ship: commit 715ce8f on master; pushed to origin. CI in_progress at journal-write time
 (~5min typical; next run's start-check confirms).
 Next: iter 239 = REVIEW mode.
+
+## 2026-07-02 · iter 239 · REVIEW · meta-desc-fix-239
+What: Full EN guide frontmatter audit — checked all guide titles (≤65 chars) and
+  descriptions (≤160 chars). Found 4 title violations and 35 description violations
+  across guides accumulated since prior meta reviews.
+  Title fixes: church-holy-sepulchre-guide 71→57, haifa-travel-guide 92→61 (critical),
+  jordan-river-baptism 66→60, yad-vashem-visitor-guide 75→54.
+  Description fixes: 35 guides trimmed; keyword phrases preserved, only redundant
+  trailing clauses removed. All new values verified ≤160 chars before apply.
+Gate: pnpm check 0 errors; build 416 pages; 524/524 e2e+a11y pass. GREEN.
+Ship: committed to master 957afaf, pushed. CI in_progress at journal-write time.
+Next: iter 240 = RESEARCH mode (240%5==0).

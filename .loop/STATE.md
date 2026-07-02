@@ -1,36 +1,25 @@
 # LOOP STATE
 
-- iteration: 238
-- lastMode: BUILD (technical→seo-content fallthrough)
-- lastItem: cycling-in-israel
-- lastResult: COMPLETE — new guide /cycling-in-israel (715ce8f); 416 pages; 524/524 tests pass
-- nextRotationCategory: 239%5==4 → REVIEW
+- iteration: 239
+- lastMode: REVIEW
+- lastItem: meta-desc-fix-239
+- lastResult: COMPLETE — fixed 4 title violations + 35 desc violations across EN guides (957afaf); 416 pages; 524/524 tests pass
+- nextRotationCategory: 240%5==0 → RESEARCH
 - higgsfieldSpent: 0
 - updatedAt: 2026-07-02
 - branch context: work on master; feature work on auto/<slug>
 
+Notes: iter 239 REVIEW — meta-desc-fix-239 shipped:
+  Full EN guide frontmatter audit: all guides checked against ≤65-char title / ≤160-char
+  description limits. Found and fixed 39 violations (4 title + 35 description).
+  Title fixes: church-holy-sepulchre-guide 71→57, haifa-travel-guide 92→61,
+  jordan-river-baptism 66→60, yad-vashem-visitor-guide 75→54.
+  Description fixes: 35 guides trimmed; keyword intent preserved throughout.
+  Gate: pnpm check 0 errors; build 416 pages; 524/524 e2e+a11y pass.
+  Commit 957afaf on master; pushed to origin; CI in_progress at state-write time.
+
 Notes: iter 238 BUILD (technical→seo-content fallthrough) — cycling-in-israel shipped:
-  - New guide: /cycling-in-israel — Tel Aviv bike routes, Tel-O-Fun city bike-share,
-    and cycling options across Israel.
-  - Tel-O-Fun section: app, day pass (check app for current rates), station map,
-    30-min included per leg, heavy city bikes suited to flat urban hops.
-  - 4 key TLV routes: Tayelet beachfront (12km, Yarkon mouth → Jaffa), Yarkon River
-    park (10km inland, shaded, quieter), White City Bauhaus loop (Rothschild Blvd +
-    Dizengoff + Bialik, separated Rothschild lane), TLV→Jaffa full run with gradient.
-  - Practical tips: D-lock security, summer heat timing (before 8am/after 5pm on coast),
-    lane etiquette (right-of-way in marked lane), e-bike hire availability.
-  - Beyond TLV: Sea of Galilee 60km flat loop (Tiberias, best Oct–May); Golan Heights
-    touring (300–1,200m elevation, quiet roads); Negev MTB near Mitzpe Ramon (strictly
-    Oct–Apr, trail closures + extreme heat warned); Israel Bike Trail 1,200km IBT overview.
-  - HONESTY upheld: Tel-O-Fun prices framed as "check app for current rates"; helmet law
-    nuance (required under-18 + on roads; adults on dedicated paths = permissive by law
-    but recommended); Negev trail heat danger clearly stated; IBT effort level honest.
-  - 2 affiliate CTAs: GYG Tel Aviv bike tours + Booking.com Tel Aviv hotels.
-  - 7 FAQs: safety, Tel-O-Fun, TLV→Jaffa, IBT, rentals, regions beyond TLV, helmets.
-  - Cross-link added from transportation.md Cycling section → /cycling-in-israel.
-  - Smoke test route added (+1 to ROUTES array; 524 total).
-  - Gate: pnpm check 0 errors; build 416 pages (+1 vs 415); 524/524 e2e+a11y pass
-  - Commit 715ce8f on master; pushed to origin; CI in_progress at state-write time
+  New guide /cycling-in-israel (715ce8f); 416 pages; 524/524 tests pass
 
 Notes: iter 237 BUILD (tools→seo-content fallthrough) — israel-in-summer shipped:
   New guide /israel-in-summer (5ee2ab3); 415 pages; 523/523 tests pass
@@ -90,7 +79,7 @@ Active items from recent research (all in BACKLOG, ready):
   iter235: /skyfield-extreme-park-jaffa [P2 S], /schottenstein-campus-jerusalem [P2 S], /midburn-festival-israel [P3 S], /tlvfest-guide [P3 S], /indnegev-festival [P3 S], /israel-festival-jerusalem-guide [P3 S]
 
 Cron b7325b16 hourly @ :17. Loop history: 19 tools + sitemap-lastmod + link-checker(+depth) + i18n
-Phase0/1a/1b/1c/2 Batches1-18(COMPLETE) + 30 review passes + 3 technical (event-schema + meta-trim + locale-links) + 23 EN guides + 3 tools-monetization + 5 accuracy-fix + VAT-refund + israel-museum + golan-heights + review(204-title-fix) + research(205-6-items) + traveling-israel-jewish-holidays(206) + western-wall-tunnels-guide(207) + tower-of-david-guide(208) + review/meta-desc-fix(209) + research(210-5-items) + israeli-breakfast-guide(211) + netanya-guide(212) + jericho-day-trip-from-jerusalem(213) + review/meta-desc-fix(214) + research(215-6-items) + jaffa-food-guide(216) + mahane-yehuda-market-guide(217);
+Phase0/1a/1b/1c/2 Batches1-18(COMPLETE) + 31 review passes + 3 technical (event-schema + meta-trim + locale-links) + 23 EN guides + 3 tools-monetization + 5 accuracy-fix + VAT-refund + israel-museum + golan-heights + review(204-title-fix) + research(205-6-items) + traveling-israel-jewish-holidays(206) + western-wall-tunnels-guide(207) + tower-of-david-guide(208) + review/meta-desc-fix(209) + research(210-5-items) + israeli-breakfast-guide(211) + netanya-guide(212) + jericho-day-trip-from-jerusalem(213) + review/meta-desc-fix(214) + research(215-6-items) + jaffa-food-guide(216) + mahane-yehuda-market-guide(217);
 herodion-guide(218) + review/meta-desc-fix(219) + research(220-6-items) + galilee-christian-sites-circuit(221) + israel-eta-guide(222) + haifa-neighborhoods-guide(223) + review/meta-desc-fix(224) + research(225-6-items) + 1-day-tel-aviv-itinerary(226) + tel-aviv-things-to-do(227) + layover-jerusalem(228) + review/meta-desc-fix(229);
-research(230-6-items) + eilat-travel-guide(231) + ein-gedi-guide(232) + israel-with-teenagers(233) + review/meta-desc-fix(234) + research(235-6-items) + israel-craft-beer(236) + israel-in-summer(237) + cycling-in-israel(238).
+research(230-6-items) + eilat-travel-guide(231) + ein-gedi-guide(232) + israel-with-teenagers(233) + review/meta-desc-fix(234) + research(235-6-items) + israel-craft-beer(236) + israel-in-summer(237) + cycling-in-israel(238) + review/meta-desc-fix(239).
 research iters 5/10/20/30/35/40/45/50/55/60/65/70/75/80/85/90/95/100/105/110/115/120/125/130/135/140/145/150/155/160/165/170/175/180/185/190/195/200/205/210/215/220/225/230/235.
