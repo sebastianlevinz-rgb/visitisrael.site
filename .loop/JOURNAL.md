@@ -4702,3 +4702,16 @@ Gate: pnpm check 0 errors (118 files); build 415 pages (+1 vs 414); 523/523 e2e+
 Ship: committed to master 5ee2ab3, pushed. CI Lighthouse in_progress at state-write time.
 Prod: CI in_progress — next iteration start-check will confirm.
 Next: iter 238 = BUILD (238%5==3 → technical; likely fallthrough to seo-content).
+
+## 2026-07-02 · iter 238 · BUILD (technical→seo-content fallthrough) · cycling-in-israel
+What: new /cycling-in-israel guide. Tel-O-Fun city bike-share (app, day pass, 30-min first leg
+included, station map); 4 TLV routes (Tayelet 12km, Yarkon River park 10km, White City Bauhaus
+loop, TLV→Jaffa); practical tips (D-lock, heat strategy, lane etiquette, e-bikes); beyond TLV
+(Sea of Galilee 60km loop, Golan Heights touring, Negev MTB strictly Oct–Apr, IBT 1,200km);
+2 affiliate CTAs (GYG bike tours + Booking.com TLV hotels); 7 FAQs; cross-link from
+transportation.md Cycling section → /cycling-in-israel. HONESTY: Tel-O-Fun prices say
+"check app for current rates"; helmet law nuanced correctly; Negev heat danger stated.
+Gate: pnpm check 0 errors; build 416 pages (+1); 524/524 e2e+a11y pass.
+Ship: commit 715ce8f on master; pushed to origin. CI in_progress at journal-write time
+(~5min typical; next run's start-check confirms).
+Next: iter 239 = REVIEW mode.

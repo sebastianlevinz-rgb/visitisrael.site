@@ -1,40 +1,39 @@
 # LOOP STATE
 
-- iteration: 237
-- lastMode: BUILD (tools→seo-content fallthrough)
-- lastItem: israel-in-summer
-- lastResult: COMPLETE — new guide /israel-in-summer (5ee2ab3); 415 pages; 523/523 tests pass
-- nextRotationCategory: 238%5==3 → BUILD (technical→seo-content fallthrough likely)
+- iteration: 238
+- lastMode: BUILD (technical→seo-content fallthrough)
+- lastItem: cycling-in-israel
+- lastResult: COMPLETE — new guide /cycling-in-israel (715ce8f); 416 pages; 524/524 tests pass
+- nextRotationCategory: 239%5==4 → REVIEW
 - higgsfieldSpent: 0
 - updatedAt: 2026-07-02
 - branch context: work on master; feature work on auto/<slug>
 
+Notes: iter 238 BUILD (technical→seo-content fallthrough) — cycling-in-israel shipped:
+  - New guide: /cycling-in-israel — Tel Aviv bike routes, Tel-O-Fun city bike-share,
+    and cycling options across Israel.
+  - Tel-O-Fun section: app, day pass (check app for current rates), station map,
+    30-min included per leg, heavy city bikes suited to flat urban hops.
+  - 4 key TLV routes: Tayelet beachfront (12km, Yarkon mouth → Jaffa), Yarkon River
+    park (10km inland, shaded, quieter), White City Bauhaus loop (Rothschild Blvd +
+    Dizengoff + Bialik, separated Rothschild lane), TLV→Jaffa full run with gradient.
+  - Practical tips: D-lock security, summer heat timing (before 8am/after 5pm on coast),
+    lane etiquette (right-of-way in marked lane), e-bike hire availability.
+  - Beyond TLV: Sea of Galilee 60km flat loop (Tiberias, best Oct–May); Golan Heights
+    touring (300–1,200m elevation, quiet roads); Negev MTB near Mitzpe Ramon (strictly
+    Oct–Apr, trail closures + extreme heat warned); Israel Bike Trail 1,200km IBT overview.
+  - HONESTY upheld: Tel-O-Fun prices framed as "check app for current rates"; helmet law
+    nuance (required under-18 + on roads; adults on dedicated paths = permissive by law
+    but recommended); Negev trail heat danger clearly stated; IBT effort level honest.
+  - 2 affiliate CTAs: GYG Tel Aviv bike tours + Booking.com Tel Aviv hotels.
+  - 7 FAQs: safety, Tel-O-Fun, TLV→Jaffa, IBT, rentals, regions beyond TLV, helmets.
+  - Cross-link added from transportation.md Cycling section → /cycling-in-israel.
+  - Smoke test route added (+1 to ROUTES array; 524 total).
+  - Gate: pnpm check 0 errors; build 416 pages (+1 vs 415); 524/524 e2e+a11y pass
+  - Commit 715ce8f on master; pushed to origin; CI in_progress at state-write time
+
 Notes: iter 237 BUILD (tools→seo-content fallthrough) — israel-in-summer shipped:
-  - New guide: /israel-in-summer — summer heat strategy guide for visitors who must
-    travel in July–August. Heat geography map (coast 28–32°C, Jerusalem dry heat,
-    Dead Sea 40–45°C, Negev 38–44°C trail closures, Galilee north 28–34°C);
-    early-morning-first strategy (Masada by 3:30am, Western Wall pre-10am, Old City
-    markets); midday refuge options (Mahane Yehuda, Carmel Market covered, Israel
-    Museum, Tel Aviv Museum of Art, Sarona Market food hall); Dead Sea dawn-only
-    window (viable 5–9am only, Kalia Beach from 8am, combine with Masada sunrise);
-    Tel Aviv as summer home base (beach morning, Old Jaffa afternoon, Florentin
-    evening, Carmel Market Thursday evening bar scene); Sea of Galilee and Upper
-    Galilee summer circuit (kayaking, Jordan River float, Achziv NP, Rosh Hanikra);
-    Jerusalem heat management (Temple Mount strictly pre-10am, Yad Vashem midday
-    indoor, Israel Museum midday, Tower of David early-morning ramparts); Eilat Red
-    Sea water activities (snorkelling Coral Beach, diving, Underwater Observatory);
-    practical heat management (water 1.5L/person minimum, 50+ SPF, clothing, Shabbat
-    summer timing); 7-day summer itinerary table.
-  - HONESTY upheld: Masada path closure dates linked to INPA (not hardcoded); Dead Sea
-    temperatures are ranges not exact; restaurant/beach details framed as current state
-    with 'check before visiting'; Negev hiking clearly warned against in summer.
-  - Three affiliate CTAs: GYG Tel Aviv tours + GYG Masada sunrise + Booking.com Israel.
-  - Seven FAQs: Israel summer heat, coolest city, Masada, Tel Aviv beach, Dead Sea
-    summer timing, Negev hiking, Tel Aviv evenings.
-  - Cross-link added from best-time-to-visit-israel.md summer section → /israel-in-summer.
-  - Smoke test route added (+1 to ROUTES array; 523 total).
-  - Gate: pnpm check 0 errors; build 415 pages (+1 vs 414); 523/523 e2e+a11y pass
-  - Commit 5ee2ab3 on master; pushed to origin; CI in_progress at state-write time
+  New guide /israel-in-summer (5ee2ab3); 415 pages; 523/523 tests pass
 
 Notes: iter 236 BUILD (seo-content fallthrough from monetization) — israel-craft-beer shipped:
   New guide /israel-craft-beer (a6d5558); 414 pages; 522/522 tests pass
@@ -93,5 +92,5 @@ Active items from recent research (all in BACKLOG, ready):
 Cron b7325b16 hourly @ :17. Loop history: 19 tools + sitemap-lastmod + link-checker(+depth) + i18n
 Phase0/1a/1b/1c/2 Batches1-18(COMPLETE) + 30 review passes + 3 technical (event-schema + meta-trim + locale-links) + 23 EN guides + 3 tools-monetization + 5 accuracy-fix + VAT-refund + israel-museum + golan-heights + review(204-title-fix) + research(205-6-items) + traveling-israel-jewish-holidays(206) + western-wall-tunnels-guide(207) + tower-of-david-guide(208) + review/meta-desc-fix(209) + research(210-5-items) + israeli-breakfast-guide(211) + netanya-guide(212) + jericho-day-trip-from-jerusalem(213) + review/meta-desc-fix(214) + research(215-6-items) + jaffa-food-guide(216) + mahane-yehuda-market-guide(217);
 herodion-guide(218) + review/meta-desc-fix(219) + research(220-6-items) + galilee-christian-sites-circuit(221) + israel-eta-guide(222) + haifa-neighborhoods-guide(223) + review/meta-desc-fix(224) + research(225-6-items) + 1-day-tel-aviv-itinerary(226) + tel-aviv-things-to-do(227) + layover-jerusalem(228) + review/meta-desc-fix(229);
-research(230-6-items) + eilat-travel-guide(231) + ein-gedi-guide(232) + israel-with-teenagers(233) + review/meta-desc-fix(234) + research(235-6-items) + israel-craft-beer(236) + israel-in-summer(237).
+research(230-6-items) + eilat-travel-guide(231) + ein-gedi-guide(232) + israel-with-teenagers(233) + review/meta-desc-fix(234) + research(235-6-items) + israel-craft-beer(236) + israel-in-summer(237) + cycling-in-israel(238).
 research iters 5/10/20/30/35/40/45/50/55/60/65/70/75/80/85/90/95/100/105/110/115/120/125/130/135/140/145/150/155/160/165/170/175/180/185/190/195/200/205/210/215/220/225/230/235.

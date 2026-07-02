@@ -455,3 +455,4 @@ Dead Sea dawn-only window (viable 5–9am; Masada sunrise combination); Tel Aviv
 base; Sea of Galilee/Upper Galilee north circuit; Eilat Red Sea water activities;
 practical heat management checklist; 7-day summer itinerary table. Three GYG+Booking CTAs.
 7 FAQs. 523/523 tests pass; 415 pages built. [seo-content]
+- /cycling-in-israel (715ce8f, iter238) — Tel Aviv cycling guide: Tel-O-Fun scheme, 4 TLV routes (Tayelet, Yarkon, White City, TLV→Jaffa), Sea of Galilee loop, Golan/Negev MTB, IBT 1,200km. SEO: "biking Tel Aviv", "Tel-O-Fun guide", "cycling Israel", "Tel Aviv bike share".
