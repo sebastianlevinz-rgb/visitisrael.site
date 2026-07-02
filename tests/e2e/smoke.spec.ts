@@ -283,6 +283,7 @@ const ROUTES = [
   '/israel-craft-beer',
   '/israel-in-summer',
   '/cycling-in-israel',
+  '/vegan-vegetarian-israel',
 ];
 
 for (const route of ROUTES) {

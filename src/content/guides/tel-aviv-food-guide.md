@@ -51,7 +51,7 @@ A guided **food tour** (above) is the fastest way to eat the highlights with con
 - **Sabich & falafel** — the great pita sandwiches, stuffed with salads and tahini.
 - **Shakshuka** — the brunch staple, eggs poached in spiced tomato.
 - **Seafood & mezze** — fresh fish and small plates, especially around the port and Jaffa.
-- **Bakeries & vegan** — world-class baked goods, and one of the planet best vegan scenes.
+- **Bakeries & vegan** — world-class baked goods, and one of the planet's best vegan scenes. See the dedicated [vegan & vegetarian Israel guide](/vegan-vegetarian-israel) for plant-based restaurant picks across Tel Aviv and the country.
 
 ## Where to eat by neighbourhood
 

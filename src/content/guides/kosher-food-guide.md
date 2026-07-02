@@ -36,6 +36,6 @@ The **markets** are the heart of it: [Mahane Yehuda](/jerusalem/mahane-yehuda) i
 
 ## Practical tips
 
-Tap water is safe to drink. Vegetarians and vegans are exceptionally well catered for — Israel is one of the easiest countries anywhere for plant-based eating. Budget for food using our [cost guide](/israel-cost-budget), and remember kosher spots close Friday afternoon to Saturday night.
+Tap water is safe to drink. Vegetarians and vegans are exceptionally well catered for — Israel is one of the easiest countries anywhere for plant-based eating. See the [vegan & vegetarian Israel guide](/vegan-vegetarian-israel) for dedicated restaurant picks in Tel Aviv and Jerusalem, and how to use the kashrut system to your advantage as a plant-based traveller. Budget for food using our [cost guide](/israel-cost-budget), and remember kosher spots close Friday afternoon to Saturday night.
 
 Looking for a specific restaurant? Use our [kosher &amp; vegan restaurant finder](/israel-restaurant-finder) to filter well-known options by city and dietary type.
