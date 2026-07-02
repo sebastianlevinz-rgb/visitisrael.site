@@ -1,6 +1,6 @@
 ---
 title: 'Israel eSIM: The Best Way to Get Data in 2026'
-description: 'How to get mobile data in Israel with an eSIM: how it works, what it costs, eSIM vs local SIM, coverage at Ben Gurion Airport, and how to set one up before you fly.'
+description: 'How to get mobile data in Israel with an eSIM: how it works, what it costs, eSIM vs local SIM, airport coverage, and how to set one up before you fly.'
 heroImage: /images/regions/tel-aviv/hero.jpg
 category: Connectivity
 updatedAt: 2026-06-23

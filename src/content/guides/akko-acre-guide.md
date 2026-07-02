@@ -1,6 +1,6 @@
 ---
 title: 'Akko (Acre) Travel Guide: UNESCO Crusader City & Day Trips (2026)'
-description: 'Complete Akko travel guide — Hospitaller Knights Halls, Templar Tunnel, Al-Jazzar Mosque, Old City seafood, how to get there from Haifa and Tel Aviv, and what to combine nearby.'
+description: 'Akko travel guide — Hospitaller Knights Halls, Templar Tunnel, Al-Jazzar Mosque, Old City seafood and how to get there from Haifa and Tel Aviv.'
 heroImage: /images/regions/akko/hero.jpg
 category: Destinations
 verdictName: 'an Akko (Acre) guided tour'

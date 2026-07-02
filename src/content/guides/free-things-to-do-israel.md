@@ -1,6 +1,6 @@
 ---
 title: 'Free Things to Do in Israel: 10 Experiences That Cost Nothing'
-description: 'From Yad Vashem to Tel Aviv beaches and Bahá''í Gardens tours — a practical guide to the best free attractions and activities in Israel, with tips on booking ahead.'
+description: "From Yad Vashem to Tel Aviv beaches and Bahá'í Gardens — a guide to the best free attractions in Israel, with tips on booking ahead."
 heroImage: /images/regions/tel-aviv/beaches.jpg
 category: Planning
 updatedAt: 2026-06-29

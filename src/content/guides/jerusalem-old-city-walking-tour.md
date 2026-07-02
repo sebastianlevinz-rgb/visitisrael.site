@@ -1,6 +1,6 @@
 ---
 title: 'Jerusalem Old City Self-Guided Walking Tour (2026)'
-description: 'Walk all four quarters of Jerusalem Old City: step-by-step route from Jaffa Gate through the Armenian, Jewish and Christian quarters, the Western Wall and Via Dolorosa.'
+description: 'Walk all four quarters of Jerusalem Old City: route from Jaffa Gate through the Armenian, Jewish and Christian quarters, the Western Wall and Via Dolorosa.'
 heroImage: /images/regions/jerusalem/old-city.jpg
 category: Tours
 updatedAt: 2026-06-30

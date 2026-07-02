@@ -1,6 +1,6 @@
 ---
 title: 'Rav-Kav Israel 2026: How to Use Israel''s Public Transport Card'
-description: 'Complete tourist guide to the Rav-Kav card — what it is, where to buy it at Ben Gurion Airport, how to load and use it on Israeli buses, trains and light rail, and how the 90-minute transfer works.'
+description: 'Tourist guide to the Rav-Kav card — what it is, where to buy it at Ben Gurion Airport, how to load it and use it on Israeli buses, trains and light rail.'
 heroImage: /images/regions/tel-aviv/hero.jpg
 category: Transport
 updatedAt: 2026-06-26

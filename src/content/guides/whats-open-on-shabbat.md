@@ -1,6 +1,6 @@
 ---
 title: "What's Open on Shabbat in Israel? City-by-City Guide"
-description: 'Exactly what stays open and what closes on Shabbat in Jerusalem, Tel Aviv and Haifa, how to get around on Saturday, and how to plan a smooth Friday and Saturday.'
+description: 'What stays open and what closes on Shabbat in Jerusalem, Tel Aviv and Haifa, how to get around on Saturday, and how to plan your Friday and Saturday.'
 heroImage: /images/regions/tel-aviv/beaches.jpg
 category: Planning
 updatedAt: 2026-06-16

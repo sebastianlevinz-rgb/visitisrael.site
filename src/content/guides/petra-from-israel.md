@@ -1,6 +1,6 @@
 ---
 title: 'Petra from Israel: Day Trip, Flights or Overland (2026 Guide)'
-description: 'How to visit Petra from Israel — the Eilat one-day trip, the Tel Aviv trip with flights, and the Jerusalem multi-day route compared on cost, time, the border and the Jordan visa.'
+description: 'How to visit Petra from Israel — Eilat one-day trip, Tel Aviv trip with flights and Jerusalem multi-day route compared on cost, time and the border.'
 heroImage: /images/regions/eilat/hero.jpg
 category: Compare
 updatedAt: 2026-06-16

@@ -1,6 +1,6 @@
 ---
 title: 'Israel Travel Cost & Budget Guide (2026)'
-description: 'How much does a trip to Israel cost? Realistic daily budgets for backpackers, mid-range and luxury travellers, plus prices for hotels, food, transport and tours.'
+description: 'How much does a trip to Israel cost? Daily budgets for backpackers, mid-range and luxury travellers, plus prices for hotels, food, transport and tours.'
 heroImage: /images/regions/jerusalem/hero.jpg
 category: Planning
 updatedAt: 2026-05-20

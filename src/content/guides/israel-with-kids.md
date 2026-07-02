@@ -1,6 +1,6 @@
 ---
 title: 'Israel with Kids: A Family Travel Guide'
-description: 'How to plan a family trip to Israel: the best regions and attractions for kids, where to stay, getting around with children, and practical tips for ages toddler to teen.'
+description: 'Plan a family trip to Israel: best regions and attractions for kids, where to stay, getting around with children, and tips for toddlers to teens.'
 heroImage: /images/regions/galilee/sea-of-galilee.jpg
 category: Planning
 updatedAt: 2026-06-16

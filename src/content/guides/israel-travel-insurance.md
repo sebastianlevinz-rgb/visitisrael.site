@@ -1,6 +1,6 @@
 ---
 title: 'Travel Insurance for Israel: What You Need in 2026'
-description: 'Why and how to get travel insurance for Israel: what to look for in medical and trip cover, how the regional situation affects policies, and how to choose a plan.'
+description: 'Travel insurance for Israel: what to look for in medical and trip cover, how the regional situation affects policies, and how to choose a plan.'
 heroImage: /images/regions/galilee/hero.jpg
 category: Planning
 updatedAt: 2026-06-25

@@ -1,6 +1,6 @@
 ---
 title: 'Bar & Bat Mitzvah in Israel: A Complete Destination Travel Guide'
-description: 'Plan a meaningful bar or bat mitzvah trip to Israel — ceremony venues, planning timelines, family itinerary ideas and expert tour operators for Jewish lifecycle travel.'
+description: 'Plan a bar or bat mitzvah trip to Israel — ceremony venues, planning timelines, family itinerary ideas and expert tour operators.'
 heroImage: /images/regions/jerusalem/western-wall.jpg
 category: Planning
 updatedAt: 2026-06-24

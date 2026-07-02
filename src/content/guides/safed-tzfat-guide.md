@@ -1,6 +1,6 @@
 ---
 title: 'Safed (Tzfat) Travel Guide: Kabbalah & Synagogues (2026)'
-description: 'Complete guide to Safed (Tzfat) — the Kabbalistic city of Jewish mysticism. Ha''Ari Synagogue, Artists'' Quarter, Abuhav Synagogue, candle-making, and how to get there from Haifa and Tel Aviv.'
+description: "Guide to Safed (Tzfat) — the Kabbalistic city of Jewish mysticism. Ha'Ari Synagogue, Artists' Quarter, Abuhav Synagogue and how to get there from Haifa."
 heroImage: /images/regions/galilee/hero.jpg
 category: Destinations
 updatedAt: 2026-06-25

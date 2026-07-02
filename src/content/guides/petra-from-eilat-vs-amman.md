@@ -1,6 +1,6 @@
 ---
 title: 'Petra from Eilat vs from Amman: Which Route Is Best?'
-description: 'Visiting Petra from Israel''s Eilat or from Amman in Jordan? Compare drive times, border crossings, costs, day-trip vs overnight, and which route suits your trip.'
+description: "Visiting Petra from Israel's Eilat or from Amman? Compare drive times, border crossings, costs, day trip vs overnight and which route suits your trip."
 heroImage: /images/regions/eilat/hero.jpg
 category: Compare
 updatedAt: 2026-05-22

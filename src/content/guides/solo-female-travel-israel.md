@@ -1,6 +1,6 @@
 ---
 title: 'Solo Female Travel in Israel: An Honest Safety Guide (2026)'
-description: 'Is Israel safe for solo female travellers? City-by-city notes, transport tips, neighbourhood safety, accommodation picks and practical advice — honest, not alarmist.'
+description: 'Is Israel safe for solo female travellers? City-by-city notes, transport tips, neighbourhood safety, accommodation picks and honest practical advice.'
 heroImage: /images/sub-destinations/tel-aviv/tayelet.jpg
 category: Planning
 updatedAt: 2026-06-27

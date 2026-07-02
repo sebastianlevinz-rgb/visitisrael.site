@@ -1,6 +1,6 @@
 ---
-title: 'Church of the Holy Sepulchre: Visitor Guide & Edicule Queue Tips (2026)'
-description: 'Everything you need to visit the Church of the Holy Sepulchre in Jerusalem: opening hours, Edicule queue strategy, six-denomination Status Quo explainer, dress code, and guided tour options.'
+title: 'Church of the Holy Sepulchre: Visitor Guide & Tips (2026)'
+description: 'Visit the Church of the Holy Sepulchre: opening hours, Edicule queue strategy, the six-denomination Status Quo, dress code and guided tour options.'
 heroImage: /images/regions/jerusalem/holy-sepulchre.jpg
 category: Sacred Sites
 updatedAt: 2026-06-30

@@ -1,6 +1,6 @@
 ---
-title: 'Yad Vashem: Complete Visitor Guide — Hours, Booking & What to Expect (2026)'
-description: 'Plan your visit to Yad Vashem Holocaust Memorial in Jerusalem: how to register, when to arrive, what to expect in each section, practical rules, and whether a guided tour is worth it.'
+title: 'Yad Vashem Visitor Guide: Hours, Booking & Tips (2026)'
+description: 'Plan your visit to Yad Vashem Holocaust Memorial: how to register, when to arrive, what to expect in each section and whether a guided tour is worth it.'
 heroImage: /images/regions/jerusalem/yad-vashem.jpg
 category: Jerusalem
 updatedAt: 2026-06-30

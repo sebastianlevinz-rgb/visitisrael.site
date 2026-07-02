@@ -1,6 +1,6 @@
 ---
 title: 'Money in Israel: ATMs, Currency & Paying in 2026'
-description: 'Complete guide to money in Israel for tourists: NIS denominations, ATM tips (avoid DCC), paying by card, Shabbat cash strategy, currency exchange, and which markets are cash-only.'
+description: 'Guide to money in Israel: NIS denominations, ATM tips (avoid DCC), paying by card, Shabbat cash strategy, currency exchange and cash-only markets.'
 heroImage: /images/regions/tel-aviv/hero.jpg
 category: Planning
 updatedAt: 2026-06-26

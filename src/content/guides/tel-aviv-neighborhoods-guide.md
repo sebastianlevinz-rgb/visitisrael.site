@@ -1,6 +1,6 @@
 ---
 title: 'Tel Aviv Neighborhoods Guide: Best Areas to Stay & Explore (2026)'
-description: 'The complete Tel Aviv neighborhoods guide — Rothschild, Neve Tzedek, Florentin, Jaffa and the Beachfront. Which area suits your trip style, where to eat, and how to get around.'
+description: 'Tel Aviv neighborhoods guide — Rothschild, Neve Tzedek, Florentin, Jaffa and the Beachfront. Which area suits your trip, where to eat and how to get around.'
 heroImage: /images/regions/tel-aviv/hero.jpg
 category: Destinations
 updatedAt: 2026-06-28

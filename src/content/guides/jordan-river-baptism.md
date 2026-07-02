@@ -1,5 +1,5 @@
 ---
-title: 'Jordan River Baptism Sites: Yardenit vs Qasr el-Yahud Guide (2026)'
+title: 'Jordan River Baptism: Yardenit vs Qasr el-Yahud Guide (2026)'
 description: 'Complete guide to Jordan River baptism sites in Israel — Yardenit vs Qasr el-Yahud compared: facilities, access, what to bring and how to plan your visit.'
 heroImage: /images/sub-destinations/galilee/yardenit.jpg
 category: Planning

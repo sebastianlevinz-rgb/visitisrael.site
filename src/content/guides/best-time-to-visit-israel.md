@@ -1,6 +1,6 @@
 ---
 title: 'Best Time to Visit Israel: Month-by-Month & Season Guide'
-description: "When to visit Israel: a season-by-season and month-by-month breakdown of weather, crowds, holidays and prices across Jerusalem, Tel Aviv, the desert and the coast."
+description: 'When to visit Israel: a season-by-season breakdown of weather, crowds, holidays and prices across Jerusalem, Tel Aviv, the desert and the coast.'
 heroImage: /images/regions/galilee/hero.jpg
 category: Planning
 updatedAt: 2026-05-20

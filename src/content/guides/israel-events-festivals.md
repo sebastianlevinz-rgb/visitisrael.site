@@ -1,6 +1,6 @@
 ---
 title: 'Israel Events & Festivals: A Month-by-Month Calendar'
-description: 'A month-by-month guide to the best events and festivals in Israel — from Tel Aviv Pride and the Jerusalem festivals to the holiday calendar — and how to plan around them.'
+description: "Month-by-month guide to Israel's best events and festivals — from Tel Aviv Pride and Jerusalem festivals to the holiday calendar."
 heroImage: /images/regions/tel-aviv/hero.jpg
 category: Planning
 updatedAt: 2026-05-27

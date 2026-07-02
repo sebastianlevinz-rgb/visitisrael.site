@@ -1,6 +1,6 @@
 ---
-title: "Haifa Travel Guide: Bahá'í Gardens, Carmelit & Visiting Israel's Most Accessible City (2026)"
-description: "Complete Haifa travel guide — Bahá'í World Centre UNESCO terraces, Carmelit funicular, German Colony, Wadi Nisnas, Stella Maris, beaches and how to get there from Tel Aviv or Jerusalem."
+title: "Haifa Travel Guide: Bahá'í Gardens, Carmelit & Beaches (2026)"
+description: "Complete Haifa travel guide — Bahá'í terraces, Carmelit funicular, German Colony, Wadi Nisnas, Stella Maris, beaches and how to get there from Tel Aviv."
 heroImage: /images/regions/haifa/hero.jpg
 category: Destinations
 verdictName: a Haifa guided tour

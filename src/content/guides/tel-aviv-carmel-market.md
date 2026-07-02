@@ -1,6 +1,6 @@
 ---
 title: 'Tel Aviv Carmel Market (Shuk HaCarmel): Complete Visitor Guide'
-description: 'Complete guide to Tel Aviv Carmel Market (Shuk HaCarmel): what to eat, what to buy, best time to visit, the Friday evening transformation and guided food tour options.'
+description: 'Guide to Tel Aviv Carmel Market (Shuk HaCarmel): what to eat, what to buy, best time to visit, the Friday evening transformation and food tour options.'
 heroImage: /images/sub-destinations/tel-aviv/carmel-market.jpg
 category: Food
 updatedAt: 2026-06-28

@@ -1,6 +1,6 @@
 ---
 title: 'Israeli Food: The Complete Guide to What to Eat'
-description: 'A national guide to Israeli food and cuisine — the must-try dishes (hummus, falafel, sabich, shakshuka, knafeh and more), regional specialities, the best food markets, and dietary notes for travellers.'
+description: 'Israeli food guide — must-try dishes (hummus, falafel, sabich, shakshuka, knafeh), regional specialities, top food markets and dietary notes for travellers.'
 heroImage: /images/regions/jerusalem/mahane-yehuda.jpg
 category: Food
 updatedAt: 2026-06-17

@@ -1,6 +1,6 @@
 ---
 title: 'Jerusalem & Bethlehem Day Trip: West Bank Crossing Guide (2026)'
-description: 'How to do the Jerusalem and Bethlehem day trip — the Church of the Nativity, crossing into the West Bank, whether it is safe, the cost ($106–150) and how to book.'
+description: 'The Jerusalem and Bethlehem day trip — Church of the Nativity, crossing into the West Bank, safety notes, the cost ($106–150) and how to book.'
 heroImage: /images/west-bank/bethlehem/hero.jpg
 category: Tours
 updatedAt: 2026-06-16

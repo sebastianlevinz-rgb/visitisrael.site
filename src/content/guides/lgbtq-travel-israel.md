@@ -1,6 +1,6 @@
 ---
 title: 'LGBTQ Travel in Israel & Tel Aviv Pride'
-description: 'A practical guide to LGBTQ travel in Israel: the Tel Aviv scene, safety, the best neighbourhoods, when Tel Aviv Pride happens, and what to expect elsewhere in the country.'
+description: 'Practical guide to LGBTQ travel in Israel: the Tel Aviv scene, safety, best neighbourhoods, when Tel Aviv Pride happens and what to expect elsewhere.'
 heroImage: /images/regions/tel-aviv/rothschild.jpg
 category: Planning
 updatedAt: 2026-06-16

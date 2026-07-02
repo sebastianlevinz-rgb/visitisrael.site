@@ -1,6 +1,6 @@
 ---
 title: 'Water Hiking in Israel: Nahal Trails & Swimming Holes Guide'
-description: 'Israel water hiking guide — the best nahal stream hikes and natural swimming holes: Ein Gedi, Nahal HaKibbutzim, Nahal Kziv, Wadi Qelt and more. Safety, seasons and what to bring.'
+description: 'Water hiking in Israel — best nahal hikes and natural pools: Ein Gedi, Nahal HaKibbutzim, Nahal Kziv, Wadi Qelt. Safety, seasons and what to bring.'
 heroImage: /images/regions/dead-sea/ein-gedi.jpg
 category: Outdoor
 updatedAt: 2026-06-25

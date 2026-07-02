@@ -1,6 +1,6 @@
 ---
 title: 'Cheap Flights to Israel (TLV): When to Book & Best Airlines'
-description: 'How to find the cheapest flights to Ben Gurion Airport — the best months to book, which airlines fly direct from the US and Europe, and how to use fare tools to save.'
+description: 'How to find cheap flights to Ben Gurion Airport — the best months to book, airlines flying direct from the US and Europe, and how to use fare tools.'
 heroImage: /images/regions/tel-aviv/hero.jpg
 category: Planning
 updatedAt: 2026-06-30

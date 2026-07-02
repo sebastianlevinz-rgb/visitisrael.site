@@ -1,6 +1,6 @@
 ---
 title: 'Israel Zimmer Guide: Rural Cabins & B&Bs (2026)'
-description: "Israel's 10,000+ zimmers are private rural cabins and B&Bs — the country's most popular alternative to hotels. This guide explains what a zimmer is, where to find the best ones, what to expect, and how to book."
+description: "Israel's zimmers are rural cabins and B&Bs — the most popular alternative to hotels. What they are, where to find the best and how to book one."
 heroImage: /images/regions/galilee/hero.jpg
 category: Accommodation
 updatedAt: 2026-06-26

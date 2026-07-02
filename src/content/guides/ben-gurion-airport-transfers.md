@@ -1,6 +1,6 @@
 ---
 title: 'Ben Gurion Airport Transfers to Jerusalem & Tel Aviv'
-description: 'All the ways to get from Ben Gurion Airport (TLV) to Tel Aviv and Jerusalem: private transfers, taxis, the train, the 485 bus and sheruts — with prices and Shabbat notes.'
+description: 'All ways from Ben Gurion Airport (TLV) to Tel Aviv and Jerusalem: private transfers, taxis, the train, the 485 bus and sheruts — prices and Shabbat notes.'
 heroImage: /images/regions/jerusalem/hero.jpg
 category: Transport
 updatedAt: 2026-05-27

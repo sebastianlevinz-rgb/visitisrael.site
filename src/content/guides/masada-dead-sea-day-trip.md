@@ -1,6 +1,6 @@
 ---
 title: 'Masada & Dead Sea Day Trip: Sunrise, Ein Gedi & What to Expect'
-description: 'The complete guide to the Masada and Dead Sea day trip from Jerusalem or Tel Aviv — sunrise vs daytime, cost ranges, how to get there, what to bring, and how to book.'
+description: 'Complete guide to the Masada and Dead Sea day trip from Jerusalem or Tel Aviv — sunrise vs daytime, cost ranges, how to get there and what to bring.'
 heroImage: /images/regions/dead-sea/hero.jpg
 category: Tours
 verdictName: Masada & Dead Sea
