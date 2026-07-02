@@ -496,3 +496,11 @@ Meta description audit of iter-242/243 guides. Fixed 3 SEO violations (descripti
 best-hotels-tel-aviv (181→141), vegan-vegetarian-israel (204→149, also fixed "world best" typo),
 eilat-hotels-guide (176→150). Added cross-link mahane-yehuda-market-guide → vegan-vegetarian-israel.
 419 pages; 526/526 e2e+a11y pass. [review]
+
+## iter 246 — jerusalem-neighborhoods-guide (cd9c479)
+New /jerusalem-neighborhoods-guide covering 8 Jerusalem areas: 4 Old City quarters (Jewish,
+Christian, Muslim, Armenian) + Mamilla/Jaffa Gate, City Center/Ben Yehuda, German Colony/
+Emek Refaim, Mahane Yehuda/Nachlaot. At-a-glance comparison table + per-area detail with
+where-to-stay and dining focus. Fills the "best area to stay in Jerusalem" SERP gap (all
+major competitors ranked; we had nothing). Parallel to shipped TLV and Haifa neighborhoods
+guides. 3× affiliate CTAs, 6 FAQs, cross-link from /jerusalem region page.

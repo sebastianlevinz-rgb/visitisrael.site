@@ -1,13 +1,34 @@
 # LOOP STATE
 
-- iteration: 245
-- lastMode: RESEARCH
-- lastItem: competitor-gap-scan-245 (Dead Sea hotels / Jericho day trip / Beer Sheva gap scan)
-- lastResult: RESEARCH COMPLETE — 3 net-new items added to BACKLOG: dead-sea-hotels-guide (P2, S, monetization), jericho-day-trip-from-jerusalem (P2, M, seo-content+monetization), beer-sheva-guide (P3, S, seo-content); COMPETITORS.md + JOURNAL.md updated; no gate (research mode)
-- nextRotationCategory: 246%5==1 → BUILD (seo-content rotation)
+- iteration: 246
+- lastMode: BUILD
+- lastItem: jerusalem-neighborhoods-guide (seo-content rotation)
+- lastResult: SHIPPED — new /jerusalem-neighborhoods-guide covering 8 Jerusalem areas (4 Old City quarters + Mamilla, City Center, German Colony, Mahane Yehuda). Gate: pnpm check 0 errors; build 420 pages (+1); 528/528 e2e+a11y pass. Commit: cd9c479. CI in_progress at push (prior pattern → pass).
+- nextRotationCategory: 247%5==2 → BUILD (tools rotation; if no tools ready, fall through to monetization)
 - higgsfieldSpent: 0
 - updatedAt: 2026-07-02
 - branch context: work on master; feature work on auto/<slug>
+
+Notes: iter 246 BUILD (seo-content) — jerusalem-neighborhoods-guide:
+  New /jerusalem-neighborhoods-guide — the "best area to stay Jerusalem" SERP gap.
+  touristisrael.com, lonelyplanet, fodors, secretjerusalem all rank; we had nothing.
+  Parallel to shipped tel-aviv-neighborhoods-guide.md (iter157) and haifa-neighborhoods-guide.md.
+  Covers 8 areas with at-a-glance comparison table + per-neighborhood detail:
+    Old City (4 quarters): Jewish (Western Wall proximity), Christian (Holy Sepulchre/Via Dolorosa,
+      guesthouses), Muslim (souq/Damascus Gate, budget), Armenian (quietest, Cathedral of St. James).
+    West Jerusalem: Mamilla/Jaffa Gate corridor (luxury/convenience, King David+Mamilla hotels),
+      City Center/Ben Yehuda (practical hub, Abraham Hostel, tram access), German Colony/Emek
+      Refaim (best restaurants, leafy, Templer houses), Mahane Yehuda/Nachlaot (Shuk, bar scene,
+      most local-feeling).
+  Honest: no fabricated hotel prices; ranges + live Booking CTA; Shabbat impact noted.
+  3× affiliate CTAs: Booking.com Jerusalem hotels, GYG Old City tour, Viator city tour.
+  6 FAQs covering: best area for first-timers, staying inside Old City, non-religious visitors,
+    getting around, food neighborhood, Mamilla vs German Colony difference.
+  Cross-link added to /jerusalem region page "Where to Stay" section → neighborhoods guide.
+  Smoke test (/jerusalem-neighborhoods-guide) + a11y test added.
+  Gate: pnpm check 0 errors; build 420 pages (+1); 528/528 e2e+a11y pass.
+  Commit: cd9c479 on master; pushed to origin; CI in_progress at push (prior pattern → pass).
+  NEXT: iter 247 = BUILD (247%5==2 → tools; if tools empty fall through).
 
 Notes: iter 245 RESEARCH — competitor-gap-scan-245:
   Dead Sea accommodation market + Jerusalem-adjacent PA day-trip destinations + southern Israel city gaps.
@@ -95,5 +116,5 @@ Notes: iter 240 RESEARCH — competitor-gap-scan-240:
   No gate needed (RESEARCH mode). .loop/ files committed to master.
 
 Cron b7325b16 hourly @ :17. Loop history: 19 tools + sitemap-lastmod + link-checker(+depth) + i18n
-Phase0/1a/1b/1c/2 Batches1-18(COMPLETE) + 31 review passes + 3 technical (event-schema + meta-trim + locale-links) + 25 EN guides + 4 tools-monetization;
-research iters 5/10/20/30/35/40/45/50/55/60/65/70/75/80/85/90/95/100/105/110/115/120/125/130/135/140/145/150/155/160/165/170/175/180/185/190/195/200/205/210/215/220/225/230/235/240.
+Phase0/1a/1b/1c/2 Batches1-18(COMPLETE) + 31 review passes + 3 technical (event-schema + meta-trim + locale-links) + 26 EN guides + 4 tools-monetization;
+research iters 5/10/20/30/35/40/45/50/55/60/65/70/75/80/85/90/95/100/105/110/115/120/125/130/135/140/145/150/155/160/165/170/175/180/185/190/195/200/205/210/215/220/225/230/235/240/245.
