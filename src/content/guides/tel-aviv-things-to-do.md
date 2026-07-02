@@ -1,6 +1,6 @@
 ---
 title: 'Things to Do in Tel Aviv: The Complete Attractions Guide (2026)'
-description: 'From Old Jaffa port and Carmel Market to the White City boulevards and Florentin street art — the definitive guide to Tel Aviv attractions, beaches and activities.'
+description: 'From Old Jaffa port and Carmel Market to the White City boulevards and Florentin street art — the definitive guide to Tel Aviv attractions and activities.'
 heroImage: /images/regions/tel-aviv/hero.jpg
 category: Guide
 updatedAt: 2026-07-01

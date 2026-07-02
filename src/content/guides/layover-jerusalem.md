@@ -1,6 +1,6 @@
 ---
 title: 'Jerusalem Layover Guide: Visit the Old City Between Flights'
-description: 'Can you visit Jerusalem on a long layover? Yes — if you have 8 hours or more. This guide maps what to do with 6h, 8h, 10h and 24h at Ben Gurion, including Shabbat timing and airport return buffers.'
+description: 'Visit Jerusalem on a long layover: honest transit math for 6h, 8h, 10h and 24h at Ben Gurion, with Shabbat tips and timed Old City walking circuits.'
 heroImage: /images/regions/jerusalem/hero.jpg
 category: Transport
 updatedAt: 2026-07-02
