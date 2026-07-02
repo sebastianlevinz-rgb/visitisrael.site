@@ -1,6 +1,6 @@
 ---
 title: 'Vegan & Vegetarian Guide to Israel: Tel Aviv and Beyond (2026)'
-description: 'Israel — and Tel Aviv in particular — is one of the world best destinations for vegan and vegetarian travellers. Practical guide to plant-based eating in Tel Aviv, Jerusalem, Haifa and across the country.'
+description: "Israel is one of the world's best vegan and vegetarian destinations. Guide to plant-based eating in Tel Aviv, Jerusalem and Haifa, with kashrut tips."
 heroImage: /images/sub-destinations/tel-aviv/carmel-market.jpg
 category: 'Food & Drink'
 updatedAt: 2026-07-02

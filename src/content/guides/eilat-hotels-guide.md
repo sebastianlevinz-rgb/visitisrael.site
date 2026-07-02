@@ -1,6 +1,6 @@
 ---
 title: 'Where to Stay in Eilat: Best Hotels by Zone & Budget 2026'
-description: 'Eilat hotel guide: North Beach resort strip, Coral Beach south zone and budget city-centre options — hotel picks at three tiers with seasonal pricing and honest booking advice.'
+description: 'Eilat hotel guide: North Beach resort strip, Coral Beach south and budget city-centre options. Hotel picks at three price tiers with seasonal pricing.'
 heroImage: /images/regions/eilat/hero.jpg
 category: Accommodation
 updatedAt: 2026-07-02

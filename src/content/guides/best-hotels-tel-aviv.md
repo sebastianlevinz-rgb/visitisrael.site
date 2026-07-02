@@ -1,6 +1,6 @@
 ---
 title: 'Best Hotels in Tel Aviv 2026: Area Guide with Picks at Every Budget'
-description: 'Best hotels in Tel Aviv by neighborhood — budget guesthouses from ₪300/night, mid-range boutiques on Rothschild, and luxury options on the Tayelet beachfront. Honest, current picks.'
+description: 'Best hotels in Tel Aviv by neighborhood: budget, mid-range and luxury picks by area, from Florentin guesthouses to Tayelet beachfront hotels.'
 heroImage: /images/regions/tel-aviv/hero.jpg
 category: Accommodation
 updatedAt: 2026-07-02
