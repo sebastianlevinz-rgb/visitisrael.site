@@ -19,7 +19,7 @@ Israel packs several climates into a small country, so the "best" time depends o
 
 **Spring (March–May) — best overall.** Wildflowers in the [Galilee](/galilee) and Judean Hills, mild days, and a sea warming up. Passover (usually April) brings closures and higher prices — plan around it.
 
-**Summer (June–August) — hot.** The [Tel Aviv](/tel-aviv) coast is busy and humid; [Jerusalem](/jerusalem) is hot but dry; the [Dead Sea](/dead-sea) and [Eilat](/eilat) are extreme (40°C+), suited to early mornings and water. [Eilat](/eilat) is a summer beach-break favourite despite the heat.
+**Summer (June–August) — hot.** The [Tel Aviv](/tel-aviv) coast is busy and humid; [Jerusalem](/jerusalem) is hot but dry; the [Dead Sea](/dead-sea) and [Eilat](/eilat) are extreme (40°C+), suited to early mornings and water. [Eilat](/eilat) is a summer beach-break favourite despite the heat. If you must travel in July or August, the [beat-the-heat summer guide](/israel-in-summer) covers the early-morning-first strategy and which regions to prioritise.
 
 **Autumn (September–November) — best overall.** Heat eases, the sea stays warm, and the olive harvest is under way. The Jewish High Holidays fall here and bring some closures.
 

@@ -281,6 +281,7 @@ const ROUTES = [
   '/ein-gedi-guide',
   '/israel-with-teenagers',
   '/israel-craft-beer',
+  '/israel-in-summer',
 ];
 
 for (const route of ROUTES) {
