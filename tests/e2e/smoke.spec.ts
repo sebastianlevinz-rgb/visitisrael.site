@@ -237,6 +237,7 @@ const ROUTES = [
   '/yad-vashem-visitor-guide',
   '/haifa-travel-guide',
   '/haifa-neighborhoods-guide',
+  '/jerusalem-neighborhoods-guide',
   '/druze-villages-carmel',
   '/fr/1-day-jerusalem-itinerary',
   '/de/1-day-jerusalem-itinerary',

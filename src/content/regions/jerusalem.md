@@ -64,6 +64,8 @@ Jerusalem has five practical neighbourhoods for visitors, each with a different 
 
 **East Jerusalem** (Sheikh Jarrah and around Damascus Gate) is the most international option, with several long-running hotels frequented by Christian pilgrims. Cheaper than the centre and walkable to the Old City through Damascus Gate.
 
+For a full breakdown of each area's character, accommodation profile and dining scene, see the [Jerusalem neighborhoods guide](/jerusalem-neighborhoods-guide).
+
 ## Top Things to Do in the Old City
 
 The Old City is one square kilometre divided into four quarters — Jewish, Christian, Muslim, and Armenian. A first visit takes a full day to walk slowly, two if you want time at each major site.
