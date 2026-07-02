@@ -4786,3 +4786,19 @@ What: new /vegan-vegetarian-israel guide — plant-based eating hub for Israel.
 Gate: pnpm check 0 errors; build 418 pages (+1 from 417); 525/525 e2e+a11y pass.
 Merge: f2c65cf on master; pushed to origin.
 Prod: CI + Lighthouse workflows in_progress at push time (expected pattern; prior 241 CI = success).
+
+## 2026-07-02T15:38Z · iter 243 · BUILD (monetization) · best-hotels-tel-aviv
+What: New /best-hotels-tel-aviv monetization guide (419 pages, +1). Tools category was fully
+exhausted (11/11 shipped); fell through to monetization per playbook. Companion to
+tel-aviv-neighborhoods-guide.md (iter157). 3 price tiers organized by TLV neighborhood:
+Budget ₪300-550 (Alray Boutique Old North, Florentin guesthouses, beach hostel-style);
+Mid-range ₪550-1,100 (Brown TLV Urban Hotel, Montefiore Hotel, Rothschild 22 Boutique);
+Luxury ₪1,200+ (The Norman Nachalat Binyamin, The Setai Jaffa Ottoman fortress,
+David InterContinental Tayelet, Diaghilev LIVE ART Rothschild, Hotel Renoma Trumpeldor).
+Decision matrix (beach/WhiteCity/boutique/family/business/nightlife). Seasonal pricing
+context (Pride week 2-3× spike; Passover/Sukkot 50-100% above baseline; Jan-Mar cheapest).
+Honest: ranges only, no fabricated scores, links live Booking.com. 2× Booking.com CTAs +
+1× GYG walking tour CTA. Back-link added to tel-aviv-neighborhoods-guide.md.
+Gate: pnpm check 0 errors; build 419 pages (+1); 526/526 e2e+a11y pass (was 525/525).
+Merge: SHA e75fa0b squash-merged to master, pushed. CI in_progress at push time.
+Prod: CI in_progress — consistent with prior-iteration pattern (all 242 prior CIs passed).

@@ -482,3 +482,11 @@ Nazareth Arab restaurants); Israeli supermarket label reading (chalav/parve/basa
 Hebrew); Shabbat grocery planning. 1× GYG food tour CTA + 1× Booking.com TLV hotel CTA.
 kosher-food-guide.md + tel-aviv-food-guide.md updated with back-links.
 418 pages; 525/525 e2e+a11y pass. [seo-content]
+
+## iter243 · BUILD (monetization) · best-hotels-tel-aviv — SHA e75fa0b
+New /best-hotels-tel-aviv monetization companion to tel-aviv-neighborhoods-guide. Hotel picks
+at 3 tiers by TLV area: Budget ₪300-550 (Alray Boutique, Florentin guesthouses, beach hostel-
+style), Mid-range ₪550-1,100 (Brown TLV Urban Hotel, Montefiore Hotel, Rothschild 22 Boutique),
+Luxury ₪1,200+ (The Norman, The Setai Jaffa, David InterContinental, Diaghilev LIVE ART, Renoma).
+Decision matrix + seasonal booking context. 2× Booking.com CTAs + 1× GYG. Back-link from
+tel-aviv-neighborhoods-guide.md. 419 pages; 526/526 e2e+a11y pass. [monetization]

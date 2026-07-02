@@ -1,13 +1,31 @@
 # LOOP STATE
 
-- iteration: 242
-- lastMode: BUILD (seo-content)
-- lastItem: vegan-vegetarian-israel
-- lastResult: BUILD SHIPPED — SHA f2c65cf; /vegan-vegetarian-israel live; 418 pages; 525/525 e2e+a11y pass; CI in_progress at push (prior pattern expected to pass)
-- nextRotationCategory: 243%5==3 → BUILD (tools rotation)
+- iteration: 243
+- lastMode: BUILD (monetization — tools empty, fell through)
+- lastItem: best-hotels-tel-aviv
+- lastResult: BUILD SHIPPED — SHA e75fa0b; /best-hotels-tel-aviv live; 419 pages; 526/526 e2e+a11y pass; CI in_progress at push (prior pattern expected to pass)
+- nextRotationCategory: 244%5==4 → REVIEW
 - higgsfieldSpent: 0
 - updatedAt: 2026-07-02
 - branch context: work on master; feature work on auto/<slug>
+
+Notes: iter 243 BUILD (monetization) — best-hotels-tel-aviv:
+  New /best-hotels-tel-aviv monetization guide companion to tel-aviv-neighborhoods-guide.md.
+  Covers TLV's hotel market organized by neighborhood and price tier:
+  Budget ₪300–550: Alray Boutique (Old North), Florentin guesthouses, beach hostel-style.
+  Mid-range ₪550–1,100: Brown TLV Urban Hotel, Montefiore Hotel, Rothschild 22 Boutique.
+  Luxury ₪1,200+: The Norman (Nachalat Binyamin), The Setai (Jaffa Ottoman fortress),
+    David InterContinental (Tayelet), Diaghilev LIVE ART, Hotel Renoma.
+  Decision matrix: beach / culture+WhiteCity / boutique / families / business / nightlife.
+  Booking context: Pride week, Passover, Sukkot demand patterns; seasonal pricing guidance.
+  Honest: rates are ranges, links live Booking.com; no fabricated scores or exact prices.
+  2× Booking.com hotel CTAs + 1× GYG walking tour CTA.
+  Back-link added to tel-aviv-neighborhoods-guide.md.
+  Smoke test coverage added (/best-hotels-tel-aviv). 526/526 e2e+a11y pass.
+  Gate: pnpm check 0 errors; build 419 pages (+1); 526/526 e2e+a11y pass.
+  Commit: e75fa0b on master; pushed to origin; CI in_progress at push time (prior pattern → pass).
+  Rotation note: tools category was empty (all 11 shipped); fell through → monetization.
+  NEXT: iter 244 = REVIEW (244%5==4).
 
 Notes: iter 242 BUILD (seo-content) — vegan-vegetarian-israel:
   New /vegan-vegetarian-israel guide covering Israel's world-class plant-based food
@@ -50,5 +68,5 @@ Notes: iter 240 RESEARCH — competitor-gap-scan-240:
   No gate needed (RESEARCH mode). .loop/ files committed to master.
 
 Cron b7325b16 hourly @ :17. Loop history: 19 tools + sitemap-lastmod + link-checker(+depth) + i18n
-Phase0/1a/1b/1c/2 Batches1-18(COMPLETE) + 31 review passes + 3 technical (event-schema + meta-trim + locale-links) + 24 EN guides + 3 tools-monetization;
+Phase0/1a/1b/1c/2 Batches1-18(COMPLETE) + 31 review passes + 3 technical (event-schema + meta-trim + locale-links) + 25 EN guides + 4 tools-monetization;
 research iters 5/10/20/30/35/40/45/50/55/60/65/70/75/80/85/90/95/100/105/110/115/120/125/130/135/140/145/150/155/160/165/170/175/180/185/190/195/200/205/210/215/220/225/230/235/240.
