@@ -1,13 +1,26 @@
 # LOOP STATE
 
-- iteration: 243
-- lastMode: BUILD (monetization — tools empty, fell through)
-- lastItem: best-hotels-tel-aviv
-- lastResult: BUILD SHIPPED — SHA e75fa0b; /best-hotels-tel-aviv live; 419 pages; 526/526 e2e+a11y pass; CI in_progress at push (prior pattern expected to pass)
-- nextRotationCategory: 244%5==4 → REVIEW
+- iteration: 244
+- lastMode: REVIEW
+- lastItem: review-desc-trim-244 (meta description length audit)
+- lastResult: REVIEW SHIPPED — SHA a859c79; 3 over-limit descriptions fixed + vegan cross-link added; 419 pages; 526/526 e2e+a11y pass; CI in_progress at push (prior pattern expected to pass)
+- nextRotationCategory: 245%5==0 → RESEARCH
 - higgsfieldSpent: 0
 - updatedAt: 2026-07-02
 - branch context: work on master; feature work on auto/<slug>
+
+Notes: iter 244 REVIEW — review-desc-trim-244:
+  Audited iter-242 (vegan-vegetarian-israel) and iter-243 (best-hotels-tel-aviv) guides.
+  Found 3 SEO meta description length violations (>160 chars):
+    best-hotels-tel-aviv: 181 chars → trimmed to 141 chars
+    vegan-vegetarian-israel: 204 chars (+ typo "world best") → trimmed to 149 chars, typo fixed
+    eilat-hotels-guide: 176 chars → trimmed to 150 chars (spotted in scope scan)
+  Added cross-link from mahane-yehuda-market-guide.md → vegan-vegetarian-israel (was unidirectional).
+  All images verified present; all internal link targets exist (mahane-yehuda-market-guide confirmed);
+  back-links in kosher-food-guide and tel-aviv-food-guide verified present.
+  Gate: pnpm check 0 errors; build 419 pages; 526/526 e2e+a11y pass.
+  Commit: a859c79 on master; pushed to origin; CI in_progress at push time (prior pattern → pass).
+  NEXT: iter 245 = RESEARCH (245%5==0).
 
 Notes: iter 243 BUILD (monetization) — best-hotels-tel-aviv:
   New /best-hotels-tel-aviv monetization guide companion to tel-aviv-neighborhoods-guide.md.

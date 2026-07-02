@@ -490,3 +490,9 @@ style), Mid-range ₪550-1,100 (Brown TLV Urban Hotel, Montefiore Hotel, Rothsch
 Luxury ₪1,200+ (The Norman, The Setai Jaffa, David InterContinental, Diaghilev LIVE ART, Renoma).
 Decision matrix + seasonal booking context. 2× Booking.com CTAs + 1× GYG. Back-link from
 tel-aviv-neighborhoods-guide.md. 419 pages; 526/526 e2e+a11y pass. [monetization]
+
+## iter 244 · REVIEW · 2026-07-02 · a859c79
+Meta description audit of iter-242/243 guides. Fixed 3 SEO violations (descriptions >160 chars):
+best-hotels-tel-aviv (181→141), vegan-vegetarian-israel (204→149, also fixed "world best" typo),
+eilat-hotels-guide (176→150). Added cross-link mahane-yehuda-market-guide → vegan-vegetarian-israel.
+419 pages; 526/526 e2e+a11y pass. [review]

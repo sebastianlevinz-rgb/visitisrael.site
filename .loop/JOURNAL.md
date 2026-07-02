@@ -4802,3 +4802,15 @@ Honest: ranges only, no fabricated scores, links live Booking.com. 2× Booking.c
 Gate: pnpm check 0 errors; build 419 pages (+1); 526/526 e2e+a11y pass (was 525/525).
 Merge: SHA e75fa0b squash-merged to master, pushed. CI in_progress at push time.
 Prod: CI in_progress — consistent with prior-iteration pattern (all 242 prior CIs passed).
+
+## 2026-07-02 · iter 244 · REVIEW · review-desc-trim-244
+What: Audited iter-242/243 guides (vegan-vegetarian-israel, best-hotels-tel-aviv) for SEO,
+honesty, dead links, image paths, schema, and cross-link integrity. Found 3 meta description
+length violations (>160 chars SERP limit): best-hotels-tel-aviv (181→141), vegan-vegetarian-israel
+(204→149; also fixed "world best" typo → "world's best"), eilat-hotels-guide (176→150).
+Added bidirectional cross-link: mahane-yehuda-market-guide → vegan-vegetarian-israel (guide already
+linked to market; now symmetric). All images verified present; all internal hrefs valid;
+back-links in kosher-food-guide + tel-aviv-food-guide confirmed. No honesty issues found.
+Gate: pnpm check 0 errors; build 419 pages; 526/526 e2e+a11y pass.
+Ship: a859c79 on master; pushed; CI in_progress at push time (prior pattern → pass).
+Next: iter 245 = RESEARCH (245%5==0).
