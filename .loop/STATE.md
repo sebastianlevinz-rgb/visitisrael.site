@@ -1,13 +1,33 @@
 # LOOP STATE
 
-- iteration: 246
+- iteration: 247
 - lastMode: BUILD
-- lastItem: jerusalem-neighborhoods-guide (seo-content rotation)
-- lastResult: SHIPPED — new /jerusalem-neighborhoods-guide covering 8 Jerusalem areas (4 Old City quarters + Mamilla, City Center, German Colony, Mahane Yehuda). Gate: pnpm check 0 errors; build 420 pages (+1); 528/528 e2e+a11y pass. Commit: cd9c479. CI in_progress at push (prior pattern → pass).
-- nextRotationCategory: 247%5==2 → BUILD (tools rotation; if no tools ready, fall through to monetization)
+- lastItem: dead-sea-hotels-guide (monetization rotation; tools all shipped → fell through)
+- lastResult: SHIPPED — new /dead-sea-hotels-guide: third companion in the hotels-guide series (eilat-hotels-guide, best-hotels-tel-aviv). Ein Bokek resort strip (luxury/mid-range tiers) + honest no-budget framing + Ein Gedi Kibbutz Guest House alternative + seasonal pricing table + day-trip section. Back-link added to dead-sea-guide.md. Gate: pnpm check 0 errors; build 421 pages (+1); 530/530 e2e+a11y pass. Commit: 5401635. CI in_progress at push (prior pattern → pass).
+- nextRotationCategory: 248%5==3 → BUILD (seo-content rotation)
 - higgsfieldSpent: 0
 - updatedAt: 2026-07-02
 - branch context: work on master; feature work on auto/<slug>
+
+Notes: iter 247 BUILD (monetization; tools empty → fell through) — dead-sea-hotels-guide:
+  New /dead-sea-hotels-guide — third hotel-picks companion to eilat-hotels-guide (iter241)
+  and best-hotels-tel-aviv (iter243). Fills the Ein Bokek hotel market gap: touristisrael.com,
+  israel-taxi.com, secrettelaviv.com, deadsea.com all rank for "Dead Sea hotels Israel"; we had
+  only a general dead-sea-guide with a brief hotel mention (no tier picks, no seasonal table).
+  Honest structure: Ein Bokek resort strip (Israel's only Dead Sea accommodation zone, ~15 hotels);
+  luxury (David Dead Sea Resort & Spa, Herods Dead Sea, Isrotel Dead Sea Hotel); mid-range
+  (Isrotel Ganim, Lot Spa Hotel, Leonardo Plaza); honest no-budget framing (Ein Bokek has virtually
+  zero hostels or cheap guesthouses — unique in Israel; genuine budget = Ein Gedi Kibbutz Guest House
+  ₪480–600 20km north). Seasonal pricing table (spring/autumn = best experience; summer = lowest rates
+  but 40°C+; 2-night Fri–Sat minimum common; Israeli holiday weeks book 8–10 weeks ahead). Honest
+  day-trip alternative section (Egged 486 direct bus Jerusalem→Ein Bokek ~90 min). 3× affiliate CTAs:
+  2× Booking.com (resort strip + value stays) + 1× GYG Dead Sea day tours. Back-link added to
+  dead-sea-guide.md overnight section → /dead-sea-hotels-guide. Smoke + a11y tests added.
+  Gate: pnpm check 0 errors; build 421 pages (+1); 530/530 e2e+a11y pass.
+  Commit: 5401635 on master; pushed to origin; CI in_progress at push (prior pattern → pass).
+  Note: Jericho day-trip duplicate spotted in BACKLOG — iter245 research re-added it but it was
+  SHIPPED in iter213. BACKLOG cleaned.
+  NEXT: iter 248 = BUILD (248%5==3 → seo-content rotation).
 
 Notes: iter 246 BUILD (seo-content) — jerusalem-neighborhoods-guide:
   New /jerusalem-neighborhoods-guide — the "best area to stay Jerusalem" SERP gap.

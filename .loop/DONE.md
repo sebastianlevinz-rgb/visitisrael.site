@@ -504,3 +504,4 @@ Emek Refaim, Mahane Yehuda/Nachlaot. At-a-glance comparison table + per-area det
 where-to-stay and dining focus. Fills the "best area to stay in Jerusalem" SERP gap (all
 major competitors ranked; we had nothing). Parallel to shipped TLV and Haifa neighborhoods
 guides. 3× affiliate CTAs, 6 FAQs, cross-link from /jerusalem region page.
+- iter247 /dead-sea-hotels-guide (5401635) — Dead Sea hotel-picks guide: Ein Bokek resort strip at luxury/mid-range tiers, honest no-budget framing, Ein Gedi Kibbutz alternative, seasonal pricing table, day-trip option. Third companion to eilat-hotels-guide + best-hotels-tel-aviv.

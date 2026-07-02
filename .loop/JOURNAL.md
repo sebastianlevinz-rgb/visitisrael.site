@@ -4853,3 +4853,16 @@ Smoke test + a11y test routes added.
 Gate: pnpm check 0 errors; build 420 pages (+1); 528/528 e2e+a11y pass.
 Ship: cd9c479 on master; pushed to origin; CI in_progress at push (prior pattern → pass).
 Next: iter 247 = BUILD (247%5==2 → tools; fall through to monetization if no tools items ready).
+
+## 2026-07-02 · iter 247 · BUILD (monetization; tools empty → fell through) · dead-sea-hotels-guide
+What: new /dead-sea-hotels-guide — third hotel-picks companion to eilat-hotels-guide (iter241) and
+best-hotels-tel-aviv (iter243). Ein Bokek resort strip coverage: luxury (David Dead Sea Resort &
+Spa, Herods Dead Sea, Isrotel Dead Sea Hotel), mid-range (Isrotel Ganim, Lot Spa Hotel, Leonardo
+Plaza), honest no-budget framing (Ein Bokek has virtually zero hostels; genuine budget = Ein Gedi
+Kibbutz Guest House ₪480–600). Seasonal pricing table. Honest day-trip alternative section (bus
+486 Jerusalem→Ein Bokek ~90 min). 3× affiliate CTAs. Back-link added dead-sea-guide.md → guide.
+Cleanup: iter245 research re-added jericho-day-trip-from-jerusalem but it was SHIPPED iter213 —
+duplicate removed from BACKLOG.
+Gate: pnpm check 0 errors; build 421 pages (+1); 530/530 e2e+a11y pass.
+Ship: 5401635 on master; pushed to origin; CI in_progress at push (prior pattern → pass).
+Next: iter 248 = BUILD (248%5==3 → seo-content rotation).
