@@ -128,7 +128,7 @@ Eilat is the most accessible scuba diving destination in Israel — the **Coral 
 
 Water visibility runs 20 to 30 metres on clear days; the reef wall drops from 5 metres to over 40 in places. PADI Open Water certification courses take 3 to 4 days and run year-round. The **chamber operator** at Eilat is the regional hyperbaric facility; specialist dive insurance is strongly recommended for any deep work.
 
-For a full comparison of Red Sea tours, desert jeep safaris, Dolphin Reef experiences and Petra day trips from Eilat — including price ranges and who each is right for — see our [Eilat tours compared guide](/eilat-tours-compared).
+For a full comparison of Red Sea tours, desert jeep safaris, Dolphin Reef experiences and Petra day trips from Eilat — including price ranges and who each is right for — see our [Eilat tours compared guide](/eilat-tours-compared). For a practical overview of beaches, Dolphin Reef, Timna Park, tax-free shopping and getting here, see our complete [Eilat travel guide](/eilat-travel-guide).
 
 ## Where to Eat in Eilat
 
