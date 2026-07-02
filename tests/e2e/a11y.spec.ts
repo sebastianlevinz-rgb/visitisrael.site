@@ -166,6 +166,7 @@ const ROUTES = [
   '/fr/jerusalem-old-city-walking-tour',
   '/de/jerusalem-old-city-walking-tour',
   '/layover-tel-aviv',
+  '/dead-sea-hotels-guide',
   '/israel-experience-finder',
   '/search',
   '/404',
