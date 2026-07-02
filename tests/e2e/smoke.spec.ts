@@ -282,6 +282,7 @@ const ROUTES = [
   '/israel-with-teenagers',
   '/israel-craft-beer',
   '/israel-in-summer',
+  '/cycling-in-israel',
 ];
 
 for (const route of ROUTES) {

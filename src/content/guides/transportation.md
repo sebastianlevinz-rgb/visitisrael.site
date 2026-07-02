@@ -39,6 +39,10 @@ The **[Tel Aviv Red Line](/tel-aviv-light-rail)** — Israel's first metro-style
 
 Metered taxis are widely available; insist on the meter or agree a price first. Ride-hailing apps operate in the main cities and are the simplest option late at night or on Shabbat.
 
+## Cycling
+
+**Tel Aviv** is one of the most cycle-friendly cities in the Middle East — 150km+ of marked bike lanes, a continuous beachfront promenade path and the Yarkon River park all allow car-free cycling. The **Tel-O-Fun** city bike-share runs docking stations across the city. See the full [cycling in Israel guide](/cycling-in-israel) for routes, the Tel-O-Fun scheme, Sea of Galilee loop and Negev mountain biking.
+
 ## Renting a car
 
 You don't need a car for the [Tel Aviv](/tel-aviv)–[Jerusalem](/jerusalem)–[Haifa](/haifa) triangle. But for the [Galilee](/galilee), [Golan Heights](/golan) and [Negev](/negev), where sights are scattered and buses are sparse, a rental transforms the trip. Drive on the right; an international licence alongside your home one is recommended.
