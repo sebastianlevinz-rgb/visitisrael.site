@@ -4621,3 +4621,20 @@ Ship: squash merge "already up to date" (new file was untracked); staged all 3 c
   directly + committed 68c82cf on master; pushed to origin; branch auto/israel-with-teenagers deleted.
 Prod: CI in_progress at state-write time; prior run pattern = SUCCESS.
 Next: iter 234 = REVIEW (234%5==4).
+
+## 2026-07-02 · iter 234 · REVIEW (meta-desc-fix) · review/meta-desc-fix-iter231-233
+What: Audited 3 guides from iter231–233 (eilat-travel-guide, ein-gedi-guide, israel-with-teenagers).
+  Found 2 over-length meta descriptions:
+  - ein-gedi-guide: 183 chars → trimmed to 142 (was over by 23)
+  - israel-with-teenagers: 167 chars → trimmed to 148 (was over by 7)
+  - eilat-travel-guide: 155 chars — already OK, no change
+  All 3: titles OK (45–54 chars, all ≤65), H1 clean (no H1 nodes in body), hero images verified
+  (all 3 exist at declared paths), all 15 internal links resolve to existing content files, smoke
+  test routes verified at smoke.spec.ts lines 280–282.
+  Startup: local master diverged from origin (was at iter172 locally); corrected with
+  git fetch + git reset --hard origin/master to 3111211 (iter233).
+Gate: pnpm check 0 errors; pnpm build 413 pages (unchanged); pnpm test:e2e 521/521 PASS.
+Ship: committed 39c2b69 directly on master (squash merge said "already up to date"); pushed to
+  origin; branch auto/review-meta-desc-fix-234 deleted.
+Prod: CI + Lighthouse in_progress at state-write time (run IDs 28570503939 / 28570503924).
+Next: iter 235 = RESEARCH (235%5==0).

@@ -436,3 +436,6 @@ lessons + Florentin street art + HaPisgah skate park, Judean Desert rappelling, 
 Sea of Galilee kayaking, Achziv NP, Nimrod Fortress, Yad Vashem for teens. HONESTY enforced:
 legal age 18, Birthright 18–32, summer heat warnings. GYG surf + GYG rappelling + Booking.com
 family rooms. Cross-link from israel-with-kids.md. 521/521 tests pass; 413 pages built.
+
+## iter 234 REVIEW — meta desc trim (eilat-travel-guide, ein-gedi-guide, israel-with-teenagers)
+SHA: 39c2b69. Trimmed 2 over-length descriptions: ein-gedi-guide 183→142 chars, israel-with-teenagers 167→148 chars. eilat-travel-guide already OK. All titles ≤65, all H1 clean, all heroes exist, all 15 internal links valid. 521/521 tests.
