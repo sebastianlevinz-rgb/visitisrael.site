@@ -4604,3 +4604,20 @@ Prod: CI + Lighthouse in_progress at push — typical pattern; prior commit 9268
 Next: iter 233 = BUILD (233%5==3 → tools). Top candidate: none of the 11 shipped tools need
   extension; fall through to seo-content. Top P2 seo-content candidates: /israel-for-gulf-travelers
   (P2 M) or /israel-monasteries-guide (P2 M) or /israel-wellness-spa (P2 M).
+
+## 2026-07-02 · iter 233 · BUILD (tools→seo-content fallthrough) · israel-with-teenagers
+What: New guide /israel-with-teenagers — teen-specific Israel travel distinct from existing
+  israel-with-kids (ages 2–12). Teen-specific hooks: Masada Snake Path sunrise hike, Dead Sea
+  float (salt brine eye-sting safety briefing), Tel Aviv surfing at Gordon Beach + Florentin
+  street art + HaPisgah skate park, Judean Desert rappelling/canyoning, water hiking Nahal
+  David/Arugot/Kziv, Sea of Galilee kayaking, Nimrod Fortress Golan, Yad Vashem for teens (14+).
+  HONESTY: legal age 18 for alcohol, Birthright 18–32 not for teens, Masada heat danger warning,
+  Yad Vashem emotional framing. 3 CTAs, 7 FAQs, sample 7-day itinerary. Cross-link from
+  israel-with-kids.md. Smoke test +1 (521 total). Build: 413 pages (+1). No Higgsfield used.
+Gate: pnpm check 0 errors; pnpm build 413 pages; pnpm test:e2e 521/521 PASS.
+  Startup: local master 50 commits behind origin/master → git reset --hard origin/master to
+  d23bbaf (iter232 state). Mode: tools all shipped → fall through to seo-content (P2 S item).
+Ship: squash merge "already up to date" (new file was untracked); staged all 3 changed files
+  directly + committed 68c82cf on master; pushed to origin; branch auto/israel-with-teenagers deleted.
+Prod: CI in_progress at state-write time; prior run pattern = SUCCESS.
+Next: iter 234 = REVIEW (234%5==4).

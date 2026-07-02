@@ -428,3 +428,11 @@ New guide /eilat-travel-guide — practical city guide for Eilat as a Red Sea re
 
 ## iter 232 — ein-gedi-guide (9afd319) [2026-07-02]
 New guide /ein-gedi-guide — standalone visitor guide for Ein Gedi Nature Reserve (Israel's most-visited INPA reserve, Dead Sea corridor). Wadi David trail (waterfall pools, 3km loop, year-round spring-fed) with 2026 upper-trail flood-damage note; Nahal Arugot gorge (6.6km, advance-booking required); Nubian ibex and rock hyrax wildlife; Kibbutz Ein Gedi botanical garden; practical transport (Bus 486 from Jerusalem, Route 1→90 by car); NP Pass coverage; seasonal guide; Dead Sea combination table; overnight kibbutz angle. GYG + Abraham Tours + Booking.com CTAs. Targets "Ein Gedi visitor guide 2026", "Ein Gedi trails", "Ein Gedi Dead Sea day trip".
+
+## iter 233 — israel-with-teenagers (68c82cf) [2026-07-02]
+New guide /israel-with-teenagers — teen-specific Israel travel for ages 13–18 (distinct from
+israel-with-kids which covers 2–12). Masada Snake Path challenge, Dead Sea float, Tel Aviv surf
+lessons + Florentin street art + HaPisgah skate park, Judean Desert rappelling, water hiking,
+Sea of Galilee kayaking, Achziv NP, Nimrod Fortress, Yad Vashem for teens. HONESTY enforced:
+legal age 18, Birthright 18–32, summer heat warnings. GYG surf + GYG rappelling + Booking.com
+family rooms. Cross-link from israel-with-kids.md. 521/521 tests pass; 413 pages built.

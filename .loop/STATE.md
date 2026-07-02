@@ -1,13 +1,32 @@
 # LOOP STATE
 
-- iteration: 232
-- lastMode: BUILD (seo-content)
-- lastItem: ein-gedi-guide
-- lastResult: COMPLETE — /ein-gedi-guide shipped; 412 pages; 520/520 e2e+a11y pass; commit 9afd319
-- nextRotationCategory: 233%5==3 → BUILD/tools
+- iteration: 233
+- lastMode: BUILD (tools→seo-content fallthrough)
+- lastItem: israel-with-teenagers
+- lastResult: COMPLETE — /israel-with-teenagers shipped; 413 pages; 521/521 e2e+a11y pass; commit 68c82cf
+- nextRotationCategory: 234%5==4 → REVIEW
 - higgsfieldSpent: 0
 - updatedAt: 2026-07-02
 - branch context: work on master; feature work on auto/<slug>
+
+Notes: iter 233 BUILD (tools→seo-content fallthrough) — israel-with-teenagers shipped:
+  - New guide: /israel-with-teenagers — teen-specific Israel travel (ages 13–18), distinct from
+    israel-with-kids (ages 2–12). Covers: Masada Snake Path sunrise challenge; Dead Sea float +
+    mud ritual (salt brine eye-sting safety briefing); Tel Aviv surf lessons at Gordon Beach +
+    HaPisgah Gardens skate park + Florentin street art; Judean Desert rappelling/canyoning (age 12+);
+    water hiking in Nahal David + Nahal Arugot + Nahal Kziv; Sea of Galilee kayaking + Achziv NP;
+    Nimrod Fortress in the Golan; Yad Vashem for teens (age 14+, emotional framing, pre-book required).
+    Planning tips: let teens lead some decisions; balance sightseeing+unstructured time; 7-day
+    sample itinerary.
+  - HONESTY upheld: legal drinking age 18 clearly stated; Birthright 18–32 (not for teens);
+    Masada summer heat danger prominently warned; Yad Vashem emotional weight flagged; no fabricated
+    prices (ranges only).
+  - Three affiliate CTAs: GYG surf lessons TLV + GYG Judean Desert rappelling + Booking.com family rooms.
+  - Seven FAQs: Masada age/heat, safety for teens, Dead Sea, Yad Vashem, drinking age, Birthright, car.
+  - Cross-link added to israel-with-kids.md (first paragraph of body, linking to /israel-with-teenagers).
+  - Smoke test route added (+1 to ROUTES array; 521 total).
+  - Gate: pnpm check 0 errors; build 413 pages (+1 vs 412); 521/521 e2e+a11y pass
+  - Commit 68c82cf on master; pushed to origin; CI in_progress at state-write time
 
 Notes: iter 232 BUILD (seo-content) — ein-gedi-guide shipped:
   - New guide: /ein-gedi-guide — standalone visitor guide for Ein Gedi Nature Reserve,
