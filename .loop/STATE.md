@@ -1,13 +1,38 @@
 # LOOP STATE
 
-- iteration: 247
+- iteration: 248
 - lastMode: BUILD
-- lastItem: dead-sea-hotels-guide (monetization rotation; tools all shipped → fell through)
-- lastResult: SHIPPED — new /dead-sea-hotels-guide: third companion in the hotels-guide series (eilat-hotels-guide, best-hotels-tel-aviv). Ein Bokek resort strip (luxury/mid-range tiers) + honest no-budget framing + Ein Gedi Kibbutz Guest House alternative + seasonal pricing table + day-trip section. Back-link added to dead-sea-guide.md. Gate: pnpm check 0 errors; build 421 pages (+1); 530/530 e2e+a11y pass. Commit: 5401635. CI in_progress at push (prior pattern → pass).
-- nextRotationCategory: 248%5==3 → BUILD (seo-content rotation)
+- lastItem: more-transport-routes (seo-content rotation; tel-aviv-white-city-bauhaus skipped — existing tel-aviv-white-city.md already comprehensive)
+- lastResult: SHIPPED — 3 new /transport/[route] pages: ben-gurion-to-jerusalem (A1 express train + Bus 485 + sherut + taxi), ben-gurion-to-tel-aviv (direct train + bus + sherut + taxi), jerusalem-to-nazareth (organised tour + bus with transfer + taxi + car). Footer +3 links, transportation.md hub updated, ben-gurion-airport-transfers.md cross-linked. Gate: pnpm check 0 errors; build 424 pages (+3); 536/536 e2e+a11y pass. Commit: 6da8bc2. CI in_progress at push (prior pattern → pass).
+- nextRotationCategory: 249%5==4 → REVIEW
 - higgsfieldSpent: 0
 - updatedAt: 2026-07-02
 - branch context: work on master; feature work on auto/<slug>
+
+Notes: iter 248 BUILD (seo-content) — more-transport-routes:
+  Picked highest-priority seo-content item. tel-aviv-white-city-bauhaus skipped:
+  existing tel-aviv-white-city.md already comprehensively covers that content (Bauhaus
+  history, walking route, photography, practical info, 6 FAQs); creating /tel-aviv-white-city-bauhaus
+  would be duplicate content. BACKLOG entry marked SHIPPED via pre-existing content.
+  Chose "more transport routes" (P2, S, seo-content) instead — natural extension of the
+  existing /transport/[route] template with 3 high-intent gaps:
+    ben-gurion-to-jerusalem: fills "airport to Jerusalem" intent; A1 express train
+      (~22–30 min) is the key fact competitors don't always surface clearly; covers
+      Shabbat gap thoroughly; 5 options in comparison table.
+    ben-gurion-to-tel-aviv: fills "airport to Tel Aviv" intent; direct train every 15–30 min
+      is the headline fact; covers sherut 24/7 for Shabbat travellers; 5 options.
+    jerusalem-to-nazareth: fills "Jerusalem to Galilee" route intent; clarifies no direct
+      Nazareth rail service (important accuracy gap); emphasises organised day tour as
+      the practical default for most visitors; 4 options.
+  All three pages: honest cost ranges (no exact prices), Shabbat notes in every table,
+  FAQ schema, Article + Breadcrumb JSON-LD via existing template.
+  Wired: Footer.astro +3 links; transportation.md hub "Popular routes" section now lists
+  all 8 transport routes + haifa-to-akko (previously missing from hub); 
+  ben-gurion-airport-transfers.md → cross-links to 2 new airport route pages.
+  Smoke tests +3 routes; a11y tests +3 routes (now 536 total passing).
+  Gate: pnpm check 0 errors; build 424 pages (+3); 536/536 e2e+a11y pass.
+  Commit: 6da8bc2 on master; pushed to origin; CI in_progress at push (prior pattern → pass).
+  NEXT: iter 249 = REVIEW (249%5==4).
 
 Notes: iter 247 BUILD (monetization; tools empty → fell through) — dead-sea-hotels-guide:
   New /dead-sea-hotels-guide — third hotel-picks companion to eilat-hotels-guide (iter241)
@@ -63,77 +88,6 @@ Notes: iter 245 RESEARCH — competitor-gap-scan-245:
       never added standalone; UNESCO Tel Be'er Sheva + IAF Air Force Museum + Thursday Bedouin market.
   No gate (research mode). .loop/ files committed to master.
   NEXT: iter 246 = BUILD (246%5==1 → seo-content rotation).
-
-Notes: iter 244 REVIEW — review-desc-trim-244:
-  Audited iter-242 (vegan-vegetarian-israel) and iter-243 (best-hotels-tel-aviv) guides.
-  Found 3 SEO meta description length violations (>160 chars):
-    best-hotels-tel-aviv: 181 chars → trimmed to 141 chars
-    vegan-vegetarian-israel: 204 chars (+ typo "world best") → trimmed to 149 chars, typo fixed
-    eilat-hotels-guide: 176 chars → trimmed to 150 chars (spotted in scope scan)
-  Added cross-link from mahane-yehuda-market-guide.md → vegan-vegetarian-israel (was unidirectional).
-  All images verified present; all internal link targets exist (mahane-yehuda-market-guide confirmed);
-  back-links in kosher-food-guide and tel-aviv-food-guide verified present.
-  Gate: pnpm check 0 errors; build 419 pages; 526/526 e2e+a11y pass.
-  Commit: a859c79 on master; pushed to origin; CI in_progress at push time (prior pattern → pass).
-  NEXT: iter 245 = RESEARCH (245%5==0).
-
-Notes: iter 243 BUILD (monetization) — best-hotels-tel-aviv:
-  New /best-hotels-tel-aviv monetization guide companion to tel-aviv-neighborhoods-guide.md.
-  Covers TLV's hotel market organized by neighborhood and price tier:
-  Budget ₪300–550: Alray Boutique (Old North), Florentin guesthouses, beach hostel-style.
-  Mid-range ₪550–1,100: Brown TLV Urban Hotel, Montefiore Hotel, Rothschild 22 Boutique.
-  Luxury ₪1,200+: The Norman (Nachalat Binyamin), The Setai (Jaffa Ottoman fortress),
-    David InterContinental (Tayelet), Diaghilev LIVE ART, Hotel Renoma.
-  Decision matrix: beach / culture+WhiteCity / boutique / families / business / nightlife.
-  Booking context: Pride week, Passover, Sukkot demand patterns; seasonal pricing guidance.
-  Honest: rates are ranges, links live Booking.com; no fabricated scores or exact prices.
-  2× Booking.com hotel CTAs + 1× GYG walking tour CTA.
-  Back-link added to tel-aviv-neighborhoods-guide.md.
-  Smoke test coverage added (/best-hotels-tel-aviv). 526/526 e2e+a11y pass.
-  Gate: pnpm check 0 errors; build 419 pages (+1); 526/526 e2e+a11y pass.
-  Commit: e75fa0b on master; pushed to origin; CI in_progress at push time (prior pattern → pass).
-  Rotation note: tools category was empty (all 11 shipped); fell through → monetization.
-  NEXT: iter 244 = REVIEW (244%5==4).
-
-Notes: iter 242 BUILD (seo-content) — vegan-vegetarian-israel:
-  New /vegan-vegetarian-israel guide covering Israel's world-class plant-based food
-  scene. Tel Aviv has ~5% vegan population (among the world's highest per capita).
-  Guide covers naturally-vegan Middle Eastern staples; dedicated TLV vegan restaurants
-  (Meshek Barzilay, Falafel Sumsum, HaKosem, Green Cat, Opa); kashrut system explained
-  for vegans (parve meaning; kosher-meat restaurant = zero dairy guarantee); Jerusalem
-  and Haifa scenes; Hebrew supermarket labels; Shabbat planning.
-  1× GYG food tour CTA + 1× Booking.com TLV hotel CTA.
-  kosher-food-guide.md and tel-aviv-food-guide.md updated with back-links.
-  Gate: pnpm check 0 errors; build 418 pages (+1); 525/525 e2e+a11y pass.
-  Commit: f2c65cf on master; pushed to origin; CI in_progress at push time.
-  NEXT: iter 243 = BUILD (243%5==3 → tools). Also eligible: seo-content (many P2 items
-  remain: israel-wellness-spa, israel-hidden-gems, christmas-in-israel, shopping-in-israel,
-  jerusalem-neighborhoods-guide, vegan-vegetarian-israel is now SHIPPED).
-  Per rotation: tools next.
-
-Notes: iter 241 BUILD (monetization) — eilat-hotels-guide:
-  New /eilat-hotels-guide companion to eilat-travel-guide.md (iter231). Covers Eilat's
-  3 hotel zones (North Beach resort strip, Coral Beach South, city-centre budget area)
-  with hotel picks at 3 price tiers: budget ₪350-600 (Amdar Hostel, Manta Ray Inn, city-
-  centre guesthouses), mid-range ₪600-1,200 (Prima Music Hotel, Orchid Hotel+Resort,
-  U Boutique), luxury ₪1,200+ (Dan Eilat, Isrotel Royal Beach+Yam Suf, Princess Hotel).
-  Seasonal pricing table (Jan cheapest ~₪640/night, June peak ~₪2,300/night). Booking
-  decision matrix by priority. 2× Booking.com CTAs + 1× GYG. Dense cross-links to
-  eilat-travel-guide, eilat-diving-snorkeling, eilat-tours-compared, petra-from-eilat-vs-amman.
-  eilat-travel-guide.md updated with corrected price ranges + companion guide cross-link.
-  Gate: pnpm check 0 errors; build 417 pages; 524/524 e2e+a11y pass.
-  Commit: 785ab1d on master; pushed to origin.
-
-Notes: iter 240 RESEARCH — competitor-gap-scan-240:
-  3 net-new backlog items after thorough dedup vs ~140 existing items.
-  eilat-hotels-guide (P2, monetization, S): hotel picks at 3 tiers for Eilat's
-    distinct zones; companion to eilat-travel-guide.md (iter231). [SHIPPED iter241]
-  best-hotels-tel-aviv (P2, monetization, S): hotel picks at 3 tiers by TLV area;
-    companion to tel-aviv-neighborhoods-guide.md (iter157).
-  tel-aviv-budget-guide (P3, seo-content, S): "free & cheap things to do in Tel Aviv";
-    distinct from free-things-to-do-israel (national hub) and israel-cost-budget (cost overview).
-  Backlog fully saturated; 3 new items appropriate after 241 iterations.
-  No gate needed (RESEARCH mode). .loop/ files committed to master.
 
 Cron b7325b16 hourly @ :17. Loop history: 19 tools + sitemap-lastmod + link-checker(+depth) + i18n
 Phase0/1a/1b/1c/2 Batches1-18(COMPLETE) + 31 review passes + 3 technical (event-schema + meta-trim + locale-links) + 26 EN guides + 4 tools-monetization;

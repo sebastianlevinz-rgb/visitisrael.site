@@ -505,3 +505,5 @@ where-to-stay and dining focus. Fills the "best area to stay in Jerusalem" SERP 
 major competitors ranked; we had nothing). Parallel to shipped TLV and Haifa neighborhoods
 guides. 3× affiliate CTAs, 6 FAQs, cross-link from /jerusalem region page.
 - iter247 /dead-sea-hotels-guide (5401635) — Dead Sea hotel-picks guide: Ein Bokek resort strip at luxury/mid-range tiers, honest no-budget framing, Ein Gedi Kibbutz alternative, seasonal pricing table, day-trip option. Third companion to eilat-hotels-guide + best-hotels-tel-aviv.
+- iter248 /transport/ben-gurion-to-jerusalem + /transport/ben-gurion-to-tel-aviv + /transport/jerusalem-to-nazareth (6da8bc2) — 3 new transport comparison pages for high-intent airport and Galilee route searches. A1 express train featured prominently; Shabbat gap covered on all 3; 536/536 e2e+a11y.
+- iter248 tel-aviv-white-city-bauhaus (via existing) — BACKLOG item closed: tel-aviv-white-city.md (iter116) already comprehensively covers Bauhaus content; new slug would be duplicate.

@@ -4866,3 +4866,21 @@ duplicate removed from BACKLOG.
 Gate: pnpm check 0 errors; build 421 pages (+1); 530/530 e2e+a11y pass.
 Ship: 5401635 on master; pushed to origin; CI in_progress at push (prior pattern → pass).
 Next: iter 248 = BUILD (248%5==3 → seo-content rotation).
+
+## 2026-07-02T20:38 · iter 248 · BUILD (seo-content) · more-transport-routes
+What: 3 new /transport/[route] comparison pages extending the shipped template.
+  - /transport/ben-gurion-to-jerusalem: A1 express train (22–30 min, ₪30–40), Bus 485 (50–70 min),
+    sherut (24/7 incl. Shabbat), private transfer, rental car. FAQs cover Shabbat gap and A1 line
+    explainer. Cross-links to ben-gurion-airport-guide, ben-gurion-airport-transfers.
+  - /transport/ben-gurion-to-tel-aviv: direct train every 15–30 min (~20–25 min, ₪18–25),
+    intercity bus (same fare, slower), sherut (24/7), taxi, rental car. Cross-links to TLV Light Rail.
+  - /transport/jerusalem-to-nazareth: clarifies NO direct Nazareth rail; organised day tour (default),
+    bus with transfer (2.5–3.5h), private taxi, rental car via Rte 6/65. GYG Galilee day tour CTA.
+  Note: tel-aviv-white-city-bauhaus backlog item skipped — existing tel-aviv-white-city.md is already
+  a comprehensive Bauhaus/walking-tour guide; creating a new slug would be duplicate content. Marked SHIPPED.
+  Wired: Footer.astro +3 links; transportation.md hub routes list updated to include all 8 routes + haifa-to-akko
+  (was missing from hub); ben-gurion-airport-transfers.md cross-links to new airport route pages.
+  Smoke +3; a11y +3 (536 total passing).
+Gate: pnpm check 0 errors; build 424 pages (+3); 536/536 e2e+a11y pass.
+Ship: squash-merged to master 6da8bc2, pushed. CI in_progress at push (prior pattern → pass).
+Next: iter 249 = REVIEW (249%5==4).
