@@ -278,6 +278,7 @@ const ROUTES = [
   '/tel-aviv-things-to-do',
   '/layover-jerusalem',
   '/eilat-travel-guide',
+  '/ein-gedi-guide',
 ];
 
 for (const route of ROUTES) {

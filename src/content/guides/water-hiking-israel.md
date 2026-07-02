@@ -75,7 +75,7 @@ Before any nahal hike, check the [Israel Meteorological Service](https://ims.gov
 
 The most famous water hike in Israel, and deservedly so. [Ein Gedi](/dead-sea/ein-gedi) sits in a dramatic oasis on the western shore of the [Dead Sea](/dead-sea) — a nature reserve of freshwater springs, ibex, hyrax and date palms clinging to vertical limestone cliffs. Wadi David is the main trail: a 1-hour loop to **David's Waterfall** (about 9 metres high), past several natural pools where you can wade and swim. The water is cool year-round because the springs are fed by underground aquifers rather than relying solely on seasonal rainfall, making this one of the only reliable water hikes in summer.
 
-**Practical tips:** Arrive at opening time (usually 8am) in peak season — the reserve fills quickly. Entrance fees are approximately ₪28–30 per adult (verify at parks.org.il); covered by the national parks tourist cards. Bus 486 runs from Jerusalem. No wading below the waterfall itself — INPA rules protect the ecosystem.
+**Practical tips:** Arrive at opening time (usually 8am) in peak season — the reserve fills quickly. Entrance fees are approximately ₪28–30 per adult (verify at parks.org.il); covered by the national parks tourist cards. Bus 486 runs from Jerusalem. No wading below the waterfall itself — INPA rules protect the ecosystem. For a full standalone visitor guide including the botanical garden, wildlife, overnight options and the 2026 trail update, see the [Ein Gedi nature reserve guide](/ein-gedi-guide).
 
 ---
 

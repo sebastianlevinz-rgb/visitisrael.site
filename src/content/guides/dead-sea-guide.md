@@ -149,7 +149,7 @@ Route 1 east to Jerusalem and then Route 90 south; total distance to Kalia is ap
 
 **Organised day tours:**
 
-Guided day tours from Jerusalem or Tel Aviv are the most common option for visitors without a car. They handle transport and usually include hotel pickup, a guide at the Dead Sea, entry fees and time for a float. Many combine Masada (sunrise or cable-car), [Ein Gedi](/dead-sea/ein-gedi), and the float in a single day. See the affiliate options above.
+Guided day tours from Jerusalem or Tel Aviv are the most common option for visitors without a car. They handle transport and usually include hotel pickup, a guide at the Dead Sea, entry fees and time for a float. Many combine Masada (sunrise or cable-car), [Ein Gedi](/dead-sea/ein-gedi), and the float in a single day. For the full hiking guide to the Wadi David and Nahal Arugot trails, see the [Ein Gedi nature reserve visitor guide](/ein-gedi-guide). See the affiliate options above.
 
 ---
 
