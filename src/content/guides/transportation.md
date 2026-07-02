@@ -56,7 +56,11 @@ Plan ahead for Friday afternoon to Saturday night: rely on **sheruts, taxis, rid
 Planning a specific hop? We compare every option — train, bus, tour, taxi and driving — with real durations and costs for the routes travellers ask about most:
 
 - [Tel Aviv to Jerusalem](/tel-aviv-to-jerusalem)
+- [Ben Gurion Airport to Jerusalem](/transport/ben-gurion-to-jerusalem)
+- [Ben Gurion Airport to Tel Aviv](/transport/ben-gurion-to-tel-aviv)
 - [Jerusalem to the Dead Sea](/transport/jerusalem-to-dead-sea)
+- [Jerusalem to Nazareth](/transport/jerusalem-to-nazareth)
 - [Tel Aviv to the Dead Sea](/transport/tel-aviv-to-dead-sea)
 - [Tel Aviv to Haifa](/transport/tel-aviv-to-haifa)
 - [Tel Aviv to Eilat](/transport/tel-aviv-to-eilat)
+- [Haifa to Akko (Acre)](/transport/haifa-to-akko)

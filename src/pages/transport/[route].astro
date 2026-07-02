@@ -285,6 +285,167 @@ const ROUTES: Record<string, RouteGuide> = {
       { href: '/transportation', label: 'Getting around Israel' },
     ],
   },
+  'ben-gurion-to-jerusalem': {
+    fromSlug: 'tel-aviv',
+    toSlug: 'jerusalem',
+    fromName: 'Ben Gurion Airport',
+    title: 'Ben Gurion Airport to Jerusalem: Train, Bus, Taxi & Transfer Compared',
+    description:
+      'How to get from Ben Gurion Airport (TLV) to Jerusalem: the express train, intercity bus, shared taxi (sherut), private transfer and rental car compared — duration, cost and what runs on Shabbat.',
+    intro:
+      'Ben Gurion Airport sits about 50 km from Jerusalem by road, and Israel’s high-speed rail link has made the journey faster than ever — around 22 minutes to Jerusalem’s underground Yitzhak Navon station when the line is running. If you arrive on Shabbat, the calculus changes entirely. Here is the honest comparison across every realistic option.',
+    rows: [
+      { option: 'Express train (A1 line)', duration: '~22–30 min', cost: '₪30–40 (~$8–11)', frequency: 'Every 30 min (weekdays)', shabbat: 'No' },
+      { option: 'Intercity bus (485)', duration: '50–70 min', cost: '₪25–35 (~$7–10)', frequency: 'Frequent (24h except Shabbat)', shabbat: 'No' },
+      { option: 'Shared taxi (sherut)', duration: '45–70 min', cost: '₪100–140/person', frequency: '24 h (less frequent at night)', shabbat: 'Yes' },
+      { option: 'Private taxi / transfer', duration: '30–50 min', cost: '₪300–450 (~$82–123)', frequency: 'On demand', shabbat: 'Yes' },
+      { option: 'Rental car (drive)', duration: '~40–55 min', cost: 'Fuel + rental', frequency: 'Anytime', shabbat: 'Yes' },
+    ],
+    best: [
+      '**Arriving on a weekday with light luggage:** the **A1 express train** — fastest, cheapest, no traffic risk; alight at Yitzhak Navon underground station (city centre) or Jerusalem Malha (south).',
+      '**Budget traveller, any weekday:** **Bus 485** runs 24 hours (not on Shabbat) from the airport bus terminal for roughly ₪25–35; slower but the cheapest option.',
+      '**Arriving on Shabbat or with family and luggage:** a **pre-booked private transfer** offers a fixed price, a waiting driver, and runs any day or hour — well worth it compared to hunting for a taxi at 2am.',
+      '**Small group (3–4 people):** a **shared sherut** runs around the clock and splits costs — roughly comparable to a private taxi once you divide the fare.',
+    ],
+    note: 'The **A1 express train** runs from the airport terminal to **Yitzhak Navon station** (Jerusalem city centre, underground) in roughly 22–30 minutes, stopping also at **Yad Kennedy** and **Malha**. It does NOT run on **Shabbat** (Friday afternoon through Saturday night). The **Bus 485** departs from the arrivals hall bus terminal; it runs every 20–30 minutes during the day, hourly overnight, and stops completely for Shabbat. On Shabbat or late at night, your reliable options are a pre-booked transfer, a private taxi, or a sherut (shared taxi) — all available 24/7 but at higher cost. Always verify train and bus schedules directly before travel.',
+    cta: { partner: 'getyourguide', text: 'Prefer a guided first day? Combine your airport arrival with a Jerusalem city tour — pick-up arrangements available from many operators.', query: 'Jerusalem city tour from airport', cta: 'Browse Jerusalem tours' },
+    faqs: [
+      {
+        question: 'What is the fastest way from Ben Gurion Airport to Jerusalem?',
+        answer:
+          'The express train (A1 line) — about 22 to 30 minutes to Yitzhak Navon underground station in the city centre, running every 30 minutes on weekdays. It does not run on Shabbat.',
+      },
+      {
+        question: 'How much is a taxi from Ben Gurion Airport to Jerusalem?',
+        answer:
+          'A standard metered taxi runs roughly ₪300–450 (about $82–123) depending on the hour and luggage. A pre-booked private transfer costs similarly but offers a fixed price and a waiting driver — worth the certainty if you arrive late or with lots of luggage.',
+      },
+      {
+        question: 'How do I get from Ben Gurion Airport to Jerusalem on Shabbat?',
+        answer:
+          'The train and the 485 bus both stop for Shabbat (from Friday afternoon to Saturday night). On Shabbat your options are a pre-booked private transfer, a metered taxi from the taxi rank, or a sherut (shared taxi) — all operate 24/7 at higher fares than weekday public transport.',
+      },
+      {
+        question: 'What is the Ben Gurion Airport express train?',
+        answer:
+          'The A1 line is a high-speed rail link connecting Ben Gurion Airport terminal to Jerusalem Yitzhak Navon station (underground, city centre) in about 22–30 minutes. Trains run roughly every 30 minutes on weekdays; check Israel Railways (rail.co.il) for current timetables and Shabbat closures.',
+      },
+    ],
+    related: [
+      { href: '/ben-gurion-airport-guide', label: 'Ben Gurion Airport guide' },
+      { href: '/ben-gurion-airport-transfers', label: 'Airport transfers' },
+      { href: '/jerusalem', label: 'Jerusalem region guide' },
+      { href: '/transportation', label: 'Getting around Israel' },
+    ],
+  },
+  'ben-gurion-to-tel-aviv': {
+    fromSlug: 'tel-aviv',
+    toSlug: 'tel-aviv',
+    fromName: 'Ben Gurion Airport',
+    toName: 'Tel Aviv',
+    heroSlug: 'tel-aviv',
+    title: 'Ben Gurion Airport to Tel Aviv: Train, Bus, Taxi & Transfer Compared',
+    description:
+      'How to get from Ben Gurion Airport (TLV) to Tel Aviv city centre: the direct train, sheruts, private taxi and transfer compared — duration, cost and what runs on Shabbat.',
+    intro:
+      'Ben Gurion Airport is about 20 km from central Tel Aviv, and the train makes it a genuinely quick trip — around 20 minutes to Tel Aviv HaShalom or HaHagana stations on a normal weekday. The catch is Shabbat, when the train stops and your options narrow to taxis and pre-booked transfers. Here is the honest rundown.',
+    rows: [
+      { option: 'Train (Israel Railways)', duration: '~20–25 min', cost: '₪18–25 (~$5–7)', frequency: 'Every 15–30 min', shabbat: 'No' },
+      { option: 'Intercity bus', duration: '30–50 min', cost: '₪18–25 (~$5–7)', frequency: 'Regular', shabbat: 'No' },
+      { option: 'Shared taxi (sherut)', duration: '30–45 min', cost: '₪80–100/person', frequency: '24 h', shabbat: 'Yes' },
+      { option: 'Private taxi / transfer', duration: '25–45 min', cost: '₪150–260 (~$41–71)', frequency: 'On demand', shabbat: 'Yes' },
+      { option: 'Rental car (drive)', duration: '~25–35 min', cost: 'Fuel + rental', frequency: 'Anytime', shabbat: 'Yes' },
+    ],
+    best: [
+      '**Arriving on a weekday:** the **train** — about 20 minutes to HaShalom or HaHagana stations, cheap and immune to coastal motorway traffic jams. Connects to the Tel Aviv Light Rail for onward travel.',
+      '**On a tight budget:** the **intercity bus** costs the same as the train and is a fine alternative if there is no direct train slot.',
+      '**Arriving on Shabbat or at night with luggage:** a **pre-booked private transfer** — fixed price, waiting driver, no surge pricing. Alternatively a sherut (shared taxi) runs 24/7 but fills up and can involve a wait.',
+      '**Planning to explore outside Tel Aviv:** a **rental car** from the airport terminal is the most flexible option if you will drive during your trip.',
+    ],
+    note: 'The **train** from Ben Gurion Airport runs directly to **Tel Aviv HaHagana**, **HaShalom**, **Savidor/Central** and **University** stations — the full chain of city stations — every 15–30 minutes during the day. It does NOT run on **Shabbat** (Friday afternoon to Saturday night). The terminal has a **sherut** (shared taxi) area in arrivals; standard sherut fares to Tel Aviv are fixed, but check current rates at the desk. Metered taxis are also available at the taxi rank — expect ₪150–260 depending on destination, hour and luggage surcharges. Always verify train schedules at rail.co.il before travel.',
+    cta: { partner: 'getyourguide', text: 'Heading into Tel Aviv for the first time? A walking tour is a great way to get oriented on arrival day.', query: 'Tel Aviv walking tour city centre', cta: 'Browse Tel Aviv tours' },
+    faqs: [
+      {
+        question: 'How do I get from Ben Gurion Airport to Tel Aviv?',
+        answer:
+          'The train is the fastest and cheapest option on weekdays — about 20 minutes to Tel Aviv HaShalom or HaHagana stations for roughly ₪18–25. On Shabbat the train stops, so use a sherut (shared taxi), a pre-booked private transfer, or a metered taxi.',
+      },
+      {
+        question: 'How long does the train from Ben Gurion Airport to Tel Aviv take?',
+        answer:
+          'About 20 to 25 minutes to Tel Aviv HaShalom station. Trains run every 15 to 30 minutes during the day and connect to the Tel Aviv Light Rail at several stations for onward travel across the city.',
+      },
+      {
+        question: 'How much is a taxi from Ben Gurion Airport to Tel Aviv?',
+        answer:
+          'A metered taxi typically costs ₪150–260 (about $41–71) depending on your destination in the city, the hour, and luggage. A pre-booked private transfer offers a fixed fare and a waiting driver — comparable in cost, with less uncertainty on arrival.',
+      },
+      {
+        question: 'Does the Ben Gurion Airport train run on Shabbat?',
+        answer:
+          'No. Israel Railways service stops from Friday afternoon to Saturday night. On Shabbat, use a sherut (shared taxi from the arrivals sherut area), a pre-booked transfer, or a metered taxi.',
+      },
+    ],
+    related: [
+      { href: '/ben-gurion-airport-guide', label: 'Ben Gurion Airport guide' },
+      { href: '/ben-gurion-airport-transfers', label: 'Airport transfers' },
+      { href: '/tel-aviv', label: 'Tel Aviv region guide' },
+      { href: '/tel-aviv-light-rail', label: 'Tel Aviv Light Rail guide' },
+      { href: '/transportation', label: 'Getting around Israel' },
+    ],
+  },
+  'jerusalem-to-nazareth': {
+    fromSlug: 'jerusalem',
+    toSlug: 'nazareth',
+    title: 'Jerusalem to Nazareth: Bus, Tour, Taxi & Car Compared',
+    description:
+      'How to get from Jerusalem to Nazareth: intercity bus (with transfer), organised day tour, private taxi and rental car compared — duration, cost, frequency and what runs on Shabbat.',
+    intro:
+      'Jerusalem to Nazareth is about 150 km, cutting north through the West Bank bypass roads or via the coastal plain and then up into the Galilee hills. There is no direct train — Nazareth city is not on the rail network. Your options are a bus with a transfer, a guided day tour that packages Nazareth with the Sea of Galilee, a rental car through the dramatic Jezreel Valley, or a private taxi. Here is how they compare.',
+    rows: [
+      { option: 'Organised day tour', duration: 'Full day', cost: 'Varies (incl. transport)', frequency: 'Most days', shabbat: 'Often runs' },
+      { option: 'Bus (requires transfer)', duration: '2h30–3h30', cost: '₪35–60 (~$10–16)', frequency: 'Several daily', shabbat: 'No' },
+      { option: 'Private taxi', duration: '~1h30–2h', cost: '₪500–750 (~$137–205)', frequency: 'On demand', shabbat: 'Yes' },
+      { option: 'Rental car (drive)', duration: '~1h30–2h', cost: 'Fuel + rental', frequency: 'Anytime', shabbat: 'Yes' },
+    ],
+    best: [
+      '**First-time visitors wanting to see more:** an **organised day tour** — the standard Nazareth day trip from Jerusalem typically adds the Sea of Galilee, Capernaum and the Mount of Beatitudes, turning a transport challenge into an easy full day.',
+      '**Independent travellers on a budget:** the **bus** is the cheapest option; you will likely change at Tel Aviv or Afula. Journey time varies — check live Egged and Nateev Express schedules before you travel.',
+      '**Couples or small groups:** a **private taxi** is door-to-door in about 1.5–2 hours and affordable split between 2–4 people, especially useful on Shabbat.',
+      '**Exploring the Galilee over multiple days:** **rent a car** — Nazareth, the Sea of Galilee, Tiberias, Capernaum and the Golan Heights all open up once you have your own wheels.',
+    ],
+    note: 'There is **no direct train to Nazareth city**. The closest station is **Afula** (Jezreel Valley line), about 10–12 km from central Nazareth — you would still need a taxi or bus connection from there. By bus, the most common route changes at **Tel Aviv Arlozorov** or **Afula central bus station**; journey times vary by connection. Nateev Express and Egged both operate on this corridor — check live timetables, since frequency is limited. Buses do not run on **Shabbat** (Friday afternoon to Saturday night). Driving is the most flexible option: Route 6 north from Jerusalem then Route 65 into the Jezreel Valley is about 1.5–2 hours depending on traffic.',
+    cta: { partner: 'getyourguide', text: 'The most popular way to do this day: a Nazareth, Sea of Galilee and Capernaum tour from Jerusalem that handles all the transport.', query: 'Nazareth Sea of Galilee day tour from Jerusalem', cta: 'Browse Galilee day tours' },
+    faqs: [
+      {
+        question: 'How do you get from Jerusalem to Nazareth?',
+        answer:
+          'The easiest way for most visitors is an organised day tour — it handles the 150 km journey north and typically pairs Nazareth with the Sea of Galilee, Capernaum and other Galilee sites. Independent options are bus (with one or two transfers, about 2.5–3.5 hours) or rental car (about 1.5–2 hours via Route 6 and Route 65).',
+      },
+      {
+        question: 'Is there a direct train from Jerusalem to Nazareth?',
+        answer:
+          'No. Nazareth city is not on Israel\'s rail network. The closest station is Afula on the Jezreel Valley line, about 10–12 km from central Nazareth, still requiring a taxi or bus connection. Most visitors go by tour bus, rental car or intercity bus with a transfer.',
+      },
+      {
+        question: 'How long is the drive from Jerusalem to Nazareth?',
+        answer:
+          'About 1.5 to 2 hours for the roughly 150 km, typically via Route 6 (Trans-Israel Highway) north, then Route 65 into the Jezreel Valley. Traffic leaving Jerusalem can add time, especially on weekday mornings.',
+      },
+      {
+        question: 'What is the best day trip from Jerusalem to Nazareth?',
+        answer:
+          'Most organised day tours from Jerusalem pair Nazareth (Annunciation Basilica, old market, food scene) with the Sea of Galilee — Capernaum, the Mount of Beatitudes and a boat ride across the lake. It is a long but very rewarding full day.',
+      },
+    ],
+    related: [
+      { href: '/nazareth', label: 'Nazareth region guide' },
+      { href: '/galilee', label: 'Galilee region guide' },
+      { href: '/nazareth-sea-of-galilee-day-trip', label: 'Nazareth & Sea of Galilee day trip' },
+      { href: '/day-trips-from-jerusalem', label: 'Day trips from Jerusalem' },
+      { href: '/transportation', label: 'Getting around Israel' },
+    ],
+  },
 };
 
 export function getStaticPaths() {
@@ -295,6 +456,9 @@ export function getStaticPaths() {
     'tel-aviv-to-eilat',
     'tel-aviv-to-dead-sea',
     'haifa-to-akko',
+    'ben-gurion-to-jerusalem',
+    'ben-gurion-to-tel-aviv',
+    'jerusalem-to-nazareth',
   ].map((route) => ({ params: { route } }));
 }
 
