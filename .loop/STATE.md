@@ -1,13 +1,36 @@
 # LOOP STATE
 
-- iteration: 234
-- lastMode: REVIEW (meta-desc-fix)
-- lastItem: review/meta-desc-fix-iter231-233
-- lastResult: COMPLETE — 2 desc fixes; ein-gedi-guide 183→142 chars, israel-with-teenagers 167→148 chars; 413 pages unchanged; 521/521 pass; commit 39c2b69
-- nextRotationCategory: 235%5==0 → RESEARCH
+- iteration: 235
+- lastMode: RESEARCH (research-235)
+- lastItem: research-235
+- lastResult: COMPLETE — 6 net-new items: skyfield-extreme-park-jaffa, schottenstein-campus-jerusalem, midburn-festival-israel, tlvfest-guide, indnegev-festival, israel-festival-jerusalem-guide
+- nextRotationCategory: 236%5==1 → BUILD (monetization)
 - higgsfieldSpent: 0
 - updatedAt: 2026-07-02
 - branch context: work on master; feature work on auto/<slug>
+
+Notes: iter 235 RESEARCH — 6 new backlog items: 2026-specific new attractions + niche events:
+  - /skyfield-extreme-park-jaffa (P2, S, seo-content+monetization): Israel's first fully accessible
+    extreme park on Bloomfield Stadium roof; Via Ferrata, 35m bungee, giant swing; opened 2025/2026;
+    GYG bookable; accessible angle for all abilities; zero prior coverage.
+  - /schottenstein-campus-jerusalem (P2, S, seo-content): New IAA national archaeology campus (Moshe
+    Safdie design); 2M artifacts + 15,000 Dead Sea Scroll fragments; major 2026 Jerusalem attraction;
+    distinct from Israel Museum Dead Sea Scrolls wing; HONESTY: opening schedule per official IAA.
+  - /midburn-festival-israel (P3, S, seo-content): Israel's Burning Man regional event in the Negev;
+    10,000+ participants; second-largest globally after Africa Burns; late November annual; camping-
+    required logistics; art cars, fire performances, themed camps. Zero prior backlog coverage.
+  - /tlvfest-guide (P3, S, seo-content): TLVFest — Tel Aviv International LGBTQ Film Festival
+    Oct 22-31 2026; Tel Aviv Cinematheque; distinct from Gay Pride parade + lgbtq-travel guide;
+    films, panels, parties; no prior entry despite lgbtq-travel guide being SHIPPED.
+  - /indnegev-festival (P3, S, seo-content): InDNegev — Israel's largest indie music festival;
+    Oct 15-17 2026; Kibbutz Gvulot western Negev; 100+ acts, camping, eco-focus; competitor
+    carnifest.com + haaretz.com coverage; zero prior backlog entry.
+  - /israel-festival-jerusalem-guide (P3, S, seo-content): The Israel Festival — performing arts
+    est. 1961; July 16–Aug 1 2026; Sultan's Pool amphitheatre + Jerusalem Theatre; international
+    artists; our-site has zero coverage of Jerusalem's premier annual arts event.
+  De-duped (already in backlog or SHIPPED): maccabiah-games-2026 (iter120), israel-music-festivals
+    (iter110), jerusalem-festival-of-light (iter100), startup-tech-tourism (iter160), cooking-classes
+    (SHIPPED), digital-nomad (iter30), eco-tourism (iter70), druze-villages (iter165).
 
 Notes: iter 233 BUILD (tools→seo-content fallthrough) — israel-with-teenagers shipped:
   - New guide: /israel-with-teenagers — teen-specific Israel travel (ages 13–18), distinct from
@@ -175,9 +198,10 @@ Active items from recent research (all in BACKLOG, ready):
   iter225: /israel-with-teenagers [P2 S], /ashdod-cruise-port-excursions [P2 S], /israel-music-guide [P3 M]
   iter190: /mount-tabor-guide [P2 S]
   iter230: /israel-for-gulf-travelers [P2 M], /israel-monasteries-guide [P2 M], /akko-food-guide [P3 S], /ramla-lod-guide [P3 S], /india-to-israel-guide [P3 M]
+  iter235: /skyfield-extreme-park-jaffa [P2 S], /schottenstein-campus-jerusalem [P2 S], /midburn-festival-israel [P3 S], /tlvfest-guide [P3 S], /indnegev-festival [P3 S], /israel-festival-jerusalem-guide [P3 S]
 
 Cron b7325b16 hourly @ :17. Loop history: 19 tools + sitemap-lastmod + link-checker(+depth) + i18n
 Phase0/1a/1b/1c/2 Batches1-18(COMPLETE) + 30 review passes + 3 technical (event-schema + meta-trim + locale-links) + 23 EN guides + 3 tools-monetization + 5 accuracy-fix + VAT-refund + israel-museum + golan-heights + review(204-title-fix) + research(205-6-items) + traveling-israel-jewish-holidays(206) + western-wall-tunnels-guide(207) + tower-of-david-guide(208) + review/meta-desc-fix(209) + research(210-5-items) + israeli-breakfast-guide(211) + netanya-guide(212) + jericho-day-trip-from-jerusalem(213) + review/meta-desc-fix(214) + research(215-6-items) + jaffa-food-guide(216) + mahane-yehuda-market-guide(217);
 herodion-guide(218) + review/meta-desc-fix(219) + research(220-6-items) + galilee-christian-sites-circuit(221) + israel-eta-guide(222) + haifa-neighborhoods-guide(223) + review/meta-desc-fix(224) + research(225-6-items) + 1-day-tel-aviv-itinerary(226) + tel-aviv-things-to-do(227) + layover-jerusalem(228) + review/meta-desc-fix(229);
-research(230-6-items) + eilat-travel-guide(231) + ein-gedi-guide(232).
-research iters 5/10/20/30/35/40/45/50/55/60/65/70/75/80/85/90/95/100/105/110/115/120/125/130/135/140/145/150/155/160/165/170/175/180/185/190/195/200/205/210/215/220/225/230.
+research(230-6-items) + eilat-travel-guide(231) + ein-gedi-guide(232) + israel-with-teenagers(233) + review/meta-desc-fix(234) + research(235-6-items).
+research iters 5/10/20/30/35/40/45/50/55/60/65/70/75/80/85/90/95/100/105/110/115/120/125/130/135/140/145/150/155/160/165/170/175/180/185/190/195/200/205/210/215/220/225/230/235.

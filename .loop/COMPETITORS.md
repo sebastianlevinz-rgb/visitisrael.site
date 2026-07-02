@@ -2944,3 +2944,39 @@ western-wall-tunnels-guide (SHIPPED iter207), jordan-river-baptism (SHIPPED iter
 - /akko-food-guide (P3, S, seo-content)
 - /ramla-lod-guide (P3, S, seo-content)
 - /india-to-israel-guide (P3, M, seo-content)
+
+## iter235 (2026-07-02) — RESEARCH: 2026 new attractions + niche events gaps
+
+Sources: touristisrael.com, jpost.com, secrettelaviv.com, tlvfest.com, midburn.org, israelifestival.co.il, carnifest.com, skyfield.co.il, iaa.org.il, haaretz.com
+
+### Findings
+
+1. **SkyField Extreme Park Jaffa** — Israel's first fully accessible extreme adventure park built on the roof of Bloomfield Stadium in Jaffa (opened 2025/2026). Features Via Ferrata course, 35m bungee jump, giant swing. Marketed explicitly as accessible for people with disabilities. GYG bookable. No existing competitor editorial guide found; thrill-seeker + accessible-tourism dual angle. Our site has zero coverage.
+
+2. **Schottenstein National Campus for the Archaeology of Israel** — New IAA facility (Moshe Safdie architect) opening 2026 in Jerusalem area; houses 2M+ artifacts including 15,000 Dead Sea Scroll fragments previously in underground IAA storage. Distinct from Israel Museum Dead Sea Scrolls wing (the Shrine of the Book). New top-tier Jerusalem attraction with zero prior backlog coverage. HONESTY constraint: use official IAA opening schedule only.
+
+3. **Midburn Festival** — Israel's Burning Man regional event, held in the Negev desert in late November. ~10,000+ participants, second-largest Burning Man regional globally (after Africa Burns). Art cars, fire performances, themed camps, strict Leave No Trace. No competitor has a standalone editorial Israel guide; backpacker and festival-tourism search intent high. Not in backlog despite covering music-festivals (iter110) — Midburn is a distinct event type.
+
+4. **TLVFest — Tel Aviv International LGBTQ Film Festival** — Oct 22-31 2026 at Tel Aviv Cinematheque. Our lgbtq-travel guide (SHIPPED) covers Pride and general LGBTQ-friendly tips but not this specific festival. Films, panels, parties, international programing. Strong link-bait for lgbtq-travel guide internal link. Competitor outlines.com/israel-lgbtq has passing mention only.
+
+5. **InDNegev Music Festival** — Israel's largest indie music festival, Kibbutz Gvulot (western Negev), Oct 15-17 2026. 100+ acts, camping, eco-festival focus. Covered by carnifest.com and Haaretz but no standalone Israel travel editorial exists. Distinct from israel-music-guide (iter225 backlog — covers general music scene); InDNegev is a specific bookable event with dates and lineup.
+
+6. **The Israel Festival Jerusalem** — Premier performing arts festival est. 1961. July 16–Aug 1 2026. Sultan's Pool open-air amphitheatre + Jerusalem Theatre. International theater, dance, music. One of Jerusalem's signature annual events yet our site has zero coverage. Distinct from Jerusalem Festival of Light (backlog iter100) which is visual/light art. touristisrael.com + israelifestival.co.il are primary sources.
+
+**De-duped (already in backlog or SHIPPED):**
+- Maccabiah Games 2026 → backlog iter120
+- Israel music festivals (general) → backlog iter110
+- Jerusalem Festival of Light → backlog iter100
+- Israel startup/tech tourism → backlog iter160
+- Israel cooking classes → SHIPPED
+- Digital nomad guide → backlog iter30
+- Eco-tourism/sustainable → backlog iter70
+- Druze villages → backlog iter165
+
+**Net-new items added this iteration:** 6
+- /skyfield-extreme-park-jaffa (P2, S, seo-content+monetization)
+- /schottenstein-campus-jerusalem (P2, S, seo-content)
+- /midburn-festival-israel (P3, S, seo-content)
+- /tlvfest-guide (P3, S, seo-content)
+- /indnegev-festival (P3, S, seo-content)
+- /israel-festival-jerusalem-guide (P3, S, seo-content)

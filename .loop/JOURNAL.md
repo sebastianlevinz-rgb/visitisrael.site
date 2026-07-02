@@ -4638,3 +4638,21 @@ Ship: committed 39c2b69 directly on master (squash merge said "already up to dat
   origin; branch auto/review-meta-desc-fix-234 deleted.
 Prod: CI + Lighthouse in_progress at state-write time (run IDs 28570503939 / 28570503924).
 Next: iter 235 = RESEARCH (235%5==0).
+
+## 2026-07-02T00:00Z · iter 235 · RESEARCH · research-235
+What: RESEARCH mode (235%5==0). Searched 2026-specific new attractions and events to find coverage
+  gaps after 45 prior research passes (180+ backlog items). Sources: secrettelaviv.com, jpost.com,
+  touristisrael.com, skyfield.co.il, iaa.org.il, tlvfest.com, midburn.org, carnifest.com,
+  israelifestival.co.il, haaretz.com. De-duped extensively (maccabiah-games/music-festivals/
+  jerusalem-festival-of-light/startup-tech/cooking-classes/digital-nomad/eco-tourism/druze all
+  already covered). 6 net-new items confirmed (count=0 in backlog for all):
+  - /skyfield-extreme-park-jaffa (P2 S seo-content+monetization): accessible extreme park Jaffa roof
+  - /schottenstein-campus-jerusalem (P2 S seo-content): major IAA archaeology campus, Moshe Safdie, 2026
+  - /midburn-festival-israel (P3 S seo-content): Israel Burning Man regional, Negev, 10K+ attendees
+  - /tlvfest-guide (P3 S seo-content): Tel Aviv LGBTQ film festival Oct 22-31; distinct from Pride
+  - /indnegev-festival (P3 S seo-content): Israel's largest indie music fest Oct 15-17, Kibbutz Gvulot
+  - /israel-festival-jerusalem-guide (P3 S seo-content): performing arts est.1961, Jul-Aug, Sultan's Pool
+Gate: N/A (research mode — no code shipped).
+Prod: N/A. BACKLOG.md + COMPETITORS.md + STATE.md updated.
+Next: iter 236 = BUILD (236%5==1 → monetization). Top P2 candidates: /israel-for-gulf-travelers (M),
+  /skyfield-extreme-park-jaffa (S, new), or fall through to seo-content if monetization thin.
