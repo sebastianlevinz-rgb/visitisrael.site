@@ -4656,3 +4656,25 @@ Gate: N/A (research mode — no code shipped).
 Prod: N/A. BACKLOG.md + COMPETITORS.md + STATE.md updated.
 Next: iter 236 = BUILD (236%5==1 → monetization). Top P2 candidates: /israel-for-gulf-travelers (M),
   /skyfield-extreme-park-jaffa (S, new), or fall through to seo-content if monetization thin.
+
+## 2026-07-02T08:35Z · iter 236 · BUILD (seo-content fallthrough) · israel-craft-beer
+What: BUILD mode (236%5==1 → monetization). Pure-monetization bucket exhausted (all items SHIPPED);
+  fell through to seo-content+monetization. Chose /israel-craft-beer (P2, S) — Israel's 200+
+  craft beer revolution from 3 Tempo brands in 2005 to 200+ labels by 2026. Key venues: Beer
+  Bazaar (4 TLV locations: Carmel Market, Habima Square, Levinsky Market, Jaffa Port; 100+ taps
+  each); Schnitt Brewery (TLV's first brewpub, guided 5-beer tastings, Bauhaus building); Dancing
+  Camel (pioneer 2006, American craft-style, live music). Brand guide table: Alexander, Negev,
+  Malka, Shapiro, Gordon. Self-guided Carmel Market → Schnitt → Florentin tasting route (20 min
+  walk). Kashrut note (most venues kosher), Shabbat hours warning, honest price ranges (₪35–55/
+  pour). HONESTY enforced: no fabricated tap lists (draft lineup changes weekly → check app);
+  no exact prices; kashrut not universal across all venues. Two affiliate CTAs: GYG craft beer
+  tour + Booking.com TLV central hotels. Seven FAQs covering scene size, Beer Bazaar locations,
+  brands, kashrut, Shabbat hours, pricing, guided tours. Cross-links: tel-aviv-food-guide,
+  tel-aviv-carmel-market, tel-aviv-neighborhoods-guide, tel-aviv-light-rail, eilat-travel-guide,
+  ben-gurion-airport-guide, israel-wine-wineries (contrast context).
+Gate: pnpm check 0 errors; build 414 pages (+1 vs 413); 522/522 e2e+a11y pass.
+Ship: commit a6d5558 on master; pushed to origin.
+Prod: CI Lighthouse workflow in_progress at commit time; previous master (39637e3) was
+  state=success. Per playbook, leaving in_progress — next iteration start-check will confirm.
+Next: iter 237 = BUILD (237%5==2 → tools). Check if tools backlog has ready items; otherwise
+  fall through to seo-content.

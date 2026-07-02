@@ -1,10 +1,10 @@
 # LOOP STATE
 
-- iteration: 235
-- lastMode: RESEARCH (research-235)
-- lastItem: research-235
-- lastResult: COMPLETE — 6 net-new items: skyfield-extreme-park-jaffa, schottenstein-campus-jerusalem, midburn-festival-israel, tlvfest-guide, indnegev-festival, israel-festival-jerusalem-guide
-- nextRotationCategory: 236%5==1 → BUILD (monetization)
+- iteration: 236
+- lastMode: BUILD (seo-content fallthrough from monetization)
+- lastItem: israel-craft-beer
+- lastResult: COMPLETE — new guide /israel-craft-beer (a6d5558); 414 pages; 522/522 tests pass
+- nextRotationCategory: 237%5==2 → BUILD (tools)
 - higgsfieldSpent: 0
 - updatedAt: 2026-07-02
 - branch context: work on master; feature work on auto/<slug>

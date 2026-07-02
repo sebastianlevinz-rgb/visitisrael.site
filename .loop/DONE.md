@@ -439,3 +439,10 @@ family rooms. Cross-link from israel-with-kids.md. 521/521 tests pass; 413 pages
 
 ## iter 234 REVIEW — meta desc trim (eilat-travel-guide, ein-gedi-guide, israel-with-teenagers)
 SHA: 39c2b69. Trimmed 2 over-length descriptions: ein-gedi-guide 183→142 chars, israel-with-teenagers 167→148 chars. eilat-travel-guide already OK. All titles ≤65, all H1 clean, all heroes exist, all 15 internal links valid. 521/521 tests.
+
+## iter 236 — israel-craft-beer (a6d5558) [2026-07-02]
+New guide /israel-craft-beer — Israel's craft beer revolution: Beer Bazaar (4 TLV locations,
+100+ taps each), Schnitt Brewery (first TLV brewpub, guided tastings), Dancing Camel (pioneer
+2006). Brand guide: Alexander, Negev, Malka, Shapiro, Gordon. Self-guided tasting route.
+Kashrut + Shabbat hours notes. Honest pricing (₪35–55/pour). GYG beer tour + Booking.com TLV
+CTAs. 7 FAQs. 522/522 tests pass; 414 pages built. [seo-content+monetization]
