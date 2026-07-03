@@ -91,6 +91,8 @@ On the more modest end, Galilee kibbutzim offer comfortable rural rooms with com
 
 **Important honesty note:** Modern kibbutz life is considerably less collective than it was in the founding decades. Guests arriving expecting a commune-style experience may find a well-run rural hotel with cooperative origins rather than an immersive community setting. The Ein Gedi property, for example, is effectively a Dead Sea resort hotel that happens to be owned by a kibbutz. The communal character is genuine but low-key.
 
+For region-by-region picks and full booking guidance, see the [kibbutz hotels guide](/kibbutz-hotels-israel).
+
 ---
 
 ## Zimmer / rural B&B
