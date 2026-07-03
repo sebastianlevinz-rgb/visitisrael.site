@@ -5114,3 +5114,26 @@ Gate: N/A (research mode — no shipping).
 Merge: none.
 Prod: n/a.
 Loop state: iteration bumped to 260; BACKLOG appended with 6 items; COMPETITORS.md appended. NEXT: iter 261 = BUILD/monetization (261%5==1).
+
+## 2026-07-03 · iter 261 · BUILD · kibbutz-hotels-israel
+What: BUILD iteration, monetization rotation (261%5==1). Picked /kibbutz-hotels-israel (P2, monetization, S) — only
+remaining pure-monetization ready item added by iter260 RESEARCH. Distinct from israel-accommodation-guide.md
+(2-paragraph kibbutz section); touristisrael.com + Lonely Planet have dedicated standalone pages confirmed.
+Content: what makes kibbutz hotels different (communal breakfast, agricultural setting, cooperative ownership;
+  honesty note on modern vs founding-era character); 5 regional sections:
+  Dead Sea — Ein Gedi Resort Hotel 4★ (mineral pools, spa, 100-hectare botanical garden);
+  Sea of Galilee — Nof Ginosar (private Kinneret lakeshore beach, Yigal Allon Museum/"Jesus Boat");
+  Galilee guesthouses — Hagoshrim (Upper Galilee/Ayun NR access), Kfar Blum (Hula Valley/cranes migration);
+  Golan Heights — Ein Zivan (orchards/Nimrod Fortress/wine circuit), Kfar Haruv (Gamla NR/Kinneret panorama);
+  Negev Arava — Kibbutz Lotan eco-lodge (geodesic domes, ecology workshops, Arava birding corridor);
+  Jerusalem-area — Ramat Rachel (10 min Old City, royal Judean palace archaeology, spa+pool).
+  6-row "which suits your trip" selection table. 6 FAQs.
+heroImage: /images/regions/galilee/sea-of-galilee.jpg (confirmed exists).
+Affiliate CTAs: 2× Booking.com (kibbutz hotels Israel; Dead Sea kibbutz resorts) + GYG kibbutz day tour.
+Cross-link: added 1-line cross-link to /kibbutz-hotels-israel in israel-accommodation-guide.md kibbutz section.
+HONESTY: price ranges labeled indicative; no fabricated review scores; modern communal character honestly framed;
+  Shabbat access rules noted; Lotan direct-booking note.
+Gate: pnpm check 0 errors (118 files) · build 431 pages (+1 from 430) · e2e 544/544 pass. GREEN.
+Ship: commit a97a9b9 on master; pushed to origin/master; branch auto/kibbutz-hotels-israel deleted.
+Prod: CI + Lighthouse in_progress at push (consistent prior pattern → expected success).
+Next: iter 262 = BUILD (262%5==2 → seo-content rotation).
