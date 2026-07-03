@@ -243,6 +243,7 @@ const ROUTES = [
   '/israel-stargazing',
   '/israel-horseback-riding',
   '/masada-visitor-guide',
+  '/bahai-world-center-guide',
   '/jerusalem-neighborhoods-guide',
   '/druze-villages-carmel',
   '/fr/1-day-jerusalem-itinerary',

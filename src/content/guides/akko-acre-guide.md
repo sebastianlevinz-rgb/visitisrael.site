@@ -99,7 +99,7 @@ Four kilometres north of the Old City, the **Bahá'í Mansion of Bahjí** is the
 
 The gardens alone justify the short journey: cypress-lined paths, manicured parterres, and the mansion's elegant 19th-century architecture. Modest dress required (covered shoulders and knees); no photography of pilgrims or worshippers per Bahá'í International Community policy, but photography of gardens and architecture is welcome.
 
-A taxi from the Old City takes about ten minutes. If you are combining Akko with Haifa, note that the Bahá'í World Centre and its famous terraced gardens (a separate and equally impressive UNESCO inscription) are in Haifa itself.
+A taxi from the Old City takes about ten minutes. If you are combining Akko with Haifa, note that the Bahá'í World Centre and its famous terraced gardens (a separate and equally impressive UNESCO inscription) are in Haifa itself. For full visitor logistics on both sites — Haifa terraces, Bahjí and the Ridván Garden — see the [Bahá'í World Centre visitor guide](/bahai-world-center-guide).
 
 ---
 

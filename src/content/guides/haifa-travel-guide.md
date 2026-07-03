@@ -64,6 +64,8 @@ The terraces have two visitor modes. **Free guided tours** of the full 19-terrac
 - The shrine is at mid-mountain, not the summit; the upper end is at the Carmel ridge (accessible by Carmelit)
 - Combine with the German Colony (lower end of the garden axis, a 5-minute walk below the terrace exit)
 
+For the complete picture — including dress code, Bahá'í holy day closures, the Akko Bahjí and Ridván Garden sites, and a two-day circuit — see the [Bahá'í World Centre complete visitor guide](/bahai-world-center-guide).
+
 ---
 
 ## German Colony & the lower city
