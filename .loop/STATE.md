@@ -1,13 +1,30 @@
 # LOOP STATE
 
-- iteration: 271
+- iteration: 272
 - lastMode: BUILD
-- lastItem: israel-tour-operators-guide — new /israel-tour-operators-guide money page (commit e097ed7)
-- lastResult: shipped-e097ed7 — gate green (0 check errors, 437 pages, 558/558 e2e+a11y pass); pushed to origin/master; CI in_progress at push (prior run 61351eb SUCCESS)
-- nextRotationCategory: 272%5==2 → BUILD (seo-content rotation)
+- lastItem: israel-film-tv-tourism — new /israel-film-tv-tourism seo-content guide (commit 4577629)
+- lastResult: shipped-4577629 — gate green (0 check errors, 438 pages, 560/560 e2e+a11y pass); pushed to origin/master; CI in_progress at push (prior run c2f7a81 SUCCESS)
+- nextRotationCategory: 273%5==3 → BUILD (tools rotation)
 - higgsfieldSpent: 0
-- updatedAt: 2026-07-03T19:36Z
+- updatedAt: 2026-07-03T20:40Z
 - branch context: work on master; feature work on auto/<slug>
+
+Notes: iter 272 BUILD (seo-content) — israel-film-tv-tourism:
+  New /israel-film-tv-tourism — Israeli screen tourism guide targeting Netflix/Apple TV+ audience.
+  Covers: Fauda (Kfar Kasim self-guided + guided Fauda Experience tours via GYG/Viator),
+  Shtisel (Mea She'arim walk with dress-code + photography rules, Geula Market),
+  Tehran (Jerusalem Old City as Tehran double, Old City Muslim+Christian Quarters),
+  Beauty Queen of Jerusalem (Mahane Yehuda market + Jewish Quarter),
+  Our Boys (East Jerusalem context + safety note). Self-guided screen walk table (5 locations).
+  7 FAQs. 3 affiliate CTAs (GYG Fauda tours + Viator Jerusalem walking tours + Abraham cultural).
+  Dense cross-links: jerusalem-food-guide, mahane-yehuda-market-guide,
+  holy-sites-dress-code-etiquette, is-israel-safe, best-tours-in-israel,
+  israel-tour-operators-guide, western-wall-tunnels-guide, jerusalem-old-city-walking-tour.
+  Footer Essentials: +1 "Film & TV screen tourism" link.
+  Gate: pnpm check 0 errors (118 files) · build 438 pages (+1 from 437) · 560/560 e2e+a11y pass (+2).
+  Ship: commit 4577629 on master; pushed to origin/master; CI in_progress at push
+  (prior run c2f7a81 SUCCESS confirmed).
+  NEXT: iter 273 = BUILD (273%5==3 → tools rotation).
 
 Notes: iter 271 BUILD (monetization) — israel-tour-operators-guide:
   Operator buyer's guide: Abraham Tours (budget solo/social), Bein Harim (cruise/large groups),

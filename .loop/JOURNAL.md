@@ -5308,3 +5308,10 @@ Gate: pnpm check 0 errors · build 437 pages (+1) · 558/558 e2e+a11y pass (+2).
 Ship: commit e097ed7 on master; pushed to origin/master; CI in_progress at push (prior run 61351eb SUCCESS).
 Prod: CI running; no failure detected; previous run confirmed SUCCESS.
 Next: iter 272 = BUILD (272%5==2 → seo-content rotation).
+
+## 2026-07-03T20:40Z · iter 272 · BUILD (seo-content) · israel-film-tv-tourism
+What: new /israel-film-tv-tourism — Israeli screen tourism guide targeting Netflix/Apple TV+ global audience (Fauda, Shtisel, Tehran, Beauty Queen of Jerusalem, Our Boys). Sections: Fauda/Kfar Kasim (self-guided + guided Fauda Experience tours via GYG/Viator); Shtisel/Mea She'arim (dress code + photography rules, Geula Market); Tehran/Jerusalem Old City doubles (Muslim+Christian Quarters); Beauty Queen of Jerusalem/Mahane Yehuda; Our Boys/East Jerusalem (context + safety note). Self-guided screen walk table (5 location rows). 7 FAQs. 3 affiliate CTAs (GYG + Viator + Abraham). Dense cross-links. Footer Essentials +1 "Film & TV screen tourism" link. Smoke + a11y specs +2 routes.
+Gate: pnpm check 0 errors (118 files) · build 438 pages (+1 from 437) · 560/560 e2e+a11y pass (+2). GREEN.
+Ship: commit 4577629 on master; pushed to origin/master; CI in_progress at push (prior run c2f7a81 SUCCESS).
+Prod: CI running; no failure detected; previous run confirmed SUCCESS.
+Next: iter 273 = BUILD (273%5==3 → tools rotation).
