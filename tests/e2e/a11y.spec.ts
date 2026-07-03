@@ -182,6 +182,7 @@ const ROUTES = [
   '/kibbutz-hotels-israel',
   '/israel-rooftop-bars',
   '/israel-travel-tips',
+  '/glamping-israel',
 ];
 
 for (const route of ROUTES) {

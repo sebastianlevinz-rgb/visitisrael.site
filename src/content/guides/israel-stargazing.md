@@ -157,7 +157,7 @@ A day-trip from Tel Aviv to Mitzpe Ramon for a single stargazing session is **do
 
 **The advantage of overnight:** the hour or two just before dawn — when the atmosphere is at its most settled and the sky is fully dark — is consistently the best stargazing window. Waking at 3 am for an hour on the crater rim before sunrise is only possible if you're already there. Many operators offer pre-dawn sessions for overnighters.
 
-Mitzpe Ramon has a range of accommodation: boutique hotels along the crater-rim road, rural eco-lodges within the crater itself, and a campsite inside the nature reserve for those who want full immersion. Rates are significantly more reasonable than Tel Aviv or Jerusalem — typically ₪350–900 per room per night in the mid-range, with higher prices during Summer of Stars and Israeli school holidays.
+Mitzpe Ramon has a range of accommodation: boutique hotels along the crater-rim road, rural eco-lodges within the crater itself, and a campsite inside the nature reserve for those who want full immersion. Rates are significantly more reasonable than Tel Aviv or Jerusalem — typically ₪350–900 per room per night in the mid-range, with higher prices during Summer of Stars and Israeli school holidays. For glamping tents, dome eco-lodges and crater-rim camps specifically, see the [glamping in Israel guide](/glamping-israel).
 
 ---
 
