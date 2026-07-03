@@ -1,6 +1,6 @@
 ---
 title: '20 Things to Know Before Visiting Israel (2026)'
-description: 'Dress codes, Shabbat timing, Temple Mount access hours, West Bank car rental rules, tap water, ETA-IL and more — the practical tips every first-time visitor wishes they had read.'
+description: 'ETA-IL, Shabbat timing, Temple Mount hours, West Bank car rules, tap water, dress codes — the practical tips every first-time visitor to Israel needs.'
 heroImage: /images/regions/jerusalem/old-city.jpg
 category: Planning
 updatedAt: 2026-07-03

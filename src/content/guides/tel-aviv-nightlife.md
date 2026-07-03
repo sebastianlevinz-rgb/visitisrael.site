@@ -44,4 +44,4 @@ A **guided bar tour** (above) is a great way into the scene on a first night —
 
 ## Plan your trip
 
-Fuel up first with our [Tel Aviv food guide](/tel-aviv-food-guide), explore the rest of [Tel Aviv](/tel-aviv), and sort an [eSIM](/israel-esim), [airport transfer](/ben-gurion-airport-transfers) and [travel insurance](/israel-travel-insurance) before you fly. Timing a trip around an event? See our [events & festivals guide](/israel-events-festivals).
+Fuel up first with our [Tel Aviv food guide](/tel-aviv-food-guide), explore the rest of [Tel Aviv](/tel-aviv), and sort an [eSIM](/israel-esim), [airport transfer](/ben-gurion-airport-transfers) and [travel insurance](/israel-travel-insurance) before you fly. For rooftop sundowners before the clubs open, see the [rooftop bars guide](/israel-rooftop-bars). Timing a trip around an event? See our [events & festivals guide](/israel-events-festivals).
