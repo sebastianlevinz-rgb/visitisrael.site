@@ -1,13 +1,36 @@
 # LOOP STATE
 
-- iteration: 252
-- lastMode: BUILD (seo-content rotation)
-- lastItem: israel-horseback-riding (P2, S, seo-content+monetization) → 5ad7de3
-- lastResult: SHIPPED — /israel-horseback-riding guide; 426 pages (+1); 540/540 e2e+a11y pass; CI in_progress at state-write (consistent prior pattern → success).
-- nextRotationCategory: 253%5==3 → BUILD (tools rotation)
+- iteration: 253
+- lastMode: BUILD (tools rotation → depleted → fell through to monetization/seo-content)
+- lastItem: masada-visitor-guide (P2, S, seo-content+monetization) → e1d30be
+- lastResult: SHIPPED — /masada-visitor-guide; 427 pages (+1); 542/542 e2e+a11y pass; CI in_progress at state-write (consistent prior pattern → success).
+- nextRotationCategory: 254%5==4 → REVIEW
 - higgsfieldSpent: 0
 - updatedAt: 2026-07-03
 - branch context: work on master; feature work on auto/<slug>
+
+Notes: iter 253 BUILD (tools rotation → fell through to seo-content+monetization) — masada-visitor-guide:
+  Tools category fully depleted (all 11 tools SHIPPED); technical also depleted → fell through to
+  next available category (monetization/seo-content hybrid). Picked masada-visitor-guide as
+  highest-priority P2, S-effort item from backlog not yet shipped.
+  Content: Three access methods (Snake Path hike; cable car; predawn sunrise hike) with detailed
+    comparison table; step-by-step sunrise hike DIY guide (04:00 gate open, head-torch required,
+    advance ticket via parks.org.il); what to see inside fortress (Northern Palace/mosaics, Western
+    Palace, ancient synagogue, Byzantine church, Roman siege wall, cisterns); Masada Sound+Light
+    Show logistics (Tue+Thu evenings Mar–Oct, ~21:00 west side entrance); INPA National Parks Pass
+    compatibility (pass covers entry; cable car not included — cross-link to calculator); practical
+    tips (heat + timing, water, photo advice, combined visits). 6 FAQs. TourVerdict box.
+    Event JSON-LD for Sound and Light Show 2026 (Mar–Oct).
+  DISTINCT from: dead-sea-masada.md (attraction overview), masada-dead-sea-day-trip.md (organised
+    tour booking), masada-tours-compared.md (operator comparison).
+  Affiliate CTAs: GYG sunrise tours, Viator cable-car daytime, Booking.com Dead Sea hotels (Ein Bokek).
+  Cross-links: national-parks-pass-calculator, israel-golden-hour, masada-tours-compared,
+    masada-dead-sea-day-trip (added cross-link). Attraction page dead-sea-masada.md +cross-link.
+    Footer Day Trips column +1 link (/masada-visitor-guide).
+  Gate: pnpm check 0 errors; build 427 pages (+1); 542/542 e2e+a11y pass. GREEN.
+  Ship: committed to master e1d30be, pushed. CI in_progress at push; prior SHA c5a6e8d = success.
+  Prod: CI in_progress at state-write (consistent prior pattern → success).
+  Next: iter 254 = REVIEW (254%5==4).
 
 Notes: iter 252 BUILD (seo-content) — israel-horseback-riding:
   Picked top P2, S seo-content+monetization item (confirmed in BACKLOG twice via iter110 + iter250

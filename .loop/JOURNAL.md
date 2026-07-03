@@ -4969,3 +4969,23 @@ Ship: committed to master 5ad7de3, pushed. CI in_progress at push; prior SHA 82f
 Prod: CI in_progress at state-write (consistent prior pattern → success).
 Next: iter 253 = BUILD (253%5==3 → tools rotation). Top candidates: israel-birdwatching (P2, M),
   wellness-spa (P2, M), hidden-gems (P2, M), or a new tools item from BACKLOG.
+
+## 2026-07-03 · iter 253 · BUILD (tools→fell through→seo-content+monetization) · masada-visitor-guide
+What: New /masada-visitor-guide — detailed independent-visitor guide to Masada covering
+  the three access methods (Snake Path hike, cable car, predawn sunrise hike) with comparison
+  table; step-by-step DIY sunrise hike guide (04:00 gate, head-torch, parks.org.il ticket);
+  what to see inside fortress (Northern Palace mosaics, Western Palace, ancient synagogue,
+  Byzantine church, Roman siege wall + camps, cisterns); Sound+Light Show logistics (Tue+Thu
+  Mar–Oct west entrance); INPA Parks Pass compatibility (entry free, cable car extra); practical
+  tips (heat/timing, water, photo). 6 FAQs. TourVerdict box. Event JSON-LD. Tools category
+  depleted (all 11 SHIPPED); technical depleted → fell through to seo-content+monetization.
+  DISTINCT from: dead-sea-masada.md (attraction info), masada-dead-sea-day-trip.md (tour booking),
+  masada-tours-compared.md (operator comparison). Targets "Masada snake path guide", "Masada
+  cable car or hike", "Masada sunrise hike guide" — high-volume queries with zero equivalent on site.
+  Affiliate CTAs: GYG sunrise tours, Viator cable-car daytime, Booking.com Dead Sea/Ein Bokek hotels.
+  Cross-links: national-parks-pass-calculator, israel-golden-hour. Footer Day Trips +1 link.
+  Cross-link added to masada-dead-sea-day-trip.md and dead-sea-masada.md attraction page.
+Gate: pnpm check 0 errors; build 427 pages (+1); 542/542 e2e+a11y pass. GREEN.
+Ship: commit e1d30be on master, pushed. CI in_progress at push (prior SHA c5a6e8d = success).
+Prod: CI in_progress at state-write (consistent prior pattern → success).
+Next: iter 254 = REVIEW (254%5==4).
