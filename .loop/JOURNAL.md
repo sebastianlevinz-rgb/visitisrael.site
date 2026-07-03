@@ -5099,3 +5099,18 @@ GREEN.
 Ship: commit c2c1a11 on master; pushed to origin/master; branch deleted.
 Prod: CI in_progress at push (consistent prior pattern → expected success).
 Next: iter 260 = RESEARCH (260%5==0 → competitor/gap scan).
+
+## 2026-07-03 · iter 260 · RESEARCH · competitor-gap-scan-260
+What: competitor/gap research scan (260%5==0 → RESEARCH mode).
+Sites scanned: touristisrael.com (kibbutz, Purim, Yom Kippur, Ramat Gan Safari, Wadi Qelt/St George, Negev wine route pages), hike-israel.com (Wadi Qelt complete guide), beinharimtours.com (St George Monastery), lonelyplanet.com (kibbutz overnight article), nativeisrael.com/secrettelaviv.com (Purim guides), israelwinexp.com (Negev wine region), jpost.com/timesofisrael.com (2026 Negev appellation recognition news).
+6 confirmed new gaps — all verified not in guides/ or attractions/ directories or existing backlog:
+  (1) /wadi-qelt-monastery-guide (P2, M, seo-content+monetization) — Judean Desert gorge + Greek Orthodox monastery; zero site coverage; hike-israel.com + BeinHarim + others have full pages
+  (2) /kibbutz-hotels-israel (P2, S, monetization) — dedicated kibbutz hotel stay guide; accommodation guide has 2 paragraphs; TouristIsrael + Lonely Planet have standalone pages
+  (3) /purim-in-israel (P2, S, seo-content) — Purim standalone guide (distinct from jewish-holidays guide); 340% tourist spike; TouristIsrael has 3 pages; our site: 1 FAQ answer
+  (4) /yom-kippur-in-israel (P2, S, seo-content) — Yom Kippur tourist guide (empty streets/cycling phenomenon); our site: 2 FAQ answers; TouristIsrael has standalone page
+  (5) /ramat-gan-safari-guide (P3, S, seo-content) — largest wildlife collection in Middle East; ~1M visitors/year; zero attraction page on site
+  (6) /negev-wine-route (P3, M, seo-content+monetization) — Negev wine trail; 2026 Negev appellation recognition milestone; our wine guide: 1 paragraph
+Gate: N/A (research mode — no shipping).
+Merge: none.
+Prod: n/a.
+Loop state: iteration bumped to 260; BACKLOG appended with 6 items; COMPETITORS.md appended. NEXT: iter 261 = BUILD/monetization (261%5==1).

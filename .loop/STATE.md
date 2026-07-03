@@ -1,10 +1,10 @@
 # LOOP STATE
 
-- iteration: 259
-- lastMode: REVIEW
-- lastItem: review-meta-trim-259 — SEO meta trim on iter256-258 guides (bahai, coffee, megiddo)
-- lastResult: SHIPPED c2c1a11 — gate GREEN (0 errors; 430 pages unchanged; 544/544 e2e+a11y pass); CI in_progress at push
-- nextRotationCategory: 260%5==0 → RESEARCH
+- iteration: 260
+- lastMode: RESEARCH
+- lastItem: competitor-gap-scan-260 — 6 new BACKLOG items (wadi-qelt-monastery, kibbutz-hotels, purim-in-israel, yom-kippur-in-israel, ramat-gan-safari, negev-wine-route)
+- lastResult: RESEARCH only — no ship; 6 confirmed gaps added to BACKLOG
+- nextRotationCategory: 261%5==1 → BUILD (monetization rotation)
 - higgsfieldSpent: 0
 - updatedAt: 2026-07-03
 - branch context: work on master; feature work on auto/<slug>

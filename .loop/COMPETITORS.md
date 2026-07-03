@@ -3252,3 +3252,40 @@ touristisrael.com (coffee + Bahá'í + Megiddo pages), bahai.org.il (official Ba
 - /israel-night-hiking (P3, S, seo-content)
 - /israel-camping-guide (P3, S, seo-content)
 - /israel-stand-up-paddle (P3, S, seo-content)
+
+---
+
+### 2026-07-03 · iter 260 · competitor gap scan
+
+**Sites scanned:**
+touristisrael.com (kibbutz/Purim/Yom Kippur/safari/Wadi Qelt pages), hike-israel.com/nature-in-israel/wadi-qelt, beinharimtours.com/st-george-s-monastery, holylandtourstravel.com (Wadi Qelt/St George guide), english.ginosar.co.il (Nof Ginosar kibbutz hotel), lonelyplanet.com/articles/overnight-accommodation-kibbutzim, touristisrael.com/best-kibbutz-hotels, nativeisrael.com/blog/purim-in-israel, secrettelaviv.com/tickets/purim-in-tel-aviv, israel-in-photos.com/ramat-gan-safari, visit-tel-aviv.com/ramat-gan-safari, touristisrael.com/ramat-gan-safari-park-tel-aviv, israelwinexp.com/israel-wine-tours/the-negev-region, tours-israel.org.il/en/a-route-through-the-wine-in-the-negev, negevwine.co.il, jpost.com (Negev appellation article 2026), timesofisrael.com (Negev appellation recognition).
+
+**Key findings:**
+
+- **touristisrael.com "Visiting a Kibbutz"** + **"Best Kibbutz Hotels" pages**: TouristIsrael has two dedicated kibbutz pages. Lonely Planet has a kibbutz overnight article. Our israel-accommodation-guide.md covers kibbutz in 2 paragraphs (lines 40–92) embedded in a wider accommodation overview — no standalone page exists. "Kibbutz hotel Israel" is a high-conversion search for Booking.com (niche audience specifically seeking kibbutz experience, not a standard urban hotel). Confirmed gap.
+
+- **hike-israel.com/nature-in-israel/wadi-qelt** + **beinharimtours.com/st-george-s-monastery**: Wadi Qelt gorge is one of the most dramatic hiking destinations in Israel (Judean Desert gorge running from Jerusalem to Jericho; 4th-century Greek Orthodox monastery clinging to cliff). Zero coverage on our site — confirmed via grep (no hits in day-trips-from-jerusalem, christian-pilgrimage-holy-land, hiking-in-israel, or any guide). Competitors with full standalone pages: hike-israel.com, BeinHarim, holylandtourstravel.com, privateguidetoisrael.com, levyisraeltours.com, theoutbound.com. Confirmed major gap. Dual SEO audience: "Wadi Qelt hike", "St George Monastery Israel", "Judean Desert hiking", "Christian sites near Jericho".
+
+- **touristisrael.com "Purim in Israel"** + **"Purim in Tel Aviv"** + **"Shushan Purim in Jerusalem"** (3 dedicated pages): Purim is Israel's carnival equivalent — largest street party in TLV, mass costume culture, Holon children's parade, Jerusalem's mystical Shushan Purim (walled city = 1 day later). Israel Ministry of Tourism reports 340% spike in tourist arrivals (25-40 age group) during Purim 2025 vs seasonal average. Our site covers Purim in 1 FAQ within traveling-israel-jewish-holidays.md — inadequate for a standalone travel product. Confirmed gap. secrettelaviv.com, nativeisrael.com, gaytravel4u.com all have dedicated Purim guides.
+
+- **touristisrael.com "Yom Kippur in Israel"**: Separate standalone page with detailed practical info for tourists (empty streets, cycling phenomenon, flight closures, synagogue etiquette). Our site covers Yom Kippur in 2 FAQ answers within traveling-israel-jewish-holidays.md. Yom Kippur = the most dramatic Israeli experience available to tourists (25-hour complete shutdown; empty highways filled with cyclists; unique nowhere-else-in-the-world atmosphere). "Yom Kippur in Israel" and "what happens on Yom Kippur Israel" are high-intent searches. Confirmed gap for a standalone guide.
+
+- **touristisrael.com "Ramat Gan Safari Park"** + **visit-tel-aviv.com/ramat-gan-safari** + **israel-in-photos.com/ramat-gan-safari**: Ramat Gan Safari is the largest wildlife complex in the Middle East (250 acres, 1,600+ animals, drive-through safari + zoo, Night Safari tour). Our site has zero attraction page for it — confirmed (attraction directory lists Tel Aviv sub-destination pages but no Ramat Gan Safari). ~1 million visitors/year. Major family-travel SEO gap (15 minutes from TLV). Confirmed gap.
+
+- **israelwinexp.com Negev region** + **touristisrael.com "Negev Desert Wine Route"** + **jpost.com/timesofisrael.com (2026 Negev appellation news)**: The Negev recently received formal recognition as an international wine appellation (2026 milestone — 4-year process; Ramat Negev appellation covers the region from Kiryat Gat to Eilat). Our israel-wine-wineries.md has 1 paragraph on Negev wines pointing visitors toward Mitzpe Ramon as a general suggestion. Competitors have dedicated Negev wine route content with winery-by-winery detail. Key wineries: Carmey Avdat (Sde Boker area), Boaz/Kadma/Nana (Mitzpe Ramon). The appellation recognition in 2026 is a timely SEO hook. Confirmed gap for dedicated guide.
+
+**De-duplicated and confirmed already covered (not added to BACKLOG):**
+- Mount Hermon ski resort: full attraction page (golan-mount-hermon.md, 84+ lines, covers ski season, cable car, practical logistics in detail)
+- Mount of Olives: full attraction page (jerusalem-mount-of-olives.md, covers Seven Arches viewpoint, Gethsemane descent, practical visit info)
+- Israel birdwatching: already in BACKLOG (iter250 research addition) — Hula Valley is key chapter of that guide
+- Jaffa Flea Market: well-covered in jaffa-travel-guide.md (lines 78+) and jaffa-food-guide.md (multiple sections)
+- Ramat Gan Safari as a tel-aviv-with-kids mention: israel-with-kids.md probably has brief mention — STANDALONE guide still needed
+- Jewish holidays overview: traveling-israel-jewish-holidays.md — existing guide covers 6 holidays briefly; standalone PURIM and YOM KIPPUR guides are genuinely distinct products
+
+**Net-new items added this iteration:** 6
+- /wadi-qelt-monastery-guide (P2, M, seo-content+monetization)
+- /kibbutz-hotels-israel (P2, S, monetization)
+- /purim-in-israel (P2, S, seo-content)
+- /yom-kippur-in-israel (P2, S, seo-content)
+- /ramat-gan-safari-guide (P3, S, seo-content)
+- /negev-wine-route (P3, M, seo-content+monetization)
