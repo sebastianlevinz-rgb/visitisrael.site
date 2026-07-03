@@ -1,13 +1,30 @@
 # LOOP STATE
 
-- iteration: 267
-- lastMode: BUILD (seo-content)
-- lastItem: israel-travel-tips — new /israel-travel-tips guide (P2, M); 435 pages; 554/554 tests; commit d5c66ef
-- lastResult: GREEN — pnpm check 0 errors · build 435 pages (+1) · 554/554 e2e+a11y pass; pushed to master
-- nextRotationCategory: 268%5==3 → BUILD (tools rotation)
+- iteration: 268
+- lastMode: BUILD (tools fallthrough → seo-content)
+- lastItem: glamping-israel — new /glamping-israel guide (P2, S); 436 pages; 556/556 tests; commit 4881bf8
+- lastResult: GREEN — pnpm check 0 errors · build 436 pages (+1) · 556/556 e2e+a11y pass; pushed to master
+- nextRotationCategory: 269%5==4 → REVIEW
 - higgsfieldSpent: 0
-- updatedAt: 2026-07-03T15:40Z
+- updatedAt: 2026-07-03T16:42Z
 - branch context: work on master; feature work on auto/<slug>
+
+Notes: iter 268 BUILD (tools rotation fallthrough → seo-content) — glamping-israel:
+  Tools backlog empty (all shipped); fell through to seo-content per playbook. Chose
+  /glamping-israel (P2, seo-content, S) — Negev desert & Galilee eco-stays guide.
+  Covers: Selina Ramon (crater-rim hybrid eco-lodge/social hub), Desert Shade eco-camp
+  (deeper wilderness immersion), Kibbutz Lotan (Arava Valley geodesic domes + composting
+  toilets honestly disclosed), Sea of Galilee kibbutz-farm glamping briefly. Season table
+  (spring/autumn = ideal; summer heat warning for Negev clearly stated; winter = coldest/
+  darkest skies). Packing checklist table. Dead-link fix: removed /bedouin-experience-israel
+  link (not yet built) before gate. Cross-link added from /israel-stargazing accommodation
+  paragraph. Footer Essentials: +1 "Glamping in Israel" link. 2 affiliate CTAs (Booking.com
+  Negev glamping + GYG Negev experiences). 6 FAQs. YAML frontmatter closing --- missing
+  on first write — fixed on one-fix attempt; gate passed clean.
+  Gate: pnpm check 0 errors · build 436 pages (+1 from 435) · 556/556 e2e+a11y pass.
+  Ship: commit 4881bf8 on master; pushed to origin/master; CI in_progress at push (prior
+  run 710c3e5 SUCCESS confirmed).
+  NEXT: iter 269 = REVIEW (269%5==4 → review pass on iters 265-268).
 
 Notes: iter 267 BUILD (seo-content rotation) — israel-travel-tips:
   New /israel-travel-tips — "20 Things to Know Before Visiting Israel". Top-of-funnel listicle

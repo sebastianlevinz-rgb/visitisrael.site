@@ -5239,3 +5239,23 @@ Gate: pnpm check 0 errors (118 files) · build 435 pages (+1 from 434) · 554/55
 Ship: commit d5c66ef on master; pushed to origin/master; branch auto/israel-travel-tips deleted.
 Prod: CI in_progress at push time (consistent prior pattern; iter266 run confirms pipeline healthy).
 NEXT: iter 268 = BUILD (268%5==3 → tools rotation).
+
+## 2026-07-03 · iter 268 · BUILD (tools fallthrough → seo-content) · glamping-israel
+What: new /glamping-israel — Negev desert & Galilee eco-stays guide (P2, seo-content, S).
+  Tools rotation category had no ready items (all 11 tools shipped over prior iterations);
+  fell through to seo-content per playbook. Selina Ramon (hybrid eco-lodge/social hub,
+  crater-rim, bookable via Booking.com), Desert Shade eco-camp (wilderness, darker skies),
+  Kibbutz Lotan (Arava Valley geodesic domes + composting toilets honestly disclosed + summer
+  heat warning for Arava floor 42°C+), Sea of Galilee kibbutz-farm glamping briefly covered.
+  Season table (spring/autumn = ideal; summer manageable at Mitzpe Ramon altitude only).
+  Packing checklist. Dead-link fix required before gate: removed /bedouin-experience-israel
+  link (page not yet built) — one-fix attempt, gate green. YAML frontmatter missing closing
+  --- on first write — fixed during one-fix attempt, gate passed on re-check.
+  Cross-link added: /israel-stargazing accommodation paragraph → glamping guide.
+  Footer Essentials: +1 "Glamping in Israel" link. 2 CTAs (Booking.com + GYG).
+  Startup: local master 50 commits behind origin (cloud fresh-clone) → git reset --hard
+    origin/master to 710c3e5 (iter267 state). CI for 710c3e5 (iter267 docs): SUCCESS.
+Gate: pnpm check 0 errors · build 436 pages (+1 from 435) · 556/556 e2e+a11y pass (+2).
+Ship: commit 4881bf8 on master; pushed to origin/master; branch auto/glamping-israel deleted.
+Prod: CI in_progress at push time (consistent prior pattern; iter267 run confirms healthy).
+NEXT: iter 269 = REVIEW (269%5==4 → audit iters 265-268 output).
