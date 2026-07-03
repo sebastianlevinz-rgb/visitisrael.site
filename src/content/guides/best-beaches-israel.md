@@ -1,6 +1,6 @@
 ---
 title: 'Best Beaches in Israel: Tel Aviv, Eilat & Beyond (2026)'
-description: "From Tel Aviv's 14 km of free city beaches to Eilat's coral reef and Herzliya's calm family sands — a complete guide to Israel's best beaches with what to expect at each."
+description: "Tel Aviv free beaches, Eilat's coral reef and Herzliya's calm family sands — a complete guide to Israel's best beaches with what to expect at each."
 heroImage: /images/regions/tel-aviv/beaches.jpg
 category: Planning
 updatedAt: 2026-07-03
