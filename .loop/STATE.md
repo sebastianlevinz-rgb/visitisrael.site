@@ -1,13 +1,26 @@
 # LOOP STATE
 
-- iteration: 263
-- lastMode: BUILD
-- lastItem: israel-wellness-spa (seo-content+monetization, M) — /israel-wellness-spa Dead Sea, hot springs & hammam guide
-- lastResult: Gate GREEN; commit 56f0096 on master; CI in_progress at push time (consistent prior pattern → expected success)
-- nextRotationCategory: 264%5==4 → REVIEW
+- iteration: 264
+- lastMode: REVIEW
+- lastItem: review-desc-trim-264 — audited iters 261-263 (kibbutz-hotels-israel, best-beaches-israel, israel-wellness-spa)
+- lastResult: Gate GREEN; commit 0687680 on master; CI in_progress at push time (consistent prior pattern → expected success)
+- nextRotationCategory: 265%5==0 → RESEARCH
 - higgsfieldSpent: 0
 - updatedAt: 2026-07-03
 - branch context: work on master; feature work on auto/<slug>
+
+Notes: iter 264 REVIEW — review-desc-trim-264:
+  Audited iters 261-263 guides: kibbutz-hotels-israel, best-beaches-israel, israel-wellness-spa.
+  Checks: (1) all internal links resolve — all 14 unique internal hrefs confirmed exist in src/content/;
+  (2) no H1 in any body (layout owns it); (3) titles all ≤65 chars; (4) JSON-LD honesty
+  (standard guide template — no ratingValue/aggregateRating).
+  Defects found and fixed:
+    - best-beaches-israel desc: 170 chars → trimmed to 147 (was over 160 limit)
+    - /kibbutz-hotels-israel missing from smoke.spec.ts → added
+    - /best-beaches-israel and /kibbutz-hotels-israel missing from a11y.spec.ts → both added
+  Gate: pnpm check 0 errors · build 433 pages · e2e 550/550 pass (+3 new tests). GREEN.
+  Ship: commit 0687680 on master; pushed to origin/master; CI in_progress at push (consistent prior pattern → expected success).
+  NEXT: iter 265 = RESEARCH (265%5==0 → competitor/gap scan).
 
 Notes: iter 263 BUILD (tools rotation → depleted → fell through to seo-content+monetization) — israel-wellness-spa:
   Picked israel-wellness-spa (P2, seo-content+monetization, M) — oldest ready P2 item (iter35 research).

@@ -5181,3 +5181,18 @@ Gate: pnpm check 0 errors (118 files); build 433 pages (+1 from 432); 547/547 e2
 Ship: squash-merge commit 56f0096 on master; pushed to origin/master; branch auto/israel-wellness-spa deleted.
 Prod: CI in_progress at push time (consistent prior 50+ iteration pattern → expected success).
 NEXT: iter 264 = REVIEW (264%5==4 → REVIEW pass on recent shipped guides: best-beaches-israel, israel-wellness-spa).
+
+## 2026-07-03 · iter 264 · REVIEW · audit iters 261-263 (kibbutz-hotels, best-beaches, wellness-spa)
+What: audited the 3 most recently shipped guides (iters 261-263).
+Checks: (1) all internal links resolve (14 unique hrefs — all confirmed in src/content/); (2) no H1 in
+  body text on any of the 3 guides (layout owns it); (3) title lengths all ≤65 chars (kibbutz 56,
+  beaches 55, wellness 60); (4) guide template JSON-LD is honesty-clean (no aggregateRating/ratingValue);
+  (5) e2e smoke + a11y test coverage for all 3 routes.
+Defects found and fixed:
+  - best-beaches-israel description: 170 chars → trimmed to 147 chars (was over the ≤160 SEO limit)
+  - /kibbutz-hotels-israel was missing from smoke.spec.ts → added
+  - /best-beaches-israel and /kibbutz-hotels-israel were both missing from a11y.spec.ts → both added
+Gate: pnpm check 0 errors · build 433 pages · e2e 550/550 pass (3 new tests green). GREEN.
+Ship: commit 0687680 on master; pushed to origin/master; branch auto/review-desc-trim-264 deleted.
+Prod: CI in_progress at push time (consistent prior 50+ iteration pattern → expected success).
+NEXT: iter 265 = RESEARCH (265%5==0 → competitor/gap scan).
