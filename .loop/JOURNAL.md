@@ -5315,3 +5315,11 @@ Gate: pnpm check 0 errors (118 files) · build 438 pages (+1 from 437) · 560/56
 Ship: commit 4577629 on master; pushed to origin/master; CI in_progress at push (prior run c2f7a81 SUCCESS).
 Prod: CI running; no failure detected; previous run confirmed SUCCESS.
 Next: iter 273 = BUILD (273%5==3 → tools rotation).
+
+## 2026-07-03T21:39Z · iter 273 · BUILD (seo-content+monetization) · sea-of-galilee-boat-tour
+What: tools rotation (273%5==3) empty (all 8 tools shipped); fell through technical (all shipped) → seo-content+monetization. New /sea-of-galilee-boat-tour — on-water experience guide for the Sea of Galilee (Kinneret). Covers: (1) Kinneret Sailing Company pier crossing — Tiberias Tayelet → Ein Gev, ~45-60 min, ₪50–90 range, Hava Nagila performance, April-Oct peak, Ein Gev kibbutz St. Peter's fish lunch; (2) Jesus Boat replica sailing at Kibbutz Nof Ginosar — flag-raising ceremony, advance booking required, ₪300–500 semi-private range; (3) Yigal Alon Museum — genuine 1st-century CE Galilean fishing vessel, honest non-attribution framing (not claimed to be Jesus's boat). Christian Galilee Gospel context section (Calling of Disciples, Stilling of Storm, Walking on Water). Half-day planning itinerary. 6 FAQs. 3 affiliate CTAs (GYG Sea of Galilee boat tour + Viator Christian Galilee sailing + Booking.com Tiberias hotels). Footer Essentials: +1 "Sea of Galilee boat tours" link (after tiberias-guide). Cross-link added in tiberias-guide.md Tayelet paragraph. Dense internal links to 7 existing guides. Smoke + a11y specs +2 routes.
+Note: local master was at iter 172 (fresh clone baseline); git reset --hard origin/master required before work began.
+Gate: pnpm check 0 errors (118 files) · build 439 pages (+1 from 438) · 562/562 e2e+a11y pass (+2). GREEN.
+Ship: commit a0ece75 on master; pushed to origin/master; CI in_progress at push (prior run 0a401c6 SUCCESS).
+Prod: CI running; no failure detected; previous run confirmed SUCCESS.
+Next: iter 274 = REVIEW (274%5==4 → review pass on iters 270-273).
