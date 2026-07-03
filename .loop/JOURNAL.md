@@ -5029,3 +5029,24 @@ Gate: pnpm check 0 errors; build 428 pages (+1); 544/544 e2e+a11y pass. GREEN.
 Merge SHA: bab8d1e; pushed to origin/master.
 Prod: CI + Lighthouse both in_progress for bab8d1e at state-write (consistent prior pattern → expected success).
 Next: iter 257 = BUILD (257%5==2 → seo-content rotation).
+
+## 2026-07-03 · iter 257 · BUILD (seo-content) · tel-aviv-coffee-guide
+What: New /tel-aviv-coffee-guide — Tel Aviv specialty coffee & café culture guide.
+  Hook: two-tradition contrast (botz/Turkish-unfiltered vs internationally-acclaimed
+  third-wave specialty). 7 named roasters/cafés (Nahat, Cafelix, Caffe Tamati, Way Cup,
+  Mae, Origem, Jera) — all framed with honesty caveat re dynamic scene; no fabricated
+  ratings or competition placements. Florentin→Neve Tzedek→Carmel Market→Rothschild→
+  Gordon Beach neighbourhood circuit (5–7km walk). Botz sourcing tips (market kiosks,
+  Jaffa cafés, hummusiyot, Levinsky Market). Practical tips: Shabbat opening (cafés NOT
+  kosher-obligated = open Saturday; key fact for tourists), sitting culture, café kar
+  (iced coffee year-round), tipping (10% table service), credit cards universal.
+  Affiliate CTAs: GYG food+market tour; Booking.com TLV boutique hotels.
+  7 FAQs. heroImage /images/sub-destinations/tel-aviv/florentin.jpg (confirmed exists).
+  Cross-links: tel-aviv-food-guide (+specialty coffee bullet), Footer Food column (+1 link);
+    in body: tel-aviv-neighborhoods-guide, tel-aviv-carmel-market, vegan-vegetarian-israel,
+    tel-aviv/old-jaffa.
+Gate: pnpm check 0 errors; build 429 pages (+1 from 428); 544/544 e2e+a11y pass. GREEN.
+Merge SHA: 979c59f; pushed to origin/master.
+Prod: CI in_progress at push (consistent prior pattern; latest completed run = success).
+Next: iter 258 = BUILD (258%5==3 → tools rotation; tools depleted → fall-through seo-content;
+  next item: megiddo-jezreel-valley-guide P2 M).
