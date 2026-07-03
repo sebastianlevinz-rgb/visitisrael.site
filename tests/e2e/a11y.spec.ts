@@ -184,6 +184,7 @@ const ROUTES = [
   '/israel-rooftop-bars',
   '/israel-travel-tips',
   '/glamping-israel',
+  '/israel-film-tv-tourism',
 ];
 
 for (const route of ROUTES) {
