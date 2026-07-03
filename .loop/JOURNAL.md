@@ -5011,3 +5011,21 @@ Found 6 net-new gaps: tel-aviv-coffee-guide (P2,S), bahai-world-center-guide (P2
   israel-camping-guide (P3,S), israel-stand-up-paddle (P3,S).
 No gate (research mode). .loop/ files updated and committed to master.
 Next: iter 256 = BUILD (256%5==1 → monetization rotation).
+
+## 2026-07-03 · iter 256 · BUILD (seo-content+monetization) · bahai-world-center-guide
+What: New /bahai-world-center-guide — complete visitor guide to the Bahá'í World Centre
+  covering both Haifa sites (19 terraced gardens UNESCO WHS 2008; free guided tour booking
+  via bahai-haifa.org with 24h advance registration; Shrine of the Báb exterior; dress code;
+  8 Bahá'í holy day closure dates; photography rules) and Akko sites (Shrine of Bahá'u'lláh
+  at Bahjí — holiest Bahá'í site; Persian gardens free entry; Friday afternoon closed;
+  taxi-only access ₪35–50; Ridván Garden; Mansion of Mazra'ih). 2-day circuit included.
+  Confirmed DISTINCT from haifa-travel-guide (2-para overview), haifa-neighborhoods-guide
+  (neighbourhood context), akko-acre-guide (1-line Bahjí mention).
+  Monetisation: Booking.com Haifa hotels + GYG Haifa gardens tour + Viator northern circuit.
+  Cross-links: haifa-travel-guide (Bahá'í section → /bahai-world-center-guide added),
+    akko-acre-guide (Bahjí para extended), Footer Guides column (+1 link).
+  7 FAQs. verdictName + verdictQuery set.
+Gate: pnpm check 0 errors; build 428 pages (+1); 544/544 e2e+a11y pass. GREEN.
+Merge SHA: bab8d1e; pushed to origin/master.
+Prod: CI + Lighthouse both in_progress for bab8d1e at state-write (consistent prior pattern → expected success).
+Next: iter 257 = BUILD (257%5==2 → seo-content rotation).
