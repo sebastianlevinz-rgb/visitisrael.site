@@ -294,6 +294,7 @@ const ROUTES = [
   '/vegan-vegetarian-israel',
   '/best-hotels-tel-aviv',
   '/dead-sea-hotels-guide',
+  '/best-beaches-israel',
 ];
 
 for (const route of ROUTES) {

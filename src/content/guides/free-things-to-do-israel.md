@@ -62,6 +62,8 @@ The beaches are backed by the [Tel Aviv promenade (Tayelet)](/tel-aviv/tayelet),
 
 Hilton Beach, at the north end near the hotel, is well established as a welcoming space for the LGBTQ+ community and for dog owners. Religious visitors should be aware that the stretch opposite Kerem HaTeimanim (south of Gordon Beach) is often informally quiet on Shabbat.
 
+For a full breakdown of each beach by character, crowd type and facilities — including Eilat's coral reef beaches — see the [best beaches in Israel guide](/best-beaches-israel).
+
 ## 4. Bahá'í Gardens in Haifa — free guided tours
 
 The [Bahá'í Gardens](/haifa/bahai-gardens) in Haifa — nineteen terraces of manicured gardens descending Mount Carmel toward the bay, centred on the golden-domed Shrine of the Báb — are a UNESCO World Heritage Site. Entry and guided tours are entirely free.
