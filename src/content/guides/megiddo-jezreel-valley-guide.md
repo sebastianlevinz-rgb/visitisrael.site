@@ -1,6 +1,6 @@
 ---
-title: "Tel Megiddo (Armageddon) Visitor Guide: Jezreel Valley Circuit (2026)"
-description: "Complete visitor guide to Tel Megiddo — the UNESCO site that gave us the word 'Armageddon'. What to see, Ahab's water tunnel walk-through, Jezreel Valley circuit (Sachne + Beit Alfa), getting there and guided tour options."
+title: "Tel Megiddo (Armageddon): Jezreel Valley Visitor Guide (2026)"
+description: "Tel Megiddo visitor guide — UNESCO Armageddon site, walk-through water tunnel, Jezreel Valley circuit (Sachne + Beit Alfa) and how to get there."
 heroImage: /images/regions/galilee/hero.jpg
 category: Destinations
 updatedAt: 2026-07-03

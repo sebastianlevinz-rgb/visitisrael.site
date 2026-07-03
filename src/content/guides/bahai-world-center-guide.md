@@ -1,6 +1,6 @@
 ---
 title: "Bahá'í World Centre Visitor Guide: Haifa & Akko Sites (2026)"
-description: "Complete visitor guide to the Bahá'í World Centre — Haifa terraced gardens, Shrine of the Báb, Akko Bahjí shrine and Ridván Garden. Practical tips, booking advice and 2-day circuit."
+description: "Bahá'í World Centre visitor guide — Haifa UNESCO terraced gardens, Shrine of the Báb, Akko Bahjí shrine and Ridván Garden. Free tours, booking tips."
 heroImage: /images/regions/haifa/bahai-gardens.jpg
 category: Destinations
 updatedAt: 2026-07-03

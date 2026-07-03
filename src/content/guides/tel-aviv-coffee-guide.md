@@ -1,6 +1,6 @@
 ---
-title: 'Tel Aviv Specialty Coffee Guide: Third-Wave Cafés & Botz Culture (2026)'
-description: "Tel Aviv's specialty coffee scene explained — top third-wave roasters, a neighbourhood café circuit, traditional botz coffee and what you need to know about café culture in Israel."
+title: 'Tel Aviv Specialty Coffee: Third-Wave Cafés & Botz Culture (2026)'
+description: "Tel Aviv specialty coffee guide — third-wave roasters, neighbourhood circuit, traditional botz and café culture tips for Israel's most caffeinated city."
 heroImage: /images/sub-destinations/tel-aviv/florentin.jpg
 category: Food
 updatedAt: 2026-07-03
