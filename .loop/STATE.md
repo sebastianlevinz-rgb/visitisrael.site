@@ -1,37 +1,38 @@
 # LOOP STATE
 
-- iteration: 262
+- iteration: 263
 - lastMode: BUILD
-- lastItem: best-beaches-israel (seo-content, M) — /best-beaches-israel complete beach guide
-- lastResult: Gate GREEN; commit d0b5056 on master; CI in_progress at push time (consistent prior pattern → expected success)
-- nextRotationCategory: 263%5==3 → BUILD (tools rotation)
+- lastItem: israel-wellness-spa (seo-content+monetization, M) — /israel-wellness-spa Dead Sea, hot springs & hammam guide
+- lastResult: Gate GREEN; commit 56f0096 on master; CI in_progress at push time (consistent prior pattern → expected success)
+- nextRotationCategory: 264%5==4 → REVIEW
 - higgsfieldSpent: 0
 - updatedAt: 2026-07-03
 - branch context: work on master; feature work on auto/<slug>
 
+Notes: iter 263 BUILD (tools rotation → depleted → fell through to seo-content+monetization) — israel-wellness-spa:
+  Picked israel-wellness-spa (P2, seo-content+monetization, M) — oldest ready P2 item (iter35 research).
+  Tools category fully depleted (all 11 SHIPPED since iter138); fell through to seo-content+monetization.
+  Content: Dead Sea mineral floating + mud ritual (34% dissolved minerals, 15-20 min limit, safety rules,
+    Kalia Beach + Ein Bokek options); Tiberias Hamat hot springs (Roman-era sulfur mineral pools,
+    Hamat Tiberias National Park, zodiac mosaic combo); Ein Gedi sulphur springs (kibbutz hotel context,
+    distinct quieter alternative to Ein Bokek); Hammam tradition (Al-Basha Hammam Akko, Ottoman heritage;
+    Jerusalem/Jaffa/TLV contemporary hammam operators); 6-row destination comparison table.
+  HONESTY: therapeutic benefits framed as "widely promoted/broadly associated"; psoriasis clinical evidence
+    acknowledged; no fabricated prices (all ranges); Dead Sea water level decline noted factually;
+    Al-Basha Hammam status framed as "parts restored" (museum + operator use); no ratingValue fabricated.
+  heroImage: /images/regions/dead-sea/hero.jpg (confirmed exists).
+  3 affiliate CTAs: Booking.com Dead Sea spa hotels, GYG Dead Sea day tours, Viator hammam experiences.
+  Cross-links added: dead-sea-guide.md spa section (+1 sentence cross-link to wellness guide);
+    tiberias-guide.md Hamat section (+1 sentence cross-link); Footer Essentials (+1 link after /dead-sea-guide);
+    smoke.spec.ts (+1 route); a11y.spec.ts (+1 route).
+  Gate: pnpm check 0 errors (118 files) · build 433 pages (+1 from 432) · e2e 547/547 pass. GREEN.
+  Ship: commit 56f0096 on master; pushed to origin/master; branch auto/israel-wellness-spa deleted.
+  Prod: CI in_progress at push (consistent prior pattern → expected success).
+  NEXT: iter 264 = REVIEW (264%5==4 → REVIEW pass on recent shipped guides).
+
 Notes: iter 262 BUILD (seo-content rotation) — best-beaches-israel:
-  Picked best-beaches-israel (P2, seo-content, M) — top ready seo-content item by priority.
-  Distinct from eilat-travel-guide.md (city guide with beach section) and
-  free-things-to-do-israel.md (brief beach mention) — standalone comprehensive beach roundup.
-  Content: Mediterranean coast (Tel Aviv: Gordon/Frishman central, Hilton LGBTQ+/dog-friendly,
-    Banana Beach young-crowd/bars, Alma Beach quiet/local, Nordau Beach religious separate-bathing;
-    Herzliya Marina Beach family/calm; Dor Habonim rock-pool/snorkel nature reserve;
-    Achziv wild north coast); Red Sea Eilat (North Beach resort strip + watersports;
-    Coral Beach Nature Reserve — reef snorkel, mandatory reef-safe sunscreen, ₪30 NPA entry;
-    INPA Parks Pass valid); Sea of Galilee (Golan Beach + Lavnun Beach freshwater swimming).
-  At-a-glance 11-row comparison table (beach, city, water, best for, entry, lifeguard).
-  Seasonal guidance (Med: May-Jun/Sep-Oct; Eilat: year-round winter peak);
-  flag system (white/red/black); Shabbat note; what-to-bring checklist.
-  HONESTY: no fabricated ratings; Achziv near northern border (link is-israel-safe);
-    Hilton Beach LGBTQ+ = social/cultural, not officially designated;
-    Coral Beach coral health framed factually (noted resilience vs wider Red Sea).
-  heroImage: /images/regions/tel-aviv/beaches.jpg (confirmed exists).
-  3 affiliate CTAs: GYG Tel Aviv beach experiences, Booking.com TLV hotels, GYG Eilat coral reef.
-  Cross-links added: free-things-to-do-israel.md beach section (+1 sentence cross-link);
-    tel-aviv-things-to-do.md beach FAQ answer (+1 sentence); smoke.spec.ts (+1 route).
   Gate: pnpm check 0 errors (118 files) · build 432 pages (+1 from 431) · e2e 545/545 pass. GREEN.
-  Ship: commit d0b5056 on master; pushed to origin/master; branch auto/best-beaches-israel deleted.
-  Prod: CI + Lighthouse in_progress at push (consistent prior pattern → expected success).
+  Ship: commit d0b5056 on master; pushed to origin/master; CI in_progress at push time (consistent prior pattern → expected success).
   NEXT: iter 263 = BUILD (263%5==3 → tools rotation; if tools fully depleted → fall-through).
 
 Notes: iter 261 BUILD (monetization rotation) — kibbutz-hotels-israel:
@@ -85,5 +86,5 @@ Notes: iter 252 BUILD (seo-content) — israel-horseback-riding:
   Gate GREEN 5ad7de3. NEXT: iter 253 BUILD tools.
 
 Cron b7325b16 hourly @ :17. Loop history: 19 tools + sitemap-lastmod + link-checker(+depth) + i18n
-Phase0/1a/1b/1c/2 Batches1-18(COMPLETE) + 31 review passes + 3 technical (event-schema + meta-trim + locale-links) + 30 EN guides + 4 tools-monetization;
+Phase0/1a/1b/1c/2 Batches1-18(COMPLETE) + 31 review passes + 3 technical (event-schema + meta-trim + locale-links) + 31 EN guides + 4 tools-monetization;
 research iters 5/10/20/30/35/40/45/50/55/60/65/70/75/80/85/90/95/100/105/110/115/120/125/130/135/140/145/150/155/160/165/170/175/180/185/190/195/200/205/210/215/220/225/230/235/240/245/250/255/260.

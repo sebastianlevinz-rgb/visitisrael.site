@@ -5155,3 +5155,29 @@ Gate: pnpm check 0 errors (118 files); build 432 pages (+1 from 431); 545/545 e2
 Ship: squash-merge commit d0b5056 on master; pushed to origin/master; branch auto/best-beaches-israel deleted.
 Prod: CI + Lighthouse in_progress at push time (consistent prior pattern → expected success).
 Next: iter 263 = BUILD (263%5==3 → tools rotation; if tools fully depleted → fall-through to next seo-content).
+
+## 2026-07-03 · iter 263 · BUILD (tools→seo-content+monetization fallthrough) · israel-wellness-spa
+
+What: BUILD iteration, tools rotation (263%5==3) → tools fully depleted (all 11 SHIPPED since iter138)
+  → fell through to seo-content+monetization. Picked /israel-wellness-spa (P2, seo-content+monetization, M)
+  — oldest ready P2 item in BACKLOG (iter35 research; queued since iters 233/253/262 as top candidate).
+  Content: Dead Sea mineral floating + mud ritual (34% dissolved minerals; 15–20 min safety limit; 
+  Kalia Beach + Ein Bokek resort strip options); Tiberias Hamat hot springs (Roman-era sulfur mineral 
+  pools; Hamat Tiberias National Park; zodiac mosaic combo opportunity); Ein Gedi sulphur springs 
+  (Kibbutz Hotel quieter alternative; combines with nature reserve hiking — cross-link ein-gedi-guide); 
+  Hammam tradition (Al-Basha Hammam Akko; Jerusalem/Jaffa/TLV hammam operators; Ottoman heritage context); 
+  6-row destination comparison table (water type, best-for, proximity).
+  HONESTY: therapeutic benefits "widely promoted/broadly associated"; psoriasis clinical study evidence 
+  noted specifically; no fabricated prices (all ranges); Dead Sea water level decline noted; Al-Basha 
+  status framed correctly (museum+restored sections); no aggregateRating/ratingValue fabricated.
+  heroImage: /images/regions/dead-sea/hero.jpg (confirmed exists).
+  3 affiliate CTAs: Booking.com Dead Sea spa hotels (destination: Dead Sea), GYG Dead Sea day tours 
+  (query), Viator hammam experiences (query).
+  Cross-links added: dead-sea-guide.md spa section → /israel-wellness-spa;
+    tiberias-guide.md Hamat section → /israel-wellness-spa;
+    Footer Essentials: "Wellness, spa & hot springs" after /dead-sea-guide;
+    smoke.spec.ts + a11y.spec.ts (+1 route each).
+Gate: pnpm check 0 errors (118 files); build 433 pages (+1 from 432); 547/547 e2e+a11y pass. GREEN.
+Ship: squash-merge commit 56f0096 on master; pushed to origin/master; branch auto/israel-wellness-spa deleted.
+Prod: CI in_progress at push time (consistent prior 50+ iteration pattern → expected success).
+NEXT: iter 264 = REVIEW (264%5==4 → REVIEW pass on recent shipped guides: best-beaches-israel, israel-wellness-spa).
