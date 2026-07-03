@@ -5137,3 +5137,21 @@ Gate: pnpm check 0 errors (118 files) · build 431 pages (+1 from 430) · e2e 54
 Ship: commit a97a9b9 on master; pushed to origin/master; branch auto/kibbutz-hotels-israel deleted.
 Prod: CI + Lighthouse in_progress at push (consistent prior pattern → expected success).
 Next: iter 262 = BUILD (262%5==2 → seo-content rotation).
+
+## 2026-07-03 · iter 262 · BUILD · best-beaches-israel
+What: BUILD iteration, seo-content rotation (262%5==2). Picked /best-beaches-israel (P2, seo-content, M) —
+  top ready seo-content item; high-intent seasonal search target with year-round evergreen value.
+  Distinct from eilat-travel-guide (city guide with beach section) and free-things-to-do-israel (brief mention).
+  Standalone comprehensive beach roundup: Mediterranean (Tel Aviv Gordon/Frishman/Hilton/Banana/Alma/Nordau;
+  Herzliya Marina; Dor Habonim nature reserve; Achziv north coast) + Red Sea Eilat (North Beach resort strip;
+  Coral Beach Nature Reserve — reef snorkel, reef-safe sunscreen mandatory, ₪30 NPA entry, INPA Pass valid) +
+  Sea of Galilee freshwater swimming (Golan Beach, Lavnun Beach). 11-row at-a-glance comparison table.
+  Seasonal guidance, flag system, Shabbat notes, what-to-bring. 6 FAQs. 3 affiliate CTAs.
+  Cross-links added: free-things-to-do-israel.md + tel-aviv-things-to-do.md beach sections; smoke.spec.ts.
+  HONESTY: no fabricated ratings; Achziv border-area caveat; Hilton Beach LGBTQ+ social/cultural framing;
+  Coral Beach resilience noted factually; therapeutic/reef claims properly hedged.
+Gate: pnpm check 0 errors (118 files); build 432 pages (+1 from 431); 545/545 e2e+a11y pass. GREEN.
+  (First run had 3 broken links /regions/tel-aviv /regions/eilat /regions/galilee → fixed to /tel-aviv /eilat /galilee; re-gate clean.)
+Ship: squash-merge commit d0b5056 on master; pushed to origin/master; branch auto/best-beaches-israel deleted.
+Prod: CI + Lighthouse in_progress at push time (consistent prior pattern → expected success).
+Next: iter 263 = BUILD (263%5==3 → tools rotation; if tools fully depleted → fall-through to next seo-content).

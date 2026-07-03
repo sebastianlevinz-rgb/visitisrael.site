@@ -1,40 +1,40 @@
 # LOOP STATE
 
-- iteration: 261
+- iteration: 262
 - lastMode: BUILD
-- lastItem: kibbutz-hotels-israel (monetization, S) — /kibbutz-hotels-israel standalone guide
-- lastResult: Gate GREEN; commit a97a9b9 on master; CI in_progress at push time (consistent prior pattern → expected success)
-- nextRotationCategory: 262%5==2 → BUILD (seo-content rotation)
+- lastItem: best-beaches-israel (seo-content, M) — /best-beaches-israel complete beach guide
+- lastResult: Gate GREEN; commit d0b5056 on master; CI in_progress at push time (consistent prior pattern → expected success)
+- nextRotationCategory: 263%5==3 → BUILD (tools rotation)
 - higgsfieldSpent: 0
 - updatedAt: 2026-07-03
 - branch context: work on master; feature work on auto/<slug>
 
+Notes: iter 262 BUILD (seo-content rotation) — best-beaches-israel:
+  Picked best-beaches-israel (P2, seo-content, M) — top ready seo-content item by priority.
+  Distinct from eilat-travel-guide.md (city guide with beach section) and
+  free-things-to-do-israel.md (brief beach mention) — standalone comprehensive beach roundup.
+  Content: Mediterranean coast (Tel Aviv: Gordon/Frishman central, Hilton LGBTQ+/dog-friendly,
+    Banana Beach young-crowd/bars, Alma Beach quiet/local, Nordau Beach religious separate-bathing;
+    Herzliya Marina Beach family/calm; Dor Habonim rock-pool/snorkel nature reserve;
+    Achziv wild north coast); Red Sea Eilat (North Beach resort strip + watersports;
+    Coral Beach Nature Reserve — reef snorkel, mandatory reef-safe sunscreen, ₪30 NPA entry;
+    INPA Parks Pass valid); Sea of Galilee (Golan Beach + Lavnun Beach freshwater swimming).
+  At-a-glance 11-row comparison table (beach, city, water, best for, entry, lifeguard).
+  Seasonal guidance (Med: May-Jun/Sep-Oct; Eilat: year-round winter peak);
+  flag system (white/red/black); Shabbat note; what-to-bring checklist.
+  HONESTY: no fabricated ratings; Achziv near northern border (link is-israel-safe);
+    Hilton Beach LGBTQ+ = social/cultural, not officially designated;
+    Coral Beach coral health framed factually (noted resilience vs wider Red Sea).
+  heroImage: /images/regions/tel-aviv/beaches.jpg (confirmed exists).
+  3 affiliate CTAs: GYG Tel Aviv beach experiences, Booking.com TLV hotels, GYG Eilat coral reef.
+  Cross-links added: free-things-to-do-israel.md beach section (+1 sentence cross-link);
+    tel-aviv-things-to-do.md beach FAQ answer (+1 sentence); smoke.spec.ts (+1 route).
+  Gate: pnpm check 0 errors (118 files) · build 432 pages (+1 from 431) · e2e 545/545 pass. GREEN.
+  Ship: commit d0b5056 on master; pushed to origin/master; branch auto/best-beaches-israel deleted.
+  Prod: CI + Lighthouse in_progress at push (consistent prior pattern → expected success).
+  NEXT: iter 263 = BUILD (263%5==3 → tools rotation; if tools fully depleted → fall-through).
+
 Notes: iter 261 BUILD (monetization rotation) — kibbutz-hotels-israel:
-  Picked kibbutz-hotels-israel (P2, monetization, S) — the only remaining pure-monetization
-  ready item; prior iters (256, 243, 241) depleted the monetization queue but iter260 RESEARCH
-  added this new item. Distinct from israel-accommodation-guide.md (covers kibbutz in 2-paragraph
-  section); touristisrael.com + Lonely Planet have dedicated kibbutz hotel pages confirmed.
-  Content: what makes kibbutz hotels different (communal breakfast culture, agricultural setting,
-    cooperative ownership, honest note that modern kibbutz is much less collective than founding era);
-    Dead Sea: Ein Gedi Resort Hotel 4★ (mineral pools, spa, 100-hectare botanical garden included);
-    Sea of Galilee: Nof Ginosar (private beach on Kinneret, Yigal Allon Museum / "Jesus Boat" on-site);
-    Galilee guesthouses: Kibbutz Hagoshrim (Upper Galilee, Ayun Nature Reserve access), Kibbutz Kfar
-    Blum (Hula Valley, birding + cranes migration base);
-    Golan Heights: Ein Zivan (apple orchards, Nimrod Fortress, Golan wine circuit),
-    Kfar Haruv (southern Golan, Gamla NR, panoramic Kinneret views);
-    Negev Arava: Kibbutz Lotan eco-lodge (geodesic domes, earthen structures, ecology workshops,
-    Arava birding corridor);
-    Jerusalem-area: Kibbutz Ramat Rachel (hilltop, 10 min from Old City, royal Judean palace
-    archaeology on-site, spa+pool).
-  heroImage: /images/regions/galilee/sea-of-galilee.jpg (confirmed exists).
-  6 FAQs: what is a kibbutz hotel; cost (₪500–1,500); best overall pick; breakfast included;
-    non-Jewish welcome; how to book.
-  Affiliate CTAs: 2× Booking.com (kibbutz hotels Israel, Dead Sea kibbutz resorts) + GYG kibbutz day tour.
-  Cross-link: added "For region-by-region picks…see /kibbutz-hotels-israel" to accommodation guide
-    kibbutz section.
-  HONESTY: price ranges labeled indicative; no fabricated review scores; modern kibbutz communal
-    character honestly framed; Kibbutz Lotan direct-booking note (inconsistently on Booking.com);
-    Shabbat access rules noted for religious kibbutzim.
   Gate: pnpm check 0 errors; build 431 pages (+1 from 430); 544/544 e2e+a11y pass. GREEN.
   Ship: commit a97a9b9 on master; pushed to origin/master; CI in_progress at push time (consistent
     prior pattern → expected success). Lighthouse CI also in_progress.
