@@ -5206,3 +5206,17 @@ israel-hot-air-balloon (P3 S), israel-olive-harvest (P3 S), hanukkah-in-israel (
 lag-baomer-israel (P3 S). All confirmed non-duplicates via full grep scan of 645-line backlog.
 COMPETITORS.md updated with iter265 block. No code shipped (RESEARCH mode).
 NEXT: iter 266 = BUILD (266%5==1 → monetization rotation).
+
+## 2026-07-03 · iter 266 · BUILD (monetization) · israel-rooftop-bars
+What: new /israel-rooftop-bars guide (P2, S effort). Tel Aviv rooftop bar scene — The Norman,
+  David Intercontinental/Barby Sky Lounge, Aloft pool bar, Market House Hotel, Yam Hotel/Jaffa.
+  Jerusalem: Mamilla Hotel rooftop (Old City wall views). Haifa: Carmel ridge terrace overview.
+  Honest framing: venue caveat ("lineup changes — check Instagram"), drink price ranges only
+  (₪80–160/cocktail illustrative), no fabricated ratings. CTAs: GYG TLV evening tour +
+  Booking.com rooftop hotel filter. Dense cross-links: tel-aviv-nightlife, tel-aviv-food-guide,
+  jaffa-travel-guide, tel-aviv-neighborhoods-guide, carmel-market, tel-aviv-light-rail.
+  israelistreet-food-guide.md already existed (pre-loop) so pivoted to rooftop-bars as next-best P2 S monetization item.
+Gate: pnpm check 0 errors · build 434 pages (+1) · e2e 552/552 pass (+2 new tests). GREEN.
+Ship: commit 84b45fd on master; pushed to origin/master; branch auto/israel-rooftop-bars deleted.
+Prod: CI in_progress at push time (consistent prior pattern → expected success).
+NEXT: iter 267 = BUILD (267%5==2 → seo-content rotation).
