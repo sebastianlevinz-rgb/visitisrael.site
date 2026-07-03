@@ -150,6 +150,7 @@ const ROUTES = [
   '/israel-evening-activities',
   '/israel-stargazing',
   '/israel-horseback-riding',
+  '/masada-visitor-guide',
   '/1-day-jerusalem-itinerary',
   '/jerusalem-old-city-walking-tour',
   '/fr/1-day-jerusalem-itinerary',

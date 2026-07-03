@@ -83,6 +83,10 @@ The **summit synagogue** is one of the oldest surviving synagogues in the world 
 
 On the western side, the **Roman siege ramp** built by the Tenth Legion is still visible — a massive earth-and-stone construction that allowed the Romans to breach the wall. Below the plateau, the outlines of the **Roman siege camps** are visible from the summit edge.
 
+## Planning your visit
+
+For a detailed breakdown of the three ways to reach the summit — Snake Path hike, cable car and sunrise hike — plus what to see inside the fortress and the Masada Sound and Light Show, see the [Masada visitor guide](/masada-visitor-guide). For organised tours and operator comparisons, see [Masada tours compared](/masada-tours-compared).
+
 ## Tours of Masada
 
 Guided **sunrise tours** are the most popular option for international visitors. Operators pick up from Tel Aviv hotels at two to three in the morning, drive to the trailhead, lead the climb in the dark, and time the summit arrival to coincide with first light. Most tours combine Masada with Ein Gedi and a Dead Sea float for a full ten-hour day.
