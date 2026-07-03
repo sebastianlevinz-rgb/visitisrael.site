@@ -1,6 +1,6 @@
 ---
-title: 'Horseback Riding in Israel: Galilee & Golan Equestrian Guide (2026)'
-description: 'Best horseback riding tours in Israel — Vered HaGalil, Golan Heights ranches, Galilee trail rides for all levels. Booking tips, what to expect, and the best season.'
+title: 'Horseback Riding in Israel: Galilee & Golan Guide (2026)'
+description: 'Best horseback riding tours in Israel — Vered HaGalil, Golan Heights ranches, Galilee trail rides for all levels. Booking tips, what to expect, and best season.'
 heroImage: /images/regions/galilee/hero.jpg
 category: Outdoor
 updatedAt: 2026-07-03

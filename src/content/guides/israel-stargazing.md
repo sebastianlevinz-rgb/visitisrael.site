@@ -1,6 +1,6 @@
 ---
 title: 'Stargazing in Israel: Mitzpe Ramon Dark Sky Guide (2026)'
-description: 'Where to stargaze in Israel — Mitzpe Ramon International Dark Sky Park, guided night-sky tours, the best seasons, and how to plan an overnight trip to the Negev.'
+description: 'Where to stargaze in Israel — Mitzpe Ramon International Dark Sky Park, guided night-sky tours, best seasons, and how to plan an overnight trip to the Negev.'
 heroImage: /images/regions/negev/mitzpe-ramon.jpg
 category: Outdoor
 updatedAt: 2026-07-02
