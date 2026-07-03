@@ -181,6 +181,7 @@ const ROUTES = [
   '/best-beaches-israel',
   '/kibbutz-hotels-israel',
   '/israel-rooftop-bars',
+  '/israel-travel-tips',
 ];
 
 for (const route of ROUTES) {
