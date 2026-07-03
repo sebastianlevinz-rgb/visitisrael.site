@@ -5301,3 +5301,10 @@ monasteries iter230, wildflowers ready, music-guide iter225, honeymooners iter20
 Gate: N/A (research only). Ship: N/A. Prod: N/A.
 State: iter bumped to 270, RESEARCH, COMPETITORS+BACKLOG updated, STATE+JOURNAL updated and committed.
 NEXT: iter 271 = BUILD (271%5==1 → monetization rotation — pick highest-priority monetization item from backlog).
+
+## 2026-07-03T19:36Z · iter 271 · BUILD (monetization) · israel-tour-operators-guide
+What: new /israel-tour-operators-guide — operator buyer's guide comparing Abraham Tours (budget/solo), Bein Harim (cruise/large group), GetYourGuide (marketplace, free-cancel filter), Viator (verified-reviews), Keshet/Egged (structured packages), IMTA private guides (licensed, one-on-one). 6-row comparison table, 3 affiliate CTAs (GYG + Viator + Abraham), Verdict box, 6 FAQs, dense cross-links to all 6 tours-compared pages + private-tours-israel. BACKLOG item flagged "HIGHEST revenue potential" — captures "Abraham Tours review", "Bein Harim review", "best Israel tour company" high-intent pre-booking queries. Footer Essentials +1 link; cross-link added to best-tours-in-israel.md. Smoke + a11y specs extended.
+Gate: pnpm check 0 errors · build 437 pages (+1) · 558/558 e2e+a11y pass (+2). GREEN.
+Ship: commit e097ed7 on master; pushed to origin/master; CI in_progress at push (prior run 61351eb SUCCESS).
+Prod: CI running; no failure detected; previous run confirmed SUCCESS.
+Next: iter 272 = BUILD (272%5==2 → seo-content rotation).

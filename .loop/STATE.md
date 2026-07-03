@@ -1,13 +1,25 @@
 # LOOP STATE
 
-- iteration: 270
-- lastMode: RESEARCH
-- lastItem: competitor-gap-scan-270 — 5 net-new items: israel-wine-bars, israel-fishing-guide, israel-cheese-dairy-guide, ben-gurion-transfers-2026-update, israel-coexistence-guide
-- lastResult: research-complete — no code changed; backlog now 183+ ready items (extremely saturated); 5 new items added; COMPETITORS.md updated
-- nextRotationCategory: 271%5==1 → BUILD (monetization rotation)
+- iteration: 271
+- lastMode: BUILD
+- lastItem: israel-tour-operators-guide — new /israel-tour-operators-guide money page (commit e097ed7)
+- lastResult: shipped-e097ed7 — gate green (0 check errors, 437 pages, 558/558 e2e+a11y pass); pushed to origin/master; CI in_progress at push (prior run 61351eb SUCCESS)
+- nextRotationCategory: 272%5==2 → BUILD (seo-content rotation)
 - higgsfieldSpent: 0
-- updatedAt: 2026-07-03T18:45Z
+- updatedAt: 2026-07-03T19:36Z
 - branch context: work on master; feature work on auto/<slug>
+
+Notes: iter 271 BUILD (monetization) — israel-tour-operators-guide:
+  Operator buyer's guide: Abraham Tours (budget solo/social), Bein Harim (cruise/large groups),
+  GetYourGuide marketplace (free-cancellation filter), Viator (verified-review depth), Keshet/Egged
+  (structured packages), IMTA private guides (one-on-one licensed). 6-row comparison table.
+  3 affiliate CTAs (GYG + Viator + Abraham). Verdict box. 6 FAQs. Dense cross-links to all 6
+  tours-compared pages + private-tours-israel + best-tours-in-israel (cross-link added).
+  Footer Essentials: "Tour operators compared" link added.
+  Gate: pnpm check 0 errors (118 files) · build 437 pages (+1 from 436) · 558/558 e2e+a11y pass (+2).
+  Ship: commit e097ed7 on master; pushed to origin/master; CI in_progress at push
+  (prior run 61351eb SUCCESS confirmed).
+  NEXT: iter 272 = BUILD (272%5==2 → seo-content rotation).
 
 Notes: iter 270 RESEARCH — competitor-gap-scan-270:
   Mode RESEARCH (270%5==0). No code changed. Scanned: touristisrael.com, timeout.com/israel,
