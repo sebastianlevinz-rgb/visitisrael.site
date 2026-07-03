@@ -180,6 +180,7 @@ const ROUTES = [
   '/israel-wellness-spa',
   '/best-beaches-israel',
   '/kibbutz-hotels-israel',
+  '/israel-rooftop-bars',
 ];
 
 for (const route of ROUTES) {
