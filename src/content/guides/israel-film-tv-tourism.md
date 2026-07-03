@@ -1,5 +1,5 @@
 ---
-title: 'Israel Film & TV Tourism: Fauda, Shtisel & Screen Locations (2026)'
+title: 'Israel Film & TV Tourism: Fauda, Shtisel, Screen Locations (2026)'
 description: 'Visit Fauda filming locations in Kfar Kasim, walk Shtisel''s Mea She''arim alleys, explore Tehran''s Jerusalem sets — your guide to Israeli TV screen tourism.'
 heroImage: /images/regions/jerusalem/hero.jpg
 category: Culture

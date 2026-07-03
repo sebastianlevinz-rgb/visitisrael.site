@@ -1,6 +1,6 @@
 ---
 title: 'Sea of Galilee Boat Tours: Kinneret Sailing & Jesus Boat (2026)'
-description: 'Book a Sea of Galilee boat tour from Tiberias — Kinneret sailing, the Jesus Boat replica, flag-raising ceremony, and the ancient 1st-century vessel at Yigal Alon Museum.'
+description: 'Book a Sea of Galilee boat tour from Tiberias — Kinneret sailing, Jesus Boat replica, flag-raising ceremony, and the 1st-century vessel at Yigal Alon Museum.'
 heroImage: /images/regions/galilee/sea-of-galilee.jpg
 category: Experiences
 updatedAt: 2026-07-03

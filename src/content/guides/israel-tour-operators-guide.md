@@ -1,6 +1,6 @@
 ---
 title: 'Israel Tour Operators Compared: Who to Book With (2026)'
-description: 'Abraham Tours, Bein Harim, GetYourGuide, Viator or a private guide? An honest comparison of Israel tour companies so you book with the right operator for your trip.'
+description: 'Abraham Tours, Bein Harim, GetYourGuide, Viator or a private guide? Compare Israel tour companies and book with the right operator.'
 heroImage: /images/regions/jerusalem/hero.jpg
 category: Tours
 verdictName: 'Israel tour operators'
