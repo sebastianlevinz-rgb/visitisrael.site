@@ -77,7 +77,7 @@ Kibbutz Ginosar has accommodation for those wanting to stay on a private lake be
 
 The **Tayelet** — the lakefront promenade — is the heart of daily life in Tiberias: a linear park running along the water's edge with cafés, benches, jetties, and views across the lake to the Golan Heights. At sunrise or sunset, the light across the Kinneret justifies the walk in itself: the flat surface of the lake reflects colour in a way that has drawn painters and pilgrims here for centuries.
 
-The promenade is also where Tiberias's working fishing culture is still visible: small boats tied at the waterfront, the smell of the lake in the morning, and the opportunity to take a boat excursion across the water. Several operators run tourist cruises — some styled as "Sea of Galilee boat tours" in wooden vessels — from the main jetty area.
+The promenade is also where Tiberias's working fishing culture is still visible: small boats tied at the waterfront, the smell of the lake in the morning, and the opportunity to take a boat excursion across the water. Several operators run tourist cruises from the main jetty area, including the Kinneret Sailing Company's crossing to Ein Gev and the Jesus Boat replica sailing at Kibbutz Ginosar. For full details on booking, logistics and what to expect on the water, see the [Sea of Galilee boat tours guide](/sea-of-galilee-boat-tour).
 
 The promenade connects the city centre to the older southern districts, passing restaurants, hotels, and the access points for the main public beaches. A full walk of the accessible lakefront takes about 45 minutes at a relaxed pace.
 
