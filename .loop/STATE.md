@@ -1,13 +1,31 @@
 # LOOP STATE
 
-- iteration: 253
-- lastMode: BUILD (tools rotation → depleted → fell through to monetization/seo-content)
-- lastItem: masada-visitor-guide (P2, S, seo-content+monetization) → e1d30be
-- lastResult: SHIPPED — /masada-visitor-guide; 427 pages (+1); 542/542 e2e+a11y pass; CI in_progress at state-write (consistent prior pattern → success).
-- nextRotationCategory: 254%5==4 → REVIEW
+- iteration: 254
+- lastMode: REVIEW
+- lastItem: review-desc-trim-254 — stargazing desc 161→157, horseback desc 164→160, horseback title 67→56 → e507147
+- lastResult: SHIPPED — 3 meta over-limit values trimmed; 427 pages; 542/542 e2e+a11y pass; CI in_progress at state-write (consistent prior pattern → success).
+- nextRotationCategory: 255%5==0 → RESEARCH
 - higgsfieldSpent: 0
 - updatedAt: 2026-07-03
 - branch context: work on master; feature work on auto/<slug>
+
+Notes: iter 254 REVIEW — review-desc-trim-254:
+  Audited iter251 (israel-stargazing), iter252 (israel-horseback-riding), and
+  iter253 (masada-visitor-guide) for: meta title/description lengths, hero image
+  existence, internal link validity, honesty (no fabricated exact prices/ratings),
+  JSON-LD schema.
+  Findings:
+    israel-stargazing desc: 161 chars → trimmed to 157 ('the best seasons' → 'best seasons')
+    israel-horseback-riding desc: 164 chars → trimmed to 160 ('the best season' → 'best season')
+    israel-horseback-riding title: 67 chars → trimmed to 56 (dropped 'Equestrian' from subtitle)
+    masada-visitor-guide: all meta clean (title 65, desc 160 ✓)
+  Hero images: all 7 image refs exist in public/images/ ✓
+  Internal links: all 18 hrefs across three guides resolve to valid routes ✓
+    /dead-sea/ein-gedi confirmed valid via [region]/[attraction].astro + dead-sea-ein-gedi.md
+  No fabricated prices found; all prices are honest ranges ✓
+  Fix: commit e507147, pushed to master. Gate: 0 errors; 427 pages; 542/542 pass. GREEN.
+  CI in_progress at state-write (consistent prior pattern → success).
+  NEXT: iter 255 = RESEARCH (255%5==0).
 
 Notes: iter 253 BUILD (tools rotation → fell through to seo-content+monetization) — masada-visitor-guide:
   Tools category fully depleted (all 11 tools SHIPPED); technical also depleted → fell through to

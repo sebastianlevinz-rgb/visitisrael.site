@@ -4989,3 +4989,14 @@ Gate: pnpm check 0 errors; build 427 pages (+1); 542/542 e2e+a11y pass. GREEN.
 Ship: commit e1d30be on master, pushed. CI in_progress at push (prior SHA c5a6e8d = success).
 Prod: CI in_progress at state-write (consistent prior pattern → success).
 Next: iter 254 = REVIEW (254%5==4).
+
+## 2026-07-03 · iter 254 · REVIEW · review-desc-trim-254
+What: Audited iter251–253 guides (israel-stargazing, israel-horseback-riding, masada-visitor-guide)
+  for meta length, hero images, internal link validity, honesty, schema.
+Findings: 3 meta over-limit violations — stargazing desc 161 chars, horseback desc 164 chars,
+  horseback title 67 chars. All hero images present; all 18 internal hrefs resolve including
+  /dead-sea/ein-gedi (attraction route). No fabricated prices. JSON-LD correct.
+Fix: trimmed 3 values (stargazing desc 161→157, horseback desc 164→160, horseback title 67→56).
+Gate: pnpm check 0 errors; build 427 pages; 542/542 e2e+a11y pass. GREEN.
+Merge SHA: e507147. CI in_progress at push (consistent prior pattern → success).
+Next: iter 255 = RESEARCH (255%5==0).
