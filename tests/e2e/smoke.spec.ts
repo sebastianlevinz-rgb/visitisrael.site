@@ -22,6 +22,7 @@ const ROUTES = [
   '/petra-tours-compared',
   '/tel-aviv-tours-compared',
   '/eilat-tours-compared',
+  '/israel-tour-operators-guide',
   '/best-things-to-do-in-israel',
   '/visa-information',
   '/plan-your-trip',

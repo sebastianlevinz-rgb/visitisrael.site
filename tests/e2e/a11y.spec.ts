@@ -97,6 +97,7 @@ const ROUTES = [
   '/petra-tours-compared',
   '/tel-aviv-tours-compared',
   '/eilat-tours-compared',
+  '/israel-tour-operators-guide',
   '/cruise-shore-excursions-israel',
   '/israel-accommodation-guide',
   '/israel-travel-apps',

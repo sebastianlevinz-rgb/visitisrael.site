@@ -57,6 +57,10 @@ Israel rewards a few well-chosen guided days — especially for sites where a su
 
 Match the format to your trip: **skip-the-line tickets** for busy museums, **small-group day trips** for the big-ticket sights, and **private guides** for a tailored pace. Book popular trips and Holy-Week dates well ahead.
 
+## Choosing an operator
+
+Not sure whether to book with Abraham Tours, Bein Harim, GetYourGuide or a private guide? See our [Israel tour operators compared](/israel-tour-operators-guide) guide — an honest breakdown of who each operator suits.
+
 ## More ways to plan
 
 Prefer everything bundled? See [multi-day tour packages](/israel-tour-packages). Building your own route? Use our [itineraries](/itineraries) and the [11 regions](/). And sort the practical bits — an [eSIM](/israel-esim), [travel insurance](/israel-travel-insurance) and your [airport transfer](/ben-gurion-airport-transfers) — before you fly.
