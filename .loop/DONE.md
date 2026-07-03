@@ -512,3 +512,4 @@ guides. 3× affiliate CTAs, 6 FAQs, cross-link from /jerusalem region page.
 ## iter 251 — israel-stargazing
 
 - /israel-stargazing — SHA 9c7cb08 — Israel stargazing guide: Mitzpe Ramon IDA-certified International Dark Sky Park (first in Middle East); operators (Desert Prime, Deep Desert Israel, Astronomy Israel); season/moon table; guided vs self-guided; Summer of Stars August event (Event schema); equipment checklist; overnight planning; Booking.com Mitzpe hotels + GYG/Viator tour CTAs; TourVerdict box; cross-links from Footer + evening-activities + adventure-sports; 538/538 e2e pass
+- iter252 (2026-07-03) · israel-horseback-riding · 5ad7de3 · New /israel-horseback-riding guide: Vered HaGalil + Habokrim Ranch + Moshav Ramot + Kibbutz Ein Dor; all-levels trail riding; season table; Jesus Trail cross-link; 6 FAQs; GYG/Viator/Booking CTAs. 426 pages; 540/540 tests.

@@ -1,13 +1,27 @@
 # LOOP STATE
 
-- iteration: 251
-- lastMode: BUILD (monetization rotation)
-- lastItem: israel-stargazing (P2, S, seo-content+monetization) → 9c7cb08
-- lastResult: SHIPPED — /israel-stargazing guide; 425 pages (+1); 538/538 e2e+a11y pass; CI in_progress at state-write (consistent prior pattern → success). Also caught BACKLOG de-dupe error: haifa-neighborhoods-guide was SHIPPED iter223 (b60e624) but iter250 research re-added it to BACKLOG without checking DONE.md; marked ARCHIVED-DUPE.
-- nextRotationCategory: 252%5==2 → BUILD (seo-content rotation)
+- iteration: 252
+- lastMode: BUILD (seo-content rotation)
+- lastItem: israel-horseback-riding (P2, S, seo-content+monetization) → 5ad7de3
+- lastResult: SHIPPED — /israel-horseback-riding guide; 426 pages (+1); 540/540 e2e+a11y pass; CI in_progress at state-write (consistent prior pattern → success).
+- nextRotationCategory: 253%5==3 → BUILD (tools rotation)
 - higgsfieldSpent: 0
-- updatedAt: 2026-07-02
+- updatedAt: 2026-07-03
 - branch context: work on master; feature work on auto/<slug>
+
+Notes: iter 252 BUILD (seo-content) — israel-horseback-riding:
+  Picked top P2, S seo-content+monetization item (confirmed in BACKLOG twice via iter110 + iter250
+  research; both entries now marked SHIPPED below).
+  Content: 4 main riding centres (Vered HaGalil/Upper Galilee est.1961; Habokrim Ranch/Kibbutz
+    Merom Golan; Moshav Ramot/southern Golan; Kibbutz Ein Dor/Jezreel Valley); what to expect on
+    a trail ride; all-levels guidance; Jesus Trail cross-link angle (Galilee Christian pilgrimage
+    overlap); season/planning table (Galilee/Golan vs Negev); weight/age limits (honest);
+    booking advice; getting there (rental car required). 6 FAQs. TourVerdict box.
+  Affiliate CTAs: GYG Galilee riding tours, Viator Israel horse experiences, Booking.com Galilee stays.
+  Cross-links: Footer Essentials (after /hiking-in-israel); israel-adventure-sports end note.
+  Gate: pnpm check 0 errors; build 426 pages (+1); 540/540 e2e+a11y pass. GREEN.
+  Commit: 5ad7de3 on master; pushed to origin; CI in_progress at push time.
+  NEXT: iter 253 = BUILD (253%5==3 → tools rotation).
 
 Notes: iter 251 BUILD (monetization) — israel-stargazing:
   Picked highest-priority P2, S, seo-content+monetization item from iter250 BACKLOG additions.
@@ -48,7 +62,7 @@ Notes: iter 250 RESEARCH — competitor-gap-scan-250:
     /israel-horseback-riding (P2, S): ride-israel.com + 15+ TripAdvisor operators. Vered
       HaGalil (est. 1961, Sea of Galilee views), Habokrim/Kibbutz Merom Golan, Moshav Ramot,
       Kibbutz Ein Dor. Jesus Trail overlap angle. DISTINCT from israel-adventure-sports.md
-      (SHIPPED — horse riding not covered).
+      (SHIPPED — horse riding not covered). → SHIPPED iter252.
     /israel-rooftop-bars-views (P3, S): Competitors: therooftopguide.com/tel-aviv,
       timeout.com, igoogledisrael.com. TLV: Haiku Sky Bar/Poli House/2C Azrieli Tower/SuraMare.
       Jerusalem: Mamilla Hotel/Austrian Hospice (free entry)/Galitzia Roof. Haifa: Dan Carmel.
@@ -103,5 +117,5 @@ Notes: iter 248 BUILD (seo-content) — more-transport-routes:
   NEXT: iter 249 = REVIEW (249%5==4).
 
 Cron b7325b16 hourly @ :17. Loop history: 19 tools + sitemap-lastmod + link-checker(+depth) + i18n
-Phase0/1a/1b/1c/2 Batches1-18(COMPLETE) + 31 review passes + 3 technical (event-schema + meta-trim + locale-links) + 26 EN guides + 4 tools-monetization;
+Phase0/1a/1b/1c/2 Batches1-18(COMPLETE) + 31 review passes + 3 technical (event-schema + meta-trim + locale-links) + 27 EN guides + 4 tools-monetization;
 research iters 5/10/20/30/35/40/45/50/55/60/65/70/75/80/85/90/95/100/105/110/115/120/125/130/135/140/145/150/155/160/165/170/175/180/185/190/195/200/205/210/215/220/225/230/235/240/245/250.

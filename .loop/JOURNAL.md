@@ -4953,3 +4953,19 @@ Ship: committed to master 9c7cb08, pushed. CI in_progress at push time; prior SH
 Prod: CI in_progress at state-write time (consistent prior pattern → success).
 Next: iter 252 = BUILD (252%5==2 → seo-content rotation). Top candidates: israel-horseback-riding
   (P2, S, seo-content+monetization) or israel-birdwatching (P2, M) or wellness-spa (P2, M).
+
+## 2026-07-03 · iter 252 · BUILD (seo-content) · israel-horseback-riding
+What: New /israel-horseback-riding guide — 4 main riding centres (Vered HaGalil/Upper Galilee
+  est.1961; Habokrim Ranch/Kibbutz Merom Golan; Moshav Ramot/southern Golan; Kibbutz Ein Dor/
+  Jezreel Valley). Content: what to expect on a trail ride; all-levels/all-ages guidance;
+  Jesus Trail cross-link (Galilee Christian pilgrimage overlap); season/planning table;
+  weight/age limits (honest framing); rental-car logistics; 6 FAQs. TourVerdict box.
+  Affiliate CTAs: GYG Galilee riding tours, Viator Israel horse experiences, Booking.com Galilee stays.
+  Cross-links: Footer Essentials (after /hiking-in-israel); israel-adventure-sports end note.
+  Note: horseback-riding item appeared twice in BACKLOG (iter110 research + iter250 research);
+  both entries marked SHIPPED.
+Gate: pnpm check 0 errors; build 426 pages (+1); 540/540 e2e+a11y pass. GREEN.
+Ship: committed to master 5ad7de3, pushed. CI in_progress at push; prior SHA 82fefb0 = success.
+Prod: CI in_progress at state-write (consistent prior pattern → success).
+Next: iter 253 = BUILD (253%5==3 → tools rotation). Top candidates: israel-birdwatching (P2, M),
+  wellness-spa (P2, M), hidden-gems (P2, M), or a new tools item from BACKLOG.
