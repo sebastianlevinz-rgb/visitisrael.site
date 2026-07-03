@@ -3334,3 +3334,42 @@ All 6 items verified as non-duplicates via full grep scan of backlog.
 - /israel-olive-harvest (P3, S, seo-content)
 - /hanukkah-in-israel (P3, S, seo-content)
 - /lag-baomer-israel (P3, S, seo-content)
+
+## iter270 research — 2026-07-03 — competitor-gap-scan-270
+
+**Mode:** RESEARCH (270%5==0)
+
+**Sites scanned / searches conducted:**
+- touristisrael.com (2026 content, airport guide, wine/food, coexistence sites)
+- timeout.com/israel (live music, bars, street art, wine bars)
+- secrettelaviv.com (wine bars, street art, nightlife)
+- israel21c.org (jazz, innovation, multicultural)
+- israelfishingtours.com + herzliyamarina.co.il (sport fishing)
+- israelidairy.com + galilee-experience.com (cheese/dairy)
+- neveshalom.org / peaceisrael.org (coexistence tourism)
+- traveler forums: TripAdvisor Israel 2026, reddit.com/r/Israel travel (airport sherut status)
+- ben-gurion-airport.co.il (current transport options)
+- kavim.co.il / egged.co.il (public transport verification attempt)
+- holafly.com, nextleveloftravel.com (practical 2026 tips)
+- lonelyplanet.com/israel (current coverage gaps)
+- roughguides.com/israel (format comparison)
+- nomadicmatt.com (road trip, best things to see — 403 on direct fetch)
+- thebrokebackpacker.com (budget, hostels — searched)
+- viator.com/getyourguide.com (fishing charters, wine tours)
+- akko.muni.il, haifa.gov.il (multicultural tourism pages)
+
+**Key findings:**
+1. Backlog is extremely saturated at 183+ P1-P3 ready items after 270 iterations. Nearly all major Israel travel content gaps are documented. Primary value of research at this stage = finding niche/long-tail angles and verifying content accuracy.
+2. Urban wine bars guide is a genuine gap — competitors (timeout.com/israel, secrettelaviv.com) have dedicated wine bar content; our site has winery/trail guides but no urban wine-by-glass guide.
+3. Sport fishing is underserved — Eilat Marina has active fishing tourism; Herzliya Marina is largest Mediterranean charter hub; Sea of Galilee fishing with INPA license is a documented tourist activity.
+4. Artisan cheese/dairy tourism is a real niche — Israeli dairy is internationally recognized; Kibbutz dairies offer farm visits; Chag HaHalav (dairy festival) is an annual event not yet documented.
+5. Ben Gurion Airport sherut service accuracy concern: ben-gurion-airport-transfers.md FAQ states sheruts run "day and night" but 2025-2026 traveler reports suggest Jerusalem/Haifa shared taxi service from BGA may be discontinued or severely reduced. Requires verification and update (flagged as P2 content-update).
+6. Jewish-Arab coexistence tourism is an underserved editorial niche — Neve Shalom, Haifa "Holiday of Holidays", Akko Fringe Theater are genuine competitor coverage gaps.
+7. Confirmed already-covered (de-duped): craft beer (SHIPPED iter236), tel-aviv-street-art (iter125, ready), visa-extension (iter175, ready), military heritage (iter175, ready), film/TV tourism (iter50, ready), birdwatching (iter50, ready), digital nomad (iter30, ready), photography spots (iter30, ready), accessible travel (iter30, ready), day-trips-from-eilat (iter175, ready), monasteries circuit (iter230, ready), wildflowers (iter_unknown, ready), israel-music-guide (iter225, ready), honeymooners (iter20, ready), india-to-israel (iter230, ready).
+
+**Net-new BACKLOG items added (5):**
+- /israel-wine-bars (P3, seo-content+monetization, S)
+- /israel-fishing-guide (P3, seo-content, S)
+- /israel-cheese-dairy-guide (P3, seo-content, S)
+- ben-gurion-transfers-2026-update (P2, technical/content-update, S)
+- /israel-coexistence-guide (P3, seo-content, S)

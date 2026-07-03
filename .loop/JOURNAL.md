@@ -5274,3 +5274,30 @@ Gate: pnpm check 0 errors · build 436 pages · 556/556 e2e+a11y pass.
 Ship: commit d7801a9 on master; pushed to origin/master; branch auto/review-269-defects deleted.
 Prod: CI in_progress at push time (prior iter268 run d7801a9 consistent healthy pattern).
 NEXT: iter 270 = BUILD (270%5==0 → RESEARCH; but 270%5==0 → actually 270/5=54 exactly → RESEARCH mode).
+
+## 2026-07-03T18:45Z · iter 270 · RESEARCH · competitor-gap-scan-270
+
+Mode: RESEARCH (270%5==0). No code changed. No gate run. No merge.
+
+Scanned: touristisrael.com, timeout.com/israel, secrettelaviv.com, israel21c.org, neveshalom.org,
+herzliyamarina.co.il, israelidairy.com, traveler forums (TripAdvisor/reddit — BGA sherut 2026
+status), galilee-experience.com, peaceisrael.org, akko.muni.il, haifa.gov.il/tourism.
+
+Backlog saturation: 183+ P1-P3 ready items after 270 iterations. Most major Israel travel content
+gaps documented. De-duped 15+ candidates confirmed already present (craft beer SHIPPED, street art
+iter125, visa-extension iter175, military-heritage iter175, film/TV iter50, birdwatching iter50,
+digital-nomad iter30, photography iter30, accessible-travel iter30, day-trips-from-eilat iter175,
+monasteries iter230, wildflowers ready, music-guide iter225, honeymooners iter20, india-to-israel iter230).
+
+5 net-new items added to BACKLOG + COMPETITORS.md updated:
+  (1) /israel-wine-bars (P3, S) — urban wine-by-glass culture, TLV + Jerusalem; distinct from winery-tour guides.
+  (2) /israel-fishing-guide (P3, S) — sport fishing: Mediterranean charters, Red Sea Eilat, Sea of Galilee INPA permits.
+  (3) /israel-cheese-dairy-guide (P3, S) — artisan cheese farms, kibbutz dairies, Chag HaHalav festival.
+  (4) ben-gurion-transfers-2026-update (P2, S) — content accuracy flag: review sherut service section in
+      ben-gurion-airport-transfers.md (2026 reports suggest Jerusalem/Haifa sherut may be discontinued).
+  (5) /israel-coexistence-guide (P3, S) — Jewish-Arab multicultural tourism: Neve Shalom, Haifa Holiday of
+      Holidays, Akko Fringe Theater, Jisr az-Zarqa; honest editorial framing required.
+
+Gate: N/A (research only). Ship: N/A. Prod: N/A.
+State: iter bumped to 270, RESEARCH, COMPETITORS+BACKLOG updated, STATE+JOURNAL updated and committed.
+NEXT: iter 271 = BUILD (271%5==1 → monetization rotation — pick highest-priority monetization item from backlog).
