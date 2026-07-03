@@ -162,7 +162,7 @@ If your budget allows it, yes. The case for staying one or two nights:
 - **Spa access** — most Ein Bokek spa hotels include access to mineral pools, saline pools at various concentrations, Dead Sea mud wraps and other treatments. These are genuinely pleasant and most visitors say the spa is as memorable as the outdoor float.
 - **Unhurried time** — a day-tripper has two to three hours at the water; an overnight guest can float at their leisure across two mornings and one long afternoon.
 
-Ein Bokek has options across a range of budgets: mid-range resort hotels with pool access, and higher-end spa hotels with full treatment programmes. Book earlier than usual for school holiday periods (especially Passover and Sukkot) when the resort strip fills weeks in advance. For specific hotel picks at each price tier, seasonal pricing and booking tips, see the [Dead Sea hotels guide](/dead-sea-hotels-guide).
+Ein Bokek has options across a range of budgets: mid-range resort hotels with pool access, and higher-end spa hotels with full treatment programmes. Book earlier than usual for school holiday periods (especially Passover and Sukkot) when the resort strip fills weeks in advance. For specific hotel picks at each price tier, seasonal pricing and booking tips, see the [Dead Sea hotels guide](/dead-sea-hotels-guide). For a broader overview of the Dead Sea wellness experience alongside Tiberias hot springs and hammam traditions elsewhere in Israel, see the [Israel wellness and spa guide](/israel-wellness-spa).
 
 ---
 

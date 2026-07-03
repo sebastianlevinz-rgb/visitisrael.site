@@ -295,6 +295,7 @@ const ROUTES = [
   '/best-hotels-tel-aviv',
   '/dead-sea-hotels-guide',
   '/best-beaches-israel',
+  '/israel-wellness-spa',
 ];
 
 for (const route of ROUTES) {

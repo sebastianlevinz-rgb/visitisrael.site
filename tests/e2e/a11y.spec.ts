@@ -177,6 +177,7 @@ const ROUTES = [
   '/israel-experience-finder',
   '/search',
   '/404',
+  '/israel-wellness-spa',
 ];
 
 for (const route of ROUTES) {
