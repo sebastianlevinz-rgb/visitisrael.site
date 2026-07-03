@@ -5050,3 +5050,18 @@ Merge SHA: 979c59f; pushed to origin/master.
 Prod: CI in_progress at push (consistent prior pattern; latest completed run = success).
 Next: iter 258 = BUILD (258%5==3 → tools rotation; tools depleted → fall-through seo-content;
   next item: megiddo-jezreel-valley-guide P2 M).
+
+## 2026-07-03 · iter 258 · BUILD (seo-content+monetization; tools depleted → fall-through) · megiddo-jezreel-valley-guide
+What: New /megiddo-jezreel-valley-guide — Tel Megiddo (Armageddon) & Jezreel Valley complete visitor guide.
+  UNESCO WHS 2005 ("Biblical Tels"). Armageddon etymology hook. 26 occupation strata (4500–600 BCE).
+  Canaanite temples, Iron Age stables (Solomon/Ahab attribution debate framed honestly), Ahab's
+  walk-through water tunnel (36m shaft + 70m gallery), summit panorama (Jezreel Valley battle history:
+  Thutmose III 1457 BCE → Deborah → Gideon → King Josiah). Visitor centre (ivory, cuneiform, scarabs).
+  Jezreel Valley circuit: Gan HaShlosha warm pools + Beit Alfa Byzantine zodiac mosaic + optional Mount
+  Tabor. Logistics: car essential; driving table; INPA NP Pass valid; admission ~₪29–35 (inpa.gov.il).
+  Affiliate CTAs: GYG Megiddo tour + Viator Lower Galilee day trip + Booking.com Haifa hotels.
+  Cross-links: day-trips-from-haifa (bullet upgraded + circuit mention), Footer (+1 link).
+Gate: pnpm check 0 errors; build 430 pages (+1); 544/544 e2e+a11y pass. GREEN.
+Merge SHA: 24cd8f1; pushed to origin/master.
+Prod: CI in_progress at push (consistent prior pattern → expected success).
+Next: iter 259 = REVIEW (259%5==4 → review pass on recent shipped guides).

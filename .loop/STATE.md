@@ -1,13 +1,43 @@
 # LOOP STATE
 
-- iteration: 257
-- lastMode: BUILD (seo-content rotation)
-- lastItem: tel-aviv-coffee-guide — Tel Aviv specialty coffee & café culture guide
-- lastResult: SHIPPED 979c59f — gate GREEN (0 errors; 429 pages +1; 544/544 e2e+a11y pass); CI in_progress at push
-- nextRotationCategory: 258%5==3 → BUILD(tools) — but tools category depleted; expect fall-through to seo-content
+- iteration: 258
+- lastMode: BUILD (seo-content+monetization; tools rotation depleted → fall-through)
+- lastItem: megiddo-jezreel-valley-guide — Tel Megiddo (Armageddon) & Jezreel Valley visitor guide
+- lastResult: SHIPPED 24cd8f1 — gate GREEN (0 errors; 430 pages +1; 544/544 e2e+a11y pass); CI in_progress at push
+- nextRotationCategory: 259%5==4 → REVIEW
 - higgsfieldSpent: 0
 - updatedAt: 2026-07-03
 - branch context: work on master; feature work on auto/<slug>
+
+Notes: iter 258 BUILD (seo-content+monetization; tools depleted → fall-through) — megiddo-jezreel-valley-guide:
+  Picked megiddo-jezreel-valley-guide (P2, M) as top item per STATE forecast from iter257:
+  UNESCO WHS 2005 ("Biblical Tels"); "Armageddon" name recognition drives global search volume
+  from Christian pilgrimage, secular history, and pop-culture traveler segments; zero standalone
+  guide on site; confirmed distinct from day-trips-from-haifa (Megiddo = 1 bullet among 8 day trips)
+  and israel-hidden-gems hub (Megiddo listed as single bullet among 15+ items).
+  Content: Armageddon etymology (Har Megiddo → Greek → Revelation 16:16); 26 occupation strata
+    (4500–600 BCE); Canaanite temples (~3000 BCE); Iron Age stables (honest Solomon/Ahab attribution
+    debate — framed as "traditionally attributed to Solomon; current scholarly consensus leans Omride/
+    Ahab period"); Ahab's Water Tunnel (36m shaft + 70m horizontal gallery, walk-through);
+    summit panorama + Jezreel Valley battle history (Thutmose III 1457 BCE — "among earliest
+    reliably documented battles"; Deborah/Sisera; Gideon; King Josiah); visitor centre (ivory,
+    cuneiform, scarabs). Jezreel Valley circuit: Gan HaShlosha/Sachne warm pools (28°C) + Beit Alfa
+    Byzantine zodiac mosaic synagogue + optional Mount Tabor. Logistics: car essential; driving
+    table (Haifa 45 min, TLV 1.5h, Nazareth 40 min, Jerusalem 2h); INPA NP Pass valid; admission
+    approx ₪29–35 (directed to inpa.gov.il for verification).
+  heroImage: /images/regions/galilee/hero.jpg (confirmed exists; Galilee region hero).
+  Affiliate CTAs: GYG "Tel Megiddo tour from Tel Aviv" + Viator "Lower Galilee day trip: Megiddo +
+    Nazareth" + Booking.com Haifa hotels.
+  Cross-links: day-trips-from-haifa (Megiddo bullet upgraded to /megiddo-jezreel-valley-guide link
+    + Jezreel circuit mention); Footer Guides column (+1 link); in body: /day-trips-from-haifa,
+    /israel-national-parks-pass, /galilee-christian-sites-circuit, /nazareth-travel-guide.
+  HONESTY: Thutmose III framing follows mainstream consensus; Solomon/Ahab debate clearly flagged;
+    prices labeled approximate; inpa.gov.il cited for verification; "Armageddon" theological framing
+    stated explicitly as Christian apocalyptic tradition, not historical prediction.
+  Gate: pnpm check 0 errors; build 430 pages (+1 from 429); 544/544 e2e+a11y pass. GREEN.
+  Ship: commit 24cd8f1 on master; pushed to origin/master; CI in_progress at push (consistent
+    prior pattern → expected success).
+  NEXT: iter 259 = REVIEW (259%5==4 → REVIEW pass on recent shipped guides).
 
 Notes: iter 257 BUILD (seo-content rotation) — tel-aviv-coffee-guide:
   Picked tel-aviv-coffee-guide (P2, S) as top seo-content item: TLV third-wave specialty coffee
@@ -54,7 +84,7 @@ Notes: iter 255 RESEARCH — competitor-gap-scan-255:
   6 genuinely new BACKLOG items added:
     /tel-aviv-coffee-guide (P2, S) → SHIPPED iter257
     /bahai-world-center-guide (P2, S) → SHIPPED iter256
-    /megiddo-jezreel-valley-guide (P2, M) — UNESCO WHS 2005; "Armageddon" name recognition
+    /megiddo-jezreel-valley-guide (P2, M) → SHIPPED iter258
     /israel-night-hiking (P3, S) — summer adaptation; hike-israel.com competitor page
     /israel-camping-guide (P3, S) — ~40 INPA campgrounds; Shvil Yisrael through-hiker audience
     /israel-stand-up-paddle (P3, S) — Sea of Galilee, Mediterranean, Red Sea SUP
