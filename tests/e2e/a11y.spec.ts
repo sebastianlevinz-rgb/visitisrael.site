@@ -149,6 +149,7 @@ const ROUTES = [
   '/day-trips-from-haifa',
   '/israel-evening-activities',
   '/israel-stargazing',
+  '/israel-horseback-riding',
   '/1-day-jerusalem-itinerary',
   '/jerusalem-old-city-walking-tour',
   '/fr/1-day-jerusalem-itinerary',

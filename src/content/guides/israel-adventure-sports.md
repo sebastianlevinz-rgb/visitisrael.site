@@ -182,4 +182,4 @@ Israel has growing dedicated infrastructure for both road cycling and trail MTB:
 
 Bring adequate water for any desert activity — Israeli desert heat and dry air dehydrate faster than most visitors expect. Carry at least 1.5–2 litres per person for a half-day outdoor excursion, and more for full-day desert trips.
 
-For full hiking routes, including the Israel National Trail and the Jesus Trail, see our [hiking in Israel guide](/hiking-in-israel). For night-time adventure in the Negev, see the [Israel stargazing guide](/israel-stargazing) — Mitzpe Ramon's dark-sky park delivers a crater-rim experience that pairs naturally with a day of canyoning or ATV riding.
+For full hiking routes, including the Israel National Trail and the Jesus Trail, see our [hiking in Israel guide](/hiking-in-israel). For night-time adventure in the Negev, see the [Israel stargazing guide](/israel-stargazing) — Mitzpe Ramon's dark-sky park delivers a crater-rim experience that pairs naturally with a day of canyoning or ATV riding. For trail riding on horseback through the Galilee and Golan Heights, see the [Israel horseback riding guide](/israel-horseback-riding).
