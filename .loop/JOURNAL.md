@@ -5220,3 +5220,22 @@ Gate: pnpm check 0 errors · build 434 pages (+1) · e2e 552/552 pass (+2 new te
 Ship: commit 84b45fd on master; pushed to origin/master; branch auto/israel-rooftop-bars deleted.
 Prod: CI in_progress at push time (consistent prior pattern → expected success).
 NEXT: iter 267 = BUILD (267%5==2 → seo-content rotation).
+
+## 2026-07-03 · iter 267 · BUILD (seo-content) · israel-travel-tips
+What: new /israel-travel-tips — "20 Things to Know Before Visiting Israel" (P2, seo-content, M).
+  Top-of-funnel listicle distinct from first-time-in-israel.md (planning framework). 20 numbered
+  tips in 6 sections: entry/docs (ETA-IL pre-flight, passport stamp question, health insurance),
+  money/connectivity (ATM/DCC decline tip, cards accepted everywhere, local SIM/eSIM), Shabbat
+  reality (transport timing, Jerusalem vs TLV Friday night, Muslim/Christian quarter open on Shabbat),
+  religious sites/dress code (scarf tip, Temple Mount restricted hours, bazaar haggling vs shops),
+  transport (Rav-Kav card, rental car West Bank insurance void, Waze tip), health/food/culture
+  (tap water safe, kosher restaurant dynamics, address imprecision, Israeli directness). 2 mistakes
+  to avoid: August heat + "don't skip Jaffa". Quick-reference table. FAQ JSON-LD (7 questions).
+  Booking.com (Jerusalem) + GYG (first-timer tours) affiliate CTAs. Dense internal links to 14
+  existing guides. Wired: footer Plan column + first-time-in-israel.md cross-link (adds 2 lines).
+Startup: local master 50 commits behind origin (cloud fresh-clone) → git reset --hard origin/master
+  to 2c022f9 (iter266 state). CI for 2c022f9 (iter266 docs): CONFIRMED SUCCESS.
+Gate: pnpm check 0 errors (118 files) · build 435 pages (+1 from 434) · 554/554 e2e+a11y pass (+2).
+Ship: commit d5c66ef on master; pushed to origin/master; branch auto/israel-travel-tips deleted.
+Prod: CI in_progress at push time (consistent prior pattern; iter266 run confirms pipeline healthy).
+NEXT: iter 268 = BUILD (268%5==3 → tools rotation).
