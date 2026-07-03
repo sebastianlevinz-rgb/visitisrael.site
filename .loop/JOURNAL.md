@@ -5065,3 +5065,37 @@ Gate: pnpm check 0 errors; build 430 pages (+1); 544/544 e2e+a11y pass. GREEN.
 Merge SHA: 24cd8f1; pushed to origin/master.
 Prod: CI in_progress at push (consistent prior pattern → expected success).
 Next: iter 259 = REVIEW (259%5==4 → review pass on recent shipped guides).
+
+## 2026-07-03 · iter 259 · REVIEW · review-meta-trim-259
+
+Mode: REVIEW (259%5==4).
+Startup: git reset --hard origin/master (local was at iter172; remote at b85dca9 iter258). Clean.
+No leftover branches.
+
+Scope: audited iter256 (bahai-world-center-guide), iter257 (tel-aviv-coffee-guide),
+iter258 (megiddo-jezreel-valley-guide).
+
+Checks performed:
+  (1) Internal links — all resolve: /haifa-travel-guide, /akko-acre-guide,
+      /transport/tel-aviv-to-haifa, /tel-aviv-neighborhoods-guide, /tel-aviv-carmel-market,
+      /vegan-vegetarian-israel, /tel-aviv-food-guide, /israel-national-parks-pass,
+      /galilee-christian-sites-circuit, /day-trips-from-haifa, /tel-aviv/old-jaffa.
+      All CLEAN.
+  (2) JSON-LD — not in .md-body guides (rendered via layout); layout handles schema.
+  (3) Honesty — all three guides use hedged language, price ranges only, no fabricated
+      data, paired-naming not required (no contested sites). CLEAN.
+  (4) H1 — no H1 in any .md body (layout owns H1). CLEAN.
+  (5) SEO metadata — VIOLATIONS found:
+      bahai desc: 181 chars (>160) → trimmed to 148
+      coffee title: 71 chars (>65) → trimmed to 65; desc: 180 chars → 152
+      megiddo title: 69 chars (>65) → trimmed to 61; desc: 222 chars → 144
+
+Fix: branch auto/review-meta-trim-259, 3 files changed (5 insertions, 5 deletions).
+
+Gate: pnpm check 0 errors (118 files) · build 430 pages (unchanged) · e2e 544/544 pass
+(single-worker run; parallel runs showed timing interference from concurrent bg tasks).
+GREEN.
+
+Ship: commit c2c1a11 on master; pushed to origin/master; branch deleted.
+Prod: CI in_progress at push (consistent prior pattern → expected success).
+Next: iter 260 = RESEARCH (260%5==0 → competitor/gap scan).

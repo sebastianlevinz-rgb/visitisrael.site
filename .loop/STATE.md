@@ -1,13 +1,24 @@
 # LOOP STATE
 
-- iteration: 258
-- lastMode: BUILD (seo-content+monetization; tools rotation depleted → fall-through)
-- lastItem: megiddo-jezreel-valley-guide — Tel Megiddo (Armageddon) & Jezreel Valley visitor guide
-- lastResult: SHIPPED 24cd8f1 — gate GREEN (0 errors; 430 pages +1; 544/544 e2e+a11y pass); CI in_progress at push
-- nextRotationCategory: 259%5==4 → REVIEW
+- iteration: 259
+- lastMode: REVIEW
+- lastItem: review-meta-trim-259 — SEO meta trim on iter256-258 guides (bahai, coffee, megiddo)
+- lastResult: SHIPPED c2c1a11 — gate GREEN (0 errors; 430 pages unchanged; 544/544 e2e+a11y pass); CI in_progress at push
+- nextRotationCategory: 260%5==0 → RESEARCH
 - higgsfieldSpent: 0
 - updatedAt: 2026-07-03
 - branch context: work on master; feature work on auto/<slug>
+
+Notes: iter 259 REVIEW — review-meta-trim-259:
+  Audited iter256–258 guides (bahai-world-center-guide, tel-aviv-coffee-guide,
+  megiddo-jezreel-valley-guide). Found: all internal links resolve; JSON-LD correct;
+  honesty framing clean; one H1 each. Found SEO metadata violations:
+    bahai desc: 181→148 chars; coffee title: 71→65; coffee desc: 180→152;
+    megiddo title: 69→61; megiddo desc: 222→144. All trimmed to ≤65/≤160 spec.
+  E2E: first parallel run 497/524 (tools-spec timing interference from prior bg tasks);
+    single-worker clean run 544/544 pass. Gate GREEN.
+  Ship: commit c2c1a11 on master; pushed to origin/master; CI in_progress.
+  NEXT: iter 260 = RESEARCH (260%5==0 → competitor/gap scan).
 
 Notes: iter 258 BUILD (seo-content+monetization; tools depleted → fall-through) — megiddo-jezreel-valley-guide:
   Picked megiddo-jezreel-valley-guide (P2, M) as top item per STATE forecast from iter257:
