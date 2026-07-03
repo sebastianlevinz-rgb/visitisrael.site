@@ -52,6 +52,7 @@ A guided **food tour** (above) is the fastest way to eat the highlights with con
 - **Shakshuka** — the brunch staple, eggs poached in spiced tomato.
 - **Seafood & mezze** — fresh fish and small plates, especially around the port and Jaffa.
 - **Bakeries & vegan** — world-class baked goods, and one of the planet's best vegan scenes. See the dedicated [vegan & vegetarian Israel guide](/vegan-vegetarian-israel) for plant-based restaurant picks across Tel Aviv and the country.
+- **Specialty coffee** — Tel Aviv has an internationally acclaimed third-wave coffee scene alongside the ancient tradition of botz (unfiltered Turkish-style coffee). See the [Tel Aviv specialty coffee guide](/tel-aviv-coffee-guide) for roasters, a neighbourhood café circuit and practical café culture tips.
 
 ## Where to eat by neighbourhood
 
