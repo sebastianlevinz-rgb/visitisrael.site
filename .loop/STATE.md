@@ -1,13 +1,40 @@
 # LOOP STATE
 
-- iteration: 254
-- lastMode: REVIEW
-- lastItem: review-desc-trim-254 — stargazing desc 161→157, horseback desc 164→160, horseback title 67→56 → e507147
-- lastResult: SHIPPED — 3 meta over-limit values trimmed; 427 pages; 542/542 e2e+a11y pass; CI in_progress at state-write (consistent prior pattern → success).
-- nextRotationCategory: 255%5==0 → RESEARCH
+- iteration: 255
+- lastMode: RESEARCH
+- lastItem: competitor-gap-scan-255 — 6 new BACKLOG items (coffee guide, Bahá'í guide, Megiddo guide, night hiking, camping, SUP)
+- lastResult: NO-SHIP (research mode) — 6 net-new BACKLOG items appended; no gate; .loop/ files committed to master
+- nextRotationCategory: 256%5==1 → BUILD(monetization)
 - higgsfieldSpent: 0
 - updatedAt: 2026-07-03
 - branch context: work on master; feature work on auto/<slug>
+
+Notes: iter 255 RESEARCH — competitor-gap-scan-255:
+  Sites scanned: touristisrael.com (coffee + Bahá'í + Megiddo), bahai.org.il (official guide),
+    coffeescouts.com (TLV specialty coffee scene), secrettelaviv.com/coffee, inpa.gov.il/megiddo,
+    beinharimtours.com/megiddo, hike-israel.com/night-hiking, inpa.gov.il/camping,
+    israeltrekking.com, israelnationaltrail.com, watersportisrael.com,
+    tripadvisor.com/Israel-water-sports, redsea-divers.com, whc.unesco.org (UNESCO WHS citations).
+  De-dup: wine-tourism (6+ backlog entries), cycling (backlog iter50), druze (SHIPPED iter193),
+    craft-beer (SHIPPED iter236), street-art guide (P2 backlog), surfing (P2 backlog),
+    glamping (P2 backlog), campervan (P2 backlog), waterfalls (partially SHIPPED water-hiking-israel),
+    haifa-food (P3 backlog), arab-culture guide (P2 backlog),
+    golan-heights-guide (CONFIRMED SHIPPED — exists in src/content/guides/).
+  6 genuinely new BACKLOG items added:
+    /tel-aviv-coffee-guide (P2, S) — TLV third-wave specialty coffee scene; tourist Israel competitor page;
+      zero standalone guide on site; distinct from tel-aviv-food-guide
+    /bahai-world-center-guide (P2, S) — ~1M visitors/year; UNESCO WHS 2008; zero dedicated guide;
+      haifa-travel-guide + haifa-neighborhoods-guide + akko-acre-guide all mention briefly only
+    /megiddo-jezreel-valley-guide (P2, M) — UNESCO WHS 2005; "Armageddon" name recognition;
+      zero standalone guide; only 1-of-5 stop in day-trips-from-haifa
+    /israel-night-hiking (P3, S) — documented Israeli summer adaptation (40°C+ days);
+      hike-israel.com competitor page; zero night hiking content on site
+    /israel-camping-guide (P3, S) — ~40 INPA campgrounds; Shvil Yisrael through-hiker audience;
+      distinct from glamping-israel + israel-campervan both in backlog
+    /israel-stand-up-paddle (P3, S) — Sea of Galilee, Mediterranean, Red Sea SUP;
+      watersportisrael.com competitor; zero SUP content on site
+  No gate (research mode). .loop/ files committed to master.
+  NEXT: iter 256 = BUILD (256%5==1 → monetization rotation).
 
 Notes: iter 254 REVIEW — review-desc-trim-254:
   Audited iter251 (israel-stargazing), iter252 (israel-horseback-riding), and

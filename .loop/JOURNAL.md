@@ -5000,3 +5000,14 @@ Fix: trimmed 3 values (stargazing desc 161→157, horseback desc 164→160, hors
 Gate: pnpm check 0 errors; build 427 pages; 542/542 e2e+a11y pass. GREEN.
 Merge SHA: e507147. CI in_progress at push (consistent prior pattern → success).
 Next: iter 255 = RESEARCH (255%5==0).
+
+## 2026-07-03 · iter 255 · RESEARCH · competitor-gap-scan-255
+What: Web-research competitor gaps; de-duped across 624-line BACKLOG, DONE.md, and src/content/guides/.
+Sites: touristisrael.com (coffee, Bahá'í, Megiddo), bahai.org.il, inpa.gov.il (Megiddo + camping),
+  hike-israel.com (night hiking), watersportisrael.com, coffeescouts.com, israeltrekking.com,
+  israelnationaltrail.com, whc.unesco.org (UNESCO WHS citations), redsea-divers.com.
+Found 6 net-new gaps: tel-aviv-coffee-guide (P2,S), bahai-world-center-guide (P2,S),
+  megiddo-jezreel-valley-guide (P2,M), israel-night-hiking (P3,S),
+  israel-camping-guide (P3,S), israel-stand-up-paddle (P3,S).
+No gate (research mode). .loop/ files updated and committed to master.
+Next: iter 256 = BUILD (256%5==1 → monetization rotation).

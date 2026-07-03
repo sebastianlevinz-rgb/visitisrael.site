@@ -3209,3 +3209,46 @@ Austrian Hospice free entry = underreported differentiator. Zero backlog entry p
 - /israel-stargazing (P2, S, seo-content+monetization)
 - /israel-horseback-riding (P2, S, seo-content+monetization)
 - /israel-rooftop-bars-views (P3, S, seo-content)
+
+---
+
+### 2026-07-03 · iter 255 · competitor gap scan
+
+**Sites scanned:**
+touristisrael.com (coffee + Bahá'í + Megiddo pages), bahai.org.il (official Bahá'í World Centre English guide), coffeescouts.com/tel-aviv (TLV specialty coffee listings), secrettelaviv.com/food-and-drink/coffee, nahatcoffee.com, cafelix.co.il, inpa.gov.il/megiddo (Megiddo national park official), touristisrael.com/megiddo, beinharimtours.com/megiddo, christiansintheland.com/megiddo-armageddon, whc.unesco.org (UNESCO WHS — Bahá'í list/1220 + Biblical Tels list/1108), hike-israel.com/night-hiking-in-israel, timeout.com/israel/things-to-do/summer-night-activities, israelhike.com, inpa.gov.il/camping (official INPA campsite reservation), israeltrekking.com/camping-in-israel, campinginisrael.com, israelnationaltrail.com, watersportisrael.com, tripadvisor.com/Attractions-g293983-Activities-c61-Israel (watersports category), redsea-divers.com.
+
+**Key findings:**
+
+- **touristisrael.com/best-coffee-in-tel-aviv**: Dedicated "Best Coffee in Tel Aviv" page. Tel Aviv's third-wave specialty coffee scene is internationally recognized (~60+ independent roasters and cafés); Israeli baristas have placed at European Championship of Coffee competitions. Our site has zero dedicated café/specialty-coffee content — tel-aviv-food-guide covers restaurants broadly without coffee depth; Israeli craft beer guide (SHIPPED iter236) confirms niche food/drink guides perform well and convert affiliate clicks.
+
+- **bahai.org.il / lonelyplanet.com / BBC Travel**: Bahá'í World Centre receives approximately 1 million visitors annually across the Haifa + Akko sites combined. UNESCO World Heritage Site 2008 (Haifa Terraced Gardens). Our site has zero dedicated Bahá'í World Centre guide — haifa-travel-guide.md mentions the Gardens in 2 lines; haifa-neighborhoods-guide.md (SHIPPED iter223) covers them briefly as a neighbourhood landmark; akko-acre-guide.md mentions Bahjí in 1 line. Multiple competitors (lonelyplanet, bbc.com/travel, seetheholyland.net, gpsmycity.com) have full standalone guides; zero competition from us. Key visitor information gap: upper-terrace access requires advance registration at bahai.org.il (most travel sites don't clarify this); shrine interiors are for Bahá'ís only (widely misunderstood).
+
+- **inpa.gov.il/megiddo + touristisrael.com/megiddo + beinharimtours.com**: Tel Megiddo (Armageddon) is a UNESCO World Heritage Site (2005, Biblical Tels) with enormous global name recognition via the Book of Revelation. Multiple competitors have full standalone guides; we only mention Megiddo in passing in day-trips-from-haifa.md and as a bullet in the hidden-gems hub. The "Armageddon" SEO value is substantial — religious travelers, history travelers, and secular tourists all search for it. The Jezreel Valley circuit (Megiddo + Gan HaShlosha warm pools + Beit Alfa mosaic + Mount Tabor) is a natural standalone day-itinerary product.
+
+- **hike-israel.com/night-hiking-in-israel**: Night hiking is a documented Israeli summer travel adaptation — daytime 40°C+ in July–August makes day hiking dangerous; night temperatures are ideal. hike-israel.com has a dedicated article. INPA promotes specific summer night trail openings annually. Our site has zero night hiking content — hiking-in-israel.md is entirely day-oriented; israel-evening-activities.md covers cultural activities only.
+
+- **inpa.gov.il/camping + israeltrekking.com**: INPA operates ~40 designated campgrounds across national parks. The Israel National Trail (Shvil Yisrael, 1,100km) generates an established international through-hiking audience. Our site has zero standalone tent camping guide — glamping-israel (P2 backlog) targets luxury camping; israel-campervan (P2 backlog) targets motorhome travelers. INPA tent camping = backpacker/hiking audience; genuinely distinct.
+
+- **watersportisrael.com + tripadvisor.com/Israel-water-sports + redsea-divers.com**: Stand-up paddleboarding has grown significantly at Sea of Galilee, Mediterranean beaches (Gordon/Netanya/Dor Beach), and Red Sea Eilat. Our israel-adventure-sports.md mentions SUP in a single passing line. israel-surfing (P2 backlog) covers Mediterranean surfing on breaking waves — SUP is a distinct calmer-water activity targeting a different audience.
+
+**De-duplicated and confirmed already covered (not added to BACKLOG):**
+- Wine tourism: 6+ entries (israel-wine-regions, judean-hills-wine-trail, golan-heights-wineries, rosh-pina-guide, zichron-yaakov-guide, galilee-food-guide) in backlog or SHIPPED
+- Cycling: backlog iter50 confirmed via iter210 de-dup narrative
+- Druze villages: SHIPPED iter193 (druze-villages-carmel.md)
+- Craft beer / brewery: SHIPPED iter236
+- Tel Aviv street art: /tel-aviv-street-art P2 in backlog
+- Israel surfing: /israel-surfing P2 in backlog
+- Glamping / eco-lodges: glamping-israel P2 in backlog
+- Campervan: israel-campervan P2 in backlog
+- Waterfalls (Banias): partially covered in water-hiking-israel (SHIPPED iter67)
+- Haifa food guide: P3 in backlog
+- Arab-Israeli culture guide: P2 in backlog
+- Golan Heights: CONFIRMED SHIPPED — src/content/guides/golan-heights-guide.md exists in production
+
+**Net-new items added this iteration:** 6
+- /tel-aviv-coffee-guide (P2, S, seo-content+monetization)
+- /bahai-world-center-guide (P2, S, seo-content+monetization)
+- /megiddo-jezreel-valley-guide (P2, M, seo-content+monetization)
+- /israel-night-hiking (P3, S, seo-content)
+- /israel-camping-guide (P3, S, seo-content)
+- /israel-stand-up-paddle (P3, S, seo-content)
