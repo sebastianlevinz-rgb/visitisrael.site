@@ -3289,3 +3289,48 @@ touristisrael.com (kibbutz/Purim/Yom Kippur/safari/Wadi Qelt pages), hike-israel
 - /yom-kippur-in-israel (P2, S, seo-content)
 - /ramat-gan-safari-guide (P3, S, seo-content)
 - /negev-wine-route (P3, M, seo-content+monetization)
+
+## 2026-07-03 · iter 265 · competitor gap scan
+
+Sites scanned: touristisrael.com, secrettelaviv.com, timeout.com/israel, worldjewishtravel.org,
+israelwineexp.com, winetourism.com, agritourism-israel resources, viator.com/israel,
+getyourguide.com/israel, igoogledisrael.com, aish.com, chabad.org/israel.
+
+Key findings vs. our content:
+- **Tel Aviv White Night (Laila Lavan)**: touristisrael.com + secrettelaviv.com + timeout.com/israel
+  all have dedicated standalone pages; annual dusk-to-dawn cultural event since 2003, last Thursday
+  of June, 250,000+ attendees; 70+ institutions open free all night (museums, parks, beaches);
+  our events-festivals.md has 1 line only; no standalone guide — CONFIRMED GAP.
+- **Israel wine harvest season tourism**: israelwineexp.com + winetourism.com + Israel Wine Country
+  cover grape harvest Aug-Oct as a dedicated tourism category; HaYovel volunteer harvest (Golan),
+  Domaine du Castel / Margalit / Dalton harvest open days; our wine guides are geography-based
+  only (judean-hills-wine-trail, golan-heights-wineries backlog, negev-wine-route just added);
+  no SEASONAL harvest experience guide exists anywhere on site — CONFIRMED GAP.
+- **Israel hot air balloon tours**: GYG + Viator + touristisrael.com list Galilee dawn balloon
+  flights (Sea of Galilee + Jezreel Valley at first light); annual Galilee Balloon Festival
+  (Rosh Hashanah/Sukkot week); adventure-sports.md mentions balloons in 1 passing line;
+  no standalone guide — CONFIRMED GAP.
+- **Israel olive harvest agrotourism**: agritourism-israel operators + Galilee tourism council
+  promote Oct-Nov olive harvest volunteer/tour experiences; olive oil pressing tours at kibbutz
+  and Arab village farms; related but distinct from wine harvest (different season, different
+  regions, different activity type); no backlog entry existed — CONFIRMED GAP.
+- **Hanukkah in Israel**: touristisrael.com + chabad.org + timeout.com/israel all have standalone
+  Hanukkah Israel pages; Western Wall public menorah lighting (erev Hanukkah, thousands attend,
+  free) is one of Israel's most distinctive public events for diaspora visitors; most recognizable
+  Jewish holiday for non-Jewish tourists globally; traveling-israel-jewish-holidays.md covers in
+  2-3 lines only — CONFIRMED GAP.
+- **Lag BaOmer in Israel**: touristisrael.com has dedicated Lag BaOmer guide; Mount Meron
+  pilgrimage (100,000+ to Rabbi Shimon bar Yochai's tomb, midnight bonfire lighting) = largest
+  annual gathering in Israel; national bonfire tradition across all cities; after 2021 Meron
+  tragedy, mandatory registration system implemented; Safed as safer alternative; traveling-
+  israel-jewish-holidays.md covers in ~2 lines — CONFIRMED GAP.
+
+All 6 items verified as non-duplicates via full grep scan of backlog.
+
+**Net-new items added this iteration:** 6
+- /tel-aviv-white-night (P3, S, seo-content)
+- /israel-wine-harvest-season (P3, S, seo-content+monetization)
+- /israel-hot-air-balloon (P3, S, seo-content+monetization)
+- /israel-olive-harvest (P3, S, seo-content)
+- /hanukkah-in-israel (P3, S, seo-content)
+- /lag-baomer-israel (P3, S, seo-content)

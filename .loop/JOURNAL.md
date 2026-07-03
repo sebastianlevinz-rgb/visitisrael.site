@@ -5196,3 +5196,13 @@ Gate: pnpm check 0 errors · build 433 pages · e2e 550/550 pass (3 new tests gr
 Ship: commit 0687680 on master; pushed to origin/master; branch auto/review-desc-trim-264 deleted.
 Prod: CI in_progress at push time (consistent prior 50+ iteration pattern → expected success).
 NEXT: iter 265 = RESEARCH (265%5==0 → competitor/gap scan).
+
+## 2026-07-03 · iter 265 · RESEARCH · competitor-gap-scan-265
+Sites scanned: touristisrael.com, secrettelaviv.com, timeout.com/israel, worldjewishtravel.org,
+israelwineexp.com, winetourism.com, agritourism-israel resources, viator.com/israel,
+getyourguide.com/israel, igoogledisrael.com, aish.com, chabad.org/israel.
+6 net-new BACKLOG items added: tel-aviv-white-night (P3 S), israel-wine-harvest-season (P3 S),
+israel-hot-air-balloon (P3 S), israel-olive-harvest (P3 S), hanukkah-in-israel (P3 S),
+lag-baomer-israel (P3 S). All confirmed non-duplicates via full grep scan of 645-line backlog.
+COMPETITORS.md updated with iter265 block. No code shipped (RESEARCH mode).
+NEXT: iter 266 = BUILD (266%5==1 → monetization rotation).
