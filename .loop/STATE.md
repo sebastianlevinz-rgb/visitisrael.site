@@ -1,13 +1,29 @@
 # LOOP STATE
 
-- iteration: 273
-- lastMode: BUILD
-- lastItem: sea-of-galilee-boat-tour — new /sea-of-galilee-boat-tour seo-content+monetization guide (commit a0ece75)
-- lastResult: shipped-a0ece75 — gate green (0 check errors, 439 pages, 562/562 e2e+a11y pass); pushed to origin/master; CI in_progress at push (prior run 0a401c6 SUCCESS)
-- nextRotationCategory: 274%5==4 → REVIEW
+- iteration: 274
+- lastMode: REVIEW
+- lastItem: review-seo-meta-274 — SEO meta fixes on 3 iters 271-273 guides (commit 1e698c8)
+- lastResult: shipped-1e698c8 — gate green (0 check errors, 439 pages, 562/562 e2e+a11y pass); pushed to origin/master; CI in_progress at push (prior run d923ac8 SUCCESS)
+- nextRotationCategory: 275%5==0 → RESEARCH
 - higgsfieldSpent: 0
-- updatedAt: 2026-07-03T21:39Z
+- updatedAt: 2026-07-03T22:38Z
 - branch context: work on master; feature work on auto/<slug>
+
+Notes: iter 274 REVIEW — review-seo-meta-274:
+  Mode REVIEW (274%5==4). Reviewed work from iters 270-273.
+  Defects found and fixed: 3 SEO meta overruns:
+    (1) israel-film-tv-tourism title: 66→65 chars (removed " & " between Shtisel and Screen Locations,
+        replaced with ","; no meaning lost)
+    (2) israel-tour-operators-guide desc: 164→131 chars (reworded tail: "so you book with the right
+        operator for your trip" → "and book with the right operator")
+    (3) sea-of-galilee-boat-tour desc: 169→157 chars (removed "the" before "Jesus Boat" and "ancient"
+        before "1st-century" — no meaning lost)
+  No dead links found (21 internal links across 3 guides, all resolve).
+  No missing smoke/a11y spec routes (all 3 pages already covered).
+  Gate: pnpm check 0 errors (118 files) · build 439 pages · 562/562 e2e+a11y pass. GREEN.
+  Ship: commit 1e698c8 on master; pushed to origin/master; CI in_progress at push
+  (prior run d923ac8 SUCCESS confirmed).
+  NEXT: iter 275 = RESEARCH (275%5==0 → competitor gap scan).
 
 Notes: iter 273 BUILD (seo-content+monetization) — sea-of-galilee-boat-tour:
   tools rotation empty (all shipped); fell through technical (all shipped) → seo-content+monetization.

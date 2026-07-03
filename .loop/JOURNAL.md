@@ -5323,3 +5323,14 @@ Gate: pnpm check 0 errors (118 files) · build 439 pages (+1 from 438) · 562/56
 Ship: commit a0ece75 on master; pushed to origin/master; CI in_progress at push (prior run 0a401c6 SUCCESS).
 Prod: CI running; no failure detected; previous run confirmed SUCCESS.
 Next: iter 274 = REVIEW (274%5==4 → review pass on iters 270-273).
+
+## 2026-07-03T22:38Z · iter 274 · REVIEW · review-seo-meta-274
+What: REVIEW pass covering iters 270-273 (RESEARCH/competitor-gap-scan-270, israel-tour-operators-guide, israel-film-tv-tourism, sea-of-galilee-boat-tour). Found 3 SEO meta overruns:
+  (1) israel-film-tv-tourism title 66 chars → trimmed to 65 (removed " & " before Screen Locations, replaced with ",");
+  (2) israel-tour-operators-guide desc 164 chars → 131 (tightened tail copy);
+  (3) sea-of-galilee-boat-tour desc 169 chars → 157 (dropped "the" + "ancient").
+  No dead links, no missing test coverage, no honesty issues found.
+Gate: pnpm check 0 errors (118 files) · build 439 pages · 562/562 e2e+a11y pass. GREEN.
+Ship: commit 1e698c8 on master; pushed to origin/master; CI in_progress at push (prior run d923ac8 SUCCESS).
+Prod: CI running; no failure detected; previous run confirmed SUCCESS.
+Next: iter 275 = RESEARCH (275%5==0 → competitor gap scan).
