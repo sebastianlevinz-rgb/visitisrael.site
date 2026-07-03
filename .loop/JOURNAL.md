@@ -5259,3 +5259,18 @@ Gate: pnpm check 0 errors · build 436 pages (+1 from 435) · 556/556 e2e+a11y p
 Ship: commit 4881bf8 on master; pushed to origin/master; branch auto/glamping-israel deleted.
 Prod: CI in_progress at push time (consistent prior pattern; iter267 run confirms healthy).
 NEXT: iter 269 = REVIEW (269%5==4 → audit iters 265-268 output).
+
+## 2026-07-03T17:37Z · iter 269 · REVIEW · review-desc-trim-269
+What: review pass on iters 265-268 (RESEARCH + 3 BUILD guides: israel-rooftop-bars, israel-travel-tips, glamping-israel).
+  Defects found and fixed:
+    1. israel-travel-tips description was 178 chars (>160 SEO limit) → trimmed to 150 chars
+    2. israel-rooftop-bars missing from Footer Essentials column → added 'Rooftop bars in Israel' link
+    3. tel-aviv-nightlife.md mentions rooftop drinks 3× but no cross-link to /israel-rooftop-bars → added
+  Checks passed: all 3 internal-link graphs clean (all hrefs resolve to existing pages);
+    smoke.spec.ts and a11y.spec.ts both already covered /israel-rooftop-bars, /israel-travel-tips,
+    /glamping-israel (added by iter authors); 0 dead links across 3 new guides; honesty OK.
+  Startup: local master 96 commits behind origin (cloud fresh-clone) → git reset --hard origin/master.
+Gate: pnpm check 0 errors · build 436 pages · 556/556 e2e+a11y pass.
+Ship: commit d7801a9 on master; pushed to origin/master; branch auto/review-269-defects deleted.
+Prod: CI in_progress at push time (prior iter268 run d7801a9 consistent healthy pattern).
+NEXT: iter 270 = BUILD (270%5==0 → RESEARCH; but 270%5==0 → actually 270/5=54 exactly → RESEARCH mode).
