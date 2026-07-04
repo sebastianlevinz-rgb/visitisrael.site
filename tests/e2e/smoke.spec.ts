@@ -309,6 +309,7 @@ const ROUTES = [
   '/rosh-hashanah-in-israel',
   '/kerem-hateimanim-tel-aviv',
   '/neve-tzedek-guide',
+  '/israel-hummus-trail',
 ];
 
 for (const route of ROUTES) {

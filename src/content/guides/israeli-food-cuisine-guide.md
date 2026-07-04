@@ -21,7 +21,7 @@ Food might be the best reason to come to Israel that nobody warned you about. It
 
 ## The dishes to try
 
-- **Hummus** — taken with near-religious seriousness. Eaten warm at a dedicated *hummusiya*, often for breakfast or lunch, mopped up with fresh pita. Try it *masabacha* (with whole chickpeas) or topped with *ful* (fava beans).
+- **Hummus** — taken with near-religious seriousness. Eaten warm at a dedicated *hummusiya*, often for breakfast or lunch, mopped up with fresh pita. Try it *masabacha* (with whole chickpeas) or topped with *ful* (fava beans). The top addresses — Abu Hassan in Jaffa, Abu Shukri in Jerusalem, Hummus Said in Akko — are mapped in the [Israel hummus trail](/israel-hummus-trail).
 - **Falafel** — deep-fried chickpea balls stuffed into pita with salads, pickles and tahini. The classic cheap, fast lunch.
 - **Sabich** — the Iraqi-Jewish sandwich of fried aubergine, hard-boiled egg, salad, amba (mango pickle) and tahini in pita. A Tel Aviv obsession.
 - **Shakshuka** — eggs poached in a spiced tomato-and-pepper sauce, served in the pan with bread. The national brunch.

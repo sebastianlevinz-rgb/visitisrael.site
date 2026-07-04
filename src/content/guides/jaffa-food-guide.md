@@ -110,3 +110,5 @@ The Jaffa port cluster sits at the northern end of the promenade, accessed by wa
 **Long seafood lunch or dinner:** Old Man and the Sea with advance booking — build the afternoon around it, arriving early for cold mezze and staying through the fish course. Combine with the [Jerusalem food guide](/jerusalem-food-guide) if you're spending multiple food days in Israel.
 
 **Guided option:** A Jaffa food tour (see above) combines Abu Hassan, Abouelafia, the flea market and port in 3–4 hours with a guide who knows the backstory of each address. For broader Israel food context see [food tours and cooking classes](/israel-food-tours-cooking-classes).
+
+**Hummus beyond Jaffa:** Abu Hassan is the most celebrated stop on the [Israel hummus trail](/israel-hummus-trail) — a circuit that also covers Abu Shukri in Jerusalem's Muslim Quarter, Azura at Machane Yehuda, Abu Gosh, Hummus Said in Akko and Afteem in Bethlehem.

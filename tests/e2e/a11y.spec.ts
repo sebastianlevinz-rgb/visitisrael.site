@@ -192,6 +192,7 @@ const ROUTES = [
   '/herzliya-guide',
   '/tel-aviv-beach-guide',
   '/neve-tzedek-guide',
+  '/israel-hummus-trail',
 ];
 
 for (const route of ROUTES) {
