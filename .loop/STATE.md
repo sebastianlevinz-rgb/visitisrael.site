@@ -1,13 +1,46 @@
 # LOOP STATE
 
-- iteration: 287
+- iteration: 288
 - lastMode: BUILD
-- lastItem: israel-hummus-trail
-- lastResult: shipped — /israel-hummus-trail live on master 6cc88b5; 446 pages (+1); 576/576 pass (+2)
-- nextRotationCategory: tools (288%5==3 → BUILD · tools rotation; tools all shipped → fall through to monetization)
+- lastItem: israel-agritourism-guide
+- lastResult: shipped — /israel-agritourism-guide live on master 73a4d07; 447 pages (+1); 578/578 pass (+2)
+- nextRotationCategory: REVIEW (289%5==4 → review pass on iters 286–288)
 - higgsfieldSpent: 0
-- updatedAt: 2026-07-04T13:50Z
+- updatedAt: 2026-07-04T14:45Z
 - branch context: work on master; feature work on auto/<slug>
+
+Notes: iter 288 BUILD (monetization) — israel-agritourism-guide:
+  Mode BUILD (288%5==3 → tools rotation; all 11 tools shipped → fall through to monetization).
+  Chose israel-agritourism-guide (P2 M) — top monetization candidate from STATE.md iter287 notes;
+  timely due to 2026 Israel Ministry of Agriculture 13M ILS investment in Galilee agro-tourism.
+  New /israel-agritourism-guide — year-round farm-picking seasonal calendar guide.
+  Seasonal calendar: strawberry Feb–Mar (Shefela/Galilee moshavim), citrus Nov–Feb (Sharon Plain),
+    Golan cherry orchards Jun (Moshav Odem, ~2–3 weeks, car essential), Medjool dates Sep–Oct
+    (Arava Valley: Kibbutz Ketura + Kibbutz Lotan on Route 90), figs/pomegranates/bananas Aug–Sep.
+  Historic agritourism sites: Neot Kedumim (250ha biblical landscape park near Lod; limited bus
+    access; seven species; olive pressing + grain grinding; pre-book English sessions via
+    neot-kedumim.org.il); Kfar Kedem (Lower Galilee near Arbel; donkey rides + biblical farming
+    reconstruction in period costume; pre-booking required weeks ahead; English available);
+    Ein Yael Farm Museum (Rephaim Valley, Jerusalem; 2000-year-old estate; city bus accessible).
+  Kibbutz programs: Lotan (eco-farming/permaculture, Arava); Ketura (dates + solar centre tours);
+    expanding Galilee programmes under 2026 govt investment.
+  Getting around note: car essential for Golan/Arava/Shefela sites; Neot Kedumim + Ein Yael
+    accessible by bus.
+  HONESTY: no hardcoded farm opening dates (weather-dependent); 13M ILS investment 2026–2029
+    rollout noted; English-friendly farm tips; verify-before-visiting throughout.
+  Hero: /images/regions/galilee/hero.jpg. 6 FAQs. 2 affiliate CTAs: GYG farm/nature tours +
+    Booking.com Galilee rural accommodation.
+  Back-wired: car-rental-israel.md ("Plan the rest" section, new sentence about picking + car);
+    galilee-tours-compared.md (end of "How to choose", cherry season / Golan detail).
+  Footer Essentials: +1 "Israel farm picking & agritourism" link (after Israel hummus trail).
+  Smoke +1; a11y +1 routes.
+  SEO check: title="Israel Agritourism: Farm Picking & Seasonal Experiences (2026)" = 62 chars ✓;
+    desc="Seasonal guide to farm picking in Israel: strawberries, Golan cherries, Arava dates.
+    Plus Kfar Kedem, Neot Kedumim and Galilee kibbutz farm experiences." = 152 chars ✓
+  Gate: pnpm check 0 errors (118 files) · build 447 pages (+1) · 578/578 e2e+a11y pass (+2). GREEN.
+  Ship: commit 73a4d07 on master; pushed to origin/master; CI state pending (standard pattern).
+  NEXT: iter 289 = REVIEW (289%5==4 → review pass on iters 286–288: neve-tzedek-guide,
+    israel-hummus-trail, israel-agritourism-guide).
 
 Notes: iter 287 BUILD (seo-content) — israel-hummus-trail:
   Mode BUILD (287%5==2 → seo-content rotation). Chose israel-hummus-trail (P2 S) — top
