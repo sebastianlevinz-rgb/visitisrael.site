@@ -3463,3 +3463,50 @@ Backlog at ~174 ready items (extremely saturated after 280 iterations). Strategy
 - /jordan-river-baptism-site (P3, seo-content+monetization, S)
 - /nachalat-binyamin-market (P3, seo-content, S)
 - /gan-hashlosha-guide (P3, seo-content, S)
+
+### 2026-07-04 · iter 285 · competitor gap scan
+
+**Sources checked:**
+- touristisrael.com (neighborhood guides, food tours, specialty shopping)
+- timeout.com/israel (TLV neighborhood features, food guides)
+- secrettelaviv.com (coffee, food, shopping guides)
+- beinharimtours.com (specialty tours: hummus tours, city walks)
+- tripadvisor.com (specialty food tours, diamond shopping, thermal spas)
+- lonelyplanet.com/israel (food culture, destinations)
+- foodandwine.com + thenoshery.com (Israel hummus content)
+- ramatgandiamond.com / israel-diamonds.com (diamond exchange tourist info)
+- visithamatgader.co.il + parks.org.il (thermal baths)
+- tourism.gov.il (Rishon LeZion, Bat Yam heritage content)
+- batiment.co.il (Bat Yam municipal tourism info)
+
+**Research approach:**
+Backlog extremely saturated at ~187 ready items (post-iter280 additions). Strategy shifted to: (a) internal de-duplication first — confirmed saturation level before searching competitors; (b) targeted grep-verification for specific gap hypotheses; (c) cross-reference counting (low-count = likely absent standalone, high-count = probably tracked). Identified confirmed and high-confidence gaps via count analysis across the full 681-line BACKLOG.md.
+
+**De-duplication checks (confirmed in backlog or DONE — skipped):**
+- pet-friendly-israel: IN BACKLOG line 521 (iter210 research) — skipped
+- israel-startup-tech-tour: IN BACKLOG line 401 (iter160 research) — skipped  
+- mount-of-olives-guide: IN BACKLOG line 461 (iter185 research) — skipped
+- photography-guide: IN BACKLOG line 79 (iter30 research) — skipped
+- honeymoon-israel: IN BACKLOG line 126 (iter20 research) — skipped
+- israel-wellness-spa: IN BACKLOG (iter35) — skipped
+- sarona-market-tel-aviv: IN BACKLOG line 303 (iter110 research) — skipped
+- tel-aviv-museums: IN BACKLOG line 131 (iter85 research) — skipped
+- jerusalem-museums: IN BACKLOG line 141 (iter130 research) — skipped
+- shabbat-guide: SHIPPED — skipped
+- yom-haatzmaut: 4 BACKLOG matches (likely tracked within holidays section) — skipped
+
+**Key findings:**
+1. Neve Tzedek: Tel Aviv's first Jewish neighborhood outside Jaffa walls (est. 1887); Suzanne Dellal Centre, Shabazi St boutiques, Nahum Gutman Museum. Appears only as sub-section of tel-aviv-neighborhoods-guide hub (SHIPPED iter157) and in 1-day TLV itinerary (SHIPPED iter226). Zero standalone guide in BACKLOG (grep -c "neve tzedek" case-sensitive = 0; case-insensitive confirms only SHIPPED contextual mentions). Timeout Israel, Tourist Israel, Expedia, US News all have dedicated Neve Tzedek content.
+2. Israel hummus trail: 16 BACKLOG mentions of "hummus" but ALL within other guides' text (food guide, vegan guide, safed guide, haifa food guide, etc.). No standalone hummus restaurant circuit guide. Tourist Israel, NativeIsrael, Eater, Time Out Israel, The Nosher all have dedicated "Best Hummus in Israel" content covering the Abu Hassan (Jaffa) → Abu Shukri (Jerusalem) → Abu Gosh → Hummus Said (Akko) circuit.
+3. Israel diamonds & jewelry: Ramat Gan Diamond Exchange is the world's largest diamond bourse complex with public access; Israel is the #2 global diamond polishing center. Zero matches in any BACKLOG search for "diamond", "jewelry guide", "diamond exchange". Tourist-facing content exists on ramatgandiamond.com and tripadvisor.com; no equivalent on our site.
+4. Israel thermal baths: Hamat Gader (Golan Heights; 38°C Roman thermal pools + crocodile farm; Israeli families' favorite year-round destination) and Hamat Tiberias National Park (therapeutic mineral springs near Sea of Galilee). Only 3 BACKLOG mentions of "thermal bath/hamat" — all cross-references within other entries. Distinct from Dead Sea spa hotels guide (accommodation-focused) and glamping-israel (SHIPPED).
+5. Rishon LeZion: Israel's 4th-largest city; site of Israel's first Hebrew kindergarten, first Hebrew theatre, and Carmel Winery (est. 1882 — Israel's oldest large winery). Only 2 BACKLOG matches (both cross-references). tourism.gov.il, tripadvisor.com, frommers.com all have dedicated content. 15 min from TLV by light rail.
+6. Bat Yam: Israel's 9th-largest coastal city immediately south of TLV; affordable accommodation alternative to TLV; vibrant street art scene; annual "Bat Yam International Street Theater Festival" (largest street theater festival in the Middle East); Bat Yam beach promenade. Only 1 BACKLOG match (cross-ref in another entry). tourism.gov.il, timeout.com/israel, secrettelaviv.com all have Bat Yam content; zero editorial on our site.
+
+**Net-new BACKLOG items added (6):**
+- /neve-tzedek-guide (P2, seo-content+monetization, S)
+- /israel-hummus-trail (P2, seo-content, S)
+- /israel-diamonds-jewelry (P3, monetization, S)
+- /israel-thermal-baths (P3, seo-content+monetization, S)
+- /rishon-lezion-guide (P3, seo-content, S)
+- /bat-yam-guide (P3, seo-content+monetization, S)

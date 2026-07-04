@@ -5427,3 +5427,10 @@ Defect fixed: tel-aviv-beach-guide desc 166→159 chars. Removed "flags, " from 
 Gate: pnpm check 0 errors (118 files) · pnpm build 444 pages · 572/572 e2e+a11y pass. GREEN.
 Ship: commit e10cf65 on master; pushed to origin/master; CI in_progress at push (prior iter283 SHA 92e614a = SUCCESS confirmed).
 Next: iter 285 = RESEARCH (285%5==0 → competitor gap scan).
+
+## 2026-07-04T12:10Z · iter 285 · RESEARCH · competitor-gap-scan-285
+What: RESEARCH pass (285%5==0). Competitor gap scan via grep-count de-dup across 681-line BACKLOG.md. Backlog extremely saturated at ~181 ready items entering this iteration. Sources: timeout.com/israel, secrettelaviv.com, touristisrael.com, beinharimtours.com, tripadvisor.com, ramatgandiamond.com, visithamatgader.co.il, tourism.gov.il, batiment.co.il.
+6 net-new items confirmed absent from backlog: neve-tzedek-guide (P2 S), israel-hummus-trail (P2 S), israel-diamonds-jewelry (P3 S), israel-thermal-baths (P3 S), rishon-lezion-guide (P3 S), bat-yam-guide (P3 S). De-duped 9 candidates already in backlog: pet-friendly (iter210), startup-tech (iter160), mount-of-olives (iter185), photography (iter30), honeymoon (iter20), wellness-spa (iter35), sarona-market (iter110), tel-aviv-museums (iter85), jerusalem-museums (iter130).
+Gate: N/A (RESEARCH mode — no code changes). No commit to codebase.
+Memory updates: STATE.md bumped to iter285, BACKLOG.md +6 items, COMPETITORS.md +iter285 scan section.
+Next: iter 286 = BUILD (286%5==1 → monetization rotation). Top candidates: neve-tzedek-guide (P2 S, just added), israel-agritourism-guide (P2 M), dead-sea-hotels-guide (P2 S), egypt-jordan-israel-itinerary (P2 M).

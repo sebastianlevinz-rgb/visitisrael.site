@@ -1,13 +1,43 @@
 # LOOP STATE
 
-- iteration: 284
-- lastMode: REVIEW
-- lastItem: review-desc-trim-284
-- lastResult: GREEN — tel-aviv-beach-guide desc trimmed 166→159 chars (1 defect fixed) · commit e10cf65 · 444 pages · 572/572 pass
-- nextRotationCategory: monetization (285%5==0 → RESEARCH)
+- iteration: 285
+- lastMode: RESEARCH
+- lastItem: competitor-gap-scan-285
+- lastResult: research — 6 net-new items added to BACKLOG; no gate required
+- nextRotationCategory: monetization (286%5==1 → BUILD · monetization rotation)
 - higgsfieldSpent: 0
-- updatedAt: 2026-07-04T10:35Z
+- updatedAt: 2026-07-04T12:10Z
 - branch context: work on master; feature work on auto/<slug>
+
+Notes: iter 285 RESEARCH (285%5==0 → competitor gap scan):
+  Mode RESEARCH. No code changed. Backlog at ~187 ready items (extremely saturated;
+  extensive de-dup required before finding new gaps).
+  Scanned: timeout.com/israel, secrettelaviv.com, touristisrael.com, beinharimtours.com,
+  tripadvisor.com, ramatgandiamond.com, visithamatgader.co.il, tourism.gov.il, batiment.co.il.
+  6 net-new items confirmed absent from backlog via grep count analysis:
+    (1) neve-tzedek-guide P2 S — Tel Aviv's 1887 first Jewish neighborhood; Suzanne Dellal
+        Centre, Shabazi St boutiques, Nahum Gutman Museum; 0 standalone backlog entries (grep
+        count confirmed); only sub-section in SHIPPED neighborhoods hub + 1-day TLV itinerary
+    (2) israel-hummus-trail P2 S — restaurant circuit: Abu Hassan Jaffa + Abu Shukri Jerusalem
+        + Abu Gosh + Hummus Said Akko + Afteem Bethlehem; 16 BACKLOG hummus mentions but ALL
+        in other guides' text, 0 standalone circuit guide
+    (3) israel-diamonds-jewelry P3 S — Ramat Gan Diamond Exchange tourist visit + Eilat Stone;
+        0 BACKLOG matches for diamond/jewelry guide
+    (4) israel-thermal-baths P3 S — Hamat Gader 38°C pools + crocodile farm (Golan); Hamat
+        Tiberias national park springs; distinct from Dead Sea spa hotels; only 3 BACKLOG refs
+    (5) rishon-lezion-guide P3 S — Israel's City of Firsts (1882 moshav); Carmel Winery est.
+        1882; Hebrew kindergarten; 15 min from TLV by light rail; only 2 BACKLOG refs
+    (6) bat-yam-guide P3 S — TLV's affordable beach neighbor; BISC street theater festival;
+        street art; authentic Mizrahi neighborhood; only 1 BACKLOG ref (cross-reference)
+  De-duped confirmed covered and skipped: pet-friendly-israel (iter210), startup-tech-tour
+  (iter160), mount-of-olives-guide (iter185), photography-guide (iter30), honeymoon-israel
+  (iter20), israel-wellness-spa (iter35), sarona-market-tel-aviv (iter110), tel-aviv-museums
+  (iter85), jerusalem-museums (iter130).
+  COMPETITORS.md updated. BACKLOG.md updated (+6 items + iter285 audit note).
+  NEXT: iter 286 = BUILD (286%5==1 → monetization rotation). Top monetization candidates:
+    neve-tzedek-guide (P2 S, just added), israel-agritourism-guide (P2 M), dead-sea-hotels-guide
+    (P2 S), egypt-jordan-israel-itinerary (P2 M), herzliya-hotels (if separate from guide),
+    bat-yam-guide (P3 S, just added).
 
 Notes: iter 284 REVIEW (284%5==4 → review pass on iters 281-283):
   Mode REVIEW. Audited: kerem-hateimanim-tel-aviv (iter281), herzliya-guide (iter282),
@@ -238,4 +268,4 @@ Notes: iter 274 REVIEW — review-seo-meta-274:
 
 Cron b7325b16 hourly @ :17. Loop history: 19 tools + sitemap-lastmod + link-checker(+depth) + i18n
 Phase0/1a/1b/1c/2 Batches1-18(COMPLETE) + 31 review passes + 3 technical (event-schema + meta-trim + locale-links) + 31 EN guides + 4 tools-monetization;
-research iters 5/10/20/30/35/40/45/50/55/60/65/70/75/80/85/90/95/100/105/110/115/120/125/130/135/140/145/150/155/160/165/170/175/180/185/190/195/200/205/210/215/220/225/230/235/240/245/250/255/260/265/270/275/280.
+research iters 5/10/20/30/35/40/45/50/55/60/65/70/75/80/85/90/95/100/105/110/115/120/125/130/135/140/145/150/155/160/165/170/175/180/185/190/195/200/205/210/215/220/225/230/235/240/245/250/255/260/265/270/275/280/285.
