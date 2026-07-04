@@ -3,7 +3,7 @@ title: 'Traveling in Israel During Jewish Holidays (2026 Guide)'
 description: "What to expect as a tourist in Israel during Passover, Yom Kippur, Sukkot, Hanukkah and Purim — closures, crowds, prices, and what makes each holiday special."
 heroImage: /images/regions/jerusalem/western-wall.jpg
 category: Planning
-updatedAt: 2026-07-01
+updatedAt: 2026-07-04
 ctaHeading: 'Book ahead for Jewish holiday season'
 affiliateCtas:
   - partner: booking
@@ -36,7 +36,7 @@ faqs:
   - question: How far ahead should I book for Jewish holiday travel to Israel?
     answer: "For Passover and the High Holidays, three to six months ahead is prudent for accommodation, especially in Jerusalem and Tel Aviv. Some popular hotels and tour operators sell out even further in advance. Sukkot (the week after Yom Kippur) is nearly as busy as Passover. For Hanukkah and Purim, one to two months ahead is usually sufficient, though Tower of David events and Jerusalem accommodation sell faster."
   - question: What Jewish holidays fall on which dates in 2026 and 2027?
-    answer: "In 2026: Purim is March 3–4; Passover is April 2–9; Shavuot is May 22–23; Rosh Hashanah is October 11–12; Yom Kippur is October 20; Sukkot is October 15–22; Hanukkah is December 14–22. In 2027: Purim is February 20–21; Passover is March 22–29; Rosh Hashanah is September 30 – October 1; Yom Kippur is October 9; Sukkot is October 4–11; Hanukkah is December 4–12. All Jewish holidays begin at sunset the evening before these dates."
+    answer: "In 2026: Purim is March 3–4; Passover is April 2–9; Shavuot is May 22–23; Rosh Hashanah is September 11–12; Yom Kippur is September 20; Sukkot is September 25–October 2; Hanukkah is December 4–12. In 2027: Purim is March 22–23; Passover is April 22–29; Rosh Hashanah is October 2–3; Yom Kippur is October 10; Sukkot is October 15–22; Hanukkah is December 25–January 1, 2028. All Jewish holidays begin at sunset the evening before these dates."
 ---
 
 Israel has a distinct rhythm shaped by the Jewish calendar — a cycle of fasts, feasts, and national pauses that no other country in the world quite replicates. Visiting during a Jewish holiday is not an obstacle; it is one of the most memorable things you can do on a trip to Israel. But it does require planning, especially around accommodation and transport.
@@ -99,7 +99,7 @@ Use our [Shabbat & Jewish Holiday Calendar](/israel-shabbat-calendar) to look up
 
 **What it is**: The Jewish New Year — two days of solemn synagogue services, shofar (ram's horn) blowing, and family meals featuring symbolic foods (apples and honey, pomegranate, round challah). The first day of the biblical Ten Days of Awe, leading to Yom Kippur.
 
-**When**: October 11–12, 2026 (begins evening of October 10); September 30 – October 1, 2027.
+**When**: September 11–12, 2026 (begins evening of September 10); October 2–3, 2027 (begins evening of October 1).
 
 **Impact on visitors**:
 
@@ -123,7 +123,7 @@ For a complete guide to the Jewish New Year experience in Israel — the Western
 
 **What it is**: The holiest day of the Jewish year — 25 hours of fasting, prayer, and reflection. Jews attend Kol Nidre evening services and morning, afternoon, and closing (Ne'ilah) services throughout the day. The day ends with a long shofar blast at nightfall.
 
-**When**: October 20, 2026; October 9, 2027.
+**When**: September 20, 2026; October 10, 2027.
 
 **Why Yom Kippur is unlike anything else**:
 
@@ -154,7 +154,7 @@ The result is a rare urban experience: Israeli cities, normally chaotic, become 
 
 **What it is**: A seven-day harvest festival beginning five days after Yom Kippur. Families build temporary outdoor structures (sukkot, singular sukkah) with a roof of plant material through which the sky is visible, and eat — some sleep — inside for the week. It commemorates both the harvest and the forty years of desert wandering.
 
-**When**: October 15–22, 2026; October 4–11, 2027.
+**When**: September 25–October 2, 2026; October 15–22, 2027.
 
 **Impact on visitors**:
 
@@ -176,7 +176,7 @@ The result is a rare urban experience: Israeli cities, normally chaotic, become 
 
 **What it is**: An eight-day festival commemorating the Maccabean victory over the Seleucid Empire and the miracle of oil in the rededicated Temple. Each night, one additional candle is added to the hanukkiyah (Hanukkah menorah) until all eight burn together. The holiday is festive but not a major religious observance by Jewish holiday standards — schools close but transport and most businesses remain open.
 
-**When**: December 14–22, 2026; December 4–12, 2027.
+**When**: December 4–12, 2026; December 25, 2027–January 1, 2028.
 
 **Impact on visitors**: lighter than the High Holidays or Passover. Hanukkah is a **joyful, public, visible** holiday rather than a solemn one. Most restaurants and transport operate normally throughout.
 
