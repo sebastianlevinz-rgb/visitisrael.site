@@ -1,13 +1,48 @@
 # LOOP STATE
 
-- iteration: 288
-- lastMode: BUILD
-- lastItem: israel-agritourism-guide
-- lastResult: shipped — /israel-agritourism-guide live on master 73a4d07; 447 pages (+1); 578/578 pass (+2)
-- nextRotationCategory: REVIEW (289%5==4 → review pass on iters 286–288)
+- iteration: 289
+- lastMode: REVIEW
+- lastItem: review-pass-289
+- lastResult: clean review — neve-tzedek-guide, israel-hummus-trail, israel-agritourism-guide; 0 defects; all checks pass
+- nextRotationCategory: RESEARCH (290%5==0 → competitor gap scan)
 - higgsfieldSpent: 0
-- updatedAt: 2026-07-04T14:45Z
+- updatedAt: 2026-07-04T15:10Z
 - branch context: work on master; feature work on auto/<slug>
+
+Notes: iter 289 REVIEW — review-pass-289:
+  Mode REVIEW (289%5==4). Audited iters 286–288: neve-tzedek-guide, israel-hummus-trail,
+  israel-agritourism-guide. Startup: git reset --hard origin/master needed (fresh cloud
+  checkout; remote at iter288 8da3969).
+  Checks performed:
+    (1) SEO meta length (Python unicode len):
+        neve-tzedek-guide: title=56 ✓, desc=140 ✓
+        israel-hummus-trail: title=51 ✓, desc=145 ✓
+        israel-agritourism-guide: title=62 ✓, desc=152 ✓
+    (2) Internal link resolution — 16 links across 3 guides, all verified against content/ files: ✓
+        akko-acre-guide, car-rental-israel, galilee-tours-compared, is-israel-safe,
+        jaffa-food-guide, jaffa-travel-guide, jerusalem-food-guide, kerem-hateimanim-tel-aviv,
+        kosher-food-guide, tel-aviv-carmel-market, tel-aviv-food-guide, tel-aviv-light-rail,
+        tel-aviv-neighborhoods-guide, tel-aviv-tours-compared, tel-aviv-white-city,
+        vegan-vegetarian-israel — all OK.
+    (3) Cross-link back-wiring verified:
+        neve-tzedek-guide → tel-aviv-neighborhoods-guide.md line 92 ✓
+        israel-hummus-trail → jaffa-food-guide.md line 114 ✓
+        israel-hummus-trail → jerusalem-food-guide.md lines 130 ✓
+        israel-hummus-trail → israeli-food-cuisine-guide.md line 24 ✓
+        israel-agritourism-guide → car-rental-israel.md line 86 ✓
+        israel-agritourism-guide → galilee-tours-compared.md line 93 ✓
+    (4) Footer links verified:
+        /neve-tzedek-guide line 128 ✓
+        /israel-hummus-trail line 124 ✓
+        /israel-agritourism-guide line 125 ✓
+    (5) smoke.spec.ts + a11y.spec.ts coverage: all 3 routes present in both specs ✓
+    (6) Hero + CTA images: neve-tzedek.jpg + jaffa.jpg + galilee/hero.jpg + mahane-yehuda.jpg all exist ✓
+    (7) pnpm check: 0 errors (118 files) ✓
+  0 defects found. No gate needed (no code changes). No branch created.
+  NEXT: iter 290 = RESEARCH (290%5==0 → competitor gap scan). Top seo-content BUILD candidates
+    after RESEARCH: druze-villages-carmel (P2 S), haifa-travel-guide (P2 M), tel-aviv-pride-guide
+    (P3 S), galilee-christian-sites-circuit (P2 M). Remaining i18n batch 18: 13 untranslated
+    EN guides.
 
 Notes: iter 288 BUILD (monetization) — israel-agritourism-guide:
   Mode BUILD (288%5==3 → tools rotation; all 11 tools shipped → fall through to monetization).

@@ -5452,3 +5452,10 @@ What: New /israel-agritourism-guide — seasonal farm picking & agritourism guid
 Gate: pnpm check 0 errors (118 files) · pnpm build 447 pages (+1) · 578/578 e2e+a11y pass (+2). GREEN first run.
 Ship: commit 73a4d07 on master; pushed to origin/master; CI state pending (standard pattern for this repo).
 Next: iter 289 = REVIEW (289%5==4 → review pass on iters 286–288).
+
+## 2026-07-04T15:10Z · iter 289 · REVIEW · review-pass-289
+What: REVIEW pass on iters 286–288: neve-tzedek-guide, israel-hummus-trail, israel-agritourism-guide.
+Checks: (1) SEO meta — all 3 within ≤65/160 limits (56/140, 51/145, 62/152). (2) Internal links — 16 links verified, 0 dead. (3) Cross-link back-wiring — all 6 back-wire entries confirmed present in related guides. (4) Footer links — all 3 entries confirmed in Footer.astro. (5) smoke.spec.ts + a11y.spec.ts — all 3 routes present in both spec files. (6) Hero + CTA images — all 4 referenced images exist in /public. (7) pnpm check — 0 errors.
+Gate: N/A (no code changes; 0 defects found).
+Ship: no merge needed (clean review; master unchanged at 8da3969).
+Next: iter 290 = RESEARCH (290%5==0 → competitor gap scan).
