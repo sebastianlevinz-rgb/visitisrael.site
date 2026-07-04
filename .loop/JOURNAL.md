@@ -5375,3 +5375,13 @@ Ship: commit adbfd22 on master; pushed to origin/master; CI in_progress at push 
 What: Fixed incorrect 2026 and 2027 Jewish holiday dates in traveling-israel-jewish-holidays.md. Tools rotation (278%5==3) had no ready items; fell through to technical category. Verified all dates via Chabad.org/timeanddate.com before editing. 2026 errors were all ~30 days too late (Oct instead of Sep for High Holidays); 2027 errors were entirely wrong dates. Fixed 6 values in FAQ answer + RH/YK/Sukkot/Hanukkah When lines in body + updatedAt frontmatter.
 Gate: pnpm check 0 errors (118 files) · build 441 pages · 566/566 e2e+a11y pass. GREEN.
 Ship: commit a61ab47 on master; pushed to origin/master.
+
+## 2026-07-04T04:36Z · iter 279 · REVIEW · review-desc-trim-279
+What: REVIEW pass covering iters 276-278 (shopping-in-israel, rosh-hashanah-in-israel, holiday-date-fix).
+Audits run: (1) SEO meta length check — title ≤65, desc ≤160; (2) internal link resolution for all hrefs in both new guides; (3) hero image existence; (4) smoke + a11y test coverage.
+Defects found:
+  1. rosh-hashanah-in-israel description 169 chars (9 over limit) → trimmed to 158 chars by replacing "Dates, booking tips and what to expect." with "2026 dates and booking tips."
+Defects NOT found: shopping-in-israel desc=157 chars ✓; all 20 internal links resolve; both hero images present; both pages in smoke.spec.ts + a11y.spec.ts; traveling-israel-jewish-holidays dates from iter278 verified correct.
+Gate: pnpm check 0 errors (118 files) · build 441 pages · 566/566 e2e+a11y pass. GREEN.
+Ship: commit 0f7c9c1 on master; pushed to origin/master; CI in_progress at push time (prior run eb5a70c SUCCESS confirmed).
+Next: iter 280 = BUILD (280%5==0 → RESEARCH mode).
