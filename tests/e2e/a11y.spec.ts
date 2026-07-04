@@ -194,6 +194,7 @@ const ROUTES = [
   '/neve-tzedek-guide',
   '/israel-hummus-trail',
   '/israel-agritourism-guide',
+  '/israel-jordan-itinerary',
 ];
 
 for (const route of ROUTES) {
