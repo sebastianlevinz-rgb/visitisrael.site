@@ -5411,3 +5411,19 @@ YAML notes: apostrophe escaping — standard pattern; no issues on this guide (n
 Gate: pnpm check 0 errors (118 files) · pnpm build 444 pages (+1 from 443) · 572/572 e2e+a11y pass (+2 new routes). GREEN.
 Ship: commit 78c7ff7 on master; pushed to origin/master; CI in_progress at push time (prior iter282 SHA 8933b7b = SUCCESS confirmed).
 Next: iter 284 = REVIEW (284%5==4 → REVIEW mode).
+
+## 2026-07-04T10:35Z · iter 284 · REVIEW · review-desc-trim-284
+What: REVIEW pass covering iters 281-283 (kerem-hateimanim-tel-aviv, herzliya-guide, tel-aviv-beach-guide). Startup: git reset --hard origin/master needed (fresh cloud checkout; remote at iter283 92e614a). pnpm install clean. STOP flag absent. Playwright pre-installed at /opt/pw-browsers.
+Audit checklist:
+  (1) SEO meta length (Python unicode len, title ≤65, desc ≤160):
+      kerem-hateimanim-tel-aviv: title=58 ✓, desc=149 ✓
+      herzliya-guide: title=61 ✓, desc=153 ✓
+      tel-aviv-beach-guide: title=63 ✓, desc=166 ✗ → DEFECT
+  (2) 19 internal links across 3 guides — all resolve to existing content files ✓
+  (3) Cross-link back-wiring: tel-aviv-carmel-market → kerem-hateimanim ✓, day-trips-from-tel-aviv → herzliya ✓, best-beaches-israel → tel-aviv-beach-guide ✓
+  (4) Footer links: all 3 present ✓
+  (5) smoke + a11y spec coverage: all 3 routes in both spec files ✓
+Defect fixed: tel-aviv-beach-guide desc 166→159 chars. Removed "flags, " from desc with-clause. Flag system still covered in guide body; no meaning lost.
+Gate: pnpm check 0 errors (118 files) · pnpm build 444 pages · 572/572 e2e+a11y pass. GREEN.
+Ship: commit e10cf65 on master; pushed to origin/master; CI in_progress at push (prior iter283 SHA 92e614a = SUCCESS confirmed).
+Next: iter 285 = RESEARCH (285%5==0 → competitor gap scan).

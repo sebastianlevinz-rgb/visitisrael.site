@@ -540,3 +540,5 @@ guides. 3× affiliate CTAs, 6 FAQs, cross-link from /jerusalem region page.
 
 ## iter 283 — tel-aviv-beach-guide (78c7ff7)
 - /tel-aviv-beach-guide — Dedicated Tel Aviv beach guide (tools-fallthrough → seo-content+monetization). 7 named beaches north→south: Hilton (LGBTQ+/dog/surf zones), Gordon (central hub), Frishman (family), Banana/Bograshov (young crowd), Jerusalem/Geula Beach (best surf break, TLV Surf Club, ₪80/hr), Alma (quietest/local), Nordau (Orthodox gender-separated). Jellyfish season warning (Jul–Aug), flag system, disabled access (free beach wheelchairs via municipality app), getting there by bus/light rail. Cross-link added to best-beaches-israel.md + Footer Essentials. 2 affiliate CTAs (Booking.com TLV beachfront + GYG beach experiences). 444 pages (+1); 572/572 tests pass (+2). [seo-content+monetization]
+
+- [iter284] review-desc-trim-284 · e10cf65 · REVIEW: fixed tel-aviv-beach-guide desc 166→159 chars (1 defect); all 19 links + 3 cross-links + 3 footer links + smoke/a11y coverage verified clean for iters 281-283.
