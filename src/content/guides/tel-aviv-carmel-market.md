@@ -119,6 +119,8 @@ At the northern tip of the market block, a converted warehouse space houses what
 
 Combine the market with the [Tel Aviv food guide](/tel-aviv-food-guide) for the city's broader eating scene — sit-down restaurants, neighbourhood-by-neighbourhood. The [Israeli street food guide](/israeli-street-food-guide) covers the specific dishes in more depth across all cities.
 
+Immediately south of the Carmel Market's Allenby entrance is [Kerem HaTeimanim](/kerem-hateimanim-tel-aviv) — Tel Aviv's Yemenite Quarter — where jachnun, malawach and lachuch are served from family-run kitchens in whitewashed lanes. A natural extension of any Carmel Market morning.
+
 For the rest of the day: the [White City Bauhaus buildings](/tel-aviv-white-city) are a 10-minute walk north along Rothschild Boulevard. Old Jaffa is 20 minutes south along the beach promenade — see the [complete Jaffa travel guide](/jaffa-travel-guide) for Abu Hassan, the Flea Market and the port. [Israel food tours and cooking classes](/israel-food-tours-cooking-classes) covers the organised version, including market tours with a guide.
 
 If you are keeping kosher, most of the produce market is naturally kosher; the [kosher food guide](/kosher-food-guide) explains what to look for in prepared food stalls.
