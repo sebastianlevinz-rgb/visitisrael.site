@@ -1,13 +1,27 @@
 # LOOP STATE
 
-- iteration: 277
+- iteration: 278
 - lastMode: BUILD
-- lastItem: rosh-hashanah-in-israel — new /rosh-hashanah-in-israel High Holiday travel guide (Kotel Musaf, Tashlich, holiday food, booking guidance)
-- lastResult: BUILD COMPLETE — gate green (check 0 errors · build 441 pages +1 · 566/566 tests +2); commit adbfd22 pushed to master; CI in_progress at push
-- nextRotationCategory: 278%5==3 → BUILD (tools rotation)
+- lastItem: fix-jewish-holiday-dates-2026-2027 — corrected 2026/2027 Jewish holiday dates in traveling-israel-jewish-holidays.md (RH, YK, Sukkot, Hanukkah, Purim 2027, Passover 2027)
+- lastResult: BUILD COMPLETE — gate green (check 0 errors · build 441 pages · 566/566 tests); commit a61ab47 pushed to master
+- nextRotationCategory: 279%5==4 → REVIEW pass
 - higgsfieldSpent: 0
-- updatedAt: 2026-07-04T02:50Z
+- updatedAt: 2026-07-04T04:10Z
 - branch context: work on master; feature work on auto/<slug>
+
+Notes: iter 278 BUILD (technical/content-accuracy) — fix-jewish-holiday-dates-2026-2027:
+  tools rotation (278%5==3) had no ready items (all 11 tools shipped); fell through to technical.
+  Chose P2/S item: fix incorrect 2026/2027 Jewish holiday dates in traveling-israel-jewish-holidays.md.
+  Dates verified via Chabad.org / timeanddate.com searches before editing.
+  2026 corrections: RH Sep 11-12 (was Oct 11-12); YK Sep 20 (was Oct 20);
+    Sukkot Sep 25-Oct 2 (was Oct 15-22); Hanukkah Dec 4-12 (was Dec 14-22).
+  2027 corrections: Purim Mar 22-23 (was Feb 20-21); Passover Apr 22-29 (was Mar 22-29);
+    RH Oct 2-3 (was Sep 30-Oct 1); YK Oct 10 (was Oct 9); Sukkot Oct 15-22 (was Oct 4-11);
+    Hanukkah Dec 25-Jan 1 2028 (was Dec 4-12).
+  5 edits total: frontmatter updatedAt, FAQ answer, RH When, YK When, Sukkot When, Hanukkah When.
+  Gate: pnpm check 0 errors (118 files) · build 441 pages · 566/566 e2e+a11y pass. GREEN.
+  Ship: commit a61ab47 on master; pushed to origin/master.
+  NEXT: iter 279 = REVIEW (279%5==4 → review pass).
 
 Notes: iter 277 BUILD (seo-content) — rosh-hashanah-in-israel:
   New /rosh-hashanah-in-israel — dedicated High Holiday travel guide for diaspora visitors timing

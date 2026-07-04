@@ -5370,3 +5370,8 @@ What: New /rosh-hashanah-in-israel — dedicated High Holiday travel guide (P2, 
 Date error found: existing traveling-israel-jewish-holidays.md says "October 11–12, 2026" for Rosh Hashanah when correct date is September 11–12 (Sep 22, 2025 + 354 days = Sep 11, 2026). All other 2026 holiday dates in that guide are shifted by ~1 month similarly. New guide uses correct Sep dates. TODO for a dedicated REVIEW iteration: fix holiday dates in traveling-israel-jewish-holidays.md (verify each: RH, YK, Sukkot, Hanukkah 2026/2027 before publishing correction).
 Gate: pnpm check 0 errors (118 files) · build 441 pages (+1 from 440) · 566/566 e2e+a11y pass (+2). Broken-link fix required: /western-wall-guide → corrected to /jerusalem/western-wall (1 fix cycle).
 Ship: commit adbfd22 on master; pushed to origin/master; CI in_progress at push (prior run cd80fd1 SUCCESS confirmed).
+
+## 2026-07-04T04:10Z · iter 278 · BUILD (technical/content-accuracy) · fix-jewish-holiday-dates-2026-2027
+What: Fixed incorrect 2026 and 2027 Jewish holiday dates in traveling-israel-jewish-holidays.md. Tools rotation (278%5==3) had no ready items; fell through to technical category. Verified all dates via Chabad.org/timeanddate.com before editing. 2026 errors were all ~30 days too late (Oct instead of Sep for High Holidays); 2027 errors were entirely wrong dates. Fixed 6 values in FAQ answer + RH/YK/Sukkot/Hanukkah When lines in body + updatedAt frontmatter.
+Gate: pnpm check 0 errors (118 files) · build 441 pages · 566/566 e2e+a11y pass. GREEN.
+Ship: commit a61ab47 on master; pushed to origin/master.
