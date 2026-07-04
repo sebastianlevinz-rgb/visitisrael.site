@@ -83,4 +83,4 @@ Common extras to budget for:
 
 ## Plan the rest
 
-Sort your [eSIM](/israel-esim) for navigation data and [travel insurance](/israel-travel-insurance) before you go, and if you would rather not drive from the airport, see [Ben Gurion airport transfers](/ben-gurion-airport-transfers). If you want to understand the full self-drive route options, the [driving in Israel guide](/driving-in-israel) covers road conditions, petrol, and city-by-city parking tips.
+Sort your [eSIM](/israel-esim) for navigation data and [travel insurance](/israel-travel-insurance) before you go, and if you would rather not drive from the airport, see [Ben Gurion airport transfers](/ben-gurion-airport-transfers). If you want to understand the full self-drive route options, the [driving in Israel guide](/driving-in-israel) covers road conditions, petrol, and city-by-city parking tips. Planning a seasonal farm-picking trip? The [Israel agritourism guide](/israel-agritourism-guide) maps the strawberry, cherry and date harvest seasons — all require a car to reach.

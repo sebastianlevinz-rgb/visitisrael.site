@@ -310,6 +310,7 @@ const ROUTES = [
   '/kerem-hateimanim-tel-aviv',
   '/neve-tzedek-guide',
   '/israel-hummus-trail',
+  '/israel-agritourism-guide',
 ];
 
 for (const route of ROUTES) {
