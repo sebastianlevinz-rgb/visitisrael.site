@@ -3373,3 +3373,60 @@ All 6 items verified as non-duplicates via full grep scan of backlog.
 - /israel-cheese-dairy-guide (P3, seo-content, S)
 - ben-gurion-transfers-2026-update (P2, technical/content-update, S)
 - /israel-coexistence-guide (P3, seo-content, S)
+
+---
+
+## iter275 — 2026-07-04 — RESEARCH (competitor-gap-scan-275)
+
+**Sites / sources searched:**
+- touristisrael.com (holiday guides, neighborhood pages, 3-country itineraries)
+- secrettelaviv.com (neighborhood guides, food, holiday)
+- beinharimtours.com (neighborhood walking tours — Mea Shearim, Kerem HaTeimanim)
+- itraveljerusalem.com (Rosh Hashanah, Tisha B'Av, neighborhood guides)
+- timeout.com/israel (Kerem HaTeimanim, Jewish holidays, wine bars)
+- goisrael.com (Ministry of Tourism — Tisha B'Av, holiday pages)
+- thekotel.org (Tisha B'Av, Western Wall holiday events)
+- planitisrael.com (Tisha B'Av, neighborhood context)
+- igoogledisrael.com (Yemenite Quarter, neighborhood guides)
+- itraveltelaviv.com (Kerem HaTeimanim)
+- fodors.com (Israel neighborhood guides)
+- foodallergy.org (Israel food allergy travel page)
+- wanderlux.com (Israel food allergies guide)
+- allergyisrael.org.il (Israeli food allergy resource)
+- emacare.com (Israel allergy guide)
+- globalhighlights.com (Egypt Jordan Israel itinerary)
+- kimkim.com (3-country Middle East guide)
+- tourradar.com (Israel Jordan Egypt tour listings)
+- tripadvisor.com (Israel food allergy forum threads, Mea Shearim reviews)
+- dannythedigger.com (Mea Shearim guide)
+- goguided.tours (ultra-Orthodox neighborhood tours)
+- getyourguide.com (Mea Shearim tours, Yemenite food walks, 3-country tours)
+
+**Research approach:**
+Backlog extremely saturated at 174+ ready items after iter274. Strategy: focus on (a) holiday/calendar content gaps not yet covered as standalone guides, (b) Jerusalem neighborhood guides with high GYG/competitor tour presence but no editorial on site, (c) practical traveler-need gaps (food allergies), (d) high-commercial-intent multi-country itinerary gaps. Used Python grep on full BACKLOG.md to verify absence of each candidate before finalizing.
+
+**De-duplication checks (confirmed in backlog — skipped):**
+- shavuot: 25 occurrences in BACKLOG → already present (P3 S iter250 research)
+- yom-kippur: already present in traveling-israel-jewish-holidays context
+- passover: P2 standalone in backlog
+- tel-aviv-jaffa-walking: SHIPPED
+- israel-wine-wineries: SHIPPED
+- israel-jordan-itinerary: P2 in backlog (distinct from 3-country guide)
+- israel-egypt-guide: P2 M in backlog (distinct from 3-country guide)
+- celiac/gluten-free: separate P2 S entry in backlog (distinct from food allergies guide)
+
+**Key findings:**
+1. Holiday content gaps: Jewish calendar has several major holidays with NO standalone guide — Rosh Hashanah, Tisha B'Av are the highest-priority gaps. Both have dedicated competitor pages and distinct traveler use cases.
+2. Kerem HaTeimanim (Yemenite Quarter TLV) is a genuine editorial gap — beinharimtours.com, Fodor's, timeout.com/israel, igoogledisrael.com all have dedicated coverage; our site has no standalone guide; distinct from Carmel Market and neighborhoods overview.
+3. Egypt-Jordan-Israel 3-country itinerary: touristisrael.com has THREE package pages; TourRadar lists 10+ operators; HIGH commercial intent ($5k-8k/person tours); distinctly different from 2-country iters in backlog.
+4. Food allergy guide: no competitor Israeli travel editorial site has comprehensive coverage; foodallergy.org has a travel page; allergyisrael.org.il is the primary Israeli resource; Israeli food habits (sesame ubiquity, no EU-style labeling) make this a genuinely useful travel guide.
+5. Mea Shearim: strong GYG and tour operator presence (goguided.tours, beinharimtours.com, Danny the Digger, America Israel Tours) — community clearly visited but no editorial standalone guide on our site; honesty framing is essential (living community, not tourist zoo).
+6. Backlog is now at ~180 ready items including these 6 new additions. Further saturated; future research should focus narrowly on content accuracy updates and emerging trend angles.
+
+**Net-new BACKLOG items added (6):**
+- /rosh-hashanah-in-israel (P2, seo-content+monetization, S)
+- /kerem-hateimanim-tel-aviv (P2, seo-content+monetization, S)
+- /egypt-jordan-israel-itinerary (P2, seo-content+monetization, M)
+- /israel-food-allergies-guide (P3, seo-content, S)
+- /tisha-bav-in-israel (P3, seo-content, S)
+- /mea-shearim-guide (P3, seo-content, S)

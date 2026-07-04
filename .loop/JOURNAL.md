@@ -5334,3 +5334,10 @@ Gate: pnpm check 0 errors (118 files) · build 439 pages · 562/562 e2e+a11y pas
 Ship: commit 1e698c8 on master; pushed to origin/master; CI in_progress at push (prior run d923ac8 SUCCESS).
 Prod: CI running; no failure detected; previous run confirmed SUCCESS.
 Next: iter 275 = RESEARCH (275%5==0 → competitor gap scan).
+
+## 2026-07-04T01:45Z · iter 275 · RESEARCH · competitor-gap-scan-275
+What: RESEARCH pass (275%5==0). No code changed. Scanned touristisrael.com, secrettelaviv.com, beinharimtours.com, itraveljerusalem.com, timeout.com/israel, goisrael.com, thekotel.org, planitisrael.com, allergyisrael.org.il, globalhighlights.com, tourradar.com, tripadvisor.com, dannythedigger.com, goguided.tours. Focused on holiday content gaps, Jerusalem neighborhood guides, practical traveler-need gaps, and high-commercial-intent multi-country itineraries. 6 net-new items verified absent from backlog via Python grep scan.
+Items added: (1) /rosh-hashanah-in-israel (P2 S) — Western Wall Musaf + Tashlich + advance hotel booking; Sep 11-13 2026; (2) /kerem-hateimanim-tel-aviv (P2 S) — Yemenite Quarter SW of Carmel Market; jachnun/malawach; (3) /egypt-jordan-israel-itinerary (P2 M) — 3-country Middle East circuit; high commercial intent; (4) /israel-food-allergies-guide (P3 S) — sesame ubiquity, no EU allergen labeling, Hebrew allergy cards; (5) /tisha-bav-in-israel (P3 S) — Eicha at Kotel; unique empty-Old-City atmosphere; July 22-23 2026; (6) /mea-shearim-guide (P3 S) — living Haredi community; dress code + photography etiquette critical; GYG tour recommended.
+Gate: N/A (research only). No gate, no commit to master beyond memory update.
+Prod: N/A.
+Next: iter 276 = BUILD (276%5==1 → monetization rotation).

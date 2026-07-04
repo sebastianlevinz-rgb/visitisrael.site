@@ -1,13 +1,48 @@
 # LOOP STATE
 
-- iteration: 274
-- lastMode: REVIEW
-- lastItem: review-seo-meta-274 — SEO meta fixes on 3 iters 271-273 guides (commit 1e698c8)
-- lastResult: shipped-1e698c8 — gate green (0 check errors, 439 pages, 562/562 e2e+a11y pass); pushed to origin/master; CI in_progress at push (prior run d923ac8 SUCCESS)
-- nextRotationCategory: 275%5==0 → RESEARCH
+- iteration: 275
+- lastMode: RESEARCH
+- lastItem: competitor-gap-scan-275 — 6 net-new BACKLOG items (rosh-hashanah, kerem-hateimanim, egypt-jordan-israel, food-allergies, tisha-bav, mea-shearim)
+- lastResult: RESEARCH COMPLETE — 6 new items added to BACKLOG; no code changed
+- nextRotationCategory: 276%5==1 → BUILD (monetization)
 - higgsfieldSpent: 0
-- updatedAt: 2026-07-03T22:38Z
+- updatedAt: 2026-07-04T01:45Z
 - branch context: work on master; feature work on auto/<slug>
+
+Notes: iter 275 RESEARCH — competitor-gap-scan-275:
+  Mode RESEARCH (275%5==0). No code changed. Scanned: touristisrael.com, secrettelaviv.com,
+  beinharimtours.com, itraveljerusalem.com, timeout.com/israel, goisrael.com, thekotel.org,
+  planitisrael.com, traveler forums (holiday, food allergy, neighborhood queries).
+  Backlog extremely saturated (174+ ready items); focused on niche holiday content + neighborhood
+  guides + practical traveler-need gaps. 6 net-new items verified absent from backlog via grep:
+    (1) rosh-hashanah-in-israel (P2 S seo-content+monetization) — diaspora travelers' most-sought
+        holiday experience; Western Wall Kol Nidre/Musaf; Tashlich; advance hotel booking essential;
+        Sep 11-13 2026. Competitors: touristisrael.com, secrettelaviv.com, iTravelJerusalem all
+        have dedicated guides.
+    (2) kerem-hateimanim-tel-aviv (P2 S seo-content+monetization) — historic Yemenite Quarter SW of
+        Carmel Market; jachnun/malawach/lachuch/hilbe cuisine; vibrant LGBTQ-friendly creative scene;
+        distinct from tel-aviv-carmel-market.md. Competitors: beinharimtours.com, timeout.com/israel,
+        Fodor's, igoogledisrael.com all have standalone content.
+    (3) egypt-jordan-israel-itinerary (P2 M seo-content+monetization) — distinct from 2-country
+        iters in backlog (israel-jordan-itinerary, israel-egypt-guide); 3-country Middle East circuit
+        (Israel + Petra/Wadi Rum + Cairo/Pyramids); $5k–8k/person packages = high commercial intent.
+        touristisrael.com has THREE dedicated packages (10/12/14-day); TourRadar lists 10+ operators.
+    (4) israel-food-allergies-guide (P3 S seo-content) — no mandatory EU-style allergen labeling in
+        Israel; sesame ubiquitous (tahini, challah, burekas, dressings); labeling only in Hebrew/Arabic;
+        practical Hebrew allergy cards (allergyisrael.org.il); distinct from celiac/gluten-free guide
+        (separate backlog P2 entry). No editorial guide on our site.
+    (5) tisha-bav-in-israel (P3 S seo-content) — goisrael.com + thekotel.org + planitisrael.com have
+        dedicated pages; 25-hour fast; unique empty-Old-City-streets atmosphere; tens of thousands at
+        Western Wall Plaza for Eicha reading; July 22-23 2026. Zero backlog matches for "tisha/Tisha".
+    (6) mea-shearim-guide (P3 S seo-content) — beinharimtours.com + Danny the Digger + America Israel
+        Tours + goguided.tours all have standalone guides; GYG has "Mea Shearim hidden gems" tours;
+        only current site mention is inside SHIPPED israel-film-tv-tourism (Shtisel filming location),
+        not a standalone guide. Critical honesty notes: frame as living community not tourist attraction;
+        photography requires explicit permission; some residents object to tourism; guided tour preferred.
+  De-duped against backlog: shavuot already present; all 6 items confirmed absent.
+  COMPETITORS.md updated with iter275 scan results. No gate required (research only).
+  No commit to master beyond state update.
+  NEXT: iter 276 = BUILD (276%5==1 → monetization rotation).
 
 Notes: iter 274 REVIEW — review-seo-meta-274:
   Mode REVIEW (274%5==4). Reviewed work from iters 270-273.
