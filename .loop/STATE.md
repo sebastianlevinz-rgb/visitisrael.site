@@ -1,13 +1,56 @@
 # LOOP STATE
 
-- iteration: 286
+- iteration: 287
 - lastMode: BUILD
-- lastItem: neve-tzedek-guide
-- lastResult: shipped — /neve-tzedek-guide live on master b803fa4; 445 pages (+1); 574/574 pass (+2)
-- nextRotationCategory: seo-content (287%5==2 → BUILD · seo-content rotation)
+- lastItem: israel-hummus-trail
+- lastResult: shipped — /israel-hummus-trail live on master 6cc88b5; 446 pages (+1); 576/576 pass (+2)
+- nextRotationCategory: tools (288%5==3 → BUILD · tools rotation; tools all shipped → fall through to monetization)
 - higgsfieldSpent: 0
-- updatedAt: 2026-07-04T12:45Z
+- updatedAt: 2026-07-04T13:50Z
 - branch context: work on master; feature work on auto/<slug>
+
+Notes: iter 287 BUILD (seo-content) — israel-hummus-trail:
+  Mode BUILD (287%5==2 → seo-content rotation). Chose israel-hummus-trail (P2 S) — top
+  seo-content candidate from STATE.md iter286 notes. New /israel-hummus-trail — six-stop
+  restaurant circuit guide covering the canonical Israel hummus route.
+  Stops: (1) Abu Hassan / Ali Karavan, Jaffa HaDolphin 1 — silky Jaffa-style, opens 07:00,
+    closes when sold out ~13:00, cash only, closed Sat; order hummus + ful + boiled egg;
+    multiple imitators use similar name — specify Dolphin Street; (2) Abu Shukri, Jerusalem
+    Old City Muslim Quarter, 63 Al-Wad St near Via Dolorosa — denser earthier Jerusalem-style,
+    opens 08:00, closes mid-afternoon; (3) Azura, Jerusalem Machane Yehuda — Iraqi-Jewish
+    stovetop style, optional spiced lamb topping, lunch only ~11:00–15:00, credit cards OK;
+    (4) Abu Gosh village, Highway 1 10km W of Jerusalem — "Israel's informal hummus capital";
+    Abu Ghosh Restaurant + Caravan Restaurant; open Saturdays (advantage); (5) Hummus Said,
+    Akko Old City Ottoman arcades — most tahini-forward of the six, morning only 07:00–12:00;
+    combine with Akko Old City sightseeing; (6) Afteem, Bethlehem Manger Square — best-known
+    West Bank hummus; lighter style with tangier lemon; Checkpoint 300 crossing ~5 min for
+    foreign tourists; open mornings. Style explainer: Jerusalem = thicker/earthier/chickpea-
+    forward; Jaffa/Akko = silkier/more tahini. Arrival-early rule: all close by noon or when
+    sold out. Circuit plans: 1-day Jerusalem (Abu Shukri AM + Azura lunch + Abu Gosh on drive
+    back); TLV day (Abu Hassan AM + Jaffa explore); 2-day full circuit.
+  HONESTY: no declared "best"; uses "widely cited" / "most consistently recommended"; opening
+    hours change — "verify before visiting"; "best hummus" claim is "genuinely contested";
+    Abu Hassan imitators noted (specify Dolphin Street); Bethlehem = standard tourist West Bank
+    crossing, framed accurately; prices are approximate ranges.
+  Hero: /images/regions/tel-aviv/jaffa.jpg. 6 FAQs. 2 affiliate CTAs: GYG Jerusalem Food &
+    Hummus Tour + Viator Jaffa & Tel Aviv Street Food Walk.
+  Cross-links IN guide: jaffa-food-guide, jaffa-travel-guide, jerusalem-food-guide,
+    akko-acre-guide, vegan-vegetarian-israel, kosher-food-guide, is-israel-safe.
+  Cross-link BACK-WIRED: jaffa-food-guide.md end of Guided option section (new paragraph
+    pointing to /israel-hummus-trail as broader circuit); jerusalem-food-guide.md end of
+    article (pointing to /israel-hummus-trail for 6-stop circuit); israeli-food-cuisine-guide.md
+    hummus bullet (+sentence pointing to /israel-hummus-trail for the top addresses).
+  Footer Essentials: +1 "Israel hummus trail" link (after Jerusalem food guide).
+  Smoke +1; a11y +1 routes. 119 files (check).
+  SEO check: title="Israel Hummus Trail: The 6 Best Hummus Spots (2026)" = 52 chars ✓;
+    desc="The essential Israel hummus circuit — Abu Hassan in Jaffa, Abu Shukri in Jerusalem,
+    Abu Gosh, Hummus Said in Akko, Azura and Afteem in Bethlehem." = 147 chars ✓
+  Gate: pnpm check 0 errors (119 files) · build 446 pages (+1) · 576/576 e2e+a11y pass (+2). GREEN.
+  Ship: commit 6cc88b5 on master; pushed to origin/master; CI not yet confirmed (standard
+    pattern — Vercel uses separate CI integration).
+  NEXT: iter 288 = BUILD (288%5==3 → tools rotation; all 11 tools shipped → fall through to
+    monetization). Top monetization candidates: israel-agritourism-guide (P2 M),
+    egypt-jordan-israel-itinerary (P2 M), israel-jordan-itinerary (P2 M).
 
 Notes: iter 286 BUILD (monetization) — neve-tzedek-guide:
   Mode BUILD (286%5==1 → monetization rotation). Chose neve-tzedek-guide (P2 S) — top
