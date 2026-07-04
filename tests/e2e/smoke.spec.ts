@@ -312,6 +312,7 @@ const ROUTES = [
   '/israel-hummus-trail',
   '/israel-agritourism-guide',
   '/israel-jordan-itinerary',
+  '/christmas-in-israel',
 ];
 
 for (const route of ROUTES) {

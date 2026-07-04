@@ -23,7 +23,7 @@ Israel packs several climates into a small country, so the "best" time depends o
 
 **Autumn (September–November) — best overall.** Heat eases, the sea stays warm, and the olive harvest is under way. The Jewish High Holidays fall here and bring some closures.
 
-**Winter (December–February) — quiet and cheap.** Cool and green, with rain and the odd Jerusalem snow flurry. [Eilat](/eilat) and the Dead Sea become pleasant warm-weather escapes, and it's **peak season in the south**. Christmas in [Nazareth](/nazareth) and Bethlehem is special.
+**Winter (December–February) — quiet and cheap.** Cool and green, with rain and the odd Jerusalem snow flurry. [Eilat](/eilat) and the Dead Sea become pleasant warm-weather escapes, and it's **peak season in the south**. Christmas in [Nazareth](/nazareth) and Bethlehem is special — see the [Christmas in Israel guide](/christmas-in-israel) for Midnight Mass logistics, the Nazareth market, and winter travel tips.
 
 ## Quick month picker
 
