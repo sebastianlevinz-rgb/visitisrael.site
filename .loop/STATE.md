@@ -1,13 +1,26 @@
 # LOOP STATE
 
-- iteration: 275
-- lastMode: RESEARCH
-- lastItem: competitor-gap-scan-275 — 6 net-new BACKLOG items (rosh-hashanah, kerem-hateimanim, egypt-jordan-israel, food-allergies, tisha-bav, mea-shearim)
-- lastResult: RESEARCH COMPLETE — 6 new items added to BACKLOG; no code changed
-- nextRotationCategory: 276%5==1 → BUILD (monetization)
+- iteration: 276
+- lastMode: BUILD
+- lastItem: shopping-in-israel — new /shopping-in-israel monetization guide (markets, souvenirs, what to buy)
+- lastResult: BUILD COMPLETE — gate green (check 0 errors · build 440 pages +1 · 564/564 tests +2); commit 48302b8 pushed to master
+- nextRotationCategory: 277%5==2 → BUILD (seo-content)
 - higgsfieldSpent: 0
-- updatedAt: 2026-07-04T01:45Z
+- updatedAt: 2026-07-04T02:00Z
 - branch context: work on master; feature work on auto/<slug>
+
+Notes: iter 276 BUILD (monetization) — shopping-in-israel:
+  New /shopping-in-israel guide — four market cultures (Machane Yehuda/Jerusalem,
+  Carmel+Nahalat Binyamin+Levinsky/TLV, Jaffa Flea Market, Old City bazaars by quarter).
+  What-to-buy: spices, Dead Sea cosmetics (Ahava authenticity guidance), Israeli wine,
+  Medjool dates, Safed ceramics, olive wood, Judaica. 6 FAQs. 3 CTAs: GYG Machane Yehuda
+  food tour + GYG TLV Carmel Market/Levinsky spice tour + Viator Jaffa Flea Market.
+  Footer Essentials +1; cross-links from jaffa-travel-guide + mahane-yehuda-market-guide.
+  Gate: pnpm check 0 errors (118 files) · build 440 pages (+1) · 564/564 e2e+a11y pass (+2).
+  Ship: commit 48302b8 on master; pushed to origin/master; CI in_progress at push
+  (prior run 9f7531 SUCCESS confirmed).
+  Note: YAML apostrophe-escaping required 4 fix cycles (7 errors total); standard pattern.
+  NEXT: iter 277 = BUILD (277%5==2 → seo-content rotation).
 
 Notes: iter 275 RESEARCH — competitor-gap-scan-275:
   Mode RESEARCH (275%5==0). No code changed. Scanned: touristisrael.com, secrettelaviv.com,

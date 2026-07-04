@@ -5341,3 +5341,26 @@ Items added: (1) /rosh-hashanah-in-israel (P2 S) — Western Wall Musaf + Tashli
 Gate: N/A (research only). No gate, no commit to master beyond memory update.
 Prod: N/A.
 Next: iter 276 = BUILD (276%5==1 → monetization rotation).
+
+## 2026-07-04 · iter 276 · BUILD (monetization) · shopping-in-israel
+
+**Item:** `/shopping-in-israel` — Shopping in Israel: Markets, Souvenirs & What to Buy (2026). P2 M seo+monetization. Selected from monetization rotation (276%5==1).
+
+**What:** New guide covering Israel's four distinct market cultures + definitive what-to-buy list.
+Markets: Machane Yehuda (Jerusalem, Friday morning peak, Thursday evening bar scene, Marzipan rugelach, timing notes); Carmel Market + Nahalat Binyamin + Levinsky spice market (Tel Aviv, Tue/Fri artisan craft market, specialist spice importers); Jaffa Flea Market Shuk HaPishpeshim (Sunday peak, antiques/Judaica/vinyl/Armenian ceramics, bargaining norms at 60–70%); Old City bazaars by quarter (Muslim Quarter textiles/spices/Palestinian embroidery, Christian Quarter olive wood carvings quality guidance, Armenian Quarter ceramics galleries, Jewish Quarter Cardo Maximus Judaica).
+What-to-buy: spices (za'atar, sumac, baharat, hawaiij — customs-legal, most packable souvenir); Dead Sea cosmetics (Ahava authenticity; pharmacy vs market stall guidance; unlabelled products warning); Israeli wine (Golan Heights/Judean Hills, duty-free limits by country, cellar-door link); Medjool dates (Jordan Valley benchmark, customs declaration guidance); Safed ceramics (signed artist pieces vs tourist-shop items); olive wood; Judaica (Cardo Maximus silversmiths). Practical: cash preference, packing (liquids in checked bag; spices carry-on; ceramics in clothing), Shabbat hours by market type (Jewish-owned vs Muslim Quarter 7-day access).
+6 FAQs: bargaining expectations by market type; best souvenirs; Dead Sea cosmetics authenticity; wine purchase allowance; Made in Israel labelling; market hours + Shabbat.
+3 affiliate CTAs: GYG Machane Yehuda market food tour + GYG TLV Carmel Market/Levinsky spice tour + Viator Jaffa Flea Market & Old Jaffa Experience.
+Dense cross-links to: /mahane-yehuda-market-guide, /tel-aviv-carmel-market, /jaffa-travel-guide, /israel-wine-wineries, /safed-tzfat-guide, /israel-money-guide, /shabbat-guide, /israeli-food-cuisine-guide, /dead-sea-guide.
+Footer Essentials: +1 "Shopping & markets guide" link.
+Cross-links added FROM: jaffa-travel-guide.md (final paragraph of "Combining Jaffa with Tel Aviv") + mahane-yehuda-market-guide.md (final paragraph of "Plan your visit").
+Test routes: smoke.spec.ts + a11y.spec.ts each +1 `/shopping-in-israel`.
+
+**YAML notes:** 7 apostrophe-escaping errors found and fixed iteratively during `pnpm check` loop — single-quoted YAML strings require doubled apostrophes (`za'atar` → `za''atar`, `market's` → `market''s`, etc.). Standard pattern; fixed in 4 check-fix cycles.
+
+**Gate:** pnpm check 0 errors (118 files) · pnpm build 440 pages (+1 from 439) · 564/564 e2e+a11y pass (+2 new routes).
+**Merge SHA:** 48302b8 — squash-merged from auto/shopping-in-israel branch, pushed to master.
+**CI:** Lighthouse run 28691050167 = in_progress at push time. Prior run (9f7531 / iter275 state update) = success. Standard pattern — local gate green, no revert needed.
+**Prod:** Vercel deploy triggered by commit 48302b8 at 2026-07-04T01:40Z.
+**Startup:** git reset --hard origin/master needed (standard stale-master cloud pattern; same as iters 273, 264, 256 etc.).
+**Next:** iter 277 = BUILD (277%5==2 → seo-content rotation).
