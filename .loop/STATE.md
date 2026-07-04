@@ -1,13 +1,40 @@
 # LOOP STATE
 
-- iteration: 296
-- lastMode: BUILD (296%5==1 → monetization rotation)
-- lastItem: maccabiah-games-2026
-- lastResult: SHIPPED — /maccabiah-games-2026 spectator guide (URGENT: games running now Jun30–Jul13); commit 7102458; 451 pages (+1); 589/589 e2e pass (+1); GREEN gate
-- nextRotationCategory: 297%5==2 → BUILD (seo-content rotation)
+- iteration: 297
+- lastMode: BUILD (297%5==2 → seo-content rotation)
+- lastItem: israel-hidden-gems
+- lastResult: SHIPPED — /israel-hidden-gems (11 off-the-beaten-path sites hub); commit ce7114c; 452 pages (+1); 590/590 e2e pass (+1); GREEN gate
+- nextRotationCategory: 298%5==3 → BUILD (tools rotation)
 - higgsfieldSpent: 0
-- updatedAt: 2026-07-04T22:40Z
+- updatedAt: 2026-07-04T23:45Z
 - branch context: work on master; feature work on auto/<slug>
+
+Notes: iter 297 BUILD (seo-content) — israel-hidden-gems:
+  Mode BUILD (297%5==2 → seo-content rotation). Top P2 seo-content item chosen: israel-hidden-gems.
+  New /israel-hidden-gems: 11 off-the-beaten-path sites hub. Sites covered: Nimrod Fortress
+  (Golan Crusader/Mamluk castle), Beit Guvrin & Maresha (UNESCO 3,000-room cave network),
+  Wadi Qelt canyon + St George Monastery (Jerusalem→Jericho descent), Herodion (Herod's
+  fortress-tomb, less crowded Masada rival), Tel Megiddo/Armageddon (26 layers, water tunnel),
+  Timna Park (Egyptian copper mines + Solomon's Pillars, Negev), Ein Hod artists village (Carmel,
+  Marcel Janco/Dada), Rosh Pina (1882 Rothschild village + Nimrod Lookout), Mar Saba Monastery
+  (483 CE Byzantine cliff monastery), Beit She'an Roman ruins (749 CE earthquake freeze), Achziv
+  (Phoenician port + Achzivland micro-nation). Format: narrative site cards with region context,
+  best season, transport requirements, combining suggestions, internal cross-links.
+  Dense cross-links: masada-visitor-guide, ein-gedi-guide, day-trips-from-haifa, akko-acre-guide,
+  eilat-diving-snorkeling, car-rental-israel, private-tours-israel, caesarea-guide,
+  1-day-jerusalem-itinerary, tiberias-guide, safed-tzfat-guide, sea-of-galilee-boat-tour,
+  galilee-tours-compared, dead-sea-guide.
+  HONESTY: no fabricated prices/ratings; "approximately ₪30" framing for museum entries;
+  "roughly 2–3 weeks" for cherry season; always "verify before visiting" for Area C sites.
+  3 affiliate CTAs: GYG "hidden Israel" private tours + GYG Beit Guvrin caves + GYG Wadi Qelt.
+  Smoke test: /israel-hidden-gems added to ROUTES.
+  Gate: pnpm check 0 errors (119 files) · build 452 pages (+1) · 590/590 e2e pass (+1). GREEN.
+  Ship: committed ce7114c to master; pushed origin/master.
+  NEXT: iter 298 → BUILD (298%5==3 → tools rotation). Top tools BUILD candidates:
+    jerusalem-nightlife (P2 S, new seo+monetization — but tools is the rotation category);
+    tools backlog candidates: tipping-interactive-calculator (P2 S), israel-noise-calendar (P3 S),
+    accessible-travel-israel (P2 M), muslim-travel-israel (P2 M) — check tools section of BACKLOG
+    for ready P1/P2 items first; else fall through to seo-content.
 
 Notes: iter 296 BUILD (monetization) — maccabiah-games-2026:
   Mode BUILD (296%5==1 → monetization rotation). URGENT item chosen: Maccabiah Games 2026

@@ -5574,3 +5574,10 @@ Gate: pnpm check 0 errors (119 files) · build 451 pages (+1) · 589/589 e2e+a11
 Ship: 3 files staged (maccabiah-games-2026.md new, israel-events-festivals.md modified, smoke.spec.ts modified); commit 7102458 on master; pushed origin/master.
 Prod deploy: pending Vercel CI.
 Next: iter 297 → BUILD (297%5==2 → seo-content rotation). Top candidates: israel-hidden-gems (P2 M), self-drive-road-trip (P2 M), muslim-travel-israel (P2 M), accessible-travel-israel (P2 M), backpacking-israel (P2 M), jerusalem-nightlife (P2 S).
+
+## 2026-07-04T23:45Z · iter 297 · BUILD (seo-content) · israel-hidden-gems
+What: New /israel-hidden-gems guide — 11 off-the-beaten-path sites hub: Nimrod Fortress, Beit Guvrin & Maresha UNESCO caves, Wadi Qelt canyon, Herodion, Tel Megiddo, Timna Park, Ein Hod, Rosh Pina, Mar Saba Monastery, Beit She'an Roman ruins, Achziv beach. 3 GYG affiliate CTAs; dense internal cross-links to 14+ existing guides.
+Gate: pnpm check 0 errors · build 452 pages (+1) · 590/590 e2e pass (+1). GREEN.
+Ship: squash-merged auto/israel-hidden-gems → master; commit ce7114c; pushed origin/master.
+Prod: CI pending at push time (standard); next iteration will confirm.
+Next: iter 298 → BUILD (tools rotation).
