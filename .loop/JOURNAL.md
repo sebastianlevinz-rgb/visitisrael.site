@@ -5468,3 +5468,31 @@ Backlog saturation confirmed at 338+ items from 57 prior research passes — fin
 De-duped and confirmed already covered (not re-added): surfing (iter105), street-art/florentin (iter200), mediterranean-diving (iter190), photography (iter30), hot-air-balloon/olive-harvest/wine-harvest (iter265), glamping (SHIPPED iter268), druze-carmel (SHIPPED iter193), rav-kav (SHIPPED iter98), vegan (SHIPPED iter242), birdwatching (iter200), stargazing/skiing (iter60+160), wildflowers (iter120+155), paragliding (adventure-sports guide).
 Gate: N/A (research only, no code changes). No branch created.
 Next: iter 291 → BUILD (291%5==1 → monetization rotation). Top monetization BUILD candidates: egypt-jordan-israel-itinerary (P2 M), israel-jordan-itinerary (P2 M), dead-sea-hotels-guide (P2 S).
+
+## 2026-07-04T17:45Z · iter 291 · BUILD (monetization) · israel-jordan-itinerary
+
+Mode: BUILD (291%5==1 → monetization rotation). Startup: git reset --hard origin/master needed
+(fresh cloud checkout; local was at iter172; remote at iter290 5d46229). Items completed:
+
+What: New /israel-jordan-itinerary — 10-day combined Israel + Jordan itinerary guide.
+Route: Jerusalem 3 days (Old City, Mount of Olives, Yad Vashem, Bethlehem day trip) →
+  Dead Sea (day 4, Ein Bokek) → Masada sunrise + drive to Eilat (day 5) → Wadi Araba border →
+  Petra full day (day 7) → Wadi Rum overnight Bedouin camp (day 8) → Amman (day 9) →
+  Jerash (day 10 morning) → Allenby Bridge → Israel.
+Distinct from: petra-from-israel.md (single-day/overnight from Eilat); petra-from-eilat-vs-amman.md
+  (Jordan-side comparison). This is the full multi-day Israel+Jordan trip.
+Content: at-a-glance table, day-by-day breakdown (Days 1-10), two structured tables (route overview
+  + border crossing comparison), Jordan Pass section, Shabbat timing, dual-stamp explanation,
+  practical tips (transport in Jordan; Israeli car hire restriction; budget; season). 6 FAQs.
+HONESTY: ranges only; border hours "typical — verify current"; dual-stamp section caveated to
+  "check with embassy"; Jordan Pass links official; no fabricated ratings/reviews.
+3 affiliate CTAs: TourRadar (packages), Viator (Petra + Wadi Rum), GYG (Jordan Pass).
+Back-wired: petra-from-israel.md final paragraph → israel-jordan-itinerary.
+Footer Day Trips: +1 link after petra-from-israel.
+YAML gotcha: single-quote apostrophe bug (nationality's) fixed before check passed.
+
+Gate: pnpm check 0 errors (118 files) · build 448 pages (+1) · 580/580 e2e+a11y pass (+2). GREEN.
+Ship: commit 6fe447d on master; pushed to origin/master.
+CI: in_progress at write time (standard pattern — 57+ prior runs all success); no revert triggered.
+NEXT: iter 292 = seo-content (292%5==2). Top candidates: hidden-gems hub (P2 M), christmas-in-israel
+  (P2 M), self-drive-israel-road-trip (P2 M), backpacking-israel (P2 M), i18n Phase 3 (regions).
