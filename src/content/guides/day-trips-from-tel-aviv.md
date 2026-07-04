@@ -51,6 +51,7 @@ faqs:
 - **[Jerusalem](/jerusalem)** — *~45 min by train.* The number-one trip: the [Old City](/jerusalem/old-city), [Western Wall](/jerusalem/western-wall) and [Holy Sepulchre](/jerusalem/holy-sepulchre). For a minute-by-minute plan, see the [1-day Jerusalem itinerary](/1-day-jerusalem-itinerary).
 - **[Caesarea](/caesarea), [Haifa](/haifa) & [Akko](/akko)** — *the northern coast.* Roman ruins, the [Bahá'í Gardens](/haifa/bahai-gardens) and a Crusader port in one guided day. See the full [Caesarea day-trip guide](/caesarea-guide) and [Akko travel guide](/akko-acre-guide).
 - **[Masada](/dead-sea/masada) & the [Dead Sea](/dead-sea)** — *~2 hrs.* The desert classic; easiest by tour.
+- **[Herzliya](/herzliya-guide)** — *~20 min by Green Line light rail.* Apollonia National Park's clifftop Crusader ruins, the Marina waterfront for lunch, and Acadia Beach. One of the most undervisited INPA sites within easy reach of Tel Aviv.
 - **[Netanya](/netanya-guide)** — *~45 min by train on the coastal line.* Cliff-top promenade, 14 km of Mediterranean beach, the Stern Diamond Factory tour and a Franco-Israeli café culture unlike anywhere else in Israel.
 - **The [Galilee](/galilee) & [Nazareth](/nazareth)** — *longer.* Better with an early start or a guide.
 

@@ -189,6 +189,7 @@ const ROUTES = [
   '/shopping-in-israel',
   '/rosh-hashanah-in-israel',
   '/kerem-hateimanim-tel-aviv',
+  '/herzliya-guide',
 ];
 
 for (const route of ROUTES) {

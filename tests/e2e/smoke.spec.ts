@@ -84,6 +84,7 @@ const ROUTES = [
   '/israeli-street-food-guide',
   '/israeli-breakfast-guide',
   '/netanya-guide',
+  '/herzliya-guide',
   '/solo-female-travel-israel',
   '/jordan-river-baptism',
   '/israel-shabbat-countdown',
