@@ -224,7 +224,7 @@ const schema = [breadcrumbList(crumbs), faqPage(faqs)];
     { name: 'Yom HaZikaron',  start: [2026,4,21],  end: [2026,4,21],  type: 'full'    },
     { name: "Yom Ha'atzmaut", start: [2026,4,22],  end: [2026,4,22],  type: 'partial' },
     { name: 'Shavuot',        start: [2026,5,21],  end: [2026,5,22],  type: 'full'    },
-    { name: 'Tisha B\'Av',    start: [2026,7,22],  end: [2026,7,23],  type: 'full'    },
+    { name: 'Tisha B\'Av',    start: [2026,7,22],  end: [2026,7,22],  type: 'full'    },
     { name: 'Rosh Hashanah',  start: [2026,9,11],  end: [2026,9,12],  type: 'full'    },
     { name: 'Yom Kippur',     start: [2026,9,20],  end: [2026,9,20],  type: 'full'    },
     { name: 'Sukkot',         start: [2026,9,25],  end: [2026,9,25],  type: 'full'    },
@@ -305,8 +305,15 @@ const schema = [breadcrumbList(crumbs), faqPage(faqs)];
                      'July','August','September','October','November','December'];
 
   function toDate(arr) {
-    // arr = [YYYY, MM, DD], 1-indexed month
+    // arr = [YYYY, MM, DD], 1-indexed month — constructed as local time
     return new Date(arr[0], arr[1] - 1, arr[2]);
+  }
+
+  function parseLocalDate(str) {
+    // "YYYY-MM-DD" from a date input: parse as local time, not UTC midnight.
+    // new Date("YYYY-MM-DD") is UTC, causing off-by-one errors in UTC-offset timezones.
+    var p = str.split('-');
+    return new Date(+p[0], +p[1] - 1, +p[2]);
   }
 
   function isoDate(d) {
@@ -434,8 +441,8 @@ const schema = [breadcrumbList(crumbs), faqPage(faqs)];
       return;
     }
 
-    var start = new Date(startVal);
-    var end   = new Date(endVal);
+    var start = parseLocalDate(startVal);
+    var end   = parseLocalDate(endVal);
     errEl.classList.add('hidden');
 
     if (end <= start) {
