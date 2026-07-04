@@ -1,13 +1,37 @@
 # LOOP STATE
 
-- iteration: 279
-- lastMode: REVIEW
-- lastItem: review-desc-trim-279 — trimmed rosh-hashanah-in-israel description from 169→158 chars (9 over 160 limit); all other reviewed content clean
-- lastResult: REVIEW COMPLETE — 1 defect found/fixed; gate green (check 0 errors · build 441 pages · 566/566 tests); commit 0f7c9c1 pushed to master
-- nextRotationCategory: 280%5==0 → RESEARCH mode
+- iteration: 280
+- lastMode: RESEARCH
+- lastItem: competitor-gap-scan-280
+- lastResult: RESEARCH COMPLETE — 7 net-new items added (herzliya-guide, nachalat-binyamin-market, israel-agritourism-guide, tel-aviv-pub-crawl, galilee-christian-sites-circuit, gan-hashlosha-guide, jordan-river-baptism-site)
+- nextRotationCategory: monetization (281%5==1 → BUILD monetization rotation)
 - higgsfieldSpent: 0
-- updatedAt: 2026-07-04T04:36Z
+- updatedAt: 2026-07-04T09:20Z
 - branch context: work on master; feature work on auto/<slug>
+
+Notes: iter 280 RESEARCH — competitor-gap-scan-280:
+  Mode RESEARCH (280%5==0). No code changed. Scanned: tripadvisor.com Herzliya, isrotel.com,
+  beinharimtours.com (nachalat-binyamin/farming/galilee-christian-sites), abrahamtours.com
+  pub-crawl, getyourguide.com t445735, d-tlv.com, breakingtravelnews.com + travelandtourworld.com
+  (13M ILS agro-tourism 2026 investment), yardenit.com, parks.org.il/qasr-el-yahud,
+  laidbacktrip.com/sachne-warm-springs, christiansintheland.com/galilee-circuit, touristisrael.com.
+  Backlog at ~174 ready items; methodical grep de-dup across full 671-line BACKLOG.md.
+  7 net-new items confirmed absent from backlog:
+    (1) herzliya-guide P2 S — Apollonia NP + Marina + Acadia Beach; Green Line 20 min from TLV
+    (2) nachalat-binyamin-market P3 S — 200+ artists Tue/Fri; distinct from Carmel/Jaffa markets;
+        shopping-in-israel.md (iter276) covers in 1 sentence
+    (3) israel-agritourism-guide P2 M — year-round picking calendar; 13M ILS 2026 govt investment
+    (4) tel-aviv-pub-crawl P3 S — Abraham Tours + D-TLV + GYG t445735; distinct from nightlife/rooftop-bars
+    (5) galilee-christian-sites-circuit P2 M — 7 NT sites self-drive loop; referenced in STATE.md
+        iter273 as cross-link target but never in backlog
+    (6) gan-hashlosha-guide P3 S — 28°C springs INPA; referenced in megiddo guide as day-combo only
+    (7) jordan-river-baptism-site P3 S — Yardenit vs. Qasr el-Yahud dual-site guide; referenced in
+        STATE.md iter273 cross-links but no standalone backlog entry
+  COMPETITORS.md updated with iter280 scan results. No gate required (research only).
+  Backlog now ~181 ready items.
+  NEXT: iter 281 = BUILD (281%5==1 → monetization rotation). Top monetization candidates:
+    kerem-hateimanim-tel-aviv (P2 S), egypt-jordan-israel-itinerary (P2 M), herzliya-guide (P2 S),
+    dead-sea-hotels-guide (P2 S), israel-agritourism-guide (P2 M).
 
 Notes: iter 279 REVIEW — review-desc-trim-279:
   Reviewed iters 276-278 (shopping-in-israel, rosh-hashanah-in-israel, holiday-date-fix).

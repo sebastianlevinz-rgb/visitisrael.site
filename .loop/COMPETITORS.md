@@ -3430,3 +3430,36 @@ Backlog extremely saturated at 174+ ready items after iter274. Strategy: focus o
 - /israel-food-allergies-guide (P3, seo-content, S)
 - /tisha-bav-in-israel (P3, seo-content, S)
 - /mea-shearim-guide (P3, seo-content, S)
+
+<!-- iter280 research additions — 2026-07-04 — sources: tripadvisor.com Herzliya, isrotel.com/exploring-herzliya, beinharimtours.com (nachalat-binyamin / farming / galilee-christian-sites), abrahamtours.com/tours/tel-aviv-pub-crawl, getyourguide.com t445735, d-tlv.com, breakingtravelnews.com (agro-tourism 13M ILS), travelandtourworld.com, yardenit.com, parks.org.il/qasr-el-yahud, laidbacktrip.com/sachne-warm-springs, christiansintheland.com/galilee-circuit, touristisrael.com -->
+
+### 2026-07-04 · iter 280 · competitor gap scan
+
+- **herzliya-guide**: tripadvisor.com/Herzliya + isrotel.com/exploring-herzliya + trip.com/herzliya all rank for "things to do in Herzliya" — Apollonia NP (INPA Crusader ruins on cliffs), Sharon Beach / Acadia Beach, Marina, Museum of Contemporary Art Herzliya; 20 min from TLV on Green Line; ZERO editorial on our site.
+- **nachalat-binyamin-market**: beinharimtours.com/nachalat-binyamin + secrettelaviv.com + tripadvisor.com rank; 200+ artists Tue/Fri only; shopping-in-israel.md (SHIPPED iter276) covers in one sentence only; distinct from Carmel Market (food) and Jaffa Flea Market (vintage); gap confirmed.
+- **israel-agritourism-guide**: breakingtravelnews.com confirmed 13M ILS govt 2026 investment in Galilee agro-tourism; beinharimtours.com/farming-in-israel + tripadvisor.com (15+ farms) + agtoursusa.com/israel all have content; year-round seasonal picking calendar (strawberry Feb-Mar, citrus Nov-Feb, cherry Jun Golan, date Sep-Oct Arava, banana Jordan Valley) is a genuine gap on our site; distinct from olive harvest guide (seasonal-specific) and wine harvest guide.
+- **tel-aviv-pub-crawl**: abrahamtours.com/tours/tel-aviv-pub-crawl + d-tlv.com + getyourguide.com/t445735 + touristisrael.com/tours/tel-aviv-nightlife-tour all operate dedicated bar-hop products; 100+ 2026 TripAdvisor reviews on top crawl product; distinct from tel-aviv-nightlife (clubs/DJs) and israel-rooftop-bars (SHIPPED iter266); Florentin / Rothschild / Allenby neighborhoods as crawl spine.
+- **galilee-christian-sites-circuit**: beinharimtours.com/galilee-christian-sites + christiansintheland.com + holylandsite.com + GYG top-selling Israel product; 7 NT sites in 120km self-drive loop (Nazareth, Cana, Mount Tabor, Capernaum, Tabgha, Mount of Beatitudes, Yardenit); referenced as cross-link in sea-of-galilee-boat-tour (STATE.md iter273) but NEVER entered in backlog; distinct from christian-pilgrimage-holy-land.md (national) and nazareth-travel-guide.md (city only).
+- **gan-hashlosha-guide**: touristisrael.com/gan-hashlosha + laidbacktrip.com/sachne + tripadvisor.com (#1 attraction Beit She'an Valley) all have dedicated content; 28°C freshwater springs year-round; INPA pass valid; 15 min from Beit Alfa Byzantine mosaic (UNESCO candidate), 10 min from Beit She'an Roman ruins; referenced in megiddo-guide as day-combo but no standalone backlog entry or page.
+- **jordan-river-baptism-site**: yardenit.com (~450k visitors/yr) + parks.org.il/qasr-el-yahud + seetheholyland.net + beinharimtours.com all have dedicated coverage; two distinct sites confuse visitors (Yardenit = commercial/pilgrimage-kitted vs. Qasr el-Yahud = historically proposed site near Jericho, INPA-managed, reopened 2011 after landmine clearance); referenced as cross-link target "jordan-river-baptism" in STATE.md iter273 but no standalone backlog entry existed.
+
+**Research approach:**
+Backlog at ~174 ready items (extremely saturated after 280 iterations). Strategy: (a) coastal/beach-town city guides missing from site (Herzliya); (b) market/neighborhood guides where SHIPPED shopping-in-israel only scratches the surface; (c) emerging agro-tourism content backed by 2026 government investment; (d) nightlife sub-niche (pub crawl vs. clubs vs. rooftop bars each has distinct search intent); (e) religious circuit routes with proven GYG sales history; (f) cross-link targets in STATE.md iter273 that were never formally entered in BACKLOG. Methodical grep de-dup across entire 671-line BACKLOG.md before finalising.
+
+**De-duplication checks (confirmed in backlog or DONE — skipped):**
+- sports-events-israel: P3 present (line 124)
+- ashdod-cruise-port-excursions: P2 present (line 565)
+- maccabiah-games-2026: P2 present (line 321)
+- mahane-yehuda-market: SHIPPED iter215 (confirmed grep)
+- tel-aviv-street-art: P2 present (line 331)
+- cruise-shore-excursions: SHIPPED iter32 (confirmed grep)
+- tel-aviv nightlife (general): SHIPPED; rooftop-bars: SHIPPED iter266
+
+**Net-new BACKLOG items added (7):**
+- /herzliya-guide (P2, seo-content+monetization, S)
+- /israel-agritourism-guide (P2, seo-content+monetization, M)
+- /galilee-christian-sites-circuit (P2, seo-content+monetization, M)
+- /tel-aviv-pub-crawl (P3, seo-content+monetization, S)
+- /jordan-river-baptism-site (P3, seo-content+monetization, S)
+- /nachalat-binyamin-market (P3, seo-content, S)
+- /gan-hashlosha-guide (P3, seo-content, S)
