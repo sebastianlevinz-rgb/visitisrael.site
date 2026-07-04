@@ -1,6 +1,6 @@
 ---
 title: 'Rosh Hashanah in Israel: Jewish New Year Travel Guide (2026)'
-description: "Experience Rosh Hashanah in Israel — Western Wall Musaf prayers, Tashlich on the Yarkon, honey cakes and High Holiday atmosphere. Dates, booking tips and what to expect."
+description: "Experience Rosh Hashanah in Israel — Western Wall Musaf prayers, Tashlich on the Yarkon, honey cakes and High Holiday atmosphere. 2026 dates and booking tips."
 heroImage: /images/regions/jerusalem/western-wall.jpg
 category: Planning
 updatedAt: 2026-07-04
