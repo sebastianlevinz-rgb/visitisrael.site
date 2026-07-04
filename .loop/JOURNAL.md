@@ -5496,3 +5496,21 @@ Ship: commit 6fe447d on master; pushed to origin/master.
 CI: in_progress at write time (standard pattern — 57+ prior runs all success); no revert triggered.
 NEXT: iter 292 = seo-content (292%5==2). Top candidates: hidden-gems hub (P2 M), christmas-in-israel
   (P2 M), self-drive-israel-road-trip (P2 M), backpacking-israel (P2 M), i18n Phase 3 (regions).
+
+## 2026-07-04T18:35Z · iter 292 · BUILD (seo-content) · christmas-in-israel
+What: new /christmas-in-israel guide — Christmas in Israel + Winter travel guide (P2, M, seo-content+monetization).
+  Three Christmas dates (Catholic Dec 24, Orthodox Jan 6, Armenian Jan 18–19) with distinct ceremony detail.
+  Church of the Nativity Bethlehem: Midnight Mass, ticket requirement via Latin Patriarchate, Manger Square outdoor access.
+  Checkpoint 300 logistics: tourist passport processing 5–20 min, Palestinian taxis, Ministry of Tourism shuttle buses
+    (honest framing: "typically offered — verify with MFA annually; not guaranteed").
+  Jerusalem: Church of Holy Sepulchre denominations + Christmas processions; Christian Quarter atmosphere.
+  Nazareth: largest Arab-Christian celebration inside Israel; Basilica of the Annunciation; market and procession.
+  Tel Aviv: secular New Year Dec 31, Dizengoff Square + beach.
+  Winter advantages: fewer crowds, lower prices outside peak week, green landscapes, Eilat/Dead Sea warm season.
+  Jerusalem snow: framed as unpredictable and magical, not guaranteed.
+  6 FAQs, 3 affiliate CTAs: TourRadar (Christmas packages) + Abraham Tours (winter day trips) + Booking.com (hotels).
+  Back-wired: best-time-to-visit-israel.md winter section → /christmas-in-israel.
+  Smoke +1 route (/christmas-in-israel).
+Gate: pnpm check 0 errors (118 files) · build 449 pages (+1) · 581/581 e2e+a11y pass (+1). GREEN.
+Ship: commit ab300e6 on master; pushed to origin/master.
+NEXT: iter 293 = tools (293%5==3).
