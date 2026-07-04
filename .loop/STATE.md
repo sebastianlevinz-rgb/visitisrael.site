@@ -1,13 +1,28 @@
 # LOOP STATE
 
-- iteration: 292
-- lastMode: BUILD (292%5==2 → seo-content rotation)
-- lastItem: christmas-in-israel
-- lastResult: BUILD SHIPPED — gate green (0 errors / 449 pages / 581 e2e+a11y pass +1); commit ab300e6 on master; CI in_progress at push (standard pattern — prior runs all success)
-- nextRotationCategory: 293%5==3 → tools
+- iteration: 293
+- lastMode: BUILD (293%5==3 → tools rotation)
+- lastItem: israel-effective-days
+- lastResult: BUILD SHIPPED — gate green (0 errors / 450 pages / 588 e2e+a11y pass +7); commit fbf10f5 on master; CI in_progress at push (standard pattern — prior runs all success)
+- nextRotationCategory: 294%5==4 → technical
 - higgsfieldSpent: 0
-- updatedAt: 2026-07-04T18:35Z
+- updatedAt: 2026-07-04T19:42Z
 - branch context: work on master; feature work on auto/<slug>
+
+Notes: iter 293 BUILD (tools) — israel-effective-days:
+  Mode BUILD (293%5==3 → tools rotation). Chose israel-effective-days (P2 S) — "Effective
+  Touring Days Calculator". Distinguishable from existing tools: /israel-how-many-days takes
+  region inputs → outputs days needed; /israel-holiday-planner qualitative impact by holiday;
+  new tool takes arrival/departure dates → quantitative effective-days score with visual calendar.
+  Algorithm: weekday=1.0, Friday=0.8, Shabbat=0.6, full-closure holiday=0.4, partial=0.8,
+  arrive/depart=0.5. Visual week-by-week calendar with colour-coded cells. Itinerary CTA matched
+  to effective-days bucket (<3.5→3-day Jerusalem, ≤5.5→5-day, ≤8.5→7-day, ≤12→10-day, else→browse).
+  2026–2027 full Jewish holiday dataset. 5 FAQs. Booking.com CTA.
+  Wired into plan-your-trip hub and i18n (en/fr/de). 7 new e2e tests.
+  Gate: pnpm check 0 errors (119 files) · build 450 pages (+1) · 588/588 e2e pass (+7). GREEN.
+  Ship: squash-merge auto/israel-effective-days → master; commit fbf10f5; pushed origin/master.
+  NEXT: iter 294 → technical (294%5==4 → review). Candidates: link-rot pass, meta-audit,
+    schema validator sweep, or any P2-T technical backlog item.
 
 Notes: iter 292 BUILD (seo-content) — christmas-in-israel:
   Mode BUILD (292%5==2 → seo-content rotation). Chose christmas-in-israel (P2 M) — backlog

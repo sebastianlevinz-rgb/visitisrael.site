@@ -486,6 +486,8 @@ Mode RESEARCH (180%5==0). No code changed. Searched: Haifa travel guide gap, Gol
 
 - [SHIPPED iter198] /israel-experience-finder — 6-question activity quiz → 5 profiles (Cultural Explorer, Adventure Seeker, Spiritual Pilgrim, Foodie & City Explorer, Beach & Relaxation); GYG + Booking.com CTAs; share link; 498 tests pass → e68148d
 
+- [SHIPPED iter293] /israel-effective-days — "Effective Touring Days Calculator": arrival + departure date pickers → quantitative effective-days score. Day weights: weekday=1.0, Friday=0.8, Shabbat=0.6, full-closure holiday=0.4, partial holiday=0.8, arrive/depart=0.5. Week-by-week visual calendar with 6-colour coding (emerald/amber/indigo/rose/orange/stone). Itinerary CTA matched to effective-days bucket. 2026–2027 full Jewish holiday dataset. 5 FAQs. Booking.com CTA. Wired into plan-your-trip hub (#20). i18n (en/fr/de). 7 new e2e tests. 450 pages; 588/588 e2e pass → fbf10f5
+
 - [DUPLICATE of iter83] israel-visa-checker — near-duplicate of /israel-visa-eta-checker (iter83, a576156) which covers 150+ countries with ETA-IL/tourist-visa/consulate-visa lookup. Removed from active backlog.
 
 <!-- iter200 research additions — 2026-06-30 — 7 net-new items (Israel Museum Jerusalem, Israel in Spring, Golan Heights guide, Western Wall Tunnels tour, Tower of David Museum, VAT refund guide, Tel Aviv street art) -->

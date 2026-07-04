@@ -5514,3 +5514,16 @@ What: new /christmas-in-israel guide — Christmas in Israel + Winter travel gui
 Gate: pnpm check 0 errors (118 files) · build 449 pages (+1) · 581/581 e2e+a11y pass (+1). GREEN.
 Ship: commit ab300e6 on master; pushed to origin/master.
 NEXT: iter 293 = tools (293%5==3).
+
+## 2026-07-04 · iter 293 · BUILD (tools) · israel-effective-days
+What: new /israel-effective-days — "Effective Touring Days Calculator".
+  Takes arrival/departure dates → quantitative effective-days score with visual calendar.
+  Distinct from /israel-how-many-days (region→days) and /israel-holiday-planner (qualitative).
+  Algorithm: weekday=1.0, Friday=0.8, Shabbat=0.6, full-closure holiday=0.4, partial=0.8,
+  arrive/depart=0.5. Week-by-week visual calendar with 6-colour coding. Itinerary CTA matched
+  to effective-days bucket. 2026–2027 full Jewish holiday dataset. 5 FAQs, Booking.com CTA.
+  Wired into plan-your-trip hub (tool #20). i18n added (en/fr/de). 7 new e2e tests.
+  TypeScript fix: affiliateUrl called with { city, destId } → corrected to { destination }.
+Gate: pnpm check 0 errors (119 files) · build 450 pages (+1) · 588/588 e2e pass (+7). GREEN.
+Ship: squash-merged auto/israel-effective-days → master; commit fbf10f5; pushed to origin/master.
+NEXT: iter 294 = technical/review (294%5==4).
