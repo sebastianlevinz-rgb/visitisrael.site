@@ -537,3 +537,6 @@ guides. 3× affiliate CTAs, 6 FAQs, cross-link from /jerusalem region page.
 
 ## iter 282 — herzliya-guide (8933b7b)
 - /herzliya-guide — Herzliya day trip & beach city guide. Covers Apollonia National Park (Crusader Château d'Arsuf cliff ruins, INPA pass valid), Herzliya Marina (waterfront lunch), Acadia Beach (Blue Flag), Herzliya Museum of Contemporary Art. Getting there: Green Line light rail ~20 min ₪6.90. Day plan (half/full day) + northern coast circuit. 2 affiliate CTAs (GYG + Booking.com). 6 FAQs. 443 pages (+1). 570/570 tests pass (+2).
+
+## iter 283 — tel-aviv-beach-guide (78c7ff7)
+- /tel-aviv-beach-guide — Dedicated Tel Aviv beach guide (tools-fallthrough → seo-content+monetization). 7 named beaches north→south: Hilton (LGBTQ+/dog/surf zones), Gordon (central hub), Frishman (family), Banana/Bograshov (young crowd), Jerusalem/Geula Beach (best surf break, TLV Surf Club, ₪80/hr), Alma (quietest/local), Nordau (Orthodox gender-separated). Jellyfish season warning (Jul–Aug), flag system, disabled access (free beach wheelchairs via municipality app), getting there by bus/light rail. Cross-link added to best-beaches-israel.md + Footer Essentials. 2 affiliate CTAs (Booking.com TLV beachfront + GYG beach experiences). 444 pages (+1); 572/572 tests pass (+2). [seo-content+monetization]

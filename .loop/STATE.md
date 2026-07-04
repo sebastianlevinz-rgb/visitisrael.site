@@ -1,13 +1,40 @@
 # LOOP STATE
 
-- iteration: 282
+- iteration: 283
 - lastMode: BUILD
-- lastItem: herzliya-guide
-- lastResult: GREEN — /herzliya-guide shipped (seo-content+monetization, P2 S) · commit 8933b7b · 443 pages (+1) · 570/570 pass (+2)
-- nextRotationCategory: tools (283%5==3 → BUILD tools rotation)
+- lastItem: tel-aviv-beach-guide
+- lastResult: GREEN — /tel-aviv-beach-guide shipped (seo-content+monetization, P2 M) · commit 78c7ff7 · 444 pages (+1) · 572/572 pass (+2)
+- nextRotationCategory: monetization (284%5==4 → REVIEW)
 - higgsfieldSpent: 0
-- updatedAt: 2026-07-04T07:38Z
+- updatedAt: 2026-07-04T09:37Z
 - branch context: work on master; feature work on auto/<slug>
+
+Notes: iter 283 BUILD (tools fallthrough → seo-content+monetization) — tel-aviv-beach-guide:
+  Mode BUILD (283%5==3 → tools rotation). Tools section entirely SHIPPED (all 11 tools); fell
+  through to technical (also all SHIPPED); fell through to monetization/seo-content rotation.
+  Chose tel-aviv-beach-guide (P2 M) — dedicated Tel Aviv-only beach guide, DISTINCT from
+  best-beaches-israel.md (all-Israel). July 4 = peak summer beach season = max traffic relevance.
+  New /tel-aviv-beach-guide — covers all named Tel Aviv beaches north→south: Hilton Beach
+  (LGBTQ+ community; dog-friendly north end; since 1980s), Gordon Beach (central city hub;
+  tourist hotel zone; volleyball), Frishman Beach (family-oriented; gentle slope), Banana Beach
+  (young crowd; beach bars; Jaffa combo), Jerusalem Beach/Bograshov (surf schools; TLV Surf Club;
+  ~₪80/hr lesson + board hire; best wave break on city strip), Alma Beach (quietest; near Old Jaffa;
+  local neighbourhood feel), Nordau Beach (gender-separated bathing; check Tel Aviv municipality
+  schedule before visiting; days and hours rotate seasonally).
+  Practical sections: flag system (white/red/black); jellyfish season (Jul–Oct, peak Aug–Sep;
+  rinse with seawater not fresh water; ask lifeguards); disabled access (beach wheelchairs from
+  municipality, free, pre-book); Shabbat (beaches fully operational; intercity transport stops);
+  seasonal notes (May–Jun + Sep–Oct = ideal; Jul–Aug = crowded + jellyfish; Nov–Apr cool).
+  2 affiliate CTAs: Booking.com TLV beachfront hotels + GYG beach kayak/bike/sunset experiences.
+  Footer Essentials: +1 "Tel Aviv beach guide" link (near Eilat diving).
+  Cross-links: cross-link added in best-beaches-israel.md Tel Aviv section → /tel-aviv-beach-guide;
+  internal links in guide: lgbtq-travel-israel, tel-aviv-white-city, jaffa-travel-guide,
+  tel-aviv-carmel-market, kerem-hateimanim-tel-aviv, tel-aviv-neighborhoods-guide,
+  best-beaches-israel, cycling-in-israel, shabbat-guide, transportation.
+  Gate: pnpm check 0 errors (118 files) · build 444 pages (+1) · 572/572 e2e+a11y pass (+2). GREEN.
+  Ship: commit 78c7ff7 on master; pushed to origin/master; CI in_progress at push
+  (prior run 28699398241 SUCCESS confirmed for iter282 sha 153d39f).
+  NEXT: iter 284 = REVIEW (284%5==4 → review pass on iters 280-283).
 
 Notes: iter 282 BUILD (seo-content) — herzliya-guide:
   Mode BUILD (282%5==2 → seo-content rotation). Chose herzliya-guide (P2 S) — top
