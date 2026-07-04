@@ -1,6 +1,6 @@
 ---
 title: "Tel Aviv Beach Guide: Gordon, Hilton, Banana & All 14 km (2026)"
-description: "Complete guide to Tel Aviv's free beaches — Gordon, Frishman, Hilton, Banana, Alma and Nordau — with flags, jellyfish season, surfing, LGBTQ+ scene and where to stay."
+description: "Complete guide to Tel Aviv's free beaches — Gordon, Frishman, Hilton, Banana, Alma and Nordau — with jellyfish season, surfing, LGBTQ+ scene and where to stay."
 heroImage: /images/regions/tel-aviv/beaches.jpg
 category: Destinations
 updatedAt: 2026-07-04
