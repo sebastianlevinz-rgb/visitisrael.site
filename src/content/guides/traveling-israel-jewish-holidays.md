@@ -115,6 +115,8 @@ Use our [Shabbat & Jewish Holiday Calendar](/israel-shabbat-calendar) to look up
 
 **Booking advice**: book two to three months ahead. Hotel prices rise for the High Holiday period (Rosh Hashanah through Yom Kippur and often into Sukkot). The period between Rosh Hashanah and Yom Kippur (the Ten Days of Repentance) is quieter and an excellent time for unhurried touring.
 
+For a complete guide to the Jewish New Year experience in Israel — the Western Wall Musaf service, Tashlich ceremonies, High Holiday food, and where to stay — see the [Rosh Hashanah in Israel guide](/rosh-hashanah-in-israel).
+
 ---
 
 ## Yom Kippur (Day of Atonement) — Autumn

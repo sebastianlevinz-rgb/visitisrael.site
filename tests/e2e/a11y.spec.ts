@@ -187,6 +187,7 @@ const ROUTES = [
   '/israel-film-tv-tourism',
   '/sea-of-galilee-boat-tour',
   '/shopping-in-israel',
+  '/rosh-hashanah-in-israel',
 ];
 
 for (const route of ROUTES) {
