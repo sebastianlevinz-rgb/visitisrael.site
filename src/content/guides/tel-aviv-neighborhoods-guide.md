@@ -89,7 +89,7 @@ Neve Tzedek ("Oasis of Justice") is Tel Aviv's oldest neighbourhood — founded 
 
 **Key streets:** Shabazi Street (the main axis); Pines and Yehieli streets for the densest cluster of restored Templer houses.
 
-More: [Neve Tzedek complete guide](/tel-aviv/neve-tzedek).
+More: [Neve Tzedek complete guide](/neve-tzedek-guide).
 
 ---
 

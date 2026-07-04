@@ -191,6 +191,7 @@ const ROUTES = [
   '/kerem-hateimanim-tel-aviv',
   '/herzliya-guide',
   '/tel-aviv-beach-guide',
+  '/neve-tzedek-guide',
 ];
 
 for (const route of ROUTES) {
