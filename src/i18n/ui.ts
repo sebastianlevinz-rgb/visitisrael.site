@@ -121,6 +121,7 @@ const ui = {
     'tool.goldenHour': 'Sunrise & golden hour calculator',
     'tool.shabbatCountdown': 'Is it Shabbat right now?',
     'tool.experienceFinder': 'What type of traveler am I?',
+    'tool.effectiveDays': 'Effective touring days calculator',
     'footer.tagline':
       'An independent English-language travel guide to Israel — regions, attractions, itineraries and trusted booking links.',
     'footer.dayTrips': 'Day trips',
@@ -188,6 +189,7 @@ const ui = {
     'tool.goldenHour': 'Calculateur lever du soleil & heure dorée',
     'tool.shabbatCountdown': 'Est-ce Shabbat en ce moment ?',
     'tool.experienceFinder': 'Quel type de voyageur suis-je ?',
+    'tool.effectiveDays': 'Calculateur de jours de visite effectifs',
     'footer.tagline':
       'Un guide de voyage indépendant, en anglais, sur Israël — régions, sites, itinéraires et liens de réservation fiables.',
     'footer.dayTrips': 'Excursions',
@@ -255,6 +257,7 @@ const ui = {
     'tool.goldenHour': 'Sonnenaufgang & goldene Stunde',
     'tool.shabbatCountdown': 'Ist jetzt Schabbat?',
     'tool.experienceFinder': 'Welcher Reisetyp bin ich?',
+    'tool.effectiveDays': 'Rechner für effektive Besichtigungstage',
     'footer.tagline':
       'Ein unabhängiger englischsprachiger Reiseführer für Israel — Regionen, Sehenswürdigkeiten, Reiserouten und vertrauenswürdige Buchungslinks.',
     'footer.dayTrips': 'Tagesausflüge',

@@ -760,3 +760,74 @@ test.describe('Israel experience finder quiz', () => {
     expect(copied).toContain('result=');
   });
 });
+
+test.describe('Israel effective touring days calculator', () => {
+  test('page renders with date pickers and initial result', async ({ page }) => {
+    await page.goto('/israel-effective-days');
+    await expect(page.locator('#start-date')).toBeVisible();
+    await expect(page.locator('#end-date')).toBeVisible();
+    // Initial result should render after JS runs
+    await expect(page.locator('#results')).not.toBeEmpty();
+  });
+
+  test('changing dates updates effective days count', async ({ page }) => {
+    await page.goto('/israel-effective-days');
+    // Set a 7-night trip (8 days)
+    await page.locator('#start-date').fill('2026-11-01');
+    await page.locator('#end-date').fill('2026-11-08');
+    await page.locator('#end-date').dispatchEvent('change');
+    // Should show a number in the big display
+    const daysNum = await page.locator('#eff-days-num').textContent();
+    expect(daysNum).toBeTruthy();
+    expect(parseFloat(daysNum || '0')).toBeGreaterThan(0);
+  });
+
+  test('Shabbat days in range are reflected in the effective count', async ({ page }) => {
+    await page.goto('/israel-effective-days');
+    // A Saturday-only trip (Shabbat day) — departure same as arrival is invalid
+    // Use Fri–Sun to ensure at least 1 Shabbat in range
+    // Fri Oct 2 2026 → Mon Oct 5 2026 (4 days: Fri, Sat, Sun, Mon)
+    await page.locator('#start-date').fill('2026-10-02');
+    await page.locator('#end-date').fill('2026-10-05');
+    await page.locator('#end-date').dispatchEvent('change');
+    const daysNum = await page.locator('#eff-days-num').textContent();
+    // Total 4 days but arrival + Shabbat + Sunday + departure = less than 4.0
+    expect(parseFloat(daysNum || '0')).toBeLessThan(4);
+  });
+
+  test('departure before arrival shows validation error', async ({ page }) => {
+    await page.goto('/israel-effective-days');
+    await page.locator('#start-date').fill('2026-11-10');
+    await page.locator('#end-date').fill('2026-11-05');
+    await page.locator('#end-date').dispatchEvent('change');
+    await expect(page.locator('#date-error')).toBeVisible();
+  });
+
+  test('itinerary CTA appears after valid date entry', async ({ page }) => {
+    await page.goto('/israel-effective-days');
+    await page.locator('#start-date').fill('2026-12-01');
+    await page.locator('#end-date').fill('2026-12-08');
+    await page.locator('#end-date').dispatchEvent('change');
+    await expect(page.locator('#itinerary-cta')).not.toHaveClass(/hidden/);
+    const ctaLink = page.locator('#itinerary-link-primary');
+    await expect(ctaLink).toBeVisible();
+    const href = await ctaLink.getAttribute('href');
+    expect(href).toContain('/itineraries');
+  });
+
+  test('calendar grid renders cells for the selected dates', async ({ page }) => {
+    await page.goto('/israel-effective-days');
+    await page.locator('#start-date').fill('2026-10-01');
+    await page.locator('#end-date').fill('2026-10-07');
+    await page.locator('#end-date').dispatchEvent('change');
+    // Calendar should have coloured cells
+    const cells = page.locator('.day-cell');
+    await expect(cells).not.toHaveCount(0);
+  });
+
+  test('plan-your-trip page links to effective-days tool', async ({ page }) => {
+    await page.goto('/plan-your-trip');
+    const link = page.locator('a[href="/israel-effective-days"]');
+    await expect(link).toBeVisible();
+  });
+});
