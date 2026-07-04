@@ -74,7 +74,7 @@ Israel packs a remarkable number of festivals, cultural events and religious hol
 | --- | --- | --- |
 | **Spring** | Passover; Easter / Holy Week | Nationwide; [Jerusalem](/jerusalem), [Nazareth](/nazareth) |
 | **May–Jun** | Tel Aviv Pride (Middle East largest) | [Tel Aviv](/tel-aviv) |
-| **Summer** | Jerusalem festivals (film, lights, wine); White Night Tel Aviv | Jerusalem, Tel Aviv |
+| **Summer** | Jerusalem festivals (film, lights, wine); White Night Tel Aviv; [Maccabiah Games](/maccabiah-games-2026) (every 4 years) | Jerusalem, Tel Aviv, Netanya |
 | **Autumn** | Rosh Hashanah, Yom Kippur, Sukkot (High Holidays) | Nationwide |
 | **Winter** | Hanukkah; Christmas (huge in Nazareth & Bethlehem) | Nationwide; [Nazareth](/nazareth) |
 

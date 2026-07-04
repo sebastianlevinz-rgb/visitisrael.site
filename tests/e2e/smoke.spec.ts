@@ -313,6 +313,7 @@ const ROUTES = [
   '/israel-agritourism-guide',
   '/israel-jordan-itinerary',
   '/christmas-in-israel',
+  '/maccabiah-games-2026',
 ];
 
 for (const route of ROUTES) {
