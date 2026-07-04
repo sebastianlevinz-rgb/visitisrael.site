@@ -67,6 +67,8 @@ This guide covers the best beaches on both coasts, what to expect at each, and h
 
 Tel Aviv's beachfront is the city's defining public space. The [Tel Aviv](/tel-aviv) beach strip runs 14 km of continuous public sand from the Yarkon river mouth in the north to Old Jaffa in the south. All beaches are free. The whole stretch is walkable via the Tayelet (promenade) or cycleable via the dedicated beach bike path — [Tel-O-Fun bike-share](/cycling-in-israel) stations are positioned throughout.
 
+For a more detailed breakdown of every named Tel Aviv beach including surfing, jellyfish season, Nordau's gender-separation schedule, and disabled access, see the dedicated [Tel Aviv beach guide](/tel-aviv-beach-guide).
+
 ### Gordon Beach and Frishman Beach
 
 **The central city beach.** Gordon and Frishman sit side by side in the heart of the tourist-hotel zone, a short walk from Dizengoff and the White City. They are consistently well-maintained with showers, changing rooms and summer lifeguards. Beach volleyball courts operate year-round. The Tayelet promenade fronts both beaches, lined with cafes and juice bars. This is the default recommendation for visitors staying in central Tel Aviv — everything you need is within walking distance.
