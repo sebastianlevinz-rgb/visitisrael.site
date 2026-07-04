@@ -134,3 +134,5 @@ The natural itinerary from any Tel Aviv base is: Old Jaffa in the morning (Clock
 For architecture enthusiasts, the [White City Bauhaus walking route](/tel-aviv-white-city) begins a 10-minute walk north of the Carmel Market — Jaffa and the White City make a complete full-day itinerary.
 
 For visitors interested in Jaffa's food specifically, a [guided food tour](/israel-food-tours-cooking-classes) is the most efficient way to taste across the hummus institutions, market stalls and bakeries in 3–4 hours with local context.
+
+For the broader shopping picture — what to buy across Israel's markets, Old City bazaars, Dead Sea cosmetics, Israeli wine and Judaica — see the [shopping in Israel guide](/shopping-in-israel).

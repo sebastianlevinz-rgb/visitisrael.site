@@ -303,6 +303,7 @@ const ROUTES = [
   '/glamping-israel',
   '/israel-film-tv-tourism',
   '/sea-of-galilee-boat-tour',
+  '/shopping-in-israel',
 ];
 
 for (const route of ROUTES) {

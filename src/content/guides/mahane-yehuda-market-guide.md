@@ -148,3 +148,5 @@ If you are traveling around Jewish holidays and want to understand what to expec
 For the organised version: [Israel food tours and cooking classes](/israel-food-tours-cooking-classes) covers guided market experiences across Jerusalem and Tel Aviv, including options that combine Machane Yehuda with the Old City.
 
 The market is also a natural anchor for plant-based eating in Jerusalem — the produce stalls, fresh hummus counters and falafel kiosks are entirely vegan-friendly. The [vegan and vegetarian Israel guide](/vegan-vegetarian-israel) covers the broader plant-based picture, including the Abu Shukri hummus institution inside the Old City and how to navigate Shabbat closures for vegan dining in Jerusalem.
+
+For a complete overview of Israel's market landscape — Carmel Market, the Jaffa Flea Market, Old City bazaars and what to buy across the country — see the [shopping in Israel guide](/shopping-in-israel).
