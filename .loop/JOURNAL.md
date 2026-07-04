@@ -5566,3 +5566,11 @@ Ship: memory-only commit to .loop/ files on master.
 NEXT: iter 296 = BUILD (296%5==1 → monetization). Top candidates: maccabiah-games-2026 (P2 M
   URGENT — games end Jul 13), egypt-jordan-israel-itinerary (P2 M), dead-sea-hotels-guide (P2 S),
   jerusalem-nightlife (P2 S, just added), israel-galilee-agritourism (P2 M).
+
+
+## 2026-07-04T22:40Z · iter 296 · BUILD (monetization) · maccabiah-games-2026
+What: New /maccabiah-games-2026 — URGENT live-event SEO (22nd Maccabiah Games running Jun 30–Jul 13 2026, ~9 days remaining at ship time). Full spectator + visitor guide: what the Maccabiah is, 4 divisions, 5 venue cities, Opening Ceremony ticketing, free-spectator competition access, Wingate Institute (Netanya swimming anchor), transport between venues (official Maccabiah shuttles / Israel Rail / rental car), accommodation planning (3–6 months lead time, July peak), volunteer programme (18+, maccabiah.com, 10–14 day commitment). 3 affiliate CTAs: 2× Booking.com (Jerusalem + Tel Aviv peak-season hotel bookings) + Discover Cars (multi-venue rental car). 6 FAQs. Evergreen for Maccabiah 23 in 2030. Cross-link added to israel-events-festivals.md Summer row. Smoke +1 route.
+Gate: pnpm check 0 errors (119 files) · build 451 pages (+1) · 589/589 e2e+a11y pass (+1). GREEN.
+Ship: 3 files staged (maccabiah-games-2026.md new, israel-events-festivals.md modified, smoke.spec.ts modified); commit 7102458 on master; pushed origin/master.
+Prod deploy: pending Vercel CI.
+Next: iter 297 → BUILD (297%5==2 → seo-content rotation). Top candidates: israel-hidden-gems (P2 M), self-drive-road-trip (P2 M), muslim-travel-israel (P2 M), accessible-travel-israel (P2 M), backpacking-israel (P2 M), jerusalem-nightlife (P2 S).

@@ -1,13 +1,43 @@
 # LOOP STATE
 
-- iteration: 295
-- lastMode: RESEARCH (295%5==0)
-- lastItem: research-iter295-jerusalem-nightlife
-- lastResult: RESEARCH COMPLETE — 1 net-new item added (jerusalem-nightlife P2 S seo-content+monetization); Maccabiah 2026 URGENT flag added (games running Jun30–Jul13, ends in 9 days); 188+ existing items confirmed via de-dup; competitor gaps documented in COMPETITORS.md; no code changes
-- nextRotationCategory: 296%5==1 → BUILD (monetization rotation)
+- iteration: 296
+- lastMode: BUILD (296%5==1 → monetization rotation)
+- lastItem: maccabiah-games-2026
+- lastResult: SHIPPED — /maccabiah-games-2026 spectator guide (URGENT: games running now Jun30–Jul13); commit 7102458; 451 pages (+1); 589/589 e2e pass (+1); GREEN gate
+- nextRotationCategory: 297%5==2 → BUILD (seo-content rotation)
 - higgsfieldSpent: 0
-- updatedAt: 2026-07-04T21:30Z
+- updatedAt: 2026-07-04T22:40Z
 - branch context: work on master; feature work on auto/<slug>
+
+Notes: iter 296 BUILD (monetization) — maccabiah-games-2026:
+  Mode BUILD (296%5==1 → monetization rotation). URGENT item chosen: Maccabiah Games 2026
+  (games currently running Jun 30–Jul 13, 2026; ~9 days remaining at time of build).
+  New /maccabiah-games-2026: complete spectator + visitor guide for the 22nd Maccabiah Games
+  ("Jewish Olympics"). Content: what the Maccabiah is + history (founded 1932, Yosef Yekutieli);
+  4 divisions (Open/Junior/Masters/Physically Challenged); 2026 venue cities (Jerusalem/TLV/
+  Netanya/Haifa/Beer Sheva); Teddy Kollek Stadium Opening Ceremony ticketing (sold separately,
+  sells out); free spectator access for most competition rounds; Wingate Institute Netanya
+  (swimming anchor venue); transport options (official Maccabiah shuttles/Israel Rail/rental car);
+  accommodation planning (3–6 months advance booking for July); volunteer programme details
+  (18+, 10–14 day commitment, apply via maccabiah.com); practical July-in-Israel context.
+  HONESTY: no hardcoded schedule times; always link maccabiah.com; "typically offered" shuttle
+  language; honest framing of July peak-season hotel prices (₪800–2500/night range, not exact).
+  3 affiliate CTAs: Booking.com Jerusalem + Booking.com Tel Aviv (peak-season premium hotel
+  bookings = high commission angle) + Discover Cars (multi-venue flexibility argument).
+  6 FAQs. Cross-link added to israel-events-festivals.md Summer row.
+  SEO: title="Maccabiah Games 2026: Spectator & Visitor Guide to the Jewish Olympics" = 67 chars
+  (borderline — within content config tolerance); desc="Complete guide to the 22nd Maccabiah
+  Games in Israel — what to expect as a spectator, venue cities, accommodation, transport
+  between venues, and how to volunteer at the Jewish Olympics." = 163 chars ✓
+  Evergreen note: guide covers the format + volunteering model which changes little per edition;
+  remains useful for Maccabiah 23 in 2030.
+  Gate: pnpm check 0 errors (119 files) · build 451 pages (+1) · 589/589 e2e+a11y pass (+1). GREEN.
+  Ship: staged 3 files (maccabiah-games-2026.md, israel-events-festivals.md, smoke.spec.ts);
+    commit 7102458 on master; pushed origin/master.
+  NEXT: iter 297 → BUILD (297%5==2 → seo-content rotation). Top seo-content BUILD candidates:
+    israel-hidden-gems (P2 M), self-drive-road-trip (P2 M), muslim-travel-israel (P2 M),
+    accessible-travel-israel (P2 M), backpacking-israel (P2 M), photography-guide (P2 M),
+    jerusalem-nightlife (P2 S, new from iter295), "best-time-to-visit-<region>" (P2 M).
 
 Notes: iter 295 RESEARCH — research-iter295-jerusalem-nightlife:
   Mode RESEARCH (295%5==0). No code changes; memory-only update.
@@ -78,38 +108,6 @@ Notes: iter 293 BUILD (tools) — israel-effective-days:
   NEXT: iter 294 → technical (294%5==4 → review). Candidates: link-rot pass, meta-audit,
     schema validator sweep, or any P2-T technical backlog item.
 
-Notes: iter 292 BUILD (seo-content) — christmas-in-israel:
-  Mode BUILD (292%5==2 → seo-content rotation). Chose christmas-in-israel (P2 M) — backlog
-  since iter45 research; strong evergreen+seasonal SEO ("Christmas in Bethlehem", "Midnight
-  Mass Church of the Nativity", "Nazareth Christmas market"); large winter travel search volume.
-  New /christmas-in-israel: covers all three Christmas dates (Catholic Dec 24, Orthodox Jan 6,
-  Armenian Jan 18–19), Midnight Mass + Manger Square logistics, Checkpoint 300 crossing,
-  Ministry of Tourism shuttle (honestly framed as "typically offered, verify annually"),
-  Church of Holy Sepulchre Jerusalem denominations, Nazareth Christmas market (largest Arab-
-  Christian celebration inside Israel), Tel Aviv New Year, winter advantages (crowds/prices/
-  green landscapes/Eilat+Dead Sea warm season), Jerusalem snow framing.
-  HONESTY: no hardcoded shuttle schedules; Ministry of Tourism service framed as typical
-  not guaranteed; snow framed as unpredictable; no fabricated reviews/ratings/prices.
-  6 FAQs. 3 affiliate CTAs: TourRadar (Christmas packages) + Abraham Tours (day trips) +
-  Booking.com (Jerusalem hotels).
-  Back-wired: best-time-to-visit-israel.md winter section → /christmas-in-israel.
-  Smoke +1 route.
-  SEO: title="Christmas in Israel: Bethlehem, Nazareth & Winter Travel Guide" = 61 chars ✓;
-    desc="Experience Christmas in Israel — Midnight Mass at the Church of the Nativity,
-    Nazareth Christmas market, Jerusalem Holy Sepulchre services, and winter travel tips."
-    = 157 chars ✓
-  Gate: pnpm check 0 errors (118 files) · build 449 pages (+1) · 581/581 e2e+a11y pass (+1). GREEN.
-  Ship: commit ab300e6 on master; pushed to origin/master; CI in_progress at write time.
-  NEXT: iter 293 → tools rotation (293%5==3). Top tools BUILD candidates:
-    itinerary-day-counter tool (P2 S), israel-border-wait-times info tool (P3 S),
-    israel-travel-insurance calculator (P3 M), tel-aviv-sunset-time tool (P3 S),
-    shabbat-meal-finder tool (P3 S), israel-road-trip-planner tool (P2 M).
-    Also eligible: i18n Phase 3 (regions ×11 in fr+de) — batch 18 COMPLETE.
-
-Notes: iter 291 BUILD (monetization) — israel-jordan-itinerary:
-  [see iter 291 entry for full detail]
-  NEXT was: iter 292 → seo-content (292%5==2). Completed above.
-
 Cron b7325b16 hourly @ :17. Loop history: 19 tools + sitemap-lastmod + link-checker(+depth) + i18n
 Phase0/1a/1b/1c/2 Batches1-18(COMPLETE) + 31 review passes + 3 technical (event-schema + meta-trim + locale-links) + 34 EN guides + 4 tools-monetization;
-research iters 5/10/20/30/35/40/45/50/55/60/65/70/75/80/85/90/95/100/105/110/115/120/125/130/135/140/145/150/155/160/165/170/175/180/185/190/195/200/205/210/215/220/225/230/235/240/245/250/255/260/265/270/275/280/285/290.
+research iters 5/10/20/30/35/40/45/50/55/60/65/70/75/80/85/90/95/100/105/110/115/120/125/130/135/140/145/150/155/160/165/170/175/180/185/190/195/200/205/210/215/220/225/230/235/240/245/250/255/260/265/270/275/280/285/290/295.
