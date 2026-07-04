@@ -1,13 +1,49 @@
 # LOOP STATE
 
-- iteration: 285
-- lastMode: RESEARCH
-- lastItem: competitor-gap-scan-285
-- lastResult: research — 6 net-new items added to BACKLOG; no gate required
-- nextRotationCategory: monetization (286%5==1 → BUILD · monetization rotation)
+- iteration: 286
+- lastMode: BUILD
+- lastItem: neve-tzedek-guide
+- lastResult: shipped — /neve-tzedek-guide live on master b803fa4; 445 pages (+1); 574/574 pass (+2)
+- nextRotationCategory: seo-content (287%5==2 → BUILD · seo-content rotation)
 - higgsfieldSpent: 0
-- updatedAt: 2026-07-04T12:10Z
+- updatedAt: 2026-07-04T12:45Z
 - branch context: work on master; feature work on auto/<slug>
+
+Notes: iter 286 BUILD (monetization) — neve-tzedek-guide:
+  Mode BUILD (286%5==1 → monetization rotation). Chose neve-tzedek-guide (P2 S) — top
+  monetization candidate from STATE.md iter285 notes. New /neve-tzedek-guide — Tel Aviv's
+  1887 first Jewish neighbourhood guide (Neve Tzedek = "Oasis of Justice"). Covers:
+  History (66 founding families; predates Tel Aviv; Ottoman-era architecture; artist-led
+  1989 revival anchored by Suzanne Dellal Centre); Suzanne Dellal Centre (Batsheva Dance
+  Company home; Ram Karmi 1989 restoration; free bougainvillea courtyard; ticketed
+  performances via suzannedellal.org.il); Shabazi Street boutiques (Maskit, Idit Barak,
+  Frau Blau; Thu–Fri best; all Sat closed; independent only); Nahum Gutman Museum (21
+  Shimon Rokach St; pioneer illustrator/painter; ~₪30; Thu extended hours); architecture
+  walk (1887 Ottoman stone houses + 1920s International Style overlay; Rokach House);
+  where to eat (Shabazi 26 — neighbourhood revival anchor; Orna & Ella — 20-yr institution;
+  HaBasta — produce-driven, Carmel Market adjacent); practical info (Green Line to Florentine
+  or Red Line to Allenby; no parking; Spring/Autumn best). Hero image: existing
+  /images/sub-destinations/tel-aviv/neve-tzedek.jpg. 6 FAQs. 2 affiliate CTAs: Booking.com
+  boutique hotels (Alma Hotel, Shapira House Hotel) + GYG Neve Tzedek/Jaffa walking tour.
+  Cross-links IN guide: tel-aviv-neighborhoods-guide, jaffa-travel-guide, tel-aviv-white-city,
+  tel-aviv-carmel-market, kerem-hateimanim-tel-aviv, tel-aviv-food-guide, tel-aviv-light-rail,
+  tel-aviv-tours-compared.
+  Cross-link BACK-WIRED: tel-aviv-neighborhoods-guide.md forward link /tel-aviv/neve-tzedek
+  corrected to /neve-tzedek-guide (line 92).
+  Footer Essentials: +1 "Neve Tzedek neighbourhood guide" link (after kerem-hateimanim).
+  Smoke +1; a11y +1 routes.
+  SEO check: title="Neve Tzedek: Tel Aviv's Historic Boutique Quarter (2026)" = 57 chars ✓;
+    desc="Explore Neve Tzedek — Tel Aviv's first neighbourhood (1887): Suzanne Dellal Centre,
+    Shabazi boutiques, Nahum Gutman Museum and where to eat." = 144 chars ✓
+  Gate: pnpm check 0 errors (118 files) · build 445 pages (+1) · 574/574 e2e+a11y pass (+2). GREEN.
+  Ship: commit b803fa4 on master; pushed to origin/master; CI unknown/in_progress at push time
+    (GitHub Status API returned 'unknown' — consistent with prior iters; Vercel uses separate CI
+    integration not reflected in standard status endpoint; prior iter285 was RESEARCH-only so no
+    prior SHA success to confirm against).
+  NEXT: iter 287 = BUILD (287%5==2 → seo-content rotation). Top seo-content candidates:
+    israel-hummus-trail (P2 S, just added iter285), israel-hidden-gems (P2 M),
+    christmas-in-israel (P2 M), israel-jordan-itinerary (P2 M), self-drive-israel-road-trip (P2 M),
+    accessible-travel-israel (P2 M), muslim-travel-israel (P2 M).
 
 Notes: iter 285 RESEARCH (285%5==0 → competitor gap scan):
   Mode RESEARCH. No code changed. Backlog at ~187 ready items (extremely saturated;
@@ -188,84 +224,6 @@ Notes: iter 278 BUILD (technical/content-accuracy) — fix-jewish-holiday-dates-
   Ship: commit a61ab47 on master; pushed to origin/master.
   NEXT: iter 279 = REVIEW (279%5==4 → review pass).
 
-Notes: iter 277 BUILD (seo-content) — rosh-hashanah-in-israel:
-  New /rosh-hashanah-in-israel — dedicated High Holiday travel guide for diaspora visitors timing
-  a trip around the Jewish New Year. 2026 dates: Sep 11-12 (begins evening Sep 10); Yom Kippur
-  Sep 21. Covers: Western Wall Musaf service logistics (crowds, timing, access), Tashlich at
-  Yarkon River TLV + City of David Jerusalem + Sea of Galilee Tiberias, holiday food (honey+
-  apples, round challah, lekach, pomegranate), Kol Nidre + Ten Days of Awe, transport closures,
-  accommodation booking (6-12 months ahead Jerusalem; Yom Tov packages). 3 affiliate CTAs:
-  Booking.com Jerusalem + GYG Rosh Hashanah tours + Viator High Holidays. 6 FAQs.
-  Footer Essentials +1; cross-link from traveling-israel-jewish-holidays.md.
-  Gate: pnpm check 0 errors (118 files) · build 441 pages (+1) · 566/566 e2e+a11y pass (+2).
-  Ship: commit adbfd22 on master; pushed to origin/master; CI in_progress at push
-  (prior run cd80fd1 SUCCESS confirmed).
-  NEXT: iter 278 = BUILD (278%5==3 → tools rotation).
-
-Notes: iter 276 BUILD (monetization) — shopping-in-israel:
-  New /shopping-in-israel guide — four market cultures (Machane Yehuda/Jerusalem,
-  Carmel+Nahalat Binyamin+Levinsky/TLV, Jaffa Flea Market, Old City bazaars by quarter).
-  What-to-buy: spices, Dead Sea cosmetics (Ahava authenticity guidance), Israeli wine,
-  Medjool dates, Safed ceramics, olive wood, Judaica. 6 FAQs. 3 CTAs: GYG Machane Yehuda
-  food tour + GYG TLV Carmel Market/Levinsky spice tour + Viator Jaffa Flea Market.
-  Footer Essentials +1; cross-links from jaffa-travel-guide + mahane-yehuda-market-guide.
-  Gate: pnpm check 0 errors (118 files) · build 440 pages (+1) · 564/564 e2e+a11y pass (+2).
-  Ship: commit 48302b8 on master; pushed to origin/master; CI in_progress at push
-  (prior run 9f7531 SUCCESS confirmed).
-  Note: YAML apostrophe-escaping required 4 fix cycles (7 errors total); standard pattern.
-  NEXT: iter 277 = BUILD (277%5==2 → seo-content rotation).
-
-Notes: iter 275 RESEARCH — competitor-gap-scan-275:
-  Mode RESEARCH (275%5==0). No code changed. Scanned: touristisrael.com, secrettelaviv.com,
-  beinharimtours.com, itraveljerusalem.com, timeout.com/israel, goisrael.com, thekotel.org,
-  planitisrael.com, traveler forums (holiday, food allergy, neighborhood queries).
-  Backlog extremely saturated (174+ ready items); focused on niche holiday content + neighborhood
-  guides + practical traveler-need gaps. 6 net-new items verified absent from backlog via grep:
-    (1) rosh-hashanah-in-israel (P2 S seo-content+monetization) — diaspora travelers' most-sought
-        holiday experience; Western Wall Kol Nidre/Musaf; Tashlich; advance hotel booking essential;
-        Sep 11-13 2026. Competitors: touristisrael.com, secrettelaviv.com, iTravelJerusalem all
-        have dedicated guides.
-    (2) kerem-hateimanim-tel-aviv (P2 S seo-content+monetization) — historic Yemenite Quarter SW of
-        Carmel Market; jachnun/malawach/lachuch/hilbe cuisine; vibrant LGBTQ-friendly creative scene;
-        distinct from tel-aviv-carmel-market.md. Competitors: beinharimtours.com, timeout.com/israel,
-        Fodor's, igoogledisrael.com all have standalone content.
-    (3) egypt-jordan-israel-itinerary (P2 M seo-content+monetization) — distinct from 2-country
-        iters in backlog (israel-jordan-itinerary, israel-egypt-guide); 3-country Middle East circuit
-        (Israel + Petra/Wadi Rum + Cairo/Pyramids); $5k–8k/person packages = high commercial intent.
-        touristisrael.com has THREE dedicated packages (10/12/14-day); TourRadar lists 10+ operators.
-    (4) israel-food-allergies-guide (P3 S seo-content) — no mandatory EU-style allergen labeling in
-        Israel; sesame ubiquitous (tahini, challah, burekas, dressings); labeling only in Hebrew/Arabic;
-        practical Hebrew allergy cards (allergyisrael.org.il); distinct from celiac/gluten-free guide
-        (separate backlog P2 entry). No editorial guide on our site.
-    (5) tisha-bav-in-israel (P3 S seo-content) — goisrael.com + thekotel.org + planitisrael.com have
-        dedicated pages; 25-hour fast; unique empty-Old-City-streets atmosphere; tens of thousands at
-        Western Wall Plaza for Eicha reading; July 22-23 2026. Zero backlog matches for "tisha/Tisha".
-    (6) mea-shearim-guide (P3 S seo-content) — beinharimtours.com + Danny the Digger + America Israel
-        Tours + goguided.tours all have standalone guides; GYG has "Mea Shearim hidden gems" tours;
-        only current site mention is inside SHIPPED israel-film-tv-tourism (Shtisel filming location),
-        not a standalone guide. Critical honesty notes: frame as living community not tourist attraction;
-        photography requires explicit permission; some residents object to tourism; guided tour preferred.
-  De-duped against backlog: shavuot already present; all 6 items confirmed absent.
-  COMPETITORS.md updated with iter275 scan results. No gate required (research only).
-  No commit to master beyond state update.
-  NEXT: iter 276 = BUILD (276%5==1 → monetization rotation).
-
-Notes: iter 274 REVIEW — review-seo-meta-274:
-  Mode REVIEW (274%5==4). Reviewed work from iters 270-273.
-  Defects found and fixed: 3 SEO meta overruns:
-    (1) israel-film-tv-tourism title: 66→65 chars (removed " & " between Shtisel and Screen Locations,
-        replaced with ","; no meaning lost)
-    (2) israel-tour-operators-guide desc: 164→131 chars (reworded tail: "so you book with the right
-        operator for your trip" → "and book with the right operator")
-    (3) sea-of-galilee-boat-tour desc: 169→157 chars (removed "the" before "Jesus Boat" and "ancient"
-        before "1st-century" — no meaning lost)
-  No dead links found (21 internal links across 3 guides, all resolve).
-  No missing smoke/a11y spec routes (all 3 pages already covered).
-  Gate: pnpm check 0 errors (118 files) · build 439 pages · 562/562 e2e+a11y pass. GREEN.
-  Ship: commit 1e698c8 on master; pushed to origin/master; CI in_progress at push
-  (prior run d923ac8 SUCCESS confirmed).
-  NEXT: iter 275 = RESEARCH (275%5==0 → competitor gap scan).
-
 Cron b7325b16 hourly @ :17. Loop history: 19 tools + sitemap-lastmod + link-checker(+depth) + i18n
-Phase0/1a/1b/1c/2 Batches1-18(COMPLETE) + 31 review passes + 3 technical (event-schema + meta-trim + locale-links) + 31 EN guides + 4 tools-monetization;
+Phase0/1a/1b/1c/2 Batches1-18(COMPLETE) + 31 review passes + 3 technical (event-schema + meta-trim + locale-links) + 32 EN guides + 4 tools-monetization;
 research iters 5/10/20/30/35/40/45/50/55/60/65/70/75/80/85/90/95/100/105/110/115/120/125/130/135/140/145/150/155/160/165/170/175/180/185/190/195/200/205/210/215/220/225/230/235/240/245/250/255/260/265/270/275/280/285.
