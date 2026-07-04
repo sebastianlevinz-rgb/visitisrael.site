@@ -5527,3 +5527,20 @@ What: new /israel-effective-days — "Effective Touring Days Calculator".
 Gate: pnpm check 0 errors (119 files) · build 450 pages (+1) · 588/588 e2e pass (+7). GREEN.
 Ship: squash-merged auto/israel-effective-days → master; commit fbf10f5; pushed to origin/master.
 NEXT: iter 294 = technical/review (294%5==4).
+
+## 2026-07-04 · iter 294 · REVIEW · review-effective-days-fixes
+What: REVIEW pass on iters 291–293 output (israel-jordan-itinerary, christmas-in-israel, effective-days calculator).
+Bugs fixed (both in israel-effective-days.astro):
+  (1) Timezone bug: new Date("YYYY-MM-DD") parses as UTC midnight; in UTC-offset timezones
+      (Americas, etc.) this shifts all calendar dates one day early. Fixed with parseLocalDate()
+      that constructs local-time Date from the split string.
+  (2) Tisha B'Av 2026 end date: was July 23 (10th of Av, a normal day); flagged incorrectly as
+      full-closure by holidayOn(). Fixed to July 22 (9th of Av only).
+Flagged for human review: Tisha B'Av 2027 start/end dates [2027,8,11]–[2027,8,12]. Independent
+  calculation from 1 Nisan = Mar 7 → 9 Av = July 11, 2027; code says Aug 11 (1 month off). Cannot
+  verify without authoritative calendar. Recommend checking chabad.org/calendar.
+Clean audit: christmas-in-israel.md + israel-jordan-itinerary.md — all internal links resolve,
+  SEO meta OK, no fabricated data, correct affiliate rel attributes, no H1 in body.
+Gate: pnpm check 0 errors · build 450 pages · 588/588 e2e pass. GREEN.
+Ship: commit 65712cf on master; pushed origin/master; CI pending (standard pattern).
+NEXT: iter 295 = RESEARCH mode (295%5==0).

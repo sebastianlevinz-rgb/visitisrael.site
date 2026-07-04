@@ -1,13 +1,40 @@
 # LOOP STATE
 
-- iteration: 293
-- lastMode: BUILD (293%5==3 → tools rotation)
-- lastItem: israel-effective-days
-- lastResult: BUILD SHIPPED — gate green (0 errors / 450 pages / 588 e2e+a11y pass +7); commit fbf10f5 on master; CI in_progress at push (standard pattern — prior runs all success)
-- nextRotationCategory: 294%5==4 → technical
+- iteration: 294
+- lastMode: REVIEW (294%5==4)
+- lastItem: review-effective-days-fixes
+- lastResult: REVIEW SHIPPED — 2 bugs fixed in iter293 calculator; gate green (0 errors / 450 pages / 588 e2e+a11y pass); commit 65712cf on master; CI pending at push (standard pattern)
+- nextRotationCategory: 295%5==0 → RESEARCH mode
 - higgsfieldSpent: 0
-- updatedAt: 2026-07-04T19:42Z
+- updatedAt: 2026-07-04T20:45Z
 - branch context: work on master; feature work on auto/<slug>
+
+Notes: iter 294 REVIEW — review-effective-days-fixes:
+  Mode REVIEW (294%5==4). Audited iters 291-293 output (israel-jordan-itinerary,
+  christmas-in-israel, israel-effective-days calculator).
+  Findings:
+  (1) CONFIRMED BUG: israel-effective-days.astro — `new Date("YYYY-MM-DD")` is parsed as
+      UTC midnight by the ECMAScript spec. In UTC-offset timezones (e.g. UTC-5 Eastern US),
+      Oct 1 00:00 UTC = Sep 30 at 19:00 local → `.getDate()` returns 30 not 1. All calendar
+      cells shifted one day early for users in Western/Americas timezones. Fixed with
+      parseLocalDate() helper that splits "YYYY-MM-DD" and constructs local-time Date.
+  (2) CONFIRMED BUG: Tisha B'Av 2026 end date was [2026,7,23] (July 23, the 10th of Av).
+      July 23 is a regular Thursday — not a closure day. The holidayOn() function flags any
+      day within [start, end] inclusive, so July 23 was incorrectly marked "full closure".
+      Fixed to end: [2026,7,22] (9th of Av only, confirmed Wednesday Jul 22, 2026).
+  (3) FLAGGED FOR HUMAN REVIEW: Tisha B'Av 2027 start date [2027,8,11] = August 11.
+      Independent calendar calculation (tracing months from 1 Nisan = Mar 7 per Passover
+      Mar 21 in code) yields 9 Av = July 11, 2027 — exactly one month earlier. This discrepancy
+      was not fixed (cannot authoritatively verify without live Hebrew calendar reference).
+      Human should verify against chabad.org/calendar or similar.
+  (4) CLEAN: christmas-in-israel.md and israel-jordan-itinerary.md — all internal links
+      resolve (church-holy-sepulchre-guide, petra-from-israel, dead-sea-hotels-guide etc.
+      all confirmed present), SEO meta within limits, no fabricated data, affiliate
+      rel="sponsored nofollow noopener" correct, no H1 in body.
+  Gate: pnpm check 0 errors · build 450 pages · 588/588 e2e pass. GREEN.
+  Ship: commit 65712cf on master; pushed origin/master; CI pending (standard).
+  NEXT: iter 295 → RESEARCH mode (295%5==0). Candidates: competitor scan for profitable
+    new content patterns; tools gap analysis; link-bait opportunities; local SEO features.
 
 Notes: iter 293 BUILD (tools) — israel-effective-days:
   Mode BUILD (293%5==3 → tools rotation). Chose israel-effective-days (P2 S) — "Effective
