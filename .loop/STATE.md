@@ -1,13 +1,41 @@
 # LOOP STATE
 
-- iteration: 289
-- lastMode: REVIEW
-- lastItem: review-pass-289
-- lastResult: clean review — neve-tzedek-guide, israel-hummus-trail, israel-agritourism-guide; 0 defects; all checks pass
-- nextRotationCategory: RESEARCH (290%5==0 → competitor gap scan)
+- iteration: 290
+- lastMode: RESEARCH
+- lastItem: research-pass-290
+- lastResult: RESEARCH pass — 3 net-new items added (israel-golf-guide P3 S, ein-hod-artists-village P3 S, israel-escape-rooms P3 S); backlog saturation confirmed at 338+ items from 57+ prior research passes; golf/Ein Hod/escape-rooms confirmed as genuine gaps via grep (0 matches for each standalone topic)
+- nextRotationCategory: BUILD (291%5==1 → monetization rotation)
 - higgsfieldSpent: 0
-- updatedAt: 2026-07-04T15:10Z
+- updatedAt: 2026-07-04T16:05Z
 - branch context: work on master; feature work on auto/<slug>
+
+Notes: iter 290 RESEARCH — research-pass-290:
+  Mode RESEARCH (290%5==0 → competitor gap scan). No code changes. No branch created.
+  Backlog saturation confirmed at 338+ items from 57+ prior research passes.
+  Methodical grep de-duplication across 20+ topic angles before finding genuine gaps.
+  3 confirmed net-new items:
+    (1) israel-golf-guide P3 S — Caesarea Golf Club (Rolex World Top 1000 since 2010; Pete
+        Dye 18-hole; Israel's only international course; opened 1961 by James Armand de
+        Rothschild; tees alongside Roman ruins; ~₪500–700 green fees). "golf" had only 2
+        passing mentions in backlog; zero standalone guide. Competitors: golferhive.com,
+        touristisrael.com, caesarea.com.
+    (2) ein-hod-artists-village P3 S — Marcel Janco (Dada co-founder) 1953 artists' colony;
+        150 resident artists; 18 galleries + 14 workshops; Janco Dada Museum (Dadalab);
+        Nisco Museum of Mechanical Music (Middle East unique); pedestrian-only; Mount Carmel
+        15km south of Haifa. Appeared only as 1 bullet in hidden-gems hub entry (line 70);
+        zero standalone guide. Competitors: beinharimtours.com, touristisrael.com, ein-hod.info.
+    (3) israel-escape-rooms P3 S — 50+ escape rooms across Israel; escaperoom.co.il largest
+        chain (20+ TLV games); English-speaking game masters; ~₪90–150/person; VR experiences.
+        Grep returned ZERO matches — completely absent from backlog.
+  Confirmed already-covered and skipped: surfing (iter105), street-art/florentin (iter200),
+  mediterranean-diving (iter190), photography (iter30), hot-air-balloon/olive-harvest/
+  wine-harvest (iter265), glamping (SHIPPED iter268), druze-carmel (SHIPPED iter193),
+  rav-kav (SHIPPED iter98), vegan (SHIPPED iter242), birdwatching (iter200),
+  stargazing/skiing (iter60+160), wildflowers (iter120+155), paragliding (adventure-sports guide).
+  NEXT: iter 291 → BUILD (291%5==1 → monetization rotation). Top monetization BUILD candidates:
+    egypt-jordan-israel-itinerary (P2 M), israel-jordan-itinerary (P2 M),
+    dead-sea-hotels-guide (P2 S), israel-thermal-baths (P3 S), israel-diamonds-jewelry (P3 S),
+    bat-yam-guide (P3 S), israel-golf-guide (P3 S, just added).
 
 Notes: iter 289 REVIEW — review-pass-289:
   Mode REVIEW (289%5==4). Audited iters 286–288: neve-tzedek-guide, israel-hummus-trail,
@@ -186,155 +214,6 @@ Notes: iter 285 RESEARCH (285%5==0 → competitor gap scan):
     (P2 S), egypt-jordan-israel-itinerary (P2 M), herzliya-hotels (if separate from guide),
     bat-yam-guide (P3 S, just added).
 
-Notes: iter 284 REVIEW (284%5==4 → review pass on iters 281-283):
-  Mode REVIEW. Audited: kerem-hateimanim-tel-aviv (iter281), herzliya-guide (iter282),
-  tel-aviv-beach-guide (iter283). research-only iter280 (no code) excluded from code audit.
-  Startup: git reset --hard origin/master needed (fresh cloud checkout; remote at iter283 92e614a).
-  pnpm install clean. STOP flag absent.
-  Checks performed:
-    (1) SEO meta length — title ≤65 chars, desc ≤160 chars (Python unicode len):
-        kerem-hateimanim-tel-aviv: title=58 ✓, desc=149 ✓
-        herzliya-guide: title=61 ✓, desc=153 ✓
-        tel-aviv-beach-guide: title=63 ✓, desc=166 ✗ → DEFECT
-    (2) Internal link resolution — all 19 links across 3 guides verified against content/ files:
-        kerem-hateimanim: 7 links (all OK)
-        herzliya-guide: 6 links (all OK)
-        tel-aviv-beach-guide: 10 links (all OK, incl. /kerem-hateimanim-tel-aviv → newly shipped)
-    (3) Cross-link back-wiring verified:
-        tel-aviv-carmel-market.md → /kerem-hateimanim-tel-aviv ✓ (line 122)
-        day-trips-from-tel-aviv.md → /herzliya-guide ✓ (line 54)
-        best-beaches-israel.md → /tel-aviv-beach-guide ✓ (line 70)
-    (4) Footer links verified:
-        /herzliya-guide ✓ (line 107)
-        /kerem-hateimanim-tel-aviv ✓ (line 125)
-        /tel-aviv-beach-guide ✓ (line 130)
-    (5) smoke.spec.ts + a11y.spec.ts coverage:
-        all 3 routes present in both specs ✓
-  Defect fixed: tel-aviv-beach-guide description 166 chars → 159 chars.
-    Removed "flags, " from "with flags, jellyfish season, surfing..." → "with jellyfish season, surfing..."
-    Flag system still fully described in guide body; no meaning lost.
-  Gate: pnpm check 0 errors (118 files) · pnpm build 444 pages · 572/572 e2e+a11y pass. GREEN.
-  Ship: commit e10cf65 on master; pushed to origin/master; CI in_progress at push time
-    (prior iter283 SHA 92e614a = SUCCESS confirmed).
-  NEXT: iter 285 = RESEARCH (285%5==0 → competitor gap scan).
-
-Notes: iter 283 BUILD (tools fallthrough → seo-content+monetization) — tel-aviv-beach-guide:
-  Mode BUILD (283%5==3 → tools rotation). Tools section entirely SHIPPED (all 11 tools); fell
-  through to technical (also all SHIPPED); fell through to monetization/seo-content rotation.
-  Chose tel-aviv-beach-guide (P2 M) — dedicated Tel Aviv-only beach guide, DISTINCT from
-  best-beaches-israel.md (all-Israel). July 4 = peak summer beach season = max traffic relevance.
-  New /tel-aviv-beach-guide — covers all named Tel Aviv beaches north→south: Hilton Beach
-  (LGBTQ+ community; dog-friendly north end; since 1980s), Gordon Beach (central city hub;
-  tourist hotel zone; volleyball), Frishman Beach (family-oriented; gentle slope), Banana Beach
-  (young crowd; beach bars; Jaffa combo), Jerusalem Beach/Bograshov (surf schools; TLV Surf Club;
-  ~₪80/hr lesson + board hire; best wave break on city strip), Alma Beach (quietest; near Old Jaffa;
-  local neighbourhood feel), Nordau Beach (gender-separated bathing; check Tel Aviv municipality
-  schedule before visiting; days and hours rotate seasonally).
-  Practical sections: flag system (white/red/black); jellyfish season (Jul–Oct, peak Aug–Sep;
-  rinse with seawater not fresh water; ask lifeguards); disabled access (beach wheelchairs from
-  municipality, free, pre-book); Shabbat (beaches fully operational; intercity transport stops);
-  seasonal notes (May–Jun + Sep–Oct = ideal; Jul–Aug = crowded + jellyfish; Nov–Apr cool).
-  2 affiliate CTAs: Booking.com TLV beachfront hotels + GYG beach kayak/bike/sunset experiences.
-  Footer Essentials: +1 "Tel Aviv beach guide" link (near Eilat diving).
-  Cross-links: cross-link added in best-beaches-israel.md Tel Aviv section → /tel-aviv-beach-guide;
-  internal links in guide: lgbtq-travel-israel, tel-aviv-white-city, jaffa-travel-guide,
-  tel-aviv-carmel-market, kerem-hateimanim-tel-aviv, tel-aviv-neighborhoods-guide,
-  best-beaches-israel, cycling-in-israel, shabbat-guide, transportation.
-  Gate: pnpm check 0 errors (118 files) · build 444 pages (+1) · 572/572 e2e+a11y pass (+2). GREEN.
-  Ship: commit 78c7ff7 on master; pushed to origin/master; CI in_progress at push
-  (prior run 28699398241 SUCCESS confirmed for iter282 sha 153d39f).
-  NEXT: iter 284 = REVIEW (284%5==4 → review pass on iters 280-283).
-
-Notes: iter 282 BUILD (seo-content) — herzliya-guide:
-  Mode BUILD (282%5==2 → seo-content rotation). Chose herzliya-guide (P2 S) — top
-  seo-content candidate from STATE.md iter281 notes. New /herzliya-guide — Herzliya
-  day trip and beach city guide. Covers: Apollonia National Park (Crusader Château
-  d'Arsuf + Byzantine/Hellenistic ruins; INPA pass valid; clifftop trail; ~₪35-45
-  entry; 1–2h visit; sea views); Herzliya Marina (modern waterfront; restaurants +
-  cafés + boutiques; lunch stop after Apollonia); Acadia Beach (Blue Flag; June–Sep
-  lifeguards; quieter than TLV beaches); Herzliya Museum of Contemporary Art (optional
-  1h add-on). Getting there: Green Line light rail TLV Center → Herzliya Station
-  ~20 min ₪6.90; Egged 501/502 ~30 min; car Highway 2 north ~15-20 min. Day plans:
-  half-day (Apollonia + Marina) and full-day (add Acadia Beach + optional museum).
-  Northern coast circuit: Herzliya → Caesarea → Netanya by car. 6 FAQs.
-  2 affiliate CTAs: GYG northern coast day tour + Booking.com Herzliya hotels.
-  Cross-link: day-trips-from-tel-aviv.md new Herzliya bullet (before Netanya).
-  Footer Essentials: +1 "Herzliya guide" link. Smoke +1 / a11y +1 routes.
-  Gate: pnpm check 0 errors (118 files) · build 443 pages (+1) · 570/570 e2e+a11y pass (+2). GREEN.
-  Ship: commit 8933b7b on master; pushed to origin/master; CI in_progress at push
-  (prior run 28698164186 SUCCESS confirmed for iter281 sha 9f30d35).
-  NEXT: iter 283 = BUILD (283%5==3 → tools rotation). Top tools candidates:
-    review recently shipped tools for enhancements; new tools from backlog:
-    israel-visa-checker (P2 M), galilee-weather-tool (P3 S), or next-ready tools item.
-
-Notes: iter 281 BUILD (monetization) — kerem-hateimanim-tel-aviv:
-  Mode BUILD (281%5==1 → monetization rotation). Chose kerem-hateimanim-tel-aviv (P2 S) —
-  top candidate from STATE.md iter280 notes. New /kerem-hateimanim-tel-aviv — Tel Aviv's
-  Yemenite Quarter food and neighbourhood guide. Covers: Yemenite-Israeli food culture
-  (jachnun = Saturday morning slow-baked rolled pastry with grated tomato + egg + z'hug;
-  malawach = flaky pan-fried flatbread; lachuch = spongy crumpet-style bread; kubbaneh =
-  overnight Shabbat bread; hilbe + merak); neighbourhood history (founded 1904 by Yemenite
-  Jewish immigrants; distinct low-rise whitewashed architecture); bar and café scene on
-  HaKovshim Street (LGBTQ-friendly, creative community); photography and community-respect
-  notes (living community, not tourist attraction). 6 FAQs. 2 affiliate CTAs (GYG Yemenite
-  Quarter food tour + Booking.com TLV hotels). Cross-link added in tel-aviv-carmel-market.md
-  "Plan your visit" section. Footer Essentials: +1 "Kerem HaTeimanim (Yemenite Quarter)" link.
-  YAML apostrophe fix: 2 FAQ answers converted from single-quoted to double-quoted strings
-  (z'hug + community's possessive inside single-quoted YAML breaks parser — standard pattern).
-  Gate: pnpm check 0 errors (118 files) · build 442 pages (+1) · 568/568 e2e+a11y pass (+2). GREEN.
-  Ship: commit e1f9d2a on master; pushed to origin/master; CI in_progress at push
-  (prior run 28696966030 SUCCESS confirmed for iter280 sha).
-  NEXT: iter 282 = BUILD (282%5==2 → seo-content rotation). Top seo-content candidates:
-    herzliya-guide (P2 S), israel-hidden-gems (P2 M), christmas-in-israel (P2 M),
-    israel-jordan-itinerary (P2 M), self-drive-israel-road-trip (P2 M).
-
-Notes: iter 280 RESEARCH — competitor-gap-scan-280:
-  Mode RESEARCH (280%5==0). No code changed. Scanned: tripadvisor.com Herzliya, isrotel.com,
-  beinharimtours.com (nachalat-binyamin/farming/galilee-christian-sites), abrahamtours.com
-  pub-crawl, getyourguide.com t445735, d-tlv.com, breakingtravelnews.com + travelandtourworld.com
-  (13M ILS agro-tourism 2026 investment), yardenit.com, parks.org.il/qasr-el-yahud,
-  laidbacktrip.com/sachne-warm-springs, christiansintheland.com/galilee-circuit, touristisrael.com.
-  Backlog at ~174 ready items; methodical grep de-dup across full 671-line BACKLOG.md.
-  7 net-new items confirmed absent from backlog:
-    (1) herzliya-guide P2 S — Apollonia NP + Marina + Acadia Beach; Green Line 20 min from TLV
-    (2) nachalat-binyamin-market P3 S — 200+ artists Tue/Fri; distinct from Carmel/Jaffa markets;
-        shopping-in-israel.md (iter276) covers in 1 sentence
-    (3) israel-agritourism-guide P2 M — year-round picking calendar; 13M ILS 2026 govt investment
-    (4) tel-aviv-pub-crawl P3 S — Abraham Tours + D-TLV + GYG t445735; distinct from nightlife/rooftop-bars
-    (5) galilee-christian-sites-circuit P2 M — 7 NT sites self-drive loop; referenced in STATE.md
-        iter273 as cross-link target but never in backlog
-    (6) gan-hashlosha-guide P3 S — 28°C springs INPA; referenced in megiddo guide as day-combo only
-    (7) jordan-river-baptism-site P3 S — Yardenit vs. Qasr el-Yahud dual-site guide; referenced in
-        STATE.md iter273 cross-links but no standalone backlog entry
-  COMPETITORS.md updated with iter280 scan results. No gate required (research only).
-  Backlog now ~181 ready items.
-  NEXT: iter 281 = BUILD (281%5==1 → monetization rotation). Top monetization candidates:
-    kerem-hateimanim-tel-aviv (P2 S), egypt-jordan-israel-itinerary (P2 M), herzliya-guide (P2 S),
-    dead-sea-hotels-guide (P2 S), israel-agritourism-guide (P2 M).
-
-Notes: iter 279 REVIEW — review-desc-trim-279:
-  Reviewed iters 276-278 (shopping-in-israel, rosh-hashanah-in-israel, holiday-date-fix).
-  1 defect: rosh-hashanah-in-israel desc 169→158 chars (trimmed tail clause, 9 chars saved).
-  All internal links verified (20 links, 0 dead). Hero images present. Both pages in smoke+a11y tests.
-  traveling-israel-jewish-holidays.md iter278 date fix confirmed correct.
-  Gate: check 0 errors · build 441 pages · 566/566 pass. GREEN.
-  Ship: commit 0f7c9c1 on master; CI in_progress at push (prior run eb5a70c SUCCESS confirmed).
-  NEXT: iter 280 = RESEARCH (280%5==0 → competitor gap scan).
-
-Notes: iter 278 BUILD (technical/content-accuracy) — fix-jewish-holiday-dates-2026-2027:
-  tools rotation (278%5==3) had no ready items (all 11 tools shipped); fell through to technical.
-  Chose P2/S item: fix incorrect 2026/2027 Jewish holiday dates in traveling-israel-jewish-holidays.md.
-  Dates verified via Chabad.org / timeanddate.com searches before editing.
-  2026 corrections: RH Sep 11-12 (was Oct 11-12); YK Sep 20 (was Oct 20);
-    Sukkot Sep 25-Oct 2 (was Oct 15-22); Hanukkah Dec 4-12 (was Dec 14-22).
-  2027 corrections: Purim Mar 22-23 (was Feb 20-21); Passover Apr 22-29 (was Mar 22-29);
-    RH Oct 2-3 (was Sep 30-Oct 1); YK Oct 10 (was Oct 9); Sukkot Oct 15-22 (was Oct 4-11);
-    Hanukkah Dec 25-Jan 1 2028 (was Dec 4-12).
-  5 edits total: frontmatter updatedAt, FAQ answer, RH When, YK When, Sukkot When, Hanukkah When.
-  Gate: pnpm check 0 errors (118 files) · build 441 pages · 566/566 e2e+a11y pass. GREEN.
-  Ship: commit a61ab47 on master; pushed to origin/master.
-  NEXT: iter 279 = REVIEW (279%5==4 → review pass).
-
 Cron b7325b16 hourly @ :17. Loop history: 19 tools + sitemap-lastmod + link-checker(+depth) + i18n
 Phase0/1a/1b/1c/2 Batches1-18(COMPLETE) + 31 review passes + 3 technical (event-schema + meta-trim + locale-links) + 32 EN guides + 4 tools-monetization;
-research iters 5/10/20/30/35/40/45/50/55/60/65/70/75/80/85/90/95/100/105/110/115/120/125/130/135/140/145/150/155/160/165/170/175/180/185/190/195/200/205/210/215/220/225/230/235/240/245/250/255/260/265/270/275/280/285.
+research iters 5/10/20/30/35/40/45/50/55/60/65/70/75/80/85/90/95/100/105/110/115/120/125/130/135/140/145/150/155/160/165/170/175/180/185/190/195/200/205/210/215/220/225/230/235/240/245/250/255/260/265/270/275/280/285/290.

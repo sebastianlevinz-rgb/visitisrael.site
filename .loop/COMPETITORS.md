@@ -3510,3 +3510,51 @@ Backlog extremely saturated at ~187 ready items (post-iter280 additions). Strate
 - /israel-thermal-baths (P3, seo-content+monetization, S)
 - /rishon-lezion-guide (P3, seo-content, S)
 - /bat-yam-guide (P3, seo-content+monetization, S)
+
+## iter290 Research — 2026-07-04 (competitor gap scan)
+
+**Mode:** RESEARCH (290%5==0). No code changes.
+**Backlog saturation:** 338+ items from 57+ prior research passes. Extensive grep de-duplication required before finding new gaps.
+
+**Sources scanned this iteration:**
+- touristisrael.com (golf, Ein Hod, general attractions)
+- golferhive.com/caesarea-golf-club
+- caesarea.com (official golf + resort info)
+- globaltravelerusa.com (Israel golf tourism)
+- top100golfcourses.com (Caesarea Golf Club ranking)
+- israel-travel-secrets.com/golf-in-israel
+- ein-hod.info + ein-hod.org (official village sites)
+- beinharimtours.com/ein-hod-artists-colony
+- levyisraeltours.com/post/ein-hod
+- tripadvisor.com/Attractions-g293977-Activities-c56-t208-Israel (escape rooms filter)
+- escaperoom.co.il (largest Israel escape room chain, 20+ TLV games)
+- escaper.co.il, getaroomil.com/en
+- secrettelaviv.com/best/tags/activities/escape-room
+
+**Key competitor observations:**
+- **Golf tourism**: Multiple competitors (golferhive.com, touristisrael.com, globaltravelerusa.com) have dedicated Caesarea Golf Club guides. Our site has zero golf editorial despite Caesarea Golf Club being Rolex World Top 1000 since 2010 and Israel's only international 18-hole course. High SEO value for "golf Israel", "Caesarea golf", "golf holiday Israel" terms.
+- **Ein Hod**: beinharimtours.com and touristisrael.com both have dedicated Ein Hod artists' village pages. Our BACKLOG only has Ein Hod as a bullet in the hidden gems hub entry — no standalone guide. The Janco Dada Museum + Nisco Museum of Mechanical Music are distinctive content pegs not found elsewhere on our site.
+- **Escape rooms**: TripAdvisor has a top-15 Israel escape rooms list; escaperoom.co.il leads as the dominant Israel escape room operator with 20+ TLV games. Zero coverage on our site despite being a significant urban-activities vertical. Good rainy-day/alternative-activities SEO angle.
+
+**Topics checked and confirmed already in backlog (de-dup):**
+- Israel surfing guide — iter105 line 293 ✓ skip
+- Tel Aviv street art / Florentin — iter200 line 335 ✓ skip
+- Israel Mediterranean diving + Caesarea Underwater — iter190 line 465 ✓ skip
+- Photography spots guide — iter30 line 79 ✓ skip
+- Hot air balloon — iter265 ✓ skip
+- Olive harvest / oil trail — iter265 ✓ skip
+- Wine harvest season — iter265 ✓ skip
+- Glamping — iter60, SHIPPED iter268 ✓ skip
+- Druze Carmel villages — SHIPPED iter193 ✓ skip
+- Rav-Kav guide — SHIPPED iter98 ✓ skip
+- Vegan/vegetarian guide — SHIPPED iter242 ✓ skip
+- Birdwatching — iter200 ✓ skip
+- Stargazing — iter60 ✓ skip
+- Mount Hermon skiing — iter60 + iter160 ✓ skip
+- Spring wildflowers — iter120 + iter155 ✓ skip
+- Paragliding — in adventure-sports guide ✓ skip
+
+**Net-new items added to BACKLOG (3):**
+1. `/israel-golf-guide` (P3, S, seo-content+monetization) — Caesarea Golf Club; Rolex World Top 1000; Pete Dye 18-hole design; Israel's only international course
+2. `/ein-hod-artists-village` (P3, S, seo-content+monetization) — Marcel Janco 1953; 150 artists; 18 galleries; Janco Dada Museum; Nisco Museum of Mechanical Music; Mount Carmel
+3. `/israel-escape-rooms` (P3, S, seo-content) — 50+ escape rooms; escaperoom.co.il largest chain; zero prior backlog coverage confirmed by grep

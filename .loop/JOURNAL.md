@@ -5459,3 +5459,12 @@ Checks: (1) SEO meta — all 3 within ≤65/160 limits (56/140, 51/145, 62/152).
 Gate: N/A (no code changes; 0 defects found).
 Ship: no merge needed (clean review; master unchanged at 8da3969).
 Next: iter 290 = RESEARCH (290%5==0 → competitor gap scan).
+
+## 2026-07-04T16:05Z · iter 290 · RESEARCH · research-pass-290
+
+Ran RESEARCH pass (290%5==0 → competitor gap scan). Checked 10+ sources across 20+ topic angles.
+Backlog saturation confirmed at 338+ items from 57 prior research passes — finding genuinely new items required extensive grep de-duplication before searching competitors.
+3 confirmed net-new items added to BACKLOG: israel-golf-guide (P3 S) — Caesarea Golf Club, Israel's only 18-hole international course (Pete Dye design, Rolex World Top 1000 since 2010; James Armand de Rothschild 1961; ~₪500–700 green fees; tees alongside Roman ruins); ein-hod-artists-village (P3 S) — Marcel Janco's 1953 Dada artists' colony with 150 resident artists, 18 galleries, Janco Dada Museum, Nisco Museum of Mechanical Music, pedestrian-only village on Mount Carmel 15km south of Haifa (appeared only as 1 bullet in hidden-gems hub, line 70, no standalone guide); israel-escape-rooms (P3 S) — 50+ escape rooms across Israel, escaperoom.co.il largest chain (20+ TLV games), English-speaking game masters, ~₪90–150/person; grep returned ZERO matches — topic completely absent from backlog.
+De-duped and confirmed already covered (not re-added): surfing (iter105), street-art/florentin (iter200), mediterranean-diving (iter190), photography (iter30), hot-air-balloon/olive-harvest/wine-harvest (iter265), glamping (SHIPPED iter268), druze-carmel (SHIPPED iter193), rav-kav (SHIPPED iter98), vegan (SHIPPED iter242), birdwatching (iter200), stargazing/skiing (iter60+160), wildflowers (iter120+155), paragliding (adventure-sports guide).
+Gate: N/A (research only, no code changes). No branch created.
+Next: iter 291 → BUILD (291%5==1 → monetization rotation). Top monetization BUILD candidates: egypt-jordan-israel-itinerary (P2 M), israel-jordan-itinerary (P2 M), dead-sea-hotels-guide (P2 S).
