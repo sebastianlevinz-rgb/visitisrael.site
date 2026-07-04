@@ -1,13 +1,35 @@
 # LOOP STATE
 
-- iteration: 281
+- iteration: 282
 - lastMode: BUILD
-- lastItem: kerem-hateimanim-tel-aviv
-- lastResult: GREEN — /kerem-hateimanim-tel-aviv shipped (monetization, P2 S) · commit e1f9d2a · 442 pages (+1) · 568/568 pass (+2)
-- nextRotationCategory: seo-content (282%5==2 → BUILD seo-content rotation)
+- lastItem: herzliya-guide
+- lastResult: GREEN — /herzliya-guide shipped (seo-content+monetization, P2 S) · commit 8933b7b · 443 pages (+1) · 570/570 pass (+2)
+- nextRotationCategory: tools (283%5==3 → BUILD tools rotation)
 - higgsfieldSpent: 0
-- updatedAt: 2026-07-04T06:45Z
+- updatedAt: 2026-07-04T07:38Z
 - branch context: work on master; feature work on auto/<slug>
+
+Notes: iter 282 BUILD (seo-content) — herzliya-guide:
+  Mode BUILD (282%5==2 → seo-content rotation). Chose herzliya-guide (P2 S) — top
+  seo-content candidate from STATE.md iter281 notes. New /herzliya-guide — Herzliya
+  day trip and beach city guide. Covers: Apollonia National Park (Crusader Château
+  d'Arsuf + Byzantine/Hellenistic ruins; INPA pass valid; clifftop trail; ~₪35-45
+  entry; 1–2h visit; sea views); Herzliya Marina (modern waterfront; restaurants +
+  cafés + boutiques; lunch stop after Apollonia); Acadia Beach (Blue Flag; June–Sep
+  lifeguards; quieter than TLV beaches); Herzliya Museum of Contemporary Art (optional
+  1h add-on). Getting there: Green Line light rail TLV Center → Herzliya Station
+  ~20 min ₪6.90; Egged 501/502 ~30 min; car Highway 2 north ~15-20 min. Day plans:
+  half-day (Apollonia + Marina) and full-day (add Acadia Beach + optional museum).
+  Northern coast circuit: Herzliya → Caesarea → Netanya by car. 6 FAQs.
+  2 affiliate CTAs: GYG northern coast day tour + Booking.com Herzliya hotels.
+  Cross-link: day-trips-from-tel-aviv.md new Herzliya bullet (before Netanya).
+  Footer Essentials: +1 "Herzliya guide" link. Smoke +1 / a11y +1 routes.
+  Gate: pnpm check 0 errors (118 files) · build 443 pages (+1) · 570/570 e2e+a11y pass (+2). GREEN.
+  Ship: commit 8933b7b on master; pushed to origin/master; CI in_progress at push
+  (prior run 28698164186 SUCCESS confirmed for iter281 sha 9f30d35).
+  NEXT: iter 283 = BUILD (283%5==3 → tools rotation). Top tools candidates:
+    review recently shipped tools for enhancements; new tools from backlog:
+    israel-visa-checker (P2 M), galilee-weather-tool (P3 S), or next-ready tools item.
 
 Notes: iter 281 BUILD (monetization) — kerem-hateimanim-tel-aviv:
   Mode BUILD (281%5==1 → monetization rotation). Chose kerem-hateimanim-tel-aviv (P2 S) —

@@ -5396,3 +5396,10 @@ Content: 6-section guide (history + character, food culture with jachnun/malawac
 Gate: pnpm check 0 errors (118 files) · pnpm build 442 pages (+1 from 441) · 568/568 e2e+a11y pass (+2 new routes). GREEN.
 Ship: commit e1f9d2a on master; pushed to origin/master; CI in_progress at push time (prior iter280 SHA 58d6fa7 = SUCCESS confirmed).
 Next: iter 282 = BUILD (282%5==2 → seo-content rotation).
+
+## 2026-07-04T07:38Z · iter 282 · BUILD (seo-content) · herzliya-guide
+What: New /herzliya-guide — Herzliya day trip & beach city guide (P2, S, seo-content+monetization). Selected as top seo-content candidate for iter 282 (282%5==2 → seo-content rotation). Herzliya = upscale coastal city 20 min from TLV on Green Line; distinct identity from Netanya or Tel Aviv. Startup: git reset --hard origin/master needed (fresh cloud checkout; remote at iter281 9f30d35). pnpm install clean. STOP flag absent.
+Content: 5-section guide (getting there — Green Line ₪6.90 ~20 min; Apollonia NP — Crusader Château d'Arsuf + Byzantine/Hellenistic ruins, INPA pass valid, ~₪35-45 entry, 1–2h clifftop trail; Herzliya Marina — waterfront restaurants/cafés/boutiques; Acadia Beach — Blue Flag, June–Sep lifeguards; day plan — half-day and full-day options + northern coast circuit). 6 FAQs (is Herzliya worth visiting, getting there from TLV, what is Apollonia NP, which beach is best, combining with Caesarea/Netanya, what to do at Marina). 2 affiliate CTAs: GYG northern coast day tour + Booking.com Herzliya hotels. Hero image /images/regions/tel-aviv/beaches.jpg. Cross-link added in day-trips-from-tel-aviv.md (Herzliya bullet before Netanya). Footer Essentials: +1 "Herzliya guide" link (after day-trips-from-haifa). Smoke + a11y tests +1 route each (570 total, +2 from 568).
+Gate: pnpm check 0 errors (118 files) · pnpm build 443 pages (+1 from 442) · 570/570 e2e+a11y pass (+2 new routes). GREEN.
+Ship: commit 8933b7b on master; pushed to origin/master; CI in_progress at push time (prior iter281 SHA 9f30d35 = SUCCESS confirmed runs 28698164186+28698164176).
+Next: iter 283 = BUILD (283%5==3 → tools rotation).
