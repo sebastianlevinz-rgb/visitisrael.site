@@ -1,13 +1,30 @@
 # LOOP STATE
 
-- iteration: 276
+- iteration: 277
 - lastMode: BUILD
-- lastItem: shopping-in-israel — new /shopping-in-israel monetization guide (markets, souvenirs, what to buy)
-- lastResult: BUILD COMPLETE — gate green (check 0 errors · build 440 pages +1 · 564/564 tests +2); commit 48302b8 pushed to master
-- nextRotationCategory: 277%5==2 → BUILD (seo-content)
+- lastItem: rosh-hashanah-in-israel — new /rosh-hashanah-in-israel High Holiday travel guide (Kotel Musaf, Tashlich, holiday food, booking guidance)
+- lastResult: BUILD COMPLETE — gate green (check 0 errors · build 441 pages +1 · 566/566 tests +2); commit adbfd22 pushed to master; CI in_progress at push
+- nextRotationCategory: 278%5==3 → BUILD (tools rotation)
 - higgsfieldSpent: 0
-- updatedAt: 2026-07-04T02:00Z
+- updatedAt: 2026-07-04T02:50Z
 - branch context: work on master; feature work on auto/<slug>
+
+Notes: iter 277 BUILD (seo-content) — rosh-hashanah-in-israel:
+  New /rosh-hashanah-in-israel — dedicated High Holiday travel guide for diaspora visitors timing
+  a trip around the Jewish New Year. 2026 dates: Sep 11-12 (begins evening Sep 10); Yom Kippur
+  Sep 21. Covers: Western Wall Musaf service logistics (crowds, timing, access), Tashlich at
+  Yarkon River TLV + City of David Jerusalem + Sea of Galilee Tiberias, holiday food (honey+
+  apples, round challah, lekach, pomegranate), Kol Nidre + Ten Days of Awe, transport closures,
+  accommodation booking (6-12 months ahead Jerusalem; Yom Tov packages). 3 affiliate CTAs:
+  Booking.com Jerusalem + GYG Rosh Hashanah tours + Viator High Holidays. 6 FAQs.
+  Footer Essentials +1; cross-link from traveling-israel-jewish-holidays.md.
+  Side note: existing traveling-israel-jewish-holidays.md has date error (says "October 11-12"
+  for RH 2026; correct is Sep 11-12 based on 354-day year from RH 5786 = Sep 22, 2025).
+  Date error noted in JOURNAL for a dedicated REVIEW fix.
+  Gate: pnpm check 0 errors (118 files) · build 441 pages (+1) · 566/566 e2e+a11y pass (+2).
+  Ship: commit adbfd22 on master; pushed to origin/master; CI in_progress at push
+  (prior run cd80fd1 SUCCESS confirmed).
+  NEXT: iter 278 = BUILD (278%5==3 → tools rotation).
 
 Notes: iter 276 BUILD (monetization) — shopping-in-israel:
   New /shopping-in-israel guide — four market cultures (Machane Yehuda/Jerusalem,
