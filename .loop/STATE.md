@@ -1,13 +1,40 @@
 # LOOP STATE
 
-- iteration: 294
-- lastMode: REVIEW (294%5==4)
-- lastItem: review-effective-days-fixes
-- lastResult: REVIEW SHIPPED — 2 bugs fixed in iter293 calculator; gate green (0 errors / 450 pages / 588 e2e+a11y pass); commit 65712cf on master; CI pending at push (standard pattern)
-- nextRotationCategory: 295%5==0 → RESEARCH mode
+- iteration: 295
+- lastMode: RESEARCH (295%5==0)
+- lastItem: research-iter295-jerusalem-nightlife
+- lastResult: RESEARCH COMPLETE — 1 net-new item added (jerusalem-nightlife P2 S seo-content+monetization); Maccabiah 2026 URGENT flag added (games running Jun30–Jul13, ends in 9 days); 188+ existing items confirmed via de-dup; competitor gaps documented in COMPETITORS.md; no code changes
+- nextRotationCategory: 296%5==1 → BUILD (monetization rotation)
 - higgsfieldSpent: 0
-- updatedAt: 2026-07-04T20:45Z
+- updatedAt: 2026-07-04T21:30Z
 - branch context: work on master; feature work on auto/<slug>
+
+Notes: iter 295 RESEARCH — research-iter295-jerusalem-nightlife:
+  Mode RESEARCH (295%5==0). No code changes; memory-only update.
+  Backlog saturation: 188+ items from 59+ prior research passes.
+  Research approach: systematic grep de-dup across 20+ candidate topics before finding genuine gap.
+  De-duped and confirmed already tracked: national-library-israel (iter130 line 144), jerusalem-museums
+    (iter130 line 142), jerusalem-neighborhoods (iter125 line 331), rosh-hanikra-guide (iter85 BACKLOG
+    — cable car reopened 2026 noted in COMPETITORS.md), israel-tour-operators (SHIPPED pre-loop),
+    bethlehem-travel-guide (in backlog), west-bank (Hebron excluded per PROJECT.md), eta-il-checker
+    (SHIPPED + visa-information.md comprehensive).
+  NEW ITEM CONFIRMED: /jerusalem-nightlife (P2, S, seo-content+monetization)
+    — grep "jerusalem-nightlife" + "nightlife guide.*jerusalem" returned ZERO standalone matches
+    — we have tel-aviv-nightlife.md (pre-loop) but zero Jerusalem equivalent
+    — Timeout Israel, TripAdvisor, iTravelJerusalem, Wanderlog all have dedicated Jerusalem guides
+    — distinct scene: Mahane Yehuda Thu/Sat transformation, German Colony wine bars, Yellow Submarine
+      music venue, Mamilla Mirror Bar, Ben Yehuda strip
+    — HONESTY: frame as wine-bar/music scene, NOT club scene; most close 2-3am
+    — Monetization: GYG Jerusalem evening food+wine tour CTA + Booking.com Jerusalem hotels
+  MACCABIAH 2026 URGENCY: Games confirmed running Jun 30–Jul 13 (9 days left). URGENT flag added
+    to the Maccabiah entry (P2, M) in BACKLOG.md. Guide still evergreen for Maccabiah 23 in 2030.
+  TISHA B'AV 2027 DATES: Still flagged for human review from iter294 (code says Aug 11, independent
+    calc says Jul 11). Recommend checking chabad.org/calendar for 5787 Tisha B'Av before next tools
+    BUILD.
+  Gate: N/A (research only — no code changes, no branch, no gate run).
+  NEXT: iter 296 → BUILD (296%5==1 → monetization rotation). Top monetization BUILD candidates:
+    maccabiah-games-2026 (P2 M — URGENT: games end Jul 13), egypt-jordan-israel-itinerary (P2 M),
+    israel-galilee-agritourism (P2 M), dead-sea-hotels-guide (P2 S), jerusalem-nightlife (P2 S, new).
 
 Notes: iter 294 REVIEW — review-effective-days-fixes:
   Mode REVIEW (294%5==4). Audited iters 291-293 output (israel-jordan-itinerary,

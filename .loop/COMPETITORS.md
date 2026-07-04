@@ -3511,6 +3511,34 @@ Backlog extremely saturated at ~187 ready items (post-iter280 additions). Strate
 - /rishon-lezion-guide (P3, seo-content, S)
 - /bat-yam-guide (P3, seo-content+monetization, S)
 
+## iter295 Research — 2026-07-04 (competitor gap scan)
+
+**Mode:** RESEARCH (295%5==0). No code changes.
+**Backlog saturation:** 188+ items from 59+ prior research passes. Very high saturation — only 1 confirmed new standalone item found after extensive de-duplication.
+
+**Sources scanned this iteration:**
+- timeout.com/israel/nightlife/jerusalem (Jerusalem nightlife guide)
+- tripadvisor.com Jerusalem bars and clubs (2026 top-15 lists)
+- itraveljerusalem.com/nightlife (iTravelJerusalem Jerusalem nightlife hub)
+- wanderlog.com (Jerusalem nightlife round-up)
+- touristisrael.com (2026 tourism recap articles: hotel openings, Rosh Hanikra)
+- nomadicmatt.com (tour company comparison content)
+- beinharimtours.com (West Bank content scan)
+- yellowsubmarine.org.il (Jerusalem music venue)
+
+**Key competitor observations:**
+- **Jerusalem nightlife**: Timeout Israel, TripAdvisor, iTravelJerusalem, Wanderlog all have dedicated Jerusalem nightlife guides. Our site has `tel-aviv-nightlife.md` (pre-loop) but ZERO Jerusalem equivalent. Distinct scene: Mahane Yehuda market Thu/Sat night transformation (fruit stalls → bars ~8pm+); German Colony wine bars (Fattoush, Hanamal area); Mamilla Hotel Mirror Bar (mentioned in israel-rooftop-bars guide but not as nightlife focus); Ben Yehuda pedestrian strip; Yellow Submarine music venue. → ADDED TO BACKLOG as P2 S.
+- **Maccabiah Games 2026**: The 22nd Maccabiah Games (Jun 30–Jul 13, 2026) are CURRENTLY RUNNING as of July 4, 2026. This is the world's largest Jewish sporting event; no competitor (TripAdvisor, GYG) has a dedicated spectator guide. Maccabiah guide is ALREADY in backlog (iter120, P2 M) — urgency flag added to that entry. Window closes Jul 13; guide still evergreen for Maccabiah 23 in 2030.
+- **Rosh Hanikra cable car**: Cable car confirmed restored and reopened in 2026 after security-related closure. Multiple competitor sources (touristisrael.com, laidbacktrip.com) confirmed the cable car is operational again. Rosh Hanikra guide is in backlog (iter85, P3 S) — implementer should include cable car (the main draw: 3-min descent to grottoes; 150m drop; Noga Cable Cars; ~₪50/adult) as a confirmed-operational feature.
+- **Nomadic Matt / tour company content**: Nomadic Matt has "Best Tour Companies in Israel" — our `israel-tour-operators-guide.md` (SHIPPED, pre-loop content) covers this angle. Not a gap.
+- **Bein Harim West Bank guide**: beinharimtours.com has a West Bank travel guide; we have bethlehem-day-trip content. Hebron is explicitly excluded per PROJECT.md. Not a content gap for us.
+- **New hotel openings 2026**: Tourist Israel 2026 recap mentions Dizengoff 99 TLV, Six Senses (planned/recently opened), Herzliya Marina eco-hotel as significant new openings. Relevant for where-to-stay pages when updating existing content.
+- **ETA-IL**: Tourist Israel 2026 article confirms ETA-IL mandatory since Jan 1, 2025 (₪25 fee, 72h advance, 2-year validity). Our visa-information.md and israel-visa-eta-checker.astro already cover this comprehensively — not a gap.
+- **National Library of Israel**: New building (Herzog & de Meuron) fully open 2026; free general access + fee for exhibitions. Competitor coverage: iTravelJerusalem, TripAdvisor, nli.org.il. Already in backlog (iter130, P3 S, line 144) — NOT duplicated.
+
+**Net-new BACKLOG items added (1):**
+1. `/jerusalem-nightlife` (P2, S, seo-content+monetization) — Mahane Yehuda night market + German Colony wine bars + Yellow Submarine music venue + Mamilla Mirror Bar
+
 ## iter290 Research — 2026-07-04 (competitor gap scan)
 
 **Mode:** RESEARCH (290%5==0). No code changes.

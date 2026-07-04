@@ -5544,3 +5544,25 @@ Clean audit: christmas-in-israel.md + israel-jordan-itinerary.md — all interna
 Gate: pnpm check 0 errors · build 450 pages · 588/588 e2e pass. GREEN.
 Ship: commit 65712cf on master; pushed origin/master; CI pending (standard pattern).
 NEXT: iter 295 = RESEARCH mode (295%5==0).
+
+## 2026-07-04T21:30Z · iter 295 · RESEARCH · research-iter295-jerusalem-nightlife
+What: RESEARCH pass. Backlog at 188+ items (59+ prior research iterations). Extensive grep
+  de-duplication required before finding genuine new gap. Sources scanned: timeout.com/israel
+  nightlife, tripadvisor.com Jerusalem bars, itraveljerusalem.com/nightlife, wanderlog.com
+  Jerusalem nightlife, touristisrael.com 2026 articles, nomadicmatt.com, beinharimtours.com,
+  yellowsubmarine.org.il.
+Net-new item added: /jerusalem-nightlife (P2, S, seo-content+monetization) — CONFIRMED GAP via
+  "jerusalem-nightlife" standalone grep returning ZERO matches; site has tel-aviv-nightlife.md
+  (pre-loop) but zero Jerusalem equivalent; Timeout Israel + TripAdvisor + iTravelJerusalem +
+  Wanderlog all have dedicated Jerusalem nightlife guides; distinct scene = Mahane Yehuda Thu/Sat
+  night transformation, German Colony wine bars, Yellow Submarine music venue, Mamilla Mirror Bar.
+Urgency flag added: Maccabiah Games 2026 backlog entry — games confirmed running Jun 30–Jul 13
+  (only 9 days remain at write time); URGENT flag + corrected dates in BACKLOG entry.
+De-duped confirmed NOT re-added: national-library-israel (iter130 line 144), jerusalem-museums
+  (iter130), jerusalem-neighborhoods (iter125), rosh-hanikra-guide (iter85 BACKLOG; cable car
+  reopened 2026 noted in COMPETITORS.md), israel-tour-operators (SHIPPED), eta-il (SHIPPED).
+Gate: N/A (research only — no code changes, no branch).
+Ship: memory-only commit to .loop/ files on master.
+NEXT: iter 296 = BUILD (296%5==1 → monetization). Top candidates: maccabiah-games-2026 (P2 M
+  URGENT — games end Jul 13), egypt-jordan-israel-itinerary (P2 M), dead-sea-hotels-guide (P2 S),
+  jerusalem-nightlife (P2 S, just added), israel-galilee-agritourism (P2 M).
