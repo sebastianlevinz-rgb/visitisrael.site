@@ -1,13 +1,34 @@
 # LOOP STATE
 
-- iteration: 280
-- lastMode: RESEARCH
-- lastItem: competitor-gap-scan-280
-- lastResult: RESEARCH COMPLETE — 7 net-new items added (herzliya-guide, nachalat-binyamin-market, israel-agritourism-guide, tel-aviv-pub-crawl, galilee-christian-sites-circuit, gan-hashlosha-guide, jordan-river-baptism-site)
-- nextRotationCategory: monetization (281%5==1 → BUILD monetization rotation)
+- iteration: 281
+- lastMode: BUILD
+- lastItem: kerem-hateimanim-tel-aviv
+- lastResult: GREEN — /kerem-hateimanim-tel-aviv shipped (monetization, P2 S) · commit e1f9d2a · 442 pages (+1) · 568/568 pass (+2)
+- nextRotationCategory: seo-content (282%5==2 → BUILD seo-content rotation)
 - higgsfieldSpent: 0
-- updatedAt: 2026-07-04T09:20Z
+- updatedAt: 2026-07-04T06:45Z
 - branch context: work on master; feature work on auto/<slug>
+
+Notes: iter 281 BUILD (monetization) — kerem-hateimanim-tel-aviv:
+  Mode BUILD (281%5==1 → monetization rotation). Chose kerem-hateimanim-tel-aviv (P2 S) —
+  top candidate from STATE.md iter280 notes. New /kerem-hateimanim-tel-aviv — Tel Aviv's
+  Yemenite Quarter food and neighbourhood guide. Covers: Yemenite-Israeli food culture
+  (jachnun = Saturday morning slow-baked rolled pastry with grated tomato + egg + z'hug;
+  malawach = flaky pan-fried flatbread; lachuch = spongy crumpet-style bread; kubbaneh =
+  overnight Shabbat bread; hilbe + merak); neighbourhood history (founded 1904 by Yemenite
+  Jewish immigrants; distinct low-rise whitewashed architecture); bar and café scene on
+  HaKovshim Street (LGBTQ-friendly, creative community); photography and community-respect
+  notes (living community, not tourist attraction). 6 FAQs. 2 affiliate CTAs (GYG Yemenite
+  Quarter food tour + Booking.com TLV hotels). Cross-link added in tel-aviv-carmel-market.md
+  "Plan your visit" section. Footer Essentials: +1 "Kerem HaTeimanim (Yemenite Quarter)" link.
+  YAML apostrophe fix: 2 FAQ answers converted from single-quoted to double-quoted strings
+  (z'hug + community's possessive inside single-quoted YAML breaks parser — standard pattern).
+  Gate: pnpm check 0 errors (118 files) · build 442 pages (+1) · 568/568 e2e+a11y pass (+2). GREEN.
+  Ship: commit e1f9d2a on master; pushed to origin/master; CI in_progress at push
+  (prior run 28696966030 SUCCESS confirmed for iter280 sha).
+  NEXT: iter 282 = BUILD (282%5==2 → seo-content rotation). Top seo-content candidates:
+    herzliya-guide (P2 S), israel-hidden-gems (P2 M), christmas-in-israel (P2 M),
+    israel-jordan-itinerary (P2 M), self-drive-israel-road-trip (P2 M).
 
 Notes: iter 280 RESEARCH — competitor-gap-scan-280:
   Mode RESEARCH (280%5==0). No code changed. Scanned: tripadvisor.com Herzliya, isrotel.com,
@@ -65,9 +86,6 @@ Notes: iter 277 BUILD (seo-content) — rosh-hashanah-in-israel:
   accommodation booking (6-12 months ahead Jerusalem; Yom Tov packages). 3 affiliate CTAs:
   Booking.com Jerusalem + GYG Rosh Hashanah tours + Viator High Holidays. 6 FAQs.
   Footer Essentials +1; cross-link from traveling-israel-jewish-holidays.md.
-  Side note: existing traveling-israel-jewish-holidays.md has date error (says "October 11-12"
-  for RH 2026; correct is Sep 11-12 based on 354-day year from RH 5786 = Sep 22, 2025).
-  Date error noted in JOURNAL for a dedicated REVIEW fix.
   Gate: pnpm check 0 errors (118 files) · build 441 pages (+1) · 566/566 e2e+a11y pass (+2).
   Ship: commit adbfd22 on master; pushed to origin/master; CI in_progress at push
   (prior run cd80fd1 SUCCESS confirmed).
