@@ -1,13 +1,34 @@
 # LOOP STATE
 
-- iteration: 316
-- lastMode: BUILD monetization (316%5==1)
-- lastItem: sea-of-galilee-guide — comprehensive 4-shore Kinneret circuit guide; SHA d9214b6
-- lastResult: GREEN — pnpm check 0 errors · build 462 pages (+1) · 593/593 e2e pass
-- nextRotationCategory: 317%5==2 → BUILD seo-content rotation
+- iteration: 317
+- lastMode: BUILD seo-content (317%5==2)
+- lastItem: backpacking-israel — hostel-by-city guide, Abraham network, budget logistics; SHA e2b7a78
+- lastResult: GREEN — pnpm check 0 errors · build 463 pages (+1) · 593/593 e2e pass
+- nextRotationCategory: 318%5==3 → BUILD tools rotation (tools exhausted → fallthrough seo-content/monetization)
 - higgsfieldSpent: 0
-- updatedAt: 2026-07-05T18:45Z
+- updatedAt: 2026-07-05T19:40Z
 - branch context: work on master; feature work on auto/<slug>
+
+Notes: iter 317 BUILD (seo-content) · backpacking-israel:
+  Mode BUILD (317%5==2 → seo-content rotation). Picked backpacking-israel (P2, M) — top
+  seo-content candidate per STATE iter316; thebrokebackpacker.com + nomadicmatt + hostelz.com
+  all rank for "backpacking Israel" / "best hostels Israel"; israel-cost-budget.md covers
+  accommodation tiers but not hostel-by-city guide or backpacking logistics.
+  New guide: /backpacking-israel. Content: Abraham Hostels network (Jerusalem/TLV/Haifa/Eilat)
+  with per-property context; hostel picks by city (including Florentine TLV, Ein Kerem Jerusalem,
+  Tiberias guesthouses); budget logistics (Rav-Kav, sheruts on Shabbat, market eating, Tel-O-Fun
+  biking); day-tour price table (8 routes, ₪ ranges); 10-day classic circuit + 14-day with south;
+  6 FAQs. Three affiliate CTAs: Hostelworld + Booking.com + GetYourGuide group day tours.
+  Dense internal links: rav-kav-israel, transportation, shabbat-guide, cycling-in-israel,
+  israel-accommodation-guide, israel-cost-budget, free-things-to-do-israel, israeli-street-food-guide.
+  Cross-links upgraded: israel-accommodation-guide (solo travellers/backpackers section),
+  israel-cost-budget (backpacker daily budget bullet), free-things-to-do-israel (practical tips).
+  Gate: pnpm check 0 errors · build 463 pages (+1) · 593/593 e2e pass. GREEN.
+  Ship: committed e2b7a78 to master; pushed origin/master. CI in_progress at state-update (standard).
+  NEXT: iter 318 → BUILD (318%5==3 → tools rotation). Tools category all SHIPPED — fallthrough to
+    seo-content/monetization. Top P2 candidates: self-drive-road-trip (P2, M), accessible-travel-israel
+    (P2, M), israel-orthodox-jewish-travel (P2, M), muslim-travel-israel (P2, M), photography-guide
+    (P2, M). i18n option: Phase 3 (regions ×11 in fr+de) or Phase 4 (attractions batches).
 
 Notes: iter 316 BUILD (monetization) · sea-of-galilee-guide:
   Mode BUILD (316%5==1 → monetization rotation). Picked sea-of-galilee-guide (P2, M) — highest-

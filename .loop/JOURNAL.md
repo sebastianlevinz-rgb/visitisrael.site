@@ -5879,3 +5879,9 @@ What: New /sea-of-galilee-guide — comprehensive 4-shore Kinneret circuit guide
 Gate: pnpm check 0 errors · build 462 pages (+1) · 593/593 e2e+a11y pass. GREEN.
 Ship: committed d9214b6 to master; pushed origin/master. CI in_progress at commit (standard).
 NEXT: iter 317 → BUILD seo-content (317%5==2). Top candidates: backpacking-israel, self-drive-road-trip, accessible-travel-israel, haifa-travel-guide, eilat-travel-guide.
+
+## 2026-07-05T19:40Z · iter 317 · BUILD seo-content · backpacking-israel
+What: New /backpacking-israel — hostel-by-city guide (Jerusalem, Tel Aviv, Haifa, Eilat, Tiberias), Abraham Hostels network overview with per-property detail, budget logistics (Rav-Kav, sheruts, Shabbat planning, market eating), day-tour price table (8 routes), 10-day classic + 14-day extended sample routes, 6 FAQs. Three affiliate CTAs: Hostelworld + Booking.com + GetYourGuide. Cross-links added to israel-accommodation-guide (solo/backpacker section), israel-cost-budget (backpacker bullet), free-things-to-do-israel (practical tips). Internal links: rav-kav-israel, transportation, shabbat-guide, cycling-in-israel, israeli-street-food-guide.
+Gate: pnpm check 0 errors · build 463 pages (+1) · 593/593 e2e pass. GREEN.
+Ship: committed e2b7a78 to master; pushed origin/master. CI in_progress at state-update (standard; prior 2 CI runs both success).
+NEXT: iter 318 → BUILD (318%5==3 → tools fallthrough). Top candidates: self-drive-road-trip, accessible-travel-israel, israel-orthodox-jewish-travel.
