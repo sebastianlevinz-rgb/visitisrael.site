@@ -5676,3 +5676,22 @@ actual correct date is Aug 12 per Chabad (9 Av 5787).
 Gate: pnpm check 0 errors (119 files) · build 455 pages · 593/593 e2e+a11y pass. GREEN.
 Ship: commit 392b4b2 to master; pushed origin/master; CI in_progress at commit time (standard).
 NEXT: iter 304 → REVIEW mode (304%5==4). Candidates: audit iters 301-303 output (galilee-vs-golan-weekend, dead-sea-vs-eilat, fix-2027-holiday-dates).
+
+## 2026-07-05T06:40Z · iter 304 · REVIEW · review-304-desc-fix
+What: Audited iters 301-303 output (galilee-vs-golan-weekend, dead-sea-vs-eilat,
+  fix-2027-holiday-dates). Found one SEO bug: dead-sea-vs-eilat description was 165
+  chars (limit 160). Removed redundant "the " before "float" and "Red Sea reef" → 157
+  chars. All other checks clean: titles OK, all internal links resolve (including
+  attraction sub-destinations at /dead-sea/masada, /dead-sea/ein-gedi, /dead-sea/qumran,
+  /golan/nimrod-fortress), all hero images exist, affiliate partners valid, no H1 in
+  body, no fabricated data, honesty framing appropriate (Golan disputed-status note
+  present, Dolphin Reef expectations managed, Kalia external link legitimate reference).
+  2027 holiday arithmetic verified independently: Passover Apr 21, Yom HaZikaron May 11
+  (Iyar 4=Sunday, moved Monday per rule), Shavuot Jun 10, RH Oct 1-2, YK Oct 10,
+  Tisha B'Av Aug 12 (consistent with Cheshvan+Kislev full-length = iter303 Chabad source).
+  Informational: Shavuot 2-day full convention is pre-existing (same in 2026); not changed.
+Gate: pnpm check 0 errors (119 files) · build 455 pages · 593/593 e2e+a11y pass. GREEN.
+Ship: commit c192dba to master; pushed origin/master; CI Lighthouse in_progress (normal).
+Next: iter 305 → RESEARCH mode (305%5==0). Candidates: competitor scan for fall/winter
+  2026-2027 season gaps; i18n Phase 3 (regions fr+de) readiness check; new comparison-
+  format opportunities; emerging keyword opportunities.

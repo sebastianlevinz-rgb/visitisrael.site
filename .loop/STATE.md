@@ -1,13 +1,56 @@
 # LOOP STATE
 
-- iteration: 303
-- lastMode: BUILD (303%5==3 → tools→technical fallthrough)
-- lastItem: fix-2027-holiday-dates (P1 S, technical) — corrected all 16 HOLIDAYS entries for 2027 in israel-effective-days.astro
-- lastResult: SHIPPED — commit 392b4b2 master; pnpm check 0 errors (119 files) · build 455 pages · 593/593 e2e+a11y pass; CI in_progress at commit time (normal)
-- nextRotationCategory: 304%5==4 → REVIEW
+- iteration: 304
+- lastMode: REVIEW (304%5==4)
+- lastItem: review-304-desc-fix — audited iters 301-303 (galilee-vs-golan-weekend, dead-sea-vs-eilat, fix-2027-holiday-dates); fixed dead-sea-vs-eilat description (165→157 chars)
+- lastResult: SHIPPED — commit c192dba master; pnpm check 0 errors (119 files) · build 455 pages · 593/593 e2e+a11y pass; CI Lighthouse in_progress at commit time (normal)
+- nextRotationCategory: 305%5==0 → RESEARCH
 - higgsfieldSpent: 0
-- updatedAt: 2026-07-05T06:00Z
+- updatedAt: 2026-07-05T06:40Z
 - branch context: work on master; feature work on auto/<slug>
+
+Notes: iter 304 REVIEW — review-304-desc-fix:
+  Mode REVIEW (304%5==4). Audited iters 301-303 output:
+  - galilee-vs-golan-weekend (iter301) — comparison guide
+  - dead-sea-vs-eilat (iter302) — comparison guide
+  - fix-2027-holiday-dates (iter303) — technical fix to israel-effective-days.astro
+  Findings:
+  (1) CONFIRMED BUG: dead-sea-vs-eilat.md description was 165 chars (>160 limit).
+      FIXED: removed "the " before "float" and before "Red Sea reef" → 157 chars.
+  (2) CLEAN: galilee-vs-golan-weekend.md — title 55 chars ✓, desc 154 chars ✓;
+      all internal links resolve (galilee, golan, golan/nimrod-fortress attraction,
+      galilee-tours-compared, car-rental-israel, transportation, is-israel-safe);
+      all 7 hero images present; affiliates (discovercars, booking) valid; no H1 in body;
+      Golan disputed-territory note present; no fabricated data.
+  (3) CLEAN: 2027 holiday dates in israel-effective-days.astro verified against
+      Hebrew calendar arithmetic: RH Oct 1-2 ✓, YK Oct 10 ✓, Sukkot Oct 15+ ✓,
+      Hanukkah Dec 24 ✓, Passover Apr 21 ✓, Yom HaZikaron May 11 ✓ (Iyar 4=Sunday,
+      moved to Iyar 5=Monday per Shabbat-adjacency rule). Tisha B'Av Aug 12 consistent
+      with iter303 Chabad verification (Cheshvan+Kislev both full = max length = Aug 12).
+  (4) INFO: Shavuot marked as 2-day full for 2027 (Jun 10-11) — consistent with 2026
+      convention (May 21-22); Israel observes 1 day but 2-day convention is pre-existing,
+      not introduced by iter303. Not corrected (would require understanding original intent).
+  (5) CLEAN: dead-sea-vs-eilat.md internal links verified (attraction URLs /dead-sea/masada,
+      /dead-sea/ein-gedi, /dead-sea/qumran confirmed in attractions/ dir); all hero images
+      present; affiliates (booking×2, getyourguide×2) valid; no H1 in body; no fabricated data.
+      External link kalia.co.il is a legitimate beach reference, not affiliate.
+  Gate: pnpm check 0 errors (119 files) · build 455 pages · 593/593 e2e+a11y pass. GREEN.
+  Ship: commit c192dba to master; pushed origin/master; CI Lighthouse in_progress (normal).
+  NEXT: iter 305 → RESEARCH mode (305%5==0). Candidates: competitor scan for profitable
+    new patterns; review backlog for items aging >3 months; fall/winter 2026-2027 season
+    content gaps; i18n Phase 3 (regions in fr+de) assessment; new comparison-format opportunities.
+
+Notes: iter 303 BUILD (tools→technical fallthrough) · fix-2027-holiday-dates:
+  P1 technical: all 16 HOLIDAYS entries for 2027 were wrong — 5787 is a Hebrew leap year (Adar I + Adar II)
+  but the original dataset used non-leap positions, placing every holiday ~1 month too early.
+  Root cause confirmed via Hebcal Israel (i=on) + Chabad calendar searches.
+  All corrections: Tu BiShvat Jan 22, Purim Mar 22 (Adar II), Passover Apr 21-28, Yom HaZikaron May 11,
+  Yom Ha'atzmaut May 12, Shavuot Jun 10-11, Tisha B'Av Aug 12 only (fast day), RH Oct 1-2, YK Oct 10,
+  Sukkot Oct 15-23, Hanukkah Dec 24-Jan 1 2028. Backlog suggested Jul 11 for Tisha B'Av (wrong calc) —
+  actual correct date is Aug 12 per Chabad (9 Av 5787).
+  Gate: pnpm check 0 errors (119 files) · build 455 pages · 593/593 e2e+a11y pass. GREEN.
+  Ship: commit 392b4b2 to master; pushed origin/master; CI in_progress at commit time (standard).
+  NEXT: iter 304 → REVIEW mode (304%5==4). Candidates: audit iters 301-303 output (galilee-vs-golan-weekend, dead-sea-vs-eilat, fix-2027-holiday-dates).
 
 Notes: iter 300 RESEARCH — research-300:
   Mode RESEARCH (300%5==0). Backlog at iter300 extremely saturated (195+ items from 60+ research passes).
@@ -56,158 +99,6 @@ Notes: iter 299 REVIEW — review-299-fixes:
     research update; check for new Israel tourism initiatives/events for 2026-2027 season;
     scan for emerging keyword opportunities (Maccabiah aftermath, fall 2026 season content).
 
-Notes: iter 298 BUILD (tools→seo-content fallthrough) — jerusalem-nightlife:
-  Mode BUILD (298%5==3 → tools rotation). Tools section of BACKLOG confirmed EMPTY (all 11 tools
-  items shipped); fell through to seo-content per PLAYBOOK rule. Top ready seo-content item:
-  jerusalem-nightlife (P2, S) — fully spec'd in iter295 research.
-  New /jerusalem-nightlife: Jerusalem bars, music venues & evening guide.
-  Structure: Mahane Yehuda after dark (Thu/Sat shuk transformation, 21:00–midnight peak;
-  HaBasta wine bar, Machneyuda area, Basher Wines); German Colony / Emek Refaim (wine-bar
-  strip, Fattoush garden bar, calmer 30s–40s crowd); Ben Yehuda & Zion Square (tourist-accessible
-  pubs/sports bars); Yellow Submarine music venue (HaRechavim 13, indie/jazz/rock, ₪40–100 tickets,
-  yellowsubmarine.org.il); Mamilla Mirror Bar (Old City walls view, ₪70–120 cocktails, sunset
-  arrival tip); Beit Avi Chai (cultural evenings, music/film/literary).
-  Practical section: Shabbat timing (Fri sunset → Sat ~21:00 = closed; Thu = biggest bar night;
-  Sat = late starter post-Shabbat end); transport (Gett/Yango after 22:00, light-rail until
-  midnight); dress code (casual; modesty for Old City); TLV comparison (2–3am vs TLV 5–6am,
-  wine bars/music vs clubs). Cross-link: /tel-aviv-nightlife (comparison framing), /shabbat-guide,
-  /jewish-heritage-israel, /israel-accommodation-guide.
-  HONESTY: wine-bar/music scene framing only — NOT described as a "party city" or club scene;
-  all venue hours framed as "typically" + "verify before visiting"; Yellow Submarine = link
-  yellowsubmarine.org.il only, no hardcoded schedule; Mamilla Mirror Bar = "at time of writing,
-  check hotel policy may change"; no fabricated ratings or prices beyond ranges.
-  2 affiliate CTAs: GYG Jerusalem evening food+wine tour (Mahane Yehuda night market angle) +
-  Booking.com Jerusalem hotels (accommodation near the evening scene).
-  6 FAQs: does Jerusalem have nightlife? / best area for bars / when does it start / Shabbat
-  impact / safety at night / Jerusalem vs Tel Aviv comparison.
-  heroImage: /images/sub-destinations/jerusalem/mahane-yehuda.jpg
-  Smoke test: /jerusalem-nightlife added to ROUTES.
-  Gate: pnpm check 0 errors (119 files) · build 453 pages (+1) · 591/591 e2e pass (+1). GREEN.
-  Ship: commit 83c83d4 to master; pushed origin/master; CI in_progress at commit time (normal).
-  NEXT: iter 299 → REVIEW mode (299%5==4). Candidates: audit iters 296–298 output
-    (maccabiah-games-2026, israel-hidden-gems, jerusalem-nightlife) for correctness/SEO/a11y/
-    dead links/schema validity/honesty; or pick a P2-T technical backlog item as one quick fix.
-
-Notes: iter 297 BUILD (seo-content) — israel-hidden-gems:
-  Mode BUILD (297%5==2 → seo-content rotation). Top P2 seo-content item chosen: israel-hidden-gems.
-  New /israel-hidden-gems: 11 off-the-beaten-path sites hub. Sites covered: Nimrod Fortress
-  (Golan Crusader/Mamluk castle), Beit Guvrin & Maresha (UNESCO 3,000-room cave network),
-  Wadi Qelt canyon + St George Monastery (Jerusalem→Jericho descent), Herodion (Herod's
-  fortress-tomb, less crowded Masada rival), Tel Megiddo/Armageddon (26 layers, water tunnel),
-  Timna Park (Egyptian copper mines + Solomon's Pillars, Negev), Ein Hod artists village (Carmel,
-  Marcel Janco/Dada), Rosh Pina (1882 Rothschild village + Nimrod Lookout), Mar Saba Monastery
-  (483 CE Byzantine cliff monastery), Beit She'an Roman ruins (749 CE earthquake freeze), Achziv
-  (Phoenician port + Achzivland micro-nation). Format: narrative site cards with region context,
-  best season, transport requirements, combining suggestions, internal cross-links.
-  Dense cross-links: masada-visitor-guide, ein-gedi-guide, day-trips-from-haifa, akko-acre-guide,
-  eilat-diving-snorkeling, car-rental-israel, private-tours-israel, caesarea-guide,
-  1-day-jerusalem-itinerary, tiberias-guide, safed-tzfat-guide, sea-of-galilee-boat-tour,
-  galilee-tours-compared, dead-sea-guide.
-  HONESTY: no fabricated prices/ratings; "approximately ₪30" framing for museum entries;
-  "roughly 2–3 weeks" for cherry season; always "verify before visiting" for Area C sites.
-  3 affiliate CTAs: GYG "hidden Israel" private tours + GYG Beit Guvrin caves + GYG Wadi Qelt.
-  Smoke test: /israel-hidden-gems added to ROUTES.
-  Gate: pnpm check 0 errors (119 files) · build 452 pages (+1) · 590/590 e2e pass (+1). GREEN.
-  Ship: committed ce7114c to master; pushed origin/master.
-  NEXT: iter 298 → BUILD (298%5==3 → tools rotation). Top tools BUILD candidates:
-    jerusalem-nightlife (P2 S, new seo+monetization — but tools is the rotation category);
-    tools backlog candidates: tipping-interactive-calculator (P2 S), israel-noise-calendar (P3 S),
-    accessible-travel-israel (P2 M), muslim-travel-israel (P2 M) — check tools section of BACKLOG
-    for ready P1/P2 items first; else fall through to seo-content.
-
-Notes: iter 296 BUILD (monetization) — maccabiah-games-2026:
-  Mode BUILD (296%5==1 → monetization rotation). URGENT item chosen: Maccabiah Games 2026
-  (games currently running Jun 30–Jul 13, 2026; ~9 days remaining at time of build).
-  New /maccabiah-games-2026: complete spectator + visitor guide for the 22nd Maccabiah Games
-  ("Jewish Olympics"). Content: what the Maccabiah is + history (founded 1932, Yosef Yekutieli);
-  4 divisions (Open/Junior/Masters/Physically Challenged); 2026 venue cities (Jerusalem/TLV/
-  Netanya/Haifa/Beer Sheva); Teddy Kollek Stadium Opening Ceremony ticketing (sold separately,
-  sells out); free spectator access for most competition rounds; Wingate Institute Netanya
-  (swimming anchor venue); transport options (official Maccabiah shuttles/Israel Rail/rental car);
-  accommodation planning (3–6 months advance booking for July); volunteer programme details
-  (18+, 10–14 day commitment, apply via maccabiah.com); practical July-in-Israel context.
-  HONESTY: no hardcoded schedule times; always link maccabiah.com; "typically offered" shuttle
-  language; honest framing of July peak-season hotel prices (₪800–2500/night range, not exact).
-  3 affiliate CTAs: Booking.com Jerusalem + Booking.com Tel Aviv (peak-season premium hotel
-  bookings = high commission angle) + Discover Cars (multi-venue flexibility argument).
-  6 FAQs. Cross-link added to israel-events-festivals.md Summer row.
-  Gate: pnpm check 0 errors (119 files) · build 451 pages (+1) · 589/589 e2e+a11y pass (+1). GREEN.
-  Ship: staged 3 files (maccabiah-games-2026.md, israel-events-festivals.md, smoke.spec.ts);
-    commit 7102458 on master; pushed origin/master.
-  NEXT: iter 297 → BUILD (297%5==2 → seo-content rotation). Top seo-content BUILD candidates:
-    israel-hidden-gems (P2 M), self-drive-road-trip (P2 M), muslim-travel-israel (P2 M),
-    accessible-travel-israel (P2 M), backpacking-israel (P2 M), photography-guide (P2 M),
-    jerusalem-nightlife (P2 S, new from iter295), "best-time-to-visit-<region>" (P2 M).
-
-Notes: iter 295 RESEARCH — research-iter295-jerusalem-nightlife:
-  Mode RESEARCH (295%5==0). No code changes; memory-only update.
-  Backlog saturation: 188+ items from 59+ prior research passes.
-  Research approach: systematic grep de-dup across 20+ candidate topics before finding genuine gap.
-  De-duped and confirmed already tracked: national-library-israel (iter130 line 144), jerusalem-museums
-    (iter130 line 142), jerusalem-neighborhoods (iter125 line 331), rosh-hanikra-guide (iter85 BACKLOG
-    — cable car reopened 2026 noted in COMPETITORS.md), israel-tour-operators (SHIPPED pre-loop),
-    bethlehem-travel-guide (in backlog), west-bank (Hebron excluded per PROJECT.md), eta-il-checker
-    (SHIPPED + visa-information.md comprehensive).
-  NEW ITEM CONFIRMED: /jerusalem-nightlife (P2, S, seo-content+monetization)
-    — grep "jerusalem-nightlife" + "nightlife guide.*jerusalem" returned ZERO standalone matches
-    — we have tel-aviv-nightlife.md (pre-loop) but zero Jerusalem equivalent
-    — Timeout Israel, TripAdvisor, iTravelJerusalem, Wanderlog all have dedicated Jerusalem guides
-    — distinct scene: Mahane Yehuda Thu/Sat transformation, German Colony wine bars, Yellow Submarine
-      music venue, Mamilla Mirror Bar, Ben Yehuda strip
-    — HONESTY: frame as wine-bar/music scene, NOT club scene; most close 2-3am
-    — Monetization: GYG Jerusalem evening food+wine tour CTA + Booking.com Jerusalem hotels
-  MACCABIAH 2026 URGENCY: Games confirmed running Jun 30–Jul 13 (9 days left). URGENT flag added
-    to the Maccabiah entry (P2, M) in BACKLOG.md. Guide still evergreen for Maccabiah 23 in 2030.
-  TISHA B'AV 2027 DATES: Still flagged for human review from iter294 (code says Aug 11, independent
-    calc says Jul 11). Recommend checking chabad.org/calendar for 5787 Tisha B'Av before next tools
-    BUILD.
-  Gate: N/A (research only — no code changes, no branch, no gate run).
-  NEXT: iter 296 → BUILD (296%5==1 → monetization rotation). Top monetization BUILD candidates:
-    maccabiah-games-2026 (P2 M — URGENT: games end Jul 13), egypt-jordan-israel-itinerary (P2 M),
-    israel-galilee-agritourism (P2 M), dead-sea-hotels-guide (P2 S), jerusalem-nightlife (P2 S, new).
-
-Notes: iter 294 REVIEW — review-effective-days-fixes:
-  Mode REVIEW (294%5==4). Audited iters 291-293 output (israel-jordan-itinerary,
-  christmas-in-israel, israel-effective-days calculator).
-  Findings:
-  (1) CONFIRMED BUG: israel-effective-days.astro — `new Date("YYYY-MM-DD")` is parsed as
-      UTC midnight by the ECMAScript spec. In UTC-offset timezones (e.g. UTC-5 Eastern US),
-      Oct 1 00:00 UTC = Sep 30 at 19:00 local → `.getDate()` returns 30 not 1. All calendar
-      cells shifted one day early for users in Western/Americas timezones. Fixed with
-      parseLocalDate() helper that splits "YYYY-MM-DD" and constructs local-time Date.
-  (2) CONFIRMED BUG: Tisha B'Av 2026 end date was [2026,7,23] (July 23, the 10th of Av).
-      July 23 is a regular Thursday — not a closure day. The holidayOn() function flags any
-      day within [start, end] inclusive, so July 23 was incorrectly marked "full closure".
-      Fixed to end: [2026,7,22] (9th of Av only, confirmed Wednesday Jul 22, 2026).
-  (3) FLAGGED FOR HUMAN REVIEW: Tisha B'Av 2027 start date [2027,8,11] = August 11.
-      Independent calendar calculation (tracing months from 1 Nisan = Mar 7 per Passover
-      Mar 21 in code) yields 9 Av = July 11, 2027 — exactly one month earlier. This discrepancy
-      was not fixed (cannot authoritatively verify without live Hebrew calendar reference).
-      Human should verify against chabad.org/calendar or similar.
-  (4) CLEAN: christmas-in-israel.md and israel-jordan-itinerary.md — all internal links
-      resolve (church-holy-sepulchre-guide, petra-from-israel, dead-sea-hotels-guide etc.
-      all confirmed present), SEO meta within limits, no fabricated data, affiliate
-      rel="sponsored nofollow noopener" correct, no H1 in body.
-  Gate: pnpm check 0 errors · build 450 pages · 588/588 e2e pass. GREEN.
-  Ship: commit 65712cf on master; pushed origin/master; CI pending (standard).
-  NEXT: iter 295 → RESEARCH mode (295%5==0). Candidates: competitor scan for profitable
-    new content patterns; tools gap analysis; link-bait opportunities; local SEO features.
-
-Notes: iter 293 BUILD (tools) — israel-effective-days:
-  Mode BUILD (293%5==3 → tools rotation). Chose israel-effective-days (P2 S) — "Effective
-  Touring Days Calculator". Distinguishable from existing tools: /israel-how-many-days takes
-  region inputs → outputs days needed; /israel-holiday-planner qualitative impact by holiday;
-  new tool takes arrival/departure dates → quantitative effective-days score with visual calendar.
-  Algorithm: weekday=1.0, Friday=0.8, Shabbat=0.6, full-closure holiday=0.4, partial=0.8,
-  arrive/depart=0.5. Visual week-by-week calendar with colour-coded cells. Itinerary CTA matched
-  to effective-days bucket (<3.5→3-day Jerusalem, ≤5.5→5-day, ≤8.5→7-day, ≤12→10-day, else→browse).
-  2026–2027 full Jewish holiday dataset. 5 FAQs. Booking.com CTA.
-  Wired into plan-your-trip hub and i18n (en/fr/de). 7 new e2e tests.
-  Gate: pnpm check 0 errors (119 files) · build 450 pages (+1) · 588/588 e2e pass (+7). GREEN.
-  Ship: squash-merge auto/israel-effective-days → master; commit fbf10f5; pushed origin/master.
-  NEXT: iter 294 → technical (294%5==4 → review). Candidates: link-rot pass, meta-audit,
-    schema validator sweep, or any P2-T technical backlog item.
-
 Cron b7325b16 hourly @ :17. Loop history: 19 tools + sitemap-lastmod + link-checker(+depth) + i18n
-Phase0/1a/1b/1c/2 Batches1-18(COMPLETE) + 32 review passes + 3 technical (event-schema + meta-trim + locale-links) + 35 EN guides + 4 tools-monetization;
-research iters 5/10/20/30/35/40/45/50/55/60/65/70/75/80/85/90/95/100/105/110/115/120/125/130/135/140/145/150/155/160/165/170/175/180/185/190/195/200/205/210/215/220/225/230/235/240/245/250/255/260/265/270/275/280/285/290/295.
+Phase0/1a/1b/1c/2 Batches1-18(COMPLETE) + 33 review passes + 3 technical (event-schema + meta-trim + locale-links) + 35 EN guides + 4 tools-monetization;
+research iters 5/10/20/30/35/40/45/50/55/60/65/70/75/80/85/90/95/100/105/110/115/120/125/130/135/140/145/150/155/160/165/170/175/180/185/190/195/200/205/210/215/220/225/230/235/240/245/250/255/260/265/270/275/280/285/290/295/300/305.

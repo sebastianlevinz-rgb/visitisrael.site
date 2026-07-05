@@ -587,3 +587,6 @@ guides. 3× affiliate CTAs, 6 FAQs, cross-link from /jerusalem region page.
 
 ## iter 303 — fix-2027-holiday-dates (392b4b2)
 - Fix all 2027 Hebrew holiday dates in israel-effective-days.astro — 5787 is a Hebrew leap year (Adar I + Adar II); all 16 HOLIDAYS entries were wrong (off by ~1 month). Corrected: Tu BiShvat Jan 22, Purim Mar 22, Passover Apr 21-28, Yom HaZikaron May 11, Yom Ha'atzmaut May 12, Shavuot Jun 10-11, Tisha B'Av Aug 12, Rosh Hashanah Oct 1-2, Yom Kippur Oct 10, Sukkot Oct 15-23, Hanukkah Dec 24-Jan 1 2028. P1 technical item from BACKLOG resolved. Gate: 0 errors · 455 pages · 593/593 pass. GREEN.
+
+## iter 304 — review-304-desc-fix (c192dba)
+- REVIEW pass auditing iters 301-303 (galilee-vs-golan-weekend, dead-sea-vs-eilat, fix-2027-holiday-dates). One SEO bug found and fixed: dead-sea-vs-eilat description trimmed from 165 to 157 chars. All other checks clean. Gate: 0 errors · 455 pages · 593/593 pass. GREEN.
