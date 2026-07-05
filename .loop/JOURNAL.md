@@ -5866,3 +5866,10 @@ All internal links verified present; no H1 in bodies; no fabricated prices or re
 Gate: pnpm check 0 errors · build 461 pages · 593/593 e2e+a11y pass. GREEN.
 Ship: committed db4e89f to master; pushed origin/master. CI pending at state-update (standard).
 NEXT: iter 315 → RESEARCH mode (315%5==0). Top BUILD waiting: sea-of-galilee-guide (P2, M), backpacking-israel (P2, M), self-drive-road-trip (P2, M), accessible-travel-israel (P2, M).
+
+## 2026-07-05T17:10Z · iter 315 · RESEARCH · research-315
+What: Competitor + SERP scan for content gaps not yet in backlog. Sources scanned: lonelyplanet.com, timeout.com, backpackisrael.com, touristisrael.com, reddit.com/r/israel, tripadvisor.com, chabad.org, wikivoyage.org/Israel, jewishvirtuallibrary.org.
+De-duplication: 40+ candidate topics swept via Python3 regex against BACKLOG.md + DONE.md. Confirmed 6 net-new items (zero standalone prior entries in either file).
+Added to BACKLOG: (1) /israel-orthodox-jewish-travel P2 M — kosher/observant diaspora travel logistics; (2) /zionist-heritage-trail P2 S — self-drive founding-sites circuit; (3) /israel-memorial-sites P2 M — multi-site legacy tourism guide (Oct 7 sites excluded pending human review); (4) /new-years-eve-israel P3 S — "Sylvester" NYE guide; (5) /israel-tourist-scams P3 S — practical scam avoidance; (6) /israel-spring-break P3 S — US/EU uni students March–April.
+Gate: N/A (research only — no src/ changes).
+NEXT: iter 316 → BUILD monetization rotation. Top candidates: sea-of-galilee-guide, backpacking-israel, self-drive-road-trip, accessible-travel-israel, israel-orthodox-jewish-travel, israel-memorial-sites.

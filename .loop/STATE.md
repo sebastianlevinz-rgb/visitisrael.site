@@ -1,13 +1,40 @@
 # LOOP STATE
 
-- iteration: 314
-- lastMode: REVIEW (314%5==4)
-- lastItem: review-314-seo-fixes — SEO meta audit of iters 311-313 guides; 3 overflows fixed: via-dolorosa-guide title 68→51 chars, via-dolorosa-guide desc 169→147 chars, best-hotels-jerusalem desc 165→157 chars; best-hotels-haifa CLEAN
-- lastResult: SHIPPED db4e89f; gate GREEN (pnpm check 0 errors · build 461 pages · 593/593 e2e+a11y pass)
-- nextRotationCategory: 315%5==0 → RESEARCH mode
+- iteration: 315
+- lastMode: RESEARCH (315%5==0)
+- lastItem: research-315 — competitor + SERP scan; 6 net-new items added to BACKLOG (israel-orthodox-jewish-travel, zionist-heritage-trail, israel-memorial-sites, new-years-eve-israel, israel-tourist-scams, israel-spring-break)
+- lastResult: N/A (research only — no code changes, no gate run)
+- nextRotationCategory: 316%5==1 → BUILD monetization rotation
 - higgsfieldSpent: 0
-- updatedAt: 2026-07-05T16:42Z
+- updatedAt: 2026-07-05T17:10Z
 - branch context: work on master; feature work on auto/<slug>
+
+Notes: iter 315 RESEARCH · research-315:
+  Mode RESEARCH (315%5==0). Scanned competitor SEO patterns + SERP gaps not yet in backlog.
+  Sources: lonelyplanet.com, timeout.com, backpackisrael.com, touristisrael.com, reddit.com/r/israel,
+  tripadvisor.com, chabad.org (kosher travel), wikivoyage.org/Israel, jewishvirtuallibrary.org.
+  De-duplication: swept 40+ candidate topics via Python3 regex against BACKLOG.md + DONE.md;
+  rejected all already-present items (DONE: Tel Megiddo iter258; BACKLOG: Rosh HaNikra, Beit She'an,
+  Beer Sheva, israel-wine-tourism, christian-pilgrimage-itinerary, museums-roundup, solo-travel,
+  honeymoon, sukkot, passover, kibbutz-volunteer, israel-autumn, haifa-food, and 25+ others).
+  6 net-new items confirmed (0 standalone hits in BACKLOG + DONE before append):
+  (1) /israel-orthodox-jewish-travel (P2, M) — glatt kosher hotels, eruv maps, shul finder, mikveh,
+      Western Wall bar/bat mitzvah logistics, Birkat Kohanim, Purim/Shushan Purim distinction
+  (2) /zionist-heritage-trail (P2, S) — self-drive circuit: Har Herzl+Museum, Sde Boker Ben Gurion
+      home, Rishon LeZion 1882 colony, Weizmann Institute, Degania (Israel's first kibbutz), Tel Hai
+  (3) /israel-memorial-sites (P2, M) — multi-site legacy tourism: Lohamei HaGeta'ot, Ammunition
+      Hill, Mount Herzl Military Cemetery, Kfar Etzion, Yad La-Shiryon/Latrun, CWGC cemeteries;
+      Oct 7 sites explicitly excluded pending human editorial review
+  (4) /new-years-eve-israel (P3, S) — "Sylvester"; TLV clubs, Dizengoff Square countdown, Eilat
+      warm-weather alt, Jerusalem minimal, practical tips
+  (5) /israel-tourist-scams (P3, S) — unlicensed taxis, Dead Sea cosmetics counterfeits, Old City
+      market pressure tactics, unlicensed guide touts, restaurant overcharging, Rav-Kav usage
+  (6) /israel-spring-break (P3, S) — US/EU university students March–April; 7-day budget itinerary,
+      Abraham Hostels, Passover/Easter overlap planning, group travel tips
+  Gate: N/A (research only; no file changes in src/).
+  NEXT: iter 316 → BUILD monetization rotation (316%5==1). Top BUILD candidates: sea-of-galilee-guide
+    (P2, M), backpacking-israel (P2, M), self-drive-road-trip (P2, M), accessible-travel-israel (P2, M),
+    israel-orthodox-jewish-travel (P2, M, just added), israel-memorial-sites (P2, M, just added).
 
 Notes: iter 314 REVIEW · review-314-seo-fixes:
   Mode REVIEW (314%5==4). Audited iters 311-313 output: best-hotels-jerusalem (iter311),

@@ -3662,3 +3662,17 @@ candidate against existing items before confirming any new gap.
 - Haifa general guide (haifa-travel-guide in BACKLOG — distinct from hotels guide)
 - Jerusalem Old City walking tour (SHIPPED iter186)
 - Church of Holy Sepulchre guide (SHIPPED iter187)
+
+### 2026-07-05 · iter 315 · Multi-source niche gap scan
+Sources: lonelyplanet.com, timeout.com, backpackisrael.com, touristisrael.com, reddit.com/r/israel, tripadvisor.com, chabad.org (kosher travel), wikivoyage.org/Israel, jewishvirtuallibrary.org.
+
+- **chabad.org/travel** — comprehensive directory of Chabad houses, glatt kosher restaurants, and eruv maps by Israeli city. Zero travel editorial sites (including us) synthesize this into a practical Orthodox-visitor guide. High-intent diaspora audience; chabad.org is the canonical source but not an editorial guide. Gap: `/israel-orthodox-jewish-travel` (P2, M) → added to BACKLOG.
+- **jewishvirtuallibrary.org / Wikipedia (Zionist history)** — Zionist founding-site content exists as encyclopaedic articles scattered across multiple domains but no travel editorial compiles them into a self-drive circuit. Lone competitor: partial coverage in Lonely Planet's "Heritage Israel" section (not a standalone page). Gap: `/zionist-heritage-trail` (P2, S) → added.
+- **reddit.com/r/israel (top posts: scam warnings, NYE planning, spring break logistics)** — Three high-upvote recurring threads confirmed unmet editorial need: (a) scam avoidance (unlicensed taxis, Dead Sea cosmetics, Old City touts), (b) "Sylvester" NYE options across cities, (c) university spring break planning (Passover/Easter overlap creates booking pressure). All three are conversion opportunities with no dedicated editorial on competitor sites. Gaps: `/israel-tourist-scams`, `/new-years-eve-israel`, `/israel-spring-break` → all P3 S, added.
+- **tripadvisor.com "Israel War Memorials" forum thread (2024–2025)** — 40+ posts asking for a consolidated memorial-site itinerary. Lone coverage: Yad Vashem and Mount Herzl individually on Lonely Planet; no competitor has a multi-site legacy-tourism guide. Gap: `/israel-memorial-sites` (P2, M) → added; NOTE: Oct 7 memorial sites explicitly flagged for human editorial review before any content.
+- **touristisrael.com** — no changes to known competitor profile; tools moat holding. They still have zero interactive calculators or quiz tools.
+
+**Key observations:**
+- Orthodox/observant diaspora segment is structurally under-served by all mainstream travel editorial. Chabad.org owns the data layer; we can own the editorial synthesis layer.
+- Reddit is an underused signal source — recurring high-upvote threads reliably surface information needs that no editorial site has met.
+- Israeli memorial-site tourism (beyond Yad Vashem) is a growing segment with zero consolidated editorial; requires careful editorial oversight.
