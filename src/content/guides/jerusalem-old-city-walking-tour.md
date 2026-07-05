@@ -111,9 +111,9 @@ Exit the Western Wall Plaza northward through the Muslim Quarter gate. You are n
 
 **Navigation:** Streets here are signed in English, Arabic and Hebrew. The main commercial street is Al-Wad Road (HaGai Street in Hebrew), running north–south. Market stalls sell spices, textiles, sweets and tourist goods; vendors compete for attention. A firm "no thank you" is universally understood.
 
-**Via Dolorosa:** The **Via Dolorosa** is the traditional route of Christ's procession to Calvary — 14 Stations of the Cross along a 600-metre path. **For the correct start**, walk to **Lion's Gate** (the eastern gate of the Old City, 10 minutes' walk north from the Western Wall plaza) and begin at Station I near the Church of the Flagellation. The stations then proceed westward, ending at Stations X–XIV inside the Church of the Holy Sepulchre.
+**Via Dolorosa:** The **[Via Dolorosa](/via-dolorosa-guide)** is the traditional route of Christ's procession to Calvary — 14 Stations of the Cross along a 600-metre path. **For the correct start**, walk to **Lion's Gate** (the eastern gate of the Old City, 10 minutes' walk north from the Western Wall plaza) and begin at Station I near the Church of the Flagellation. The stations then proceed westward, ending at Stations X–XIV inside the Church of the Holy Sepulchre.
 
-If you are following the full Via Dolorosa, allow 45 to 60 minutes for the walk itself. Franciscan friars lead a group walk every Friday at 3pm — open to anyone.
+If you are following the full Via Dolorosa, allow 45 to 60 minutes for the walk itself. Franciscan friars lead a group walk every Friday at 3pm — open to anyone. See the [complete Via Dolorosa station guide](/via-dolorosa-guide) for station-by-station descriptions, procession timing, and the best morning windows.
 
 **St Anne's Church:** On the way to or from Lion's Gate, the **Church of St Anne** (near the Bethesda Pool excavations, just inside Lion's Gate) is worth a brief stop. This 12th-century Crusader church has extraordinary natural acoustics — a group singing inside creates a resonance that is remarkable. Entry fee is around ₪10. The Pool of Bethesda excavations in the adjacent garden (the site of a healing miracle in John 5) are included.
 

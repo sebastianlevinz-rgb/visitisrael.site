@@ -27,7 +27,7 @@ Whether you travel with a church group, a private guide or independently, the ex
 
 Most pilgrimages weave together four anchors:
 
-- **[Jerusalem](/jerusalem)** — the spiritual heart: the [Church of the Holy Sepulchre](/jerusalem/holy-sepulchre), the [Via Dolorosa](/jerusalem/via-dolorosa), the [Mount of Olives](/jerusalem/mount-of-olives) and Gethsemane, the [Garden Tomb](/jerusalem/garden-tomb) and the [Old City](/jerusalem/old-city).
+- **[Jerusalem](/jerusalem)** — the spiritual heart: the [Church of the Holy Sepulchre](/jerusalem/holy-sepulchre), the [Via Dolorosa](/via-dolorosa-guide), the [Mount of Olives](/jerusalem/mount-of-olives) and Gethsemane, the [Garden Tomb](/jerusalem/garden-tomb) and the [Old City](/jerusalem/old-city).
 - **Bethlehem** — the Church of the Nativity, 10 km south in the West Bank.
 - **[Nazareth](/nazareth)** — Jesus's home town and the [Basilica of the Annunciation](/nazareth/basilica-of-the-annunciation).
 - **The [Sea of Galilee](/galilee)** — [Capernaum](/galilee/capernaum), the [Mount of Beatitudes](/galilee/mount-of-beatitudes), Tabgha, [Magdala](/galilee/magdala) and the baptismal site at [Yardenit](/galilee/yardenit).
@@ -36,7 +36,7 @@ A typical loop starts in Jerusalem, takes a day trip to Bethlehem, then drives n
 
 ## Jerusalem: the spiritual centre
 
-Give Jerusalem at least **two to three days**. Walk the **[Via Dolorosa](/jerusalem/via-dolorosa)** — the Way of the Cross — through the [Old City](/jerusalem/old-city) to the **[Church of the Holy Sepulchre](/church-holy-sepulchre-guide)**, which holds both Calvary and the empty Tomb. Our [complete Holy Sepulchre visitor guide](/church-holy-sepulchre-guide) covers the Edicule queue strategy, the six-denomination Status Quo and the best times to arrive. The **[Mount of Olives](/jerusalem/mount-of-olives)** gives the postcard view across the city and leads down past Gethsemane and the Garden of the Agony. Protestant pilgrims often add the **[Garden Tomb](/jerusalem/garden-tomb)**, a quiet alternative site of Golgotha. The **[Western Wall](/jerusalem/western-wall)** and the broader Jewish and Islamic heritage of the [Temple Mount](/jerusalem/temple-mount) round out the picture of the city Jesus knew.
+Give Jerusalem at least **two to three days**. Walk the **[Via Dolorosa](/via-dolorosa-guide)** — the Way of the Cross — through the [Old City](/jerusalem/old-city) to the **[Church of the Holy Sepulchre](/church-holy-sepulchre-guide)**, which holds both Calvary and the empty Tomb. Our [complete Holy Sepulchre visitor guide](/church-holy-sepulchre-guide) covers the Edicule queue strategy, the six-denomination Status Quo and the best times to arrive. The **[Mount of Olives](/jerusalem/mount-of-olives)** gives the postcard view across the city and leads down past Gethsemane and the Garden of the Agony. Protestant pilgrims often add the **[Garden Tomb](/jerusalem/garden-tomb)**, a quiet alternative site of Golgotha. The **[Western Wall](/jerusalem/western-wall)** and the broader Jewish and Islamic heritage of the [Temple Mount](/jerusalem/temple-mount) round out the picture of the city Jesus knew.
 
 For a structured first visit, our [3 days in Jerusalem itinerary](/itineraries) sequences the sites sensibly, and a [Jerusalem Old City walking tour](/best-tours-in-israel) is the easiest way to make sense of the four quarters.
 

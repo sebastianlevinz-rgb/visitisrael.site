@@ -74,11 +74,11 @@ Visitors without a reservation can view the lower terrace and the panorama from 
 
 ## 5. Via Dolorosa — a free walk through history
 
-[Via Dolorosa](/jerusalem/via-dolorosa) — the "Way of Grief" — is the route through the Old City of Jerusalem traditionally associated with the final journey of Jesus. The walk passes fourteen stations, from near the Lion's Gate in the Muslim Quarter through the Christian Quarter to the Church of the Holy Sepulchre.
+[Via Dolorosa](/via-dolorosa-guide) — the "Way of Grief" — is the route through the Old City of Jerusalem traditionally associated with the final journey of Jesus. The walk passes fourteen stations, from near the Lion's Gate in the Muslim Quarter through the Christian Quarter to the Church of the Holy Sepulchre.
 
-The route is a public street rather than a ticketed attraction; walking it costs nothing. Many visitors join the Franciscan Way of the Cross procession, which departs every Friday afternoon at 3 pm from the first station — open to all with no charge.
+The route is a public street rather than a ticketed attraction; walking it costs nothing. Many visitors join the Franciscan Way of the Cross procession, which departs every Friday afternoon at 3 pm from the first station — open to all with no charge. See the [full Via Dolorosa station-by-station guide](/via-dolorosa-guide) for timing, what to expect at each stop, and how to time the Friday procession.
 
-The Church of the Holy Sepulchre at the end of the route also has no entry charge.
+The [Church of the Holy Sepulchre](/church-holy-sepulchre-guide) at the end of the route also has no entry charge.
 
 ## 6. Machane Yehuda Market — free to explore
 

@@ -101,7 +101,7 @@ When multiple denominations hold services simultaneously, you may hear Greek cha
 
 If an early start is impossible, **after 17:00** is the next-best option. Tour groups have typically departed, the light through the high windows shifts to warm afternoon tones, and the denominations conduct evening prayers that visitors are welcome to observe from the back.
 
-**Fridays at 15:00** (16:00 in winter) the Franciscan-led Via Dolorosa procession terminates inside the church — a powerful experience, but the nave fills with participants. If you plan to be here on a Friday, either arrive well before the procession or plan to join it from Lion's Gate (it is open to anyone).
+**Fridays at 15:00** (16:00 in winter) the Franciscan-led [Via Dolorosa](/via-dolorosa-guide) procession terminates inside the church — a powerful experience, but the nave fills with participants. If you plan to be here on a Friday, either arrive well before the procession or plan to join it from Lion's Gate (it is open to anyone). The [14-station Via Dolorosa guide](/via-dolorosa-guide) covers the full route, station descriptions, and Friday procession logistics.
 
 ### Navigating security and entry
 
