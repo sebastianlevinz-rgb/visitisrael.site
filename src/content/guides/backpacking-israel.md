@@ -118,7 +118,7 @@ Shabbat is the biggest practical challenge for first-time backpackers in Israel.
 
 ### Day tours from hostel hubs
 
-The Abraham Hostels tour desk is the easiest starting point — competitive group prices, guides who know the route, and pickup from the hostel. For comparison and when Abraham tours are full, [GetYourGuide](/israel-cost-budget) and Viator list the same routes from multiple operators:
+The Abraham Hostels tour desk is the easiest starting point — competitive group prices, guides who know the route, and pickup from the hostel. For comparison and when Abraham tours are full, GetYourGuide and Viator list the same routes from multiple operators:
 
 | Route | Typical price (per person) | Departs from |
 | --- | --- | --- |

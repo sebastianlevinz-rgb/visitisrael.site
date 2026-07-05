@@ -162,7 +162,7 @@ Bike rental is available from shops in Tiberias near the lakefront; enquire at y
 
 **By bus:** Egged operates direct services from Tel Aviv Central Bus Station to Tiberias (approximately 2.5 hours). From Jerusalem, connections via Afula or Beit She'an add to the journey. Bus service to Capernaum, Mount of Beatitudes, Hamat Gader, and most east-shore sites is limited or non-existent — a car or organised tour is effectively required to visit them. Check schedules at egged.co.il.
 
-**Organised day tours** from Tel Aviv and Jerusalem handle all logistics for the north-shore Christian circuit and are the most efficient option for visitors without a car. See [GetYourGuide](/sea-of-galilee-guide) and the [Galilee tours compared](/galilee-tours-compared) page for assessed operators.
+**Organised day tours** from Tel Aviv and Jerusalem handle all logistics for the north-shore Christian circuit and are the most efficient option for visitors without a car. See the [Galilee tours compared](/galilee-tours-compared) page for an assessed list of operators, or use the tour CTAs above to search current departures.
 
 For the full transport picture, see the [transportation guide](/transportation). For driving-specific logistics (Route 90, Route 6 tolls, Shabbat restrictions on rental cars), see [driving in Israel](/driving-in-israel). For car rental, see [car rental Israel](/car-rental-israel).
 
