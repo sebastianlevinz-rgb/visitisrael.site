@@ -5695,3 +5695,24 @@ Ship: commit c192dba to master; pushed origin/master; CI Lighthouse in_progress 
 Next: iter 305 → RESEARCH mode (305%5==0). Candidates: competitor scan for fall/winter
   2026-2027 season gaps; i18n Phase 3 (regions fr+de) readiness check; new comparison-
   format opportunities; emerging keyword opportunities.
+
+## 2026-07-05 · iter 305 · RESEARCH · research-305
+
+Mode: RESEARCH (305%5==0). Backlog extremely saturated — 200+ ready items from 61+ prior research passes.
+Scanned sources: touristisrael.com/zichron-yaakov, levyisraeltours.com, beinharimtours.com,
+carmelwines.co.il, ramat-hanadiv.org.il, pauladeadseaclinic.com, deadsea.com, sanatoriums.com,
+yad-la-shiryon.co.il, minisrael.co.il, latrun-wine.com, winetraveler.com/israel, myisraelwinetours.com,
+galilmountain.co.il, daltonfamilywinery.com, laidbacktrip.com, beinharimtours.com/news/guide-to-the-sea-of-galilee,
+abrahamtours.com/visiting-the-sea-of-galilee (+ 10+ de-dup candidates confirmed already in backlog).
+25+ topics checked via grep; 20+ confirmed already covered; 5 genuine new gaps confirmed:
+  1. /zichron-yaakov-guide (P2, S) — Rothschild wine town + Carmel coast corridor fill
+  2. /dead-sea-medical-tourism (P2, M) — climatotherapy for psoriasis; highest hotel-nights-value potential
+  3. /latrun-guide (P2, S) — Route 1 corridor cluster (monastery + tank museum + Mini Israel)
+  4. /galilee-wine-trail (P3, M) — Upper Galilee wine sub-region; distinct from Golan wineries backlog entry
+  5. /sea-of-galilee-guide (P2, M) — full lake-circuit guide extending tiberias-guide.md to all 4 shores
+Gate: N/A (research only). No code changes, no branch, no gate run.
+Ship: no content shipped this iteration.
+NEXT: iter 306 → BUILD (306%5==1 → monetization). Top candidates: dead-sea-medical-tourism (P2, M),
+  zichron-yaakov-guide (P2, S), latrun-guide (P2, S), sea-of-galilee-guide (P2, M),
+  tel-dan-nature-reserve (P2, S — iter300), safed-klezmer-festival (P2, S — iter300);
+  check i18n rotation (every other BUILD iter; fr/de 89/~147 guides each).

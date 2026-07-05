@@ -1,13 +1,48 @@
 # LOOP STATE
 
-- iteration: 304
-- lastMode: REVIEW (304%5==4)
-- lastItem: review-304-desc-fix — audited iters 301-303 (galilee-vs-golan-weekend, dead-sea-vs-eilat, fix-2027-holiday-dates); fixed dead-sea-vs-eilat description (165→157 chars)
-- lastResult: SHIPPED — commit c192dba master; pnpm check 0 errors (119 files) · build 455 pages · 593/593 e2e+a11y pass; CI Lighthouse in_progress at commit time (normal)
-- nextRotationCategory: 305%5==0 → RESEARCH
+- iteration: 305
+- lastMode: RESEARCH (305%5==0)
+- lastItem: research-305 — scanned Carmel coast / Zichron Yaakov, Dead Sea medical tourism, Latrun corridor, Upper Galilee wine trail, Sea of Galilee circuit; 5 net-new items added to BACKLOG
+- lastResult: RESEARCH (no ship — research only)
+- nextRotationCategory: 306%5==1 → BUILD (monetization rotation)
 - higgsfieldSpent: 0
-- updatedAt: 2026-07-05T06:40Z
+- updatedAt: 2026-07-05T08:00Z
 - branch context: work on master; feature work on auto/<slug>
+
+Notes: iter 305 RESEARCH — research-305:
+  Mode RESEARCH (305%5==0). Backlog extremely saturated (200+ ready items from 61+ passes).
+  25+ candidate topics de-duped before confirming 5 genuine new gaps.
+  Research methods: web-search agent + targeted grep de-duplication.
+  Net-new items added (all grep-confirmed 0 hits in BACKLOG.md before adding):
+  1. /zichron-yaakov-guide (P2, S) — Rothschild wine town 1882; Ha-Meyasdim Street; Carmel
+     Winery visitor centre; Ramat HaNadiv gardens; Nili Museum; fills Carmel coast corridor
+     gap between caesarea-guide.md and haifa-travel-guide.md
+  2. /dead-sea-medical-tourism (P2, M) — climatotherapy for psoriasis/eczema; 3–4 week stays;
+     EU health insurance schemes (German, Danish, Swiss); distinct from dead-sea-guide.md,
+     israel-wellness-spa.md, dead-sea-hotels-guide.md; highest hotel-nights conversion potential
+  3. /latrun-guide (P2, S) — Route 1 Tel Aviv–Jerusalem corridor cluster: Trappist monastery
+     + Latrun wine (1890); Yad La-Shiryon tank museum (150+ AFVs — world class); Mini Israel;
+     zero editorial coverage despite prime Route 1 position
+  4. /galilee-wine-trail (P3, M) — Upper Galilee wine sub-region (Dalton, Galil Mountain, Adir,
+     Lueria); 2-day self-drive circuit from Rosh Pina/Tiberias; distinct from golan-heights-
+     wineries and judean-hills-wine-trail already in backlog
+  5. /sea-of-galilee-guide (P2, M) — full lake circuit guide (all 4 shores + beaches ranked +
+     Christian pilgrimage circuit + cycling + Hamat Gader); extends tiberias-guide.md (city only)
+     to the whole lake; 4 shores = Ginosar/Capernaum/Tabgha west; Yardenit/Migdal north;
+     Ein Gev/Kursi east; Tzemach/Hamat Gader south
+  De-duped and skipped: beit-shean (iter90), mitzpe-ramon (iter80), rosh-pina (iter145),
+    israel-cruise-ports (iter50), accessible-travel (iter215), rooftop-bars-tlv (iter255),
+    autumn/spring (BACKLOG), chocolate-trail (iter240).
+  Gate: N/A (research only — no code changes, no branch, no gate run).
+  NEXT: iter 306 → BUILD (306%5==1 → monetization rotation). Top P1/P2 BUILD candidates:
+    dead-sea-medical-tourism (P2, M — just added, high commercial intent, high nights-value),
+    zichron-yaakov-guide (P2, S — fills Carmel coast corridor gap),
+    latrun-guide (P2, S — quick S-effort, Route 1 corridor),
+    sea-of-galilee-guide (P2, M — extends shipped tiberias-guide context),
+    tel-dan-nature-reserve (P2, S — from iter300, still ready),
+    safed-klezmer-festival (P2, S — from iter300, still ready).
+    i18n rotation: check if i18n BUILD is due (every other BUILD iter); review I18N-PLAN.md
+    for current batch status (fr 89/~147, de 89/~147; remaining untranslated EN guides).
 
 Notes: iter 304 REVIEW — review-304-desc-fix:
   Mode REVIEW (304%5==4). Audited iters 301-303 output:

@@ -3603,3 +3603,31 @@ Backlog extremely saturated at ~187 ready items (post-iter280 additions). Strate
 
 **Topics confirmed already covered (de-dup):**
 - Israel honeymoon (BACKLOG iter20), bachelorette/girls trip (BACKLOG iter105), digital nomad (BACKLOG iter30), marathons/sports events (BACKLOG iter50), northern Israel road trip (BACKLOG iter145), Schottenstein archaeology campus (BACKLOG iter235), israel-in-winter (SHIPPED iter292), haifa food guide (BACKLOG), tel-aviv-budget (BACKLOG iter240), ein-gedi (SHIPPED iter232)
+
+## iter 305 (2026-07-05) — Competitor scan for iter 305 RESEARCH pass
+
+**New sources scanned this iteration:**
+
+- **carmelwines.co.il** — Carmel Winery (Israel's oldest, founded 1885 by Baron de Rothschild); confirmed Zichron Yaakov is the founding wine town and anchors a Carmel coast day-trip cluster completely absent from our site
+- **ramat-hanadiv.org.il** — official Ramat HaNadiv Rothschild Memorial Gardens; confirmed as a major Carmel ridge attraction adjacent to Zichron Yaakov with zero coverage in our guides or backlog
+- **pauladeadseaclinic.com** — EU-trained dermatology clinic at Dead Sea; confirmed the medical-tourism / climatotherapy niche is a distinct, high-commercial-intent segment with no editorial coverage anywhere on our site or in competitors' travel editorial (tour operators cover it, not travel magazines)
+- **yad-la-shiryon.co.il** — Armored Corps Museum, Latrun; confirmed as a world-class open-air tank collection (150+ AFVs) that sits on Route 1 yet has zero dedicated editorial coverage on Israel travel sites beyond directory listings
+- **laidbacktrip.com/posts/sea-of-galilee-travel-guide** — comprehensive Sea of Galilee circuit travel guide; confirmed the multi-shore circuit angle (all four shores + beaches + Christian sites + cycling route) is an underserved editorial format on Israel travel sites; tiberias-guide.md (SHIPPED iter87) covers the city only, not the lake as a whole
+- **myisraelwinetours.com** + **galilandgolan.com** — dedicated Israel wine tour operators; confirmed Upper Galilee (Dalton, Galil Mountain, Adir, Lueria) is a distinct wine sub-region not covered by our existing golan-heights-wineries backlog item or the all-Israel wine hub
+
+**Key competitor observations this iteration:**
+- **Medical tourism gap**: all medical-tourism Israel content lives on clinic websites and health-travel aggregators (sanatoriums.com), NOT on travel editorial sites — first-mover advantage available for the Dead Sea climatotherapy angle
+- **Latrun is systematically ignored**: despite sitting on Route 1 (most driven tourist road in Israel), no Israel travel editorial site has a comprehensive Latrun cluster guide; all references are directory-style listings
+- **Carmel coast corridor underserved**: caesarea-guide.md and haifa-travel-guide.md both SHIPPED; the missing link between them (Zichron Yaakov + Ein Hod) means we serve both ends of a day-trip route without the middle
+- **Wine trail segmentation**: winetraveler.com, myisraelwinetours.com, and galilandgolan.com all segment Israel's wine regions with Galilee distinct from Golan and Judean Hills; our backlog has the latter two but not Galilee specifically
+- **Sea of Galilee as lake circuit**: backpackisrael.com and laidbacktrip.com both have comprehensive "circuit" guides; beinharimtours.com has a detailed practical guide; our tiberias-guide.md (SHIPPED) covers only the western shore city
+
+**Topics confirmed already covered (de-dup skipped):**
+- Beit She'an (BACKLOG iter90), Mitzpe Ramon (BACKLOG iter80), Rosh Pina cluster (BACKLOG iter145), Israel cruise ports (BACKLOG iter50), Israel accessible travel (BACKLOG iter215), Tel Aviv rooftop bars (BACKLOG iter255), Israel in autumn/spring (BACKLOG), Israel chocolate/food trail (BACKLOG iter240)
+
+**Net-new items added to BACKLOG (5):**
+1. `/zichron-yaakov-guide` (P2, S, seo-content+monetization) — Rothschild wine town 1882; Carmel Winery; Ha-Meyasdim Street; Ramat HaNadiv gardens; Nili Museum; fills Carmel coast corridor gap
+2. `/dead-sea-medical-tourism` (P2, M, seo-content+monetization) — climatotherapy for psoriasis/eczema; EU health insurance schemes; distinct from all existing Dead Sea content; highest potential nights-value booking conversion on the site
+3. `/latrun-guide` (P2, S, seo-content+monetization) — Route 1 corridor cluster; Trappist monastery + Latrun wine; Yad La-Shiryon tank museum (150+ AFVs); Mini Israel; completely unserved despite prime Route 1 location
+4. `/galilee-wine-trail` (P3, M, seo-content+monetization) — Upper Galilee wine sub-region; Dalton + Galil Mountain + Adir + Lueria; self-drive 2-day circuit; distinct from Golan Heights wineries
+5. `/sea-of-galilee-guide` (P2, M, seo-content+monetization) — full lake circuit (all 4 shores); beaches ranked; Christian sites perimeter circuit; cycling guide; fishing; Hamat Gader hot springs; extends tiberias-guide.md to the whole lake
