@@ -171,6 +171,6 @@ City buses in Haifa operate on Shabbat — an unusual advantage over Tel Aviv an
 
 ## Planning your Haifa visit
 
-For the full attractions guide — Bahá'í Gardens, Carmelit, Stella Maris and museums — see the [Haifa travel guide](/haifa-travel-guide). For day trips from Haifa to Akko, Rosh Hanikra, Caesarea and the Carmel Druze villages, see [day trips from Haifa](/day-trips-from-haifa). If you are arriving or leaving via cruise ship, the [cruise shore excursions guide](/cruise-shore-excursions-israel) covers pre-booked port options.
+For the full attractions guide — Bahá'í Gardens, Carmelit, Stella Maris and museums — see the [Haifa travel guide](/haifa-travel-guide). For specific hotel picks at every price tier — Colony Hotel Haifa (German Colony boutique), Dan Carmel (panoramic ridge), and Port Inn (budget) — see the [best hotels in Haifa guide](/best-hotels-haifa). For day trips from Haifa to Akko, Rosh Hanikra, Caesarea and the Carmel Druze villages, see [day trips from Haifa](/day-trips-from-haifa). If you are arriving or leaving via cruise ship, the [cruise shore excursions guide](/cruise-shore-excursions-israel) covers pre-booked port options.
 
 For the Druze mountain villages above Haifa — Daliyat el-Carmel and Isfiya with their fresh-baked pita and saj street food — the [Druze villages of Carmel guide](/druze-villages-carmel) has the full route.

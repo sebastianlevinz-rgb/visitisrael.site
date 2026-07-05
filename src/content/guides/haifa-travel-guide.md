@@ -144,7 +144,7 @@ Water quality on Haifa beaches varies seasonally — check the current status at
 
 ## Planning your visit
 
-For a full breakdown of which neighborhood suits your trip — German Colony, Wadi Nisnas, Hadar, Merkaz HaCarmel, Bat Galim or the Port area — see the [Haifa neighborhoods & where to stay guide](/haifa-neighborhoods-guide).
+For a full breakdown of which neighborhood suits your trip — German Colony, Wadi Nisnas, Hadar, Merkaz HaCarmel, Bat Galim or the Port area — see the [Haifa neighborhoods & where to stay guide](/haifa-neighborhoods-guide). For specific hotel picks at every tier — Colony Hotel Haifa (German Colony boutique), Dan Carmel (ridge panorama), and Port Inn (budget) — see the [best hotels in Haifa guide](/best-hotels-haifa).
 
 **One full day:** Morning — Bahá'í Gardens guided tour (book ahead; 09:00 start), followed by the German Colony for lunch. Afternoon — Wadi Nisnas neighbourhood walk, Carmelit up to the Carmel ridge, Stella Maris, Louis Promenade sunset. Return by train to Tel Aviv or Jerusalem by 21:00.
 
