@@ -5631,3 +5631,28 @@ Gate: N/A (research only).
 Ship: git add .loop/ && commit docs(loop) → pushed origin/master.
 Next: iter 301 → BUILD (301%5==1 → monetization). Candidates: egypt-jordan-israel-itinerary,
   dead-sea-hotels-guide, galilee-vs-golan-weekend (new, S-effort comparison page).
+
+## 2026-07-05T03:45Z · iter 301 · BUILD (monetization) · galilee-vs-golan-weekend
+What: New /galilee-vs-golan-weekend comparison guide. Proven comparison format
+  (same as tel-aviv-vs-jerusalem, dead-sea-israel-vs-jordan, petra-from-eilat-vs-amman).
+  Content: side-by-side table (landscape, sights, wine, transport, season, bases),
+  decision framework for Galilee vs Golan, honest guidance on combining both in 3–4 nights,
+  4-day sample itinerary structure, base and transport section.
+  HONESTY: Golan's disputed international legal status explicitly noted in FAQ;
+  is-israel-safe cross-linked; no fabricated hotel/attraction pricing.
+  Monetization: discovercars affiliate (car rental — both regions need a car) +
+  Booking.com (Tiberias/northern Israel accommodation, destination=Tiberias).
+  6 FAQs: Galilee vs Golan which is better / can I visit both / do I need a car /
+  best season / is Golan safe / which region has better wine.
+  Dense internal links: /galilee, /golan, /golan/nimrod-fortress, /galilee-tours-compared,
+  /car-rental-israel, /transportation, /is-israel-safe.
+  Broken link fix: removed /israel-road-trip (not yet built) during gate — linked to
+  /transportation and /galilee-tours-compared instead.
+Gate: pnpm check 0 errors (119 files) · build 454 pages (+1) · 592/592 e2e+a11y pass (+1 smoke route). GREEN.
+Ship: commit 9b0c6ce on master; pushed origin/master; CI in_progress at commit time (normal).
+Prod: Lighthouse + CI workflows in_progress for 9b0c6ce at state-write time; prior 30+ iterations
+  all completed success with identical CI setup; content-only change (new .md + 1 smoke route).
+Next: iter 302 → BUILD (302%5==2 → seo-content). Top ready seo-content candidates:
+  backpacking-israel (P2 M), photography-guide (P2 M), accessible-travel-israel (P2 M),
+  muslim-travel-israel (P2 M), self-drive-road-trip (P2 M — would unlock /israel-road-trip link),
+  dead-sea-vs-eilat (P2 S — new comparison, fast S-effort), tel-dan-nature-reserve (P2 S — new S).
