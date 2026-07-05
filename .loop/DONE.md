@@ -602,3 +602,6 @@ guides. 3× affiliate CTAs, 6 FAQs, cross-link from /jerusalem region page.
 
 ## iter 309 — review-309-desc-fix (08cd250)
 - REVIEW audit of iter306-308 guides. Fixed 2 SEO meta description overflows: (1) latrun-guide.md 164→160 chars; (2) zichron-yaakov-guide.md 184→142 chars. dead-sea-medical-tourism.md clean (160 chars, all links/images/honesty verified). All internal links, hero images, no-H1, honesty framing clean across all three guides. 593/593 e2e+a11y pass.
+
+## iter 311 — best-hotels-jerusalem (7e100a5)
+- BUILD (monetization). New /best-hotels-jerusalem guide: neighbourhood hotel picks for Jerusalem (Mamilla Hotel, Waldorf Astoria Jerusalem, American Colony Hotel, Leonardo Boutique, Abraham Hostel). 5 zone breakdown, 3-tier hotel picks, 9-row decision matrix, Jerusalem-specific booking patterns (Passover 3-4× surge, Sukkot/High Holiday cluster, Christmas/Easter waves), 6 FAQs, 3 affiliate CTAs (Booking.com ×2 + GYG). Completes "best hotels [city]" series (TLV iter243, Eilat iter241, Dead Sea iter247). Cross-links added to israel-accommodation-guide, jerusalem-neighborhoods-guide, best-hotels-tel-aviv. 593/593 e2e+a11y pass.

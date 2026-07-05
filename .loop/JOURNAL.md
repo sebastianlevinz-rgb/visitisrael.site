@@ -5817,3 +5817,15 @@ Gate: N/A — research only, no code changes, no branch.
 NEXT: iter 311 → BUILD (311%5==1 → monetization rotation).
   Top candidates: best-hotels-jerusalem (P2, M — just added), passover-in-israel (P2, S),
   day-trips-from-eilat (P2, M).
+
+## 2026-07-05T13:41Z · iter 311 · BUILD (monetization) · best-hotels-jerusalem
+What: new /best-hotels-jerusalem neighbourhood hotel guide. 5 hotel zones; picks at 3 tiers
+(Mamilla Hotel + Waldorf Astoria Jerusalem for luxury; Leonardo Boutique for mid-range; Abraham
+Hostel for budget); decision matrix; Jerusalem holiday pricing patterns (Passover 3-4× surge,
+Sukkot/High Holiday cluster, Christmas/Easter waves); 6 FAQs; 3 affiliate CTAs (Booking.com ×2
++ GYG). Cross-links: israel-accommodation-guide, jerusalem-neighborhoods-guide, best-hotels-tel-aviv.
+Gate: pnpm check 0 errors (119 files) · build 459 pages (+1) · 593/593 e2e+a11y pass. GREEN.
+Ship: squash-merged to master 7e100a5; pushed origin/master. CI in_progress at commit (standard).
+Prod: Vercel CI + Lighthouse both in_progress at state-update; prior 2 CI runs both success.
+NEXT: iter 312 → BUILD (312%5==2 → seo-content rotation). Top candidates: via-dolorosa-guide
+  (P2, S), best-hotels-haifa (P2, S), sea-of-galilee-guide (P2, M), i18n Phase 3 (regions fr+de).

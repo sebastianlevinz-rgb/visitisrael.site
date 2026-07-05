@@ -1,13 +1,38 @@
 # LOOP STATE
 
-- iteration: 310
-- lastMode: RESEARCH (310%5==0)
-- lastItem: research-310 — 4 net-new backlog items added; via-dolorosa-guide (P2,S), best-hotels-jerusalem (P2,M), jerusalem-hop-on-hop-off (P3,S), best-hotels-haifa (P2,S); 1 candidate rejected as duplicate (guided-vs-self-guided already at backlog L411)
-- lastResult: N/A (research only — no code changes, no branch, no gate run)
-- nextRotationCategory: 311%5==1 → monetization rotation
+- iteration: 311
+- lastMode: BUILD (311%5==1 → monetization rotation)
+- lastItem: best-hotels-jerusalem — /best-hotels-jerusalem neighbourhood hotel guide; Mamilla Hotel, Waldorf Astoria Jerusalem, American Colony Hotel, Leonardo Boutique, Abraham Hostel; 6 FAQs; 3 Booking.com + GYG CTAs; cross-links from israel-accommodation-guide + jerusalem-neighborhoods-guide + best-hotels-tel-aviv
+- lastResult: SHIPPED 7e100a5; gate GREEN (pnpm check 0 errors · build 459 pages +1 · 593/593 e2e+a11y pass); CI in_progress at commit
+- nextRotationCategory: 312%5==2 → seo-content rotation
 - higgsfieldSpent: 0
-- updatedAt: 2026-07-05T12:30Z
+- updatedAt: 2026-07-05T13:41Z
 - branch context: work on master; feature work on auto/<slug>
+
+Notes: iter 311 BUILD (monetization) · best-hotels-jerusalem:
+  Mode BUILD (311%5==1 → monetization rotation). Picked best-hotels-jerusalem (P2, M) —
+  top monetization candidate: Jerusalem = Israel's highest hotel ADR city; Booking.com top
+  conversion; completes "best hotels [city]" series (TLV iter243, Eilat iter241, Dead Sea iter247).
+  New guide: /best-hotels-jerusalem. Content: 5 neighbourhood zones (Mamilla/Jaffa Gate,
+  West Jerusalem centre/King George St, German Colony/Emek Refaim, East Jerusalem/American Colony,
+  Ein Kerem); hotel picks by tier: Luxury (Mamilla Hotel — rooftop pool + Old City views, Waldorf
+  Astoria Jerusalem — 1929 Palace Hotel; American Colony Hotel — 1902 pasha's palace, East Jer.);
+  Mid-range (Leonardo Boutique Jerusalem — outdoor pool, near Mahane Yehuda); Budget (Abraham
+  Hostel Jerusalem — closest major hostel to Old City); decision matrix 9×2 table; Jerusalem-specific
+  booking patterns (Passover 3-4× surge, Sukkot cluster, Christmas/Easter waves); 6 FAQs.
+  Affiliate CTAs: Booking.com Jerusalem (×2) + GYG Jerusalem Old City walking tour.
+  Cross-links added: israel-accommodation-guide (city-specific hotel guide links para),
+  jerusalem-neighborhoods-guide (footer More: line), best-hotels-tel-aviv (TLV-vs-Jer FAQ answer).
+  Link fix: /transport/tel-aviv-to-jerusalem didn't exist → fixed to /tel-aviv-to-jerusalem (guide).
+  Gate: pnpm check 0 errors (119 files) · build 459 pages (+1) · 593/593 e2e+a11y pass. GREEN.
+  Ship: squash-merged to master 7e100a5; pushed origin/master. CI in_progress at commit.
+  NEXT: iter 312 → BUILD (312%5==2 → seo-content rotation). Top seo-content P2 candidates:
+    via-dolorosa-guide (P2, S — 14-station self-guided walk, just added iter310),
+    best-hotels-haifa (P2, S — completes "best hotels" series for Haifa, just added iter310),
+    sea-of-galilee-guide (P2, M — full lake circuit guide, iter305), galilee-wine-trail (P3, M),
+    self-drive-road-trip (P2, M — israel-road-trip), accessible-travel-israel (P2, M),
+    backpacking-israel (P2, M). i18n: Phase 3 (regions ×11 in fr+de) also ready (P2, M) — consider
+    alternating with seo-content picks given ~every-other-BUILD pattern.
 
 Notes: iter 310 RESEARCH — research-310:
   Mode RESEARCH (310%5==0). Backlog extremely saturated (200+ ready items from 62+ research passes).
