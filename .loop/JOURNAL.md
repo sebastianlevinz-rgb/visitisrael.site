@@ -5858,3 +5858,11 @@ Tools rotation had no remaining items (all 11 shipped per iter308) → fell thro
 Gate: pnpm check 0 errors (119 files) · build 461 pages (+1) · 593/593 e2e+a11y pass. GREEN.
 Ship: committed 6fcaf99 to master; pushed origin/master.
 NEXT: iter 314 → REVIEW mode (314%5==4). Candidates: audit iters 311-313 output.
+
+## 2026-07-05T16:42Z · iter 314 · REVIEW · review-314-seo-fixes
+What: Audited iters 311-313 guides (best-hotels-jerusalem, via-dolorosa-guide, best-hotels-haifa) for SEO meta, internal links, honesty, H1-in-body. Found 3 SEO overflows; fixed all.
+Fixes: (1) via-dolorosa-guide title 68→51 chars; (2) via-dolorosa-guide desc 169→147 chars; (3) best-hotels-jerusalem desc 165→157 chars. best-hotels-haifa CLEAN (55/153).
+All internal links verified present; no H1 in bodies; no fabricated prices or review counts.
+Gate: pnpm check 0 errors · build 461 pages · 593/593 e2e+a11y pass. GREEN.
+Ship: committed db4e89f to master; pushed origin/master. CI pending at state-update (standard).
+NEXT: iter 315 → RESEARCH mode (315%5==0). Top BUILD waiting: sea-of-galilee-guide (P2, M), backpacking-israel (P2, M), self-drive-road-trip (P2, M), accessible-travel-israel (P2, M).

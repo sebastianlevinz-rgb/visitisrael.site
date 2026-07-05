@@ -1,13 +1,39 @@
 # LOOP STATE
 
-- iteration: 313
-- lastMode: BUILD (313%5==3 → tools rotation → seo-content+monetization fallthrough; tools exhausted)
-- lastItem: best-hotels-haifa — /best-hotels-haifa Haifa hotel neighbourhood guide; Colony Hotel Haifa (German Colony boutique, 1891 Templar building), Dan Carmel (ridge panoramic, pool), Port Inn Guest House (budget/backpacker); decision matrix; Shabbat-in-Haifa practical note (buses+Carmelit run Saturday); Film Festival + Bahá'í pilgrimage demand context; 6 FAQs; Booking.com Haifa CTA + GYG tours CTA; cross-links in israel-accommodation-guide, haifa-travel-guide, haifa-neighborhoods-guide
-- lastResult: SHIPPED 6fcaf99; gate GREEN (pnpm check 0 errors · build 461 pages +1 · 593/593 e2e+a11y pass)
-- nextRotationCategory: 314%5==4 → REVIEW rotation
+- iteration: 314
+- lastMode: REVIEW (314%5==4)
+- lastItem: review-314-seo-fixes — SEO meta audit of iters 311-313 guides; 3 overflows fixed: via-dolorosa-guide title 68→51 chars, via-dolorosa-guide desc 169→147 chars, best-hotels-jerusalem desc 165→157 chars; best-hotels-haifa CLEAN
+- lastResult: SHIPPED db4e89f; gate GREEN (pnpm check 0 errors · build 461 pages · 593/593 e2e+a11y pass)
+- nextRotationCategory: 315%5==0 → RESEARCH mode
 - higgsfieldSpent: 0
-- updatedAt: 2026-07-05T15:40Z
+- updatedAt: 2026-07-05T16:42Z
 - branch context: work on master; feature work on auto/<slug>
+
+Notes: iter 314 REVIEW · review-314-seo-fixes:
+  Mode REVIEW (314%5==4). Audited iters 311-313 output: best-hotels-jerusalem (iter311),
+  via-dolorosa-guide (iter312), best-hotels-haifa (iter313).
+  Findings:
+  (1) CONFIRMED BUG: via-dolorosa-guide.md title was 68 chars (>60 limit).
+      FIXED: 'Via Dolorosa Jerusalem: 14 Stations Self-Guided Walking Guide (2026)' →
+      'Via Dolorosa Jerusalem: 14-Station Self-Guided Walk' (51 chars).
+  (2) CONFIRMED BUG: via-dolorosa-guide.md description was 169 chars (>160 limit).
+      FIXED: removed 'mapped and described, ' from 'all 14 Stations of the Cross mapped
+      and described, with timing tips' → 147 chars.
+  (3) CONFIRMED BUG: best-hotels-jerusalem.md description was 165 chars (>160 limit).
+      FIXED: 'budget hostels close to the Old City' → 'budget hostels near Old City' → 157 chars.
+  (4) CLEAN: best-hotels-haifa.md — title 55 chars ✓, desc 153 chars ✓; all internal links
+      resolve (haifa-travel-guide, haifa-neighborhoods-guide, bahai-world-center-guide,
+      day-trips-from-haifa, car-rental-israel, transportation, israel-accommodation-guide);
+      no H1 in body; no fabricated data; honesty framing appropriate (rates are ranges only).
+  (5) CLEAN: all internal links in best-hotels-jerusalem.md and via-dolorosa-guide.md verified
+      present; no H1 in bodies; no fabricated prices or review counts; affiliate CTAs correct.
+  Gate: pnpm check 0 errors (119 files) · build 461 pages · 593/593 e2e+a11y pass. GREEN.
+  Ship: committed db4e89f to master; pushed origin/master. CI pending at state-update (standard).
+  NEXT: iter 315 → RESEARCH mode (315%5==0). Candidates: competitor scan for profitable patterns
+    not yet in backlog; sea-of-galilee-guide (P2, M), backpacking-israel (P2, M),
+    self-drive-road-trip (P2, M), accessible-travel-israel (P2, M) still top seo-content.
+    Check for new fall/winter 2026-2027 season gaps; new comparison-format opportunities;
+    safed-klezmer-festival, tel-dan-nature-reserve (P2, S items ready to BUILD next iter).
 
 Notes: iter 313 BUILD (tools→seo-content fallthrough) · best-hotels-haifa:
   Mode BUILD (313%5==3 → tools rotation). Tools category exhausted (all 11 items SHIPPED per
@@ -327,5 +353,5 @@ Notes: iter 299 REVIEW — review-299-fixes:
     scan for emerging keyword opportunities (Maccabiah aftermath, fall 2026 season content).
 
 Cron b7325b16 hourly @ :17. Loop history: 19 tools + sitemap-lastmod + link-checker(+depth) + i18n
-Phase0/1a/1b/1c/2 Batches1-18(COMPLETE) + 33 review passes + 3 technical (event-schema + meta-trim + locale-links) + 35 EN guides + 4 tools-monetization;
+Phase0/1a/1b/1c/2 Batches1-18(COMPLETE) + 34 review passes + 3 technical (event-schema + meta-trim + locale-links) + 35 EN guides + 4 tools-monetization;
 research iters 5/10/20/30/35/40/45/50/55/60/65/70/75/80/85/90/95/100/105/110/115/120/125/130/135/140/145/150/155/160/165/170/175/180/185/190/195/200/205/210/215/220/225/230/235/240/245/250/255/260/265/270/275/280/285/290/295/300/305/310.
