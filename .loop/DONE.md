@@ -584,3 +584,6 @@ guides. 3× affiliate CTAs, 6 FAQs, cross-link from /jerusalem region page.
 
 ## iter 302 — dead-sea-vs-eilat (937cae2)
 - /dead-sea-vs-eilat — Dead Sea vs Eilat: Which Should You Visit? (P2, S, seo-content+monetization). Comparison guide for the most common southern Israel "which to choose" query. Side-by-side table, decision frameworks for each destination, honest 5-day combined-trip itinerary, 4 affiliate CTAs. 455 pages (+1); 593/593 e2e+a11y pass (+1 smoke route). GREEN.
+
+## iter 303 — fix-2027-holiday-dates (392b4b2)
+- Fix all 2027 Hebrew holiday dates in israel-effective-days.astro — 5787 is a Hebrew leap year (Adar I + Adar II); all 16 HOLIDAYS entries were wrong (off by ~1 month). Corrected: Tu BiShvat Jan 22, Purim Mar 22, Passover Apr 21-28, Yom HaZikaron May 11, Yom Ha'atzmaut May 12, Shavuot Jun 10-11, Tisha B'Av Aug 12, Rosh Hashanah Oct 1-2, Yom Kippur Oct 10, Sukkot Oct 15-23, Hanukkah Dec 24-Jan 1 2028. P1 technical item from BACKLOG resolved. Gate: 0 errors · 455 pages · 593/593 pass. GREEN.

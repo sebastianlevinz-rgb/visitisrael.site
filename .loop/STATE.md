@@ -1,12 +1,12 @@
 # LOOP STATE
 
-- iteration: 302
-- lastMode: BUILD (302%5==2 → seo-content)
-- lastItem: dead-sea-vs-eilat (P2 S, seo-content+monetization) — /dead-sea-vs-eilat comparison guide
-- lastResult: SHIPPED — commit 937cae2 master; pnpm check 0 errors (119 files) · build 455 pages (+1) · 593/593 e2e+a11y pass (+1); CI in_progress at commit time (normal)
-- nextRotationCategory: 303%5==3 → BUILD (tools)
+- iteration: 303
+- lastMode: BUILD (303%5==3 → tools→technical fallthrough)
+- lastItem: fix-2027-holiday-dates (P1 S, technical) — corrected all 16 HOLIDAYS entries for 2027 in israel-effective-days.astro
+- lastResult: SHIPPED — commit 392b4b2 master; pnpm check 0 errors (119 files) · build 455 pages · 593/593 e2e+a11y pass; CI in_progress at commit time (normal)
+- nextRotationCategory: 304%5==4 → REVIEW
 - higgsfieldSpent: 0
-- updatedAt: 2026-07-05T04:35Z
+- updatedAt: 2026-07-05T06:00Z
 - branch context: work on master; feature work on auto/<slug>
 
 Notes: iter 300 RESEARCH — research-300:

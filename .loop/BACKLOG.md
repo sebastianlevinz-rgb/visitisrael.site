@@ -4,7 +4,7 @@ Format: `- [P1] (category, effort S/M/L) Title — why valuable — impl sketch 
 Priorities P0 (highest) → P3. Status: ready | blocked:<reason> | in-progress.
 
 ## technical / SEO-health
-- [P1] (technical, S) Verify Tisha B'Av 2027 date in israel-effective-days.astro — iter294 REVIEW found code says [2027,8,11] = Aug 11 but independent calculation from Passover Mar 21 → 1 Nisan = Mar 7 → 9 Av = Jul 11. Check chabad.org/calendar for 5787 Tisha B'Av. If wrong, fix start to [2027,7,11] and end to [2027,7,11]. Also verify Shavuot 5787 = May 11 (code) vs calculated May 10. status: ready
+- [SHIPPED iter303] Fix all 2027 Hebrew holiday dates in israel-effective-days.astro — 5787 is a leap year; all 16 HOLIDAYS entries corrected → 392b4b2
 - [SHIPPED iter278] Fix holiday date error in traveling-israel-jewish-holidays.md — corrected all 2026/2027 High Holiday dates (RH, YK, Sukkot, Hanukkah, Purim 2027, Passover 2027) → a61ab47
 - [SHIPPED iter148] Bulk locale-link correction — 81 FR+DE files, 219 links upgraded from /<slug> to /<locale>/<slug>; region/tool pages unchanged → 6bcc717
 - [SHIPPED iter134] EN guide title trim — 19 EN guides trimmed to ≤65 chars (galilee-tours-compared, petra-tours-compared, tiberias-guide, jerusalem-bethlehem-day-trip, israel-food-tours-cooking-classes, safed-tzfat-guide, akko-acre-guide, israel-for-seniors, israel-zimmer-guide, petra-from-israel, nazareth-travel-guide, ben-gurion-airport-guide, masada-tours-compared, tel-aviv-white-city, israeli-street-food-guide, dead-sea-guide, qumran-guide, israel-adventure-sports, tel-aviv-tours-compared) + de/solo-female-travel-israel (iter132 defect 73→59 chars) → 55185e4

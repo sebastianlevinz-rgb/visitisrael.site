@@ -5664,3 +5664,15 @@ Gate: pnpm check 0 errors (119 files) · build 455 pages (+1) · 593/593 e2e+a11
 Ship: commit 937cae2 on master; pushed origin/master; CI in_progress at commit time (normal).
 Prod: Vercel deploy triggered for 937cae2; prior 30+ iterations all succeed; content-only change (new .md + 1 smoke route).
 Next: iter 303 → BUILD (303%5==3 → tools rotation). Tools BACKLOG: all 11 tools items previously shipped (per STATE notes). Expect fall-through to seo-content or technical. Top ready candidates: tel-dan-nature-reserve (P2 S), negev-stargazing-guide (P2 S), mount-hermon-skiing (P2 S), backpacking-israel (P2 M), Tisha-B'Av-2027-date-fix (P1 technical).
+
+## 2026-07-05T05:56Z · iter 303 · BUILD (tools→technical fallthrough) · fix-2027-holiday-dates
+P1 technical: all 16 HOLIDAYS entries for 2027 were wrong — 5787 is a Hebrew leap year (Adar I + Adar II)
+but the original dataset used non-leap positions, placing every holiday ~1 month too early.
+Root cause confirmed via Hebcal Israel (i=on) + Chabad calendar searches.
+All corrections: Tu BiShvat Jan 22, Purim Mar 22 (Adar II), Passover Apr 21-28, Yom HaZikaron May 11,
+Yom Ha'atzmaut May 12, Shavuot Jun 10-11, Tisha B'Av Aug 12 only (fast day), RH Oct 1-2, YK Oct 10,
+Sukkot Oct 15-23, Hanukkah Dec 24-Jan 1 2028. Backlog suggested Jul 11 for Tisha B'Av (wrong calc) —
+actual correct date is Aug 12 per Chabad (9 Av 5787).
+Gate: pnpm check 0 errors (119 files) · build 455 pages · 593/593 e2e+a11y pass. GREEN.
+Ship: commit 392b4b2 to master; pushed origin/master; CI in_progress at commit time (standard).
+NEXT: iter 304 → REVIEW mode (304%5==4). Candidates: audit iters 301-303 output (galilee-vs-golan-weekend, dead-sea-vs-eilat, fix-2027-holiday-dates).
