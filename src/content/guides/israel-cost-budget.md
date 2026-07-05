@@ -17,7 +17,7 @@ Israel is not a budget destination — costs sit closer to Western Europe than t
 
 ## Daily budgets at a glance
 
-- **Backpacker — ~$60–90/day.** Hostel dorm, market and street food, public transport, mostly free and low-cost sights.
+- **Backpacker — ~$60–90/day.** Hostel dorm, market and street food, public transport, mostly free and low-cost sights. See the [backpacking Israel guide](/backpacking-israel) for hostel picks, sherut logistics and Shabbat planning.
 - **Mid-range — ~$150–280/day.** A comfortable hotel, a mix of casual and sit-down meals, the odd guided tour, trains and taxis.
 - **Luxury — $400+/day.** Five-star hotels like the [King David or Mamilla](/jerusalem#where-to-stay), fine dining, private guiding and car hire.
 

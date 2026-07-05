@@ -116,6 +116,6 @@ The original home of Israel's first prime minister, David Ben-Gurion, in central
 
 **Jerusalem Old City entry.** The Old City itself is free to walk through at any time, day or night. Individual paid sites within it include the Tower of David Museum, the Old City Ramparts Walk, and the Burnt House/Wohl Archaeological Museum — but the four quarters, the markets and the major open-air sacred sites are free.
 
-**Free versus paid in context.** Israel's [national cost and budget guide](/israel-cost-budget) covers the full picture of what trips typically cost. The sites on this page represent the free tier — combining them with one or two paid highlights is often how most visitors structure their days.
+**Free versus paid in context.** Israel's [national cost and budget guide](/israel-cost-budget) covers the full picture of what trips typically cost. The sites on this page represent the free tier — combining them with one or two paid highlights is often how most visitors structure their days. For hostel-based travel that keeps the overall trip affordable, see the [backpacking Israel guide](/backpacking-israel).
 
 **Cross-city movement.** [Public transport](/transportation) is inexpensive rather than free. The Rav-Kav card covers Jerusalem light rail, Tel Aviv bus and light rail, and intercity buses at standard fares. Tipping in Israel is optional; see the [tipping guide](/israel-tipping-currency) for norms.

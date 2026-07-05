@@ -164,7 +164,7 @@ A **zimmer** in the Upper Galilee or Golan is the classic Israeli couples' choic
 **Kibbutz guesthouses** with garden space and swimming pools (particularly in the Galilee) suit families with children well. **Serviced apartments** in Tel Aviv give parents a kitchen and genuine living space. Some zimmer complexes explicitly cater to families with garden cabins and farm animals.
 
 ### Solo travellers / backpackers
-**Abraham Hostels** are the natural starting point — socially excellent, genuinely safe, and well-connected to day-trip organisation. The Jerusalem and Tel Aviv branches are among the best social hostels in the Middle East.
+**Abraham Hostels** are the natural starting point — socially excellent, genuinely safe, and well-connected to day-trip organisation. The Jerusalem and Tel Aviv branches are among the best social hostels in the Middle East. For the full backpacker breakdown — hostel picks by city, sherut logistics, Shabbat planning and a sample 10-day route — see the [backpacking Israel guide](/backpacking-israel).
 
 ### Budget travellers
 Hostel private rooms (₪350–600) and kibbutz budget lodges compete on value. Zimmers midweek offer significant discounts over weekend rates — worth exploring if your schedule is flexible.
