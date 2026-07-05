@@ -317,6 +317,7 @@ const ROUTES = [
   '/israel-hidden-gems',
   '/jerusalem-nightlife',
   '/galilee-vs-golan-weekend',
+  '/dead-sea-vs-eilat',
 ];
 
 for (const route of ROUTES) {
