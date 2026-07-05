@@ -5594,3 +5594,18 @@ Gate: pnpm check 0 errors (119 files) · build 453 pages (+1) · 591/591 e2e pas
 Ship: commit 83c83d4 on master; pushed origin/master.
 Prod: CI in_progress at push time (normal — ~5 min delay standard); next iter start-check confirms.
 Next: iter 299 → REVIEW mode (299%5==4). Audit iters 296–298 output.
+
+## 2026-07-05T01:40Z · iter 299 · REVIEW · review-299-fixes
+What: Audited the 3 guides shipped in iters 296–298 (maccabiah-games-2026, israel-hidden-gems,
+  jerusalem-nightlife) for correctness, SEO meta length, dead links, a11y, honesty.
+Findings fixed (3):
+  (1) BUG — israel-hidden-gems.md Nimrod section: [Banias waterfall](/caesarea-guide) pointed
+      to the Mediterranean coast city; fixed to /golan-heights-guide (Golan, where Banias is).
+  (2) SEO — maccabiah-games-2026.md description 185 chars → trimmed to 139 chars (≤160).
+  (3) SEO — jerusalem-nightlife.md description 162 chars → trimmed to 145 chars (≤160).
+Clean (no action needed): all internal links resolve (incl. /transport/jerusalem-to-dead-sea
+  via dynamic [route].astro); no H1 in any body; no fabricated data; affiliate attrs correct.
+Gate: pnpm check 0 errors (119 files) · build 453 pages · 591/591 e2e+a11y pass. GREEN.
+Ship: commit 88f467a on master; pushed origin/master.
+Prod: Lighthouse + CI workflows in_progress at push time (normal).
+Next: iter 300 → RESEARCH mode (300%5==0).
