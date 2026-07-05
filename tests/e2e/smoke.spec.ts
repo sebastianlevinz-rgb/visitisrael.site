@@ -315,6 +315,7 @@ const ROUTES = [
   '/christmas-in-israel',
   '/maccabiah-games-2026',
   '/israel-hidden-gems',
+  '/jerusalem-nightlife',
 ];
 
 for (const route of ROUTES) {
