@@ -1,13 +1,45 @@
 # LOOP STATE
 
-- iteration: 297
-- lastMode: BUILD (297%5==2 → seo-content rotation)
-- lastItem: israel-hidden-gems
-- lastResult: SHIPPED — /israel-hidden-gems (11 off-the-beaten-path sites hub); commit ce7114c; 452 pages (+1); 590/590 e2e pass (+1); GREEN gate
-- nextRotationCategory: 298%5==3 → BUILD (tools rotation)
+- iteration: 298
+- lastMode: BUILD (298%5==3 → tools rotation; no unshipped tools items → fell through to seo-content)
+- lastItem: jerusalem-nightlife
+- lastResult: SHIPPED — /jerusalem-nightlife (Jerusalem bars, music venues & evening guide); commit 83c83d4; 453 pages (+1); 591/591 e2e pass (+1); GREEN gate; CI in_progress at ship time (standard)
+- nextRotationCategory: 299%5==4 → REVIEW
 - higgsfieldSpent: 0
-- updatedAt: 2026-07-04T23:45Z
+- updatedAt: 2026-07-05T00:37Z
 - branch context: work on master; feature work on auto/<slug>
+
+Notes: iter 298 BUILD (tools→seo-content fallthrough) — jerusalem-nightlife:
+  Mode BUILD (298%5==3 → tools rotation). Tools section of BACKLOG confirmed EMPTY (all 11 tools
+  items shipped); fell through to seo-content per PLAYBOOK rule. Top ready seo-content item:
+  jerusalem-nightlife (P2, S) — fully spec'd in iter295 research.
+  New /jerusalem-nightlife: Jerusalem bars, music venues & evening guide.
+  Structure: Mahane Yehuda after dark (Thu/Sat shuk transformation, 21:00–midnight peak;
+  HaBasta wine bar, Machneyuda area, Basher Wines); German Colony / Emek Refaim (wine-bar
+  strip, Fattoush garden bar, calmer 30s–40s crowd); Ben Yehuda & Zion Square (tourist-accessible
+  pubs/sports bars); Yellow Submarine music venue (HaRechavim 13, indie/jazz/rock, ₪40–100 tickets,
+  yellowsubmarine.org.il); Mamilla Mirror Bar (Old City walls view, ₪70–120 cocktails, sunset
+  arrival tip); Beit Avi Chai (cultural evenings, music/film/literary).
+  Practical section: Shabbat timing (Fri sunset → Sat ~21:00 = closed; Thu = biggest bar night;
+  Sat = late starter post-Shabbat end); transport (Gett/Yango after 22:00, light-rail until
+  midnight); dress code (casual; modesty for Old City); TLV comparison (2–3am vs TLV 5–6am,
+  wine bars/music vs clubs). Cross-link: /tel-aviv-nightlife (comparison framing), /shabbat-guide,
+  /jewish-heritage-israel, /israel-accommodation-guide.
+  HONESTY: wine-bar/music scene framing only — NOT described as a "party city" or club scene;
+  all venue hours framed as "typically" + "verify before visiting"; Yellow Submarine = link
+  yellowsubmarine.org.il only, no hardcoded schedule; Mamilla Mirror Bar = "at time of writing,
+  check hotel policy may change"; no fabricated ratings or prices beyond ranges.
+  2 affiliate CTAs: GYG Jerusalem evening food+wine tour (Mahane Yehuda night market angle) +
+  Booking.com Jerusalem hotels (accommodation near the evening scene).
+  6 FAQs: does Jerusalem have nightlife? / best area for bars / when does it start / Shabbat
+  impact / safety at night / Jerusalem vs Tel Aviv comparison.
+  heroImage: /images/sub-destinations/jerusalem/mahane-yehuda.jpg
+  Smoke test: /jerusalem-nightlife added to ROUTES.
+  Gate: pnpm check 0 errors (119 files) · build 453 pages (+1) · 591/591 e2e pass (+1). GREEN.
+  Ship: commit 83c83d4 to master; pushed origin/master; CI in_progress at commit time (normal).
+  NEXT: iter 299 → REVIEW mode (299%5==4). Candidates: audit iters 296–298 output
+    (maccabiah-games-2026, israel-hidden-gems, jerusalem-nightlife) for correctness/SEO/a11y/
+    dead links/schema validity/honesty; or pick a P2-T technical backlog item as one quick fix.
 
 Notes: iter 297 BUILD (seo-content) — israel-hidden-gems:
   Mode BUILD (297%5==2 → seo-content rotation). Top P2 seo-content item chosen: israel-hidden-gems.
@@ -136,5 +168,5 @@ Notes: iter 293 BUILD (tools) — israel-effective-days:
     schema validator sweep, or any P2-T technical backlog item.
 
 Cron b7325b16 hourly @ :17. Loop history: 19 tools + sitemap-lastmod + link-checker(+depth) + i18n
-Phase0/1a/1b/1c/2 Batches1-18(COMPLETE) + 31 review passes + 3 technical (event-schema + meta-trim + locale-links) + 34 EN guides + 4 tools-monetization;
+Phase0/1a/1b/1c/2 Batches1-18(COMPLETE) + 31 review passes + 3 technical (event-schema + meta-trim + locale-links) + 35 EN guides + 4 tools-monetization;
 research iters 5/10/20/30/35/40/45/50/55/60/65/70/75/80/85/90/95/100/105/110/115/120/125/130/135/140/145/150/155/160/165/170/175/180/185/190/195/200/205/210/215/220/225/230/235/240/245/250/255/260/265/270/275/280/285/290/295.

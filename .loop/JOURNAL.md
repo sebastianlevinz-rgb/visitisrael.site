@@ -5581,3 +5581,16 @@ Gate: pnpm check 0 errors · build 452 pages (+1) · 590/590 e2e pass (+1). GREE
 Ship: squash-merged auto/israel-hidden-gems → master; commit ce7114c; pushed origin/master.
 Prod: CI pending at push time (standard); next iteration will confirm.
 Next: iter 298 → BUILD (tools rotation).
+
+## 2026-07-05T00:37Z · iter 298 · BUILD (tools→seo-content fallthrough) · jerusalem-nightlife
+What: Tools section of BACKLOG fully shipped (all 11 tools items DONE); fell through to seo-content per
+PLAYBOOK. Built /jerusalem-nightlife — Jerusalem bars, music venues & evening guide. Sections: Mahane
+Yehuda after dark (shuk Thu/Sat transformation — the most distinctive Jerusalem nightlife experience);
+German Colony / Emek Refaim wine-bar strip; Ben Yehuda & Zion Square (tourist-accessible); Yellow
+Submarine indie music venue; Mamilla Mirror Bar (Old City walls view); Beit Avi Chai cultural events.
+Practical section covers Shabbat timing, transport, and honest TLV vs Jerusalem comparison framing.
+2 CTAs: GYG Jerusalem evening food+wine tour + Booking.com Jerusalem hotels. 6 FAQs.
+Gate: pnpm check 0 errors (119 files) · build 453 pages (+1) · 591/591 e2e pass (+1). GREEN.
+Ship: commit 83c83d4 on master; pushed origin/master.
+Prod: CI in_progress at push time (normal — ~5 min delay standard); next iter start-check confirms.
+Next: iter 299 → REVIEW mode (299%5==4). Audit iters 296–298 output.
