@@ -1,13 +1,48 @@
 # LOOP STATE
 
-- iteration: 320
-- lastMode: RESEARCH (320%5==0)
-- lastItem: research-320 — niche/nationality segment gap scan (ANZAC, LGBTQ history, Armenian Quarter, Black travelers, best hikes, top archaeology)
-- lastResult: RESEARCH COMPLETE — 6 net-new items confirmed + appended to BACKLOG; 0 code changes; no gate run
-- nextRotationCategory: 321%5==1 → BUILD monetization rotation
+- iteration: 321
+- lastMode: BUILD (321%5==1 → monetization rotation)
+- lastItem: israel-orthodox-jewish-travel — comprehensive logistics guide for observant/Orthodox Jewish visitors
+- lastResult: BUILD COMPLETE — gate GREEN (0 errors, 465 pages +1, 593/593 e2e pass); merged 7b13236; CI in_progress at state-update (standard)
+- nextRotationCategory: 322%5==2 → BUILD seo-content rotation
 - higgsfieldSpent: 0
-- updatedAt: 2026-07-05T23:15Z
+- updatedAt: 2026-07-05T23:45Z
 - branch context: work on master; feature work on auto/<slug>
+
+Notes: iter 321 BUILD (monetization) · israel-orthodox-jewish-travel:
+  Mode BUILD (321%5==1 → monetization rotation). Picked israel-orthodox-jewish-travel (P2, M) —
+  highest-spending diaspora Jewish visitor segment; zero dedicated Orthodox logistics guide on site;
+  jewishlink.news, oucosher.org, shecheltoursisrael.com, afiatours.com, keshetisrael.com all publish
+  dedicated Orthodox Israel travel guides; gap confirmed by iter315 research.
+  New guide: /israel-orthodox-jewish-travel. Content: glatt kosher hotel tiers by certifying authority
+  (Badatz Eda HaChareidit, Badatz Mehadrin, Rabbanut Yerushalayim) + city picks (Jerusalem: Geula/Mea
+  Shearim area [Badatz], Ben Yehuda/city centre [Yerushalayim Rabbinate/Mehadrin], Mamilla/Jaffa Gate
+  [Yerushalayim]; TLV: Dan Tel Aviv + Rothschild 22; Tiberias; Eilat; Dead Sea); Shabbat elevator
+  standard explained; eruv guide (Jerusalem full West Jerusalem coverage; Tel Aviv; Haifa multiple
+  overlapping — weekly verification emphasized); shul directory (Chabad.org/travel; Bnei Brak overview;
+  Jerusalem: Great Synagogue, Ben Zakkai complex, Haredi shteibels; dress code standards); Western Wall
+  Bar/Bat Mitzvah via kotel.org.il (Mon/Thu Torah-reading slots; Ezrat Yisrael advance booking for
+  egalitarian/girls); Birkat Kohanim mass event twice yearly at Chol HaMoed (Sukkot + Passover; arrive
+  7:30am; kotel.org.il for exact dates); mikveh guidance (Jerusalem central + TLV Meuhad; hotel concierge
+  coordination; RSVP required peak season); Shushan Purim distinction (Jerusalem = 15 Adar vs rest of
+  Israel 14 Adar — practical impact explained); Sukkot (communal sukkah hotels; Chol HaMoed domestic
+  tourism peak — book 3-6 months ahead; INPA parks pass; Birkat Kohanim cross-reference); Haredi dress
+  standards (Mea Shearim/Geula — stricter than general tourist guideline; no photography on Shabbat);
+  itinerary frameworks (Arrive Thu/leave after Havdalah; Jerusalem base + Galilee day trips; B'nai
+  Mitzvah trip timing for quieter Kotel ceremony Jan-Feb or June). 2 affiliate CTAs: Booking.com kosher
+  hotels Israel + GYG Orthodox Jerusalem tours. 6 FAQs covering: glatt kosher definition; eruv weekly
+  verification; Kotel Bar Mitzvah booking; Birkat Kohanim logistics; Chabad houses; restaurant kashrut.
+  Dense cross-links to 10 guides: traveling-israel-jewish-holidays, shabbat-guide, whats-open-on-shabbat,
+  kosher-food-guide, holy-sites-dress-code-etiquette, best-hotels-jerusalem, israel-national-parks-pass,
+  bar-bat-mitzvah-israel, jewish-heritage-israel, israel-accommodation-guide. Footer link added.
+  Reverse cross-links upgraded: jewish-heritage-israel (added Orthodox visitors bullet in practical tips);
+  bar-bat-mitzvah-israel (added Orthodox companion guide link at end of closing paragraph).
+  Gate: pnpm check 0 errors (119 files) · build 465 pages (+1) · 593/593 e2e+a11y pass. GREEN.
+  Ship: committed 7b13236 to master; pushed origin/master. CI in_progress at state-update (standard).
+  NEXT: iter 322 → BUILD seo-content rotation (322%5==2). Top seo-content P2 candidates:
+    accessible-travel-israel (P2, M), photography-guide (P2, M), israel-memorial-sites (P2, M),
+    israel-best-hikes (P2, M — added iter320), israel-top-archaeological-sites (P2, M — added iter320),
+    jerusalem-armenian-quarter (P2, S — added iter320). i18n Phase 3 (regions fr+de) also P2.
 
 Notes: iter 320 RESEARCH · research-320:
   Mode RESEARCH (320%5==0). Backlog extremely saturated (200+ ready items from 64+ research passes).
