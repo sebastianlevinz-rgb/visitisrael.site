@@ -1,6 +1,6 @@
 ---
 title: 'Dead Sea vs Eilat: Which Should You Visit?'
-description: 'Dead Sea or Eilat for a southern Israel escape? Compare the float, the Red Sea reef, sights, costs, family appeal and transport to find the right fit — or plan both.'
+description: 'Dead Sea or Eilat for a southern Israel escape? Compare float, Red Sea reef, sights, costs, family appeal and transport to find the right fit — or plan both.'
 heroImage: /images/regions/dead-sea/ein-bokek.jpg
 category: Compare
 updatedAt: 2026-07-05
