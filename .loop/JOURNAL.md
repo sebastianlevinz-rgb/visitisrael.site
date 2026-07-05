@@ -5891,3 +5891,10 @@ What: New /israel-road-trip — 7-day self-drive clockwise circuit from Tel Aviv
 Gate: pnpm check 0 errors (119 files) · build 464 pages (+1) · 593/593 e2e+a11y pass. GREEN.
 Ship: committed bfb1b4f to master; pushed origin/master. CI in_progress at state-update (standard; prior run 27e93dd→success).
 NEXT: iter 319 → BUILD (319%5==4 → REVIEW mode). Audit iters 315-318 output: sea-of-galilee-guide (iter316), backpacking-israel (iter317), israel-road-trip (iter318). Check SEO meta (title ≤60, desc ≤160), internal links, honesty framing, affiliate CTAs.
+
+## 2026-07-05T21:45Z · iter 319 · REVIEW · review-319-link-fixes
+What: Audited iters 316-318 guides (sea-of-galilee-guide, backpacking-israel, israel-road-trip).
+Bugs found and fixed: (1) sea-of-galilee-guide.md line 165: self-referential [GetYourGuide](/sea-of-galilee-guide) link — rewritten as prose pointing to /galilee-tours-compared + CTA above. (2) backpacking-israel.md line 121: [GetYourGuide](/israel-cost-budget) linked wrong target — removed anchor, plain text only. israel-road-trip.md was fully CLEAN (title 52, desc 157, no H1, all links resolve, rating/reviews pattern consistent, honesty framing appropriate).
+Gate: pnpm check 0 errors · build 464 pages · 593/593 e2e+a11y pass. GREEN.
+Ship: committed 5d1c321 to master; pushed origin/master. CI in_progress (prior runs 9f00c90 + bfb1b4f both success).
+NEXT: iter 320 → RESEARCH mode (320%5==0).

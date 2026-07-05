@@ -1,13 +1,41 @@
 # LOOP STATE
 
-- iteration: 318
-- lastMode: BUILD tools→seo+monetization fallthrough (318%5==3)
-- lastItem: israel-road-trip — 7-day self-drive circuit guide; SHA bfb1b4f
-- lastResult: GREEN — pnpm check 0 errors · build 464 pages (+1) · 593/593 e2e pass
-- nextRotationCategory: 319%5==4 → REVIEW mode
+- iteration: 319
+- lastMode: REVIEW (319%5==4)
+- lastItem: review-319 — audit iters 316-318 (sea-of-galilee-guide, backpacking-israel, israel-road-trip); SHA 5d1c321
+- lastResult: GREEN — pnpm check 0 errors · build 464 pages · 593/593 e2e pass; 2 link bugs fixed
+- nextRotationCategory: 320%5==0 → RESEARCH mode
 - higgsfieldSpent: 0
-- updatedAt: 2026-07-05T20:40Z
+- updatedAt: 2026-07-05T21:45Z
 - branch context: work on master; feature work on auto/<slug>
+
+Notes: iter 319 REVIEW · review-319-link-fixes:
+  Mode REVIEW (319%5==4). Audited iters 316-318 output: sea-of-galilee-guide (iter316, d9214b6),
+  backpacking-israel (iter317, e2b7a78), israel-road-trip (iter318, bfb1b4f).
+  Findings:
+  (1) CONFIRMED BUG: sea-of-galilee-guide.md — body line 165 had [GetYourGuide](/sea-of-galilee-guide),
+      a self-referential link (linked back to the same page). Rewritten to prose directing readers
+      to /galilee-tours-compared and the CTA above.
+  (2) CONFIRMED BUG: backpacking-israel.md — body line 121 had [GetYourGuide](/israel-cost-budget),
+      linking the GetYourGuide anchor to the wrong target (cost-budget guide). Fixed by removing
+      the anchor; GetYourGuide is now referenced as plain text; the frontmatter CTA handles routing.
+  (3) CLEAN: israel-road-trip.md — title 52 chars ✓, desc 157 chars ✓; no H1 in body; all internal
+      links resolve (galilee-christian-sites-circuit, israel-car-rental-quiz, bahai-world-center-guide,
+      golan, negev, israel-esim all confirmed present); discovercars rating:4.6/reviews:70000 is
+      consistent established pattern from car-rental-israel.md; honesty framing appropriate (rental
+      restrictions, Area A warning, seasonal caveats); affiliate CTAs correct.
+  (4) CLEAN: sea-of-galilee-guide.md (other than the self-link) — title 57 chars ✓, desc 136 chars ✓;
+      no H1 in body; all internal links resolve; Yardenit historical framing/Qasr el-Yahud comparison
+      present; beach prices noted as "approximate" ✓; honesty framing appropriate.
+  (5) CLEAN: backpacking-israel.md (other than the wrong link) — title 52 chars ✓, desc 147 chars ✓;
+      no H1 in body; all internal links resolve; costs framed as ranges; honesty framing appropriate.
+  Gate: pnpm check 0 errors (119 files) · build 464 pages · 593/593 e2e+a11y pass. GREEN.
+  Ship: committed 5d1c321 to master; pushed origin/master. CI in_progress at state-update (prior
+    9f00c90/bfb1b4f both success).
+  NEXT: iter 320 → RESEARCH mode (320%5==0). Scan for new profitable content gaps not yet in backlog;
+    competitor review; emerging 2026-2027 season topics; de-dup against 320-item+ BACKLOG.
+    Top BUILD candidates after 320: accessible-travel-israel (P2, M), israel-orthodox-jewish-travel
+    (P2, M), israel-memorial-sites (P2, M), photography-guide (P2, M), i18n Phase 3 (regions fr+de).
 
 Notes: iter 318 BUILD (tools→seo+monetization) · israel-road-trip:
   Mode BUILD (318%5==3 → tools rotation). Tools exhausted; fell through to seo+monetization.
