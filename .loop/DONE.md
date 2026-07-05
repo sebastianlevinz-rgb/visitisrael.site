@@ -605,3 +605,6 @@ guides. 3× affiliate CTAs, 6 FAQs, cross-link from /jerusalem region page.
 
 ## iter 311 — best-hotels-jerusalem (7e100a5)
 - BUILD (monetization). New /best-hotels-jerusalem guide: neighbourhood hotel picks for Jerusalem (Mamilla Hotel, Waldorf Astoria Jerusalem, American Colony Hotel, Leonardo Boutique, Abraham Hostel). 5 zone breakdown, 3-tier hotel picks, 9-row decision matrix, Jerusalem-specific booking patterns (Passover 3-4× surge, Sukkot/High Holiday cluster, Christmas/Easter waves), 6 FAQs, 3 affiliate CTAs (Booking.com ×2 + GYG). Completes "best hotels [city]" series (TLV iter243, Eilat iter241, Dead Sea iter247). Cross-links added to israel-accommodation-guide, jerusalem-neighborhoods-guide, best-hotels-tel-aviv. 593/593 e2e+a11y pass.
+
+## iter 312 — BUILD (seo-content) · via-dolorosa-guide · 086e2bb
+- /via-dolorosa-guide: 14-station self-guided Via Dolorosa walking guide; all outdoor stations I–IX (Muslim Quarter souk) + indoor X–XIV (Church of the Holy Sepulchre); Friday Franciscan procession guide (3pm, free); timing windows; 7 FAQs; GYG Via Dolorosa tour CTA + Booking.com Jerusalem hotels CTA; cross-links upgraded in 4 existing guides. SEO: "Via Dolorosa walking guide Jerusalem", "14 stations of the cross Jerusalem self-guided".

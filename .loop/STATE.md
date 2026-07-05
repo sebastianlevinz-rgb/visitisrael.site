@@ -1,13 +1,43 @@
 # LOOP STATE
 
-- iteration: 311
-- lastMode: BUILD (311%5==1 → monetization rotation)
-- lastItem: best-hotels-jerusalem — /best-hotels-jerusalem neighbourhood hotel guide; Mamilla Hotel, Waldorf Astoria Jerusalem, American Colony Hotel, Leonardo Boutique, Abraham Hostel; 6 FAQs; 3 Booking.com + GYG CTAs; cross-links from israel-accommodation-guide + jerusalem-neighborhoods-guide + best-hotels-tel-aviv
-- lastResult: SHIPPED 7e100a5; gate GREEN (pnpm check 0 errors · build 459 pages +1 · 593/593 e2e+a11y pass); CI in_progress at commit
-- nextRotationCategory: 312%5==2 → seo-content rotation
+- iteration: 312
+- lastMode: BUILD (312%5==2 → seo-content rotation)
+- lastItem: via-dolorosa-guide — /via-dolorosa-guide 14-station self-guided walking guide; station-by-station descriptions (I–XIV, outdoor + church); Friday Franciscan procession logistics; timing windows; 7 FAQs; GYG Via Dolorosa tour CTA + Booking.com Jerusalem hotel CTA; cross-links upgraded in christian-pilgrimage-holy-land, church-holy-sepulchre-guide, free-things-to-do-israel, jerusalem-old-city-walking-tour
+- lastResult: SHIPPED 086e2bb; gate GREEN (pnpm check 0 errors · build 460 pages +1 · 593/593 e2e+a11y pass); CI in_progress at commit
+- nextRotationCategory: 313%5==3 → tools rotation
 - higgsfieldSpent: 0
-- updatedAt: 2026-07-05T13:41Z
+- updatedAt: 2026-07-05T14:42Z
 - branch context: work on master; feature work on auto/<slug>
+
+Notes: iter 312 BUILD (seo-content) · via-dolorosa-guide:
+  Mode BUILD (312%5==2 → seo-content rotation). Picked via-dolorosa-guide (P2, S) —
+  just confirmed in iter310 research; backpackisrael.com + laidbacktrip.com both rank for
+  "Via Dolorosa walking guide Jerusalem"; church-holy-sepulchre-guide (iter187) covers
+  only Stations X–XIV; jerusalem-old-city-walking-tour (iter186) treats Via Dolorosa as
+  one paragraph; NO standalone 14-station guide existed. High-volume Christian pilgrimage
+  SEO target.
+  New guide: /via-dolorosa-guide. Content: orientation (outdoor Stations I–IX vs indoor
+  X–XIV); station-by-station descriptions for all 14 stations with location, chapel notes,
+  practical access info; Friday 3pm Franciscan procession (free, open to all, join at
+  Station I by 14:45); quick-reference table; timing guide (7–8am best, avoid 10am–2pm
+  peak); navigation (brown numbered plaques + cross carvings); what to bring; planning
+  your pilgrimage cross-links. HONESTY: route historically debated (Station I Antonia vs
+  Citadel); clearly framed as "traditional Via Dolorosa" not archaeologically certain.
+  Affiliate CTAs: GYG Via Dolorosa guided tour + Booking.com Jerusalem hotels.
+  Cross-links upgraded: christian-pilgrimage-holy-land (×2 /jerusalem/via-dolorosa →
+  /via-dolorosa-guide), free-things-to-do-israel (/jerusalem/via-dolorosa →
+  /via-dolorosa-guide + added station guide link), jerusalem-old-city-walking-tour
+  (/via-dolorosa-guide link added in Step 5 Muslim Quarter section),
+  church-holy-sepulchre-guide (Friday procession para upgraded with Via Dolorosa link).
+  Gate: pnpm check 0 errors (119 files) · build 460 pages (+1) · 593/593 e2e+a11y pass. GREEN.
+  Ship: committed 086e2bb to master; pushed origin/master. CI in_progress at state-update.
+  NEXT: iter 313 → BUILD (313%5==3 → tools rotation). Tools category items:
+    free-day-trip-planner (P2, M — interactive day-trip composer), israel-visa-checker
+    (P2, S — interactive ETA/visa tool), itinerary-builder-premium (P2, L). Also eligible:
+    i18n Phase 3 (regions ×11 in fr+de) or seo-content fallthrough if tools exhausted.
+    Top seo-content P2 candidates still pending: best-hotels-haifa (P2, S), sea-of-galilee-
+    guide (P2, M), backpacking-israel (P2, M), self-drive-road-trip (P2, M),
+    accessible-travel-israel (P2, M).
 
 Notes: iter 311 BUILD (monetization) · best-hotels-jerusalem:
   Mode BUILD (311%5==1 → monetization rotation). Picked best-hotels-jerusalem (P2, M) —

@@ -5829,3 +5829,17 @@ Ship: squash-merged to master 7e100a5; pushed origin/master. CI in_progress at c
 Prod: Vercel CI + Lighthouse both in_progress at state-update; prior 2 CI runs both success.
 NEXT: iter 312 → BUILD (312%5==2 → seo-content rotation). Top candidates: via-dolorosa-guide
   (P2, S), best-hotels-haifa (P2, S), sea-of-galilee-guide (P2, M), i18n Phase 3 (regions fr+de).
+
+## 2026-07-05T14:42Z · iter 312 · BUILD (seo-content) · via-dolorosa-guide
+What: new /via-dolorosa-guide — 14-station self-guided Via Dolorosa walking guide covering
+all outdoor stations (I–IX through Muslim Quarter souk) and indoor stations (X–XIV inside
+Church of the Holy Sepulchre). Includes Friday Franciscan procession logistics (3pm, Station I,
+free), timing windows (7–8am best), quick-reference table, navigation notes. HONESTY: traditional
+route historically debated — framed as sacred tradition not archaeological certainty. Affiliate
+CTAs: GYG Via Dolorosa tour + Booking.com Jerusalem hotels. Cross-links upgraded in 4 existing
+guides (christian-pilgrimage-holy-land ×2, church-holy-sepulchre-guide, free-things-to-do-israel,
+jerusalem-old-city-walking-tour) from /jerusalem/via-dolorosa → /via-dolorosa-guide.
+Gate: pnpm check 0 errors (119 files) · build 460 pages (+1) · 593/593 e2e+a11y pass. GREEN.
+Ship: committed 086e2bb to master; pushed origin/master. CI in_progress (standard; prior 2 CI
+runs both success — 148ea88, 7e100a5).
+Next: iter 313 → BUILD (313%5==3 → tools rotation).
