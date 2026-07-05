@@ -1,6 +1,6 @@
 ---
-title: 'Via Dolorosa Jerusalem: 14 Stations Self-Guided Walking Guide (2026)'
-description: 'Walk the Via Dolorosa in Jerusalem: all 14 Stations of the Cross mapped and described, with timing tips, the Friday Franciscan procession, and practical planning advice.'
+title: 'Via Dolorosa Jerusalem: 14-Station Self-Guided Walk'
+description: 'Walk the Via Dolorosa in Jerusalem: all 14 Stations of the Cross with timing tips, the Friday Franciscan procession, and practical planning advice.'
 heroImage: /images/regions/jerusalem/old-city.jpg
 category: Sacred Sites
 updatedAt: 2026-07-05

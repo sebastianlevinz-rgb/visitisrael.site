@@ -1,6 +1,6 @@
 ---
 title: 'Best Hotels in Jerusalem 2026: Neighbourhood Guide & Picks'
-description: 'Best hotels in Jerusalem by neighbourhood: luxury near Jaffa Gate, boutique in German Colony, mid-range near Mahane Yehuda, and budget hostels close to the Old City.'
+description: 'Best hotels in Jerusalem by neighbourhood: luxury near Jaffa Gate, boutique in German Colony, mid-range near Mahane Yehuda, and budget hostels near Old City.'
 heroImage: /images/regions/jerusalem/hero.jpg
 category: Accommodation
 updatedAt: 2026-07-05
