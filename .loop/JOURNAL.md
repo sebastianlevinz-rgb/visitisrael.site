@@ -5885,3 +5885,9 @@ What: New /backpacking-israel — hostel-by-city guide (Jerusalem, Tel Aviv, Hai
 Gate: pnpm check 0 errors · build 463 pages (+1) · 593/593 e2e pass. GREEN.
 Ship: committed e2b7a78 to master; pushed origin/master. CI in_progress at state-update (standard; prior 2 CI runs both success).
 NEXT: iter 318 → BUILD (318%5==3 → tools fallthrough). Top candidates: self-drive-road-trip, accessible-travel-israel, israel-orthodox-jewish-travel.
+
+## 2026-07-05T20:37Z · iter 318 · BUILD tools→seo+monetization fallthrough · israel-road-trip
+What: New /israel-road-trip — 7-day self-drive clockwise circuit from Tel Aviv through north coast (Caesarea, Haifa, Akko, Rosh Hanikra), Upper Galilee (Safed), Golan Heights (Banias, Nimrod, wine country), Sea of Galilee Christian circuit (Capernaum, Tabgha, Mount of Beatitudes, Yardenit), Jordan Valley (Route 90 south), Dead Sea + Masada + Qumran, Negev (Makhtesh Ramon). Includes day-by-day plan, quick-reference table, Shabbat logistics, Route 6 toll notes, West Bank driving restrictions, packing essentials, seasonal planning. 3 affiliate CTAs: DiscoverCars (car comparison) + GetYourGuide (entry tickets/tours) + Booking.com (hotels along circuit). 6 FAQs. Cross-links upgraded: car-rental-israel (road-trip link in Plan the rest section), driving-in-israel (Before you drive checklist), israel-car-rental-quiz (Related guides). Footer link added.
+Gate: pnpm check 0 errors (119 files) · build 464 pages (+1) · 593/593 e2e+a11y pass. GREEN.
+Ship: committed bfb1b4f to master; pushed origin/master. CI in_progress at state-update (standard; prior run 27e93dd→success).
+NEXT: iter 319 → BUILD (319%5==4 → REVIEW mode). Audit iters 315-318 output: sea-of-galilee-guide (iter316), backpacking-israel (iter317), israel-road-trip (iter318). Check SEO meta (title ≤60, desc ≤160), internal links, honesty framing, affiliate CTAs.

@@ -1,13 +1,32 @@
 # LOOP STATE
 
-- iteration: 317
-- lastMode: BUILD seo-content (317%5==2)
-- lastItem: backpacking-israel — hostel-by-city guide, Abraham network, budget logistics; SHA e2b7a78
-- lastResult: GREEN — pnpm check 0 errors · build 463 pages (+1) · 593/593 e2e pass
-- nextRotationCategory: 318%5==3 → BUILD tools rotation (tools exhausted → fallthrough seo-content/monetization)
+- iteration: 318
+- lastMode: BUILD tools→seo+monetization fallthrough (318%5==3)
+- lastItem: israel-road-trip — 7-day self-drive circuit guide; SHA bfb1b4f
+- lastResult: GREEN — pnpm check 0 errors · build 464 pages (+1) · 593/593 e2e pass
+- nextRotationCategory: 319%5==4 → REVIEW mode
 - higgsfieldSpent: 0
-- updatedAt: 2026-07-05T19:40Z
+- updatedAt: 2026-07-05T20:40Z
 - branch context: work on master; feature work on auto/<slug>
+
+Notes: iter 318 BUILD (tools→seo+monetization) · israel-road-trip:
+  Mode BUILD (318%5==3 → tools rotation). Tools exhausted; fell through to seo+monetization.
+  Picked israel-road-trip (P2, M) — self-drive Israel road trip itinerary; repeatedly named
+  in research passes (iters 40/60/80/etc.); Nomadic Matt + Walk My World + WanderlustingK all
+  rank for "Israel road trip"; distinct from 5/7/10-day itineraries (transport-agnostic) and
+  transport route comparisons. New guide: /israel-road-trip. Content: 7-day clockwise self-drive
+  circuit — Day 1 TLV→Caesarea→Haifa; Day 2 Haifa→Akko→Rosh Hanikra→Safed; Day 3 Golan loop
+  (Banias+Nimrod+wine); Day 4 Sea of Galilee circuit→Jordan Valley south; Day 5 Dead Sea+Masada+
+  Qumran; Day 6 Negev/Makhtesh Ramon; Day 7 return via Route 6. Quick-reference table; Shabbat
+  logistics; Route 6 toll notes; West Bank restriction warning; packing essentials; seasonal guide.
+  3 affiliate CTAs: DiscoverCars + GYG + Booking.com. Dense cross-links to 15+ guides. Footer
+  link added. Cross-links upgraded: car-rental-israel, driving-in-israel, israel-car-rental-quiz.
+  Gate: pnpm check 0 errors (119 files) · build 464 pages (+1) · 593/593 e2e+a11y pass. GREEN.
+  Ship: committed bfb1b4f to master; pushed origin/master. CI in_progress at state-update (standard).
+  NEXT: iter 319 → REVIEW mode (319%5==4). Audit iters 316-318 output: sea-of-galilee-guide
+    (iter316, d9214b6), backpacking-israel (iter317, e2b7a78), israel-road-trip (iter318, bfb1b4f).
+    Top audit checks: title ≤60 chars, desc ≤160 chars, all internal links resolve, no H1 in body,
+    no fabricated data, affiliate CTAs correct, honesty framing appropriate.
 
 Notes: iter 317 BUILD (seo-content) · backpacking-israel:
   Mode BUILD (317%5==2 → seo-content rotation). Picked backpacking-israel (P2, M) — top
