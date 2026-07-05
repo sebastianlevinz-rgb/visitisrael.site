@@ -5656,3 +5656,11 @@ Next: iter 302 → BUILD (302%5==2 → seo-content). Top ready seo-content candi
   backpacking-israel (P2 M), photography-guide (P2 M), accessible-travel-israel (P2 M),
   muslim-travel-israel (P2 M), self-drive-road-trip (P2 M — would unlock /israel-road-trip link),
   dead-sea-vs-eilat (P2 S — new comparison, fast S-effort), tel-dan-nature-reserve (P2 S — new S).
+
+## 2026-07-05T04:35Z · iter 302 · BUILD (seo-content) · dead-sea-vs-eilat
+What: /dead-sea-vs-eilat — "Dead Sea vs Eilat: Which Should You Visit?" comparison guide (P2, S, seo-content+monetization).
+Decision-framework guide for "Dead Sea or Eilat" — the most common southern Israel destination-choice query. Side-by-side comparison table (draw, water type, distance, season, family suitability, tax-free shopping, Petra access). "Choose the Dead Sea if…" (float, Masada, Ein Gedi, easy day-trip from Jerusalem/TLV). "Choose Eilat if…" (Red Sea reef, Coral Beach snorkel, Dolphin Reef, Underwater Observatory, Timna, tax-free zone, Petra proximity). Honest combined-trip guidance: 5-day southern loop itinerary. HONESTY: no fabricated prices or ratings; Eilat tax-free VAT saving stated factually; Dolphin Reef framed as semi-wild encounter not guaranteed; summer heat health risk clearly stated; Dead Sea shrinkage noted. 4 affiliate CTAs: Booking.com Dead Sea + Booking.com Eilat + GYG Masada+Dead Sea tour + GYG Eilat snorkel. 6 FAQs. Dense cross-links: dead-sea-guide, dead-sea-israel-vs-jordan, eilat-travel-guide, masada-dead-sea-day-trip, ein-gedi-guide, eilat-diving-snorkeling, petra-from-eilat-vs-amman, qumran-guide, border-crossings.
+Gate: pnpm check 0 errors (119 files) · build 455 pages (+1) · 593/593 e2e+a11y pass (+1 smoke route). GREEN.
+Ship: commit 937cae2 on master; pushed origin/master; CI in_progress at commit time (normal).
+Prod: Vercel deploy triggered for 937cae2; prior 30+ iterations all succeed; content-only change (new .md + 1 smoke route).
+Next: iter 303 → BUILD (303%5==3 → tools rotation). Tools BACKLOG: all 11 tools items previously shipped (per STATE notes). Expect fall-through to seo-content or technical. Top ready candidates: tel-dan-nature-reserve (P2 S), negev-stargazing-guide (P2 S), mount-hermon-skiing (P2 S), backpacking-israel (P2 M), Tisha-B'Av-2027-date-fix (P1 technical).
