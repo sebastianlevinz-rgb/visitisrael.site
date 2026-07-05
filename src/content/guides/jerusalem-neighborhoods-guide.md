@@ -194,4 +194,4 @@ Within the Old City, everything is on foot. The lanes are pedestrian-only and di
 
 **Parking:** driving into the Old City is not possible. For West Jerusalem neighborhoods, the central **Mamilla parking garage** (largest in the center, underground) is the practical option for visitors arriving by car. The German Colony and Mahane Yehuda have limited street parking — arrive early or use the light rail from a park-and-ride.
 
-More: [Getting around Israel](/transportation) · [Day trips from Jerusalem](/day-trips-from-jerusalem) · [Where to stay in Jerusalem](/where-to-stay/jerusalem).
+More: [Getting around Israel](/transportation) · [Day trips from Jerusalem](/day-trips-from-jerusalem) · [Where to stay in Jerusalem](/where-to-stay/jerusalem) · [Best hotels in Jerusalem](/best-hotels-jerusalem).
