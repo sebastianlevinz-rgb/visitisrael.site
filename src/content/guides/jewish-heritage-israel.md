@@ -131,6 +131,7 @@ Add: [Golan Heights](/golan) (Gamla, Druze villages), deeper time in the Galilee
 
 ## Practical tips for Jewish heritage travelers
 
+- **Observant and Orthodox visitors:** the [Orthodox Jewish travel guide](/israel-orthodox-jewish-travel) covers glatt kosher hotels, eruv status, shul directories, Bar Mitzvah logistics at the Kotel, Birkat Kohanim and Chol HaMoed planning in detail.
 - **Dress modestly** at the Western Wall and all synagogues — covered shoulders and knees for men and women; women should bring a scarf. See our [dress code & etiquette guide](/holy-sites-dress-code-etiquette).
 - **Plan around Shabbat.** Yad Vashem is closed on Saturdays. Many Jerusalem restaurants, buses and Jewish-owned shops stop Friday at sunset. Use this day for the Wall, the Old City or a pre-arranged private tour. Read our [Shabbat guide](/shabbat-guide).
 - **Book Yad Vashem and popular tours early**, especially around Jewish holidays and peak season (spring and autumn). Yom HaShoah in April sees very high demand.
