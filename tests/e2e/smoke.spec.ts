@@ -316,6 +316,7 @@ const ROUTES = [
   '/maccabiah-games-2026',
   '/israel-hidden-gems',
   '/jerusalem-nightlife',
+  '/galilee-vs-golan-weekend',
 ];
 
 for (const route of ROUTES) {
