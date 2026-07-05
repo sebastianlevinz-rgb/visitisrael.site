@@ -1,13 +1,35 @@
 # LOOP STATE
 
-- iteration: 315
-- lastMode: RESEARCH (315%5==0)
-- lastItem: research-315 — competitor + SERP scan; 6 net-new items added to BACKLOG (israel-orthodox-jewish-travel, zionist-heritage-trail, israel-memorial-sites, new-years-eve-israel, israel-tourist-scams, israel-spring-break)
-- lastResult: N/A (research only — no code changes, no gate run)
-- nextRotationCategory: 316%5==1 → BUILD monetization rotation
+- iteration: 316
+- lastMode: BUILD monetization (316%5==1)
+- lastItem: sea-of-galilee-guide — comprehensive 4-shore Kinneret circuit guide; SHA d9214b6
+- lastResult: GREEN — pnpm check 0 errors · build 462 pages (+1) · 593/593 e2e pass
+- nextRotationCategory: 317%5==2 → BUILD seo-content rotation
 - higgsfieldSpent: 0
-- updatedAt: 2026-07-05T17:10Z
+- updatedAt: 2026-07-05T18:45Z
 - branch context: work on master; feature work on auto/<slug>
+
+Notes: iter 316 BUILD (monetization) · sea-of-galilee-guide:
+  Mode BUILD (316%5==1 → monetization rotation). Picked sea-of-galilee-guide (P2, M) — highest-
+  priority remaining gap; mentioned in 5+ research passes (iters 305/310/315); extends existing
+  tiberias-guide (city only) and sea-of-galilee-boat-tour to cover the full lake circuit.
+  New guide: /sea-of-galilee-guide. Content: all 4 shores — west (Magdala excavations + Ginosar
+  Jesus Boat Museum), north shore Christian cluster (Capernaum ruins + Tabgha loaves-fishes mosaic
+  + Mount of Beatitudes), east shore (Ein Gev kibbutz ferry + St. Peter's Fish + Kursi Byzantine
+  monastery), south shore (Yardenit baptism site with honest Qasr el-Yahud comparison cross-link +
+  Hamat Gader thermal springs + Roman bath ruins). Beaches table (Gei Beach, Luna Gal, Ginosar,
+  Ein Gev), ~65km cycling circuit, day-trip vs overnight recommendation, getting-there logistics
+  from TLV/Jerusalem/Haifa. 3 affiliate CTAs: GYG Galilee tours + Viator Christian Galilee circuit +
+  Booking.com Tiberias hotels. Honesty: Yardenit framed vs Qasr el-Yahud historical context;
+  Hamat Gader hours/fees seasonal — link official site; beach quality links to kinneret.co.il.
+  Cross-links upgraded: tiberias-guide (Cross-links section), sea-of-galilee-boat-tour (final para),
+  galilee region page (How to Get to the Galilee section).
+  Gate: pnpm check 0 errors (119 files) · build 462 pages (+1) · 593/593 e2e pass. GREEN.
+  Ship: committed d9214b6 to master; pushed origin/master. CI in_progress at state-update (standard).
+  NEXT: iter 317 → BUILD seo-content rotation (317%5==2). Top seo-content P2 candidates:
+    backpacking-israel (P2, M), self-drive-road-trip (P2, M), accessible-travel-israel (P2, M),
+    haifa-travel-guide (P2, M), eilat-travel-guide (P2, M), israel-orthodox-jewish-travel (P2, M).
+    i18n option: Phase 3 regions (11 region pages fr+de) or Phase 4 attractions batches.
 
 Notes: iter 315 RESEARCH · research-315:
   Mode RESEARCH (315%5==0). Scanned competitor SEO patterns + SERP gaps not yet in backlog.

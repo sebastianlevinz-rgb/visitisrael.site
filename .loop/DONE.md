@@ -613,3 +613,6 @@ guides. 3× affiliate CTAs, 6 FAQs, cross-link from /jerusalem region page.
 /best-hotels-haifa — Best hotels in Haifa guide (German Colony Colony Hotel boutique, Dan Carmel
 ridge panoramic, Port Inn budget). Completes "best hotels [city]" series. Cross-links upgraded
 in israel-accommodation-guide, haifa-travel-guide, haifa-neighborhoods-guide.
+
+## iter 316 · 2026-07-05 · sea-of-galilee-guide · SHA d9214b6
+/sea-of-galilee-guide — Complete 4-shore Kinneret circuit guide: west (Magdala archaeological site, Ginosar Jesus Boat Museum), north (Capernaum, Tabgha loaves-fishes mosaic, Mount of Beatitudes), east (Ein Gev kibbutz + ferry crossing + Kursi monastery), south (Yardenit baptism with honesty framing vs Qasr el-Yahud, Hamat Gader hot springs + Roman ruins). Beaches comparison table, cycling circuit, day-trip vs overnight planning. 3 affiliate CTAs (GYG Galilee + Viator Christian circuit + Booking Tiberias). Cross-links to tiberias-guide, sea-of-galilee-boat-tour, galilee region. 593/593 e2e pass.

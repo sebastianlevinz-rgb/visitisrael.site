@@ -5873,3 +5873,9 @@ De-duplication: 40+ candidate topics swept via Python3 regex against BACKLOG.md 
 Added to BACKLOG: (1) /israel-orthodox-jewish-travel P2 M — kosher/observant diaspora travel logistics; (2) /zionist-heritage-trail P2 S — self-drive founding-sites circuit; (3) /israel-memorial-sites P2 M — multi-site legacy tourism guide (Oct 7 sites excluded pending human review); (4) /new-years-eve-israel P3 S — "Sylvester" NYE guide; (5) /israel-tourist-scams P3 S — practical scam avoidance; (6) /israel-spring-break P3 S — US/EU uni students March–April.
 Gate: N/A (research only — no src/ changes).
 NEXT: iter 316 → BUILD monetization rotation. Top candidates: sea-of-galilee-guide, backpacking-israel, self-drive-road-trip, accessible-travel-israel, israel-orthodox-jewish-travel, israel-memorial-sites.
+
+## 2026-07-05T18:45Z · iter 316 · BUILD monetization · sea-of-galilee-guide
+What: New /sea-of-galilee-guide — comprehensive 4-shore Kinneret circuit guide covering west shore (Magdala, Ginosar), north shore (Capernaum, Tabgha, Mount of Beatitudes), east shore (Ein Gev, Kursi), south shore (Yardenit, Hamat Gader). Beaches table, cycling circuit (~65km), affiliate CTAs (GYG + Viator + Booking.com). Cross-links added to tiberias-guide, sea-of-galilee-boat-tour, and galilee region page.
+Gate: pnpm check 0 errors · build 462 pages (+1) · 593/593 e2e+a11y pass. GREEN.
+Ship: committed d9214b6 to master; pushed origin/master. CI in_progress at commit (standard).
+NEXT: iter 317 → BUILD seo-content (317%5==2). Top candidates: backpacking-israel, self-drive-road-trip, accessible-travel-israel, haifa-travel-guide, eilat-travel-guide.
