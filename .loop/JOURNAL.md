@@ -5768,3 +5768,29 @@ Gate: pnpm check 0 errors (119 files) · build 458 pages (+1) · 593/593 e2e+a11
 Ship: squash-merged to master 7c67a4e; pushed origin/master; CI in_progress at push (standard).
 Prod: prior 2 CI runs both success (5bf7413, f862a88); confident.
 NEXT: iter 309 → REVIEW mode (309%5==4). Audit iters 305-308 output.
+
+## 2026-07-05T11:40Z · iter 309 · REVIEW · review-309-desc-fix
+What: audited iter306-308 guides — latrun-guide, dead-sea-medical-tourism, zichron-yaakov-guide.
+  Checks: title length (≤65), description length (≤160), all internal links resolve, hero+CTA
+  images exist, no H1 in body, honesty framing, EU insurance claims accuracy.
+Findings:
+  (1) BUG: latrun-guide.md description 164 chars (>160). FIXED: removed 'the ' before 'Trappist'
+      → 160 chars exactly.
+  (2) BUG: zichron-yaakov-guide.md description 184 chars (>160). FIXED: rewritten to
+      "Zichron Yaakov: Israel's oldest wine village, founded 1882. Carmel Winery tastings,
+      Hameyasdim Street, Ramat Hanadiv gardens, Nili spy museum." → 142 chars.
+  (3) CLEAN: dead-sea-medical-tourism.md — title 63 chars ✓, desc 160 chars ✓ (exactly at limit);
+      all internal links (ein-gedi-guide, dead-sea-guide, dead-sea-hotels-guide, israel-wellness-spa)
+      resolve; hero + CTA images exist; no H1 in body; EU insurance claims framed with appropriate
+      caveats ("has historically covered," "varies by insurer," pre-authorisation required);
+      no fabricated data.
+  (4) CLEAN: latrun-guide.md — all 8 internal links resolve; all 3 hero/CTA images exist;
+      no H1 in body; honesty framing correct (no fabricated prices as exact, range framing used).
+  (5) CLEAN: zichron-yaakov-guide.md — all 6 internal links resolve; all hero images exist;
+      no H1 in body; Carmel Winery tasting prices framed as approximate (₪50–80) with booking link.
+Gate: pnpm check 0 errors (119 files) · build 458 pages · 593/593 e2e+a11y pass. GREEN.
+Ship: committed 08cd250 to master; pushed origin/master; CI in_progress at push (standard).
+Prod: prior CI runs success for ba7c04df; confident.
+NEXT: iter 310 → BUILD (310%5==0 → RESEARCH mode). Candidates: competitor scan for profitable
+  patterns not yet in backlog; check galilee-wine-trail + sea-of-galilee-guide progress; review
+  backlog for items aging >3 months; fall/winter 2026-2027 season content gaps; new format ideas.

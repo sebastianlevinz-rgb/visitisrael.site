@@ -1,13 +1,28 @@
 # LOOP STATE
 
-- iteration: 308
-- lastMode: BUILD (308%5==3 → tools rotation → tools exhausted → fallthrough to seo-content)
-- lastItem: zichron-yaakov-guide — new /zichron-yaakov-guide; Rothschild wine village 1882; Carmel Winery; Ramat Hanadiv gardens; Nili spy museum; Hameyasdim Street; 7 FAQs; GYG+DiscoverCars+Booking CTAs; 458 pages; 593/593 pass
-- lastResult: SHIPPED 7c67a4e — CI in_progress at state-update time (prior 2 runs success for 5bf7413 and f862a88)
-- nextRotationCategory: 309%5==4 → REVIEW mode
+- iteration: 309
+- lastMode: REVIEW (309%5==4)
+- lastItem: review-309-desc-fix — audited latrun-guide+dead-sea-medical-tourism+zichron-yaakov-guide; fixed 2 description overflows (164→160 latrun, 184→142 zichron); all links/images/H1/honesty clean; 458 pages; 593/593 pass
+- lastResult: SHIPPED 08cd250 — CI in_progress at state-update time (prior run ba7c04df success)
+- nextRotationCategory: 310%5==0 → RESEARCH mode
 - higgsfieldSpent: 0
-- updatedAt: 2026-07-05T10:45Z
+- updatedAt: 2026-07-05T11:40Z
 - branch context: work on master; feature work on auto/<slug>
+
+Notes: iter 309 REVIEW · review-309-desc-fix:
+  Mode REVIEW (309%5==4). Audited iters 306-308 output (latrun-guide, dead-sea-medical-tourism,
+  zichron-yaakov-guide). Two SEO desc overflows found and fixed:
+  (1) latrun-guide.md: 164→160 chars (removed 'the ' before 'Trappist monastery winery').
+  (2) zichron-yaakov-guide.md: 184→142 chars (rewritten: "Zichron Yaakov: Israel's oldest wine
+      village, founded 1882. Carmel Winery tastings, Hameyasdim Street, Ramat Hanadiv gardens,
+      Nili spy museum.").
+  All internal links, hero/CTA images, H1 checks, honesty framing clean for all three guides.
+  dead-sea-medical-tourism EU insurance claims well-caveated; no fabricated data detected.
+  Gate: pnpm check 0 errors (119 files) · build 458 pages · 593/593 e2e+a11y pass. GREEN.
+  Ship: committed 08cd250 to master; pushed origin/master.
+  NEXT: iter 310 → RESEARCH mode (310%5==0). Candidates: competitor scan for profitable new
+    patterns; galilee-wine-trail + sea-of-galilee-guide (P2, M backlog items); fall/winter 2026
+    season gaps; new comparison format opportunities; check backlog aging items.
 
 Notes: iter 308 BUILD (tools→seo-content fallthrough) · zichron-yaakov-guide:
   Mode BUILD (308%5==3 → tools rotation). Tools category exhausted (all 11 items SHIPPED); technical
