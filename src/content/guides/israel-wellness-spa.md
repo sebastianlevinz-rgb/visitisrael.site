@@ -71,7 +71,7 @@ The beach ritual accompanying a float is the black mineral mud application. Dead
 
 **Ein Bokek** is the resort hub — a concentrated strip of hotels at the southern end of the Israeli shore, each with a private beach, thermal pools, spa facilities and mud stations. Hotel guests use the resort beach; some hotels sell day-passes to non-guests (₪100–200 range — check directly with the hotel, as this policy and pricing varies). For overnight visitors, the spa hotels at Ein Bokek represent Israel's most developed wellness offering: mineral pools, saline pools at various concentrations, Dead Sea mud wraps, and professional treatment programmes.
 
-For a more complete guide to Ein Bokek hotels, seasonal pricing and tips on combining the Dead Sea with Masada, see the [Dead Sea visitor guide](/dead-sea-guide) and [Dead Sea hotels guide](/dead-sea-hotels-guide).
+For a more complete guide to Ein Bokek hotels, seasonal pricing and tips on combining the Dead Sea with Masada, see the [Dead Sea visitor guide](/dead-sea-guide) and [Dead Sea hotels guide](/dead-sea-hotels-guide). If you are travelling specifically to treat psoriasis, eczema or vitiligo, our [Dead Sea medical tourism guide](/dead-sea-medical-tourism) covers the full clinical picture: the UVB mechanism behind the therapeutic effect, 3–4 week medical stay logistics, hotel clinics in Ein Bokek and EU health insurance reimbursement pathways.
 
 ---
 
