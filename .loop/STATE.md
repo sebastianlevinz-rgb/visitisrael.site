@@ -1,13 +1,35 @@
 # LOOP STATE
 
-- iteration: 299
-- lastMode: REVIEW (299%5==4)
-- lastItem: review-299-fixes (audit of iters 296–298 output: maccabiah-games-2026, israel-hidden-gems, jerusalem-nightlife)
-- lastResult: SHIPPED — 3 content fixes; commit 88f467a; 453 pages (unchanged); 591/591 e2e pass; GREEN gate; CI in_progress at ship time (standard)
-- nextRotationCategory: 300%5==0 → RESEARCH
+- iteration: 300
+- lastMode: RESEARCH (300%5==0)
+- lastItem: research-300 (competitor gap scan; 6 net-new backlog items added)
+- lastResult: RESEARCH COMPLETE — 6 new items added to BACKLOG.md; no code changes; no gate run; COMPETITORS.md updated; memory files committed
+- nextRotationCategory: 301%5==1 → BUILD (monetization)
 - higgsfieldSpent: 0
-- updatedAt: 2026-07-05T01:40Z
+- updatedAt: 2026-07-05T02:30Z
 - branch context: work on master; feature work on auto/<slug>
+
+Notes: iter 300 RESEARCH — research-300:
+  Mode RESEARCH (300%5==0). Backlog at iter300 extremely saturated (195+ items from 60+ research passes).
+  Systematic grep de-duplication required across 30+ candidate topics before confirming 6 genuine new gaps.
+  Research methods: local grep across 711-line BACKLOG.md + background web-search agent scanning competitors.
+  Net-new items added (all verified 0 hits in BACKLOG.md before adding):
+  1. /safed-klezmer-festival (P2, S) — annual klezmer festival in Safed; 0 klezmer hits confirmed
+  2. /galilee-vs-golan-weekend (P2, S) — comparison format; 0 Galilee vs Golan comparison items confirmed
+  3. /dead-sea-vs-eilat (P2, S) — comparison format; 0 Dead Sea vs Eilat comparison items confirmed
+  4. /tel-dan-nature-reserve (P2, S) — standalone nature reserve guide; 0 tel-dan hits confirmed
+  5. /israel-multigenerational-travel (P3, M) — 3-gen family travel; 0 multigenerational hits confirmed
+  6. /jewish-quarter-jerusalem (P3, S) — archaeological dimension of Jewish Quarter; 0 standalone guide
+  De-duped and skipped: israel-honeymoon (iter20), bachelorette (iter105), south-israel-itinerary (iter100),
+    sports-events-israel (iter50), digital-nomad (iter30), northern-israel-road-trip (iter145),
+    schottenstein-campus (iter235), israel-in-winter (SHIPPED iter292), haifa-food-guide (backlog),
+    archaeological campus (backlog iter235), tel-aviv-budget (iter240), ein-gedi (SHIPPED iter232).
+  Gate: N/A (research only — no code changes, no branch, no gate run).
+  NEXT: iter 301 → BUILD (301%5==1 → monetization rotation). Top P1/P2 monetization BUILD candidates:
+    egypt-jordan-israel-itinerary (P2 M), dead-sea-hotels-guide (P2 S), israel-galilee-agritourism (P2 M),
+    israel-zimmer-guide (P2 M), galilee-vs-golan-weekend (P2 S — new, comparison = fast S-effort).
+    i18n rotation: ~every other BUILD iter → Phase 3 regions (11 region pages in fr+de) or remaining
+    untranslated EN guides. Check I18N-PLAN.md for current batch status before BUILD.
 
 Notes: iter 299 REVIEW — review-299-fixes:
   Mode REVIEW (299%5==4). Audited iters 296–298 output: maccabiah-games-2026,

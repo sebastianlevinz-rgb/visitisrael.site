@@ -3586,3 +3586,20 @@ Backlog extremely saturated at ~187 ready items (post-iter280 additions). Strate
 1. `/israel-golf-guide` (P3, S, seo-content+monetization) — Caesarea Golf Club; Rolex World Top 1000; Pete Dye 18-hole design; Israel's only international course
 2. `/ein-hod-artists-village` (P3, S, seo-content+monetization) — Marcel Janco 1953; 150 artists; 18 galleries; Janco Dada Museum; Nisco Museum of Mechanical Music; Mount Carmel
 3. `/israel-escape-rooms` (P3, S, seo-content) — 50+ escape rooms; escaperoom.co.il largest chain; zero prior backlog coverage confirmed by grep
+
+## iter 300 (2026-07-05) — Competitor scan for iter 300 RESEARCH pass
+
+**New sources scanned this iteration:**
+
+- **honeymoonisrael.org** — dedicated Israel honeymoon tour operator; confirmed our honeymoon guide (iter20 backlog) is the right strategic response; their content is operator-focused (packages) not editorial; good affiliate model precedent for our guide
+- **bneimitzvahtrip.com** — bar/bat mitzvah travel specialists; publish "Israel Intergenerational Travel: Family Guide 2026" — this confirmed the multigenerational travel gap (/israel-multigenerational-travel added to backlog); no Israel travel editorial site has comprehensive multi-gen content
+- **safedklezmer.co.il** — official Safed Klezmer Festival site; confirmed festival is annual, free admission, late July/August, ~30,000–40,000 visitors; zero competitor travel editorial guide for this specific event (only brief mentions in city-guide roundups)
+- **jewishquarter.org.il** — official Jewish Quarter Development Company; confirmed Cardo + Burned House + Wohl Museum are the three archaeological anchors distinct from prayer sites covered by the synagogues guide
+
+**Key competitor observations this iteration:**
+- **Comparison pages are underserved**: tel-aviv-vs-jerusalem.md already ranks well; confirmed no competitor has a dedicated "Galilee vs Golan" or "Dead Sea vs Eilat" comparison editorial page
+- **Tel Dan Nature Reserve**: inpa.gov.il has full content; hike-israel.com and touristisrael.com both have dedicated Tel Dan guides; zero equivalent on our site
+- **Multi-generational travel**: only bneimitzvahtrip.com has dedicated Israel multi-gen editorial; a genuine content white-space in the Israel travel category
+
+**Topics confirmed already covered (de-dup):**
+- Israel honeymoon (BACKLOG iter20), bachelorette/girls trip (BACKLOG iter105), digital nomad (BACKLOG iter30), marathons/sports events (BACKLOG iter50), northern Israel road trip (BACKLOG iter145), Schottenstein archaeology campus (BACKLOG iter235), israel-in-winter (SHIPPED iter292), haifa food guide (BACKLOG), tel-aviv-budget (BACKLOG iter240), ein-gedi (SHIPPED iter232)

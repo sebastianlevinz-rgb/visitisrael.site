@@ -5609,3 +5609,25 @@ Gate: pnpm check 0 errors (119 files) · build 453 pages · 591/591 e2e+a11y pas
 Ship: commit 88f467a on master; pushed origin/master.
 Prod: Lighthouse + CI workflows in_progress at push time (normal).
 Next: iter 300 → RESEARCH mode (300%5==0).
+
+## 2026-07-05 · iter 300 · RESEARCH · research-300
+What: Competitor gap scan at backlog saturation milestone (iter 300). Systematic grep
+de-duplication across 30+ candidate topics. Background web-search agent scanned
+touristisrael.com, honeymoonisrael.org, bneimitzvahtrip.com, lonelyplanet.com,
+timeout.com/israel, tripadvisor.com, backpackisrael.com, takeyourbackpack.com,
+inpa.gov.il, jewishquarter.org.il, safedklezmer.co.il.
+6 net-new items added to BACKLOG.md (all confirmed 0 hits before adding):
+  1. /safed-klezmer-festival (P2, S) — annual klezmer festival, 30k–40k visitors, Aug Safed
+  2. /galilee-vs-golan-weekend (P2, S) — comparison page, proven format, car-rental monetization
+  3. /dead-sea-vs-eilat (P2, S) — comparison page, high-commission resort bookings
+  4. /tel-dan-nature-reserve (P2, S) — bamboo forest + House of David stele, 0 backlog hits
+  5. /israel-multigenerational-travel (P3, M) — 3-gen family/reunion market, private tour affiliate
+  6. /jewish-quarter-jerusalem (P3, S) — Cardo + Burned House + Wohl Museum archaeological angle
+De-duped (already in backlog or DONE): israel-honeymoon (iter20), bachelorette (iter105),
+  south-israel-itinerary (iter100), sports-events-israel (iter50), digital-nomad (iter30),
+  northern-israel-road-trip (iter145), schottenstein-campus (iter235), israel-in-winter
+  (SHIPPED iter292), haifa-food-guide (backlog), tel-aviv-budget (iter240), ein-gedi (SHIPPED iter232).
+Gate: N/A (research only).
+Ship: git add .loop/ && commit docs(loop) → pushed origin/master.
+Next: iter 301 → BUILD (301%5==1 → monetization). Candidates: egypt-jordan-israel-itinerary,
+  dead-sea-hotels-guide, galilee-vs-golan-weekend (new, S-effort comparison page).
