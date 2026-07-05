@@ -1,6 +1,6 @@
 ---
 title: 'Latrun: Tank Museum, Monastery & Mini Israel Guide (2026)'
-description: 'Visit Latrun on Route 1 between Tel Aviv and Jerusalem: Yad La-Shiryon armored museum, the Trappist monastery winery, and Mini Israel — one stop, three experiences.'
+description: 'Visit Latrun on Route 1 between Tel Aviv and Jerusalem: Yad La-Shiryon armored museum, Trappist monastery winery, and Mini Israel — one stop, three experiences.'
 heroImage: /images/regions/jerusalem/hero.jpg
 category: Destinations
 updatedAt: 2026-07-05

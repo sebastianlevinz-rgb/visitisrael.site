@@ -1,6 +1,6 @@
 ---
 title: "Zichron Yaakov: Israel's Rothschild Wine Village Guide (2026)"
-description: "Visit Zichron Yaakov — Israel's oldest wine village, founded 1882 by Baron Rothschild. Cobbled Hameyasdim Street, Carmel Winery tastings, Ramat Hanadiv gardens and the Nili spy museum."
+description: "Zichron Yaakov: Israel's oldest wine village, founded 1882. Carmel Winery tastings, Hameyasdim Street, Ramat Hanadiv gardens, Nili spy museum."
 heroImage: /images/regions/haifa/carmel.jpg
 category: Destinations
 updatedAt: 2026-07-05
