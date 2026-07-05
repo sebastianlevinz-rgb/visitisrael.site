@@ -1,6 +1,6 @@
 ---
 title: 'Jerusalem Nightlife: Bars, Music Venues & Evening Guide (2026)'
-description: 'Jerusalem nightlife guide: Mahane Yehuda at night, German Colony wine bars, Yellow Submarine music venue, Mamilla Mirror Bar, and practical Shabbat timing advice.'
+description: 'Jerusalem nightlife guide: Mahane Yehuda at night, German Colony wine bars, Yellow Submarine music venue, Mamilla Mirror Bar, and Shabbat timing.'
 heroImage: /images/sub-destinations/jerusalem/mahane-yehuda.jpg
 category: Nightlife
 updatedAt: 2026-07-05

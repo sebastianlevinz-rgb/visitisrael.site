@@ -49,7 +49,7 @@ Most first-time visitors to Israel move along a well-worn triangle: Jerusalem's 
 
 **Why it is overlooked:** Most Golan tours focus on Banias waterfall and the Syrian border observation point at Mount Bental. Nimrod Fortress sits above Banias and takes only 90 minutes to explore — but rarely appears on standard itineraries.
 
-**Practical:** Open daily; entrance via the Israel Nature and Parks Authority pass or a single-entry ticket. The site is hilly but paths are marked; wear shoes with grip. Combine naturally with [Banias waterfall](/caesarea-guide) and the [Druze villages of the Carmel](/druze-villages-carmel) on a two-day Golan circuit. A [rental car](/car-rental-israel) is essential — no bus reaches the site.
+**Practical:** Open daily; entrance via the Israel Nature and Parks Authority pass or a single-entry ticket. The site is hilly but paths are marked; wear shoes with grip. Combine naturally with [Banias waterfall](/golan-heights-guide) and the [Druze villages of the Carmel](/druze-villages-carmel) on a two-day Golan circuit. A [rental car](/car-rental-israel) is essential — no bus reaches the site.
 
 ---
 
