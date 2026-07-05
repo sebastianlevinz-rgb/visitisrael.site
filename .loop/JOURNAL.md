@@ -5742,3 +5742,16 @@ NEXT: iter 307 → REVIEW (307%5==2 → BUILD, seo-content rotation; but check: 
   Top seo-content candidates: latrun-guide (P2, S — Route 1 corridor), zichron-yaakov-guide (P2, S),
   sea-of-galilee-guide (P2, M), self-drive-road-trip (P2, M), accessible-travel (P2, M).
   i18n check: i18n Phase 3 (regions fr+de) remains P2 ready — consider for iter307 or 308 BUILD.
+
+## 2026-07-05T09:40Z · iter 307 · BUILD (seo-content) · latrun-guide
+What: New /latrun-guide — Route 1 corridor between Tel Aviv and Jerusalem covering 3 co-located
+  attractions with zero prior editorial coverage: Yad La-Shiryon Armored Corps Museum (200+ AFVs,
+  1948 Battle of Latrun history, Burma Road story), the 1890 Trappist Monastery (kosher wine +
+  olive oil), and Mini Israel (350+ 1:25 scale models). 7 FAQs, 3 affiliate CTAs (GYG + Viator +
+  DiscoverCars). Cross-links added to day-trips-from-tel-aviv, day-trips-from-jerusalem,
+  israel-agritourism-guide. YAML fix: Sha'ar HaGai apostrophe inside single-quoted string
+  → switched to double-quoted.
+Gate: pnpm check 0 errors · build 457 pages (+1) · 593/593 e2e+a11y pass. GREEN.
+Ship: squash-merged to master f862a88; pushed origin/master; CI in_progress at push (standard).
+NEXT: iter 308 → BUILD (308%5==3 → tools rotation). Top candidates: interactive tools backlog
+  items or zichron-yaakov-guide (P2, S) as seo-content fallthrough if tools are L-effort.

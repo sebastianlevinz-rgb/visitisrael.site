@@ -1,13 +1,38 @@
 # LOOP STATE
 
-- iteration: 306
-- lastMode: BUILD (306%5==1 → monetization rotation)
-- lastItem: dead-sea-medical-tourism — new /dead-sea-medical-tourism guide; UVB mechanism, 3-4 week stays, hotel clinics, EU insurance (GKV/Danish/Swiss); Booking.com + GYG CTAs; 456 pages; 593/593 pass
-- lastResult: SHIPPED 6e003dc — Lighthouse success; CI in_progress at state-update time
-- nextRotationCategory: 307%5==2 → BUILD (seo-content rotation)
+- iteration: 307
+- lastMode: BUILD (307%5==2 → seo-content rotation)
+- lastItem: latrun-guide — new /latrun-guide; Yad La-Shiryon tank museum, Trappist monastery winery, Mini Israel; Route 1 corridor; 7 FAQs; GYG+Viator+DiscoverCars CTAs; 457 pages; 593/593 pass
+- lastResult: SHIPPED f862a88 — CI in_progress at state-update time (prior 2 runs success)
+- nextRotationCategory: 308%5==3 → BUILD (tools rotation)
 - higgsfieldSpent: 0
-- updatedAt: 2026-07-05T08:50Z
+- updatedAt: 2026-07-05T09:40Z
 - branch context: work on master; feature work on auto/<slug>
+
+Notes: iter 307 BUILD (seo-content) · latrun-guide:
+  Mode BUILD (307%5==2 → seo-content). Picked latrun-guide (P2, S) — Route 1 corridor cluster
+  between Tel Aviv and Jerusalem with zero prior editorial coverage on the site.
+  New guide: /latrun-guide. Content: Yad La-Shiryon Armored Corps Museum (200+ AFVs, one of
+  largest in Middle East, site of the decisive 1948 Battle of Latrun — multiple IDF assaults repulsed
+  by Jordanian Arab Legion guarding the Jerusalem road; Burma Road workaround story); Trappist
+  Monastery founded 1890 by French Cistercian monks (kosher wine + olive oil shop, open Mon-Sat);
+  Mini Israel (350+ scale models at 1:25, family-oriented, summer evening visits); combined visit
+  planning (all 3 sites within 3 km of each other at the Latrun junction on Route 3/Route 1);
+  driving from Tel Aviv (~40 min) and Jerusalem (~35 min); public transport note (limited — car or
+  guided tour recommended); seasonal planning; 7 FAQs. Affiliate CTAs: GYG guided tours +
+  Viator private tours + DiscoverCars self-drive (car rental essential for Latrun).
+  Cross-links added from: day-trips-from-tel-aviv.md, day-trips-from-jerusalem.md,
+  israel-agritourism-guide.md. Dense internal links in body: car-rental-israel, transportation,
+  israel-wine-wineries, best-tours-in-israel, itineraries.
+  YAML bug fixed: Sha'ar HaGai apostrophe in single-quoted YAML broke frontmatter; switched to
+  double-quoted answer string for the Jerusalem FAQ.
+  Gate: pnpm check 0 errors (119 files) · build 457 pages (+1) · 593/593 e2e+a11y pass. GREEN.
+  Ship: squash-merged to master f862a88; pushed origin/master.
+  Prod: CI in_progress at state-update (prior 2 CI runs success — b9d4e8b, 6e003dc both success).
+  NEXT: iter 308 → BUILD (308%5==3 → tools rotation). Top tools candidates: free-day-trip-planner
+    (P2, M — interactive day-trip composer), israel-visa-checker (P2, S — interactive ETA/visa
+    tool), itinerary-builder-premium (P2, L). Also eligible: i18n Phase 3 (regions fr+de) or
+    continuing batch 18 remainder. zichron-yaakov-guide (P2, S) remains next seo-content candidate.
 
 Notes: iter 306 BUILD (monetization) · dead-sea-medical-tourism:
   Mode BUILD (306%5==1 → monetization). Picked dead-sea-medical-tourism (P2, M) — highest
