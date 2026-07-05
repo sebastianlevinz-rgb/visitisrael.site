@@ -37,7 +37,7 @@ The cool, terraced hills west and south of [Jerusalem](/jerusalem) have become a
 
 ### Shomron & Mount Carmel
 
-The historic heartland around [Haifa](/haifa) and Mount Carmel, where the modern industry began. Larger producers and a long tradition; convenient if you're already exploring the [Carmel](/haifa) region or the coast.
+The historic heartland around [Haifa](/haifa) and Mount Carmel, where the modern industry began. Larger producers and a long tradition; convenient if you're already exploring the [Carmel](/haifa) region or the coast. The [Zichron Yaakov](/zichron-yaakov-guide) wine village — founded by Baron Rothschild in 1882 — is the most visitor-friendly entry point, home to the Carmel Winery visitor centre and a cluster of boutique producers.
 
 ### The Negev
 

@@ -105,7 +105,7 @@ See the [Akko travel guide](/akko-acre-guide) for the full visitor guide to the 
 
 ### Caesarea + Zichron Yaakov (archaeology + wine)
 
-[Zichron Yaakov](https://en.wikipedia.org/wiki/Zichron_Yaakov) is a Rothschild-era winery village 20 minutes north of Caesarea — the cobbled main street, 19th-century German Templar buildings and the Carmel Winery tasting cellar (Israel's largest winery, founded by Baron Edmond de Rothschild in 1882) make a calm contrast to the archaeology. The Binyamina and Zichron Yaakov area has several boutique wineries open for tasting; call ahead or book online as opening hours vary.
+[Zichron Yaakov](/zichron-yaakov-guide) is a Rothschild-era winery village 20 minutes north of Caesarea — the cobbled Hameyasdim Street, Carmel Winery tasting cellar (Israel's oldest winery, founded by Baron Edmond de Rothschild in 1882) and the free Ramat Hanadiv memorial gardens make a calm contrast to the archaeology. The Binyamina and Zichron Yaakov area has several boutique wineries open for tasting; call ahead or book online as opening hours vary.
 
 ---
 
