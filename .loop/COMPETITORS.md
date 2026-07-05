@@ -3631,3 +3631,34 @@ Backlog extremely saturated at ~187 ready items (post-iter280 additions). Strate
 3. `/latrun-guide` (P2, S, seo-content+monetization) — Route 1 corridor cluster; Trappist monastery + Latrun wine; Yad La-Shiryon tank museum (150+ AFVs); Mini Israel; completely unserved despite prime Route 1 location
 4. `/galilee-wine-trail` (P3, M, seo-content+monetization) — Upper Galilee wine sub-region; Dalton + Galil Mountain + Adir + Lueria; self-drive 2-day circuit; distinct from Golan Heights wineries
 5. `/sea-of-galilee-guide` (P2, M, seo-content+monetization) — full lake circuit (all 4 shores); beaches ranked; Christian sites perimeter circuit; cycling guide; fishing; Hamat Gader hot springs; extends tiberias-guide.md to the whole lake
+
+## iter 310 (2026-07-05) — Competitor scan for iter 310 RESEARCH pass
+
+**Research approach:** Focused on Jerusalem-specific content gaps and city hotel guide completion.
+De-duplication was the primary challenge this iteration — backlog saturation required checking every
+candidate against existing items before confirming any new gap.
+
+**New sources scanned this iteration:**
+
+- **backpackisrael.com/walking-the-via-dolorosa-in-jerusalem** — dedicated Via Dolorosa station guide (the benchmark for what ours should match); station-by-station format; practical timing tips; mentions Franciscan Friday procession; confirms no equivalent exists in our content
+- **laidbacktrip.com/posts/via-dolorosa-jerusalem-walking-guide** — similar format; useful for SEO keyword confirmation ("14 stations of the cross Jerusalem self-guided")
+- **franciscan.org/via-dolorosa** — official Franciscan Custody of the Holy Land source; used for accuracy of station locations and procession schedule
+- **timeout.com/israel/best-hotels-in-jerusalem** — confirms Jerusalem hotel roundup is a well-ranking editorial category; neighbourhood framing (Mamilla, German Colony, East Jerusalem) matches our planned structure
+- **lonelyplanet.com/articles/best-hotels-in-jerusalem** — tier-based hotel picks; confirms American Colony Hotel + Mamilla Hotel as the two anchor properties for luxury/upper-mid coverage
+- **backpackisrael.com/jerusalem-hop-on-hop-off-bus-tour** — practical HOHO bus guide; confirms City Sightseeing is sole operator; confirms HOHO cannot enter Old City interior (key honesty point)
+- **city-sightseeing.com/en/43/jerusalem** — official City Sightseeing Jerusalem page; route details + stop map
+- **booking.com/city/il/haifa** — Haifa hotel inventory; confirms Colony Hotel and Dan Carmel as the two primary bookable properties; confirms price tier gap that warrants a editorial guide
+- **colonyhaifa.com** — Colony Hotel German Colony official site; confirms 1891 Templar building history + boutique positioning
+- **tripadvisor.com/Hotels-g293975-Haifa_Haifa_District** — Haifa hotel reviews; confirms Dan Carmel panoramic view positioning and Port Inn backpacker market
+
+**Key competitor observations this iteration:**
+- **Jerusalem hotels gap**: Multiple editorial travel sites (Timeout, Lonely Planet, CNN Travel, Travel+Leisure) all have dedicated Jerusalem hotel roundup pages with strong ranking authority. Our site has /where-to-stay/jerusalem (generic hub) but no neighbourhood-context hotel editorial matching competitor depth. Jerusalem is our biggest commercial miss relative to competitor coverage.
+- **Via Dolorosa standalone gap**: Every major Christian pilgrimage site operator (backpackisrael, laidbacktrip, franciscan.org, Viator) has standalone Via Dolorosa content. We have the surrounding context (Old City walking tour, Church of Holy Sepulchre) but the specific 14-station guide = white space.
+- **HOHO bus underserved**: Jerusalem HOHO is a high-conversion booking product on GYG/Viator but zero travel editorial guides it specifically and honestly (the limitation about not accessing Old City interior is rarely disclosed by competitors — an honesty differentiator).
+- **Haifa hotel gap**: Haifa receives 3rd-most international tourists in Israel after Jerusalem and TLV but has the weakest editorial hotel coverage in our "best hotels" series.
+
+**Topics confirmed already covered (de-dup rejections this iteration):**
+- Guided vs self-guided Israel (BACKLOG L411 as /guided-vs-self-guided-israel, iter160) — case-sensitive grep previously missed this; confirmed duplicate
+- Haifa general guide (haifa-travel-guide in BACKLOG — distinct from hotels guide)
+- Jerusalem Old City walking tour (SHIPPED iter186)
+- Church of Holy Sepulchre guide (SHIPPED iter187)

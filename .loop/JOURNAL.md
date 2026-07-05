@@ -5794,3 +5794,26 @@ Prod: prior CI runs success for ba7c04df; confident.
 NEXT: iter 310 → BUILD (310%5==0 → RESEARCH mode). Candidates: competitor scan for profitable
   patterns not yet in backlog; check galilee-wine-trail + sea-of-galilee-guide progress; review
   backlog for items aging >3 months; fall/winter 2026-2027 season content gaps; new format ideas.
+
+## 2026-07-05T12:30Z · iter 310 · RESEARCH · research-310
+
+Mode: RESEARCH (310%5==0). Backlog extremely saturated (200+ ready items from 62+ prior passes).
+Research approach: Python3 grep de-duplication across backlog + DONE.md cross-check + guide
+directory scan to confirm 0 standalone hits before accepting any item.
+Net-new items added (4 total):
+  1. /via-dolorosa-guide (P2, S, seo-content) — 14-station self-guided Via Dolorosa walk;
+     no standalone guide exists; high Christian pilgrimage intent; church-holy-sepulchre-guide
+     covers only stations X-XIV inside Holy Sepulchre; backpackisrael + laidbacktrip rank.
+  2. /best-hotels-jerusalem (P2, M, seo-content+monetization) — Jerusalem hotel picks by
+     neighbourhood; completes "best hotels [city]" series; highest ADR city in Israel;
+     Booking.com top conversion opportunity; distinct from where-to-stay/jerusalem hub.
+  3. /jerusalem-hop-on-hop-off (P3, S, seo-content) — City Sightseeing Jerusalem bus guide;
+     zero equivalent on site; backpackisrael + travelers.co.il rank; honest about HOHO limits.
+  4. /best-hotels-haifa (P2, S, seo-content+monetization) — completes "best hotels" series;
+     German Colony/Colony Hotel/Dan Carmel; Bahá'í Gardens proximity gap filled.
+Rejected as duplicate: /israel-guided-vs-independent — already exists at BACKLOG L411 as
+  /guided-vs-self-guided-israel (iter160 research); case-sensitive grep missed it previously.
+Gate: N/A — research only, no code changes, no branch.
+NEXT: iter 311 → BUILD (311%5==1 → monetization rotation).
+  Top candidates: best-hotels-jerusalem (P2, M — just added), passover-in-israel (P2, S),
+  day-trips-from-eilat (P2, M).

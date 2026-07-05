@@ -1,13 +1,38 @@
 # LOOP STATE
 
-- iteration: 309
-- lastMode: REVIEW (309%5==4)
-- lastItem: review-309-desc-fix — audited latrun-guide+dead-sea-medical-tourism+zichron-yaakov-guide; fixed 2 description overflows (164→160 latrun, 184→142 zichron); all links/images/H1/honesty clean; 458 pages; 593/593 pass
-- lastResult: SHIPPED 08cd250 — CI in_progress at state-update time (prior run ba7c04df success)
-- nextRotationCategory: 310%5==0 → RESEARCH mode
+- iteration: 310
+- lastMode: RESEARCH (310%5==0)
+- lastItem: research-310 — 4 net-new backlog items added; via-dolorosa-guide (P2,S), best-hotels-jerusalem (P2,M), jerusalem-hop-on-hop-off (P3,S), best-hotels-haifa (P2,S); 1 candidate rejected as duplicate (guided-vs-self-guided already at backlog L411)
+- lastResult: N/A (research only — no code changes, no branch, no gate run)
+- nextRotationCategory: 311%5==1 → monetization rotation
 - higgsfieldSpent: 0
-- updatedAt: 2026-07-05T11:40Z
+- updatedAt: 2026-07-05T12:30Z
 - branch context: work on master; feature work on auto/<slug>
+
+Notes: iter 310 RESEARCH — research-310:
+  Mode RESEARCH (310%5==0). Backlog extremely saturated (200+ ready items from 62+ research passes).
+  Systematic grep de-duplication using Python3 + DONE.md cross-check + guide directory scan before
+  confirming any item as genuinely new.
+  Net-new items added (all grep-confirmed 0 standalone hits before adding):
+  1. /via-dolorosa-guide (P2, S, seo-content) — 14-station self-guided Via Dolorosa walk;
+     backpackisrael.com + laidbacktrip.com both rank; church-holy-sepulchre-guide covers only
+     stations X-XIV; no standalone station guide exists; Christian pilgrimage high intent
+  2. /best-hotels-jerusalem (P2, M, seo-content+monetization) — Jerusalem hotel picks by
+     neighbourhood; completes the "best hotels [city]" series (TLV iter243, Eilat iter241,
+     Dead Sea iter247); Jerusalem = highest hotel ADR city in Israel; Booking.com top conversion
+  3. /jerusalem-hop-on-hop-off (P3, S, seo-content) — City Sightseeing Jerusalem bus practical
+     guide; backpackisrael.com + travelers.co.il rank; zero equivalent on site; honest about
+     HOHO not accessing Old City interior
+  4. /best-hotels-haifa (P2, S, seo-content+monetization) — completes "best hotels" series for
+     Haifa; German Colony / Colony Hotel / Dan Carmel; Bahá'í Gardens hotel proximity gap
+  Rejected as duplicate: /israel-guided-vs-independent (guided vs self-guided already exists
+     at backlog L411 as /guided-vs-self-guided-israel from iter160 research).
+  Gate: N/A (research only — no code changes, no branch, no gate run).
+  NEXT: iter 311 → BUILD (311%5==1 → monetization rotation). Top P1/P2 monetization BUILD
+    candidates: best-hotels-jerusalem (P2, M — just added, highest ADR city, top Booking.com
+    conversion), passover-in-israel (P2, S — high commercial intent, pesach programs), day-trips-
+    from-eilat (P2, M), israel-startup-tech-tour (P3, M), extended-stay-israel (P3, M).
+    i18n rotation: check I18N-PLAN.md for current batch status before BUILD.
 
 Notes: iter 309 REVIEW · review-309-desc-fix:
   Mode REVIEW (309%5==4). Audited iters 306-308 output (latrun-guide, dead-sea-medical-tourism,
@@ -222,4 +247,4 @@ Notes: iter 299 REVIEW — review-299-fixes:
 
 Cron b7325b16 hourly @ :17. Loop history: 19 tools + sitemap-lastmod + link-checker(+depth) + i18n
 Phase0/1a/1b/1c/2 Batches1-18(COMPLETE) + 33 review passes + 3 technical (event-schema + meta-trim + locale-links) + 35 EN guides + 4 tools-monetization;
-research iters 5/10/20/30/35/40/45/50/55/60/65/70/75/80/85/90/95/100/105/110/115/120/125/130/135/140/145/150/155/160/165/170/175/180/185/190/195/200/205/210/215/220/225/230/235/240/245/250/255/260/265/270/275/280/285/290/295/300/305.
+research iters 5/10/20/30/35/40/45/50/55/60/65/70/75/80/85/90/95/100/105/110/115/120/125/130/135/140/145/150/155/160/165/170/175/180/185/190/195/200/205/210/215/220/225/230/235/240/245/250/255/260/265/270/275/280/285/290/295/300/305/310.
