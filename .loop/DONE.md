@@ -608,3 +608,8 @@ guides. 3× affiliate CTAs, 6 FAQs, cross-link from /jerusalem region page.
 
 ## iter 312 — BUILD (seo-content) · via-dolorosa-guide · 086e2bb
 - /via-dolorosa-guide: 14-station self-guided Via Dolorosa walking guide; all outdoor stations I–IX (Muslim Quarter souk) + indoor X–XIV (Church of the Holy Sepulchre); Friday Franciscan procession guide (3pm, free); timing windows; 7 FAQs; GYG Via Dolorosa tour CTA + Booking.com Jerusalem hotels CTA; cross-links upgraded in 4 existing guides. SEO: "Via Dolorosa walking guide Jerusalem", "14 stations of the cross Jerusalem self-guided".
+
+## iter 313 · 2026-07-05 · best-hotels-haifa · SHA 6fcaf99
+/best-hotels-haifa — Best hotels in Haifa guide (German Colony Colony Hotel boutique, Dan Carmel
+ridge panoramic, Port Inn budget). Completes "best hotels [city]" series. Cross-links upgraded
+in israel-accommodation-guide, haifa-travel-guide, haifa-neighborhoods-guide.

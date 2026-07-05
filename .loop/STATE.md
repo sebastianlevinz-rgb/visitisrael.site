@@ -1,13 +1,39 @@
 # LOOP STATE
 
-- iteration: 312
-- lastMode: BUILD (312%5==2 → seo-content rotation)
-- lastItem: via-dolorosa-guide — /via-dolorosa-guide 14-station self-guided walking guide; station-by-station descriptions (I–XIV, outdoor + church); Friday Franciscan procession logistics; timing windows; 7 FAQs; GYG Via Dolorosa tour CTA + Booking.com Jerusalem hotel CTA; cross-links upgraded in christian-pilgrimage-holy-land, church-holy-sepulchre-guide, free-things-to-do-israel, jerusalem-old-city-walking-tour
-- lastResult: SHIPPED 086e2bb; gate GREEN (pnpm check 0 errors · build 460 pages +1 · 593/593 e2e+a11y pass); CI in_progress at commit
-- nextRotationCategory: 313%5==3 → tools rotation
+- iteration: 313
+- lastMode: BUILD (313%5==3 → tools rotation → seo-content+monetization fallthrough; tools exhausted)
+- lastItem: best-hotels-haifa — /best-hotels-haifa Haifa hotel neighbourhood guide; Colony Hotel Haifa (German Colony boutique, 1891 Templar building), Dan Carmel (ridge panoramic, pool), Port Inn Guest House (budget/backpacker); decision matrix; Shabbat-in-Haifa practical note (buses+Carmelit run Saturday); Film Festival + Bahá'í pilgrimage demand context; 6 FAQs; Booking.com Haifa CTA + GYG tours CTA; cross-links in israel-accommodation-guide, haifa-travel-guide, haifa-neighborhoods-guide
+- lastResult: SHIPPED 6fcaf99; gate GREEN (pnpm check 0 errors · build 461 pages +1 · 593/593 e2e+a11y pass)
+- nextRotationCategory: 314%5==4 → REVIEW rotation
 - higgsfieldSpent: 0
-- updatedAt: 2026-07-05T14:42Z
+- updatedAt: 2026-07-05T15:40Z
 - branch context: work on master; feature work on auto/<slug>
+
+Notes: iter 313 BUILD (tools→seo-content fallthrough) · best-hotels-haifa:
+  Mode BUILD (313%5==3 → tools rotation). Tools category exhausted (all 11 items SHIPPED per
+  iter308 note); fell through to seo-content+monetization. Picked best-hotels-haifa (P2, S)
+  — explicitly named in STATE iter312 as top seo-content candidate; completes the "best hotels
+  [city]" series (TLV iter243, Eilat iter241, Dead Sea iter247, Jerusalem iter311).
+  New guide: /best-hotels-haifa. Content: Haifa 4-zone geography (German Colony, Hadar,
+  Merkaz HaCarmel, Port/Bat Galim); hotel picks: Colony Hotel Haifa (1891 Templar stone building
+  on Louis Blvd, 39 rooms, 5-min walk to Bahá'í lower entrance, café-bar street level — boutique
+  tier ₪900–1,800); Dan Carmel Hotel (ridge perch, panoramic bay view, pool, Israeli chain
+  standard — mid-range ₪500–900); Port Inn Guest House (German Colony, backpacker dorms+privates,
+  sea-view common room, near ferry terminal — budget ₪150–400). Decision matrix 9×2 table;
+  Shabbat-in-Haifa note (buses + Carmelit operate Saturday — unique in Israel); Haifa
+  International Film Festival (October) and Bahá'í pilgrimage period demand context; 6 FAQs.
+  Affiliate CTAs: Booking.com Haifa + GYG Haifa tours. HONESTY: rates are ranges only; Colony
+  Hotel affiliate via Booking.com only; Carmelit closure days should be verified with operator;
+  never fabricated review counts or exact prices.
+  Cross-links upgraded: israel-accommodation-guide (city-specific picks sentence extended to
+  include /best-hotels-haifa), haifa-travel-guide (planning section: hotels link added alongside
+  neighborhoods guide), haifa-neighborhoods-guide (footer planning section: hotels link added).
+  Gate: pnpm check 0 errors (119 files) · build 461 pages (+1) · 593/593 e2e+a11y pass. GREEN.
+  Ship: committed 6fcaf99 to master; pushed origin/master.
+  NEXT: iter 314 → REVIEW mode (314%5==4). Candidates: audit iters 311-313 output:
+    best-hotels-jerusalem (iter311), via-dolorosa-guide (iter312), best-hotels-haifa (iter313).
+    Top picks for audit: verify all internal links, SEO meta (title ≤60 chars, desc ≤160 chars),
+    honesty framing (no fabricated prices/ratings), affiliate CTAs, JSON-LD, no H1 in body.
 
 Notes: iter 312 BUILD (seo-content) · via-dolorosa-guide:
   Mode BUILD (312%5==2 → seo-content rotation). Picked via-dolorosa-guide (P2, S) —

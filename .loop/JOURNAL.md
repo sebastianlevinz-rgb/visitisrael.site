@@ -5843,3 +5843,18 @@ Gate: pnpm check 0 errors (119 files) · build 460 pages (+1) · 593/593 e2e+a11
 Ship: committed 086e2bb to master; pushed origin/master. CI in_progress (standard; prior 2 CI
 runs both success — 148ea88, 7e100a5).
 Next: iter 313 → BUILD (313%5==3 → tools rotation).
+
+## 2026-07-05T15:40Z · iter 313 · BUILD (tools→seo-content fallthrough) · best-hotels-haifa
+What: new /best-hotels-haifa — Haifa hotel neighbourhood guide completing the "best hotels [city]"
+series. Covers: Colony Hotel Haifa (1891 Templar stone building on Louis Blvd, German Colony
+boutique tier, 5-min walk to Bahá'í lower entrance); Dan Carmel Hotel (Merkaz HaCarmel ridge,
+panoramic bay view, pool, mid-range); Port Inn Guest House (German Colony, backpacker-friendly
+budget dorms+privates near ferry terminal). Decision matrix 9×2; booking context (Haifa
+International Film Festival Oct, Bahá'í pilgrimage demand periods, Shabbat-in-Haifa note —
+buses + Carmelit operate Saturday, unique in Israel); 6 FAQs. Affiliate CTAs: Booking.com Haifa
++ GYG Haifa tours. Cross-links upgraded in israel-accommodation-guide (city-picks line), 
+haifa-travel-guide (planning section), haifa-neighborhoods-guide (footer planning para).
+Tools rotation had no remaining items (all 11 shipped per iter308) → fell through to seo-content.
+Gate: pnpm check 0 errors (119 files) · build 461 pages (+1) · 593/593 e2e+a11y pass. GREEN.
+Ship: committed 6fcaf99 to master; pushed origin/master.
+NEXT: iter 314 → REVIEW mode (314%5==4). Candidates: audit iters 311-313 output.
