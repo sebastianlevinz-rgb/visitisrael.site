@@ -53,6 +53,7 @@ faqs:
 - **[Masada](/dead-sea/masada) & the [Dead Sea](/dead-sea)** — *~2 hrs.* The desert classic; easiest by tour.
 - **[Herzliya](/herzliya-guide)** — *~20 min by Green Line light rail.* Apollonia National Park's clifftop Crusader ruins, the Marina waterfront for lunch, and Acadia Beach. One of the most undervisited INPA sites within easy reach of Tel Aviv.
 - **[Netanya](/netanya-guide)** — *~45 min by train on the coastal line.* Cliff-top promenade, 14 km of Mediterranean beach, the Stern Diamond Factory tour and a Franco-Israeli café culture unlike anywhere else in Israel.
+- **[Latrun](/latrun-guide)** — *~40 min by car, on Route 1.* The [Yad La-Shiryon tank museum](/latrun-guide) (200+ armored vehicles), the 1890 Trappist monastery winery and [Mini Israel](/latrun-guide) scale-model park — all within 3 km of each other at the Route 1 junction. A natural stop on the drive between Tel Aviv and Jerusalem.
 - **The [Galilee](/galilee) & [Nazareth](/nazareth)** — *longer.* Better with an early start or a guide.
 
 ## How to do them

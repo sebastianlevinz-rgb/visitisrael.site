@@ -140,6 +140,6 @@ For current programme details, the Israel Ministry of Tourism (tourism.gov.il) a
 
 - **North Israel road trip**: Galilee (Kfar Kedem, Neot Kedumim in spring) → Golan Heights (cherry season June, wine and views year-round) → Tiberias overnight → Sea of Galilee boat
 - **Negev circuit (autumn)**: Ben Gurion Airport → Mitzpe Ramon → Route 40 south → Arava date farms (Ketura, Lotan) → Eilat
-- **Jerusalem day combination**: Neot Kedumim + Latrun area + western approach to Jerusalem
+- **Jerusalem day combination**: Neot Kedumim + [Latrun](/latrun-guide) (Trappist winery, tank museum, Mini Israel) + western approach to Jerusalem
 
 For all north Israel routes, the [Galilee tours guide](/galilee-tours-compared) covers organised tour options if you prefer not to self-drive. Accommodation in the Galilee ranges from kibbutz guesthouses to Druze village homestays and rural zimmer lodges — a different experience from the city-hotel circuit.
