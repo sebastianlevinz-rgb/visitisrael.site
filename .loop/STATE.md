@@ -1,13 +1,50 @@
 # LOOP STATE
 
-- iteration: 319
-- lastMode: REVIEW (319%5==4)
-- lastItem: review-319 — audit iters 316-318 (sea-of-galilee-guide, backpacking-israel, israel-road-trip); SHA 5d1c321
-- lastResult: GREEN — pnpm check 0 errors · build 464 pages · 593/593 e2e pass; 2 link bugs fixed
-- nextRotationCategory: 320%5==0 → RESEARCH mode
+- iteration: 320
+- lastMode: RESEARCH (320%5==0)
+- lastItem: research-320 — niche/nationality segment gap scan (ANZAC, LGBTQ history, Armenian Quarter, Black travelers, best hikes, top archaeology)
+- lastResult: RESEARCH COMPLETE — 6 net-new items confirmed + appended to BACKLOG; 0 code changes; no gate run
+- nextRotationCategory: 321%5==1 → BUILD monetization rotation
 - higgsfieldSpent: 0
-- updatedAt: 2026-07-05T21:45Z
+- updatedAt: 2026-07-05T23:15Z
 - branch context: work on master; feature work on auto/<slug>
+
+Notes: iter 320 RESEARCH · research-320:
+  Mode RESEARCH (320%5==0). Backlog extremely saturated (200+ ready items from 64+ research passes).
+  Systematic grep de-duplication using Python3 regex against BACKLOG.md + guide directory scan
+  before confirming any item as genuinely new.
+  Net-new items added (all grep-confirmed 0 standalone hits before adding):
+  1. /israel-anzac-heritage (P2, S, seo-content) — ANZAC heritage trail for Australian/NZ visitors;
+     Beersheba Charge 1917, Australian Light Horse memorial, 3 CWGC cemeteries; no competitor
+     editorial; high-intent AU/NZ pilgrimage market
+  2. /israel-lgbtq-history (P3, S, seo-content) — LGBTQ+ legal & historical timeline guide;
+     distinct from lgbtq-travel-israel.md (practical) + Pride annual guide (event); 1988
+     decriminalization through 2026 status; evergreen cultural depth for LGBTQ travelers
+  3. /jerusalem-armenian-quarter (P2, S, seo-content+monetization) — Armenian Quarter complete
+     visitor guide; St. James Cathedral, Mardigian genocide museum, Armenian ceramics; only
+     ~150 words in shipped jerusalem-neighborhoods-guide.md; genuine experiential gap
+  4. /israel-for-black-travelers (P2, M, seo-content) — Beta Israel Ethiopian Jewish community
+     + African Hebrew Israelites Dimona (Village of Peace); zero competitor editorial;
+     growing search volume; two unique draws available nowhere else in the world
+  5. /israel-best-hikes (P2, M, seo-content+monetization) — Best hikes in Israel curated
+     editorial guide (12 ranked trails); distinct from hiking-in-israel.md overview and
+     water-hiking-israel.md nahal focus; competes with AllTrails editorial format
+  6. /israel-top-archaeological-sites (P2, M, seo-content+monetization) — Top 10 archaeological
+     sites hub page; aggregates individual site guides (caesarea, masada, qumran, herodion etc.);
+     captures head-keyword SEO currently leaking to archaeologytravel.com + roughguides.com
+  De-duped and rejected: /israel-with-toddlers (→ israel-with-baby in backlog L528), /israel-dietary-
+  restrictions (→ israel-gluten-free-guide in backlog L363), /best-national-parks-editorial (→ israel-
+  national-parks-pass SHIPPED + individual park guides in backlog), /day-trips-from-jerusalem (→ EXISTS
+  as pre-existing content file), /haifa-neighborhoods (→ SHIPPED iter223), /shopping-in-israel (→ SHIPPED
+  iter276), /israel-mountain-biking (→ cycling-in-israel SHIPPED iter238), /israel-camping (→ backlog L638),
+  /israel-surfing (→ backlog L294), /solo-female (→ SHIPPED iter127), /anzac-cwgc-standalone (→ merged
+  into israel-anzac-heritage), /armenia-patriarch (→ merged into armenian-quarter guide).
+  Gate: N/A (research only — no src/ changes, no branch, no gate run).
+  NEXT: iter 321 → BUILD monetization rotation (321%5==1). Top BUILD candidates:
+    accessible-travel-israel (P2, M), israel-orthodox-jewish-travel (P2, M), israel-memorial-sites (P2, M),
+    israel-best-hikes (P2, M — just added), israel-top-archaeological-sites (P2, M — just added),
+    photography-guide (P2, M). Fallthrough seo-content option: israel-anzac-heritage (P2, S),
+    jerusalem-armenian-quarter (P2, S), western-galilee-guide (P2, M). i18n Phase 3 (regions fr+de) also P2.
 
 Notes: iter 319 REVIEW · review-319-link-fixes:
   Mode REVIEW (319%5==4). Audited iters 316-318 output: sea-of-galilee-guide (iter316, d9214b6),

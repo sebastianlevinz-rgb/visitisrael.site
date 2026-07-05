@@ -5898,3 +5898,10 @@ Bugs found and fixed: (1) sea-of-galilee-guide.md line 165: self-referential [Ge
 Gate: pnpm check 0 errors · build 464 pages · 593/593 e2e+a11y pass. GREEN.
 Ship: committed 5d1c321 to master; pushed origin/master. CI in_progress (prior runs 9f00c90 + bfb1b4f both success).
 NEXT: iter 320 → RESEARCH mode (320%5==0).
+
+## 2026-07-05T23:15Z · iter 320 · RESEARCH · research-320
+What: Competitor + niche-segment gap scan for content not yet in backlog. Sources: cwgc.org, alltrails.com, archaeologytravel.com, armenian-patriarchate.org, blacktravelerscollective.com, gaytlvguide.com, mfa.gov.il/lgbtq, lonelyplanet.com/israel, roughguides.com/israel, timeout.co.il, thebrokebackpacker.com.
+De-duplication: 30+ candidate topics swept via Python3 regex against BACKLOG.md + guide directory ls scan. Confirmed 6 net-new items (zero standalone prior entries in either file). Rejected as duplicates: israel-with-toddlers (→ israel-with-baby L528), dietary-restrictions (→ gluten-free L363), cycling/mountain-biking (→ SHIPPED), camping (→ L638), surfing (→ L294), shopping (→ SHIPPED iter276), haifa-neighborhoods (→ SHIPPED iter223), day-trips-from-jerusalem (→ pre-existing file).
+Added to BACKLOG: (1) /israel-anzac-heritage P2 S — Beersheba Charge 1917, CWGC cemeteries, AU/NZ pilgrimage market; (2) /israel-lgbtq-history P3 S — 1988 decriminalisation through 2026 legal timeline, distinct from practical lgbtq guide; (3) /jerusalem-armenian-quarter P2 S — St. James Cathedral, genocide museum, ceramics, distinct from neighborhoods guide coverage; (4) /israel-for-black-travelers P2 M — Beta Israel Ethiopian community + Dimona African Hebrew Israelites, zero competitor coverage; (5) /israel-best-hikes P2 M — 12-trail curated editorial, competes with AllTrails editorial format; (6) /israel-top-archaeological-sites P2 M — hub page for head-keyword SEO, internally links all individual site guides.
+Gate: N/A (research only — no src/ changes).
+NEXT: iter 321 → BUILD monetization rotation. Top candidates: accessible-travel-israel, israel-orthodox-jewish-travel, israel-memorial-sites, israel-best-hikes, israel-top-archaeological-sites.
