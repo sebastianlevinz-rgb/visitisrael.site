@@ -1,13 +1,32 @@
 # LOOP STATE
 
-- iteration: 305
-- lastMode: RESEARCH (305%5==0)
-- lastItem: research-305 — scanned Carmel coast / Zichron Yaakov, Dead Sea medical tourism, Latrun corridor, Upper Galilee wine trail, Sea of Galilee circuit; 5 net-new items added to BACKLOG
-- lastResult: RESEARCH (no ship — research only)
-- nextRotationCategory: 306%5==1 → BUILD (monetization rotation)
+- iteration: 306
+- lastMode: BUILD (306%5==1 → monetization rotation)
+- lastItem: dead-sea-medical-tourism — new /dead-sea-medical-tourism guide; UVB mechanism, 3-4 week stays, hotel clinics, EU insurance (GKV/Danish/Swiss); Booking.com + GYG CTAs; 456 pages; 593/593 pass
+- lastResult: SHIPPED 6e003dc — Lighthouse success; CI in_progress at state-update time
+- nextRotationCategory: 307%5==2 → BUILD (seo-content rotation)
 - higgsfieldSpent: 0
-- updatedAt: 2026-07-05T08:00Z
+- updatedAt: 2026-07-05T08:50Z
 - branch context: work on master; feature work on auto/<slug>
+
+Notes: iter 306 BUILD (monetization) · dead-sea-medical-tourism:
+  Mode BUILD (306%5==1 → monetization). Picked dead-sea-medical-tourism (P2, M) — highest
+  hotel-nights conversion potential: medical-stay patients book 21–28 nights vs 1-night leisure.
+  New guide: /dead-sea-medical-tourism. Content: UVB mechanism at 430m below sea level explained
+  (filters UVA, allows therapeutic UVB); clinical evidence summary (70–90% psoriasis clearance in
+  peer-reviewed studies; honest remission framing); conditions treated (psoriasis, eczema, vitiligo,
+  psoriatic arthritis); medical infrastructure at Ein Bokek (Paula Dead Sea Clinic, David Dead Sea
+  Resort, Isrotel); EU insurance reimbursement by country (German GKV, Danish, Swiss, UK=not covered);
+  cost table (₪500–1,200/night hotel + ₪300–600/week clinic fees; ~€4,500–7,500 all-in); seasonal
+  planning; 7 FAQs. Cross-links from dead-sea-guide, israel-wellness-spa, israel-for-seniors. Footer
+  link added. Affiliate CTAs: Booking.com Dead Sea + GYG day tours.
+  Gate: pnpm check 0 errors (119 files) · build 456 pages · 593/593 e2e+a11y pass. GREEN.
+  Ship: squash-merged to master 6e003dc; pushed origin/master.
+  Prod: Lighthouse completed success 6e003dc; CI in_progress at state-update (standard; all prior CIs green).
+  NEXT: iter 307 → BUILD (307%5==2 → seo-content rotation). Top candidates: latrun-guide (P2, S),
+    zichron-yaakov-guide (P2, S), sea-of-galilee-guide (P2, M), self-drive-road-trip (P2, M),
+    backpacking-israel (P2, M), accessible-travel-israel (P2, M).
+    i18n rotation: i18n Phase 3 (regions ×11 in fr+de) remains P2 ready — consider for iter 307 or 308.
 
 Notes: iter 305 RESEARCH — research-305:
   Mode RESEARCH (305%5==0). Backlog extremely saturated (200+ ready items from 61+ passes).

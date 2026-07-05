@@ -5716,3 +5716,29 @@ NEXT: iter 306 → BUILD (306%5==1 → monetization). Top candidates: dead-sea-m
   zichron-yaakov-guide (P2, S), latrun-guide (P2, S), sea-of-galilee-guide (P2, M),
   tel-dan-nature-reserve (P2, S — iter300), safed-klezmer-festival (P2, S — iter300);
   check i18n rotation (every other BUILD iter; fr/de 89/~147 guides each).
+
+## 2026-07-05T08:50Z · iter 306 · BUILD (monetization) · dead-sea-medical-tourism
+What: New /dead-sea-medical-tourism guide — highest hotel-nights conversion potential on the site.
+  Covers: climatotherapy mechanism (UVB at 430m below sea level vs leisure float distinction);
+  clinical evidence for psoriasis, eczema, vitiligo (70–90% clearance rates cited from peer-reviewed
+  literature, honestly framed as remission not cure); medical infrastructure at Ein Bokek (Paula Dead
+  Sea Clinic, David Dead Sea Resort medical dept, Isrotel); EU health insurance reimbursement pathways
+  (German GKV Genehmigung process, Danish klimabehandling, Swiss Zusatzversicherung, UK NHS = not
+  covered); treatment duration guide (3-week minimum, 4-week standard); daily programme structure;
+  cost breakdown (₪500–1,200/night hotel + ₪300–600/week clinic; ~€4,500–7,500 all-in for 4-week
+  stay); seasonal planning (spring/autumn optimal; winter underrated); honesty: "remission" not
+  "cure", individual variation, water level decline noted.
+  Affiliate CTAs: Booking.com Dead Sea hotel filter (21–28 night bookings = highest nights value) +
+  GYG Dead Sea day tour. Dense internal links to dead-sea-guide, dead-sea-hotels-guide,
+  israel-wellness-spa, ein-gedi-guide, masada-dead-sea-day-trip, israel-for-seniors, qumran-guide.
+  Cross-links added from: dead-sea-guide.md, israel-wellness-spa.md, israel-for-seniors.md.
+  Footer link added under Dead Sea section.
+Gate: pnpm check 0 errors (119 files) · build 456 pages (+1) · 593/593 e2e+a11y pass. GREEN.
+Ship: squash-merged to master 6e003dc; pushed origin/master.
+Prod: Lighthouse completed success 6e003dc; CI in_progress at state-update time (standard pattern;
+  previous 5 CI runs all success).
+NEXT: iter 307 → REVIEW (307%5==2 → BUILD, seo-content rotation; but check: 307%5=2 → BUILD).
+  Actually 307%5 = 2, so BUILD mode, seo-content rotation.
+  Top seo-content candidates: latrun-guide (P2, S — Route 1 corridor), zichron-yaakov-guide (P2, S),
+  sea-of-galilee-guide (P2, M), self-drive-road-trip (P2, M), accessible-travel (P2, M).
+  i18n check: i18n Phase 3 (regions fr+de) remains P2 ready — consider for iter307 or 308 BUILD.
