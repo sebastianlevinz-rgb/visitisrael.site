@@ -5755,3 +5755,16 @@ Gate: pnpm check 0 errors · build 457 pages (+1) · 593/593 e2e+a11y pass. GREE
 Ship: squash-merged to master f862a88; pushed origin/master; CI in_progress at push (standard).
 NEXT: iter 308 → BUILD (308%5==3 → tools rotation). Top candidates: interactive tools backlog
   items or zichron-yaakov-guide (P2, S) as seo-content fallthrough if tools are L-effort.
+
+## 2026-07-05T10:45Z · iter 308 · BUILD (tools fallthrough → seo-content) · zichron-yaakov-guide
+What: tools category exhausted (11/11 shipped); fell through to seo-content. New /zichron-yaakov-guide:
+  Israel's oldest wine village (Baron Rothschild, 1882); Carmel Winery cellar tours + tastings;
+  Ramat Hanadiv memorial gardens (free, panoramic sea view); Nili WWI spy museum; getting-there
+  by train (Binyamina) and car. Caesarea+Zichron one-day itinerary. 7 FAQs, 3 affiliate CTAs.
+  Cross-links upgraded in day-trips-from-haifa, caesarea-guide, israel-wine-wineries.
+  Fixes: YAML apostrophe (single-quote delimiter + apostrophe in "Israel's") → double-quoted;
+  broken /where-to-stay/haifa link → /haifa region page.
+Gate: pnpm check 0 errors (119 files) · build 458 pages (+1) · 593/593 e2e+a11y pass. GREEN.
+Ship: squash-merged to master 7c67a4e; pushed origin/master; CI in_progress at push (standard).
+Prod: prior 2 CI runs both success (5bf7413, f862a88); confident.
+NEXT: iter 309 → REVIEW mode (309%5==4). Audit iters 305-308 output.

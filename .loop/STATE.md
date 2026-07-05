@@ -1,13 +1,40 @@
 # LOOP STATE
 
-- iteration: 307
-- lastMode: BUILD (307%5==2 → seo-content rotation)
-- lastItem: latrun-guide — new /latrun-guide; Yad La-Shiryon tank museum, Trappist monastery winery, Mini Israel; Route 1 corridor; 7 FAQs; GYG+Viator+DiscoverCars CTAs; 457 pages; 593/593 pass
-- lastResult: SHIPPED f862a88 — CI in_progress at state-update time (prior 2 runs success)
-- nextRotationCategory: 308%5==3 → BUILD (tools rotation)
+- iteration: 308
+- lastMode: BUILD (308%5==3 → tools rotation → tools exhausted → fallthrough to seo-content)
+- lastItem: zichron-yaakov-guide — new /zichron-yaakov-guide; Rothschild wine village 1882; Carmel Winery; Ramat Hanadiv gardens; Nili spy museum; Hameyasdim Street; 7 FAQs; GYG+DiscoverCars+Booking CTAs; 458 pages; 593/593 pass
+- lastResult: SHIPPED 7c67a4e — CI in_progress at state-update time (prior 2 runs success for 5bf7413 and f862a88)
+- nextRotationCategory: 309%5==4 → REVIEW mode
 - higgsfieldSpent: 0
-- updatedAt: 2026-07-05T09:40Z
+- updatedAt: 2026-07-05T10:45Z
 - branch context: work on master; feature work on auto/<slug>
+
+Notes: iter 308 BUILD (tools→seo-content fallthrough) · zichron-yaakov-guide:
+  Mode BUILD (308%5==3 → tools rotation). Tools category exhausted (all 11 items SHIPPED); technical
+  also exhausted; fell through to seo-content. Picked zichron-yaakov-guide (P2, S) — explicitly
+  named in STATE iter307 as top seo-content candidate; fills Carmel coast corridor gap between
+  caesarea-guide and haifa-travel-guide (planned).
+  New guide: /zichron-yaakov-guide. Content: Hameyasdim Street Ottoman-era pedestrian main street
+  (Rothschild-planted eucalyptus, stone buildings, wine bars, artisan market); Carmel Winery visitor
+  centre (Israel's oldest winery est. 1882; cellar tours + tastings ₪50-80; book at carmelwines.co.il;
+  kosher; closed Shabbat); Ramat Hanadiv memorial gardens (free; Rothschild tomb + terraced rose/olive
+  gardens + panoramic sea view; ramat-hanadiv.org.il); Nili Museum/Beit Aaronson (Aaron Aaronson + WWI
+  spy network; limited hours; call ahead); getting there by train (Binyamina station, ~50 min TLV,
+  ~40 min Haifa) and car (Route 2 + Route 70); Caesarea+Zichron one-day itinerary; seasonal table;
+  7 FAQs. Affiliate CTAs: GYG Carmel wine tours + Discovercars coastal self-drive + Booking Zichron
+  stays. Cross-links upgraded: day-trips-from-haifa (link added to /zichron-yaakov-guide text),
+  caesarea-guide (Wikipedia link → /zichron-yaakov-guide with improved description),
+  israel-wine-wineries (new sentence in Shomron/Mount Carmel section linking to guide).
+  YAML fix: description used single-quoted YAML with apostrophe in "Israel's" — fixed to double quotes.
+  Link fix: /where-to-stay/haifa doesn't exist (only jerusalem/tel-aviv/dead-sea) — replaced with
+  /haifa region link.
+  Gate: pnpm check 0 errors (119 files) · build 458 pages (+1) · 593/593 e2e+a11y pass. GREEN.
+  Ship: squash-merged to master 7c67a4e; pushed origin/master.
+  Prod: CI in_progress at state-update (prior 2 CI runs both success — 5bf7413, f862a88).
+  NEXT: iter 309 → REVIEW mode (309%5==4). Candidates: audit iters 305-308 output:
+    latrun-guide (iter307), dead-sea-medical-tourism (iter306), research-305, zichron-yaakov-guide (iter308).
+    Top picks for audit: verify latrun-guide and zichron-yaakov-guide internal links, SEO meta,
+    honesty framing, JSON-LD; check dead-sea-medical-tourism EU insurance claim accuracy.
 
 Notes: iter 307 BUILD (seo-content) · latrun-guide:
   Mode BUILD (307%5==2 → seo-content). Picked latrun-guide (P2, S) — Route 1 corridor cluster
