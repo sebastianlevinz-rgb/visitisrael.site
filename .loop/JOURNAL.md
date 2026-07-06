@@ -6140,3 +6140,25 @@ double-quoted YAML answer string — replaced with U+201C (LEFT DOUBLE QUOTATION
 YAML does not treat as string delimiter. Lesson: always use hex check to verify YAML byte
 encoding when German typographic quotes appear. smoke.spec.ts +12 routes. 508 pages.
 645/645 e2e pass. SHA 0d74524.
+
+## 2026-07-06 · iter 343 · BUILD (i18n fallthrough — tools/technical empty)
+
+**Item:** i18n-phase4-batch2 — 8 EN attractions × FR+DE = 16 locale pages
+
+**Jerusalem attractions translated:**
+- `jerusalem-city-of-david` — Cité de David / Stadt Davids; 4 FAQs; full prose (tunnels, Siloam Pool, Silwan context)
+- `jerusalem-tower-of-david` — Tour de David / Davidsturm; ticketInfo block preserved in FR+DE (priceRange, bookingRequired, tipText, tiqets/gyg queries); Night Spectacular section
+- `jerusalem-israel-museum` — Musée d'Israël / Israel-Museum; Shrine of the Book, Dead Sea Scrolls, Second Temple model, art wings; no ticketInfo/religiousSiteId
+- `jerusalem-garden-tomb` — Tombeau du Jardin / Gartengrabs; religiousSiteId: garden-tomb preserved; honest scholarly framing re: Holy Sepulchre vs Garden Tomb maintained; Gordon's Calvary section
+
+**Tel Aviv attractions translated:**
+- `tel-aviv-old-jaffa` — Vieux Jaffa / Alt-Jaffa; harbour, flea market, St. Peter's/Mahmoudiyya pair, practical Shabbat caveats
+- `tel-aviv-neve-tzedek` — Neve Tzedek; Suzanne Dellal Centre/Batsheva, Templer houses, HaTachana; performance ticket range ₪80–200 preserved
+- `tel-aviv-tayelet` — Tayelet; 14km promenade, 5 named beaches, Tel-O-Fun cycling, sunset section; all public/free correctly framed
+- `tel-aviv-rothschild` — Boulevard Rothschild; Bauhaus White City UNESCO, Bauhaus Center, key facades, Bialik Street; walking tour pricing ₪100–150 range preserved
+
+**YAML safety applied:** FR possessives/apostrophes in double-quoted strings; tower-of-david tipText double-quoted (contains "l'avance", "l'entrée"); no single-quoted strings with apostrophes anywhere.
+
+**Gate:** pnpm check 0 errors → build 524 pages (+16 from 508) → pnpm test:e2e 677/677 pass.
+
+**SHA:** df43b40 · pushed origin/master

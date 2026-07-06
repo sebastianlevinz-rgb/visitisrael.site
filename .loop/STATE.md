@@ -1,12 +1,12 @@
 # LOOP STATE
 
-- iteration: 342
-- lastMode: BUILD (i18n)
-- lastItem: i18n-phase4-batch1 — Phase 4 Batch 1: 6 Jerusalem attractions (Western Wall, Old City, Yad Vashem, Mount of Olives, Via Dolorosa, Mahane Yehuda) in FR+DE (12 locale pages). New /fr/[region]/[attraction].astro + /de/[region]/[attraction].astro route templates. Updated attractionsForRegion(locale?) + attractionUrl/attractionSlug to handle locale-prefixed IDs. FR/DE region pages now link to locale attractions. hreflang alternates on all new pages + EN attraction pages updated. smoke.spec.ts +12 routes. 508 pages built.
-- lastResult: SHIPPED 0d74524 — pnpm check 0 errors, build 508 pages (+12), 645/645 e2e pass.
-- nextRotationCategory: 343%5==3 → BUILD (tools). 344%5==4 → REVIEW. 345%5==0 → RESEARCH. 346%5==1 → BUILD (seo-content). 347%5==2 → BUILD (monetization or i18n).
+- iteration: 343
+- lastMode: BUILD (i18n fallthrough from tools/technical)
+- lastItem: i18n-phase4-batch2 — Phase 4 Batch 2: 8 attractions × FR+DE (16 locale pages). Jerusalem: city-of-david, tower-of-david, israel-museum, garden-tomb. Tel Aviv: old-jaffa, neve-tzedek, tayelet, rothschild. smoke.spec.ts + a11y.spec.ts +16 routes. 524 pages built.
+- lastResult: SHIPPED df43b40 — pnpm check 0 errors, build 524 pages (+16), 677/677 e2e pass.
+- nextRotationCategory: 344%5==4 → REVIEW. 345%5==0 → RESEARCH. 346%5==1 → BUILD (seo-content). 347%5==2 → BUILD (monetization or i18n). 348%5==3 → BUILD (tools).
 - higgsfieldSpent: 0
-- updatedAt: 2026-07-06T21:00Z
+- updatedAt: 2026-07-06T22:00Z
 - branch context: work on master; feature work on auto/<slug>
 
 Notes: iter 339 REVIEW — Broad EN guide meta scan technique: do not use lazy-match regex with quotes (apostrophes in titles/descs can break it). Instead use per-file YAML frontmatter block extraction + targeted title/desc line-search with alternating quote chars. Confirmed: the city-of-david desc was authored too long in iter337 and caught within 2 iters by REVIEW. Lesson for authoring: always verify title ≤65 and desc ≤160 before committing.

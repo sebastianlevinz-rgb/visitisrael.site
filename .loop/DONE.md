@@ -665,3 +665,6 @@ New /gamla-nature-reserve-guide. P2 S seo-content. Standalone Gamla Nature Reser
 
 ## iter 342 · BUILD (i18n Phase 4 Batch 1) · SHA 0d74524
 - i18n Phase 4 Batch 1: 6 Jerusalem attractions (Western Wall, Old City, Yad Vashem, Mount of Olives, Via Dolorosa, Mahane Yehuda) in FR+DE (12 locale pages). New /fr/[region]/[attraction].astro + /de/[region]/[attraction].astro. attractionsForRegion locale param. 508 pages. 645/645 e2e.
+
+## iter 343 · i18n-phase4-batch2
+- FR+DE translations: jerusalem-city-of-david, jerusalem-tower-of-david, jerusalem-israel-museum, jerusalem-garden-tomb, tel-aviv-old-jaffa, tel-aviv-neve-tzedek, tel-aviv-tayelet, tel-aviv-rothschild (16 locale pages). SHA df43b40.
