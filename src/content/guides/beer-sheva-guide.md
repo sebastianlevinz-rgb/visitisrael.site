@@ -1,6 +1,6 @@
 ---
 title: 'Beer-Sheva Travel Guide: Negev Gateway & UNESCO City'
-description: "Complete visitor guide to Beer-Sheva (Beersheba) — Tel Be'er Sheva UNESCO site, the IAF Air Force Museum, ANZAC memorial, Ottoman Old City, and how to reach Israel's Negev capital."
+description: "Beer-Sheva travel guide: Tel Be'er Sheva UNESCO site, IAF Air Force Museum, ANZAC memorial, Ottoman Old City — your gateway to Israel's Negev desert."
 heroImage: /images/regions/negev/hero.jpg
 category: Destinations
 updatedAt: 2026-07-06

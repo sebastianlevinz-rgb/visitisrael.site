@@ -1,6 +1,6 @@
 ---
 title: 'Zippori National Park: Roman Mosaics & Sepphoris Guide'
-description: "Visitor guide to Zippori National Park — the Mona Lisa of the Galilee mosaic, Roman theater, Byzantine synagogue floor, Crusader citadel, and getting there from Nazareth."
+description: "Zippori National Park guide — Mona Lisa of the Galilee mosaic, Roman theater, Byzantine synagogue floor, Crusader citadel. 10 minutes from Nazareth."
 heroImage: /images/regions/galilee/hero.jpg
 category: Destinations
 updatedAt: 2026-07-06
