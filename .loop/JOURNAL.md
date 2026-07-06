@@ -6029,3 +6029,25 @@ What: New /tel-arad-guide — Tel Arad National Park, P2 S seo-content. Two-laye
 Gate: pnpm check 0 errors (121 files) · build 492 pages (+1 from 491) · test:e2e 626/626 pass. GREEN.
 Ship: committed 6c74e0d to master; pushed origin/master. Branch auto/tel-arad-guide deleted. CI in_progress at state-update (standard — prior runs 3a226563 all success).
 NEXT: iter 334 → REVIEW mode (334%5==4). Audit iters 330–333: ein-kerem-guide (iter331), i18n-phase3-batch3 (iter332), tel-arad-guide (iter333). Check SEO meta (title ≤60, desc ≤160), internal links, honesty framing, hreflang on locale pages, affiliate CTAs.
+
+## 2026-07-06T12:45Z · iter 334 · REVIEW · review-334-meta-fix
+Mode: REVIEW (334%5==4). Scope: ein-kerem-jerusalem-guide (iter331), i18n Phase 3 Batch 3 (FR+DE: akko, caesarea, golan, nazareth × 8 files, iter332), tel-arad-guide (iter333).
+Startup: fresh cloud clone; local master 50 commits behind origin; git reset --hard origin/master to 3c1716c (iter333 state). pnpm install. No STOP flag.
+Checks performed:
+  (1) SEO meta title (≤65) + description (≤160) — line-split parser to avoid single-quote false-negatives.
+  (2) Internal links: tel-arad links (/beer-sheva-guide, /dead-sea-guide, /israel-national-parks-pass, /negev) all resolve; ein-kerem internal links confirmed.
+  (3) H1 presence in body: NONE in either guide ✓
+  (4) Locale link correctness: all 8 FR/DE files CLEAN (no wrong-locale links) ✓
+  (5) Affiliate CTAs: tel-arad (GYG + Viator + DiscoverCars) ✓; ein-kerem (2×GYG + Booking) ✓
+  (6) Honesty framing: intact (no fabricated prices/ratings, all caveats present) ✓
+Findings — 6 meta violations:
+  - tel-arad-guide.md desc 165→150 (removed '5,000-year-old ')
+  - ein-kerem-jerusalem-guide.md desc 161→159 (removed possessive 's from 'Jerusalem's')
+  - fr/akko.md title 71→59 (dropped 'Que faire à ' prefix)
+  - fr/akko.md desc 164→159 (removed ' 2026' year token)
+  - fr/golan.md desc 161→156 (removed ' 2026' year token)
+  - fr/nazareth.md desc 164→159 (removed ' 2026' year token)
+Lesson: regex r'[\"\'](.*?)[\"\''] gives false-negatives when field values contain apostrophes (bahá'íe, l'Annonciation) — the lazy match stops at the first quote char. Use line-split + strip() for all YAML meta-length checks going forward.
+Gate: pnpm check 0 errors (121 files) · pnpm build 492 pages (unchanged) · pnpm test:e2e 626/626 pass. GREEN.
+Ship: committed 00dfcca to master; pushed origin/master. CI in_progress at state-update (standard — prior chain all success).
+Next: iter 335 → RESEARCH mode (335%5==0). Competitor scan; de-dup vs BACKLOG.

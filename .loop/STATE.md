@@ -1,13 +1,15 @@
 # LOOP STATE
 
-- iteration: 333
-- lastMode: BUILD
-- lastItem: tel-arad-guide — Tel Arad National Park visitor guide (P2 S seo-content). Canaanite city (~3000–2650 BCE, one of earliest planned urban grids in Levant) + Israelite fortress with unique temple (only ancient Israelite temple outside Jerusalem; four-horned altar in situ; bronze serpent find; Hezekiah decommissioning evidence). Completes Negev archaeological triplet alongside Beer-Sheva (iter328) and Megiddo (iter258).
-- lastResult: BUILD GREEN — shipped 6c74e0d to master; pushed origin/master. pnpm check 0 errors (121 files) · build 492 pages (+1 from 491) · test:e2e 626/626 pass. CI in_progress at push (standard — prior chain 3a226563 all success).
-- nextRotationCategory: 334%5==4 → REVIEW mode. Audit iters 330–333: research-330, zippori-guide (iter326), i18n-phase3-batch3 (iter332), tel-arad-guide (iter333). OR 334%5==4 → can substitute a quick seo-content fix if review is clean. Next BUILD after review: seo-content (eilat-nightlife P2 S OR mount-gilboa-guide P3 S) or i18n Phase 4 (attractions ×63 in fr+de, batch 1 of ~8).
+- iteration: 334
+- lastMode: REVIEW
+- lastItem: review-334-meta-fix — Audited iters 331–333 (ein-kerem-guide, i18n Phase 3 Batch 3 FR+DE ×8, tel-arad-guide). Found 6 SEO meta violations (title/desc > limit); trimmed all 6 and shipped fix 00dfcca.
+- lastResult: REVIEW GREEN — fixed 6 meta violations; pnpm check 0 errors · build 492 pages · test:e2e 626/626 pass. Committed 00dfcca to master; pushed. CI in_progress (standard — prior chain all success).
+- nextRotationCategory: 335%5==0 → RESEARCH mode. Scan competitors for new profitable content gaps; de-dup vs BACKLOG. After research: 336%5==1 → BUILD (seo-content or monetization; candidates: eilat-nightlife P2 S, mount-gilboa-guide P3 S, i18n Phase 4 attractions batch 1).
 - higgsfieldSpent: 0
-- updatedAt: 2026-07-06T11:38Z
+- updatedAt: 2026-07-06T12:45Z
 - branch context: work on master; feature work on auto/<slug>
+
+Notes: iter 334 REVIEW — Audited iters 331–333: ein-kerem-guide (iter331), i18n Phase 3 Batch 3 FR+DE (iter332), tel-arad-guide (iter333). 6 meta violations found and fixed (shipped 00dfcca): tel-arad desc 165→150; ein-kerem desc 161→159; fr/akko title 71→59 + desc 164→159; fr/golan desc 161→156; fr/nazareth desc 164→159. Note: regex using r'[\"\'](.*?)[\"\''] gave false-negative for fr/akko and fr/nazareth (apostrophes in Arabic/French text — bahá'íe, l'Annonciation — stopped the lazy match early); always use line-split + strip() for YAML meta-length checks. Cross-locale link audit CLEAN (no wrong-locale links in any of 8 FR/DE files). All internal links valid. No H1 in guide bodies. Affiliate CTAs intact. Honesty framing intact.
 
 Notes: iter 333 BUILD (seo-content) — Tel Arad guide shipped. P2 S seo-content+monetization. Two-layer archaeological site: Early Bronze Age Canaanite planned city (3000–2650 BCE; streets, twin temples, palace, copper trade hub) above Iron Age Israelite fortress with the ONLY ancient Israelite temple discovered outside Jerusalem. Four-horned altar in situ (original in Israel Museum); bronze serpent find; decommissioning evidence consistent with Hezekiah's reforms (2 Kings 18:4). Honesty: UNESCO inscription scope clarified (Beer-Sheva is inscribed, not Tel Arad itself); Hezekiah connection framed as evidence-consistent but debated; hours via parks.org.il only (no fabricated prices). 3 affiliate CTAs: GYG Negev tours + Viator Biblical Tels circuit + DiscoverCars car rental. 6 FAQs. Cross-links: beer-sheva-guide (Biblical Tels paragraph + Tel Arad link), israel-national-parks-pass (Negev list +1), negev region hub (How-to-Get-Here paragraph expanded), Footer.astro (+1 li Tel Arad).
 

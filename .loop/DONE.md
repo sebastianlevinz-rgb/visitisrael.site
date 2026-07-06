@@ -651,3 +651,5 @@ Honesty: no fabricated prices/ratings; contested site paired naming; Golan legal
 smoke.spec.ts +8 routes. 491 pages built (+8). 625/625 e2e tests pass. [i18n]
 Phase 3 now COMPLETE: all 11 regions in FR+DE.
 - iter333 · tel-arad-guide · 6c74e0d — Tel Arad National Park visitor guide: 5,000-year-old Canaanite planned city + Iron Age Israelite fortress with the only ancient Israelite temple outside Jerusalem (four-horned altar in situ). Completes Negev archaeological triplet with Beer-Sheva + Megiddo. 492 pages built, 626 e2e pass.
+
+- iter 334 · REVIEW · review-334-meta-fix → 00dfcca — Fixed 6 SEO meta violations across iter 331–333 content (tel-arad-guide, ein-kerem-guide, fr/akko ×2, fr/golan, fr/nazareth). All descriptions ≤160 chars, all titles ≤65 chars. Regex lesson: use line-split not r'[\"\'](.*?)[\"\''] for YAML meta audits.
