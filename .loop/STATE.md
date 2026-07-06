@@ -1,13 +1,15 @@
 # LOOP STATE
 
-- iteration: 338
-- lastMode: BUILD (tools rotation — all tools shipped, fell through to seo-content)
-- lastItem: gamla-nature-reserve-guide — New /gamla-nature-reserve-guide (P2 S seo-content). Standalone Gamla Nature Reserve visitor guide: ancient Jewish city (67 CE Roman siege, house-to-house archaeology, oldest known synagogue outside Jerusalem), Griffon vulture colony + observation platform, Gamla waterfall (one of Israel's tallest, ~51m). 5 km hiking circuit breakdown with table, INPA pass valid, practical details (no bus service — car or guided tour required). 3 CTAs (GYG Golan tour + Viator day trip + DiscoverCars). 6 FAQs. Cross-links: golan-heights-guide.md (added standalone guide link in Gamla section), /israel-national-parks-pass, /car-rental-israel, /hiking-in-israel, /israel-zimmer-guide. Footer.astro +1 li after Golan Heights. Smoke + a11y specs backfilled +3 routes (eilat-nightlife, city-of-david-jerusalem, gamla-nature-reserve-guide). 495 pages built, 632 e2e pass. Shipped 8b4e92e.
-- lastResult: BUILD DONE — gamla-nature-reserve-guide shipped 8b4e92e; pnpm check 0 errors, build 495 pages (+1), 632 e2e passed. Push succeeded. CI not yet confirmed (started within 5 min). Prior iter337 CI (b8f8129 state commit): Lighthouse=success.
-- nextRotationCategory: 339%5==4 → REVIEW. 340%5==0 → RESEARCH. 341%5==1 → BUILD (seo-content). 342%5==2 → BUILD (monetization or i18n).
+- iteration: 339
+- lastMode: REVIEW (audited iters 336-338 + broad EN guide meta scan)
+- lastItem: review-meta-trim — REVIEW pass: audited eilat-nightlife (iter336), city-of-david-jerusalem (iter337), gamla-nature-reserve-guide (iter338). All 20 internal links valid; no H1 in bodies; honesty framing intact; CTAs intact. Broad scan of all EN guides found 4 meta violations: best-hotels-tel-aviv title 67→51; christmas-in-israel desc 163→154; city-of-david-jerusalem desc 171→143; maccabiah-games-2026 title 70→60. All fixed, gate green, shipped 664af8f.
+- lastResult: REVIEW DONE — 4 meta violations found and fixed; shipped 664af8f. pnpm check 0 errors, build 495 pages, 632/632 e2e passed. Push succeeded. CI in_progress at commit time (Lighthouse + CI both started for 664af8f ~17:36Z). Prior iter338 commit 8b4e92e: Lighthouse=success.
+- nextRotationCategory: 340%5==0 → RESEARCH. 341%5==1 → BUILD (seo-content). 342%5==2 → BUILD (monetization or i18n). 343%5==3 → BUILD (tools). 344%5==4 → REVIEW.
 - higgsfieldSpent: 0
-- updatedAt: 2026-07-06T16:45Z
+- updatedAt: 2026-07-06T17:40Z
 - branch context: work on master; feature work on auto/<slug>
+
+Notes: iter 339 REVIEW — Broad EN guide meta scan technique: do not use lazy-match regex with quotes (apostrophes in titles/descs can break it). Instead use per-file YAML frontmatter block extraction + targeted title/desc line-search with alternating quote chars. Confirmed: the city-of-david desc was authored too long in iter337 and caught within 2 iters by REVIEW. Lesson for authoring: always verify title ≤65 and desc ≤160 before committing.
 
 Notes: iter 338 BUILD (seo-content, fell through from tools) — Gamla Nature Reserve guide shipped. P2 S. Standalone guide for one of the Golan Heights' most rewarding sites: ancient Jewish city destroyed by Rome 67 CE (predates Masada by 3 years), Griffon vulture colony at dedicated observation platform, ~51m Gamla waterfall. 5 km circuit. INPA pass valid. Partner key gotcha: 'discovercar' is WRONG — must be 'discovercars' (see affiliates.ts). Smoke + a11y specs backfilled +3 routes for eilat-nightlife (iter336) + city-of-david-jerusalem (iter337) + gamla.
 
@@ -26,5 +28,5 @@ Notes: iter 329 REVIEW — Audited iters 325–328: zippori-sepphoris-guide (ite
 Notes: iter 328 BUILD (seo-content) — Beer-Sheva guide shipped. Last major Israeli city missing a standalone guide; UNESCO Tel Be'er Sheva (Biblical Tels 2005, Iron Age water system + gate complex + horned altar), IAF Museum at Hatzerim (~150 aircraft, free outdoor exhibits), ANZAC memorial + Beersheba War Cemetery (1917 Light Horse charge), Ottoman Old City + Negev Museum of Art (1906 Jami Mosque). Honesty: IAF free-for-outdoor caveated with "verify at iaf.org.il"; INPA hours caveat; no fabricated prices/ratings; Light Horse charge framed with military-history context. Cross-links: negev.md How-to-Get-Here upgraded + beer-sheva link; israel-road-trip.md Day 5 overnight mention upgraded with link; Footer.astro +1 li in day trips section.
 
 Cron b7325b16 hourly @ :17. Loop history: 19 tools + sitemap-lastmod + link-checker(+depth) + i18n
-Phase0/1a/1b/1c/2 Batches1-18(COMPLETE) + 36 review passes + 3 technical (event-schema + meta-trim + locale-links) + 38 EN guides + 4 tools-monetization;
-research iters 5/10/20/30/35/40/45/50/55/60/65/70/75/80/85/90/95/100/105/110/115/120/125/130/135/140/145/150/155/160/165/170/175/180/185/190/195/200/205/210/215/220/225/230/235/240/245/250/255/260/265/270/275/280/285/290/295/300/305/310/315/320/325/330.
+Phase0/1a/1b/1c/2 Batches1-18(COMPLETE) + 37 review passes + 3 technical (event-schema + meta-trim + locale-links) + 41 EN guides + 4 tools-monetization;
+research iters 5/10/20/30/35/40/45/50/55/60/65/70/75/80/85/90/95/100/105/110/115/120/125/130/135/140/145/150/155/160/165/170/175/180/185/190/195/200/205/210/215/220/225/230/235/240/245/250/255/260/265/270/275/280/285/290/295/300/305/310/315/320/325/330/335.

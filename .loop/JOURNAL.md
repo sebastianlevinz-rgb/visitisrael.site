@@ -6105,3 +6105,9 @@ What: New /gamla-nature-reserve-guide (P2 S seo-content). Standalone Gamla Natur
 Gate: pnpm check 0 errors ✓; pnpm build 495 pages (+1 from iter337's 494) ✓; pnpm test:e2e 632 passed ✓.
 Merge: 8b4e92e squash-merged to master, pushed origin/master at ~2026-07-06T16:40Z.
 Prod deploy: CI started on 8b4e92e; not yet confirmed (within 5-min window). Prior iter337 state commit (b8f8129) Lighthouse=success.
+
+## 2026-07-06T17:40Z · iter 339 · REVIEW · review-meta-trim (audited iters 336-338 + broad EN guide scan)
+What: Audited the 3 recent guides: eilat-nightlife (iter336), city-of-david-jerusalem (iter337), gamla-nature-reserve-guide (iter338). All 20 internal links valid (attraction links /eilat/coral-beach + /eilat/underwater-observatory verified via attractionSlug() logic); no H1 in any body; no fabricated ratings/prices; affiliate CTAs intact; honesty framing intact. Broad meta scan of ALL 189 EN guides found 4 violations: (1) best-hotels-tel-aviv title 67→51 chars; (2) christmas-in-israel desc 163→154 chars; (3) city-of-david-jerusalem desc 171→143 chars; (4) maccabiah-games-2026 title 70→60 chars. Note: city-of-david was shipped in iter337 — defect caught within 2 iters. Lesson: iter334 REVIEW used line-split+strip() regex — the city-of-david description contains no apostrophe-stop issue; the original desc was simply too long at time of authoring. Broad scan is the reliable check.
+Gate: pnpm check 0 errors; build 495 pages; 632/632 e2e+a11y pass.
+Ship: squash-merged to master 664af8f, pushed origin/master at ~2026-07-06T17:36Z. CI in_progress at state time (both CI + Lighthouse for 664af8f started ~17:36Z; prior iter338 commit 8b4e92e Lighthouse=success). Per playbook: CI pending → leave for next iter start-check.
+Next: iter 340 = RESEARCH mode (340%5==0).
