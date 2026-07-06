@@ -107,7 +107,7 @@ Winery visits are best combined with a spring or autumn trip; autumn coincides w
 
 Beyond the archaeology, Gamla is one of the best places in Israel to see **Griffon vultures** — a colony of over 200 birds nests on the cliffs of the ravine, and a dedicated observation platform gives close views of the nesting ledges. The **Gamla waterfall** at the bottom of the canyon is one of the tallest in Israel.
 
-Allow 2.5–3 hours for the full circuit to the archaeological site and back. Covered by the INPA National Parks Pass.
+Allow 2.5–3 hours for the full circuit to the archaeological site and back. Covered by the INPA National Parks Pass. See the [Gamla Nature Reserve guide](/gamla-nature-reserve-guide) for a full breakdown of the circuit, the vulture colony, and the waterfall.
 
 ### Mount Hermon
 
