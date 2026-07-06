@@ -321,9 +321,17 @@ const ROUTES = [
   '/fr/jerusalem',
   '/fr/tel-aviv',
   '/fr/dead-sea',
+  '/fr/galilee',
+  '/fr/haifa',
+  '/fr/eilat',
+  '/fr/negev',
   '/de/jerusalem',
   '/de/tel-aviv',
   '/de/dead-sea',
+  '/de/galilee',
+  '/de/haifa',
+  '/de/eilat',
+  '/de/negev',
 ];
 
 for (const route of ROUTES) {

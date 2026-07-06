@@ -1,4 +1,5 @@
 ---
+import { getCollection } from 'astro:content';
 import BaseLayout from '@/layouts/BaseLayout.astro';
 import Hero from '@/components/Hero.astro';
 import DestinationCard from '@/components/DestinationCard.astro';
@@ -6,6 +7,8 @@ import { REGIONS } from '@/data/regions';
 import { useTranslations, homeAlternates } from '@/i18n/ui';
 
 const t = useTranslations('de');
+const deEntries = await getCollection('regions');
+const deSlugs = new Set(deEntries.filter((e) => e.id.startsWith('de/')).map((e) => e.id.slice(3)));
 const title = 'Israel besuchen — Reiseführer';
 const description =
   'Planen Sie Ihre Reise nach Israel: 11 Regionen von Jerusalem bis zum Roten Meer, Reiserouten, Sehenswürdigkeiten und vertrauenswürdige Buchungslinks. Ausführliche Reiseführer auf Englisch.';
@@ -38,7 +41,13 @@ const description =
       {t('home.regionsHeading')}
     </h2>
     <div class="grid grid-cols-2 gap-4 sm:grid-cols-3 lg:grid-cols-4">
-      {REGIONS.map((r, i) => <DestinationCard region={r} eager={i < 4} />)}
+      {REGIONS.map((r, i) => (
+        <DestinationCard
+          region={r}
+          eager={i < 4}
+          href={deSlugs.has(r.slug) ? `/de/${r.slug}` : undefined}
+        />
+      ))}
     </div>
   </section>
 

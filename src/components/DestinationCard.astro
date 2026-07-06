@@ -5,12 +5,14 @@ export interface Props {
   region: Region;
   /** First row of cards can eager-load for a faster LCP; rest lazy. */
   eager?: boolean;
+  /** Optional href override — defaults to /{region.slug}. */
+  href?: string;
 }
-const { region, eager = false } = Astro.props;
+const { region, eager = false, href } = Astro.props;
 ---
 
 <a
-  href={`/${region.slug}`}
+  href={href ?? `/${region.slug}`}
   class="group relative block aspect-[4/5] overflow-hidden rounded-card shadow-card transition-shadow duration-300 hover:shadow-card-hover sm:aspect-[3/4]"
 >
   <Pic
