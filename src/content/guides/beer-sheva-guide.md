@@ -61,7 +61,7 @@ faqs:
 
 ## Tel Be'er Sheva — the UNESCO archaeological site
 
-The most historically significant site in or near Beer-Sheva sits on a low hill **5 km east of the modern city**. **Tel Be'er Sheva** was inscribed as a UNESCO World Heritage Site in 2005 alongside Tel Megiddo and Tel Hazor under the 'Biblical Tels — Megiddo, Hazor, Beer Sheba' designation — three ancient Israelite cities excavated to a comparable standard of preservation.
+The most historically significant site in or near Beer-Sheva sits on a low hill **5 km east of the modern city**. **Tel Be'er Sheva** was inscribed as a UNESCO World Heritage Site in 2005 alongside Tel Megiddo and Tel Hazor under the 'Biblical Tels — Megiddo, Hazor, Beer Sheba' designation — three ancient Israelite cities excavated to a comparable standard of preservation. A related but separately administered INPA site, [Tel Arad National Park](/tel-arad-guide) (28 km east), preserves the only ancient Israelite temple discovered outside Jerusalem and is a natural companion stop for visitors with a strong interest in biblical-period archaeology.
 
 What distinguishes the Beer-Sheva tel is its **water system**: an Iron Age (Israelite period, 10th–7th centuries BCE) water shaft and underground cistern hewn through the bedrock of the tel — approximately 70 metres of stepped descent into a holding system for runoff water. The engineering represents a sophisticated solution to the Negev's water scarcity problem, built at a scale that supplied an entire administrative city. It remains one of the best-preserved examples of this kind of water infrastructure from the ancient Near East.
 

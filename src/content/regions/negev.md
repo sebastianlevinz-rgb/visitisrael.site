@@ -106,7 +106,7 @@ The **Astronomy Israel** operator and the **Bereshit Hotel** observation deck ar
 
 ## How to Get to the Negev
 
-**Tel Aviv** is the closest international airport (about two hours by car to Mitzpe Ramon via Route 40). Egged bus routes connect [Beer-Sheva](/beer-sheva-guide) to Mitzpe Ramon and Sde Boker but the connecting buses to smaller sites (Avdat, Ein Avdat trailheads) are infrequent — a rental car is the practical default for a Negev trip. Beer-Sheva itself is worth a half-day for Tel Be'er Sheva (UNESCO biblical tel), the IAF Air Force Museum, and the ANZAC war cemetery before heading south into the desert.
+**Tel Aviv** is the closest international airport (about two hours by car to Mitzpe Ramon via Route 40). Egged bus routes connect [Beer-Sheva](/beer-sheva-guide) to Mitzpe Ramon and Sde Boker but the connecting buses to smaller sites (Avdat, Ein Avdat trailheads) are infrequent — a rental car is the practical default for a Negev trip. Beer-Sheva itself is worth a half-day for Tel Be'er Sheva (UNESCO biblical tel), the IAF Air Force Museum, and the ANZAC war cemetery before heading south into the desert. [Tel Arad National Park](/tel-arad-guide) — 28 km east of Beer-Sheva on Route 31 — preserves a 5,000-year-old Canaanite city and the only ancient Israelite temple discovered outside Jerusalem; it pairs well with Beer-Sheva on a full-day northern Negev circuit.
 
 **Eilat** has a smaller domestic airport (Ramon Airport, with regional flights) and is the southern entry option. From Eilat, Mitzpe Ramon is about two hours north along Route 40.
 

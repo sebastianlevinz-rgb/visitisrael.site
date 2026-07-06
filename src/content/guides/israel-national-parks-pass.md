@@ -75,6 +75,7 @@ The INPA manages over 63 nature reserves and archaeological parks across the cou
 - En Prat / Wadi Kelt Nature Reserve
 
 **Negev & southern Israel**
+- [Tel Arad National Park](/tel-arad-guide) (Canaanite city + Israelite temple, northern Negev)
 - Avdat National Park (Nabataean city)
 - Timna Park (copper mines, desert landscape)
 - Mamshit and Shivta Nabataean cities

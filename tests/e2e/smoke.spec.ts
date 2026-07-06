@@ -320,6 +320,7 @@ const ROUTES = [
   '/dead-sea-vs-eilat',
   '/beer-sheva-guide',
   '/ein-kerem-jerusalem-guide',
+  '/tel-arad-guide',
   '/fr/jerusalem',
   '/fr/tel-aviv',
   '/fr/dead-sea',
