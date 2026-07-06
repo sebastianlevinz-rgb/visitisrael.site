@@ -1,7 +1,7 @@
 ---
 lang: de
 title: "Das Gartengrabs: Eine ruhige Alternative zur Grabeskirche"
-description: "Besuch des Gartengrabs in Jerusalem nahe dem Damaskustor: der protestantische Pilgerort für Jesu Grab, Gordons Golgatha, ruhige Gärten, freier Eintritt und praktische Hinweise."
+description: "Gartengrab Jerusalem am Damaskustor: protestantischer Pilgerort, Gordons Golgatha, ruhige Gärten und freier Eintritt."
 region: jerusalem
 parentRegion: jerusalem
 heroImage: /images/sub-destinations/jerusalem/garden-tomb.jpg

@@ -1,7 +1,7 @@
 ---
 lang: fr
 title: "Le Tombeau du Jardin : une alternative paisible au Saint-Sépulcre"
-description: "Visiter le Tombeau du Jardin à Jérusalem, près de la Porte de Damas : site favori des protestants pour le tombeau de Jésus, le Calvaire de Gordon, des jardins sereins, entrée gratuite et conseils pratiques."
+description: "Tombeau du Jardin, Jérusalem : site protestant favori, Calvaire de Gordon, jardins sereins, entrée gratuite — conseils pratiques."
 region: jerusalem
 parentRegion: jerusalem
 heroImage: /images/sub-destinations/jerusalem/garden-tomb.jpg

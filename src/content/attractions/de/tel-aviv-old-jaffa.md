@@ -1,7 +1,7 @@
 ---
 lang: de
 title: "Alt-Jaffa: Tel Avivs 4.000 Jahre alter Hafendistrikt"
-description: "Besuch in Alt-Jaffa in Tel Aviv — der Hafen, der Flohmarkt, die Peter-Kirche, die Mahmoudiyya-Moschee und wie man einen halben Tag von Jaffa zurück in die Stadt gestaltet."
+description: "Alt-Jaffa, Tel Aviv: der Hafen, der Flohmarkt, die Peter-Kirche, die Mahmoudiyya-Moschee und praktische Tipps für einen Halbtag."
 region: tel-aviv
 parentRegion: tel-aviv
 heroImage: /images/sub-destinations/tel-aviv/old-jaffa.jpg

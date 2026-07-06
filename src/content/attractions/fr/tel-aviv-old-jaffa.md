@@ -1,7 +1,7 @@
 ---
 lang: fr
 title: "Vieux Jaffa : le port vieux de 4 000 ans de Tel-Aviv"
-description: "Visiter le Vieux Jaffa à Tel-Aviv — le port, le marché aux puces, l'église Saint-Pierre, la mosquée Mahmoudiyya et comment profiter d'une demi-journée de Jaffa au retour en ville."
+description: "Vieux Jaffa, Tel-Aviv : le port, le marché aux puces, l'église Saint-Pierre, la mosquée Mahmoudiyya et les meilleures balades."
 region: tel-aviv
 parentRegion: tel-aviv
 heroImage: /images/sub-destinations/tel-aviv/old-jaffa.jpg

@@ -1,7 +1,7 @@
 ---
 lang: fr
 title: "Neve Tzedek : le plus ancien quartier de Tel-Aviv et HaTachana"
-description: "Visiter Neve Tzedek à Tel-Aviv — maisons Templer restaurées, la rue Shabazi, le Centre Suzanne Dellal, la gare HaTachana et un itinéraire pédestre d'une demi-journée."
+description: "Neve Tzedek, Tel-Aviv : maisons Templer restaurées, rue Shabazi, Centre Suzanne Dellal, HaTachana et itinéraire d'une demi-journée."
 region: tel-aviv
 parentRegion: tel-aviv
 heroImage: /images/sub-destinations/tel-aviv/neve-tzedek.jpg

@@ -1,7 +1,7 @@
 ---
 lang: fr
-title: "Musée d'Israël : les rouleaux de la mer Morte et la maquette de Jérusalem"
-description: "Guide du Musée d'Israël à Jérusalem : le Sanctuaire du Livre et les manuscrits de la mer Morte, la maquette du Second Temple, les ailes archéologie et beaux-arts, et conseils pratiques."
+title: "Musée d'Israël : Rouleaux de la mer Morte et Second Temple"
+description: "Musée d'Israël, Jérusalem : Sanctuaire du Livre, manuscrits de la mer Morte, maquette du Second Temple, ailes archéologie et beaux-arts."
 region: jerusalem
 parentRegion: jerusalem
 heroImage: /images/sub-destinations/jerusalem/israel-museum.jpg
@@ -60,4 +60,4 @@ Les galeries principales sont remarquables :
 - **Bagages et consignes** — les grands sacs passent par la sécurité ; des casiers en libre-service sont disponibles près de l'entrée. La photographie sans flash est généralement autorisée, mais l'intérieur du Sanctuaire du Livre est sombre et les trépieds sont interdits.
 - **Restauration** — des cafés et un restaurant sont disponibles sur place, il est donc inutile de partir pour se ravitailler ; les options extérieures les plus proches se trouvent autour de la Knesset et de Givat Ram.
 - **Billets combinés** — un billet conjoint avec le **Bible Lands Museum** voisin offre un bon rapport qualité-prix si vous êtes déjà à Givat Ram.
-- **Les jours de fermeture varient** — les horaires sont réduits le vendredi et les veilles de fêtes pour le [Chabbat](/shabbat-guide), et certains dimanches sont fermés selon les saisons, donc vérifiez le programme du jour avant de partir.
+- **Les jours de fermeture varient** — les horaires sont réduits le vendredi et les veilles de fêtes pour le [Chabbat](/fr/shabbat-guide), et certains dimanches sont fermés selon les saisons, donc vérifiez le programme du jour avant de partir.

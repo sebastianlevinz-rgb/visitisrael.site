@@ -1,7 +1,7 @@
 ---
 lang: de
 title: "Neve Tzedek: Tel Avivs ältestes Viertel und HaTachana"
-description: "Besuch in Neve Tzedek in Tel Aviv — restaurierte Templer-Häuser, die Shabazi-Straße, das Suzanne Dellal Centre, der Bahnhof HaTachana und ein Halbtagsspaziergang."
+description: "Neve Tzedek, Tel Aviv: Templer-Häuser, Shabazi-Straße, Suzanne Dellal Centre, HaTachana und Halbtagsspaziergang."
 region: tel-aviv
 parentRegion: tel-aviv
 heroImage: /images/sub-destinations/tel-aviv/neve-tzedek.jpg

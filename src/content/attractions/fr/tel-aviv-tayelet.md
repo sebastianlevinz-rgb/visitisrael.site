@@ -1,7 +1,7 @@
 ---
 lang: fr
 title: "La Tayelet de Tel-Aviv : guide de la promenade de 14 km"
-description: "Parcourir la tayelet de Tel-Aviv — la promenade méditerranéenne de 14 km, les plages principales (Hilton, Gordon, Frishman, Bograshov), les itinéraires au coucher du soleil et tous les conseils pratiques."
+description: "Tayelet de Tel-Aviv : promenade méditerranéenne de 14 km, plages Hilton, Gordon, Frishman et Bograshov, itinéraires au coucher du soleil."
 region: tel-aviv
 parentRegion: tel-aviv
 heroImage: /images/sub-destinations/tel-aviv/tayelet.jpg

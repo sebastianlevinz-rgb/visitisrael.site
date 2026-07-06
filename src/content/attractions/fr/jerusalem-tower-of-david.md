@@ -1,7 +1,7 @@
 ---
 lang: fr
 title: "Tour de David : musée et citadelle de Jérusalem"
-description: "Visiter la Tour de David dans la citadelle de Jérusalem, près de la Porte de Jaffa : 4 000 ans d'histoire, chemin de ronde panoramique et spectacle nocturne son et lumière."
+description: "Tour de David, Jérusalem : citadelle près de la Porte de Jaffa, chemin de ronde panoramique, spectacle nocturne son et lumière."
 region: jerusalem
 parentRegion: jerusalem
 heroImage: /images/sub-destinations/jerusalem/tower-of-david.jpg

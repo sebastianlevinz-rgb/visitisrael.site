@@ -1,7 +1,7 @@
 ---
 lang: de
 title: "Die Tayelet von Tel Aviv: Führer zur 14 km langen Strandpromenade"
-description: "Die Tayelet von Tel Aviv entlanglaufen — die 14 km lange Mittelmeerpromenade, die wichtigsten Strände (Hilton, Gordon, Frishman, Bograshov), Sonnenuntergangsrouten und praktische Tipps."
+description: "Tayelet Tel Aviv: 14 km lange Mittelmeerpromenade, Strände Hilton, Gordon, Frishman und Bograshov, Sonnenuntergangsrouten."
 region: tel-aviv
 parentRegion: tel-aviv
 heroImage: /images/sub-destinations/tel-aviv/tayelet.jpg

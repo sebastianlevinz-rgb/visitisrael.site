@@ -1,7 +1,7 @@
 ---
 lang: de
 title: "Boulevard Rothschild und die Bauhaus White City von Tel Aviv"
-description: "Spaziergang auf dem Boulevard Rothschild und durch die Bauhaus White City von Tel Aviv — UNESCO-Welterbe, Bauhaus-Architektur, Führungsrouten, Geschichte und praktische Tipps."
+description: "Boulevard Rothschild und Bauhaus White City, Tel Aviv: UNESCO-Welterbe, Architektur, Führungsrouten und Geschichte."
 region: tel-aviv
 parentRegion: tel-aviv
 heroImage: /images/sub-destinations/tel-aviv/rothschild.jpg

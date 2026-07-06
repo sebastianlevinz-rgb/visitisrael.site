@@ -1,7 +1,7 @@
 ---
 lang: fr
 title: "Boulevard Rothschild et la Ville Blanche Bauhaus de Tel-Aviv"
-description: "Se promener sur le boulevard Rothschild et dans la Ville Blanche Bauhaus de Tel-Aviv — patrimoine UNESCO, architecture Bauhaus, itinéraires de visite, histoire et conseils pratiques."
+description: "Boulevard Rothschild et Ville Blanche de Tel-Aviv : patrimoine UNESCO Bauhaus, architecture, itinéraires de visite et histoire."
 region: tel-aviv
 parentRegion: tel-aviv
 heroImage: /images/sub-destinations/tel-aviv/rothschild.jpg

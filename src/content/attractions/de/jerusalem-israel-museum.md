@@ -1,7 +1,7 @@
 ---
 lang: de
-title: "Das Israel-Museum: Schriftrollen vom Toten Meer und Modell Jerusalems"
-description: "Führer durch das Israel-Museum in Jerusalem: das Heiligtum des Buches und die Schriftrollen vom Toten Meer, das Zweite-Tempel-Modell, Archäologie- und Kunstflügel sowie praktische Tipps."
+title: "Israel-Museum Jerusalem: Schriftrollen und Zweites-Tempel-Modell"
+description: "Israel-Museum Jerusalem: Heiligtum des Buches, Schriftrollen vom Toten Meer, Zweites-Tempel-Modell, Archäologie- und Kunstflügel."
 region: jerusalem
 parentRegion: jerusalem
 heroImage: /images/sub-destinations/jerusalem/israel-museum.jpg
@@ -60,4 +60,4 @@ Die Hauptgalerien sind herausragend:
 - **Gepäck und Schließfächer** — große Taschen werden durch die Sicherheitskontrolle geschleust; kostenlose Garderobenspinde sind in der Nähe des Eingangs verfügbar. Fotografieren ohne Blitz ist generell erlaubt, aber das Innere des Heiligtums ist dunkel und Stative sind nicht erlaubt.
 - **Verpflegung** — auf dem Gelände gibt es Cafés und ein Restaurant; die nächsten Außenmöglichkeiten befinden sich rund um die Knesset und in Givat Ram.
 - **Kombinierte Tickets** — ein gemeinsames Ticket mit dem benachbarten **Bible Lands Museum** bietet gutes Preis-Leistungs-Verhältnis, wenn man sich bereits in Givat Ram befindet.
-- **Schließtage variieren** — die Öffnungszeiten verkürzen sich freitags und an Feiertagen für [Schabbat](/shabbat-guide), und einige Sonntage sind je nach Saison geschlossen — daher den Tagesplan vorab prüfen.
+- **Schließtage variieren** — die Öffnungszeiten verkürzen sich freitags und an Feiertagen für [Schabbat](/de/shabbat-guide), und einige Sonntage sind je nach Saison geschlossen — daher den Tagesplan vorab prüfen.

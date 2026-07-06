@@ -1,7 +1,7 @@
 ---
 lang: de
 title: "Davidsturm: Museum und Zitadelle von Jerusalem"
-description: "Besuch des Davidsturm-Museums in der Zitadelle von Jerusalem am Jaffator: 4.000 Jahre Stadtgeschichte, Panoramarundgang auf den Wehrgängen und Licht-und-Ton-Spektakel bei Nacht."
+description: "Davidsturm Jerusalem am Jaffator: Zitadelle, Panoramarundgang auf den Wehrgängen und Licht-und-Ton-Spektakel bei Nacht."
 region: jerusalem
 parentRegion: jerusalem
 heroImage: /images/sub-destinations/jerusalem/tower-of-david.jpg
