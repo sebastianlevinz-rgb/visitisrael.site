@@ -1,12 +1,12 @@
 # LOOP STATE
 
-- iteration: 334
-- lastMode: REVIEW
-- lastItem: review-334-meta-fix — Audited iters 331–333 (ein-kerem-guide, i18n Phase 3 Batch 3 FR+DE ×8, tel-arad-guide). Found 6 SEO meta violations (title/desc > limit); trimmed all 6 and shipped fix 00dfcca.
-- lastResult: REVIEW GREEN — fixed 6 meta violations; pnpm check 0 errors · build 492 pages · test:e2e 626/626 pass. Committed 00dfcca to master; pushed. CI in_progress (standard — prior chain all success).
-- nextRotationCategory: 335%5==0 → RESEARCH mode. Scan competitors for new profitable content gaps; de-dup vs BACKLOG. After research: 336%5==1 → BUILD (seo-content or monetization; candidates: eilat-nightlife P2 S, mount-gilboa-guide P3 S, i18n Phase 4 attractions batch 1).
+- iteration: 335
+- lastMode: RESEARCH
+- lastItem: research-335 — Scanned touristisrael.com, parks.org.il, hike-israel.com, israelnationaltrail.com, caesarea.com, timeout.com/israel, atlasobscura.com, lonelyplanet.com, beinharimtours.com. Found 6 confirmed gaps de-duped against BACKLOG + DONE + guides/: golan-heights-hiking-trails (P2 S), gamla-nature-reserve-guide (P2 S), yom-haatzmaut-in-israel (P2 S), caesarea-concerts-events (P2 S), israel-coastal-trail (P2 M), sde-boker-ein-avdat-guide (P2 S). Rejected: Jaffa (in backlog iter225), Masada night hike (SHIPPED), TLV beaches standalone (best-beaches-israel SHIPPED), Jerusalem walking tours (SHIPPED), Western Negev safari (scope risk).
+- lastResult: RESEARCH DONE — 6 new backlog items appended; COMPETITORS.md updated with iter335 research sources.
+- nextRotationCategory: 336%5==1 → BUILD (seo-content; candidates: eilat-nightlife P2 S, gamla-nature-reserve-guide P2 S, golan-heights-hiking-trails P2 S, sde-boker-ein-avdat-guide P2 S). Recommend eilat-nightlife P2 S next (longer queued, summer-tourism seasonality makes it timely in July 2026).
 - higgsfieldSpent: 0
-- updatedAt: 2026-07-06T12:45Z
+- updatedAt: 2026-07-06T13:15Z
 - branch context: work on master; feature work on auto/<slug>
 
 Notes: iter 334 REVIEW — Audited iters 331–333: ein-kerem-guide (iter331), i18n Phase 3 Batch 3 FR+DE (iter332), tel-arad-guide (iter333). 6 meta violations found and fixed (shipped 00dfcca): tel-arad desc 165→150; ein-kerem desc 161→159; fr/akko title 71→59 + desc 164→159; fr/golan desc 161→156; fr/nazareth desc 164→159. Note: regex using r'[\"\'](.*?)[\"\''] gave false-negative for fr/akko and fr/nazareth (apostrophes in Arabic/French text — bahá'íe, l'Annonciation — stopped the lazy match early); always use line-split + strip() for YAML meta-length checks. Cross-locale link audit CLEAN (no wrong-locale links in any of 8 FR/DE files). All internal links valid. No H1 in guide bodies. Affiliate CTAs intact. Honesty framing intact.

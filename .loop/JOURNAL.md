@@ -6051,3 +6051,39 @@ Lesson: regex r'[\"\'](.*?)[\"\''] gives false-negatives when field values conta
 Gate: pnpm check 0 errors (121 files) · pnpm build 492 pages (unchanged) · pnpm test:e2e 626/626 pass. GREEN.
 Ship: committed 00dfcca to master; pushed origin/master. CI in_progress at state-update (standard — prior chain all success).
 Next: iter 335 → RESEARCH mode (335%5==0). Competitor scan; de-dup vs BACKLOG.
+
+---
+
+## Iter 335 — RESEARCH (2026-07-06)
+
+Mode: RESEARCH (335%5==0).
+Objective: Scan competitors for new profitable content gaps; de-dup against BACKLOG + DONE + guides/ directory; add 6–10 net-new prioritised items.
+
+Sources consulted: touristisrael.com (golan-hiking, gamla, yom-haatzmaut, caesarea-concerts, sde-boker), parks.org.il (yehudiya, gamla, ein-avdat, dor-habonim, apollonia), hike-israel.com (yehudiya, shvil-hachof sections), israelnationaltrail.com/coastal-trail, caesarea.com (event calendar), timeout.com/israel (independence-day, caesarea-amphitheater), atlasobscura.com (ben-gurion's-desert-home), lonelyplanet.com (golan, negev), beinharimtours.com (gamla), ben-gurion-heritage.org.il.
+
+De-duplication method: systematic grep passes against full BACKLOG.md (820KB+) + DONE.md + guides/ directory listing for each candidate before inclusion. All 6 items confirmed ZERO P-tagged standalone hits before adding.
+
+Rejected candidates (confirmed already covered):
+- Jaffa standalone guide → in backlog (iter225 P2 M)
+- Masada night hike → masada-visitor-guide.md SHIPPED
+- Tel Aviv beaches standalone → best-beaches-israel.md SHIPPED covers TLV beaches
+- Jerusalem walking tours → jerusalem-old-city-guide.md SHIPPED
+- Western Negev / Sapir safari → scope risk (politically adjacent to Gaza zone)
+- Ancient Galilean synagogues circuit → Korazim already in backlog (iter330); Beit Alpha covered in mount-gilboa-guide backlog entry (iter330)
+
+6 new backlog items added ([iter335 research] tag):
+
+1. /golan-heights-hiking-trails (P2 S) — Golan hiking trails guide: Yehudiya Forest, Hexagon Pool/Breichat HaMeshushim, Nahal Meshushim, Gamla trail. Distinct from golan-heights-guide.md (broad overview). Competitors: hike-israel.com, touristisrael.com/golan-hiking.
+
+2. /gamla-nature-reserve-guide (P2 S) — Gamla Nature Reserve standalone: ancient Jewish city 67 CE, griffon vulture colony 400+ pairs, INPA, 5km loop. Brief mention in golan-heights-guide.md only. Competitors: touristisrael.com, beinharimtours.com, parks.org.il.
+
+3. /yom-haatzmaut-in-israel (P2 S) — Yom Ha'atzmaut tourist guide: 2026 date May 13; IAF aerial display over TLV beachfront; BBQ culture; Yom HaZikaron midnight transition ceremony; Jerusalem Flag Parade. Only 4 sentences in traveling-israel-jewish-holidays.md currently. Competitors: touristisrael.com, secrettelaviv.com, timeout.com/israel.
+
+4. /caesarea-concerts-events (P2 S) — Caesarea Roman Theatre concerts guide: 4,000-seat outdoor venue, April–October season, ticketing logistics, "combine archaeology + concert" pattern, Festival of Light. Currently no events angle in caesarea-guide.md. Competitors: caesarea.com, timeout.com/israel, touristisrael.com/caesarea-concerts.
+
+5. /israel-coastal-trail (P2 M) — Shvil HaChof coastal trail: 70km+ Tel Aviv → Haifa, section-by-section guide, Dor Habonim, Caesarea aqueduct beach, Apollonia, Netanya cliffs. Completely absent from site. Competitors: hike-israel.com, israelnationaltrail.com.
+
+6. /sde-boker-ein-avdat-guide (P2 S) — Sde Boker & Ein Avdat canyon combined guide: Ben-Gurion grave + kibbutz heritage; Ein Avdat white chalk canyon spring + trails (lower 1.5km easy, upper 3.5km loop moderate). Only embedded as a "Day 2 stop" in south-israel-itinerary backlog item. Competitors: touristisrael.com/sde-boker, atlasobscura.com, parks.org.il/ein-avdat.
+
+COMPETITORS.md updated with iter335 competitor notes per source.
+Next: iter 336 → BUILD (336%5==1). Recommend eilat-nightlife P2 S (summer seasonality; July 2026 timely; longer-queued) or gamla-nature-reserve-guide P2 S (compact, archaeology+nature dual audience).

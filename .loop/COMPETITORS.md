@@ -3799,3 +3799,54 @@ Sources: cwgc.org, australian-war-memorial.gov.au, alltrails.com, hike-israel.co
 
 **Items confirmed already in backlog (correctly excluded):**
 - Beit She'an NP, Rosh Hanikra, Timna Valley, Beit Guvrin / Maresha, Israel surfing, Darom Adom wildflowers, Gan HaShlosha/Sachne, Hula Valley birdwatching, Achziv NP — all confirmed queued in existing BACKLOG.md entries.
+
+---
+
+## Iter 335 Research (2026-07-06) — Sources consulted
+
+### Golan Heights hiking — competitor landscape
+- **touristisrael.com/golan-hiking**: Dedicated Golan hiking page covering Yehudiya Forest, Hexagon Pool (Breichat HaMeshushim), Gamla, Banias. ~800 words, no affiliate CTAs. Gap: no single trail-by-trail depth guide.
+- **hike-israel.com**: Full Yehudiya trail writeups with GPX tracks, difficulty ratings, seasonal access notes. Best competitor for the niche; we can outcompete on monetization + SEO metadata.
+- **parks.org.il/yehudiya**: Official INPA content — trail map + permit info only. No visitor narrative.
+- **lonelyplanet.com/israel/golan-heights**: Golan section ~400 words; Yehudiya and Gamla mentioned as top activities. No dedicated hiking guide.
+
+### Gamla Nature Reserve — competitor landscape
+- **parks.org.il/gamla**: INPA official page; comprehensive but dry (opening hours, prices, trail lengths). Lacks historical + vulture colony depth.
+- **beinharimtours.com/gamla**: Tour operator landing page; highlights the dual history + vulture angle well (~400 words). No standalone guide beyond booking funnel.
+- **touristisrael.com**: One of Israel's top content competitors; 600-word Gamla feature; Jewish Masada parallel prominent; no vulture-observation-timing guidance.
+
+### Yom Ha'atzmaut — competitor landscape
+- **touristisrael.com/yom-haatzmaut**: 600-word standalone page; covers IAF air show + BBQ culture + transition ceremony. Published annually with updated dates.
+- **secrettelaviv.com**: Annual Yom Ha'atzmaut independence day events round-up; Tel Aviv focused.
+- **timeout.com/israel**: "Independence Day air show Tel Aviv" article; beach viewing logistics.
+- **jewishvirtuallibrary.org**: Historical background on the holiday; academic tone.
+- **Gap:** No Israel travel site covers the Yom HaZikaron → Yom Ha'atzmaut transition ceremony in depth for tourists (the midnight siren transition is one of the most emotionally powerful events in the Israeli calendar; zero tourist guidance exists on respectful attendance).
+
+### Caesarea concerts — competitor landscape
+- **caesarea.com**: Official operator site; event calendar, seating maps, ticketing links.
+- **timeout.com/israel/things-to-do/caesarea-amphitheater**: "Ultimate Guide" article, 800 words; covers acoustics, logistics, seat tips. Best competitor in the space.
+- **touristisrael.com/caesarea-concerts**: 500-word standalone page; standard competitor coverage.
+- **eventim.co.il + ticketmaster.co.il**: Ticketing platforms only; no editorial content.
+- **Gap:** No Israel travel site covers the Festival of Light (winter light installations at Roman ruins) or anchors the "combine archaeology day + evening concert" visitor pattern.
+
+### Shvil HaChof (Israel Coastal Trail) — competitor landscape
+- **israelnationaltrail.com/coastal-trail**: Best existing guide; section-by-section breakdown with distances. English content limited.
+- **hike-israel.com/shvil-hachof**: Full multi-day itinerary; GPS tracks; accommodation suggestions per section. Best English-language competitor.
+- **parks.org.il/dor-habonim**: INPA reserve page for the wildest coastal section; logistics only.
+- **lonelyplanet.com**: No dedicated Coastal Trail page found; mentions trail briefly within "hiking" overview.
+- **Gap:** Zero Israel travel site integrates the trail narrative with affiliate monetization (car hire for shuttles, accommodation CTAs per section), nor connects the Caesarea aqueduct beach section to the broader caesarea-guide audience.
+
+### Sde Boker / Ein Avdat — competitor landscape
+- **touristisrael.com/sde-boker**: 700-word page covering Ben-Gurion cabin + grave + Ein Avdat together; good coverage but no trail depth or practicalities beyond opening hours.
+- **atlasobscura.com/places/ben-gurions-desert-home**: Focused entirely on Ben-Gurion's personal residence angle; excellent emotional hook.
+- **parks.org.il/ein-avdat**: Official INPA trail page; practical only (trail lengths, difficulty, hours).
+- **lonelyplanet.com/israel/negev/ben-gurions-grave**: Brief write-up (~300 words); focuses on grave site; minimal Ein Avdat canyon depth.
+- **ben-gurion-heritage.org.il**: The official heritage institute; Hebrew primary, English secondary; academic framing.
+- **Gap:** No competitor integrates the Ben-Gurion emotional/historical narrative with the canyon trail experience as a unified day-trip, nor connects to the broader Negev circuit (Avdat, Mitzpe Ramon).
+
+**Items confirmed NOT gaps (correctly excluded):**
+- Jaffa guide → already in backlog (iter225)
+- Masada night hike → masada-visitor-guide.md SHIPPED covers it
+- Tel Aviv beaches → best-beaches-israel.md SHIPPED provides adequate coverage
+- Western Negev / Sapir safari → politically adjacent to Gaza conflict zone; scope risk
+- Jerusalem city walking tours → jerusalem-old-city-guide.md SHIPPED covers this angle
