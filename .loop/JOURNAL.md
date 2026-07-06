@@ -6162,3 +6162,26 @@ encoding when German typographic quotes appear. smoke.spec.ts +12 routes. 508 pa
 **Gate:** pnpm check 0 errors → build 524 pages (+16 from 508) → pnpm test:e2e 677/677 pass.
 
 **SHA:** df43b40 · pushed origin/master
+
+## 2026-07-06T22:37Z · iter 344 · REVIEW · review-344-meta-locale-fix
+Mode: REVIEW (344%5==4). Audited iters 341–343.
+Scope: mitzpe-ramon-guide (iter341), i18n Phase 4 Batch 1 (iter342: 6 Jerusalem attractions FR+DE),
+  i18n Phase 4 Batch 2 (iter343: 8 attractions FR+DE — city-of-david, tower-of-david, israel-museum,
+  garden-tomb, old-jaffa, neve-tzedek, tayelet, rothschild).
+Checks: SEO meta (title ≤65, desc ≤160) via frontmatter-only YAML parser; H1 in body; internal link
+  locale-correctness; honesty framing.
+Findings:
+  - mitzpe-ramon-guide: CLEAN (title 54, desc 149)
+  - Phase 4 Batch 1 (12 files): CLEAN — all titles ≤65, all descs ≤160
+  - Phase 4 Batch 2 (16 files): 18 defects:
+      2 title violations: fr/jerusalem-israel-museum (73→58), de/jerusalem-israel-museum (69→64)
+      12 desc violations (all trimmed to ≤140): fr+de tower-of-david, israel-museum,
+        garden-tomb, old-jaffa, neve-tzedek, tayelet, rothschild
+      2 locale links: fr/jerusalem-israel-museum /shabbat-guide→/fr/shabbat-guide,
+        de/jerusalem-israel-museum /shabbat-guide→/de/shabbat-guide
+  - H1 in body: NONE in any file ✓
+  - Honesty framing: intact ✓
+Fix branch: auto/review-344-meta-locale-fix (14 files).
+Gate: pnpm check 0 errors · build 524 pages · test:e2e 677/677 pass. GREEN.
+Ship: squash-merged to master 597bcc1, pushed. CI in_progress at state-write time; prior iter343 commit df43b40 CI = success.
+Next: iter 345 → RESEARCH mode (345%5==0). Scan for profitable content gaps.
