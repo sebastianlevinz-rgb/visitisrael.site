@@ -1,12 +1,12 @@
 # LOOP STATE
 
-- iteration: 339
-- lastMode: REVIEW (audited iters 336-338 + broad EN guide meta scan)
-- lastItem: review-meta-trim — REVIEW pass: audited eilat-nightlife (iter336), city-of-david-jerusalem (iter337), gamla-nature-reserve-guide (iter338). All 20 internal links valid; no H1 in bodies; honesty framing intact; CTAs intact. Broad scan of all EN guides found 4 meta violations: best-hotels-tel-aviv title 67→51; christmas-in-israel desc 163→154; city-of-david-jerusalem desc 171→143; maccabiah-games-2026 title 70→60. All fixed, gate green, shipped 664af8f.
-- lastResult: REVIEW DONE — 4 meta violations found and fixed; shipped 664af8f. pnpm check 0 errors, build 495 pages, 632/632 e2e passed. Push succeeded. CI in_progress at commit time (Lighthouse + CI both started for 664af8f ~17:36Z). Prior iter338 commit 8b4e92e: Lighthouse=success.
-- nextRotationCategory: 340%5==0 → RESEARCH. 341%5==1 → BUILD (seo-content). 342%5==2 → BUILD (monetization or i18n). 343%5==3 → BUILD (tools). 344%5==4 → REVIEW.
+- iteration: 340
+- lastMode: RESEARCH
+- lastItem: research-340 — RESEARCH pass: confirmed 4 net-new gaps (motorcycle touring, haifa cruise port excursions, banias nature reserve, tel dan nature reserve). 25+ regex de-dup passes against 810-line BACKLOG.md + DONE.md + guides/ dir. Rejected: nazareth food guide (marginal vs Nazareth city guide backlog), working holiday visa (explicitly rejected iter325 — deferred), EV touring (too niche). Motorcycle touring confirmed 0 backlog hits, TAMAR = Israel's only organized guided motorcycle tour operator. Haifa cruise terminal newly inaugurated May 14 2026 — brand-new timely gap. Banias and Tel Dan confirmed only briefly mentioned within Golan/water-hike guides, no standalone.
+- lastResult: RESEARCH DONE — 4 new items added to BACKLOG. No gate/ship (research mode). Next iter341 → BUILD seo-content (highest P2 ready items include Mitzpe Ramon guide, Bethlehem guide, Muslim-friendly Israel guide, Ashdod cruise port excursions, haifa-cruise-port-excursions).
+- nextRotationCategory: 341%5==1 → BUILD (seo-content). 342%5==2 → BUILD (monetization or i18n). 343%5==3 → BUILD (tools). 344%5==4 → REVIEW. 345%5==0 → RESEARCH.
 - higgsfieldSpent: 0
-- updatedAt: 2026-07-06T17:40Z
+- updatedAt: 2026-07-06T18:10Z
 - branch context: work on master; feature work on auto/<slug>
 
 Notes: iter 339 REVIEW — Broad EN guide meta scan technique: do not use lazy-match regex with quotes (apostrophes in titles/descs can break it). Instead use per-file YAML frontmatter block extraction + targeted title/desc line-search with alternating quote chars. Confirmed: the city-of-david desc was authored too long in iter337 and caught within 2 iters by REVIEW. Lesson for authoring: always verify title ≤65 and desc ≤160 before committing.

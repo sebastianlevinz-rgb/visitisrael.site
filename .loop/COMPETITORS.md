@@ -3850,3 +3850,27 @@ Sources: cwgc.org, australian-war-memorial.gov.au, alltrails.com, hike-israel.co
 - Tel Aviv beaches → best-beaches-israel.md SHIPPED provides adequate coverage
 - Western Negev / Sapir safari → politically adjacent to Gaza conflict zone; scope risk
 - Jerusalem city walking tours → jerusalem-old-city-guide.md SHIPPED covers this angle
+
+## iter340 (2026-07-06) — Motorcycle touring + Haifa cruise terminal + Northern Galilee nature sites
+
+**sapirience.com** — adventure tour booking platform listing TAMAR Mediterranean Bike Tours as Israel's only organized guided motorcycle tour operator; 7–10 day BMW fleet tours confirmed; year-round calendar. First evidence of Israel motorcycle touring market.
+
+**adventurebikerider.com/article/israel** — multi-day Israel motorcycle route report by independent traveler; confirms Route 40 Negev + Route 90 Jordan Valley as the signature long-distance motorcycle roads; practical notes on border crossings and fuel logistics.
+
+**tripaneer.com motorcycle-tours Israel** — aggregates 4+ Israel motorcycle tour packages; confirms the niche has commercial supply; good signal for SEO demand.
+
+**atij.org (Adventure Tour Operators Israel)** — industry association listing confirms TAMAR Adventures as a member; adds legitimacy to the motorcycle touring sector as a recognized travel category.
+
+**compasstravelisrael.com** — shore excursions operator covering the new Haifa Cruise Terminal (inaugurated May 14, 2026); confirms distinct northern excursion catchment from Ashdod; documents Akko + Nazareth + Caesarea as top Haifa port day trips.
+
+**cruisemapper.com/ports/haifa-port-182** — port database; confirms new terminal specs and vessel capacity; documents that the new Haifa terminal handles 2 large ships simultaneously — significant volume implication for excursion demand.
+
+**parks.org.il/banias** — official INPA page for Banias (Nahal Hermon) Nature Reserve; confirms INPA pass validity; trail maps and opening hours.
+
+**hike-israel.com/banias + /tel-dan** — dedicated hiking guides for both sites; confirms competitor organic coverage; these pages rank for "Banias guide Israel" and "Tel Dan hike" respectively with no competition from visitisrael.site.
+
+**christiansintheland.com/banias** — Christian pilgrimage perspective on Caesarea Philippi / Banias; confirms dual audience (nature traveler + faith traveler) for the Banias guide; Peter's Confession context is a significant draw.
+
+**biblewalks.com/TelDan** — encyclopedic biblical archaeology site; confirmed coverage of Tel Dan Stele + Abraham's Gate; no competition from visitisrael.site for "Tel Dan Israel" queries.
+
+**Key patterns from iter340:** (1) Niche adventure sports (motorcycle) are underrepresented across all Israel travel sites — first-mover opportunity; (2) New Haifa Cruise Terminal (May 2026) = all competitor cruise guides are stale — timely update opportunity; (3) Northern Galilee individual site guides (Banias, Tel Dan, Korazim, Gamla, Nimrod) are each individually small but form a cluster of P3 content that collectively builds northGalilee/Golan topical authority.
