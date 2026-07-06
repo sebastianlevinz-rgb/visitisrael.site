@@ -6087,3 +6087,9 @@ Rejected candidates (confirmed already covered):
 
 COMPETITORS.md updated with iter335 competitor notes per source.
 Next: iter 336 → BUILD (336%5==1). Recommend eilat-nightlife P2 S (summer seasonality; July 2026 timely; longer-queued) or gamla-nature-reserve-guide P2 S (compact, archaeology+nature dual audience).
+
+## 2026-07-06T14:40Z · iter 336 · BUILD (seo-content) · eilat-nightlife
+What: New /eilat-nightlife guide. P2 S seo-content. Completes the nightlife triplet: tel-aviv-nightlife (iter175) + jerusalem-nightlife (iter181) + Eilat. Content covers North Beach promenade strip (Royal Beach zone, the main corridor), beach clubs (sunbed→DJ format after dark), Texas Pub (sports bar, rooftop terrace), Three Monkeys (British pub character), Unplugged (live acoustic/band nights), Red Sea Jazz Festival (annual August, outdoor waterfront, 4-day jazz+world music, link redsea-jazz.com), Coral Beach area quieter bars. Three affiliate CTAs: GYG Eilat evening tours + Viator sunset cruise + Booking North Beach hotels. Six FAQs. Cross-links: eilat-travel-guide.md promenade evening sentence +1 link, israel-evening-activities.md callout updated to include Jerusalem + Eilat nightlife links, Footer.astro +1 li after eilat-tours-compared. Honesty: no fabricated venue ratings/prices; all venue mentions include caveat "schedule changes seasonally — verify on Google Maps/social"; Red Sea Jazz Festival dates framed as "typically August, check redsea-jazz.com"; border crossing closing time caveat; tax-free drink discount framed as "roughly 15–20%" not exact.
+Gate: pnpm check (0 errors) ✓; pnpm build (493 pages) ✓; pnpm test:e2e (626 passed) ✓.
+Merge: dbfc1fc pushed to origin/master at 2026-07-06T14:36Z.
+Prod deploy: CI in_progress at time of state update (both CI + Lighthouse workflows started on dbfc1fcdc2, started ~14:36Z). Previous commit (ecdd110) CI: success/success. No failure signal; leaving CI to resolve — next iteration start-check will confirm.
