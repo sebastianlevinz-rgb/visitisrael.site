@@ -1,5 +1,5 @@
 ---
-title: 'Best Hotels in Tel Aviv 2026: Area Guide with Picks at Every Budget'
+title: 'Best Hotels in Tel Aviv 2026: Picks at Every Budget'
 description: 'Best hotels in Tel Aviv by neighborhood: budget, mid-range and luxury picks by area, from Florentin guesthouses to Tayelet beachfront hotels.'
 heroImage: /images/regions/tel-aviv/hero.jpg
 category: Accommodation

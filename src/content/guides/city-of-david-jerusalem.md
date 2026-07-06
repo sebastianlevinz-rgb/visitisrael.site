@@ -1,6 +1,6 @@
 ---
 title: "City of David Jerusalem: Hezekiah's Tunnel Visitor Guide (2026)"
-description: "City of David Jerusalem: wade Hezekiah's Tunnel, see the Pool of Siloam, and understand the site before you book. Hours, tickets, tours, and honesty about the controversy."
+description: "City of David Jerusalem: wade Hezekiah's Tunnel, see the Pool of Siloam, and plan your visit. Hours, tickets, tours, and the dual-name context."
 heroImage: /images/sub-destinations/jerusalem/city-of-david.jpg
 category: Archaeological Sites
 updatedAt: 2026-07-06

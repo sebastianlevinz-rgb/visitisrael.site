@@ -1,5 +1,5 @@
 ---
-title: 'Maccabiah Games 2026: Spectator & Visitor Guide to the Jewish Olympics'
+title: 'Maccabiah Games 2026: Spectator Guide to the Jewish Olympics'
 description: "Guide to the 22nd Maccabiah Games 2026 — spectator access, venue cities, accommodation, transport, and volunteering at the Jewish Olympics."
 heroImage: /images/regions/tel-aviv/hero.jpg
 category: Events

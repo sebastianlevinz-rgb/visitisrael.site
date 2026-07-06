@@ -1,6 +1,6 @@
 ---
 title: 'Christmas in Israel: Bethlehem, Nazareth & Winter Travel Guide'
-description: 'Experience Christmas in Israel — Midnight Mass at the Church of the Nativity, Nazareth Christmas market, Jerusalem Holy Sepulchre services, and winter travel tips.'
+description: 'Experience Christmas in Israel — Midnight Mass at the Church of the Nativity, Nazareth Christmas market, Jerusalem Holy Sepulchre, and winter travel tips.'
 heroImage: /images/regions/jerusalem/old-city.jpg
 category: Planning
 updatedAt: 2026-07-04
