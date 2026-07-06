@@ -206,6 +206,22 @@ const ROUTES = [
   '/de/jerusalem',
   '/de/tel-aviv',
   '/de/dead-sea',
+  '/fr/jerusalem/city-of-david',
+  '/fr/jerusalem/tower-of-david',
+  '/fr/jerusalem/israel-museum',
+  '/fr/jerusalem/garden-tomb',
+  '/fr/tel-aviv/old-jaffa',
+  '/fr/tel-aviv/neve-tzedek',
+  '/fr/tel-aviv/tayelet',
+  '/fr/tel-aviv/rothschild',
+  '/de/jerusalem/city-of-david',
+  '/de/jerusalem/tower-of-david',
+  '/de/jerusalem/israel-museum',
+  '/de/jerusalem/garden-tomb',
+  '/de/tel-aviv/old-jaffa',
+  '/de/tel-aviv/neve-tzedek',
+  '/de/tel-aviv/tayelet',
+  '/de/tel-aviv/rothschild',
 ];
 
 for (const route of ROUTES) {
