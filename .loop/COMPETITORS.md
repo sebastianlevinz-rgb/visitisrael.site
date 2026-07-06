@@ -3750,3 +3750,52 @@ Sources: cwgc.org, australian-war-memorial.gov.au, alltrails.com, hike-israel.co
 - Zippori/Sepphoris is the most surprising omission — a top INPA site by visit count that somehow survived 325 iterations without entering our backlog.
 - City guide series is nearly complete (Beer Sheva = last major gap); all other Israeli cities of significance now have guides or are in backlog.
 - Christian pilgrimage market (Magdala, Zippori Christian history) is growing post-2022 and competitors are investing editorial resources here; our galilee-christian-sites-circuit + planned additional guides position us well.
+
+### 2026-07-06 · iter 330 · Competitor gap scan (Eilat entertainment, East Jerusalem, UNESCO tels, food/drink, Galilee archaeology)
+
+**Sources checked:** touristisrael.com, lonelyplanet.com, roughguides.com, tripadvisor.com (forums + attraction pages), getyourguide.com, viator.com, beinharim.com, abrahamtours.com, nomadicmatt.com, thebroke backpacker.com, timeout.com/israel, israeltravel.com, madbrad.com, wikivoyage (Israel sub-articles), secretsofisrael.com.
+
+**Methodology:** Systematic Python3 regex scans across BACKLOG.md + DONE.md + guides/ directory listing before accepting any item as a true gap. Cross-referenced natural-language forms (e.g. "eilat nightlife") AND slug forms ("/eilat-nightlife") to distinguish standalone entries from cross-references embedded inside other guides.
+
+**Confirmed gaps added to backlog (6 items):**
+
+#### Eilat nightlife & bars (/eilat-nightlife)
+- timeout.com/israel: Eilat city guide with dedicated "Nightlife" section (10+ venues); high engagement
+- tripadvisor.com/Nightlife-g293999: 40+ Eilat nightlife listings, many with 4-star average; consistent tourist inquiry on forums
+- roughguides.com/israel/eilat: section dedicated to bars + clubs; Red Sea resort nightlife is a proven content pattern
+- **Gap:** We have a full Eilat guide + Eilat diving guide; nightlife is only 2 sentences in the main guide; no competitor with deep Eilat nightlife standalone content except Timeout. High-intent searches: "eilat bars", "eilat clubs", "eilat nightlife 2026".
+
+#### Ein Kerem Jerusalem village (/ein-kerem-jerusalem-guide)
+- lonelyplanet.com/israel/jerusalem/ein-kerem: dedicated section; rates it among Jerusalem's must-sees
+- roughguides.com: Ein Kerem covered as day trip from Jerusalem; highlight = Church of St John the Baptist
+- franciscanterra.org: pilgrimage context (birth of John the Baptist, Church of the Visitation); strong Catholic travel audience
+- **Gap:** "Ein Kerem" appears 6× in our backlog/guides as a cross-reference inside other content but has ZERO standalone guide. Strong dual audience: Christian pilgrims (2 major churches) + art/village lovers (artist colony, Art Quarter, Ticho House connection). Under-served vs LP/Rough Guides.
+
+#### Tel Arad National Park (/tel-arad-guide)
+- archaeologytravel.com: Tel Arad ranked in "top 10 Israeli archaeological sites"; strong SEO presence for "arad tel canaanite"
+- inpa.org.il: official listing; free with INPA annual pass (same as Megiddo, Beer-Sheba)
+- tripadvisor.com/Attraction_Review-Tel_Arad: 4.5 average, 200+ reviews; "must visit" for archaeology tourists
+- roughguides.com: Tel Arad mentioned in Negev chapter as key archaeological stop
+- **Gap:** Completes UNESCO Biblical Tels trifecta — we have Megiddo (iter 258) and Beer-Sheba (iter 328); Tel Arad (inscribed 2005 same UNESCO batch) has ZERO standalone content. Canaanite city c.3000 BCE + Israelite fortress + one of the oldest Hebrew inscriptions (Arad Ostraca, now in Israel Museum). Adjacent modern town of Arad = natural base for Negev travelers.
+
+#### Israel craft distilleries & spirits (/israel-craft-spirits)
+- timeout.com/israel/things-to-do/best-israel-distilleries: roundup of M&H, Pelter, Ha-Mashkia + others; strong engagement (1.2k+ shares estimated)
+- atlasofobscura.com: M&H Distillery featured ("World's Most Unusual Whisky Distilleries"); global audience reach
+- thewhiskyexchange.com/blog: Israel single malt whisky coverage; M&H won World's Best Single Cask (San Francisco World Spirits Competition 2021)
+- foodanine.com: craft spirits tourism Israel; arak revival + gin + brandy scene covered
+- **Gap:** We have Israel wine guide + craft beer guide; spirits/distillery tourism is the natural next money page. M&H Distillery (Tel Aviv warehouse district) offers paid tastings and tours → affiliate/booking opportunity. Zero competitor has a comprehensive Israel spirits guide; Timeout has the best roundup but lacks depth.
+
+#### Korazim (Chorazin) National Park (/korazim-chorazin-guide)
+- inpa.org.il/chorazin: official listing, described as undervisited but significant
+- biblewalks.com/Chorazin: detailed biblical archaeology guide; strong SEO for "chorazin ruins" queries
+- touristisrael.com: brief mention in "Sea of Galilee" roundup only; no standalone
+- **Gap:** Korazim is 3 km from Capernaum (which we cover) yet has ZERO cross-reference in our content. 3rd–4th century CE black basalt synagogue, Matthew 11:21 "Woe to you Chorazin" curse; Jesus's ministry sites cluster drives itinerary tourism. 0 competitor has a standalone guide — we can be first mover. Natural bundle with our Capernaum + Tabgha content.
+
+#### Mount Gilboa & East Jezreel Valley (/mount-gilboa-guide)
+- inpa.org.il/gilboa: Darom Adom wildflower season prominently featured (Jan–Mar); official attraction listing
+- beinharim.com: Galilee + Jezreel Valley day tours frequently route through Gilboa lookout points
+- roughguides.com: Gilboa section in "Around Nazareth" chapter; Battle of Gilboa + Saul narrative
+- **Gap:** Gilboa appears 3× in our guides as a cross-reference (Beit She'an, Megiddo) but has no standalone guide. Black iris wildflower reserve (Darom Adom), Beit Alpha Synagogue mosaic (6th CE), Gan HaShlosha/Sachne nearby (already in backlog separately), Gideon's Spring (Ein Harod). High-season wildflower tourism + year-round biblical history. Nature + history dual audience.
+
+**Items confirmed already in backlog (correctly excluded):**
+- Beit She'an NP, Rosh Hanikra, Timna Valley, Beit Guvrin / Maresha, Israel surfing, Darom Adom wildflowers, Gan HaShlosha/Sachne, Hula Valley birdwatching, Achziv NP — all confirmed queued in existing BACKLOG.md entries.

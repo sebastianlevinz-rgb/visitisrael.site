@@ -5984,3 +5984,16 @@ Fix: branch auto/review-329-desc-trim; 2 files edited; squash-merged to master 4
 Gate: pnpm check 0 errors (121 files); pnpm build 482 pages (unchanged count); pnpm test:e2e 615/615 PASS. GREEN.
 Prod: CI Lighthouse in_progress at push time. SHA 4f6e8c9. Prior pattern: CI succeeds.
 Next: iter 330 = RESEARCH (330%5==0). Scan competitors for content gaps not yet in backlog.
+
+## 2026-07-06T08:15Z · iter 330 · RESEARCH · research-330-competitor-gap-scan
+Mode: RESEARCH (330%5==0). Sources checked: touristisrael.com, lonelyplanet.com, roughguides.com, tripadvisor.com (forums + attraction pages), getyourguide.com, viator.com, beinharim.com, abrahamtours.com, timeout.com/israel, atlasofobscura.com, biblewalks.com, inpa.org.il sub-pages, nomadicmatt.com, wikivoyage Israel articles.
+What: Systematic gap scan with Python3 regex verification across BACKLOG.md + DONE.md + guides/ directory for every candidate before accepting. 7 candidates rejected as already queued (Beit She'an, Rosh Hanikra, Timna, Beit Guvrin, Israel surfing, Darom Adom wildflowers, Hula Valley birdwatching). 6 net-new items confirmed and added to BACKLOG:
+  1. eilat-nightlife [P2, seo-content, S] — Timeout covers it; only 2 sentences in our Eilat guide.
+  2. ein-kerem-jerusalem-guide [P2, seo-content+monetization, S] — LP/RG full sections; 6× cross-refs in our content, 0 standalone; dual Christian pilgrimage + art-colony audience.
+  3. tel-arad-guide [P2, seo-content+monetization, S] — completes UNESCO Biblical Tels trifecta (Megiddo iter258 ✓, Beer-Sheba iter328 ✓, Arad 0 standalone).
+  4. israel-craft-spirits [P3, seo-content+monetization, S] — M&H World's Best Single Cask 2021; Timeout roundup; natural next money page after wine+craft-beer guides.
+  5. korazim-chorazin-guide [P3, seo-content, S] — 3km from Capernaum (we cover it); Matthew 11:21; 3rd–4th CE basalt synagogue; first-mover opportunity.
+  6. mount-gilboa-guide [P3, seo-content, S] — 3× cross-refs in our guides but 0 standalone; Darom Adom wildflower season + Beit Alpha mosaic + Gideon's Spring; dual nature/history audience.
+Gate: N/A (RESEARCH mode — no code shipped).
+Ship: No merge. Memory files updated; .loop/ committed and pushed.
+NEXT: iter 331 → BUILD mode (331%5==1). Balance: last BUILD=seo-content (beer-sheva iter328); last i18n=iter327; candidate category = monetization or tools if ready, else seo-content. Top P1/P2 items: check BACKLOG for highest-priority non-i18n item.

@@ -1,13 +1,15 @@
 # LOOP STATE
 
-- iteration: 329
-- lastMode: REVIEW
-- lastItem: review-329-desc-trim — SEO description audit of iters 325–328 (zippori-sepphoris-guide, i18n-phase3-batch2, beer-sheva-guide)
-- lastResult: SHIPPED 4f6e8c9 — 2 description fixes (beer-sheva 180→149, zippori 170→148 chars); i18n phase3-batch2 locale-links clean; all internal links valid; honesty framing clean; gate 0 errors · 482 pages · 615/615 pass · CI in_progress at push
-- nextRotationCategory: 330%5==0 → RESEARCH mode. Scan competitors for profitable content gaps not yet in backlog.
+- iteration: 330
+- lastMode: RESEARCH
+- lastItem: research-330-competitor-gap-scan — competitor scan for profitable content gaps (Eilat nightlife, Ein Kerem, Tel Arad, craft spirits, Korazim, Mount Gilboa)
+- lastResult: RESEARCH (no ship) — 6 net-new items added to BACKLOG: eilat-nightlife, ein-kerem-jerusalem-guide, tel-arad-guide, israel-craft-spirits, korazim-chorazin-guide, mount-gilboa-guide. Sources: Timeout, LP, Rough Guides, TripAdvisor, INPA, AtlasObscura, BibleWalks, Bein Harim, touristisrael.com. All 6 confirmed ZERO standalone hits across BACKLOG+DONE+guides/ before adding.
+- nextRotationCategory: 331%5==1 → BUILD mode (non-zero, non-4). Balance: last build was seo-content (beer-sheva iter328); last i18n build was iter327; candidate category = monetization or tools if ready, else seo-content.
 - higgsfieldSpent: 0
-- updatedAt: 2026-07-06T07:40Z
+- updatedAt: 2026-07-06T08:15Z
 - branch context: work on master; feature work on auto/<slug>
+
+Notes: iter 330 RESEARCH — Scanned touristisrael.com, LP, Rough Guides, TripAdvisor, INPA, AtlasObscura, BibleWalks, Timeout, Bein Harim, Abraham Tours + others. 6 confirmed gaps added: (1) eilat-nightlife (Timeout ranks it; we have 2 sentences in main guide); (2) ein-kerem-jerusalem-guide (LP/Rough Guides full sections; 6× cross-refs in our content but ZERO standalone); (3) tel-arad-guide (completes UNESCO Biblical Tels trifecta — Megiddo✓ iter258, Beer-Sheba✓ iter328, Arad missing); (4) israel-craft-spirits (M&H won World's Best Single Cask 2021; Timeout roundup; we have wine+beer guides but not spirits); (5) korazim-chorazin-guide (3km from Capernaum we cover; Matthew 11:21 site; 0 competitor standalone); (6) mount-gilboa-guide (Darom Adom wildflower tourism; Beit Alpha mosaic; 3× cross-refs in our guides but ZERO standalone). 7 candidates rejected (already in BACKLOG): Beit She'an, Rosh Hanikra, Timna, Beit Guvrin, Israel surfing, Darom Adom, Hula Valley birdwatching.
 
 Notes: iter 329 REVIEW — Audited iters 325–328: zippori-sepphoris-guide (iter 326), i18n Phase 3 Batch 2 galilee/haifa/eilat/negev FR+DE (iter 327), beer-sheva-guide (iter 328). Findings: (1) beer-sheva description 180 chars > 160 limit; (2) zippori description 170 chars > 160 limit; both fixed to 149/148 chars. No H1 in either guide body; all 7 internal links valid; no fabricated prices/ratings (all honesty caveats present); no affiliate link issues; no cross-locale link bugs in FR+DE region files. Fix squash-merged 4f6e8c9.
 
