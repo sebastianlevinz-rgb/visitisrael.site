@@ -6126,3 +6126,17 @@ Gate: pnpm check 0 errors ✓; pnpm build 496 pages (+1 from 495) ✓; pnpm test
 Merge: squash-merged to master 022c69e, pushed origin/master at ~2026-07-06T19:40Z.
 Prod deploy: CI=completed/success, Lighthouse=completed/success on 022c69e8f644. ✓
 Next: iter 342 = BUILD (monetization or i18n, 342%5==2).
+
+## 2026-07-06 · iter 342 · BUILD (i18n Phase 4 Batch 1)
+
+Phase 4 Batch 1: 6 Jerusalem attractions in FR+DE (12 locale pages). New
+/fr/[region]/[attraction].astro + /de/[region]/[attraction].astro route templates.
+Infrastructure: attractionsForRegion(locale?) optional arg; attractionUrl/attractionSlug
+now handle locale-prefixed IDs (strip locale prefix before computing slug); FR/DE region
+pages pass locale to attractionsForRegion so region pages link to their locale attractions.
+hreflang alternates on all new pages; EN [attraction].astro updated with hasFr/hasDe props.
+YAML bug fixed: DE via-dolorosa had ASCII " (U+0022) closing „German quote" inside a
+double-quoted YAML answer string — replaced with U+201C (LEFT DOUBLE QUOTATION MARK) which
+YAML does not treat as string delimiter. Lesson: always use hex check to verify YAML byte
+encoding when German typographic quotes appear. smoke.spec.ts +12 routes. 508 pages.
+645/645 e2e pass. SHA 0d74524.

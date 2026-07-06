@@ -1,12 +1,12 @@
 # LOOP STATE
 
-- iteration: 341
-- lastMode: BUILD (seo-content)
-- lastItem: mitzpe-ramon-guide — New /mitzpe-ramon-guide standalone destination guide. Makhtesh Ramon erosion crater (geology: NOT meteor/impact crater, geological makhtesh unique to Negev/Sinai), Ilan Ramon Space Center, crater hiking (rim walk, Carpentry Shop trail, Nahal Ramon stream bed), jeep tours, rappelling, mountain biking, IDA dark-sky stargazing (Ramon Crater Dark Sky Park), Beresheet Hotel, Selina Ramon, Alpaca Farm, Spice Route Quarter. 4 affiliate CTAs: GYG (crater tours) + Viator (Negev day trips) + Booking (Mitzpe Ramon hotels) + DiscoverCars (car rental). 6 FAQs. Cross-links: negev region hub (Mitzpe Ramon now linked), beer-sheva-guide (Mitzpe Ramon mention upgraded to direct link), national-parks-pass, car-rental-israel, eilat-travel-guide, hiking-in-israel. Footer +1 li. Smoke test +1 route. Build: 496 pages.
-- lastResult: SHIPPED 022c69e — pnpm check 0 errors, build 496 pages (+1), 633/633 e2e+a11y pass. CI=success, Lighthouse=success on 022c69e8f644.
-- nextRotationCategory: 342%5==2 → BUILD (monetization or i18n). 343%5==3 → BUILD (tools). 344%5==4 → REVIEW. 345%5==0 → RESEARCH. 346%5==1 → BUILD (seo-content).
+- iteration: 342
+- lastMode: BUILD (i18n)
+- lastItem: i18n-phase4-batch1 — Phase 4 Batch 1: 6 Jerusalem attractions (Western Wall, Old City, Yad Vashem, Mount of Olives, Via Dolorosa, Mahane Yehuda) in FR+DE (12 locale pages). New /fr/[region]/[attraction].astro + /de/[region]/[attraction].astro route templates. Updated attractionsForRegion(locale?) + attractionUrl/attractionSlug to handle locale-prefixed IDs. FR/DE region pages now link to locale attractions. hreflang alternates on all new pages + EN attraction pages updated. smoke.spec.ts +12 routes. 508 pages built.
+- lastResult: SHIPPED 0d74524 — pnpm check 0 errors, build 508 pages (+12), 645/645 e2e pass.
+- nextRotationCategory: 343%5==3 → BUILD (tools). 344%5==4 → REVIEW. 345%5==0 → RESEARCH. 346%5==1 → BUILD (seo-content). 347%5==2 → BUILD (monetization or i18n).
 - higgsfieldSpent: 0
-- updatedAt: 2026-07-06T19:55Z
+- updatedAt: 2026-07-06T21:00Z
 - branch context: work on master; feature work on auto/<slug>
 
 Notes: iter 339 REVIEW — Broad EN guide meta scan technique: do not use lazy-match regex with quotes (apostrophes in titles/descs can break it). Instead use per-file YAML frontmatter block extraction + targeted title/desc line-search with alternating quote chars. Confirmed: the city-of-david desc was authored too long in iter337 and caught within 2 iters by REVIEW. Lesson for authoring: always verify title ≤65 and desc ≤160 before committing.
