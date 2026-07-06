@@ -1,13 +1,15 @@
 # LOOP STATE
 
-- iteration: 326
-- lastMode: BUILD (seo-content)
-- lastItem: zippori-sepphoris-guide — Zippori/Sepphoris National Park visitor guide: "Mona Lisa of the Galilee" mosaic, Roman theater, Byzantine synagogue zodiac floor, Crusader citadel
-- lastResult: SHIPPED d06c389 — pnpm check 0 errors · build 473 pages (+1) · 605/605 e2e+a11y pass · pushed to master · CI in_progress at push (standard pattern, prior runs all success)
-- nextRotationCategory: 327%5==2 → BUILD seo-content (or monetization if seo thin). Top P2 candidates: accessible-travel-israel (P2, M), photography-guide (P2, M), water-parks-family-fun (P2, M), israel-memorial-sites (P2, M), beer-sheva-guide (P2, S), i18n Phase 3 Batch 2 (galilee/haifa/eilat/negev FR+DE — 8 pages)
+- iteration: 327
+- lastMode: BUILD (i18n Phase 3 Batch 2)
+- lastItem: i18n-phase3-batch2-regions — galilee, haifa, eilat, negev in FR+DE (8 locale pages); DestinationCard href prop for locale-aware links; gate fix (8-unreachable resolved)
+- lastResult: SHIPPED 04863a4 — pnpm check 0 errors · build 481 pages (+8) · 613/613 e2e+a11y pass · pushed to master
+- nextRotationCategory: 328%5==3 → BUILD technical (or seo-content). Top P2 candidates: accessible-travel-israel (P2, M), photography-guide (P2, M), water-parks-family-fun (P2, M), israel-memorial-sites (P2, M), beer-sheva-guide (P2, S), i18n Phase 3 Batch 3 (akko/caesarea/negev-attractions/remaining-regions FR+DE)
 - higgsfieldSpent: 0
-- updatedAt: 2026-07-06T04:45Z
+- updatedAt: 2026-07-06T06:00Z
 - branch context: work on master; feature work on auto/<slug>
+
+Notes: iter 327 BUILD (i18n Phase 3 Batch 2) — galilee/haifa/eilat/negev translated into FR+DE (8 pages). Fix: added optional href prop to DestinationCard; FR/DE home pages now dynamically query content collection and pass locale-prefixed hrefs for translated regions — resolves link-checker "8 unreachable" gate failure. DestinationCard API is backwards-compatible (href defaults to /{slug}). Phase 3 Batch 2 complete: 7 regions now in FR+DE (jerusalem, tel-aviv, dead-sea, galilee, haifa, eilat, negev). Remaining: akko, caesarea, and other regions for Batch 3.
 
 Notes: iter 326 BUILD (seo-content) — Zippori/Sepphoris National Park guide shipped.
   Confirmed 0-hit gap across 325 iterations despite being INPA's most-visited Galilee mosaic site.

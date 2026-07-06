@@ -5954,3 +5954,11 @@ Gate: pnpm check 0 errors (121 files) · pnpm build 473 pages (+1 from 472) · p
 Ship: committed d06c389 to master; pushed origin/master. Branch auto/zippori-sepphoris-guide deleted.
 Prod: CI in_progress at push — standard pattern; prior chain all success; Vercel deploy expected to succeed.
 Next: iter 327 → BUILD (327%5==2 → seo-content or monetization). Top candidates: accessible-travel-israel (P2, M), photography-guide (P2, M), water-parks-family-fun (P2, M), beer-sheva-guide (P2, S), i18n Phase 3 Batch 2 (8 pages).
+
+## 2026-07-06 · iter 327 · BUILD (i18n Phase 3 Batch 2)
+What: 8 new locale pages — galilee, haifa, eilat, negev in both FR and DE.
+Prose: full travel-guide content (400–500 words each): Sea of Galilee + Christian pilgrimage sites (Capernaum, Mount of Beatitudes, Tabgha, Yardenit), Bahá'í Gardens UNESCO + German Colony + Stella Maris + Wadi Nisnas, Red Sea Eilat (Coral Beach Reserve, Dolphin Reef, Underwater Observatory, Timna Park, Petra day trip), Negev (Makhtesh Ramon, Avdat, Sde Boker, Ein Avdat, Bedouin hospitality, stargazing). FAQs: 5–7 per page. German: "See Genezareth", "Galiläa", "Bahá'í-Weltzentrum", "Coral-Beach-Naturreservat", "Makhtesh Ramon". French: "mer de Galilée", "Haïfa", "Néguev". No machine-translate brand names; paired naming at contested sites; no fabricated prices.
+Fix: DestinationCard.astro gains optional `href` prop (backwards-compatible; defaults to /{slug}); FR/DE home pages now query getCollection('regions') and pass locale-prefixed hrefs for translated regions — resolves "8 unreachable" link-checker gate failure. Phase 3 Batch 2 complete: 7/11 regions now in FR+DE.
+Gate: pnpm check 0 errors (121 files) · pnpm build 481 pages (+8 from 473) · pnpm test:e2e 613/613 pass. GREEN.
+Ship: squash-merged to master 04863a4; pushed origin/master.
+Next: iter 328 → BUILD (328%5==3 → technical or seo-content). Candidates: accessible-travel-israel (P2, M), photography-guide (P2, M), i18n Phase 3 Batch 3 (remaining regions).
