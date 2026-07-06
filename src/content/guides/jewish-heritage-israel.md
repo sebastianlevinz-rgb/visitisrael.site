@@ -65,7 +65,7 @@ The **[Israel Museum](/jerusalem/israel-museum)** holds the most comprehensive c
 
 ### City of David
 
-The **[City of David](/jerusalem/city-of-david)**, the original settlement of ancient Jerusalem dating back more than 3,000 years, is now an active archaeological park. Hezekiah's Tunnel — a hand-hewn 533-metre water channel cut around 700 BCE — can be waded in knee-deep water on a guided visit. It connects to the **Pool of Siloam**, mentioned in both the Hebrew Bible and the New Testament. Advance booking is recommended; family-friendly with audio guides in multiple languages.
+The **[City of David](/jerusalem/city-of-david)**, the original settlement of ancient Jerusalem dating back more than 3,000 years, is now an active archaeological park. Hezekiah's Tunnel — a hand-hewn 533-metre water channel cut around 700 BCE — can be waded in knee-deep water on a guided visit. It connects to the **Pool of Siloam**, mentioned in both the Hebrew Bible and the New Testament. Advance booking is essential in high season. For the full visitor guide — including wet vs dry tunnel logistics, the Silwan neighbourhood context, and how to book — see our [City of David Jerusalem visitor guide](/city-of-david-jerusalem).
 
 ---
 
