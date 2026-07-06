@@ -327,6 +327,10 @@ const ROUTES = [
   '/fr/haifa',
   '/fr/eilat',
   '/fr/negev',
+  '/fr/akko',
+  '/fr/caesarea',
+  '/fr/golan',
+  '/fr/nazareth',
   '/de/jerusalem',
   '/de/tel-aviv',
   '/de/dead-sea',
@@ -334,6 +338,10 @@ const ROUTES = [
   '/de/haifa',
   '/de/eilat',
   '/de/negev',
+  '/de/akko',
+  '/de/caesarea',
+  '/de/golan',
+  '/de/nazareth',
 ];
 
 for (const route of ROUTES) {
