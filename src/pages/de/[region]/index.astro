@@ -41,7 +41,7 @@ const hero = meta?.hero ?? entry.data.heroImage;
 const data = REGION_DATA[regionSlug] ?? genericRegionData(regionSlug, name, hero);
 const STAY_PAGES = new Set(['jerusalem', 'tel-aviv', 'dead-sea']);
 const hasStayPage = STAY_PAGES.has(regionSlug);
-const attractions = await attractionsForRegion(regionSlug);
+const attractions = await attractionsForRegion(regionSlug, 'de');
 const related = REGIONS.filter((r) => r.slug !== regionSlug).slice(0, 3);
 const gallery = attractions
   .slice(0, 4)

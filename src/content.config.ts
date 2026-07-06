@@ -39,7 +39,7 @@ const ticketInfo = z.object({
 });
 
 const attractions = defineCollection({
-  loader: glob({ pattern: '*.md', base: './src/content/attractions' }),
+  loader: glob({ pattern: '**/*.md', base: './src/content/attractions' }),
   schema: z.object({
     ...base,
     parentRegion: z.string().optional(),

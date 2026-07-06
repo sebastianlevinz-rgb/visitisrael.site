@@ -10,12 +10,7 @@ import FaqSection from '@/components/FaqSection.astro';
 import AttractionCard from '@/components/AttractionCard.astro';
 import JsonLd from '@/components/JsonLd.astro';
 import { getRegion } from '@/data/regions';
-import {
-  attractionRegion,
-  attractionSlug,
-  attractionName,
-  attractionsForRegion,
-} from '@/lib/content';
+import { attractionsForRegion, attractionName } from '@/lib/content';
 import { defaultAuthor } from '@/data/authors';
 import { affiliateUrl } from '@/config/affiliates';
 import { place, article, breadcrumbList, SITE } from '@/lib/schema';
@@ -23,64 +18,67 @@ import TourVerdict from '@/components/TourVerdict.astro';
 import TicketBlock from '@/components/TicketBlock.astro';
 
 export async function getStaticPaths() {
-  const attractions = await getCollection('attractions');
-  const enAttractions = attractions.filter((e) => !e.id.includes('/'));
-  const idSet = new Set(attractions.map((e) => e.id));
-  return enAttractions.map((entry) => {
-    const hasFr = idSet.has(`fr/${entry.id}`);
-    const hasDe = idSet.has(`de/${entry.id}`);
+  const allAttractions = await getCollection('attractions');
+  const deAttractions = allAttractions.filter((e) => e.id.startsWith('de/'));
+  const idSet = new Set(allAttractions.map((e) => e.id));
+  return deAttractions.map((entry) => {
+    const baseId = entry.id.slice(3); // strip 'de/'
+    const regionSlug = entry.data.region;
+    const attractionSeg = baseId.startsWith(`${regionSlug}-`)
+      ? baseId.slice(regionSlug.length + 1)
+      : baseId;
+    const hasEn = idSet.has(baseId);
+    const hasFr = idSet.has(`fr/${baseId}`);
     return {
-      params: { region: attractionRegion(entry), attraction: attractionSlug(entry) },
-      props: { entry, hasFr, hasDe },
+      params: { region: regionSlug, attraction: attractionSeg },
+      props: { entry, baseId, attractionSeg, hasEn, hasFr },
     };
   });
 }
 
-const { entry, hasFr = false, hasDe = false } = Astro.props;
-const region = attractionRegion(entry);
-const regionMeta = getRegion(region);
-const regionName = regionMeta?.name ?? region;
+const { entry, baseId, attractionSeg, hasEn = false, hasFr = false } = Astro.props;
+const regionSlug = entry.data.region;
+const regionMeta = getRegion(regionSlug);
+const regionName = regionMeta?.name ?? regionSlug;
 const name = attractionName(entry);
 const hero = entry.data.heroImage;
-const path = `/${region}/${attractionSlug(entry)}`;
-const attractionSeg = attractionSlug(entry);
+const path = `/de/${regionSlug}/${attractionSeg}`;
+const enPath = `/${regionSlug}/${attractionSeg}`;
+const frPath = `/fr/${regionSlug}/${attractionSeg}`;
 const isReligious = Boolean(entry.data.religiousSiteId);
 const { Content } = await render(entry);
 
-const alternates = (hasFr || hasDe)
-  ? [
-      { hreflang: 'en', href: `${SITE}${path}` },
-      ...(hasFr ? [{ hreflang: 'fr', href: `${SITE}/fr/${region}/${attractionSeg}` }] : []),
-      ...(hasDe ? [{ hreflang: 'de', href: `${SITE}/de/${region}/${attractionSeg}` }] : []),
-      { hreflang: 'x-default', href: `${SITE}${path}` },
-    ]
-  : [];
+const alternates = [
+  ...(hasEn ? [{ hreflang: 'en', href: `${SITE}${enPath}` }] : []),
+  ...(hasFr ? [{ hreflang: 'fr', href: `${SITE}${frPath}` }] : []),
+  { hreflang: 'de', href: `${SITE}${path}` },
+  ...(hasEn ? [{ hreflang: 'x-default', href: `${SITE}${enPath}` }] : []),
+];
 
-const siblings = (await attractionsForRegion(region))
+const siblings = (await attractionsForRegion(regionSlug, 'de'))
   .filter((a) => a.id !== entry.id)
   .slice(0, 3);
-// Distinct illustrative photos per tour card (no repeated image).
 const sibImg = (i: number) => siblings[i]?.data.heroImage ?? regionMeta?.hero ?? hero;
 
 const tours = [
   {
     partner: 'getyourguide' as const,
-    title: `${name}: Skip-the-Line & Guided Visits`,
-    description: `Guided tours and tickets that include ${name} with an expert local guide.`,
+    title: `${name}: Führungen & Tickets`,
+    description: `Geführte Touren und Eintrittskarten für ${name} mit einem erfahrenen lokalen Guide.`,
     image: hero,
     query: `${name} ${regionName}`,
   },
   {
     partner: 'viator' as const,
-    title: `${regionName} Highlights Tour`,
-    description: `Small-group day tours of ${regionName} that take in ${name} and nearby sights.`,
+    title: `${regionName} Highlights`,
+    description: `Kleingruppen-Tagestouren durch ${regionName} mit Besuch von ${name} und Umgebung.`,
     image: sibImg(0),
     query: `${regionName} Israel highlights`,
   },
   {
     partner: 'civitatis' as const,
-    title: `${regionName} Walking Tour`,
-    description: `English-language guided walks through ${regionName}'s historic core.`,
+    title: `Stadtführung ${regionName}`,
+    description: `Deutschsprachige Führungen durch das historische Zentrum von ${regionName}.`,
     image: sibImg(1),
     query: `${regionName} Israel walking tour`,
   },
@@ -107,21 +105,21 @@ const schema = [
     dateModified: entry.data.updatedAt,
   }),
   breadcrumbList([
-    { name: 'Home', path: '/' },
-    { name: regionName, path: `/${region}` },
+    { name: 'Startseite', path: '/de/' },
+    { name: regionName, path: `/de/${regionSlug}` },
     { name, path },
   ]),
 ];
 ---
 
-<BaseLayout title={entry.data.title} description={entry.data.description} path={path} image={hero} alternates={alternates.length ? alternates : undefined}>
+<BaseLayout title={entry.data.title} description={entry.data.description} path={path} image={hero} alternates={alternates}>
   <JsonLd slot="head" schema={schema} />
 
   <Hero image={hero} title={name} alt={`${name}, ${regionName}, Israel`} />
   <Breadcrumbs
     items={[
-      { name: 'Home', path: '/' },
-      { name: regionName, path: `/${region}` },
+      { name: 'Startseite', path: '/de/' },
+      { name: regionName, path: `/de/${regionSlug}` },
       { name, path },
     ]}
   />
@@ -150,13 +148,12 @@ const schema = [
     <Content />
     <InlineTourCTA
       partner="getyourguide"
-      text={`Make the most of your visit to ${name} with a guided tour.`}
+      text={`Erleben Sie ${name} mit einer geführten Tour.`}
       query={`${name} ${regionName}`}
-      cta="See tours & tickets"
+      cta="Touren & Tickets ansehen"
     />
   </article>
 
-  <!-- Tour verdict box. -->
   <section class="mx-auto max-w-3xl px-4">
     <TourVerdict
       name={name}
@@ -165,22 +162,20 @@ const schema = [
     />
   </section>
 
-  <!-- Featured tours. -->
   <section class="mx-auto max-w-6xl px-4 pt-10" aria-labelledby="tours">
     <h2 id="tours" class="mb-5 font-display text-3xl font-bold text-ink">
-      Tours that visit {name}
+      Touren mit {name}
     </h2>
     <div class="grid grid-cols-1 gap-5 sm:grid-cols-3">
       {tours.map((t) => <AffiliateCard {...t} />)}
     </div>
   </section>
 
-  <!-- Where to stay nearby. -->
   <section class="mx-auto max-w-3xl px-4 pt-10">
     <div class="rounded-card border border-border bg-card p-6 shadow-card">
-      <h2 class="font-display text-2xl font-bold text-ink">Stay near {name}</h2>
+      <h2 class="font-display text-2xl font-bold text-ink">Übernachten in der Nähe von {name}</h2>
       <p class="mt-2 text-ink-muted">
-        Browse hotels and guesthouses within easy reach of {name} in {regionName}.
+        Vergleichen Sie Hotels und Gästehäuser in der Nähe von {name} in der Region {regionName}.
       </p>
       <a
         href={affiliateUrl('booking', { destination: `${regionName}, Israel`, query: `${name} ${regionName}` })}
@@ -188,20 +183,19 @@ const schema = [
         rel="sponsored nofollow noopener"
         class="mt-3 inline-block rounded-full bg-primary px-5 py-2.5 text-sm font-semibold text-white no-underline hover:bg-primary-hover"
       >
-        Find nearby hotels
+        Hotel finden
       </a>
     </div>
   </section>
 
-  <!-- Plan-your-visit contextual links (internal linking + tools). -->
   <section class="mx-auto max-w-3xl px-4 pt-10">
     <div class="rounded-card border border-border bg-sand-deep p-6">
-      <p class="eyebrow mb-3">Plan your visit</p>
+      <p class="eyebrow mb-3">Reise planen</p>
       <div class="flex flex-wrap gap-2">
-        <a href="/build-your-trip" class="btn btn-ghost" style="padding:0.5rem 1rem;font-size:var(--text-sm)">Add to your trip</a>
-        <a href={`/${region}`} class="btn btn-ghost" style="padding:0.5rem 1rem;font-size:var(--text-sm)">{regionName} guide</a>
-        <a href="/israel-trip-cost-calculator" class="btn btn-ghost" style="padding:0.5rem 1rem;font-size:var(--text-sm)">Budget calculator</a>
-        <a href="/first-time-in-israel" class="btn btn-ghost" style="padding:0.5rem 1rem;font-size:var(--text-sm)">First time in Israel</a>
+        <a href="/build-your-trip" class="btn btn-ghost" style="padding:0.5rem 1rem;font-size:var(--text-sm)">Zur Reise hinzufügen</a>
+        <a href={`/de/${regionSlug}`} class="btn btn-ghost" style="padding:0.5rem 1rem;font-size:var(--text-sm)">Reiseführer {regionName}</a>
+        <a href="/israel-trip-cost-calculator" class="btn btn-ghost" style="padding:0.5rem 1rem;font-size:var(--text-sm)">Budgetrechner</a>
+        <a href="/de/first-time-in-israel" class="btn btn-ghost" style="padding:0.5rem 1rem;font-size:var(--text-sm)">Erstes Mal in Israel</a>
       </div>
     </div>
   </section>
@@ -212,7 +206,7 @@ const schema = [
     siblings.length > 0 && (
       <section class="mx-auto max-w-6xl px-4 pb-4" aria-labelledby="more">
         <h2 id="more" class="mb-5 font-display text-3xl font-bold text-ink">
-          More to see in {regionName}
+          Weitere Sehenswürdigkeiten in {regionName}
         </h2>
         <div class="grid grid-cols-1 gap-4 sm:grid-cols-3">
           {siblings.map((a) => (
@@ -220,7 +214,7 @@ const schema = [
           ))}
         </div>
         <p class="mt-5">
-          <a href={`/${region}`} class="font-semibold text-primary">← Back to the {regionName} guide</a>
+          <a href={`/de/${regionSlug}`} class="font-semibold text-primary">← Zurück zum {regionName}-Reiseführer</a>
         </p>
       </section>
     )

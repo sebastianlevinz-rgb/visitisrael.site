@@ -347,6 +347,18 @@ const ROUTES = [
   '/de/caesarea',
   '/de/golan',
   '/de/nazareth',
+  '/fr/jerusalem/western-wall',
+  '/fr/jerusalem/old-city',
+  '/fr/jerusalem/yad-vashem',
+  '/fr/jerusalem/mount-of-olives',
+  '/fr/jerusalem/via-dolorosa',
+  '/fr/jerusalem/mahane-yehuda',
+  '/de/jerusalem/western-wall',
+  '/de/jerusalem/old-city',
+  '/de/jerusalem/yad-vashem',
+  '/de/jerusalem/mount-of-olives',
+  '/de/jerusalem/via-dolorosa',
+  '/de/jerusalem/mahane-yehuda',
 ];
 
 for (const route of ROUTES) {
