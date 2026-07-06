@@ -5923,3 +5923,10 @@ What: i18n Phase 3 Batch 1 — FR+DE region pages for top 3 regions (jerusalem, 
 Gate: pnpm check 0 errors · build 472 pages (+6) · 605/605 e2e+a11y pass. GREEN.
 Ship: squash-merged c1c388f to master; pushed origin/master.
 NEXT: iter 324 → REVIEW mode (324%5==4). Audit iters 321–323.
+
+## 2026-07-06T02:40Z · iter 324 · REVIEW · review-324-desc-fix
+What: Audited iters 321–323 output (israel-orthodox-jewish-travel, jerusalem-armenian-quarter, i18n-phase3-batch1).
+Findings: (1) CLEAN: israel-orthodox-jewish-travel.md — title 52 ✓ desc 147 ✓ no H1 ✓ all 10 internal links resolve ✓ honesty framing OK (certifying authorities stated; eruv weekly-verification caveat; Birkat Kohanim timing as range with check-kotel.org.il directive); no fabricated data. (2) CLEAN: jerusalem-armenian-quarter.md — title 52 ✓ desc 149 ✓ no H1 ✓ /jerusalem/western-wall resolves via [region]/[attraction].astro (file=jerusalem-western-wall.md) ✓; St. James hours clearly narrow-caveated; ceramics authenticity caveated; Cows' Garden access-may-be-restricted noted; no fabricated data. (3) CONFIRMED BUG: fr/dead-sea.md description 164 chars (>160 limit). FIXED: removed 'au lever du soleil, ' → 145 chars. (4) CLEAN: remaining 5 FR/DE locale pages (de/dead-sea, fr/jerusalem, de/jerusalem, fr/tel-aviv, de/tel-aviv) — all title/desc OK; paired naming confirmed in FR (Mur des Lamentations/Kotel, esplanade des mosquées/mont du Temple) and DE (Klagemauer/Kotel, Tempelberg, Felsendom) ✓; no H1 in any body ✓. (5) Hreflang wiring in [region]/index.astro confirmed correct (hasFr/hasDe guards + language switcher links + hreflang meta).
+Gate: pnpm check 0 errors (121 files) · build 472 pages · 605/605 e2e+a11y pass. GREEN.
+Ship: committed 0a9f569 to master; pushed origin/master. CI in_progress at state-update (standard).
+NEXT: iter 325 → RESEARCH mode (325%5==0). Scan for new profitable content gaps; competitor review; de-dup against saturated BACKLOG (200+ ready items). Also eligible: i18n Phase 3 Batch 2 (galilee, haifa, eilat, negev FR+DE — 8 locale pages).
