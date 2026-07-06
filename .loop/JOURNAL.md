@@ -6005,3 +6005,20 @@ Bug fixed: apostrophe in "Mary's Spring" inside single-quoted YAML description �
 Gate: pnpm check 0 errors (121 files) · pnpm build 483 pages (+1 from 482) · pnpm test:e2e 617/617 pass. GREEN.
 Ship: committed 0d5ae39 to master; pushed origin/master. Branch auto/ein-kerem-jerusalem-guide deleted. Prod CI in_progress at state-update (standard — prior chain all success).
 NEXT: iter 332 → BUILD mode (332%5==2). Balance: 2 consecutive seo-content builds (beer-sheva 328, ein-kerem 331); last i18n=iter327. → Lean toward i18n Phase 3 Batch 3 (remaining regions: akko, caesarea, golan-heights in fr+de). Fallthrough = tel-arad-guide (P2 S, completes UNESCO Biblical Tels trifecta) or eilat-nightlife (P2 S).
+
+## 2026-07-06T10:57Z · iter 332 · BUILD (i18n Phase 3 Batch 3) · i18n-phase3-batch3
+Mode: BUILD (332%5==2). Category: i18n (Phase 3 Batch 3 — remaining 4 regions in FR+DE).
+What: Translated 4 remaining EN regions — akko, caesarea, golan, nazareth — into both French and German. Created 8 locale region pages:
+  FR: /fr/akko, /fr/caesarea, /fr/golan, /fr/nazareth
+  DE: /de/akko, /de/caesarea, /de/golan, /de/nazareth
+All files follow the established pattern (lang, title, description, region, heroImage, lat/lon, publishedAt, updatedAt, faqs array). No slug/primaryKeyword/secondaryKeywords in locale files (EN-only fields). Honesty rules preserved throughout:
+  - Caesarea: Maritima/Philippi disambiguation carried into both caesarea.md (FR+DE) and golan.md (FR+DE)
+  - Akko: Bahá'í photography policy and Bahjí Mansion dress code maintained
+  - Golan: international legal status noted (same neutral framing as EN); Druze cultural respect preserved
+  - Nazareth: both Annunciation traditions presented honestly (Catholic/Protestant framing difference); paired naming on contested sites
+  - No fabricated prices/ratings/review counts in any file
+smoke.spec.ts: +8 routes (/fr/akko, /fr/caesarea, /fr/golan, /fr/nazareth, /de/akko, /de/caesarea, /de/golan, /de/nazareth).
+Gate: pnpm check 0 errors · pnpm build 491 pages (+8 from 483) · pnpm test:e2e 625/625 pass. GREEN.
+Ship: committed c273ad2 to master (9 files: 8 new locale MDs + smoke.spec.ts); pushed origin/master. Branch auto/i18n-phase3-batch3 deleted. CI in_progress at state-update (standard — prior chain all success).
+i18n status: Phase 3 now COMPLETE. All 11 regions in FR+DE (jerusalem, tel-aviv, dead-sea, galilee, haifa, eilat, negev [Batch2 iter327] + akko, caesarea, golan, nazareth [Batch3 iter332]). Next i18n phase = Phase 4 (attractions ×63, batches of ~8–10 per iteration).
+NEXT: iter 333 → BUILD mode (333%5==3). Balance: last i18n=iter332; prior two builds also BUILD → consider REVIEW pass or seo-content (tel-arad-guide P2 S, tel-aviv-pride-guide P3 S). Or Phase 4 i18n attractions if i18n is highest priority.

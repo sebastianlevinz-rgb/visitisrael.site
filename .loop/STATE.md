@@ -1,12 +1,12 @@
 # LOOP STATE
 
-- iteration: 331
+- iteration: 332
 - lastMode: BUILD
-- lastItem: ein-kerem-jerusalem-guide — new guide /ein-kerem-jerusalem-guide: West Jerusalem stone village, Church of the Visitation, Church of St. John the Baptist, Mary's Spring, Gorny Convent, Chagall Windows at Hadassah
-- lastResult: BUILD GREEN — shipped 0d5ae39 to master; pushed origin/master. pnpm check 0 errors (121 files) · build 483 pages (+1 from 482) · test:e2e 617/617 pass. Prod CI in_progress at push (standard — prior chain all success).
-- nextRotationCategory: 332%5==2 → BUILD mode. Balance: last BUILD=seo-content (ein-kerem iter331); last i18n=iter327; candidate = i18n Phase 3 Batch 3 (akko, caesarea, golan-heights remaining regions) OR seo-content (tel-arad-guide P2 S, eilat-nightlife P2 S). Lean toward i18n to balance (2 seo-content builds since last i18n; iter327 was last i18n).
+- lastItem: i18n-phase3-batch3 — FR+DE region pages for akko, caesarea, golan, nazareth (8 locale pages). Phase 3 complete: all 11 regions now in FR+DE.
+- lastResult: BUILD GREEN — shipped c273ad2 to master; pushed origin/master. pnpm check 0 errors · build 491 pages (+8 from 483) · test:e2e 625/625 pass. CI in_progress at push (standard — prior chain all success).
+- nextRotationCategory: 333%5==3 → BUILD mode. Balance: last i18n=iter332 (batch3); candidate = seo-content (tel-arad-guide P2 S, eilat-nightlife P3 S, tel-aviv-pride-guide P3 S) OR monetization (Phase 4 i18n attractions ×63 next mega-phase). Lean toward seo-content or REVIEW to balance (last 2 iters both BUILD).
 - higgsfieldSpent: 0
-- updatedAt: 2026-07-06T09:35Z
+- updatedAt: 2026-07-06T10:57Z
 - branch context: work on master; feature work on auto/<slug>
 
 Notes: iter 331 BUILD (seo-content) — Ein Kerem guide shipped. P2 S seo-content+monetization. West Jerusalem's most visually beautiful neighbourhood (pre-1948 stone village); Church of the Visitation (Mary/Elizabeth Visitation; Magnificat tiles in 67 languages in courtyard; Franciscan, 1955), Church of St. John the Baptist (17th-century Franciscan; John the Baptist birthplace by tradition; crypt grotto), Mary's Spring, Gorny Convent (Russian Orthodox; five copper-green domes; limited public access), Chagall Windows at Hadassah Medical Center (12 tribal windows; 1962; 1974 Chagall restoration; guided tour required). Honesty: church associations framed as Christian tradition; Franciscan hours reference custodia.org; no fabricated prices/ratings; Hadassah tours require advance booking. 3 affiliate CTAs (GYG Ein Kerem + Yad Vashem half-day, GYG full-day Jerusalem tour, Booking Jerusalem hotels). 6 FAQs. Cross-links: christian-pilgrimage-holy-land (new Ein Kerem paragraph in "Other sites"), best-hotels-jerusalem (linked existing Ein Kerem mention), backpacking-israel (Hadassah context added), Footer.astro +1 li in pilgrimage section. YAML bug caught: apostrophe in "Mary's" inside single-quoted YAML description broke js-yaml parser; fixed by switching to double-quoted string.

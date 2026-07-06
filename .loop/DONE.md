@@ -640,3 +640,13 @@ i18n Phase 3 Batch 1 — 6 locale region pages (fr/jerusalem, fr/tel-aviv, fr/de
 Trimmed overlong SEO descriptions in beer-sheva-guide (180→149 chars) and zippori-sepphoris-guide (170→148 chars). i18n Phase 3 Batch 2 FR+DE region files clean. All internal links, honesty framing, affiliate CTAs verified correct.
 
 - iter331 · ein-kerem-jerusalem-guide · SHA 0d5ae39 — Ein Kerem Jerusalem village guide: Church of the Visitation (Magnificat tiles, 67 languages), Church of St. John the Baptist (crypt grotto, John the Baptist birthplace tradition), Mary's Spring, Gorny Convent, Hadassah Chagall Windows. West Jerusalem half-day circuit with Yad Vashem. 3 affiliate CTAs; 6 FAQs. 483 pages built; 617/617 e2e pass.
+
+## iter 332 · 2026-07-06 · i18n Phase 3 Batch 3 · SHA c273ad2
+i18n Phase 3 Batch 3 COMPLETE — 8 locale region pages (FR+DE): akko, caesarea, golan, nazareth.
+- /fr/akko + /de/akko — Akko/Acre UNESCO Crusader city; Hospitalier halls, Templars' Tunnel, Khan al-Umdan, Bahjí Bahá'í Mansion
+- /fr/caesarea + /de/caesarea — Caesarea Maritima; herodian Sebastos harbour, Roman theatre, Aqueduct Beach, Ralli Museum; Maritima/Philippi disambiguation
+- /fr/golan + /de/golan — Golan Heights; Banias/Nimrod/Hermon skiing/Druze villages/wineries; Caesarea Philippi disambiguation + legal status note
+- /fr/nazareth + /de/nazareth — Nazareth; Annunciation Basilica (both Catholic+Protestant tradition), Mary's Well, Mount of Precipice, Jesus Trail
+Honesty: no fabricated prices/ratings; contested site paired naming; Golan legal status neutral; Druze cultural respect; Bahá'í photography policy preserved.
+smoke.spec.ts +8 routes. 491 pages built (+8). 625/625 e2e tests pass. [i18n]
+Phase 3 now COMPLETE: all 11 regions in FR+DE.
