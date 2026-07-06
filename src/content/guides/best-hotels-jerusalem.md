@@ -55,7 +55,7 @@ For a deeper understanding of Jerusalem's neighbourhoods — what each quarter o
 
 **East Jerusalem — American Colony area** offers a distinctive, historically weighted experience. The American Colony Hotel has been a city institution since 1902 — journalists, diplomats and writers have based themselves here for generations. It is a 15–20 minute walk or short taxi ride from the Jaffa Gate end of the Old City. East Jerusalem has a predominantly Palestinian Arab character that is quite different from West Jerusalem.
 
-**Ein Kerem**, in the western hills of Jerusalem, is a village-within-the-city setting: stone houses, artists' studios, artists' galleries, and the birthplace churches of John the Baptist. No direct hotels of note currently, but several guesthouses and B&Bs. Good for visitors who want a pastoral retreat base and don't mind a 15-minute drive into central Jerusalem.
+**[Ein Kerem](/ein-kerem-jerusalem-guide)**, in the western hills of Jerusalem, is a village-within-the-city setting: stone houses, artists' studios, artists' galleries, and the birthplace churches of John the Baptist. No direct hotels of note currently, but several guesthouses and B&Bs. Good for visitors who want a pastoral retreat base and don't mind a 15-minute drive into central Jerusalem.
 
 ---
 

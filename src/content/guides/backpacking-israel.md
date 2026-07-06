@@ -65,7 +65,7 @@ All four properties run their own tour desks. Prices are typically ₪200–400 
 
 ### Jerusalem
 
-**Abraham Hostel Jerusalem** (Agrippas 67) is the standout — tour infrastructure, social programme and location near Mahane Yehuda. For travellers who want a quieter, more residential experience: **Ein Kerem** neighbourhood (south-west Jerusalem, 30 minutes from the Old City by bus) has a handful of boutique guesthouses and pension-style stays in a village setting — good for longer stays.
+**Abraham Hostel Jerusalem** (Agrippas 67) is the standout — tour infrastructure, social programme and location near Mahane Yehuda. For travellers who want a quieter, more residential experience: **[Ein Kerem](/ein-kerem-jerusalem-guide)** (south-west Jerusalem, 30 minutes from the Old City by bus) has a handful of boutique guesthouses and pension-style stays in a village setting — good for longer stays. The village is 15 minutes from the Old City by taxi and gives easy access to Yad Vashem and the Chagall Windows at Hadassah.
 
 Dorm rates in Jerusalem: roughly ₪90–200/night; check current rates on Hostelworld or Booking.com, as prices spike 2–4× around Passover, Sukkot, Christmas and Easter.
 
