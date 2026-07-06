@@ -1,13 +1,17 @@
 # LOOP STATE
 
-- iteration: 332
+- iteration: 333
 - lastMode: BUILD
-- lastItem: i18n-phase3-batch3 — FR+DE region pages for akko, caesarea, golan, nazareth (8 locale pages). Phase 3 complete: all 11 regions now in FR+DE.
-- lastResult: BUILD GREEN — shipped c273ad2 to master; pushed origin/master. pnpm check 0 errors · build 491 pages (+8 from 483) · test:e2e 625/625 pass. CI in_progress at push (standard — prior chain all success).
-- nextRotationCategory: 333%5==3 → BUILD mode. Balance: last i18n=iter332 (batch3); candidate = seo-content (tel-arad-guide P2 S, eilat-nightlife P3 S, tel-aviv-pride-guide P3 S) OR monetization (Phase 4 i18n attractions ×63 next mega-phase). Lean toward seo-content or REVIEW to balance (last 2 iters both BUILD).
+- lastItem: tel-arad-guide — Tel Arad National Park visitor guide (P2 S seo-content). Canaanite city (~3000–2650 BCE, one of earliest planned urban grids in Levant) + Israelite fortress with unique temple (only ancient Israelite temple outside Jerusalem; four-horned altar in situ; bronze serpent find; Hezekiah decommissioning evidence). Completes Negev archaeological triplet alongside Beer-Sheva (iter328) and Megiddo (iter258).
+- lastResult: BUILD GREEN — shipped 6c74e0d to master; pushed origin/master. pnpm check 0 errors (121 files) · build 492 pages (+1 from 491) · test:e2e 626/626 pass. CI in_progress at push (standard — prior chain 3a226563 all success).
+- nextRotationCategory: 334%5==4 → REVIEW mode. Audit iters 330–333: research-330, zippori-guide (iter326), i18n-phase3-batch3 (iter332), tel-arad-guide (iter333). OR 334%5==4 → can substitute a quick seo-content fix if review is clean. Next BUILD after review: seo-content (eilat-nightlife P2 S OR mount-gilboa-guide P3 S) or i18n Phase 4 (attractions ×63 in fr+de, batch 1 of ~8).
 - higgsfieldSpent: 0
-- updatedAt: 2026-07-06T10:57Z
+- updatedAt: 2026-07-06T11:38Z
 - branch context: work on master; feature work on auto/<slug>
+
+Notes: iter 333 BUILD (seo-content) — Tel Arad guide shipped. P2 S seo-content+monetization. Two-layer archaeological site: Early Bronze Age Canaanite planned city (3000–2650 BCE; streets, twin temples, palace, copper trade hub) above Iron Age Israelite fortress with the ONLY ancient Israelite temple discovered outside Jerusalem. Four-horned altar in situ (original in Israel Museum); bronze serpent find; decommissioning evidence consistent with Hezekiah's reforms (2 Kings 18:4). Honesty: UNESCO inscription scope clarified (Beer-Sheva is inscribed, not Tel Arad itself); Hezekiah connection framed as evidence-consistent but debated; hours via parks.org.il only (no fabricated prices). 3 affiliate CTAs: GYG Negev tours + Viator Biblical Tels circuit + DiscoverCars car rental. 6 FAQs. Cross-links: beer-sheva-guide (Biblical Tels paragraph + Tel Arad link), israel-national-parks-pass (Negev list +1), negev region hub (How-to-Get-Here paragraph expanded), Footer.astro (+1 li Tel Arad).
+
+Notes: iter 332 BUILD (i18n Phase 3 Batch 3) — FR+DE region pages for akko, caesarea, golan, nazareth (8 locale pages). Phase 3 complete: all 11 regions now in FR+DE.
 
 Notes: iter 331 BUILD (seo-content) — Ein Kerem guide shipped. P2 S seo-content+monetization. West Jerusalem's most visually beautiful neighbourhood (pre-1948 stone village); Church of the Visitation (Mary/Elizabeth Visitation; Magnificat tiles in 67 languages in courtyard; Franciscan, 1955), Church of St. John the Baptist (17th-century Franciscan; John the Baptist birthplace by tradition; crypt grotto), Mary's Spring, Gorny Convent (Russian Orthodox; five copper-green domes; limited public access), Chagall Windows at Hadassah Medical Center (12 tribal windows; 1962; 1974 Chagall restoration; guided tour required). Honesty: church associations framed as Christian tradition; Franciscan hours reference custodia.org; no fabricated prices/ratings; Hadassah tours require advance booking. 3 affiliate CTAs (GYG Ein Kerem + Yad Vashem half-day, GYG full-day Jerusalem tour, Booking Jerusalem hotels). 6 FAQs. Cross-links: christian-pilgrimage-holy-land (new Ein Kerem paragraph in "Other sites"), best-hotels-jerusalem (linked existing Ein Kerem mention), backpacking-israel (Hadassah context added), Footer.astro +1 li in pilgrimage section. YAML bug caught: apostrophe in "Mary's" inside single-quoted YAML description broke js-yaml parser; fixed by switching to double-quoted string.
 
@@ -17,8 +21,6 @@ Notes: iter 329 REVIEW — Audited iters 325–328: zippori-sepphoris-guide (ite
 
 Notes: iter 328 BUILD (seo-content) — Beer-Sheva guide shipped. Last major Israeli city missing a standalone guide; UNESCO Tel Be'er Sheva (Biblical Tels 2005, Iron Age water system + gate complex + horned altar), IAF Museum at Hatzerim (~150 aircraft, free outdoor exhibits), ANZAC memorial + Beersheba War Cemetery (1917 Light Horse charge), Ottoman Old City + Negev Museum of Art (1906 Jami Mosque). Honesty: IAF free-for-outdoor caveated with "verify at iaf.org.il"; INPA hours caveat; no fabricated prices/ratings; Light Horse charge framed with military-history context. Cross-links: negev.md How-to-Get-Here upgraded + beer-sheva link; israel-road-trip.md Day 5 overnight mention upgraded with link; Footer.astro +1 li in day trips section.
 
-Notes: iter 327 BUILD (i18n Phase 3 Batch 2) — galilee/haifa/eilat/negev translated into FR+DE (8 pages). Fix: added optional href prop to DestinationCard; FR/DE home pages now dynamically query content collection and pass locale-prefixed hrefs for translated regions — resolves link-checker "8 unreachable" gate failure. DestinationCard API is backwards-compatible (href defaults to /{slug}). Phase 3 Batch 2 complete: 7 regions now in FR+DE (jerusalem, tel-aviv, dead-sea, galilee, haifa, eilat, negev). Remaining: akko, caesarea, and other regions for Batch 3.
-
 Cron b7325b16 hourly @ :17. Loop history: 19 tools + sitemap-lastmod + link-checker(+depth) + i18n
-Phase0/1a/1b/1c/2 Batches1-18(COMPLETE) + 36 review passes + 3 technical (event-schema + meta-trim + locale-links) + 37 EN guides + 4 tools-monetization;
+Phase0/1a/1b/1c/2 Batches1-18(COMPLETE) + 36 review passes + 3 technical (event-schema + meta-trim + locale-links) + 38 EN guides + 4 tools-monetization;
 research iters 5/10/20/30/35/40/45/50/55/60/65/70/75/80/85/90/95/100/105/110/115/120/125/130/135/140/145/150/155/160/165/170/175/180/185/190/195/200/205/210/215/220/225/230/235/240/245/250/255/260/265/270/275/280/285/290/295/300/305/310/315/320/325/330.

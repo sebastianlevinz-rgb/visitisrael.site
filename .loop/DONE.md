@@ -650,3 +650,4 @@ i18n Phase 3 Batch 3 COMPLETE — 8 locale region pages (FR+DE): akko, caesarea,
 Honesty: no fabricated prices/ratings; contested site paired naming; Golan legal status neutral; Druze cultural respect; Bahá'í photography policy preserved.
 smoke.spec.ts +8 routes. 491 pages built (+8). 625/625 e2e tests pass. [i18n]
 Phase 3 now COMPLETE: all 11 regions in FR+DE.
+- iter333 · tel-arad-guide · 6c74e0d — Tel Arad National Park visitor guide: 5,000-year-old Canaanite planned city + Iron Age Israelite fortress with the only ancient Israelite temple outside Jerusalem (four-horned altar in situ). Completes Negev archaeological triplet with Beer-Sheva + Megiddo. 492 pages built, 626 e2e pass.
