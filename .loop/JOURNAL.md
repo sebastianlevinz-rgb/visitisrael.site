@@ -5962,3 +5962,13 @@ Fix: DestinationCard.astro gains optional `href` prop (backwards-compatible; def
 Gate: pnpm check 0 errors (121 files) · pnpm build 481 pages (+8 from 473) · pnpm test:e2e 613/613 pass. GREEN.
 Ship: squash-merged to master 04863a4; pushed origin/master.
 Next: iter 328 → BUILD (328%5==3 → technical or seo-content). Candidates: accessible-travel-israel (P2, M), photography-guide (P2, M), i18n Phase 3 Batch 3 (remaining regions).
+
+## 2026-07-06T06:40Z · iter 328 · BUILD (seo-content) · beer-sheva-guide
+Mode: BUILD (328%5==3 → technical, fell through to seo-content; last iter was i18n so non-i18n chosen).
+What: New /beer-sheva-guide — Beer-Sheva (Beersheba), Israel's 4th largest city and Negev capital, fills confirmed gap (0 standalone guide across 327 prior iterations). Content: Tel Be'er Sheva UNESCO WHS 2005 (Biblical Tels inscription; Iron Age water system + gate complex + horned altar; INPA pass valid); IAF Museum at Kibbutz Hatzerim (~150 aircraft; free outdoor exhibits; verify iaf.org.il for guided tour fees); ANZAC memorial + Beersheba War Cemetery CWGC (Battle of Beersheba 31 Oct 1917, Light Horse Charge; Oct 31 dawn ceremony; ~1,200 graves; Victoria Cross Garden); Ottoman Old City heritage walk + Negev Museum of Art (housed in 1906 Jami Mosque); Abraham's Well Heritage Centre (interpretive, not archaeological). Practical: 1h direct train from TLV Savidor/BGU; car via Route 6 toll + Route 40; sites spread west (IAF) + east (tel) requiring car for full day. 3 affiliate CTAs: GYG + Viator Negev tours + Booking Beer-Sheva hotels. 6 FAQs.
+Honesty: IAF admission "free outdoor" caveated + link to iaf.org.il; INPA hours seasonal + link to parks.org.il; no fabricated prices/ratings; Light Horse charge framed with full military-history context; Tel Be'er Sheva/Abraham's Well connection framed as scholarly identification not certainty; ANZAC ceremony date accurate; no exact admission prices (ranges or "verify" only).
+Cross-links: negev.md §How to Get Here upgraded to link /beer-sheva-guide + half-day value pitch; israel-road-trip.md Day 5 overnight mention upgraded to link + IAF/UNESCO/ANZAC summary; Footer.astro day-trips section +1 "Beer-Sheva guide" li.
+Smoke: +1 route (/beer-sheva-guide). A11y: +1 route (/beer-sheva-guide).
+Gate: pnpm check 0 errors (121 files) · pnpm build 482 pages (+1 from 481) · pnpm test:e2e 615/615 pass. GREEN.
+Ship: committed 5f7c736 to master; pushed origin/master. CI in_progress at state-update (standard pattern; prior chain all success).
+NEXT: iter 329 → REVIEW mode (329%5==4). Audit iters 325–328 (research-325, zippori-guide, i18n-phase3-batch2, beer-sheva-guide).
