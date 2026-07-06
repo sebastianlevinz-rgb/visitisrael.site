@@ -1,7 +1,7 @@
 ---
 lang: fr
 title: "Mer Morte : guide de voyage complet 2026"
-description: "Mer Morte 2026 : flotter sur les eaux hypersalées, Massada au lever du soleil, Ein Guédi, hôtels d'Ein Boqeq — guide pratique pour le point le plus bas de la Terre."
+description: "Mer Morte 2026 : flotter sur les eaux hypersalées, Massada, Ein Guédi, hôtels d'Ein Boqeq — guide pratique pour le point le plus bas de la Terre."
 region: dead-sea
 heroImage: /images/regions/dead-sea/hero.jpg
 latitude: 31.5
