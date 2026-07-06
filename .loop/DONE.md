@@ -638,3 +638,5 @@ i18n Phase 3 Batch 1 — 6 locale region pages (fr/jerusalem, fr/tel-aviv, fr/de
 
 ## iter 329 · REVIEW · review-329-desc-trim · SHA 4f6e8c9
 Trimmed overlong SEO descriptions in beer-sheva-guide (180→149 chars) and zippori-sepphoris-guide (170→148 chars). i18n Phase 3 Batch 2 FR+DE region files clean. All internal links, honesty framing, affiliate CTAs verified correct.
+
+- iter331 · ein-kerem-jerusalem-guide · SHA 0d5ae39 — Ein Kerem Jerusalem village guide: Church of the Visitation (Magnificat tiles, 67 languages), Church of St. John the Baptist (crypt grotto, John the Baptist birthplace tradition), Mary's Spring, Gorny Convent, Hadassah Chagall Windows. West Jerusalem half-day circuit with Yad Vashem. 3 affiliate CTAs; 6 FAQs. 483 pages built; 617/617 e2e pass.

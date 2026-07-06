@@ -1,13 +1,15 @@
 # LOOP STATE
 
-- iteration: 330
-- lastMode: RESEARCH
-- lastItem: research-330-competitor-gap-scan — competitor scan for profitable content gaps (Eilat nightlife, Ein Kerem, Tel Arad, craft spirits, Korazim, Mount Gilboa)
-- lastResult: RESEARCH (no ship) — 6 net-new items added to BACKLOG: eilat-nightlife, ein-kerem-jerusalem-guide, tel-arad-guide, israel-craft-spirits, korazim-chorazin-guide, mount-gilboa-guide. Sources: Timeout, LP, Rough Guides, TripAdvisor, INPA, AtlasObscura, BibleWalks, Bein Harim, touristisrael.com. All 6 confirmed ZERO standalone hits across BACKLOG+DONE+guides/ before adding.
-- nextRotationCategory: 331%5==1 → BUILD mode (non-zero, non-4). Balance: last build was seo-content (beer-sheva iter328); last i18n build was iter327; candidate category = monetization or tools if ready, else seo-content.
+- iteration: 331
+- lastMode: BUILD
+- lastItem: ein-kerem-jerusalem-guide — new guide /ein-kerem-jerusalem-guide: West Jerusalem stone village, Church of the Visitation, Church of St. John the Baptist, Mary's Spring, Gorny Convent, Chagall Windows at Hadassah
+- lastResult: BUILD GREEN — shipped 0d5ae39 to master; pushed origin/master. pnpm check 0 errors (121 files) · build 483 pages (+1 from 482) · test:e2e 617/617 pass. Prod CI in_progress at push (standard — prior chain all success).
+- nextRotationCategory: 332%5==2 → BUILD mode. Balance: last BUILD=seo-content (ein-kerem iter331); last i18n=iter327; candidate = i18n Phase 3 Batch 3 (akko, caesarea, golan-heights remaining regions) OR seo-content (tel-arad-guide P2 S, eilat-nightlife P2 S). Lean toward i18n to balance (2 seo-content builds since last i18n; iter327 was last i18n).
 - higgsfieldSpent: 0
-- updatedAt: 2026-07-06T08:15Z
+- updatedAt: 2026-07-06T09:35Z
 - branch context: work on master; feature work on auto/<slug>
+
+Notes: iter 331 BUILD (seo-content) — Ein Kerem guide shipped. P2 S seo-content+monetization. West Jerusalem's most visually beautiful neighbourhood (pre-1948 stone village); Church of the Visitation (Mary/Elizabeth Visitation; Magnificat tiles in 67 languages in courtyard; Franciscan, 1955), Church of St. John the Baptist (17th-century Franciscan; John the Baptist birthplace by tradition; crypt grotto), Mary's Spring, Gorny Convent (Russian Orthodox; five copper-green domes; limited public access), Chagall Windows at Hadassah Medical Center (12 tribal windows; 1962; 1974 Chagall restoration; guided tour required). Honesty: church associations framed as Christian tradition; Franciscan hours reference custodia.org; no fabricated prices/ratings; Hadassah tours require advance booking. 3 affiliate CTAs (GYG Ein Kerem + Yad Vashem half-day, GYG full-day Jerusalem tour, Booking Jerusalem hotels). 6 FAQs. Cross-links: christian-pilgrimage-holy-land (new Ein Kerem paragraph in "Other sites"), best-hotels-jerusalem (linked existing Ein Kerem mention), backpacking-israel (Hadassah context added), Footer.astro +1 li in pilgrimage section. YAML bug caught: apostrophe in "Mary's" inside single-quoted YAML description broke js-yaml parser; fixed by switching to double-quoted string.
 
 Notes: iter 330 RESEARCH — Scanned touristisrael.com, LP, Rough Guides, TripAdvisor, INPA, AtlasObscura, BibleWalks, Timeout, Bein Harim, Abraham Tours + others. 6 confirmed gaps added: (1) eilat-nightlife (Timeout ranks it; we have 2 sentences in main guide); (2) ein-kerem-jerusalem-guide (LP/Rough Guides full sections; 6× cross-refs in our content but ZERO standalone); (3) tel-arad-guide (completes UNESCO Biblical Tels trifecta — Megiddo✓ iter258, Beer-Sheba✓ iter328, Arad missing); (4) israel-craft-spirits (M&H won World's Best Single Cask 2021; Timeout roundup; we have wine+beer guides but not spirits); (5) korazim-chorazin-guide (3km from Capernaum we cover; Matthew 11:21 site; 0 competitor standalone); (6) mount-gilboa-guide (Darom Adom wildflower tourism; Beit Alpha mosaic; 3× cross-refs in our guides but ZERO standalone). 7 candidates rejected (already in BACKLOG): Beit She'an, Rosh Hanikra, Timna, Beit Guvrin, Israel surfing, Darom Adom, Hula Valley birdwatching.
 
@@ -18,5 +20,5 @@ Notes: iter 328 BUILD (seo-content) — Beer-Sheva guide shipped. Last major Isr
 Notes: iter 327 BUILD (i18n Phase 3 Batch 2) — galilee/haifa/eilat/negev translated into FR+DE (8 pages). Fix: added optional href prop to DestinationCard; FR/DE home pages now dynamically query content collection and pass locale-prefixed hrefs for translated regions — resolves link-checker "8 unreachable" gate failure. DestinationCard API is backwards-compatible (href defaults to /{slug}). Phase 3 Batch 2 complete: 7 regions now in FR+DE (jerusalem, tel-aviv, dead-sea, galilee, haifa, eilat, negev). Remaining: akko, caesarea, and other regions for Batch 3.
 
 Cron b7325b16 hourly @ :17. Loop history: 19 tools + sitemap-lastmod + link-checker(+depth) + i18n
-Phase0/1a/1b/1c/2 Batches1-18(COMPLETE) + 36 review passes + 3 technical (event-schema + meta-trim + locale-links) + 36 EN guides + 4 tools-monetization;
-research iters 5/10/20/30/35/40/45/50/55/60/65/70/75/80/85/90/95/100/105/110/115/120/125/130/135/140/145/150/155/160/165/170/175/180/185/190/195/200/205/210/215/220/225/230/235/240/245/250/255/260/265/270/275/280/285/290/295/300/305/310/315/320/325.
+Phase0/1a/1b/1c/2 Batches1-18(COMPLETE) + 36 review passes + 3 technical (event-schema + meta-trim + locale-links) + 37 EN guides + 4 tools-monetization;
+research iters 5/10/20/30/35/40/45/50/55/60/65/70/75/80/85/90/95/100/105/110/115/120/125/130/135/140/145/150/155/160/165/170/175/180/185/190/195/200/205/210/215/220/225/230/235/240/245/250/255/260/265/270/275/280/285/290/295/300/305/310/315/320/325/330.
