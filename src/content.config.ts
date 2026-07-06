@@ -24,7 +24,7 @@ const base = {
 };
 
 const regions = defineCollection({
-  loader: glob({ pattern: '*.md', base: './src/content/regions' }),
+  loader: glob({ pattern: '**/*.md', base: './src/content/regions' }),
   schema: z.object(base),
 });
 

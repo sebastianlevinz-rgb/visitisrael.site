@@ -318,6 +318,12 @@ const ROUTES = [
   '/jerusalem-nightlife',
   '/galilee-vs-golan-weekend',
   '/dead-sea-vs-eilat',
+  '/fr/jerusalem',
+  '/fr/tel-aviv',
+  '/fr/dead-sea',
+  '/de/jerusalem',
+  '/de/tel-aviv',
+  '/de/dead-sea',
 ];
 
 for (const route of ROUTES) {

@@ -20,63 +20,54 @@ import { REGION_DATA, genericRegionData } from '@/data/regionData';
 import { attractionsForRegion, attractionName } from '@/lib/content';
 import { defaultAuthor } from '@/data/authors';
 import { affiliateUrl } from '@/config/affiliates';
-import { place, article, breadcrumbList, hotelList } from '@/lib/schema';
-import { SITE } from '@/lib/schema';
+import { place, article, breadcrumbList, hotelList, SITE } from '@/lib/schema';
 
 export async function getStaticPaths() {
-  const TRANSLATED_REGIONS = new Set(['jerusalem', 'tel-aviv', 'dead-sea']);
   const regions = await getCollection('regions');
-  // Only EN regions (no locale subdirectory prefix)
-  const enRegions = regions.filter((e) => !e.id.includes('/'));
-  return enRegions.map((entry) => ({
-    params: { region: entry.id },
-    props: {
-      entry,
-      hasFr: TRANSLATED_REGIONS.has(entry.id),
-      hasDe: TRANSLATED_REGIONS.has(entry.id),
-    },
+  const frRegions = regions.filter((e) => e.id.startsWith('fr/'));
+  return frRegions.map((entry) => ({
+    params: { region: entry.id.slice(3) },
+    props: { entry },
   }));
 }
 
-const { entry, hasFr, hasDe } = Astro.props;
-const meta = getRegion(entry.id);
-const name = meta?.name ?? entry.data.title;
+const { entry } = Astro.props;
+const regionSlug = entry.id.slice(3); // strip 'fr/'
+const meta = getRegion(regionSlug);
+const name = meta?.name ?? regionSlug;
 const tagline = meta?.tagline ?? '';
 const hero = meta?.hero ?? entry.data.heroImage;
 
-const data = REGION_DATA[entry.id] ?? genericRegionData(entry.id, name, hero);
-// Cities with a dedicated "where to stay" money page (src/pages/where-to-stay/).
+const data = REGION_DATA[regionSlug] ?? genericRegionData(regionSlug, name, hero);
 const STAY_PAGES = new Set(['jerusalem', 'tel-aviv', 'dead-sea']);
-const hasStayPage = STAY_PAGES.has(entry.id);
-const attractions = await attractionsForRegion(entry.id);
-const related = REGIONS.filter((r) => r.slug !== entry.id).slice(0, 3);
+const hasStayPage = STAY_PAGES.has(regionSlug);
+const attractions = await attractionsForRegion(regionSlug);
+const related = REGIONS.filter((r) => r.slug !== regionSlug).slice(0, 3);
 const gallery = attractions
   .slice(0, 4)
   .map((a) => ({ src: a.data.heroImage, alt: `${attractionName(a)}, ${name}` }));
 const { Content } = await render(entry);
 
-const intro = data.intro ?? `${entry.data.description}`;
-const path = `/${entry.id}`;
-const regionAlternates = [
-  { hreflang: 'en', href: `${SITE}${path}` },
-  ...(hasFr ? [{ hreflang: 'fr', href: `${SITE}/fr/${entry.id}` }] : []),
-  ...(hasDe ? [{ hreflang: 'de', href: `${SITE}/de/${entry.id}` }] : []),
-  ...(hasFr || hasDe ? [{ hreflang: 'x-default', href: `${SITE}${path}` }] : []),
+const path = `/fr/${regionSlug}`;
+const alternates = [
+  { hreflang: 'en', href: `${SITE}/${regionSlug}` },
+  { hreflang: 'fr', href: `${SITE}${path}` },
+  { hreflang: 'de', href: `${SITE}/de/${regionSlug}` },
+  { hreflang: 'x-default', href: `${SITE}/${regionSlug}` },
 ];
-// Give each featured-tour card a distinct photo from this region's attractions
-// (the tour images are illustrative) so no two cards repeat the same image.
+
 const tourCards = data.tours.map((t, i) => ({
   ...t,
   image: attractions.length ? (attractions[i % attractions.length]!.data.heroImage) : t.image,
 }));
-// Internal money-page links surfaced on every region page (competitor-gap pass).
+
 const essentials = [
-  { href: '/best-tours-in-israel', label: 'Best tours', icon: '🎟️' },
-  { href: '/israel-tour-packages', label: 'Tour packages', icon: '🧭' },
-  { href: '/ben-gurion-airport-transfers', label: 'Airport transfers', icon: '🚕' },
-  { href: '/car-rental-israel', label: 'Car rental', icon: '🚗' },
-  { href: '/israel-esim', label: 'Israel eSIM', icon: '📶' },
-  { href: '/israel-travel-insurance', label: 'Travel insurance', icon: '🛡️' },
+  { href: '/best-tours-in-israel', label: 'Excursions', icon: '🎟️' },
+  { href: '/israel-tour-packages', label: 'Circuits', icon: '🧭' },
+  { href: '/ben-gurion-airport-transfers', label: 'Transferts', icon: '🚕' },
+  { href: '/car-rental-israel', label: 'Location voiture', icon: '🚗' },
+  { href: '/israel-esim', label: 'eSIM Israël', icon: '📶' },
+  { href: '/israel-travel-insurance', label: 'Assurance voyage', icon: '🛡️' },
 ];
 
 const schema = [
@@ -100,7 +91,7 @@ const schema = [
     dateModified: entry.data.updatedAt,
   }),
   breadcrumbList([
-    { name: 'Home', path: '/' },
+    { name: 'Accueil', path: '/fr/' },
     { name, path },
   ]),
   ...(data.hotels.length
@@ -109,36 +100,24 @@ const schema = [
 ];
 ---
 
-<BaseLayout title={`${entry.data.title}`} description={entry.data.description} path={path} image={hero} alternates={regionAlternates}>
+<BaseLayout title={entry.data.title} description={entry.data.description} path={path} image={hero} alternates={alternates}>
   <JsonLd slot="head" schema={schema} />
 
-  <Hero image={hero} title={name} subtitle={tagline} alt={`${name}, Israel`} height="tall" />
-  <Breadcrumbs items={[{ name: 'Home', path: '/' }, { name, path }]} />
+  <Hero image={hero} title={name} subtitle={tagline} alt={`${name}, Israël`} height="tall" />
+  <Breadcrumbs items={[{ name: 'Accueil', path: '/fr/' }, { name, path }]} />
   <AuthorByline updated={entry.data.updatedAt} />
-  {
-    (hasFr || hasDe) && (
-      <p class="mx-auto max-w-3xl px-4 text-sm text-ink-muted">
-        Also available:
-        {hasFr && <a href={`/fr/${entry.id}`} class="font-medium text-primary"> 🇫🇷 En français</a>}
-        {hasFr && hasDe && ' · '}
-        {hasDe && <a href={`/de/${entry.id}`} class="font-medium text-primary"> 🇩🇪 Auf Deutsch</a>}
-      </p>
-    )
-  }
 
-  <!-- GEO intro (dense, first ~200 words). -->
   <section class="mx-auto max-w-3xl px-4">
-    <p class="text-lg leading-relaxed text-ink">{intro}</p>
-    <KeyFacts facts={data.keyFacts} title={`${name} at a glance`} />
+    <p class="text-lg leading-relaxed text-ink">{entry.data.description}</p>
+    <KeyFacts facts={data.keyFacts} title={`${name} en un clin d'œil`} />
   </section>
 
-  <!-- Top attractions with interspersed inline tour CTAs. -->
   {
     attractions.length > 0 && (
       <section class="mx-auto max-w-6xl px-4 pt-6" aria-labelledby="things-to-do">
-        <p class="text-sm font-semibold uppercase tracking-widest text-primary">Things to do</p>
+        <p class="text-sm font-semibold uppercase tracking-widest text-primary">À voir et à faire</p>
         <h2 id="things-to-do" class="mb-5 font-display text-3xl font-bold text-ink">
-          Top attractions in {name}
+          Sites incontournables à {name}
         </h2>
         <div class="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3">
           {attractions.map((a, i) => (
@@ -147,36 +126,34 @@ const schema = [
         </div>
         <InlineTourCTA
           partner={data.tours[0]?.partner ?? 'getyourguide'}
-          text={`Short on time? A guided tour is the fastest way to see the best of ${name}.`}
+          text={`Peu de temps ? Une visite guidée est le moyen le plus rapide de découvrir le meilleur de ${name}.`}
           query={`${name} Israel tour`}
-          cta="Browse tours"
+          cta="Voir les circuits"
         />
       </section>
     )
   }
 
-  <!-- Featured tours — clean affiliate cards. -->
   <section id="tours" class="mx-auto max-w-6xl px-4 pt-12" aria-labelledby="featured-tours">
-    <p class="text-sm font-semibold uppercase tracking-widest text-primary">Hand-picked</p>
+    <p class="text-sm font-semibold uppercase tracking-widest text-primary">Sélection</p>
     <h2 id="featured-tours" class="mb-5 font-display text-3xl font-bold text-ink">
-      Best tours &amp; day trips in {name}
+      Meilleurs circuits &amp; excursions à {name}
     </h2>
     <div class="grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-4">
       {tourCards.map((t) => <AffiliateCard {...t} />)}
     </div>
   </section>
 
-  <!-- Where to stay. -->
   <section id="where-to-stay" class="mx-auto max-w-6xl px-4 pt-14" aria-labelledby="stay">
-    <p class="text-sm font-semibold uppercase tracking-widest text-primary">Where to stay</p>
+    <p class="text-sm font-semibold uppercase tracking-widest text-primary">Hébergement</p>
     <h2 id="stay" class="mb-5 font-display text-3xl font-bold text-ink">
-      Best places to stay in {name}
+      Où dormir à {name}
     </h2>
     {
       hasStayPage && (
         <p class="mb-5 -mt-2 text-sm">
-          <a href={`/where-to-stay/${entry.id}`} class="font-semibold text-primary">
-            Full guide: where to stay in {name} — best areas & hotels →
+          <a href={`/where-to-stay/${regionSlug}`} class="font-semibold text-primary">
+            Guide complet : où dormir à {name} — meilleurs quartiers &amp; hôtels →
           </a>
         </p>
       )
@@ -196,7 +173,7 @@ const schema = [
       ) : (
         <div class="rounded-card border border-border bg-card p-6 shadow-card">
           <p class="text-ink-muted">
-            Compare hotels, guesthouses and apartments across {name} on Booking.com.
+            Comparez hôtels, guesthouses et appartements à {name} sur Booking.com.
           </p>
           <a
             href={affiliateUrl('booking', { destination: `${name}, Israel` })}
@@ -204,37 +181,34 @@ const schema = [
             rel="sponsored nofollow noopener"
             class="mt-3 inline-block rounded-full bg-primary px-5 py-2.5 text-sm font-semibold text-white no-underline hover:bg-primary-hover"
           >
-            Find hotels in {name}
+            Trouver un hôtel à {name}
           </a>
         </div>
       )
     }
   </section>
 
-  <!-- Best time to visit. -->
   {
     data.bestTime && (
       <section class="mx-auto max-w-3xl px-4 pt-14" aria-labelledby="best-time">
         <h2 id="best-time" class="mb-4 font-display text-3xl font-bold text-ink">
-          Best time to visit {name}
+          Meilleure période pour visiter {name}
         </h2>
         <BestTimeTable rows={data.bestTime} />
       </section>
     )
   }
 
-  {gallery.length >= 3 && <PhotoGallery images={gallery} caption={`Highlights of ${name}`} />}
+  {gallery.length >= 3 && <PhotoGallery images={gallery} caption={`Découvrir ${name}`} />}
 
-  <!-- In-depth guide (the SEO-rich prose body, intentionally below the fold). -->
   <article class="prose-content mx-auto max-w-3xl px-4 pt-14">
-    <h2 class="font-display !text-3xl">The complete {name} guide</h2>
+    <h2 class="font-display !text-3xl">Le guide complet de {name}</h2>
     <Content />
   </article>
 
-  <!-- Plan the practical stuff: internal links to the money pages. -->
   <section class="mx-auto max-w-6xl px-4 pt-12" aria-labelledby="essentials">
     <h2 id="essentials" class="mb-5 font-display text-2xl font-bold text-ink">
-      Plan the practical stuff
+      Préparer votre voyage
     </h2>
     <div class="grid grid-cols-2 gap-3 sm:grid-cols-3 lg:grid-cols-6">
       {
@@ -253,9 +227,8 @@ const schema = [
 
   <FaqSection faqs={entry.data.faqs ?? []} />
 
-  <!-- Related regions (internal links). -->
   <section class="mx-auto max-w-6xl px-4 pb-4" aria-labelledby="related">
-    <h2 id="related" class="mb-5 font-display text-3xl font-bold text-ink">Explore more of Israel</h2>
+    <h2 id="related" class="mb-5 font-display text-3xl font-bold text-ink">Explorer d'autres régions</h2>
     <div class="grid grid-cols-1 gap-5 sm:grid-cols-3">
       {related.map((r) => <DestinationCard region={r} />)}
     </div>

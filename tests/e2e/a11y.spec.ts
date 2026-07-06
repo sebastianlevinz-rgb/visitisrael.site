@@ -195,6 +195,12 @@ const ROUTES = [
   '/israel-hummus-trail',
   '/israel-agritourism-guide',
   '/israel-jordan-itinerary',
+  '/fr/jerusalem',
+  '/fr/tel-aviv',
+  '/fr/dead-sea',
+  '/de/jerusalem',
+  '/de/tel-aviv',
+  '/de/dead-sea',
 ];
 
 for (const route of ROUTES) {
