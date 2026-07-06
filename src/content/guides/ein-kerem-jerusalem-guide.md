@@ -1,6 +1,6 @@
 ---
 title: 'Ein Kerem Jerusalem: Village & Pilgrimage Guide'
-description: "Ein Kerem guide: Church of the Visitation, Church of St. John the Baptist, Chagall Windows at Hadassah. West Jerusalem's stone village, 15 min from the Old City."
+description: "Ein Kerem guide: Church of the Visitation, Church of St. John the Baptist, Chagall Windows at Hadassah. West Jerusalem stone village, 15 min from the Old City."
 heroImage: /images/regions/jerusalem/hero.jpg
 category: Sacred Sites
 updatedAt: 2026-07-06

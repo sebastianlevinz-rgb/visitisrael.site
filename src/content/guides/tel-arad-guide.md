@@ -1,6 +1,6 @@
 ---
 title: 'Tel Arad National Park: Canaanite City & Israelite Temple Guide'
-description: "Tel Arad visitor guide: 5,000-year-old Canaanite city ruins, unique Israelite temple with four-horned altar, and UNESCO World Heritage context in the northern Negev."
+description: "Tel Arad visitor guide: Canaanite city ruins, unique Israelite temple with four-horned altar, and UNESCO World Heritage context in the northern Negev."
 heroImage: /images/regions/negev/desert.jpg
 category: Destinations
 region: negev

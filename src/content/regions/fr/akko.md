@@ -1,7 +1,7 @@
 ---
 lang: fr
-title: "Que faire à Akko (Acre) : guide de la vieille ville croisée UNESCO 2026"
-description: "Planifiez votre visite à Akko 2026 : halls des Chevaliers Hospitaliers, Tunnel des Templiers, Mansion de Bahjí bahá'íe, Khan al-Umdan et excursions depuis Tel Aviv."
+title: "Akko (Acre) : guide de la vieille ville croisée UNESCO 2026"
+description: "Planifiez votre visite à Akko : halls des Chevaliers Hospitaliers, Tunnel des Templiers, Mansion de Bahjí bahá'íe, Khan al-Umdan et excursions depuis Tel Aviv."
 region: akko
 heroImage: /images/regions/akko/hero.jpg
 latitude: 32.9281

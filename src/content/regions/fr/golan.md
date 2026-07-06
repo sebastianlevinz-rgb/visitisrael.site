@@ -1,7 +1,7 @@
 ---
 lang: fr
 title: "Que faire sur le plateau du Golan : guide de voyage 2026"
-description: "Planifiez votre séjour sur le Golan 2026 : ski au mont Hermon, cascade de Banias, forteresse de Nimrod, mont Bental, villages druzes et circuits depuis Tel Aviv."
+description: "Planifiez votre séjour sur le Golan : ski au mont Hermon, cascade de Banias, forteresse de Nimrod, mont Bental, villages druzes et circuits depuis Tel Aviv."
 region: golan
 heroImage: /images/regions/golan/hero.jpg
 latitude: 33.0036

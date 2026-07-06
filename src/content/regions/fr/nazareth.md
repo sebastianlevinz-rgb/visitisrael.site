@@ -1,7 +1,7 @@
 ---
 lang: fr
 title: "Que faire à Nazareth : guide de pèlerinage chrétien 2026"
-description: "Planifiez votre visite à Nazareth 2026 : basilique de l'Annonciation, souq de la vieille ville, puits de Marie, mont du Précipice et circuit de pèlerinage chrétien."
+description: "Planifiez votre visite à Nazareth : basilique de l'Annonciation, souq de la vieille ville, puits de Marie, mont du Précipice et circuit de pèlerinage chrétien."
 region: nazareth
 heroImage: /images/regions/nazareth/hero.jpg
 latitude: 32.7019
