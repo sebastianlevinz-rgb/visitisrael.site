@@ -195,6 +195,7 @@ const ROUTES = [
   '/israel-hummus-trail',
   '/israel-agritourism-guide',
   '/israel-jordan-itinerary',
+  '/beer-sheva-guide',
   '/fr/jerusalem',
   '/fr/tel-aviv',
   '/fr/dead-sea',

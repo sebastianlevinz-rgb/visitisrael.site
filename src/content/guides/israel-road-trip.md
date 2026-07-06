@@ -108,7 +108,7 @@ The [Dead Sea](/dead-sea-guide) is a morning experience: float in the highest-sa
 
 If you have a [Israel National Parks Pass](/israel-national-parks-pass), Masada and Qumran are both covered.
 
-Overnight at Ein Bokek (resort strip) or push south to the Negev and overnight in Be'er Sheva.
+Overnight at Ein Bokek (resort strip) or push south to the Negev and overnight in [Be'er Sheva](/beer-sheva-guide) — the Negev's capital city holds the UNESCO Tel Be'er Sheva archaeological site, the IAF Air Force Museum, and the ANZAC war cemetery from the 1917 Battle of Beersheba.
 
 ---
 
