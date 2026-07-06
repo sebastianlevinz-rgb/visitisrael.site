@@ -6099,3 +6099,9 @@ What: New /city-of-david-jerusalem guide. P2 S seo-content+monetization. Practic
 Gate: pnpm check 0 errors ✓; pnpm build 494 pages (+1 from iter336's 493) ✓; pnpm test:e2e 626 passed ✓.
 Merge: ba7e732 squash-merged to master, pushed origin/master at ~2026-07-06T15:35Z.
 Prod deploy: CI started on ba7e732; not yet confirmed (within 5-min window at commit time). Previous iter336 commit dbfc1fc CI status: success. No failure signal.
+
+## 2026-07-06T16:45Z · iter 338 · BUILD (tools→seo-content fallthrough) · gamla-nature-reserve-guide
+What: New /gamla-nature-reserve-guide (P2 S seo-content). Standalone Gamla Nature Reserve visitor guide. Content: ancient Jewish city destroyed by Rome 67 CE (predates Masada 3 years; house-to-house archaeology; ancient synagogue possibly oldest known outside Jerusalem in situ), Griffon vulture colony at dedicated observation platform (morning visits best; Feb–Jul breeding season), Gamla waterfall (~51m, one of Israel's tallest; best Dec–Apr), 5 km hiking circuit with trail segment table, INPA pass valid note, no bus service caveat. 3 affiliate CTAs: GYG Golan tour + Viator day trip from Tel Aviv + DiscoverCars car rental. 6 FAQs. Cross-links: golan-heights-guide.md Gamla section updated with standalone link; /israel-national-parks-pass, /car-rental-israel, /hiking-in-israel, /israel-zimmer-guide in body. Footer.astro +1 li. Smoke + a11y specs backfilled +3 routes. Fix applied: partner key 'discovercar' → 'discovercars' (build failed on first attempt; fixed immediately before re-run).
+Gate: pnpm check 0 errors ✓; pnpm build 495 pages (+1 from iter337's 494) ✓; pnpm test:e2e 632 passed ✓.
+Merge: 8b4e92e squash-merged to master, pushed origin/master at ~2026-07-06T16:40Z.
+Prod deploy: CI started on 8b4e92e; not yet confirmed (within 5-min window). Prior iter337 state commit (b8f8129) Lighthouse=success.

@@ -1,13 +1,15 @@
 # LOOP STATE
 
-- iteration: 337
-- lastMode: BUILD
-- lastItem: city-of-david-jerusalem — New /city-of-david-jerusalem guide (P2 S seo-content+monetization). Wet vs dry Hezekiah's Tunnel decision guide; Gihon Spring + Silwan dual-naming context (factual, no advocacy); Pool of Siloam + Herodian Drainage Channel; National Parks Pass NOT valid (important honesty note); 2 CTAs (GYG guided tour + Booking Jerusalem hotels); 6 FAQs. Cross-links: jewish-heritage-israel (updated City of David section with guide link), western-wall-tunnels-guide, christian-pilgrimage-holy-land, holy-sites-dress-code-etiquette, jerusalem-old-city-walking-tour. Footer.astro +1 li. 494 pages built, 626 e2e pass. Shipped ba7e732.
-- lastResult: BUILD DONE — city-of-david-jerusalem shipped ba7e732; pnpm check 0 errors, build 494 pages (+1), 626 e2e passed. Push succeeded. CI not yet confirmed (started within 5 min).
-- nextRotationCategory: 338%5==3 → BUILD (tools or technical). 339%5==4 → REVIEW. 340%5==0 → RESEARCH. 341%5==1 → BUILD (seo-content).
+- iteration: 338
+- lastMode: BUILD (tools rotation — all tools shipped, fell through to seo-content)
+- lastItem: gamla-nature-reserve-guide — New /gamla-nature-reserve-guide (P2 S seo-content). Standalone Gamla Nature Reserve visitor guide: ancient Jewish city (67 CE Roman siege, house-to-house archaeology, oldest known synagogue outside Jerusalem), Griffon vulture colony + observation platform, Gamla waterfall (one of Israel's tallest, ~51m). 5 km hiking circuit breakdown with table, INPA pass valid, practical details (no bus service — car or guided tour required). 3 CTAs (GYG Golan tour + Viator day trip + DiscoverCars). 6 FAQs. Cross-links: golan-heights-guide.md (added standalone guide link in Gamla section), /israel-national-parks-pass, /car-rental-israel, /hiking-in-israel, /israel-zimmer-guide. Footer.astro +1 li after Golan Heights. Smoke + a11y specs backfilled +3 routes (eilat-nightlife, city-of-david-jerusalem, gamla-nature-reserve-guide). 495 pages built, 632 e2e pass. Shipped 8b4e92e.
+- lastResult: BUILD DONE — gamla-nature-reserve-guide shipped 8b4e92e; pnpm check 0 errors, build 495 pages (+1), 632 e2e passed. Push succeeded. CI not yet confirmed (started within 5 min). Prior iter337 CI (b8f8129 state commit): Lighthouse=success.
+- nextRotationCategory: 339%5==4 → REVIEW. 340%5==0 → RESEARCH. 341%5==1 → BUILD (seo-content). 342%5==2 → BUILD (monetization or i18n).
 - higgsfieldSpent: 0
-- updatedAt: 2026-07-06T15:38Z
+- updatedAt: 2026-07-06T16:45Z
 - branch context: work on master; feature work on auto/<slug>
+
+Notes: iter 338 BUILD (seo-content, fell through from tools) — Gamla Nature Reserve guide shipped. P2 S. Standalone guide for one of the Golan Heights' most rewarding sites: ancient Jewish city destroyed by Rome 67 CE (predates Masada by 3 years), Griffon vulture colony at dedicated observation platform, ~51m Gamla waterfall. 5 km circuit. INPA pass valid. Partner key gotcha: 'discovercar' is WRONG — must be 'discovercars' (see affiliates.ts). Smoke + a11y specs backfilled +3 routes for eilat-nightlife (iter336) + city-of-david-jerusalem (iter337) + gamla.
 
 Notes: iter 334 REVIEW — Audited iters 331–333: ein-kerem-guide (iter331), i18n Phase 3 Batch 3 FR+DE (iter332), tel-arad-guide (iter333). 6 meta violations found and fixed (shipped 00dfcca): tel-arad desc 165→150; ein-kerem desc 161→159; fr/akko title 71→59 + desc 164→159; fr/golan desc 161→156; fr/nazareth desc 164→159. Note: regex using r'[\"\'](.*?)[\"\''] gave false-negative for fr/akko and fr/nazareth (apostrophes in Arabic/French text — bahá'íe, l'Annonciation — stopped the lazy match early); always use line-split + strip() for YAML meta-length checks. Cross-locale link audit CLEAN (no wrong-locale links in any of 8 FR/DE files). All internal links valid. No H1 in guide bodies. Affiliate CTAs intact. Honesty framing intact.
 

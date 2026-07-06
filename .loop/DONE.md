@@ -657,3 +657,6 @@ Phase 3 now COMPLETE: all 11 regions in FR+DE.
 
 ## iter337 — city-of-david-jerusalem — ba7e732 (2026-07-06)
 New /city-of-david-jerusalem guide. P2 S seo-content+monetization. Practical decision guide for visiting the City of David archaeological park: wet vs dry Hezekiah's Tunnel, Gihon Spring, Pool of Siloam, dual-naming (City of David / Silwan) context, National Parks Pass NOT valid note. 2 CTAs (GYG + Booking), 6 FAQs, verdictName set. Cross-links: jewish-heritage-israel (updated), western-wall-tunnels-guide, christian-pilgrimage-holy-land, holy-sites-dress-code-etiquette, jerusalem-old-city-walking-tour. Footer.astro +1 li. 494 pages, 626 tests.
+
+## iter338 — gamla-nature-reserve-guide — 8b4e92e (2026-07-06)
+New /gamla-nature-reserve-guide. P2 S seo-content. Standalone Gamla Nature Reserve visitor guide: ancient Jewish city destroyed by Rome 67 CE (first-century synagogue possibly oldest outside Jerusalem in situ), Griffon vulture colony + observation platform, Gamla waterfall (~51m). 5 km circuit trail table. INPA pass valid. 3 CTAs (GYG Golan tour + Viator day trip + DiscoverCars). 6 FAQs. Cross-links: golan-heights-guide (link added), /israel-national-parks-pass, /car-rental-israel, /hiking-in-israel, /israel-zimmer-guide. Footer.astro +1 li. Smoke + a11y specs backfilled +3 routes. 495 pages, 632 tests.
