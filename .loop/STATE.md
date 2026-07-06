@@ -1,13 +1,44 @@
 # LOOP STATE
 
-- iteration: 321
-- lastMode: BUILD (321%5==1 → monetization rotation)
-- lastItem: israel-orthodox-jewish-travel — comprehensive logistics guide for observant/Orthodox Jewish visitors
-- lastResult: BUILD COMPLETE — gate GREEN (0 errors, 465 pages +1, 593/593 e2e pass); merged 7b13236; CI in_progress at state-update (standard)
-- nextRotationCategory: 322%5==2 → BUILD seo-content rotation
+- iteration: 322
+- lastMode: BUILD (322%5==2 → seo-content rotation)
+- lastItem: jerusalem-armenian-quarter — complete visitor guide for the Jerusalem Old City Armenian Quarter
+- lastResult: BUILD COMPLETE — gate GREEN (0 errors, 466 pages +1, 593/593 e2e pass); merged 13184cd; CI in_progress at state-update (standard)
+- nextRotationCategory: 323%5==3 → BUILD tools rotation (all tools SHIPPED → fallthrough to seo-content/monetization)
 - higgsfieldSpent: 0
-- updatedAt: 2026-07-05T23:45Z
+- updatedAt: 2026-07-06T00:42Z
 - branch context: work on master; feature work on auto/<slug>
+
+Notes: iter 322 BUILD (seo-content) · jerusalem-armenian-quarter:
+  Mode BUILD (322%5==2 → seo-content rotation). Picked jerusalem-armenian-quarter (P2, S) —
+  smallest Old City quarter; genuine gap confirmed: jerusalem-neighborhoods-guide.md covers it
+  in ~150 words; NO standalone guide existed; timeout.co.il has a feature but no competitor
+  has a comprehensive visitor guide; armenian-patriarchate.org confirms narrow cathedral hours
+  (6:30–7:30am + 3:00–3:30pm daily); alltrails-style gap for the Mardigian genocide museum
+  (only Armenian genocide museum in Middle East open to public); high-value experiential gap
+  confirmed by iter320 research.
+  New guide: /jerusalem-armenian-quarter. Content: Cathedral of St. James (Surp Hagop) with
+  full honesty framing on narrow visiting hours (6:30–7:30am + 3:00–3:30pm, non-negotiable);
+  Armenian Apostolic Patriarchate compound history (established 638 CE, 5th-century presence);
+  Mardigian Museum (12th-17th century illuminated manuscripts, genocide documentation, ~₪15
+  admission, Mon-Sat 10am-4pm); Armenian ceramics workshops (Balian + Sandrouni families on
+  Patriarchate Road, ₪80-400, authenticity caveats vs Jaffa Gate mass-produced tiles); Cows'
+  Garden urban farm (Patriarchate-operated, access may be restricted — verify on day); Syrian
+  Orthodox Church of St. Mark (2,000-year-old olive wood icon, informal hours). Quick-reference
+  table, 6 FAQs, practical timing guide. 2 GYG affiliate CTAs (Old City private tour covering
+  all 4 quarters + Armenian Quarter focused tour). Dense cross-links to jerusalem-old-city-
+  walking-tour, jerusalem-neighborhoods-guide, holy-sites-dress-code-etiquette, jerusalem/western-
+  wall (attraction). Reverse cross-links added: jerusalem-old-city-walking-tour (Step 2 Armenian
+  Quarter section, after ceramics description); jerusalem-neighborhoods-guide (Armenian Quarter
+  Key sites paragraph). Bug fix during development: /western-wall-guide doesn't exist → fixed
+  to /jerusalem/western-wall (attraction URL pattern).
+  Gate: pnpm check 0 errors (119 files) · build 466 pages (+1) · 593/593 e2e+a11y pass. GREEN.
+  Ship: committed 13184cd to master; pushed origin/master. CI in_progress at state-update (standard).
+  NEXT: iter 323 → BUILD tools rotation (323%5==3). Tools category all SHIPPED — fallthrough to
+    seo-content/monetization. Top P2 candidates:
+    accessible-travel-israel (P2, M), photography-guide (P2, M), israel-memorial-sites (P2, M),
+    israel-best-hikes (P2, M), israel-top-archaeological-sites (P2, M), israel-for-black-travelers
+    (P2, M), israel-anzac-heritage (P2, S). i18n Phase 3 (regions fr+de) also P2.
 
 Notes: iter 321 BUILD (monetization) · israel-orthodox-jewish-travel:
   Mode BUILD (321%5==1 → monetization rotation). Picked israel-orthodox-jewish-travel (P2, M) —
