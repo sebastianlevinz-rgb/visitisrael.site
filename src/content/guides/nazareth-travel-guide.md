@@ -144,6 +144,7 @@ Nazareth's Christmas Eve celebration is regularly reported as the largest in Isr
 
 ## Combine with nearby destinations
 
+- **Zippori National Park** (5 km northwest, 10 minutes by car): the Roman mosaics site of ancient Sepphoris — start here at 8:00am before the site heats up, see the "Mona Lisa of the Galilee" mosaic and the Byzantine synagogue floor, then drive to Nazareth. The [Zippori / Sepphoris guide](/zippori-sepphoris-guide) covers the mosaics, Roman theater, and the site's connection to Galilee history
 - **Sea of Galilee / Tiberias** (60 km east, about 1 hour by car): the natural pairing — Nazareth as the morning's spiritual and urban destination, the lake for afternoon swimming, a boat tour, or the lakeside atmosphere at Tiberias. The [Tiberias & Sea of Galilee guide](/tiberias-guide) covers Hamat Tiberias's zodiac mosaics, the Jesus Boat Museum, and using Tiberias as a base; the [Nazareth & Sea of Galilee day trip guide](/nazareth-sea-of-galilee-day-trip) covers the single-day Christian Galilee circuit in detail
 - **Safed (Tzfat)** (70 km north, about 70 minutes by car): the kabbalistic hilltop city makes a striking contrast to Nazareth's urban Arab character. See the [Safed travel guide](/safed-tzfat-guide)
 - **Akko (Acre)** (55 km north-west via Haifa, about 60–70 minutes): the UNESCO Crusader city — combining Nazareth with Akko gives you Christian pilgrimage and medieval history in one northern day. See the [Akko travel guide](/akko-acre-guide)

@@ -82,6 +82,7 @@ The INPA manages over 63 nature reserves and archaeological parks across the cou
 **Northern Israel & Galilee**
 - Beit She'an National Park (Roman-Byzantine ruins)
 - Megiddo (Tel Megiddo / Biblical Armageddon)
+- [Zippori National Park](/zippori-sepphoris-guide) (Roman mosaics, Sepphoris ancient capital)
 - Banias Nature Reserve ([Golan Heights](/golan))
 - Nimrod Fortress (Golan)
 - Beit Guvrin / Maresha caves (UNESCO World Heritage cave network)
@@ -130,7 +131,7 @@ The 14-day clock starts the day you first use the card. Plan your itinerary so y
 Masada + Ein Gedi + Qumran + En Prat + Avdat + Mamshit + Timna = 7 sites from one card, easily achievable on a combined [Dead Sea region](/dead-sea) + [Negev](/negev) trip.
 
 **North Israel and Galilee loop (5–7 days)**
-Caesarea + Beit She'an + Megiddo + Banias + Beit Guvrin + Nimrod = 6 sites — doable on the Green Card, or add Apollonia and Ashkelon for the Orange.
+Caesarea + Beit She'an + [Zippori](/zippori-sepphoris-guide) + Megiddo + Banias + Nimrod = 6 sites — doable on the Green Card, covering Roman mosaics, Bronze Age to Byzantine ruins, and Crusader fortifications.
 
 ---
 
