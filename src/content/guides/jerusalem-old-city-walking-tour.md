@@ -79,6 +79,8 @@ Turn left immediately inside Jaffa Gate into the **Armenian Quarter**, the small
 
 **Armenian ceramic shops:** The Armenian Quarter is known for its hand-painted ceramic tiles — the distinctive blue-and-white style was brought from Kütahya (Turkey) in the early 20th century. Several family studios on Patriarchate Road sell directly. Prices are higher than market stalls elsewhere, but the work is genuine.
 
+For a deeper look at the quarter — including the Mardigian Museum, the Cows' Garden and practical timing advice for the cathedral — see the [Armenian Quarter Jerusalem guide](/jerusalem-armenian-quarter).
+
 ---
 
 ### Step 3 — Jewish Quarter

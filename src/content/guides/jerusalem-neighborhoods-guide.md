@@ -118,7 +118,7 @@ The Armenian Quarter occupies the southwestern section of the Old City, sharing 
 
 **Why stay here:** the most contemplative Old City base; the quietest streets after dark; a small number of atmospheric guesthouses and apartments have opened in recent years. The Jaffa Gate approach and Mount Zion (5-minute walk through Zion Gate) are immediate.
 
-**Key sites:** Cathedral of St. James; Armenian Museum; Mount Zion — Room of the Last Supper, David's Tomb complex (Zion Gate exit, 5-minute walk).
+**Key sites:** Cathedral of St. James; Armenian Museum; Mount Zion — Room of the Last Supper, David's Tomb complex (Zion Gate exit, 5-minute walk). See the [Armenian Quarter guide](/jerusalem-armenian-quarter) for cathedral hours, the Mardigian Museum and ceramic workshops.
 
 ---
 
