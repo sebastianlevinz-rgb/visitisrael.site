@@ -635,3 +635,6 @@ i18n Phase 3 Batch 1 — 6 locale region pages (fr/jerusalem, fr/tel-aviv, fr/de
 - iter327 · 04863a4 · i18n-phase3-batch2 · galilee, haifa, eilat, negev in FR+DE (8 locale pages); DestinationCard href override prop; FR/DE home pages locale-link fix. Phase 3 Batch 2 complete: 7/11 regions in FR+DE. 613/613 e2e pass. 481 pages built.
 
 - beer-sheva-guide (5f7c736, iter 328) — Beer-Sheva / Beersheba city guide: UNESCO Tel Be'er Sheva, IAF Museum Hatzerim, ANZAC memorial + Beersheba War Cemetery, Ottoman Old City + Negev Museum of Art. Israel's last major city without a standalone guide. SEO gap confirmed. 615/615 gate pass.
+
+## iter 329 · REVIEW · review-329-desc-trim · SHA 4f6e8c9
+Trimmed overlong SEO descriptions in beer-sheva-guide (180→149 chars) and zippori-sepphoris-guide (170→148 chars). i18n Phase 3 Batch 2 FR+DE region files clean. All internal links, honesty framing, affiliate CTAs verified correct.

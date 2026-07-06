@@ -5972,3 +5972,15 @@ Smoke: +1 route (/beer-sheva-guide). A11y: +1 route (/beer-sheva-guide).
 Gate: pnpm check 0 errors (121 files) · pnpm build 482 pages (+1 from 481) · pnpm test:e2e 615/615 pass. GREEN.
 Ship: committed 5f7c736 to master; pushed origin/master. CI in_progress at state-update (standard pattern; prior chain all success).
 NEXT: iter 329 → REVIEW mode (329%5==4). Audit iters 325–328 (research-325, zippori-guide, i18n-phase3-batch2, beer-sheva-guide).
+
+## 2026-07-06T07:40Z · iter 329 · REVIEW · audit iters 325–328 (zippori-guide, i18n-phase3-batch2, beer-sheva-guide)
+Mode: REVIEW (329%5==4). Scope: zippori-sepphoris-guide (iter 326), i18n Phase 3 Batch 2 — galilee/haifa/eilat/negev FR+DE (iter 327), beer-sheva-guide (iter 328).
+Checks performed: (1) SEO meta — title lengths, description lengths; (2) cross-locale link correctness in FR+DE region files; (3) internal link validity (all 7 linked slugs confirmed to exist); (4) honesty framing (no fabricated prices/ratings); (5) body H1 presence (none found — correct); (6) sitemap inclusion (both EN guides confirmed in sitemap-0.xml); (7) affiliate CTAs (GYG+Viator+Booking for both guides — correctly wired via affiliateCtas frontmatter).
+Findings: 2 SEO description violations:
+  - beer-sheva-guide: description 180 chars (limit 160) → trimmed to 149 chars
+  - zippori-sepphoris-guide: description 170 chars (limit 160) → trimmed to 148 chars
+  No cross-locale link bugs in any of the 8 FR+DE region files (galilee/haifa/eilat/negev × 2). No honesty issues. All internal links valid.
+Fix: branch auto/review-329-desc-trim; 2 files edited; squash-merged to master 4f6e8c9 pushed.
+Gate: pnpm check 0 errors (121 files); pnpm build 482 pages (unchanged count); pnpm test:e2e 615/615 PASS. GREEN.
+Prod: CI Lighthouse in_progress at push time. SHA 4f6e8c9. Prior pattern: CI succeeds.
+Next: iter 330 = RESEARCH (330%5==0). Scan competitors for content gaps not yet in backlog.
