@@ -1,12 +1,12 @@
 # LOOP STATE
 
-- iteration: 336
+- iteration: 337
 - lastMode: BUILD
-- lastItem: eilat-nightlife — New /eilat-nightlife guide (P2 S seo-content). Completes nightlife triplet: tel-aviv-nightlife (iter175) + jerusalem-nightlife (iter181) + Eilat. North Beach promenade, beach clubs, Texas Pub, Three Monkeys, Unplugged live music, Red Sea Jazz Festival, Coral Beach quieter bars. 3 CTAs (GYG+Viator+Booking). Cross-links: eilat-travel-guide + israel-evening-activities + Footer.astro. 493 pages built, 626 e2e pass. Shipped dbfc1fc.
-- lastResult: BUILD DONE — eilat-nightlife shipped dbfc1fc; CI in_progress at state-update time (normal — started <5 min ago); no failure signal.
-- nextRotationCategory: 337%5==2 → BUILD (monetization; candidates: check backlog for top P1/P2 monetization items). After that: 338%5==3 → BUILD (tools or technical). 339%5==4 → REVIEW. 340%5==0 → RESEARCH.
+- lastItem: city-of-david-jerusalem — New /city-of-david-jerusalem guide (P2 S seo-content+monetization). Wet vs dry Hezekiah's Tunnel decision guide; Gihon Spring + Silwan dual-naming context (factual, no advocacy); Pool of Siloam + Herodian Drainage Channel; National Parks Pass NOT valid (important honesty note); 2 CTAs (GYG guided tour + Booking Jerusalem hotels); 6 FAQs. Cross-links: jewish-heritage-israel (updated City of David section with guide link), western-wall-tunnels-guide, christian-pilgrimage-holy-land, holy-sites-dress-code-etiquette, jerusalem-old-city-walking-tour. Footer.astro +1 li. 494 pages built, 626 e2e pass. Shipped ba7e732.
+- lastResult: BUILD DONE — city-of-david-jerusalem shipped ba7e732; pnpm check 0 errors, build 494 pages (+1), 626 e2e passed. Push succeeded. CI not yet confirmed (started within 5 min).
+- nextRotationCategory: 338%5==3 → BUILD (tools or technical). 339%5==4 → REVIEW. 340%5==0 → RESEARCH. 341%5==1 → BUILD (seo-content).
 - higgsfieldSpent: 0
-- updatedAt: 2026-07-06T14:42Z
+- updatedAt: 2026-07-06T15:38Z
 - branch context: work on master; feature work on auto/<slug>
 
 Notes: iter 334 REVIEW — Audited iters 331–333: ein-kerem-guide (iter331), i18n Phase 3 Batch 3 FR+DE (iter332), tel-arad-guide (iter333). 6 meta violations found and fixed (shipped 00dfcca): tel-arad desc 165→150; ein-kerem desc 161→159; fr/akko title 71→59 + desc 164→159; fr/golan desc 161→156; fr/nazareth desc 164→159. Note: regex using r'[\"\'](.*?)[\"\''] gave false-negative for fr/akko and fr/nazareth (apostrophes in Arabic/French text — bahá'íe, l'Annonciation — stopped the lazy match early); always use line-split + strip() for YAML meta-length checks. Cross-locale link audit CLEAN (no wrong-locale links in any of 8 FR/DE files). All internal links valid. No H1 in guide bodies. Affiliate CTAs intact. Honesty framing intact.
