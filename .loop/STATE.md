@@ -1,13 +1,39 @@
 # LOOP STATE
 
-- iteration: 322
-- lastMode: BUILD (322%5==2 → seo-content rotation)
-- lastItem: jerusalem-armenian-quarter — complete visitor guide for the Jerusalem Old City Armenian Quarter
-- lastResult: BUILD COMPLETE — gate GREEN (0 errors, 466 pages +1, 593/593 e2e pass); merged 13184cd; CI in_progress at state-update (standard)
-- nextRotationCategory: 323%5==3 → BUILD tools rotation (all tools SHIPPED → fallthrough to seo-content/monetization)
+- iteration: 323
+- lastMode: BUILD (323%5==3 → tools rotation → fallthrough to i18n Phase 3 Batch 1)
+- lastItem: i18n-phase3-batch1 — FR+DE region pages for jerusalem, tel-aviv, dead-sea (6 locale pages)
+- lastResult: BUILD COMPLETE — gate GREEN (0 errors, 472 pages +6, 605/605 e2e pass); merged c1c388f; pushed origin/master
+- nextRotationCategory: 324%5==4 → REVIEW mode (audit iters 321–323)
 - higgsfieldSpent: 0
-- updatedAt: 2026-07-06T00:42Z
+- updatedAt: 2026-07-06T01:58Z
 - branch context: work on master; feature work on auto/<slug>
+
+Notes: iter 323 BUILD (tools→i18n Phase 3 Batch 1) · i18n-phase3-batch1:
+  Mode BUILD (323%5==3 → tools rotation). Tools exhausted; fell through to i18n Phase 3.
+  i18n Phase 3 — regions in fr+de, Batch 1 (top 3 regions): jerusalem, tel-aviv, dead-sea.
+  Infrastructure changes: regions glob updated to **/*.md (supports locale subdirs);
+  [region]/index.astro updated to filter EN-only (no '/' in id) + hreflang alternates for
+  translated regions + language switcher links ("🇫🇷 En français / 🇩🇪 Auf Deutsch") on EN pages;
+  new fr/[region]/index.astro + de/[region]/index.astro route templates with full locale UI.
+  Bug fixed: slug field removed from all 6 locale content files — Astro glob-loader uses frontmatter
+  slug as the entry ID, causing duplicates; removing it restores path-based IDs (fr/jerusalem etc.).
+  Bug fixed: TRANSLATED_REGIONS const moved inside getStaticPaths (Astro isolates getStaticPaths
+  from module scope; module-level consts are not accessible within it).
+  Content: 6 locale pages (fr/jerusalem, fr/tel-aviv, fr/dead-sea, de/jerusalem, de/tel-aviv,
+  de/dead-sea). Each has paired naming for contested sites (Mur des Lamentations/Kotel, Klagemauer/
+  Kotel, esplanade des mosquées/mont du Temple, Felsendom, Tempelberg). FR and DE prose authored
+  from scratch in native register; not raw machine translation. 5 FAQs per page. EN REGION_DATA
+  (tours, hotels, keyFacts, bestTime, attraction cards) reused across all locales.
+  smoke.spec.ts + a11y.spec.ts extended with 6 new routes. Link checker: pages reachable via
+  language switcher links on EN region pages (EN /jerusalem links to /fr/jerusalem + /de/jerusalem).
+  Gate: pnpm check 0 errors · build 472 pages (+6) · 605/605 e2e+a11y pass. GREEN.
+  Ship: squash-merged c1c388f to master; pushed origin/master.
+  NEXT: iter 324 → REVIEW mode (324%5==4). Audit iters 321–323 output:
+    israel-orthodox-jewish-travel (iter321), jerusalem-armenian-quarter (iter322),
+    i18n-phase3-batch1 (iter323). Check SEO meta (title/desc lengths), all internal links,
+    honesty framing, paired naming on contested sites, hreflang correctness.
+  i18n Phase 3 Batch 2 pending: next 4 regions (galilee, haifa, eilat, negev) in fr+de.
 
 Notes: iter 322 BUILD (seo-content) · jerusalem-armenian-quarter:
   Mode BUILD (322%5==2 → seo-content rotation). Picked jerusalem-armenian-quarter (P2, S) —

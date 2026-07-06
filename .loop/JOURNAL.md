@@ -5917,3 +5917,9 @@ What: New guide /jerusalem-armenian-quarter — complete visitor guide for Jerus
 Gate: pnpm check 0 errors (119 files) · build 466 pages (+1) · 593/593 e2e+a11y pass. GREEN.
 Ship: committed 13184cd to master; pushed origin/master. CI in_progress at state-update (standard — prior runs all success).
 NEXT: iter 323 → BUILD tools rotation (323%5==3). Tools exhausted → fallthrough to seo-content/monetization. Top candidates: accessible-travel-israel (P2, M), photography-guide (P2, M), israel-memorial-sites (P2, M), israel-best-hikes (P2, M), israel-top-archaeological-sites (P2, M), israel-for-black-travelers (P2, M), israel-anzac-heritage (P2, S).
+
+## 2026-07-06T01:58Z · iter 323 · BUILD (tools→i18n Phase 3 Batch 1) · i18n-phase3-batch1
+What: i18n Phase 3 Batch 1 — FR+DE region pages for top 3 regions (jerusalem, tel-aviv, dead-sea). 6 new locale pages total. Infrastructure: regions collection glob updated to **/*.md; [region]/index.astro filters EN-only + adds hreflang alternates + language switcher <a> links; new fr/[region]/index.astro + de/[region]/index.astro route templates. Two bugs caught and fixed: (1) Astro glob-loader uses frontmatter slug field as entry ID — caused duplicate IDs; removed slug from all 6 locale files so path-based IDs (fr/jerusalem etc.) are used. (2) TRANSLATED_REGIONS const was defined at module scope but referenced inside getStaticPaths — Astro isolates getStaticPaths from module scope; moved const inside function. Link checker: 6 new pages were unreachable; fixed by adding language switcher <a> links on EN region pages. Paired naming maintained on contested sites in both FR and DE prose.
+Gate: pnpm check 0 errors · build 472 pages (+6) · 605/605 e2e+a11y pass. GREEN.
+Ship: squash-merged c1c388f to master; pushed origin/master.
+NEXT: iter 324 → REVIEW mode (324%5==4). Audit iters 321–323.
