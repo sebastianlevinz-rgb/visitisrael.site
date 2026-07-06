@@ -1,25 +1,26 @@
 # LOOP STATE
 
-- iteration: 325
-- lastMode: RESEARCH (325%5==0) — competitor scan + 6 net-new backlog items added
-- lastItem: research-325 — Beer Sheva guide, Abu Ghosh guide, Haifa nightlife, Zippori/Sepphoris, AI trip planning, Magdala visitor guide
-- lastResult: RESEARCH COMPLETE — 6 confirmed-new items appended to BACKLOG.md; COMPETITORS.md updated; no code changes; no gate run needed
-- nextRotationCategory: 326%5==1 → BUILD mode (seo-content or monetization; top P2 ready: Mitzpe Ramon guide, Muslim-friendly Israel, Israel medical tourism, water parks, i18n Phase 3 Batch 2)
+- iteration: 326
+- lastMode: BUILD (seo-content)
+- lastItem: zippori-sepphoris-guide — Zippori/Sepphoris National Park visitor guide: "Mona Lisa of the Galilee" mosaic, Roman theater, Byzantine synagogue zodiac floor, Crusader citadel
+- lastResult: SHIPPED d06c389 — pnpm check 0 errors · build 473 pages (+1) · 605/605 e2e+a11y pass · pushed to master · CI in_progress at push (standard pattern, prior runs all success)
+- nextRotationCategory: 327%5==2 → BUILD seo-content (or monetization if seo thin). Top P2 candidates: accessible-travel-israel (P2, M), photography-guide (P2, M), water-parks-family-fun (P2, M), israel-memorial-sites (P2, M), beer-sheva-guide (P2, S), i18n Phase 3 Batch 2 (galilee/haifa/eilat/negev FR+DE — 8 pages)
 - higgsfieldSpent: 0
-- updatedAt: 2026-07-06T03:00Z
+- updatedAt: 2026-07-06T04:45Z
 - branch context: work on master; feature work on auto/<slug>
 
-Notes: iter 325 RESEARCH — 6 net-new backlog items confirmed via 15+ Python3 regex passes across 776-line BACKLOG.md + DONE.md + guides/ dir:
-  (1) beer-sheva-guide (P2, S, seo-content+monetization) — last major Israeli city missing from city guide series; UNESCO Tel Be'er Sheva + IAF Museum + ANZAC Center; touristisrael.com/tripadvisor.com rank with editorial we lack
-  (2) abu-ghosh-guide (P3, S, seo-content) — hummus capital + intact Crusader church + biannual Vocal Music Festival; popular Shabbat lunch day-trip from Jerusalem; no standalone guide existed
-  (3) haifa-nightlife (P3, S, seo-content) — completes nightlife guide trilogy (jerusalem-nightlife + tel-aviv-nightlife already shipped); German Colony/Masada St/port area; timeout.co.il covers this, we don't
-  (4) zippori-sepphoris-guide (P2, S, seo-content) — "Mona Lisa of the Galilee" Roman mosaic; top-visited Galilee INPA site; 0 hits in backlog/DONE/guides/ across 325 iterations — most surprising omission found
-  (5) israel-ai-trip-planning (P3, S, seo-content) — AI chatbot planning guide with Israel-specific caveats; no competitor has this yet; links to all 6 existing planning tools; early-mover 2026 advantage
-  (6) magdala-visitor-guide (P3, S, seo-content) — Duc In Altum Church + 1st-century synagogue; 200k+ annual pilgrims; completely absent from content despite growing Christian pilgrimage market
-  De-duped and rejected: mountain biking → SHIPPED iter238; WWOOF → israel-agritourism-guide SHIPPED iter288; herzliya → SHIPPED iter282; wadi swimming → water-hiking-israel SHIPPED iter67; capernaum/tabgha → in backlog + galilee-christian-sites-circuit SHIPPED iter221; beit-shean → in backlog; LGBTQ → SHIPPED; halal → in backlog.
-  Gate: N/A (RESEARCH mode — no code changes).
-  Ship: N/A.
-  NEXT: iter 326 → BUILD mode (326%5==1). Top candidates: Mitzpe Ramon & Ramon Crater guide (P2, M), Muslim-friendly Israel guide (P2, M), Israel Medical Tourism guide (P2, M), water parks & family fun guide (P2, M), OR i18n Phase 3 Batch 2 (galilee/haifa/eilat/negev FR+DE — 8 locale pages). Balance: tech/i18n work has been recent (iter323 = i18n); consider seo-content next.
+Notes: iter 326 BUILD (seo-content) — Zippori/Sepphoris National Park guide shipped.
+  Confirmed 0-hit gap across 325 iterations despite being INPA's most-visited Galilee mosaic site.
+  Content: "Mona Lisa of the Galilee" 3rd-century CE Dionysian mosaic + Byzantine synagogue zodiac floor +
+  Nilotic House + Bird Mosaic + Roman theater (4,000 seats) + Crusader citadel + cardo.
+  Honesty: "Mona Lisa" nickname as journalistic shorthand; Jesus/Sepphoris connection as scholarly
+  inference (not Gospel text); Crusader tradition re Virgin Mary's parents as tradition; capital moved to
+  Tiberias in 2nd century CE; hours seasonal (always link inpa.gov.il).
+  Cross-links: Footer.astro Galilee section, nazareth-travel-guide "Combine with nearby" +1 bullet,
+  israel-national-parks-pass Northern Galilee list + North loop itinerary updated.
+  Gate: 0 errors (121 files) · 473 pages · 605/605 pass.
+  NEXT: iter 327 → BUILD (327%5==2 → seo-content or monetization). Lean toward accessible-travel-israel
+  or photography-guide (both P2, M) or beer-sheva-guide (P2, S, quick) or i18n Phase 3 Batch 2.
 
 Cron b7325b16 hourly @ :17. Loop history: 19 tools + sitemap-lastmod + link-checker(+depth) + i18n
 Phase0/1a/1b/1c/2 Batches1-18(COMPLETE) + 35 review passes + 3 technical (event-schema + meta-trim + locale-links) + 35 EN guides + 4 tools-monetization;

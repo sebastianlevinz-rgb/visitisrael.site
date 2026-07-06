@@ -631,3 +631,4 @@ in israel-accommodation-guide, haifa-travel-guide, haifa-neighborhoods-guide.
 
 ## iter 323 · 2026-07-06 · i18n-phase3-batch1 · SHA c1c388f
 i18n Phase 3 Batch 1 — 6 locale region pages (fr/jerusalem, fr/tel-aviv, fr/dead-sea, de/jerusalem, de/tel-aviv, de/dead-sea). Full FR+DE route templates (fr/[region]/index.astro, de/[region]/index.astro). Infrastructure: regions glob to **/*.md; EN region page hreflang + language switcher links; slug-field-as-ID bug fixed. All pages use EN REGION_DATA (tours/hotels/attractions) + locale prose + paired naming on contested sites. smoke.spec.ts + a11y.spec.ts +6 routes each. 605/605 e2e pass. 472 pages built.
+- iter326 · d06c389 · /zippori-sepphoris-guide · Zippori/Sepphoris National Park visitor guide — "Mona Lisa of the Galilee" mosaic + Byzantine synagogue zodiac floor + Roman theater + Crusader citadel; first guide to this top INPA Galilee site (0-hit gap across 325 iters); cross-links footer/nazareth/parks-pass.
