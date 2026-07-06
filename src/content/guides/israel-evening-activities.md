@@ -39,7 +39,7 @@ faqs:
 
 Israel's evenings are rarely quiet. Once the day-trip crowds clear and the sun drops behind the hills, a different version of the country takes over — floodlit ancient walls, open-air sound-and-light shows, a desert sky dense with stars, and a market quarter that swaps vegetable stalls for cocktail bars. This guide covers the best after-dark experiences for culture seekers, families, and anyone who wants something more than a nightclub.
 
-> This guide focuses on cultural and family evening experiences. For Tel Aviv's bar and club scene, see the [Tel Aviv nightlife guide](/tel-aviv-nightlife).
+> This guide focuses on cultural and family evening experiences. For bar and club scenes, see the [Tel Aviv nightlife guide](/tel-aviv-nightlife), [Jerusalem nightlife guide](/jerusalem-nightlife), and [Eilat nightlife guide](/eilat-nightlife).
 
 ## Tower of David Night Spectacular (Jerusalem)
 
