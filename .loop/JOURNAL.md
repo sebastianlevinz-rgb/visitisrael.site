@@ -5930,3 +5930,18 @@ Findings: (1) CLEAN: israel-orthodox-jewish-travel.md — title 52 ✓ desc 147 
 Gate: pnpm check 0 errors (121 files) · build 472 pages · 605/605 e2e+a11y pass. GREEN.
 Ship: committed 0a9f569 to master; pushed origin/master. CI in_progress at state-update (standard).
 NEXT: iter 325 → RESEARCH mode (325%5==0). Scan for new profitable content gaps; competitor review; de-dup against saturated BACKLOG (200+ ready items). Also eligible: i18n Phase 3 Batch 2 (galilee, haifa, eilat, negev FR+DE — 8 locale pages).
+
+## 2026-07-06T03:00Z · iter 325 · RESEARCH · research-325
+Mode: RESEARCH (325%5==0). Systematic competitor analysis + backlog de-duplication for genuinely new content gaps.
+Method: 15+ Python3 regex grep passes across full 776-line BACKLOG.md, DONE.md, and guides/ directory listing; confirmed 0 standalone hits for all 6 items before adding.
+6 net-new items added to BACKLOG.md + research findings appended to COMPETITORS.md:
+  (1) beer-sheva-guide (P2, S) — last major Israeli city without a standalone guide; UNESCO Tel Be'er Sheva, IAF Museum Hatzerim, ANZAC memorial; touristisrael+TripAdvisor rank; confirmed gap.
+  (2) abu-ghosh-guide (P3, S) — hummus capital + 12th-century Crusader church (Benedictine monks since 1906) + biannual Vocal Music Festival; popular Shabbat day trip 15min from Jerusalem; standalone gap confirmed.
+  (3) haifa-nightlife (P3, S) — completes nightlife trilogy (JLM iter181 + TLV iter175 shipped); German Colony cocktail bars, Masada Street student strip, port area; timeout.co.il has content, we have 3 lines in haifa-travel-guide.
+  (4) zippori-sepphoris-guide (P2, S) — "Mona Lisa of the Galilee" 3rd-century mosaic; 1st-century synagogue; INPA top-visited Galilee site; 0 hits anywhere after 325 iterations — most surprising omission discovered.
+  (5) israel-ai-trip-planning (P3, S) — AI chatbot planning guide with Israel-specific caveats (security info dates, Temple Mount access); no competitor has this; links to all 6 existing planning tools.
+  (6) magdala-visitor-guide (P3, S) — Duc In Altum Church + transparent-floor Encounter Chapel above 1st-century synagogue; Magdala Center 200k+ annual visitors; growing Christian pilgrimage market; complete editorial gap.
+De-duped rejected items: mountain-biking (→ cycling-in-israel SHIPPED iter238); WWOOF (→ israel-agritourism-guide SHIPPED iter288); herzliya (→ SHIPPED iter282, confirmed in guides/ dir); wadi swimming (→ water-hiking-israel SHIPPED iter67; also in backlog); capernaum/tabgha/beatitudes (→ in backlog + galilee-christian-sites-circuit SHIPPED iter221).
+Gate: N/A (RESEARCH mode — no code changes, no gate run).
+Ship: N/A. State + BACKLOG + COMPETITORS + JOURNAL updated; committed to master.
+NEXT: iter 326 → BUILD mode (326%5==1). Top P2 candidates: Mitzpe Ramon & Ramon Crater (P2, M), Muslim-friendly Israel (P2, M), Israel Medical Tourism (P2, M), water parks family fun (P2, M), OR i18n Phase 3 Batch 2. Lean toward seo-content given recent i18n work (iter323).

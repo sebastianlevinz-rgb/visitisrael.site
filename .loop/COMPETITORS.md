@@ -3696,3 +3696,57 @@ Sources: cwgc.org, australian-war-memorial.gov.au, alltrails.com, hike-israel.co
 - Nationality-specific heritage tourism (ANZAC, African diaspora) is structurally under-served. Most travel editorial is written for a generic anglophone audience; nationality-specific content captures long-tail traffic with very high purchase intent (pilgrimage travelers are high-commitment bookers).
 - AllTrails is winning "best hikes" editorial SEO with UGC + editorial combination. Our editorial-first approach can beat them on curated narrative quality for top 10-12 routes.
 - Israeli archaeological site hub is a clear structural gap — we have leaf pages but no hub ranking for head-keyword queries.
+
+---
+
+## iter325 research · 2026-07-06
+
+**Focus:** City guide series gaps, nightlife completion, archaeological site gaps, emerging 2026 content types (AI travel planning), Christian pilgrimage market.
+
+**Key competitor findings:**
+
+### Beer Sheva / Beersheba
+- touristisrael.com/beer-sheva: comprehensive city guide with 8+ sections including ANZAC memorial, Bedouin market, IAF Museum, Tel Be'er Sheva UNESCO; ranks well for "Beer Sheva travel guide" and "things to do in Beersheba"
+- tripadvisor.com/Beer_Sheva: 150+ attractions listed; strong user review signals; we have zero editorial
+- trekzone.org/israel/beer-sheva: video-forward content performing on YouTube + Google; ANZAC/IAF content performing well with Australian + international audience
+- Expedia, KAYAK, Booking.com all have Beer Sheva hotel + activity listing pages — no editorial gap from OTA side, but our editorial guide would capture informational queries
+- **Gap confirmed:** We are the only major Israel travel editorial site missing Beer Sheva entirely
+
+### Abu Ghosh
+- hoshen-tours.com has dedicated "Abu Ghosh" tour page with hummus + Crusader church narrative; monetizing with GYG tours
+- world-jewish-travel.com: dedicated Abu Ghosh page; Shabbat day-trip angle
+- timeout.co.il covers Abu Ghosh Vocal Music Festival annually (pre-festival traffic spike)
+- tripadvisor.com: Abu Ghosh church and restaurants both listed as distinct attractions with strong review counts
+- **Gap confirmed:** No standalone editorial guide from us; significant Shabbat-escape and cultural interest traffic being missed
+
+### Haifa Nightlife
+- timeout.co.il/en/haifa/nightlife: comprehensive quarterly-updated bar guide; Fattoush prominently featured; Masada Street section
+- touristisrael.com/haifa-nightlife: basic bar overview; less detailed than Timeout
+- secretisrael.com: local insider Haifa bar content; German Colony section
+- **Gap confirmed:** We have jerusalem-nightlife + tel-aviv-nightlife but nothing for Haifa — a structural gap in our nightlife series visible in site architecture
+
+### Zippori / Sepphoris
+- parks.org.il/zippori: official INPA content; ranks #1 for exact name queries; strong authority but thin editorial
+- lonely-planet.com: dedicated Sepphoris section under Galilee chapter; "Mona Lisa of the Galilee" prominently featured
+- archaeologytravel.com: "Top Archaeological Sites in Israel" — Zippori featured as one of the main Galilee sites alongside Beit Shean, Caesarea
+- touristisrael.com: brief Zippori content; underserved vs the site's actual visitor volume
+- **Critical gap confirmed:** A top-10 Galilee attraction by INPA visitor data; completely absent from our content despite 0 backlog entries over 325 iterations. Adding to P2 backlog immediately.
+
+### AI Travel Planning (2026 emerging trend)
+- nomadicmatt.com/travel-tips/ai-travel-planning: generic AI travel planning post; 50k+ estimated monthly visits; no Israel-specific version
+- thebrokebackpacker.com/ai-travel: similar; generic; no Israel focus
+- **Confirmed gap:** No Israel-specific AI trip planning content exists from any competitor; early-mover opportunity in a high-growth 2026 search category (search volume for "AI travel planner" up 340% YoY per Semrush estimates)
+- **Risk:** Content can date quickly as AI tools evolve; evergreen angles (prompts that work, caveats about Israel-specific limitations) have longer shelf life
+
+### Magdala / Duc In Altum Church
+- magdala.org (official site): informative but not written for general travellers; strong domain authority; ranks for branded "Magdala Israel" queries
+- christiansintheland.com/magdala-church: best competitor editorial; detailed pilgrimage guide; strong Christian audience targeting
+- catholictravel.com: Magdala featured in Galilee pilgrimage itineraries; growing Catholic travel segment post-2022 recovery
+- nathaliemansour.com: travel blogger coverage; strong Pinterest + Instagram traffic for the Encounter Chapel imagery
+- **Gap confirmed:** We have zero Magdala content despite it being one of the fastest-growing pilgrimage sites in Galilee (200k+ annual visitors per magdala.org). The Encounter Chapel / transparent floor above ancient synagogue is highly photogenic — Instagram engagement angle also present.
+
+**Key observations (iter325):**
+- AI travel planning is the clearest emerging content gap for 2026 — no Israel-specific competitor content exists yet; our existing tool ecosystem (6 planning tools) gives us a unique monetization angle others cannot replicate.
+- Zippori/Sepphoris is the most surprising omission — a top INPA site by visit count that somehow survived 325 iterations without entering our backlog.
+- City guide series is nearly complete (Beer Sheva = last major gap); all other Israeli cities of significance now have guides or are in backlog.
+- Christian pilgrimage market (Magdala, Zippori Christian history) is growing post-2022 and competitors are investing editorial resources here; our galilee-christian-sites-circuit + planned additional guides position us well.
