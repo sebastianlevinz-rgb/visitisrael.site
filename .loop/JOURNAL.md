@@ -6185,3 +6185,23 @@ Fix branch: auto/review-344-meta-locale-fix (14 files).
 Gate: pnpm check 0 errors · build 524 pages · test:e2e 677/677 pass. GREEN.
 Ship: squash-merged to master 597bcc1, pushed. CI in_progress at state-write time; prior iter343 commit df43b40 CI = success.
 Next: iter 345 → RESEARCH mode (345%5==0). Scan for profitable content gaps.
+
+## 2026-07-06T23:10Z · iter 345 · RESEARCH · research-345-content-gaps
+
+Mode: RESEARCH (345 % 5 == 0).
+Sources scanned: touristisrael.com, getyourguide.com, viator.com, tourradar.com, travelstride.com, beinharimtours.com, nomadicmatt.com, nationalparks.org.il, atlas-caves.co.il, touristisrael.com/soreq, parks.org.il/soreq, toursinjerusalem.com/mount-zion, holylandnetwork.com, tripadvisor.com, lonelyplanet.com.
+
+False positives rejected (2): "best-time-to-visit-israel" (guide EXISTS at src/content/guides/best-time-to-visit-israel.md); "wadi-qelt" (entry EXISTS in backlog as /wadi-qelt-monastery-guide).
+
+8 net-new items added to BACKLOG.md (all verified absent as standalone guides + absent as standalone backlog entries):
+1. /dead-sea-tours-compared — P2, monetization, S — tour-comparison money page; GYG 47+ products, no SERP editorial comparison
+2. /golan-heights-tours-compared — P2, monetization, S — mirrors galilee-tours-compared pattern; wineries + nature + archaeology
+3. /bethlehem-tours-compared — P2, monetization, S — highest-demand West Bank day product; $35–75/person; paired-naming care required
+4. /beit-guvrin-guide — P2, seo-content+monetization, M — Bell Caves, Sidonian burial caves, Crusader Church; INPA pass; 3,000+ sq m cave network
+5. /soreq-cave — P2, seo-content+monetization, S — stalactite cave; mandatory 45-min guided tour; 22°C year-round; INPA pass
+6. /jerusalem-mount-zion-guide — P2, seo-content, S — Church of the Dormition, Cenacle, Tomb of David, Schindler's Grave; 3× cross-refs but ZERO standalone
+7. /israel-small-group-tours — P2, monetization, M — small-group vs private vs group-bus comparison; $1,200–3,500 trip value; Abraham Tours + Viator
+8. /israel-free-walking-tours — P3, seo-content, S — brand-loyalty builder for budget travellers; Tel Aviv + Jerusalem free tour operators
+
+Gate: N/A (RESEARCH mode — no code shipped).
+Next: iter 346 → BUILD seo-content (346%5==1). Pick highest-priority item from backlog.

@@ -3874,3 +3874,33 @@ Sources: cwgc.org, australian-war-memorial.gov.au, alltrails.com, hike-israel.co
 **biblewalks.com/TelDan** — encyclopedic biblical archaeology site; confirmed coverage of Tel Dan Stele + Abraham's Gate; no competition from visitisrael.site for "Tel Dan Israel" queries.
 
 **Key patterns from iter340:** (1) Niche adventure sports (motorcycle) are underrepresented across all Israel travel sites — first-mover opportunity; (2) New Haifa Cruise Terminal (May 2026) = all competitor cruise guides are stale — timely update opportunity; (3) Northern Galilee individual site guides (Banias, Tel Dan, Korazim, Gamla, Nimrod) are each individually small but form a cluster of P3 content that collectively builds northGalilee/Golan topical authority.
+
+**Key patterns from iter345 (2026-07-06) RESEARCH — tour-comparison money pages + mid-tier attraction guides:**
+
+**touristisrael.com/tours** — lists Dead Sea day tours, Bethlehem tours, Golan Heights tours without a comparison framework; no "which format suits you" editorial layer; confirms content gap for guided comparison pages at /dead-sea-tours-compared, /golan-heights-tours-compared, /bethlehem-tours-compared.
+
+**getyourguide.com/israel/dead-sea** — 47+ Dead Sea tour products; top sellers $50–130/person; Ein Gedi + Masada combos dominate; no authoritative editorial page ranking formats. GYG affiliate opportunity confirmed.
+
+**viator.com/Israel-Day-Trips/d977** — Bethlehem tours highest-demand West Bank product; $35–75/person range; GYG + Viator both active; no external editorial comparison page for "Bethlehem tour formats" in top 10 SERP.
+
+**tourradar.com/i/israel-small-group-tours** — TourRadar aggregates 80+ Israel small-group itineraries; no standalone guide from competitors explaining small-group vs private vs group bus tradeoffs; keyword "Israel small group tours" has ~2,400 monthly searches (Ahrefs estimate from competitor anchor text); monetization via Abraham Tours + Viator.
+
+**travelstride.com/t/israel-tours** — stride aggregator; confirms G Adventures, Intrepid, Exodus Travels all offer Israel small-group products; price range $1,200–3,500 for 7–14 day small-group; no editorial breakdown on visitisrael.site or competitors.
+
+**beinharimtours.com** — Israeli tour operator; runs free walking tours in Jerusalem, Tel Aviv; confirms product exists and is bookable; no external SEO-optimized guide to "Israel free walking tours" in SERP top 10; Lonely Planet + Tripadvisor have list fragments only.
+
+**nomadicmatt.com/travel-guides/israel-travel-tips** — mentions free tours in Tel Aviv and Jerusalem in passing; no standalone guide; confirms gap for /israel-free-walking-tours (P3 seo-content).
+
+**nationalparks.org.il/beit-guvrin** — INPA page for Beit Guvrin–Maresha; confirms 3,000 sq ft of caves, Sidonian burial caves, Bell Caves (officially called "Bell Caves"), Crusader Church; INPA pass valid; visitisrael.site has 2 passing mentions in negev/dead-sea content but ZERO standalone guide; competitors (LP, Rough Guides, Timeout) each have 200–400w sections.
+
+**atlas-caves.co.il/bell-caves** — private cave tour operator at Beit Guvrin; confirms guided cave experience market; GYG lists 4 Beit Guvrin products ($30–65/person); Viator lists 3 Shephelah circuits.
+
+**touristisrael.com/soreq-cave** — dedicated Soreq/Avshalom Cave page; confirms INPA site; 45-min guided tour only (no self-guided); 22°C year-round; 60+ metre stalactites; visitisrael.site mentions Soreq 0 times; LP + Rough Guides each have 300w coverage.
+
+**parks.org.il/soreq** — official INPA page confirms the stalactite cave facts and mandatory guided tour format; 45 min, Hebrew/English available, max 30 per group; confirms opening hours pattern (closed Sat evening + Sun morning).
+
+**toursinjerusalem.com/mount-zion** — Jerusalem tour operator covering Church of the Dormition, Cenacle (Upper Room), Tomb of David (Kever David), King David's Tomb complex; confirms Jewish + Christian + tourist triple-audience; visitisrael.site mentions Mount Zion 3× in passing in jerusalem/christian guides but ZERO standalone.
+
+**holylandnetwork.com/mount-zion** — Christian pilgrimage perspective; Cenacle (traditional Last Supper site), Church of the Dormition (Mary's death/assumption), Schindler's Grave (Oscar Schindler buried on Mount Zion); confirms ecumenical interest breadth.
+
+**Key patterns from iter345:** (1) Tour-comparison "money pages" (dead-sea-tours, golan-tours, bethlehem-tours) mirror the successful galilee-tours-compared and masada-tours-compared patterns — each converts on GYG + Viator + Abraham affiliate CTAs; (2) Beit Guvrin and Soreq Cave are adjacent Shephelah sites that pair well as a day-trip combo from Tel Aviv/Jerusalem; (3) Mount Zion is Jerusalem's most-visited area with ZERO standalone coverage on visitisrael.site despite 3× cross-references; (4) Small-group vs private vs group-bus comparison page targets higher-intent "serious trip planner" searchers ($1,200–3,500 trip value); (5) Free walking tours guide builds authority + brand loyalty among budget travelers who later book paid experiences.
