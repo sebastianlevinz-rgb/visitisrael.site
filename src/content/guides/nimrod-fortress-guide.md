@@ -1,6 +1,6 @@
 ---
 title: 'Nimrod Fortress: Israel''s Largest Medieval Castle (Visitor Guide)'
-description: 'Nimrod Fortress guide: largest medieval castle in Israel, Golan Heights — Ayyubid history, what to see, INPA park circuit, and how to combine with Banias and Tel Dan.'
+description: 'Nimrod Fortress guide: largest medieval castle in Israel, Golan Heights — Ayyubid history, what to see, and how to combine with Banias and Tel Dan.'
 heroImage: /images/regions/golan/nimrod-fortress.jpg
 category: Destinations
 updatedAt: 2026-07-07

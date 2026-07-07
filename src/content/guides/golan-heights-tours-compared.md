@@ -1,6 +1,6 @@
 ---
 title: 'Golan Heights Tours Compared: Day Trips, Jeep & Self-Drive (2026)'
-description: 'Golan Heights tours compared: day trips from Tel Aviv and Jerusalem, jeep safari, wine-tasting, self-drive and multi-day options — which format suits you and where to book.'
+description: 'Golan Heights tours compared: day trips, jeep safari, wine-tasting, self-drive and multi-day options — which format suits you and where to book.'
 heroImage: /images/regions/golan/mount-bental.jpg
 category: Tours
 verdictName: Golan Heights tours
