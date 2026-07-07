@@ -1,13 +1,15 @@
 # LOOP STATE
 
-- iteration: 364
-- lastMode: REVIEW (364%5==4)
-- lastItem: review-364-meta-fix — trim meta descriptions to ≤160 chars on nimrod-fortress-guide and golan-heights-tours-compared
-- lastResult: SHIPPED — 0 check errors, 565 pages, 752/752 e2e pass. SHA ed37b2c. CI in_progress at push time.
-- nextRotationCategory: 365%5==0 → RESEARCH. 366%5==1 → BUILD (seo-content). 367%5==2 → BUILD (monetization). 368%5==3 → BUILD (tools or fall-through). 369%5==4 → REVIEW.
+- iteration: 365
+- lastMode: RESEARCH (365%5==0)
+- lastItem: research-365-yam-caesarea-marine-national-park
+- lastResult: RESEARCH — 1 new backlog item added (yam-caesarea-guide P2 S); Yam Caesarea Marine NP (Nov 2024, Israel's first marine NP) confirmed as primary new gap. Backlog ~400+ items; saturation high. No ship.
+- nextRotationCategory: 366%5==1 → BUILD (seo-content). 367%5==2 → BUILD (monetization). 368%5==3 → BUILD (tools or fall-through). 369%5==4 → REVIEW.
 - higgsfieldSpent: 0
-- updatedAt: 2026-07-07T18:38Z
+- updatedAt: 2026-07-07T20:15Z
 - branch context: work on master; feature work on auto/<slug>
+
+Notes: iter 365 RESEARCH — 2026-specific INPA designations focus. Primary finding: Yam Caesarea Marine National Park (designated Nov 25, 2024); Israel's first marine national park; 267 acres west of Caesarea Antiquities NP; protects submerged Herodian harbor (20 BCE) + coral reefs + seagrass meadows. Distinct from existing israel-mediterranean-diving backlog item (iter190): adds "Israel's first marine NP" PR hook, ecological protection angle, INPA visitor infrastructure under development. All other 2026 candidates (Skyfield, Schottenstein National Campus, Rosh Hanikra cable car, new hotels) confirmed already in backlog. 1 new item added to BACKLOG: yam-caesarea-guide (P2 S seo-content+monetization). COMPETITORS.md updated.
 
 Notes: iter 364 REVIEW — meta description length audit of iters 362–363. Found 2 violations: nimrod-fortress-guide (166→147 chars, removed "INPA park circuit, ") and golan-heights-tours-compared (172→144 chars, removed "from Tel Aviv and Jerusalem, "). All internal links resolved, hero images confirmed, partner keys valid, no fabricated data. Quick fix shipped as ed37b2c. Gate: 0 check errors, 565 pages, 752/752 e2e. CI in_progress at push time.
 
@@ -45,4 +47,4 @@ Notes: iter 334 REVIEW — 6 meta violations found and fixed. Lesson: lazy regex
 
 Cron b7325b16 hourly @ :17. Loop history: 19 tools + sitemap-lastmod + link-checker(+depth) + i18n
 Phase0/1a/1b/1c/2 Batches1-18(COMPLETE) + 37 review passes + 3 technical (event-schema + meta-trim + locale-links) + 46 EN guides + 5 tools-monetization;
-research iters 5/10/20/30/35/40/45/50/55/60/65/70/75/80/85/90/95/100/105/110/115/120/125/130/135/140/145/150/155/160/165/170/175/180/185/190/195/200/205/210/215/220/225/230/235/240/245/250/255/260/265/270/275/280/285/290/295/300/305/310/315/320/325/330/335/340/345/350/355/360.
+research iters 5/10/20/30/35/40/45/50/55/60/65/70/75/80/85/90/95/100/105/110/115/120/125/130/135/140/145/150/155/160/165/170/175/180/185/190/195/200/205/210/215/220/225/230/235/240/245/250/255/260/265/270/275/280/285/290/295/300/305/310/315/320/325/330/335/340/345/350/355/360/365.

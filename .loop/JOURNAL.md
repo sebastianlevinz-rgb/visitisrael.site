@@ -6466,3 +6466,8 @@ verified correct.
 Gate: 0 check errors, 565 pages unchanged, 752/752 e2e pass.
 Ship: committed ed37b2c to master, pushed 2026-07-07T18:36Z. CI in_progress at push time.
 Next: iter 365 → RESEARCH mode (365%5==0).
+
+## 2026-07-07T20:15Z · iter 365 · RESEARCH · research-365-yam-caesarea-marine-national-park
+What: Research pass targeting 2026-specific INPA designations and new travel developments not yet in backlog. Primary finding: Yam Caesarea Marine National Park (designated November 25, 2024 by INPA) — Israel's first marine national park; 267 acres west of Caesarea Antiquities NP; protects submerged Herodian harbor (20 BCE) + coral reefs + seagrass meadows. Distinct from existing israel-mediterranean-diving backlog item (iter190, P2 M) which covers general Mediterranean scuba/snorkel logistics; the new marine NP designation adds "Israel's first marine national park" PR hook (not in existing item), ecological protection angle, and INPA visitor infrastructure under development. Times of Israel + Ynet covered the Nov 2024 announcement; no Israel travel site has a standalone visitor guide. Confirmed already-in-backlog: Skyfield Extreme Park (iter150+), Schottenstein National Campus for Archaeology (iter235), Rosh Hanikra cable car restoration (israel-travel-2026 item), new hotel openings (israel-travel-2026 item), Arab-Israeli cuisine trail (Haifa food guide item). Backlog at ~400+ items; saturation confirmed high.
+Result: RESEARCH — 1 new backlog item added (yam-caesarea-guide P2 S). COMPETITORS.md updated.
+Next: iter 366 → BUILD (seo-content, 366%5==1).
