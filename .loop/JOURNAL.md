@@ -6387,3 +6387,10 @@ smoke.spec.ts + a11y.spec.ts each +10 routes (after /de/galilee/yardenit).
 Gate: pnpm check 0 errors; pnpm build 562 pages (+10 from 552); pnpm test:e2e 750/750 pass (+20 from 730).
 Ship: squash-merged to master c617f68, pushed 2026-07-07T12:51Z. Lighthouse + CI in_progress at push time.
 Next: iter 359 → REVIEW mode (359%5==4).
+
+## 2026-07-07T14:00Z · iter 359 · REVIEW · audit iters 356–358 (bedouin, tel-afek, haifa FR+DE ×10)
+What: Audited the 3 most recent BUILD iterations (356–358) — 2 EN guides + 10 haifa FR+DE attraction locale pages.
+Checks run: (1) title ≤65 + desc ≤160 for all 12 files (used line-split+rfind approach — lazy-regex catches apostrophes incorrectly as seen in iter 334; confirmed CLEAN); (2) no H1 in body; (3) all internal links resolve — bedouin: /mitzpe-ramon-guide, /car-rental-israel, /masada-dead-sea-day-trip, /glamping-israel (all valid); tel-afek: /israel-national-parks-pass, /car-rental-israel, /caesarea-guide, /herzliya-guide, /day-trips-from-tel-aviv (all valid); (4) locale-prefixed links correct in all 10 FR+DE files; (5) no aggregateRating/ratingValue/reviewCount in any file; (6) no hardcoded ₪/$ prices (ranges-only in prose); (7) affiliate CTA partner keys valid (getyourguide, viator, booking); (8) cross-links bidirectional: bedouin→glamping-israel (132), mitzpe-ramon-guide (164), footer (156); tel-afek→day-trips-from-tel-aviv (54), caesarea-guide (142), israel-national-parks-pass (93); (9) ticketInfo preserved in haifa-bahai-gardens FR+DE (freeEntry:true, bookingRequired:false + localized tipText); (10) religiousSiteId preserved in haifa-stella-maris FR+DE.
+Result: REVIEW CLEAN — 0 violations. No fixes required. No code changes; gate not run.
+Lesson: lazy `[\"\'](.*?)[\"\']` regex on YAML titles gives false-short lengths when titles contain apostrophes (e.g. Bahá'í → stops at the apostrophe). Use line-split + `val.rfind(quote, 1)` — robust across French/German/Hebrew apostrophes.
+Next: iter 360 = RESEARCH.

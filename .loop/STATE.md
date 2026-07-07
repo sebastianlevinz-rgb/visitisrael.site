@@ -1,12 +1,12 @@
 # LOOP STATE
 
-- iteration: 358
-- lastMode: BUILD (iter 358 — i18n Phase 4 Batch 5 — haifa attractions FR+DE shipped)
-- lastItem: i18n-phase4-batch5 — 5 Haifa attractions × FR+DE (10 locale pages): haifa/bahai-gardens (ticketInfo preserved), haifa/carmel-national-park, haifa/german-colony, haifa/stella-maris (religiousSiteId preserved), haifa/wadi-nisnas. 562 pages. 750/750 e2e pass. SHA c617f68.
-- lastResult: shipped (gate green; pushed to master; CI in_progress at time of state update — prior 3 runs success)
-- nextRotationCategory: 359%5==4 → REVIEW. 360%5==0 → RESEARCH. 361%5==1 → BUILD (seo-content). 362%5==2 → BUILD (monetization). 363%5==3 → BUILD (tools or fall-through).
+- iteration: 359
+- lastMode: REVIEW (iter 359 — audited iters 356–358: bedouin-experience-israel, tel-afek-guide, haifa FR+DE ×10 — CLEAN)
+- lastItem: review-iters-356-358 — 2 EN guides (bedouin-experience-israel, tel-afek-guide) + 10 haifa FR+DE attractions
+- lastResult: CLEAN — 0 violations across all 12 files (meta, H1, links, locale-links, ratings, prices, CTAs, cross-links)
+- nextRotationCategory: 360%5==0 → RESEARCH. 361%5==1 → BUILD (seo-content). 362%5==2 → BUILD (monetization). 363%5==3 → BUILD (tools or fall-through).
 - higgsfieldSpent: 0
-- updatedAt: 2026-07-07T13:00Z
+- updatedAt: 2026-07-07T14:00Z
 - branch context: work on master; feature work on auto/<slug>
 
 Notes: iter 358 BUILD (i18n Phase 4 Batch 5) — 5 Haifa attractions × FR+DE shipped. haifa/bahai-gardens (ticketInfo: freeEntry/bookingRequired/tipText in FR+DE), haifa/carmel-national-park, haifa/german-colony, haifa/stella-maris (religiousSiteId: stella-maris in FR+DE), haifa/wadi-nisnas. 10 locale pages. smoke.spec.ts + a11y.spec.ts +10 routes each. 562 pages (+10 from 552). 750/750 e2e pass (+20 from 730). SHA c617f68. Branch auto/i18n-phase4-batch5 deleted. CI in_progress at push time.
