@@ -6362,3 +6362,28 @@ What: New /bedouin-experience-israel guide (P2 M seo-content+monetization). Nege
 Gate: pnpm check 0 errors; pnpm build 552 pages (+1); pnpm test:e2e 730/730 pass (+2 from 728).
 Ship: squash-merged to master 18d451d, pushed 2026-07-07T11:42Z. Lighthouse CI in_progress at push time (prior 3 runs: success/success/success).
 Next: iter 358 → BUILD mode (358%5==3 → tools or fall-through to next ready category).
+
+## 2026-07-07T13:00Z · iter 358 · BUILD (i18n Phase 4 Batch 5) · haifa-attractions-fr-de
+
+Mode: BUILD (358%5==3 → tools or fall-through; all tools shipped → fell through to i18n Phase 4 Batch 5).
+Item: i18n Phase 4 Batch 5 — 5 Haifa sub-destination attractions × FR+DE.
+
+What: 10 new locale pages (5 FR + 5 DE):
+- fr/haifa-bahai-gardens.md → /fr/haifa/bahai-gardens (ticketInfo block in FR)
+- fr/haifa-carmel-national-park.md → /fr/haifa/carmel-national-park
+- fr/haifa-german-colony.md → /fr/haifa/german-colony
+- fr/haifa-stella-maris.md → /fr/haifa/stella-maris (religiousSiteId: stella-maris)
+- fr/haifa-wadi-nisnas.md → /fr/haifa/wadi-nisnas
+- de/haifa-bahai-gardens.md → /de/haifa/bahai-gardens (ticketInfo block in DE)
+- de/haifa-carmel-national-park.md → /de/haifa/carmel-national-park
+- de/haifa-german-colony.md → /de/haifa/german-colony
+- de/haifa-stella-maris.md → /de/haifa/stella-maris (religiousSiteId: stella-maris)
+- de/haifa-wadi-nisnas.md → /de/haifa/wadi-nisnas
+
+All pages: 5–6 FAQs per locale, full body content in target language, no H1 in body, hreflang via shared frontmatter pattern. ticketInfo (freeEntry: true, bookingRequired: false, tipText translated) preserved on bahai-gardens FR+DE. religiousSiteId: stella-maris preserved on stella-maris FR+DE. YAML safety: no ASCII double-quote issues in German content (typographic „…" closings avoided by keeping body prose in plain Markdown).
+
+smoke.spec.ts + a11y.spec.ts each +10 routes (after /de/galilee/yardenit).
+
+Gate: pnpm check 0 errors; pnpm build 562 pages (+10 from 552); pnpm test:e2e 750/750 pass (+20 from 730).
+Ship: squash-merged to master c617f68, pushed 2026-07-07T12:51Z. Lighthouse + CI in_progress at push time.
+Next: iter 359 → REVIEW mode (359%5==4).
