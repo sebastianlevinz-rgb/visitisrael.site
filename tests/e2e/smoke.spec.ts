@@ -377,6 +377,16 @@ const ROUTES = [
   '/de/tel-aviv/neve-tzedek',
   '/de/tel-aviv/tayelet',
   '/de/tel-aviv/rothschild',
+  '/fr/tel-aviv/carmel-market',
+  '/fr/tel-aviv/florentin',
+  '/fr/tel-aviv/tel-aviv-museum',
+  '/fr/dead-sea/ein-bokek',
+  '/fr/dead-sea/masada',
+  '/de/tel-aviv/carmel-market',
+  '/de/tel-aviv/florentin',
+  '/de/tel-aviv/tel-aviv-museum',
+  '/de/dead-sea/ein-bokek',
+  '/de/dead-sea/masada',
 ];
 
 for (const route of ROUTES) {
