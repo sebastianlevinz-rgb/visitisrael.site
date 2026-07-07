@@ -1,13 +1,15 @@
 # LOOP STATE
 
-- iteration: 346
-- lastMode: BUILD (seo-content)
-- lastItem: jerusalem-mount-zion-guide — /jerusalem-mount-zion-guide; Cenacle + David's Tomb + Dormition Abbey; 525 pages; 679/679 tests; SHA c2c788f.
+- iteration: 347
+- lastMode: BUILD (monetization)
+- lastItem: dead-sea-tours-compared — /dead-sea-tours-compared; P2 S monetization; Dead Sea only vs Masada combo vs self-drive comparison; 526 pages; 681/681 tests; SHA c885d41.
 - lastResult: SHIP — guide live, CI in_progress at state-write time (all prior runs success; no regression risk).
-- nextRotationCategory: 347%5==2 → BUILD (monetization or i18n). 348%5==3 → BUILD (tools). 349%5==4 → REVIEW. 350%5==0 → RESEARCH. 351%5==1 → BUILD (seo-content).
+- nextRotationCategory: 348%5==3 → BUILD (tools). 349%5==4 → REVIEW. 350%5==0 → RESEARCH. 351%5==1 → BUILD (seo-content). 352%5==2 → BUILD (monetization or i18n).
 - higgsfieldSpent: 0
-- updatedAt: 2026-07-07T00:41Z
+- updatedAt: 2026-07-07T01:45Z
 - branch context: work on master; feature work on auto/<slug>
+
+Notes: iter 347 BUILD (monetization) — Dead Sea tours compared shipped. P2 S. Decision-stage money page comparing Dead Sea only guided tours, Masada + Dead Sea combos, self-drive and private guide formats. Comparison table + 4 format sections + Ein Bokek shore guide + 6 FAQs. 3 CTAs: GYG Dead Sea day trip, Viator Masada+Dead Sea combo, Booking Ein Bokek hotels. Cross-links: dead-sea-guide (organised tours paragraph upgraded), masada-dead-sea-day-trip (Plan section +1 link), Footer.astro (+1 li after eilat-tours-compared). 681 tests (+2 from 679).
 
 Notes: iter 339 REVIEW — Broad EN guide meta scan technique: do not use lazy-match regex with quotes (apostrophes in titles/descs can break it). Instead use per-file YAML frontmatter block extraction + targeted title/desc line-search with alternating quote chars. Confirmed: the city-of-david desc was authored too long in iter337 and caught within 2 iters by REVIEW. Lesson for authoring: always verify title ≤65 and desc ≤160 before committing.
 
@@ -28,5 +30,5 @@ Notes: iter 329 REVIEW — Audited iters 325–328: zippori-sepphoris-guide (ite
 Notes: iter 328 BUILD (seo-content) — Beer-Sheva guide shipped. Last major Israeli city missing a standalone guide; UNESCO Tel Be'er Sheva (Biblical Tels 2005, Iron Age water system + gate complex + horned altar), IAF Museum at Hatzerim (~150 aircraft, free outdoor exhibits), ANZAC memorial + Beersheba War Cemetery (1917 Light Horse charge), Ottoman Old City + Negev Museum of Art (1906 Jami Mosque). Honesty: IAF free-for-outdoor caveated with "verify at iaf.org.il"; INPA hours caveat; no fabricated prices/ratings; Light Horse charge framed with military-history context. Cross-links: negev.md How-to-Get-Here upgraded + beer-sheva link; israel-road-trip.md Day 5 overnight mention upgraded with link; Footer.astro +1 li in day trips section.
 
 Cron b7325b16 hourly @ :17. Loop history: 19 tools + sitemap-lastmod + link-checker(+depth) + i18n
-Phase0/1a/1b/1c/2 Batches1-18(COMPLETE) + 37 review passes + 3 technical (event-schema + meta-trim + locale-links) + 41 EN guides + 4 tools-monetization;
-research iters 5/10/20/30/35/40/45/50/55/60/65/70/75/80/85/90/95/100/105/110/115/120/125/130/135/140/145/150/155/160/165/170/175/180/185/190/195/200/205/210/215/220/225/230/235/240/245/250/255/260/265/270/275/280/285/290/295/300/305/310/315/320/325/330/335.
+Phase0/1a/1b/1c/2 Batches1-18(COMPLETE) + 37 review passes + 3 technical (event-schema + meta-trim + locale-links) + 42 EN guides + 5 tools-monetization;
+research iters 5/10/20/30/35/40/45/50/55/60/65/70/75/80/85/90/95/100/105/110/115/120/125/130/135/140/145/150/155/160/165/170/175/180/185/190/195/200/205/210/215/220/225/230/235/240/245/250/255/260/265/270/275/280/285/290/295/300/305/310/315/320/325/330/335/340/345.

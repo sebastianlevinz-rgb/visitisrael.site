@@ -6212,3 +6212,22 @@ Cross-links: christian-pilgrimage-holy-land (Cenacle now linked to new guide), 3
 Gate: pnpm check 0 errors; build 525 pages (+1); 679/679 e2e+a11y pass.
 Ship: squash-merged to master c2c788f, pushed.
 Prod: CI + Lighthouse workflows in_progress at time of state write; prior CI runs all success; no regression risk (content-only guide addition). Will confirm on next iteration start-check.
+
+## 2026-07-07T01:45Z · iter 347 · BUILD (monetization) · dead-sea-tours-compared
+Mode: BUILD (347%5==2 → monetization or i18n). Picked P2 S monetization: /dead-sea-tours-compared — top-priority unshipped money page; mirrors masada-tours-compared.md pattern; confirmed gap (Dead Sea is #1 Israel day trip; GYG/Viator both have major Dead Sea SKUs; we had no dedicated tour-comparison page for it).
+What: New /dead-sea-tours-compared (P2 S monetization). Decision-stage money page comparing:
+  - Dead Sea only guided tours (longer float, relaxed format)
+  - Dead Sea + Masada combo tours (sunrise/cable-car variants)
+  - Self-drive (Ein Bokek, Route 1 → Route 90, 90 min from Jerusalem)
+  - Private guide + driver (custom itinerary)
+  Comparison table at top. Ein Bokek shore guide (resort strip, public beach, day passes). 6 FAQs covering: guided vs self-drive, Dead Sea only vs Masada combo, Ein Bokek vs Ein Gedi (Ein Gedi public beach permanently CLOSED — sinkholes — enforced with strong warning), best time of year, Dead Sea level decline (1m/year; still worth visiting), entry fees + hotel pickup.
+  3 affiliate CTAs: GYG Dead Sea day trip query, Viator Dead Sea + Masada combo query, Booking Ein Bokek hotel query.
+  Honesty: no fabricated tour prices/ratings (always link to operator); Dead Sea level decline stated factually; sinkhole danger at Ein Gedi flagged prominently; summer heat 38–42°C health risk noted.
+  Cross-links: dead-sea-guide (organised tours paragraph → /dead-sea-tours-compared link added), masada-dead-sea-day-trip (Plan section → /dead-sea-tours-compared link added), Footer.astro (+1 li after eilat-tours-compared).
+  Smoke + a11y specs: +1 route each (/dead-sea-tours-compared) → 681 tests total.
+Gate:
+  pnpm check: 0 errors (123 files) ✓
+  pnpm build: 526 pages (+1 from 525) ✓
+  pnpm test:e2e: 681/681 passed ✓
+Ship: committed c885d41 to master; pushed origin/master. CI in_progress at state-write time. Previous run (c2c788f) CI pattern: all prior runs success; no regression risk (content-only addition).
+Next: iter 348 → BUILD mode (348%5==3 → tools). Tools backlog: check for P1/P2 tools items; likely fall-through to seo-content or i18n Phase 4 Batch 3 if tools backlog thin.
