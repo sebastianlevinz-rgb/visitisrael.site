@@ -668,3 +668,4 @@ New /gamla-nature-reserve-guide. P2 S seo-content. Standalone Gamla Nature Reser
 
 ## iter 343 · i18n-phase4-batch2
 - FR+DE translations: jerusalem-city-of-david, jerusalem-tower-of-david, jerusalem-israel-museum, jerusalem-garden-tomb, tel-aviv-old-jaffa, tel-aviv-neve-tzedek, tel-aviv-tayelet, tel-aviv-rothschild (16 locale pages). SHA df43b40.
+- [iter346 → c2c788f] Jerusalem Mount Zion guide (/jerusalem-mount-zion-guide) — three pilgrimage sites within 200 m outside Zion Gate: Cenacle (Upper Room, Last Supper + Pentecost tradition; Franciscan Gothic vault + Ottoman mihrab), King David's Tomb (medieval tradition, medieval not ancient; men's head covering required), Dormition Abbey (1910 German Benedictine; recumbent Mary effigy in crypt). Honest archaeological framing throughout. 7 FAQs, 3 CTAs (GYG + Viator + Booking), Footer link added, cross-links in christian-pilgrimage-holy-land and 3-days-in-jerusalem updated. 525 pages; 679/679 e2e+a11y pass.

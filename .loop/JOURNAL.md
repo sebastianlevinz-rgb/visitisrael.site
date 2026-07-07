@@ -6205,3 +6205,10 @@ False positives rejected (2): "best-time-to-visit-israel" (guide EXISTS at src/c
 
 Gate: N/A (RESEARCH mode — no code shipped).
 Next: iter 346 → BUILD seo-content (346%5==1). Pick highest-priority item from backlog.
+
+## 2026-07-07T00:40Z · iter 346 · BUILD (seo-content) · jerusalem-mount-zion-guide
+What: New guide at /jerusalem-mount-zion-guide — three major pilgrimage sites within 200 m of each other outside Zion Gate: Cenacle (Upper Room), King David's Tomb, Dormition Abbey. Honest archaeological framing throughout: David's Tomb = medieval tradition not ancient; Cenacle = Crusader Gothic + Ottoman mihrab, no verifiable Last Supper connection; Dormition Abbey = 1910 German Benedictine, competing dormition traditions noted. Quick-reference table, site-by-site commentary, practical logistics (getting there, opening hours, dress code including men's kippah at Tomb), cross-faith context section, 7 FAQs, 3 affiliate CTAs (GYG Mount Zion walking tour, Viator private full-day, Booking Jerusalem hotels).
+Cross-links: christian-pilgrimage-holy-land (Cenacle now linked to new guide), 3-days-in-jerusalem (Skip Mount Zion section now linked), Footer.astro (new entry in Day Trips: "Mount Zion: Upper Room & David's Tomb").
+Gate: pnpm check 0 errors; build 525 pages (+1); 679/679 e2e+a11y pass.
+Ship: squash-merged to master c2c788f, pushed.
+Prod: CI + Lighthouse workflows in_progress at time of state write; prior CI runs all success; no regression risk (content-only guide addition). Will confirm on next iteration start-check.
