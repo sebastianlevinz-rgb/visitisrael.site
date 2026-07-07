@@ -1,7 +1,7 @@
 ---
 lang: fr
 title: "Mont des Béatitudes : guide du Sermon sur la Montagne"
-description: "Visiter le Mont des Béatitudes avec vue sur le lac de Tibériade — l'église catholique octogonale, la tradition du Sermon sur la Montagne, les horaires et le code vestimentaire."
+description: "Visiter le Mont des Béatitudes au-dessus du lac de Tibériade — église octogonale, tradition du Sermon sur la Montagne, horaires et code vestimentaire."
 region: galilee
 parentRegion: galilee
 heroImage: /images/sub-destinations/galilee/mount-of-beatitudes.jpg

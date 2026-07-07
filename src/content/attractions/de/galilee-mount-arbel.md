@@ -1,7 +1,7 @@
 ---
 lang: de
 title: "Berg Arbel: Klippenwanderung und Panorama über den See Genezareth"
-description: "Wanderung auf den Berg Arbel über dem See Genezareth — Klettersteigabstieg, Arbel-Höhlen, Gipfelpanorama, Schwierigkeitsgrad, Wegoptionen und Kombination mit Tiberias."
+description: "Wanderung auf den Berg Arbel über dem See Genezareth — Klettersteigabstieg, Arbel-Höhlen, Gipfelpanorama und Wegoptionen in Galiläa."
 region: galilee
 parentRegion: galilee
 heroImage: /images/sub-destinations/galilee/mount-arbel.jpg

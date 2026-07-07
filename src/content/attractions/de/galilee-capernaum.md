@@ -1,7 +1,7 @@
 ---
 lang: de
 title: "Kafarnaum: Besucherführer zur galiläischen Stadt Jesu"
-description: "Kafarnaum am See Genezareth besuchen — Ruinen der weißen Kalksteinssynagoge, Gedächtniskirche des Hauses Petri, Öffnungszeiten und Führungen mit dem Berg der Seligpreisungen."
+description: "Kafarnaum am See Genezareth besuchen — Ruinen der weißen Kalksteinssynagoge, Gedächtniskirche des Hauses Petri, Öffnungszeiten und Führungen."
 region: galilee
 parentRegion: galilee
 heroImage: /images/sub-destinations/galilee/capernaum.jpg

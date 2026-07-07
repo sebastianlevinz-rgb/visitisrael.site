@@ -1,7 +1,7 @@
 ---
 lang: fr
-title: "Mont Arbel : randonnée sur la falaise et panorama sur le lac de Tibériade"
-description: "Randonnée au Mont Arbel au-dessus du lac de Tibériade — descente sur falaise, grottes d'Arbel, panorama au sommet, difficulté, options d'itinéraire et comment combiner avec Tibériade."
+title: "Mont Arbel : randonnée sur falaise et panorama — Galilée"
+description: "Randonnée au Mont Arbel au-dessus du lac de Tibériade — descente en falaise, grottes d'Arbel, panorama au sommet et options de parcours."
 region: galilee
 parentRegion: galilee
 heroImage: /images/sub-destinations/galilee/mount-arbel.jpg

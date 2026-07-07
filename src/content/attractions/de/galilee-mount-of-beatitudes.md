@@ -1,7 +1,7 @@
 ---
 lang: de
 title: "Berg der Seligpreisungen: Führer zur Bergpredigt"
-description: "Den Berg der Seligpreisungen mit Blick auf den See Genezareth besuchen — die oktogonale katholische Kirche, die Überlieferung der Bergpredigt, Öffnungszeiten und Kleiderordnung."
+description: "Berg der Seligpreisungen über dem See Genezareth — oktogonale Kirche, Bergpredigt-Tradition, Öffnungszeiten und Kleiderordnung."
 region: galilee
 parentRegion: galilee
 heroImage: /images/sub-destinations/galilee/mount-of-beatitudes.jpg

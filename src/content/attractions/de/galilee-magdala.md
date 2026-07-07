@@ -1,6 +1,6 @@
 ---
 lang: de
-title: "Magdala: Heimatort Maria Magdalenas und Synagogengrabung aus dem 1. Jh."
+title: "Magdala: Heimatort Maria Magdalenas und Synagoge (1. Jh.)"
 description: "Magdala am See Genezareth besuchen — die Ausgrabung von 2009, Synagoge aus dem 1. Jahrhundert mit dem Magdala-Stein und das spirituelle Zentrum Duc in Altum."
 region: galilee
 parentRegion: galilee

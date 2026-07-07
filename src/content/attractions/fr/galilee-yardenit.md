@@ -1,7 +1,7 @@
 ---
 lang: fr
 title: "Yardenit : guide du site de baptême sur le Jourdain"
-description: "Visiter Yardenit, le site de baptême symbolique du Jourdain à l'embouchure du lac de Tibériade — robes, baptêmes de groupe, usage œcuménique, horaires et visites combinées."
+description: "Visiter Yardenit, site de baptême du Jourdain à l'embouchure du lac de Tibériade — robes, baptêmes de groupe, usage œcuménique et horaires."
 region: galilee
 parentRegion: galilee
 heroImage: /images/sub-destinations/galilee/yardenit.jpg

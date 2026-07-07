@@ -1,7 +1,7 @@
 ---
 lang: fr
 title: "Tibériade : ville lacustre de Galilée et base de pèlerinage"
-description: "Visiter Tibériade au bord du lac de Tibériade — promenade lacustre, sources thermales de Hamat Tiberias, tombeau de Maïmonide, hôtels et comment en faire votre base en Galilée."
+description: "Visiter Tibériade au bord du lac de Tibériade — promenade lacustre, sources de Hamat Tiberias, tombeau de Maïmonide et hôtels pour votre base en Galilée."
 region: galilee
 parentRegion: galilee
 heroImage: /images/sub-destinations/galilee/tiberias.jpg

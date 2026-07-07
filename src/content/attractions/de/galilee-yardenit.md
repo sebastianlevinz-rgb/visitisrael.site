@@ -1,7 +1,7 @@
 ---
 lang: de
 title: "Yardenit: Besucherführer zur Taufstätte am Jordan"
-description: "Yardenit besuchen — die symbolische Jordan-Taufstätte am Abfluss des Sees Genezareth: Gewänder, Gruppentaufen, ökumenische Nutzung, Öffnungszeiten und Kombinationstouren."
+description: "Yardenit besuchen — symbolische Jordan-Taufstätte am Abfluss des Sees Genezareth: Gewänder, Gruppentaufen, ökumenische Nutzung und Öffnungszeiten."
 region: galilee
 parentRegion: galilee
 heroImage: /images/sub-destinations/galilee/yardenit.jpg

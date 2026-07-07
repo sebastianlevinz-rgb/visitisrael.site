@@ -1,7 +1,7 @@
 ---
 lang: fr
-title: "Magdala : ville de Marie-Madeleine et fouilles de la synagogue du Ier siècle"
-description: "Visiter Magdala au bord du lac de Tibériade — la fouille archéologique de 2009, la synagogue du Ier siècle avec la pierre de Magdala et le centre spirituel Duc in Altum."
+title: "Magdala : Marie-Madeleine et synagogue du Ier siècle"
+description: "Visiter Magdala au bord du lac de Tibériade — fouille de 2009, synagogue du Ier siècle avec la pierre de Magdala et le centre spirituel Duc in Altum."
 region: galilee
 parentRegion: galilee
 heroImage: /images/sub-destinations/galilee/magdala.jpg
