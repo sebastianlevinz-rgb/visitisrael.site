@@ -1,12 +1,12 @@
 # LOOP STATE
 
-- iteration: 349
-- lastMode: REVIEW (iter 349)
-- lastItem: REVIEW iters 346–348 — 1 fix: de/tel-aviv-carmel-market title 67→57 chars; 536 pages; 701/701 tests; SHA 5e7bae1.
-- lastResult: SHIP — title violation fixed and live.
-- nextRotationCategory: 350%5==0 → RESEARCH. 351%5==1 → BUILD (seo-content). 352%5==2 → BUILD (monetization or i18n). 353%5==3 → BUILD (tools). 354%5==4 → REVIEW.
+- iteration: 350
+- lastMode: RESEARCH (iter 350)
+- lastItem: RESEARCH iter 350 — 7 new gaps found; no code shipped. rosh-pinna-guide, ramallah-day-trip, belvoir-fortress, jerusalem-garden-tomb-guide, mukhraka-guide, nabi-samuel-guide, capernaum-visitor-guide.
+- lastResult: research (no ship)
+- nextRotationCategory: 351%5==1 → BUILD (seo-content). 352%5==2 → BUILD (monetization or i18n). 353%5==3 → BUILD (tools). 354%5==4 → REVIEW. 355%5==0 → RESEARCH.
 - higgsfieldSpent: 0
-- updatedAt: 2026-07-07T03:50Z
+- updatedAt: 2026-07-07T06:30Z
 - branch context: work on master; feature work on auto/<slug>
 
 Notes: iter 349 REVIEW — Audited iters 346–348: jerusalem-mount-zion-guide (iter346), dead-sea-tours-compared (iter347), i18n Phase 4 Batch 3 × FR+DE (iter348). One meta violation found: de/tel-aviv-carmel-market title was 67 chars (over 65 limit) — fixed to 57 chars by removing redundant "Tel Avivs " fragment. All other batch-3 FR+DE meta in-spec. No H1 in any guide body. All locale links correctly prefixed. Cross-links in both new EN guides verified valid (15 honesty hedges in mount-zion; /dead-sea/ein-gedi confirmed valid route via attraction slug logic). Regex lesson: checking for file existence at path /dead-sea/ein-gedi gives false-positive because routing strips region prefix from filename (dead-sea-ein-gedi.md → /dead-sea/ein-gedi). Always verify with attractionSlug() logic, not raw path check. Gate green 536 pages 701/701 tests. SHA 5e7bae1.

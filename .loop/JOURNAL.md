@@ -6256,3 +6256,22 @@ Findings:
 Gate: pnpm check 0 errors · build 536 pages · test:e2e 701/701 pass. GREEN.
 Ship: fix squash-merged to master → SHA 5e7bae1. Prior iter 348 CI = success.
 Next: iter 350 → RESEARCH (350%5==0). Scan for profitable content gaps.
+
+## 2026-07-07T06:30Z · iter 350 · RESEARCH · research-350
+
+Mode: RESEARCH (350 % 5 == 0). No code shipped.
+Methodology: 20+ python3 regex batch-scan passes against full BACKLOG.md + DONE.md + guides/ directory to verify each candidate had zero prior coverage before acceptance. Research agent spawned independently but all 8 initial agent candidates were pre-existing (confirmed via systematic grep); proceeded with manual discovery.
+
+7 net-new items added to BACKLOG (all [iter350 research] tagged):
+  1. rosh-pinna-guide (P3, S, seo-content) — first 1st Aliyah Upper Galilee settlement; Rothschild-funded; LP + TP confirmed gap
+  2. ramallah-day-trip (P2, M, seo-content+monetization) — Palestinian Authority capital; Muqata'a + Arafat tomb + Taybeh Brewery; sensitive but in-scope with honest framing
+  3. belvoir-fortress (P3, S, seo-content) — Hospitaller Crusader castle above Jordan Valley; INPA park; never captured by assault; zero prior coverage
+  4. jerusalem-garden-tomb-guide (P3, S, seo-content) — full visitor guide vs. existing ~200w attraction page; 2,500 monthly searches; Protestant pilgrimage angle
+  5. mukhraka-guide (P3, S, seo-content) — Elijah's contest site on Mt Carmel; Carmelite monastery + panoramic Jezreel Valley view; zero prior coverage
+  6. nabi-samuel-guide (P3, S, seo-content) — Tomb of Samuel; shared mosque-synagogue compound; 5km from Jerusalem; Crusader "Mons Gaudii" architecture layer
+  7. capernaum-visitor-guide (P3, S, seo-content) — full visitor guide vs. existing ~200w attraction page; 3,500 monthly searches; two-synagogue distinction + Peter's house excavation depth
+
+Rejected/deferred: Mt Arbel (already in backlog [iter330]), Beit Alpha (in backlog via Beit She'an entry), Metula/Good Fence (too low volume), Capernaum Christian Quarter (in backlog as Jerusalem quarters guide), Tzfat artists' quarter (covered within shipped safed-tzfat-guide.md), Safed artists standalone (covered by existing guide).
+
+COMPETITORS.md updated with 14 competitor source entries for all 7 new gaps.
+Next: iter 351 → BUILD (seo-content, 351%5==1). Pick highest-priority seo-content item; alternatively i18n Phase 4 Batch 4 if rotation warrants.

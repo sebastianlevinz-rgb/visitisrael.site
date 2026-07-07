@@ -3904,3 +3904,33 @@ Sources: cwgc.org, australian-war-memorial.gov.au, alltrails.com, hike-israel.co
 **holylandnetwork.com/mount-zion** — Christian pilgrimage perspective; Cenacle (traditional Last Supper site), Church of the Dormition (Mary's death/assumption), Schindler's Grave (Oscar Schindler buried on Mount Zion); confirms ecumenical interest breadth.
 
 **Key patterns from iter345:** (1) Tour-comparison "money pages" (dead-sea-tours, golan-tours, bethlehem-tours) mirror the successful galilee-tours-compared and masada-tours-compared patterns — each converts on GYG + Viator + Abraham affiliate CTAs; (2) Beit Guvrin and Soreq Cave are adjacent Shephelah sites that pair well as a day-trip combo from Tel Aviv/Jerusalem; (3) Mount Zion is Jerusalem's most-visited area with ZERO standalone coverage on visitisrael.site despite 3× cross-references; (4) Small-group vs private vs group-bus comparison page targets higher-intent "serious trip planner" searchers ($1,200–3,500 trip value); (5) Free walking tours guide builds authority + brand loyalty among budget travelers who later book paid experiences.
+
+## iter350 research findings (2026-07-07)
+
+**touristisrael.com/rosh-pinna** — dedicated Rosh Pinna destination page; confirms historic 1st Aliyah village angle with Rothschild patronage; full attraction listing with gallery photos; no competitor guide at this depth in SERP top 10; our visitisrael.site has 0 dedicated content; gap confirmed.
+
+**lonelyplanet.com/israel/galilee/rosh-pinna** — standalone LP attraction page; confirms panoramic valley views, wine bars, stone alleyways, 19th-century architecture as the content pillars; "charming hilltop settlement" framing; medium-length entry (~600w); gap confirmed for rosh-pinna-guide.
+
+**parks.org.il/en/reserves/kokhav-hayarden** — INPA official page for Belvoir (Kokhav HaYarden) National Park; confirms concentric Crusader fortress design, INPA site with INPA pass validity, trail network, dramatic Jordan Valley views; visitisrael.site has 0 mentions; gap confirmed.
+
+**biblewalks.com/Belvoir** — detailed historical walkthrough of Belvoir fortress; confirms "never captured by military assault" historical fact; Hospitaller order construction 1168; Saladin 18-month siege 1187–1189 ending in voluntary surrender; Mamluk demolition 1220; gap confirmed for belvoir-fortress.
+
+**gardentomb.com** — official Garden Tomb site; confirms mandatory pre-booking via their website (free but required); volunteer-guided 45-min tours available; closed Saturdays; the site itself acknowledges archaeological uncertainty (Iron Age tomb dating) on its official FAQ — an unusual and honest practice that should be referenced in the guide to maintain credibility.
+
+**touristisrael.com/mukhraka** — dedicated Mukhraka page with bronze Elijah statue + panoramic view photos; confirms Carmelite monastery context, biblical 1 Kings 18 narrative, Jezreel Valley panorama; visitisrael.site has 0 coverage despite day-trips-from-haifa.md being shipped; gap confirmed.
+
+**carmelites.info/mt-carmel** — Carmelite Order's own description of Mukhraka as their founding mountain; confirms the Order's historical and spiritual connection to Elijah and the "burning place"; provides primary source framing for the "Carmelite origins" content angle.
+
+**touristisrael.com/nabi-samuel** — dedicated Nabi Samuel page; confirms shared mosque-synagogue complex, hillside views, medieval Crusader architecture incorporated in the current building, Jewish prayer chamber below the mosque, 5km from Jerusalem Old City; visitisrael.site has 0 coverage; gap confirmed.
+
+**biblewalks.com/NabiSamuel** — comprehensive archaeological walkthrough; confirms "Mons Gaudii" (Crusaders' "Mount of Joy" as first Jerusalem sighting point from the north), pilgrimage graffiti history, multiple period layers; confirms Islamic, Jewish, and Christian significance as distinct content angles.
+
+**franciscan.org/capernaum + custodia.org** — Franciscan Custody official sites; confirm Peter's house archaeological identification, Byzantine octagonal church above it, dress code, entry fee structure, tour format; primary source for practical logistics in the Capernaum visitor guide.
+
+**lonelyplanet.com/israel/galilee/capernaum** — full standalone LP Capernaum guide (~1,200w); confirms two-synagogue distinction (4th–5th century White vs. possible Herodian Black), Peter's house excavation visibility through glass floor panels, and Sea of Galilee circuit pairings (Tabgha + Mount of Beatitudes); gap confirmed for full visitor guide beyond our existing attraction page.
+
+**lonelyplanet.com/israel/west-bank/ramallah + roughguides.com/middle-east/israel/ramallah** — both have standalone Ramallah content; LP confirms Muqata'a museum + Arafat tomb as lead attraction; Rough Guides covers restaurant scene + Taybeh Brewery excursion; neither ranks as visitisrael.site competitor in current SERP but gap is confirmed; DISTINCT from Bethlehem coverage.
+
+**taybehbeer.com** — Taybeh Brewery official site; confirms tours available; only brewery in Palestine; annual Oktoberfest in September; provides primary source for brewery excursion logistics angle in ramallah-day-trip.
+
+**Key patterns from iter350:** (1) Full visitor guides vs. existing ~200w attraction pages represent a reproducible gap pattern (Garden Tomb + Capernaum); the attraction page earns some traffic but a full guide would capture decision-stage pilgrimage queries; (2) Upper Galilee has good region coverage but lacks standalone village guides (Rosh Pinna fills this); (3) Mt Carmel range is underserved relative to its content potential (Mukhraka + future Druze village + Carmel monastery circuit); (4) Jerusalem's surroundings have several underserved biblical sites within 30 min (Nabi Samuel, Belvoir 1h+) that fill itinerary-extension queries; (5) West Bank coverage beyond Bethlehem and Jericho is a clear gap (Ramallah) — politically sensitive but within scope with honest framing.
