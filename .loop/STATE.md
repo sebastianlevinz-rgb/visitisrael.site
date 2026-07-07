@@ -1,13 +1,15 @@
 # LOOP STATE
 
-- iteration: 365
-- lastMode: RESEARCH (365%5==0)
-- lastItem: research-365-yam-caesarea-marine-national-park
-- lastResult: RESEARCH — 1 new backlog item added (yam-caesarea-guide P2 S); Yam Caesarea Marine NP (Nov 2024, Israel's first marine NP) confirmed as primary new gap. Backlog ~400+ items; saturation high. No ship.
-- nextRotationCategory: 366%5==1 → BUILD (seo-content). 367%5==2 → BUILD (monetization). 368%5==3 → BUILD (tools or fall-through). 369%5==4 → REVIEW.
+- iteration: 366
+- lastMode: BUILD (seo-content, 366%5==1)
+- lastItem: yam-caesarea-guide
+- lastResult: BUILD (seo-content) — /yam-caesarea-guide shipped. New page: Israel's first marine national park (INPA Nov 2024 designation); 267 acres west of Caesarea NP; submerged Herodian Sebastos harbour (20 BCE) + coral/seagrass. Snorkel trail system (Old Caesarea Diving Center, 4 colour-coded routes), practical table, seasonal access, train/car logistics, marine park rules. 2 CTAs (GYG snorkel, DiscoverCars), 5 FAQs. Cross-links to caesarea-guide, israel-national-parks-pass, eilat-diving, water-hiking. caesarea-guide.md cross-linked in Sebastos harbour section + footer. israel-national-parks-pass.md updated with marine NP note. Gate: 0 check errors, 566 pages (+1), 752/752 e2e. SHA b86066a. CI in_progress at push time.
+- nextRotationCategory: 367%5==2 → BUILD (monetization). 368%5==3 → BUILD (tools or fall-through). 369%5==4 → REVIEW. 370%5==0 → RESEARCH.
 - higgsfieldSpent: 0
-- updatedAt: 2026-07-07T20:15Z
+- updatedAt: 2026-07-07T20:50Z
 - branch context: work on master; feature work on auto/<slug>
+
+Notes: iter 366 BUILD (seo-content) — yam-caesarea-guide shipped. P2 S seo-content+monetization. New /yam-caesarea-guide: Israel's first marine national park (INPA designated Nov 25, 2024); 267 acres of Mediterranean waters west of Caesarea Antiquities NP. Dual mandate: ecological (coral reefs, seagrass meadows) + heritage (submerged Herodian Sebastos harbour, 20 BCE). Snorkel access via Old Caesarea Diving Center (sole INPA-permitted operator); 4 colour-coded rope trails (blue/yellow = snorkel accessible; green/red = certified dive). Content: NP designation context, what you see underwater (breakwaters, column drums, anchors, marine life), practical planning table, seasonal guidance (Apr–Oct), getting there (Caesarea–Pardes Hanna train + taxi), marine park rules (no anchoring, guided-only access, no collection). 2 CTAs (GYG snorkeling tour, DiscoverCars). 5 FAQs (what is Yam Caesarea, dive cert needed, best time, marine life, INPA pass). Cross-links: caesarea-guide (inline + footer), israel-national-parks-pass, eilat-diving-snorkeling, water-hiking-israel, day-trips-from-tel-aviv, day-trips-from-haifa. Gate: 0 check errors, 566 pages (+1), 752/752 e2e pass. SHA b86066a. CI in_progress at push time.
 
 Notes: iter 365 RESEARCH — 2026-specific INPA designations focus. Primary finding: Yam Caesarea Marine National Park (designated Nov 25, 2024); Israel's first marine national park; 267 acres west of Caesarea Antiquities NP; protects submerged Herodian harbor (20 BCE) + coral reefs + seagrass meadows. Distinct from existing israel-mediterranean-diving backlog item (iter190): adds "Israel's first marine NP" PR hook, ecological protection angle, INPA visitor infrastructure under development. All other 2026 candidates (Skyfield, Schottenstein National Campus, Rosh Hanikra cable car, new hotels) confirmed already in backlog. 1 new item added to BACKLOG: yam-caesarea-guide (P2 S seo-content+monetization). COMPETITORS.md updated.
 
@@ -46,5 +48,5 @@ Notes: iter 338 BUILD (seo-content, fell through from tools) — gamla-nature-re
 Notes: iter 334 REVIEW — 6 meta violations found and fixed. Lesson: lazy regex false-positives on apostrophes.
 
 Cron b7325b16 hourly @ :17. Loop history: 19 tools + sitemap-lastmod + link-checker(+depth) + i18n
-Phase0/1a/1b/1c/2 Batches1-18(COMPLETE) + 37 review passes + 3 technical (event-schema + meta-trim + locale-links) + 46 EN guides + 5 tools-monetization;
+Phase0/1a/1b/1c/2 Batches1-18(COMPLETE) + 37 review passes + 3 technical (event-schema + meta-trim + locale-links) + 47 EN guides + 5 tools-monetization;
 research iters 5/10/20/30/35/40/45/50/55/60/65/70/75/80/85/90/95/100/105/110/115/120/125/130/135/140/145/150/155/160/165/170/175/180/185/190/195/200/205/210/215/220/225/230/235/240/245/250/255/260/265/270/275/280/285/290/295/300/305/310/315/320/325/330/335/340/345/350/355/360/365.
