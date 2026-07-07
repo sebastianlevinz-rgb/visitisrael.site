@@ -6356,3 +6356,9 @@ Cross-links wired: day-trips-from-tel-aviv.md (+Tel Afek bullet with 1 Samuel / 
 Gate: pnpm check 0 errors (114 hints, 0 warnings); pnpm build 551 pages (550→551 +1); pnpm test:e2e 728/728 pass (727→728 +1 smoke route /tel-afek-guide).
 Ship: b2a5575 — pushed to master 2026-07-07T10:40Z. CI in_progress at commit time.
 Next: iter 357 → BUILD mode (357%5==2 → monetization category).
+
+## 2026-07-07T11:50Z · iter 357 · BUILD (monetization) · bedouin-experience-israel
+What: New /bedouin-experience-israel guide (P2 M seo-content+monetization). Negev Bedouin camel rides, overnight tent stays, and traditional feast culture. Covers Kfar HaNokdim (near Masada), Havat Sde Boker area, and Negev Bedouin Heritage Centre at Omer. Sections: beit sha'ar tent culture, camel riding (20–40 min haltered walk), mansaf feast + communal qahwa ritual, bonfire + rababa music + dark-sky stargazing. 6 FAQs. Seasonal guide (spring/autumn optimal; summer heat mitigation; winter = best stargazing). 3 CTAs: GYG Bedouin experiences, Viator overnight camps, Booking Mitzpe Ramon. Cross-links: glamping-israel.md + mitzpe-ramon-guide.md updated. Footer +1 li. Smoke +1 route (/bedouin-experience-israel). a11y +1 route.
+Gate: pnpm check 0 errors; pnpm build 552 pages (+1); pnpm test:e2e 730/730 pass (+2 from 728).
+Ship: squash-merged to master 18d451d, pushed 2026-07-07T11:42Z. Lighthouse CI in_progress at push time (prior 3 runs: success/success/success).
+Next: iter 358 → BUILD mode (358%5==3 → tools or fall-through to next ready category).
