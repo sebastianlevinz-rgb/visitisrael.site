@@ -684,3 +684,7 @@ SHA 107ae07. 10 locale pages. 536 pages total. 701/701 e2e pass.
 ## iter 351 — israel-photography-guide (seo-content, P2, M)
 /israel-photography-guide — Best Photo Spots in Israel guide. 13 photo locations in 4 categories (sunrise, golden-hour, cultural, etiquette). 6 FAQs. 3 CTAs (GYG × 2, Booking). Cross-links: caesarea-guide + day-trips-from-haifa. Footer link. Targets "instagrammable Israel", "best photo spots Israel", "Israel photography guide" search terms. No competitors (walk-my-world, locationscout, sillysuitcase rank but we had zero visual hub).
 SHA 2a1cc53. 537 pages. 702/702 e2e pass.
+
+## iter 353 — israel-accessible-travel (seo-content, P2, M)
+/israel-accessible-travel — Accessible Travel in Israel: Wheelchair & Mobility Guide. Site-by-site mobility coverage for 8 regions/cities, adapted transport guide, beach wheelchairs, org directory (Access Israel, Yad Sarah, Atij, INPA). 6 FAQs, 3 CTAs. Captures "accessible Israel", "wheelchair Israel travel", "Israel disability guide" — no competitor editorial site has comprehensive coverage. Distinct from israel-for-seniors.md (not age-focused).
+SHA 5558a87. 550 pages. 727/727 e2e pass.

@@ -6287,3 +6287,9 @@ What: 6 Galilee attractions × FR+DE = 12 new locale pages: capernaum, magdala, 
 Gate: pnpm check 0 errors; build 549 pages (+12); 726/726 e2e+a11y pass.
 Merge: squash-merged to master SHA e1a65c0, pushed. CI expected green (all gates clean).
 Prod: deploy triggered; no revert needed based on clean gate.
+
+## 2026-07-07T07:38Z · iter 353 · BUILD (seo-content) · israel-accessible-travel
+What: New guide /israel-accessible-travel — P2 seo-content M. Accessible Travel in Israel: Wheelchair & Mobility Guide. Covers accessible transport (trains/adapted taxis/city buses/hand-control rental cars), site-by-site accessibility by city/region (Jerusalem Old City sections, Western Wall plaza, Yad Vashem, Israel Museum, Masada cable car, Caesarea paved paths, Ein Bokek Dead Sea, Tel Aviv seafront + beach wheelchairs, Haifa Bahá'í Gardens, Galilee, Akko Crusader halls), accommodation guidance (Booking.com wheelchair filter), and organisations (Access Israel, Yad Sarah, Atij, INPA parks accessibility ratings). 6 FAQs. 3 affiliate CTAs: GYG accessible tours, Viator private adapted days, Booking accessible hotels. Cross-links in israel-for-seniors.md (See also). Footer.astro +1 li after israel-for-seniors. Smoke test +1 route. Mode: tools category empty → fell through to seo-content.
+Gate: pnpm check 0 errors; build 550 pages (+1); 727/727 e2e+a11y pass.
+Merge: committed to master SHA 5558a87, pushed. CI in_progress at commit time.
+Prod: deploy triggered; CI in_progress — prior 3 runs all success; no revert triggered.
