@@ -6452,3 +6452,17 @@ What: New /nimrod-fortress-guide — Israel's largest medieval castle (Qal'at Ni
 Also fixed historical inaccuracy "Crusader and Ayyubid" → "Ayyubid and Mamluk" in golan-heights-guide.md + golan-heights-tours-compared.md with cross-links to new guide.
 Gate: 0 check errors, 565 pages (+1 from 564), 752/752 e2e pass.
 Ship: squash-merged to master 236efef, pushed. CI in_progress at push time.
+
+## 2026-07-07T18:38Z · iter 364 · REVIEW · meta-description length audit (iters 362–363)
+What: Audited nimrod-fortress-guide (iter363) and golan-heights-tours-compared (iter362) for
+correctness, honesty, dead links, meta lengths, hero images, and partner key validity.
+Findings: 2 meta description violations (both exceeded ≤160-char limit). nimrod-fortress-guide:
+166→147 chars (removed "INPA park circuit, "). golan-heights-tours-compared: 172→144 chars
+(removed "from Tel Aviv and Jerusalem, "). All 7 internal links resolved. All 4 hero images
+confirmed present (nimrod-fortress.jpg, mount-bental.jpg, hero.jpg, druze-villages.jpg).
+Partner keys valid (getyourguide, discovercars, viator, civitatis). No fabricated prices/ratings.
+Titles both exactly 65 chars (at limit, valid). Historical accuracy (Ayyubid 1229 CE, not Crusader)
+verified correct.
+Gate: 0 check errors, 565 pages unchanged, 752/752 e2e pass.
+Ship: committed ed37b2c to master, pushed 2026-07-07T18:36Z. CI in_progress at push time.
+Next: iter 365 → RESEARCH mode (365%5==0).

@@ -1,13 +1,15 @@
 # LOOP STATE
 
-- iteration: 363
-- lastMode: BUILD (363%5==3 → tools fall-through → seo-content)
-- lastItem: nimrod-fortress-guide — Nimrod Fortress National Park visitor guide (P2 S, Golan Heights)
-- lastResult: SHIPPED — 0 check errors, 565 pages (+1 from 564), 752/752 e2e pass. SHA 236efef. CI in_progress at push time.
-- nextRotationCategory: 364%5==4 → REVIEW. 365%5==0 → RESEARCH. 366%5==1 → BUILD (seo-content). 367%5==2 → BUILD (monetization). 368%5==3 → BUILD (tools or fall-through).
+- iteration: 364
+- lastMode: REVIEW (364%5==4)
+- lastItem: review-364-meta-fix — trim meta descriptions to ≤160 chars on nimrod-fortress-guide and golan-heights-tours-compared
+- lastResult: SHIPPED — 0 check errors, 565 pages, 752/752 e2e pass. SHA ed37b2c. CI in_progress at push time.
+- nextRotationCategory: 365%5==0 → RESEARCH. 366%5==1 → BUILD (seo-content). 367%5==2 → BUILD (monetization). 368%5==3 → BUILD (tools or fall-through). 369%5==4 → REVIEW.
 - higgsfieldSpent: 0
-- updatedAt: 2026-07-07T17:42Z
+- updatedAt: 2026-07-07T18:38Z
 - branch context: work on master; feature work on auto/<slug>
+
+Notes: iter 364 REVIEW — meta description length audit of iters 362–363. Found 2 violations: nimrod-fortress-guide (166→147 chars, removed "INPA park circuit, ") and golan-heights-tours-compared (172→144 chars, removed "from Tel Aviv and Jerusalem, "). All internal links resolved, hero images confirmed, partner keys valid, no fabricated data. Quick fix shipped as ed37b2c. Gate: 0 check errors, 565 pages, 752/752 e2e. CI in_progress at push time.
 
 Notes: iter 363 BUILD (tools fall-through → seo-content) — nimrod-fortress-guide shipped. P2 S seo-content+monetization. New /nimrod-fortress-guide: Israel's largest medieval castle (Golan Heights, 800m elevation), 13th-century Ayyubid origin (NOT Crusader — corrects widespread misattribution), Mamluk reinforcement by Baibars 1275 CE inscription still in situ, 21-tower circuit, 420m outer walls, secret 27-metre staircase passage, practical info table, Banias+Tel Dan day combinations, 2 CTAs (GYG Golan tours, DiscoverCars), 5 FAQs. Also fixed historical inaccuracy in golan-heights-guide.md and golan-heights-tours-compared.md ("Crusader and Ayyubid" → "Ayyubid and Mamluk") with cross-links to new guide. Gate: 0 check errors, 565 pages (+1), 752/752 e2e. SHA 236efef. CI in_progress at push time.
 
