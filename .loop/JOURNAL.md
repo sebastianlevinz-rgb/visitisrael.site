@@ -6434,3 +6434,4 @@ Note: eilat-diving-snorkeling.md and eilat-tours-compared.md already had /eilat/
 Gate: pnpm check 0 errors; pnpm build 563 pages (+1 from 562); pnpm test:e2e 752/752 pass (+2 from 750).
 Ship: squash-merged to master e5a878e, pushed 2026-07-07T15:45Z. Branch auto/red-canyon-eilat deleted. CI in_progress at push time.
 Next: iter 362 → BUILD (monetization; 362%5==2).
+Prod deploy result: SUCCESS (e5a878e0, GitHub Actions conclusion=success, confirmed 2026-07-07T15:55Z).
