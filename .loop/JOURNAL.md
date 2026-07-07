@@ -6394,3 +6394,23 @@ Checks run: (1) title ≤65 + desc ≤160 for all 12 files (used line-split+rfin
 Result: REVIEW CLEAN — 0 violations. No fixes required. No code changes; gate not run.
 Lesson: lazy `[\"\'](.*?)[\"\']` regex on YAML titles gives false-short lengths when titles contain apostrophes (e.g. Bahá'í → stops at the apostrophe). Use line-split + `val.rfind(quote, 1)` — robust across French/German/Hebrew apostrophes.
 Next: iter 360 = RESEARCH.
+
+## 2026-07-07T15:00Z · iter 360 · RESEARCH · research-360
+
+Mode: RESEARCH (360 % 5 == 0).
+Method: WebSearch on key competitor sites (hike-israel.com, israel-in-photos.com, touristisrael.com, beinharimtours.com, laidbacktrip.com, igoogledisrael.com, nativa.co.il, backpackisrael.com) + INPA parks.org.il + Wikipedia; Python3 grep against full BACKLOG.md (912KB, ~244 P-tagged items after this iter) + DONE.md + all 180 guide files in src/content/guides/ before accepting each item.
+
+Start-of-iteration: Local master had diverged 187 iterations behind origin/master (fresh cloud env clone got stuck at iter 172). Fixed with `git fetch origin && git reset --hard origin/master` → now at SHA 993791e.
+
+Items added to BACKLOG.md ([iter360 research] tags):
+  1. [P2] (seo-content, S) /red-canyon-eilat — free slot canyon hike 20 km from Eilat; flash flood risk; 6 competitors with standalone guides; zero visitisrael.site coverage beyond 1-bullet mention in eilat-travel-guide
+  2. [P2] (seo-content+monetization, S) /nimrod-fortress-guide — largest medieval castle in Israel (Golan Heights); Ayyubid 1229 CE (NOT Crusader — unique editorial correction vs all competitors); Baibars 1275 inscription; pair with Banias; INPA ₪22
+  3. [P2] (seo-content+monetization, S) /hai-bar-yotvata-guide — INPA biblical wildlife breeding reserve 35 km north of Eilat; self-drive open range (white oryx, onager, ostrich); nocturnal predator tour; 33 white oryx calves born March 2026 (timely hook)
+  4. [P2] (seo-content+monetization, S) /achziv-national-park-guide — Mediterranean sea lagoons + INPA camping + snorkelling + Phoenician ruins + sea turtle nesting; 5 km north of Nahariya; advance booking required; ZERO standalone coverage
+  5. [P3] (seo-content, S) /mount-arbel-guide — dramatic limestone cliff 390m above Sea of Galilee; cave fortress (Herodian period; Josephus source); cliff path + iron handrails; ancient synagogue ruins; Jesus Trail passes through; Magdala proximity
+  6. [P3] (seo-content, S) /chagall-windows-jerusalem — 12 Chagall tribal windows at Hadassah Hospital Ein Kerem; one of only 3 complete Chagall window installations worldwide; 1967 Six-Day War repair story; competitors: tzurtours, funinjerusalem, worldjewishtravel
+
+Rejected/de-duped (notable candidates checked and rejected): Timna Park (P2 confirmed in backlog), Banias Nature Reserve (P3 confirmed in backlog iter340), Tel Dan (P2 confirmed in backlog), Hamat Gader/thermal springs (P2 confirmed in backlog), birdwatching hub (P2 confirmed in backlog iter250), motorcycle touring (P3 confirmed in backlog iter340), Rosh Hanikra (P3 confirmed in backlog), Gan HaShlosha/Sachne (P3 confirmed in backlog), Beit She'an (P2 confirmed in backlog), Galilee wine trail (P3 confirmed in backlog), Beit Alfa synagogue (in megiddo-jezreel-valley-guide SHIPPED + israel-synagogue-guide backlog), Ramat Gan diamonds (P3 confirmed in backlog), Red Canyon (found in daily-trips-from-eilat as cross-ref but NOT as standalone — accepted as new).
+
+Ship: no code shipped (RESEARCH mode). .loop/ files updated (BACKLOG + COMPETITORS + STATE + JOURNAL) and will be committed.
+Next: iter 361 → BUILD mode (361%5==1 → seo-content category; highest-priority P2 S seo-content item = jericho-guide OR ashkelon-guide OR red-canyon-eilat).

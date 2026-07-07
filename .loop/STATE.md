@@ -1,12 +1,12 @@
 # LOOP STATE
 
-- iteration: 359
-- lastMode: REVIEW (iter 359 — audited iters 356–358: bedouin-experience-israel, tel-afek-guide, haifa FR+DE ×10 — CLEAN)
-- lastItem: review-iters-356-358 — 2 EN guides (bedouin-experience-israel, tel-afek-guide) + 10 haifa FR+DE attractions
-- lastResult: CLEAN — 0 violations across all 12 files (meta, H1, links, locale-links, ratings, prices, CTAs, cross-links)
-- nextRotationCategory: 360%5==0 → RESEARCH. 361%5==1 → BUILD (seo-content). 362%5==2 → BUILD (monetization). 363%5==3 → BUILD (tools or fall-through).
+- iteration: 360
+- lastMode: RESEARCH (iter 360 — INPA nature parks cluster + Chagall Windows — 6 new backlog items, no code shipped)
+- lastItem: research-360 — 6 new items: red-canyon-eilat (P2), nimrod-fortress-guide (P2), hai-bar-yotvata-guide (P2), achziv-national-park-guide (P2), mount-arbel-guide (P3), chagall-windows-jerusalem (P3)
+- lastResult: 6 confirmed gaps added to BACKLOG; COMPETITORS.md updated; no code changed
+- nextRotationCategory: 361%5==1 → BUILD (seo-content). 362%5==2 → BUILD (monetization). 363%5==3 → BUILD (tools or fall-through). 364%5==4 → REVIEW. 365%5==0 → RESEARCH.
 - higgsfieldSpent: 0
-- updatedAt: 2026-07-07T14:00Z
+- updatedAt: 2026-07-07T15:00Z
 - branch context: work on master; feature work on auto/<slug>
 
 Notes: iter 358 BUILD (i18n Phase 4 Batch 5) — 5 Haifa attractions × FR+DE shipped. haifa/bahai-gardens (ticketInfo: freeEntry/bookingRequired/tipText in FR+DE), haifa/carmel-national-park, haifa/german-colony, haifa/stella-maris (religiousSiteId: stella-maris in FR+DE), haifa/wadi-nisnas. 10 locale pages. smoke.spec.ts + a11y.spec.ts +10 routes each. 562 pages (+10 from 552). 750/750 e2e pass (+20 from 730). SHA c617f68. Branch auto/i18n-phase4-batch5 deleted. CI in_progress at push time.
@@ -37,4 +37,4 @@ Notes: iter 334 REVIEW — Audited iters 331–333: ein-kerem-guide (iter331), i
 
 Cron b7325b16 hourly @ :17. Loop history: 19 tools + sitemap-lastmod + link-checker(+depth) + i18n
 Phase0/1a/1b/1c/2 Batches1-18(COMPLETE) + 37 review passes + 3 technical (event-schema + meta-trim + locale-links) + 45 EN guides + 5 tools-monetization;
-research iters 5/10/20/30/35/40/45/50/55/60/65/70/75/80/85/90/95/100/105/110/115/120/125/130/135/140/145/150/155/160/165/170/175/180/185/190/195/200/205/210/215/220/225/230/235/240/245/250/255/260/265/270/275/280/285/290/295/300/305/310/315/320/325/330/335/340/345/350/355.
+research iters 5/10/20/30/35/40/45/50/55/60/65/70/75/80/85/90/95/100/105/110/115/120/125/130/135/140/145/150/155/160/165/170/175/180/185/190/195/200/205/210/215/220/225/230/235/240/245/250/255/260/265/270/275/280/285/290/295/300/305/310/315/320/325/330/335/340/345/350/355/360.
