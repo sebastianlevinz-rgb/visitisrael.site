@@ -1,13 +1,19 @@
 # LOOP STATE
 
-- iteration: 355
-- lastMode: RESEARCH (iter 355 — scanned backlog vs 175 shipped guides vs competitors; 7 genuinely new gaps found after exhaustive de-dup of ~238 P-tagged items)
-- lastItem: research-355 — 7 net-new backlog items: jericho-guide (P2 M), israel-dark-tourism (P2 S), ashkelon-guide (P2 M), circassian-villages-israel (P3 S), tel-afek-guide (P2 S), beit-jala-guide (P3 S), samaritan-community-israel (P3 S). No code shipped.
-- lastResult: no-ship (RESEARCH mode; .loop/ files committed and pushed)
-- nextRotationCategory: 356%5==1 → BUILD (seo-content or i18n Phase 4 Batch 5). 357%5==2 → BUILD (monetization). 358%5==3 → BUILD (tools or fall-through). 359%5==4 → REVIEW. 360%5==0 → RESEARCH.
+- iteration: 356
+- lastMode: BUILD (iter 356 — seo-content — tel-afek-guide shipped)
+- lastItem: tel-afek-guide (P2 S seo-content+monetization) — new guide /tel-afek-guide: biblical Aphek + Roman Antipatris + Ottoman Binar Bashi fortress + Yarkon springs + Bird Observatory. 551 pages. 728/728 e2e pass. SHA b2a5575.
+- lastResult: shipped (gate green; pushed to master; CI in_progress at time of state update)
+- nextRotationCategory: 357%5==2 → BUILD (monetization). 358%5==3 → BUILD (tools or fall-through). 359%5==4 → REVIEW. 360%5==0 → RESEARCH. 361%5==1 → BUILD (seo-content).
 - higgsfieldSpent: 0
-- updatedAt: 2026-07-07T09:30Z
+- updatedAt: 2026-07-07T10:45Z
 - branch context: work on master; feature work on auto/<slug>
+
+Notes: iter 356 BUILD (seo-content) — tel-afek-guide shipped. P2 S seo-content+monetization. INPA national park 40 km north of Tel Aviv in the Sharon Plain; multi-period site (Canaanite Bronze Age → biblical Aphek → Herodian Antipatris → Ottoman fortress). Biblical Aphek = site of the Battle of Aphek (1 Samuel 4:1–11) where the Philistines captured the Ark of the Covenant — the pivotal defeat that led to Israelite monarchy. Herodian Antipatris = Paul the Apostle's overnight stop en route to Caesarea Maritima (Acts 23:23–33). Binar Bashi Ottoman fortress (late 16th c.) = four-round-tower fort, best-preserved in the region. Yarkon River source springs (entire Yarkon originates here; drinking water — no swimming). Yarkon Park Bird Observatory (Syrian-African Rift Valley migration corridor). 5 FAQs. 2 CTAs: GYG Sharon/Caesarea tours, DiscoverCars. Honesty: no fabricated prices; spring swimming ban explained; Ottoman fort interior access caveated; multi-name history (Aphek/Antipatris/Ras el-Ain/Tel Afek) clarified in FAQ. Cross-links: day-trips-from-tel-aviv (+Tel Afek bullet), caesarea-guide (+cross-link), israel-national-parks-pass (+Tel Afek in coastal list), Footer.astro (+1 li). Gate: 0 check errors, 551 pages, 728/728 e2e. SHA b2a5575. CI in_progress at commit time (prior 3 runs: success).
+
+Notes: iter 355 RESEARCH — 7 new gaps found; no code shipped. jericho-guide, israel-dark-tourism, ashkelon-guide, circassian-villages-israel, tel-afek-guide (now SHIPPED iter356), beit-jala-guide, samaritan-community-israel.
+
+Notes: iter 353 BUILD (seo-content) — israel-accessible-travel shipped. P2 M. Accessible Travel in Israel: Wheelchair & Mobility Guide. Site-by-site mobility coverage 8 regions/cities + adapted transport + beach wheelchairs + org directory (Access Israel, Yad Sarah, Atij, INPA). 6 FAQs, 3 CTAs. SHA 5558a87. 550 pages. 727/727 e2e pass.
 
 Notes: iter 351 BUILD (seo-content) — israel-photography-guide shipped. P2 M seo-content. New guide /israel-photography-guide covering 13 photography locations in 4 categories: sunrise (Masada summit, Dead Sea shore, Mount of Olives); golden-hour/sunset (Caesarea Aqueduct, Jaffa port, TLV Tayelet, Mitzpe Ramon); cultural/architectural (Bahá'í Gardens Haifa, Akko Crusader city, Red Canyon Eilat, Jerusalem Old City); season table + etiquette section. No fabricated prices/ratings/reviews. Religious site etiquette sourced from existing guides (church-holy-sepulchre-guide.md, bar-bat-mitzvah-israel.md). 3 affiliate CTAs: GYG Masada sunrise tour, GYG Jerusalem/Jaffa photo walks, Booking. Cross-links: caesarea-guide.md (aqueduct paragraph +1 link), day-trips-from-haifa.md (Rosh Hanikra bullet +1 link). Footer.astro +1 li (Best photo spots in Israel). Smoke +1 (/israel-photography-guide). CI in_progress at commit time (prior 3 runs: success/success/success). 537 pages; 702/702 e2e pass.
 
@@ -38,5 +44,5 @@ Notes: iter 329 REVIEW — Audited iters 325–328: zippori-sepphoris-guide (ite
 Notes: iter 328 BUILD (seo-content) — Beer-Sheva guide shipped. Last major Israeli city missing a standalone guide; UNESCO Tel Be'er Sheva (Biblical Tels 2005, Iron Age water system + gate complex + horned altar), IAF Museum at Hatzerim (~150 aircraft, free outdoor exhibits), ANZAC memorial + Beersheba War Cemetery (1917 Light Horse charge), Ottoman Old City + Negev Museum of Art (1906 Jami Mosque). Honesty: IAF free-for-outdoor caveated with "verify at iaf.org.il"; INPA hours caveat; no fabricated prices/ratings; Light Horse charge framed with military-history context. Cross-links: negev.md How-to-Get-Here upgraded + beer-sheva link; israel-road-trip.md Day 5 overnight mention upgraded with link; Footer.astro +1 li in day trips section.
 
 Cron b7325b16 hourly @ :17. Loop history: 19 tools + sitemap-lastmod + link-checker(+depth) + i18n
-Phase0/1a/1b/1c/2 Batches1-18(COMPLETE) + 37 review passes + 3 technical (event-schema + meta-trim + locale-links) + 43 EN guides + 5 tools-monetization;
-research iters 5/10/20/30/35/40/45/50/55/60/65/70/75/80/85/90/95/100/105/110/115/120/125/130/135/140/145/150/155/160/165/170/175/180/185/190/195/200/205/210/215/220/225/230/235/240/245/250/255/260/265/270/275/280/285/290/295/300/305/310/315/320/325/330/335/340/345/350.
+Phase0/1a/1b/1c/2 Batches1-18(COMPLETE) + 37 review passes + 3 technical (event-schema + meta-trim + locale-links) + 44 EN guides + 5 tools-monetization;
+research iters 5/10/20/30/35/40/45/50/55/60/65/70/75/80/85/90/95/100/105/110/115/120/125/130/135/140/145/150/155/160/165/170/175/180/185/190/195/200/205/210/215/220/225/230/235/240/245/250/255/260/265/270/275/280/285/290/295/300/305/310/315/320/325/330/335/340/345/350/355.

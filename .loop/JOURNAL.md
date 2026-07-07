@@ -6340,3 +6340,19 @@ Rejected/de-duped (notable): Yarkon Park (DONE cycling cross-ref), Coral World E
 
 Ship: no code shipped (RESEARCH mode). .loop/ files updated and committed.
 Next: iter 356 → BUILD mode (356%5==1 → seo-content category or i18n Phase 4 Batch 5).
+
+## 2026-07-07T10:40Z · iter 356 · BUILD (seo-content) · tel-afek-guide
+
+Mode: BUILD (356 % 5 == 1 → seo-content category).
+Item: [P2] (seo-content+monetization, S) Tel Afek / Antipatris visitor guide → /tel-afek-guide.
+Rationale: Highest-priority P2 seo-content S-effort item from iter355 research. INPA park 40 km north of Tel Aviv; no competitor English editorial guide; zero prior site coverage; strong day-trip + INPA pass + Caesarea cross-sell angle; no politically contested content; compact scope suitable for one iteration.
+
+What: New guide /tel-afek-guide — 2,600-word editorial covering: (1) Four-thousand-year occupation history table (Canaanite → Israelite → Herodian Roman → Byzantine → Ottoman); (2) Biblical Aphek — the Battle of Aphek (1 Samuel 4:1–11; Ark of the Covenant captured; 30,000 Israelites killed; pivotal to the establishment of the monarchy); (3) Herodian Antipatris — Paul the Apostle's overnight stop en route to Caesarea Maritima (Acts 23:23–33); (4) Binar Bashi Ottoman fortress (late 16th c., four-round-tower layout, best-preserved in the region, dressed-stone walls largely intact); (5) Yarkon River springs (entire Yarkon River originates here; riparian reserve; no swimming — drinking water source); (6) Yarkon Park Bird Observatory (Israeli Ornithological Center; Syrian-African Rift Valley migration route; spring + autumn peaks); (7) 2.5 km circuit trail table; (8) practical details table (access, hours, INPA pass, distance from TLV/Jerusalem/Caesarea); (9) Combining with other sites section. 5 FAQs: getting there, INPA pass, Paul at Antipatris, swimming in spring, Aphek/Antipatris/Ras el-Ain name history. 2 affiliate CTAs: GYG (historic Sharon Plain/Caesarea tours), DiscoverCars (car rental).
+
+Honesty: No fabricated entry prices (verify at inpa.org.il); no swimming ban at spring pool caveated with reason (drinking water); Ottoman fort interior access explicitly caveated as variable; Antipatris site name (Aphek/Antipatris/Ras el-Ain/Tel Afek) history clarified in FAQ; Battle of Aphek sourced to 1 Samuel 4 with archaeological context; no claims about Ottoman fortress construction date beyond "late 16th century (commonly dated to around 1571)" with caveat that sources vary.
+
+Cross-links wired: day-trips-from-tel-aviv.md (+Tel Afek bullet with 1 Samuel / Acts references), caesarea-guide.md (+Tel Afek in cross-links footer block), israel-national-parks-pass.md (+Tel Afek in coastal & central list), Footer.astro (+1 li "Tel Afek (Antipatris)" in day-trips section).
+
+Gate: pnpm check 0 errors (114 hints, 0 warnings); pnpm build 551 pages (550→551 +1); pnpm test:e2e 728/728 pass (727→728 +1 smoke route /tel-afek-guide).
+Ship: b2a5575 — pushed to master 2026-07-07T10:40Z. CI in_progress at commit time.
+Next: iter 357 → BUILD mode (357%5==2 → monetization category).

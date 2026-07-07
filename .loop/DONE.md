@@ -688,3 +688,7 @@ SHA 2a1cc53. 537 pages. 702/702 e2e pass.
 ## iter 353 — israel-accessible-travel (seo-content, P2, M)
 /israel-accessible-travel — Accessible Travel in Israel: Wheelchair & Mobility Guide. Site-by-site mobility coverage for 8 regions/cities, adapted transport guide, beach wheelchairs, org directory (Access Israel, Yad Sarah, Atij, INPA). 6 FAQs, 3 CTAs. Captures "accessible Israel", "wheelchair Israel travel", "Israel disability guide" — no competitor editorial site has comprehensive coverage. Distinct from israel-for-seniors.md (not age-focused).
 SHA 5558a87. 550 pages. 727/727 e2e pass.
+
+## iter 356 — tel-afek-guide (seo-content+monetization, P2, S)
+/tel-afek-guide — Tel Afek (Antipatris) National Park visitor guide. Biblical Aphek (1 Samuel 4 Ark capture battle, direct cause of the Israelite monarchy), Herodian Antipatris (Paul the Apostle's overnight stop Acts 23:31), Binar Bashi Ottoman fortress (late 16th c., best-preserved in the region), Yarkon River springs (source of the Yarkon), Yarkon Park Bird Observatory (Syrian-African Rift Valley migration). 5 FAQs, 2 CTAs (GYG Sharon tours, DiscoverCars). Cross-links: day-trips-from-tel-aviv, caesarea-guide, israel-national-parks-pass, Footer.
+SHA b2a5575. 551 pages. 728/728 e2e pass.
