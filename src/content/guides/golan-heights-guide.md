@@ -74,11 +74,11 @@ Our full [Banias visitor guide](/golan/banias) covers the site in depth, includi
 
 ### Nimrod Fortress
 
-**Nimrod Fortress** (Qal'at al-Subayba) is a 13th-century Crusader and Ayyubid castle perched on a spur of the Anti-Lebanon range, commanding a strategic position above the Banias valley and the route to Damascus. It is the largest medieval fortress in Israel and one of the best-preserved in the region.
+**Nimrod Fortress** (Qal'at Nimrod) is a 13th-century Ayyubid and Mamluk castle perched on a basalt ridge at the foot of Mount Hermon, commanding a strategic position above the Banias valley and the route to Damascus. It is the largest medieval fortress in Israel — 420 metres of outer walls, 21 towers, and a keep with panoramic views across the Hula Valley and into Lebanon.
 
-The castle was built and contested between Crusader and Muslim rulers for over a century, passing between the Crusaders, the Ayyubids (Saladin's successors), and the Mamluks before falling into disuse. Walking through the gatehouse, the great hall, and the towers — some still with intact vaulting — conveys the scale of medieval fortification in a way that photographs cannot.
+Built in 1229 CE by the Ayyubid ruler Al-Aziz Uthman (not the Crusaders — a common misconception), and substantially reinforced by the Mamluk sultan Baibars after 1260, the castle is an Ayyubid-Mamluk structure with a rare in-situ Arabic inscription from 1275 CE still visible near the western gate. A concealed 27-metre staircase passage descending inside the castle walls is one of the highlights of the circuit.
 
-Allow 1.5–2 hours for a thorough circuit. The fortress sits at 830 m and commands spectacular views of the Hermon slopes and the Upper Galilee below. Open daily; entrance covered by the INPA National Parks Pass.
+Allow 1.5–2.5 hours for a thorough visit. The fortress is covered by the INPA National Parks Pass and pairs naturally with Banias Nature Reserve 5 km southwest. See the full [Nimrod Fortress visitor guide](/nimrod-fortress-guide) for the complete circuit, history, and how to combine it with Tel Dan and the Druze villages.
 
 ### Druze villages
 

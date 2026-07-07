@@ -60,7 +60,7 @@ The most popular format. A comfortable coach picks up from hotels in Tel Aviv or
 
 1. **Mount Bental** — a volcanic cone at 1,165 m with an observation deck overlooking the abandoned Syrian city of Kuneitra and the UN buffer zone. Coffee Annan, the on-site café, has become a pilgrimage in its own right.
 2. **Caesarea Philippi (Banias)** — a roaring waterfall and ancient sanctuary at the foot of Mount Hermon, one of the most dramatic natural sites in northern Israel.
-3. **Nimrod Fortress (Kala'at Namrud)** — a 13th-century Crusader and Ayyubid castle perched on a ridge with sweeping views over the Golan and Hermon.
+3. **Nimrod Fortress (Qal'at Nimrod)** — a 13th-century Ayyubid and Mamluk castle perched on a ridge with sweeping views over the Golan and Hermon; the largest medieval fortress in Israel. See the [Nimrod Fortress visitor guide](/nimrod-fortress-guide) for the full circuit.
 4. **A Druze village** — typically Majdal Shams or Mas'ade for lunch; strudel (Druze "pizza"), locally pressed olive oil and a short introduction to Druze culture.
 
 Some operators add **Gamla ruins** (an ancient Jewish city destroyed in the revolt against Rome, 67 CE) and the nearby **Gamla waterfall** — the highest in Israel — making it an exceptionally full day.
