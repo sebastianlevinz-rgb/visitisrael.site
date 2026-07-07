@@ -1,13 +1,15 @@
 # LOOP STATE
 
-- iteration: 366
-- lastMode: BUILD (seo-content, 366%5==1)
-- lastItem: yam-caesarea-guide
-- lastResult: BUILD (seo-content) — /yam-caesarea-guide shipped. New page: Israel's first marine national park (INPA Nov 2024 designation); 267 acres west of Caesarea NP; submerged Herodian Sebastos harbour (20 BCE) + coral/seagrass. Snorkel trail system (Old Caesarea Diving Center, 4 colour-coded routes), practical table, seasonal access, train/car logistics, marine park rules. 2 CTAs (GYG snorkel, DiscoverCars), 5 FAQs. Cross-links to caesarea-guide, israel-national-parks-pass, eilat-diving, water-hiking. caesarea-guide.md cross-linked in Sebastos harbour section + footer. israel-national-parks-pass.md updated with marine NP note. Gate: 0 check errors, 566 pages (+1), 752/752 e2e. SHA b86066a. CI in_progress at push time.
-- nextRotationCategory: 367%5==2 → BUILD (monetization). 368%5==3 → BUILD (tools or fall-through). 369%5==4 → REVIEW. 370%5==0 → RESEARCH.
+- iteration: 367
+- lastMode: BUILD (monetization, 367%5==2)
+- lastItem: israel-medical-tourism
+- lastResult: BUILD (monetization) — /israel-medical-tourism shipped. P2 M seo-content+monetization. New guide: hospital-based medical tourism (IVF ~USD 3–4.5k vs $15–25k US, cardiac surgery, oncology second opinions, orthopaedics) at Sheba Medical Center, Assuta Hospital, Rambam, Sourasky/Ichilov. 4 affiliate CTAs (Booking×2, GYG, Abraham), 6 FAQs. Cross-links: dead-sea-medical-tourism, israel-for-seniors, israel-travel-insurance. Gate: 0 check errors, 567 pages (+1), 752/752 e2e. SHA 71c6948. CI pending at push time.
+- nextRotationCategory: 368%5==3 → BUILD (tools or fall-through). 369%5==4 → REVIEW. 370%5==0 → RESEARCH. 371%5==1 → BUILD (seo-content).
 - higgsfieldSpent: 0
-- updatedAt: 2026-07-07T20:50Z
+- updatedAt: 2026-07-07T21:45Z
 - branch context: work on master; feature work on auto/<slug>
+
+Notes: iter 367 BUILD (monetization) — israel-medical-tourism shipped. P2 M seo-content+monetization. New /israel-medical-tourism: hospital-based medical tourism guide covering Sheba Medical Center (Newsweek world's best hospitals, 7+ consecutive years), Assuta Hospital (JCI-accredited, IVF specialist), Rambam (Haifa, cardiac/ortho), Sourasky/Ichilov (central TLV). IVF cost context (~USD 3–4.5k per cycle vs $15–25k US); oncology second opinions; cardiac surgery; orthopaedic procedures. Practical: how to arrange visit (ShebaOnline portal, Assuta international inquiry), visa/entry (tourist entry covers medical stays), accommodation strategy (Ramat Gan for Sheba, northern TLV for Assuta), insurance reality (planned treatment not covered by standard travel insurance). Combining with touring: TLV, Jerusalem (1h rail), Dead Sea, Caesarea. 4 CTAs: Booking (Ramat Gan + TLV), GYG (TLV tours), Abraham (day trips). 6 FAQs. Cross-links added to: dead-sea-medical-tourism (sibling guide pointer), israel-for-seniors (see also footer), israel-travel-insurance (end-of-guide pointer). Link bug fixed: /bahai-world-center → /bahai-world-center-guide. Gate: 0 check errors, 567 pages (+1), 752/752 e2e. SHA 71c6948. CI pending.
 
 Notes: iter 366 BUILD (seo-content) — yam-caesarea-guide shipped. P2 S seo-content+monetization. New /yam-caesarea-guide: Israel's first marine national park (INPA designated Nov 25, 2024); 267 acres of Mediterranean waters west of Caesarea Antiquities NP. Dual mandate: ecological (coral reefs, seagrass meadows) + heritage (submerged Herodian Sebastos harbour, 20 BCE). Snorkel access via Old Caesarea Diving Center (sole INPA-permitted operator); 4 colour-coded rope trails (blue/yellow = snorkel accessible; green/red = certified dive). Content: NP designation context, what you see underwater (breakwaters, column drums, anchors, marine life), practical planning table, seasonal guidance (Apr–Oct), getting there (Caesarea–Pardes Hanna train + taxi), marine park rules (no anchoring, guided-only access, no collection). 2 CTAs (GYG snorkeling tour, DiscoverCars). 5 FAQs (what is Yam Caesarea, dive cert needed, best time, marine life, INPA pass). Cross-links: caesarea-guide (inline + footer), israel-national-parks-pass, eilat-diving-snorkeling, water-hiking-israel, day-trips-from-tel-aviv, day-trips-from-haifa. Gate: 0 check errors, 566 pages (+1), 752/752 e2e pass. SHA b86066a. CI in_progress at push time.
 

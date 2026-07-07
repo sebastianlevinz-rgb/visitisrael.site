@@ -6477,3 +6477,7 @@ What: New /yam-caesarea-guide — Israel's first marine national park (INPA, Nov
 Gate: 0 check errors, 566 pages (+1 from 565), 752/752 e2e pass.
 Ship: SHA b86066a pushed to master. CI in_progress at push time.
 Next: iter 367 → BUILD (monetization, 367%5==2).
+
+## 2026-07-07T21:45Z · iter 367 · BUILD (monetization) · israel-medical-tourism
+What: New /israel-medical-tourism guide — hospital-based medical tourism (IVF, cardiac surgery, oncology second opinions, orthopaedics) at Sheba Medical Center, Assuta Hospital, Rambam, Sourasky/Ichilov. Covers cost context (IVF ~USD 3–4.5k vs $15–25k US), hospital selection, practical visa/accommodation/insurance, combining treatment with touring. 4 affiliate CTAs (Booking×2, GYG, Abraham). 6 FAQs. Cross-links: dead-sea-medical-tourism, israel-for-seniors, israel-travel-insurance. Fixed broken link /bahai-world-center → /bahai-world-center-guide after link-checker failure.
+Gate: 0 check errors, 567 pages (+1), 752/752 e2e pass. SHA 71c6948. CI pending at push time.
