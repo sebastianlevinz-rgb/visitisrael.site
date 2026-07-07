@@ -329,6 +329,7 @@ const ROUTES = [
   '/jerusalem-mount-zion-guide',
   '/mitzpe-ramon-guide',
   '/israel-photography-guide',
+  '/tel-afek-guide',
   '/fr/jerusalem',
   '/fr/tel-aviv',
   '/fr/dead-sea',

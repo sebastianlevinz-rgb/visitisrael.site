@@ -90,6 +90,7 @@ The INPA manages over 63 nature reserves and archaeological parks across the cou
 
 **Coastal & central**
 - [Caesarea](/caesarea) National Park (Herodian harbour city)
+- [Tel Afek National Park](/tel-afek-guide) (Antipatris — Canaanite, Roman & Ottoman ruins; Yarkon springs; 40 km from Tel Aviv)
 - Apollonia National Park (Crusader fortress north of Tel Aviv)
 - Ashkelon National Park
 
