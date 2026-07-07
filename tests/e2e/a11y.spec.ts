@@ -258,6 +258,16 @@ const ROUTES = [
   '/de/haifa/german-colony',
   '/de/haifa/stella-maris',
   '/de/haifa/wadi-nisnas',
+  '/fr/golan/banias',
+  '/fr/golan/druze-villages',
+  '/fr/golan/mount-bental',
+  '/fr/golan/mount-hermon',
+  '/fr/golan/nimrod-fortress',
+  '/de/golan/banias',
+  '/de/golan/druze-villages',
+  '/de/golan/mount-bental',
+  '/de/golan/mount-hermon',
+  '/de/golan/nimrod-fortress',
 ];
 
 for (const route of ROUTES) {

@@ -1,7 +1,7 @@
 ---
 lang: en
-title: 'Nimrod Fortress: Largest Crusader Castle in Israel'
-description: 'Visit Nimrod Fortress in the Golan — a Crusader and Mamluk 13th-century fortification on an 800m ridge, the largest medieval castle in Israel.'
+title: "Nimrod Fortress: Israel's Largest Medieval Castle"
+description: "Visit Nimrod Fortress in the Golan — an Ayyubid and Mamluk 13th-century fortification on an 800m ridge, the largest medieval castle in Israel."
 slug: golan-nimrod-fortress
 region: golan
 parentRegion: golan
@@ -28,7 +28,7 @@ faqs:
     answer: Nimrod Fortress is 10 minutes drive from Banias on Highway 989, signed access to the national-park entrance and a paved approach road that climbs the ridge. From Katzrin allow 40 minutes; from Tel Aviv 3 hours via the standard Golan ascent. Paid parking at the entrance; the Israel Nature and Parks Authority combined-ticket includes Nimrod with several other Golan reserves.
 ---
 
-**Nimrod Fortress** is the largest medieval fortification in Israel — a Crusader and Mamluk castle built in the 1220s on an 800-metre ridge above the Banias valley in the Golan Heights. The site is unusually complete for a 13th-century fortification: concentric walls, towers, vaulted halls, secret stairways and water cisterns are all visible, walkable and partially restored. The fortress takes its modern name from medieval Arab folklore associating the ruined castle with **Nimrod**, the biblical hunter described in Genesis 10 as the founder of cities — by the Ottoman period the deserted castle was being attributed to legendary builders.
+**Nimrod Fortress** is the largest medieval fortification in Israel — an Ayyubid and Mamluk castle built in the 1220s on an 800-metre ridge above the Banias valley in the Golan Heights. The site is unusually complete for a 13th-century fortification: concentric walls, towers, vaulted halls, secret stairways and water cisterns are all visible, walkable and partially restored. The fortress takes its modern name from medieval Arab folklore associating the ruined castle with **Nimrod**, the biblical hunter described in Genesis 10 as the founder of cities — by the Ottoman period the deserted castle was being attributed to legendary builders.
 
 This guide covers the Crusader and Mamluk history, what is visible today, the practical visit logistics, and how Nimrod Fortress pairs with the neighbouring Banias / Caesarea Philippi archaeological site.
 
