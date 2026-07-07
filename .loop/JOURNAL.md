@@ -6504,3 +6504,11 @@ Ship: squash-merged auto/i18n-p4-b6-golan-attractions → master SHA 523dea6, pu
 CI: in_progress at push time — per playbook §5 "still pending after ~5 min → leave it; next iteration's start-check will confirm."
 i18n progress: Phase 4 Batch 6 DONE. FR+DE Golan attractions now 5/5 complete. Total fr/de locale pages ≈105/~158 (estimates; EN count grows each iter).
 Next: iter 369 = REVIEW (369%5==4). Audit iters 366–368. Confirm SHA 523dea6 CI green before reviewing content.
+
+## 2026-07-07T23:50Z · iter 369 · REVIEW · audit-iters-366-368
+What: Audited iters 366–368 (yam-caesarea-guide, israel-medical-tourism, FR+DE Golan attraction × 10 locale pages).
+Checks run: (1) meta title/description lengths — 1 violation found: yam-caesarea-guide description 165 chars (5 over 160 limit); (2) FR/DE golan-nimrod-fortress "Croisés"/"croisé" references confirmed historically accurate — Mamluks took fortress from Frankish Crusaders in 1260 CE, consistent with EN guide source; (3) internal links — 19 links across yam-caesarea-guide (7) and israel-medical-tourism (12) all resolved; (4) hero images confirmed present (caesarea/hero.jpg, sub-destinations/caesarea/harbour.jpg, caesarea/aqueduct.jpg, tel-aviv/hero.jpg, golan/nimrod-fortress.jpg); (5) partner keys all valid (getyourguide, discovercars, booking, abraham, viator, civitatis); (6) no fabricated prices/ratings — all costs are labelled ranges; honesty note in israel-medical-tourism explicitly disclaims rankings and costs.
+Fix: yam-caesarea-guide description trimmed 165→142 chars (removed " from Tel Aviv or Haifa" from end of sentence).
+Gate: pnpm check 0 errors; pnpm build 577 pages (unchanged); pnpm test:e2e 772/772 pass.
+Ship: squash-merged to master SHA b4024aa, pushed 2026-07-07T23:50Z. CI pending at push time.
+Next: iter 370 → RESEARCH mode (370%5==0).

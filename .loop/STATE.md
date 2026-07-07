@@ -1,13 +1,15 @@
 # LOOP STATE
 
-- iteration: 368
-- lastMode: BUILD (tools fall-through → i18n Phase 4 Batch 6, 368%5==3)
-- lastItem: i18n-p4-b6-golan-attractions
-- lastResult: BUILD (tools/technical backlog empty — fell through to i18n Phase 4 Batch 6) — 5 Golan attractions × FR+DE shipped (10 new locale pages): golan/banias, golan/druze-villages, golan/mount-bental, golan/mount-hermon, golan/nimrod-fortress in both FR and DE. Also fixed EN golan-nimrod-fortress.md (Crusader→Ayyubid historical inaccuracy, Rule 1 auto-fix). smoke.spec.ts + a11y.spec.ts +10 routes each. Gate: 0 check errors, 577 pages (+10 from 567), 772/772 e2e (+20). SHA 523dea6. CI in_progress at push time.
-- nextRotationCategory: 369%5==4 → REVIEW. 370%5==0 → RESEARCH. 371%5==1 → BUILD (seo-content).
+- iteration: 369
+- lastMode: REVIEW (369%5==4)
+- lastItem: review-369-meta-fix
+- lastResult: REVIEW — audited iters 366–368 (yam-caesarea-guide, israel-medical-tourism, FR+DE Golan attractions). Found 1 violation: yam-caesarea-guide description 165→142 chars (removed " from Tel Aviv or Haifa"). FR/DE golan-nimrod-fortress "Croisés" references confirmed historically accurate (Mamluks took it from Franks in 1260 — not a misattribution). All internal links resolved (12 links in israel-medical-tourism, 7 in yam-caesarea-guide). All hero images confirmed present. All partner keys valid. israel-medical-tourism desc 153 chars (OK). FR+DE Golan meta all within limits. Fix shipped as SHA b4024aa. Gate: 0 check errors, 577 pages, 772/772 e2e. CI pending at push time.
+- nextRotationCategory: 370%5==0 → RESEARCH. 371%5==1 → BUILD (seo-content). 372%5==2 → BUILD (monetization).
 - higgsfieldSpent: 0
-- updatedAt: 2026-07-07T23:10Z
+- updatedAt: 2026-07-07T23:50Z
 - branch context: work on master; feature work on auto/<slug>
+
+Notes: iter 369 REVIEW — audited iters 366–368. 1 meta violation found and fixed: yam-caesarea-guide description was 165 chars (5 over 160 limit). Removed trailing " from Tel Aviv or Haifa" → 142 chars. All other checks clean: 19 internal links resolved, hero images present, partner keys valid, no fabricated data, FR/DE Golan "Croisés" refs historically accurate. Gate: 0 errors, 577 pages, 772/772 e2e. SHA b4024aa. CI pending.
 
 Notes: iter 368 BUILD (tools fall-through → i18n Phase 4 Batch 6) — 5 Golan attractions × FR+DE (10 locale pages): banias, druze-villages, mount-bental, mount-hermon, nimrod-fortress. EN golan-nimrod-fortress.md historical fix (Crusader→Ayyubid) as Rule 1 auto-fix. smoke.spec.ts + a11y.spec.ts +10 routes each. Gate: 0 check errors, 577 pages (+10), 772/772 e2e (+20). SHA 523dea6. CI in_progress at push time. FR+DE Golan attractions now complete (5/5).
 
@@ -52,5 +54,5 @@ Notes: iter 338 BUILD (seo-content, fell through from tools) — gamla-nature-re
 Notes: iter 334 REVIEW — 6 meta violations found and fixed. Lesson: lazy regex false-positives on apostrophes.
 
 Cron b7325b16 hourly @ :17. Loop history: 19 tools + sitemap-lastmod + link-checker(+depth) + i18n
-Phase0/1a/1b/1c/2 Batches1-18(COMPLETE) + 37 review passes + 3 technical (event-schema + meta-trim + locale-links) + 47 EN guides + 5 tools-monetization;
+Phase0/1a/1b/1c/2 Batches1-18(COMPLETE) + 38 review passes + 3 technical (event-schema + meta-trim + locale-links) + 47 EN guides + 5 tools-monetization;
 research iters 5/10/20/30/35/40/45/50/55/60/65/70/75/80/85/90/95/100/105/110/115/120/125/130/135/140/145/150/155/160/165/170/175/180/185/190/195/200/205/210/215/220/225/230/235/240/245/250/255/260/265/270/275/280/285/290/295/300/305/310/315/320/325/330/335/340/345/350/355/360/365.
