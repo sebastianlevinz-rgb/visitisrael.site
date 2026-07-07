@@ -159,6 +159,7 @@ Water hikes slot naturally into existing Dead Sea and Galilee day trips:
 - **Dead Sea day from Jerusalem or Tel Aviv:** [Ein Gedi](/dead-sea/ein-gedi) in the morning (Wadi David) → Dead Sea float in the afternoon → return via Masada if time allows. See the [Masada & Dead Sea day trip guide](/masada-dead-sea-day-trip).
 - **Galilee multi-day:** Nahal Kziv on day 1 paired with an [Akko](/akko) afternoon; Nahal HaKibbutzim on day 2 with [Beit She'an](/galilee); Banias on day 3 with Nimrod Fortress and the Golan.
 - **Jerusalem day trip:** Wadi Qelt (Ein Prat) as a half-day morning walk followed by the [Jerusalem Old City](/jerusalem) in the afternoon.
+- **Eilat desert canyon:** The [Red Canyon](/red-canyon-eilat) — a free slot canyon hike 20 km from Eilat, carved by flash floods through Nubian sandstone — is not a water hike in the wading sense but belongs on any canyon-hiker's Eilat itinerary. Combine it with an afternoon at Coral Beach for a classic Eilat desert-and-sea day.
 
 ---
 

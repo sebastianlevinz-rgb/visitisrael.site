@@ -34,7 +34,7 @@ The **Israel National Trail** — the *Shvil* — runs about **1,000 km (620 mil
 - **The north (Galilee & Golan):** green, watered, and the gentlest introduction — springs, streams and rolling hills. Best in spring when the wildflowers are out. A natural pairing with a [Galilee](/galilee) trip.
 - **Mount Carmel (near Haifa):** forested ridges with sea views, a manageable multi-day or long day stretch close to [Haifa](/haifa).
 - **The Negev Highlands & Ramon Crater:** the dramatic heart of the desert sections — canyons, craters and silence. Spectacular, demanding, and **autumn-to-spring only**. Anchor it on [Mitzpe Ramon](/negev).
-- **The Eilat Mountains (the final stretch):** rugged, colourful desert finishing at the Red Sea. Cool-season only.
+- **The Eilat Mountains (the final stretch):** rugged, colourful desert finishing at the Red Sea. Cool-season only. The [Red Canyon](/red-canyon-eilat) — a free slot canyon hike with iron-oxide sandstone walls — is the most accessible standalone highlight of this section.
 
 ## The Jesus Trail
 
@@ -59,6 +59,7 @@ Not everyone has days to spare. Israel's best day hikes deliver outsized scenery
 | **Mount Arbel cliff** | [Galilee](/galilee) | 1–2 hrs | Moderate |
 | **Banias / Hermon Stream falls** | [Golan](/golan-heights-guide) | 1.5–3 hrs | Easy–moderate |
 | **Ramon Crater rim & trails** | [Negev](/negev) | flexible | Easy–strenuous |
+| **[Red Canyon](/red-canyon-eilat) slot canyon** | [Eilat](/eilat) | 1.5–2 hrs | Moderate |
 | **Mount Carmel forest trails** | [Haifa](/haifa) | 1–3 hrs | Easy–moderate |
 
 [Ein Gedi](/dead-sea/ein-gedi) and a sunrise climb of [Masada](/dead-sea/masada) are the classic pairing for a single big day from Jerusalem or the Dead Sea.

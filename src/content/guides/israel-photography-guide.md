@@ -122,7 +122,7 @@ Arrive early (8–9 am) before group tours fill the Hospitaller compound. The ma
 
 ### Red Canyon, Eilat — slot canyon light
 
-The [Red Canyon](/eilat-travel-guide) in the Eilat Mountains — a 1 km slot canyon of red, orange and purple sandstone — is a direct Israel equivalent of the famous Antelope Canyon in Arizona. Midday light, when the sun is directly overhead, illuminates the canyon floor from above and creates the vivid colour saturation the canyon is known for. Unlike most outdoor photography subjects in Israel, midday is the *correct* time to photograph Red Canyon.
+The [Red Canyon](/red-canyon-eilat) in the Eilat Mountains — a 1 km slot canyon of red, orange and purple sandstone — is a direct Israel equivalent of the famous Antelope Canyon in Arizona. Midday light, when the sun is directly overhead, illuminates the canyon floor from above and creates the vivid colour saturation the canyon is known for. Unlike most outdoor photography subjects in Israel, midday is the *correct* time to photograph Red Canyon.
 
 The canyon is a 45-minute drive from Eilat centre. The walk through the canyon takes approximately 45 minutes. Comfortable hiking shoes are essential; a wide-angle lens captures the full wall height. The canyon is navigable independently with the free INPA map available at the trailhead. The [Israel National Parks Pass](/israel-national-parks-pass) is valid here.
 

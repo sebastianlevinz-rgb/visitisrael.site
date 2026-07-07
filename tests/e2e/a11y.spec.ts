@@ -203,6 +203,7 @@ const ROUTES = [
   '/gamla-nature-reserve-guide',
   '/jerusalem-mount-zion-guide',
   '/bedouin-experience-israel',
+  '/red-canyon-eilat',
   '/fr/jerusalem',
   '/fr/tel-aviv',
   '/fr/dead-sea',

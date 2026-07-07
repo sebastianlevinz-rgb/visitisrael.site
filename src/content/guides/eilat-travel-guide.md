@@ -155,6 +155,8 @@ The overall hotel tier range in Eilat: budget guesthouses ₪350–600/night; mi
 
 **Wadi Rum, Jordan**: some tours combine Petra and Wadi Rum as a two-day excursion with an overnight in the desert camps. Single-day Wadi Rum-only trips from Eilat are possible but very long. An overnight in the desert is the recommended format if Wadi Rum is on your list.
 
+**Red Canyon**: the most accessible desert hike from Eilat — a free slot canyon 20 km northwest on Highway 12 with narrow passages, metal ladder descents and iron-oxide sandstone walls glowing red-orange. The 2 km circuit takes under 2 hours. [Full Red Canyon visitor guide](/red-canyon-eilat) covering the trail, flash flood safety, and how to combine it with Timna Park.
+
 **Negev highlights**: driving north from Eilat, you pass through the southern Arava desert (excellent stargazing at night), Timna Park (25 km), the Maktesh HaKatan small crater, and eventually reach Mitzpe Ramon and the Makhtesh Ramon — the world's largest erosion crater — in 2 hours. The crater rim, 300 metres above the Negev plateau, is a sharp contrast to the coastal resort feel of Eilat. Combine as a self-drive if you have a car.
 
 ---
