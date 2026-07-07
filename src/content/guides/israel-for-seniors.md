@@ -159,4 +159,4 @@ See the full [Israel packing list](/israel-packing-list) for a comprehensive che
 
 Use the [trip cost calculator](/israel-trip-cost-calculator) to budget your trip, and the [how many days guide](/israel-how-many-days) to decide on length. For Christian-heritage itineraries, see the [Holy Land pilgrimage guide](/christian-pilgrimage-holy-land); for Jewish heritage, see the [Jewish heritage guide](/jewish-heritage-israel).
 
-See also: [Israel with kids](/israel-with-kids) · [First time in Israel](/first-time-in-israel) · [Best time to visit Israel](/best-time-to-visit-israel) · [Dead Sea](/dead-sea) · [Jerusalem](/jerusalem) · [Masada](/dead-sea/masada) · [Caesarea](/caesarea)
+See also: [Israel with kids](/israel-with-kids) · [Accessible travel in Israel](/israel-accessible-travel) · [First time in Israel](/first-time-in-israel) · [Best time to visit Israel](/best-time-to-visit-israel) · [Dead Sea](/dead-sea) · [Jerusalem](/jerusalem) · [Masada](/dead-sea/masada) · [Caesarea](/caesarea)

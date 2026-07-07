@@ -56,6 +56,7 @@ const ROUTES = [
   '/driving-in-israel',
   '/israel-national-parks-pass',
   '/israel-for-seniors',
+  '/israel-accessible-travel',
   '/israel-adventure-sports',
   '/ben-gurion-airport-guide',
   '/israel-restaurant-finder',
