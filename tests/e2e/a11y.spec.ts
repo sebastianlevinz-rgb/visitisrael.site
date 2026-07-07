@@ -200,6 +200,7 @@ const ROUTES = [
   '/eilat-nightlife',
   '/city-of-david-jerusalem',
   '/gamla-nature-reserve-guide',
+  '/jerusalem-mount-zion-guide',
   '/fr/jerusalem',
   '/fr/tel-aviv',
   '/fr/dead-sea',

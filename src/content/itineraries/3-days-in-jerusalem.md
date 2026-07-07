@@ -126,7 +126,7 @@ If your three days stretch to three-and-a-half, the [City of David](/jerusalem/c
 
 ## What to Skip on a Three-Day Trip
 
-Honest editorial: if you only have three days, **skip the Tower of David Sound and Light show** in favour of a longer evening at Mahane Yehuda — the show is well-produced but takes ninety minutes you can spend better. **Skip Mount Zion** (Cenacle, Dormition Abbey, David's Tomb) on a first visit; the sites are evocative but historical claims are layered and a guide is essential, which a tighter day-two does not afford. **Skip the Garden Tomb** if you have already done the Church of the Holy Sepulchre — the alternative crucifixion site is a serene garden but devotional rather than archaeological.
+Honest editorial: if you only have three days, **skip the Tower of David Sound and Light show** in favour of a longer evening at Mahane Yehuda — the show is well-produced but takes ninety minutes you can spend better. **Skip [Mount Zion](/jerusalem-mount-zion-guide)** (Cenacle, Dormition Abbey, David's Tomb) on a first visit; the sites are evocative but historical claims are layered and a guide is essential, which a tighter day-two does not afford. **Skip the Garden Tomb** if you have already done the Church of the Holy Sepulchre — the alternative crucifixion site is a serene garden but devotional rather than archaeological.
 
 ## When to Visit Jerusalem for a Three-Day Trip
 
