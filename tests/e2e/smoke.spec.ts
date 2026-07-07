@@ -330,6 +330,7 @@ const ROUTES = [
   '/mitzpe-ramon-guide',
   '/israel-photography-guide',
   '/tel-afek-guide',
+  '/bedouin-experience-israel',
   '/fr/jerusalem',
   '/fr/tel-aviv',
   '/fr/dead-sea',

@@ -202,6 +202,7 @@ const ROUTES = [
   '/city-of-david-jerusalem',
   '/gamla-nature-reserve-guide',
   '/jerusalem-mount-zion-guide',
+  '/bedouin-experience-israel',
   '/fr/jerusalem',
   '/fr/tel-aviv',
   '/fr/dead-sea',

@@ -160,3 +160,5 @@ The **Alpaca Farm** (HaChava HaAlpaka), 5 km west of town on Route 40, is home t
 **Water**: carry at least 3 litres per person for any crater hike; more in summer. There are refill stations at the Space Center and at major trailheads. The crater floor has no shade and no water sources once you leave the marked trailheads.
 
 **Cell signal**: reliable in Mitzpe Ramon town and along Route 40; patchy on crater floor access roads and remote trails. Download offline maps (Maps.me or the Amud Anan hiking app) before descending into the crater.
+
+**Bedouin experience**: several Bedouin-hosted camps near Sde Boker (roughly 35 km north) offer camel rides, traditional meals, and overnight tent stays that combine naturally with a Mitzpe Ramon itinerary. See the [Bedouin experience guide](/bedouin-experience-israel).

@@ -129,7 +129,7 @@ A two-night Negev glamping stay pairs naturally with:
 - **Stargazing tour** — guided telescope session at the Landroom Observatory or with Astronomy Israel (book ahead; see [stargazing in Israel guide](/israel-stargazing))
 - **Crater hike** — the Makhtesh Ramon rim walk and crater-floor trails are the centrepiece Negev experience; bring a full water supply and start before 8am in any warm weather
 - **Jeep tour** — licensed 4×4 operators run half-day and full-day crater tours that reach sections of the crater floor inaccessible on foot; book through your accommodation or GetYourGuide
-- **Bedouin hospitality** — Kfar HaNokdim near Masada offers camel rides and traditional Bedouin dinner; about 1 hour north of Mitzpe Ramon — a natural day-trip extension from a Negev glamping base
+- **Bedouin hospitality** — Kfar HaNokdim near Masada offers camel rides and traditional Bedouin dinner; about 1 hour north of Mitzpe Ramon — a natural day-trip extension from a Negev glamping base. See the [Bedouin experience guide](/bedouin-experience-israel) for site details and booking tips.
 
 ---
 
