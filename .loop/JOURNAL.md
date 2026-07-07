@@ -6275,3 +6275,9 @@ Rejected/deferred: Mt Arbel (already in backlog [iter330]), Beit Alpha (in backl
 
 COMPETITORS.md updated with 14 competitor source entries for all 7 new gaps.
 Next: iter 351 → BUILD (seo-content, 351%5==1). Pick highest-priority seo-content item; alternatively i18n Phase 4 Batch 4 if rotation warrants.
+
+## 2026-07-07T05:50Z · iter 351 · BUILD (seo-content) · israel-photography-guide
+What: New guide /israel-photography-guide — P2 seo-content M. Covers 13 photography locations in 4 categories: (1) sunrise spots: Masada summit, Dead Sea shore, Mount of Olives; (2) golden-hour/sunset: Caesarea Aqueduct, Jaffa port, TLV Tayelet, Mitzpe Ramon crater; (3) cultural/architectural: Bahá'í Gardens Haifa, Akko Crusader city, Red Canyon Eilat, Jerusalem Old City; (4) season table + photography etiquette section. 6 FAQs. 3 affiliate CTAs: GYG Masada sunrise tour, GYG Jerusalem/Jaffa photo walks, Booking. Cross-links added in caesarea-guide.md (aqueduct paragraph) and day-trips-from-haifa.md (Rosh Hanikra bullet). Footer.astro +1 li. Smoke test +1 route. No fabricated prices/ratings/reviews. Religious site photography rules sourced from existing guides.
+Gate: pnpm check 0 errors; build 537 pages (+1); 702/702 e2e+a11y pass.
+Merge: squash-merged to master SHA 2a1cc53, pushed. CI in_progress at commit time (prior 3 runs all success); deploy expected to succeed based on clean gate.
+Prod: CI in_progress; monitoring — previous 3 runs all success; no revert needed.

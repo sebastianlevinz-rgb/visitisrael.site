@@ -1,13 +1,17 @@
 # LOOP STATE
 
-- iteration: 350
-- lastMode: RESEARCH (iter 350)
-- lastItem: RESEARCH iter 350 — 7 new gaps found; no code shipped. rosh-pinna-guide, ramallah-day-trip, belvoir-fortress, jerusalem-garden-tomb-guide, mukhraka-guide, nabi-samuel-guide, capernaum-visitor-guide.
-- lastResult: research (no ship)
-- nextRotationCategory: 351%5==1 → BUILD (seo-content). 352%5==2 → BUILD (monetization or i18n). 353%5==3 → BUILD (tools). 354%5==4 → REVIEW. 355%5==0 → RESEARCH.
+- iteration: 351
+- lastMode: BUILD (seo-content, iter 351)
+- lastItem: israel-photography-guide — P2 seo-content M. New guide /israel-photography-guide. Sunrise spots (Masada, Dead Sea, Mount of Olives), golden-hour (Caesarea Aqueduct, Jaffa port, TLV beach, Mitzpe Ramon), cultural compositions (Bahá'í Gardens, Akko, Red Canyon). 6 FAQs. 3 affiliate CTAs (GYG Masada sunrise, GYG Jerusalem/Jaffa photo walks, Booking). Cross-links in caesarea-guide + day-trips-from-haifa. Footer +1. Smoke +1. 537 pages, 702/702 e2e.
+- lastResult: shipped → SHA 2a1cc53
+- nextRotationCategory: 352%5==2 → BUILD (monetization or i18n Phase 4 Batch 4). 353%5==3 → BUILD (tools). 354%5==4 → REVIEW. 355%5==0 → RESEARCH. 356%5==1 → BUILD (seo-content).
 - higgsfieldSpent: 0
-- updatedAt: 2026-07-07T06:30Z
+- updatedAt: 2026-07-07T05:50Z
 - branch context: work on master; feature work on auto/<slug>
+
+Notes: iter 351 BUILD (seo-content) — israel-photography-guide shipped. P2 M seo-content. New guide /israel-photography-guide covering 13 photography locations in 4 categories: sunrise (Masada summit, Dead Sea shore, Mount of Olives); golden-hour/sunset (Caesarea Aqueduct, Jaffa port, TLV Tayelet, Mitzpe Ramon); cultural/architectural (Bahá'í Gardens Haifa, Akko Crusader city, Red Canyon Eilat, Jerusalem Old City); season table + etiquette section. No fabricated prices/ratings/reviews. Religious site etiquette sourced from existing guides (church-holy-sepulchre-guide.md, bar-bat-mitzvah-israel.md). 3 affiliate CTAs: GYG Masada sunrise tour, GYG Jerusalem/Jaffa photo walks, Booking. Cross-links: caesarea-guide.md (aqueduct paragraph +1 link), day-trips-from-haifa.md (Rosh Hanikra bullet +1 link). Footer.astro +1 li (Best photo spots in Israel). Smoke +1 (/israel-photography-guide). CI in_progress at commit time (prior 3 runs: success/success/success). 537 pages; 702/702 e2e pass.
+
+Notes: iter 350 RESEARCH — 7 new gaps found; no code shipped. rosh-pinna-guide, ramallah-day-trip, belvoir-fortress, jerusalem-garden-tomb-guide, mukhraka-guide, nabi-samuel-guide, capernaum-visitor-guide.
 
 Notes: iter 349 REVIEW — Audited iters 346–348: jerusalem-mount-zion-guide (iter346), dead-sea-tours-compared (iter347), i18n Phase 4 Batch 3 × FR+DE (iter348). One meta violation found: de/tel-aviv-carmel-market title was 67 chars (over 65 limit) — fixed to 57 chars by removing redundant "Tel Avivs " fragment. All other batch-3 FR+DE meta in-spec. No H1 in any guide body. All locale links correctly prefixed. Cross-links in both new EN guides verified valid (15 honesty hedges in mount-zion; /dead-sea/ein-gedi confirmed valid route via attraction slug logic). Regex lesson: checking for file existence at path /dead-sea/ein-gedi gives false-positive because routing strips region prefix from filename (dead-sea-ein-gedi.md → /dead-sea/ein-gedi). Always verify with attractionSlug() logic, not raw path check. Gate green 536 pages 701/701 tests. SHA 5e7bae1.
 
@@ -34,5 +38,5 @@ Notes: iter 329 REVIEW — Audited iters 325–328: zippori-sepphoris-guide (ite
 Notes: iter 328 BUILD (seo-content) — Beer-Sheva guide shipped. Last major Israeli city missing a standalone guide; UNESCO Tel Be'er Sheva (Biblical Tels 2005, Iron Age water system + gate complex + horned altar), IAF Museum at Hatzerim (~150 aircraft, free outdoor exhibits), ANZAC memorial + Beersheba War Cemetery (1917 Light Horse charge), Ottoman Old City + Negev Museum of Art (1906 Jami Mosque). Honesty: IAF free-for-outdoor caveated with "verify at iaf.org.il"; INPA hours caveat; no fabricated prices/ratings; Light Horse charge framed with military-history context. Cross-links: negev.md How-to-Get-Here upgraded + beer-sheva link; israel-road-trip.md Day 5 overnight mention upgraded with link; Footer.astro +1 li in day trips section.
 
 Cron b7325b16 hourly @ :17. Loop history: 19 tools + sitemap-lastmod + link-checker(+depth) + i18n
-Phase0/1a/1b/1c/2 Batches1-18(COMPLETE) + 37 review passes + 3 technical (event-schema + meta-trim + locale-links) + 42 EN guides + 5 tools-monetization;
-research iters 5/10/20/30/35/40/45/50/55/60/65/70/75/80/85/90/95/100/105/110/115/120/125/130/135/140/145/150/155/160/165/170/175/180/185/190/195/200/205/210/215/220/225/230/235/240/245/250/255/260/265/270/275/280/285/290/295/300/305/310/315/320/325/330/335/340/345.
+Phase0/1a/1b/1c/2 Batches1-18(COMPLETE) + 37 review passes + 3 technical (event-schema + meta-trim + locale-links) + 43 EN guides + 5 tools-monetization;
+research iters 5/10/20/30/35/40/45/50/55/60/65/70/75/80/85/90/95/100/105/110/115/120/125/130/135/140/145/150/155/160/165/170/175/180/185/190/195/200/205/210/215/220/225/230/235/240/245/250/255/260/265/270/275/280/285/290/295/300/305/310/315/320/325/330/335/340/345/350.

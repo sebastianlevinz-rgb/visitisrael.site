@@ -680,3 +680,7 @@ New /gamla-nature-reserve-guide. P2 S seo-content. Standalone Gamla Nature Reser
 - /fr/dead-sea/ein-bokek + /de/dead-sea/ein-bokek
 - /fr/dead-sea/masada + /de/dead-sea/masada
 SHA 107ae07. 10 locale pages. 536 pages total. 701/701 e2e pass.
+
+## iter 351 — israel-photography-guide (seo-content, P2, M)
+/israel-photography-guide — Best Photo Spots in Israel guide. 13 photo locations in 4 categories (sunrise, golden-hour, cultural, etiquette). 6 FAQs. 3 CTAs (GYG × 2, Booking). Cross-links: caesarea-guide + day-trips-from-haifa. Footer link. Targets "instagrammable Israel", "best photo spots Israel", "Israel photography guide" search terms. No competitors (walk-my-world, locationscout, sillysuitcase rank but we had zero visual hub).
+SHA 2a1cc53. 537 pages. 702/702 e2e pass.
