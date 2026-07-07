@@ -1,13 +1,15 @@
 # LOOP STATE
 
-- iteration: 361
-- lastMode: BUILD (361%5==1 → seo-content)
-- lastItem: red-canyon-eilat — standalone slot canyon hike guide for the Eilat Mountains
-- lastResult: SHIPPED — 0 check errors, 563 pages (+1 from 562), 752/752 e2e pass (+2 from 750). SHA e5a878e. CI in_progress at push time.
-- nextRotationCategory: 362%5==2 → BUILD (monetization). 363%5==3 → BUILD (tools or fall-through). 364%5==4 → REVIEW. 365%5==0 → RESEARCH. 366%5==1 → BUILD (seo-content).
+- iteration: 362
+- lastMode: BUILD (362%5==2 → monetization)
+- lastItem: golan-heights-tours-compared — decision-stage tour comparison money page for Golan Heights
+- lastResult: SHIPPED — 0 check errors, 564 pages (+1 from 563), 752/752 e2e pass. SHA aaba497. CI in_progress at push time.
+- nextRotationCategory: 363%5==3 → BUILD (tools or fall-through). 364%5==4 → REVIEW. 365%5==0 → RESEARCH. 366%5==1 → BUILD (seo-content). 367%5==2 → BUILD (monetization).
 - higgsfieldSpent: 0
-- updatedAt: 2026-07-07T15:45Z
+- updatedAt: 2026-07-07T16:30Z
 - branch context: work on master; feature work on auto/<slug>
+
+Notes: iter 362 BUILD (monetization) — golan-heights-tours-compared shipped. P2 S monetization. New /golan-heights-tours-compared: 6-format comparison table (coach day trip from TLV/Jerusalem, local Tiberias day tour, jeep safari, Golan wine trail, 2-day Golan+Galilee, self-drive); per-format editorial; honest pricing ranges; 3 affiliate CTAs (GYG, Viator, Civitatis); 5 FAQs (value of day trip, Golan vs Galilee, 4x4 requirement, safety, political status). Cross-links: golan-heights-guide → new page; galilee-tours-compared → new page. Gate: 0 check errors, 564 pages (+1), 752/752 e2e. SHA aaba497. CI in_progress at push time.
 
 Notes: iter 361 BUILD (seo-content) — red-canyon-eilat shipped. P2 S seo-content. Free slot canyon hike 20 km northwest of Eilat on Highway 12 in the Eilat Mountains. Nubian sandstone carved by flash floods; walls glow red-orange from iron oxide (haematite). 2 km circuit, free entry, no ticket booth. 3–4 metal rung/ladder sections (1–2 m each); age 8+ with agility. Flash flood safety: ims.gov.il forecast check mandatory — fatalities have occurred. Bus access: Egged 392 (Eilat→Beer Sheva) stops at trailhead; ~25 min from Eilat Central Bus Station. Best season Oct–Apr; avoid June–Sep (38–44°C). Combining: Red Canyon + Timna Park (same day, 45 km north); Red Canyon + Hai Bar Yotvata (35 km north on Hwy 90). 4 FAQs: children suitability (age 8+), bus access, best season, flash flood protocol. 2 affiliate CTAs: DiscoverCars car hire, GYG Eilat jeep safari. Cross-links: eilat-travel-guide.md (new Red Canyon paragraph in Day Trips section), hiking-in-israel.md (row in day-hikes table + Eilat Mountains blurb upgrade), water-hiking-israel.md (Red Canyon note in Combining section), israel-photography-guide.md (link updated /eilat-travel-guide → /red-canyon-eilat). Gate: 0 check errors, 563 pages, 752/752 e2e. SHA e5a878e. Branch auto/red-canyon-eilat deleted.
 

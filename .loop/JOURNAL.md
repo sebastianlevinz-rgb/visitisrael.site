@@ -6435,3 +6435,14 @@ Gate: pnpm check 0 errors; pnpm build 563 pages (+1 from 562); pnpm test:e2e 752
 Ship: squash-merged to master e5a878e, pushed 2026-07-07T15:45Z. Branch auto/red-canyon-eilat deleted. CI in_progress at push time.
 Next: iter 362 → BUILD (monetization; 362%5==2).
 Prod deploy result: SUCCESS (e5a878e0, GitHub Actions conclusion=success, confirmed 2026-07-07T15:55Z).
+
+## 2026-07-07T16:30Z · iter 362 · BUILD (monetization) · golan-heights-tours-compared
+What: new /golan-heights-tours-compared decision-stage money page. 6-format comparison table (coach
+day trip from Tel Aviv/Jerusalem, local Tiberias day tour, jeep safari, Golan wine trail, 2-day
+Golan+Galilee, self-drive), per-format editorial, honest price ranges, 3 affiliate CTAs (GYG,
+Viator, Civitatis), 5 FAQs (safety, political status, 4x4 requirement, day-trip value, Golan vs
+Galilee distinction). Cross-links: golan-heights-guide.md → /golan-heights-tours-compared;
+galilee-tours-compared.md → /golan-heights-tours-compared.
+Gate: pnpm check 0 errors; pnpm build 564 pages (+1 from 563); pnpm test:e2e 752/752 pass.
+Ship: squash-merged to master aaba497, pushed 2026-07-07T16:30Z. Branch auto/golan-heights-tours-compared deleted. CI in_progress at push time.
+Next: iter 363 → BUILD (tools; 363%5==3).
