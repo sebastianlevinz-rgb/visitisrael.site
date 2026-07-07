@@ -72,4 +72,4 @@ If your government has a partial or targeted advisory (specific areas, not the w
 
 ## Plan the rest
 
-Sort insurance alongside your [eSIM](/israel-esim), [airport transfer](/ben-gurion-airport-transfers) and, if driving, [car rental](/car-rental-israel). New to Israel? Start with the [first-time-in-Israel guide](/first-time-in-israel).
+Sort insurance alongside your [eSIM](/israel-esim), [airport transfer](/ben-gurion-airport-transfers) and, if driving, [car rental](/car-rental-israel). New to Israel? Start with the [first-time-in-Israel guide](/first-time-in-israel). Planning treatment at an Israeli hospital? See the [Israel medical tourism guide](/israel-medical-tourism) for what insurance does and does not cover for planned procedures.
