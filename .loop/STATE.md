@@ -1,13 +1,15 @@
 # LOOP STATE
 
-- iteration: 362
-- lastMode: BUILD (362%5==2 → monetization)
-- lastItem: golan-heights-tours-compared — decision-stage tour comparison money page for Golan Heights
-- lastResult: SHIPPED — 0 check errors, 564 pages (+1 from 563), 752/752 e2e pass. SHA aaba497. CI in_progress at push time.
-- nextRotationCategory: 363%5==3 → BUILD (tools or fall-through). 364%5==4 → REVIEW. 365%5==0 → RESEARCH. 366%5==1 → BUILD (seo-content). 367%5==2 → BUILD (monetization).
+- iteration: 363
+- lastMode: BUILD (363%5==3 → tools fall-through → seo-content)
+- lastItem: nimrod-fortress-guide — Nimrod Fortress National Park visitor guide (P2 S, Golan Heights)
+- lastResult: SHIPPED — 0 check errors, 565 pages (+1 from 564), 752/752 e2e pass. SHA 236efef. CI in_progress at push time.
+- nextRotationCategory: 364%5==4 → REVIEW. 365%5==0 → RESEARCH. 366%5==1 → BUILD (seo-content). 367%5==2 → BUILD (monetization). 368%5==3 → BUILD (tools or fall-through).
 - higgsfieldSpent: 0
-- updatedAt: 2026-07-07T16:30Z
+- updatedAt: 2026-07-07T17:42Z
 - branch context: work on master; feature work on auto/<slug>
+
+Notes: iter 363 BUILD (tools fall-through → seo-content) — nimrod-fortress-guide shipped. P2 S seo-content+monetization. New /nimrod-fortress-guide: Israel's largest medieval castle (Golan Heights, 800m elevation), 13th-century Ayyubid origin (NOT Crusader — corrects widespread misattribution), Mamluk reinforcement by Baibars 1275 CE inscription still in situ, 21-tower circuit, 420m outer walls, secret 27-metre staircase passage, practical info table, Banias+Tel Dan day combinations, 2 CTAs (GYG Golan tours, DiscoverCars), 5 FAQs. Also fixed historical inaccuracy in golan-heights-guide.md and golan-heights-tours-compared.md ("Crusader and Ayyubid" → "Ayyubid and Mamluk") with cross-links to new guide. Gate: 0 check errors, 565 pages (+1), 752/752 e2e. SHA 236efef. CI in_progress at push time.
 
 Notes: iter 362 BUILD (monetization) — golan-heights-tours-compared shipped. P2 S monetization. New /golan-heights-tours-compared: 6-format comparison table (coach day trip from TLV/Jerusalem, local Tiberias day tour, jeep safari, Golan wine trail, 2-day Golan+Galilee, self-drive); per-format editorial; honest pricing ranges; 3 affiliate CTAs (GYG, Viator, Civitatis); 5 FAQs (value of day trip, Golan vs Galilee, 4x4 requirement, safety, political status). Cross-links: golan-heights-guide → new page; galilee-tours-compared → new page. Gate: 0 check errors, 564 pages (+1), 752/752 e2e. SHA aaba497. CI in_progress at push time.
 

@@ -6446,3 +6446,9 @@ galilee-tours-compared.md → /golan-heights-tours-compared.
 Gate: pnpm check 0 errors; pnpm build 564 pages (+1 from 563); pnpm test:e2e 752/752 pass.
 Ship: squash-merged to master aaba497, pushed 2026-07-07T16:30Z. Branch auto/golan-heights-tours-compared deleted. CI in_progress at push time.
 Next: iter 363 → BUILD (tools; 363%5==3).
+
+## 2026-07-07T17:42Z · iter 363 · BUILD (tools fall-through → seo-content) · nimrod-fortress-guide
+What: New /nimrod-fortress-guide — Israel's largest medieval castle (Qal'at Nimrod, Golan Heights, 800m). 13th-century Ayyubid fortress (built 1229 CE by Al-Aziz Uthman; NOT Crusader — important historical correction). Baibars Mamluk expansion post-1260; 1275 CE Arabic inscription in situ near west gate. Circuit: 21 towers, 420m outer walls, great hall, keep (4-storey panoramic), 27m concealed staircase passage. Practical table (INPA pass valid, ~₪22 entry, hours). Banias+Tel Dan day combination guide. 2 CTAs (GYG Golan day tours, DiscoverCars). 5 FAQs.
+Also fixed historical inaccuracy "Crusader and Ayyubid" → "Ayyubid and Mamluk" in golan-heights-guide.md + golan-heights-tours-compared.md with cross-links to new guide.
+Gate: 0 check errors, 565 pages (+1 from 564), 752/752 e2e pass.
+Ship: squash-merged to master 236efef, pushed. CI in_progress at push time.
