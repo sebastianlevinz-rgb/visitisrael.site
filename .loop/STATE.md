@@ -1,13 +1,15 @@
 # LOOP STATE
 
-- iteration: 367
-- lastMode: BUILD (monetization, 367%5==2)
-- lastItem: israel-medical-tourism
-- lastResult: BUILD (monetization) — /israel-medical-tourism shipped. P2 M seo-content+monetization. New guide: hospital-based medical tourism (IVF ~USD 3–4.5k vs $15–25k US, cardiac surgery, oncology second opinions, orthopaedics) at Sheba Medical Center, Assuta Hospital, Rambam, Sourasky/Ichilov. 4 affiliate CTAs (Booking×2, GYG, Abraham), 6 FAQs. Cross-links: dead-sea-medical-tourism, israel-for-seniors, israel-travel-insurance. Gate: 0 check errors, 567 pages (+1), 752/752 e2e. SHA 71c6948. CI pending at push time.
-- nextRotationCategory: 368%5==3 → BUILD (tools or fall-through). 369%5==4 → REVIEW. 370%5==0 → RESEARCH. 371%5==1 → BUILD (seo-content).
+- iteration: 368
+- lastMode: BUILD (tools fall-through → i18n Phase 4 Batch 6, 368%5==3)
+- lastItem: i18n-p4-b6-golan-attractions
+- lastResult: BUILD (tools/technical backlog empty — fell through to i18n Phase 4 Batch 6) — 5 Golan attractions × FR+DE shipped (10 new locale pages): golan/banias, golan/druze-villages, golan/mount-bental, golan/mount-hermon, golan/nimrod-fortress in both FR and DE. Also fixed EN golan-nimrod-fortress.md (Crusader→Ayyubid historical inaccuracy, Rule 1 auto-fix). smoke.spec.ts + a11y.spec.ts +10 routes each. Gate: 0 check errors, 577 pages (+10 from 567), 772/772 e2e (+20). SHA 523dea6. CI in_progress at push time.
+- nextRotationCategory: 369%5==4 → REVIEW. 370%5==0 → RESEARCH. 371%5==1 → BUILD (seo-content).
 - higgsfieldSpent: 0
-- updatedAt: 2026-07-07T21:45Z
+- updatedAt: 2026-07-07T23:10Z
 - branch context: work on master; feature work on auto/<slug>
+
+Notes: iter 368 BUILD (tools fall-through → i18n Phase 4 Batch 6) — 5 Golan attractions × FR+DE (10 locale pages): banias, druze-villages, mount-bental, mount-hermon, nimrod-fortress. EN golan-nimrod-fortress.md historical fix (Crusader→Ayyubid) as Rule 1 auto-fix. smoke.spec.ts + a11y.spec.ts +10 routes each. Gate: 0 check errors, 577 pages (+10), 772/772 e2e (+20). SHA 523dea6. CI in_progress at push time. FR+DE Golan attractions now complete (5/5).
 
 Notes: iter 367 BUILD (monetization) — israel-medical-tourism shipped. P2 M seo-content+monetization. New /israel-medical-tourism: hospital-based medical tourism guide covering Sheba Medical Center (Newsweek world's best hospitals, 7+ consecutive years), Assuta Hospital (JCI-accredited, IVF specialist), Rambam (Haifa, cardiac/ortho), Sourasky/Ichilov (central TLV). IVF cost context (~USD 3–4.5k per cycle vs $15–25k US); oncology second opinions; cardiac surgery; orthopaedic procedures. Practical: how to arrange visit (ShebaOnline portal, Assuta international inquiry), visa/entry (tourist entry covers medical stays), accommodation strategy (Ramat Gan for Sheba, northern TLV for Assuta), insurance reality (planned treatment not covered by standard travel insurance). Combining with touring: TLV, Jerusalem (1h rail), Dead Sea, Caesarea. 4 CTAs: Booking (Ramat Gan + TLV), GYG (TLV tours), Abraham (day trips). 6 FAQs. Cross-links added to: dead-sea-medical-tourism (sibling guide pointer), israel-for-seniors (see also footer), israel-travel-insurance (end-of-guide pointer). Link bug fixed: /bahai-world-center → /bahai-world-center-guide. Gate: 0 check errors, 567 pages (+1), 752/752 e2e. SHA 71c6948. CI pending.
 

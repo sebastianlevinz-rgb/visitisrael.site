@@ -703,3 +703,13 @@ SHA 18d451d. 552 pages; 730/730 e2e+a11y pass.
 - iter366 — /yam-caesarea-guide — Yam Caesarea Marine National Park visitor guide (SHA b86066a) — P2 S seo-content+monetization; Israel's first marine national park (INPA Nov 25 2024); 267 acres west of Caesarea Antiquities NP; submerged Herodian Sebastos harbour (20 BCE) + coral reefs + seagrass; snorkel trail system via Old Caesarea Diving Center (4 colour-coded routes); practical table, seasonal info, train/car logistics, marine park rules; 2 CTAs (GYG snorkel, DiscoverCars), 5 FAQs; cross-links: caesarea-guide (inline + footer), israel-national-parks-pass, eilat-diving-snorkeling, water-hiking-israel; 566 pages, 752/752 e2e.
 
 - iter367 · feat(guides): israel-medical-tourism [SHA 71c6948] — /israel-medical-tourism: hospital medical tourism guide; Sheba/Assuta/Rambam/Ichilov; IVF cost context; combining treatment with touring; 4 CTAs; 6 FAQs; 567 pages total.
+
+## iter 368 · i18n Phase 4 Batch 6 · SHA 523dea6 · 2026-07-07
+**5 Golan attractions × FR+DE (10 locale pages)**
+- `/fr/golan/banias` + `/de/golan/banias` — Banias / Caesarea Philippi; Pan cave, Jordan source, waterfall; 5 FAQs each
+- `/fr/golan/druze-villages` + `/de/golan/druze-villages` — Druze villages of the Golan (Majdal Shams, Masʻade, Buqʻata, Ein Qiniyye); honest civic-status framing; 4 FAQs each
+- `/fr/golan/mount-bental` + `/de/golan/mount-bental` — Mount Bental volcanic crater viewpoint (1,171 m); Quneitra valley + Mount Hermon panorama; 5 FAQs each
+- `/fr/golan/mount-hermon` + `/de/golan/mount-hermon` — Mount Hermon; Israel's only ski resort (Dec–Mar), 11 runs + cable car; summer hiking; 5 FAQs each
+- `/fr/golan/nimrod-fortress` + `/de/golan/nimrod-fortress` — Nimrod Fortress (Ayyubid + Mamluk, 13th c.); largest medieval fortification in Israel; 4 FAQs each
+- EN `golan-nimrod-fortress.md` fixed: title/desc/body "Crusader" → "Ayyubid" (Rule 1 auto-fix; iter363 established this correction)
+smoke.spec.ts + a11y.spec.ts +10 routes each. Gate: 0 check errors · 577 pages (+10) · 772/772 e2e (+20). Phase 4 Golan attractions COMPLETE.

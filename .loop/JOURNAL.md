@@ -6481,3 +6481,26 @@ Next: iter 367 → BUILD (monetization, 367%5==2).
 ## 2026-07-07T21:45Z · iter 367 · BUILD (monetization) · israel-medical-tourism
 What: New /israel-medical-tourism guide — hospital-based medical tourism (IVF, cardiac surgery, oncology second opinions, orthopaedics) at Sheba Medical Center, Assuta Hospital, Rambam, Sourasky/Ichilov. Covers cost context (IVF ~USD 3–4.5k vs $15–25k US), hospital selection, practical visa/accommodation/insurance, combining treatment with touring. 4 affiliate CTAs (Booking×2, GYG, Abraham). 6 FAQs. Cross-links: dead-sea-medical-tourism, israel-for-seniors, israel-travel-insurance. Fixed broken link /bahai-world-center → /bahai-world-center-guide after link-checker failure.
 Gate: 0 check errors, 567 pages (+1), 752/752 e2e pass. SHA 71c6948. CI pending at push time.
+
+## 2026-07-07T23:10Z · iter 368 · BUILD (tools fall-through → i18n Phase 4 Batch 6) · golan-attractions-fr-de
+Mode: BUILD (368%5==3). tools category empty (all 11 items shipped); technical category empty (1 item shipped). Fell through to i18n per playbook rule; i18n was 10 iterations overdue (last at iter358). Chose Golan Heights (5 remaining EN attractions = same batch size as Batch 5, same region, pairs with iter362–363 Golan content).
+Rule 1 auto-fix applied: golan-nimrod-fortress.md EN source had "Crusader" in title/description/body — corrected to "Ayyubid" (iter363 guide established the historical accuracy fix; attraction file still had the error). FR+DE translations use the corrected terminology throughout.
+What: 10 new locale pages:
+  src/content/attractions/fr/golan-banias.md — Banias / Caesarea Philippi (Pan-Grotte, source du Jourdain, cascade); 5 FAQs; FR locale-correct
+  src/content/attractions/de/golan-banias.md — Banias / Caesarea Philippi (Pan-Grotte, Jordanquellen, Wasserfall); 5 FAQs; DE locale-correct
+  src/content/attractions/fr/golan-druze-villages.md — Villages druzes du Golan (Majdal Shams, Masʻade, Buqʻata, Ein Qiniyye); honest Druze civic-status complexity; 4 FAQs
+  src/content/attractions/de/golan-druze-villages.md — Drusen-Dörfer der Golanhöhen; honest Druze-status framing; 4 FAQs
+  src/content/attractions/fr/golan-mount-bental.md — Mont Bental, cratère volcanique 1 171 m; panorama Quneitra + Hermon; 5 FAQs
+  src/content/attractions/de/golan-mount-bental.md — Berg Bental, erloschener Vulkankrater 1 171 m; Panoramablick Quneitra + Hermon; 5 FAQs
+  src/content/attractions/fr/golan-mount-hermon.md — Mont Hermon, seule station de ski d'Israël (déc–mars), 11 pistes + téléphérique; 5 FAQs
+  src/content/attractions/de/golan-mount-hermon.md — Berg Hermon, Israels einziger Skiort (Dez–März), 11 Pisten + Seilbahn; 5 FAQs
+  src/content/attractions/fr/golan-nimrod-fortress.md — Forteresse de Nimrod (ayyoubide et mamelouke, XIIIe s.); 4 FAQs
+  src/content/attractions/de/golan-nimrod-fortress.md — Nimrod-Festung (ayyubidisch-mamlukisch, 13. Jh.); 4 FAQs
+  EN fix: src/content/attractions/golan-nimrod-fortress.md title/desc/body "Crusader" → "Ayyubid" (Rule 1 auto-fix)
+  tests/e2e/smoke.spec.ts: +10 routes (fr/golan/{banias,druze-villages,mount-bental,mount-hermon,nimrod-fortress} × 2 locales)
+  tests/e2e/a11y.spec.ts: +10 routes (same)
+Gate: pnpm check 0 errors; pnpm build 577 pages (+10 from 567); pnpm test:e2e 772/772 pass (+20 from 752). GREEN.
+Ship: squash-merged auto/i18n-p4-b6-golan-attractions → master SHA 523dea6, pushed. Branch deleted.
+CI: in_progress at push time — per playbook §5 "still pending after ~5 min → leave it; next iteration's start-check will confirm."
+i18n progress: Phase 4 Batch 6 DONE. FR+DE Golan attractions now 5/5 complete. Total fr/de locale pages ≈105/~158 (estimates; EN count grows each iter).
+Next: iter 369 = REVIEW (369%5==4). Audit iters 366–368. Confirm SHA 523dea6 CI green before reviewing content.
