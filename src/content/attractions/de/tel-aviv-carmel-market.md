@@ -1,6 +1,6 @@
 ---
 lang: de
-title: "Carmel-Markt (Shuk HaCarmel): Tel Avivs zentraler Lebensmittelmarkt"
+title: "Carmel-Markt (Shuk HaCarmel): zentraler Lebensmittelmarkt"
 description: "Carmel-Markt Tel Aviv: Obst, Gewürze, Streetfood, kulinarische Führungen, Öffnungszeiten und die besten Stände im Shuk."
 region: tel-aviv
 parentRegion: tel-aviv
