@@ -672,3 +672,11 @@ New /gamla-nature-reserve-guide. P2 S seo-content. Standalone Gamla Nature Reser
 
 ## iter 347 · dead-sea-tours-compared
 - [iter347 → c885d41] Dead Sea tours compared (/dead-sea-tours-compared) — P2 S monetization. Decision-stage money page: Dead Sea only guided tours vs Masada + Dead Sea combos vs self-drive vs private guide. Comparison table, format breakdowns, Ein Bokek shore guide, 6 FAQs (guided vs self-drive, Dead Sea only vs Masada combo, Ein Bokek vs Ein Gedi [beach CLOSED sinkholes], best season, level decline, entry fees). 3 CTAs: GYG Dead Sea day trip, Viator Masada+Dead Sea combo, Booking Ein Bokek hotels. Cross-links: dead-sea-guide + masada-dead-sea-day-trip updated, Footer +1 li. 526 pages; 681/681 e2e+a11y pass.
+
+## iter 348 · 2026-07-07 · BUILD (i18n Phase 4 Batch 3)
+- /fr/tel-aviv/carmel-market + /de/tel-aviv/carmel-market
+- /fr/tel-aviv/florentin + /de/tel-aviv/florentin
+- /fr/tel-aviv/tel-aviv-museum + /de/tel-aviv/tel-aviv-museum
+- /fr/dead-sea/ein-bokek + /de/dead-sea/ein-bokek
+- /fr/dead-sea/masada + /de/dead-sea/masada
+SHA 107ae07. 10 locale pages. 536 pages total. 701/701 e2e pass.

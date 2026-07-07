@@ -6231,3 +6231,8 @@ Gate:
   pnpm test:e2e: 681/681 passed ✓
 Ship: committed c885d41 to master; pushed origin/master. CI in_progress at state-write time. Previous run (c2c788f) CI pattern: all prior runs success; no regression risk (content-only addition).
 Next: iter 348 → BUILD mode (348%5==3 → tools). Tools backlog: check for P1/P2 tools items; likely fall-through to seo-content or i18n Phase 4 Batch 3 if tools backlog thin.
+
+## 2026-07-07 · iter 348 · BUILD (i18n Phase 4 Batch 3)
+What: 5 EN attractions translated into FR+DE — tel-aviv/carmel-market, tel-aviv/florentin, tel-aviv/tel-aviv-museum, dead-sea/ein-bokek, dead-sea/masada (10 locale pages). masada preserves ticketInfo block (priceRange, bookingRecommended, tipText, tiqetsQuery, gygTicketsQuery) in both locales. YAML safety: all FR apostrophes/German typographic quotes in double-quoted strings.
+Gate: pnpm check (0 errors) + pnpm build (536 pages) + pnpm test:e2e (701/701 pass). Squash-merged auto/i18n-phase4-batch3 → master.
+SHA: 107ae07. i18n Phase 4 progress: 19/63 attractions done in FR+DE (24 locale files each).

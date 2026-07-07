@@ -1,13 +1,15 @@
 # LOOP STATE
 
-- iteration: 347
-- lastMode: BUILD (monetization)
-- lastItem: dead-sea-tours-compared — /dead-sea-tours-compared; P2 S monetization; Dead Sea only vs Masada combo vs self-drive comparison; 526 pages; 681/681 tests; SHA c885d41.
-- lastResult: SHIP — guide live, CI in_progress at state-write time (all prior runs success; no regression risk).
-- nextRotationCategory: 348%5==3 → BUILD (tools). 349%5==4 → REVIEW. 350%5==0 → RESEARCH. 351%5==1 → BUILD (seo-content). 352%5==2 → BUILD (monetization or i18n).
+- iteration: 348
+- lastMode: BUILD (i18n Phase 4 Batch 3)
+- lastItem: i18n Phase 4 Batch 3 — Tel Aviv (carmel-market, florentin, tel-aviv-museum) + Dead Sea (ein-bokek, masada) × FR+DE; 10 locale pages; 536 pages; 701/701 tests; SHA 107ae07.
+- lastResult: SHIP — 10 new FR+DE attraction pages live, all gates green.
+- nextRotationCategory: 349%5==4 → REVIEW. 350%5==0 → RESEARCH. 351%5==1 → BUILD (seo-content). 352%5==2 → BUILD (monetization or i18n). 353%5==3 → BUILD (tools).
 - higgsfieldSpent: 0
-- updatedAt: 2026-07-07T01:45Z
+- updatedAt: 2026-07-07T02:50Z
 - branch context: work on master; feature work on auto/<slug>
+
+Notes: iter 348 BUILD (i18n Phase 4 Batch 3) — 5 attractions × FR+DE shipped: tel-aviv-carmel-market, tel-aviv-florentin, tel-aviv-tel-aviv-museum, dead-sea-ein-bokek, dead-sea-masada (10 locale pages). ticketInfo block preserved on masada FR+DE. 536 pages. 701/701 e2e pass. SHA 107ae07. Tools backlog all SHIPPED so fell through to i18n phase 4.
 
 Notes: iter 347 BUILD (monetization) — Dead Sea tours compared shipped. P2 S. Decision-stage money page comparing Dead Sea only guided tours, Masada + Dead Sea combos, self-drive and private guide formats. Comparison table + 4 format sections + Ein Bokek shore guide + 6 FAQs. 3 CTAs: GYG Dead Sea day trip, Viator Masada+Dead Sea combo, Booking Ein Bokek hotels. Cross-links: dead-sea-guide (organised tours paragraph upgraded), masada-dead-sea-day-trip (Plan section +1 link), Footer.astro (+1 li after eilat-tours-compared). 681 tests (+2 from 679).
 
