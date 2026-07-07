@@ -234,6 +234,18 @@ const ROUTES = [
   '/de/tel-aviv/tel-aviv-museum',
   '/de/dead-sea/ein-bokek',
   '/de/dead-sea/masada',
+  '/fr/galilee/capernaum',
+  '/fr/galilee/magdala',
+  '/fr/galilee/mount-of-beatitudes',
+  '/fr/galilee/mount-arbel',
+  '/fr/galilee/tiberias',
+  '/fr/galilee/yardenit',
+  '/de/galilee/capernaum',
+  '/de/galilee/magdala',
+  '/de/galilee/mount-of-beatitudes',
+  '/de/galilee/mount-arbel',
+  '/de/galilee/tiberias',
+  '/de/galilee/yardenit',
 ];
 
 for (const route of ROUTES) {
