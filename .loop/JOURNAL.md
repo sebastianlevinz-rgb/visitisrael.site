@@ -6281,3 +6281,9 @@ What: New guide /israel-photography-guide — P2 seo-content M. Covers 13 photog
 Gate: pnpm check 0 errors; build 537 pages (+1); 702/702 e2e+a11y pass.
 Merge: squash-merged to master SHA 2a1cc53, pushed. CI in_progress at commit time (prior 3 runs all success); deploy expected to succeed based on clean gate.
 Prod: CI in_progress; monitoring — previous 3 runs all success; no revert needed.
+
+## 2026-07-07T06:50Z · iter 352 · BUILD (i18n Phase 4 Batch 4) · galilee-attractions-fr-de
+What: 6 Galilee attractions × FR+DE = 12 new locale pages: capernaum, magdala, mount-of-beatitudes, mount-arbel, tiberias, yardenit. Religious site IDs preserved on capernaum (FR+DE), mount-of-beatitudes (FR+DE), yardenit (FR+DE). smoke.spec.ts + a11y.spec.ts +12 routes each. Recurring YAML bug fixed: DE „…" closing quotation marks inside YAML double-quoted strings must use U+201C (U+201E open, U+201C close) not ASCII U+0022 — affected galilee-magdala.md (FAQ answer) and galilee-mount-of-beatitudes.md (FAQ answer). Both patched via binary replace (python3).
+Gate: pnpm check 0 errors; build 549 pages (+12); 726/726 e2e+a11y pass.
+Merge: squash-merged to master SHA e1a65c0, pushed. CI expected green (all gates clean).
+Prod: deploy triggered; no revert needed based on clean gate.
