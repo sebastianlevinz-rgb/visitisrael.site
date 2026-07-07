@@ -167,6 +167,8 @@ A [car rental](/car-rental-israel) is essential for reaching most trailheads. Th
 
 **With Galilee tours** — If you want a guided overview of the north, see our [Galilee tours comparison](/galilee-tours-compared) for vetted operators covering Galilee and Golan in a single itinerary.
 
+**Compare Golan tours** — Day trip, jeep safari, wine trail or self-drive? Our [Golan Heights tours compared](/golan-heights-tours-compared) guide breaks down every format with honest pricing guidance and tips on how to choose.
+
 **With hiking in Israel** — The Golan is one of the top hiking regions in the country. Our [hiking in Israel guide](/hiking-in-israel) covers the best trails by difficulty and season.
 
 **With day trips from Tel Aviv** — The Golan Heights is a long but manageable day trip from Tel Aviv by car (5+ hours driving total); most visitors combine it with an overnight in Tiberias or a Golan zimmer. See [day trips from Tel Aviv](/day-trips-from-tel-aviv).
