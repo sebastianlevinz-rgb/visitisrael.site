@@ -6236,3 +6236,23 @@ Next: iter 348 → BUILD mode (348%5==3 → tools). Tools backlog: check for P1/
 What: 5 EN attractions translated into FR+DE — tel-aviv/carmel-market, tel-aviv/florentin, tel-aviv/tel-aviv-museum, dead-sea/ein-bokek, dead-sea/masada (10 locale pages). masada preserves ticketInfo block (priceRange, bookingRecommended, tipText, tiqetsQuery, gygTicketsQuery) in both locales. YAML safety: all FR apostrophes/German typographic quotes in double-quoted strings.
 Gate: pnpm check (0 errors) + pnpm build (536 pages) + pnpm test:e2e (701/701 pass). Squash-merged auto/i18n-phase4-batch3 → master.
 SHA: 107ae07. i18n Phase 4 progress: 19/63 attractions done in FR+DE (24 locale files each).
+
+## 2026-07-07T03:50Z · iter 349 · REVIEW · review-349-iters-346-348
+
+Mode: REVIEW (349 % 5 == 4). Audited iters 346–348.
+Items reviewed: jerusalem-mount-zion-guide (iter346), dead-sea-tours-compared (iter347), i18n Phase 4 Batch 3 × FR+DE — 10 locale pages (iter348).
+
+Findings:
+  - de/tel-aviv-carmel-market title: 67 chars > 65 limit → trimmed to 57 ("Carmel-Markt (Shuk HaCarmel): zentraler Lebensmittelmarkt")
+  - All other batch-3 FR+DE titles and descriptions: in-spec
+  - No H1 nodes in any guide body ✓
+  - All locale links correctly prefixed /fr/ and /de/ ✓
+  - Cross-links in jerusalem-mount-zion-guide verified: christian-pilgrimage + 3-days-in-jerusalem both link correctly ✓
+  - Cross-links in dead-sea-tours-compared verified: dead-sea-guide + masada-dead-sea-day-trip both have correct back-links ✓
+  - /dead-sea/ein-gedi link in dead-sea-tours-compared: initially flagged by file-path check — confirmed VALID via attractionSlug() routing logic (dead-sea-ein-gedi.md → /dead-sea/ein-gedi) ✓
+  - Honesty framing: 15 hedges in mount-zion; sinkhole warning + level-decline note in dead-sea-tours-compared ✓
+  - Footer links for mount-zion and dead-sea-tours-compared: present ✓
+
+Gate: pnpm check 0 errors · build 536 pages · test:e2e 701/701 pass. GREEN.
+Ship: fix squash-merged to master → SHA 5e7bae1. Prior iter 348 CI = success.
+Next: iter 350 → RESEARCH (350%5==0). Scan for profitable content gaps.

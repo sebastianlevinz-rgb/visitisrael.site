@@ -1,13 +1,15 @@
 # LOOP STATE
 
-- iteration: 348
-- lastMode: BUILD (i18n Phase 4 Batch 3)
-- lastItem: i18n Phase 4 Batch 3 — Tel Aviv (carmel-market, florentin, tel-aviv-museum) + Dead Sea (ein-bokek, masada) × FR+DE; 10 locale pages; 536 pages; 701/701 tests; SHA 107ae07.
-- lastResult: SHIP — 10 new FR+DE attraction pages live, all gates green.
-- nextRotationCategory: 349%5==4 → REVIEW. 350%5==0 → RESEARCH. 351%5==1 → BUILD (seo-content). 352%5==2 → BUILD (monetization or i18n). 353%5==3 → BUILD (tools).
+- iteration: 349
+- lastMode: REVIEW (iter 349)
+- lastItem: REVIEW iters 346–348 — 1 fix: de/tel-aviv-carmel-market title 67→57 chars; 536 pages; 701/701 tests; SHA 5e7bae1.
+- lastResult: SHIP — title violation fixed and live.
+- nextRotationCategory: 350%5==0 → RESEARCH. 351%5==1 → BUILD (seo-content). 352%5==2 → BUILD (monetization or i18n). 353%5==3 → BUILD (tools). 354%5==4 → REVIEW.
 - higgsfieldSpent: 0
-- updatedAt: 2026-07-07T02:50Z
+- updatedAt: 2026-07-07T03:50Z
 - branch context: work on master; feature work on auto/<slug>
+
+Notes: iter 349 REVIEW — Audited iters 346–348: jerusalem-mount-zion-guide (iter346), dead-sea-tours-compared (iter347), i18n Phase 4 Batch 3 × FR+DE (iter348). One meta violation found: de/tel-aviv-carmel-market title was 67 chars (over 65 limit) — fixed to 57 chars by removing redundant "Tel Avivs " fragment. All other batch-3 FR+DE meta in-spec. No H1 in any guide body. All locale links correctly prefixed. Cross-links in both new EN guides verified valid (15 honesty hedges in mount-zion; /dead-sea/ein-gedi confirmed valid route via attraction slug logic). Regex lesson: checking for file existence at path /dead-sea/ein-gedi gives false-positive because routing strips region prefix from filename (dead-sea-ein-gedi.md → /dead-sea/ein-gedi). Always verify with attractionSlug() logic, not raw path check. Gate green 536 pages 701/701 tests. SHA 5e7bae1.
 
 Notes: iter 348 BUILD (i18n Phase 4 Batch 3) — 5 attractions × FR+DE shipped: tel-aviv-carmel-market, tel-aviv-florentin, tel-aviv-tel-aviv-museum, dead-sea-ein-bokek, dead-sea-masada (10 locale pages). ticketInfo block preserved on masada FR+DE. 536 pages. 701/701 e2e pass. SHA 107ae07. Tools backlog all SHIPPED so fell through to i18n phase 4.
 
