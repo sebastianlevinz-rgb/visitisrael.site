@@ -1,6 +1,6 @@
 ---
 title: 'Yam Caesarea Marine National Park: Israel''s First Marine NP Guide'
-description: 'Yam Caesarea Marine National Park guide: Israel''s first marine national park, submerged Herodian harbour, snorkeling routes, and how to visit from Tel Aviv or Haifa.'
+description: 'Yam Caesarea Marine National Park guide: Israel''s first marine national park, submerged Herodian harbour, snorkeling routes, and how to visit.'
 heroImage: /images/regions/caesarea/hero.jpg
 category: Destinations
 updatedAt: 2026-07-07
