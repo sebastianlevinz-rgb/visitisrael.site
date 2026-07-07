@@ -1,12 +1,12 @@
 # LOOP STATE
 
-- iteration: 354
-- lastMode: REVIEW (iter 354 — audited iters 351–353; found 12 SEO meta violations in i18n Phase 4 Batch 4 Galilee attractions FR+DE; fixed all)
-- lastItem: review-354-i18n-batch4-meta-trim — 10 title/desc violations in 6 Galilee attraction locale files (FR+DE): capernaum-de, magdala-fr+de, mount-of-beatitudes-fr+de, mount-arbel-fr+de, tiberias-fr, yardenit-fr+de. All trimmed to ≤65c title / ≤160c desc. EN guides (photography-guide, accessible-travel) clean — no H1, valid links, all meta in-spec.
-- lastResult: shipped → SHA 597b0f5
-- nextRotationCategory: 355%5==0 → RESEARCH. 356%5==1 → BUILD (seo-content). 357%5==2 → BUILD (monetization or i18n Phase 4 Batch 5). 358%5==3 → BUILD (tools or fall-through). 359%5==4 → REVIEW.
+- iteration: 355
+- lastMode: RESEARCH (iter 355 — scanned backlog vs 175 shipped guides vs competitors; 7 genuinely new gaps found after exhaustive de-dup of ~238 P-tagged items)
+- lastItem: research-355 — 7 net-new backlog items: jericho-guide (P2 M), israel-dark-tourism (P2 S), ashkelon-guide (P2 M), circassian-villages-israel (P3 S), tel-afek-guide (P2 S), beit-jala-guide (P3 S), samaritan-community-israel (P3 S). No code shipped.
+- lastResult: no-ship (RESEARCH mode; .loop/ files committed and pushed)
+- nextRotationCategory: 356%5==1 → BUILD (seo-content or i18n Phase 4 Batch 5). 357%5==2 → BUILD (monetization). 358%5==3 → BUILD (tools or fall-through). 359%5==4 → REVIEW. 360%5==0 → RESEARCH.
 - higgsfieldSpent: 0
-- updatedAt: 2026-07-07T08:45Z
+- updatedAt: 2026-07-07T09:30Z
 - branch context: work on master; feature work on auto/<slug>
 
 Notes: iter 351 BUILD (seo-content) — israel-photography-guide shipped. P2 M seo-content. New guide /israel-photography-guide covering 13 photography locations in 4 categories: sunrise (Masada summit, Dead Sea shore, Mount of Olives); golden-hour/sunset (Caesarea Aqueduct, Jaffa port, TLV Tayelet, Mitzpe Ramon); cultural/architectural (Bahá'í Gardens Haifa, Akko Crusader city, Red Canyon Eilat, Jerusalem Old City); season table + etiquette section. No fabricated prices/ratings/reviews. Religious site etiquette sourced from existing guides (church-holy-sepulchre-guide.md, bar-bat-mitzvah-israel.md). 3 affiliate CTAs: GYG Masada sunrise tour, GYG Jerusalem/Jaffa photo walks, Booking. Cross-links: caesarea-guide.md (aqueduct paragraph +1 link), day-trips-from-haifa.md (Rosh Hanikra bullet +1 link). Footer.astro +1 li (Best photo spots in Israel). Smoke +1 (/israel-photography-guide). CI in_progress at commit time (prior 3 runs: success/success/success). 537 pages; 702/702 e2e pass.

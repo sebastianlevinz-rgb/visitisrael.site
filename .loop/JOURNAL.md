@@ -6321,3 +6321,22 @@ Items reviewed:
 Gate: pnpm check 0 errors · build 550 pages · test:e2e 727/727 pass. GREEN.
 Ship: squash-merged to master SHA 597b0f5, pushed. CI in_progress at state-write time; prior iter 353 CI pattern: all recent runs success; no revert risk (meta-only change).
 Next: iter 355 → RESEARCH mode (355%5==0). Scan for new content gaps.
+
+## 2026-07-07T09:30Z · iter 355 · RESEARCH · research-355
+
+Mode: RESEARCH (355 % 5 == 0).
+Method: Python3 regex cross-checks of full BACKLOG.md (~910KB, 238 P-tagged items) + DONE.md + all 175 guide files in src/content/guides/ directory. Candidate topics verified with targeted P-item grep before acceptance. ~25+ candidates checked and rejected as already in backlog or done before landing 7 new items.
+
+Items added to BACKLOG.md ([iter355 research] tags):
+  1. [P2] (seo-content+monetization, M) /jericho-guide — standalone Jericho destination guide; distinct from SHIPPED jericho-day-trip-from-jerusalem.md; Tell es-Sultan + Mount of Temptation cable car + Hisham's Palace mosaic + Zacchaeus' Sycamore Tree; Area A West Bank access (foreign tourists free, Israeli citizens cannot enter); elijahtours.com/complete-jericho-guide ranks well for target queries
+  2. [P2] (seo-content, S) /israel-dark-tourism — thematic hub for Israel memorial/difficult-heritage circuit beyond Yad Vashem; Atlit Detainee Camp (British Mandate; near Haifa), Ghetto Fighters' House Museum (Galilee; only Holocaust museum outside Jerusalem), Ammunition Hill (1967 Six-Day War trenches), Akko Prison, Latrun; dark-tourism.com has Israel section that ranks
+  3. [P2] (seo-content+monetization, M) /ashkelon-guide — largest Israeli coastal city with zero site coverage; Ashkelon National Park (oldest surviving arched gate in world 1800 BCE + world's largest ancient dog cemetery); Philistine pentapolis site; 3km beaches; 20km from Gaza requires is-israel-safe.md framing; LP/Rough Guides/touristisrael.com all have standalone guides
+  4. [P3] (seo-content, S) /circassian-villages-israel — Kfar Kama (Galilee) + Reyhaniye (north); only IDF-serving Muslim minority in Israel; Adyghe culture, food, Nowruz; zero English travel guide coverage anywhere
+  5. [P2] (seo-content+monetization, S) /tel-afek-guide — INPA national park 40km from TLV; Ottoman fortress (Binar Bashi, 1571 — best preserved in region); biblical Aphek + Roman Antipatris (Acts 23:31 Paul's route); source of Yarkon River; bird observatory; INPA pass valid; zero competitor English guide
+  6. [P3] (seo-content+monetization, S) /beit-jala-guide — Cremisan Winery (Salesian monks, 1885; ~400k bottles/year; Hamdani + Jandali indigenous Palestinian grapes); hilltop views to Jerusalem; Area A West Bank; distinct from israel-wine-wineries.md (Israeli producers); touristisrael.com/cremisan ranks for target queries
+  7. [P3] (seo-content, S) /samaritan-community-israel — Samaritan people (~840 worldwide); Kiryat Luza village on Mount Gerizim (Area B); Passover sheep sacrifice ceremony unique in world; distinct from "Good Samaritan" parable; zero prior coverage anywhere on site
+
+Rejected/de-duped (notable): Yarkon Park (DONE cycling cross-ref), Coral World Eilat (cross-ref in diving item — deferred), Nazareth Village museum (DONE cross-ref), Beit She'arim necropolis (already P-tagged in backlog), all of initial 7 research candidates (yom-haatzmaut, incense-route, tel-aviv-museums, nazareth-food, wine-harvest — all confirmed in backlog from earlier iters).
+
+Ship: no code shipped (RESEARCH mode). .loop/ files updated and committed.
+Next: iter 356 → BUILD mode (356%5==1 → seo-content category or i18n Phase 4 Batch 5).
