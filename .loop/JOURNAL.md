@@ -6293,3 +6293,31 @@ What: New guide /israel-accessible-travel — P2 seo-content M. Accessible Trave
 Gate: pnpm check 0 errors; build 550 pages (+1); 727/727 e2e+a11y pass.
 Merge: committed to master SHA 5558a87, pushed. CI in_progress at commit time.
 Prod: deploy triggered; CI in_progress — prior 3 runs all success; no revert triggered.
+
+## 2026-07-07T08:45Z · iter 354 · REVIEW · review-354-i18n-batch4-meta-trim
+
+Mode: REVIEW (354 % 5 == 4). Audited iters 351–353.
+Items reviewed:
+  - israel-photography-guide (iter 351): title 47c ✓, desc 160c ✓, no H1 ✓, 14 internal links valid ✓
+  - israel-accessible-travel (iter 353): title 56c ✓, desc 156c ✓, no H1 ✓, 18 internal links valid ✓
+  - i18n Phase 4 Batch 4 × FR+DE (iter 352): 12 SEO meta violations found in 6 Galilee attractions:
+
+  Violations found and fixed:
+    de/galilee-capernaum: desc 174→141c (removed dangling "mit dem Berg der Seligpreisungen")
+    fr/galilee-magdala: title 76→52c + desc 169→149c (streamlined "ville de Marie-Madeleine et fouilles de" → "Marie-Madeleine et")
+    de/galilee-magdala: title 71→57c ("Synagogengrabung aus dem 1. Jh." → "Synagoge (1. Jh.)")
+    fr/galilee-mount-of-beatitudes: desc 176→150c (tightened phrasing)
+    de/galilee-mount-of-beatitudes: desc 177→127c (condensed significantly)
+    fr/galilee-mount-arbel: title 73→56c + desc 183→136c (removed redundant "lac de Tibériade" echo)
+    de/galilee-mount-arbel: desc 167→132c (removed Schwierigkeitsgrad + Kombination mit Tiberias)
+    fr/galilee-tiberias: desc 176→153c (shortened phrasing)
+    fr/galilee-yardenit: desc 172→139c (removed "visites combinées")
+    de/galilee-yardenit: desc 170→146c (removed "Kombinationstouren")
+
+  H1 in body: NONE in any file ✓
+  Locale link prefixes: all FR/DE links use /fr/ and /de/ correctly ✓
+  Honesty framing: intact ✓
+
+Gate: pnpm check 0 errors · build 550 pages · test:e2e 727/727 pass. GREEN.
+Ship: squash-merged to master SHA 597b0f5, pushed. CI in_progress at state-write time; prior iter 353 CI pattern: all recent runs success; no revert risk (meta-only change).
+Next: iter 355 → RESEARCH mode (355%5==0). Scan for new content gaps.

@@ -1,12 +1,12 @@
 # LOOP STATE
 
-- iteration: 353
-- lastMode: BUILD (seo-content, iter 353 — tools category empty, fell through)
-- lastItem: israel-accessible-travel — Accessible Travel in Israel: Wheelchair & Mobility Guide. Site-by-site mobility coverage, adapted transport, beach wheelchairs, org directory. 3 CTAs. Cross-link in seniors guide + Footer. 550 pages, 727/727 e2e.
-- lastResult: shipped → SHA 5558a87
-- nextRotationCategory: 354%5==4 → REVIEW. 355%5==0 → RESEARCH. 356%5==1 → BUILD (seo-content). 357%5==2 → BUILD (monetization or i18n Phase 4 Batch 5). 358%5==3 → BUILD (tools or fall-through).
+- iteration: 354
+- lastMode: REVIEW (iter 354 — audited iters 351–353; found 12 SEO meta violations in i18n Phase 4 Batch 4 Galilee attractions FR+DE; fixed all)
+- lastItem: review-354-i18n-batch4-meta-trim — 10 title/desc violations in 6 Galilee attraction locale files (FR+DE): capernaum-de, magdala-fr+de, mount-of-beatitudes-fr+de, mount-arbel-fr+de, tiberias-fr, yardenit-fr+de. All trimmed to ≤65c title / ≤160c desc. EN guides (photography-guide, accessible-travel) clean — no H1, valid links, all meta in-spec.
+- lastResult: shipped → SHA 597b0f5
+- nextRotationCategory: 355%5==0 → RESEARCH. 356%5==1 → BUILD (seo-content). 357%5==2 → BUILD (monetization or i18n Phase 4 Batch 5). 358%5==3 → BUILD (tools or fall-through). 359%5==4 → REVIEW.
 - higgsfieldSpent: 0
-- updatedAt: 2026-07-07T07:38Z
+- updatedAt: 2026-07-07T08:45Z
 - branch context: work on master; feature work on auto/<slug>
 
 Notes: iter 351 BUILD (seo-content) — israel-photography-guide shipped. P2 M seo-content. New guide /israel-photography-guide covering 13 photography locations in 4 categories: sunrise (Masada summit, Dead Sea shore, Mount of Olives); golden-hour/sunset (Caesarea Aqueduct, Jaffa port, TLV Tayelet, Mitzpe Ramon); cultural/architectural (Bahá'í Gardens Haifa, Akko Crusader city, Red Canyon Eilat, Jerusalem Old City); season table + etiquette section. No fabricated prices/ratings/reviews. Religious site etiquette sourced from existing guides (church-holy-sepulchre-guide.md, bar-bat-mitzvah-israel.md). 3 affiliate CTAs: GYG Masada sunrise tour, GYG Jerusalem/Jaffa photo walks, Booking. Cross-links: caesarea-guide.md (aqueduct paragraph +1 link), day-trips-from-haifa.md (Rosh Hanikra bullet +1 link). Footer.astro +1 li (Best photo spots in Israel). Smoke +1 (/israel-photography-guide). CI in_progress at commit time (prior 3 runs: success/success/success). 537 pages; 702/702 e2e pass.
