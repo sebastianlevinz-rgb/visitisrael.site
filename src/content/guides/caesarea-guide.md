@@ -69,7 +69,7 @@ The 12th-century **Crusader gatehouse** is one of the best-preserved in Israel �
 
 Ten minutes north of the National Park entrance (follow the coast road), the **[Aqueduct Beach](/caesarea/aqueduct-beach)** is the most photogenic spot in Caesarea. The intact Roman aqueduct — which supplied fresh water to the city from springs 15 kilometres north on Mount Carmel — runs along the coast for almost two kilometres, the arches marching into the Mediterranean surf. There is free swimming on the sandy beach below. No park entry fee for the beach itself.
 
-The aqueduct is best photographed in morning light when the low sun casts long shadows through the arches. The beach itself is usable year-round — winters are mild, summers are warm. Bring your own towels and sun cover; the beach has no shade or facilities beyond a small seasonal kiosk.
+The aqueduct is best photographed in morning light when the low sun casts long shadows through the arches. The beach itself is usable year-round — winters are mild, summers are warm. Bring your own towels and sun cover; the beach has no shade or facilities beyond a small seasonal kiosk. See the [Israel photography guide](/israel-photography-guide) for timing and framing tips alongside Israel's other top photo locations.
 
 ---
 

@@ -327,6 +327,7 @@ const ROUTES = [
   '/gamla-nature-reserve-guide',
   '/jerusalem-mount-zion-guide',
   '/mitzpe-ramon-guide',
+  '/israel-photography-guide',
   '/fr/jerusalem',
   '/fr/tel-aviv',
   '/fr/dead-sea',
