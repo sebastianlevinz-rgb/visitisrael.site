@@ -6414,3 +6414,23 @@ Rejected/de-duped (notable candidates checked and rejected): Timna Park (P2 conf
 
 Ship: no code shipped (RESEARCH mode). .loop/ files updated (BACKLOG + COMPETITORS + STATE + JOURNAL) and will be committed.
 Next: iter 361 → BUILD mode (361%5==1 → seo-content category; highest-priority P2 S seo-content item = jericho-guide OR ashkelon-guide OR red-canyon-eilat).
+
+## 2026-07-07T15:45Z · iter 361 · BUILD (seo-content) · red-canyon-eilat
+
+Mode: BUILD (361%5==1 → seo-content). Highest-priority P2 S seo-content item from BACKLOG.
+
+Item: /red-canyon-eilat — standalone visitor guide for the free slot canyon hike 20 km northwest of Eilat on Highway 12 in the Eilat Mountains.
+
+What: New guide page `src/content/guides/red-canyon-eilat.md`. Content: Nubian sandstone geology (Precambrian Arabo-Nubian Shield, iron-oxide/haematite colouration, flash-flood formation), full 3-waypoint trail description (approach → first narrows → second narrows), practical table (free entry, 2 km circuit, 1.5–2 hr, metal rungs, age 8+), flash flood safety protocol (ims.gov.il check mandatory; fatalities have occurred; no-go rule on any rain forecast), bus access (Egged 392 from Eilat Central Bus Station ~25 min), combination itineraries (Red Canyon + Timna Park; Red Canyon + Hai Bar Yotvata), gear list. 4 FAQs (children suitability age 8+; bus access without car; best season Oct–Apr; flash flood full protocol). 2 affiliate CTAs (DiscoverCars, GYG Eilat jeep safari). verdictName/verdictQuery set.
+
+Cross-links updated:
+- eilat-travel-guide.md: new Red Canyon paragraph in Day Trips section (guide link to /red-canyon-eilat)
+- hiking-in-israel.md: Red Canyon row in day-hikes table; Eilat Mountains section blurb upgraded with Red Canyon mention
+- water-hiking-israel.md: Red Canyon note added in 'Combining' section with honest framing (dry canyon, not a water hike)
+- israel-photography-guide.md: link updated from /eilat-travel-guide → /red-canyon-eilat
+
+Note: eilat-diving-snorkeling.md and eilat-tours-compared.md already had /eilat/red-canyon links (attraction path) — left intact as those refer to a different route target; standalone guide path is /red-canyon-eilat.
+
+Gate: pnpm check 0 errors; pnpm build 563 pages (+1 from 562); pnpm test:e2e 752/752 pass (+2 from 750).
+Ship: squash-merged to master e5a878e, pushed 2026-07-07T15:45Z. Branch auto/red-canyon-eilat deleted. CI in_progress at push time.
+Next: iter 362 → BUILD (monetization; 362%5==2).
