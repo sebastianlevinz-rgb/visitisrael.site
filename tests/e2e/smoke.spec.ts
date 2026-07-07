@@ -403,6 +403,16 @@ const ROUTES = [
   '/de/galilee/mount-arbel',
   '/de/galilee/tiberias',
   '/de/galilee/yardenit',
+  '/fr/haifa/bahai-gardens',
+  '/fr/haifa/carmel-national-park',
+  '/fr/haifa/german-colony',
+  '/fr/haifa/stella-maris',
+  '/fr/haifa/wadi-nisnas',
+  '/de/haifa/bahai-gardens',
+  '/de/haifa/carmel-national-park',
+  '/de/haifa/german-colony',
+  '/de/haifa/stella-maris',
+  '/de/haifa/wadi-nisnas',
 ];
 
 for (const route of ROUTES) {
