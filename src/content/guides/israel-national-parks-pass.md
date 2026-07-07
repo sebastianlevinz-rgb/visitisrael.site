@@ -89,7 +89,7 @@ The INPA manages over 63 nature reserves and archaeological parks across the cou
 - Beit Guvrin / Maresha caves (UNESCO World Heritage cave network)
 
 **Coastal & central**
-- [Caesarea](/caesarea) National Park (Herodian harbour city)
+- [Caesarea](/caesarea) National Park (Herodian harbour city); [Yam Caesarea Marine National Park](/yam-caesarea-guide) (Israel's first marine NP, designated Nov 2024 — land-side entry covered; snorkel/dive operator fee is separate)
 - [Tel Afek National Park](/tel-afek-guide) (Antipatris — Canaanite, Roman & Ottoman ruins; Yarkon springs; 40 km from Tel Aviv)
 - Apollonia National Park (Crusader fortress north of Tel Aviv)
 - Ashkelon National Park
