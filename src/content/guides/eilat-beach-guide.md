@@ -118,4 +118,4 @@ For budget travellers spending several days: combine all three — Almog Beach f
 
 **Combining with the Red Canyon:** If you are renting a car to reach Coral Beach, the [Red Canyon in Eilat](/red-canyon-eilat) is an easy add-on — the trailhead is 30 minutes further south in the Negev hills and is free to enter. A morning at Coral Beach followed by a Red Canyon hike before late afternoon heat is a well-tested combination.
 
-For accommodation close to the beach, the [Eilat hotels guide](/eilat-hotels-guide) covers the full range from North Beach resort strip to budget city-centre options. For a comparison of all Israel's best beaches, see [Best Beaches in Israel](/best-beaches-israel).
+For accommodation close to the beach, the [Eilat hotels guide](/eilat-hotels-guide) covers the full range from North Beach resort strip to budget city-centre options. For a comparison of all Israel's best beaches, see [Best Beaches in Israel](/best-beaches-israel). For excursions beyond the Eilat beaches — Timna Park, the Red Canyon, Petra Jordan and Aqaba — see the [Day trips from Eilat guide](/day-trips-from-eilat).

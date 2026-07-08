@@ -101,4 +101,4 @@ For a more in-depth comparison of the Eilat route versus entering from Amman —
 - **Families with young children:** **glass-bottom boat tour** (no swim needed) + a stop at [Dolphin Reef](/eilat/dolphin-reef) for the afternoon.
 - **The signature Israel–Jordan combo:** a **Petra day trip** — exhausting but unforgettable; consider an overnight if you can spare a second day.
 
-For a wider view of Israel's guided tours, see our [best tours in Israel guide](/best-tours-in-israel). If you are visiting Petra and comparing routes, the [Petra from Eilat vs from Amman guide](/petra-from-eilat-vs-amman) covers every practical consideration.
+For a wider view of Israel's guided tours, see our [best tours in Israel guide](/best-tours-in-israel). If you are visiting Petra and comparing routes, the [Petra from Eilat vs from Amman guide](/petra-from-eilat-vs-amman) covers every practical consideration. For a full hub comparing all Eilat day trips — self-drive options, cross-border excursions and water activities — with a comparison table and seasonal planning, see the [Day trips from Eilat guide](/day-trips-from-eilat).

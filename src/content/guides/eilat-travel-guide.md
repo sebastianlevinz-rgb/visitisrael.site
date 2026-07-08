@@ -163,4 +163,4 @@ The overall hotel tier range in Eilat: budget guesthouses ₪350–600/night; mi
 
 ---
 
-For a detailed comparison of Eilat's guided tour options — Red Sea snorkeling, glass-bottom boat, jeep safaris, diving courses and Petra day trips — with honest price ranges and what each delivers, see our [Eilat tours compared guide](/eilat-tours-compared). For the full Red Sea diving and snorkeling breakdown, see the [Eilat diving and snorkeling guide](/eilat-diving-snorkeling).
+For a complete rundown of every Eilat excursion — Timna, Red Canyon, Petra, Aqaba, glass-bottom boat, Dolphin Reef and Coral Beach — with a comparison table and summer heat planning, see our [Day trips from Eilat guide](/day-trips-from-eilat). For a detailed comparison of Eilat's guided tour options — Red Sea snorkeling, glass-bottom boat, jeep safaris, diving courses and Petra day trips — with honest price ranges and what each delivers, see our [Eilat tours compared guide](/eilat-tours-compared). For the full Red Sea diving and snorkeling breakdown, see the [Eilat diving and snorkeling guide](/eilat-diving-snorkeling).

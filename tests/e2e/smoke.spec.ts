@@ -292,6 +292,7 @@ const ROUTES = [
   '/layover-jerusalem',
   '/eilat-travel-guide',
   '/eilat-beach-guide',
+  '/day-trips-from-eilat',
   '/ein-gedi-guide',
   '/israel-with-teenagers',
   '/israel-craft-beer',
