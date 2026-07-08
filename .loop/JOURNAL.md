@@ -6568,3 +6568,19 @@ What: New /best-hotels-tiberias — Sea of Galilee where-to-stay guide (P2 M mon
 Gate: pnpm check 0 errors; pnpm build 579 pages (+1); pnpm test:e2e 776/776 pass (+2 — /best-hotels-tiberias added to smoke.spec.ts + a11y.spec.ts).
 Merge: squash-merged to master SHA a6bdbf1, pushed origin/master.
 Prod: CI + Lighthouse in_progress at push time (consistent with all prior iterations).
+
+## 2026-07-08T03:55Z · iter 373 · BUILD (tools fall-through → i18n Phase 4 Batch 7) · akko attractions FR+DE
+
+What: 5 Akko attractions × FR+DE (10 locale pages). Tools category fully exhausted (all 11 tools shipped); technical also empty; fell through to i18n per playbook rule. Akko cluster chosen (5 items = natural batch size; bahai-mansion has religiousSiteId precedent from Batch 5 haifa-bahai-gardens).
+
+Pages shipped:
+- `/fr/akko/bahai-mansion` + `/de/akko/bahai-mansion` — Mazra'a Shrine / Bahá'í Mansion of Bahjí; religiousSiteId: bahai-mansion preserved; visitor protocol (modest dress, no-pilgrim-photo rule, limited hours, pilgrimage-peak caveat); 5 FAQs each
+- `/fr/akko/hospitaller-knights` + `/de/akko/hospitaller-knights` — Knights Hospitaller Halls; medical-order history; 90-min circuit; combined-ticket logistics; Hospitaller vs Templar distinction; 5 FAQs each
+- `/fr/akko/khan-al-umdan` + `/de/akko/khan-al-umdan` — Khan al-Umdan Ottoman caravanserai 1785 + 1906 clock tower; caravanserai explanation; al-Jazzar rebuilding programme; DE YAML bug fixed (German „..." inner quotes inside YAML double-quoted string at line 12:43 → FAQ reworded to remove all inner ASCII `"` characters; recurring lesson iters 137/142/147/343/348/358/368); 5 FAQs each
+- `/fr/akko/old-city` + `/de/akko/old-city` — Akko Old City UNESCO WHS; stratigraphic intactness (Crusader layer buried intact under Ottoman); souq character; Hummus Said institution; Ottoman rampart circuit; coexistence patterns (Shabbat Saturday market); 5 FAQs each
+- `/fr/akko/templar-tunnel` + `/de/akko/templar-tunnel` — Templar Tunnel; 1994 accidental rediscovery during sewer inspection; military-engineering purpose (4 reasons); 1312 suppression; claustrophobia note (2.5m × 2m, well-lit, good airflow); 5 FAQs each
+
+smoke.spec.ts + a11y.spec.ts +10 routes each.
+Gate: pnpm check 0 errors · pnpm build 589 pages (+10 from 579) · pnpm test:e2e 796/796 pass (+20 from 776).
+Merge: squash-merged to master SHA c212fa5, pushed origin/master.
+Prod: CI + Lighthouse in_progress at push time (consistent with all prior iterations).

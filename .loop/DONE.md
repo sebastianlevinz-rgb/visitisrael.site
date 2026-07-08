@@ -720,3 +720,12 @@ New /jerusalem-pilgrimage-road: first English editorial guide for the 600-metre 
 
 ## iter372 — best-hotels-tiberias · SHA a6bdbf1
 /best-hotels-tiberias — Sea of Galilee where-to-stay money page. Scots Hotel (5-star, Church of Scotland mission hospital), U Boutique Kinneret (4-star), Nof Ginosar Kibbutz (3-star, lake beach + Jesus Boat Museum), Leonardo Club (4-star, all-inclusive), Ein Gev (east shore). Decision matrix, booking context, Shabbat note. Booking.com + GYG CTAs. 6 FAQs. Cross-links: tiberias-guide, sea-of-galilee-guide, galilee-tours-compared. 579 pages, 776 e2e.
+
+## iter 373 · i18n Phase 4 Batch 7 · SHA c212fa5 · 2026-07-08
+**5 Akko attractions × FR+DE (10 locale pages)**
+- `/fr/akko/bahai-mansion` + `/de/akko/bahai-mansion` — Mazra'a Shrine / Bahá'í Mansion of Bahjí; religiousSiteId preserved; visitor protocol + no-pilgrim-photo rule + pilgrimage-peak caveat
+- `/fr/akko/hospitaller-knights` + `/de/akko/hospitaller-knights` — Knights Hospitaller Halls; medical-order history; 90-min circuit; Hospitaller vs Templar distinction
+- `/fr/akko/khan-al-umdan` + `/de/akko/khan-al-umdan` — Khan al-Umdan caravanserai 1785 + 1906 clock tower; DE YAML typographic-quote bug fixed (FAQ reworded to remove inner ASCII `"`)
+- `/fr/akko/old-city` + `/de/akko/old-city` — Akko Old City UNESCO WHS; stratigraphic intactness; coexistence patterns; Hummus Said; rampart circuit
+- `/fr/akko/templar-tunnel` + `/de/akko/templar-tunnel` — Templar Tunnel 1994 rediscovery; military-engineering purpose; claustrophobia note
+smoke.spec.ts + a11y.spec.ts +10 routes each. Gate: 0 check errors · 589 pages (+10) · 796/796 e2e (+20). Phase 4 Akko attractions COMPLETE (5/5).
