@@ -6629,3 +6629,19 @@ Tests: +1 route each smoke.spec.ts + a11y.spec.ts (/western-galilee-guide).
 Gate: pnpm check 0 errors · pnpm build 591 pages (+1 from 590) · pnpm test:e2e 800/800 pass (+2 from 798).
 Merge: squash-merged to master SHA 5064347, pushed origin/master.
 Prod: CI in_progress at push time.
+
+## 2026-07-08T08:46Z · iter 378 · BUILD (tools/i18n) · i18n-p4-batch8-caesarea
+
+Mode: BUILD (378%5==3 → tools/i18n; tools all shipped → fell through to i18n Phase 4 Batch 8).
+What: 4 Caesarea attractions translated into French and German (8 locale pages):
+  FR: caesarea/aqueduct-beach, caesarea/harbour, caesarea/national-park (ticketInfo preserved), caesarea/ralli-museum
+  DE: caesarea/aqueduct-beach, caesarea/harbour, caesarea/national-park (ticketInfo preserved), caesarea/ralli-museum
+Content notes: Aqueduct (Hadrian ~130 CE, double-channel, free beach, sunset photography);
+Harbour (Sebastos, first artificial deep-water port, hydraulic concrete/pozzolana, Time Trek, seasonal snorkel);
+National Park (UNESCO 2010, 6 historical layers, Roman Theatre ~4000 seats, combined ticket ~₪50);
+Ralli Museum (Harry Recanati, Dalí+Miró+Latin American Surrealism, free entry, Sat–Thu 10:30–15:00).
+ticketInfo on caesarea-national-park.md preserved in FR+DE. No religious/contested-site content.
+smoke.spec.ts + a11y.spec.ts +8 routes each.
+Gate: 0 check errors · build 599 pages (+8 from 591) · 816/816 e2e+a11y pass (+16 from 800).
+Merge: squash-merged to master SHA 321c68a, pushed origin/master.
+Prod: CI in_progress at push time.
