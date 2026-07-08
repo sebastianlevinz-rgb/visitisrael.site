@@ -234,6 +234,7 @@ const ROUTES = [
   '/fr/israel-evening-activities',
   '/de/israel-evening-activities',
   '/tel-aviv-carmel-market',
+  '/sarona-market-tel-aviv',
   '/tel-aviv-neighborhoods-guide',
   '/israel-evening-activities',
   '/1-day-jerusalem-itinerary',

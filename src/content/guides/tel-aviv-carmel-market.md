@@ -117,7 +117,7 @@ At the northern tip of the market block, a converted warehouse space houses what
 
 ## Plan your visit
 
-Combine the market with the [Tel Aviv food guide](/tel-aviv-food-guide) for the city's broader eating scene — sit-down restaurants, neighbourhood-by-neighbourhood. The [Israeli street food guide](/israeli-street-food-guide) covers the specific dishes in more depth across all cities.
+Combine the market with the [Tel Aviv food guide](/tel-aviv-food-guide) for the city's broader eating scene — sit-down restaurants, neighbourhood-by-neighbourhood. The [Israeli street food guide](/israeli-street-food-guide) covers the specific dishes in more depth across all cities. For a complete contrast — curated, all-weather, premium — [Sarona Market](/sarona-market-tel-aviv) is a 15-minute walk or cab ride away and pairs well with a Carmel Market morning.
 
 Immediately south of the Carmel Market's Allenby entrance is [Kerem HaTeimanim](/kerem-hateimanim-tel-aviv) — Tel Aviv's Yemenite Quarter — where jachnun, malawach and lachuch are served from family-run kitchens in whitewashed lanes. A natural extension of any Carmel Market morning.
 

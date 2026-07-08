@@ -41,7 +41,7 @@ The heart of Tel Aviv food culture is its markets:
 
 - **[Carmel Market (Shuk HaCarmel)](/tel-aviv-carmel-market)** — the big one: produce, spices, bakeries and a growing strip of street-food stalls and bars. See the [complete Carmel Market guide](/tel-aviv-carmel-market).
 - **Levinsky Market** — the spice-and-deli district, now lined with superb small eateries.
-- **Sarona Market** — a polished indoor food hall for a rainy day or a sit-down graze.
+- **[Sarona Market](/sarona-market-tel-aviv)** — a polished indoor food hall in a German Templar colony, best for all-weather visits and sit-down dining. See the [Sarona Market guide](/sarona-market-tel-aviv).
 
 A guided **food tour** (above) is the fastest way to eat the highlights with context — most weave through Carmel Market and [Old Jaffa](/tel-aviv/old-jaffa).
 
