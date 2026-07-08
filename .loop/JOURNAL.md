@@ -6620,3 +6620,12 @@ Tests: +1 route to smoke.spec.ts ROUTES + a11y.spec.ts ROUTES (/tabgha-church-gu
 Gate: pnpm check 0 errors · pnpm build 590 pages (+1 from 589) · pnpm test:e2e 798/798 pass (+2 from 796).
 Merge: committed directly to master SHA 8a36764, pushed origin/master.
 Prod: CI + Lighthouse in_progress at push time (consistent with all prior iterations).
+
+## 2026-07-08T07:45Z · iter 377 · BUILD (monetization) · western-galilee-guide
+What: BUILD pass (377%5==2, monetization rotation). Chose western-galilee-guide (P2 M seo-content+monetization) — fills the gap between akko-acre-guide.md and rosh-hanikra (BACKLOG) with the cluster of lesser-visited Western Galilee sites. Bein Harim/Tourist Israel/Abraham Tours all rank for "Western Galilee tour" with zero dedicated editorial competition on site.
+What shipped: New /western-galilee-guide — 6-site touring guide: Lohamei HaGeta'ot Holocaust museum (kibbutz of Warsaw Ghetto Uprising survivors, founded 1949, free entry, 10km north of Akko; Yad Layeled children's wing; gfh.org.il for group bookings); Beit She'arim UNESCO necropolis (2nd-4th century CE Jewish catacombs + Sanhedrin seat, INPA pass valid, dark/narrow — bring torch); Montfort Castle (Teutonic Knights 1229 CE, Baybars captured 1271, 2-3h hike from Hila, no facilities); Nahal Kziv water hike (Oct-May spring-fed gorge, swimming pools, flash-flood warning); Peqi'in village (continuous Jewish settlement since 70 CE claimed, Druze+Maronite+Christian+Jewish coexistence, Bar Yochai cave synagogue, women's Druze pita cooperative); Achzivland (Eli Avivi 1970s eccentric breakaway, 30min detour, call ahead). Half-day itinerary (train-accessible: Lohamei HaGeta'ot + Akko) and full-day Haifa circuit with drive-time table. Hill+village day option (Peqi'in + Montfort + Nahal Kziv). 3 affiliate CTAs (GYG Western Galilee tours, Viator private tour, DiscoverCars car hire).
+Cross-links: akko-acre-guide.md (new "Extending north" paragraph in Practical info section); day-trips-from-haifa.md (Western Galilee link in car rental paragraph).
+Tests: +1 route each smoke.spec.ts + a11y.spec.ts (/western-galilee-guide).
+Gate: pnpm check 0 errors · pnpm build 591 pages (+1 from 590) · pnpm test:e2e 800/800 pass (+2 from 798).
+Merge: squash-merged to master SHA 5064347, pushed origin/master.
+Prod: CI in_progress at push time.
