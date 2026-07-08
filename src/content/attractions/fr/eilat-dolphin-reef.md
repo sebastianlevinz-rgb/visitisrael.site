@@ -1,7 +1,7 @@
 ---
 lang: fr
 title: "Dolphin Reef Eilat : sanctuaire marin interactif"
-description: "Visitez le Dolphin Reef à Eilat — dauphins souffleurs en enclos semi-ouvert en mer Rouge, nages avec les dauphins, piscines flottantes de relaxation et plage tranquille."
+description: "Dolphin Reef Eilat — dauphins souffleurs en mer Rouge, baignade avec dauphins, piscines flottantes et plage tranquille."
 region: eilat
 parentRegion: eilat
 heroImage: /images/sub-destinations/eilat/dolphin-reef.jpg

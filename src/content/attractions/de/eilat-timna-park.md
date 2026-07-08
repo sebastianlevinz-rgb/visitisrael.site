@@ -1,7 +1,7 @@
 ---
 lang: de
 title: "Timna-Park: Salomons Säulen und bronzezeitlicher Bergbau"
-description: "Besuchen Sie den Timna-Park bei Eilat — Sandsteinformationen, Salomons Säulen, Pilzfels, Tabernakelnachbau und bronzezeitliche Kupferminen."
+description: "Timna-Park bei Eilat — Salomons Säulen, Pilzfels, Tabernakelnachbau und bronzezeitliche Kupferminen im Negev."
 region: eilat
 parentRegion: eilat
 heroImage: /images/sub-destinations/eilat/timna-park.jpg

@@ -1,7 +1,7 @@
 ---
 lang: de
 title: "Coral Beach Eilat: Israels geschütztes Rotes-Meer-Riff"
-description: "Besuchen Sie das Naturreservat Coral Beach in Eilat — Israels einziges riffgeschütztes Schnorchel-Strand, mit markierten Schnorchel-Routen, Ausrüstungsverleih und Korallenschutzregeln."
+description: "Naturreservat Coral Beach Eilat — geschütztes Schnorchel-Riff mit markierten Routen, Ausrüstungsverleih und Schutzregeln."
 region: eilat
 parentRegion: eilat
 heroImage: /images/sub-destinations/eilat/coral-beach.jpg

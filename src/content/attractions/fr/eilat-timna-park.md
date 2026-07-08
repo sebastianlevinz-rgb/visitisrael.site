@@ -1,7 +1,7 @@
 ---
 lang: fr
-title: "Parc de Timna : les Piliers de Salomon et les mines du Bronze"
-description: "Visitez le parc de Timna près d'Eilat — formations de grès, Piliers de Salomon, Rocher Champignon, réplique du Tabernacle et mines de cuivre de l'Âge du Bronze."
+title: "Parc de Timna : Piliers de Salomon et mines du Bronze"
+description: "Parc de Timna : Piliers de Salomon, Rocher Champignon, Tabernacle et mines de cuivre de l'Âge du Bronze près d'Eilat."
 region: eilat
 parentRegion: eilat
 heroImage: /images/sub-destinations/eilat/timna-park.jpg

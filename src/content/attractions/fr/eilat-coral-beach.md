@@ -1,7 +1,7 @@
 ---
 lang: fr
 title: "Coral Beach Eilat : le récif protégé de la mer Rouge"
-description: "Visitez la réserve naturelle de Coral Beach à Eilat — le seul récif corallien protégé de snorkeling en Israël, avec sentiers balisés, location d'équipement et règles éco-responsables."
+description: "Réserve naturelle de Coral Beach à Eilat — seul récif de snorkeling protégé d'Israël, sentiers balisés et équipement en location."
 region: eilat
 parentRegion: eilat
 heroImage: /images/sub-destinations/eilat/coral-beach.jpg

@@ -1,5 +1,5 @@
 ---
-title: 'GetYourGuide vs Viator Israel: Which Platform to Book With (2026)'
+title: 'GetYourGuide vs Viator Israel: Which to Book (2026)'
 description: 'GetYourGuide vs Viator for Israel tours: cancellation policies, group sizes, selection and value compared — which platform suits your trip.'
 heroImage: /images/regions/jerusalem/hero.jpg
 category: Tours

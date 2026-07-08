@@ -1,7 +1,7 @@
 ---
 lang: de
 title: "Unterwasserobservatorium Eilat: Rotes-Meer-Meerespark"
-description: "Besuchen Sie das Unterwasserobservatorium Eilat — 60-Meter-Turm, Haifischbecken, Aquarien und Glasbodenboot für das vollständige Rote-Meer-Riff-Erlebnis."
+description: "Unterwasserobservatorium Eilat — 60-Meter-Turm, Haifischbecken, Aquarien und Glasbodenboot für das Rote-Meer-Erlebnis."
 region: eilat
 parentRegion: eilat
 heroImage: /images/sub-destinations/eilat/underwater-observatory.jpg

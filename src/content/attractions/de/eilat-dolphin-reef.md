@@ -1,7 +1,7 @@
 ---
 lang: de
 title: "Dolphin Reef Eilat: Interaktives Meeressanktuar"
-description: "Besuchen Sie den Dolphin Reef in Eilat — Große Tümmler in einem halboffenen Roten-Meer-Gehege, Begegnungsschwimmen mit Delfinen, schwimmende Entspannungspools und ruhiger Strand."
+description: "Dolphin Reef Eilat — Große Tümmler im Roten Meer, Begegnungsschwimmen, schwimmende Entspannungspools und ruhiger Strand."
 region: eilat
 parentRegion: eilat
 heroImage: /images/sub-destinations/eilat/dolphin-reef.jpg

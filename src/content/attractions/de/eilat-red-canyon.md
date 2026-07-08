@@ -1,7 +1,7 @@
 ---
 lang: de
 title: "Red Canyon Eilat: Sandstein-Schluchtenwanderung"
-description: "Wandern Sie durch den Red Canyon bei Eilat — schmaler Sandstein-Slot-Canyon, Metallleitern, tiefrote Felswände, 90-minütige Rundwanderung in den Eilat-Bergen."
+description: "Red Canyon bei Eilat — Sandstein-Slot-Canyon, Metallleitern, tiefrote Felswände, 90-minütige Rundwanderung in den Eilat-Bergen."
 region: eilat
 parentRegion: eilat
 heroImage: /images/sub-destinations/eilat/red-canyon.jpg

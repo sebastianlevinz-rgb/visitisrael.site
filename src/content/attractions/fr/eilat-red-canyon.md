@@ -1,7 +1,7 @@
 ---
 lang: fr
 title: "Red Canyon Eilat : randonnée dans le canyon de grès"
-description: "Randonnez dans le Red Canyon près d'Eilat — canyon encaissé de grès rouge, échelles métalliques, parois profondes, boucle de 90 minutes dans les montagnes d'Eilat."
+description: "Red Canyon près d'Eilat — canyon de grès rouge avec échelles métalliques, boucle de 90 min dans les montagnes d'Eilat."
 region: eilat
 parentRegion: eilat
 heroImage: /images/sub-destinations/eilat/red-canyon.jpg

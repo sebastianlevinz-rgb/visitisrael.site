@@ -1,7 +1,7 @@
 ---
 lang: fr
 title: "Observatoire sous-marin d'Eilat : parc marin en mer Rouge"
-description: "Visitez l'observatoire sous-marin d'Eilat — la tour de 60 mètres, bassin aux requins, aquariums et bateau à fond de verre pour l'expérience complète du récif en mer Rouge."
+description: "Observatoire sous-marin d'Eilat — tour de 60 m, bassin aux requins, aquariums et bateau à fond de verre en mer Rouge."
 region: eilat
 parentRegion: eilat
 heroImage: /images/sub-destinations/eilat/underwater-observatory.jpg
