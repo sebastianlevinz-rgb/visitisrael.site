@@ -291,6 +291,7 @@ const ROUTES = [
   '/tel-aviv-things-to-do',
   '/layover-jerusalem',
   '/eilat-travel-guide',
+  '/eilat-beach-guide',
   '/ein-gedi-guide',
   '/israel-with-teenagers',
   '/israel-craft-beer',

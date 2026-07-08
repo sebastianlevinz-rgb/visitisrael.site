@@ -127,7 +127,7 @@ Near the Lebanon border north of Nahariya, Achziv offers a wilder stretch of Med
 
 ## Eilat: the Red Sea coast
 
-[Eilat](/eilat) is a different proposition entirely. The 12 km of Red Sea coastline here are not primarily about the sand — they are about what lives beneath the water. Eilat's beaches rank among the world's best-value entry points to living coral reef diving and snorkeling. See the full [Eilat travel guide](/eilat-travel-guide) for a complete city overview.
+[Eilat](/eilat) is a different proposition entirely. The 12 km of Red Sea coastline here are not primarily about the sand — they are about what lives beneath the water. Eilat's beaches rank among the world's best-value entry points to living coral reef diving and snorkeling. See the [Eilat beach guide](/eilat-beach-guide) for a full comparison of all Eilat beaches, or the [Eilat travel guide](/eilat-travel-guide) for a complete city overview.
 
 ### North Beach Promenade
 
