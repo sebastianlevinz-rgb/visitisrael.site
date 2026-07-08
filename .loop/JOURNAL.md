@@ -6605,3 +6605,9 @@ Lesson: FR/DE locale pages from Batch 7 (iter 373) had widespread description ov
 Gate: pnpm check 0 errors; pnpm build 589 pages (no change); pnpm test:e2e 796/796 pass.
 Merge: committed to master SHA a012490, pushed origin/master.
 Prod: CI in_progress at push time.
+
+## 2026-07-08T07:30Z · iter 375 · RESEARCH · competitor-gap-375
+What: RESEARCH pass (375%5==0). Studied Galilee pilgrimage editorial gaps, Eilat beach search landscape, Israeli holiday guide coverage. Checked all candidates against BACKLOG with targeted grep.
+Findings: 3 net-new items confirmed zero prior backlog hits — tabgha-church-guide (standalone Church of Multiplication + Primacy of Peter; SERP gap confirmed vs seetheholyland.net + beinharimtours.com + touristisrael.com), eilat-beach-guide (Eilat beach comparison: North Beach vs Coral Beach vs Almog Beach; all LP/Timeout/TripAdvisor editorial frozen since Oct 2023), yom-haatzmaut-in-israel (Israel Independence Day visitor guide; LP/Timeout editorial silent; GYG sells tour SKU with zero editorial companion).
+Key competitor pattern: English editorial freeze (LP/Timeout/TripAdvisor) since Oct 2023 confirmed ongoing — compounds domain advantage as our guides accumulate on post-Oct-2023 gaps.
+No code shipped. BACKLOG and COMPETITORS updated.

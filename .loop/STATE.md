@@ -1,13 +1,15 @@
 # LOOP STATE
 
-- iteration: 374
-- lastMode: REVIEW (374%5==4)
-- lastItem: review-meta-trim-374
-- lastResult: REVIEW — meta title/desc audit of iters 371-373. 13 violations across 11 files: EN best-hotels-tiberias desc 164->160; EN jerusalem-pilgrimage-road title 74->62; FR akko-bahai-mansion title 67->64 desc 173->153; FR akko-hospitaller-knights desc 182->149; FR akko-khan-al-umdan title 79->65 desc 210->140; FR akko-templar-tunnel title 66->59 desc 180->147; DE akko-bahai-mansion desc 180->157; DE akko-hospitaller-knights desc 194->160; DE akko-khan-al-umdan desc 180->142; DE akko-old-city desc 161->150; DE akko-templar-tunnel title 69->60 desc 201->136. All internal links on new guides resolve OK. Gate: 0 check errors, 589 pages (no change), 796/796 e2e pass. SHA a012490. CI in_progress at push time.
-- nextRotationCategory: 375%5==0 → RESEARCH. 376%5==1 → BUILD (seo-content). 377%5==2 → BUILD (monetization). 378%5==3 → BUILD (tools/i18n). 379%5==4 → REVIEW.
+- iteration: 375
+- lastMode: RESEARCH (375%5==0)
+- lastItem: research-competitor-gap-375
+- lastResult: RESEARCH — Galilee pilgrimage gaps, Eilat beach editorial gap, Israeli holiday guide gap. 3 net-new items added to BACKLOG (all grep-confirmed zero prior hits): tabgha-church-guide (P2 S), eilat-beach-guide (P2 S), yom-haatzmaut-in-israel (P2 S). Key pattern: English editorial competition (LP/Timeout/TripAdvisor) still frozen since Oct 2023 — confirmed ongoing SERP gap for niche-depth and post-Oct-2023 guides. No code shipped.
+- nextRotationCategory: 376%5==1 → BUILD (seo-content). 377%5==2 → BUILD (monetization). 378%5==3 → BUILD (tools/i18n). 379%5==4 → REVIEW. 380%5==0 → RESEARCH.
 - higgsfieldSpent: 0
-- updatedAt: 2026-07-08T04:45Z
+- updatedAt: 2026-07-08T07:30Z
 - branch context: work on master; feature work on auto/<slug>
+
+Notes: iter 375 RESEARCH — 3 net-new items added to BACKLOG (grep-confirmed zero prior hits): tabgha-church-guide (P2 S; standalone guide for Tabgha's two Galilee pilgrimage churches — no visitisrael.site coverage vs seetheholyland.net/beinharimtours.com ranking competitors), eilat-beach-guide (P2 S; North Beach vs Coral Beach vs Almog Beach comparison; all major English editorial frozen since Oct 2023), yom-haatzmaut-in-israel (P2 S; Israel Independence Day visitor guide; LP/Timeout silent; GYG sells tour with zero editorial companion). English editorial freeze (LP/Timeout/TripAdvisor) since Oct 2023 = ongoing structural SERP gap confirmed. No code shipped.
 
 Notes: iter 374 REVIEW — meta title/desc audit of iters 371-373. 13 violations fixed in 11 files (EN best-hotels-tiberias desc, EN jerusalem-pilgrimage-road title, FR+DE 5 Akko attractions with widespread description overruns). Lesson: FR+DE descriptions tend to run 15-20% longer than English for same content — budget tighter at authoring time. All internal links on new guides resolved OK. Gate: 0 errors, 589 pages (no change), 796/796 e2e. SHA a012490. CI in_progress at push time.
 

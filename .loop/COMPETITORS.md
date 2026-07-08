@@ -3999,3 +3999,20 @@ Sources: cwgc.org, australian-war-memorial.gov.au, alltrails.com, hike-israel.co
 **Confirmed already-in-backlog (2026 developments, de-duped this iteration):** Skyfield Extreme Park (BACKLOG iter150+); Schottenstein National Campus for the Archaeology of Israel (BACKLOG iter235, opened May 2025, Jerusalem); Rosh Hanikra cable car restoration (already in israel-travel-2026 backlog item); new hotel openings (already in israel-travel-2026 item); Arab-Israeli cuisine trail (covered by existing Haifa food guide iter100 backlog item).
 
 **Pattern note:** INPA "first" designations (Yam Caesarea Marine NP = Israel's first marine NP; Makhtesh Ramon = Israel's first geopark) carry strong SEO "record" hooks that generate inbound links and news citation. Look for additional "Israel's first X" type designations in future research passes.
+
+## iter375 findings (2026-07-08)
+
+**Research focus:** Galilee pilgrimage content gaps, Eilat beach editorial gap, Israeli holiday guides for foreign visitors.
+
+**seetheholyland.net/tabgha** — Standalone Tabgha guide covers both churches (Multiplication + Primacy of Peter); ranks page-1 for "Tabgha Israel". Confirms content pattern: each church needs separate practical section (opening hours, dress code, parking, photography restrictions). The 5th-century mosaic at the Church of the Multiplication is described as the single most-visited early Christian mosaic in Israel outside Jerusalem — strong SEO hook our site does not yet exploit.
+
+**beinharimtours.com/tabgha-churches** + **touristisrael.com/tabgha** — Both rank for "Tabgha Churches Israel". Bein Harim's page is the most comprehensive; includes the Benedictine monastery context (active religious community; morning/midday prayer hour closures) and cross-sells Sea of Galilee full-day tour packages. Our site mentions Tabgha only inside galilee-christian-sites-circuit.md — no standalone guide exists; confirmed SERP gap.
+
+**eilatcity.co.il / eilattickets.com** — Eilat municipality official beach pages updated 2026 for Almog Beach expansion. No English travel publisher (LP, Timeout, Rough Guides, TripAdvisor editorial) has updated Israel beach content post-Oct 2023. Gap: a dedicated Eilat beaches comparison page (North Beach vs Coral Beach vs Almog Beach vs Dolphin Reef) does not exist in English editorial form anywhere; all SERP results are TripAdvisor listing pages or hotel-aggregate pages — zero narrative editorial guide.
+
+**itraveljerusalem.com/yom-haatzmaut** + **masaisrael.org/independence-day** — Both tour-operator aligned; short overview pages targeting Israeli domestic audience. No English travel publisher has a visitor-focused Yom HaAtzmaut guide (LP, Timeout, Lonely Planet all silent). GYG sells "Jerusalem Independence Day Evening Tour" (confirmed active SKU as of July 2026) with no editorial companion on our site.
+
+**Ongoing structural pattern (confirmed again this iteration):** Major English travel publishers (Lonely Planet, Timeout Israel, TripAdvisor editorial) continue to have effectively frozen their Israel editorial content since October 2023. This creates clean SERP wins for ANY: (a) post-Oct-2023 development guides (already being exploited with Jerusalem Pilgrimage Road, Yam Caesarea, new luxury hotels items); (b) niche-depth guides on established sites that competitors cover only as list-items (Tabgha, Eilat beaches, Yom HaAtzmaut). The editorial freeze is a structural advantage that compounds over time — as visitisrael.site accumulates domain authority on these guides, incumbents cannot re-enter without fresh editorial investment.
+
+**3 new items added to BACKLOG this iteration:** tabgha-church-guide (P2, seo-content, S), eilat-beach-guide (P2, seo-content+monetization, S), yom-haatzmaut-in-israel (P2, seo-content, S).
+
