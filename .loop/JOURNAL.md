@@ -6756,3 +6756,22 @@ Merge: committed to master SHA 2739d22, pushed origin/master. CI in_progress at 
 Prod: CI + Lighthouse workflows started for 2739d22; pending at end of iteration (confirm on next run).
 fr pages: ~124/~158. de pages: ~124/~158. Remaining untranslated EN attractions: Nazareth (4) + Negev (5) = 9 ready + 2 deferred (holy-sepulchre, temple-mount).
 Next: iter 389 → REVIEW. iter 390 → RESEARCH. iter 391 → BUILD (seo-content). iter 393 → BUILD (tools/i18n) — candidate: Nazareth 4 attractions or Negev 5 attractions.
+
+## 2026-07-08T19:50Z · iter 389 · REVIEW · review-389-meta-trim
+What: REVIEW pass (389%5==4). Audited iters 386-388: israel-in-autumn (iter386), getyourguide-vs-viator-israel (iter387), and 10 FR+DE Eilat attractions from Batch 10 (iter388).
+Findings — 11 meta violations across 11 files:
+  - getyourguide-vs-viator-israel.md title: 65c → "GetYourGuide vs Viator Israel: Which to Book (2026)" (51c)
+  - fr/eilat-coral-beach.md desc: 195c → 129c
+  - fr/eilat-dolphin-reef.md desc: 172c → 119c
+  - fr/eilat-red-canyon.md desc: 170c → 118c
+  - fr/eilat-timna-park.md title: 61c → 53c; desc: 166c → 117c
+  - fr/eilat-underwater-observatory.md desc: 178c → 117c
+  - de/eilat-coral-beach.md desc: 188c → 121c
+  - de/eilat-dolphin-reef.md desc: 182c → 120c
+  - de/eilat-red-canyon.md desc: 162c → 127c
+  - de/eilat-timna-park.md desc: 142c → 109c
+  - de/eilat-underwater-observatory.md desc: 157c → 118c
+Internal links: israel-in-autumn 15/15 clean. getyourguide-vs-viator-israel 21/21 clean (incl /dead-sea/masada, /akko/old-city, /tel-aviv/old-jaffa which use [region]/[attraction] routing — valid). israel-in-autumn itself: clean, title 58c desc 159c.
+Gate: pnpm check 0 errors · build 619 pages unchanged · 852/852 e2e+a11y pass.
+Ship: committed to master SHA 73e85ca, pushed origin/master. CI in_progress at push time (confirm on next run).
+Pattern: FR/DE descs systematically verbose; target ≤130c for locale page descs (enforced again here as in iter384 and iter379).

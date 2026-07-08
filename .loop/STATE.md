@@ -1,13 +1,15 @@
 # LOOP STATE
 
-- iteration: 388
-- lastMode: BUILD (tools/i18n) (388%5==3)
-- lastItem: i18n-eilat-attractions-fr-de-batch10
-- lastResult: SHIPPED Phase 4 Batch 10. 10 locale pages: FR+DE for eilat/coral-beach, eilat/dolphin-reef, eilat/red-canyon, eilat/timna-park, eilat/underwater-observatory. ticketInfo preserved on dolphin-reef + underwater-observatory. smoke.spec.ts + a11y.spec.ts +10 routes each. Gate: pnpm check 0 errors; build 619 pages (+10); 852/852 e2e+a11y pass. SHA 2739d22.
-- nextRotationCategory: 389%5==4 → REVIEW. 390%5==0 → RESEARCH. 391%5==1 → BUILD (seo-content). 392%5==2 → BUILD (monetization). 393%5==3 → BUILD (tools/i18n).
+- iteration: 389
+- lastMode: REVIEW (389%5==4)
+- lastItem: review-389-meta-trim
+- lastResult: SHIPPED 11 meta fixes across 11 files (10 FR+DE Eilat locale descs + GYG-vs-Viator title). Gate: pnpm check 0 errors; build 619 pages unchanged; 852/852 e2e+a11y pass. SHA 73e85ca. Prod deploy in progress at push time.
+- nextRotationCategory: 390%5==0 → RESEARCH. 391%5==1 → BUILD (seo-content). 392%5==2 → BUILD (monetization). 393%5==3 → BUILD (tools/i18n). 394%5==4 → REVIEW.
 - higgsfieldSpent: 0
-- updatedAt: 2026-07-08T19:10Z
+- updatedAt: 2026-07-08T19:50Z
 - branch context: work on master; feature work on auto/<slug>
+
+Notes: iter 389 REVIEW (389%5==4) — meta title/desc audit of iters 386-388 (israel-in-autumn, getyourguide-vs-viator-israel, 10 FR+DE Eilat attractions from Batch 10). Findings: 11 meta violations across 11 files. israel-in-autumn clean (58c title, 159c desc, 15 internal links all resolve). getyourguide-vs-viator-israel: title 65c → 51c; all 21 internal links resolve (incl /dead-sea/masada, /akko/old-city, /tel-aviv/old-jaffa — these all work via [region]/[attraction] routing which strips region prefix from filename). All 10 FR+DE Eilat locale descs: 142-195c → all ≤130c (target). fr/eilat-timna-park title also 61c → 53c. Pattern confirmed: FR/DE descs verbose even when EN clean; target ≤130c for locale pages.
 
 Notes: iter 388 BUILD (tools/i18n) — i18n Phase 4 Batch 10 shipped. Eilat 5 attractions now in FR+DE: coral-beach, dolphin-reef, red-canyon, timna-park, underwater-observatory. ticketInfo translated on dolphin-reef (~₪75 adulte/Erwachsene, bookingRequired: true) and underwater-observatory (~₪119/₪99, bookingRequired: false). smoke.spec.ts + a11y.spec.ts +10 routes each (10 new routes added to both specs). 619 pages; 852/852 e2e+a11y. Remaining untranslated EN attractions: Nazareth (4: basilica-of-the-annunciation, marys-well, mount-of-precipice, old-city), Negev (5: avdat, bedouin-hospitality, ein-avdat, mitzpe-ramon, sde-boker) = 9 ready + 2 deferred (jerusalem/holy-sepulchre, jerusalem/temple-mount). fr pages: ~124/~158. de pages: ~124/~158.
 
