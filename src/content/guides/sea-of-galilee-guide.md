@@ -172,6 +172,6 @@ For the full transport picture, see the [transportation guide](/transportation).
 
 **Day trip (from Jerusalem or Tel Aviv):** Feasible, but requires a 06:30–07:00 departure by car. A realistic day covers Tiberias briefly + Magdala + Capernaum + Mount of Beatitudes + Tabgha + a lakeside lunch. Hamat Gader and the east shore require a second day.
 
-**Overnight (recommended):** One night in Tiberias gives you the full north-shore circuit unhurried, a lakeside sunset dinner, and time for the east shore or Hamat Gader the following morning before driving home. The [Tiberias guide](/tiberias-guide) covers accommodation options from budget to Ginosar Kibbutz Hotel (private beach) and resort properties on the southern Tiberias waterfront.
+**Overnight (recommended):** One night in Tiberias gives you the full north-shore circuit unhurried, a lakeside sunset dinner, and time for the east shore or Hamat Gader the following morning before driving home. The [best hotels in Tiberias guide](/best-hotels-tiberias) covers all accommodation options — from the Scots Hotel and U Boutique Kinneret to Nof Ginosar Kibbutz Hotel (private beach) and resort properties on the southern Tiberias waterfront.
 
 **Two nights:** Adds the east-shore circuit (Ein Gev + Kursi + Hamat Gader) and either a half-day at Safed/Tzfat (45 min north) or Mount Arbel hiking. The [Galilee region guide](/galilee) covers the broader northern Israel itinerary context.

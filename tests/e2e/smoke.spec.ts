@@ -425,6 +425,7 @@ const ROUTES = [
   '/de/golan/mount-hermon',
   '/de/golan/nimrod-fortress',
   '/jerusalem-pilgrimage-road',
+  '/best-hotels-tiberias',
 ];
 
 for (const route of ROUTES) {
