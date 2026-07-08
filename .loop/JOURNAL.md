@@ -6512,3 +6512,38 @@ Fix: yam-caesarea-guide description trimmed 165→142 chars (removed " from Tel 
 Gate: pnpm check 0 errors; pnpm build 577 pages (unchanged); pnpm test:e2e 772/772 pass.
 Ship: squash-merged to master SHA b4024aa, pushed 2026-07-07T23:50Z. CI pending at push time.
 Next: iter 370 → RESEARCH mode (370%5==0).
+
+---
+
+## iter 370 — 2026-07-08 — RESEARCH
+
+Mode: RESEARCH (370%5==0)
+Focus: 2026 new tourism infrastructure + adventure tourism English content gaps
+Method: Two parallel WebSearch agents — (a) 2026 new openings/designations, (b) adventure tourism gaps. All candidates grep-count verified against BACKLOG.md before acceptance.
+
+### Findings
+
+**8 net-new items added to BACKLOG:**
+1. `/arava-mountain-biking` (P2 S) — Yahel-Timna desert singletrack trail, 100+ km opened 2025/2026, ₪20M Eilot RDC investment; zero English editorial coverage
+2. `/best-hotels-tiberias` (P2 M) — We have hotel guides for TLV/JLM/Eilat/Dead Sea/Haifa; Tiberias (Israel's #3 international destination) has no money page; The Scots Hotel, U Boutique, Nof Ginosar key properties
+3. `/best-hotels-mitzpe-ramon` (P2 M) — Beresheet (MICHELIN-listed, crater rim), Daroma, Ramon Suites; VERT+EDGE planned openings are the 2026 news hook
+4. `/nahal-pratzim-guide` (P2 S) — Mount Sodom salt canyons + Flour Cave near Neve Zohar; three difficulty tiers; zero competitor editorial; pure SERP white space
+5. `/jerusalem-pilgrimage-road` (P2 S) — 600m Second Temple-period stepped street (Pool of Siloam → Temple Mount), opened January 2026 after 13 years excavation; DISTINCT from city-of-david-jerusalem (Hezekiah's Tunnel); most significant new archaeological tourism opening in Israel in a decade; entirely unguided on English travel sites
+6. `/via-ferrata-israel` (P2 S) — Comparison guide for Ramim Cliff (Upper Galilee, Level B/C, Hula Valley views) vs Ravid (Lower Galilee, Level C, 900m + zip lines, Kinneret views); two established operators, zero major publisher editorial
+7. `/knesset-museum-jerusalem` (P3 S) — First Knesset building (Froumine House, King George St), opened late 2025; zero backlog matches; niche evergreen
+8. `/new-luxury-hotels-israel-2026` (P2 M) — Roundup of 17 major 2026 hotel openings: Six Senses TLV, Nobu TLV, Isrotel Kayma Dead Sea, Ein Hod wellness; roundup angle distinct from per-city hotel guides; Booking.com affiliate-dense
+
+**Key strategic finding:** Major English travel publishers (Lonely Planet, Timeout, TripAdvisor editorial, Rough Guides) have published effectively no new Israel content since October 2023 — their Israel sections are frozen. Any 2024–2026 development (Pilgrimage Road, Yam Caesarea Marine NP, new hotels, Yahel-Timna MTB, Negev GI wine) is uncontested SERP territory. This is a structural opportunity that should inform all BUILD choices through at least 2027.
+
+**Rejected (already in BACKLOG or DONE):** israel-national-trail-hermon (covered by INT hiking P2 in backlog); negev-wine-appellation (update to existing negev-wine-route P2 backlog item, not a standalone new page); golan-trail (11 backlog references within other guide descriptions); sailing Israel (3 backlog matches); eilat marathon (3 matches); surfing Israel (12 matches).
+
+### Memory updates
+- BACKLOG.md: +8 items + iter370 research summary block
+- COMPETITORS.md: iter370 section added (key pattern: LP/Timeout/TripAdvisor editorial frozen since Oct 2023)
+- STATE.md: iter 370, lastMode RESEARCH, nextRotation 371→BUILD(seo-content)
+- JOURNAL.md: this entry
+
+### Ship
+No code shipped (RESEARCH mode). All changes in .loop/ only.
+git add .loop/ && git commit && git push origin master
+Next: iter 371 → BUILD (seo-content) — top P2 S candidate from backlog; likely jerusalem-pilgrimage-road or nahal-pratzim-guide given strong 2026 timeliness.

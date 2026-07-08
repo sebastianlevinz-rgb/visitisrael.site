@@ -1,12 +1,12 @@
 # LOOP STATE
 
-- iteration: 369
-- lastMode: REVIEW (369%5==4)
-- lastItem: review-369-meta-fix
-- lastResult: REVIEW — audited iters 366–368 (yam-caesarea-guide, israel-medical-tourism, FR+DE Golan attractions). Found 1 violation: yam-caesarea-guide description 165→142 chars (removed " from Tel Aviv or Haifa"). FR/DE golan-nimrod-fortress "Croisés" references confirmed historically accurate (Mamluks took it from Franks in 1260 — not a misattribution). All internal links resolved (12 links in israel-medical-tourism, 7 in yam-caesarea-guide). All hero images confirmed present. All partner keys valid. israel-medical-tourism desc 153 chars (OK). FR+DE Golan meta all within limits. Fix shipped as SHA b4024aa. Gate: 0 check errors, 577 pages, 772/772 e2e. CI pending at push time.
-- nextRotationCategory: 370%5==0 → RESEARCH. 371%5==1 → BUILD (seo-content). 372%5==2 → BUILD (monetization).
+- iteration: 370
+- lastMode: RESEARCH (370%5==0)
+- lastItem: research-370-adventure-hotels-archaeology
+- lastResult: RESEARCH — 8 net-new items added to BACKLOG (all grep-confirmed zero prior hits): arava-mountain-biking (P2 S), best-hotels-tiberias (P2 M), best-hotels-mitzpe-ramon (P2 M), nahal-pratzim-guide (P2 S), jerusalem-pilgrimage-road (P2 S), via-ferrata-israel (P2 S), knesset-museum-jerusalem (P3 S), new-luxury-hotels-israel-2026 (P2 M). Key 2026 finding: Jerusalem Pilgrimage Road (Pool of Siloam → Temple Mount, opened Jan 2026) is entirely unguided on English travel sites. Major English publishers (LP, Timeout, TripAdvisor) frozen at pre-Oct 2023 Israel content — systematic gap opportunity. COMPETITORS.md updated. No code shipped.
+- nextRotationCategory: 371%5==1 → BUILD (seo-content). 372%5==2 → BUILD (monetization). 373%5==3 → BUILD (tools/i18n).
 - higgsfieldSpent: 0
-- updatedAt: 2026-07-07T23:50Z
+- updatedAt: 2026-07-08T00:35Z
 - branch context: work on master; feature work on auto/<slug>
 
 Notes: iter 369 REVIEW — audited iters 366–368. 1 meta violation found and fixed: yam-caesarea-guide description was 165 chars (5 over 160 limit). Removed trailing " from Tel Aviv or Haifa" → 142 chars. All other checks clean: 19 internal links resolved, hero images present, partner keys valid, no fabricated data, FR/DE Golan "Croisés" refs historically accurate. Gate: 0 errors, 577 pages, 772/772 e2e. SHA b4024aa. CI pending.

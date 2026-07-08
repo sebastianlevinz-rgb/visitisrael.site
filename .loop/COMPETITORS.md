@@ -3968,6 +3968,24 @@ Sources: cwgc.org, australian-war-memorial.gov.au, alltrails.com, hike-israel.co
 
 **Key patterns from iter360 research:** (1) The remaining competitive INPA-park gap is a cluster of 5–8 INPA parks with 400+ TripAdvisor reviews but zero visitisrael.site coverage; the most profitable (monetizable via car rental + affiliate day-trip CTAs) are Red Canyon (free, car-required), Nimrod Fortress (22 NIS, car-required), Hai Bar Yotvata (two-section tickets, car-required), and Achziv (INPA camping, car-preferred). (2) Mount Arbel is the single INPA park remaining in the Sea of Galilee/Tiberias cluster without visitisrael.site coverage; it's the most-hiked site in northern Israel per AllTrails data and ranks on hike-israel.com as a top Galilee guide. (3) Chagall Windows at Hadassah Hospital is an art-pilgrimage destination that multiple Jerusalem tour operators (tzurtours.com, funinjerusalem.com, worldjewishtravel.org) feature prominently but zero Israel travel blogs have a complete evergreen standalone guide for — the "one of only 3 complete Chagall window installations worldwide" angle is a strong unique hook. (4) Israel-in-photos.com is the most systematic competitor for INPA park content — monitor it for any additional parks we're missing after this batch.
 
+## iter370 findings (2026-07-08)
+
+**Research focus:** 2026 new tourism infrastructure + adventure tourism English content gaps.
+
+**jpost.com/archaeology/article-885516** — Jerusalem Pilgrimage Road coverage: the 600m Second Temple-period stepped street (Pool of Siloam → Temple Mount base) opened to the public January 2026 after 13 years of IAA excavation. Coverage = news articles only; no major English travel publisher has a practical visitor guide. The City of David (our city-of-david-jerusalem.md, SHIPPED iter337) covers Hezekiah's Tunnel — the Pilgrimage Road is an entirely distinct new attraction added to the complex in 2026.
+
+**timesofisrael.com (2026 hotel coverage)** — "17 major hotel openings in Israel summer 2026" — Six Senses Tel Aviv (140 rooms, Golden Triangle, heritage 1909 buildings, 42-story LEED Platinum tower, spa), Nobu Tel Aviv (Jaffa area, brand recognition hook), Isrotel Kayma Dead Sea (eco-luxury), Ein Hod boutique wellness. No English travel publisher has a 2026 new-openings roundup guide. Our opportunity: position this as an evergreen "biggest hotel openings of 2026" roundup with Booking.com affiliate CTAs.
+
+**ashdotextreme.co.il + adventure-israel.com** — Two established via ferrata operators with English booking capability and zero coverage from major English travel publishers (Lonely Planet, TripAdvisor editorial, Timeout Israel editorial all silent). Ramim Cliff (Upper Galilee, Level B/C, Hula Valley views) and Via Ferrata Ravid (Lower Galilee, Level C, 900m with zip lines, Kinneret views) are the two products. Timeout Israel's thrill-seekers listicle mentions them in one sentence each; zero comparative editorial exists.
+
+**bike-israel.com/self-guided-yahel-timna** — Maps-only page for the new Yahel-Timna desert singletrack trail in the Arava (opened 2025/2026; ₪20M investment). No English travel publisher has an editorial guide. The AllTrails "Yahel Bike Loop" GPS track is the only English discoverable content; no context, logistics, or combination guide exists.
+
+**tripadvisor.com/Hotels-g303960** (Tiberias) — Our site has hotel guides for Tel Aviv, Jerusalem, Eilat, Dead Sea, and Haifa but NOT for Tiberias, which ranks in Israel's top-3 international visitor destinations (Galilee pilgrimage). The Scots Hotel (5-star, converted Scottish Presbyterian hospital) is consistently the #1 result but has zero editorial coverage on our site or most English travel publishers.
+
+**alltrails.com / israelandyou.com** (Nahal Pratzim) — The Mount Sodom salt canyon + Flour Cave is on AllTrails (GPS track only) and israelandyou.com (basic post) but is absent from all major English travel publishers. Zero competitor editorial coverage despite being one of the most visually distinctive hikes in the Dead Sea area.
+
+**Key competitor pattern from iter370:** Major English travel publishers (Lonely Planet, Timeout, TripAdvisor editorial) have effectively stopped adding new Israel content since October 2023 — their Israel sections are frozen at pre-war status. This creates a systematic gap: any development, opening, or attraction post-October 2023 is unguided on major platforms. The Pilgrimage Road (Jan 2026), Six Senses Tel Aviv (2026), Yahel-Timna MTB (2025/2026), and even the Mount Sodom / Nahal Pratzim guides that were borderline before now represent clean SERP wins because the editorial competition is artificially depressed.
+
 ## iter365 findings (2026-07-07)
 
 **Research focus:** 2026-specific new INPA designations and underserved new travel angles not yet in backlog.
