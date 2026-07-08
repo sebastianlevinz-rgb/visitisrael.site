@@ -4037,3 +4037,31 @@ Sources: cwgc.org, australian-war-memorial.gov.au, alltrails.com, hike-israel.co
 **Pattern this iteration:** Eilat is underserved on 2025/2026 new infrastructure (Terminal Park, ongoing Almog Beach expansion). Tel Aviv winter season (Nov–Jan) is an open SERP opportunity — Lumagica fills it for December; other winter TLV events (Christmas markets at Sarona, New Year's events at Port) may warrant a dedicated israel-in-winter.md guide (not yet in backlog — flag for next RESEARCH pass).
 
 **2 new items added to BACKLOG:** Terminal Park Eilat (P2, seo-content+monetization, S), Lumagica Tel Aviv (P3, seo-content, S).
+
+## iter385 findings (2026-07-08)
+
+**Research focus:** Monetization money pages, tools comparison gaps, content gaps (autumn/seasonal, military history tourism, diving, Golan wine route).
+
+**Agent 1 — content gaps (touristisrael, kimkim, lonelyplanet, beinharim, GilTravel, photohound, locationscout, israel21c, viator, getyourguide, timeout):**
+
+Verified that the following items from Agent 1's research ALREADY exist on the site (confirmed by file search):
+- `/tiberias-guide` (iter87), `/israel-photography-guide` (shipped), `/israel-food-tours-cooking-classes` (iter163 + FR+DE), `/christmas-in-israel` (winter guide, shipped), `/israel-wellness-spa` (iter263), `/rosh-hashanah-in-israel` (iter277), `/traveling-israel-jewish-holidays` (iter206).
+
+**New competitive pattern from Agent 1:** Major English travel publishers (Lonely Planet, Rough Guides, Timeout Israel) remain frozen in their Israel editorial content since October 2023. This structural gap compounds over time. KimKim itinerary placements for Tiberias confirm high booking intent for northern Israel anchors. GilTravel + LocationScout + PhotoHound all have photography spots content but none has a narrative photographer's guide with workshop bookings.
+
+**Agent 2 — tools and monetization gaps (tourscanner, getyourguide, viator, airport-bengurion.com, monito.com, exclusiveisraeltours, tripadvisor):**
+
+*Confirmed ALREADY EXISTS:* `/cruise-shore-excursions-israel` (covers Haifa + Ashdod ports); `/israel-esim` (eSIM guide exists); `/petra-from-israel` + `/israel-jordan-itinerary` (Jordan content exists); `/israel-food-tours-cooking-classes` (cooking classes exists); `/car-rental-israel` (logistics guide); `/israel-car-rental-quiz` (quiz tool).
+
+*Content accuracy issue flagged (already in BACKLOG iter270):* `ben-gurion-airport-transfers.md` still states sherut (shared minibus) service runs 24/7 from Ben Gurion — multiple 2026 traveler sources indicate Nesher sherut to Jerusalem has been discontinued or significantly reduced. Already captured in BACKLOG as `[P2] technical/content-update — sherut accuracy review`.
+
+**Key patterns from iter385:**
+1. **Tour platform comparison pages** are the highest commercial intent content category with no Israel-specific editorial version from any competitor. GYG vs Viator comparison for Israel = pure whitespace.
+2. **Dead Sea departure comparison** (Jerusalem vs TLV) is a pure money page opportunity: we already have transport routes; a combined "which departure should I use + here's the tour link" page is missing.
+3. **Car rental company comparison** (Eldan vs Hertz vs Avis) complements our quiz (tells you IF to rent) — we have nothing on WHICH company.
+4. **Israel military history tourism** (Latrun, Palmach, Haganah, Ammunition Hill, Air Force Museum Hatzerim) is a major segment for diaspora Jewish visitors with zero editorial coverage on any major travel brand.
+5. **Autumn/October guide** is the single biggest seasonal content gap: Israel's peak tourist season (Sukkot weather, wine harvest, crane migration) has no editorial guide; we have summer and winter/christmas guides but no autumn.
+6. **Golan Heights wine route self-drive** is distinct from the national `israel-wine-wineries.md` overview — a circuit guide (Golan Heights Winery + Galil Mountain + Pelter + Assaf + Druze villages) does not exist on any major editorial site.
+7. **Israel diving comprehensive hub** — `eilat-diving-snorkeling.md` (Eilat only) + `yam-caesarea-guide.md` (Caesarea only) exist; no hub covers all Israel dive sites (Red Sea + Mediterranean + Caesarea underwater archaeology) in one guide.
+
+**8 new items added to BACKLOG this iteration** — see BACKLOG for full details with implementation sketches.

@@ -6720,3 +6720,10 @@ Recurring lesson: FR/DE descs hit 160-char ceiling even when EN is clean. Target
 Gate: pnpm check 0 errors · pnpm build 607 pages unchanged · pnpm test:e2e 831/831 pass.
 Ship: committed to master SHA 508083d, pushed origin/master.
 Prod: CI in_progress at push time (confirm on next run).
+
+## 2026-07-08T16:15Z · iter 385 · RESEARCH · research-385-monetization-tools-content-gaps
+What: RESEARCH pass (385%5==0). Two parallel research agents: (1) Agent 1 — content gaps via touristisrael, kimkim, lonelyplanet, beinharim, photohound, locationscout, israel21c; (2) Agent 2 — tools/monetization gaps via GYG, Viator, tourscanner, airport-bengurion.com, tripadvisor.
+Key site inventory confirmed: 180+ guides already exist — many items agents flagged as gaps already shipped (tiberias-guide iter87, photography-guide, food-tours-cooking-classes iter163, christmas-in-israel/winter guide, wellness-spa iter263, rosh-hashanah-in-israel iter277, israel-esim, petra-from-israel, israel-jordan-itinerary, cruise-shore-excursions). Sherut accuracy issue in airport-transfers confirmed already in BACKLOG (iter270 research, status: ready).
+8 genuinely new BACKLOG items added: GYG-vs-Viator Israel comparison (P2, monetization, S), Dead Sea day trip departure comparison page (P2, monetization, S), Israel car rental company comparison (P2, monetization, S), Israel military history tourism guide (P2, seo-content+monetization, M), Israel in autumn guide (P2, seo-content, S), Golan Heights wine route self-drive circuit (P2, seo-content+monetization, M), Israel comprehensive diving hub (P2, seo-content+monetization, M), Haifa port shore excursions page (P3, monetization, S).
+Gate: not run (research mode — no code changes).
+Next: iter 386 → BUILD (seo-content). Candidates: yom-haatzmaut-in-israel (P2, S, ready), passover-in-israel (P2, S, ready), sukkot-in-israel (P2, S, ready), israel-military-history-guide (P2, M, new), dead-sea-day-trip-comparison (P2, S, new), israel-in-autumn (P2, S, new). Also: i18n Phase 4 Batch 10 (Eilat 5 attractions FR+DE) is the next i18n BUILD.
