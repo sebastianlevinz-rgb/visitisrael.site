@@ -6547,3 +6547,18 @@ Method: Two parallel WebSearch agents — (a) 2026 new openings/designations, (b
 No code shipped (RESEARCH mode). All changes in .loop/ only.
 git add .loop/ && git commit && git push origin master
 Next: iter 371 → BUILD (seo-content) — top P2 S candidate from backlog; likely jerusalem-pilgrimage-road or nahal-pratzim-guide given strong 2026 timeliness.
+
+## 2026-07-08T01:40Z · iter 371 · BUILD (seo-content) · jerusalem-pilgrimage-road
+
+What: New /jerusalem-pilgrimage-road guide — the 600-metre Second Temple-era stepped street from Pool of Siloam to Temple Mount, opened January 2026 after 13 years of IAA excavation. Picked as the strongest iter370 research item: highest 2026 timeliness (zero English editorial coverage anywhere), direct archaeological significance, dual appeal for Jewish/Christian pilgrimage and general archaeology audiences.
+
+Content: Archaeological context (Herodian-era, ~20 BCE–70 CE, Herod the Great construction programme); explicit distinction from Hezekiah's Tunnel with comparison table (period/date/what it is); Pool of Siloam visitor context (Jewish ritual immersion pool, Gospel of John 9:7 healing site); inauguration context (September 2025, PM Netanyahu + SecState Rubio + Ambassador Huckabee — noted factually without editorial political take); what to see along the route (column drums, tabernae shop recesses, coin finds, Herodian stonework quality, Herodian Drainage Channel optional extension); Silwan dual-naming context (City of David/Elad Foundation management noted honestly); practical info table; combination routes (City of David + Western Wall + Via Dolorosa + Christian-pilgrimage circuit). 2 affiliate CTAs: GYG City of David tour, Booking.com Jerusalem hotels. 6 FAQs.
+
+Cross-links added:
+- city-of-david-jerusalem.md Pool of Siloam section: Jan 2026 opening callout + link to new guide
+- city-of-david-jerusalem.md Combining section: Pilgrimage Road as new entry before Western Wall
+- christian-pilgrimage-holy-land.md Jerusalem section: Pool of Siloam / Gospel of John note with guide link
+
+Gate: pnpm check 0 errors; pnpm build 578 pages (+1 from 577); pnpm test:e2e 774/774 pass (+2 from 772 — /jerusalem-pilgrimage-road added to both smoke.spec.ts and a11y.spec.ts ROUTES arrays).
+Merge: squash-merged to master SHA 5279b75, pushed origin/master.
+Prod: CI and Lighthouse workflows in_progress at push time (consistent with all prior iterations; Vercel deploy triggered by master push).

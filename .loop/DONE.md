@@ -713,3 +713,7 @@ SHA 18d451d. 552 pages; 730/730 e2e+a11y pass.
 - `/fr/golan/nimrod-fortress` + `/de/golan/nimrod-fortress` — Nimrod Fortress (Ayyubid + Mamluk, 13th c.); largest medieval fortification in Israel; 4 FAQs each
 - EN `golan-nimrod-fortress.md` fixed: title/desc/body "Crusader" → "Ayyubid" (Rule 1 auto-fix; iter363 established this correction)
 smoke.spec.ts + a11y.spec.ts +10 routes each. Gate: 0 check errors · 577 pages (+10) · 772/772 e2e (+20). Phase 4 Golan attractions COMPLETE.
+
+## iter 371 · 2026-07-08 · BUILD (seo-content)
+**jerusalem-pilgrimage-road** · SHA 5279b75
+New /jerusalem-pilgrimage-road: first English editorial guide for the 600-metre Second Temple-era stepped street from Pool of Siloam to Temple Mount, opened January 2026 after 13 years of IAA excavation. 578 pages, 774 e2e.

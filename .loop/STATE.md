@@ -1,13 +1,15 @@
 # LOOP STATE
 
-- iteration: 370
-- lastMode: RESEARCH (370%5==0)
-- lastItem: research-370-adventure-hotels-archaeology
-- lastResult: RESEARCH — 8 net-new items added to BACKLOG (all grep-confirmed zero prior hits): arava-mountain-biking (P2 S), best-hotels-tiberias (P2 M), best-hotels-mitzpe-ramon (P2 M), nahal-pratzim-guide (P2 S), jerusalem-pilgrimage-road (P2 S), via-ferrata-israel (P2 S), knesset-museum-jerusalem (P3 S), new-luxury-hotels-israel-2026 (P2 M). Key 2026 finding: Jerusalem Pilgrimage Road (Pool of Siloam → Temple Mount, opened Jan 2026) is entirely unguided on English travel sites. Major English publishers (LP, Timeout, TripAdvisor) frozen at pre-Oct 2023 Israel content — systematic gap opportunity. COMPETITORS.md updated. No code shipped.
-- nextRotationCategory: 371%5==1 → BUILD (seo-content). 372%5==2 → BUILD (monetization). 373%5==3 → BUILD (tools/i18n).
+- iteration: 371
+- lastMode: BUILD (seo-content) (371%5==1)
+- lastItem: jerusalem-pilgrimage-road
+- lastResult: BUILD (seo-content) — jerusalem-pilgrimage-road shipped. P2 S. New /jerusalem-pilgrimage-road: 600-metre Second Temple-era stepped processional street from Pool of Siloam to Temple Mount, opened January 2026 after 13 years of IAA excavation. First English editorial guide for this site (zero LP/Timeout/TripAdvisor coverage). Content: archaeological context (Herodian-era ~20 BCE–70 CE), distinction from Hezekiah's Tunnel (comparison table), Pool of Siloam Gospel of John tie-in, what to see along the route (column drums, tabernae, coin finds, Herodian stonework), Herodian Drainage Channel option, Silwan dual-naming context, combination routes (City of David + Western Wall + Via Dolorosa + christian-pilgrimage route). 2 affiliate CTAs (GYG City of David tour, Booking.com Jerusalem hotels). 6 FAQs. Cross-links: city-of-david-jerusalem.md (Pool of Siloam section + Combining section); christian-pilgrimage-holy-land.md (Jerusalem section). Tests: +1 route each in smoke.spec.ts + a11y.spec.ts. Gate: 0 check errors, 578 pages (+1), 774/774 e2e (+2). SHA 5279b75. CI in_progress at push time.
+- nextRotationCategory: 372%5==2 → BUILD (monetization). 373%5==3 → BUILD (tools/i18n). 374%5==4 → REVIEW. 375%5==0 → RESEARCH.
 - higgsfieldSpent: 0
-- updatedAt: 2026-07-08T00:35Z
+- updatedAt: 2026-07-08T01:40Z
 - branch context: work on master; feature work on auto/<slug>
+
+Notes: iter 370 RESEARCH — 8 net-new items added to BACKLOG (all grep-confirmed zero prior hits): arava-mountain-biking (P2 S), best-hotels-tiberias (P2 M), best-hotels-mitzpe-ramon (P2 M), nahal-pratzim-guide (P2 S), jerusalem-pilgrimage-road (P2 S, SHIPPED iter371), via-ferrata-israel (P2 S), knesset-museum-jerusalem (P3 S), new-luxury-hotels-israel-2026 (P2 M). Key 2026 finding: Jerusalem Pilgrimage Road (Pool of Siloam → Temple Mount, opened Jan 2026) is entirely unguided on English travel sites. Major English publishers (LP, Timeout, TripAdvisor) frozen at pre-Oct 2023 Israel content — systematic gap opportunity. COMPETITORS.md updated. No code shipped.
 
 Notes: iter 369 REVIEW — audited iters 366–368. 1 meta violation found and fixed: yam-caesarea-guide description was 165 chars (5 over 160 limit). Removed trailing " from Tel Aviv or Haifa" → 142 chars. All other checks clean: 19 internal links resolved, hero images present, partner keys valid, no fabricated data, FR/DE Golan "Croisés" refs historically accurate. Gate: 0 errors, 577 pages, 772/772 e2e. SHA b4024aa. CI pending.
 
@@ -54,5 +56,5 @@ Notes: iter 338 BUILD (seo-content, fell through from tools) — gamla-nature-re
 Notes: iter 334 REVIEW — 6 meta violations found and fixed. Lesson: lazy regex false-positives on apostrophes.
 
 Cron b7325b16 hourly @ :17. Loop history: 19 tools + sitemap-lastmod + link-checker(+depth) + i18n
-Phase0/1a/1b/1c/2 Batches1-18(COMPLETE) + 38 review passes + 3 technical (event-schema + meta-trim + locale-links) + 47 EN guides + 5 tools-monetization;
-research iters 5/10/20/30/35/40/45/50/55/60/65/70/75/80/85/90/95/100/105/110/115/120/125/130/135/140/145/150/155/160/165/170/175/180/185/190/195/200/205/210/215/220/225/230/235/240/245/250/255/260/265/270/275/280/285/290/295/300/305/310/315/320/325/330/335/340/345/350/355/360/365.
+Phase0/1a/1b/1c/2 Batches1-18(COMPLETE) + 38 review passes + 3 technical (event-schema + meta-trim + locale-links) + 48 EN guides + 5 tools-monetization;
+research iters 5/10/20/30/35/40/45/50/55/60/65/70/75/80/85/90/95/100/105/110/115/120/125/130/135/140/145/150/155/160/165/170/175/180/185/190/195/200/205/210/215/220/225/230/235/240/245/250/255/260/265/270/275/280/285/290/295/300/305/310/315/320/325/330/335/340/345/350/355/360/365/370.
