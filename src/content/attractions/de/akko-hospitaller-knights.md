@@ -1,7 +1,7 @@
 ---
 lang: de
 title: "Rittersäle der Hospitaliter: Kreuzfahrer-Akko"
-description: "Die Rittersäle der Hospitaliter in Akko besuchen — die unterirdische Kreuzfahrer-Krankenstation aus dem 12. Jahrhundert und Zitadelle unter der UNESCO-Altstadt, in den 1990er Jahren restauriert."
+description: "Die Rittersäle der Hospitaliter in Akko besuchen — die unterirdische Kreuzfahrer-Krankenstation aus dem 12. Jahrhundert und Zitadelle unter der UNESCO-Altstadt."
 region: akko
 parentRegion: akko
 heroImage: /images/sub-destinations/akko/hospitaller-knights.jpg

@@ -1,5 +1,5 @@
 ---
-title: 'Jerusalem Pilgrimage Road: The Ancient Stepped Street Visitor Guide (2026)'
+title: 'Jerusalem Pilgrimage Road: Stepped Street Visitor Guide (2026)'
 description: 'Jerusalem Pilgrimage Road guide: the 2,000-year-old stepped street from Pool of Siloam to Temple Mount, opened January 2026. Tickets, hours, and what to see.'
 heroImage: /images/sub-destinations/jerusalem/city-of-david.jpg
 category: Archaeological Sites

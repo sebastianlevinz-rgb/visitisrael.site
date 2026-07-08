@@ -1,6 +1,6 @@
 ---
 title: 'Best Hotels in Tiberias 2026: Sea of Galilee Where to Stay Guide'
-description: 'Best hotels in Tiberias and the Sea of Galilee: the Scots Hotel (5-star lakeside), U Boutique Kinneret, Nof Ginosar Kibbutz Hotel, and budget options at every tier.'
+description: 'Best hotels in Tiberias and the Sea of Galilee: Scots Hotel (5-star lakeside), U Boutique Kinneret, Nof Ginosar Kibbutz Hotel, and budget options at every tier.'
 heroImage: /images/regions/galilee/tiberias.jpg
 category: Accommodation
 updatedAt: 2026-07-08

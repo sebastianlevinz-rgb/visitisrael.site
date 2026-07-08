@@ -1,7 +1,7 @@
 ---
 lang: de
 title: "Altstadt Akko: UNESCO-Kreuzfahrer-Osmanisches Erbe-Viertel"
-description: "Die UNESCO-Altstadt Akkos erkunden — Kreuzfahrermauern, osmanischer Souq, Fischerhafen und gemischte arabisch-jüdische Viertel an der nördlichen Mittelmeerküste."
+description: "Die UNESCO-Altstadt Akkos erkunden — Kreuzfahrermauern, osmanischer Souq, Fischerhafen und gemischte arabisch-jüdische Viertel an der Mittelmeerküste."
 region: akko
 parentRegion: akko
 heroImage: /images/sub-destinations/akko/old-city.jpg

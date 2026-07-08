@@ -1,7 +1,7 @@
 ---
 lang: fr
-title: "Tunnel des Templiers d'Akko : passage croisé secret du XIIe siècle"
-description: "Parcourir le Tunnel des Templiers d'Akko — le passage souterrain de 350 mètres redécouvert du XIIe siècle allant de la citadelle templière au port, éclairé et ouvert aux visiteurs."
+title: "Tunnel des Templiers d'Akko : passage croisé du XIIe siècle"
+description: "Parcourir le Tunnel des Templiers d'Akko — le passage souterrain de 350 mètres redécouvert du XIIe siècle allant de la citadelle templière au port."
 region: akko
 parentRegion: akko
 heroImage: /images/sub-destinations/akko/templar-tunnel.jpg

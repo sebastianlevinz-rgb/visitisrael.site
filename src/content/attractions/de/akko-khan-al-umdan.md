@@ -1,7 +1,7 @@
 ---
 lang: de
 title: "Khan al-Umdan: Akkos osmanische Karawanserei von 1785 und Uhrturm"
-description: "Khan al-Umdan Karawanserei in der Altstadt von Akko besuchen — osmanisches Handelshaus von 1785, erbaut von Ahmed Pascha al-Dschazzar mit vierzig Granitsäulen und Uhrturm von 1906."
+description: "Khan al-Umdan Karawanserei in der Altstadt von Akko besuchen — osmanisches Handelshaus von 1785 mit vierzig Granitsäulen und Uhrturm von 1906."
 region: akko
 parentRegion: akko
 heroImage: /images/sub-destinations/akko/khan-al-umdan.jpg

@@ -1,7 +1,7 @@
 ---
 lang: fr
-title: "Manoir Bahá'í de Bahjí : le site de pèlerinage bahá'í le plus sacré"
-description: "Visiter le Manoir Bahá'í de Bahjí près d'Akko — résidence finale de Bahá'u'lláh et sanctuaire adjacent ; jardins ouverts au public, visite respectueuse pour les non-bahá'ís."
+title: "Manoir Bahá'í de Bahjí : site de pèlerinage bahá'í le plus sacré"
+description: "Visiter le Manoir Bahá'í de Bahjí près d'Akko — résidence de Bahá'u'lláh et sanctuaire adjacent ; jardins ouverts au public, visite pour les non-bahá'ís."
 region: akko
 parentRegion: akko
 heroImage: /images/sub-destinations/akko/bahai-mansion.jpg

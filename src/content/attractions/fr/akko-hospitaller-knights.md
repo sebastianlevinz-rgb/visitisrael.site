@@ -1,7 +1,7 @@
 ---
 lang: fr
 title: "Salles des Chevaliers Hospitaliers : Akko croisée"
-description: "Visiter les Salles des Chevaliers Hospitaliers d'Akko — l'infirmerie croisée souterraine du XIIe siècle et la citadelle sous la vieille ville UNESCO, restaurées dans les années 1990."
+description: "Visiter les Salles des Chevaliers Hospitaliers d'Akko — l'infirmerie croisée souterraine du XIIe siècle et la citadelle sous la vieille ville UNESCO."
 region: akko
 parentRegion: akko
 heroImage: /images/sub-destinations/akko/hospitaller-knights.jpg

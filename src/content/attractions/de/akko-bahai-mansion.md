@@ -1,7 +1,7 @@
 ---
 lang: de
 title: "Bahá'í-Herrenhaus Bahjí: die heiligste Bahá'í-Pilgerstätte"
-description: "Das Bahá'í-Herrenhaus Bahjí bei Akko besuchen — letzte Residenz Bahá'u'lláhs und angrenzendes Heiligtum; Gärten öffentlich zugänglich, Heiligtum mit respektvoller Besucherregelung."
+description: "Das Bahá'í-Herrenhaus Bahjí bei Akko — letzte Residenz Bahá'u'lláhs und angrenzendes Heiligtum; Gärten öffentlich zugänglich, Heiligtum mit Besucherregelung."
 region: akko
 parentRegion: akko
 heroImage: /images/sub-destinations/akko/bahai-mansion.jpg

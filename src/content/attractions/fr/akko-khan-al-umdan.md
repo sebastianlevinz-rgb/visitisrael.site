@@ -1,7 +1,7 @@
 ---
 lang: fr
-title: "Khan al-Umdan : la caravansérail ottoman de 1785 d'Akko et sa tour de l'horloge"
-description: "Visiter le caravansérail Khan al-Umdan dans la vieille ville d'Akko — auberge de commerce ottomane de 1785 construite par Ahmed Pacha al-Jazzar avec quarante colonnes de granit et une tour de l'horloge de 1906."
+title: "Khan al-Umdan : caravansérail ottoman d'Akko et tour de l'horloge"
+description: "Khan al-Umdan dans la vieille ville d'Akko — caravansérail ottoman de 1785 avec quarante colonnes de granit et la tour de l'horloge de 1906."
 region: akko
 parentRegion: akko
 heroImage: /images/sub-destinations/akko/khan-al-umdan.jpg

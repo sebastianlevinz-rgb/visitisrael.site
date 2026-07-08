@@ -1,7 +1,7 @@
 ---
 lang: de
-title: "Templergang Akko: geheimer Kreuzfahrer-Tunnel aus dem 12. Jahrhundert"
-description: "Den 350 Meter langen Templergang in Akko begehen — der 1994 wiederentdeckte unterirdische Kreuzfahrer-Tunnel aus dem 12. Jahrhundert von der Templerburg zum Hafen, beleuchtet und für Besucher geöffnet."
+title: "Templergang Akko: Kreuzfahrer-Tunnel aus dem 12. Jahrhundert"
+description: "Den 350 Meter langen Templergang in Akko begehen — unterirdischer Kreuzfahrer-Tunnel des 12. Jahrhunderts von der Templerburg zum Hafen."
 region: akko
 parentRegion: akko
 heroImage: /images/sub-destinations/akko/templar-tunnel.jpg
