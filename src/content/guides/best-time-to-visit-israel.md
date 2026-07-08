@@ -21,7 +21,7 @@ Israel packs several climates into a small country, so the "best" time depends o
 
 **Summer (June–August) — hot.** The [Tel Aviv](/tel-aviv) coast is busy and humid; [Jerusalem](/jerusalem) is hot but dry; the [Dead Sea](/dead-sea) and [Eilat](/eilat) are extreme (40°C+), suited to early mornings and water. [Eilat](/eilat) is a summer beach-break favourite despite the heat. If you must travel in July or August, the [beat-the-heat summer guide](/israel-in-summer) covers the early-morning-first strategy and which regions to prioritise.
 
-**Autumn (September–November) — best overall.** Heat eases, the sea stays warm, and the olive harvest is under way. The Jewish High Holidays fall here and bring some closures.
+**Autumn (September–November) — best overall.** Heat eases, the sea stays warm, and the olive harvest is under way. The Jewish High Holidays (Yom Kippur, Sukkot) fall here and bring closures and price spikes during the holiday weeks — but the post-Sukkot lull (mid-October through November) is the quietest and cheapest comfortable-weather period of the year. See the [Israel in autumn guide](/israel-in-autumn) for the Hula Valley cranes, Negev hiking season, and full autumn planning advice.
 
 **Winter (December–February) — quiet and cheap.** Cool and green, with rain and the odd Jerusalem snow flurry. [Eilat](/eilat) and the Dead Sea become pleasant warm-weather escapes, and it's **peak season in the south**. Christmas in [Nazareth](/nazareth) and Bethlehem is special — see the [Christmas in Israel guide](/christmas-in-israel) for Midnight Mass logistics, the Nazareth market, and winter travel tips.
 
