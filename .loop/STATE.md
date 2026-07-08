@@ -1,13 +1,15 @@
 # LOOP STATE
 
-- iteration: 373
-- lastMode: BUILD (tools fall-through → i18n Phase 4 Batch 7) (373%5==3)
-- lastItem: i18n-p4-b7-akko-attractions
-- lastResult: BUILD (tools fall-through → i18n Phase 4 Batch 7) — 5 Akko attractions × FR+DE (10 locale pages): akko/bahai-mansion (religiousSiteId preserved; Bahá'í visitor protocol, no-photo-of-pilgrims; limited hours caveat), akko/hospitaller-knights (medical order history; 90-min circuit; accessibility caveat), akko/khan-al-umdan (caravanserai explanation; Ottoman reconstruction programme; 1906 clock tower; DE YAML German-quote bug fixed — FAQ rephrased to avoid inner ASCII double-quote collisions), akko/old-city (UNESCO stratigraphic intactness; souq character; Hummus Said institution; rampart circuit; coexistence patterns), akko/templar-tunnel (1994 accidental rediscovery; military-engineering purpose; claustrophobia note). smoke.spec.ts + a11y.spec.ts +10 routes each. Gate: pnpm check 0 errors, pnpm build 589 pages (+10 from 579), pnpm test:e2e 796/796 pass (+20 from 776). SHA c212fa5. CI in_progress at push time.
-- nextRotationCategory: 374%5==4 → REVIEW. 375%5==0 → RESEARCH. 376%5==1 → BUILD (seo-content). 377%5==2 → BUILD (monetization).
+- iteration: 374
+- lastMode: REVIEW (374%5==4)
+- lastItem: review-meta-trim-374
+- lastResult: REVIEW — meta title/desc audit of iters 371-373. 13 violations across 11 files: EN best-hotels-tiberias desc 164->160; EN jerusalem-pilgrimage-road title 74->62; FR akko-bahai-mansion title 67->64 desc 173->153; FR akko-hospitaller-knights desc 182->149; FR akko-khan-al-umdan title 79->65 desc 210->140; FR akko-templar-tunnel title 66->59 desc 180->147; DE akko-bahai-mansion desc 180->157; DE akko-hospitaller-knights desc 194->160; DE akko-khan-al-umdan desc 180->142; DE akko-old-city desc 161->150; DE akko-templar-tunnel title 69->60 desc 201->136. All internal links on new guides resolve OK. Gate: 0 check errors, 589 pages (no change), 796/796 e2e pass. SHA a012490. CI in_progress at push time.
+- nextRotationCategory: 375%5==0 → RESEARCH. 376%5==1 → BUILD (seo-content). 377%5==2 → BUILD (monetization). 378%5==3 → BUILD (tools/i18n). 379%5==4 → REVIEW.
 - higgsfieldSpent: 0
-- updatedAt: 2026-07-08T03:55Z
+- updatedAt: 2026-07-08T04:45Z
 - branch context: work on master; feature work on auto/<slug>
+
+Notes: iter 374 REVIEW — meta title/desc audit of iters 371-373. 13 violations fixed in 11 files (EN best-hotels-tiberias desc, EN jerusalem-pilgrimage-road title, FR+DE 5 Akko attractions with widespread description overruns). Lesson: FR+DE descriptions tend to run 15-20% longer than English for same content — budget tighter at authoring time. All internal links on new guides resolved OK. Gate: 0 errors, 589 pages (no change), 796/796 e2e. SHA a012490. CI in_progress at push time.
 
 Notes: iter 373 BUILD (tools fall-through → i18n Phase 4 Batch 7) — 5 Akko attractions × FR+DE. Tools category empty (all 11 tools shipped); fell through to i18n. Akko cluster chosen (5 items = natural batch; bahai-mansion has religiousSiteId = haifa-bahai-gardens precedent from Batch 5). DE Khan FAQ reworded to avoid German-typographic-quote YAML collision (recurring lesson from iters 137/142/147/343/348/358/368). FR+DE Akko attractions: 5/5 COMPLETE. Remaining untranslated EN attractions: Caesarea (4), Dead Sea (3 remaining: ein-gedi, mineral-beach, qumran), Eilat (5), Nazareth (4), Negev (5) = 21 total (excluding deferred holy-sepulchre + temple-mount = 23 total remaining). fr pages: ~100/~158. de pages: ~100/~158.
 

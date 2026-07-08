@@ -6584,3 +6584,24 @@ smoke.spec.ts + a11y.spec.ts +10 routes each.
 Gate: pnpm check 0 errors · pnpm build 589 pages (+10 from 579) · pnpm test:e2e 796/796 pass (+20 from 776).
 Merge: squash-merged to master SHA c212fa5, pushed origin/master.
 Prod: CI + Lighthouse in_progress at push time (consistent with all prior iterations).
+
+## 2026-07-08T04:45Z · iter 374 · REVIEW · meta title/desc audit of iters 371-373
+What: REVIEW pass (374%5==4). Audited iters 371-373 output: best-hotels-tiberias, jerusalem-pilgrimage-road, and 10 FR+DE Akko attraction locale pages (iter 373 Batch 7).
+Audit checks: (1) meta title ≤65 chars, description ≤160 chars; (2) internal link resolution (all links in new guides); (3) no fabricated prices or review counts; (4) FR/DE content language correctness (spot-checked).
+Findings — 13 violations across 11 files (0 in iters 362-369 already fixed in iters 364/369):
+- EN best-hotels-tiberias.md desc: 164->160 (removed 'the ' before 'Scots Hotel')
+- EN jerusalem-pilgrimage-road.md title: 74->62 (removed 'The Ancient Stepped Street ')
+- FR akko-bahai-mansion.md title: 67->64 (removed 'le '); desc: 173->153 (removed ' finale' + ' respectueuse')
+- FR akko-hospitaller-knights.md desc: 182->149 (removed ', restaurées dans les années 1990')
+- FR akko-khan-al-umdan.md title: 79->65 (rewrote to remove 'la ... de 1785 ... et sa'); desc: 210->140 (compact rewrite)
+- FR akko-templar-tunnel.md title: 66->59 (removed ' secret'); desc: 180->147 (removed ', éclairé et ouvert aux visiteurs')
+- DE akko-bahai-mansion.md desc: 180->157 (removed ' besuchen' + 'respektvoller ')
+- DE akko-hospitaller-knights.md desc: 194->160 (removed ', in den 1990er Jahren restauriert')
+- DE akko-khan-al-umdan.md desc: 180->142 (removed ', erbaut von Ahmed Pascha al-Dschazzar')
+- DE akko-old-city.md desc: 161->150 (removed ' nördlichen')
+- DE akko-templar-tunnel.md title: 69->60 (removed ' geheimer'); desc: 201->136 (concise rewrite)
+Internal links: all 9 links in best-hotels-tiberias + all 4 in jerusalem-pilgrimage-road resolve to existing content.
+Lesson: FR/DE locale pages from Batch 7 (iter 373) had widespread description overruns — French and German tend to be more verbose than English for the same semantic content; budget an extra 15-20% trim margin when authoring.
+Gate: pnpm check 0 errors; pnpm build 589 pages (no change); pnpm test:e2e 796/796 pass.
+Merge: committed to master SHA a012490, pushed origin/master.
+Prod: CI in_progress at push time.
