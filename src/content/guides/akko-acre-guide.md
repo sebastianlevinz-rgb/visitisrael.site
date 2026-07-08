@@ -139,4 +139,6 @@ A taxi from the Old City takes about ten minutes. If you are combining Akko with
 
 **Day-trip pacing:** Arrive at opening time for the underground complex, walk the Old City before midday heat builds in summer, eat a seafood lunch at the port (12:30–13:30 to beat queues), and spend the afternoon at the sea walls and Bahá'í Mansion before heading back. That schedule gives you a complete visit without rushing.
 
+**Extending north:** Drivers can continue north from Akko along Route 4 to combine the visit with the [Western Galilee circuit](/western-galilee-guide) — Lohamei HaGeta'ot Holocaust museum (10 km north), Rosh Hanikra sea caves, and inland sites including Montfort Castle and Beit She'arim UNESCO necropolis.
+
 ---

@@ -81,7 +81,7 @@ faqs:
 | Tel Megiddo | ~40 min |
 | [Carmel Druze Villages](/druze-villages-carmel) | ~40 min |
 
-For a rental car, compare options at [Discovercars or RentalCars](/car-rental-israel) and book in advance — demand is high in summer.
+For a rental car, compare options at [Discovercars or RentalCars](/car-rental-israel) and book in advance — demand is high in summer. For a fuller northern circuit — Lohamei HaGeta'ot Holocaust museum, Montfort Castle, Beit She'arim UNESCO necropolis and Nahal Kziv water hike — see the [Western Galilee guide](/western-galilee-guide).
 
 ## Cruise-port windows
 

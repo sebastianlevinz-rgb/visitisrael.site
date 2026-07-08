@@ -437,6 +437,7 @@ const ROUTES = [
   '/jerusalem-pilgrimage-road',
   '/best-hotels-tiberias',
   '/tabgha-church-guide',
+  '/western-galilee-guide',
 ];
 
 for (const route of ROUTES) {
