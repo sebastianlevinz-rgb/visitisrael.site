@@ -1,7 +1,7 @@
 ---
 lang: de
 title: "Qumran: Der Fundort der Schriftrollen vom Toten Meer"
-description: "Besuchen Sie den Nationalpark Qumran am nördlichen Toten Meer — die ausgegrabene Essener-Siedlung, die Höhlen wo die Schriftrollen gefunden wurden, Öffnungszeiten und Tipps."
+description: "Nationalpark Qumran am Toten Meer — Essener-Siedlung, Höhlen der Schriftrollen, Öffnungszeiten und praktische Tipps."
 region: dead-sea
 parentRegion: dead-sea
 heroImage: /images/sub-destinations/dead-sea/qumran.jpg

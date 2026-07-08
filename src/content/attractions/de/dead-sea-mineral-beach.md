@@ -1,7 +1,7 @@
 ---
 lang: de
-title: "Mineralstrand am Toten Meer: Schweben, Schlamm und öffentlicher Strandzugang"
-description: "Öffentliche Strände am Toten Meer zum Schweben, Mineralschlamm auftragen und einen Tagesausflug genießen — ohne Hotelübernachtung. Kalia, Ein Bokek und Ein Gedi im Überblick."
+title: "Totes Meer Mineralstrände: Schweben, Schlamm & Zugang"
+description: "Öffentliche Totes-Meer-Strände zum Schweben und Mineralschlamm — kein Hotel nötig. Kalia, Ein Bokek und Ein Gedi im Überblick."
 region: dead-sea
 parentRegion: dead-sea
 heroImage: /images/sub-destinations/dead-sea/mineral-beach.jpg

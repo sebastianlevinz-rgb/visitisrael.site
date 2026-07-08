@@ -1,7 +1,7 @@
 ---
 lang: fr
 title: "Réserve naturelle d'Ein Gedi : randonnées et cascades"
-description: "Visitez la réserve naturelle d'Ein Gedi au bord de la mer Morte — randonnées dans les canyons Nahal David et Nahal Arugot, cascades, bouquetins et conseils pratiques."
+description: "Visitez la réserve naturelle d'Ein Gedi — randonnées Nahal David et Nahal Arugot, cascades, bouquetins sauvages et conseils pratiques."
 region: dead-sea
 parentRegion: dead-sea
 heroImage: /images/sub-destinations/dead-sea/ein-gedi.jpg

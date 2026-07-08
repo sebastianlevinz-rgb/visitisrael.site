@@ -1,7 +1,7 @@
 ---
 lang: fr
 title: "Qumrân : le site de découverte des rouleaux de la mer Morte"
-description: "Visitez le parc national de Qumrân au nord de la mer Morte — la colonie essénienne fouillée, les grottes où furent découverts les rouleaux de la mer Morte, horaires et conseils."
+description: "Visitez le parc national de Qumrân — la colonie essénienne fouillée, les grottes des rouleaux de la mer Morte, horaires et conseils."
 region: dead-sea
 parentRegion: dead-sea
 heroImage: /images/sub-destinations/dead-sea/qumran.jpg

@@ -1,7 +1,7 @@
 ---
 lang: fr
 title: "Plages minérales de la mer Morte : flotter, boue et accès public"
-description: "Plages publiques de la mer Morte pour flotter, appliquer la boue minérale et profiter d'une expérience de journée sans séjourner à l'hôtel — Kalia, Ein Bokek et Ein Gedi."
+description: "Plages publiques de la mer Morte pour flotter et appliquer la boue minérale sans séjourner à l'hôtel — Kalia, Ein Bokek et Ein Gedi."
 region: dead-sea
 parentRegion: dead-sea
 heroImage: /images/sub-destinations/dead-sea/mineral-beach.jpg

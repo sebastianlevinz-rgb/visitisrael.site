@@ -1,6 +1,6 @@
 ---
 title: 'Day Trips from Eilat: Timna, Petra, Red Canyon & More (2026)'
-description: 'The best day trips from Eilat: Timna Park, Red Canyon, Petra Jordan, Aqaba, Coral Beach and Glass-Bottom Boat. Comparison table, practical tips and honest advice on what fits in a day.'
+description: 'Day trips from Eilat: Timna Park, Petra Jordan, Red Canyon, Aqaba and Coral Beach. Comparison table, travel times, practical tips and honest advice.'
 heroImage: /images/regions/eilat/timna-park.jpg
 category: Tours
 verdictName: day trips from Eilat
