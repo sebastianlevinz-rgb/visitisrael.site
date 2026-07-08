@@ -307,6 +307,7 @@ const ROUTES = [
   '/best-hotels-tiberias',
   '/tabgha-church-guide',
   '/western-galilee-guide',
+  '/israel-vs-turkey',
 ];
 
 for (const route of ROUTES) {

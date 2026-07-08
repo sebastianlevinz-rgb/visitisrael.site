@@ -323,6 +323,7 @@ const ROUTES = [
   '/jerusalem-nightlife',
   '/galilee-vs-golan-weekend',
   '/dead-sea-vs-eilat',
+  '/israel-vs-turkey',
   '/beer-sheva-guide',
   '/ein-kerem-jerusalem-guide',
   '/tel-arad-guide',
