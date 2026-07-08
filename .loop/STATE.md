@@ -1,12 +1,12 @@
 # LOOP STATE
 
-- iteration: 371
-- lastMode: BUILD (seo-content) (371%5==1)
-- lastItem: jerusalem-pilgrimage-road
-- lastResult: BUILD (seo-content) — jerusalem-pilgrimage-road shipped. P2 S. New /jerusalem-pilgrimage-road: 600-metre Second Temple-era stepped processional street from Pool of Siloam to Temple Mount, opened January 2026 after 13 years of IAA excavation. First English editorial guide for this site (zero LP/Timeout/TripAdvisor coverage). Content: archaeological context (Herodian-era ~20 BCE–70 CE), distinction from Hezekiah's Tunnel (comparison table), Pool of Siloam Gospel of John tie-in, what to see along the route (column drums, tabernae, coin finds, Herodian stonework), Herodian Drainage Channel option, Silwan dual-naming context, combination routes (City of David + Western Wall + Via Dolorosa + christian-pilgrimage route). 2 affiliate CTAs (GYG City of David tour, Booking.com Jerusalem hotels). 6 FAQs. Cross-links: city-of-david-jerusalem.md (Pool of Siloam section + Combining section); christian-pilgrimage-holy-land.md (Jerusalem section). Tests: +1 route each in smoke.spec.ts + a11y.spec.ts. Gate: 0 check errors, 578 pages (+1), 774/774 e2e (+2). SHA 5279b75. CI in_progress at push time.
-- nextRotationCategory: 372%5==2 → BUILD (monetization). 373%5==3 → BUILD (tools/i18n). 374%5==4 → REVIEW. 375%5==0 → RESEARCH.
+- iteration: 372
+- lastMode: BUILD (monetization) (372%5==2)
+- lastItem: best-hotels-tiberias
+- lastResult: BUILD (monetization) — best-hotels-tiberias shipped. P2 M. New /best-hotels-tiberias: Sea of Galilee where-to-stay guide covering Scots Hotel (5-star; 19th-century Scottish Presbyterian mission hospital; wine cellar; lake-view terrace; Church of Scotland), U Boutique Kinneret (4-star; minimalist design; rooftop bar views), Nof Ginosar Kibbutz Hotel (3-star; private lake beach; Jesus Boat Museum on grounds; family-friendly), Leonardo Club (4-star; all-inclusive; beach), Ein Gev Holiday Resort (east shore; ferry/northern-road access logistics). Decision matrix table, booking context (pilgrimage-season demand spikes, hotel quality warning on dated 4-star stock), Shabbat note. 2 CTAs: Booking.com Tiberias hotels + GYG Sea of Galilee boat tour. 6 FAQs. Cross-links: tiberias-guide.md, sea-of-galilee-guide.md, galilee-tours-compared.md. Tests: +1 route each in smoke.spec.ts + a11y.spec.ts. Gate: 0 check errors, 579 pages (+1), 776/776 e2e (+2). SHA a6bdbf1. CI in_progress at push time.
+- nextRotationCategory: 373%5==3 → BUILD (tools/i18n). 374%5==4 → REVIEW. 375%5==0 → RESEARCH. 376%5==1 → BUILD (seo-content).
 - higgsfieldSpent: 0
-- updatedAt: 2026-07-08T01:40Z
+- updatedAt: 2026-07-08T02:39Z
 - branch context: work on master; feature work on auto/<slug>
 
 Notes: iter 370 RESEARCH — 8 net-new items added to BACKLOG (all grep-confirmed zero prior hits): arava-mountain-biking (P2 S), best-hotels-tiberias (P2 M), best-hotels-mitzpe-ramon (P2 M), nahal-pratzim-guide (P2 S), jerusalem-pilgrimage-road (P2 S, SHIPPED iter371), via-ferrata-israel (P2 S), knesset-museum-jerusalem (P3 S), new-luxury-hotels-israel-2026 (P2 M). Key 2026 finding: Jerusalem Pilgrimage Road (Pool of Siloam → Temple Mount, opened Jan 2026) is entirely unguided on English travel sites. Major English publishers (LP, Timeout, TripAdvisor) frozen at pre-Oct 2023 Israel content — systematic gap opportunity. COMPETITORS.md updated. No code shipped.

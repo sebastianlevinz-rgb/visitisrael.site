@@ -6562,3 +6562,9 @@ Cross-links added:
 Gate: pnpm check 0 errors; pnpm build 578 pages (+1 from 577); pnpm test:e2e 774/774 pass (+2 from 772 — /jerusalem-pilgrimage-road added to both smoke.spec.ts and a11y.spec.ts ROUTES arrays).
 Merge: squash-merged to master SHA 5279b75, pushed origin/master.
 Prod: CI and Lighthouse workflows in_progress at push time (consistent with all prior iterations; Vercel deploy triggered by master push).
+
+## 2026-07-08T02:39Z · iter 372 · BUILD (monetization) · best-hotels-tiberias
+What: New /best-hotels-tiberias — Sea of Galilee where-to-stay guide (P2 M monetization). Five hotel tiers: Scots Hotel 5-star (19th-century Scottish Presbyterian mission hospital, Church of Scotland-owned, wine cellar, lake-view terrace — most characterful in Tiberias), U Boutique Kinneret 4-star (minimalist design, rooftop bar), Nof Ginosar Kibbutz Hotel 3-star (private lake beach, Jesus Boat Museum on grounds, family-friendly base for Christian circuit), Leonardo Club 4-star (all-inclusive, beach), Ein Gev Holiday Resort 2-star (east shore, ferry/northern-road access logistics clearly explained). Decision matrix table. Booking context: pilgrimage-season demand spikes (Easter/Passover fills Scots months ahead); hotel quality warning (some 4-star listings are dated — check guest sub-scores). Shabbat note. 2 CTAs: Booking.com Tiberias, GYG Sea of Galilee boat tour. 6 FAQs. Cross-links: tiberias-guide.md Cross-links section, sea-of-galilee-guide.md overnight paragraph, galilee-tours-compared.md footer.
+Gate: pnpm check 0 errors; pnpm build 579 pages (+1); pnpm test:e2e 776/776 pass (+2 — /best-hotels-tiberias added to smoke.spec.ts + a11y.spec.ts).
+Merge: squash-merged to master SHA a6bdbf1, pushed origin/master.
+Prod: CI + Lighthouse in_progress at push time (consistent with all prior iterations).

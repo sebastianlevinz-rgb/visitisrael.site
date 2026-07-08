@@ -717,3 +717,6 @@ smoke.spec.ts + a11y.spec.ts +10 routes each. Gate: 0 check errors · 577 pages 
 ## iter 371 · 2026-07-08 · BUILD (seo-content)
 **jerusalem-pilgrimage-road** · SHA 5279b75
 New /jerusalem-pilgrimage-road: first English editorial guide for the 600-metre Second Temple-era stepped street from Pool of Siloam to Temple Mount, opened January 2026 after 13 years of IAA excavation. 578 pages, 774 e2e.
+
+## iter372 — best-hotels-tiberias · SHA a6bdbf1
+/best-hotels-tiberias — Sea of Galilee where-to-stay money page. Scots Hotel (5-star, Church of Scotland mission hospital), U Boutique Kinneret (4-star), Nof Ginosar Kibbutz (3-star, lake beach + Jesus Boat Museum), Leonardo Club (4-star, all-inclusive), Ein Gev (east shore). Decision matrix, booking context, Shabbat note. Booking.com + GYG CTAs. 6 FAQs. Cross-links: tiberias-guide, sea-of-galilee-guide, galilee-tours-compared. 579 pages, 776 e2e.
