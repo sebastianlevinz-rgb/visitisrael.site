@@ -6789,3 +6789,10 @@ Research method: 50+ targeted python3 regex searches against full BACKLOG.md (~9
   6. israel-cyprus-trip-guide (P3, seo-content+monetization, S) — confirmed 0 P-item hits for Israel+Cyprus combination
 De-duped and rejected: guided-vs-self-guided (P3 backlog), honeymoon (P3 backlog), travel insurance (backlog), israel-for-uk-travelers (partially covered by general guides), israel-ferry-to-greece (not viable regular transport — footnote in #1 instead).
 Next: iter 391 → BUILD (seo-content). Candidate: israel-in-spring (P2, M, confirmed SERP gap) or israel-vs-turkey (P2, S, quick build). BUILD rotation: 391=seo-content, 392=monetization, 393=tools/i18n, 394=REVIEW.
+
+## 2026-07-08T21:55Z · iter 391 · BUILD (seo-content) · israel-vs-turkey
+Mode: BUILD (391%5==1, seo-content rotation). Item chosen: israel-vs-turkey (P2, S, seo-content+monetization). Negev-stargazing-guide skipped — already shipped as israel-stargazing (iter251, confirmed in DONE.md).
+What: new /israel-vs-turkey comparison guide. First Israel vs Turkey head-to-head on the web for Israel travel sites (confirmed gap: 0 backlog matches in 50+ regex searches). 2,000-word guide covering costs, beaches, history, food, safety, visas, nightlife, getting there. Side-by-side comparison table (11 criteria). 6 FAQs. 3 affiliate CTAs: Booking.com (Israel hotels), Skyscanner (flights comparison), GetYourGuide (Israel tours). Dense cross-links: first-time-in-israel, israel-cost-budget, is-israel-safe, best-beaches-israel, visa-information, dead-sea-vs-eilat, tel-aviv-vs-jerusalem. Footer wired (Essentials section). Cross-links added to first-time-in-israel.md + israel-cost-budget.md. Smoke +1; a11y +1. 620 pages (+1 vs iter389).
+Gate: pnpm check 0 errors; build 620 pages; 854/854 e2e+a11y pass (local). CI: all steps success (a2baa0e, run #700).
+Ship: squash-merged to master a2baa0e, pushed. Prod: CI=success.
+Next: iter 392 → BUILD (monetization). Candidate: timna-park-guide (P2, M) or israel-airbnb-vs-hotel (P3, S) or dead-sea-departure-comparison (money page).

@@ -1,13 +1,15 @@
 # LOOP STATE
 
-- iteration: 390
-- lastMode: RESEARCH (390%5==0)
-- lastItem: research-390-multi-destination-cruise
-- lastResult: NO SHIP (RESEARCH mode). 6 new items added to BACKLOG: israel-greece-itinerary (P2 M), israel-vs-turkey (P2 S), israel-mediterranean-cruise-guide (P2 M), israel-airbnb-vs-hotel (P3 S), israel-music-tourism (P3 S), israel-cyprus-trip-guide (P3 S).
-- nextRotationCategory: 391%5==1 → BUILD (seo-content). 392%5==2 → BUILD (monetization). 393%5==3 → BUILD (tools/i18n). 394%5==4 → REVIEW. 395%5==0 → RESEARCH.
+- iteration: 391
+- lastMode: BUILD (seo-content) (391%5==1)
+- lastItem: israel-vs-turkey
+- lastResult: SHIPPED a2baa0e. /israel-vs-turkey — Israel vs Turkey comparison guide. 620 pages. 854/854 e2e+a11y pass. CI=success.
+- nextRotationCategory: 392%5==2 → BUILD (monetization). 393%5==3 → BUILD (tools/i18n). 394%5==4 → REVIEW. 395%5==0 → RESEARCH.
 - higgsfieldSpent: 0
-- updatedAt: 2026-07-08T21:30Z
+- updatedAt: 2026-07-08T21:55Z
 - branch context: work on master; feature work on auto/<slug>
+
+Notes: iter 391 BUILD (seo-content) — /israel-vs-turkey shipped. First Israel vs Turkey comparison guide on the site; confirmed genuine gap (0 matches in 50+ BACKLOG searches). 2,000-word head-to-head guide covering costs, beaches, history, food, safety, visas, nightlife, getting there. Side-by-side table. 6 FAQs. 3 affiliate CTAs (Booking.com hotels, Skyscanner flights, GetYourGuide tours). Footer wired + cross-links added to first-time-in-israel.md and israel-cost-budget.md. Smoke +1 (/israel-vs-turkey), a11y +1. 620 pages (+1). 854/854 e2e+a11y pass. CI=success (a2baa0e).
 
 Notes: iter 390 RESEARCH (390%5==0) — 6 new items added to BACKLOG. Research covered americaisraeltours.com (guided vs independent already in backlog), roughguides.com/israel (content frozen since 2023, no new gaps), Mediterranean cruise lines (confirmed cruise destination planning gap), multi-country combination travel (Israel+Greece, Israel+Cyprus confirmed as genuine gaps after 50+ BACKLOG searches). Pattern: after 77 research iterations the backlog is extraordinarily comprehensive; genuinely new items now trend toward multi-destination combo guides and format-specific comparison angles. No code shipped.
 
