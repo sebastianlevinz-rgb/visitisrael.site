@@ -1,6 +1,6 @@
 ---
 lang: fr
-title: "Plage de l'Aqueduc de Césarée : aqueduc romain et baignade en Méditerranée"
+title: "Plage de l'Aqueduc de Césarée : aqueduc romain et baignade"
 description: "Plage de l'Aqueduc de Césarée — côte méditerranéenne ouverte sous les arches de l'aqueduc romain du IIe siècle ; accès libre, baignade gratuite."
 region: caesarea
 parentRegion: caesarea

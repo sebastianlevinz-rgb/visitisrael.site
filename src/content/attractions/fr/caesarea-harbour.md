@@ -1,7 +1,7 @@
 ---
 lang: fr
 title: "Port de Césarée : premier port artificiel romain de l'Antiquité"
-description: "Explorer le port de Césarée Maritima — Hérode le Grand a construit le premier port artificiel en eaux profondes grâce au béton hydraulique ; ruines partiellement submergées."
+description: "Explorer le port de Césarée Maritima — premier port artificiel en eaux profondes ; béton hydraulique d'Hérode le Grand ; ruines partiellement submergées."
 region: caesarea
 parentRegion: caesarea
 heroImage: /images/sub-destinations/caesarea/harbour.jpg

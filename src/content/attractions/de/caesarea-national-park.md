@@ -1,7 +1,7 @@
 ---
 lang: de
 title: "Nationalpark Caesarea: Römische und Kreuzfahrer-Archäologie"
-description: "Nationalpark Caesarea besuchen — herodianischer Römerhafen, restauriertes Römisches Theater, Kreuzfahrermauern und Unterwasserarchäologie an der Mittelmeerküste."
+description: "Nationalpark Caesarea besuchen — herodianischer Römerhafen, restauriertes Römisches Theater, Kreuzfahrermauern und Unterwasserarchäologie."
 region: caesarea
 parentRegion: caesarea
 heroImage: /images/sub-destinations/caesarea/national-park.jpg

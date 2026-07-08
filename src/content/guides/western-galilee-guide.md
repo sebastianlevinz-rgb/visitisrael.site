@@ -1,6 +1,6 @@
 ---
-title: "Western Galilee Travel Guide: Lohamei HaGeta'ot, Montfort, Beit She'arim & Beyond (2026)"
-description: "Discover Western Galilee beyond Akko — Lohamei HaGeta'ot Holocaust museum, Montfort Castle, Beit She'arim UNESCO necropolis, Nahal Kziv water hike, and Peqi'in village."
+title: "Western Galilee Guide: Montfort, Beit She'arim & Trails (2026)"
+description: "Discover Western Galilee beyond Akko: Lohamei HaGeta'ot Holocaust museum, Montfort Castle, Beit She'arim necropolis, Nahal Kziv and Peqi'in village."
 heroImage: /images/regions/akko/old-city.jpg
 category: Destination Guide
 updatedAt: 2026-07-08

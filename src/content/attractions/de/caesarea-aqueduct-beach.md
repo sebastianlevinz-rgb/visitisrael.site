@@ -1,6 +1,6 @@
 ---
 lang: de
-title: "Aquädukt-Strand Caesarea: Römisches Aquädukt und Mittelmeerschwimmen"
+title: "Aquädukt-Strand Caesarea: Römisches Aquädukt & Schwimmen"
 description: "Schwimmen am Caesarea Aquädukt-Strand — offene Mittelmeerküste direkt unter den erhaltenen Bögen des römischen Aquädukts aus dem 2. Jh.; freier Zugang."
 region: caesarea
 parentRegion: caesarea

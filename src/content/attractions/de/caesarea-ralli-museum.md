@@ -1,6 +1,6 @@
 ---
 lang: de
-title: "Ralli-Museum Caesarea: Lateinamerikanische und europäische Kunst, Eintritt frei"
+title: "Ralli-Museum Caesarea: Lateinamerikanische Kunst, Eintritt frei"
 description: "Das Ralli-Museum in Caesarea besuchen — Harry Recanatis Privatsammlung lateinamerikanischer und europäischer Moderne; kostenloser Eintritt, Skulpturengärten."
 region: caesarea
 parentRegion: caesarea

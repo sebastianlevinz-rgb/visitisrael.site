@@ -1,7 +1,7 @@
 ---
 lang: fr
-title: "Musée Ralli de Césarée : art latino-américain et européen, entrée gratuite"
-description: "Visiter le Musée Ralli à Césarée — collection privée de Harry Recanati : art moderne latino-américain et européen, jardins de sculptures, entrée entièrement gratuite."
+title: "Musée Ralli de Césarée : art moderne européen, entrée libre"
+description: "Visiter le Musée Ralli à Césarée — Harry Recanati : art moderne latino-américain et européen, jardins de sculptures, entrée gratuite."
 region: caesarea
 parentRegion: caesarea
 heroImage: /images/sub-destinations/caesarea/ralli-museum.jpg
