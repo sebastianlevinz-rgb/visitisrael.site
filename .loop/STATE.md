@@ -1,13 +1,15 @@
 # LOOP STATE
 
-- iteration: 392
-- lastMode: BUILD (monetization) (392%5==2)
-- lastItem: sarona-market-tel-aviv
-- lastResult: SHIPPED ce903fd. /sarona-market-tel-aviv — Sarona Market Tel Aviv indoor food hall guide. 621 pages. 856/856 e2e+a11y pass. CI=in_progress (Lighthouse).
-- nextRotationCategory: 393%5==3 → BUILD (tools/i18n). 394%5==4 → REVIEW. 395%5==0 → RESEARCH. 396%5==1 → BUILD (seo-content).
+- iteration: 393
+- lastMode: BUILD (tools/i18n) (393%5==3)
+- lastItem: i18n-nazareth-attractions-batch11
+- lastResult: SHIPPED 2dadb40. i18n Phase 4 Batch 11 — Nazareth 4 attractions FR+DE. 629 pages. 872/872 e2e+a11y pass. CI=in_progress (Lighthouse).
+- nextRotationCategory: 394%5==4 → REVIEW. 395%5==0 → RESEARCH. 396%5==1 → BUILD (seo-content). 397%5==2 → BUILD (monetization).
 - higgsfieldSpent: 0
-- updatedAt: 2026-07-08T22:50Z
+- updatedAt: 2026-07-08T23:55Z
 - branch context: work on master; feature work on auto/<slug>
+
+Notes: iter 393 BUILD (tools/i18n) — i18n Phase 4 Batch 11 shipped. All 4 Nazareth attractions now in FR+DE: nazareth/basilica-of-the-annunciation (religiousSiteId preserved), nazareth/marys-well (religiousSiteId preserved), nazareth/mount-of-precipice, nazareth/old-city. Honesty: religiousSiteId (basilica-of-the-annunciation, marys-well) preserved in FR+DE frontmatter matching EN. No religious content invented or altered — paired naming and neutral framing carried from EN exactly. smoke.spec.ts + a11y.spec.ts +8 routes each. 629 pages (+8). 872/872 e2e+a11y pass. Remaining untranslated EN attractions: Negev (5: avdat, bedouin-hospitality, ein-avdat, mitzpe-ramon, sde-boker) = 5 ready + 2 deferred (jerusalem/holy-sepulchre, jerusalem/temple-mount). fr pages: ~132/~158. de pages: ~132/~158. Next i18n: Phase 4 Batch 12 — Negev 5 attractions.
 
 Notes: iter 392 BUILD (monetization) — /sarona-market-tel-aviv shipped. Upscale indoor food hall guide set in German Templar colony (1871). 1,800-word guide covering food hall vendors (gourmet sandwiches, craft beer/wine, artisan ice cream/chocolate, sit-down restaurants Taizu + Nini HaSasson), heritage walk, Carmel vs Sarona comparison table, practical info (hours/access/price tier). GYG food tour + Booking.com hotel CTAs. 6 FAQs. Footer link added; tel-aviv-food-guide.md and tel-aviv-carmel-market.md updated with cross-links. Smoke +1, a11y +1. 621 pages (+1). 856/856 e2e+a11y pass. Note: israelistreet-food-guide item in BACKLOG line 140 was stale (guide already shipped iter117 as israeli-street-food-guide.md) — marked shipped/removed.
 

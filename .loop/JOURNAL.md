@@ -6804,3 +6804,11 @@ Gate: pnpm check 0 errors; build 621 pages (+1); 856/856 e2e+a11y pass.
 Ship: squash-merged to master ce903fd, pushed. Prod: CI in_progress (Lighthouse) at time of journal — expected success.
 Backlog housekeeping: stale BACKLOG line 140 (israeli-street-food) marked shipped — see BACKLOG update.
 Next: iter 393 → BUILD (tools/i18n). Candidate: i18n Phase 4 Batch 11 (Nazareth 4 attractions: basilica-of-the-annunciation, marys-well, mount-of-precipice, old-city) or tools item.
+
+## 2026-07-08T23:55Z · iter 393 · BUILD (tools/i18n) · i18n-nazareth-attractions-batch11
+Mode: BUILD (393%5==3, tools/i18n rotation). i18n Phase 4 Batch 11 chosen (Nazareth 4 attractions).
+What: FR+DE translations for all 4 Nazareth attractions: nazareth/basilica-of-the-annunciation (religiousSiteId: basilica-of-the-annunciation preserved in both locales), nazareth/marys-well (religiousSiteId: marys-well preserved), nazareth/mount-of-precipice, nazareth/old-city. 8 new locale pages (4 FR + 4 DE). Honesty: both basilica + marys-well are religious sites with religiousSiteId — frontmatter carried faithfully; EN neutral framing and paired-naming preserved exactly (two Annunciation traditions described without taking sides). No prices fabricated; description lengths ≤130c per locale target. smoke.spec.ts + a11y.spec.ts +8 routes each.
+Gate: pnpm check 0 errors (1 pre-existing hint); build 629 pages (+8 vs iter392); 872/872 e2e+a11y pass.
+Ship: squash-merged to master 2dadb40, pushed. Prod: CI=in_progress (Lighthouse) at time of journal.
+i18n progress: Nazareth COMPLETE (4/4). Remaining untranslated EN attractions: Negev 5 (avdat, bedouin-hospitality, ein-avdat, mitzpe-ramon, sde-boker) + 2 deferred (jerusalem/holy-sepulchre, jerusalem/temple-mount). fr pages: ~132/~158. de pages: ~132/~158.
+Next: iter 394 → REVIEW. Then iter 395 → RESEARCH. Then iter 396 → BUILD (seo-content). Next i18n: Phase 4 Batch 12 — Negev 5 attractions (iter 397 tools/i18n).
