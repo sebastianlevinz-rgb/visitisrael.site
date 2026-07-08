@@ -6673,3 +6673,10 @@ Items de-duped and already in backlog (14 candidates ruled out): Rosh Hanikra, B
 Side note: Hanukkah guide is entered twice in BACKLOG (iter205 + iter265) — flag for deduplication in next REVIEW pass.
 Pattern: Eilat 2025/2026 new infrastructure is under-documented in English editorial; Tel Aviv Nov–Jan winter season is an open SERP window (israel-in-winter.md not yet in backlog — candidate for next RESEARCH pass).
 Next: 381%5==1 → BUILD (seo-content). Next item candidates from backlog: eilat-beach-guide (P2, S, iter375) or terminal-park-eilat (P2, S, iter380).
+
+## 2026-07-08T11:40Z · iter 381 · BUILD (seo-content) · eilat-beach-guide
+
+What: New /eilat-beach-guide — comparison guide for Eilat's 4 beaches: North Beach (resort strip, free, watersports), Coral Beach Nature Reserve (INPA snorkel ~₪30, reef-safe sunscreen mandatory), Almog Beach (northernmost, free, quiet, 2026 municipal expansion), Dolphin Reef (private, dolphin encounter + beach). At-a-glance comparison table, seasonal notes (best Oct–May; summer beach doable before 10am or after 5pm), practical transport tips. 3 affiliate CTAs: Booking.com Eilat hotels, GYG Red Sea snorkel, DiscoverCars. 6 FAQs. Cross-links: eilat-travel-guide ("The beaches" section), best-beaches-israel (Eilat section intro).
+Gate: 0 check errors; 600 pages (+1); 817/817 e2e+a11y pass.
+Merge: squash-merged to master SHA 681b102, pushed. CI in_progress at push time.
+Prod: Lighthouse + CI workflows started for 681b102; pending at end of iteration (normal — confirm on next run).
