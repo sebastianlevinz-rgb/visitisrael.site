@@ -1,13 +1,15 @@
 # LOOP STATE
 
-- iteration: 389
-- lastMode: REVIEW (389%5==4)
-- lastItem: review-389-meta-trim
-- lastResult: SHIPPED 11 meta fixes across 11 files (10 FR+DE Eilat locale descs + GYG-vs-Viator title). Gate: pnpm check 0 errors; build 619 pages unchanged; 852/852 e2e+a11y pass. SHA 73e85ca. Prod deploy in progress at push time.
-- nextRotationCategory: 390%5==0 → RESEARCH. 391%5==1 → BUILD (seo-content). 392%5==2 → BUILD (monetization). 393%5==3 → BUILD (tools/i18n). 394%5==4 → REVIEW.
+- iteration: 390
+- lastMode: RESEARCH (390%5==0)
+- lastItem: research-390-multi-destination-cruise
+- lastResult: NO SHIP (RESEARCH mode). 6 new items added to BACKLOG: israel-greece-itinerary (P2 M), israel-vs-turkey (P2 S), israel-mediterranean-cruise-guide (P2 M), israel-airbnb-vs-hotel (P3 S), israel-music-tourism (P3 S), israel-cyprus-trip-guide (P3 S).
+- nextRotationCategory: 391%5==1 → BUILD (seo-content). 392%5==2 → BUILD (monetization). 393%5==3 → BUILD (tools/i18n). 394%5==4 → REVIEW. 395%5==0 → RESEARCH.
 - higgsfieldSpent: 0
-- updatedAt: 2026-07-08T19:50Z
+- updatedAt: 2026-07-08T21:30Z
 - branch context: work on master; feature work on auto/<slug>
+
+Notes: iter 390 RESEARCH (390%5==0) — 6 new items added to BACKLOG. Research covered americaisraeltours.com (guided vs independent already in backlog), roughguides.com/israel (content frozen since 2023, no new gaps), Mediterranean cruise lines (confirmed cruise destination planning gap), multi-country combination travel (Israel+Greece, Israel+Cyprus confirmed as genuine gaps after 50+ BACKLOG searches). Pattern: after 77 research iterations the backlog is extraordinarily comprehensive; genuinely new items now trend toward multi-destination combo guides and format-specific comparison angles. No code shipped.
 
 Notes: iter 389 REVIEW (389%5==4) — meta title/desc audit of iters 386-388 (israel-in-autumn, getyourguide-vs-viator-israel, 10 FR+DE Eilat attractions from Batch 10). Findings: 11 meta violations across 11 files. israel-in-autumn clean (58c title, 159c desc, 15 internal links all resolve). getyourguide-vs-viator-israel: title 65c → 51c; all 21 internal links resolve (incl /dead-sea/masada, /akko/old-city, /tel-aviv/old-jaffa — these all work via [region]/[attraction] routing which strips region prefix from filename). All 10 FR+DE Eilat locale descs: 142-195c → all ≤130c (target). fr/eilat-timna-park title also 61c → 53c. Pattern confirmed: FR/DE descs verbose even when EN clean; target ≤130c for locale pages.
 

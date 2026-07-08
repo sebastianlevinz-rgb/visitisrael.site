@@ -6775,3 +6775,17 @@ Internal links: israel-in-autumn 15/15 clean. getyourguide-vs-viator-israel 21/2
 Gate: pnpm check 0 errors · build 619 pages unchanged · 852/852 e2e+a11y pass.
 Ship: committed to master SHA 73e85ca, pushed origin/master. CI in_progress at push time (confirm on next run).
 Pattern: FR/DE descs systematically verbose; target ≤130c for locale page descs (enforced again here as in iter384 and iter379).
+
+## 2026-07-08T21:30Z · iter 390 · RESEARCH · research-390-multi-destination-cruise
+Mode: RESEARCH (390%5==0). No code shipped.
+Competitors reviewed: americaisraeltours.com (guided vs independent → already backlog P3), roughguides.com/israel (editorial frozen since 2023, no new gaps), MSC+Royal Caribbean Mediterranean cruise lines (Israel port destination planning gap confirmed), cyprusisland.net + visitcyprus.com (Israel+Cyprus combo confirmed gap), Mediterranean travel SERP analysis.
+Research method: 50+ targeted python3 regex searches against full BACKLOG.md (~934 lines) to confirm genuine gaps. All prior 77 research iterations have produced an extraordinarily comprehensive backlog; new genuinely novel items now trend toward multi-country combination guides and format/comparison-type pages.
+6 new items added to BACKLOG:
+  1. israel-greece-itinerary (P2, seo-content+monetization, M) — confirmed 0 P-item hits for Greece in itinerary context
+  2. israel-vs-turkey (P2, seo-content+monetization, S) — confirmed 0 P-item hits for Turkey as travel comparison
+  3. israel-mediterranean-cruise-guide (P2, seo-content+monetization, M) — confirmed cruise PLANNING stage unaddressed (existing cruise content = arrivals/shore-excursions only)
+  4. israel-airbnb-vs-hotel (P3, monetization+seo-content, S) — confirmed 0 P-item hits for Airbnb vs hotel comparison
+  5. israel-music-tourism (P3, seo-content, S) — confirmed 0 P-item hits for Eurovision/music culture tourism angle
+  6. israel-cyprus-trip-guide (P3, seo-content+monetization, S) — confirmed 0 P-item hits for Israel+Cyprus combination
+De-duped and rejected: guided-vs-self-guided (P3 backlog), honeymoon (P3 backlog), travel insurance (backlog), israel-for-uk-travelers (partially covered by general guides), israel-ferry-to-greece (not viable regular transport — footnote in #1 instead).
+Next: iter 391 → BUILD (seo-content). Candidate: israel-in-spring (P2, M, confirmed SERP gap) or israel-vs-turkey (P2, S, quick build). BUILD rotation: 391=seo-content, 392=monetization, 393=tools/i18n, 394=REVIEW.

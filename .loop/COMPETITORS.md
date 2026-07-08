@@ -4065,3 +4065,44 @@ Verified that the following items from Agent 1's research ALREADY exist on the s
 7. **Israel diving comprehensive hub** — `eilat-diving-snorkeling.md` (Eilat only) + `yam-caesarea-guide.md` (Caesarea only) exist; no hub covers all Israel dive sites (Red Sea + Mediterranean + Caesarea underwater archaeology) in one guide.
 
 **8 new items added to BACKLOG this iteration** — see BACKLOG for full details with implementation sketches.
+
+### 2026-07-08 · iter 390 · research-390-multi-destination-cruise-and-combination-guides
+
+**Research focus:** Competitor gaps in multi-destination itinerary content, Mediterranean cruise planning, accommodation decision content, music culture tourism, and combination travel guides.
+
+**Competitors reviewed this iteration:**
+- americaisraeltours.com — US-based Jewish-American tour operator with blog content
+- roughguides.com/israel — UK-market travel guide (print + web)
+- msccruises.com + royalcaribbean.com — Mediterranean cruise lines with Israel ports
+- cyprusisland.net + visitcyprus.com — Cyprus tourism (for combination guide)
+- General Mediterranean travel SERP research
+
+**Findings from americaisraeltours.com:**
+Primary content = "Guided Israel Tours vs. Independent Travel" (their core sales pitch) — already captured in BACKLOG as P3 `/guided-vs-self-guided-israel`. Secondary content: Bar/Bat Mitzvah tour packages (SHIPPED iter from Batch 6 as `bar-bat-mitzvah-israel`); synagogue group tours (in backlog as `/israel-group-tour-planning`); heritage travel for American Jews (covered by `jewish-heritage-israel.md` SHIPPED). No new competitive gaps found from this competitor beyond confirmed backlog entries. Key positioning insight: americaisraeltours.com heavily emphasizes the emotional + spiritual impact of Israel for American Jewish travelers — our jewish-heritage-israel.md and israel-after-birthright.md already address this audience.
+
+**Findings from roughguides.com/israel:**
+Rough Guides Israel editorial content frozen since approximately October 2023 — no new articles published since then. This structural editorial gap is consistent with earlier findings (iter385 pattern note). Their Israel content covers: "Introduction to Israel & the Palestinian territories", budget travel basics, Jerusalem/Tel Aviv/Haifa/Eilat city guides, West Bank (excluded by our content policy). No unique angles found that are not already captured in our backlog. Rough Guides UK-market focus confirmed; their budget-travel framing for Israel (hostel listings, bus routing) is well-covered by our `israel-cost-budget.md` (SHIPPED) and `transportation.md` (SHIPPED).
+
+**Key new gaps identified this iteration:**
+
+1. **Multi-country Mediterranean combination guides** — Israel+Greece, Israel+Cyprus — neither competitor addresses these. Growing market of travelers combining Israel with a nearby Mediterranean destination. El Al + budget carriers (Ryanair, Wizz Air, EasyJet) now serve TLV→ATH and TLV→LCA routes aggressively. No major Israel travel site has a dedicated combination guide for either pairing.
+
+2. **Mediterranean cruise destination planning** — Existing Israel cruise content (SHIPPED `cruise-shore-excursions-israel.md`) addresses arrivals; ZERO content addresses the planning decision "should I choose a Mediterranean cruise that includes Israel?" Different funnel stage, high commercial value (cruise average ticket $1,500–$3,000). MSC + Royal Caribbean include Israel ports on select Mediterranean routes.
+
+3. **Israel vs Turkey travel comparison** — Neither Rough Guides nor Tourist Israel nor Lonely Planet has a dedicated "Israel vs Turkey" comparison page for European travelers. This is one of the most common comparison queries in the Eastern Mediterranean travel category. Turkey is Israel's most direct competitor for the European holiday market.
+
+4. **Accommodation format comparison** — "Airbnb vs hotel Israel" is a common search query with no dedicated answer on any Israel travel site. Our accommodation-guide.md (SHIPPED) covers types but doesn't specifically address the binary Airbnb/hotel decision by city.
+
+5. **Israeli music culture** — Post-Eurovision 2024 (Eden Golan, "Hurricane"), international curiosity about Israeli music culture has not been addressed editorially by any Israel travel site. Live music venue guide + cultural framing = a shareable, differentiating guide.
+
+**Pattern confirmed:** Major English-language Israel travel competitors remain largely frozen since late 2023. New content is emerging primarily from niche bloggers and tour operator blogs, not from editorial publishers. This continues to compound our advantage as an active, current publisher.
+
+**De-duped (confirmed already in backlog / shipped):**
+- Guided vs independent travel → P3 `/guided-vs-self-guided-israel` backlog
+- Bar/Bat Mitzvah Israel trips → SHIPPED (Batch 6)
+- Israel honeymoon → P3 backlog L126
+- Israel travel insurance → backlog
+- Israel for UK travelers specifically → partially covered by general first-time-in-israel + transportation + cost guides
+- Israel ferry to Greece → not a viable regular transport option; subsumed as footnote in israel-greece-itinerary guide
+
+**6 new items added to BACKLOG** — see `iter390 additions` section in BACKLOG.md for full implementation sketches.
