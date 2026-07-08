@@ -88,7 +88,7 @@ The **Church of the Multiplication** is a Benedictine monastery church built in 
 
 This is a genuinely remarkable archaeological survival. The modesty of the modern building (functional, unostentatious) throws the ancient floor into sharp relief.
 
-**Practical:** Free entry. Open approximately 08:00–17:00, closed midday Friday. Modest dress required. No entrance fee but donations support the monastery. Allow 20–30 minutes.
+**Practical:** Free entry. Open approximately 08:00–17:00, closed midday Friday. Modest dress required. No entrance fee but donations support the monastery. Allow 20–30 minutes. For a deeper look at both Tabgha churches, see the dedicated [Tabgha churches guide](/tabgha-church-guide).
 
 ---
 

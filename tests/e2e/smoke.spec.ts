@@ -436,6 +436,7 @@ const ROUTES = [
   '/de/akko/templar-tunnel',
   '/jerusalem-pilgrimage-road',
   '/best-hotels-tiberias',
+  '/tabgha-church-guide',
 ];
 
 for (const route of ROUTES) {

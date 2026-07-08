@@ -79,7 +79,7 @@ The site is jointly managed by the Franciscan Custody of the Holy Land and the I
 
 **Tabgha** is the site of the traditional miracle of the loaves and fishes (Mark 6:30–44). The **Church of the Multiplication of Loaves and Fishes** is a 5th-century Byzantine church built around a remarkable intact mosaic floor: the central panel shows a basket of bread flanked by two fish, surrounded by detailed botanical and Nilotic scenes — water birds, ducks, and marsh plants. It is among the finest Byzantine mosaic floors in Israel.
 
-Immediately adjacent is the **Church of the Primacy of St. Peter**, built over a flat rock by the lake shore (the "Mensa Christi") associated with the resurrection appearance in John 21. Both are Franciscan-managed. Both churches are free to enter; donations are appreciated. Modest dress required.
+Immediately adjacent is the **Church of the Primacy of St. Peter**, built over a flat rock by the lake shore (the "Mensa Christi") associated with the resurrection appearance in John 21. Both are Franciscan-managed. Both churches are free to enter; donations are appreciated. Modest dress required. See the dedicated [Tabgha churches guide](/tabgha-church-guide) for the full details on both sites.
 
 ### Mount of Beatitudes
 
