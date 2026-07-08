@@ -424,6 +424,7 @@ const ROUTES = [
   '/de/golan/mount-bental',
   '/de/golan/mount-hermon',
   '/de/golan/nimrod-fortress',
+  '/jerusalem-pilgrimage-road',
 ];
 
 for (const route of ROUTES) {

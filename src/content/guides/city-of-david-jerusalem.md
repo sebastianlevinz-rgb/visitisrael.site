@@ -118,6 +118,8 @@ Both tunnel routes exit at the **Pool of Siloam** — a Second Temple-era steppe
 
 Only a portion of the pool is currently excavated; ongoing archaeological work is expanding the visible area. The Herodian-era stonework is distinctive — wide, shallow steps descending to the water channel, consistent with the stepped-pool architecture found at other First and Second Temple-period sites. From here, the **Herodian Drainage Channel** walk (an additional ticket) follows the ancient street level northward back toward the Old City walls, passing through a 1st-century BCE tunnel beneath the current surface.
 
+In January 2026, the **Jerusalem Pilgrimage Road** — the 600-metre ancient stepped street from the Pool of Siloam up to the Temple Mount, excavated over 13 years by the IAA — opened to public visitors. Walking the road is now the most direct way to follow the exact path Second Temple pilgrims walked after immersing in this pool. See our full [Jerusalem Pilgrimage Road guide](/jerusalem-pilgrimage-road) for visitor information.
+
 ---
 
 ## The visitor centre and surface archaeology
@@ -139,6 +141,8 @@ See our [Western Wall Tunnels guide](/western-wall-tunnels-guide) for booking th
 ---
 
 ## Combining with nearby sites
+
+**Jerusalem Pilgrimage Road** — opened January 2026; the 600-metre Second Temple-era stepped street ascending from the Pool of Siloam to the Temple Mount. Now accessed as an extension of the City of David visit, walking the road after the tunnel gives the complete Herodian-era Jerusalem experience in sequence. See the [Jerusalem Pilgrimage Road guide](/jerusalem-pilgrimage-road) for details.
 
 **Western Wall** — 5-minute walk from the City of David entrance through Dung Gate. The most natural pairing; the Western Wall plaza and the archaeological park together make a half-day circuit.
 
