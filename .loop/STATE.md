@@ -1,13 +1,15 @@
 # LOOP STATE
 
-- iteration: 381
-- lastMode: BUILD (seo-content) (381%5==1)
-- lastItem: eilat-beach-guide
-- lastResult: SHIPPED — new /eilat-beach-guide (P2 S seo-content+monetization). Comparison guide for Eilat's 4 beaches: North Beach (resort strip, free), Coral Beach Nature Reserve (INPA snorkel, ~₪30), Almog Beach (northernmost, free, quiet), Dolphin Reef (private). At-a-glance table, reef-safe sunscreen guidance, seasonal notes, practical transport tips. 3 affiliate CTAs: Booking.com Eilat hotels, GYG Red Sea snorkel, DiscoverCars. 6 FAQs. Cross-links added to eilat-travel-guide.md and best-beaches-israel.md. Smoke test route added. Gate: 0 check errors; 600 pages (+1); 817/817 e2e+a11y. SHA 681b102. CI in_progress at push time.
-- nextRotationCategory: 382%5==2 → BUILD (monetization). 383%5==3 → BUILD (tools/i18n). 384%5==4 → REVIEW. 385%5==0 → RESEARCH.
+- iteration: 382
+- lastMode: BUILD (monetization) (382%5==2)
+- lastItem: day-trips-from-eilat
+- lastResult: SHIPPED — new /day-trips-from-eilat (P2 M seo-content+monetization). Hub guide for all Eilat excursions: Petra Jordan day trip, Timna Park, Red Canyon, Coral Beach, glass-bottom boat, Dolphin Reef, Aqaba. Comparison table by destination/travel-time/transport. Summer heat planning section. 6 FAQs. 3 affiliate CTAs: GYG Petra day trip, Viator Timna jeep safari, GYG glass-bottom boat. Cross-links added to eilat-travel-guide.md, eilat-beach-guide.md, eilat-tours-compared.md. Smoke + a11y routes added. Gate: 0 check errors; 601 pages (+1); 819/819 e2e+a11y pass. SHA 97c50ea. CI in_progress at push time.
+- nextRotationCategory: 383%5==3 → BUILD (tools/i18n). 384%5==4 → REVIEW. 385%5==0 → RESEARCH. 386%5==1 → BUILD (seo-content).
 - higgsfieldSpent: 0
-- updatedAt: 2026-07-08T11:40Z
+- updatedAt: 2026-07-08T13:00Z
 - branch context: work on master; feature work on auto/<slug>
+
+Notes: iter 382 BUILD (monetization) — day-trips-from-eilat shipped. Fills the Eilat excursion hub gap. Naturally clusters with eilat-beach-guide (iter381) and eilat-travel-guide. Broken link to /timna-park-guide caught and fixed before gate (Timna guide is in BACKLOG, not yet shipped). day-trips-from-eilat item removed from BACKLOG; added to DONE.
 
 Notes: iter 381 BUILD (seo-content) — eilat-beach-guide shipped. Fills confirmed SERP gap first identified in iter375 RESEARCH. eilat-beach-guide item removed from BACKLOG; added to DONE.
 
@@ -24,5 +26,5 @@ Notes: iter 376 BUILD (seo-content) — tabgha-church-guide shipped. New /tabgha
 Notes: iter 375 RESEARCH — 3 net-new items added to BACKLOG (grep-confirmed zero prior hits): tabgha-church-guide (P2 S; standalone guide for Tabgha's two Galilee pilgrimage churches — no visitisrael.site coverage vs seetheholyland.net/beinharimtours.com ranking competitors), eilat-beach-guide (P2 S; North Beach vs Coral Beach vs Almog Beach comparison; all major English editorial frozen since Oct 2023), yom-haatzmaut-in-israel (P2 S; Israel Independence Day visitor guide; LP/Timeout silent; GYG sells tour with zero editorial companion). English editorial freeze (LP/Timeout/TripAdvisor) since Oct 2023 = ongoing structural SERP gap confirmed. No code shipped.
 
 Cron b7325b16 hourly @ :17. Loop history: 19 tools + sitemap-lastmod + link-checker(+depth) + i18n
-Phase0/1a/1b/1c/2 Batches1-18(COMPLETE) + 38 review passes + 3 technical (event-schema + meta-trim + locale-links) + 50 EN guides + 5 tools-monetization;
+Phase0/1a/1b/1c/2 Batches1-18(COMPLETE) + 38 review passes + 3 technical (event-schema + meta-trim + locale-links) + 51 EN guides + 5 tools-monetization;
 research iters 5/10/20/30/35/40/45/50/55/60/65/70/75/80/85/90/95/100/105/110/115/120/125/130/135/140/145/150/155/160/165/170/175/180/185/190/195/200/205/210/215/220/225/230/235/240/245/250/255/260/265/270/275/280/285/290/295/300/305/310/315/320/325/330/335/340/345/350/355/360/365/370/375/380.

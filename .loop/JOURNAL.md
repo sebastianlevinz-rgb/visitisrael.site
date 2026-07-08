@@ -6680,3 +6680,10 @@ What: New /eilat-beach-guide — comparison guide for Eilat's 4 beaches: North B
 Gate: 0 check errors; 600 pages (+1); 817/817 e2e+a11y pass.
 Merge: squash-merged to master SHA 681b102, pushed. CI in_progress at push time.
 Prod: Lighthouse + CI workflows started for 681b102; pending at end of iteration (normal — confirm on next run).
+
+## 2026-07-08T13:00Z · iter 382 · BUILD (monetization) · day-trips-from-eilat
+
+What: New /day-trips-from-eilat — hub guide for all excursions from Eilat. Covers: Petra Jordan day trip (cross-border, organised tour recommended, full day), Timna Park (25km north, 3–5h, INPA pass), Red Canyon (30km NW, free hike, rental car required), Coral Beach Nature Reserve, glass-bottom boat tour, Dolphin Reef, Aqaba Jordan (half-day cross-border). Comparison table (destination/travel-time/time-at-site/transport). Summer heat planning section (Timna sunrise access, Red Canyon timing, Petra heat advice, water activities). 6 FAQs. 3 affiliate CTAs: GYG Petra day trip (P1 with most affiliate value), Viator Timna jeep safari, GYG glass-bottom boat. Cross-links added to eilat-travel-guide.md (Day trips section footer), eilat-beach-guide.md (Practical notes footer), eilat-tours-compared.md (How to choose footer). Bug fix: original content linked /timna-park-guide (not yet built) — removed on first link-check failure; replaced with plain text reference.
+Gate: pnpm check 0 errors; build 601 pages (+1); 819/819 e2e+a11y pass (link-check caught broken link, fixed, re-gated clean).
+Merge: committed to master SHA 97c50ea, pushed. CI in_progress at push time.
+Prod: CI + Lighthouse workflows started for 97c50ea; pending at end of iteration (confirm on next run).
