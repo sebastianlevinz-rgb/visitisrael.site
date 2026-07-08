@@ -6662,3 +6662,14 @@ Lesson (reinforces iter 374): FR/DE titles/descs systematically overrun; author 
 Gate: pnpm check 0 errors · pnpm build 599 pages (no change) · pnpm test:e2e 816/816 pass.
 Merge: committed to master SHA 6eb94d6, pushed origin/master.
 Prod: CI in_progress at push time (consistent with all prior iterations).
+
+## 2026-07-08T10:00Z · iter 380 · RESEARCH · research-380-new-attractions
+What: RESEARCH pass (380%5==0). Systematic competitor gap audit for new 2025/2026 Israel travel content not yet in backlog.
+Method: (1) Background Explore agent surveyed 10 candidate topic areas; (2) WebSearch + WebFetch for Eilat new attractions (Terminal Park), Tel Aviv winter events (Lumagica), and additional SERP gaps; (3) grep-deduplication against BACKLOG.md and DONE.md for all candidates.
+Findings — 2 net-new items confirmed (0 prior hits each):
+  - Terminal Park Eilat (P2, seo-content+monetization, S): Major 2025/2026 entertainment complex on decommissioned Eilat airport site; 50m Ferris wheel; no English editorial exists. Sources: eilat.city, jewishnews.co.uk.
+  - Lumagica Tel Aviv (P3, seo-content, S): International light festival at Yarkon Park, Nov–Jan season; 300+ sculptures; 2025/2026 edition confirmed; no dedicated English editorial guide. Sources: lumagica.com/en/israel-en, jpost.com, secrettelaviv.com.
+Items de-duped and already in backlog (14 candidates ruled out): Rosh Hanikra, Beit She'an, Passover guide, Sukkot guide, Mount Tabor, Hanukkah guide (×2 — duplicate entry!), Belvoir Fortress, Via Ferrata, Yahel-Timna MTB, Schottenstein Campus, Honeymoon guide, Jerusalem Festival of Light, National Library, October 7 memorials.
+Side note: Hanukkah guide is entered twice in BACKLOG (iter205 + iter265) — flag for deduplication in next REVIEW pass.
+Pattern: Eilat 2025/2026 new infrastructure is under-documented in English editorial; Tel Aviv Nov–Jan winter season is an open SERP window (israel-in-winter.md not yet in backlog — candidate for next RESEARCH pass).
+Next: 381%5==1 → BUILD (seo-content). Next item candidates from backlog: eilat-beach-guide (P2, S, iter375) or terminal-park-eilat (P2, S, iter380).

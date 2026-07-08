@@ -1,13 +1,15 @@
 # LOOP STATE
 
-- iteration: 379
-- lastMode: REVIEW (379%5==4)
-- lastItem: review-379-meta-trim
-- lastResult: REVIEW — meta title/desc audit of iters 376-378. 9 violations across 7 files: western-galilee-guide (title 88→62, desc 168→148); fr/caesarea-aqueduct-beach (title 74→58); fr/caesarea-harbour (desc 173→153); fr/caesarea-ralli-museum (title 74→59, desc 166→133); de/caesarea-aqueduct-beach (title 68→56); de/caesarea-national-park (desc 161→138); de/caesarea-ralli-museum (title 79→63). All internal links in tabgha-church-guide and western-galilee-guide resolved. Gate: 0 check errors; 599 pages (no change); 816/816 e2e+a11y pass. SHA 6eb94d6. CI in_progress at push time. Lesson: FR+DE titles violate bounds frequently (same pattern as iter 374) — author to ≤55 chars to allow 10-char safety margin for both languages.
-- nextRotationCategory: 380%5==0 → RESEARCH. 381%5==1 → BUILD (seo-content). 382%5==2 → BUILD (monetization). 383%5==3 → BUILD (tools/i18n).
+- iteration: 380
+- lastMode: RESEARCH (380%5==0)
+- lastItem: research-380-new-attractions
+- lastResult: RESEARCH — competitor gap audit for new 2025/2026 Israel travel content. 2 net-new items added to BACKLOG (grep-confirmed 0 prior hits each): Terminal Park Eilat (P2, seo-content+monetization, S; ~£30M entertainment complex on decommissioned Eilat airport site, 50m Ferris wheel, no English editorial exists; sources: eilat.city, jewishnews.co.uk) and Lumagica Tel Aviv (P3, seo-content, S; international light festival at Yarkon Park, Nov–Jan season, 300+ sculptures; sources: lumagica.com/en/israel-en, jpost.com, secrettelaviv.com). 14 other candidates de-duped (already in backlog). Side note: Hanukkah guide appears twice in BACKLOG (iter205 + iter265) — flag for dedup in next REVIEW. No code shipped.
+- nextRotationCategory: 381%5==1 → BUILD (seo-content). 382%5==2 → BUILD (monetization). 383%5==3 → BUILD (tools/i18n). 384%5==4 → REVIEW.
 - higgsfieldSpent: 0
-- updatedAt: 2026-07-08T09:35Z
+- updatedAt: 2026-07-08T10:00Z
 - branch context: work on master; feature work on auto/<slug>
+
+Notes: iter 380 RESEARCH — 2 net-new items added to BACKLOG: Terminal Park Eilat (P2 S seo-content+monetization) and Lumagica Tel Aviv (P3 S seo-content). 14 candidates de-duped already in backlog. Hanukkah guide has a duplicate entry (iter205 + iter265). Eilat 2025/2026 new infrastructure remains underserved in English editorial. Tel Aviv Nov–Jan winter season is open SERP window (israel-in-winter.md not yet in backlog — candidate for next RESEARCH pass).
 
 Notes: iter 379 REVIEW — meta title/desc audit of iters 376-378. 9 violations fixed in 7 files (FR+DE Caesarea aqueduct-beach/harbour/ralli-museum + western-galilee-guide). Recurring lesson: FR+DE titles/descs verbose; target ≤55 char titles when authoring to leave a safety margin for both locales. All links OK. 599 pages unchanged. SHA 6eb94d6.
 
@@ -19,8 +21,6 @@ Notes: iter 376 BUILD (seo-content) — tabgha-church-guide shipped. New /tabgha
 
 Notes: iter 375 RESEARCH — 3 net-new items added to BACKLOG (grep-confirmed zero prior hits): tabgha-church-guide (P2 S; standalone guide for Tabgha's two Galilee pilgrimage churches — no visitisrael.site coverage vs seetheholyland.net/beinharimtours.com ranking competitors), eilat-beach-guide (P2 S; North Beach vs Coral Beach vs Almog Beach comparison; all major English editorial frozen since Oct 2023), yom-haatzmaut-in-israel (P2 S; Israel Independence Day visitor guide; LP/Timeout silent; GYG sells tour with zero editorial companion). English editorial freeze (LP/Timeout/TripAdvisor) since Oct 2023 = ongoing structural SERP gap confirmed. No code shipped.
 
-Notes: iter 374 REVIEW — meta title/desc audit of iters 371-373. 13 violations fixed in 11 files (EN best-hotels-tiberias desc, EN jerusalem-pilgrimage-road title, FR+DE 5 Akko attractions with widespread description overruns). Lesson: FR+DE descriptions tend to run 15-20% longer than English for same content — budget tighter at authoring time. All internal links on new guides resolved OK. Gate: 0 errors, 589 pages (no change), 796/796 e2e. SHA a012490. CI in_progress at push time.
-
 Cron b7325b16 hourly @ :17. Loop history: 19 tools + sitemap-lastmod + link-checker(+depth) + i18n
 Phase0/1a/1b/1c/2 Batches1-18(COMPLETE) + 38 review passes + 3 technical (event-schema + meta-trim + locale-links) + 49 EN guides + 5 tools-monetization;
-research iters 5/10/20/30/35/40/45/50/55/60/65/70/75/80/85/90/95/100/105/110/115/120/125/130/135/140/145/150/155/160/165/170/175/180/185/190/195/200/205/210/215/220/225/230/235/240/245/250/255/260/265/270/275/280/285/290/295/300/305/310/315/320/325/330/335/340/345/350/355/360/365/370/375.
+research iters 5/10/20/30/35/40/45/50/55/60/65/70/75/80/85/90/95/100/105/110/115/120/125/130/135/140/145/150/155/160/165/170/175/180/185/190/195/200/205/210/215/220/225/230/235/240/245/250/255/260/265/270/275/280/285/290/295/300/305/310/315/320/325/330/335/340/345/350/355/360/365/370/375/380.

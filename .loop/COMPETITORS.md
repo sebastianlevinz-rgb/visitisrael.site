@@ -4016,3 +4016,24 @@ Sources: cwgc.org, australian-war-memorial.gov.au, alltrails.com, hike-israel.co
 
 **3 new items added to BACKLOG this iteration:** tabgha-church-guide (P2, seo-content, S), eilat-beach-guide (P2, seo-content+monetization, S), yom-haatzmaut-in-israel (P2, seo-content, S).
 
+
+## iter380 findings (2026-07-08)
+
+**Research focus:** New 2025/2026 Eilat attractions, Tel Aviv seasonal events, additional competitor SERP gaps.
+
+**eilat.city/en/list/amusement-parks** — Lists Terminal Park as the primary Eilat amusement/entertainment venue. The park opened on the site of the former Aqaba (J. Hozman) Airport runway, southern Eilat. Eilot Economic Development Corporation built it as a year-round entertainment anchor (~£30M investment). 14 attractions; centrepiece is a 50-metre Ferris wheel with panoramic views of the Red Sea, Aqaba, and the Jordanian and Saudi hills. Street market phase planned. Free-to-enter park (per-attraction pricing). No English travel editorial guide exists anywhere — all current web references are news articles or the municipal website.
+
+**jewishnews.co.uk/eilat-pack-your-bags** — UK Jewish travel column piece on the Terminal Park development; confirms the "former airport" angle and the Ferris wheel as the signature attraction; frames it as a signal of Eilat's post-pandemic domestic tourism recovery strategy. Article from 2025.
+
+**lumagica.com/en/israel-en** — Official Lumagica Israel page. 2025/2026 edition ran Yarkon Park (Ganei Yehoshua tropical garden), Nov 13, 2025 – Jan 15, 2026. 300+ sculptures (custom Israel editions + international travelling set). Seasonal outdoor festival (evening sessions from 17:00). Israeli-Austrian collaboration. Tickets online via their platform.
+
+**secrettelaviv.com** — Covered Lumagica Israel 2025 as a "things to do in Tel Aviv this winter" roundup item; framed as rival to Jerusalem Festival of Light in seasonal appeal; confirms the 1km walking route and European food market.
+
+**jpost.com/consumerism/article-879708** — Jerusalem Post consumerism/lifestyle piece on Lumagica Israel 2025/2026; confirms opening night was November 13, 2025 at Yarkon Park. Notes that it's an Austrian-origin travelling festival (Vienna, Salzburg, etc.) making its Israel debut.
+
+**De-duped against BACKLOG this iteration (confirmed already present):**
+- Rosh Hanikra guide (iter85), Beit She'an NP (iter135), Passover guide (iter155), Sukkot guide (iter160), Mount Tabor (iter265), Hanukkah guide (iter205+iter265), Belvoir Fortress (iter350), Via Ferrata Israel (iter370), Yahel-Timna MTB (iter370), Schottenstein National Campus Jerusalem (iter235), Honeymoon guide (iter20), Jerusalem Festival of Light (iter100), National Library of Israel (iter130), October 7 memorial sites (HUMAN REVIEW REQUIRED flag).
+
+**Pattern this iteration:** Eilat is underserved on 2025/2026 new infrastructure (Terminal Park, ongoing Almog Beach expansion). Tel Aviv winter season (Nov–Jan) is an open SERP opportunity — Lumagica fills it for December; other winter TLV events (Christmas markets at Sarona, New Year's events at Port) may warrant a dedicated israel-in-winter.md guide (not yet in backlog — flag for next RESEARCH pass).
+
+**2 new items added to BACKLOG:** Terminal Park Eilat (P2, seo-content+monetization, S), Lumagica Tel Aviv (P3, seo-content, S).
