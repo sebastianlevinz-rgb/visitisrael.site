@@ -729,3 +729,7 @@ New /jerusalem-pilgrimage-road: first English editorial guide for the 600-metre 
 - `/fr/akko/old-city` + `/de/akko/old-city` — Akko Old City UNESCO WHS; stratigraphic intactness; coexistence patterns; Hummus Said; rampart circuit
 - `/fr/akko/templar-tunnel` + `/de/akko/templar-tunnel` — Templar Tunnel 1994 rediscovery; military-engineering purpose; claustrophobia note
 smoke.spec.ts + a11y.spec.ts +10 routes each. Gate: 0 check errors · 589 pages (+10) · 796/796 e2e (+20). Phase 4 Akko attractions COMPLETE (5/5).
+
+## iter 376 · 2026-07-08 · BUILD (seo-content)
+**tabgha-church-guide** · SHA 8a36764
+New /tabgha-church-guide — standalone guide for Tabgha's two Sea of Galilee pilgrimage churches: Church of Multiplication of Loaves and Fishes (Benedictine; in-situ 5th-century Byzantine mosaic floor — loaves+fish central panel; free entry) and Church of Primacy of St. Peter (Franciscan; Mensa Christi rock; lakeside; free entry). 3 CTAs: GYG Galilee Christian tour, Viator Tabgha private tour, Booking Tiberias. 6 FAQs. Cross-links added to galilee-christian-sites-circuit.md, sea-of-galilee-guide.md, christian-pilgrimage-holy-land.md. +1 smoke + a11y test route. 590 pages, 798 e2e.

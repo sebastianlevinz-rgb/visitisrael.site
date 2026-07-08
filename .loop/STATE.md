@@ -1,13 +1,15 @@
 # LOOP STATE
 
-- iteration: 375
-- lastMode: RESEARCH (375%5==0)
-- lastItem: research-competitor-gap-375
-- lastResult: RESEARCH — Galilee pilgrimage gaps, Eilat beach editorial gap, Israeli holiday guide gap. 3 net-new items added to BACKLOG (all grep-confirmed zero prior hits): tabgha-church-guide (P2 S), eilat-beach-guide (P2 S), yom-haatzmaut-in-israel (P2 S). Key pattern: English editorial competition (LP/Timeout/TripAdvisor) still frozen since Oct 2023 — confirmed ongoing SERP gap for niche-depth and post-Oct-2023 guides. No code shipped.
-- nextRotationCategory: 376%5==1 → BUILD (seo-content). 377%5==2 → BUILD (monetization). 378%5==3 → BUILD (tools/i18n). 379%5==4 → REVIEW. 380%5==0 → RESEARCH.
+- iteration: 376
+- lastMode: BUILD (seo-content) (376%5==1)
+- lastItem: tabgha-church-guide
+- lastResult: BUILD — new /tabgha-church-guide shipped. Standalone guide for Tabgha's two Sea of Galilee churches (Church of Multiplication of Loaves and Fishes + Church of Primacy of St. Peter). Cross-links added to galilee-christian-sites-circuit.md, sea-of-galilee-guide.md, christian-pilgrimage-holy-land.md. Tests: +1 route each smoke.spec.ts + a11y.spec.ts. Gate: 0 check errors; 590 pages (+1); 798/798 e2e+a11y pass (+2). SHA 8a36764. CI in_progress at push time.
+- nextRotationCategory: 377%5==2 → BUILD (monetization). 378%5==3 → BUILD (tools/i18n). 379%5==4 → REVIEW. 380%5==0 → RESEARCH.
 - higgsfieldSpent: 0
-- updatedAt: 2026-07-08T07:30Z
+- updatedAt: 2026-07-08T08:00Z
 - branch context: work on master; feature work on auto/<slug>
+
+Notes: iter 376 BUILD (seo-content) — tabgha-church-guide shipped. New /tabgha-church-guide: standalone guide for Tabgha's two northwestern Sea of Galilee pilgrimage churches. Church of Multiplication: Benedictine monastery church built 1982 over 4th/5th-century foundations; in-situ 5th-century Byzantine mosaic floor (loaves+fish central panel, water birds, botanical surround). Church of Primacy of St. Peter: small Franciscan black-basalt chapel lakeside, Mensa Christi flat rock (John 21 post-Resurrection breakfast). 3 affiliate CTAs (GYG Galilee Christian tour, Viator Sea of Galilee+Tabgha, Booking Tiberias). 6 FAQs. Cross-links to galilee-christian-sites-circuit, sea-of-galilee-guide, christian-pilgrimage-holy-land, capernaum visitor context, tiberias. Image: /images/regions/galilee/capernaum.jpg (no Tabgha-specific image available). Gate: 0 check errors; 590 pages (+1); 798/798 e2e+a11y (+2). SHA 8a36764. CI in_progress at push time.
 
 Notes: iter 375 RESEARCH — 3 net-new items added to BACKLOG (grep-confirmed zero prior hits): tabgha-church-guide (P2 S; standalone guide for Tabgha's two Galilee pilgrimage churches — no visitisrael.site coverage vs seetheholyland.net/beinharimtours.com ranking competitors), eilat-beach-guide (P2 S; North Beach vs Coral Beach vs Almog Beach comparison; all major English editorial frozen since Oct 2023), yom-haatzmaut-in-israel (P2 S; Israel Independence Day visitor guide; LP/Timeout silent; GYG sells tour with zero editorial companion). English editorial freeze (LP/Timeout/TripAdvisor) since Oct 2023 = ongoing structural SERP gap confirmed. No code shipped.
 
