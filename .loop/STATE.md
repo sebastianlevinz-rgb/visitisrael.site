@@ -1,13 +1,15 @@
 # LOOP STATE
 
-- iteration: 386
-- lastMode: BUILD (seo-content) (386%5==1)
-- lastItem: israel-in-autumn
-- lastResult: SHIPPED /israel-in-autumn. 2,200-word seasonal guide: Yom Kippur / Sukkot holiday rhythm, Hula Valley cranes (November), Negev hiking season reopening, Mediterranean beach in October, Golan grape harvest, desert stargazing. 3 affiliate CTAs (Agamon Hula crane sunrise tour, Golan wine tours, Booking.com). Dense cross-links. best-time-to-visit-israel.md updated with autumn cross-link. Gate: pnpm check 0 errors; build 608 pages (+1); 832/832 e2e+a11y pass. SHA 885b5a7.
-- nextRotationCategory: 387%5==2 → BUILD (monetization). 388%5==3 → BUILD (tools/i18n). 389%5==4 → REVIEW. 390%5==0 → RESEARCH. 391%5==1 → BUILD (seo-content).
+- iteration: 387
+- lastMode: BUILD (monetization) (387%5==2)
+- lastItem: gyg-vs-viator-israel
+- lastResult: SHIPPED /getyourguide-vs-viator-israel. Platform comparison money page: 5-criterion table (selection, cancellation, group size, Jordan multi-day, private guides), platform strengths breakdown, "which platform for which trip" decision matrix, 2 affiliate CTAs (GYG + Viator Israel search). Dense cross-links to 8 existing tour-comparison guides. Gate: pnpm check 0 errors; build 609 pages (+1); 832/832 e2e+a11y pass. SHA 5d20c89.
+- nextRotationCategory: 388%5==3 → BUILD (tools/i18n). 389%5==4 → REVIEW. 390%5==0 → RESEARCH. 391%5==1 → BUILD (seo-content). 392%5==2 → BUILD (monetization).
 - higgsfieldSpent: 0
-- updatedAt: 2026-07-08T16:58Z
+- updatedAt: 2026-07-08T17:42Z
 - branch context: work on master; feature work on auto/<slug>
+
+Notes: iter 387 BUILD (monetization) — getyourguide-vs-viator-israel shipped. First Israel-specific GYG-vs-Viator comparison on the web (confirmed gap in iter385 RESEARCH). 5-criterion table + platform strengths + trip-type decision matrix + 2 affiliate CTAs. Broken links (/jerusalem/masada → /dead-sea/masada; /akko/akko-old-city → /akko/old-city) caught by link-check gate and fixed before merge. Item removed from BACKLOG; added to DONE.
 
 Notes: iter 386 BUILD (seo-content) — israel-in-autumn shipped. Fills confirmed SERP gap first identified in iter195 RESEARCH and re-confirmed in iter385 RESEARCH ("biggest seasonal gap"). Distinct from best-time-to-visit-israel.md (month-by-month overview) and israel-in-summer.md (beat-the-heat tactics). israel-in-autumn item removed from BACKLOG; added to DONE.
 

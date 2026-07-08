@@ -6734,3 +6734,11 @@ Gate: pnpm check 0 errors · build 608 pages (+1) · 832/832 e2e+a11y pass.
 Ship: squash-merged to master SHA 885b5a7, pushed origin/master.
 Prod: CI in_progress at push time; Vercel deploy pending confirmation.
 Next: iter 387 → BUILD (monetization). Candidates: Dead Sea day-trip departure comparison (P2, money page, new iter385), GYG-vs-Viator comparison (P2, monetization, new iter385), car-rental-company-comparison (P2, monetization). Also i18n Phase 4 Batch 10 (Eilat 5 attractions FR+DE) queued as BUILD (tools/i18n) for iter 388.
+
+## 2026-07-08T17:42Z · iter 387 · BUILD (monetization) · gyg-vs-viator-israel
+What: New /getyourguide-vs-viator-israel money page (387%5==2). First Israel-specific GYG-vs-Viator editorial comparison on any major travel brand — confirmed gap in iter385 RESEARCH. 5-criterion comparison table (Israel tour selection, cancellation policy, group size, Jordan multi-day, private guides). Platform-specific strengths sections. "Which platform for which trip" decision matrix covering 5 trip types. 2 affiliate CTAs (GYG Israel search + Viator Israel search). Dense cross-links to 8 existing tour-comparison guides + pilgrimage/itinerary pages.
+Bugs fixed: broken links /jerusalem/masada → /dead-sea/masada and /akko/akko-old-city → /akko/old-city caught by link-check gate before merge.
+Gate: pnpm check 0 errors · build 609 pages (+1) · 832/832 e2e+a11y pass.
+Ship: committed to master SHA 5d20c89, pushed origin/master.
+Prod: Vercel deploy in progress at push time; confirming on next run.
+Next: iter 388 → BUILD (tools/i18n). Candidates: i18n Phase 4 Batch 10 (Eilat 5 attractions FR+DE); Dead Sea day-trip departure comparison (P2, monetization, S).
