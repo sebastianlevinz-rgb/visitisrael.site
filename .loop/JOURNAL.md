@@ -6698,3 +6698,25 @@ smoke.spec.ts + a11y.spec.ts +6 routes added. Dead Sea attractions: 3/3 now in F
 Gate: pnpm check 0 errors; pnpm build 607 pages (+6); pnpm test:e2e 831/831 pass.
 Merge: committed to master SHA 06bbb72, pushed. CI in_progress at push time.
 Prod: CI + Lighthouse workflows started for 06bbb72; pending at end of iteration (confirm on next run).
+
+## 2026-07-08T14:45Z · iter 384 · REVIEW · review-384-meta-trim
+What: REVIEW pass (384%5==4). Audited iters 381–383: eilat-beach-guide (EN guide),
+  day-trips-from-eilat (EN guide), and 6 FR+DE Dead Sea attractions from Batch 9
+  (fr/dead-sea-ein-gedi, fr/dead-sea-mineral-beach, de/dead-sea-mineral-beach,
+  fr/dead-sea-qumran, de/dead-sea-qumran).
+Findings — 6 meta violations across 6 files:
+  - day-trips-from-eilat desc: 184→148 chars (trimmed "Glass-Bottom Boat" + restructured)
+  - fr/dead-sea-ein-gedi desc: 166→134 chars (removed "au bord de la mer Morte" redundancy)
+  - fr/dead-sea-mineral-beach desc: 170→132 chars (condensed "profiter d'une expérience de journée")
+  - de/dead-sea-mineral-beach title: 76→53 chars ("Totes Meer Mineralstrände: Schweben, Schlamm & Zugang"); desc: 174→126 chars
+  - fr/dead-sea-qumran desc: 177→132 chars (removed "au nord de la mer Morte" + restructured)
+  - de/dead-sea-qumran desc: 173→116 chars (tightened to "Nationalpark Qumran am Toten Meer — ...")
+Internal links: all 10 links in eilat-beach-guide + all 8 in day-trips-from-eilat resolve
+  to existing content. CLEAN.
+BACKLOG dedup: Hanukkah guide had duplicate entries (iter205 + iter265). Removed iter205
+  entry (kept iter265 — more complete, includes 2026+2027 dates, better sources).
+Recurring lesson: FR/DE descs hit 160-char ceiling even when EN is clean. Target ≤130 chars
+  for locale page descs as safety margin (same reasoning as ≤55 title recommendation from iter379).
+Gate: pnpm check 0 errors · pnpm build 607 pages unchanged · pnpm test:e2e 831/831 pass.
+Ship: committed to master SHA 508083d, pushed origin/master.
+Prod: CI in_progress at push time (confirm on next run).
