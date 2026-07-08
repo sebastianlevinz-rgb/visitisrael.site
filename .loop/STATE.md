@@ -1,13 +1,15 @@
 # LOOP STATE
 
-- iteration: 387
-- lastMode: BUILD (monetization) (387%5==2)
-- lastItem: gyg-vs-viator-israel
-- lastResult: SHIPPED /getyourguide-vs-viator-israel. Platform comparison money page: 5-criterion table (selection, cancellation, group size, Jordan multi-day, private guides), platform strengths breakdown, "which platform for which trip" decision matrix, 2 affiliate CTAs (GYG + Viator Israel search). Dense cross-links to 8 existing tour-comparison guides. Gate: pnpm check 0 errors; build 609 pages (+1); 832/832 e2e+a11y pass. SHA 5d20c89.
-- nextRotationCategory: 388%5==3 → BUILD (tools/i18n). 389%5==4 → REVIEW. 390%5==0 → RESEARCH. 391%5==1 → BUILD (seo-content). 392%5==2 → BUILD (monetization).
+- iteration: 388
+- lastMode: BUILD (tools/i18n) (388%5==3)
+- lastItem: i18n-eilat-attractions-fr-de-batch10
+- lastResult: SHIPPED Phase 4 Batch 10. 10 locale pages: FR+DE for eilat/coral-beach, eilat/dolphin-reef, eilat/red-canyon, eilat/timna-park, eilat/underwater-observatory. ticketInfo preserved on dolphin-reef + underwater-observatory. smoke.spec.ts + a11y.spec.ts +10 routes each. Gate: pnpm check 0 errors; build 619 pages (+10); 852/852 e2e+a11y pass. SHA 2739d22.
+- nextRotationCategory: 389%5==4 → REVIEW. 390%5==0 → RESEARCH. 391%5==1 → BUILD (seo-content). 392%5==2 → BUILD (monetization). 393%5==3 → BUILD (tools/i18n).
 - higgsfieldSpent: 0
-- updatedAt: 2026-07-08T17:42Z
+- updatedAt: 2026-07-08T19:10Z
 - branch context: work on master; feature work on auto/<slug>
+
+Notes: iter 388 BUILD (tools/i18n) — i18n Phase 4 Batch 10 shipped. Eilat 5 attractions now in FR+DE: coral-beach, dolphin-reef, red-canyon, timna-park, underwater-observatory. ticketInfo translated on dolphin-reef (~₪75 adulte/Erwachsene, bookingRequired: true) and underwater-observatory (~₪119/₪99, bookingRequired: false). smoke.spec.ts + a11y.spec.ts +10 routes each (10 new routes added to both specs). 619 pages; 852/852 e2e+a11y. Remaining untranslated EN attractions: Nazareth (4: basilica-of-the-annunciation, marys-well, mount-of-precipice, old-city), Negev (5: avdat, bedouin-hospitality, ein-avdat, mitzpe-ramon, sde-boker) = 9 ready + 2 deferred (jerusalem/holy-sepulchre, jerusalem/temple-mount). fr pages: ~124/~158. de pages: ~124/~158.
 
 Notes: iter 387 BUILD (monetization) — getyourguide-vs-viator-israel shipped. First Israel-specific GYG-vs-Viator comparison on the web (confirmed gap in iter385 RESEARCH). 5-criterion table + platform strengths + trip-type decision matrix + 2 affiliate CTAs. Broken links (/jerusalem/masada → /dead-sea/masada; /akko/akko-old-city → /akko/old-city) caught by link-check gate and fixed before merge. Item removed from BACKLOG; added to DONE.
 

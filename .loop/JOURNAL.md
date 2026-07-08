@@ -6742,3 +6742,17 @@ Gate: pnpm check 0 errors · build 609 pages (+1) · 832/832 e2e+a11y pass.
 Ship: committed to master SHA 5d20c89, pushed origin/master.
 Prod: Vercel deploy in progress at push time; confirming on next run.
 Next: iter 388 → BUILD (tools/i18n). Candidates: i18n Phase 4 Batch 10 (Eilat 5 attractions FR+DE); Dead Sea day-trip departure comparison (P2, monetization, S).
+
+## 2026-07-08T19:10Z · iter 388 · BUILD (tools/i18n) · i18n-phase4-batch10-eilat
+What: i18n Phase 4 Batch 10 — 5 Eilat attractions translated into FR+DE (10 locale pages):
+- eilat/coral-beach (FR+DE): North Beach snorkelling intro, INPA Coral Beach Reserve, no ticketInfo (EN has none)
+- eilat/dolphin-reef (FR+DE): dolphin encounter, snorkel + swim programmes, ticketInfo preserved (~₪75 adulte/Erwachsene, bookingRequired: true, tiqetsQuery + gygTicketsQuery)
+- eilat/red-canyon (FR+DE): Slot-canyon hike, metal ladders, 90-min circuit, no ticketInfo (free, no gate)
+- eilat/timna-park (FR+DE): Salomons Säulen/Colonnes de Salomon, Tabernacle reconstruction, bronze-age mines, no ticketInfo (EN has none)
+- eilat/underwater-observatory (FR+DE): 60m observation tower, shark tank, glass-bottom boat, ticketInfo preserved (~₪119/~₪99, bookingRequired: false, tiqetsQuery)
+smoke.spec.ts + a11y.spec.ts +10 routes added (total 852 e2e routes). FR+DE Eilat attractions now 5/5 COMPLETE.
+Gate: pnpm check 0 errors; pnpm build 619 pages (+10); pnpm test:e2e 852/852 pass.
+Merge: committed to master SHA 2739d22, pushed origin/master. CI in_progress at push time.
+Prod: CI + Lighthouse workflows started for 2739d22; pending at end of iteration (confirm on next run).
+fr pages: ~124/~158. de pages: ~124/~158. Remaining untranslated EN attractions: Nazareth (4) + Negev (5) = 9 ready + 2 deferred (holy-sepulchre, temple-mount).
+Next: iter 389 → REVIEW. iter 390 → RESEARCH. iter 391 → BUILD (seo-content). iter 393 → BUILD (tools/i18n) — candidate: Nazareth 4 attractions or Negev 5 attractions.
