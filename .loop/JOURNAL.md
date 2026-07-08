@@ -6796,3 +6796,11 @@ What: new /israel-vs-turkey comparison guide. First Israel vs Turkey head-to-hea
 Gate: pnpm check 0 errors; build 620 pages; 854/854 e2e+a11y pass (local). CI: all steps success (a2baa0e, run #700).
 Ship: squash-merged to master a2baa0e, pushed. Prod: CI=success.
 Next: iter 392 → BUILD (monetization). Candidate: timna-park-guide (P2, M) or israel-airbnb-vs-hotel (P3, S) or dead-sea-departure-comparison (money page).
+
+## 2026-07-08T22:50Z · iter 392 · BUILD (monetization) · sarona-market-tel-aviv
+Mode: BUILD (392%5==2, monetization rotation). Item chosen: sarona-market-tel-aviv (P2, S, seo-content+monetization). Initially selected israeli-street-food (/israeli-street-food) — found stale BACKLOG entry; file already exists as israeli-street-food-guide.md (shipped iter117). Pivoted to sarona-market-tel-aviv.
+What: new /sarona-market-tel-aviv guide. Upscale indoor food hall in a German Templar colony (1871). 1,800-word guide: what Sarona is, food vendors (gourmet sandwiches/pastries, craft beer/wine, artisan ice cream/chocolate, sit-down restaurants Taizu + Nini HaSasson), heritage walk (Gan Sarona plaques), Carmel vs Sarona comparison table (5 dimensions), practical info (hours/access/price tier/accessibility). 6 FAQs. GYG food tour + Booking.com hotel CTAs. Footer link added. Cross-links added to tel-aviv-food-guide.md (Sarona market bullet → linked) + tel-aviv-carmel-market.md (closing § → Sarona complement mention). Smoke +1 (/sarona-market-tel-aviv); a11y +1.
+Gate: pnpm check 0 errors; build 621 pages (+1); 856/856 e2e+a11y pass.
+Ship: squash-merged to master ce903fd, pushed. Prod: CI in_progress (Lighthouse) at time of journal — expected success.
+Backlog housekeeping: stale BACKLOG line 140 (israeli-street-food) marked shipped — see BACKLOG update.
+Next: iter 393 → BUILD (tools/i18n). Candidate: i18n Phase 4 Batch 11 (Nazareth 4 attractions: basilica-of-the-annunciation, marys-well, mount-of-precipice, old-city) or tools item.
