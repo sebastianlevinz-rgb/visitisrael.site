@@ -1,13 +1,15 @@
 # LOOP STATE
 
-- iteration: 378
-- lastMode: BUILD (tools/i18n — fell through tools to i18n Phase 4 Batch 8) (378%5==3)
-- lastItem: i18n-p4-batch8-caesarea
-- lastResult: BUILD — Phase 4 Batch 8 shipped. 4 Caesarea attractions × FR+DE (8 locale pages): caesarea/aqueduct-beach (Hadrian ~130 CE double-arch aqueduct; free beach; sunset photography; walk 400m arch trail); caesarea/harbour (Sebastos first artificial deep-water port, pozzolana hydraulic concrete; Time Trek projection mapping; seasonal snorkel park 1–4m depth); caesarea/national-park (UNESCO 2010; 6 historical layers; Roman Theatre ~4000 seats still used for concerts; Hippodrome; combined ticket ~₪50; ticketInfo block preserved); caesarea/ralli-museum (Harry Recanati 1919–2014; Dalí+Miró+Roberto Matta+Remedios Varo; free entry; Sat–Thu 10:30–15:00). No religious/contested-site content. smoke.spec.ts + a11y.spec.ts +8 routes each. Gate: 0 check errors; 599 pages (+8); 816/816 e2e+a11y pass (+16). SHA 321c68a. CI in_progress at push time.
-- nextRotationCategory: 379%5==4 → REVIEW. 380%5==0 → RESEARCH. 381%5==1 → BUILD (seo-content). 382%5==2 → BUILD (monetization).
+- iteration: 379
+- lastMode: REVIEW (379%5==4)
+- lastItem: review-379-meta-trim
+- lastResult: REVIEW — meta title/desc audit of iters 376-378. 9 violations across 7 files: western-galilee-guide (title 88→62, desc 168→148); fr/caesarea-aqueduct-beach (title 74→58); fr/caesarea-harbour (desc 173→153); fr/caesarea-ralli-museum (title 74→59, desc 166→133); de/caesarea-aqueduct-beach (title 68→56); de/caesarea-national-park (desc 161→138); de/caesarea-ralli-museum (title 79→63). All internal links in tabgha-church-guide and western-galilee-guide resolved. Gate: 0 check errors; 599 pages (no change); 816/816 e2e+a11y pass. SHA 6eb94d6. CI in_progress at push time. Lesson: FR+DE titles violate bounds frequently (same pattern as iter 374) — author to ≤55 chars to allow 10-char safety margin for both languages.
+- nextRotationCategory: 380%5==0 → RESEARCH. 381%5==1 → BUILD (seo-content). 382%5==2 → BUILD (monetization). 383%5==3 → BUILD (tools/i18n).
 - higgsfieldSpent: 0
-- updatedAt: 2026-07-08T08:46Z
+- updatedAt: 2026-07-08T09:35Z
 - branch context: work on master; feature work on auto/<slug>
+
+Notes: iter 379 REVIEW — meta title/desc audit of iters 376-378. 9 violations fixed in 7 files (FR+DE Caesarea aqueduct-beach/harbour/ralli-museum + western-galilee-guide). Recurring lesson: FR+DE titles/descs verbose; target ≤55 char titles when authoring to leave a safety margin for both locales. All links OK. 599 pages unchanged. SHA 6eb94d6.
 
 Notes: iter 378 BUILD (tools/i18n) — i18n Phase 4 Batch 8 shipped. Caesarea 4/4 attractions now in FR+DE. Remaining untranslated EN attractions: Dead Sea (3: ein-gedi, mineral-beach, qumran), Eilat (5: coral-beach, dolphin-reef, red-canyon, timna-park, underwater-observatory), Nazareth (4: basilica-of-the-annunciation, marys-well, mount-of-precipice, old-city), Negev (5: avdat, bedouin-hospitality, ein-avdat, mitzpe-ramon, sde-boker) = 17 ready + 2 deferred (jerusalem/holy-sepulchre, jerusalem/temple-mount). fr pages: ~108/~158. de pages: ~108/~158.
 

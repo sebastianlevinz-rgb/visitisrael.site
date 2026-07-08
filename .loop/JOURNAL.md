@@ -6645,3 +6645,20 @@ smoke.spec.ts + a11y.spec.ts +8 routes each.
 Gate: 0 check errors · build 599 pages (+8 from 591) · 816/816 e2e+a11y pass (+16 from 800).
 Merge: squash-merged to master SHA 321c68a, pushed origin/master.
 Prod: CI in_progress at push time.
+
+## 2026-07-08T09:35Z · iter 379 · REVIEW · meta title/desc audit of iters 376-378
+What: REVIEW pass (379%5==4). Audited meta title/desc on pages from iters 376-378: tabgha-church-guide, western-galilee-guide, and 8 FR+DE Caesarea attraction locale pages (Batch 8).
+Audit checks: (1) meta title ≤65 chars; (2) meta description ≤160 chars; (3) internal link resolution for all links in tabgha-church-guide and western-galilee-guide.
+Findings — 9 violations across 7 files:
+- EN western-galilee-guide title: 88→62 ("Western Galilee Guide: Montfort, Beit She'arim & Trails (2026)"); desc: 168→148
+- FR caesarea-aqueduct-beach title: 74→58 (removed " en Méditerranée")
+- FR caesarea-harbour desc: 173→153 (restructured, removed "Hérode le Grand a construit" clause)
+- FR caesarea-ralli-museum title: 74→59 ("art moderne européen"); desc: 166→133 (removed "collection privée de Harry Recanati :" preamble)
+- DE caesarea-aqueduct-beach title: 68→56 ("& Schwimmen" instead of "und Mittelmeerschwimmen")
+- DE caesarea-national-park desc: 161→138 (removed "an der Mittelmeerküste")
+- DE caesarea-ralli-museum title: 79→63 (removed " und europäische")
+Internal links: all 13 links in tabgha-church-guide + all 8 links in western-galilee-guide resolve to existing content. /galilee/capernaum and /galilee/magdala patterns confirmed correct (attraction file galilee-capernaum.md routes to /galilee/capernaum per content config).
+Lesson (reinforces iter 374): FR/DE titles/descs systematically overrun; author to ≤55 char target for titles in locale pages to leave a 10-char safety margin.
+Gate: pnpm check 0 errors · pnpm build 599 pages (no change) · pnpm test:e2e 816/816 pass.
+Merge: committed to master SHA 6eb94d6, pushed origin/master.
+Prod: CI in_progress at push time (consistent with all prior iterations).
