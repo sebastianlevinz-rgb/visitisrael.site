@@ -6687,3 +6687,14 @@ What: New /day-trips-from-eilat — hub guide for all excursions from Eilat. Cov
 Gate: pnpm check 0 errors; build 601 pages (+1); 819/819 e2e+a11y pass (link-check caught broken link, fixed, re-gated clean).
 Merge: committed to master SHA 97c50ea, pushed. CI in_progress at push time.
 Prod: CI + Lighthouse workflows started for 97c50ea; pending at end of iteration (confirm on next run).
+
+## 2026-07-08T13:50Z · iter 383 · BUILD (tools/i18n) · i18n-phase4-batch9-dead-sea
+
+What: i18n Phase 4 Batch 9 — 3 remaining Dead Sea attractions translated into FR+DE (6 locale pages):
+- dead-sea/ein-gedi (FR+DE): oasis hikes, Nahal David, Nahal Arugot, waterfalls, ibex, ticketInfo preserved (priceRange/bookingRequired/tipText/gygTicketsQuery)
+- dead-sea/mineral-beach (FR+DE): public floating beaches, Kalia + Ein Bokek + Ein Gedi, mud stations, no ticketInfo (EN has none)
+- dead-sea/qumran (FR+DE): Essene settlement, scriptorium, mikvaot, Dead Sea Scrolls cave viewpoints, no ticketInfo (EN has none)
+smoke.spec.ts + a11y.spec.ts +6 routes added. Dead Sea attractions: 3/3 now in FR+DE (masada, ein-bokek already done).
+Gate: pnpm check 0 errors; pnpm build 607 pages (+6); pnpm test:e2e 831/831 pass.
+Merge: committed to master SHA 06bbb72, pushed. CI in_progress at push time.
+Prod: CI + Lighthouse workflows started for 06bbb72; pending at end of iteration (confirm on next run).

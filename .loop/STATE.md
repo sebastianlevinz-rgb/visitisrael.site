@@ -1,13 +1,15 @@
 # LOOP STATE
 
-- iteration: 382
-- lastMode: BUILD (monetization) (382%5==2)
-- lastItem: day-trips-from-eilat
-- lastResult: SHIPPED — new /day-trips-from-eilat (P2 M seo-content+monetization). Hub guide for all Eilat excursions: Petra Jordan day trip, Timna Park, Red Canyon, Coral Beach, glass-bottom boat, Dolphin Reef, Aqaba. Comparison table by destination/travel-time/transport. Summer heat planning section. 6 FAQs. 3 affiliate CTAs: GYG Petra day trip, Viator Timna jeep safari, GYG glass-bottom boat. Cross-links added to eilat-travel-guide.md, eilat-beach-guide.md, eilat-tours-compared.md. Smoke + a11y routes added. Gate: 0 check errors; 601 pages (+1); 819/819 e2e+a11y pass. SHA 97c50ea. CI in_progress at push time.
-- nextRotationCategory: 383%5==3 → BUILD (tools/i18n). 384%5==4 → REVIEW. 385%5==0 → RESEARCH. 386%5==1 → BUILD (seo-content).
+- iteration: 383
+- lastMode: BUILD (tools/i18n) (383%5==3)
+- lastItem: i18n-phase4-batch9-dead-sea
+- lastResult: SHIPPED — i18n Phase 4 Batch 9: 3 Dead Sea attractions in FR+DE (6 locale pages). dead-sea/ein-gedi (ticketInfo preserved), dead-sea/mineral-beach, dead-sea/qumran. smoke.spec.ts + a11y.spec.ts +6 routes. Gate: 0 check errors; 607 pages (+6); 831/831 e2e+a11y pass. SHA 06bbb72. CI in_progress at push time.
+- nextRotationCategory: 384%5==4 → REVIEW. 385%5==0 → RESEARCH. 386%5==1 → BUILD (seo-content). 387%5==2 → BUILD (monetization). 388%5==3 → BUILD (tools/i18n).
 - higgsfieldSpent: 0
-- updatedAt: 2026-07-08T13:00Z
+- updatedAt: 2026-07-08T13:50Z
 - branch context: work on master; feature work on auto/<slug>
+
+Notes: iter 383 BUILD (tools/i18n) — i18n Phase 4 Batch 9 shipped. Dead Sea 3/3 attractions now in FR+DE (ein-gedi, mineral-beach, qumran). Remaining untranslated EN attractions: Eilat (5: coral-beach, dolphin-reef, red-canyon, timna-park, underwater-observatory), Nazareth (4: basilica-of-the-annunciation, marys-well, mount-of-precipice, old-city), Negev (5: avdat, bedouin-hospitality, ein-avdat, mitzpe-ramon, sde-boker) = 14 ready + 2 deferred (jerusalem/holy-sepulchre, jerusalem/temple-mount). fr pages: ~114/~158. de pages: ~114/~158.
 
 Notes: iter 382 BUILD (monetization) — day-trips-from-eilat shipped. Fills the Eilat excursion hub gap. Naturally clusters with eilat-beach-guide (iter381) and eilat-travel-guide. Broken link to /timna-park-guide caught and fixed before gate (Timna guide is in BACKLOG, not yet shipped). day-trips-from-eilat item removed from BACKLOG; added to DONE.
 
@@ -18,12 +20,6 @@ Notes: iter 380 RESEARCH — 2 net-new items added to BACKLOG: Terminal Park Eil
 Notes: iter 379 REVIEW — meta title/desc audit of iters 376-378. 9 violations fixed in 7 files (FR+DE Caesarea aqueduct-beach/harbour/ralli-museum + western-galilee-guide). Recurring lesson: FR+DE titles/descs verbose; target ≤55 char titles when authoring to leave a safety margin for both locales. All links OK. 599 pages unchanged. SHA 6eb94d6.
 
 Notes: iter 378 BUILD (tools/i18n) — i18n Phase 4 Batch 8 shipped. Caesarea 4/4 attractions now in FR+DE. Remaining untranslated EN attractions: Dead Sea (3: ein-gedi, mineral-beach, qumran), Eilat (5: coral-beach, dolphin-reef, red-canyon, timna-park, underwater-observatory), Nazareth (4: basilica-of-the-annunciation, marys-well, mount-of-precipice, old-city), Negev (5: avdat, bedouin-hospitality, ein-avdat, mitzpe-ramon, sde-boker) = 17 ready + 2 deferred (jerusalem/holy-sepulchre, jerusalem/temple-mount). fr pages: ~108/~158. de pages: ~108/~158.
-
-Notes: iter 377 BUILD (monetization) — western-galilee-guide shipped. P2 M seo-content+monetization. Filled the gap BETWEEN akko-acre-guide and rosh-hanikra (not yet shipped) with the cluster of lesser-visited Western Galilee sites. Key content: Lohamei HaGeta'ot (free, group bookings recommended, gfh.org.il); Beit She'arim (UNESCO 2015, INPA pass, dark narrow catacombs — bring torch); Montfort (Teutonic Knights, 1229 CE acquired, captured Baybars 1271, 2-3h hike rocky descent from Hila); Nahal Kziv (Oct-May season, flash flood warning, water shoes); Peqi'in (continuous Jewish settlement since 70 CE claimed, multi-faith coexistence, Druze pita coop, Bar Yochai cave synagogue); Achzivland (Eli Avivi, 1970s breakaway, call ahead). Half-day: Lohamei HaGeta'ot + Akko (train-accessible). Full day from Haifa: Beit She'arim → Lohamei HaGeta'ot → Rosh Hanikra → Achziv → Nahal Kziv with drive-time table. Hill+village day: Peqi'in + Montfort + Nahal Kziv. 3 CTAs: GYG, Viator, DiscoverCars (car essential for inland sites). Cross-links added: akko-acre-guide.md footer, day-trips-from-haifa.md car rental paragraph. Gate: 0 check errors, 591 pages (+1), 800/800 e2e+a11y (+2). SHA 5064347. CI in_progress at push time.
-
-Notes: iter 376 BUILD (seo-content) — tabgha-church-guide shipped. New /tabgha-church-guide: standalone guide for Tabgha's two northwestern Sea of Galilee pilgrimage churches. Church of Multiplication: Benedictine monastery church built 1982 over 4th/5th-century foundations; in-situ 5th-century Byzantine mosaic floor (loaves+fish central panel, water birds, botanical surround). Church of Primacy of St. Peter: small Franciscan black-basalt chapel lakeside, Mensa Christi flat rock (John 21 post-Resurrection breakfast). 3 affiliate CTAs (GYG Galilee Christian tour, Viator Sea of Galilee+Tabgha, Booking Tiberias). 6 FAQs. Cross-links to galilee-christian-sites-circuit, sea-of-galilee-guide, christian-pilgrimage-holy-land, capernaum visitor context, tiberias. Image: /images/regions/galilee/capernaum.jpg (no Tabgha-specific image available). Gate: 0 check errors; 590 pages (+1); 798/798 e2e+a11y (+2). SHA 8a36764. CI in_progress at push time.
-
-Notes: iter 375 RESEARCH — 3 net-new items added to BACKLOG (grep-confirmed zero prior hits): tabgha-church-guide (P2 S; standalone guide for Tabgha's two Galilee pilgrimage churches — no visitisrael.site coverage vs seetheholyland.net/beinharimtours.com ranking competitors), eilat-beach-guide (P2 S; North Beach vs Coral Beach vs Almog Beach comparison; all major English editorial frozen since Oct 2023), yom-haatzmaut-in-israel (P2 S; Israel Independence Day visitor guide; LP/Timeout silent; GYG sells tour with zero editorial companion). English editorial freeze (LP/Timeout/TripAdvisor) since Oct 2023 = ongoing structural SERP gap confirmed. No code shipped.
 
 Cron b7325b16 hourly @ :17. Loop history: 19 tools + sitemap-lastmod + link-checker(+depth) + i18n
 Phase0/1a/1b/1c/2 Batches1-18(COMPLETE) + 38 review passes + 3 technical (event-schema + meta-trim + locale-links) + 51 EN guides + 5 tools-monetization;
