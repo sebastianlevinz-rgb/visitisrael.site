@@ -4,10 +4,11 @@ import { locales, languageNames, getLocaleFromPath, localeHome, useTranslations 
 
 const currentLocale = getLocaleFromPath(Astro.url.pathname);
 const t = useTranslations(currentLocale);
+const localePrefix = currentLocale === 'en' ? '' : `/${currentLocale}`;
 const navRegions = REGIONS.slice(0, 6);
 const planLinks = [
   { href: '/best-things-to-do-in-israel', label: t('nav.thingsToDo') },
-  { href: '/itineraries', label: t('nav.itineraries') },
+  { href: `${localePrefix}/itineraries`, label: t('nav.itineraries') },
   { href: '/build-your-trip', label: t('nav.buildTrip') },
   { href: '/best-tours-in-israel', label: t('nav.tours') },
   { href: '/israel-trip-cost-calculator', label: t('nav.costCalculator') },
@@ -42,7 +43,7 @@ const planLinks = [
         ))
       }
       <a
-        href="/itineraries"
+        href={`${localePrefix}/itineraries`}
         class="text-sm font-semibold text-ink-muted no-underline transition-colors hover:text-primary"
         >{t('nav.itineraries')}</a
       >

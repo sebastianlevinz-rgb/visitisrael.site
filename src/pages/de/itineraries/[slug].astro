@@ -1,0 +1,88 @@
+---
+import { getCollection, render } from 'astro:content';
+import BaseLayout from '@/layouts/BaseLayout.astro';
+import Hero from '@/components/Hero.astro';
+import Breadcrumbs from '@/components/Breadcrumbs.astro';
+import AuthorByline from '@/components/AuthorByline.astro';
+import AffiliateCard from '@/components/AffiliateCard.astro';
+import FaqSection from '@/components/FaqSection.astro';
+import JsonLd from '@/components/JsonLd.astro';
+import { defaultAuthor } from '@/data/authors';
+import { article, breadcrumbList, faqPage, SITE } from '@/lib/schema';
+
+export async function getStaticPaths() {
+  const allItineraries = await getCollection('itineraries');
+  const deItineraries = allItineraries.filter((e) => e.id.startsWith('de/'));
+  const idSet = new Set(allItineraries.map((e) => e.id));
+  return deItineraries.map((entry) => {
+    const baseId = entry.id.slice(3); // strip 'de/'
+    const hasEn = idSet.has(baseId);
+    const hasFr = idSet.has(`fr/${baseId}`);
+    return {
+      params: { slug: baseId },
+      props: { entry, baseId, hasEn, hasFr },
+    };
+  });
+}
+
+const { entry, baseId, hasEn = false, hasFr = false } = Astro.props;
+const { Content } = await render(entry);
+const d = entry.data;
+const hero = d.heroImage ?? '/images/regions/jerusalem/hero.jpg';
+const path = `/de/itineraries/${baseId}`;
+const enPath = `/itineraries/${baseId}`;
+const frPath = `/fr/itineraries/${baseId}`;
+
+const alternates = [
+  ...(hasEn ? [{ hreflang: 'en', href: `${SITE}${enPath}` }] : []),
+  ...(hasFr ? [{ hreflang: 'fr', href: `${SITE}${frPath}` }] : []),
+  { hreflang: 'de', href: `${SITE}${path}` },
+  ...(hasEn ? [{ hreflang: 'x-default', href: `${SITE}${enPath}` }] : []),
+];
+
+const crumbs = [
+  { name: 'Startseite', path: '/de/' },
+  { name: 'Reisepläne', path: '/de/itineraries' },
+  { name: d.title, path },
+];
+
+const isTelAviv = d.startRegion === 'tel-aviv';
+const tours = isTelAviv
+  ? [
+      { partner: 'getyourguide' as const, title: 'Tel-Aviv-Kulinarik- & Markttour', description: 'Entdecken Sie den Carmel-Markt und Alt-Jaffa mit einem lokalen Foodie-Guide.', image: '/images/regions/tel-aviv/carmel-market.jpg', query: 'Tel Aviv food tour' },
+      { partner: 'viator' as const, title: 'Jaffa-Stadtrundgang', description: 'Erkunden Sie die antike Hafenstadt, den Flohmarkt und das Panorama vom Hügel mit einem Guide.', image: '/images/regions/tel-aviv/jaffa.jpg', query: 'Old Jaffa walking tour' },
+      { partner: 'civitatis' as const, title: 'Masada & Totes Meer Tagesausflug ab Tel Aviv', description: 'Sonnenaufgang an Masada und Schwimmen im Toten Meer — ein Tagesausflug ab Tel Aviv.', image: '/images/regions/dead-sea/hero.jpg', query: 'Masada Dead Sea day trip Tel Aviv' },
+    ]
+  : [
+      { partner: 'getyourguide' as const, title: 'Jerusalem Altstadtführung', description: 'Durchqueren Sie alle vier Viertel und die heiligen Stätten mit einem lokalen Guide.', image: '/images/regions/jerusalem/hero.jpg', query: 'Jerusalem Old City tour' },
+      { partner: 'viator' as const, title: 'Masada & Totes Meer Tagesausflug', description: 'Sonnenaufgang an Masada und Schwimmen im Toten Meer.', image: '/images/regions/dead-sea/hero.jpg', query: 'Masada Dead Sea day trip' },
+      { partner: 'civitatis' as const, title: 'Tel Aviv & Jaffa Kulinariktour', description: 'Schlendern Sie über den Carmel-Markt und durch Alt-Jaffa mit einem Foodie-Guide.', image: '/images/regions/tel-aviv/hero.jpg', query: 'Tel Aviv Jaffa food tour' },
+    ];
+
+const schema = [
+  article({ headline: d.title, description: d.description, image: hero, path, authorName: defaultAuthor.name, authorUrl: defaultAuthor.url, datePublished: d.publishedAt, dateModified: d.updatedAt }),
+  breadcrumbList(crumbs),
+  ...(d.faqs && d.faqs.length > 0 ? [faqPage(d.faqs)] : []),
+];
+---
+
+<BaseLayout title={d.title} description={d.description} path={path} image={hero} alternates={alternates}>
+  <JsonLd slot="head" schema={schema} />
+  <Hero image={hero} title={d.title} subtitle={d.days ? `${d.days}-Tage-Reiseplan` : undefined} alt={d.title} />
+  <Breadcrumbs items={crumbs} />
+  <AuthorByline updated={d.updatedAt} />
+
+  <article class="prose-content mx-auto max-w-3xl px-4 pt-4">
+    <Content />
+  </article>
+
+  <section class="mx-auto max-w-6xl px-4 pt-10" aria-labelledby="book">
+    <h2 id="book" class="mb-5 font-display text-3xl font-bold text-ink">Die wichtigsten Erlebnisse buchen</h2>
+    <div class="grid grid-cols-1 gap-5 sm:grid-cols-3">
+      {tours.map((t) => <AffiliateCard {...t} />)}
+    </div>
+  </section>
+
+  <FaqSection faqs={d.faqs ?? []} />
+  <AuthorByline updated={d.updatedAt} />
+</BaseLayout>

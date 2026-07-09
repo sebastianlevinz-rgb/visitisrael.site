@@ -4,9 +4,9 @@ import BaseLayout from '@/layouts/BaseLayout.astro';
 import Hero from '@/components/Hero.astro';
 import Breadcrumbs from '@/components/Breadcrumbs.astro';
 
-const itineraries = (await getCollection('itineraries')).sort(
-  (a, b) => (a.data.days ?? 0) - (b.data.days ?? 0),
-);
+const itineraries = (await getCollection('itineraries'))
+  .filter((e) => !e.id.startsWith('fr/') && !e.id.startsWith('de/'))
+  .sort((a, b) => (a.data.days ?? 0) - (b.data.days ?? 0));
 const title = 'Israel Itineraries: 3, 5, 7 & 10-Day Routes';
 const description =
   'Ready-made Israel travel itineraries for every trip length — from a focused 3 days in Jerusalem to a classic week and beyond, with tours, hotels and transport.';

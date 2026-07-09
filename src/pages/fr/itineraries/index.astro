@@ -1,0 +1,78 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '@/layouts/BaseLayout.astro';
+import Hero from '@/components/Hero.astro';
+import Breadcrumbs from '@/components/Breadcrumbs.astro';
+
+const allItineraries = await getCollection('itineraries');
+const itineraries = allItineraries
+  .filter((e) => e.id.startsWith('fr/'))
+  .sort((a, b) => (a.data.days ?? 0) - (b.data.days ?? 0));
+const baseIds = new Set(allItineraries.filter((e) => !e.id.startsWith('fr/') && !e.id.startsWith('de/')).map((e) => e.id));
+
+const title = 'Itinéraires Israël : routes de 3, 5, 7 et 10 jours';
+const description =
+  'Itinéraires de voyage en Israël clés en main pour toutes les durées de séjour — de 3 jours à Jérusalem à une semaine et plus, avec circuits, hébergements et transports.';
+const crumbs = [
+  { name: 'Accueil', path: '/fr/' },
+  { name: 'Itinéraires', path: '/fr/itineraries' },
+];
+---
+
+<BaseLayout title={title} description={description} path="/fr/itineraries">
+  <Hero
+    image="/images/regions/jerusalem/hero.jpg"
+    title="Itinéraires Israël"
+    subtitle="Routes jour par jour pour les premiers visiteurs et les voyageurs confirmés."
+    alt="Vieille Ville de Jérusalem — point de départ de nombreux itinéraires en Israël"
+  />
+  <Breadcrumbs items={crumbs} />
+
+  <section class="mx-auto max-w-6xl px-4 pt-10">
+    <p class="mx-auto max-w-3xl text-lg leading-relaxed text-ink">
+      Vous ne savez pas comment organiser votre voyage en Israël ? Ces itinéraires font le
+      travail à votre place — chacun équilibre les incontournables avec des temps de trajet
+      réalistes et propose directement les circuits, hôtels et transports dont vous aurez besoin.
+    </p>
+
+    <div class="mt-8 grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-3">
+      {
+        itineraries.map((it) => {
+          const baseId = it.id.slice(3); // strip 'fr/'
+          return (
+            <a
+              href={`/fr/itineraries/${baseId}`}
+              class="group relative block aspect-[3/2] overflow-hidden rounded-card shadow-card transition-shadow hover:shadow-card-hover"
+            >
+              <img
+                src={it.data.heroImage ?? '/images/regions/jerusalem/hero.jpg'}
+                alt={it.data.title}
+                width="800"
+                height="533"
+                loading="lazy"
+                class="absolute inset-0 h-full w-full object-cover transition-transform duration-500 group-hover:scale-105"
+              />
+              <div class="photo-overlay absolute inset-0" />
+              <div class="absolute inset-x-0 bottom-0 p-5">
+                {it.data.days && (
+                  <span class="photo-title text-xs font-semibold uppercase tracking-widest opacity-90">
+                    {it.data.days} jours
+                  </span>
+                )}
+                <h2 class="photo-title mt-1 font-display text-xl font-bold leading-tight">
+                  {it.data.title}
+                </h2>
+              </div>
+            </a>
+          );
+        })
+      }
+    </div>
+
+    <p class="mx-auto mt-8 max-w-3xl text-ink-muted">
+      D'autres routes sont ajoutées régulièrement. En attendant, parcourez les
+      <a href="/fr/" class="font-semibold text-primary">11 régions</a> ou commencez par notre
+      <a href="/fr/first-time-in-israel" class="font-semibold text-primary">guide du premier voyage</a>.
+    </p>
+  </section>
+</BaseLayout>
