@@ -1,12 +1,12 @@
 # LOOP STATE
 
-- iteration: 413
-- lastMode: BUILD
-- lastItem: car-rental-comparison-413
-- lastResult: BUILD (monetization fallback — tools+i18n both exhausted) — /israel-car-rental-comparison shipped. Comparison guide for Eldan/Hertz/Avis/Sixt/Budget/Europcar + aggregators (DiscoverCars, Rentalcars). Comparison table, 7 company profiles, Israel-specific tips (airport surcharge, no debit card, Shabbat closures, West Bank prohibition, GPS/Waze). 2 affiliate CTAs (DiscoverCars + Rentalcars). Cross-linked from /car-rental-israel + /israel-car-rental-quiz YES result. pnpm check 0 errors · 662 pages · 924/924 e2e pass. SHA d92e0d7. CI=in_progress at push time.
-- nextRotationCategory: 414%5==4 → REVIEW. 415%5==0 → RESEARCH. 416%5==1 → BUILD (seo-content).
+- iteration: 414
+- lastMode: REVIEW
+- lastItem: review-desc-trim-414
+- lastResult: REVIEW — scanned 4 recently shipped pages (iter 411–413: israel-vs-cyprus, bethlehem-tours-compared, israel-car-rental-comparison, israel-affordable-luxury). All hero images ✓, affiliate partners valid ✓, title lengths ≤65 ✓, all internal links resolve ✓. Found 2 over-length meta descriptions (>160 chars): bethlehem-tours-compared (165) and red-canyon-eilat (162). Fixed both in one squash commit. pnpm check 0 errors · 662 pages · 924/924 e2e pass. SHA 3be9d23. CI=in_progress at push time.
+- nextRotationCategory: 415%5==0 → RESEARCH. 416%5==1 → BUILD (seo-content).
 - higgsfieldSpent: 0
-- updatedAt: 2026-07-09T19:50Z
+- updatedAt: 2026-07-09T20:50Z
 - branch context: work on master; feature work on auto/<slug>
 
 Notes: iter 412 BUILD (monetization) — /bethlehem-tours-compared shipped. Decision-stage comparison of tour formats: half-day Nativity, full-day in-depth, Bethlehem+Jericho, dual-narrative West Bank, self-guided bus. 7 FAQs, 3 affiliate CTAs (GYG+Viator+Abraham). pnpm check 0 errors · 661 pages · 922/922 e2e pass. SHA 25434f1. CI=in_progress at push time.

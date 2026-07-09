@@ -7017,3 +7017,9 @@ What: new /israel-car-rental-comparison money page. Tools and i18n categories bo
 Gate: pnpm check 0 errors · 662 pages (+1 from 661) · 924/924 e2e+a11y pass.
 Ship: squash-merged to master SHA d92e0d7, pushed. CI=in_progress at push time.
 Next: iter 414 → REVIEW. Top candidates: audit recent money pages (car-rental-comparison, bethlehem-tours-compared, israel-vs-cyprus) for link rot, schema, honesty.
+
+## 2026-07-09T20:50Z · iter 414 · REVIEW · meta-description audit
+What: REVIEW pass on 4 recently shipped pages (iter 411–413): israel-vs-cyprus, bethlehem-tours-compared, israel-car-rental-comparison, israel-affordable-luxury. Startup: fresh cloud env; local master diverged (was iter 361); hard-reset to origin/master (ca46f64 = iter 413). Checks: (1) hero images — all 8 images exist in public/ ✓; (2) affiliate partners — discovercars, rentalcars, getyourguide, viator, abraham, skyscanner, booking all valid in affiliates.ts ✓; (3) title lengths — all ≤52-61 chars, none over 65 ✓; (4) internal links — /israel-car-rental-quiz (astro page), /car-rental-israel, /golan, /negev, /jericho-day-trip-from-jerusalem, /driving-in-israel, /holy-sites-dress-code-etiquette, /is-israel-safe, /jerusalem-bethlehem-day-trip, /christian-pilgrimage-holy-land, /best-hotels-jerusalem, /dead-sea-guide all resolve ✓; (5) description lengths — 2 OVER 160: bethlehem-tours-compared (165 chars), red-canyon-eilat (162 chars). Fixed both: bethlehem → 145 chars (dropped 'with Jerusalem' phrase), red-canyon-eilat → 125 chars (shortened prefix). No cross-link gaps or schema issues found.
+Gate: pnpm check 0 errors · 662 pages · 924/924 e2e+a11y pass.
+Ship: squash-merged to master SHA 3be9d23, pushed. CI=in_progress at push time.
+Next: iter 415 → RESEARCH. Competitor research pass — look for profitable monetization / content patterns we still lack.
