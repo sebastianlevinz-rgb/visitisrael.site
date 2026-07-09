@@ -1,0 +1,77 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '@/layouts/BaseLayout.astro';
+import Hero from '@/components/Hero.astro';
+import Breadcrumbs from '@/components/Breadcrumbs.astro';
+
+const allItineraries = await getCollection('itineraries');
+const itineraries = allItineraries
+  .filter((e) => e.id.startsWith('de/'))
+  .sort((a, b) => (a.data.days ?? 0) - (b.data.days ?? 0));
+
+const title = 'Israel-Reisepläne: 3-, 5-, 7- und 10-Tage-Routen';
+const description =
+  'Fertige Israel-Reisepläne für jede Reisedauer — von 3 Tagen in Jerusalem bis zu einer klassischen Woche und mehr, mit Touren, Hotels und Transport.';
+const crumbs = [
+  { name: 'Startseite', path: '/de/' },
+  { name: 'Reisepläne', path: '/de/itineraries' },
+];
+---
+
+<BaseLayout title={title} description={description} path="/de/itineraries">
+  <Hero
+    image="/images/regions/jerusalem/hero.jpg"
+    title="Israel-Reisepläne"
+    subtitle="Tagesweise Routen für Erstbesucher und erfahrene Reisende."
+    alt="Altstadt Jerusalem — Ausgangspunkt vieler Israel-Reisepläne"
+  />
+  <Breadcrumbs items={crumbs} />
+
+  <section class="mx-auto max-w-6xl px-4 pt-10">
+    <p class="mx-auto max-w-3xl text-lg leading-relaxed text-ink">
+      Unsicher, wie Sie Israel zusammenstellen sollen? Diese Reisepläne übernehmen die Routenplanung
+      für Sie — jeder balanciert die Must-See-Sehenswürdigkeiten mit realistischen Fahrzeiten und
+      verlinkt direkt auf Touren, Hotels und Transport, die Sie benötigen.
+    </p>
+
+    <div class="mt-8 grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-3">
+      {
+        itineraries.map((it) => {
+          const baseId = it.id.slice(3); // strip 'de/'
+          return (
+            <a
+              href={`/de/itineraries/${baseId}`}
+              class="group relative block aspect-[3/2] overflow-hidden rounded-card shadow-card transition-shadow hover:shadow-card-hover"
+            >
+              <img
+                src={it.data.heroImage ?? '/images/regions/jerusalem/hero.jpg'}
+                alt={it.data.title}
+                width="800"
+                height="533"
+                loading="lazy"
+                class="absolute inset-0 h-full w-full object-cover transition-transform duration-500 group-hover:scale-105"
+              />
+              <div class="photo-overlay absolute inset-0" />
+              <div class="absolute inset-x-0 bottom-0 p-5">
+                {it.data.days && (
+                  <span class="photo-title text-xs font-semibold uppercase tracking-widest opacity-90">
+                    {it.data.days} Tage
+                  </span>
+                )}
+                <h2 class="photo-title mt-1 font-display text-xl font-bold leading-tight">
+                  {it.data.title}
+                </h2>
+              </div>
+            </a>
+          );
+        })
+      }
+    </div>
+
+    <p class="mx-auto mt-8 max-w-3xl text-ink-muted">
+      Weitere Routen werden regelmäßig hinzugefügt. In der Zwischenzeit erkunden Sie die
+      <a href="/de/" class="font-semibold text-primary">11 Regionen</a> oder beginnen mit unserem
+      <a href="/de/first-time-in-israel" class="font-semibold text-primary">Erstbesuch-Leitfaden</a>.
+    </p>
+  </section>
+</BaseLayout>

@@ -489,6 +489,20 @@ const ROUTES = [
   '/best-hotels-tiberias',
   '/tabgha-church-guide',
   '/western-galilee-guide',
+  '/fr/itineraries',
+  '/de/itineraries',
+  '/fr/itineraries/2-days-in-tel-aviv',
+  '/fr/itineraries/3-days-in-jerusalem',
+  '/fr/itineraries/5-days-in-israel',
+  '/fr/itineraries/7-days-in-israel',
+  '/fr/itineraries/10-days-in-israel',
+  '/fr/itineraries/14-days-in-israel',
+  '/de/itineraries/2-days-in-tel-aviv',
+  '/de/itineraries/3-days-in-jerusalem',
+  '/de/itineraries/5-days-in-israel',
+  '/de/itineraries/7-days-in-israel',
+  '/de/itineraries/10-days-in-israel',
+  '/de/itineraries/14-days-in-israel',
 ];
 
 for (const route of ROUTES) {

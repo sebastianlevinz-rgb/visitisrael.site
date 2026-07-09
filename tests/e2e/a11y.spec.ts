@@ -330,6 +330,8 @@ const ROUTES = [
   '/western-galilee-guide',
   '/israel-vs-turkey',
   '/israel-vs-egypt',
+  '/fr/itineraries/7-days-in-israel',
+  '/de/itineraries/7-days-in-israel',
 ];
 
 for (const route of ROUTES) {

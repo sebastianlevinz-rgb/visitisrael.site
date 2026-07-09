@@ -49,7 +49,7 @@ const attractions = defineCollection({
 });
 
 const itineraries = defineCollection({
-  loader: glob({ pattern: '*.md', base: './src/content/itineraries' }),
+  loader: glob({ pattern: '**/*.md', base: './src/content/itineraries' }),
   schema: z.object({
     title: z.string(),
     description: z.string(),
