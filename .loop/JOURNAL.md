@@ -6966,3 +6966,34 @@ Checks run:
 Gate: pnpm check 0 errors · 659 pages · 922/922 e2e pass.
 Commit: f701a36 "fix(i18n): remove unused baseIds variable from fr/itineraries/index.astro [auto-loop]" pushed to origin/master. CI=in_progress (Lighthouse + CI workflows) at push time — consistent with all prior iters, non-blocking.
 Next: iter 410 → RESEARCH (410%5==0). Candidates: galilee-wine-trail (P2,S,ready), israel-vs-greece (P2,S ready), israel-passover-travel (P2,M ready), israel-road-trip-with-kids (P2,M ready), new competitor gap scan (touristisrael.com / lonelyplanet.com fresh content).
+
+## iter 410 — RESEARCH — research-410-comparison-extensions-niche-activities (2026-07-09)
+
+**Startup:** Fresh cloud env. `git pull --ff-only` failed (51-commit divergence). Fixed with `git fetch origin master && git reset --hard origin/master` (SHA f701a36 = iter409 state). Confirmed: no local changes lost.
+
+**Mode:** RESEARCH (410 % 5 == 0). Target: 6–10 new, deduplicated backlog items.
+
+**Research scope:** Competitor gap analysis across comparison-series extensions (vs-Cyprus, vs-Dubai, vs-Spain, vs-Italy) + niche outdoor activities (sea kayaking) + monetization (Eilat tax-free shopping guide). Checked: goisrael.com, lonelyplanet.com, roughguides.com, nomadicmatt.com, wanderlust.co.uk, GetYourGuide listings, TimeOut Israel, eilat.city, touropia.com, The Points Guy.
+
+**Dedup method:** Python3 regex scan against full BACKLOG.md (1001 lines pre-append, 1007 post) + DONE.md. All 6 items verified 0 prior P-item hits.
+
+**Rejected candidates (already covered):**
+- `israel-golf-guide` — already in BACKLOG as [P3] (confirmed 2 hits)
+- `israel-vs-greece` — already in BACKLOG as [P2] (confirmed 4 hits, from iter390)
+- `israel-vs-morocco` — already in BACKLOG as [P3] (confirmed 3 hits)
+- `israel-cyprus-trip-guide` — already in BACKLOG as [P3] (combination trip, not comparison)
+- `shopping-in-israel.md` — SHIPPED iter276
+- `cycling-in-israel.md` (IBT) — SHIPPED iter238; IBT covered in full
+- `sea-kayaking` as part of adventure-sports — israel-adventure-sports.md explicitly excludes sea kayaking; new guide is distinct
+
+**6 new items added to BACKLOG.md:**
+1. [P2] `/israel-vs-cyprus` — comparison guide (DISTINCT from combination-trip guide already in backlog); Cyprus = Israel's nearest EU neighbor, 45-min flight, zero editorial comparison exists
+2. [P3] `/israel-vs-dubai` — post-Abraham Accords comparison; luxury modernity vs cultural heritage; El Al TLV→DXB direct since 2020
+3. [P3] `/sea-kayaking-israel` — Mediterranean coastal kayaking; Rosh Hanikra sea caves, Achziv coves, Herzliya–TLV coastal route; distinct from freshwater jordan-river-kayaking (P2 backlog)
+4. [P3] `/eilat-shopping-guide` — Eilat VAT-free zone practical guide (17% savings on electronics/cosmetics/alcohol); distinct from shopping-in-israel.md (SHIPPED, covers markets)
+5. [P3] `/israel-vs-spain` — Mediterranean comparison; European travelers choosing between Spain and Israel for a "meaningful cultural Mediterranean trip"
+6. [P3] `/israel-vs-italy` — History/food/culture comparison; Rome–Jerusalem parallel; TLV–FCO direct 4.5h; first-mover opportunity
+
+**Gate:** No code changes made — RESEARCH iteration; only .loop/ state files updated.
+
+**Result:** 6 new items appended to BACKLOG.md. BACKLOG now 1007 lines. All items confirmed gap-free by dedup. Next: iter 411 → BUILD (seo-content). Top P2,S seo-content candidates: israel-vs-cyprus (P2,S,ready), israel-vs-greece (P2,S,ready), galilee-wine-trail (P2,S,ready).

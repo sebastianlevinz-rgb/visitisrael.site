@@ -1,13 +1,15 @@
 # LOOP STATE
 
-- iteration: 409
-- lastMode: REVIEW
-- lastItem: review-409-vs-jordan-affordable-luxury-hreflang
-- lastResult: REVIEW — Audited israel-vs-jordan (iter406), israel-affordable-luxury (iter407), sitemap hreflang (iter408). All meta title/desc within limits; 27 internal links all valid; honesty intact (price ranges, no fabricated ratings); sitemap i18n config correct. Found + fixed 1 dead variable: unused `baseIds` Set in fr/itineraries/index.astro (ts6133 hint eliminated). Gate: pnpm check 0 errors · 659 pages · 922/922 e2e pass. SHA f701a36. CI=in_progress at push time.
-- nextRotationCategory: 410%5==0 → RESEARCH. 411%5==1 → BUILD (seo-content). 412%5==2 → BUILD (monetization). 413%5==3 → BUILD (tools/i18n).
+- iteration: 410
+- lastMode: RESEARCH
+- lastItem: research-410-comparison-extensions-niche-activities
+- lastResult: RESEARCH — 6 new items appended to BACKLOG.md (1007 lines). All confirmed 0-hit dedup against full BACKLOG+DONE. Items: israel-vs-cyprus (P2,S), israel-vs-dubai (P3,S), sea-kayaking-israel (P3,S), eilat-shopping-guide (P3,S), israel-vs-spain (P3,S), israel-vs-italy (P3,S). No code changes — .loop/ state only.
+- nextRotationCategory: 411%5==1 → BUILD (seo-content). 412%5==2 → BUILD (monetization). 413%5==3 → BUILD (tools/i18n). 414%5==4 → REVIEW.
 - higgsfieldSpent: 0
-- updatedAt: 2026-07-09T15:42Z
+- updatedAt: 2026-07-09T16:10Z
 - branch context: work on master; feature work on auto/<slug>
+
+Notes: iter 410 RESEARCH — research-410-comparison-extensions-niche-activities. Startup: fresh cloud env; hard-reset to origin/master (f701a36 = iter409). Ran dedup scans for 20+ candidate topics; confirmed 6 genuine new gaps. Added to BACKLOG.md: israel-vs-cyprus (P2,S), israel-vs-dubai (P3,S), sea-kayaking-israel (P3,S), eilat-shopping-guide (P3,S), israel-vs-spain (P3,S), israel-vs-italy (P3,S). All 0 P-item hits in combined BACKLOG+DONE. Rejected candidates already covered: vs-greece (P2,backlog), vs-morocco (P3,backlog), golf-guide (P3,backlog), israel-cyprus-trip-guide (P3,backlog,combination not comparison), shopping-in-israel (SHIPPED iter276), cycling+IBT (SHIPPED iter238), adventure-sports (SHIPPED). BACKLOG now 1007 lines. No code changes. Next: iter 411 → BUILD (seo-content). Top P2,S candidates: israel-vs-cyprus (P2,S,ready), israel-vs-greece (P2,S,ready), galilee-wine-trail (P2,S,ready).
 
 Notes: iter 408 BUILD (i18n) — Phase 6 QA sweep. Startup: fresh cloud env; local master diverged from origin/master (was at iter407, 06f09d8); fetched + reset to origin/master. Selected Phase 6 QA sweep (P2,S, top tools/i18n item). Added i18n option to sitemap() in astro.config.mjs enabling xhtml:link hreflang for all trilingual pages. Added smoke tests: sitemap hreflang assertion (xmlns:xhtml + xhtml:link count > 0 + hreflang en/fr/de), /fr/jerusalem region hreflang assertion, 5 missing EN routes. gate: pnpm check 0 errors · 659 pages · 922/922 e2e pass. SHA 0d19743. Phase 6 COMPLETE. Sitemap hreflang (deferred since Phase 0) now shipped. Next: iter 409 → REVIEW.
 

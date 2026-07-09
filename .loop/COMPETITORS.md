@@ -4210,3 +4210,41 @@ Major English-language Israel travel editorial competitors (Lonely Planet, Rough
 - itraveljerusalem.com/passover-israel — Jerusalem-focused; no national scope
 - chabad.org/passover — excellent for Seder finder; not a travel guide
 - No major English travel brand (LP, RG, Timeout) has a comprehensive Passover visitor guide; very high undecided-traveller search intent in March–April annually
+
+## Iter 410 research — comparison extensions + niche activities (2026-07-09)
+
+**Israel vs Cyprus gap:**
+- No major English travel brand has a dedicated "Israel vs Cyprus" comparison guide
+- goisrael.com Cyprus section: only cruise port info, not a destination comparison
+- touropia.com and nomadicmatt.com both lack an Israel-vs-Cyprus page despite overlapping Mediterranean + history audience
+- lonelyplanet.com: separate Israel and Cyprus guidebooks — no comparison editorial
+- Cyprus is Israel's nearest EU neighbor (45-min flight); Israelis rank Cyprus #1 outbound vacation 2024 (CBS data); European travellers regularly consider both; zero editorial comparison exists = first-mover opportunity
+- DISTINCT gap from israel-cyprus-trip-guide (how to combine both) already in backlog
+
+**Israel vs Dubai gap:**
+- Abraham Accords (Sept 2020): El Al TLV→DXB opened late 2020; flydubai, Emirates now also operate direct routes
+- Israel-UAE tourism grew significantly 2021–2024; Gulf travelers visiting Israel for first time frame it against Dubai experience
+- No dedicated Israel vs Dubai travel comparison page on any major platform (LP, Rough Guides, TripAdvisor editorial, Nomadic Matt, The Points Guy)
+- The Points Guy has a Dubai vs Abu Dhabi comparison but nothing for Dubai vs Israel
+- Traveller intent: affluent UK/US travelers choosing between "luxury Middle East" (Dubai) vs "spiritual + culture + beach" (Israel)
+
+**Mediterranean sea kayaking gap:**
+- GetYourGuide lists ~8 active sea kayaking tours at Rosh Hanikra; no editorial guide surfaces in search
+- roshhanikra.com: official site; mentions boat access to caves but not kayaking-specific content
+- israel-adventure-sports.md (SHIPPED) covers canyoning, rappelling, jeep, ATV, surfing, kitesurfing, diving, skiing — explicitly does NOT mention sea kayaking
+- jordan-river-kayaking.md (P2, S in backlog) = freshwater river rafting/kayaking; sea kayaking is a categorically distinct product
+- OutsideIsrael.com and GoIsrael adventure sections do not have a dedicated sea kayaking guide
+
+**Eilat tax-free shopping gap:**
+- eilat.city/en/shopping: official Eilat municipality page lists malls; basic and not traveler-optimized
+- timeoutisrael.com: no Eilat shopping guide beyond generic "what to do in Eilat" roundups
+- visiteilat.net: mentions tax-free zone but no step-by-step practical guide
+- Israel-experienced travel blogs occasionally mention the VAT exemption in passing; no standalone authoritative guide
+- shopping-in-israel.md (SHIPPED iter276) covers Machane Yehuda, Carmel Market, Jaffa Flea; explicitly does NOT cover Eilat's distinct VAT-free retail scene
+
+**Israel vs Spain / Israel vs Italy gaps:**
+- Wanderlust.co.uk: has "Israel vs Greece" but not vs Spain or vs Italy
+- roughguides.com: country-guide format; no cross-country comparison pages
+- nomadicmatt.com: European-itinerary focus; no Israel-Spain comparison
+- Both Spain and Italy consistently rank #1-2 global tourist destinations; travellers weighing "Mediterranean cultural holiday" regularly shortlist Israel alongside Spain and Italy
+- Zero dedicated comparison pages found for either pairing on any major English travel brand
