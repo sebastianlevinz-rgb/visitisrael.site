@@ -4106,3 +4106,23 @@ Rough Guides Israel editorial content frozen since approximately October 2023 �
 - Israel ferry to Greece → not a viable regular transport option; subsumed as footnote in israel-greece-itinerary guide
 
 **6 new items added to BACKLOG** — see `iter390 additions` section in BACKLOG.md for full implementation sketches.
+
+## iter395 findings (2026-07-09) — RESEARCH
+
+Research tracks: (1) Tel Aviv art/culture scene — beinharimtours.com, lonelyplanet.com, artspacetlv.org, chasinglenscapes.com, timeout.com/tel-aviv; (2) New Jerusalem institutions + seasonal event guides — museumoftolerance.com/motj, tripadvisor.com, itraveljerusalem.com, touristisrael.com/easter-in-israel, saint-george-college-jerusalem, itraveljerusalem.com/house-of-quality, funinjerusalem.com/kiyor-ceramics; (3) Language/immersion tourism — homeulpan.com, ulpanor.com, international.tau.ac.il; (4) Namal Tel Aviv neighborhood — timeout.com/tel-aviv/namal-tel-aviv, visittelaviv.com/namal-tel-aviv.
+
+**New gaps confirmed:**
+
+1. **Tel Aviv art scene / Florentin street art / Kiryat Hamelacha** — beinharimtours.com has a Florentin street art tour guide; Lonely Planet has a "touring Tel Aviv art outside the museum" editorial feature; Artspace TLV nonprofit runs guided studio-visit tours at Kiryat Hamelacha (300+ working artist studios, panoramic rooftop). No competitor has a single consolidated guide covering street art + Kiryat Hamelacha + gallery scene.
+
+2. **Museum of Tolerance Jerusalem** — Opened 2023–2025 (phased), 150,000 sq ft, 1,000-seat amphitheater, "From Darkness to Light" Oct 7 survivor testimonies exhibit. No Israel travel editorial has a dedicated guide yet — post-dates competitors' content freeze. Distinct from Yad Vashem and Museum of Tolerance Los Angeles.
+
+3. **Easter in Jerusalem / Holy Week** — Tourist Israel and itraveljerusalem.com have general articles; no competitor has produced a comprehensive traveler guide with three Easter dates (Catholic, Orthodox, Armenian), Holy Fire ceremony logistics, accommodation booking timeline (3–6 months ahead), procession details.
+
+4. **Craft workshops (pottery/ceramics/glass/mosaics)** — TripAdvisor has a "Paint & Pottery Studios Israel" sub-category with 15+ listings; GetYourGuide has a Jerusalem pottery workshop category; no editorial guide consolidates Jerusalem House of Quality + Kiyor Ceramics + Jaffa ateliers + Safed workshops.
+
+5. **Ulpan / Hebrew language immersion tourism** — homeulpan.com, ulpanor.com, TAU summer ulpan program exist but no Israel travel site addresses ulpan as a travel format. Significant diaspora audience (aliyah candidates, religious travelers, gap-year students). Tel Aviv University and Hebrew University both run intensive summer ulpanim.
+
+6. **Namal Tel Aviv port neighborhood** — timeout.com/tel-aviv and visittelaviv.com have local guides; tripadvisor has 500+ reviews. No English travel editorial has a standalone dedicated Namal guide. Tuesday/Friday evening market, design district, waterfront promenade, Reading Power Station proximity — distinct from Carmel Market guide and Florentin neighborhood content.
+
+**Pattern confirmed:** Major competitors (Lonely Planet, Rough Guides, Tourist Israel) remain largely frozen post-2023. Genuinely new gaps after 78 research iterations now trend toward: (a) cultural-experience formats that competitors' static guides don't cover, (b) new institutions that post-date competitors' last update cycle (MOTJ), (c) neighborhood deep-dives that extend beyond the single-sentence mentions in existing neighborhood-roundup guides. 6 new items added to BACKLOG.

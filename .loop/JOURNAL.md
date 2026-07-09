@@ -6833,3 +6833,11 @@ Gate: pnpm check 0 errors; pnpm build 629 pages (unchanged); pnpm test:e2e 872/8
 Merge: committed to master SHA 209c4c0, pushed origin/master at 2026-07-09T00:39Z.
 Prod: Lighthouse CI in_progress at push time (consistent with all prior iters; non-blocking).
 Next: iter 395 = RESEARCH (395%5==0). Candidates: Israel spring guide, israel-vs-jordan comparison, Mediterranean cruise guide.
+
+## 2026-07-09T01:30Z · iter 395 · RESEARCH · research-395-art-easter-tolerance-workshops
+Mode: RESEARCH (395%5==0). Researched 2 agent tracks + direct WebSearch.
+What: (1) Tel Aviv art/culture track — beinharimtours, lonelyplanet, artspacetlv.org, chasinglenscapes, timeout.com/tel-aviv/namal-tel-aviv; (2) Jerusalem institutions/events track — museumoftolerance.com/motj, itraveljerusalem, touristisrael, tripadvisor craft workshops sub-category; (3) Language immersion — homeulpan.com, ulpanor.com, TAU summer ulpan.
+6 net-new items added to BACKLOG: tel-aviv-art-scene (P2, M), museum-of-tolerance-jerusalem (P2, S), easter-in-jerusalem (P2, S), israel-craft-workshops (P3, S), learn-hebrew-israel-ulpan (P3, M), namal-tel-aviv-guide (P3, S).
+Deduped and rejected: israel-in-spring (already P2 backlog), startup-nation (iter160), national-campus-archaeology (iter235), volunteer-archaeology (iter40/120), india-to-israel (iter230), rainy-day (P3 backlog), 3-day-itinerary (P3 backlog), craft-spirits (iter330), WWOOF (agritourism).
+Pattern: after 78 research iters, genuinely new items trend toward cultural-experience formats and new institutions post-dating competitors' content freeze (MOTJ). No code shipped (RESEARCH mode).
+Next: iter 396 → BUILD (seo-content). Best candidate: tel-aviv-art-scene (P2, M, iter395 research) or museum-of-tolerance-jerusalem (P2, S) or israel-in-spring (P2, already in backlog).
