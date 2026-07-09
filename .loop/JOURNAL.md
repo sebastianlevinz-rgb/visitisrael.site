@@ -6948,3 +6948,8 @@ What: new /israel-affordable-luxury guide — "Israel Luxury on a Budget: Boutiq
 Gate: pnpm check 0 errors · 659 pages (+1) · 915/915 e2e+a11y pass.
 Merge SHA: 65fe11c. Pushed to origin/master. CI=in_progress (CI + Lighthouse workflows) at push time.
 Prod: pending (CI in_progress); next iteration start-check will confirm.
+
+## 2026-07-09T14:45Z · iter 408 · BUILD (tools/i18n) · Phase 6 QA sweep — sitemap hreflang
+What: Enable sitemap hreflang (xhtml:link alternates) via @astrojs/sitemap i18n option in astro.config.mjs. Added `i18n: { defaultLocale: 'en', locales: { en: 'en', fr: 'fr', de: 'de' } }` to sitemap() call. Verified: 659 pages built; all trilingual pages now get <xhtml:link rel="alternate" hreflang="..."> entries in sitemap-0.xml; xhtml namespace declared in root element. Also added 3 new smoke tests (sitemap hreflang presence, /fr/jerusalem region hreflang reciprocity) and 5 missing EN routes to smoke ROUTES array (israel-vs-jordan, dead-sea-israel-vs-jordan, israel-affordable-luxury, israel-road-trip, backpacking-israel). Startup: fresh cloud env; local master up to date with origin (iter407 = 06f09d8). Context resumed from summarized session; edit picked up immediately. Branch: auto/i18n-phase6-qa-sweep. Phase 6 is the final i18n epic phase — all phases 0–6 now COMPLETE.
+Gate: pnpm check 0 errors · 659 pages · 922/922 e2e pass.
+Merge SHA: 0d19743. Pushed to origin/master. CI=in_progress at push time.

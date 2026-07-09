@@ -786,3 +786,10 @@ SHA 403860e
 - 5 FAQs. 2 affiliate CTAs: Booking.com 4-star Israel filter (primary, high AOV) + GYG private tours (secondary)
 - 659 pages total (+1). 915/915 e2e+a11y pass.
 SHA 65fe11c
+
+## iter 408 — Phase 6 QA sweep: sitemap hreflang [2026-07-09]
+- astro.config.mjs: added i18n option to sitemap() → all trilingual pages now get xhtml:link alternates in sitemap-0.xml
+- tests/e2e/smoke.spec.ts: 3 new tests (sitemap hreflang presence, /fr/jerusalem region hreflang); 5 missing EN routes added
+- i18n phases 0–6 all COMPLETE
+- 659 pages. 922/922 e2e pass.
+SHA 0d19743

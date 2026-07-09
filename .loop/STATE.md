@@ -1,13 +1,15 @@
 # LOOP STATE
 
-- iteration: 407
-- lastMode: BUILD
-- lastItem: israel-affordable-luxury
-- lastResult: BUILD (monetization) — /israel-affordable-luxury shipped. P2,S item. "Israel Luxury on a Budget: Boutique Hotels & Smart Splurges" — smart splurge framework; Beresheet crater hotel; private guide ROI in Jerusalem; Dead Sea spa hotel vs public beach; shoulder season strategy (Nov + Feb 30-40% savings window); what NOT to splurge on. 5 FAQs. 2 CTAs: Booking.com 4-star Israel + GYG private tours. gate: pnpm check 0 errors · 659 pages · 915/915 e2e+a11y pass. SHA 65fe11c. CI=in_progress (CI+Lighthouse) at push time.
-- nextRotationCategory: 408%5==3 → BUILD (tools/i18n). 409%5==4 → REVIEW. 410%5==0 → RESEARCH. 411%5==1 → BUILD (seo-content).
+- iteration: 408
+- lastMode: BUILD (tools/i18n)
+- lastItem: i18n-phase6-qa-sweep
+- lastResult: BUILD (i18n) — Phase 6 QA sweep shipped. Sitemap hreflang enabled via @astrojs/sitemap i18n option (defaultLocale: en, locales: en/fr/de); 659 pages; all trilingual routes now get <xhtml:link> alternate entries in sitemap-0.xml. Smoke tests: sitemap hreflang presence test, /fr/jerusalem region hreflang test, 5 missing EN guide routes added (israel-vs-jordan, dead-sea-israel-vs-jordan, israel-affordable-luxury, israel-road-trip, backpacking-israel). gate: pnpm check 0 errors · 659 pages built · 922/922 e2e pass. SHA 0d19743.
+- nextRotationCategory: 409%5==4 → REVIEW. 410%5==0 → RESEARCH. 411%5==1 → BUILD (seo-content). 412%5==2 → BUILD (monetization).
 - higgsfieldSpent: 0
-- updatedAt: 2026-07-09T13:40Z
+- updatedAt: 2026-07-09T14:45Z
 - branch context: work on master; feature work on auto/<slug>
+
+Notes: iter 408 BUILD (i18n) — Phase 6 QA sweep. Startup: fresh cloud env; local master diverged from origin/master (was at iter407, 06f09d8); fetched + reset to origin/master. Selected Phase 6 QA sweep (P2,S, top tools/i18n item). Added i18n option to sitemap() in astro.config.mjs enabling xhtml:link hreflang for all trilingual pages. Added smoke tests: sitemap hreflang assertion (xmlns:xhtml + xhtml:link count > 0 + hreflang en/fr/de), /fr/jerusalem region hreflang assertion, 5 missing EN routes. gate: pnpm check 0 errors · 659 pages · 922/922 e2e pass. SHA 0d19743. Phase 6 COMPLETE. Sitemap hreflang (deferred since Phase 0) now shipped. Next: iter 409 → REVIEW.
 
 Notes: iter 407 BUILD (monetization) — israel-affordable-luxury. Startup: fresh cloud env; local master diverged from origin/master (was at iter361 again); hard-reset to origin/master (ac5b8b0 = iter406) before work. Selected israel-affordable-luxury (P2,S) as top monetization candidate — confirmed zero prior coverage via STATE notes. Written directly on master after squash-merge failed (feature branch had no commits — file written but not committed before merge). pnpm check 0 errors, build 659 pages (+1 from 658), 915/915 e2e+a11y pass. SHA 65fe11c. CI=in_progress at push time. Cross-links: /best-hotels-tel-aviv, /best-hotels-jerusalem, /israel-cost-budget, /backpacking-israel, /israel-trip-cost-calculator all verified deployed. Lesson: always git add + git commit on the feature branch before doing git merge --squash, or commit directly to master if the squash produces nothing.
 

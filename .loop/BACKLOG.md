@@ -22,7 +22,7 @@ bounded, gated BUILD item. Full architecture + honesty rules + progress tracker 
 - [DONE iter332] Phase 3 — regions ×11 in fr+de. Batch 1 DONE iter323 (jerusalem, tel-aviv, dead-sea). Batch 2 DONE iter327 (galilee, haifa, eilat, negev). Batch 3 DONE iter332 (akko, caesarea, golan, nazareth). All 11/11 regions in FR+DE. Phase 3 COMPLETE → SHA c273ad2.
 - [DONE iter398] Phase 4 — attractions ×63 in fr+de. All 12 batches complete. 63 attractions shipped (deferred: holy-sepulchre + temple-mount — religious/contested, need dedicated iteration). Final SHA 4d6d5c3. Phase 4 COMPLETE.
 - [DONE iter403] Phase 5 — itineraries ×6 + index pages in FR+DE (cf983a2). 12 locale pages shipped. Phase 5 COMPLETE. Tools-island UI strings deferred to Phase 5b or Phase 6.
-- [P2] (i18n, S) Phase 6 — QA sweep: sitemap hreflang, hreflang coverage, missing-translation fallbacks, per-locale sitemap, a11y + dead-link check across fr/de. status: ready
+- [DONE iter408] Phase 6 — QA sweep: sitemap hreflang enabled (0d19743). xhtml:link alternates in sitemap-0.xml for all trilingual pages. Smoke tests: hreflang presence, /fr/jerusalem region hreflang, 5 missing EN routes. 922/922 e2e pass. Phase 6 COMPLETE.
 
 ## monetization
 - [SHIPPED iter32] Cruise port shore excursions guide → b50ad64
