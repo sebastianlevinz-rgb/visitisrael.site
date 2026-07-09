@@ -6841,3 +6841,10 @@ What: (1) Tel Aviv art/culture track — beinharimtours, lonelyplanet, artspacet
 Deduped and rejected: israel-in-spring (already P2 backlog), startup-nation (iter160), national-campus-archaeology (iter235), volunteer-archaeology (iter40/120), india-to-israel (iter230), rainy-day (P3 backlog), 3-day-itinerary (P3 backlog), craft-spirits (iter330), WWOOF (agritourism).
 Pattern: after 78 research iters, genuinely new items trend toward cultural-experience formats and new institutions post-dating competitors' content freeze (MOTJ). No code shipped (RESEARCH mode).
 Next: iter 396 → BUILD (seo-content). Best candidate: tel-aviv-art-scene (P2, M, iter395 research) or museum-of-tolerance-jerusalem (P2, S) or israel-in-spring (P2, already in backlog).
+
+## 2026-07-09T02:40Z · iter 396 · BUILD (seo-content) · museum-of-tolerance-jerusalem
+Mode: BUILD seo-content (396%5==1). Item: museum-of-tolerance-jerusalem (P2, S) — identified as best iter396 candidate in iter395 STATE.md notes.
+What: new /museum-of-tolerance-jerusalem visitor guide. 150,000 sq ft cultural centre near Mamilla/Jaffa Gate, opened 2023–2025 (genuine post-2023 gap, zero competitor editorial coverage confirmed in iter395 research). Content: what MOTJ is + distinction from Yad Vashem; "From Darkness to Light" Oct 7 survivor testimonies exhibit (honest sensitive framing, age guidance); children's wing (age 5+); 1,000-seat amphitheater; practical info (admission ~$18–22 advance booking required, Sat/holiday closure, wheelchair accessible). 2 affiliate CTAs (GYG Jerusalem cultural tours, Booking.com Jerusalem hotels). 6 FAQs. Footer link + cross-link from jewish-heritage-israel.md.
+Gate: pnpm check 0 errors; pnpm build 630 pages (+1); pnpm test:e2e 873/873 pass (+1 smoke test /museum-of-tolerance-jerusalem).
+Merge: committed master SHA df92bb3, pushed origin/master at 2026-07-09T02:38Z. CI=in_progress at push time (Lighthouse, consistent with prior iters — non-blocking).
+Next: iter 397 → BUILD (monetization). i18n candidate: Phase 4 Batch 12 — Negev 5 attractions (avdat, bedouin-hospitality, ein-avdat, mitzpe-ramon, sde-boker) × FR+DE.

@@ -1,13 +1,15 @@
 # LOOP STATE
 
-- iteration: 395
-- lastMode: RESEARCH (395%5==0)
-- lastItem: research-395-art-easter-tolerance-workshops
-- lastResult: RESEARCH — 6 new items added to BACKLOG: tel-aviv-art-scene (P2,M), museum-of-tolerance-jerusalem (P2,S), easter-in-jerusalem (P2,S), israel-craft-workshops (P3,S), learn-hebrew-israel-ulpan (P3,M), namal-tel-aviv-guide (P3,S). 629 pages (unchanged). No code shipped.
-- nextRotationCategory: 396%5==1 → BUILD (seo-content). 397%5==2 → BUILD (monetization). 398%5==3 → BUILD (tools/i18n). 399%5==4 → REVIEW.
+- iteration: 396
+- lastMode: BUILD (seo-content) (396%5==1)
+- lastItem: museum-of-tolerance-jerusalem
+- lastResult: BUILD seo-content — /museum-of-tolerance-jerusalem shipped. P2,S item from iter395 research. New 150,000 sq ft cultural centre guide near Mamilla/Jaffa Gate; Oct 7 survivor testimonies exhibit, children's wing, 1,000-seat amphitheater; 2 affiliate CTAs (GYG + Booking); 6 FAQs; footer link + cross-link from jewish-heritage-israel. 630 pages (+1). 873/873 e2e+a11y pass. CI=in_progress at push time (SHA df92bb3).
+- nextRotationCategory: 397%5==2 → BUILD (monetization). 398%5==3 → BUILD (tools/i18n). 399%5==4 → REVIEW. 400%5==0 → RESEARCH.
 - higgsfieldSpent: 0
-- updatedAt: 2026-07-09T01:30Z
+- updatedAt: 2026-07-09T02:40Z
 - branch context: work on master; feature work on auto/<slug>
+
+Notes: iter 396 BUILD (seo-content) — /museum-of-tolerance-jerusalem shipped. P2,S item (iter395 research, best candidate). Museum of Tolerance Jerusalem: 150,000 sq ft cultural centre near Mamilla/Jaffa Gate opened 2023–2025. Guide covers: what it is + how it differs from Yad Vashem; "From Darkness to Light" exhibit (Oct 7 survivor testimonies — honest emotionally-intense framing, note for sensitive travelers + children age guidance); children's wing (age 5+); 1,000-seat amphitheater + events; practical info (admission ~$18–22, advance booking required via museumoftolerance.com/motj, Sat/holiday closure, wheelchair accessible). 2 CTAs (GYG Jerusalem cultural tours, Booking.com Jerusalem hotels). 6 FAQs (What/Different-from-Yad-Vashem/Tickets/Kids/Getting-there/Oct7-exhibit). Footer link added near israel-museum-jerusalem. Cross-link from jewish-heritage-israel.md practical tips section. Smoke test +1 (/museum-of-tolerance-jerusalem). 630 pages (+1). 873/873 e2e+a11y pass. SHA df92bb3, pushed. CI=in_progress at push time.
 
 Notes: iter 395 RESEARCH — 6 net-new items added. All confirmed by python3 regex dedup against full BACKLOG.md (zero prior P-tagged entries for any slug). Research tracks: (1) Tel Aviv art/culture — Florentin street art, Kiryat Hamelacha arts district (Artspace TLV nonprofit guided studio tours, 300+ working artist studios), Tel Aviv gallery scene; (2) New Jerusalem institutions — Museum of Tolerance Jerusalem (opened 2023–2025, 150,000 sq ft, Oct 7 survivor testimonies exhibit, 1,000-seat amphitheater; genuine post-2023 gap no competitor has covered yet); (3) Seasonal event guide — Easter in Jerusalem / Holy Week (three Easter dates: Catholic/Protestant, Eastern Orthodox, Armenian; Holy Fire ceremony logistics; accommodation booking 3–6 months ahead; first dedicated guide on site); (4) Craft experience formats — pottery/ceramics/glass/mosaic workshops (Jerusalem House of Quality, Kiyor Ceramics near Mahane Yehuda, Jaffa ateliers, Safed workshops; TripAdvisor Paint & Pottery sub-category confirms demand); (5) Language immersion tourism — ulpan/Hebrew immersion for diaspora Jews/aliyah candidates/religious travelers (TAU summer ulpan, HomeUlpan, Ulpan-Or; no Israel travel site covers this format); (6) Namal Tel Aviv port neighborhood deep-dive (Tuesday/Friday evening market, design district, waterfront promenade; tel-aviv-neighborhoods-guide covers in 2 sentences; timeout.com/visittelaviv.com have local guides — no editorial travel guide exists). Pattern: after 78 research iterations, genuinely new items trend toward cultural-experience formats and institutions post-dating competitors' content freeze. Best P2 BUILD candidates for iter 396: tel-aviv-art-scene or museum-of-tolerance-jerusalem or israel-in-spring (already in backlog).
 
