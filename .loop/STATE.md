@@ -1,13 +1,15 @@
 # LOOP STATE
 
-- iteration: 396
-- lastMode: BUILD (seo-content) (396%5==1)
-- lastItem: museum-of-tolerance-jerusalem
-- lastResult: BUILD seo-content — /museum-of-tolerance-jerusalem shipped. P2,S item from iter395 research. New 150,000 sq ft cultural centre guide near Mamilla/Jaffa Gate; Oct 7 survivor testimonies exhibit, children's wing, 1,000-seat amphitheater; 2 affiliate CTAs (GYG + Booking); 6 FAQs; footer link + cross-link from jewish-heritage-israel. 630 pages (+1). 873/873 e2e+a11y pass. CI=in_progress at push time (SHA df92bb3).
-- nextRotationCategory: 397%5==2 → BUILD (monetization). 398%5==3 → BUILD (tools/i18n). 399%5==4 → REVIEW. 400%5==0 → RESEARCH.
+- iteration: 397
+- lastMode: BUILD (monetization) (397%5==2)
+- lastItem: northern-israel-road-trip
+- lastResult: BUILD monetization — /northern-israel-road-trip shipped. P2,M item. 3-4 day Galilee+Golan self-drive circuit guide (500km loop TLV→Caesarea→Haifa→Akko→Rosh Hanikra→Tiberias→Golan→Nazareth→TLV). 3 affiliate CTAs (DiscoverCars primary, Booking.com hotels, GYG Golan/Galilee tours). 6 FAQs. Footer link + cross-links in israel-road-trip + car-rental-israel. 631 pages (+1). 875/875 e2e+a11y pass. CI=in_progress at push time (SHA f635bde).
+- nextRotationCategory: 398%5==3 → BUILD (tools/i18n). 399%5==4 → REVIEW. 400%5==0 → RESEARCH. 401%5==1 → BUILD (seo-content).
 - higgsfieldSpent: 0
-- updatedAt: 2026-07-09T02:40Z
+- updatedAt: 2026-07-09T03:50Z
 - branch context: work on master; feature work on auto/<slug>
+
+Notes: iter 397 BUILD (monetization) — /northern-israel-road-trip shipped. P2,M item. Focused 3-4 day Galilee+Golan self-drive circuit guide; distinct from existing 7-day israel-road-trip (doesn't extend to Dead Sea/Negev). Content: Day 1 TLV→Caesarea→Haifa; Day 2 Haifa→Akko→Rosh Hanikra→Tiberias; Day 3 Sea of Galilee circuit + Golan Heights or Nazareth (flex); Day 4 return options. 6 FAQs (how many days, no-car option, best time, Golan status, NP pass, Nazareth fit). 3 affiliate CTAs: DiscoverCars (car hire, primary), Booking.com (3 hotel nights on route), GYG (Golan/Galilee tours). Footer link added alongside 7-day road trip. Cross-links: israel-road-trip.md (short-on-time pointer), car-rental-israel.md (companion link). Golan political status handled with honest neutral framing. Smoke +1 (/northern-israel-road-trip); a11y +1. 631 pages (+1). 875/875 e2e+a11y pass (+2). SHA f635bde, pushed. CI=in_progress at push time. Note: israel-wine-regions backlog item found to be stale (israel-wine-wineries.md already exists as comprehensive hub — confirmed in DONE.md).
 
 Notes: iter 396 BUILD (seo-content) — /museum-of-tolerance-jerusalem shipped. P2,S item (iter395 research, best candidate). Museum of Tolerance Jerusalem: 150,000 sq ft cultural centre near Mamilla/Jaffa Gate opened 2023–2025. Guide covers: what it is + how it differs from Yad Vashem; "From Darkness to Light" exhibit (Oct 7 survivor testimonies — honest emotionally-intense framing, note for sensitive travelers + children age guidance); children's wing (age 5+); 1,000-seat amphitheater + events; practical info (admission ~$18–22, advance booking required via museumoftolerance.com/motj, Sat/holiday closure, wheelchair accessible). 2 CTAs (GYG Jerusalem cultural tours, Booking.com Jerusalem hotels). 6 FAQs (What/Different-from-Yad-Vashem/Tickets/Kids/Getting-there/Oct7-exhibit). Footer link added near israel-museum-jerusalem. Cross-link from jewish-heritage-israel.md practical tips section. Smoke test +1 (/museum-of-tolerance-jerusalem). 630 pages (+1). 873/873 e2e+a11y pass. SHA df92bb3, pushed. CI=in_progress at push time.
 
