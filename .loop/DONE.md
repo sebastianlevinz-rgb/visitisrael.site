@@ -796,3 +796,6 @@ SHA 0d19743
 
 ## iter 411 (2026-07-09)
 - [iter411] /israel-vs-cyprus — Israel vs Cyprus destination comparison guide (P2,S seo-content); 11-criteria side-by-side table, traveller decision matrix, 5 FAQs, 3 affiliate CTAs (GYG+Skyscanner+Booking.com), cross-links to full comparison series → 3f78882
+
+## iter 412 (2026-07-09)
+- [iter412] /bethlehem-tours-compared — Bethlehem tours compared money page (P2,S monetization); decision-stage comparison of tour formats: half-day Nativity, full-day in-depth, Bethlehem+Jericho extension, dual-narrative West Bank, self-guided bus; 7 FAQs; 3 affiliate CTAs (GYG, Viator, Abraham Tours); cross-link added to jerusalem-bethlehem-day-trip → 25434f1

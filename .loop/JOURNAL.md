@@ -7005,3 +7005,9 @@ Gate: pnpm check 0 errors · 660 pages (+1 from 659) · 922/922 e2e+a11y pass.
 Merge SHA: 3f78882. Branch: auto/israel-vs-cyprus squash-merged → master.
 Startup: fresh cloud env; local master diverged from origin/master (was at iter360s); hard-reset to origin/master (95843e6 = iter410) before work.
 Next: iter 412 → BUILD (monetization). Top candidates: best-hotels-jerusalem (P2,M), dead-sea-medical-tourism (P2,M), sea-of-galilee-guide (P2,M).
+
+## 2026-07-09T18:55Z · iter 412 · BUILD (monetization) · bethlehem-tours-compared
+What: new /bethlehem-tours-compared money page. Decision-stage comparison of 5 Bethlehem tour formats: half-day Nativity (Church + Manger Square + Milk Grotto + wall art), full-day in-depth (+ Shepherds Field + Old Town), Bethlehem+Jericho extension (9–11 hrs; Tel Jericho + Monastery of Temptation), dual-narrative West Bank small-group (Abraham Tours), self-guided (Arab bus 231 from Damascus Gate). 7 FAQs (guided vs independent, half-day vs full-day, transit time, safety, passport, seasonal, cost). 3 affiliate CTAs: GYG half-day, Viator Bethlehem+Jericho, Abraham Tours dual-narrative. West Bank honesty framing throughout (Area A logistics, rental-car insurance exclusion, checkpoint realities). Cross-link added to jerusalem-bethlehem-day-trip.md final paragraph. Broke /jericho link caught by links.spec.ts → fixed to /jericho-day-trip-from-jerusalem.
+Gate: pnpm check 0 errors · 661 pages (+1 from 660) · 922/922 e2e+a11y pass.
+Ship: committed to master SHA 25434f1, pushed. CI=in_progress (CI + Lighthouse) at push time.
+Next: iter 413 → BUILD (tools/i18n). Top candidates: i18n Phase 7 (tools-island UI strings), galilee-wine-trail, sea-of-galilee-guide.
