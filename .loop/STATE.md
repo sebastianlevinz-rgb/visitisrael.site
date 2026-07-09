@@ -1,13 +1,15 @@
 # LOOP STATE
 
-- iteration: 405
-- lastMode: RESEARCH
-- lastItem: research-405-comparison-family-luxury-passover
-- lastResult: RESEARCH — found 6 net-new items: israel-vs-jordan (P2,S), israel-vs-greece (P2,S), israel-vs-morocco (P3,S), israel-road-trip-with-kids (P2,M), israel-affordable-luxury (P2,S), israel-passover-travel (P2,M). All verified by python3 regex dedup against full BACKLOG.md+DONE.md (zero prior matches). No code shipped.
-- nextRotationCategory: 406%5==1 → BUILD (seo-content). 407%5==2 → BUILD (monetization). 408%5==3 → BUILD (tools/i18n). 409%5==4 → REVIEW.
+- iteration: 406
+- lastMode: BUILD
+- lastItem: israel-vs-jordan
+- lastResult: BUILD (seo-content) — /israel-vs-jordan shipped. P2,S item. Israel vs Jordan comparison guide: 10-criteria side-by-side table, decision matrix by traveller type, Petra/Wadi Rum coverage, combined-trip angle (Eilat–Wadi Araba crossing), 5 FAQs, 3 affiliate CTAs (GYG, Skyscanner, Booking). Cross-links added to israel-vs-turkey, israel-vs-egypt, israel-jordan-itinerary footers. gate: pnpm check 0 errors · 658 pages · 915/915 e2e pass. SHA 403860e. CI=queued (Lighthouse) at push time.
+- nextRotationCategory: 407%5==2 → BUILD (monetization). 408%5==3 → BUILD (tools/i18n). 409%5==4 → REVIEW. 410%5==0 → RESEARCH.
 - higgsfieldSpent: 0
-- updatedAt: 2026-07-09T11:30Z
+- updatedAt: 2026-07-09T12:40Z
 - branch context: work on master; feature work on auto/<slug>
+
+Notes: iter 406 BUILD (seo-content) — israel-vs-jordan. Startup: fresh cloud env; local master diverged from origin/master (was at iter361); hard-reset to origin/master (5ab625a = iter405) before work. Selected israel-vs-jordan (P2,S) as top seo-content candidate — natural third entry in comparison series (vs-turkey iter171, vs-egypt iter402). YAML apostrophe bug caught and fixed during authoring (Petra's, Jordan's unescaped in single-quoted YAML). pnpm check 0 errors, build 658 pages (+1 from 657), 915/915 e2e pass. Squash-merged to master SHA 403860e. CI=queued at push time. Lesson: unescaped apostrophes in YAML single-quoted strings remain a recurring hazard — always run pnpm check immediately after writing frontmatter. Next: iter 407 → BUILD (monetization). Top candidates: israel-affordable-luxury (P2,S,ready), best-hotels-jerusalem (P2,M ready), galilee-wine-trail (P2,S ready).
 
 Notes: iter 405 RESEARCH — research-405-comparison-family-luxury-passover. Startup: fresh cloud env hard-reset to origin/master (e216d5e = iter404). Searched 10+ competitor URLs across comparison guide gap analysis, family travel, budget luxury, and seasonal guides. Dedup method: python3 regex against full BACKLOG.md (980 lines, ~375 ready items) + DONE.md. Found 6 new items. Most candidate topics rejected as already covered: surfing (12 backlog hits), sailing (3 hits), archaeological tours (covered), stargazing (67 hits), birdwatching (68 hits), volunteer tourism (53 hits). Key finding: "Israel vs Jordan" is the natural next entry in the comparison series (vs-turkey SHIPPED iter171, vs-egypt SHIPPED iter402) — completely absent from backlog despite Jordan being the most-compared Middle East destination. Family road trip with kids and Israel Passover travel fill practical visitor pain-points with zero editorial coverage on any major competitor. Backlog at ~375 ready items; new items require double-angle pivots (existing topic + new persona lens, or comparison format extension). Next: iter 406 → BUILD (seo-content). Top P2,S seo-content candidates: israel-vs-jordan (S, natural follow-on to vs-egypt), galilee-wine-trail (P2,S,ready), red-canyon-eilat (P2,S,ready), via-ferrata-israel (P2,S,ready).
 

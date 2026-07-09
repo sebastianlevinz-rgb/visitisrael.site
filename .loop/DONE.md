@@ -767,3 +767,11 @@ New /western-galilee-guide — multi-site touring guide for Western Galilee: Loh
 - content.config.ts: itineraries glob *.md → **/*.md (locale subdir support)
 - Header.astro: locale-aware itineraries nav link (localePrefix + /itineraries)
 SHA cf983a2
+
+## iter 406 — Israel vs Jordan destination comparison guide
+- /israel-vs-jordan (new EN guide, P2,S, seo-content+monetization)
+- 10-criteria comparison table + decision matrices + Petra/Wadi Rum/Dead Sea coverage + combined-trip angle
+- 3 affiliate CTAs (GYG Israel tours, Skyscanner flights, Booking.com hotels)
+- Cross-links added: israel-vs-turkey, israel-vs-egypt, israel-jordan-itinerary
+- 658 pages total (+1). 915/915 e2e pass.
+SHA 403860e

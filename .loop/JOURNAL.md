@@ -6936,3 +6936,9 @@ Startup: fresh cloud env; git reset --hard origin/master → e216d5e (iter404 = 
 5. israel-affordable-luxury (P2, S) — aspirational semi-splurge lens; boutique hotels + private tours; Booking.com 4-star
 6. israel-passover-travel (P2, M) — high practical search intent; chametz/Seder/birkat kohanim for visitors; no competitor guide
 BACKLOG.md: 6 items appended. COMPETITORS.md: findings appended. STATE.md: bumped to iter 405. No code shipped (RESEARCH mode). No gate run.
+
+## 2026-07-09T12:40Z · iter 406 · BUILD (seo-content) · israel-vs-jordan
+What: new /israel-vs-jordan destination comparison guide. Third entry in the comparison series (after vs-turkey iter171, vs-egypt iter402). 10-criteria side-by-side table (history, beaches, adventure, Dead Sea, costs, food, safety, visas, flights, best season), decision matrices by traveller type, Wadi Rum / Petra / Dead Sea coverage, combined-trip angle via Eilat–Wadi Araba crossing, 5 FAQs, 3 affiliate CTAs (GYG Israel tours, Skyscanner flights, Booking.com hotels). Cross-links added to israel-vs-turkey.md, israel-vs-egypt.md, and israel-jordan-itinerary.md footers. YAML apostrophe bug caught during pnpm check (Petra's, Jordan's unescaped) — fixed before gate.
+Gate: pnpm check 0 errors · 658 pages (+1) · 915/915 e2e+a11y pass.
+Merge SHA: 403860e. Pushed to origin/master. CI=queued (Lighthouse workflow) at push time.
+Prod: pending (CI queued); next iteration start-check will confirm.
