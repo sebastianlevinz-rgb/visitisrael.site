@@ -6812,3 +6812,24 @@ Gate: pnpm check 0 errors (1 pre-existing hint); build 629 pages (+8 vs iter392)
 Ship: squash-merged to master 2dadb40, pushed. Prod: CI=in_progress (Lighthouse) at time of journal.
 i18n progress: Nazareth COMPLETE (4/4). Remaining untranslated EN attractions: Negev 5 (avdat, bedouin-hospitality, ein-avdat, mitzpe-ramon, sde-boker) + 2 deferred (jerusalem/holy-sepulchre, jerusalem/temple-mount). fr pages: ~132/~158. de pages: ~132/~158.
 Next: iter 394 → REVIEW. Then iter 395 → RESEARCH. Then iter 396 → BUILD (seo-content). Next i18n: Phase 4 Batch 12 — Negev 5 attractions (iter 397 tools/i18n).
+
+## 2026-07-09T00:45Z · iter 394 · REVIEW · review-394-meta-trim-nazareth-sarona
+Mode: REVIEW (394%5==4). Audited iters 391-393: israel-vs-turkey (iter391), sarona-market-tel-aviv (iter392), i18n Phase 4 Batch 11 — Nazareth 4 attractions FR+DE (iter393).
+Findings — 9 meta violations across 9 files:
+  Sarona Market (EN iter392): title 67c→60c (removed year tag), desc 169c→150c (tightened opening clause)
+  FR/DE Nazareth locale pages (iter393) — all titles/descs systematically over target:
+  - fr/basilica-of-the-annunciation: title 81c→61c, desc 148c→124c
+  - fr/marys-well: title 69c→54c, desc 169c→126c
+  - fr/mount-of-precipice: title 72c→61c, desc 165c→115c
+  - fr/old-city: title 69c→52c, desc 195c→127c
+  - de/basilica-of-the-annunciation: title 75c→64c, desc 145c→124c
+  - de/marys-well: title 65c (OK, at limit), desc 165c→122c
+  - de/mount-of-precipice: title 70c→57c, desc 163c→112c
+  - de/old-city: title 76c→54c, desc 180c→112c
+israel-vs-turkey (iter391): title 48c, desc 146c — CLEAN.
+Internal links: all links in israel-vs-turkey and sarona-market-tel-aviv verified valid (all referenced guides exist).
+Lesson (consistent with iters 374/379/384/389): FR/DE locale pages reliably overrun EN targets; ≤55c title and ≤120c desc authoring target would eliminate rework.
+Gate: pnpm check 0 errors; pnpm build 629 pages (unchanged); pnpm test:e2e 872/872 pass.
+Merge: committed to master SHA 209c4c0, pushed origin/master at 2026-07-09T00:39Z.
+Prod: Lighthouse CI in_progress at push time (consistent with all prior iters; non-blocking).
+Next: iter 395 = RESEARCH (395%5==0). Candidates: Israel spring guide, israel-vs-jordan comparison, Mediterranean cruise guide.

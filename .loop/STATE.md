@@ -1,13 +1,15 @@
 # LOOP STATE
 
-- iteration: 393
-- lastMode: BUILD (tools/i18n) (393%5==3)
-- lastItem: i18n-nazareth-attractions-batch11
-- lastResult: SHIPPED 2dadb40. i18n Phase 4 Batch 11 — Nazareth 4 attractions FR+DE. 629 pages. 872/872 e2e+a11y pass. CI=in_progress (Lighthouse).
-- nextRotationCategory: 394%5==4 → REVIEW. 395%5==0 → RESEARCH. 396%5==1 → BUILD (seo-content). 397%5==2 → BUILD (monetization).
+- iteration: 394
+- lastMode: REVIEW (394%5==4)
+- lastItem: review-394-meta-trim-nazareth-sarona
+- lastResult: SHIPPED 209c4c0. REVIEW — trimmed meta title/desc on 9 files (8 FR+DE Nazareth locale pages from iter393 + Sarona Market EN guide from iter392). 629 pages. 872/872 e2e+a11y pass. CI=in_progress (Lighthouse).
+- nextRotationCategory: 395%5==0 → RESEARCH. 396%5==1 → BUILD (seo-content). 397%5==2 → BUILD (monetization). 398%5==3 → BUILD (tools/i18n).
 - higgsfieldSpent: 0
-- updatedAt: 2026-07-08T23:55Z
+- updatedAt: 2026-07-09T00:45Z
 - branch context: work on master; feature work on auto/<slug>
+
+Notes: iter 394 REVIEW — meta title/desc audit of iters 391-393. 9 violations fixed: sarona-market-tel-aviv (title 67c→60c, desc 169c→150c); 8 FR/DE Nazareth locale pages all had title/desc overruns (FR: basilica 81c→61c title/148c→124c desc, marys-well 69c→54c/169c→126c, mount-of-precipice 72c→61c/165c→115c, old-city 69c→52c/195c→127c; DE: basilica 75c→64c/145c→124c, marys-well desc only 165c→122c, mount-of-precipice 70c→57c/163c→112c, old-city 76c→54c/180c→112c). israel-vs-turkey (iter391) was CLEAN. All internal links verified valid. Next i18n: Phase 4 Batch 12 — Negev 5 attractions (iter 398 tools/i18n rotation).
 
 Notes: iter 393 BUILD (tools/i18n) — i18n Phase 4 Batch 11 shipped. All 4 Nazareth attractions now in FR+DE: nazareth/basilica-of-the-annunciation (religiousSiteId preserved), nazareth/marys-well (religiousSiteId preserved), nazareth/mount-of-precipice, nazareth/old-city. Honesty: religiousSiteId (basilica-of-the-annunciation, marys-well) preserved in FR+DE frontmatter matching EN. No religious content invented or altered — paired naming and neutral framing carried from EN exactly. smoke.spec.ts + a11y.spec.ts +8 routes each. 629 pages (+8). 872/872 e2e+a11y pass. Remaining untranslated EN attractions: Negev (5: avdat, bedouin-hospitality, ein-avdat, mitzpe-ramon, sde-boker) = 5 ready + 2 deferred (jerusalem/holy-sepulchre, jerusalem/temple-mount). fr pages: ~132/~158. de pages: ~132/~158. Next i18n: Phase 4 Batch 12 — Negev 5 attractions.
 
