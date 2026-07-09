@@ -1,7 +1,7 @@
 ---
 lang: fr
-title: "Source de Marie : site de l'Annonciation grecque-orthodoxe à Nazareth"
-description: "Visiter la Source de Marie à Nazareth — tradition de l'Annonciation grecque-orthodoxe, église adjacente, source ancienne, horaires et conseils de visite respectueuse."
+title: "Source de Marie à Nazareth — Annonciation orthodoxe"
+description: "Source de Marie, Nazareth — tradition de l'Annonciation orthodoxe, source active en crypte, église Saint-Gabriel, horaires."
 region: nazareth
 parentRegion: nazareth
 heroImage: /images/sub-destinations/nazareth/marys-well.jpg

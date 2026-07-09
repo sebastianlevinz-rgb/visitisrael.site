@@ -1,6 +1,6 @@
 ---
-title: "Sarona Market Tel Aviv: Food Halls, Heritage & Visitor Guide (2026)"
-description: "Inside Sarona Market Tel Aviv — the upscale indoor food hall in a German Templar colony. What to eat, opening hours, how it compares to Carmel Market, and when to visit."
+title: "Sarona Market Tel Aviv: Food Halls, Heritage & Visitor Guide"
+description: "Inside Sarona Market Tel Aviv — upscale indoor food hall in a German Templar colony. What to eat, opening hours, and how it compares to Carmel Market."
 heroImage: /images/regions/tel-aviv/rothschild.jpg
 category: Food
 updatedAt: 2026-07-08

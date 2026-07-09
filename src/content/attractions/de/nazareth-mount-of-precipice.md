@@ -1,7 +1,7 @@
 ---
 lang: de
-title: "Berg des Absturzes: Nazareth-Felsenpanorama und Jesus-Trail-Startpunkt"
-description: "Berg des Absturzes südlich von Nazareth besuchen — Jezreel-Tal-Panorama, Evangelium-Lk-4-Felsenort, Jesus-Trail-Ausgangspunkt, Wanderzugang und Besucherzentrum."
+title: "Berg des Absturzes, Nazareth — Panorama und Jesus-Trail"
+description: "Berg des Absturzes, Nazareth — Jezreel-Panorama, Lk-4-Fels, Jesus-Trail-Start, Wanderzugang und Besuchertipps."
 region: nazareth
 parentRegion: nazareth
 heroImage: /images/sub-destinations/nazareth/mount-of-precipice.jpg

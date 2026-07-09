@@ -1,7 +1,7 @@
 ---
 lang: fr
-title: "Vieille Ville de Nazareth : souq arabo-israélien et cœur historique"
-description: "Se promener dans le souq de la Vieille Ville de Nazareth — marché arabo-israélien en activité, ruelles ottomanes, institutions de knafeh, marchands d'épices, corridor central de pèlerinage."
+title: "Vieille Ville de Nazareth : souq et cœur historique"
+description: "Vieille Ville de Nazareth — souq arabo-israélien, ruelles ottomanes, marchands d'épices, knafeh et corridor de pèlerinage."
 region: nazareth
 parentRegion: nazareth
 heroImage: /images/sub-destinations/nazareth/old-city.jpg

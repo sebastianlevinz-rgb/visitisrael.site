@@ -1,7 +1,7 @@
 ---
 lang: de
-title: "Basilika der Verkündigung: Wichtigste katholische Pilgerkirche in Nazareth"
-description: "Basilika der Verkündigung in Nazareth besuchen — franziskanische Obhut, Barluzzi-Entwurf 1969, Grottenkapelle, Öffnungszeiten und Führungen."
+title: "Basilika der Verkündigung, Nazareth — wichtigste Pilgerkirche"
+description: "Basilika der Verkündigung, Nazareth — Grottenkapelle, internationale Mosaiken, franziskanische Obhut und Öffnungszeiten."
 region: nazareth
 parentRegion: nazareth
 heroImage: /images/sub-destinations/nazareth/basilica-of-the-annunciation.jpg

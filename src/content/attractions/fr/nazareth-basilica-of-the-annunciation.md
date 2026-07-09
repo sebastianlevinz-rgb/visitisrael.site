@@ -1,7 +1,7 @@
 ---
 lang: fr
-title: "Basilique de l'Annonciation : principal site de pèlerinage catholique de Nazareth"
-description: "Visiter la Basilique de l'Annonciation à Nazareth — gardiennage franciscain, conception Barluzzi 1969, chapelle de la grotte, horaires et visites."
+title: "Basilique de l'Annonciation de Nazareth — guide du pèlerin"
+description: "Basilique de l'Annonciation, Nazareth — chapelle de la grotte, mosaïques internationales, horaires et conseils de visite."
 region: nazareth
 parentRegion: nazareth
 heroImage: /images/sub-destinations/nazareth/basilica-of-the-annunciation.jpg

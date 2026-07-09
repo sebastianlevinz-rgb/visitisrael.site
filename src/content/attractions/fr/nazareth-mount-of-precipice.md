@@ -1,7 +1,7 @@
 ---
 lang: fr
-title: "Mont du Précipice : panorama de Nazareth et départ du Chemin de Jésus"
-description: "Visiter le mont du Précipice au sud de Nazareth — panorama sur la vallée de Jezreel, site évangélique de Luc 4, départ du Chemin de Jésus, accès randonnée."
+title: "Mont du Précipice, Nazareth — panorama et Chemin de Jésus"
+description: "Mont du Précipice, Nazareth — panorama Jezreel, site de Luc 4, départ du Chemin de Jésus et accès randonnée."
 region: nazareth
 parentRegion: nazareth
 heroImage: /images/sub-destinations/nazareth/mount-of-precipice.jpg

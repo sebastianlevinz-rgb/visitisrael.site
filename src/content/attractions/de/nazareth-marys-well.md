@@ -1,7 +1,7 @@
 ---
 lang: de
 title: "Marienquelle: Griechisch-Orthodoxer Verkündigungsort in Nazareth"
-description: "Marienquelle in Nazareth besuchen — griechisch-orthodoxe Verkündigungstradition, angrenzende Kirche, antike Quelle, Öffnungszeiten und respektvolle Besuchstipps."
+description: "Marienquelle Nazareth — griechisch-orthodoxe Verkündigungstradition, aktive Quelle, Gabrielskirche und Öffnungszeiten."
 region: nazareth
 parentRegion: nazareth
 heroImage: /images/sub-destinations/nazareth/marys-well.jpg

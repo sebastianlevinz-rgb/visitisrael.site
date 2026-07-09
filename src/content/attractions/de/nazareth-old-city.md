@@ -1,7 +1,7 @@
 ---
 lang: de
-title: "Altstadt von Nazareth: Arabisch-israelischer Souk und historisches Stadtherz"
-description: "Durch den Souk der Altstadt von Nazareth schlendern — aktiver arabisch-israelischer Markt, osmanische Gassen, Knafeh-Institutionen, Gewürzhändler und zentraler Pilger-Korridor."
+title: "Altstadt von Nazareth: Souk und historisches Stadtherz"
+description: "Altstadt von Nazareth — aktiver Souk, osmanische Gassen, Knafeh, Gewürzhändler und zentraler Pilgerkorridor."
 region: nazareth
 parentRegion: nazareth
 heroImage: /images/sub-destinations/nazareth/old-city.jpg
