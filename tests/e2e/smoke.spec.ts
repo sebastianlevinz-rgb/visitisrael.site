@@ -508,6 +508,7 @@ const ROUTES = [
   '/israel-affordable-luxury',
   '/israel-road-trip',
   '/backpacking-israel',
+  '/israel-car-rental-comparison',
 ];
 
 for (const route of ROUTES) {

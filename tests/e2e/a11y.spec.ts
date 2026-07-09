@@ -332,6 +332,7 @@ const ROUTES = [
   '/israel-vs-egypt',
   '/fr/itineraries/7-days-in-israel',
   '/de/itineraries/7-days-in-israel',
+  '/israel-car-rental-comparison',
 ];
 
 for (const route of ROUTES) {
