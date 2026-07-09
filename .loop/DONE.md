@@ -775,3 +775,14 @@ SHA cf983a2
 - Cross-links added: israel-vs-turkey, israel-vs-egypt, israel-jordan-itinerary
 - 658 pages total (+1). 915/915 e2e pass.
 SHA 403860e
+
+## iter 407 — /israel-affordable-luxury (2026-07-09)
+"Israel Luxury on a Budget: Boutique Hotels & Smart Splurges" — monetization guide for aspirational travellers.
+- Smart splurge framework: where premium changes the experience (accommodation, private guides, Dead Sea spa hotel) vs where it doesn't (short-haul premium seats, generic city chains)
+- Beresheet Hotel crater-view as the benchmark Israel luxury splurge; The Norman TLV for city stays
+- Private guide ROI in Jerusalem: same per-head cost as group tour for 2-3 people, dramatically better experience
+- Shoulder season strategy: November + February = 30-40% savings at same 4/5-star properties
+- What NOT to spend on: El Al premium econ on 4-5hr flights; Old City "boutique" hotels with thin walls and mediocre breakfast
+- 5 FAQs. 2 affiliate CTAs: Booking.com 4-star Israel filter (primary, high AOV) + GYG private tours (secondary)
+- 659 pages total (+1). 915/915 e2e+a11y pass.
+SHA 65fe11c

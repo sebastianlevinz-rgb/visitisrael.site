@@ -6942,3 +6942,9 @@ What: new /israel-vs-jordan destination comparison guide. Third entry in the com
 Gate: pnpm check 0 errors · 658 pages (+1) · 915/915 e2e+a11y pass.
 Merge SHA: 403860e. Pushed to origin/master. CI=queued (Lighthouse workflow) at push time.
 Prod: pending (CI queued); next iteration start-check will confirm.
+
+## 2026-07-09T13:40Z · iter 407 · BUILD (monetization) · israel-affordable-luxury
+What: new /israel-affordable-luxury guide — "Israel Luxury on a Budget: Boutique Hotels & Smart Splurges". Smart splurge framework (where premium changes the experience vs where it doesn't); Beresheet Hotel crater-view; private licensed guide ROI in Jerusalem; Dead Sea spa hotel vs public beach; shoulder season strategy (Nov + Feb = 30-40% savings window at same 4/5-star properties); what NOT to spend on (short-haul premium airline seats, certain Old City "luxury" hotels). 5 FAQs. 2 affiliate CTAs: Booking.com 4-star Israel filter (primary, high AOV) + GYG private tours (secondary). Cross-links verified deployed: /best-hotels-tel-aviv, /best-hotels-jerusalem, /israel-cost-budget, /backpacking-israel, /israel-trip-cost-calculator. Startup: fresh cloud env; local master at iter361 — hard-reset to origin/master (ac5b8b0 = iter406). Lesson noted: must commit on feature branch before git merge --squash, or commit directly to master.
+Gate: pnpm check 0 errors · 659 pages (+1) · 915/915 e2e+a11y pass.
+Merge SHA: 65fe11c. Pushed to origin/master. CI=in_progress (CI + Lighthouse workflows) at push time.
+Prod: pending (CI in_progress); next iteration start-check will confirm.

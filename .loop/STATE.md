@@ -1,13 +1,15 @@
 # LOOP STATE
 
-- iteration: 406
+- iteration: 407
 - lastMode: BUILD
-- lastItem: israel-vs-jordan
-- lastResult: BUILD (seo-content) — /israel-vs-jordan shipped. P2,S item. Israel vs Jordan comparison guide: 10-criteria side-by-side table, decision matrix by traveller type, Petra/Wadi Rum coverage, combined-trip angle (Eilat–Wadi Araba crossing), 5 FAQs, 3 affiliate CTAs (GYG, Skyscanner, Booking). Cross-links added to israel-vs-turkey, israel-vs-egypt, israel-jordan-itinerary footers. gate: pnpm check 0 errors · 658 pages · 915/915 e2e pass. SHA 403860e. CI=queued (Lighthouse) at push time.
-- nextRotationCategory: 407%5==2 → BUILD (monetization). 408%5==3 → BUILD (tools/i18n). 409%5==4 → REVIEW. 410%5==0 → RESEARCH.
+- lastItem: israel-affordable-luxury
+- lastResult: BUILD (monetization) — /israel-affordable-luxury shipped. P2,S item. "Israel Luxury on a Budget: Boutique Hotels & Smart Splurges" — smart splurge framework; Beresheet crater hotel; private guide ROI in Jerusalem; Dead Sea spa hotel vs public beach; shoulder season strategy (Nov + Feb 30-40% savings window); what NOT to splurge on. 5 FAQs. 2 CTAs: Booking.com 4-star Israel + GYG private tours. gate: pnpm check 0 errors · 659 pages · 915/915 e2e+a11y pass. SHA 65fe11c. CI=in_progress (CI+Lighthouse) at push time.
+- nextRotationCategory: 408%5==3 → BUILD (tools/i18n). 409%5==4 → REVIEW. 410%5==0 → RESEARCH. 411%5==1 → BUILD (seo-content).
 - higgsfieldSpent: 0
-- updatedAt: 2026-07-09T12:40Z
+- updatedAt: 2026-07-09T13:40Z
 - branch context: work on master; feature work on auto/<slug>
+
+Notes: iter 407 BUILD (monetization) — israel-affordable-luxury. Startup: fresh cloud env; local master diverged from origin/master (was at iter361 again); hard-reset to origin/master (ac5b8b0 = iter406) before work. Selected israel-affordable-luxury (P2,S) as top monetization candidate — confirmed zero prior coverage via STATE notes. Written directly on master after squash-merge failed (feature branch had no commits — file written but not committed before merge). pnpm check 0 errors, build 659 pages (+1 from 658), 915/915 e2e+a11y pass. SHA 65fe11c. CI=in_progress at push time. Cross-links: /best-hotels-tel-aviv, /best-hotels-jerusalem, /israel-cost-budget, /backpacking-israel, /israel-trip-cost-calculator all verified deployed. Lesson: always git add + git commit on the feature branch before doing git merge --squash, or commit directly to master if the squash produces nothing.
 
 Notes: iter 406 BUILD (seo-content) — israel-vs-jordan. Startup: fresh cloud env; local master diverged from origin/master (was at iter361); hard-reset to origin/master (5ab625a = iter405) before work. Selected israel-vs-jordan (P2,S) as top seo-content candidate — natural third entry in comparison series (vs-turkey iter171, vs-egypt iter402). YAML apostrophe bug caught and fixed during authoring (Petra's, Jordan's unescaped in single-quoted YAML). pnpm check 0 errors, build 658 pages (+1 from 657), 915/915 e2e pass. Squash-merged to master SHA 403860e. CI=queued at push time. Lesson: unescaped apostrophes in YAML single-quoted strings remain a recurring hazard — always run pnpm check immediately after writing frontmatter. Next: iter 407 → BUILD (monetization). Top candidates: israel-affordable-luxury (P2,S,ready), best-hotels-jerusalem (P2,M ready), galilee-wine-trail (P2,S ready).
 
