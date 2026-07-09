@@ -1,7 +1,7 @@
 ---
 lang: de
 title: "Avdat — nabatäische UNESCO-Stätte an der Weihrauchstraße"
-description: "Besuchen Sie Avdat — die nabatäische UNESCO-Archäologiestadt an der Weihrauchstraße im Negev; Akropolis, byzantinische Kirchen, Terrassenlandwirtschaft und Tourenbuchungen."
+description: "Besuchen Sie Avdat — nabatäische UNESCO-Stadt an der Weihrauchstraße im Negev; Akropolis, byzantinische Kirchen, Terrassenlandwirtschaft und Tours."
 region: negev
 parentRegion: negev
 heroImage: /images/sub-destinations/negev/avdat.jpg

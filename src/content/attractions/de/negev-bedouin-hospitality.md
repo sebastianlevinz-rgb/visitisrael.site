@@ -1,6 +1,6 @@
 ---
 lang: de
-title: "Beduinen-Gastfreundschaft im Negev: Gemeinschaftstee und Zelterlebnisse"
+title: "Beduinen-Gastfreundschaft im Negev: Tee, Kaffee und Zelterlebnis"
 description: "Besuchen Sie einen Beduinen-Gastgeber im Negev — gemeinschaftliche Partneranbieter in Rahat, Lakiya, Tel Sheva; Tee und Kaffee, faire Vergütungspolitik."
 region: negev
 parentRegion: negev

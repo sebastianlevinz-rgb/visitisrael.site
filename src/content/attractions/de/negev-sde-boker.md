@@ -1,7 +1,7 @@
 ---
 lang: de
 title: "Sde Boker: Ben Gurions Kibbuz und Grabstätte im Negev"
-description: "Besuchen Sie Sde Boker — David Ben Gurions Negev-Kibbuz, seine Hütte als Museum und seine Grabstätte über dem Zin-Tal, plus die Midrasha und das Wüstenforschungsinstitut."
+description: "Besuchen Sie Sde Boker — Ben Gurions Negev-Kibbuz, seine Hütte als Museum, Grabstätte über dem Zin-Tal, die Midrasha und das Wüstenforschungsinstitut."
 region: negev
 parentRegion: negev
 heroImage: /images/sub-destinations/negev/sde-boker.jpg

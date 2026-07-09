@@ -1,7 +1,7 @@
 ---
 lang: fr
 title: "Mitzpe Ramon : belvédère sur le cratère et parc de ciel sombre"
-description: "Visitez Mitzpe Ramon — la ville sur le bord du Makhtesh Ramon, le plus grand cratère d'érosion du monde ; centre des visiteurs, observation des étoiles et lodges."
+description: "Visitez Mitzpe Ramon sur le Makhtesh Ramon, le plus grand cratère d'érosion du monde ; centre des visiteurs, observation des étoiles et lodges."
 region: negev
 parentRegion: negev
 heroImage: /images/sub-destinations/negev/mitzpe-ramon.jpg

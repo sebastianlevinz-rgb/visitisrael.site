@@ -1,6 +1,6 @@
 ---
 lang: fr
-title: "Hospitalité bédouine dans le Néguev : thé, café et tentes communautaires"
+title: "Hospitalité bédouine dans le Néguev : thé, café et tentes"
 description: "Rendez visite à un hôte bédouin dans le Néguev — opérateurs partenaires à Rahat, Lakiya, Tel Sheva ; thé et café, politique de rémunération équitable."
 region: negev
 parentRegion: negev

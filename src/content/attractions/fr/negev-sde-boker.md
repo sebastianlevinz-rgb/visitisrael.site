@@ -1,7 +1,7 @@
 ---
 lang: fr
 title: "Sde Boker : kibbutz et tombe de Ben Gourion dans le Néguev"
-description: "Visitez Sde Boker — le kibbutz du Néguev de David Ben Gourion, sa hutte-musée et sa tombe au-dessus de la vallée du Zin, plus la Midrasha et l'Institut de recherche sur le désert."
+description: "Visitez Sde Boker — kibbutz du Néguev de Ben Gourion, sa hutte-musée, sa tombe au-dessus du Zin et l'Institut de recherche sur le désert."
 region: negev
 parentRegion: negev
 heroImage: /images/sub-destinations/negev/sde-boker.jpg

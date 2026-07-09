@@ -1,7 +1,7 @@
 ---
 lang: de
 title: "Ein Avdat: Schluchtenwandern und Quellbecken im Negev"
-description: "Wandern Sie durch Ein Avdat — die tiefe Schlucht unterhalb von Sde Boker mit ganzjährigen Quellbecken, Ibex-Sichtungen und einem markierten Pfad entlang des Zin-Flussbettes."
+description: "Wandern Sie durch Ein Avdat — tiefe Schlucht unter Sde Boker mit Quellbecken, Ibex-Sichtungen und markiertem Pfad am Zin-Flussbett."
 region: negev
 parentRegion: negev
 heroImage: /images/sub-destinations/negev/ein-avdat.jpg

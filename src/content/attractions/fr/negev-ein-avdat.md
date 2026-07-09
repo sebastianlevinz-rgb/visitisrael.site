@@ -1,7 +1,7 @@
 ---
 lang: fr
-title: "Ein Avdat : randonnée dans le canyon et bassins de sources du Néguev"
-description: "Randonnez dans Ein Avdat — le profond canyon sous Sde Boker avec des bassins alimentés par des sources permanentes, des ibex et un sentier balisé le long du lit du Zin."
+title: "Ein Avdat : canyon et bassins de sources du Néguev"
+description: "Randonnez dans Ein Avdat — canyon profond sous Sde Boker avec bassins de source, ibex et sentier balisé le long du lit du Zin."
 region: negev
 parentRegion: negev
 heroImage: /images/sub-destinations/negev/ein-avdat.jpg
