@@ -1,6 +1,6 @@
 ---
 lang: de
-title: '2 Tage Tel Aviv: Der unverzichtbare Reiseplan für den ersten Besuch'
+title: '2 Tage Tel Aviv: Reiseplan für den ersten Besuch'
 description: 'Ein 2-Tage-Reiseplan für Tel Aviv mit Strandpromenade, Alt-Jaffa, Carmel-Markt, Neve Tzedek und der Weißen Stadt — mit Transport, Hotels und buchbaren Touren.'
 days: 2
 startRegion: tel-aviv

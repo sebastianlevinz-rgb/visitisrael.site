@@ -1,7 +1,7 @@
 ---
 lang: fr
 title: '10 jours en Israël : l''itinéraire complet du nord au sud'
-description: 'Un itinéraire complet de 10 jours en Israël : Tel Aviv, la côte nord, la Galilée et le Golan, Jérusalem, la mer Morte et Eilat avec une excursion à Pétra — timings jour par jour, coûts réels, transports et hôtels.'
+description: 'Itinéraire de 10 jours en Israël : Tel Aviv, Galilée, Golan, Jérusalem, mer Morte et Eilat — timings jour par jour, coûts, transports et hôtels.'
 days: 10
 heroImage: /images/regions/galilee/hero.jpg
 publishedAt: 2026-05-27

@@ -1,6 +1,6 @@
 ---
 lang: fr
-title: '2 jours à Tel Aviv : l''itinéraire essentiel pour une première visite'
+title: '2 jours à Tel Aviv : l''itinéraire pour une première visite'
 description: 'Un itinéraire de 2 jours à Tel Aviv : la plage, le Vieux Jaffa, le marché Carmel, Neve Tzedek et la Ville Blanche — avec transports, hôtels et visites guidées.'
 days: 2
 startRegion: tel-aviv

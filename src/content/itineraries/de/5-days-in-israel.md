@@ -1,7 +1,7 @@
 ---
 lang: de
 title: '5 Tage Israel: Der perfekte Reiseplan für Erstbesucher'
-description: 'Ein fokussierter 5-Tage-Reiseplan für Israel mit Jerusalem, dem Toten Meer und Masada sowie Tel Aviv und Jaffa — tagesweise Zeitpläne, echte Kosten in ₪ und $, Transport, Hotels und buchbare Touren.'
+description: '5-Tage-Reiseplan für Israel: Jerusalem, Totes Meer, Masada sowie Tel Aviv und Jaffa — Tagespläne, Kosten in ₪/$, Transport, Hotels und buchbare Touren.'
 days: 5
 heroImage: /images/regions/jerusalem/hero.jpg
 publishedAt: 2026-05-27

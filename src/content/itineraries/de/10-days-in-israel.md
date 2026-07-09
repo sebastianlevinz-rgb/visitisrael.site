@@ -1,7 +1,7 @@
 ---
 lang: de
 title: '10 Tage Israel: Der vollständige Reiseplan von Nord nach Süd'
-description: 'Ein vollständiger 10-Tage-Reiseplan für Israel: Tel Aviv, Nordküste, Galiläa und Golan, Jerusalem, Totes Meer und Eilat mit Petra-Tagesausflug — tagesweise Zeitpläne, echte Kosten, Transport und Hotels.'
+description: '10-Tage-Reiseplan für Israel: Tel Aviv, Nordküste, Galiläa, Golan, Jerusalem, Totes Meer und Eilat — Tagespläne, Kosten, Transport und Hotels.'
 days: 10
 heroImage: /images/regions/galilee/hero.jpg
 publishedAt: 2026-05-27

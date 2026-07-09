@@ -1,6 +1,6 @@
 ---
 title: 'Israel vs Egypt: Which Should You Visit? (2027)'
-description: 'Israel or Egypt for your next Middle East trip? Compare history, beaches, costs, safety, visas and food — then find which ancient-world destination fits your travel style.'
+description: 'Israel vs Egypt: compare history, beaches, costs, safety, visas and food to find which Middle East destination suits your travel style.'
 heroImage: /images/regions/jerusalem/hero.jpg
 category: Compare
 updatedAt: 2026-07-09

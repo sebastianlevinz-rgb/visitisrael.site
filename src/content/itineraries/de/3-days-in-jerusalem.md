@@ -1,7 +1,7 @@
 ---
 lang: de
-title: '3 Tage Jerusalem: Der vollständige Reiseplan für den ersten Besuch'
-description: 'Ein Drei-Tage-Reiseplan für Jerusalem für Erstbesucher: Altstadt, Westjerusalem und ein Tagesausflug zum Toten Meer oder nach Bethlehem — mit Führungen, Hotels und Transport.'
+title: '3 Tage Jerusalem: Reiseplan für Erstbesucher'
+description: 'Drei-Tage-Reiseplan für Jerusalem: Altstadt, Westjerusalem und Tagesausflug zum Toten Meer oder Bethlehem — Führungen, Hotels und Transport.'
 days: 3
 startRegion: jerusalem
 heroImage: /images/regions/jerusalem/hero.jpg

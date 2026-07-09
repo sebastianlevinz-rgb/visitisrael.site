@@ -1,7 +1,7 @@
 ---
 lang: fr
-title: '3 jours à Jérusalem : l''itinéraire complet pour une première visite'
-description: 'Un itinéraire de trois jours à Jérusalem pour les premiers visiteurs : Vieille Ville, Jérusalem-Ouest et une excursion à la mer Morte ou à Bethléem, avec visites guidées, hôtels et transports.'
+title: '3 jours à Jérusalem : l''itinéraire pour une première visite'
+description: 'Itinéraire de 3 jours à Jérusalem : Vieille Ville, Jérusalem-Ouest et excursion mer Morte ou Bethléem — visites guidées, hôtels et transports.'
 days: 3
 startRegion: jerusalem
 heroImage: /images/regions/jerusalem/hero.jpg

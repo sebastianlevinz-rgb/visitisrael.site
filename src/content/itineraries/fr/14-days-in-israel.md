@@ -1,7 +1,7 @@
 ---
 lang: fr
 title: '14 jours en Israël : l''itinéraire complet de deux semaines'
-description: "L'itinéraire définitif de deux semaines en Israël : Tel Aviv, la Galilée, le Golan, Jérusalem, Bethléem, la mer Morte, le Néguev, Eilat et une journée complète à Pétra — timings jour par jour, coûts réels et transports."
+description: 'Itinéraire de deux semaines en Israël : Tel Aviv, Galilée, Golan, Jérusalem, mer Morte, Néguev, Eilat et Pétra — timings jour par jour, coûts et transports.'
 days: 14
 heroImage: /images/regions/jerusalem/old-city.jpg
 publishedAt: 2026-06-28

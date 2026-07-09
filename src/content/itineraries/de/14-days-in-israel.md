@@ -1,7 +1,7 @@
 ---
 lang: de
 title: '14 Tage Israel: Der vollständige Zwei-Wochen-Reiseplan'
-description: 'Der ultimative Zwei-Wochen-Reiseplan für Israel: Tel Aviv, Galiläa, Golan, Jerusalem, Bethlehem, Totes Meer, Negev, Eilat und ein voller Tag in Petra — tagesweise Zeitpläne, echte Kosten und Transporthinweise.'
+description: 'Zwei-Wochen-Reiseplan für Israel: Tel Aviv, Galiläa, Golan, Jerusalem, Bethlehem, Totes Meer, Negev, Eilat und Petra — Tagespläne, Kosten und Transporthinweise.'
 days: 14
 heroImage: /images/regions/jerusalem/old-city.jpg
 publishedAt: 2026-06-28

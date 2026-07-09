@@ -1,6 +1,6 @@
 ---
 title: 'Eilat Snorkeling Guide: Coral Reef Without a Dive Tank'
-description: 'How to snorkel the Red Sea coral reef in Eilat — Coral Beach Nature Reserve, glass-bottom boats, gear rental, best times and what you will see, no dive certification needed.'
+description: 'How to snorkel the Red Sea coral reef in Eilat — Coral Beach Reserve, glass-bottom boats, gear rental, best times and marine life. No dive cert needed.'
 heroImage: /images/regions/eilat/coral-beach.jpg
 category: Activities
 updatedAt: 2026-07-09

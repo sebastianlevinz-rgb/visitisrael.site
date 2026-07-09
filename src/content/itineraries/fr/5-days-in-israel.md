@@ -1,7 +1,7 @@
 ---
 lang: fr
 title: '5 jours en Israël : l''itinéraire parfait pour un premier voyage'
-description: 'Un itinéraire de 5 jours en Israël centré sur Jérusalem, la mer Morte et Massada, et Tel Aviv avec Jaffa — timings jour par jour, coûts réels en ₪ et $, transports, hôtels et visites guidées.'
+description: 'Itinéraire de 5 jours en Israël : Jérusalem, mer Morte, Massada, Tel Aviv et Jaffa — timings jour par jour, coûts en ₪/$, transports, hôtels et visites guidées.'
 days: 5
 heroImage: /images/regions/jerusalem/hero.jpg
 publishedAt: 2026-05-27

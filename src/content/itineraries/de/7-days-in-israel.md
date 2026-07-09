@@ -1,7 +1,7 @@
 ---
 lang: de
 title: '7 Tage Israel: Der klassische Reiseplan für Erstbesucher'
-description: 'Ein-Wochen-Reiseplan für Israel: Jerusalem, Totes Meer und Masada, Tel Aviv und Jaffa sowie das Galiläa — tagesweise Zeitpläne, Kosten, Transport, Hotels und Touren.'
+description: '7-Tage-Reiseplan für Israel: Jerusalem, Totes Meer, Masada, Tel Aviv, Jaffa und Galiläa — Tagespläne, Kosten, Transport, Hotels und Touren.'
 days: 7
 heroImage: /images/regions/jerusalem/hero.jpg
 publishedAt: 2026-05-22
