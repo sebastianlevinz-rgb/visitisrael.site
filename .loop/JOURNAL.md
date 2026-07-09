@@ -7011,3 +7011,9 @@ What: new /bethlehem-tours-compared money page. Decision-stage comparison of 5 B
 Gate: pnpm check 0 errors · 661 pages (+1 from 660) · 922/922 e2e+a11y pass.
 Ship: committed to master SHA 25434f1, pushed. CI=in_progress (CI + Lighthouse) at push time.
 Next: iter 413 → BUILD (tools/i18n). Top candidates: i18n Phase 7 (tools-island UI strings), galilee-wine-trail, sea-of-galilee-guide.
+
+## 2026-07-09T19:50Z · iter 413 · BUILD (monetization fallback) · car-rental-comparison
+What: new /israel-car-rental-comparison money page. Tools and i18n categories both exhausted (all shipped); fell through to monetization. Comparison guide for 6 major Israel car rental companies: Eldan (local dominant chain), Hertz, Avis, Sixt, Budget, Europcar — plus aggregator platforms DiscoverCars and Rentalcars. 6-column comparison table (fleet quality, Israel-specific coverage, local vs international, West Bank policy, price). 6 company profiles. Israel-specific tips: airport surcharge (~$30–45), no debit cards, Shabbat office closures, GPS/Waze recommendation, parking in Jerusalem, one-way/cross-depot fees. 2 affiliate CTAs (DiscoverCars + Rentalcars) in frontmatter. Cross-links added: /car-rental-israel (sentence linking to comparison for WHICH company), /israel-car-rental-quiz (Related guides chip + YES result links list).
+Gate: pnpm check 0 errors · 662 pages (+1 from 661) · 924/924 e2e+a11y pass.
+Ship: squash-merged to master SHA d92e0d7, pushed. CI=in_progress at push time.
+Next: iter 414 → REVIEW. Top candidates: audit recent money pages (car-rental-comparison, bethlehem-tours-compared, israel-vs-cyprus) for link rot, schema, honesty.

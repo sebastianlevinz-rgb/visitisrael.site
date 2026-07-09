@@ -799,3 +799,6 @@ SHA 0d19743
 
 ## iter 412 (2026-07-09)
 - [iter412] /bethlehem-tours-compared — Bethlehem tours compared money page (P2,S monetization); decision-stage comparison of tour formats: half-day Nativity, full-day in-depth, Bethlehem+Jericho extension, dual-narrative West Bank, self-guided bus; 7 FAQs; 3 affiliate CTAs (GYG, Viator, Abraham Tours); cross-link added to jerusalem-bethlehem-day-trip → 25434f1
+
+## iter 413 (2026-07-09)
+- [iter413] /israel-car-rental-comparison — Israel car rental company comparison guide (P2,S monetization); comparison of Eldan/Hertz/Avis/Sixt/Budget/Europcar + aggregators (DiscoverCars, Rentalcars); 6-column table, company profiles, Israel-specific tips (airport surcharge, no debit card, Shabbat closures, West Bank prohibition, GPS/Waze); 2 affiliate CTAs; cross-linked from /car-rental-israel + /israel-car-rental-quiz → d92e0d7
