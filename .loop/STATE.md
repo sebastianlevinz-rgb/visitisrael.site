@@ -1,13 +1,15 @@
 # LOOP STATE
 
-- iteration: 401
-- lastMode: BUILD (seo-content)
-- lastItem: eilat-snorkeling-guide
-- lastResult: BUILD — /eilat-snorkeling-guide shipped. P2,S item. Coral reef snorkeling guide for non-divers: Coral Beach Nature Reserve trail, glass-bottom boats, Coral World semi-submarine, gear rental, seasonal notes (best Nov–Apr; jellyfish Aug–Sep warning), marine life rundown (parrotfish/surgeonfish/lionfish/moray eels/turtles), depth guide for nervous snorkelers, dive-vs-snorkel comparison table, honest reef-condition note (partial bleaching acknowledged). 2 affiliate CTAs (GYG snorkeling tours, Booking.com Eilat). Footer link added; cross-link added to eilat-diving-snorkeling.md. Smoke +1, a11y +1. 642 pages (+1). 897/897 e2e+a11y pass. SHA dead5a3, pushed. CI=in_progress (Lighthouse) at push time.
-- nextRotationCategory: 402%5==2 → BUILD (monetization). 403%5==3 → BUILD (tools/i18n). 404%5==4 → REVIEW. 405%5==0 → RESEARCH.
+- iteration: 402
+- lastMode: BUILD (monetization)
+- lastItem: israel-vs-egypt
+- lastResult: BUILD — /israel-vs-egypt shipped. P2,S item. Israel vs Egypt comparison guide: 11-criteria side-by-side table, decision matrix by traveller type, detailed sections on history/monuments, beaches, costs, food, safety and visas. Honest Sinai safety framing (active advisory noted; readers directed to check current government guidance). Combined-trip angle (Eilat–Taba crossing). 7 FAQs. 3 affiliate CTAs (GYG Israel tours, Skyscanner flights to Israel, Booking.com Israel hotels). Dense cross-links: is-israel-safe, visa-information, israel-cost-budget, best-time-to-visit-israel, israel-jordan-itinerary, eilat-snorkeling-guide, best-beaches-israel, tel-aviv-vs-jerusalem. Smoke +1, a11y +1. 643 pages (+1). 899/899 e2e+a11y pass. SHA 76e76ba, pushed. CI=in_progress at push time.
+- nextRotationCategory: 403%5==3 → BUILD (tools/i18n). 404%5==4 → REVIEW. 405%5==0 → RESEARCH. 406%5==1 → BUILD (seo-content).
 - higgsfieldSpent: 0
-- updatedAt: 2026-07-09T07:50Z
+- updatedAt: 2026-07-09T08:45Z
 - branch context: work on master; feature work on auto/<slug>
+
+Notes: iter 402 BUILD (monetization) — /israel-vs-egypt shipped. P2,S item. Israel vs Egypt comparison guide: 11-criteria side-by-side table, decision matrix by traveller type, detailed sections history/monuments/beaches/costs/food/safety/visas. Honest Sinai advisory framing. Combined-trip angle (Eilat–Taba crossing). 7 FAQs. 3 affiliate CTAs (GYG, Skyscanner, Booking.com). 899/899 e2e+a11y pass. SHA 76e76ba. CI=in_progress (Lighthouse) at push time. Startup note: fresh cloud env at local master diverged from origin/master; hard-reset to origin/master (44983d4 = iter401) before work. Next: 403%5==3 → BUILD (tools/i18n) — candidates: galilee-wine-trail (P2,S, DiscoverCars+Booking CTAs) or i18n Phase 5 itinerary batch.
 
 Notes: iter 401 BUILD (seo-content) — /eilat-snorkeling-guide shipped. P2,S item. Coral reef snorkeling guide for non-divers: Coral Beach Nature Reserve trail, glass-bottom boats, Coral World semi-submarine, gear rental, seasonal notes (best Nov–Apr; jellyfish Aug–Sep warning), marine life rundown (parrotfish/surgeonfish/lionfish/moray eels/turtles), depth guide for nervous snorkelers, dive-vs-snorkel comparison table, honest reef-condition note (partial bleaching acknowledged). 2 affiliate CTAs (GYG snorkeling tours, Booking.com Eilat). Footer link added; cross-link added to eilat-diving-snorkeling.md. Smoke +1, a11y +1. 642 pages (+1). 897/897 e2e+a11y pass. SHA dead5a3, pushed. CI=in_progress (Lighthouse) at push time. Startup note: fresh cloud env was at local master diverged from origin/master (dcd3966 = iter361); hard-reset to origin/master (6df079b = iter400) before work — 50-commit divergence resolved. Best P2 BUILD candidates for iter 402 (monetization): sea-of-galilee-guide (P2,M) or best-hotels-tel-aviv (P2 archived), or israel-vs-egypt (P2,S monetization angle).
 

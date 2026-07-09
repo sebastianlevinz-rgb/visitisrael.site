@@ -6897,3 +6897,11 @@ Gate: pnpm check 0 errors · build 642 pages (+1) · 897/897 e2e+a11y pass.
 Ship: squash-merge dead5a3, pushed origin/master.
 Prod: CI=in_progress (Lighthouse) at push time; consistent with all prior successful deployments.
 Startup: fresh cloud env diverged from origin/master (local=iter361/dcd3966 vs origin=iter400/6df079b); hard-reset to origin/master before work.
+
+## 2026-07-09T08:45Z · iter 402 · BUILD (monetization) · israel-vs-egypt
+
+What: New /israel-vs-egypt guide (P2,S). 11-criteria comparison table (history, beaches, costs, food, safety, visas, combining), decision matrix by traveller type. Honest Sinai safety framing (active travel advisories noted; readers directed to check current government guidance). Combined-trip angle via Eilat–Taba crossing. 7 FAQs. 3 affiliate CTAs: GYG Israel tours (primary), Skyscanner flights to Israel, Booking.com Israel hotels. Dense cross-links: is-israel-safe, visa-information, israel-cost-budget, best-time-to-visit-israel, israel-jordan-itinerary, eilat-snorkeling-guide, best-beaches-israel, tel-aviv-vs-jerusalem. Smoke +1 (/israel-vs-egypt); a11y +1. Startup: hard-reset to origin/master (44983d4 = iter401) — 50-commit divergence from fresh cloud env.
+Gate: pnpm check 0 errors; build 643 pages (+1); 899/899 e2e+a11y pass.
+Ship: squash-merged to master 76e76ba, pushed.
+Prod: CI + Lighthouse in_progress at push time — next iteration will confirm.
+Next: iter 403 = BUILD (tools/i18n) — galilee-wine-trail (P2,S) or i18n Phase 5.
