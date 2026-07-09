@@ -4126,3 +4126,54 @@ Research tracks: (1) Tel Aviv art/culture scene — beinharimtours.com, lonelypl
 6. **Namal Tel Aviv port neighborhood** — timeout.com/tel-aviv and visittelaviv.com have local guides; tripadvisor has 500+ reviews. No English travel editorial has a standalone dedicated Namal guide. Tuesday/Friday evening market, design district, waterfront promenade, Reading Power Station proximity — distinct from Carmel Market guide and Florentin neighborhood content.
 
 **Pattern confirmed:** Major competitors (Lonely Planet, Rough Guides, Tourist Israel) remain largely frozen post-2023. Genuinely new gaps after 78 research iterations now trend toward: (a) cultural-experience formats that competitors' static guides don't cover, (b) new institutions that post-date competitors' last update cycle (MOTJ), (c) neighborhood deep-dives that extend beyond the single-sentence mentions in existing neighborhood-roundup guides. 6 new items added to BACKLOG.
+
+## iter400 findings (2026-07-09) — RESEARCH
+
+Research focus: Seasonal guide gaps, event/sports tourism, comparison guide opportunities, niche activity guides, new hotel openings 2026, neighbourhood nightlife.
+
+**Competitors + sources reviewed this iteration:**
+- touristisrael.com/israel-travel-2026 — 2026 content audit
+- globalhighlights.com/israel/best-time-to-visit — seasonal coverage analysis
+- tzurtours.com/best-time-to-visit-israel — seasonal competitor
+- hike-israel.com/nature-in-israel/timna-park — activity guide competitor
+- laidbacktrip.com/posts/timna-park-israel-guide — Timna standalone competitor
+- touristisrael.com/karmiel-dance-festival + carnifest.com — event guide competitors
+- deadsea-marathon.com — official marathon site
+- myisraelwinetours.com + winetraveler.com/israel — wine trail competitors
+- sixsenses.com/en/hotels-resorts/middle-east-africa/israel — luxury hotel landscape
+- timeout.co.il/israel + holidify.com/places/tel-aviv/namal — neighbourhood guide competitors
+- tripadvisor.com Israel Paint & Pottery sub-category — craft workshop demand signal
+- pilgrimtours.com/israel-egypt-14 + tourradar.com/b/egypt-israel — comparison funnel competitors
+
+**New gaps confirmed and added to BACKLOG:**
+
+1. **Israel vs Egypt comparison guide** — touristisrael.com, lonelyplanet.com, and roughguides.com/israel all lack a dedicated Israel vs Egypt comparison page. pilgrimtours.com and tourradar.com only offer combined tours (tour operators, not editorial). "Israel vs Egypt vacation" is a high-intent search query for European + North American travellers who must choose between the two ancient-history destinations. Our israel-vs-turkey (iter391) proved the comparison format converts well. Egypt is the most logical next comparison: neighbour country, dominant Middle East competitor for history travel, same "which is worth it?" traveller question. Distinct from jordan-comparison content which focuses on combined trips.
+
+2. **Eilat snorkelling guide for non-divers** — eilat-diving-snorkeling.md (SHIPPED) is pitched at certified SCUBA divers; families and casual swimmers visiting Eilat have zero dedicated guide on our site. Coral Beach Nature Reserve has a self-guided underwater snorkelling trail (no certification required) that no competitor covers editorially in practical guide format. Glass-bottom boat tours, Coral World semi-submarine, and gear rental logistics are also uncovered. This is a practical gap with high family travel intent.
+
+3. **Galilee & Golan wine trail self-drive guide** — israel-wine-wineries.md (SHIPPED) covers all regions at overview level. myisraelwinetours.com and winetraveler.com/israel exist as niche sites but no major editorial guide covers the self-drive wine circuit in Northern Israel. Golan Heights Winery (international recognition), Galil Mountain, Pelter, and Dalton wineries all have visitor centres. A dedicated 2-day self-drive circuit guide with practical accommodation + logistics would fill a genuine gap and monetise naturally through DiscoverCars CTA (car hire essential for wine trail).
+
+4. **Karmiel Dance Festival travel guide** — Israel's largest cultural event (3 days, 80+ shows, 3,000-dancer opening parade) has no editorial traveller guide. touristisrael.com and worldjewishtravel.org have short event listings only. No logistics guide (how to get there from Tel Aviv/Haifa, accommodation strategy, ticket types, what to expect). Annual August event — evergreen with calendar-specific SEO value each year.
+
+5. **Dead Sea Marathon travel guide** — World's lowest marathon (430m below sea level) is a bucket-list item for distance runners and sports tourists. Official race site covers registration; no editorial travel guide covers the full experience (logistics, accommodation, pre-race sightseeing, post-race Dead Sea float recovery ritual). Sports tourism is a growing segment with distinct search patterns.
+
+6. **Jerusalem nightlife guide** — tel-aviv-nightlife.md (SHIPPED) is specific to TLV. Jerusalem has a distinct secular nightlife scene (Mahane Yehuda market-to-bar transformation after 21:00; Russian Compound district bars; German Colony café-bars; Birman classical music listening bar) that no competitor's editorial Israel travel site covers specifically. timeout.co.il/jerusalem has a local guide but no English travel editorial site does. Many Israel visitors dismiss Jerusalem's nightlife without knowing about it — a guide fills a real expectation gap.
+
+**Rejected / De-duped (confirmed already in backlog or shipped):**
+- israel-in-spring → SHIPPED iter203
+- timna-park-guide → P2 backlog ready
+- israel-mediterranean-cruise-guide → P2 backlog ready (iter390 addition)
+- israel-greece-itinerary → P2 backlog ready (iter390 addition)
+- ramat-gan-safari-guide → P3 backlog ready
+- israel-music-tourism → P3 backlog ready
+- six-senses-shaharut standalone → mentioned in yoga/wellness backlog item (subsumed)
+- haifa-food-guide → P3 backlog ready
+- digital-nomad-israel → P2 backlog ready
+- pet-friendly-israel → P2 backlog ready
+- israel-travel-2026 → P-tagged backlog ready
+- yom-haatzmaut-guide → P2 backlog ready
+- spring-break-israel → P3 backlog
+- dead-sea-marathon-spectator → merged with runner guide above
+
+**Pattern after 80 research iterations:**
+Major English-language Israel travel editorial competitors (Lonely Planet, Rough Guides, Tourist Israel) remain largely static since late 2023. New gaps now require niche-angle pivots: (a) activity-specific guides that split from broader existing guides (snorkelling ≠ diving; wine trail ≠ wine hub); (b) events/sports tourism with specific logistics that general events-festivals.md doesn't provide; (c) comparison guides extending the proven israel-vs-turkey format; (d) neighbourhood nightlife scenes that visitors miss due to destination's religious identity overshadowing its secular culture. Backlog is now very comprehensive at ~200 ready items; future research returns will continue to diminish.

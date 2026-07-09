@@ -6874,3 +6874,19 @@ Fix: trimmed all 9 violations in place — no semantic meaning lost, key terms p
 Gate: pnpm check 0 errors; pnpm build 641 pages (unchanged); pnpm test:e2e 895/895 pass.
 Merge: squash-committed to master SHA d8b8977, pushed origin/master at 2026-07-09T05:44Z. CI=in_progress (Lighthouse + main CI) at push time — consistent with prior iters, non-blocking.
 Next: iter 400 → RESEARCH (400%5==0). Candidate research tracks: i18n Phase 5 readiness assessment; new competitor gap scan (touristisrael.com / lonelyplanet.com post-2025 updates); multi-destination combos (Israel+Greece, Israel+Cyprus — added iter390 but not yet built).
+
+## 2026-07-09T07:15Z · iter 400 · RESEARCH · research-400-comparison-events-activity-nightlife
+Mode: RESEARCH (400%5==0). No code shipped.
+Startup: fresh cloud env — local master diverged from origin/master (force-pushed 50-commit history as in iter399); recovered via git reset --hard origin/master (44d0762) before work.
+Competitors reviewed: touristisrael.com/israel-travel-2026 (2026 content audit), globalhighlights.com/israel/best-time-to-visit, tzurtours.com, hike-israel.com/timna-park, myisraelwinetours.com, winetraveler.com/israel, carnifest.com, sixsenses.com/shaharut, timeout.co.il/israel/bars.
+Research method: 8 targeted WebSearch calls across comparison gaps, event/sports tourism, activity-specific guides, nightlife; all candidates verified by python3 regex against full BACKLOG.md.
+6 new items added to BACKLOG:
+  1. israel-vs-egypt (P2, S, seo-content+monetization) — comparison guide; 0 backlog hits
+  2. eilat-snorkeling-guide (P2, S, seo-content+monetization) — non-diver snorkelling Eilat; 0 backlog hits
+  3. galilee-wine-trail (P2, S, seo-content+monetization) — self-drive Galilee/Golan wine circuit; 0 backlog hits
+  4. karmiel-dance-festival-guide (P3, S, seo-content) — logistics guide for Israel's largest dance event; 0 backlog hits
+  5. dead-sea-marathon-guide (P3, S, seo-content) — world's lowest marathon travel guide; 0 backlog hits
+  6. jerusalem-nightlife-guide (P3, S, seo-content+monetization) — secular Jerusalem bars; 0 backlog hits
+De-duped and rejected: israel-in-spring (SHIPPED iter203), timna-park-guide (P2 backlog ready), israel-greece-itinerary (P2 backlog ready), ramat-gan-safari (P3 backlog ready), israel-music-tourism (P3 backlog ready), six-senses-shaharut (subsumed in yoga/wellness item), haifa-food-guide (P3 backlog ready), digital-nomad-israel (P2 backlog ready), yom-haatzmaut-guide (P2 backlog ready), pet-friendly-israel (P2 backlog ready), israel-travel-2026 (P-tagged backlog ready), spring-break-israel (P3 backlog).
+Pattern: after 80 research iterations, new items require niche-angle pivots: activity splits (snorkelling ≠ diving), comparison formats, events with logistics, and overlooked local scenes (Jerusalem nightlife). No code shipped.
+Next: iter 401 → BUILD (seo-content). Best candidate: eilat-snorkeling-guide (P2,S) or israel-vs-egypt (P2,S) or galilee-wine-trail (P2,S).

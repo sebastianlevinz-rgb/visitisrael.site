@@ -1,12 +1,12 @@
 # LOOP STATE
 
-- iteration: 399
-- lastMode: REVIEW (399%5==4)
-- lastItem: meta-trim-negev-i18n
-- lastResult: REVIEW — audited Phase 4 Batch 12 Negev FR+DE (iter398). Found 3 title violations (>65 chars) and 6 description violations (>160 chars) across 8 files. All 9 violations fixed and shipped. 641 pages unchanged. 895/895 e2e+a11y pass. CI=in_progress at push time (SHA d8b8977).
-- nextRotationCategory: 400%5==0 → RESEARCH. 401%5==1 → BUILD (seo-content). 402%5==2 → BUILD (monetization). 403%5==3 → BUILD (tools/i18n).
+- iteration: 400
+- lastMode: RESEARCH (400%5==0)
+- lastItem: research-400-comparison-events-activity-nightlife
+- lastResult: RESEARCH — 6 net-new items added to BACKLOG: israel-vs-egypt (P2,S), eilat-snorkeling-guide (P2,S), galilee-wine-trail (P2,S), karmiel-dance-festival-guide (P3,S), dead-sea-marathon-guide (P3,S), jerusalem-nightlife-guide (P3,S). All confirmed by python3 grep against full BACKLOG.md. No code shipped.
+- nextRotationCategory: 401%5==1 → BUILD (seo-content). 402%5==2 → BUILD (monetization). 403%5==3 → BUILD (tools/i18n). 404%5==4 → REVIEW.
 - higgsfieldSpent: 0
-- updatedAt: 2026-07-09T05:47Z
+- updatedAt: 2026-07-09T07:15Z
 - branch context: work on master; feature work on auto/<slug>
 
 Notes: iter 399 REVIEW — meta-trim-negev-i18n. Audited Phase 4 Batch 12 (negev) FR+DE pages from iter398. Violations: fr/negev-bedouin-hospitality title 72→57; fr/negev-ein-avdat title 68→50 + desc 168→126; fr/negev-mitzpe-ramon desc 162→143; fr/negev-sde-boker desc 179→137; de/negev-avdat desc 172→147; de/negev-bedouin-hospitality title 71→64; de/negev-ein-avdat desc 173→131; de/negev-sde-boker desc 170→150. 8 files fixed (9 violations). 641 pages, 895/895 e2e+a11y pass. SHA d8b8977, pushed. CI=in_progress at push time (Lighthouse). Also confirmed: iter397 EN guides (northern-israel-road-trip, museum-of-tolerance-jerusalem) both clean (title ≤65, desc ≤160). Startup note: fresh cloud checkout was stuck at iter361 (dcd3966); hard-reset to origin/master (8585cda) before work — 50-commit divergence due to prior force-push.
@@ -29,6 +29,8 @@ Notes: iter 391 BUILD (seo-content) — /israel-vs-turkey shipped. First Israel 
 
 Notes: iter 390 RESEARCH (390%5==0) — 6 new items added to BACKLOG. Research covered americaisraeltours.com (guided vs independent already in backlog), roughguides.com/israel (content frozen since 2023, no new gaps), Mediterranean cruise lines (confirmed cruise destination planning gap), multi-country combination travel (Israel+Greece, Israel+Cyprus confirmed as genuine gaps after 50+ BACKLOG searches). Pattern: after 77 research iterations the backlog is extraordinarily comprehensive; genuinely new items now trend toward multi-destination combo guides and format-specific comparison angles. No code shipped.
 
+Notes: iter 400 RESEARCH (400%5==0) — research-400-comparison-events-activity-nightlife. 6 net-new items added. Research tracks: (1) comparison guide opportunities (israel-vs-egypt: natural follow-up to iter391 israel-vs-turkey; Egypt is dominant Middle East history competitor; confirmed 0 backlog hits); (2) activity-specific guide splits (eilat-snorkeling-guide: families + non-divers ignored by existing eilat-diving-snorkeling.md which is SCUBA-focused; Coral Beach Nature Reserve snorkel trail, glass-bottom boats, Coral World semi-submarine — confirmed 0 backlog hits); (3) wine trail format (galilee-wine-trail: distinct from israel-wine-wineries.md all-regions hub; self-drive 2-day circuit Katzrin→Upper Galilee with DiscoverCars CTA — confirmed 0 backlog hits); (4) events tourism (karmiel-dance-festival-guide: Israel's largest dance event, 3 days August, 80+ shows, 3,000-dancer parade, no editorial logistics guide exists — 0 backlog hits); (5) sports tourism (dead-sea-marathon-guide: world's lowest marathon, annual February, bucket-list running experience, zero editorial coverage — 0 backlog hits); (6) nightlife niche (jerusalem-nightlife-guide: secular Jerusalem bar scene invisible to most visitors; Mahane Yehuda market→bars after 21:00, Russian Compound, German Colony café-bars; tel-aviv-nightlife.md is TLV-only — 0 backlog hits). Startup note: fresh cloud env was at local master diverged from origin/master (force-pushed history); hard-reset to origin/master (44d0762) before work — 50-commit divergence resolved. All 6 items verified with targeted WebSearch + python3 regex dedup vs BACKLOG.md. No code shipped (RESEARCH mode). Best P2 BUILD candidates for iter 401 (seo-content): eilat-snorkeling-guide (P2,S) or israel-vs-egypt (P2,S) or galilee-wine-trail (P2,S).
+
 Cron b7325b16 hourly @ :17. Loop history: 19 tools + sitemap-lastmod + link-checker(+depth) + i18n
 Phase0/1a/1b/1c/2 Batches1-18(COMPLETE) + 39 review passes + 3 technical (event-schema + meta-trim + locale-links) + 53 EN guides + 6 tools-monetization;
-research iters 5/10/20/30/35/40/45/50/55/60/65/70/75/80/85/90/95/100/105/110/115/120/125/130/135/140/145/150/155/160/165/170/175/180/185/190/195/200/205/210/215/220/225/230/235/240/245/250/255/260/265/270/275/280/285/290/295/300/305/310/315/320/325/330/335/340/345/350/355/360/365/370/375/380/385/390/395.
+research iters 5/10/20/30/35/40/45/50/55/60/65/70/75/80/85/90/95/100/105/110/115/120/125/130/135/140/145/150/155/160/165/170/175/180/185/190/195/200/205/210/215/220/225/230/235/240/245/250/255/260/265/270/275/280/285/290/295/300/305/310/315/320/325/330/335/340/345/350/355/360/365/370/375/380/385/390/395/400.
