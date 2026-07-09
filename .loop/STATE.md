@@ -1,12 +1,12 @@
 # LOOP STATE
 
-- iteration: 408
-- lastMode: BUILD (tools/i18n)
-- lastItem: i18n-phase6-qa-sweep
-- lastResult: BUILD (i18n) — Phase 6 QA sweep shipped. Sitemap hreflang enabled via @astrojs/sitemap i18n option (defaultLocale: en, locales: en/fr/de); 659 pages; all trilingual routes now get <xhtml:link> alternate entries in sitemap-0.xml. Smoke tests: sitemap hreflang presence test, /fr/jerusalem region hreflang test, 5 missing EN guide routes added (israel-vs-jordan, dead-sea-israel-vs-jordan, israel-affordable-luxury, israel-road-trip, backpacking-israel). gate: pnpm check 0 errors · 659 pages built · 922/922 e2e pass. SHA 0d19743.
-- nextRotationCategory: 409%5==4 → REVIEW. 410%5==0 → RESEARCH. 411%5==1 → BUILD (seo-content). 412%5==2 → BUILD (monetization).
+- iteration: 409
+- lastMode: REVIEW
+- lastItem: review-409-vs-jordan-affordable-luxury-hreflang
+- lastResult: REVIEW — Audited israel-vs-jordan (iter406), israel-affordable-luxury (iter407), sitemap hreflang (iter408). All meta title/desc within limits; 27 internal links all valid; honesty intact (price ranges, no fabricated ratings); sitemap i18n config correct. Found + fixed 1 dead variable: unused `baseIds` Set in fr/itineraries/index.astro (ts6133 hint eliminated). Gate: pnpm check 0 errors · 659 pages · 922/922 e2e pass. SHA f701a36. CI=in_progress at push time.
+- nextRotationCategory: 410%5==0 → RESEARCH. 411%5==1 → BUILD (seo-content). 412%5==2 → BUILD (monetization). 413%5==3 → BUILD (tools/i18n).
 - higgsfieldSpent: 0
-- updatedAt: 2026-07-09T14:45Z
+- updatedAt: 2026-07-09T15:42Z
 - branch context: work on master; feature work on auto/<slug>
 
 Notes: iter 408 BUILD (i18n) — Phase 6 QA sweep. Startup: fresh cloud env; local master diverged from origin/master (was at iter407, 06f09d8); fetched + reset to origin/master. Selected Phase 6 QA sweep (P2,S, top tools/i18n item). Added i18n option to sitemap() in astro.config.mjs enabling xhtml:link hreflang for all trilingual pages. Added smoke tests: sitemap hreflang assertion (xmlns:xhtml + xhtml:link count > 0 + hreflang en/fr/de), /fr/jerusalem region hreflang assertion, 5 missing EN routes. gate: pnpm check 0 errors · 659 pages · 922/922 e2e pass. SHA 0d19743. Phase 6 COMPLETE. Sitemap hreflang (deferred since Phase 0) now shipped. Next: iter 409 → REVIEW.

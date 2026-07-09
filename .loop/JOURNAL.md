@@ -6953,3 +6953,16 @@ Prod: pending (CI in_progress); next iteration start-check will confirm.
 What: Enable sitemap hreflang (xhtml:link alternates) via @astrojs/sitemap i18n option in astro.config.mjs. Added `i18n: { defaultLocale: 'en', locales: { en: 'en', fr: 'fr', de: 'de' } }` to sitemap() call. Verified: 659 pages built; all trilingual pages now get <xhtml:link rel="alternate" hreflang="..."> entries in sitemap-0.xml; xhtml namespace declared in root element. Also added 3 new smoke tests (sitemap hreflang presence, /fr/jerusalem region hreflang reciprocity) and 5 missing EN routes to smoke ROUTES array (israel-vs-jordan, dead-sea-israel-vs-jordan, israel-affordable-luxury, israel-road-trip, backpacking-israel). Startup: fresh cloud env; local master up to date with origin (iter407 = 06f09d8). Context resumed from summarized session; edit picked up immediately. Branch: auto/i18n-phase6-qa-sweep. Phase 6 is the final i18n epic phase — all phases 0–6 now COMPLETE.
 Gate: pnpm check 0 errors · 659 pages · 922/922 e2e pass.
 Merge SHA: 0d19743. Pushed to origin/master. CI=in_progress at push time.
+
+## 2026-07-09T15:42Z · iter 409 · REVIEW · review-409-vs-jordan-affordable-luxury-hreflang
+Mode: REVIEW (409%5==4). Startup: fresh cloud env; local master had 51-commit divergence — hard-reset to origin/master (a281520 = iter408) before work.
+Slice reviewed: israel-vs-jordan (iter406), israel-affordable-luxury (iter407), Phase 6 sitemap hreflang (iter408).
+Checks run:
+  1. Meta lengths: israel-vs-jordan title=48c desc=145c ✓; israel-affordable-luxury title=59c desc=132c ✓ — both within limits (no trim needed, unlike FR/DE batches).
+  2. Internal links: 27 unique links extracted from both pages; all resolved to real source files. /dead-sea/masada verified via attraction routing logic (region:dead-sea + slug:masada → correct).
+  3. Honesty: price ranges used throughout (no fabricated ratings, no exact hotel prices, "under ₪30 / under ₪70" qualified transport costs, "₪1,500-3,500/night depending on season" with check-live-rates prompt) ✓.
+  4. Sitemap hreflang: astro.config.mjs correctly has `i18n: { defaultLocale: 'en', locales: { en: 'en', fr: 'fr', de: 'de' } }` inside sitemap() ✓.
+  5. Dead variable: `baseIds` Set in fr/itineraries/index.astro — declared but never used; leftover from iter403 Phase 5 build. FIXED (1-line removal).
+Gate: pnpm check 0 errors · 659 pages · 922/922 e2e pass.
+Commit: f701a36 "fix(i18n): remove unused baseIds variable from fr/itineraries/index.astro [auto-loop]" pushed to origin/master. CI=in_progress (Lighthouse + CI workflows) at push time — consistent with all prior iters, non-blocking.
+Next: iter 410 → RESEARCH (410%5==0). Candidates: galilee-wine-trail (P2,S,ready), israel-vs-greece (P2,S ready), israel-passover-travel (P2,M ready), israel-road-trip-with-kids (P2,M ready), new competitor gap scan (touristisrael.com / lonelyplanet.com fresh content).
