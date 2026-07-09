@@ -6905,3 +6905,13 @@ Gate: pnpm check 0 errors; build 643 pages (+1); 899/899 e2e+a11y pass.
 Ship: squash-merged to master 76e76ba, pushed.
 Prod: CI + Lighthouse in_progress at push time — next iteration will confirm.
 Next: iter 403 = BUILD (tools/i18n) — galilee-wine-trail (P2,S) or i18n Phase 5.
+
+## 2026-07-09 · iter 403 · BUILD (i18n Phase 5 — itineraries)
+i18n Phase 5 shipped: 12 translated itinerary pages (6 FR + 6 DE): 2-days-in-tel-aviv,
+3-days-in-jerusalem, 5-days-in-israel, 7-days-in-israel, 10-days-in-israel, 14-days-in-israel.
+2 locale index pages (/fr/itineraries, /de/itineraries). content.config.ts glob changed from
+*.md to **/*.md for locale subdirs. EN itinerary [slug].astro and index.astro filter fr/de entries.
+hreflang alternates on all 3 locale templates (EN/FR/DE). Header itineraries nav link made locale-aware
+(localePrefix + /itineraries). YAML fix: Be\'er→Be''er in de/14-days-in-israel.md (single-quoted
+YAML can only escape quotes by doubling, not backslash). Smoke +14, a11y +2. 657 pages (+14).
+915/915 e2e pass. Merged to master SHA cf983a2. Phase 5 COMPLETE.

@@ -755,3 +755,15 @@ New /western-galilee-guide — multi-site touring guide for Western Galilee: Loh
 - iter401 · BUILD (seo-content) · eilat-snorkeling-guide · dead5a3 · New /eilat-snorkeling-guide: Red Sea coral reef snorkeling for non-divers. Coral Beach Nature Reserve walk-in trail (wooden bridges + marked entry points, reef-safe sunscreen enforced, ~₪30 entry), glass-bottom boats (North Beach pier, ₪60-100, non-swimmer option), Coral World Underwater Observatory semi-submarine (zero-swimming alternative), gear rental table, marine life guide (parrotfish/surgeonfish/lionfish/moray eels/sea turtles/crown-of-thorns), honest reef condition note (partial bleaching acknowledged), seasonal table (best Nov–Apr; jellyfish warning Aug–Sep), dive vs snorkel comparison table. 2 affiliate CTAs (GYG snorkeling tours, Booking.com Eilat hotels). Footer link added; cross-link appended to eilat-diving-snorkeling.md. Smoke +1, a11y +1. 642 pages (+1). 897/897 e2e+a11y pass. CI=in_progress (Lighthouse) at push time. SEO targets: "snorkelling Eilat guide", "Eilat coral reef without diving", "Eilat snorkeling non-diver", "Red Sea snorkelling Israel".
 
 - [SHIPPED iter402 · 76e76ba] /israel-vs-egypt — Israel vs Egypt comparison guide: 11-criteria table, 7 FAQs, 3 affiliate CTAs (GYG/Skyscanner/Booking.com). Honest Sinai safety framing. 899/899 e2e+a11y pass.
+
+## iter 403 — i18n Phase 5 (itineraries FR+DE)
+- /fr/itineraries (index) + /de/itineraries (index) — new locale index pages
+- /fr/itineraries/2-days-in-tel-aviv + /de/itineraries/2-days-in-tel-aviv
+- /fr/itineraries/3-days-in-jerusalem + /de/itineraries/3-days-in-jerusalem
+- /fr/itineraries/5-days-in-israel + /de/itineraries/5-days-in-israel
+- /fr/itineraries/7-days-in-israel + /de/itineraries/7-days-in-israel
+- /fr/itineraries/10-days-in-israel + /de/itineraries/10-days-in-israel
+- /fr/itineraries/14-days-in-israel + /de/itineraries/14-days-in-israel
+- content.config.ts: itineraries glob *.md → **/*.md (locale subdir support)
+- Header.astro: locale-aware itineraries nav link (localePrefix + /itineraries)
+SHA cf983a2

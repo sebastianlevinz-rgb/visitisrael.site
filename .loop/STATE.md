@@ -1,13 +1,15 @@
 # LOOP STATE
 
-- iteration: 402
-- lastMode: BUILD (monetization)
-- lastItem: israel-vs-egypt
-- lastResult: BUILD — /israel-vs-egypt shipped. P2,S item. Israel vs Egypt comparison guide: 11-criteria side-by-side table, decision matrix by traveller type, detailed sections on history/monuments, beaches, costs, food, safety and visas. Honest Sinai safety framing (active advisory noted; readers directed to check current government guidance). Combined-trip angle (Eilat–Taba crossing). 7 FAQs. 3 affiliate CTAs (GYG Israel tours, Skyscanner flights to Israel, Booking.com Israel hotels). Dense cross-links: is-israel-safe, visa-information, israel-cost-budget, best-time-to-visit-israel, israel-jordan-itinerary, eilat-snorkeling-guide, best-beaches-israel, tel-aviv-vs-jerusalem. Smoke +1, a11y +1. 643 pages (+1). 899/899 e2e+a11y pass. SHA 76e76ba, pushed. CI=in_progress at push time.
-- nextRotationCategory: 403%5==3 → BUILD (tools/i18n). 404%5==4 → REVIEW. 405%5==0 → RESEARCH. 406%5==1 → BUILD (seo-content).
+- iteration: 403
+- lastMode: BUILD (i18n)
+- lastItem: i18n-phase5-itineraries
+- lastResult: BUILD — i18n Phase 5 shipped. 12 translated itinerary pages (6 FR + 6 DE): 2-days-in-tel-aviv, 3-days-in-jerusalem, 5-days-in-israel, 7-days-in-israel, 10-days-in-israel, 14-days-in-israel. Also: 2 locale index pages (/fr/itineraries, /de/itineraries), content.config.ts glob **/*.md for locale subdirs, EN index+slug filter for fr/de entries, hreflang alternates on all 3 locale templates, locale-aware header itineraries nav link, YAML fix (Be\'er → Be''er in DE 14-days). Smoke +14, a11y +2. 657 pages (+14). 915/915 e2e+a11y pass. SHA cf983a2, pushed.
+- nextRotationCategory: 404%5==4 → REVIEW. 405%5==0 → RESEARCH. 406%5==1 → BUILD (seo-content). 407%5==2 → BUILD (monetization).
 - higgsfieldSpent: 0
-- updatedAt: 2026-07-09T08:45Z
+- updatedAt: 2026-07-09T10:05Z
 - branch context: work on master; feature work on auto/<slug>
+
+Notes: iter 403 BUILD (i18n) — Phase 5 itineraries shipped. 12 translated pages (6 FR + 6 DE): 2-day TLV, 3-day JLM, 5-day, 7-day, 10-day, 14-day. 2 index pages (/fr/itineraries, /de/itineraries). content.config.ts glob **/*.md. EN slug/index filter. hreflang alternates. Locale-aware header nav. YAML fix Be\'er→Be''er. 657 pages. 915/915 e2e pass. SHA cf983a2. Startup: local master was at iter402 (3f820e9), matched origin/master — no reset needed. Phase 5 COMPLETE (itineraries done; tools-island UI strings deferred to Phase 5b or Phase 6).
 
 Notes: iter 402 BUILD (monetization) — /israel-vs-egypt shipped. P2,S item. Israel vs Egypt comparison guide: 11-criteria side-by-side table, decision matrix by traveller type, detailed sections history/monuments/beaches/costs/food/safety/visas. Honest Sinai advisory framing. Combined-trip angle (Eilat–Taba crossing). 7 FAQs. 3 affiliate CTAs (GYG, Skyscanner, Booking.com). 899/899 e2e+a11y pass. SHA 76e76ba. CI=in_progress (Lighthouse) at push time. Startup note: fresh cloud env at local master diverged from origin/master; hard-reset to origin/master (44983d4 = iter401) before work. Next: 403%5==3 → BUILD (tools/i18n) — candidates: galilee-wine-trail (P2,S, DiscoverCars+Booking CTAs) or i18n Phase 5 itinerary batch.
 
