@@ -1,13 +1,15 @@
 # LOOP STATE
 
-- iteration: 397
-- lastMode: BUILD (monetization) (397%5==2)
-- lastItem: northern-israel-road-trip
-- lastResult: BUILD monetization — /northern-israel-road-trip shipped. P2,M item. 3-4 day Galilee+Golan self-drive circuit guide (500km loop TLV→Caesarea→Haifa→Akko→Rosh Hanikra→Tiberias→Golan→Nazareth→TLV). 3 affiliate CTAs (DiscoverCars primary, Booking.com hotels, GYG Golan/Galilee tours). 6 FAQs. Footer link + cross-links in israel-road-trip + car-rental-israel. 631 pages (+1). 875/875 e2e+a11y pass. CI=in_progress at push time (SHA f635bde).
-- nextRotationCategory: 398%5==3 → BUILD (tools/i18n). 399%5==4 → REVIEW. 400%5==0 → RESEARCH. 401%5==1 → BUILD (seo-content).
+- iteration: 398
+- lastMode: BUILD (tools/i18n) (398%5==3)
+- lastItem: i18n-phase4-batch12-negev
+- lastResult: BUILD i18n — Phase 4 Batch 12 Negev FR+DE shipped. 10 locale files (5 FR + 5 DE): negev/avdat, bedouin-hospitality, ein-avdat, mitzpe-ramon, sde-boker. YAML German-quote bug fixed in 2 DE files. +10 smoke + +10 a11y routes. 641 pages (+10). 895/895 e2e+a11y pass. CI=in_progress at push time (SHA 4d6d5c3).
+- nextRotationCategory: 399%5==4 → REVIEW. 400%5==0 → RESEARCH. 401%5==1 → BUILD (seo-content). 402%5==2 → BUILD (monetization).
 - higgsfieldSpent: 0
-- updatedAt: 2026-07-09T03:50Z
+- updatedAt: 2026-07-09T04:49Z
 - branch context: work on master; feature work on auto/<slug>
+
+Notes: iter 398 BUILD (tools/i18n) — Phase 4 Batch 12 Negev FR+DE shipped. 10 locale files (5 FR + 5 DE) for negev attractions. YAML German-quote bug in de/negev-bedouin-hospitality (3 occurrences) and de/negev-sde-boker (1 occurrence) fixed via Python regex on frontmatter (U+201E + ASCII U+0022 pairs → single-quoted). smoke.spec.ts + a11y.spec.ts +10 routes each. 641 pages (+10). 895/895 e2e pass. SHA 4d6d5c3, pushed. CI=in_progress (Lighthouse) at push time. i18n Phase 4 COMPLETE — all Negev attractions done. Remaining deferred: jerusalem/holy-sepulchre + jerusalem/temple-mount (religious/contested, extra care needed, Phase 5+). Next i18n: Phase 5 itineraries/legal or QA sweep.
 
 Notes: iter 397 BUILD (monetization) — /northern-israel-road-trip shipped. P2,M item. Focused 3-4 day Galilee+Golan self-drive circuit guide; distinct from existing 7-day israel-road-trip (doesn't extend to Dead Sea/Negev). Content: Day 1 TLV→Caesarea→Haifa; Day 2 Haifa→Akko→Rosh Hanikra→Tiberias; Day 3 Sea of Galilee circuit + Golan Heights or Nazareth (flex); Day 4 return options. 6 FAQs (how many days, no-car option, best time, Golan status, NP pass, Nazareth fit). 3 affiliate CTAs: DiscoverCars (car hire, primary), Booking.com (3 hotel nights on route), GYG (Golan/Galilee tours). Footer link added alongside 7-day road trip. Cross-links: israel-road-trip.md (short-on-time pointer), car-rental-israel.md (companion link). Golan political status handled with honest neutral framing. Smoke +1 (/northern-israel-road-trip); a11y +1. 631 pages (+1). 875/875 e2e+a11y pass (+2). SHA f635bde, pushed. CI=in_progress at push time. Note: israel-wine-regions backlog item found to be stale (israel-wine-wineries.md already exists as comprehensive hub — confirmed in DONE.md).
 

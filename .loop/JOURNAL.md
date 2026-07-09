@@ -6856,3 +6856,12 @@ What: new /northern-israel-road-trip guide. 3-4 day Galilee + Golan self-drive c
 Gate: pnpm check 0 errors (1 pre-existing hint ts6133); pnpm build 631 pages (+1 vs iter396); pnpm test:e2e 875/875 pass (+2 vs iter396 873).
 Merge: squash-committed to master SHA f635bde, pushed origin/master at 2026-07-09T03:46Z. CI=in_progress (Lighthouse) at push time — consistent with all prior iters, non-blocking.
 Next: iter 398 → BUILD (tools/i18n). Candidate: i18n Phase 4 Batch 12 — Negev 5 attractions (avdat, bedouin-hospitality, ein-avdat, mitzpe-ramon, sde-boker) × FR+DE.
+
+## 2026-07-09T04:49Z · iter 398 · BUILD (tools/i18n) · Phase 4 Batch 12 Negev FR+DE
+Mode: BUILD (398%5==3, tools/i18n rotation). Item: i18n Phase 4 Batch 12 — Negev 5 attractions × FR+DE.
+What: 10 new locale files (5 FR + 5 DE) for negev sub-destination attractions: avdat (UNESCO Nabataean spice route), bedouin-hospitality (community operators Kfar Hanokdim / Khan al-Sultan / Lakiya Negev Weaving), ein-avdat (canyon spring pools hike), mitzpe-ramon (Makhtesh Ramon erosion crater + dark-sky park), sde-boker (Ben-Gurion kibbutz + grave + Midrasha). Frontmatter pattern: lang: fr/de, region: negev, parentRegion: negev, hero/lat/lon/dates/faqs. Body: full translated editorial copy including at-a-glance table, history sections, practical tips, combining-with-other-sites recommendations.
+Issues fixed: YAML German-quote bug in 2 of 5 DE files — „word" (U+201E + ASCII U+0022) inside YAML double-quoted strings prematurely terminates the value. Fixed in de/negev-bedouin-hospitality.md (3 occurrences: 'nomadische', 'ein Beduinen-Gastgeber', 'authentische Zelte') and de/negev-sde-boker.md (1 occurrence: 'die Wüste zum Blühen bringen'). Fix: Python regex on YAML frontmatter only, replacing „...ASCII"  with '...'. Body content unchanged.
+smoke.spec.ts + a11y.spec.ts: +10 routes each (fr/negev/avdat, fr/negev/bedouin-hospitality, fr/negev/ein-avdat, fr/negev/mitzpe-ramon, fr/negev/sde-boker, de/* same 5).
+Gate: pnpm check 0 errors; pnpm build 641 pages (+10 vs iter397 631); pnpm test:e2e 895/895 pass (+20 vs iter397 875).
+Merge: squash-committed to master SHA 4d6d5c3, pushed origin/master at 2026-07-09T04:47Z. CI=in_progress at push time (Lighthouse, non-blocking).
+Next: iter 399 → REVIEW (399%5==4). i18n status: Phase 4 Negev complete (5/5 done). Remaining untranslated: 2 deferred (jerusalem/holy-sepulchre, jerusalem/temple-mount — religious/contested, require extra care). Phase 4 COMPLETE. Next i18n phase: Phase 5 — itineraries/legal or QA sweep.
