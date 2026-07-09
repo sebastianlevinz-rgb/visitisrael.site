@@ -329,6 +329,7 @@ const ROUTES = [
   '/tabgha-church-guide',
   '/western-galilee-guide',
   '/israel-vs-turkey',
+  '/israel-vs-egypt',
 ];
 
 for (const route of ROUTES) {
