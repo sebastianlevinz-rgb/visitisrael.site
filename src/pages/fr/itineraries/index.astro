@@ -8,8 +8,6 @@ const allItineraries = await getCollection('itineraries');
 const itineraries = allItineraries
   .filter((e) => e.id.startsWith('fr/'))
   .sort((a, b) => (a.data.days ?? 0) - (b.data.days ?? 0));
-const baseIds = new Set(allItineraries.filter((e) => !e.id.startsWith('fr/') && !e.id.startsWith('de/')).map((e) => e.id));
-
 const title = 'Itinéraires Israël : routes de 3, 5, 7 et 10 jours';
 const description =
   'Itinéraires de voyage en Israël clés en main pour toutes les durées de séjour — de 3 jours à Jérusalem à une semaine et plus, avec circuits, hébergements et transports.';
