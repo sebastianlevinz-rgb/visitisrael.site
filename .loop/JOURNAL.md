@@ -6915,3 +6915,13 @@ hreflang alternates on all 3 locale templates (EN/FR/DE). Header itineraries nav
 (localePrefix + /itineraries). YAML fix: Be\'er→Be''er in de/14-days-in-israel.md (single-quoted
 YAML can only escape quotes by doubling, not backslash). Smoke +14, a11y +2. 657 pages (+14).
 915/915 e2e pass. Merged to master SHA cf983a2. Phase 5 COMPLETE.
+
+## 2026-07-09T10:50Z · iter 404 · REVIEW · meta-trim-itinerary-i18n
+Mode: REVIEW (404%5==4). Slice reviewed: Phase 5 FR+DE itinerary pages (iter403) + EN guides eilat-snorkeling-guide (iter401) + israel-vs-egypt (iter402).
+Startup: fresh cloud env hard-reset to origin/master (14c8148 = iter403) before work — 50-commit local divergence resolved.
+Audit findings: 17 violations across 14 files. All 12 FR+DE itinerary files had desc>160c (165-219c range); 3 FR titles>65c (66-69c) + 2 DE titles>65c (66-67c). EN eilat-snorkeling-guide desc 173c; israel-vs-egypt desc 171c.
+Fix: trimmed all 17 violations — no semantic meaning lost; key terms, destination names, and value proposition preserved. YAML apostrophe bug found and fixed in eilat-snorkeling-guide (straight apostrophe in 'Eilat's' broke single-quoted YAML frontmatter — rephrased to avoid apostrophe).
+Gate: pnpm check 0 errors; pnpm build 657 pages (unchanged); pnpm test:e2e 915/915 pass.
+Merge: committed to master SHA 2c825e0, pushed origin/master at 2026-07-09T10:46Z. CI=in_progress (Lighthouse queuing) at push time — consistent with all prior iters, non-blocking.
+Lesson: FR/DE locale pages + new EN guides consistently overrun desc ≤160c at authoring time (now 7 consecutive REVIEW iters confirm this). Authoring target of ≤130c desc would eliminate rework.
+Next: iter 405 → RESEARCH (405%5==0). Candidates: galilee-wine-trail (P2,S, ready), i18n Phase 6 QA sweep assessment, new competitor gap scan.

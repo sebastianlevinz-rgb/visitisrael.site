@@ -1,13 +1,15 @@
 # LOOP STATE
 
-- iteration: 403
-- lastMode: BUILD (i18n)
-- lastItem: i18n-phase5-itineraries
-- lastResult: BUILD — i18n Phase 5 shipped. 12 translated itinerary pages (6 FR + 6 DE): 2-days-in-tel-aviv, 3-days-in-jerusalem, 5-days-in-israel, 7-days-in-israel, 10-days-in-israel, 14-days-in-israel. Also: 2 locale index pages (/fr/itineraries, /de/itineraries), content.config.ts glob **/*.md for locale subdirs, EN index+slug filter for fr/de entries, hreflang alternates on all 3 locale templates, locale-aware header itineraries nav link, YAML fix (Be\'er → Be''er in DE 14-days). Smoke +14, a11y +2. 657 pages (+14). 915/915 e2e+a11y pass. SHA cf983a2, pushed.
-- nextRotationCategory: 404%5==4 → REVIEW. 405%5==0 → RESEARCH. 406%5==1 → BUILD (seo-content). 407%5==2 → BUILD (monetization).
+- iteration: 404
+- lastMode: REVIEW
+- lastItem: meta-trim-itinerary-i18n
+- lastResult: REVIEW — audited Phase 5 FR+DE itinerary pages (iter403) + 2 EN guides (iter401/402). Found 17 violations: all 12 FR+DE itinerary files had desc>160c (165-219c), 3 FR titles>65c (66-69c), 2 DE titles>65c (66-67c), plus eilat-snorkeling-guide desc 173c and israel-vs-egypt desc 171c. Fixed all 17 across 14 files. 657 pages unchanged. 915/915 e2e+a11y pass. SHA 2c825e0, pushed.
+- nextRotationCategory: 405%5==0 → RESEARCH. 406%5==1 → BUILD (seo-content). 407%5==2 → BUILD (monetization). 408%5==3 → BUILD (tools/i18n).
 - higgsfieldSpent: 0
-- updatedAt: 2026-07-09T10:05Z
+- updatedAt: 2026-07-09T10:50Z
 - branch context: work on master; feature work on auto/<slug>
+
+Notes: iter 404 REVIEW — meta-trim-itinerary-i18n. Startup: fresh cloud env hard-reset to origin/master (14c8148 = iter403) before work. Audited 12 FR+DE itinerary files (iter403 Phase 5) + eilat-snorkeling-guide (iter401) + israel-vs-egypt (iter402). All 12 FR+DE itinerary files violated desc ≤160c (165-219c); 3 FR + 2 DE titles violated ≤65c (66-69c). 2 EN guides: desc 171-173c each. Fixed all 17 violations (trimmed desc text, shortened titles — no semantic meaning lost). YAML apostrophe bug caught + fixed in eilat-snorkeling-guide (apostrophe in 'Eilat's' broke single-quoted YAML). gate: pnpm check 0 errors · 657 pages · 915/915 e2e pass. SHA 2c825e0. Lesson (consistent with iters 374/379/384/389/394/399): FR/DE locale pages and newly-authored EN guides consistently overrun the desc ≤160c limit; ≤130c authoring target would eliminate rework. Next: iter 405 → RESEARCH. Candidates: i18n Phase 6 QA sweep readiness; galilee-wine-trail (P2,S ready); new competitor gap scan.
 
 Notes: iter 403 BUILD (i18n) — Phase 5 itineraries shipped. 12 translated pages (6 FR + 6 DE): 2-day TLV, 3-day JLM, 5-day, 7-day, 10-day, 14-day. 2 index pages (/fr/itineraries, /de/itineraries). content.config.ts glob **/*.md. EN slug/index filter. hreflang alternates. Locale-aware header nav. YAML fix Be\'er→Be''er. 657 pages. 915/915 e2e pass. SHA cf983a2. Startup: local master was at iter402 (3f820e9), matched origin/master — no reset needed. Phase 5 COMPLETE (itineraries done; tools-island UI strings deferred to Phase 5b or Phase 6).
 
@@ -19,10 +21,6 @@ Notes: iter 400 RESEARCH (400%5==0) — research-400-comparison-events-activity-
 
 Notes: iter 399 REVIEW — meta-trim-negev-i18n. Audited Phase 4 Batch 12 (negev) FR+DE pages from iter398. Violations: fr/negev-bedouin-hospitality title 72→57; fr/negev-ein-avdat title 68→50 + desc 168→126; fr/negev-mitzpe-ramon desc 162→143; fr/negev-sde-boker desc 179→137; de/negev-avdat desc 172→147; de/negev-bedouin-hospitality title 71→64; de/negev-ein-avdat desc 173→131; de/negev-sde-boker desc 170→150. 8 files fixed (9 violations). 641 pages, 895/895 e2e+a11y pass. SHA d8b8977, pushed. CI=in_progress at push time (Lighthouse). Also confirmed: iter397 EN guides (northern-israel-road-trip, museum-of-tolerance-jerusalem) both clean (title ≤65, desc ≤160). Startup note: fresh cloud checkout was stuck at iter361 (dcd3966); hard-reset to origin/master (8585cda) before work — 50-commit divergence due to prior force-push.
 
-Notes: iter 398 BUILD (tools/i18n) — Phase 4 Batch 12 Negev FR+DE shipped. 10 locale files (5 FR + 5 DE) for negev attractions. YAML German-quote bug in de/negev-bedouin-hospitality (3 occurrences) and de/negev-sde-boker (1 occurrence) fixed via Python regex on frontmatter (U+201E + ASCII U+0022 pairs → single-quoted). smoke.spec.ts + a11y.spec.ts +10 routes each. 641 pages (+10). 895/895 e2e pass. SHA 4d6d5c3, pushed. CI=in_progress (Lighthouse) at push time. i18n Phase 4 COMPLETE — all Negev attractions done. Remaining deferred: jerusalem/holy-sepulchre + jerusalem/temple-mount (religious/contested, extra care needed, Phase 5+). Next i18n: Phase 5 itineraries/legal or QA sweep.
-
-Notes: iter 397 BUILD (monetization) — /northern-israel-road-trip shipped. P2,M item. Focused 3-4 day Galilee+Golan self-drive circuit guide; distinct from existing 7-day israel-road-trip (doesn't extend to Dead Sea/Negev). Content: Day 1 TLV→Caesarea→Haifa; Day 2 Haifa→Akko→Rosh Hanikra→Tiberias; Day 3 Sea of Galilee circuit + Golan Heights or Nazareth (flex); Day 4 return options. 6 FAQs (how many days, no-car option, best time, Golan status, NP pass, Nazareth fit). 3 affiliate CTAs: DiscoverCars (car hire, primary), Booking.com (3 hotel nights on route), GYG (Golan/Galilee tours). Footer link added alongside 7-day road trip. Cross-links: israel-road-trip.md (short-on-time pointer), car-rental-israel.md (companion link). Golan political status handled with honest neutral framing. Smoke +1 (/northern-israel-road-trip); a11y +1. 631 pages (+1). 875/875 e2e+a11y pass (+2). SHA f635bde, pushed. CI=in_progress at push time. Note: israel-wine-regions backlog item found to be stale (israel-wine-wineries.md already exists as comprehensive hub — confirmed in DONE.md).
-
 Cron b7325b16 hourly @ :17. Loop history: 19 tools + sitemap-lastmod + link-checker(+depth) + i18n
-Phase0/1a/1b/1c/2 Batches1-18(COMPLETE) + 39 review passes + 3 technical (event-schema + meta-trim + locale-links) + 54 EN guides + 6 tools-monetization;
+Phase0/1a/1b/1c/2 Batches1-18(COMPLETE) + 40 review passes + 3 technical (event-schema + meta-trim + locale-links) + 54 EN guides + 6 tools-monetization;
 research iters 5/10/20/30/35/40/45/50/55/60/65/70/75/80/85/90/95/100/105/110/115/120/125/130/135/140/145/150/155/160/165/170/175/180/185/190/195/200/205/210/215/220/225/230/235/240/245/250/255/260/265/270/275/280/285/290/295/300/305/310/315/320/325/330/335/340/345/350/355/360/365/370/375/380/385/390/395/400.
