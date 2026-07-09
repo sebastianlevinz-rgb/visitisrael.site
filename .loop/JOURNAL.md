@@ -7023,3 +7023,11 @@ What: REVIEW pass on 4 recently shipped pages (iter 411–413): israel-vs-cyprus
 Gate: pnpm check 0 errors · 662 pages · 924/924 e2e+a11y pass.
 Ship: squash-merged to master SHA 3be9d23, pushed. CI=in_progress at push time.
 Next: iter 415 → RESEARCH. Competitor research pass — look for profitable monetization / content patterns we still lack.
+
+## 2026-07-09T21:30Z · iter 415 · RESEARCH · denomination-pilgrimage-purple-line-cruise-tool-health
+
+What: Competitor research pass scanning for profitable content/tool gaps not yet in BACKLOG or DONE. Reviewed touristisrael.com, custodia.org (Franciscan Custody), americaisraeltours.com, pilgrimtours.com, nta.co.il (Purple Line), cruise port operator pages (Ashdod/Haifa). Startup: fresh cloud env; local master diverged from origin/master; hard-reset to origin/master (3be9d23 = iter414) before work.
+Dedup: grep-verified all 5 new items against full BACKLOG.md + DONE.md — 0 P-item matches for any proposed slug/keyword pattern.
+Items added (5): tel-aviv-purple-line (P2,S,seo-content), evangelical-pilgrimage-israel (P2,M,seo-content), catholic-pilgrimage-israel (P2,M,seo-content), israel-cruise-excursion-planner (P2,M,tools), israel-travel-health (P3,S,seo-content).
+Gate: No code changes — RESEARCH iteration only.
+Next: iter 416 → BUILD (seo-content). Top P2,S candidates: israel-vs-greece (P2,S,ready), galilee-wine-trail (P2,S,ready), tel-aviv-purple-line (P2,S,ready).
