@@ -80,6 +80,10 @@ export default defineConfig({
   },
   integrations: [
     sitemap({
+      i18n: {
+        defaultLocale: 'en',
+        locales: { en: 'en', fr: 'fr', de: 'de' },
+      },
       // Internal modules are noindex; keep them out of the sitemap.
       filter: (page) =>
         !/\/(dashboard|pitch|competitors|content-library|search)(\/|$)/.test(

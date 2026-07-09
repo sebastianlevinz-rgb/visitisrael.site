@@ -503,6 +503,11 @@ const ROUTES = [
   '/de/itineraries/7-days-in-israel',
   '/de/itineraries/10-days-in-israel',
   '/de/itineraries/14-days-in-israel',
+  '/israel-vs-jordan',
+  '/dead-sea-israel-vs-jordan',
+  '/israel-affordable-luxury',
+  '/israel-road-trip',
+  '/backpacking-israel',
 ];
 
 for (const route of ROUTES) {
@@ -541,6 +546,40 @@ test('sitemap carries <lastmod> dates from content updatedAt', async ({ request 
   expect(count).toBeGreaterThan(50);
   // A known guide URL is followed by an ISO lastmod (value not pinned — content drifts).
   expect(body).toMatch(/\/tel-aviv-to-jerusalem\/<\/loc><lastmod>\d{4}-\d{2}-\d{2}T/);
+});
+
+test('sitemap carries xhtml:link hreflang entries for translated pages', async ({ request }) => {
+  const res = await request.get('/sitemap-0.xml');
+  expect(res.status()).toBe(200);
+  const body = await res.text();
+  // The xhtml namespace must be declared in the root element.
+  expect(body).toContain('xmlns:xhtml=');
+  // Hreflang alternate links exist for at least one translated page.
+  const hreflangCount = (body.match(/<xhtml:link/g) || []).length;
+  expect(hreflangCount).toBeGreaterThan(0);
+  // A known trilingual guide has all three locale variants linked.
+  expect(body).toContain('hreflang="fr"');
+  expect(body).toContain('hreflang="de"');
+});
+
+test('localized region sets lang, hreflang alternates, and reciprocates', async ({ page }) => {
+  // French region page
+  await page.goto('/fr/jerusalem');
+  await expect(page.locator('html')).toHaveAttribute('lang', 'fr');
+  await expect(page.locator('link[rel="alternate"][hreflang="en"]')).toHaveAttribute(
+    'href',
+    /\/jerusalem$/
+  );
+  await expect(page.locator('link[rel="alternate"][hreflang="de"]')).toHaveAttribute(
+    'href',
+    /\/de\/jerusalem$/
+  );
+  // English region reciprocates to fr + de
+  await page.goto('/jerusalem');
+  await expect(page.locator('link[rel="alternate"][hreflang="fr"]')).toHaveAttribute(
+    'href',
+    /\/fr\/jerusalem$/
+  );
 });
 
 test('localized home sets <html lang> and reciprocal hreflang', async ({ page }) => {
