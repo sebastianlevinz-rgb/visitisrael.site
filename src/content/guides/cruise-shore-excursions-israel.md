@@ -112,4 +112,6 @@ Bethlehem sits in the Palestinian-controlled West Bank (Area A); licensed guides
 - **Bring cash (₪ or USD)** for taxis at the port, market stalls and some smaller sites.
 - **Weather:** Haifa and Ashdod summers (June–September) are hot and humid (30°C+); spring and autumn are ideal. Pack sun protection year-round.
 
+Not sure which excursion fits your time window? Use our [Israel cruise excursion planner](/israel-cruise-excursion-planner) to get ranked recommendations by port and hours ashore.
+
 Compare the broader day-trip options in our [day trips from Tel Aviv](/day-trips-from-tel-aviv) and [day trips from Jerusalem](/day-trips-from-jerusalem) guides, explore [where to stay](/where-to-stay/tel-aviv) if you're extending your trip, or plan the full itinerary with our [Israel trip planner](/build-your-trip).

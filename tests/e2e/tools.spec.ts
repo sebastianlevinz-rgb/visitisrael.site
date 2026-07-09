@@ -831,3 +831,67 @@ test.describe('Israel effective touring days calculator', () => {
     await expect(link).toBeVisible();
   });
 });
+
+test.describe('Israel cruise excursion planner', () => {
+  test('page renders with port and hours selectors', async ({ page }) => {
+    await page.goto('/israel-cruise-excursion-planner');
+    await expect(page.locator('input[name="port"]')).not.toHaveCount(0);
+    await expect(page.locator('input[name="hours"]')).not.toHaveCount(0);
+    await expect(page.locator('#planner-submit')).toBeVisible();
+    await expect(page.locator('#planner-results')).not.toBeVisible();
+  });
+
+  test('shows error if submitted without selections', async ({ page }) => {
+    await page.goto('/israel-cruise-excursion-planner');
+    await page.locator('#planner-submit').click();
+    await expect(page.locator('#planner-error')).toBeVisible();
+    await expect(page.locator('#planner-results')).not.toBeVisible();
+  });
+
+  test('Haifa + 4h shows excursion results', async ({ page }) => {
+    await page.goto('/israel-cruise-excursion-planner');
+    await page.locator('input[name="port"][value="haifa"]').check();
+    await page.locator('input[name="hours"][value="4h"]').check();
+    await page.locator('#planner-submit').click();
+    await expect(page.locator('#planner-results')).toBeVisible();
+    await expect(page.locator('#results-heading')).toContainText(/Haifa/i);
+    await expect(page.locator('#excursion-list .rounded-card')).not.toHaveCount(0);
+  });
+
+  test('Ashdod + full day shows excursion results with Jerusalem', async ({ page }) => {
+    await page.goto('/israel-cruise-excursion-planner');
+    await page.locator('input[name="port"][value="ashdod"]').check();
+    await page.locator('input[name="hours"][value="full_day"]').check();
+    await page.locator('#planner-submit').click();
+    await expect(page.locator('#planner-results')).toBeVisible();
+    await expect(page.locator('#results-heading')).toContainText(/Ashdod/i);
+    await expect(page.locator('#excursion-list')).toContainText(/Jerusalem/i);
+  });
+
+  test('Eilat + 6h shows excursion results', async ({ page }) => {
+    await page.goto('/israel-cruise-excursion-planner');
+    await page.locator('input[name="port"][value="eilat"]').check();
+    await page.locator('input[name="hours"][value="6h"]').check();
+    await page.locator('#planner-submit').click();
+    await expect(page.locator('#planner-results')).toBeVisible();
+    await expect(page.locator('#results-heading')).toContainText(/Eilat/i);
+  });
+
+  test('reset button hides results and clears selections', async ({ page }) => {
+    await page.goto('/israel-cruise-excursion-planner');
+    await page.locator('input[name="port"][value="haifa"]').check();
+    await page.locator('input[name="hours"][value="8h"]').check();
+    await page.locator('#planner-submit').click();
+    await expect(page.locator('#planner-results')).toBeVisible();
+    await page.locator('#planner-reset').click();
+    await expect(page.locator('#planner-results')).not.toBeVisible();
+    const checked = await page.locator('#planner input[type="radio"]:checked').count();
+    expect(checked).toBe(0);
+  });
+
+  test('cruise shore excursions guide links to planner', async ({ page }) => {
+    await page.goto('/cruise-shore-excursions-israel');
+    const link = page.locator('a[href="/israel-cruise-excursion-planner"]');
+    await expect(link).toBeVisible();
+  });
+});

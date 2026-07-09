@@ -1,0 +1,561 @@
+---
+import BaseLayout from '@/layouts/BaseLayout.astro';
+import Hero from '@/components/Hero.astro';
+import Breadcrumbs from '@/components/Breadcrumbs.astro';
+import JsonLd from '@/components/JsonLd.astro';
+import { breadcrumbList, faqPage } from '@/lib/schema';
+import { affiliateUrl } from '@/config/affiliates';
+
+const title = 'Israel Cruise Excursion Planner — Haifa, Ashdod & Eilat (2026)';
+const description =
+  'Select your cruise port and hours ashore to get ranked shore excursion recommendations for Israel. Covers Haifa, Ashdod and Eilat with drive times and booking links.';
+
+const crumbs = [
+  { name: 'Home', path: '/' },
+  { name: 'Plan your trip', path: '/plan-your-trip' },
+  { name: 'Cruise excursion planner', path: '/israel-cruise-excursion-planner' },
+];
+
+const gygHaifa    = affiliateUrl('getyourguide', { query: 'shore excursion Haifa cruise' });
+const gygAshdod   = affiliateUrl('getyourguide', { query: 'shore excursion Ashdod cruise' });
+const gygEilat    = affiliateUrl('getyourguide', { query: 'Eilat excursion cruise' });
+const viatorJlm   = affiliateUrl('viator', { query: 'Jerusalem from Ashdod shore excursion' });
+const viatorMasada = affiliateUrl('viator', { query: 'Masada Dead Sea cruise excursion Ashdod' });
+const viatorHaifa  = affiliateUrl('viator', { query: 'Haifa cruise port excursion' });
+
+const faqs = [
+  {
+    question: 'Which Israel cruise port is better — Haifa or Ashdod?',
+    answer:
+      'Neither is better in absolute terms — they serve opposite ends of the country. Haifa (north) gives you the Bahá\'í Gardens, Akko and Caesarea within 45 minutes. Ashdod (south) is the gateway to Jerusalem, Jaffa and the Dead Sea. If your itinerary visits both, prioritise Jerusalem from Ashdod and Akko or Caesarea from Haifa.',
+  },
+  {
+    question: 'Can I reach Jerusalem from Ashdod cruise port on my own?',
+    answer:
+      'Yes, but it takes planning. A sherut (shared taxi) to Tel Aviv or Ashdod central, then a train or tour coach to Jerusalem works but is time-consuming. Most cruise passengers use a pre-booked guided excursion or private transfer (roughly $150–250 each way for a car) — this guarantees your return before the ship sails.',
+  },
+  {
+    question: 'Is there a cruise port in Eilat?',
+    answer:
+      'Yes. Eilat has a small cruise pier used by Red Sea itineraries. Time ashore is typically short — 6–8 hours — so stick to local activities: the Underwater Observatory Marine Park (10 min from port), Coral Beach and snorkelling, and Timna Park (45 min). A Wadi Rum day trip to Jordan is feasible on Full Day calls only.',
+  },
+  {
+    question: 'How much time do I need for Jerusalem from Ashdod?',
+    answer:
+      'The drive is 45–60 minutes each way, and a highlights tour of the Old City (Western Wall, Church of the Holy Sepulchre, four quarters) takes 4–5 hours. Budget a minimum of 7 hours ashore and confirm your ship\'s all-aboard time before booking.',
+  },
+  {
+    question: 'Do I need to pre-book shore excursions in Israel?',
+    answer:
+      'Booking in advance is strongly recommended for Jerusalem, Masada and popular Galilee circuits — group tours fill fast in spring (March–May) and autumn (October–November). Port-area sites like the Haifa Bahá\'í Gardens or Akko can be done independently without pre-booking, though a guide adds context.',
+  },
+];
+
+const schema = [breadcrumbList(crumbs), faqPage(faqs)];
+---
+
+<BaseLayout
+  title={title}
+  description={description}
+  path="/israel-cruise-excursion-planner"
+  image="/images/regions/haifa/hero.jpg"
+  imageAlt="Cruise ship docked at Haifa port, Israel, with the Bahá'í Gardens on the hillside behind"
+>
+  <JsonLd schema={schema} slot="head" />
+  <Hero
+    image="/images/regions/haifa/hero.jpg"
+    title="Israel Cruise Excursion Planner"
+    subtitle="Select your port and hours ashore — get ranked excursion picks with drive times and booking links."
+    alt="Haifa cruise port with the Carmel hillside behind"
+  />
+  <Breadcrumbs items={crumbs} />
+
+  <section class="mx-auto max-w-3xl px-4 pt-10">
+    <p class="eyebrow" data-reveal>Interactive Tool</p>
+    <h2 class="font-display text-3xl font-bold text-ink" data-reveal>
+      Find the best excursion for your cruise stop
+    </h2>
+    <p class="mt-2 max-w-2xl text-ink-muted" data-reveal>
+      Choose your port and how many hours you have ashore, then tap <em>Show excursions</em>.
+      Results are ranked by how feasible they are in your time window.
+    </p>
+
+    <form id="planner" class="mt-8 space-y-6" aria-label="Cruise excursion planner" novalidate>
+
+      <!-- Port selector -->
+      <fieldset class="rounded-card border border-border bg-card p-5 shadow-card">
+        <legend class="font-semibold text-ink">
+          Step 1 &nbsp;·&nbsp; Which port is your ship calling at?
+        </legend>
+        <div class="mt-3 space-y-2">
+          {[
+            { value: 'haifa',  label: 'Haifa — northern port (near Akko, Caesarea, Galilee)' },
+            { value: 'ashdod', label: 'Ashdod — southern port (near Jerusalem, Dead Sea, Tel Aviv)' },
+            { value: 'eilat',  label: 'Eilat — Red Sea port (Negev, Underwater Observatory, Wadi Rum)' },
+          ].map((opt) => (
+            <label class="flex cursor-pointer items-center gap-3 rounded-btn border border-transparent px-3 py-2 text-ink hover:border-primary hover:bg-sand has-[:checked]:border-primary has-[:checked]:bg-sand">
+              <input
+                type="radio"
+                name="port"
+                value={opt.value}
+                class="h-4 w-4 accent-primary focus-visible:outline-offset-2"
+              />
+              <span>{opt.label}</span>
+            </label>
+          ))}
+        </div>
+      </fieldset>
+
+      <!-- Hours ashore selector -->
+      <fieldset class="rounded-card border border-border bg-card p-5 shadow-card">
+        <legend class="font-semibold text-ink">
+          Step 2 &nbsp;·&nbsp; How many hours do you have ashore?
+        </legend>
+        <div class="mt-3 flex flex-wrap gap-3">
+          {[
+            { value: '4h',       label: '4 hours' },
+            { value: '6h',       label: '6 hours' },
+            { value: '8h',       label: '8 hours' },
+            { value: 'full_day', label: 'Full day (9h+)' },
+          ].map((opt) => (
+            <label class="flex cursor-pointer items-center gap-2 rounded-btn border border-transparent px-4 py-2 text-ink hover:border-primary hover:bg-sand has-[:checked]:border-primary has-[:checked]:bg-sand">
+              <input
+                type="radio"
+                name="hours"
+                value={opt.value}
+                class="h-4 w-4 accent-primary focus-visible:outline-offset-2"
+              />
+              <span>{opt.label}</span>
+            </label>
+          ))}
+        </div>
+      </fieldset>
+
+      <div id="planner-error" class="hidden rounded-btn bg-red-50 px-4 py-3 text-sm text-red-700" role="alert" aria-live="polite">
+        Please choose a port and time window before continuing.
+      </div>
+
+      <button type="button" id="planner-submit" class="btn btn-primary">
+        Show excursions
+      </button>
+    </form>
+
+    <!-- Results panel -->
+    <div
+      id="planner-results"
+      class="mt-8 hidden"
+      aria-live="polite"
+      aria-atomic="true"
+    >
+      <h2 class="font-display text-2xl font-bold text-ink" id="results-heading"></h2>
+      <p class="mt-1 text-sm text-ink-muted" id="results-subheading"></p>
+      <div id="excursion-list" class="mt-5 space-y-4"></div>
+      <div class="mt-6 rounded-card border border-border bg-sand-deep p-4 text-sm text-ink-muted">
+        <strong>Tip:</strong> Confirm your ship's all-aboard time before booking any independent
+        excursion. Missing the ship's departure is your own liability.
+      </div>
+      <button type="button" id="planner-reset" class="mt-5 text-sm text-ink-muted underline hover:text-ink">
+        Plan a different port
+      </button>
+    </div>
+
+    <!-- Related guides -->
+    <div class="mt-10">
+      <h2 class="font-display text-xl font-bold text-ink">Related guides</h2>
+      <ul class="mt-3 flex flex-wrap gap-2.5">
+        {[
+          { href: '/cruise-shore-excursions-israel', label: 'Israel cruise shore excursions guide' },
+          { href: '/haifa',                           label: 'Haifa travel guide' },
+          { href: '/jerusalem',                       label: 'Jerusalem travel guide' },
+          { href: '/day-trips-from-tel-aviv',         label: 'Day trips from Tel Aviv' },
+          { href: '/build-your-trip',                 label: 'Build your Israel itinerary' },
+          { href: '/israel-travel-time',              label: 'Travel time calculator' },
+          { href: '/holy-sites-dress-code-etiquette', label: 'Dress code at holy sites' },
+        ].map((l) => (
+          <li>
+            <a
+              href={l.href}
+              class="inline-block rounded-full border border-border bg-card px-4 py-2 text-sm font-semibold text-ink no-underline transition-colors hover:border-primary hover:text-primary"
+            >
+              {l.label}
+            </a>
+          </li>
+        ))}
+      </ul>
+    </div>
+  </section>
+
+  <!-- FAQs -->
+  <section class="mx-auto max-w-3xl px-4 pb-4 pt-14">
+    <h2 class="mb-4 font-display text-2xl font-bold text-ink">Frequently asked questions</h2>
+    <div class="space-y-4">
+      {
+        faqs.map((f) => (
+          <details class="rounded-card border border-border bg-card p-4">
+            <summary class="cursor-pointer font-semibold text-ink">{f.question}</summary>
+            <p class="mt-2 text-ink-muted">{f.answer}</p>
+          </details>
+        ))
+      }
+    </div>
+  </section>
+
+  <!-- Bottom CTA -->
+  <section class="mx-auto max-w-3xl px-4 pb-16 pt-6">
+    <div class="rounded-card border border-border bg-sand-deep p-6 text-center shadow-card">
+      <h2 class="font-display text-2xl font-bold text-ink">Ready to book?</h2>
+      <p class="mx-auto mt-2 max-w-xl text-ink-muted">
+        Browse hundreds of guided shore excursions from Haifa and Ashdod — with ship-back
+        guarantees and verified reviews from other cruise passengers.
+      </p>
+      <div class="mt-5 flex flex-wrap justify-center gap-3">
+        <a href={gygHaifa}  target="_blank" rel="noopener noreferrer nofollow" class="btn btn-primary">
+          Browse Haifa excursions
+        </a>
+        <a href={gygAshdod} target="_blank" rel="noopener noreferrer nofollow" class="btn btn-ghost">
+          Browse Ashdod excursions
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <script is:inline define:vars={{ gygHaifa, gygAshdod, gygEilat, viatorJlm, viatorMasada, viatorHaifa }}>
+    (function () {
+      var $ = function (id) { return document.getElementById(id); };
+      function val(name) {
+        var el = document.querySelector('input[name="' + name + '"]:checked');
+        return el ? el.value : null;
+      }
+
+      /* Excursion data per port × hours tier */
+      var DATA = {
+        haifa: {
+          '4h': [
+            {
+              rank: 1,
+              name: "Bahá'í Gardens, Haifa",
+              drive: 'In port · 5–10 min taxi',
+              fit: 'Perfect for 4 h',
+              desc: "A UNESCO-listed terraced garden cascading down Mount Carmel — the most visited site in Israel. Entrance is free (timed slots, book ahead); allow 1–1.5 h. Pair with a stroll through the German Colony below.",
+              links: [{ href: gygHaifa, label: "Book a Haifa gardens tour", ext: true }],
+            },
+            {
+              rank: 2,
+              name: 'Haifa City Walk (German Colony + Wadi Nisnas)',
+              drive: 'In port · 10 min taxi',
+              fit: 'Good for 4 h',
+              desc: 'The German Colony is a tree-lined boulevard of Ottoman-era stone buildings with cafés and restaurants. Neighbouring Wadi Nisnas has murals, a food market and one of Israel\'s best hummus spots. Both walkable from the Bahá\'í Gardens lower entrance.',
+              links: [],
+            },
+          ],
+          '6h': [
+            {
+              rank: 1,
+              name: "Bahá'í Gardens + Old Akko (Acre)",
+              drive: 'Akko: 20 min by train from Haifa HaMifratz station',
+              fit: 'Ideal for 6 h',
+              desc: "Start at the Bahá'í Gardens (1.5 h), then take the train to Akko (20 min). Wander the Crusader tunnels, the Ottoman souk and the sea walls of this UNESCO-listed old city. Return by train; allow 30 min buffer.",
+              links: [
+                { href: gygHaifa,   label: 'Book a Haifa & Akko tour',   ext: true },
+                { href: viatorHaifa, label: 'Browse Haifa excursions on Viator', ext: true },
+              ],
+            },
+            {
+              rank: 2,
+              name: 'Caesarea Maritima',
+              drive: '45 min south by taxi or tour coach',
+              fit: 'Good for 6 h',
+              desc: "Herod the Great's Roman harbour city — a remarkably intact hippodrome, amphitheatre and Crusader fortifications right on the sea. Allow 2–3 h at the site; the drive makes an early start essential.",
+              links: [{ href: gygHaifa, label: 'Caesarea tours from Haifa', ext: true }],
+            },
+          ],
+          '8h': [
+            {
+              rank: 1,
+              name: 'Akko + Caesarea (double-site day)',
+              drive: 'Akko 20 min by train; Caesarea 45 min by car',
+              fit: 'Doable at 8 h',
+              desc: 'Old Akko in the morning (2 h), then a car or shared transfer south to Caesarea (2 h). Two UNESCO-adjacent sites in one day; requires a private transfer or guided combo tour to manage the timing.',
+              links: [{ href: gygHaifa, label: 'Book a Haifa combo tour', ext: true }],
+            },
+            {
+              rank: 2,
+              name: 'Nazareth from Haifa',
+              drive: '1 h by tour coach',
+              fit: 'Fits at 8 h',
+              desc: "The Basilica of the Annunciation — the largest church in the Middle East — anchors Nazareth's old city. The Arab souk and Mary's Well are nearby. An 8 h window gives 3–4 h in Nazareth; guided tours manage the return timing.",
+              links: [{ href: gygHaifa, label: 'Nazareth tours from Haifa', ext: true }],
+            },
+          ],
+          full_day: [
+            {
+              rank: 1,
+              name: 'Galilee Circuit: Nazareth + Sea of Galilee + Tiberias',
+              drive: 'Nazareth 1 h · Sea of Galilee (Tiberias) 1.5 h',
+              fit: 'Full day only',
+              desc: "Israel's north in a single sweep: the Annunciation Basilica in Nazareth, a boat ride on the Sea of Galilee, and Tiberias' lakeside promenade. A guided coach tour makes this feasible — about 5–6 h touring plus 3 h transit.",
+              links: [{ href: gygHaifa, label: 'Galilee day tours from Haifa', ext: true }],
+            },
+            {
+              rank: 2,
+              name: "Akko + Bahá'í Gardens + Caesarea",
+              drive: 'Akko 20 min; Caesarea 45 min south',
+              fit: 'Full day only',
+              desc: 'The three must-sees of the Haifa region in one full-day circuit. Guided tours run this combo and handle all driving; independent travellers need a rental car or taxi for the Caesarea leg.',
+              links: [
+                { href: gygHaifa,    label: 'Full-day Haifa region tours', ext: true },
+                { href: viatorHaifa, label: 'Browse on Viator', ext: true },
+              ],
+            },
+          ],
+        },
+        ashdod: {
+          '4h': [
+            {
+              rank: 1,
+              name: 'Jaffa Old City (Tel Aviv–Yafo)',
+              drive: '25 min north by taxi or sherut',
+              fit: 'Perfect for 4 h',
+              desc: "Ancient port city with a colourful art scene, flea market and stunning sea views. Walk the cobbled lanes, visit the Ottoman clock tower and grab lunch at the harbour. Easy return in time — allow 30 min buffer.",
+              links: [{ href: gygAshdod, label: 'Jaffa tours from Ashdod', ext: true }],
+            },
+            {
+              rank: 2,
+              name: 'Tel Aviv (Carmel Market + Rothschild Blvd)',
+              drive: '30 min north',
+              fit: 'OK for 4 h',
+              desc: "A quick taste of Israel's most cosmopolitan city — the bustling Carmel market, the White City Bauhaus architecture on Rothschild Boulevard and the beachfront promenade. Best done independently; no sites require pre-booking.",
+              links: [],
+            },
+          ],
+          '6h': [
+            {
+              rank: 1,
+              name: 'Jerusalem Old City highlights',
+              drive: '45–60 min by coach or transfer',
+              fit: 'Just fits at 6 h',
+              desc: 'The Western Wall, the Church of the Holy Sepulchre and a walk through the four quarters of the Old City. The drive is 45–60 min each way, leaving roughly 3.5 h in the city — tight but doable with a focused guided tour. Pre-book a guided excursion with a guaranteed ship return.',
+              links: [
+                { href: viatorJlm,  label: 'Jerusalem shore excursion (Viator)', ext: true },
+                { href: gygAshdod,  label: 'Jerusalem tours from Ashdod (GYG)',  ext: true },
+              ],
+            },
+            {
+              rank: 2,
+              name: 'Jaffa + Tel Aviv Promenade',
+              drive: '25–30 min north',
+              fit: 'Ideal for 6 h',
+              desc: 'More relaxed than the Jerusalem push — Jaffa Old City in the morning, then Tel Aviv\'s beach promenade and Carmel Market for lunch. Easily managed without a guide.',
+              links: [{ href: gygAshdod, label: 'Tel Aviv & Jaffa tours', ext: true }],
+            },
+          ],
+          '8h': [
+            {
+              rank: 1,
+              name: 'Jerusalem Old City + Western Wall Tunnel',
+              drive: '45–60 min each way',
+              fit: 'Ideal at 8 h',
+              desc: 'Eight hours gives a proper Jerusalem day: the Old City highlights, the underground Western Wall Tunnel tour (book in advance at the Kotel Heritage Foundation), and the Jewish or Armenian Quarter. A guided shore excursion is strongly recommended for timing and context.',
+              links: [
+                { href: viatorJlm, label: 'Jerusalem full-day excursion (Viator)', ext: true },
+                { href: gygAshdod, label: 'Jerusalem tours from Ashdod (GYG)',     ext: true },
+              ],
+            },
+            {
+              rank: 2,
+              name: 'Masada + Dead Sea float',
+              drive: 'Masada 1.5 h; Dead Sea (Ein Bokek) 1 h',
+              fit: 'Fits at 8 h',
+              desc: "Herod's mountain fortress at sunrise, then a float in the world's saltiest lake. The cable car up Masada takes 3 min; the climb is 30–45 min. Allow 2 h at Masada and 1.5 h at the Dead Sea. A guided coach excursion is the most time-efficient option.",
+              links: [
+                { href: viatorMasada, label: 'Masada & Dead Sea excursion (Viator)', ext: true },
+                { href: gygAshdod,    label: 'Masada tours from Ashdod (GYG)',       ext: true },
+              ],
+            },
+          ],
+          full_day: [
+            {
+              rank: 1,
+              name: 'Jerusalem Old City + Bethlehem',
+              drive: 'Jerusalem 45–60 min; Bethlehem 15 min south of Jerusalem',
+              fit: 'Full day only',
+              desc: "Jerusalem's Old City in the morning, then Bethlehem's Church of the Nativity in the afternoon. Bethlehem is in the Palestinian Authority (Area A) — a licensed guide or organised tour handles the checkpoint. A full day ashore (9h+) is strongly recommended for this combination.",
+              links: [
+                { href: viatorJlm, label: 'Jerusalem & Bethlehem excursion (Viator)', ext: true },
+                { href: gygAshdod, label: 'Jerusalem + Bethlehem tour (GYG)',         ext: true },
+              ],
+            },
+            {
+              rank: 2,
+              name: 'Masada + Dead Sea + Jericho',
+              drive: 'Masada 1.5 h; Dead Sea 1 h; Jericho 45 min from Jerusalem',
+              fit: 'Full day only',
+              desc: "Herod's mountain fortress, the lowest point on Earth and the world's oldest continuously inhabited city — three superlatives in one long day. Requires a guided tour with driver for practical route management. Best in cooler months (October–April) to avoid Masada heat.",
+              links: [
+                { href: viatorMasada, label: 'Masada & Dead Sea tour (Viator)', ext: true },
+                { href: gygAshdod,    label: 'Negev & Dead Sea tours (GYG)',    ext: true },
+              ],
+            },
+          ],
+        },
+        eilat: {
+          '4h': [
+            {
+              rank: 1,
+              name: 'Underwater Observatory Marine Park',
+              drive: '10 min south of city centre',
+              fit: 'Perfect for 4 h',
+              desc: "Israel's leading marine attraction — an underwater observatory 4 m below the Red Sea surface with live coral and tropical fish, plus an oceanarium and shark pool above water. Ticket ~₪119/adult. No pre-booking required but advisable in peak season.",
+              links: [{ href: gygEilat, label: 'Eilat excursions (GYG)', ext: true }],
+            },
+            {
+              rank: 2,
+              name: 'Coral Beach Snorkelling (Nature Reserve)',
+              drive: '10 min south',
+              fit: 'Good for 4 h',
+              desc: "Israel's best snorkelling directly from shore — healthy Red Sea coral reef accessible by entering from the beach. Equipment rental available at the site. Entry ~₪35/adult. Bring sun protection; the reef is shallowest 09:00–12:00.",
+              links: [],
+            },
+          ],
+          '6h': [
+            {
+              rank: 1,
+              name: 'Underwater Observatory + Red Sea Snorkelling',
+              drive: 'Both within 10–15 min of port',
+              fit: 'Ideal for 6 h',
+              desc: 'Combine the Observatory (2–2.5 h) with a snorkel session at Coral Beach Nature Reserve (1.5 h). Both sit on the same southern promenade; a short taxi links them. No guide needed.',
+              links: [{ href: gygEilat, label: 'Eilat snorkelling & diving tours', ext: true }],
+            },
+            {
+              rank: 2,
+              name: 'Timna Park (Valley of the Moon)',
+              drive: '25 min north on Route 90',
+              fit: 'Fits at 6 h',
+              desc: "Sandstone arches, ancient copper mines and the famous Mushroom Rock in a lunar landscape. The Solomon's Pillars formation is the highlight. Entry ~₪60/adult. Best at sunrise/morning before heat peaks.",
+              links: [{ href: gygEilat, label: 'Timna Park tours from Eilat', ext: true }],
+            },
+          ],
+          '8h': [
+            {
+              rank: 1,
+              name: 'Timna Park + Underwater Observatory',
+              drive: 'Timna 25 min north; Observatory 10 min south',
+              fit: 'Good at 8 h',
+              desc: 'Timna in the morning cool (arrive by 08:30; allow 2.5–3 h) then head back through Eilat to the Underwater Observatory for an afternoon session. A rental car or taxi makes this double-site day easy.',
+              links: [{ href: gygEilat, label: 'Eilat day tours', ext: true }],
+            },
+            {
+              rank: 2,
+              name: 'Hai-Bar Yotvata Nature Reserve + Timna',
+              drive: 'Hai-Bar 35 min north; Timna adjacent',
+              fit: 'Fits at 8 h',
+              desc: "Israel's breeding reserve for endangered species (onager, oryx, ostrich — a safari-style drive through the Arava desert). Pair with Timna Park on the same northern Route 90 corridor. Requires a car.",
+              links: [],
+            },
+          ],
+          full_day: [
+            {
+              rank: 1,
+              name: 'Wadi Rum Day Trip (Jordan)',
+              drive: 'Aqaba/Wadi Rum: 1.5 h via Arava/Yitzhak Rabin crossing',
+              fit: 'Full day only — check visa requirements',
+              desc: "Jordan's red-sand desert valley — pillars, canyons and Bedouin camps. Cross into Jordan at the Yitzhak Rabin/Wadi Araba crossing (bring passport; Jordanian visa on arrival for most nationalities; Israeli stamp is given on a separate slip on request). A guided tour manages logistics. Depart by 07:00; return by 18:00.",
+              links: [{ href: gygEilat, label: 'Wadi Rum day trips from Eilat', ext: true }],
+            },
+            {
+              rank: 2,
+              name: 'Timna Park + Coral Beach + Underwater Observatory',
+              drive: 'All within 35 min of Eilat port',
+              fit: 'Comfortable full-day circuit',
+              desc: "Eilat's top three without crossing into Jordan. Start at Timna early (08:00–11:00), lunch in Eilat, snorkel at Coral Beach (12:30–14:30), finish at the Underwater Observatory (15:00–17:00). No guide needed; a car or two taxis covers it.",
+              links: [{ href: gygEilat, label: 'Eilat full-day tours', ext: true }],
+            },
+          ],
+        },
+      };
+
+      var HEADING = {
+        haifa:  'Haifa port excursions',
+        ashdod: 'Ashdod port excursions',
+        eilat:  'Eilat port excursions',
+      };
+      var SUBHEADING = {
+        '4h':       'Showing options feasible within 4 hours ashore',
+        '6h':       'Showing options feasible within 6 hours ashore',
+        '8h':       'Showing options feasible within 8 hours ashore',
+        full_day:   'Showing full-day options (9+ hours ashore)',
+      };
+      var FIT_COLOR = {
+        'Perfect for 4 h':    'bg-green-50 text-green-800 border-green-200',
+        'Good for 4 h':       'bg-green-50 text-green-800 border-green-200',
+        'Ideal for 6 h':      'bg-green-50 text-green-800 border-green-200',
+        'Good for 6 h':       'bg-green-50 text-green-800 border-green-200',
+        'Just fits at 6 h':   'bg-amber-50 text-amber-800 border-amber-200',
+        'Ideal at 8 h':       'bg-green-50 text-green-800 border-green-200',
+        'Doable at 8 h':      'bg-amber-50 text-amber-800 border-amber-200',
+        'Fits at 8 h':        'bg-green-50 text-green-800 border-green-200',
+        'Good at 8 h':        'bg-green-50 text-green-800 border-green-200',
+        'Full day only':      'bg-blue-50 text-blue-800 border-blue-200',
+        'Full day only — check visa requirements': 'bg-blue-50 text-blue-800 border-blue-200',
+        'Comfortable full-day circuit': 'bg-green-50 text-green-800 border-green-200',
+        'OK for 4 h':         'bg-amber-50 text-amber-800 border-amber-200',
+      };
+
+      $('planner-submit').addEventListener('click', function () {
+        var port  = val('port');
+        var hours = val('hours');
+        if (!port || !hours) {
+          $('planner-error').classList.remove('hidden');
+          return;
+        }
+        $('planner-error').classList.add('hidden');
+
+        var excursions = DATA[port][hours] || [];
+        $('results-heading').textContent   = HEADING[port] || '';
+        $('results-subheading').textContent = SUBHEADING[hours] || '';
+
+        var list = $('excursion-list');
+        list.innerHTML = '';
+        excursions.forEach(function (ex, idx) {
+          var card = document.createElement('div');
+          card.className = 'rounded-card border border-border bg-card p-5 shadow-card';
+
+          var badge = FIT_COLOR[ex.fit] || 'bg-sand text-ink border-border';
+
+          var linksHtml = '';
+          ex.links.forEach(function (l) {
+            linksHtml += '<a href="' + l.href + '" class="btn btn-ghost text-sm"' +
+              (l.ext ? ' target="_blank" rel="noopener noreferrer nofollow"' : '') +
+              '>' + l.label + '</a>';
+          });
+
+          card.innerHTML =
+            '<div class="flex flex-wrap items-start justify-between gap-2">' +
+              '<h3 class="font-display text-lg font-bold text-ink">' +
+                (idx === 0 ? '<span class="mr-2 text-primary">#1 pick</span>' : '<span class="mr-2 text-ink-muted">#2</span>') +
+                ex.name +
+              '</h3>' +
+              '<span class="rounded-full border px-2.5 py-0.5 text-xs font-semibold ' + badge + '">' + ex.fit + '</span>' +
+            '</div>' +
+            '<p class="mt-1 text-sm font-medium text-ink-muted">' + ex.drive + '</p>' +
+            '<p class="mt-2 text-ink-muted">' + ex.desc + '</p>' +
+            (linksHtml ? '<div class="mt-4 flex flex-wrap gap-2">' + linksHtml + '</div>' : '');
+
+          list.appendChild(card);
+        });
+
+        var res = $('planner-results');
+        res.classList.remove('hidden');
+        res.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+      });
+
+      $('planner-reset').addEventListener('click', function () {
+        document.querySelectorAll('#planner input[type="radio"]').forEach(function (el) {
+          el.checked = false;
+        });
+        $('planner-results').classList.add('hidden');
+        $('planner').scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+      });
+    })();
+  </script>
+</BaseLayout>
