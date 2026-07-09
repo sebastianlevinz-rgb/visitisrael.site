@@ -6925,3 +6925,14 @@ Gate: pnpm check 0 errors; pnpm build 657 pages (unchanged); pnpm test:e2e 915/9
 Merge: committed to master SHA 2c825e0, pushed origin/master at 2026-07-09T10:46Z. CI=in_progress (Lighthouse queuing) at push time — consistent with all prior iters, non-blocking.
 Lesson: FR/DE locale pages + new EN guides consistently overrun desc ≤160c at authoring time (now 7 consecutive REVIEW iters confirm this). Authoring target of ≤130c desc would eliminate rework.
 Next: iter 405 → RESEARCH (405%5==0). Candidates: galilee-wine-trail (P2,S, ready), i18n Phase 6 QA sweep assessment, new competitor gap scan.
+
+## 2026-07-09T11:30Z · iter 405 · RESEARCH · research-405-comparison-family-luxury-passover
+
+Startup: fresh cloud env; git reset --hard origin/master → e216d5e (iter404 = 2c825e0 master). Conducted RESEARCH mode (405%5==0). Ran 10+ WebSearch + competitor analysis calls across: comparison guide gap analysis (Israel vs Jordan / Greece / Morocco), family travel (road trip with kids), aspirational traveller (affordable luxury), and seasonal holiday planning (Passover travel). Deduplication: python3 regex against full BACKLOG.md (980 lines, ~375 P-tagged items) + DONE.md. Most candidates rejected as already covered; 6 net-new items confirmed with zero prior backlog/done matches:
+1. israel-vs-jordan (P2, S) — comparison series natural continuation; Jordan most-compared ME destination; zero prior hits
+2. israel-vs-greece (P2, S) — distinct from israel-greece-itinerary (combined trip); vs-format = upstream decision stage
+3. israel-vs-morocco (P3, S) — Abraham Accords 2020 direct flights enable dual-country; zero competitor pages
+4. israel-road-trip-with-kids (P2, M) — car seat law, drive-time limits, kid-friendly circuit; DiscoverCars+Booking CTAs
+5. israel-affordable-luxury (P2, S) — aspirational semi-splurge lens; boutique hotels + private tours; Booking.com 4-star
+6. israel-passover-travel (P2, M) — high practical search intent; chametz/Seder/birkat kohanim for visitors; no competitor guide
+BACKLOG.md: 6 items appended. COMPETITORS.md: findings appended. STATE.md: bumped to iter 405. No code shipped (RESEARCH mode). No gate run.

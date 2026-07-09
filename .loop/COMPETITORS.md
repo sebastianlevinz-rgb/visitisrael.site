@@ -4177,3 +4177,36 @@ Research focus: Seasonal guide gaps, event/sports tourism, comparison guide oppo
 
 **Pattern after 80 research iterations:**
 Major English-language Israel travel editorial competitors (Lonely Planet, Rough Guides, Tourist Israel) remain largely static since late 2023. New gaps now require niche-angle pivots: (a) activity-specific guides that split from broader existing guides (snorkelling ≠ diving; wine trail ≠ wine hub); (b) events/sports tourism with specific logistics that general events-festivals.md doesn't provide; (c) comparison guides extending the proven israel-vs-turkey format; (d) neighbourhood nightlife scenes that visitors miss due to destination's religious identity overshadowing its secular culture. Backlog is now very comprehensive at ~200 ready items; future research returns will continue to diminish.
+
+## iter405 competitor research (2026-07-09)
+
+**Israel vs Jordan comparison:**
+- traveldrafts.com ranks for "Israel vs Jordan which country should you visit" — structured comparison format with traveller-type decision matrix; our israel-vs-turkey.md (SHIPPED) and israel-vs-egypt.md (SHIPPED) use same format profitably
+- stepintojordan.com/israel-vs-jordan — concise 8-criteria table; Jordan wins on cost; Israel wins on breadth
+- TripAdvisor forum "Israel or Jordan?" heavily trafficked; no major editorial travel brand has a definitive standalone guide
+
+**Israel vs Greece comparison:**
+- wanderlust.co.uk brief "Mediterranean showdown" piece — not comprehensive; major gap in editorial guidance
+- nomadpaul.com/israel-vs-greece — informal blog; no authoritative competitor on this comparison
+- El Al, EasyJet, Ryanair TLV–ATH routes 3h ₪200–600 — makes dual-country trips very practical; growing search volume for "Israel and Greece vacation"
+
+**Israel vs Morocco comparison:**
+- Zero dedicated Israel vs Morocco comparison pages found on any major English travel brand — first-mover opportunity
+- Abraham Accords 2020 normalized Israel-Morocco relations; Royal Air Maroc and El Al now fly TLV-CMN directly — practical dual-country trip newly feasible
+- Competition for "exotic Mediterranean + desert + history" audience: both countries target similar European/North American travellers
+
+**Family road trip gap:**
+- familiesfortravel.com.au/israel-with-kids-road-trip — covers logistics but not car seat law or drive-time limits for toddlers
+- thetickettotravel.com/israel-road-trip-with-kids — brief; lacks affiliate monetization angle
+- DiscoverCars.com Israel child seat page confirms high search volume for "car rental israel child seat" but zero editorial companion page on travel sites
+
+**Affordable luxury gap:**
+- luxurytraveldiaries.com/israel-luxury-on-budget — exists but lacks local insight and specific price-range honesty
+- secrettelaviv.com — excellent local boutique hotel coverage; could be competitor for TLV-specific content; no national "affordable luxury framework" page
+- Beresheet Hotel Mitzpe Ramon and Daroma Hotel are the top-converting mid-luxury-to-high-luxury properties in Israel based on Booking.com reviews-to-price ratio
+
+**Israel Passover travel gap:**
+- goisrael.com/passover — official tourism board; basic information only; no practical tourist guide
+- itraveljerusalem.com/passover-israel — Jerusalem-focused; no national scope
+- chabad.org/passover — excellent for Seder finder; not a travel guide
+- No major English travel brand (LP, RG, Timeout) has a comprehensive Passover visitor guide; very high undecided-traveller search intent in March–April annually
