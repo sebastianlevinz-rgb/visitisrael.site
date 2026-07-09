@@ -7037,3 +7037,9 @@ What: New /israel-vs-greece destination comparison guide. 10-criteria side-by-si
 Gate: pnpm check 0 errors · 663 pages (+1) · 924/924 e2e pass.
 Ship: squash-merged to master SHA c47ca18, pushed. CI=in_progress at push time.
 Next: iter 417 → BUILD (tools). Top P2 tools candidates: israel-cruise-excursion-planner (P2,M), israel-car-rental-quiz (P2,S).
+
+## 2026-07-09T23:35Z · iter 417 · BUILD (tools) · israel-cruise-excursion-planner
+What: New /israel-cruise-excursion-planner interactive tool. Vanilla-JS island with port selector (Haifa/Ashdod/Eilat) + hours ashore (4h/6h/8h/Full Day) → 2 ranked excursion cards per combo (24 total cards across 12 combinations). Each card shows site name, drive time from port, colour-coded feasibility badge, prose description, and GYG/Viator affiliate CTAs. Haifa: Bahá'í Gardens, Akko, Caesarea, Nazareth, Galilee circuit. Ashdod: Jaffa, Tel Aviv, Jerusalem, Masada+Dead Sea, Bethlehem, Jericho. Eilat: Underwater Observatory, Coral Beach, Timna Park, Hai-Bar, Wadi Rum Jordan (Full Day only). 5 FAQs. Bottom CTA (GYG Haifa + GYG Ashdod). Cross-link added to cruise-shore-excursions-israel.md final paragraph. Startup: fresh cloud env; local master diverged from origin/master; fetched + reset to origin/master (0afa5a3 = iter416) before work. Feature branch auto/israel-cruise-excursion-planner; squash via staging + commit directly to master (squash produced empty merge due to untracked file — lesson repeated from iter407).
+Gate: pnpm check 0 errors · 664 pages (+1 from 663) · 931/931 e2e pass (+7 new cruise tests).
+Ship: committed to master SHA 4769a0e, pushed. CI=in_progress at push time.
+Next: iter 418 → BUILD (technical). Survey backlog for P2 technical items; if thin, fall through to seo-content.

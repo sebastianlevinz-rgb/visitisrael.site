@@ -1,12 +1,12 @@
 # LOOP STATE
 
-- iteration: 416
+- iteration: 417
 - lastMode: BUILD
-- lastItem: israel-vs-greece
-- lastResult: BUILD (seo-content) — /israel-vs-greece destination comparison guide shipped. 10-criteria side-by-side table, decision matrix by traveller type, history/beaches/food/costs/nightlife/safety/visas/getting-there sections, who-should-visit each, combining-both angle, 5 FAQs, 3 affiliate CTAs (GYG Israel tours + Skyscanner flights + Booking.com hotels). Dense cross-links to israel-vs-turkey, israel-vs-egypt, israel-vs-jordan, israel-vs-cyprus, dead-sea-guide, tel-aviv-nightlife, eilat-snorkeling-guide. pnpm check 0 errors · 663 pages · 924/924 e2e pass. SHA c47ca18. CI=in_progress at push time.
-- nextRotationCategory: 417%5==2 → BUILD (tools). Top P2 tools candidates: israel-cruise-excursion-planner (P2,M), israel-car-rental-quiz (P2,S).
+- lastItem: israel-cruise-excursion-planner
+- lastResult: BUILD (tools) — /israel-cruise-excursion-planner interactive tool shipped. Vanilla-JS island: port selector (Haifa/Ashdod/Eilat) + hours ashore (4h/6h/8h/Full Day) → 2 ranked excursion cards per combo (24 total cards across 12 port×time combos). Each card: site name, drive time, feasibility badge (colour-coded), description, GYG/Viator affiliate CTAs. Logic: 4h=port-area only; 6h=1 regional site; 8h=1 distant/2 regional; Full Day=multi-site combos+Wadi Rum Jordan. 5 FAQs, bottom CTA row (GYG Haifa + GYG Ashdod). Cross-link added to cruise-shore-excursions-israel.md final paragraph. 7 new Playwright tests in tools.spec.ts (port/hours renders, error state, Haifa 4h, Ashdod full_day, Eilat 6h, reset flow, cross-link). pnpm check 0 errors · 664 pages (+1) · 931/931 e2e pass (+7). SHA 4769a0e. CI=in_progress at push time.
+- nextRotationCategory: 418%5==3 → BUILD (technical). Top P2 technical candidates: survey backlog; if thin, fall through to seo-content.
 - higgsfieldSpent: 0
-- updatedAt: 2026-07-09T22:45Z
+- updatedAt: 2026-07-09T23:35Z
 - branch context: work on master; feature work on auto/<slug>
 
 Notes: iter 412 BUILD (monetization) — /bethlehem-tours-compared shipped. Decision-stage comparison of tour formats: half-day Nativity, full-day in-depth, Bethlehem+Jericho, dual-narrative West Bank, self-guided bus. 7 FAQs, 3 affiliate CTAs (GYG+Viator+Abraham). pnpm check 0 errors · 661 pages · 922/922 e2e pass. SHA 25434f1. CI=in_progress at push time.
