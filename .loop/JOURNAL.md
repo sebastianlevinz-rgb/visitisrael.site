@@ -6997,3 +6997,11 @@ Next: iter 410 → RESEARCH (410%5==0). Candidates: galilee-wine-trail (P2,S,rea
 **Gate:** No code changes made — RESEARCH iteration; only .loop/ state files updated.
 
 **Result:** 6 new items appended to BACKLOG.md. BACKLOG now 1007 lines. All items confirmed gap-free by dedup. Next: iter 411 → BUILD (seo-content). Top P2,S seo-content candidates: israel-vs-cyprus (P2,S,ready), israel-vs-greece (P2,S,ready), galilee-wine-trail (P2,S,ready).
+
+## 2026-07-09T17:50Z · iter 411 · BUILD (seo-content) · israel-vs-cyprus
+
+What: New /israel-vs-cyprus destination comparison guide (P2,S). Side-by-side 11-criteria table, traveller-type decision matrix, sections on history/culture, beaches, food, costs, nightlife, safety, visas and getting there. Five FAQs. Three affiliate CTAs (GYG Israel tours, Skyscanner, Booking.com). Dense cross-links to vs-jordan, vs-egypt, vs-turkey, is-israel-safe, tel-aviv-nightlife, dead-sea-guide, eilat-snorkeling-guide.
+Gate: pnpm check 0 errors · 660 pages (+1 from 659) · 922/922 e2e+a11y pass.
+Merge SHA: 3f78882. Branch: auto/israel-vs-cyprus squash-merged → master.
+Startup: fresh cloud env; local master diverged from origin/master (was at iter360s); hard-reset to origin/master (95843e6 = iter410) before work.
+Next: iter 412 → BUILD (monetization). Top candidates: best-hotels-jerusalem (P2,M), dead-sea-medical-tourism (P2,M), sea-of-galilee-guide (P2,M).

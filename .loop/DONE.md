@@ -793,3 +793,6 @@ SHA 65fe11c
 - i18n phases 0–6 all COMPLETE
 - 659 pages. 922/922 e2e pass.
 SHA 0d19743
+
+## iter 411 (2026-07-09)
+- [iter411] /israel-vs-cyprus — Israel vs Cyprus destination comparison guide (P2,S seo-content); 11-criteria side-by-side table, traveller decision matrix, 5 FAQs, 3 affiliate CTAs (GYG+Skyscanner+Booking.com), cross-links to full comparison series → 3f78882

@@ -1,12 +1,12 @@
 # LOOP STATE
 
-- iteration: 410
-- lastMode: RESEARCH
-- lastItem: research-410-comparison-extensions-niche-activities
-- lastResult: RESEARCH — 6 new items appended to BACKLOG.md (1007 lines). All confirmed 0-hit dedup against full BACKLOG+DONE. Items: israel-vs-cyprus (P2,S), israel-vs-dubai (P3,S), sea-kayaking-israel (P3,S), eilat-shopping-guide (P3,S), israel-vs-spain (P3,S), israel-vs-italy (P3,S). No code changes — .loop/ state only.
-- nextRotationCategory: 411%5==1 → BUILD (seo-content). 412%5==2 → BUILD (monetization). 413%5==3 → BUILD (tools/i18n). 414%5==4 → REVIEW.
+- iteration: 411
+- lastMode: BUILD
+- lastItem: seo-content-411-israel-vs-cyprus
+- lastResult: BUILD (seo-content) — /israel-vs-cyprus shipped. 11-criteria table, decision matrix, 5 FAQs, 3 affiliate CTAs (GYG+Skyscanner+Booking). pnpm check 0 errors · 660 pages · 922/922 e2e pass. SHA 3f78882.
+- nextRotationCategory: 412%5==2 → BUILD (monetization). 413%5==3 → BUILD (tools/i18n). 414%5==4 → REVIEW. 415%5==0 → RESEARCH.
 - higgsfieldSpent: 0
-- updatedAt: 2026-07-09T16:10Z
+- updatedAt: 2026-07-09T17:50Z
 - branch context: work on master; feature work on auto/<slug>
 
 Notes: iter 410 RESEARCH — research-410-comparison-extensions-niche-activities. Startup: fresh cloud env; hard-reset to origin/master (f701a36 = iter409). Ran dedup scans for 20+ candidate topics; confirmed 6 genuine new gaps. Added to BACKLOG.md: israel-vs-cyprus (P2,S), israel-vs-dubai (P3,S), sea-kayaking-israel (P3,S), eilat-shopping-guide (P3,S), israel-vs-spain (P3,S), israel-vs-italy (P3,S). All 0 P-item hits in combined BACKLOG+DONE. Rejected candidates already covered: vs-greece (P2,backlog), vs-morocco (P3,backlog), golf-guide (P3,backlog), israel-cyprus-trip-guide (P3,backlog,combination not comparison), shopping-in-israel (SHIPPED iter276), cycling+IBT (SHIPPED iter238), adventure-sports (SHIPPED). BACKLOG now 1007 lines. No code changes. Next: iter 411 → BUILD (seo-content). Top P2,S candidates: israel-vs-cyprus (P2,S,ready), israel-vs-greece (P2,S,ready), galilee-wine-trail (P2,S,ready).
