@@ -158,4 +158,4 @@ Most travellers with 10–14 days are better served by focusing on one country a
 
 ---
 
-More: [First time in Israel](/first-time-in-israel) · [Best time to visit Israel](/best-time-to-visit-israel) · [Israel costs and budget guide](/israel-cost-budget) · [Is Israel safe?](/is-israel-safe) · [Israel visa information](/visa-information) · [Israel–Jordan itinerary](/israel-jordan-itinerary) · [Eilat snorkeling guide](/eilat-snorkeling-guide) · [Best beaches in Israel](/best-beaches-israel) · [Tel Aviv vs Jerusalem](/tel-aviv-vs-jerusalem)
+More: [First time in Israel](/first-time-in-israel) · [Best time to visit Israel](/best-time-to-visit-israel) · [Israel costs and budget guide](/israel-cost-budget) · [Is Israel safe?](/is-israel-safe) · [Israel visa information](/visa-information) · [Israel–Jordan itinerary](/israel-jordan-itinerary) · [Israel vs Jordan](/israel-vs-jordan) · [Israel vs Turkey](/israel-vs-turkey) · [Eilat snorkeling guide](/eilat-snorkeling-guide) · [Best beaches in Israel](/best-beaches-israel) · [Tel Aviv vs Jerusalem](/tel-aviv-vs-jerusalem)
