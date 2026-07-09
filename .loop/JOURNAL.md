@@ -7031,3 +7031,9 @@ Dedup: grep-verified all 5 new items against full BACKLOG.md + DONE.md — 0 P-i
 Items added (5): tel-aviv-purple-line (P2,S,seo-content), evangelical-pilgrimage-israel (P2,M,seo-content), catholic-pilgrimage-israel (P2,M,seo-content), israel-cruise-excursion-planner (P2,M,tools), israel-travel-health (P3,S,seo-content).
 Gate: No code changes — RESEARCH iteration only.
 Next: iter 416 → BUILD (seo-content). Top P2,S candidates: israel-vs-greece (P2,S,ready), galilee-wine-trail (P2,S,ready), tel-aviv-purple-line (P2,S,ready).
+
+## 2026-07-09T22:45Z · iter 416 · BUILD (seo-content) · israel-vs-greece
+What: New /israel-vs-greece destination comparison guide. 10-criteria side-by-side table (history, beaches, food, costs, nightlife, safety, visas, getting there, best season, unique drawcard). Decision matrix by traveller type (who should visit each). Dedicated sections for history & culture, beaches, food, costs, nightlife, safety, visas, getting there, plus combining-both itinerary note. 5 FAQs covering cost, safety, visa, beaches, and combining both. 3 affiliate CTAs (GYG Israel tours, Skyscanner flights, Booking.com hotels). Dense cross-links: israel-vs-turkey, israel-vs-egypt, israel-vs-jordan, israel-vs-cyprus, dead-sea-guide, tel-aviv-nightlife, eilat-snorkeling-guide, first-time-in-israel, is-israel-safe, israel-cost-budget. Startup: fresh cloud env; local master diverged; fetched+reset to origin/master (f51b82d = iter415) before work.
+Gate: pnpm check 0 errors · 663 pages (+1) · 924/924 e2e pass.
+Ship: squash-merged to master SHA c47ca18, pushed. CI=in_progress at push time.
+Next: iter 417 → BUILD (tools). Top P2 tools candidates: israel-cruise-excursion-planner (P2,M), israel-car-rental-quiz (P2,S).

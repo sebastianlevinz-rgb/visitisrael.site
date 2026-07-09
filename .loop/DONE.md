@@ -802,3 +802,5 @@ SHA 0d19743
 
 ## iter 413 (2026-07-09)
 - [iter413] /israel-car-rental-comparison — Israel car rental company comparison guide (P2,S monetization); comparison of Eldan/Hertz/Avis/Sixt/Budget/Europcar + aggregators (DiscoverCars, Rentalcars); 6-column table, company profiles, Israel-specific tips (airport surcharge, no debit card, Shabbat closures, West Bank prohibition, GPS/Waze); 2 affiliate CTAs; cross-linked from /car-rental-israel + /israel-car-rental-quiz → d92e0d7
+
+- [iter416 · c47ca18] /israel-vs-greece — Israel vs Greece destination comparison: 10-criteria table, decision matrix, history/beaches/food/costs/nightlife/safety/visas sections, 5 FAQs, 3 affiliate CTAs. Continues comparison series (turkey/egypt/jordan/cyprus). 924/924 e2e pass.
