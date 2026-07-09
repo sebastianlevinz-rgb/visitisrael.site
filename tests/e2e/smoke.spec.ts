@@ -339,6 +339,7 @@ const ROUTES = [
   '/red-canyon-eilat',
   '/museum-of-tolerance-jerusalem',
   '/northern-israel-road-trip',
+  '/eilat-snorkeling-guide',
   '/fr/jerusalem',
   '/fr/tel-aviv',
   '/fr/dead-sea',

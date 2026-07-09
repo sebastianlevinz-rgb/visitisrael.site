@@ -90,3 +90,5 @@ Eilat sits at the far southern tip of the country, around a 4–5 hour drive fro
 If not everyone in your party dives, Eilat keeps non-divers busy. The [Underwater Observatory](/eilat/underwater-observatory) marine park lets you see the reef and its sharks and rays without getting wet; the [Dolphin Reef](/eilat/dolphin-reef) offers encounters with a resident pod; and glass-bottom boats cruise the coral. Inland, [Timna Park](/eilat/timna-park) and the [Red Canyon](/eilat/red-canyon) deliver dramatic desert hiking a short drive away. It's easy to balance underwater days with desert days for a varied southern leg of your trip.
 
 Eilat's reef is the easiest world-class diving and snorkeling you'll find anywhere in Israel. Build it into your trip with the [Eilat region guide](/eilat) and our [first-time in Israel](/first-time-in-israel) and [itineraries](/itineraries) pages.
+
+Not a diver? See the dedicated [Eilat snorkeling guide](/eilat-snorkeling-guide) for everything you need to experience the reef at the surface — no tank, no certification, no experience required.
