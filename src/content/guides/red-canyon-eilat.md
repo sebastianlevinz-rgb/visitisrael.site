@@ -1,6 +1,6 @@
 ---
 title: 'Red Canyon Eilat: Slot Canyon Hike Guide (2026)'
-description: 'Red Canyon Eilat visitor guide: free slot canyon hike in the Eilat Mountains — trail description, flash flood safety, best season, how to get there by bus or car.'
+description: 'Red Canyon Eilat: free slot canyon hike in the Eilat Mountains — trail, flash flood safety, best season and how to get there.'
 heroImage: /images/sub-destinations/eilat/red-canyon.jpg
 category: Outdoor
 updatedAt: 2026-07-07

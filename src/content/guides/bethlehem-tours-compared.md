@@ -1,6 +1,6 @@
 ---
 title: 'Bethlehem Tours Compared: Half-Day, Full-Day & Jericho (2026)'
-description: 'Bethlehem tours compared: half-day Nativity, full-day with Jerusalem, Bethlehem plus Jericho, dual-narrative West Bank and self-guided — which tour format suits you.'
+description: 'Bethlehem tours compared: half-day Nativity, full-day, Bethlehem plus Jericho, dual-narrative West Bank and self-guided — which format suits you?'
 heroImage: /images/west-bank/bethlehem/church-of-the-nativity.jpg
 category: Tours
 verdictName: Bethlehem tours
