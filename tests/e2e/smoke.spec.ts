@@ -338,6 +338,7 @@ const ROUTES = [
   '/bedouin-experience-israel',
   '/red-canyon-eilat',
   '/museum-of-tolerance-jerusalem',
+  '/northern-israel-road-trip',
   '/fr/jerusalem',
   '/fr/tel-aviv',
   '/fr/dead-sea',

@@ -43,6 +43,8 @@ faqs:
 
 A self-drive road trip is the most rewarding way to see Israel's full range — from Mediterranean ruins and northern wine country to the Jordan Valley, the Dead Sea and the Negev desert. Public transport covers the cities well, but the Galilee, Golan Heights and Negev only reveal themselves at the wheel. This itinerary traces a seven-day clockwise loop of roughly 850 km, designed to minimise backtracking and put the most dramatic scenery at the end.
 
+**Short on time?** If you only have 3–4 days and want to focus on the Galilee and Golan, the [Northern Israel road trip guide](/northern-israel-road-trip) covers that tighter circuit in detail. This 7-day guide continues south from the Galilee into the Jordan Valley, Dead Sea and Negev.
+
 Before you go: compare car prices and check pick-up timing at [car-rental-israel](/car-rental-israel). If you're unsure whether a car is worth it for your specific itinerary, the [Should I rent a car in Israel? quiz](/israel-car-rental-quiz) gives a personalised answer in under a minute. For road rules, fuel, parking and tolls, the [driving in Israel guide](/driving-in-israel) covers everything.
 
 ---

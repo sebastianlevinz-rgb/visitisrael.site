@@ -206,6 +206,7 @@ const ROUTES = [
   '/jerusalem-mount-zion-guide',
   '/bedouin-experience-israel',
   '/red-canyon-eilat',
+  '/northern-israel-road-trip',
   '/fr/jerusalem',
   '/fr/tel-aviv',
   '/fr/dead-sea',
