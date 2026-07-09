@@ -1,13 +1,15 @@
 # LOOP STATE
 
-- iteration: 398
-- lastMode: BUILD (tools/i18n) (398%5==3)
-- lastItem: i18n-phase4-batch12-negev
-- lastResult: BUILD i18n — Phase 4 Batch 12 Negev FR+DE shipped. 10 locale files (5 FR + 5 DE): negev/avdat, bedouin-hospitality, ein-avdat, mitzpe-ramon, sde-boker. YAML German-quote bug fixed in 2 DE files. +10 smoke + +10 a11y routes. 641 pages (+10). 895/895 e2e+a11y pass. CI=in_progress at push time (SHA 4d6d5c3).
-- nextRotationCategory: 399%5==4 → REVIEW. 400%5==0 → RESEARCH. 401%5==1 → BUILD (seo-content). 402%5==2 → BUILD (monetization).
+- iteration: 399
+- lastMode: REVIEW (399%5==4)
+- lastItem: meta-trim-negev-i18n
+- lastResult: REVIEW — audited Phase 4 Batch 12 Negev FR+DE (iter398). Found 3 title violations (>65 chars) and 6 description violations (>160 chars) across 8 files. All 9 violations fixed and shipped. 641 pages unchanged. 895/895 e2e+a11y pass. CI=in_progress at push time (SHA d8b8977).
+- nextRotationCategory: 400%5==0 → RESEARCH. 401%5==1 → BUILD (seo-content). 402%5==2 → BUILD (monetization). 403%5==3 → BUILD (tools/i18n).
 - higgsfieldSpent: 0
-- updatedAt: 2026-07-09T04:49Z
+- updatedAt: 2026-07-09T05:47Z
 - branch context: work on master; feature work on auto/<slug>
+
+Notes: iter 399 REVIEW — meta-trim-negev-i18n. Audited Phase 4 Batch 12 (negev) FR+DE pages from iter398. Violations: fr/negev-bedouin-hospitality title 72→57; fr/negev-ein-avdat title 68→50 + desc 168→126; fr/negev-mitzpe-ramon desc 162→143; fr/negev-sde-boker desc 179→137; de/negev-avdat desc 172→147; de/negev-bedouin-hospitality title 71→64; de/negev-ein-avdat desc 173→131; de/negev-sde-boker desc 170→150. 8 files fixed (9 violations). 641 pages, 895/895 e2e+a11y pass. SHA d8b8977, pushed. CI=in_progress at push time (Lighthouse). Also confirmed: iter397 EN guides (northern-israel-road-trip, museum-of-tolerance-jerusalem) both clean (title ≤65, desc ≤160). Startup note: fresh cloud checkout was stuck at iter361 (dcd3966); hard-reset to origin/master (8585cda) before work — 50-commit divergence due to prior force-push.
 
 Notes: iter 398 BUILD (tools/i18n) — Phase 4 Batch 12 Negev FR+DE shipped. 10 locale files (5 FR + 5 DE) for negev attractions. YAML German-quote bug in de/negev-bedouin-hospitality (3 occurrences) and de/negev-sde-boker (1 occurrence) fixed via Python regex on frontmatter (U+201E + ASCII U+0022 pairs → single-quoted). smoke.spec.ts + a11y.spec.ts +10 routes each. 641 pages (+10). 895/895 e2e pass. SHA 4d6d5c3, pushed. CI=in_progress (Lighthouse) at push time. i18n Phase 4 COMPLETE — all Negev attractions done. Remaining deferred: jerusalem/holy-sepulchre + jerusalem/temple-mount (religious/contested, extra care needed, Phase 5+). Next i18n: Phase 5 itineraries/legal or QA sweep.
 

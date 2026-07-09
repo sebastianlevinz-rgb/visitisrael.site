@@ -6865,3 +6865,12 @@ smoke.spec.ts + a11y.spec.ts: +10 routes each (fr/negev/avdat, fr/negev/bedouin-
 Gate: pnpm check 0 errors; pnpm build 641 pages (+10 vs iter397 631); pnpm test:e2e 895/895 pass (+20 vs iter397 875).
 Merge: squash-committed to master SHA 4d6d5c3, pushed origin/master at 2026-07-09T04:47Z. CI=in_progress at push time (Lighthouse, non-blocking).
 Next: iter 399 → REVIEW (399%5==4). i18n status: Phase 4 Negev complete (5/5 done). Remaining untranslated: 2 deferred (jerusalem/holy-sepulchre, jerusalem/temple-mount — religious/contested, require extra care). Phase 4 COMPLETE. Next i18n phase: Phase 5 — itineraries/legal or QA sweep.
+
+## 2026-07-09T05:47Z · iter 399 · REVIEW · meta-trim-negev-i18n
+Mode: REVIEW (399%5==4). Slice reviewed: Phase 4 Batch 12 Negev FR+DE locale pages (iter398 ship).
+Startup: fresh cloud env was at iter361 (dcd3966) — hard-reset to origin/master (8585cda) before work.
+Audit findings: 3 title violations (>65 chars) + 6 description violations (>160 chars) across 8 of 10 Negev FR+DE files. EN guides (northern-israel-road-trip, museum-of-tolerance-jerusalem) CLEAN.
+Fix: trimmed all 9 violations in place — no semantic meaning lost, key terms preserved, all files now title ≤65 desc ≤160. Also verified: fr/negev-avdat (title=53, desc=160) already at limit, no change needed.
+Gate: pnpm check 0 errors; pnpm build 641 pages (unchanged); pnpm test:e2e 895/895 pass.
+Merge: squash-committed to master SHA d8b8977, pushed origin/master at 2026-07-09T05:44Z. CI=in_progress (Lighthouse + main CI) at push time — consistent with prior iters, non-blocking.
+Next: iter 400 → RESEARCH (400%5==0). Candidate research tracks: i18n Phase 5 readiness assessment; new competitor gap scan (touristisrael.com / lonelyplanet.com post-2025 updates); multi-destination combos (Israel+Greece, Israel+Cyprus — added iter390 but not yet built).
