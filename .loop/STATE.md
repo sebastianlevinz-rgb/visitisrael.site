@@ -1,13 +1,15 @@
 # LOOP STATE
 
-- iteration: 433
-- lastMode: BUILD (seo-content) (433%5==3 → tools fall-through → seo-content)
-- lastItem: yom-kippur-in-israel — /yom-kippur-in-israel standalone Yom Kippur tourist guide
-- lastResult: SHIPPED — 0 check errors, 674 pages (+1 from 673), 941/941 e2e pass (+2 from 939). SHA 41683bf. CI in_progress at push time.
-- nextRotationCategory: 434%5==4 → REVIEW. 435%5==0 → RESEARCH. 436%5==1 → BUILD (monetization). 437%5==2 → BUILD (seo-content).
+- iteration: 434
+- lastMode: REVIEW (434%5==4)
+- lastItem: review-434-a11y-routes — added missing a11y accessibility routes for 4 guides shipped iters 426–431
+- lastResult: SHIPPED — 0 check errors, 674 pages (unchanged), 945/945 e2e pass (+4 from 941). SHA f59bf00. CI in_progress at push time.
+- nextRotationCategory: 435%5==0 → RESEARCH. 436%5==1 → BUILD (monetization). 437%5==2 → BUILD (seo-content). 438%5==3 → BUILD (tools fall-through → seo-content).
 - higgsfieldSpent: 0
-- updatedAt: 2026-07-10T14:45Z
+- updatedAt: 2026-07-10T16:00Z
 - branch context: work on master; feature work on auto/<slug>
+
+Notes: iter 434 REVIEW — /review-434-a11y-routes shipped. Audited iters 431–433 (american-travelers, hai-bar-yotvata, yom-kippur-in-israel). Checks: (1) title lengths 49/59/61 chars all ≤65 ✓; (2) description lengths 149/146/158 chars all ≤170 ✓; (3) hero images all verified in public/ ✓; (4) affiliate partners all valid ✓; (5) internal links — 21 unique slugs across 3 guides all resolve ✓; (6) cross-links added to existing files all confirmed ✓; (7) smoke test routes all present in smoke.spec.ts ✓; (8) a11y routes — DEFECT FOUND: /israel-for-american-travelers, /israel-for-british-travelers, /3-days-in-tel-aviv, /jaffa-hotels-guide all missing from a11y.spec.ts. Fixed: added 4 missing routes; all 4 pass WCAG 2A/2AA (945/945 e2e pass +4 from 941). No honesty issues found. SHA f59bf00.
 
 Notes: iter 433 BUILD (seo-content) — /yom-kippur-in-israel shipped. P2 S seo-content+monetization. Tools category exhausted (11/11 SHIPPED); technical empty; fell through to seo-content per playbook. Timely pick: Yom Kippur 2026 is Sep 20–21 (82 days away). Standalone guide distinct from the Yom Kippur section in traveling-israel-jewish-holidays.md (that section is 1 FAQ + 1 body paragraph; new guide is 1,800+ words). Content: dates 2026 (Kol Nidre sunset Sep 20, fast day Sep 21) + 2027 (Oct 9–10); Ben Gurion Airport 25-hour closure (full commercial shutdown — the non-negotiable planning point); empty-streets cycling promenade (Ayalon Freeway as cycling route; Tel Aviv specifics); Western Wall Kol Nidre + Ne'ilah + shofar at nightfall; Tel Aviv vs Jerusalem comparison (Ayalon cycling promenade vs Old City solemn atmosphere); eating/drinking for non-fasting tourists (stock up Erev YK afternoon; hotel dining rooms open; Arab-owned cafes open); respectful behaviour (no public eating in religious neighbourhoods; no loud music; driving socially discouraged but legal); break-fast traditions (dairy, coffee, cake; book a restaurant in advance); booking 6–12 months ahead for JLM/Dead Sea. 3 CTAs: Booking.com hotels + GYG High Holidays synagogue experience + Viator Jerusalem Yom Kippur tour. 6 FAQs. Cross-links added to traveling-israel-jewish-holidays (YK section → standalone guide) and rosh-hashanah-in-israel (Related guides → YK guide). Smoke + a11y +1 route each. Startup: fresh cloud env; local master diverged 50+ commits behind origin — hard-reset to origin/master (7d42eb1 = iter432 state commit). Gate: 0 check errors · 674 pages · 941/941 e2e pass. SHA 41683bf. CI in_progress at push time.
 

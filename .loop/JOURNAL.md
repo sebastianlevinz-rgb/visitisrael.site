@@ -7225,3 +7225,12 @@ YAML fix: apostrophe in Ne'ilah inside single-quoted YAML string → changed to 
 Gate: 0 check errors · 674 pages (+1 from 673) · 941/941 e2e pass (+2 from 939). GREEN.
 Ship: committed to master SHA 41683bf, pushed 2026-07-10T14:41Z. CI in_progress at push time.
 Next: iter 434 → REVIEW (434%5==4). Audit recent iters 431–433 (american-travelers, hai-bar-yotvata, yom-kippur-in-israel).
+
+## 2026-07-10T16:00Z · iter 434 · REVIEW · review-434-a11y-routes
+Mode: REVIEW (434%5==4). Startup: fresh cloud env; local master diverged from origin — hard-reset to origin/master (9b08c84 = iter433 state commit).
+Slice reviewed: iters 431–433 — israel-for-american-travelers, hai-bar-yotvata-guide, yom-kippur-in-israel.
+Checks: (1) title lengths 49/59/61 chars all ≤65 ✓; (2) description lengths 149/146/158 chars all ≤170 ✓; (3) hero images — all verified in public/ (/images/regions/jerusalem/hero.jpg, /images/regions/eilat/hero.jpg, /images/regions/jerusalem/western-wall.jpg, plus CTA images /images/regions/tel-aviv/hero.jpg, /images/regions/negev/hero.jpg, /images/regions/jerusalem/old-city.jpg) ✓; (4) affiliate partners — discovercars/booking/getyourguide/viator all valid ✓; (5) internal links — 21 unique slugs across 3 guides verified; all resolve to content or page files ✓; (6) cross-links added to existing files — eilat-travel-guide/red-canyon-eilat/israel-national-parks-pass (hai-bar) and traveling-israel-jewish-holidays/rosh-hashanah-in-israel (yom-kippur) all confirmed present ✓; (7) smoke test routes present: smoke.spec.ts has all 3 ✓; (8) a11y routes — DEFECT: /israel-for-american-travelers (iter431), /israel-for-british-travelers (iter427), /3-days-in-tel-aviv (iter426), and /jaffa-hotels-guide (iter428) all absent from a11y.spec.ts; (9) no H1 in content bodies ✓; (10) no honesty violations ✓.
+Fix: added 4 missing a11y routes on branch auto/review-434-a11y-routes. All 4 pages pass WCAG 2A/2AA checks.
+Gate: 0 check errors · 674 pages (unchanged) · 945/945 e2e pass (+4 from 941). GREEN.
+Ship: committed to master SHA f59bf00, pushed 2026-07-10T16:00Z. CI in_progress at push time.
+Next: iter 435 → RESEARCH (435%5==0).
