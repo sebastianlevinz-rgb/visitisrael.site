@@ -1,12 +1,12 @@
 # LOOP STATE
 
-- iteration: 439
-- lastMode: REVIEW (439%5==4)
-- lastItem: review-439-holiday-fix — corrected Holiday of Holidays / Ramadan factual error in 3-days-in-haifa
-- lastResult: SHIP — 677 pages (unchanged); 0 check errors; 951/951 e2e pass; pushed 333458e; CI in_progress at update time
-- nextRotationCategory: 440%5==0 → RESEARCH. 441%5==1 → BUILD (monetization). 442%5==2 → BUILD (seo-content). 443%5==3 → BUILD (tools/technical fall-through). 444%5==4 → REVIEW.
+- iteration: 440
+- lastMode: RESEARCH (440%5==0)
+- lastItem: research-440-origin-markets-negev-golan
+- lastResult: RESEARCH — 4 net-new items added to BACKLOG (/israel-for-german-travelers P2/S, /3-days-in-negev P2/M, /3-days-in-golan P3/M, /israel-for-dutch-travelers P3/S). No code shipped (RESEARCH mode). No gate run.
+- nextRotationCategory: 441%5==1 → BUILD (monetization). 442%5==2 → BUILD (seo-content). 443%5==3 → BUILD (tools/technical fall-through). 444%5==4 → REVIEW. 445%5==0 → RESEARCH.
 - higgsfieldSpent: 0
-- updatedAt: 2026-07-10T20:40Z
+- updatedAt: 2026-07-10T21:45Z
 - branch context: work on master; feature work on auto/<slug>
 
 Notes: iter 439 REVIEW — Audited iters 436–438 (3-days-in-eilat, 3-days-in-haifa, israel-vs-france).
@@ -29,4 +29,4 @@ Notes: iter 437 BUILD (seo-content) — /3-days-in-haifa shipped. P2 M item from
 
 Cron b7325b16 hourly @ :17. Loop history: 19 tools + sitemap-lastmod + link-checker(+depth) + i18n
 Phase0/1a/1b/1c/2 Batches1-18(COMPLETE) + 42 review passes + 3 technical (event-schema + meta-trim + locale-links) + 57 EN guides + 7 tools-monetization;
-research iters 5/10/20/30/35/40/45/50/55/60/65/70/75/80/85/90/95/100/105/110/115/120/125/130/135/140/145/150/155/160/165/170/175/180/185/190/195/200/205/210/215/220/225/230/235/240/245/250/255/260/265/270/275/280/285/290/295/300/305/310/315/320/325/330/335/340/345/350/355/360/365/370/375/380/385/390/395/400/405/410/420/425/430/435.
+research iters 5/10/20/30/35/40/45/50/55/60/65/70/75/80/85/90/95/100/105/110/115/120/125/130/135/140/145/150/155/160/165/170/175/180/185/190/195/200/205/210/215/220/225/230/235/240/245/250/255/260/265/270/275/280/285/290/295/300/305/310/315/320/325/330/335/340/345/350/355/360/365/370/375/380/385/390/395/400/405/410/420/425/430/435/440.

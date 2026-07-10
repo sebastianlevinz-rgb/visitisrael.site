@@ -4374,3 +4374,48 @@ Major English-language Israel travel editorial competitors (Lonely Planet, Rough
 - **Gap confirmed:** Site has iter427 UK guide and iter431 US guide but ZERO guide for French travelers. France is Israel's #2 inbound market (per INBOUND_MARKETS note in COMPETITORS.md iter420). The origin-market editorial format (advisory + entry + flights + phone + banking + adapter + embassy) is proven repeatable. French-specific content: MAEE advisory link, ETA-IL applies (France is visa-exempt, €~8 equivalent cost, apply 72h+ ahead), Air France CDG→TLV routes + El Al CDG→TLV, French Embassy TLV address + Paris-based embassy contacts, Revolut/N26 (France-popular no-FX cards), Type E vs Type H adapter (France = 230V Type E, Israel = 230V Type H — same voltage but different plug, need adapter tip only), DREES social security non-coverage abroad.
 
 **Items added to BACKLOG:** 8 (/3-days-in-haifa P2/M, /3-days-in-eilat P2/S, /israel-solo-travel P2/S, /tel-aviv-dizengoff P2/S, /tel-aviv-hatachana P2/S, /israel-solo-travel-over-50 P2/M, /3-days-in-galilee P2/M, /israel-for-french-travelers P3/S).
+
+---
+
+## Iter 440 · 2026-07-10 · Origin-market gaps + city weekend itinerary gaps + Israel 2026 recovery context
+
+**Research focus:** Origin-market editorial guides (Germany/Netherlands), remaining regional 3-day weekend itinerary gaps (Negev, Golan), Israel tourism recovery statistics 2026.
+
+**Israel tourism 2026 recovery context:**
+- 2025 inbound visitors: 1.3M (+30% YoY vs 970k in 2024); Forbes Jan 2026
+- Top source markets 2025: US (400k), France (159k), UK (95k) — together ~55% of inbound
+- Average spend per visitor: $1,622 (excluding flights); avg stay 9.3 nights
+- 88% visitor satisfaction; 83% would recommend Israel as destination
+- Germany eased Israel travel warning (Auswärtiges Amt partially lifted Level 3 for main tourist areas in 2026)
+- 2026 outlook: Ministry of Tourism optimistic; renewed flight routes; reduced advisory levels
+- **Implication for site strategy:** US + UK + France = shipped or in backlog. Germany = confirmed gap (P2 priority). Netherlands = confirmed gap (P3).
+
+**Germany origin-market gap:**
+- auswaertiges-amt.de: travel advisory; level varies; NOT editorial inspiration content
+- visitworld.today/israel/germany-citizenship: technical entry rules; no editorial travel guide
+- eturbonews.com: "Germany Eases Travel Warning for Israel" (2026 news) — confirms growing demand from this market
+- travelisraeleta.com/requirements/german-citizens: ETA-IL requirements explained but dry, not travel-guide format
+- **Gap confirmed:** ZERO English editorial travel guide targeted at German tourists. Site has UK + US guides shipped; French in backlog. Germany is #4 priority origin-market by inbound tourist volume; Auswärtiges Amt advisory change in 2026 makes this timely. German-specific hooks: ETA-IL (many Germans confuse with Schengen freedom of movement), GKV health insurance non-coverage abroad, Type F→H plug adapter, N26/Revolut for EC card users. Strong historical dimension: Holocaust remembrance tourism (Yad Vashem) + Jewish heritage.
+
+**Netherlands origin-market gap:**
+- rijksoverheid.nl/onderwerpen/reizen-naar-het-buitenland: advisory link; no editorial
+- El Al AMS→TLV: daily direct 4h — significant aviation link
+- No dedicated "Israel for Dutch travelers" on any major English travel brand
+- **Gap confirmed:** Zero backlog/done hits. P3 priority (lower than Germany; Dutch online travel behavior often reads English travel guides and may also use NL-language resources beyond our scope; English-targeting still valid).
+
+**Negev 3-day itinerary gap:**
+- takeyourbackpack.com/negev-desert: broad backpacking guide; covers Negev in 3 pages; no "3-day itinerary" format
+- israel-taxi.com/travel-blog/mitzpe-ramon-crater: Mitzpe Ramon crater guide; no structured 3-day format
+- slavaguide.com/best-3-day-negev-jeep-tour: 3-day jeep tour product (NOT editorial guide)
+- desertecotours.com/mitzpe-ramon-tours: operator listings only
+- 10adventures.com/negev-desert-hiking-tour: activity tour listing
+- expedia.com/Mitzpe-Ramon: hotel aggregator guide
+- **Gap confirmed:** Zero editorial publisher (LP, Rough Guides, Timeout) has a structured 3-day Negev itinerary for independent travelers. Only thin aggregators + tour operators. Site has mitzpe-ramon-guide.md + negev region page + negev-sde-boker attraction + israel-road-trip (national loop) but ZERO "3 days in Negev" format. Same competitor vacuum as existed for Eilat (shipped) and Haifa (shipped).
+
+**Golan 3-day itinerary gap:**
+- beinharimtours.com/galilee-golan-caesarea-3-days-tour: 3-day tour package (NOT editorial)
+- getyourguide.com/galilee: activity listings, no itinerary editorial
+- tripadvisor.com/Attractions-g293981: tour listing format
+- **Gap confirmed:** 1 backlog reference (in SHIPPED northern-road-trip description) but zero standalone P-item for a Golan-focused 3-day guide. Distinct from northern-road-trip (multi-region circuit). Banias + Nimrod + Gamla + Druze village + Golan winery = full weekend.
+
+**Items added to BACKLOG:** 4 (/israel-for-german-travelers P2/S, /3-days-in-negev P2/M, /3-days-in-golan P3/M, /israel-for-dutch-travelers P3/S).

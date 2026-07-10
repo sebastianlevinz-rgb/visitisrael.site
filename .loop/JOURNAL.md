@@ -7298,3 +7298,13 @@ Checks: (1) title lengths 56/58/48 chars all ≤65 ✓; (2) description lengths 
 Gate: 0 check errors · 677 pages (unchanged) · 951/951 e2e pass. GREEN.
 Ship: committed 333458e, pushed. CI in_progress at push time.
 Next: iter 440 → RESEARCH (440%5==0).
+
+## 2026-07-10T21:45Z · iter 440 · RESEARCH · research-440-origin-markets-negev-golan
+Mode: RESEARCH (440%5==0). Startup: fresh cloud env; local master diverged from origin (forced update) — reset --hard to origin/master (90e4d37 = iter439 state commit). Stale branch origin/auto/israel-vs-cyprus noted (content already in master guides dir; stale branch from old session, not merged).
+Research focus: Competitor gaps across 4 angles — (1) origin-market editorial guides for Germany/Netherlands, (2) Negev Desert 3-day itinerary, (3) Golan Heights 3-day itinerary, (4) verification of Israel 2026 tourism recovery context.
+Key market finding: Israel 2025 inbound = 1.3M visitors (+30% YoY); top markets US (400k), France (159k), UK (95k). Site now has US + UK origin guides SHIPPED, French travelers in backlog. Germany = confirmed 4th priority; 0 hits in backlog + done.
+Competitor scan methodology: WebSearch x7 queries across hiking, Jordan itineraries, food tourism, visa tools, Germany market, Negev/Golan editorial gaps, photography + seasonal; BACKLOG.md grep scan (regex) before adding any item; DONE.md grep scan for all 4 candidate items.
+De-duped and rejected (already in backlog or shipped): passover-in-israel (iter155 P2 + iter405 P2), purim-in-israel (iter160 P2), sukkot-in-israel (iter160 P2), israel-vs-spain (iter410 P3), israel-vs-italy (iter410 P3), israel-vs-morocco (iter405 P3), israel-vs-portugal (iter425 P3), israel-vs-croatia (iter425 P3), israel-vs-dubai (iter410 P3), birdwatching-in-israel (iter50 + iter125 P2), 3-days-in-galilee (iter435 P2), israel-solo-travel (iter435 P2), tel-aviv-dizengoff (iter435 P2), tel-aviv-hatachana (iter435 P2), digital-nomad-israel (iter30 P3), hiking-in-israel SHIPPED, israel-photography-guide SHIPPED, israel-jordan-itinerary SHIPPED, israel-food-guides (multiple) SHIPPED.
+4 net-new items added to BACKLOG: /israel-for-german-travelers (P2/S, [iter440 research]), /3-days-in-negev (P2/M, [iter440 research]), /3-days-in-golan (P3/M, [iter440 research]), /israel-for-dutch-travelers (P3/S, [iter440 research]).
+No code shipped (RESEARCH mode). No gate run. State + journal + backlog + competitors committed to master.
+Next: iter 441 → BUILD (monetization; 441%5==1). Top P2 monetization item: consider /israel-for-german-travelers (P2/S, fast proven format) or any P2 monetization item from backlog rotation.
