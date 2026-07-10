@@ -7194,3 +7194,13 @@ Key findings: (1) Zero major English travel brand has a US-specific Israel edito
 Items added: 4 net-new — /israel-for-american-travelers (P2/S), /israel-for-canadian-travelers (P3/S), /israel-for-australian-travelers (P3/S), /israel-for-indian-travelers (P3/M).
 No shipping (RESEARCH mode). No gate run needed.
 Next: iter 431 → BUILD monetization (431%5==1).
+
+## 2026-07-10T12:45Z · iter 431 · BUILD (monetization) · american-travelers
+Mode: BUILD monetization (431%5==1). Startup: fresh cloud env; local master diverged 50 commits behind origin — hard-reset to origin/master (cda089d = iter430 state commit).
+Item: /israel-for-american-travelers — P2 S seo-content+monetization — top priority from iter430 BACKLOG.
+Structural template: iter427 israel-for-british-travelers (same frontmatter shape, same section order).
+Content: State Dept Level 3 advisory + STEP enrollment (step.state.gov, link-only framing); US nonstop flight routes table (El Al/United/Delta from JFK/EWR/MIA/ORD/LAX; Delta BOS announced Oct 2026); ETA-IL vs ESTA distinction (₪25, iaa.gov.il, valid 2 years multiple entries, 72h+ processing); timezone table EST/CDT/MDT/PDT vs Israel UTC+3 summer / UTC+2 winter; mobile roaming (T-Mobile international free 2G / $5/day high-speed; AT&T/Verizon $10–15/day pass; local SIM ₪50–90 from Golan Telecom/Hot Mobile at BGN; eSIM via Airalo/Nomad); no-FX-fee cards (Charles Schwab Visa debit reimburses all ATM fees; Chase Sapphire; Capital One Venture/Quicksilver; AmEx limited acceptance at small vendors); Type H adapter + 230V/50Hz voltage warning (most modern electronics 100–240V; older 120V-only devices need converter); US Embassy Jerusalem 18 Agron Rd +972-2-630-4000 + Tel Aviv 71 Hayarkon St +972-3-519-7575; Medicare/Medicaid gap callout; Israeli emergency numbers (100/101/102/112); at-a-glance practicalities table. 3 affiliate CTAs: Booking.com Israel hotels + GYG private tour (priceFrom:120, rating:4.9, reviews:4200) + DiscoverCars BGN. 6 FAQs: visa/ETA-IL vs ESTA, State Dept advisory, Medicare/Medicaid gap, mobile roaming, US licence validity, power adapter. Dense cross-links: /visa-information, /is-israel-safe, /cheap-flights-to-israel, /driving-in-israel, /car-rental-israel, /israel-cost-budget, /israel-money-guide, /transportation, /israel-esim, /israel-5-vs-7-vs-10-days.
+Smoke test: /israel-for-american-travelers added to tests/e2e/smoke.spec.ts ROUTES array.
+Gate: 0 check errors · 672 pages (+1 from 671) · 937/937 e2e pass (8.2m).
+Ship: committed to master SHA cda089d, pushed. CI in_progress at push time.
+Next: iter 432 → BUILD seo-content (432%5==2).

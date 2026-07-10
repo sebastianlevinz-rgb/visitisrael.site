@@ -1,13 +1,15 @@
 # LOOP STATE
 
-- iteration: 430
-- lastMode: RESEARCH (430%5==0)
-- lastItem: research-430-origin-market-guides — origin-market editorial guide gaps for US/India/Canada/Australia
-- lastResult: DONE — 4 net-new items confirmed and added to BACKLOG (israel-for-american-travelers P2/S, israel-for-canadian-travelers P3/S, israel-for-australian-travelers P3/S, israel-for-indian-travelers P3/M). Nothing shipped (RESEARCH mode).
-- nextRotationCategory: 431%5==1 → BUILD (monetization). 432%5==2 → BUILD (seo-content). 433%5==3 → BUILD (tools or fall-through). 434%5==4 → REVIEW. 435%5==0 → RESEARCH.
+- iteration: 431
+- lastMode: BUILD (monetization) (431%5==1)
+- lastItem: american-travelers — /israel-for-american-travelers US-market origin guide
+- lastResult: DONE — guide shipped to /israel-for-american-travelers (State Dept advisory, ETA-IL vs ESTA, no-FX-fee cards, US Embassy contacts, Type H adapter); smoke test added; 937/937 e2e pass; SHA cda089d; CI in_progress at push time.
+- nextRotationCategory: 432%5==2 → BUILD (seo-content). 433%5==3 → BUILD (tools or fall-through). 434%5==4 → REVIEW. 435%5==0 → RESEARCH.
 - higgsfieldSpent: 0
-- updatedAt: 2026-07-10T11:10Z
+- updatedAt: 2026-07-10T12:45Z
 - branch context: work on master; feature work on auto/<slug>
+
+Notes: iter 431 BUILD (monetization) — /israel-for-american-travelers shipped. P2 S seo-content+monetization. Startup: fresh cloud env; local master diverged (50 commits behind origin) — hard-reset to origin/master (cda089d pre-existing = last iter's state commit). Used iter427 british-travelers as structural template. Content: State Dept Level 3 advisory + STEP enrollment (step.state.gov); US flight routes table (El Al/United/Delta from JFK/EWR/MIA/ORD/LAX/BOS); ETA-IL vs ESTA distinction (Americans confuse the two; ₪25, iaa.gov.il, 72h+ ahead); timezone table (EST+7/PST+10); mobile roaming (T-Mobile included/AT&T-Verizon add-on/local SIM/eSIM); no-FX-fee cards (Schwab Visa/Chase Sapphire/Capital One/AmEx); Type H adapter + 230V voltage warning; US Embassy Jerusalem (18 Agron Rd +972-2-630-4000) + Tel Aviv (71 Hayarkon St +972-3-519-7575); Medicare/Medicaid gap (travel insurance strongly recommended); at-a-glance practicalities table; 3 affiliate CTAs (Booking hotels + GYG private tour + DiscoverCars). 6 FAQs. Dense cross-links to visa-information, is-israel-safe, cheap-flights-to-israel, driving-in-israel, israel-cost-budget, transportation. Smoke test route /israel-for-american-travelers added. Gate: 0 check errors · 672 pages (+1 from 671) · 937/937 e2e pass. SHA cda089d. CI in_progress at push time.
 
 Notes: iter 430 RESEARCH — Origin-market guide gap analysis. Focused on US, India, Canada, Australia as origin markets for Israel travel — extending the iter427 british-travelers playbook. Competitors checked: travel.state.gov, il.usembassy.gov, touristisrael.com, lonelyplanet.com, roughguides.com, nomadicmatt.com, smartraveller.gov.au, travel.gc.ca, embassies.gov.il/india. Key finding: zero major English travel brand has a US-specific Israel editorial guide (advisory link + ETA-IL vs ESTA distinction + Embassy contacts + flight routes + timezone + no-FX-fee cards + mobile options + adapter); the UK gap filled by iter427 is real for all 4 markets. Critical India finding: Indian passport holders are NOT ETA-IL eligible — they require full visa via eVisa-B2 (launched July 1 2025); this makes the India guide P3/M vs P3/S for other markets. 4 net-new items added (all verified absent from BACKLOG+DONE via grep). Next priority: 431 BUILD monetization.
 

@@ -1040,7 +1040,7 @@ Mode RESEARCH (180%5==0). No code changed. Searched: Haifa travel guide gap, Gol
 
 ## iter430 additions (2026-07-10 RESEARCH)
 
-- **`/israel-for-american-travelers`** | P2 | S | seo-content+monetization | [iter430 research]
+- ~~**`/israel-for-american-travelers`**~~ | P2 | S | seo-content+monetization | [iter430 research] → **SHIPPED iter431 SHA cda089d**
   Mirror of `israel-for-british-travelers` (iter427, SHA e5cbea7) for the US market — largest single inbound tourist cohort. Content: State Dept Level 3 advisory (link only — no static paste; it changes), STEP enrollment (step.state.gov), ETA-IL vs ESTA distinction (Americans confuse the two; ETA-IL is ₪25, apply iaa.gov.il, ≥72h ahead), US Embassy Jerusalem 18 Agron Rd + Tel Aviv 71 Hayarkon St + emergency +972-2-630-4000, health insurance gap (Medicare/Medicaid not accepted abroad; recommend travel insurance), no-FX-fee cards (Schwab Visa, Chase Sapphire, Capital One Venture), direct US flight routes table (El Al/United/Delta/American from JFK/EWR/MIA/ORD/LAX), time-zone cheat sheet (EST/EDT 7–8h behind; PST/PDT 10–11h behind), US mobile roaming options (T-Mobile international included free; AT&T/Verizon add-on or eSIM via Airalo/Nomad), Type H adapter needed (US Type A/B → Type H; 230V same voltage), USTOA operators context. 3 CTAs: Booking.com Israel + GYG private tour Israel + DiscoverCars (US licence valid in Israel). 6 FAQs. Dense cross-links: visa-information, is-israel-safe, cheap-flights-to-israel, driving-in-israel, israel-cost-budget, transportation. Smoke test route.
 
 - **`/israel-for-canadian-travelers`** | P3 | S | seo-content+monetization | [iter430 research]
