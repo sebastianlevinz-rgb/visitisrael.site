@@ -242,6 +242,7 @@ const ROUTES = [
   '/3-days-in-tel-aviv',
   '/israel-for-british-travelers',
   '/israel-for-american-travelers',
+  '/israel-for-german-travelers',
   '/jaffa-hotels-guide',
   '/free-things-to-do-israel',
   '/cheap-flights-to-israel',
