@@ -4324,3 +4324,53 @@ Major English-language Israel travel editorial competitors (Lonely Planet, Rough
 **Key meta-finding:** The iter427 `israel-for-british-travelers` approach (advisory link-only + visa/ETA explanation + flight routes table + timezone cheat + mobile options + power adapters + banking tips + local embassy contacts) is a repeatable playbook that works for any origin market. The US version (P2/S) should be next; Canada and Australia are P3/S clones; India is P3/M due to full-visa complexity.
 
 **Items added to BACKLOG:** 4 (/israel-for-american-travelers P2/S, /israel-for-canadian-travelers P3/S, /israel-for-australian-travelers P3/S, /israel-for-indian-travelers P3/M).
+
+---
+
+## Iter 435 · 2026-07-10 · Itinerary format + sub-destination gaps + niche solo crossover + French origin market
+
+**Research focus:** Structural format gaps (city weekend itineraries beyond TLV/Jerusalem), sub-destination gaps within Tel Aviv, niche audience crossover (solo+age), and origin-market format extension to French travelers.
+
+**City weekend itinerary gap — Haifa:**
+- wanderlog.com/list/gettingstarted/64044/3-days-in-haifa: AI-aggregated 3-day plan, thin editorial; ranks P1–3 for "3 days in haifa israel"
+- adventurebackpack.com/haifa-3-day-itinerary: user-submitted itinerary, no affiliate CTAs; thin
+- milehacker.com: "haifa 3 day itinerary" article exists
+- itimake.com: auto-generated 3-day haifa plan
+- lonelyplanet.com/israel/haifa: city overview, no "3 days" format; deepest competitor LP has is "perfect day"
+- timeout.com/tel-aviv: has "48 hours in tel aviv" and "one day in haifa" but nothing for a weekend format
+- **Gap confirmed:** No editorial publisher (LP, Rough Guides, Timeout) has a 3-day Haifa itinerary. Only thin AI-aggregators rank. Site has haifa-travel-guide + haifa-neighborhoods-guide + best-hotels-haifa + day-trips-from-haifa + 5 sub-destination files but ZERO itinerary format.
+
+**City weekend itinerary gap — Eilat:**
+- neverendingfootsteps.com: "How to Spend Three Days in Eilat" — editorial but thin; ranks P1–2
+- nomoresheets.com: "Eilat 3 day itinerary" — AI-assisted, minimal
+- **Gap confirmed:** Only one thin editorial competitor for 3-day Eilat. Site has eilat-travel-guide + eilat-beach-guide + eilat-diving-snorkeling + petra-from-eilat-vs-amman + red-canyon-eilat but NO weekend itinerary. Unique angle: integrates Petra day trip logistics (the most searched single-day add-on from Eilat).
+
+**City weekend itinerary gap — Galilee:**
+- getyourguide.com/galilee: activity listings, no editorial itinerary
+- wanderlog.com/list/gettingstarted/galilee-3-days: AI-aggregated; thin
+- traveltriangle.com: "3 days in Galilee" template; light
+- **Gap confirmed:** No editorial 3-day Galilee itinerary on any major brand. Site has galilee.md (region) + galilee-tours-compared + galilee-christian-sites-circuit + multiple attraction files (Sea of Galilee, Nazareth, Capernaum, Magdala, Mount Arbel) but NO short weekend format. High-value for Christian pilgrimage audience + general culture traveler.
+
+**Tel Aviv sub-destination gaps — Dizengoff + HaTachana:**
+- timeout.com/tel-aviv/things-to-do/dizengoff: "dangerously complete guide to Dizengoff" (their term) — editorial, dense; ranks P1
+- tourist-israel.com/dizengoff: standard coverage
+- beinharim.com/dizengoff-tours: tour focus
+- timeout.com/tel-aviv/things-to-do/the-old-station: Old Train Station guide
+- tourist-israel.com/hatachana: standard coverage
+- hoshen-tours.com: Neve Tzedek + HaTachana combined tours
+- **Gap confirmed:** Site covers Dizengoff as passing mention in white-city-tel-aviv guide (iter116) but has no standalone sub-destination file. HaTachana has zero site coverage — nothing in guides/, attractions/, or white-city content despite being the cultural/shopping anchor between Neve Tzedek and Old Jaffa.
+
+**Solo travel gap — gender-neutral + age-crossover:**
+- backpackisrael.com/solo-travel: general solo Israel guide; ranks P1 for "solo travel israel"
+- tourist-israel.com/solo-travel: brief overview
+- templeseekers.com/solo-travel-to-israel: religious solo focus
+- **Gap confirmed:** site has solo-female-travel-israel.md but NO gender-neutral general solo guide. Age-crossover (solo over 50) has zero editorial competitor — only tour-operator sales pages (GilTravel, BestSingleTravel, TourRadar).
+
+**French origin market:**
+- ambafrance-il.org/france-israel: embassy site only; no travel tips
+- diplomatie.gouv.fr/conseils-aux-voyageurs/israël: MAEE advisory; links to eTA-IL for French nationals (France IS on exempt list); no editorial inspiration
+- france.travel/israel: no such page exists
+- routard.com/guide/israel: guide exists but generic (no France-specific visa/entry/phone/card tips)
+- **Gap confirmed:** Site has iter427 UK guide and iter431 US guide but ZERO guide for French travelers. France is Israel's #2 inbound market (per INBOUND_MARKETS note in COMPETITORS.md iter420). The origin-market editorial format (advisory + entry + flights + phone + banking + adapter + embassy) is proven repeatable. French-specific content: MAEE advisory link, ETA-IL applies (France is visa-exempt, €~8 equivalent cost, apply 72h+ ahead), Air France CDG→TLV routes + El Al CDG→TLV, French Embassy TLV address + Paris-based embassy contacts, Revolut/N26 (France-popular no-FX cards), Type E vs Type H adapter (France = 230V Type E, Israel = 230V Type H — same voltage but different plug, need adapter tip only), DREES social security non-coverage abroad.
+
+**Items added to BACKLOG:** 8 (/3-days-in-haifa P2/M, /3-days-in-eilat P2/S, /israel-solo-travel P2/S, /tel-aviv-dizengoff P2/S, /tel-aviv-hatachana P2/S, /israel-solo-travel-over-50 P2/M, /3-days-in-galilee P2/M, /israel-for-french-travelers P3/S).

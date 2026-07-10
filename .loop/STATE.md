@@ -1,13 +1,15 @@
 # LOOP STATE
 
-- iteration: 434
-- lastMode: REVIEW (434%5==4)
-- lastItem: review-434-a11y-routes — added missing a11y accessibility routes for 4 guides shipped iters 426–431
-- lastResult: SHIPPED — 0 check errors, 674 pages (unchanged), 945/945 e2e pass (+4 from 941). SHA f59bf00. CI in_progress at push time.
-- nextRotationCategory: 435%5==0 → RESEARCH. 436%5==1 → BUILD (monetization). 437%5==2 → BUILD (seo-content). 438%5==3 → BUILD (tools fall-through → seo-content).
+- iteration: 435
+- lastMode: RESEARCH (435%5==0)
+- lastItem: research-435-itinerary-subdest-gaps — identified 8 new content gaps: 3-days-in-haifa, 3-days-in-eilat, israel-solo-travel, tel-aviv-dizengoff, tel-aviv-hatachana, israel-solo-travel-over-50, 3-days-in-galilee, israel-for-french-travelers
+- lastResult: RESEARCH (no ship) — 8 items appended to BACKLOG; 1 competitor block appended to COMPETITORS.md. No code shipped.
+- nextRotationCategory: 436%5==1 → BUILD (monetization). 437%5==2 → BUILD (seo-content). 438%5==3 → BUILD (tools fall-through → seo-content). 439%5==4 → REVIEW.
 - higgsfieldSpent: 0
-- updatedAt: 2026-07-10T16:00Z
+- updatedAt: 2026-07-10T17:00Z
 - branch context: work on master; feature work on auto/<slug>
+
+Notes: iter 435 RESEARCH — itinerary-and-subdest-gaps. City weekend itinerary format gap: Haifa (only AI-aggregators rank; WanderLog/AdventureBackpack/ItiMaker; no editorial publisher); Eilat (NeverEndingFootsteps = only thin editorial competitor); Galilee (thin AI-aggregators only; high-value Christian pilgrimage + culture audience). TLV sub-destination gaps: Dizengoff (Timeout has P1 coverage; site has only passing mention in white-city guide) + HaTachana Old Train Station (zero site coverage; flanked by neve-tzedek and jaffa but nothing about the 1892 Ottoman railway complex). Niche solo: gender-neutral israel-solo-travel (BackpackIsrael ranks; site has female-only version); solo-over-50 crossover (no editorial competitor anywhere; only tour-operator sales pages). French origin market: France = #2 inbound market; MAEE advisory + ETA-IL applies + Air France CDG routes + Revolut/N26 card tips + Type E→H adapter note; same format proven in iter427 UK + iter431 US. All 8 grep-verified absent from BACKLOG and DONE. SHA pending commit.
 
 Notes: iter 434 REVIEW — /review-434-a11y-routes shipped. Audited iters 431–433 (american-travelers, hai-bar-yotvata, yom-kippur-in-israel). Checks: (1) title lengths 49/59/61 chars all ≤65 ✓; (2) description lengths 149/146/158 chars all ≤170 ✓; (3) hero images all verified in public/ ✓; (4) affiliate partners all valid ✓; (5) internal links — 21 unique slugs across 3 guides all resolve ✓; (6) cross-links added to existing files all confirmed ✓; (7) smoke test routes all present in smoke.spec.ts ✓; (8) a11y routes — DEFECT FOUND: /israel-for-american-travelers, /israel-for-british-travelers, /3-days-in-tel-aviv, /jaffa-hotels-guide all missing from a11y.spec.ts. Fixed: added 4 missing routes; all 4 pass WCAG 2A/2AA (945/945 e2e pass +4 from 941). No honesty issues found. SHA f59bf00.
 
@@ -19,8 +21,6 @@ Notes: iter 431 BUILD (monetization) — /israel-for-american-travelers shipped.
 
 Notes: iter 430 RESEARCH — Origin-market guide gap analysis. Focused on US, India, Canada, Australia as origin markets for Israel travel — extending the iter427 british-travelers playbook. Competitors checked: travel.state.gov, il.usembassy.gov, touristisrael.com, lonelyplanet.com, roughguides.com, nomadicmatt.com, smartraveller.gov.au, travel.gc.ca, embassies.gov.il/india. Key finding: zero major English travel brand has a US-specific Israel editorial guide (advisory link + ETA-IL vs ESTA distinction + Embassy contacts + flight routes + timezone + no-FX-fee cards + mobile options + adapter); the UK gap filled by iter427 is real for all 4 markets. Critical India finding: Indian passport holders are NOT ETA-IL eligible — they require full visa via eVisa-B2 (launched July 1 2025); this makes the India guide P3/M vs P3/S for other markets. 4 net-new items added (all verified absent from BACKLOG+DONE via grep). Next priority: 431 BUILD monetization.
 
-Notes: iter 429 REVIEW — Audited iters 426–428: 3-days-in-tel-aviv, israel-for-british-travelers, jaffa-hotels-guide. Checks: (1) hero images — all 3 images verified in public/ ✓; (2) affiliate partners — getyourguide/viator/booking/discovercars all valid ✓; (3) title lengths — all ≤65 chars (56/47/41) ✓; (4) description lengths — 3-days-in-tel-aviv 192 chars OVER LIMIT → trimmed to 152 ✓; israel-for-british-travelers 183 chars OVER LIMIT → trimmed to 150 ✓; jaffa-hotels-guide 137 chars ✓; (5) internal links — all 26 unique slugs checked; all resolve to content or page files ✓; (6) rating/review fields in CTAs — not rendered to users (AffiliateCard shows live partner link only) ✓; (7) stale auto/israel-vs-cyprus branch on origin — content already in master (iter411, SHA 3f78882); branch deletion failed (403 proxy); noted for human cleanup. Fix: trimmed 2 over-limit descriptions. Gate: 0 check errors · 671 pages · 936/936 e2e pass. SHA bbcba74. CI in_progress at push time.
-
 Cron b7325b16 hourly @ :17. Loop history: 19 tools + sitemap-lastmod + link-checker(+depth) + i18n
 Phase0/1a/1b/1c/2 Batches1-18(COMPLETE) + 41 review passes + 3 technical (event-schema + meta-trim + locale-links) + 56 EN guides + 7 tools-monetization;
-research iters 5/10/20/30/35/40/45/50/55/60/65/70/75/80/85/90/95/100/105/110/115/120/125/130/135/140/145/150/155/160/165/170/175/180/185/190/195/200/205/210/215/220/225/230/235/240/245/250/255/260/265/270/275/280/285/290/295/300/305/310/315/320/325/330/335/340/345/350/355/360/365/370/375/380/385/390/395/400/405/410/420/425/430.
+research iters 5/10/20/30/35/40/45/50/55/60/65/70/75/80/85/90/95/100/105/110/115/120/125/130/135/140/145/150/155/160/165/170/175/180/185/190/195/200/205/210/215/220/225/230/235/240/245/250/255/260/265/270/275/280/285/290/295/300/305/310/315/320/325/330/335/340/345/350/355/360/365/370/375/380/385/390/395/400/405/410/420/425/430/435.

@@ -7234,3 +7234,29 @@ Fix: added 4 missing a11y routes on branch auto/review-434-a11y-routes. All 4 pa
 Gate: 0 check errors · 674 pages (unchanged) · 945/945 e2e pass (+4 from 941). GREEN.
 Ship: committed to master SHA f59bf00, pushed 2026-07-10T16:00Z. CI in_progress at push time.
 Next: iter 435 → RESEARCH (435%5==0).
+
+## 2026-07-10T17:00Z · iter 435 · RESEARCH · itinerary-and-subdest-gaps
+Mode: RESEARCH (435%5==0). Startup: fresh cloud env; local master diverged from origin — hard-reset to origin/master (f59bf00 = iter434 state commit).
+Research focus: structural format gaps (city weekend itineraries beyond TLV/Jerusalem), TLV sub-destination gaps, niche solo-travel crossover, French origin-market extension.
+Methodology: parallel competitor analysis via two research agents + targeted grep dedup against BACKLOG.md and DONE.md + filesystem verification (src/content/).
+
+Findings:
+(1) City weekend itinerary gaps: site has 3-days-in-tel-aviv (guides/) and 3-days-in-jerusalem (itineraries/) as the only short-form itinerary formats. Haifa (Israel's 3rd city), Eilat (Red Sea), and Galilee (pilgrimage + culture) all lack this format. Only AI-aggregators (WanderLog, AdventureBackpack, ItiMaker) rank for these queries — no editorial publisher competitor exists. Clear first-mover editorial opportunity.
+(2) Tel Aviv sub-destination gaps: tel-aviv-florentin.md exists as the template. Dizengoff Square/Street (P1 Timeout Tel Aviv coverage; site has only passing mention in white-city guide) and HaTachana Old Train Station (zero site coverage; 1892 Ottoman railway complex with 22 restored buildings; geographically between Neve Tzedek and Old Jaffa — both covered on site) both confirmed absent.
+(3) Solo travel gender gap: solo-female-travel-israel.md EXISTS; gender-neutral /israel-solo-travel does NOT (BackpackIsrael ranks P1 for "solo travel Israel"); solo-over-50 crossover = zero editorial competitor anywhere (only tour-operator sales pages).
+(4) French origin market: France = Israel's #2 inbound market. Site has UK (iter427) + US (iter431) origin guides. France not covered. Routard.com has generic Israel guide but no France-specific entry/phone/banking content. Format proven repeatable; specific differentiators: MAEE advisory link, ETA-IL for French nationals (France is visa-exempt, €7 equiv, iaa.gov.il), Air France CDG→TLV, Revolut/N26 no-FX cards, Type E→H adapter (same voltage 230V; plug shape only), DREES social security non-coverage abroad.
+
+Dedup verification: all 8 items grep-verified absent from BACKLOG.md and DONE.md; filesystem verify confirmed no src/content/guides/ or src/content/itineraries/ files exist for any of the 8 slugs.
+
+Items added to BACKLOG (8 total):
+- /3-days-in-haifa — P2/M seo-content+monetization
+- /3-days-in-eilat — P2/S seo-content+monetization
+- /israel-solo-travel — P2/S seo-content+monetization
+- /tel-aviv-dizengoff — P2/S seo-content+monetization
+- /tel-aviv-hatachana — P2/S seo-content+monetization
+- /israel-solo-travel-over-50 — P2/M seo-content+monetization
+- /3-days-in-galilee — P2/M seo-content+monetization
+- /israel-for-french-travelers — P3/S seo-content+monetization
+
+No code shipped (RESEARCH mode). No gate run.
+Next: iter 436 → BUILD (monetization; 436%5==1). Top P2 monetization item from BACKLOG; or P2/M seo-content+monetization if monetization queue empty.
