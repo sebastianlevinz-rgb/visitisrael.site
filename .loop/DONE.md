@@ -827,3 +827,4 @@ SHA 36dabe0
 - All linked pages verified present; no fabricated data; affiliate CTAs correct
 - 665 pages, 932/932 e2e pass
 SHA a9df79a
+- Aqaba from Eilat day trip guide (iter 421) — e47ae81 — /aqaba-from-eilat: border crossing logistics, Japanese Garden snorkel, Al-Aqabah Castle, beach clubs, duty-free souk, Aqaba vs Eilat snorkel table, 1-day vs overnight, 6 FAQs, 3 affiliate CTAs. [monetization]

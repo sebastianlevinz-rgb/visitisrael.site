@@ -7082,3 +7082,16 @@ Rejected (already shipped or in backlog): accessible travel (iter353), visa/ETA-
 
 Gate: RESEARCH mode — no code changes, no gate needed.
 Next: iter 421 → BUILD (monetization). Top P2 monetization candidates: aqaba-from-eilat (P2,S, fastest), jaffa-hotels-guide (P2,S), dead-sea-day-trip-comparison (P2,S).
+
+## 2026-07-10T02:55Z · iter 421 · BUILD (monetization) · aqaba-from-eilat
+What: New /aqaba-from-eilat standalone guide — Aqaba, Jordan's Red Sea city across the Wadi
+Araba border from Eilat. Border crossing logistics (Yitzhak Rabin/Wadi Araba; 30–60 min each
+way; hours vary; closed Yom Kippur + Eid al-Adha). Things to do: Japanese Garden snorkel site,
+Al-Aqabah Castle (free/small fee), Berenice + Marina beach clubs, duty-free souk, corniche
+waterfront. Aqaba vs Eilat snorkeling table (crowd levels, coral health, facilities). 1-day vs
+overnight section (earlybird half-day, full-day, overnight with Petra extension). 6 FAQs. 3
+affiliate CTAs (GYG Aqaba tours + Booking.com Aqaba hotels + DiscoverCars). Cross-links added
+in day-trips-from-eilat (Aqaba bullet) and eilat-travel-guide (hub paragraph).
+Gate: pnpm check 0 errors · 666 pages (+1 from 665) · 932/932 e2e pass.
+Ship: squash-merged to master e47ae81, pushed. CI in_progress at push time.
+Next: iter 422 → BUILD (seo-content).
