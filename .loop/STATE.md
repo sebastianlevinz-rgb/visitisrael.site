@@ -1,13 +1,15 @@
 # LOOP STATE
 
-- iteration: 422
-- lastMode: BUILD (422%5==2 → seo-content)
-- lastItem: bethlehem-travel-guide — Bethlehem complete visitor guide (destination guide)
-- lastResult: SHIPPED — 0 check errors, 667 pages (+1 from 666), 932/932 e2e pass. SHA 5cc281e. CI in_progress at push time.
-- nextRotationCategory: 423%5==3 → BUILD (tools or fall-through). 424%5==4 → REVIEW. 425%5==0 → RESEARCH. 426%5==1 → BUILD (monetization). 427%5==2 → BUILD (seo-content).
+- iteration: 423
+- lastMode: BUILD (423%5==3 → tools fall-through → monetization)
+- lastItem: how-to-hire-licensed-tour-guide-israel — Licensed tour guide hiring guide (monetization)
+- lastResult: SHIPPED — 0 check errors, 668 pages (+1 from 667), 933/933 e2e pass. SHA aa22b31. CI in_progress at push time.
+- nextRotationCategory: 424%5==4 → REVIEW. 425%5==0 → RESEARCH. 426%5==1 → BUILD (monetization). 427%5==2 → BUILD (seo-content). 428%5==3 → BUILD (tools or fall-through).
 - higgsfieldSpent: 0
-- updatedAt: 2026-07-10T03:42Z
+- updatedAt: 2026-07-10T04:50Z
 - branch context: work on master; feature work on auto/<slug>
+
+Notes: iter 423 BUILD (tools fall-through → monetization) — how-to-hire-licensed-tour-guide-israel shipped. P2 S monetization. Ministry of Tourism licence explained (blue/orange badge), how to verify credentials, where to find licensed guides (GYG/Viator/IATOA), specialisations table (Christian pilgrimage, Jewish heritage, archaeological, culinary, political, nature), pricing table (₪600–900 guide-only → ₪1,200–1,800 driver-guide → ₪2,000–4,000+ packages), 5 questions to ask before booking, honest note on non-licensed platform listings. 3 affiliate CTAs (GYG private guide Israel + Viator Jerusalem private guide + GYG TLV private guide). 6 FAQs. Cross-links added to private-tours-israel (Plan your trip section) and best-tours-in-israel (More ways to plan section). Smoke test route added. Gate: 0 check errors, 668 pages (+1 from 667), 933/933 e2e pass. SHA aa22b31. CI in_progress at push time. Note: tools category now exhausted (all 11 tools SHIPPED); technical category also empty; fell through to monetization per playbook.
 
 Notes: iter 422 BUILD (seo-content) — bethlehem-travel-guide shipped. P2 M seo-content+monetization. Complete destination guide for Bethlehem (distinct from bethlehem-tours-compared and jerusalem-bethlehem-day-trip). Content: Checkpoint 300 tourist-facing logistics, Church of the Nativity (multi-denomination access, Grotto queue tips), Manger Square + Mosque of Omar, Shepherds' Field, Banksy wall artworks (Flower Thrower, Walled Off Hotel), Palestinian craft shops (olive-wood, mother-of-pearl, tatreez embroidery), where to eat (Abu Elie, Afteem hummus), getting there (guided tour / bus 231 + taxi / private driver), practical tips table. 6 FAQs. 3 affiliate CTAs (GYG + Viator + Abraham). Cross-links added: christian-pilgrimage-holy-land (Bethlehem section upgraded), jerusalem-bethlehem-day-trip (footer cross-link). Gate: 0 check errors, 667 pages (+1 from 666), 932/932 e2e pass. SHA 5cc281e. CI in_progress at push time.
 
@@ -16,10 +18,6 @@ Notes: iter 421 BUILD (monetization) — aqaba-from-eilat shipped. P2 S monetiza
 Notes: iter 419 REVIEW (comparison-pages-audit) — 3 fixes: (#) broken link in israel-vs-turkey, stale ETIAS copy in israel-vs-greece, missing cross-link in israel-vs-cyprus footer. 665 pages, 932/932 e2e. SHA a9df79a.
 
 Notes: iter 412 BUILD (monetization) — /bethlehem-tours-compared shipped. Decision-stage comparison of tour formats: half-day Nativity, full-day in-depth, Bethlehem+Jericho, dual-narrative West Bank, self-guided bus. 7 FAQs, 3 affiliate CTAs (GYG+Viator+Abraham). pnpm check 0 errors · 661 pages · 922/922 e2e pass. SHA 25434f1. CI=in_progress at push time.
-
-Notes: iter 411 BUILD (seo-content) — /israel-vs-cyprus shipped. 11-criteria table, decision matrix, 5 FAQs, 3 affiliate CTAs (GYG+Skyscanner+Booking). pnpm check 0 errors · 660 pages · 922/922 e2e pass. SHA 3f78882.
-
-Notes: iter 410 RESEARCH — research-410-comparison-extensions-niche-activities. Startup: fresh cloud env; hard-reset to origin/master (f701a36 = iter409). Ran dedup scans for 20+ candidate topics; confirmed 6 genuine new gaps. Added to BACKLOG.md: israel-vs-cyprus (P2,S), israel-vs-dubai (P3,S), sea-kayaking-israel (P3,S), eilat-shopping-guide (P3,S), israel-vs-spain (P3,S), israel-vs-italy (P3,S). All 0 P-item hits in combined BACKLOG+DONE. Rejected candidates already covered: vs-greece (P2,backlog), vs-morocco (P3,backlog), golf-guide (P3,backlog), israel-cyprus-trip-guide (P3,backlog,combination not comparison), shopping-in-israel (SHIPPED iter276), cycling+IBT (SHIPPED iter238), adventure-sports (SHIPPED). BACKLOG now 1007 lines. No code changes. Next: iter 411 → BUILD (seo-content). Top P2,S candidates: israel-vs-cyprus (P2,S,ready), israel-vs-greece (P2,S,ready), galilee-wine-trail (P2,S,ready).
 
 Notes: iter 408 BUILD (i18n) — Phase 6 QA sweep. Startup: fresh cloud env; local master diverged from origin/master (was at iter407, 06f09d8); fetched + reset to origin/master. Selected Phase 6 QA sweep (P2,S, top tools/i18n item). Added i18n option to sitemap() in astro.config.mjs enabling xhtml:link hreflang for all trilingual pages. Added smoke tests: sitemap hreflang assertion (xmlns:xhtml + xhtml:link count > 0 + hreflang en/fr/de), /fr/jerusalem region hreflang assertion, 5 missing EN routes. gate: pnpm check 0 errors · 659 pages · 922/922 e2e pass. SHA 0d19743. Phase 6 COMPLETE. Sitemap hreflang (deferred since Phase 0) now shipped. Next: iter 409 → REVIEW.
 

@@ -838,3 +838,4 @@ SHA a9df79a
   getting there (3 methods + rental-car warning). 6 FAQs. 3 CTAs (GYG + Viator + Abraham).
   Cross-links: christian-pilgrimage-holy-land, jerusalem-bethlehem-day-trip.
   667 pages (+1); 932/932 e2e pass.
+- [iter423] /how-to-hire-licensed-tour-guide-israel — SHA aa22b31 — Ministry of Tourism licensed guide hiring guide: verification, specialisations table, pricing, 5 questions; 3 affiliate CTAs (GYG+Viator). Sits above highest-commission tour CTAs in Israel affiliate space. Cross-links from private-tours-israel + best-tours-in-israel.
