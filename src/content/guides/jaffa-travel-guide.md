@@ -135,4 +135,6 @@ For architecture enthusiasts, the [White City Bauhaus walking route](/tel-aviv-w
 
 For visitors interested in Jaffa's food specifically, a [guided food tour](/israel-food-tours-cooking-classes) is the most efficient way to taste across the hummus institutions, market stalls and bakeries in 3–4 hours with local context.
 
+For hotels in Jaffa — from the converted 19th-century French hospital at The Jaffa Hotel to mid-range boutique options in the Clock Tower district — see the [Jaffa hotels guide](/jaffa-hotels-guide).
+
 For the broader shopping picture — what to buy across Israel's markets, Old City bazaars, Dead Sea cosmetics, Israeli wine and Judaica — see the [shopping in Israel guide](/shopping-in-israel).

@@ -132,6 +132,8 @@ All prices stated in this guide are ranges — hotel rates change daily based on
 
 ## Useful links
 
+For visitors specifically interested in staying in Old Jaffa — heritage hotels in the ancient port district, the Clock Tower area and near the flea market — see the dedicated [Jaffa hotels guide](/jaffa-hotels-guide).
+
 For deeper neighborhood context — what each area of Tel Aviv feels like, where to eat and how to get around — see the [Tel Aviv neighborhoods guide](/tel-aviv-neighborhoods-guide). For the city's food scene, the [Tel Aviv food guide](/tel-aviv-food-guide) covers neighborhoods from the Carmel Market to Florentin's Thursday night scene. For the White City Bauhaus architecture the mid-range hotels sit within, the [Tel Aviv White City guide](/tel-aviv-white-city) goes deeper into the UNESCO heritage context.
 
 For broader accommodation across Israel — Dead Sea resort hotels, Galilee zimmer guesthouses, Negev desert lodges — the [Israel accommodation guide](/israel-accommodation-guide) maps the national picture. For getting around once you are in the city: the [Tel Aviv light rail guide](/tel-aviv-light-rail) covers the Red Line, which connects the beachfront hotels to Rothschild, the Carmel Market and beyond.
