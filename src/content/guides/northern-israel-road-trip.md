@@ -112,6 +112,8 @@ From Tiberias, Route 87 northeast leads up onto the **Golan plateau** (700–1,2
 
 **Golan wine country**: the high-altitude volcanic basalt of the Golan produces some of Israel's best reds (Cabernet Sauvignon, Syrah, Merlot). The **Golan Heights Winery** at Katzrin (Yarden and Gamla labels) has a full visitor centre with set tasting sessions daily except Shabbat; boutique options include **Pelter Winery** at Moshav Nov and **Chateau Golan** near Eliad. Advance booking strongly recommended at smaller estates. The [Israel wine guide](/israel-wine-wineries) has the full regional overview. [Golan Druze villages →](/golan/druze-villages)
 
+**Winter variant (December–March):** replace the Golan wine afternoon with a day at **Mount Hermon** — Israel's only ski resort sits 20 km north of Banias, at 1,640–2,073 m elevation. Combine Banias (morning) + Nimrod Fortress + Hermon cable car or ski afternoon in a single day if you pre-book Hermon tickets at skihermon.co.il. See the [Mount Hermon skiing guide](/mount-hermon-skiing) for full details on season windows, tickets, and what to expect on the slopes.
+
 Overnight: Katzrin (central Golan) or return to Tiberias.
 
 ---

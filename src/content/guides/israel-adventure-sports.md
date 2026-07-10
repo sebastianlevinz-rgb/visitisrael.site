@@ -136,12 +136,12 @@ Check availability in advance — flights are popular in spring wildflower seaso
 
 ## Mount Hermon skiing & snowboarding
 
-**Mount Hermon** in the northern Golan Heights is Israel's only ski resort. It operates when snowfall is sufficient — roughly late December through March in good years — with runs suited to beginners and intermediates. In low-snow winters, the upper slopes may not open at all.
+**Mount Hermon** in the northern Golan Heights is Israel's only ski resort. It operates when snowfall is sufficient — roughly late December through March in good years — with 13 runs suited to beginners and intermediates. In low-snow winters, the upper slopes may not open at all. Pre-order tickets are mandatory; the resort does not accept walk-in gate sales on busy days.
 
-- **Summer season:** the resort stays open year-round, offering a chair lift for hiking, mountain biking trails, and zip-lining across the Hermon plateau.
-- **How to reach:** Hermon is about 2.5 hours from Tel Aviv and Jerusalem. Ski and snowboard rental is available on-site. Check the Hermon resort website for current season conditions before travelling.
+- **Summer season:** the resort stays open year-round, offering a cable car to the upper slopes (2,073 m) for hiking, mountain biking trails, and a zip-line across the Hermon plateau.
+- **How to reach:** Hermon is about 3.5 hours from Tel Aviv and 2.5 hours from Haifa. Ski and snowboard rental is available on-site. Check snow conditions at skihermon.co.il before travelling — snowpack varies year to year.
 
-The [Golan Heights](/golan-heights-guide) has walking trails at all elevations for non-skiers; the plateau in summer is one of the least-visited and most spectacular corners of the country.
+See the full [Mount Hermon skiing guide](/mount-hermon-skiing) for tickets, season windows, ski school details, and combining the resort with Banias and Nimrod Fortress on the same day.
 
 ---
 
