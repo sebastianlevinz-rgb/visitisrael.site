@@ -877,3 +877,8 @@ Value: Confirmed editorial gap — only AI-aggregators rank for "3 days in Haifa
 Category: seo-content · Effort: S
 Value: France is Israel's #2 inbound tourism market; confirmed zero editorial travel comparisons for this pairing. 10-criteria side-by-side table, decision matrix, 5 FAQs, 3 CTAs (GYG + Skyscanner + Booking.com). Cross-linked from israel-vs-greece and israel-vs-turkey footers. 677 pages (+1). 951/951 e2e.
 - [iter 439 REVIEW] review-439-holiday-fix — fixed factual error in 3-days-in-haifa: Holiday of Holidays festival does NOT celebrate "Muslim Ramadan" in December (Ramadan is a lunar-calendar Islamic month, never in December); corrected to accurate description of Hanukkah + Christmas festival with interfaith community participation → 333458e
+
+## iter 441 · 2026-07-10 · 41a5c1a
+**Israel for German Travelers guide** (/israel-for-german-travelers)
+Category: seo-content+monetization · Effort: S
+Value: Germany is a top-5 Israel inbound market; confirmed zero editorial guide existed (grep-verified BACKLOG+DONE). Fills the same gap as the proven british-travelers/american-travelers playbook. Key German-specific content: Auswärtiges Amt advisory (link-only), ETA-IL (₪25/~€6, iaa.gov.il), GKV non-coverage warning, EC-Karte/Maestro ATM limitation (recommend DKB Visa/Revolut/N26), Schuko→Type H plug adapter (230V identical), EU roaming non-applicability, Yad Vashem historical context, CEST+1/CET+2 timezone, German Embassy TLV (3 Daniel Frisch Street). 3 CTAs: Booking.com + GYG + SafetyWing. 6 FAQs. 678 pages (+1). 953/953 e2e (+2).

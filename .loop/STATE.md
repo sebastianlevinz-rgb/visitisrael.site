@@ -1,31 +1,21 @@
 # LOOP STATE
 
-- iteration: 440
-- lastMode: RESEARCH (440%5==0)
-- lastItem: research-440-origin-markets-negev-golan
-- lastResult: RESEARCH — 4 net-new items added to BACKLOG (/israel-for-german-travelers P2/S, /3-days-in-negev P2/M, /3-days-in-golan P3/M, /israel-for-dutch-travelers P3/S). No code shipped (RESEARCH mode). No gate run.
-- nextRotationCategory: 441%5==1 → BUILD (monetization). 442%5==2 → BUILD (seo-content). 443%5==3 → BUILD (tools/technical fall-through). 444%5==4 → REVIEW. 445%5==0 → RESEARCH.
+- iteration: 441
+- lastMode: BUILD (monetization; 441%5==1)
+- lastItem: israel-for-german-travelers
+- lastResult: BUILD GREEN — /israel-for-german-travelers shipped. 0 check errors · 678 pages (+1 from 677) · 953/953 e2e pass (+2 from 951). SHA 41a5c1a. CI in_progress at push time.
+- nextRotationCategory: 442%5==2 → BUILD (seo-content). 443%5==3 → BUILD (tools/technical fall-through). 444%5==4 → REVIEW. 445%5==0 → RESEARCH. 446%5==1 → BUILD (monetization).
 - higgsfieldSpent: 0
-- updatedAt: 2026-07-10T21:45Z
+- updatedAt: 2026-07-10T22:45Z
 - branch context: work on master; feature work on auto/<slug>
 
+Notes: iter 441 BUILD (monetization) — /israel-for-german-travelers shipped. Germany is historically a top-5 Israel inbound market; zero editorial guide existed (confirmed gap). Format mirrors proven british-travelers/american-travelers playbook. Content: Auswärtiges Amt advisory (link-only; NEVER paste text), ETA-IL since Jan 2025 (₪25/~€6; iaa.gov.il; 72h; 2-year multi-entry), Lufthansa FRA/MUC/BER flight routes table (~4h15m), GKV health insurance gap warning (GKV not valid outside EU; Reisekrankenversicherung essential), EC-Karte/Maestro ATM limitation (recommend DKB Visa/Revolut/N26), Schuko → Type H adapter (230V identical; plug adapter only; no converter), EU roaming non-applicability, historical/Yad Vashem context, CEST+1/CET+2 timezone table, German Embassy Tel Aviv (3 Daniel Frisch Street; +972-3-693-1313), ELEFAND registration. 3 CTAs: Booking.com hotels + GYG private tour + SafetyWing travel insurance. 6 FAQs. Title: 46 chars ✓  Description: 164 chars ✓. Smoke +1 (/israel-for-german-travelers), a11y +1 (/israel-for-german-travelers).
+
+Notes: iter 440 RESEARCH — 4 net-new items added to BACKLOG (/israel-for-german-travelers P2/S, /3-days-in-negev P2/M, /3-days-in-golan P3/M, /israel-for-dutch-travelers P3/S). No code shipped (RESEARCH mode). No gate run.
+
 Notes: iter 439 REVIEW — Audited iters 436–438 (3-days-in-eilat, 3-days-in-haifa, israel-vs-france).
-Checks: (1) title lengths 56/58/48 chars all ≤65 ✓; (2) description lengths 161/161/145 chars all ≤170 ✓;
-(3) hero images — all 3 verified in public/ (eilat/hero.jpg, haifa/hero.jpg, jerusalem/hero.jpg) ✓;
-(4) CTA images — all 7 CTA images verified in public/ ✓;
-(5) affiliate partners — viator/booking/discovercars/getyourguide/skyscanner all valid ✓;
-(6) smoke test routes — all 3 confirmed present in smoke.spec.ts ✓;
-(7) a11y routes — all 3 confirmed present in a11y.spec.ts ✓;
-(8) internal links — all 45 links checked; sub-destination routes (/eilat/coral-beach etc.) correctly resolve via attractions collection ✓;
-(9) cross-links — eilat-travel-guide→3-days-in-eilat, haifa-travel-guide→3-days-in-haifa, israel-vs-greece→israel-vs-france, israel-vs-turkey→israel-vs-france all confirmed ✓;
-(10) no H1 in content bodies ✓;
-(11) DEFECT FOUND: 3-days-in-haifa.md line 88 claimed Holiday of Holidays festival celebrates "Muslim Ramadan simultaneously" in December — factually incorrect (Ramadan follows lunar calendar, has not been in December for many years). Fixed: clarified festival celebrates Hanukkah + Christmas with all three faith communities participating; added explicit note that Ramadan is not in December.
-Gate: 0 check errors · 677 pages · 951/951 e2e pass. GREEN.
-Ship: committed 333458e, pushed. CI in_progress at push time.
-
-Notes: iter 438 BUILD (seo-content) — /israel-vs-france shipped. France is Israel's #2 inbound market; zero editorial travel comparison existed. 10-criteria side-by-side table (beaches, history, cuisine, costs, nightlife, safety, visas, getting there, climate, unique factor), decision matrix, 5 FAQs, 3 CTAs (GYG tours + Skyscanner TLV–CDG flights + Booking.com hotels). Cross-links: israel-vs-greece footer + israel-vs-turkey footer. YAML apostrophe fix (France''s in single-quoted string). Link-check caught /tel-aviv-guide (doesn't exist) → fixed to /tel-aviv. Smoke +1 (/israel-vs-france), a11y +1 (/israel-vs-france). Gate: 0 check errors · 677 pages · 951/951 e2e pass. SHA eadd39f. CI in_progress at push time.
-
-Notes: iter 437 BUILD (seo-content) — /3-days-in-haifa shipped. P2 M item from iter435 research batch. Three-day Haifa long weekend itinerary: Day 1 UNESCO Bahá'í Terraces guided tour (09:00 start, bahai-haifa.org reservation) + German Colony boulevard + port evening; Day 2 Wadi Nisnas Arab-Christian quarter (early hummus institutions) + Carmel Market (Hadar hillside) + Carmelit up to Merkaz HaCarmel ridge; Day 3 Daliyat el-Carmel Druze village (saj pita, Saturday market, El-Muhraka panorama) + Stella Maris Carmelite Monastery (Cave of Elijah, cable car to Bat Galim) + Carmel National Park return. 6 FAQs (Carmelit, transport from TLV/JLM, Haifa coexistence framing, Shabbat, car-hire, 3-day sufficiency). 3 CTAs: GYG Haifa Bahá'í gardens tour + Booking.com + DiscoverCars. Cross-link added to haifa-travel-guide "Three days" row in planning section. Smoke +1 (/3-days-in-haifa), a11y +1 (/3-days-in-haifa). Initial link-check failure: /rosh-hanikra-guide not yet built — fixed by routing to /day-trips-from-haifa instead. Gate: 0 check errors · 676 pages · 949/949 e2e pass. SHA dfef898. CI in_progress at push time.
+DEFECT FOUND: 3-days-in-haifa.md claimed Holiday of Holidays celebrates "Muslim Ramadan" in December — factually wrong. Fixed.
+Gate: 0 check errors · 677 pages · 951/951 e2e pass. GREEN. SHA 333458e.
 
 Cron b7325b16 hourly @ :17. Loop history: 19 tools + sitemap-lastmod + link-checker(+depth) + i18n
 Phase0/1a/1b/1c/2 Batches1-18(COMPLETE) + 42 review passes + 3 technical (event-schema + meta-trim + locale-links) + 57 EN guides + 7 tools-monetization;
