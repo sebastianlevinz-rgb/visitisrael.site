@@ -85,7 +85,7 @@ Day two moves up Haifa's hillside and into the Arab-Christian neighbourhood that
 
 [Wadi Nisnas](/haifa/wadi-nisnas) is a small, dense Arab-Christian quarter on Haifa's lower hillside — one of the oldest continuously inhabited neighbourhoods in the city. The main draw is the food: several hummus and falafel institutions that have operated for decades, aimed primarily at local Arab residents rather than tourists. The atmosphere is genuinely neighbourhood-scale; the streets are narrow, street-art murals commissioned since 2011 cover many walls, and the pace is unhurried.
 
-The **Holiday of Holidays** festival (usually December) fills Wadi Nisnas with markets, live music and cross-community events celebrating Jewish Hanukkah, Christian Christmas and Muslim Ramadan simultaneously — if your visit falls in December, this is worth building your trip around.
+The **Holiday of Holidays** festival (usually December) fills Wadi Nisnas with markets, live music and cross-community events celebrating Jewish Hanukkah and Christian Christmas — a showcase of Haifa's Arab, Jewish and Christian communities together. Ramadan follows the Islamic lunar calendar and does not fall in December. If your visit falls in December, this festival is worth building your trip around.
 
 For food, the hummus institutions open early (from around 07:00) and serve through the late morning until they sell out — arrive by 09:00 for the best experience. The falafel stands operate through midday.
 
