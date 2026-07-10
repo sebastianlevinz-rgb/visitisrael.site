@@ -1,6 +1,6 @@
 ---
 title: 'How to Hire a Licensed Tour Guide in Israel (2026)'
-description: 'How to find and hire a licensed Ministry of Tourism tour guide in Israel: what the licence means, how to verify it, where to book, guide specialisations, daily rates and 5 questions to ask before you commit.'
+description: 'Hire a licensed tour guide in Israel: what the Ministry of Tourism licence means, where to book, guide specialisations, daily rates and key questions to ask.'
 heroImage: /images/regions/jerusalem/hero.jpg
 category: Tours
 updatedAt: 2026-07-10
