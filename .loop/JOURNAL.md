@@ -7156,3 +7156,23 @@ What: /israel-for-british-travelers — P2 S seo-content+monetization. UK-origin
 Gate: 0 check errors · 670 pages (+1) · 935/935 e2e pass.
 Ship: squash-merged to master SHA e5cbea7, pushed to origin/master. CI in_progress at push time.
 Next: iter 428 → BUILD (tools or fall-through, 428%5==3).
+
+## 2026-07-10T09:50Z · iter 428 · BUILD (monetization fall-through) · jaffa-hotels-guide
+What: New /jaffa-hotels-guide — P2 S monetization. Where to Stay in Jaffa boutique hotels guide,
+distinct from best-hotels-tel-aviv (TLV-wide) and jaffa-travel-guide (general). Startup: fresh
+cloud env; local master 51 commits behind origin — hard-reset to origin/master (fcad84f = iter427
+state). Found stale auto/israel-vs-cyprus branch on origin — content already in master from iter419
+review; deleted stale branch. Tools exhausted (11/11); technical also empty; fell through to top P2
+monetization per playbook.
+Content: Why-Jaffa section (heritage atmosphere, flea market on doorstep, port sunset, Red Line
+12 min to Carmel Market, quieter trade-off vs Rothschild); Luxury: The Jaffa Hotel (1879 French
+hospital Marriott Luxury Collection; Byzantine ruins under glass lobby) + The Setai Tel Aviv
+(Crusader-period stonework); Upper mid-range: Market House Hotel (Old Clock Tower district, Atlas
+Hotels boutique chain, best-value Jaffa option); Budget: Old Port hostel cluster + Neve Tzedek
+guesthouse strategy for price-sensitive visitors. Seasonal pricing (Pride week 3–5 months ahead;
+Passover/Sukkot 2–3 months; Jan–Mar best-value window). 6 FAQs. 3 CTAs: Booking Jaffa +
+Booking TLV + GYG Jaffa walking tour. Cross-links added in jaffa-travel-guide (hotels paragraph)
+and best-hotels-tel-aviv (Jaffa-specific link in Useful Links). Smoke test /jaffa-hotels-guide added.
+Gate: 0 check errors · 671 pages (+1 from 670) · 936/936 e2e pass.
+Ship: committed to master SHA 99d8dca, pushed. CI in_progress at push time.
+Next: iter 429 → REVIEW (429%5==4).
