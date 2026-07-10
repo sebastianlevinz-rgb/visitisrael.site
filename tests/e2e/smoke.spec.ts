@@ -239,6 +239,7 @@ const ROUTES = [
   '/israel-evening-activities',
   '/1-day-jerusalem-itinerary',
   '/1-day-tel-aviv-itinerary',
+  '/3-days-in-tel-aviv',
   '/free-things-to-do-israel',
   '/cheap-flights-to-israel',
   '/jerusalem-old-city-walking-tour',
