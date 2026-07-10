@@ -42,7 +42,7 @@ For a structured first visit, our [3 days in Jerusalem itinerary](/itineraries) 
 
 ## Bethlehem: the Nativity
 
-Bethlehem lies in the West Bank, a short hop south of Jerusalem. The **Church of the Nativity**, built over the cave traditionally honoured as the birthplace of Jesus, is the draw, along with the Milk Grotto and Shepherds' Field. The practical catch: **standard rental cars are not insured for the Palestinian-controlled Area A**, so don't drive your hire car in. Take an organised half-day tour or a licensed local guide/taxi, and **carry your passport** for the checkpoint. Our [Jerusalem & Bethlehem day trip](/jerusalem-bethlehem-day-trip) guide covers the logistics, costs and what to expect at the crossing.
+Bethlehem lies in the West Bank, a short hop south of Jerusalem. The **Church of the Nativity**, built over the cave traditionally honoured as the birthplace of Jesus, is the draw, along with the Milk Grotto and Shepherds' Field. The practical catch: **standard rental cars are not insured for the Palestinian-controlled Area A**, so don't drive your hire car in. Take an organised half-day tour or a licensed local guide/taxi, and **carry your passport** for the checkpoint. Our [Bethlehem travel guide](/bethlehem-travel-guide) covers the Church of the Nativity, Shepherds' Field, the Banksy wall art, where to eat and how the city feels as a destination. Our [Jerusalem & Bethlehem day trip](/jerusalem-bethlehem-day-trip) guide covers the checkpoint logistics, costs and how to get there from Jerusalem.
 
 ## Nazareth and the Galilee
 
