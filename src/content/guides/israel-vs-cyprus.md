@@ -169,4 +169,4 @@ Most travellers with 10–14 days are well-placed to experience both countries p
 
 ---
 
-More: [First time in Israel](/first-time-in-israel) · [Best time to visit Israel](/best-time-to-visit-israel) · [Israel costs and budget guide](/israel-cost-budget) · [Is Israel safe?](/is-israel-safe) · [Israel visa information](/visa-information) · [Israel vs Jordan](/israel-vs-jordan) · [Israel vs Egypt](/israel-vs-egypt) · [Israel vs Turkey](/israel-vs-turkey) · [Dead Sea visitor guide](/dead-sea-guide) · [Tel Aviv nightlife guide](/tel-aviv-nightlife) · [Eilat snorkeling guide](/eilat-snorkeling-guide)
+More: [First time in Israel](/first-time-in-israel) · [Best time to visit Israel](/best-time-to-visit-israel) · [Israel costs and budget guide](/israel-cost-budget) · [Is Israel safe?](/is-israel-safe) · [Israel visa information](/visa-information) · [Israel vs Jordan](/israel-vs-jordan) · [Israel vs Egypt](/israel-vs-egypt) · [Israel vs Turkey](/israel-vs-turkey) · [Israel vs Greece](/israel-vs-greece) · [Dead Sea visitor guide](/dead-sea-guide) · [Tel Aviv nightlife guide](/tel-aviv-nightlife) · [Eilat snorkeling guide](/eilat-snorkeling-guide)

@@ -137,7 +137,7 @@ Both destinations are well-served from major European hubs.
 
 **Turkey:** Istanbul is closer to Western Europe — roughly 3.5 hours from London, 2.5 hours from Rome or Vienna. Pegasus Airlines and Turkish Airlines offer competitive fares from across Europe. Bodrum and Antalya have direct charter and low-cost connections from the UK, Germany and Scandinavia in summer.
 
-Compare live fares for both destinations using the [Skyscanner affiliate link](#) above — flexible-date searches often reveal 30–40% differences between weeks.
+Flexible-date searches often reveal 30–40% differences between weeks — use the Skyscanner flights card above to compare fares for both destinations.
 
 ---
 

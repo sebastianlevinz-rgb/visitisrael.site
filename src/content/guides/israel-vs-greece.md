@@ -119,7 +119,7 @@ Both countries are safe for mainstream tourists.
 
 **Israel (ETA-IL):** Citizens of the EU, USA, UK, Canada, Australia and many other countries apply for an Electronic Travel Authorisation online before travel. The fee is approximately USD 7 and authorisation is typically issued within minutes. See the [Israel visa information guide](/visa-information) for full details.
 
-**Greece (Schengen):** Greece is a member of the Schengen Area. Citizens of most Western countries can enter visa-free for up to 90 days in any 180-day period — no prior registration or fee required. Note that the UK post-Brexit is subject to the 90/180-day Schengen rule, and ETIAS (European Travel Information and Authorisation System) is expected to be implemented for non-EU nationals from 2025 onwards — verify current status before travel. Verify your specific nationality's requirements with the official Greek immigration authority before booking.
+**Greece (Schengen):** Greece is a member of the Schengen Area. Citizens of most Western countries can enter visa-free for up to 90 days in any 180-day period — no prior registration or fee required. Note that the UK post-Brexit is subject to the 90/180-day Schengen rule, and ETIAS (European Travel Information and Authorisation System) was expected for non-EU nationals from 2025 but has faced repeated delays — verify current ETIAS status before travel. Verify your specific nationality's requirements with the official Greek immigration authority before booking.
 
 ---
 
