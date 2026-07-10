@@ -7063,3 +7063,22 @@ No issues: Dead-sea-vs-eilat, tel-aviv-vs-jerusalem, eilat-snorkeling-guide, eil
 Gate: pnpm check 0 errors · 665 pages · 932/932 e2e pass.
 Ship: committed to master SHA a9df79a, pushed.
 Next: iter 420 → RESEARCH (420%5==0). Survey SERP gaps, extend BACKLOG with fresh topic candidates.
+
+## 2026-07-10T02:45Z · iter 420 · RESEARCH · research-420-seasonal-comparison-monetization-gaps
+
+What: Competitor research pass to surface profitable content/tool gaps not yet in BACKLOG or DONE. Fresh cloud env; fetched + reset to origin/master (95c4356 = iter419) before work. Reviewed touristisrael.com, Lonely Planet, GetYourGuide, Rough Guides, Viator + targeted searches across seasonal, monetization, tools, and comparison angles. Used parallel sub-agents for breadth. Ran grep dedup scans against full BACKLOG.md + DONE.md for each candidate before adding.
+
+Rejected (already shipped or in backlog): accessible travel (iter353), visa/ETA-IL checker (iter83), film/TV tourism (iter272), weather+packing widget (iter37), experience-finder quiz (iter198), Jerusalem neighborhoods (iter246), Jerusalem nightlife (DONE), Mitzpe Ramon (iter341), Beer Sheva (iter328), Tiberias (iter87), sea-of-galilee guide (DONE), best-hotels-jerusalem (DONE), Neve Tzedek (DONE), bedouin experience (DONE), digital nomad guide (in backlog P3), group travel (in backlog P2), Israel during Passover (in backlog P2), Israel vs Morocco/Dubai/Spain/Italy (in backlog P3), hamat-gader (backlog iter110), galilee wine trail (in backlog P2).
+
+8 net-new items confirmed and added to BACKLOG:
+1. /israel-vs-france (P2,S) — no editorial comparison; France is Israel's 2nd inbound market
+2. /israel-in-spring (P2,S) — seasonal guide gap; complements israel-in-autumn backlog item
+3. /israel-in-winter (P2,S) — distinct from christmas-in-israel + mount-hermon-skiing; full winter guide
+4. /petra-wadi-rum-from-eilat (P2,M) — $500+ tours; Wadi Rum independent search demand; touristisrael.com has competitor page
+5. /aqaba-from-eilat (P2,S) — standalone guide; day-trips-from-eilat only mentions it in 1 bullet
+6. /how-to-hire-licensed-tour-guide-israel (P2,S) — competitor page confirmed; sits above highest-commission CTAs
+7. /jaffa-hotels-guide (P2,S) — distinct from best-hotels-tel-aviv; Booking.com Jaffa segment confirmed
+8. REVIEW item: verify Turkish Airlines direct flights claim in israel-vs-turkey.md (stale as of mid-2026)
+
+Gate: RESEARCH mode — no code changes, no gate needed.
+Next: iter 421 → BUILD (monetization). Top P2 monetization candidates: aqaba-from-eilat (P2,S, fastest), jaffa-hotels-guide (P2,S), dead-sea-day-trip-comparison (P2,S).

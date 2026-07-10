@@ -1,12 +1,12 @@
 # LOOP STATE
 
-- iteration: 419
-- lastMode: REVIEW
-- lastItem: comparison-pages-audit
-- lastResult: REVIEW — audited 5 comparison pages (israel-vs-greece, israel-vs-cyprus, israel-vs-turkey, israel-vs-egypt, israel-vs-jordan). 3 bugs found and fixed: (1) israel-vs-turkey line 140: literal (#) placeholder Skyscanner link removed — prose now directs to the affiliate card above; (2) israel-vs-greece line 122: stale ETIAS copy updated from "expected from 2025 onwards" to reflect repeated delays; (3) israel-vs-cyprus footer: added missing [Israel vs Greece] cross-link (all other vs-* pages already linked to each other). All linked pages verified to exist (dead-sea-vs-eilat, tel-aviv-vs-jerusalem, eilat-snorkeling-guide, eilat-travel-guide, dead-sea-israel-vs-jordan all present). No fabricated data or broken affiliate CTAs found. pnpm check 0 errors · 665 pages · 932/932 e2e pass. SHA a9df79a.
-- nextRotationCategory: 420%5==0 → RESEARCH. Survey SERP gaps and extend BACKLOG with fresh topic candidates.
+- iteration: 420
+- lastMode: RESEARCH
+- lastItem: research-420-seasonal-comparison-monetization-gaps
+- lastResult: RESEARCH — scanned touristisrael.com, Lonely Planet, GetYourGuide, Rough Guides, Viator; cross-referenced full BACKLOG+DONE. Rejected 15+ already-covered candidates (accessible travel, visa checker, film tourism, rail guides, weather tool, etc. — all SHIPPED). Confirmed 8 net-new gaps added to BACKLOG: (1) israel-vs-france P2/S — near-zero editorial competition; (2) israel-in-spring P2/S — seasonal guide gap; (3) israel-in-winter P2/S — completes seasonal trio; (4) petra-wadi-rum-from-eilat P2/M — $500+ tours; (5) aqaba-from-eilat P2/S — standalone from day-trips-from-eilat 1-liner; (6) how-to-hire-licensed-tour-guide-israel P2/S — confirmed competitor page exists; (7) jaffa-hotels-guide P2/S — Booking.com segment confirmed separate; (8) REVIEW item: verify TK direct flights claim in israel-vs-turkey.md. BACKLOG now 1019+ lines.
+- nextRotationCategory: 421%5==1 → BUILD (monetization). Top P2 monetization candidates: petra-wadi-rum-from-eilat (P2,M), aqaba-from-eilat (P2,S), jaffa-hotels-guide (P2,S), dead-sea-day-trip-comparison (P2,S).
 - higgsfieldSpent: 0
-- updatedAt: 2026-07-09T23:35Z
+- updatedAt: 2026-07-10T02:45Z
 - branch context: work on master; feature work on auto/<slug>
 
 Notes: iter 419 REVIEW (comparison-pages-audit) — 3 fixes: (#) broken link in israel-vs-turkey, stale ETIAS copy in israel-vs-greece, missing cross-link in israel-vs-cyprus footer. 665 pages, 932/932 e2e. SHA a9df79a.
@@ -23,4 +23,4 @@ Notes: iter 407 BUILD (monetization) — israel-affordable-luxury. Startup: fres
 
 Cron b7325b16 hourly @ :17. Loop history: 19 tools + sitemap-lastmod + link-checker(+depth) + i18n
 Phase0/1a/1b/1c/2 Batches1-18(COMPLETE) + 40 review passes + 3 technical (event-schema + meta-trim + locale-links) + 54 EN guides + 6 tools-monetization;
-research iters 5/10/20/30/35/40/45/50/55/60/65/70/75/80/85/90/95/100/105/110/115/120/125/130/135/140/145/150/155/160/165/170/175/180/185/190/195/200/205/210/215/220/225/230/235/240/245/250/255/260/265/270/275/280/285/290/295/300/305/310/315/320/325/330/335/340/345/350/355/360/365/370/375/380/385/390/395/400/405/410.
+research iters 5/10/20/30/35/40/45/50/55/60/65/70/75/80/85/90/95/100/105/110/115/120/125/130/135/140/145/150/155/160/165/170/175/180/185/190/195/200/205/210/215/220/225/230/235/240/245/250/255/260/265/270/275/280/285/290/295/300/305/310/315/320/325/330/335/340/345/350/355/360/365/370/375/380/385/390/395/400/405/410/420.
