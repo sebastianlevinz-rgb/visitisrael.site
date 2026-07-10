@@ -863,3 +863,6 @@ Audited iters 421–423. Fixed meta desc on how-to-hire-licensed-tour-guide-isra
 
 ## iter 434 · review-434-a11y-routes · SHA f59bf00
 Added missing a11y accessibility test routes for /3-days-in-tel-aviv, /israel-for-british-travelers, /jaffa-hotels-guide, /israel-for-american-travelers — all were in smoke.spec.ts but absent from a11y.spec.ts; all 4 pass WCAG 2A/2AA (945/945 e2e).
+
+## iter 436 · BUILD (seo-content+monetization) · 2026-07-10 · SHA 67cf9c9
+- [iter436] /3-days-in-eilat — SHA 67cf9c9 — "3 Days in Eilat: The Perfect Red Sea Long Weekend (2026)". P2 S seo-content+monetization. Three-day Eilat itinerary: Day 1 Coral Beach + Underwater Observatory; Day 2 Petra day trip via Yitzhak Rabin border crossing; Day 3 Dolphin Reef + Timna Park + Hai Bar Yotvata option. 6 FAQs, 3 CTAs (Viator Petra + Booking.com + DiscoverCars). Cross-link in eilat-travel-guide.md. Smoke + a11y +1 each. 675 pages (+1); 947/947 e2e pass (+2).

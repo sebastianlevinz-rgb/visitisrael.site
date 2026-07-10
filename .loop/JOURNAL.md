@@ -7260,3 +7260,13 @@ Items added to BACKLOG (8 total):
 
 No code shipped (RESEARCH mode). No gate run.
 Next: iter 436 → BUILD (monetization; 436%5==1). Top P2 monetization item from BACKLOG; or P2/M seo-content+monetization if monetization queue empty.
+
+## 2026-07-10T17:50Z · iter 436 · BUILD (monetization→seo-content+monetization) · 3-days-in-eilat
+What: New /3-days-in-eilat guide (675 pages, +1). P2 S seo-content+monetization from iter435 research batch.
+Three-day Eilat Red Sea weekend itinerary: Day 1 Coral Beach Nature Reserve + Underwater Observatory + North Beach promenade; Day 2 Petra full-day guided tour via Yitzhak Rabin border crossing (the #1 searched Eilat add-on); Day 3 Dolphin Reef morning swim + Timna Park/King Solomon's Pillars sunset + Hai Bar Yotvata option.
+Content: 1,800+ words, summer heat honesty throughout, Petra logistics (Jordan Pass, border hours, tour operator), INPA entry for Coral Beach. 6 FAQs. 3 CTAs: Viator Petra from Eilat + Booking.com Eilat hotels + DiscoverCars.
+Cross-link added: eilat-travel-guide.md "3 days" row in planning table → /3-days-in-eilat.
+Tests: smoke.spec.ts +1, a11y.spec.ts +1 (/3-days-in-eilat).
+Gate: pnpm check 0 errors; build 675 pages; 947/947 e2e pass.
+Ship: squash-merged + committed 67cf9c9, pushed. CI in_progress at update time.
+Prod: pending (next iteration will confirm CI result).
