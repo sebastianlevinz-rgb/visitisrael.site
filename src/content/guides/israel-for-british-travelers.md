@@ -1,6 +1,6 @@
 ---
 title: 'Israel Travel Guide for British Visitors (2026)'
-description: 'Complete Israel travel guide for UK visitors: FCDO advice, direct flights from London and Manchester, ETA-IL, driving on a UK licence, adapters, currency and British Embassy contacts.'
+description: 'Israel travel guide for UK visitors: FCDO advice, ETA-IL, direct UK flights, adapters, currency, driving on a UK licence and British Embassy contacts.'
 heroImage: /images/regions/jerusalem/hero.jpg
 category: Planning
 updatedAt: 2026-07-10

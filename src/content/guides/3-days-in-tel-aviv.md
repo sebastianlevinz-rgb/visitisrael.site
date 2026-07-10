@@ -1,6 +1,6 @@
 ---
 title: '3 Days in Tel Aviv: The Perfect Weekend Itinerary (2026)'
-description: 'Three days in Tel Aviv: a day-by-day plan covering the Bauhaus White City, Carmel Market, Jaffa, world-class museums, Florentin and the beachfront Tayelet — with Shabbat tips and budget notes.'
+description: 'Three days in Tel Aviv: Bauhaus White City, Carmel Market, Jaffa, museums, Florentin and the Tayelet promenade — day-by-day itinerary with Shabbat tips.'
 heroImage: /images/sub-destinations/tel-aviv/tayelet.jpg
 category: Itineraries
 updatedAt: 2026-07-10
