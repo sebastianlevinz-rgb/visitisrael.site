@@ -818,3 +818,12 @@ SHA 0d19743
 - Cross-links: israel-adventure-sports updated, northern-israel-road-trip winter variant, best-time-to-visit-israel
 - 665 pages (+1), 932/932 e2e pass (+1 smoke)
 SHA 36dabe0
+
+## iter 419 · REVIEW · comparison-pages-audit · 2026-07-10
+- Audited: israel-vs-greece, israel-vs-cyprus, israel-vs-turkey, israel-vs-egypt, israel-vs-jordan (all 5 comparison pages)
+- Fix 1: israel-vs-turkey literal (#) placeholder Skyscanner link removed
+- Fix 2: israel-vs-greece stale ETIAS "from 2025" copy updated to reflect delays
+- Fix 3: israel-vs-cyprus footer missing [Israel vs Greece] cross-link added
+- All linked pages verified present; no fabricated data; affiliate CTAs correct
+- 665 pages, 932/932 e2e pass
+SHA a9df79a

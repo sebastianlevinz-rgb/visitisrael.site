@@ -1,13 +1,15 @@
 # LOOP STATE
 
-- iteration: 418
-- lastMode: BUILD
-- lastItem: mount-hermon-skiing
-- lastResult: BUILD (seo-content, fell through from technical — all technical items shipped) — /mount-hermon-skiing guide shipped. Israel's only ski resort: 185-line guide covering ski season windows (Dec–Mar, snow-dependent), pre-order ticketing policy (mandatory), terrain (13 runs, 10 lifts, 1640–2073m), ski school/rentals, summer cable car + zip-line + hiking, day-trip combos (Banias+Nimrod+Bental+Majdal Shams Druze lunch), getting there (3.5h TLV, 2.5h Haifa — car essential). Verdict box, 3 affiliate CTAs (GYG Golan tours, DiscoverCars, Booking.com), 6 FAQs. Cross-links added to israel-adventure-sports (section updated with /mount-hermon-skiing link), northern-israel-road-trip (winter variant paragraph), best-time-to-visit-israel (winter section). Smoke spec +1. pnpm check 0 errors · 665 pages (+1) · 932/932 e2e pass (+1 smoke). SHA 36dabe0. CI=in_progress at push time.
-- nextRotationCategory: 419%5==4 → REVIEW. Audit a slice of already-shipped work: correctness, SEO, a11y, dead links, schema, honesty. Top candidate: review recent comparison pages (israel-vs-greece, israel-vs-cyprus, israel-vs-turkey, israel-vs-egypt, israel-vs-jordan) — verify facts, cross-links, CTAs.
+- iteration: 419
+- lastMode: REVIEW
+- lastItem: comparison-pages-audit
+- lastResult: REVIEW — audited 5 comparison pages (israel-vs-greece, israel-vs-cyprus, israel-vs-turkey, israel-vs-egypt, israel-vs-jordan). 3 bugs found and fixed: (1) israel-vs-turkey line 140: literal (#) placeholder Skyscanner link removed — prose now directs to the affiliate card above; (2) israel-vs-greece line 122: stale ETIAS copy updated from "expected from 2025 onwards" to reflect repeated delays; (3) israel-vs-cyprus footer: added missing [Israel vs Greece] cross-link (all other vs-* pages already linked to each other). All linked pages verified to exist (dead-sea-vs-eilat, tel-aviv-vs-jerusalem, eilat-snorkeling-guide, eilat-travel-guide, dead-sea-israel-vs-jordan all present). No fabricated data or broken affiliate CTAs found. pnpm check 0 errors · 665 pages · 932/932 e2e pass. SHA a9df79a.
+- nextRotationCategory: 420%5==0 → RESEARCH. Survey SERP gaps and extend BACKLOG with fresh topic candidates.
 - higgsfieldSpent: 0
 - updatedAt: 2026-07-09T23:35Z
 - branch context: work on master; feature work on auto/<slug>
+
+Notes: iter 419 REVIEW (comparison-pages-audit) — 3 fixes: (#) broken link in israel-vs-turkey, stale ETIAS copy in israel-vs-greece, missing cross-link in israel-vs-cyprus footer. 665 pages, 932/932 e2e. SHA a9df79a.
 
 Notes: iter 412 BUILD (monetization) — /bethlehem-tours-compared shipped. Decision-stage comparison of tour formats: half-day Nativity, full-day in-depth, Bethlehem+Jericho, dual-narrative West Bank, self-guided bus. 7 FAQs, 3 affiliate CTAs (GYG+Viator+Abraham). pnpm check 0 errors · 661 pages · 922/922 e2e pass. SHA 25434f1. CI=in_progress at push time.
 

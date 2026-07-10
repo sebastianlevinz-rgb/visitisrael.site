@@ -7049,3 +7049,17 @@ What: New /mount-hermon-skiing guide — Israel's only ski resort. 185 lines cov
 Gate: pnpm check 0 errors · 665 pages (+1) · 932/932 e2e pass (+1 smoke test).
 Ship: committed to master SHA 36dabe0, pushed. CI=in_progress at push time.
 Next: iter 419 → REVIEW (419%5==4). Audit recent comparison pages (vs-greece/cyprus/turkey/egypt/jordan) for accuracy, cross-links, CTAs, honesty.
+
+## 2026-07-10T01:15Z · iter 419 · REVIEW · comparison-pages-audit
+What: Audited 5 comparison pages shipped in iters 411–416 (israel-vs-greece, israel-vs-cyprus, israel-vs-turkey, israel-vs-egypt, israel-vs-jordan). Read all 5 in full; checked for factual accuracy, honest framing, working cross-links, affiliate CTA correctness, and internal link completeness.
+
+Findings and fixes:
+1. israel-vs-turkey.md line 140: Literal `[Skyscanner affiliate link](#)` placeholder — the `#` goes nowhere. This was a copy/paste artifact where the author meant to reference the Skyscanner affiliate card at the top of the page but left a bare anchor instead. Fixed by replacing with prose directing reader to the card above (no broken link).
+2. israel-vs-greece.md line 122: Stale ETIAS text: "is expected to be implemented for non-EU nationals from 2025 onwards" — As of 2026, ETIAS has faced repeated delays and has not launched. Updated to "was expected for non-EU nationals from 2025 but has faced repeated delays — verify current ETIAS status before travel."
+3. israel-vs-cyprus.md footer: Missing [Israel vs Greece] cross-link. All other comparison pages cross-link to each other in their footer; the Cyprus page omitted Greece. Added [Israel vs Greece](/israel-vs-greece).
+
+No issues: Dead-sea-vs-eilat, tel-aviv-vs-jerusalem, eilat-snorkeling-guide, eilat-travel-guide, dead-sea-israel-vs-jordan — all verified to exist. No fabricated data. All 3 affiliate CTAs per page correct. Historical facts reviewed (Jerusalem density, coastline lengths, flight times, visa fees) — all reasonable. Turkey "no direct flights" claim noted as uncertain (Turkish Airlines suspended then resumed Israel routes; claim may be stale as of mid-2026 but left unchanged pending web verification — editorial note added to BACKLOG).
+
+Gate: pnpm check 0 errors · 665 pages · 932/932 e2e pass.
+Ship: committed to master SHA a9df79a, pushed.
+Next: iter 420 → RESEARCH (420%5==0). Survey SERP gaps, extend BACKLOG with fresh topic candidates.
