@@ -7315,3 +7315,12 @@ Content: Auswärtiges Amt advisory (link-only framing — NEVER paste text; alwa
 Gate: pnpm check 0 errors (114 hints) · pnpm build 678 pages (+1 from 677) · pnpm test:e2e 953/953 pass (+2 from 951). GREEN.
 Ship: committed 41a5c1a to master, pushed 2026-07-10T22:44Z. CI in_progress at push time.
 Next: iter 442 → BUILD (seo-content; 442%5==2). Top P2 seo-content item from BACKLOG: /3-days-in-negev (P2/M) or /israel-solo-travel (P2/S) — both confirmed gaps from research.
+
+## 2026-07-10T23:45Z · iter 442 · BUILD (seo-content) · 3-days-in-negev
+Mode: BUILD (442%5==2 → seo-content). Startup: fresh cloud env; hard-reset to origin/master (bc777dc = iter441 state commit).
+Item: /3-days-in-negev (P2/M seo-content+monetization; iter440 research batch).
+Competitor gap confirmed: only AI-aggregators (TakeyourBackpack, Expedia, Trip.com) and jeep-tour operators rank for "3 days in Negev Israel"; no editorial publisher had a structured weekend itinerary.
+Content: Day 1 Route 40 drive south + Ilan Ramon Space Center geology orientation + crater rim first view + Negev Highland Wine Route + IDA dark-sky stargazing tour (book advance). Day 2 Wadi Ardon full crater loop (4-6h moderate; heat warnings in every outdoor section; 07:00 start ceiling in summer; 38-42C midday warning explicit). Day 3 Ein Avdat National Park canyon trail (INPA pass valid; upper/lower access explained; seasonal water level honesty) + Ben-Gurion desert home and grave at Sde Boker kibbutz (free; panoramic Negev view) + return TLV. 1,800+ words. Geology honesty: Makhtesh Ramon is NOT a meteor/volcanic crater — makhtesh (erosion crater unique to Negev/Sinai) explained in body and FAQ. 6 FAQs. 4 CTAs: DiscoverCars + GYG stargazing + Booking.com Mitzpe Ramon + Viator day trip. Cross-link added: mitzpe-ramon-guide.md → /3-days-in-negev. Tests: smoke.spec.ts +1, a11y.spec.ts +1.
+Gate: pnpm check 0 errors (114 hints) · pnpm build 679 pages (+1 from 678) · pnpm test:e2e 955/955 pass (+2 from 953). GREEN.
+Ship: committed 6f14403 to master, pushed 2026-07-10T23:40Z. CI in_progress at push time.
+Next: iter 443 → BUILD (tools/technical; 443%5==3). Top ready tools/technical item from BACKLOG.

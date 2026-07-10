@@ -1,13 +1,15 @@
 # LOOP STATE
 
-- iteration: 441
-- lastMode: BUILD (monetization; 441%5==1)
-- lastItem: israel-for-german-travelers
-- lastResult: BUILD GREEN — /israel-for-german-travelers shipped. 0 check errors · 678 pages (+1 from 677) · 953/953 e2e pass (+2 from 951). SHA 41a5c1a. CI in_progress at push time.
-- nextRotationCategory: 442%5==2 → BUILD (seo-content). 443%5==3 → BUILD (tools/technical fall-through). 444%5==4 → REVIEW. 445%5==0 → RESEARCH. 446%5==1 → BUILD (monetization).
+- iteration: 442
+- lastMode: BUILD (seo-content; 442%5==2)
+- lastItem: 3-days-in-negev
+- lastResult: BUILD GREEN — /3-days-in-negev shipped. 0 check errors · 679 pages (+1 from 678) · 955/955 e2e pass (+2 from 953). SHA 6f14403. CI in_progress at push time.
+- nextRotationCategory: 443%5==3 → BUILD (tools/technical fall-through). 444%5==4 → REVIEW. 445%5==0 → RESEARCH. 446%5==1 → BUILD (monetization). 447%5==2 → BUILD (seo-content).
 - higgsfieldSpent: 0
-- updatedAt: 2026-07-10T22:45Z
+- updatedAt: 2026-07-10T23:45Z
 - branch context: work on master; feature work on auto/<slug>
+
+Notes: iter 442 BUILD (seo-content) — /3-days-in-negev shipped. P2 M seo-content+monetization from iter440 research batch. Confirmed gap: only AI-aggregators (TakeyourBackpack, Expedia, Trip.com) rank for "3 days in Negev Israel"; no editorial publisher had a structured Negev weekend itinerary. Content: Day 1 Route 40 drive + Ilan Ramon Space Center crater first view + Negev Highland Wine Route + IDA dark-sky stargazing; Day 2 Wadi Ardon descent trail (4-6h moderate; heat warnings explicit) + Alpaca Farm; Day 3 Ein Avdat National Park canyon trail + Ben-Gurion desert home/grave at Sde Boker + return. Geology honesty throughout: Makhtesh Ramon is NOT meteor/volcanic crater (makhtesh = erosion crater unique to Negev/Sinai). Summer heat danger (38-42C midday) called out in every outdoor section. 6 FAQs: car requirement, geology distinction, heat/timing, INPA pass, best season, Tel Aviv distance. 4 CTAs: DiscoverCars (essential) + GYG stargazing + Booking.com Mitzpe Ramon + Viator day trip. Cross-link: mitzpe-ramon-guide.md → /3-days-in-negev. Tests: smoke +1, a11y +1. Title: 61 chars ✓ Description: 155 chars ✓.
 
 Notes: iter 441 BUILD (monetization) — /israel-for-german-travelers shipped. Germany is historically a top-5 Israel inbound market; zero editorial guide existed (confirmed gap). Format mirrors proven british-travelers/american-travelers playbook. Content: Auswärtiges Amt advisory (link-only; NEVER paste text), ETA-IL since Jan 2025 (₪25/~€6; iaa.gov.il; 72h; 2-year multi-entry), Lufthansa FRA/MUC/BER flight routes table (~4h15m), GKV health insurance gap warning (GKV not valid outside EU; Reisekrankenversicherung essential), EC-Karte/Maestro ATM limitation (recommend DKB Visa/Revolut/N26), Schuko → Type H adapter (230V identical; plug adapter only; no converter), EU roaming non-applicability, historical/Yad Vashem context, CEST+1/CET+2 timezone table, German Embassy Tel Aviv (3 Daniel Frisch Street; +972-3-693-1313), ELEFAND registration. 3 CTAs: Booking.com hotels + GYG private tour + SafetyWing travel insurance. 6 FAQs. Title: 46 chars ✓  Description: 164 chars ✓. Smoke +1 (/israel-for-german-travelers), a11y +1 (/israel-for-german-travelers).
 

@@ -882,3 +882,8 @@ Value: France is Israel's #2 inbound tourism market; confirmed zero editorial tr
 **Israel for German Travelers guide** (/israel-for-german-travelers)
 Category: seo-content+monetization · Effort: S
 Value: Germany is a top-5 Israel inbound market; confirmed zero editorial guide existed (grep-verified BACKLOG+DONE). Fills the same gap as the proven british-travelers/american-travelers playbook. Key German-specific content: Auswärtiges Amt advisory (link-only), ETA-IL (₪25/~€6, iaa.gov.il), GKV non-coverage warning, EC-Karte/Maestro ATM limitation (recommend DKB Visa/Revolut/N26), Schuko→Type H plug adapter (230V identical), EU roaming non-applicability, Yad Vashem historical context, CEST+1/CET+2 timezone, German Embassy TLV (3 Daniel Frisch Street). 3 CTAs: Booking.com + GYG + SafetyWing. 6 FAQs. 678 pages (+1). 953/953 e2e (+2).
+
+## iter 442 · 2026-07-10 · 6f14403
+**3 Days in the Negev Desert itinerary** (/3-days-in-negev)
+Category: seo-content+monetization · Effort: M
+Value: Confirmed editorial gap — only AI-aggregators rank for "3 days in Negev Israel." Fills the Negev weekend planner funnel. Day-by-day plan: Day 1 Route 40 + crater first view + stargazing; Day 2 Wadi Ardon loop (honest 4-6h moderate rating, summer heat warnings); Day 3 Ein Avdat canyon + Sde Boker Ben-Gurion grave. Geology honesty (makhtesh ≠ volcanic crater) + heat safety prominent. 4 CTAs: DiscoverCars + GYG stargazing + Booking.com Mitzpe Ramon + Viator day trip. Cross-link from mitzpe-ramon-guide.md. 679 pages (+1). 955/955 e2e (+2).
