@@ -866,3 +866,8 @@ Added missing a11y accessibility test routes for /3-days-in-tel-aviv, /israel-fo
 
 ## iter 436 · BUILD (seo-content+monetization) · 2026-07-10 · SHA 67cf9c9
 - [iter436] /3-days-in-eilat — SHA 67cf9c9 — "3 Days in Eilat: The Perfect Red Sea Long Weekend (2026)". P2 S seo-content+monetization. Three-day Eilat itinerary: Day 1 Coral Beach + Underwater Observatory; Day 2 Petra day trip via Yitzhak Rabin border crossing; Day 3 Dolphin Reef + Timna Park + Hai Bar Yotvata option. 6 FAQs, 3 CTAs (Viator Petra + Booking.com + DiscoverCars). Cross-link in eilat-travel-guide.md. Smoke + a11y +1 each. 675 pages (+1); 947/947 e2e pass (+2).
+
+## iter 437 · 2026-07-10 · dfef898
+**3-day Haifa long weekend itinerary** (/3-days-in-haifa)
+Category: seo-content+monetization · Effort: M
+Value: Confirmed editorial gap — only AI-aggregators rank for "3 days in Haifa Israel"; no LP/Timeout/TouristIsrael equivalent. Haifa = Israel's third city with deep existing site content (5 sub-destination pages, haifa-travel-guide, neighborhoods, hotels, day-trips) but zero itinerary format. Day 1 Bahá'í Terraces + German Colony; Day 2 Wadi Nisnas + Carmel Market + Carmelit; Day 3 Druze villages + Stella Maris. 6 FAQs. 3 CTAs (GYG, Booking, DiscoverCars). Cross-linked from haifa-travel-guide. 676 pages (+1). 949/949 e2e.

@@ -7270,3 +7270,14 @@ Tests: smoke.spec.ts +1, a11y.spec.ts +1 (/3-days-in-eilat).
 Gate: pnpm check 0 errors; build 675 pages; 947/947 e2e pass.
 Ship: squash-merged + committed 67cf9c9, pushed. CI in_progress at update time.
 Prod: pending (next iteration will confirm CI result).
+
+## 2026-07-10T19:05Z · iter 437 · BUILD (seo-content) · 3-days-in-haifa
+What: New /3-days-in-haifa guide (676 pages, +1). P2 M seo-content+monetization from iter435 research batch.
+Confirmed competitor gap: only AI-aggregators (WanderLog, AdventureBackpack, ItiMaker) rank for "3 days in Haifa Israel"; no editorial publisher covers a structured Haifa weekend itinerary.
+Content: Day 1 UNESCO Bahá'í Terraces guided tour (09:00, reserve via bahai-haifa.org) + German Colony boulevard + port promenade; Day 2 Wadi Nisnas Arab-Christian quarter (early hummus institutions, Holiday of Holidays festival context, street murals) + Hadar Carmel Market + Carmelit to Merkaz HaCarmel ridge; Day 3 Daliyat el-Carmel Druze village (saj pita on saj griddle, Saturday market, El-Muhraka Jezreel Valley panorama, Isfiya) + Stella Maris Monastery (Cave of Elijah, cable car to Bat Galim) + Carmel National Park. 6 FAQs. 3 CTAs: GYG Haifa Bahá'í gardens tour + Booking.com + DiscoverCars.
+Cross-link added: haifa-travel-guide.md "Three days" row in planning section → /3-days-in-haifa.
+Issue encountered: initial link-check caught broken /rosh-hanikra-guide (BACKLOG item not yet shipped) — fixed by routing to /day-trips-from-haifa instead. One focused fix, gate re-run.
+Tests: smoke.spec.ts +1, a11y.spec.ts +1 (/3-days-in-haifa). 949/949 e2e pass.
+Gate: pnpm check 0 errors; build 676 pages; 949/949 e2e pass.
+Ship: committed dfef898, pushed. CI + Lighthouse in_progress at update time.
+Prod: pending (next iteration will confirm CI result).
