@@ -7218,3 +7218,10 @@ YAML issue caught: unescaped apostrophe in first FAQ answer (`reserve's flagship
 Gate: pnpm check 0 errors (114 hints) · pnpm build 673 pages (+1 from 672) · pnpm test:e2e 939/939 pass (+2 from 937). GREEN.
 Ship: committed to master SHA fbd6201, pushed 2026-07-10T13:40Z. CI in_progress at push time.
 Next: iter 433 → BUILD (tools or fall-through; 433%5==3). Tools category = 11/11 shipped; technical = empty; fall through to top P2 monetization or seo-content.
+
+## 2026-07-10T14:45Z · iter 433 · BUILD (seo-content) · yom-kippur-in-israel
+What: New standalone /yom-kippur-in-israel guide (P2, S, seo-content+monetization). Tools category exhausted; technical empty; fell through to seo-content. Timely: Yom Kippur 2026 = Sep 20–21 (82 days away; high-intent tourist searches imminent). Content distinct from the 1-FAQ/1-paragraph YK treatment in traveling-israel-jewish-holidays. ~1,800 words covering: dates 2026+2027; Ben Gurion Airport 25-hour commercial shutdown (the non-negotiable planning point); empty-streets cycling promenade (Ayalon Freeway as cycling promenade); Western Wall Kol Nidre + Ne'ilah + shofar blast; Tel Aviv vs Jerusalem comparison; eating/drinking logistics for non-fasting tourists; respectful behaviour (driving legal but socially discouraged; no public eating in religious neighbourhoods); break-fast traditions. 3 CTAs: Booking.com hotels (JLM/TLV) + GYG High Holidays synagogue experience + Viator Jerusalem Yom Kippur tour. 6 FAQs. Cross-links: traveling-israel-jewish-holidays (YK section → standalone guide) + rosh-hashanah-in-israel (Related guides). Smoke + a11y +1 route each.
+YAML fix: apostrophe in Ne'ilah inside single-quoted YAML string → changed to double-quoted description.
+Gate: 0 check errors · 674 pages (+1 from 673) · 941/941 e2e pass (+2 from 939). GREEN.
+Ship: committed to master SHA 41683bf, pushed 2026-07-10T14:41Z. CI in_progress at push time.
+Next: iter 434 → REVIEW (434%5==4). Audit recent iters 431–433 (american-travelers, hai-bar-yotvata, yom-kippur-in-israel).
