@@ -510,6 +510,7 @@ const ROUTES = [
   '/israel-road-trip',
   '/backpacking-israel',
   '/israel-car-rental-comparison',
+  '/how-to-hire-licensed-tour-guide-israel',
 ];
 
 for (const route of ROUTES) {

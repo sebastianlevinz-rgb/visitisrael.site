@@ -63,4 +63,4 @@ Not sure whether to book with Abraham Tours, Bein Harim, GetYourGuide or a priva
 
 ## More ways to plan
 
-Prefer everything bundled? See [multi-day tour packages](/israel-tour-packages). Building your own route? Use our [itineraries](/itineraries) and the [11 regions](/). And sort the practical bits — an [eSIM](/israel-esim), [travel insurance](/israel-travel-insurance) and your [airport transfer](/ben-gurion-airport-transfers) — before you fly.
+Prefer everything bundled? See [multi-day tour packages](/israel-tour-packages). Building your own route? Use our [itineraries](/itineraries) and the [11 regions](/). Booking a private guide? See [how to hire a licensed tour guide in Israel](/how-to-hire-licensed-tour-guide-israel) — Ministry of Tourism licences explained, daily rates and 5 questions to ask before you commit. And sort the practical bits — an [eSIM](/israel-esim), [travel insurance](/israel-travel-insurance) and your [airport transfer](/ben-gurion-airport-transfers) — before you fly.
