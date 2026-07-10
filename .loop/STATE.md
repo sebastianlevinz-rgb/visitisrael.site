@@ -1,13 +1,15 @@
 # LOOP STATE
 
-- iteration: 425
-- lastMode: RESEARCH (425%5==0)
-- lastItem: research-425-comparison-series-new-destinations — competitor gaps for comparison series (Portugal, Croatia, Georgia), city weekend guides (TLV, Jerusalem), origin-market guide (UK), market guides (Levinsky, Tayelet)
-- lastResult: DONE — 8 new items appended to BACKLOG; findings appended to COMPETITORS.md. No code shipped (research mode). Passover duplicate flagged (two slugs: iter155 /passover-in-israel + iter405 /israel-passover-travel).
-- nextRotationCategory: 426%5==1 → BUILD (monetization). 427%5==2 → BUILD (seo-content). 428%5==3 → BUILD (tools or fall-through). 429%5==4 → REVIEW. 430%5==0 → RESEARCH.
+- iteration: 426
+- lastMode: BUILD (monetization) (426%5==1)
+- lastItem: 3-days-in-tel-aviv — P2 S seo-content+monetization city weekend itinerary guide for Tel Aviv
+- lastResult: DONE — /3-days-in-tel-aviv shipped to master (SHA 63014cb). 669 pages (+1 from 668). 934/934 e2e pass. CI in_progress at push time.
+- nextRotationCategory: 427%5==2 → BUILD (seo-content). 428%5==3 → BUILD (tools or fall-through). 429%5==4 → REVIEW. 430%5==0 → RESEARCH. 431%5==1 → BUILD (monetization).
 - higgsfieldSpent: 0
-- updatedAt: 2026-07-10T06:30Z
+- updatedAt: 2026-07-10T07:50Z
 - branch context: work on master; feature work on auto/<slug>
+
+Notes: iter 426 BUILD (monetization) — 3-days-in-tel-aviv shipped. P2 S seo-content+monetization. Three-day Tel Aviv weekend itinerary: Day 1 Rothschild Bauhaus White City + Carmel Market + Gordon Beach + Jaffa sunset; Day 2 ANU Museum of the Jewish People + Sarona Market + TLV Museum of Art + Florentin/rooftop; Day 3 Old Jaffa in depth + Tayelet final walk + BGA departure logistics. Shabbat logistics woven in, budget tier table (budget/mid/boutique), 3 affiliate CTAs (GYG private tour + Viator food tour + Booking.com hotels), 6 FAQs, dense cross-links to existing shipped guides. Smoke test route /3-days-in-tel-aviv added. Broken link fix: /levinsky-market-guide + /tel-aviv-tayelet (backlog, not yet built) replaced with unlinked text; /3-days-in-jerusalem corrected to /itineraries/3-days-in-jerusalem (pre-loop content path). Written directly on master (feature branch had no commits — same pattern as iter407). Gate: 0 check errors · 669 pages (+1) · 934/934 e2e pass. SHA 63014cb. CI in_progress at push time.
 
 Notes: iter 425 RESEARCH — Competitor analysis targeting comparison-series gaps, city weekend guide format, UK origin-market guide, and standalone market guides. 8 net-new items confirmed and added to BACKLOG: (1) /israel-vs-portugal P3 S; (2) /israel-vs-croatia P3 S; (3) /levinsky-market-guide P3 S seo+monetization; (4) /tel-aviv-tayelet P3 S; (5) /israel-for-british-travelers P2 S seo+monetization; (6) /3-days-in-tel-aviv P2 S seo+monetization; (7) /3-days-in-jerusalem P2 S seo+monetization; (8) /israel-vs-georgia P3 S. All 8 confirmed via grep with zero prior BACKLOG+DONE hits. Key findings: comparison series Portugal/Croatia/Georgia = wide-open editorial whitespace on all major travel brands; city-weekend itinerary format (Timeout TLV, Lonely Planet dominating) has zero coverage on our site for TLV+Jerusalem; UK-market guide gap real (gov.uk advisory only, no editorial); Levinsky+Tayelet confirmed as cross-references only in DONE guides, not standalone. Passover duplicate flagged: /passover-in-israel (iter155 BACKLOG) + /israel-passover-travel (iter405 BACKLOG) = same content concept — recommend human review before building either.
 
@@ -28,5 +30,5 @@ Notes: iter 408 BUILD (i18n) — Phase 6 QA sweep. Startup: fresh cloud env; loc
 Notes: iter 407 BUILD (monetization) — israel-affordable-luxury. Startup: fresh cloud env; local master diverged from origin/master (was at iter361 again); hard-reset to origin/master (ac5b8b0 = iter406) before work. Selected israel-affordable-luxury (P2,S) as top monetization candidate — confirmed zero prior coverage via STATE notes. Written directly on master after squash-merge failed (feature branch had no commits — file written but not committed before merge). pnpm check 0 errors, build 659 pages (+1 from 658), 915/915 e2e+a11y pass. SHA 65fe11c. CI=in_progress at push time. Cross-links: /best-hotels-tel-aviv, /best-hotels-jerusalem, /israel-cost-budget, /backpacking-israel, /israel-trip-cost-calculator all verified deployed. Lesson: always git add + git commit on the feature branch before doing git merge --squash, or commit directly to master if the squash produces nothing.
 
 Cron b7325b16 hourly @ :17. Loop history: 19 tools + sitemap-lastmod + link-checker(+depth) + i18n
-Phase0/1a/1b/1c/2 Batches1-18(COMPLETE) + 41 review passes + 3 technical (event-schema + meta-trim + locale-links) + 55 EN guides + 6 tools-monetization;
-research iters 5/10/20/30/35/40/45/50/55/60/65/70/75/80/85/90/95/100/105/110/115/120/125/130/135/140/145/150/155/160/165/170/175/180/185/190/195/200/205/210/215/220/225/230/235/240/245/250/255/260/265/270/275/280/285/290/295/300/305/310/315/320/325/330/335/340/345/350/355/360/365/370/375/380/385/390/395/400/405/410/420.
+Phase0/1a/1b/1c/2 Batches1-18(COMPLETE) + 41 review passes + 3 technical (event-schema + meta-trim + locale-links) + 56 EN guides + 6 tools-monetization;
+research iters 5/10/20/30/35/40/45/50/55/60/65/70/75/80/85/90/95/100/105/110/115/120/125/130/135/140/145/150/155/160/165/170/175/180/185/190/195/200/205/210/215/220/225/230/235/240/245/250/255/260/265/270/275/280/285/290/295/300/305/310/315/320/325/330/335/340/345/350/355/360/365/370/375/380/385/390/395/400/405/410/420/425.

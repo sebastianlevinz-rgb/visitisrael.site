@@ -842,3 +842,6 @@ SHA a9df79a
 
 ## iter 424 · REVIEW · 2026-07-10 · SHA 7ff050a
 Audited iters 421–423. Fixed meta desc on how-to-hire-licensed-tour-guide-israel (207 → 157 chars). All images, links, affiliates clean on aqaba-from-eilat + bethlehem-travel-guide.
+
+## iter 426 · BUILD (monetization) · 2026-07-10 · SHA 63014cb
+- [iter426] /3-days-in-tel-aviv — SHA 63014cb — "3 Days in Tel Aviv: The Perfect Weekend Itinerary". P2 S seo+monetization. Day-by-day plan (Day1 Bauhaus+Carmel+Beach+Jaffa; Day2 ANU Museum+Sarona+TLV Art+Florentin; Day3 Old Jaffa+Tayelet+BGA). Shabbat notes, budget tier table, 3 affiliate CTAs (GYG+Viator+Booking). Fills city-weekend-guide format gap (Timeout TLV, Lonely Planet dominating SERP). Cross-links to tel-aviv-neighborhoods-guide, tel-aviv-food-guide, jaffa-travel-guide, shabbat-guide. 669 pages (+1); 934/934 e2e pass.

@@ -7144,3 +7144,9 @@ Key finding: entire city-weekend-guide format (3 days in X) absent from site des
 Passover duplicate flagged in JOURNAL: /passover-in-israel (iter155 BACKLOG) and /israel-passover-travel (iter405 BACKLOG) = same content; human review recommended before building either.
 No code shipped. No gate required.
 Next: iter 426 → BUILD (monetization, 426%5==1).
+
+## 2026-07-10T07:50Z · iter 426 · BUILD (monetization) · 3-days-in-tel-aviv
+What: /3-days-in-tel-aviv — P2 S seo-content+monetization. Three-day Tel Aviv weekend itinerary guide. Day 1: Rothschild Bauhaus White City walk + Carmel Market + Gordon Beach + Jaffa sunset. Day 2: ANU Museum + Sarona Market + TLV Museum of Art + Florentin rooftop. Day 3: Old Jaffa in depth + Tayelet final walk + Ben Gurion departure logistics. Shabbat logistics, budget tier table, 3 affiliate CTAs (GYG private tour + Viator food tour + Booking.com hotels), 6 FAQs. Smoke test added for /3-days-in-tel-aviv. Broken links to /levinsky-market-guide + /tel-aviv-tayelet (not yet built) de-linked; /3-days-in-jerusalem corrected to /itineraries/3-days-in-jerusalem. Written directly to master (feature branch had no commits).
+Gate: 0 check errors · 669 pages (+1) · 934/934 e2e pass.
+Ship: SHA 63014cb, pushed to origin/master. CI in_progress at push time.
+Next: iter 427 → BUILD (seo-content, 427%5==2).
