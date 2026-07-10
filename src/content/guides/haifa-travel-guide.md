@@ -150,4 +150,6 @@ For a full breakdown of which neighborhood suits your trip — German Colony, Wa
 
 **Two days:** Day 1 as above. Day 2 — Akko in the morning (train, 25 min), afternoon free in Haifa or Rosh Hanikra by car. Alternatively use Day 2 for MadaTech (families) or the Carmel Druze villages.
 
+**Three days:** Use the [3 days in Haifa itinerary](/3-days-in-haifa) — the complete day-by-day plan covering the Bahá'í Terraces, Wadi Nisnas, the Carmel market, Druze villages and Stella Maris, with transport and hotel guidance.
+
 **From a cruise ship in Haifa port:** The German Colony is a 10–15 minute walk from the cruise terminal. The Bahá'í Gardens terrace base is another 10 minutes beyond that. The Carmelit Paris Square station is 5 minutes north of the German Colony. See the [cruise shore excursions guide](/cruise-shore-excursions-israel) for pre-booked port options. For [day trips from Haifa](/day-trips-from-haifa) including Akko, Rosh Hanikra and Caesarea, see our dedicated route planner.

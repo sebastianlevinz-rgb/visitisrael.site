@@ -337,6 +337,7 @@ const ROUTES = [
   '/yom-kippur-in-israel',
   '/3-days-in-tel-aviv',
   '/3-days-in-eilat',
+  '/3-days-in-haifa',
   '/israel-for-british-travelers',
   '/jaffa-hotels-guide',
   '/israel-for-american-travelers',

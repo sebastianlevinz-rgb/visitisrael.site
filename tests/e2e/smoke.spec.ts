@@ -346,6 +346,7 @@ const ROUTES = [
   '/hai-bar-yotvata-guide',
   '/yom-kippur-in-israel',
   '/3-days-in-eilat',
+  '/3-days-in-haifa',
   '/museum-of-tolerance-jerusalem',
   '/northern-israel-road-trip',
   '/eilat-snorkeling-guide',
