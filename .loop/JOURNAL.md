@@ -7281,3 +7281,12 @@ Tests: smoke.spec.ts +1, a11y.spec.ts +1 (/3-days-in-haifa). 949/949 e2e pass.
 Gate: pnpm check 0 errors; build 676 pages; 949/949 e2e pass.
 Ship: committed dfef898, pushed. CI + Lighthouse in_progress at update time.
 Prod: pending (next iteration will confirm CI result).
+
+## 2026-07-10T19:54Z · iter 438 · BUILD (seo-content) · israel-vs-france
+What: New /israel-vs-france destination comparison guide (677 pages, +1). P2 S seo-content. France is Israel's #2 inbound tourism market; confirmed zero editorial travel comparisons existed for this pairing.
+Content: Comparison intro + 10-criteria side-by-side table (beaches, ancient history, cuisine, costs, nightlife, safety, visas, getting there, climate, unique factor); decision matrix; combined-trip section (TLV–CDG direct 4.5h); 5 FAQs; 3 affiliate CTAs (GYG Israel tours + Skyscanner TLV–CDG + Booking.com Israel hotels). Cross-links added to israel-vs-greece footer and israel-vs-turkey footer. YAML fix: doubled apostrophe (France''s) in single-quoted string.
+Issue: Initial link-check failure — /tel-aviv-guide linked from body doesn't exist; correct slug is /tel-aviv. Fixed before final gate run.
+Tests: smoke.spec.ts +1, a11y.spec.ts +1 (/israel-vs-france). 951/951 e2e pass.
+Gate: pnpm check 0 errors; build 677 pages; 951/951 e2e pass.
+Ship: squash-merged + committed eadd39f, pushed. CI + Lighthouse in_progress at update time.
+Prod: pending (CI in_progress at push; next iteration will confirm).

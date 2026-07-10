@@ -1,13 +1,15 @@
 # LOOP STATE
 
-- iteration: 437
-- lastMode: BUILD (437%5==2 → seo-content)
-- lastItem: 3-days-in-haifa — new /3-days-in-haifa long weekend itinerary guide
-- lastResult: SHIP — 676 pages (+1); 0 check errors; 949/949 e2e pass; pushed dfef898; CI in_progress at update time
-- nextRotationCategory: 438%5==3 → BUILD (tools fall-through → seo-content). 439%5==4 → REVIEW. 440%5==0 → RESEARCH. 441%5==1 → BUILD (monetization).
+- iteration: 438
+- lastMode: BUILD (438%5==3 → tools fall-through → seo-content)
+- lastItem: israel-vs-france — new /israel-vs-france destination comparison guide
+- lastResult: SHIP — 677 pages (+1); 0 check errors; 951/951 e2e pass; pushed eadd39f; CI in_progress at update time
+- nextRotationCategory: 439%5==4 → REVIEW. 440%5==0 → RESEARCH. 441%5==1 → BUILD (monetization). 442%5==2 → BUILD (seo-content).
 - higgsfieldSpent: 0
-- updatedAt: 2026-07-10T19:05Z
+- updatedAt: 2026-07-10T19:54Z
 - branch context: work on master; feature work on auto/<slug>
+
+Notes: iter 438 BUILD (seo-content) — /israel-vs-france shipped. France is Israel's #2 inbound market; zero editorial travel comparison existed. 10-criteria side-by-side table (beaches, history, cuisine, costs, nightlife, safety, visas, getting there, climate, unique factor), decision matrix, 5 FAQs, 3 CTAs (GYG tours + Skyscanner TLV–CDG flights + Booking.com hotels). Cross-links: israel-vs-greece footer + israel-vs-turkey footer. YAML apostrophe fix (France''s in single-quoted string). Link-check caught /tel-aviv-guide (doesn't exist) → fixed to /tel-aviv. Smoke +1 (/israel-vs-france), a11y +1 (/israel-vs-france). Gate: 0 check errors · 677 pages · 951/951 e2e pass. SHA eadd39f. CI in_progress at push time.
 
 Notes: iter 437 BUILD (seo-content) — /3-days-in-haifa shipped. P2 M item from iter435 research batch. Three-day Haifa long weekend itinerary: Day 1 UNESCO Bahá'í Terraces guided tour (09:00 start, bahai-haifa.org reservation) + German Colony boulevard + port evening; Day 2 Wadi Nisnas Arab-Christian quarter (early hummus institutions) + Carmel Market (Hadar hillside) + Carmelit up to Merkaz HaCarmel ridge; Day 3 Daliyat el-Carmel Druze village (saj pita, Saturday market, El-Muhraka panorama) + Stella Maris Carmelite Monastery (Cave of Elijah, cable car to Bat Galim) + Carmel National Park return. 6 FAQs (Carmelit, transport from TLV/JLM, Haifa coexistence framing, Shabbat, car-hire, 3-day sufficiency). 3 CTAs: GYG Haifa Bahá'í gardens tour + Booking.com + DiscoverCars. Cross-link added to haifa-travel-guide "Three days" row in planning section. Smoke +1 (/3-days-in-haifa), a11y +1 (/3-days-in-haifa). Initial link-check failure: /rosh-hanikra-guide not yet built — fixed by routing to /day-trips-from-haifa instead. Gate: 0 check errors · 676 pages · 949/949 e2e pass. SHA dfef898. CI in_progress at push time.
 

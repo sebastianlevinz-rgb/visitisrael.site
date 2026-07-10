@@ -871,3 +871,8 @@ Added missing a11y accessibility test routes for /3-days-in-tel-aviv, /israel-fo
 **3-day Haifa long weekend itinerary** (/3-days-in-haifa)
 Category: seo-content+monetization · Effort: M
 Value: Confirmed editorial gap — only AI-aggregators rank for "3 days in Haifa Israel"; no LP/Timeout/TouristIsrael equivalent. Haifa = Israel's third city with deep existing site content (5 sub-destination pages, haifa-travel-guide, neighborhoods, hotels, day-trips) but zero itinerary format. Day 1 Bahá'í Terraces + German Colony; Day 2 Wadi Nisnas + Carmel Market + Carmelit; Day 3 Druze villages + Stella Maris. 6 FAQs. 3 CTAs (GYG, Booking, DiscoverCars). Cross-linked from haifa-travel-guide. 676 pages (+1). 949/949 e2e.
+
+## iter 438 · 2026-07-10 · eadd39f
+**Israel vs France destination comparison** (/israel-vs-france)
+Category: seo-content · Effort: S
+Value: France is Israel's #2 inbound tourism market; confirmed zero editorial travel comparisons for this pairing. 10-criteria side-by-side table, decision matrix, 5 FAQs, 3 CTAs (GYG + Skyscanner + Booking.com). Cross-linked from israel-vs-greece and israel-vs-turkey footers. 677 pages (+1). 951/951 e2e.
