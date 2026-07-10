@@ -7290,3 +7290,11 @@ Tests: smoke.spec.ts +1, a11y.spec.ts +1 (/israel-vs-france). 951/951 e2e pass.
 Gate: pnpm check 0 errors; build 677 pages; 951/951 e2e pass.
 Ship: squash-merged + committed eadd39f, pushed. CI + Lighthouse in_progress at update time.
 Prod: pending (CI in_progress at push; next iteration will confirm).
+
+## 2026-07-10T20:40Z · iter 439 · REVIEW · review-439-holiday-fix
+Mode: REVIEW (439%5==4). Startup: fresh cloud env; local master diverged from origin — hard-reset to origin/master (6ea3b99 = iter438 state commit).
+Slice reviewed: iters 436–438 — 3-days-in-eilat, 3-days-in-haifa, israel-vs-france.
+Checks: (1) title lengths 56/58/48 chars all ≤65 ✓; (2) description lengths 161/161/145 chars all ≤170 ✓; (3) hero images — eilat/hero.jpg, haifa/hero.jpg, jerusalem/hero.jpg all in public/ ✓; (4) CTA images — all 7 verified ✓; (5) affiliate partners — viator/booking/discovercars/getyourguide/skyscanner all valid ✓; (6) smoke + a11y routes — all 3 confirmed present ✓; (7) internal links — 45 links checked; 9 initial "missing" flagged by checker were sub-destination attraction routes (eilat-coral-beach.md → /eilat/coral-beach) — all valid via attractions collection ✓; (8) cross-links in eilat-travel-guide/haifa-travel-guide/israel-vs-greece/israel-vs-turkey all confirmed ✓; (9) no H1 in any body ✓; (10) DEFECT FOUND: 3-days-in-haifa.md claimed Holiday of Holidays festival celebrates "Muslim Ramadan" in December — Ramadan is a lunar-calendar holiday, never in December; this is a factual error that would mislead readers. Fix: updated to correctly describe the festival as celebrating Hanukkah + Christmas with all three faith community participation, adding explicit note that Ramadan is not in December.
+Gate: 0 check errors · 677 pages (unchanged) · 951/951 e2e pass. GREEN.
+Ship: committed 333458e, pushed. CI in_progress at push time.
+Next: iter 440 → RESEARCH (440%5==0).
