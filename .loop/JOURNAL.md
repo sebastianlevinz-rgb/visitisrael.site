@@ -7117,3 +7117,13 @@ What: New /how-to-hire-licensed-tour-guide-israel guide. Tools category exhauste
 Gate: pnpm check 0 errors · 668 pages (+1 from 667) · 933/933 e2e pass.
 Ship: committed to master SHA aa22b31, pushed. CI in_progress at push time.
 Next: iter 424 → REVIEW (424%5==4).
+
+## 2026-07-10T05:40Z · iter 424 · REVIEW · review-424-meta-desc-fix
+Mode: REVIEW (424%5==4). Startup: fresh cloud env; local master had 51-commit divergence — hard-reset to origin/master (78dabf9 = iter423) before work.
+Slice reviewed: iters 421–423 — aqaba-from-eilat, bethlehem-travel-guide, how-to-hire-licensed-tour-guide-israel.
+Checks: (1) hero images — all 7 images exist in public/ ✓; (2) affiliate partners — getyourguide/viator/discovercars/booking/abraham all valid ✓; (3) title lengths — all ≤54 chars ✓; (4) internal links — all 18 unique slugs resolve ✓ (including /eilat/coral-beach as attraction sub-route); (5) desc lengths: aqaba-from-eilat 158 ✓, bethlehem-travel-guide 147 ✓, how-to-hire-licensed-tour-guide-israel was 207 chars OVER 160 → trimmed to 157 chars ✓.
+Also verified: israel-vs-turkey direct-flights claim already hedged with "as of 2026"; adequate as-is.
+Fix: how-to-hire-licensed-tour-guide-israel description trimmed from 207 → 157 chars.
+Gate: 0 check errors · 668 pages · 933/933 e2e pass.
+Ship: squash-merged to master SHA 7ff050a, pushed. CI in_progress at push time.
+Next: iter 425 → RESEARCH (425%5==0).

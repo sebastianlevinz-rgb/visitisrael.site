@@ -839,3 +839,6 @@ SHA a9df79a
   Cross-links: christian-pilgrimage-holy-land, jerusalem-bethlehem-day-trip.
   667 pages (+1); 932/932 e2e pass.
 - [iter423] /how-to-hire-licensed-tour-guide-israel — SHA aa22b31 — Ministry of Tourism licensed guide hiring guide: verification, specialisations table, pricing, 5 questions; 3 affiliate CTAs (GYG+Viator). Sits above highest-commission tour CTAs in Israel affiliate space. Cross-links from private-tours-israel + best-tours-in-israel.
+
+## iter 424 · REVIEW · 2026-07-10 · SHA 7ff050a
+Audited iters 421–423. Fixed meta desc on how-to-hire-licensed-tour-guide-israel (207 → 157 chars). All images, links, affiliates clean on aqaba-from-eilat + bethlehem-travel-guide.

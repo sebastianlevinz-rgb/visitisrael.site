@@ -1,13 +1,15 @@
 # LOOP STATE
 
-- iteration: 423
-- lastMode: BUILD (423%5==3 → tools fall-through → monetization)
-- lastItem: how-to-hire-licensed-tour-guide-israel — Licensed tour guide hiring guide (monetization)
-- lastResult: SHIPPED — 0 check errors, 668 pages (+1 from 667), 933/933 e2e pass. SHA aa22b31. CI in_progress at push time.
-- nextRotationCategory: 424%5==4 → REVIEW. 425%5==0 → RESEARCH. 426%5==1 → BUILD (monetization). 427%5==2 → BUILD (seo-content). 428%5==3 → BUILD (tools or fall-through).
+- iteration: 424
+- lastMode: REVIEW (424%5==4)
+- lastItem: review-424-meta-desc-fix — REVIEW audit of iters 421–423 (aqaba-from-eilat, bethlehem-travel-guide, how-to-hire-licensed-tour-guide-israel)
+- lastResult: SHIPPED — fixed meta desc on how-to-hire-licensed-tour-guide-israel (207 → 157 chars). 0 check errors, 668 pages, 933/933 e2e pass. SHA 7ff050a.
+- nextRotationCategory: 425%5==0 → RESEARCH. 426%5==1 → BUILD (monetization). 427%5==2 → BUILD (seo-content). 428%5==3 → BUILD (tools or fall-through). 429%5==4 → REVIEW.
 - higgsfieldSpent: 0
-- updatedAt: 2026-07-10T04:50Z
+- updatedAt: 2026-07-10T05:40Z
 - branch context: work on master; feature work on auto/<slug>
+
+Notes: iter 424 REVIEW — Audited iters 421–423: aqaba-from-eilat, bethlehem-travel-guide, how-to-hire-licensed-tour-guide-israel. Checks: (1) hero images — all 7 images verified in public/ ✓; (2) affiliate partners — getyourguide, viator, discovercars, booking, abraham all valid ✓; (3) title lengths — all ≤54 chars ✓; (4) internal links — all 18 unique slugs resolve to content or page files ✓; (5) eilat/coral-beach sub-path verified as attraction route [region]/[attraction].astro ✓; (6) description lengths: aqaba-from-eilat 158 chars ✓, bethlehem-travel-guide 147 chars ✓, how-to-hire-licensed-tour-guide-israel was 207 chars OVER LIMIT → trimmed to 157 chars ✓. Also checked: israel-vs-turkey direct-flights claim already hedged "as of 2026"; no change needed. Gate: 0 check errors · 668 pages · 933/933 e2e pass. SHA 7ff050a.
 
 Notes: iter 423 BUILD (tools fall-through → monetization) — how-to-hire-licensed-tour-guide-israel shipped. P2 S monetization. Ministry of Tourism licence explained (blue/orange badge), how to verify credentials, where to find licensed guides (GYG/Viator/IATOA), specialisations table (Christian pilgrimage, Jewish heritage, archaeological, culinary, political, nature), pricing table (₪600–900 guide-only → ₪1,200–1,800 driver-guide → ₪2,000–4,000+ packages), 5 questions to ask before booking, honest note on non-licensed platform listings. 3 affiliate CTAs (GYG private guide Israel + Viator Jerusalem private guide + GYG TLV private guide). 6 FAQs. Cross-links added to private-tours-israel (Plan your trip section) and best-tours-in-israel (More ways to plan section). Smoke test route added. Gate: 0 check errors, 668 pages (+1 from 667), 933/933 e2e pass. SHA aa22b31. CI in_progress at push time. Note: tools category now exhausted (all 11 tools SHIPPED); technical category also empty; fell through to monetization per playbook.
 
@@ -24,5 +26,5 @@ Notes: iter 408 BUILD (i18n) — Phase 6 QA sweep. Startup: fresh cloud env; loc
 Notes: iter 407 BUILD (monetization) — israel-affordable-luxury. Startup: fresh cloud env; local master diverged from origin/master (was at iter361 again); hard-reset to origin/master (ac5b8b0 = iter406) before work. Selected israel-affordable-luxury (P2,S) as top monetization candidate — confirmed zero prior coverage via STATE notes. Written directly on master after squash-merge failed (feature branch had no commits — file written but not committed before merge). pnpm check 0 errors, build 659 pages (+1 from 658), 915/915 e2e+a11y pass. SHA 65fe11c. CI=in_progress at push time. Cross-links: /best-hotels-tel-aviv, /best-hotels-jerusalem, /israel-cost-budget, /backpacking-israel, /israel-trip-cost-calculator all verified deployed. Lesson: always git add + git commit on the feature branch before doing git merge --squash, or commit directly to master if the squash produces nothing.
 
 Cron b7325b16 hourly @ :17. Loop history: 19 tools + sitemap-lastmod + link-checker(+depth) + i18n
-Phase0/1a/1b/1c/2 Batches1-18(COMPLETE) + 40 review passes + 3 technical (event-schema + meta-trim + locale-links) + 55 EN guides + 6 tools-monetization;
+Phase0/1a/1b/1c/2 Batches1-18(COMPLETE) + 41 review passes + 3 technical (event-schema + meta-trim + locale-links) + 55 EN guides + 6 tools-monetization;
 research iters 5/10/20/30/35/40/45/50/55/60/65/70/75/80/85/90/95/100/105/110/115/120/125/130/135/140/145/150/155/160/165/170/175/180/185/190/195/200/205/210/215/220/225/230/235/240/245/250/255/260/265/270/275/280/285/290/295/300/305/310/315/320/325/330/335/340/345/350/355/360/365/370/375/380/385/390/395/400/405/410/420.
