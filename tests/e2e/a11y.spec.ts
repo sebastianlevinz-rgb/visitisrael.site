@@ -335,6 +335,10 @@ const ROUTES = [
   '/de/itineraries/7-days-in-israel',
   '/israel-car-rental-comparison',
   '/yom-kippur-in-israel',
+  '/3-days-in-tel-aviv',
+  '/israel-for-british-travelers',
+  '/jaffa-hotels-guide',
+  '/israel-for-american-travelers',
 ];
 
 for (const route of ROUTES) {
