@@ -159,6 +159,8 @@ The overall hotel tier range in Eilat: budget guesthouses ₪350–600/night; mi
 
 **Red Canyon**: the most accessible desert hike from Eilat — a free slot canyon 20 km northwest on Highway 12 with narrow passages, metal ladder descents and iron-oxide sandstone walls glowing red-orange. The 2 km circuit takes under 2 hours. [Full Red Canyon visitor guide](/red-canyon-eilat) covering the trail, flash flood safety, and how to combine it with Timna Park.
 
+**Hai Bar Yotvata Nature Reserve**: 35 km north of Eilat on Highway 90, this INPA biblical wildlife breeding centre houses white oryx, onager (Asiatic wild ass) and ostriches in a self-drive open-range section. A separate guided nocturnal tour covers caracal, sand cat and leopard-cat. In spring 2026, 33 white oryx calves and a rare scimitar oryx were born here — the largest breeding cohort in the reserve's history. INPA pass valid; car required. [Full Hai Bar Yotvata visitor guide](/hai-bar-yotvata-guide).
+
 **Negev highlights**: driving north from Eilat, you pass through the southern Arava desert (excellent stargazing at night), Timna Park (25 km), the Maktesh HaKatan small crater, and eventually reach Mitzpe Ramon and the Makhtesh Ramon — the world's largest erosion crater — in 2 hours. The crater rim, 300 metres above the Negev plateau, is a sharp contrast to the coastal resort feel of Eilat. Combine as a self-drive if you have a car.
 
 ---

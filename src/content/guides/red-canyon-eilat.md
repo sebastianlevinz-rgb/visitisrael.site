@@ -104,7 +104,7 @@ Red Canyon works naturally as part of a longer day in the Eilat Mountains and Ar
 
 **Red Canyon + Timna Park (half-day + half-day):** Timna Park is 45 km north of Eilat on Highway 90. Do Red Canyon first (earlier = cooler for the approach) and Timna in the late morning. Both sites together make a full desert day from Eilat — [Timna entry](/eilat-travel-guide) is roughly ₪60–80 per adult. Drive time between sites is under 30 minutes.
 
-**Red Canyon + Hai Bar Yotvata:** The Hai Bar Yotvata Nature Reserve — a biblical wildlife breeding centre with white oryx, onager and ostrich — is 35 km north of Eilat on Highway 90, between Kibbutz Yotvata and Kibbutz Samar. It works as a morning stop before Red Canyon, or the reverse for an afternoon wildlife visit. Both sites require a car.
+**Red Canyon + [Hai Bar Yotvata](/hai-bar-yotvata-guide):** The Hai Bar Yotvata Nature Reserve — a biblical wildlife breeding centre with white oryx, onager and ostrich — is 35 km north of Eilat on Highway 90, between Kibbutz Yotvata and Kibbutz Samar. It works as a morning stop before Red Canyon, or the reverse for an afternoon wildlife visit. Both sites require a car.
 
 **Desert hiking + [Eilat diving](/eilat-diving-snorkeling):** Red Canyon takes a morning. The drive back to Eilat and an afternoon snorkelling at Coral Beach or a glass-bottom boat tour is a natural pairing — desert in the morning, sea in the afternoon.
 

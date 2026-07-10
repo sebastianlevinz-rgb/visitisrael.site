@@ -343,6 +343,7 @@ const ROUTES = [
   '/tel-afek-guide',
   '/bedouin-experience-israel',
   '/red-canyon-eilat',
+  '/hai-bar-yotvata-guide',
   '/museum-of-tolerance-jerusalem',
   '/northern-israel-road-trip',
   '/eilat-snorkeling-guide',

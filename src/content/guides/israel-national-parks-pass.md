@@ -78,6 +78,7 @@ The INPA manages over 63 nature reserves and archaeological parks across the cou
 - [Tel Arad National Park](/tel-arad-guide) (Canaanite city + Israelite temple, northern Negev)
 - Avdat National Park (Nabataean city)
 - Timna Park (copper mines, desert landscape)
+- [Hai Bar Yotvata Nature Reserve](/hai-bar-yotvata-guide) (biblical wildlife breeding centre; white oryx, onager, guided nocturnal predator tour; 35 km north of Eilat)
 - Mamshit and Shivta Nabataean cities
 
 **Northern Israel & Galilee**
