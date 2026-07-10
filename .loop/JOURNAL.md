@@ -7150,3 +7150,9 @@ What: /3-days-in-tel-aviv — P2 S seo-content+monetization. Three-day Tel Aviv 
 Gate: 0 check errors · 669 pages (+1) · 934/934 e2e pass.
 Ship: SHA 63014cb, pushed to origin/master. CI in_progress at push time.
 Next: iter 427 → BUILD (seo-content, 427%5==2).
+
+## 2026-07-10T09:05Z · iter 427 · BUILD (seo-content) · israel-for-british-travelers
+What: /israel-for-british-travelers — P2 S seo-content+monetization. UK-origin traveller guide filling a confirmed SERP gap. Content: FCDO travel advice (tiered by area; link-first framing — no static summaries), ETA-IL requirement since Jan 2025 (₪25, iaa.gov.il, apply 1 week ahead), direct UK flight routes table (LHR/LGW/MAN/BHX/EDI: El Al/BA/easyJet/Jet2/Wizz Air), time zone (UTC+3 BST / UTC+2 GMT, minimal jet lag), mobile roaming (Monzo/Starling NFC recommended; Golan Telecom/Hot Mobile local SIM ₪50–90; Airalo/Nomad eSIM), Type H adapter explainer (230V same as UK; no voltage converter needed), currency/banking (Monzo/Starling best; ATM fee note; exchange bureaus in Carmel/Ben Yehuda), ABTA package operators (TUI/Jet2/BA Holidays; Thomas Cook clarified as no-longer-trading operator), British Embassy Tel Aviv + Consulate General Jerusalem + full emergency numbers, at-a-glance UK practicalities table. 3 affiliate CTAs: Booking.com hotels + GYG private tour + DiscoverCars (UK licence valid). 6 FAQs. Broken link caught during gate: /transport/jerusalem-to-tel-aviv (route does not exist) — changed to unlinked prose. 0 broken links post-fix.
+Gate: 0 check errors · 670 pages (+1) · 935/935 e2e pass.
+Ship: squash-merged to master SHA e5cbea7, pushed to origin/master. CI in_progress at push time.
+Next: iter 428 → BUILD (tools or fall-through, 428%5==3).
