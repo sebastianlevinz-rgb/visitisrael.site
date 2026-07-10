@@ -173,6 +173,7 @@ The High Holiday season is Jerusalem's most competitive accommodation window. Ho
 
 For broader context on visiting Israel during Jewish holidays:
 
+- [Yom Kippur in Israel](/yom-kippur-in-israel) — dedicated guide to the Day of Atonement: Ben Gurion Airport closure, the cycling promenade, Kol Nidre at the Western Wall, and practical visitor tips
 - [Traveling in Israel during Jewish holidays](/traveling-israel-jewish-holidays) — practical guide covering all major holidays: Passover, Sukkot, Hanukkah, Purim
 - [Western Wall visitor information](/jerusalem/western-wall) — practical visitor information and what to expect
 - [Jerusalem Old City walking tour](/jerusalem-old-city-walking-tour) — the Jewish Quarter and Western Wall area on foot

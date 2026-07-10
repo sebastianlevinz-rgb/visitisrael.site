@@ -148,6 +148,8 @@ The result is a rare urban experience: Israeli cities, normally chaotic, become 
 
 **Booking advice**: Yom Kippur itself changes little in hotel pricing — it is the surrounding High Holiday season that inflates rates. Book the full High Holiday period (Rosh Hashanah + Yom Kippur) two to four months ahead.
 
+For a full standalone guide — Ben Gurion Airport closure, the cycling promenade, attending Kol Nidre at the Western Wall, break-fast traditions, and planning logistics — see the [Yom Kippur in Israel guide](/yom-kippur-in-israel).
+
 ---
 
 ## Sukkot (Feast of Tabernacles) — Autumn

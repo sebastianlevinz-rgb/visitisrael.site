@@ -344,6 +344,7 @@ const ROUTES = [
   '/bedouin-experience-israel',
   '/red-canyon-eilat',
   '/hai-bar-yotvata-guide',
+  '/yom-kippur-in-israel',
   '/museum-of-tolerance-jerusalem',
   '/northern-israel-road-trip',
   '/eilat-snorkeling-guide',
