@@ -345,6 +345,7 @@ const ROUTES = [
   '/red-canyon-eilat',
   '/hai-bar-yotvata-guide',
   '/yom-kippur-in-israel',
+  '/3-days-in-eilat',
   '/museum-of-tolerance-jerusalem',
   '/northern-israel-road-trip',
   '/eilat-snorkeling-guide',

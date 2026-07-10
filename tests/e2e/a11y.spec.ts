@@ -336,6 +336,7 @@ const ROUTES = [
   '/israel-car-rental-comparison',
   '/yom-kippur-in-israel',
   '/3-days-in-tel-aviv',
+  '/3-days-in-eilat',
   '/israel-for-british-travelers',
   '/jaffa-hotels-guide',
   '/israel-for-american-travelers',

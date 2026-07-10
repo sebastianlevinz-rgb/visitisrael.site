@@ -136,7 +136,7 @@ Driving gives you the flexibility to stop at Timna, Ein Bokek (Dead Sea) or any 
 |---|---|
 | **1 day** | North Beach morning + Coral Beach snorkel or Underwater Observatory afternoon. Tight but doable if arriving by early flight. |
 | **2 days** | Add Dolphin Reef + Timna Park. One beach day and one inland/activities day. |
-| **3 days** | The Petra day trip is now viable (departs 06:30, returns ~21:00) without eating your beach time. Add a guided Red Sea boat tour or a half-day dive course. |
+| **3 days** | The Petra day trip is now viable (departs 06:30, returns ~21:00) without eating your beach time. Add a guided Red Sea boat tour or a half-day dive course. See our [3-day Eilat itinerary](/3-days-in-eilat) for a day-by-day plan. |
 | **Weekend (Fri–Sat)** | Fly down Friday morning, beach + Coral Beach Friday, Dolphin Reef Saturday morning before the Shabbat-end flight home. Popular with Tel Aviv families. |
 
 ---
