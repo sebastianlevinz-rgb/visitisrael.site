@@ -240,6 +240,7 @@ const ROUTES = [
   '/1-day-jerusalem-itinerary',
   '/1-day-tel-aviv-itinerary',
   '/3-days-in-tel-aviv',
+  '/israel-for-british-travelers',
   '/free-things-to-do-israel',
   '/cheap-flights-to-israel',
   '/jerusalem-old-city-walking-tour',
