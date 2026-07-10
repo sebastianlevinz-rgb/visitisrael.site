@@ -828,3 +828,13 @@ SHA 36dabe0
 - 665 pages, 932/932 e2e pass
 SHA a9df79a
 - Aqaba from Eilat day trip guide (iter 421) — e47ae81 — /aqaba-from-eilat: border crossing logistics, Japanese Garden snorkel, Al-Aqabah Castle, beach clubs, duty-free souk, Aqaba vs Eilat snorkel table, 1-day vs overnight, 6 FAQs, 3 affiliate CTAs. [monetization]
+
+## iter 422 · 2026-07-10 · BUILD (seo-content)
+- Bethlehem complete visitor guide (/bethlehem-travel-guide) — SHA 5cc281e
+  Standalone destination guide (distinct from /bethlehem-tours-compared and /jerusalem-bethlehem-day-trip).
+  Church of the Nativity (multi-denomination access, Grotto queue tips), Manger Square + Mosque of Omar,
+  Shepherds' Field (Franciscan + Greek Orthodox), Banksy wall artworks + Walled Off Hotel,
+  Palestinian craft shops (olive-wood/mother-of-pearl/tatreez), where to eat (Abu Elie, Afteem hummus),
+  getting there (3 methods + rental-car warning). 6 FAQs. 3 CTAs (GYG + Viator + Abraham).
+  Cross-links: christian-pilgrimage-holy-land, jerusalem-bethlehem-day-trip.
+  667 pages (+1); 932/932 e2e pass.

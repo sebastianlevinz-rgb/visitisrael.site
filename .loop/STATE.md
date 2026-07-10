@@ -1,13 +1,15 @@
 # LOOP STATE
 
-- iteration: 421
-- lastMode: BUILD (421%5==1 → monetization)
-- lastItem: aqaba-from-eilat — standalone Aqaba Jordan day trip guide from Eilat
-- lastResult: SHIPPED — 0 check errors, 666 pages (+1 from 665), 932/932 e2e pass. SHA e47ae81. CI in_progress at push time.
-- nextRotationCategory: 422%5==2 → BUILD (seo-content). 423%5==3 → BUILD (tools or fall-through). 424%5==4 → REVIEW. 425%5==0 → RESEARCH. 426%5==1 → BUILD (monetization).
+- iteration: 422
+- lastMode: BUILD (422%5==2 → seo-content)
+- lastItem: bethlehem-travel-guide — Bethlehem complete visitor guide (destination guide)
+- lastResult: SHIPPED — 0 check errors, 667 pages (+1 from 666), 932/932 e2e pass. SHA 5cc281e. CI in_progress at push time.
+- nextRotationCategory: 423%5==3 → BUILD (tools or fall-through). 424%5==4 → REVIEW. 425%5==0 → RESEARCH. 426%5==1 → BUILD (monetization). 427%5==2 → BUILD (seo-content).
 - higgsfieldSpent: 0
-- updatedAt: 2026-07-10T02:55Z
+- updatedAt: 2026-07-10T03:42Z
 - branch context: work on master; feature work on auto/<slug>
+
+Notes: iter 422 BUILD (seo-content) — bethlehem-travel-guide shipped. P2 M seo-content+monetization. Complete destination guide for Bethlehem (distinct from bethlehem-tours-compared and jerusalem-bethlehem-day-trip). Content: Checkpoint 300 tourist-facing logistics, Church of the Nativity (multi-denomination access, Grotto queue tips), Manger Square + Mosque of Omar, Shepherds' Field, Banksy wall artworks (Flower Thrower, Walled Off Hotel), Palestinian craft shops (olive-wood, mother-of-pearl, tatreez embroidery), where to eat (Abu Elie, Afteem hummus), getting there (guided tour / bus 231 + taxi / private driver), practical tips table. 6 FAQs. 3 affiliate CTAs (GYG + Viator + Abraham). Cross-links added: christian-pilgrimage-holy-land (Bethlehem section upgraded), jerusalem-bethlehem-day-trip (footer cross-link). Gate: 0 check errors, 667 pages (+1 from 666), 932/932 e2e pass. SHA 5cc281e. CI in_progress at push time.
 
 Notes: iter 421 BUILD (monetization) — aqaba-from-eilat shipped. P2 S monetization. Standalone day trip guide for Aqaba, Jordan from Eilat. Border crossing logistics (Yitzhak Rabin/Wadi Araba; ~30–60 min; closed Yom Kippur + Eid al-Adha), things to do (Japanese Garden snorkel, Al-Aqabah Castle, Berenice/Marina beach clubs, duty-free souk), Aqaba vs Eilat snorkeling comparison table, 1-day vs overnight section, 6 FAQs, 3 affiliate CTAs (GYG tours + Booking.com Aqaba hotels + DiscoverCars). Cross-links: day-trips-from-eilat (Aqaba bullet upgraded), eilat-travel-guide (hub paragraph). Gate: 0 check errors, 666 pages (+1 from 665), 932/932 e2e pass. SHA e47ae81. CI in_progress at push time.
 

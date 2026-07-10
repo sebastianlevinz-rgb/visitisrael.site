@@ -7095,3 +7095,19 @@ in day-trips-from-eilat (Aqaba bullet) and eilat-travel-guide (hub paragraph).
 Gate: pnpm check 0 errors · 666 pages (+1 from 665) · 932/932 e2e pass.
 Ship: squash-merged to master e47ae81, pushed. CI in_progress at push time.
 Next: iter 422 → BUILD (seo-content).
+
+## 2026-07-10T03:42Z · iter 422 · BUILD (seo-content) · bethlehem-travel-guide
+What: New /bethlehem-travel-guide standalone destination guide for Bethlehem — distinct from
+/bethlehem-tours-compared (format comparison) and /jerusalem-bethlehem-day-trip (crossing
+logistics). Content: Checkpoint 300 tourist-facing tips, Church of the Nativity (Grotto, nave,
+St Catherine's, multi-denomination layout, queue avoidance), Manger Square + Mosque of Omar,
+Shepherds' Field (Franciscan + Greek Orthodox), Banksy artworks on the separation barrier
+(Walled Off Hotel context), Palestinian craft shops (olive-wood, mother-of-pearl, tatreez),
+where to eat (Abu Elie, Afteem hummus), getting there (3 methods + rental-car warning), practical
+tips table. Honesty: West Bank framing factual + no political editorial, gov advisory links
+prominent, no "Bethlehem is safe" guarantee, no fabricated prices. 6 FAQs. 3 affiliate CTAs
+(GYG Bethlehem tour + Viator Bethlehem+Jericho + Abraham dual-narrative). Cross-links upgraded
+in christian-pilgrimage-holy-land (Bethlehem section) and jerusalem-bethlehem-day-trip (footer).
+Gate: pnpm check 0 errors · 667 pages (+1 from 666) · 932/932 e2e pass.
+Ship: squash-merged to master 5cc281e, pushed. CI in_progress at push time.
+Next: iter 423 → BUILD (tools or fall-through if thin).
