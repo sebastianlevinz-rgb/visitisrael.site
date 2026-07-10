@@ -4248,3 +4248,39 @@ Major English-language Israel travel editorial competitors (Lonely Planet, Rough
 - nomadicmatt.com: European-itinerary focus; no Israel-Spain comparison
 - Both Spain and Italy consistently rank #1-2 global tourist destinations; travellers weighing "Mediterranean cultural holiday" regularly shortlist Israel alongside Spain and Italy
 - Zero dedicated comparison pages found for either pairing on any major English travel brand
+
+## iter425 (2026-07-10) RESEARCH — Comparison series gaps + city weekend guides + origin-market guides
+
+### Competitor patterns identified
+
+**Comparison series whitespace (Portugal, Croatia, Georgia):**
+- Wanderlust.co.uk: covers "Israel vs Greece" specifically but NOT Portugal, Croatia, or Georgia
+- roughguides.com: individual country guides only; no cross-country comparison editorial
+- nomadicmatt.com: European itinerary content; zero Israel comparison pages
+- lonelyplanet.com: destination-specific; no "Israel vs X" comparison format at all
+- Portugal gap: No major English travel brand has published "Israel vs Portugal" editorial; stat-comparison sites (Numbeo, etc.) rank but deliver poor UX — editorial opportunity is wide open
+- Croatia gap: Croatia/Dubrovnik = Game of Thrones tourism boom audience; "ancient walled city" traveller naturally compares Dubrovnik vs Akko/Old Jerusalem — zero editorial serves this query
+- Georgia gap: Georgia (country) exploded 2024–2026 as a budget breakout destination; Israeli tourists are one of top-3 inbound nationalities to Georgia (TLV–TBS direct multiple daily); travellers compare the two frequently; zero comparison editorial found on any major brand
+
+**City weekend itinerary format:**
+- timeout.com/tel-aviv: "3 Perfect Days in Tel Aviv" (structured Fri–Sun; evergreen top performer)
+- lonelyplanet.com/israel: "3 Days in Jerusalem" (map-linked, high engagement)
+- tripadvisor.com: City Itinerary Builder now auto-generates 3-day plans for TLV + Jerusalem — functional but thin; editorial beats it for SEO
+- Our site has zero city-format weekend guides for TLV or Jerusalem despite both being the #1 + #2 queries; all existing TLV/Jerusalem guides are either attraction-specific or neighbourhood-specific
+- High conversion potential: city weekend guides naturally crosslink to hotel CTAs (Booking.com) + activity CTAs (GYG/Viator)
+
+**Origin-market guide gap (UK focus):**
+- gov.uk/foreign-travel-advice/israel: always ranks top for "Israel UK travel advice" but is advisory-only, not inspirational editorial
+- El Al UK site (elal.com/en/destinations/london): flight pages only, no editorial
+- TUI.co.uk Israel section: package-holiday commercial pages, not editorial guides
+- Zero UK-specific editorial travel guide exists for Israel ("Israel for British travelers") on any major English-language travel site — US-centric guides (State Dept links, dollar prices) dominate and serve UK readers poorly
+- UK is top-3 inbound market for Israel; this is a legitimate content gap with meaningful search volume
+
+**Levinsky Market and Tayelet standalone gaps:**
+- secrettelaviv.com: has dedicated Levinsky Market coverage (3+ articles on the spice strip); Tel Aviv Tayelet/boardwalk featured in "best TLV walks" guide
+- timeout.co.il/tel-aviv: both Levinsky and Tayelet have standalone editorial; Tayelet "best things to do on the boardwalk" is a top 10 performer
+- tripadvisor.com: Tayelet beachfront promenade = #1 ranked "outdoor activity" in Tel Aviv; Levinsky Market = top-10 food market for TLV; both are high-traffic tourist touchpoints with zero dedicated editorial on our site
+- Our tel-aviv-carmel-market.md (SHIPPED) proves the individual-market guide format converts well → Levinsky is the natural companion
+
+**Duplicate backlog note:**
+- Two Passover items exist: /passover-in-israel (iter155) and /israel-passover-travel (iter405) — same content concept, different slugs. Flagged for human review before either is built; recommend consolidating to single slug /passover-in-israel (older, more natural slug) and removing iter405 duplicate.

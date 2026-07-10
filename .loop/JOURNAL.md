@@ -7127,3 +7127,20 @@ Fix: how-to-hire-licensed-tour-guide-israel description trimmed from 207 → 157
 Gate: 0 check errors · 668 pages · 933/933 e2e pass.
 Ship: squash-merged to master SHA 7ff050a, pushed. CI in_progress at push time.
 Next: iter 425 → RESEARCH (425%5==0).
+
+## 2026-07-10T06:30Z · iter 425 · RESEARCH · research-425-comparison-series-new-destinations
+Mode: RESEARCH (425%5==0). Startup: fresh cloud env; local master had divergence — hard-reset to origin/master (7ff050a = iter424) before work.
+Competitors researched: Timeout Tel Aviv, Lonely Planet, Rough Guides, Nomadic Matt, Wanderlust UK, SecretTelAviv, gov.uk/FCDO Israel advisory, El Al UK, TripAdvisor TLV/Jerusalem.
+8 net-new items confirmed (zero prior BACKLOG+DONE hits each) and appended to BACKLOG:
+  (1) /israel-vs-portugal — P3 S seo-content — comparison series gap; Portugal competes for same "Mediterranean history+food" traveller
+  (2) /israel-vs-croatia — P3 S seo-content — comparison series gap; Dubrovnik vs Akko walled-city traveller
+  (3) /levinsky-market-guide — P3 S seo+monetization — standalone Persian-Jewish spice market guide; only cross-ref in shopping-in-israel DONE
+  (4) /tel-aviv-tayelet — P3 S seo-content — standalone 14km promenade guide; only cross-refs in cycling + other DONE guides
+  (5) /israel-for-british-travelers — P2 S seo+monetization — UK is top-3 inbound market; zero UK-specific editorial anywhere
+  (6) /3-days-in-tel-aviv — P2 S seo+monetization — city weekend itinerary; Timeout/LP dominate; zero coverage on site
+  (7) /3-days-in-jerusalem — P2 S seo+monetization — city weekend itinerary; high-intent format; zero coverage on site
+  (8) /israel-vs-georgia — P3 S seo-content — breakout destination 2024-2026; Israelis top-3 inbound to Georgia; TLV–TBS 3h direct
+Key finding: entire city-weekend-guide format (3 days in X) absent from site despite both TLV and Jerusalem ranking as top Israel queries.
+Passover duplicate flagged in JOURNAL: /passover-in-israel (iter155 BACKLOG) and /israel-passover-travel (iter405 BACKLOG) = same content; human review recommended before building either.
+No code shipped. No gate required.
+Next: iter 426 → BUILD (monetization, 426%5==1).

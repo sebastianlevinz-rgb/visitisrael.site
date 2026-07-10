@@ -1,13 +1,15 @@
 # LOOP STATE
 
-- iteration: 424
-- lastMode: REVIEW (424%5==4)
-- lastItem: review-424-meta-desc-fix — REVIEW audit of iters 421–423 (aqaba-from-eilat, bethlehem-travel-guide, how-to-hire-licensed-tour-guide-israel)
-- lastResult: SHIPPED — fixed meta desc on how-to-hire-licensed-tour-guide-israel (207 → 157 chars). 0 check errors, 668 pages, 933/933 e2e pass. SHA 7ff050a.
-- nextRotationCategory: 425%5==0 → RESEARCH. 426%5==1 → BUILD (monetization). 427%5==2 → BUILD (seo-content). 428%5==3 → BUILD (tools or fall-through). 429%5==4 → REVIEW.
+- iteration: 425
+- lastMode: RESEARCH (425%5==0)
+- lastItem: research-425-comparison-series-new-destinations — competitor gaps for comparison series (Portugal, Croatia, Georgia), city weekend guides (TLV, Jerusalem), origin-market guide (UK), market guides (Levinsky, Tayelet)
+- lastResult: DONE — 8 new items appended to BACKLOG; findings appended to COMPETITORS.md. No code shipped (research mode). Passover duplicate flagged (two slugs: iter155 /passover-in-israel + iter405 /israel-passover-travel).
+- nextRotationCategory: 426%5==1 → BUILD (monetization). 427%5==2 → BUILD (seo-content). 428%5==3 → BUILD (tools or fall-through). 429%5==4 → REVIEW. 430%5==0 → RESEARCH.
 - higgsfieldSpent: 0
-- updatedAt: 2026-07-10T05:40Z
+- updatedAt: 2026-07-10T06:30Z
 - branch context: work on master; feature work on auto/<slug>
+
+Notes: iter 425 RESEARCH — Competitor analysis targeting comparison-series gaps, city weekend guide format, UK origin-market guide, and standalone market guides. 8 net-new items confirmed and added to BACKLOG: (1) /israel-vs-portugal P3 S; (2) /israel-vs-croatia P3 S; (3) /levinsky-market-guide P3 S seo+monetization; (4) /tel-aviv-tayelet P3 S; (5) /israel-for-british-travelers P2 S seo+monetization; (6) /3-days-in-tel-aviv P2 S seo+monetization; (7) /3-days-in-jerusalem P2 S seo+monetization; (8) /israel-vs-georgia P3 S. All 8 confirmed via grep with zero prior BACKLOG+DONE hits. Key findings: comparison series Portugal/Croatia/Georgia = wide-open editorial whitespace on all major travel brands; city-weekend itinerary format (Timeout TLV, Lonely Planet dominating) has zero coverage on our site for TLV+Jerusalem; UK-market guide gap real (gov.uk advisory only, no editorial); Levinsky+Tayelet confirmed as cross-references only in DONE guides, not standalone. Passover duplicate flagged: /passover-in-israel (iter155 BACKLOG) + /israel-passover-travel (iter405 BACKLOG) = same content concept — recommend human review before building either.
 
 Notes: iter 424 REVIEW — Audited iters 421–423: aqaba-from-eilat, bethlehem-travel-guide, how-to-hire-licensed-tour-guide-israel. Checks: (1) hero images — all 7 images verified in public/ ✓; (2) affiliate partners — getyourguide, viator, discovercars, booking, abraham all valid ✓; (3) title lengths — all ≤54 chars ✓; (4) internal links — all 18 unique slugs resolve to content or page files ✓; (5) eilat/coral-beach sub-path verified as attraction route [region]/[attraction].astro ✓; (6) description lengths: aqaba-from-eilat 158 chars ✓, bethlehem-travel-guide 147 chars ✓, how-to-hire-licensed-tour-guide-israel was 207 chars OVER LIMIT → trimmed to 157 chars ✓. Also checked: israel-vs-turkey direct-flights claim already hedged "as of 2026"; no change needed. Gate: 0 check errors · 668 pages · 933/933 e2e pass. SHA 7ff050a.
 
