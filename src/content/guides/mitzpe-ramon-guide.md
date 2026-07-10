@@ -162,3 +162,5 @@ The **Alpaca Farm** (HaChava HaAlpaka), 5 km west of town on Route 40, is home t
 **Cell signal**: reliable in Mitzpe Ramon town and along Route 40; patchy on crater floor access roads and remote trails. Download offline maps (Maps.me or the Amud Anan hiking app) before descending into the crater.
 
 **Bedouin experience**: several Bedouin-hosted camps near Sde Boker (roughly 35 km north) offer camel rides, traditional meals, and overnight tent stays that combine naturally with a Mitzpe Ramon itinerary. See the [Bedouin experience guide](/bedouin-experience-israel).
+
+**Three days in the Negev**: if you have three days, see the [3-day Negev itinerary](/3-days-in-negev) — a day-by-day plan covering Makhtesh Ramon, Wadi Ardon, Ein Avdat canyon and Sde Boker, with transport, hotel and heat-safety guidance.
