@@ -7176,3 +7176,12 @@ and best-hotels-tel-aviv (Jaffa-specific link in Useful Links). Smoke test /jaff
 Gate: 0 check errors · 671 pages (+1 from 670) · 936/936 e2e pass.
 Ship: committed to master SHA 99d8dca, pushed. CI in_progress at push time.
 Next: iter 429 → REVIEW (429%5==4).
+
+## 2026-07-10T10:40Z · iter 429 · REVIEW · review-429-desc-trim
+Mode: REVIEW (429%5==4). Startup: fresh cloud env; local master diverged from origin — hard-reset to origin/master (563d4a7 = iter428 state commit). Stale auto/israel-vs-cyprus branch on remote; deletion via git push 403 (proxy restriction) — same stale branch from iter428; content already shipped (iter411 SHA 3f78882); harmless; noted for human cleanup.
+Slice reviewed: iters 426–428 — 3-days-in-tel-aviv, israel-for-british-travelers, jaffa-hotels-guide.
+Checks: (1) hero images — all 3 verified in public/ ✓; (2) affiliate partners — getyourguide/viator/booking/discovercars all valid ✓; (3) title lengths — 56/47/41 chars, all ≤65 ✓; (4) description lengths — 3-days-in-tel-aviv 192 chars OVER 170 threshold → trimmed to 152 ✓; israel-for-british-travelers 183 chars OVER 170 threshold → trimmed to 150 ✓; jaffa-hotels-guide 137 chars ✓; (5) internal links — 26 unique slugs verified; all resolve ✓; (6) rating/review/priceFrom CTA fields — not rendered to users (AffiliateCard shows live link only; fields are optional schema data) ✓.
+Fix: trimmed 2 overlong descriptions on branch auto/review-429-desc-trim → squash-merged to master SHA bbcba74.
+Gate: 0 check errors · 671 pages (unchanged) · 936/936 e2e pass.
+Ship: squash-merged to master SHA bbcba74, pushed. CI in_progress at push time.
+Next: iter 430 → RESEARCH (430%5==0).
