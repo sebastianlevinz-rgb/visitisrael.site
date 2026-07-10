@@ -4284,3 +4284,43 @@ Major English-language Israel travel editorial competitors (Lonely Planet, Rough
 
 **Duplicate backlog note:**
 - Two Passover items exist: /passover-in-israel (iter155) and /israel-passover-travel (iter405) — same content concept, different slugs. Flagged for human review before either is built; recommend consolidating to single slug /passover-in-israel (older, more natural slug) and removing iter405 duplicate.
+
+---
+
+## iter430 · 2026-07-10 · RESEARCH · Origin-market editorial guides
+
+**Focus:** Gap analysis for origin-market-specific Israel travel guides (US, India, Canada, Australia). Mirror of iter425 method applied to the guide format pioneered in iter427 (israel-for-british-travelers).
+
+**Competitors checked:** travel.state.gov, il.usembassy.gov, touristisrael.com, lonelyplanet.com, roughguides.com, nomadicmatt.com, globetrottingmama.com, smartraveller.gov.au, travel.gc.ca, embassies.gov.il/india.
+
+**Findings:**
+
+**US market:**
+- travel.state.gov/israel: Level 3 "Reconsider Travel" advisory; airport-specific guidance; no editorial inspiration content
+- il.usembassy.gov: official services only; no travel tips
+- touristisrael.com/entry-guidelines: covers ETA-IL for Americans but no US-specific editorial (visa fees, mobile, insurance, adapters, timezone)
+- lonelyplanet.com/israel: generic "how to get to Israel" — no US-specific advisory framing, no ESTA vs ETA-IL distinction
+- nomadicmatt.com/travel-guides/israel-travel-tips: evergreen tips format but US-centric ONLY in that prices in USD; no entry-requirement nuance, no embassy contacts, no US-specific card tips
+- **Gap confirmed:** Zero dedicated "Israel for American Travelers" editorial page on any major English travel brand. First-mover opportunity identical to the UK gap exploited in iter427.
+
+**India market:**
+- embassies.gov.il/india: eVisa-B2 launched July 1 2025; Indian nationals need full visa (NOT ETA-IL); 3-week processing; apply online
+- indianpassport holders are NOT on ETA-IL visa-exempt list — this is a critical distinction that no travel site currently explains well in editorial format
+- Growing market: El Al direct Delhi–TLV; Kerala/Tamil Nadu/Goa Christian pilgrimage tourism expanding
+- **Gap confirmed:** No dedicated editorial Israel guide for Indian travelers explaining the full visa requirement, eVisa-B2 system, vegetarian food context, and pilgrimage circuits. Niche but high-intent audience.
+
+**Canada market:**
+- travel.gc.ca/destinations/israel: advisory + registration (ROCA) but zero editorial inspiration
+- Air Canada YYZ routes exist (via European hub or codeshare with El Al)
+- OHIP does NOT cover international travel — Canadian travelers routinely discover this too late
+- **Gap confirmed:** No major travel brand has Canadian-specific Israel editorial (advisory link + CAD prices + OHIP warning + ROCA registration tip).
+
+**Australia market:**
+- smartraveller.gov.au/destinations/middle-east/israel-and-occupied-palestinian-territories: "Do Not Travel" advisory for Gaza border area / Level 3 for broader Israel — important to link correctly (not paste static text)
+- Qantas/Emirates/Etihad long-haul (~24–30h from Sydney) is a real differentiator vs UK/US
+- 28 Degrees Mastercard = canonical Aussie travel card tip (no FX fee); not mentioned on any Israel guide
+- **Gap confirmed:** No Australian-specific Israel editorial guide exists on any major brand.
+
+**Key meta-finding:** The iter427 `israel-for-british-travelers` approach (advisory link-only + visa/ETA explanation + flight routes table + timezone cheat + mobile options + power adapters + banking tips + local embassy contacts) is a repeatable playbook that works for any origin market. The US version (P2/S) should be next; Canada and Australia are P3/S clones; India is P3/M due to full-visa complexity.
+
+**Items added to BACKLOG:** 4 (/israel-for-american-travelers P2/S, /israel-for-canadian-travelers P3/S, /israel-for-australian-travelers P3/S, /israel-for-indian-travelers P3/M).

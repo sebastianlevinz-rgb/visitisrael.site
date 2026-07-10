@@ -7185,3 +7185,12 @@ Fix: trimmed 2 overlong descriptions on branch auto/review-429-desc-trim → squ
 Gate: 0 check errors · 671 pages (unchanged) · 936/936 e2e pass.
 Ship: squash-merged to master SHA bbcba74, pushed. CI in_progress at push time.
 Next: iter 430 → RESEARCH (430%5==0).
+
+## 2026-07-10T11:10Z · iter 430 · RESEARCH · research-430-origin-market-guides
+Mode: RESEARCH (430%5==0). Startup: fresh cloud env; local master diverged from origin — hard-reset to origin/master (6bceeeb = iter429 state commit).
+Focus: Origin-market editorial guide gaps for US, India, Canada, Australia — extending the iter427 british-travelers playbook format.
+Method: WebSearch/WebFetch across travel.state.gov, il.usembassy.gov, touristisrael.com, lonelyplanet.com, roughguides.com, nomadicmatt.com, smartraveller.gov.au, travel.gc.ca, embassies.gov.il/india. All 4 target slugs verified absent from BACKLOG+DONE via grep.
+Key findings: (1) Zero major English travel brand has a US-specific Israel editorial guide — first-mover gap identical to iter427 UK gap; (2) India critical distinction — Indian nationals NOT on ETA-IL exempt list, require full visa via eVisa-B2 (launched July 1 2025), makes India guide P3/M vs P3/S; (3) Canada + Australia advisory-only government pages exist but zero editorial inspirational guides; (4) iter427 playbook (advisory link + ETA-IL + embassy contacts + flight routes + timezone + no-FX-fee cards + mobile + adapter) is directly repeatable for each market.
+Items added: 4 net-new — /israel-for-american-travelers (P2/S), /israel-for-canadian-travelers (P3/S), /israel-for-australian-travelers (P3/S), /israel-for-indian-travelers (P3/M).
+No shipping (RESEARCH mode). No gate run needed.
+Next: iter 431 → BUILD monetization (431%5==1).
