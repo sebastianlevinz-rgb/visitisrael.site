@@ -331,6 +331,7 @@ const ROUTES = [
   '/western-galilee-guide',
   '/israel-vs-turkey',
   '/israel-vs-egypt',
+  '/israel-vs-france',
   '/fr/itineraries/7-days-in-israel',
   '/de/itineraries/7-days-in-israel',
   '/israel-car-rental-comparison',

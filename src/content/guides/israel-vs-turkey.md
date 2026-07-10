@@ -172,4 +172,4 @@ A common Eastern Mediterranean multi-year plan: Israel for cultural intensity on
 
 ---
 
-More: [First time in Israel](/first-time-in-israel) · [Best time to visit Israel](/best-time-to-visit-israel) · [Israel costs and budget guide](/israel-cost-budget) · [Best beaches in Israel](/best-beaches-israel) · [Is Israel safe?](/is-israel-safe) · [Israel visa information](/visa-information) · [Israel vs Jordan](/israel-vs-jordan) · [Israel vs Egypt](/israel-vs-egypt) · [Dead Sea vs Eilat](/dead-sea-vs-eilat) · [Tel Aviv vs Jerusalem](/tel-aviv-vs-jerusalem)
+More: [First time in Israel](/first-time-in-israel) · [Best time to visit Israel](/best-time-to-visit-israel) · [Israel costs and budget guide](/israel-cost-budget) · [Best beaches in Israel](/best-beaches-israel) · [Is Israel safe?](/is-israel-safe) · [Israel visa information](/visa-information) · [Israel vs Jordan](/israel-vs-jordan) · [Israel vs Egypt](/israel-vs-egypt) · [Israel vs Greece](/israel-vs-greece) · [Israel vs France](/israel-vs-france) · [Dead Sea vs Eilat](/dead-sea-vs-eilat) · [Tel Aviv vs Jerusalem](/tel-aviv-vs-jerusalem)

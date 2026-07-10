@@ -330,6 +330,7 @@ const ROUTES = [
   '/dead-sea-vs-eilat',
   '/israel-vs-turkey',
   '/israel-vs-egypt',
+  '/israel-vs-france',
   '/beer-sheva-guide',
   '/ein-kerem-jerusalem-guide',
   '/tel-arad-guide',
