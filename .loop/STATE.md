@@ -1,13 +1,15 @@
 # LOOP STATE
 
-- iteration: 431
-- lastMode: BUILD (monetization) (431%5==1)
-- lastItem: american-travelers — /israel-for-american-travelers US-market origin guide
-- lastResult: DONE — guide shipped to /israel-for-american-travelers (State Dept advisory, ETA-IL vs ESTA, no-FX-fee cards, US Embassy contacts, Type H adapter); smoke test added; 937/937 e2e pass; SHA cda089d; CI in_progress at push time.
-- nextRotationCategory: 432%5==2 → BUILD (seo-content). 433%5==3 → BUILD (tools or fall-through). 434%5==4 → REVIEW. 435%5==0 → RESEARCH.
+- iteration: 432
+- lastMode: BUILD (seo-content) (432%5==2)
+- lastItem: hai-bar-yotvata-guide — /hai-bar-yotvata-guide INPA biblical wildlife reserve near Eilat
+- lastResult: SHIPPED — 0 check errors, 673 pages (+1 from 672), 939/939 e2e pass (+2 from 937). SHA fbd6201. CI in_progress at push time.
+- nextRotationCategory: 433%5==3 → BUILD (tools or fall-through to seo-content/monetization). 434%5==4 → REVIEW. 435%5==0 → RESEARCH. 436%5==1 → BUILD (monetization).
 - higgsfieldSpent: 0
-- updatedAt: 2026-07-10T12:45Z
+- updatedAt: 2026-07-10T13:40Z
 - branch context: work on master; feature work on auto/<slug>
+
+Notes: iter 432 BUILD (seo-content) — /hai-bar-yotvata-guide shipped. P2 S seo-content+monetization. Self-drive biblical wildlife safari 35 km north of Eilat. White oryx (2026 hook: 33 calves + rare scimitar oryx March 2026), onager (biblical pere), ostrich, sand/Dorcas gazelles; guided nocturnal predator tour (caracal, sand cat, leopard-cat). Honest fenced-range framing; INPA pass valid; car required. 6 FAQs. 2 CTAs: DiscoverCars + Booking. Cross-links: eilat-travel-guide (Day Trips +Hai Bar paragraph), red-canyon-eilat (+guide link in Combining section), israel-national-parks-pass (+Hai Bar to Negev/Arava list). Smoke + a11y +1 route each. Startup: fresh cloud env; local master diverged 50 commits behind origin — hard-reset to origin/master (43fc468 = iter431 state). Gate: 0 check errors · 673 pages · 939/939 e2e pass. SHA fbd6201. CI in_progress at push time.
 
 Notes: iter 431 BUILD (monetization) — /israel-for-american-travelers shipped. P2 S seo-content+monetization. Startup: fresh cloud env; local master diverged (50 commits behind origin) — hard-reset to origin/master (cda089d pre-existing = last iter's state commit). Used iter427 british-travelers as structural template. Content: State Dept Level 3 advisory + STEP enrollment (step.state.gov); US flight routes table (El Al/United/Delta from JFK/EWR/MIA/ORD/LAX/BOS); ETA-IL vs ESTA distinction (Americans confuse the two; ₪25, iaa.gov.il, 72h+ ahead); timezone table (EST+7/PST+10); mobile roaming (T-Mobile included/AT&T-Verizon add-on/local SIM/eSIM); no-FX-fee cards (Schwab Visa/Chase Sapphire/Capital One/AmEx); Type H adapter + 230V voltage warning; US Embassy Jerusalem (18 Agron Rd +972-2-630-4000) + Tel Aviv (71 Hayarkon St +972-3-519-7575); Medicare/Medicaid gap (travel insurance strongly recommended); at-a-glance practicalities table; 3 affiliate CTAs (Booking hotels + GYG private tour + DiscoverCars). 6 FAQs. Dense cross-links to visa-information, is-israel-safe, cheap-flights-to-israel, driving-in-israel, israel-cost-budget, transportation. Smoke test route /israel-for-american-travelers added. Gate: 0 check errors · 672 pages (+1 from 671) · 937/937 e2e pass. SHA cda089d. CI in_progress at push time.
 

@@ -7204,3 +7204,17 @@ Smoke test: /israel-for-american-travelers added to tests/e2e/smoke.spec.ts ROUT
 Gate: 0 check errors · 672 pages (+1 from 671) · 937/937 e2e pass (8.2m).
 Ship: committed to master SHA cda089d, pushed. CI in_progress at push time.
 Next: iter 432 → BUILD seo-content (432%5==2).
+
+## 2026-07-10T13:40Z · iter 432 · BUILD (seo-content) · hai-bar-yotvata-guide
+
+Mode: BUILD (432%5==2 → seo-content category). Startup: fresh cloud env; local master diverged 50 commits behind origin/master (git pull --ff-only failed) — hard-reset to origin/master (43fc468 = iter431 state commit). Stale auto/israel-vs-cyprus branch still on remote (content was shipped iter411; deletion blocked by proxy 403 — noted for human cleanup; harmless).
+
+Item: [P2] (seo-content+monetization, S) /hai-bar-yotvata-guide — Hai Bar Yotvata Nature Reserve, INPA biblical wildlife breeding centre 35 km north of Eilat on Highway 90. Highest-priority P2 S seo-content item from iter360 research. Zero existing guide content; 6 major competitors have standalone guides.
+
+What: New guide /hai-bar-yotvata-guide — content: (1) White oryx flagship species + 2026 news hook (33 calves + rare scimitar oryx born March 2026, largest single-season cohort in reserve history); (2) Onager/Asiatic wild ass — biblical pere (Job 39:5–8); (3) Ostrich; (4) Arabian sand gazelle + Dorcas gazelle; (5) Nocturnal predator section — caracal, sand cat, leopard-cat (guided minivan tour, advance booking required, separate ticket); (6) Self-drive open-range section description (5 km one-way circuit, 45–60 min); (7) Practical information table (location, hours, INPA pass valid, car required); (8) Combining with Timna Park + Red Canyon (Arava circuit); (9) Kibbutz Yotvata overnight option (adjacent guesthouse + dairy). Honesty: animals in large fenced managed range (not "wild" in unconfined sense); "biblical animals" framing = conservation narrative, not proven zoological continuity; prices not hardcoded — verify at parks.org.il. 2 affiliate CTAs: DiscoverCars (car required; Highway 90 from Eilat) + Booking.com (Kibbutz Yotvata guesthouse + Eilat). 6 FAQs: animals visible, nocturnal booking, INPA pass validity, best season, visiting without car, children suitability. Cross-links: eilat-travel-guide.md (+Hai Bar paragraph in Day Trips section after Red Canyon entry), red-canyon-eilat.md (+linked mention in Combining section, changing plain-text Hai Bar reference to linked /hai-bar-yotvata-guide), israel-national-parks-pass.md (+entry in Negev/Arava INPA sites list). Smoke test route /hai-bar-yotvata-guide added to both smoke.spec.ts and a11y.spec.ts.
+
+YAML issue caught: unescaped apostrophe in first FAQ answer (`reserve's flagship species`) — fixed to `reserve''s flagship species` before gate run.
+
+Gate: pnpm check 0 errors (114 hints) · pnpm build 673 pages (+1 from 672) · pnpm test:e2e 939/939 pass (+2 from 937). GREEN.
+Ship: committed to master SHA fbd6201, pushed 2026-07-10T13:40Z. CI in_progress at push time.
+Next: iter 433 → BUILD (tools or fall-through; 433%5==3). Tools category = 11/11 shipped; technical = empty; fall through to top P2 monetization or seo-content.
