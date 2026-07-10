@@ -1,10 +1,10 @@
 # LOOP STATE
 
-- iteration: 417
+- iteration: 418
 - lastMode: BUILD
-- lastItem: israel-cruise-excursion-planner
-- lastResult: BUILD (tools) — /israel-cruise-excursion-planner interactive tool shipped. Vanilla-JS island: port selector (Haifa/Ashdod/Eilat) + hours ashore (4h/6h/8h/Full Day) → 2 ranked excursion cards per combo (24 total cards across 12 port×time combos). Each card: site name, drive time, feasibility badge (colour-coded), description, GYG/Viator affiliate CTAs. Logic: 4h=port-area only; 6h=1 regional site; 8h=1 distant/2 regional; Full Day=multi-site combos+Wadi Rum Jordan. 5 FAQs, bottom CTA row (GYG Haifa + GYG Ashdod). Cross-link added to cruise-shore-excursions-israel.md final paragraph. 7 new Playwright tests in tools.spec.ts (port/hours renders, error state, Haifa 4h, Ashdod full_day, Eilat 6h, reset flow, cross-link). pnpm check 0 errors · 664 pages (+1) · 931/931 e2e pass (+7). SHA 4769a0e. CI=in_progress at push time.
-- nextRotationCategory: 418%5==3 → BUILD (technical). Top P2 technical candidates: survey backlog; if thin, fall through to seo-content.
+- lastItem: mount-hermon-skiing
+- lastResult: BUILD (seo-content, fell through from technical — all technical items shipped) — /mount-hermon-skiing guide shipped. Israel's only ski resort: 185-line guide covering ski season windows (Dec–Mar, snow-dependent), pre-order ticketing policy (mandatory), terrain (13 runs, 10 lifts, 1640–2073m), ski school/rentals, summer cable car + zip-line + hiking, day-trip combos (Banias+Nimrod+Bental+Majdal Shams Druze lunch), getting there (3.5h TLV, 2.5h Haifa — car essential). Verdict box, 3 affiliate CTAs (GYG Golan tours, DiscoverCars, Booking.com), 6 FAQs. Cross-links added to israel-adventure-sports (section updated with /mount-hermon-skiing link), northern-israel-road-trip (winter variant paragraph), best-time-to-visit-israel (winter section). Smoke spec +1. pnpm check 0 errors · 665 pages (+1) · 932/932 e2e pass (+1 smoke). SHA 36dabe0. CI=in_progress at push time.
+- nextRotationCategory: 419%5==4 → REVIEW. Audit a slice of already-shipped work: correctness, SEO, a11y, dead links, schema, honesty. Top candidate: review recent comparison pages (israel-vs-greece, israel-vs-cyprus, israel-vs-turkey, israel-vs-egypt, israel-vs-jordan) — verify facts, cross-links, CTAs.
 - higgsfieldSpent: 0
 - updatedAt: 2026-07-09T23:35Z
 - branch context: work on master; feature work on auto/<slug>

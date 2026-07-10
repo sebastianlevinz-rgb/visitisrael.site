@@ -806,3 +806,15 @@ SHA 0d19743
 - [iter416 · c47ca18] /israel-vs-greece — Israel vs Greece destination comparison: 10-criteria table, decision matrix, history/beaches/food/costs/nightlife/safety/visas sections, 5 FAQs, 3 affiliate CTAs. Continues comparison series (turkey/egypt/jordan/cyprus). 924/924 e2e pass.
 
 - [iter417 · 4769a0e] /israel-cruise-excursion-planner — Interactive cruise excursion planner tool: port selector (Haifa/Ashdod/Eilat) + hours ashore (4h/6h/8h/Full Day) → 24 ranked excursion cards with drive times, feasibility badges, GYG/Viator CTAs. 7 Playwright tests. Cross-linked from cruise-shore-excursions-israel.md. 931/931 e2e pass.
+
+## iter 418 — /mount-hermon-skiing (2026-07-10)
+"Mount Hermon Ski Resort: Israel Skiing Guide (2026)" — seo-content guide for Israel's only ski resort.
+- Captures "skiing Israel", "Mount Hermon ski resort", "skiing Middle East" long-tail queries
+- Ski season coverage: Dec–Mar windows, snow-dependence framing, pre-order ticket policy (mandatory)
+- Terrain and facilities: 13 runs, 10 lifts, 1640–2073m, ski school (Hebrew/English/Russian), full rentals
+- Summer mode: cable car viewpoint, zip-line, mountain biking, wildflower season
+- Day-trip combos: Banias + Nimrod Fortress + Majdal Shams + Mount Bental in one day structure
+- 6 FAQs, verdict box, 3 affiliate CTAs (GYG Golan tours, DiscoverCars, Booking.com)
+- Cross-links: israel-adventure-sports updated, northern-israel-road-trip winter variant, best-time-to-visit-israel
+- 665 pages (+1), 932/932 e2e pass (+1 smoke)
+SHA 36dabe0
