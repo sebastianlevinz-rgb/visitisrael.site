@@ -4469,3 +4469,49 @@ Major English-language Israel travel editorial competitors (Lonely Planet, Rough
 - /israel-winter-sun-guide — P3/S seo-content+monetization [iter445 research]
 - /israel-for-spanish-travelers — P3/S seo-content+monetization [iter445 research]
 - /israel-itinerary-checker — P3/S tools [iter445 research]
+
+### 2026-07-11 · iter 450 · RESEARCH · Latin America + Southern Hemisphere + Nordic origin-market gaps
+
+**Research scope:** Identify origin-market guide gaps not yet in BACKLOG or DONE for underserved inbound-tourism source markets. Verified against BACKLOG.md (1093 lines) and DONE.md with targeted grep queries before adding.
+
+**Already covered (confirmed present, do not re-add):**
+- British, American, German, Dutch, Italian, Spanish travelers — all in BACKLOG or SHIPPED
+- Indian travelers — P3/M in BACKLOG (iter430)
+- Canadian, Australian travelers — P3/S in BACKLOG (iter430)
+- French travelers — P3/S in BACKLOG
+- Black travelers, evangelical pilgrimage — P2/M in BACKLOG (iters 320/415)
+
+**Brazilian travelers to Israel:**
+- gov.br/mre (Itamaraty): Brazil is on Israel's visa-exempt list; ETA-IL mandatory since Jan 2025
+- LATAM GRU/GIG→TLV via CDG/LHR/ADD (no nonstop; ~18–20h total)
+- Brazilian market: ~50M evangelical Christians (second-largest evangelical population globally) = major organized pilgrimage market; Jordan River baptism at Yardenit primary goal; large Sephardic Jewish diaspora with 1492 exile heritage connection
+- NuBank Mastercard = ideal no-FX card for Brazilian travelers; Pix not accepted in Israel; 127V-region Brazilians need voltage converter (not just plug adapter) for Type H outlets
+- hinterlandtravel.com, touristisrael.com: NO Brazilian-specific editorial guide found
+- **Gap confirmed:** Zero competitor has English editorial guide targeting Brazilian tourists; Brazilian evangelical pilgrimage market is substantial and underserved in English-language SEO
+
+**South African travelers to Israel:**
+- dirco.gov.za: South Africa on visa-exempt list; ETA-IL mandatory since Jan 2025
+- El Al JNB→TLV direct (verify current status — may be seasonal); Turkish Airlines JNB→IST→TLV common routing; Ethiopian Airlines JNB→ADD→TLV
+- SA Jewish community ~70,000 (one of largest per capita globally); strong Birthright + heritage travel market; Protestant/evangelical pilgrimage segment
+- hinterlandtravel.com has SA→Israel page but it is a thin tour-operator sales page, not an editorial guide
+- South African Type M (3-large-round-pin 230V) → Israel Type H (230V): same voltage, plug adapter only
+- **Gap confirmed:** No major editorial travel brand has a South Africa-specific Israel travel guide; hinterlandtravel.com is the only near-comparable but it is commercial/tour-operator, not editorial
+
+**Nordic/Scandinavian travelers to Israel:**
+- UD.no/UD.se/UM.dk/UM.fi: all 4 Nordic countries on Israel's visa-exempt list; ETA-IL mandatory since Jan 2025
+- SAS (CPH/ARN), Finnair (HEL), Norwegian (seasonal): all connect to TLV via European hubs; El Al CPH→TLV direct seasonal
+- All 4 countries: Type F/C Schuko 230V → Israel Type H 230V — same voltage, plug adapter only
+- Nordic market: high per-capita income; strong outdoor/nature travel values (Makhtesh Ramon + desert hiking resonates); Lutheran pilgrimage tradition (Swedish Theological Institute Jerusalem; Norwegian Mission in the East); Swish/Vipps/MobilePay do NOT work in Israel
+- touristisrael.com, roughguides.com, lonelyplanet.com: no Scandinavia-specific guide found
+- **Gap confirmed:** No editorial travel brand has a combined Nordic/Scandinavian Israel travel guide in English
+
+**2026 market intelligence (updates to existing BACKLOG items):**
+- Air India DEL→TLV launched Jan 2026 (weekly, Boeing 787-8); Israir seeking regulatory approval for TLV→DEL/BOM from Apr 2026; India–Israel Tourism Ministry target 69,000 visitors/yr by 2027 (from ~9,600 in 2024) → UPDATE NOTE for /israel-for-indian-travelers when shipped: DEL nonstop now available via Air India; book 3–4 months ahead
+- Schottenstein Campus guided tours running since 2025; full public opening expected 2027; 15,000 Dead Sea Scroll fragments + 2M+ artifacts in new conservation center → already in BACKLOG (iter235)
+- Great Isaiah Scroll now on full display at Israel Museum (first time since 1968) → worth noting in /israel-museum-jerusalem guide update when appropriate (not a new BACKLOG item, but a fact to include)
+- Yahel-Timna 100+ km MTB singletrack opened 2026 (₪20M Eilot Council investment) → already in BACKLOG (iter370 arava-mountain-biking item)
+
+**Items added to BACKLOG (3 total):**
+- /israel-for-brazilian-travelers — P3/S seo-content+monetization [iter450 research]
+- /israel-for-south-african-travelers — P3/S seo-content+monetization [iter450 research]
+- /israel-for-nordic-travelers — P3/S seo-content+monetization [iter450 research]

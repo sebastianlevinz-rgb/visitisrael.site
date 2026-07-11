@@ -7401,3 +7401,17 @@ Checks performed:
 
 DEFECT FIXED: israel-season-picker description trimmed 174→164 chars ("your Israel trip" → "Israel").
 Gate: 0 check errors · 683 pages · 969/969 e2e+a11y pass. GREEN. SHA 192e6b8, pushed 2026-07-11T06:35Z. CI in_progress.
+
+## 2026-07-11T07:15Z · iter 450 · RESEARCH · brazil-southafrica-nordic
+
+Scope: identify origin-market guide gaps for underserved inbound-tourism source markets not yet in BACKLOG or DONE.
+Deduplication: verified all candidates against BACKLOG.md (1093 lines) + DONE.md with targeted grep before adding.
+Already covered: British/American/German/Dutch/Italian/Spanish/Indian/Canadian/Australian travelers all present.
+
+3 confirmed new gaps found and added to BACKLOG:
+1. /israel-for-brazilian-travelers (P3/S) — Brazil = world's largest Catholic country + ~50M evangelicals (2nd largest globally); large Sephardic diaspora with 1492 exile heritage connection to Jerusalem; no competitor has English editorial guide; NuBank/127V voltage difference are Brazilian-specific differentiators.
+2. /israel-for-south-african-travelers (P3/S) — ~70k SA Jewish community (one of world's largest per capita); evangelical + Protestant pilgrim market; hinterlandtravel.com has thin commercial page but no editorial brand has SA-specific guide; Type M adapter nuance.
+3. /israel-for-nordic-travelers (P3/S) — covers Sweden/Denmark/Norway/Finland combined (each too small solo at P3); Lutheran pilgrimage tradition (Swedish Theological Institute Jerusalem); high per-capita income = premium audience; Swish/Vipps/MobilePay don't work in Israel = content differentiator.
+
+2026 market intelligence: Air India DEL→TLV nonstop launched Jan 2026 (relevant to existing /israel-for-indian-travelers backlog item). Great Isaiah Scroll on full display at Israel Museum since 2026 (worth noting in museum guide update). No new BACKLOG items needed for these.
+No code shipped. No gate run. COMPETITORS.md updated with full research notes.
