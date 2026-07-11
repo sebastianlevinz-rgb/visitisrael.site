@@ -922,3 +922,8 @@ Value: First editorial Jordan River kayaking guide on site; targets "Jordan Rive
 **Israel Tourist Visa Extension Guide** (/israel-visa-extension)
 Category: seo-content · Effort: S
 Value: High-intent guide for tourists wanting to extend beyond the 90-day authorized stay. Covers the full Population Authority process, required documents, fees (₪200–₪300), border-run risks, and longer-term pathways (ulpan, MASA, Aliyah). No competitor Israel travel site has a standalone dedicated extension guide. Cross-links from visa-information.md + israel-after-birthright.md. 689 pages (+1). 988/988 tests pass.
+
+## iter 461 · 2026-07-11 · 45cc9e5
+**Israel Small-Group Tours Comparison** (/israel-small-group-tours)
+Category: monetization · Effort: M
+Value: High-AOV affiliate opportunity (TourRadar primary; small-group tours $2,400–$5,400/pp). Compares G Adventures, Intrepid Travel, Explore!, Odysseys Unlimited, Maranatha Tours and Context Travel — group size caps, itinerary styles, price bands, solo-traveller roommate-matching, booking lead times. TourRadar ranks P1 for "Israel small group tours"; we had zero dedicated small-group content. Cross-links from private-tours-israel, israel-tour-packages, best-holy-land-tours. 690 pages (+1). 990/990 tests pass.

@@ -7545,3 +7545,10 @@ Items added to BACKLOG (6 total under ## iter460 additions header):
 
 No code shipped. No gate run. BACKLOG + COMPETITORS + JOURNAL + STATE committed.
 Next: iter 461 → BUILD (monetization). Top P2/M monetization item from backlog.
+
+## 2026-07-11T18:55Z · iter 461 · BUILD (monetization) · israel-small-group-tours
+What: New /israel-small-group-tours guide. Compares G Adventures, Intrepid Travel, Explore!, Odysseys Unlimited, Maranatha Tours and Context Travel — group size caps (8–16 pax), itinerary styles, price bands ($2,400–$5,400/pp for 10–14 days), solo-traveller roommate-matching, booking lead times (6–12 months), ETA-IL logistics. Comparison table (small-group vs private vs coach vs day trips). Typical 8–10 day itinerary arc. Affiliate CTAs: TourRadar (primary), GYG, Viator. Cross-links added: private-tours-israel.md (Plan section), israel-tour-packages.md (small-group vs private bullets), best-holy-land-tours.md (group pilgrimage section). verdictName + verdictQuery wired.
+Gate: 0 check errors · 690 pages · 990/990 e2e+a11y pass (link check: 0 broken). Fixed mid-build: removed stale /israel-group-tour-planning link before second build.
+Ship: squash-merged to master SHA 45cc9e5, pushed 2026-07-11T18:55Z.
+Prod: CI in_progress at push time (Lighthouse workflow). Next iteration start-check to confirm.
+Next: iter 462 → BUILD (seo-content). 462 % 5 == 2.
