@@ -164,3 +164,5 @@ The **Alpaca Farm** (HaChava HaAlpaka), 5 km west of town on Route 40, is home t
 **Bedouin experience**: several Bedouin-hosted camps near Sde Boker (roughly 35 km north) offer camel rides, traditional meals, and overnight tent stays that combine naturally with a Mitzpe Ramon itinerary. See the [Bedouin experience guide](/bedouin-experience-israel).
 
 **Three days in the Negev**: if you have three days, see the [3-day Negev itinerary](/3-days-in-negev) — a day-by-day plan covering Makhtesh Ramon, Wadi Ardon, Ein Avdat canyon and Sde Boker, with transport, hotel and heat-safety guidance.
+
+**Four to five days — south circuit**: for a longer Negev loop continuing all the way to Eilat, the [South Israel road trip itinerary](/south-israel-itinerary) covers Beer-Sheva, Sde Boker, Makhtesh Ramon, Timna Park and the Red Sea, with day-by-day driving directions, heat safety notes and INPA tips.
