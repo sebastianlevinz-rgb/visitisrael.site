@@ -7510,3 +7510,38 @@ Checks: (1) titles 59/54/54 chars ≤65 ✓; (2) descs 132/143/167 chars ≤170 
 Defect: israel-visa-extension.md listed "iaa.gov.il" (Israel Airports Authority, civil aviation) as ETA-IL portal — factually incorrect. Correct portal is "israel-entry.piba.gov.il" (PIBA).
 Fix: corrected URL in israel-visa-extension.md line 141. Gate: 0 check errors · 689 pages · 988/988 e2e+a11y pass. SHA b14bab3, pushed. CI in_progress.
 Next: iter 460 → RESEARCH (460%5==0).
+
+## 2026-07-11T17:30Z · iter 460 · RESEARCH · Sub-Saharan Africa + Latin America origin-market gaps
+
+Mode: RESEARCH (460%5==0).
+Scope: Identified underserved origin-market guides for Sub-Saharan Africa and Latin America — two large Christian pilgrim + heritage markets with zero dedicated editorial on visitisrael.site.
+
+Competitor evidence:
+- touristisrael.com: Has US/UK/Canada/Australia/European origin guides; zero Africa or Latin America.
+- Lonely Planet Israel: No country-specific origin guides at all.
+- bibleplaces.com: Christian pilgrim focus; no origin-market editorial.
+- GYG / Viator: Tour listings only; no origin-specific editorial depth.
+- Ethiopian Airlines route pages: LOS, ABV, ACC, NBO all route via ADD→TLV — confirms demand signal from each market.
+- Aeromexico / Iberia: CDG/MAD routing for Mexico/Colombia/Argentina confirms connection demand.
+- No major English travel editorial brand has Nigeria-specific, Mexico-specific, Argentina-specific, Ghana-specific, Colombia-specific, or Kenya-specific Israel travel guides.
+
+De-dupe: All 6 slugs confirmed absent from BACKLOG.md + DONE.md + src/content/guides/ filesystem via grep.
+
+Key differentiators captured in backlog notes:
+- Nigeria: NOT visa-exempt (needs eVisa B2 via ivisa.com / MoFA portal) — P3/M; higher effort due to visa complexity. 110M Christians; RCCG/Winners Chapel Holy Land pilgrimage programs. Ethiopian Airlines LOS/ABV→ADD→TLV. GTBank/Zenith international cards; NHIS doesn't cover abroad.
+- Mexico: Visa-exempt (ETA-IL only). 130M Catholics; strong Franciscan order connection to Holy Land. 110V/60Hz → needs BOTH voltage converter + Type B→Type H adapter. Aeromexico+Iberia via CDG/MAD. IMSS doesn't cover abroad.
+- Argentina: Visa-exempt (ETA-IL only). 5th-largest Jewish diaspora worldwide; AMIA bombing 1994 — powerful Yad Vashem connection. Aerolíneas Argentinas possible seasonal direct (verify before publishing). 220V/50Hz Type I → adapter only (no converter). ARS volatility → USD cash/card framing.
+- Ghana: Visa-exempt (ETA-IL only) — unlike Nigeria. 71% Christian; ICGC/AoG Charismatic pilgrimages. Ethiopian Airlines ACC→ADD→TLV. Type G adapter (same as UK — easy). MTN Mobile Money doesn't work in Israel — explicit card/ATM guidance needed.
+- Colombia: Visa-exempt (ETA-IL only). 90% Catholic. 110V/60Hz → BOTH voltage converter + Type B→Type H adapter (same as Mexico). Iberia BOG→MAD→TLV; LATAM via MAD or FRA. EPS/SGSSS doesn't cover abroad; travel insurance essential. Semana Santa pilgrimage connection.
+- Kenya: Visa-exempt (ETA-IL only). 85% Christian; strong Anglican/ACK heritage. St. George's Cathedral Jerusalem important touchpoint. Ethiopian Airlines NBO→ADD→TLV (3h connection at ADD). M-Pesa doesn't work in Israel — explicit gap needed. Type G adapter (same as UK). NHIF(SHA) doesn't cover abroad.
+
+Items added to BACKLOG (6 total under ## iter460 additions header):
+- /israel-for-nigerian-travelers [P3/M seo-content+monetization]
+- /israel-for-mexican-travelers [P3/S seo-content+monetization]
+- /israel-for-argentinian-travelers [P3/S seo-content+monetization]
+- /israel-for-ghanaian-travelers [P3/S seo-content+monetization]
+- /israel-for-colombian-travelers [P3/S seo-content+monetization]
+- /israel-for-kenyan-travelers [P3/S seo-content+monetization]
+
+No code shipped. No gate run. BACKLOG + COMPETITORS + JOURNAL + STATE committed.
+Next: iter 461 → BUILD (monetization). Top P2/M monetization item from backlog.

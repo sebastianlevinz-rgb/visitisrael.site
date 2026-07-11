@@ -4538,3 +4538,32 @@ Major English-language Israel travel editorial competitors (Lonely Planet, Rough
 - /dead-sea-shrinking — P3/S seo-content [iter455 research]
 - /israel-street-art — P3/S seo-content [iter455 research]
 - /israel-for-filipino-travelers — P3/S seo-content+monetization [iter455 research]
+
+### 2026-07-11 · iter 460 · Sub-Saharan Africa + Latin America origin-market research
+
+**Research objective:** Identify underserved English-language origin-market guide opportunities for Africa and Latin America pilgrim/tourist segments.
+
+**Competitors checked:** touristisrael.com, bibleplaces.com, Lonely Planet Israel, GYG, Viator, Bein Harim, Ethiopian Airlines route pages, Aeromexico/Iberia booking pages, israelforever.org, christianitytoday.com Israel travel coverage.
+
+**Key findings:**
+
+**Sub-Saharan Africa:**
+- **Nigeria** (population 220M, ~110M Christians): Zero Nigeria-specific Israel travel editorial found on any English-language travel site. Ethiopian Airlines operates LOS/ABV→ADD→TLV. RCCG (Redeemed Christian Church of God) and Winners Chapel run organized Holy Land pilgrimages. Critical differentiator: Nigeria is NOT visa-exempt for Israel — requires eVisa B2 via ivisa.com or Israeli MoFA portal. This is the main reason for P3/M classification vs. other African countries.
+- **Ghana** (population 33M, ~24M Christians): Visa-exempt (ETA-IL only). Ethiopian Airlines ACC→ADD→TLV. ICGC (International Central Gospel Church) and Assemblies of God run pilgrimages. Zero Ghana-specific Israel editorial found. Differentiated from Nigeria because: visa-exempt + Type G adapter (same as UK) + MTN Mobile Money gap.
+- **Kenya** (population 55M, ~47M Christians): Visa-exempt (ETA-IL only). Ethiopian Airlines NBO→ADD→TLV (3h layover at ADD — useful logistics note). Anglican/ACK (Anglican Church of Kenya) heritage with deep Jerusalem connection (St. George's Cathedral). Zero Kenya-specific Israel editorial found. M-Pesa gap = high-value practical section (Kenyans rely on M-Pesa; it does not work abroad).
+
+**Latin America:**
+- **Mexico** (population 130M, ~120M Catholics): Visa-exempt (ETA-IL only). Strong Franciscan Order historical connection to Holy Land custodianship. Aeromexico MEX→CDG/MAD→TLV + Iberia MEX→MAD→TLV. Zero Mexico-specific Israel editorial found. Voltage: 110V/60Hz → needs BOTH voltage converter AND plug adapter (Type B→H). IMSS/Seguro Popular doesn't cover abroad — travel insurance content opportunity.
+- **Argentina** (population 46M; 5th-largest Jewish diaspora worldwide ~200k-300k): Visa-exempt. Aerolíneas Argentinas potential seasonal direct (unconfirmed — verify before publishing). AMIA bombing 1994 Buenos Aires + Yad Vashem = powerful heritage connection beyond Christianity. Zero Argentina-specific Israel editorial found. Voltage: 220V/50Hz Type I → adapter only (no converter unlike Mexico/Colombia). ARS volatility → USD/EUR cash strategy is genuine traveler need.
+- **Colombia** (population 52M, ~90% Catholic): Visa-exempt. Iberia BOG→MAD→TLV; LATAM via MAD or FRA. Zero Colombia-specific Israel editorial found. Voltage: 110V/60Hz → needs BOTH voltage converter AND adapter (same as Mexico). Semana Santa = peak pilgrimage season. EPS/SGSSS health system doesn't cover abroad.
+
+**Market context:**
+Regional tensions + flight rerouting have compressed Israel's addressable tourism market; converting high-intent niche audiences (pilgrimage, heritage) from markets where budget airlines DON'T fly is a competitive moat because the traveler self-selects as high-commitment. Sub-Saharan Africa Christian pilgrim market is underserved across ALL English editorial competitors — first-mover opportunity is clearer here than in saturated European markets.
+
+**False gaps eliminated (explicitly checked):**
+- `/israel-for-south-african-travelers` — already in BACKLOG (iter200 research)
+- `/israel-for-ethiopian-travelers` — checked: Ethiopian Airlines hub makes ADD a routing hub, not an origin market with travel-planning gaps
+- `/israel-for-brazilian-travelers` — already in BACKLOG (iter195 research)
+
+**6 items added to BACKLOG** (see iter460 section of BACKLOG.md for full format):
+nigeria / mexico / argentina / ghana / colombia / kenya origin-market guides.

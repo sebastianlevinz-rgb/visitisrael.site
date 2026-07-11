@@ -1,13 +1,18 @@
 # LOOP STATE
 
-- iteration: 459
-- lastMode: REVIEW
-- lastItem: iter459 — audit iters 456–458 (dead-sea-day-trip-comparison, israel-kayaking, israel-visa-extension)
-- lastResult: DEFECT FIXED — iaa.gov.il→israel-entry.piba.gov.il in visa-extension guide. Gate: 0 check errors · 689 pages · 988/988 e2e+a11y pass. SHA b14bab3. CI in_progress.
-- nextRotationCategory: 460%5==0 → RESEARCH. 461%5==1 → BUILD (monetization). 462%5==2 → BUILD (seo-content). 463%5==3 → BUILD (tools). 464%5==4 → REVIEW.
+- iteration: 460
+- lastMode: RESEARCH
+- lastItem: iter460 — competitor research (origin-market gaps: Nigeria/Mexico/Argentina/Ghana/Colombia/Kenya)
+- lastResult: RESEARCH — 6 new items added to BACKLOG (Sub-Saharan Africa + Latin America origin-market guides)
+- nextRotationCategory: 461%5==1 → BUILD (monetization). 462%5==2 → BUILD (seo-content). 463%5==3 → BUILD (tools). 464%5==4 → REVIEW. 465%5==0 → RESEARCH.
 - higgsfieldSpent: 0
-- updatedAt: 2026-07-11T16:45Z
+- updatedAt: 2026-07-11T17:30Z
 - branch context: work on master; feature work on auto/<slug>
+
+Notes: iter460 RESEARCH — Researched Sub-Saharan Africa + Latin America origin-market gaps against backlog (BACKLOG.md + DONE.md + filesystem grep). Competitors checked: touristisrael.com, bibleplaces.com, GYG, Viator, Lonely Planet, TripAdvisor, Bein Harim, Ethiopian Airlines, Aeromexico route pages. All 6 items confirmed via regex de-dupe scan returning ZERO existing matches before adding.
+New items: /israel-for-nigerian-travelers (P3/M — Nigeria NOT visa-exempt, needs eVisa B2; 110M Christians; RCCG/Winners Chapel pilgrimages), /israel-for-mexican-travelers (P3/S — visa-exempt; 130M Catholics; 110V converter needed; Franciscan Holy Land connection), /israel-for-argentinian-travelers (P3/S — visa-exempt; 5th largest Jewish diaspora; AMIA bombing Yad Vashem connection; Type I plug), /israel-for-ghanaian-travelers (P3/S — visa-exempt unlike Nigeria; 71% Christian; ICGC/AoG pilgrimages; MTN Mobile Money gap), /israel-for-colombian-travelers (P3/S — visa-exempt; 90% Catholic; 110V converter; Semana Santa connection), /israel-for-kenyan-travelers (P3/S — visa-exempt; 85% Christian; Anglican/ACK heritage; M-Pesa gap; St. George's Cathedral Jerusalem).
+Key differentiation: Nigeria is P3/M (higher effort) because visa situation is more complex (not visa-exempt, needs eVisa B2 approval before travel) unlike all other 5 which are visa-exempt with ETA-IL only. Latin America voltage distinction: Mexico/Colombia 110V→230V converter needed; Argentina 220V/50Hz Type I (adapter only).
+No code shipped. No gate run. BACKLOG + COMPETITORS + JOURNAL + STATE updated.
 
 Notes: iter459 REVIEW — Audited iters 456–458 (dead-sea-day-trip-comparison, israel-kayaking, israel-visa-extension).
 Checks performed: (1) title lengths: 59/54/54 chars — all ≤65 ✓; (2) desc lengths: 132/143/167 chars — all ≤170 ✓; (3) all 5 hero/CTA images present ✓ (/images/regions/dead-sea/ein-bokek.jpg, galilee/sea-of-galilee.jpg, galilee/hero.jpg, galilee/tiberias.jpg, tel-aviv/hero.jpg); (4) no H1 in body for any of the 3 ✓; (5) internal link /dead-sea/ein-gedi — initially flagged as missing but confirmed valid: attractionSlug() strips "dead-sea-" prefix → route /dead-sea/ein-gedi ✓; all other 12 internal slugs resolve ✓; (6) cross-links installed — dead-sea-day-trip-comparison in day-trips-from-jerusalem + day-trips-from-tel-aviv + dead-sea-tours-compared ✓; israel-kayaking in israel-adventure-sports + water-hiking-israel ✓; israel-visa-extension in visa-information + israel-after-birthright ✓; (7) no fabricated aggregateRating/reviewCount ✓; (8) partner keys (getyourguide, viator, booking, discovercars) all in affiliates.ts ✓; (9) smoke + a11y in spec files ✓.
@@ -23,7 +28,7 @@ Notes: iter456 BUILD (monetization) — /dead-sea-day-trip-comparison shipped. P
 Notes: iter455 RESEARCH — Researched 6 gap categories across competitors (touristisrael.com, Access Israel, Atij.org, Timeout Israel, Secret TLV, TripAdvisor 2026, GYG, Bein Harim, backpackisrael.com, mukikapupstravels.com). All 6 new items confirmed via python3-regex de-dupe against full BACKLOG.md + DONE.md before adding. Highest priority new item: /accessible-travel-israel (P2/M) — disability travel is legally important + significant underserved market + zero competitor advantage on our site. Other 5 items are P3/S but each fills a genuine first-mover gap (no major English editorial brand covers Japan-specific, Korea-specific, or Philippines-specific Israel travel; Dead Sea environmental angle is untapped link-bait; TLV street art has GYG product but no editorial). COMPETITORS.md updated with full research notes.
 
 Notes: iter 454 REVIEW — Audited iters 451–453 (south-israel-itinerary, israel-egypt-guide, israel-itinerary-checker).
-Checks performed: (1) title ≤65 — 60/62/62 ✓; (2) desc ≤170 — 159/137/167 ✓; (3) all 5 hero/CTA images present ✓; (4) 25 internal page links checked — 3 static-checker false-MISSING turned out to be valid dynamic routes (/negev, /jerusalem) and dir-index (/itineraries) ✓; (5) no H1 in body ✓; (6) no fabricated prices/aggregateRating — apparent price regex hits were ranges or "approximately" with verify note ✓; (7) partner keys (discovercars, getyourguide, booking, viator, tourradar) — all valid ✓; (8) all 3 routes in smoke + a11y ✓; (9) tools.spec.ts 7 tests for checker ✓.
+Checks performed: (1) title ≤65 — 60/62/62 ✓; (2) desc ≤170 — 159/137/167 ✓; (3) all 5 hero/CTA images present ✓; (4) 25 internal page links checked — 3 static-checker false-MISSING turned out to be valid dynamic routes (/negev, /jerusalem) and dir-index (/itineraries) ✓; (5) no H1 in bodies ✓; (6) no fabricated prices/aggregateRating — apparent price regex hits were ranges or "approximately" with verify note ✓; (7) partner keys (discovercars, getyourguide, booking, viator, tourradar) — all valid ✓; (8) all 3 routes in smoke + a11y ✓; (9) tools.spec.ts 7 tests for checker ✓.
 DEFECT FOUND: south-israel-itinerary had zero inbound links — entirely undiscoverable.
 FIX: Added cross-link in mitzpe-ramon-guide.md (new "Four to five days — south circuit" paragraph) and beer-sheva-guide.md (tail of "Continuing into the Negev" section). Gate: 0 check errors · 686 pages · 982/982 e2e+a11y. SHA f580fc3. CI in_progress at push time.
 
@@ -44,4 +49,4 @@ Notes: iter 445 RESEARCH — 6 net-new items added to BACKLOG: /israel-for-itali
 
 Cron b7325b16 hourly @ :17. Loop history: 19 tools + sitemap-lastmod + link-checker(+depth) + i18n
 Phase0/1a/1b/1c/2 Batches1-18(COMPLETE) + 42 review passes + 3 technical (event-schema + meta-trim + locale-links) + 57 EN guides + 7 tools-monetization + 1 comparison;
-research iters 5/10/20/30/35/40/45/50/55/60/65/70/75/80/85/90/95/100/105/110/115/120/125/130/135/140/145/150/155/160/165/170/175/180/185/190/195/200/205/210/215/220/225/230/235/240/245/250/255/260/265/270/275/280/285/290/295/300/305/310/315/320/325/330/335/340/345/350/355/360/365/370/375/380/385/390/395/400/405/410/420/425/430/435/440/445/450/455.
+research iters 5/10/20/30/35/40/45/50/55/60/65/70/75/80/85/90/95/100/105/110/115/120/125/130/135/140/145/150/155/160/165/170/175/180/185/190/195/200/205/210/215/220/225/230/235/240/245/250/255/260/265/270/275/280/285/290/295/300/305/310/315/320/325/330/335/340/345/350/355/360/365/370/375/380/385/390/395/400/405/410/420/425/430/435/440/445/450/455/460.
