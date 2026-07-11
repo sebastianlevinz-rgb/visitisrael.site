@@ -95,6 +95,7 @@ const ROUTES = [
   '/masada-tours-compared',
   '/galilee-tours-compared',
   '/petra-tours-compared',
+  '/jordan-pass-guide',
   '/tel-aviv-tours-compared',
   '/eilat-tours-compared',
   '/day-trips-from-eilat',

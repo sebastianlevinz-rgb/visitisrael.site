@@ -84,7 +84,8 @@ If Petra is a bucket-list item rather than a box to tick, this is the route we'd
 
 Whichever route you choose, factor in the cross-border admin upfront:
 
-- **Jordan visa:** roughly **$60–125**, depending on how it's arranged. Day tours often handle a group visa at the Wadi Araba crossing.
+- **Jordan Pass:** the smart pre-purchase — bundles the JD 40 tourist visa waiver with Petra entry and 40+ sites; typically saves JD 25–35 vs paying separately, and streamlines the border. See our [Jordan Pass guide](/jordan-pass-guide) for the full cost breakdown and whether it makes sense for your trip type.
+- **Jordan visa (without Jordan Pass):** roughly **$60–125**, depending on how it's arranged. Day tours often handle a group visa at the Wadi Araba crossing.
 - **Border / exit fees:** around **$65** combined for the Israeli exit tax and Jordanian fees.
 - **Passport:** mandatory, valid at least six months, carried physically.
 - **Buffer time:** crossings can be slow at peak periods — guided tours smooth this, but build in slack.

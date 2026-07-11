@@ -32,7 +32,7 @@ Israel shares land crossings with **Jordan** (three) and **Egypt** (one), openin
 - **Hours vary** by day and holiday (Shabbat, Jewish and Islamic holidays) — check before travelling and arrive early.
 - **Exit and entry fees** apply on both sides; carry some cash.
 - **Passport, not the entry slip** — keep both; you'll need the [paper entry slip](/visa-information) to re-enter Israel.
-- **Going to Petra?** An organised tour from Eilat is by far the simplest way to handle the crossing, the Jordanian visa and the long day. Compare options on our [Eilat guide](/eilat).
+- **Going to Petra?** Buy the [Jordan Pass](/jordan-pass-guide) online before you travel — it bundles the Jordanian visa with Petra entry and typically saves JD 25–35. An organised tour from Eilat is by far the simplest way to handle the crossing. Compare options on our [Eilat guide](/eilat).
 - **Re-entry security** to Israel is thorough — allow time and answer questions straightforwardly.
 
 For wider planning, see [Is Israel safe to visit?](/is-israel-safe) and our [first-time guide](/first-time-in-israel).
