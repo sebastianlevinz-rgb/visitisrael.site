@@ -4515,3 +4515,26 @@ Major English-language Israel travel editorial competitors (Lonely Planet, Rough
 - /israel-for-brazilian-travelers — P3/S seo-content+monetization [iter450 research]
 - /israel-for-south-african-travelers — P3/S seo-content+monetization [iter450 research]
 - /israel-for-nordic-travelers — P3/S seo-content+monetization [iter450 research]
+
+### 2026-07-11 · iter 455 · Accessibility, origin markets (Japan/Korea/Philippines), Dead Sea environment, street art
+
+**Research scope:** 6 targeted gap categories: (1) accessible travel; (2) Asian origin-market guides; (3) Dead Sea environmental content; (4) street art/urban culture; (5) winter travel (already in backlog); (6) culinary tours (already in backlog).
+
+**Competitor evidence:**
+- **Accessible travel**: Tourist Israel has /accessible-travel-israel/12347 (exists, functional); Access Israel (aisrael.org) = non-profit NGO with full accessible vacation guide; Atij.org = specialist accessible travel operator with 6+ dedicated editorial pages; WheelchairTraveling.com has Israel guide. OUR SITE: zero accessible-travel content. HIGH-VALUE GAP (P2/M).
+- **Japan/Korea/Philippines origin guides**: No major English editorial brand has Japan-specific, Korea-specific, or Philippines-specific Israel travel guides. TripAdvisor/GYG only show tour listings without origin-market editorial depth. Proven format (mirrors iter427/441/446 etc). All three markets have large organized pilgrimage segments.
+- **Dead Sea shrinking**: BBC/Guardian/NatGeo/Israel21c all have news articles on Dead Sea decline; NO travel brand has converted this into travel editorial with urgency hook. Compelling evergreen link-bait with genuine SEO angle ("visit before it disappears"). Unique on-site angle.
+- **Street art (TLV)**: Timeout Israel + Secret Tel Aviv + Israel21c all have street art content; GYG sells TLV street art walking tours. We have zero. Florentin district is internationally known in urban travel circles. First editorial mover opportunity.
+- **Winter sun**: Already covered in backlog (iter205 israel-in-winter + iter445 israel-winter-sun-guide). No new additions.
+- **Craft beer**: Already in backlog (iter70). No new addition.
+- **Hidden gems**: Already in backlog (iter45). No new addition.
+
+**2026 market note**: Tourism diversification pressure (regional tensions, flight rerouting) is intensifying competition from Greece, Morocco, UAE for Med-sun travelers — Israel's market recovery depends on converting high-intent niche audiences (pilgrimage, heritage, wellness). Origin-market guides for Korea/Japan/Philippines capture organized pilgrimage groups who are less price-sensitive and more loyal repeat visitors.
+
+**Items added to BACKLOG (6 total):**
+- /accessible-travel-israel — P2/M seo-content+monetization [iter455 research]
+- /israel-for-japanese-travelers — P3/S seo-content+monetization [iter455 research]
+- /israel-for-korean-travelers — P3/S seo-content+monetization [iter455 research]
+- /dead-sea-shrinking — P3/S seo-content [iter455 research]
+- /israel-street-art — P3/S seo-content [iter455 research]
+- /israel-for-filipino-travelers — P3/S seo-content+monetization [iter455 research]

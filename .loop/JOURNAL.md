@@ -7452,3 +7452,16 @@ What: Audited south-israel-itinerary (iter 451), israel-egypt-guide (iter 452), 
 Checks: (1) title ≤65 — 60/62/62 ✓; (2) desc ≤170 — 159/137/167 ✓; (3) all 5 hero/CTA images present ✓; (4) 25 internal page links checked — 3 static-checker false-MISSING turned out to be valid dynamic routes (/negev, /jerusalem) and dir-index (/itineraries) ✓; (5) no H1 in body ✓; (6) no fabricated prices/aggregateRating — apparent price regex hits were ranges or "approximately" with verify note ✓; (7) partner keys (discovercars, getyourguide, booking, viator, tourradar) — all valid ✓; (8) all 3 routes in smoke + a11y ✓; (9) tools.spec.ts 7 tests for checker ✓.
 DEFECT FOUND: south-israel-itinerary had zero inbound links — entirely undiscoverable.
 FIX: Added cross-link in mitzpe-ramon-guide.md (new "Four to five days — south circuit" paragraph) and beer-sheva-guide.md (tail of "Continuing into the Negev" section). Gate: 0 check errors · 686 pages · 982/982 e2e+a11y. SHA f580fc3. CI in_progress at push time.
+
+## 2026-07-11T13:15Z · iter 455 · RESEARCH · accessibility + Asian origin markets + Dead Sea environment + street art
+What: 455%5==0 → RESEARCH mode. Researched 6 gap categories against competitors. Pre-research de-dupe confirmed: craft beer (iter70), hidden gems (iter45), photography guide (DONE iter351), wine guide (DONE iter14), winter-in-israel (iter205), israel-in-winter (iter205), ireland-for-nordic (iter450), road-trip (iter145/397) — all already covered.
+Findings: 6 genuinely new gaps confirmed via regex de-dupe against full BACKLOG.md (282 items) + DONE.md:
+1. /accessible-travel-israel (P2/M): touristisrael + Access Israel + Atij.org all rank; zero accessible-travel content on site; 1 in 4 adults globally has a disability; Israel has strong accessibility laws; HIGH-VALUE gap.
+2. /israel-for-japanese-travelers (P3/S): Japan = world's 3rd largest outbound market; growing evangelical Christian pilgrim segment; no competitor has English editorial Japan-specific Israel guide; proven origin-market format.
+3. /israel-for-korean-travelers (P3/S): South Korea 29% Christian; strong evangelical pilgrimage tradition; Jordan River baptism = primary Korean pilgrim goal; Korean Air/Asiana routes via connections.
+4. /dead-sea-shrinking (P3/S): Dead Sea losing ~1m/year; sinkholes forming; compelling visit-urgency/link-bait angle; no travel brand has editorial piece; BBC/NatGeo news coverage confirms audience interest.
+5. /israel-street-art (P3/S): TLV Florentin = internationally recognized urban art scene; Timeout/Secret TLV/Israel21c all have coverage; GYG sells street art walking tours; zero content on site.
+6. /israel-for-filipino-travelers (P3/S): Philippines = world's 3rd largest Catholic country; large OFW community in Israel; organized Catholic pilgrimage market; no competitor has Philippines-specific Israel guide.
+Gate: N/A (RESEARCH mode; no code shipped).
+Merge: N/A.
+Next: iter 456 → BUILD (456%5==1 → monetization). Top P2/M monetization-ready item: /accessible-travel-israel (highest new item; also monetization-eligible). Alternatively top existing monetization item from backlog.
