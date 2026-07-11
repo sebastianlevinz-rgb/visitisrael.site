@@ -1,13 +1,15 @@
 # LOOP STATE
 
-- iteration: 456
-- lastMode: BUILD (monetization)
-- lastItem: iter456 — /dead-sea-day-trip-comparison (Dead Sea day trip departure comparison: Jerusalem vs Tel Aviv)
-- lastResult: SHIPPED — gate: 0 check errors · 687 pages · 984/984 e2e+a11y pass. SHA a09914e.
-- nextRotationCategory: 457%5==2 → BUILD (seo-content). 458%5==3 → BUILD (tools). 459%5==4 → REVIEW. 460%5==0 → RESEARCH. 461%5==1 → BUILD (monetization).
+- iteration: 457
+- lastMode: BUILD (seo-content)
+- lastItem: iter457 — /israel-kayaking (Jordan River kayaking & Galilee river adventure guide)
+- lastResult: SHIPPED — gate: 0 check errors · 688 pages (+1) · 986/986 e2e+a11y pass. SHA c12e3b7.
+- nextRotationCategory: 458%5==3 → BUILD (tools). 459%5==4 → REVIEW. 460%5==0 → RESEARCH. 461%5==1 → BUILD (monetization). 462%5==2 → BUILD (seo-content).
 - higgsfieldSpent: 0
-- updatedAt: 2026-07-11T14:00Z
+- updatedAt: 2026-07-11T15:00Z
 - branch context: work on master; feature work on auto/<slug>
+
+Notes: iter457 BUILD (seo-content) — /israel-kayaking shipped. P2/S seo-content+monetization item (iter110 research). Jordan River kayaking guide: Kfar Blum vs HaGoshrim kibbutz operators, 3–8km Class I Upper Jordan routes Apr–Sep, route breakdown table, seasonal guide table, practical logistics (Route 90 north; 40 min from Tiberias, 2.5h from TLV), honesty note (Upper Jordan ≠ biblical baptism site — Lower Jordan near Jericho), combining section (Sea of Galilee boat, Banias, Nimrod, water hiking, day trips from TLV). Affiliate CTAs: GYG Galilee kayaking, Viator Upper Jordan day trips, Booking.com Sea of Galilee hotels. verdictName + verdictQuery wired. Cross-links: israel-adventure-sports.md (table row + tail paragraph), water-hiking-israel.md (Galilee bullet extended). Smoke +1, a11y +1. Note: origin/auto/israel-vs-cyprus stale branch cannot be deleted (403 HTTP error); left in place.
 
 Notes: iter456 BUILD (monetization) — /dead-sea-day-trip-comparison shipped. P2/S monetization item from backlog (iter385 research). Comparison page: Jerusalem departure (45-90 min drive, Masada combo natural, $89-120/person) vs Tel Aviv departure (2-2.5 hrs drive, Dead Sea only typical, $60-100/person). Content: at-a-glance table, Jerusalem section, Tel Aviv section, self-drive section, decision guide, 6 FAQs. Affiliate CTAs: GYG Jerusalem tours, Viator Tel Aviv tours, Booking.com resort hotels. Cross-links added in day-trips-from-jerusalem, day-trips-from-tel-aviv, dead-sea-tours-compared. verdictName + verdictQuery wired. Smoke +1, a11y +1.
 

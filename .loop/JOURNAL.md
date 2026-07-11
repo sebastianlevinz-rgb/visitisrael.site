@@ -7475,3 +7475,17 @@ Cross-links added: day-trips-from-jerusalem.md (Masada+Dead Sea bullet), day-tri
 Tests: smoke +1 (/dead-sea-day-trip-comparison), a11y +1.
 Gate: 0 check errors · 687 pages (+1) · 984/984 e2e+a11y pass. GREEN.
 Merge: squash-merged to master SHA a09914e, pushed 2026-07-11T14:00Z. CI in_progress at push time.
+
+## 2026-07-11T15:00Z · iter 457 · BUILD (seo-content) · israel-kayaking
+What: /israel-kayaking — Jordan River kayaking & Galilee river adventure guide.
+Mode: BUILD (457%5==2 → seo-content). P2/S backlog item (iter110 research). CONFIRMED GAP: Kfar Blum + HaGoshrim are top outdoor day-trip destinations in northern Israel; no editorial coverage on site; GYG/Viator sell multiple kayaking products; "Jordan River kayaking Israel" + "kayaking Kfar Blum guide" in backlog keyword list.
+Content: Kfar Blum vs HaGoshrim operator comparison (history, route options, suitability); route breakdown table (Jordan fork → middle canyon → lower Hula → shuttle; 2–3h total); practical info section (Route 90; Tiberias 40 min / TLV 2.5h; public transport via Kiryat Shmona); what to bring (water shoes, dry bag, waterproof phone case, SPF 50+); seasonal table (Apr–Sep; May–Jun optimal; Jul–Aug peak book ahead); Upper Jordan ≠ Lower Jordan baptism site section (honesty — Yardenit/Qasr el-Yahud are southern Lower Jordan; explicitly stated + link to jordan-river-baptism); combining section (Sea of Galilee boat, Banias, Nimrod Fortress, water-hiking-israel, day-trips-from-tel-aviv). 6 FAQs covering experience, biblical vs recreational river, timing, booking, transport, children.
+Honesty: prices seasonal — link operators directly (not hardcoded); "typically" framing on seasonal conditions; no fabricated review counts or exact prices; Class I river honestly framed as floating experience not adrenaline sport.
+Affiliate CTAs: GYG Galilee kayaking, Viator Upper Jordan day trips, Booking.com Sea of Galilee hotels.
+verdictName: "Jordan River kayaking" / verdictQuery: "Jordan River kayaking Galilee Israel tour".
+Cross-links added: israel-adventure-sports.md (river kayaking row in planning table; tail paragraph cross-link); water-hiking-israel.md (Galilee multi-day bullet extended with kayaking alternative sentence).
+Tests: smoke +1 (/israel-kayaking after /red-canyon-eilat), a11y +1 (same position).
+Gate: 0 check errors · 688 pages (+1) · 986/986 e2e+a11y pass. GREEN.
+Merge: committed to master SHA c12e3b7, pushed 2026-07-11T14:45Z. CI in_progress at push time.
+Note: origin/auto/israel-vs-cyprus stale branch (iters 408–410 diverged history) could not be deleted — git push origin --delete returned HTTP 403. Branch left in place; harmless (master has superseded).
+Next: iter 458 → BUILD (tools). Top P2 tools items from backlog.
