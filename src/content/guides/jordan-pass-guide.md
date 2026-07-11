@@ -1,9 +1,11 @@
 ---
 title: 'Jordan Pass Guide: Is It Worth It? (2026 Complete Guide)'
-description: 'Everything to know about the Jordan Pass — what it includes, whether it saves you money vs buying separately, how to buy it, and when it makes sense for visitors from Israel.'
+description: 'Jordan Pass explained — what it covers, whether it saves you money vs paying separately, how to buy it, and when it makes sense for visitors from Israel.'
 heroImage: /images/regions/eilat/hero.jpg
 category: Planning
 updatedAt: 2026-07-11
+verdictName: Jordan Pass
+verdictQuery: Jordan Pass worth it Petra Israel
 ctaHeading: 'Plan your Jordan trip from Israel'
 affiliateCtas:
   - partner: getyourguide
