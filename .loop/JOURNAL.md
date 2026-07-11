@@ -7383,3 +7383,21 @@ Next: iter 448 → BUILD (tools; 448%5==3). Top P2/M tool: /israel-season-picker
 What: /israel-season-picker — vanilla JS interest-chip season picker. 8 checkbox chips (Beach, Desert hiking, Skiing, Jewish holiday experiences, Christian pilgrimage, Budget, Bird watching, Festivals). Per-interest monthly score arrays (Jan–Dec, 1–5 scale); top-85% threshold gives best months. Edge case: contradictory beach+skiing selection shows compromise note (March/October). Output: month badges + interest-specific explanation + CTA links (GYG/Viator/Booking routed through affiliates.ts). Month-by-month table on page body (★/★★/★★★). Wired: plan-your-trip grid, footer, cross-link best-time-to-visit-israel.md. i18n keys added for EN/FR/DE. Honesty: "typically best" framing; holiday date drift noted; Hermon snow acknowledged as snow-dependent.
 Gate: 0 check errors · 683 pages (+1) · 969/969 e2e+a11y pass (+7). GREEN.
 Ship: squash-merged to master d38983c, pushed 2026-07-11T06:09Z. CI in_progress.
+
+## 2026-07-11T06:40Z · iter 449 · REVIEW · audit iters 446–448 + fix season-picker description
+
+Audited the 3 most recently shipped items: iter 446 (/muslim-travel-israel), iter 447 (/3-days-in-galilee), iter 448 (/israel-season-picker).
+
+Checks performed:
+1. Title lengths: 57/62/61 chars — all ≤65 ✓
+2. Description lengths: 150/157/174 chars — DEFECT: season-picker was 174 (>170 limit).
+3. Hero images: all 3 confirmed present in public/ ✓
+4. CTA images (galilee sea-of-galilee.jpg, tiberias.jpg, old-city.jpg): all present ✓
+5. H1 in body: 0/0/0 — none ✓
+6. AffiliateCard rating/reviews fields: hardcoded in frontmatter but not rendered to users (component shows "Live prices & reviews on [partner]") — no honesty violation ✓
+7. Internal links spot-checked: galilee-christian-sites-circuit, sea-of-galilee-boat-tour, galilee-vs-golan-weekend, best-hotels-tiberias, first-time-in-israel, holy-sites-dress-code-etiquette — all resolve ✓
+8. Smoke + a11y spec coverage: all 3 routes present in both specs ✓
+9. Wiring: season-picker in plan-your-trip grid + footer + cross-link from best-time-to-visit-israel.md ✓; 3-days-in-galilee cross-linked from galilee.md region + galilee-vs-golan-weekend.md ✓
+
+DEFECT FIXED: israel-season-picker description trimmed 174→164 chars ("your Israel trip" → "Israel").
+Gate: 0 check errors · 683 pages · 969/969 e2e+a11y pass. GREEN. SHA 192e6b8, pushed 2026-07-11T06:35Z. CI in_progress.

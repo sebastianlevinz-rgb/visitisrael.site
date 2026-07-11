@@ -1,13 +1,15 @@
 # LOOP STATE
 
-- iteration: 448
-- lastMode: BUILD (tools; 448%5==3)
-- lastItem: israel-season-picker — vanilla JS 8-interest season picker tool
-- lastResult: SHIPPED — 0 check errors, 683 pages (+1 from 682), 969/969 e2e+a11y pass (+7 from 962). SHA d38983c. CI in_progress at push time.
-- nextRotationCategory: 449%5==4 → REVIEW. 450%5==0 → RESEARCH. 451%5==1 → BUILD (monetization). 452%5==2 → BUILD (seo-content). 453%5==3 → BUILD (tools).
+- iteration: 449
+- lastMode: REVIEW (449%5==4)
+- lastItem: review-fix-season-desc — meta description 174→164 chars fix on israel-season-picker
+- lastResult: SHIPPED — 0 check errors, 683 pages, 969/969 e2e+a11y pass. SHA 192e6b8. CI in_progress at push time.
+- nextRotationCategory: 450%5==0 → RESEARCH. 451%5==1 → BUILD (monetization). 452%5==2 → BUILD (seo-content). 453%5==3 → BUILD (tools). 454%5==4 → REVIEW.
 - higgsfieldSpent: 0
-- updatedAt: 2026-07-11T06:15Z
+- updatedAt: 2026-07-11T06:40Z
 - branch context: work on master; feature work on auto/<slug>
+
+Notes: iter 449 REVIEW — Audited iters 446–448 (muslim-travel-israel, 3-days-in-galilee, israel-season-picker). Checks: (1) title lengths: 57/62/61 chars — all ≤65 ✓; (2) description lengths: 150/157/174 chars — DEFECT: season-picker 174>170; (3) hero images all present ✓; (4) no H1 in bodies ✓; (5) AffiliateCard rating/reviews not rendered to users — no honesty violation ✓; (6) internal links spot-checked (8 slugs) — all resolve ✓; (7) smoke + a11y coverage — all 3 routes present ✓; (8) wiring verified ✓. DEFECT FIXED: israel-season-picker description trimmed 174→164 chars. Gate: 0 check errors · 683 pages · 969/969 e2e+a11y. SHA 192e6b8.
 
 Notes: iter 448 BUILD (tools) — /israel-season-picker shipped. 8 interest chips (Beach, Desert hiking, Skiing, Jewish holiday experiences, Christian pilgrimage, Budget, Bird watching, Festivals & music). Weighted 1–5 monthly scores per interest; top-85 % threshold selects best month(s). Contradictory-interest edge case (beach+skiing) renders compromise note. Output: personalised month badge(s) + interest-specific explanation sentences + up to unique CTA links (GYG/Viator/Booking by interest). Month-by-month overview table with ★/★★/★★★ rating on the page body. Honesty: outputs framed as "typically best"; Jewish/Muslim holiday date drift noted; Hermon snow not guaranteed. Wired: plan-your-trip tools grid, Footer, cross-link in best-time-to-visit-israel.md. 7 new tests (smoke +1, a11y +1, tools +5). Gate: 0 check errors · 683 pages · 969/969 e2e+a11y. SHA d38983c pushed 2026-07-11T06:09Z. CI in_progress.
 
