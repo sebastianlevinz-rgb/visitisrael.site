@@ -353,6 +353,7 @@ const ROUTES = [
   '/3-days-in-negev',
   '/3-days-in-galilee',
   '/birdwatching-in-israel',
+  '/israel-season-picker',
   '/museum-of-tolerance-jerusalem',
   '/northern-israel-road-trip',
   '/eilat-snorkeling-guide',

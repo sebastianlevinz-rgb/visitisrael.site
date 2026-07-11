@@ -895,3 +895,55 @@ test.describe('Israel cruise excursion planner', () => {
     await expect(link).toBeVisible();
   });
 });
+
+test.describe('Israel season picker', () => {
+  test('page renders with interest chips and submit button', async ({ page }) => {
+    await page.goto('/israel-season-picker');
+    await expect(page.locator('input[name="interest"][value="beach"]')).not.toHaveCount(0);
+    await expect(page.locator('#picker-submit')).toBeVisible();
+    await expect(page.locator('#picker-results')).not.toBeVisible();
+  });
+
+  test('shows error when submitted with no selection', async ({ page }) => {
+    await page.goto('/israel-season-picker');
+    await page.locator('#picker-submit').click();
+    await expect(page.locator('#picker-error')).toBeVisible();
+    await expect(page.locator('#picker-results')).not.toBeVisible();
+  });
+
+  test('Beach + Budget selection recommends September or October', async ({ page }) => {
+    await page.goto('/israel-season-picker');
+    await page.locator('input[name="interest"][value="beach"]').check({ force: true });
+    await page.locator('input[name="interest"][value="budget"]').check({ force: true });
+    await page.locator('#picker-submit').click();
+    await expect(page.locator('#picker-results')).toBeVisible();
+    const heading = await page.locator('#results-heading').textContent();
+    expect(heading).toMatch(/September|October/);
+  });
+
+  test('Skiing selection recommends January or February', async ({ page }) => {
+    await page.goto('/israel-season-picker');
+    await page.locator('input[name="interest"][value="skiing"]').check({ force: true });
+    await page.locator('#picker-submit').click();
+    await expect(page.locator('#picker-results')).toBeVisible();
+    const heading = await page.locator('#results-heading').textContent();
+    expect(heading).toMatch(/January|February/);
+  });
+
+  test('reset button hides results and clears selection', async ({ page }) => {
+    await page.goto('/israel-season-picker');
+    await page.locator('input[name="interest"][value="birding"]').check({ force: true });
+    await page.locator('#picker-submit').click();
+    await expect(page.locator('#picker-results')).toBeVisible();
+    await page.locator('#picker-reset').click();
+    await expect(page.locator('#picker-results')).not.toBeVisible();
+    const checked = await page.locator('#picker input[name="interest"]:checked').count();
+    expect(checked).toBe(0);
+  });
+
+  test('plan-your-trip links to season picker', async ({ page }) => {
+    await page.goto('/plan-your-trip');
+    const link = page.locator('a[href="/israel-season-picker"]').first();
+    await expect(link).toBeVisible();
+  });
+});

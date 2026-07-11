@@ -37,3 +37,5 @@ Israel packs several climates into a small country, so the "best" time depends o
 ## Don't forget the holiday calendar
 
 Jewish, Christian and Muslim holidays drive both closures and prices. Jewish holidays follow a lunar-solar calendar; the Muslim calendar shifts about 11 days earlier each year. Check exact dates before booking, and read the [Shabbat guide](/shabbat-guide) for the weekly rhythm. Ready to plan? See our [itineraries](/itineraries) and [first-time guide](/first-time-in-israel).
+
+Not sure which months suit your specific interests? Use the **[interactive season picker](/israel-season-picker)** — choose beaches, hiking, pilgrimage, birding and more to get a personalised month recommendation.

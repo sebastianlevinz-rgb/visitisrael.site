@@ -1,0 +1,432 @@
+---
+import BaseLayout from '@/layouts/BaseLayout.astro';
+import Hero from '@/components/Hero.astro';
+import Breadcrumbs from '@/components/Breadcrumbs.astro';
+import JsonLd from '@/components/JsonLd.astro';
+import { breadcrumbList, faqPage } from '@/lib/schema';
+import { affiliateUrl } from '@/config/affiliates';
+
+const title = 'Best Time to Visit Israel for You — Interactive Season Picker';
+const description =
+  'Tell us what you want to do and get a personalised best-month recommendation for your Israel trip. Covers beaches, desert hiking, skiing, pilgrimages, bird watching and more.';
+
+const crumbs = [
+  { name: 'Home', path: '/' },
+  { name: 'Plan your trip', path: '/plan-your-trip' },
+  { name: 'Season picker', path: '/israel-season-picker' },
+];
+
+const gygBeach       = affiliateUrl('getyourguide', { query: 'Tel Aviv beach tour Israel' });
+const gygHermon      = affiliateUrl('getyourguide', { query: 'Mount Hermon ski Israel' });
+const gygPilgrimage  = affiliateUrl('getyourguide', { query: 'Holy Land pilgrimage tour Israel' });
+const gygBirding     = affiliateUrl('getyourguide', { query: 'Hula Valley birdwatching Israel' });
+const gygNegev       = affiliateUrl('getyourguide', { query: 'Negev desert hiking Israel' });
+const viatorFestival = affiliateUrl('viator', { query: 'Israel festivals cultural tour' });
+const bookingHotels  = affiliateUrl('booking', { destination: 'Israel' });
+
+const faqs = [
+  {
+    question: 'When is the best time to visit Israel overall?',
+    answer:
+      'Spring (March–May) and autumn (September–November) are the best times for most visitors — mild temperatures everywhere, warm sea, and lush Galilee landscapes. Summer works well on the coast and Sea of Galilee but is extreme in the Negev and Eilat. Winter is cheap and quiet, with warm south and ski potential on Hermon.',
+  },
+  {
+    question: 'What is the cheapest month to visit Israel?',
+    answer:
+      'January and February (outside the Christmas–New Year surge) are the cheapest months — hotel rates drop significantly in the north, crowds thin, and aside from the occasional rain shower conditions are pleasant, especially in Eilat and the Dead Sea area.',
+  },
+  {
+    question: 'Is it safe to visit Israel for a beach holiday in summer?',
+    answer:
+      'Tel Aviv and the Mediterranean coast are excellent in summer — sea temperatures reach 27–29°C, the promenade is buzzing, and beach clubs are in full swing. The Dead Sea and Eilat are extremely hot (40°C+) and better visited early morning or in winter.',
+  },
+  {
+    question: 'When are the Jewish holidays in Israel?',
+    answer:
+      'Jewish holidays follow a lunar-solar calendar, so dates shift each year. Passover is typically March–April, Rosh Hashanah and Yom Kippur in September–October, and Hanukkah in November–December. During major holidays many businesses close and accommodation prices spike — check exact dates before booking.',
+  },
+  {
+    question: 'Can you ski in Israel?',
+    answer:
+      'Yes — Mount Hermon in the Golan Heights is Israel\'s only ski resort, open roughly January–March depending on snowfall. Snow is not guaranteed every year; check the resort\'s live webcam before planning a dedicated skiing trip.',
+  },
+  {
+    question: 'When is the best time for birdwatching in Israel?',
+    answer:
+      'April and October are the peak migration months, with hundreds of millions of birds funnelling through the Great Rift Valley. The Agamon HaHula crane spectacle peaks October–February (up to 120,000 cranes). The Eilat IBRCE hosts its Birding Festival in mid-March.',
+  },
+];
+
+const schema = [breadcrumbList(crumbs), faqPage(faqs)];
+---
+
+<BaseLayout
+  title={title}
+  description={description}
+  path="/israel-season-picker"
+  image="/images/regions/galilee/hero.jpg"
+  imageAlt="Wildflowers bloom across the Galilee hills in spring — best time to visit Israel"
+>
+  <JsonLd schema={schema} slot="head" />
+  <Hero
+    image="/images/regions/galilee/hero.jpg"
+    title="Best Time to Visit Israel — For You"
+    subtitle="Tell us your interests and we'll pinpoint the best month for your trip."
+    alt="Spring wildflowers on Galilee hillside, Israel"
+  />
+  <Breadcrumbs items={crumbs} />
+
+  <section class="mx-auto max-w-3xl px-4 pt-10">
+    <p class="eyebrow" data-reveal>Personalised recommendation</p>
+    <h2 class="font-display text-3xl font-bold text-ink" data-reveal>
+      What do you want to do in Israel?
+    </h2>
+    <p class="mt-2 max-w-2xl text-ink-muted" data-reveal>
+      Pick everything that interests you, then tap <strong>Show my best months</strong>.
+    </p>
+  </section>
+
+  <section class="mx-auto max-w-3xl px-4 pt-8 pb-2">
+    <form
+      id="picker"
+      aria-label="Season picker interest selector"
+      data-gyg-beach={gygBeach}
+      data-gyg-negev={gygNegev}
+      data-gyg-hermon={gygHermon}
+      data-gyg-pilgrimage={gygPilgrimage}
+      data-gyg-birding={gygBirding}
+      data-viator-festival={viatorFestival}
+      data-booking={bookingHotels}
+    >
+      <fieldset>
+        <legend class="sr-only">Select your travel interests</legend>
+        <div id="chip-grid" class="flex flex-wrap gap-3">
+          <label class="chip-opt">
+            <input type="checkbox" name="interest" value="beach" class="sr-only" />
+            <span>🏖️ Beach &amp; swimming</span>
+          </label>
+          <label class="chip-opt">
+            <input type="checkbox" name="interest" value="hiking" class="sr-only" />
+            <span>🥾 Desert hiking</span>
+          </label>
+          <label class="chip-opt">
+            <input type="checkbox" name="interest" value="skiing" class="sr-only" />
+            <span>⛷️ Skiing &amp; snow</span>
+          </label>
+          <label class="chip-opt">
+            <input type="checkbox" name="interest" value="jewish" class="sr-only" />
+            <span>✡️ Jewish holiday experiences</span>
+          </label>
+          <label class="chip-opt">
+            <input type="checkbox" name="interest" value="pilgrimage" class="sr-only" />
+            <span>✝️ Christian pilgrimage</span>
+          </label>
+          <label class="chip-opt">
+            <input type="checkbox" name="interest" value="budget" class="sr-only" />
+            <span>💶 Budget travel</span>
+          </label>
+          <label class="chip-opt">
+            <input type="checkbox" name="interest" value="birding" class="sr-only" />
+            <span>🦅 Bird watching &amp; nature</span>
+          </label>
+          <label class="chip-opt">
+            <input type="checkbox" name="interest" value="festivals" class="sr-only" />
+            <span>🎶 Festivals &amp; music</span>
+          </label>
+        </div>
+      </fieldset>
+
+      <div class="mt-6 flex flex-wrap items-center gap-3">
+        <button type="submit" id="picker-submit" class="btn btn-primary">
+          Show my best months
+        </button>
+        <button type="reset" id="picker-reset" class="btn btn-ghost">Clear</button>
+      </div>
+
+      <p id="picker-error" class="mt-3 hidden text-sm font-semibold text-red-600" role="alert">
+        Please select at least one interest first.
+      </p>
+    </form>
+  </section>
+
+  <!-- Results -->
+  <section
+    id="picker-results"
+    class="mx-auto max-w-3xl px-4 pt-8 pb-4 hidden"
+    aria-live="polite"
+    aria-atomic="true"
+  >
+    <div class="rounded-card border border-border bg-sand-deep p-6 shadow-card">
+      <h2 id="results-heading" class="font-display text-2xl font-bold text-ink"></h2>
+      <p id="results-explanation" class="mt-3 text-ink-muted"></p>
+      <div id="results-months" class="mt-5 flex flex-wrap gap-2"></div>
+      <p id="results-caveat" class="mt-4 text-xs text-ink-muted"></p>
+      <div id="results-links" class="mt-5 flex flex-wrap gap-3"></div>
+    </div>
+  </section>
+
+  <!-- Month calendar grid -->
+  <section class="mx-auto max-w-3xl px-4 pt-10 pb-4">
+    <h2 class="mb-4 font-display text-2xl font-bold text-ink">Month-by-month overview</h2>
+    <div class="overflow-x-auto">
+      <table class="w-full min-w-[540px] text-sm">
+        <thead>
+          <tr class="border-b-2 border-border">
+            <th class="py-2 text-left text-xs font-semibold uppercase tracking-wide text-ink-muted w-28">Month</th>
+            <th class="py-2 text-left text-xs font-semibold uppercase tracking-wide text-ink-muted">Highlights</th>
+            <th class="py-2 text-center text-xs font-semibold uppercase tracking-wide text-ink-muted w-20">Score</th>
+          </tr>
+        </thead>
+        <tbody>
+          {
+            [
+              { month: 'January', highlights: 'Cheap, quiet; Eilat warm; Hermon skiing possible', score: 3 },
+              { month: 'February', highlights: 'Wildflowers begin in Negev; Eilat peak; budget', score: 3 },
+              { month: 'March', highlights: 'Wildflowers peak; Galilee green; IBRCE bird festival Eilat', score: 5 },
+              { month: 'April', highlights: 'Best overall — warm, lush; Passover (closures & surge)', score: 5 },
+              { month: 'May', highlights: 'Sea warming; uncrowded; wildflower tail-end', score: 5 },
+              { month: 'June', highlights: 'Beach season opens; TLV coast buzzing; Galilee hot', score: 4 },
+              { month: 'July', highlights: 'Coast peak; inland very hot; south extreme', score: 3 },
+              { month: 'August', highlights: 'Coast peak; Eilat / Dead Sea: pre-dawn only', score: 3 },
+              { month: 'September', highlights: 'Heat eases; sea still 28 °C; High Holidays surge', score: 4 },
+              { month: 'October', highlights: 'Best overall — warm sea, hiking; Hula Valley cranes begin', score: 5 },
+              { month: 'November', highlights: 'Quiet, cheap; good hiking; Galilee green again', score: 4 },
+              { month: 'December', highlights: 'Christmas in Nazareth; Eilat warm; Hermon snow possible', score: 3 },
+            ].map(({ month, highlights, score }) => (
+              <tr class="border-b border-border">
+                <td class="py-2 font-semibold text-ink">{month}</td>
+                <td class="py-2 text-ink-muted">{highlights}</td>
+                <td class="py-2 text-center">
+                  <span class={`inline-block rounded px-2 py-0.5 text-xs font-bold ${score === 5 ? 'bg-green-100 text-green-800' : score === 4 ? 'bg-lime-100 text-lime-800' : 'bg-sand-deep text-ink-muted'}`}>
+                    {score === 5 ? '★★★' : score === 4 ? '★★' : '★'}
+                  </span>
+                </td>
+              </tr>
+            ))
+          }
+        </tbody>
+      </table>
+    </div>
+    <p class="mt-3 text-xs text-ink-muted">★★★ = peak · ★★ = good · ★ = acceptable (check for heat/rain)</p>
+  </section>
+
+  <section class="mx-auto max-w-3xl px-4 pb-4 pt-14">
+    <h2 class="mb-4 font-display text-2xl font-bold text-ink">
+      Frequently asked questions
+    </h2>
+    <div class="space-y-4">
+      {
+        faqs.map((f) => (
+          <details class="rounded-card border border-border bg-card p-4">
+            <summary class="cursor-pointer font-semibold text-ink">
+              {f.question}
+            </summary>
+            <p class="mt-2 text-ink-muted">{f.answer}</p>
+          </details>
+        ))
+      }
+    </div>
+  </section>
+
+  <section class="mx-auto max-w-3xl px-4 pb-16 pt-6">
+    <p class="text-sm text-ink-muted">
+      Also useful:
+      <a href="/best-time-to-visit-israel" class="font-semibold text-primary">Best time to visit guide</a>
+      · <a href="/israel-how-many-days" class="font-semibold text-primary">How many days?</a>
+      · <a href="/israel-packing-list" class="font-semibold text-primary">Packing list</a>
+      · <a href="/itineraries" class="font-semibold text-primary">Itineraries</a>
+    </p>
+  </section>
+</BaseLayout>
+
+<style>
+  .chip-opt {
+    display: inline-flex;
+    align-items: center;
+    cursor: pointer;
+    border-radius: var(--radius-btn);
+    border: 1.5px solid var(--color-border);
+    padding: 0.5rem 1rem;
+    font-size: var(--text-sm);
+    font-weight: 600;
+    color: var(--color-ink-muted);
+    user-select: none;
+    transition:
+      border-color 0.18s ease,
+      background 0.18s ease,
+      color 0.18s ease;
+  }
+  .chip-opt:has(input:checked) {
+    border-color: var(--color-primary);
+    background: var(--color-primary-soft);
+    color: var(--color-primary);
+  }
+  .chip-opt:has(input:focus-visible) {
+    outline: 3px solid var(--color-primary);
+    outline-offset: 2px;
+  }
+  .month-badge {
+    display: inline-block;
+    border-radius: var(--radius-btn);
+    border: 2px solid var(--color-primary);
+    background: var(--color-primary-soft);
+    color: var(--color-primary);
+    padding: 0.35rem 0.85rem;
+    font-size: var(--text-sm);
+    font-weight: 700;
+  }
+  @media (prefers-reduced-motion: reduce) {
+    .chip-opt { transition: none; }
+  }
+</style>
+
+<script is:inline>
+(function () {
+  // Per-interest monthly scores (Jan=0 … Dec=11), scale 1-5
+  var SCORES = {
+    beach:      [1, 1, 2, 3, 4, 5, 5, 5, 5, 4, 2, 1],
+    hiking:     [3, 3, 5, 5, 5, 3, 2, 2, 4, 5, 5, 3],
+    skiing:     [4, 4, 2, 1, 1, 1, 1, 1, 1, 1, 2, 3],
+    jewish:     [2, 2, 2, 5, 2, 2, 2, 2, 5, 4, 2, 3],
+    pilgrimage: [4, 3, 4, 5, 3, 2, 2, 2, 2, 3, 3, 5],
+    budget:     [5, 5, 3, 2, 4, 3, 2, 2, 3, 4, 5, 4],
+    birding:    [4, 4, 5, 5, 3, 2, 1, 1, 2, 5, 4, 3],
+    festivals:  [2, 2, 3, 4, 4, 4, 4, 4, 4, 4, 3, 3],
+  };
+
+  var MONTHS = ['January','February','March','April','May','June',
+                'July','August','September','October','November','December'];
+
+  // Short explanations keyed by interest
+  var EXPLAIN = {
+    beach:      'Sea temperatures peak June–October (25–29 °C). Tel Aviv beach clubs are in full swing June–August.',
+    hiking:     'March–May and October–November are ideal for desert and trail hiking before/after extreme summer heat.',
+    skiing:     'Mount Hermon (Golan Heights) opens roughly January–March, snow permitting — check live conditions before booking.',
+    jewish:     'Passover (Apr) and Sukkot / Rosh Hashanah (Sep–Oct) are the most immersive holiday experiences; dates shift annually.',
+    pilgrimage: 'Easter (Apr) and Christmas (Dec) bring the most atmosphere in Jerusalem and Nazareth; spring is the most comfortable for walking the Via Dolorosa.',
+    budget:     'January–February and November are the cheapest months — low hotel rates, thin crowds, and comfortable weather in the south.',
+    birding:    'Peak spring migration is April; peak autumn migration is October. Agamon HaHula crane spectacle runs October–February.',
+    festivals:  'Tel Aviv Pride (June), White Night (June), Eilat Jazz (November) and the summer outdoor festival calendar run April–October.',
+  };
+
+  // Affiliate CTA buttons by interest
+  var CTAS = {
+    beach:      { label: 'Browse beach tours', href: '{{gyg_beach}}' },
+    hiking:     { label: 'Browse Negev hiking tours', href: '{{gyg_negev}}' },
+    skiing:     { label: 'Browse Mount Hermon tours', href: '{{gyg_hermon}}' },
+    jewish:     { label: 'Browse hotels in Israel', href: '{{booking}}' },
+    pilgrimage: { label: 'Browse Holy Land tours', href: '{{gyg_pilgrimage}}' },
+    budget:     { label: 'Browse hotels in Israel', href: '{{booking}}' },
+    birding:    { label: 'Browse birdwatching tours', href: '{{gyg_birding}}' },
+    festivals:  { label: 'Browse cultural tours', href: '{{viator_festival}}' },
+  };
+
+  // Inject real affiliate URLs (rendered server-side into inline JS)
+  var AFFILIATE = {
+    gyg_beach:       document.getElementById('picker').getAttribute('data-gyg-beach'),
+    gyg_negev:       document.getElementById('picker').getAttribute('data-gyg-negev'),
+    gyg_hermon:      document.getElementById('picker').getAttribute('data-gyg-hermon'),
+    gyg_pilgrimage:  document.getElementById('picker').getAttribute('data-gyg-pilgrimage'),
+    gyg_birding:     document.getElementById('picker').getAttribute('data-gyg-birding'),
+    viator_festival: document.getElementById('picker').getAttribute('data-viator-festival'),
+    booking:         document.getElementById('picker').getAttribute('data-booking'),
+  };
+
+  function resolveHref(tpl) {
+    return tpl.replace(/\{\{(\w+)\}\}/g, function (_, k) { return AFFILIATE[k] || '#'; });
+  }
+
+  var form   = document.getElementById('picker');
+  var error  = document.getElementById('picker-error');
+  var result = document.getElementById('picker-results');
+  var heading    = document.getElementById('results-heading');
+  var explanation = document.getElementById('results-explanation');
+  var monthsEl   = document.getElementById('results-months');
+  var caveat     = document.getElementById('results-caveat');
+  var linksEl    = document.getElementById('results-links');
+
+  function checkedInterests() {
+    return Array.prototype.slice.call(
+      document.querySelectorAll('#picker input[name="interest"]:checked')
+    ).map(function (el) { return el.value; });
+  }
+
+  function compute(interests) {
+    var totals = MONTHS.map(function (_, i) {
+      return interests.reduce(function (sum, key) {
+        return sum + (SCORES[key] ? SCORES[key][i] : 0);
+      }, 0);
+    });
+
+    var max = Math.max.apply(null, totals);
+    var threshold = max * 0.85;
+    var best = MONTHS.filter(function (_, i) { return totals[i] >= threshold; });
+
+    return { best: best, totals: totals, max: max };
+  }
+
+  function render(interests) {
+    var r = compute(interests);
+
+    heading.textContent = r.best.length === 1
+      ? 'Your best month: ' + r.best[0]
+      : 'Your best months: ' + r.best.join(', ');
+
+    // Build explanation
+    var lines = interests.map(function (k) { return EXPLAIN[k] || ''; }).filter(Boolean);
+    explanation.textContent = lines.join(' ');
+
+    // Month badges
+    monthsEl.innerHTML = '';
+    r.best.forEach(function (m) {
+      var span = document.createElement('span');
+      span.className = 'month-badge';
+      span.textContent = m;
+      monthsEl.appendChild(span);
+    });
+
+    // Contradictory check
+    var hasBeach = interests.indexOf('beach') !== -1;
+    var hasSkiing = interests.indexOf('skiing') !== -1;
+    caveat.textContent = (hasBeach && hasSkiing)
+      ? 'Note: beach and skiing seasons don\'t overlap. March and October offer the best compromise — beach-accessible weather with remaining Hermon snow chances or early autumn warmth.'
+      : 'Dates for Jewish and Muslim holidays shift annually — always verify exact dates before booking.';
+
+    // CTA links
+    linksEl.innerHTML = '';
+    var seen = {};
+    interests.forEach(function (k) {
+      var cta = CTAS[k];
+      if (!cta || seen[cta.label]) return;
+      seen[cta.label] = 1;
+      var a = document.createElement('a');
+      a.href = resolveHref(cta.href);
+      a.target = '_blank';
+      a.rel = 'noopener noreferrer sponsored';
+      a.className = 'btn btn-primary';
+      a.textContent = cta.label;
+      linksEl.appendChild(a);
+    });
+
+    result.classList.remove('hidden');
+    result.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+  }
+
+  form.addEventListener('submit', function (e) {
+    e.preventDefault();
+    var interests = checkedInterests();
+    if (interests.length === 0) {
+      error.classList.remove('hidden');
+      return;
+    }
+    error.classList.add('hidden');
+    render(interests);
+  });
+
+  form.addEventListener('reset', function () {
+    result.classList.add('hidden');
+    error.classList.add('hidden');
+  });
+})();
+</script>
+</BaseLayout>
