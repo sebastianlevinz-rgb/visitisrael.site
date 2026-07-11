@@ -210,6 +210,7 @@ const ROUTES = [
   '/red-canyon-eilat',
   '/israel-kayaking',
   '/israel-visa-extension',
+  '/sukkot-in-israel',
   '/hai-bar-yotvata-guide',
   '/northern-israel-road-trip',
   '/eilat-snorkeling-guide',

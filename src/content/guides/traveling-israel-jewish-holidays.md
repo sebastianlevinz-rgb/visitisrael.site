@@ -172,6 +172,8 @@ For a full standalone guide — Ben Gurion Airport closure, the cycling promenad
 
 **Booking advice**: book two to four months ahead — equivalent caution to Passover. Sites are at their busiest on the intermediate days when Israeli domestic tourism peaks.
 
+For a full planning guide covering dates, the Western Wall Birkat Kohanim, Chol HaMoed logistics, and accommodation strategy, see the [Sukkot in Israel guide](/sukkot-in-israel).
+
 ---
 
 ## Hanukkah (Festival of Lights) — Winter
