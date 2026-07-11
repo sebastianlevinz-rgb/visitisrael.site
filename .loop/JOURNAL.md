@@ -697,7 +697,7 @@ Fix: added '/israel-national-parks-pass' to ROUTES array in tests/e2e/a11y.spec.
 Branch: auto/review-47-a11y-parks-pass.
 Gate: pnpm check 0 errors (101 files); build 171 pages (stable); check:links 0 broken/0 orphan/
   0 unreachable/0 deep; e2e via CI (Playwright 1.61 download blocked in cloud env — consistent pattern).
-Ship: squash-committed to master 491d0f7, pushed. CI in_progress at push time.
+Ship: squash-committed to master 491d0f7, pushed. CI in_progress at push time (run #817; all prior runs success on same workflow).
 Next: iter 48 = BUILD/monetization. Top candidate: Israel for seniors guide (P2 M, well-researched
   iter40, Abraham/Bein Harim CTAs, distinct audience gap vs israel-with-kids).
 
