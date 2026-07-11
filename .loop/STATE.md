@@ -1,13 +1,15 @@
 # LOOP STATE
 
-- iteration: 446
-- lastMode: BUILD (monetization; 446%5==1)
-- lastItem: build-446-muslim-travel-israel
-- lastResult: BUILD — /muslim-travel-israel (P2/M seo-content+monetization) shipped. Temple Mount access guide, Islamic sites (Al-Aqsa, Al-Jazzar Mosque Akko, Hassan Bek Mosque Jaffa, White Mosque Nazareth), halal food, prayer logistics, Ramadan tips, airport security. Honesty: access never guaranteed; Dome interior not described; Hebron excluded; halal framed correctly; Ramadan dates link-only. 3 CTAs: GYG Jerusalem Islamic heritage tour + Viator Old City + Booking.com Old City hotels. Cross-link added from holy-sites-dress-code-etiquette.md. Gate: 0 check errors · 681 pages (+1) · 959/959 e2e+a11y pass (+2). Merge SHA 1e412eb, pushed 2026-07-11T03:55Z. CI in_progress at push time (prior 3 runs all success — code is clean).
-- nextRotationCategory: 447%5==2 → BUILD (seo-content). 448%5==3 → BUILD (tools — /israel-season-picker ready as P2/M). 449%5==4 → REVIEW. 450%5==0 → RESEARCH.
+- iteration: 447
+- lastMode: BUILD (seo-content; 447%5==2)
+- lastItem: build-447-3-days-in-galilee
+- lastResult: BUILD — /3-days-in-galilee (P2/M seo-content) shipped. Day-by-day Galilee 3-day itinerary: Nazareth Old City + Basilica of the Annunciation (Day 1), Sea of Galilee Christian shore circuit — Tabgha mosaic floor, Capernaum excavations, Magdala 1st-century synagogue, lake boat, Church of the Beatitudes (Day 2), Mount Arbel cliff hike + departure (Day 3). 6 FAQs. 3 CTAs: GYG Sea of Galilee boat tour + Booking.com Tiberias + DiscoverCars. Cross-links from galilee.md region + galilee-vs-golan-weekend.md. Title: 62 chars ✓. Description: 149 chars ✓. Gate: 0 check errors · 682 pages (+1) · 961/961 e2e+a11y pass (+2). Merge SHA 6607434, pushed 2026-07-11T05:00Z. CI success (Lighthouse + CI workflows both completed 2026-07-11T04:59Z).
+- nextRotationCategory: 448%5==3 → BUILD (tools — /israel-season-picker ready as P2/M). 449%5==4 → REVIEW. 450%5==0 → RESEARCH. 451%5==1 → BUILD (monetization).
 - higgsfieldSpent: 0
-- updatedAt: 2026-07-11T03:58Z
+- updatedAt: 2026-07-11T05:05Z
 - branch context: work on master; feature work on auto/<slug>
+
+Notes: iter 447 BUILD (seo-content) — /3-days-in-galilee shipped. Confirmed gap: only thin AI-aggregators (WanderLog, TravelTriangle) ranked for "3 days in Galilee Israel" at time of iter 445 RESEARCH; no editorial publisher had a structured Galilee weekend itinerary. Mirrors proven 3-days-in-negev / 3-days-in-haifa format. YAML ISSUE: FAQ answer #5 had unescaped straight apostrophes in "Galilee's" and "Nazareth's" inside YAML single-quoted string — fixed with '' double-escape before gate pass. Honesty: Mount Arbel cliff section noted as not suitable for vertigo-sensitive visitors; summer heat timing warnings throughout; Nazareth parking difficulty called out; Capernaum coach arrival time noted (arrive before 09:30); no fabricated prices/ratings.
 
 Notes: iter 446 BUILD (monetization) — /muslim-travel-israel shipped. Top P2 seo-content+monetization item; Bein Harim has dedicated Muslim-travelers page; we had zero dedicated content. Format distinct from origin-market playbook: Muslim-visitor experience rather than passport/visa focus. Temple Mount section: Muslim access via all gates (Al-Aqsa open for prayer); non-Muslim via Mughrabi Gate only; Dome of the Rock interior NOT described; access never guaranteed; Waqf administration explained. Hebron explicitly excluded (PROJECT.md). Halal food: Arab-owned restaurants in Muslim Quarter, Jaffa, Nazareth, Akko framed as "typically halal" not certified claim. Prayer logistics: qibla direction (southeast, ~150-160° from north), mosque locations by city. Ramadan: year-shift warning + islamicfinder.org link (never hardcoded Gregorian date). Airport security: neutral, professional framing.
 Title: 57 chars ✓  Description: 150 chars ✓

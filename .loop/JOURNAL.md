@@ -7372,3 +7372,9 @@ Next: iter 446 → BUILD (446%5==1 → monetization). Top P2 monetization item f
 **CTAs:** GYG Jerusalem Islamic heritage tour (priceFrom ₪45, rating 4.8) + Viator Old City Walking Tour (priceFrom ₪35, rating 4.8) + Booking.com Old City Jerusalem hotels. Cross-link added from holy-sites-dress-code-etiquette.md footer.
 **Title:** "Israel for Muslim Travelers: Complete Travel Guide (2026)" — 57 chars ✓. **Description:** 150 chars ✓.
 Next: iter 447 → BUILD (seo-content; 447%5==2). Top P2 seo-content item from BACKLOG.
+
+## 2026-07-11T05:05Z · iter 447 · BUILD (seo-content) · 3-days-in-galilee
+What: new /3-days-in-galilee guide (P2/M seo-content). Confirmed gap (only thin AI-aggregators ranked). Day-by-day: Nazareth Old City + Basilica of Annunciation (Day 1); Sea of Galilee circuit — Tabgha mosaic floor, Capernaum, Magdala 1st-century synagogue, lake boat, Church of Beatitudes (Day 2); Mount Arbel cliff hike + departure (Day 3). 6 FAQs; 3 CTAs (GYG boat, Booking Tiberias, DiscoverCars). Cross-links from galilee.md region + galilee-vs-golan-weekend.md. YAML fix: apostrophes in "Galilee's"/"Nazareth's" escaped with '' before gate pass.
+Gate: 0 check errors · 682 pages (+1) · 961/961 e2e+a11y pass (+2).
+Merge SHA 6607434, pushed 2026-07-11T05:00Z. CI success (Lighthouse + CI both completed 04:59Z).
+Next: iter 448 → BUILD (tools; 448%5==3). Top P2/M tool: /israel-season-picker.

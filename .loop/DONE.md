@@ -890,3 +890,6 @@ Value: Confirmed editorial gap — only AI-aggregators rank for "3 days in Negev
 
 - iter443 · /birdwatching-in-israel · SHA 5c902d2 — Israel birdwatching & wildlife migration hub. Agamon HaHula crane spectacle (120k cranes Nov peak), IBRCE Eilat saltpans + ringing demos, Gamla Griffon Vulture colony, Hai-Bar Yotvata oryx/onager reintroduction, En Afek wetland. Seasonal calendar table. 3 CTAs. 6 FAQs. 680 pages · 957/957 tests.
 - [iter446] /muslim-travel-israel — Muslim-friendly Israel travel guide: Temple Mount access, Al-Aqsa, halal food, prayer logistics, Ramadan tips, Islamic sites across Israel. P2/M seo-content+monetization. → SHA 1e412eb
+
+## iter 447 — /3-days-in-galilee · SHA 6607434
+3-day Galilee itinerary guide (P2/M seo-content). Nazareth Old City + Basilica of the Annunciation, Sea of Galilee Christian shore circuit (Tabgha, Capernaum, Magdala, boat), Mount Arbel hike. 6 FAQs, 3 CTAs (GYG boat/Booking Tiberias/DiscoverCars). Fills confirmed gap vs AI-aggregator-only SERPs. 682 pages. 961/961 e2e pass. CI success.
