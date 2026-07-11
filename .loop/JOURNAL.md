@@ -7339,3 +7339,23 @@ DEFECT FOUND + FIXED: birdwatching-in-israel title trimmed 67→61 chars ("…Hu
 Gate: 0 check errors · 680 pages (unchanged) · 957/957 e2e pass. GREEN.
 Ship: committed 3f259f9 to master, pushed 2026-07-11T01:40Z. CI in_progress at push time.
 Next: iter 445 → RESEARCH (445%5==0).
+
+## 2026-07-11T03:15Z · iter 445 · RESEARCH · research-445-italy-spain-redsea-tools-wintersun
+Mode: RESEARCH (445%5==0). Startup: fresh cloud env; local master had diverged from origin (forced update in fetch) — reset --hard to origin/master (8ff88e1 = iter444 state commit).
+Research focus: 4 angles — (1) origin-market guide gaps for Italy + Spain; (2) Red Sea comparison query (Eilat vs Hurghada); (3) tools category re-population (season picker + itinerary checker); (4) Israel winter sun positioning for European audiences.
+Methodology: WebSearch x6 queries (Italy tourism statistics, Italian travelers entry reqs, Eilat vs Hurghada, Israel family travel, Israel honeymoon, Israel winter sun, Israeli travel budget calculators, Spain entry reqs); BACKLOG.md + DONE.md grep de-dup using targeted regex before each item addition; COMPETITORS.md review of prior research notes; cross-check against src/content/guides/ filesystem for candidate slugs.
+Key findings:
+(1) Italy origin market — ITA Airways + El Al FCO→TLV daily confirmed; SSN/Tessera not valid outside EU; Type L→H adapter angle; no English editorial guide for Italian tourists on any major brand. CONFIRMED GAP.
+(2) Red Sea comparison — TripAdvisor forum threads "Eilat Hurghada or Aqaba" confirm active traveler demand; zero editorial publisher has standalone guide; critical Hurghada vs Sinai safety distinction (UK FCDO warns against Sinai but NOT Hurghada); Petra add-on = unique Eilat advantage. CONFIRMED GAP.
+(3) Tools re-population — israel-visa-eta-checker + 6 existing tools shipped; tools BACKLOG empty since iter443. Season picker (interest-based month recommendation) + itinerary feasibility checker (days vs regions validation) are distinct from existing tools and from competitor offerings. CONFIRMED GAP.
+(4) Winter sun — Eilat 22°C in January; no competitor positions Israel in the European "winter sun" category despite clear qualification; distinct from christmas-in-israel (religious focus). CONFIRMED GAP.
+(5) Spain origin market — Iberia MAD→TLV + Vueling BCN→TLV direct confirmed; MAEC advisory link angle; Sephardic 1492 connection = unique hook for Spanish audience; SIP health card not valid outside EU. CONFIRMED GAP.
+6 net-new items added to BACKLOG (all grep-verified as absent from BACKLOG.md + DONE.md):
+  /israel-for-italian-travelers (P3/S seo-content+monetization) [iter445]
+  /eilat-vs-hurghada (P3/S seo-content+monetization) [iter445]
+  /israel-season-picker (P2/M tools) [iter445]
+  /israel-winter-sun-guide (P3/S seo-content+monetization) [iter445]
+  /israel-for-spanish-travelers (P3/S seo-content+monetization) [iter445]
+  /israel-itinerary-checker (P3/S tools) [iter445]
+No code shipped (RESEARCH mode). No gate run.
+Next: iter 446 → BUILD (446%5==1 → monetization). Top P2 monetization item from BACKLOG; or P2 seo-content+monetization if monetization queue needs review.
