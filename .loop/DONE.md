@@ -897,3 +897,8 @@ Value: Confirmed editorial gap — only AI-aggregators rank for "3 days in Negev
 ## iter 448 — /israel-season-picker · SHA d38983c
 Interactive best-time-to-visit season picker (P2/M tools). 8 interest chips (Beach, Desert hiking, Skiing, Jewish holidays, Christian pilgrimage, Budget, Bird watching, Festivals). Weighted 1–5 monthly scores → top-85% threshold → personalised best-month(s) output + explanations + CTA links. Contradictory beach+skiing edge case handled. Month-by-month table on page. Wired: plan-your-trip, footer, best-time-to-visit cross-link. 683 pages. 969/969 e2e+a11y pass. CI in_progress at push.
 - [iter451] /south-israel-itinerary — 4–5 day Beer-Sheva→Negev→Eilat self-drive circuit. Route 40 south: Beer-Sheva, Sde Boker, Ein Avdat, Avdat UNESCO, Makhtesh Ramon crater, Timna Park, Eilat. DiscoverCars+GYG+Booking+Viator CTAs. Gate: 971/971 e2e pass. SHA 43fad8f.
+
+## iter 452 · 2026-07-11 · ea5520f
+**Israel and Egypt Combined Trip Guide** (/israel-egypt-guide)
+Category: seo-content+monetization · Effort: M
+Value: Fills confirmed gap (touristisrael.com/visit-cairo-egypt-israel ranks; we had no combined-trip guide). Distinct from existing israel-vs-egypt.md (comparison) — covers HOW to combine both. Taba border procedure, South Sinai coastal option (Dahab/Sharm/Ras Mohammed), Cairo/Pyramids extension, 10-day and 14-day sample itineraries, 3-country triangle. 6 FAQs. 3 CTAs (TourRadar, Viator, GYG). Cross-linked from border-crossings, eilat-travel-guide, petra-from-israel, israel-vs-egypt. 685 pages (+1). 973/973 tests pass.

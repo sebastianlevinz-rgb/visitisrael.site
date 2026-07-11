@@ -7424,3 +7424,14 @@ Monetization: DiscoverCars primary CTA (car essential) + GYG jeep tours + Bookin
 Tests: smoke +1, a11y +1.
 Gate: 0 check errors · 684 pages · 971/971 e2e+a11y pass.
 Merge: squash-merged to master SHA 43fad8f, pushed 2026-07-11T08:41Z. CI Lighthouse in_progress at push time. Vercel deploy pending.
+
+## 2026-07-11T09:55Z · iter 452 · BUILD (seo-content) · israel-egypt-guide
+What: /israel-egypt-guide — Israel and Egypt combined trip guide via the Taba border crossing.
+Mode: BUILD (452%5==2 → seo-content). Confirmed SEO gap: touristisrael.com/visit-cairo-egypt-israel ranks; no editorial guide on site. Distinct from existing israel-vs-egypt.md (comparison guide) — this covers HOW to do both countries in one trip.
+Content: Taba border crossing detail (procedure, hours, fees, paper slip note); South Sinai coastal option (Taba/Nuweiba/Dahab/Sharm + Ras Mohammed NP); Cairo/Pyramids option (Grand Egyptian Museum, driving/flying logistics, full visa requirement); sample itineraries (10-day Israel+South Sinai; 14-day Israel+Sinai+Cairo; 3-country triangle via Nuweiba ferry to Aqaba); practical notes (currency, mobile data, health, Shabbat at Taba terminal).
+Honesty: government advisory links throughout (travel.state.gov, gov.uk, smartraveller.gov.au); South vs North Sinai distinction explicit and prominent; Sinai-only vs full-Egypt visa clearly explained; "never say Taba/Sinai is safe without caveat" enforced throughout; no hardcoded flight schedules; visa fees as approximations with "carry extra" note; ceasefire context: evergreen framing only.
+Cross-links added: border-crossings.md (Egypt section → new guide); eilat-travel-guide.md (Egypt via Taba paragraph); petra-from-israel.md (closing cross-link); israel-vs-egypt.md (combining-both section → new guide).
+Link check: /israeli-passport-stamp not yet built — fixed to /visa-information before gate (discovered in first gate run). Re-ran check-links: 0 broken links.
+Tests: smoke +1, a11y +1.
+Gate: 0 check errors · 685 pages (+1) · 973/973 e2e+a11y pass. GREEN.
+Merge: squash-merged to master SHA ea5520f, pushed 2026-07-11T09:47Z. Lighthouse: success. CI in_progress at state-write time.
