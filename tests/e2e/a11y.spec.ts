@@ -208,6 +208,7 @@ const ROUTES = [
   '/bedouin-experience-israel',
   '/red-canyon-eilat',
   '/israel-kayaking',
+  '/israel-visa-extension',
   '/hai-bar-yotvata-guide',
   '/northern-israel-road-trip',
   '/eilat-snorkeling-guide',

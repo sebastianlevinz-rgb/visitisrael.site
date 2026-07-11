@@ -347,6 +347,7 @@ const ROUTES = [
   '/bedouin-experience-israel',
   '/red-canyon-eilat',
   '/israel-kayaking',
+  '/israel-visa-extension',
   '/hai-bar-yotvata-guide',
   '/yom-kippur-in-israel',
   '/3-days-in-eilat',

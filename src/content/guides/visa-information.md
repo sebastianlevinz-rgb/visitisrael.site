@@ -49,7 +49,7 @@ Expect security questions on arrival — about your trip, where you're staying a
 
 ## Extending your stay & overland entry
 
-If you need longer than your permitted stay, enquire with the Population and Immigration Authority while in the country. If you're entering **overland from Jordan or Egypt**, the ETA-IL requirement and procedures differ by crossing — see our [border crossings guide](/border-crossings).
+If you need longer than your permitted stay, you can apply for an extension at a Population and Immigration Authority (Misrad HaPnim) office before your current authorization expires. See the full [Israel tourist visa extension guide](/israel-visa-extension) for the step-by-step process, required documents, fees and alternatives including the border-run option. If you're entering **overland from Jordan or Egypt**, the ETA-IL requirement and procedures differ by crossing — see our [border crossings guide](/border-crossings).
 
 ## Before you go
 

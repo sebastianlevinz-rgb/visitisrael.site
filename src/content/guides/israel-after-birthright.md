@@ -138,7 +138,7 @@ Guided tours for your return do not need to be full-day affairs. Some of the bes
 
 **Shabbat:** From Friday afternoon to Saturday night, public transport stops across most of Israel. Sheruts (shared taxis) run on some routes; Arab cities operate normally; Tel Aviv bars and many restaurants stay open. See our [Shabbat guide](/shabbat-guide) for the full picture.
 
-**Visa and entry:** Most Western passport holders enter visa-free for 90 days. See the [current visa guide](/visa-information) before booking.
+**Visa and entry:** Most Western passport holders enter visa-free for 90 days. If you want to stay longer, you can apply for an extension at the Population and Immigration Authority — see the [visa extension guide](/israel-visa-extension) for the full process. See the [current visa guide](/visa-information) for entry requirements.
 
 **Connectivity:** An Israeli eSIM (Airalo, Holafly) or a local SIM (Hot Mobile, Partner) runs ₪30–60 for 10–20 GB. You will need data for navigation, especially in the north and south. See our [Israel eSIM guide](/israel-esim) for options.
 
