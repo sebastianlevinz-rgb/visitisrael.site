@@ -340,6 +340,7 @@ const ROUTES = [
   '/3-days-in-eilat',
   '/3-days-in-haifa',
   '/3-days-in-negev',
+  '/birdwatching-in-israel',
   '/israel-for-british-travelers',
   '/jaffa-hotels-guide',
   '/israel-for-american-travelers',
