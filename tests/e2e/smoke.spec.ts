@@ -532,6 +532,7 @@ const ROUTES = [
   '/israel-car-rental-comparison',
   '/how-to-hire-licensed-tour-guide-israel',
   '/dead-sea-day-trip-comparison',
+  '/israel-small-group-tours',
 ];
 
 for (const route of ROUTES) {

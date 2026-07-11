@@ -44,8 +44,8 @@ If you would rather not piece together trains, hotels and day tours yourself, a 
 
 ## Small-group vs private
 
-- **Small-group** — cheaper and sociable, fixed itinerary and departures.
-- **Private** — your own guide, vehicle and pace; tailored route; best for families and special interests.
+- **Small-group** — cheaper and sociable, fixed itinerary and departures; typically 8–16 people. See our [Israel small-group tours comparison](/israel-small-group-tours) for a full operator breakdown.
+- **Private** — your own guide, vehicle and pace; tailored route; best for families and special interests. See our [private tours guide](/private-tours-israel).
 
 Compare both via the options above.
 

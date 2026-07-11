@@ -100,6 +100,7 @@ const ROUTES = [
   '/day-trips-from-eilat',
   '/dead-sea-tours-compared',
   '/dead-sea-day-trip-comparison',
+  '/israel-small-group-tours',
   '/israel-tour-operators-guide',
   '/cruise-shore-excursions-israel',
   '/israel-accommodation-guide',

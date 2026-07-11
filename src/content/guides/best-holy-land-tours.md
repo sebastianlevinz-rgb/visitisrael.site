@@ -54,7 +54,7 @@ Prices are rough guides that swing with season, group size, hotel class and oper
 
 ## Group pilgrimage packages
 
-The classic church trip: a single price bundles hotels, a coach, entry logistics and a **licensed Christian guide** who unlocks the Holy Sepulchre, the Via Dolorosa and Capernaum in ways that are hard to follow alone. Most run **7–10 days** on the [Jerusalem](/jerusalem) → Bethlehem → [Nazareth](/nazareth) → [Sea of Galilee](/galilee) circuit, often closing with a night on the [Dead Sea](/dead-sea) shore. They're the simplest option for groups and the best value once you add up hotels, transport and guiding separately. See our [Israel tour packages](/israel-tour-packages) guide for how multi-day trips are structured.
+The classic church trip: a single price bundles hotels, a coach, entry logistics and a **licensed Christian guide** who unlocks the Holy Sepulchre, the Via Dolorosa and Capernaum in ways that are hard to follow alone. Most run **7–10 days** on the [Jerusalem](/jerusalem) → Bethlehem → [Nazareth](/nazareth) → [Sea of Galilee](/galilee) circuit, often closing with a night on the [Dead Sea](/dead-sea) shore. They're the simplest option for groups and the best value once you add up hotels, transport and guiding separately. Prefer a more intimate experience? Our [small-group tours guide](/israel-small-group-tours) compares operators like Intrepid and G Adventures who cap groups at 8–16 people. See our [Israel tour packages](/israel-tour-packages) guide for how multi-day trips are structured.
 
 ## Private Christian guides
 
