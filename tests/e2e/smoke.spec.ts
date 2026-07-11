@@ -356,6 +356,7 @@ const ROUTES = [
   '/israel-egypt-guide',
   '/birdwatching-in-israel',
   '/israel-season-picker',
+  '/israel-itinerary-checker',
   '/museum-of-tolerance-jerusalem',
   '/northern-israel-road-trip',
   '/eilat-snorkeling-guide',

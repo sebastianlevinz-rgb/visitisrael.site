@@ -947,3 +947,68 @@ test.describe('Israel season picker', () => {
     await expect(link).toBeVisible();
   });
 });
+
+test.describe('Israel itinerary checker', () => {
+  test('page renders with slider, checkboxes, and submit button', async ({ page }) => {
+    await page.goto('/israel-itinerary-checker');
+    await expect(page.locator('#days-slider')).toBeVisible();
+    await expect(page.locator('input[name="dest"][value="jerusalem"]')).not.toHaveCount(0);
+    await expect(page.locator('#checker-submit')).toBeVisible();
+    await expect(page.locator('#checker-results')).not.toBeVisible();
+  });
+
+  test('shows error when submitted with no destination selected', async ({ page }) => {
+    await page.goto('/israel-itinerary-checker');
+    await page.locator('#checker-submit').click();
+    await expect(page.locator('#checker-error')).toBeVisible();
+    await expect(page.locator('#checker-results')).not.toBeVisible();
+  });
+
+  test('7 days + Jerusalem + Tel Aviv shows feasible result', async ({ page }) => {
+    await page.goto('/israel-itinerary-checker');
+    await page.locator('input[name="dest"][value="jerusalem"]').check({ force: true });
+    await page.locator('input[name="dest"][value="telaviv"]').check({ force: true });
+    await page.locator('#checker-submit').click();
+    await expect(page.locator('#checker-results')).toBeVisible();
+    await expect(page.locator('#results-heading')).toContainText(/feasible/i);
+  });
+
+  test('3 days with 5 destinations shows needs more days result', async ({ page }) => {
+    await page.goto('/israel-itinerary-checker');
+    await page.locator('#days-slider').fill('3');
+    await page.locator('input[name="dest"][value="jerusalem"]').check({ force: true });
+    await page.locator('input[name="dest"][value="telaviv"]').check({ force: true });
+    await page.locator('input[name="dest"][value="galilee"]').check({ force: true });
+    await page.locator('input[name="dest"][value="negev"]').check({ force: true });
+    await page.locator('input[name="dest"][value="golan"]').check({ force: true });
+    await page.locator('#checker-submit').click();
+    await expect(page.locator('#checker-results')).toBeVisible();
+    await expect(page.locator('#results-heading')).toContainText(/more/i);
+  });
+
+  test('result contains link to israel-5-vs-7-vs-10-days guide', async ({ page }) => {
+    await page.goto('/israel-itinerary-checker');
+    await page.locator('input[name="dest"][value="jerusalem"]').check({ force: true });
+    await page.locator('#checker-submit').click();
+    await expect(page.locator('#checker-results')).toBeVisible();
+    const link = page.locator('a[href="/israel-5-vs-7-vs-10-days"]');
+    await expect(link).toBeVisible();
+  });
+
+  test('reset button hides results and resets slider', async ({ page }) => {
+    await page.goto('/israel-itinerary-checker');
+    await page.locator('input[name="dest"][value="telaviv"]').check({ force: true });
+    await page.locator('#checker-submit').click();
+    await expect(page.locator('#checker-results')).toBeVisible();
+    await page.locator('#checker-reset').click();
+    await expect(page.locator('#checker-results')).not.toBeVisible();
+    const checked = await page.locator('#checker input[name="dest"]:checked').count();
+    expect(checked).toBe(0);
+  });
+
+  test('plan-your-trip links to itinerary checker', async ({ page }) => {
+    await page.goto('/plan-your-trip');
+    const link = page.locator('a[href="/israel-itinerary-checker"]').first();
+    await expect(link).toBeVisible();
+  });
+});

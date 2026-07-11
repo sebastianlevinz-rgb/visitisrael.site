@@ -350,6 +350,7 @@ const ROUTES = [
   '/muslim-travel-israel',
   '/israel-season-picker',
   '/israel-egypt-guide',
+  '/israel-itinerary-checker',
 ];
 
 for (const route of ROUTES) {

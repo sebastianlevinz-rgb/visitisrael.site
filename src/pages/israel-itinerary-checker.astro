@@ -1,0 +1,622 @@
+---
+import BaseLayout from '@/layouts/BaseLayout.astro';
+import Hero from '@/components/Hero.astro';
+import Breadcrumbs from '@/components/Breadcrumbs.astro';
+import JsonLd from '@/components/JsonLd.astro';
+import { breadcrumbList, faqPage } from '@/lib/schema';
+import { affiliateUrl } from '@/config/affiliates';
+
+const title = 'Israel Itinerary Feasibility Checker — Is Your Plan Realistic?';
+const description =
+  'Enter your trip length and destinations to find out if your Israel itinerary is achievable. Get a suggested day allocation and tips if you\'ve overloaded your schedule.';
+
+const crumbs = [
+  { name: 'Home', path: '/' },
+  { name: 'Plan your trip', path: '/plan-your-trip' },
+  { name: 'Itinerary checker', path: '/israel-itinerary-checker' },
+];
+
+const gygJerusalem  = affiliateUrl('getyourguide', { query: 'Jerusalem private tour Israel' });
+const gygGalilee    = affiliateUrl('getyourguide', { query: 'Galilee day tour Israel' });
+const gygNegev      = affiliateUrl('getyourguide', { query: 'Negev desert tour Israel' });
+const bookingHotels = affiliateUrl('booking', { destination: 'Israel' });
+const discoverCars  = affiliateUrl('discovercars', { destination: 'Israel' });
+
+const faqs = [
+  {
+    question: 'How many days do I need to see Israel?',
+    answer:
+      'Five to seven days is the minimum to see the main highlights — Jerusalem, Tel Aviv, and one more area (Dead Sea, Galilee, or Negev). Ten to fourteen days lets you explore more comfortably. Two weeks gives you space to cover Jerusalem, Tel Aviv, the Dead Sea, Galilee, Golan Heights, and a slice of the Negev without feeling rushed.',
+  },
+  {
+    question: 'Can I visit Jerusalem and Tel Aviv in the same trip?',
+    answer:
+      'Absolutely — they are about 60 km apart and well-connected by train (under an hour) and bus. Most visitors split their time: 2–3 nights in Jerusalem for the Old City, then 2 nights in Tel Aviv for the coast and food scene.',
+  },
+  {
+    question: 'Is it realistic to visit Eilat from Jerusalem in one day?',
+    answer:
+      'As a long day trip, it is very tight — it is roughly 4 hours each way by car, leaving little time in Eilat. For a meaningful Red Sea experience, plan at least one overnight in Eilat or Mitzpe Ramon.',
+  },
+  {
+    question: 'Do I need a car for my Israel itinerary?',
+    answer:
+      'A car is optional for Jerusalem and Tel Aviv (excellent buses and shared taxis) but strongly recommended for Galilee, Golan Heights, and the Negev. Dead Sea resorts are reachable by bus, though a car gives flexibility for hiking the canyons.',
+  },
+  {
+    question: 'How does Jewish Shabbat affect my itinerary?',
+    answer:
+      'From Friday sundown to Saturday night, most public transport stops and many businesses close. Plan to be in your destination by Friday afternoon, stay in a hotel with Shabbat meals, or use a private taxi/tour. Some tourist sites, museums, and restaurants in Tel Aviv and mixed cities stay open.',
+  },
+  {
+    question: 'What is the minimum stay in the Galilee?',
+    answer:
+      'Two nights is the practical minimum to see Nazareth, the Sea of Galilee, and one more site (Caesarea or Akko on the way up, Golan if you add a day). One night is a stretched day trip from Tel Aviv and leaves little time at each site.',
+  },
+];
+
+const schema = [breadcrumbList(crumbs), faqPage(faqs)];
+---
+
+<BaseLayout
+  title={title}
+  description={description}
+  path="/israel-itinerary-checker"
+  image="/images/regions/galilee/hero.jpg"
+  imageAlt="Road map of Israel regions for itinerary planning"
+>
+  <JsonLd schema={schema} slot="head" />
+  <Hero
+    image="/images/regions/galilee/hero.jpg"
+    title="Israel Itinerary Feasibility Checker"
+    subtitle="Tell us your trip length and where you want to go — we'll tell you if it's doable."
+    alt="Rolling hills of the Galilee, Israel"
+  />
+  <Breadcrumbs items={crumbs} />
+
+  <section class="mx-auto max-w-3xl px-4 pt-10">
+    <p class="eyebrow" data-reveal>Reality check your plan</p>
+    <h2 class="font-display text-3xl font-bold text-ink" data-reveal>
+      Is your Israel itinerary realistic?
+    </h2>
+    <p class="mt-2 max-w-2xl text-ink-muted" data-reveal>
+      A very common planning mistake is fitting too many destinations into too few days.
+      Set your trip length and tick the areas you want to visit — we'll check the maths.
+    </p>
+  </section>
+
+  <section class="mx-auto max-w-3xl px-4 pt-8 pb-2">
+    <form
+      id="checker"
+      aria-label="Itinerary feasibility checker"
+      data-gyg-jerusalem={gygJerusalem}
+      data-gyg-galilee={gygGalilee}
+      data-gyg-negev={gygNegev}
+      data-booking={bookingHotels}
+      data-discovercars={discoverCars}
+    >
+      <!-- Step 1: days -->
+      <div class="rounded-card border border-border bg-card p-6 shadow-card">
+        <label class="block">
+          <span class="font-semibold text-ink">
+            Step 1 — How many days is your trip?
+          </span>
+          <span id="days-display" class="ml-2 font-bold text-primary">7 days</span>
+          <input
+            type="range"
+            id="days-slider"
+            name="days"
+            min="3"
+            max="21"
+            value="7"
+            step="1"
+            class="mt-3 w-full accent-primary"
+            aria-label="Number of trip days"
+            aria-valuemin="3"
+            aria-valuemax="21"
+            aria-valuenow="7"
+          />
+          <div class="mt-1 flex justify-between text-xs text-ink-muted">
+            <span>3 days</span>
+            <span>21 days</span>
+          </div>
+        </label>
+      </div>
+
+      <!-- Step 2: destinations -->
+      <div class="mt-5 rounded-card border border-border bg-card p-6 shadow-card">
+        <fieldset>
+          <legend class="font-semibold text-ink">
+            Step 2 — Which areas do you want to visit?
+          </legend>
+          <p class="mt-1 text-sm text-ink-muted">Tick everything on your list.</p>
+          <div class="mt-4 grid gap-3 sm:grid-cols-2">
+            <label class="dest-opt">
+              <input type="checkbox" name="dest" value="jerusalem" class="sr-only" />
+              <span class="dest-icon">🕌</span>
+              <span>
+                <strong class="block text-ink">Jerusalem &amp; surrounds</strong>
+                <span class="text-xs text-ink-muted">Old City, Yad Vashem, Bethlehem, Ein Gedi</span>
+              </span>
+            </label>
+            <label class="dest-opt">
+              <input type="checkbox" name="dest" value="telaviv" class="sr-only" />
+              <span class="dest-icon">🏙️</span>
+              <span>
+                <strong class="block text-ink">Tel Aviv &amp; Jaffa</strong>
+                <span class="text-xs text-ink-muted">beaches, White City, Carmel Market</span>
+              </span>
+            </label>
+            <label class="dest-opt">
+              <input type="checkbox" name="dest" value="deadsea" class="sr-only" />
+              <span class="dest-icon">🌊</span>
+              <span>
+                <strong class="block text-ink">Dead Sea</strong>
+                <span class="text-xs text-ink-muted">Ein Bokek, Masada, Qumran</span>
+              </span>
+            </label>
+            <label class="dest-opt">
+              <input type="checkbox" name="dest" value="galilee" class="sr-only" />
+              <span class="dest-icon">⛪</span>
+              <span>
+                <strong class="block text-ink">Galilee</strong>
+                <span class="text-xs text-ink-muted">Nazareth, Sea of Galilee, Tiberias</span>
+              </span>
+            </label>
+            <label class="dest-opt">
+              <input type="checkbox" name="dest" value="golan" class="sr-only" />
+              <span class="dest-icon">🏔️</span>
+              <span>
+                <strong class="block text-ink">Golan Heights</strong>
+                <span class="text-xs text-ink-muted">Banias, Gamla, Mount Hermon, wineries</span>
+              </span>
+            </label>
+            <label class="dest-opt">
+              <input type="checkbox" name="dest" value="negev" class="sr-only" />
+              <span class="dest-icon">🏜️</span>
+              <span>
+                <strong class="block text-ink">Negev &amp; Eilat</strong>
+                <span class="text-xs text-ink-muted">Mitzpe Ramon, Makhtesh, Red Sea</span>
+              </span>
+            </label>
+            <label class="dest-opt">
+              <input type="checkbox" name="dest" value="haifa" class="sr-only" />
+              <span class="dest-icon">🌿</span>
+              <span>
+                <strong class="block text-ink">Haifa &amp; Akko</strong>
+                <span class="text-xs text-ink-muted">Bahá'í Gardens, Crusader city, Rosh Hanikra</span>
+              </span>
+            </label>
+            <label class="dest-opt">
+              <input type="checkbox" name="dest" value="caesarea" class="sr-only" />
+              <span class="dest-icon">🏛️</span>
+              <span>
+                <strong class="block text-ink">Caesarea &amp; Coast</strong>
+                <span class="text-xs text-ink-muted">Roman ruins, Netanya beaches, Herzliya</span>
+              </span>
+            </label>
+          </div>
+        </fieldset>
+      </div>
+
+      <div class="mt-5 flex flex-wrap items-center gap-3">
+        <button type="submit" id="checker-submit" class="btn btn-primary">
+          Check my itinerary
+        </button>
+        <button type="reset" id="checker-reset" class="btn btn-ghost">Clear</button>
+      </div>
+
+      <p id="checker-error" class="mt-3 hidden text-sm font-semibold text-red-600" role="alert">
+        Please select at least one destination first.
+      </p>
+    </form>
+  </section>
+
+  <!-- Results -->
+  <section
+    id="checker-results"
+    class="mx-auto max-w-3xl px-4 pt-8 pb-4 hidden"
+    aria-live="polite"
+    aria-atomic="true"
+  >
+    <div id="results-card" class="rounded-card border border-border bg-sand-deep p-6 shadow-card">
+      <div id="results-verdict" class="mb-1 flex items-center gap-2">
+        <span id="verdict-icon" class="text-2xl" aria-hidden="true"></span>
+        <h2 id="results-heading" class="font-display text-2xl font-bold text-ink"></h2>
+      </div>
+      <p id="results-summary" class="mt-2 text-ink-muted"></p>
+      <div id="results-allocation" class="mt-5"></div>
+      <div id="results-suggestions" class="mt-4 hidden">
+        <p class="font-semibold text-ink">Ways to make it work:</p>
+        <ul id="suggestions-list" class="mt-2 space-y-1 text-sm text-ink-muted list-disc pl-5"></ul>
+      </div>
+      <p class="mt-4 text-xs text-ink-muted">
+        Day counts are general guidance based on typical traveller pace —
+        your actual experience depends on your interests, transport choice, and itinerary depth.
+        Jewish holiday travel days and Shabbat can add logistics time.
+        <a href="/shabbat-guide" class="text-primary underline">Shabbat planning tips →</a>
+      </p>
+      <div id="results-links" class="mt-5 flex flex-wrap gap-3"></div>
+    </div>
+  </section>
+
+  <!-- Reference table -->
+  <section class="mx-auto max-w-3xl px-4 pt-10 pb-4">
+    <h2 class="mb-4 font-display text-2xl font-bold text-ink">Recommended minimum days per area</h2>
+    <div class="overflow-x-auto">
+      <table class="w-full min-w-[480px] text-sm">
+        <thead>
+          <tr class="border-b-2 border-border">
+            <th class="py-2 text-left text-xs font-semibold uppercase tracking-wide text-ink-muted">Area</th>
+            <th class="py-2 text-left text-xs font-semibold uppercase tracking-wide text-ink-muted">Min. days</th>
+            <th class="py-2 text-left text-xs font-semibold uppercase tracking-wide text-ink-muted">Key sites</th>
+          </tr>
+        </thead>
+        <tbody>
+          {
+            [
+              { area: 'Jerusalem & surrounds', min: '2', sites: 'Old City, Western Wall, Yad Vashem' },
+              { area: 'Tel Aviv & Jaffa',      min: '2', sites: 'Beaches, Carmel Market, Old Jaffa' },
+              { area: 'Dead Sea',              min: '1', sites: 'Ein Bokek, Masada, Qumran' },
+              { area: 'Galilee',               min: '2', sites: 'Nazareth, Sea of Galilee, Capernaum' },
+              { area: 'Golan Heights',         min: '2', sites: 'Banias, Gamla, Hermon, wineries' },
+              { area: 'Negev & Eilat',         min: '2', sites: 'Makhtesh Ramon, stargazing, Red Sea' },
+              { area: 'Haifa & Akko',          min: '1', sites: "Bahá'í Gardens, Crusader city" },
+              { area: 'Caesarea & Coast',      min: '0.5', sites: 'Roman ruins (half-day on route)' },
+            ].map(({ area, min, sites }) => (
+              <tr class="border-b border-border">
+                <td class="py-2 font-semibold text-ink">{area}</td>
+                <td class="py-2 text-ink-muted">{min}</td>
+                <td class="py-2 text-ink-muted">{sites}</td>
+              </tr>
+            ))
+          }
+        </tbody>
+      </table>
+    </div>
+    <p class="mt-3 text-xs text-ink-muted">Plus ~0.5 day for each region-to-region travel day built into the checker.</p>
+  </section>
+
+  <!-- Cross-links -->
+  <section class="mx-auto max-w-3xl px-4 pt-10 pb-4">
+    <h2 class="mb-3 font-display text-xl font-bold text-ink">Build the detail from here</h2>
+    <ul class="flex flex-wrap gap-2.5">
+      {
+        [
+          { href: '/israel-5-vs-7-vs-10-days', label: '5, 7 or 10 days guide' },
+          { href: '/itineraries/7-days-in-israel', label: '7-day sample itinerary' },
+          { href: '/itineraries/14-days-in-israel', label: '14-day sample itinerary' },
+          { href: '/israel-distance-calculator', label: 'Distance calculator' },
+          { href: '/which-israel-region-quiz', label: 'Which region quiz' },
+          { href: '/build-your-trip', label: 'Build your trip day-by-day' },
+        ].map((l) => (
+          <li>
+            <a
+              href={l.href}
+              class="inline-block rounded-full border border-border bg-card px-4 py-2 text-sm font-semibold text-ink no-underline transition-colors hover:border-primary hover:text-primary"
+            >
+              {l.label}
+            </a>
+          </li>
+        ))
+      }
+    </ul>
+  </section>
+
+  <!-- FAQ -->
+  <section class="mx-auto max-w-3xl px-4 pb-4 pt-14">
+    <h2 class="mb-4 font-display text-2xl font-bold text-ink">Frequently asked questions</h2>
+    <div class="space-y-4">
+      {
+        faqs.map((f) => (
+          <details class="rounded-card border border-border bg-card p-4">
+            <summary class="cursor-pointer font-semibold text-ink">{f.question}</summary>
+            <p class="mt-2 text-ink-muted">{f.answer}</p>
+          </details>
+        ))
+      }
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="mx-auto max-w-3xl px-4 pb-16 pt-6">
+    <div class="rounded-card border border-border bg-sand-deep p-6 text-center shadow-card">
+      <h2 class="font-display text-2xl font-bold text-ink">Ready to book?</h2>
+      <p class="mx-auto mt-2 max-w-xl text-ink-muted">
+        Once your itinerary makes sense, lock in accommodation and tours.
+      </p>
+      <div class="mt-5 flex flex-wrap justify-center gap-3">
+        <a href="/build-your-trip" class="btn btn-primary">Build your trip</a>
+        <a href="/itineraries" class="btn btn-ghost">Browse itineraries</a>
+      </div>
+    </div>
+  </section>
+</BaseLayout>
+
+<style>
+  .dest-opt {
+    display: flex;
+    align-items: flex-start;
+    gap: 0.75rem;
+    cursor: pointer;
+    border-radius: var(--radius-card);
+    border: 1.5px solid var(--color-border);
+    padding: 0.75rem 1rem;
+    font-size: var(--text-sm);
+    color: var(--color-ink-muted);
+    user-select: none;
+    transition:
+      border-color 0.18s ease,
+      background 0.18s ease;
+  }
+  .dest-opt:has(input:checked) {
+    border-color: var(--color-primary);
+    background: var(--color-primary-soft);
+  }
+  .dest-opt:has(input:checked) strong {
+    color: var(--color-primary);
+  }
+  .dest-opt:has(input:focus-visible) {
+    outline: 3px solid var(--color-primary);
+    outline-offset: 2px;
+  }
+  .dest-icon {
+    font-size: 1.5rem;
+    line-height: 1;
+    flex-shrink: 0;
+    margin-top: 0.1rem;
+  }
+  .day-bar {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    padding: 0.5rem 0;
+    border-bottom: 1px solid var(--color-border);
+  }
+  .day-bar:last-child { border-bottom: none; }
+  .day-region { font-weight: 600; color: var(--color-ink); min-width: 10rem; }
+  .day-count {
+    display: inline-block;
+    border-radius: var(--radius-btn);
+    background: var(--color-primary-soft);
+    color: var(--color-primary);
+    padding: 0.2rem 0.65rem;
+    font-size: var(--text-xs);
+    font-weight: 700;
+    white-space: nowrap;
+  }
+  .day-detail { font-size: var(--text-xs); color: var(--color-ink-muted); }
+  @media (prefers-reduced-motion: reduce) {
+    .dest-opt { transition: none; }
+  }
+</style>
+
+<script is:inline>
+(function () {
+  // Minimum recommended days per destination
+  var DEST_DATA = {
+    jerusalem: { name: 'Jerusalem & surrounds', min: 2,   link: '/jerusalem',           detail: 'Old City, Yad Vashem, Bethlehem' },
+    telaviv:   { name: 'Tel Aviv & Jaffa',      min: 2,   link: '/tel-aviv',            detail: 'Beaches, Carmel Market, Old Jaffa' },
+    deadsea:   { name: 'Dead Sea',              min: 1,   link: '/dead-sea-guide',      detail: 'Ein Bokek floating, Masada sunrise' },
+    galilee:   { name: 'Galilee',               min: 2,   link: '/galilee',             detail: 'Nazareth, Sea of Galilee, Capernaum' },
+    golan:     { name: 'Golan Heights',         min: 2,   link: '/golan-heights',       detail: 'Banias, Gamla nature reserve, wineries' },
+    negev:     { name: 'Negev & Eilat',         min: 2,   link: '/negev',               detail: 'Makhtesh Ramon, stargazing, Red Sea' },
+    haifa:     { name: 'Haifa & Akko',          min: 1,   link: '/haifa-travel-guide',  detail: "Bahá'í Gardens, Crusader Akko" },
+    caesarea:  { name: 'Caesarea & Coast',      min: 0.5, link: '/caesarea-guide',      detail: 'Roman ruins (comfortable half-day)' },
+  };
+
+  // Simplified travel-day adjacency: 0.5 day added per region-hop
+  // We estimate hops from a rough north-south ordering
+  var ORDER = ['caesarea', 'haifa', 'galilee', 'golan', 'telaviv', 'jerusalem', 'deadsea', 'negev'];
+
+  function countHops(selected) {
+    var idx = selected
+      .map(function (k) { return ORDER.indexOf(k); })
+      .filter(function (i) { return i !== -1; })
+      .sort(function (a, b) { return a - b; });
+    if (idx.length < 2) return 0;
+    // Count distinct consecutive moves in the sorted order
+    var hops = 0;
+    for (var i = 1; i < idx.length; i++) {
+      if (idx[i] !== idx[i - 1]) hops++;
+    }
+    return hops;
+  }
+
+  function fmtDays(n) {
+    if (n === 0.5) return '½ day';
+    if (n === 1) return '1 day';
+    var whole = Math.floor(n);
+    var half = (n - whole) >= 0.5;
+    return whole + (half ? '½' : '') + ' days';
+  }
+
+  var form     = document.getElementById('checker');
+  var slider   = document.getElementById('days-slider');
+  var display  = document.getElementById('days-display');
+  var error    = document.getElementById('checker-error');
+  var results  = document.getElementById('checker-results');
+  var heading  = document.getElementById('results-heading');
+  var summary  = document.getElementById('results-summary');
+  var alloc    = document.getElementById('results-allocation');
+  var suggs    = document.getElementById('results-suggestions');
+  var suggList = document.getElementById('suggestions-list');
+  var linksEl  = document.getElementById('results-links');
+  var icon     = document.getElementById('verdict-icon');
+
+  // Affiliate URLs from data attributes
+  var AFFILIATE = {
+    gyg_jerusalem: form.getAttribute('data-gyg-jerusalem'),
+    gyg_galilee:   form.getAttribute('data-gyg-galilee'),
+    gyg_negev:     form.getAttribute('data-gyg-negev'),
+    booking:       form.getAttribute('data-booking'),
+    discovercars:  form.getAttribute('data-discovercars'),
+  };
+
+  // Live update day counter
+  slider.addEventListener('input', function () {
+    display.textContent = slider.value + ' days';
+    slider.setAttribute('aria-valuenow', slider.value);
+  });
+
+  function checkedDests() {
+    return Array.prototype.slice.call(
+      document.querySelectorAll('#checker input[name="dest"]:checked')
+    ).map(function (el) { return el.value; });
+  }
+
+  function compute(days, selected) {
+    var minDays = selected.reduce(function (sum, k) {
+      return sum + (DEST_DATA[k] ? DEST_DATA[k].min : 0);
+    }, 0);
+    var hops = countHops(selected);
+    var transitDays = hops * 0.5;
+    var needed = minDays + transitDays;
+    return { days: days, needed: needed, minDays: minDays, transitDays: transitDays, selected: selected };
+  }
+
+  function buildAlloc(selected, available, needed) {
+    var frag = document.createElement('div');
+    frag.className = 'space-y-0';
+
+    // Scale allocation proportionally if over-booked
+    var scale = available < needed ? (available / needed) : 1;
+
+    selected.forEach(function (k) {
+      var d = DEST_DATA[k];
+      if (!d) return;
+      var raw = d.min * scale;
+      // Round to nearest 0.5
+      var rounded = Math.round(raw * 2) / 2;
+      if (rounded < 0.5) rounded = 0.5;
+
+      var row = document.createElement('div');
+      row.className = 'day-bar';
+
+      var nameEl = document.createElement('a');
+      nameEl.className = 'day-region';
+      nameEl.href = d.link;
+      nameEl.textContent = d.name;
+
+      var badge = document.createElement('span');
+      badge.className = 'day-count';
+      badge.textContent = fmtDays(rounded);
+
+      var detail = document.createElement('span');
+      detail.className = 'day-detail';
+      detail.textContent = d.detail;
+
+      row.appendChild(nameEl);
+      row.appendChild(badge);
+      row.appendChild(detail);
+      frag.appendChild(row);
+    });
+
+    return frag;
+  }
+
+  function render(days, selected) {
+    var r = compute(days, selected);
+    var feasible = r.days >= r.needed;
+
+    // Verdict
+    if (feasible) {
+      icon.textContent = '✅';
+      heading.textContent = 'Your itinerary looks feasible!';
+      summary.textContent =
+        'With ' + r.days + ' days, you have enough time for the ' + selected.length +
+        ' area' + (selected.length === 1 ? '' : 's') + ' you\'ve selected' +
+        (r.transitDays > 0 ? ', including roughly ' + fmtDays(r.transitDays) + ' of travel between regions' : '') +
+        '. Here\'s a suggested day breakdown — adjust to your pace:';
+      suggs.classList.add('hidden');
+    } else {
+      icon.textContent = '⚠️';
+      var gap = Math.ceil((r.needed - r.days) * 2) / 2;
+      heading.textContent = 'You may need ' + fmtDays(gap) + ' more';
+      summary.textContent =
+        'The destinations you\'ve chosen typically need around ' + fmtDays(r.needed) +
+        ' (including travel days between regions), but you only have ' + r.days + ' days. ' +
+        'Here\'s how the time could be split — tight but possible with an early start each day:';
+
+      // Suggestions
+      suggs.classList.remove('hidden');
+      suggList.innerHTML = '';
+
+      var opts = [];
+      if (selected.length > 2) {
+        opts.push('Cut one region — focus on depth over breadth.');
+      }
+      opts.push('Extend your trip by ' + fmtDays(gap) + ' — you\'ll be much less rushed.');
+      if (selected.indexOf('caesarea') !== -1) {
+        opts.push('Treat Caesarea as a 2-hour stop on the way between Tel Aviv and Haifa rather than a dedicated day.');
+      }
+      if (selected.indexOf('golan') !== -1 && selected.indexOf('galilee') !== -1) {
+        opts.push('Combine Galilee and Golan into one corridor — they share a border and base towns.');
+      }
+      if (selected.indexOf('negev') !== -1 && selected.indexOf('deadsea') !== -1) {
+        opts.push('The Dead Sea and Negev can share a 2-night base at Mitzpe Ramon or Ein Bokek.');
+      }
+      opts.push('Hire a licensed guide for one complex day (Old City Jerusalem, Galilee) to maximise a short window.');
+
+      opts.forEach(function (txt) {
+        var li = document.createElement('li');
+        li.textContent = txt;
+        suggList.appendChild(li);
+      });
+    }
+
+    // Allocation
+    alloc.innerHTML = '';
+    alloc.appendChild(buildAlloc(selected, r.days, r.needed));
+
+    // CTAs
+    linksEl.innerHTML = '';
+    var ctas = [
+      { label: 'Browse Jerusalem tours', href: AFFILIATE.gyg_jerusalem },
+      { label: 'Search hotels in Israel', href: AFFILIATE.booking },
+    ];
+    if (selected.indexOf('galilee') !== -1 || selected.indexOf('golan') !== -1) {
+      ctas.push({ label: 'Browse Galilee tours', href: AFFILIATE.gyg_galilee });
+    }
+    if (selected.indexOf('negev') !== -1) {
+      ctas.push({ label: 'Browse Negev tours', href: AFFILIATE.gyg_negev });
+    }
+    if (selected.indexOf('galilee') !== -1 || selected.indexOf('golan') !== -1 || selected.indexOf('negev') !== -1) {
+      ctas.push({ label: 'Compare rental cars', href: AFFILIATE.discovercars });
+    }
+
+    ctas.slice(0, 3).forEach(function (cta) {
+      var a = document.createElement('a');
+      a.href = cta.href;
+      a.target = '_blank';
+      a.rel = 'noopener noreferrer sponsored';
+      a.className = 'btn btn-primary';
+      a.textContent = cta.label;
+      linksEl.appendChild(a);
+    });
+
+    results.classList.remove('hidden');
+    results.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+  }
+
+  form.addEventListener('submit', function (e) {
+    e.preventDefault();
+    var selected = checkedDests();
+    if (selected.length === 0) {
+      error.classList.remove('hidden');
+      return;
+    }
+    error.classList.add('hidden');
+    render(parseInt(slider.value, 10), selected);
+  });
+
+  form.addEventListener('reset', function () {
+    results.classList.add('hidden');
+    error.classList.add('hidden');
+    display.textContent = '7 days';
+    slider.value = '7';
+    slider.setAttribute('aria-valuenow', '7');
+  });
+})();
+</script>
+</BaseLayout>
