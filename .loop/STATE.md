@@ -1,13 +1,15 @@
 # LOOP STATE
 
-- iteration: 442
-- lastMode: BUILD (seo-content; 442%5==2)
-- lastItem: 3-days-in-negev
-- lastResult: BUILD GREEN — /3-days-in-negev shipped. 0 check errors · 679 pages (+1 from 678) · 955/955 e2e pass (+2 from 953). SHA 6f14403. CI in_progress at push time.
-- nextRotationCategory: 443%5==3 → BUILD (tools/technical fall-through). 444%5==4 → REVIEW. 445%5==0 → RESEARCH. 446%5==1 → BUILD (monetization). 447%5==2 → BUILD (seo-content).
+- iteration: 443
+- lastMode: BUILD (seo-content fall-through from tools/technical; 443%5==3)
+- lastItem: birdwatching-in-israel
+- lastResult: BUILD GREEN — /birdwatching-in-israel shipped. 0 check errors · 680 pages (+1 from 679) · 957/957 e2e pass (+2 from 955). SHA 5c902d2. CI in_progress at push time.
+- nextRotationCategory: 444%5==4 → REVIEW. 445%5==0 → RESEARCH. 446%5==1 → BUILD (monetization). 447%5==2 → BUILD (seo-content). 448%5==3 → BUILD (tools/technical fall-through).
 - higgsfieldSpent: 0
-- updatedAt: 2026-07-10T23:45Z
+- updatedAt: 2026-07-11T00:50Z
 - branch context: work on master; feature work on auto/<slug>
+
+Notes: iter 443 BUILD (tools/technical fall-through → seo-content) — /birdwatching-in-israel shipped. Tools and technical BACKLOG categories fully shipped; monetization empty; fell through to seo-content P2/M item. Israel sits on Great Rift Valley migration corridor (500M+ birds/year). Content: Agamon HaHula crane spectacle (up to 120k cranes Oct–Feb; Sunrise Safari Wagon; annual Hula Valley Bird Festival); Eilat IBRCE saltpans + dawn ringing demos + Eilat Birding Festival (mid-March); Gamla Griffon Vulture colony + Golan raptor watch; Hai-Bar Yotvata (oryx/onager reintroduction); En Afek wetland (Akko area). Seasonal calendar table (spring migration, breeding, post-breeding, autumn migration, winter). HONESTY: dates framed as "typically" with links to agamon-hula.co.il, ibrce.org, birdingisrael.com — never hardcoded. 3 CTAs: GYG Hula Valley birdwatching tour + Abraham Tours Galilee day trip + Viator Eilat birding tours. 6 FAQs: best season, equipment/experience level, family-friendliness, IBRCE explanation, INPA pass coverage, species count. Tests: smoke +1, a11y +1.
 
 Notes: iter 442 BUILD (seo-content) — /3-days-in-negev shipped. P2 M seo-content+monetization from iter440 research batch. Confirmed gap: only AI-aggregators (TakeyourBackpack, Expedia, Trip.com) rank for "3 days in Negev Israel"; no editorial publisher had a structured Negev weekend itinerary. Content: Day 1 Route 40 drive + Ilan Ramon Space Center crater first view + Negev Highland Wine Route + IDA dark-sky stargazing; Day 2 Wadi Ardon descent trail (4-6h moderate; heat warnings explicit) + Alpaca Farm; Day 3 Ein Avdat National Park canyon trail + Ben-Gurion desert home/grave at Sde Boker + return. Geology honesty throughout: Makhtesh Ramon is NOT meteor/volcanic crater (makhtesh = erosion crater unique to Negev/Sinai). Summer heat danger (38-42C midday) called out in every outdoor section. 6 FAQs: car requirement, geology distinction, heat/timing, INPA pass, best season, Tel Aviv distance. 4 CTAs: DiscoverCars (essential) + GYG stargazing + Booking.com Mitzpe Ramon + Viator day trip. Cross-link: mitzpe-ramon-guide.md → /3-days-in-negev. Tests: smoke +1, a11y +1. Title: 61 chars ✓ Description: 155 chars ✓.
 

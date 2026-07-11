@@ -7324,3 +7324,9 @@ Content: Day 1 Route 40 drive south + Ilan Ramon Space Center geology orientatio
 Gate: pnpm check 0 errors (114 hints) · pnpm build 679 pages (+1 from 678) · pnpm test:e2e 955/955 pass (+2 from 953). GREEN.
 Ship: committed 6f14403 to master, pushed 2026-07-10T23:40Z. CI in_progress at push time.
 Next: iter 443 → BUILD (tools/technical; 443%5==3). Top ready tools/technical item from BACKLOG.
+
+## 2026-07-11T00:50Z · iter 443 · BUILD (tools/technical fall-through → seo-content) · birdwatching-in-israel
+What: New /birdwatching-in-israel guide — wildlife & migration hub. Tools/technical BACKLOG categories fully shipped; monetization empty; fell through to P2/M seo-content. Israel sits on Great Rift Valley migration corridor (500M+ birds/year). Content: Agamon HaHula crane spectacle (120k cranes Oct–Feb; Sunrise Safari Wagon; Hula Valley Bird Festival); Eilat IBRCE saltpans + dawn ringing + Eilat Birding Festival (mid-March); Gamla Griffon Vulture colony + Golan raptor watch; Hai-Bar Yotvata (oryx/onager reintroduction); En Afek wetland (near Akko). Seasonal calendar table. HONESTY: dates framed as "typically" with links to agamon-hula.co.il, ibrce.org, birdingisrael.com. 3 CTAs: GYG Hula Valley + Abraham Tours Galilee + Viator Eilat. 6 FAQs. Smoke +1, a11y +1.
+Gate: 0 check errors · 680 pages (+1) · 957/957 e2e pass (+2). GREEN.
+Ship: squash-merged to master SHA 5c902d2, pushed. CI in_progress at push time.
+Prod: CI in_progress at close-of-iteration — next iteration start-check will confirm.
