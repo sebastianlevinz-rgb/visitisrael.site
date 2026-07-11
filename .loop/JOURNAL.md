@@ -7559,3 +7559,10 @@ Gate: 0 check errors · 691 pages · 992/992 e2e+a11y pass.
 Ship: squash-merged to master SHA e2935f7, pushed 2026-07-11T19:52Z.
 Prod: CI in_progress at push time (Lighthouse workflow). Next iteration start-check to confirm.
 Next: iter 463 → BUILD (tools). 463 % 5 == 3.
+
+## 2026-07-11T20:45Z · iter 463 · BUILD (tools→fallthrough→seo-content+monetization) · jordan-pass-guide
+What: tools category fully shipped (11 items); technical category fully shipped; fell through to seo-content+monetization. New /jordan-pass-guide editorial page — Jordan Pass product explained: what it is (jordanpass.jo online purchase only; bundles JD 40 Jordanian visa waiver + Petra entry + 40+ sites); 3 tiers (Jordan Pass 1/2/3+ Petra days, ~JD 70–95); honest cost maths table (JD 40 visa + JD 60 Petra = JD 100 vs ~JD 70–80 pass = ~JD 25–35 saving); how to buy/use (QR code at border then Petra gate); what NOT covered (hotels, transport, border exit fees, horse ride, Wadi Rum activities); one-night visa waiver rule (day-trippers from Eilat get only Petra discount, not full visa saving); crossing context (Wadi Araba vs Allenby); organised-tour vs independent note (confirm what operator bundles before buying separately); Israel–Jordan full-trip section. 3 affiliate CTAs: GYG Petra day trip, Booking.com Wadi Musa hotels, Viator Israel–Jordan combined tours. 6 FAQs with FAQPage schema. Cross-links wired: petra-from-israel.md (Jordan Pass bullet in visa/costs section), border-crossings.md ("Going to Petra?" tip updated), petra-tours-compared.md (Jordan Pass link in visa FAQ). Smoke +1, a11y +1.
+Gate: 0 check errors · 692 pages (+1) · 994/994 e2e+a11y pass.
+Ship: squash-merged to master SHA 7e4b9b7, pushed 2026-07-11T20:45Z.
+Prod: CI in_progress at push time (consistent with prior iters). Next iteration start-check to confirm.
+Next: iter 464 → REVIEW. 464 % 5 == 4.

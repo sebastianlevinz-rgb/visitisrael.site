@@ -932,3 +932,8 @@ Value: High-AOV affiliate opportunity (TourRadar primary; small-group tours $2,4
 **Sukkot in Israel Visitor Guide** (/sukkot-in-israel)
 Category: seo-content+monetization · Effort: S
 Value: Sukkot 2026 starts Sep 25 — ideal 2.5-month SEO window with peak Israel autumn booking intent. October is Israel's busiest travel month; Sukkot is the second-busiest domestic holiday after Passover. Standalone guide where traveling-israel-jewish-holidays has only a brief section. Covers: Birkat Kohanim at Western Wall (arrive 6:30am), Chol HaMoed logistics, Galilee crane migration season, accommodation booking strategy, Simchat Torah. Affiliate CTAs: booking, getyourguide, viator. Cross-links from traveling-israel-jewish-holidays, israel-events-festivals, best-time-to-visit-israel. 691 pages (+1). 992/992 tests pass.
+
+## iter 463 · 2026-07-11 · 7e4b9b7
+**Jordan Pass Complete Guide** (/jordan-pass-guide)
+Category: seo-content+monetization · Effort: S
+Value: No Jordan Pass explainer existed anywhere on the site despite every Petra-from-Israel guide referencing it. High-intent "Jordan Pass is it worth it" / "Jordan Pass Israel" search traffic. Covers: what the pass is, 3 tiers, honest cost maths (JD 100 separate vs ~JD 70-80 pass = ~JD 25-35 saving), how to buy at jordanpass.jo, what is NOT covered, one-night visa waiver rule (key gotcha for Eilat day-trippers), Wadi Araba/Allenby crossing context. 3 affiliate CTAs: GYG Petra day trip, Booking.com Wadi Musa hotels, Viator Israel–Jordan combined tours. Cross-links from petra-from-israel, border-crossings, petra-tours-compared. 692 pages (+1). 994/994 tests pass.
