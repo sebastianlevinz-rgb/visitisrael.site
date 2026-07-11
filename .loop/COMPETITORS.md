@@ -4567,3 +4567,55 @@ Regional tensions + flight rerouting have compressed Israel's addressable touris
 
 **6 items added to BACKLOG** (see iter460 section of BACKLOG.md for full format):
 nigeria / mexico / argentina / ghana / colombia / kenya origin-market guides.
+
+## iter465 research (2026-07-11 · competitor gap analysis)
+
+**Methodology:** Web searches across BringFido, Sleeping in Airports, BookingRadar, Tourist Israel, Viator/GYG, TripAdvisor, Six Senses brand site, Israel Antiquities Authority, Volunteer for Israel, MICHELIN Guide Israel, Lonely Planet, Rough Guides, Israel21c, and origin-market government advisory portals. All 5 confirmed-new items cross-checked against BACKLOG.md and DONE.md with grep scan returning ZERO prior P-item matches each.
+
+**Pet / dog-friendly travel:**
+- BringFido.com has a dedicated "Dog Friendly Israel" country page with hotel listings, dog parks, and pet policies — ranks for "dog friendly Israel hotel" keywords
+- TripAdvisor "10 Best Pet-Friendly Hotels in Israel 2026" list
+- Tel Aviv's dog culture (500k+ dogs, Hilton Beach official dog zone, Yarkon Park) is covered by local expat blogs (secrettelaviv.com) but NOT by any English travel publisher in a comprehensive guide format
+- Zero pet travel content on our site. High monetization potential via Booking.com pet-friendly filter CTA.
+
+**Tel Aviv layover:**
+- Tourist Israel: "Layover in Tel Aviv" + separate "Airline Crew Layover in Tel Aviv Guide" — both rank for layover keywords
+- BookingRadar: "Exactly What to Do with 4, 8, 12 or 24 Hours in Tel Aviv" format
+- BeinHarim: airport layover tours sold via GYG
+- Sleeping in Airports: dedicated TLV airport guide with transit tips
+- Our Jerusalem layover guide (SHIPPED iter228) is separate. No TLV layover content exists on our site. P2 priority — distinct intent from Jerusalem layover.
+
+**Archaeology volunteer / dig experiences:**
+- Zero editorial guides on Tourist Israel, Lonely Planet, Rough Guides, GYG, Viator, or TripAdvisor for Israel archaeology volunteer programs
+- Programs found: VFI Volun-Tour (City of David, $1,800–$2,500, 9 days); IAA Friends free volunteer program; Emek Tzurim walk-in sifting (₪55/person, no booking needed); Shiloh Archaeological Dig ($1,150–$4,900/week, West Bank/Area C); Tel Shimron program (NOBTS partnership, ~$1,500/2 weeks); Tel Megiddo excavations (Tel Aviv University)
+- High linkbait / shareability from Christian media, archaeology departments, universities
+- Seasonal: March–July optimal (academic calendar). M-effort due to West Bank content requiring security framing.
+
+**France origin market:**
+- No English-language competitor has a France-specific Israel guide despite France being a top-3 inbound market
+- Air France CDG→TLV: 3–4 daily flights — one of highest-frequency routes into TLV from any European city
+- France = largest Jewish diaspora in Europe (~500k Jews); CRIF organizes regular Israel missions
+- Notre-Dame de France hospice (Via Dolorosa, Jerusalem) = specifically French Catholic pilgrim infrastructure
+- Key French-specific gap content: CPAM does NOT cover Israel (vs many French travelers assuming EU health card applies globally); Type E→H plug adapter need; MAEE advisory link vs common UK competitor advisory references
+- S-effort (standard origin-market playbook); clear SEO differentiation opportunity in French-English bilingual search queries
+
+**Six Senses Shaharut luxury resort:**
+- Six Senses Shaharut is in the MICHELIN Guide hotels (Israel), Mr & Mrs Smith top rated, Virtuoso preferred, LuxuryEscapes featured, IHG One Rewards property
+- Covered extensively by luxury travel publications globally (Condé Nast Traveler, Town & Country, Vogue) but ZERO dedicated editorial on any Israel travel publisher
+- Tourist Israel, Lonely Planet, Rough Guides: no property-specific deep-dive
+- Our israel-wellness-spa.md mentions luxury spas generally; luxury-travel-israel.md mentions high-end hotels generally — neither is a standalone Six Senses property guide
+- Location: Arava Valley (southern Negev, 30 min north of Eilat) — DISTINCT from Makhtesh Ramon/Mitzpe Ramon area covered by best-hotels-mitzpe-ramon (P2 BACKLOG)
+- Pricing from ~$600–$1,000+/night → premium affiliate commission opportunity on Booking.com
+
+**False gaps eliminated in iter465 research (not added):**
+- Japan travelers — already in BACKLOG (iter455: `/israel-for-japanese-travelers`)
+- Korean travelers — already in BACKLOG (iter455: `/israel-for-korean-travelers`)
+- Filipino travelers — already in BACKLOG (iter455: `/israel-for-filipino-travelers`)
+- UNESCO heritage hub page — already in BACKLOG (iter125 research)
+- Digital nomad Israel — already in BACKLOG (iter30 research)
+- Mediterranean diving — already in BACKLOG (iter190 research)
+- Israel wildflowers — already in BACKLOG (iter130 research)
+- Nordic/Scandinavian travelers — already in BACKLOG (iter450 research)
+
+**5 items added to BACKLOG** (see iter465 section of BACKLOG.md for full format):
+dog-friendly-guide / tel-aviv-layover / archaeology-dig-experience / israel-for-french-travelers / six-senses-shaharut-guide.

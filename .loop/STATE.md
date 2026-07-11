@@ -1,12 +1,12 @@
 # LOOP STATE
 
-- iteration: 464
-- lastMode: REVIEW (464%5==4)
-- lastItem: iter464 — REVIEW of iters 461–463 (israel-small-group-tours, sukkot-in-israel, jordan-pass-guide)
-- lastResult: REVIEW fix shipped — 3 defects found & fixed: jordan-pass-guide description 176→155 chars; missing verdictName/verdictQuery added; unlinked FAQ cross-ref in petra-tours-compared fixed. Gate: 0 check errors · 692 pages · 994/994 e2e+a11y pass. SHA 095e2c3. CI in_progress at push time.
-- nextRotationCategory: 465%5==0 → RESEARCH. 466%5==1 → BUILD (monetization). 467%5==2 → BUILD (seo-content). 468%5==3 → BUILD (tools). 469%5==4 → REVIEW.
+- iteration: 465
+- lastMode: RESEARCH (465%5==0)
+- lastItem: iter465 — RESEARCH competitor gaps (dog-friendly, TLV layover, archaeology digs, French market, Six Senses Shaharut)
+- lastResult: RESEARCH complete — 5 confirmed-new items added to BACKLOG: /israel-dog-friendly-guide (P3/S), /tel-aviv-layover (P2/S), /israel-archaeology-dig-experience (P3/M), /israel-for-french-travelers (P3/S), /six-senses-shaharut-guide (P3/S). No code shipped. No gate run.
+- nextRotationCategory: 466%5==1 → BUILD (monetization). 467%5==2 → BUILD (seo-content). 468%5==3 → BUILD (tools). 469%5==4 → REVIEW. 470%5==0 → RESEARCH.
 - higgsfieldSpent: 0
-- updatedAt: 2026-07-11T21:45Z
+- updatedAt: 2026-07-11T22:30Z
 - branch context: work on master; feature work on auto/<slug>
 
 Notes: iter461 BUILD (monetization) — /israel-small-group-tours shipped. P2/M monetization item (iter345 research). Small-group Israel tours comparison: defines "small group" (8–16 pax, but operators vary 8–24); comparison table (small-group vs private vs coach vs day trips); operator breakdown: G Adventures, Intrepid Travel, Explore!, Odysseys Unlimited, Maranatha Tours, Context Travel; what to look for checklist (group size cap, licensed guides, inclusions, single supplement, faith focus, booking deadline); typical 8–10 day itinerary arc; booking logistics (ETA-IL, Shabbat, single supplement). Affiliate CTAs: TourRadar (primary, small-group filter), GYG, Viator. verdictName/verdictQuery wired. Cross-links added: private-tours-israel.md (Plan section), israel-tour-packages.md (small-group vs private bullets), best-holy-land-tours.md (group pilgrimage section). Smoke +1, a11y +1.
