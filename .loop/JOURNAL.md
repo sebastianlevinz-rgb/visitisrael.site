@@ -7465,3 +7465,13 @@ Findings: 6 genuinely new gaps confirmed via regex de-dupe against full BACKLOG.
 Gate: N/A (RESEARCH mode; no code shipped).
 Merge: N/A.
 Next: iter 456 → BUILD (456%5==1 → monetization). Top P2/M monetization-ready item: /accessible-travel-israel (highest new item; also monetization-eligible). Alternatively top existing monetization item from backlog.
+
+## 2026-07-11T14:00Z · iter 456 · BUILD (monetization) · dead-sea-day-trip-comparison
+What: /dead-sea-day-trip-comparison — Dead Sea day trip departure comparison page.
+Mode: BUILD (456%5==1 → monetization). P2/S backlog item (iter385 research). CONFIRMED GAP: tourscanner.com + tzurtours.com fill this SEO niche; no comparison page on site. High-intent query "Dead Sea day trip from Jerusalem" monetized by Viator + GYG.
+Content: at-a-glance comparison table (drive time, tour duration, Masada pairing, float time, price range, best for); Jerusalem section (45-90 min, Masada combo natural, $89-120/person, Qumran add-on for self-drivers); Tel Aviv section (2-2.5 hrs, Dead Sea only typical, $60-100/person, more float time); self-drive section; decision tree; 6 FAQs. verdictName + verdictQuery: "Dead Sea departure" / "Dead Sea day trip from Jerusalem or Tel Aviv". Affiliate CTAs: GYG Jerusalem tours, Viator Tel Aviv tours, Booking.com resort hotels.
+Honesty: prices are ranges only; "check live price when booking"; no fabricated review scores; drive times noted as route-and-traffic estimates; Ein Gedi beach closure warning.
+Cross-links added: day-trips-from-jerusalem.md (Masada+Dead Sea bullet), day-trips-from-tel-aviv.md (Masada+Dead Sea bullet), dead-sea-tours-compared.md (closing paragraph).
+Tests: smoke +1 (/dead-sea-day-trip-comparison), a11y +1.
+Gate: 0 check errors · 687 pages (+1) · 984/984 e2e+a11y pass. GREEN.
+Merge: squash-merged to master SHA a09914e, pushed 2026-07-11T14:00Z. CI in_progress at push time.

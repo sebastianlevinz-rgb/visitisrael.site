@@ -1,13 +1,15 @@
 # LOOP STATE
 
-- iteration: 455
-- lastMode: RESEARCH
-- lastItem: iter455 — accessibility gap + Asian origin markets (Japan/Korea/Philippines) + Dead Sea environmental content + TLV street art
-- lastResult: RESEARCH COMPLETE — 6 net-new items added to BACKLOG: /accessible-travel-israel (P2/M), /israel-for-japanese-travelers (P3/S), /israel-for-korean-travelers (P3/S), /dead-sea-shrinking (P3/S), /israel-street-art (P3/S), /israel-for-filipino-travelers (P3/S). No code shipped. No gate run.
-- nextRotationCategory: 456%5==1 → BUILD (monetization). 457%5==2 → BUILD (seo-content). 458%5==3 → BUILD (tools). 459%5==4 → REVIEW. 460%5==0 → RESEARCH.
+- iteration: 456
+- lastMode: BUILD (monetization)
+- lastItem: iter456 — /dead-sea-day-trip-comparison (Dead Sea day trip departure comparison: Jerusalem vs Tel Aviv)
+- lastResult: SHIPPED — gate: 0 check errors · 687 pages · 984/984 e2e+a11y pass. SHA a09914e.
+- nextRotationCategory: 457%5==2 → BUILD (seo-content). 458%5==3 → BUILD (tools). 459%5==4 → REVIEW. 460%5==0 → RESEARCH. 461%5==1 → BUILD (monetization).
 - higgsfieldSpent: 0
-- updatedAt: 2026-07-11T13:15Z
+- updatedAt: 2026-07-11T14:00Z
 - branch context: work on master; feature work on auto/<slug>
+
+Notes: iter456 BUILD (monetization) — /dead-sea-day-trip-comparison shipped. P2/S monetization item from backlog (iter385 research). Comparison page: Jerusalem departure (45-90 min drive, Masada combo natural, $89-120/person) vs Tel Aviv departure (2-2.5 hrs drive, Dead Sea only typical, $60-100/person). Content: at-a-glance table, Jerusalem section, Tel Aviv section, self-drive section, decision guide, 6 FAQs. Affiliate CTAs: GYG Jerusalem tours, Viator Tel Aviv tours, Booking.com resort hotels. Cross-links added in day-trips-from-jerusalem, day-trips-from-tel-aviv, dead-sea-tours-compared. verdictName + verdictQuery wired. Smoke +1, a11y +1.
 
 Notes: iter455 RESEARCH — Researched 6 gap categories across competitors (touristisrael.com, Access Israel, Atij.org, Timeout Israel, Secret TLV, TripAdvisor 2026, GYG, Bein Harim, backpackisrael.com, mukikapupstravels.com). All 6 new items confirmed via python3-regex de-dupe against full BACKLOG.md + DONE.md before adding. Highest priority new item: /accessible-travel-israel (P2/M) — disability travel is legally important + significant underserved market + zero competitor advantage on our site. Other 5 items are P3/S but each fills a genuine first-mover gap (no major English editorial brand covers Japan-specific, Korea-specific, or Philippines-specific Israel travel; Dead Sea environmental angle is untapped link-bait; TLV street art has GYG product but no editorial). COMPETITORS.md updated with full research notes.
 
@@ -32,5 +34,5 @@ Title: 57 chars ✓  Description: 150 chars ✓
 Notes: iter 445 RESEARCH — 6 net-new items added to BACKLOG: /israel-for-italian-travelers (P3/S seo-content+monetization), /eilat-vs-hurghada (P3/S seo-content+monetization), /israel-season-picker (P2/M tools — SHIPPED iter448), /israel-winter-sun-guide (P3/S seo-content+monetization), /israel-for-spanish-travelers (P3/S seo-content+monetization), /israel-itinerary-checker (P3/S tools — SHIPPED iter453). No code shipped; no gate run. BACKLOG + COMPETITORS + STATE + JOURNAL committed.
 
 Cron b7325b16 hourly @ :17. Loop history: 19 tools + sitemap-lastmod + link-checker(+depth) + i18n
-Phase0/1a/1b/1c/2 Batches1-18(COMPLETE) + 42 review passes + 3 technical (event-schema + meta-trim + locale-links) + 57 EN guides + 7 tools-monetization;
+Phase0/1a/1b/1c/2 Batches1-18(COMPLETE) + 42 review passes + 3 technical (event-schema + meta-trim + locale-links) + 57 EN guides + 7 tools-monetization + 1 comparison;
 research iters 5/10/20/30/35/40/45/50/55/60/65/70/75/80/85/90/95/100/105/110/115/120/125/130/135/140/145/150/155/160/165/170/175/180/185/190/195/200/205/210/215/220/225/230/235/240/245/250/255/260/265/270/275/280/285/290/295/300/305/310/315/320/325/330/335/340/345/350/355/360/365/370/375/380/385/390/395/400/405/410/420/425/430/435/440/445/450/455.

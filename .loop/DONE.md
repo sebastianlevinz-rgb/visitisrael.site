@@ -907,3 +907,8 @@ Value: Fills confirmed gap (touristisrael.com/visit-cairo-egypt-israel ranks; we
 **Israel Itinerary Feasibility Checker** (/israel-itinerary-checker)
 Category: tools · Effort: S
 Value: Interactive tool capturing "is my Israel itinerary realistic?" high-intent planning moment. Day slider (3–21) + 8 destination checkboxes; JS logic sums min-days per region + transit hops. Feasible/over-booked verdict + day allocation + suggestions. Cross-links to 5-7-10 days guide, itineraries, distance calculator, build-your-trip. 686 pages (+1). 982/982 tests pass.
+
+## iter 456 · 2026-07-11 · a09914e
+**Dead Sea Day Trip Departure Comparison** (/dead-sea-day-trip-comparison)
+Category: monetization · Effort: S
+Value: High-intent comparison page targeting "Dead Sea day trip from Jerusalem" + "Dead Sea from Tel Aviv vs Jerusalem" queries (tourscanner.com + tzurtours.com fill this niche; we had nothing). At-a-glance table, two departure-city sections, self-drive section, 6 FAQs, 3 affiliate CTAs (GYG/Viator/Booking). Cross-links in day-trips-from-jerusalem, day-trips-from-tel-aviv, dead-sea-tours-compared. 687 pages (+1). 984/984 tests pass.
