@@ -138,7 +138,7 @@ If you came to Israel on a Birthright Israel (Taglit) trip and want to stay on i
 ## Key contacts and links
 
 - **Official Population and Immigration Authority**: piba.gov.il — appointment booking, office locations and official guidance
-- **ETA-IL portal** (for reference / future applications): iaa.gov.il
+- **ETA-IL portal** (for reference / future applications): israel-entry.piba.gov.il
 - **MASA Israel**: masaisrael.org — long-term programs for diaspora Jewish young adults
 - **Jewish Agency Aliyah desk**: jewishagency.org/aliyah
 
