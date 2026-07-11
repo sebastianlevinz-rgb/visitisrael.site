@@ -50,7 +50,7 @@ faqs:
 
 - **[Jerusalem](/jerusalem)** — *~45 min by train.* The number-one trip: the [Old City](/jerusalem/old-city), [Western Wall](/jerusalem/western-wall) and [Holy Sepulchre](/jerusalem/holy-sepulchre). For a minute-by-minute plan, see the [1-day Jerusalem itinerary](/1-day-jerusalem-itinerary).
 - **[Caesarea](/caesarea), [Haifa](/haifa) & [Akko](/akko)** — *the northern coast.* Roman ruins, the [Bahá'í Gardens](/haifa/bahai-gardens) and a Crusader port in one guided day. See the full [Caesarea day-trip guide](/caesarea-guide) and [Akko travel guide](/akko-acre-guide).
-- **[Masada](/dead-sea/masada) & the [Dead Sea](/dead-sea)** — *~2 hrs.* The desert classic; easiest by tour.
+- **[Masada](/dead-sea/masada) & the [Dead Sea](/dead-sea)** — *~2 hrs.* The desert classic; easiest by tour. See [Dead Sea: Jerusalem vs Tel Aviv departure comparison](/dead-sea-day-trip-comparison).
 - **[Tel Afek / Antipatris](/tel-afek-guide)** — *~45 min by car.* A compact INPA site where 4,000 years of occupation stack on one hill: the biblical battlefield of Aphek (1 Samuel 4), Herod's Antipatris city (Paul the Apostle's overnight stop in Acts 23), and a fully intact Ottoman fortress — plus the source springs of the Yarkon River. Combine with Caesarea further north.
 - **[Herzliya](/herzliya-guide)** — *~20 min by Green Line light rail.* Apollonia National Park's clifftop Crusader ruins, the Marina waterfront for lunch, and Acadia Beach. One of the most undervisited INPA sites within easy reach of Tel Aviv.
 - **[Netanya](/netanya-guide)** — *~45 min by train on the coastal line.* Cliff-top promenade, 14 km of Mediterranean beach, the Stern Diamond Factory tour and a Franco-Israeli café culture unlike anywhere else in Israel.

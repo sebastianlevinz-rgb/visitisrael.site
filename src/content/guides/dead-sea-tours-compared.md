@@ -106,4 +106,4 @@ For specific hotel picks and overnight stays, see our [Dead Sea hotels guide](/d
 - **Have a rental car:** **self-drive** — total flexibility, easy to combine with Qumran.
 - **Family or custom itinerary:** a **private guide**.
 
-For the full logistics of getting to the Dead Sea, what to pack, the Ein Gedi beach closure and seasonal advice, see our [Dead Sea guide](/dead-sea). See also the [Masada and Dead Sea day trip guide](/masada-dead-sea-day-trip) for the detailed combined itinerary, and compare the broader picture in our [best tours in Israel](/best-tours-in-israel) guide.
+For the full logistics of getting to the Dead Sea, what to pack, the Ein Gedi beach closure and seasonal advice, see our [Dead Sea guide](/dead-sea). See also the [Masada and Dead Sea day trip guide](/masada-dead-sea-day-trip) for the detailed combined itinerary, our [Jerusalem vs Tel Aviv departure comparison](/dead-sea-day-trip-comparison) to choose the right base, and the broader picture in our [best tours in Israel](/best-tours-in-israel) guide.
