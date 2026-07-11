@@ -937,3 +937,9 @@ Value: Sukkot 2026 starts Sep 25 — ideal 2.5-month SEO window with peak Israel
 **Jordan Pass Complete Guide** (/jordan-pass-guide)
 Category: seo-content+monetization · Effort: S
 Value: No Jordan Pass explainer existed anywhere on the site despite every Petra-from-Israel guide referencing it. High-intent "Jordan Pass is it worth it" / "Jordan Pass Israel" search traffic. Covers: what the pass is, 3 tiers, honest cost maths (JD 100 separate vs ~JD 70-80 pass = ~JD 25-35 saving), how to buy at jordanpass.jo, what is NOT covered, one-night visa waiver rule (key gotcha for Eilat day-trippers), Wadi Araba/Allenby crossing context. 3 affiliate CTAs: GYG Petra day trip, Booking.com Wadi Musa hotels, Viator Israel–Jordan combined tours. Cross-links from petra-from-israel, border-crossings, petra-tours-compared. 692 pages (+1). 994/994 tests pass.
+
+## iter466 (2026-07-11)
+
+**Petra & Wadi Rum from Eilat — 2-day & 3-day tour guide** (/petra-wadi-rum-from-eilat)
+SHA: b8db0b1
+Value: P2/M monetization — highest-commission affiliate opportunity in Israel travel space ($519–595/pp GYG/Viator combo tours). 2-day itinerary (Wadi Rum overnight Bedouin camp + Petra full day), 3-day itinerary (Aqaba overnight variant OR extra Petra day for Monastery), Jordan Pass cost maths, honest package vs DIY breakdown, desert packing section. 3 CTAs: GYG Petra+Wadi Rum packages, Viator overnight tours, TourRadar Israel-Jordan packages. Cross-links from: petra-from-israel, petra-from-eilat-vs-amman, aqaba-from-eilat, israel-jordan-itinerary. 693 pages (+1). 996/996 tests pass.
