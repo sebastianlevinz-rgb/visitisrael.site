@@ -7378,3 +7378,8 @@ What: new /3-days-in-galilee guide (P2/M seo-content). Confirmed gap (only thin 
 Gate: 0 check errors · 682 pages (+1) · 961/961 e2e+a11y pass (+2).
 Merge SHA 6607434, pushed 2026-07-11T05:00Z. CI success (Lighthouse + CI both completed 04:59Z).
 Next: iter 448 → BUILD (tools; 448%5==3). Top P2/M tool: /israel-season-picker.
+
+## 2026-07-11T06:15Z · iter 448 · BUILD (tools) · israel-season-picker
+What: /israel-season-picker — vanilla JS interest-chip season picker. 8 checkbox chips (Beach, Desert hiking, Skiing, Jewish holiday experiences, Christian pilgrimage, Budget, Bird watching, Festivals). Per-interest monthly score arrays (Jan–Dec, 1–5 scale); top-85% threshold gives best months. Edge case: contradictory beach+skiing selection shows compromise note (March/October). Output: month badges + interest-specific explanation + CTA links (GYG/Viator/Booking routed through affiliates.ts). Month-by-month table on page body (★/★★/★★★). Wired: plan-your-trip grid, footer, cross-link best-time-to-visit-israel.md. i18n keys added for EN/FR/DE. Honesty: "typically best" framing; holiday date drift noted; Hermon snow acknowledged as snow-dependent.
+Gate: 0 check errors · 683 pages (+1) · 969/969 e2e+a11y pass (+7). GREEN.
+Ship: squash-merged to master d38983c, pushed 2026-07-11T06:09Z. CI in_progress.

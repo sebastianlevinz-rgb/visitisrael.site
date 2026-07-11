@@ -1,20 +1,22 @@
 # LOOP STATE
 
-- iteration: 447
-- lastMode: BUILD (seo-content; 447%5==2)
-- lastItem: build-447-3-days-in-galilee
-- lastResult: BUILD — /3-days-in-galilee (P2/M seo-content) shipped. Day-by-day Galilee 3-day itinerary: Nazareth Old City + Basilica of the Annunciation (Day 1), Sea of Galilee Christian shore circuit — Tabgha mosaic floor, Capernaum excavations, Magdala 1st-century synagogue, lake boat, Church of the Beatitudes (Day 2), Mount Arbel cliff hike + departure (Day 3). 6 FAQs. 3 CTAs: GYG Sea of Galilee boat tour + Booking.com Tiberias + DiscoverCars. Cross-links from galilee.md region + galilee-vs-golan-weekend.md. Title: 62 chars ✓. Description: 149 chars ✓. Gate: 0 check errors · 682 pages (+1) · 961/961 e2e+a11y pass (+2). Merge SHA 6607434, pushed 2026-07-11T05:00Z. CI success (Lighthouse + CI workflows both completed 2026-07-11T04:59Z).
-- nextRotationCategory: 448%5==3 → BUILD (tools — /israel-season-picker ready as P2/M). 449%5==4 → REVIEW. 450%5==0 → RESEARCH. 451%5==1 → BUILD (monetization).
+- iteration: 448
+- lastMode: BUILD (tools; 448%5==3)
+- lastItem: israel-season-picker — vanilla JS 8-interest season picker tool
+- lastResult: SHIPPED — 0 check errors, 683 pages (+1 from 682), 969/969 e2e+a11y pass (+7 from 962). SHA d38983c. CI in_progress at push time.
+- nextRotationCategory: 449%5==4 → REVIEW. 450%5==0 → RESEARCH. 451%5==1 → BUILD (monetization). 452%5==2 → BUILD (seo-content). 453%5==3 → BUILD (tools).
 - higgsfieldSpent: 0
-- updatedAt: 2026-07-11T05:05Z
+- updatedAt: 2026-07-11T06:15Z
 - branch context: work on master; feature work on auto/<slug>
+
+Notes: iter 448 BUILD (tools) — /israel-season-picker shipped. 8 interest chips (Beach, Desert hiking, Skiing, Jewish holiday experiences, Christian pilgrimage, Budget, Bird watching, Festivals & music). Weighted 1–5 monthly scores per interest; top-85 % threshold selects best month(s). Contradictory-interest edge case (beach+skiing) renders compromise note. Output: personalised month badge(s) + interest-specific explanation sentences + up to unique CTA links (GYG/Viator/Booking by interest). Month-by-month overview table with ★/★★/★★★ rating on the page body. Honesty: outputs framed as "typically best"; Jewish/Muslim holiday date drift noted; Hermon snow not guaranteed. Wired: plan-your-trip tools grid, Footer, cross-link in best-time-to-visit-israel.md. 7 new tests (smoke +1, a11y +1, tools +5). Gate: 0 check errors · 683 pages · 969/969 e2e+a11y. SHA d38983c pushed 2026-07-11T06:09Z. CI in_progress.
 
 Notes: iter 447 BUILD (seo-content) — /3-days-in-galilee shipped. Confirmed gap: only thin AI-aggregators (WanderLog, TravelTriangle) ranked for "3 days in Galilee Israel" at time of iter 445 RESEARCH; no editorial publisher had a structured Galilee weekend itinerary. Mirrors proven 3-days-in-negev / 3-days-in-haifa format. YAML ISSUE: FAQ answer #5 had unescaped straight apostrophes in "Galilee's" and "Nazareth's" inside YAML single-quoted string — fixed with '' double-escape before gate pass. Honesty: Mount Arbel cliff section noted as not suitable for vertigo-sensitive visitors; summer heat timing warnings throughout; Nazareth parking difficulty called out; Capernaum coach arrival time noted (arrive before 09:30); no fabricated prices/ratings.
 
 Notes: iter 446 BUILD (monetization) — /muslim-travel-israel shipped. Top P2 seo-content+monetization item; Bein Harim has dedicated Muslim-travelers page; we had zero dedicated content. Format distinct from origin-market playbook: Muslim-visitor experience rather than passport/visa focus. Temple Mount section: Muslim access via all gates (Al-Aqsa open for prayer); non-Muslim via Mughrabi Gate only; Dome of the Rock interior NOT described; access never guaranteed; Waqf administration explained. Hebron explicitly excluded (PROJECT.md). Halal food: Arab-owned restaurants in Muslim Quarter, Jaffa, Nazareth, Akko framed as "typically halal" not certified claim. Prayer logistics: qibla direction (southeast, ~150-160° from north), mosque locations by city. Ramadan: year-shift warning + islamicfinder.org link (never hardcoded Gregorian date). Airport security: neutral, professional framing.
 Title: 57 chars ✓  Description: 150 chars ✓
 
-Notes: iter 445 RESEARCH — 6 net-new items added to BACKLOG: /israel-for-italian-travelers (P3/S seo-content+monetization), /eilat-vs-hurghada (P3/S seo-content+monetization), /israel-season-picker (P2/M tools), /israel-winter-sun-guide (P3/S seo-content+monetization), /israel-for-spanish-travelers (P3/S seo-content+monetization), /israel-itinerary-checker (P3/S tools). No code shipped; no gate run. BACKLOG + COMPETITORS + STATE + JOURNAL committed.
+Notes: iter 445 RESEARCH — 6 net-new items added to BACKLOG: /israel-for-italian-travelers (P3/S seo-content+monetization), /eilat-vs-hurghada (P3/S seo-content+monetization), /israel-season-picker (P2/M tools — SHIPPED iter448), /israel-winter-sun-guide (P3/S seo-content+monetization), /israel-for-spanish-travelers (P3/S seo-content+monetization), /israel-itinerary-checker (P3/S tools). No code shipped; no gate run. BACKLOG + COMPETITORS + STATE + JOURNAL committed.
 
 Notes: iter 444 REVIEW — Audited iters 441–443 (israel-for-german-travelers, 3-days-in-negev, birdwatching-in-israel).
 Checks performed: (1) title lengths: 46/61/67 chars — birdwatching OVER 65 limit (DEFECT); (2) description lengths: 163/158/165 chars — all ≤170 ✓; (3) hero images — all 3 + all 7 CTA images confirmed present in public/ ✓; (4) internal links — 12 key slugs verified: first-time-in-israel, cheap-flights-to-israel, israel-travel-insurance, israel-money-guide, yad-vashem-visitor-guide, driving-in-israel, israel-5-vs-7-vs-10-days, israel-stargazing, beer-sheva-guide, israel-road-trip, israel-national-parks-pass, druze-villages-carmel — all resolve ✓; (5) no H1 in body (awk count) — 0/0/0 ✓; (6) smoke + a11y test routes — all 3 present in both spec files ✓; (7) cross-link mitzpe-ramon-guide.md → /3-days-in-negev confirmed ✓.
@@ -35,4 +37,4 @@ Gate: 0 check errors · 677 pages · 951/951 e2e pass. GREEN. SHA 333458e.
 
 Cron b7325b16 hourly @ :17. Loop history: 19 tools + sitemap-lastmod + link-checker(+depth) + i18n
 Phase0/1a/1b/1c/2 Batches1-18(COMPLETE) + 42 review passes + 3 technical (event-schema + meta-trim + locale-links) + 57 EN guides + 7 tools-monetization;
-research iters 5/10/20/30/35/40/45/50/55/60/65/70/75/80/85/90/95/100/105/110/115/120/125/130/135/140/145/150/155/160/165/170/175/180/185/190/195/200/205/210/215/220/225/230/235/240/245/250/255/260/265/270/275/280/285/290/295/300/305/310/315/320/325/330/335/340/345/350/355/360/365/370/375/380/385/390/395/400/405/410/420/425/430/435/440.
+research iters 5/10/20/30/35/40/45/50/55/60/65/70/75/80/85/90/95/100/105/110/115/120/125/130/135/140/145/150/155/160/165/170/175/180/185/190/195/200/205/210/215/220/225/230/235/240/245/250/255/260/265/270/275/280/285/290/295/300/305/310/315/320/325/330/335/340/345/350/355/360/365/370/375/380/385/390/395/400/405/410/420/425/430/435/440/445.

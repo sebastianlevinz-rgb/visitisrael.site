@@ -893,3 +893,6 @@ Value: Confirmed editorial gap — only AI-aggregators rank for "3 days in Negev
 
 ## iter 447 — /3-days-in-galilee · SHA 6607434
 3-day Galilee itinerary guide (P2/M seo-content). Nazareth Old City + Basilica of the Annunciation, Sea of Galilee Christian shore circuit (Tabgha, Capernaum, Magdala, boat), Mount Arbel hike. 6 FAQs, 3 CTAs (GYG boat/Booking Tiberias/DiscoverCars). Fills confirmed gap vs AI-aggregator-only SERPs. 682 pages. 961/961 e2e pass. CI success.
+
+## iter 448 — /israel-season-picker · SHA d38983c
+Interactive best-time-to-visit season picker (P2/M tools). 8 interest chips (Beach, Desert hiking, Skiing, Jewish holidays, Christian pilgrimage, Budget, Bird watching, Festivals). Weighted 1–5 monthly scores → top-85% threshold → personalised best-month(s) output + explanations + CTA links. Contradictory beach+skiing edge case handled. Month-by-month table on page. Wired: plan-your-trip, footer, best-time-to-visit cross-link. 683 pages. 969/969 e2e+a11y pass. CI in_progress at push.
