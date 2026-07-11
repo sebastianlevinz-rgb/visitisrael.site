@@ -90,4 +90,4 @@ Beyond the per-site rules above, a few habits mark you as a considerate visitor.
 - **Donations and tips** at churches and shrines are appreciated but never demanded.
 - **Ask before photographing people**, especially in religious dress or at prayer.
 
-Plan the rest of your trip with our [first-time in Israel](/first-time-in-israel) guide and, if you're travelling for faith, the [Christian pilgrimage](/christian-pilgrimage-holy-land) hub — and you'll move through Israel's holiest places like a thoughtful guest rather than a tourist.
+Plan the rest of your trip with our [first-time in Israel](/first-time-in-israel) guide and, if you're travelling for faith, the [Christian pilgrimage](/christian-pilgrimage-holy-land) hub or the [Muslim-friendly Israel travel guide](/muslim-travel-israel) — and you'll move through Israel's holiest places like a thoughtful guest rather than a tourist.

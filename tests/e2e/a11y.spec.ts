@@ -345,6 +345,7 @@ const ROUTES = [
   '/jaffa-hotels-guide',
   '/israel-for-american-travelers',
   '/israel-for-german-travelers',
+  '/muslim-travel-israel',
 ];
 
 for (const route of ROUTES) {

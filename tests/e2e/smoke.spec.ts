@@ -243,6 +243,7 @@ const ROUTES = [
   '/israel-for-british-travelers',
   '/israel-for-american-travelers',
   '/israel-for-german-travelers',
+  '/muslim-travel-israel',
   '/jaffa-hotels-guide',
   '/free-things-to-do-israel',
   '/cheap-flights-to-israel',
