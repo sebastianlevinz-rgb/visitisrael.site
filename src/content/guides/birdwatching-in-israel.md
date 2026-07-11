@@ -1,5 +1,5 @@
 ---
-title: 'Birdwatching in Israel: Hula Valley, Eilat & Migration Guide (2026)'
+title: 'Birdwatching in Israel: Hula Valley, Eilat & Migration (2026)'
 description: 'Complete guide to birdwatching in Israel — Agamon HaHula cranes, the Eilat Birding Festival, Hai-Bar wildlife reserves, and the Great Rift Valley migration corridor.'
 heroImage: /images/regions/galilee/hero.jpg
 category: Experiences
