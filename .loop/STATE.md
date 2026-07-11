@@ -1,13 +1,17 @@
 # LOOP STATE
 
-- iteration: 453
-- lastMode: BUILD (tools)
-- lastItem: israel-itinerary-checker — Israel itinerary feasibility checker tool
-- lastResult: COMPLETE — /israel-itinerary-checker shipped. Gate: 0 check errors · 686 pages · 982/982 e2e+a11y pass. SHA ac4f456. CI in_progress at commit time.
-- nextRotationCategory: 454%5==4 → REVIEW. 455%5==0 → RESEARCH. 456%5==1 → BUILD (monetization). 457%5==2 → BUILD (seo-content). 458%5==3 → BUILD (tools).
+- iteration: 454
+- lastMode: REVIEW
+- lastItem: review-454 — audit iters 451–453 (south-israel-itinerary, israel-egypt-guide, israel-itinerary-checker)
+- lastResult: DEFECT FIXED — south-israel-itinerary had zero inbound links; added cross-links from mitzpe-ramon-guide + beer-sheva-guide. Gate: 0 check errors · 686 pages · 982/982 e2e+a11y pass. SHA f580fc3. CI in_progress at commit time.
+- nextRotationCategory: 455%5==0 → RESEARCH. 456%5==1 → BUILD (monetization). 457%5==2 → BUILD (seo-content). 458%5==3 → BUILD (tools). 459%5==4 → REVIEW.
 - higgsfieldSpent: 0
-- updatedAt: 2026-07-11T11:05Z
+- updatedAt: 2026-07-11T11:50Z
 - branch context: work on master; feature work on auto/<slug>
+
+Notes: iter 454 REVIEW — Audited iters 451–453 (south-israel-itinerary, israel-egypt-guide, israel-itinerary-checker).
+Checks performed: (1) title lengths: 60/62/62 chars — all ≤65 ✓; (2) description lengths: 159/137/167 chars — all ≤170 ✓; (3) hero images — all 5 CTA/hero images confirmed present in public/ ✓; (4) internal links — 25 page links checked; 3 appeared MISSING but were false negatives from static checker (dynamic region routes /negev, /jerusalem and directory index /itineraries — all resolve in runtime) ✓; (5) no H1 in body (south-israel-itinerary + israel-egypt-guide) — 0/0 ✓; (6) honesty — no aggregateRating/ratingValue/reviewCount; apparent exact-price regex hits were false positives (all are ranges like ₪250–400 or "approximately" with "verify current amount" note) ✓; (7) affiliate partner keys — discovercars, getyourguide, booking, viator, tourradar — all valid ✓; (8) smoke + a11y test routes — all 3 present in both spec files ✓; (9) tools.spec.ts coverage — 7 tests for israel-itinerary-checker ✓.
+DEFECT FOUND + FIXED: /south-israel-itinerary had ZERO inbound links from any other page — completely undiscoverable via internal navigation. Fixed by adding cross-links in mitzpe-ramon-guide.md ("Four to five days — south circuit" paragraph after "Three days in the Negev") and beer-sheva-guide.md ("Continuing into the Negev" section tail). Gate: 0 check errors · 686 pages · 982/982 e2e+a11y. SHA f580fc3. CI in_progress at commit time.
 
 Notes: iter 453 BUILD (tools) — /israel-itinerary-checker shipped. Vanilla-JS tool: day-range slider (3–21 days) + 8 destination checkboxes (Jerusalem, Tel Aviv, Dead Sea, Galilee, Golan, Negev/Eilat, Haifa/Akko, Caesarea). Logic: sum min-days per region + 0.5-day transit per region hop; feasible (✅) or needs-more-days (⚠️) verdict + proportional day allocation + tailored suggestions. Wired into plan-your-trip tools grid. i18n keys added for EN/FR/DE. Smoke +1, a11y +1, tools +6 tests. One broken internal link found (traveling-with-kids-shabbat-guide → fixed to shabbat-guide) before gate pass. Gate: 0 check errors · 686 pages · 982/982 e2e+a11y pass. SHA ac4f456.
 

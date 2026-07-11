@@ -7446,3 +7446,9 @@ Bug fix before gate: broke internal link (/traveling-with-kids-shabbat-guide →
 Tests: smoke +1 (/israel-itinerary-checker), a11y +1, tools +6 (render, error-on-empty, 7-day feasible, 3-day-over-booked, link-to-5-7-10-days, reset, plan-your-trip wiring).
 Gate: 0 check errors · 686 pages (+1) · 982/982 e2e+a11y pass. GREEN.
 Merge: squash-merged to master SHA ac4f456, pushed 2026-07-11T11:02Z. CI in_progress at state-write time.
+
+## 2026-07-11T11:50Z · iter 454 · REVIEW · audit iters 451–453
+What: Audited south-israel-itinerary (iter 451), israel-egypt-guide (iter 452), and israel-itinerary-checker tool (iter 453).
+Checks: (1) title ≤65 — 60/62/62 ✓; (2) desc ≤170 — 159/137/167 ✓; (3) all 5 hero/CTA images present ✓; (4) 25 internal page links checked — 3 static-checker false-MISSING turned out to be valid dynamic routes (/negev, /jerusalem) and dir-index (/itineraries) ✓; (5) no H1 in body ✓; (6) no fabricated prices/aggregateRating — apparent price regex hits were ranges or "approximately" with verify note ✓; (7) partner keys (discovercars, getyourguide, booking, viator, tourradar) — all valid ✓; (8) all 3 routes in smoke + a11y ✓; (9) tools.spec.ts 7 tests for checker ✓.
+DEFECT FOUND: south-israel-itinerary had zero inbound links — entirely undiscoverable.
+FIX: Added cross-link in mitzpe-ramon-guide.md (new "Four to five days — south circuit" paragraph) and beer-sheva-guide.md (tail of "Continuing into the Negev" section). Gate: 0 check errors · 686 pages · 982/982 e2e+a11y. SHA f580fc3. CI in_progress at push time.
