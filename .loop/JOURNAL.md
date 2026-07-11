@@ -7415,3 +7415,12 @@ Already covered: British/American/German/Dutch/Italian/Spanish/Indian/Canadian/A
 
 2026 market intelligence: Air India DEL→TLV nonstop launched Jan 2026 (relevant to existing /israel-for-indian-travelers backlog item). Great Isaiah Scroll on full display at Israel Museum since 2026 (worth noting in museum guide update). No new BACKLOG items needed for these.
 No code shipped. No gate run. COMPETITORS.md updated with full research notes.
+
+## 2026-07-11T08:45Z · iter 451 · BUILD (seo-content, monetization fall-through) · south-israel-itinerary
+What: /south-israel-itinerary — 4–5 day self-drive circuit Beer-Sheva to Eilat via Route 40. Fills confirmed content gap (BackpackIsrael/notesontraveling/desertsfun/goldcarpettours all rank for "South Israel itinerary"; zero editorial guide existed on site). Monetization rotation: monetization category empty (all shipped) → fell through to seo-content+monetization P2 item.
+Content: Day 1 Beer-Sheva (Tel Beer-Sheva UNESCO + Bedouin market); Day 2 Sde Boker + Ein Avdat + Avdat ruins; Day 3 Makhtesh Ramon crater day (Wadi Ardon hike + jeep option + stargazing + Negev Highlands wine); Day 4 Timna Park + Eilat arrival; Day 5 extensions (Petra/Aqaba/Dolphin Reef). Driving summary: Beer-Sheva→Sde Boker 50km, →Mitzpe Ramon 85km, →Timna 155km more, →Eilat 25km; total ~265km driving time.
+Honesty: summer heat warnings (40°C+ crater/Timna Jun-Aug, hike only before 9am); Timna Park NOT INPA pass (separately operated); Makhtesh Ramon is erosion crater not meteor/volcano; Ein Avdat upper trail ladder section requires good fitness; petrol gap Beer-Sheva→Eilat noted.
+Monetization: DiscoverCars primary CTA (car essential) + GYG jeep tours + Booking.com Mitzpe Ramon + Viator Petra day tours.
+Tests: smoke +1, a11y +1.
+Gate: 0 check errors · 684 pages · 971/971 e2e+a11y pass.
+Merge: squash-merged to master SHA 43fad8f, pushed 2026-07-11T08:41Z. CI Lighthouse in_progress at push time. Vercel deploy pending.

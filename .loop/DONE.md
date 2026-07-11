@@ -896,3 +896,4 @@ Value: Confirmed editorial gap — only AI-aggregators rank for "3 days in Negev
 
 ## iter 448 — /israel-season-picker · SHA d38983c
 Interactive best-time-to-visit season picker (P2/M tools). 8 interest chips (Beach, Desert hiking, Skiing, Jewish holidays, Christian pilgrimage, Budget, Bird watching, Festivals). Weighted 1–5 monthly scores → top-85% threshold → personalised best-month(s) output + explanations + CTA links. Contradictory beach+skiing edge case handled. Month-by-month table on page. Wired: plan-your-trip, footer, best-time-to-visit cross-link. 683 pages. 969/969 e2e+a11y pass. CI in_progress at push.
+- [iter451] /south-israel-itinerary — 4–5 day Beer-Sheva→Negev→Eilat self-drive circuit. Route 40 south: Beer-Sheva, Sde Boker, Ein Avdat, Avdat UNESCO, Makhtesh Ramon crater, Timna Park, Eilat. DiscoverCars+GYG+Booking+Viator CTAs. Gate: 971/971 e2e pass. SHA 43fad8f.
