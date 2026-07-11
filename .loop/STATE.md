@@ -1,13 +1,18 @@
 # LOOP STATE
 
-- iteration: 458
-- lastMode: BUILD (seo-content) [tools fallthrough — no tools items in backlog; fell to seo-content]
-- lastItem: iter458 — /israel-visa-extension (Israel tourist visa extension guide)
-- lastResult: SHIPPED — gate: 0 check errors · 689 pages (+1) · 988/988 e2e+a11y pass. SHA 4044dcd.
-- nextRotationCategory: 459%5==4 → REVIEW. 460%5==0 → RESEARCH. 461%5==1 → BUILD (monetization). 462%5==2 → BUILD (seo-content). 463%5==3 → BUILD (tools).
+- iteration: 459
+- lastMode: REVIEW
+- lastItem: iter459 — audit iters 456–458 (dead-sea-day-trip-comparison, israel-kayaking, israel-visa-extension)
+- lastResult: DEFECT FIXED — iaa.gov.il→israel-entry.piba.gov.il in visa-extension guide. Gate: 0 check errors · 689 pages · 988/988 e2e+a11y pass. SHA b14bab3. CI in_progress.
+- nextRotationCategory: 460%5==0 → RESEARCH. 461%5==1 → BUILD (monetization). 462%5==2 → BUILD (seo-content). 463%5==3 → BUILD (tools). 464%5==4 → REVIEW.
 - higgsfieldSpent: 0
-- updatedAt: 2026-07-11T16:00Z
+- updatedAt: 2026-07-11T16:45Z
 - branch context: work on master; feature work on auto/<slug>
+
+Notes: iter459 REVIEW — Audited iters 456–458 (dead-sea-day-trip-comparison, israel-kayaking, israel-visa-extension).
+Checks performed: (1) title lengths: 59/54/54 chars — all ≤65 ✓; (2) desc lengths: 132/143/167 chars — all ≤170 ✓; (3) all 5 hero/CTA images present ✓ (/images/regions/dead-sea/ein-bokek.jpg, galilee/sea-of-galilee.jpg, galilee/hero.jpg, galilee/tiberias.jpg, tel-aviv/hero.jpg); (4) no H1 in body for any of the 3 ✓; (5) internal link /dead-sea/ein-gedi — initially flagged as missing but confirmed valid: attractionSlug() strips "dead-sea-" prefix → route /dead-sea/ein-gedi ✓; all other 12 internal slugs resolve ✓; (6) cross-links installed — dead-sea-day-trip-comparison in day-trips-from-jerusalem + day-trips-from-tel-aviv + dead-sea-tours-compared ✓; israel-kayaking in israel-adventure-sports + water-hiking-israel ✓; israel-visa-extension in visa-information + israel-after-birthright ✓; (7) no fabricated aggregateRating/reviewCount ✓; (8) partner keys (getyourguide, viator, booking, discovercars) all in affiliates.ts ✓; (9) smoke + a11y in spec files ✓.
+DEFECT FOUND: israel-visa-extension.md line 141 listed "iaa.gov.il" (Israel Airports Authority, civil aviation) as the ETA-IL portal — factually wrong; correct portal is "israel-entry.piba.gov.il" (Population and Immigration Authority), consistent with visa-information.md line 34.
+FIX: Corrected to israel-entry.piba.gov.il. Gate: 0 check errors · 689 pages · 988/988 e2e+a11y pass. SHA b14bab3. CI in_progress at push time.
 
 Notes: iter458 BUILD (seo-content, tools fallthrough) — /israel-visa-extension shipped. P2/S seo-content item (iter175 research). Tourist visa extension guide: Population Authority process, required docs (passport, ETA-IL, entry slip, bank statements, onward flight), fees (₪200–₪300), timing advice (apply 2–3 weeks before expiry), border-run risks and why formal extension is better, longer pathways (ulpan, MASA, Aliyah). Affiliate CTAs: Booking.com extended-stay apartments, DiscoverCars long-term car rental. Cross-links added in visa-information.md (extending-your-stay section) and israel-after-birthright.md (visa block). Smoke +1, a11y +1. Note: tools category had no unshipped items; fell through to seo-content per playbook.
 

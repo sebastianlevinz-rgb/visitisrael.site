@@ -7503,3 +7503,10 @@ Tests: smoke +1 (/israel-visa-extension after /israel-kayaking), a11y +1 (same p
 Gate: 0 check errors · 689 pages (+1) · 988/988 e2e+a11y pass. GREEN.
 Merge: committed to master SHA 4044dcd, pushed 2026-07-11T16:00Z.
 Next: iter 459 → REVIEW (459%5==4).
+
+## 2026-07-11T16:45Z · iter 459 · REVIEW · audit iters 456–458
+What: Audited /dead-sea-day-trip-comparison (iter456), /israel-kayaking (iter457), /israel-visa-extension (iter458).
+Checks: (1) titles 59/54/54 chars ≤65 ✓; (2) descs 132/143/167 chars ≤170 ✓; (3) all 5 hero+CTA images exist ✓; (4) no H1 in any body ✓; (5) /dead-sea/ein-gedi confirmed valid via attractionSlug() logic; 12 other internal links all resolve ✓; (6) all 6 expected cross-links installed ✓; (7) no fabricated ratings/review counts ✓; (8) partner keys valid ✓; (9) smoke+a11y tests all present ✓.
+Defect: israel-visa-extension.md listed "iaa.gov.il" (Israel Airports Authority, civil aviation) as ETA-IL portal — factually incorrect. Correct portal is "israel-entry.piba.gov.il" (PIBA).
+Fix: corrected URL in israel-visa-extension.md line 141. Gate: 0 check errors · 689 pages · 988/988 e2e+a11y pass. SHA b14bab3, pushed. CI in_progress.
+Next: iter 460 → RESEARCH (460%5==0).
