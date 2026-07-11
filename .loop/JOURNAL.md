@@ -7552,3 +7552,10 @@ Gate: 0 check errors · 690 pages · 990/990 e2e+a11y pass (link check: 0 broken
 Ship: squash-merged to master SHA 45cc9e5, pushed 2026-07-11T18:55Z.
 Prod: CI in_progress at push time (Lighthouse workflow). Next iteration start-check to confirm.
 Next: iter 462 → BUILD (seo-content). 462 % 5 == 2.
+
+## 2026-07-11T19:52Z · iter 462 · BUILD (seo-content) · sukkot-in-israel
+What: New /sukkot-in-israel guide. Sukkot 2026 starts Sep 25 — ideal SEO timing window, 2.5 months out with peak Israel autumn booking intent. Covers: Sukkot 2026/2027 dates table, Yom Tov vs Chol HaMoed week structure (what closes/opens each day), Western Wall Birkat Kohanim (arrive 6:30am, free entry, security timing, dress code, scale), Jerusalem during Sukkot (Jewish Quarter, Mahane Yehuda, municipality events, Tower of David), Galilee in Sukkot (crane migration season begins, Hula Valley, Banias/Dan parks), accommodation booking strategy (2–3 months ahead, 30–50% price premium, Chol HaMoed weekday timing tip), Simchat Torah (hakafot at Western Wall). Affiliate CTAs: booking (Sukkot peak-season hotels), getyourguide (Jerusalem Sukkot/Old City tours), viator (Chol HaMoed day trips). verdictName + verdictQuery wired. Cross-links added: traveling-israel-jewish-holidays.md (Sukkot section closing paragraph), israel-events-festivals.md (Autumn row link), best-time-to-visit-israel.md (autumn paragraph inline link).
+Gate: 0 check errors · 691 pages · 992/992 e2e+a11y pass.
+Ship: squash-merged to master SHA e2935f7, pushed 2026-07-11T19:52Z.
+Prod: CI in_progress at push time (Lighthouse workflow). Next iteration start-check to confirm.
+Next: iter 463 → BUILD (tools). 463 % 5 == 3.

@@ -927,3 +927,8 @@ Value: High-intent guide for tourists wanting to extend beyond the 90-day author
 **Israel Small-Group Tours Comparison** (/israel-small-group-tours)
 Category: monetization · Effort: M
 Value: High-AOV affiliate opportunity (TourRadar primary; small-group tours $2,400–$5,400/pp). Compares G Adventures, Intrepid Travel, Explore!, Odysseys Unlimited, Maranatha Tours and Context Travel — group size caps, itinerary styles, price bands, solo-traveller roommate-matching, booking lead times. TourRadar ranks P1 for "Israel small group tours"; we had zero dedicated small-group content. Cross-links from private-tours-israel, israel-tour-packages, best-holy-land-tours. 690 pages (+1). 990/990 tests pass.
+
+## iter 462 · 2026-07-11 · e2935f7
+**Sukkot in Israel Visitor Guide** (/sukkot-in-israel)
+Category: seo-content+monetization · Effort: S
+Value: Sukkot 2026 starts Sep 25 — ideal 2.5-month SEO window with peak Israel autumn booking intent. October is Israel's busiest travel month; Sukkot is the second-busiest domestic holiday after Passover. Standalone guide where traveling-israel-jewish-holidays has only a brief section. Covers: Birkat Kohanim at Western Wall (arrive 6:30am), Chol HaMoed logistics, Galilee crane migration season, accommodation booking strategy, Simchat Torah. Affiliate CTAs: booking, getyourguide, viator. Cross-links from traveling-israel-jewish-holidays, israel-events-festivals, best-time-to-visit-israel. 691 pages (+1). 992/992 tests pass.

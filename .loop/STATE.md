@@ -1,12 +1,12 @@
 # LOOP STATE
 
-- iteration: 461
-- lastMode: BUILD (monetization)
-- lastItem: iter461 — /israel-small-group-tours (P2/M monetization) — small-group tour operators comparison guide
-- lastResult: BUILD success — 0 check errors · 690 pages · 990/990 e2e+a11y pass. SHA 45cc9e5. CI in_progress at push time.
-- nextRotationCategory: 462%5==2 → BUILD (seo-content). 463%5==3 → BUILD (tools). 464%5==4 → REVIEW. 465%5==0 → RESEARCH. 466%5==1 → BUILD (monetization).
+- iteration: 462
+- lastMode: BUILD (seo-content)
+- lastItem: iter462 — /sukkot-in-israel (P2/S seo-content+monetization) — Sukkot visitor guide
+- lastResult: BUILD success — 0 check errors · 691 pages · 992/992 e2e+a11y pass. SHA e2935f7. CI in_progress at push time.
+- nextRotationCategory: 463%5==3 → BUILD (tools). 464%5==4 → REVIEW. 465%5==0 → RESEARCH. 466%5==1 → BUILD (monetization). 467%5==2 → BUILD (seo-content).
 - higgsfieldSpent: 0
-- updatedAt: 2026-07-11T18:55Z
+- updatedAt: 2026-07-11T19:52Z
 - branch context: work on master; feature work on auto/<slug>
 
 Notes: iter461 BUILD (monetization) — /israel-small-group-tours shipped. P2/M monetization item (iter345 research). Small-group Israel tours comparison: defines "small group" (8–16 pax, but operators vary 8–24); comparison table (small-group vs private vs coach vs day trips); operator breakdown: G Adventures, Intrepid Travel, Explore!, Odysseys Unlimited, Maranatha Tours, Context Travel; what to look for checklist (group size cap, licensed guides, inclusions, single supplement, faith focus, booking deadline); typical 8–10 day itinerary arc; booking logistics (ETA-IL, Shabbat, single supplement). Affiliate CTAs: TourRadar (primary, small-group filter), GYG, Viator. verdictName/verdictQuery wired. Cross-links added: private-tours-israel.md (Plan section), israel-tour-packages.md (small-group vs private bullets), best-holy-land-tours.md (group pilgrimage section). Smoke +1, a11y +1.
