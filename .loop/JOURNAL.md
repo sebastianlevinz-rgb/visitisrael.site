@@ -7330,3 +7330,12 @@ What: New /birdwatching-in-israel guide — wildlife & migration hub. Tools/tech
 Gate: 0 check errors · 680 pages (+1) · 957/957 e2e pass (+2). GREEN.
 Ship: squash-merged to master SHA 5c902d2, pushed. CI in_progress at push time.
 Prod: CI in_progress at close-of-iteration — next iteration start-check will confirm.
+
+## 2026-07-11T01:45Z · iter 444 · REVIEW · review-444-birdwatching-title-trim
+Mode: REVIEW (444%5==4). Startup: fresh cloud env; hard-reset to origin/master (0572239 = iter443 state commit).
+Slice reviewed: iters 441–443 — israel-for-german-travelers, 3-days-in-negev, birdwatching-in-israel.
+Checks: (1) title lengths 46/61/67 chars — birdwatching OVER 65-char limit (67 chars); (2) desc lengths 163/158/165 — all ≤170 ✓; (3) hero images — all 3 confirmed present in public/ ✓; (4) 7 CTA images — all confirmed present ✓; (5) 12 internal link slugs verified (first-time-in-israel, cheap-flights-to-israel, israel-travel-insurance, israel-money-guide, yad-vashem-visitor-guide, driving-in-israel, israel-5-vs-7-vs-10-days, israel-stargazing, beer-sheva-guide, israel-road-trip, israel-national-parks-pass, druze-villages-carmel) — all resolve ✓; (6) no H1 in body — 0/0/0 ✓; (7) smoke + a11y tests present for all 3 pages ✓; (8) mitzpe-ramon-guide cross-link to /3-days-in-negev confirmed ✓.
+DEFECT FOUND + FIXED: birdwatching-in-israel title trimmed 67→61 chars ("…Hula Valley, Eilat & Migration Guide (2026)" → "…Hula Valley, Eilat & Migration (2026)").
+Gate: 0 check errors · 680 pages (unchanged) · 957/957 e2e pass. GREEN.
+Ship: committed 3f259f9 to master, pushed 2026-07-11T01:40Z. CI in_progress at push time.
+Next: iter 445 → RESEARCH (445%5==0).

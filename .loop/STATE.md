@@ -1,13 +1,18 @@
 # LOOP STATE
 
-- iteration: 443
-- lastMode: BUILD (seo-content fall-through from tools/technical; 443%5==3)
-- lastItem: birdwatching-in-israel
-- lastResult: BUILD GREEN — /birdwatching-in-israel shipped. 0 check errors · 680 pages (+1 from 679) · 957/957 e2e pass (+2 from 955). SHA 5c902d2. CI in_progress at push time.
-- nextRotationCategory: 444%5==4 → REVIEW. 445%5==0 → RESEARCH. 446%5==1 → BUILD (monetization). 447%5==2 → BUILD (seo-content). 448%5==3 → BUILD (tools/technical fall-through).
+- iteration: 444
+- lastMode: REVIEW (444%5==4)
+- lastItem: review-444-birdwatching-title-trim
+- lastResult: REVIEW GREEN — birdwatching-in-israel title trimmed 67→61 chars (≤65 SEO limit). 0 check errors · 680 pages (unchanged) · 957/957 e2e pass. SHA 3f259f9. CI in_progress at push time.
+- nextRotationCategory: 445%5==0 → RESEARCH. 446%5==1 → BUILD (monetization). 447%5==2 → BUILD (seo-content). 448%5==3 → BUILD (tools/technical fall-through). 449%5==4 → REVIEW.
 - higgsfieldSpent: 0
-- updatedAt: 2026-07-11T00:50Z
+- updatedAt: 2026-07-11T01:45Z
 - branch context: work on master; feature work on auto/<slug>
+
+Notes: iter 444 REVIEW — Audited iters 441–443 (israel-for-german-travelers, 3-days-in-negev, birdwatching-in-israel).
+Checks performed: (1) title lengths: 46/61/67 chars — birdwatching OVER 65 limit (DEFECT); (2) description lengths: 163/158/165 chars — all ≤170 ✓; (3) hero images — all 3 + all 7 CTA images confirmed present in public/ ✓; (4) internal links — 12 key slugs verified: first-time-in-israel, cheap-flights-to-israel, israel-travel-insurance, israel-money-guide, yad-vashem-visitor-guide, driving-in-israel, israel-5-vs-7-vs-10-days, israel-stargazing, beer-sheva-guide, israel-road-trip, israel-national-parks-pass, druze-villages-carmel — all resolve ✓; (5) no H1 in body (awk count) — 0/0/0 ✓; (6) smoke + a11y test routes — all 3 present in both spec files ✓; (7) cross-link mitzpe-ramon-guide.md → /3-days-in-negev confirmed ✓.
+DEFECT FIXED: birdwatching-in-israel title 67→61 chars ("…Hula Valley, Eilat & Migration Guide (2026)" → "…Hula Valley, Eilat & Migration (2026)").
+Gate: 0 check errors · 680 pages · 957/957 e2e pass. GREEN. SHA 3f259f9.
 
 Notes: iter 443 BUILD (tools/technical fall-through → seo-content) — /birdwatching-in-israel shipped. Tools and technical BACKLOG categories fully shipped; monetization empty; fell through to seo-content P2/M item. Israel sits on Great Rift Valley migration corridor (500M+ birds/year). Content: Agamon HaHula crane spectacle (up to 120k cranes Oct–Feb; Sunrise Safari Wagon; annual Hula Valley Bird Festival); Eilat IBRCE saltpans + dawn ringing demos + Eilat Birding Festival (mid-March); Gamla Griffon Vulture colony + Golan raptor watch; Hai-Bar Yotvata (oryx/onager reintroduction); En Afek wetland (Akko area). Seasonal calendar table (spring migration, breeding, post-breeding, autumn migration, winter). HONESTY: dates framed as "typically" with links to agamon-hula.co.il, ibrce.org, birdingisrael.com — never hardcoded. 3 CTAs: GYG Hula Valley birdwatching tour + Abraham Tours Galilee day trip + Viator Eilat birding tours. 6 FAQs: best season, equipment/experience level, family-friendliness, IBRCE explanation, INPA pass coverage, species count. Tests: smoke +1, a11y +1.
 
