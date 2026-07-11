@@ -1,13 +1,18 @@
 # LOOP STATE
 
-- iteration: 445
-- lastMode: RESEARCH (445%5==0)
-- lastItem: research-445-italy-spain-redsea-tools-wintersun
-- lastResult: RESEARCH — 6 net-new items added to BACKLOG: /israel-for-italian-travelers (P3/S seo-content+monetization), /eilat-vs-hurghada (P3/S seo-content+monetization), /israel-season-picker (P2/M tools), /israel-winter-sun-guide (P3/S seo-content+monetization), /israel-for-spanish-travelers (P3/S seo-content+monetization), /israel-itinerary-checker (P3/S tools). No code shipped; no gate run. BACKLOG + COMPETITORS + STATE + JOURNAL committed.
-- nextRotationCategory: 446%5==1 → BUILD (monetization). 447%5==2 → BUILD (seo-content). 448%5==3 → BUILD (tools — /israel-season-picker now ready as P2/M). 449%5==4 → REVIEW. 450%5==0 → RESEARCH.
+- iteration: 446
+- lastMode: BUILD (monetization; 446%5==1)
+- lastItem: build-446-muslim-travel-israel
+- lastResult: BUILD — /muslim-travel-israel (P2/M seo-content+monetization) shipped. Temple Mount access guide, Islamic sites (Al-Aqsa, Al-Jazzar Mosque Akko, Hassan Bek Mosque Jaffa, White Mosque Nazareth), halal food, prayer logistics, Ramadan tips, airport security. Honesty: access never guaranteed; Dome interior not described; Hebron excluded; halal framed correctly; Ramadan dates link-only. 3 CTAs: GYG Jerusalem Islamic heritage tour + Viator Old City + Booking.com Old City hotels. Cross-link added from holy-sites-dress-code-etiquette.md. Gate: 0 check errors · 681 pages (+1) · 959/959 e2e+a11y pass (+2). Merge SHA 1e412eb, pushed 2026-07-11T03:55Z. CI in_progress at push time (prior 3 runs all success — code is clean).
+- nextRotationCategory: 447%5==2 → BUILD (seo-content). 448%5==3 → BUILD (tools — /israel-season-picker ready as P2/M). 449%5==4 → REVIEW. 450%5==0 → RESEARCH.
 - higgsfieldSpent: 0
-- updatedAt: 2026-07-11T03:15Z
+- updatedAt: 2026-07-11T03:58Z
 - branch context: work on master; feature work on auto/<slug>
+
+Notes: iter 446 BUILD (monetization) — /muslim-travel-israel shipped. Top P2 seo-content+monetization item; Bein Harim has dedicated Muslim-travelers page; we had zero dedicated content. Format distinct from origin-market playbook: Muslim-visitor experience rather than passport/visa focus. Temple Mount section: Muslim access via all gates (Al-Aqsa open for prayer); non-Muslim via Mughrabi Gate only; Dome of the Rock interior NOT described; access never guaranteed; Waqf administration explained. Hebron explicitly excluded (PROJECT.md). Halal food: Arab-owned restaurants in Muslim Quarter, Jaffa, Nazareth, Akko framed as "typically halal" not certified claim. Prayer logistics: qibla direction (southeast, ~150-160° from north), mosque locations by city. Ramadan: year-shift warning + islamicfinder.org link (never hardcoded Gregorian date). Airport security: neutral, professional framing.
+Title: 57 chars ✓  Description: 150 chars ✓
+
+Notes: iter 445 RESEARCH — 6 net-new items added to BACKLOG: /israel-for-italian-travelers (P3/S seo-content+monetization), /eilat-vs-hurghada (P3/S seo-content+monetization), /israel-season-picker (P2/M tools), /israel-winter-sun-guide (P3/S seo-content+monetization), /israel-for-spanish-travelers (P3/S seo-content+monetization), /israel-itinerary-checker (P3/S tools). No code shipped; no gate run. BACKLOG + COMPETITORS + STATE + JOURNAL committed.
 
 Notes: iter 444 REVIEW — Audited iters 441–443 (israel-for-german-travelers, 3-days-in-negev, birdwatching-in-israel).
 Checks performed: (1) title lengths: 46/61/67 chars — birdwatching OVER 65 limit (DEFECT); (2) description lengths: 163/158/165 chars — all ≤170 ✓; (3) hero images — all 3 + all 7 CTA images confirmed present in public/ ✓; (4) internal links — 12 key slugs verified: first-time-in-israel, cheap-flights-to-israel, israel-travel-insurance, israel-money-guide, yad-vashem-visitor-guide, driving-in-israel, israel-5-vs-7-vs-10-days, israel-stargazing, beer-sheva-guide, israel-road-trip, israel-national-parks-pass, druze-villages-carmel — all resolve ✓; (5) no H1 in body (awk count) — 0/0/0 ✓; (6) smoke + a11y test routes — all 3 present in both spec files ✓; (7) cross-link mitzpe-ramon-guide.md → /3-days-in-negev confirmed ✓.

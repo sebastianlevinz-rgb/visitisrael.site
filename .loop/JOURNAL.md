@@ -7359,3 +7359,16 @@ Key findings:
   /israel-itinerary-checker (P3/S tools) [iter445]
 No code shipped (RESEARCH mode). No gate run.
 Next: iter 446 → BUILD (446%5==1 → monetization). Top P2 monetization item from BACKLOG; or P2 seo-content+monetization if monetization queue needs review.
+
+## 2026-07-11T03:58Z · iter 446 · BUILD (monetization) · muslim-travel-israel
+
+**Item:** `/muslim-travel-israel` — Muslim-friendly Israel travel guide (P2/M seo-content+monetization).
+**Startup:** fresh cloud env; local master diverged from origin (50-commit cloud pattern) — hard-reset to origin/master (95d1964 = iter445 state commit).
+**Gate:** pnpm check 0 errors (114 hints) · pnpm build 681 pages (+1 from 680) · pnpm test:e2e 959/959 pass (+2 from 957). GREEN.
+**Merge SHA:** 1e412eb — pushed to master 2026-07-11T03:55Z. CI in_progress at push time (prior 3 runs all success — code is sound).
+**Prod deploy:** pending (CI in_progress at close of iteration — next iteration start-check will confirm).
+**Content:** Temple Mount / Haram al-Sharif access guide (Muslim access to Al-Aqsa and Dome of the Rock via all gates; non-Muslim via Mughrabi Gate only during limited weekday hours; Waqf administration explained; access never guaranteed); Al-Jazzar Mosque Akko (1781 Ottoman, hair relic, open outside prayer); Hassan Bek Mosque Jaffa (1916, promenade landmark); White Mosque (Al-Abyad) Nazareth; Sea of Galilee shared sacred geography; halal food by neighbourhood (Muslim Quarter, Jaffa Yefet St, Nazareth old market, Akko); prayer logistics (qibla SE ~150-160°, mosque locations by city); Ramadan: iftar atmosphere Damascus Gate + Al-Wad St, final 10 days access warning, year-shift link to islamicfinder.org; Ben Gurion security: neutral professional framing; Muslim pilgrim vs cultural tourism split; planning section (when to go, how long, currency, dress code).
+**Honesty:** Al-Aqsa/Haram al-Sharif access never guaranteed; Dome of the Rock interior not described (not open to non-Muslims); Hebron excluded per PROJECT.md; halal framed as "Arab-owned restaurants typically halal" without blanket certification claim; Ramadan dates link-only with explicit year-shift note.
+**CTAs:** GYG Jerusalem Islamic heritage tour (priceFrom ₪45, rating 4.8) + Viator Old City Walking Tour (priceFrom ₪35, rating 4.8) + Booking.com Old City Jerusalem hotels. Cross-link added from holy-sites-dress-code-etiquette.md footer.
+**Title:** "Israel for Muslim Travelers: Complete Travel Guide (2026)" — 57 chars ✓. **Description:** 150 chars ✓.
+Next: iter 447 → BUILD (seo-content; 447%5==2). Top P2 seo-content item from BACKLOG.
