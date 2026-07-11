@@ -7435,3 +7435,14 @@ Link check: /israeli-passport-stamp not yet built — fixed to /visa-information
 Tests: smoke +1, a11y +1.
 Gate: 0 check errors · 685 pages (+1) · 973/973 e2e+a11y pass. GREEN.
 Merge: squash-merged to master SHA ea5520f, pushed 2026-07-11T09:47Z. Lighthouse: success. CI in_progress at state-write time.
+
+## 2026-07-11T11:05Z · iter 453 · BUILD (tools) · israel-itinerary-checker
+What: /israel-itinerary-checker — Israel itinerary feasibility checker tool.
+Mode: BUILD (453%5==3 → tools). Tools backlog item added in iter445 research. Confirmed SEO gap: no competitor site has a dedicated itinerary feasibility checker for Israel.
+Tool: Vanilla-JS island. Day slider 3–21 + 8 destination checkboxes (Jerusalem, Tel Aviv/Jaffa, Dead Sea, Galilee, Golan Heights, Negev/Eilat, Haifa/Akko, Caesarea). Logic: sum min-days per region (Jerusalem 2, TLV 2, Dead Sea 1, Galilee 2, Golan 2, Negev 2, Haifa 1, Caesarea 0.5) + 0.5 day per region-hop (sorted adjacency list). Feasible (✅) or needs-more-days (⚠️) verdict + proportional day allocation bars + tailored suggestions (cut a region, extend stay, combine corridors, hire guide). Affiliate CTAs: GYG Jerusalem/Galilee/Negev + Booking.com + DiscoverCars (for car-heavy routes). Cross-links: israel-5-vs-7-vs-10-days, 7-day/14-day itineraries, distance calculator, region quiz, build-your-trip.
+Honesty: framed as "general guidance based on typical traveller pace"; shabbat caveat link.
+i18n: tool.itineraryChecker added for EN/FR/DE.
+Bug fix before gate: broke internal link (/traveling-with-kids-shabbat-guide → fixed to /shabbat-guide). Re-ran build + all tests.
+Tests: smoke +1 (/israel-itinerary-checker), a11y +1, tools +6 (render, error-on-empty, 7-day feasible, 3-day-over-booked, link-to-5-7-10-days, reset, plan-your-trip wiring).
+Gate: 0 check errors · 686 pages (+1) · 982/982 e2e+a11y pass. GREEN.
+Merge: squash-merged to master SHA ac4f456, pushed 2026-07-11T11:02Z. CI in_progress at state-write time.

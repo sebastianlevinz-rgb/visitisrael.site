@@ -902,3 +902,8 @@ Interactive best-time-to-visit season picker (P2/M tools). 8 interest chips (Bea
 **Israel and Egypt Combined Trip Guide** (/israel-egypt-guide)
 Category: seo-content+monetization · Effort: M
 Value: Fills confirmed gap (touristisrael.com/visit-cairo-egypt-israel ranks; we had no combined-trip guide). Distinct from existing israel-vs-egypt.md (comparison) — covers HOW to combine both. Taba border procedure, South Sinai coastal option (Dahab/Sharm/Ras Mohammed), Cairo/Pyramids extension, 10-day and 14-day sample itineraries, 3-country triangle. 6 FAQs. 3 CTAs (TourRadar, Viator, GYG). Cross-linked from border-crossings, eilat-travel-guide, petra-from-israel, israel-vs-egypt. 685 pages (+1). 973/973 tests pass.
+
+## iter 453 · 2026-07-11 · ac4f456
+**Israel Itinerary Feasibility Checker** (/israel-itinerary-checker)
+Category: tools · Effort: S
+Value: Interactive tool capturing "is my Israel itinerary realistic?" high-intent planning moment. Day slider (3–21) + 8 destination checkboxes; JS logic sums min-days per region + transit hops. Feasible/over-booked verdict + day allocation + suggestions. Cross-links to 5-7-10 days guide, itineraries, distance calculator, build-your-trip. 686 pages (+1). 982/982 tests pass.
