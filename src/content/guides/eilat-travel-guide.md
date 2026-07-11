@@ -157,6 +157,8 @@ The overall hotel tier range in Eilat: budget guesthouses ₪350–600/night; mi
 
 **Wadi Rum, Jordan**: some tours combine Petra and Wadi Rum as a two-day excursion with an overnight in the desert camps. Single-day Wadi Rum-only trips from Eilat are possible but very long. An overnight in the desert is the recommended format if Wadi Rum is on your list.
 
+**Egypt via Taba**: the Egypt border crossing at Taba is 9 km south of Eilat city centre — a short taxi ride. Most travellers use it for 2–4 nights on the South Sinai coast (Dahab, Sharm el-Sheikh) or, with more time, as a gateway to Cairo and the Pyramids. See our [Israel and Egypt combined trip guide](/israel-egypt-guide) for crossing logistics, itinerary options and current safety context.
+
 **Red Canyon**: the most accessible desert hike from Eilat — a free slot canyon 20 km northwest on Highway 12 with narrow passages, metal ladder descents and iron-oxide sandstone walls glowing red-orange. The 2 km circuit takes under 2 hours. [Full Red Canyon visitor guide](/red-canyon-eilat) covering the trail, flash flood safety, and how to combine it with Timna Park.
 
 **Hai Bar Yotvata Nature Reserve**: 35 km north of Eilat on Highway 90, this INPA biblical wildlife breeding centre houses white oryx, onager (Asiatic wild ass) and ostriches in a self-drive open-range section. A separate guided nocturnal tour covers caracal, sand cat and leopard-cat. In spring 2026, 33 white oryx calves and a rare scimitar oryx were born here — the largest breeding cohort in the reserve's history. INPA pass valid; car required. [Full Hai Bar Yotvata visitor guide](/hai-bar-yotvata-guide).

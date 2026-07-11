@@ -349,6 +349,7 @@ const ROUTES = [
   '/israel-for-german-travelers',
   '/muslim-travel-israel',
   '/israel-season-picker',
+  '/israel-egypt-guide',
 ];
 
 for (const route of ROUTES) {

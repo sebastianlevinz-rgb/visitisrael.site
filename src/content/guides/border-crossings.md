@@ -25,7 +25,7 @@ Israel shares land crossings with **Jordan** (three) and **Egypt** (one), openin
 
 ## The Egypt crossing
 
-**Taba (South, by Eilat).** A short hop from Eilat into the **Sinai Peninsula** — Taba, Nuweiba, Dahab and Sharm el-Sheikh. Depending on your nationality and how far into Egypt you plan to go, you may be eligible for a free **Sinai-only entry permit** or need a full Egyptian visa. Check the current rules and your government's Sinai travel advice before committing.
+**Taba (South, by Eilat).** A short hop from Eilat into the **Sinai Peninsula** — Taba, Nuweiba, Dahab and Sharm el-Sheikh. Depending on your nationality and how far into Egypt you plan to go, you may be eligible for a free **Sinai-only entry permit** or need a full Egyptian visa. Check the current rules and your government's Sinai travel advice before committing. For full planning detail on combining both countries, see our [Israel and Egypt combined trip guide](/israel-egypt-guide).
 
 ## Practical tips
 

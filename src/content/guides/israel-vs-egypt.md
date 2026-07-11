@@ -154,7 +154,7 @@ See [first time in Israel](/first-time-in-israel) for a practical planning overv
 
 A combined Israel–Egypt itinerary is feasible but requires planning. There are no direct commercial flights between the two countries; the most practical connection is the Eilat–Taba land crossing to the Sinai peninsula, or an indirect flight via a European hub (or via Amman) to Cairo. The standard combined trip inserts a Sinai beach extension at the end of an Israel trip — cross from Eilat to Taba, spend 3–5 days in Dahab or along the coast, then fly from Sharm el-Sheikh to Cairo for the Nile Valley leg. Budget a minimum of 3 weeks for a combined trip that gives both countries adequate time.
 
-Most travellers with 10–14 days are better served by focusing on one country and seeing it well, rather than rushing both.
+Most travellers with 10–14 days are better served by focusing on one country and seeing it well, rather than rushing both. If you have decided to do both, see our detailed [Israel and Egypt combined trip guide](/israel-egypt-guide) for the Taba crossing logistics, sample itineraries and current safety notes.
 
 ---
 
