@@ -917,3 +917,8 @@ Value: High-intent comparison page targeting "Dead Sea day trip from Jerusalem" 
 **Jordan River Kayaking Guide** (/israel-kayaking)
 Category: seo-content+monetization · Effort: S
 Value: First editorial Jordan River kayaking guide on site; targets "Jordan River kayaking Israel" + "kayaking Kfar Blum guide" (peak season July = maximum timely relevance). Kfar Blum vs HaGoshrim operator comparison, route breakdown table, seasonal guide (Apr–Sep), clear Upper vs Lower Jordan distinction (honesty), 3 CTAs (GYG/Viator/Booking). Cross-links in israel-adventure-sports + water-hiking-israel. 688 pages (+1). 986/986 tests pass.
+
+## iter 458 · 2026-07-11 · 4044dcd
+**Israel Tourist Visa Extension Guide** (/israel-visa-extension)
+Category: seo-content · Effort: S
+Value: High-intent guide for tourists wanting to extend beyond the 90-day authorized stay. Covers the full Population Authority process, required documents, fees (₪200–₪300), border-run risks, and longer-term pathways (ulpan, MASA, Aliyah). No competitor Israel travel site has a standalone dedicated extension guide. Cross-links from visa-information.md + israel-after-birthright.md. 689 pages (+1). 988/988 tests pass.

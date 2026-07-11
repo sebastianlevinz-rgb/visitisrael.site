@@ -7489,3 +7489,17 @@ Gate: 0 check errors · 688 pages (+1) · 986/986 e2e+a11y pass. GREEN.
 Merge: committed to master SHA c12e3b7, pushed 2026-07-11T14:45Z. CI in_progress at push time.
 Note: origin/auto/israel-vs-cyprus stale branch (iters 408–410 diverged history) could not be deleted — git push origin --delete returned HTTP 403. Branch left in place; harmless (master has superseded).
 Next: iter 458 → BUILD (tools). Top P2 tools items from backlog.
+
+## 2026-07-11T16:00Z · iter 458 · BUILD (seo-content, tools fallthrough) · /israel-visa-extension
+
+Mode: BUILD — tools rotation; no unshipped tools items in backlog → fell through to seo-content (playbook §2).
+Item: P2 (seo-content, S) Israel tourist visa extension guide (/israel-visa-extension) — iter175 research.
+
+Content: Population Authority extension process (Misrad HaPnim); required documents table (passport, ETA-IL, entry slip, bank statements, onward booking, supporting letter); fees ₪200–₪300; timing advice (apply 2–3 weeks before expiry); who qualifies; step-by-step process (book appointment, gather docs, pay fee, wait); "border run" strategy explained with risks (officer discretion, repeated-entry risk, no legal prohibition but not officially sanctioned); longer-term pathways (ulpan, MASA Israel, Aliyah, recognized volunteer programs); post-Birthright section pointing to israel-after-birthright.md; official contacts (piba.gov.il, iaa.gov.il, masaisrael.org).
+Honesty: extension is not guaranteed — officer discretion emphasized throughout; border-run clearly framed as legal gray area; no overstay advice; "informational only, not legal advice" footer.
+Affiliate CTAs: Booking.com extended-stay apartments/hotels, DiscoverCars long-term car rental.
+Cross-links: visa-information.md (extending-your-stay section updated with direct link + Population Authority mention); israel-after-birthright.md (visa/entry block updated with extension guide link).
+Tests: smoke +1 (/israel-visa-extension after /israel-kayaking), a11y +1 (same position). 988 total.
+Gate: 0 check errors · 689 pages (+1) · 988/988 e2e+a11y pass. GREEN.
+Merge: committed to master SHA 4044dcd, pushed 2026-07-11T16:00Z.
+Next: iter 459 → REVIEW (459%5==4).
