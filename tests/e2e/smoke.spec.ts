@@ -351,6 +351,7 @@ const ROUTES = [
   '/3-days-in-eilat',
   '/3-days-in-haifa',
   '/3-days-in-negev',
+  '/3-days-in-galilee',
   '/birdwatching-in-israel',
   '/museum-of-tolerance-jerusalem',
   '/northern-israel-road-trip',

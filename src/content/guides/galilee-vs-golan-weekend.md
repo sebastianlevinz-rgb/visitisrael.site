@@ -78,7 +78,7 @@ From Tiberias, the drive to Katzrin takes about 35–40 minutes. There is no geo
 3. **Day 3** — Drive north through the Jordan River valley to the Golan; Banias waterfall, Mount Bental, Druze lunch in Majdal Shams; overnight in Katzrin or a kibbutz tzimmer
 4. **Day 4** — Nimrod Fortress in the morning; Golan Heights Winery tasting; drive south
 
-See the [Galilee tours compared](/galilee-tours-compared) page for organised group options, or the [transportation guide](/transportation) for the full overland logistics of a self-drive northern loop.
+See the [Galilee tours compared](/galilee-tours-compared) page for organised group options, the [3 days in Galilee itinerary](/3-days-in-galilee) for a structured Galilee-only plan, or the [transportation guide](/transportation) for the full overland logistics of a self-drive northern loop.
 
 ## Bases and getting there
 

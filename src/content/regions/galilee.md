@@ -138,7 +138,7 @@ The practical options are:
 - **Egged direct bus** — Tel Aviv Central Bus Station to Tiberias, around 2.5 hours. Workable for travellers basing in Tiberias for two or three days who plan to use lakeside hotel shuttles or organised tours for the pilgrim sites.
 - **Organised day tour** — several Tel Aviv tour operators run hotel-pickup day trips to the Galilee Christian sites. Useful for travellers who do not want to drive but can only spare one day for the region.
 
-For a complete breakdown of all four shores of the lake — west (Magdala, Ginosar), north (Capernaum, Tabgha, Mount of Beatitudes), east (Ein Gev, Kursi), and south (Yardenit, Hamat Gader) — with beaches, cycling and overnight recommendations, see the [Sea of Galilee complete guide](/sea-of-galilee-guide). For lake boat tours and the Kinneret crossing, see the [Sea of Galilee boat tours guide](/sea-of-galilee-boat-tour).
+For a complete breakdown of all four shores of the lake — west (Magdala, Ginosar), north (Capernaum, Tabgha, Mount of Beatitudes), east (Ein Gev, Kursi), and south (Yardenit, Hamat Gader) — with beaches, cycling and overnight recommendations, see the [Sea of Galilee complete guide](/sea-of-galilee-guide). For lake boat tours and the Kinneret crossing, see the [Sea of Galilee boat tours guide](/sea-of-galilee-boat-tour). If you have three days and want a structured day-by-day itinerary covering Nazareth, the Christian shore circuit and Mount Arbel, see the [3 days in Galilee itinerary](/3-days-in-galilee).
 
 ## Where to Eat in the Galilee
 
