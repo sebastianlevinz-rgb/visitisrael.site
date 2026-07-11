@@ -38,4 +38,6 @@ You're dedicating several days to Jordan. Petra then sits within a richer loop �
 
 On an Israel trip, **go from Eilat** — ideally as an overnight. On a Jordan trip, base around **Amman/Petra** and give the site the time it deserves. Either way, build in buffer for border formalities and start with our [Eilat guide](/eilat).
 
+If you're going from Eilat and want to add **Wadi Rum** to your Petra trip, see our [Petra & Wadi Rum from Eilat guide](/petra-wadi-rum-from-eilat) — it maps out 2-day and 3-day itineraries and compares packages against DIY costs.
+
 For a full breakdown of what to book in Eilat beyond Petra — Red Sea snorkeling, desert jeep safaris, Dolphin Reef — see our [Eilat tours compared guide](/eilat-tours-compared).

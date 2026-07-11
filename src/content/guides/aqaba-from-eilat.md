@@ -123,4 +123,4 @@ The honest answer is that both are world-class Red Sea sites and the difference 
 
 ---
 
-For more Eilat excursion options: [Day trips from Eilat](/day-trips-from-eilat) • [Eilat tours compared](/eilat-tours-compared) • [Petra from Eilat vs Amman](/petra-from-eilat-vs-amman) • [Israel border crossings guide](/border-crossings) • [Eilat travel guide](/eilat-travel-guide)
+For more Eilat excursion options: [Day trips from Eilat](/day-trips-from-eilat) • [Eilat tours compared](/eilat-tours-compared) • [Petra from Eilat vs Amman](/petra-from-eilat-vs-amman) • [Petra & Wadi Rum from Eilat — 2 & 3 day guides](/petra-wadi-rum-from-eilat) • [Israel border crossings guide](/border-crossings) • [Eilat travel guide](/eilat-travel-guide)

@@ -41,7 +41,7 @@ faqs:
 
 Israel and Jordan together make one of the great travel combinations in the world. The two countries share a long land border, two open crossing points, and a density of historic, spiritual and natural attractions that few regions on earth match. This 10-day itinerary threads the highlights into a logical route: beginning in Jerusalem, passing the Dead Sea and Masada on the way south, crossing into Jordan at Eilat, then working northward through Petra, Wadi Rum and Amman before returning to Israel via the Allenby Bridge.
 
-If you are only looking for a single-day Petra excursion from Israel, see our [Petra from Israel guide](/petra-from-israel) and the [Petra from Eilat vs Amman comparison](/petra-from-eilat-vs-amman) instead. This itinerary is for travellers who want to give both countries proper time.
+If you are only looking for a single-day Petra excursion from Israel, see our [Petra from Israel guide](/petra-from-israel) and the [Petra from Eilat vs Amman comparison](/petra-from-eilat-vs-amman) instead. For a focused 2- or 3-day Petra and Wadi Rum trip from Eilat without the full 10-day itinerary, see our [Petra & Wadi Rum from Eilat guide](/petra-wadi-rum-from-eilat). This itinerary is for travellers who want to give both countries proper time.
 
 ## At a glance
 

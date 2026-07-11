@@ -535,6 +535,7 @@ const ROUTES = [
   '/how-to-hire-licensed-tour-guide-israel',
   '/dead-sea-day-trip-comparison',
   '/israel-small-group-tours',
+  '/petra-wadi-rum-from-eilat',
 ];
 
 for (const route of ROUTES) {
