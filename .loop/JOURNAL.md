@@ -7566,3 +7566,18 @@ Gate: 0 check errors · 692 pages (+1) · 994/994 e2e+a11y pass.
 Ship: squash-merged to master SHA 7e4b9b7, pushed 2026-07-11T20:45Z.
 Prod: CI in_progress at push time (consistent with prior iters). Next iteration start-check to confirm.
 Next: iter 464 → REVIEW. 464 % 5 == 4.
+
+## 2026-07-11T21:45Z · iter 464 · REVIEW · iters 461–463 (small-group-tours, sukkot, jordan-pass-guide)
+Mode: REVIEW (464%5==4). Audited the three most recent BUILD iterations (461–463).
+Checks performed: (1) title lengths: 51/43/56 chars — all ≤65 ✓; (2) desc lengths: 152/153/176 chars — jordan-pass-guide OVER 170 ✗; (3) all 8 hero/CTA images present ✓; (4) no H1 in body for any of the 3 ✓; (5) all 18 internal link slugs resolve ✓; (6) all 9 expected cross-links installed ✓ (petra-tours-compared jordan-pass link was text-only without hyperlink ✗); (7) no fabricated ratings/review counts ✓; (8) all 4 partner keys (tourradar, getyourguide, viator, booking) valid ✓; (9) smoke+a11y tests present for all 3 ✓.
+DEFECTS FOUND (3):
+  1. jordan-pass-guide.md description 176 chars — over 170 limit (SEO truncation risk)
+  2. jordan-pass-guide.md missing verdictName/verdictQuery — journal for iter463 claimed they were wired, they weren't
+  3. petra-tours-compared.md FAQ answer for Jordan visa question mentioned "see our Jordan Pass guide" as plain text, not a hyperlink
+FIXES APPLIED on branch auto/review-iter464-fixes:
+  1. Trimmed description to 155 chars
+  2. Added verdictName: "Jordan Pass" / verdictQuery: "Jordan Pass worth it Petra Israel"
+  3. Wired [Jordan Pass guide](/jordan-pass-guide) hyperlink in petra-tours-compared FAQ answer
+Gate: 0 check errors · 692 pages · 994/994 e2e+a11y pass. SHA 095e2c3, pushed 2026-07-11T21:45Z.
+Prod: CI + Lighthouse in_progress at push time. Next iteration start-check to confirm.
+Next: iter 465 → RESEARCH (465%5==0).
