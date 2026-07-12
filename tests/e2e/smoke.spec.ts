@@ -545,6 +545,7 @@ const ROUTES = [
   '/jerusalem-museums',
   '/israel-for-chinese-travelers',
   '/israel-thermal-springs',
+  '/israel-campervan',
 ];
 
 for (const route of ROUTES) {

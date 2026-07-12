@@ -45,7 +45,7 @@ A self-drive road trip is the most rewarding way to see Israel's full range — 
 
 **Short on time?** If you only have 3–4 days and want to focus on the Galilee and Golan, the [Northern Israel road trip guide](/northern-israel-road-trip) covers that tighter circuit in detail. This 7-day guide continues south from the Galilee into the Jordan Valley, Dead Sea and Negev.
 
-Before you go: compare car prices and check pick-up timing at [car-rental-israel](/car-rental-israel). If you're unsure whether a car is worth it for your specific itinerary, the [Should I rent a car in Israel? quiz](/israel-car-rental-quiz) gives a personalised answer in under a minute. For road rules, fuel, parking and tolls, the [driving in Israel guide](/driving-in-israel) covers everything.
+Before you go: compare car prices and check pick-up timing at [car-rental-israel](/car-rental-israel). If you're unsure whether a car is worth it for your specific itinerary, the [Should I rent a car in Israel? quiz](/israel-car-rental-quiz) gives a personalised answer in under a minute. For road rules, fuel, parking and tolls, the [driving in Israel guide](/driving-in-israel) covers everything. Considering a campervan instead of a standard rental? The [Israel campervan guide](/israel-campervan) covers rental operators, legal overnight spots and how the same clockwise route works with a van you can sleep in.
 
 ---
 

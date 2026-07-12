@@ -35,7 +35,7 @@ faqs:
 
 Israel's glamping scene has grown quickly over the past decade — driven by Israelis who love the outdoors but also love a proper bed, and by a growing wave of international visitors who want the Negev desert experience without sleeping on the ground. The result is a collection of tented camps, geodesic dome eco-lodges and crater-rim eco-cabins spread across the Negev desert, the Arava Valley and the Sea of Galilee that genuinely deliver on the promise: wild landscape, real comfort, and in the Negev, the darkest skies in the Middle East.
 
-This guide covers the main glamping destinations and sites in Israel, what to expect at each, and the practical details that will actually affect your stay.
+This guide covers the main glamping destinations and sites in Israel, what to expect at each, and the practical details that will actually affect your stay. If you'd prefer to move between locations each night with your own bed in the back, the [Israel campervan guide](/israel-campervan) covers van rental, legal overnight stops at INPA campsites and a full 7-day campervan route covering the Galilee, Golan and Negev.
 
 ---
 
