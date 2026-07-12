@@ -7678,3 +7678,26 @@ Gate: 0 check errors · 698 pages · 1003/1003 e2e+a11y pass.
 Ship: squash-merged to master SHA 25c5aa7, pushed 2026-07-12T11:30Z.
 Prod: CI in_progress at push time. Next iteration start-check to confirm.
 Next: iter 475 → RESEARCH. 475 % 5 == 0.
+
+## 2026-07-12T13:15Z · iter 475 · RESEARCH · saturation check — 2 net-new (jerusalem-design-week, midbarium)
+What: RESEARCH iteration (475%5==0). Investigated competitor and topic gaps across 16 search queries to find net-new BACKLOG items. Saturation remains extremely high after 95 prior research iterations.
+
+Topics investigated and disposition:
+- Motorcycle touring → BACKLOG iter340 confirmed (P3/S) — SKIP
+- Golf in Israel → BACKLOG iter290 confirmed (P3/S) — SKIP
+- Campervan/motorhome → BACKLOG iter350 confirmed (P2/M) — SKIP
+- Lag Ba'Omer → BACKLOG iter265 confirmed (P3/S) — SKIP
+- Jerusalem Design Week → CONFIRMED NET-NEW (see below)
+- Tel Aviv Design/Fashion Week → no established regular annual event at JDW scale; Tel Aviv Biennale of Crafts is biennial (Eretz Israel Museum) — deferred (insufficient SEO mass for standalone guide)
+- Israel wellness spa retreats → SHIPPED iter263 (/israel-wellness-spa) — SKIP
+- Israel music festivals → BACKLOG iter110 (/israel-music-festivals P2/S) + iter225 (/israel-music-guide P3/S) + iter235 (Midburn/InDNegev/Israel Festival Jerusalem P3/S each) — all confirmed — SKIP
+- New 2025/2026 attractions sweep → Museum of Tolerance Jerusalem → SHIPPED iter396 — SKIP; Midbarium Desert Animal Park → CONFIRMED NET-NEW (see below)
+- Israel EV road trip → too niche; motorhome/campervan (iter350) partially overlaps; deferred
+
+KEY FINDING 1 — Jerusalem Design Week (/jerusalem-design-week): grep for "jerusalem.*design.*week", "hansen.*house", "jlmdesignweek" across BACKLOG.md + DONE.md returns ZERO matches. Annual 8-day free public design festival at Hansen House (German Colony, Jerusalem); Israel's largest public cultural event in design; 15+ year established tradition; 2026 dates July 9–16 (currently running); itraveljerusalem.com, touristisrael.com, travelpulse.com all cover it; zero guide on our site. Strong summer-Jerusalem angle; free event = high foot-traffic + tourist discovery intent.
+
+KEY FINDING 2 — Midbarium Beersheba (/midbarium-beersheba-guide): grep for "midbarium", "negev zoo", "beersheba.*animal.*park" across BACKLOG.md + DONE.md returns ZERO matches. New (2024) interactive desert animal park in Beer Sheva; replaced demolished Negev Zoo; Jack/Joseph/Morton Mandel Animal Park; 37 acres; 100+ species including 3 rare white lions; 15 interactive physical experiences; JPost + israel-in-photos.com cover it; zero page on our site. Natural companion to beer-sheva-guide (P3 BACKLOG). Family-friendly monetization angle.
+
+2 net-new items added to BACKLOG: jerusalem-design-week (P3, S, seo-content), midbarium-beersheba-guide (P3, S, seo-content).
+No code shipped. BACKLOG/STATE/JOURNAL updated and committed.
+Next: iter 476 → BUILD (monetization). 476 % 5 == 1.
