@@ -75,7 +75,7 @@ The **[City of David](/jerusalem/city-of-david)**, the original settlement of an
 
 ### ANU — Museum of the Jewish People
 
-**ANU** (formerly Beit Hatfutsot / Museum of the Jewish People), on the Tel Aviv University campus, traces 4,000 years of Jewish civilization across all continents. The permanent galleries include a global diaspora map, family-tree research database, historic synagogue models and a changing exhibition programme. Paid admission; metro access from central Tel Aviv. It is the largest and most comprehensive Jewish diaspora museum in the world.
+**ANU** (formerly Beit Hatfutsot / Museum of the Jewish People), on the Tel Aviv University campus, traces 4,000 years of Jewish civilization across all continents. The permanent galleries include a global diaspora map, family-tree research database, historic synagogue models and a changing exhibition programme. Paid admission; metro access from central Tel Aviv. It is the largest and most comprehensive Jewish diaspora museum in the world. The museum also houses the **Douglas E. Goldman Jewish Genealogy Center**, which offers free in-person research consultations (pre-booking required) — see our dedicated [Jewish genealogy research guide](/jewish-genealogy-israel-trip) for how to prepare and what to expect.
 
 ### Ben Gurion House and the White City
 

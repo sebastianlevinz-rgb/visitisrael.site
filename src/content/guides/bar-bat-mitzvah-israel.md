@@ -137,7 +137,7 @@ The following structure is a starting point. The pace is designed for a multigen
 
 **Day 9:** Drive from Galilee to Tel Aviv via Caesarea (Roman-era harbor city — the aqueduct and theater are extraordinary for grandparents and teenagers alike; quick stop). Arrive Tel Aviv.
 
-**Day 10:** [Tel Aviv](/tel-aviv) — ANU Museum of the Jewish People (the most comprehensive Jewish diaspora museum in the world; relevant for grandparents who remember communities that no longer exist, and for the bar/bat mitzvah child who has just completed a heritage circuit of the country), Jaffa port walk, afternoon beach time.
+**Day 10:** [Tel Aviv](/tel-aviv) — ANU Museum of the Jewish People (the most comprehensive Jewish diaspora museum in the world; relevant for grandparents who remember communities that no longer exist, and for the bar/bat mitzvah child who has just completed a heritage circuit of the country). The ANU also houses a free **genealogy research center** — if grandparents want to pre-book a consultation to trace family roots, see our [Jewish genealogy research guide](/jewish-genealogy-israel-trip). Jaffa port walk, afternoon beach time.
 
 **Day 11:** Depending on flight time — Rothschild Boulevard White City walk, Carmel Market, or free morning. Transfer to Ben Gurion Airport (allow 3 hours before international departure; 2.5 hours minimum).
 
