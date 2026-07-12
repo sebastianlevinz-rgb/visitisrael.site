@@ -123,6 +123,7 @@ The surrounding **Ein Gedi Nature Reserve** — with its year-round spring-fed s
 | --- | --- | --- | --- |
 | Ein Bokek (Dead Sea) | Hypersaline mineral | Full spa resort; float + mud + treatments | Masada 25 min, Ein Gedi 20 min |
 | Kalia Beach (Dead Sea) | Hypersaline mineral | Day trip; budget float experience | Jerusalem 45 min |
+| Hamat Gader | Sulphur mineral hot spring | Roman ruins + alligator park + thermal resort | Tiberias 45 min; Golan sites 30 min |
 | Hamat Tiberias | Sulphur mineral hot spring | Historic thermal bathing + archaeology | Tiberias centre 2 km; Sea of Galilee |
 | Ein Gedi Kibbutz | Sulphur hot spring | Rural retreat; combines with nature reserve | Masada 30 min, Ein Bokek 20 min |
 | Akko Hammam | Steam bath (traditional) | Ottoman heritage experience | Akko Old City; day trip from Haifa |
@@ -132,7 +133,7 @@ The surrounding **Ein Gedi Nature Reserve** — with its year-round spring-fed s
 
 ## Planning tips
 
-**Combine wellness with sightseeing.** The Dead Sea corridor packs easily with [Masada](/masada-visitor-guide) (30 min from Ein Bokek), the [Ein Gedi Nature Reserve](/ein-gedi-guide) (20 min), and the drive along Route 90 through dramatic desert scenery. A 2-night Dead Sea stay with Masada on day one and spa on day two is one of the most efficient Israel itinerary structures.
+**Combine wellness with sightseeing.** The Dead Sea corridor packs easily with [Masada](/masada-visitor-guide) (30 min from Ein Bokek), the [Ein Gedi Nature Reserve](/ein-gedi-guide) (20 min), and the drive along Route 90 through dramatic desert scenery. A 2-night Dead Sea stay with Masada on day one and spa on day two is one of the most efficient Israel itinerary structures. For the Golan thermal option, see the dedicated [Hamat Gader & Israel thermal springs guide](/israel-thermal-springs) — it covers the Roman ruins, alligator park, and multi-temperature pool complex at the southern Golan's premier hot-spring resort.
 
 **Book spa treatments in advance.** Ein Bokek spa hotels can fill their treatment slots weeks ahead during Passover, Sukkot and summer school holidays. Day-pass availability also tightens in peak periods. For hammam operators, advance booking is typically required regardless of season.
 
