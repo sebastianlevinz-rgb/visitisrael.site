@@ -7800,3 +7800,20 @@ Key findings:
 
 No code changed. No gate run. No ship (RESEARCH mode).
 Next: iter 486 → BUILD (monetization). 486 % 5 == 1.
+
+## 2026-07-12 · iter 486 · BUILD (monetization) · timna-park-guide
+What: New /timna-park-guide — Timna Park complete visitor guide (P2/M seo-content+monetization, iter120 research).
+Solomon's Pillars + Egyptian Temple of Hathor, Mushroom Rock, Ancient Copper Mine Trail (4km loop),
+Timna Lake (kayaking + Tabernacle replica), stargazing programme (Nov–Mar). Quick reference table,
+combining with Red Canyon + Hai-Bar Yotvata + Eilat diving. 6 FAQs.
+3 affiliate CTAs: discovercars (car hire essential — no public transport), getyourguide (jeep/desert tours),
+viator (Eilat desert day trips). verdictName + verdictQuery wired.
+Corrections shipped: eilat-travel-guide.md + day-trips-from-eilat.md both incorrectly stated Israel National
+Parks Pass covers Timna — INPA pass does NOT cover Timna (independently managed by Timna Valley Park
+Authority). Fixed in both guides + corrected price from ₪60–80 to ₪35–45.
+Cross-links: /eilat-travel-guide, /day-trips-from-eilat, /red-canyon-eilat, /hai-bar-yotvata-guide,
+/south-israel-itinerary, /car-rental-israel, /petra-from-eilat-vs-amman, /eilat-diving-snorkeling.
+Smoke test: /timna-park-guide added to smoke.spec.ts routes array.
+Gate: pnpm check 0 errors | pnpm build 705 pages (+1) | pnpm test:e2e 1012/1012 pass.
+Ship: squash-merged auto/timna-park-guide → master, SHA 5a61424, pushed. Branch deleted.
+Next: iter 487 → BUILD (seo-content). 487 % 5 == 2.
