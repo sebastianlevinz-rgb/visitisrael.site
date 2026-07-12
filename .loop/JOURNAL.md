@@ -7741,3 +7741,21 @@ Result: NO-SHIP (research pass). 3 net-new items confirmed and added to BACKLOG:
   3. /emmaus-trail-guide (P3/S, seo-content+monetization) — 20km Judean Hills pilgrimage trail Abu Ghosh→Emmaus Nicopolis; saxum.org official; distinct from Jesus Trail (Galilee 65km, separate BL P2)
 30+ candidates checked and confirmed already in BACKLOG or DONE (inc. israel-road-trip-with-kids P2, israel-solo-travel-over-50 P2, bahai-world-center-guide P2, new-years-eve-israel P3, israel-camping-guide P3, tel-aviv-budget-guide P3, etc.).
 COMPETITORS.md updated. STATE.md bumped to iter480. Next: iter481 → BUILD (monetization).
+
+## 2026-07-12T19:00Z · iter 481 · BUILD (monetization) · israel-thermal-springs
+
+Mode: BUILD (monetization). 481 % 5 == 1.
+Item selected: [P2] (seo-content+monetization, S) Hamat Gader hot springs & Israel thermal springs guide (/israel-thermal-springs) — from iter110 research; status: ready.
+Selection rationale: P2 priority, S effort (fits single iteration), clear monetization via hotel + car hire CTAs, zero existing standalone thermal springs guide confirmed via grep of src/content/guides/ + DONE.md. Distinct from israel-wellness-spa.md (covers Dead Sea/Hamat Tiberias/hammam/Ein Gedi but NOT Hamat Gader resort complex with Roman ruins + alligator park).
+
+What: new guide /israel-thermal-springs. Hamat Gader & Israel thermal springs complete visitor guide.
+Content: Hamat Gader (location in Golan Heights at Yarmouk River gorge Syria-Jordan-Israel tripoint; Route 98 off Road 888; 38–45°C natural mineral pool zones; Roman-era bath ruins alongside pools; alligator/crocodile park; Shabbat closure Fri ~3pm–Sat night; INPA Pass NOT valid — private operator; day pass range ₪80–150, link hamtgader.co.il for current rates; arrival tip: early on holidays; 2h from TLV, 45 min from Tiberias); Hamat Tiberias (2km south of Tiberias centre; Hamat Tiberias National Park: volcanic mineral springs + 4th-century Byzantine mosaic floor zodiac wheel; thermal pool complex has own pricing separate from INPA archaeological sections; link parks.org.il + hamat-tiberias.co.il); Ein Gedi sulphur spring (Kibbutz Ein Gedi Hotel; cross-link to ein-gedi-guide + israel-wellness-spa); comparison table (4 thermal/wellness destinations: Hamat Gader, Hamat Tiberias, Ein Gedi Kibbutz, Ein Bokek Dead Sea); planning tips (combine with Golan circuit / Tiberias / Galilee; winter = best season outdoor pools; Shabbat schedule awareness; car essential for Hamat Gader; seasonal pool temperature variations).
+Honesty: price ranges only (₪80–150 estimate range + official site links); no therapeutic claims beyond "mineral-rich spring water"; Golan Heights location links to is-israel-safe for current area safety context; INPA Pass NOT valid at Hamat Gader (private site) — explicitly clarified.
+Affiliate CTAs: Booking.com (Tiberias spa hotels, destination filter), DiscoverCars (Galilee/Golan car hire, query param), GetYourGuide (Galilee day tours, query param).
+verdictName: 'a day at Hamat Gader thermal springs' / verdictQuery: 'Hamat Gader hot springs tour Israel Golan'.
+Cross-links installed: israel-wellness-spa.md — new Hamat Gader row added to comparison table + "Golan thermal option" planning tip with link. Footer.astro — new li after israel-wellness-spa link. Smoke test route /israel-thermal-springs added (was 1008, now 1009/1009).
+SEO targets: "Hamat Gader hot springs", "Israel thermal springs guide", "spa Israel Tiberias", "hot springs Golan Heights".
+
+Gate: pnpm check 0 errors | pnpm build 702 pages (+1 from 701) ✓ | pnpm test:e2e 1009/1009 ✓ GREEN.
+SHA: d5675dc. Pushed to origin/master; CI in_progress at commit time (run #29204556000).
+Next: iter 482 → BUILD (seo-content). 482 % 5 == 2.

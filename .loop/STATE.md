@@ -1,13 +1,15 @@
 # LOOP STATE
 
-- iteration: 480
-- lastMode: RESEARCH — saturation check iter480; 3 net-new items
-- lastItem: research-saturation-check-480 — kitesurfing, pregnancy-travel, emmaus-trail
-- lastResult: NO-SHIP (research iteration — no code changes)
-- nextRotationCategory: 481%5==1 → BUILD (monetization). 482%5==2 → BUILD (seo-content). 483%5==3 → BUILD (tools fallthrough → seo-content). 484%5==4 → REVIEW. 485%5==0 → RESEARCH.
+- iteration: 481
+- lastMode: BUILD (monetization)
+- lastItem: israel-thermal-springs — Hamat Gader & Israel thermal springs guide
+- lastResult: SHIPPED d5675dc
+- nextRotationCategory: 482%5==2 → BUILD (seo-content). 483%5==3 → BUILD (tools fallthrough → seo-content). 484%5==4 → REVIEW. 485%5==0 → RESEARCH. 486%5==1 → BUILD (monetization).
 - higgsfieldSpent: 0
-- updatedAt: 2026-07-12T17:30Z
+- updatedAt: 2026-07-12T19:00Z
 - branch context: work on master; feature work on auto/<slug>
+
+Notes: iter481 BUILD (monetization) — /israel-thermal-springs shipped. P2/S seo-content+monetization item (iter110 research). Hamat Gader & Israel thermal springs complete visitor guide. Hamat Gader: 38-45°C mineral pools in multiple temperature zones, Roman-era bath ruins, alligator/crocodile park, Golan Heights location (Route 98 off Road 888). Tiberias hot springs context (Hamat Tiberias National Park — volcanic mineral pools + Byzantine mosaic floor). Ein Gedi sulphur spring cross-link. Comparison table of 4 Israeli thermal/wellness destinations. 3 affiliate CTAs: Booking.com Tiberias spa hotels, DiscoverCars Galilee/Golan car hire, GetYourGuide Galilee day tours. verdictName + verdictQuery wired. Cross-links: israel-wellness-spa (comparison table row + planning tips link), tiberias-guide, northern-israel-road-trip, car-rental-israel, is-israel-safe. Footer link added. Smoke test +1 (1009/1009 pass). SHA d5675dc.
 
 Notes: iter480 RESEARCH — Saturation check after 96 prior research iterations. Backlog extremely saturated (241+ items). 16+ grep/Python checks across BACKLOG+DONE. 3 confirmed net-new items found: (1) /israel-kitesurfing (P3/S, seo-content+monetization) — standalone kite guide; 5 spots (Herzliya Ha Sharon, Haifa Bat Galim/Dado, Tel Aviv/Ashdod, Netanya Poleg, Eilat Red Sea year-round); IKS+KDI schools; distinct from israel-surfing.md (wave surfing) and israel-adventure-sports.md (1-2 sentence mention only); competitor coverage kitejungle.com + unplug-kitesurf.com + globalkitespots.com. (2) /israel-pregnancy-travel (P3/S, seo-content) — traveling to Israel while pregnant; zero matches in BACKLOG+DONE for "pregnant/pregnancy/maternity"; Dead Sea safety, airport security scanners, Israeli healthcare quality, Zika-free status, heat precautions, airline policies; Tripadvisor forum has active demand. (3) /emmaus-trail-guide (P3/S, seo-content+monetization) — 20km pilgrimage hiking route from Saxum Visitor Center (Abu Ghosh) to Emmaus Nicopolis; distinct from Jesus Trail (65km Galilee; separate BACKLOG P2) and israel-national-trail (1,000km INT); competitor coverage saxum.org + biblicalarchaeology.org + israel21c.org. 30+ candidates checked and rejected as already covered.
 
