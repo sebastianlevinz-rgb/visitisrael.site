@@ -1,6 +1,6 @@
 ---
 title: 'Rosh Hanikra Sea Caves: Complete Visitor Guide'
-description: 'Rosh Hanikra guide: chalk cliff sea grottos, cable car, Lebanon border viewpoint, and Ottoman railway tunnel. Practical tips, opening hours, and how to get there.'
+description: 'Rosh Hanikra guide: chalk cliff sea grottos, cable car, Lebanon border viewpoint, Ottoman railway tunnel. Practical tips, opening hours, how to get there.'
 heroImage: /images/regions/akko/hero.jpg
 category: Nature
 updatedAt: 2026-07-12
