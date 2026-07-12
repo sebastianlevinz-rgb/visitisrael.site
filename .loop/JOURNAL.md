@@ -7617,3 +7617,31 @@ Gate: 0 check errors · 695 pages · 998/998 e2e+a11y pass.
 Ship: committed to master SHA 73f91e4, pushed 2026-07-12T02:47Z.
 Prod: CI + Lighthouse in_progress at push time; next iteration start-check to confirm.
 Next: iter 470 → RESEARCH. 470 % 5 == 0.
+
+## 2026-07-12T03:15Z · iter 470 · RESEARCH · Chinese travelers gap analysis + backlog saturation check
+What: RESEARCH iteration (470%5==0). Investigated competitor and topic gaps across 15+ candidate areas to find net-new BACKLOG items. Focus on origin-market traveler guides (continuation of iter455/460 pattern), niche activity guides, and high-traffic seasonal topics. Exhaustive de-duplication against both DONE.md (shipped guides) and BACKLOG.md (queued items) before adding anything.
+
+Topics investigated and disposition:
+- Muslim/halal travel → SHIPPED iter446 (/muslim-travel-israel) — SKIP
+- India travelers → BACKLOG P3/M iter430 — SKIP
+- Vegan/vegetarian Israel → SHIPPED iter242 — SKIP
+- Medical tourism → SHIPPED iter306 (dead-sea-medical-tourism) + general israel-medical-tourism — SKIP
+- Winter travel Israel → BACKLOG P2/S iter420 (israel-in-winter); christmas-in-israel SHIPPED — SKIP
+- Australia/NZ travelers → BACKLOG P3/S iter430 — SKIP
+- German travelers → SHIPPED (israel-for-german-travelers) — SKIP
+- Wine tourism Israel → SHIPPED (israel-wine-wineries); multiple detailed items in BACKLOG — SKIP
+- Canadian travelers → BACKLOG P3/S iter430 — SKIP
+- Passover seder Israel → BACKLOG P2/S iter155 (passover-in-israel) — SKIP
+- Italy travelers → BACKLOG P3/S iter445 — SKIP
+- Spanish travelers → BACKLOG P3/S iter445 — SKIP
+- Dutch travelers → BACKLOG P3/S iter440 — SKIP
+- Timna Park guide → BACKLOG P2/M iter120 — SKIP
+- Taiwan travelers → subsumed by Chinese travelers gap — see below
+
+KEY FINDING — Chinese travelers: grep for "chinese.traveler|china.*israel|chinese.*passport" across BACKLOG.md + DONE.md → ZERO matches. China is world's largest outbound tourism market. Chinese passport holders require B/2 Tourist Visa (NOT ETA-IL eligible) — creates distinct, high-value content gap zero English-language Israel travel site addresses. No iMatch on competitor sites (Lonely Planet, Tourist Israel, Rough Guides) for dedicated Chinese traveler Israel planning guide.
+
+False gaps eliminated (backlog already comprehensive after 93 research iterations): Japan/Korea/Philippines (all iter455), Nordic travelers (iter450), digital nomad (iter30), UNESCO hub (iter125), Mediterranean diving (iter190), wildflowers (iter130).
+
+1 net-new item added to BACKLOG: israel-for-chinese-travelers (P2, M, seo-content+monetization). B/2 visa process, flight routing (Air China/Hainan/Cathay/Turkish), WeChat Pay gap, Mandarin-speaking guide options, group tour fit, Jewish-Chinese cultural parallels, kosher/halal food reality.
+No code shipped. State files updated and committed.
+Next: iter 471 → BUILD (monetization). 471 % 5 == 1.

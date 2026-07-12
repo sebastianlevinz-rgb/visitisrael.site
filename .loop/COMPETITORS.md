@@ -4619,3 +4619,27 @@ nigeria / mexico / argentina / ghana / colombia / kenya origin-market guides.
 
 **5 items added to BACKLOG** (see iter465 section of BACKLOG.md for full format):
 dog-friendly-guide / tel-aviv-layover / archaeology-dig-experience / israel-for-french-travelers / six-senses-shaharut-guide.
+
+## iter470 · 2026-07-12 · Chinese travelers origin-market gap
+
+**Research scope**: Exhaustive saturation check of origin-market traveler guides + niche topics after 93 prior research iterations. Primary focus: Chinese outbound travel market (world's largest outbound market, ~100M+ annual trips).
+
+**Gap confirmed — China outbound travelers:**
+- Lonely Planet Israel: no China-specific traveler guide; only generic visa page
+- Tourist-Israel.com: no China-specific content
+- Rough Guides Israel: no origin-market guides at all
+- Israel Ministry of Tourism (en): English-language only; no Mandarin traveler hub
+- iVisaTravel.com / VisaHQ: cover B/2 visa mechanics only (forms, fees) — zero narrative travel planning
+- None of the above address: WeChat Pay gap, Mandarin-speaking guide options, Air China/Hainan routing, group tour format fit, Jewish-Chinese cultural parallels, China MFA advisory framing
+- **Our site**: ZERO Chinese traveler content confirmed (grep returns no matches)
+
+**Key competitive intelligence — why this gap persists:**
+- English-language Israel travel publishers have no Mandarin capability → don't write for this audience
+- Mandarin-language China travel sites cover Israel very lightly (mostly news/current events, not trip-planning)
+- B/2 visa complexity (vs. ETA-IL for Western passports) is a hard information barrier that suppresses organic Chinese traveler interest unless clearly demystified
+- Recovery of Chinese outbound travel post-2020 + Israel's growing ties with Chinese tourism market → timing is right
+
+**False gaps eliminated (backlog saturation)**:
+After 93 prior research iterations the BACKLOG is extraordinarily comprehensive. 14 of 15 topics investigated were already shipped or queued. Saturation is expected and healthy — the loop has covered the primary inventory. Remaining new items will come from: niche origin-market guides not yet covered (Taiwan, Hong Kong, Malaysia, Singapore — potential iter475+ research); hyper-local city content; seasonal micro-guides; post-Michelin restaurant long-tail.
+
+**Items added to BACKLOG this iteration**: 1 (israel-for-chinese-travelers, P2/M, seo-content+monetization)
