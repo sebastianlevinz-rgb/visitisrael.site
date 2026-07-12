@@ -1,6 +1,6 @@
 ---
 title: 'Surfing in Israel: Tel Aviv Waves, Surf Spots & School Guide'
-description: "Israel's surf scene explained — best spots from Gordon Beach to Bat Yam, surf schools, seasonal conditions, wetsuit guide and beginner tips for the Mediterranean coast."
+description: "Surfing in Israel: best spots from Gordon Beach to Bat Yam, surf schools, seasonal conditions and beginner tips for the Mediterranean coast."
 heroImage: /images/regions/tel-aviv/beaches.jpg
 category: Outdoor
 updatedAt: 2026-07-12

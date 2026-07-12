@@ -1,6 +1,6 @@
 ---
-title: 'Israel Group Travel Guide 2026: Planning a Church or Synagogue Trip'
-description: 'Complete planning guide for group trips to Israel — church groups, synagogue tours and heritage trips of 15 or more. Operators, site access, booking lead times and logistics.'
+title: 'Israel Group Travel: Planning a Church or Synagogue Trip'
+description: 'Plan a group trip to Israel — church groups, synagogue tours and heritage trips of 15 or more. Operators, site access, booking lead times and logistics.'
 heroImage: /images/regions/jerusalem/old-city.jpg
 category: Tours
 updatedAt: 2026-07-12
