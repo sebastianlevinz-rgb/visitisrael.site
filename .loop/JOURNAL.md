@@ -7662,3 +7662,11 @@ Content: 7 surf spots covered (Jerusalem Beach/Bograshov, Bat Yam South reef bre
 Gate: pnpm check 0 errors (130 files) | pnpm build 697 pages (+1 from 696) ✓ | pnpm test:e2e 1002/1002 ✓ GREEN.
 SHA: a34c1a0. Pushed to origin/master; CI in_progress at commit.
 Next: iter 473 → BUILD (tools). 473 % 5 == 3. Top tools candidate: check backlog for ready tools item.
+
+## 2026-07-12 · iter 473 · BUILD (monetization, tools fallthrough) · /israel-diamonds-jewelry
+What: New `/israel-diamonds-jewelry` guide — confirmed content gap (zero competitor coverage on site). Israel is among the world's top diamond polishing/trading centres; Ramat Gan Diamond Exchange (HaBursa) is the world's largest such complex. Eilat Stone = unique Israeli gemstone (azurite-malachite-turquoise-chrysocolla composite) found nowhere else on earth.
+Content: Ramat Gan Diamond Exchange overview (4 towers, ~3,000 dealers, Mazal U'Bracha plaza tourist access, wholesale-only floors, retail showrooms), Eilat Stone buying guide (origin mines, where to buy, ₪80–500 price ranges), Yemenite filigree silver craft (Hatikva market, Machane Yehuda, Nahalat Binyamin), practical tips (GIA/IGI certification, VAT refund on jewelry, Kimberley Process disclosure, lab-grown diamonds). 6 FAQs covering tourist access, certification, bargaining, VAT. HONESTY: no exact store names that may have closed; price ranges editorial only; Mazal U'Bracha plaza description is factual/stable.
+Affiliates: GYG (Tel Aviv shopping/market tour), Viator (craft/neighbourhood tour), Booking.com (TLV hotels near Ramat Gan). Cross-link added from shopping-in-israel.md (diamonds & jewellery paragraph in "What to Buy" section). Smoke test +1.
+Gate: pnpm check 0 errors (130 files) | pnpm build 698 pages (+1 from 697) ✓ | pnpm test:e2e 1003/1003 ✓ GREEN.
+SHA: 400e6f8. Pushed to origin/master; CI in_progress at commit.
+Next: iter 474 → REVIEW. 474 % 5 == 4.
