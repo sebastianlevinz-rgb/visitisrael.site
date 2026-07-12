@@ -7602,3 +7602,10 @@ Gate: 0 check errors · 694 pages (+1) · 996/996 e2e+a11y pass.
 Ship: committed to master SHA 95d48b7, pushed 2026-07-12T00:43Z.
 Prod: CI + Lighthouse in_progress at push time. Next iteration start-check to confirm.
 Next: iter 468 → BUILD (tools). 468 % 5 == 3.
+
+## 2026-07-12T01:52Z · iter 468 · BUILD (tools fallthrough → seo-content+monetization) · israel-fine-dining
+What: New /israel-fine-dining guide — P2/M seo-content+monetization item (iter130 research). tools category fully shipped (11 items); technical also fully shipped — fell through to seo-content+monetization. Covers: inaugural Michelin Guide Israel (2025–2026), first Israeli Michelin star (Shmoné Jerusalem, Chef Nir Mesika), La Liste 2026 recognition (OCD TLV, Pastel Tel Aviv, Chakra Jerusalem, Machneyuda), how to book (direct website / Google / Wolt — no central OpenTable/Resy equivalent), kosher fine dining context, price ranges (₪350–700+ tasting menus; ₪180–300 fine-casual — editorial estimates only, direct to restaurant for current prices), emerging scenes in Haifa, Nazareth, Zichron Yaakov. 3 affiliate CTAs: GYG (private food tours), Viator (culinary experiences), Booking.com (luxury hotels near restaurants). verdictName/verdictQuery wired. Cross-links: tel-aviv-food-guide (new fine dining + Michelin section), jerusalem-food-guide (Shmoné + Michelin paragraph in kosher section). Smoke tests: added /jewish-genealogy-israel-trip (missed in iter467) and /israel-fine-dining. HONESTY maintained throughout: prices are ranges/estimates with explicit "confirm directly with restaurant" note; Michelin star framed as "first awarded as of 2025–2026, verify at guide.michelin.com"; no fabricated ratings/reviews in affiliate CTAs.
+Gate: 0 check errors · 695 pages (+1) · 998/998 e2e+a11y pass.
+Ship: committed to master SHA e33122f, pushed 2026-07-12T01:52Z.
+Prod: CI + Lighthouse in_progress at push time (consistent with prior iters). Next iteration start-check to confirm.
+Next: iter 469 → REVIEW. 469 % 5 == 4.

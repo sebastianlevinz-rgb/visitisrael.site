@@ -949,3 +949,9 @@ Value: P2/M monetization — highest-commission affiliate opportunity in Israel 
 **Jewish Genealogy Research in Israel — Travel Guide** (/jewish-genealogy-israel-trip)
 SHA: 95d48b7
 Value: P2/M seo-content — targets high-intent diaspora segment researching family history. Three-pillar structure: ANU Museum genealogy center (world's largest Jewish genealogy database, free consultation), Yad Vashem Shoah database (~4.8M entries, pre-search online before visit), National Library of Israel (landsmanshaft records + expert librarians). Pre-trip prep (JewishGen.org, document gathering, online Yad Vashem search). Two suggested itineraries (2-day research + 7-day combined heritage). Honesty note on database incompleteness. 3 CTAs: GYG, Abraham, TourRadar. Cross-links from: jewish-heritage-israel, bar-bat-mitzvah-israel, israel-experience-finder. 694 pages (+1). 996/996 tests pass.
+
+## iter468 (2026-07-12)
+
+**Fine Dining in Israel: Michelin Stars & Top Restaurants Guide** (/israel-fine-dining)
+SHA: e33122f
+Value: P2/M seo-content+monetization — timely (inaugural Michelin Guide Israel 2025–2026, first Israeli Michelin star); no competitor editorial has a comprehensive Israel fine dining guide. Covers Shmoné Jerusalem (1 Michelin star, Chef Nir Mesika), La Liste 2026 recognition (OCD TLV, Pastel, Chakra Jerusalem), Machneyuda, booking guidance, kosher fine dining context, price ranges (editorial estimates only), and emerging scenes in Haifa/Nazareth/Zichron Yaakov. 3 CTAs: GYG (food tours), Viator (culinary experiences), Booking.com (luxury hotels). Cross-links from: tel-aviv-food-guide (new fine dining section), jerusalem-food-guide (Michelin paragraph). 695 pages (+1). 998/998 tests pass.
