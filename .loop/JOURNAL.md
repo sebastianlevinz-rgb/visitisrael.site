@@ -7771,3 +7771,18 @@ What: New /rosh-hanikra-guide — Rosh Hanikra sea caves complete visitor guide.
 Gate: pnpm check 0 errors | pnpm build 704 pages ✓ | 1011/1011 e2e+a11y ✓
 Ship: master 17b876d, pushed.
 Prod: Vercel deploy pending at iteration end; next run will confirm.
+
+## 2026-07-12T21:45Z · iter 484 · REVIEW · audit iter481-483 (israel-thermal-springs, israel-campervan, rosh-hanikra-guide)
+What: REVIEW audit of 3 most recent BUILD guides.
+Checks:
+- Internal links: all resolve. /western-galilee-guide, /is-israel-safe, /shabbat-guide, /northern-israel-road-trip, /car-rental-israel, /driving-in-israel, /dead-sea-guide, /ein-gedi-guide, /tiberias-guide, /israel-wellness-spa all confirmed present in EN guide content.
+- Images: all 7 referenced images exist in /public/images/ (akko/hero.jpg, haifa/hero.jpg, negev/desert.jpg, negev/mitzpe-ramon.jpg, golan/hero.jpg, galilee/tiberias.jpg, galilee/sea-of-galilee.jpg).
+- Footer: all 3 guides wired (/israel-campervan, /israel-thermal-springs, /rosh-hanikra-guide confirmed in Footer.astro).
+- Cross-links: akko-acre-guide → rosh-hanikra-guide ✓; israel-wellness-spa → israel-thermal-springs ✓; israel-road-trip → israel-campervan ✓.
+- JSON-LD/honesty: rating/reviews fields in frontmatter are schema-declared but NOT rendered by AffiliateCard (confirmed in component source); no aggregateRating in output; honesty intact.
+- Titles: all ≤60 chars (rosh-hanikra 46, campervan 60, thermal 60).
+- Descriptions: campervan 156 chars ✓, thermal 157 chars ✓, rosh-hanikra was 162 chars — OVER LIMIT.
+Defect found: rosh-hanikra description = 162 chars, over the 160-char meta description limit.
+Fix: trimmed to 154 chars (removed 'and' before 'Ottoman', removed 'and' before final clause).
+Gate: pnpm check 0 errors | pnpm build 704 pages ✓ | 1011/1011 e2e+a11y ✓ GREEN.
+Ship: master SHA a207377, pushed. CI in_progress at journal time.

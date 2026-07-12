@@ -1,12 +1,12 @@
 # LOOP STATE
 
-- iteration: 483
-- lastMode: BUILD (tools fallthrough → seo-content)
-- lastItem: rosh-hanikra-guide — Rosh Hanikra sea caves visitor guide
-- lastResult: SHIPPED 17b876d
-- nextRotationCategory: 484%5==4 → REVIEW. 485%5==0 → RESEARCH. 486%5==1 → BUILD (monetization). 487%5==2 → BUILD (seo-content). 488%5==3 → BUILD (tools fallthrough → seo-content).
+- iteration: 484
+- lastMode: REVIEW
+- lastItem: review-484-desc-trim — audit iter481-483; fixed rosh-hanikra description 162→154 chars
+- lastResult: SHIPPED a207377
+- nextRotationCategory: 485%5==0 → RESEARCH. 486%5==1 → BUILD (monetization). 487%5==2 → BUILD (seo-content). 488%5==3 → BUILD (tools fallthrough → seo-content). 489%5==4 → REVIEW.
 - higgsfieldSpent: 0
-- updatedAt: 2026-07-12T20:55Z
+- updatedAt: 2026-07-12T21:48Z
 - branch context: work on master; feature work on auto/<slug>
 
 Notes: iter482 BUILD (seo-content) — /israel-campervan shipped. P2/M seo-content+monetization item (backlog). Israel campervan & motorhome vanlife guide. TerraVan + campervans-israel.com rental options (₪400–800/night). INPA overnight spots: Kinneret shore camps, Ein Gedi/Nahal Arugot, Mitzpe Ramon crater rim (IDA dark-sky certified). Informal free-camp: Ma'ale Akrabim, Uvda Valley (honest leave-no-trace framing). 7-day 900km clockwise loop route (TLV→Rosh Hanikra→Sea of Galilee→Golan→Jordan Valley→Dead Sea→Masada→Mitzpe Ramon). LPG at Paz/Delek (ACME fitting). Van height clearance warnings: Jerusalem Old City garages 1.9–2.1m limit (most 4-berth vans 2.2–2.6m); Tel Aviv underground blocked. Shabbat planning: fuel + groceries by 2pm Friday. 3 affiliate CTAs: DiscoverCars (campervan/car comparison), Booking.com (campsites & fallback), GYG (Negev experiences). Cross-links: israel-road-trip (campervan paragraph added to intro), glamping-israel (campervan alternative paragraph). Footer link added. 703 pages; 1010/1010 e2e+a11y pass. SHA 7a644ff.
