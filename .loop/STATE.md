@@ -1,12 +1,12 @@
 # LOOP STATE
 
-- iteration: 468
-- lastMode: BUILD (468%5==3 → tools fallthrough → seo-content+monetization)
-- lastItem: iter468 — /israel-fine-dining (P2/M seo-content+monetization) — Israel fine dining & Michelin Guide
-- lastResult: SHIPPED SHA e33122f — 695 pages (+1) — 998/998 e2e+a11y pass. CI in-progress at commit time.
-- nextRotationCategory: 469%5==4 → REVIEW. 470%5==0 → RESEARCH. 471%5==1 → BUILD (monetization). 472%5==2 → BUILD (seo-content).
+- iteration: 469
+- lastMode: REVIEW (469%5==4)
+- lastItem: iter469 — REVIEW link-fix israel-fine-dining — wrong internal link corrected (/jaffa-food-guide → /mahane-yehuda-market-guide)
+- lastResult: SHIPPED SHA 73f91e4 — 695 pages — 998/998 e2e+a11y pass. CI in-progress at commit time.
+- nextRotationCategory: 470%5==0 → RESEARCH. 471%5==1 → BUILD (monetization). 472%5==2 → BUILD (seo-content). 473%5==3 → BUILD (tools). 474%5==4 → REVIEW.
 - higgsfieldSpent: 0
-- updatedAt: 2026-07-12T01:52Z
+- updatedAt: 2026-07-12T02:47Z
 - branch context: work on master; feature work on auto/<slug>
 
 Notes: iter468 BUILD (tools fallthrough → seo-content+monetization) — /israel-fine-dining shipped. P2/M seo-content+monetization item (iter130 research). tools category fully shipped (11 items); technical fully shipped — fell through to seo-content+monetization. Israel fine dining & Michelin Guide: inaugural Michelin Guide Israel (2025–2026), first Israeli Michelin star (Shmoné Jerusalem, Chef Nir Mesika), La Liste 2026 recognition (OCD TLV, Pastel, Chakra Jerusalem), key restaurants in both cities, how to book (own website / Google / Wolt — no central booking system like OpenTable), kosher considerations, price ranges (₪350–700+ tasting menus; ₪180–300 fine-casual — editorial estimates only), emerging fine dining beyond TLV/Jerusalem (Haifa German Colony, Nazareth Arab-Israeli chefs, Zichron Yaakov wine region). 3 affiliate CTAs: GYG (private food tours), Viator (culinary experiences), Booking.com (luxury hotels near restaurants). verdictName + verdictQuery wired. Cross-links: tel-aviv-food-guide (new "Fine dining and Michelin-starred restaurants" section), jerusalem-food-guide (Shmoné + Michelin paragraph in kosher fine dining section). Smoke tests: added /jewish-genealogy-israel-trip (missed in iter467) + /israel-fine-dining. SEO: "Israel Michelin star restaurants guide", "fine dining Israel 2026", "best restaurants Israel Michelin", "Shmoné Jerusalem restaurant guide", "top restaurants Tel Aviv".

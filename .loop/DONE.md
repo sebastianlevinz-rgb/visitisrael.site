@@ -955,3 +955,8 @@ Value: P2/M seo-content — targets high-intent diaspora segment researching fam
 **Fine Dining in Israel: Michelin Stars & Top Restaurants Guide** (/israel-fine-dining)
 SHA: e33122f
 Value: P2/M seo-content+monetization — timely (inaugural Michelin Guide Israel 2025–2026, first Israeli Michelin star); no competitor editorial has a comprehensive Israel fine dining guide. Covers Shmoné Jerusalem (1 Michelin star, Chef Nir Mesika), La Liste 2026 recognition (OCD TLV, Pastel, Chakra Jerusalem), Machneyuda, booking guidance, kosher fine dining context, price ranges (editorial estimates only), and emerging scenes in Haifa/Nazareth/Zichron Yaakov. 3 CTAs: GYG (food tours), Viator (culinary experiences), Booking.com (luxury hotels). Cross-links from: tel-aviv-food-guide (new fine dining section), jerusalem-food-guide (Michelin paragraph). 695 pages (+1). 998/998 tests pass.
+
+## iter469 — REVIEW fix: israel-fine-dining wrong internal link
+- SHA: 73f91e4
+- Fix: /israel-fine-dining linked "Mahane Yehuda market guide" to /jaffa-food-guide; corrected to /mahane-yehuda-market-guide
+- Value: prevents visitors researching Jerusalem fine dining from landing on a Jaffa seafood guide
