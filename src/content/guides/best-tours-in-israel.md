@@ -61,6 +61,10 @@ Match the format to your trip: **skip-the-line tickets** for busy museums, **sma
 
 Not sure whether to book with Abraham Tours, Bein Harim, GetYourGuide or a private guide? See our [Israel tour operators compared](/israel-tour-operators-guide) guide — an honest breakdown of who each operator suits.
 
+## Traveling from China?
+
+Chinese passport holders need a **B/2 Tourist Visa** (not ETA-IL) and may want a **Mandarin-speaking private guide**. See the [Israel for Chinese travelers guide](/israel-for-chinese-travelers) for visa requirements, flight routing, and how to find guides with Mandarin commentary.
+
 ## More ways to plan
 
 Prefer everything bundled? See [multi-day tour packages](/israel-tour-packages). Building your own route? Use our [itineraries](/itineraries) and the [11 regions](/). Booking a private guide? See [how to hire a licensed tour guide in Israel](/how-to-hire-licensed-tour-guide-israel) — Ministry of Tourism licences explained, daily rates and 5 questions to ask before you commit. And sort the practical bits — an [eSIM](/israel-esim), [travel insurance](/israel-travel-insurance) and your [airport transfer](/ben-gurion-airport-transfers) — before you fly.

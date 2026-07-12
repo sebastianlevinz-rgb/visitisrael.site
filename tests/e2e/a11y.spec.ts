@@ -361,6 +361,7 @@ const ROUTES = [
   '/israel-egypt-guide',
   '/israel-itinerary-checker',
   '/tel-aviv-bachelorette',
+  '/israel-for-chinese-travelers',
 ];
 
 for (const route of ROUTES) {

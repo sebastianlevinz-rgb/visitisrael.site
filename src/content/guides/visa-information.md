@@ -51,6 +51,10 @@ Expect security questions on arrival — about your trip, where you're staying a
 
 If you need longer than your permitted stay, you can apply for an extension at a Population and Immigration Authority (Misrad HaPnim) office before your current authorization expires. See the full [Israel tourist visa extension guide](/israel-visa-extension) for the step-by-step process, required documents, fees and alternatives including the border-run option. If you're entering **overland from Jordan or Egypt**, the ETA-IL requirement and procedures differ by crossing — see our [border crossings guide](/border-crossings).
 
+## Travelers who need a B/2 visa — including Chinese citizens
+
+Citizens of countries not on the visa-exempt list — including **China** — must apply for a **B/2 Tourist Visa** at an Israeli embassy or consulate before travelling. The ETA-IL does not apply to Chinese passport holders. For a complete guide to the B/2 visa application process, flight options, payment practicalities, and Mandarin-speaking guide options, see our dedicated [Israel for Chinese travelers guide](/israel-for-chinese-travelers).
+
 ## Before you go
 
 Not sure which category applies to your passport? Use our [Visa & ETA-IL checker](/israel-visa-eta-checker) for an instant result by nationality — covers 150+ countries.
