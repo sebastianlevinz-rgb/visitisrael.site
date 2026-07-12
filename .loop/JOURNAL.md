@@ -7670,3 +7670,11 @@ Affiliates: GYG (Tel Aviv shopping/market tour), Viator (craft/neighbourhood tou
 Gate: pnpm check 0 errors (130 files) | pnpm build 698 pages (+1 from 697) ✓ | pnpm test:e2e 1003/1003 ✓ GREEN.
 SHA: 400e6f8. Pushed to origin/master; CI in_progress at commit.
 Next: iter 474 → REVIEW. 474 % 5 == 4.
+
+## 2026-07-12T11:30Z · iter 474 · REVIEW · meta trim on iter471/472 guides
+What: REVIEW pass on the 3 most-recently shipped guides (iter471 israel-group-travel, iter472 israel-surfing, iter473 israel-diamonds-jewelry). Checks performed: (1) all internal hrefs resolve — 100% clean across all three guides; (2) itinerary routes (/itineraries/7-days-in-israel, /10-days-in-israel, /14-days-in-israel) confirmed present; (3) all hero and CTA image paths verified in public/; (4) claimed cross-link installs from iter471 (christian-pilgrimage → /israel-group-travel, private-tours-israel → /israel-group-travel, israel-small-group-tours → /israel-group-travel) confirmed present and correctly wired; (5) iter472 cross-links (israel-adventure-sports → /israel-surfing, tel-aviv-beach-guide → /israel-surfing, best-beaches-israel → /israel-surfing) confirmed; (6) iter473 cross-link (shopping-in-israel → /israel-diamonds-jewelry) confirmed; (7) honesty check — no fabricated ratings or review counts; all price data framed as illustrative ranges; (8) SEO meta length check → 2 defects found.
+Defects found and fixed: israel-group-travel title 67→56 chars (was >65 limit); israel-group-travel desc 176→154 chars (was >160 limit); israel-surfing desc 169→140 chars (was >160 limit). israel-diamonds-jewelry was already within bounds.
+Gate: 0 check errors · 698 pages · 1003/1003 e2e+a11y pass.
+Ship: squash-merged to master SHA 25c5aa7, pushed 2026-07-12T11:30Z.
+Prod: CI in_progress at push time. Next iteration start-check to confirm.
+Next: iter 475 → RESEARCH. 475 % 5 == 0.
