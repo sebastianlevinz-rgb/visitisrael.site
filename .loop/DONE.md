@@ -981,3 +981,14 @@ Value: P2/M seo-content+monetization — timely (inaugural Michelin Guide Israel
 - Cross-links inbound: tel-aviv-nightlife.md, lgbtq-travel-israel.md, israel-wellness-spa.md, Footer.astro
 - Gate: pnpm check ✓ | pnpm build 699 pages ✓ | 1005/1005 e2e+a11y ✓
 - Value: Closes P2/M monetization gap for high-commercial-intent bachelorette/hen party group travel queries; strong Booking.com hotel conversion angle for group boutique hotels in Neve Tzedek/Florentin.
+
+## iter 477 — /jerusalem-museums — SHA f9cad75
+- Title: Jerusalem Museums Guide: Top 7 to Visit in 2026
+- Route: /jerusalem-museums
+- Category: seo-content (P2/M, iter130 research)
+- Museums covered: Israel Museum (cross-link), Yad Vashem, Bible Lands Museum Jerusalem, Tower of David, National Library of Israel, Rockefeller Archaeological Museum, Museum of Tolerance Jerusalem
+- Affiliates: tiqets (advance tickets), getyourguide (guided tours), booking (Jerusalem hotels)
+- Content: Givat Ram cluster vs Old City cluster geographic orientation; 2-day + 3-day museum itineraries; Yad Vashem advance booking warning; Night Spectacular show note; NLI new building context; free Rockefeller note; transit logistics; 7 FAQs. verdictName + verdictQuery wired.
+- Cross-links inbound: Footer.astro (new link), israel-museum-jerusalem.md (tail paragraph)
+- Gate: pnpm check ✓ | pnpm build 700 pages ✓ | 1006/1006 e2e+a11y ✓
+- Value: Fills P2/M seo-content gap for "best museums Jerusalem" hub queries; complements existing single-museum guides; multi-day visit angle supports Booking.com hotel conversion.

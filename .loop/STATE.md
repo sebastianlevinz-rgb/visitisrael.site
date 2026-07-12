@@ -1,13 +1,15 @@
 # LOOP STATE
 
-- iteration: 476
-- lastMode: BUILD (monetization) — /tel-aviv-bachelorette shipped
-- lastItem: tel-aviv-bachelorette — new guide, 699 pages (+1), 1005/1005 e2e+a11y pass, SHA 671007c
-- lastResult: SHIPPED 671007c — CI in_progress at record time; next iter start-check to confirm
-- nextRotationCategory: 477%5==2 → BUILD (seo-content). 478%5==3 → BUILD (tools fallthrough → seo-content). 479%5==4 → REVIEW. 480%5==0 → RESEARCH. 481%5==1 → BUILD (monetization).
+- iteration: 477
+- lastMode: BUILD (seo-content) — /jerusalem-museums shipped
+- lastItem: jerusalem-museums — Jerusalem museums hub guide (7 museums), 700 pages (+1), 1006/1006 e2e+a11y pass, SHA f9cad75
+- lastResult: SHIPPED f9cad75 — CI in_progress at record time; next iter start-check to confirm
+- nextRotationCategory: 478%5==3 → BUILD (tools fallthrough → seo-content). 479%5==4 → REVIEW. 480%5==0 → RESEARCH. 481%5==1 → BUILD (monetization). 482%5==2 → BUILD (seo-content).
 - higgsfieldSpent: 0
-- updatedAt: 2026-07-12T13:48Z
+- updatedAt: 2026-07-12T14:50Z
 - branch context: work on master; feature work on auto/<slug>
+
+Notes: iter477 BUILD (seo-content) — /jerusalem-museums shipped. P2/M seo-content item (iter130 research). Jerusalem museums complete hub guide covering 7 major institutions: Israel Museum (cross-link to existing deep guide at /israel-museum-jerusalem), Yad Vashem (advance booking mandatory warning, full-day allocation, not combinable with Old City), Bible Lands Museum Jerusalem (Givat Ram cluster, 2h, ₪50), Tower of David Museum (Jaffa Gate, Night Spectacular seasonal show), National Library of Israel (new Herzog & de Meuron building 2023-24, Givat Ram), Rockefeller Archaeological Museum (free, East Jerusalem, near Damascus Gate), Museum of Tolerance Jerusalem. Includes Givat Ram cluster vs Old City cluster geographic orientation, suggested 2-day museum itinerary, 3-day extension, transit logistics. 3 affiliate CTAs: Tiqets (advance tickets), GYG (guided tours), Booking.com (Jerusalem hotels). verdictName + verdictQuery wired. Cross-links: footer (new link added before Israel Museum link), israel-museum-jerusalem.md (tail paragraph → hub). Smoke test route added. SEO: "Jerusalem museums guide 2026", "Israel Museum Jerusalem visitor guide", "Dead Sea Scrolls museum Jerusalem", "best museums Jerusalem Israel", "Yad Vashem visitor guide".
 
 Notes: iter470 RESEARCH — Saturation check across 15+ candidate topics. 14/15 already shipped or queued after 93 prior research iterations. 1 confirmed net-new: /israel-for-chinese-travelers. China is world's largest outbound travel market; Chinese passport holders require B/2 Tourist Visa (NOT ETA-IL eligible) — high-value content gap zero English-language Israel travel site addresses. Content: B/2 visa process, Air China/Hainan/Cathay/Turkish routing, WeChat Pay gap, Mandarin-speaking guides, group tour fit, Jewish-Chinese cultural parallels, kosher/halal food reality. Affiliate CTAs: GYG group tours, Booking.com, Viator Mandarin-guide private tours. False gaps eliminated: India, Australia/NZ, Canada (iter430), Italy/Spain (iter445), Netherlands (iter440), Germany, Japan/Korea/Philippines (iter455), Nordics (iter450), Muslim travel (iter446), vegan (iter242), medical tourism (iter306), wine (multiple), winter/christmas (iter420/shipped), passover (iter155), Timna Park (iter120).
 
@@ -35,5 +37,5 @@ Notes: iter457 BUILD (seo-content) — /israel-kayaking shipped.
 Notes: iter456 BUILD (monetization) — /dead-sea-day-trip-comparison shipped.
 
 Cron b7325b16 hourly @ :17. Loop history: 19 tools + sitemap-lastmod + link-checker(+depth) + i18n
-Phase0/1a/1b/1c/2 Batches1-18(COMPLETE) + 42 review passes + 3 technical (event-schema + meta-trim + locale-links) + 59 EN guides + 7 tools-monetization + 2 comparisons;
+Phase0/1a/1b/1c/2 Batches1-18(COMPLETE) + 42 review passes + 3 technical (event-schema + meta-trim + locale-links) + 60 EN guides + 7 tools-monetization + 2 comparisons;
 research iters 5/10/20/30/35/40/45/50/55/60/65/70/75/80/85/90/95/100/105/110/115/120/125/130/135/140/145/150/155/160/165/170/175/180/185/190/195/200/205/210/215/220/225/230/235/240/245/250/255/260/265/270/275/280/285/290/295/300/305/310/315/320/325/330/335/340/345/350/355/360/365/370/375/380/385/390/395/400/405/410/420/425/430/435/440/445/450/455/460/465/470.
