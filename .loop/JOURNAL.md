@@ -7655,3 +7655,10 @@ Fix applied: 4 broken internal links fixed before gate passed — /israel-7-day-
 Gate: pnpm check ✓ | pnpm build (696 pages) ✓ | pnpm test:e2e 1000/1000 ✓
 SHA: 775599a. Pushed to origin/master.
 Next: iter 472 → BUILD (seo-content). 472 % 5 == 2.
+
+## 2026-07-12 · iter 472 · BUILD (seo-content) · /israel-surfing
+What: New `/israel-surfing` guide — Israel's Mediterranean surf scene, a genuine P2/S gap confirmed in iter105 research.
+Content: 7 surf spots covered (Jerusalem Beach/Bograshov, Bat Yam South reef break, Jaffa South harbour groyne, Herzliya Pier, Haifa Bat Galim, plus Eilat Red Sea clarification = no surf). Seasonal conditions table (Oct–Mar peak; Jun–Aug flat). Wetsuit guide (water temp 17–29°C range; 3/2 mm recommended Nov–Feb). Forecast apps section (Windguru + Magicseaweed + ISRA). Surf school logistics (Jerusalem Beach operators, ₪100–180 group lesson / ₪60–80 board hire — ranges only). 8 FAQs. 3 affiliate CTAs: GYG (beach experiences), Viator (surf lessons), Booking.com (beachfront hotels). Cross-links wired: israel-adventure-sports.md (surfing section → /israel-surfing link), tel-aviv-beach-guide.md (Jerusalem Beach section), best-beaches-israel.md (Tel Aviv intro paragraph). Session fix: git reset --hard origin/master required (cloud env diverged — consistent pattern, iter97+).
+Gate: pnpm check 0 errors (130 files) | pnpm build 697 pages (+1 from 696) ✓ | pnpm test:e2e 1002/1002 ✓ GREEN.
+SHA: a34c1a0. Pushed to origin/master; CI in_progress at commit.
+Next: iter 473 → BUILD (tools). 473 % 5 == 3. Top tools candidate: check backlog for ready tools item.

@@ -969,3 +969,4 @@ Value: P2/M seo-content+monetization — timely (inaugural Michelin Guide Israel
 - Content: operator selection guide, site-access booking lead times table, 3 itinerary arcs (Christian pilgrimage 8-day / Jewish heritage 9-day / cultural-historical 10-day), ETA-IL/B2 visa logistics, timing guidance, group leader tips, budget ranges
 - Cross-links inbound: christian-pilgrimage-holy-land.md, private-tours-israel.md, israel-small-group-tours.md
 - Gate: pnpm check ✓ | pnpm build 696 pages ✓ | 1000/1000 e2e ✓
+- [iter472] Israel surfing guide (/israel-surfing) → SHA a34c1a0 — P2/S seo-content; 7 Mediterranean surf spots, spot-by-spot breakdown, surf schools, seasonal conditions, wetsuit guide, forecast apps section, 8 FAQs, 3 affiliate CTAs. Cross-links in adventure-sports, tel-aviv-beach, best-beaches guides. 1002 tests pass.
