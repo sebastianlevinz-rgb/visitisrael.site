@@ -148,3 +148,7 @@ From the Israel Museum, it is a short taxi or bus ride to:
 **By car:** There is paid parking at the museum. If you are driving from Tel Aviv on Highway 1, exit at the Givat Shaul interchange and follow signs for the Knesset/Israel Museum (the two are adjacent).
 
 **On foot from the Knesset:** If you are already visiting the Knesset or the Rose Garden in Wohl Rose Park, the museum entrance is a short walk across the campus.
+
+---
+
+Planning to visit other Jerusalem museums on the same trip? See our [Jerusalem museums complete guide](/jerusalem-museums) covering Yad Vashem, the Bible Lands Museum, Tower of David, National Library of Israel and more.

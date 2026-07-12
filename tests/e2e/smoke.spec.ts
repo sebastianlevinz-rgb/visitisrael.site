@@ -542,6 +542,7 @@ const ROUTES = [
   '/israel-surfing',
   '/israel-diamonds-jewelry',
   '/tel-aviv-bachelorette',
+  '/jerusalem-museums',
 ];
 
 for (const route of ROUTES) {
