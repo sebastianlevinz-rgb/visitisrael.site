@@ -103,6 +103,8 @@ The **Jewish Quarter** has a cluster of quality Judaica shops along Cardo Maximu
 
 **Safed (Tzfat) ceramics** are distinctive: blue-and-white glazed bowls, platters and tiles with kabbalistic imagery produced by artists working in the Old City's Artists' Quarter. Genuine Safed ceramics are individually signed and vary between artists — browse the galleries along the Artists' Quarter lane rather than buying unsigned items from tourist shops. See the [Safed guide](/safed-tzfat-guide) for visiting the workshops directly.
 
+**Diamonds and jewellery** deserve their own guide. Israel is one of the world's leading diamond polishing and trading centres — the Ramat Gan Diamond Exchange (HaBursa) is the largest such complex globally — and the country has a distinctive silver-craft tradition and the unique [Eilat Stone](/israel-diamonds-jewelry) found nowhere else on earth. See the [Israel diamonds and jewellery guide](/israel-diamonds-jewelry) for the full picture, including what tourists can see at the Exchange, where to buy Eilat Stone pieces, and VAT refund logistics.
+
 ---
 
 ## Practical tips
