@@ -538,6 +538,7 @@ const ROUTES = [
   '/petra-wadi-rum-from-eilat',
   '/jewish-genealogy-israel-trip',
   '/israel-fine-dining',
+  '/israel-group-travel',
 ];
 
 for (const route of ROUTES) {
