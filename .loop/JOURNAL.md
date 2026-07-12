@@ -7765,3 +7765,9 @@ What: New guide /israel-campervan — Israel campervan & motorhome vanlife guide
 Gate: pnpm check ✓ (0 errors) | pnpm build ✓ (703 pages) | 1010/1010 e2e+a11y ✓
 Merge: squash-merged to master SHA 7a644ff, pushed.
 Prod: Vercel deploy in progress at push time — polling.
+
+## 2026-07-12T20:55Z · iter 483 · BUILD (tools fallthrough → seo-content) · rosh-hanikra-guide
+What: New /rosh-hanikra-guide — Rosh Hanikra sea caves complete visitor guide. P3/S seo-content item (iter85 research). Tools category fully shipped (11 items) → fell through to seo-content. Content: Israel's northernmost Mediterranean point (Lebanese border 100m north); chalk cliff grottos on wooden boardwalks (Blue Grotto, Tunnel of Love, The Cauldron); cable car restored 2026 (90-sec descent, 70m cliff, KKL-JNF operated); Lebanon border observation terrace; sealed Ottoman railway tunnel (former Haifa–Beirut Mandatory Palestine rail line, pre-1948). Critical practical notes: INPA National Parks Pass NOT valid (KKL-JNF site); closed Shabbat and Yom Kippur; cable car capacity 40 pax — early arrival advised; no independent walk-down access. Getting there: car recommended (45 min Haifa, 30 min Akko); Nahariya (5 km) by train then taxi. Classic day: Akko AM + Rosh Hanikra PM. Nearby cross-links: akko-acre-guide, haifa-travel-guide, western-galilee-guide, northern-israel-road-trip, israel-national-parks-pass. 3 affiliate CTAs: GYG (northern coast day tours), Booking.com (Akko/Nahariya hotels), DiscoverCars (Haifa car hire). verdictName + verdictQuery wired. Footer link added after akko-acre-guide. Smoke test +1 (1011/1011 e2e+a11y pass). 704 pages.
+Gate: pnpm check 0 errors | pnpm build 704 pages ✓ | 1011/1011 e2e+a11y ✓
+Ship: master 17b876d, pushed.
+Prod: Vercel deploy pending at iteration end; next run will confirm.
