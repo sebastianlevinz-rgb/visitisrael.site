@@ -165,5 +165,5 @@ Fine dining works best as part of a structured Israel itinerary — schedule a M
 
 - Explore the [Tel Aviv food scene](/tel-aviv-food-guide) for the full context: markets, hummus bars, bakeries and street food alongside the high-end tier.
 - The [Israel food tours & cooking classes guide](/israel-food-tours-cooking-classes) covers guided market walks, cooking workshops and tasting experiences.
-- See the [Mahane Yehuda market guide](/jaffa-food-guide) for the Jerusalem market neighbourhood where Machneyuda and several of the city's best restaurants are based.
+- See the [Mahane Yehuda market guide](/mahane-yehuda-market-guide) for the Jerusalem market neighbourhood where Machneyuda and several of the city's best restaurants are based.
 - For a broader trip structure, the [first-time in Israel guide](/first-time-in-israel) and the [how many days calculator](/israel-how-many-days) help you plan the right amount of time for both food and sights.
