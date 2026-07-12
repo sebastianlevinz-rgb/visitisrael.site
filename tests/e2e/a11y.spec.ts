@@ -104,6 +104,7 @@ const ROUTES = [
   '/israel-small-group-tours',
   '/petra-wadi-rum-from-eilat',
   '/israel-group-travel',
+  '/israel-surfing',
   '/israel-tour-operators-guide',
   '/cruise-shore-excursions-israel',
   '/israel-accommodation-guide',

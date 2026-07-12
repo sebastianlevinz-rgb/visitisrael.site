@@ -93,6 +93,8 @@ Jerusalem Beach — variously called Bograshov or Geula Beach depending on which
 
 The beach also has a paddleboarding and stand-up paddleboarding scene. Even if you are not surfing, the mix of surfers, locals and board-hire shops gives this section a livelier energy than the tourist-hotel beaches to the north.
 
+For a detailed surfing guide including Bat Yam, Herzliya Pier and seasonal conditions, see the [Israel surfing guide](/israel-surfing).
+
 **Best for:** Surfing beginners and improvers; watersports in general; visitors who want a less tourist-dense beach with a more active scene.
 
 ### Alma Beach

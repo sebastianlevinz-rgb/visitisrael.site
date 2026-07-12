@@ -87,6 +87,8 @@ Minimum age is typically 18 for self-driven ATVs; younger participants often rid
 - **Lessons and rental:** several surf schools operate year-round on the Tel Aviv beachfront, offering boards, wetsuits and group lessons.
 - **Windsurfing:** the summer sea breeze (the *Sharav* reversal in late afternoon) makes Tel Aviv Bay and Herzliya popular with windsurfers from May–September.
 
+For the full breakdown of every surf spot, seasonal conditions, wetsuit guide and surf school logistics, see the [Israel surfing guide](/israel-surfing).
+
 ---
 
 ## Kitesurfing

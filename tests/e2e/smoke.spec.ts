@@ -539,6 +539,7 @@ const ROUTES = [
   '/jewish-genealogy-israel-trip',
   '/israel-fine-dining',
   '/israel-group-travel',
+  '/israel-surfing',
 ];
 
 for (const route of ROUTES) {
