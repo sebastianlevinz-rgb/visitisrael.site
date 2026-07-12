@@ -97,11 +97,13 @@ Timna is 25 km north of Eilat on Route 90 — a 60 km² desert reserve with some
 - **Zodiac Amphitheatre**: open-air amphitheatre used for evening stargazing events and concerts in cooler months
 
 **Practical:**
-- Opening hours: daily 08:00–17:00 (last entry 16:00); extended evening hours in cooler season — verify at parktimna.co.il
-- Entry roughly ₪60–80 per adult; Israel National Parks Pass valid
+- Opening hours vary seasonally — verify current times at timna-park.co.il before visiting
+- Entry roughly ₪35–45 per adult; **the Israel National Parks Pass does not cover Timna** — it is independently managed, not an INPA site
 - A car is required to access the park; alternatively join a guided jeep tour from Eilat — jeep tours add desert context from a guide and often include remote areas you cannot reach independently
 - Allow 3–4 hours for a self-drive circuit covering the main sites; half a day if you walk the longer trails
 - **Best months**: October–April. Summer (June–September) is genuinely extreme — 40°C+ midday desert heat makes Timna uncomfortable and potentially dangerous; some areas are restricted in summer for safety
+
+For full visitor details — Solomon's Pillars, Mushroom Rock, the Copper Mine Trail, stargazing evenings and combining with the Red Canyon — see the [Timna Park visitor guide](/timna-park-guide).
 
 ---
 
