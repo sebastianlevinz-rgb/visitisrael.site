@@ -1,12 +1,12 @@
 # LOOP STATE
 
-- iteration: 478
-- lastMode: BUILD (seo-content) — /israel-for-chinese-travelers shipped
-- lastItem: israel-for-chinese-travelers — Israel for Chinese travelers complete guide, 701 pages (+1), 1008/1008 e2e+a11y pass, SHA a50d62e
-- lastResult: SHIPPED a50d62e — CI in_progress at record time; next iter start-check to confirm
-- nextRotationCategory: 479%5==4 → REVIEW. 480%5==0 → RESEARCH. 481%5==1 → BUILD (monetization). 482%5==2 → BUILD (seo-content). 483%5==3 → BUILD (tools fallthrough → seo-content).
+- iteration: 479
+- lastMode: REVIEW — meta trim on iter476/477/478 guides
+- lastItem: review-meta-trim-479 — audited tel-aviv-bachelorette, jerusalem-museums, israel-for-chinese-travelers; fixed 2 over-length descriptions; SHA aa0cd7b
+- lastResult: SHIPPED aa0cd7b — gate green (0 errors, 701 pages, 1008/1008); CI in_progress at push time
+- nextRotationCategory: 480%5==0 → RESEARCH. 481%5==1 → BUILD (monetization). 482%5==2 → BUILD (seo-content). 483%5==3 → BUILD (tools fallthrough → seo-content). 484%5==4 → REVIEW.
 - higgsfieldSpent: 0
-- updatedAt: 2026-07-12T15:45Z
+- updatedAt: 2026-07-12T16:40Z
 - branch context: work on master; feature work on auto/<slug>
 
 Notes: iter478 BUILD (seo-content) — /israel-for-chinese-travelers shipped. P2/M seo-content+monetization item (iter470 research). Complete planning guide for Chinese passport holders — B/2 Tourist Visa requirement (NOT ETA-IL eligible; ETA-IL only for eligible passport countries; China is NOT on the list), embassy locations in China (Beijing, Shanghai, Guangzhou, Chengdu), required documents (bank statements, return flights, hotel confirmations, insurance), flight routing (Air China direct Beijing→TLV ~10-11h; Cathay Pacific via HKG; Turkish Airlines via IST ~13-15h), WeChat Pay / Alipay not accepted (Visa/Mastercard + NIS cash required), Mandarin-speaking guides via GYG/Viator, Jewish-Chinese cultural parallels (Kaifeng Jewish community, Silk Road trade history, shared values), kosher food explained + halal options for Muslim Chinese travelers, group vs independent travel, 7-day suggested itinerary (TLV → Jerusalem → Dead Sea/Masada → Galilee), safety framing (evergreen + honest), internet freedom in Israel (no Great Firewall). 3 affiliate CTAs: GYG (Mandarin group/private tours), Booking.com (hotel confirmation for visa), Viator (private tours). verdictName + verdictQuery wired. Cross-links: visa-information.md (B/2 visa section → /israel-for-chinese-travelers), best-tours-in-israel.md (Chinese travelers callout), petra-from-israel.md (Jordan Pass note for Chinese citizens needing Jordan visa separately). Smoke +1, a11y +1 → 1008/1008. SEO: "Israel for Chinese travelers", "Israel visa Chinese passport", "B/2 visa Israel China", "Israel Mandarin guide", "Israel trip Chinese tourists".

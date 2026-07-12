@@ -7722,3 +7722,11 @@ Cross-links: visa-information.md (new B/2 visa section → /israel-for-chinese-t
 Gate: pnpm check 0 errors (130 files) | pnpm build 701 pages (+1 from 700) ✓ | pnpm test:e2e 1008/1008 ✓ GREEN.
 SHA: a50d62e. Pushed to origin/master; CI in_progress at commit time (run #29198677158).
 Next: iter 479 → REVIEW. 479 % 5 == 4.
+
+## 2026-07-12T16:40Z · iter 479 · REVIEW · meta trim on iter476/477/478 guides
+What: REVIEW pass on the 3 most-recently shipped guides (iter476 tel-aviv-bachelorette, iter477 jerusalem-museums, iter478 israel-for-chinese-travelers). Checks performed: (1) all internal hrefs resolve — tel-aviv/florentin correctly routes to florentin attraction (attractionSlug strips region prefix tel-aviv-florentin → florentin, URL /tel-aviv/florentin is correct); all other ~35 internal links across 3 guides confirmed present in guides set / pages set; (2) all hero and CTA image paths verified in public/ — 100% present; (3) cross-link installs from iter476 (tel-aviv-nightlife → /tel-aviv-bachelorette, lgbtq-travel-israel → /tel-aviv-bachelorette, israel-wellness-spa → /tel-aviv-bachelorette) confirmed correct; iter477 installs (footer → /jerusalem-museums, israel-museum-jerusalem → /jerusalem-museums hub) confirmed; iter478 installs (visa-information B/2 section → /israel-for-chinese-travelers, best-tours-in-israel callout, petra-from-israel Jordan Pass note) all confirmed; (4) honesty check — no fabricated ratings or review counts across all 3 guides; all price data editorial-range framing; (5) SEO meta length check → 2 defects found and fixed.
+Defects found and fixed: jerusalem-museums desc 189→151 chars (>160 limit); israel-for-chinese-travelers desc 170→159 chars (>160 limit). tel-aviv-bachelorette desc exactly 160 chars (boundary, in-spec, left as-is).
+Gate: 0 check errors · 701 pages · 1008/1008 e2e+a11y pass.
+Ship: committed to master SHA aa0cd7b, pushed 2026-07-12T16:40Z.
+Prod: CI in_progress at push time (consistent pre-existing pattern); Vercel auto-deploys via git integration.
+Next: iter 480 → RESEARCH. 480 % 5 == 0.
