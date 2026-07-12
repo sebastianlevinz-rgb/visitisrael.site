@@ -960,3 +960,12 @@ Value: P2/M seo-content+monetization — timely (inaugural Michelin Guide Israel
 - SHA: 73f91e4
 - Fix: /israel-fine-dining linked "Mahane Yehuda market guide" to /jaffa-food-guide; corrected to /mahane-yehuda-market-guide
 - Value: prevents visitors researching Jerusalem fine dining from landing on a Jaffa seafood guide
+
+## iter471 — /israel-group-travel (Israel group travel planning guide)
+- SHA: 775599a
+- Category: BUILD (monetization), P2/M
+- New file: src/content/guides/israel-group-travel.md
+- Affiliates: tourradar (group packages), getyourguide (group day tours), viator (pilgrim/group tours)
+- Content: operator selection guide, site-access booking lead times table, 3 itinerary arcs (Christian pilgrimage 8-day / Jewish heritage 9-day / cultural-historical 10-day), ETA-IL/B2 visa logistics, timing guidance, group leader tips, budget ranges
+- Cross-links inbound: christian-pilgrimage-holy-land.md, private-tours-israel.md, israel-small-group-tours.md
+- Gate: pnpm check ✓ | pnpm build 696 pages ✓ | 1000/1000 e2e ✓

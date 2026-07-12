@@ -7645,3 +7645,13 @@ False gaps eliminated (backlog already comprehensive after 93 research iteration
 1 net-new item added to BACKLOG: israel-for-chinese-travelers (P2, M, seo-content+monetization). B/2 visa process, flight routing (Air China/Hainan/Cathay/Turkish), WeChat Pay gap, Mandarin-speaking guide options, group tour fit, Jewish-Chinese cultural parallels, kosher/halal food reality.
 No code shipped. State files updated and committed.
 Next: iter 471 → BUILD (monetization). 471 % 5 == 1.
+
+## 2026-07-12 · iter 471 · BUILD (monetization) · /israel-group-travel
+What: New `/israel-group-travel` guide — comprehensive planning resource for church groups, synagogue tours and heritage trips of 15+ people to Israel.
+Content: operator selection (Israeli ground operators vs international packages), site-access booking lead times table (Western Wall Tunnels 8–12 months, Yad Vashem 6 months, Church of the Nativity 3–6 months, etc.), three itinerary arcs (Christian pilgrimage 8-day, Jewish heritage 9-day, cultural-historical 10-day), ETA-IL/B2 visa logistics (no group visa), timing guidance (avoid Passover/Yom Kippur/Sukkot peak pricing), group leader tips (WhatsApp, documentation, Shabbat planning, accessibility, single supplement, flights), budget ranges ($2,200–$5,500+ per person), licensed guide requirements.
+Affiliates: tourradar (primary, group packages), getyourguide (group day tours), viator (pilgrim/group tours).
+Cross-links added inbound from: christian-pilgrimage-holy-land.md, private-tours-israel.md, israel-small-group-tours.md.
+Fix applied: 4 broken internal links fixed before gate passed — /israel-7-day-itinerary → /itineraries/7-days-in-israel, /israel-10-day-itinerary → /itineraries/10-days-in-israel, /israel-itinerary-2-weeks → /itineraries/14-days-in-israel, /passover-in-israel → /traveling-israel-jewish-holidays.
+Gate: pnpm check ✓ | pnpm build (696 pages) ✓ | pnpm test:e2e 1000/1000 ✓
+SHA: 775599a. Pushed to origin/master.
+Next: iter 472 → BUILD (seo-content). 472 % 5 == 2.
