@@ -7701,3 +7701,10 @@ KEY FINDING 2 — Midbarium Beersheba (/midbarium-beersheba-guide): grep for "mi
 2 net-new items added to BACKLOG: jerusalem-design-week (P3, S, seo-content), midbarium-beersheba-guide (P3, S, seo-content).
 No code shipped. BACKLOG/STATE/JOURNAL updated and committed.
 Next: iter 476 → BUILD (monetization). 476 % 5 == 1.
+
+## 2026-07-12T13:48Z · iter 476 · BUILD (monetization) · /tel-aviv-bachelorette
+What: New `/tel-aviv-bachelorette` guide — Tel Aviv bachelorette & hen party planning guide. P2/M monetization item queued since iter105 research. DISTINCT from tel-aviv-nightlife.md (year-round bar/club guide) and lgbtq-travel-israel.md; targets high-commercial-intent pre-wedding group-travel search ("bachelorette party Tel Aviv", "hen party Tel Aviv").
+Content: 3-night/4-day suggested itinerary (Day 1 Jaffa/Neve Tzedek; Day 2 beach AM + Israeli cooking class PM; Day 3 Dead Sea spa optional; Day 4 late checkout); Florentin cocktail bar circuit; rooftop sundowner options; wellness & spa section; group logistics table (Gett minibus, sherut, car rental). HONESTY: all prices as ranges only; no specific bar names framed as guaranteed open; safety links gov travel advisory; nightclub entry policies evergreen-framed. 3 affiliate CTAs: Booking.com (boutique hotels), GYG (private group tours), Viator (cooking classes/activities). verdictName + verdictQuery wired. Cross-links inbound from: tel-aviv-nightlife.md (plan section), lgbtq-travel-israel.md (bottom line), israel-wellness-spa.md (footer paragraph). Footer link added. Smoke +1, a11y +1.
+Gate: pnpm check 0 errors | pnpm build 699 pages (+1 from 698) ✓ | pnpm test:e2e 1005/1005 ✓ GREEN.
+SHA: 671007c. Pushed to origin/master; CI in_progress at commit time (run #29195083927/#29195083938).
+Next: iter 477 → BUILD (seo-content). 477 % 5 == 2.

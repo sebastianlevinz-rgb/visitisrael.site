@@ -1,12 +1,12 @@
 # LOOP STATE
 
-- iteration: 475
-- lastMode: RESEARCH (475%5==0) — saturation check, 2 net-new items added (jerusalem-design-week, midbarium-beersheba-guide)
-- lastItem: research-475 — 16 searches, extreme saturation confirmed (95%+), 2 confirmed net-new P3/S items added to BACKLOG
-- lastResult: RESEARCH — no code shipped; BACKLOG.md updated with iter475 additions block; STATE/JOURNAL updated
-- nextRotationCategory: 476%5==1 → BUILD (monetization). 477%5==2 → BUILD (seo-content). 478%5==3 → BUILD (tools fallthrough → seo-content). 479%5==4 → REVIEW. 480%5==0 → RESEARCH.
+- iteration: 476
+- lastMode: BUILD (monetization) — /tel-aviv-bachelorette shipped
+- lastItem: tel-aviv-bachelorette — new guide, 699 pages (+1), 1005/1005 e2e+a11y pass, SHA 671007c
+- lastResult: SHIPPED 671007c — CI in_progress at record time; next iter start-check to confirm
+- nextRotationCategory: 477%5==2 → BUILD (seo-content). 478%5==3 → BUILD (tools fallthrough → seo-content). 479%5==4 → REVIEW. 480%5==0 → RESEARCH. 481%5==1 → BUILD (monetization).
 - higgsfieldSpent: 0
-- updatedAt: 2026-07-12T13:15Z
+- updatedAt: 2026-07-12T13:48Z
 - branch context: work on master; feature work on auto/<slug>
 
 Notes: iter470 RESEARCH — Saturation check across 15+ candidate topics. 14/15 already shipped or queued after 93 prior research iterations. 1 confirmed net-new: /israel-for-chinese-travelers. China is world's largest outbound travel market; Chinese passport holders require B/2 Tourist Visa (NOT ETA-IL eligible) — high-value content gap zero English-language Israel travel site addresses. Content: B/2 visa process, Air China/Hainan/Cathay/Turkish routing, WeChat Pay gap, Mandarin-speaking guides, group tour fit, Jewish-Chinese cultural parallels, kosher/halal food reality. Affiliate CTAs: GYG group tours, Booking.com, Viator Mandarin-guide private tours. False gaps eliminated: India, Australia/NZ, Canada (iter430), Italy/Spain (iter445), Netherlands (iter440), Germany, Japan/Korea/Philippines (iter455), Nordics (iter450), Muslim travel (iter446), vegan (iter242), medical tourism (iter306), wine (multiple), winter/christmas (iter420/shipped), passover (iter155), Timna Park (iter120).

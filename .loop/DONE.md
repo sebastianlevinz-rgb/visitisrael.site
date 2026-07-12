@@ -971,3 +971,13 @@ Value: P2/M seo-content+monetization — timely (inaugural Michelin Guide Israel
 - Gate: pnpm check ✓ | pnpm build 696 pages ✓ | 1000/1000 e2e ✓
 - [iter472] Israel surfing guide (/israel-surfing) → SHA a34c1a0 — P2/S seo-content; 7 Mediterranean surf spots, spot-by-spot breakdown, surf schools, seasonal conditions, wetsuit guide, forecast apps section, 8 FAQs, 3 affiliate CTAs. Cross-links in adventure-sports, tel-aviv-beach, best-beaches guides. 1002 tests pass.
 - [iter473] Israel diamonds & jewelry shopping guide (/israel-diamonds-jewelry) → SHA 400e6f8 — P3/S monetization (tools fallthrough); Ramat Gan Diamond Exchange tourist guide (HaBursa, Mazal U'Bracha plaza), Eilat Stone buying guide (unique Israeli gemstone), Yemenite filigree silver craft, GIA/Kimberley Process honesty, VAT refund tips, 6 FAQs, 3 affiliate CTAs. Cross-link wired from shopping-in-israel.md. 1003 tests pass.
+
+## iter476 — /tel-aviv-bachelorette (Tel Aviv Bachelorette & Hen Party Planning Guide)
+- SHA: 671007c
+- Category: BUILD (monetization), P2/M
+- New file: src/content/guides/tel-aviv-bachelorette.md
+- Affiliates: booking (boutique hotels), getyourguide (private group tours), viator (cooking classes)
+- Content: 3-night/4-day itinerary structure, Florentin cocktail bars circuit, rooftop sundowners, wellness & spa section, group logistics table, 7 FAQs. verdictName + verdictQuery wired.
+- Cross-links inbound: tel-aviv-nightlife.md, lgbtq-travel-israel.md, israel-wellness-spa.md, Footer.astro
+- Gate: pnpm check ✓ | pnpm build 699 pages ✓ | 1005/1005 e2e+a11y ✓
+- Value: Closes P2/M monetization gap for high-commercial-intent bachelorette/hen party group travel queries; strong Booking.com hotel conversion angle for group boutique hotels in Neve Tzedek/Florentin.
