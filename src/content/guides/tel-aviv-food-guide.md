@@ -61,6 +61,10 @@ A guided **food tour** (above) is the fastest way to eat the highlights with con
 - **[Old Jaffa](/jaffa-travel-guide)** — hummus institutions, Abouelafia bakery, Abu Hassan and seafood at the ancient port. See the [complete Jaffa travel guide](/jaffa-travel-guide).
 - **The port (Namal)** — breezy waterfront dining.
 
+## Fine dining and Michelin-starred restaurants
+
+Tel Aviv is also home to some of the most ambitious restaurants in the Middle East. **OCD Tel Aviv** and **Pastel** (in Sarona Market) both appear in La Liste 2026, and the 2025–2026 inaugural Michelin Guide Israel recognised the city's dining scene internationally. See the [complete Israel fine dining and Michelin Guide](/israel-fine-dining) for top-table picks in both Tel Aviv and Jerusalem, booking advice, and price guidance.
+
 ## Plan your trip
 
 Pair the food with the rest of [Tel Aviv](/tel-aviv), and when the sun goes down see our [Tel Aviv nightlife guide](/tel-aviv-nightlife). Planning time in Jerusalem too? The [Jerusalem food guide](/jerusalem-food-guide) covers the Machane Yehuda restaurant scene, Old City hummus and Shabbat planning in the holy city. Sort the essentials — an [eSIM](/israel-esim), [airport transfer](/ben-gurion-airport-transfers) and [travel insurance](/israel-travel-insurance) — before you fly, and browse more [tours and day trips](/best-tours-in-israel).

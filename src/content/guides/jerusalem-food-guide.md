@@ -102,7 +102,9 @@ Mamilla Mall, the pedestrianised promenade leading from Jaffa Gate toward the Ne
 
 ---
 
-## Kosher fine dining
+## Kosher fine dining and Michelin
+
+Jerusalem is home to Israel's first Michelin-starred restaurant: **Shmoné** (Hebrew for "eight"), where Chef Nir Mesika's tasting menu draws on modern Jewish culinary tradition. The city's [fine dining scene](/israel-fine-dining) has gained significant international recognition since the inaugural Michelin Guide Israel was published in 2025–2026.
 
 **Eucalyptus Restaurant** (near Jaffa Gate) has built a niche as Jerusalem's most distinctive kosher fine dining option: the concept is biblical-era ingredients — hyssop, pomegranate, olive oil, lentils, figs — applied through a modern kitchen. The food is genuinely creative and the setting is atmospheric. It requires a reservation and works well for a special occasion dinner. Full kosher supervision.
 

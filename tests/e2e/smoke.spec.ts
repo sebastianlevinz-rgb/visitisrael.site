@@ -536,6 +536,8 @@ const ROUTES = [
   '/dead-sea-day-trip-comparison',
   '/israel-small-group-tours',
   '/petra-wadi-rum-from-eilat',
+  '/jewish-genealogy-israel-trip',
+  '/israel-fine-dining',
 ];
 
 for (const route of ROUTES) {
