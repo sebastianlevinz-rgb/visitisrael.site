@@ -1,13 +1,15 @@
 # LOOP STATE
 
-- iteration: 481
-- lastMode: BUILD (monetization)
-- lastItem: israel-thermal-springs — Hamat Gader & Israel thermal springs guide
-- lastResult: SHIPPED d5675dc
-- nextRotationCategory: 482%5==2 → BUILD (seo-content). 483%5==3 → BUILD (tools fallthrough → seo-content). 484%5==4 → REVIEW. 485%5==0 → RESEARCH. 486%5==1 → BUILD (monetization).
+- iteration: 482
+- lastMode: BUILD (seo-content)
+- lastItem: israel-campervan — Israel campervan & motorhome vanlife guide
+- lastResult: SHIPPED 7a644ff
+- nextRotationCategory: 483%5==3 → BUILD (tools fallthrough → seo-content). 484%5==4 → REVIEW. 485%5==0 → RESEARCH. 486%5==1 → BUILD (monetization). 487%5==2 → BUILD (seo-content).
 - higgsfieldSpent: 0
-- updatedAt: 2026-07-12T19:00Z
+- updatedAt: 2026-07-12T19:45Z
 - branch context: work on master; feature work on auto/<slug>
+
+Notes: iter482 BUILD (seo-content) — /israel-campervan shipped. P2/M seo-content+monetization item (backlog). Israel campervan & motorhome vanlife guide. TerraVan + campervans-israel.com rental options (₪400–800/night). INPA overnight spots: Kinneret shore camps, Ein Gedi/Nahal Arugot, Mitzpe Ramon crater rim (IDA dark-sky certified). Informal free-camp: Ma'ale Akrabim, Uvda Valley (honest leave-no-trace framing). 7-day 900km clockwise loop route (TLV→Rosh Hanikra→Sea of Galilee→Golan→Jordan Valley→Dead Sea→Masada→Mitzpe Ramon). LPG at Paz/Delek (ACME fitting). Van height clearance warnings: Jerusalem Old City garages 1.9–2.1m limit (most 4-berth vans 2.2–2.6m); Tel Aviv underground blocked. Shabbat planning: fuel + groceries by 2pm Friday. 3 affiliate CTAs: DiscoverCars (campervan/car comparison), Booking.com (campsites & fallback), GYG (Negev experiences). Cross-links: israel-road-trip (campervan paragraph added to intro), glamping-israel (campervan alternative paragraph). Footer link added. 703 pages; 1010/1010 e2e+a11y pass. SHA 7a644ff.
 
 Notes: iter481 BUILD (monetization) — /israel-thermal-springs shipped. P2/S seo-content+monetization item (iter110 research). Hamat Gader & Israel thermal springs complete visitor guide. Hamat Gader: 38-45°C mineral pools in multiple temperature zones, Roman-era bath ruins, alligator/crocodile park, Golan Heights location (Route 98 off Road 888). Tiberias hot springs context (Hamat Tiberias National Park — volcanic mineral pools + Byzantine mosaic floor). Ein Gedi sulphur spring cross-link. Comparison table of 4 Israeli thermal/wellness destinations. 3 affiliate CTAs: Booking.com Tiberias spa hotels, DiscoverCars Galilee/Golan car hire, GetYourGuide Galilee day tours. verdictName + verdictQuery wired. Cross-links: israel-wellness-spa (comparison table row + planning tips link), tiberias-guide, northern-israel-road-trip, car-rental-israel, is-israel-safe. Footer link added. Smoke test +1 (1009/1009 pass). SHA d5675dc.
 

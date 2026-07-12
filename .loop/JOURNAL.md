@@ -7759,3 +7759,9 @@ SEO targets: "Hamat Gader hot springs", "Israel thermal springs guide", "spa Isr
 Gate: pnpm check 0 errors | pnpm build 702 pages (+1 from 701) ✓ | pnpm test:e2e 1009/1009 ✓ GREEN.
 SHA: d5675dc. Pushed to origin/master; CI in_progress at commit time (run #29204556000).
 Next: iter 482 → BUILD (seo-content). 482 % 5 == 2.
+
+## 2026-07-12T19:40Z · iter 482 · BUILD (seo-content) · israel-campervan
+What: New guide /israel-campervan — Israel campervan & motorhome vanlife guide (P2/M seo-content+monetization item from backlog). Content covers TerraVan and campervans-israel.com rental options (₪400–800/night); INPA legal overnight spots (Kinneret shore camps, Ein Gedi/Nahal Arugot, Mitzpe Ramon crater rim); informal Negev free-camp spots (Ma'ale Akrabim, Uvda Valley) with honest leave-no-trace framing; 7-day 900km clockwise campervan loop route; LPG refill logistics; van height clearance warnings for Jerusalem Old City garages and Tel Aviv underground; Shabbat planning guide. 3 affiliate CTAs: DiscoverCars (campervan/car comparison), Booking.com (campsites & accommodation), GYG (Negev experiences). Cross-links added: israel-road-trip.md (campervan paragraph in intro), glamping-israel.md (campervan alternative paragraph). Footer link added. Smoke test +1.
+Gate: pnpm check ✓ (0 errors) | pnpm build ✓ (703 pages) | 1010/1010 e2e+a11y ✓
+Merge: squash-merged to master SHA 7a644ff, pushed.
+Prod: Vercel deploy in progress at push time — polling.
