@@ -4643,3 +4643,28 @@ dog-friendly-guide / tel-aviv-layover / archaeology-dig-experience / israel-for-
 After 93 prior research iterations the BACKLOG is extraordinarily comprehensive. 14 of 15 topics investigated were already shipped or queued. Saturation is expected and healthy — the loop has covered the primary inventory. Remaining new items will come from: niche origin-market guides not yet covered (Taiwan, Hong Kong, Malaysia, Singapore — potential iter475+ research); hyper-local city content; seasonal micro-guides; post-Michelin restaurant long-tail.
 
 **Items added to BACKLOG this iteration**: 1 (israel-for-chinese-travelers, P2/M, seo-content+monetization)
+
+## iter480 · 2026-07-12 · RESEARCH · saturation check
+
+Searched for new content gaps at iteration 480. Backlog is heavily saturated (241+ items, 96+ prior research passes). 16+ pattern checks across BACKLOG+DONE. 3 net-new confirmed items found.
+
+### Competitor sites checked
+- touristisrael.com — travel articles list; confirmed Nova/Oct7 memorial covered (already P2-HUMAN-REVIEW in BL); no kitesurfing standalone; no pregnancy travel guide
+- kitejungle.com/kite-places/israel — dedicated Israel kite page: Herzliya (IKS school), Tel Aviv, Eilat; confirms kite gap vs our site
+- unplug-kitesurf.com/destinations/israel — "Top 22 Kitesurf Spots and Schools in Israel"; also confirms Netanya/Poleg Beach, Haifa/Bat Galim
+- globalkitespots.com/global-kitesurf-spots-and-regions/israel — spot atlas, seasonal data
+- kdi.org.il/en/info/shops/schools — Israel Kitesurfing Federation school directory
+- tripadvisor.com/Attractions-g293977-Activities-c61-t184-Israel.html — Israel water sports: kiteboarding listed separately from surfing
+- saxum.org/emmaus-trail — official Emmaus Trail hub; 20km route from Abu Ghosh → Emmaus Nicopolis; guidebook + map downloadable
+- biblicalarchaeology.org — "The Emmaus Trail" article; growing editorial coverage
+- israel21c.org — "Hike in Jesus's footsteps along the Emmaus Trail"; niche but specific pilgrimage audience
+- Tripadvisor Israel forum — active threads on "Visiting Israel while pregnant"; no dedicated page from any competitor
+
+### Findings
+- **kite-school-israel**: 6+ specialist kite directories cover Israel; zero equivalent on visitisrael.site; kitesurfing mentioned in 2 passing bullets in existing guides only → `/israel-kitesurfing` added as P3/S
+- **pregnancy-travel-israel**: Zero competitor editorial guide exists for this segment; only Tripadvisor forum threads; high planning anxiety = high-intent niche → `/israel-pregnancy-travel` added as P3/S
+- **emmaus-trail-guide**: Saxum Visitor Center is the official trailhead; saxon.org + biblicalarchaeology.org + israel21c.org cover the route; zero equivalent on visitisrael.site; Jesus Trail (65km Galilee) is already in BL (distinct); this is 20km Judean Hills Christian pilgrimage route → `/emmaus-trail-guide` added as P3/S
+- **Oct7 memorial sites**: touristisrael.com + beinharimtours.com + exclusiveisraeltours.com all have dedicated guides/tours; our BL already has this as P2 HUMAN-REVIEW-REQUIRED (iter80); remains blocked; not re-added
+- **israel-road-trip-with-kids**: P2 item already in BACKLOG (iter465 addition); not re-added
+- **israel-solo-travel-over-50**: P2 item already in BACKLOG; not re-added
+- **bahai-world-center-guide**: P2 item already in BACKLOG; not re-added (confirmed by specific slug check)

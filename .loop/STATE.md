@@ -1,13 +1,17 @@
 # LOOP STATE
 
-- iteration: 479
-- lastMode: REVIEW — meta trim on iter476/477/478 guides
-- lastItem: review-meta-trim-479 — audited tel-aviv-bachelorette, jerusalem-museums, israel-for-chinese-travelers; fixed 2 over-length descriptions; SHA aa0cd7b
-- lastResult: SHIPPED aa0cd7b — gate green (0 errors, 701 pages, 1008/1008); CI in_progress at push time
-- nextRotationCategory: 480%5==0 → RESEARCH. 481%5==1 → BUILD (monetization). 482%5==2 → BUILD (seo-content). 483%5==3 → BUILD (tools fallthrough → seo-content). 484%5==4 → REVIEW.
+- iteration: 480
+- lastMode: RESEARCH — saturation check iter480; 3 net-new items
+- lastItem: research-saturation-check-480 — kitesurfing, pregnancy-travel, emmaus-trail
+- lastResult: NO-SHIP (research iteration — no code changes)
+- nextRotationCategory: 481%5==1 → BUILD (monetization). 482%5==2 → BUILD (seo-content). 483%5==3 → BUILD (tools fallthrough → seo-content). 484%5==4 → REVIEW. 485%5==0 → RESEARCH.
 - higgsfieldSpent: 0
-- updatedAt: 2026-07-12T16:40Z
+- updatedAt: 2026-07-12T17:30Z
 - branch context: work on master; feature work on auto/<slug>
+
+Notes: iter480 RESEARCH — Saturation check after 96 prior research iterations. Backlog extremely saturated (241+ items). 16+ grep/Python checks across BACKLOG+DONE. 3 confirmed net-new items found: (1) /israel-kitesurfing (P3/S, seo-content+monetization) — standalone kite guide; 5 spots (Herzliya Ha Sharon, Haifa Bat Galim/Dado, Tel Aviv/Ashdod, Netanya Poleg, Eilat Red Sea year-round); IKS+KDI schools; distinct from israel-surfing.md (wave surfing) and israel-adventure-sports.md (1-2 sentence mention only); competitor coverage kitejungle.com + unplug-kitesurf.com + globalkitespots.com. (2) /israel-pregnancy-travel (P3/S, seo-content) — traveling to Israel while pregnant; zero matches in BACKLOG+DONE for "pregnant/pregnancy/maternity"; Dead Sea safety, airport security scanners, Israeli healthcare quality, Zika-free status, heat precautions, airline policies; Tripadvisor forum has active demand. (3) /emmaus-trail-guide (P3/S, seo-content+monetization) — 20km pilgrimage hiking route from Saxum Visitor Center (Abu Ghosh) to Emmaus Nicopolis; distinct from Jesus Trail (65km Galilee; separate BACKLOG P2) and israel-national-trail (1,000km INT); competitor coverage saxum.org + biblicalarchaeology.org + israel21c.org. 30+ candidates checked and rejected as already covered.
+
+Notes: iter479 REVIEW — meta trim on iter476/477/478 guides; fixed 2 over-length descriptions; SHA aa0cd7b
 
 Notes: iter478 BUILD (seo-content) — /israel-for-chinese-travelers shipped. P2/M seo-content+monetization item (iter470 research). Complete planning guide for Chinese passport holders — B/2 Tourist Visa requirement (NOT ETA-IL eligible; ETA-IL only for eligible passport countries; China is NOT on the list), embassy locations in China (Beijing, Shanghai, Guangzhou, Chengdu), required documents (bank statements, return flights, hotel confirmations, insurance), flight routing (Air China direct Beijing→TLV ~10-11h; Cathay Pacific via HKG; Turkish Airlines via IST ~13-15h), WeChat Pay / Alipay not accepted (Visa/Mastercard + NIS cash required), Mandarin-speaking guides via GYG/Viator, Jewish-Chinese cultural parallels (Kaifeng Jewish community, Silk Road trade history, shared values), kosher food explained + halal options for Muslim Chinese travelers, group vs independent travel, 7-day suggested itinerary (TLV → Jerusalem → Dead Sea/Masada → Galilee), safety framing (evergreen + honest), internet freedom in Israel (no Great Firewall). 3 affiliate CTAs: GYG (Mandarin group/private tours), Booking.com (hotel confirmation for visa), Viator (private tours). verdictName + verdictQuery wired. Cross-links: visa-information.md (B/2 visa section → /israel-for-chinese-travelers), best-tours-in-israel.md (Chinese travelers callout), petra-from-israel.md (Jordan Pass note for Chinese citizens needing Jordan visa separately). Smoke +1, a11y +1 → 1008/1008. SEO: "Israel for Chinese travelers", "Israel visa Chinese passport", "B/2 visa Israel China", "Israel Mandarin guide", "Israel trip Chinese tourists".
 
@@ -39,4 +43,4 @@ Notes: iter456 BUILD (monetization) — /dead-sea-day-trip-comparison shipped.
 
 Cron b7325b16 hourly @ :17. Loop history: 19 tools + sitemap-lastmod + link-checker(+depth) + i18n
 Phase0/1a/1b/1c/2 Batches1-18(COMPLETE) + 42 review passes + 3 technical (event-schema + meta-trim + locale-links) + 60 EN guides + 7 tools-monetization + 2 comparisons;
-research iters 5/10/20/30/35/40/45/50/55/60/65/70/75/80/85/90/95/100/105/110/115/120/125/130/135/140/145/150/155/160/165/170/175/180/185/190/195/200/205/210/215/220/225/230/235/240/245/250/255/260/265/270/275/280/285/290/295/300/305/310/315/320/325/330/335/340/345/350/355/360/365/370/375/380/385/390/395/400/405/410/420/425/430/435/440/445/450/455/460/465/470.
+research iters 5/10/20/30/35/40/45/50/55/60/65/70/75/80/85/90/95/100/105/110/115/120/125/130/135/140/145/150/155/160/165/170/175/180/185/190/195/200/205/210/215/220/225/230/235/240/245/250/255/260/265/270/275/280/285/290/295/300/305/310/315/320/325/330/335/340/345/350/355/360/365/370/375/380/385/390/395/400/405/410/420/425/430/435/440/445/450/455/460/465/470/480.
