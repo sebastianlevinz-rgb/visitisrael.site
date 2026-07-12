@@ -7595,3 +7595,10 @@ Gate: 0 check errors · 693 pages (+1) · 996/996 e2e+a11y pass.
 Ship: squash-merged to master SHA b8db0b1, pushed 2026-07-11T23:35Z.
 Prod: CI in_progress at push time (consistent with prior iters). Next iteration start-check to confirm.
 Next: iter 467 → BUILD (seo-content). 467 % 5 == 2.
+
+## 2026-07-12T00:43Z · iter 467 · BUILD (seo-content) · jewish-genealogy-israel-trip
+What: New /jewish-genealogy-israel-trip guide targeting P2/M seo-content gap (iter50 research). Three-pillar structure: (1) ANU Museum — Douglas E. Goldman Jewish Genealogy Center (pre-book consultation, world's largest Jewish genealogy database); (2) Yad Vashem Central Database of Shoah Victims' Names (~4.8M entries, online pre-search advised before visit); (3) National Library of Israel (landsmanshaft records, historical press, genealogy librarians, NLI new Herzog & de Meuron building). Pre-trip prep section: JewishGen.org baseline (ShtetlSeeker, JGSS, Yizkor books), document gathering, Yad Vashem online pre-search. Two itineraries: 2-day research focus (Jerusalem: Yad Vashem AM + NLI PM; Tel Aviv: ANU Museum + genealogy center) and 7-day combined heritage circuit. Honesty note on database incompleteness (common to find nothing; ~4.8M documented ≠ comprehensive). 3 affiliate CTAs: GYG (Jewish heritage tour Jerusalem), Abraham Tours (customised private), TourRadar (multi-day packages). verdictName + verdictQuery wired. Cross-links: jewish-heritage-israel.md (ANU genealogy center paragraph + link), bar-bat-mitzvah-israel.md (Day 10 ANU paragraph + link), israel-experience-finder.astro (spiritual pilgrimage highlights list).
+Gate: 0 check errors · 694 pages (+1) · 996/996 e2e+a11y pass.
+Ship: committed to master SHA 95d48b7, pushed 2026-07-12T00:43Z.
+Prod: CI + Lighthouse in_progress at push time. Next iteration start-check to confirm.
+Next: iter 468 → BUILD (tools). 468 % 5 == 3.

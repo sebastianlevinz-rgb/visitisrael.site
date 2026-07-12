@@ -943,3 +943,9 @@ Value: No Jordan Pass explainer existed anywhere on the site despite every Petra
 **Petra & Wadi Rum from Eilat — 2-day & 3-day tour guide** (/petra-wadi-rum-from-eilat)
 SHA: b8db0b1
 Value: P2/M monetization — highest-commission affiliate opportunity in Israel travel space ($519–595/pp GYG/Viator combo tours). 2-day itinerary (Wadi Rum overnight Bedouin camp + Petra full day), 3-day itinerary (Aqaba overnight variant OR extra Petra day for Monastery), Jordan Pass cost maths, honest package vs DIY breakdown, desert packing section. 3 CTAs: GYG Petra+Wadi Rum packages, Viator overnight tours, TourRadar Israel-Jordan packages. Cross-links from: petra-from-israel, petra-from-eilat-vs-amman, aqaba-from-eilat, israel-jordan-itinerary. 693 pages (+1). 996/996 tests pass.
+
+## iter467 (2026-07-12)
+
+**Jewish Genealogy Research in Israel — Travel Guide** (/jewish-genealogy-israel-trip)
+SHA: 95d48b7
+Value: P2/M seo-content — targets high-intent diaspora segment researching family history. Three-pillar structure: ANU Museum genealogy center (world's largest Jewish genealogy database, free consultation), Yad Vashem Shoah database (~4.8M entries, pre-search online before visit), National Library of Israel (landsmanshaft records + expert librarians). Pre-trip prep (JewishGen.org, document gathering, online Yad Vashem search). Two suggested itineraries (2-day research + 7-day combined heritage). Honesty note on database incompleteness. 3 CTAs: GYG, Abraham, TourRadar. Cross-links from: jewish-heritage-israel, bar-bat-mitzvah-israel, israel-experience-finder. 694 pages (+1). 996/996 tests pass.
