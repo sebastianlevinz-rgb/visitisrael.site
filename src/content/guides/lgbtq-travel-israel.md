@@ -66,4 +66,4 @@ For the general safety picture, see our honest [Is Israel safe?](/is-israel-safe
 
 ## The bottom line
 
-Tel Aviv is a genuinely world-class LGBTQ destination, and Pride is reason enough on its own to plan a June trip — just book early. Beyond the city, Israel rewards travellers who stay aware of where they are. Pair this with our [first-time guide](/first-time-in-israel), the [Tel Aviv guide](/tel-aviv) and our [itineraries](/itineraries) to build the trip.
+Tel Aviv is a genuinely world-class LGBTQ destination, and Pride is reason enough on its own to plan a June trip — just book early. Beyond the city, Israel rewards travellers who stay aware of where they are. Pair this with our [first-time guide](/first-time-in-israel), the [Tel Aviv guide](/tel-aviv) and our [itineraries](/itineraries) to build the trip. For group travel specifically, the [Tel Aviv bachelorette & hen party guide](/tel-aviv-bachelorette) covers group logistics, hotels and activities.

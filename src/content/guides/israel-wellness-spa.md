@@ -144,4 +144,4 @@ The surrounding **Ein Gedi Nature Reserve** — with its year-round spring-fed s
 
 ---
 
-For accommodation at the Dead Sea, rates, resort comparisons and booking timing, see the [Dead Sea hotels guide](/dead-sea-hotels-guide). For a broader introduction to what the Dead Sea region offers — history, geology and combining with nearby sites — see the [Dead Sea visitor guide](/dead-sea-guide).
+For accommodation at the Dead Sea, rates, resort comparisons and booking timing, see the [Dead Sea hotels guide](/dead-sea-hotels-guide). For a broader introduction to what the Dead Sea region offers — history, geology and combining with nearby sites — see the [Dead Sea visitor guide](/dead-sea-guide). Planning a group spa trip as part of a [Tel Aviv bachelorette or hen party](/tel-aviv-bachelorette)? See the dedicated guide for group hotel picks and Dead Sea day-trip logistics.

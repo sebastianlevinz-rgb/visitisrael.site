@@ -360,6 +360,7 @@ const ROUTES = [
   '/israel-season-picker',
   '/israel-egypt-guide',
   '/israel-itinerary-checker',
+  '/tel-aviv-bachelorette',
 ];
 
 for (const route of ROUTES) {
