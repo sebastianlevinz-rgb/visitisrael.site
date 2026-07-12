@@ -1,6 +1,6 @@
 ---
 title: 'Jerusalem Museums Guide: Top 7 to Visit in 2026'
-description: 'The best museums in Jerusalem — Israel Museum (Dead Sea Scrolls), Yad Vashem, Bible Lands Museum, Tower of David, Rockefeller, Museum of Tolerance & National Library. Tickets, hours & tips.'
+description: 'The best museums in Jerusalem: Israel Museum, Yad Vashem, Bible Lands Museum, Tower of David, Rockefeller & Museum of Tolerance. Tickets, hours & tips.'
 heroImage: /images/sub-destinations/jerusalem/israel-museum.jpg
 category: Destinations
 updatedAt: 2026-07-12

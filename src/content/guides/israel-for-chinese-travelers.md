@@ -1,6 +1,6 @@
 ---
 title: 'Israel for Chinese Travelers: Complete 2026 Guide'
-description: 'Complete Israel travel guide for Chinese visitors — B/2 visa requirements, flight options, WeChat Pay reality, Mandarin-speaking guides, kosher food, and group tour tips.'
+description: 'Israel travel guide for Chinese visitors: B/2 visa requirements, flight options, WeChat Pay reality, Mandarin-speaking guides, kosher food and group tour tips.'
 heroImage: /images/regions/jerusalem/old-city.jpg
 category: Planning
 updatedAt: 2026-07-12
