@@ -992,3 +992,4 @@ Value: P2/M seo-content+monetization — timely (inaugural Michelin Guide Israel
 - Cross-links inbound: Footer.astro (new link), israel-museum-jerusalem.md (tail paragraph)
 - Gate: pnpm check ✓ | pnpm build 700 pages ✓ | 1006/1006 e2e+a11y ✓
 - Value: Fills P2/M seo-content gap for "best museums Jerusalem" hub queries; complements existing single-museum guides; multi-day visit angle supports Booking.com hotel conversion.
+- iter478 (2026-07-12) · israel-for-chinese-travelers · a50d62e · New /israel-for-chinese-travelers: complete planning guide for Chinese passport holders — B/2 Tourist Visa requirement (NOT ETA-IL), 4 embassy locations in China, document checklist, Air China/Cathay/Turkish flights, WeChat Pay not accepted, Mandarin guide options, Jewish-Chinese parallels (Kaifeng community), kosher food + halal, group vs independent, 7-day itinerary. 3 CTAs: GYG/Booking/Viator. 701 pages; 1008/1008 e2e+a11y pass.
