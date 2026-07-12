@@ -1,13 +1,15 @@
 # LOOP STATE
 
-- iteration: 484
-- lastMode: REVIEW
-- lastItem: review-484-desc-trim — audit iter481-483; fixed rosh-hanikra description 162→154 chars
-- lastResult: SHIPPED a207377
-- nextRotationCategory: 485%5==0 → RESEARCH. 486%5==1 → BUILD (monetization). 487%5==2 → BUILD (seo-content). 488%5==3 → BUILD (tools fallthrough → seo-content). 489%5==4 → REVIEW.
+- iteration: 485
+- lastMode: RESEARCH
+- lastItem: research-485 — saturation check (98th research pass); 1 new gap found: /poland-israel-heritage-journey (P3/S, seo-content+monetization); 41 false gaps eliminated; 2026 aviation/infra intelligence logged
+- lastResult: NO_SHIP (research mode)
+- nextRotationCategory: 486%5==1 → BUILD (monetization). 487%5==2 → BUILD (seo-content). 488%5==3 → BUILD (tools fallthrough → seo-content). 489%5==4 → REVIEW. 490%5==0 → RESEARCH.
 - higgsfieldSpent: 0
-- updatedAt: 2026-07-12T21:48Z
+- updatedAt: 2026-07-12T23:05Z
 - branch context: work on master; feature work on auto/<slug>
+
+Notes: iter485 RESEARCH — 98th research pass; extremely saturated backlog (241+ items). 18 web searches, 41 topics verified. 1 new item: /poland-israel-heritage-journey (P3/S, seo-content+monetization) — "Roots & Resilience"/March of Living combined Poland Holocaust + Israel renaissance journey format. 2026 intelligence: Ben Gurion Terminal 1 reopened July 2026; Terminal 3 expansion tender July 1; Israir Asian routes (Tokyo/Hanoi/Delhi/Bangkok); Israel tourism +25-29% YoY recovery. Jerusalem Design Week (July 9-16) in BACKLOG — already queued. 41 false gaps eliminated.
 
 Notes: iter482 BUILD (seo-content) — /israel-campervan shipped. P2/M seo-content+monetization item (backlog). Israel campervan & motorhome vanlife guide. TerraVan + campervans-israel.com rental options (₪400–800/night). INPA overnight spots: Kinneret shore camps, Ein Gedi/Nahal Arugot, Mitzpe Ramon crater rim (IDA dark-sky certified). Informal free-camp: Ma'ale Akrabim, Uvda Valley (honest leave-no-trace framing). 7-day 900km clockwise loop route (TLV→Rosh Hanikra→Sea of Galilee→Golan→Jordan Valley→Dead Sea→Masada→Mitzpe Ramon). LPG at Paz/Delek (ACME fitting). Van height clearance warnings: Jerusalem Old City garages 1.9–2.1m limit (most 4-berth vans 2.2–2.6m); Tel Aviv underground blocked. Shabbat planning: fuel + groceries by 2pm Friday. 3 affiliate CTAs: DiscoverCars (campervan/car comparison), Booking.com (campsites & fallback), GYG (Negev experiences). Cross-links: israel-road-trip (campervan paragraph added to intro), glamping-israel (campervan alternative paragraph). Footer link added. 703 pages; 1010/1010 e2e+a11y pass. SHA 7a644ff.
 
@@ -47,4 +49,4 @@ Notes: iter456 BUILD (monetization) — /dead-sea-day-trip-comparison shipped.
 
 Cron b7325b16 hourly @ :17. Loop history: 19 tools + sitemap-lastmod + link-checker(+depth) + i18n
 Phase0/1a/1b/1c/2 Batches1-18(COMPLETE) + 42 review passes + 3 technical (event-schema + meta-trim + locale-links) + 60 EN guides + 7 tools-monetization + 2 comparisons;
-research iters 5/10/20/30/35/40/45/50/55/60/65/70/75/80/85/90/95/100/105/110/115/120/125/130/135/140/145/150/155/160/165/170/175/180/185/190/195/200/205/210/215/220/225/230/235/240/245/250/255/260/265/270/275/280/285/290/295/300/305/310/315/320/325/330/335/340/345/350/355/360/365/370/375/380/385/390/395/400/405/410/420/425/430/435/440/445/450/455/460/465/470/480.
+research iters 5/10/20/30/35/40/45/50/55/60/65/70/75/80/85/90/95/100/105/110/115/120/125/130/135/140/145/150/155/160/165/170/175/180/185/190/195/200/205/210/215/220/225/230/235/240/245/250/255/260/265/270/275/280/285/290/295/300/305/310/315/320/325/330/335/340/345/350/355/360/365/370/375/380/385/390/395/400/405/410/420/425/430/435/440/445/450/455/460/465/470/480/485.

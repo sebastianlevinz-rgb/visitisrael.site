@@ -4668,3 +4668,38 @@ Searched for new content gaps at iteration 480. Backlog is heavily saturated (24
 - **israel-road-trip-with-kids**: P2 item already in BACKLOG (iter465 addition); not re-added
 - **israel-solo-travel-over-50**: P2 item already in BACKLOG; not re-added
 - **bahai-world-center-guide**: P2 item already in BACKLOG; not re-added (confirmed by specific slug check)
+
+## iter485 · 2026-07-12 · RESEARCH · saturation check — Poland-Israel heritage gap + 2026 aviation/infrastructure updates
+
+**Research scope**: Deep saturation check after 98 prior research passes and 484 iterations. Backlog remains extremely saturated (241+ items). Focus areas: competitor content gaps (new niches), 2026 Israel travel developments (aviation, attractions, infrastructure), Eastern European origin-market angles.
+
+**Competitor sites checked**:
+- touristisrael.com/jerusalem-marathon (event listing only; no runner visitor guide)
+- touristisrael.com/maccabiah-games (already SHIPPED iter296 by us)
+- jhtravel.org, jnf.org/travel, ramah.org.il/rii/poland-journey — "Roots & Resilience" / Poland+Israel organized programs: standalone editorial planning guide ABSENT from all competitors
+- itraveljerusalem.com — covers Easter 2026, Jerusalem Marathon 2026, Maccabiah 2026; robust event coverage
+- travelobiz.com/israel-evisa — confirms Israel eVisa system (ETA-IL for exempt countries, eVisa-B2 for India launched from Israeli embassy in New Delhi separately)
+- travelandtourworld.com — Ben Gurion Terminal 1 reopened for international flights July 2026; Terminal 3 expansion tender launched July 1 2026 (new eastern terminal ~50,000m2 + 20,000m2 underground baggage; expected 2028-2029)
+- finishers.com/en/destinations/middle-east/israel — Israel running race calendar 2026 (Jerusalem Marathon Apr 17, Tel Aviv Marathon ~Feb/Mar, Eilat desert runs)
+- newyorkjewishtravelguide.com — Israel tourism expanding with new hotels, attractions 2025-2026
+- newyorkjewishtravelguide.com — Museum of Tolerance Jerusalem (MOTJ) opened March 2025 (already DONE in our jerusalem-museums guide iter477)
+- aardvarkisrael.com/israels-latest-tourist-attractions — Skyfield rooftop adventure at Bloomfield Stadium Jaffa (in BACKLOG)
+
+**Key 2026 intelligence**:
+- Israel aviation: Israir expanding internationally with Asian routes from Passover 2026 (Tokyo, Hanoi, Delhi, Bangkok); El Al already operates TLV-BOM; Air India evaluating Delhi-TLV; ~60 foreign airlines serving TLV July 2026 vs 80 pre-war (recovery ongoing)
+- Ben Gurion Terminal 1 reopened for international flights July 2026 (adds capacity; affects airport guide content)
+- Israel tourism recovering strongly: +25-29% passenger growth July 2026 vs July 2025; 1.32M departing seats in July 2026
+- Ministry of Tourism NIS 230M+ investment in 58 infrastructure projects: Bedouin Heritage Garden Rahat (MISSING from backlog but too small for standalone page), Port of Lights Haifa (in BACKLOG), Valley of Springs illuminated paths Beit Shean (in BACKLOG), Yahel-Timna bike trail (in BACKLOG)
+- Jerusalem Design Week 2026 (July 9-16, Hansen House) — currently in BACKLOG (iter475 research); event HAPPENING NOW as of July 12 — already queued for BUILD (seo-content) rotation
+
+**Confirmed new gap (not in backlog or done)**:
+1. `/poland-israel-heritage-journey` (P3/S, seo-content+monetization) — organized Poland Holocaust memorial + Israel renaissance combined journey. jhtravel.org, jnf.org, ramah.org.il all run programs; no editorial standalone planning guide exists from any competitor. Distinct from jewish-genealogy-israel-trip (SHIPPED iter467) and jewish-heritage-israel (SHIPPED). Added to BACKLOG.
+
+**False gaps eliminated (41 topics verified)**:
+jerusalem-marathon-visitor-guide (yes, maccabiah-games guide already DONE iter296; sports-events-israel in BL); india-to-israel (already in BL, including eVisa-B2 note); digital-nomad-israel (in BL); multigen-travel (DONE); israel-yoga-retreats (in BL); pet-friendly-israel (DONE); ben-gurion-layover (DONE); accessible-travel-israel (DONE); birdwatching (in BL); film-tv-tourism (DONE iter272); silicon-wadi-tech-tours (DONE); yoga-retreat (in BL); maccabiah-games-guide (DONE iter296); haifa-guide (DONE); israel-stargazing (DONE); dark-sky-mitzpe-ramon (DONE); volunteer-archaeology (in BL); sailing-israel (in BL); israel-wine-tasting (DONE); food-wine-festivals (DONE); multigenerational-travel (DONE); six-senses-shaharut (in BL); bedouin-city-rahat (DONE); marathon-running-israel (in BL as sports-events); eastern-european-israel (in BL); russia-israel (in BL); polish-genealogy-israel (different from poland-israel-heritage → polish genealogy angle already in jewish-genealogy SHIPPED); coptic-ethiopian-pilgrimage (in BL).
+
+**Content update notes (not new pages)**:
+- ben-gurion-airport-guide.md: update when next in REVIEW — Terminal 1 reopened July 2026 for international flights; Terminal 3 expansion tender July 1 2026; Israir new Asian routes April 2026
+- visa-information.md / israel-eta-guide.md: eVisa-B2 for Indian passport (distinct from ETA-IL) already documented in india-to-israel backlog item; ensure it's included when that guide is built
+
+**Items added to BACKLOG this iteration**: 1 (poland-israel-heritage-journey, P3/S)

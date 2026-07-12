@@ -7786,3 +7786,17 @@ Defect found: rosh-hanikra description = 162 chars, over the 160-char meta descr
 Fix: trimmed to 154 chars (removed 'and' before 'Ottoman', removed 'and' before final clause).
 Gate: pnpm check 0 errors | pnpm build 704 pages ✓ | 1011/1011 e2e+a11y ✓ GREEN.
 Ship: master SHA a207377, pushed. CI in_progress at journal time.
+
+## 2026-07-12T23:00Z · iter 485 · RESEARCH · saturation check — Poland-Israel heritage gap + 2026 aviation/infra intelligence
+
+Mode: RESEARCH (485 % 5 == 0).
+Scope: 18 web searches, 41 topics verified across BACKLOG + DONE. Backlog remains extremely saturated (241+ items confirmed as of iter480 with 98 prior research passes).
+
+Key findings:
+- 1 confirmed net-new gap: `/poland-israel-heritage-journey` (P3/S, seo-content+monetization). "Roots & Resilience" / "March of the Living" combined Poland Holocaust memorial + Israel renaissance journey format. Organized programs exist (JNF, Ramah, Jewish Heritage Travel) but zero competitor editorial planning guide addresses the Israel chapter in depth. Distinct from jewish-genealogy (DONE), jewish-heritage (DONE), christian-pilgrimage (DONE). Added to BACKLOG.
+- 2026 intelligence logged to COMPETITORS.md: Ben Gurion Terminal 1 reopened July 2026; Terminal 3 expansion tender launched; Israir Asian routes (Tokyo/Hanoi/Delhi/Bangkok); Israel tourism +25-29% YoY recovery; Jerusalem Design Week July 9-16 (in BACKLOG, happening NOW); Maccabiah Games Jun 30-Jul 14 (already SHIPPED iter296 guide).
+- 41 false gaps eliminated (all already in BACKLOG or DONE).
+- Content update notes: airport guide + visa guide need Terminal 1 / eVisa-B2 India updates at next REVIEW pass.
+
+No code changed. No gate run. No ship (RESEARCH mode).
+Next: iter 486 → BUILD (monetization). 486 % 5 == 1.
