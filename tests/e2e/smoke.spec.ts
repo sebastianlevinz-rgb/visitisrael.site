@@ -308,6 +308,7 @@ const ROUTES = [
   '/israel-in-autumn',
   '/israel-in-winter',
   '/israel-spring-wildflowers',
+  '/jerusalem-coffee-guide',
   '/cycling-in-israel',
   '/vegan-vegetarian-israel',
   '/best-hotels-tel-aviv',

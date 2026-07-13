@@ -1,6 +1,6 @@
 ---
 title: 'Israel Spring Wildflowers & Kalanit Season Guide'
-description: 'When and where to see Israel''s wildflower bloom: red anemones in the Negev, cyclamens in the Galilee, and the famous Darom Adom festival — with INPA bloom-tracking tips.'
+description: 'When and where to see Israel''s wildflower bloom: red anemones in the Negev, cyclamens in the Galilee, and Darom Adom festival — with INPA bloom-tracking tips.'
 heroImage: /images/regions/negev/hero.jpg
 category: Planning
 updatedAt: 2026-07-13
