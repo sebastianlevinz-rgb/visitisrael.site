@@ -4730,3 +4730,52 @@ winter-guide (DONE iter292 christmas-in-israel + BACKLOG israel-in-winter); star
 1. `/jerusalem-coffee-guide` (P2/S, seo-content) — Jerusalem specialty coffee scene; distinct from tel-aviv-coffee-guide (DONE iter257); covered by thecoffeevine.com, touristisrael.com "Best Coffee in Jerusalem 2026", debbestfood.com, tabletmag.com. Key cafés: Birma (Emek Refaim), Tmol Shilshom (literary kosher café), Power CoffeeWorks (shuk roaster), Sybaris Rehavia (cold brew), Cafelix (TLV pioneer branch), Coffee Mill (single-origin neighbourhood). Hook: Jerusalem spiritual atmosphere × third-wave coffee = meditative café culture; kosher-certified specialty cafés are the unique local differentiator.
 
 **Items added to BACKLOG this iteration**: 1 (jerusalem-coffee-guide, P2/S)
+
+<!-- iter500 research — 2026-07-13 — 1 net-new item -->
+### 2026-07-13 · iter 500 · Research pass #101 — business travel & MICE scan
+
+**Search scope**: 15+ web searches across touristisrael.com, trade.gov, smartrip-israel.com,
+trutrip.co, hellopebl.com, clickup.com, worldtravelguide.net, psimonmyway.com, carlton.co.il,
+coherentmarketinsights.com, eventify.io, ezus.io, bringfido.com, nativeisrael.com,
+secrettelaviv.com. 40+ python3/grep checks across full BACKLOG.md + DONE.md.
+
+**Competitor intelligence gathered**:
+- touristisrael.com/business-trip-tel-aviv/24551: "5 Things to Know About Your Business Trip to Tel Aviv" — work week (Sun-Thu), dress code (casual), direct communication style, Shabbat scheduling constraints, kosher dining
+- touristisrael.com/doing-business-in-israel-and-israeli-business-customs/24547: Israeli business customs, interrupting as normal, first-name culture, handshake exceptions for religious colleagues
+- touristisrael.com/mice-israel-incentive-travel: MICE overview — Israel as incentive travel destination, ICCET (Expo TLV), ICC Jerusalem capacity, Kenes Group + Kuoni DMC operators
+- touristisrael.com/business-travel: general business travel page (brief)
+- trade.gov/country-commercial-guides/israel-business-travel: US Commercial Service business travel guide for Israel
+- smartrip-israel.com/en/category/business-tourism: business tourism operator (tours + transfers)
+- coherentmarketinsights.com/israel-meetings-incentives-conferences-and-exhibitions-market: $2.35B MICE market 2026; 7.2% CAGR to 2033; IT & telecom = 37.2% share; large enterprises = 39.3%; political instability cited as key risk factor
+- hellopebl.com/resources/blog/business-etiquette-in-israel: detailed etiquette (attire, direct communication, interrupting, name use, Shabbat)
+- carlton.co.il conference page: Carlton TLV venues 10–300 guests; Expo TLV / ICCET as Israel's premier convention centre
+- bringfido.com/destination/country/israel: BringFido has Israel dog-friendly destination page (confirms pet-friendly guide exists externally; visitisrael.site BACKLOG has P2 pet-friendly item from iter240)
+- nativeisrael.com/blog/dogs-in-israel: "Dogs in Israel: Ultimate Guide" (same — pet content covered by BACKLOG)
+- allconferencealert.com/israel: upcoming international conferences in Israel 2026 (academic + tech)
+
+**New competitor gaps confirmed**:
+1. **Israel business travel guide** — touristisrael.com has 3 separate articles covering pieces of this; no competitor has a unified single guide combining business culture + Shabbat impact + venues + accommodation areas + bleisure tips. visitisrael.site has ZERO business travel content. Added to BACKLOG: /israel-business-travel-guide (P2/M, seo-content, [iter500 research]).
+
+**Candidates checked and eliminated (confirmed in BACKLOG or DONE)**:
+- dark tourism: BACKLOG iter355 (israel-dark-tourism P2)
+- volunteer archaeology: BACKLOG iter40 (P3) + iter120 (P2) + iter465 (P3) — 3 different entries
+- pet-friendly travel: BACKLOG iter240 (P2 pet-friendly-israel) + iter465 (P3 dog-friendly)
+- cycling guide: DONE iter238 (/cycling-in-israel)
+- medical tourism: DONE iter367 (/israel-medical-tourism)
+- stargazing/dark sky: BACKLOG iter60 (Mitzpe Ramon stargazing P2)
+- sailing/yacht charter: BACKLOG (sailing item present)
+- honeymoon: BACKLOG iter20 (P3)
+- genealogy tourism: DONE iter467 (/jewish-genealogy-israel-trip)
+- eSIM guide: DONE pre-iter115 (/israel-esim)
+- ETA-IL guide: DONE iter222 (/israel-eta-guide) + iter83 (/israel-visa-eta-checker)
+- LGBTQ travel: DONE (lgbtq-travel-israel.md shipped early)
+- sports tourism: DONE iter496 (/sports-events-israel)
+- food markets hub: DONE iter117 (street food) + iter392 (Sarona) + iter276 (shopping); BACKLOG iter215 (Mahane Yehuda + Jaffa food)
+- wellness/spa hub: BACKLOG iter285 (thermal-baths P3)
+- Krav Maga experience: BACKLOG iter495 (P3)
+- Jerusalem coffee: DONE iter491 (/jerusalem-coffee-guide) [iter490 research discovery, shipped iter491]
+- MICE/event planner (B2B): merged into business travel guide above (consumer-facing editorial)
+- startup/tech tourism: BACKLOG iter160 (P3) [distinct from business travel guide]
+- dog-friendly Israel: BACKLOG iter240 (P2 pet-friendly-israel)
+
+**Items added to BACKLOG this iteration**: 1 (israel-business-travel-guide, P2/M)

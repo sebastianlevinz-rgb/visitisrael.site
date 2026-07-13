@@ -7945,3 +7945,37 @@ Fix: trimmed sports-events-israel description from 169→139 chars (removed trai
 Gate: pnpm check 0 errors | pnpm build 713 pages ✓ | pnpm test:e2e 1020/1020 ✓ GREEN.
 Ship: master SHA d418869, pushed. Prior SHAs (59cd672, 84f47f3) confirmed CI success; d418869 CI in_progress at push time.
 Next: iter 500 → RESEARCH. 500 % 5 == 0.
+
+## 2026-07-13T14:00Z · iter 500 · RESEARCH · 101st research pass — business-travel-israel
+What: RESEARCH iteration 500. Scan for content gaps not yet in BACKLOG or DONE.
+  Method: 15+ targeted web searches (Tourist Israel, trade.gov, TruTrip, ClickUp, Pebl, Carlton TLV,
+  SmartTrip, BringFido, NativeIsrael, coherentmarketinsights.com); 40+ python3 / grep checks across
+  BACKLOG.md + DONE.md against candidate patterns.
+Candidates checked (all already covered):
+  dark-tourism (BACKLOG iter355), volunteer-archaeology (BACKLOG iter40/120/465), pet-friendly (BACKLOG iter240/465),
+  cycling (DONE iter238), medical-tourism (DONE iter367), stargazing (BACKLOG iter60), sailing/yacht (BACKLOG),
+  honeymoon (BACKLOG iter20), genealogy (DONE iter467), eSIM (DONE pre-iter115), ETA-IL (DONE iter83+222),
+  LGBTQ-guide (DONE lgbtq-travel-israel), food-markets-hub (DONE iter117/392 + BACKLOG iter215),
+  wellness-spa-hub (BACKLOG iter285), Jewish-American (no distinct gap from BACKLOG coverage),
+  dark-tourism (BACKLOG), Mea-Shearim (BACKLOG iter275), sports-tourism (DONE iter496),
+  MICE-planner-B2B (merged into business-travel-guide), startup-tech-tour (BACKLOG iter160),
+  medical-tourism (DONE iter367), street-food (DONE iter117), hummus-trail (DONE iter287),
+  Bat-Yam (BACKLOG iter285), Rishon-LeZion (BACKLOG iter285), thermal-baths (BACKLOG iter285),
+  poland-israel-heritage (BACKLOG iter485), krav-maga (BACKLOG iter495), jerusalem-coffee (DONE iter491),
+  dog-friendly (BACKLOG iter240/465), group-tour-planning (BACKLOG iter108), genealogy-tourism (DONE iter467).
+Confirmed net-new (1 item):
+  1. /israel-business-travel-guide (P2/M, seo-content) — zero prior BACKLOG or DONE matches for
+     business.travel/business.trip/corporate.travel/bleisure/MICE; competitor coverage confirmed
+     (touristisrael.com/business-trip-tel-aviv, touristisrael.com/doing-business-in-israel,
+     touristisrael.com/mice-israel-incentive-travel, trade.gov/israel-business-travel); $2.35B
+     Israel MICE market (Coherent Market Insights 2026); distinct from startup-tech-tour (tourist
+     sightseeing) and first-time-in-israel (general visitor). Guide covers: Israeli business culture
+     (directness, chutzpah, dress code), Sun–Thu work week + Shabbat scheduling impact, key
+     conference venues (ICC Jerusalem, Expo TLV/ICCET), best business accommodation areas
+     (Azrieli/Ramat Gan, Givat Ram), logistics (Ben Gurion Fast Train, Gett, Waze), kosher client
+     dining, bleisure extension tips. 3 affiliate CTAs: Booking.com business hotels, DiscoverCars,
+     GYG bleisure tour.
+Saturation note: 101st research pass; backlog remains deeply saturated (200+ ready items, 300+ shipped
+  guides); consistent with recent trend (iter490=1, iter495=1 item per pass).
+Items added to BACKLOG: 1 (israel-business-travel-guide, P2/M)
+Next: iter 501 → BUILD (monetization). 501 % 5 == 1.
