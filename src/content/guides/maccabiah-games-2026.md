@@ -189,3 +189,5 @@ The Maccabiah is a sporting event first, but Israel in July offers much more:
 **Israeli visa / entry**: Most Western passport holders (USA, UK, EU, Canada, Australia, New Zealand) enter Israel visa-free. Israel introduced an ETA-IL (Electronic Travel Authorization) for certain nationalities; check your current requirements at the Israeli Ministry of Interior website or our [visa guide](/visa-information). Non-Jewish supporters accompanying athletes from non-visa-exempt countries should check requirements 3–6 months before arrival.
 
 **Security at events**: Israeli security at large public events (particularly the Opening Ceremony) is thorough. Budget 45–60 minutes for entry at the Opening Ceremony. Bag checks, body screening, and identity document verification are standard. Follow the instructions of Maccabiah security staff; prohibited items lists are published on the event tickets.
+
+For year-round spectator sports in Israel — Maccabi Tel Aviv EuroLeague basketball (October–May), the Tel Aviv and Jerusalem marathons (February–March), and Israeli Premier League football — see the [spectator sports in Israel guide](/sports-events-israel).

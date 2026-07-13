@@ -330,6 +330,7 @@ const ROUTES = [
   '/israel-jordan-itinerary',
   '/christmas-in-israel',
   '/maccabiah-games-2026',
+  '/sports-events-israel',
   '/israel-hidden-gems',
   '/jerusalem-nightlife',
   '/galilee-vs-golan-weekend',
