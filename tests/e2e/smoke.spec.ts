@@ -554,6 +554,7 @@ const ROUTES = [
   '/timna-park-guide',
   '/israel-travel-2026',
   '/israel-music-festivals',
+  '/tel-aviv-museums',
 ];
 
 for (const route of ROUTES) {

@@ -108,6 +108,8 @@ Tours are free with no charge or tip expectation. Book through the official City
 
 The original home of Israel's first prime minister, David Ben-Gurion, in central Tel Aviv is maintained as a house museum open to the public for free. Guided tours run in English on scheduled days and last approximately 45 minutes; the interior is preserved as it was during Ben-Gurion's lifetime, including his substantial personal library.
 
+Independence Hall (Beit Ha'atzmaut) on Rothschild Boulevard — where the State of Israel was declared on 14 May 1948 — is also free to enter and a 10-minute walk away. Both are covered in detail in the [Tel Aviv museums guide](/tel-aviv-museums), which also covers the Tel Aviv Museum of Art, ANU Museum, Eretz Israel Museum, and Design Museum Holon.
+
 ## Practical tips
 
 **National parks preview days.** Several Israel Nature and Parks Authority sites offer periodic free or reduced-rate entry days, typically around national holidays. The annual National Parks Pass (covered separately in the [Israel National Parks Pass guide](/israel-parks-pass-calculator)) pays for itself quickly if you plan to visit three or more paid parks.
