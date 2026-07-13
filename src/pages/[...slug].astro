@@ -9,7 +9,7 @@ import FaqSection from '@/components/FaqSection.astro';
 import JsonLd from '@/components/JsonLd.astro';
 import type { Partner } from '@/config/affiliates';
 import { defaultAuthor } from '@/data/authors';
-import { article, breadcrumbList, eventSchema, SITE, type EventSchemaOpts } from '@/lib/schema';
+import { article, breadcrumbList, eventSchema, faqPage, SITE, type EventSchemaOpts } from '@/lib/schema';
 import { useTranslations, localeHome, type Locale } from '@/i18n/ui';
 import TourVerdict from '@/components/TourVerdict.astro';
 
@@ -93,6 +93,7 @@ const schema = [
   }),
   breadcrumbList(crumbs),
   ...guideEvents.map((e) => eventSchema(e)),
+  ...(faqs.length > 0 ? [faqPage(faqs)] : []),
 ];
 ---
 

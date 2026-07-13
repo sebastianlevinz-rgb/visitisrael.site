@@ -200,3 +200,25 @@ export function hotelList(hotels: HotelRef[], regionName: string) {
     })),
   };
 }
+
+export interface TouristTripOpts {
+  name: string;
+  description: string;
+  image: string;
+  path: string;
+  days?: number;
+}
+
+export function touristTrip(opts: TouristTripOpts) {
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'TouristTrip',
+    name: opts.name,
+    description: opts.description,
+    image: abs(opts.image),
+    url: abs(opts.path),
+    provider: { '@id': ORG_ID },
+    touristType: 'Tourists',
+    ...(opts.days ? { duration: `P${opts.days}D` } : {}),
+  };
+}

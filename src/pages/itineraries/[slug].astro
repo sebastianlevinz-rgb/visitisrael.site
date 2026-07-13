@@ -8,7 +8,7 @@ import AffiliateCard from '@/components/AffiliateCard.astro';
 import FaqSection from '@/components/FaqSection.astro';
 import JsonLd from '@/components/JsonLd.astro';
 import { defaultAuthor } from '@/data/authors';
-import { article, breadcrumbList, faqPage, SITE } from '@/lib/schema';
+import { article, breadcrumbList, faqPage, touristTrip, SITE } from '@/lib/schema';
 
 export async function getStaticPaths() {
   const allItineraries = await getCollection('itineraries');
@@ -60,6 +60,7 @@ const tours = isTelAviv
 const schema = [
   article({ headline: d.title, description: d.description, image: hero, path, authorName: defaultAuthor.name, authorUrl: defaultAuthor.url, datePublished: d.publishedAt, dateModified: d.updatedAt }),
   breadcrumbList(crumbs),
+  touristTrip({ name: d.title, description: d.description, image: hero, path, days: d.days }),
   ...(d.faqs && d.faqs.length > 0 ? [faqPage(d.faqs)] : []),
 ];
 ---
