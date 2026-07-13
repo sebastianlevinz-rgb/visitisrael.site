@@ -126,7 +126,7 @@ In **summer**, the ridge offers a cool breeze above the Harod Valley heat; the d
 
 ## 5. Carmel Mountains Forest Roads {#carmel-mountains}
 
-**Distance:** 40 km (Haifa to Daliyat el-Carmel) · **Driving time:** 50 min without stops · **Best season:** October–May**
+**Distance:** 40 km (Haifa to Daliyat el-Carmel) · **Driving time:** 50 min without stops · **Best season:** October–May
 
 The Carmel ridge rises 546 m above Haifa and is almost entirely forested — pine, oak and carob in a Mediterranean scrubland that smells of resin after rain. Several forest roads cross the ridge between the coastal suburbs and the Druze market town of **Daliyat el-Carmel**, and the drive through them is the most pleasant way to arrive at the village rather than coming up the main highway.
 

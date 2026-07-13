@@ -32,7 +32,7 @@ faqs:
   - question: Can you swim in the Yarkon River in the park?
     answer: "No. The Yarkon River has a long history of water quality issues and swimming is not recommended or permitted. The park's appeal is above the water line: the riverbanks for cycling and running, boat and kayak rental on the river, and the various sports and garden facilities. For swimming, Tel Aviv's beaches are 10–15 minutes west on foot from the park's western edge."
   - question: Is Hayarkon Park suitable for families with young children?
-    answer: "Highly suitable. The park has dedicated children's areas including playgrounds, a small zoo (Safari Park), paddling zones, mini-golf, and a climbing wall with age-appropriate sections. The flat terrain and paved cycling paths are ideal for balance bikes and small children. The Tropical Garden and bird sanctuary add educational interest for older children. Weekends are very busy with Israeli families — arrive early or visit on a weekday for more space."
+    answer: "Highly suitable. The park has dedicated children's areas including playgrounds, paddling zones, mini-golf, and a climbing wall with age-appropriate sections. Meimadion Water Park (in the eastern section; separate paid admission) is one of Tel Aviv's best family water parks in summer. The flat terrain and paved cycling paths are ideal for balance bikes and small children. The Tropical Garden and bird sanctuary add educational interest for older children. Weekends are very busy with Israeli families — arrive early or visit on a weekday for more space."
   - question: When does Hayarkon Park get crowded?
     answer: "Fridays (the Israeli weekend day), Saturday afternoons, and Israeli public holidays are the busiest times — the park fills with families, cyclists, runners and picnickers. Summer Saturday mornings often see outdoor fitness classes, children's events and informal barbecues. For the most peaceful experience, visit on a Sunday to Thursday morning. The park is open 24/7 but most facilities (boats, gardens, cafés) open around 9–10am."
   - question: How do I get to Hayarkon Park from the city centre?
@@ -43,7 +43,7 @@ faqs:
 
 Hayarkon Park — known locally as **Gan HaYarkon** — is Tel Aviv's green lung: a 950-acre ribbon of lawns, river, gardens and cycle paths that runs along the Yarkon River through the northern part of the city. It is where Tel Aviv residents come to breathe, run, picnic, kayak, cycle and do everything that the city's dense streets do not allow. For visitors, it offers a genuinely different side of Tel Aviv — one that has nothing to do with beaches, nightclubs or galleries.
 
-The park stretches roughly 4 kilometres from the Rokach bridge area in the west toward the eastern edges of the city. Within that corridor is an unusual concentration of things to do: a bird sanctuary with over 170 species, a tropical conservatory, a cactus garden, boat rental, cycling paths, a rock-climbing wall, mini-golf, a children's zoo, and one of Israel's largest outdoor concert venues.
+The park stretches roughly 4 kilometres from the Rokach bridge area in the west toward the eastern edges of the city. Within that corridor is an unusual concentration of things to do: a bird sanctuary with over 170 species, a tropical conservatory, a cactus garden, boat rental, cycling paths, a rock-climbing wall, mini-golf, a summer water park (Meimadion), and one of Israel's largest outdoor concert venues.
 
 ---
 
