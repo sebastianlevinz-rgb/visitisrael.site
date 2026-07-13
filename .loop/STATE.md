@@ -1,13 +1,15 @@
 # LOOP STATE
 
-- iteration: 489
-- lastMode: REVIEW
-- lastItem: review-489-meta-fix — audit iter486-488 (timna-park-guide, israel-travel-2026, israel-music-festivals); fixed 1 defect: israel-music-festivals description 168→152 chars
-- lastResult: SHIP 68ddb36
-- nextRotationCategory: 490%5==0 → RESEARCH. 491%5==1 → BUILD (monetization). 492%5==2 → BUILD (seo-content). 493%5==3 → BUILD (tools fallthrough → seo-content). 494%5==4 → REVIEW.
+- iteration: 490
+- lastMode: RESEARCH
+- lastItem: research-490 — pass #99; 35+ web searches, 25+ grep/python checks, 70+ candidates; extreme saturation confirmed (241+ backlog, 300+ done); 1 net-new: jerusalem-coffee-guide (P2/S seo-content)
+- lastResult: RESEARCH (no ship)
+- nextRotationCategory: 491%5==1 → BUILD (monetization). 492%5==2 → BUILD (seo-content). 493%5==3 → BUILD (tools fallthrough → seo-content). 494%5==4 → REVIEW. 495%5==0 → RESEARCH.
 - higgsfieldSpent: 0
-- updatedAt: 2026-07-13T03:45Z
+- updatedAt: 2026-07-13T05:30Z
 - branch context: work on master; feature work on auto/<slug>
+
+Notes: iter490 RESEARCH — research pass #99. 35+ web searches + 25+ python3/grep checks across 70+ candidate topics. Extreme saturation: 241+ backlog items, 300+ DONE pages. 1 confirmed new item: `/jerusalem-coffee-guide` (P2/S seo-content) — Jerusalem specialty coffee guide, distinct from tel-aviv-coffee-guide (DONE iter257); competitor coverage: thecoffeevine.com, debbestfood.com, touristisrael.com "Best Coffee in Jerusalem 2026"; key cafés: Birma (Emek Refaim), Tmol Shilshom (literary kosher), Power CoffeeWorks (shuk roaster), Sybaris Rehavia (cold brew), Cafelix, Coffee Mill. All other 69 candidates confirmed already in BACKLOG or DONE. 
 
 Notes: iter489 REVIEW — audit of iter486-488 guides (timna-park-guide, israel-travel-2026, israel-music-festivals). Checks: (1) title lengths all ≤65 chars (timna 50, travel-2026 38, music-festivals 52 ✓); (2) description lengths: timna 133 ✓, travel-2026 153 ✓, music-festivals 168 chars OVER → fixed to 152; (3) all internal links verified — /negev and /jerusalem are valid region routes ✓; (4) no H1 violations ✓; (5) no aggregateRating/ratingValue ✓; (6) hero images all exist ✓; (7) footer wiring: travel-2026 + music-festivals both in footer ✓; timna-park-guide not in footer (intentional — consistent with red-canyon, hai-bar-yotvata, south-israel-itinerary pattern — discoverable via day-trips-from-eilat + eilat-travel-guide); (8) smoke tests cover all 3 routes ✓; (9) stale remote branch auto/israel-vs-cyprus noted (from iter410-411 cycle, feature already in master) — harmless. Fix shipped: 1014/1014 e2e+a11y pass; SHA 68ddb36. Prod CI in_progress at push time.
 

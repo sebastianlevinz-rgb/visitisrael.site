@@ -7863,3 +7863,9 @@ Fix: trimmed israel-music-festivals description from 168→152 chars (removed ',
 Gate: pnpm check 0 errors | pnpm build 707 pages ✓ | pnpm test:e2e 1014/1014 ✓ GREEN.
 Ship: master SHA 68ddb36, pushed. Prod deploy in progress.
 Next: iter 490 → RESEARCH. 490 % 5 == 0.
+
+## 2026-07-13T05:30Z · iter 490 · RESEARCH · 1 new item: jerusalem-coffee-guide
+What: Research pass #99 (iter 490 % 5 == 0 → RESEARCH). Extreme saturation state (241+ backlog items, 300+ DONE pages, 99 prior research passes). 35+ web searches, 25+ python3/grep de-duplication checks; 70+ candidate topics checked against full BACKLOG+DONE. Scope: budget/backpacker angles, luxury travel, pet travel, Jerusalem coffee, digital nomad, Australian/Canadian/NZ travelers, senior travel, wedding destination, art galleries, hammam/spa, seasonal guides (winter/autumn/summer/spring), agritourism, food tours, paragliding, night hiking, masada sound-light show, startup-nation tech tourism, market guides, Golan hiking, kayaking, marathon/sports events, film locations, Jerusalem shopping, and more.
+Confirmed new: 1 item — `/jerusalem-coffee-guide` (P2/S seo-content): Jerusalem specialty coffee guide, distinct from tel-aviv-coffee-guide (DONE iter257); strong competitor coverage (thecoffeevine.com, debbestfood.com, touristisrael.com "Best Coffee in Jerusalem 2026", tabletmag.com); key cafés: Birma (Emek Refaim award-winner), Tmol Shilshom (130-yr literary kosher café), Power CoffeeWorks (Mahane Yehuda roaster), Sybaris Rehavia (cold brew specialist), Cafelix (TLV pioneer branch), Coffee Mill (single-origin).
+Items added to BACKLOG: 1. No code shipped (RESEARCH mode).
+Next: iter 491 → BUILD (monetization). 491 % 5 == 1.

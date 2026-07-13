@@ -4703,3 +4703,30 @@ jerusalem-marathon-visitor-guide (yes, maccabiah-games guide already DONE iter29
 - visa-information.md / israel-eta-guide.md: eVisa-B2 for Indian passport (distinct from ETA-IL) already documented in india-to-israel backlog item; ensure it's included when that guide is built
 
 **Items added to BACKLOG this iteration**: 1 (poland-israel-heritage-journey, P3/S)
+
+<!-- iter490 research — 2026-07-13 — extreme saturation confirmed; 1 net-new item -->
+### 2026-07-13 · iter 490 · Research pass #99 — saturation scan
+
+**Search scope**: 35+ web searches across brokebackpacker.com, takeyourbackpack.com, touristisrael.com, beinharimtours.com, timeout.com/israel, debbestfood.com, thecoffeevine.com, tripadvisor.com, itraveljerusalem.com, secrettelaviv.com, giltravel.com, artisansofleisure.com, tzurtours.com, exclusiveisraeltours.com, skylineisrael.com, deadsea.com, frommers.com, shalomisraeltours.com, smartraveller.gov.au, hinterlandtravel.com, parks.org.il (INPA), israelrail.com. 25+ python3/grep checks against full BACKLOG+DONE across 100+ candidate patterns.
+
+**2026 intel gathered**:
+- brokebackpacker.com: dedicated "backpacking Israel 2026" guide (already DONE iter317 `/backpacking-israel`)
+- artisansofleisure.com, tzurtours.com, israelux.com: luxury Israel private tours $500–$1,500/person/day (already DONE iter146 `/luxury-travel-israel`)
+- giltravel.com: "5 Remarkable Contemporary Art Galleries in Israel" (already BACKLOG `/israel-art-galleries`)
+- skylineisrael.com: "Top 5 Paragliding Spots in Israel" — Netanya cliffs, Mount Tabor, Golan Heights, Masada, Carmel Mountains (already BACKLOG as paragliding item)
+- deadsea.com + frommers.com + shalomisraeltours.com: Masada Sound & Light Show dedicated guides — show is Tues/Thurs only; May–Oct 8:30–9:00pm; INPA parks.org.il/reserve-park/masada-orkol is the booking page — content absorbed into existing masada-visitor-guide per prior BACKLOG decision
+- smartraveller.gov.au: Australia ORANGE advisory for Israel (reconsider your need to travel); eTA required; Qantas+El Al codeshare via Bangkok; 24h+ flight (already BACKLOG `/israel-for-australian-travelers` since iter430)
+- hinterlandtravel.com/australia: dedicated "Traveling to Israel from Australia 2026" page (covered by BACKLOG item above)
+- touristisrael.com: Masada cable car, Western Wall, Jerusalem Festival of Light (all covered); New hotels 2026: Dizengoff 99, Palatin, Six Senses TLV, Basel Complex, Leon Towers, luxury eco-hotel Herzliya Marina (BACKLOG `/new-luxury-hotels-israel-2026` covers these)
+- thecoffeevine.com + debbestfood.com + tabletmag.com: ALL have dedicated Jerusalem coffee coverage (CONFIRMED NEW GAP → `/jerusalem-coffee-guide` added)
+- tripadvisor.com: Best Art Galleries Tel Aviv 2026, Best Hammams Tel Aviv — art galleries already BACKLOG; hammam content absorbed into `/israel-wellness-spa` (DONE iter263 + Akko hammam already DONE)
+- itraveljerusalem.com: Jerusalem restaurant list 2026 (already DONE iter161 `/jerusalem-food-guide`)
+- magnificent travel + kimkim.com: Israel in October/November autumn guides (already DONE iter386 `/israel-in-autumn`)
+
+**Candidates checked and eliminated (not new)**:
+winter-guide (DONE iter292 christmas-in-israel + BACKLOG israel-in-winter); startup-nation (BACKLOG iter280); tel-aviv-pride (BACKLOG); senior-travel (DONE iter48); backpacking (DONE iter317); luxury-travel (DONE iter146); digital-nomad (BACKLOG); muslim-travel (DONE iter446); agritourism (DONE iter288); jerusalem-food (DONE iter161); jerusalem-shopping (DONE iter276 + DONE iter217 mahane-yehuda); autumn-guide (DONE iter386); summer-guide (DONE iter237); art-galleries (BACKLOG); carmel-market (DONE iter156); film-tv-tourism (DONE iter272); israel-photography (DONE iter351); horseback (DONE early); sailing (BACKLOG); paragliding (BACKLOG); night-hiking (BACKLOG); masada-sound-light-show (content absorbed into masada-visitor-guide per BACKLOG note); australian-travelers (BACKLOG iter430); canadian-travelers (BACKLOG iter430); japanese-travelers (BACKLOG iter430); korean-travelers (BACKLOG iter430); south-african-travelers (BACKLOG); pregnancy-travel (BACKLOG iter480); emmaus-trail (BACKLOG iter480); poland-israel-heritage (BACKLOG iter485). Total candidates checked: 70+; eliminated: 69; confirmed new: 1.
+
+**Confirmed new gap (1 item)**:
+1. `/jerusalem-coffee-guide` (P2/S, seo-content) — Jerusalem specialty coffee scene; distinct from tel-aviv-coffee-guide (DONE iter257); covered by thecoffeevine.com, touristisrael.com "Best Coffee in Jerusalem 2026", debbestfood.com, tabletmag.com. Key cafés: Birma (Emek Refaim), Tmol Shilshom (literary kosher café), Power CoffeeWorks (shuk roaster), Sybaris Rehavia (cold brew), Cafelix (TLV pioneer branch), Coffee Mill (single-origin neighbourhood). Hook: Jerusalem spiritual atmosphere × third-wave coffee = meditative café culture; kosher-certified specialty cafés are the unique local differentiator.
+
+**Items added to BACKLOG this iteration**: 1 (jerusalem-coffee-guide, P2/S)
