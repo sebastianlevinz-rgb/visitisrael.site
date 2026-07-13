@@ -557,6 +557,7 @@ const ROUTES = [
   '/tel-aviv-museums',
   '/jerusalem-festival-of-light',
   '/israel-business-travel-guide',
+  '/israel-unesco-sites',
 ];
 
 for (const route of ROUTES) {
