@@ -195,4 +195,4 @@ See the [Eilat travel guide](/eilat-travel-guide) and [Eilat diving guide](/eila
 
 The vehicle is essential for days 4 and 5–6. Days 1–3 are entirely walkable or by train. Keep the heavy outdoor history concentrated in the morning windows; afternoons are coast, markets and museums.
 
-See [best time to visit Israel](/best-time-to-visit-israel) for how summer compares across the full year, and [first time in Israel](/first-time-in-israel) for the planning essentials.
+See [best time to visit Israel](/best-time-to-visit-israel) for how summer compares across the full year, [Israel in autumn](/israel-in-autumn) for what follows — cranes, wine harvest, and the post-Sukkot quiet — [Israel in winter](/israel-in-winter) for Dead Sea sunshine and the wildflower season, and [first time in Israel](/first-time-in-israel) for the planning essentials.

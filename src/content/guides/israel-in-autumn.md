@@ -185,4 +185,4 @@ Days 4–7 require a rental car. Days 1–3 are walkable or by train. See [car r
 
 ---
 
-See [best time to visit Israel](/best-time-to-visit-israel) for how autumn compares with the full year, [Israel events and festivals](/israel-events-festivals) for the Sukkot + autumn calendar, and [first time in Israel](/first-time-in-israel) for the planning essentials.
+See [best time to visit Israel](/best-time-to-visit-israel) for how autumn compares with the full year, [Israel events and festivals](/israel-events-festivals) for the Sukkot + autumn calendar, [Israel in winter](/israel-in-winter) for what follows — Dead Sea sunshine, Hanukkah, and the Negev wildflower bloom — and [first time in Israel](/first-time-in-israel) for the planning essentials.

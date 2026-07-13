@@ -306,6 +306,7 @@ const ROUTES = [
   '/israel-craft-beer',
   '/israel-in-summer',
   '/israel-in-autumn',
+  '/israel-in-winter',
   '/cycling-in-israel',
   '/vegan-vegetarian-israel',
   '/best-hotels-tel-aviv',
