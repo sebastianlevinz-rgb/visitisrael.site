@@ -1,6 +1,6 @@
 ---
 title: 'Spectator Sports in Israel: Live Events Guide (2026–2027)'
-description: 'Attend live sports in Israel: Maccabi Tel Aviv basketball, the Jerusalem and Tel Aviv marathons, Israeli football, and the Maccabiah Games — a guide for sports tourists.'
+description: 'Attend live sports in Israel: Maccabi Tel Aviv basketball, the Jerusalem and Tel Aviv marathons, Israeli football, and the Maccabiah Games.'
 heroImage: /images/regions/tel-aviv/hero.jpg
 category: Experiences
 updatedAt: 2026-07-13
