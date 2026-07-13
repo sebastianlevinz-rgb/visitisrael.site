@@ -8053,3 +8053,17 @@ ben-gurion-airport-guide checklist.
 
 **Gate:** RESEARCH — no code changes; no gate run.
 **Next:** iter 506 → BUILD (monetization → fall-through seo-content if no pending monetization).
+
+## 2026-07-13T21:10Z · iter 506 · BUILD (seo-content) · israel-best-scenic-drives
+
+**Mode:** BUILD — iter 506%5==1 → monetization (exhausted) → fell through to seo-content.
+
+**Item:** `/israel-best-scenic-drives` (P2/S, seo-content) — 7-route scenic drives hub page.
+
+**What:** New guide at /israel-best-scenic-drives covering Israel's 7 top scenic drives with at-a-glance comparison table and per-route write-ups: (1) Highway 40 Negev Spine (Beer Sheva→Mitzpe Ramon; Sde Boker/Ein Avdat/Avdat UNESCO/crater rim); (2) Jerusalem Hills Route 395 (Sha'ar HaGai→Jerusalem via Ein Kerem forest); (3) Golan Route 98 Border Road (Nimrod Fortress, Banias, Quneitra viewpoint, Mount Bental, wineries); (4) Gilboa Ridge Route 667 (iris bloom Feb–Mar, Jezreel Valley panorama, Beit She'an connection); (5) Carmel Mountains Forest Roads (Haifa to Daliyat el-Carmel Druze village via national park forest); (6) Sea of Galilee Ridge Route 7717 (Poriah Heights descent with Kinneret panorama, dawn photography); (7) Route 90 Dead Sea Shore (lowest road on Earth –400m, Qumran→Ein Gedi→Ein Bokek). 5 FAQs; 3 CTAs: DiscoverCars (primary car rental), Booking.com hotels en-route, GYG guided day tours. Cross-links added to car-rental-israel.md and driving-in-israel.md; footer Driving section link added ("Best scenic drives in Israel"). Smoke test +1 (/israel-best-scenic-drives).
+
+**Gate:** pnpm check 0 errors; pnpm build 716 pages (+1 from 715); pnpm test:e2e 1023/1023 pass (was 1022 — +1 smoke test). Fixed 2 broken links in first draft: /negev-highway-40-guide (not yet built — replaced with mitzpe-ramon-guide + south-israel-itinerary references) and /yad-vashem (corrected to /yad-vashem-visitor-guide).
+
+**Merge SHA:** 38cbb4e. Pushed to master. CI in_progress at push time; prior SHA (0421ea7) CI success.
+
+**Next:** iter 507 → BUILD (seo-content — 507%5==2).
