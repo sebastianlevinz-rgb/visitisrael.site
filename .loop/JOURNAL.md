@@ -7875,3 +7875,10 @@ What: Jerusalem specialty coffee guide (/jerusalem-coffee-guide). P2/S seo-conte
 Gate: pnpm check 0 errors | pnpm build 708 pages ✓ | pnpm test:e2e 1014/1014 ✓ GREEN.
 Ship: squash-merged to master dd582fd, pushed.
 Next: iter 492 → BUILD (seo-content). 492 % 5 == 2.
+
+## 2026-07-13T06:50Z · iter 492 · BUILD (seo-content) · israel-in-winter
+What: Israel in Winter seasonal guide (/israel-in-winter). P2/M seo-content item completing the seasonal guide suite alongside israel-in-summer (iter unknown, pre-492) and israel-in-autumn. Seasonal long-tail backlog item. Core premise: Israel in winter is two trips — warm/sunny south (Dead Sea 20–24°C, Eilat Red Sea peak) vs cool/rainy north (Jerusalem atmospheric and cheapest of year). 6 winter-specific sections: (1) Winter split south vs north framing; (2) Christmas in Bethlehem/Nazareth + Hanukkah — cross-links christmas-in-israel; (3) Darom Adom wildflower bloom (anemones peak late Jan–Feb, Shokeda Forest, Elah Valley, Adulam-France) — links daromadom.co.il honesty; (4) Dead Sea and Eilat peak comfort — cross-links dead-sea-guide, eilat-travel-guide, eilat-diving-snorkeling; (5) Mount Hermon skiing — cross-links mount-hermon-skiing; (6) Jerusalem Old City winter quiet + snow — cross-links jerusalem-museums, masada-visitor-guide. Region-by-region breakdown (TLV/coast, Jerusalem, Dead Sea, Galilee/Golan, Eilat). Packing table (Jerusalem vs Dead Sea/Negev vs Eilat columns). Budget table (Jerusalem/TLV 30–50% cheaper Jan; Eilat 40–80% more expensive). 9-day sample itinerary. 7 FAQs. 3 affiliate CTAs: GYG Christmas/Holy Land tours, GYG Dead Sea/Eilat winter, Booking Israel hotels. Cross-links updated in: best-time-to-visit-israel.md (winter section +link), israel-in-autumn.md (footer +link), israel-in-summer.md (footer +link). Smoke test added.
+Gate: pnpm check 0 errors | pnpm build 709 pages (+1) ✓ | pnpm test:e2e 1015/1015 ✓ GREEN.
+Ship: squash-merged to master 3b14461, pushed.
+Prod: CI + Lighthouse in_progress at push time; next iteration start-check will confirm.
+Next: iter 493 → BUILD (tools fallthrough → seo-content). 493 % 5 == 3.

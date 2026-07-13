@@ -1,13 +1,15 @@
 # LOOP STATE
 
-- iteration: 491
+- iteration: 492
 - lastMode: BUILD
-- lastItem: jerusalem-coffee-guide (P2/S seo-content) — SHIPPED dd582fd
-- lastResult: SHIPPED
-- nextRotationCategory: 492%5==2 → BUILD (seo-content). 493%5==3 → BUILD (tools fallthrough → seo-content). 494%5==4 → REVIEW. 495%5==0 → RESEARCH. 496%5==1 → BUILD (monetization).
+- lastItem: israel-in-winter (P2/M seo-content) — SHIPPED 3b14461
+- lastResult: SHIPPED (CI in_progress at push time)
+- nextRotationCategory: 493%5==3 → BUILD (tools fallthrough → seo-content). 494%5==4 → REVIEW. 495%5==0 → RESEARCH. 496%5==1 → BUILD (monetization). 497%5==2 → BUILD (seo-content).
 - higgsfieldSpent: 0
-- updatedAt: 2026-07-13T06:00Z
+- updatedAt: 2026-07-13T06:50Z
 - branch context: work on master; feature work on auto/<slug>
+
+Notes: iter492 BUILD (seo-content) — /israel-in-winter shipped. P2/M seo-content item (seasonal suite completion). Israel in Winter guide covering December–February: Dead Sea peak comfort (20–24°C), Christmas/Hanukkah in Bethlehem and Nazareth, Negev wildflower bloom (Darom Adom anemones, peak Feb), Mount Hermon skiing, Jerusalem snow, and Eilat Red Sea peak season. Completes seasonal suite alongside israel-in-summer + israel-in-autumn. 7 FAQs (Dec/Jan/Feb verdicts, Jerusalem snow, Dead Sea winter, skiing), 3 affiliate CTAs (GYG Christmas tours + Dead Sea/Eilat + Booking hotels). Region-by-region breakdown, packing table, budget comparison (Jerusalem/TLV 30–50% cheaper; Eilat 40–80% costlier), 9-day sample itinerary. Dense cross-links: christmas-in-israel, mount-hermon-skiing, dead-sea-guide, eilat-travel-guide, eilat-diving-snorkeling, masada-visitor-guide, birdwatching-in-israel, jerusalem-museums, best-time-to-visit-israel, israel-events-festivals. Cross-links from israel-in-summer and israel-in-autumn footers added; best-time-to-visit-israel.md winter section updated. Smoke test +1. 709 pages; 1015/1015 e2e+a11y pass; SHA 3b14461. CI in_progress at push time.
 
 Notes: iter491 BUILD (seo-content) — /jerusalem-coffee-guide shipped. P2/S seo-content item (iter490 research discovery). Jerusalem specialty coffee guide, companion to tel-aviv-coffee-guide (DONE iter257). Key cafés: Power CoffeeWorks (Mahane Yehuda market roaster), Birma (Emek Refaim), Tmol Shilshom (literary kosher café, Nahalat Shiva), Sybaris (Rehavia, cold brew focus), Cafelix Jerusalem branch, Coffee Mill (German Colony). 2 affiliate CTAs (GYG food tour + Booking hotels). 7 FAQs (TLV vs Jerusalem difference, Shabbat hours, prices, best cafés, best area, kosher cafés, guided tours). Neighbourhood circuit: Mahane Yehuda → Nachlaot → Emek Refaim → Rehavia. Cross-links: jerusalem-food-guide, mahane-yehuda-market-guide, jerusalem-neighborhoods-guide, kosher-food-guide, tel-aviv-coffee-guide, tel-aviv-vs-jerusalem, first-time-in-israel, jerusalem-old-city-walking-tour. 708 pages; 1014/1014 e2e+a11y pass. SHA dd582fd.
 
