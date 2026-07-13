@@ -66,7 +66,7 @@ Not everyone has days to spare. Israel's best day hikes deliver outsized scenery
 
 ## When to go
 
-- **Spring (March–May):** the best all-rounder — wildflowers in the north, comfortable desert temperatures, flowing springs.
+- **Spring (March–May):** the best all-rounder — wildflowers in the north, comfortable desert temperatures, flowing springs. The kalanit (anemone) bloom peaks January–February in the Negev; Galilee orchids and irises continue through April. See the [wildflowers and kalanit season guide](/israel-spring-wildflowers) for bloom-specific hiking routes.
 - **Autumn (October–November):** the second window, especially for the desert.
 - **Winter (December–February):** good for the **southern desert** (cool, clear); the north can be cold and wet, and waterfalls run full.
 - **Summer (June–September):** fine early-morning in the cooler north; **avoid the Negev and Eilat entirely** — the heat is genuinely dangerous.

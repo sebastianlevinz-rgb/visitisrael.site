@@ -80,7 +80,7 @@ The kalanit (anemone) bloom is Israel's most spectacular seasonal natural event 
 - **Elah Valley** (Judean foothills) — purple lupines and anemones in February–March
 - **Adulam-France Regional Forest** (Judean foothills, near Beit Shemesh) — mixed wildflowers on a short loop trail
 
-The bloom is genuinely spectacular in a good year and one of the most-photographed events in Israel. Combine a wildflower morning with an afternoon in Mitzpe Ramon or the Ramon Crater (90 minutes south).
+The bloom is genuinely spectacular in a good year and one of the most-photographed events in Israel. Combine a wildflower morning with an afternoon in Mitzpe Ramon or the Ramon Crater (90 minutes south). See the [wildflowers and kalanit season guide](/israel-spring-wildflowers) for a full breakdown of sites, cyclamen locations, and the Darom Adom festival logistics.
 
 ### 3. Dead Sea and Eilat in peak comfort
 
