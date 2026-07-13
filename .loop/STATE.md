@@ -1,13 +1,15 @@
 # LOOP STATE
 
-- iteration: 490
-- lastMode: RESEARCH
-- lastItem: research-490 — pass #99; 35+ web searches, 25+ grep/python checks, 70+ candidates; extreme saturation confirmed (241+ backlog, 300+ done); 1 net-new: jerusalem-coffee-guide (P2/S seo-content)
-- lastResult: RESEARCH (no ship)
-- nextRotationCategory: 491%5==1 → BUILD (monetization). 492%5==2 → BUILD (seo-content). 493%5==3 → BUILD (tools fallthrough → seo-content). 494%5==4 → REVIEW. 495%5==0 → RESEARCH.
+- iteration: 491
+- lastMode: BUILD
+- lastItem: jerusalem-coffee-guide (P2/S seo-content) — SHIPPED dd582fd
+- lastResult: SHIPPED
+- nextRotationCategory: 492%5==2 → BUILD (seo-content). 493%5==3 → BUILD (tools fallthrough → seo-content). 494%5==4 → REVIEW. 495%5==0 → RESEARCH. 496%5==1 → BUILD (monetization).
 - higgsfieldSpent: 0
-- updatedAt: 2026-07-13T05:30Z
+- updatedAt: 2026-07-13T06:00Z
 - branch context: work on master; feature work on auto/<slug>
+
+Notes: iter491 BUILD (seo-content) — /jerusalem-coffee-guide shipped. P2/S seo-content item (iter490 research discovery). Jerusalem specialty coffee guide, companion to tel-aviv-coffee-guide (DONE iter257). Key cafés: Power CoffeeWorks (Mahane Yehuda market roaster), Birma (Emek Refaim), Tmol Shilshom (literary kosher café, Nahalat Shiva), Sybaris (Rehavia, cold brew focus), Cafelix Jerusalem branch, Coffee Mill (German Colony). 2 affiliate CTAs (GYG food tour + Booking hotels). 7 FAQs (TLV vs Jerusalem difference, Shabbat hours, prices, best cafés, best area, kosher cafés, guided tours). Neighbourhood circuit: Mahane Yehuda → Nachlaot → Emek Refaim → Rehavia. Cross-links: jerusalem-food-guide, mahane-yehuda-market-guide, jerusalem-neighborhoods-guide, kosher-food-guide, tel-aviv-coffee-guide, tel-aviv-vs-jerusalem, first-time-in-israel, jerusalem-old-city-walking-tour. 708 pages; 1014/1014 e2e+a11y pass. SHA dd582fd.
 
 Notes: iter490 RESEARCH — research pass #99. 35+ web searches + 25+ python3/grep checks across 70+ candidate topics. Extreme saturation: 241+ backlog items, 300+ DONE pages. 1 confirmed new item: `/jerusalem-coffee-guide` (P2/S seo-content) — Jerusalem specialty coffee guide, distinct from tel-aviv-coffee-guide (DONE iter257); competitor coverage: thecoffeevine.com, debbestfood.com, touristisrael.com "Best Coffee in Jerusalem 2026"; key cafés: Birma (Emek Refaim), Tmol Shilshom (literary kosher), Power CoffeeWorks (shuk roaster), Sybaris Rehavia (cold brew), Cafelix, Coffee Mill. All other 69 candidates confirmed already in BACKLOG or DONE. 
 
