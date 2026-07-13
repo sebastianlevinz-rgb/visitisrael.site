@@ -1,13 +1,15 @@
 # LOOP STATE
 
-- iteration: 497
+- iteration: 498
 - lastMode: BUILD (seo-content)
-- lastItem: tel-aviv-museums — /tel-aviv-museums six-museum Tel Aviv visitor guide SHIPPED 4ac3ad7
-- lastResult: SHIPPED; 712 pages (+1); 1019/1019 e2e+a11y pass; CI in_progress at push time
-- nextRotationCategory: 498%5==3 → BUILD (tools fallthrough → seo-content). 499%5==4 → REVIEW. 500%5==0 → RESEARCH.
+- lastItem: jerusalem-festival-of-light — /jerusalem-festival-of-light dedicated guide SHIPPED 84f47f3
+- lastResult: SHIPPED; 713 pages (+1); 1020/1020 e2e+a11y pass; CI in_progress at push time
+- nextRotationCategory: 499%5==4 → REVIEW. 500%5==0 → RESEARCH. 501%5==1 → BUILD (monetization).
 - higgsfieldSpent: 0
-- updatedAt: 2026-07-13T11:20Z
+- updatedAt: 2026-07-13T11:50Z
 - branch context: work on master; feature work on auto/<slug>
+
+Notes: iter498 BUILD (seo-content) — /jerusalem-festival-of-light shipped. P3/S seo-content item (iter100 research). Jerusalem Festival of Light dedicated guide: 10-night annual free light-art festival in Old City (June each year). Key content: 3km free walking route through all 4 Old City quarters (Jewish/Christian/Muslim/Armenian + Tower of David), free vs premium (Tower of David ticketed show at towerofdavid.org.il), timing and crowd tips (weekday 10pm+ for quietest experience), photography guide (Night Mode, long exposure, Jerusalem limestone tips), logistics (Red Line light rail to City Hall, Mamilla car park, Tel Aviv day-trip via 90-min train), accommodation booking lead-time warning (40-60% price surge, book 3-4 months ahead), TLV day-trip logistics. Honesty-first: always link festivaloflight.co.il for confirmed dates and map; no venue price fabrication; "typically early-to-mid June" evergreen framing. 7 FAQs. 3 affiliate CTAs: GYG Jerusalem evening tours, Booking.com Jerusalem hotels, Viator guided light-festival tours. Wired: Footer Essentials +1 (after israel-music-festivals); israel-evening-activities cross-link updated to /jerusalem-festival-of-light; israel-events-festivals closing paragraph updated with dedicated guide link. Smoke test +1. 713 pages; 1020/1020 e2e+a11y pass; SHA 84f47f3. Note: git reset --hard origin/master needed at start (local master was at iter361, 50 commits diverged from origin/master).
 
 Notes: iter497 BUILD (seo-content) — /tel-aviv-museums shipped. P3/S seo-content item (iter85 research). Six-museum Tel Aviv guide: Tel Aviv Museum of Art (5 pavilions, Rothschild/King Saul Blvd), ANU Museum Jewish People (Tel Aviv University, world's largest Jewish diaspora museum, genealogy database), Eretz Israel Museum (Ramat Aviv multi-pavilion: archaeology/glass/coins/ethnography/planetarium), Ben-Gurion House (free, ~20k books), Independence Hall (free, Rothschild Blvd, 1948 Declaration site), Design Museum Holon (Ron Arad Corten building). Honesty-first: no fabricated prices; official-site links for all admissions; Design Museum exhibition caveat. 7 FAQs. 3 affiliate CTAs: Booking.com TLV hotels, GYG culture tours, DiscoverCars (Holon car access). Cross-link from free-things-to-do-israel (Ben-Gurion House item). Footer +1. Smoke +1. 712 pages; 1019/1019 e2e+a11y pass; 4ac3ad7.
 

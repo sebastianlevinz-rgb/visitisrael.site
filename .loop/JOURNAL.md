@@ -7916,3 +7916,24 @@ Gate: pnpm check 0 errors | pnpm build 712 pages (+1) ✓ | pnpm test:e2e 1019/1
 Ship: 4ac3ad7, pushed to master.
 Prod: CI in_progress at push time; next iteration start-check will confirm.
 Next: iter 498 → BUILD (tools fallthrough → seo-content). 498 % 5 == 3.
+
+## 2026-07-13T11:50Z · iter 498 · BUILD (seo-content) · jerusalem-festival-of-light
+What: New /jerusalem-festival-of-light — dedicated Jerusalem Festival of Light guide. P3/S seo-content
+  item (iter100 research). Tools category empty (all 11 shipped) → fell through to seo-content.
+  10-night annual free light-art festival in Jerusalem Old City each June; estimated 200-250k visitors/year;
+  only 1 line in israel-events-festivals.md + brief section in israel-evening-activities previously.
+  Key content: 3km free walking route through all 4 quarters (Jewish/Christian/Muslim/Armenian + Tower of
+  David); free route vs premium Tower of David ticketed show; timing tips (weekday + 10pm+ for quietest);
+  photography guide (Night Mode, long exposure, Jerusalem limestone); logistics (Red Line light rail,
+  Mamilla car park, Tel Aviv day trip via 90-min train + last-train caveats); accommodation warning
+  (40-60% price surge, book 3-4 months ahead). Honesty: always link festivaloflight.co.il for dates;
+  no venue price fabrication; evergreen "typically early-to-mid June" framing.
+  7 FAQs. 3 affiliate CTAs: GYG Jerusalem evening tours, Booking.com Jerusalem hotels, Viator guided tours.
+  Cross-links updated: israel-evening-activities Festival of Light section now links to standalone guide;
+  israel-events-festivals closing paragraph updated with dedicated guide link. Footer Essentials +1.
+  Smoke test +1 (1020 total).
+  Setup: local master was at iter361 (50 commits behind origin/master) → git reset --hard origin/master.
+Gate: pnpm check 0 errors | pnpm build 713 pages (+1 from 712) | pnpm test:e2e 1020/1020 ✓ GREEN.
+Ship: committed 84f47f3 to master, pushed to origin/master. Branch auto/jerusalem-festival-of-light deleted.
+Prod: CI in_progress at push time (last confirmed CI run on 0119ca6 = success; consistent prior pattern).
+Next: iter 499 → REVIEW. 499 % 5 == 4.
