@@ -7937,3 +7937,11 @@ Gate: pnpm check 0 errors | pnpm build 713 pages (+1 from 712) | pnpm test:e2e 1
 Ship: committed 84f47f3 to master, pushed to origin/master. Branch auto/jerusalem-festival-of-light deleted.
 Prod: CI in_progress at push time (last confirmed CI run on 0119ca6 = success; consistent prior pattern).
 Next: iter 499 → REVIEW. 499 % 5 == 4.
+
+## 2026-07-13T12:40Z · iter 499 · REVIEW · audit iter496-498 (sports-events-israel, tel-aviv-museums, jerusalem-festival-of-light)
+What: REVIEW of 3 most recently shipped BUILD guides.
+Checks: (1) title lengths — sports-events-israel 57 ✓; tel-aviv-museums 44 ✓; jerusalem-festival-of-light 47 ✓; (2) description lengths — sports-events-israel 169 OVER → fixed to 139; tel-aviv-museums 122 ✓; jerusalem-festival-of-light 156 ✓; (3) H1 in body — 0 violations ✓; (4) hero images — all 3 exist in public/ ✓; (5) smoke tests — all 3 routes present in smoke.spec.ts ✓; (6) footer wiring — all 3 present in Footer.astro ✓; (7) internal links — all resolve (maccabiah-games-2026, israel-events-festivals, tel-aviv-neighborhoods-guide, free-things-to-do-israel, jerusalem-museums, day-trips-from-tel-aviv, holy-sites-dress-code-etiquette, israel-evening-activities, etc.); (8) aggregateRating/ratingValue/reviewCount — 0 occurrences ✓.
+Fix: trimmed sports-events-israel description from 169→139 chars (removed trailing ' — a guide for sports tourists.' phrase).
+Gate: pnpm check 0 errors | pnpm build 713 pages ✓ | pnpm test:e2e 1020/1020 ✓ GREEN.
+Ship: master SHA d418869, pushed. Prior SHAs (59cd672, 84f47f3) confirmed CI success; d418869 CI in_progress at push time.
+Next: iter 500 → RESEARCH. 500 % 5 == 0.

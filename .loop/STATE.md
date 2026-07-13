@@ -1,13 +1,15 @@
 # LOOP STATE
 
-- iteration: 498
-- lastMode: BUILD (seo-content)
-- lastItem: jerusalem-festival-of-light — /jerusalem-festival-of-light dedicated guide SHIPPED 84f47f3
-- lastResult: SHIPPED; 713 pages (+1); 1020/1020 e2e+a11y pass; CI in_progress at push time
-- nextRotationCategory: 499%5==4 → REVIEW. 500%5==0 → RESEARCH. 501%5==1 → BUILD (monetization).
+- iteration: 499
+- lastMode: REVIEW
+- lastItem: review-499 — audit iter496-498 (sports-events-israel, tel-aviv-museums, jerusalem-festival-of-light) SHIPPED d418869
+- lastResult: SHIPPED; 713 pages (unchanged); 1020/1020 e2e+a11y pass; CI in_progress at push time
+- nextRotationCategory: 500%5==0 → RESEARCH. 501%5==1 → BUILD (monetization). 502%5==2 → BUILD (seo-content).
 - higgsfieldSpent: 0
-- updatedAt: 2026-07-13T11:50Z
+- updatedAt: 2026-07-13T12:40Z
 - branch context: work on master; feature work on auto/<slug>
+
+Notes: iter499 REVIEW — audit of iter496-498 (sports-events-israel, tel-aviv-museums, jerusalem-festival-of-light). Checks: (1) title lengths — all ≤65 chars (sports-events 57, tel-aviv-museums 44, jerusalem-festival-of-light 47 ✓); (2) description lengths — sports-events-israel 169 chars OVER → trimmed to 139 (removed ' — a guide for sports tourists.'); tel-aviv-museums 122 ✓; jerusalem-festival-of-light 156 ✓; (3) H1 in body — 0 violations in all 3 ✓; (4) hero images — all exist in public/ ✓; (5) smoke tests — all 3 routes in smoke.spec.ts ✓; (6) footer wiring — all 3 in Footer.astro ✓; (7) internal links — all resolved (maccabiah-games-2026, israel-events-festivals, tel-aviv-neighborhoods-guide, free-things-to-do-israel, jerusalem-museums, day-trips-from-tel-aviv, etc. all confirmed present); (8) no aggregateRating/ratingValue/reviewCount fabrication ✓. One fix: sports-events-israel description trimmed 169→139 chars. Gate: pnpm check 0 errors | pnpm build 713 pages ✓ | pnpm test:e2e 1020/1020 ✓ GREEN. Ship: d418869, pushed to master. Prod CI in_progress at push time; prior SHAs (59cd672, 84f47f3) both CI success. Next: iter 500 → RESEARCH.
 
 Notes: iter498 BUILD (seo-content) — /jerusalem-festival-of-light shipped. P3/S seo-content item (iter100 research). Jerusalem Festival of Light dedicated guide: 10-night annual free light-art festival in Old City (June each year). Key content: 3km free walking route through all 4 Old City quarters (Jewish/Christian/Muslim/Armenian + Tower of David), free vs premium (Tower of David ticketed show at towerofdavid.org.il), timing and crowd tips (weekday 10pm+ for quietest experience), photography guide (Night Mode, long exposure, Jerusalem limestone tips), logistics (Red Line light rail to City Hall, Mamilla car park, Tel Aviv day-trip via 90-min train), accommodation booking lead-time warning (40-60% price surge, book 3-4 months ahead), TLV day-trip logistics. Honesty-first: always link festivaloflight.co.il for confirmed dates and map; no venue price fabrication; "typically early-to-mid June" evergreen framing. 7 FAQs. 3 affiliate CTAs: GYG Jerusalem evening tours, Booking.com Jerusalem hotels, Viator guided light-festival tours. Wired: Footer Essentials +1 (after israel-music-festivals); israel-evening-activities cross-link updated to /jerusalem-festival-of-light; israel-events-festivals closing paragraph updated with dedicated guide link. Smoke test +1. 713 pages; 1020/1020 e2e+a11y pass; SHA 84f47f3. Note: git reset --hard origin/master needed at start (local master was at iter361, 50 commits diverged from origin/master).
 
