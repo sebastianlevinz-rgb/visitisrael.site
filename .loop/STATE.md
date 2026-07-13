@@ -1,13 +1,15 @@
 # LOOP STATE
 
-- iteration: 503
-- lastMode: BUILD (seo-content) [tools category exhausted; fell through to seo-content]
-- lastItem: israel-unesco-sites (P2/M seo-content) — Israel's 9 UNESCO World Heritage Sites hub SHIPPED 8a8ec7c
-- lastResult: GREEN; 715 pages; 1022/1022 e2e+a11y pass (exit code 0); prod CI in_progress at push time
-- nextRotationCategory: 504%5==4 → REVIEW. 505%5==0 → RESEARCH. 506%5==1 → BUILD (monetization).
+- iteration: 504
+- lastMode: REVIEW
+- lastItem: meta-trim-501-503 — trimmed over-limit meta on iter501-503 guides (business-travel desc 167→145, UNESCO title 66→62, UNESCO desc 203→139)
+- lastResult: GREEN; 715 pages; 1022/1022 e2e+a11y pass; SHA 21f51c7. CI in_progress at push time; prior SHA (0f617f3) CI success.
+- nextRotationCategory: 505%5==0 → RESEARCH. 506%5==1 → BUILD (monetization). 507%5==2 → BUILD (seo-content). 508%5==3 → BUILD (tools or fall-through). 509%5==4 → REVIEW.
 - higgsfieldSpent: 0
-- updatedAt: 2026-07-13T17:40Z
+- updatedAt: 2026-07-13T18:50Z
 - branch context: work on master; feature work on auto/<slug>
+
+Notes: iter504 REVIEW — audit of iters 501–503 (israel-business-travel-guide, faq-tourist-trip-schema, israel-unesco-sites). Found 3 meta violations: business-travel desc 167 chars (limit 160); UNESCO title 66 chars (limit 65); UNESCO desc 203 chars (limit 160). All trimmed via branch auto/meta-trim-501-503. Gate: 0 check errors; 715 pages; 1022/1022 e2e+a11y pass. SHA 21f51c7. CI in_progress at push time; prior SHA (0f617f3) CI success. Next: iter 505 → RESEARCH.
 
 Notes: iter503 BUILD (seo-content) — tools category fully exhausted (all 11 tools shipped); monetization also fully exhausted (all archived/shipped); fell through to seo-content P2. Picked /israel-unesco-sites (P2/M seo-content, iter125 research) — Israel's 9 UNESCO World Heritage Sites authority hub. 9 site entries (Masada, Old City of Acre, White City TLV, Biblical Tels ×3, Incense Route ×4 cities, Bahá'í Haifa, Carmel Caves, Beit Guvrin, Beit She'arim). At-a-glance table (site, year, region, INPA pass, infrastructure). 3 sample road-trip itineraries. 3 affiliate CTAs: GYG UNESCO tours, DiscoverCars, Booking.com. Cross-link added to jewish-heritage-israel.md closing practical tips. Footer Essentials +1. Smoke test +1. 715 pages; 1022/1022 e2e+a11y pass; SHA 8a8ec7c. CI in_progress at push time; prior SHA (4992485) status was in_progress at its push time per iter502 notes. Next: iter 504 → REVIEW.
 

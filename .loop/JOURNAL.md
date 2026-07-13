@@ -8019,3 +8019,18 @@ ben-gurion-airport-guide checklist.
 **Gate:** pnpm check 0 errors | pnpm build 715 pages (+1) | pnpm test:e2e 1022/1022 ✅ GREEN.
 **Merge SHA:** 8a8ec7c. Pushed to master. Prod CI in_progress at push time.
 **Next:** iter 504 → REVIEW. 505 → RESEARCH.
+
+## 2026-07-13T18:50Z · iter 504 · REVIEW · meta-trim-501-503
+
+**Scope:** Audit of iters 501–503 shipped pages: /israel-business-travel-guide (iter501), FAQPage+TouristTrip schema batch (iter502), /israel-unesco-sites (iter503).
+
+**Findings:**
+- business-travel-guide description: 167 chars (limit 160) — trimmed to 145 chars (removed "fast-train logistics, and" from the list)
+- israel-unesco-sites title: 66 chars (limit 65) — trimmed to 62 chars ("All 9 Explained (2026 Guide)" → "Complete Visitor Guide")
+- israel-unesco-sites description: 203 chars (limit 160) — trimmed to 139 chars (simplified phrasing + removed redundant site list)
+- FAQPage/TouristTrip schema (iter502): wired correctly in [...slug].astro (faqPage() called on faqs array); TouristTrip helper in schema.ts — no violations found.
+
+**Fix:** Branch auto/meta-trim-501-503; 3 meta field edits across 2 files; squash-merged.
+
+**Gate:** pnpm check 0 errors | pnpm build 715 pages (unchanged) | pnpm test:e2e 1022/1022 ✅ GREEN.
+**Merge SHA:** 21f51c7. Pushed to master. Prod CI in_progress at push time; prior SHA (0f617f3) CI success.
