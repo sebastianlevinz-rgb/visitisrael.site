@@ -7839,3 +7839,19 @@ Gate: pnpm check 0 errors | pnpm build 706 pages (+1 from 705) | pnpm test:e2e 1
 Ship: committed d013722 to master, pushed to origin/master. Branch auto/israel-travel-2026 deleted.
 Prod: CI in_progress at push time (consistent prior pattern; iter486 run confirms pipeline healthy).
 Next: iter 488 → BUILD (tools fallthrough → seo-content). 488 % 5 == 3.
+
+## 2026-07-13T03:15Z · iter 488 · BUILD (seo-content) · israel-music-festivals
+What: new /israel-music-festivals — Israel music & arts festivals attendance guide (P2/S backlog item, iter110).
+  6 flagship festivals: Meteor Festival (Negev crater electronic, Sept, camping ₪450–900+), Jerusalem Festival
+  of Light (Old City, June, free walking route 10 nights), Tamar Music Festival (Dead Sea classical, Oct,
+  ₪150–400), Tel Aviv International Jazz Festival (May, free+paid), Eilat Chamber Music Festival (Dec, ₪80–250),
+  Purim in Tel Aviv (Feb/Mar, Dizengoff Square, free). Format: glance table + per-festival sections (what to
+  expect, tickets, logistics, cross-links) + planning tips (buying tickets, accommodation, transport to remote
+  venues) + safety context. 5 Event JSON-LD schema entries, 6 FAQs, 3 affiliate CTAs (GYG culture tours,
+  Booking festival hotels, GYG Negev nights). Wired: Footer Essentials +1 (Music & arts festivals link),
+  israel-events-festivals.md closing paragraph updated to cross-link /israel-music-festivals. Smoke test +1.
+  Startup: local master 50 commits behind origin → git reset --hard origin/master.
+Gate: pnpm check 0 errors | pnpm build 707 pages (+1 from 706) | pnpm test:e2e 1014/1014 pass — GREEN.
+Ship: committed e781683 to master, pushed to origin/master. Branch auto/israel-music-festivals deleted.
+Prod: CI Lighthouse in_progress at push time; next iteration start-check will confirm.
+Next: iter 489 → REVIEW. 489 % 5 == 4.
