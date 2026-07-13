@@ -78,7 +78,7 @@ Allow 45–60 minutes one-way at a relaxed pace. The return leg north is equally
 
 The Yarkon River flows west through the north of the city, and the park along its banks has a dedicated cycle path running roughly 10km inland from the seafront. This is quieter than the Tayelet, shaded in long stretches, and passes Sportek (a sports complex with kayak rental), the Yarkon park's stone bridge, the park gardens and, further east, the Reading power station area. It connects naturally to the Hayarkon Park cycling loop, which adds another several kilometres of car-free path around the park's interior.
 
-This route suits anyone wanting to escape the beach-crowd atmosphere and cycle in green space rather than beside the sea.
+This route suits anyone wanting to escape the beach-crowd atmosphere and cycle in green space rather than beside the sea. For a deeper look at what the park offers beyond cycling — boat rental, bird sanctuary, botanical gardens and concerts — see the [Hayarkon Park visitor guide](/hayarkon-park-tel-aviv).
 
 ### 3. White City Bauhaus loop
 

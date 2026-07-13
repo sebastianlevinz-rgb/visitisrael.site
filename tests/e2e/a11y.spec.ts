@@ -362,6 +362,7 @@ const ROUTES = [
   '/israel-itinerary-checker',
   '/tel-aviv-bachelorette',
   '/israel-for-chinese-travelers',
+  '/hayarkon-park-tel-aviv',
 ];
 
 for (const route of ROUTES) {
