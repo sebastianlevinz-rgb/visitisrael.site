@@ -7995,3 +7995,17 @@ ben-gurion-airport-guide checklist.
 **Gate:** pnpm check 0 errors | pnpm build 714 pages (+1) | pnpm test:e2e 1021/1021 ✅ GREEN.
 **Merge SHA:** 3bdc096. Pushed to master. Prod CI in_progress at push time (pending confirmation).
 **Next:** iter 502 → BUILD (seo-content). 503 → BUILD (tools). 504 → REVIEW.
+
+## 2026-07-13T16:50Z · iter 502 · BUILD (seo-content) · faq-tourist-trip-schema
+
+**Item:** P2/S seo-content — Expand FAQPage schema coverage + add TouristTrip schema to itineraries.
+
+**Built:** 5 files changed:
+- `src/lib/schema.ts`: added `touristTrip()` helper (TouristTrip @type, duration P{N}D ISO 8601, provider=ORG_ID, touristType="Tourists", url, image)
+- `src/pages/[...slug].astro`: imported `faqPage` + added `...(faqs.length > 0 ? [faqPage(faqs)] : [])` to schema array — 248+ EN guides now emit FAQPage JSON-LD
+- `src/pages/itineraries/[slug].astro`: added `touristTrip()` to schema array (6 EN itineraries now emit TouristTrip schema with P{N}D duration)
+- `src/pages/fr/itineraries/[slug].astro`: same touristTrip addition (6 FR itineraries)
+- `src/pages/de/itineraries/[slug].astro`: same touristTrip addition (6 DE itineraries)
+
+**Gate:** pnpm check 0 errors | pnpm build 714 pages (no change, template-only) | pnpm test:e2e exit code 0 ✅ GREEN.
+**Merge SHA:** 4992485. Pushed to master. Prod CI in_progress at push time.
