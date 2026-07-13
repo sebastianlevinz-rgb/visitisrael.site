@@ -559,6 +559,7 @@ const ROUTES = [
   '/jerusalem-festival-of-light',
   '/israel-business-travel-guide',
   '/israel-unesco-sites',
+  '/negev-highway-40-guide',
 ];
 
 for (const route of ROUTES) {
