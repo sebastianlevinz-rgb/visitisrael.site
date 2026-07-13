@@ -7890,3 +7890,10 @@ Gate: pnpm check 0 errors | pnpm build 710 pages (+1) ✓ | pnpm test:e2e 1016/1
 Ship: squash-merged to master 9eec99c, pushed.
 Prod: CI in_progress at push time; next iteration start-check will confirm.
 Next: iter 494 → REVIEW. 494 % 5 == 4.
+
+## 2026-07-13T08:50Z · iter 494 · REVIEW · review-494-desc-smoke-footer
+What: REVIEW of iter491–493 guides (jerusalem-coffee-guide, israel-in-winter, israel-spring-wildflowers). Checks run: (1) title lengths — all ≤65 chars (spring-wildflowers 48, israel-in-winter 61, jerusalem-coffee-guide 62 ✓); (2) description lengths — israel-spring-wildflowers 169 chars OVER → fixed to 158 by removing "the famous" before "Darom Adom festival"; israel-in-winter 155 ✓; jerusalem-coffee-guide 144 ✓; (3) hero images — all 9 CTA/hero images verified to exist ✓; (4) no H1 violations ✓; (5) no aggregateRating/ratingValue ✓; (6) smoke tests — israel-in-winter ✓, israel-spring-wildflowers ✓, jerusalem-coffee-guide MISSING → added; (7) footer wiring — israel-spring-wildflowers ✓; israel-in-winter intentionally absent (all 3 seasonal guides undiscoverable from footer, consistent pattern — routed via best-time-to-visit-israel); jerusalem-coffee-guide MISSING while tel-aviv-coffee-guide companion was present → added after tel-aviv-coffee-guide; (8) key internal links verified (bethlehem-travel-guide, mount-hermon-skiing, zichron-yaakov-guide all exist ✓). Three fixes applied: (a) desc trim; (b) smoke test +1; (c) footer +1.
+Gate: pnpm check 0 errors | pnpm build 710 pages ✓ | pnpm test:e2e 1017/1017 ✓ GREEN (+1 smoke test).
+Ship: 20062e1, pushed to master.
+Prod: CI in_progress at push time; next iteration start-check will confirm.
+Next: iter 495 → RESEARCH. 495 % 5 == 0.
