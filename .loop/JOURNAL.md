@@ -7909,3 +7909,10 @@ Gate: pnpm check 0 errors | pnpm build 711 pages (+1) ✓ | pnpm test:e2e 1018/1
 Ship: 3640f734, squash-merged to master, pushed.
 Prod: CI success, Lighthouse success — both for SHA 3640f734. PRODUCTION verified.
 Next: iter 497 → BUILD (seo-content). 497 % 5 == 2.
+
+## 2026-07-13T11:20Z · iter 497 · BUILD (seo-content) · tel-aviv-museums
+What: New /tel-aviv-museums guide — six-museum Tel Aviv visitor guide covering: Tel Aviv Museum of Art (5 pavilions, Rothschild/King Saul Blvd), ANU Museum of the Jewish People (world's largest Jewish diaspora museum, Tel Aviv University campus, genealogy database — advance appointment for research services noted), Eretz Israel Museum (Ramat Aviv multi-pavilion complex — archaeology, glass, coins, ethnography, planetarium), Ben-Gurion House (free; ~20,000-book library; English tour times change — call ahead), Independence Hall/Beit Ha'atzmaut (free; 16 Rothschild Blvd, 1948 Declaration site), Design Museum Holon (Ron Arad Corten-steel building, contemporary design; check current programme before visiting). Honesty-first: no fabricated admission prices — "check official website" pattern used throughout; warns about Design Museum's rotating-exhibitions model. 7 FAQs. 3 affiliate CTAs: Booking.com Tel Aviv hotels, GYG culture tours, DiscoverCars (Holon car access). Cross-link paragraph added to free-things-to-do-israel.md (Ben-Gurion House item) → /tel-aviv-museums. Footer Essentials +1 (before jerusalem-museums). Smoke test +1.
+Gate: pnpm check 0 errors | pnpm build 712 pages (+1) ✓ | pnpm test:e2e 1019/1019 ✓ GREEN.
+Ship: 4ac3ad7, pushed to master.
+Prod: CI in_progress at push time; next iteration start-check will confirm.
+Next: iter 498 → BUILD (tools fallthrough → seo-content). 498 % 5 == 3.

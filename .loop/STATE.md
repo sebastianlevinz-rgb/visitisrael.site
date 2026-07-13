@@ -1,13 +1,15 @@
 # LOOP STATE
 
-- iteration: 496
-- lastMode: BUILD (monetization)
-- lastItem: sports-events-israel — /sports-events-israel spectator sports guide SHIPPED 3640f734
-- lastResult: SHIPPED; 711 pages (+1); 1018/1018 e2e+a11y pass; CI+Lighthouse success
-- nextRotationCategory: 497%5==2 → BUILD (seo-content). 498%5==3 → BUILD (tools fallthrough → seo-content). 499%5==4 → REVIEW. 500%5==0 → RESEARCH.
+- iteration: 497
+- lastMode: BUILD (seo-content)
+- lastItem: tel-aviv-museums — /tel-aviv-museums six-museum Tel Aviv visitor guide SHIPPED 4ac3ad7
+- lastResult: SHIPPED; 712 pages (+1); 1019/1019 e2e+a11y pass; CI in_progress at push time
+- nextRotationCategory: 498%5==3 → BUILD (tools fallthrough → seo-content). 499%5==4 → REVIEW. 500%5==0 → RESEARCH.
 - higgsfieldSpent: 0
-- updatedAt: 2026-07-13T11:00Z
+- updatedAt: 2026-07-13T11:20Z
 - branch context: work on master; feature work on auto/<slug>
+
+Notes: iter497 BUILD (seo-content) — /tel-aviv-museums shipped. P3/S seo-content item (iter85 research). Six-museum Tel Aviv guide: Tel Aviv Museum of Art (5 pavilions, Rothschild/King Saul Blvd), ANU Museum Jewish People (Tel Aviv University, world's largest Jewish diaspora museum, genealogy database), Eretz Israel Museum (Ramat Aviv multi-pavilion: archaeology/glass/coins/ethnography/planetarium), Ben-Gurion House (free, ~20k books), Independence Hall (free, Rothschild Blvd, 1948 Declaration site), Design Museum Holon (Ron Arad Corten building). Honesty-first: no fabricated prices; official-site links for all admissions; Design Museum exhibition caveat. 7 FAQs. 3 affiliate CTAs: Booking.com TLV hotels, GYG culture tours, DiscoverCars (Holon car access). Cross-link from free-things-to-do-israel (Ben-Gurion House item). Footer +1. Smoke +1. 712 pages; 1019/1019 e2e+a11y pass; 4ac3ad7.
 
 Notes: iter493 BUILD (seo-content) — /israel-spring-wildflowers shipped. P2/S seo-content item (iter135 research, iter65 research). Israel spring wildflowers & kalanit season guide. Captures: kalanit/anemone conservation story, Darom Adom festival (daromadom.co.il, dates vary by rainfall), 5 Negev sites (Nitzanim, Shokeda Forest, Eshkol fields, Halutza Sands, Mitzpe Ramon), 5 Judean Hills/coast sites (Elah Valley/Lupine Hill, Adulam-France Forest, Ramat HaNadiv, HaMeara Cave area, Sataf), 3 Galilee/Golan sites (Birya Forest, Arbel NR, Tel Dan area), INPA bloom-tracking resources, photography tips, conservation rules (₪730 fine), season summary table by region/species/peak window. 7 FAQs. 3 affiliate CTAs: GYG Negev day tour, GYG Galilee tours, Booking.com south Israel hotels. Cross-links from israel-in-winter (new section) + hiking-in-israel (spring bullet expanded). Footer link added. 710 pages; 1016/1016 e2e+a11y pass (+1 smoke test); 9eec99c.
 
