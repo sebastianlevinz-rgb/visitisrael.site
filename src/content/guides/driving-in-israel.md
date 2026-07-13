@@ -116,6 +116,7 @@ Not sure yet whether you need a car at all? Take the quick [Should I rent a car 
 Make sure you have sorted:
 
 - **[Car rental](/car-rental-israel)** — compare companies and pick up timing so you avoid Shabbat office closures
+- **[Best scenic drives in Israel](/israel-best-scenic-drives)** — 7 top routes from the Negev Highway 40 to the Golan border road and the Dead Sea shore
 - **[Self-drive road trip itinerary](/israel-road-trip)** — full 7-day clockwise circuit (Tel Aviv → north coast → Galilee → Golan → Dead Sea → Negev) with day-by-day plan
 - **[eSIM or SIM card](/israel-esim)** — essential for Waze and offline maps in the desert
 - **[Travel insurance](/israel-travel-insurance)** — check whether your policy covers driving abroad and excess liability

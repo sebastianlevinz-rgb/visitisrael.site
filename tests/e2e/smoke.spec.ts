@@ -534,6 +534,7 @@ const ROUTES = [
   '/dead-sea-israel-vs-jordan',
   '/israel-affordable-luxury',
   '/israel-road-trip',
+  '/israel-best-scenic-drives',
   '/backpacking-israel',
   '/israel-car-rental-comparison',
   '/how-to-hire-licensed-tour-guide-israel',
