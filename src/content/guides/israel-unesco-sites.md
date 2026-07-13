@@ -1,6 +1,6 @@
 ---
-title: "Israel's UNESCO World Heritage Sites: All 9 Explained (2026 Guide)"
-description: 'A complete visitor guide to all 9 UNESCO World Heritage Sites in Israel — Masada, Akko, the White City, Bahá''í Gardens, the Incense Route, Beit She''arim, Beit Guvrin, Carmel Caves, and the Biblical Tels.'
+title: "Israel's 9 UNESCO World Heritage Sites: Complete Visitor Guide"
+description: "All 9 UNESCO World Heritage Sites in Israel explained: Masada, Akko, White City, Bahá'í Gardens, the Incense Route, Biblical Tels and more."
 heroImage: /images/regions/akko/hero.jpg
 category: History
 updatedAt: 2026-07-13

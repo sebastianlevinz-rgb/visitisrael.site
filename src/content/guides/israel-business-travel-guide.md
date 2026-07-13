@@ -1,6 +1,6 @@
 ---
 title: 'Israel Business Travel Guide 2026'
-description: "Practical guide for business travellers to Israel: Shabbat scheduling, Tel Aviv conference venues, kosher client dining, fast-train logistics, and bleisure extensions."
+description: "Practical guide for business travellers to Israel: Shabbat scheduling, Tel Aviv conference venues, kosher client dining, and bleisure extensions."
 heroImage: /images/regions/tel-aviv/hero.jpg
 category: Planning
 updatedAt: 2026-07-13
