@@ -1,13 +1,15 @@
 # LOOP STATE
 
-- iteration: 492
-- lastMode: BUILD
-- lastItem: israel-in-winter (P2/M seo-content) — SHIPPED 3b14461
+- iteration: 493
+- lastMode: BUILD (seo-content)
+- lastItem: israel-spring-wildflowers (P2/S seo-content) — SHIPPED 9eec99c
 - lastResult: SHIPPED (CI in_progress at push time)
-- nextRotationCategory: 493%5==3 → BUILD (tools fallthrough → seo-content). 494%5==4 → REVIEW. 495%5==0 → RESEARCH. 496%5==1 → BUILD (monetization). 497%5==2 → BUILD (seo-content).
+- nextRotationCategory: 494%5==4 → REVIEW. 495%5==0 → RESEARCH. 496%5==1 → BUILD (monetization). 497%5==2 → BUILD (seo-content). 498%5==3 → BUILD (tools fallthrough → seo-content).
 - higgsfieldSpent: 0
-- updatedAt: 2026-07-13T06:50Z
+- updatedAt: 2026-07-13T07:45Z
 - branch context: work on master; feature work on auto/<slug>
+
+Notes: iter493 BUILD (seo-content) — /israel-spring-wildflowers shipped. P2/S seo-content item (iter135 research, iter65 research). Israel spring wildflowers & kalanit season guide. Captures: kalanit/anemone conservation story, Darom Adom festival (daromadom.co.il, dates vary by rainfall), 5 Negev sites (Nitzanim, Shokeda Forest, Eshkol fields, Halutza Sands, Mitzpe Ramon), 5 Judean Hills/coast sites (Elah Valley/Lupine Hill, Adulam-France Forest, Ramat HaNadiv, HaMeara Cave area, Sataf), 3 Galilee/Golan sites (Birya Forest, Arbel NR, Tel Dan area), INPA bloom-tracking resources, photography tips, conservation rules (₪730 fine), season summary table by region/species/peak window. 7 FAQs. 3 affiliate CTAs: GYG Negev day tour, GYG Galilee tours, Booking.com south Israel hotels. Cross-links from israel-in-winter (new section) + hiking-in-israel (spring bullet expanded). Footer link added. 710 pages; 1016/1016 e2e+a11y pass (+1 smoke test); 9eec99c.
 
 Notes: iter492 BUILD (seo-content) — /israel-in-winter shipped. P2/M seo-content item (seasonal suite completion). Israel in Winter guide covering December–February: Dead Sea peak comfort (20–24°C), Christmas/Hanukkah in Bethlehem and Nazareth, Negev wildflower bloom (Darom Adom anemones, peak Feb), Mount Hermon skiing, Jerusalem snow, and Eilat Red Sea peak season. Completes seasonal suite alongside israel-in-summer + israel-in-autumn. 7 FAQs (Dec/Jan/Feb verdicts, Jerusalem snow, Dead Sea winter, skiing), 3 affiliate CTAs (GYG Christmas tours + Dead Sea/Eilat + Booking hotels). Region-by-region breakdown, packing table, budget comparison (Jerusalem/TLV 30–50% cheaper; Eilat 40–80% costlier), 9-day sample itinerary. Dense cross-links: christmas-in-israel, mount-hermon-skiing, dead-sea-guide, eilat-travel-guide, eilat-diving-snorkeling, masada-visitor-guide, birdwatching-in-israel, jerusalem-museums, best-time-to-visit-israel, israel-events-festivals. Cross-links from israel-in-summer and israel-in-autumn footers added; best-time-to-visit-israel.md winter section updated. Smoke test +1. 709 pages; 1015/1015 e2e+a11y pass; SHA 3b14461. CI in_progress at push time.
 
