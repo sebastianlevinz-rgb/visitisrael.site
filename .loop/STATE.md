@@ -1,13 +1,15 @@
 # LOOP STATE
 
-- iteration: 508
-- lastMode: BUILD (seo-content — tools category exhausted, fell through)
-- lastItem: hayarkon-park-tel-aviv — /hayarkon-park-tel-aviv Hayarkon Park Tel Aviv visitor guide (P3/S)
-- lastResult: SHIPPED df89ec4. pnpm check 0 errors; 718 pages (+1); 1026/1026 e2e pass. Pushed to master.
-- nextRotationCategory: 509%5==4 → REVIEW. 510%5==0 → RESEARCH. 511%5==1 → BUILD (monetization → fall-through seo-content). 512%5==2 → BUILD (seo-content). 513%5==3 → BUILD (tools → fall-through seo-content).
+- iteration: 509
+- lastMode: REVIEW (audit iters 506-508)
+- lastItem: review-fixes-506-508 — content corrections on israel-best-scenic-drives and hayarkon-park-tel-aviv
+- lastResult: SHIPPED f83f74a. pnpm check 0 errors; 718 pages; 1026/1026 e2e pass. CI in_progress at push time; prior SHA (a954a35) CI success.
+- nextRotationCategory: 510%5==0 → RESEARCH. 511%5==1 → BUILD (monetization → fall-through seo-content). 512%5==2 → BUILD (seo-content). 513%5==3 → BUILD (tools → fall-through seo-content). 514%5==4 → REVIEW.
 - higgsfieldSpent: 0
-- updatedAt: 2026-07-13T22:45Z
+- updatedAt: 2026-07-13T23:50Z
 - branch context: work on master; feature work on auto/<slug>
+
+Notes: iter509 REVIEW — audit of iters 506-508 (israel-best-scenic-drives, negev-highway-40-guide, hayarkon-park-tel-aviv). Meta lengths all OK. Internal links all resolve. No H1 violations. 2 defects found and fixed: (1) israel-best-scenic-drives line 129 dangling `**` after "October–May" in Carmel Mountains heading; (2) hayarkon-park-tel-aviv falsely mentions "a small zoo (Safari Park)" — Ramat Gan Safari is in a different city, not inside the park; replaced with Meimadion Water Park reference in FAQ and intro. Gate: 0 check errors; 718 pages; 1026/1026 e2e. SHA f83f74a. CI in_progress at push time; prior SHA (a954a35) success.
 
 Notes: iter508 BUILD (seo-content) — tools category fully exhausted (11 tools all shipped); fell through to seo-content P3. Picked hayarkon-park-tel-aviv from iter505 research (P3/S; Tourist Israel, Timeout, TripAdvisor all have standalone guides; 950-acre urban park captures family/outdoor segment). Content: cycling paths, Yarkon River kayaking, bird sanctuary (170+ species), Tropical+Cactus Gardens, rock-climbing wall, mini-golf, Ganei Yehoshua concert venue, seasonal timing table, practical info. 3 affiliate CTAs (GYG cycling tours, Viator day activities, Booking.com TLV hotels). 7 FAQs. Cross-link from cycling-in-israel.md (Yarkon section); Footer Essentials +1. 1026/1026 e2e+a11y pass; SHA df89ec4. CI in_progress at push; prior SHA (7979ec8 = iter507) CI success. Note: recovered from local/origin divergence (local was at iter361; reset --hard to origin/master before starting). Abandoned orphaned remote branch origin/auto/israel-vs-cyprus (from iter410, never merged, ~97 iters behind; content from cycle would require complex rebase to integrate). Next: iter 509 → REVIEW (audit iters 506-508: israel-best-scenic-drives, negev-highway-40-guide, hayarkon-park-tel-aviv).
 

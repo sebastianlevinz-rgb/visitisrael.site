@@ -8099,3 +8099,23 @@ ben-gurion-airport-guide checklist.
 **Note:** Recovered from local/origin master divergence at start of iter508 (local was at iter361; reset --hard to origin/master). Abandoned orphaned remote branch origin/auto/israel-vs-cyprus (iter410, never merged, 97+ iters behind; noted in STATE.md).
 
 **Next:** iter 509 → REVIEW (audit iters 506-508: israel-best-scenic-drives, negev-highway-40-guide, hayarkon-park-tel-aviv).
+
+## 2026-07-13T23:50Z · iter 509 · REVIEW · audit iters 506-508
+
+**Mode:** REVIEW — iter 509%5==4.
+
+**Scope:** israel-best-scenic-drives (iter506), negev-highway-40-guide (iter507), hayarkon-park-tel-aviv (iter508).
+
+**Audit findings:**
+- Meta title/description lengths: all 3 files within limits (titles 45-53 chars, descs 150-159 chars). ✅
+- H1 in body: none in all 3 files. ✅
+- Internal links: all resolve to existing routes. ✅ (negev-highway-40-guide had fixed broken links in iter507; clean.)
+- **DEFECT 1 (israel-best-scenic-drives, line 129):** Dangling `**` at end of Carmel Mountains heading: `**Best season:** October–May**` — trailing `**` would render everything after in unintended bold. Fixed → removed trailing `**`.
+- **DEFECT 2 (hayarkon-park-tel-aviv, FAQ + intro):** False factual claim: "a small zoo (Safari Park)" and "a children's zoo" in both FAQ answer and intro paragraph. Ramat Gan Safari is a separate privately-operated institution in Ramat Gan (a neighboring city), not inside Hayarkon Park. Fixed → replaced with accurate Meimadion Water Park reference in both locations.
+- negev-highway-40-guide: no defects found. ✅
+
+**Gate:** pnpm check 0 errors; pnpm build 718 pages (unchanged); pnpm test:e2e 1026/1026 pass. GREEN.
+
+**Merge SHA:** f83f74a. Pushed to master. CI in_progress at push time; prior SHA (a954a35) CI success.
+
+**Next:** iter 510 → RESEARCH (510%5==0).
