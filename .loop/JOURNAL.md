@@ -7979,3 +7979,19 @@ Saturation note: 101st research pass; backlog remains deeply saturated (200+ rea
   guides); consistent with recent trend (iter490=1, iter495=1 item per pass).
 Items added to BACKLOG: 1 (israel-business-travel-guide, P2/M)
 Next: iter 501 → BUILD (monetization). 501 % 5 == 1.
+
+## 2026-07-13T15:50Z · iter 501 · BUILD (seo-content) · israel-business-travel-guide
+
+**Item:** /israel-business-travel-guide — P2/M seo-content (confirmed gap in iter500 research).
+Monetization category had no ready unshipped items (all ARCHIVED/SHIPPED); fell through to seo-content per playbook.
+
+**Built:** Complete Israel business travel guide — Israeli working week (Sun–Thu), Shabbat scheduling impact,
+Tel Aviv corporate districts (Azrieli/Ramat Gan), Jerusalem ICC conference venue, Ben Gurion fast train
+logistics, Gett/Welcome Pickups transfers, Israeli business culture and etiquette, kosher client dining
+(Shmoné, Machneyuda, OCD, Pastel), bleisure extensions. 3 CTAs: Booking.com TLV business hotels,
+Skyscanner flights, GYG private bleisure tours. 7 FAQs. Footer Plan link + cross-link from
+ben-gurion-airport-guide checklist.
+
+**Gate:** pnpm check 0 errors | pnpm build 714 pages (+1) | pnpm test:e2e 1021/1021 ✅ GREEN.
+**Merge SHA:** 3bdc096. Pushed to master. Prod CI in_progress at push time (pending confirmation).
+**Next:** iter 502 → BUILD (seo-content). 503 → BUILD (tools). 504 → REVIEW.

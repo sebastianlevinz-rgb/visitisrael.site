@@ -25,6 +25,7 @@ bounded, gated BUILD item. Full architecture + honesty rules + progress tracker 
 - [DONE iter408] Phase 6 — QA sweep: sitemap hreflang enabled (0d19743). xhtml:link alternates in sitemap-0.xml for all trilingual pages. Smoke tests: hreflang presence, /fr/jerusalem region hreflang, 5 missing EN routes. 922/922 e2e pass. Phase 6 COMPLETE.
 
 ## monetization
+- [SHIPPED iter501] Israel business travel guide (/israel-business-travel-guide) → 3bdc096
 - [SHIPPED iter32] Cruise port shore excursions guide → b50ad64
 - [SHIPPED iter42] Israel food tours & cooking classes guide → e974cf1
 - [SHIPPED iter48] Israel for seniors & over-50s guide → 3d6b2b7
