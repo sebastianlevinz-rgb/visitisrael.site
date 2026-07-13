@@ -548,6 +548,7 @@ const ROUTES = [
   '/israel-campervan',
   '/rosh-hanikra-guide',
   '/timna-park-guide',
+  '/israel-travel-2026',
 ];
 
 for (const route of ROUTES) {
