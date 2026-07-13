@@ -1,6 +1,6 @@
 ---
 title: 'Israel Music & Arts Festivals: Your Attendance Guide'
-description: 'Israel music festivals guide: Meteor Festival, Tamar, Jerusalem Festival of Light, Tel Aviv Jazz, Eilat Chamber Music & more. Dates, tickets, logistics, what to expect.'
+description: 'Israel music festivals guide: Meteor Festival, Tamar, Jerusalem Festival of Light, Tel Aviv Jazz, Eilat Chamber Music & more. Dates, tickets, logistics.'
 heroImage: /images/regions/negev/hero.jpg
 category: Culture
 updatedAt: 2026-07-13
