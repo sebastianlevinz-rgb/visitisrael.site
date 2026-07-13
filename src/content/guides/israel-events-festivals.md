@@ -92,6 +92,6 @@ Israel packs a remarkable number of festivals, cultural events and religious hol
 - **Avoiding the crowds and prices?** Travel the **shoulder weeks** either side — see [best time to visit](/best-time-to-visit-israel).
 - **Either way**, read the [first-time-in-Israel guide](/first-time-in-israel) and sort your [eSIM](/israel-esim) and [travel insurance](/israel-travel-insurance).
 
-For a deeper look at the experience of attending Israel's flagship live events — Meteor Festival in the Negev, Jerusalem Festival of Light, Tamar at the Dead Sea, Tel Aviv Jazz, and Eilat Chamber Music — with tickets, logistics, and what to pack, see our [Israel music & arts festivals attendance guide](/israel-music-festivals).
+For a deeper look at the experience of attending Israel's flagship live events — Meteor Festival in the Negev, Jerusalem Festival of Light, Tamar at the Dead Sea, Tel Aviv Jazz, and Eilat Chamber Music — with tickets, logistics, and what to pack, see our [Israel music & arts festivals attendance guide](/israel-music-festivals). For the Jerusalem Festival of Light specifically — walking route, photography tips, Tower of David tickets, and accommodation during the June event — see the [dedicated Jerusalem Festival of Light guide](/jerusalem-festival-of-light).
 
 For spectator sports — Maccabi Tel Aviv EuroLeague basketball, the Jerusalem and Tel Aviv marathons, and Israeli Premier League football — see the [spectator sports in Israel guide](/sports-events-israel).

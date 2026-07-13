@@ -85,7 +85,7 @@ The festival is free to walk; premium guided routes run for a fee and cover wide
 - Friday night installations may be reduced near the Jewish Quarter due to Shabbat; check the programme in advance.
 - Guided festival tours on GetYourGuide and Viator sell out well in advance — book early.
 
-Cross-links: [Israel events & festivals](/israel-events-festivals) · [Best things to do in Israel](/best-things-to-do-in-israel)
+Cross-links: [Jerusalem Festival of Light — full guide](/jerusalem-festival-of-light) · [Israel events & festivals](/israel-events-festivals) · [Best things to do in Israel](/best-things-to-do-in-israel)
 
 ---
 
