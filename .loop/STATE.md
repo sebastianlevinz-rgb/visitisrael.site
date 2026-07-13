@@ -1,12 +1,12 @@
 # LOOP STATE
 
-- iteration: 494
-- lastMode: REVIEW
-- lastItem: review-494-desc-smoke-footer — SHIPPED 20062e1
-- lastResult: SHIPPED (CI in_progress at push time)
-- nextRotationCategory: 495%5==0 → RESEARCH. 496%5==1 → BUILD (monetization). 497%5==2 → BUILD (seo-content). 498%5==3 → BUILD (tools fallthrough → seo-content). 499%5==4 → REVIEW.
+- iteration: 495
+- lastMode: RESEARCH
+- lastItem: research-495 — 1 new item (krav-maga-israel-experience)
+- lastResult: RESEARCH complete; 1 net-new item added to BACKLOG (P3/S seo-content)
+- nextRotationCategory: 496%5==1 → BUILD (monetization). 497%5==2 → BUILD (seo-content). 498%5==3 → BUILD (tools fallthrough → seo-content). 499%5==4 → REVIEW. 500%5==0 → RESEARCH.
 - higgsfieldSpent: 0
-- updatedAt: 2026-07-13T08:50Z
+- updatedAt: 2026-07-13T09:30Z
 - branch context: work on master; feature work on auto/<slug>
 
 Notes: iter493 BUILD (seo-content) — /israel-spring-wildflowers shipped. P2/S seo-content item (iter135 research, iter65 research). Israel spring wildflowers & kalanit season guide. Captures: kalanit/anemone conservation story, Darom Adom festival (daromadom.co.il, dates vary by rainfall), 5 Negev sites (Nitzanim, Shokeda Forest, Eshkol fields, Halutza Sands, Mitzpe Ramon), 5 Judean Hills/coast sites (Elah Valley/Lupine Hill, Adulam-France Forest, Ramat HaNadiv, HaMeara Cave area, Sataf), 3 Galilee/Golan sites (Birya Forest, Arbel NR, Tel Dan area), INPA bloom-tracking resources, photography tips, conservation rules (₪730 fine), season summary table by region/species/peak window. 7 FAQs. 3 affiliate CTAs: GYG Negev day tour, GYG Galilee tours, Booking.com south Israel hotels. Cross-links from israel-in-winter (new section) + hiking-in-israel (spring bullet expanded). Footer link added. 710 pages; 1016/1016 e2e+a11y pass (+1 smoke test); 9eec99c.
