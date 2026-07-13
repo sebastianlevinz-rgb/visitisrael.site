@@ -1,13 +1,17 @@
 # LOOP STATE
 
-- iteration: 507
-- lastMode: BUILD (seo-content)
-- lastItem: negev-highway-40-guide — /negev-highway-40-guide Highway 40 self-drive guide (P2/M)
-- lastResult: SHIPPED 2cf0413. pnpm check 0 errors; 717 pages (+1); 1024/1024 e2e pass. Pushed to master.
-- nextRotationCategory: 508%5==3 → BUILD (tools or fall-through seo-content). 509%5==4 → REVIEW. 510%5==0 → RESEARCH. 511%5==1 → BUILD (monetization → fall-through seo-content). 512%5==2 → BUILD (seo-content).
+- iteration: 508
+- lastMode: BUILD (seo-content — tools category exhausted, fell through)
+- lastItem: hayarkon-park-tel-aviv — /hayarkon-park-tel-aviv Hayarkon Park Tel Aviv visitor guide (P3/S)
+- lastResult: SHIPPED df89ec4. pnpm check 0 errors; 718 pages (+1); 1026/1026 e2e pass. Pushed to master.
+- nextRotationCategory: 509%5==4 → REVIEW. 510%5==0 → RESEARCH. 511%5==1 → BUILD (monetization → fall-through seo-content). 512%5==2 → BUILD (seo-content). 513%5==3 → BUILD (tools → fall-through seo-content).
 - higgsfieldSpent: 0
-- updatedAt: 2026-07-13T22:05Z
+- updatedAt: 2026-07-13T22:45Z
 - branch context: work on master; feature work on auto/<slug>
+
+Notes: iter508 BUILD (seo-content) — tools category fully exhausted (11 tools all shipped); fell through to seo-content P3. Picked hayarkon-park-tel-aviv from iter505 research (P3/S; Tourist Israel, Timeout, TripAdvisor all have standalone guides; 950-acre urban park captures family/outdoor segment). Content: cycling paths, Yarkon River kayaking, bird sanctuary (170+ species), Tropical+Cactus Gardens, rock-climbing wall, mini-golf, Ganei Yehoshua concert venue, seasonal timing table, practical info. 3 affiliate CTAs (GYG cycling tours, Viator day activities, Booking.com TLV hotels). 7 FAQs. Cross-link from cycling-in-israel.md (Yarkon section); Footer Essentials +1. 1026/1026 e2e+a11y pass; SHA df89ec4. CI in_progress at push; prior SHA (7979ec8 = iter507) CI success. Note: recovered from local/origin divergence (local was at iter361; reset --hard to origin/master before starting). Abandoned orphaned remote branch origin/auto/israel-vs-cyprus (from iter410, never merged, ~97 iters behind; content from cycle would require complex rebase to integrate). Next: iter 509 → REVIEW (audit iters 506-508: israel-best-scenic-drives, negev-highway-40-guide, hayarkon-park-tel-aviv).
+
+Notes: iter507 BUILD (seo-content) — negev-highway-40-guide. SHIPPED 2cf0413. pnpm check 0 errors; 717 pages (+1); 1024/1024 e2e pass.
 
 Notes: iter505 RESEARCH — research pass #102. 15+ web searches; 30+ BACKLOG+DONE dedup checks. 6 confirmed new items added: negev-highway-40-guide (P2/M seo-content; Tourist Israel has dedicated Route 40 page; our south-israel-itinerary is a circuit, not a scenic-drive guide); hayarkon-park-tel-aviv (P3/S seo-content; 950-acre urban park, competitors all have standalone guides); israel-best-scenic-drives (P2/S seo-content; Tourist Israel has best-driving-roads page; we have rules+circuit but no scenic hub); national-campus-archaeology-jerusalem (P3/S seo-content; brand-new IAA facility, behind-the-scenes tours 2025+, full museum 2027); israel-running-tourism-guide (P3/M seo-content+monetization; marathons in Jerusalem+TLV attract 30–50k runners; spectator guide exists but no runner travel planning guide); israel-sup-guide (P3/S seo-content+monetization; SUP on all 4 Israeli bodies of water; no coverage on site; TripAdvisor "15 Best SUP 2026"). Saturation rate: 6/15+ searches = high saturation. BACKLOG now ~285 items. Next: iter 506 → BUILD (monetization → fall-through seo-content).
 
@@ -27,4 +31,4 @@ Notes: iter498 BUILD (seo-content) — /jerusalem-festival-of-light shipped. SHA
 
 Cron b7325b16 hourly @ :17. Loop history: 19 tools + sitemap-lastmod + link-checker(+depth) + i18n
 Phase0/1a/1b/1c/2 Batches1-18(COMPLETE) + 43 review passes + 3 technical (event-schema + meta-trim + locale-links) + 63 EN guides + 7 tools-monetization + 2 comparisons;
-research iters 5/10/20/30/35/40/45/50/55/60/65/70/75/80/85/90/95/100/105/110/115/120/125/130/135/140/145/150/155/160/165/170/175/180/185/190/195/200/205/210/215/220/225/230/235/240/245/250/255/260/265/270/275/280/285/290/295/300/305/310/315/320/325/330/335/340/345/350/355/360/365/370/375/380/385/390/395/400/405/410/420/425/430/435/440/445/450/455/460/465/470/480/485/490/495/500.
+research iters 5/10/20/30/35/40/45/50/55/60/65/70/75/80/85/90/95/100/105/110/115/120/125/130/135/140/145/150/155/160/165/170/175/180/185/190/195/200/205/210/215/220/225/230/235/240/245/250/255/260/265/270/275/280/285/290/295/300/305/310/315/320/325/330/335/340/345/350/355/360/365/370/375/380/385/390/395/400/405/410/420/425/430/435/440/445/450/455/460/465/470/480/485/490/495/500/505.

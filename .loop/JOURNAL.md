@@ -8083,3 +8083,19 @@ ben-gurion-airport-guide checklist.
 **Merge SHA:** 2cf0413. Pushed to master.
 
 **Next:** iter 508 → BUILD (tools or fall-through seo-content — 508%5==3).
+
+## 2026-07-13T22:45Z · iter 508 · BUILD (seo-content) · hayarkon-park-tel-aviv
+
+**Mode:** BUILD — iter 508%5==3 → tools (exhausted: 11/11 shipped) → fell through to seo-content.
+
+**Item:** `/hayarkon-park-tel-aviv` (P3/S, seo-content) — Hayarkon Park Tel Aviv complete visitor guide; identified in iter505 RESEARCH pass.
+
+**What:** New guide at /hayarkon-park-tel-aviv covering Tel Aviv's 950-acre urban park (Ganei Yehoshua). Sections: Getting there (bus lines 25/51/149, Rokach Blvd parking, bike 5–10 min from beaches); cycling & running paths (10km Yarkon riverside trail + park interior loops, bike hire ₪25–40/hr); boat & kayak rental (Daniel Rowing Centre on Yarkon River); Tsapari Bird Sanctuary (Middle East's largest walk-in bird park, 170+ species, swans/parrots/owls/pelicans); Tropical + Cactus Gardens (one of world's largest rock gardens, greenhouse complex); Sportek sports complex (rock-climbing wall 12m, basketball, skate park, trampoline); mini-golf + children's areas; Ganei Yehoshua/Zappa TLV concert venue (5,000-cap open-air; Israel's premier outdoor music venue); Meimadion water park (summer paid admission, best waterpark in TLV); Seven Flour Mills heritage site (restored 19th-c windmill); hot-air balloon tethered rides. Seasonal timing table (spring flowers, summer Meimadion, autumn birdwatching, winter concerts). Practical info: free entry to grounds, individual attraction fees, opening hours, parking. 3 CTAs: GYG Tel Aviv cycling & parks tours, Viator Tel Aviv day tours & activities, Booking.com TLV hotels near Hayarkon. 7 FAQs. Cross-link added to cycling-in-israel.md (Yarkon River section → see Hayarkon Park visitor guide). Footer Essentials link added. Smoke test +1 (/hayarkon-park-tel-aviv); a11y +1.
+
+**Gate:** pnpm check 0 errors; pnpm build 718 pages (+1 from 717); pnpm test:e2e 1026/1026 pass (was 1024 — +1 smoke +1 a11y). GREEN.
+
+**Merge SHA:** df89ec4. Pushed to master. CI in_progress at push time; prior SHA (2cf0413 = iter507) CI success.
+
+**Note:** Recovered from local/origin master divergence at start of iter508 (local was at iter361; reset --hard to origin/master). Abandoned orphaned remote branch origin/auto/israel-vs-cyprus (iter410, never merged, 97+ iters behind; noted in STATE.md).
+
+**Next:** iter 509 → REVIEW (audit iters 506-508: israel-best-scenic-drives, negev-highway-40-guide, hayarkon-park-tel-aviv).
