@@ -125,3 +125,4 @@ For detailed route comparisons, Shabbat schedules, and prices to Tel Aviv, Jerus
 - [Airport transfer pre-booked](/ben-gurion-airport-transfers) if arriving on Shabbat or late at night
 - [Rav-Kav transit card](/rav-kav-israel) — buy at the Public Transportation Information Center in arrivals before boarding the train
 - Hotel or accommodation confirmation for the security interview
+- **Travelling for work?** See the [Israel business travel guide](/israel-business-travel-guide) for Shabbat scheduling tips, conference venues, and kosher client dining.
