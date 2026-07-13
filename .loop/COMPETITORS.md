@@ -4779,3 +4779,45 @@ secrettelaviv.com. 40+ python3/grep checks across full BACKLOG.md + DONE.md.
 - dog-friendly Israel: BACKLOG iter240 (P2 pet-friendly-israel)
 
 **Items added to BACKLOG this iteration**: 1 (israel-business-travel-guide, P2/M)
+
+<!-- iter505 research — 2026-07-13 — 6 net-new items -->
+### 2026-07-13 · iter 505 · Research pass #102 — Negev self-drive / urban parks / scenic drives / new attractions / running tourism / water sports
+
+**Search scope**: 15+ web searches across touristisrael.com, tripadvisor.com, alongcameanelephant.com, secrettelaviv.com, nativeisrael.com, beinharimtours.com, itraveljerusalem.com, schottensteincampus.org, hike-israel.com, israel21c.org, finishers.com, worldsmarathons.com, tamir-rental.com, times-of-israel.com, viaboo.com. 30+ BACKLOG+DONE dedup checks.
+
+**Competitor intelligence gathered**:
+- touristisrael.com/traveling-negev-road-40/13031: dedicated Route 40 Negev scenic drive page — 80km Beer Sheva→Mitzpe Ramon strip; Sde Boker, Ein Avdat, Avdat UNESCO stops listed; no practical stopping guide
+- touristisrael.com/best-driving-roads-in-israel/6725: "Best Driving Roads in Israel" hub — 5 routes (Carmel, Tiberias–Poriah, Road to Jerusalem via 395, Gilboa Ridge 667, Switzerland Forest above Galilee); NO Route 40 in their list (gap in their own coverage)
+- tripadvisor.com "5 Best Israel Scenic Drives 2026": Route 90, Route 1, Golan, Carmel, Galilee; similar to Tourist Israel coverage
+- secrettelaviv.com + nativeisrael.com: full dedicated Hayarkon Park guides (activities, prices, zones); Bein Harim: "10 Things to Do in Tel Aviv's Yarkon Park"
+- schottensteincampus.org + iaa.org.il/en/page/touriaa: National Campus for Archaeology of Israel — behind-the-scenes tours open since 2025; rooftop garden with 5 previously-unexhibited mosaics; full museum expected early 2027
+- itraveljerusalem.com: National Campus attraction listing confirmed
+- finishers.com/en/destinations/middle-east/israel: Israel race calendar 2026 — Jerusalem Marathon Apr 17, Tel Aviv Marathon Feb/Mar, Eilat Desert Marathon autumn, Dead Sea Marathon/10K Nov; NO editorial runner travel guide from any competitor
+- worldsmarathons.com/c/marathon/israel: race listings only (no travel guide content)
+- israel21c.org/israel-becomes-a-sup-paradise: dedicated SUP Israel feature; TripAdvisor "15 Best Israel Stand-Up Paddleboarding 2026"; hike-israel.com SUP section
+- 6 Senses Tel Aviv spring 2026 opening confirmed (myisraelstay.com "17 hotel openings shaping Israel's summer 2026"); already covered by new-luxury-hotels-israel-2026 BACKLOG item → not added separately
+
+**Competitive pattern observed**:
+After 102 research passes, the most remaining gaps are either (a) single-activity/experience deep-dives (SUP, running tourism, specific park guide) or (b) aggregator/hub pages that tie together existing individual content (scenic drives hub, park guide). The period of large topic discovery is over; future research passes will focus on experience depth and hub-page formats. Tourist Israel's content on Hayarkon Park and Route 40 is editorial but thin — we can produce more comprehensive guides.
+
+**Candidates checked and eliminated (already in BACKLOG or DONE)**:
+- Six Senses Tel Aviv: covered by new-luxury-hotels-israel-2026 BACKLOG item (iter490 research) — not added standalone
+- National Campus Archaeology Israel: CONFIRMED NEW (not in any prior research)
+- Israel for Dutch travelers: BACKLOG iter440 (not re-added)
+- Israel for German travelers: SHIPPED iter441 (not re-added)
+- Israel winter sun guide: BACKLOG iter445 (not re-added)
+- Chagall Windows Jerusalem: BACKLOG iter360 (not re-added)
+- Jezreel Valley guide: partially covered (day-trips-from-haifa SHIPPED iter162; Tel Megiddo + Mount Tabor in BACKLOG iter190; mount-gilboa-guide BACKLOG iter330 — not added as separate item; Gilboa Scenic Route 667 covered by israel-best-scenic-drives item)
+- Jordan River kayaking: BACKLOG iter160 (not re-added)
+- Golan Heights wineries: BACKLOG iter155 (not re-added)
+- Birdwatching in Israel: SHIPPED iter443 (not re-added)
+- Ben Gurion Airport Terminal 1 reopening (July 2026 news): content-update flag for existing ben-gurion-airport-guide.md (SHIPPED iter56) — not a new page
+- Israel kibbutz stays: SHIPPED iter261 (not re-added)
+- Cycling in Israel: SHIPPED iter238 (not re-added)
+- Israel thermal springs: SHIPPED iter481 (not re-added)
+- Jerusalem Marathon runner guide: marathon event listing (iter496 spectator guide covered event as spectator); running TOURISM guide is DISTINCT → CONFIRMED NEW
+- Stand-Up Paddleboarding: ZERO prior coverage (surfing iter472, kitesurfing BACKLOG, diving iter75) → CONFIRMED NEW
+
+**Items added to BACKLOG this iteration**: 6 (negev-highway-40-guide P2/M, hayarkon-park-tel-aviv P3/S, israel-best-scenic-drives P2/S, national-campus-archaeology-jerusalem P3/S, israel-running-tourism-guide P3/M, israel-sup-guide P3/S)
+
+**CAUTION (iter505)**: National Campus for Archaeology — full museum not yet open; frame carefully as limited-hours behind-the-scenes tour experience; link official iaa.org.il for current status (opening schedule subject to change). Running tourism — Israel Marathon weather and schedules verified current; Shabbat logistics framing needed for Friday pre-race logistics; security queue note at Ben Gurion for athlete equipment bags. SUP Dead Sea — mandatory safety note (no solo paddling, eyes/cuts hazard); buoyancy makes kneeling impossible (standing only). Route 40 — flash-flood risk in wadis Oct–May must be prominent; fuel stop at Avdat junction critical (155km to next Eilat station). Hayarkon Park — park admission free but individual attractions vary; Meimadion water park seasonal (check dates). Scenic drives — Golan Heights: security/border proximity note for Route 98; link is-israel-safe.md.

@@ -8034,3 +8034,22 @@ ben-gurion-airport-guide checklist.
 
 **Gate:** pnpm check 0 errors | pnpm build 715 pages (unchanged) | pnpm test:e2e 1022/1022 ✅ GREEN.
 **Merge SHA:** 21f51c7. Pushed to master. Prod CI in_progress at push time; prior SHA (0f617f3) CI success.
+
+## 2026-07-13T21:15Z · iter 505 · RESEARCH · research-pass-102
+
+**Scope:** Research pass #102 — web searches for new content/feature gaps not in BACKLOG or DONE.
+
+**Research method:** 15+ web searches (touristisrael.com, TripAdvisor, Secret Tel Aviv, Native Israel, Israel21c, schottensteincampus.org, hike-israel.com, finishers.com, viaboo.com, Times of Israel, along-came-an-elephant.com); 30+ BACKLOG+DONE de-dup checks via grep; confirmed 6 net-new gaps.
+
+**New items added to BACKLOG (6):**
+1. `/negev-highway-40-guide` (P2/M, seo-content) — Tourist Israel has dedicated Route 40 page; we have south-israel-itinerary (circuit) but no scenic-drive guide for Hwy 40 with Sde Boker/Ein Avdat/Avdat UNESCO pull-outs
+2. `/hayarkon-park-tel-aviv` (P3/S, seo-content) — Israel's largest urban park (950 acres); Tourist Israel/Secret TLV/Native Israel all have guides; we mention it in 1 bullet of free-things guide only
+3. `/israel-best-scenic-drives` (P2/S, seo-content) — Tourist Israel has best-driving-roads page; TripAdvisor "5 Best Scenic Drives 2026"; we have driving rules + 1 circuit but no scenic-drives hub (7 routes: Route 40, Jerusalem Hills 395, Golan 98, Gilboa 667, Carmel, Switzerland Forest Galilee, Route 90 Dead Sea)
+4. `/national-campus-archaeology-jerusalem` (P3/S, seo-content) — Brand new IAA facility adjacent to Israel Museum; behind-the-scenes tours open 2025; 5 previously-unexhibited mosaics; full museum expected early 2027; not covered anywhere on site
+5. `/israel-running-tourism-guide` (P3/M, seo-content+monetization) — Jerusalem + Tel Aviv marathons attract 30–50k runners; no competitor has editorial runner travel guide; sports-events-israel.md = spectator only; bucket-list angle: Dead Sea Marathon at –400m
+6. `/israel-sup-guide` (P3/S, seo-content+monetization) — Stand-up paddleboarding on all 4 Israeli bodies of water; TripAdvisor "15 Best SUP 2026"; Israel21c "Israel becomes a SUP paradise"; entirely uncovered on site (surfing/kitesurfing/diving are separate)
+
+**Saturation note:** After 102 research passes, new gap discovery rate is 6 items from 15+ searches (vs 8–10 from 10 searches at iter5). Backlog reaches ~285 items (includes ~60 still-pending P2/P3 seo-content, ~50 origin-market guides, ~20 comparison pages, ~15 niche experience guides). Future research passes: experience depth, hub aggregators, city-level granular content.
+
+**Gate:** RESEARCH — no code changes; no gate run.
+**Next:** iter 506 → BUILD (monetization → fall-through seo-content if no pending monetization).

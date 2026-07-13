@@ -1,13 +1,15 @@
 # LOOP STATE
 
-- iteration: 504
-- lastMode: REVIEW
-- lastItem: meta-trim-501-503 — trimmed over-limit meta on iter501-503 guides (business-travel desc 167→145, UNESCO title 66→62, UNESCO desc 203→139)
-- lastResult: GREEN; 715 pages; 1022/1022 e2e+a11y pass; SHA 21f51c7. CI in_progress at push time; prior SHA (0f617f3) CI success.
-- nextRotationCategory: 505%5==0 → RESEARCH. 506%5==1 → BUILD (monetization). 507%5==2 → BUILD (seo-content). 508%5==3 → BUILD (tools or fall-through). 509%5==4 → REVIEW.
+- iteration: 505
+- lastMode: RESEARCH
+- lastItem: research-pass-102 — 6 net-new items: negev-highway-40-guide (P2/M), hayarkon-park-tel-aviv (P3/S), israel-best-scenic-drives (P2/S), national-campus-archaeology-jerusalem (P3/S), israel-running-tourism-guide (P3/M), israel-sup-guide (P3/S)
+- lastResult: RESEARCH; 715 pages unchanged; no gate run; 6 new BACKLOG items appended.
+- nextRotationCategory: 506%5==1 → BUILD (monetization → fall-through seo-content). 507%5==2 → BUILD (seo-content). 508%5==3 → BUILD (tools or fall-through). 509%5==4 → REVIEW. 510%5==0 → RESEARCH.
 - higgsfieldSpent: 0
-- updatedAt: 2026-07-13T18:50Z
+- updatedAt: 2026-07-13T21:15Z
 - branch context: work on master; feature work on auto/<slug>
+
+Notes: iter505 RESEARCH — research pass #102. 15+ web searches; 30+ BACKLOG+DONE dedup checks. 6 confirmed new items added: negev-highway-40-guide (P2/M seo-content; Tourist Israel has dedicated Route 40 page; our south-israel-itinerary is a circuit, not a scenic-drive guide); hayarkon-park-tel-aviv (P3/S seo-content; 950-acre urban park, competitors all have standalone guides); israel-best-scenic-drives (P2/S seo-content; Tourist Israel has best-driving-roads page; we have rules+circuit but no scenic hub); national-campus-archaeology-jerusalem (P3/S seo-content; brand-new IAA facility, behind-the-scenes tours 2025+, full museum 2027); israel-running-tourism-guide (P3/M seo-content+monetization; marathons in Jerusalem+TLV attract 30–50k runners; spectator guide exists but no runner travel planning guide); israel-sup-guide (P3/S seo-content+monetization; SUP on all 4 Israeli bodies of water; no coverage on site; TripAdvisor "15 Best SUP 2026"). Saturation rate: 6/15+ searches = high saturation. BACKLOG now ~285 items. Next: iter 506 → BUILD (monetization → fall-through seo-content).
 
 Notes: iter504 REVIEW — audit of iters 501–503 (israel-business-travel-guide, faq-tourist-trip-schema, israel-unesco-sites). Found 3 meta violations: business-travel desc 167 chars (limit 160); UNESCO title 66 chars (limit 65); UNESCO desc 203 chars (limit 160). All trimmed via branch auto/meta-trim-501-503. Gate: 0 check errors; 715 pages; 1022/1022 e2e+a11y pass. SHA 21f51c7. CI in_progress at push time; prior SHA (0f617f3) CI success. Next: iter 505 → RESEARCH.
 
