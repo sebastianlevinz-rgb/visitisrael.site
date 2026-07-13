@@ -8067,3 +8067,19 @@ ben-gurion-airport-guide checklist.
 **Merge SHA:** 38cbb4e. Pushed to master. CI in_progress at push time; prior SHA (0421ea7) CI success.
 
 **Next:** iter 507 → BUILD (seo-content — 507%5==2).
+
+## 2026-07-13T22:05Z · iter 507 · BUILD (seo-content) · negev-highway-40-guide
+
+**Mode:** BUILD — iter 507%5==2 → seo-content.
+
+**Item:** `/negev-highway-40-guide` (P2/M, seo-content) — Highway 40 Negev self-drive guide; identified in iter505 RESEARCH pass.
+
+**What:** New guide at /negev-highway-40-guide covering the Beer-Sheva → Sde Boker → Ein Avdat → Avdat Nabataean City → Mitzpe Ramon drive on Highway 40. At-a-glance table with km markers, time estimates, and key stops. Per-stop write-ups: (1) Sde Boker Ben-Gurion Desert Home + national memorial grave; (2) Ein Avdat National Park canyon oasis with north vs south entrance logistics, ibex, flash flood warning; (3) Avdat Nabataean City UNESCO Incense Route site, INPA pass valid, fuel stop note; (4) Mitzpe Ramon crater rim with dark-sky ordinance + overnight recommendation. Practical info: season, getting there, mobile coverage, emergency contacts. Continuing-to-Eilat section with Timna Park note. 3 affiliate CTAs: DiscoverCars (car rental), GetYourGuide (Negev day tours), Booking.com (Mitzpe Ramon hotels). 5 FAQs. Cross-links to /car-rental-israel, /driving-in-israel, /israel-national-parks-pass, /israel-best-scenic-drives, /mitzpe-ramon-guide, /south-israel-itinerary, /israel-unesco-sites. Smoke test +1 (/negev-highway-40-guide).
+
+**Fix applied:** (1) YAML frontmatter was missing closing `---` (file was 37 lines, incomplete); rewrote entire file. (2) Description used single-quoted YAML with apostrophe in "Israel's" — switched to double quotes. (3) Body links used /guides/ and /regions/ prefixes that don't exist in built routes — replaced all with root-relative slugs.
+
+**Gate:** pnpm check 0 errors; pnpm build 717 pages (+1 from 716); pnpm test:e2e 1024/1024 pass (was 1023 — +1 smoke test). GREEN.
+
+**Merge SHA:** 2cf0413. Pushed to master.
+
+**Next:** iter 508 → BUILD (tools or fall-through seo-content — 508%5==3).
