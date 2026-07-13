@@ -8009,3 +8009,13 @@ ben-gurion-airport-guide checklist.
 
 **Gate:** pnpm check 0 errors | pnpm build 714 pages (no change, template-only) | pnpm test:e2e exit code 0 ✅ GREEN.
 **Merge SHA:** 4992485. Pushed to master. Prod CI in_progress at push time.
+
+## 2026-07-13T17:40Z · iter 503 · BUILD (seo-content) · israel-unesco-sites
+
+**Item:** /israel-unesco-sites — P2/M seo-content (iter125 research). Tools category fully exhausted (all 11 tools SHIPPED); monetization fully exhausted; fell through to seo-content per playbook.
+
+**Built:** Israel's 9 UNESCO World Heritage Sites authority hub — at-a-glance comparison table (site/year/region/INPA-pass/infrastructure), 9 individual site entries (Masada, Old City of Acre, White City of Tel Aviv, Biblical Tels ×3 Megiddo+Hazor+Beer-Sheba, Incense Route ×4 Avdat+Mamshit+Shivta+Haluza, Bahá'í World Centre Haifa, Nahal Me'arot Carmel Caves, Beit Guvrin Bell Caves, Beit She'arim Necropolis), 3 sample road-trip itineraries (northern 3-day Haifa circuit; southern 2-day Beit Guvrin+Negev; White City+Masada Jerusalem base). 3 affiliate CTAs: GYG UNESCO tours, DiscoverCars, Booking.com hotels near UNESCO sites. 7 FAQs. Cross-link added to jewish-heritage-israel.md practical tips section. Footer Essentials +1. Smoke test +1.
+
+**Gate:** pnpm check 0 errors | pnpm build 715 pages (+1) | pnpm test:e2e 1022/1022 ✅ GREEN.
+**Merge SHA:** 8a8ec7c. Pushed to master. Prod CI in_progress at push time.
+**Next:** iter 504 → REVIEW. 505 → RESEARCH.
