@@ -7817,3 +7817,25 @@ Smoke test: /timna-park-guide added to smoke.spec.ts routes array.
 Gate: pnpm check 0 errors | pnpm build 705 pages (+1) | pnpm test:e2e 1012/1012 pass.
 Ship: squash-merged auto/timna-park-guide → master, SHA 5a61424, pushed. Branch deleted.
 Next: iter 487 → BUILD (seo-content). 487 % 5 == 2.
+
+## 2026-07-13T02:20Z · iter 487 · BUILD (seo-content) · israel-travel-2026
+What: New /israel-travel-2026 — Israel tourism 2026 freshness anchor guide (P3/S seo-content).
+  High-intent queries: "is Israel open for tourism 2026", "what's new Israel 2026", "new flights Israel
+  2026". Captures "is it safe to visit Israel 2026" searchers and acts as a freshness signal for the
+  whole site. Content: tourism recovery (+25-29% YoY); Ben Gurion Terminal 1 reopened July 2026
+  (Terminal 3 expansion tender July 1); new flights (Delta ATL+BOS Oct 2026 resumption; Israir Asian
+  routes Tokyo/Bangkok/Delhi/Hanoi; European budget carrier expansion); Rosh Hanikra cable car
+  restored+reopened; new hotel openings (Jaffa boutique, InterContinental Jerusalem, Yacht Hotel
+  Herzliya); ETA-IL entry requirement recap (mandatory since Jan 2025, ₪25, 72h advance, iaa.gov.il).
+  "What has not changed" section: main tourist experience intact, Shabbat dynamics unchanged.
+  3 affiliate CTAs: Skyscanner (flights), Booking.com (hotels), GetYourGuide (tours).
+  Dense cross-links: is-israel-safe, visa-information, ben-gurion-airport-guide,
+  israel-accommodation-guide, first-time-in-israel, best-time-to-visit-israel, israel-travel-tips.
+  Footer Plan column: added "Israel travel 2026: what's new" link after first-time-in-israel.
+  first-time-in-israel closing paragraph: added cross-link to /israel-travel-2026.
+  Smoke test: +1 route /israel-travel-2026 added to smoke.spec.ts.
+  Startup: local master 50 commits behind origin (cloud fresh-clone) → git reset --hard origin/master.
+Gate: pnpm check 0 errors | pnpm build 706 pages (+1 from 705) | pnpm test:e2e 1013/1013 pass — GREEN.
+Ship: committed d013722 to master, pushed to origin/master. Branch auto/israel-travel-2026 deleted.
+Prod: CI in_progress at push time (consistent prior pattern; iter486 run confirms pipeline healthy).
+Next: iter 488 → BUILD (tools fallthrough → seo-content). 488 % 5 == 3.

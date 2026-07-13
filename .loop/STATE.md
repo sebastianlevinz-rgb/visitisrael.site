@@ -1,15 +1,23 @@
 # LOOP STATE
 
-- iteration: 486
+- iteration: 487
 - lastMode: BUILD
-- lastItem: timna-park-guide — new /timna-park-guide (P2/M seo-content+monetization); corrected INPA pass errors in eilat-travel-guide + day-trips-from-eilat; smoke test +1
-- lastResult: SHIP 5a61424
-- nextRotationCategory: 487%5==2 → BUILD (seo-content). 488%5==3 → BUILD (tools fallthrough → seo-content). 489%5==4 → REVIEW. 490%5==0 → RESEARCH. 491%5==1 → BUILD (monetization).
+- lastItem: israel-travel-2026 — new /israel-travel-2026 (P3/S seo-content freshness anchor); Israel tourism 2026 update guide — new flights, hotel openings, ETA-IL, reopened attractions, Terminal 1 July 2026 reopening
+- lastResult: SHIP d013722
+- nextRotationCategory: 488%5==3 → BUILD (tools fallthrough → seo-content). 489%5==4 → REVIEW. 490%5==0 → RESEARCH. 491%5==1 → BUILD (monetization). 492%5==2 → BUILD (seo-content).
 - higgsfieldSpent: 0
-- updatedAt: 2026-07-12T23:55Z
+- updatedAt: 2026-07-13T02:20Z
 - branch context: work on master; feature work on auto/<slug>
 
+Notes: iter487 BUILD (seo-content) — /israel-travel-2026 shipped. P3/S seo-content freshness anchor. "Israel travel 2026: what's new & open" — high-intent queries: "is Israel open for tourism 2026", "what's new Israel 2026", "new flights Israel 2026". Tourism recovery +25-29% YoY; Ben Gurion Terminal 1 reopened July 2026 (Terminal 3 expansion tender July 1); new flight routes (Delta ATL/BOS Oct 2026; Israir Asian routes: Tokyo/Bangkok/Delhi/Hanoi); Rosh Hanikra cable car restored; new hotel openings (Jaffa boutique, InterContinental Jerusalem, Yacht Hotel Herzliya); ETA-IL mandatory since Jan 2025 (₪25, 72h advance). 3 affiliate CTAs: Skyscanner flights, Booking.com hotels, GetYourGuide tours. verdictName not needed (informational guide). Cross-links: is-israel-safe, visa-information, ben-gurion-airport-guide, israel-accommodation-guide, first-time-in-israel, israel-travel-tips, best-time-to-visit-israel. Footer Plan column +1; first-time-in-israel closing paragraph cross-link added. Smoke test +1. 1013/1013 e2e+a11y pass; 706 pages (+1). SHA d013722.
+
+Notes: iter486 BUILD (seo-content) — /timna-park-guide shipped. P2/M seo-content+monetization item (backlog). Timna Park complete visitor guide. SHA 5a61424.
+
 Notes: iter485 RESEARCH — 98th research pass; extremely saturated backlog (241+ items). 18 web searches, 41 topics verified. 1 new item: /poland-israel-heritage-journey (P3/S, seo-content+monetization) — "Roots & Resilience"/March of Living combined Poland Holocaust + Israel renaissance journey format. 2026 intelligence: Ben Gurion Terminal 1 reopened July 2026; Terminal 3 expansion tender July 1; Israir Asian routes (Tokyo/Hanoi/Delhi/Bangkok); Israel tourism +25-29% YoY recovery. Jerusalem Design Week (July 9-16) in BACKLOG — already queued. 41 false gaps eliminated.
+
+Notes: iter484 REVIEW — review-484-desc-trim SHIPPED a207377
+
+Notes: iter483 BUILD (seo-content) — /rosh-hanikra-guide shipped. P2/M seo-content item (backlog). Rosh Hanikra sea caves complete visitor guide (cable car restored 2026). 1010/1010 e2e+a11y pass. SHA 17b876d.
 
 Notes: iter482 BUILD (seo-content) — /israel-campervan shipped. P2/M seo-content+monetization item (backlog). Israel campervan & motorhome vanlife guide. TerraVan + campervans-israel.com rental options (₪400–800/night). INPA overnight spots: Kinneret shore camps, Ein Gedi/Nahal Arugot, Mitzpe Ramon crater rim (IDA dark-sky certified). Informal free-camp: Ma'ale Akrabim, Uvda Valley (honest leave-no-trace framing). 7-day 900km clockwise loop route (TLV→Rosh Hanikra→Sea of Galilee→Golan→Jordan Valley→Dead Sea→Masada→Mitzpe Ramon). LPG at Paz/Delek (ACME fitting). Van height clearance warnings: Jerusalem Old City garages 1.9–2.1m limit (most 4-berth vans 2.2–2.6m); Tel Aviv underground blocked. Shabbat planning: fuel + groceries by 2pm Friday. 3 affiliate CTAs: DiscoverCars (campervan/car comparison), Booking.com (campsites & fallback), GYG (Negev experiences). Cross-links: israel-road-trip (campervan paragraph added to intro), glamping-israel (campervan alternative paragraph). Footer link added. 703 pages; 1010/1010 e2e+a11y pass. SHA 7a644ff.
 
@@ -19,34 +27,6 @@ Notes: iter480 RESEARCH — Saturation check after 96 prior research iterations.
 
 Notes: iter479 REVIEW — meta trim on iter476/477/478 guides; fixed 2 over-length descriptions; SHA aa0cd7b
 
-Notes: iter478 BUILD (seo-content) — /israel-for-chinese-travelers shipped. P2/M seo-content+monetization item (iter470 research). Complete planning guide for Chinese passport holders — B/2 Tourist Visa requirement (NOT ETA-IL eligible; ETA-IL only for eligible passport countries; China is NOT on the list), embassy locations in China (Beijing, Shanghai, Guangzhou, Chengdu), required documents (bank statements, return flights, hotel confirmations, insurance), flight routing (Air China direct Beijing→TLV ~10-11h; Cathay Pacific via HKG; Turkish Airlines via IST ~13-15h), WeChat Pay / Alipay not accepted (Visa/Mastercard + NIS cash required), Mandarin-speaking guides via GYG/Viator, Jewish-Chinese cultural parallels (Kaifeng Jewish community, Silk Road trade history, shared values), kosher food explained + halal options for Muslim Chinese travelers, group vs independent travel, 7-day suggested itinerary (TLV → Jerusalem → Dead Sea/Masada → Galilee), safety framing (evergreen + honest), internet freedom in Israel (no Great Firewall). 3 affiliate CTAs: GYG (Mandarin group/private tours), Booking.com (hotel confirmation for visa), Viator (private tours). verdictName + verdictQuery wired. Cross-links: visa-information.md (B/2 visa section → /israel-for-chinese-travelers), best-tours-in-israel.md (Chinese travelers callout), petra-from-israel.md (Jordan Pass note for Chinese citizens needing Jordan visa separately). Smoke +1, a11y +1 → 1008/1008. SEO: "Israel for Chinese travelers", "Israel visa Chinese passport", "B/2 visa Israel China", "Israel Mandarin guide", "Israel trip Chinese tourists".
-
-Notes: iter477 BUILD (seo-content) — /jerusalem-museums shipped. P2/M seo-content item (iter130 research). Jerusalem museums complete hub guide covering 7 major institutions: Israel Museum (cross-link to existing deep guide at /israel-museum-jerusalem), Yad Vashem (advance booking mandatory warning, full-day allocation, not combinable with Old City), Bible Lands Museum Jerusalem (Givat Ram cluster, 2h, ₪50), Tower of David Museum (Jaffa Gate, Night Spectacular seasonal show), National Library of Israel (new Herzog & de Meuron building 2023-24, Givat Ram), Rockefeller Archaeological Museum (free, East Jerusalem, near Damascus Gate), Museum of Tolerance Jerusalem. Includes Givat Ram cluster vs Old City cluster geographic orientation, suggested 2-day museum itinerary, 3-day extension, transit logistics. 3 affiliate CTAs: Tiqets (advance tickets), GYG (guided tours), Booking.com (Jerusalem hotels). verdictName + verdictQuery wired. Cross-links: footer (new link added before Israel Museum link), israel-museum-jerusalem.md (tail paragraph → hub). Smoke test route added. SEO: "Jerusalem museums guide 2026", "Israel Museum Jerusalem visitor guide", "Dead Sea Scrolls museum Jerusalem", "best museums Jerusalem Israel", "Yad Vashem visitor guide".
-
-Notes: iter470 RESEARCH — Saturation check across 15+ candidate topics. 14/15 already shipped or queued after 93 prior research iterations. 1 confirmed net-new: /israel-for-chinese-travelers. China is world's largest outbound travel market; Chinese passport holders require B/2 Tourist Visa (NOT ETA-IL eligible) — high-value content gap zero English-language Israel travel site addresses. Content: B/2 visa process, Air China/Hainan/Cathay/Turkish routing, WeChat Pay gap, Mandarin-speaking guides, group tour fit, Jewish-Chinese cultural parallels, kosher/halal food reality. Affiliate CTAs: GYG group tours, Booking.com, Viator Mandarin-guide private tours. False gaps eliminated: India, Australia/NZ, Canada (iter430), Italy/Spain (iter445), Netherlands (iter440), Germany, Japan/Korea/Philippines (iter455), Nordics (iter450), Muslim travel (iter446), vegan (iter242), medical tourism (iter306), wine (multiple), winter/christmas (iter420/shipped), passover (iter155), Timna Park (iter120).
-
-Notes: iter469 REVIEW — Audited iters 466–468 (petra-wadi-rum-from-eilat, jewish-genealogy-israel-trip, israel-fine-dining). 1 defect found and fixed (SHA 73f91e4) — wrong internal link in israel-fine-dining (/jaffa-food-guide → /mahane-yehuda-market-guide).
-
-Notes: iter468 BUILD (tools fallthrough → seo-content+monetization) — /israel-fine-dining shipped. P2/M seo-content item (iter130 research). tools category fully shipped (11 items); technical fully shipped — fell through to seo-content+monetization. Israel fine dining & Michelin Guide: inaugural Michelin Guide Israel (2025–2026), first Israeli Michelin star (Shmoné Jerusalem, Chef Nir Mesika), La Liste 2026 recognition (OCD TLV, Pastel, Chakra Jerusalem), key restaurants in both cities, how to book (own website / Google / Wolt — no central booking system like OpenTable), kosher considerations, price ranges (₪350–700+ tasting menus; ₪180–300 fine-casual — editorial estimates only), emerging fine dining beyond TLV/Jerusalem (Haifa German Colony, Nazareth Arab-Israeli chefs, Zichron Yaakov wine region). 3 affiliate CTAs: GYG (private food tours), Viator (culinary experiences), Booking.com (luxury hotels near restaurants). verdictName + verdictQuery wired. Cross-links: tel-aviv-food-guide (new "Fine dining and Michelin-starred restaurants" section), jerusalem-food-guide (Shmoné + Michelin paragraph in kosher fine dining section). Smoke tests: added /jewish-genealogy-israel-trip (missed in iter467) + /israel-fine-dining. SEO: "Israel Michelin star restaurants guide", "fine dining Israel 2026", "best restaurants Israel Michelin", "Shmoné Jerusalem restaurant guide", "top restaurants Tel Aviv".
-
-Notes: iter467 BUILD (seo-content) — /jewish-genealogy-israel-trip shipped. P2/M seo-content item (iter50 research). Jewish genealogy research trip guide targeting diaspora travelers who want to trace family history during an Israel visit. Three-pillar structure: (1) ANU Museum — Douglas E. Goldman Jewish Genealogy Center (world's largest Jewish genealogy database, free consultations, appointment required); (2) Yad Vashem Central Database of Shoah Victims' Names (~4.8M entries, online pre-search + in-person research layer); (3) National Library of Israel (landsmanshaft records, historical press, expert genealogy librarians). Pre-trip prep section covers JewishGen.org baseline research, document gathering, advance Yad Vashem database search. Two suggested itineraries: 2-day research focus (Jerusalem day: Yad Vashem AM + NLI PM; Tel Aviv day: ANU Museum) and 7-day combined heritage trip. Honesty note on database incompleteness. 3 affiliate CTAs: GYG (Jewish heritage tour Jerusalem), Abraham Tours (customised private tours), TourRadar (multi-day packages). verdictName + verdictQuery wired. Cross-links: jewish-heritage-israel.md (ANU genealogy center paragraph + link to new guide), bar-bat-mitzvah-israel.md (Day 10 ANU Museum mention + link), israel-experience-finder.astro (spiritual pilgrimage highlights). SEO: "Jewish genealogy Israel trip", "tracing Jewish ancestry Israel", "Yad Vashem genealogy research", "ANU Museum genealogy center".
-
-Notes: iter466 BUILD (monetization) — /petra-wadi-rum-from-eilat shipped. P2/M monetization item (iter420 research). Petra + Wadi Rum combo guide from Eilat.
-
-Notes: iter465 RESEARCH — Researched competitor gaps. 5 items added to BACKLOG.
-
-Notes: iter461 BUILD (monetization) — /israel-small-group-tours shipped.
-
-Notes: iter460 RESEARCH — Researched Sub-Saharan Africa + Latin America origin-market gaps. 6 items added to BACKLOG.
-
-Notes: iter459 REVIEW — Audited iters 456–458. 3 defects fixed (SHA b14bab3).
-
-Notes: iter458 BUILD (seo-content, tools fallthrough) — /israel-visa-extension shipped.
-
-Notes: iter457 BUILD (seo-content) — /israel-kayaking shipped.
-
-Notes: iter456 BUILD (monetization) — /dead-sea-day-trip-comparison shipped.
-
 Cron b7325b16 hourly @ :17. Loop history: 19 tools + sitemap-lastmod + link-checker(+depth) + i18n
-Phase0/1a/1b/1c/2 Batches1-18(COMPLETE) + 42 review passes + 3 technical (event-schema + meta-trim + locale-links) + 60 EN guides + 7 tools-monetization + 2 comparisons;
+Phase0/1a/1b/1c/2 Batches1-18(COMPLETE) + 42 review passes + 3 technical (event-schema + meta-trim + locale-links) + 61 EN guides + 7 tools-monetization + 2 comparisons;
 research iters 5/10/20/30/35/40/45/50/55/60/65/70/75/80/85/90/95/100/105/110/115/120/125/130/135/140/145/150/155/160/165/170/175/180/185/190/195/200/205/210/215/220/225/230/235/240/245/250/255/260/265/270/275/280/285/290/295/300/305/310/315/320/325/330/335/340/345/350/355/360/365/370/375/380/385/390/395/400/405/410/420/425/430/435/440/445/450/455/460/465/470/480/485.
