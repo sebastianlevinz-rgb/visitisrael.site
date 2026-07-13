@@ -7855,3 +7855,11 @@ Gate: pnpm check 0 errors | pnpm build 707 pages (+1 from 706) | pnpm test:e2e 1
 Ship: committed e781683 to master, pushed to origin/master. Branch auto/israel-music-festivals deleted.
 Prod: CI Lighthouse in_progress at push time; next iteration start-check will confirm.
 Next: iter 489 → REVIEW. 489 % 5 == 4.
+
+## 2026-07-13T03:45Z · iter 489 · REVIEW · audit iter486-488 (timna-park-guide, israel-travel-2026, israel-music-festivals)
+What: REVIEW audit of 3 most recent BUILD guides (iter486-488).
+Checks: (1) title lengths all ≤65 chars (timna 50, travel-2026 38, music-festivals 52 ✓); (2) description lengths: timna 133 ✓, travel-2026 153 ✓, music-festivals 168 chars OVER → fixed to 152 chars; (3) all internal links validated — /negev and /jerusalem are valid region routes ✓; (4) no H1 violations ✓; (5) no aggregateRating/ratingValue fabrication ✓; (6) hero images all exist in /public/images/ ✓; (7) footer: travel-2026 in Plan column ✓, music-festivals in Essentials ✓, timna-park-guide intentionally absent (consistent with red-canyon/hai-bar-yotvata pattern — reachable via day-trips-from-eilat + eilat-travel-guide); (8) smoke tests cover all 3 ✓; (9) stale remote branch origin/auto/israel-vs-cyprus noted (iter410-411 remnant, feature already in master) — no action needed.
+Fix: trimmed israel-music-festivals description from 168→152 chars (removed ', what to expect').
+Gate: pnpm check 0 errors | pnpm build 707 pages ✓ | pnpm test:e2e 1014/1014 ✓ GREEN.
+Ship: master SHA 68ddb36, pushed. Prod deploy in progress.
+Next: iter 490 → RESEARCH. 490 % 5 == 0.
