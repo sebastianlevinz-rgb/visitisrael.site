@@ -1,15 +1,17 @@
 # LOOP STATE
 
-- iteration: 516
-- lastMode: BUILD (seo-content+monetization)
-- lastItem: eilat-ramon-airport-guide (P2/S) — Eilat Ramon Airport complete guide (/eilat-ramon-airport-guide)
-- lastResult: SHIPPED e3e7533. pnpm check 0 errors; 722 pages (+1); 1030/1030 e2e+a11y pass. CI in_progress at push time; prior SHA (4dae5a1) CI success.
-- nextRotationCategory: 517%5==2 → BUILD (seo-content). 518%5==3 → BUILD (seo-content). 519%5==4 → REVIEW. 520%5==0 → RESEARCH. 521%5==1 → BUILD (monetization → fall-through seo-content).
+- iteration: 517
+- lastMode: BUILD (seo-content)
+- lastItem: israel-in-spring (P2/S) — Israel in Spring travel guide (/israel-in-spring)
+- lastResult: SHIPPED de6f1d0. pnpm check 0 errors; 723 pages (+1); 1031/1031 e2e+a11y pass. CI in_progress at push time; prior SHA (8ab6d2d) CI success.
+- nextRotationCategory: 518%5==3 → BUILD (seo-content). 519%5==4 → REVIEW. 520%5==0 → RESEARCH. 521%5==1 → BUILD (monetization → fall-through seo-content). 522%5==2 → BUILD (seo-content).
 - higgsfieldSpent: 0
-- updatedAt: 2026-07-14T07:00Z
+- updatedAt: 2026-07-14T07:45Z
 - branch context: work on master; feature work on auto/<slug>
 
-Notes: iter516 BUILD (seo-content+monetization) — eilat-ramon-airport-guide. SHIPPED e3e7533. pnpm check 0 errors; 722 pages (+1); 1030/1030 e2e+a11y pass. New guide at /eilat-ramon-airport-guide covering Ramon Airport (ETM, 18km north of Eilat): transport to city (Bus 30/50 ~₪8, Gett taxi ~₪70-90, car hire desks in arrivals hall), airlines (El Al/Arkia/Israir domestic + Wizz Air/Ryanair/TUI charter 2026 international routes), airport facilities (single terminal, ATMs, car hire counters, limited airside retail), proximity to Jordanian border (Arava crossing 3km from terminal), practical arrival/departure tips, Shabbat flight context. 7 FAQs. 3 affiliate CTAs: DiscoverCars (car hire desks in arrivals), Booking.com Eilat hotels, GYG Eilat activities. Cross-link added to eilat-travel-guide.md "Getting to Eilat" section (appended "/eilat-ramon-airport-guide" to Ramon Airport sentence). Footer Transport section +1. Smoke test +1. eilat-ramon-airport-guide item removed from BACKLOG (was P2 added iter515 research).
+Notes: iter517 BUILD (seo-content) — israel-in-spring. SHIPPED de6f1d0. pnpm check 0 errors; 723 pages (+1); 1031/1031 e2e+a11y pass. New guide at /israel-in-spring completes seasonal-guide suite (summer/autumn/winter already shipped). Content: why spring works everywhere (coast 18–24°C April, Jerusalem 15–21°C, Negev/Dead Sea prime hiking), Darom Adom wildflower bloom tail (March–April: irises/lupines in Judean foothills, Golan poppies in April), Negev hiking season (Makhtesh Ramon, Incense Route UNESCO cities, INT trail, nahal water hiking), Easter/Holy Week in Jerusalem (Palm Sunday procession, Via Dolorosa Good Friday, Holy Fire ceremony on Holy Saturday, Easter Sunday services), Passover logistics (price spikes 30–50%, chametz-free restaurants, Seder night experience), Yom HaZikaron + Yom HaAtzmaut national observances, region-by-region breakdown (coast/Haifa Bahá'í/Jerusalem/Dead Sea/Galilee+Golan/Negev/Eilat), packing table, budget pricing table, 10-day sample itinerary. 7 FAQs covering March/April/May timing, wildflower bloom, Passover impact, Easter logistics, packing. 3 affiliate CTAs: GYG Negev wildflower/hiking, GYG Jerusalem Easter/Passover tours, Booking.com hotels. Cross-link added to best-time-to-visit-israel.md spring section. Footer Planning section +1 (israel-in-spring). Smoke test +1. israel-in-spring item removed from BACKLOG (was P2/S added iter420/iter205 research, status: ready).
+
+Notes: iter516 BUILD (seo-content+monetization) — eilat-ramon-airport-guide. SHIPPED e3e7533. pnpm check 0 errors; 722 pages (+1); 1030/1030 e2e+a11y pass. CI in_progress at push time; prior SHA (4dae5a1) CI success.
 
 Notes: iter515 RESEARCH — research pass #104. 6 new items added. See prior entry.
 

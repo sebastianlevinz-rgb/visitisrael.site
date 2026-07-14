@@ -8245,3 +8245,13 @@ ben-gurion-airport-guide checklist.
 **Merge SHA:** e3e7533. Squash-merged auto/eilat-ramon-airport-guide → master; branch deleted. Pushed to origin. CI in_progress at push time; prior SHA (4dae5a1 = iter515 state advance) CI success.
 
 **Next:** iter 517 → BUILD (517%5==2 → seo-content).
+
+## 2026-07-14T07:45Z · iter 517 · BUILD (seo-content) · israel-in-spring
+
+**What:** New P2/S guide at /israel-in-spring completing the seasonal-guide suite (summer/autumn/winter already shipped). Content covers the full March–May planning picture: (1) why spring works everywhere (coast 18–24°C in April, Jerusalem 15–21°C, Negev/Dead Sea prime hiking window); (2) Darom Adom wildflower bloom tail — March irises/lupines in Judean foothills and Elah Valley, April Golan poppies and Galilee wildflowers, link to /israel-spring-wildflowers for full bloom calendar; (3) Negev hiking season (Makhtesh Ramon rim trail, Nahal Ardon, Incense Route UNESCO cities, water hiking nahal streams); (4) Easter/Holy Week logistics — Palm Sunday procession, Via Dolorosa Good Friday (Franciscan 11:30am, free), Holy Fire ceremony Holy Saturday (arrive 4–5h early), Easter Sunday services, Catholic vs Orthodox timing note; (5) Passover logistics (30–50% hotel price spike, chametz-free restaurants, Seder night experience for tourists, link to /traveling-israel-jewish-holidays); (6) Yom HaZikaron + Yom HaAtzmaut national observances (siren experience; transition from mourning to street parties); (7) region-by-region breakdown (coast/Haifa Bahá'í Gardens/Jerusalem/Dead Sea/Galilee+Golan/Negev/Eilat); (8) packing table (3 columns: coast/Jerusalem/Negev); (9) budget pricing table (pre-Passover / Passover week / post-Passover, 4 cities); (10) 10-day sample itinerary table. 7 FAQs. 3 affiliate CTAs: GYG Negev wildflower/hiking, GYG Jerusalem Easter/Passover tours, Booking.com hotels. Cross-link added to best-time-to-visit-israel.md spring section (added sentence linking to /israel-in-spring). Footer Planning section +1 (before israel-spring-wildflowers). Smoke test +1.
+
+**Gate:** pnpm check 0 errors (114 hints, 0 warnings, 0 errors); pnpm build 723 pages (+1 from 722); pnpm test:e2e 1031/1031 pass ✅ GREEN.
+
+**Merge SHA:** de6f1d0. Squash-merged auto/israel-in-spring → master; branch deleted. Pushed to origin. CI in_progress at push time; prior SHA (8ab6d2d = iter516 state advance) CI success.
+
+**Next:** iter 518 → BUILD (518%5==3 → seo-content).
