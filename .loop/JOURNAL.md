@@ -8283,3 +8283,10 @@ Gate: pnpm check 0 errors | pnpm build 725 pages (+1) | 1033/1033 e2e+a11y ✅ G
 Merge SHA: b781cee. Squash-merged → master; branch deleted. Pushed. CI in_progress at push time; prior SHA (d6efd00 = iter520) CI success.
 Prod: CI in_progress at commit time; prior SHA success — standard pattern.
 Next: iter 522 → BUILD (522%5==2; category: seo-content).
+
+## 2026-07-14T12:46Z · iter 522 · BUILD · galilee-culinary-institute-gonen
+What: New /galilee-culinary-institute-gonen — Galilee Culinary Institute at Kibbutz Gonen: A Visitor's Guide (2026). 1,600-word first-mover guide to the NIS 100M JNF-USA culinary campus that soft-launched at Kibbutz Gonen, Upper Galilee, February 2026. Chef Lior Lev Sercarz (La Boîte NYC spice brand founder) as culinary director; 12-dunam working farm, restaurant, wine bar, microbrewery, guest suites. Zero competitor editorial coverage at time of writing = first-mover SEO opportunity. Content: campus overview, Chef background, cooking workshop format (farm-to-table multicultural Galilee cuisine: Druze flatbreads, Bedouin spice blends, Jewish Galilee recipes), driving times table (Tiberias 45 min / Haifa 1h / Tel Aviv 2h 45min / Jerusalem 3h), Upper Galilee day-trip circuit (Tel Dan + Banias + Nimrod Fortress + Dalton Winery + Rosh Pina), Hula Valley birdwatching extension, practical info + honesty framing. 7 FAQs. 3 CTAs: GYG Galilee culinary tours, Viator northern Galilee food & wine tour, Booking.com Upper Galilee/Rosh Pina hotels. Cross-links: israel-agritourism-guide (north Israel itinerary bullet updated to reference Gonen); rosh-pina-guide (northward link to Gonen added, 20 min). Footer Essentials +1 (after israel-agritourism-guide). Smoke test +1; a11y test +1.
+Gate: pnpm check 0 errors | pnpm build 726 pages (+1) | 1035/1035 e2e+a11y ✅ GREEN.
+Merge SHA: 21d248d. Squash-merged → master; branch deleted. Pushed. CI in_progress at push time; prior SHA (9754242 = iter521) CI in_progress at state-write time.
+Prod: CI in_progress at push. Standard pattern — no gate-fail signals observed.
+Next: iter 523 → BUILD (523%5==3; category: BUILD seo-content).
