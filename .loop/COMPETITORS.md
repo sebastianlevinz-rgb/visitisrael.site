@@ -4940,3 +4940,38 @@ Queries run: "Zichron Yaakov guide Israel", "Zichron Yaakov wineries visit", "Ca
 - Frommers and Lonely Planet dominate heritage-town guides (Zichron Yaakov, Rosh Pina) but their content is shorter and less practical than our guide format
 - Wine-country day-trip content (Zichron Yaakov, Carmel region) is underserved by Israeli tourism sites vs. international travel bloggers
 - 14-day itinerary SERP has NO dominant Israeli-focused travel site — opportunity for a dedicated authoritative page vs. generic travel blogger content
+
+### 2026-07-14 · iter 530 · Negev craters + Golan military + coastal parks SERP scan (research pass #107)
+Queries run: "Makhtesh HaGadol Israel guide", "HaMakhtesh HaKatan hike Negev", "Negev craters hiking 2026", "Palmahim beach Israel national park", "Valley of Tears Israel 1973 Yom Kippur War Golan", "Nesher Park suspension bridges Haifa", "Nahal Tzafit hike Negev", "Israel travel 2026 new attractions", "National Campus Archaeology Jerusalem 2026", "Israel travel hidden gems 2026". File scan: src/content/**/*.md grep for palmahim/makhtesh.hagadol/valley.of.tears/nesher.park/nahal.tzafit.
+
+#### Net-new gap findings this pass
+
+1. **Makhtesh HaGadol & HaKatan** (`hoshen-tours.com`, `hike-israel.com`, `israel-in-photos.com`, `alltrails.com`, `takeyourbackpack.com`) — The two lesser-known Negev erosion craters (distinct from Makhtesh Ramon which is SHIPPED). HaGadol: 14km×6km near Yeruham; colored sandstone, ammonite fossils, more pristine than Ramon. HaKatan: 5km×7km perfect oval near Dimona; dramatic limestone walls, fewer crowds. All five competitors have standalone content; ZERO on visitisrael.site. Natural content cluster with existing mitzpe-ramon-guide and sde-boker-ein-avdat-guide.
+
+2. **Palmahim Beach National Park** (`parks.org.il`, `tripadvisor.com`, `israelinsideout.com`, `parksofisrael.com`) — INPA-managed coastal park 30km south of TLV; sand dunes, active sea turtle nesting, lifeguarded beach, camping zones, snorkeling, entry ₪10/car. Entirely absent from visitisrael.site despite being one of the only national park beaches in the Tel Aviv metro area. Strong INPA parks pass cross-sell.
+
+3. **Valley of Tears (Emek HaBacha) — 1973 Yom Kippur War Golan memorial** (`touristisrael.com`, `beinharimtours.com`, `hoshen-tours.com`) — The decisive 1973 tank battle site; outdoor museum with decommissioned Syrian + Israeli tanks in original positions; adjacent Mount Bental volcano crater with Syria views. Among the highest-booked Golan tours on GYG + Viator; visitisrael.site golan-heights-guide mentions the war briefly but has zero depth on the memorial site itself.
+
+4. **Nesher Park Hanging Bridges (Haifa)** (`inandaroundisrael.com`, `beinharimtours.com`, `alltrails.com`, `dannythedigger.com`) — Two 70m suspension footbridges over forested Katia Stream gorge on Mount Carmel slopes; free entry; zero coverage on visitisrael.site despite strong AllTrails + TripAdvisor presence.
+
+5. **Nahal Tzafit canyon hike (Negev)** — Undercovered English-language gap: desert gorge near Makhtesh HaGadol with seasonal desert pools; strong long-tail SEO opportunity for "Negev hidden hike" and "desert canyon swim Israel" queries. Virtually absent from English travel guide ecosystem.
+
+#### Competitor patterns observed this pass
+- `hoshen-tours.com` continues to have strong geological + military history content (Makhtesh HaGadol, 1973 Yom Kippur War, geological unique formations) that visitisrael.site lacks
+- `inandaroundisrael.com` is consistently first-to-market for family-friendly outdoor recreation (Nesher Park bridges, natural pools, day hikes) not captured in major competitor aggregators
+- AllTrails Israel coverage is growing — competitive trail guides need practical hiking data (distance, elevation, difficulty, water sources) that blog-style guides lack; opportunity to be the authoritative narrative guide that complements AllTrails route data
+- `takeyourbackpack.com` consistently surfaces Negev crater content (HaGadol, HaKatan, Ramon) — their 2026 Negev guide is the main competitor for "Negev craters" SERP
+- The 1973 Yom Kippur War tourism market is underserved relative to demand: GYG has 8+ dedicated "Golan military history" tour products from TLV averaging 4.8★ ratings; content supply on English-language travel sites is weak outside tour operator sites
+
+#### Confirmed not gaps this pass
+- All four seasonal guides (SHIPPED; confirmed in src/content/guides/)
+- Sea of Galilee guide (sea-of-galilee-guide.md confirmed live)
+- Wadi Qelt / Ein Prat (SHIPPED as part of water-hiking batch)
+- Bar/Bat Mitzvah Israel guide (SHIPPED iter63)
+- Israel spring wildflowers + kalanit (SHIPPED iter493)
+- Israel craft beer guide (SHIPPED iter236)
+- Tiberias guide, Sea of Galilee boat tours, best-hotels-tiberias (SHIPPED; minor duplicate in BACKLOG)
+- National Campus for the Archaeology of Israel (BACKLOG L604 — already queued)
+- Negev wine route (BACKLOG — already queued)
+- Beit She'an guide (BACKLOG — already queued)
+- Hamat Gader thermal springs (BACKLOG — already queued)
