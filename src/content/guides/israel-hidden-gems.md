@@ -119,7 +119,7 @@ Most first-time visitors to Israel move along a well-worn triangle: Jerusalem's 
 
 **Why it is overlooked:** Rosh Pina is on the road north from Tiberias toward the Golan Heights — most drivers pass it without stopping. The historic quarter takes only an hour to walk and is genuinely beautiful in the late afternoon.
 
-**Practical:** Free to walk; the Ari winery and several small restaurants are in the restored quarter. The trailhead for Nimrod Lookout is marked from the village entrance road. Combine with a [Tiberias](/tiberias-guide) base for a Galilee road trip that also includes [Safed](/safed-tzfat-guide) and the Golan.
+**Practical:** Free to walk; the Ari winery and several small restaurants are in the restored quarter. The trailhead for Nimrod Lookout is marked from the village entrance road. Combine with a [Tiberias](/tiberias-guide) base for a Galilee road trip that also includes [Safed](/safed-tzfat-guide) and the Golan. See the full [Rosh Pina wine village guide](/rosh-pina-guide) for wineries, restaurants and where to stay.
 
 ---
 

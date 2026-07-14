@@ -173,6 +173,7 @@ Tiberias is one of the more affordable overnight destinations in Israel for mid-
 - [Nazareth travel guide](/nazareth-travel-guide) — Nazareth Old City in depth
 - [Galilee tours compared](/galilee-tours-compared) — guided tours if you are not driving
 - [Galilee vs Golan weekend guide](/galilee-vs-golan-weekend) — four-day extension options
+- [Rosh Pina wine village guide](/rosh-pina-guide) — Upper Galilee moshava, wineries and Nimrod Lookout
 - [Western Galilee guide](/western-galilee-guide) — Akko, Rosh Hanikra, and the coast
 - [Christian pilgrimage planning guide](/christian-pilgrimage-holy-land) — the full pilgrimage itinerary
 - [Israel transportation guide](/transportation) — Route 6 tolls, buses, Rav-Kav
