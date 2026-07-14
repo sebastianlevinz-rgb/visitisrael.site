@@ -1,13 +1,15 @@
 # LOOP STATE
 
-- iteration: 510
-- lastMode: RESEARCH (research-pass-103)
-- lastItem: research-510 — 6 new items added to BACKLOG (tel-gezer-guide, deaf-travel-israel, ecumenical-israel-guide, tel-aviv-architecture-guide, social-impact-tourism-israel, mount-carmel-national-park)
-- lastResult: RESEARCH complete. 6 confirmed-new items added. No code shipped (research mode).
-- nextRotationCategory: 511%5==1 → BUILD (monetization exhausted → seo-content). 512%5==2 → BUILD (seo-content). 513%5==3 → BUILD (tools → fall-through seo-content). 514%5==4 → REVIEW. 515%5==0 → RESEARCH.
+- iteration: 511
+- lastMode: BUILD (seo-content)
+- lastItem: tel-gezer-guide — /tel-gezer-guide — P2/S seo-content (26-layer biblical tel, Solomonic gate, Canaanite water system, Gezer Calendar)
+- lastResult: SHIPPED c77920c. pnpm check 0 errors; 719 pages (+1); 1027/1027 e2e+a11y pass. CI in_progress at push time; prior SHA (8313836 = iter510 research) CI success.
+- nextRotationCategory: 512%5==2 → BUILD (seo-content). 513%5==3 → BUILD (tools → fall-through seo-content). 514%5==4 → REVIEW. 515%5==0 → RESEARCH.
 - higgsfieldSpent: 0
-- updatedAt: 2026-07-14T08:00Z
+- updatedAt: 2026-07-14T02:00Z
 - branch context: work on master; feature work on auto/<slug>
+
+Notes: iter511 BUILD (seo-content) — tel-gezer-guide. SHIPPED c77920c. 26-layer biblical tel midway on Route 1 between TLV and Jerusalem (25–30 min from each city). Content: Solomonic six-chamber gate (1 Kings 9:15 context; compare to Megiddo and Hazor via megiddo-jezreel-valley-guide cross-link), Canaanite water system descent (175 rock-cut steps; headlamp advised), Gezer Calendar story (oldest Hebrew inscription, now Istanbul Archaeology Museum), modern excavations (NOBTS/Tandy summer digs), Latrun circuit pairing (Trappist monastery + Armored Corps Museum). 3 affiliate CTAs: DiscoverCars (car hire for Route 1 self-drive), GYG (Jerusalem archaeology day tours), Booking.com (Jerusalem hotels). 5 FAQs. 1 broken-link fix (removed link to not-yet-built /volunteer-archaeology-israel; replaced with /israel-unesco-sites). Smoke test +1. 719 pages; 1027/1027 e2e+a11y pass. SHA c77920c. CI in_progress at push time; prior SHA (8313836) success.
 
 Notes: iter510 RESEARCH — research pass #103. 20+ web searches; 30+ BACKLOG+DONE dedup checks. 6 confirmed new items added: tel-gezer-guide (P2/S seo-content; 26-layer biblical site midway TLV-Jerusalem; Gezer Calendar + Solomonic gate + Canaanite water system; Tourist Israel + Danny the Digger + BibleWalks all have content; zero on site); deaf-travel-israel (P3/S seo-content; Nalaga'at Center world-only deaf-blind theater company Jaffa; BlackOut restaurant; distinct from shipped israel-accessible-travel.md); ecumenical-israel-guide (P3/M seo-content; multi-denominational interfaith pilgrimages, WCC + Taizé programs, Roots coexistence; no coverage on site); tel-aviv-architecture-guide (P3/S seo-content; TLV beyond Bauhaus — Brutalist, Modernist, Sarona Templar Colony, Neve Tzedek; distinct from shipped tel-aviv-white-city.md); social-impact-tourism-israel (P3/S seo-content+monetization; voluntourism hub, Hand in Hand + Roots + FoEME + Abraham Path; distinct from volunteer-archaeology BACKLOG); mount-carmel-national-park (P3/S seo-content; 22,000-ha biosphere reserve, Ein Hod artist village, Muhraka viewpoint, Nahal Me'arot UNESCO caves; distinct from shipped druze-villages-carmel.md). Saturation rate: 6/20+ searches = extreme saturation (#103). BACKLOG now ~291 items.
 
@@ -35,4 +37,4 @@ Notes: iter498 BUILD (seo-content) — /jerusalem-festival-of-light shipped. SHA
 
 Cron b7325b16 hourly @ :17. Loop history: 19 tools + sitemap-lastmod + link-checker(+depth) + i18n
 Phase0/1a/1b/1c/2 Batches1-18(COMPLETE) + 43 review passes + 3 technical (event-schema + meta-trim + locale-links) + 63 EN guides + 7 tools-monetization + 2 comparisons;
-research iters 5/10/20/30/35/40/45/50/55/60/65/70/75/80/85/90/95/100/105/110/115/120/125/130/135/140/145/150/155/160/165/170/175/180/185/190/195/200/205/210/215/220/225/230/235/240/245/250/255/260/265/270/275/280/285/290/295/300/305/310/315/320/325/330/335/340/345/350/355/360/365/370/375/380/385/390/395/400/405/410/420/425/430/435/440/445/450/455/460/465/470/480/485/490/495/500/505.
+research iters 5/10/20/30/35/40/45/50/55/60/65/70/75/80/85/90/95/100/105/110/115/120/125/130/135/140/145/150/155/160/165/170/175/180/185/190/195/200/205/210/215/220/225/230/235/240/245/250/255/260/265/270/275/280/285/290/295/300/305/310/315/320/325/330/335/340/345/350/355/360/365/370/375/380/385/390/395/400/405/410/420/425/430/435/440/445/450/455/460/465/470/480/485/490/495/500/505/510.

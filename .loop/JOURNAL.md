@@ -8141,3 +8141,13 @@ ben-gurion-airport-guide checklist.
 **No gate run** (research mode; no code changes).
 
 **Next:** iter 511 → BUILD (511%5==1; monetization exhausted → seo-content; pick highest-priority ready seo-content item from BACKLOG).
+
+## 2026-07-14T02:00Z · iter 511 · BUILD (seo-content) · tel-gezer-guide
+
+**Item:** Tel Gezer National Park visitor guide (/tel-gezer-guide) — P2/S seo-content. Highest-priority unshipped item (added iter510 research). 26-layer biblical tel midway Route 1 TLV–Jerusalem; Gezer Calendar (oldest Hebrew inscription, Istanbul Archaeology Museum), Solomonic six-chamber gate (1 Kings 9:15 context; same plan as Megiddo + Hazor), Canaanite water system descent (175 rock-cut steps; headlamp advised), NOBTS summer digs, Latrun circuit (Trappist monastery + Armored Corps Museum).
+
+**Gate:** pnpm check 0 errors; build 719 pages (+1 from 718); 1027/1027 e2e+a11y pass. One broken-link caught by the links.spec: removed reference to not-yet-built /volunteer-archaeology-israel; replaced with /israel-unesco-sites cross-link. Rebuilt + retested: all 1027 pass.
+
+**Merge SHA:** c77920c. CI in_progress at push time; prior SHA (8313836 = iter510 research) CI success.
+
+**Next:** iter 512 → BUILD (512%5==2; seo-content continues).
