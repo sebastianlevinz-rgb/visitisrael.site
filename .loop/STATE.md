@@ -1,13 +1,17 @@
 # LOOP STATE
 
-- iteration: 515
-- lastMode: RESEARCH
-- lastItem: research pass #104 — 6 confirmed new items (eilat-ramon-airport-guide P2/S, tel-aviv-bachelor-party P3/S, kiryat-yearim-guide P3/S, tel-aviv-biennale-guide P3/S, israel-for-belgian-travelers P3/S, holy-fire-ceremony-jerusalem P3/S)
-- lastResult: RESEARCH only — no code shipped. BACKLOG now ~297 ready items. Saturation rate: 6 confirmed new items from 30+ search angles = extreme saturation (#104 pass).
-- nextRotationCategory: 516%5==1 → BUILD (monetization → fall-through seo-content). 517%5==2 → BUILD (seo-content). 518%5==3 → BUILD (fall-through seo-content). 519%5==4 → REVIEW. 520%5==0 → RESEARCH.
+- iteration: 516
+- lastMode: BUILD (seo-content+monetization)
+- lastItem: eilat-ramon-airport-guide (P2/S) — Eilat Ramon Airport complete guide (/eilat-ramon-airport-guide)
+- lastResult: SHIPPED e3e7533. pnpm check 0 errors; 722 pages (+1); 1030/1030 e2e+a11y pass. CI in_progress at push time; prior SHA (4dae5a1) CI success.
+- nextRotationCategory: 517%5==2 → BUILD (seo-content). 518%5==3 → BUILD (seo-content). 519%5==4 → REVIEW. 520%5==0 → RESEARCH. 521%5==1 → BUILD (monetization → fall-through seo-content).
 - higgsfieldSpent: 0
-- updatedAt: 2026-07-14T06:30Z
+- updatedAt: 2026-07-14T07:00Z
 - branch context: work on master; feature work on auto/<slug>
+
+Notes: iter516 BUILD (seo-content+monetization) — eilat-ramon-airport-guide. SHIPPED e3e7533. pnpm check 0 errors; 722 pages (+1); 1030/1030 e2e+a11y pass. New guide at /eilat-ramon-airport-guide covering Ramon Airport (ETM, 18km north of Eilat): transport to city (Bus 30/50 ~₪8, Gett taxi ~₪70-90, car hire desks in arrivals hall), airlines (El Al/Arkia/Israir domestic + Wizz Air/Ryanair/TUI charter 2026 international routes), airport facilities (single terminal, ATMs, car hire counters, limited airside retail), proximity to Jordanian border (Arava crossing 3km from terminal), practical arrival/departure tips, Shabbat flight context. 7 FAQs. 3 affiliate CTAs: DiscoverCars (car hire desks in arrivals), Booking.com Eilat hotels, GYG Eilat activities. Cross-link added to eilat-travel-guide.md "Getting to Eilat" section (appended "/eilat-ramon-airport-guide" to Ramon Airport sentence). Footer Transport section +1. Smoke test +1. eilat-ramon-airport-guide item removed from BACKLOG (was P2 added iter515 research).
+
+Notes: iter515 RESEARCH — research pass #104. 6 new items added. See prior entry.
 
 Notes: iter513 BUILD (seo-content) — tel-aviv-street-art. SHIPPED 2a81590. pnpm check 0 errors; 721 pages (+1); 1029/1029 e2e+a11y pass. New guide at /tel-aviv-street-art covering Florentin mural district (Frenkel St, Vital St, Florentin St, side alleys), Jaffa Flea Market urban art zone, combined half-day self-guided walk (Florentin loop → Jaffa port). 7 FAQs. 3 affiliate CTAs: GYG street art tour, Viator culture tours, Booking.com south TLV hotels. Cross-link added to tel-aviv-white-city.md. Footer link +1. Smoke test +1. Removed two duplicate tel-aviv-street-art items from BACKLOG (P2 iter125 + P3 iter200).
 
@@ -41,4 +45,4 @@ Notes: iter498 BUILD (seo-content) — /jerusalem-festival-of-light shipped. SHA
 
 Cron b7325b16 hourly @ :17. Loop history: 19 tools + sitemap-lastmod + link-checker(+depth) + i18n
 Phase0/1a/1b/1c/2 Batches1-18(COMPLETE) + 43 review passes + 3 technical (event-schema + meta-trim + locale-links) + 63 EN guides + 7 tools-monetization + 2 comparisons;
-research iters 5/10/20/30/35/40/45/50/55/60/65/70/75/80/85/90/95/100/105/110/115/120/125/130/135/140/145/150/155/160/165/170/175/180/185/190/195/200/205/210/215/220/225/230/235/240/245/250/255/260/265/270/275/280/285/290/295/300/305/310/315/320/325/330/335/340/345/350/355/360/365/370/375/380/385/390/395/400/405/410/420/425/430/435/440/445/450/455/460/465/470/480/485/490/495/500/505/510.
+research iters 5/10/20/30/35/40/45/50/55/60/65/70/75/80/85/90/95/100/105/110/115/120/125/130/135/140/145/150/155/160/165/170/175/180/185/190/195/200/205/210/215/220/225/230/235/240/245/250/255/260/265/270/275/280/285/290/295/300/305/310/315/320/325/330/335/340/345/350/355/360/365/370/375/380/385/390/395/400/405/410/420/425/430/435/440/445/450/455/460/465/470/480/485/490/495/500/505/510/515.

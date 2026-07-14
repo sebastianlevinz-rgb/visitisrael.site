@@ -8235,3 +8235,13 @@ ben-gurion-airport-guide checklist.
 **Gate:** N/A (RESEARCH mode — no code).
 
 **Next:** iter 516 → BUILD (516%5==1 → monetization priority, fall-through to seo-content if exhausted).
+
+## 2026-07-14T07:00Z · iter 516 · BUILD (seo-content+monetization) · eilat-ramon-airport-guide
+
+**What:** New P2/S guide at /eilat-ramon-airport-guide for Ilan and Assaf Ramon International Airport (ETM), 18km north of Eilat. Covers: transport to Eilat city (Bus 30/50 ~₪8/~20 min; Gett taxi ~₪70–90; car hire desks — Avis/Hertz/Budget/Sixt/Eldan in arrivals hall); airlines (El Al/Arkia/Israir domestic ~50min from Ben Gurion; Wizz Air/Ryanair/TUI international 2026 seasonal routes); airport facilities (single terminal, ATMs, limited airside café+duty-free, no lounge); Jordanian border proximity (Arava crossing 3km from terminal — closer than city); Petra connection logistics; Shabbat domestic flights pause context; arrival/departure timing. 7 FAQs. 3 affiliate CTAs: DiscoverCars (car hire), Booking.com Eilat hotels, GYG Eilat activities. Cross-link from eilat-travel-guide.md "Getting to Eilat" section. Footer Transport section +1. Smoke test +1.
+
+**Gate:** pnpm check 0 errors; pnpm build 722 pages (+1 from 721); pnpm test:e2e 1030/1030 pass ✅ GREEN. (One focused fix mid-gate: broken link `/negev/timna-park` → corrected to `/eilat/timna-park`.)
+
+**Merge SHA:** e3e7533. Squash-merged auto/eilat-ramon-airport-guide → master; branch deleted. Pushed to origin. CI in_progress at push time; prior SHA (4dae5a1 = iter515 state advance) CI success.
+
+**Next:** iter 517 → BUILD (517%5==2 → seo-content).
