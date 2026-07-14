@@ -120,7 +120,7 @@ Note: if you fly back from Eilat's Ramon Airport, you still clear Ben Gurion cus
 
 ## Getting to Eilat
 
-**By air (recommended):** El Al, Arkia and Israir fly from Ben Gurion Airport to Ramon Airport (ETM) in about 50 minutes. Ramon is 18 km north of central Eilat; taxis to the city cost roughly ₪50–70. Budget roughly ₪200–500 for a return ticket depending on timing — prices spike significantly at Jewish holidays, Israeli school vacations and Christmas/New Year. Book as early as possible for those periods.
+**By air (recommended):** El Al, Arkia and Israir fly from Ben Gurion Airport to Ramon Airport (ETM) in about 50 minutes. Ramon is 18 km north of central Eilat; taxis to the city cost roughly ₪50–70. Budget roughly ₪200–500 for a return ticket depending on timing — prices spike significantly at Jewish holidays, Israeli school vacations and Christmas/New Year. Book as early as possible for those periods. For transport from the terminal, car hire desks, and what to expect on arrival, see the [Ramon Airport guide](/eilat-ramon-airport-guide).
 
 **By car:** 4–5 hours from Tel Aviv. Two main routes:
 - **Route 90 via the Dead Sea**: more scenic, passes Masada and Ein Gedi; allows a Dead Sea stop-off. 4.5–5 hours without stops

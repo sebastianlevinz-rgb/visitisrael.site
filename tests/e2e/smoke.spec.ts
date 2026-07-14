@@ -300,6 +300,7 @@ const ROUTES = [
   '/tel-aviv-things-to-do',
   '/layover-jerusalem',
   '/eilat-travel-guide',
+  '/eilat-ramon-airport-guide',
   '/eilat-beach-guide',
   '/day-trips-from-eilat',
   '/ein-gedi-guide',
