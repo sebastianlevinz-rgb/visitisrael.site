@@ -1,6 +1,6 @@
 ---
 title: "Galilee Culinary Institute at Kibbutz Gonen: A Visitor's Guide (2026)"
-description: "Visit the Galilee Culinary Institute at Kibbutz Gonen — Israel's landmark farm-to-table culinary campus. Cooking workshops, restaurant, wine bar and Upper Galilee day-trip pairing guide."
+description: "Visit the Galilee Culinary Institute at Kibbutz Gonen — farm-to-table campus with cooking workshops, restaurant and wine bar in the Upper Galilee."
 heroImage: /images/regions/galilee/hero.jpg
 category: Destinations
 updatedAt: 2026-07-14
