@@ -8276,3 +8276,10 @@ Saturation: 5/20+ candidates = extreme saturation. Rejected topics: Sarona Marke
 Ship: N/A — research only. No gate run, no push of site files. .loop/ state files committed and pushed to master for cloud persistence.
 Prod: N/A.
 Next: iter 521 → BUILD (521%5==1; category: monetization → fall-through seo-content if no monetization items ready).
+
+## 2026-07-14T11:42Z · iter 521 · BUILD · rosh-pina-guide
+What: New /rosh-pina-guide — Rosh Pina: Upper Galilee Wine Village Guide (2026). 1,700-word standalone guide to Israel's oldest surviving moshava in the Galilee. Monetization category — fell through to seo-content+monetization: sarona-market-tel-aviv BACKLOG entry was stale duplicate of iter392 ship; rosh-pina-guide is P2/S seo-content+monetization. Recovered from local/origin divergence (local at iter361; reset --hard to origin/master). Sections: historical context (1882 Romanian settlers, Rothschild rescue, 1888 synagogue, First Aliyah cemetery), Old Quarter walking (HaKahal Street, Bayit BeRosh Pina museum, artisan studios, Alma Winery in-village), Nimrod Lookout trail (3km, 360° Hula Valley + Mount Hermon panorama), Upper Galilee wine route (Galil Mountain 15 min NW, Pelter, Dalton, Alma; harvest logistics), restaurant scene (Alef Alef, Lemon, Auberge Shulamit), day-trip logistics (car times from TLV/Jerusalem/Tiberias/Safed), where to stay (zimmers/guesthouses). 7 FAQs. 3 affiliate CTAs: GYG Upper Galilee wine tour, Viator Galilee+Golan day tour, Booking.com Rosh Pina. Cross-links: israel-wine-wineries (Upper Galilee winery cluster note), israel-hidden-gems (rosh-pina-guide link in section 8), 3-days-in-galilee (related guides list). Footer Essentials +1.
+Gate: pnpm check 0 errors | pnpm build 725 pages (+1) | 1033/1033 e2e+a11y ✅ GREEN.
+Merge SHA: b781cee. Squash-merged → master; branch deleted. Pushed. CI in_progress at push time; prior SHA (d6efd00 = iter520) CI success.
+Prod: CI in_progress at commit time; prior SHA success — standard pattern.
+Next: iter 522 → BUILD (522%5==2; category: seo-content).
