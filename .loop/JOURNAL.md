@@ -8343,3 +8343,9 @@ What: new /sde-boker-ein-avdat-guide — "Sde Boker & Ein Avdat: Negev Desert Gu
 Gate: pnpm check 0 errors; 730 pages (+1); 1039/1039 e2e pass.
 Ship: squash-merged to master b7ea70c, pushed.
 Next: iter 529 → REVIEW (529%5==4).
+
+## 2026-07-14T19:40Z · iter 529 · REVIEW · audit iters 526-528 (passover-in-israel, 3-days-in-israel, sde-boker-ein-avdat-guide)
+Mode: REVIEW (529%5==4). Audited iters 526–528: passover-in-israel, 3-days-in-israel, sde-boker-ein-avdat-guide.
+Checks performed: (1) meta title ≤65 chars — all 3 OK (56/65/41); (2) meta description ≤160 chars — all 3 OK (160/154/145 — passover exactly at limit); (3) no H1 in body — all 3 clean; (4) internal links resolved — all valid via dynamic routing (/jerusalem/western-wall → [region]/[attraction].astro + jerusalem-western-wall.md; /transport/ben-gurion-to-jerusalem → [route].astro hardcoded; /where-to-stay/jerusalem → [city].astro; /itineraries/* → [slug].astro + content files all confirmed); (5) footer wiring — all 3 guides confirmed in Footer.astro; (6) hero images — all 6 referenced images exist in public/; (7) smoke tests — all 3 in smoke.spec.ts (lines 244, 353, 575); (8) cross-links — passover→traveling-israel-jewish-holidays ✓; sde-boker→south-israel-itinerary ✓; (9) honesty — rating/reviews fields in 3-days-in-israel Viator CTA frontmatter not rendered by AffiliateCard (component interface excludes them; only partner/title/description/image/destination/query/productId/cta rendered); no user-visible fabricated data.
+Result: CLEAN. No violations found; no fixes required. No gate run, no branch, no site changes.
+Next: iter 530 → RESEARCH (530%5==0).
