@@ -8334,3 +8334,12 @@ Gate: pnpm check 0 errors; 729 pages (+1); 1038/1038 e2e pass.
 Ship: squash-merged to master 1b18ae5, pushed.
 Prod: CI in_progress at push time; prior SHA (6817e00 = iter526) CI success.
 Next: iter 528 → BUILD (tools/technical) (528%5==3).
+
+## 2026-07-14 · iter 528 · BUILD (seo-content; tools/technical fall-through) · sde-boker-ein-avdat-guide
+Mode: BUILD (tools/technical per rotation 528%5==3; all tools/technical items SHIPPED; fall-through to seo-content).
+Item: [P2] (seo-content+monetization, S) Sde Boker & Ein Avdat canyon guide (/sde-boker-ein-avdat-guide) — [iter335 research].
+Branch: auto/sde-boker-ein-avdat-guide → squash-merged to master.
+What: new /sde-boker-ein-avdat-guide — "Sde Boker & Ein Avdat: Negev Desert Guide". Ben-Gurion's desert home at Kibbutz Sde Boker (1953 retirement, simple wooden cabin, Ben-Gurion Heritage Institute, grave at Midreshet Ben-Gurion plateau with Ein Avdat canyon panorama). Ein Avdat National Park (white chalk cliffs + Nahal Zin, lower trail 1.5km to permanent spring pool + Byzantine cave dwellings, upper trail 3.5km loop via metal-rung ladders, INPA pass valid). Logistics table (hours/fees/parking/water). Day-trip circuit (Avdat 12km south, Mitzpe Ramon 35km south). 7 FAQs. 3 CTAs (discovercars car essential, GYG Negev day tours, Booking.com Mitzpe Ramon hotels). Cross-link added to south-israel-itinerary.md Ein Avdat section. Footer Destinations +1. Smoke test +1.
+Gate: pnpm check 0 errors; 730 pages (+1); 1039/1039 e2e pass.
+Ship: squash-merged to master b7ea70c, pushed.
+Next: iter 529 → REVIEW (529%5==4).
