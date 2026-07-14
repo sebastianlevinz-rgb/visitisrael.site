@@ -1,13 +1,15 @@
 # LOOP STATE
 
-- iteration: 530
-- lastMode: RESEARCH
-- lastItem: research pass #107 — extreme saturation; 5 net-new items found (negev-makhtesh-guide, palmahim-beach-guide, valley-of-tears-golan, nesher-park-guide, nahal-tzafit-guide)
-- lastResult: RESEARCH PASS — 5 new items appended to BACKLOG; COMPETITORS.md updated
-- nextRotationCategory: 531%5==1 → BUILD (monetization). 532%5==2 → BUILD (seo-content). 533%5==3 → BUILD (tools/technical). 534%5==4 → REVIEW. 535%5==0 → RESEARCH.
+- iteration: 531
+- lastMode: BUILD (monetization)
+- lastItem: valley-of-tears-golan — SHIPPED 37d78f5
+- lastResult: SHIPPED — new /valley-of-tears-golan guide; 731 pages (+1); 1040/1040 e2e pass
+- nextRotationCategory: 532%5==2 → BUILD (seo-content). 533%5==3 → BUILD (tools/technical). 534%5==4 → REVIEW. 535%5==0 → RESEARCH.
 - higgsfieldSpent: 0
-- updatedAt: 2026-07-14T20:30Z
+- updatedAt: 2026-07-14T22:46Z
 - branch context: work on master; feature work on auto/<slug>
+
+Notes: iter531 BUILD (monetization) — valley-of-tears-golan. SHIPPED 37d78f5. pnpm check 0 errors; 731 pages (+1); 1040/1040 e2e pass. "Valley of Tears: Yom Kippur War Memorial & Golan Heights Guide" standalone at /valley-of-tears-golan: 1973 Yom Kippur War battle narrative (6 Oct 1973, 1,500 Syrian tanks vs ~177 Israeli Centurions, 3-day battle on northern Golan, Israeli 7th Armoured Brigade vs Syrian 7th Division), outdoor tank museum (30-40 Syrian T-55/T-62 + Israeli Centurion/Sho't vehicles, overlook platform, memorial plaques, names monument), Mount Bental combination recommendation (7km, UN buffer zone + Quneitra panorama, Coffee Anan café), logistics table (Valley of Tears + Bental + Banias + Nimrod Fortress + Katzrin + Hermon). Getting there by car (Route 91), guided tour, public transport limitations (Katzrin taxi ~₪120-180 round-trip). No public transport direct to battlefield. Golan Heights context since 1973 (ceasefire, UNDOF buffer zone, Israeli law 1981, US recognition 2019). Safety link to /is-israel-safe. Cross-link paragraph added to golan-heights-guide.md Mount Bental section. Footer Destinations +1 (Valley of Tears after Golan Heights guide). Smoke test +1. 3 CTAs: GYG Golan Heights 1973 War History Tour (most-booked Golan tour query), Viator Private Golan Military History Day Trip, DiscoverCars Golan self-drive (car is only practical option). SEO targets: "Valley of Tears Israel guide", "Emek HaBacha Golan Heights", "1973 Yom Kippur War tank museum Israel", "Golan Heights military history tour", "Valley of Tears tank memorial".
 
 Notes: iter530 RESEARCH — research pass #107. Extreme saturation confirmed (108th research pass total). 5 net-new items added: negev-makhtesh-guide (P2/M/seo-content — Makhtesh HaGadol + HaKatan, the two lesser Negev craters not covered by mitzpe-ramon-guide), palmahim-beach-guide (P2/S/seo-content+monetization — INPA coastal park 30km south of TLV; sand dunes + sea turtle nesting + camping; zero coverage), valley-of-tears-golan (P2/S/seo-content+monetization — 1973 Yom Kippur War Emek HaBacha tank memorial + Mount Bental; among highest-booked Golan tours), nesher-park-guide (P3/S/seo-content — Haifa Mount Carmel suspension bridges, free entry), nahal-tzafit-guide (P3/S/seo-content — Negev desert canyon hike with seasonal pools, near Makhtesh HaGadol). 300+ patterns checked against BACKLOG.md + DONE.md + src/content/**/*.md. BACKLOG now ~303 items.
 
