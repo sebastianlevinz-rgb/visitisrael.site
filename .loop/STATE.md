@@ -1,13 +1,15 @@
 # LOOP STATE
 
-- iteration: 511
+- iteration: 512
 - lastMode: BUILD (seo-content)
-- lastItem: tel-gezer-guide — /tel-gezer-guide — P2/S seo-content (26-layer biblical tel, Solomonic gate, Canaanite water system, Gezer Calendar)
-- lastResult: SHIPPED c77920c. pnpm check 0 errors; 719 pages (+1); 1027/1027 e2e+a11y pass. CI in_progress at push time; prior SHA (8313836 = iter510 research) CI success.
-- nextRotationCategory: 512%5==2 → BUILD (seo-content). 513%5==3 → BUILD (tools → fall-through seo-content). 514%5==4 → REVIEW. 515%5==0 → RESEARCH.
+- lastItem: haifa-food-guide — /haifa-food-guide — P3/S seo-content (Wadi Nisnas falafel + Arab pastry, German Colony mezze restaurants, port seafood, Shabbat-open angle)
+- lastResult: SHIPPED b5e59d4. pnpm check 0 errors; 720 pages (+1); 1028/1028 e2e+a11y pass. CI in_progress at push time; prior SHA (af08d54 = iter511 state advance) CI success.
+- nextRotationCategory: 513%5==3 → BUILD (tools → fall-through seo-content). 514%5==4 → REVIEW. 515%5==0 → RESEARCH. 516%5==1 → BUILD (monetization → fall-through seo-content).
 - higgsfieldSpent: 0
-- updatedAt: 2026-07-14T02:00Z
+- updatedAt: 2026-07-14T02:50Z
 - branch context: work on master; feature work on auto/<slug>
+
+Notes: iter512 BUILD (seo-content) — haifa-food-guide. SHIPPED b5e59d4. pnpm check 0 errors; 720 pages (+1); 1028/1028 e2e+a11y pass. Haifa food guide covers Wadi Nisnas (Falafel Ha'zkenim family-owned since 1950, Em Sabri Bakery fresh pita + jibni + mahamra, kanafeh + baklava from confectioneries, Al-Pasha sit-down), German Colony (Fattoush mezze, Hanamal 24 French-Israeli fusion, Nabila kubeh specialist, Colony Hotel courtyard), port/Hanamal district (Mul HaYam seafood). 7 FAQs covering Haifa food character, Wadi Nisnas + Shabbat open, kanafeh, Haifa hummus vs Jerusalem style, German Colony Night Market. 3 affiliate CTAs: GYG Haifa food tour, Viator northern coast food tour, Booking.com Haifa hotels. Cross-link added to haifa-travel-guide.md; footer Food section +1. Smoke test +1.
 
 Notes: iter511 BUILD (seo-content) — tel-gezer-guide. SHIPPED c77920c. 26-layer biblical tel midway on Route 1 between TLV and Jerusalem (25–30 min from each city). Content: Solomonic six-chamber gate (1 Kings 9:15 context; compare to Megiddo and Hazor via megiddo-jezreel-valley-guide cross-link), Canaanite water system descent (175 rock-cut steps; headlamp advised), Gezer Calendar story (oldest Hebrew inscription, now Istanbul Archaeology Museum), modern excavations (NOBTS/Tandy summer digs), Latrun circuit pairing (Trappist monastery + Armored Corps Museum). 3 affiliate CTAs: DiscoverCars (car hire for Route 1 self-drive), GYG (Jerusalem archaeology day tours), Booking.com (Jerusalem hotels). 5 FAQs. 1 broken-link fix (removed link to not-yet-built /volunteer-archaeology-israel; replaced with /israel-unesco-sites). Smoke test +1. 719 pages; 1027/1027 e2e+a11y pass. SHA c77920c. CI in_progress at push time; prior SHA (8313836) success.
 

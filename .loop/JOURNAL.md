@@ -8151,3 +8151,17 @@ ben-gurion-airport-guide checklist.
 **Merge SHA:** c77920c. CI in_progress at push time; prior SHA (8313836 = iter510 research) CI success.
 
 **Next:** iter 512 → BUILD (512%5==2; seo-content continues).
+
+## 2026-07-14T02:50Z · iter 512 · BUILD (seo-content) · haifa-food-guide
+
+**Mode:** BUILD — iter 512%5==2 → seo-content.
+
+**Item:** `/haifa-food-guide` (P3/S, seo-content) — Haifa food and restaurant guide; backlog item from iter100 RESEARCH.
+
+**What:** New guide at /haifa-food-guide covering Haifa's three main food zones: (1) Wadi Nisnas (Arab-Christian quarter, open 7 days incl. Shabbat) — Falafel Ha'zkenim (family-owned since 1950s), Em Sabri Bakery (fresh pita + jibni + mahamra flatbread), Al-Pasha sit-down restaurant, kanafeh + baklava confectioneries; (2) German Colony / Ben Gurion Avenue — Fattoush (mezze institution, hummus with mushrooms + garlic + okra + spiced lamb, decades-old landmark), Hanamal 24 (modern French-Israeli fusion, smoked aubergine + coastal fish), Nabila (kubeh/koba specialist), Colony Hotel courtyard (brunch + café); (3) Port / Hanamal district — Mul HaYam seafood on harbour promenade. Distinctive Haifa food character section: Arab-Christian + Jewish + Druze traditions; Haifa hummus = warmer, more olive oil, softer consistency than Jerusalem style; Wadi Nisnas open on Shabbat (unique in major Israeli cities). Seasonal timing table (what/where/when across a day visit). 7 FAQs. 3 affiliate CTAs: GYG Haifa food tour, Viator northern coast food, Booking.com Haifa hotels. Cross-link added to haifa-travel-guide.md German Colony section; footer Food section +1 (/haifa-food-guide → "Haifa food guide"). Smoke test +1 (/haifa-food-guide).
+
+**Gate:** pnpm check 0 errors (130 files); pnpm build 720 pages (+1 from 719); pnpm test:e2e 1028/1028 pass (+1 smoke test). GREEN first run.
+
+**Merge SHA:** b5e59d4. Pushed to master. CI in_progress at push time; prior SHA (af08d54 = iter511 state advance) CI success.
+
+**Next:** iter 513 → BUILD (513%5==3 → tools exhausted → fall-through seo-content). Top candidates: haifa-food-guide DONE; next seo-content P3 items: tel-aviv-architecture-guide (P3/S), mount-carmel-national-park (P3/S), deaf-travel-israel (P3/S), nazareth-food-guide (P3/S), israel-rainy-day-activities (P3/S).
