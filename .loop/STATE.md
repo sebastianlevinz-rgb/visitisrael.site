@@ -1,13 +1,15 @@
 # LOOP STATE
 
-- iteration: 517
+- iteration: 518
 - lastMode: BUILD (seo-content)
-- lastItem: israel-in-spring (P2/S) — Israel in Spring travel guide (/israel-in-spring)
-- lastResult: SHIPPED de6f1d0. pnpm check 0 errors; 723 pages (+1); 1031/1031 e2e+a11y pass. CI in_progress at push time; prior SHA (8ab6d2d) CI success.
-- nextRotationCategory: 518%5==3 → BUILD (seo-content). 519%5==4 → REVIEW. 520%5==0 → RESEARCH. 521%5==1 → BUILD (monetization → fall-through seo-content). 522%5==2 → BUILD (seo-content).
+- lastItem: mount-of-olives-guide (P2/M) — Mount of Olives complete visitor guide (/mount-of-olives-guide)
+- lastResult: SHIPPED 7542d0c. pnpm check 0 errors; 724 pages (+1); 1032/1032 e2e+a11y pass. CI in_progress at push time; prior SHA (df1037e) CI success.
+- nextRotationCategory: 519%5==4 → REVIEW. 520%5==0 → RESEARCH. 521%5==1 → BUILD (monetization → fall-through seo-content). 522%5==2 → BUILD (seo-content). 523%5==3 → BUILD (seo-content).
 - higgsfieldSpent: 0
-- updatedAt: 2026-07-14T07:45Z
+- updatedAt: 2026-07-14T08:47Z
 - branch context: work on master; feature work on auto/<slug>
+
+Notes: iter518 BUILD (seo-content) — mount-of-olives-guide. SHIPPED 7542d0c. pnpm check 0 errors; 724 pages (+1); 1032/1032 e2e+a11y pass. New guide at /mount-of-olives-guide — complete visitor guide for the Mount of Olives in Jerusalem. Content: Seven Arches panorama photography guide (sunrise/sunset timing), Jewish cemetery context (150,000 graves, 3,000-year continuous use, Zechariah 14 prophecy), Garden of Gethsemane + Church of All Nations (Basilica of the Agony, Rock of the Agony, Barluzzi 1924 design), Dominus Flevit teardrop chapel (Barluzzi 1955, iconic window-frame of Old City), Russian Orthodox Church of Mary Magdalene (gold onion domes, Tsar Alexander III 1888), Church of the Pater Noster (Lord's Prayer in 140+ languages), Chapel of the Ascension (Crusader→mosque, footprint stone), full descent walk logistics, Palm Sunday procession context, photography conditions table, combined Old City itinerary pairing. 7 FAQs. 3 affiliate CTAs: GYG Mount of Olives & Gethsemane walking tour, Viator Jerusalem Christian pilgrimage private tour, Booking.com Jerusalem hotels. Cross-link updated in jerusalem-old-city-walking-tour.md. Footer Jerusalem section +1. Smoke test +1. mount-of-olives-guide item removed from BACKLOG.
 
 Notes: iter517 BUILD (seo-content) — israel-in-spring. SHIPPED de6f1d0. pnpm check 0 errors; 723 pages (+1); 1031/1031 e2e+a11y pass. New guide at /israel-in-spring completes seasonal-guide suite (summer/autumn/winter already shipped). Content: why spring works everywhere (coast 18–24°C April, Jerusalem 15–21°C, Negev/Dead Sea prime hiking), Darom Adom wildflower bloom tail (March–April: irises/lupines in Judean foothills, Golan poppies in April), Negev hiking season (Makhtesh Ramon, Incense Route UNESCO cities, INT trail, nahal water hiking), Easter/Holy Week in Jerusalem (Palm Sunday procession, Via Dolorosa Good Friday, Holy Fire ceremony on Holy Saturday, Easter Sunday services), Passover logistics (price spikes 30–50%, chametz-free restaurants, Seder night experience), Yom HaZikaron + Yom HaAtzmaut national observances, region-by-region breakdown (coast/Haifa Bahá'í/Jerusalem/Dead Sea/Galilee+Golan/Negev/Eilat), packing table, budget pricing table, 10-day sample itinerary. 7 FAQs covering March/April/May timing, wildflower bloom, Passover impact, Easter logistics, packing. 3 affiliate CTAs: GYG Negev wildflower/hiking, GYG Jerusalem Easter/Passover tours, Booking.com hotels. Cross-link added to best-time-to-visit-israel.md spring section. Footer Planning section +1 (israel-in-spring). Smoke test +1. israel-in-spring item removed from BACKLOG (was P2/S added iter420/iter205 research, status: ready).
 

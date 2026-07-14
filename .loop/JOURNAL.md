@@ -8255,3 +8255,9 @@ ben-gurion-airport-guide checklist.
 **Merge SHA:** de6f1d0. Squash-merged auto/israel-in-spring → master; branch deleted. Pushed to origin. CI in_progress at push time; prior SHA (8ab6d2d = iter516 state advance) CI success.
 
 **Next:** iter 518 → BUILD (518%5==3 → seo-content).
+
+## 2026-07-14T08:47Z · iter 518 · BUILD (seo-content) · mount-of-olives-guide
+What: New /mount-of-olives-guide — complete visitor guide for the Mount of Olives in Jerusalem. Seven Arches panorama (sunrise/sunset timing, photography), Jewish cemetery (150k graves, 3,000-year tradition), Garden of Gethsemane, Church of All Nations (Barluzzi 1924, Rock of the Agony), Dominus Flevit (teardrop chapel, iconic Old City window), Russian Orthodox Church of Mary Magdalene (gold domes), Church of the Pater Noster (Lord's Prayer 140+ languages), Chapel of the Ascension (Crusader→mosque, footprint stone), descent walk logistics, Palm Sunday procession context, photography conditions table, at-a-glance practical facts table, 7 FAQs, combined Old City itinerary pairing. Cross-link from jerusalem-old-city-walking-tour.md; footer Jerusalem +1; smoke test +1.
+Gate: pnpm check 0 errors; build 724 pages (+1); 1032/1032 e2e+a11y pass.
+Ship: squash-merged to master 7542d0c, pushed.
+Prod: CI in_progress at push time; prior SHA df1037e CI success.
