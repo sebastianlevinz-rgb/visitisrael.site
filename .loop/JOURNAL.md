@@ -8303,3 +8303,11 @@ Gate: pnpm check 0 errors | pnpm build 727 pages (+1) | 1036/1036 e2e+a11y ✅ G
 Merge SHA: bd6dcc1. Squash-merged auto/jerusalem-first-station-guide → master; branch deleted. Pushed to origin. CI in_progress at push time; prior SHA (df3d1dd = iter522 state) CI in_progress at state-write time.
 Prod: CI in_progress at push. Standard pattern — no gate-fail signals observed.
 Next: iter 524 → REVIEW (524%5==4).
+
+## 2026-07-14T15:00Z · iter 524 · REVIEW · audit iters 521-523 (rosh-pina, gonen, first-station)
+Mode: REVIEW (524%5==4). Audited iters 521–523: rosh-pina-guide, galilee-culinary-institute-gonen, jerusalem-first-station-guide.
+Checks: (1) meta description lengths — rosh-pina 147 chars ✓; jerusalem-first-station 160 chars ✓; galilee-culinary-institute-gonen 186 chars ✗ (VIOLATION). (2) Internal links: all links in all 3 guides resolve — /israel-zimmer-guide, /golan, /eilat, /tel-aviv, /israel-wine-wineries, /galilee-culinary-institute-gonen, /rosh-pina-guide, /safed-tzfat-guide, /sea-of-galilee-guide, /car-rental-israel, /galilee, /birdwatching-in-israel, /3-days-in-galilee, /israel-agritourism-guide, /jerusalem-food-guide, /jerusalem-neighborhoods-guide, /1-day-jerusalem-itinerary, /shabbat-guide — all found in content/guides/ or content/regions/ ✓. (3) H1 in body: none on any of the three guides ✓. (4) Footer wiring: all three guides confirmed in Footer.astro ✓.
+Fix: galilee-culinary-institute-gonen description trimmed from 186 → 146 chars (removed redundant "pairing guide" clause + restructured; content unchanged). Branch auto/review-524-meta-desc-fix.
+Gate: pnpm check 0 errors | pnpm build 727 pages | 1036/1036 e2e+a11y ✅ GREEN.
+Merge SHA: 23e00e7. Squash-merged → master; branch deleted. Pushed. CI in_progress at push time; prior SHA (f42006c = iter523) CI in_progress at state-write time.
+Next: iter 525 → RESEARCH (525%5==0).
