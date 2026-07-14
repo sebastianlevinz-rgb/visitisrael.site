@@ -136,3 +136,4 @@ The White City is a living neighbourhood — people live in these buildings and 
 - **Neve Tzedek (5 minutes south of Allenby)** — the pre-White-City neighbourhood of early settlers, with boutique shops and restaurants; a contrasting architectural layer
 - **Tel Aviv nightlife (Rothschild bar scene)** — the boulevard's café culture extends into the evening; see the [Tel Aviv nightlife guide](/tel-aviv-nightlife)
 - **Red Line light rail** — the [Tel Aviv Light Rail guide](/tel-aviv-light-rail) covers how to combine the rail with a White City walk for visitors staying further from the centre
+- **Florentin street art (20 minutes south)** — for Tel Aviv's contemporary mural scene in contrast to the White City's 1930s architecture; see the [Tel Aviv street art & Florentin guide](/tel-aviv-street-art)

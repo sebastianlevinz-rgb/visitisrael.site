@@ -563,6 +563,7 @@ const ROUTES = [
   '/negev-highway-40-guide',
   '/hayarkon-park-tel-aviv',
   '/tel-gezer-guide',
+  '/tel-aviv-street-art',
 ];
 
 for (const route of ROUTES) {
