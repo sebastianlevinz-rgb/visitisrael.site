@@ -566,6 +566,7 @@ const ROUTES = [
   '/hayarkon-park-tel-aviv',
   '/tel-gezer-guide',
   '/tel-aviv-street-art',
+  '/mount-of-olives-guide',
 ];
 
 for (const route of ROUTES) {

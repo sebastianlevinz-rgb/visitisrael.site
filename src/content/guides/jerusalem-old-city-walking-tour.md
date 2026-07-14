@@ -174,9 +174,9 @@ The walking tour works best as a morning activity combined with afternoon Jerusa
 
 - **[Yad Vashem Holocaust Museum](/yad-vashem-visitor-guide)**: book in advance, located west of the city, best visited on a separate day or combined with a morning walking tour by taxi (not walkable from the Old City)
 - **Tower of David Museum**: directly at Jaffa Gate entry — a 45-minute stop at the start adds historical context for everything that follows
-- **Mount of Olives viewpoint**: 15 minutes by taxi from the Old City; the panorama above the Dome of the Rock at sunset is Jerusalem's best single view — see the [1-day Jerusalem itinerary](/1-day-jerusalem-itinerary) for how to time it
+- **Mount of Olives viewpoint**: 15 minutes by taxi from the Old City; the panorama above the Dome of the Rock at sunset is Jerusalem's best single view — see the [Mount of Olives complete guide](/mount-of-olives-guide) for descent-walk logistics and the Gethsemane churches
 - **Mahane Yehuda Market**: 20 minutes by light rail or taxi from Jaffa Gate; evening transformation from market to bar district starts around 8pm
 
 See the [Jerusalem tours compared guide](/jerusalem-tours-compared) for a review of guided-tour options across all Old City formats. For what to expect at the holy sites — dress code, security and etiquette — see the [holy sites dress code guide](/holy-sites-dress-code-etiquette).
 
-**Cross-links:** [Jerusalem](/jerusalem) · [Western Wall](/jerusalem/western-wall) · [Church of the Holy Sepulchre](/jerusalem/holy-sepulchre) · [Mount of Olives](/jerusalem/mount-of-olives) · [1-Day Jerusalem Itinerary](/1-day-jerusalem-itinerary) · [Jerusalem Tours Compared](/jerusalem-tours-compared) · [Jerusalem Food Guide](/jerusalem-food-guide) · [Where to Stay in Jerusalem](/where-to-stay/jerusalem) · [Day Trips from Tel Aviv](/day-trips-from-tel-aviv)
+**Cross-links:** [Jerusalem](/jerusalem) · [Western Wall](/jerusalem/western-wall) · [Church of the Holy Sepulchre](/jerusalem/holy-sepulchre) · [Mount of Olives guide](/mount-of-olives-guide) · [1-Day Jerusalem Itinerary](/1-day-jerusalem-itinerary) · [Jerusalem Tours Compared](/jerusalem-tours-compared) · [Jerusalem Food Guide](/jerusalem-food-guide) · [Where to Stay in Jerusalem](/where-to-stay/jerusalem) · [Day Trips from Tel Aviv](/day-trips-from-tel-aviv)
