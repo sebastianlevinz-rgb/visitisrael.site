@@ -126,6 +126,8 @@ Rosh Pina closes on Shabbat at the kosher establishments; the few Arab-owned caf
 
 **From Tiberias:** 35 minutes by car on Route 90 north; local bus services run but are infrequent — check bus.gov.il for current schedules. Rosh Pina is the natural add-on to a Sea of Galilee base for an afternoon of wine and historic quarter walking. See the [Sea of Galilee guide](/sea-of-galilee-guide) for the full Kinneret circuit.
 
+**Northward to Kibbutz Gonen (Galilee Culinary Institute):** 20 minutes north on Route 90 then east on Route 918. The [Galilee Culinary Institute at Kibbutz Gonen](/galilee-culinary-institute-gonen) — a NIS 100M farm-to-table culinary campus opened in 2026 — pairs naturally with a Rosh Pina overnight: visit the institute for lunch or a cooking workshop, then return to Rosh Pina's Old Quarter for the evening.
+
 **From Safed (Tzfat):** 20 minutes east on Route 89. Many visitors combine both on a single day — Safed for the mystical Kabbalistic quarter and artists' colony in the morning, then drive east to Rosh Pina for the Hula Valley views in the afternoon. See the [Safed guide](/safed-tzfat-guide).
 
 **From Tel Aviv:** 2h 30min by car (Route 6 north, Route 77 east). A two-night stay — one night in Rosh Pina, one in Safed or Tiberias — makes a very satisfying northern circuit.

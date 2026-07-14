@@ -568,6 +568,7 @@ const ROUTES = [
   '/tel-aviv-street-art',
   '/mount-of-olives-guide',
   '/rosh-pina-guide',
+  '/galilee-culinary-institute-gonen',
 ];
 
 for (const route of ROUTES) {

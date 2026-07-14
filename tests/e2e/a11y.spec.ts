@@ -363,6 +363,7 @@ const ROUTES = [
   '/tel-aviv-bachelorette',
   '/israel-for-chinese-travelers',
   '/hayarkon-park-tel-aviv',
+  '/galilee-culinary-institute-gonen',
 ];
 
 for (const route of ROUTES) {
