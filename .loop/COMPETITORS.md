@@ -4821,3 +4821,28 @@ After 102 research passes, the most remaining gaps are either (a) single-activit
 **Items added to BACKLOG this iteration**: 6 (negev-highway-40-guide P2/M, hayarkon-park-tel-aviv P3/S, israel-best-scenic-drives P2/S, national-campus-archaeology-jerusalem P3/S, israel-running-tourism-guide P3/M, israel-sup-guide P3/S)
 
 **CAUTION (iter505)**: National Campus for Archaeology — full museum not yet open; frame carefully as limited-hours behind-the-scenes tour experience; link official iaa.org.il for current status (opening schedule subject to change). Running tourism — Israel Marathon weather and schedules verified current; Shabbat logistics framing needed for Friday pre-race logistics; security queue note at Ben Gurion for athlete equipment bags. SUP Dead Sea — mandatory safety note (no solo paddling, eyes/cuts hazard); buoyancy makes kneeling impossible (standing only). Route 40 — flash-flood risk in wadis Oct–May must be prominent; fuel stop at Avdat junction critical (155km to next Eilat station). Hayarkon Park — park admission free but individual attractions vary; Meimadion water park seasonal (check dates). Scenic drives — Golan Heights: security/border proximity note for Route 98; link is-israel-safe.md.
+
+## iter510 — 2026-07-14 — research-pass-103
+
+**Sources checked this pass:** touristisrael.com, tripadvisor.com/Attractions-g293983-Activities, danny-the-digger.com, biblewalks.com, muki-kapup-travels (mukikapupstravels.com), israel-in-photos.com, laidbacktrip.com, nalaga.at, israel4all.com, accessisrael.org.il, oikoumene.org, taize.fr, interfaith-encounter.org, abrahampath.org, archipanic.com, dezeen.com/tag/tel-aviv, timeout.com/israel/tel-aviv-attractions, volunteerworld.com/israel, roots-ev.com, handinhanded.org.il, foeme.org, inpa.gov.il/carmel, alltrails.com/explore/israel, timeout.com/tel-aviv/ein-hod.
+
+**Saturation estimate:** Extremely high (~103rd pass; most standard angles exhausted). 6 confirmed-new items found via regex de-dup against full BACKLOG.md + DONE.md + src/content/guides/.
+
+**New gap items confirmed:**
+1. **Tel Gezer National Park** (`/tel-gezer-guide` P2/S) — 26-layer archaeological site midway TLV–Jerusalem; Gezer Calendar (oldest Hebrew inscription); Solomonic gate; 4,000-year-old Canaanite water system; Tourist Israel + Danny the Digger + BibleWalks all cover; zero on site.
+2. **Deaf & HoH travel + Nalaga'at Center** (`/deaf-travel-israel` P3/S) — World's only deaf-blind theater company (Jaffa); BlackOut restaurant; distinct from israel-accessible-travel.md wheelchair focus; israel4all.com + Access Israel confirm operator ecosystem.
+3. **Ecumenical / interfaith pilgrimage** (`/ecumenical-israel-guide` P3/M) — WCC Holy Land programs; Taizé Jerusalem retreats; Roots/Shorashim coexistence encounters; Interfaith Encounter Association; distinct from christian-pilgrimage-holy-land.md.
+4. **Tel Aviv architecture beyond Bauhaus** (`/tel-aviv-architecture-guide` P3/S) — Brutalist (Habima Theatre, Azrieli Towers), Modernist (Kikar HaMedina), Sarona German Templar Colony, Neve Tzedek founding-era; distinct from tel-aviv-white-city.md.
+5. **Social impact / voluntourism hub** (`/social-impact-tourism-israel` P3/S+M) — Hand in Hand schools, Roots coexistence, Friends of the Earth MidEast, volunteerworld.com 30+ Israel placements; distinct from volunteer-archaeology BACKLOG item.
+6. **Mount Carmel National Park hiking** (`/mount-carmel-national-park` P3/S) — 22,000-ha biosphere reserve; Ein Hod artist village; Muhraka viewpoint; Nahal Me'arot UNESCO caves; Carmel Iris; distinct from druze-villages-carmel.md.
+
+**Items not added (already covered or too thin):**
+- Hammam/Turkish bath — already extensively covered in israel-wellness-spa.md (hammam section with Akko, Jerusalem, Jaffa).
+- Yam Caesarea marine park — SHIPPED iter366 (b86066a).
+- Israel craft beer / brewery trail — craft beer guide SHIPPED iter236; brewery trail too similar/thin.
+- Rosh HaNikra — SHIPPED (in done+guides).
+- Israel dark sky / astrotourism — in DONE.md.
+- Kibbutz accommodation — in DONE.md.
+- Timna Park — in DONE.md.
+- Jerusalem monastery (Mar Saba / St George) — in DONE.md.
+- Tel Dan Nature Reserve — already in BACKLOG.

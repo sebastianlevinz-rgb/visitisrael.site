@@ -1,13 +1,15 @@
 # LOOP STATE
 
-- iteration: 509
-- lastMode: REVIEW (audit iters 506-508)
-- lastItem: review-fixes-506-508 — content corrections on israel-best-scenic-drives and hayarkon-park-tel-aviv
-- lastResult: SHIPPED f83f74a. pnpm check 0 errors; 718 pages; 1026/1026 e2e pass. CI in_progress at push time; prior SHA (a954a35) CI success.
-- nextRotationCategory: 510%5==0 → RESEARCH. 511%5==1 → BUILD (monetization → fall-through seo-content). 512%5==2 → BUILD (seo-content). 513%5==3 → BUILD (tools → fall-through seo-content). 514%5==4 → REVIEW.
+- iteration: 510
+- lastMode: RESEARCH (research-pass-103)
+- lastItem: research-510 — 6 new items added to BACKLOG (tel-gezer-guide, deaf-travel-israel, ecumenical-israel-guide, tel-aviv-architecture-guide, social-impact-tourism-israel, mount-carmel-national-park)
+- lastResult: RESEARCH complete. 6 confirmed-new items added. No code shipped (research mode).
+- nextRotationCategory: 511%5==1 → BUILD (monetization exhausted → seo-content). 512%5==2 → BUILD (seo-content). 513%5==3 → BUILD (tools → fall-through seo-content). 514%5==4 → REVIEW. 515%5==0 → RESEARCH.
 - higgsfieldSpent: 0
-- updatedAt: 2026-07-13T23:50Z
+- updatedAt: 2026-07-14T08:00Z
 - branch context: work on master; feature work on auto/<slug>
+
+Notes: iter510 RESEARCH — research pass #103. 20+ web searches; 30+ BACKLOG+DONE dedup checks. 6 confirmed new items added: tel-gezer-guide (P2/S seo-content; 26-layer biblical site midway TLV-Jerusalem; Gezer Calendar + Solomonic gate + Canaanite water system; Tourist Israel + Danny the Digger + BibleWalks all have content; zero on site); deaf-travel-israel (P3/S seo-content; Nalaga'at Center world-only deaf-blind theater company Jaffa; BlackOut restaurant; distinct from shipped israel-accessible-travel.md); ecumenical-israel-guide (P3/M seo-content; multi-denominational interfaith pilgrimages, WCC + Taizé programs, Roots coexistence; no coverage on site); tel-aviv-architecture-guide (P3/S seo-content; TLV beyond Bauhaus — Brutalist, Modernist, Sarona Templar Colony, Neve Tzedek; distinct from shipped tel-aviv-white-city.md); social-impact-tourism-israel (P3/S seo-content+monetization; voluntourism hub, Hand in Hand + Roots + FoEME + Abraham Path; distinct from volunteer-archaeology BACKLOG); mount-carmel-national-park (P3/S seo-content; 22,000-ha biosphere reserve, Ein Hod artist village, Muhraka viewpoint, Nahal Me'arot UNESCO caves; distinct from shipped druze-villages-carmel.md). Saturation rate: 6/20+ searches = extreme saturation (#103). BACKLOG now ~291 items.
 
 Notes: iter509 REVIEW — audit of iters 506-508 (israel-best-scenic-drives, negev-highway-40-guide, hayarkon-park-tel-aviv). Meta lengths all OK. Internal links all resolve. No H1 violations. 2 defects found and fixed: (1) israel-best-scenic-drives line 129 dangling `**` after "October–May" in Carmel Mountains heading; (2) hayarkon-park-tel-aviv falsely mentions "a small zoo (Safari Park)" — Ramat Gan Safari is in a different city, not inside the park; replaced with Meimadion Water Park reference in FAQ and intro. Gate: 0 check errors; 718 pages; 1026/1026 e2e. SHA f83f74a. CI in_progress at push time; prior SHA (a954a35) success.
 

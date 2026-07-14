@@ -8119,3 +8119,25 @@ ben-gurion-airport-guide checklist.
 **Merge SHA:** f83f74a. Pushed to master. CI in_progress at push time; prior SHA (a954a35) CI success.
 
 **Next:** iter 510 → RESEARCH (510%5==0).
+
+## 2026-07-14T08:00Z · iter 510 · RESEARCH · research-pass-103
+
+**Mode:** RESEARCH — iter 510%5==0.
+
+**Sources searched:** touristisrael.com, tripadvisor.com/Israel attractions, danny-the-digger.com, biblewalks.com, mukikapupstravels.com, israel-in-photos.com, nalaga.at, israel4all.com, accessisrael.org.il, oikoumene.org, taize.fr, interfaith-encounter.org, abrahampath.org, archipanic.com, dezeen.com/tel-aviv, timeout.com/israel, volunteerworld.com/israel, roots-ev.com, handinhanded.org.il, foeme.org, inpa.gov.il/carmel, alltrails.com/israel. 20+ searches performed.
+
+**De-dup methodology:** python3 inline regex scans against full BACKLOG.md + DONE.md + os.walk src/content/guides/ for each candidate before accepting. Confirmed 6 genuinely new items not in any prior record.
+
+**Items added (6 confirmed new):**
+1. `/tel-gezer-guide` P2/S seo-content — Tel Gezer National Park: 26 settlement layers, Gezer Calendar, 4,000-year-old Canaanite water system, Solomonic gate. Free INPA entry, Route 1 TLV-Jerusalem corridor.
+2. `/deaf-travel-israel` P3/S seo-content — Deaf + HoH travel hub: Nalaga'at Center (world's only deaf-blind theater co, Jaffa), BlackOut restaurant, ISL vs ASL note; distinct from israel-accessible-travel.md.
+3. `/ecumenical-israel-guide` P3/M seo-content — Ecumenical/interfaith pilgrimage hub: WCC programs, Taizé Jerusalem retreats, Roots/Shorashim, Interfaith Encounter Association, Abraham Path.
+4. `/tel-aviv-architecture-guide` P3/S seo-content — TLV architecture beyond Bauhaus: Habima + Azrieli (Brutalist), Kikar HaMedina, Sarona Templar Colony, Neve Tzedek founding-era; distinct from tel-aviv-white-city.md.
+5. `/social-impact-tourism-israel` P3/S seo-content+monetization — Voluntourism/social-impact hub: Hand in Hand, Roots coexistence, Friends of the Earth MidEast, kibbutz volunteer, Negev Bedouin visits.
+6. `/mount-carmel-national-park` P3/S seo-content — Carmel National Park hiking: 22,000ha biosphere reserve, Ein Hod artist village, Muhraka viewpoint, Nahal Me'arot UNESCO caves, Carmel Iris; distinct from druze-villages-carmel.md.
+
+**Items rejected (already covered):** hammam (israel-wellness-spa.md), yam-caesarea (SHIPPED iter366), craft beer (SHIPPED iter236), rosh-hanikra (SHIPPED), dark sky tourism (DONE), kibbutz accommodation (DONE), Timna Park (DONE), Judean desert monasteries (DONE).
+
+**No gate run** (research mode; no code changes).
+
+**Next:** iter 511 → BUILD (511%5==1; monetization exhausted → seo-content; pick highest-priority ready seo-content item from BACKLOG).
