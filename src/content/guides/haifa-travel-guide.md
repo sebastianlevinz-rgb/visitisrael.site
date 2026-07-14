@@ -72,7 +72,7 @@ For the complete picture — including dress code, Bahá'í holy day closures, t
 
 At the foot of the Bahá'í Gardens axis, the **German Colony** — *Moshava Germanit* — is the best street in Haifa for food, coffee and atmosphere. The stone buildings lining **Ben Gurion Avenue** were constructed in the 1860s–1880s by members of the German Templer Society, a Protestant sect who believed they were preparing Palestine for the Second Coming. The arcaded houses, carved lintels and courtyard gardens have been beautifully restored as restaurants, wine bars and boutique shops. The Colony is most lively on Friday afternoons and weekend evenings; during Shabbat it is one of the few places in Haifa where secular life continues visibly.
 
-Recommended stops on Ben Gurion Avenue: the **Colony Hotel** for its courtyard garden; **Fattoush** restaurant for Arab-Israeli mezze (one of Haifa's most famous addresses and often crowded); **Décks** for seafood on the Bahá'í Gardens side. The weekly **German Colony Night Market** (typically summer Thursdays) fills the boulevard with street food and artisan stalls.
+Recommended stops on Ben Gurion Avenue: the **Colony Hotel** for its courtyard garden; **Fattoush** restaurant for Arab-Israeli mezze (one of Haifa's most famous addresses and often crowded); **Décks** for seafood on the Bahá'í Gardens side. The weekly **German Colony Night Market** (typically summer Thursdays) fills the boulevard with street food and artisan stalls. For a full restaurant guide to the Colony, Wadi Nisnas and the port district, see the [Haifa food guide](/haifa-food-guide).
 
 ---
 

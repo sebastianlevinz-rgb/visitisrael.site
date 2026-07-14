@@ -253,6 +253,7 @@ const ROUTES = [
   '/yad-vashem-visitor-guide',
   '/haifa-travel-guide',
   '/haifa-neighborhoods-guide',
+  '/haifa-food-guide',
   '/israel-stargazing',
   '/israel-horseback-riding',
   '/masada-visitor-guide',
