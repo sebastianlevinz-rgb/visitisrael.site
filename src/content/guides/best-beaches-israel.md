@@ -56,6 +56,7 @@ This guide covers the best beaches on both coasts, what to expect at each, and h
 | Nordau Beach | Tel Aviv | Mediterranean | Religious separate bathing | Free | Summer |
 | Herzliya Marina Beach | Herzliya | Mediterranean | Families; clean facilities | Free | Summer |
 | Achziv Beach | Near Nahariya | Mediterranean | Wild coastal scenery | Free* | Seasonal |
+| Palmahim Beach NP | South of Tel Aviv | Mediterranean | Sea turtles; dunes; INPA | Pass/fee | Summer |
 | Dor Habonim Beach | Carmel coast | Mediterranean | Rock pools; snorkeling | Free | Seasonal |
 | North Beach | Eilat | Red Sea | Resort strip; watersports | Free | Year-round |
 | Coral Beach Nature Reserve | Eilat | Red Sea | Coral reef snorkeling | ~₪30 | Year-round |
@@ -106,6 +107,14 @@ Nordau Beach, north of the main strip, operates as a religiously observant separ
 **Herzliya Marina Beach** sits 15 km north of Tel Aviv, adjacent to the upscale Herzliya Marina. The beach is consistently clean and calmer than the Tel Aviv city beaches — the Marina acts as a partial windbreak — with good facilities including changing rooms, cafes along the marina promenade, and parking. Families and slightly older visitors tend to prefer Herzliya over the Tel Aviv strip.
 
 **Getting there:** Train from Tel Aviv HaShalom station to Herzliya station, then a 15-minute walk or short taxi to the marina. Journey time approximately 20 minutes. By car: 20 minutes north on Route 2.
+
+---
+
+## Palmahim Beach National Park (South of Tel Aviv)
+
+Palmahim Beach National Park is an INPA-managed coastal reserve 30 km south of central Tel Aviv — the only national park beach in the greater Tel Aviv area. Unlike the city's free urban beaches, Palmahim charges entry (or is covered by the Israel National Parks Pass) and keeps visitor density low. The reward is a largely natural Mediterranean shoreline: intact kurkar ridge dunes, active sea turtle nesting corridors (loggerhead turtles nest here between May and August), supervised swimming with lifeguards in summer, and designated camping. It is the beach to choose when you want the coast without the crowds.
+
+**Getting there:** By car from Tel Aviv (30–40 minutes south on Highway 4); there is no practical direct public transport to the park entrance. See the full [Palmahim Beach National Park guide](/palmahim-beach-guide) for entry details, turtle nesting season information, camping booking, and INPA pass coverage.
 
 ---
 
