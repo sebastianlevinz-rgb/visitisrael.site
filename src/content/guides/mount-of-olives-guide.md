@@ -1,6 +1,6 @@
 ---
 title: 'Mount of Olives Jerusalem: Complete Visitor Guide'
-description: 'Mount of Olives guide: Seven Arches panorama, Garden of Gethsemane, Church of All Nations, Dominus Flevit, Jewish cemetery, Palm Sunday route and practical tips.'
+description: 'Mount of Olives guide: Seven Arches panorama, Garden of Gethsemane, Church of All Nations, Dominus Flevit, Jewish cemetery, Palm Sunday route and practical tips'
 heroImage: /images/sub-destinations/jerusalem/mount-of-olives.jpg
 category: Sacred Sites
 updatedAt: 2026-07-14

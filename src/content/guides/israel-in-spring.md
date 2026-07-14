@@ -1,6 +1,6 @@
 ---
 title: 'Visiting Israel in Spring: March, April & May Travel Guide'
-description: 'Spring is Israel''s best-value season: wildflower bloom in the Negev, perfect hiking weather from April, Easter in Jerusalem, and comfortable temperatures everywhere.'
+description: 'Spring is Israel''s best season: wildflower bloom in the Negev, perfect hiking weather from April, Easter in Jerusalem, and comfortable temperatures everywhere.'
 heroImage: /images/regions/negev/hero.jpg
 category: Planning
 updatedAt: 2026-07-14
