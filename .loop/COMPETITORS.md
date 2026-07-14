@@ -4917,3 +4917,26 @@ After 102 research passes, the most remaining gaps are either (a) single-activit
 - iTravelJerusalem (`itraveljerusalem.com`, official Jerusalem tourism) has granular neighborhood + venue coverage including Nahlaot, First Station, Holy Fire, Democracy Pavilion
 - Park HaMesila shows that urban linear trails are a search category with real traffic (AllTrails + GreatRuns both rank for Jerusalem trail searches)
 - New venue first-mover opportunities (Galilee Culinary Institute) are rare at pass #105 — most new venues have already been picked up by competitors
+
+### 2026-07-14 · iter 525 · Wine-country + long-itinerary SERP scan (research pass #106)
+Queries run: "Zichron Yaakov guide Israel", "Zichron Yaakov wineries visit", "Carmel Winery tour Israel", "14 days in Israel itinerary", "2 weeks Israel travel guide", "Israel vs Cyprus travel comparison", "Israel vs Greece comparison", "Israel in summer travel", "Israel in autumn travel", "Israel in winter travel" (seasonal-guide check), "National Campus Archaeology Israel", "Schottenstein campus Israel", "Galilee Culinary Institute 2026", plus git/glob checks on content/guides/.
+
+#### Net-new gap findings this pass
+
+1. **Zichron Yaakov wine + heritage guide** — Timeout Israel (#1 SERP), Bein Harim, World Jewish Travel, israel-travel-secrets.com, Atlas Obscura (Ramat HaNadiv), LonelyPlanet all rank for "Zichron Yaakov guide Israel". Carmel Winery (1892, Israel's oldest winery, visitor center + cave tours) anchors the town; 12+ boutique winery visitor centers within 15 min; Midrehov stone promenade (First Aliyah architecture + artisan boutiques); Ramat HaNadiv memorial gardens + Rothschild family burial (free, panoramic Haifa Bay views). northern-israel-road-trip.md mentions Zichron in 2 sentences (Day 4); no standalone guide. 35km from Haifa = natural day trip; strong DiscoverCars + Booking.com + GYG CTAs.
+
+2. **14-day Israel itinerary** (`/israel-2-week-itinerary`) — laidbacktrip.com, globalhighlights.com, magnificenttravel.com, travelnotesandbeyond.com, Frommers, NomadParadigm all rank for "14 days Israel itinerary". We have 7-day, 10-day, and 5-vs-7-vs-10-days comparison — NO dedicated 14-day. 14-day travelers = higher-spend segment (more overnight stays, more tour bookings, full-country circuit incl. Eilat + Golan). Day-by-day circuit format with Shabbat-safe flex routing and West Bank note for Bethlehem. DiscoverCars CTA is natural anchor (14-day trip essentially requires a car).
+
+#### Confirmed not gaps this pass
+- Israel vs Cyprus (SHIPPED iter411, branch `auto/israel-vs-cyprus` confirmed merged)
+- Israel vs Greece (SHIPPED iter416)
+- All 4 seasonal guides: israel-in-summer.md, israel-in-autumn.md, israel-in-winter.md, israel-in-spring.md — all confirmed in content/guides/
+- National Campus for the Archaeology of Israel (already BACKLOG L604, iter235 research, P2/S/ready)
+- Schottenstein National Campus (BACKLOG, confirmed present)
+- Galilee Culinary Institute (SHIPPED iter522 → `/galilee-culinary-institute-gonen`)
+
+#### Competitor patterns observed this pass
+- Laidbacktrip.com and globalhighlights.com are consistently strong for long-form itinerary content (7-day, 10-day, 14-day, 21-day Israel itineraries) — itinerary SERP is less saturated than attraction/neighborhood guides
+- Frommers and Lonely Planet dominate heritage-town guides (Zichron Yaakov, Rosh Pina) but their content is shorter and less practical than our guide format
+- Wine-country day-trip content (Zichron Yaakov, Carmel region) is underserved by Israeli tourism sites vs. international travel bloggers
+- 14-day itinerary SERP has NO dominant Israeli-focused travel site — opportunity for a dedicated authoritative page vs. generic travel blogger content
