@@ -8368,3 +8368,13 @@ Gate: pnpm check 0 errors (114 hints, 0 errors); 731 pages (+1); 1040/1040 e2e p
 Ship: squash-merged to master 37d78f5, pushed.
 Prod: CI/Lighthouse workflows in_progress at push time (standard; prior iters success).
 Next: iter 532 → BUILD (seo-content) (532%5==2).
+
+## 2026-07-14T23:50Z · iter 532 · BUILD (seo-content) · palmahim-beach-guide
+Mode: BUILD (seo-content) (532%5==2).
+Item: [P2] (seo-content+monetization, S) Palmahim Beach National Park visitor guide (/palmahim-beach-guide) — [iter530 research].
+Branch: auto/palmahim-beach-guide → squash-merged to master (2 commits: 940c7cc guide + 223859e wiring).
+What: new /palmahim-beach-guide — "Palmahim Beach National Park: Complete Visitor Guide". INPA Mediterranean coastal reserve 30 km south of Tel Aviv. Content: sea turtle nesting (Caretta caretta, May–Aug, ISTRC ranger monitoring, nest markers, hatching 50–60 days); kurkar ridge dune geology (aeolianite formation = ancient cemented sand dunes, rare intact coastal dune field); supervised swimming Jun–Sep (flag system: white/red/black); designated camping (advance booking via parks.org.il, no walk-in, basic facilities, National Parks Pass may cover fee); Israel National Parks Pass valid (INPA site — confirmed distinct from KKL-JNF Rosh Hanikra); no Shabbat closure; car required (no public bus to park gate; ~30-40 min TLV center via Highway 4). 7 FAQs. 3 CTAs: DiscoverCars TLV car hire (essential — no public transport), Booking.com Rishon LeZion/Ashdod hotels, GYG Tel Aviv coastal nature tours. Cross-links: best-beaches-israel.md (at-a-glance table +1 row + dedicated Palmahim section), israel-national-parks-pass.md (Coastal & central INPA list +1), Footer Destinations +1, smoke.spec.ts +1.
+Gate: pnpm check 0 errors (114 hints); build 732 pages (+1); 1041/1041 e2e pass.
+Ship: 940c7cc + 223859e pushed to master.
+Prod: CI/Lighthouse workflows in_progress at write time (223859e); prior SHA 315a34c CI=success.
+Next: iter 533 → BUILD (tools/technical) (533%5==3).

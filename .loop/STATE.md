@@ -1,13 +1,15 @@
 # LOOP STATE
 
-- iteration: 531
-- lastMode: BUILD (monetization)
-- lastItem: valley-of-tears-golan — SHIPPED 37d78f5
-- lastResult: SHIPPED — new /valley-of-tears-golan guide; 731 pages (+1); 1040/1040 e2e pass
-- nextRotationCategory: 532%5==2 → BUILD (seo-content). 533%5==3 → BUILD (tools/technical). 534%5==4 → REVIEW. 535%5==0 → RESEARCH.
+- iteration: 532
+- lastMode: BUILD (seo-content)
+- lastItem: palmahim-beach-guide — SHIPPED 223859e
+- lastResult: SHIPPED — new /palmahim-beach-guide; 732 pages (+1); 1041/1041 e2e pass
+- nextRotationCategory: 533%5==3 → BUILD (tools/technical). 534%5==4 → REVIEW. 535%5==0 → RESEARCH. 536%5==1 → BUILD (monetization).
 - higgsfieldSpent: 0
-- updatedAt: 2026-07-14T22:46Z
+- updatedAt: 2026-07-14T23:50Z
 - branch context: work on master; feature work on auto/<slug>
+
+Notes: iter532 BUILD (seo-content) — palmahim-beach-guide. SHIPPED 223859e. pnpm check 0 errors; 732 pages (+1); 1041/1041 e2e pass. "Palmahim Beach National Park: Complete Visitor Guide" standalone at /palmahim-beach-guide: INPA-managed Mediterranean coastal reserve 30 km south of Tel Aviv; loggerhead sea turtle (Caretta caretta) nesting programme May–Aug (ISTRC rangers monitor; no nest disturbance); kurkar ridge dune geology (aeolianite rock formations = rare intact coastal dune); supervised swimming with lifeguards Jun–Sep; designated INPA camping (advance booking only, parks.org.il); Israel National Parks Pass valid (confirmed INPA vs KKL-JNF distinction); no Shabbat closure (distinct from KKL-JNF sites like Rosh Hanikra); car required (no public bus to park gate; ~30-40 min from TLV center); comparative framing vs urban beaches (Gordon/Frishman vs natural national-park beach). 7 FAQs: INPA pass, transport, sea turtles, camping, swimming safety, city-beach comparison, kurkar geology. 3 CTAs: DiscoverCars TLV car hire, Booking.com Rishon LeZion/Ashdod hotels, GYG Tel Aviv coastal nature tours. Cross-links: best-beaches-israel.md (+Palmahim in at-a-glance table + dedicated section), israel-national-parks-pass.md (+Palmahim in Coastal & central INPA sites list), Footer Destinations +1. SEO: "Palmahim beach Israel guide", "Palmachim National Park", "beaches south of Tel Aviv", "Palmahim sea turtles Israel", "Palmahim beach camping".
 
 Notes: iter531 BUILD (monetization) — valley-of-tears-golan. SHIPPED 37d78f5. pnpm check 0 errors; 731 pages (+1); 1040/1040 e2e pass. "Valley of Tears: Yom Kippur War Memorial & Golan Heights Guide" standalone at /valley-of-tears-golan: 1973 Yom Kippur War battle narrative (6 Oct 1973, 1,500 Syrian tanks vs ~177 Israeli Centurions, 3-day battle on northern Golan, Israeli 7th Armoured Brigade vs Syrian 7th Division), outdoor tank museum (30-40 Syrian T-55/T-62 + Israeli Centurion/Sho't vehicles, overlook platform, memorial plaques, names monument), Mount Bental combination recommendation (7km, UN buffer zone + Quneitra panorama, Coffee Anan café), logistics table (Valley of Tears + Bental + Banias + Nimrod Fortress + Katzrin + Hermon). Getting there by car (Route 91), guided tour, public transport limitations (Katzrin taxi ~₪120-180 round-trip). No public transport direct to battlefield. Golan Heights context since 1973 (ceasefire, UNDOF buffer zone, Israeli law 1981, US recognition 2019). Safety link to /is-israel-safe. Cross-link paragraph added to golan-heights-guide.md Mount Bental section. Footer Destinations +1 (Valley of Tears after Golan Heights guide). Smoke test +1. 3 CTAs: GYG Golan Heights 1973 War History Tour (most-booked Golan tour query), Viator Private Golan Military History Day Trip, DiscoverCars Golan self-drive (car is only practical option). SEO targets: "Valley of Tears Israel guide", "Emek HaBacha Golan Heights", "1973 Yom Kippur War tank museum Israel", "Golan Heights military history tour", "Valley of Tears tank memorial".
 
