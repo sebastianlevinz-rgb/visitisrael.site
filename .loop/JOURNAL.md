@@ -8322,3 +8322,8 @@ Net-new items added to BACKLOG: 2.
 Saturation rate: 2 confirmed / 15+ checked = extreme saturation pass #106 confirmed. BACKLOG now ~298 items.
 Startup: context resumed after compaction. Master at 23e00e7 (iter524 REVIEW). No STOP flag.
 Next: iter 526 → BUILD (monetization) (526%5==1).
+
+## 2026-07-14 · iter 526 · BUILD (monetization) · passover-in-israel
+What: new /passover-in-israel — Passover in Israel 2027: Complete Visitor Guide (Pesach). High-commercial-intent page covering Pesach hotel program tiers ($1,500–$25,000+/person/week across Dead Sea luxury/Eilat resort/Jerusalem boutique/kibbutz program tiers), tourist Seder options (Abraham Hostels community Seder, Chabad open-door, hotel programs, private guide Seders), Birkat Kohanim practical guide (Apr 26 2027, Western Wall morning Chol HaMoed Shabbat), Chol HaMoed daily open/closed rundown, chametz explanation for non-Jewish visitors, Jerusalem vs Tel Aviv comparison, planning checklist. 7 FAQs. 3 CTAs: TourRadar Passover programs, Booking.com Passover accommodation, GYG Seder experiences. Wiring: footer +1 (after rosh-hashanah-in-israel), smoke test +1, cross-reference paragraph added in traveling-israel-jewish-holidays.md. Stale BACKLOG cleanup: 2 Passover items consolidated (L404 passover-in-israel [iter155] + L1001 israel-passover-travel [iter405]); iter525 stale entries (zichron-yaakov-guide already SHIPPED iter308; israel-2-week-itinerary already SHIPPED iter141) annotated as STALE DUPLICATES. Gate: pnpm check 0 errors; 728 pages (+1); 1037/1037 e2e pass.
+Ship: squash-merged to master cc2ab44, pushed.
+Next: seo-content (iter 527).

@@ -1,15 +1,17 @@
 # LOOP STATE
 
-- iteration: 525
-- lastMode: RESEARCH
-- lastItem: research-525-zichron-14day-itinerary — pass #106; 2 new items: zichron-yaakov-guide (P2/S), israel-2-week-itinerary (P2/M)
-- lastResult: NO SHIP — RESEARCH only. 2 new items appended to BACKLOG. BACKLOG now ~298 items.
-- nextRotationCategory: 526%5==1 → BUILD (monetization). 527%5==2 → BUILD (seo-content). 528%5==3 → BUILD (tools/technical). 529%5==4 → REVIEW.
+- iteration: 526
+- lastMode: BUILD (monetization)
+- lastItem: passover-in-israel — Passover in Israel 2027 complete visitor guide; SHIPPED cc2ab44; 728 pages; 1037/1037 e2e pass
+- lastResult: SHIP — passover-in-israel.md created + wired (footer, smoke test, cross-link from traveling-israel-jewish-holidays). 2 stale BACKLOG Passover items consolidated. iter525 stale entries (zichron-yaakov-guide + israel-2-week-itinerary) annotated in BACKLOG.
+- nextRotationCategory: 527%5==2 → BUILD (seo-content). 528%5==3 → BUILD (tools/technical). 529%5==4 → REVIEW. 530%5==0 → RESEARCH.
 - higgsfieldSpent: 0
-- updatedAt: 2026-07-14T16:00Z
+- updatedAt: 2026-07-14T16:45Z
 - branch context: work on master; feature work on auto/<slug>
 
-Notes: iter525 RESEARCH — research pass #106. Extreme saturation confirmed. 2 net-new items added: zichron-yaakov-guide (P2/S seo-content+monetization; Zichron Yaakov 1882 First Aliyah Rothschild moshava; Carmel Winery 1892 Israel's oldest + largest visitor center, Midrehov promenade, Ramat HaNadiv memorial gardens + Rothschild burial + Haifa Bay panorama, 35km south of Haifa; Timeout Israel/Bein Harim/World Jewish Travel/israel-travel-secrets.com all rank; northern-israel-road-trip.md mentions Zichron in 2 sentences Day 4, no standalone guide; DiscoverCars+Booking.com+GYG CTAs); israel-2-week-itinerary (P2/M seo-content+monetization; 14-day full-country circuit; laidbacktrip.com/globalhighlights.com/magnificenttravel.com/Frommers all rank; we have 7-day + 10-day + 5-vs-7-vs-10-days but no 14-day; higher-spend traveler segment, strong DiscoverCars anchor CTA; day-by-day Jerusalem+Dead Sea+Negev+Eilat+TLV+Caesarea+Acre+Galilee+Golan circuit; Shabbat-safe flex routing + West Bank Bethlehem note). BACKLOG ~298 items.
+Notes: iter526 BUILD (monetization) — passover-in-israel. SHIPPED cc2ab44. pnpm check 0 errors; 728 pages (+1); 1037/1037 e2e pass. High-commercial-intent Passover planning guide: Pesach hotel program tiers ($1,500–$25,000+ per person/week across 4 destination tiers), tourist Seder options (Abraham Hostels community Seder, Chabad open-door, hotel programs), Birkat Kohanim practical guide (Apr 26 2027 Western Wall), Chol HaMoed open/closed rundown, chametz explanation, Jerusalem vs Tel Aviv comparison. 7 FAQs. 3 CTAs: TourRadar Passover programs, Booking.com Passover accommodation, GYG Seder experiences. Cross-links: traveling-israel-jewish-holidays.md (cross-reference paragraph added). Footer Essentials +1. Smoke test +1. Stale BACKLOG items cleaned: passover-in-israel (L404) + israel-passover-travel (L1001) both consolidated as SHIPPED; iter525 stale zichron-yaakov-guide (already iter308) + israel-2-week-itinerary (already iter141) both annotated as STALE duplicates. SEO targets: "Passover in Israel 2027", "Pesach programs Israel", "visiting Israel during Passover", "Pesach hotel programs 2027", "Birkat Kohanim Western Wall 2027".
+
+Notes: iter525 RESEARCH — research pass #106. Extreme saturation confirmed. 2 net-new items added: zichron-yaakov-guide (P2/S seo-content+monetization; STALE — was already SHIPPED iter308) and israel-2-week-itinerary (P2/M; STALE — was already SHIPPED iter141 at /itineraries/14-days-in-israel). Both items annotated in BACKLOG as STALE DUPLICATES; iter526 selected passover-in-israel from pre-existing iter155 backlog item instead.
 
 Notes: iter524 REVIEW — audit iters 521-523 (rosh-pina, gonen, first-station); galilee-culinary-institute-gonen description trimmed 186→146 chars. SHIPPED 23e00e7. pnpm check 0 errors; 727 pages; 1036/1036 e2e+a11y pass. CI in_progress at push time; prior SHA (f42006c = iter523) CI in_progress at state-write time.
 
