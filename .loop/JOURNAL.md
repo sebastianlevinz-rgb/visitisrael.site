@@ -8194,3 +8194,26 @@ ben-gurion-airport-guide checklist.
 **BACKLOG cleanup:** Removed two duplicate tel-aviv-street-art entries (P2/S iter125 at BACKLOG line 341 and P3/S iter200 at line 518) — both superseded by shipped guide.
 
 **Next:** iter 514 → REVIEW (514%5==4). Audit recent BUILD items (iters 511–513: tel-gezer-guide, haifa-food-guide, tel-aviv-street-art). Check meta lengths, internal link resolution, content accuracy, H1 count.
+
+## 2026-07-14T04:48Z · iter 514 · REVIEW · audit iters 511–513 (tel-gezer-guide, haifa-food-guide, tel-aviv-street-art)
+
+**What:** Full audit of 3 seo-content guides shipped in iters 511–513.
+
+**Checks passed:**
+- Internal links all resolve: megiddo-jezreel-valley-guide, israel-road-trip, israel-national-parks-pass, israel-unesco-sites (tel-gezer); haifa-travel-guide, druze-villages-carmel, akko-acre-guide, israeli-food-cuisine-guide, kosher-food-guide (haifa-food); tel-aviv-white-city, tel-aviv-neighborhoods-guide, tel-aviv-nightlife, jaffa-travel-guide, tel-aviv-carmel-market (street-art) — all present ✓
+- All hero images verified present (regions/jerusalem/hero.jpg, regions/haifa/german-colony.jpg, sub-destinations/tel-aviv/florentin.jpg, regions/akko/old-city.jpg, regions/tel-aviv/jaffa.jpg) ✓
+- No H1 violations in any body content ✓
+- Honesty notes in place on all 3 guides ✓
+- No fabricated data (all prices are ranges with "verify at inpa.gov.il" / "check current listings" framing) ✓
+
+**Defects found and fixed (4 meta violations):**
+1. tel-gezer-guide title 66 chars → trimmed to 52 ("Tel Gezer: Biblical Archaeology Visitor Guide (2026)")
+2. haifa-food-guide title 72 chars → trimmed to 61 ("Haifa Food Guide: Wadi Nisnas, German Colony & Seafood (2026)")
+3. tel-aviv-street-art title 77 chars → trimmed to 57 ("Tel Aviv Street Art: Florentin & Jaffa Mural Guide (2026)")
+4. tel-aviv-street-art description 184 chars → rewritten to 148 chars
+
+**Gate:** pnpm check 0 errors; pnpm build 721 pages; pnpm test:e2e 1029/1029 pass. GREEN.
+
+**Merge SHA:** 3feef13. Squash-merged auto/meta-trim-511-513 → master; branch deleted. Pushed to origin. CI in_progress at push time; prior SHA (f64d0e87 = iter513 state advance) CI success.
+
+**Next:** iter 515 → RESEARCH (515%5==0). Research pass #104.
