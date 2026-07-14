@@ -241,6 +241,7 @@ const ROUTES = [
   '/1-day-jerusalem-itinerary',
   '/1-day-tel-aviv-itinerary',
   '/3-days-in-tel-aviv',
+  '/3-days-in-israel',
   '/israel-for-british-travelers',
   '/israel-for-american-travelers',
   '/israel-for-german-travelers',
