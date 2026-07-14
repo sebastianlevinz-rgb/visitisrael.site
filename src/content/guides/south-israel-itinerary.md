@@ -100,7 +100,7 @@ If you overnighted in Beer-Sheva rather than Mitzpe Ramon, Sde Boker is 50 km so
 
 **Timing.** Arrive as early as the park opens (typically 08:00 in summer, check parks.org.il for current hours). The spring pools and ladder sections require physical effort; shade disappears once the sun is overhead. In autumn and winter, the waterfall flows substantially; in late summer the flow is minimal.
 
-**Wildlife.** Nubian ibex are semi-permanent residents of the canyon cliffs and appear regularly at the spring. Egyptian and Griffon vultures circle overhead. INPA pass is valid.
+**Wildlife.** Nubian ibex are semi-permanent residents of the canyon cliffs and appear regularly at the spring. Egyptian and Griffon vultures circle overhead. INPA pass is valid. See the [Sde Boker & Ein Avdat guide](/sde-boker-ein-avdat-guide) for detailed trail options, opening hours, and how to combine both sites in a half-day.
 
 **Trail note.** The upper canyon section requires good footwear and moderate fitness — the ladders and cliff path are vertical in places. There is no bypass for visitors who cannot manage them.
 

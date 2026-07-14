@@ -350,6 +350,7 @@ const ROUTES = [
   '/gamla-nature-reserve-guide',
   '/jerusalem-mount-zion-guide',
   '/mitzpe-ramon-guide',
+  '/sde-boker-ein-avdat-guide',
   '/mount-hermon-skiing',
   '/israel-photography-guide',
   '/tel-afek-guide',
