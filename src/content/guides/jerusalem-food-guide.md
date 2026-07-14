@@ -127,6 +127,8 @@ Plan your main market meal for **Thursday morning or Friday morning**. If you ar
 
 ## Plan your trip
 
+The **Jerusalem First Station** (HaTachana HaRishona) in the German Colony is a natural extension of a Jerusalem food day: the weekly Thursday and Friday artisan market has local cheese, olive oil and wine producers alongside craft stalls, set in a beautifully restored 1892 Ottoman railway terminus. See the [Jerusalem First Station guide](/jerusalem-first-station-guide) for market hours, restaurant listings and the connection to the 7km Mesila trail heading south through the city.
+
 The food is one part of [Jerusalem](/jerusalem) — see the region hub for the full picture. If you want to understand where the market fits in a broader itinerary, the [3 Days in Jerusalem](/itineraries/3-days-in-jerusalem) guide maps out a practical plan. For what is open and what isn't, the [Shabbat guide](/shabbat-guide) and [what's open on Shabbat](/whats-open-on-shabbat) give the detail.
 
 For a deeper dive into the market itself — layout, the evening bar scene and seasonal events — the [Mahane Yehuda market guide](/mahane-yehuda-market-guide) covers it standalone. For where to stay relative to the Shuk and Old City, the [Jerusalem](/jerusalem) region page covers accommodation areas. The [Israeli street food guide](/israeli-street-food-guide) covers the same hummus and market traditions across all Israeli cities if you want the broader comparison. To plan a dedicated hummus itinerary across multiple cities, the [Israel hummus trail](/israel-hummus-trail) maps the six essential stops from Jaffa to Akko.
