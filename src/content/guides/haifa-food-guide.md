@@ -1,5 +1,5 @@
 ---
-title: "Haifa Food Guide: Where to Eat in Wadi Nisnas & the German Colony (2026)"
+title: "Haifa Food Guide: Wadi Nisnas, German Colony & Seafood (2026)"
 description: "Where to eat in Haifa: Wadi Nisnas falafel and Arab pastry, German Colony mezze restaurants, port seafood and the distinctive Haifa food character."
 heroImage: /images/regions/haifa/german-colony.jpg
 category: Food

@@ -1,6 +1,6 @@
 ---
-title: 'Tel Aviv Street Art Guide: Florentin, Jaffa & the Murals Worth Finding (2026)'
-description: "Tel Aviv's best street art is in Florentin — a self-guided walk through Frenkel, Vital and Florentin streets, plus Jaffa's growing urban art scene and practical tips for mural hunters."
+title: 'Tel Aviv Street Art: Florentin & Jaffa Mural Guide (2026)'
+description: "Self-guided walk through Florentin's mural streets (Frenkel, Vital) plus Jaffa's urban art zone. Practical tips for mural hunters in south Tel Aviv."
 heroImage: /images/sub-destinations/tel-aviv/florentin.jpg
 category: Culture
 updatedAt: 2026-07-14

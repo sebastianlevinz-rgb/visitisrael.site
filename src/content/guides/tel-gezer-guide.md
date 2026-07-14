@@ -1,5 +1,5 @@
 ---
-title: "Tel Gezer National Park: Biblical Archaeology Visitor Guide (2026)"
+title: "Tel Gezer: Biblical Archaeology Visitor Guide (2026)"
 description: "Tel Gezer visitor guide — Solomonic gate, Canaanite water system, the Gezer Calendar story, and a classic TLV–Jerusalem corridor stop on Route 1."
 heroImage: /images/regions/jerusalem/hero.jpg
 category: Destinations
