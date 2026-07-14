@@ -561,6 +561,7 @@ const ROUTES = [
   '/israel-unesco-sites',
   '/negev-highway-40-guide',
   '/hayarkon-park-tel-aviv',
+  '/tel-gezer-guide',
 ];
 
 for (const route of ROUTES) {
