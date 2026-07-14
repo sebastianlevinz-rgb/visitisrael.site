@@ -76,6 +76,8 @@ Use our [Shabbat & Jewish Holiday Calendar](/israel-shabbat-calendar) to look up
 
 **Booking advice**: book accommodation three to six months ahead for Jerusalem and Tel Aviv. Popular sites and national parks are at their most crowded on the intermediate days (days 2–6 of Passover). Visiting national parks early in the morning reduces the crush significantly.
 
+For a full planning guide — hotel program tiers, tourist Seder options, Birkat Kohanim logistics, and a Chol HaMoed day-by-day itinerary — see our [Passover in Israel guide](/passover-in-israel).
+
 ---
 
 ## Shavuot — Late Spring / Early Summer

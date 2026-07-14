@@ -570,6 +570,7 @@ const ROUTES = [
   '/rosh-pina-guide',
   '/galilee-culinary-institute-gonen',
   '/jerusalem-first-station-guide',
+  '/passover-in-israel',
 ];
 
 for (const route of ROUTES) {
