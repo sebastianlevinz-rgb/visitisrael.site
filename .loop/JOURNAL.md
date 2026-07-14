@@ -8261,3 +8261,10 @@ What: New /mount-of-olives-guide — complete visitor guide for the Mount of Oli
 Gate: pnpm check 0 errors; build 724 pages (+1); 1032/1032 e2e+a11y pass.
 Ship: squash-merged to master 7542d0c, pushed.
 Prod: CI in_progress at push time; prior SHA df1037e CI success.
+
+## 2026-07-14T09:44Z · iter 519 · REVIEW · meta-trim iters 516-518 (eilat-ramon-airport-guide, israel-in-spring, mount-of-olives-guide)
+What: Audit of the 3 most-recent BUILD guides (iters 516-518). Checks performed: (1) meta title ≤65 chars — all 3 OK (61/58/49); (2) meta description ≤160 chars — 2 violations found: mount-of-olives 161 chars, israel-in-spring 165 chars; (3) no H1 in body — all 3 clean; (4) all internal links resolve — all 27 unique links verified including /eilat/timna-park (valid attraction URL via [region]/[attraction].astro routing); (5) footer wiring — all 3 pages present in footer; (6) affiliate CTA honesty — AffiliateCard component does not render rating/reviews fields to users (component comment explicitly says so); (7) eilat-ramon-airport-guide: 129 chars desc — no change needed.
+Fix: branch auto/meta-trim-516-518 — trimmed mount-of-olives description 161→160 chars (remove trailing period); trimmed israel-in-spring description 165→159 chars ('best-value' → 'best').
+Gate: pnpm check 0 errors; 724 pages; 1032/1032 e2e+a11y pass ✅ GREEN.
+Merge SHA: f1ee5f5. Squash-merged → master; branch deleted. Pushed. CI in_progress at push time; prior SHA (9959ba1 = iter518) CI success. Lighthouse completed/success.
+Next: iter 520 → RESEARCH (520%5==0).

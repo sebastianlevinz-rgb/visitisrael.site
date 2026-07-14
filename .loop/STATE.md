@@ -1,13 +1,15 @@
 # LOOP STATE
 
-- iteration: 518
-- lastMode: BUILD (seo-content)
-- lastItem: mount-of-olives-guide (P2/M) — Mount of Olives complete visitor guide (/mount-of-olives-guide)
-- lastResult: SHIPPED 7542d0c. pnpm check 0 errors; 724 pages (+1); 1032/1032 e2e+a11y pass. CI in_progress at push time; prior SHA (df1037e) CI success.
-- nextRotationCategory: 519%5==4 → REVIEW. 520%5==0 → RESEARCH. 521%5==1 → BUILD (monetization → fall-through seo-content). 522%5==2 → BUILD (seo-content). 523%5==3 → BUILD (seo-content).
+- iteration: 519
+- lastMode: REVIEW
+- lastItem: meta-trim-516-518 — audit of iters 516-518 (eilat-ramon-airport-guide, israel-in-spring, mount-of-olives-guide); 2 meta desc violations fixed
+- lastResult: SHIPPED f1ee5f5. pnpm check 0 errors; 724 pages; 1032/1032 e2e+a11y pass. CI in_progress at push time; prior SHA (9959ba1) CI success. Lighthouse success.
+- nextRotationCategory: 520%5==0 → RESEARCH. 521%5==1 → BUILD (monetization → fall-through seo-content). 522%5==2 → BUILD (seo-content). 523%5==3 → BUILD (seo-content). 524%5==4 → REVIEW.
 - higgsfieldSpent: 0
-- updatedAt: 2026-07-14T08:47Z
+- updatedAt: 2026-07-14T09:44Z
 - branch context: work on master; feature work on auto/<slug>
+
+Notes: iter519 REVIEW — audit iters 516-518 (eilat-ramon-airport-guide, israel-in-spring, mount-of-olives-guide). 2 meta desc violations found+fixed: mount-of-olives 161→160 chars (remove trailing period); israel-in-spring 165→159 chars ('best-value'→'best'). All 27 internal links resolve. No H1 in body on any guide. All 3 pages in footer. eilat-ramon-airport-guide desc 129 chars — clean. AffiliateCard component doesn't display rating/reviews to users — confirmed safe. SHA f1ee5f5.
 
 Notes: iter518 BUILD (seo-content) — mount-of-olives-guide. SHIPPED 7542d0c. pnpm check 0 errors; 724 pages (+1); 1032/1032 e2e+a11y pass. New guide at /mount-of-olives-guide — complete visitor guide for the Mount of Olives in Jerusalem. Content: Seven Arches panorama photography guide (sunrise/sunset timing), Jewish cemetery context (150,000 graves, 3,000-year continuous use, Zechariah 14 prophecy), Garden of Gethsemane + Church of All Nations (Basilica of the Agony, Rock of the Agony, Barluzzi 1924 design), Dominus Flevit teardrop chapel (Barluzzi 1955, iconic window-frame of Old City), Russian Orthodox Church of Mary Magdalene (gold onion domes, Tsar Alexander III 1888), Church of the Pater Noster (Lord's Prayer in 140+ languages), Chapel of the Ascension (Crusader→mosque, footprint stone), full descent walk logistics, Palm Sunday procession context, photography conditions table, combined Old City itinerary pairing. 7 FAQs. 3 affiliate CTAs: GYG Mount of Olives & Gethsemane walking tour, Viator Jerusalem Christian pilgrimage private tour, Booking.com Jerusalem hotels. Cross-link updated in jerusalem-old-city-walking-tour.md. Footer Jerusalem section +1. Smoke test +1. mount-of-olives-guide item removed from BACKLOG.
 
