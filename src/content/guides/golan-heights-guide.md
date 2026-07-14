@@ -59,6 +59,8 @@ The summit holds preserved Syrian bunkers and military fortifications from the 1
 
 Mount Bental is an easy walk — a short paved path from the car park to the observation platform takes 10–15 minutes. From the summit, the **Avital Trail** connects to the neighbouring extinct volcano Mount Avital for a 2–3 hour circuit with excellent 360-degree views.
 
+The valley immediately east of Mount Bental is **Emek HaBacha — the Valley of Tears** — where one of the most decisive tank battles of the 1973 Yom Kippur War was fought. An outdoor museum of Syrian and Israeli tanks preserved in situ sits 7km from the summit. See the full [Valley of Tears guide](/valley-of-tears-golan) for the battle history, site details, and visit planning.
+
 ### Banias Nature Reserve
 
 The **Banias** (Caesarea Philippi) is one of the most atmospheric sites in northern Israel — a place where nature, ancient history, and religious significance converge at the headwaters of the Jordan River. A large spring emerges from a cliff face near a cave sanctuary dedicated to the Greek god Pan (hence the name Banias, from Panias), and the ancient remains of Philip's city — Herod's son who rebuilt it as Caesarea Philippi — spread across the adjacent terrace.

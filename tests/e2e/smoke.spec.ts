@@ -573,6 +573,7 @@ const ROUTES = [
   '/galilee-culinary-institute-gonen',
   '/jerusalem-first-station-guide',
   '/passover-in-israel',
+  '/valley-of-tears-golan',
 ];
 
 for (const route of ROUTES) {
