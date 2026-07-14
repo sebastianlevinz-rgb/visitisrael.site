@@ -1,12 +1,12 @@
 # LOOP STATE
 
-- iteration: 514
-- lastMode: REVIEW
-- lastItem: meta-trim-511-513 — 4 SEO meta violations in tel-gezer-guide (title 66→52), haifa-food-guide (title 72→61), tel-aviv-street-art (title 77→57, desc 184→148)
-- lastResult: SHIPPED 3feef13. pnpm check 0 errors; 721 pages; 1029/1029 e2e+a11y pass. CI in_progress at push time; prior SHA (f64d0e87 = iter513 state advance) CI success.
-- nextRotationCategory: 515%5==0 → RESEARCH. 516%5==1 → BUILD (monetization → fall-through seo-content). 517%5==2 → BUILD (seo-content). 518%5==3 → BUILD (fall-through seo-content). 519%5==4 → REVIEW.
+- iteration: 515
+- lastMode: RESEARCH
+- lastItem: research pass #104 — 6 confirmed new items (eilat-ramon-airport-guide P2/S, tel-aviv-bachelor-party P3/S, kiryat-yearim-guide P3/S, tel-aviv-biennale-guide P3/S, israel-for-belgian-travelers P3/S, holy-fire-ceremony-jerusalem P3/S)
+- lastResult: RESEARCH only — no code shipped. BACKLOG now ~297 ready items. Saturation rate: 6 confirmed new items from 30+ search angles = extreme saturation (#104 pass).
+- nextRotationCategory: 516%5==1 → BUILD (monetization → fall-through seo-content). 517%5==2 → BUILD (seo-content). 518%5==3 → BUILD (fall-through seo-content). 519%5==4 → REVIEW. 520%5==0 → RESEARCH.
 - higgsfieldSpent: 0
-- updatedAt: 2026-07-14T04:48Z
+- updatedAt: 2026-07-14T06:30Z
 - branch context: work on master; feature work on auto/<slug>
 
 Notes: iter513 BUILD (seo-content) — tel-aviv-street-art. SHIPPED 2a81590. pnpm check 0 errors; 721 pages (+1); 1029/1029 e2e+a11y pass. New guide at /tel-aviv-street-art covering Florentin mural district (Frenkel St, Vital St, Florentin St, side alleys), Jaffa Flea Market urban art zone, combined half-day self-guided walk (Florentin loop → Jaffa port). 7 FAQs. 3 affiliate CTAs: GYG street art tour, Viator culture tours, Booking.com south TLV hotels. Cross-link added to tel-aviv-white-city.md. Footer link +1. Smoke test +1. Removed two duplicate tel-aviv-street-art items from BACKLOG (P2 iter125 + P3 iter200).

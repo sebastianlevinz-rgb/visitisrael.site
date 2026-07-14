@@ -8217,3 +8217,21 @@ ben-gurion-airport-guide checklist.
 **Merge SHA:** 3feef13. Squash-merged auto/meta-trim-511-513 → master; branch deleted. Pushed to origin. CI in_progress at push time; prior SHA (f64d0e87 = iter513 state advance) CI success.
 
 **Next:** iter 515 → RESEARCH (515%5==0). Research pass #104.
+
+## 2026-07-14T06:30Z · iter 515 · RESEARCH · research pass #104
+
+**What:** Research pass #104 across 30+ search angles to find genuinely new BACKLOG items at extreme saturation (103 prior research passes; ~291+ items already queued). Confirmed 6 new items via grep dedup against full BACKLOG.md + DONE.md.
+
+**Items added to BACKLOG:**
+1. eilat-ramon-airport-guide (P2/S seo-content) — complete guide to Ilan & Assaf Ramon International Airport (ETM); Tourist Israel + Skyscanner Israel both have standalone pages; transport logistics (Bus 30/50, taxi, DiscoverCars); WizzAir 2026 routes; traveler confusion old vs new airport = real search driver; ZERO standalone in BACKLOG/DONE.
+2. tel-aviv-bachelor-party (P3/S seo-content+monetization) — male-focused stag do guide DISTINCT from israel-bachelorette-guide.md (iter476, female-focused); Tourist Israel has 2 bachelor tour packages; TLVnights.com/stag-hen/ has dedicated section; beach sports, boat parties, Florentin craft beer crawl, The Block/Alphabet Club; ZERO "bachelor.party|stag.do|stag.weekend" in BACKLOG/DONE.
+3. kiryat-yearim-guide (P3/S seo-content) — Ark of the Covenant resting site west of Jerusalem; $60M Israeli Ministry of Tourism "Ark Promenade" development 2025 budget allocation; Church of Our Lady of the Ark; hoshen-tours + saxum + BibleWalks all cover; natural pairing with Abu Ghosh hummus; ZERO standalone in BACKLOG/DONE.
+4. tel-aviv-biennale-guide (P3/S seo-content) — 3rd edition Tel Aviv Biennale of Crafts and Design 2026 at Eretz Israel Museum (MUZA); biennial event (even years); 1,500+ proposals; ceramics/glass/textile/fiber/metal + design disciplines; CONFIRMED in BACKLOG line 1148 as DISTINCT from Jerusalem Design Week; ZERO standalone P-item in BACKLOG/DONE.
+5. israel-for-belgian-travelers (P3/S seo-content+monetization) — origin-market playbook for Belgium; Brussels Airlines BRU→TLV direct; ETA-IL awareness gap (Belgian travelers previously visa-free, new Jan 2025 requirement); Bancontact network warning; Belgian Jewish community (Antwerp diamond/Machzikei Hadass); ZERO hits for "belgi" in full BACKLOG or DONE.
+6. holy-fire-ceremony-jerusalem (P3/S seo-content) — Greek Orthodox Holy Saturday ceremony at Church of Holy Sepulchre; 10,000+ inside church; Tourist Israel has /holy-fire-ceremony/5694; itraveljerusalem.com dedicated page; miracle-claim framing balanced; ZERO "holy.fire|holy-fire" in full BACKLOG or DONE.
+
+**Saturation rate:** 6 confirmed new items from 30+ search angles = extreme saturation. BACKLOG now ~297 items.
+
+**Gate:** N/A (RESEARCH mode — no code).
+
+**Next:** iter 516 → BUILD (516%5==1 → monetization priority, fall-through to seo-content if exhausted).

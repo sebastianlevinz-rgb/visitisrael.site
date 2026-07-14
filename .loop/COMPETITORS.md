@@ -4846,3 +4846,51 @@ After 102 research passes, the most remaining gaps are either (a) single-activit
 - Timna Park — in DONE.md.
 - Jerusalem monastery (Mar Saba / St George) — in DONE.md.
 - Tel Dan Nature Reserve — already in BACKLOG.
+
+## iter515 research findings — 2026-07-14 — research pass #104
+
+**Saturation level:** Extreme (#104 pass; 30+ search angles evaluated; only 6 confirmed new items after exhaustive dedup).
+
+**New gap patterns identified:**
+
+**1. Airport logistics pages (Eilat Ramon / ETM)**
+- Tourist Israel: dedicated "Eilat Ramon Airport Guide" page; Skyscanner Israel: "Eilat Ramon Airport: The Complete Guide"; kupi.com "Ramon airport (ETM) guide"
+- Gap: We have eilat-travel-guide with one-sentence transport mention; NO standalone airport logistics page for ETM
+- ETM opened 2019 replacing old Eilat city airport (ETH); traveler confusion between old + new airport = persistent search demand
+- Pattern: airport logistics guides perform well for long-tail "how to get from airport to X" queries
+
+**2. Male stag/bachelor party guides**
+- Tourist Israel: 2 dedicated bachelor party tour packages; TLVnights.com: /stag-hen/ dedicated section
+- Gap: We shipped israel-bachelorette-guide.md (iter476) for female-focused; the MALE equivalent is completely uncovered
+- Male stag do has distinct programming (boat parties, sports bars, The Block/Haoman 17 club events) vs female bachelorette (spa, brunch, Hilton Beach cabana)
+
+**3. Highly specific biblical narrative sites with pending major investment**
+- Israel Ministry of Tourism $60M+ "Ark of the Covenant Promenade" development at Kiryat Ye'arim (2025 allocation)
+- BibleWalks + hoshen-tours + saxum.org cover Kiryat Ye'arim; no editorial travel brand has standalone guide
+- Pattern: government tourism investment = upcoming traffic surge for that destination = early guide = SEO advantage
+
+**4. Biennial design/craft events**
+- Tel Aviv Biennale of Crafts and Design (Eretz Israel Museum) = 3rd edition 2026; Dezeen + DesignBoom cover it; no EN editorial travel guide
+- Design tourism is a growing segment; Eretz Israel Museum (MUZA) = 10-pavilion campus already worth a visit
+- Pattern: event-triggered content can capture search traffic before and during the event period
+
+**5. Origin market gaps — Belgium**
+- Belgium (11.5M pop) has zero coverage in our origin-market guide series; BRU→TLV direct via Brussels Airlines
+- Belgian Jewish community in Antwerp (diamond district, Machzikei Hadass community) = strong heritage travel link
+- Bancontact network does not work outside Belgium = specific traveler pain point we can address
+- We have: UK, German, French, American, Australian, Nordic, Italian, South African, Brazilian, Spanish, Dutch — Belgium is the most notable Western European gap remaining
+
+**6. High-drama religious ceremonies**
+- Holy Fire at Church of Holy Sepulchre: Tourist Israel /holy-fire-ceremony/5694; itraveljerusalem.com; Times of Israel annual coverage
+- 10,000+ inside church; tens of thousands outside; event draws massive Orthodox pilgrim groups (Greek, Romanian, Russian, Ethiopian, Armenian)
+- Zero dedicated guide on site despite christian-pilgrimage-holy-land.md being shipped (iter234) — that guide is seasonal/general, not event-specific
+- Pattern: specific calendar events (Holy Fire, Purim, Passover, Sukkot) each have their own distinct planning needs; event-specific guides outperform general pilgrimage guides on exact-match queries
+
+**Previously searched angles confirmed exhausted in this pass:**
+- Beer-Sheva guide → SHIPPED iter328
+- Photography guide → SHIPPED iter351
+- Israeli street food guide → SHIPPED iter117
+- Free things to do hub → SHIPPED iter178
+- Scandinavian/Nordic travelers → already in BACKLOG iter450
+- Purim guide → already in BACKLOG iter160
+- Passover guide → already in BACKLOG iter155
