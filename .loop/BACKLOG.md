@@ -81,7 +81,7 @@ bounded, gated BUILD item. Full architecture + honesty rules + progress tracker 
 - [SHIPPED iter351] Photography guide: best photo spots in Israel (/israel-photography-guide) → 2a1cc53
 - [SHIPPED iter353] Accessible travel in Israel guide (/israel-accessible-travel) — 5558a87
 - [SHIPPED iter51] 2-days-in-tel-aviv itinerary + FAQPage JSON-LD on itinerary template → e79ea65 (3-days-in-jerusalem was pre-loop content; FAQPage schema now added via template fix)
-- [P3] (seo-content, S) "3 Days in Israel" standalone itinerary — complement to 2-days-in-tel-aviv and 3-days-in-jerusalem; condensed Israel-in-3-days page capturing "3 days in israel" / "israel 3 day trip" long-tail; format: 1 day Jerusalem + 1 day Dead Sea/Masada + 1 day Tel Aviv+Jaffa; cross-links existing itineraries. status: ready
+- [SHIPPED iter527] "3 Days in Israel" standalone itinerary (/3-days-in-israel) → 1b18ae5 — Day 1 Jerusalem Old City, Day 2 Masada+Dead Sea, Day 3 Tel Aviv+Jaffa; car-free; 7 FAQs; 3 CTAs
 - [SHIPPED iter267] "Things to know before visiting Israel" / mistakes-to-avoid tips hub → d5c66ef (/israel-travel-tips)
 - [SHIPPED iter262] "Best beaches in Israel" guide (/best-beaches-israel) — d0b5056 — 11-beach roundup table (Mediterranean + Red Sea + Sea of Galilee); Gordon/Frishman/Hilton/Banana/Alma/Nordau/Herzliya/Dor Habonim/Achziv/North Eilat/Coral Beach; seasonal + safety + Shabbat guidance. 432 pages; 545/545 tests.
 - [P3] (seo-content, S) Israel practical-info FAQ (Type H plug / 230V / adapters; tap water safe to drink; SIM/eSIM; currency) — cheap long-tail capture — add a "practical info" FAQ section/page with FAQPage schema; cross-link esim/transportation/tipping. [iter5 research] status: ready

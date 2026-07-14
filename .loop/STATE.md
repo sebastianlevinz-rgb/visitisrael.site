@@ -1,13 +1,15 @@
 # LOOP STATE
 
-- iteration: 526
-- lastMode: BUILD (monetization)
-- lastItem: passover-in-israel — Passover in Israel 2027 complete visitor guide; SHIPPED cc2ab44; 728 pages; 1037/1037 e2e pass
-- lastResult: SHIP — passover-in-israel.md created + wired (footer, smoke test, cross-link from traveling-israel-jewish-holidays). 2 stale BACKLOG Passover items consolidated. iter525 stale entries (zichron-yaakov-guide + israel-2-week-itinerary) annotated in BACKLOG.
-- nextRotationCategory: 527%5==2 → BUILD (seo-content). 528%5==3 → BUILD (tools/technical). 529%5==4 → REVIEW. 530%5==0 → RESEARCH.
+- iteration: 527
+- lastMode: BUILD (seo-content)
+- lastItem: 3-days-in-israel — 3 Days in Israel essential first-timer itinerary; SHIPPED 1b18ae5; 729 pages; 1038/1038 e2e pass
+- lastResult: SHIP — 3-days-in-israel.md created (Day 1 Jerusalem Old City, Day 2 Masada+Dead Sea, Day 3 Tel Aviv+Jaffa). Fixed broken /western-wall → /jerusalem/western-wall during gate. Footer +1, smoke test +1. CI in_progress at push time.
+- nextRotationCategory: 528%5==3 → BUILD (tools/technical). 529%5==4 → REVIEW. 530%5==0 → RESEARCH. 531%5==1 → BUILD (monetization).
 - higgsfieldSpent: 0
-- updatedAt: 2026-07-14T16:45Z
+- updatedAt: 2026-07-14T17:55Z
 - branch context: work on master; feature work on auto/<slug>
+
+Notes: iter527 BUILD (seo-content) — 3-days-in-israel. SHIPPED 1b18ae5. pnpm check 0 errors; 729 pages (+1); 1038/1038 e2e pass. "3 Days in Israel" standalone itinerary guide at /3-days-in-israel: Day 1 Jerusalem Old City (Western Wall, Jewish Quarter Cardo+Hurva, Via Dolorosa, Church of the Holy Sepulchre, Mount of Olives, Mahane Yehuda night scene), Day 2 Masada+Dead Sea (5am departure, Snake Path sunrise ascent, Dead Sea float+mud at Ein Bokek), Day 3 Tel Aviv+Jaffa (Old Jaffa port+flea market, Carmel Market, Rothschild/White City, Gordon Beach sunset). Car-free route (train+tours). 7 FAQs. 3 CTAs: GYG private Israel highlights tour, Viator Masada+Dead Sea day tour, Booking.com Jerusalem hotels. Bug fixed during gate: /western-wall → /jerusalem/western-wall (broken internal link). Footer Planning section +1 (between existing road-trip entries). Smoke test +1. Remote branch auto/israel-vs-cyprus noted as abandoned (removed 15k test lines; never merged; discarded per playbook 1a). CI in_progress at push time. SEO targets: "3 days in israel", "israel 3 day trip", "israel 3 day itinerary", "3 day israel itinerary first time".
 
 Notes: iter526 BUILD (monetization) — passover-in-israel. SHIPPED cc2ab44. pnpm check 0 errors; 728 pages (+1); 1037/1037 e2e pass. High-commercial-intent Passover planning guide: Pesach hotel program tiers ($1,500–$25,000+ per person/week across 4 destination tiers), tourist Seder options (Abraham Hostels community Seder, Chabad open-door, hotel programs), Birkat Kohanim practical guide (Apr 26 2027 Western Wall), Chol HaMoed open/closed rundown, chametz explanation, Jerusalem vs Tel Aviv comparison. 7 FAQs. 3 CTAs: TourRadar Passover programs, Booking.com Passover accommodation, GYG Seder experiences. Cross-links: traveling-israel-jewish-holidays.md (cross-reference paragraph added). Footer Essentials +1. Smoke test +1. Stale BACKLOG items cleaned: passover-in-israel (L404) + israel-passover-travel (L1001) both consolidated as SHIPPED; iter525 stale zichron-yaakov-guide (already iter308) + israel-2-week-itinerary (already iter141) both annotated as STALE duplicates. SEO targets: "Passover in Israel 2027", "Pesach programs Israel", "visiting Israel during Passover", "Pesach hotel programs 2027", "Birkat Kohanim Western Wall 2027".
 
