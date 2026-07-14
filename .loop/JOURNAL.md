@@ -8165,3 +8165,32 @@ ben-gurion-airport-guide checklist.
 **Merge SHA:** b5e59d4. Pushed to master. CI in_progress at push time; prior SHA (af08d54 = iter511 state advance) CI success.
 
 **Next:** iter 513 → BUILD (513%5==3 → tools exhausted → fall-through seo-content). Top candidates: haifa-food-guide DONE; next seo-content P3 items: tel-aviv-architecture-guide (P3/S), mount-carmel-national-park (P3/S), deaf-travel-israel (P3/S), nazareth-food-guide (P3/S), israel-rainy-day-activities (P3/S).
+
+## 2026-07-14T04:10Z · iter 513 · BUILD (seo-content) · tel-aviv-street-art
+
+**Mode:** BUILD — iter 513%5==3 → tools (exhausted) → fall-through seo-content.
+
+**Item selected:** `/tel-aviv-street-art` (P2/S, seo-content) — Tel Aviv street art & Florentin district guide. Selected from two convergent BACKLOG entries (iter125 + iter200 research) — highest-priority bounded seo-content item after haifa-food-guide.
+
+**Startup:** Context resumed from prior session (context compaction at gate phase). Git reset confirmed — changes were uncommitted in working tree; staged and committed to branch auto/tel-aviv-street-art, then squash-merged to master.
+
+**What:** New guide at `/tel-aviv-street-art` covering:
+- Florentin neighbourhood intro (Salonikan Jewish immigrant origins, 1930s development, organic street art concentration since early 2010s)
+- Core streets: Frenkel Street (anchor; 3–6 storey murals, walk full 500m from Herzl to Florentin St), Vital Street (east–west cross; densest mural corner at Vital×Frenkel), Florentin Street (cafés + upper-floor commissioned pieces), side alleys (stairwell art, electricity boxes, courtyards)
+- What to expect: architectural-scale paintings, figurative/surrealist/political subject matter, sardonic Israeli visual culture; honesty note on piece permanence
+- Jaffa street art zone: Flea Market alleys (Olei Zion St + surrounding lanes, Ottoman stone + 1950s concrete canvas), regenerating warehouse zone (Yefet St + Clock Tower area, fast-changing)
+- Self-guided combined walk (Florentin + Jaffa half-day, 3–4 hours): Carmel Market → Frenkel/Vital loop → Florentin Street → south on Yefet → Jaffa Flea Market → Jaffa Port; optional seafront cycle return
+- Combining with other stops: cross-links to tel-aviv-white-city, tel-aviv-neighborhoods-guide, tel-aviv-nightlife, jaffa-travel-guide, tel-aviv-carmel-market
+- Practical: getting there (Red Line Florentin/Salame stations), photography (morning west-facing, afternoon east-facing), best times (Fri morning, Sat afternoon)
+7 FAQs covering: best street art location, guided tour necessity, best photography time, mural permanence, Florentin vs Bauhaus comparison, safety, photography rights.
+3 affiliate CTAs: GYG Tel Aviv Street Art & Florentin Walking Tour, Viator Tel Aviv Neighbourhood & Culture Tours, Booking.com Hotels in South Tel Aviv & Florentin.
+
+**Wiring:** Footer.astro +1 (`/tel-aviv-street-art` → "Tel Aviv street art & Florentin"); tel-aviv-white-city.md "Combine with" section +1 cross-link; smoke test ROUTES +1.
+
+**Gate:** pnpm check 0 errors (130 files); pnpm build 721 pages (+1 from 720); pnpm test:e2e 1029/1029 pass (b18oh42ue task exit code 0). GREEN.
+
+**Merge SHA:** 2a81590. Squash-merged auto/tel-aviv-street-art → master; branch deleted. Pushed to origin. CI+Lighthouse in_progress at push time (runs 29305027724 + 29305027704); prior SHA (cc9a4d7 = iter512 state advance) CI success.
+
+**BACKLOG cleanup:** Removed two duplicate tel-aviv-street-art entries (P2/S iter125 at BACKLOG line 341 and P3/S iter200 at line 518) — both superseded by shipped guide.
+
+**Next:** iter 514 → REVIEW (514%5==4). Audit recent BUILD items (iters 511–513: tel-gezer-guide, haifa-food-guide, tel-aviv-street-art). Check meta lengths, internal link resolution, content accuracy, H1 count.

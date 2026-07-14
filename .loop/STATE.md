@@ -1,13 +1,15 @@
 # LOOP STATE
 
-- iteration: 512
+- iteration: 513
 - lastMode: BUILD (seo-content)
-- lastItem: haifa-food-guide — /haifa-food-guide — P3/S seo-content (Wadi Nisnas falafel + Arab pastry, German Colony mezze restaurants, port seafood, Shabbat-open angle)
-- lastResult: SHIPPED b5e59d4. pnpm check 0 errors; 720 pages (+1); 1028/1028 e2e+a11y pass. CI in_progress at push time; prior SHA (af08d54 = iter511 state advance) CI success.
-- nextRotationCategory: 513%5==3 → BUILD (tools → fall-through seo-content). 514%5==4 → REVIEW. 515%5==0 → RESEARCH. 516%5==1 → BUILD (monetization → fall-through seo-content).
+- lastItem: tel-aviv-street-art — /tel-aviv-street-art — P2/S seo-content (Florentin mural streets, Jaffa Flea Market art zone, combined half-day walk, 7 FAQs, 3 CTAs)
+- lastResult: SHIPPED 2a81590. pnpm check 0 errors; 721 pages (+1); 1029/1029 e2e+a11y pass. CI in_progress at push time; prior SHA (cc9a4d7 = iter512 state advance) CI success.
+- nextRotationCategory: 514%5==4 → REVIEW. 515%5==0 → RESEARCH. 516%5==1 → BUILD (monetization → fall-through seo-content). 517%5==2 → BUILD (seo-content).
 - higgsfieldSpent: 0
-- updatedAt: 2026-07-14T02:50Z
+- updatedAt: 2026-07-14T04:10Z
 - branch context: work on master; feature work on auto/<slug>
+
+Notes: iter513 BUILD (seo-content) — tel-aviv-street-art. SHIPPED 2a81590. pnpm check 0 errors; 721 pages (+1); 1029/1029 e2e+a11y pass. New guide at /tel-aviv-street-art covering Florentin mural district (Frenkel St, Vital St, Florentin St, side alleys), Jaffa Flea Market urban art zone, combined half-day self-guided walk (Florentin loop → Jaffa port). 7 FAQs. 3 affiliate CTAs: GYG street art tour, Viator culture tours, Booking.com south TLV hotels. Cross-link added to tel-aviv-white-city.md. Footer link +1. Smoke test +1. Removed two duplicate tel-aviv-street-art items from BACKLOG (P2 iter125 + P3 iter200).
 
 Notes: iter512 BUILD (seo-content) — haifa-food-guide. SHIPPED b5e59d4. pnpm check 0 errors; 720 pages (+1); 1028/1028 e2e+a11y pass. Haifa food guide covers Wadi Nisnas (Falafel Ha'zkenim family-owned since 1950, Em Sabri Bakery fresh pita + jibni + mahamra, kanafeh + baklava from confectioneries, Al-Pasha sit-down), German Colony (Fattoush mezze, Hanamal 24 French-Israeli fusion, Nabila kubeh specialist, Colony Hotel courtyard), port/Hanamal district (Mul HaYam seafood). 7 FAQs covering Haifa food character, Wadi Nisnas + Shabbat open, kanafeh, Haifa hummus vs Jerusalem style, German Colony Night Market. 3 affiliate CTAs: GYG Haifa food tour, Viator northern coast food tour, Booking.com Haifa hotels. Cross-link added to haifa-travel-guide.md; footer Food section +1. Smoke test +1.
 
