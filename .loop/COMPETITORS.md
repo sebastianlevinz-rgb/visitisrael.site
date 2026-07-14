@@ -4894,3 +4894,26 @@ After 102 research passes, the most remaining gaps are either (a) single-activit
 - Scandinavian/Nordic travelers → already in BACKLOG iter450
 - Purim guide → already in BACKLOG iter160
 - Passover guide → already in BACKLOG iter155
+
+## iter520 research findings — 2026-07-14 — research pass #105
+
+**Angle**: New/emerging venues + urban trail gaps in existing city coverage
+**Saturation level**: Extreme (pass #105; 5 confirmed gaps from 20+ candidates checked)
+
+### New gaps confirmed
+
+1. **Galilee Culinary Institute at Kibbutz Gonen** (`galileeculinaryinstitute.com`) — NIS 100M JNF-USA culinary campus soft-launched Feb 2026; Chef Lior Lev Sercarz (NYC-based, La Boîte spice brand); farm + restaurant + wine bar + brewery + guest suites; zero competitor editorial coverage yet. First-mover opportunity.
+
+2. **Democracy Pavilion Tel Aviv** (`touristisrael.com`, `taubephilanthropies.org`) — New geodesic dome on Rothschild Blvd; Israel Democracy Institute + Tel Aviv Municipality + Taube Philanthropies; visitors sign Declaration of Independence digitally; pairs with Independence Trail app. Independence Hall renovation creates a gap this fills.
+
+3. **Jerusalem Mesila Trail / Park HaMesila** (`alltrails.com`, `greatruns.com`, `familywithkids.co.il`) — 7km Ottoman railway trail through German Colony → Baka → Beit Safafa → Malha; built 2010–2013; thousands of daily users; Wikipedia/Fodor's/AllTrails all have content; zero on-site guide.
+
+4. **Jerusalem First Station (HaTachana HaRishona)** (`touristisrael.com`, `itraveljerusalem.com`, `firststation.co.il`) — Renovated 1892 Ottoman railway terminus in German Colony; restaurants, Thu/Fri market, concerts, bicycle tour starting point; 500+ TripAdvisor reviews; zero on-site guide. Distinct from Tel Aviv HaTachana (already in BACKLOG).
+
+5. **Nahlaot neighborhood** (`itraveljerusalem.com`, `touristisrael.com`, `nativeisrael.com`, `gojersualem.com`) — 32 historic neighborhoods around Mahane Yehuda Market; 300+ synagogues; hidden courtyards; Sephardic/Kurdish/Persian/Italian/Armenian heritage; "SoHo of Jerusalem"; extensive competitor coverage; zero on-site standalone guide.
+
+### Competitor patterns observed this pass
+- Tourist Israel (`touristisrael.com`) continues to have standalone pages for almost every Jerusalem attraction, neighborhood, and cultural venue that we lack
+- iTravelJerusalem (`itraveljerusalem.com`, official Jerusalem tourism) has granular neighborhood + venue coverage including Nahlaot, First Station, Holy Fire, Democracy Pavilion
+- Park HaMesila shows that urban linear trails are a search category with real traffic (AllTrails + GreatRuns both rank for Jerusalem trail searches)
+- New venue first-mover opportunities (Galilee Culinary Institute) are rare at pass #105 — most new venues have already been picked up by competitors

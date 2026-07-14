@@ -1,13 +1,15 @@
 # LOOP STATE
 
-- iteration: 519
-- lastMode: REVIEW
-- lastItem: meta-trim-516-518 — audit of iters 516-518 (eilat-ramon-airport-guide, israel-in-spring, mount-of-olives-guide); 2 meta desc violations fixed
-- lastResult: SHIPPED f1ee5f5. pnpm check 0 errors; 724 pages; 1032/1032 e2e+a11y pass. CI in_progress at push time; prior SHA (9959ba1) CI success. Lighthouse success.
-- nextRotationCategory: 520%5==0 → RESEARCH. 521%5==1 → BUILD (monetization → fall-through seo-content). 522%5==2 → BUILD (seo-content). 523%5==3 → BUILD (seo-content). 524%5==4 → REVIEW.
+- iteration: 520
+- lastMode: RESEARCH
+- lastItem: research-pass-105 — 5 new items added (galilee-culinary-institute-gonen, democracy-pavilion-tel-aviv, jerusalem-mesila-trail-guide, jerusalem-first-station-guide, nahlaot-neighborhood-guide)
+- lastResult: RESEARCH ONLY (no ship). 5 confirmed new BACKLOG items. Extreme saturation at pass #105. BACKLOG ~296 items.
+- nextRotationCategory: 521%5==1 → BUILD (monetization → fall-through seo-content). 522%5==2 → BUILD (seo-content). 523%5==3 → BUILD (seo-content). 524%5==4 → REVIEW. 525%5==0 → RESEARCH.
 - higgsfieldSpent: 0
-- updatedAt: 2026-07-14T09:44Z
+- updatedAt: 2026-07-14T10:15Z
 - branch context: work on master; feature work on auto/<slug>
+
+Notes: iter520 RESEARCH — research pass #105. Extreme saturation confirmed. 5 net-new items added: galilee-culinary-institute-gonen (P2/S seo-content+monetization; JNF-USA NIS 100M culinary campus Kibbutz Gonen Upper Galilee, soft-launched Feb 2026, Chef Lior Lev Sercarz, zero competitor editorial coverage yet); democracy-pavilion-tel-aviv (P3/S seo-content; geodesic dome Rothschild Blvd, Israel Democracy Institute + Taube Philanthropies, sign Declaration of Independence digitally, pairs with Independence Trail app); jerusalem-mesila-trail-guide (P3/S seo-content; 7km Ottoman railway trail German Colony→Malha, built 2010-2013, AllTrails+GreatRuns have content, zero on-site); jerusalem-first-station-guide (P3/S seo-content+monetization; 1892 Ottoman terminus renovated 2013, restaurants+Thu/Fri market+concerts, iTravelJerusalem+TouristIsrael both have content, zero on-site, distinct from Tel Aviv HaTachana BACKLOG L1073); nahlaot-neighborhood-guide (P3/S seo-content; 32 historic neighborhoods around Machane Yehuda, 300+ synagogues, hidden courtyards, iTravelJerusalem+NativeIsrael+GoJerusalem all have content, zero on-site). BACKLOG now ~296 items.
 
 Notes: iter519 REVIEW — audit iters 516-518 (eilat-ramon-airport-guide, israel-in-spring, mount-of-olives-guide). 2 meta desc violations found+fixed: mount-of-olives 161→160 chars (remove trailing period); israel-in-spring 165→159 chars ('best-value'→'best'). All 27 internal links resolve. No H1 in body on any guide. All 3 pages in footer. eilat-ramon-airport-guide desc 129 chars — clean. AffiliateCard component doesn't display rating/reviews to users — confirmed safe. SHA f1ee5f5.
 

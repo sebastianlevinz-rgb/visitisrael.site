@@ -8268,3 +8268,11 @@ Fix: branch auto/meta-trim-516-518 — trimmed mount-of-olives description 161�
 Gate: pnpm check 0 errors; 724 pages; 1032/1032 e2e+a11y pass ✅ GREEN.
 Merge SHA: f1ee5f5. Squash-merged → master; branch deleted. Pushed. CI in_progress at push time; prior SHA (9959ba1 = iter518) CI success. Lighthouse completed/success.
 Next: iter 520 → RESEARCH (520%5==0).
+
+## 2026-07-14T10:15Z · iter 520 · RESEARCH · research-pass-105
+What: Research pass #105. Extreme saturation confirmed (105th consecutive research pass). Checked 20+ candidate topics against BACKLOG.md and DONE.md via python3 regex scanning.
+New items: 5 confirmed new BACKLOG items added — galilee-culinary-institute-gonen (P2/S; JNF-USA NIS 100M culinary campus at Kibbutz Gonen, Upper Galilee, soft-launched Feb 2026; Chef Lior Lev Sercarz; first-mover opportunity); democracy-pavilion-tel-aviv (P3/S; geodesic dome Rothschild Blvd, sign Declaration of Independence digitally); jerusalem-mesila-trail-guide (P3/S; 7km Ottoman railway trail German Colony→Malha, Park HaMesila, built 2010-2013); jerusalem-first-station-guide (P3/S; 1892 Ottoman railway terminus, renovated 2013, German Colony area, restaurants+market; distinct from Tel Aviv HaTachana in BACKLOG); nahlaot-neighborhood-guide (P3/S; 32 historic neighborhoods around Machane Yehuda Market, 300+ synagogues, hidden courtyards).
+Saturation: 5/20+ candidates = extreme saturation. Rejected topics: Sarona Market (SHIPPED iter392), Nachalat Binyamin (BACKLOG iter280), Jaffa Clock Tower (part of SHIPPED iter126), via dolorosa (SHIPPED), city-of-david (SHIPPED), horseback riding (SHIPPED), film-tv tourism (SHIPPED), surfing (SHIPPED), ein gedi (SHIPPED), bedouin experience (SHIPPED), rosh hanikra (SHIPPED), cooking classes (SHIPPED), night hiking (BACKLOG), Mea She'arim (BACKLOG), Ramla (BACKLOG), stargazing (SHIPPED).
+Ship: N/A — research only. No gate run, no push of site files. .loop/ state files committed and pushed to master for cloud persistence.
+Prod: N/A.
+Next: iter 521 → BUILD (521%5==1; category: monetization → fall-through seo-content if no monetization items ready).
