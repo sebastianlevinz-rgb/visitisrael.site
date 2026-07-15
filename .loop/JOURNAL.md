@@ -8433,3 +8433,10 @@ Gate: pnpm check 0 errors; build 735 pages (+1); 1044/1044 e2e pass (8.6 min).
 Ship: committed 7 files to master as f43b20aeae3b135505c2953766dbccb188a05d1d; pushed.
 Prod: CI run #965 in_progress at push time for SHA f43b20a.
 Next: iter 538 → BUILD (tools) (538%5==3).
+
+## 2026-07-15T05:45Z · iter 538 · BUILD (seo-content; tools fall-through) · beit-shearim-guide
+What: New /beit-shearim-guide — "Beit She'arim Necropolis: UNESCO Jewish Catacombs Guide". UNESCO World Heritage Site (2015); 33 rock-cut catacombs in the Lower Galilee foothills 20 km east of Haifa; seat of Sanhedrin under Rabbi Judah ha-Nasi (2nd–4th century CE); premier Jewish burial ground of the Roman Empire; Catacomb 20 (Hall of Sarcophagi, open independently) + Catacomb 14 (Menorah Cave, guided tours pre-booked via parks.org.il); hilltop city ruins; INPA pass valid. 7 FAQs; 2 CTAs (GYG Galilee day tours, DiscoverCars Haifa). Back-links: day-trips-from-haifa (+full link replacing 1-clause mention), jewish-heritage-israel (+linked expanded description), israel-national-parks-pass (+Beit She'arim in North Israel/Galilee INPA sites list), haifa-travel-guide (+What to combine nearby section). Footer Destinations +1. Smoke test +1.
+Gate: pnpm check 0 errors; build 736 pages (+1); 1045/1045 e2e pass (6.4 min).
+Ship: committed 7 files to master as 799c0bbb; pushed.
+Prod: CI in_progress at push time for SHA 799c0bb; next iteration start-check will confirm.
+Next: iter 539 → REVIEW (539%5==4).

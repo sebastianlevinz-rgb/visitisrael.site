@@ -1,13 +1,15 @@
 # LOOP STATE
 
-- iteration: 537
-- lastMode: BUILD (seo-content)
-- lastItem: nahal-alexander-guide — "Nahal Alexander (Alexander Stream) Nature Reserve: Complete Visitor Guide" — Nile soft-shelled turtle reserve 40 km north of Tel Aviv; 3 km flat riverside trail; Turtle Bridge; Hof Bet Yanai beach; INPA pass — f43b20a
-- lastResult: SHIPPED — pnpm check 0 errors; 735 pages (+1); 1044/1044 e2e pass; committed to master; pushed f43b20a
-- nextRotationCategory: 538%5==3 → BUILD (tools). 539%5==4 → REVIEW. 540%5==0 → RESEARCH. 541%5==1 → BUILD (monetization).
+- iteration: 538
+- lastMode: BUILD (seo-content; tools fall-through — all tools SHIPPED)
+- lastItem: beit-shearim-guide — "Beit She'arim Necropolis: UNESCO Jewish Catacombs Guide" — 33 rock-cut catacombs 20 km east of Haifa; seat of Sanhedrin under Rabbi Judah ha-Nasi; UNESCO 2015; INPA pass valid — 799c0bb
+- lastResult: SHIPPED — pnpm check 0 errors; 736 pages (+1); 1045/1045 e2e pass; committed to master; pushed 799c0bb; CI in_progress at push time
+- nextRotationCategory: 539%5==4 → REVIEW. 540%5==0 → RESEARCH. 541%5==1 → BUILD (monetization). 542%5==2 → BUILD (seo-content).
 - higgsfieldSpent: 0
-- updatedAt: 2026-07-15T04:45Z
+- updatedAt: 2026-07-15T05:45Z
 - branch context: work on master; feature work on auto/<slug>
+
+Notes: iter538 BUILD (seo-content; tools fall-through — all tools SHIPPED) — beit-shearim-guide. SHIPPED 799c0bb. pnpm check 0 errors; 736 pages (+1); 1045/1045 e2e pass. "Beit She'arim Necropolis: UNESCO Jewish Catacombs Guide" standalone at /beit-shearim-guide: UNESCO World Heritage Site (2015); 33 rock-cut catacombs in Lower Galilee foothills 20km east of Haifa; seat of Sanhedrin under Rabbi Judah ha-Nasi (2nd-3rd century CE); premier Jewish burial ground of Roman Empire; ornate sarcophagi + menorah carvings + multilingual inscriptions (Greek/Aramaic/Hebrew/Palmyrene); Catacomb 20 (Hall of Sarcophagi, largest, open independently); Catacomb 14 (Menorah Cave, guided tours only, pre-book via parks.org.il); hilltop city ruins + Jezreel Valley views; INPA pass valid. 7 FAQs: what Beit She'arim is famous for, INPA pass, getting there from Haifa, Menorah Cave booking, what to see inside, visit duration, children suitability. 2 CTAs: GYG Galilee day tours, DiscoverCars Haifa (car essential). Cross-links: day-trips-from-haifa.md (+full link replacing 1-clause mention), jewish-heritage-israel.md (+linked with expanded description), israel-national-parks-pass.md (+Beit She'arim in North Israel/Galilee INPA sites list), haifa-travel-guide.md (+Beit She'arim in What to combine nearby section). Footer Destinations +1 (after nahal-alexander-guide). Smoke test +1. SEO: "Beit She'arim catacombs guide", "Bet Shearim UNESCO necropolis Israel", "Jewish catacombs Lower Galilee", "Beit She'arim national park visit", "Sanhedrin burial site Israel guide".
 
 Notes: iter537 BUILD (seo-content) — nahal-alexander-guide. SHIPPED f43b20a. pnpm check 0 errors; 735 pages (+1); 1044/1044 e2e pass. "Nahal Alexander (Alexander Stream): Turtle Reserve & Riverside Trail Guide" standalone at /nahal-alexander-guide: INPA park 40km north of TLV near Netanya; Nile soft-shelled turtles (Trionyx triunguis, up to 1.2m/50kg) at Turtle Bridge; 3km flat shaded riverside trail; year-round; stroller-friendly; Hof Bet Yanai beach. Cross-links: best-beaches-israel (+table row + section), israel-national-parks-pass (+list entry), water-hiking-israel (+coastal cross-link bullet), israel-with-kids (+turtle experience paragraph), Footer.astro Destinations +1, smoke.spec.ts +1.
 
