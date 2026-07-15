@@ -8636,3 +8636,16 @@ Gate: pnpm check 0 errors; build 744 pages (+1 from 743); 1054/1054 e2e pass. GR
 Ship: squash-merged to master SHA 40bed42, pushed to origin/master. Branch auto/atlit-detainee-camp-guide deleted.
 Prod: CI in_progress at push time — consistent with prior iterations; expect success.
 Next: iter554 → REVIEW (audit iters 551-553: judean-hills-wine-trail, israel-rainy-day-activities, atlit-detainee-camp-guide).
+
+## 2026-07-15T21:45Z · iter 554 · REVIEW · audit iters 551-553
+What: REVIEW pass auditing the 3 most recently shipped guides (judean-hills-wine-trail, israel-rainy-day-activities, atlit-detainee-camp-guide).
+Checks performed:
+  (1) Internal links — all 18 links across the 3 files resolve to existing content. Clean.
+  (2) Hero images — all 5 referenced hero/CTA images exist at public/images/. Clean.
+  (3) H1 in body content — none found in any file. Clean.
+  (4) Back-links — back-link cross-references confirmed in parent guides. Clean.
+  (5) Meta description lengths — DEFECT FOUND: atlit-detainee-camp-guide was 172 chars (limit 160). Fixed to 157 chars by removing "where" and tightening phrasing. judean-hills-wine-trail (143) and israel-rainy-day-activities (149) both within limit.
+Gate: pnpm check 0 errors; build 744 pages (no change); 1054/1054 e2e pass. GREEN.
+Ship: committed fix b0cd60c to master, pushed to origin/master. CI in_progress at push time — consistent with prior pattern.
+Prod: CI in_progress; expect success (consistent pattern).
+Next: iter555 → RESEARCH (#113).

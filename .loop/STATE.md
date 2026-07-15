@@ -1,13 +1,15 @@
 # LOOP STATE
 
-- iteration: 553
-- lastMode: BUILD (seo-content)
-- lastItem: atlit-detainee-camp-guide — new /atlit-detainee-camp-guide visitor guide (P2/S)
-- lastResult: SHIPPED 40bed42. pnpm check 0 errors; 744 pages (+1); 1054/1054 e2e pass.
-- nextRotationCategory: 554%5==4 → REVIEW. 555%5==0 → RESEARCH. 556%5==1 → BUILD (monetization). 557%5==2 → BUILD (seo-content).
+- iteration: 554
+- lastMode: REVIEW
+- lastItem: review-554 — audit iters 551-553 (judean-hills-wine-trail, israel-rainy-day-activities, atlit-detainee-camp-guide)
+- lastResult: SHIPPED b0cd60c. pnpm check 0 errors; 744 pages (no change); 1054/1054 e2e pass. 1 defect fixed.
+- nextRotationCategory: 555%5==0 → RESEARCH. 556%5==1 → BUILD (monetization). 557%5==2 → BUILD (seo-content). 558%5==3 → BUILD (tools).
 - higgsfieldSpent: 0
-- updatedAt: 2026-07-15T21:00Z
+- updatedAt: 2026-07-15T21:45Z
 - branch context: work on master; feature work on auto/<slug>
+
+Notes: iter554 REVIEW — audit iters 551-553 (judean-hills-wine-trail, israel-rainy-day-activities, atlit-detainee-camp-guide). Checks: (1) internal links — all 18 links across 3 files resolve; (2) hero images — all 5 referenced images exist at public/images/; (3) H1 in body — none found in any file; (4) back-links — all back-link cross-references verified in parent guides; (5) meta description lengths — DEFECT: atlit-detainee-camp-guide 172 chars (limit 160). Fix: trimmed to 157 chars. judean-hills-wine-trail (143) and israel-rainy-day-activities (149) clean. Gate: pnpm check 0 errors; build 744 pages (no change); 1054/1054 e2e pass. SHIPPED b0cd60c. Next: iter555 → RESEARCH (#113).
 
 Notes: iter553 BUILD (seo-content) — atlit-detainee-camp-guide. SHIPPED 40bed42. pnpm check 0 errors; 744 pages (+1 from 743); 1054/1054 e2e pass. "Atlit Detainee Camp: Holocaust Survivor Immigration History Guide" standalone at /atlit-detainee-camp-guide. Key content: historical context (1939 British White Paper + Aliyah Bet clandestine immigration network; 16,000+ Jewish Holocaust survivors interned at Atlit 1938–1948); Night of the Raiders (Oct 10, 1945 — Yitzhak Rabin led Palmach unit that freed 208 detainees); site walkthrough (original barracks + electrified perimeter fence + British watchtowers; full-scale immigrant ship replica below-decks; C-46 Curtiss Commando aircraft; educational centre + English film); practical logistics table (Atlit town / Route 2 / 20km south Haifa; Bus 921; Tue–Thu 8:30–17:00, Fri 8:30–13:00; closed Mon+Shabbat; advance booking for English tours); combination table. 3 CTAs: GYG Jewish Heritage Day Tours from Haifa, Viator Haifa & Northern Israel Historical Tours, Booking.com Hotels in Haifa. Footer Essentials +1 (after valley-of-tears-golan). Cross-links: day-trips-from-haifa.md (+Atlit bullet + car table row), haifa-travel-guide.md (+What to combine nearby), jewish-heritage-israel.md (+Practical tips bullet), smoke.spec.ts +1. SEO targets: "Atlit Detainee Camp guide Israel", "Atlit detention camp Haifa", "Night of the Raiders Palmach", "Aliyah Bet museum Israel". Next: iter554 → REVIEW (audit iters 551-553).
 
