@@ -8664,3 +8664,9 @@ New items: 6 net-new confirmed absent from all three sources:
 Ship: none (research mode).
 BACKLOG now ~334 items.
 Next: iter556 → BUILD (monetization).
+
+## 2026-07-15T23:46Z · iter 556 · BUILD (monetization) · golan-heights-wineries
+What: New /golan-heights-wineries standalone guide. "Golan Heights Wineries: Wine Tour Guide (2026)". Israel's top wine region covered end-to-end: 5 producer profiles (Yarden/GHW Katzrin, Chateau Golan Eliad, Assaf Kidmat Tzvi, Bazelet HaGolan, Pelter Alonei Habashan), self-drive 2-winery circuit from Tiberias (~120-150km), guided tour vs self-drive comparison table, Golan sights pairings (Bental, Banias, Nimrod Fortress, Druze villages, Valley of Tears, Gamla), 7 FAQs (advance booking, kosher, varietals, best season, safety, political status, distances), practical info table. 3 CTAs: GYG Golan wine tour, DiscoverCars, Booking.com Tiberias. Honest political context for Golan status in frontmatter FAQ. Cross-links: israel-wine-wineries.md (+dedicated guide link in Golan section), golan-heights-guide.md (+winery section back-link to new guide), Footer Food section +1, smoke.spec.ts +1. SEO targets: "Golan Heights wineries guide", "wine tasting Golan Heights Israel", "Golan Heights wine tour 2026", "Yarden winery visit", "Israel wine tour Galilee".
+Gate: pnpm check 0 errors; 745 pages (+1 from 744); 1055/1055 e2e pass.
+Ship: 7bb42dbfd35026e1c22762b0b9f116a0bfc2763b, pushed to origin/master.
+Prod deploy: in_progress at commit time; 556%5==1 BUILD next → 557%5==2 BUILD (seo-content).
