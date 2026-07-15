@@ -8549,3 +8549,14 @@ Gate: pnpm check 0 errors; pnpm build 739 pages (+1 from 738); pnpm test:e2e 104
 Ship: squash-merged to master SHA d751b6d, pushed to origin/master.
 SEO targets: "hotels near Ben Gurion airport", "Ben Gurion airport hotel guide", "Tel Aviv airport hotel 2026", "stay near TLV airport Israel".
 Next: iter 547 → BUILD (547%5==2 → seo-content category). Top candidate: jerusalem-light-rail-guide (P2/S).
+
+## 2026-07-15 · iter 547 · BUILD (seo-content) · beit-shean-guide
+Item selected: Beit She'an Roman & Byzantine city visitor guide — top P2/S seo-content item in BACKLOG; no standalone guide existed; clear search intent ("best Roman ruins Israel", "Beit Shean visitor guide 2026").
+Branch: auto/beit-shean-guide.
+Content: "Beit She'an: Best-Preserved Roman Ruins in Israel (Visitor Guide)" standalone at /beit-shean-guide.
+Key content: Why unmissable (749 CE Galilee earthquake preserved colonnaded cardo mid-collapse; Saul's body — 1 Samuel 31:10 — on the tel); Roman theater (7,000 seats, 2nd c CE, acoustics intact, live performances summer); colonnaded cardo (columns lying in earthquake-fall positions, Corinthian capitals still attached); Byzantine bathhouse + public latrine (~50-seat, marble bench, best-preserved in Levant); Sylvanus mosaic (Greek magistrate inscription); Philistine tel summit (18 strata, 4000 BCE–749 CE, Gilboa panorama, Thutmose III → Saladin viewshed). Sachne combination (Gan HaShlosha 3 km south, 28°C spring pools, INPA pass valid). Jezreel-Jordan Valley circuit table (Beit Alfa mosaic synagogue 10 km, Sachne 3 km, Megiddo 30 km, Zippori 45 km, Sea of Galilee 40 km). 3 affiliate CTAs (GYG Galilee/Jordan Valley tours, DiscoverCars TLV, Booking.com Tiberias). 7 FAQs.
+Back-links: water-hiking-israel.md (Nahal HaKibbutzim section: /galilee → /beit-shean-guide); israel-national-parks-pass.md (Beit She'an entry linked + expanded description). Footer Destinations +1; smoke.spec.ts +1.
+Gate: pnpm check 0 errors; pnpm build 740 pages (+1 from 739); pnpm test:e2e 1050/1050 pass.
+Ship: squash-merged to master SHA f7a7e50, pushed to origin/master. Feature branch deleted.
+SEO targets: "Beit She'an Roman ruins visitor guide Israel", "Beit Shean National Park guide 2026", "best Roman ruins Israel", "Scythopolis Israel visit", "Beit She'an theater visit".
+Next: iter 548 → BUILD (548%5==3 → tools category). Top candidate: review existing tools for gaps or add new tool.

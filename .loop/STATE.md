@@ -1,12 +1,12 @@
 # LOOP STATE
 
-- iteration: 546
-- lastMode: BUILD (monetization)
-- lastItem: hotels-near-ben-gurion-airport — new /hotels-near-ben-gurion-airport standalone money page; Airport City zone hotels (Leonardo, Carlton with pool, Holiday Inn Express), Lod-area options, Shabbat shuttle logistics, decision matrix, booking tips; 739 pages (+1); 1049/1049 e2e pass
-- lastResult: SHIPPED d751b6d — pnpm check 0 errors; build 739 pages; 1049/1049 e2e pass; pushed to origin/master
-- nextRotationCategory: 547%5==2 → BUILD (seo-content). 548%5==3 → BUILD (tools). 549%5==4 → REVIEW. 550%5==0 → RESEARCH. 551%5==1 → BUILD (monetization).
+- iteration: 547
+- lastMode: BUILD (seo-content)
+- lastItem: beit-shean-guide — new /beit-shean-guide standalone guide; Israel's best-preserved Roman city (Nysa-Scythopolis, Decapolis); 7,000-seat Roman theater, earthquake-toppled colonnaded cardo, Byzantine bathhouse + latrine, Sylvanus mosaic, Philistine tel summit (Saul 1 Samuel 31:10); Sachne combination, Jezreel-Jordan Valley circuit table; 7 FAQs; 3 CTAs; back-links updated in water-hiking-israel + israel-national-parks-pass; Footer +1; smoke test +1; 740 pages (+1); 1050/1050 e2e pass
+- lastResult: SHIPPED f7a7e50 — pnpm check 0 errors; build 740 pages; 1050/1050 e2e pass; pushed to origin/master
+- nextRotationCategory: 548%5==3 → BUILD (tools). 549%5==4 → REVIEW. 550%5==0 → RESEARCH. 551%5==1 → BUILD (monetization). 552%5==2 → BUILD (seo-content).
 - higgsfieldSpent: 0
-- updatedAt: 2026-07-15T13:46Z
+- updatedAt: 2026-07-15T14:40Z
 - branch context: work on master; feature work on auto/<slug>
 
 Notes: iter544 REVIEW — audit iters 541-543 (best-hotels-negev, jewish-quarter-jerusalem-guide, megiddo-jezreel-valley-guide). Checks: (1) internal links — all 20 links across 3 files resolve; (2) hero images — all 4 referenced images exist at public/images/; (3) H1 in body — none found in any file; (4) back-links — mitzpe-ramon-guide (best-hotels-negev ✓), jewish-heritage-israel + jerusalem-old-city-walking-tour + 1-day-jerusalem-itinerary (jewish-quarter ✓), israel-hidden-gems + israel-national-parks-pass (megiddo ✓); (5) meta description lengths — DEFECT: best-hotels-negev 168 chars. Fix: trimmed to 138 chars. Gate: pnpm check 0 errors; build 738 pages (no change); 1048/1048 e2e pass. Ship: ee6d7d7.
