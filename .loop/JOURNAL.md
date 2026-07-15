@@ -8456,6 +8456,14 @@ Gate: pnpm check 0 errors; build 736 pages (no new pages); 1045/1045 e2e pass.
 Ship: committed 7fb1a01; pushed; CI completed success; Lighthouse completed success.
 Next: iter 540 → RESEARCH (540%5==0).
 
+## 2026-07-15T08:45Z · iter 541 · BUILD (monetization) · best-hotels-negev
+
+Mode: BUILD (541 % 5 == 1 → monetization). Item selected: best-hotels-negev (P2/S, added iter535 research).
+What: New guide "Best Hotels in the Negev 2026: Where to Stay at Mitzpe Ramon" at /best-hotels-negev. Completes the hotel-guide series (Jerusalem → Tel Aviv → Haifa → Tiberias → Eilat → Dead Sea → Jaffa → Sea of Galilee → Negev). Sections: Beresheet Hotel (crater-rim, Isrotel, most iconic Israel desert hotel, ₪1,800–4,500+); Selina Ramon (design-forward social hotel, mid-price tier); Ramon Inn (mid-range Isrotel, ₪600–1,100, families, town centre); Succah in the Desert (off-grid eco-glamping, no electricity, bamboo + recycled-material structures); HI Beit Noam (HI-affiliated budget hostel, dorms ₪120–180, hikers); zimmer/private guesthouses (₪350–700); Sde Boker area alternative base. Decision matrix (9-row table). Seasonal notes (spring/autumn/summer/winter + booking-lead times for Beresheet). 7 FAQs. 3 CTAs: Booking.com/GYG/DiscoverCars. Back-link added in mitzpe-ramon-guide.md Where to stay section. Footer Destinations +1. Smoke test +1.
+Gate: pnpm check 0 errors (130 files, 0 errors, 114 hints); build 737 pages (+1); 588/588 e2e pass.
+Ship: squash-merged to master 416a79b, pushed. GitHub commit confirmed.
+Next: iter 542 → BUILD (seo-content) (542 % 5 == 2).
+
 ## 2026-07-15T09:15Z · iter 540 · RESEARCH · research-pass-#110
 
 Mode: RESEARCH (540 % 5 == 0). No code shipped.
