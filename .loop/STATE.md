@@ -1,13 +1,15 @@
 # LOOP STATE
 
-- iteration: 542
-- lastMode: BUILD (seo-content)
-- lastItem: jewish-quarter-jerusalem-guide — /jewish-quarter-jerusalem-guide — "Jewish Quarter Jerusalem: Archaeological Visitor Guide (2026)"
-- lastResult: SHIPPED — 54b26b2 — 738 pages (+1); 1047/1047 e2e pass; pnpm check 0 errors
-- nextRotationCategory: 543%5==3 → BUILD (tools; fall-through expected). 544%5==4 → REVIEW. 545%5==0 → RESEARCH. 546%5==1 → BUILD (monetization). 547%5==2 → BUILD (seo-content).
+- iteration: 543
+- lastMode: BUILD (seo-content; tools fall-through)
+- lastItem: megiddo-jezreel-valley-guide — /megiddo-jezreel-valley-guide — "Tel Megiddo (Armageddon): Complete UNESCO Visitor Guide"
+- lastResult: SHIPPED — 1d76ce8 — 738 pages (+1); 1048/1048 e2e pass; pnpm check 0 errors
+- nextRotationCategory: 544%5==4 → REVIEW. 545%5==0 → RESEARCH. 546%5==1 → BUILD (monetization). 547%5==2 → BUILD (seo-content). 548%5==3 → BUILD (tools; fall-through expected).
 - higgsfieldSpent: 0
-- updatedAt: 2026-07-15T09:48Z
+- updatedAt: 2026-07-15T11:10Z
 - branch context: work on master; feature work on auto/<slug>
+
+Notes: iter543 BUILD (seo-content; tools fall-through — all tools SHIPPED) — megiddo-jezreel-valley-guide. SHIPPED 1d76ce8. pnpm check 0 errors; 738 pages (+1); 1048/1048 e2e pass. "Tel Megiddo (Armageddon): Complete UNESCO Visitor Guide" standalone at /megiddo-jezreel-valley-guide: historical overview (Armageddon etymology + Har Megiddo, 26 occupation layers, 34+ recorded battles incl. Thutmose III 1457 BCE earliest documented battle); 5 on-site highlights (Wohl Museum-style museum + orientation model; Solomonic Gate + Finkelstein/Mazar controversy framed honestly; Stables/Storehouses debate; Ahab's Water Tunnel — 66 steps + 50m walk-through; Bronze Age temples 3000–1200 BCE; Jezreel Valley panorama); Jezreel Valley circuit comparison table (Beit Alfa Byzantine mosaic, Gan HaShlosha warm pools, Mount Tabor, Beit She'arim, Nazareth); practical table (hours/fees/INPA/water tunnel/accessibility); getting there. 3 CTAs: GYG Megiddo guided tour, Viator Biblical Tels UNESCO day tour, Booking.com Nazareth hotels. 7 FAQs. Back-links: israel-hidden-gems.md (+guide link in Megiddo section), israel-national-parks-pass.md (Megiddo entry linked). Footer Destinations +1; smoke test +1. BLOCKER FOUND+FIXED: guide linked /christian-pilgrimage (slug doesn't exist) — corrected to /christian-pilgrimage-holy-land before gate pass. SEO: "Tel Megiddo visitor guide", "Armageddon Israel site guide", "Megiddo UNESCO Israel tour", "Ahab's water tunnel Megiddo", "Jezreel Valley day trip Israel 2026".
 
 Notes: iter542 BUILD (seo-content) — jewish-quarter-jerusalem-guide. SHIPPED 54b26b2. pnpm check 0 errors; 738 pages (+1); 1047/1047 e2e pass. "Jewish Quarter Jerusalem: Archaeological Visitor Guide (2026)" standalone at /jewish-quarter-jerusalem-guide: historical overview (70 CE destruction, 1948 Jordanian demolition, post-1967 rebuilding and excavation); 7 key sites (Wohl Archaeological Museum — 6 Herodian mansions; Burnt House — 70 CE fire; Davidson Center southern-wall circuit; Cardo; Hurva Synagogue; Four Sephardic Synagogues; Broad Wall); neighbourhood logistics; accessibility note; getting here. 3 CTAs: GYG Jewish Quarter tour, Viator Old City private tour, Booking.com Jerusalem hotels. Cross-links: jewish-heritage-israel.md (Jewish Quarter paragraph + Wohl Museum mention), jerusalem-old-city-walking-tour.md (Step 3 cross-link paragraph), 1-day-jerusalem-itinerary.md (Old City walk inline link). Footer Destinations +1; smoke test +1. SEO: "Jewish Quarter Jerusalem guide", "Wohl Archaeological Museum Jerusalem", "Hurva Synagogue guide", "Jewish Quarter Old City visitor guide", "Jerusalem ancient ruins visitor guide".
 

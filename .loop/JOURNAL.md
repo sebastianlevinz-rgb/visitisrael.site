@@ -8481,3 +8481,13 @@ Footer.astro Destinations +1 (after /beit-shearim-guide). smoke.spec.ts ROUTES +
 Gate: pnpm check 0 errors; pnpm build 738 pages (+1 from 737); pnpm test:e2e 1047/1047 pass.
 Branch auto/jewish-quarter-jerusalem-guide → squash-merge to master SHA 54b26b2; pushed; CI in_progress at state write.
 SEO targets: "Jewish Quarter Jerusalem guide", "Wohl Archaeological Museum Jerusalem", "Hurva Synagogue guide", "Jewish Quarter Old City visitor guide", "Jerusalem ancient ruins visitor guide".
+
+## 2026-07-15 · iter 543 · BUILD (seo-content; tools fall-through)
+What: new /megiddo-jezreel-valley-guide — "Tel Megiddo (Armageddon): Complete UNESCO Visitor Guide"
+Selected from BACKLOG line 644 — P2/M seo-content+monetization. All 11 tools SHIPPED; seo-content fall-through.
+Content: Armageddon etymology + strategic geography (34+ battles, Thutmose III 1457 BCE), Solomonic Gate controversy (Finkelstein/Mazar debate — framed honestly as unresolved), Stables/Storehouses debate, Ahab's Water Tunnel (66 steps + 50m walk-through, most memorable highlight), Bronze Age temples, Jezreel Valley panorama. Jezreel Valley circuit table (Beit Alfa, Gan HaShlosha, Mount Tabor, Beit She'arim, Nazareth). Practical table + getting-there. 7 FAQs. 3 CTAs (GYG/Viator/Booking). Both BACKLOG entries for Megiddo marked SHIPPED.
+Back-links: israel-hidden-gems.md (+ guide link in Megiddo section), israel-national-parks-pass.md (Megiddo entry linked). Footer Destinations +1. smoke.spec.ts +1.
+Blocker: /christian-pilgrimage link broken (slug doesn't exist) → fixed to /christian-pilgrimage-holy-land; e2e links.spec caught it on first run.
+Gate: pnpm check 0 errors; pnpm build 738 pages (+1); pnpm test:e2e 1048/1048 pass.
+Ship: squash-merged to master SHA 1d76ce8; pushed; CI in_progress at state write.
+SEO targets: "Tel Megiddo visitor guide", "Armageddon Israel site guide", "Megiddo UNESCO Israel tour", "Ahab's water tunnel Megiddo", "Jezreel Valley day trip Israel 2026".
