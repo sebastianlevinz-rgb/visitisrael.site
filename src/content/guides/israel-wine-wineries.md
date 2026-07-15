@@ -33,7 +33,7 @@ The premium zone. The **[Golan Heights](/golan)** — volcanic soils, high altit
 
 ### Judean Hills
 
-The cool, terraced hills west and south of [Jerusalem](/jerusalem) have become a fashionable boutique-winery belt, easily reachable on a half-day from the city. Limestone soils and elevation give elegant, food-friendly wines, and several estates have handsome tasting rooms and restaurants — an excellent add-on to a Jerusalem stay.
+The cool, terraced hills west and south of [Jerusalem](/jerusalem) have become a fashionable boutique-winery belt, easily reachable on a half-day from the city. Limestone soils and elevation give elegant, food-friendly wines, and several estates have handsome tasting rooms and restaurants — an excellent add-on to a Jerusalem stay. See the [Judean Hills wine trail guide](/judean-hills-wine-trail) for a producer-by-producer breakdown, a self-drive day-trip route, and booking tips for appointment-only estates.
 
 ### Shomron & Mount Carmel
 

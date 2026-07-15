@@ -585,6 +585,7 @@ const ROUTES = [
   '/megiddo-jezreel-valley-guide',
   '/beit-shean-guide',
   '/purim-in-israel',
+  '/judean-hills-wine-trail',
 ];
 
 for (const route of ROUTES) {
