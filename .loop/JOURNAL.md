@@ -8521,3 +8521,31 @@ Net-new backlog items (6 of 30+ candidates confirmed absent):
 Saturation rate: 6/30+ candidates = extreme saturation confirmed (pass #111). BACKLOG now ~321 items.
 No code shipped this iteration (RESEARCH mode). .loop/ state committed.
 Next: iter 546 → BUILD (546%5==1 → monetization category).
+
+## 2026-07-15T13:46Z · iter 546 · BUILD (monetization) · hotels-near-ben-gurion-airport
+Mode: BUILD (546%5==1 → monetization).
+Item: hotels-near-ben-gurion-airport (P2, S) — top monetization item added in iter545 RESEARCH.
+What: New /hotels-near-ben-gurion-airport standalone airport-area hotel money page.
+  Airport City zone (5–10 min from Terminal 3 by free 24h shuttle):
+    - Leonardo Airport Hotel: business-travel standard, ₪550–850/night.
+    - Carlton Hotel Tel Aviv Airport: pool + leisure amenities, ₪650–950/night.
+    - Holiday Inn Express Tel Aviv Airport: budget-focused, ₪500–750/night.
+  Lod/Ramle wider area (10–20 min, ₪350–550, fixed-schedule shuttles — confirm when booking).
+  Shabbat logistics: Airport City shuttles operate 24h including Shabbat (key differentiator
+    vs Tel Aviv city-centre hotels that rely on train + taxi).
+  When to book Tel Aviv instead: 8+ hour layover → train to TLV 16 min, genuine sightseeing value.
+  Decision matrix: 7-row table (scenarios × best option).
+  Booking tips: free cancellation, shuttle confirm, Jewish holiday lead-times.
+  7 FAQs: distance, free shuttles, TLV vs airport hotel, costs, Shabbat access, pool, TLV route.
+  2 affiliate CTAs: Booking.com "Lod Israel" (airport hotels) + DiscoverCars "Ben Gurion Airport Israel".
+  Cross-links wired:
+    - ben-gurion-airport-guide.md: added "Where to sleep near the airport" section before checklist.
+    - israel-accommodation-guide.md: added /hotels-near-ben-gurion-airport to Related guides.
+    - New guide links back to /ben-gurion-airport-guide, /layover-tel-aviv, /car-rental-israel,
+      /israel-accommodation-guide.
+  Smoke test: /hotels-near-ben-gurion-airport added after /best-hotels-negev in smoke.spec.ts.
+  Hero image: /images/regions/tel-aviv/hero.jpg (exists in public/; in photo-credits.json).
+Gate: pnpm check 0 errors; pnpm build 739 pages (+1 from 738); pnpm test:e2e 1049/1049 pass.
+Ship: squash-merged to master SHA d751b6d, pushed to origin/master.
+SEO targets: "hotels near Ben Gurion airport", "Ben Gurion airport hotel guide", "Tel Aviv airport hotel 2026", "stay near TLV airport Israel".
+Next: iter 547 → BUILD (547%5==2 → seo-content category). Top candidate: jerusalem-light-rail-guide (P2/S).
