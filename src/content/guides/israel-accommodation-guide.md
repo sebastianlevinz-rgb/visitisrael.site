@@ -73,7 +73,7 @@ Israel's hotel market spans genuine budget to international luxury, concentrated
 
 The hotel sector is the largest in terms of total inventory. Jerusalem's Jewish Quarter and Old City guesthouses offer a distinctive middle tier: Christian hospices and historic guest houses run by religious communities, often in Ottoman-era buildings with rooftop terraces, at prices in the ₪500–900 range.
 
-For city-specific picks at every price tier, see the dedicated guides: [best hotels in Jerusalem](/best-hotels-jerusalem), [best hotels in Tel Aviv](/best-hotels-tel-aviv), and [best hotels in Haifa](/best-hotels-haifa) (German Colony boutiques, Dan Carmel ridge, and the Colony Hotel).
+For city-specific picks at every price tier, see the dedicated guides: [best hotels in Jerusalem](/best-hotels-jerusalem), [best hotels in Tel Aviv](/best-hotels-tel-aviv), and [best hotels in Haifa](/best-hotels-haifa) (German Colony boutiques, Dan Carmel ridge, and the Colony Hotel). For the full Sea of Galilee accommodation landscape — kibbutz guesthouses at Nof Ginosar and Ein Gev, the Scots Hotel in Tiberias, Magdala pilgrim centres, and east-shore Golan retreats — see the [best hotels at the Sea of Galilee guide](/best-hotels-sea-of-galilee).
 
 **Shabbat note:** Hotels remain open throughout Shabbat, but the on-site restaurant will typically close Friday evening and reopen Saturday night. Some larger hotels offer a cold or pre-prepared Shabbat dinner; check in advance.
 
