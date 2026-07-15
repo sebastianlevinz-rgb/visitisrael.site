@@ -1,13 +1,15 @@
 # LOOP STATE
 
-- iteration: 532
-- lastMode: BUILD (seo-content)
-- lastItem: palmahim-beach-guide — SHIPPED 223859e
-- lastResult: SHIPPED — new /palmahim-beach-guide; 732 pages (+1); 1041/1041 e2e pass
-- nextRotationCategory: 533%5==3 → BUILD (tools/technical). 534%5==4 → REVIEW. 535%5==0 → RESEARCH. 536%5==1 → BUILD (monetization).
+- iteration: 533
+- lastMode: BUILD (seo-content; tools/technical fall-through — all tools/technical SHIPPED)
+- lastItem: negev-makhtesh-guide — SHIPPED 5b9147b
+- lastResult: SHIPPED — new /negev-makhtesh-guide; 733 pages (+1); 1042/1042 e2e pass
+- nextRotationCategory: 534%5==4 → REVIEW. 535%5==0 → RESEARCH. 536%5==1 → BUILD (monetization). 537%5==2 → BUILD (seo-content).
 - higgsfieldSpent: 0
-- updatedAt: 2026-07-14T23:50Z
+- updatedAt: 2026-07-15T01:00Z
 - branch context: work on master; feature work on auto/<slug>
+
+Notes: iter533 BUILD (seo-content; tools/technical fall-through — all tools SHIPPED) — negev-makhtesh-guide. SHIPPED 5b9147b. pnpm check 0 errors; 733 pages (+1); 1042/1042 e2e pass. "Makhtesh HaGadol & HaKatan: The Two Other Negev Craters" standalone at /negev-makhtesh-guide: covers Israel's two lesser-known erosion craters — Makhtesh HaGadol (14×6km, near Yeruham; multi-coloured sandstone sands, ammonite/belemnite fossils, Nahal Tzafit canyon descent trail, free INPA entry) and Makhtesh HaKatan (5×7km oval, near Dimona; most symmetrical walls of any makhtesh, very low visitor numbers, free entry). Both car-only (~1h from Beer Sheva; ~1h45min from TLV). Full geological explainer (makhtesh = erosion cirque, NOT volcanic or meteor; unique to Negev+Sinai). Three-crater comparison table (Ramon vs HaGadol vs HaKatan). Seasonal guide. Combining both craters itinerary table. Getting there logistics. What to bring checklist. 7 FAQs: crater differences, geology, driving directions, combining both, season, hiking trails, INPA pass. 3 CTAs: DiscoverCars (car essential), GYG Negev day tours, Booking.com Mitzpe Ramon hotels. Cross-links: mitzpe-ramon-guide.md (paragraph added referencing HaGadol + HaKatan), Footer Destinations +1. Smoke test +1. CI in_progress at push time. SEO: "Makhtesh HaGadol Israel guide", "HaMakhtesh HaKatan hike", "Big Crater Negev Yeruham", "Small Crater Negev Israel", "Negev craters beyond Ramon".
 
 Notes: iter532 BUILD (seo-content) — palmahim-beach-guide. SHIPPED 223859e. pnpm check 0 errors; 732 pages (+1); 1041/1041 e2e pass. "Palmahim Beach National Park: Complete Visitor Guide" standalone at /palmahim-beach-guide: INPA-managed Mediterranean coastal reserve 30 km south of Tel Aviv; loggerhead sea turtle (Caretta caretta) nesting programme May–Aug (ISTRC rangers monitor; no nest disturbance); kurkar ridge dune geology (aeolianite rock formations = rare intact coastal dune); supervised swimming with lifeguards Jun–Sep; designated INPA camping (advance booking only, parks.org.il); Israel National Parks Pass valid (confirmed INPA vs KKL-JNF distinction); no Shabbat closure (distinct from KKL-JNF sites like Rosh Hanikra); car required (no public bus to park gate; ~30-40 min from TLV center); comparative framing vs urban beaches (Gordon/Frishman vs natural national-park beach). 7 FAQs: INPA pass, transport, sea turtles, camping, swimming safety, city-beach comparison, kurkar geology. 3 CTAs: DiscoverCars TLV car hire, Booking.com Rishon LeZion/Ashdod hotels, GYG Tel Aviv coastal nature tours. Cross-links: best-beaches-israel.md (+Palmahim in at-a-glance table + dedicated section), israel-national-parks-pass.md (+Palmahim in Coastal & central INPA sites list), Footer Destinations +1. SEO: "Palmahim beach Israel guide", "Palmachim National Park", "beaches south of Tel Aviv", "Palmahim sea turtles Israel", "Palmahim beach camping".
 

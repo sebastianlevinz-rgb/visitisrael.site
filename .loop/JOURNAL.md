@@ -8378,3 +8378,13 @@ Gate: pnpm check 0 errors (114 hints); build 732 pages (+1); 1041/1041 e2e pass.
 Ship: 940c7cc + 223859e pushed to master.
 Prod: CI/Lighthouse workflows in_progress at write time (223859e); prior SHA 315a34c CI=success.
 Next: iter 533 → BUILD (tools/technical) (533%5==3).
+
+## 2026-07-15T01:00Z · iter 533 · BUILD (seo-content; tools/technical fall-through) · negev-makhtesh-guide
+Mode: BUILD (tools/technical) (533%5==3); fell through to seo-content — all tools/technical SHIPPED.
+Item: [P2] (seo-content, M) Makhtesh HaGadol & HaKatan — The Two Other Negev Craters (/negev-makhtesh-guide) — [iter530 research].
+Branch: auto/negev-makhtesh-guide (files committed directly on master due to no-commit on branch).
+What: new /negev-makhtesh-guide — "Makhtesh HaGadol & HaKatan: The Two Other Negev Craters". Israel's 2nd and 3rd erosion craters beyond Makhtesh Ramon. HaGadol: 14×6km near Yeruham; multi-coloured sandstone sands + ammonite/belemnite fossils + Nahal Tzafit canyon descent; free INPA entry. HaKatan: 5×7km oval near Dimona; most symmetrical walls of all makhteshim; very low visitor numbers; free entry. Both car-only (~1h from Beer Sheva, ~1h45 from TLV). Full geology explainer (erosion cirque, not volcanic or meteor). Three-crater comparison table. Seasonal visiting guide (Oct–Apr best; summer doable with 7am start). Getting there by car + nearest fuel. What to bring checklist (water, sun protection, Amud Anan app). 7 FAQs. 3 CTAs: DiscoverCars (car essential), GYG Negev tours, Booking.com Mitzpe Ramon hotels. Cross-links: mitzpe-ramon-guide.md (paragraph added referencing HaGadol + HaKatan after five-makhteshim sentence), Footer Destinations +1 (between mitzpe-ramon-guide and sde-boker-ein-avdat-guide), smoke.spec.ts +1.
+Gate: pnpm check 0 errors (114 hints); build 733 pages (+1); 1042/1042 e2e pass.
+Ship: 5b9147b squash-merged to master, pushed.
+Prod: CI + Lighthouse workflows in_progress at push time for 5b9147b; prior SHA e35f060 CI=success.
+Next: iter 534 → REVIEW (534%5==4).
