@@ -103,7 +103,7 @@ The most accessible family water hike in Israel, and the one most Israelis point
 
 The adjacent **Gan HaShlosha** (Sachne) complex is one of Israel's most popular natural swimming spots — a series of large spring-fed pools open for swimming. Combine the nahal walk with a few hours at Gan HaShlosha for a full day out.
 
-**Practical tips:** This site requires a car or organised day trip — no direct public transport from Tel Aviv. Weekends and school holidays are extremely busy; mid-week visits are far more peaceful. The site is near the historical [Beit She'an](/galilee) archaeological park, which pairs well for a full-day [Galilee](/galilee) itinerary.
+**Practical tips:** This site requires a car or organised day trip — no direct public transport from Tel Aviv. Weekends and school holidays are extremely busy; mid-week visits are far more peaceful. The site is near the historical [Beit She'an](/beit-shean-guide) archaeological park, which pairs well for a full-day [Galilee](/galilee) itinerary.
 
 ---
 

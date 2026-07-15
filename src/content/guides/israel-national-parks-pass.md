@@ -82,7 +82,7 @@ The INPA manages over 63 nature reserves and archaeological parks across the cou
 - Mamshit and Shivta Nabataean cities
 
 **Northern Israel & Galilee**
-- Beit She'an National Park (Roman-Byzantine ruins)
+- [Beit She'an National Park](/beit-shean-guide) (Roman-Byzantine ruins; Decapolis city of Scythopolis; colonnaded cardo preserved by 749 CE earthquake)
 - [Beit She'arim National Park](/beit-shearim-guide) (UNESCO 2015 Jewish catacombs; seat of Sanhedrin; 20 km east of Haifa)
 - [Tel Megiddo National Park](/megiddo-jezreel-valley-guide) (UNESCO Biblical Tels 2005; Ahab's water tunnel; Armageddon)
 - [Zippori National Park](/zippori-sepphoris-guide) (Roman mosaics, Sepphoris ancient capital)
