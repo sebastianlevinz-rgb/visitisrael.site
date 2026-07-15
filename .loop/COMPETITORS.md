@@ -5068,3 +5068,17 @@ Extreme saturation confirmed — pass #112. 30+ candidates checked; 7 confirmed 
 - Israel Hostels / backpacking (SHIPPED iter317 backpacking-israel)
 - Castel Hill / Radar Hill 1948 battle (dark-tourism hub covers; BACKLOG L764 area)
 - Cable car Ein Gedi / Masada (covered in respective SHIPPED guides)
+
+## iter555 · 2026-07-15 · Research Pass #113
+
+Competitor sources checked: biblewalks.com, hikingintheholyland.com, touristisrael.com, israel-in-photos.com, beinharimtours.com, parks.org.il (INPA official), nativa.co.il, alltrails.com, ein-hod.info, jancojanco.org (Janco-Dada Museum), keshet-cave.co.il.
+
+Key findings:
+- **Valley of Elah** (biblewalks.com, travelujah.com, hikingintheholyland.com): dedicated standalone content from 3+ competitors; we have zero. High biblical tourism appeal; Khirbet Qeiyafa excavation adds genuine scholarly depth. 5-site visit circuit possible (stream → Azekah → Sokoh → Tell es-Safi/Gath → Khirbet Qeiyafa).
+- **Keshet Cave** (keshet-cave.co.il commercial zip-line operator + hiking content): commercial zip-line park adjacent to a genuine INPA geological feature; combined adventure+nature angle; zero editorial coverage from us; beinharimtours and israel-in-photos have standalone content.
+- **Beit Alfa Mosaic Synagogue** (parks.org.il, lonelyplanet.com, biblewalks.com, touristisrael.com): we have zero standalone; uniquely two of our SHIPPED guides (beit-shean-guide, megiddo-guide) cross-link to a /beit-alfa-guide page that doesn't exist — an SEO gap + broken-promise issue.
+- **Ein Hod** (timeout.com/israel, touristisrael.com, haaretz.com/travel): we have 250-word section in hidden-gems hub; competitors have substantially longer standalone content; Janco-Dada art-history angle is internationally significant and underexploited.
+- **Kfar Kama Circassian village** (touristisrael.com, kfar-kama.co.il): genuinely unique ethnic community; no competitor has comprehensive English editorial content either — early-mover SEO opportunity.
+- **Montfort Fortress** (parks.org.il, beinharimtours.com, nativa.co.il, alltrails.com): we have 400-word hub section in western-galilee-guide; competitors have standalone guides with hiking logistics; Teutonic Knights vs Crusaders distinction is historically meaningful SEO angle (distinct search queries).
+
+Saturation confirmed: 6 net-new items from 30+ candidates at pass #113 = extreme saturation (~80% of obvious gaps now covered).

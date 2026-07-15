@@ -8649,3 +8649,18 @@ Gate: pnpm check 0 errors; build 744 pages (no change); 1054/1054 e2e pass. GREE
 Ship: committed fix b0cd60c to master, pushed to origin/master. CI in_progress at push time — consistent with prior pattern.
 Prod: CI in_progress; expect success (consistent pattern).
 Next: iter555 → RESEARCH (#113).
+
+## 2026-07-15T22:30Z · iter 555 · RESEARCH · research-555 — pass #113
+
+Mode: RESEARCH (555 % 5 == 0).
+Research: 30+ candidates checked against BACKLOG.md + DONE.md + src/content/guides/ glob. Extreme saturation at pass #113.
+New items: 6 net-new confirmed absent from all three sources:
+  (1) valley-of-elah-guide (P2, S, seo-content) — TRIPLE-ZERO; David vs. Goliath biblical site in Shephelah; Elah Stream, Azekah, Tel es-Safi/Gath, Khirbet Qeiyafa; 45 min west of Jerusalem.
+  (2) keshet-cave-guide (P2, S, seo-content) — TRIPLE-ZERO; natural limestone cave arch 48m span, Western Galilee near Nahariya/Goren Park; zip-line adventure; companion to Montfort Fortress in Nahal Kziv canyon.
+  (3) beit-alfa-guide (P2, S, seo-content) — near-triple-zero; 6th-c CE Byzantine synagogue mosaic floor (zodiac wheel + Akeidat Yitzhak + Torah Ark panels); 10km west of Beit She'an; INPA pass valid; beit-shean-guide and megiddo-guide already cross-link to /beit-alfa-guide which did not exist.
+  (4) ein-hod-guide (P2, S, seo-content+monetization) — hub mention only in hidden-gems; standalone needed; artist colony Mount Carmel; Janco-Dada Museum (Marcel Janco co-founded Dada 1916 Zurich); 90+ working studios; honest historical framing re: pre-1948 Arab village.
+  (5) kfar-kama-guide (P3, S, seo-content) — TRIPLE-ZERO; Circassian (Adyghe) village near Golani Junction; one of two in Israel; voluntary IDF service; Heritage Center + distinct cuisine + language.
+  (6) montfort-fortress-guide (P3, S, seo-content) — hub mention only in western-galilee-guide; standalone needed; Teutonic Knights archive castle 1220–1271; 5km hike from Goren Park via Nahal Kziv canyon; INPA pass valid.
+Ship: none (research mode).
+BACKLOG now ~334 items.
+Next: iter556 → BUILD (monetization).
