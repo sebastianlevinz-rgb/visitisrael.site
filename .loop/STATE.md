@@ -1,13 +1,15 @@
 # LOOP STATE
 
-- iteration: 535
-- lastMode: RESEARCH
-- lastItem: research pass #109 (nahal-alexander-guide, beit-shearim-guide, best-hotels-sea-of-galilee, best-hotels-negev, agamon-hahula-guide, eilat-food-guide) — 6 net-new items added
-- lastResult: RESEARCH — 6 net-new items added to BACKLOG; extreme saturation pass #109 confirmed; BACKLOG now ~309 items
-- nextRotationCategory: 536%5==1 → BUILD (monetization). 537%5==2 → BUILD (seo-content). 538%5==3 → BUILD (tools). 539%5==4 → REVIEW.
+- iteration: 536
+- lastMode: BUILD (monetization)
+- lastItem: best-hotels-sea-of-galilee — "Best Hotels at the Sea of Galilee 2026" — full-lake accommodation guide (4 shores: Tiberias city, western kibbutz shore, northern pilgrim circuit, eastern Golan shore) — 0c2ddb8
+- lastResult: SHIPPED — pnpm check 0 errors; 734 pages (+1); 1043/1043 e2e pass; squash-merged to master; pushed
+- nextRotationCategory: 537%5==2 → BUILD (seo-content). 538%5==3 → BUILD (tools). 539%5==4 → REVIEW. 540%5==0 → RESEARCH.
 - higgsfieldSpent: 0
-- updatedAt: 2026-07-15T03:00Z
+- updatedAt: 2026-07-15T04:00Z
 - branch context: work on master; feature work on auto/<slug>
+
+Notes: iter536 BUILD (monetization) — best-hotels-sea-of-galilee. SHIPPED 0c2ddb8. pnpm check 0 errors; 734 pages (+1); 1043/1043 e2e pass. "Best Hotels at the Sea of Galilee 2026: Where to Stay on the Kinneret" standalone at /best-hotels-sea-of-galilee: full four-shore coverage distinguishing this from the existing Tiberias-city-only best-hotels-tiberias guide. Tiberias city zone (cross-links to best-hotels-tiberias for Scots Hotel, U Boutique Kinneret detail); western/northwestern kibbutz shore (Nof Ginosar Kibbutz Hotel — private lake beach, Ancient Boat Museum, 12km from Capernaum; best base for northern pilgrim circuit); Migdal/Magdala zone (proximity to Duc In Altum archaeological church, Magdala Center, 4km from Ginosar); northern shore pilgrim houses (Domus Galilaeae near Mount of Beatitudes, Capernaum-area religious facilities); eastern shore Ein Gev (ferry crossing, Golan panoramas, genuine seclusion, kibbutz resort with private beach); southern shore Kibbutz Kinneret (1909 founding kvutza, historic cemetery). Decision matrix table (pilgrim group/family/romance/budget axis × shore zones). Booking patterns: Easter/Passover peak + Shabbat dinner logistics note. Seasonal guide. 7 FAQs: best area, costs (₪150–₪2,200+ tiers), Nof Ginosar for pilgrim sites, car requirement, Magdala Hotel, Ein Gev suitability, this guide vs Tiberias guide distinction. 3 CTAs: Booking.com "Sea of Galilee", GYG Tiberias boat tour query, DiscoverCars Tiberias (car essential for lake circuit). Cross-links: /best-hotels-tiberias, /tiberias-guide, /sea-of-galilee-guide, /galilee-christian-sites-circuit, /sea-of-galilee-boat-tour, /galilee-tours-compared, /car-rental-israel, /israel-distance-calculator, /israel-accommodation-guide. Back-links: sea-of-galilee-guide.md (Overnight section), israel-accommodation-guide.md (city-specific picks sentence), Footer.astro Destinations +1. Smoke test +1. SEO: "best hotels Sea of Galilee Israel", "where to stay Sea of Galilee", "Sea of Galilee accommodation guide 2026", "Kinneret hotel guide Israel", "kibbutz hotel Sea of Galilee".
 
 Notes: iter535 RESEARCH — research pass #109. 6 net-new items added: nahal-alexander-guide (P2/S/seo-content — INPA Nile soft-shelled turtle park near Netanya, Turtle Bridge family riverside trail), beit-shearim-guide (P2/S/seo-content+monetization — UNESCO 2015 Jewish catacombs 20km east of Haifa, DISTINCT from Beit She'an Roman city L355), best-hotels-sea-of-galilee (P2/S/monetization — completes hotel guide series, Tiberias/Migdal/Kibbutz Ginosar/Ein Gev accommodation zones), best-hotels-negev (P2/S/monetization — Mitzpe Ramon accommodation guide, Beresheet Hotel + Ramon Inn + HI hostel + glamping), agamon-hahula-guide (P3/S/seo-content — Hula Lake crane safari standalone, 500M birds/year flyway, dawn wagon safari Nov–Feb, INPA pass NOT valid), eilat-food-guide (P3/S/seo-content+monetization — fills gap in food guide series, Red Sea seafood). 25+ candidates checked and rejected (already SHIPPED or in BACKLOG). BACKLOG now ~309 items.
 
