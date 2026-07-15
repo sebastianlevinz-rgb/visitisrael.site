@@ -4975,3 +4975,23 @@ Queries run: "Makhtesh HaGadol Israel guide", "HaMakhtesh HaKatan hike Negev", "
 - Negev wine route (BACKLOG — already queued)
 - Beit She'an guide (BACKLOG — already queued)
 - Hamat Gader thermal springs (BACKLOG — already queued)
+
+### 2026-07-15 · iter 535 · research pass #109 · Nahal Alexander / Beit She'arim / Galilee+Negev hotels / Agamon HaHula / Eilat food
+Sources this pass: hikingintheholyland.com, gonetanya.com, parks.org.il, kenisrael.com, beinharimtours.com, everything-everywhere.com, atlasobscura.com, touristisrael.com/best-hotels-at-the-sea-of-galilee, booking.com/region/il/negev, tripadvisor.com/Hotels-g298106-Mitzpe_Ramon, agamon-hula.co.il, dannythedigger.com, trippinginisrael.co, galilandgolan.com, hoshen-tours.com, timeout.co.il/eilat, tripadvisor.com/Restaurants-g293980-Eilat, touristisrael.com/food-in-eilat.
+
+- `hikingintheholyland.com` + `gonetanya.com` have solid Nahal Alexander coverage (river walk, Turtle Bridge, Nile soft-shell turtles) with practical logistics; visitisrael.site has zero coverage of this INPA coastal-plain park
+- `kenisrael.com` + `everything-everywhere.com` have Beit She'arim UNESCO catacombs content — strong for "Bet Shearim" / "jewish catacombs Israel" SERP; we have no standalone guide (distinct from Beit She'an Roman city which IS queued)
+- `touristisrael.com/best-hotels-at-the-sea-of-galilee` is the main competitor for "Sea of Galilee accommodation" — we have hotel guides for Jerusalem/TLV/Haifa/Tiberias/Eilat/Dead Sea/Jaffa but NO dedicated Sea of Galilee hotels overview covering Migdal, Kibbutz Ginosar, Ein Gev as distinct zones from Tiberias city
+- `booking.com/region/il/negev` search volume confirms "best hotels Mitzpe Ramon" and "Negev accommodation" are unserved by editorial content on our site despite 14+ Negev guides in our content
+- `agamon-hula.co.il` owns the crane-safari booking funnel; `dannythedigger.com` + `galilandgolan.com` have the best English-language narrative on the Hula Valley crane migration; our birdwatching-in-israel.md has only a brief paragraph — no standalone guide
+- `timeout.co.il/eilat` + `touristisrael.com/food-in-eilat` cover Eilat dining well — gap confirmed: we have 14+ Eilat guides but zero food guide; "Eilat restaurants" and "Eilat food guide" SERPs are open
+- `atlasobscura.com` Beit She'arim listing is consistently top-5 for "hidden gems near Haifa Israel" and "unusual Israel attractions" — UNESCO status makes this a high-authority gap
+
+#### Confirmed not gaps this pass
+- Beit She'an (BACKLOG L355 — Roman city/amphitheatre; distinct from Beit She'arim UNESCO catacombs)
+- Jesus Trail (BACKLOG L417 — already queued)
+- Mount Tabor (BACKLOG L484 — already queued)
+- Mount Arbel (BACKLOG L884 — already queued)
+- Tel Dan (BACKLOG L728 — already queued)
+- Banias Nature Reserve (BACKLOG L827 — already queued)
+- Nahal Alexander (newly added this pass as /nahal-alexander-guide)

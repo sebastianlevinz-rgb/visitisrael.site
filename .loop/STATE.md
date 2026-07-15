@@ -1,13 +1,17 @@
 # LOOP STATE
 
-- iteration: 534
-- lastMode: REVIEW
-- lastItem: audit iters 531-533 (valley-of-tears-golan, palmahim-beach-guide, negev-makhtesh-guide) — CLEAN
-- lastResult: REVIEW CLEAN — no fixes needed; all cross-links, images, JSON-LD, footer wiring, smoke tests verified
-- nextRotationCategory: 535%5==0 → RESEARCH. 536%5==1 → BUILD (monetization). 537%5==2 → BUILD (seo-content). 538%5==3 → BUILD (tools).
+- iteration: 535
+- lastMode: RESEARCH
+- lastItem: research pass #109 (nahal-alexander-guide, beit-shearim-guide, best-hotels-sea-of-galilee, best-hotels-negev, agamon-hahula-guide, eilat-food-guide) — 6 net-new items added
+- lastResult: RESEARCH — 6 net-new items added to BACKLOG; extreme saturation pass #109 confirmed; BACKLOG now ~309 items
+- nextRotationCategory: 536%5==1 → BUILD (monetization). 537%5==2 → BUILD (seo-content). 538%5==3 → BUILD (tools). 539%5==4 → REVIEW.
 - higgsfieldSpent: 0
-- updatedAt: 2026-07-15T02:00Z
+- updatedAt: 2026-07-15T03:00Z
 - branch context: work on master; feature work on auto/<slug>
+
+Notes: iter535 RESEARCH — research pass #109. 6 net-new items added: nahal-alexander-guide (P2/S/seo-content — INPA Nile soft-shelled turtle park near Netanya, Turtle Bridge family riverside trail), beit-shearim-guide (P2/S/seo-content+monetization — UNESCO 2015 Jewish catacombs 20km east of Haifa, DISTINCT from Beit She'an Roman city L355), best-hotels-sea-of-galilee (P2/S/monetization — completes hotel guide series, Tiberias/Migdal/Kibbutz Ginosar/Ein Gev accommodation zones), best-hotels-negev (P2/S/monetization — Mitzpe Ramon accommodation guide, Beresheet Hotel + Ramon Inn + HI hostel + glamping), agamon-hahula-guide (P3/S/seo-content — Hula Lake crane safari standalone, 500M birds/year flyway, dawn wagon safari Nov–Feb, INPA pass NOT valid), eilat-food-guide (P3/S/seo-content+monetization — fills gap in food guide series, Red Sea seafood). 25+ candidates checked and rejected (already SHIPPED or in BACKLOG). BACKLOG now ~309 items.
+
+Notes: iter534 REVIEW — audit iters 531-533 (valley-of-tears-golan, palmahim-beach-guide, negev-makhtesh-guide) — CLEAN
 
 Notes: iter533 BUILD (seo-content; tools/technical fall-through — all tools SHIPPED) — negev-makhtesh-guide. SHIPPED 5b9147b. pnpm check 0 errors; 733 pages (+1); 1042/1042 e2e pass. "Makhtesh HaGadol & HaKatan: The Two Other Negev Craters" standalone at /negev-makhtesh-guide: covers Israel's two lesser-known erosion craters — Makhtesh HaGadol (14×6km, near Yeruham; multi-coloured sandstone sands, ammonite/belemnite fossils, Nahal Tzafit canyon descent trail, free INPA entry) and Makhtesh HaKatan (5×7km oval, near Dimona; most symmetrical walls of any makhtesh, very low visitor numbers, free entry). Both car-only (~1h from Beer Sheva; ~1h45min from TLV). Full geological explainer (makhtesh = erosion cirque, NOT volcanic or meteor; unique to Negev+Sinai). Three-crater comparison table (Ramon vs HaGadol vs HaKatan). Seasonal guide. Combining both craters itinerary table. Getting there logistics. What to bring checklist. 7 FAQs: crater differences, geology, driving directions, combining both, season, hiking trails, INPA pass. 3 CTAs: DiscoverCars (car essential), GYG Negev day tours, Booking.com Mitzpe Ramon hotels. Cross-links: mitzpe-ramon-guide.md (paragraph added referencing HaGadol + HaKatan), Footer Destinations +1. Smoke test +1. CI in_progress at push time. SEO: "Makhtesh HaGadol Israel guide", "HaMakhtesh HaKatan hike", "Big Crater Negev Yeruham", "Small Crater Negev Israel", "Negev craters beyond Ramon".
 
@@ -31,4 +35,4 @@ Notes: iter524 REVIEW — audit iters 521-523 (rosh-pina, gonen, first-station);
 
 Cron b7325b16 hourly @ :17. Loop history: 19 tools + sitemap-lastmod + link-checker(+depth) + i18n
 Phase0/1a/1b/1c/2 Batches1-18(COMPLETE) + 43 review passes + 3 technical (event-schema + meta-trim + locale-links) + 64 EN guides + 7 tools-monetization + 2 comparisons;
-research iters 5/10/20/30/35/40/45/50/55/60/65/70/75/80/85/90/95/100/105/110/115/120/125/130/135/140/145/150/155/160/165/170/175/180/185/190/195/200/205/210/215/220/225/230/235/240/245/250/255/260/265/270/275/280/285/290/295/300/305/310/315/320/325/330/335/340/345/350/355/360/365/370/375/380/385/390/395/400/405/410/420/425/430/435/440/445/450/455/460/465/470/480/485/490/495/500/505/510/515/520/525.
+research iters 5/10/20/30/35/40/45/50/55/60/65/70/75/80/85/90/95/100/105/110/115/120/125/130/135/140/145/150/155/160/165/170/175/180/185/190/195/200/205/210/215/220/225/230/235/240/245/250/255/260/265/270/275/280/285/290/295/300/305/310/315/320/325/330/335/340/345/350/355/360/365/370/375/380/385/390/395/400/405/410/420/425/430/435/440/445/450/455/460/465/470/480/485/490/495/500/505/510/515/520/525/535.

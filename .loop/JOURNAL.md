@@ -8396,3 +8396,18 @@ Checks performed: (1) internal links — all cross-links resolve to real pages (
 Result: CLEAN — no fixes needed.
 Gate: not run (REVIEW mode, no code changed).
 Next: iter 535 → RESEARCH (535%5==0).
+
+## 2026-07-15T03:00Z · iter 535 · RESEARCH · research pass #109 (6 net-new items)
+Mode: RESEARCH (535%5==0).
+Sources: hikingintheholyland.com, gonetanya.com, parks.org.il, kenisrael.com, beinharimtours.com, everything-everywhere.com, atlasobscura.com, touristisrael.com, secrettelaviv.com, booking.com/region/il/negev, tripadvisor.com/Hotels-g298106-Mitzpe_Ramon, agamon-hula.co.il, dannythedigger.com, trippinginisrael.co, galilandgolan.com, hoshen-tours.com, timeout.co.il/eilat, tripadvisor.com/Restaurants-g293980-Eilat.
+Saturation: pass #109 — extreme saturation confirmed (300+ backlog items, 237+ guide files). 25+ candidates checked and rejected (already SHIPPED or in BACKLOG); 6 genuinely new items confirmed absent from BACKLOG.md + DONE.md + src/content/guides/.
+6 items added to BACKLOG:
+  1. /nahal-alexander-guide [P2/S/seo-content] — INPA Nile soft-shelled turtle park near Netanya, Turtle Bridge, family riverside trail, ~40min from TLV
+  2. /beit-shearim-guide [P2/S/seo-content+monetization] — UNESCO 2015, 33 rock-cut Jewish catacombs 20km east of Haifa (Kiryat Tivon); DISTINCT from Beit She'an Roman city (BACKLOG L355)
+  3. /best-hotels-sea-of-galilee [P2/S/monetization] — completes hotel guide series; Tiberias lakefront, Migdal/Magdala, Kibbutz Ginosar, Ein Gev zones
+  4. /best-hotels-negev [P2/S/monetization] — Mitzpe Ramon accommodation guide; Beresheet Hotel flagship, Ramon Inn, HI hostel, glamping operators
+  5. /agamon-hahula-guide [P3/S/seo-content] — Hula Lake crane safari standalone; 500M birds/year flyway, dawn tractor wagon safari Nov–Feb, 30,000–50,000 cranes; INPA pass NOT valid
+  6. /eilat-food-guide [P3/S/seo-content+monetization] — fills gap in food guide series; Red Sea seafood, kosher/non-kosher mix, North Beach promenade vs Shikun local
+Gate: no code changed (RESEARCH mode).
+Result: BACKLOG now ~309 items.
+Next: iter 536 → BUILD (monetization) (536%5==1).
