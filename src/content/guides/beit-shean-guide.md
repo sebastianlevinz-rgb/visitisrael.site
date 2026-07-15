@@ -1,6 +1,6 @@
 ---
 title: 'Beit She''an: Best-Preserved Roman Ruins in Israel (Visitor Guide)'
-description: 'Beit She''an visitor guide: explore Israel''s finest Roman theater, the colonnaded cardo and the Scythopolis tel. Practical info, hours, INPA pass tips and Sachne swimming.'
+description: 'Beit She''an visitor guide: Israel''s finest Roman theater, colonnaded cardo and Scythopolis tel. Hours, INPA pass tips, Sachne swimming combo.'
 heroImage: /images/regions/galilee/hero.jpg
 category: History
 updatedAt: 2026-07-15

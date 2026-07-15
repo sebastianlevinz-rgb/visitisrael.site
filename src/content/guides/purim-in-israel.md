@@ -1,6 +1,6 @@
 ---
 title: "Purim in Israel 2027: Tel Aviv Street Party & Jerusalem Guide"
-description: "Experience Purim in Israel 2027 (March 22–23). Tel Aviv's Dizengoff Square costume party, Jerusalem's Adloyada parade, megillah readings, and practical tips for visitors."
+description: "Experience Purim in Israel 2027 (March 22–23). Dizengoff Square costume party, Jerusalem Adloyada parade, megillah readings, and practical tips for visitors."
 heroImage: /images/regions/tel-aviv/hero.jpg
 category: Planning
 updatedAt: 2026-07-15
