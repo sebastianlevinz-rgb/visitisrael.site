@@ -49,7 +49,7 @@ Give Jerusalem at least **three to four days**. Even a focused visit barely scra
 
 The **[Western Wall (Kotel)](/jerusalem/western-wall)** — the last remaining external structure of the Second Temple — is open 24 hours a day, free of charge. The plaza is divided into separate men's and women's sections. Friday-evening (Kabbalat Shabbat) prayers bring the wall alive with song and hundreds of worshippers; the experience is open to visitors of all faiths. The adjacent **Western Wall Tunnels** (ticketed, book ahead) run along the full length of the buried Wall and reveal First and Second Temple-period stonework at close range.
 
-The **[Jewish Quarter](/jerusalem/old-city)** of the Old City was rebuilt almost entirely after 1967 and mixes ancient excavations with the everyday life of a functioning neighbourhood. The **Cardo** (the Byzantine main street), the **Hurva Synagogue** (rebuilt in 2010), the **Burnt House Museum** and the excavated Herodian Quarter all sit within short walking distance of the Wall. Our [Old City guide](/jerusalem/old-city) maps the routes between all four quarters.
+The **[Jewish Quarter](/jerusalem/old-city)** of the Old City was rebuilt almost entirely after 1967 and mixes ancient excavations with the everyday life of a functioning neighbourhood. The **Cardo** (the Byzantine main street), the **Hurva Synagogue** (rebuilt in 2010), the **Burnt House Museum** and the excavated **Wohl Archaeological Museum** (six Herodian-era mansions preserved underground) all sit within short walking distance of the Wall. Our dedicated [Jewish Quarter Jerusalem guide](/jewish-quarter-jerusalem-guide) covers all the archaeological sites with entry fees, hours and a practical route.
 
 ### Yad Vashem
 

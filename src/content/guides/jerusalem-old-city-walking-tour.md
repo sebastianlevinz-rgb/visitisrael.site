@@ -93,6 +93,8 @@ Continue east from the Armenian Quarter into the **Jewish Quarter**, reconstruct
 
 **Broad Wall:** A short walk east brings you to the **Broad Wall** — a section of Iron Age city wall from the reign of King Hezekiah (8th century BCE), preserved in an open-air section of the Jewish Quarter archaeological park. At 7 metres wide and several metres high, it is the most substantial visible remains of pre-Babylonian Jerusalem in the city.
 
+For a deeper visit to the Jewish Quarter's archaeological sites — the Wohl Museum mansions, the Burnt House, the Davidson Center southern-wall circuit and the Four Sephardic Synagogues — see the dedicated [Jewish Quarter Jerusalem guide](/jewish-quarter-jerusalem-guide).
+
 ---
 
 ### Step 4 — Western Wall Plaza

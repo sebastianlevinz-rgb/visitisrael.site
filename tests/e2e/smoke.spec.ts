@@ -580,6 +580,7 @@ const ROUTES = [
   '/negev-makhtesh-guide',
   '/nahal-alexander-guide',
   '/beit-shearim-guide',
+  '/jewish-quarter-jerusalem-guide',
 ];
 
 for (const route of ROUTES) {
