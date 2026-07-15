@@ -1,13 +1,15 @@
 # LOOP STATE
 
-- iteration: 551
-- lastMode: BUILD (monetization)
-- lastItem: judean-hills-wine-trail — new /judean-hills-wine-trail guide (P2/M)
-- lastResult: SHIPPED 968f77c. pnpm check 0 errors; 742 pages (+1); 1052/1052 e2e pass. CI in_progress at push time.
-- nextRotationCategory: 552%5==2 → BUILD (seo-content). 553%5==3 → BUILD (tools fall-through → seo-content likely). 554%5==4 → REVIEW. 555%5==0 → RESEARCH.
+- iteration: 552
+- lastMode: BUILD (seo-content)
+- lastItem: israel-rainy-day-activities — new /israel-rainy-day-activities guide (P3/S)
+- lastResult: SHIPPED ba7b967. pnpm check 0 errors; 743 pages (+1); 1053/1053 e2e pass. CI in_progress at push time.
+- nextRotationCategory: 553%5==3 → BUILD (tools fall-through → seo-content likely). 554%5==4 → REVIEW. 555%5==0 → RESEARCH. 556%5==1 → BUILD (monetization).
 - higgsfieldSpent: 0
-- updatedAt: 2026-07-15T17:50Z
+- updatedAt: 2026-07-15T18:55Z
 - branch context: work on master; feature work on auto/<slug>
+
+Notes: iter552 BUILD (seo-content) — israel-rainy-day-activities. SHIPPED ba7b967. pnpm check 0 errors; 743 pages (+1 from 742); 1053/1053 e2e pass. "What to Do in Israel on a Rainy Day: Indoor Activities Guide" standalone at /israel-rainy-day-activities. Key content: Jerusalem (Israel Museum breakdown by wing, Yad Vashem, Tower of David Night Spectacular, Western Wall Tunnel Tour, Jerusalem Biblical Zoo); Tel Aviv (Tel Aviv Museum of Art, ANU Museum, Sarona Market, Ben-Gurion House, Design Museum Holon); Haifa (MadaTech, Tikotin Museum); Active indoor (cooking classes, winery barrel-room tastings, Dead Sea spa days); rainy-season table by region; practical planning tips (booking, what to pack). 3 CTAs: GYG cooking class, GYG Israel Museum tour, Booking Jerusalem hotels. Footer Essentials +1. Cross-link added to best-time-to-visit-israel winter section. SEO targets: "Israel rainy day activities", "what to do in Israel when it rains", "indoor activities Jerusalem Tel Aviv". CI in_progress at push time — consistent with prior pattern.
 
 Notes: iter551 BUILD (monetization) — judean-hills-wine-trail. SHIPPED 968f77c. pnpm check 0 errors; 742 pages (+1 from 741); 1052/1052 e2e pass. "Judean Hills Wine Trail: Winery Day Trip from Jerusalem" standalone at /judean-hills-wine-trail. Key content: why Judean Hills wine country (altitude 400–900m; limestone-clay soils; continental-Mediterranean climate since 1990s); top 5 wineries (Tzora biodynamic at Shoresh; Flam family winery near Beit Shemesh; Domaine du Castel Ramat Raziel; Nevo boutique; Psagot with political context note); self-drive day-trip route (Tzora → Flam → Ein Kerem lunch, ~90–110km total); self-drive vs guided comparison table; pairing with other Judean Hills sights (Ein Kerem, Beit Guvrin, Nahal Sorek, Latrun). Honesty: appointment-only essential; Gush Etzion political context framed factually; kosher status caveat; tasting prices ranges only; Shabbat closure warning. 3 affiliate CTAs: GYG wine tours + DiscoverCars (car essential) + Booking.com Jerusalem. Back-links: israel-wine-wineries.md (Judean Hills section + dedicated guide link), day-trips-from-jerusalem.md (new wine trail bullet). Footer Food section +1. Smoke test +1. sinai-from-eilat BACKLOG item confirmed largely covered by israel-egypt-guide.md (iter~400s SHIPPED) — will mark stale next iteration. SEO targets: "Judean Hills wine trail guide", "Jerusalem winery day trip", "Israel wine tasting Jerusalem", "Judean Hills winery tour 2026".
 

@@ -8613,3 +8613,18 @@ Gate: pnpm check 0 errors; pnpm build 742 pages (+1); pnpm test:e2e 1052/1052 pa
 Ship: squash-merged to master SHA 968f77c, pushed to origin/master. CI in_progress at push time (both Lighthouse + CI workflows triggered on 968f77c). Branch auto/judean-hills-wine-trail deleted.
 SEO targets: "Judean Hills wine trail guide", "Jerusalem winery day trip", "Israel wine tasting Jerusalem", "Judean Hills winery tour 2026".
 Next: iter552 → BUILD (seo-content).
+
+## 2026-07-15T18:55Z · iter 552 · BUILD (seo-content) · israel-rainy-day-activities
+What: New /israel-rainy-day-activities guide — "What to Do in Israel on a Rainy Day: Indoor Activities Guide". Covers rainy-season planning (Nov–Mar) with city-by-city indoor options:
+  Jerusalem: Israel Museum (wing-by-wing breakdown), Yad Vashem (free, 3-4h, less crowded on rainy weekdays), Tower of David Night Spectacular, Western Wall Tunnel Tour, Jerusalem Biblical Zoo.
+  Tel Aviv: Tel Aviv Museum of Art, ANU Museum of the Jewish People, Sarona Market, Ben-Gurion House (free), Design Museum Holon.
+  Haifa: MadaTech science museum, Tikotin Museum of Japanese Art.
+  Active indoor: Israeli cooking classes (year-round), winery barrel-room tastings (Judean Hills), Dead Sea spa days (warm water year-round).
+  Practical planning: rainy-season table by region, booking-ahead advice, what to pack.
+  7 FAQs; 3 affiliate CTAs (GYG cooking class + GYG Israel Museum tour + Booking Jerusalem hotels).
+  Footer Essentials +1. Cross-link added in best-time-to-visit-israel.md winter section.
+  iter551 CI (968f77c) confirmed success from completed workflow runs — consistent pattern.
+Gate: pnpm check 0 errors; build 743 pages (+1 from 742); 1053/1053 e2e pass. GREEN.
+Ship: squash-merged to master SHA ba7b967, pushed to origin/master. CI in_progress at push time. Branch auto/israel-rainy-day-activities deleted.
+Prod: CI in_progress for ba7b967 — consistent with prior iterations; expect success.
+Next: iter553 → BUILD (tools fall-through → seo-content likely; 553%5==3).
