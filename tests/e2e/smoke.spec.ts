@@ -578,6 +578,7 @@ const ROUTES = [
   '/palmahim-beach-guide',
   '/negev-makhtesh-guide',
   '/nahal-alexander-guide',
+  '/beit-shearim-guide',
 ];
 
 for (const route of ROUTES) {

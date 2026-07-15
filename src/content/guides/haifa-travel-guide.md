@@ -128,6 +128,8 @@ Water quality on Haifa beaches varies seasonally — check the current status at
 
 **[Carmel Druze Villages](/druze-villages-carmel) (40 min by car):** Daliyat el-Carmel and Isfiya on the Carmel mountain ridge — Druze market street, pita-and-cheese street food fresh off the saj, and the El-Muhraka Carmelite Monastery with a panoramic Jezreel Valley view. Saturday is the busiest market day. No direct public bus; car or organised tour required.
 
+**[Beit She'arim Necropolis](/beit-shearim-guide) (30 min east by car):** A UNESCO World Heritage Site (2015) comprising 33 rock-cut Jewish catacombs from the 2nd–4th century CE, including ornate sarcophagi, menorah carvings and multilingual inscriptions. The site served as the seat of the Sanhedrin under Rabbi Judah ha-Nasi and as the premier Jewish burial ground of the Roman Empire. Rarely crowded; covered by the Israel National Parks Pass.
+
 **Zichron Yaakov (30 min south by car):** A Rothschild-era winery village with vine-covered stone streets — the birthplace of Israeli wine tourism. Carmel Winery is the main address.
 
 ---

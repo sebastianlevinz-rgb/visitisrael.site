@@ -103,7 +103,7 @@ Safed is one of the Four Holy Cities of Judaism, alongside Jerusalem, Hebron and
 
 ### The Galilee and ancient Jewish communities
 
-The [Galilee](/galilee) shores of the Sea of Galilee were the heartland of Jewish life in the early Roman period. **Tiberias** (Teveria), another of the Four Holy Cities of Judaism, holds the tombs of Maimonides and Rabbi Akiva. **Beit She'arim**, west of Haifa, is a UNESCO-listed ancient Jewish necropolis with elaborate catacombs and the tomb of Rabbi Judah haNasi. [Capernaum](/galilee/capernaum) preserves the remains of one of the oldest synagogues ever excavated in Israel (4th century CE, built over an even earlier first-century structure). A Galilee day from Jerusalem or Tel Aviv works well as part of a longer itinerary — see our [Nazareth & Galilee day trip](/nazareth-sea-of-galilee-day-trip).
+The [Galilee](/galilee) shores of the Sea of Galilee were the heartland of Jewish life in the early Roman period. **Tiberias** (Teveria), another of the Four Holy Cities of Judaism, holds the tombs of Maimonides and Rabbi Akiva. **[Beit She'arim](/beit-shearim-guide)**, west of Haifa, is a UNESCO World Heritage Site (inscribed 2015): 33 rock-cut catacombs with thousands of sarcophagi and the tomb of Rabbi Judah haNasi — the premier Jewish burial ground of the Roman Empire. [Capernaum](/galilee/capernaum) preserves the remains of one of the oldest synagogues ever excavated in Israel (4th century CE, built over an even earlier first-century structure). A Galilee day from Jerusalem or Tel Aviv works well as part of a longer itinerary — see our [Nazareth & Galilee day trip](/nazareth-sea-of-galilee-day-trip).
 
 ---
 
