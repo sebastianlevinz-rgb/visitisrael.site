@@ -8593,3 +8593,14 @@ Checks:
 
 Gate: pnpm check 0 errors; 741 pages (no change); 1051/1051 e2e pass.
 Ship: 620dc96. Next iteration: 550 → RESEARCH.
+
+---
+2026-07-15 · iter 550 · RESEARCH · research pass #112
+
+Scanned: palmach.org.il, touristisrael.com, coralworldunderwaterobservatory.com, gvahatacharad.co.il (Ammunition Hill), parks.org.il (Hazor/Iyon/Yehiam), biblewalks.com, travelujah.com, wonderisrael.com, tripadvisor.com, lonelyplanet.com, beinharimtours.com, hikingintheholyland.com, nativa.co.il, alltrails.com. 30+ candidates checked; extreme saturation at pass #112.
+
+7 net-new items confirmed (triple-zero: absent from BACKLOG, DONE.md, and guides/):
+atlit-detainee-camp-guide (P2/S), eilat-underwater-observatory-guide (P3/S), ammunition-hill-jerusalem (P2/S), tel-hazor-guide (P3/S), christian-pilgrim-guesthouses-israel (P3/S), nahal-iyon-waterfall-guide (P3/S), yehiam-fortress-guide (P3/S).
+
+Appended all 7 to BACKLOG.md via Python3 (Unicode-safe). BACKLOG now ~335 ready items.
+No code shipped (RESEARCH mode). Next: iter551 → BUILD (monetization).

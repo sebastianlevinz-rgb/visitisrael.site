@@ -5036,3 +5036,35 @@ Extreme saturation confirmed — pass #111 of the loop. Research agent found 10 
 - Tel Dan Nature Reserve (BACKLOG L728)
 - Shavuot in Israel (BACKLOG present)
 - Israel hostel guide (covered by backpacking-israel.md SHIPPED iter317)
+
+### 2026-07-15 · iter 550 · Research pass #112 — heritage sites + northern trails + pilgrim accommodation
+
+Scanned: palmach.org.il/atlit, touristisrael.com (Atlit + Eilat + Jerusalem battle sites), coralworldunderwaterobservatory.com, gvahatacharad.co.il (Ammunition Hill), parks.org.il (Hazor + Iyon + Yehiam), biblewalks.com/hazor, travelujah.com (pilgrim guesthouses), wonderisrael.com/pilgrim-houses-in-israel, tripadvisor.com (Eilat attractions, Ammunition Hill, Hazor), lonelyplanet.com (Eilat), frommers.com (Eilat), beinharimtours.com (Yehiam + Ammunition Hill + Iyon), israel-in-photos.com (Iyon + Yehiam), hikingintheholyland.com, nativa.co.il, tzurtours.com (Hazor), laidbacktrip.com (Hazor), alltrails.com.
+
+Extreme saturation confirmed — pass #112. 30+ candidates checked; 7 confirmed net-new items (triple-zero: not in BACKLOG.md, DONE.md, or guides/).
+
+7 confirmed gaps added to BACKLOG:
+- **Atlit Detainee Camp** (P2/S/seo-content): British Mandate detention camp 1938–1948 near Haifa; Night of the Raiders 1945 (Yitzhak Rabin, Palmach freed 208 detainees); preserved barracks + immigrant ship replica. Only mentioned as item 2 of 7 in israel-dark-tourism hub; warrants standalone. Sources: palmach.org.il, touristisrael.com, jewish-virtual-library.org.
+- **Eilat Underwater Observatory Marine Park** (P3/S/seo-content+monetization): Coral World — 100m walkway over live Red Sea reef + 7m descent; 4,500+ TripAdvisor reviews; #2 most-booked Eilat attraction. Only a one-liner in eilat-travel-guide.md L95; prior defer (iter355) now resolved. Sources: coralworldunderwaterobservatory.com, lonelyplanet.com, tripadvisor.com.
+- **Ammunition Hill Jerusalem** (P2/S/seo-content): 1967 Six-Day War fiercest urban battle; original trenches preserved; Paratroopers' Museum; free entry. Only inside multi-site hubs (dark-tourism + military-heritage); no standalone guide. Sources: gvahatacharad.co.il, itraveljerusalem.com, tripadvisor.com (600+ reviews).
+- **Tel Hazor National Park** (P3/S/seo-content): UNESCO Biblical Tel (2005) alongside Megiddo [SHIPPED iter543] and Beer Sheba; largest Bronze/Iron Age tel in Israel; Canaanite Stele Temple + Solomonic Gate + Ahab water tunnel; zero coverage anywhere on site. Sources: parks.org.il, biblewalks.com/hazor, tzurtours.com.
+- **Christian Pilgrim Guesthouses Israel** (P3/S/seo-content+monetization): 30+ church-operated guesthouses $50–95/night (not on OTAs); Austrian Hospice, Notre Dame Center, Ecce Homo, Christ Church (Jerusalem); Scots Hotel Tiberias; Casa Nova Nazareth. Zero standalone coverage. Sources: travelujah.com, wonderisrael.com/pilgrim-houses-in-israel.
+- **Nahal Iyon Waterfall Guide** (P3/S/seo-content): Ayun Stream near Metulla; 4 waterfalls incl. 30m Tanur (Israel's tallest seasonal); INPA pass valid; zero coverage. Distinct from water-hiking-israel (Negev/Judean). Sources: parks.org.il, hikingintheholyland.com, israel-in-photos.com.
+- **Yehiam Fortress Guide** (P3/S/seo-content): INPA park; Crusader/Teutonic Knights 12th-13th c → Ottoman expansion → 1948 Yehiam Convoy memorial; 25 min from Nahariya; zero coverage. Sources: parks.org.il, beinharimtours.com, nativa.co.il.
+
+#### Confirmed not gaps this pass
+- Masada (SHIPPED iter1)
+- Ein Gedi (SHIPPED iter3)
+- Rosh Hanikra (SHIPPED iter221)
+- Belvoir Fortress (BACKLOG L842)
+- Montfort Castle (BACKLOG L843)
+- Gan HaShlosha / Sachne (BACKLOG L691)
+- Tel Megiddo (SHIPPED iter543)
+- Beer Sheba Tel / Abraham's Well (BACKLOG L355 area)
+- ANU Museum Tel Aviv (SHIPPED iter497 tel-aviv-museums hub)
+- Ramat Gan Safari (BACKLOG L659 iter260)
+- Nahal Snir / Hatzbani (BACKLOG L1269 iter540)
+- Zippori/Sepphoris (SHIPPED iter506 zippori-sepphoris-guide)
+- Israel Hostels / backpacking (SHIPPED iter317 backpacking-israel)
+- Castel Hill / Radar Hill 1948 battle (dark-tourism hub covers; BACKLOG L764 area)
+- Cable car Ein Gedi / Masada (covered in respective SHIPPED guides)

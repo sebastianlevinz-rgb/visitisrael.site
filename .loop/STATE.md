@@ -1,13 +1,15 @@
 # LOOP STATE
 
-- iteration: 549
-- lastMode: REVIEW
-- lastItem: audit iters 546-548 (hotels-near-ben-gurion-airport, beit-shean-guide, purim-in-israel). Checks: (1) internal links — all 16 links across 3 files resolve; (2) hero images — all 3 referenced images exist; (3) H1 in body — none found in any file; (4) back-links — all confirmed present (purim: 3 guides + Footer; beit-shean: water-hiking-israel + israel-national-parks-pass; hotels-airport: ben-gurion-airport-guide + israel-accommodation-guide); (5) meta description lengths — DEFECT: purim-in-israel 170 chars, beit-shean-guide 170 chars. Fix: trimmed to 157 chars and 141 chars. Gate: pnpm check 0 errors; 741 pages; 1051/1051 e2e pass.
-- lastResult: SHIPPED 620dc96 — pnpm check 0 errors; build 741 pages; 1051/1051 e2e pass; pushed to origin/master
-- nextRotationCategory: 550%5==0 → RESEARCH. 551%5==1 → BUILD (monetization). 552%5==2 → BUILD (seo-content). 553%5==3 → BUILD (tools fall-through → seo-content likely). 554%5==4 → REVIEW.
+- iteration: 550
+- lastMode: RESEARCH
+- lastItem: research pass #112 — 7 net-new items: atlit-detainee-camp-guide, eilat-underwater-observatory-guide, ammunition-hill-jerusalem, tel-hazor-guide, christian-pilgrim-guesthouses-israel, nahal-iyon-waterfall-guide, yehiam-fortress-guide
+- lastResult: appended 7 items to BACKLOG.md; BACKLOG ~335 ready items
+- nextRotationCategory: 551%5==1 → BUILD (monetization). 552%5==2 → BUILD (seo-content). 553%5==3 → BUILD (tools fall-through → seo-content likely). 554%5==4 → REVIEW.
 - higgsfieldSpent: 0
-- updatedAt: 2026-07-15T16:05Z
+- updatedAt: 2026-07-15T16:30Z
 - branch context: work on master; feature work on auto/<slug>
+
+Notes: iter550 RESEARCH — research pass #112. 30+ candidates checked (palmach.org.il, touristisrael.com, coralworldunderwaterobservatory.com, gvahatacharad.co.il, parks.org.il, biblewalks.com, travelujah.com, wonderisrael.com, tripadvisor.com, beinharimtours.com, hikingintheholyland.com, nativa.co.il). 7 net-new items confirmed (triple-zero absent from BACKLOG, DONE.md, guides/). Extreme saturation at pass #112. Next: 551 BUILD (monetization) — likely atlit-detainee-camp-guide (P2) or eilat-underwater-observatory-guide or ammunition-hill-jerusalem (both P2).
 
 Notes: iter549 REVIEW — audit iters 546-548 (hotels-near-ben-gurion-airport, beit-shean-guide, purim-in-israel). DEFECT FOUND+FIXED: purim-in-israel description 170→157 chars; beit-shean-guide description 170→141 chars. All other checks clean (16 links, 3 images, 0 H1, back-links). SHIPPED 620dc96. Next: 550 RESEARCH.
 
@@ -55,4 +57,4 @@ Notes: iter524 REVIEW — audit iters 521-523 (rosh-pina, gonen, first-station);
 
 Cron b7325b16 hourly @ :17. Loop history: 19 tools + sitemap-lastmod + link-checker(+depth) + i18n
 Phase0/1a/1b/1c/2 Batches1-18(COMPLETE) + 43 review passes + 3 technical (event-schema + meta-trim + locale-links) + 64 EN guides + 7 tools-monetization + 2 comparisons;
-research iters 5/10/20/30/35/40/45/50/55/60/65/70/75/80/85/90/95/100/105/110/115/120/125/130/135/140/145/150/155/160/165/170/175/180/185/190/195/200/205/210/215/220/225/230/235/240/245/250/255/260/265/270/275/280/285/290/295/300/305/310/315/320/325/330/335/340/345/350/355/360/365/370/375/380/385/390/395/400/405/410/420/425/430/435/440/445/450/455/460/465/470/480/485/490/495/500/505/510/515/520/525/535/540/545.
+research iters 5/10/20/30/35/40/45/50/55/60/65/70/75/80/85/90/95/100/105/110/115/120/125/130/135/140/145/150/155/160/165/170/175/180/185/190/195/200/205/210/215/220/225/230/235/240/245/250/255/260/265/270/275/280/285/290/295/300/305/310/315/320/325/330/335/340/345/350/355/360/365/370/375/380/385/390/395/400/405/410/420/425/430/435/440/445/450/455/460/465/470/480/485/490/495/500/505/510/515/520/525/535/540/545/550.
