@@ -8422,3 +8422,14 @@ Gate: pnpm check 0 errors (114 hints); build 734 pages (+1); 1043/1043 e2e pass.
 Ship: 0c2ddb8 squash-merged to master, pushed.
 Prod: CI not yet triggered for 0c2ddb8 at push time; prior iter535 SHA 876afa1 CI=in_progress.
 Next: iter 537 → BUILD (seo-content) (537%5==2).
+
+## 2026-07-15T04:45Z · iter 537 · BUILD (seo-content) · nahal-alexander-guide
+Mode: BUILD (537%5==2 → seo-content).
+Item: [P2] (seo-content, S) Nahal Alexander (Alexander Stream) Nature Reserve guide (/nahal-alexander-guide) — [iter535 research].
+Branch: auto/nahal-alexander-guide → files committed directly to master (branch was empty; no squash needed).
+What: new /nahal-alexander-guide — "Nahal Alexander (Alexander Stream): Turtle Reserve & Riverside Trail Guide". INPA coastal park 40 km north of Tel Aviv near Netanya. Star draw: Nile soft-shelled turtles (Trionyx triunguis, up to 1.2m/50kg) basking at Turtle Bridge / Gesher HaTzabim (Ottoman-era stone bridge on Crusader foundations). 3 km flat shaded riverside trail from Turtle Bridge to Hof Bet Yanai beach — stroller-friendly, free to walk; beach car park fee separate summer weekends. Year-round turtle sightings (best early morning). Conservation context: one of two surviving Israeli populations; INPA monitoring programme; never feed/approach. Trail table: 3 routes (riverside 3km, Nahal Alexander–Netanya cycling extension 12km, short Turtle Bridge loop 1km). Seasonal table. Getting there: Highway 2 Yannai interchange west; bus line 42 Netanya–Mikhmoret for trail (not beach car park). Combining: Caesarea 20 min south (archaeological circuit), Netanya beach 15 min north, Dor HaBonim 30 min south. 7 FAQs: turtle sightings, INPA pass, getting there, best time, family suitability, turtle biology/conservation, beach swimming. 3 CTAs: DiscoverCars TLV car rental, GYG "nature day trip from Tel Aviv", Booking.com Netanya Israel. heroImage /images/regions/tel-aviv/beaches.jpg; category Nature; updatedAt 2026-07-15.
+Wiring: best-beaches-israel.md (+Hof Bet Yanai table row + new section "## Hof Bet Yanai / Nahal Alexander"), israel-national-parks-pass.md (+coastal INPA sites list entry), water-hiking-israel.md (cross-link bullet in "Combining water hikes" section), israel-with-kids.md (extended "Tel Aviv & the coast" paragraph), Footer.astro Destinations +1 (after palmahim-beach-guide), smoke.spec.ts +1.
+Gate: pnpm check 0 errors; build 735 pages (+1); 1044/1044 e2e pass (8.6 min).
+Ship: committed 7 files to master as f43b20aeae3b135505c2953766dbccb188a05d1d; pushed.
+Prod: CI run #965 in_progress at push time for SHA f43b20a.
+Next: iter 538 → BUILD (tools) (538%5==3).
