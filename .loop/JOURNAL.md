@@ -8388,3 +8388,11 @@ Gate: pnpm check 0 errors (114 hints); build 733 pages (+1); 1042/1042 e2e pass.
 Ship: 5b9147b squash-merged to master, pushed.
 Prod: CI + Lighthouse workflows in_progress at push time for 5b9147b; prior SHA e35f060 CI=success.
 Next: iter 534 → REVIEW (534%5==4).
+
+## 2026-07-15T02:00Z · iter 534 · REVIEW · audit iters 531–533
+Mode: REVIEW (534%5==4).
+Items audited: valley-of-tears-golan (iter531), palmahim-beach-guide (iter532), negev-makhtesh-guide (iter533).
+Checks performed: (1) internal links — all cross-links resolve to real pages (golan-heights-guide, is-israel-safe, israel-national-parks-pass, best-beaches-israel, south-israel-itinerary, mitzpe-ramon-guide, sde-boker-ein-avdat-guide, 3-days-in-negev, car-rental-israel — all confirmed present); (2) images — all hero/affiliate images exist on disk (golan/mount-bental.jpg, golan/nimrod-fortress.jpg, golan/druze-villages.jpg, tel-aviv/beaches.jpg, negev/desert.jpg, negev/hero.jpg, negev/mitzpe-ramon.jpg); (3) JSON-LD — no aggregateRating/ratingValue emitted; (4) unique titles (confirmed 1 occurrence each); (5) footer wiring — all three pages present in Footer.astro; (6) smoke tests — all three routes in tests/e2e/smoke.spec.ts; (7) back-links — Valley of Tears paragraph in golan-heights-guide.md; Palmahim sections in best-beaches-israel.md + israel-national-parks-pass.md; HaGadol+HaKatan paragraph in mitzpe-ramon-guide.md; (8) honesty — no exact prices (ranges/INPA website references only); category values consistent with existing guides.
+Result: CLEAN — no fixes needed.
+Gate: not run (REVIEW mode, no code changed).
+Next: iter 535 → RESEARCH (535%5==0).

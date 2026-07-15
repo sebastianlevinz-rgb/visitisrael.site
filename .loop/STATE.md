@@ -1,12 +1,12 @@
 # LOOP STATE
 
-- iteration: 533
-- lastMode: BUILD (seo-content; tools/technical fall-through — all tools/technical SHIPPED)
-- lastItem: negev-makhtesh-guide — SHIPPED 5b9147b
-- lastResult: SHIPPED — new /negev-makhtesh-guide; 733 pages (+1); 1042/1042 e2e pass
-- nextRotationCategory: 534%5==4 → REVIEW. 535%5==0 → RESEARCH. 536%5==1 → BUILD (monetization). 537%5==2 → BUILD (seo-content).
+- iteration: 534
+- lastMode: REVIEW
+- lastItem: audit iters 531-533 (valley-of-tears-golan, palmahim-beach-guide, negev-makhtesh-guide) — CLEAN
+- lastResult: REVIEW CLEAN — no fixes needed; all cross-links, images, JSON-LD, footer wiring, smoke tests verified
+- nextRotationCategory: 535%5==0 → RESEARCH. 536%5==1 → BUILD (monetization). 537%5==2 → BUILD (seo-content). 538%5==3 → BUILD (tools).
 - higgsfieldSpent: 0
-- updatedAt: 2026-07-15T01:00Z
+- updatedAt: 2026-07-15T02:00Z
 - branch context: work on master; feature work on auto/<slug>
 
 Notes: iter533 BUILD (seo-content; tools/technical fall-through — all tools SHIPPED) — negev-makhtesh-guide. SHIPPED 5b9147b. pnpm check 0 errors; 733 pages (+1); 1042/1042 e2e pass. "Makhtesh HaGadol & HaKatan: The Two Other Negev Craters" standalone at /negev-makhtesh-guide: covers Israel's two lesser-known erosion craters — Makhtesh HaGadol (14×6km, near Yeruham; multi-coloured sandstone sands, ammonite/belemnite fossils, Nahal Tzafit canyon descent trail, free INPA entry) and Makhtesh HaKatan (5×7km oval, near Dimona; most symmetrical walls of any makhtesh, very low visitor numbers, free entry). Both car-only (~1h from Beer Sheva; ~1h45min from TLV). Full geological explainer (makhtesh = erosion cirque, NOT volcanic or meteor; unique to Negev+Sinai). Three-crater comparison table (Ramon vs HaGadol vs HaKatan). Seasonal guide. Combining both craters itinerary table. Getting there logistics. What to bring checklist. 7 FAQs: crater differences, geology, driving directions, combining both, season, hiking trails, INPA pass. 3 CTAs: DiscoverCars (car essential), GYG Negev day tours, Booking.com Mitzpe Ramon hotels. Cross-links: mitzpe-ramon-guide.md (paragraph added referencing HaGadol + HaKatan), Footer Destinations +1. Smoke test +1. CI in_progress at push time. SEO: "Makhtesh HaGadol Israel guide", "HaMakhtesh HaKatan hike", "Big Crater Negev Yeruham", "Small Crater Negev Israel", "Negev craters beyond Ramon".
