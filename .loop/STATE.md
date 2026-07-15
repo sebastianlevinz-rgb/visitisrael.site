@@ -1,13 +1,15 @@
 # LOOP STATE
 
-- iteration: 538
-- lastMode: BUILD (seo-content; tools fall-through — all tools SHIPPED)
-- lastItem: beit-shearim-guide — "Beit She'arim Necropolis: UNESCO Jewish Catacombs Guide" — 33 rock-cut catacombs 20 km east of Haifa; seat of Sanhedrin under Rabbi Judah ha-Nasi; UNESCO 2015; INPA pass valid — 799c0bb
-- lastResult: SHIPPED — pnpm check 0 errors; 736 pages (+1); 1045/1045 e2e pass; committed to master; pushed 799c0bb; CI in_progress at push time
-- nextRotationCategory: 539%5==4 → REVIEW. 540%5==0 → RESEARCH. 541%5==1 → BUILD (monetization). 542%5==2 → BUILD (seo-content).
+- iteration: 539
+- lastMode: REVIEW
+- lastItem: review-desc-trim-539 — audit iters 536-538 (best-hotels-sea-of-galilee, nahal-alexander-guide, beit-shearim-guide) — meta descriptions all over 160 chars (186, 199, 194) — trimmed to ≤155 — 7fb1a01
+- lastResult: SHIPPED — pnpm check 0 errors; 736 pages; 1045/1045 e2e pass; committed 7fb1a01; CI completed success
+- nextRotationCategory: 540%5==0 → RESEARCH. 541%5==1 → BUILD (monetization). 542%5==2 → BUILD (seo-content). 543%5==3 → BUILD (tools; fall-through expected). 544%5==4 → REVIEW.
 - higgsfieldSpent: 0
-- updatedAt: 2026-07-15T05:45Z
+- updatedAt: 2026-07-15T06:50Z
 - branch context: work on master; feature work on auto/<slug>
+
+Notes: iter539 REVIEW — audit iters 536-538 (best-hotels-sea-of-galilee, nahal-alexander-guide, beit-shearim-guide). Checks: (1) internal links — all resolve (incl. /israel-distance-calculator Astro page, /caesarea region page, /zippori-sepphoris-guide, /israel-unesco-sites); (2) hero images — all 3 referenced images exist at public/images/; (3) H1 in body — none found in any file; (4) back-links — all cross-referenced pages confirmed updated in prior iteration; (5) meta description lengths — DEFECT FOUND: all 3 files over 160 chars (186, 199, 194). Fix applied: trimmed to 144/147/145 chars while preserving search intent. Branch auto/review-desc-trim-539. Gate: pnpm check 0 errors; 736 pages (no change); 1045/1045 e2e pass. Committed 7fb1a01; CI completed success. SHIPPED.
 
 Notes: iter538 BUILD (seo-content; tools fall-through — all tools SHIPPED) — beit-shearim-guide. SHIPPED 799c0bb. pnpm check 0 errors; 736 pages (+1); 1045/1045 e2e pass. "Beit She'arim Necropolis: UNESCO Jewish Catacombs Guide" standalone at /beit-shearim-guide: UNESCO World Heritage Site (2015); 33 rock-cut catacombs in Lower Galilee foothills 20km east of Haifa; seat of Sanhedrin under Rabbi Judah ha-Nasi (2nd-3rd century CE); premier Jewish burial ground of Roman Empire; ornate sarcophagi + menorah carvings + multilingual inscriptions (Greek/Aramaic/Hebrew/Palmyrene); Catacomb 20 (Hall of Sarcophagi, largest, open independently); Catacomb 14 (Menorah Cave, guided tours only, pre-book via parks.org.il); hilltop city ruins + Jezreel Valley views; INPA pass valid. 7 FAQs: what Beit She'arim is famous for, INPA pass, getting there from Haifa, Menorah Cave booking, what to see inside, visit duration, children suitability. 2 CTAs: GYG Galilee day tours, DiscoverCars Haifa (car essential). Cross-links: day-trips-from-haifa.md (+full link replacing 1-clause mention), jewish-heritage-israel.md (+linked with expanded description), israel-national-parks-pass.md (+Beit She'arim in North Israel/Galilee INPA sites list), haifa-travel-guide.md (+Beit She'arim in What to combine nearby section). Footer Destinations +1 (after nahal-alexander-guide). Smoke test +1. SEO: "Beit She'arim catacombs guide", "Bet Shearim UNESCO necropolis Israel", "Jewish catacombs Lower Galilee", "Beit She'arim national park visit", "Sanhedrin burial site Israel guide".
 

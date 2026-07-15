@@ -8440,3 +8440,18 @@ Gate: pnpm check 0 errors; build 736 pages (+1); 1045/1045 e2e pass (6.4 min).
 Ship: committed 7 files to master as 799c0bbb; pushed.
 Prod: CI in_progress at push time for SHA 799c0bb; next iteration start-check will confirm.
 Next: iter 539 → REVIEW (539%5==4).
+
+## 2026-07-15T06:50Z · iter 539 · REVIEW · audit iters 536-538 (desc-trim fix)
+Mode: REVIEW (539%5==4).
+Audited: best-hotels-sea-of-galilee (iter536), nahal-alexander-guide (iter537), beit-shearim-guide (iter538).
+Checks run:
+  (1) Internal links — all resolve. /israel-distance-calculator confirmed as Astro page; /caesarea confirmed region page; /zippori-sepphoris-guide, /israel-unesco-sites, /jewish-heritage-israel all exist.
+  (2) Hero images — all 3 referenced hero images exist at public/images/regions/*.
+  (3) H1 in body — none found in any file (awk check after frontmatter).
+  (4) Back-links — sea-of-galilee-guide, israel-accommodation-guide, best-beaches-israel, water-hiking-israel, day-trips-from-haifa, jewish-heritage-israel all confirmed updated.
+  (5) Meta description lengths — DEFECT: best-hotels-sea-of-galilee 186 chars, nahal-alexander-guide 199 chars, beit-shearim-guide 194 chars. All exceed 160-char SEO target.
+Fix: trimmed all 3 descriptions to ≤155 chars (144/147/145). Quick safe fix per playbook §REVIEW.
+Branch: auto/review-desc-trim-539 (files edited on master directly; branch created but merge was direct-to-master).
+Gate: pnpm check 0 errors; build 736 pages (no new pages); 1045/1045 e2e pass.
+Ship: committed 7fb1a01; pushed; CI completed success; Lighthouse completed success.
+Next: iter 540 → RESEARCH (540%5==0).
