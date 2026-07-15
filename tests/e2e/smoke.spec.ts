@@ -586,6 +586,7 @@ const ROUTES = [
   '/beit-shean-guide',
   '/purim-in-israel',
   '/judean-hills-wine-trail',
+  '/israel-rainy-day-activities',
 ];
 
 for (const route of ROUTES) {
