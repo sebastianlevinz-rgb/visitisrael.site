@@ -5013,3 +5013,26 @@ Sources this pass: touristisrael.com/krav-maga-israel-guide, getyourguide.com/te
 - Caesarea amphitheater concerts (caesarea-guide SHIPPED iter14; concerts angle is event-driven rather than evergreen for SSG)
 - Mount Herzl standalone guide (Zionist Heritage Trail BACKLOG L764 covers Har Herzl as site #1 with full detail — standalone would duplicate)
 - Knesset visitor guide (knesset-museum-jerusalem BACKLOG L907, iter370)
+
+### 2026-07-15 · iter 545 · Research pass #111 — urban transport + monetization + tools gaps
+
+Scanned: Jerusalem Light Rail operator citypass.co.il, touristisrael.com (transport + airport area), booking.com airport hotel results, tripadvisor.com Israel hotel filters, rakevet.co.il (Israel Railways), secrettelaviv.com live-music round-up, timeout.com/israel music section, barby.co.il, zappa.co.il, yellowsubmarine.org.il, hebcal.com/shabbat.
+
+Extreme saturation confirmed — pass #111 of the loop. Research agent found 10 candidate topics; 8 were already in the backlog (beit-shean-guide L355, gan-hashlosha L691, purim L663, hamat-gader merged→israel-thermal-springs SHIPPED, soreq-cave L836, tel-dan L728, shavuot-in-israel present, israel-hostels/backpacking SHIPPED). 6 net-new items confirmed absent from BACKLOG.md via exhaustive grep:
+
+- **Jerusalem Light Rail guide** (P2/S/seo-content): JLR Blue Line opened 2024–2025, now key tourist transport backbone. No authoritative English tourist guide; citypass.co.il is official operator. Tel Aviv guide exists; Jerusalem parallel missing.
+- **Hotels near Ben Gurion Airport** (P2/S/monetization): High-CPC keyword with no editorial page. Booking.com and HotelsCombined have landing pages; zero travel editorial guide covers this. Airport City zone (Leonardo/Carlton) is the main cluster.
+- **Israel train tourist guide** (P3/S/seo-content): rakevet.co.il launched TLV→Jerusalem 30-min express, Ben Gurion Airport direct service, Haifa→Nahariya coastal route — significant tourist utility but no standalone guide covers the intercity network for tourists.
+- **Best hotels in Netanya** (P3/S/monetization): Completes hotel guide series. Large French-speaking Jewish community makes Netanya an underserved European-traveler segment. Leonardo Club all-inclusive model is competitor-confirmed booking pattern.
+- **Israel live music venues guide** (P3/S/seo-content): Barby Club (TLV flagship rock venue), Zappa chain (jazz/world music), Yellow Submarine Jerusalem, Mann Auditorium (IPO). All confirmed active. secrettelaviv.com + timeout.com both rank for "live music Tel Aviv" but the topic is absent from visitisrael.site.
+- **Shabbat candle lighting time tool** (P3/S/tools): hebcal.com/shabbat and chabad.org/shabbat-times both provide this; no Israel travel site packages it as a visitor tool. Computationally feasible in pure vanilla JS using astronomical sunset formula (no API dependency).
+
+#### Confirmed not gaps this pass
+- Beit She'an Roman city (BACKLOG L355)
+- Gan HaShlosha / Sachne (BACKLOG L691)
+- Purim in Israel (BACKLOG ~L663 area)
+- Hamat Gader hot springs (merged into israel-thermal-springs.md SHIPPED)
+- Soreq / Avshalom Cave (BACKLOG L836)
+- Tel Dan Nature Reserve (BACKLOG L728)
+- Shavuot in Israel (BACKLOG present)
+- Israel hostel guide (covered by backpacking-israel.md SHIPPED iter317)

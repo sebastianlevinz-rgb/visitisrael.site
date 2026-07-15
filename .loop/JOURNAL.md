@@ -8506,3 +8506,18 @@ Branch: auto/review-desc-trim-544 → squash-merged to master.
 Gate: pnpm check 0 errors; build 738 pages (no new pages); 1048/1048 e2e pass.
 Ship: ee6d7d7 pushed; CI triggered.
 Next: iter 545 → RESEARCH (545%5==0).
+
+## 2026-07-15T12:30Z · iter 545 · RESEARCH · research pass #111
+Mode: RESEARCH (545%5==0).
+Scope: Competitor gaps for urban transport, monetization money pages, and tools category.
+Method: Exhaustive grep of BACKLOG.md + src/content/guides/ + DONE.md for 30+ candidate topics; research subagent cross-checked 10 topics against codebase; all 8 duplicate finds confirmed already in backlog or shipped.
+Net-new backlog items (6 of 30+ candidates confirmed absent):
+  [P2/S/seo-content] jerusalem-light-rail-guide — JLR Blue Line opened 2024-2025; parallel to tel-aviv-light-rail SHIPPED; no standalone Jerusalem LR tourist guide in backlog.
+  [P2/S/monetization] hotels-near-ben-gurion-airport — high-CPC standalone money page; ben-gurion-airport-guide covers logistics not hotels; confirmed absent from backlog.
+  [P3/S/seo-content] israel-train-guide — intercity Rakevet Israel tourist guide; not the Rav Kav card (iter373 SHIPPED) nor ben-gurion airport train (in airport guide) — covers the full intercity network.
+  [P3/S/monetization] best-hotels-netanya — completes hotel guide series; netanya-guide SHIPPED but no hotel-specific money page.
+  [P3/S/seo-content] israel-live-music-venues — Barby Club/Zappa/Yellow Submarine/Mann Auditorium; distinct from music-festivals (annual events) and nightlife (bars/clubs).
+  [P3/S/tools] shabbat-time-tool — Shabbat candle lighting/end times for 8 cities, next 4 Fridays; pure vanilla JS astronomical computation; 10th interactive tool.
+Saturation rate: 6/30+ candidates = extreme saturation confirmed (pass #111). BACKLOG now ~321 items.
+No code shipped this iteration (RESEARCH mode). .loop/ state committed.
+Next: iter 546 → BUILD (546%5==1 → monetization category).
