@@ -1,6 +1,6 @@
 ---
 title: "Atlit Detainee Camp: Holocaust Survivor Immigration History Guide"
-description: "Visit Atlit Detainee Camp near Haifa — where 16,000+ Jewish survivors were held under British Mandate rule. Replica immigrant ship, Night of the Raiders, and visitor guide."
+description: "Visit Atlit Detainee Camp near Haifa — 16,000+ Jewish survivors held under British Mandate rule. Replica immigrant ship, Night of the Raiders, visitor guide."
 heroImage: /images/regions/haifa/hero.jpg
 category: History
 updatedAt: 2026-07-15
