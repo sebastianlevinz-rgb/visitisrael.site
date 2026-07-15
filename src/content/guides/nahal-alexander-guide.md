@@ -1,6 +1,6 @@
 ---
 title: 'Nahal Alexander (Alexander Stream): Turtle Reserve Visitor Guide'
-description: 'Nahal Alexander Nature Reserve guide: giant Nile soft-shelled turtles at Turtle Bridge (Gesher HaTzabim), riverside family trail to Hof Bet Yanai beach. Getting there, INPA pass, best times to visit.'
+description: 'Nahal Alexander Nature Reserve: giant Nile soft-shelled turtles at Turtle Bridge, riverside trail to Hof Bet Yanai beach. INPA pass, getting there.'
 heroImage: /images/regions/tel-aviv/beaches.jpg
 category: Nature
 updatedAt: 2026-07-15

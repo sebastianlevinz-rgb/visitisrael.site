@@ -1,6 +1,6 @@
 ---
 title: 'Best Hotels at the Sea of Galilee 2026: Where to Stay on the Kinneret'
-description: 'Sea of Galilee hotel guide: lakeside kibbutz resorts, pilgrim houses near Capernaum, the Scots Hotel in Tiberias, and east-shore retreats in the Golan foothills. All four shores covered.'
+description: 'Sea of Galilee hotel guide: lakeside kibbutz resorts, pilgrim houses near Capernaum, the Scots Hotel in Tiberias, and east-shore Golan retreats.'
 heroImage: /images/regions/galilee/sea-of-galilee.jpg
 category: Accommodation
 updatedAt: 2026-07-15

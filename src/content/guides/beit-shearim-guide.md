@@ -1,6 +1,6 @@
 ---
 title: 'Beit She''arim Necropolis: UNESCO Jewish Catacombs Guide'
-description: 'Beit She''arim National Park visitor guide: 33 rock-cut catacombs, the Sanhedrin seat of Rabbi Judah ha-Nasi, UNESCO World Heritage Site 20 km east of Haifa. Getting there, INPA pass, best times.'
+description: 'Beit She''arim: 33 rock-cut catacombs, UNESCO World Heritage Site 2015, seat of the Sanhedrin 20 km east of Haifa. INPA pass valid. Getting there.'
 heroImage: /images/regions/haifa/hero.jpg
 category: History
 updatedAt: 2026-07-15
