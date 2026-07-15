@@ -1,6 +1,6 @@
 ---
 title: 'Best Hotels in the Negev 2026: Where to Stay at Mitzpe Ramon'
-description: 'Negev hotel guide: Beresheet Hotel on the crater rim, Selina Ramon glamping, Ramon Inn mid-range, HI hostel, and how to choose between Mitzpe Ramon and the wider Negev.'
+description: 'Negev hotel guide: Beresheet Hotel on the crater rim, Selina Ramon, Ramon Inn mid-range, HI hostel — how to choose your Mitzpe Ramon base.'
 heroImage: /images/regions/negev/mitzpe-ramon.jpg
 category: Accommodation
 updatedAt: 2026-07-15
