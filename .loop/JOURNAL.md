@@ -8491,3 +8491,18 @@ Blocker: /christian-pilgrimage link broken (slug doesn't exist) → fixed to /ch
 Gate: pnpm check 0 errors; pnpm build 738 pages (+1); pnpm test:e2e 1048/1048 pass.
 Ship: squash-merged to master SHA 1d76ce8; pushed; CI in_progress at state write.
 SEO targets: "Tel Megiddo visitor guide", "Armageddon Israel site guide", "Megiddo UNESCO Israel tour", "Ahab's water tunnel Megiddo", "Jezreel Valley day trip Israel 2026".
+
+## 2026-07-15T11:45Z · iter 544 · REVIEW · audit iters 541-543 (desc-trim fix)
+Mode: REVIEW (544%5==4).
+Audited: best-hotels-negev (iter541), jewish-quarter-jerusalem-guide (iter542), megiddo-jezreel-valley-guide (iter543).
+Checks run:
+  (1) Internal links — all 20 links across 3 files resolve (including /israel-stargazing, /glamping-israel, /western-wall-tunnels-guide, /best-hotels-jerusalem, /beit-shearim-guide, /christian-pilgrimage-holy-land).
+  (2) Hero images — all 4 referenced hero images confirmed present at public/images/regions/*.
+  (3) H1 in body — none found in any of the three files.
+  (4) Back-links — mitzpe-ramon-guide.md has /best-hotels-negev link (iter541 ✓); jewish-heritage-israel.md + jerusalem-old-city-walking-tour.md + 1-day-jerusalem-itinerary.md all have /jewish-quarter-jerusalem-guide link (iter542 ✓); israel-hidden-gems.md + israel-national-parks-pass.md both have /megiddo-jezreel-valley-guide link (iter543 ✓).
+  (5) Meta description lengths — DEFECT: best-hotels-negev.md was 168 chars (8 over 160-char limit). jewish-quarter-jerusalem-guide.md 148 chars OK. megiddo-jezreel-valley-guide.md 156 chars OK.
+Fix: trimmed best-hotels-negev description from 168 to 138 chars (removed "glamping" qualifier after Selina Ramon, removed "and how to choose between Mitzpe Ramon and the wider Negev", replaced with "— how to choose your Mitzpe Ramon base.").
+Branch: auto/review-desc-trim-544 → squash-merged to master.
+Gate: pnpm check 0 errors; build 738 pages (no new pages); 1048/1048 e2e pass.
+Ship: ee6d7d7 pushed; CI triggered.
+Next: iter 545 → RESEARCH (545%5==0).

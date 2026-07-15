@@ -1,13 +1,15 @@
 # LOOP STATE
 
-- iteration: 543
-- lastMode: BUILD (seo-content; tools fall-through)
-- lastItem: megiddo-jezreel-valley-guide — /megiddo-jezreel-valley-guide — "Tel Megiddo (Armageddon): Complete UNESCO Visitor Guide"
-- lastResult: SHIPPED — 1d76ce8 — 738 pages (+1); 1048/1048 e2e pass; pnpm check 0 errors
-- nextRotationCategory: 544%5==4 → REVIEW. 545%5==0 → RESEARCH. 546%5==1 → BUILD (monetization). 547%5==2 → BUILD (seo-content). 548%5==3 → BUILD (tools; fall-through expected).
+- iteration: 544
+- lastMode: REVIEW
+- lastItem: review-desc-trim-544 — audited iters 541-543 (best-hotels-negev, jewish-quarter-jerusalem-guide, megiddo-jezreel-valley-guide); fixed best-hotels-negev description 168→138 chars
+- lastResult: SHIPPED — ee6d7d7 — 738 pages (no change); 1048/1048 e2e pass; pnpm check 0 errors
+- nextRotationCategory: 545%5==0 → RESEARCH. 546%5==1 → BUILD (monetization). 547%5==2 → BUILD (seo-content). 548%5==3 → BUILD (tools; fall-through expected). 549%5==4 → REVIEW.
 - higgsfieldSpent: 0
-- updatedAt: 2026-07-15T11:10Z
+- updatedAt: 2026-07-15T11:45Z
 - branch context: work on master; feature work on auto/<slug>
+
+Notes: iter544 REVIEW — audit iters 541-543 (best-hotels-negev, jewish-quarter-jerusalem-guide, megiddo-jezreel-valley-guide). Checks: (1) internal links — all 20 links across 3 files resolve; (2) hero images — all 4 referenced images exist at public/images/; (3) H1 in body — none found in any file; (4) back-links — mitzpe-ramon-guide (best-hotels-negev ✓), jewish-heritage-israel + jerusalem-old-city-walking-tour + 1-day-jerusalem-itinerary (jewish-quarter ✓), israel-hidden-gems + israel-national-parks-pass (megiddo ✓); (5) meta description lengths — DEFECT: best-hotels-negev 168 chars. Fix: trimmed to 138 chars. Gate: pnpm check 0 errors; build 738 pages (no change); 1048/1048 e2e pass. Ship: ee6d7d7.
 
 Notes: iter543 BUILD (seo-content; tools fall-through — all tools SHIPPED) — megiddo-jezreel-valley-guide. SHIPPED 1d76ce8. pnpm check 0 errors; 738 pages (+1); 1048/1048 e2e pass. "Tel Megiddo (Armageddon): Complete UNESCO Visitor Guide" standalone at /megiddo-jezreel-valley-guide: historical overview (Armageddon etymology + Har Megiddo, 26 occupation layers, 34+ recorded battles incl. Thutmose III 1457 BCE earliest documented battle); 5 on-site highlights (Wohl Museum-style museum + orientation model; Solomonic Gate + Finkelstein/Mazar controversy framed honestly; Stables/Storehouses debate; Ahab's Water Tunnel — 66 steps + 50m walk-through; Bronze Age temples 3000–1200 BCE; Jezreel Valley panorama); Jezreel Valley circuit comparison table (Beit Alfa Byzantine mosaic, Gan HaShlosha warm pools, Mount Tabor, Beit She'arim, Nazareth); practical table (hours/fees/INPA/water tunnel/accessibility); getting there. 3 CTAs: GYG Megiddo guided tour, Viator Biblical Tels UNESCO day tour, Booking.com Nazareth hotels. 7 FAQs. Back-links: israel-hidden-gems.md (+guide link in Megiddo section), israel-national-parks-pass.md (Megiddo entry linked). Footer Destinations +1; smoke test +1. BLOCKER FOUND+FIXED: guide linked /christian-pilgrimage (slug doesn't exist) — corrected to /christian-pilgrimage-holy-land before gate pass. SEO: "Tel Megiddo visitor guide", "Armageddon Israel site guide", "Megiddo UNESCO Israel tour", "Ahab's water tunnel Megiddo", "Jezreel Valley day trip Israel 2026".
 
