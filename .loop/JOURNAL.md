@@ -8560,3 +8560,17 @@ Gate: pnpm check 0 errors; pnpm build 740 pages (+1 from 739); pnpm test:e2e 105
 Ship: squash-merged to master SHA f7a7e50, pushed to origin/master. Feature branch deleted.
 SEO targets: "Beit She'an Roman ruins visitor guide Israel", "Beit Shean National Park guide 2026", "best Roman ruins Israel", "Scythopolis Israel visit", "Beit She'an theater visit".
 Next: iter 548 → BUILD (548%5==3 → tools category). Top candidate: review existing tools for gaps or add new tool.
+
+## 2026-07-15 · iter 548 · BUILD (monetization; tools fall-through) · purim-in-israel
+Tools category exhausted: all 11 tools SHIPPED; shabbat-time-tool (iter545 research tag) confirmed stale/duplicate of israel-shabbat-calendar.astro (iter78 32c20d1) and israel-shabbat-countdown.astro (iter138 0bc6005) — both cover candlelighting times + Havdalah for 5+ cities with identical astronomical algorithm. Fell through to monetization category.
+Item selected: purim-in-israel — P2/S monetization; Tourist Israel has 3 dedicated Purim pages; no standalone guide existed; high commercial intent (hotel + tour bookings, club tickets).
+Branch: auto/purim-in-israel (changes carried to master via working-tree; committed directly — no commits existed on branch before checkout).
+Content: "Purim in Israel 2027: Tel Aviv Street Party & Jerusalem Guide" standalone at /purim-in-israel.
+Key content: Purim 2027 date table (22 Mar TLV / 23 Mar Jerusalem Shushan Purim, why cities differ); Dizengoff Square 200k+ costume party logistics (stage layout, peak hours, LGBTQ+ Hilton Beach scene, circuit party pre-booking); Jerusalem Adloyada parade (German Colony route, family vs. TLV comparison); megillah reading guide for visitors of any background (Chabad centres, Abraham Hostels, hotel options, Western Wall); Purim traditions explained (mishloach manot, matanot la'evyonim, hamentaschen, ad-d'lo-yada drinking); TLV vs Jerusalem comparison table; costume sourcing in Israel; getting around on Purim day (Light Rail, road closures, surge pricing). 3 affiliate CTAs: Booking.com TLV + GYG Purim experiences + Viator Jewish holiday tours. 7 FAQs.
+Bug fix: traveling-israel-jewish-holidays.md had wrong Purim 2027 date "February 20–21" in narrative text (FAQ correctly said March 22–23); fixed to "March 22–23, 2027 (Jerusalem: March 23–24, Shushan Purim)" — 5787 is a leap year (year 11 in 19-year cycle), Purim is 14 Adar II = March 2027.
+Cross-links: traveling-israel-jewish-holidays.md (date fix + Purim guide link), tel-aviv-nightlife.md (+Dizengoff Purim cross-link), israel-events-festivals.md (+Purim row in month table + paragraph). Footer.astro Essentials +1 (Purim after Passover). smoke.spec.ts +1.
+Gate: pnpm check 0 errors; pnpm build 741 pages (+1 from 740); pnpm test:e2e 1051/1051 pass.
+Ship: committed to master SHA 7bfad4e, pushed to origin/master. CI in_progress at push time.
+Also noted: sarona-market-tel-aviv BACKLOG item is stale (SHIPPED iter392 ce903fd) — BACKLOG cleanup needed.
+SEO targets: "Purim in Israel 2027", "Purim Tel Aviv Dizengoff Square", "Jerusalem Adloyada parade Purim", "megillah reading visitors Israel", "Purim costume party Israel guide".
+Next: iter 549 → REVIEW (549%5==4). Audit 3 recent guides: purim-in-israel, beit-shean-guide, hotels-near-ben-gurion-airport. Check internal links, hero images, H1-in-body, back-links, meta desc lengths.
