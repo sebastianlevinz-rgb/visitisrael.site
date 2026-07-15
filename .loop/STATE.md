@@ -1,13 +1,15 @@
 # LOOP STATE
 
-- iteration: 550
-- lastMode: RESEARCH
-- lastItem: research pass #112 — 7 net-new items: atlit-detainee-camp-guide, eilat-underwater-observatory-guide, ammunition-hill-jerusalem, tel-hazor-guide, christian-pilgrim-guesthouses-israel, nahal-iyon-waterfall-guide, yehiam-fortress-guide
-- lastResult: appended 7 items to BACKLOG.md; BACKLOG ~335 ready items
-- nextRotationCategory: 551%5==1 → BUILD (monetization). 552%5==2 → BUILD (seo-content). 553%5==3 → BUILD (tools fall-through → seo-content likely). 554%5==4 → REVIEW.
+- iteration: 551
+- lastMode: BUILD (monetization)
+- lastItem: judean-hills-wine-trail — new /judean-hills-wine-trail guide (P2/M)
+- lastResult: SHIPPED 968f77c. pnpm check 0 errors; 742 pages (+1); 1052/1052 e2e pass. CI in_progress at push time.
+- nextRotationCategory: 552%5==2 → BUILD (seo-content). 553%5==3 → BUILD (tools fall-through → seo-content likely). 554%5==4 → REVIEW. 555%5==0 → RESEARCH.
 - higgsfieldSpent: 0
-- updatedAt: 2026-07-15T16:30Z
+- updatedAt: 2026-07-15T17:50Z
 - branch context: work on master; feature work on auto/<slug>
+
+Notes: iter551 BUILD (monetization) — judean-hills-wine-trail. SHIPPED 968f77c. pnpm check 0 errors; 742 pages (+1 from 741); 1052/1052 e2e pass. "Judean Hills Wine Trail: Winery Day Trip from Jerusalem" standalone at /judean-hills-wine-trail. Key content: why Judean Hills wine country (altitude 400–900m; limestone-clay soils; continental-Mediterranean climate since 1990s); top 5 wineries (Tzora biodynamic at Shoresh; Flam family winery near Beit Shemesh; Domaine du Castel Ramat Raziel; Nevo boutique; Psagot with political context note); self-drive day-trip route (Tzora → Flam → Ein Kerem lunch, ~90–110km total); self-drive vs guided comparison table; pairing with other Judean Hills sights (Ein Kerem, Beit Guvrin, Nahal Sorek, Latrun). Honesty: appointment-only essential; Gush Etzion political context framed factually; kosher status caveat; tasting prices ranges only; Shabbat closure warning. 3 affiliate CTAs: GYG wine tours + DiscoverCars (car essential) + Booking.com Jerusalem. Back-links: israel-wine-wineries.md (Judean Hills section + dedicated guide link), day-trips-from-jerusalem.md (new wine trail bullet). Footer Food section +1. Smoke test +1. sinai-from-eilat BACKLOG item confirmed largely covered by israel-egypt-guide.md (iter~400s SHIPPED) — will mark stale next iteration. SEO targets: "Judean Hills wine trail guide", "Jerusalem winery day trip", "Israel wine tasting Jerusalem", "Judean Hills winery tour 2026".
 
 Notes: iter550 RESEARCH — research pass #112. 30+ candidates checked (palmach.org.il, touristisrael.com, coralworldunderwaterobservatory.com, gvahatacharad.co.il, parks.org.il, biblewalks.com, travelujah.com, wonderisrael.com, tripadvisor.com, beinharimtours.com, hikingintheholyland.com, nativa.co.il). 7 net-new items confirmed (triple-zero absent from BACKLOG, DONE.md, guides/). Extreme saturation at pass #112. Next: 551 BUILD (monetization) — likely atlit-detainee-camp-guide (P2) or eilat-underwater-observatory-guide or ammunition-hill-jerusalem (both P2).
 
@@ -17,44 +19,20 @@ Notes: iter548 BUILD (monetization; tools fall-through) — purim-in-israel. SHI
 
 Notes: iter544 REVIEW — audit iters 541-543 (best-hotels-negev, jewish-quarter-jerusalem-guide, megiddo-jezreel-valley-guide). Checks: (1) internal links — all 20 links across 3 files resolve; (2) hero images — all 4 referenced images exist at public/images/; (3) H1 in body — none found in any file; (4) back-links — mitzpe-ramon-guide (best-hotels-negev ✓), jewish-heritage-israel + jerusalem-old-city-walking-tour + 1-day-jerusalem-itinerary (jewish-quarter ✓), israel-hidden-gems + israel-national-parks-pass (megiddo ✓); (5) meta description lengths — DEFECT: best-hotels-negev 168 chars. Fix: trimmed to 138 chars. Gate: pnpm check 0 errors; build 738 pages (no change); 1048/1048 e2e pass. Ship: ee6d7d7.
 
-Notes: iter543 BUILD (seo-content; tools fall-through — all tools SHIPPED) — megiddo-jezreel-valley-guide. SHIPPED 1d76ce8. pnpm check 0 errors; 738 pages (+1); 1048/1048 e2e pass. "Tel Megiddo (Armageddon): Complete UNESCO Visitor Guide" standalone at /megiddo-jezreel-valley-guide: historical overview (Armageddon etymology + Har Megiddo, 26 occupation layers, 34+ recorded battles incl. Thutmose III 1457 BCE earliest documented battle); 5 on-site highlights (Wohl Museum-style museum + orientation model; Solomonic Gate + Finkelstein/Mazar controversy framed honestly; Stables/Storehouses debate; Ahab's Water Tunnel — 66 steps + 50m walk-through; Bronze Age temples 3000–1200 BCE; Jezreel Valley panorama); Jezreel Valley circuit comparison table (Beit Alfa Byzantine mosaic, Gan HaShlosha warm pools, Mount Tabor, Beit She'arim, Nazareth); practical table (hours/fees/INPA/water tunnel/accessibility); getting there. 3 CTAs: GYG Megiddo guided tour, Viator Biblical Tels UNESCO day tour, Booking.com Nazareth hotels. 7 FAQs. Back-links: israel-hidden-gems.md (+guide link in Megiddo section), israel-national-parks-pass.md (Megiddo entry linked). Footer Destinations +1; smoke test +1. BLOCKER FOUND+FIXED: guide linked /christian-pilgrimage (slug doesn't exist) — corrected to /christian-pilgrimage-holy-land before gate pass. SEO: "Tel Megiddo visitor guide", "Armageddon Israel site guide", "Megiddo UNESCO Israel tour", "Ahab's water tunnel Megiddo", "Jezreel Valley day trip Israel 2026".
+Notes: iter543 BUILD (seo-content; tools fall-through — all tools SHIPPED) — megiddo-jezreel-valley-guide. SHIPPED 1d76ce8. pnpm check 0 errors; 738 pages (+1); 1048/1048 e2e pass.
 
-Notes: iter542 BUILD (seo-content) — jewish-quarter-jerusalem-guide. SHIPPED 54b26b2. pnpm check 0 errors; 738 pages (+1); 1047/1047 e2e pass. "Jewish Quarter Jerusalem: Archaeological Visitor Guide (2026)" standalone at /jewish-quarter-jerusalem-guide: historical overview (70 CE destruction, 1948 Jordanian demolition, post-1967 rebuilding and excavation); 7 key sites (Wohl Archaeological Museum — 6 Herodian mansions; Burnt House — 70 CE fire; Davidson Center southern-wall circuit; Cardo; Hurva Synagogue; Four Sephardic Synagogues; Broad Wall); neighbourhood logistics; accessibility note; getting here. 3 CTAs: GYG Jewish Quarter tour, Viator Old City private tour, Booking.com Jerusalem hotels. Cross-links: jewish-heritage-israel.md (Jewish Quarter paragraph + Wohl Museum mention), jerusalem-old-city-walking-tour.md (Step 3 cross-link paragraph), 1-day-jerusalem-itinerary.md (Old City walk inline link). Footer Destinations +1; smoke test +1. SEO: "Jewish Quarter Jerusalem guide", "Wohl Archaeological Museum Jerusalem", "Hurva Synagogue guide", "Jewish Quarter Old City visitor guide", "Jerusalem ancient ruins visitor guide".
+Notes: iter542 BUILD (seo-content) — jewish-quarter-jerusalem-guide. SHIPPED 54b26b2. pnpm check 0 errors; 738 pages (+1); 1047/1047 e2e pass.
 
-Notes: iter540 RESEARCH — research pass #110. 6 net-new items added to BACKLOG.md: krav-maga-israel (P3/S/seo-content+monetization — Krav Maga tourist class guide, GYG products available), nahal-snir-guide (P3/S/seo-content — Hatzbani River Upper Galilee spring-fed trail, near Tel Dan, Lebanon-fed springs), dead-sea-cosmetics-guide (P3/S/seo-content+monetization — standalone AHAVA vs Premier Dead Sea brand comparison + where-to-buy, distinct from shopping-in-israel 2-bullet coverage), jewish-quarter-jerusalem-guide (P2/S/seo-content+monetization — standalone deep-dive: Wohl Archaeological Museum, Burnt House, Cardo, Hurva Synagogue, 4 Sephardic synagogues, Broad Wall; distinct from jerusalem-neighborhoods-guide multi-neighbourhood roundup), megiddo-armageddon-guide (P2/S/seo-content — Tel Megiddo UNESCO Biblical Tel visitor guide, Armageddon angle, water tunnel, 26 occupation layers; day-trips-from-haifa covers in 1 bullet only), yom-haatzmaut-guide (P3/S/seo-content — Yom HaAtzmaut Independence Day celebration guide: Torch Lighting ceremony at Har Herzl, mangal culture, IAF flyover, Yom HaZikaron transition; distinct from israel-events-festivals 2-sentence coverage). 20+ candidates checked and rejected (all in BACKLOG or SHIPPED). BACKLOG now ~315 items.
+Notes: iter540 RESEARCH — research pass #110. 6 net-new items added to BACKLOG.md. BACKLOG now ~315 items.
 
-Notes: iter539 REVIEW — audit iters 536-538 (best-hotels-sea-of-galilee, nahal-alexander-guide, beit-shearim-guide). Checks: (1) internal links — all resolve (incl. /israel-distance-calculator Astro page, /caesarea region page, /zippori-sepphoris-guide, /israel-unesco-sites); (2) hero images — all 3 referenced images exist at public/images/; (3) H1 in body — none found in any file; (4) back-links — all cross-referenced pages confirmed updated in prior iteration; (5) meta description lengths — DEFECT FOUND: all 3 files over 160 chars (186, 199, 194). Fix applied: trimmed to 144/147/145 chars while preserving search intent. Branch auto/review-desc-trim-539. Gate: pnpm check 0 errors; 736 pages (no change); 1045/1045 e2e pass. Committed 7fb1a01; CI completed success. SHIPPED.
+Notes: iter539 REVIEW — audit iters 536-538 (best-hotels-sea-of-galilee, nahal-alexander-guide, beit-shearim-guide) — DEFECT FOUND+FIXED: all 3 files desc >160 chars. SHIPPED 7fb1a01.
 
-Notes: iter538 BUILD (seo-content; tools fall-through — all tools SHIPPED) — beit-shearim-guide. SHIPPED 799c0bb. pnpm check 0 errors; 736 pages (+1); 1045/1045 e2e pass. "Beit She'arim Necropolis: UNESCO Jewish Catacombs Guide" standalone at /beit-shearim-guide: UNESCO World Heritage Site (2015); 33 rock-cut catacombs in Lower Galilee foothills 20km east of Haifa; seat of Sanhedrin under Rabbi Judah ha-Nasi (2nd-3rd century CE); premier Jewish burial ground of Roman Empire; ornate sarcophagi + menorah carvings + multilingual inscriptions (Greek/Aramaic/Hebrew/Palmyrene); Catacomb 20 (Hall of Sarcophagi, largest, open independently); Catacomb 14 (Menorah Cave, guided tours only, pre-book via parks.org.il); hilltop city ruins + Jezreel Valley views; INPA pass valid. 7 FAQs: what Beit She'arim is famous for, INPA pass, getting there from Haifa, Menorah Cave booking, what to see inside, visit duration, children suitability. 2 CTAs: GYG Galilee day tours, DiscoverCars Haifa (car essential). Cross-links: day-trips-from-haifa.md (+full link replacing 1-clause mention), jewish-heritage-israel.md (+linked with expanded description), israel-national-parks-pass.md (+Beit She'arim in North Israel/Galilee INPA sites list), haifa-travel-guide.md (+Beit She'arim in What to combine nearby section). Footer Destinations +1 (after nahal-alexander-guide). Smoke test +1. SEO: "Beit She'arim catacombs guide", "Bet Shearim UNESCO necropolis Israel", "Jewish catacombs Lower Galilee", "Beit She'arim national park visit", "Sanhedrin burial site Israel guide".
+Notes: iter538 BUILD (seo-content; tools fall-through — all tools SHIPPED) — beit-shearim-guide. SHIPPED 799c0bb.
 
-Notes: iter537 BUILD (seo-content) — nahal-alexander-guide. SHIPPED f43b20a. pnpm check 0 errors; 735 pages (+1); 1044/1044 e2e pass. "Nahal Alexander (Alexander Stream): Turtle Reserve & Riverside Trail Guide" standalone at /nahal-alexander-guide: INPA park 40km north of TLV near Netanya; Nile soft-shelled turtles (Trionyx triunguis, up to 1.2m/50kg) at Turtle Bridge; 3km flat shaded riverside trail; year-round; stroller-friendly; Hof Bet Yanai beach. Cross-links: best-beaches-israel (+table row + section), israel-national-parks-pass (+list entry), water-hiking-israel (+coastal cross-link bullet), israel-with-kids (+turtle experience paragraph), Footer.astro Destinations +1, smoke.spec.ts +1.
+Notes: iter537 BUILD (seo-content) — nahal-alexander-guide. SHIPPED f43b20a.
 
-Notes: iter536 BUILD (monetization) — best-hotels-sea-of-galilee. SHIPPED 0c2ddb8. pnpm check 0 errors; 734 pages (+1); 1043/1043 e2e pass. "Best Hotels at the Sea of Galilee 2026: Where to Stay on the Kinneret" standalone at /best-hotels-sea-of-galilee.
-
-Notes: iter535 RESEARCH — research pass #109. 6 net-new items added. BACKLOG now ~309 items.
-
-Notes: iter534 REVIEW — audit iters 531-533 (valley-of-tears-golan, palmahim-beach-guide, negev-makhtesh-guide) — CLEAN
-
-Notes: iter533 BUILD (seo-content; tools/technical fall-through — all tools SHIPPED) — negev-makhtesh-guide. SHIPPED 5b9147b.
-
-Notes: iter532 BUILD (seo-content) — palmahim-beach-guide. SHIPPED 223859e.
-
-Notes: iter531 BUILD (monetization) — valley-of-tears-golan. SHIPPED 37d78f5.
-
-Notes: iter530 RESEARCH — research pass #107. 5 net-new items added. BACKLOG now ~303 items.
-
-Notes: iter529 REVIEW — audit iters 526-528 (passover-in-israel, 3-days-in-israel, sde-boker-ein-avdat-guide) — CLEAN, no fixes needed.
-
-Notes: iter528 BUILD (seo-content; tools/technical fall-through — all tools items SHIPPED) — sde-boker-ein-avdat-guide. SHIPPED b7ea70c.
-
-Notes: iter527 BUILD (seo-content) — 3-days-in-israel. SHIPPED 1b18ae5.
-
-Notes: iter526 BUILD (monetization) — passover-in-israel. SHIPPED cc2ab44.
-
-Notes: iter525 RESEARCH — research pass #106. 2 stale-duplicate items found; iter526 selected passover-in-israel from pre-existing backlog instead.
-
-Notes: iter524 REVIEW — audit iters 521-523 (rosh-pina, gonen, first-station); galilee-culinary-institute-gonen description trimmed 186→146 chars. SHIPPED 23e00e7.
+Notes: iter536 BUILD (monetization) — best-hotels-sea-of-galilee. SHIPPED 0c2ddb8.
 
 Cron b7325b16 hourly @ :17. Loop history: 19 tools + sitemap-lastmod + link-checker(+depth) + i18n
-Phase0/1a/1b/1c/2 Batches1-18(COMPLETE) + 43 review passes + 3 technical (event-schema + meta-trim + locale-links) + 64 EN guides + 7 tools-monetization + 2 comparisons;
+Phase0/1a/1b/1c/2 Batches1-18(COMPLETE) + 43 review passes + 3 technical (event-schema + meta-trim + locale-links) + 65 EN guides + 7 tools-monetization + 2 comparisons;
 research iters 5/10/20/30/35/40/45/50/55/60/65/70/75/80/85/90/95/100/105/110/115/120/125/130/135/140/145/150/155/160/165/170/175/180/185/190/195/200/205/210/215/220/225/230/235/240/245/250/255/260/265/270/275/280/285/290/295/300/305/310/315/320/325/330/335/340/345/350/355/360/365/370/375/380/385/390/395/400/405/410/420/425/430/435/440/445/450/455/460/465/470/480/485/490/495/500/505/510/515/520/525/535/540/545/550.

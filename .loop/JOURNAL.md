@@ -8604,3 +8604,12 @@ atlit-detainee-camp-guide (P2/S), eilat-underwater-observatory-guide (P3/S), amm
 
 Appended all 7 to BACKLOG.md via Python3 (Unicode-safe). BACKLOG now ~335 ready items.
 No code shipped (RESEARCH mode). Next: iter551 → BUILD (monetization).
+
+## 2026-07-15T17:50Z · iter 551 · BUILD (monetization) · judean-hills-wine-trail
+
+What: new /judean-hills-wine-trail guide (P2/M monetization). "Judean Hills Wine Trail: Winery Day Trip from Jerusalem" — 5 top producers (Tzora, Flam, Castel, Nevo, Psagot), self-drive day-trip route from Jerusalem via Shoresh to Beit Shemesh area, self-drive vs guided table, pairing with Ein Kerem + Beit Guvrin + Nahal Sorek + Latrun. Honesty: appointment-only essential (weeks ahead); Gush Etzion political context stated factually; kosher status caveat; price ranges only; Shabbat closure warning. 3 affiliate CTAs: GYG wine tour + DiscoverCars + Booking.com Jerusalem. Back-links: israel-wine-wineries.md (Judean Hills section), day-trips-from-jerusalem.md (new bullet). Footer Food section +1. Smoke test +1 (1052 total).
+Note: sinai-from-eilat BACKLOG item confirmed largely stale — israel-egypt-guide.md already covers South Sinai experience (Dahab, Sharm, Blue Hole, practical logistics) in full; will mark stale on next REVIEW pass.
+Gate: pnpm check 0 errors; pnpm build 742 pages (+1); pnpm test:e2e 1052/1052 pass.
+Ship: squash-merged to master SHA 968f77c, pushed to origin/master. CI in_progress at push time (both Lighthouse + CI workflows triggered on 968f77c). Branch auto/judean-hills-wine-trail deleted.
+SEO targets: "Judean Hills wine trail guide", "Jerusalem winery day trip", "Israel wine tasting Jerusalem", "Judean Hills winery tour 2026".
+Next: iter552 → BUILD (seo-content).
