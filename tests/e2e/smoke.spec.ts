@@ -520,6 +520,7 @@ const ROUTES = [
   '/jerusalem-pilgrimage-road',
   '/best-hotels-tiberias',
   '/best-hotels-sea-of-galilee',
+  '/best-hotels-negev',
   '/tabgha-church-guide',
   '/western-galilee-guide',
   '/fr/itineraries',

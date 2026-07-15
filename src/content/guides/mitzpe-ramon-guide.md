@@ -142,6 +142,8 @@ The **Alpaca Farm** (HaChava HaAlpaka), 5 km west of town on Route 40, is home t
 
 **Mid-range and guesthouses**: the town has a range of smaller family-run guesthouses (tzimmerim in Hebrew — Israeli bed-and-breakfast-style accommodation) concentrated around the main town square. Many are purpose-built desert lodges with private courtyards and outdoor breakfasts; use the Booking.com CTA above to filter by guest rating and price.
 
+For a full breakdown of each property — rates, who each suits, and booking-timing advice — see the [best hotels in Mitzpe Ramon & Negev guide](/best-hotels-negev).
+
 ---
 
 ## Practical planning
