@@ -89,7 +89,7 @@ Most first-time visitors to Israel move along a well-worn triangle: Jerusalem's 
 
 **Why it is overlooked:** Megiddo is in the Jezreel Valley, 35km south-east of Haifa — on the road to Nazareth but slightly off both Haifa and Galilee standard itineraries.
 
-**Practical:** UNESCO World Heritage Site (part of the Biblical Tels group with Hazor and Be'er Sheva). The underground tunnel is the highlight — it descends steeply and is entirely accessible. Open daily; INPA pass accepted. [Day trips from Haifa](/day-trips-from-haifa) naturally include Megiddo with Caesarea and Nazareth on a single route.
+**Practical:** UNESCO World Heritage Site (part of the Biblical Tels group with Hazor and Be'er Sheva). The underground tunnel is the highlight — it descends steeply and is entirely accessible. Open daily; INPA pass accepted. See the full [Tel Megiddo visitor guide](/megiddo-jezreel-valley-guide) for site details and the Jezreel Valley circuit. [Day trips from Haifa](/day-trips-from-haifa) naturally include Megiddo with Caesarea and Nazareth on a single route.
 
 ---
 

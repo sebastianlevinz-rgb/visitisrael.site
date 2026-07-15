@@ -84,7 +84,7 @@ The INPA manages over 63 nature reserves and archaeological parks across the cou
 **Northern Israel & Galilee**
 - Beit She'an National Park (Roman-Byzantine ruins)
 - [Beit She'arim National Park](/beit-shearim-guide) (UNESCO 2015 Jewish catacombs; seat of Sanhedrin; 20 km east of Haifa)
-- Megiddo (Tel Megiddo / Biblical Armageddon)
+- [Tel Megiddo National Park](/megiddo-jezreel-valley-guide) (UNESCO Biblical Tels 2005; Ahab's water tunnel; Armageddon)
 - [Zippori National Park](/zippori-sepphoris-guide) (Roman mosaics, Sepphoris ancient capital)
 - Banias Nature Reserve ([Golan Heights](/golan))
 - Nimrod Fortress (Golan)
