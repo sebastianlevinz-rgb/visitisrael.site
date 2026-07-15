@@ -1,13 +1,15 @@
 # LOOP STATE
 
-- iteration: 541
-- lastMode: BUILD (monetization)
-- lastItem: best-hotels-negev — /best-hotels-negev — "Best Hotels in the Negev 2026: Where to Stay at Mitzpe Ramon"
-- lastResult: SHIPPED — 416a79b — 737 pages (+1); 588/588 e2e pass; pnpm check 0 errors
-- nextRotationCategory: 542%5==2 → BUILD (seo-content). 543%5==3 → BUILD (tools; fall-through expected). 544%5==4 → REVIEW. 545%5==0 → RESEARCH. 546%5==1 → BUILD (monetization).
+- iteration: 542
+- lastMode: BUILD (seo-content)
+- lastItem: jewish-quarter-jerusalem-guide — /jewish-quarter-jerusalem-guide — "Jewish Quarter Jerusalem: Archaeological Visitor Guide (2026)"
+- lastResult: SHIPPED — 54b26b2 — 738 pages (+1); 1047/1047 e2e pass; pnpm check 0 errors
+- nextRotationCategory: 543%5==3 → BUILD (tools; fall-through expected). 544%5==4 → REVIEW. 545%5==0 → RESEARCH. 546%5==1 → BUILD (monetization). 547%5==2 → BUILD (seo-content).
 - higgsfieldSpent: 0
-- updatedAt: 2026-07-15T08:45Z
+- updatedAt: 2026-07-15T09:48Z
 - branch context: work on master; feature work on auto/<slug>
+
+Notes: iter542 BUILD (seo-content) — jewish-quarter-jerusalem-guide. SHIPPED 54b26b2. pnpm check 0 errors; 738 pages (+1); 1047/1047 e2e pass. "Jewish Quarter Jerusalem: Archaeological Visitor Guide (2026)" standalone at /jewish-quarter-jerusalem-guide: historical overview (70 CE destruction, 1948 Jordanian demolition, post-1967 rebuilding and excavation); 7 key sites (Wohl Archaeological Museum — 6 Herodian mansions; Burnt House — 70 CE fire; Davidson Center southern-wall circuit; Cardo; Hurva Synagogue; Four Sephardic Synagogues; Broad Wall); neighbourhood logistics; accessibility note; getting here. 3 CTAs: GYG Jewish Quarter tour, Viator Old City private tour, Booking.com Jerusalem hotels. Cross-links: jewish-heritage-israel.md (Jewish Quarter paragraph + Wohl Museum mention), jerusalem-old-city-walking-tour.md (Step 3 cross-link paragraph), 1-day-jerusalem-itinerary.md (Old City walk inline link). Footer Destinations +1; smoke test +1. SEO: "Jewish Quarter Jerusalem guide", "Wohl Archaeological Museum Jerusalem", "Hurva Synagogue guide", "Jewish Quarter Old City visitor guide", "Jerusalem ancient ruins visitor guide".
 
 Notes: iter540 RESEARCH — research pass #110. 6 net-new items added to BACKLOG.md: krav-maga-israel (P3/S/seo-content+monetization — Krav Maga tourist class guide, GYG products available), nahal-snir-guide (P3/S/seo-content — Hatzbani River Upper Galilee spring-fed trail, near Tel Dan, Lebanon-fed springs), dead-sea-cosmetics-guide (P3/S/seo-content+monetization — standalone AHAVA vs Premier Dead Sea brand comparison + where-to-buy, distinct from shopping-in-israel 2-bullet coverage), jewish-quarter-jerusalem-guide (P2/S/seo-content+monetization — standalone deep-dive: Wohl Archaeological Museum, Burnt House, Cardo, Hurva Synagogue, 4 Sephardic synagogues, Broad Wall; distinct from jerusalem-neighborhoods-guide multi-neighbourhood roundup), megiddo-armageddon-guide (P2/S/seo-content — Tel Megiddo UNESCO Biblical Tel visitor guide, Armageddon angle, water tunnel, 26 occupation layers; day-trips-from-haifa covers in 1 bullet only), yom-haatzmaut-guide (P3/S/seo-content — Yom HaAtzmaut Independence Day celebration guide: Torch Lighting ceremony at Har Herzl, mangal culture, IAF flyover, Yom HaZikaron transition; distinct from israel-events-festivals 2-sentence coverage). 20+ candidates checked and rejected (all in BACKLOG or SHIPPED). BACKLOG now ~315 items.
 
