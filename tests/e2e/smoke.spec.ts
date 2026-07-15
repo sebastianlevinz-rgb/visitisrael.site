@@ -586,6 +586,7 @@ const ROUTES = [
   '/beit-shean-guide',
   '/purim-in-israel',
   '/judean-hills-wine-trail',
+  '/golan-heights-wineries',
   '/israel-rainy-day-activities',
   '/atlit-detainee-camp-guide',
 ];

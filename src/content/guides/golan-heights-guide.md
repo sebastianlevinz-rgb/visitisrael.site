@@ -101,7 +101,7 @@ Boutique producers worth seeking out:
 - **Bazelet HaGolan** near Gamla — family-run, beautiful terrace views, known for Cabernet Sauvignon
 - **Odem Mountain Winery** at the highest-elevation vineyards in Israel — terroir-driven, limited production
 
-Winery visits are best combined with a spring or autumn trip; autumn coincides with the grape harvest (September–October).
+Winery visits are best combined with a spring or autumn trip; autumn coincides with the grape harvest (September–October). For a producer-by-producer breakdown, self-drive circuit routes, and booking tips, see the dedicated [Golan Heights wineries guide](/golan-heights-wineries).
 
 ### Gamla Nature Reserve
 
