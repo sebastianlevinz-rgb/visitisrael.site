@@ -1,13 +1,15 @@
 # LOOP STATE
 
-- iteration: 539
-- lastMode: REVIEW
-- lastItem: review-desc-trim-539 — audit iters 536-538 (best-hotels-sea-of-galilee, nahal-alexander-guide, beit-shearim-guide) — meta descriptions all over 160 chars (186, 199, 194) — trimmed to ≤155 — 7fb1a01
-- lastResult: SHIPPED — pnpm check 0 errors; 736 pages; 1045/1045 e2e pass; committed 7fb1a01; CI completed success
-- nextRotationCategory: 540%5==0 → RESEARCH. 541%5==1 → BUILD (monetization). 542%5==2 → BUILD (seo-content). 543%5==3 → BUILD (tools; fall-through expected). 544%5==4 → REVIEW.
+- iteration: 540
+- lastMode: RESEARCH
+- lastItem: research-pass-110 — iter540 RESEARCH — 6 net-new backlog items added
+- lastResult: COMPLETE — 6 new items appended to BACKLOG.md; COMPETITORS.md + JOURNAL.md updated; no code shipped (RESEARCH mode)
+- nextRotationCategory: 541%5==1 → BUILD (monetization). 542%5==2 → BUILD (seo-content). 543%5==3 → BUILD (tools; fall-through expected). 544%5==4 → REVIEW. 545%5==0 → RESEARCH.
 - higgsfieldSpent: 0
-- updatedAt: 2026-07-15T06:50Z
+- updatedAt: 2026-07-15T09:15Z
 - branch context: work on master; feature work on auto/<slug>
+
+Notes: iter540 RESEARCH — research pass #110. 6 net-new items added to BACKLOG.md: krav-maga-israel (P3/S/seo-content+monetization — Krav Maga tourist class guide, GYG products available), nahal-snir-guide (P3/S/seo-content — Hatzbani River Upper Galilee spring-fed trail, near Tel Dan, Lebanon-fed springs), dead-sea-cosmetics-guide (P3/S/seo-content+monetization — standalone AHAVA vs Premier Dead Sea brand comparison + where-to-buy, distinct from shopping-in-israel 2-bullet coverage), jewish-quarter-jerusalem-guide (P2/S/seo-content+monetization — standalone deep-dive: Wohl Archaeological Museum, Burnt House, Cardo, Hurva Synagogue, 4 Sephardic synagogues, Broad Wall; distinct from jerusalem-neighborhoods-guide multi-neighbourhood roundup), megiddo-armageddon-guide (P2/S/seo-content — Tel Megiddo UNESCO Biblical Tel visitor guide, Armageddon angle, water tunnel, 26 occupation layers; day-trips-from-haifa covers in 1 bullet only), yom-haatzmaut-guide (P3/S/seo-content — Yom HaAtzmaut Independence Day celebration guide: Torch Lighting ceremony at Har Herzl, mangal culture, IAF flyover, Yom HaZikaron transition; distinct from israel-events-festivals 2-sentence coverage). 20+ candidates checked and rejected (all in BACKLOG or SHIPPED). BACKLOG now ~315 items.
 
 Notes: iter539 REVIEW — audit iters 536-538 (best-hotels-sea-of-galilee, nahal-alexander-guide, beit-shearim-guide). Checks: (1) internal links — all resolve (incl. /israel-distance-calculator Astro page, /caesarea region page, /zippori-sepphoris-guide, /israel-unesco-sites); (2) hero images — all 3 referenced images exist at public/images/; (3) H1 in body — none found in any file; (4) back-links — all cross-referenced pages confirmed updated in prior iteration; (5) meta description lengths — DEFECT FOUND: all 3 files over 160 chars (186, 199, 194). Fix applied: trimmed to 144/147/145 chars while preserving search intent. Branch auto/review-desc-trim-539. Gate: pnpm check 0 errors; 736 pages (no change); 1045/1045 e2e pass. Committed 7fb1a01; CI completed success. SHIPPED.
 
@@ -43,4 +45,4 @@ Notes: iter524 REVIEW — audit iters 521-523 (rosh-pina, gonen, first-station);
 
 Cron b7325b16 hourly @ :17. Loop history: 19 tools + sitemap-lastmod + link-checker(+depth) + i18n
 Phase0/1a/1b/1c/2 Batches1-18(COMPLETE) + 43 review passes + 3 technical (event-schema + meta-trim + locale-links) + 64 EN guides + 7 tools-monetization + 2 comparisons;
-research iters 5/10/20/30/35/40/45/50/55/60/65/70/75/80/85/90/95/100/105/110/115/120/125/130/135/140/145/150/155/160/165/170/175/180/185/190/195/200/205/210/215/220/225/230/235/240/245/250/255/260/265/270/275/280/285/290/295/300/305/310/315/320/325/330/335/340/345/350/355/360/365/370/375/380/385/390/395/400/405/410/420/425/430/435/440/445/450/455/460/465/470/480/485/490/495/500/505/510/515/520/525/535.
+research iters 5/10/20/30/35/40/45/50/55/60/65/70/75/80/85/90/95/100/105/110/115/120/125/130/135/140/145/150/155/160/165/170/175/180/185/190/195/200/205/210/215/220/225/230/235/240/245/250/255/260/265/270/275/280/285/290/295/300/305/310/315/320/325/330/335/340/345/350/355/360/365/370/375/380/385/390/395/400/405/410/420/425/430/435/440/445/450/455/460/465/470/480/485/490/495/500/505/510/515/520/525/535/540.

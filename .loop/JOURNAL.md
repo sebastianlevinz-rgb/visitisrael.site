@@ -8455,3 +8455,9 @@ Branch: auto/review-desc-trim-539 (files edited on master directly; branch creat
 Gate: pnpm check 0 errors; build 736 pages (no new pages); 1045/1045 e2e pass.
 Ship: committed 7fb1a01; pushed; CI completed success; Lighthouse completed success.
 Next: iter 540 → RESEARCH (540%5==0).
+
+## 2026-07-15T09:15Z · iter 540 · RESEARCH · research-pass-#110
+
+Mode: RESEARCH (540 % 5 == 0). No code shipped.
+6 net-new items added to BACKLOG.md: krav-maga-israel (P3/S — Krav Maga tourist class guide; GYG products confirmed; distinct from adventure-sports 1-paragraph); nahal-snir-guide (P3/S — Hatzbani River Upper Galilee spring-fed trail, near Tel Dan, zero prior BACKLOG entry); dead-sea-cosmetics-guide (P3/S — AHAVA/Premier Dead Sea brand buyer's guide + where-to-buy logistics; shopping-in-israel covers in 2 bullets only); jewish-quarter-jerusalem-guide (P2/S — standalone deep-dive to Wohl Archaeological Museum, Burnt House, Cardo, Hurva, 4 Sephardic synagogues, Broad Wall; distinct from jerusalem-neighborhoods-guide multi-roundup); megiddo-armageddon-guide (P2/S — Tel Megiddo UNESCO Biblical Tel visitor guide, "Armageddon" angle drives global search, water tunnel, 26 occupation layers; day-trips-from-haifa has 1 bullet); yom-haatzmaut-guide (P3/S — Yom HaAtzmaut celebration guide: Torch Lighting ceremony at Har Herzl, mangal/barbecue culture, IAF flyover, Yom HaZikaron transition; israel-events-festivals has 2-sentence coverage).
+Deduplication: 20+ candidates checked and rejected — beit-shean (L355), belvoir-fortress (L842), nimrod-fortress (L362 Golan guide area), caesarea-concerts (caesarea-guide SHIPPED), mount-herzl-standalone (subsumed in zionist-heritage-trail L764 as site #1), knesset-visitor-guide (knesset-museum-jerusalem L907). Saturation rate: 6/20+ = extreme saturation (research pass #110). BACKLOG now ~315 items.

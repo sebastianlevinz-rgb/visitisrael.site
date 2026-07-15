@@ -4995,3 +4995,21 @@ Sources this pass: hikingintheholyland.com, gonetanya.com, parks.org.il, kenisra
 - Tel Dan (BACKLOG L728 — already queued)
 - Banias Nature Reserve (BACKLOG L827 — already queued)
 - Nahal Alexander (newly added this pass as /nahal-alexander-guide)
+
+### 2026-07-15 · iter 540 · research pass #110 · Krav Maga / Nahal Snir / Dead Sea cosmetics / Jewish Quarter / Megiddo / Yom HaAtzmaut
+Sources this pass: touristisrael.com/krav-maga-israel-guide, getyourguide.com/tel-aviv krav-maga listings, ikmf.com (IKMF global headquarters), parks.org.il/reserve-park/snir-stream-nature-reserve, alltrails.com nahal-snir trail, tripsavvy.com/dead-sea-products-guide, tripadvisor.com Israel Dead Sea cosmetics forum threads, ahava.com (official), itraveljerusalem.com/jewish-quarter, walkinjerusalem.com/jewish-quarter, tripadvisor.com Jewish Quarter Jerusalem reviews, inpa.gov.il/reserve-park/megiddo-national-park, timesofisrael.com/megiddo-armageddon-archaeology, tripadvisor.com Megiddo reviews, knesset.gov.il/Events/torch-lighting, itraveljerusalem.com/independence-day, touristisrael.com/yom-haatzmaut.
+
+- `touristisrael.com` has a Krav Maga guide and GYG lists 10+ "Krav Maga experience Israel" products — no equivalent on visitisrael.site; this is a niche seo-content+monetization gap in the adventure-sports funnel
+- `parks.org.il` INPA page + `alltrails.com` Nahal Snir trail are the only English-language resources for this Upper Galilee spring-fed river trail; zero competitor editorial guide exists beyond trail mapping
+- `tripsavvy.com` Dead Sea cosmetics buyer's guide + TripAdvisor forum threads ("Is AHAVA worth it?", "Premier Dead Sea kiosk scam?") confirm high tourist demand for buying-guide content; no competitor has a comprehensive brand-comparison guide (just scattered tips)
+- `itraveljerusalem.com` + `walkinjerusalem.com` have Jewish Quarter guides but scattered across multiple articles; no competitor has a single "complete Jewish Quarter standalone guide" with full site logistics for all 7 key attractions
+- `inpa.gov.il` Tel Megiddo National Park has English content; `touristisrael.com` has a Megiddo article; but NO competitor has a comprehensive visitor guide that integrates the "Armageddon" search angle with the archaeological site logistics
+- `knesset.gov.il` Torch Lighting ceremony page exists but is informational (government); `itraveljerusalem.com` has a brief Yom HaAtzmaut page; no competitor has a comprehensive tourist-experience guide covering the full Yom HaZikaron → Yom HaAtzmaut transition and mangal culture
+
+#### Confirmed not gaps this pass
+- Beit She'an Roman city (BACKLOG L355 — confirmed by iter535 rejection list)
+- Belvoir Fortress (BACKLOG L842 — confirmed by iter535 rejection list)
+- Nimrod Fortress standalone (subsumed in Golan Heights Guide SHIPPED iter203 and multiple BACKLOG Golan-adjacent entries at L362/L452/L511)
+- Caesarea amphitheater concerts (caesarea-guide SHIPPED iter14; concerts angle is event-driven rather than evergreen for SSG)
+- Mount Herzl standalone guide (Zionist Heritage Trail BACKLOG L764 covers Har Herzl as site #1 with full detail — standalone would duplicate)
+- Knesset visitor guide (knesset-museum-jerusalem BACKLOG L907, iter370)
