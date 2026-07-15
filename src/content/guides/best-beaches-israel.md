@@ -57,6 +57,7 @@ This guide covers the best beaches on both coasts, what to expect at each, and h
 | Herzliya Marina Beach | Herzliya | Mediterranean | Families; clean facilities | Free | Summer |
 | Achziv Beach | Near Nahariya | Mediterranean | Wild coastal scenery | Free* | Seasonal |
 | Palmahim Beach NP | South of Tel Aviv | Mediterranean | Sea turtles; dunes; INPA | Pass/fee | Summer |
+| Hof Bet Yanai (Nahal Alexander) | North of Tel Aviv | Mediterranean | Giant turtles; riverside trail; INPA | Pass/fee | Year-round |
 | Dor Habonim Beach | Carmel coast | Mediterranean | Rock pools; snorkeling | Free | Seasonal |
 | North Beach | Eilat | Red Sea | Resort strip; watersports | Free | Year-round |
 | Coral Beach Nature Reserve | Eilat | Red Sea | Coral reef snorkeling | ~₪30 | Year-round |
@@ -123,6 +124,14 @@ Palmahim Beach National Park is an INPA-managed coastal reserve 30 km south of c
 Dor Habonim Nature Reserve, about 30 km south of Haifa on the Carmel coast, is one of Israel's most distinctive Mediterranean beach experiences: rocky outcrops and tidal lagoons alternate with stretches of sand, creating natural pools at low tide that are popular with families and excellent for snorkeling among Mediterranean marine life. The reserve is managed by the Israel Nature and Parks Authority (Israel National Parks Pass valid). It is a nature reserve rather than a resort beach — facilities are basic, crowds are lower, and the rocky coastal scenery is dramatically different from the flat sand of Tel Aviv.
 
 **Getting there:** Requires a car or hire vehicle. Approximately 30 minutes south of Haifa on Route 4, then a short drive to the reserve entrance.
+
+---
+
+## Hof Bet Yanai / Nahal Alexander (North of Tel Aviv)
+
+Hof Bet Yanai is the Mediterranean beach at the mouth of the Nahal Alexander nature reserve, 40 km north of Tel Aviv near Netanya. What sets it apart from other coastal parks is the riverside trail leading to it: a shaded 3 km walk along the Alexander River brings you past the **Turtle Bridge (Gesher HaTzabim)** viewing platform, where **giant Nile soft-shelled turtles** (Trionyx triunguis) — up to 1.2 metres long and 50 kg — can be seen basking and swimming in the river year-round. This is one of only two surviving populations of this species in Israel, and one of the most reliable wildlife-watching spots in the country. The beach itself is supervised in summer, with gentle, shelving Mediterranean water.
+
+**Getting there:** By car from Tel Aviv (35–45 minutes north on Highway 2, exit Yannai interchange); or bus and taxi from Netanya (15 km north). The riverside trail is free; INPA beach fee or pass applies at the beach facility. See the full [Nahal Alexander turtle reserve guide](/nahal-alexander-guide) for turtle-watching tips, INPA pass details and combining with Caesarea.
 
 ---
 

@@ -30,7 +30,7 @@ Israel is one of the easiest countries in the world to travel with children — 
 
 ### Tel Aviv & the coast
 
-The default family base. The **beaches** are clean, gently shelving and lifeguarded, with playgrounds and free outdoor gyms along the promenade. Old **[Jaffa](/tel-aviv)** is a fun wander with its flea market and harbour, and the city has excellent science and children's museums plus a big urban park. Easy, flat and walkable.
+The default family base. The **beaches** are clean, gently shelving and lifeguarded, with playgrounds and free outdoor gyms along the promenade. Old **[Jaffa](/tel-aviv)** is a fun wander with its flea market and harbour, and the city has excellent science and children's museums plus a big urban park. Easy, flat and walkable. For a nature half-day, the **[Nahal Alexander turtle reserve](/nahal-alexander-guide)** (40 km north, near Netanya) offers a flat shaded riverside walk to a viewing platform where giant Nile soft-shelled turtles bask in the river — one of the most reliably wildlife-rewarding experiences for families in the country.
 
 ### Jerusalem
 

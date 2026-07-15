@@ -156,6 +156,7 @@ Combine Banias with the nearby **Nimrod Fortress** (Mamluk-era Crusader castle w
 
 Water hikes slot naturally into existing Dead Sea and Galilee day trips:
 
+- **Coastal nature from Tel Aviv:** For a different type of water-and-nature day, the [Nahal Alexander turtle reserve](/nahal-alexander-guide) (Hof Bet Yanai, 40 km north of TLV) offers a flat 3 km riverside walk to giant Nile soft-shelled turtles at the Turtle Bridge, ending at a Mediterranean beach. The trail is free, family-friendly and year-round — a contrast to the canyon hikes below.
 - **Dead Sea day from Jerusalem or Tel Aviv:** [Ein Gedi](/dead-sea/ein-gedi) in the morning (Wadi David) → Dead Sea float in the afternoon → return via Masada if time allows. See the [Masada & Dead Sea day trip guide](/masada-dead-sea-day-trip).
 - **Galilee multi-day:** Nahal Kziv on day 1 paired with an [Akko](/akko) afternoon; Nahal HaKibbutzim on day 2 with [Beit She'an](/galilee); Banias on day 3 with Nimrod Fortress and the Golan. For a river-paddling alternative in the same region, the [Jordan River kayaking guide](/israel-kayaking) covers Kfar Blum and HaGoshrim — calm Class I water suitable for families, running April to September.
 - **Jerusalem day trip:** Wadi Qelt (Ein Prat) as a half-day morning walk followed by the [Jerusalem Old City](/jerusalem) in the afternoon.

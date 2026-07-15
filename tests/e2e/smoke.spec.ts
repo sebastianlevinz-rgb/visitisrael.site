@@ -577,6 +577,7 @@ const ROUTES = [
   '/valley-of-tears-golan',
   '/palmahim-beach-guide',
   '/negev-makhtesh-guide',
+  '/nahal-alexander-guide',
 ];
 
 for (const route of ROUTES) {

@@ -92,6 +92,7 @@ The INPA manages over 63 nature reserves and archaeological parks across the cou
 **Coastal & central**
 - [Caesarea](/caesarea) National Park (Herodian harbour city); [Yam Caesarea Marine National Park](/yam-caesarea-guide) (Israel's first marine NP, designated Nov 2024 — land-side entry covered; snorkel/dive operator fee is separate)
 - [Palmahim Beach National Park](/palmahim-beach-guide) (Mediterranean coastal reserve 30 km south of Tel Aviv; sea turtle nesting, kurkar dunes, supervised swimming, camping)
+- [Nahal Alexander / Hof Bet Yanai](/nahal-alexander-guide) (Nile soft-shelled turtle reserve 40 km north of Tel Aviv; riverside trail free; beach entry covered by pass)
 - [Tel Afek National Park](/tel-afek-guide) (Antipatris — Canaanite, Roman & Ottoman ruins; Yarkon springs; 40 km from Tel Aviv)
 - Apollonia National Park (Crusader fortress north of Tel Aviv)
 - Ashkelon National Park
