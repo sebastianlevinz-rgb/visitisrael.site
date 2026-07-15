@@ -60,6 +60,7 @@ faqs:
 - **[Beit She'arim Necropolis](/beit-shearim-guide)** — *~30 min east by car.* A UNESCO World Heritage Site (2015): 33 rock-cut catacombs, ornate sarcophagi and the seat of the Sanhedrin under Rabbi Judah ha-Nasi. Rarely crowded. Covered by the [Israel National Parks Pass](/israel-national-parks-pass).
 - **[Tel Megiddo (Armageddon)](/megiddo-jezreel-valley-guide)** — *~40 min south-east by car.* A UNESCO World Heritage mound with 26 layers of civilisation from 7,000 BCE — the site the Book of Revelation named. Walk through Ahab's Iron Age water tunnel and survey the Jezreel Valley from the summit. Combine with Gan HaShlosha warm pools and the Beit Alfa Byzantine mosaic synagogue for a [full Jezreel Valley circuit](/megiddo-jezreel-valley-guide#jezreel-valley-circuit).
 - **[Carmel Druze Villages](/druze-villages-carmel)** — *~40 min south by car.* Daliyat el-Carmel market street for Druze pita cooked fresh on the saj, za'atar spice stalls and embroidery, then El-Muhraka Monastery above the Jezreel Valley for one of the best panoramic views in the north. Saturday is the busiest market day. Best by car or guided tour; no convenient direct bus from Haifa.
+- **[Atlit Detainee Camp](/atlit-detainee-camp-guide)** — *~25 min south by car.* One of the most emotionally powerful Jewish heritage sites in Israel — a real British Mandatory detention camp where 16,000+ Holocaust survivors were imprisoned while trying to reach Mandatory Palestine (1938–1948). Original barracks, electrified perimeter fence, a full-scale immigrant ship replica, and the site of the Night of the Raiders (1945 Palmach rescue led by young Yitzhak Rabin). English guided tours require advance booking; self-guided visits possible. Closed Monday and Shabbat.
 
 ## By train or by car?
 
@@ -80,6 +81,7 @@ faqs:
 | Beit She'arim | ~30 min |
 | Tel Megiddo | ~40 min |
 | [Carmel Druze Villages](/druze-villages-carmel) | ~40 min |
+| [Atlit Detainee Camp](/atlit-detainee-camp-guide) | ~25 min |
 
 For a rental car, compare options at [Discovercars or RentalCars](/car-rental-israel) and book in advance — demand is high in summer. For a fuller northern circuit — Lohamei HaGeta'ot Holocaust museum, Montfort Castle, Beit She'arim UNESCO necropolis and Nahal Kziv water hike — see the [Western Galilee guide](/western-galilee-guide).
 

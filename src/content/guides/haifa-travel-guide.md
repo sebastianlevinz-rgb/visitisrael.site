@@ -132,6 +132,8 @@ Water quality on Haifa beaches varies seasonally — check the current status at
 
 **Zichron Yaakov (30 min south by car):** A Rothschild-era winery village with vine-covered stone streets — the birthplace of Israeli wine tourism. Carmel Winery is the main address.
 
+**[Atlit Detainee Camp](/atlit-detainee-camp-guide) (25 min south by car):** A real British Mandatory detention facility where 16,000+ Holocaust survivors were imprisoned while attempting to reach Mandatory Palestine (1938–1948). Original barracks, an electrified perimeter fence, a full-scale immigrant ship replica, and the site of the 1945 Night of the Raiders rescue by Palmach — one of the most emotionally powerful Jewish heritage sites in Israel. English tours by advance booking.
+
 ---
 
 ## Getting there & getting around
