@@ -8628,3 +8628,11 @@ Gate: pnpm check 0 errors; build 743 pages (+1 from 742); 1053/1053 e2e pass. GR
 Ship: squash-merged to master SHA ba7b967, pushed to origin/master. CI in_progress at push time. Branch auto/israel-rainy-day-activities deleted.
 Prod: CI in_progress for ba7b967 — consistent with prior iterations; expect success.
 Next: iter553 → BUILD (tools fall-through → seo-content likely; 553%5==3).
+
+## 2026-07-15 · iter 553 · BUILD (seo-content) · atlit-detainee-camp-guide
+What: New standalone guide /atlit-detainee-camp-guide — "Atlit Detainee Camp: Holocaust Survivor Immigration History Guide" (P2/S, iter550 research batch). The British Mandatory detention camp 20km south of Haifa where 16,000+ Jewish Holocaust survivors were interned (1938–1948) while attempting to reach Mandatory Palestine via the Aliyah Bet clandestine network. Content: 1939 White Paper context + Aliyah Bet network explanation; Night of the Raiders (Oct 10, 1945 — Yitzhak Rabin, then a young Palmach officer, led the unit that freed 208 detainees); full site walkthrough (original barracks, electrified perimeter fence + British watchtower, full-scale immigrant ship replica below-decks, C-46 Curtiss Commando aircraft, educational centre + English film); practical logistics table (Atlit / Route 2 / 20km south Haifa; Bus 921; Tue–Thu 8:30–17:00, Fri 8:30–13:00; closed Mon + Shabbat); combination table. 3 affiliate CTAs: GYG Jewish Heritage Day Tours from Haifa, Viator Haifa & Northern Israel Historical Tours, Booking.com Hotels in Haifa. 6 FAQs.
+Cross-links: day-trips-from-haifa.md (+Atlit bullet in top day trips + car table row); haifa-travel-guide.md (+What to combine nearby paragraph); jewish-heritage-israel.md (+Practical tips bullet); Footer.astro (+link after valley-of-tears-golan). Smoke test +1 (/atlit-detainee-camp-guide added to ROUTES array).
+Gate: pnpm check 0 errors; build 744 pages (+1 from 743); 1054/1054 e2e pass. GREEN.
+Ship: squash-merged to master SHA 40bed42, pushed to origin/master. Branch auto/atlit-detainee-camp-guide deleted.
+Prod: CI in_progress at push time — consistent with prior iterations; expect success.
+Next: iter554 → REVIEW (audit iters 551-553: judean-hills-wine-trail, israel-rainy-day-activities, atlit-detainee-camp-guide).

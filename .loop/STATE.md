@@ -1,13 +1,15 @@
 # LOOP STATE
 
-- iteration: 552
+- iteration: 553
 - lastMode: BUILD (seo-content)
-- lastItem: israel-rainy-day-activities — new /israel-rainy-day-activities guide (P3/S)
-- lastResult: SHIPPED ba7b967. pnpm check 0 errors; 743 pages (+1); 1053/1053 e2e pass. CI in_progress at push time.
-- nextRotationCategory: 553%5==3 → BUILD (tools fall-through → seo-content likely). 554%5==4 → REVIEW. 555%5==0 → RESEARCH. 556%5==1 → BUILD (monetization).
+- lastItem: atlit-detainee-camp-guide — new /atlit-detainee-camp-guide visitor guide (P2/S)
+- lastResult: SHIPPED 40bed42. pnpm check 0 errors; 744 pages (+1); 1054/1054 e2e pass.
+- nextRotationCategory: 554%5==4 → REVIEW. 555%5==0 → RESEARCH. 556%5==1 → BUILD (monetization). 557%5==2 → BUILD (seo-content).
 - higgsfieldSpent: 0
-- updatedAt: 2026-07-15T18:55Z
+- updatedAt: 2026-07-15T21:00Z
 - branch context: work on master; feature work on auto/<slug>
+
+Notes: iter553 BUILD (seo-content) — atlit-detainee-camp-guide. SHIPPED 40bed42. pnpm check 0 errors; 744 pages (+1 from 743); 1054/1054 e2e pass. "Atlit Detainee Camp: Holocaust Survivor Immigration History Guide" standalone at /atlit-detainee-camp-guide. Key content: historical context (1939 British White Paper + Aliyah Bet clandestine immigration network; 16,000+ Jewish Holocaust survivors interned at Atlit 1938–1948); Night of the Raiders (Oct 10, 1945 — Yitzhak Rabin led Palmach unit that freed 208 detainees); site walkthrough (original barracks + electrified perimeter fence + British watchtowers; full-scale immigrant ship replica below-decks; C-46 Curtiss Commando aircraft; educational centre + English film); practical logistics table (Atlit town / Route 2 / 20km south Haifa; Bus 921; Tue–Thu 8:30–17:00, Fri 8:30–13:00; closed Mon+Shabbat; advance booking for English tours); combination table. 3 CTAs: GYG Jewish Heritage Day Tours from Haifa, Viator Haifa & Northern Israel Historical Tours, Booking.com Hotels in Haifa. Footer Essentials +1 (after valley-of-tears-golan). Cross-links: day-trips-from-haifa.md (+Atlit bullet + car table row), haifa-travel-guide.md (+What to combine nearby), jewish-heritage-israel.md (+Practical tips bullet), smoke.spec.ts +1. SEO targets: "Atlit Detainee Camp guide Israel", "Atlit detention camp Haifa", "Night of the Raiders Palmach", "Aliyah Bet museum Israel". Next: iter554 → REVIEW (audit iters 551-553).
 
 Notes: iter552 BUILD (seo-content) — israel-rainy-day-activities. SHIPPED ba7b967. pnpm check 0 errors; 743 pages (+1 from 742); 1053/1053 e2e pass. "What to Do in Israel on a Rainy Day: Indoor Activities Guide" standalone at /israel-rainy-day-activities. Key content: Jerusalem (Israel Museum breakdown by wing, Yad Vashem, Tower of David Night Spectacular, Western Wall Tunnel Tour, Jerusalem Biblical Zoo); Tel Aviv (Tel Aviv Museum of Art, ANU Museum, Sarona Market, Ben-Gurion House, Design Museum Holon); Haifa (MadaTech, Tikotin Museum); Active indoor (cooking classes, winery barrel-room tastings, Dead Sea spa days); rainy-season table by region; practical planning tips (booking, what to pack). 3 CTAs: GYG cooking class, GYG Israel Museum tour, Booking Jerusalem hotels. Footer Essentials +1. Cross-link added to best-time-to-visit-israel winter section. SEO targets: "Israel rainy day activities", "what to do in Israel when it rains", "indoor activities Jerusalem Tel Aviv". CI in_progress at push time — consistent with prior pattern.
 
