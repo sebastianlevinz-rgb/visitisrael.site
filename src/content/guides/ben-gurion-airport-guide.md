@@ -117,6 +117,10 @@ For detailed route comparisons, Shabbat schedules, and prices to Tel Aviv, Jerus
 - **485 bus**: serves Jerusalem 24h except Shabbat.
 - **Sherut**: shared minibus, around the clock including Shabbat.
 
+## Where to sleep near the airport
+
+If you have an early-morning departure, a late-night arrival before a long drive, or need to avoid Shabbat transport disruption, hotels in the Airport City zone (5–10 minutes from Terminal 3 by free 24-hour shuttle) are the most practical option. The main properties — Leonardo Airport Hotel, Carlton Hotel Tel Aviv Airport (with pool), and Holiday Inn Express Tel Aviv Airport — all run complimentary around-the-clock shuttles. See the [hotels near Ben Gurion Airport guide](/hotels-near-ben-gurion-airport) for a full comparison and decision matrix.
+
 ## Before you fly: a quick checklist
 
 - [ETA-IL pre-travel authorisation](/visa-information) (most nationalities require this; apply 72h before flying)
