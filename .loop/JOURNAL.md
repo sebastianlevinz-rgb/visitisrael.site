@@ -8574,3 +8574,22 @@ Ship: committed to master SHA 7bfad4e, pushed to origin/master. CI in_progress a
 Also noted: sarona-market-tel-aviv BACKLOG item is stale (SHIPPED iter392 ce903fd) — BACKLOG cleanup needed.
 SEO targets: "Purim in Israel 2027", "Purim Tel Aviv Dizengoff Square", "Jerusalem Adloyada parade Purim", "megillah reading visitors Israel", "Purim costume party Israel guide".
 Next: iter 549 → REVIEW (549%5==4). Audit 3 recent guides: purim-in-israel, beit-shean-guide, hotels-near-ben-gurion-airport. Check internal links, hero images, H1-in-body, back-links, meta desc lengths.
+
+---
+2026-07-15 · iter 549 · REVIEW · audit iters 546-548
+
+Audited: hotels-near-ben-gurion-airport (iter546), beit-shean-guide (iter547), purim-in-israel (iter548).
+
+Checks:
+1. Internal links — all 16 links across 3 files resolve (16/16 ✓)
+2. Hero images — all 3 referenced images exist at public/images/ ✓
+3. H1 in body — none found in any file ✓
+4. Back-links — all confirmed present ✓
+   - purim-in-israel: traveling-israeli-jewish-holidays, tel-aviv-nightlife, israel-events-festivals, Footer.astro
+   - beit-shean-guide: water-hiking-israel, israel-national-parks-pass
+   - hotels-near-ben-gurion-airport: ben-gurion-airport-guide, israel-accommodation-guide
+5. Meta description lengths — DEFECT FOUND: purim-in-israel 170 chars, beit-shean-guide 170 chars (limit 160)
+   Fix: purim-in-israel → 157 chars; beit-shean-guide → 141 chars
+
+Gate: pnpm check 0 errors; 741 pages (no change); 1051/1051 e2e pass.
+Ship: 620dc96. Next iteration: 550 → RESEARCH.

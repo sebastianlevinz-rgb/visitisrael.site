@@ -1,13 +1,15 @@
 # LOOP STATE
 
-- iteration: 548
-- lastMode: BUILD (monetization; tools fall-through — shabbat-time stale/duplicate of existing israel-shabbat-calendar iter78 + israel-shabbat-countdown iter138)
-- lastItem: purim-in-israel — new /purim-in-israel standalone guide; Purim 2027 (March 22-23 Tel Aviv Dizengoff Square 200k+ party, March 23-24 Jerusalem Shushan Purim Adloyada parade); megillah reading guide for visitors of any background; Purim traditions (mishloach manot, hamentaschen, ad-d'lo-yada drinking custom); TLV vs Jerusalem comparison table; Dizengoff Square logistics + LGBTQ+ Hilton Beach scene; circuit party booking; costume sourcing; getting around on Purim day; 7 FAQs; 3 CTAs (Booking TLV + GYG Purim + Viator); cross-links: traveling-israeli-jewish-holidays (fixed wrong 2027 date "Feb 20-21" → "Mar 22-23" in narrative text + Purim guide link), tel-aviv-nightlife (+Purim cross-link), israel-events-festivals (+Purim row + paragraph), Footer.astro (+Purim after Passover); smoke test +1; 741 pages (+1); 1051/1051 e2e pass
-- lastResult: SHIPPED 7bfad4e — pnpm check 0 errors; build 741 pages; 1051/1051 e2e pass; pushed to origin/master; CI in_progress at push time
-- nextRotationCategory: 549%5==4 → REVIEW. 550%5==0 → RESEARCH. 551%5==1 → BUILD (monetization). 552%5==2 → BUILD (seo-content). 553%5==3 → BUILD (tools fall-through → seo-content likely).
+- iteration: 549
+- lastMode: REVIEW
+- lastItem: audit iters 546-548 (hotels-near-ben-gurion-airport, beit-shean-guide, purim-in-israel). Checks: (1) internal links — all 16 links across 3 files resolve; (2) hero images — all 3 referenced images exist; (3) H1 in body — none found in any file; (4) back-links — all confirmed present (purim: 3 guides + Footer; beit-shean: water-hiking-israel + israel-national-parks-pass; hotels-airport: ben-gurion-airport-guide + israel-accommodation-guide); (5) meta description lengths — DEFECT: purim-in-israel 170 chars, beit-shean-guide 170 chars. Fix: trimmed to 157 chars and 141 chars. Gate: pnpm check 0 errors; 741 pages; 1051/1051 e2e pass.
+- lastResult: SHIPPED 620dc96 — pnpm check 0 errors; build 741 pages; 1051/1051 e2e pass; pushed to origin/master
+- nextRotationCategory: 550%5==0 → RESEARCH. 551%5==1 → BUILD (monetization). 552%5==2 → BUILD (seo-content). 553%5==3 → BUILD (tools fall-through → seo-content likely). 554%5==4 → REVIEW.
 - higgsfieldSpent: 0
-- updatedAt: 2026-07-15T15:45Z
+- updatedAt: 2026-07-15T16:05Z
 - branch context: work on master; feature work on auto/<slug>
+
+Notes: iter549 REVIEW — audit iters 546-548 (hotels-near-ben-gurion-airport, beit-shean-guide, purim-in-israel). DEFECT FOUND+FIXED: purim-in-israel description 170→157 chars; beit-shean-guide description 170→141 chars. All other checks clean (16 links, 3 images, 0 H1, back-links). SHIPPED 620dc96. Next: 550 RESEARCH.
 
 Notes: iter548 BUILD (monetization; tools fall-through) — purim-in-israel. SHIPPED 7bfad4e. pnpm check 0 errors; 741 pages (+1); 1051/1051 e2e pass. "Purim in Israel 2027: Tel Aviv Street Party & Jerusalem Guide" standalone at /purim-in-israel. Shabbat-time-tool item (iter545 research) marked stale/duplicate in BACKLOG — israel-shabbat-calendar.astro (iter78) and israel-shabbat-countdown.astro (iter138) already cover this functionality completely. Also noted sarona-market-tel-aviv backlog item is stale (SHIPPED iter392 ce903fd). SEO: "Purim in Israel 2027", "Purim Tel Aviv Dizengoff Square", "Jerusalem Adloyada parade Purim", "megillah reading visitors Israel", "Purim costume party Israel".
 
