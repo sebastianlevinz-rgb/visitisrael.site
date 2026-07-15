@@ -202,18 +202,18 @@ For a full planning guide covering dates, the Western Wall Birkat Kohanim, Chol 
 
 **What it is**: A festive holiday celebrating the Jewish community's rescue as told in the Book of Esther. The main observances are reading the Megillah (Book of Esther) in synagogue, giving food gifts to neighbours (mishloach manot), donating to charity, and a festive meal. Costumes, noise-makers (groggers), and a carnival atmosphere are traditional.
 
-**When**: March 3–4, 2026; February 20–21, 2027.
+**When**: March 3–4, 2026; March 22–23, 2027 (Jerusalem: March 23–24, Shushan Purim).
 
 **Impact on visitors**: light — Purim is a one-day holiday (two days in walled cities; Jerusalem celebrates Shushan Purim, one day after Purim). Transport and most businesses operate normally.
 
 **What to look forward to**:
 
 - **Costumes everywhere**: Israelis dress in costume for Purim with a thoroughness that rivals Halloween — adults and children alike. The streets of Tel Aviv, the bars of Florentin, and the markets of Jerusalem fill with dressed-up crowds.
-- **Tel Aviv Purim party**: Tel Aviv's Purim street parties and club events are internationally known. The bars and clubs in the Florentin neighbourhood and the Old North run events through the night.
+- **Tel Aviv Dizengoff Square party**: Tel Aviv's Purim street party at Dizengoff Square draws 200,000–250,000 people — one of the world's largest annual costume events. The bars and clubs in the Florentin neighbourhood and the Old North run events through the night.
 - **Hamantaschen** (oznei haman): triangular filled pastry named for the villain Haman, available in every bakery in the weeks before Purim. Traditional fillings include poppy seed (mohn), date, and apricot; creative bakeries now offer chocolate, halvah, and pistachio.
-- **Jerusalem is quieter**: Purim atmosphere in Jerusalem is more centred on families and community events than Tel Aviv's nightlife; the festive meal culture is stronger here. A midday parade through the centre of the city is a family tradition.
+- **Jerusalem is quieter**: Purim atmosphere in Jerusalem is more centred on families and the Adloyada parade; the festive meal culture is stronger here.
 
-**Booking advice**: no special advance booking needed for accommodation. Tel Aviv Purim events and popular club nights sell out — book those in advance if applicable.
+**Booking advice**: no special advance booking needed for accommodation. Tel Aviv Purim events and popular club nights sell out — book those in advance if applicable. See our [full Purim in Israel guide](/purim-in-israel) for Dizengoff Square logistics, Jerusalem Adloyada details, and how to find an open megillah reading.
 
 ---
 

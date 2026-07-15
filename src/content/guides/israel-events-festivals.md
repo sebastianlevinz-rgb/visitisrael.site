@@ -72,7 +72,7 @@ Israel packs a remarkable number of festivals, cultural events and religious hol
 
 | When | Event | Where |
 | --- | --- | --- |
-| **Spring** | Passover; Easter / Holy Week | Nationwide; [Jerusalem](/jerusalem), [Nazareth](/nazareth) |
+| **Late Winter/Spring** | [Purim](/purim-in-israel) (TLV Dizengoff party + Jerusalem Adloyada); Passover; Easter / Holy Week | Nationwide; [Tel Aviv](/tel-aviv), [Jerusalem](/jerusalem), [Nazareth](/nazareth) |
 | **May–Jun** | Tel Aviv Pride (Middle East largest) | [Tel Aviv](/tel-aviv) |
 | **Summer** | Jerusalem festivals (film, lights, wine); White Night Tel Aviv; [Maccabiah Games](/maccabiah-games-2026) (every 4 years) | Jerusalem, Tel Aviv, Netanya |
 | **Autumn** | Rosh Hashanah, Yom Kippur, [Sukkot](/sukkot-in-israel) (High Holidays) | Nationwide |
@@ -83,6 +83,8 @@ Israel packs a remarkable number of festivals, cultural events and religious hol
 ## The two big planning inputs
 
 **Tel Aviv Pride (June)** is the largest Pride in the Middle East — a week of events and a vast parade. The city fills and rooms sell out months ahead, so **book accommodation early** (above). See our [Tel Aviv nightlife guide](/tel-aviv-nightlife).
+
+**Purim (late winter)** brings Tel Aviv's Dizengoff Square costume party — 200,000+ attendees — and Jerusalem's Adloyada parade the following day. Club nights sell out weeks in advance. See the [Purim in Israel guide](/purim-in-israel) for 2027 dates and logistics.
 
 **The holiday calendar** drives closures and prices. Jewish holidays (Passover, the [High Holidays](/best-time-to-visit-israel)) bring [Shabbat](/shabbat-guide)-style shutdowns and higher rates; Christian Holy Week and Christmas pack Jerusalem and the Galilee. For a holiday-by-holiday tourist breakdown — what changes, what to book in advance, and what's worth staying for — see our [guide to traveling in Israel during Jewish holidays](/traveling-israel-jewish-holidays).
 
