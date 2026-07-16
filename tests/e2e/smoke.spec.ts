@@ -24,6 +24,7 @@ const ROUTES = [
   '/tel-aviv-tours-compared',
   '/eilat-tours-compared',
   '/dead-sea-tours-compared',
+  '/haifa-tours-compared',
   '/israel-tour-operators-guide',
   '/best-things-to-do-in-israel',
   '/visa-information',

@@ -157,3 +157,5 @@ For a full breakdown of which neighborhood suits your trip — German Colony, Wa
 **Three days:** Use the [3 days in Haifa itinerary](/3-days-in-haifa) — the complete day-by-day plan covering the Bahá'í Terraces, Wadi Nisnas, the Carmel market, Druze villages and Stella Maris, with transport and hotel guidance.
 
 **From a cruise ship in Haifa port:** The German Colony is a 10–15 minute walk from the cruise terminal. The Bahá'í Gardens terrace base is another 10 minutes beyond that. The Carmelit Paris Square station is 5 minutes north of the German Colony. See the [cruise shore excursions guide](/cruise-shore-excursions-israel) for pre-booked port options. For [day trips from Haifa](/day-trips-from-haifa) including Akko, Rosh Hanikra and Caesarea, see our dedicated route planner.
+
+For an honest side-by-side comparison of every Haifa tour format — Bahá'í Gardens city tour, Haifa + Akko day trip, Haifa + Akko + Rosh Hanikra and the cruise shore excursion — with a decision guide and where to book, see the [Haifa tours compared guide](/haifa-tours-compared).
