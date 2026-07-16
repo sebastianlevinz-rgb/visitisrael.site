@@ -522,6 +522,7 @@ const ROUTES = [
   '/best-hotels-tiberias',
   '/best-hotels-sea-of-galilee',
   '/best-hotels-negev',
+  '/best-hotels-nazareth',
   '/hotels-near-ben-gurion-airport',
   '/tabgha-church-guide',
   '/western-galilee-guide',
