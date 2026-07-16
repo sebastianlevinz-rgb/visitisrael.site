@@ -8730,3 +8730,21 @@ Prod deploy: in_progress at commit time; 556%5==1 BUILD next → 557%5==2 BUILD 
 **Gate:** No changes made → no gate run needed.
 
 **Result:** REVIEW CLEAN. No defects in iters 556–558. Next: iter560 → RESEARCH (pass #114).
+
+## 2026-07-16T07:00Z · iter 560 · RESEARCH · pass #114
+
+**What:** RESEARCH mode (560%5==0). Web research pass #114 across competitor sources to find net-new content gaps.
+
+**Sources checked:** touristisrael.com, goisrael.com, lonelyplanet.com/israel, roughguides.com/destinations/middle-east/israel, gyg.com/israel, viator.com/israel, tripadvisor.com/Tourism-g293977-Israel, nomadicmatt.com, backpackisrael.com, biblewalks.com, hikingintheholyland.com, israel-in-photos.com, beinharimtours.com, levyisraeltours.com, nativa.co.il, alltrails.com, departures.com, myjewishlearning.com, luxuryescapes.com, timeout.com/israel, laidbacktrip.com, private-tours-in-israel.com, holylandviptours.net, dannythedigger.com, israelbylocals.com, golanispirit.com, mh-distillery.com, hotel-scoop.com, monacorona.com, fivestaralliance.com. 30+ candidates evaluated.
+
+**Net-new items confirmed (6):**
+1. `/city-of-david-guide` — P2, S, seo-content+monetization. Practical HOW-TO for City of David + Hezekiah's Tunnel (wet vs dry route). Our jewish-heritage-israel.md + 1-day-jerusalem-itinerary.md mention it briefly; no standalone guide. GYG has 1200+ reviews on City of David tours = high demand.
+2. `/gamla-guide` — P2, S, seo-content. Gamla Nature Reserve: Israel's tallest waterfall (51m), "Masada of the North" ruins (fell to Romans 67 CE), Griffon vulture colony (100+ breeding pairs). Not in BACKLOG or DONE.
+3. `/via-dolorosa-guide` — P2, S, seo-content+monetization. 14 Stations of the Cross practical guide; Friday Franciscan procession 3pm; all 14 stations with HOW-TO logistics. christian-pilgrimage-holy-land.md covers briefly; standalone needed.
+4. `/israel-craft-spirits` — P2, S, seo-content+monetization. M&H Distillery won World's Best Single Malt Whisky 2023 (World Whiskies Awards) — internationally significant. Distinct from our existing craft-beer and wine guides.
+5. `/sea-of-galilee-beaches` — P2, S, seo-content. Beaches + swimming guide distinct from city logistics guide (tiberias-guide, iter87) and boat-tour guide (iter273). Ein Gev, Tsemach, Gofra beaches + Shvil Sovev Kinneret.
+6. `/luxury-arava-desert` — P2, M, seo-content+monetization. Six Senses Shaharut, MICHELIN-listed luxury property in Arava Valley; distinct from mitzpe-ramon-guide, glamping-israel, israel-wellness-spa.
+
+**Saturation:** Extreme at pass #114. Required 30+ candidates to surface 6 net-new items. ~82% of high-value obvious gaps now covered.
+
+**Next:** iter561 → BUILD (monetization). Candidate: city-of-david-guide (P2, S, monetization).

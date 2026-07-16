@@ -5082,3 +5082,29 @@ Key findings:
 - **Montfort Fortress** (parks.org.il, beinharimtours.com, nativa.co.il, alltrails.com): we have 400-word hub section in western-galilee-guide; competitors have standalone guides with hiking logistics; Teutonic Knights vs Crusaders distinction is historically meaningful SEO angle (distinct search queries).
 
 Saturation confirmed: 6 net-new items from 30+ candidates at pass #113 = extreme saturation (~80% of obvious gaps now covered).
+
+## iter560 · 2026-07-16 · Research Pass #114
+
+Competitor sources checked: touristisrael.com, goisrael.com, lonelyplanet.com/israel, roughguides.com/destinations/middle-east/israel, gyg.com/israel, viator.com/israel, tripadvisor.com, nomadicmatt.com, backpackisrael.com, biblewalks.com, hikingintheholyland.com, israel-in-photos.com, beinharimtours.com, levyisraeltours.com, nativa.co.il, alltrails.com, departures.com, myjewishlearning.com, luxuryescapes.com, timeout.com/israel, laidbacktrip.com, private-tours-in-israel.com, holylandviptours.net, dannythedigger.com, israelbylocals.com, golanispirit.com, mh-distillery.com, hotel-scoop.com, monacorona.com, fivestaralliance.com.
+
+Key findings:
+- **City of David & Hezekiah's Tunnel** (touristisrael.com/city-of-david, GYG 1200+ reviews, backpackisrael.com, thebackpackingfamily.com): we have brief mentions in jewish-heritage + 1-day-jerusalem itinerary; competitors have dedicated practical guides covering wet vs dry tunnel route, advance booking requirements, Pool of Siloam, political context. GYG review count signals high tourist demand.
+- **Gamla Nature Reserve** (israel-in-photos.com/gamla, nativa.co.il, levyisraeltours.com, beinharimtours.com, dannythedigger.com, israelbylocals.com/gamla-waterfall): six distinct competitors have editorial content; we have zero. Unique combination: Israel's tallest waterfall + "Masada of the North" Roman-siege ruins + Griffon vulture colony. Premium Golan attraction not in our BACKLOG.
+- **Via Dolorosa** (touristisrael.com, Frommer's, nomadicniko.com, backpackisrael.com, holylandviptours.net): standalone practical guides with all 14 stations; Friday procession at 3pm is a key tourist draw. We only have brief mentions in christian-pilgrimage-holy-land.md.
+- **Israel craft spirits & whisky** (Departures.com, myjewishlearning.com/the-nosher): M&H Distillery's World Whiskies Awards 2023 win gives this international credibility. Departures magazine coverage signals luxury traveler interest. We have craft-beer + wine guides but zero spirits coverage.
+- **Sea of Galilee beaches** (laidbacktrip.com, israel-taxi.com, timeout.com/israel, private-tours-in-israel.com): distinct from city guide + boat tour guide we have; beach-by-beach breakdown (Ein Gev, Tsemach, Gofra, Tiberias waterfront, Shvil Sovev Kinneret trail) is a practical planning resource our site lacks.
+- **Six Senses Shaharut / luxury Arava** (luxuryescapes.com, hotel-scoop.com, MICHELIN Guide): internationally ranked luxury property in under-documented Arava region. Luxury travel segment with high affiliate revenue potential.
+
+Confirmed not gaps this pass:
+- Avshalom Cave / Sorek Cave (SHIPPED iter281)
+- Herzliya Marina (brief coverage in tel-aviv-day-trips; BACKLOG area covered)
+- Beer Sheba Old City (BACKLOG L355 area)
+- Ramat Gan National Park / Safari (BACKLOG L659)
+- Mount of Olives (SHIPPED iter112 jerusalem-old-city-walking-tour)
+- Yad Vashem (SHIPPED iter89)
+- Dead Sea Scrolls / Shrine of the Book (covered in israel-museum-guide SHIPPED iter421)
+- Acre / Akko (SHIPPED iter93)
+- Rosh Pina (SHIPPED iter380 golan-heights-guide via mentions; Safed guide SHIPPED iter104 nearby)
+- Beit Guvrin (BACKLOG beit-guvrin-caves-guide)
+
+Saturation: Extreme at pass #114. 6 net-new items from 30+ candidates (~82% of high-value gaps covered).
