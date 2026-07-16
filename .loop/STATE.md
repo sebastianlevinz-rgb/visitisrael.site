@@ -1,10 +1,10 @@
 # LOOP STATE
 
-- iteration: 572
+- iteration: 573
 - lastMode: BUILD (seo-content)
-- lastItem: zionist-heritage-trail
-- lastResult: SHIPPED e82cc69. pnpm check 0 errors; 755 pages (+1 from 754); 1065/1065 e2e+a11y pass. New guide /zionist-heritage-trail — "Zionist Heritage Trail: Founding Sites of Modern Israel" (P2/S seo-content). Self-drive circuit through 6 founding sites: Mount Herzl + Herzl Museum (Jerusalem, light-rail accessible); Independence Hall / Beit Ha'atzmaut (Rothschild Blvd TLV, 1948 Declaration); Rishon LeZion 1882 first agricultural colony (artesian well + Rothschild archive museum); Sde Boker Ben Gurion Desert Home + Nahal Zin canyon grave (car essential); Degania Aleph first kibbutz 1910 (Beit Gordon Museum + 1948 Syrian tank at gate); Tel Hai / Trumpeldor memorial + Roaring Lion statue (1920). 4-day suggested circuit table (Jerusalem → TLV coastal plain → Negev → Sea of Galilee/Galilee). 7 FAQs. 3 CTAs: GYG Zionist history tours, Viator Israel history tours, DiscoverCars. Footer Essentials +1 (after jewish-heritage-israel). Smoke test +1. CI in_progress at state-write time (consistent with prior pattern).
-- nextRotationCategory: 573%5==3 → BUILD (tools→seo-content). 574%5==4 → REVIEW. 575%5==0 → RESEARCH (pass #117). 576%5==1 → BUILD (monetization). 577%5==2 → BUILD (seo-content).
+- lastItem: jerusalem-trail
+- lastResult: SHIPPED. pnpm check 0 errors; 756 pages (+1 from 755); e2e exit code 0. New guide /jerusalem-trail — "Jerusalem Trail: Complete Hiking Guide (Shvil Yerushalayim)" (P2/M seo-content). 42km waymarked loop encircling Jerusalem; 4 segments (W: Yad Vashem→Ein Kerem→Ora; S: Ora→Har Gilo→Ramat Rachel; E: Ramat Rachel→Abu Dis→Augusta Victoria; N: Augusta Victoria→Ammunition Hill→Givat Hamivtar). Green-white-blue blazes, public transit access, no permit. 7 FAQs, 3 CTAs (GYG/Booking/DiscoverCars). Cross-link added to hiking-in-israel.md (Jerusalem Trail section after Jesus Trail block). Smoke test +1. STALE NOTE: florentin-tel-aviv backlog item retired — tel-aviv-florentin.md exists in attractions/ (not guides/), confirmed by file check.
+- nextRotationCategory: 574%5==4 → REVIEW. 575%5==0 → RESEARCH (pass #117). 576%5==1 → BUILD (monetization). 577%5==2 → BUILD (seo-content). 578%5==3 → BUILD (tools→seo-content).
 - higgsfieldSpent: 0
 - updatedAt: 2026-07-16T15:55Z
 - branch context: work on master; feature work on auto/<slug>
