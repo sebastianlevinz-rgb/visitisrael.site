@@ -595,6 +595,7 @@ const ROUTES = [
   '/valley-of-elah-guide',
   '/keshet-cave-guide',
   '/sea-of-galilee-beaches',
+  '/jesus-trail-israel',
 ];
 
 for (const route of ROUTES) {

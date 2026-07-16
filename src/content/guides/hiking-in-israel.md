@@ -46,7 +46,7 @@ The **Jesus Trail** is Israel's best-known pilgrimage hike: roughly **65 km (40 
 - **Best time:** spring and autumn. Galilee summers are hot; winters can be wet.
 - **Logistics:** waymarked, well documented, with accommodation spaced along the route — the most "just turn up and walk" long trail in the country.
 
-Some operators sell the Jesus Trail as a guided, baggage-transferred multi-day hike if you'd rather not plan it yourself.
+Some operators sell the Jesus Trail as a guided, baggage-transferred multi-day hike if you'd rather not plan it yourself. For a full stage-by-stage breakdown with accommodation options, key biblical sites, trail logistics and self-guided vs guided comparison, see our dedicated **[Jesus Trail complete guide](/jesus-trail-israel)**.
 
 ## Day hikes — if you only have a day
 
