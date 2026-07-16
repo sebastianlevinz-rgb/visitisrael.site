@@ -8833,3 +8833,19 @@ Note: iter560 research backlog had city-of-david-guide + gamla-guide as items, b
 **Prod:** Lighthouse + CI workflows both in_progress at time of writing — per playbook §5, leave it; next iteration confirms.
 
 **Next:** iter567 → BUILD (seo-content). 567%5==2.
+
+## 2026-07-16T10:50Z · iter567 · BUILD (seo-content) · jesus-trail-israel
+
+**What:** New guide `/jesus-trail-israel` — "Jesus Trail: Complete Hiker's Guide to the Galilee Pilgrimage Route". Fills confirmed gap: christian-pilgrimage-holy-land.md and hiking-in-israel.md both reference the Jesus Trail briefly, but no standalone 65 km 4-stage trail guide existed. jesustrail.com, pieceofholyland.com, Abraham Tours all rank for "Jesus Trail guide Israel"; zero equivalent editorial guide on site. P2 seo-content+monetization item from iter165 research.
+
+**Content:** Introduction (65 km Nazareth→Capernaum in 3–4 days; daypack + trail-angel network); route overview table (4 stages with distance and key site); Stage 1 Nazareth→Shibli (~22 km — Basilica of Annunciation, Cana/Kafr Kanna dual Wedding Churches, Bedouin village overnight); Stage 2 Shibli→Arbel (~14 km — Horns of Hattin 1187 Crusader battlefield, Mount Arbel cliff-top panorama with iron-handholds descent); Stage 3 Arbel→Ginosar (~15 km — Magdala Center/Duc in Altum Church/Magdala Stone, Yigal Allon Museum first-century Jesus Boat); Stage 4 Ginosar→Capernaum (~14 km — Tabgha loaves+fishes Byzantine mosaic, Church of Primacy of Peter basalt lakeshore, Mount of Beatitudes Sermon location, Capernaum Insula Sacra glass-floored church). Accommodation section: trail-angel network explanation + per-stage options (Shibli families, Arbel/Migdal limited beds, Kibbutz Ginosar waterfront, Tiberias hotels for trail end). Self-guided vs guided comparison (jesustrail.com GPX + waymarked blazes vs guided baggage-transfer + biblical-depth advantage). Practical info table (distance/difficulty/season/water/trail-marking/dress/getting-there/combining with wider Galilee). 7 FAQs: how long; difficulty; advance booking; independent walking; best season; key spiritual sites; getting to Nazareth start. 3 affiliate CTAs: GYG "Guided Jesus Trail Walks & Galilee Pilgrim Hikes" (query: Jesus Trail guided hike Galilee Nazareth Capernaum), DiscoverCars Nazareth (stage-transfer car rental), Booking.com Tiberias (trail end hotels). Honesty: all hotel descriptions as general guidance; trail angel availability framed with advance-booking requirement; no fabricated review counts or prices.
+
+**Cross-links:** hiking-in-israel.md — added dedicated guide link at end of Jesus Trail section ("For a full stage-by-stage breakdown...see our dedicated Jesus Trail complete guide"). christian-pilgrimage-holy-land.md — added Jesus Trail paragraph to Nazareth & the Galilee section ("If you have 3–4 days and want to walk the landscape rather than drive it, the Jesus Trail...passes every major Galilean Gospel site on foot"). Smoke test +1 (/jesus-trail-israel added to ROUTES array).
+
+**Gate:** pnpm check 0 errors; pnpm build 752 pages (+1 from 751); pnpm test:e2e 1062/1062 pass.
+
+**Ship:** SHA c1b2c14. Committed directly on master (feature branch had no commits — all changes in working tree). CI in_progress at push time — consistent with prior pattern.
+
+**Prod:** Lighthouse + CI workflows in_progress at push time. Next iteration confirms.
+
+**Next:** iter568 → BUILD (568%5==3 → tools category, but all tools SHIPPED → seo-content fallthrough). Top ready P2 seo-content items: israel-water-parks-family-fun (iter165 research, P2), ayalon-institute-guide (iter565 research, P2), kfar-kedem-nazareth-village (iter565 research, P2).
