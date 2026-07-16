@@ -48,6 +48,12 @@ The **Jesus Trail** is Israel's best-known pilgrimage hike: roughly **65 km (40 
 
 Some operators sell the Jesus Trail as a guided, baggage-transferred multi-day hike if you'd rather not plan it yourself. For a full stage-by-stage breakdown with accommodation options, key biblical sites, trail logistics and self-guided vs guided comparison, see our dedicated **[Jesus Trail complete guide](/jesus-trail-israel)**.
 
+## The Jerusalem Trail (Shvil Yerushalayim)
+
+The **Jerusalem Trail** is a 42km waymarked loop that fully encircles Jerusalem city — the only circular city-encirclement trail in Israel. It is divided into four day-hikeable segments covering the western pine-forested hills (past **Ein Kerem** and **Yad Vashem**), the southern ridge above Bethlehem with views into the Judean hills, the dramatic eastern escarpment of the **Mount of Olives**, and the northern urban arc through Ammunition Hill. Most walkers complete it over two or three days as separate day hikes from a Jerusalem base; the trailhead for Segment 1 is reachable by bus from the Central Bus Station.
+
+Unlike the National Trail or Jesus Trail, the Jerusalem Trail is not a point-to-point route — it returns you to the city at each segment's end, making it ideal for travellers already based in Jerusalem. It is best walked in spring (wildflowers in the western segment) or October–November. For the complete segment-by-segment breakdown, practical access and season guide, see **[Jerusalem Trail hiking guide](/jerusalem-trail)**.
+
 ## Day hikes — if you only have a day
 
 Not everyone has days to spare. Israel's best day hikes deliver outsized scenery for a few hours' effort:
