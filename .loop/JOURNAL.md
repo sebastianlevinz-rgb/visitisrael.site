@@ -8849,3 +8849,25 @@ Note: iter560 research backlog had city-of-david-guide + gamla-guide as items, b
 **Prod:** Lighthouse + CI workflows in_progress at push time. Next iteration confirms.
 
 **Next:** iter568 → BUILD (568%5==3 → tools category, but all tools SHIPPED → seo-content fallthrough). Top ready P2 seo-content items: israel-water-parks-family-fun (iter165 research, P2), ayalon-institute-guide (iter565 research, P2), kfar-kedem-nazareth-village (iter565 research, P2).
+
+## 2026-07-16T11:50Z · iter568 · BUILD (seo-content, tools fallthrough) · luxury-arava-desert
+
+**What:** New guide `/luxury-arava-desert` — "Six Senses Shaharut & Luxury Arava Desert: Israel's Premier Wilderness Retreat". Fills confirmed P2 seo-content+monetization gap from iter560 research pass #114. No standalone guide for Six Senses Shaharut or the Arava Valley luxury segment existed; competitors (luxuryescapes.com, MICHELIN Guide, monacorona.com, hotel-scoop.com) all have content; site was completely absent. Branch: auto/gamla-guide (repurposed; gamla was false gap — see note below).
+
+**False gap resolved:** BACKLOG entry `/gamla-guide` (line 1335, iter560 research) was a slug mismatch — the guide was SHIPPED as `gamla-nature-reserve-guide.md` in iter338. Discovered by checking git log and DONE.md. Switched target to `/luxury-arava-desert` which was the next genuine ready P2 item.
+
+**Content (~1,600 words):** Six Senses Shaharut overview (MICHELIN Guide Hotels listed, IHG One Rewards, ~$900–1,400/night, 60 suites + villas, dark-sky lighting protocol); wellness programming (Sleep + Recovery Programme, biohacking spa, Bedouin herbal treatments — arak-wood, Negev mineral clay); Arava Valley geology (Dead Sea Transform fault, Shaharut highlands 350–450m elevation, red Cambrian sandstone + Cretaceous limestone); dark sky quality (minimal light pollution, Milky Way visible naked eye, resident astronomer programme); Timna Park (Chalcolithic copper mines, Egyptian Hathor temple = only Egyptian temple in modern Israel, King Solomon's Pillars 50m natural sandstone colonnade, Mushroom balanced-rock, Arches Trail); combining with Mitzpe Ramon (1h20 north on Route 40); combining with Eilat (Coral Beach, Dolphin Reef, 45 min south); spa-only vs wellness retreat comparison; practical planning (getting there, season, booking lead time, connectivity, Petra day-trip note via Yitzhak Rabin/Wadi Araba crossing).
+
+**7 FAQs:** what is Six Senses Shaharut; cost; what is the Arava Valley; getting there; best season; activities at/near Shaharut; combining with other Negev destinations.
+
+**3 affiliate CTAs:** Booking.com (Arava hotels, destination: "Arava Valley Israel"); GYG (Arava desert + Timna jeep tours, query: "Arava desert Timna jeep tour stargazing Israel"); DiscoverCars (car essential, Eilat/Negev).
+
+**Cross-links:** Footer.astro (new `<li>` after `/best-hotels-negev`); mitzpe-ramon-guide.md "Continuing south" paragraph (added Six Senses Shaharut mention + dedicated guide link at 1h20 south); israel-wellness-spa.md closing paragraph (new cross-link distinguishing Arava luxury resort from Dead Sea mineral tradition). Smoke test +1 (`/luxury-arava-desert` added to ROUTES array at line 352).
+
+**YAML fix:** title + description used `Israel's` with ASCII apostrophe inside single-quoted YAML string — caught at `pnpm check` with js-yaml "bad indentation" error; fixed by switching title+description to double-quoted strings.
+
+**Gate:** pnpm check 0 errors (130 files); pnpm build 753 pages (+1 from 752); pnpm test:e2e 1063/1063 pass.
+
+**Ship:** Squash-merged to master SHA da1f518. CI in_progress at push time — consistent with prior pattern.
+
+**Next:** iter569 → REVIEW (569%5==4) — audit iters 566-568 (best-hotels-nazareth, jesus-trail-israel, luxury-arava-desert). Key checks: meta descriptions ≤160 chars; no H1 in body; internal links resolve; hero images exist; back-links confirmed.

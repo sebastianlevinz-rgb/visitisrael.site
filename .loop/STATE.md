@@ -1,13 +1,15 @@
 # LOOP STATE
 
-- iteration: 567
-- lastMode: BUILD (seo-content)
-- lastItem: jesus-trail-israel
-- lastResult: SHIPPED c1b2c14. "Jesus Trail: Complete Hiker's Guide to the Galilee Pilgrimage Route" at /jesus-trail-israel. 65 km Nazareth→Capernaum pilgrimage hiking route, 4-stage breakdown, trail-angel network, self-guided vs guided comparison. 7 FAQs, 3 CTAs (GYG + DiscoverCars + Booking.com). Cross-links in hiking-in-israel.md + christian-pilgrimage-holy-land.md. pnpm check 0 errors; 752 pages (+1); 1062/1062 e2e pass. CI in_progress at push time (consistent with prior pattern).
-- nextRotationCategory: 568%5==3 → BUILD (tools→seo-content fallthrough). 569%5==4 → REVIEW. 570%5==0 → RESEARCH (pass #116). 571%5==1 → BUILD (monetization). 572%5==2 → BUILD (seo-content).
+- iteration: 568
+- lastMode: BUILD (seo-content, tools fallthrough)
+- lastItem: luxury-arava-desert
+- lastResult: SHIPPED da1f518. "Six Senses Shaharut & Luxury Arava Desert: Israel's Premier Wilderness Retreat" at /luxury-arava-desert. MICHELIN-listed Six Senses Shaharut, Arava Valley geology+dark skies, Timna Park, Eilat/Mitzpe Ramon combining, 7 FAQs, 3 CTAs (Booking/GYG/DiscoverCars). Cross-links: Footer.astro, mitzpe-ramon-guide.md, israel-wellness-spa.md. pnpm check 0 errors; 753 pages (+1); 1063/1063 e2e pass.
+- nextRotationCategory: 569%5==4 → REVIEW (audit iters 566-568). 570%5==0 → RESEARCH (pass #116). 571%5==1 → BUILD (monetization). 572%5==2 → BUILD (seo-content). 573%5==3 → BUILD (tools→seo-content).
 - higgsfieldSpent: 0
-- updatedAt: 2026-07-16T10:50Z
+- updatedAt: 2026-07-16T11:50Z
 - branch context: work on master; feature work on auto/<slug>
+
+Notes: iter568 BUILD (seo-content, tools fallthrough) — luxury-arava-desert. SHIPPED da1f518. pnpm check 0 errors; 753 pages (+1 from 752); 1063/1063 e2e pass. New guide /luxury-arava-desert covers Six Senses Shaharut (MICHELIN Guide Hotels listed, ~$900–1,400/night, IHG One Rewards), Arava Valley geology (Dead Sea Transform rift, 350–450m elevation at Shaharut), dark sky quality, wellness programming (Sleep+Recovery, biohacking spa, Bedouin herbal treatments), Timna Park copper mines (Chalcolithic, Egyptian Hathor temple, King Solomon's Pillars, Mushroom rock), Eilat/Mitzpe Ramon combining, Petra day-trip note. 7 FAQs: what is Six Senses Shaharut; cost; what is the Arava Valley; getting there; best season; activities; combining with other Negev sites. 3 CTAs: Booking.com (Arava hotels), GYG (Timna+Arava tours), DiscoverCars (car essential). Cross-links: Footer.astro (after /best-hotels-negev), mitzpe-ramon-guide.md "Continuing south" paragraph, israel-wellness-spa.md closing paragraph. FALSE GAP NOTE: gamla-guide (BACKLOG line 1335, /gamla-guide) is a slug mismatch — gamla-nature-reserve-guide.md was SHIPPED in iter338. Marked STALE in BACKLOG.
 
 Notes: iter567 BUILD (seo-content) — jesus-trail-israel. SHIPPED c1b2c14. pnpm check 0 errors; 752 pages (+1 from 751); 1062/1062 e2e pass. New guide /jesus-trail-israel covers the full 65 km Nazareth→Capernaum pilgrimage route: Stage 1 Nazareth→Shibli (~22 km, Basilica of Annunciation + Cana/Kafr Kanna Wedding Churches); Stage 2 Shibli→Arbel (~14 km, Horns of Hattin Crusader battlefield + Mount Arbel cliff-top panorama); Stage 3 Arbel→Ginosar (~15 km, Magdala Center/Duc in Altum Church + Yigal Allon Museum Jesus Boat); Stage 4 Ginosar→Capernaum (~14 km, Tabgha loaves+fishes mosaic + Church of Primacy of Peter + Mount of Beatitudes + Capernaum Insula Sacra). Trail-angel network section with per-stage accommodation notes; self-guided vs guided comparison; practical info (distance/difficulty/season/water/marking/dress/getting-there/combining with wider Galilee). 7 FAQs. 3 affiliate CTAs: GYG (guided trail walks), DiscoverCars Nazareth (stage transfers), Booking.com Tiberias (trail end hotels). Cross-links: hiking-in-israel.md (Jesus Trail section +dedicated guide link); christian-pilgrimage-holy-land.md (Galilee section +65km trail paragraph). Smoke test +1. SEO targets: "Jesus Trail guide Israel", "hiking Jesus Trail Galilee", "Jesus Trail Nazareth Capernaum", "Jesus Trail trail angels", "Jesus Trail self-guided hike". Next: 568 → BUILD (tools→seo-content fallthrough).
 
