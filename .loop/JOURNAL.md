@@ -8748,3 +8748,15 @@ Prod deploy: in_progress at commit time; 556%5==1 BUILD next → 557%5==2 BUILD 
 **Saturation:** Extreme at pass #114. Required 30+ candidates to surface 6 net-new items. ~82% of high-value obvious gaps now covered.
 
 **Next:** iter561 → BUILD (monetization). Candidate: city-of-david-guide (P2, S, monetization).
+
+## 2026-07-16T04:41Z · iter 561 · BUILD (monetization→seo-content+monetization fallthrough) · israel-craft-spirits
+
+**What:** New standalone guide at /israel-craft-spirits — "Israeli Whisky & Craft Spirits Guide: M&H Distillery & Beyond". Covers M&H (Milk & Honey) Distillery Tel Aviv (World's Best Single Malt WWA 2023, World's Best Single Cask WWA 2021), craft gin labels (Golani, Levant, Dead Sea Gin), artisan arak, specialist bars (Dr. Whisky Bar, Beer Bazaar), and duty-free buying at Ben Gurion Airport Terminal 3. Two affiliate CTAs: GYG craft spirits tasting + Booking.com Tel Aviv. Cross-links added to israel-craft-beer.md and israel-wine-wineries.md. smoke.spec.ts +1 (/israel-craft-spirits).
+
+**Mode fallthrough:** All monetization-category BACKLOG items are SHIPPED or ARCHIVED. Fell through to seo-content+monetization per playbook. iter560 research produced the israel-craft-spirits P2 item (upgrading from iter330's P3 entry); city-of-david and via-dolorosa from iter560 confirmed stale (files already exist under different slugs).
+
+**Gate:** pnpm check 0 errors; pnpm build 748 pages (+1 from 747); 1058/1058 e2e pass (was 1057).
+
+**Ship:** squash-merge to master → 08e9670. Pushed. CI in_progress at push time (consistent with pattern across prior 100+ iterations). Prod deploy pending.
+
+**Next:** iter562 → BUILD (seo-content). Candidates: sea-of-galilee-beaches (P2, S) or luxury-arava-desert (P2, M) or any P2 seo-content item.

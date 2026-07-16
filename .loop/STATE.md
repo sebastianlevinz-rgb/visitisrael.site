@@ -1,12 +1,12 @@
 # LOOP STATE
 
-- iteration: 560
-- lastMode: RESEARCH
-- lastItem: research-560-pass-#114 — 6 net-new backlog items: city-of-david-guide, gamla-guide, via-dolorosa-guide, israel-craft-spirits, sea-of-galilee-beaches, luxury-arava-desert
-- lastResult: RESEARCH COMPLETE — pass #114. 30+ candidates checked. 6 net-new items confirmed. Saturation ~82%. No shipping this mode.
-- nextRotationCategory: 561%5==1 → BUILD (monetization). 562%5==2 → BUILD (seo-content). 563%5==3 → BUILD (tools). 564%5==4 → REVIEW. 565%5==0 → RESEARCH.
+- iteration: 561
+- lastMode: BUILD (monetization→seo-content+monetization fallthrough)
+- lastItem: israel-craft-spirits — "Israeli Whisky & Craft Spirits Guide" at /israel-craft-spirits
+- lastResult: SHIPPED 08e9670. pnpm check 0 errors; 748 pages (+1 from 747); 1058/1058 e2e pass. CI in_progress at push time (consistent with prior pattern). Prod deploy pending — next iter confirms.
+- nextRotationCategory: 562%5==2 → BUILD (seo-content). 563%5==3 → BUILD (tools). 564%5==4 → REVIEW. 565%5==0 → RESEARCH. 566%5==1 → BUILD (monetization).
 - higgsfieldSpent: 0
-- updatedAt: 2026-07-16T07:00Z
+- updatedAt: 2026-07-16T04:41Z
 - branch context: work on master; feature work on auto/<slug>
 
 Notes: iter560 RESEARCH pass #114 — 30+ candidates checked across touristisrael.com, goisrael.com, lonelyplanet.com, roughguides.com, gyg.com, viator.com, tripadvisor.com, nomadicmatt.com, backpackisrael.com, biblewalks.com, hikingintheholyland.com, israel-in-photos.com, beinharimtours.com, nativa.co.il, alltrails.com, departures.com, myjewishlearning.com, luxuryescapes.com, timeout.com/israel, laidbacktrip.com, private-tours-in-israel.com, holylandviptours.net, dannythedigger.com, israelbylocals.com, golanispirit.com, mh-distillery.com, hotel-scoop.com, monacorona.com. 6 net-new items added: (1) city-of-david-guide (P2,S,monetization) — HOW-TO wet/dry tunnel route + Pool of Siloam; GYG 1200+ reviews; (2) gamla-guide (P2,S,seo-content) — Israel's tallest waterfall + Masada-of-the-North ruins + Griffon vultures; (3) via-dolorosa-guide (P2,S,monetization) — 14 Stations standalone + Friday Franciscan procession; (4) israel-craft-spirits (P2,S,monetization) — M&H Distillery World's Best Single Malt 2023 + craft arak; (5) sea-of-galilee-beaches (P2,S,seo-content) — beach-by-beach guide distinct from tiberias-guide + boat-tour; (6) luxury-arava-desert (P2,M,monetization) — Six Senses Shaharut MICHELIN-listed. Saturation ~82%.
