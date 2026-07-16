@@ -8819,3 +8819,17 @@ Note: iter560 research backlog had city-of-david-guide + gamla-guide as items, b
 **Saturation:** Extreme at pass #115 (~83%). 3 net-new items from 30+ candidates — consistent with trend of diminishing new gaps at this stage of the project.
 
 **Next:** iter566 → BUILD (monetization). Top ready P2 monetization items: luxury-arava-desert (P2, M — Six Senses Shaharut); best-hotels-nazareth (P2, S — just added); christian-pilgrim-guesthouses-israel (P3, S); check BACKLOG for any remaining P1/P2 monetization items not yet SHIPPED.
+
+## 2026-07-16T10:00Z · iter566 · BUILD (monetization) · best-hotels-nazareth
+
+**What:** New guide `/best-hotels-nazareth` — "Best Hotels in Nazareth 2026: Where to Stay Near the Basilica". Fills confirmed gap: no standalone Nazareth hotel guide existed (nazareth-travel-guide.md had only a brief hotels paragraph). Nazareth = Israel's largest Arab city and 2nd most-visited Christian site; strong Booking.com affiliate revenue from Holy Land pilgrim market.
+
+**Content:** Hotel zones (Old City/Basilica area vs Upper Nazareth modern quarter); 4 named properties (Rimonim Nazareth 4-star near Basilica; Sisters of Nazareth Guesthouse with first-century rock-cut tomb beneath the building; Golden Crown upper Nazareth conference-grade; Villa Nazareth boutique Arab stone townhouse); budget tier; decision matrix table; booking context (Christmas/Easter demand spikes = major Nazareth-specific pattern). 7 FAQs. 2 affiliate CTAs: Booking.com Nazareth + GYG Galilee tours. Cross-links: nazareth-travel-guide.md (cross-links section upgraded with hotel guide reference); israel-accommodation-guide.md (Nazareth added to city-specific picks list). Smoke test +1.
+
+**Gate:** pnpm check 0 errors; pnpm build 751 pages (+1 from 750); 1061/1061 e2e+a11y pass.
+
+**Ship:** SHA d820bf3. CI in_progress at push time — consistent with prior pattern.
+
+**Prod:** Lighthouse + CI workflows both in_progress at time of writing — per playbook §5, leave it; next iteration confirms.
+
+**Next:** iter567 → BUILD (seo-content). 567%5==2.

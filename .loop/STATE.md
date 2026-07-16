@@ -1,13 +1,15 @@
 # LOOP STATE
 
-- iteration: 565
-- lastMode: RESEARCH
-- lastItem: research-pass-115
-- lastResult: RESEARCH pass #115 complete. 3 net-new items added to BACKLOG (best-hotels-nazareth P2/monetization, ayalon-institute-guide P3/seo-content, kfar-kedem-nazareth-village P3/seo-content). De-dup against BACKLOG+DONE+guides/ revealed 5 of 8 research-agent candidates were already in BACKLOG (jesus-trail L418, mount-tabor L484, wadi-qelt-monastery L656, abu-ghosh L791, ashkelon-guide L866). BACKLOG now ~337 items. Saturation: ~83%.
-- nextRotationCategory: 566%5==1 → BUILD (monetization). 567%5==2 → BUILD (seo-content). 568%5==3 → BUILD (tools→seo-content fallthrough). 569%5==4 → REVIEW. 570%5==0 → RESEARCH (pass #116).
+- iteration: 566
+- lastMode: BUILD (monetization)
+- lastItem: best-hotels-nazareth
+- lastResult: SHIPPED d820bf3. "Best Hotels in Nazareth 2026" at /best-hotels-nazareth. 4 named properties (Rimonim near Basilica, Sisters of Nazareth Guesthouse with first-century rock-cut tomb, Golden Crown upper Nazareth, Villa Nazareth boutique). 7 FAQs, 2 CTAs (Booking.com + GYG). Back-links in nazareth-travel-guide.md + israel-accommodation-guide.md. pnpm check 0 errors; 751 pages (+1); 1061/1061 e2e pass. CI in_progress at push time (consistent with prior pattern).
+- nextRotationCategory: 567%5==2 → BUILD (seo-content). 568%5==3 → BUILD (tools→seo-content fallthrough). 569%5==4 → REVIEW. 570%5==0 → RESEARCH (pass #116). 571%5==1 → BUILD (monetization).
 - higgsfieldSpent: 0
-- updatedAt: 2026-07-16T09:15Z
+- updatedAt: 2026-07-16T10:00Z
 - branch context: work on master; feature work on auto/<slug>
+
+Notes: iter566 BUILD (monetization) — best-hotels-nazareth. SHIPPED d820bf3. pnpm check 0 errors; 751 pages (+1 from 750); 1061/1061 e2e pass. New guide /best-hotels-nazareth covers Rimonim Nazareth (4-star, 5min walk to Basilica), Sisters of Nazareth Guesthouse (unique: Roman-period rock-cut tomb beneath building — free for guests to visit), Golden Crown (conference-grade upper Nazareth), Villa Nazareth (boutique Old City Arab stone townhouse), budget pilgrim guesthouses. Decision matrix + booking context (Christmas/Easter demand spikes prominently flagged). 7 FAQs; 2 CTAs (Booking.com Nazareth + GYG Galilee). Back-links: nazareth-travel-guide.md (cross-links section upgraded); israel-accommodation-guide.md (Nazareth added to city hotel guide list). Smoke +1. SEO targets: "best hotels Nazareth Israel 2026", "where to stay Nazareth Israel", "hotels near Basilica of Annunciation", "Nazareth accommodation Holy Land". Next: 567 → BUILD (seo-content).
 
 Notes: iter564 REVIEW — audit iters 561-563 (israel-craft-spirits, keshet-cave-guide, sea-of-galilee-beaches). Checks: (1) meta description lengths — israel-craft-spirits 167 chars (DEFECT, >160); keshet-cave-guide 156 chars (clean); sea-of-galilee-beaches 159 chars (clean). Fix applied: trimmed israel-craft-spirits from 167→143 chars (removed 'The complete guide to' prefix and '... in 2026' suffix). (2) H1 in body — 0 H1 lines in any file. CLEAN. (3) Internal links — all links resolve across all 3 files (5 in craft-spirits, 11 in keshet-cave, 10 in sea-of-galilee). CLEAN. (4) Hero images — carmel-market.jpg, akko/hero.jpg, galilee/sea-of-galilee.jpg all present. CLEAN. (5) Back-links — craft-spirits ← israel-craft-beer.md + israel-wine-wineries.md; keshet-cave ← israel-adventure-sports.md + western-galilee-guide.md; sea-of-galilee-beaches ← sea-of-galilee-guide.md + tiberias-guide.md. CLEAN. (6) Honesty — no aggregateRating/ratingValue; all ₪ prices are ranges with "approximately" qualifiers. CLEAN. Gate: pnpm check 0 errors; pnpm build 750 pages; 1060/1060 e2e pass. SHIPPED 840a442. Next: 565 → RESEARCH (#115).
 
