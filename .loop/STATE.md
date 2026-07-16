@@ -1,12 +1,12 @@
 # LOOP STATE
 
-- iteration: 571
-- lastMode: BUILD (monetization)
-- lastItem: israel-archaeology-experience
-- lastResult: SHIPPED c100e0f. pnpm check 0 errors; 754 pages (+1 from 753); 1064/1064 e2e+a11y pass. New guide /israel-archaeology-experience covers dig-for-a-day tourist programmes (Tel Megiddo Expedition ₪250–450 April–Aug; Beit Guvrin/Maresha IAA cave dig ₪150–250 Oct–June; Tel Shiloh spring season), multi-week volunteer options (IAA Volunteer Dig Corps free/6+ months lead; ICARE $900–1,500 USD; university excavations), what-to-expect on a dig day, best season guide (spring preferred), Jezreel Valley + Judean foothills + Dead Sea combining circuits. 7 FAQs. 3 CTAs: GYG archaeology tours, Viator Tel Megiddo tours, Booking.com Jerusalem. Back-links: megiddo-jezreel-valley-guide (See also), jewish-heritage-israel (practical tips bullet), qumran-guide (tips section). Smoke test +1.
-- nextRotationCategory: 572%5==2 → BUILD (seo-content). 573%5==3 → BUILD (tools→seo-content). 574%5==4 → REVIEW. 575%5==0 → RESEARCH (pass #117). 576%5==1 → BUILD (monetization).
+- iteration: 572
+- lastMode: BUILD (seo-content)
+- lastItem: zionist-heritage-trail
+- lastResult: SHIPPED e82cc69. pnpm check 0 errors; 755 pages (+1 from 754); 1065/1065 e2e+a11y pass. New guide /zionist-heritage-trail — "Zionist Heritage Trail: Founding Sites of Modern Israel" (P2/S seo-content). Self-drive circuit through 6 founding sites: Mount Herzl + Herzl Museum (Jerusalem, light-rail accessible); Independence Hall / Beit Ha'atzmaut (Rothschild Blvd TLV, 1948 Declaration); Rishon LeZion 1882 first agricultural colony (artesian well + Rothschild archive museum); Sde Boker Ben Gurion Desert Home + Nahal Zin canyon grave (car essential); Degania Aleph first kibbutz 1910 (Beit Gordon Museum + 1948 Syrian tank at gate); Tel Hai / Trumpeldor memorial + Roaring Lion statue (1920). 4-day suggested circuit table (Jerusalem → TLV coastal plain → Negev → Sea of Galilee/Galilee). 7 FAQs. 3 CTAs: GYG Zionist history tours, Viator Israel history tours, DiscoverCars. Footer Essentials +1 (after jewish-heritage-israel). Smoke test +1. CI in_progress at state-write time (consistent with prior pattern).
+- nextRotationCategory: 573%5==3 → BUILD (tools→seo-content). 574%5==4 → REVIEW. 575%5==0 → RESEARCH (pass #117). 576%5==1 → BUILD (monetization). 577%5==2 → BUILD (seo-content).
 - higgsfieldSpent: 0
-- updatedAt: 2026-07-16T15:05Z
+- updatedAt: 2026-07-16T15:55Z
 - branch context: work on master; feature work on auto/<slug>
 
 Notes: iter568 BUILD (seo-content, tools fallthrough) — luxury-arava-desert. SHIPPED da1f518. pnpm check 0 errors; 753 pages (+1 from 752); 1063/1063 e2e pass. New guide /luxury-arava-desert covers Six Senses Shaharut (MICHELIN Guide Hotels listed, ~$900–1,400/night, IHG One Rewards), Arava Valley geology (Dead Sea Transform rift, 350–450m elevation at Shaharut), dark sky quality, wellness programming (Sleep+Recovery, biohacking spa, Bedouin herbal treatments), Timna Park copper mines (Chalcolithic, Egyptian Hathor temple, King Solomon's Pillars, Mushroom rock), Eilat/Mitzpe Ramon combining, Petra day-trip note. 7 FAQs: what is Six Senses Shaharut; cost; what is the Arava Valley; getting there; best season; activities; combining with other Negev sites. 3 CTAs: Booking.com (Arava hotels), GYG (Timna+Arava tours), DiscoverCars (car essential). Cross-links: Footer.astro (after /best-hotels-negev), mitzpe-ramon-guide.md "Continuing south" paragraph, israel-wellness-spa.md closing paragraph. FALSE GAP NOTE: gamla-guide (BACKLOG line 1335, /gamla-guide) is a slug mismatch — gamla-nature-reserve-guide.md was SHIPPED in iter338. Marked STALE in BACKLOG.
