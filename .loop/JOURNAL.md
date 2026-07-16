@@ -8871,3 +8871,22 @@ Note: iter560 research backlog had city-of-david-guide + gamla-guide as items, b
 **Ship:** Squash-merged to master SHA da1f518. CI in_progress at push time — consistent with prior pattern.
 
 **Next:** iter569 → REVIEW (569%5==4) — audit iters 566-568 (best-hotels-nazareth, jesus-trail-israel, luxury-arava-desert). Key checks: meta descriptions ≤160 chars; no H1 in body; internal links resolve; hero images exist; back-links confirmed.
+
+## 2026-07-16T12:40Z · iter 569 · REVIEW · audit iters 566-568 (best-hotels-nazareth, jesus-trail-israel, luxury-arava-desert)
+
+**Audited:** best-hotels-nazareth, jesus-trail-israel, luxury-arava-desert (shipped iters 566-568).
+
+**Checks performed:**
+1. **Meta description lengths:** best-hotels-nazareth 158 chars, jesus-trail-israel 151 chars, luxury-arava-desert 156 chars. All ≤160. CLEAN.
+2. **H1 in body:** 0 H1 nodes in any of the 3 files. CLEAN.
+3. **Hero images:** All 8 images referenced across the 3 files exist in public/images/. CLEAN. (nazareth/hero.jpg, nazareth/basilica.jpg, galilee/hero.jpg, galilee/tiberias.jpg, negev/hero.jpg, negev/desert.jpg, negev/avdat.jpg, negev/mitzpe-ramon.jpg)
+4. **Internal link resolution:** All 21 unique internal links resolve. Two sub-path links (/galilee/mount-of-beatitudes, /nazareth/basilica-of-the-annunciation) confirmed via attractionSlug() routing → galilee-mount-of-beatitudes.md + nazareth-basilica-of-the-annunciation.md. CLEAN.
+5. **Back-links:** All back-links confirmed in place — nazareth-travel-guide.md + israel-accommodation-guide.md (best-hotels-nazareth); hiking-in-israel.md + christian-pilgrimage-holy-land.md (jesus-trail-israel); Footer.astro + mitzpe-ramon-guide.md + israel-wellness-spa.md (luxury-arava-desert). CLEAN.
+6. **Honesty:** No aggregateRating/ratingValue; no exact prices without "approximately"/"range" qualifiers; no fabricated review counts or star ratings. CLEAN.
+7. **Smoke test:** All 3 pages in smoke.spec.ts (lines 352, 526, 599). CLEAN.
+
+**Gate re-run (review gate, no code change):** pnpm check 0 errors; pnpm build 753 pages; pnpm test:e2e 1063/1063 pass.
+
+**No defects found** — all 3 pages clean across all 7 audit dimensions.
+
+**Next:** iter570 → RESEARCH (570%5==0) pass #116. iter571 → BUILD (monetization). iter572 → BUILD (seo-content). iter573 → BUILD (tools→seo-content).
