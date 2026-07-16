@@ -8955,3 +8955,9 @@ What: New guide /jerusalem-trail — "Jerusalem Trail: Complete Hiking Guide (Sh
 Gate: pnpm check 0 errors (0 errors, 0 warnings, 114 hints); pnpm build 756 pages (+1 from 755); pnpm test:e2e exit code 0.
 Merge SHA: squash-merged to master; pushed origin master.
 SEO targets: "Jerusalem Trail hike Israel", "Shvil Yerushalayim guide", "hiking around Jerusalem circuit trail", "Jerusalem Trail segments guide", "Jerusalem hiking trails multi-day".
+
+## 2026-07-16T17:41Z · iter 574 · REVIEW · audit-iters-571-573
+What: Audited iters 571–573 guides (israel-archaeology-experience, zionist-heritage-trail, jerusalem-trail). Six checks: (1) meta description lengths — all 3 guides 158 chars Unicode (wc -c showed 162 due to em-dash UTF-8 inflation; Python len() confirms 158 — under 160 limit). CLEAN. (2) H1 in body — zero H1 lines in any of 3 files. CLEAN. (3) hero images — jerusalem/hero.jpg + galilee/hero.jpg both confirmed on disk. CLEAN. (4) internal links — all 16 internal links across 3 files resolve to existing .md or .astro files. CLEAN. (5) smoke tests — all 3 slugs (/israel-archaeology-experience, /zionist-heritage-trail, /jerusalem-trail) present in tests/e2e/smoke.spec.ts. CLEAN. (6) back-links — DEFECT: zionist-heritage-trail had zero back-links from any parent guide (grep found nothing in guides/). Fix: added one sentence to Mount Herzl paragraph in jewish-heritage-israel.md directing history travelers to the Zionist Heritage Trail self-drive circuit. israel-archaeology-experience: back-links in jewish-heritage-israel, megiddo-jezreel-valley-guide, qumran-guide (CLEAN). jerusalem-trail: back-link in hiking-in-israel.md (CLEAN).
+Gate: pnpm check 0 errors; build 756 pages (no page count change — cross-link edit only); 1066/1066 e2e pass.
+Merge SHA: 936574c (direct commit to master, pushed).
+Prod CI: in_progress at note time — consistent with prior pattern. No revert needed.

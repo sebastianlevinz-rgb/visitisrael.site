@@ -1,10 +1,10 @@
 # LOOP STATE
 
-- iteration: 573
-- lastMode: BUILD (seo-content)
-- lastItem: jerusalem-trail
-- lastResult: SHIPPED. pnpm check 0 errors; 756 pages (+1 from 755); e2e exit code 0. New guide /jerusalem-trail — "Jerusalem Trail: Complete Hiking Guide (Shvil Yerushalayim)" (P2/M seo-content). 42km waymarked loop encircling Jerusalem; 4 segments (W: Yad Vashem→Ein Kerem→Ora; S: Ora→Har Gilo→Ramat Rachel; E: Ramat Rachel→Abu Dis→Augusta Victoria; N: Augusta Victoria→Ammunition Hill→Givat Hamivtar). Green-white-blue blazes, public transit access, no permit. 7 FAQs, 3 CTAs (GYG/Booking/DiscoverCars). Cross-link added to hiking-in-israel.md (Jerusalem Trail section after Jesus Trail block). Smoke test +1. STALE NOTE: florentin-tel-aviv backlog item retired — tel-aviv-florentin.md exists in attractions/ (not guides/), confirmed by file check.
-- nextRotationCategory: 574%5==4 → REVIEW. 575%5==0 → RESEARCH (pass #117). 576%5==1 → BUILD (monetization). 577%5==2 → BUILD (seo-content). 578%5==3 → BUILD (tools→seo-content).
+- iteration: 574
+- lastMode: REVIEW
+- lastItem: audit-iters-571-573 (israel-archaeology-experience, zionist-heritage-trail, jerusalem-trail)
+- lastResult: SHIPPED 936574c. pnpm check 0 errors; build 756 pages (no change); 1066/1066 e2e pass. DEFECT FOUND+FIXED: zionist-heritage-trail had zero back-links from any parent guide. Fix: added Zionist Heritage Trail link in jewish-heritage-israel.md Mount Herzl paragraph. All other checks CLEAN: (1) meta descriptions all 158 chars Unicode (wc -c inflated by em-dash UTF-8 bytes — not a defect); (2) 0 H1 in body across all 3 files; (3) hero images jerusalem/hero.jpg + galilee/hero.jpg both exist; (4) 16 internal links across 3 files all resolve; (5) all 3 slugs in smoke.spec.ts. CI in_progress at push time — consistent with prior pattern.
+- nextRotationCategory: 575%5==0 → RESEARCH (pass #117). 576%5==1 → BUILD (monetization). 577%5==2 → BUILD (seo-content). 578%5==3 → BUILD (tools→seo-content). 579%5==4 → REVIEW.
 - higgsfieldSpent: 0
 - updatedAt: 2026-07-16T15:55Z
 - branch context: work on master; feature work on auto/<slug>
