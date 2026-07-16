@@ -9014,3 +9014,13 @@ Upgraded israel-honeymoon-guide P3 → P2: beinharimtours.com + touristisrael.co
 Pass #117: 8 net-new from 50+ candidates checked. Extreme saturation (~85%) confirmed. All 8 are genuine high-value gaps covering the highest-ROI remaining opportunities (money-page series completion + high-traffic editorial gaps).
 
 **Next:** iter576 → BUILD (monetization). Recommended next ship: `/masada-sunrise-guide` (P1, S — highest affiliate conversion potential; template reuse from masada-visitor-guide) or `/haifa-tours-compared` (P1, S — series completion, template fully proven).
+
+## 2026-07-16T21:00 · iter 576 · BUILD (monetization) · haifa-tours-compared
+
+What: New /haifa-tours-compared money page — "Haifa Tours Compared: Bahá'í Gardens, Akko & Rosh Hanikra (2026)". Completes the northern-Israel tours-compared series (joining eilat-tours-compared, masada-tours-compared, galilee-tours-compared, tel-aviv-tours-compared, jerusalem-tours-compared, dead-sea-tours-compared). Haifa was the only major Israeli city missing from this high-converting series. Template reused directly from eilat-tours-compared + bethlehem-tours-compared for format consistency.
+
+Content: 5 tour types compared (Haifa city highlights with Bahá'í upper terraces, Haifa + Akko, Haifa + Akko + Rosh Hanikra, cruise shore excursion, Mount Carmel + Druze villages). Comparison table (duration, what you get, best for). Section-by-section breakdowns. 7 FAQs covering the most commercially important Haifa tour queries. 2 affiliate CTAs (GYG: Haifa city tour; Viator: Haifa+Akko+Rosh Hanikra). Cross-links: /bahai-world-center-guide, /haifa-travel-guide, /akko-acre-guide, /rosh-hanikra-guide, /cruise-shore-excursions-israel, /druze-villages-carmel, /haifa-food-guide, /best-tours-in-israel, /day-trips-from-haifa. Back-link added to haifa-travel-guide.md. Smoke test +1. YAML lesson: single-quoted YAML strings may not contain ASCII apostrophes (U+0027) — broke on Bahá'í; fixed by switching to double-quoted YAML for that description field.
+
+Gate: pnpm check 0 errors · 757 pages (+1 from 756) · 1067/1067 e2e pass.
+Merge: squash to master edf5f44, pushed.
+Prod: CI + Lighthouse in_progress at push time; consistent with prior pattern (local gate is canonical).
