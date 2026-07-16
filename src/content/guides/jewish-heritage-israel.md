@@ -57,7 +57,7 @@ The **[Jewish Quarter](/jerusalem/old-city)** of the Old City was rebuilt almost
 
 ### Mount Herzl
 
-**Mount Herzl**, adjacent to Yad Vashem, is Israel's national cemetery — the burial site of Theodor Herzl (founder of modern Zionism), every Israeli prime minister and president, and fallen soldiers. It is free to enter. The contrast of the national military cemetery with Yad Vashem immediately below makes for a profound half-day circuit. A small museum on the hill tells Herzl's story from fin-de-siècle Vienna to the founding of the state.
+**Mount Herzl**, adjacent to Yad Vashem, is Israel's national cemetery — the burial site of Theodor Herzl (founder of modern Zionism), every Israeli prime minister and president, and fallen soldiers. It is free to enter. The contrast of the national military cemetery with Yad Vashem immediately below makes for a profound half-day circuit. A small museum on the hill tells Herzl's story from fin-de-siècle Vienna to the founding of the state. Travelers who want to trace the full Zionist founding narrative — from Mount Herzl south to Ben-Gurion's Sde Boker grave, north to the first kibbutz at Degania Aleph, and on to the Tel Hai memorial in the Upper Galilee — will find a complete self-drive circuit in the [Zionist Heritage Trail guide](/zionist-heritage-trail).
 
 ### Israel Museum and the Shrine of the Book
 
