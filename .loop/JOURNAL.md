@@ -8698,3 +8698,17 @@ Prod deploy: in_progress at commit time; 556%5==1 BUILD next → 557%5==2 BUILD 
 **Gate:** pnpm check 0 errors; build 746 pages (+1 from 745); 1056/1056 e2e pass (8.9 min)
 
 **Notes:** Description initially 166 chars; trimmed to 158 by removing "circuit" from "circuit tips" → "tips". Context resume from compacted session — all edits clean on first pass.
+
+## 2026-07-16T01:54Z · iter 558 · BUILD (tools→seo-content fallthrough) · valley-of-elah-guide
+
+**What:** New standalone guide `/valley-of-elah-guide` — "Valley of Elah: David & Goliath's Biblical Landscape Visitor Guide". Tools rotation (558%5==3) had all items SHIPPED; fell through to highest-priority P2 seo-content item.
+
+**Content:** 5 sites: (1) Nahal Elah stream floor (free, Route 38 bridge, smooth limestone pebbles); (2) Azekah viewpoint (INPA, panoramic Shephelah views, Saul's camp per 1 Sam 17); (3) Tel es-Safi/ancient Gath (Prof. Aren Maeir/Bar-Ilan excavation since 1996, destruction layer = Amos 1:1 earthquake, viewable from road + guided dig Jul–Aug); (4) Khirbet Qeiyafa/Sha'arayim (Iron Age IIA ~1000 BCE, 2 gates unique in IA Israel, Qeiyafa Ostracon = earliest proto-Hebrew inscription); (5) Tel Sokoh. Honesty: biblical tradition sets the encounter here; no physical evidence of individual battle; Philistine + Judahite archaeological presence confirmed for the period. Shephelah day circuit table + half-day from Jerusalem logistics.
+
+**Cross-links added:** day-trips-from-jerusalem.md (+Valley of Elah Shephelah bullet after Judean Hills wine trail); jewish-heritage-israel.md (+Davidic-period biblical archaeology bullet); judean-hills-wine-trail.md (+Elah Valley pairing suggestion in combinations section). smoke.spec.ts +1.
+
+**Fix during gate:** First e2e pass failed with 1 broken link: `/valley-of-elah-guide → /beit-guvrin-caves-guide` (not yet built; BACKLOG item). Removed from See also; replaced with `/private-tours-israel` (exists). Rebuild + retest: 1057/1057 pass.
+
+**Gate:** pnpm check 0 errors; build 747 pages (+1 from 746); 1057/1057 e2e pass (7.0 min). CI in_progress at push time (consistent with prior pattern).
+
+**Merge SHA:** b295ad9. Prod CI in_progress at end of turn; next run will confirm.
