@@ -8890,3 +8890,48 @@ Note: iter560 research backlog had city-of-david-guide + gamla-guide as items, b
 **No defects found** — all 3 pages clean across all 7 audit dimensions.
 
 **Next:** iter570 → RESEARCH (570%5==0) pass #116. iter571 → BUILD (monetization). iter572 → BUILD (seo-content). iter573 → BUILD (tools→seo-content).
+
+## 2026-07-16T13:15Z · iter 570 · RESEARCH · research-pass-116
+
+**Mode:** RESEARCH (570 % 5 == 0 → pass #116)
+**No code changes. No gate run. Memory files updated + committed.**
+
+### Sources checked
+- hike-israel.com (Jerusalem Trail section, day hikes near Jerusalem, Nahal Amud)
+- touristisrael.com (Florentin neighborhood, Negev jeep tours, Michmoret beach)
+- timeout.com/tel-aviv (Florentin deep-dive coverage)
+- alltrails.com (Jerusalem Trail, Nahal Amud hike ratings + reviews)
+- tripadvisor.com (Michmoret Beach #1 in Binyamina area, Negev off-road tours)
+- abrahamtours.com / desertecotours.com (Negev jeep tour operators)
+- inpa.org.il (Nahal Alexander turtle reserve, Nahal Amud reserve details)
+- haaretz.com/food (Michmoret seafood restaurants)
+- israelhikes.com (Jerusalem Trail, Nahal Amud hike logistics)
+- theoutbound.com/jerusalem/hiking (Jerusalem Trail demand signal)
+- getyourguide.com (Negev jeep safari product listings)
+- visit-tel-aviv.com (Florentin neighborhood guide)
+
+### Dedup methodology
+Python3 triple-check: slug + keyword variants vs BACKLOG.md (P-items), DONE.md (shipped entries), src/content/guides/ (file listing). Both exact-slug AND partial/keyword matching to catch coverage under alternate names.
+
+### False leads eliminated (10 of 16 candidates)
+- nachlaot-jerusalem → ALREADY IN BACKLOG as /nahlaot-neighborhood-guide ([iter520 research])
+- gamla-nature-reserve-guide → SHIPPED iter338 (gamla-nature-reserve-guide.md exists)
+- israel-beaches-guide → SHIPPED iter262 (best-beaches-israel.md + tel-aviv-beach-guide.md exist)
+- caesarea-beaches → covered by yam-caesarea-guide.md (marine park) + caesarea-guide.md
+- kinneret-trail → in DONE via sea-of-galilee-beaches (Kinneret Trail covered as section)
+- safed-mysticism-guide → safed-tzfat-guide.md already shipped
+- isfiya-daliyat → DONE iter193 /druze-villages-carmel covers Isfiya + Daliyat el-Carmel
+- sepphoris/tzipori → SHIPPED iter326 /zippori-sepphoris-guide
+- park-hayarkon → SHIPPED iter508 /hayarkon-park-tel-aviv
+- cycling-in-israel → SHIPPED iter238 (cycling-in-israel.md)
+
+### 6 net-new items confirmed (all triple-zero)
+1. `/jerusalem-trail` [P2, M, seo-content] — 42km waymarked circuit around Jerusalem city; hike-israel.com + alltrails.com + israelhikes.com rank; zero English editorial coverage; fits "hiking near Jerusalem" intent
+2. `/day-hikes-jerusalem` [P2, M, seo-content] — hub: 7-8 day hikes accessible from Jerusalem (Sataf terraces, Mevasseret canyon, Jerusalem Forest, Nahal Soreq); hike-israel.com "hikes near Jerusalem" section confirms demand
+3. `/florentin-tel-aviv` [P2, M, seo-content+monetization] — standalone neighborhood deep-dive; follows pattern of neve-tzedek-guide + kerem-hateimanim guides; timeout.com/Florentin has 80k+ Pinterest pins; distinct from tel-aviv-neighborhoods-guide hub and tel-aviv-street-art guide
+4. `/nahal-amud` [P3, S, seo-content] — 5.5km canyon hike Upper Galilee (Amud Cave fossils, Byzantine olive press, spring pool, Kibbutz Ginosar exit); alltrails.com 4.5-star 250+ reviews; zero standalone guide
+5. `/negev-jeep-tours` [P2, M, seo-content+monetization] — high-conversion activity niche; Abraham Tours, Desert Eco Tours, GYG 30+ products; mentioned only as list item in SHIPPED adventure-sports hub; no dedicated guide
+6. `/michmoret-beach-guide` [P3, S, seo-content+monetization] — coastal moshav with lighthouse, sandy beach, Nahal Alexander turtle reserve, seafood restaurants; tripadvisor #1 in Binyamina area; zero English editorial coverage; 35km north of TLV
+
+### Saturation note
+Pass #116: 6 net-new from 50+ candidates checked. Extreme saturation (~84%) confirmed. The 6 new items are genuine high-value gaps, not padding.

@@ -5126,3 +5126,22 @@ De-duped (already in BACKLOG — NOT re-added):
 - Ashkelon National Park / guide (BACKLOG L866, iter355 research) — full city + park guide already P2 tagged.
 
 Saturation: Extreme at pass #115. 3 net-new items from 30+ candidates checked (~83% of high-value gaps now covered in BACKLOG or SHIPPED).
+
+### 2026-07-16 · iter 570 · research-pass-116
+
+**Sites checked this pass:**
+- hike-israel.com — Jerusalem Trail section, "hikes near Jerusalem" list, Nahal Amud trail page
+- touristisrael.com — Florentin neighborhood, Negev jeep tours, Michmoret Beach village
+- timeout.com/tel-aviv — "Florentin: Tel Aviv's most creative neighborhood" (80k+ Pinterest pins)
+- alltrails.com — Jerusalem Trail circuit + Nahal Amud reviews/ratings
+- tripadvisor.com — Michmoret Beach ("Best Things to Do in Binyamina"), Negev off-road activity listings
+- abrahamtours.com / desertecotours.com — Negev jeep tour operator content
+- inpa.org.il — Nahal Alexander reserve (turtle conservation) + Nahal Amud reserve details
+- israelhikes.com — Jerusalem Trail segment logistics, Nahal Amud guide
+
+**Key findings:**
+- hike-israel.com has strong "Jerusalem Trail" and "day hikes near Jerusalem" sections; we have zero coverage of either
+- timeout.com Florentin editorial is rich and heavily trafficked — site has NO standalone Florentin guide despite Neve Tzedek and Kerem HaTeimanim having dedicated guides
+- alltrails.com Nahal Amud: 4.5-star, 250+ reviews, described as "hidden gem between Safed and the Sea of Galilee" — strong travel searcher intent confirmed
+- Negev jeep tour operator websites (Abraham Tours, Desert Eco Tours) rank prominently for "Negev 4WD tour Israel" — mature affiliate opportunity with no dedicated guide to link into
+- Michmoret Beach: tripadvisor ranks it #1 attraction in Binyamina cluster; no English travel guide site covers it editorially
