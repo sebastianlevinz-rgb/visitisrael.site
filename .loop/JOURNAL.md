@@ -8800,3 +8800,22 @@ Note: iter560 research backlog had city-of-david-guide + gamla-guide as items, b
 **Merge SHA:** 840a442. Pushed to master.
 
 **Next:** iter565 → RESEARCH (pass #115).
+
+## 2026-07-16T09:15Z · iter 565 · RESEARCH · research-pass-115
+
+**What:** RESEARCH mode (565%5==0 → pass #115). Ran competitor + gap analysis across 28+ sources to identify content gaps not yet in BACKLOG or SHIPPED guides.
+
+**Sources scanned:** touristisrael.com, abrahamtours.com, jesustrail.com, alltrails.com, myadventuresacrosstheworld.com, israel-taxi.com, elijahtours.com, seetheholyland.net, hike-israel.com, beinharimtours.com, shalomisraeltours.com, israelbylocals.com, levyisraeltours.com, secret-israel.com, institutayalon.co.il, hoshen-tours.com, kfarkedem.com, nazarethvillage.com, gemsinisrael.com, tripadvisor.com, booking.com, lonelyplanet.com/israel, parks.org.il, timeout.com/israel, backpackisrael.com.
+
+**De-dup process:** 8 candidate items from research agent; cross-checked each against BACKLOG.md (grep for slug + keyword variants), DONE.md, and src/content/guides/ file listing. 5 candidates rejected as already in BACKLOG: jesus-trail (L418, iter165), mount-tabor (L484, iter190), wadi-qelt-monastery-guide (L656, iter230), abu-ghosh-guide (L791, iter325), ashkelon-guide (L866, iter355).
+
+**3 net-new items added to BACKLOG:**
+1. **best-hotels-nazareth** (P2, monetization, S) — Nazareth is the only major Holy Land city without a "best-hotels-*" guide; structural gap in monetization series; touristisrael.com has this page; strong Booking.com affiliate potential for pilgrim tour groups. [iter565 research]
+2. **ayalon-institute-guide** (P3, seo-content, S) — Secret underground pre-state ammunition factory (Bullet Factory Museum) near Rehovot; 800+ TripAdvisor reviews; 20 min from BGN Airport; strong "hidden Israel" narrative; zero editorial coverage on site. [iter565 research]
+3. **kfar-kedem-nazareth-village** (P3, seo-content, S) — Two biblical living-history sites for combined same-day visit; nazareth-travel-guide has a 1-bullet mention; agritourism guide has a one-liner cross-reference; no practical visitor guide; church group + family segment. [iter565 research]
+
+**COMPETITORS.md:** Appended iter565 entry with sources and de-dup reasoning.
+
+**Saturation:** Extreme at pass #115 (~83%). 3 net-new items from 30+ candidates — consistent with trend of diminishing new gaps at this stage of the project.
+
+**Next:** iter566 → BUILD (monetization). Top ready P2 monetization items: luxury-arava-desert (P2, M — Six Senses Shaharut); best-hotels-nazareth (P2, S — just added); christian-pilgrim-guesthouses-israel (P3, S); check BACKLOG for any remaining P1/P2 monetization items not yet SHIPPED.

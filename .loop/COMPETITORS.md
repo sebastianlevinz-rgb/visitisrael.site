@@ -5108,3 +5108,21 @@ Confirmed not gaps this pass:
 - Beit Guvrin (BACKLOG beit-guvrin-caves-guide)
 
 Saturation: Extreme at pass #114. 6 net-new items from 30+ candidates (~82% of high-value gaps covered).
+
+## iter565 · 2026-07-16 · Research Pass #115
+
+Competitor sources checked: touristisrael.com, abrahamtours.com, jesustrail.com, alltrails.com, myadventuresacrosstheworld.com, israel-taxi.com, elijahtours.com, seetheholyland.net, hike-israel.com, beinharimtours.com, shalomisraeltours.com, israelbylocals.com, levyisraeltours.com, secret-israel.com, institutayalon.co.il, hoshen-tours.com, kfarkedem.com, nazarethvillage.com, gemsinisrael.com, tripadvisor.com, booking.com, lonelyplanet.com/israel, parks.org.il, touristisrael.com/nazareth-hotels, alltrails.com/israel, backpackisrael.com, timeout.com/israel, myadventuresacrosstheworld.com.
+
+Key findings after de-dup against BACKLOG + DONE.md + guides/:
+- **Best Hotels in Nazareth** (touristisrael.com/nazareth-hotels, booking.com): Nazareth is a structural gap in our "best-hotels-*" series (have Jerusalem, TLV, Haifa, Tiberias, Sea of Galilee, Negev, Dead Sea — NOT Nazareth despite 2nd-largest Christian pilgrimage city after Jerusalem). touristisrael.com has dedicated hotel roundup; Booking.com shows strong inventory; high Booking.com affiliate potential for tour groups. → BACKLOG (monetization, P2, S).
+- **Ayalon Institute / Bullet Factory Museum** (institutayalon.co.il, shalomisraeltours.com, israelbylocals.com, secret-israel.com): Secret underground pre-state ammunition factory beneath kibbutz laundry near Rehovot — 800+ TripAdvisor reviews, 20-min drive from BGN Airport, zero editorial coverage on site. Strong "hidden Israel" narrative hook for a south TLV day-trip cluster. → BACKLOG (seo-content, P3, S).
+- **Kfar Kedem + Nazareth Village biblical living-history** (kfarkedem.com, nazarethvillage.com, hoshen-tours.com, levyisraeltours.com): Two experiential 1st-century Galilee living-museum sites — nazareth-travel-guide.md covers Nazareth Village in one bullet; agritourism guide mentions Kfar Kedem in a cross-reference — neither has practical visit detail or a combined-day guide. Church group and family segment. → BACKLOG (seo-content, P3, S).
+
+De-duped (already in BACKLOG — NOT re-added):
+- Jesus Trail (BACKLOG L418, iter165 research) — 65km Nazareth→Capernaum pilgrimage hike; already P2 tagged.
+- Mount Tabor (BACKLOG L484, iter190 research) — Transfiguration site; already P2 tagged.
+- Wadi Qelt / St. George's Monastery (BACKLOG L656, iter230 research) — standalone guide already P2 tagged.
+- Abu Ghosh (BACKLOG L791, iter325 research) — hummus village + Benedictine church; already P3 tagged.
+- Ashkelon National Park / guide (BACKLOG L866, iter355 research) — full city + park guide already P2 tagged.
+
+Saturation: Extreme at pass #115. 3 net-new items from 30+ candidates checked (~83% of high-value gaps now covered in BACKLOG or SHIPPED).

@@ -1,12 +1,12 @@
 # LOOP STATE
 
-- iteration: 564
-- lastMode: REVIEW
-- lastItem: review-iters-561-563 (israel-craft-spirits, keshet-cave-guide, sea-of-galilee-beaches)
-- lastResult: DEFECT FOUND+FIXED: israel-craft-spirits description 167→143 chars. keshet-cave-guide (156) and sea-of-galilee-beaches (159) clean. Gate: pnpm check 0 errors; build 750 pages (no change); 1060/1060 e2e pass. SHIPPED 840a442.
-- nextRotationCategory: 565%5==0 → RESEARCH. 566%5==1 → BUILD (monetization). 567%5==2 → BUILD (seo-content). 568%5==3 → BUILD (tools→seo-content fallthrough). 569%5==4 → REVIEW.
+- iteration: 565
+- lastMode: RESEARCH
+- lastItem: research-pass-115
+- lastResult: RESEARCH pass #115 complete. 3 net-new items added to BACKLOG (best-hotels-nazareth P2/monetization, ayalon-institute-guide P3/seo-content, kfar-kedem-nazareth-village P3/seo-content). De-dup against BACKLOG+DONE+guides/ revealed 5 of 8 research-agent candidates were already in BACKLOG (jesus-trail L418, mount-tabor L484, wadi-qelt-monastery L656, abu-ghosh L791, ashkelon-guide L866). BACKLOG now ~337 items. Saturation: ~83%.
+- nextRotationCategory: 566%5==1 → BUILD (monetization). 567%5==2 → BUILD (seo-content). 568%5==3 → BUILD (tools→seo-content fallthrough). 569%5==4 → REVIEW. 570%5==0 → RESEARCH (pass #116).
 - higgsfieldSpent: 0
-- updatedAt: 2026-07-16T08:30Z
+- updatedAt: 2026-07-16T09:15Z
 - branch context: work on master; feature work on auto/<slug>
 
 Notes: iter564 REVIEW — audit iters 561-563 (israel-craft-spirits, keshet-cave-guide, sea-of-galilee-beaches). Checks: (1) meta description lengths — israel-craft-spirits 167 chars (DEFECT, >160); keshet-cave-guide 156 chars (clean); sea-of-galilee-beaches 159 chars (clean). Fix applied: trimmed israel-craft-spirits from 167→143 chars (removed 'The complete guide to' prefix and '... in 2026' suffix). (2) H1 in body — 0 H1 lines in any file. CLEAN. (3) Internal links — all links resolve across all 3 files (5 in craft-spirits, 11 in keshet-cave, 10 in sea-of-galilee). CLEAN. (4) Hero images — carmel-market.jpg, akko/hero.jpg, galilee/sea-of-galilee.jpg all present. CLEAN. (5) Back-links — craft-spirits ← israel-craft-beer.md + israel-wine-wineries.md; keshet-cave ← israel-adventure-sports.md + western-galilee-guide.md; sea-of-galilee-beaches ← sea-of-galilee-guide.md + tiberias-guide.md. CLEAN. (6) Honesty — no aggregateRating/ratingValue; all ₪ prices are ranges with "approximately" qualifiers. CLEAN. Gate: pnpm check 0 errors; pnpm build 750 pages; 1060/1060 e2e pass. SHIPPED 840a442. Next: 565 → RESEARCH (#115).
