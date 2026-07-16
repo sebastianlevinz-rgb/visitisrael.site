@@ -125,6 +125,7 @@ The Judean Hills offer more than wine — the same day can combine a winery visi
 
 - **[Ein Kerem village](/jerusalem-neighborhoods-guide)** — historic village absorbed into western Jerusalem; Crusader-era Church of John the Baptist; art galleries; excellent café and restaurant scene for post-tasting lunch.
 - **Beit Guvrin – Maresha National Park** — UNESCO-listed underground cave complex south of Beit Shemesh, on the way back from the Beit Shemesh winery cluster.
+- **[Valley of Elah](/valley-of-elah-guide)** — the Shephelah valley associated with the David-Goliath narrative is 10–15 km south of the Beit Shemesh winery cluster on Route 38. The Elah Stream, Azekah viewpoint and Khirbet Qeiyafa (earliest known proto-Hebrew inscription) add a half-day of biblical archaeology to the wine circuit.
 - **Nahal Sorek Nature Reserve** — a woodland canyon walk (moderate difficulty, 2–3 hrs) near the Shoresh area; combines naturally with a late-morning winery visit.
 - **[Latrun](/latrun-guide)** — Yad La-Shiryon tank museum and the Trappist monastery winery (open weekdays), 35 minutes west on Route 1 — an easy add-on to or from the Shoresh wineries.
 

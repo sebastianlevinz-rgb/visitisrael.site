@@ -590,6 +590,7 @@ const ROUTES = [
   '/israel-rainy-day-activities',
   '/atlit-detainee-camp-guide',
   '/beit-alfa-guide',
+  '/valley-of-elah-guide',
 ];
 
 for (const route of ROUTES) {
