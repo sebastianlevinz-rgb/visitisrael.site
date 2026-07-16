@@ -8760,3 +8760,15 @@ Prod deploy: in_progress at commit time; 556%5==1 BUILD next → 557%5==2 BUILD 
 **Ship:** squash-merge to master → 08e9670. Pushed. CI in_progress at push time (consistent with pattern across prior 100+ iterations). Prod deploy pending.
 
 **Next:** iter562 → BUILD (seo-content). Candidates: sea-of-galilee-beaches (P2, S) or luxury-arava-desert (P2, M) or any P2 seo-content item.
+
+## 2026-07-16T06:00Z · iter 562 · BUILD (seo-content) · keshet-cave-guide
+
+**What:** New standalone guide at /keshet-cave-guide — "Keshet Cave: Israel's Natural Arch & Nahal Kziv Canyon Guide". Covers the geology of the collapsed sea cave (48m limestone arch, walkable 30m tunnel; both entry and exit are cave portals = visitors walk through the geological formation); the Keshet Cave Adventure Park zip-line (200m, passes over and around the arch, separate commercial concession from INPA park entry); rappelling; Nahal Kziv water hike season guide (Oct–May; flash flood warning prominently included); combined Keshet Cave + Montfort Fortress 4-hour half-day itinerary (1km downstream). 7 FAQs: what is Keshet Cave, INPA pass validity (covers park entry; does NOT cover zip-line), getting there, zip-line logistics, Montfort combination, best season, fees. 3 affiliate CTAs: GYG Western Galilee hiking tours, DiscoverCars Haifa car rental, Booking.com Nahariya/Akko hotels. Cross-links: israel-adventure-sports.md (zip-line one-liner upgraded to proper link with arch description), western-galilee-guide.md (Nahal Kziv section → dedicated Keshet Cave link). smoke.spec.ts +1 (/keshet-cave-guide). Honesty flags: INPA pass explicitly stated to NOT cover zip-line concession; advance zip-line booking required; Nahal Kziv flash flood risk; link parks.org.il for current fees/hours.
+
+**Mode:** iter562 % 5 == 2 → BUILD (seo-content). P2/S item confirmed triple-zero in iter555 research.
+
+**Gate:** pnpm check 0 errors; pnpm build 749 pages (+1 from 748); 1059/1059 e2e pass.
+
+**Ship:** squash-merged working-tree changes directly to master (feature branch had no committed history — all edits were in working tree) → 75ecc30. Pushed. CI in_progress at push time (consistent with pattern).
+
+**Next:** iter563 → BUILD (tools). First check BACKLOG for any unshipped tools items before falling through to seo-content.
