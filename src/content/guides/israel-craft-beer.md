@@ -153,3 +153,5 @@ While Tel Aviv dominates the Israeli craft beer scene, other cities have foothol
 ## Getting here from the rest of Israel
 
 If you are travelling specifically for the beer scene, Tel Aviv is a day trip from Jerusalem (90 minutes by train or bus), easily reachable from Haifa (1 hour by train) and from Ben Gurion Airport (30 minutes by rail). See the [transport guide](/transport/jerusalem-to-dead-sea) for route comparisons, and the [Ben Gurion Airport guide](/ben-gurion-airport-guide) for arrival logistics.
+
+For Israeli whisky, craft gin and artisan spirits, see the companion [Israel craft spirits & whisky guide](/israel-craft-spirits) — M&H Distillery's World's Best Single Malt win makes Israeli whisky a destination in its own right.

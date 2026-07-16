@@ -307,6 +307,7 @@ const ROUTES = [
   '/ein-gedi-guide',
   '/israel-with-teenagers',
   '/israel-craft-beer',
+  '/israel-craft-spirits',
   '/israel-in-summer',
   '/israel-in-autumn',
   '/israel-in-winter',
