@@ -593,6 +593,7 @@ const ROUTES = [
   '/beit-alfa-guide',
   '/valley-of-elah-guide',
   '/keshet-cave-guide',
+  '/sea-of-galilee-beaches',
 ];
 
 for (const route of ROUTES) {

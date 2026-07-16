@@ -115,6 +115,8 @@ The **Sea of Galilee (Kinneret)** is fresh water and entirely swimmable. The mai
 
 Summer water temperatures reach 25–27°C; the lake is warmest July–September. Winter swimming (15–17°C) is viable for enthusiastic swimmers. There are no significant currents or tides; the main practical note is to follow lifeguard instructions on designated swimming areas.
 
+For a full comparison of all Kinneret beach options — paid vs free, southern shore spots, Luna Gal Water Park, and the 55 km Shvil Sovev Kinneret circuit trail — see the [Sea of Galilee beaches guide](/sea-of-galilee-beaches).
+
 ---
 
 ## Tiberias as a base for the Galilee

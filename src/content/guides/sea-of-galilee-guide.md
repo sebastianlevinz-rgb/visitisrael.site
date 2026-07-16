@@ -140,6 +140,8 @@ The Sea of Galilee is freshwater and entirely safe for swimming. The main superv
 
 All entrance fees are approximate and change seasonally — verify at the gate. Water quality reports for all Kinneret beaches are published at kinneret.co.il. Lifeguards operate at main beaches from approximately June to September; outside that period, swim at your own judgement.
 
+For beach-by-beach detail — facilities, free vs paid options, the southern shore spots, and the 55 km Kinneret circuit trail — see the dedicated [Sea of Galilee beaches guide](/sea-of-galilee-beaches).
+
 ---
 
 ## Cycling the Kinneret
