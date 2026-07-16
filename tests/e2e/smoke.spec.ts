@@ -598,6 +598,7 @@ const ROUTES = [
   '/sea-of-galilee-beaches',
   '/jesus-trail-israel',
   '/israel-archaeology-experience',
+  '/zionist-heritage-trail',
 ];
 
 for (const route of ROUTES) {
