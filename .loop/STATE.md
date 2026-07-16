@@ -1,13 +1,15 @@
 # LOOP STATE
 
-- iteration: 556
-- lastMode: BUILD (monetization)
-- lastItem: golan-heights-wineries — /golan-heights-wineries standalone guide; 5 producers (Yarden/GHW, Chateau Golan, Assaf, Bazelet HaGolan, Pelter); self-drive circuit; 7 FAQs; 3 CTAs
-- lastResult: SHIPPED 7bb42dbfd35026e1c22762b0b9f116a0bfc2763b. pnpm check 0 errors; 745 pages (+1 from 744); 1055/1055 e2e pass.
-- nextRotationCategory: 557%5==2 → BUILD (seo-content). 558%5==3 → BUILD (tools). 559%5==4 → REVIEW. 560%5==0 → RESEARCH. 561%5==1 → BUILD (monetization).
+- iteration: 557
+- lastMode: BUILD (seo-content)
+- lastItem: beit-alfa-guide — /beit-alfa-guide standalone guide; 3 panels (Akeidat Yitzhak, zodiac wheel with Helios/quadriga, Torah Shrine); Marianos+Hanina artist inscription; Jezreel Valley circuit table; 7 FAQs; 3 CTAs; cross-links beit-shean-guide + megiddo-jezreel-valley-guide
+- lastResult: SHIPPED 6c9e87d. pnpm check 0 errors; 746 pages (+1 from 745); 1056/1056 e2e pass.
+- nextRotationCategory: 558%5==3 → BUILD (tools). 559%5==4 → REVIEW. 560%5==0 → RESEARCH. 561%5==1 → BUILD (monetization). 562%5==2 → BUILD (seo-content).
 - higgsfieldSpent: 0
-- updatedAt: 2026-07-15T23:50Z
+- updatedAt: 2026-07-16T00:50Z
 - branch context: work on master; feature work on auto/<slug>
+
+Notes: iter557 BUILD (seo-content) — beit-alfa-guide. SHIPPED 6c9e87d. pnpm check 0 errors; 746 pages (+1 from 745); 1056/1056 e2e pass. "Beit Alfa Byzantine Synagogue: Zodiac Mosaic Visitor Guide" standalone at /beit-alfa-guide. Three mosaic panels: Akeidat Yitzhak (Binding of Isaac), zodiac wheel (12 Hebrew month signs + Helios driving quadriga + 4 personified seasons), Torah Shrine (2 menorahs, shofar, lulav, etrog). Marianos+Hanina artist inscription survives. Jezreel Valley circuit table (Gan HaShlosha, Beit She'an, Tel Megiddo, Beit She'arim). Practical info (Kibbutz Heftziba/Route 669; INPA pass valid; ~₪29; 30-45 min; fully flat/accessible). 7 FAQs. 3 CTAs: GYG Galilee & Jezreel Valley Day Tour, DiscoverCars Tel Aviv, Booking.com Tiberias. Cross-links: beit-shean-guide.md (+table row link + itinerary link + See also), megiddo-jezreel-valley-guide.md (+table row link + itinerary link + See also). smoke.spec.ts +1. Description: 158 chars (within 160-char limit). SEO targets: "Beit Alfa synagogue guide Israel", "Beit Alfa mosaic floor visitor guide", "zodiac mosaic synagogue Israel", "ancient synagogue mosaic Jezreel Valley". Next: 558 → BUILD (tools).
 
 Notes: iter555 RESEARCH — research pass #113. 30+ candidates checked. 6 net-new items confirmed (triple-zero or near-triple-zero absent from BACKLOG, DONE.md, guides/): valley-of-elah-guide (P2, S, seo-content); keshet-cave-guide (P2, S, seo-content); beit-alfa-guide (P2, S, seo-content); ein-hod-guide (P2, S, seo-content+monetization); kfar-kama-guide (P3, S, seo-content); montfort-fortress-guide (P3, S, seo-content). Key source sites used: biblewalks.com, hikingintheholyland.com, touristisrael.com, israel-in-photos.com, beinharimtours.com, parks.org.il, nativa.co.il, alltrails.com, ein-hod.info, jancojanco.org. Saturation: extreme at pass #113. Next: 556 → BUILD (monetization).
 

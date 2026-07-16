@@ -8670,3 +8670,31 @@ What: New /golan-heights-wineries standalone guide. "Golan Heights Wineries: Win
 Gate: pnpm check 0 errors; 745 pages (+1 from 744); 1055/1055 e2e pass.
 Ship: 7bb42dbfd35026e1c22762b0b9f116a0bfc2763b, pushed to origin/master.
 Prod deploy: in_progress at commit time; 556%5==1 BUILD next → 557%5==2 BUILD (seo-content).
+
+---
+
+## iter557 — 2026-07-16 — BUILD (seo-content)
+
+**Item:** beit-alfa-guide (P2, S)
+**Branch:** auto/beit-alfa-guide → squash-merged to master
+**Commit:** 6c9e87d
+
+**What was built:**
+- New standalone guide `/beit-alfa-guide`: "Beit Alfa Byzantine Synagogue: Zodiac Mosaic Visitor Guide"
+- Three mosaic panels: Akeidat Yitzhak (Binding of Isaac), zodiac wheel (12 Hebrew month signs + Helios/quadriga + 4 personified seasons), Torah Shrine (2 menorahs, shofar, lulav, etrog)
+- Marianos+Hanina artist inscription section
+- Jezreel Valley circuit table (Gan HaShlosha, Beit She'an, Tel Megiddo, Beit She'arim; all INPA pass)
+- Getting there from 4 cities (car required)
+- Practical info table
+- 7 FAQs including zodiac/Helios scholarly context
+- 3 CTAs: GYG Galilee & Jezreel Valley Day Tour, DiscoverCars Tel Aviv, Booking.com Tiberias
+- Description: 158 chars (within 160-char limit after trimming "circuit" from original ~166-char draft)
+
+**Cross-links added:**
+- `beit-shean-guide.md`: table row link + itinerary text link + See also footer link
+- `megiddo-jezreel-valley-guide.md`: table row link + itinerary text link + See also footer link
+- `smoke.spec.ts`: +1 route (`/beit-alfa-guide`)
+
+**Gate:** pnpm check 0 errors; build 746 pages (+1 from 745); 1056/1056 e2e pass (8.9 min)
+
+**Notes:** Description initially 166 chars; trimmed to 158 by removing "circuit" from "circuit tips" → "tips". Context resume from compacted session — all edits clean on first pass.
