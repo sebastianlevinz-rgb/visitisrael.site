@@ -164,4 +164,4 @@ For car rental comparison, see the [car rental guide for Israel](/car-rental-isr
 
 ---
 
-See also: [Beit Alfa Byzantine Synagogue](/beit-alfa-guide) · [Day trips from Haifa](/day-trips-from-haifa) · [Israel National Parks Pass](/israel-national-parks-pass) · [Galilee tours compared](/galilee-tours-compared) · [Jewish heritage in Israel](/jewish-heritage-israel) · [Christian pilgrimage guide](/christian-pilgrimage-holy-land) · [Car rental in Israel](/car-rental-israel) · [Beit She'arim guide](/beit-shearim-guide) · [Nazareth travel guide](/nazareth-travel-guide)
+See also: [Beit Alfa Byzantine Synagogue](/beit-alfa-guide) · [Day trips from Haifa](/day-trips-from-haifa) · [Israel National Parks Pass](/israel-national-parks-pass) · [Galilee tours compared](/galilee-tours-compared) · [Jewish heritage in Israel](/jewish-heritage-israel) · [Christian pilgrimage guide](/christian-pilgrimage-holy-land) · [Car rental in Israel](/car-rental-israel) · [Beit She'arim guide](/beit-shearim-guide) · [Nazareth travel guide](/nazareth-travel-guide) · [Archaeological dig experiences in Israel](/israel-archaeology-experience)

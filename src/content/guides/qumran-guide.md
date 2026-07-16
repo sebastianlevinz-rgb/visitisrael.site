@@ -140,4 +140,5 @@ Both museums are in Jerusalem, making them natural companions to a Qumran day tr
 - **Bring significantly more water than you think you need.** The Jordan Valley is one of the hottest, driest places in Israel. Shade on the trail is minimal.
 - **The Cave 4 overlook is the money shot.** Make sure you walk the full trail to reach it — it is at the far end, not near the entrance.
 - **Manage expectations about cave access.** No caves are enterable. The overlook is good, but if you are expecting to crawl into ancient caves, Qumran is not that experience.
+- **Want to dig, not just look?** If hands-on archaeology is your goal, Israel has structured dig-for-a-day programmes at Tel Megiddo and Beit Guvrin — and free multi-week IAA volunteer placements at excavation sites across the country. See the [Israel archaeological dig experience guide](/israel-archaeology-experience).
 - **Cross-link to Ein Gedi.** [Ein Gedi Nature Reserve](/dead-sea/ein-gedi) is 25 km south on Route 90 — a dramatically different landscape (freshwater waterfalls, ibex, rock hyrax) that pairs naturally with Qumran's stark archaeological landscape.

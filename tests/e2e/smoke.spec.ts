@@ -597,6 +597,7 @@ const ROUTES = [
   '/keshet-cave-guide',
   '/sea-of-galilee-beaches',
   '/jesus-trail-israel',
+  '/israel-archaeology-experience',
 ];
 
 for (const route of ROUTES) {
