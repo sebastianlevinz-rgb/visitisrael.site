@@ -8780,3 +8780,23 @@ Content: 6 beaches/swim spots (Gei Beach Tiberias city, Luna Gal Water Park, Kib
 Gate: pnpm check 0 errors; 750 pages; e2e pass. SHA 85db24d.
 Note: tools category all SHIPPED → fell through to seo-content per iter558 pattern.
 Note: iter560 research backlog had city-of-david-guide + gamla-guide as items, but both already SHIPPED (iters 337+338 as city-of-david-jerusalem + gamla-nature-reserve-guide). Stale backlog entries — not re-shipped.
+
+## 2026-07-16T08:30Z · iter 564 · REVIEW · audit iters 561-563
+
+**What:** REVIEW mode (564%5==4). Audited israel-craft-spirits (iter561), keshet-cave-guide (iter562), sea-of-galilee-beaches (iter563).
+
+**Checks run:**
+1. Meta description lengths — israel-craft-spirits **167 chars (DEFECT, >160)**; keshet-cave-guide 156 chars (clean); sea-of-galilee-beaches 159 chars (clean).
+2. H1 in body — 0 H1 lines in any of the 3 files. **CLEAN.**
+3. Internal links — 5 links in craft-spirits, 11 in keshet-cave, 10 in sea-of-galilee-beaches. All resolve. **CLEAN.**
+4. Hero images — carmel-market.jpg, akko/hero.jpg, galilee/sea-of-galilee.jpg — all present. **CLEAN.**
+5. Back-links — craft-spirits ← israel-craft-beer.md + israel-wine-wineries.md; keshet-cave ← israel-adventure-sports.md + western-galilee-guide.md; sea-of-galilee-beaches ← sea-of-galilee-guide.md + tiberias-guide.md. **CLEAN.**
+6. Honesty — no aggregateRating/ratingValue; all ₪ values are ranges with "approximately" qualifiers (e.g. "approximately ₪28–30", "approximately ₪30–45", "in the ₪25–60 range"). **CLEAN.**
+
+**Fix applied:** Trimmed israel-craft-spirits description 167→143 chars. Removed "The complete guide to" prefix and "in 2026" suffix. New description: "Israeli whisky, craft gin and artisan spirits guide — M&H Distillery Tel Aviv, tasting rooms, bottle shops, and where to drink Israeli spirits."
+
+**Gate:** pnpm check 0 errors; pnpm build 750 pages (no change); 1060/1060 e2e pass.
+
+**Merge SHA:** 840a442. Pushed to master.
+
+**Next:** iter565 → RESEARCH (pass #115).

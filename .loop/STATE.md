@@ -1,13 +1,17 @@
 # LOOP STATE
 
-- iteration: 563
-- lastMode: BUILD (tools→seo-content fallthrough; all tools SHIPPED)
-- lastItem: sea-of-galilee-beaches — "Sea of Galilee Beaches: Swimming, Beaches & the Kinneret Trail" at /sea-of-galilee-beaches
-- lastResult: SHIPPED 85db24d. pnpm check 0 errors; 750 pages (+1 from 749); e2e pass (exit code 0). Back-links in sea-of-galilee-guide.md + tiberias-guide.md. Smoke test added.
-- nextRotationCategory: 564%5==4 → REVIEW. 565%5==0 → RESEARCH. 566%5==1 → BUILD (monetization). 567%5==2 → BUILD (seo-content). 568%5==3 → BUILD (tools→seo-content fallthrough).
+- iteration: 564
+- lastMode: REVIEW
+- lastItem: review-iters-561-563 (israel-craft-spirits, keshet-cave-guide, sea-of-galilee-beaches)
+- lastResult: DEFECT FOUND+FIXED: israel-craft-spirits description 167→143 chars. keshet-cave-guide (156) and sea-of-galilee-beaches (159) clean. Gate: pnpm check 0 errors; build 750 pages (no change); 1060/1060 e2e pass. SHIPPED 840a442.
+- nextRotationCategory: 565%5==0 → RESEARCH. 566%5==1 → BUILD (monetization). 567%5==2 → BUILD (seo-content). 568%5==3 → BUILD (tools→seo-content fallthrough). 569%5==4 → REVIEW.
 - higgsfieldSpent: 0
-- updatedAt: 2026-07-16T07:00Z
+- updatedAt: 2026-07-16T08:30Z
 - branch context: work on master; feature work on auto/<slug>
+
+Notes: iter564 REVIEW — audit iters 561-563 (israel-craft-spirits, keshet-cave-guide, sea-of-galilee-beaches). Checks: (1) meta description lengths — israel-craft-spirits 167 chars (DEFECT, >160); keshet-cave-guide 156 chars (clean); sea-of-galilee-beaches 159 chars (clean). Fix applied: trimmed israel-craft-spirits from 167→143 chars (removed 'The complete guide to' prefix and '... in 2026' suffix). (2) H1 in body — 0 H1 lines in any file. CLEAN. (3) Internal links — all links resolve across all 3 files (5 in craft-spirits, 11 in keshet-cave, 10 in sea-of-galilee). CLEAN. (4) Hero images — carmel-market.jpg, akko/hero.jpg, galilee/sea-of-galilee.jpg all present. CLEAN. (5) Back-links — craft-spirits ← israel-craft-beer.md + israel-wine-wineries.md; keshet-cave ← israel-adventure-sports.md + western-galilee-guide.md; sea-of-galilee-beaches ← sea-of-galilee-guide.md + tiberias-guide.md. CLEAN. (6) Honesty — no aggregateRating/ratingValue; all ₪ prices are ranges with "approximately" qualifiers. CLEAN. Gate: pnpm check 0 errors; pnpm build 750 pages; 1060/1060 e2e pass. SHIPPED 840a442. Next: 565 → RESEARCH (#115).
+
+Notes: iter563 BUILD (tools→seo-content fallthrough) — sea-of-galilee-beaches. SHIPPED 85db24d. pnpm check 0 errors; 750 pages (+1 from 749); e2e pass (exit code 0). Back-links in sea-of-galilee-guide.md + tiberias-guide.md. Smoke test added.
 
 Notes: iter560 RESEARCH pass #114 — 30+ candidates checked across touristisrael.com, goisrael.com, lonelyplanet.com, roughguides.com, gyg.com, viator.com, tripadvisor.com, nomadicmatt.com, backpackisrael.com, biblewalks.com, hikingintheholyland.com, israel-in-photos.com, beinharimtours.com, nativa.co.il, alltrails.com, departures.com, myjewishlearning.com, luxuryescapes.com, timeout.com/israel, laidbacktrip.com, private-tours-in-israel.com, holylandviptours.net, dannythedigger.com, israelbylocals.com, golanispirit.com, mh-distillery.com, hotel-scoop.com, monacorona.com. 6 net-new items added: (1) city-of-david-guide (P2,S,monetization) — HOW-TO wet/dry tunnel route + Pool of Siloam; GYG 1200+ reviews; (2) gamla-guide (P2,S,seo-content) — Israel's tallest waterfall + Masada-of-the-North ruins + Griffon vultures; (3) via-dolorosa-guide (P2,S,monetization) — 14 Stations standalone + Friday Franciscan procession; (4) israel-craft-spirits (P2,S,monetization) — M&H Distillery World's Best Single Malt 2023 + craft arak; (5) sea-of-galilee-beaches (P2,S,seo-content) — beach-by-beach guide distinct from tiberias-guide + boat-tour; (6) luxury-arava-desert (P2,M,monetization) — Six Senses Shaharut MICHELIN-listed. Saturation ~82%.
 
