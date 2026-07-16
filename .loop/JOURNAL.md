@@ -8935,3 +8935,10 @@ Python3 triple-check: slug + keyword variants vs BACKLOG.md (P-items), DONE.md (
 
 ### Saturation note
 Pass #116: 6 net-new from 50+ candidates checked. Extreme saturation (~84%) confirmed. The 6 new items are genuine high-value gaps, not padding.
+
+## 2026-07-16T15:05Z · iter 571 · BUILD (monetization) · israel-archaeology-experience
+What: New guide /israel-archaeology-experience — "Dig for a Day in Israel: Archaeological Experience Guide". Covers dig-for-a-day tourist programmes (Tel Megiddo Expedition ₪250–450 April–Aug; Beit Guvrin/Maresha IAA cave dig ₪150–250 Oct–June; Tel Shiloh spring season), multi-week volunteer options (IAA Volunteer Dig Corps free; ICARE $900–1,500; university programmes), what to expect on a dig day, best season guide, and Jezreel Valley + Judean foothills + Dead Sea archaeology combining circuits. 7 FAQs. 3 CTAs: GYG archaeology tours, Viator Tel Megiddo tours, Booking.com Jerusalem hotels. Back-links added to megiddo-jezreel-valley-guide (See also), jewish-heritage-israel (practical tips bullet), qumran-guide (tips section). Smoke test +1.
+Gate: pnpm check 0 errors; build 754 pages (+1 from 753); 1064/1064 e2e+a11y pass.
+Merge SHA: c100e0f; pushed to master; CI in_progress at journal time (consistent with prior pattern).
+Prod: pending (CI in_progress at write time).
+SEO targets: "volunteer archaeology Israel 2026", "archaeological dig Israel tourist", "dig for a day Israel", "Israel archaeology experience tourist", "Tel Megiddo dig day".
