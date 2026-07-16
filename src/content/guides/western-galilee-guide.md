@@ -130,7 +130,7 @@ The stream flows from the Galilean hills westward to the Mediterranean coast —
 - **Flash flood risk:** Never enter any wadi during rainfall or after heavy rain upstream — the stream can rise suddenly and dangerously, even under clear skies locally
 - **Length:** The most popular section runs approximately 5 kilometres one way from the Rosh Hanikra junction to the coast near Kibbutz Yas'ur; an out-and-back of 2–3 km gives a good sense of the gorge
 
-The Nahal Kziv trail connects with Montfort — experienced hikers sometimes combine the stream walk with the castle ruins on a longer day.
+The Nahal Kziv trail connects with Montfort — experienced hikers sometimes combine the stream walk with the castle ruins on a longer day. The upper section of the canyon also contains **Keshet Cave** — a natural limestone arch that visitors walk through, where one of the gorge's most notable geological formations (a 48-metre collapsed sea cave) serves as the starting point for the canyon descent. The [Keshet Cave guide](/keshet-cave-guide) covers the arch, the zip-line concession, and the combined Keshet–Montfort half-day in detail.
 
 ---
 

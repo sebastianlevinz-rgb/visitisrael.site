@@ -592,6 +592,7 @@ const ROUTES = [
   '/atlit-detainee-camp-guide',
   '/beit-alfa-guide',
   '/valley-of-elah-guide',
+  '/keshet-cave-guide',
 ];
 
 for (const route of ROUTES) {

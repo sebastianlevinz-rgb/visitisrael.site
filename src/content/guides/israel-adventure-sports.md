@@ -152,7 +152,7 @@ See the full [Mount Hermon skiing guide](/mount-hermon-skiing) for tickets, seas
 Several sites across Israel offer zip-lining:
 
 - **Atlit adventure park (near Haifa)** — a sea-cliff zip-line over the Mediterranean; the most dramatic setting in the country.
-- **Keshet Cave & Rappelling (near Akko)** — combined zip-line and rappelling experience at a natural stone arch above the cliffs; views across the western Galilee.
+- **[Keshet Cave & Rappelling](/keshet-cave-guide) (near Akko)** — a 200-metre zip-line and rappelling experience at Keshet Cave, a 48-metre natural limestone arch in the Nahal Kziv canyon; the arch is walkable as well, making it one of Israel's most accessible geological formations.
 - **Mount Hermon (Golan)** — year-round zip-line across the plateau.
 - **Kfar Hananya adventure park** — in the Upper Galilee, with multiple lines and high-ropes elements.
 
