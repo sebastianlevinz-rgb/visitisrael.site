@@ -8772,3 +8772,11 @@ Prod deploy: in_progress at commit time; 556%5==1 BUILD next → 557%5==2 BUILD 
 **Ship:** squash-merged working-tree changes directly to master (feature branch had no committed history — all edits were in working tree) → 75ecc30. Pushed. CI in_progress at push time (consistent with pattern).
 
 **Next:** iter563 → BUILD (tools). First check BACKLOG for any unshipped tools items before falling through to seo-content.
+
+## 2026-07-16 · iter 563 · BUILD (tools→seo-content fallthrough) · sea-of-galilee-beaches
+What: new /sea-of-galilee-beaches — "Sea of Galilee Beaches: Swimming, Beaches & the Kinneret Trail".
+Why: Confirmed gap from iter560 research pass #114. tiberias-guide = city; sea-of-galilee-guide = 4-shore circuit overview; sea-of-galilee-boat-tour = on-water tours. Beach-by-beach is genuinely distinct. Competitors (laidbacktrip, timeout.com/israel, israel-taxi) rank for "Sea of Galilee beaches guide".
+Content: 6 beaches/swim spots (Gei Beach Tiberias city, Luna Gal Water Park, Kibbutz Ginosar private beach, Ein Gev east shore, Tsemach/Ma'agan/Gofra southern shore, Nahal Meshushim Golan swim spot), seasonal water temps table, paid vs free comparison, lifeguard schedule, 55 km Shvil Sovev Kinneret circuit trail, getting-there section. 6 FAQs, 3 CTAs (GYG, DiscoverCars, Booking). Back-links: sea-of-galilee-guide.md (swimming section) + tiberias-guide.md (swimming section). Smoke test +1 (750 total pages).
+Gate: pnpm check 0 errors; 750 pages; e2e pass. SHA 85db24d.
+Note: tools category all SHIPPED → fell through to seo-content per iter558 pattern.
+Note: iter560 research backlog had city-of-david-guide + gamla-guide as items, but both already SHIPPED (iters 337+338 as city-of-david-jerusalem + gamla-nature-reserve-guide). Stale backlog entries — not re-shipped.
