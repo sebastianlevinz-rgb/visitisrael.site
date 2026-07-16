@@ -8712,3 +8712,21 @@ Prod deploy: in_progress at commit time; 556%5==1 BUILD next → 557%5==2 BUILD 
 **Gate:** pnpm check 0 errors; build 747 pages (+1 from 746); 1057/1057 e2e pass (7.0 min). CI in_progress at push time (consistent with prior pattern).
 
 **Merge SHA:** b295ad9. Prod CI in_progress at end of turn; next run will confirm.
+
+## 2026-07-16T06:10Z · iter 559 · REVIEW · audit iters 556-558
+
+**What:** REVIEW mode (559%5==4). Audited golan-heights-wineries (iter556), beit-alfa-guide (iter557), valley-of-elah-guide (iter558).
+
+**Checks run:**
+1. Meta description lengths — golan-heights-wineries 145 chars, beit-alfa-guide 158 chars, valley-of-elah-guide 142 chars. All ≤160. **CLEAN.**
+2. H1 in body — 0 H1 lines in any of the 3 files. **CLEAN.**
+3. Internal links — 30 unique internal links across all 3 files. All resolve. Note: /golan/banias, /golan/mount-bental, /golan/nimrod-fortress, /golan/druze-villages in golan-heights-wineries correctly resolve via the [region]/[attraction].astro route (attractionSlug() strips the 'golan-' prefix from attraction filenames). **CLEAN.**
+4. Hero images — public/images/regions/golan/mount-bental.jpg, galilee/hero.jpg, galilee/tiberias.jpg, jerusalem/hero.jpg — all present. **CLEAN.**
+5. Back-links — golan-heights-wineries: linked from israel-wine-wineries.md (2 mentions) + golan-heights-guide.md. beit-alfa-guide: linked from beit-shean-guide.md (2 row links + See also) + megiddo-jezreel-valley-guide.md (2 row links). valley-of-elah-guide: linked from day-trips-from-jerusalem.md + jewish-heritage-israel.md + judean-hills-wine-trail.md. **CLEAN.**
+6. Honesty — no exact fabricated prices; all ₪ values are ranges (e.g. ₪60–120/pp) or approximate (~₪29) with "verify at parks.org.il" notes. No aggregateRating or review counts. **CLEAN.**
+
+**Side-note:** origin/auto/israel-vs-cyprus stale branch found — content already shipped to master in an earlier iteration; branch diverged at ~iter410. Cannot delete via git push (403 from proxy). No action needed; irrelevant to master.
+
+**Gate:** No changes made → no gate run needed.
+
+**Result:** REVIEW CLEAN. No defects in iters 556–558. Next: iter560 → RESEARCH (pass #114).
