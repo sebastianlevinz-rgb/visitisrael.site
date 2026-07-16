@@ -1,6 +1,6 @@
 ---
 title: 'Israeli Whisky & Craft Spirits Guide: M&H Distillery & Beyond'
-description: 'The complete guide to Israeli whisky, craft gin and artisan spirits — M&H Distillery Tel Aviv, tasting rooms, bottle shops, and where to drink Israeli spirits in 2026.'
+description: 'Israeli whisky, craft gin and artisan spirits guide — M&H Distillery Tel Aviv, tasting rooms, bottle shops, and where to drink Israeli spirits.'
 heroImage: /images/regions/tel-aviv/carmel-market.jpg
 category: Food & Drink
 updatedAt: 2026-07-16
