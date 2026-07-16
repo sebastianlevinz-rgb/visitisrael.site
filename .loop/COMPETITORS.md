@@ -5145,3 +5145,30 @@ Saturation: Extreme at pass #115. 3 net-new items from 30+ candidates checked (~
 - alltrails.com Nahal Amud: 4.5-star, 250+ reviews, described as "hidden gem between Safed and the Sea of Galilee" — strong travel searcher intent confirmed
 - Negev jeep tour operator websites (Abraham Tours, Desert Eco Tours) rank prominently for "Negev 4WD tour Israel" — mature affiliate opportunity with no dedicated guide to link into
 - Michmoret Beach: tripadvisor ranks it #1 attraction in Binyamina cluster; no English travel guide site covers it editorially
+
+### 2026-07-16 · iter 575 · research-pass-117
+
+Competitor sources checked: touristisrael.com (sunrise-at-masada/12396, haifa-tours, nazareth-tours, hebrew-language-guide-for-tourists-in-israel/24759, western-wall), beinharimtours.com (Masada sunrise, Haifa tours, Nazareth, honeymoon Israel, packing guide Israel), getyourguide.com (Masada sunrise product listings, Haifa city tours, Nazareth tours, Bethlehem/Church of Nativity), viator.com (Israel Masada sunrise, Haifa, Nazareth, Bethlehem), alltrails.com (Golan Heights trails: Yehudiya, Gamla, El Al, Banias), inpa.org.il (Yehudiya, Gamla, Banias), hike-israel.com (Golan section), visitisrael.app (Church of Nativity ranking), franciscanmediaisrael.org, kotel.org.il (Western Wall Heritage Foundation), roughguides.com/israel, biblewalks.com/wail.
+
+Key findings:
+- **Masada sunrise** (touristisrael.com/sunrise-at-masada/12396 + GYG 20+ products): we have masada-visitor-guide.md (SHIPPED) but zero dedicated sunrise guide. Sunrise = distinct high-conversion intent with specific purchase-decision logistics (Snake Path timing, cable car NOT available pre-dawn, departure time calculation from Jerusalem/TLV). Top affiliate opportunity.
+- **Haifa + Nazareth tours-compared gap** (touristisrael.com Haifa/Nazareth tour destination pages, GYG/Viator product inventory): the two remaining gaps in the tours-compared series. Haifa = 3rd most visited city + cruise port; Nazareth = primary Christian pilgrimage destination. Template reuse from Jerusalem/Galilee/Eilat/Golan series = fastest revenue gain.
+- **Hebrew phrases** (touristisrael.com/hebrew-language-guide-for-tourists-in-israel/24759, beinharimtours.com): dedicated editorial pages rank on both competitors; we have zero language guide content (only Google Translate app mention in israel-travel-apps guide). Language app affiliate opportunity.
+- **Church of Nativity standalone** (visitisrael.app ranks specifically for "Church of Nativity guide", getyourguide.com dedicated tour products): we have bethlehem-travel-guide.md but the Church is 1 of 5 sections. Standalone guide serves the distinct "I'm visiting the Church specifically" query with grotto queue + denomination rotation + Christmas mass logistics.
+- **Golan Heights hiking** (alltrails.com 50+ trails with strong review counts, hike-israel.com Golan section, inpa.org.il): we have golan-heights-guide (destination) + hiking-in-israel (national overview) but zero trail-by-trail Golan guide. Yehudiya + Gamla + Banias are heavily searched by active travelers.
+- **Western Wall Plaza guide** (touristisrael.com/western-wall, biblewalks.com/wail, timeout.com/israel/western-wall): we have western-wall-tunnels-guide (SHIPPED iter207) but zero Plaza guide. 6 existing backlog items already reference "western-wall-guide (when built)" as a cross-link target. The Plaza is Israel's #1 visited site — this is a critical gap.
+- **Packing list editorial** (beinharimtours.com "Ultimate Packing Guide for Israel", roughguides.com packing content, touristisrael.com/what-to-pack): editorial articles coexist with interactive checklist tools on the SERP. Our interactive tool (/israel-packing-list) only captures one of two dominant intents.
+
+Confirmed not gaps this pass (already SHIPPED or in BACKLOG):
+- Haifa travel guide → SHIPPED iter192
+- Masada general guide → SHIPPED
+- Western Wall Tunnels tour guide → SHIPPED iter207
+- Bethlehem destination guide → SHIPPED iter422
+- Israel hiking general → SHIPPED
+- Golan Heights region guide → SHIPPED ~iter330
+- Jerusalem tours compared → SHIPPED iter71
+- Tel Aviv tours compared → SHIPPED
+- Dead Sea hotels → SHIPPED or BACKLOG
+- Israel packing list tool → SHIPPED ~iter30
+
+Saturation at pass #117: ~85% of high-value gaps now in BACKLOG or SHIPPED. Remaining competitive white space = niche long-tail or seasonal content.

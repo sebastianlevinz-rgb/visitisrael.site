@@ -8961,3 +8961,56 @@ What: Audited iters 571–573 guides (israel-archaeology-experience, zionist-her
 Gate: pnpm check 0 errors; build 756 pages (no page count change — cross-link edit only); 1066/1066 e2e pass.
 Merge SHA: 936574c (direct commit to master, pushed).
 Prod CI: in_progress at note time — consistent with prior pattern. No revert needed.
+
+## 2026-07-16T18:15Z · iter 575 · RESEARCH · research-pass-117
+
+**Mode:** RESEARCH (575 % 5 == 0 → pass #117)
+**No code changes. No gate run. Memory files updated + committed.**
+
+### Sources checked
+- touristisrael.com (sunrise-at-masada, haifa-tours, nazareth-tours, hebrew-language-guide-for-tourists, western-wall)
+- beinharimtours.com (Masada sunrise tours, Haifa tours, Nazareth day tours, honeymoon Israel, packing guide)
+- getyourguide.com (Masada sunrise product listings, Haifa city tours, Nazareth tours, Bethlehem/Church of Nativity)
+- viator.com (Israel category: Masada sunrise, Haifa, Nazareth, Bethlehem)
+- alltrails.com (Golan Heights trail listings — Yehudiya, El Al, Gamla, Banias)
+- inpa.org.il (Yehudiya Nature Reserve, Gamla Nature Reserve, Banias)
+- hike-israel.com (Golan Heights hiking section)
+- visitisrael.app (Church of Nativity ranking signal)
+- franciscanmediaisrael.org / kotel.org.il (Church of Nativity + Western Wall official sources)
+- roughguides.com/israel (packing list, Hebrew phrases context)
+- biblewalks.com/wail (Western Wall Plaza editorial benchmark)
+
+### Dedup methodology
+Grep-confirmed triple-zero against BACKLOG.md P-items + DONE.md + src/content/guides/ file listing for all 8 candidate slugs. Also checked: exact slug variants + keyword/partial matching to catch coverage under alternate names.
+
+### False leads eliminated (12 of 20 candidates)
+- haifa-travel-guide → SHIPPED iter192 (haifa-travel-guide.md exists + DONE.md confirms)
+- masada-visitor-guide → SHIPPED (masada-visitor-guide.md exists; sunrise-guide is DISTINCT intent)
+- western-wall-tunnels-guide → SHIPPED iter207 (tunnels tour guide; Plaza guide is DISTINCT)
+- bethlehem-travel-guide → SHIPPED iter422 (church-of-nativity-guide is DISTINCT standalone)
+- hiking-in-israel → SHIPPED (golan-heights-hiking-guide is DISTINCT regional trail-by-trail)
+- golan-heights-guide → SHIPPED iter~330 (destination guide; hiking guide is DISTINCT)
+- israel-packing-list (tool) → SHIPPED ~iter30 (interactive checklist; article is DISTINCT format)
+- jerusalem-tours-compared → SHIPPED iter71
+- tel-aviv-tours-compared → SHIPPED
+- dead-sea-tours-compared → SHIPPED
+- eilat-tours-compared → SHIPPED iter101
+- masada-tours-compared → SHIPPED iter71
+
+### 8 net-new items confirmed (all triple-zero)
+1. `/masada-sunrise-guide` [P1, S, monetization] — sunrise Snake Path logistics, departure timing from Jerusalem/TLV, cable-car-vs-hike pre-dawn decision; touristisrael.com /sunrise-at-masada/12396/; GYG 20+ products; distinct from masada-visitor-guide (general)
+2. `/haifa-tours-compared` [P1, S, monetization] — completes tours-compared series; Haifa is only major city gap; template reuse from existing pages; touristisrael.com dedicated Haifa tours page
+3. `/nazareth-tours-compared` [P1, S, monetization] — Christian tourism market; faith-based tour operators; touristisrael.com Nazareth tours destination page
+4. `/israel-hebrew-phrases` [P2, S, seo-content] — touristisrael.com /hebrew-language-guide-for-tourists-in-israel/24759/ benchmarks demand; language app affiliate opportunity
+5. `/church-of-nativity-guide` [P2, S, seo-content+monetization] — standalone church guide; distinct from bethlehem-travel-guide (destination hub); visitisrael.app ranks; denomination rotation, grotto queue logistics
+6. `/golan-heights-hiking-guide` [P2, M, seo-content] — trail-by-trail: Yehudiya, El Al Canyon, Gamla (tallest waterfall + Griffon vultures), Banias; alltrails.com 50+ Golan trails listed; distinct from golan-heights-guide (destination) + hiking-in-israel (national overview)
+7. `/western-wall-guide` [P2, S, seo-content] — Western Wall Plaza guide; distinct from western-wall-tunnels-guide (tunnel tour); 6 existing backlog items reference "western-wall-guide (when built)" as a cross-link target confirming expected slot; kotel.org.il primary source
+8. `/israel-packing-list-guide` [P2, S, seo-content] — long-form editorial article; distinct from interactive tool /israel-packing-list; beinharimtours.com "Ultimate Packing Guide for Israel" benchmarks demand; Google surfaces both tool + editorial for this query
+
+### Honeymoon upgrade
+Upgraded israel-honeymoon-guide P3 → P2: beinharimtours.com + touristisrael.com both have standalone romantic/honeymoon Israel content confirming strong competitor coverage; high Booking.com luxury hotel + private tour affiliate potential.
+
+### Saturation note
+Pass #117: 8 net-new from 50+ candidates checked. Extreme saturation (~85%) confirmed. All 8 are genuine high-value gaps covering the highest-ROI remaining opportunities (money-page series completion + high-traffic editorial gaps).
+
+**Next:** iter576 → BUILD (monetization). Recommended next ship: `/masada-sunrise-guide` (P1, S — highest affiliate conversion potential; template reuse from masada-visitor-guide) or `/haifa-tours-compared` (P1, S — series completion, template fully proven).

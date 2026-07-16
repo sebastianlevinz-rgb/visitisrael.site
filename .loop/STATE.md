@@ -1,12 +1,12 @@
 # LOOP STATE
 
-- iteration: 574
-- lastMode: REVIEW
-- lastItem: audit-iters-571-573 (israel-archaeology-experience, zionist-heritage-trail, jerusalem-trail)
-- lastResult: SHIPPED 936574c. pnpm check 0 errors; build 756 pages (no change); 1066/1066 e2e pass. DEFECT FOUND+FIXED: zionist-heritage-trail had zero back-links from any parent guide. Fix: added Zionist Heritage Trail link in jewish-heritage-israel.md Mount Herzl paragraph. All other checks CLEAN: (1) meta descriptions all 158 chars Unicode (wc -c inflated by em-dash UTF-8 bytes — not a defect); (2) 0 H1 in body across all 3 files; (3) hero images jerusalem/hero.jpg + galilee/hero.jpg both exist; (4) 16 internal links across 3 files all resolve; (5) all 3 slugs in smoke.spec.ts. CI in_progress at push time — consistent with prior pattern.
-- nextRotationCategory: 575%5==0 → RESEARCH (pass #117). 576%5==1 → BUILD (monetization). 577%5==2 → BUILD (seo-content). 578%5==3 → BUILD (tools→seo-content). 579%5==4 → REVIEW.
+- iteration: 575
+- lastMode: RESEARCH
+- lastItem: research-pass-117
+- lastResult: no ship — RESEARCH pass #117; 8 net-new items added to BACKLOG (masada-sunrise-guide P1, haifa-tours-compared P1, nazareth-tours-compared P1, israel-hebrew-phrases P2, church-of-nativity-guide P2, western-wall-guide P2, israel-packing-list-guide P2, golan-heights-hiking-guide P2 M); upgraded honeymoon-guide P3→P2; BACKLOG now ~345 items; saturation ~85%.
+- nextRotationCategory: 576%5==1 → BUILD (monetization). 577%5==2 → BUILD (seo-content). 578%5==3 → BUILD (tools→seo-content). 579%5==4 → REVIEW. 580%5==0 → RESEARCH (pass #118).
 - higgsfieldSpent: 0
-- updatedAt: 2026-07-16T15:55Z
+- updatedAt: 2026-07-16T18:15Z
 - branch context: work on master; feature work on auto/<slug>
 
 Notes: iter568 BUILD (seo-content, tools fallthrough) — luxury-arava-desert. SHIPPED da1f518. pnpm check 0 errors; 753 pages (+1 from 752); 1063/1063 e2e pass. New guide /luxury-arava-desert covers Six Senses Shaharut (MICHELIN Guide Hotels listed, ~$900–1,400/night, IHG One Rewards), Arava Valley geology (Dead Sea Transform rift, 350–450m elevation at Shaharut), dark sky quality, wellness programming (Sleep+Recovery, biohacking spa, Bedouin herbal treatments), Timna Park copper mines (Chalcolithic, Egyptian Hathor temple, King Solomon's Pillars, Mushroom rock), Eilat/Mitzpe Ramon combining, Petra day-trip note. 7 FAQs: what is Six Senses Shaharut; cost; what is the Arava Valley; getting there; best season; activities; combining with other Negev sites. 3 CTAs: Booking.com (Arava hotels), GYG (Timna+Arava tours), DiscoverCars (car essential). Cross-links: Footer.astro (after /best-hotels-negev), mitzpe-ramon-guide.md "Continuing south" paragraph, israel-wellness-spa.md closing paragraph. FALSE GAP NOTE: gamla-guide (BACKLOG line 1335, /gamla-guide) is a slug mismatch — gamla-nature-reserve-guide.md was SHIPPED in iter338. Marked STALE in BACKLOG.
