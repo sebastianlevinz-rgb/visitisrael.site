@@ -122,13 +122,13 @@ Tel Megiddo anchors a **full-day circuit** of the Jezreel Valley that can be don
 
 | Site | Drive from Megiddo | Highlight | INPA Pass |
 |---|---|---|---|
-| **Beit Alfa Byzantine Synagogue** | 20 min east | 6th-century CE mosaic floor with zodiac wheel — the best-preserved ancient synagogue mosaic in Israel | Yes |
+| [Beit Alfa Byzantine Synagogue](/beit-alfa-guide) | 20 min east | 6th-century CE mosaic floor with zodiac wheel — the best-preserved ancient synagogue mosaic in Israel | Yes |
 | **Gan HaShlosha / Sachne** | 35 min east | Warm spring-fed natural pools (28°C year-round), waterfalls, archaeological gardens | Yes |
 | **Mount Tabor** | 25 min north | Transfiguration site; basilica summit views over the valley | Partly (basilica free) |
 | **Beit She'arim UNESCO** | 45 min west | 33 rock-cut catacombs, Sanhedrin seat; UNESCO 2015 | Yes |
 | **Nazareth Old City** | 35 min north | Annunciation Basilica, souk, Arab-Israeli restaurants | No |
 
-A practical full-day sequence (clockwise from Haifa): **Beit She'arim** (morning, 90 min) → **Tel Megiddo** (late morning, 2–3 hrs) → **Beit Alfa** (early afternoon, 45 min) → **Gan HaShlosha** (afternoon swim, 2 hrs). Total driving: ~130 km. Start no later than 08:30 from Haifa; Gan HaShlosha pools close at 17:00 (16:00 in winter).
+A practical full-day sequence (clockwise from Haifa): **Beit She'arim** (morning, 90 min) → **Tel Megiddo** (late morning, 2–3 hrs) → [Beit Alfa](/beit-alfa-guide) (early afternoon, 45 min) → **Gan HaShlosha** (afternoon swim, 2 hrs). Total driving: ~130 km. Start no later than 08:30 from Haifa; Gan HaShlosha pools close at 17:00 (16:00 in winter).
 
 ---
 
@@ -164,4 +164,4 @@ For car rental comparison, see the [car rental guide for Israel](/car-rental-isr
 
 ---
 
-See also: [Day trips from Haifa](/day-trips-from-haifa) · [Israel National Parks Pass](/israel-national-parks-pass) · [Galilee tours compared](/galilee-tours-compared) · [Jewish heritage in Israel](/jewish-heritage-israel) · [Christian pilgrimage guide](/christian-pilgrimage-holy-land) · [Car rental in Israel](/car-rental-israel) · [Beit She'arim guide](/beit-shearim-guide) · [Nazareth travel guide](/nazareth-travel-guide)
+See also: [Beit Alfa Byzantine Synagogue](/beit-alfa-guide) · [Day trips from Haifa](/day-trips-from-haifa) · [Israel National Parks Pass](/israel-national-parks-pass) · [Galilee tours compared](/galilee-tours-compared) · [Jewish heritage in Israel](/jewish-heritage-israel) · [Christian pilgrimage guide](/christian-pilgrimage-holy-land) · [Car rental in Israel](/car-rental-israel) · [Beit She'arim guide](/beit-shearim-guide) · [Nazareth travel guide](/nazareth-travel-guide)

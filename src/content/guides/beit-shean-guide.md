@@ -113,13 +113,13 @@ Beit She'an anchors an excellent **full-day circuit** of the northern Jordan Val
 
 | Site | Distance from Beit She'an | Highlight | INPA Pass |
 |---|---|---|---|
-| **Beit Alfa Byzantine Synagogue** | 10 km west (Route 669) | 6th-century CE mosaic zodiac wheel — finest in Israel | Yes |
+| [Beit Alfa Byzantine Synagogue](/beit-alfa-guide) | 10 km west (Route 669) | 6th-century CE mosaic zodiac wheel — finest in Israel | Yes |
 | **Gan HaShlosha / Sachne** | 3 km south-west | Spring-fed 28°C natural swimming pools | Yes |
 | **Tel Megiddo (Armageddon)** | 30 km west (Route 669 to 65) | 26-layer UNESCO archaeological mound; water tunnel; Jezreel panorama | Yes |
 | **Zippori (Sepphoris)** | 45 km north-west | Roman mosaic "Mona Lisa of the Galilee"; Jesus's likely birthplace of Mary | Yes |
 | **Sea of Galilee / Tiberias** | 40 km north (Route 90) | Boat tours, baptism sites, lakefront dining | Partly |
 
-A practical full day from Tiberias: **Beit She'an** (morning, 08:00–10:30) → **Beit Alfa synagogue** (45 min, 10:45–11:30) → **Sachne** (lunch and swimming, 12:00–15:00) → **Megiddo** (afternoon, 15:30–17:30). Total driving: ~90 km. This circuit rewards an overnight base in Tiberias or the Sea of Galilee.
+A practical full day from Tiberias: **Beit She'an** (morning, 08:00–10:30) → [Beit Alfa synagogue](/beit-alfa-guide) (45 min, 10:45–11:30) → **Sachne** (lunch and swimming, 12:00–15:00) → **Megiddo** (afternoon, 15:30–17:30). Total driving: ~90 km. This circuit rewards an overnight base in Tiberias or the Sea of Galilee.
 
 ---
 
@@ -157,4 +157,4 @@ For rental car comparison, see the [car rental guide for Israel](/car-rental-isr
 
 ---
 
-See also: [Water hiking in Israel](/water-hiking-israel) · [Israel National Parks Pass](/israel-national-parks-pass) · [Tel Megiddo (Armageddon) guide](/megiddo-jezreel-valley-guide) · [Day trips from Haifa](/day-trips-from-haifa) · [Best hotels — Sea of Galilee](/best-hotels-sea-of-galilee) · [Galilee tours compared](/galilee-tours-compared) · [Car rental in Israel](/car-rental-israel) · [Beit She'arim UNESCO catacombs](/beit-shearim-guide)
+See also: [Beit Alfa Byzantine Synagogue](/beit-alfa-guide) · [Water hiking in Israel](/water-hiking-israel) · [Israel National Parks Pass](/israel-national-parks-pass) · [Tel Megiddo (Armageddon) guide](/megiddo-jezreel-valley-guide) · [Day trips from Haifa](/day-trips-from-haifa) · [Best hotels — Sea of Galilee](/best-hotels-sea-of-galilee) · [Galilee tours compared](/galilee-tours-compared) · [Car rental in Israel](/car-rental-israel) · [Beit She'arim UNESCO catacombs](/beit-shearim-guide)
