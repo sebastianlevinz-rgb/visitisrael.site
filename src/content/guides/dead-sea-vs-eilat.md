@@ -108,4 +108,4 @@ A practical southern loop for a 5-day trip from Jerusalem:
 
 For a shorter break (2 nights), the **Dead Sea is closer and richer in adjacent sightseeing** from Jerusalem. For a **pure beach-and-activities escape**, Eilat's reef and resort infrastructure give it the edge.
 
-Plan your Dead Sea visit with the [Dead Sea visitor guide](/dead-sea-guide), explore the region at the [Dead Sea hub](/dead-sea), or browse [Eilat things to do](/eilat) for the full Eilat overview.
+Plan your Dead Sea visit with the [Dead Sea visitor guide](/dead-sea-guide), explore the region at the [Dead Sea hub](/dead-sea), or browse [Eilat things to do](/eilat) for the full Eilat overview. If you're weighing Eilat against Aqaba across the Jordanian border, see the [Eilat vs Aqaba comparison](/eilat-vs-aqaba) for a side-by-side on diving, beaches and Petra logistics.

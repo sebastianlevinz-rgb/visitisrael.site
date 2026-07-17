@@ -91,4 +91,4 @@ If not everyone in your party dives, Eilat keeps non-divers busy. The [Underwate
 
 Eilat's reef is the easiest world-class diving and snorkeling you'll find anywhere in Israel. Build it into your trip with the [Eilat region guide](/eilat) and our [first-time in Israel](/first-time-in-israel) and [itineraries](/itineraries) pages.
 
-Not a diver? See the dedicated [Eilat snorkeling guide](/eilat-snorkeling-guide) for everything you need to experience the reef at the surface — no tank, no certification, no experience required.
+Not a diver? See the dedicated [Eilat snorkeling guide](/eilat-snorkeling-guide) for everything you need to experience the reef at the surface — no tank, no certification, no experience required. Curious how Eilat's reef stacks up against the Jordanian side? The [Eilat vs Aqaba comparison](/eilat-vs-aqaba) covers diving quality, coral health and logistics for both Red Sea shores.

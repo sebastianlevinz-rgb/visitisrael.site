@@ -610,6 +610,7 @@ const ROUTES = [
   '/eilat-dolphin-reef-guide',
   '/yam-lyam-sea-to-sea-hike',
   '/shabbat-dinner-experience',
+  '/eilat-vs-aqaba',
 ];
 
 for (const route of ROUTES) {
