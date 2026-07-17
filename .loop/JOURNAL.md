@@ -9273,3 +9273,13 @@ Gate: pnpm check 0 errors; build 769 pages (+1 from 768); 1081/1081 e2e pass (li
 Ship: 17145ca pushed to master.
 Prod: CI in_progress (consistent with prior success pattern).
 Next: iter597 → BUILD (597%5==2 → seo-content). Top candidates: israel-practical-faq (P3, S), israeli-passport-stamp (P3, S), sustainable-travel-israel (P3, M), digital-nomad (P3, M), israel-vs-albania (P3, S).
+
+## 2026-07-17T21:40Z · iter 597 · BUILD (seo-content) · israeli-passport-stamp
+
+What: New /israeli-passport-stamp — "Israeli Passport Stamp: What Every Traveller Needs to Know (2026)". P3/S seo-content triple-zero gap confirmed iter65 RESEARCH (touristisrael.com + Against the Compass + igoogledisrael + Young Pioneer Tours + swiftpassportservices all rank; visa-information.md had only 2 sentences on stamps). 597%5==2 → BUILD (seo-content).
+
+Content: Ben Gurion no-stamp policy (~2013); paper entry slip purpose + retention rules; land border exceptions (Allenby/King Hussein Jordanian stamp, Wadi Araba, Taba/Egypt); countries where Israel evidence is not a concern (Jordan, Egypt, UAE, Bahrain, Morocco, Oman); evergreen framing for sensitive destinations (links to home-govt advisories — no static country lists); multi-country itinerary tips; phone/device check context note. HONESTY: no specific countries listed as absolute refusals; all policy framing evergreen; readers directed to FCDO/State Dept/Smartraveller. 3 CTAs: Booking.com Israel, GYG Israel–Jordan tours, SafetyWing multi-country insurance. Cross-links: visa-information.md (paper-entry-slip section extended), border-crossings.md (stamp guide mentioned), Footer.astro (+1 li after visa-information).
+
+Gate: pnpm check 0 errors; build 770 pages (+1 from 769); 1082/1082 e2e pass (+1 from 1081).
+Ship: squash-merged to master f3086cf, pushed. Branch auto/israeli-passport-stamp deleted. CI Lighthouse in_progress at push time; consistent with prior success pattern (iter581–596 all concluded CI success).
+Next: iter598 → BUILD (tools, 598%5==3; fallthrough to seo-content expected if no new tools items). Top seo-content candidates: israel-practical-faq (P3, S), sustainable-travel-israel (P3, M), israel-vs-albania (P3, S), israel-digital-detox (P3, S).
