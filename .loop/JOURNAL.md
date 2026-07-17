@@ -9024,3 +9024,20 @@ Content: 5 tour types compared (Haifa city highlights with Bahá'í upper terrac
 Gate: pnpm check 0 errors · 757 pages (+1 from 756) · 1067/1067 e2e pass.
 Merge: squash to master edf5f44, pushed.
 Prod: CI + Lighthouse in_progress at push time; consistent with prior pattern (local gate is canonical).
+
+## 2026-07-17T00:43Z · iter 577 · BUILD (seo-content) · israel-honeymoon
+
+What: New /israel-honeymoon guide — "Israel Honeymoon Guide: Romantic Getaways for Couples (2026)". Confirmed gap: beinharimtours.com and touristisrael.com both have standalone honeymoon/romantic Israel content (upgraded P3→P2 in iter575 research); no equivalent guide existed on this site. High affiliate conversion potential (Booking.com luxury hotels + TourRadar couples tours + Abraham Tours private days).
+
+Content: Five regions for romantic travel — Dead Sea (Ein Bokek spa resorts: Kempinski Ishtar + Herods Dead Sea, infinity pools facing Jordanian mountains, private beach + mineral spa circuit; Ein Gedi Kibbutz Hotel quieter retreat alternative), Jerusalem (King David + Waldorf Astoria for Old City views; Ramparts walk; private Western Wall Tunnels guide), Galilee & Golan Heights (zimmer countryside B&B with jacuzzi + winery visits at Chateau Golan/Assaf/Pelter; Sea of Galilee boat at dawn), Negev (Ramon Crater rim sunset; glamping operators; Mitzpe Ramon link), Tel Aviv (Jaffa port Ottoman-era stone restaurants; Neve Tzedek wander; Carmel Market). 7-day itinerary (Jerusalem D1–2, Dead Sea D3–4, Galilee D5–6, Tel Aviv D7). Practical notes: Shabbat logistics, dress codes, booking lead time (3–4 months for October–November), pricing ranges only (no exact prices). 7 FAQs (Is Israel good for honeymoon; most romantic hotels; trip length; most romantic experiences; best time; private guide worth it; budget). 11 "See also" cross-links.
+
+3 affiliate CTAs: booking (destination: Israel, romantic hotels), tourradar (query: Israel honeymoon couples private tour), abraham (query: Israel private couples day experience).
+
+Cross-links added: luxury-travel-israel.md ("Plan your trip" section, one sentence), israel-wellness-spa.md (closing paragraph, one sentence).
+Footer.astro: +1 link in Essentials section (after bachelorette line).
+smoke.spec.ts: /israel-honeymoon added to ROUTES array.
+
+Gate: pnpm check 0 errors · 758 pages (+1 from 757) · 1068/1068 e2e pass.
+Merge: squash to master ecbd230, pushed.
+Prod: CI + Lighthouse in_progress at push time; consistent with prior pattern.
+Next: iter578 → BUILD (tools→seo-content fallthrough since all tools SHIPPED).
