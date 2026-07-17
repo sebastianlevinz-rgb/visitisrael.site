@@ -65,6 +65,10 @@ The **Jerusalem Trail** is a 42km waymarked loop that fully encircles Jerusalem 
 
 Unlike the National Trail or Jesus Trail, the Jerusalem Trail is not a point-to-point route — it returns you to the city at each segment's end, making it ideal for travellers already based in Jerusalem. It is best walked in spring (wildflowers in the western segment) or October–November. For the complete segment-by-segment breakdown, practical access and season guide, see **[Jerusalem Trail hiking guide](/jerusalem-trail)**.
 
+## The Nativity Trail
+
+The **[Nativity Trail](/nativity-trail-guide)** is Israel and Palestine's longest pilgrim walking route: a **160 km route from Nazareth to Bethlehem** through the West Bank, broadly following the traditional route of Mary and Joseph. Unlike the Jesus Trail and the National Trail, the Nativity Trail passes through Palestinian Authority-administered territory throughout — requiring a licensed guide and careful safety preparation. Most pilgrims complete it in 8–10 days. It is not a casual hike but one of the most spiritually significant long walks in the Holy Land. See the **[full Nativity Trail guide](/nativity-trail-guide)** for stage breakdown, safety advisory, WalkPalestine logistics and guided options.
+
 ## Day hikes — if you only have a day
 
 Not everyone has days to spare. Israel's best day hikes deliver outsized scenery for a few hours' effort:

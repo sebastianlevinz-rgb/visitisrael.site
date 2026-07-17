@@ -612,6 +612,7 @@ const ROUTES = [
   '/shabbat-dinner-experience',
   '/eilat-vs-aqaba',
   '/tel-aviv-pride-guide',
+  '/nativity-trail-guide',
 ];
 
 for (const route of ROUTES) {
