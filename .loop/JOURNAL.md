@@ -9104,3 +9104,27 @@ Gate: pnpm check 0 errors; pnpm build 762 pages (+1 from 761); pnpm test:e2e 107
 Ship: squash-merged 7bb43c5, pushed to master. Branch auto/eilat-dolphin-reef-guide deleted.
 Prod: CI + Lighthouse in_progress at push time (consistent with prior pattern — iter581/582 both showed same pattern, both concluded success).
 Next: iter584 → REVIEW (584%5==4). Audit recent BUILD iterations (iter580–583): negev-tours-compared, western-wall-guide, eilat-dolphin-reef-guide. Check: dead links, JSON-LD validity, title/desc lengths, cross-link targets resolve, no fabricated data, honesty framing intact.
+
+## 2026-07-17T07:40Z · iter 584 · REVIEW · audit iters 581–583
+What: REVIEW pass on the 3 most recent BUILD iterations — negev-tours-compared (iter581), western-wall-guide (iter582), eilat-dolphin-reef-guide (iter583).
+Checks performed: title/desc character lengths; hero image existence; all internal link targets resolve; no H1 in MDX body; AffiliateCard honesty (no fabricated ratings rendered); JSON-LD types; no exact prices fabricated.
+
+Defects found:
+  1. eilat-dolphin-reef-guide.md: desc 163 chars (OVER-160 limit)
+  2. negev-tours-compared.md: title 69 chars (OVER-65 limit)
+  3. negev-tours-compared.md: desc 168 chars (OVER-160 limit)
+  4. negev-tours-compared.md: dead link /negev-incense-route (guide does not exist)
+
+Findings not filed as defects:
+  - western-wall-guide.md CTA frontmatter has priceFrom/rating/reviews fields (e.g. rating: 4.9, reviews: 3820) — not rendered to users; AffiliateCard explicitly ignores those fields and shows "Live prices & reviews on [partner]" instead. Not a user-visible honesty violation, but filed in journal as a hygiene note for future awareness.
+  - All internal links otherwise resolve (western-wall-tunnels-guide, jewish-quarter-jerusalem-guide, etc.)
+
+Fixes applied on branch auto/review-584-meta-fixes:
+  - eilat-dolphin-reef-guide.md desc: 163→144 chars
+  - negev-tours-compared.md title: 69→62 chars; desc: 168→146 chars
+  - negev-tours-compared.md: /negev-incense-route → /mitzpe-ramon-guide (nearest valid Negev guide)
+
+Gate: pnpm check 0 errors; pnpm build 762 pages (unchanged); pnpm test:e2e 1072/1072 pass.
+Ship: squash-merged 318b504 to master, pushed. Branch deleted.
+Prod: CI standard pipeline triggered.
+Next: iter585 → RESEARCH pass #119 (585%5==0).

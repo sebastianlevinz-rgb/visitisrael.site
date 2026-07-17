@@ -1,13 +1,15 @@
 # LOOP STATE
 
-- iteration: 583
-- lastMode: BUILD (seo-content+monetization, tools fallthrough)
-- lastItem: eilat-dolphin-reef-guide
-- lastResult: SHIPPED 7bb43c5. pnpm check 0 errors; 762 pages (+1 from 761); 1072/1072 e2e pass. New /eilat-dolphin-reef-guide — complete visitor guide to Eilat Dolphin Reef. Fills triple-zero gap: no standalone Dolphin Reef guide existed despite it being one of Eilat's top-5 TripAdvisor attractions. Distinct from: eilat-beach-guide.md (table row only), eilat-diving-snorkeling.md (one-liner mention), eilat-travel-guide.md (city overview). Content: what Dolphin Reef is vs isn't (not a dolphinarium; free-ranging bottlenose pod in natural Red Sea bay enclosed by safety nets; founded 1990); experience tiers (beach+pier, snorkel session, dive session, therapeutic encounter programs); dolphin welfare + conservation research context; honest encounter-guarantee caveat; practical logistics (3km south of North Beach hotel strip, ~₪100-150 entry estimate, open 9:00-17:00, Bus 15 + taxi); photography (GoPro permitted; underwater camera hire; no flash in interaction zones); combining with Coral Beach (3km south) + day itinerary; 7 FAQs. 2 CTAs: GYG (Eilat Red Sea dolphin experiences) + Booking (Eilat hotels). Cross-links: eilat-beach-guide (Dolphin Reef table row → /eilat-dolphin-reef-guide link), israel-with-kids (dolphin reef → /eilat-dolphin-reef-guide), 3-days-in-eilat, eilat-diving-snorkeling, eilat-snorkeling-guide, eilat-travel-guide in body. Footer +1 li (after eilat-snorkeling-guide). CI + Lighthouse in_progress at push time; consistent with prior pattern.
-- nextRotationCategory: 584%5==4 → REVIEW. 585%5==0 → RESEARCH (pass #119). 586%5==1 → BUILD (monetization). 587%5==2 → BUILD (seo-content). 588%5==3 → BUILD (tools).
+- iteration: 584
+- lastMode: REVIEW (audit iters 581-583)
+- lastItem: review-584-meta-fixes
+- lastResult: SHIPPED 318b504. pnpm check 0 errors; 762 pages (unchanged); 1072/1072 e2e pass. REVIEW pass on eilat-dolphin-reef-guide (iter583), western-wall-guide (iter582), negev-tours-compared (iter581). 3 defects found and fixed: (1) eilat-dolphin-reef-guide desc 163→144 chars (was OVER-160); (2) negev-tours-compared title 69→62 chars (was OVER-65); (3) negev-tours-compared desc 168→146 chars (was OVER-160); (4) dead link /negev-incense-route replaced with /mitzpe-ramon-guide. No H1 issues in body content. All other internal links resolve. Hero images all exist. No fabricated ratings rendered to users (western-wall-guide has priceFrom/rating/reviews in CTA frontmatter but AffiliateCard component explicitly ignores those fields — "Live prices & reviews on [partner]" shown instead). Honesty intact.
+- nextRotationCategory: 585%5==0 → RESEARCH (pass #119). 586%5==1 → BUILD (monetization). 587%5==2 → BUILD (seo-content). 588%5==3 → BUILD (tools). 589%5==4 → REVIEW.
 - higgsfieldSpent: 0
-- updatedAt: 2026-07-17T07:00Z
+- updatedAt: 2026-07-17T07:40Z
 - branch context: work on master; feature work on auto/<slug>
+
+Notes: iter584 REVIEW — audit iters 581-583 (negev-tours-compared, western-wall-guide, eilat-dolphin-reef-guide). 3 SEO meta defects fixed + 1 dead link replaced. SHIPPED 318b504. Gate: 0 errors, 762 pages, 1072/1072 e2e pass.
 
 Notes: iter583 BUILD (seo-content+monetization) — eilat-dolphin-reef-guide. Tools category fully SHIPPED; fell through to seo-content+monetization. SHIPPED 7bb43c5. pnpm check 0 errors; 762 pages (+1 from 761); 1072/1072 e2e pass. eilat-dolphin-reef-guide fills triple-zero gap. STATE.md explicitly identified this as "P2 next BUILD (seo-content+monetization) candidate" in iter582 notes. HONESTY intact: no fabricated ratings/reviews in CTAs; dolphin encounter "not guaranteed" framing explicit throughout.
 
@@ -32,5 +34,5 @@ Notes: iter563 BUILD (tools→seo-content fallthrough) — sea-of-galilee-beache
 Notes: iter560 RESEARCH pass #114 — 6 net-new items added.
 
 Cron b7325b16 hourly @ :17. Loop history: 19 tools + sitemap-lastmod + link-checker(+depth) + i18n
-Phase0/1a/1b/1c/2 Batches1-18(COMPLETE) + 43 review passes + 3 technical (event-schema + meta-trim + locale-links) + 65 EN guides + 7 tools-monetization + 2 comparisons;
+Phase0/1a/1b/1c/2 Batches1-18(COMPLETE) + 44 review passes + 3 technical (event-schema + meta-trim + locale-links) + 65 EN guides + 7 tools-monetization + 2 comparisons;
 research iters 5/10/20/30/35/40/45/50/55/60/65/70/75/80/85/90/95/100/105/110/115/120/125/130/135/140/145/150/155/160/165/170/175/180/185/190/195/200/205/210/215/220/225/230/235/240/245/250/255/260/265/270/275/280/285/290/295/300/305/310/315/320/325/330/335/340/345/350/355/360/365/370/375/380/385/390/395/400/405/410/420/425/430/435/440/445/450/455/460/465/470/480/485/490/495/500/505/510/515/520/525/535/540/545/550/555/560/565/570/575/580.
