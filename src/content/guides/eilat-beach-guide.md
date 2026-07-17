@@ -50,7 +50,7 @@ Eilat has a 12-kilometre Red Sea coastline that packs four distinct beach experi
 | North Beach | City centre hotel strip | Free | Resort atmosphere, watersports, evenings |
 | Coral Beach Nature Reserve | 3 km south | ~₪30 (INPA) | Coral snorkeling, marine life |
 | Almog Beach | Northernmost edge | Free | Budget travellers, quiet, uncrowded |
-| Dolphin Reef | South of North Beach | Paid entry | Dolphin watching, lagoon swimming |
+| [Dolphin Reef](/eilat-dolphin-reef-guide) | South of North Beach | Paid entry | Dolphin watching, lagoon swimming |
 
 ---
 

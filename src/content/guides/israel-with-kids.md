@@ -46,7 +46,7 @@ Green, cool and outdoorsy — the [Galilee](/galilee) and [Golan](/golan) are ma
 
 ### Eilat & the Red Sea
 
-Israel's family-resort town. Calm, warm water, **glass-bottom boats**, an underwater observatory, snorkelling off Coral Beach, and the **[Dolphin Reef](/eilat/dolphin-reef)**. Resort hotels cater squarely to families. See the [Eilat guide](/eilat).
+Israel's family-resort town. Calm, warm water, **glass-bottom boats**, an underwater observatory, snorkelling off Coral Beach, and the **[Dolphin Reef](/eilat-dolphin-reef-guide)**. Resort hotels cater squarely to families. See the [Eilat guide](/eilat).
 
 ### The Negev
 

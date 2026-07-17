@@ -605,6 +605,7 @@ const ROUTES = [
   '/jerusalem-trail',
   '/israel-honeymoon',
   '/church-of-nativity-guide',
+  '/eilat-dolphin-reef-guide',
 ];
 
 for (const route of ROUTES) {
