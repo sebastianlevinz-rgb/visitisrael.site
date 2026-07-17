@@ -48,6 +48,17 @@ The **Jesus Trail** is Israel's best-known pilgrimage hike: roughly **65 km (40 
 
 Some operators sell the Jesus Trail as a guided, baggage-transferred multi-day hike if you'd rather not plan it yourself. For a full stage-by-stage breakdown with accommodation options, key biblical sites, trail logistics and self-guided vs guided comparison, see our dedicated **[Jesus Trail complete guide](/jesus-trail-israel)**.
 
+## The Yam l'Yam (Sea to Sea)
+
+The **Yam l'Yam** — "Sea to Sea" in Hebrew — runs **89 km** from the Mediterranean coast at Achziv (near [Akko](/akko-acre-guide)) to the Sea of Galilee at Capernaum, through the forested ridges and Druze villages of Upper Galilee. It is Israel's most popular multi-day walk among Israeli families, with thousands setting out during Passover week each year.
+
+- **Distance / time:** ~89 km over **3–5 days** (4 stages).
+- **Difficulty:** moderate to strenuous — 400–900 m elevation gain per day; steepest on Stages 2 and 4.
+- **Highlights:** Montfort Crusader castle, Druze villages of the Upper Galilee plateau, Amirim health moshav, the sweeping panorama from Mount Arbel cliff over the Sea of Galilee, and the final descent to Capernaum.
+- **Best time:** Passover week (March–April) for the communal festival atmosphere; November–March for quieter conditions. Avoid summer heat and tick season (June–September).
+
+For the full stage-by-stage guide with accommodation at every endpoint, transport logistics, and practical notes, see the **[Yam l'Yam Sea to Sea hike guide](/yam-lyam-sea-to-sea-hike)**.
+
 ## The Jerusalem Trail (Shvil Yerushalayim)
 
 The **Jerusalem Trail** is a 42km waymarked loop that fully encircles Jerusalem city — the only circular city-encirclement trail in Israel. It is divided into four day-hikeable segments covering the western pine-forested hills (past **Ein Kerem** and **Yad Vashem**), the southern ridge above Bethlehem with views into the Judean hills, the dramatic eastern escarpment of the **Mount of Olives**, and the northern urban arc through Ammunition Hill. Most walkers complete it over two or three days as separate day hikes from a Jerusalem base; the trailhead for Segment 1 is reachable by bus from the Central Bus Station.

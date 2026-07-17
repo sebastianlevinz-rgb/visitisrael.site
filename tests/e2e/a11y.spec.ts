@@ -364,6 +364,7 @@ const ROUTES = [
   '/israel-for-chinese-travelers',
   '/hayarkon-park-tel-aviv',
   '/galilee-culinary-institute-gonen',
+  '/yam-lyam-sea-to-sea-hike',
 ];
 
 for (const route of ROUTES) {

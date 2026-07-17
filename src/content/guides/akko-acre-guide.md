@@ -113,6 +113,8 @@ A taxi from the Old City takes about ten minutes. If you are combining Akko with
 
 **Nahal Kziv water hike (45 min east)** — a forested limestone canyon in the hills east of Akko with clear pools, small waterfalls and ancient water mills, flowing October–May. One of the best water hikes in northern Israel and a natural pairing with an Akko day for drivers. See the [water hiking Israel guide](/water-hiking-israel) for trail details and what to bring.
 
+**Yam l'Yam multi-day trail (start point)** — Akko (specifically Achziv, 4 km north of Nahariya) is the Mediterranean starting point of the Yam l'Yam "Sea to Sea" trail — an 89 km walk through Upper Galilee ending at the Sea of Galilee. Spending a day in Akko before setting out on the trail on Day 1 is the standard approach. See the [Yam l'Yam hiking guide](/yam-lyam-sea-to-sea-hike) for stage breakdown, accommodation and transport logistics.
+
 ---
 
 ## Getting there
