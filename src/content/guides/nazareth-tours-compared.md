@@ -1,5 +1,5 @@
 ---
-title: "Nazareth Tours Compared: Day Trips, Galilee Circuits & Faith Tours (2026)"
+title: "Nazareth Tours Compared: Day Trips, Galilee & Faith (2026)"
 description: "Nazareth tours compared: full-day from Tel Aviv, Galilee Christian circuits, Jesus Trail hikes and half-days from Tiberias — what each covers and how to book."
 heroImage: /images/regions/nazareth/hero.jpg
 category: Tours

@@ -1,6 +1,6 @@
 ---
 title: 'Basic Hebrew Phrases for Tourists in Israel (2026 Phrasebook)'
-description: 'Essential Hebrew phrases for your Israel trip: greetings, thank you, directions, restaurant and shopping vocabulary. Phonetic transliteration and pronunciation guide.'
+description: 'Essential Hebrew phrases for your Israel trip: greetings, thank you, directions, restaurant and shopping vocabulary — with phonetic guide.'
 heroImage: /images/regions/tel-aviv/hero.jpg
 category: Planning
 updatedAt: 2026-07-17
@@ -8,21 +8,15 @@ ctaHeading: 'Put your new phrases to use on a guided tour'
 affiliateCtas:
   - partner: getyourguide
     title: 'Tel Aviv Food Tour — Markets, Hummus & Local Flavour'
-    description: 'Explore Mahane Yehuda or the Carmel Market with a local guide who will teach you the Hebrew words for what you are eating. The best way to use your phrase list in real life.'
+    description: 'Explore the Carmel Market or Levinsky Market with a local guide who will teach you the Hebrew words for what you are eating. The best way to use your phrase list in real life.'
     image: /images/regions/tel-aviv/carmel-market.jpg
     query: Tel Aviv food tour market
-    priceFrom: 49
-    rating: 4.8
-    reviews: 2640
     cta: Browse food tours
   - partner: viator
     title: 'Jerusalem Old City Walking Tour — Jewish, Christian & Muslim Quarters'
     description: "Navigate four of the world's holiest neighbourhoods with a licensed guide. Hebrew greetings open doors in the Jewish Quarter; Arabic equivalents help in the Muslim Quarter."
     image: /images/regions/jerusalem/western-wall.jpg
     query: Jerusalem Old City guided walking tour
-    priceFrom: 35
-    rating: 4.8
-    reviews: 4200
     cta: See Jerusalem tours
 faqs:
   - question: Do I need to know Hebrew to travel in Israel?
@@ -41,7 +35,7 @@ faqs:
     answer: "Yes — Google Translate's camera mode (point your phone at Hebrew text) is genuinely useful for menus and signs. The app's microphone mode works for Hebrew speech. That said, translation apps can be slow and awkward in fast social situations like a busy market, a restaurant taking orders, or a taxi conversation. Having a dozen phrases memorised means you can respond naturally without fumbling for your phone, which creates a much better travel experience. Think of learning phrases as a social skill rather than a linguistic necessity."
 ---
 
-Learning a handful of Hebrew phrases before your Israel trip is one of the highest-return small investments you can make. English is widely spoken across the country — but arriving with 'toda raba' on the tip of your tongue earns you a disproportionately warm welcome at every [Mahane Yehuda stall](/tel-aviv-carmel-market), [Western Wall encounter](/western-wall-guide), and hotel check-in desk.
+Learning a handful of Hebrew phrases before your Israel trip is one of the highest-return small investments you can make. English is widely spoken across the country — but arriving with 'toda raba' on the tip of your tongue earns you a disproportionately warm welcome at every [Machane Yehuda stall](/shopping-in-israel), [Western Wall encounter](/western-wall-guide), and hotel check-in desk.
 
 This guide gives you phonetic transliteration throughout — no need to learn the Hebrew script. All phrases are standard Israeli Hebrew (Sephardic pronunciation), which is the spoken norm across the country.
 
@@ -158,7 +152,7 @@ See the [kosher food guide](/kosher-food-guide) for how to read kosher certifica
 | Credit card | **Kartis ashrai** | Most Israeli shops accept cards; markets may be cash-only |
 | Receipt | **Kabala** | |
 
-At the [Carmel Market](/tel-aviv-carmel-market) or [Mahane Yehuda](/tel-aviv-carmel-market), vendors habitually switch to English when they hear an accent — but opening with *kama ze ole?* marks you as an engaged visitor and sometimes produces a friendlier price.
+At the [Carmel Market](/tel-aviv-carmel-market) or [Machane Yehuda](/shopping-in-israel), vendors habitually switch to English when they hear an accent — but opening with *kama ze ole?* marks you as an engaged visitor and sometimes produces a friendlier price.
 
 ---
 
