@@ -101,7 +101,7 @@ If you are staying at a full-service hotel, most four-star and five-star propert
 
 ## Birkat Kohanim at the Western Wall
 
-The **Priestly Blessing** at the Western Wall (Kotel) during Passover is one of the most extraordinary public events in Israel. It occurs once during Passover (on the intermediate Shabbat, **April 26, 2027**) and once during Sukkot, drawing crowds that can exceed 80,000 people in the Kotel plaza and on the elevated Jewish Quarter promenade above.
+The **Priestly Blessing** at the [Western Wall (Kotel)](/western-wall-guide) during Passover is one of the most extraordinary public events in Israel. It occurs once during Passover (on the intermediate Shabbat, **April 26, 2027**) and once during Sukkot, drawing crowds that can exceed 80,000 people in the Kotel plaza and on the elevated Jewish Quarter promenade above.
 
 The ceremony takes place during the Shacharit (morning prayer) service. Kohanim — men of priestly descent — don white tallitot (prayer shawls) over their heads, ascend platforms at the front of the congregational prayer area, and chant the three-verse Aaronic blessing (Numbers 6:24–26) over the assembled worshippers in a single sustained melody. The visual effect — a white-robed wall of prayer shawls raised over the ancient limestone — is profound.
 

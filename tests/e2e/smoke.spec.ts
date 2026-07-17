@@ -295,6 +295,7 @@ const ROUTES = [
   '/golan-heights-guide',
   '/traveling-israel-jewish-holidays',
   '/western-wall-tunnels-guide',
+  '/western-wall-guide',
   '/tower-of-david-guide',
   '/jericho-day-trip-from-jerusalem',
   '/herodion-guide',
