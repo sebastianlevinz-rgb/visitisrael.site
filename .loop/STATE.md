@@ -1,13 +1,15 @@
 # LOOP STATE
 
-- iteration: 590
-- lastMode: RESEARCH
-- lastItem: research-590-pass-120
-- lastResult: RESEARCH pass #120. 2 net-new items confirmed: /eilat-vs-aqaba (P3, S, seo-content+monetization — "Eilat vs Aqaba: Which Red Sea Resort?" comparison; TRIPLE-ZERO; matches dead-sea-vs-eilat/dead-sea-israel-vs-jordan/petra-from-eilat-vs-amman pattern) and /shabbat-dinner-experience (P3, S, seo-content+monetization — "Shabbat Dinner Experience in Israel: How Tourists Can Participate"; TRIPLE-ZERO; distinct from shabbat-guide.md logistics and whats-open-on-shabbat.md). ~40 candidates checked; false leads: india-to-israel (BACKLOG iter230), french-travelers (BACKLOG iter465), apollonia (SHIPPED in herzliya-guide.md iter282), golan-cycling (BACKLOG iter335), tower-of-david-night (SHIPPED). Saturation ~90%+. No code changes; no gate run (research-only).
-- nextRotationCategory: 591%5==1 → BUILD (monetization). 592%5==2 → BUILD (seo-content). 593%5==3 → BUILD (tools). 594%5==4 → REVIEW. 595%5==0 → RESEARCH (pass #121).
+- iteration: 591
+- lastMode: BUILD (monetization)
+- lastItem: shabbat-dinner-experience
+- lastResult: SHIPPED b22ffd8. New /shabbat-dinner-experience — "Shabbat Dinner in Israel: How Tourists Can Join" fills confirmed triple-zero gap. 5 participation routes (GYG/Viator organised experiences, Chabad House free meals, synagogue hospitality, hotel programs, Friday-night restaurants). Full ritual explanation (candle lighting → Kiddush → HaMotzi → meal → zemirot → Birkat HaMazon). Guest etiquette, dietary notes, timing logistics with candlelighting ranges by season. Western Wall Kabbalat Shabbat combining section. 2 CTAs: GYG (Shabbat dinner local home Jerusalem), Viator (Jerusalem Shabbat evening). 7 FAQs. HONESTY: no fabricated ratings/prices; professional hosts described accurately; Chabad free framing honest; synagogue invitations not guaranteed. Cross-links: shabbat-guide.md (new sentence), jewish-heritage-israel.md (practical tips Shabbat paragraph), Footer.astro (+1 li). 6 body links to existing pages. pnpm check 0 errors; build 766 pages (+1); 1077/1077 e2e pass (+1). CI in_progress at push time; consistent with prior success pattern.
+- nextRotationCategory: 592%5==2 → BUILD (seo-content). 593%5==3 → BUILD (tools fallthrough likely → seo-content). 594%5==4 → REVIEW. 595%5==0 → RESEARCH (pass #121).
 - higgsfieldSpent: 0
-- updatedAt: 2026-07-17T13:30Z
+- updatedAt: 2026-07-17T14:55Z
 - branch context: work on master; feature work on auto/<slug>
+
+Notes: iter591 BUILD (monetization) — shabbat-dinner-experience. SHIPPED b22ffd8. pnpm check 0 errors; build 766 pages (+1 from 765); 1077/1077 e2e pass (+1 from 1076). /shabbat-dinner-experience fills triple-zero SEO gap confirmed in iter590 research. Distinct from shabbat-guide.md (logistics/closures) and whats-open-on-shabbat.md (opening hours). GYG + Viator monetization CTAs. Cross-links to 6 existing pages. CI in_progress at push time (consistent with prior success pattern). Next: iter592 → BUILD (seo-content). Top seo-content candidates: /eilat-vs-aqaba (P3, S, comparison guide — just added iter590); tel-aviv-pride-guide (P3, S); israel-practical-faq (P3, S).
 
 Notes: iter590 RESEARCH pass #120 — 2 net-new items confirmed: /eilat-vs-aqaba (P3, S — Red Sea resort comparison; ScubaBoard + GirlsThatScuba competitor coverage; TRIPLE-ZERO gap) and /shabbat-dinner-experience (P3, S — Shabbat dinner experience for tourists; Viator + GYG + Chabad.org competitor coverage; TRIPLE-ZERO gap; distinct from existing shabbat-guide.md logistics content). Site at 765 pages, 1076/1076 e2e tests. Last SHIP was d150d7a (iter589 review-589-meta-link-fixes). No code changes this iteration. Next iter591 → BUILD (monetization).
 
