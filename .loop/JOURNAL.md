@@ -9264,3 +9264,12 @@ False leads (~27): israel-for-indian-travelers (BACKLOG), kibbutz-volunteering (
 Gate: no code changes; gate not run (RESEARCH mode).
 Ship: none.
 Next: iter596 → BUILD (monetization). Top monetization candidates: next-highest-P1 monetization item per BACKLOG.
+
+## 2026-07-17 · iter 596 · BUILD (seo-content, monetization fallthrough) · nativity-trail-guide
+Played: BUILD (596%5==1 → monetization; all monetization items [SHIPPED] → fell through to seo-content).
+Item: nativity-trail-guide (P2/M) — TRIPLE-ZERO gap confirmed iter595 RESEARCH pass #121.
+What: New /nativity-trail-guide — "Nativity Trail: Nazareth to Bethlehem Pilgrim Walking Guide". 160 km pilgrim walk from Nazareth to Bethlehem through West Bank (Areas A + B). Managed by WalkPalestine + ATG. Distinct from jesus-trail-israel.md (65 km, Galilee route). Prominent safety advisory blockquote (government advisory links); comparison table vs Jesus Trail; 10-stage route table; highlights (Burqin, Sebastiyya, Nablus/Jacob's Well, Jericho, Judean Hills); practical info; guided vs self-guided; Jesus Trail combination section. 7 FAQs; 3 affiliate CTAs (GYG + Viator + Booking). Hebron not mentioned. Cross-links: christian-pilgrimage-holy-land.md, hiking-in-israel.md, bethlehem-travel-guide.md, Footer.astro.
+Gate: pnpm check 0 errors; build 769 pages (+1 from 768); 1081/1081 e2e pass (link-checker fix: removed broken /jericho-guide link, rebuilt). CI Lighthouse in_progress at push time; consistent with prior pattern.
+Ship: 17145ca pushed to master.
+Prod: CI in_progress (consistent with prior success pattern).
+Next: iter597 → BUILD (597%5==2 → seo-content). Top candidates: israel-practical-faq (P3, S), israeli-passport-stamp (P3, S), sustainable-travel-israel (P3, M), digital-nomad (P3, M), israel-vs-albania (P3, S).
