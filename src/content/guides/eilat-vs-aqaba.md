@@ -1,6 +1,6 @@
 ---
 title: 'Eilat vs Aqaba: Which Red Sea Resort Is Right for You?'
-description: 'Eilat or Aqaba? Compare diving quality, coral health, beach scene, Petra access, accommodation costs and visa logistics to choose your Red Sea base — or plan both.'
+description: 'Eilat or Aqaba? Compare diving, coral health, beach scene, Petra access, accommodation costs and visa logistics to choose your Red Sea base — or do both.'
 heroImage: /images/regions/eilat/red-sea.jpg
 category: Compare
 updatedAt: 2026-07-17
