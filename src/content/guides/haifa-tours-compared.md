@@ -1,6 +1,6 @@
 ---
 title: "Haifa Tours Compared: Bahá'í Gardens, Akko & Rosh Hanikra (2026)"
-description: "Haifa tours compared: city highlights with upper Bahá'í terraces, Akko & Rosh Hanikra day trip, cruise shore excursion and Druze circuit — what each covers and where to book."
+description: "Haifa tours compared: Bahá'í Gardens upper terrace, Akko & Rosh Hanikra, cruise excursion and Druze circuit — what each covers and how to book."
 heroImage: /images/regions/haifa/hero.jpg
 category: Tours
 verdictName: Haifa tours

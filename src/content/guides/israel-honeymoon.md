@@ -1,6 +1,6 @@
 ---
 title: 'Israel Honeymoon Guide: Romantic Getaways for Couples (2026)'
-description: 'Plan your Israel honeymoon: Dead Sea spa resorts, boutique Galilee B&Bs, private wine tastings and candlelit Old City dinners — romantic experiences for couples.'
+description: 'Plan your Israel honeymoon: Dead Sea spa resorts, boutique Galilee B&Bs, private wine tastings and candlelit Old City dinner — romantic experiences for couples.'
 heroImage: /images/regions/dead-sea/hero.jpg
 category: Planning
 updatedAt: 2026-07-17
