@@ -170,3 +170,5 @@ For a full breakdown of each property — rates, who each suits, and booking-tim
 **Three days in the Negev**: if you have three days, see the [3-day Negev itinerary](/3-days-in-negev) — a day-by-day plan covering Makhtesh Ramon, Wadi Ardon, Ein Avdat canyon and Sde Boker, with transport, hotel and heat-safety guidance.
 
 **Four to five days — south circuit**: for a longer Negev loop continuing all the way to Eilat, the [South Israel road trip itinerary](/south-israel-itinerary) covers Beer-Sheva, Sde Boker, Makhtesh Ramon, Timna Park and the Red Sea, with day-by-day driving directions, heat safety notes and INPA tips.
+
+**Comparing organised tour formats**: if you are deciding between a Negev day trip from Tel Aviv, an overnight Bedouin camp package, and a self-drive option, see the [Negev tours compared guide](/negev-tours-compared) for an honest side-by-side breakdown of what each format covers, costs and is best suited for.

@@ -192,3 +192,4 @@ For the full Negev picture:
 - [3 Days in the Negev itinerary](/3-days-in-negev) — suggested road-trip circuit covering all the major Negev sites.
 - [Israel National Parks Pass guide](/israel-national-parks-pass) — the annual INPA pass covers Ein Avdat, Avdat, Masada, and Timna (check current inclusions).
 - [Hiring a car in Israel](/car-rental-israel) — car hire options, driving tips, and what type of vehicle you need for Negev dirt tracks.
+- [Negev tours compared](/negev-tours-compared) — comparison of Ramon Crater day trips from Tel Aviv, Bedouin overnight camps, jeep safaris and self-drive options, with honest price ranges and who each format suits.
