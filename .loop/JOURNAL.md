@@ -9159,3 +9159,16 @@ Gate: pnpm check 0 errors; pnpm build 763 pages (+1 from 762); pnpm test:e2e 107
 Ship: squash-merged to master 50e86d2, pushed. Branch auto/nazareth-tours-compared deleted.
 Prod: CI + Lighthouse in_progress at push time; consistent with prior pattern (iter581/582/583/584 same; all concluded success).
 Next: iter587 → BUILD (seo-content). Top seo-content candidates from BACKLOG: yam-lyam-sea-to-sea-hike (P2, S — just added iter585), golan-heights-hiking-guide (P2, M — iter575 research), israel-hebrew-phrases (P2, S), israel-packing-list-guide (P2, S).
+
+## 2026-07-17T10:45Z · iter 587 · BUILD (seo-content) · yam-lyam-sea-to-sea-hike
+
+What: New /yam-lyam-sea-to-sea-hike — 89 km Mediterranean to Sea of Galilee multi-day trail through Upper Galilee. Fills confirmed triple-zero gap identified in iter585 RESEARCH. P2, S (small effort), seo-content category.
+
+Content: 4-stage breakdown (Stage 1 Achziv coast→Montfort Castle ~20 km; Stage 2 Montfort→Beit Jan Druze village ~22 km; Stage 3 Beit Jan→Jish/Amirim ~21 km; Stage 4 Amirim→Arbel Cliff→Capernaum ~26 km). Accommodation table per stage. 7 FAQs (distance/days, best season, self-guided viability, difficulty, booking lead times, water sources, two-trailhead transport puzzle). 3 CTAs: Booking.com (kibbutz guesthouses, destination=Nahariya), SafetyWing (hiking insurance), DiscoverCars (two-trailhead car logistics). HONESTY: all data ranges; no fabricated ratings; guesthouse capacity and Passover booking urgency framed accurately.
+
+Cross-links: hiking-in-israel.md (Yam l'Yam section added between Jesus Trail and Jerusalem Trail sections); akko-acre-guide.md ("Yam l'Yam multi-day trail" entry in "What to combine nearby"); Footer.astro (+1 li after hiking-in-israel). Smoke + a11y tests updated (+2 new route entries).
+
+Gate: pnpm check 0 errors; pnpm build 764 pages (+1 from 763); pnpm test:e2e 1075/1075 pass (+2 from 1073).
+Ship: commit b662833 to master, pushed. Branch auto/yam-lyam-sea-to-sea-hike deleted.
+Prod: CI shows success on recent runs; consistent with prior pattern.
+Next: iter588 → BUILD (tools). Pull top tools item from BACKLOG.

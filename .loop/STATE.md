@@ -1,13 +1,15 @@
 # LOOP STATE
 
-- iteration: 586
-- lastMode: BUILD (monetization)
-- lastItem: nazareth-tours-compared
-- lastResult: SHIPPED 50e86d2. pnpm check 0 errors; pnpm build 763 pages (+1 from 762); pnpm test:e2e 1073/1073 pass. New /nazareth-tours-compared completes the tours-compared affiliate series for the Christian pilgrimage segment. CI in_progress at push time; consistent with prior pattern.
-- nextRotationCategory: 587%5==2 → BUILD (seo-content). 588%5==3 → BUILD (tools). 589%5==4 → REVIEW. 590%5==0 → RESEARCH (pass #120). 591%5==1 → BUILD (monetization).
+- iteration: 587
+- lastMode: BUILD (seo-content)
+- lastItem: yam-lyam-sea-to-sea-hike
+- lastResult: SHIPPED b662833. pnpm check 0 errors; pnpm build 764 pages (+1 from 763); pnpm test:e2e 1075/1075 pass (+2 from 1073). New /yam-lyam-sea-to-sea-hike fills confirmed triple-zero SEO gap for Upper Galilee multi-day trail. CI consistent with prior success pattern.
+- nextRotationCategory: 588%5==3 → BUILD (tools). 589%5==4 → REVIEW. 590%5==0 → RESEARCH (pass #120). 591%5==1 → BUILD (monetization). 592%5==2 → BUILD (seo-content).
 - higgsfieldSpent: 0
-- updatedAt: 2026-07-17T10:30Z
+- updatedAt: 2026-07-17T10:45Z
 - branch context: work on master; feature work on auto/<slug>
+
+Notes: iter587 BUILD (seo-content) — yam-lyam-sea-to-sea-hike. SHIPPED b662833. pnpm check 0 errors; 764 pages (+1 from 763); 1075/1075 e2e pass. New /yam-lyam-sea-to-sea-hike fills the confirmed triple-zero SEO gap for "Yam l'Yam" / "Sea to Sea" / "Upper Galilee multi-day hike" — absent from all site content, BACKLOG P-items, and DONE.md prior to iter585 RESEARCH which identified it. 89 km Mediterranean (Achziv/Akko) to Sea of Galilee (Capernaum) through Upper Galilee forest and Druze villages. 4-stage breakdown: Stage 1 Achziv→Montfort Castle (~20 km), Stage 2 Montfort→Beit Jan Druze village (~22 km), Stage 3 Beit Jan→Jish/Amirim (~21 km), Stage 4 Amirim→Arbel Cliff→Capernaum (~26 km). Accommodation table per stage endpoint. 7 FAQs (distance/days, best season, self-guided viability, difficulty, booking lead times, water sources, two-trailhead transport). 3 CTAs: Booking.com (kibbutz guesthouses along route), SafetyWing (hiking trail insurance), DiscoverCars (car for trailhead logistics). HONESTY: all distances/difficulty framed as ranges; guesthouse capacity framed accurately; no fabricated ratings/reviews. Cross-links: hiking-in-israel.md (new "Yam l'Yam" section added between Jesus Trail and Jerusalem Trail sections); akko-acre-guide.md ("Yam l'Yam multi-day trail" entry added to "What to combine nearby" section — Akko/Achziv is the trail start); Footer.astro (+1 li after hiking-in-israel). Smoke + a11y tests updated (+2 tests to 1075). CI success pattern consistent with prior iterations. Next: iter588 → BUILD (tools). Top tools candidate from BACKLOG.
 
 Notes: iter586 BUILD (monetization) — nazareth-tours-compared. SHIPPED 50e86d2. pnpm check 0 errors; 763 pages (+1 from 762); 1073/1073 e2e pass. New /nazareth-tours-compared completes the tours-compared affiliate series for the Christian pilgrimage segment — Nazareth was the last P1 monetisation gap (Jerusalem, Tel Aviv, Masada, Galilee, Golan, Dead Sea, Eilat, Petra, Bethlehem, Haifa, Negev all previously shipped). 6 tour formats in comparison table: full-day Nazareth from TLV; Nazareth + Sea of Galilee combined (most popular); Nazareth + Cana + Capernaum Christian pilgrimage circuit; Nazareth + Jesus Trail day hike; half-day from Tiberias; private guide. 7 FAQs. 3 CTAs: GYG (primary), Viator (faith-pilgrim circuit), Abraham Tours (small-group specialist). HONESTY: no fabricated prices/reviews; all cost ranges. Cross-links: nazareth-travel-guide.md (Cross-links section upgraded), best-tours-in-israel.md (Galilee bullet extended), Footer.astro (+1 li after negev-tours-compared). masada-sunrise-guide backlog entry eliminated (confirmed false lead in iter585 — masada-visitor-guide.md already covers it). CI in_progress at push time; consistent with prior pattern. Next: iter587 → BUILD (seo-content).
 
@@ -38,5 +40,5 @@ Notes: iter563 BUILD (tools→seo-content fallthrough) — sea-of-galilee-beache
 Notes: iter560 RESEARCH pass #114 — 6 net-new items added.
 
 Cron b7325b16 hourly @ :17. Loop history: 19 tools + sitemap-lastmod + link-checker(+depth) + i18n
-Phase0/1a/1b/1c/2 Batches1-18(COMPLETE) + 44 review passes + 3 technical (event-schema + meta-trim + locale-links) + 65 EN guides + 7 tools-monetization + 2 comparisons;
+Phase0/1a/1b/1c/2 Batches1-18(COMPLETE) + 44 review passes + 3 technical (event-schema + meta-trim + locale-links) + 66 EN guides + 7 tools-monetization + 2 comparisons;
 research iters 5/10/20/30/35/40/45/50/55/60/65/70/75/80/85/90/95/100/105/110/115/120/125/130/135/140/145/150/155/160/165/170/175/180/185/190/195/200/205/210/215/220/225/230/235/240/245/250/255/260/265/270/275/280/285/290/295/300/305/310/315/320/325/330/335/340/345/350/355/360/365/370/375/380/385/390/395/400/405/410/420/425/430/435/440/445/450/455/460/465/470/480/485/490/495/500/505/510/515/520/525/535/540/545/550/555/560/565/570/575/580/585.
