@@ -37,7 +37,7 @@ When the sun sets, Tel Aviv just changes gear. This is a genuinely 24-hour, secu
 
 - **It starts late.** Bars fill around 22:00; clubs after midnight, often until 4–6am.
 - **Thursday & Friday** are the big nights (the weekend is Fri–Sat).
-- **It is famously LGBTQ-friendly** — Tel Aviv is one of the world great gay-friendly cities, with a year-round scene and a huge June Pride.
+- **It is famously LGBTQ-friendly** — Tel Aviv is one of the world great gay-friendly cities, with a year-round scene and a huge June Pride. See the [Tel Aviv Pride guide](/tel-aviv-pride-guide) for dates and logistics.
 - **Dress is relaxed**; the vibe is unpretentious.
 
 A **guided bar tour** (above) is a great way into the scene on a first night — local guides skip the queues and the duds and take you to the good stuff.

@@ -611,6 +611,7 @@ const ROUTES = [
   '/yam-lyam-sea-to-sea-hike',
   '/shabbat-dinner-experience',
   '/eilat-vs-aqaba',
+  '/tel-aviv-pride-guide',
 ];
 
 for (const route of ROUTES) {

@@ -36,7 +36,7 @@ Almost any central [Tel Aviv](/tel-aviv) hotel or apartment puts you within walk
 
 ## Tel Aviv Pride
 
-**Tel Aviv Pride** is the largest Pride event in the Middle East and one of the biggest in the world, drawing hundreds of thousands of locals and visitors. It's typically held in **June**, building over a week of parties, beach events and cultural happenings to a vast **parade — usually on a Friday** — that winds through the city to a giant party on the beachfront.
+**Tel Aviv Pride** is the largest Pride event in the Middle East and one of the biggest in the world, drawing hundreds of thousands of locals and visitors. It's typically held in **June**, building over a week of parties, beach events and cultural happenings to a vast **parade — usually on a Friday** — that winds through the city to a giant party on the beachfront. See the full [Tel Aviv Pride guide](/tel-aviv-pride-guide) for dates, the parade route, accommodation strategy, circuit parties and Hilton Beach tips.
 
 Planning notes:
 
