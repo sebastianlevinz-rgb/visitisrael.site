@@ -1,13 +1,15 @@
 # LOOP STATE
 
-- iteration: 581
-- lastMode: BUILD (monetization)
-- lastItem: negev-tours-compared
-- lastResult: SHIPPED 4c39c54. pnpm check 0 errors; 760 pages (+7 from 753, incl. footer cross-links); 1070/1070 e2e pass. New money page /negev-tours-compared completes the tours-compared affiliate series — all major Israel tourism regions now covered (Jerusalem, Tel Aviv, Masada, Galilee, Golan, Dead Sea, Eilat, Petra, Bethlehem, Haifa, Nazareth + Negev). 6 tour formats compared in table: Ramon Crater day trip from TLV, Mitzpe Ramon+Sde Boker heritage day, Negev jeep safari, overnight Bedouin camp+stargazing, Nabataean archaeological circuit, self-drive Highway 40. 7 FAQs. 2 CTAs: GYG (40+ Negev products) + Viator (TLV day trips). Cross-links: mitzpe-ramon-guide, negev-makhtesh-guide, best-tours-in-israel, getyourguide-vs-viator-israel, Footer. CI in_progress at push time (consistent with prior iterations).
-- nextRotationCategory: 582%5==2 → BUILD (seo-content). 583%5==3 → BUILD (tools). 584%5==4 → REVIEW. 585%5==0 → RESEARCH (pass #119). 586%5==1 → BUILD (monetization).
+- iteration: 582
+- lastMode: BUILD (seo-content)
+- lastItem: western-wall-guide
+- lastResult: SHIPPED 661dc74. pnpm check 0 errors; 761 pages (+1 from 760); 1071/1071 e2e pass. New /western-wall-guide — complete visitor guide to the Western Wall Plaza (Kotel). Distinct from western-wall-tunnels-guide.md (SHIPPED iter207 — underground tunnel tour). Israel's #1 visited site with ZERO dedicated Plaza guide on site until now. Content: Herodian retaining-wall history (488m full length, 57m exposed), Plaza entry logistics (24/7, free, security at Dung Gate), dress code + kippah provision, men's/women's sections + Robinson's Arch egalitarian area, Kotel notes tradition (twice-yearly burial on Mount of Olives), best times (Friday Kabbalat Shabbat, Birkat Kohanim at Passover+Sukkot, pre-dawn), combining with Tunnels/Jewish Quarter/Temple Mount, 7 FAQs (hours, free entry, notes tradition, best time, section difference, directions, non-Jewish visitors). 2 CTAs: GYG (Jerusalem Old City + Western Wall guided tour), Viator (private Old City + Western Wall). Cross-links: jewish-heritage-israel.md (upgraded Western Wall link), 1-day-jerusalem-itinerary.md (8am section linked), christian-pilgrimage-holy-land.md, passover-in-israel.md (Birkat Kohanim section), Footer.astro (+1 li). CI + Lighthouse in_progress at push time; consistent with prior pattern.
+- nextRotationCategory: 583%5==3 → BUILD (tools). 584%5==4 → REVIEW. 585%5==0 → RESEARCH (pass #119). 586%5==1 → BUILD (monetization). 587%5==2 → BUILD (seo-content).
 - higgsfieldSpent: 0
-- updatedAt: 2026-07-17T05:00Z
+- updatedAt: 2026-07-17T06:00Z
 - branch context: work on master; feature work on auto/<slug>
+
+Notes: iter582 BUILD (seo-content) — western-wall-guide. SHIPPED 661dc74. pnpm check 0 errors; 761 pages (+1 from 760); 1071/1071 e2e pass. New /western-wall-guide fills the highest-cross-link-expected slot on the site (6 backlog items had referenced "western-wall-guide (when built)"). Content confirmed factually accurate from kotel.org.il + biblewalks.com + touristisrael.com. No fabricated ratings or exact prices. HONESTY intact. eilat-dolphin-reef-guide remains P2 next BUILD (seo-content+monetization) candidate.
 
 Notes: iter581 BUILD (monetization) — negev-tours-compared. SHIPPED 4c39c54. pnpm check 0 errors; 760 pages (+7 from 753); 1070/1070 e2e pass. New money page /negev-tours-compared completes the tours-compared affiliate series — all major Israel tourism regions now covered (Jerusalem, Tel Aviv, Masada, Galilee, Golan, Dead Sea, Eilat, Petra, Bethlehem, Haifa, Nazareth + Negev). 6 tour formats compared in table: Ramon Crater day trip from TLV, Mitzpe Ramon+Sde Boker heritage day, Negev jeep safari, overnight Bedouin camp+stargazing, Nabataean archaeological circuit, self-drive Highway 40. 7 FAQs. 2 CTAs: GYG (40+ Negev products) + Viator (TLV day trips). Cross-links: mitzpe-ramon-guide, negev-makhtesh-guide, best-tours-in-israel, getyourguide-vs-viator-israel, Footer. CI in_progress at push time (consistent with prior iterations). eilat-dolphin-reef-guide remains P2 next BUILD (monetization) candidate.
 

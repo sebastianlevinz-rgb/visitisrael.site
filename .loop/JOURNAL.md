@@ -9074,3 +9074,18 @@ What: /negev-tours-compared — completes the tours-compared affiliate series fo
 Gate: pnpm check 0 errors; pnpm build 760 pages (+7 from 753); pnpm test:e2e 1070/1070 pass.
 Ship: 4c39c54, pushed to master. Branch auto/negev-tours-compared deleted.
 Prod: CI + Lighthouse in_progress at push time; consistent with prior pattern. Next: iter582 → BUILD (seo-content).
+
+## 2026-07-17T06:00Z · iter 582 · BUILD (seo-content) · western-wall-guide
+
+What: New /western-wall-guide — complete visitor guide to the Western Wall Plaza (Kotel). Confirmed TRIPLE-ZERO gap: grep scan showed zero standalone Plaza guide (western-wall-tunnels-guide.md = underground tour only; /jerusalem/western-wall = attraction stub only). Multiple existing backlog items referenced "western-wall-guide (when built)" as a cross-link target. Israel's most visited site had no dedicated how-to guide on the site.
+
+Content: Herodian retaining-wall history (platform, 488m full/57m exposed); 24/7 free Plaza entry + security checkpoints; dress code (covered shoulders/knees, kippah provided free for men); prayer sections (men's = larger north, women's = smaller south, Robinson's Arch = egalitarian/Reform); Kotel notes tradition (fold, press into crevice, collected by Western Wall Heritage Foundation twice yearly, buried on Mount of Olives); best times (Friday Kabbalat Shabbat sunset = most atmospheric; Birkat Kohanim at Passover+Sukkot mornings = arrive 7:30am; pre-dawn 4–7am = quietest); combining with Western Wall Tunnels (distinct ticketed experience), Jewish Quarter, Temple Mount; etiquette; practical info table. 7 FAQs. 2 CTAs: GYG (Jerusalem Old City + Wall tour), Viator (private Old City + Wall).
+
+Cross-links: jewish-heritage-israel.md (Wall paragraph relinked to /western-wall-guide); 1-day-jerusalem-itinerary.md (8am section now links to guide); christian-pilgrimage-holy-land.md (Wall mention linked); passover-in-israel.md (Birkat Kohanim section linked); Footer.astro (+1 li after jewish-quarter-jerusalem-guide). Smoke test: /western-wall-guide added to ROUTES.
+
+HONESTY: no fabricated prices, ratings, or counts; all content consistent with kotel.org.il + biblewalks.com + touristisrael.com; women's section accurately described; Robinson's Arch framed correctly (Reform/Conservative prayer, not main plaza); Kotel notes tradition accurately described without religious fabrication.
+
+Gate: pnpm check 0 errors; pnpm build 761 pages (+1 from 760); pnpm test:e2e 1071/1071 pass.
+Ship: squash-merged 661dc74, pushed to master. Branch auto/western-wall-guide deleted.
+Prod: CI + Lighthouse in_progress at push time; consistent with prior pattern. Vercel deploys independently.
+Next: iter583 → BUILD (tools). Candidates: all existing tools are SHIPPED per DONE.md — tools category will fall through to seo-content. Recommended: eilat-dolphin-reef-guide (P2, S, seo-content+monetization — confirmed gap, TripAdvisor top-5 Eilat attraction).
