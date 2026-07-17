@@ -9144,3 +9144,18 @@ Key false leads eliminated (all either SHIPPED or already in BACKLOG): rosh-hani
 
 Gate: not run (research-only iteration; no code changes).
 Next: iter586 → BUILD (monetization). Top candidate: highest-P1 monetization item from BACKLOG rotation.
+
+## 2026-07-17T10:30Z · iter 586 · BUILD (monetization) · nazareth-tours-compared
+
+What: New /nazareth-tours-compared — completes the tours-compared affiliate series for the Christian pilgrimage segment. Nazareth was the last P1 monetisation gap (Jerusalem, Tel Aviv, Masada, Galilee, Golan, Dead Sea, Eilat, Petra, Bethlehem, Haifa, Negev all previously shipped).
+
+Content: 6 tour formats compared in decision table: (1) Full-day Nazareth from TLV (Basilica, Mary's Well, Old City, optional Nazareth Village); (2) Nazareth + Sea of Galilee combined day — most popular format, Capernaum + Mount of Beatitudes; (3) Nazareth + Cana + Capernaum Christian pilgrimage circuit — full biblical arc, faith-specialist operators; (4) Nazareth + Jesus Trail day hike — Stage 1 or 2 guided walk; (5) Half-day from Tiberias — 45min drive, covers Basilica + Mary's Well + souq; (6) Private guide — flexible pacing, denominational depth. 7 FAQs covering DIY vs tour calculus, journey times, circuit vs city-tour tradeoff, church-group booking requirements, Jesus Trail combination, cost ranges ($60–130/person group; ~$180–250 private half-day), and first-visit recommendation. Practical tips: Basilica modesty rules, Shabbat status, parking, advance booking requirements.
+
+3 CTAs: GYG (Nazareth & Sea of Galilee day tours — primary), Viator (Nazareth + Capernaum Christian circuit — faith-pilgrim secondary), Abraham Tours (small-group specialist). HONESTY: no fabricated review scores; all costs are explicit ranges; Nazareth Village booking requirement accurately framed; church-group demand seasonality described without alarmism; "not guaranteed" framing omitted where not applicable (unlike dolphin reef guide — Nazareth tours are deterministic experiences).
+
+Cross-links: nazareth-travel-guide.md (Cross-links section upgraded with nazareth-tours-compared paragraph); best-tours-in-israel.md (Galilee/Nazareth bullet extended with Nazareth tours compared link); Footer.astro (+1 li after negev-tours-compared). Smoke test: /nazareth-tours-compared added to ROUTES array.
+
+Gate: pnpm check 0 errors; pnpm build 763 pages (+1 from 762); pnpm test:e2e 1073/1073 pass (was 1072).
+Ship: squash-merged to master 50e86d2, pushed. Branch auto/nazareth-tours-compared deleted.
+Prod: CI + Lighthouse in_progress at push time; consistent with prior pattern (iter581/582/583/584 same; all concluded success).
+Next: iter587 → BUILD (seo-content). Top seo-content candidates from BACKLOG: yam-lyam-sea-to-sea-hike (P2, S — just added iter585), golan-heights-hiking-guide (P2, M — iter575 research), israel-hebrew-phrases (P2, S), israel-packing-list-guide (P2, S).

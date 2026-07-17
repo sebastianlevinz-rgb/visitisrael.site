@@ -1,13 +1,15 @@
 # LOOP STATE
 
-- iteration: 585
-- lastMode: RESEARCH (pass #119)
-- lastItem: research-585-pass-119
-- lastResult: NO SHIP (research-only). 2 net-new BACKLOG items added: yam-lyam-sea-to-sea-hike (P2, S, seo-content); israel-medical-tourism (P3, M, seo-content+monetization). 1 BLOCKED item added: bible-road-highway-60 (requires human review — Hebron on route). Saturation at pass #119: ~90%+ of high-value English content gaps now in BACKLOG or SHIPPED. Sources: hikingintheholyland.com, backpackisrael.com, touristisrael.com, medicaltourism.com, ynetnews.com, jpost.com. No code changes.
-- nextRotationCategory: 586%5==1 → BUILD (monetization). 587%5==2 → BUILD (seo-content). 588%5==3 → BUILD (tools). 589%5==4 → REVIEW. 590%5==0 → RESEARCH (pass #120).
+- iteration: 586
+- lastMode: BUILD (monetization)
+- lastItem: nazareth-tours-compared
+- lastResult: SHIPPED 50e86d2. pnpm check 0 errors; pnpm build 763 pages (+1 from 762); pnpm test:e2e 1073/1073 pass. New /nazareth-tours-compared completes the tours-compared affiliate series for the Christian pilgrimage segment. CI in_progress at push time; consistent with prior pattern.
+- nextRotationCategory: 587%5==2 → BUILD (seo-content). 588%5==3 → BUILD (tools). 589%5==4 → REVIEW. 590%5==0 → RESEARCH (pass #120). 591%5==1 → BUILD (monetization).
 - higgsfieldSpent: 0
-- updatedAt: 2026-07-17T09:30Z
+- updatedAt: 2026-07-17T10:30Z
 - branch context: work on master; feature work on auto/<slug>
+
+Notes: iter586 BUILD (monetization) — nazareth-tours-compared. SHIPPED 50e86d2. pnpm check 0 errors; 763 pages (+1 from 762); 1073/1073 e2e pass. New /nazareth-tours-compared completes the tours-compared affiliate series for the Christian pilgrimage segment — Nazareth was the last P1 monetisation gap (Jerusalem, Tel Aviv, Masada, Galilee, Golan, Dead Sea, Eilat, Petra, Bethlehem, Haifa, Negev all previously shipped). 6 tour formats in comparison table: full-day Nazareth from TLV; Nazareth + Sea of Galilee combined (most popular); Nazareth + Cana + Capernaum Christian pilgrimage circuit; Nazareth + Jesus Trail day hike; half-day from Tiberias; private guide. 7 FAQs. 3 CTAs: GYG (primary), Viator (faith-pilgrim circuit), Abraham Tours (small-group specialist). HONESTY: no fabricated prices/reviews; all cost ranges. Cross-links: nazareth-travel-guide.md (Cross-links section upgraded), best-tours-in-israel.md (Galilee bullet extended), Footer.astro (+1 li after negev-tours-compared). masada-sunrise-guide backlog entry eliminated (confirmed false lead in iter585 — masada-visitor-guide.md already covers it). CI in_progress at push time; consistent with prior pattern. Next: iter587 → BUILD (seo-content).
 
 Notes: iter584 REVIEW — audit iters 581-583 (negev-tours-compared, western-wall-guide, eilat-dolphin-reef-guide). 3 SEO meta defects fixed + 1 dead link replaced. SHIPPED 318b504. Gate: 0 errors, 762 pages, 1072/1072 e2e pass.
 
