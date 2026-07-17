@@ -9056,3 +9056,13 @@ smoke.spec.ts: /church-of-nativity-guide added to ROUTES array.
 Gate: pnpm check 0 errors · 759 pages (+1 from 758) · 1069/1069 e2e pass.
 Merge: squash to master 0ab7154, pushed.
 Prod: CI/Lighthouse in_progress at push time; consistent pattern. Vercel deploys independently.
+
+## 2026-07-17T02:52Z · iter 579 · REVIEW · audit iters 576-578 (haifa-tours-compared, israel-honeymoon, church-of-nativity-guide)
+
+What: Audited the 3 most recent BUILD iterations.
+Checks: (1) meta description lengths — haifa-tours-compared 174 chars DEFECT (>160); israel-honeymoon 161 chars DEFECT (>160); church-of-nativity-guide 155 chars CLEAN. (2) H1 in body — 0 H1 nodes in any of the 3 files. CLEAN. (3) Internal links — all 34 links across 3 files resolve (church-of-nativity 6, israel-honeymoon 19, haifa-tours-compared 9). CLEAN. (4) Hero images — all 8 referenced images present in public/images/. CLEAN. (5) Back-links — church-of-nativity-guide ← bethlehem-travel-guide.md (2 references) + christian-pilgrimage-holy-land.md (1 reference) ✓; israel-honeymoon ← luxury-travel-israel.md ✓; haifa-tours-compared ← haifa-travel-guide.md ✓. CLEAN. (6) Honesty — no aggregateRating/ratingValue; all prices are ranges with "approximately"/"illustrative" qualifiers; no fabricated ratings. CLEAN.
+Fixes applied: haifa-tours-compared description 174→143 chars (rewrote opening to drop "city highlights with upper" and restructure); israel-honeymoon description 161→160 chars ("dinners"→"dinner").
+Gate: pnpm check 0 errors; build 759 pages (no change); 1069/1069 e2e pass.
+Ship: 0caaeba, pushed to master.
+Prod: CI + Lighthouse in_progress at push time; consistent with prior pattern.
+Next: iter580 → RESEARCH (pass #118).
