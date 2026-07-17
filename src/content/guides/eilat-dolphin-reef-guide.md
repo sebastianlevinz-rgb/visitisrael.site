@@ -1,6 +1,6 @@
 ---
 title: 'Eilat Dolphin Reef: Complete Visitor Guide (2026)'
-description: "Plan your Eilat Dolphin Reef visit — experience tiers (beach, snorkel, dive), what to realistically expect from the free-ranging dolphins, and practical logistics."
+description: "Plan your Eilat Dolphin Reef visit: experience tiers (beach, snorkel, dive), what to expect from free-ranging dolphins, and practical logistics."
 heroImage: /images/regions/eilat/dolphin-reef.jpg
 category: Activities
 updatedAt: 2026-07-17

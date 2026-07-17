@@ -1,6 +1,6 @@
 ---
-title: 'Negev Desert Tours Compared: Ramon Crater, Bedouin & Nabataean (2026)'
-description: "Negev tours compared: Ramon Crater jeep safaris, Sde Boker & Avdat Nabataean ruins, Bedouin overnight camps and self-drive options — what each covers and where to book."
+title: 'Negev Tours Compared: Ramon Crater, Bedouin & Nabataean (2026)'
+description: "Negev tours compared: Ramon Crater jeep safaris, Avdat Nabataean ruins, Bedouin camps and self-drive options — what each covers and where to book."
 heroImage: /images/regions/negev/mitzpe-ramon.jpg
 category: Tours
 verdictName: Negev tours
@@ -32,7 +32,7 @@ faqs:
   - question: "When is the best time to visit the Negev on a tour?"
     answer: "October to April. The Negev desert averages 36–43°C in July and August — the crater floor can reach 45°C with no shade inside the Makhtesh, making midday touring genuinely dangerous rather than merely uncomfortable. Organized tours that do run in summer typically start before 07:00 and finish by noon. The sweet spot is November through March: daytime temperatures of 15–25°C, crystalline clear desert air, no rain (the Negev averages under 100 mm/year), and the widest variety of tour products available. Spring (March–April) adds wildflower colour to the crater floor and surroundings."
   - question: "What tour format is best for visiting the Nabataean archaeological sites?"
-    answer: "A dedicated heritage day covering Avdat (a UNESCO World Heritage Site with the most developed Nabataean acropolis in Israel) and optionally Shivta or Mamshit suits visitors primarily interested in the archaeology. These sites are well-signposted and have INPA audio guides, so the trade-off between self-guided and guided is less acute than at the crater itself. Most organised Negev day tours include Avdat as a 45–60 minute stop alongside the Ramon Crater rather than treating it as the main focus. For deeper archaeological engagement, a dedicated [Negev Incense Route](/negev-incense-route) self-drive is the right approach."
+    answer: "A dedicated heritage day covering Avdat (a UNESCO World Heritage Site with the most developed Nabataean acropolis in Israel) and optionally Shivta or Mamshit suits visitors primarily interested in the archaeology. These sites are well-signposted and have INPA audio guides, so the trade-off between self-guided and guided is less acute than at the crater itself. Most organised Negev day tours include Avdat as a 45–60 minute stop alongside the Ramon Crater rather than treating it as the main focus. For deeper archaeological engagement, a dedicated Nabataean circuit self-drive (see [Mitzpe Ramon guide](/mitzpe-ramon-guide) for logistics) is the right approach."
   - question: "Does exploring the Makhtesh Ramon crater floor require a 4WD vehicle?"
     answer: "For the best access to the crater interior, yes. The crater viewpoint and visitor centre in Mitzpe Ramon are reachable by any vehicle and even on foot. The geological attractions on the crater rim trail (the coloured sand cliffs, the ammonite wall) are accessible on a standard hiking path. But the deep interior — the remote canyon sections, the fossil beds, the Nabataean camel-trail fragments — requires a high-clearance 4WD. This is exactly what jeep safari operators provide; it is the primary reason to book a guided jeep tour rather than self-driving to the viewpoint alone."
 ---
