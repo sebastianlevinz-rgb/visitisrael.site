@@ -9230,3 +9230,13 @@ Content: 5 participation routes — (1) GYG/Viator organised experiences pairing
 Gate: pnpm check 0 errors; pnpm build 766 pages (+1 from 765); pnpm test:e2e 1077/1077 pass (+1 from 1076).
 Ship: squash-merged to master b22ffd8, pushed. Branch auto/shabbat-dinner-experience deleted. CI + Lighthouse in_progress at push time; consistent with prior pattern (iter581–590 all concluded success).
 Next: iter592 → BUILD (seo-content). Top candidates: /eilat-vs-aqaba (P3, S — comparison; added iter590), tel-aviv-pride-guide (P3, S), israel-practical-faq (P3, S).
+
+## 2026-07-17T15:55Z · iter 592 · BUILD (seo-content) · eilat-vs-aqaba
+
+What: New /eilat-vs-aqaba — "Eilat vs Aqaba: Which Red Sea Resort Is Right for You?" fills confirmed triple-zero SEO gap identified in iter590 RESEARCH (P3, S, seo-content+monetization). 592%5==2 → BUILD (seo-content) mode. Highest-priority seo-content candidate per STATE.md.
+
+Content: 10-dimension comparison table (country, reef access, diving reputation, beach scene, Petra distance, visa, getting there, accommodation cost, tax-free shopping, Wadi Rum distance); "choose Eilat if" section (full Israel itinerary base, Coral Beach shore accessibility, tax-free shopping zone, closer Petra via Wadi Araba); "choose Aqaba if" section (Jordan-centred itinerary, Cedar Pride wreck, Japanese Garden variety, lower accommodation cost, Wadi Rum 1h away); honest reef quality comparison (same Gulf of Aqaba ecosystem — Coral Beach Reserve = best beginner experience; Aqaba Japanese Garden = preferred by experienced divers for variety; coral bleaching pressure applies both sides); 7-day combined itinerary (Eilat 2n → Aqaba 1n → Petra → optional Wadi Rum → return to Israel); 7 FAQs. HONESTY: diving quality comparisons framed as subjective and evolving; coral health as "recent trends" not guarantees; visa requirements link official Jordan Tourism; border crossing hours noted as variable; no fabricated prices, ratings or reviews. 3 CTAs: Booking.com Eilat, Booking.com Aqaba, GYG Eilat diving. Cross-links: eilat-diving-snorkeling.md (closing sentence added), dead-sea-vs-eilat.md (closing sentence added), Footer.astro (+1 li after eilat-dolphin-reef-guide). 9 internal body links.
+
+Gate: pnpm check 0 errors (130 files); pnpm build 767 pages (+1 from 766); pnpm test:e2e 1078/1078 pass (+1 from 1077, all green).
+Ship: squash-merged to master d3efefa, pushed. Branch auto/eilat-vs-aqaba deleted. CI in_progress at push time; consistent with prior success pattern (iter581–591 all concluded success).
+Next: iter593 → BUILD (tools, 593%5==3; fallthrough to seo-content expected if no new tools items). Top candidates: tel-aviv-pride-guide (P3, S, seo-content), israel-practical-faq (P3, S), national-library-israel (P3, S).

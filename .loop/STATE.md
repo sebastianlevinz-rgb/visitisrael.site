@@ -1,13 +1,15 @@
 # LOOP STATE
 
-- iteration: 591
-- lastMode: BUILD (monetization)
-- lastItem: shabbat-dinner-experience
-- lastResult: SHIPPED b22ffd8. New /shabbat-dinner-experience — "Shabbat Dinner in Israel: How Tourists Can Join" fills confirmed triple-zero gap. 5 participation routes (GYG/Viator organised experiences, Chabad House free meals, synagogue hospitality, hotel programs, Friday-night restaurants). Full ritual explanation (candle lighting → Kiddush → HaMotzi → meal → zemirot → Birkat HaMazon). Guest etiquette, dietary notes, timing logistics with candlelighting ranges by season. Western Wall Kabbalat Shabbat combining section. 2 CTAs: GYG (Shabbat dinner local home Jerusalem), Viator (Jerusalem Shabbat evening). 7 FAQs. HONESTY: no fabricated ratings/prices; professional hosts described accurately; Chabad free framing honest; synagogue invitations not guaranteed. Cross-links: shabbat-guide.md (new sentence), jewish-heritage-israel.md (practical tips Shabbat paragraph), Footer.astro (+1 li). 6 body links to existing pages. pnpm check 0 errors; build 766 pages (+1); 1077/1077 e2e pass (+1). CI in_progress at push time; consistent with prior success pattern.
-- nextRotationCategory: 592%5==2 → BUILD (seo-content). 593%5==3 → BUILD (tools fallthrough likely → seo-content). 594%5==4 → REVIEW. 595%5==0 → RESEARCH (pass #121).
+- iteration: 592
+- lastMode: BUILD (seo-content)
+- lastItem: eilat-vs-aqaba
+- lastResult: SHIPPED d3efefa. New /eilat-vs-aqaba — "Eilat vs Aqaba: Which Red Sea Resort Is Right for You?" fills confirmed triple-zero SEO gap identified in iter590 RESEARCH. Side-by-side comparison table (10 dimensions: country, reef access, diving reputation, beach scene, Petra distance, visa, getting there, accommodation cost, tax-free shopping, Wadi Rum); "choose Eilat if" and "choose Aqaba if" sections; honest reef quality comparison (same Gulf ecosystem, Coral Beach Reserve = best for beginners, Japanese Garden = preferred by experienced divers, coral bleaching pressure = both sides); 7-day combined southern itinerary; 7 FAQs. HONESTY: diving quality as subjective/evolving; no fabricated prices; visa links to official Jordan Tourism; border hours noted as variable. 3 CTAs: Booking.com Eilat, Booking.com Aqaba, GYG Eilat diving. Cross-links: eilat-diving-snorkeling.md (closing sentence), dead-sea-vs-eilat.md (closing sentence), Footer.astro (+1 li after eilat-dolphin-reef-guide). 9 internal body links. Smoke test +1 route. pnpm check 0 errors; build 767 pages (+1 from 766); 1078/1078 e2e pass (+1 from 1077). CI in_progress at push time; consistent with prior success pattern.
+- nextRotationCategory: 593%5==3 → BUILD (tools fallthrough likely → seo-content). 594%5==4 → REVIEW. 595%5==0 → RESEARCH (pass #121).
 - higgsfieldSpent: 0
-- updatedAt: 2026-07-17T14:55Z
+- updatedAt: 2026-07-17T15:55Z
 - branch context: work on master; feature work on auto/<slug>
+
+Notes: iter592 BUILD (seo-content) — eilat-vs-aqaba. SHIPPED d3efefa. pnpm check 0 errors; build 767 pages (+1 from 766); 1078/1078 e2e pass (+1 from 1077). /eilat-vs-aqaba fills triple-zero SEO gap confirmed in iter590 RESEARCH (python3 scan ZERO standalone hits for eilat.vs.aqaba pattern in BACKLOG/DONE/guides). Distinct from: aqaba-from-eilat.md (day-trip logistics = DISTINCT), eilat-vs-hurghada (vs Egypt/Red Sea Egypt = DISTINCT), wadi-rum-from-eilat (Wadi Rum day-trip = DISTINCT). Comparison series: matches dead-sea-vs-eilat.md, dead-sea-israel-vs-jordan.md, petra-from-eilat-vs-amman.md, israel-vs-jordan.md pattern. Monetization: Booking.com Eilat + Booking.com Aqaba + GYG Eilat diving CTAs. CI in_progress at push time; consistent with prior pattern. Next: iter593 → BUILD (tools, fallthrough likely → seo-content). Top tools candidates: none confirmed ready; likely seo-content fallthrough → tel-aviv-pride-guide (P3, S), israel-practical-faq (P3, S), national-library-israel (P3, S).
 
 Notes: iter591 BUILD (monetization) — shabbat-dinner-experience. SHIPPED b22ffd8. pnpm check 0 errors; build 766 pages (+1 from 765); 1077/1077 e2e pass (+1 from 1076). /shabbat-dinner-experience fills triple-zero SEO gap confirmed in iter590 research. Distinct from shabbat-guide.md (logistics/closures) and whats-open-on-shabbat.md (opening hours). GYG + Viator monetization CTAs. Cross-links to 6 existing pages. CI in_progress at push time (consistent with prior success pattern). Next: iter592 → BUILD (seo-content). Top seo-content candidates: /eilat-vs-aqaba (P3, S, comparison guide — just added iter590); tel-aviv-pride-guide (P3, S); israel-practical-faq (P3, S).
 
@@ -46,5 +48,5 @@ Notes: iter563 BUILD (tools→seo-content fallthrough) — sea-of-galilee-beache
 Notes: iter560 RESEARCH pass #114 — 6 net-new items added.
 
 Cron b7325b16 hourly @ :17. Loop history: 19 tools + sitemap-lastmod + link-checker(+depth) + i18n
-Phase0/1a/1b/1c/2 Batches1-18(COMPLETE) + 44 review passes + 3 technical (event-schema + meta-trim + locale-links) + 66 EN guides + 7 tools-monetization + 2 comparisons;
+Phase0/1a/1b/1c/2 Batches1-18(COMPLETE) + 44 review passes + 3 technical (event-schema + meta-trim + locale-links) + 67 EN guides + 7 tools-monetization + 2 comparisons;
 research iters 5/10/20/30/35/40/45/50/55/60/65/70/75/80/85/90/95/100/105/110/115/120/125/130/135/140/145/150/155/160/165/170/175/180/185/190/195/200/205/210/215/220/225/230/235/240/245/250/255/260/265/270/275/280/285/290/295/300/305/310/315/320/325/330/335/340/345/350/355/360/365/370/375/380/385/390/395/400/405/410/420/425/430/435/440/445/450/455/460/465/470/480/485/490/495/500/505/510/515/520/525/535/540/545/550/555/560/565/570/575/580/585/590.
