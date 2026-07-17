@@ -5186,3 +5186,48 @@ Saturation at pass #117: ~85% of high-value gaps now in BACKLOG or SHIPPED. Rema
 **Competitive landscape at pass #118:** Near-complete saturation. The tours-compared series is the last systematic content format not fully deployed — Negev-tours-compared closes that gap. Individual attraction deep-dives (Dolphin Reef) remain viable for high-traffic Eilat attractions not yet covered. Future passes should focus on: seasonal/timely content updates, new operator-specific guides, emerging market origin-market guides, and deepening existing content rather than seeking new page topics.
 
 Saturation at pass #118: ~87% of high-value English content gaps now in BACKLOG or SHIPPED.
+
+## Research Pass #119 · iter585 · 2026-07-17
+
+**Sites checked this pass:**
+- hikingintheholyland.com — Yam l'Yam (Sea to Sea) complete insider guide with per-stage breakdown
+- touristisrael.com/yam-lyam-hike/5621 — Sea to Sea trail overview
+- backpackisrael.com/the-sea-to-sea-trail — Mediterranean-to-Galilee trail logistics
+- medicaltourism.com/destinations/israel — Israel as a medical tourism destination
+- health-tourism.com/medical-tourism-israel — hospital listings, dental treatment guide
+- israelnationalnews.com/news/423825 — rise of dental tourism in Israel (2026 article)
+- hmcisrael.com — Herzliya Medical Center international patient guide
+- ynetnews.com/travel/article/bkgkdeyzge — "Bible Road" Highway 60 June 2026 designation
+- yahoo.com / acrookedpath.com / mycharisma.com — "Biblical Highway" international coverage
+- touristisrael.com/israel-travel-2026/80636 — Israel travel 2026 new attractions/hotels
+- jpost.com/article-861872 — SkyField extreme park at Bloomfield Stadium opening 2025
+- safdiearchitects.com/projects/national-campus-for-the-archaeology-of-israel — Schottenstein Campus
+- winetourism.com/wine-region/judea, israelwinexp.com/israel-wine-tours — wine tourism overview
+- myadventuresacrosstheworld.com — Masada sunrise, Jesus Trail coverage (both verified SHIPPED)
+- takeyourbackpack.com/backpacking-in-israel/hike-israel-national-trail — INT guide (in BACKLOG)
+- laidbacktrip.com/posts/israel-two-week-itinerary — 14-day itinerary (SHIPPED iter141)
+
+**Key findings:**
+
+1. **Yam l'Yam (Sea to Sea) — genuine gap**: hikingintheholyland.com has deepest coverage; touristisrael.com and backpackisrael.com also have pages. Our site has zero content for this 89km Mediterranean→Sea-of-Galilee trail (3–5 days, Upper Galilee). Strong affiliate angle (Booking kibbutz accommodation, SafetyWing, DiscoverCars). Peak season = Passover (March–April). ADDED to BACKLOG.
+
+2. **Israel Medical/Dental Tourism — niche gap**: medicaltourism.com and health-tourism.com both have substantial Israel sections; JCI-accredited hospitals well-established. Dental procedures 40–60% cheaper than US/UK. No editorial competitor site (TouristIsrael, Lonely Planet, Rough Guides) has a comprehensive medical tourism guide for Israel. Growing post-pandemic audience. ADDED to BACKLOG.
+
+3. **"Bible Road" / Highway 60 — flagged, not added as ready**: Israel officially renamed Highway 60 as "Bible Road" (June 18, 2026); initiative received highly polarized international coverage; route includes Hebron (out of scope per PROJECT.md) and West Bank sites. Requires human editorial judgement. ADDED as BLOCKED.
+
+4. **False leads confirmed as SHIPPED or already in BACKLOG** (dedup verification):
+   - Rosh HaNikra guide → SHIPPED iter483 ✓
+   - Masada sunrise → SHIPPED iter253 (masada-visitor-guide covers Snake Path vs Cable Car vs Sunrise) ✓
+   - Jesus Trail → SHIPPED iter567 ✓
+   - 7/10/14-day itineraries → all SHIPPED ✓
+   - SkyField extreme park → BACKLOG iter235 (already added) ✓
+   - Israel National Trail guide → BACKLOG iter110 (already ready) ✓
+   - Via Ferrata Israel → BACKLOG iter370 (already ready) ✓
+   - Schottenstein Campus → BACKLOG iter235 (already added) ✓
+   - Golan Heights Wineries → SHIPPED iter556 ✓
+   - Tel Aviv food tours → SHIPPED ✓
+   - Galilee Culinary Institute → Opening end 2026/early 2027, too early for guide ✗
+   - Kassland Resort → West Bank (Ma'ale Adumim), out of scope ✗
+   - National Campus for Archaeology visitor center → Visitor experience opening 2027 ✗
+
+**Competitive landscape at pass #119:** Saturation now at ~90%+. The remaining ready-backlog items are primarily: (a) individual attraction/neighborhood guides not yet built (e.g., skyfield-extreme-park-jaffa, via-ferrata-israel, birdwatching-israel, israel-national-trail-hiking, etc.); (b) long-tail seasonal content; (c) niche audience segments (medical tourism, solo travel, etc.). Future research passes should focus on: content freshness updates, i18n content expansion, emerging 2027 attraction openings, and competitor format innovations (interactive tools, new schema types).

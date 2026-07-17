@@ -9128,3 +9128,19 @@ Gate: pnpm check 0 errors; pnpm build 762 pages (unchanged); pnpm test:e2e 1072/
 Ship: squash-merged 318b504 to master, pushed. Branch deleted.
 Prod: CI standard pipeline triggered.
 Next: iter585 → RESEARCH pass #119 (585%5==0).
+
+## 2026-07-17T09:30Z · iter 585 · RESEARCH (pass #119) · research-585-pass-119
+
+What: RESEARCH pass #119. Sources checked: hikingintheholyland.com (Yam l'Yam per-stage guide), touristisrael.com/yam-lyam-hike/5621, backpackisrael.com/sea-to-sea-trail, medicaltourism.com/destinations/israel, health-tourism.com/medical-tourism-israel, israelnationalnews.com (dental tourism 2026), hmcisrael.com, ynetnews.com/travel (Bible Road June 2026), jpost.com/article-861872 (SkyField opening), touristisrael.com/israel-travel-2026/80636, safdiearchitects.com (Schottenstein Campus), lonelyplanet.com/israel, roughguides.com/israel, backpackisrael.com (INT guide), takeyourbackpack.com (INT 2026). ~50+ candidate topics dedup-verified against full BACKLOG.md + DONE.md + src/content/guides/.
+
+Result: 2 net-new items added to BACKLOG:
+  1. yam-lyam-sea-to-sea-hike (P2, S, seo-content) — 89km Mediterranean→Sea of Galilee trail through Upper Galilee; 3–5 days; TouristIsrael + hikingintheholyland.com + backpackisrael.com all have coverage; zero content on site; affiliate: Booking kibbutz stays + SafetyWing + DiscoverCars.
+  2. israel-medical-tourism (P3, M, seo-content+monetization) — JCI-accredited hospitals; dental implants 40–60% cheaper than US/UK; zero editorial coverage on site; medicaltourism.com + health-tourism.com have sections; affiliate: Booking.com long-stay + SafetyWing.
+
+1 BLOCKED item added:
+  - bible-road-highway-60 — Highway 60 renamed "Bible Road" June 2026; passes through Hebron (out of scope per PROJECT.md) + West Bank sites; highly polarized international coverage; requires human editorial review before any content.
+
+Key false leads eliminated (all either SHIPPED or already in BACKLOG): rosh-hanikra-guide (SHIPPED iter483), masada-sunrise (SHIPPED iter253), jesus-trail (SHIPPED iter567), 7/10/14-day itineraries (all SHIPPED), skyfield-extreme-park-jaffa (BACKLOG iter235), israel-national-trail-hiking (BACKLOG iter110), via-ferrata-israel (BACKLOG iter370), schottenstein-campus-jerusalem (BACKLOG iter235), golan-heights-wineries (SHIPPED iter556), galilee-culinary-institute (opening late 2026 — too early), kassland-resort (West Bank — out of scope), national-campus-for-archaeology visitor center (opening 2027 — too early).
+
+Gate: not run (research-only iteration; no code changes).
+Next: iter586 → BUILD (monetization). Top candidate: highest-P1 monetization item from BACKLOG rotation.
