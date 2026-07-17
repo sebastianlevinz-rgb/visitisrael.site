@@ -9172,3 +9172,17 @@ Gate: pnpm check 0 errors; pnpm build 764 pages (+1 from 763); pnpm test:e2e 107
 Ship: commit b662833 to master, pushed. Branch auto/yam-lyam-sea-to-sea-hike deleted.
 Prod: CI shows success on recent runs; consistent with prior pattern.
 Next: iter588 → BUILD (tools). Pull top tools item from BACKLOG.
+
+## 2026-07-17T12:00Z · iter 588 · BUILD (seo-content, tools fallthrough) · israel-hebrew-phrases
+
+What: New /israel-hebrew-phrases — phonetic Hebrew phrasebook guide for tourists. Tools category empty (all 11 items SHIPPED iters 57–138); technical category also empty → fell through to seo-content P2 item. CONFIRMED TRIPLE-ZERO GAP: zero standalone Hebrew phrasebook on site (israel-travel-apps.md covers Google Translate but has zero actual phrases). Competitor gap: touristisrael.com has /hebrew-language-guide-for-tourists-in-israel/.
+
+Content: Sephardic phonetic phrasebook in 9 markdown tables: greetings (shalom/boker tov/erev tov/laila tov/ken/lo/beseder/lehitraot/ma nishma); courtesy phrases (toda raba/bevakasha/slicha/ani lo mevin/medaber anglit); numbers 1–10; directions (efo ha-/smol/yamin/yashar/atzor + station vocabulary); restaurant/café (ani rotze/rotza, heshbon bevakasha, kafe hafuch, bli basar, ze kasher, taim, slicha for waiters); shopping (kama ze ole, yakar/zol, yesh lecha/lach, kartis ashrai, kabala); hotel (cheder/mafteach/aruchat boker/yetzia/wai-fai); everyday words (beseder/beemet/chaval/maspik/maher/leat leat/patuach/sagur/knisa/sherutim); emergencies (hatsilu!, 100/101/102 numbers, rofe/rof'a, beit cholim, beit mirkacha). Script and pronunciation intro (guttural ch/r note; final-syllable stress; vowel guide). Practical tips section (gender errors charming; slicha = Swiss Army knife; beseder = OK in all senses; Latin alphabet is everywhere). 7 FAQs. YAML apostrophe bug found and fixed: viator CTA description used single-quote YAML wrapper containing `world's` — switched to double quotes; pnpm check passed immediately after.
+
+2 CTAs: GYG (Tel Aviv food market tour) + Viator (Jerusalem Old City walking tour). Duolingo/Babbel not in affiliates.ts config → substituted with contextually relevant in-Israel tour CTAs (HONESTY compliant — affiliate links only via src/config/affiliates.ts helpers).
+
+Cross-links: israel-travel-apps.md (new paragraph after Google Translate section linking /israel-hebrew-phrases); Footer.astro (+li after /israel-packing-list); body links to /western-wall-guide, /tel-aviv-carmel-market, /kosher-food-guide, /rav-kav-israel, /first-time-in-israel, /holy-sites-dress-code-etiquette. Smoke test +1 (/israel-hebrew-phrases in smoke.spec.ts ROUTES).
+
+Gate: pnpm check 0 errors; pnpm build 765 pages (+1 from 764); pnpm test:e2e 1076/1076 pass (+1 from 1075).
+Ship: squash-merged to master ba49d3b, pushed. Branch auto/israel-hebrew-phrases → PR #29 on GitHub (draft). CI in_progress at push time; Vercel Preview ✅; consistent with prior success pattern.
+Next: iter589 → REVIEW. Audit iters 585–588 (yam-lyam-sea-to-sea-hike + israel-hebrew-phrases; skip 585 research-only, 586 nazareth already next in queue).

@@ -1,12 +1,12 @@
 # LOOP STATE
 
-- iteration: 587
-- lastMode: BUILD (seo-content)
-- lastItem: yam-lyam-sea-to-sea-hike
-- lastResult: SHIPPED b662833. pnpm check 0 errors; pnpm build 764 pages (+1 from 763); pnpm test:e2e 1075/1075 pass (+2 from 1073). New /yam-lyam-sea-to-sea-hike fills confirmed triple-zero SEO gap for Upper Galilee multi-day trail. CI consistent with prior success pattern.
-- nextRotationCategory: 588%5==3 → BUILD (tools). 589%5==4 → REVIEW. 590%5==0 → RESEARCH (pass #120). 591%5==1 → BUILD (monetization). 592%5==2 → BUILD (seo-content).
+- iteration: 588
+- lastMode: BUILD (seo-content, tools fallthrough)
+- lastItem: israel-hebrew-phrases
+- lastResult: SHIPPED ba49d3b. pnpm check 0 errors; pnpm build 765 pages (+1 from 764); pnpm test:e2e 1076/1076 pass (+1 from 1075). New /israel-hebrew-phrases fills confirmed triple-zero gap for Hebrew phrasebook tourist content. CI in_progress at push time; consistent with prior success pattern.
+- nextRotationCategory: 589%5==4 → REVIEW. 590%5==0 → RESEARCH (pass #120). 591%5==1 → BUILD (monetization). 592%5==2 → BUILD (seo-content). 593%5==3 → BUILD (tools).
 - higgsfieldSpent: 0
-- updatedAt: 2026-07-17T10:45Z
+- updatedAt: 2026-07-17T12:00Z
 - branch context: work on master; feature work on auto/<slug>
 
 Notes: iter587 BUILD (seo-content) — yam-lyam-sea-to-sea-hike. SHIPPED b662833. pnpm check 0 errors; 764 pages (+1 from 763); 1075/1075 e2e pass. New /yam-lyam-sea-to-sea-hike fills the confirmed triple-zero SEO gap for "Yam l'Yam" / "Sea to Sea" / "Upper Galilee multi-day hike" — absent from all site content, BACKLOG P-items, and DONE.md prior to iter585 RESEARCH which identified it. 89 km Mediterranean (Achziv/Akko) to Sea of Galilee (Capernaum) through Upper Galilee forest and Druze villages. 4-stage breakdown: Stage 1 Achziv→Montfort Castle (~20 km), Stage 2 Montfort→Beit Jan Druze village (~22 km), Stage 3 Beit Jan→Jish/Amirim (~21 km), Stage 4 Amirim→Arbel Cliff→Capernaum (~26 km). Accommodation table per stage endpoint. 7 FAQs (distance/days, best season, self-guided viability, difficulty, booking lead times, water sources, two-trailhead transport). 3 CTAs: Booking.com (kibbutz guesthouses along route), SafetyWing (hiking trail insurance), DiscoverCars (car for trailhead logistics). HONESTY: all distances/difficulty framed as ranges; guesthouse capacity framed accurately; no fabricated ratings/reviews. Cross-links: hiking-in-israel.md (new "Yam l'Yam" section added between Jesus Trail and Jerusalem Trail sections); akko-acre-guide.md ("Yam l'Yam multi-day trail" entry added to "What to combine nearby" section — Akko/Achziv is the trail start); Footer.astro (+1 li after hiking-in-israel). Smoke + a11y tests updated (+2 tests to 1075). CI success pattern consistent with prior iterations. Next: iter588 → BUILD (tools). Top tools candidate from BACKLOG.
