@@ -9089,3 +9089,18 @@ Gate: pnpm check 0 errors; pnpm build 761 pages (+1 from 760); pnpm test:e2e 107
 Ship: squash-merged 661dc74, pushed to master. Branch auto/western-wall-guide deleted.
 Prod: CI + Lighthouse in_progress at push time; consistent with prior pattern. Vercel deploys independently.
 Next: iter583 → BUILD (tools). Candidates: all existing tools are SHIPPED per DONE.md — tools category will fall through to seo-content. Recommended: eilat-dolphin-reef-guide (P2, S, seo-content+monetization — confirmed gap, TripAdvisor top-5 Eilat attraction).
+
+## 2026-07-17T07:00Z · iter 583 · BUILD (seo-content+monetization, tools fallthrough) · eilat-dolphin-reef-guide
+
+What: New /eilat-dolphin-reef-guide — standalone visitor guide to Eilat Dolphin Reef. Tools category fully SHIPPED (all 11 items in DONE); fell through to seo-content+monetization. eilat-dolphin-reef-guide was explicitly identified in iter582 STATE.md notes as "P2 next BUILD (seo-content+monetization) candidate." Confirmed TRIPLE-ZERO gap: grep scan showed zero standalone guide (Dolphin Reef mentioned only as table entries or one-liners in eilat-beach-guide, eilat-diving-snorkeling, eilat-travel-guide).
+
+Content: What Dolphin Reef is vs isn't (free-ranging bottlenose pod of 6–8 dolphins in natural Red Sea bay enclosed by safety nets; NOT a dolphinarium or trained performance; founded 1990); experience tiers (beach + observation pier / snorkel session / dive session / therapeutic encounter programs); dolphin welfare and conservation research context (peer-reviewed research programme; therapy for autism/developmental disabilities); explicit encounter-guarantee caveat (dolphins free-ranging, not obliged to engage — honesty framing central to guide); practical logistics (3km south of North Beach hotel strip; Bus 15 + taxi; open 09:00 daily; entry ~₪100–150 snorkel — frame as rough orientation + link to dolphinreef.co.il for current prices); photography (GoPro permitted; underwater camera hire onsite; no flash in interaction zones); combining with Coral Beach (3km south), full Red Sea half-day structure; 7 FAQs. 2 CTAs: GYG (Eilat Red Sea dolphin experiences) + Booking.com (Eilat hotels).
+
+Cross-links: eilat-beach-guide.md (Dolphin Reef table row upgraded to /eilat-dolphin-reef-guide link); israel-with-kids.md (dolphin reef link upgraded from /eilat/dolphin-reef to /eilat-dolphin-reef-guide); body links to 3-days-in-eilat, eilat-diving-snorkeling, eilat-snorkeling-guide, eilat-travel-guide. Footer: +1 li after eilat-snorkeling-guide entry. Smoke test: /eilat-dolphin-reef-guide added to ROUTES.
+
+HONESTY: no fabricated ratings/reviews in CTAs (omitted rating/reviews fields entirely — cannot verify live); dolphin encounter "not guaranteed" framing explicit in guide body + FAQ; ₪100–150 price framed as rough orientation with link to dolphinreef.co.il for current prices; conservation/therapy programme framed accurately without medical claims; "free-ranging" description accurate (nets enclose bay section but natural seawater).
+
+Gate: pnpm check 0 errors; pnpm build 762 pages (+1 from 761); pnpm test:e2e 1072/1072 pass.
+Ship: squash-merged 7bb43c5, pushed to master. Branch auto/eilat-dolphin-reef-guide deleted.
+Prod: CI + Lighthouse in_progress at push time (consistent with prior pattern — iter581/582 both showed same pattern, both concluded success).
+Next: iter584 → REVIEW (584%5==4). Audit recent BUILD iterations (iter580–583): negev-tours-compared, western-wall-guide, eilat-dolphin-reef-guide. Check: dead links, JSON-LD validity, title/desc lengths, cross-link targets resolve, no fabricated data, honesty framing intact.
