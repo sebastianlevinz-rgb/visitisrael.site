@@ -33,7 +33,7 @@ During Shabbat, in Jewish areas: **public transport (trains and most buses) stop
 
 - **Get organised Friday afternoon** — buy snacks, fill up the rental car, sort transport.
 - **Move by sherut, taxi, ride app or car**, not train/bus. See the [transportation guide](/transportation).
-- **Lean into it.** A Friday-night dinner, a slow Saturday walk in the Old City, or a beach day in Tel Aviv are part of the experience. At the [Western Wall](/jerusalem/western-wall), Friday-evening prayers are unforgettable (no photography once Shabbat begins).
+- **Lean into it.** A Friday-night dinner, a slow Saturday walk in the Old City, or a beach day in Tel Aviv are part of the experience. At the [Western Wall](/jerusalem/western-wall), Friday-evening prayers are unforgettable (no photography once Shabbat begins). For a genuinely immersive evening, see our guide to [joining a Shabbat dinner as a tourist](/shabbat-dinner-experience) — including Chabad House free meals and organised experiences.
 - **Book a Saturday day trip** — e.g. to the [Dead Sea](/dead-sea) or Bethlehem — through an operator that provides transport.
 
 Need the exact candlelighting and Havdalah times for your travel dates? Use our [Shabbat & Jewish Holiday Calendar](/israel-shabbat-calendar) — it shows city-by-city times for Jerusalem, Tel Aviv, Haifa, Eilat and Beersheba, plus all major Jewish holidays for 2026–2027.

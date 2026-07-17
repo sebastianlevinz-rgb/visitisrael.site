@@ -609,6 +609,7 @@ const ROUTES = [
   '/church-of-nativity-guide',
   '/eilat-dolphin-reef-guide',
   '/yam-lyam-sea-to-sea-hike',
+  '/shabbat-dinner-experience',
 ];
 
 for (const route of ROUTES) {
