@@ -1,13 +1,15 @@
 # LOOP STATE
 
-- iteration: 593
-- lastMode: BUILD (seo-content, tools fallthrough)
-- lastItem: tel-aviv-pride-guide
-- lastResult: SHIPPED aa99249. New /tel-aviv-pride-guide — "Tel Aviv Pride: Parade Dates, Route & Travel Guide" fills triple-zero SEO gap confirmed in iter90 RESEARCH. Tools category had no ready items → fallthrough to seo-content. Content: parade dates + year table (2026 passed; 2027 ~June 11), route (Gan Meir Park → beachfront → Ganei Yehoshua after-party), accommodation strategy (book 3–6 months ahead; Dizengoff/Hilton Beach area optimal; prices 2–3× typical), Hilton Beach scene, circuit parties (evergreen — lineup changes year to year, always verify at gaycenter.org.il), heat logistics (30–32°C, SPF 50, water), Pride beyond Tel Aviv. Event JSON-LD: startDate 2027-06-11, Gan Meir Park. HONESTY: party lineup explicitly variable; no fabricated prices/ratings/reviews; Hilton Beach social/cultural (not officially designated). Monetization: Booking.com Tel Aviv + GYG LGBTQ walking tour. Cross-links: lgbtq-travel-israel.md (Pride section → link added), tel-aviv-nightlife.md (LGBTQ bullet extended), Footer.astro (+1 li). Smoke +1 (/tel-aviv-pride-guide); a11y +1. pnpm check 0 errors; build 768 pages (+1 from 767); 1080/1080 e2e pass. CI in_progress at push time; consistent with prior success pattern.
-- nextRotationCategory: 594%5==4 → REVIEW (audit iters 591–593: shabbat-dinner-experience, eilat-vs-aqaba, tel-aviv-pride-guide). 595%5==0 → RESEARCH (pass #121). 596%5==1 → BUILD (monetization).
+- iteration: 594
+- lastMode: REVIEW
+- lastItem: review-594-meta-fix (audit iters 591–593: shabbat-dinner-experience, eilat-vs-aqaba, tel-aviv-pride-guide)
+- lastResult: SHIPPED 7fff467. 1 defect found + fixed: eilat-vs-aqaba description was 163 chars (3 over 160-char limit) → trimmed to 153 chars. No other defects across the 3 files: titles OK (47/54/50 chars), all 21 internal links resolve, all hero/CTA images exist, no fabricated data. pnpm check 0 errors; build 768 pages (unchanged); 1080/1080 e2e pass. CI in_progress at push time; consistent with prior success pattern.
+- nextRotationCategory: 595%5==0 → RESEARCH (pass #121). 596%5==1 → BUILD (monetization). 597%5==2 → BUILD (seo-content). 598%5==3 → BUILD (tools).
 - higgsfieldSpent: 0
-- updatedAt: 2026-07-17T16:50Z
+- updatedAt: 2026-07-17T17:40Z
 - branch context: work on master; feature work on auto/<slug>
+
+Notes: iter594 REVIEW — audit iters 591–593 (shabbat-dinner-experience, eilat-vs-aqaba, tel-aviv-pride-guide). 1 defect found + fixed: eilat-vs-aqaba description 163→153 chars (trimmed "quality" from "diving quality" and "or plan both" → "or do both"). All titles OK (47/54/50 chars). 21 internal links verified: all resolve. All hero/CTA images exist (7 images checked). No fabricated data, no dead links. SHIPPED 7fff467. pnpm check 0 errors; build 768 pages (unchanged); 1080/1080 e2e pass. CI in_progress at push time; consistent with prior success pattern. Next: iter595 → RESEARCH (pass #121).
 
 Notes: iter593 BUILD (seo-content, tools fallthrough) — tel-aviv-pride-guide. SHIPPED aa99249. pnpm check 0 errors; build 768 pages (+1 from 767); 1080/1080 e2e pass (+2 from 1078). /tel-aviv-pride-guide fills triple-zero SEO gap for "Tel Aviv Pride guide 2027", "Tel Aviv Gay Pride dates parade route", "Tel Aviv Pride festival travel tips accommodation". Distinct from lgbtq-travel-israel.md (year-round general LGBTQ guide) — this is the dedicated annual event + logistics guide. Comparison series: matches shabbat-dinner-experience.md (event/experience-specific) and christmas-in-israel.md (annual event) patterns. Monetization: Booking.com Tel Aviv + GYG LGBTQ tour CTAs. CI in_progress at push time; consistent with prior pattern. Next: iter594 → REVIEW (audit iters 591–593).
 

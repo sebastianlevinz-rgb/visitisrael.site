@@ -9246,3 +9246,10 @@ What: New /tel-aviv-pride-guide — "Tel Aviv Pride: Parade Dates, Route & Trave
 Gate: pnpm check 0 errors; build 768 pages (+1 from 767); 1080/1080 e2e pass.
 Ship: aa99249; pushed to master.
 Prod: CI in_progress at push time; consistent with prior success pattern.
+
+## 2026-07-17T17:38Z · iter 594 · REVIEW · review-594-meta-fix
+What: Audited iters 591–593 (shabbat-dinner-experience, eilat-vs-aqaba, tel-aviv-pride-guide). Checked: title/desc character counts, internal link resolution (21 slugs), hero/CTA image existence (7 images), honesty, content accuracy.
+Defect found: eilat-vs-aqaba description 163 chars → 3 over the 160-char limit. Fixed to 153 chars (removed "quality" from "diving quality"; changed "or plan both" → "or do both"). No other defects: titles OK (47/54/50 chars), all 21 internal links resolve, all 7 images exist, no fabricated data in any of the three files.
+Gate: pnpm check 0 errors; build 768 pages (unchanged); 1080/1080 e2e pass.
+Ship: 7fff467; pushed to master. CI in_progress at push time; consistent with prior success pattern.
+Next: iter595 → RESEARCH (595%5==0, pass #121).
