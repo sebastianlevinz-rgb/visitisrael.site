@@ -77,6 +77,7 @@ const ROUTES = [
   '/israel-base-city-guide',
   '/rav-kav-israel',
   '/israel-travel-apps',
+  '/israel-hebrew-phrases',
   '/israel-holiday-planner',
   '/israel-visa-eta-checker',
   '/israel-parks-pass-calculator',
