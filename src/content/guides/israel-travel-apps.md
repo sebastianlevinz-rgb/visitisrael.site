@@ -101,6 +101,8 @@ Download **Google Translate** with the **Hebrew language pack saved offline** be
 
 The offline Hebrew pack means this works without data — useful if you are in a less-connected area.
 
+To go beyond reading text, see the [Hebrew phrases guide for tourists](/israel-hebrew-phrases) for the vocabulary that actually comes up in conversation — greetings, ordering food, asking directions, and shopping.
+
 ---
 
 ## Your pre-flight app checklist
