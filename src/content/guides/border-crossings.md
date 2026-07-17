@@ -35,4 +35,6 @@ Israel shares land crossings with **Jordan** (three) and **Egypt** (one), openin
 - **Going to Petra?** Buy the [Jordan Pass](/jordan-pass-guide) online before you travel — it bundles the Jordanian visa with Petra entry and typically saves JD 25–35. An organised tour from Eilat is by far the simplest way to handle the crossing. Compare options on our [Eilat guide](/eilat).
 - **Re-entry security** to Israel is thorough — allow time and answer questions straightforwardly.
 
+Concerned about what ends up in your passport when crossing these borders? Israel's no-stamp policy, what the paper entry slip means, and how future-destination entry policies work is explained in our [Israeli passport stamp guide](/israeli-passport-stamp).
+
 For wider planning, see [Is Israel safe to visit?](/is-israel-safe) and our [first-time guide](/first-time-in-israel).

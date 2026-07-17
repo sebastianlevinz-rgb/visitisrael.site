@@ -41,7 +41,7 @@ Fees, eligible countries and rules can change — always confirm the current det
 
 ## The paper entry slip
 
-Israel typically **does not stamp passports** at Ben Gurion Airport. Instead you're given a small **paper entry slip** at passport control. Keep it safe — hotels may ask for it at check-in, and you may need it at internal checkpoints. The slip also keeps any Israel entry record out of your passport, which can simplify later travel to certain countries.
+Israel typically **does not stamp passports** at Ben Gurion Airport. Instead you're given a small **paper entry slip** at passport control. Keep it safe — hotels may ask for it at check-in, and you may need it at internal checkpoints. The slip also keeps any Israel entry record out of your passport, which can simplify later travel to certain countries. For a full explanation of what the slip means, what happens at land borders, and how evidence of Israel travel affects future trips, see our dedicated [Israeli passport stamp guide](/israeli-passport-stamp).
 
 ## At the border
 
