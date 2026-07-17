@@ -1,12 +1,12 @@
 # LOOP STATE
 
-- iteration: 577
-- lastMode: BUILD (seo-content)
-- lastItem: israel-honeymoon
-- lastResult: SHIPPED ecbd230 — /israel-honeymoon "Israel Honeymoon Guide: Romantic Getaways for Couples (2026)". 758 pages; 1068/1068 e2e pass. Back-links: luxury-travel-israel.md + israel-wellness-spa.md. Footer Essentials +1.
-- nextRotationCategory: 578%5==3 → BUILD (tools→seo-content fallthrough). 579%5==4 → REVIEW. 580%5==0 → RESEARCH (pass #118). 581%5==1 → BUILD (monetization).
+- iteration: 578
+- lastMode: BUILD (tools→seo-content fallthrough)
+- lastItem: church-of-nativity-guide
+- lastResult: SHIPPED 0ab7154 — /church-of-nativity-guide "Church of the Nativity: Complete Visitor Guide (2026)". 759 pages; 1069/1069 e2e pass. Back-links: bethlehem-travel-guide.md (intro + church section) + christian-pilgrimage-holy-land.md (Bethlehem section).
+- nextRotationCategory: 579%5==4 → REVIEW. 580%5==0 → RESEARCH (pass #118). 581%5==1 → BUILD (monetization). 582%5==2 → BUILD (seo-content).
 - higgsfieldSpent: 0
-- updatedAt: 2026-07-17T00:43Z
+- updatedAt: 2026-07-17T01:52Z
 - branch context: work on master; feature work on auto/<slug>
 
 Notes: iter568 BUILD (seo-content, tools fallthrough) — luxury-arava-desert. SHIPPED da1f518. pnpm check 0 errors; 753 pages (+1 from 752); 1063/1063 e2e pass. New guide /luxury-arava-desert covers Six Senses Shaharut (MICHELIN Guide Hotels listed, ~$900–1,400/night, IHG One Rewards), Arava Valley geology (Dead Sea Transform rift, 350–450m elevation at Shaharut), dark sky quality, wellness programming (Sleep+Recovery, biohacking spa, Bedouin herbal treatments), Timna Park copper mines (Chalcolithic, Egyptian Hathor temple, King Solomon's Pillars, Mushroom rock), Eilat/Mitzpe Ramon combining, Petra day-trip note. 7 FAQs: what is Six Senses Shaharut; cost; what is the Arava Valley; getting there; best season; activities; combining with other Negev sites. 3 CTAs: Booking.com (Arava hotels), GYG (Timna+Arava tours), DiscoverCars (car essential). Cross-links: Footer.astro (after /best-hotels-negev), mitzpe-ramon-guide.md "Continuing south" paragraph, israel-wellness-spa.md closing paragraph. FALSE GAP NOTE: gamla-guide (BACKLOG line 1335, /gamla-guide) is a slug mismatch — gamla-nature-reserve-guide.md was SHIPPED in iter338. Marked STALE in BACKLOG.

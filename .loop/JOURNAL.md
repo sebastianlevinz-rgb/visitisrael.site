@@ -9041,3 +9041,18 @@ Gate: pnpm check 0 errors · 758 pages (+1 from 757) · 1068/1068 e2e pass.
 Merge: squash to master ecbd230, pushed.
 Prod: CI + Lighthouse in_progress at push time; consistent with prior pattern.
 Next: iter578 → BUILD (tools→seo-content fallthrough since all tools SHIPPED).
+
+## 2026-07-17T01:52Z · iter 578 · BUILD (tools→seo-content fallthrough) · church-of-nativity-guide
+
+What: New /church-of-nativity-guide — "Church of the Nativity: Complete Visitor Guide (2026)". Confirmed gap: bethlehem-travel-guide.md (SHIPPED iter422) covers the church as one of five Bethlehem sections; zero dedicated practical HOW-TO guide for the church itself. Competitor visitisrael.app ranks for the standalone query; GYG has dedicated Church of the Nativity tour products. P2, S effort.
+
+Content: Door of Humility history (Ottoman-narrowed entry, forced bow); main basilica walkthrough (44 limestone columns, Justinianic construction, Constantinian mosaic floor visible through trapdoors); Grotto of the Nativity (14-pointed silver star, Latin inscription, manger niche, denomination rotation, queue management: before 9am or after 3pm weekday for shortest wait); denomination map table (Greek Orthodox = main nave + primary grotto rights; Roman Catholic Franciscan = St Catherine's; Armenian Apostolic = altar of kings + south transept; Status Quo Ottoman arrangement); Church of St Catherine (cloister, St Jerome statue + 30-year Vulgate translation residency, cave complex with Jerome's tomb); Christmas Eve mass (Latin Dec 24 via Latin Patriarchate advance booking; Greek Orthodox Jan 6; Armenian Jan 18); dress code + etiquette (no flash, follow grotto direction, do not enter during services); getting there from Jerusalem (Checkpoint 300, bus 231, no hire car). 7 FAQs.
+
+2 affiliate CTAs: GYG (Bethlehem Church of Nativity half-day tour) + Viator (Bethlehem & Jericho full day).
+
+Cross-links added: bethlehem-travel-guide.md (intro paragraph + Church of Nativity section); christian-pilgrimage-holy-land.md (Bethlehem section upgraded with denomination context link).
+smoke.spec.ts: /church-of-nativity-guide added to ROUTES array.
+
+Gate: pnpm check 0 errors · 759 pages (+1 from 758) · 1069/1069 e2e pass.
+Merge: squash to master 0ab7154, pushed.
+Prod: CI/Lighthouse in_progress at push time; consistent pattern. Vercel deploys independently.
