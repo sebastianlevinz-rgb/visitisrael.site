@@ -9066,3 +9066,5 @@ Gate: pnpm check 0 errors; build 759 pages (no change); 1069/1069 e2e pass.
 Ship: 0caaeba, pushed to master.
 Prod: CI + Lighthouse in_progress at push time; consistent with prior pattern.
 Next: iter580 → RESEARCH (pass #118).
+
+Notes: iter580 RESEARCH pass #118 — 2 net-new items confirmed after exhaustive dedup scan of ~480-item backlog across 100+ candidate topics. Items added: negev-tours-compared (P1, S, monetization — completes the tours-compared series; the Negev was the last major Israel region missing; 40+ GYG/Viator products confirmed); eilat-dolphin-reef-guide (P2, S, seo-content+monetization — Dolphin Reef is top-5 Eilat attraction per TripAdvisor 4000+ reviews; only mentioned in passing in eilat-beach-guide SHIPPED; no standalone guide on site or competitors). Saturation: extreme at pass #118 (~87%). No code changes; no gate run. Next: iter581 → BUILD (monetization) — top candidates: masada-sunrise-guide (P1, S) or negev-tours-compared (P1, S).

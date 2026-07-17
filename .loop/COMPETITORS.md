@@ -5172,3 +5172,17 @@ Confirmed not gaps this pass (already SHIPPED or in BACKLOG):
 - Israel packing list tool → SHIPPED ~iter30
 
 Saturation at pass #117: ~85% of high-value gaps now in BACKLOG or SHIPPED. Remaining competitive white space = niche long-tail or seasonal content.
+
+## Research Pass #118 · iter580 · 2026-07-17
+
+**Sources checked:** touristisrael.com/negev, getyourguide.com (Negev + Eilat), viator.com (Negev tours), lonelyplanet.com/israel/eilat, dolphinreef.co.il (official), tripadvisor.com/Eilat attractions, beinharimtours.com, roughguides.com/israel. 100+ topics dedup-verified.
+
+**Key findings:**
+
+1. **Tours-compared series gap — Negev**: GYG and Viator both have extensive Negev tour inventory (40+ products: Ramon Crater jeep safari, Bedouin desert camp, stargazing tours, Nabataean ruins circuits). The tours-compared format has proven highest affiliate conversion on the site. The Negev was the only major Israel tourism region NOT covered by the series. Confirmed zero competitors have a standalone "Negev tours compared" editorial guide.
+
+2. **Dolphin Reef Eilat standalone guide gap**: dolphinreef.co.il is a significant Eilat attraction with 4,000+ TripAdvisor reviews and #5 most-visited Eilat attraction per TripAdvisor ranking. No competitor Israel travel editorial site has a standalone Dolphin Reef guide with full logistics (experience tiers, dolphin welfare context, practical visit planning). Lonelyplanet.com covers it in a 2-sentence Eilat attraction listing only.
+
+**Competitive landscape at pass #118:** Near-complete saturation. The tours-compared series is the last systematic content format not fully deployed — Negev-tours-compared closes that gap. Individual attraction deep-dives (Dolphin Reef) remain viable for high-traffic Eilat attractions not yet covered. Future passes should focus on: seasonal/timely content updates, new operator-specific guides, emerging market origin-market guides, and deepening existing content rather than seeking new page topics.
+
+Saturation at pass #118: ~87% of high-value English content gaps now in BACKLOG or SHIPPED.

@@ -1,12 +1,12 @@
 # LOOP STATE
 
-- iteration: 579
-- lastMode: REVIEW
-- lastItem: review-579-desc-fix (audited iters 576-578)
-- lastResult: SHIPPED 0caaeba — 2 description defects fixed: israel-honeymoon (161→160 chars), haifa-tours-compared (174→143 chars). All 34 internal links clean; 8 hero images present; 0 H1 in body; back-links verified; honesty clean. 759 pages; 1069/1069 e2e pass. CI in_progress at push time.
-- nextRotationCategory: 580%5==0 → RESEARCH (pass #118). 581%5==1 → BUILD (monetization). 582%5==2 → BUILD (seo-content). 583%5==3 → BUILD (tools). 584%5==4 → REVIEW.
+- iteration: 580
+- lastMode: RESEARCH
+- lastItem: research-pass-118
+- lastResult: 2 net-new items confirmed after exhaustive dedup scan: negev-tours-compared (P1, S, monetization — completes the tours-compared series); eilat-dolphin-reef-guide (P2, S, seo-content+monetization). Extreme saturation at pass #118 (~87% of high-value gaps now BACKLOG or SHIPPED). No code changes; no gate run.
+- nextRotationCategory: 581%5==1 → BUILD (monetization). 582%5==2 → BUILD (seo-content). 583%5==3 → BUILD (tools). 584%5==4 → REVIEW. 585%5==0 → RESEARCH (pass #119).
 - higgsfieldSpent: 0
-- updatedAt: 2026-07-17T02:52Z
+- updatedAt: 2026-07-17T05:30Z
 - branch context: work on master; feature work on auto/<slug>
 
 Notes: iter568 BUILD (seo-content, tools fallthrough) — luxury-arava-desert. SHIPPED da1f518. pnpm check 0 errors; 753 pages (+1 from 752); 1063/1063 e2e pass. New guide /luxury-arava-desert covers Six Senses Shaharut (MICHELIN Guide Hotels listed, ~$900–1,400/night, IHG One Rewards), Arava Valley geology (Dead Sea Transform rift, 350–450m elevation at Shaharut), dark sky quality, wellness programming (Sleep+Recovery, biohacking spa, Bedouin herbal treatments), Timna Park copper mines (Chalcolithic, Egyptian Hathor temple, King Solomon's Pillars, Mushroom rock), Eilat/Mitzpe Ramon combining, Petra day-trip note. 7 FAQs: what is Six Senses Shaharut; cost; what is the Arava Valley; getting there; best season; activities; combining with other Negev sites. 3 CTAs: Booking.com (Arava hotels), GYG (Timna+Arava tours), DiscoverCars (car essential). Cross-links: Footer.astro (after /best-hotels-negev), mitzpe-ramon-guide.md "Continuing south" paragraph, israel-wellness-spa.md closing paragraph. FALSE GAP NOTE: gamla-guide (BACKLOG line 1335, /gamla-guide) is a slug mismatch — gamla-nature-reserve-guide.md was SHIPPED in iter338. Marked STALE in BACKLOG.
