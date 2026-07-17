@@ -1,13 +1,15 @@
 # LOOP STATE
 
-- iteration: 594
-- lastMode: REVIEW
-- lastItem: review-594-meta-fix (audit iters 591–593: shabbat-dinner-experience, eilat-vs-aqaba, tel-aviv-pride-guide)
-- lastResult: SHIPPED 7fff467. 1 defect found + fixed: eilat-vs-aqaba description was 163 chars (3 over 160-char limit) → trimmed to 153 chars. No other defects across the 3 files: titles OK (47/54/50 chars), all 21 internal links resolve, all hero/CTA images exist, no fabricated data. pnpm check 0 errors; build 768 pages (unchanged); 1080/1080 e2e pass. CI in_progress at push time; consistent with prior success pattern.
-- nextRotationCategory: 595%5==0 → RESEARCH (pass #121). 596%5==1 → BUILD (monetization). 597%5==2 → BUILD (seo-content). 598%5==3 → BUILD (tools).
+- iteration: 595
+- lastMode: RESEARCH
+- lastItem: research-595-pass-121
+- lastResult: no-ship · 3 net-new items confirmed after exhaustive dedup of ~30 candidate topics against full BACKLOG.md + DONE.md + src/content/guides/: (1) israel-vs-albania (P3, S, seo-content — TLV→TIA direct flights; Albania IHRA antisemitism definition adopter; budget Mediterranean comparison; triple-zero gap); (2) nativity-trail-guide (P2, M, seo-content+Christian pilgrimage — 160km Nazareth→Bethlehem hiking trail managed by WalkPalestine/ATG; distinct from jesus-trail-israel.md; CAUTION: passes through PA West Bank — implement safety advisories carefully; Hebron NOT on route); (3) israel-digital-detox (P3, S, seo-content+wellness — digital detox retreat guide; Six Senses Shaharut + Dead Sea float + monastery stays + Negev highlands; distinct from israel-wellness-spa.md). ~30 candidates checked; false leads: israel-for-indian-travelers (BACKLOG), kibbutz-volunteering (BACKLOG), israel-surfing.md/israel-horseback-riding.md/birdwatching-in-israel.md (SHIPPED guides), national-campus-archaeology (BACKLOG), rosh-hanikra/tower-of-david/western-wall-tunnels (all SHIPPED). Saturation ~91%+ at pass #121. No code changes; no gate run.
+- nextRotationCategory: 596%5==1 → BUILD (monetization). 597%5==2 → BUILD (seo-content). 598%5==3 → BUILD (tools). 599%5==4 → REVIEW.
 - higgsfieldSpent: 0
-- updatedAt: 2026-07-17T17:40Z
+- updatedAt: 2026-07-17T18:25Z
 - branch context: work on master; feature work on auto/<slug>
+
+Notes: iter595 RESEARCH pass #121 — 3 net-new items confirmed: israel-vs-albania (P3, S), nativity-trail-guide (P2, M, WB safety framing required), israel-digital-detox (P3, S). ~30 candidates checked; ~91%+ saturation. No code changes; no gate run. Next: iter596 → BUILD (monetization).
 
 Notes: iter594 REVIEW — audit iters 591–593 (shabbat-dinner-experience, eilat-vs-aqaba, tel-aviv-pride-guide). 1 defect found + fixed: eilat-vs-aqaba description 163→153 chars (trimmed "quality" from "diving quality" and "or plan both" → "or do both"). All titles OK (47/54/50 chars). 21 internal links verified: all resolve. All hero/CTA images exist (7 images checked). No fabricated data, no dead links. SHIPPED 7fff467. pnpm check 0 errors; build 768 pages (unchanged); 1080/1080 e2e pass. CI in_progress at push time; consistent with prior success pattern. Next: iter595 → RESEARCH (pass #121).
 

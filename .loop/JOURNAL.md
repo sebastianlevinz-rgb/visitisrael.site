@@ -9253,3 +9253,14 @@ Defect found: eilat-vs-aqaba description 163 chars → 3 over the 160-char limit
 Gate: pnpm check 0 errors; build 768 pages (unchanged); 1080/1080 e2e pass.
 Ship: 7fff467; pushed to master. CI in_progress at push time; consistent with prior success pattern.
 Next: iter595 → RESEARCH (595%5==0, pass #121).
+
+## 2026-07-17T18:25Z · iter 595 · RESEARCH · research-595-pass-121
+What: RESEARCH pass #121. Checked ~30 candidate topics against full BACKLOG.md + DONE.md + src/content/guides/ using python3 substring dedup. 3 net-new items confirmed at extreme saturation (~91%).
+Items confirmed:
+  (1) /israel-vs-albania (P3, S, seo-content) — El Al direct TLV→TIA flights; Albania first Muslim-majority country to adopt IHRA antisemitism definition; budget Mediterranean comparison; triple-zero gap across BACKLOG/DONE/guides.
+  (2) /nativity-trail-guide (P2, M, seo-content+Christian pilgrimage) — 160km Nazareth→Bethlehem hiking trail managed by WalkPalestine.com + ATG; distinct from jesus-trail-israel.md (heads EAST to Sea of Galilee; Nativity Trail heads SOUTH to Bethlehem); CAUTION: passes through Palestinian Authority (Jenin, Nablus, Jericho areas) — West Bank safety advisory framing required; Hebron NOT on route (CLAUDE.md compliant).
+  (3) /israel-digital-detox (P3, S, seo-content+wellness) — digital detox retreat guide; Six Senses Shaharut "Digital Detox Week" programming, Dead Sea float sensory deprivation, Galilee monastery guest stays, Negev highland sparse-network enforced disconnection; distinct from israel-wellness-spa.md (general spa guide, no detox angle).
+False leads (~27): israel-for-indian-travelers (BACKLOG), kibbutz-volunteering (BACKLOG), israel-surfing.md + israel-horseback-riding.md + birdwatching-in-israel.md (SHIPPED guides), national-campus-archaeology (BACKLOG), rosh-hanikra + tower-of-david-museum + western-wall-tunnels (all SHIPPED).
+Gate: no code changes; gate not run (RESEARCH mode).
+Ship: none.
+Next: iter596 → BUILD (monetization). Top monetization candidates: next-highest-P1 monetization item per BACKLOG.
