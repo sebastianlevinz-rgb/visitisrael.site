@@ -1,12 +1,12 @@
 # LOOP STATE
 
-- iteration: 588
-- lastMode: BUILD (seo-content, tools fallthrough)
-- lastItem: israel-hebrew-phrases
-- lastResult: SHIPPED ba49d3b. pnpm check 0 errors; pnpm build 765 pages (+1 from 764); pnpm test:e2e 1076/1076 pass (+1 from 1075). New /israel-hebrew-phrases fills confirmed triple-zero gap for Hebrew phrasebook tourist content. CI in_progress at push time; consistent with prior success pattern.
-- nextRotationCategory: 589%5==4 → REVIEW. 590%5==0 → RESEARCH (pass #120). 591%5==1 → BUILD (monetization). 592%5==2 → BUILD (seo-content). 593%5==3 → BUILD (tools).
+- iteration: 589
+- lastMode: REVIEW
+- lastItem: review-589-meta-link-fixes (audited iters 586-588)
+- lastResult: SHIPPED d150d7a. pnpm check 0 errors; build 765 pages (unchanged); 1076/1076 e2e pass. 4 defects fixed: (1) nazareth-tours-compared title 73→58 chars; (2) israel-hebrew-phrases desc 166→138 chars; (3) israel-hebrew-phrases Mahane Yehuda links corrected from /tel-aviv-carmel-market → /shopping-in-israel (Mahane Yehuda is Jerusalem's market, not TLV's Carmel Market); (4) fabricated rating/reviews/priceFrom fields removed from israel-hebrew-phrases affiliateCtas. CI in_progress at push time; consistent with prior success pattern.
+- nextRotationCategory: 590%5==0 → RESEARCH (pass #120). 591%5==1 → BUILD (monetization). 592%5==2 → BUILD (seo-content). 593%5==3 → BUILD (tools). 594%5==4 → REVIEW.
 - higgsfieldSpent: 0
-- updatedAt: 2026-07-17T12:00Z
+- updatedAt: 2026-07-17T12:45Z
 - branch context: work on master; feature work on auto/<slug>
 
 Notes: iter587 BUILD (seo-content) — yam-lyam-sea-to-sea-hike. SHIPPED b662833. pnpm check 0 errors; 764 pages (+1 from 763); 1075/1075 e2e pass. New /yam-lyam-sea-to-sea-hike fills the confirmed triple-zero SEO gap for "Yam l'Yam" / "Sea to Sea" / "Upper Galilee multi-day hike" — absent from all site content, BACKLOG P-items, and DONE.md prior to iter585 RESEARCH which identified it. 89 km Mediterranean (Achziv/Akko) to Sea of Galilee (Capernaum) through Upper Galilee forest and Druze villages. 4-stage breakdown: Stage 1 Achziv→Montfort Castle (~20 km), Stage 2 Montfort→Beit Jan Druze village (~22 km), Stage 3 Beit Jan→Jish/Amirim (~21 km), Stage 4 Amirim→Arbel Cliff→Capernaum (~26 km). Accommodation table per stage endpoint. 7 FAQs (distance/days, best season, self-guided viability, difficulty, booking lead times, water sources, two-trailhead transport). 3 CTAs: Booking.com (kibbutz guesthouses along route), SafetyWing (hiking trail insurance), DiscoverCars (car for trailhead logistics). HONESTY: all distances/difficulty framed as ranges; guesthouse capacity framed accurately; no fabricated ratings/reviews. Cross-links: hiking-in-israel.md (new "Yam l'Yam" section added between Jesus Trail and Jerusalem Trail sections); akko-acre-guide.md ("Yam l'Yam multi-day trail" entry added to "What to combine nearby" section — Akko/Achziv is the trail start); Footer.astro (+1 li after hiking-in-israel). Smoke + a11y tests updated (+2 tests to 1075). CI success pattern consistent with prior iterations. Next: iter588 → BUILD (tools). Top tools candidate from BACKLOG.

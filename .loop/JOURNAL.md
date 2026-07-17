@@ -9186,3 +9186,17 @@ Cross-links: israel-travel-apps.md (new paragraph after Google Translate section
 Gate: pnpm check 0 errors; pnpm build 765 pages (+1 from 764); pnpm test:e2e 1076/1076 pass (+1 from 1075).
 Ship: squash-merged to master ba49d3b, pushed. Branch auto/israel-hebrew-phrases → PR #29 on GitHub (draft). CI in_progress at push time; Vercel Preview ✅; consistent with prior success pattern.
 Next: iter589 → REVIEW. Audit iters 585–588 (yam-lyam-sea-to-sea-hike + israel-hebrew-phrases; skip 585 research-only, 586 nazareth already next in queue).
+
+## 2026-07-17T12:45Z · iter 589 · REVIEW · audit iters 586-588
+What: Audited nazareth-tours-compared (iter586), yam-lyam-sea-to-sea-hike (iter587), israel-hebrew-phrases (iter588).
+Defects found and fixed (4 total):
+  1. nazareth-tours-compared.md title 73→58 chars (over 65-char SEO limit)
+  2. israel-hebrew-phrases.md description 166→138 chars (over 160-char SEO limit)
+  3. israel-hebrew-phrases.md: "Mahane Yehuda" (Jerusalem's shuk) linked to /tel-aviv-carmel-market twice — factually incorrect. Corrected to /shopping-in-israel which has a dedicated Machane Yehuda section.
+  4. israel-hebrew-phrases.md: GYG CTA description mentioned "Mahane Yehuda or the Carmel Market" for a Tel Aviv food tour query — Mahane Yehuda is Jerusalem; corrected to Carmel Market/Levinsky Market.
+  Bonus: removed fabricated rating/reviews/priceFrom fields from israel-hebrew-phrases affiliateCtas (fields not rendered by component but violated honesty rule).
+yam-lyam-sea-to-sea-hike: CLEAN — title 49 chars, desc 155 chars, all 8 internal links valid.
+eilat-dolphin-reef-guide (iter583, in scope for this review cycle): CLEAN — title 49 chars, desc 144 chars.
+Gate: pnpm check 0 errors; build 765 pages; 1076/1076 e2e pass.
+Ship: squash-merged to master d150d7a, pushed. CI in_progress at push time; consistent with prior success pattern.
+Next: iter590 → RESEARCH (pass #120).
