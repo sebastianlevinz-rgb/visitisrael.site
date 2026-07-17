@@ -5231,3 +5231,33 @@ Saturation at pass #118: ~87% of high-value English content gaps now in BACKLOG 
    - National Campus for Archaeology visitor center → Visitor experience opening 2027 ✗
 
 **Competitive landscape at pass #119:** Saturation now at ~90%+. The remaining ready-backlog items are primarily: (a) individual attraction/neighborhood guides not yet built (e.g., skyfield-extreme-park-jaffa, via-ferrata-israel, birdwatching-israel, israel-national-trail-hiking, etc.); (b) long-tail seasonal content; (c) niche audience segments (medical tourism, solo travel, etc.). Future research passes should focus on: content freshness updates, i18n content expansion, emerging 2027 attraction openings, and competitor format innovations (interactive tools, new schema types).
+
+## iter590 RESEARCH pass #120 — 2026-07-17
+
+### Eilat vs Aqaba comparison gap (confirmed)
+
+**ScubaBoard** (scubaboard.com) — Active discussion threads on "Eilat vs Aqaba diving" confirm the topic has real search traffic and traveler indecision. Consensus: Aqaba generally has healthier/more diverse coral (less boat traffic, less fishing pressure), Eilat better for beginners (calmer conditions, well-regulated PADI shops). Both share the same Gulf of Aqaba reef ecosystem. Thread includes practical logistics notes (Wadi Araba crossing, ~30 min between cities, costs ~$40–60 for border fees and transfer).
+
+**GirlsThatScuba** (girlsthatscuba.com/eilat-vs-aqaba) — Dedicated comparison article exists; covers diving spots on both sides. Confirms the topic ranks organically; site has significant SEO authority in the dive travel niche. Our site has zero coverage of this comparison angle.
+
+**AqabaAdventure** (aqabaadventure.com) — Jordan-side operator site; describes Aqaba as a Red Sea base for Petra + Wadi Rum day trips. Positions Aqaba as superior for regional access vs. Eilat's resort focus. Useful framing for who-should-choose-which section.
+
+### Shabbat dinner experience for tourists (confirmed)
+
+**Viator** — Has a dedicated "Shabbat Dinner in a Local Home in Jerusalem" product (2026); appears in Viator's top-10 Jerusalem cultural experiences. Typically 4–5 hours, Friday evening, includes Kiddush ceremony and multi-course meal.
+
+**GetYourGuide** — Lists Shabbat dinner experience products under Jerusalem. "Jewish Shabbat Dinner with a Local Family" category.
+
+**Chabad.org/travel** — Global Chabad House directory; Jerusalem, Tel Aviv, Eilat, Haifa, Tiberias all have Chabad Houses offering free Shabbat Friday night meals open to all Jewish travelers (and friendly to non-Jewish guests accompanying). No booking required for most locations.
+
+**MyJewishLearning** (myjewishlearning.com) — Has a substantial article "A Shabbat Dinner Experience" explaining the ritual sequence and guest etiquette. Ranks for "Shabbat dinner experience Israel" queries.
+
+**TouristIsrael** — General Shabbat guide page references Friday night dinner as part of the experience but does not have a dedicated "how tourists can attend" guide. Gap confirmed vs. TouristIsrael.
+
+### False leads verified (pass #120)
+
+- India travelers guide: confirmed BACKLOG iter230 + iter430 (two entries). Python regex \| bug caused initial false "0 matches" — fixed with substring checks.
+- French travelers guide: confirmed BACKLOG iter465 + iter580 (duplicate entry).
+- Apollonia National Park: SHIPPED iter282, fully covered in herzliya-guide.md.
+- Golan Heights cycling: BACKLOG iter335.
+- Tower of David Night Spectacular: SHIPPED, covered in tower-of-david-guide.md.

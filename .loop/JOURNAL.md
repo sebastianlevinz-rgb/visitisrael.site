@@ -9200,3 +9200,23 @@ eilat-dolphin-reef-guide (iter583, in scope for this review cycle): CLEAN — ti
 Gate: pnpm check 0 errors; build 765 pages; 1076/1076 e2e pass.
 Ship: squash-merged to master d150d7a, pushed. CI in_progress at push time; consistent with prior success pattern.
 Next: iter590 → RESEARCH (pass #120).
+
+## 2026-07-17T13:30Z · iter 590 · RESEARCH (pass #120) · research-590-pass-120
+
+What: RESEARCH pass #120 — competitor web research for net-new BACKLOG items. 590%5==0 → RESEARCH mode.
+
+Sources: scubaboard.com (Eilat vs Aqaba diving thread), girlsthatscuba.com/eilat-vs-aqaba, viator.com Shabbat dinner Jerusalem products, getyourguide.com/jerusalem Shabbat experiences, touristisrael.com, chabad.org/travel, myjewishlearning.com, ou.org/life/israel, airbnb.com/s/Jerusalem/experiences (Shabbat hosting). De-dup: python3 line-by-line scan of BACKLOG.md + DONE.md + src/content/guides/ for each candidate (Python regex \| bug fixed; used substring checks and targeted grep).
+
+Items confirmed (2):
+  1. /eilat-vs-aqaba [P3, S, seo-content+monetization] — "Eilat vs Aqaba: Which Red Sea Resort?" TRIPLE-ZERO: not in BACKLOG (aqaba-from-eilat SHIPPED = day-trip; eilat-vs-hurghada BACKLOG = vs Egypt = DISTINCT; wadi-rum-from-eilat BACKLOG = different guide). Competitor discussion active on ScubaBoard and GirlsThatScuba; Aqaba coral health vs Eilat beginner-friendliness and resort strip. Pattern: matches dead-sea-vs-eilat, dead-sea-israel-vs-jordan, petra-from-eilat-vs-amman comparison series.
+  2. /shabbat-dinner-experience [P3, S, seo-content+monetization] — "Shabbat Dinner Experience in Israel: How Tourists Can Participate." TRIPLE-ZERO: existing Shabbat content covers logistics (shabbat-guide.md) and what's-open (whats-open-on-shabbat.md) but NO guide on finding/attending a Shabbat dinner as a tourist. Viator has a dedicated Jerusalem Shabbat dinner product; GYG lists experiences; Chabad Houses offer free Shabbat meals; hotel programs (King David Jerusalem) offer commercial packages.
+
+False leads eliminated (all dedup-verified):
+  - india-to-israel-guide: BACKLOG iter230 (line 599) + iter430 (line 1061) — initially missed due to Python \| regex bug; confirmed via substring check
+  - israel-for-french-travelers: BACKLOG iter465 (line 1082) + iter580 duplicate (line 1145)
+  - apollonia-national-park standalone guide: SHIPPED iter282 — fully covered in herzliya-guide.md with dedicated INPA sections, FAQs, visitor info, hours; not a gap
+  - golan-heights-cycling: BACKLOG iter335 (already added as P3 item)
+  - tower-of-david-night-spectacular: SHIPPED — tower-of-david-guide.md description explicitly mentions "Night Spectacular" with dedicated CTA; not a gap
+
+Saturation: ~90%+ of high-value English content gaps now in BACKLOG or SHIPPED. 2 net-new from ~40 candidates checked is consistent with pass #118 (2 items) and pass #119 (2 items). No code changes. No gate run (research-only iteration).
+Next: iter591 → BUILD (monetization). Top monetization candidate from BACKLOG.
