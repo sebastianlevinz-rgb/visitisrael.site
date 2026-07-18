@@ -1,9 +1,9 @@
 ---
 title: "Transferts aéroport Ben Gourion vers Jérusalem et Tel Aviv"
-description: "Toutes les options depuis l'aéroport Ben Gourion (TLV) : transferts privés, taxis, train, bus 485 et sheruts — tarifs indicatifs et infos Shabbat."
+description: "Toutes les options depuis l'aéroport Ben Gourion (TLV) : transferts privés, taxis, train et bus 485 — tarifs indicatifs et infos Shabbat."
 heroImage: /images/regions/jerusalem/hero.jpg
 category: Transport
-updatedAt: 2026-05-27
+updatedAt: 2026-07-18
 ctaHeading: "Réservez un transfert porte-à-porte"
 affiliateCtas:
   - partner: welcomepickups
@@ -24,11 +24,11 @@ affiliateCtas:
     cta: Comparer les transferts
 faqs:
   - question: "Comment aller de l'aéroport Ben Gourion à Tel Aviv ?"
-    answer: "Le train rejoint le centre de Tel Aviv en environ 20 minutes pour quelques dollars (pas le Shabbat). Un taxi coûte environ 30 à 50 USD ; un transfert privé pré-réservé est comparable, mais avec un prix fixe, un accueil personnalisé et sans supplément bagage. Les sheruts (minibus partagés) circulent jour et nuit."
+    answer: "Le train rejoint le centre de Tel Aviv en environ 20 minutes pour quelques dollars (pas le Shabbat). Un taxi coûte environ 30 à 50 USD ; un transfert privé pré-réservé est comparable, mais avec un prix fixe, un accueil personnalisé et sans supplément bagage."
   - question: "Comment aller de l'aéroport Ben Gourion à Jérusalem ?"
     answer: "Le train grande vitesse jusqu'à la gare Yitzhak Navon prend environ 30 minutes (pas le Shabbat). Le bus 485 circule 24h/24 sauf le Shabbat. Un taxi coûte environ 80 USD ; un transfert privé pré-réservé offre un tarif fixe et un chauffeur qui vous attend — idéal pour les arrivées tardives ou les familles avec bagages."
   - question: "Peut-on prendre un transfert aéroport le Shabbat ?"
-    answer: "Oui. Les trains et la plupart des bus s'arrêtent du vendredi après-midi au samedi soir, mais les transferts privés, taxis, applications de covoiturage et sheruts circulent en permanence. Réserver un transfert privé est l'option la plus fiable pour les arrivées pendant le Shabbat."
+    answer: "Oui. Les trains et la plupart des bus s'arrêtent du vendredi après-midi au samedi soir, mais les transferts privés, taxis et applications de covoiturage circulent en permanence. Réserver un transfert privé est l'option la plus fiable pour les arrivées pendant le Shabbat."
   - question: "Est-il moins cher de pré-réserver un transfert ou de prendre un taxi ?"
     answer: "Un taxi avec compteur peut revenir moins cher pour un court trajet vers Tel Aviv, mais les transferts privés pré-réservés fixent le prix à l'avance sans supplément bagage, passagers supplémentaires ni tarif nuit ou week-end — souvent plus avantageux et sans stress pour Jérusalem ou les arrivées tardives."
 ---
@@ -43,7 +43,6 @@ Presque toutes les visites en Israël commencent à l'**aéroport Ben Gourion (T
 | **Transfert privé** | prix fixe, porte-à-porte | prix fixe, porte-à-porte | Oui |
 | **Taxi** | ~30–50 $ | ~80 $ | Oui |
 | **Bus 485** | — | ~1 h, économique | Non |
-| **Sherut** | partagé, économique | partagé, économique | Oui |
 
 ## Transferts privés — l'option sans stress
 
@@ -53,9 +52,9 @@ Un **transfert privé pré-réservé** met à votre disposition un chauffeur qui
 
 Israel Railways relie l'aéroport au centre de [Tel Aviv](/tel-aviv) en ~20 minutes et à [Jérusalem](/jerusalem) (Yitzhak Navon) en ~30 — pour seulement quelques dollars avec une [carte Rav-Kav](/fr/transportation). La contrainte : **pas de service le Shabbat** (du vendredi après-midi au samedi soir) ni les jours fériés.
 
-## Taxis, sheruts et bus 485
+## Taxis et bus 485
 
-Les taxis de l'aéroport sont à compteur (la file est gérée par l'application Gett). Les **sheruts** sont des minibus partagés qui circulent 24h/24, Shabbat compris. Le **bus 485** dessert Jérusalem 24h/24 sauf le Shabbat. Tout est détaillé dans notre [guide des transports](/fr/transportation).
+Les taxis de l'aéroport sont à compteur (la file est gérée par l'application Gett). Le **bus 485** dessert Jérusalem 24h/24 sauf le Shabbat. Tout est détaillé dans notre [guide des transports](/fr/transportation).
 
 ## Et la suite du séjour
 
