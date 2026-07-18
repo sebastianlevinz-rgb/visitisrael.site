@@ -9323,3 +9323,15 @@ Gate: pnpm check 0 errors; build 774 pages (+1 from 773); 1085/1085 e2e pass (+1
 Ship: committed to master a83b3e7, pushed. Branch auto/belvoir-fortress-guide deleted.
 Prod: CI in_progress at push time — consistent with prior success pattern.
 Next: iter604 → REVIEW (604%5==4).
+
+## 2026-07-18T04:45Z · iter 604 · REVIEW · review-604-meta-fix
+What: REVIEW pass — audited iters 601–603 (israel-vs-albania, soreq-cave-guide, belvoir-fortress). Checks: title ≤65 chars, desc ≤160 chars, H1 count in body, internal links resolve, hero images exist, no fabricated ratings/prices/reviews.
+
+Results:
+- israel-vs-albania: DEFECT — title 68 chars (3 over limit). Fixed: removed "Mediterranean" → 54 chars. All 15 internal links resolve; 2 images exist; 0 H1s; no fabricated data; ETA-IL + El Al direct TLV→TIA claims appropriately qualified with "approximately" and evergreen advisory links.
+- soreq-cave-guide: DEFECT — description 170 chars (10 over limit). Fixed: trimmed "the" from opening + reworded ending "Hours, tickets, tips and combo day-trip ideas." → "Tickets, hours, tips and day-trip ideas." → 160 chars exactly. All 10 internal links (with duplicates) resolve; 2 images exist; 0 H1s; INPA pass honesty framing preserved.
+- belvoir-fortress: DEFECT — description 166 chars (6 over limit). Fixed: removed "practical" from "practical tips" → 156 chars. All 10 internal links (with duplicates) resolve; 3 images exist; 0 H1s; no fabricated data; "voluntarily surrendered" historical framing preserved.
+
+Gate: pnpm check 0 errors; build 774 pages (unchanged); 1085/1085 e2e pass.
+Ship: 1d8e6a0; pushed to master. CI in_progress at push time; consistent with prior success pattern.
+Next: iter605 → RESEARCH (pass #123, 605%5==0).

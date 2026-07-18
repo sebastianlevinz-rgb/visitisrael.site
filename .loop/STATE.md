@@ -1,13 +1,15 @@
 # LOOP STATE
 
-- iteration: 603
-- lastMode: BUILD (seo-content, technical fallthrough)
-- lastItem: belvoir-fortress
-- lastResult: SHIPPED a83b3e7 · pnpm check 0 errors · 774 pages (+1 from 773) · 1085/1085 e2e pass · CI in_progress (consistent with prior pattern) · /belvoir-fortress "Belvoir Fortress (Kokhav HaYarden): Complete Visitor Guide (2026)" — P2/S seo-content gap filled; Israel's best-preserved Crusader castle, 500m above Jordan Valley; Knights Hospitaller built 1168; survived 18-month Saladin siege (1187-1189); voluntary surrender 1189 (never taken by force); INPA pass valid, ~₪35, car via Route 717 off Route 90; eastern rampart panorama: Jordan Valley, King Abdullah Bridge, Gilead hills of Jordan visible; combine with Beit She'an (20km south) + Sachne springs. 7 FAQs. CTAs: GYG Jordan Valley tours + DiscoverCars + Booking.com Tiberias. Cross-links: beit-shean-guide (upgraded See also), golan-heights-guide, akko-acre-guide, israel-national-parks-pass, galilee. Footer +1 link. Technical category fully SHIPPED → fell through to seo-content.
-- nextRotationCategory: 603%5==3 → BUILD (technical). 604%5==4 → REVIEW.
+- iteration: 604
+- lastMode: REVIEW
+- lastItem: review-604-meta-fix
+- lastResult: SHIPPED 1d8e6a0 · pnpm check 0 errors · 774 pages (unchanged) · 1085/1085 e2e pass · CI in_progress (consistent with prior pattern) · Audited iters 601–603 (israel-vs-albania, soreq-cave-guide, belvoir-fortress). Defects found and fixed: (1) israel-vs-albania title 68→54 chars (removed "Mediterranean"); (2) soreq-cave-guide desc 170→160 chars (trimmed "the", reworded ending); (3) belvoir-fortress desc 166→156 chars (removed "practical"). All internal links OK (18/18 resolve). All hero images exist. No fabricated data in any of the 3 guides.
+- nextRotationCategory: 604%5==4 → REVIEW (done). 605%5==0 → RESEARCH (pass #123).
 - higgsfieldSpent: 0
-- updatedAt: 2026-07-18T03:55Z
+- updatedAt: 2026-07-18T04:45Z
 - branch context: work on master; feature work on auto/<slug>
+
+Notes: iter604 REVIEW — review-604-meta-fix. SHIPPED 1d8e6a0. pnpm check 0 errors; build 774 pages (unchanged); 1085/1085 e2e pass. Audited iters 601–603: 3 defects found + fixed (title/desc over-length on israel-vs-albania, soreq-cave-guide, belvoir-fortress). All internal links resolve; all hero images exist; no fabricated data. CI in_progress at push time; consistent with prior success pattern. Next: iter605 → RESEARCH (pass #123).
 
 Notes: iter603 BUILD (seo-content, technical fallthrough) — belvoir-fortress. SHIPPED a83b3e7. pnpm check 0 errors; build 774 pages (+1); 1085/1085 e2e pass (+1 from 1084). Technical category completely SHIPPED → fell through to seo-content. /belvoir-fortress fills P2/S gap (confirmed iter350 RESEARCH). Belvoir Fortress = Knights Hospitaller concentric castle built 1168 at 500m above Jordan Valley, near Beit She'an; survived Saladin's 18-month siege (1187-1189); voluntary surrender 1189 (never taken by force); Mamluk demolition 1220 CE; INPA national park today. Honesty enforced: "never taken by force" is accurate but garrison did voluntarily surrender; road condition to site varies — link parks.org.il; no cafe/shop on site; car essential. CI in_progress at push time; consistent with prior success pattern. Next: iter604 → REVIEW.
 
