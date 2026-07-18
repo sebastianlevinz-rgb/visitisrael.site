@@ -291,13 +291,12 @@ const ROUTES: Record<string, RouteGuide> = {
     fromName: 'Ben Gurion Airport',
     title: 'Ben Gurion Airport to Jerusalem: Train, Bus, Taxi & Transfer Compared',
     description:
-      'Ben Gurion Airport to Jerusalem: express train (A1), bus 485, sherut, private transfer and rental car compared — duration, cost and Shabbat options.',
+      'Ben Gurion Airport to Jerusalem: express train (A1), bus 485, private transfer and rental car compared — duration, cost and Shabbat options.',
     intro:
       'Ben Gurion Airport sits about 50 km from Jerusalem by road, and Israel’s high-speed rail link has made the journey faster than ever — around 22 minutes to Jerusalem’s underground Yitzhak Navon station when the line is running. If you arrive on Shabbat, the calculus changes entirely. Here is the honest comparison across every realistic option.',
     rows: [
       { option: 'Express train (A1 line)', duration: '~22–30 min', cost: '₪30–40 (~$8–11)', frequency: 'Every 30 min (weekdays)', shabbat: 'No' },
       { option: 'Intercity bus (485)', duration: '50–70 min', cost: '₪25–35 (~$7–10)', frequency: 'Frequent (24h except Shabbat)', shabbat: 'No' },
-      { option: 'Shared taxi (sherut)', duration: '45–70 min', cost: '₪100–140/person', frequency: '24 h (less frequent at night)', shabbat: 'Yes' },
       { option: 'Private taxi / transfer', duration: '30–50 min', cost: '₪300–450 (~$82–123)', frequency: 'On demand', shabbat: 'Yes' },
       { option: 'Rental car (drive)', duration: '~40–55 min', cost: 'Fuel + rental', frequency: 'Anytime', shabbat: 'Yes' },
     ],
@@ -305,9 +304,8 @@ const ROUTES: Record<string, RouteGuide> = {
       '**Arriving on a weekday with light luggage:** the **A1 express train** — fastest, cheapest, no traffic risk; alight at Yitzhak Navon underground station (city centre) or Jerusalem Malha (south).',
       '**Budget traveller, any weekday:** **Bus 485** runs 24 hours (not on Shabbat) from the airport bus terminal for roughly ₪25–35; slower but the cheapest option.',
       '**Arriving on Shabbat or with family and luggage:** a **pre-booked private transfer** offers a fixed price, a waiting driver, and runs any day or hour — well worth it compared to hunting for a taxi at 2am.',
-      '**Small group (3–4 people):** a **shared sherut** runs around the clock and splits costs — roughly comparable to a private taxi once you divide the fare.',
     ],
-    note: 'The **A1 express train** runs from the airport terminal to **Yitzhak Navon station** (Jerusalem city centre, underground) in roughly 22–30 minutes, stopping also at **Yad Kennedy** and **Malha**. It does NOT run on **Shabbat** (Friday afternoon through Saturday night). The **Bus 485** departs from the arrivals hall bus terminal; it runs every 20–30 minutes during the day, hourly overnight, and stops completely for Shabbat. On Shabbat or late at night, your reliable options are a pre-booked transfer, a private taxi, or a sherut (shared taxi) — all available 24/7 but at higher cost. Always verify train and bus schedules directly before travel.',
+    note: 'The **A1 express train** runs from the airport terminal to **Yitzhak Navon station** (Jerusalem city centre, underground) in roughly 22–30 minutes, stopping also at **Yad Kennedy** and **Malha**. It does NOT run on **Shabbat** (Friday afternoon through Saturday night). The **Bus 485** departs from the arrivals hall bus terminal; it runs every 20–30 minutes during the day, hourly overnight, and stops completely for Shabbat. On Shabbat or late at night, your reliable options are a pre-booked private transfer or a metered taxi. Always verify train and bus schedules directly before travel.',
     cta: { partner: 'getyourguide', text: 'Prefer a guided first day? Combine your airport arrival with a Jerusalem city tour — pick-up arrangements available from many operators.', query: 'Jerusalem city tour from airport', cta: 'Browse Jerusalem tours' },
     faqs: [
       {
@@ -323,7 +321,7 @@ const ROUTES: Record<string, RouteGuide> = {
       {
         question: 'How do I get from Ben Gurion Airport to Jerusalem on Shabbat?',
         answer:
-          'The train and the 485 bus both stop for Shabbat (from Friday afternoon to Saturday night). On Shabbat your options are a pre-booked private transfer, a metered taxi from the taxi rank, or a sherut (shared taxi) — all operate 24/7 at higher fares than weekday public transport.',
+          'The train and the 485 bus both stop for Shabbat (from Friday afternoon to Saturday night). On Shabbat your options are a pre-booked private transfer or a metered taxi from the taxi rank — both available around the clock at higher fares than weekday public transport.',
       },
       {
         question: 'What is the Ben Gurion Airport express train?',
@@ -346,29 +344,28 @@ const ROUTES: Record<string, RouteGuide> = {
     heroSlug: 'tel-aviv',
     title: 'Ben Gurion Airport to Tel Aviv: Train, Bus, Taxi & Transfer Compared',
     description:
-      'Ben Gurion Airport to Tel Aviv: direct train, sherut, private taxi and transfer compared — duration, cost and what runs on Shabbat.',
+      'Ben Gurion Airport to Tel Aviv: direct train, private taxi and transfer compared — duration, cost and what runs on Shabbat.',
     intro:
       'Ben Gurion Airport is about 20 km from central Tel Aviv, and the train makes it a genuinely quick trip — around 20 minutes to Tel Aviv HaShalom or HaHagana stations on a normal weekday. The catch is Shabbat, when the train stops and your options narrow to taxis and pre-booked transfers. Here is the honest rundown.',
     rows: [
       { option: 'Train (Israel Railways)', duration: '~20–25 min', cost: '₪18–25 (~$5–7)', frequency: 'Every 15–30 min', shabbat: 'No' },
       { option: 'Intercity bus', duration: '30–50 min', cost: '₪18–25 (~$5–7)', frequency: 'Regular', shabbat: 'No' },
-      { option: 'Shared taxi (sherut)', duration: '30–45 min', cost: '₪80–100/person', frequency: '24 h', shabbat: 'Yes' },
       { option: 'Private taxi / transfer', duration: '25–45 min', cost: '₪150–260 (~$41–71)', frequency: 'On demand', shabbat: 'Yes' },
       { option: 'Rental car (drive)', duration: '~25–35 min', cost: 'Fuel + rental', frequency: 'Anytime', shabbat: 'Yes' },
     ],
     best: [
       '**Arriving on a weekday:** the **train** — about 20 minutes to HaShalom or HaHagana stations, cheap and immune to coastal motorway traffic jams. Connects to the Tel Aviv Light Rail for onward travel.',
       '**On a tight budget:** the **intercity bus** costs the same as the train and is a fine alternative if there is no direct train slot.',
-      '**Arriving on Shabbat or at night with luggage:** a **pre-booked private transfer** — fixed price, waiting driver, no surge pricing. Alternatively a sherut (shared taxi) runs 24/7 but fills up and can involve a wait.',
+      '**Arriving on Shabbat or at night with luggage:** a **pre-booked private transfer** — fixed price, waiting driver, no surge pricing. A metered taxi from the taxi rank is the alternative if you have not pre-booked.',
       '**Planning to explore outside Tel Aviv:** a **rental car** from the airport terminal is the most flexible option if you will drive during your trip.',
     ],
-    note: 'The **train** from Ben Gurion Airport runs directly to **Tel Aviv HaHagana**, **HaShalom**, **Savidor/Central** and **University** stations — the full chain of city stations — every 15–30 minutes during the day. It does NOT run on **Shabbat** (Friday afternoon to Saturday night). The terminal has a **sherut** (shared taxi) area in arrivals; standard sherut fares to Tel Aviv are fixed, but check current rates at the desk. Metered taxis are also available at the taxi rank — expect ₪150–260 depending on destination, hour and luggage surcharges. Always verify train schedules at rail.co.il before travel.',
+    note: 'The **train** from Ben Gurion Airport runs directly to **Tel Aviv HaHagana**, **HaShalom**, **Savidor/Central** and **University** stations — the full chain of city stations — every 15–30 minutes during the day. It does NOT run on **Shabbat** (Friday afternoon to Saturday night). Metered taxis are available at the taxi rank in arrivals — expect ₪150–260 depending on destination, hour and luggage surcharges. Always verify train schedules at rail.co.il before travel.',
     cta: { partner: 'getyourguide', text: 'Heading into Tel Aviv for the first time? A walking tour is a great way to get oriented on arrival day.', query: 'Tel Aviv walking tour city centre', cta: 'Browse Tel Aviv tours' },
     faqs: [
       {
         question: 'How do I get from Ben Gurion Airport to Tel Aviv?',
         answer:
-          'The train is the fastest and cheapest option on weekdays — about 20 minutes to Tel Aviv HaShalom or HaHagana stations for roughly ₪18–25. On Shabbat the train stops, so use a sherut (shared taxi), a pre-booked private transfer, or a metered taxi.',
+          'The train is the fastest and cheapest option on weekdays — about 20 minutes to Tel Aviv HaShalom or HaHagana stations for roughly ₪18–25. On Shabbat the train stops, so use a pre-booked private transfer or a metered taxi from the taxi rank.',
       },
       {
         question: 'How long does the train from Ben Gurion Airport to Tel Aviv take?',
@@ -383,7 +380,7 @@ const ROUTES: Record<string, RouteGuide> = {
       {
         question: 'Does the Ben Gurion Airport train run on Shabbat?',
         answer:
-          'No. Israel Railways service stops from Friday afternoon to Saturday night. On Shabbat, use a sherut (shared taxi from the arrivals sherut area), a pre-booked transfer, or a metered taxi.',
+          'No. Israel Railways service stops from Friday afternoon to Saturday night. On Shabbat, use a pre-booked private transfer or a metered taxi from the arrivals taxi rank.',
       },
     ],
     related: [

@@ -1,9 +1,9 @@
 ---
 title: "Flughafentransfer Ben Gurion nach Jerusalem und Tel Aviv"
-description: "Alle Optionen vom Flughafen Ben Gurion (TLV): Privattransfer, Taxi, Zug, Bus 485 und Sheruts — mit Preisangaben und Schabbat-Hinweisen."
+description: "Alle Optionen vom Flughafen Ben Gurion (TLV): Privattransfer, Taxi, Zug und Bus 485 — mit Preisangaben und Schabbat-Hinweisen."
 heroImage: /images/regions/jerusalem/hero.jpg
 category: Transport
-updatedAt: 2026-05-27
+updatedAt: 2026-07-18
 ctaHeading: "Flughafentransfer direkt zum Hotel buchen"
 affiliateCtas:
   - partner: welcomepickups
@@ -24,11 +24,11 @@ affiliateCtas:
     cta: Transfers vergleichen
 faqs:
   - question: "Wie kommt man vom Flughafen Ben Gurion nach Tel Aviv?"
-    answer: "Der Zug erreicht das Zentrum von Tel Aviv in etwa 20 Minuten für wenige Dollar (nicht am Schabbat). Ein Taxi kostet rund 30 bis 50 USD; ein vorgebuchter Privattransfer ist ähnlich, bietet aber einen Festpreis, persönliche Abholung und keine Gepäckzuschläge. Sheruts (Sammelminibusse) fahren tagsüber und nachts."
+    answer: "Der Zug erreicht das Zentrum von Tel Aviv in etwa 20 Minuten für wenige Dollar (nicht am Schabbat). Ein Taxi kostet rund 30 bis 50 USD; ein vorgebuchter Privattransfer ist ähnlich, bietet aber einen Festpreis, persönliche Abholung und keine Gepäckzuschläge."
   - question: "Wie kommt man vom Flughafen Ben Gurion nach Jerusalem?"
     answer: "Der Hochgeschwindigkeitszug zum Bahnhof Yitzhak Navon dauert etwa 30 Minuten (nicht am Schabbat). Bus 485 fährt 24 Stunden außer am Schabbat. Ein Taxi kostet rund 80 USD; ein vorgebuchter Privattransfer bietet einen Festpreis und einen wartenden Fahrer — ideal für späte Ankünfte oder Familien mit Gepäck."
   - question: "Kann man am Schabbat einen Flughafentransfer nehmen?"
-    answer: "Ja. Züge und die meisten Busse fahren von Freitagnachmittag bis Samstagabend nicht, aber Privattransfers, Taxis, Ride-Hailing-Apps und Sheruts sind durchgehend verfügbar. Ein vorgebuchter Privattransfer ist die zuverlässigste Option für Ankünfte am Schabbat."
+    answer: "Ja. Züge und die meisten Busse fahren von Freitagnachmittag bis Samstagabend nicht, aber Privattransfers, Taxis und Ride-Hailing-Apps sind durchgehend verfügbar. Ein vorgebuchter Privattransfer ist die zuverlässigste Option für Ankünfte am Schabbat."
   - question: "Ist es günstiger, einen Transfer vorzubuchen oder ein Taxi zu nehmen?"
     answer: "Ein Taxameter-Taxi kann für eine kurze Fahrt nach Tel Aviv günstiger sein, aber vorgebuchte Privattransfers haben einen Festpreis ohne Zuschläge für Gepäck, zusätzliche Passagiere oder Nacht- und Wochenendzeiten — für Jerusalem oder späte Ankünfte oft günstiger und stressfreier."
 ---
@@ -43,7 +43,6 @@ Fast jeder Israelbesuch beginnt am **Flughafen Ben Gurion (TLV)**, rund 15 km s�
 | **Privattransfer** | Festpreis, Tür zu Tür | Festpreis, Tür zu Tür | Ja |
 | **Taxi** | ~30–50 $ | ~80 $ | Ja |
 | **Bus 485** | — | ~1 Std., günstig | Nein |
-| **Sherut** | geteilt, günstig | geteilt, günstig | Ja |
 
 ## Privattransfers — die stressfreie Option
 
@@ -53,9 +52,9 @@ Ein **vorgebuchter Privattransfer** stellt Ihnen einen Fahrer bereit, der Sie im
 
 Israel Railways verbindet den Flughafen mit dem Zentrum von [Tel Aviv](/tel-aviv) in ca. 20 Minuten und mit [Jerusalem](/jerusalem) (Yitzhak Navon) in ca. 30 Minuten — für nur wenige Dollar mit einer [Rav-Kav-Karte](/de/transportation). Der Haken: **kein Betrieb am Schabbat** (Freitagnachmittag bis Samstagabend) und an Feiertagen.
 
-## Taxis, Sheruts und Bus 485
+## Taxis und Bus 485
 
-Flughafentaxis fahren mit Taxameter (die Schlange wird über die App Gett verwaltet). **Sheruts** sind Sammelminibusse, die rund um die Uhr fahren, auch am Schabbat. Der **Bus 485** bedient Jerusalem 24 Stunden außer am Schabbat. Alles ausführlich in unserem [Transportführer](/de/transportation).
+Flughafentaxis fahren mit Taxameter (die Schlange wird über die App Gett verwaltet). Der **Bus 485** bedient Jerusalem 24 Stunden außer am Schabbat. Alles ausführlich in unserem [Transportführer](/de/transportation).
 
 ## Weiteres für Ihre Reise
 
