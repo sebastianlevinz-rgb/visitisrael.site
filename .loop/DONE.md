@@ -1087,3 +1087,4 @@ Value: P2/M seo-content+monetization — timely (inaugural Michelin Guide Israel
 
 ## iter612 · 2026-07-18 · israel-for-czech-travelers · SHIPPED d115f2b
 New /israel-for-czech-travelers — Czech visitors nationality guide. MZV advisory, El Al PRG→TLV flights, ETA-IL, health insurance gap, Type E→H adapter, CZK banking, DROZD registration, Czech-Israeli historical connections. 778 pages; 1087/1087 e2e; 0 errors.
+- iter613 · israel-anzac-heritage · 0a6dd6f · New /israel-anzac-heritage — Israel ANZAC Heritage Trail: Beersheba War Cemetery CWGC, Light Horsemen Memorial, Ottoman Railway Station, Haifa CWGC, Ramla CWGC (~3,000 graves), 31 Oct/25 Apr ANZAC ceremonies, one-day self-drive circuit from Tel Aviv. P2/S seo-content; 307 active P-items.

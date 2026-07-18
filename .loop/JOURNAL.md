@@ -9415,3 +9415,20 @@ Next: iter611 → BUILD (611%5==1; monetization category).
 **Prod:** CI (Lighthouse + CI workflows) in_progress at push time — consistent with prior success pattern.
 **BACKLOG:** [P3] israel-for-czech-travelers → [SHIPPED iter612 → d115f2b]. 309 → 308 active P-items.
 **Next:** iter613 → BUILD (613%5==3; tools category).
+
+## 2026-07-18T13:55Z · iter 613 · BUILD (seo-content — tools fallthrough) · israel-anzac-heritage
+
+**Item:** `/israel-anzac-heritage` — Israel ANZAC Heritage Trail guide (P2/S, iter320 research). 613%5==3 → BUILD (tools); tools category had only [STALE DUPLICATE] shabbat-time-tool (overlaps with iter78 shabbat-calendar + iter138 shabbat-countdown). Fell through monetization (all shipped) → seo-content P2/S.
+
+**Content implemented:** New standalone guide `src/content/guides/israel-anzac-heritage.md`. Battle of Beersheba historical narrative (31 Oct 1917; 4th Australian Light Horse Brigade; 800 horses; last successful cavalry charge in British military history; wells captured intact; road to Jerusalem opened). 5 sites: (1) Beersheba War Cemetery CWGC (~1,241 graves; Victoria Cross Garden; dawn service 31 Oct + 25 Apr); (2) Light Horsemen Memorial (HaNegev Park bronze statue); (3) Beersheba Ottoman Railway Station (1915; Hejaz railway extension); (4) Haifa War Cemetery CWGC (~300 graves; combine with Haifa day trip); (5) Ramla War Cemetery CWGC (~3,000 graves; largest CWGC site in Israel; combined with Ramla old city). One-day self-drive circuit table (Ramla → Beer-Sheva → return TLV). ANZAC ceremonies section (31 Oct + 25 Apr; Australian Embassy contact; RSL groups). Planning section: Beer-Sheva cross-link, road-trip integration, CWGC family-history database, safety cross-link. Events schema: 31 Oct 2026 ANZAC dawn service. 3 CTAs: GYG (ANZAC heritage day tours), DiscoverCars (self-drive circuit), Booking (Beer-Sheva hotels). 7 FAQs. Link fix required during gate: /wadi-nisnas-haifa → /haifa/wadi-nisnas (attraction URL, not guide path).
+
+**Cross-links wired:**
+- `beer-sheva-guide.md`: ANZAC section — added paragraph pointing to /israel-anzac-heritage for full multi-site circuit
+- `day-trips-from-tel-aviv.md`: added Beer-Sheva/ANZAC as day-trip option (1 hr by train)
+- Smoke + a11y tests extended (+1 route each)
+
+**Gate:** pnpm check 0 errors ✓ · pnpm build 779 pages (+1 from 778) ✓ · 1089/1089 e2e pass ✓ (after link fix re-run)
+**Ship:** committed 0a6dd6f to master, pushed to origin. CI in_progress at push time — consistent with prior success pattern across 612 prior iterations.
+**Prod:** Vercel deploy triggered on push; CI in_progress (normal).
+**BACKLOG:** [P2] israel-anzac-heritage → [SHIPPED iter613 → 0a6dd6f]. 308 → 307 active P-items.
+**Next:** iter614 → REVIEW (614%5==4).
