@@ -1,6 +1,6 @@
 ---
 title: 'Israel ANZAC Heritage Trail: Beersheba Charge & WWI Sites Guide'
-description: 'Complete guide to the Israel ANZAC heritage trail — Beersheba War Cemetery, the 1917 Light Horse Charge, CWGC cemeteries in Haifa and Ramla, and the ANZAC Day dawn service.'
+description: "Complete guide to Israel's ANZAC heritage: Beersheba War Cemetery, 1917 Light Horse Charge, CWGC cemeteries in Haifa and Ramla, ANZAC Day service."
 heroImage: /images/regions/negev/hero.jpg
 category: History
 updatedAt: 2026-07-18
