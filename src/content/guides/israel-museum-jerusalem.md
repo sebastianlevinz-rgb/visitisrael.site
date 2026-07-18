@@ -128,7 +128,7 @@ The audio commentary is helpful in identifying specific structures. Walking the 
 
 ## Combining the Israel Museum with other Jerusalem sites
 
-The museum sits adjacent to the **Knesset** (Israeli parliament) and the **National Library of Israel** — both interesting to walk past even if not entering. The **Bible Lands Museum** (covering ancient Near Eastern civilisations) is a five-minute walk away and makes a natural companion visit for archaeology-focused visitors.
+The museum sits adjacent to the **Knesset** (Israeli parliament) and the **National Library of Israel** — both interesting to walk past even if not entering. The **[Schottenstein National Campus for the Archaeology of Israel](/schottenstein-campus-jerusalem)** — the IAA's new purpose-built museum — opened in 2026 on the same street and is a direct complement to the Israel Museum: where the Israel Museum presents a curated selection, the Schottenstein Campus holds the state's full custody collection including 15,000 Dead Sea Scroll fragments. The **Bible Lands Museum** (covering ancient Near Eastern civilisations) is a five-minute walk away and makes a natural companion visit for archaeology-focused visitors.
 
 From the Israel Museum, it is a short taxi or bus ride to:
 

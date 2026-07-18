@@ -51,7 +51,7 @@ Jerusalem holds a concentration of museum collections that is extraordinary by a
 
 Jerusalem's museums cluster in two areas, making route planning straightforward:
 
-**Givat Ram cultural campus** (western Jerusalem): the Israel Museum, Bible Lands Museum Jerusalem (BLMJ) and the new National Library of Israel all sit within a ten-minute walk of each other on Ruppin Boulevard, adjacent to the Knesset and the Wohl Rose Garden. This cluster takes one to two full days.
+**Givat Ram cultural campus** (western Jerusalem): the Israel Museum, the **[Schottenstein National Campus for the Archaeology of Israel](/schottenstein-campus-jerusalem)** (IAA's new purpose-built museum, opened 2026), Bible Lands Museum Jerusalem (BLMJ), and the National Library of Israel all sit within a ten-minute walk of each other on Ruppin Boulevard, adjacent to the Knesset and the Wohl Rose Garden. This cluster takes two to three full days if explored thoroughly.
 
 **Old City and East Jerusalem**: the Tower of David Museum (just inside Jaffa Gate) and the Rockefeller Archaeological Museum (near Damascus Gate) are natural additions to an Old City itinerary. Both take under two hours each and combine well.
 
@@ -167,8 +167,8 @@ This is the most important planning note. Yad Vashem is emotionally demanding, a
 
 **Day 1 — Givat Ram cultural campus:**
 - Morning (3–4h): Israel Museum — Shrine of the Book, Holyland Model, select archaeology galleries
-- Afternoon (2h): Bible Lands Museum Jerusalem
-- Optional late afternoon: National Library of Israel (architecture + current exhibition)
+- Afternoon (2–3h): [Schottenstein National Campus](/schottenstein-campus-jerusalem) — IAA collection, Dead Sea Scroll fragments, conservation lab windows
+- Optional late afternoon: Bible Lands Museum Jerusalem or National Library of Israel (architecture + current exhibition)
 
 **Day 2 — Yad Vashem:**
 - Full day: Holocaust History Museum + Children's Memorial + Hall of Names + café break
@@ -186,7 +186,7 @@ Add it as a half-day alongside city-centre errands, the Mahane Yehuda market, or
 
 ## Getting around between museums
 
-- **Givat Ram cluster** (Israel Museum, BLMJ, National Library): these are within walking distance of each other. Bus lines 9 and 17 from the city centre stop near the cluster. A taxi from the Old City takes about 15 minutes.
+- **Givat Ram cluster** (Israel Museum, Schottenstein Campus, BLMJ, National Library): these are within walking distance of each other. Bus lines 9 and 17 from the city centre stop near the cluster. A taxi from the Old City takes about 15 minutes.
 - **Yad Vashem**: accessible by Light Rail (Red Line) to Yad Vashem station + short walk, or bus 27 from the Central Bus Station. Taxi from city centre 15–20 minutes.
 - **Tower of David**: inside Jaffa Gate — walk from the Old City's western entrance.
 - **Rockefeller**: 5-minute walk from Damascus Gate; accessible by bus or taxi from anywhere in Jerusalem.
