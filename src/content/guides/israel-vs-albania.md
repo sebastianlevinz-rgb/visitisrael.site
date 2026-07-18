@@ -1,5 +1,5 @@
 ---
-title: 'Israel vs Albania: Which Mediterranean Destination Should You Visit?'
+title: 'Israel vs Albania: Which Destination Should You Visit?'
 description: 'Israel or Albania? Compare costs, beaches, history, visas, nightlife and flight logistics to decide which Mediterranean destination suits your next trip.'
 heroImage: /images/regions/tel-aviv/beaches.jpg
 category: Compare

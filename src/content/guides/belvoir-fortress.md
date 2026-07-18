@@ -1,6 +1,6 @@
 ---
 title: "Belvoir Fortress (Kokhav HaYarden): Complete Visitor Guide (2026)"
-description: "Visit Belvoir Fortress — Israel's best-preserved Crusader castle, perched 500m above the Jordan Valley. History, practical tips, views, and the Beit She'an combo day."
+description: "Visit Belvoir Fortress — Israel's best-preserved Crusader castle, perched 500m above the Jordan Valley. History, tips, views, and the Beit She'an combo day."
 heroImage: /images/regions/galilee/hero.jpg
 category: Destinations
 updatedAt: 2026-07-18

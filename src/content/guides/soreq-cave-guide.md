@@ -1,6 +1,6 @@
 ---
 title: 'Soreq (Avshalom) Stalactite Cave: Complete Visitor Guide (2026)'
-description: "Visit the Avshalom Stalactite Cave — Israel's largest limestone cave. Guided tours, 22°C year-round, 40 min from Jerusalem. Hours, tickets, tips and combo day-trip ideas."
+description: "Visit Avshalom Stalactite Cave — Israel's largest limestone cave. Guided tours, 22°C year-round, 40 min from Jerusalem. Tickets, hours, tips and day-trip ideas."
 heroImage: /images/regions/jerusalem/hero.jpg
 category: Destinations
 updatedAt: 2026-07-18
