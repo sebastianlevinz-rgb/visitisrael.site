@@ -9303,3 +9303,9 @@ Results:
 Gate: pnpm check 0 errors; build 771 pages (unchanged); 1082/1082 e2e pass.
 Ship: squash-merged to master 3e77441, pushed. Branch auto/review-599-meta-fix deleted. CI in_progress at push time; consistent with prior success pattern.
 Next: iter600 → RESEARCH (pass #122, 600%5==0).
+
+## 2026-07-18T02:00Z · iter 601 · BUILD (seo-content, monetization fallthrough) · israel-vs-albania
+What: New /israel-vs-albania destination comparison guide. P3/S seo-content item confirmed triple-zero gap in iter595 RESEARCH. El Al direct TLV→TIA (2.5–3 hrs) makes this a genuine routable pairing; zero dedicated "Israel vs Albania" content existed anywhere in the comparison series (israel-vs-jordan, israel-vs-turkey, eilat-vs-aqaba). Monetization category had no active items → fell through to seo-content per playbook rotation. Content: 8-dimension comparison table (cost, beaches, history, visa, nightlife, infrastructure, flight logistics, best season); Choose-Israel / Choose-Albania / do-both sections; diplomatic context (Albania first Muslim-majority country to adopt IHRA antisemitism definition March 2020; Besa code + Holocaust rescue history); 7 FAQs; 3 CTAs (Booking Israel, Booking Albania, DiscoverCars). 2 broken internal links caught + fixed during e2e gate: /sea-of-galilee → /sea-of-galilee-guide; /how-many-days-in-israel → /israel-how-many-days. Cross-links: Footer (new li after israel-vs-turkey), israel-vs-jordan.md series footer, first-time-in-israel.md comparison alternatives.
+Gate: pnpm check 0 errors; build 772 pages (+1 from 771); 1082/1082 e2e pass (broken-links test caught 2 bad hrefs; fixed; re-gated; clean).
+Ship: committed to master c348981, pushed.
+Prod: CI in_progress at push time — consistent with prior success pattern across all 600 prior iterations.
