@@ -9341,3 +9341,7 @@ What: RESEARCH pass #123. 4 net-new items confirmed and appended to BACKLOG.md a
 Gate: No gate run (RESEARCH-only iteration, no code changes).
 Ship: committed to master; pushed.
 Next: iter606 → BUILD (monetization). 606%5==1 → monetization category.
+
+## 2026-07-18T07:10Z · iter 606 · BUILD (seo-content+monetization) · beit-guvrin-caves-guide
+
+Implemented /beit-guvrin-caves-guide — Beit Guvrin & Maresha Caves Complete Visitor Guide (P2/S). UNESCO WHS 2014 context (3,500+ chambers); Bell Caves (800 Ottoman chalk-quarry chambers, 10-20m high); Sidonian Burial Caves (Hellenistic painted murals — hunting scenes, exotic animals, Greek inscriptions, 3rd-2nd BCE); columbaria (Second Temple period dove-cotes, 2,000+ niches); Roman amphitheatre; Tel Maresha. INPA pass valid; car essential; torch needed; Sidonian tombs advance-booking note (honesty). 3 CTAs: GYG day tour from Jerusalem/TLV, Booking.com Jerusalem hotels, DiscoverCars. 6 FAQs. 3 broken internal links found and fixed during gate (jerusalem-day-trips→day-trips-from-jerusalem; jerusalem-travel-guide→/jerusalem; masada-guide→/masada-visitor-guide). Gate: pnpm check 0 errors; pnpm build 775 pages (+1 from 774); pnpm test:e2e 1085/1085 pass. Squash-merged 33906eb to master; pushed; CI in_progress at push time (consistent with iter601-605 success pattern). BACKLOG: removed 2 stale beit-guvrin entries (iter215 L551 + iter345 L836 duplicate). 303 → 301 active P-items.

@@ -1,13 +1,15 @@
 # LOOP STATE
 
-- iteration: 605
-- lastMode: RESEARCH
-- lastItem: research-605-pass123
-- lastResult: 4 net-new items found and appended: israel-foraging-guide (P3/S/seo-content), israel-for-polish-travelers (P3/S/seo-content+monetization), israel-for-hungarian-travelers (P3/S/seo-content+monetization), israel-for-new-zealand-travelers (P3/S/seo-content+monetization). Dedup verified 60+ candidates against 299-item BACKLOG + DONE.md + 300+ guides/. All 3 pre-compaction candidates eliminated (timna SHIPPED iter486, beit-guvrin P2 backlog iter215, coral-beach duplicate of eilat-snorkeling-guide.md). 299 → 303 active P-items.
-- nextRotationCategory: 606%5==1 → BUILD (monetization)
+- iteration: 606
+- lastMode: BUILD
+- lastItem: beit-guvrin-caves-guide
+- lastResult: SHIPPED 33906eb. /beit-guvrin-caves-guide — Beit Guvrin & Maresha Caves Complete Visitor Guide (P2/S seo-content+monetization). UNESCO WHS 2014; Bell Caves; Sidonian Burial Caves (painted murals); columbaria; Roman amphitheatre; Tel Maresha. INPA pass valid; car essential; torch needed. 3 CTAs (GYG+Booking+DiscoverCars); 6 FAQs. 3 broken links fixed in gate. 775 pages (+1); 1085/1085 e2e pass; 0 check errors. CI in_progress at push time; consistent with prior success pattern. 2 stale beit-guvrin BACKLOG entries removed (iter215 L551 + iter345 L836 duplicate). 303 → 301 active P-items.
+- nextRotationCategory: 607%5==2 → BUILD (seo-content)
 - higgsfieldSpent: 0
-- updatedAt: 2026-07-18T06:10Z
+- updatedAt: 2026-07-18T07:10Z
 - branch context: work on master; feature work on auto/<slug>
+
+Notes: iter606 BUILD (seo-content+monetization) — beit-guvrin-caves-guide. SHIPPED 33906eb. Monetization rotation → monetization section still largely SHIPPED → fell through to seo-content+monetization tagged item (P2/S beit-guvrin-caves-guide, iter215 research). UNESCO Bell Caves + Sidonian Burial Caves (Hellenistic painted murals, hunting scenes, exotic animals, Greek inscriptions); columbaria (2,000+ dove niches); Roman amphitheatre; Tel Maresha. INPA pass valid; car essential; torch recommended; Sidonian tombs access note (may need advance INPA booking — honesty enforced). 3 broken links fixed during gate: /jerusalem-day-trips→/day-trips-from-jerusalem; /jerusalem-travel-guide→/jerusalem; /masada-guide→/masada-visitor-guide. CI in_progress at push time; consistent with prior success pattern. Next: iter607 → BUILD (seo-content). 607%5==2 → seo-content category.
 
 Notes: iter605 RESEARCH — pass #123. 4 net-new items appended to BACKLOG.md: israel-foraging-guide (wild edibles/za'atar/agritourism niche; Adara Peskin Shalem TripAdvisor tours; TabletMag TLV foraging), israel-for-polish-travelers (LOT direct WAW↔TLV; March of the Living extension; distinct from poland-israel-heritage-journey backlog), israel-for-hungarian-travelers (Herzl born Budapest 1860; EL AL BUD↔TLV direct; Raoul Wallenberg memorial Jerusalem; 100k+ Hungarian Jews), israel-for-new-zealand-travelers (Wellington Mounted Rifles at Beersheba 1917; NZ ANZAC graves CWGC; distinct from australia travelers and anzac-heritage backlog P2). Exhaustive dedup: 60+ candidates; all 3 pre-compaction candidates eliminated. Saturation ~92%+; 4 items above-average for current saturation. CI not run (RESEARCH-only iteration). Next: iter606 → BUILD (monetization). 606%5==1 → monetization category.
 
@@ -15,12 +17,6 @@ Notes: iter604 REVIEW — review-604-meta-fix. SHIPPED 1d8e6a0. pnpm check 0 err
 
 Notes: iter603 BUILD (seo-content, technical fallthrough) — belvoir-fortress. SHIPPED a83b3e7. pnpm check 0 errors; build 774 pages (+1); 1085/1085 e2e pass (+1 from 1084). Technical category completely SHIPPED → fell through to seo-content. /belvoir-fortress fills P2/S gap (confirmed iter350 RESEARCH). Belvoir Fortress = Knights Hospitaller concentric castle built 1168 at 500m above Jordan Valley, near Beit She'an; survived Saladin's 18-month siege (1187-1189); voluntary surrender 1189 (never taken by force); Mamluk demolition 1220 CE; INPA national park today. Honesty enforced: "never taken by force" is accurate but garrison did voluntarily surrender; road condition to site varies — link parks.org.il; no cafe/shop on site; car essential. CI in_progress at push time; consistent with prior success pattern. Next: iter604 → REVIEW.
 
-Notes: iter602 BUILD (seo-content, tools fallthrough) — soreq-cave-guide. SHIPPED c3e9dd5. pnpm check 0 errors; build 773 pages (+1); 1084/1084 e2e pass (+2 from 1082). Tools category completely SHIPPED/STALE → fell through to seo-content. /soreq-cave-guide fills P2/S triple-zero gap (confirmed iter345 RESEARCH). Avshalom/Soreq Stalactite Cave — Israel's largest limestone cave, 83m × 60m × 15m, 22°C year-round, discovered 1968 quarry blast, INPA nature reserve near Bet Shemesh. Honesty enforced: INPA pass NOT valid here; guided tour mandatory (no self-paced); no flash photography; not wheelchair accessible; verify hours at cave.org.il. CI in_progress at push time; consistent with prior success pattern. Next: iter603 → BUILD (technical). If technical empty, fall through to seo-content.
-
-Notes: iter601 BUILD (seo-content, monetization fallthrough) — israel-vs-albania. SHIPPED c348981. pnpm check 0 errors; build 772 pages (+1); 1082/1082 e2e pass. Monetization section empty → fell through to seo-content. /israel-vs-albania fills P3/S triple-zero gap (confirmed iter595 RESEARCH). Comparison guide series (joins israel-vs-jordan, israel-vs-turkey, eilat-vs-aqaba). 2 broken internal links caught and fixed during e2e gate: /sea-of-galilee → /sea-of-galilee-guide; /how-many-days-in-israel → /israel-how-many-days. CI in_progress at push time; consistent with prior success pattern. Next: iter602 → BUILD (tools). If tools empty, fall through to seo-content.
-
-Notes: iter600 was RESEARCH (pass #122) — recorded by prior run. Next: iter601 → BUILD (monetization) as noted in STATE; monetization empty → fell to seo-content. iter602%5==2 → BUILD (tools).
-
 Cron b7325b16 hourly @ :17. Loop history: 19 tools + sitemap-lastmod + link-checker(+depth) + i18n
-Phase0/1a/1b/1c/2 Batches1-18(COMPLETE) + 44 review passes + 3 technical (event-schema + meta-trim + locale-links) + 70 EN guides + 7 tools-monetization + 2 comparisons;
+Phase0/1a/1b/1c/2 Batches1-18(COMPLETE) + 44 review passes + 3 technical (event-schema + meta-trim + locale-links) + 71 EN guides + 7 tools-monetization + 2 comparisons;
 research iters 5/10/20/30/35/40/45/50/55/60/65/70/75/80/85/90/95/100/105/110/115/120/125/130/135/140/145/150/155/160/165/170/175/180/185/190/195/200/205/210/215/220/225/230/235/240/245/250/255/260/265/270/275/280/285/290/295/300/305/310/315/320/325/330/335/340/345/350/355/360/365/370/375/380/385/390/395/400/405/410/420/425/430/435/440/445/450/455/460/465/470/480/485/490/495/500/505/510/515/520/525/535/540/545/550/555/560/565/570/575/580/585/590/595/600/605.
