@@ -1,6 +1,6 @@
 ---
 title: 'Gluten-Free Travel in Israel: Celiac Guide for 2026'
-description: 'Practical gluten-free and celiac travel guide for Israel. Which Israeli dishes are safe, cross-contamination risks, Hebrew phrases, and city-by-city restaurant tips.'
+description: 'Practical gluten-free and celiac travel guide for Israel. Which Israeli dishes are safe, cross-contamination risks, Hebrew phrases and city restaurant tips.'
 heroImage: /images/sub-destinations/jerusalem/mahane-yehuda.jpg
 category: 'Food & Drink'
 updatedAt: 2026-07-18

@@ -1,6 +1,6 @@
 ---
 title: 'Solo Travel in Israel: The Complete 2026 Guide'
-description: 'Everything solo travellers need to plan a trip to Israel — safety, hostels, meeting people, solo-friendly itineraries, Shabbat logistics and honest budget advice.'
+description: 'Everything solo travellers need to plan a trip to Israel — safety, hostels, meeting people, solo-friendly itineraries, Shabbat logistics and budget advice.'
 heroImage: /images/regions/tel-aviv/jaffa.jpg
 category: Planning
 updatedAt: 2026-07-18
