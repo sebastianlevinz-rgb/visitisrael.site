@@ -9362,3 +9362,20 @@ Results:
 Gate: pnpm check 0 errors; build 776 pages (unchanged); 1085/1085 e2e pass.
 Ship: ff57c88; pushed to master. CI in_progress at push time; consistent with prior success pattern.
 Next: iter610 → RESEARCH (pass #124, 610%5==0).
+
+## 2026-07-18 · iter 610 · RESEARCH (pass #124) · research-610-pass-124
+What: RESEARCH pass #124 (610%5==0). Exhaustive dedup of 100+ candidate topics against full BACKLOG.md (~303 P-items pre-pass) + DONE.md + src/content/guides/ (312 files) via python3 strict regex patterns, avoiding false positives from .* over-matching.
+
+Results: 7 net-new items confirmed — strongest yield in passes #118–#124 range.
+- israel-for-czech-travelers (P3, S, seo-content+monetization) — Czech Jewish heritage (Prague Jewish Quarter + Theresienstadt connection); El Al PRG→TLV direct; Czech-Israeli diplomatic warmth unique among EU states.
+- israel-for-romanian-travelers (P3, S, seo-content+monetization) — 750k pre-WWII Romanian Jewish community; 250k+ Israelis of Romanian origin; El Al/TAROM/Wizz OTP→TLV direct; also Romanian Orthodox Christian pilgrims.
+- israel-for-ukrainian-travelers (P3, S, seo-content+monetization) — Ukrainian Jewish diaspora; post-war future market; diaspora routing (no direct KBP→TLV since Feb 2022); October 7 Thai worker parallel for Israeli-Ukrainian ties.
+- israel-for-thai-travelers (P3, S, seo-content+monetization) — Thailand is SE Asia's largest outbound market; tens of thousands of Thai agricultural workers in Israeli kibbutzim; El Al seasonal BKK→TLV; October 7 killed/kidnapped Thai workers.
+- israel-roman-ruins-guide (P3, M, seo-content) — Thematic hub connecting Caesarea + Beit She'an + Avdat + Hamat Gader + Banias etc.; historyhit.com ranks #1 for "Roman ruins in Israel"; no editorial brand has a thematic circuit guide.
+- samaria-sebaste-guide (P3, S, seo-content) — Herodian city Sebastos; Augustus Temple (first eastern Mediterranean); PA Area B (Sebastiyah village); must note guided-access requirement.
+- yodfat-guide (P4, S, seo-content) — Tel Yodfat / Jotapata; Josephus Flavius siege 67 CE; INPA trail near Carmiel; history-buff niche only.
+
+False leads (100+): All rejected candidates confirmed in BACKLOG or SHIPPED. See BACKLOG pass summary line for full list.
+
+No shipping (RESEARCH mode). 303 → 310 active P-items.
+Next: iter611 → BUILD (611%5==1; monetization category).

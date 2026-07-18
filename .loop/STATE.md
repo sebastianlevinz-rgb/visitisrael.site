@@ -1,13 +1,15 @@
 # LOOP STATE
 
-- iteration: 609
-- lastMode: REVIEW
-- lastItem: review-609-meta-fix
-- lastResult: SHIPPED ff57c88. REVIEW pass: audited iter606-608 (beit-guvrin-caves-guide, schottenstein-campus-jerusalem, bga-transfers-sherut-update). 3 defects found and fixed: beit-guvrin desc 162c→156c; schottenstein title 74c→54c + desc 202c→140c; bga-transfers desc still mentioned 'sheruts' after iter608 body removal → fixed for honesty (154c→145c). pnpm check 0 errors; build 776 pages (unchanged); 1085/1085 e2e pass. 300 active P-items (unchanged).
-- nextRotationCategory: 610%5==0 → RESEARCH
+- iteration: 610
+- lastMode: RESEARCH
+- lastItem: research-610-pass-124
+- lastResult: RESEARCH pass #124. 7 net-new items confirmed and added to BACKLOG: israel-for-czech-travelers (P3,S), israel-for-romanian-travelers (P3,S), israel-for-ukrainian-travelers (P3,S), israel-for-thai-travelers (P3,S), israel-roman-ruins-guide (P3,M), samaria-sebaste-guide (P3,S), yodfat-guide (P4,S). 303 → 310 active P-items. Strongest yield in passes #118–#124. Saturation ~93%+. No shipping (RESEARCH mode).
+- nextRotationCategory: 611%5==1 → BUILD (monetization)
 - higgsfieldSpent: 0
-- updatedAt: 2026-07-18T09:45Z
+- updatedAt: 2026-07-18T11:15Z
 - branch context: work on master; feature work on auto/<slug>
+
+Notes: iter610 RESEARCH pass #124 — research-610-pass-124. 7 net-new backlog items confirmed via exhaustive python3 dedup of 100+ candidates: czech/romanian/ukrainian/thai travelers (nationality gap series, P3,S each); israel-roman-ruins-guide (thematic hub P3,M; historyhit.com #1 for "Roman ruins in Israel"); samaria-sebaste-guide (Herodian city in PA Area B, P3,S); yodfat-guide (Josephus Flavius siege site, P4,S). No shipping (RESEARCH mode). 303→310 active P-items. Saturation ~93%+; strongest yield passes #118–#124. Competitors appended: MZV Czech, MAE Romania, MFA Ukraine, El Al route data (PRG/OTP active; KBP suspended), Thai agricultural workers connection, historyhit.com Roman ruins ranking, beinharimtours.com/sebastiyeh, INPA Yodfat trail. Next: iter611 → BUILD (611%5==1; monetization category).
 
 Notes: iter609 REVIEW — review-609-meta-fix. SHIPPED ff57c88. Audited iters 606-608. beit-guvrin-caves-guide DEFECT: desc 162c (2 over) → fixed to 156c by removing 'Roman ' before amphitheatre. schottenstein-campus-jerusalem DEFECT: title 74c (9 over) → 'Schottenstein National Campus Jerusalem: Visitor Guide' 54c; desc 202c (42 over) → "Jerusalem's Schottenstein Campus: IAA archaeology collection, Dead Sea Scroll fragments, Safdie architecture. Tickets, hours and directions." 140c. ben-gurion-airport-transfers DEFECT: desc 154c technically under 160c limit but still mentioned 'sheruts' after iter608 body update removed all sherut content — honesty/accuracy misalignment; fixed by removing 'and sheruts' from description (145c). All 3 guides: 0 H1s in body, all internal links present, hero images exist. No fabricated data found. Gate: pnpm check 0 errors; pnpm build 776 pages unchanged; 1085/1085 e2e pass. pnpm push; CI in_progress at push time. 300 active P-items unchanged. Next: iter610 → RESEARCH (610%5==0, pass #124).
 

@@ -5326,3 +5326,65 @@ Saturation at pass #118: ~87% of high-value English content gaps now in BACKLOG 
 - 50+ additional candidates across neighborhoods, INPA parks, activity niches: all confirmed BACKLOG or SHIPPED.
 
 **Competitive landscape at pass #123:** Saturation now at ~92%+. 4 net-new items from 60+ candidates is above-average given recent pass yields (#118=2, #119=2, #120=2, #121=3, #122=0). The foraging niche represents a wellness/agritourism angle not covered by any competitor Israel travel site. The Polish/Hungarian/NZ nationality guides fill specific diaspora and heritage travel segments. Future passes: diminishing returns from standard topic searches; focus on content freshness, niche agritourism/wellness angles, and underserved nationality segments in Eastern Europe and Oceania.
+
+---
+
+## iter610 RESEARCH pass #124 (2026-07-18) — nationality gaps + thematic circuit + niche archaeology
+
+### Czech travelers (confirmed gap)
+
+**El Al** (elal.com) — Active Prague (PRG) ↔ TLV direct route (~4h30); confirms viable inbound Czech market. No competitor Israel travel site has Czech-targeted content.
+
+**MZV Czech Republic** (mzv.gov.cz) — Official Czech Ministry of Foreign Affairs travel advisory for Israel. ETA-IL requirement for Czech citizens confirmed (visa-exempt + ETA-IL since January 2025). Reference only — never paste advisory text.
+
+**Yad Vashem** (yadvashem.org) — Central Database of Shoah Victims' Names has extensive Czech Jewish victim documentation (Theresienstadt/Terezín deportation lists). Czech-Jewish heritage angle for travelers visiting Israel after Prague Jewish Quarter.
+
+**Jewish Museum Prague** (jewishmuseum.cz) — Pinkas Synagogue: 77,297 names of Czech and Moravian Jewish Holocaust victims inscribed on walls. Confirmed as the primary heritage touchpoint for Czech-Jewish travelers; natural lead-in to Israel trip.
+
+### Romanian travelers (confirmed gap)
+
+**El Al** (elal.com) — Active Bucharest Henri Coandă (OTP) ↔ TLV direct route (~3h); Wizz Air also active on OTP→TLV. Confirms accessible Romanian market.
+
+**Yad Vashem** (yadvashem.org/yv/en/holocaust/romania) — Romanian Holocaust documentation: Iași pogrom, Odessa massacre, Transnistria deportation camps. Comprehensive records; ~300,000 Romanian-Jewish victims documented. Key resource for heritage travelers.
+
+**Jewish Virtual Library** (jewishvirtuallibrary.org/jewish-history-of-romania) — Romanian Jewish history overview; confirms 750k+ pre-WWII community and large Israeli population of Romanian origin (~250,000+ Israeli citizens).
+
+### Ukrainian travelers (confirmed gap)
+
+**Israeli news coverage** (timesofisrael.com) — Multiple articles on Ukrainian war refugees in Israel (35,000–45,000 temporary-status Ukrainians); confirms Israeli-Ukrainian people-to-people ties are strong and post-war tourism market is real.
+
+**El Al historical route** — KBP (Kyiv Boryspil) → TLV direct suspended since February 2022. Routing now via LWO→Warsaw/Budapest or via Chisinau (KIV, Moldova). Current diaspora routing important for content accuracy.
+
+**MFA Ukraine** (mfa.gov.ua) — Official Ukrainian travel advisory. ETA-IL requirement confirmed for Ukrainian passport holders.
+
+### Thai travelers (confirmed gap)
+
+**El Al** (elal.com) — Seasonal TLV→BKK (Bangkok Suvarnabhumi) direct route (~9h30min). Confirms accessible Thai market when route is operational.
+
+**Israel agricultural worker community** — Documented tens of thousands of Thai agricultural workers in Israeli kibbutzim under MOL-approved work visas (since 1990s). October 7 context: ~32 Thai nationals killed, 17 taken hostage at border kibbutzim. Creates unique Thailand-Israel people-to-people tie unlike most countries.
+
+**Tourism Thailand stats** — Thailand is SE Asia's largest outbound travel market (11M+ outbound pre-COVID). Growing evangelical Christian minority (~1% Protestant) has Holy Land pilgrimage interest.
+
+### Roman ruins thematic hub (confirmed gap)
+
+**History Hit** (historyhit.com) — Ranks #1 for "Roman ruins in Israel" with "10 Best Roman Ruins in Israel" editorial list. Confirms high-volume query with no major editorial Israel travel brand covering it as a thematic hub. High CTA value (private history-buff tour bookings).
+
+**Bein Harim** (beinharimtours.com/roman-ruins-in-israel) — Tour operator has a dedicated Roman ruins Israel landing page. Confirms commercial interest and audience demand for thematic Roman ruins content.
+
+**Exclusive Israel Tours** (exclusiveisraeltours.com/roman-ruins-in-israel) — Similar thematic page. Pattern: tour operators cover it; editorial brands don't. Our advantage: honest itinerary + INPA pass guidance + internal hub linking existing shipped guides (beit-shean, caesarea, israel-thermal-springs).
+
+### Samaria-Sebaste (confirmed gap)
+
+**Bein Harim** (beinharimtours.com/sebastiyeh) — Tour operator page confirms regular guided visits; site is accessible for organized tours despite PA Area B location. Confirms commercial feasibility.
+
+**Tourist Israel** (touristisrael.com/sebastiyah) — Basic content entry. No editorial brand has a standalone guide with Herodian architecture context, John the Baptist tomb tradition, and access logistics.
+
+### Yodfat / Jotapata (confirmed gap)
+
+**Atlas Obscura** (atlasobscura.com/places/tel-yodfat) — Short entry confirms site is open to visitors; marks it as "hidden gem" Josephus Flavius siege site. Zero major travel brand coverage — editorial opportunity for niche archaeology audience.
+
+**INPA** (parks.org.il) — Tel Yodfat has a marked INPA trail; INPA pass valid. Accessible from Carmiel in Lower Galilee.
+
+### Competitive landscape at pass #124
+
+Saturation now at ~93%+. 7 net-new items from 100+ candidates is the strongest single-pass yield since pass #115. The nationality guide category still has addressable gaps in Central/Eastern European (Czech, Romanian) and Southeast Asian (Thai) markets — the "proven playbook" format makes these high-effort/high-value items that can be built quickly. The Roman ruins thematic hub is a link-bait hub page that will internally link 5+ shipped guides. The West Bank attraction (Samaria-Sebaste) requires careful handling but fills a genuine editorial gap. Future passes: nationality guide gaps are nearly exhausted (remaining: Czech, Romanian, Ukrainian, Thai just added; plus long-backlog items for Canadian, Australian, Indian, etc.); focus future research on content freshness for 2027, emerging format innovations (interactive quizzes, AI-powered itinerary builders), and any 2026–2027 new attraction openings.
