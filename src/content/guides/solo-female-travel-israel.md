@@ -159,3 +159,4 @@ Solo travel in Israel is common enough that finding other travellers is straight
 - [Israel Accommodation Guide](/israel-accommodation-guide) — how to choose where to stay
 - [Transportation in Israel](/transportation) — full public transport guide
 - [First-Time Visitor to Israel](/first-time-in-israel) — practical orientation for any new visitor
+- [Solo Travel in Israel](/solo-travel-israel) — general solo travel guide for all visitors

@@ -94,6 +94,7 @@ const ROUTES = [
   '/herzliya-guide',
   '/tel-aviv-beach-guide',
   '/solo-female-travel-israel',
+  '/solo-travel-israel',
   '/jordan-river-baptism',
   '/israel-shabbat-countdown',
   '/fr/first-time-in-israel',

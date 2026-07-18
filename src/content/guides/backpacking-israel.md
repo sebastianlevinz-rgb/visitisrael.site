@@ -166,3 +166,4 @@ Booking consecutive nights rather than one-night stops saves both money and the 
 - [Cycling in Israel](/cycling-in-israel) — Tel-O-Fun bike share, the Sea of Galilee circuit and longer routes
 - [Free things to do in Israel](/free-things-to-do-israel) — top experiences that cost nothing
 - [Israeli street food guide](/israeli-street-food-guide) — what to eat, where to find it, and what to pay
+- [Solo travel in Israel](/solo-travel-israel) — city-by-city base guide, meeting people, and Shabbat planning for solo visitors
