@@ -1,13 +1,15 @@
 # LOOP STATE
 
-- iteration: 606
+- iteration: 607
 - lastMode: BUILD
-- lastItem: beit-guvrin-caves-guide
-- lastResult: SHIPPED 33906eb. /beit-guvrin-caves-guide — Beit Guvrin & Maresha Caves Complete Visitor Guide (P2/S seo-content+monetization). UNESCO WHS 2014; Bell Caves; Sidonian Burial Caves (painted murals); columbaria; Roman amphitheatre; Tel Maresha. INPA pass valid; car essential; torch needed. 3 CTAs (GYG+Booking+DiscoverCars); 6 FAQs. 3 broken links fixed in gate. 775 pages (+1); 1085/1085 e2e pass; 0 check errors. CI in_progress at push time; consistent with prior success pattern. 2 stale beit-guvrin BACKLOG entries removed (iter215 L551 + iter345 L836 duplicate). 303 → 301 active P-items.
-- nextRotationCategory: 607%5==2 → BUILD (seo-content)
+- lastItem: schottenstein-campus-jerusalem
+- lastResult: SHIPPED ad7aec2. /schottenstein-campus-jerusalem — Schottenstein National Campus for the Archaeology of Israel Visitor Guide (P2/S seo-content). IAA purpose-built museum Givat Ram 2026 (Moshe Safdie); 15,000 Dead Sea Scroll fragments; conservation lab observation windows; IAA collection by period (Chalcolithic–Byzantine/Islamic); 3 CTAs (Tiqets+GYG+Booking); 7 FAQs. Cross-links added to israel-museum-jerusalem + jerusalem-museums. 776 pages (+1); 1085/1085 e2e pass; 0 check errors. CI in_progress at push time; consistent with prior success pattern. 301 → 300 active P-items.
+- nextRotationCategory: 608%5==3 → BUILD (tools)
 - higgsfieldSpent: 0
-- updatedAt: 2026-07-18T07:10Z
+- updatedAt: 2026-07-18T07:55Z
 - branch context: work on master; feature work on auto/<slug>
+
+Notes: iter607 BUILD (seo-content) — schottenstein-campus-jerusalem. SHIPPED ad7aec2. IAA's new Givat Ram campus (Jay and Jeanie Schottenstein National Campus for the Archaeology of Israel), opened 2026; designed by Moshe Safdie; adjacent to Israel Museum. Gallery sections: Prehistoric/Chalcolithic copper hoard (Cave of the Treasure, Ein Gedi, c.3500 BCE) → Iron Age bullae/LMLK jars → Hellenistic/Roman Dead Sea Scroll period → Byzantine mosaics. Key distinction: 15,000 IAA custody fragments (unpublished/partially published) vs ~900 published scrolls displayed at Shrine of the Book across the street. National Archaeological Conservation Laboratories with public observation windows (unusual in museum world). Moshe Safdie three-staggered descending-courtyard design evoking archaeological excavation; Jerusalem stone cladding. 3 CTAs: Tiqets (advance tickets), GYG (archaeology guided tours), Booking (Jerusalem hotels). 7 FAQs: Schottenstein vs Israel Museum distinction; scroll counts; visit duration; directions; INPA pass note (not valid here); Safdie Jerusalem buildings (Yad Vashem/Supreme Court trilogy); children. All internal links verified: /qumran-guide, /israel-museum-jerusalem, /jerusalem-museums, /jewish-genealogy-israel-trip, /1-day-jerusalem-itinerary, /day-trips-from-jerusalem. Cross-links: israel-museum-jerusalem.md adjacent campus paragraph + jerusalem-museums.md Givat Ram cluster description + Day 1 itinerary + Getting around section. pnpm check 0 errors; build 776 pages (+1); 1085/1085 e2e pass. CI in_progress at push time; consistent with prior success pattern. 301 → 300 active P-items. Next: iter608 → BUILD (tools). 608%5==3 → tools category.
 
 Notes: iter606 BUILD (seo-content+monetization) — beit-guvrin-caves-guide. SHIPPED 33906eb. Monetization rotation → monetization section still largely SHIPPED → fell through to seo-content+monetization tagged item (P2/S beit-guvrin-caves-guide, iter215 research). UNESCO Bell Caves + Sidonian Burial Caves (Hellenistic painted murals, hunting scenes, exotic animals, Greek inscriptions); columbaria (2,000+ dove niches); Roman amphitheatre; Tel Maresha. INPA pass valid; car essential; torch recommended; Sidonian tombs access note (may need advance INPA booking — honesty enforced). 3 broken links fixed during gate: /jerusalem-day-trips→/day-trips-from-jerusalem; /jerusalem-travel-guide→/jerusalem; /masada-guide→/masada-visitor-guide. CI in_progress at push time; consistent with prior success pattern. Next: iter607 → BUILD (seo-content). 607%5==2 → seo-content category.
 
