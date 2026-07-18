@@ -9507,3 +9507,21 @@ Mode: BUILD (monetization rotation, 616%5==1).
 **P-items**: 313 → 312 active.
 
 Next: iter617 → BUILD (seo-content). 617%5==2. BACKLOG stale-item cleanup flagged for next REVIEW pass (iter619 → 619%5==4).
+
+## 2026-07-18T17:45Z · iter 617 · BUILD (seo-content) · israel-gluten-free-guide
+
+**What**: New /israel-gluten-free-guide — practical celiac + gluten-free travel guide for Israel.
+Covers: naturally GF staples (hummus, shakshuka, grilled meats/fish, mezze spreads, msabbaha, Israeli breakfast spread); main risks (schnitzel always wheat-breaded, burekas wheat filo, shared fryers, pita/laffa, soy sauce in fusion restaurants); cross-contamination guidance; Hebrew phrase card (ללא גלוטן / lelo glooten; ani tzliyak/tzliyakit); Passover labelling (kasher lePesach) as GF proxy with limits noted; city-by-city breakdown (TLV: Anastasia Florentin, Benedikt, Abu Hassan Jaffa, Carmel Market safe-buy tips; Jerusalem: German Colony, Muslim Quarter mezze, Mahane Yehuda whole-produce tips, Shabbat planning; Haifa: Wadi Nisnas, Arab mezze; Eilat: hotel buffets, tourist-oriented restaurants); supermarket navigation (Hebrew label signals ללא גלוטן / חלב / פרווה, Passover sections, naturally safe staples); self-catering tips.
+7 FAQs: Israel safe for celiacs, which dishes are GF, which dishes contain gluten, Hebrew phrase card, Passover labelling, dedicated GF restaurants, market cross-contamination.
+2 CTAs: GYG food tours (celiac-friendly framing) + Booking hotels (breakfast buffet framing).
+Cross-links added from: kosher-food-guide.md, vegan-vegetarian-israel.md, israel-restaurant-finder.astro Related guides section.
+
+**Gate**: pnpm check 0 errors; pnpm build 781 pages (+1); 1089/1089 e2e pass (background job bdsz5q60t exit code 0).
+
+**Ship**: squash-merged auto/israel-gluten-free-guide → master; committed f724378; pushed to origin/master. CI in_progress at push time — consistent with 617-iteration prior success pattern.
+
+**Honesty**: No specific restaurant hours or prices hardcoded; "verify before visiting" framing throughout; Passover labelling limits noted (oats risk, cross-contamination not managed to medical standard); no fabricated ratings or review counts; falafel shared-fryer risk acknowledged honestly.
+
+**P-items**: active P-items unchanged (guide was P2/S — marked shipped).
+
+Next: iter618 → BUILD (618%5==3; tools category).

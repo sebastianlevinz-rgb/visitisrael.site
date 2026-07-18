@@ -1,13 +1,15 @@
 # LOOP STATE
 
-- iteration: 616
+- iteration: 617
 - lastMode: BUILD
-- lastItem: skyfield-extreme-park-jaffa
-- lastResult: SHIPPED 49ab3f6. New /skyfield-extreme-park-jaffa — SkyField rooftop extreme park at Bloomfield Stadium Jaffa. Via Ferrata (5 routes), 35m bungee, giant swing, accessibility design, 3-tier tickets (₪120/360/495). 3 CTAs (GYG/Viator/Booking). 6 FAQs. 780 pages; 1089/1089 e2e pass. 313→312 active P-items.
-- nextRotationCategory: 617%5==2 → BUILD (seo-content)
+- lastItem: israel-gluten-free-guide
+- lastResult: SHIPPED f724378. New /israel-gluten-free-guide — Israel gluten-free & celiac travel guide. Naturally GF dishes (hummus, shakshuka, grilled meats, mezze), risks (schnitzel, burekas, shared fryers), Hebrew phrases (ללא גלוטן), Passover labelling shortcut, city-by-city (TLV/Jerusalem/Haifa/Eilat). 7 FAQs, 2 CTAs (GYG food tours + Booking). 781 pages; 1089/1089 e2e pass.
+- nextRotationCategory: 618%5==3 → BUILD (tools)
 - higgsfieldSpent: 0
-- updatedAt: 2026-07-18T16:45Z
+- updatedAt: 2026-07-18T17:45Z
 - branch context: work on master; feature work on auto/<slug>
+
+Notes: iter617 BUILD (seo-content) — israel-gluten-free-guide. SHIPPED f724378. New /israel-gluten-free-guide — practical celiac + gluten-free travel guide for Israel. Covers naturally GF Israeli staples (hummus, shakshuka, grilled meats, mezze spreads, msabbaha), main risks (schnitzel/burekas/shared fryers/amba/soy sauce), cross-contamination guidance, Hebrew GF phrase card (ללא גלוטן / lelo glooten), Passover labelling as proxy (kasher lePesach), city-by-city (Tel Aviv: Anastasia, Benedikt, Abu Hassan; Jerusalem: German Colony, Muslim Quarter; Haifa: Wadi Nisnas; Eilat: hotel buffets), supermarket navigation + Hebrew label signals, self-catering tips. 7 FAQs covering celiac safety, safe/unsafe dishes, kashrut/GF intersection, Hebrew phrases, Passover labelling limits, dedicated GF restaurants, market cross-contamination. 2 CTAs: GYG food tours + Booking hotels. Cross-links added to: kosher-food-guide + vegan-vegetarian-israel + israel-restaurant-finder. 781 pages (+1); 1089/1089 e2e pass. CI in_progress at push time — consistent with 617-iteration success pattern. Next: iter618 → BUILD (618%5==3; tools).
 
 Notes: iter616 BUILD (monetization) — skyfield-extreme-park-jaffa. SHIPPED 49ab3f6. New /skyfield-extreme-park-jaffa — Israel's first rooftop accessible extreme park (Bloomfield Stadium, Jaffa). Covers Via Ferrata routes, 35m bungee jump, giant swing, ticket tiers (₪120/360/495), full accessibility design, getting there logistics, combining with Old Jaffa / flea market day. 3 CTAs: GYG (Jaffa adventure), Viator (extreme Israel activities), Booking (Jaffa hotels). 6 FAQs. 780 pages; 1089/1089 e2e pass. 313→312 active P-items. Note: many BACKLOG P-items confirmed already shipped but not marked — israel-in-autumn (iter386), beer-sheva-guide (iter328), birdwatching-in-israel, purim-in-israel — BACKLOG cleanup needed next REVIEW pass. Next: iter617 → BUILD (617%5==2; seo-content).
 
