@@ -5261,3 +5261,68 @@ Saturation at pass #118: ~87% of high-value English content gaps now in BACKLOG 
 - Apollonia National Park: SHIPPED iter282, fully covered in herzliya-guide.md.
 - Golan Heights cycling: BACKLOG iter335.
 - Tower of David Night Spectacular: SHIPPED, covered in tower-of-david-guide.md.
+
+## iter605 RESEARCH pass #123 — 2026-07-18
+
+### Wild food foraging niche (confirmed gap)
+
+**TripAdvisor** (tripadvisor.com/Attraction_Review-g293983-d12118426) — "Israel Foraging Experience — Wild Edibles with Adara Peskin Shalem" listed as a bookable Jerusalem attraction. Reviews describe 2–4h guided foraging walks identifying za'atar, akkoub, wild sage, fennel, and other native edibles. No Israel travel editorial site has a standalone foraging guide — confirmed gap.
+
+**TabletMag** (tabletmag.com) — "Urban Foraging Tours in Tel Aviv" article covering guided walks in Yarkon Park and HaYarkon riverside (nettles, sorrel, wild mustard). Demonstrates established media interest in Israel foraging as a travel experience.
+
+**JewishLink News** (jewishlink.news) — "Foraging in Israel: Tasting the Land of Life" feature article on foraging culture, seasonal calendar, and the cultural significance of za'atar in Israeli-Palestinian food traditions.
+
+**Wikipedia** — "Wild edible plants of Israel and Palestine" article — documents the botanical diversity of forageable species by region. Useful authoritative source for content.
+
+**Foraging Israel Facebook group** — Active community group; confirms operator network and seasonal activity calendar beyond the single TripAdvisor-listed guide.
+
+**TheHealthyJew.substack.com** — Foraging walks in Israel feature article; demonstrates wellness/agritourism crossover audience.
+
+### Israel for Polish travelers (confirmed gap)
+
+**LOT Polish Airlines** (lot.com) — Direct Warsaw (WAW) ↔ TLV service operated; ~4h flight time. Polish-language marketing exists on LOT's site targeting Israel as a leisure destination.
+
+**March of the Living** (marchoftheliving.org) — Annual April pilgrimage: tens of thousands of participants travel from Auschwitz (Poland) to Israel. The trip has a distinct Israel segment (Yad Vashem, Jerusalem, independence celebrations). Polish participants who extend their trip represent a defined market segment with specific needs (ETA-IL logistics after the organized March program ends).
+
+**Touristisrael.com** — Has no "Israel for Polish travelers" page. Confirmed gap vs. the nationality-guide format on this site.
+
+**Gov.pl travel advisory** — Poland's official government travel advisory for Israel. Confirms Polish citizens require ETA-IL (Jan 2025 onwards, 25 NIS fee) despite Schengen passport — this is a practical pain point for Polish travelers that no existing Israel editorial addresses.
+
+### Israel for Hungarian travelers (confirmed gap)
+
+**EL AL** (elal.com) — Direct Budapest (BUD) ↔ TLV route in operation; confirmed on EL AL's route map. Wizz Air also operates BUD ↔ TLV.
+
+**World Jewish Travel** (worldjewishtravel.org/listing/jewish-budapest) — Budapest Jewish heritage listings; describes the Great Synagogue (largest in Europe) and Herzl's birthplace marker as the primary heritage draws for Jewish visitors. Hungarian travelers who have done the Budapest circuit have a natural onward journey to Jerusalem to see Herzl's tomb at Mount Herzl.
+
+**JNS.org** — "Budapest Welcomes Israeli Visitors" coverage noting growing Hungary-Israel bilateral tourism; Hungarian-Israeli cultural ties emphasized.
+
+**The JC (Jewish Chronicle)** — "Finding Herzl in Hungary" feature article tracing Herzl's Budapest origins. Confirms the pilgrimage narrative (Budapest birthplace → Jerusalem grave) resonates with a documented audience.
+
+**Herzl Foundation** (herzl.org) — Official Herzl centenary materials; confirms Budapest 1860 birthdate and the Great Synagogue connection.
+
+### Israel for New Zealand travelers (confirmed gap)
+
+**Smartraveller.gov.nz** — New Zealand government's Israel travel advisory. Confirms NZ citizens require ETA-IL for Israel entry; advisory level elevated post-October 2023. First reference point for NZ travelers planning Israel trips — no Israel editorial site has NZ-specific practical guidance.
+
+**CWGC** (cwgc.org) — Commonwealth War Graves Commission database lists New Zealand fallen at Beersheba War Cemetery (Battle of Beersheba, Oct 31 1917). Wellington Mounted Rifles participated in the cavalry charge alongside Australian Light Horse. NZ graves and memorial panels verified at Beersheba site.
+
+**NZ History** (nzhistory.govt.nz/war/anzac-day/beersheba) — New Zealand government history site covering the Wellington Mounted Rifles at Beersheba. Confirms the historical connection is well-documented and part of NZ's national ANZAC narrative.
+
+**Jewish Council of NZ** (jewishcouncil.org.nz) — NZ Jewish community site; confirms ~7,000 Jewish New Zealanders in Auckland and Wellington communities; Zionist Youth Federation NZ active. Family heritage and Bar/Bat Mitzvah trip segment confirmed.
+
+### False leads verified (pass #123)
+
+- Timna Park: confirmed SHIPPED iter486 (src/content/guides/ confirmed). Pre-compaction candidate eliminated.
+- Beit Guvrin/Maresha: confirmed BACKLOG P2 iter215 (line 551 BACKLOG.md). Pre-compaction candidate eliminated.
+- Eilat Coral Beach Nature Reserve: eilat-snorkeling-guide.md (SHIPPED) covers Coral Beach as primary focus — too duplicative. Pre-compaction candidate eliminated.
+- Underwater Observatory Eilat: confirmed BACKLOG iter550 (line 1303 BACKLOG.md).
+- India-to-Israel guide: confirmed BACKLOG iter230.
+- Florentin district guide: SHIPPED as tel-aviv-street-art.md iter513.
+- Gan HaShlosha / Sachne: BACKLOG iter280.
+- Israel for Canadian travelers: new table format BACKLOG (line 1055).
+- Israel for Australian travelers: new table format BACKLOG (line 1058) — distinct from New Zealand guide added this pass.
+- Israel for Indian travelers: BACKLOG iter230 + iter430 (two entries).
+- Israel for French travelers: BACKLOG iter465 + iter580.
+- 50+ additional candidates across neighborhoods, INPA parks, activity niches: all confirmed BACKLOG or SHIPPED.
+
+**Competitive landscape at pass #123:** Saturation now at ~92%+. 4 net-new items from 60+ candidates is above-average given recent pass yields (#118=2, #119=2, #120=2, #121=3, #122=0). The foraging niche represents a wellness/agritourism angle not covered by any competitor Israel travel site. The Polish/Hungarian/NZ nationality guides fill specific diaspora and heritage travel segments. Future passes: diminishing returns from standard topic searches; focus on content freshness, niche agritourism/wellness angles, and underserved nationality segments in Eastern Europe and Oceania.

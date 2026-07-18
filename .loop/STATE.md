@@ -1,13 +1,15 @@
 # LOOP STATE
 
-- iteration: 604
-- lastMode: REVIEW
-- lastItem: review-604-meta-fix
-- lastResult: SHIPPED 1d8e6a0 · pnpm check 0 errors · 774 pages (unchanged) · 1085/1085 e2e pass · CI in_progress (consistent with prior pattern) · Audited iters 601–603 (israel-vs-albania, soreq-cave-guide, belvoir-fortress). Defects found and fixed: (1) israel-vs-albania title 68→54 chars (removed "Mediterranean"); (2) soreq-cave-guide desc 170→160 chars (trimmed "the", reworded ending); (3) belvoir-fortress desc 166→156 chars (removed "practical"). All internal links OK (18/18 resolve). All hero images exist. No fabricated data in any of the 3 guides.
-- nextRotationCategory: 604%5==4 → REVIEW (done). 605%5==0 → RESEARCH (pass #123).
+- iteration: 605
+- lastMode: RESEARCH
+- lastItem: research-605-pass123
+- lastResult: 4 net-new items found and appended: israel-foraging-guide (P3/S/seo-content), israel-for-polish-travelers (P3/S/seo-content+monetization), israel-for-hungarian-travelers (P3/S/seo-content+monetization), israel-for-new-zealand-travelers (P3/S/seo-content+monetization). Dedup verified 60+ candidates against 299-item BACKLOG + DONE.md + 300+ guides/. All 3 pre-compaction candidates eliminated (timna SHIPPED iter486, beit-guvrin P2 backlog iter215, coral-beach duplicate of eilat-snorkeling-guide.md). 299 → 303 active P-items.
+- nextRotationCategory: 606%5==1 → BUILD (monetization)
 - higgsfieldSpent: 0
-- updatedAt: 2026-07-18T04:45Z
+- updatedAt: 2026-07-18T06:10Z
 - branch context: work on master; feature work on auto/<slug>
+
+Notes: iter605 RESEARCH — pass #123. 4 net-new items appended to BACKLOG.md: israel-foraging-guide (wild edibles/za'atar/agritourism niche; Adara Peskin Shalem TripAdvisor tours; TabletMag TLV foraging), israel-for-polish-travelers (LOT direct WAW↔TLV; March of the Living extension; distinct from poland-israel-heritage-journey backlog), israel-for-hungarian-travelers (Herzl born Budapest 1860; EL AL BUD↔TLV direct; Raoul Wallenberg memorial Jerusalem; 100k+ Hungarian Jews), israel-for-new-zealand-travelers (Wellington Mounted Rifles at Beersheba 1917; NZ ANZAC graves CWGC; distinct from australia travelers and anzac-heritage backlog P2). Exhaustive dedup: 60+ candidates; all 3 pre-compaction candidates eliminated. Saturation ~92%+; 4 items above-average for current saturation. CI not run (RESEARCH-only iteration). Next: iter606 → BUILD (monetization). 606%5==1 → monetization category.
 
 Notes: iter604 REVIEW — review-604-meta-fix. SHIPPED 1d8e6a0. pnpm check 0 errors; build 774 pages (unchanged); 1085/1085 e2e pass. Audited iters 601–603: 3 defects found + fixed (title/desc over-length on israel-vs-albania, soreq-cave-guide, belvoir-fortress). All internal links resolve; all hero images exist; no fabricated data. CI in_progress at push time; consistent with prior success pattern. Next: iter605 → RESEARCH (pass #123).
 
@@ -21,4 +23,4 @@ Notes: iter600 was RESEARCH (pass #122) — recorded by prior run. Next: iter601
 
 Cron b7325b16 hourly @ :17. Loop history: 19 tools + sitemap-lastmod + link-checker(+depth) + i18n
 Phase0/1a/1b/1c/2 Batches1-18(COMPLETE) + 44 review passes + 3 technical (event-schema + meta-trim + locale-links) + 70 EN guides + 7 tools-monetization + 2 comparisons;
-research iters 5/10/20/30/35/40/45/50/55/60/65/70/75/80/85/90/95/100/105/110/115/120/125/130/135/140/145/150/155/160/165/170/175/180/185/190/195/200/205/210/215/220/225/230/235/240/245/250/255/260/265/270/275/280/285/290/295/300/305/310/315/320/325/330/335/340/345/350/355/360/365/370/375/380/385/390/395/400/405/410/420/425/430/435/440/445/450/455/460/465/470/480/485/490/495/500/505/510/515/520/525/535/540/545/550/555/560/565/570/575/580/585/590/595/600.
+research iters 5/10/20/30/35/40/45/50/55/60/65/70/75/80/85/90/95/100/105/110/115/120/125/130/135/140/145/150/155/160/165/170/175/180/185/190/195/200/205/210/215/220/225/230/235/240/245/250/255/260/265/270/275/280/285/290/295/300/305/310/315/320/325/330/335/340/345/350/355/360/365/370/375/380/385/390/395/400/405/410/420/425/430/435/440/445/450/455/460/465/470/480/485/490/495/500/505/510/515/520/525/535/540/545/550/555/560/565/570/575/580/585/590/595/600/605.
