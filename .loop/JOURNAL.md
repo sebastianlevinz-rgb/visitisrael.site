@@ -9566,3 +9566,37 @@ Gate: pnpm check 0 errors; pnpm build 782 pages (unchanged); 1090/1090 e2e pass.
 Ship: squash-merged to master 19e1496, pushed. CI in_progress at push time — consistent with prior pattern.
 
 Next: iter620 → RESEARCH (620%5==0, pass #126).
+
+## iter620 — 2026-07-18T20:30Z — RESEARCH (pass #126)
+
+**Mode**: RESEARCH — no code shipped.
+**Item**: research-620-pass-126
+**Result**: 6 net-new BACKLOG items confirmed; COMPETITORS.md appended.
+
+### Research angles explored
+- Food event hubs: competitors lack editorial aggregation of Israel's annual culinary festivals
+- Endurance sports tourism: ISRAMAN triathlon (January Eilat) — zero editorial competitor coverage
+- Post-upgrade cruise terminal: Haifa May 2026 expansion ($5.5M) makes all existing cruise content stale
+- Southeast Asian nationality guides: Malaysia + Singapore confirmed absent from BACKLOG despite iter470 flag
+- Content freshness: Israir JFK, El Al SFO, Purple Line deferral, Terminal 1 reopening
+
+### De-duplication checks run (bash grep vs BACKLOG.md + DONE.md)
+- "israman" / "triathlon" — NOT in BACKLOG or DONE → new
+- "food festival" (distinct from music-festivals iter488) — NOT in BACKLOG or DONE → new
+- "cruise terminal" / "haifa.*cruise" — NOT as standalone post-2026 guide → new
+- "malaysia" / "malaysian" — NOT in BACKLOG as standalone nationality guide → new
+- "singapore" / "singaporean" — NOT in BACKLOG as standalone nationality guide → new
+- "content freshness" / "purple line" correction — flagged iter615 but never converted to distinct BACKLOG item → new
+
+### 6 items added to BACKLOG
+1. `/haifa-cruise-terminal-guide` — P2/S, seo-content+monetization — post-May-2026 upgrade guide
+2. `/israel-food-festivals` — P3/S, seo-content — annual culinary events hub
+3. `/israman-eilat-triathlon` — P3/S, seo-content+monetization — race weekend travel guide
+4. `/israel-for-malaysian-travelers` — P3/S, seo-content — nationality guide
+5. `/israel-for-singaporean-travelers` — P3/S, seo-content — nationality guide
+6. Content freshness corrections batch — P3/S, technical — cheap-flights + american-travelers + Purple Line + Terminal 1
+
+### Saturation estimate
+~94%. Next research pass should focus on: 2027 attraction openings (Tel Aviv Museum expansion, National Museum of Israel re-opening), India/South Africa/Morocco nationality guides, content accuracy audit of event dates for Winter/Spring 2027.
+
+**Next iteration**: 621 → BUILD (621%5==1 → monetization rotation)

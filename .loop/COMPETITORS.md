@@ -5422,3 +5422,69 @@ Saturation now at ~93%+. 7 net-new items from 100+ candidates is the strongest s
 ### Competitive landscape at pass #125
 
 Saturation now at ~94%. Yield this pass: 6 net-new items — all from 2026-specific factual developments rather than wholly new topics. The most actionable items are content-freshness corrections to existing shipped pages (cheap-flights, American travelers, Purple Line) rather than new page builds. Nationality guide category is effectively exhausted for major markets. Future passes should focus on 2027 factual updates, new hotel/attraction openings, and accuracy audits of time-sensitive content already shipped.
+
+---
+
+## Research Pass #126 — iter620 — 2026-07-18
+
+**Focus**: Food event hubs, endurance sports tourism, post-upgrade cruise terminals, Southeast Asian nationality guides (Malaysia, Singapore), content freshness at ~94% saturation.
+
+### Israel food festivals hub (confirmed gap)
+
+**Tourist Israel** (touristisrael.com) — Festival listing entries for Eat Tel Aviv and Sarona events; no editorial hub. Confirms events are real and well-documented but no competitor has aggregated them into a dedicated travel guide.
+
+**Government of Israel** (gov.il) — Official Eat Tel Aviv festival pages confirm 10th edition May 2026, Charles Clore Park, Tel Aviv; ~50,000 visitors; free entry + paid masterclasses. Strong structured data available for Events schema.
+
+**Jerusalem Post** (jpost.com) — Multiple articles on "A Story of Food" at Expo TLV (Passover week, 100k+ visitors). Confirms annual anchor event.
+
+**Timeout Tel Aviv** — Lists Sarona Wine Festival (June/July) and Tel Aviv Cocktail Festival (August). No editorial destination-travel brand has synthesised these into a single hub.
+
+### ISRAMAN Eilat triathlon (confirmed gap)
+
+**ISRAMAN** (israman.co.il) — Official race site; Jan 27-30 2027 confirmed; 3,000 participants from 50+ countries; 25-year history; full results archive.
+
+**Challenge Family** (challengefamily.com) — Parent organiser; global IRONMAN-distance brand. Israel content thin; no editorial travel guide for visiting athletes.
+
+**Active.com** / **BattIstrada.com** — Race reports and athlete travel tips; no dedicated editorial Israel guide for triathlon tourism.
+
+**No competitor editorial brand** (Lonely Planet, Nomadic Matt, Israel Travel Tips, touristisrael.com) has a dedicated ISRAMAN Eilat guide. Triathlon athletes are high-spend travelers (multiple hotel nights, gear logistics, post-race recovery days) = strong Booking/DiscoverCars CTA value.
+
+### Haifa cruise terminal post-upgrade (confirmed gap)
+
+**Port of Haifa** (haifaport.co.il) — New terminal May 2026 confirmed: $5.5M, 5,500m², 2 mega-ships simultaneously, ~1M pax/yr capacity (up from ~500k). Official source.
+
+**Travel Pulse** (travelpulse.com) — Trade coverage of terminal expansion. No editorial Israel travel brand has updated content for post-May-2026 terminal.
+
+**Travel Age West** (travelagewest.com) — Agent-facing coverage; confirms upgrade is significant operational change. Opportunity: our shipped cruise-shore-excursions.md (iter32) predates upgrade and lacks new terminal logistics.
+
+### Malaysian travelers (confirmed gap)
+
+**ETA-IL official** — ETA requirement confirmed for Malaysian passport holders. Malaysia does not recognise Israel diplomatically but Malaysian citizens travel freely via ETA-IL.
+
+**Iter470 research flag** — First flagged as potential content gap in pass #118 (iter470). Confirmed still absent from BACKLOG.md and DONE.md as a standalone nationality guide as of iter620 grep check.
+
+**Context**: Malaysia is world's largest Muslim outbound market per capita; growing Israeli tourism from Malaysian-Chinese community (estimated 30% of Malaysian tourists to Israel are ethnically Chinese); halal certification infrastructure in Israel (Muslim-majority areas of Jerusalem, Akko, Nazareth) makes a guided trip feasible and desirable.
+
+### Singaporean travelers (confirmed gap)
+
+**El Al** (elal.com) — SIN→TLV route active (connects via Bangkok or direct seasonally). Confirms market access.
+
+**Singapore Jewish Welfare Board** (sjwb.org.sg) — Confirms Jewish community in Singapore (~2,500 persons); Maghain Aboth Synagogue (founded 1878) active; Jewish Singaporeans visit Israel for lifecycle events + heritage tourism.
+
+**Iter470 research flag** — Same pass as Malaysia flag. Not converted to BACKLOG item across passes 118–125. Confirmed absent from BACKLOG.md and DONE.md as of iter620.
+
+**Context**: Singapore is one of Asia's highest-per-capita travel spenders; tri-cultural society (Chinese 75% / Malay 14% / Indian 9%) means distinct segments have different Israel travel motivations; premium accommodation preference = high Booking affiliate value.
+
+### Content freshness batch (confirmed corrections needed)
+
+**Israir press releases** — TLV→JFK Aug 2026 launch confirmed; any shipped page referencing "no low-cost Israeli carrier to US" is now stale.
+
+**El Al route announcements** — TLV→SFO Oct 2026 first direct West Coast US service; israel-for-american-travelers.md does not reference this.
+
+**Haifa Metro** (haifametro.co.il) — Purple Line commercial opening deferred to 2027-2028; any page referencing "Purple Line opens 2026" is factually incorrect.
+
+**Ben Gurion Airport** — Terminal 1 (domestic) reopened for international overflow flights July 2026. Content update opportunity.
+
+### Competitive landscape at pass #126
+
+Saturation now at ~94%. 6 net-new items from this pass — split between new pages (food festivals hub, ISRAMAN, Haifa cruise terminal, 2 nationality guides) and a content-freshness batch update. Southeast Asian nationality guide gap (Malaysia, Singapore) mirrors the Central/Eastern European gap identified in passes #123-#124 — proven playbook applies. The sports-tourism niche (ISRAMAN triathlon) is the freshest angle at this saturation level; no competitor has editorial coverage. The food festivals hub fills a genuine aggregation gap that GYG/Viator rank well for but editorial Israel brands don't. Next research pass should focus on: 2027 attraction openings (Tel Aviv Museum expansion, National Museum of Israel re-opening), content accuracy audit of time-sensitive Winter/Spring 2027 event dates, and any remaining nationality guide gaps (Morocco, South Africa, India).
