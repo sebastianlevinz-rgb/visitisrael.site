@@ -1,13 +1,15 @@
 # LOOP STATE
 
-- iteration: 615
-- lastMode: RESEARCH
-- lastItem: research-615-pass-125
-- lastResult: 6 net-new items. Key: cheap-flights-to-israel + israel-for-american-travelers content freshness (Israir JFK Aug 2026 first low-cost US route; El Al SFO Oct 2026; Arkia TYO Oct 2026 first direct Israel-Japan; Delta+United still suspended Oct 2023). Purple Line date correction (2027-2028 not 2026). Haifa $5.5M terminal May 2026 context. israel-for-japanese-travelers P3 upgrade (Arkia TYO direct). luxury-travel-israel.md 2026 refresh (The Yacht Herzliya 325r June 2026, Canaan-Tzfat). No code shipped. 307→313 active P-items.
-- nextRotationCategory: 616%5==1 → BUILD (monetization)
+- iteration: 616
+- lastMode: BUILD
+- lastItem: skyfield-extreme-park-jaffa
+- lastResult: SHIPPED 49ab3f6. New /skyfield-extreme-park-jaffa — SkyField rooftop extreme park at Bloomfield Stadium Jaffa. Via Ferrata (5 routes), 35m bungee, giant swing, accessibility design, 3-tier tickets (₪120/360/495). 3 CTAs (GYG/Viator/Booking). 6 FAQs. 780 pages; 1089/1089 e2e pass. 313→312 active P-items.
+- nextRotationCategory: 617%5==2 → BUILD (seo-content)
 - higgsfieldSpent: 0
-- updatedAt: 2026-07-18T15:30Z
+- updatedAt: 2026-07-18T16:45Z
 - branch context: work on master; feature work on auto/<slug>
+
+Notes: iter616 BUILD (monetization) — skyfield-extreme-park-jaffa. SHIPPED 49ab3f6. New /skyfield-extreme-park-jaffa — Israel's first rooftop accessible extreme park (Bloomfield Stadium, Jaffa). Covers Via Ferrata routes, 35m bungee jump, giant swing, ticket tiers (₪120/360/495), full accessibility design, getting there logistics, combining with Old Jaffa / flea market day. 3 CTAs: GYG (Jaffa adventure), Viator (extreme Israel activities), Booking (Jaffa hotels). 6 FAQs. 780 pages; 1089/1089 e2e pass. 313→312 active P-items. Note: many BACKLOG P-items confirmed already shipped but not marked — israel-in-autumn (iter386), beer-sheva-guide (iter328), birdwatching-in-israel, purim-in-israel — BACKLOG cleanup needed next REVIEW pass. Next: iter617 → BUILD (617%5==2; seo-content).
 
 Notes: iter615 RESEARCH (pass #125) — research-615-pass-125. No code shipped. 6 net-new BACKLOG items. Focus: 2026 airline routes, infrastructure, freshness gaps in shipped content. Saturation ~94%. Key finding: Israir TLV→JFK Aug 2026 = first low-cost Israeli carrier on US route (content correction needed in cheap-flights + american-travelers). Arkia TYO Oct 2026 = first-ever direct Israel-Japan (upgrades israel-for-japanese-travelers priority). El Al SFO Oct 2026 = new West Coast US gateway. Purple Line commercial opening now 2027-2028 (not 2026). Haifa cruise terminal upgraded May 2026 ($5.5M, 5,500m², 1M pax/yr). New luxury hotel: The Yacht Herzliya (Fattal, 325r, June 2026). Next: iter616 → BUILD (monetization).
 

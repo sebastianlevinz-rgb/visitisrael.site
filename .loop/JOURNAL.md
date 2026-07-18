@@ -9478,3 +9478,32 @@ Mode: RESEARCH. No code shipped.
 **P-items**: 307 → 313 active.
 
 Next: iter616 → BUILD (monetization). 616%5==1.
+
+## iter616 — 2026-07-18T16:45Z — BUILD (monetization)
+
+Mode: BUILD (monetization rotation, 616%5==1).
+
+**Item shipped**: `/skyfield-extreme-park-jaffa` — SkyField Extreme Park Jaffa guide.
+
+**Backlog selection**: Several BACKLOG P-items confirmed already shipped on inspection (israel-in-autumn/iter386, beer-sheva-guide/iter328, birdwatching-in-israel, purim-in-israel — BACKLOG stale). First genuinely unshipped monetization-category item found: SkyField Extreme Park Jaffa (P2/S, seo-content+monetization, backlog line ~603). File `/skyfield-extreme-park-jaffa.md` did not exist pre-iter.
+
+**Guide content**:
+- Title: "SkyField Extreme Park Jaffa: Via Ferrata, Bungee & Views (2026)" (63c)
+- Description: "SkyField Bloomfield Stadium Jaffa: Via Ferrata, 35m bungee jump, giant swing, Mediterranean views. Israel's first fully accessible extreme park." (144c)
+- Hero: /images/regions/tel-aviv/jaffa.jpg
+- Category: Activities
+- 5 body sections: Via Ferrata routes, Bungee jump (35m), Giant swing, Accessibility design, Tickets (3-tier table ₪120/360/495), Getting there (bus/foot/car/Gett), Combining with Jaffa, Who it's for
+- 3 CTAs: GYG (Jaffa adventure activities), Viator (extreme Israel experiences), Booking (Jaffa hotels)
+- 6 FAQs: what it is, ticket options, accessibility, getting there, booking/dress requirements, nearby Jaffa activities
+- Cross-links: /jaffa-travel-guide, /israel-adventure-sports, /israel-accessible-travel
+- No H1 in body; no fabricated exact prices (ranges at launch with "verify current" caveat); no fabricated ratings/counts
+
+**Gate**: pnpm check 0 errors, 0 warnings; build 780 pages (+1); 1089/1089 e2e pass.
+
+**Ship**: committed 49ab3f6 directly to master (branch auto/beer-sheva-guide had no commits — file was in working tree on master), pushed.
+
+**Honesty notes**: Ticket prices cited as "approximately ₪120/360/495 at opening prices" with explicit instruction to verify current pricing; no ratings, review counts, or exact prices fabricated. SkyField described as "opened in 2025" (consistent with available data) with "Israel's first fully accessible" distinction sourced from venue's own accessibility-first marketing claims.
+
+**P-items**: 313 → 312 active.
+
+Next: iter617 → BUILD (seo-content). 617%5==2. BACKLOG stale-item cleanup flagged for next REVIEW pass (iter619 → 619%5==4).
