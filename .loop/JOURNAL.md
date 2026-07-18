@@ -9379,3 +9379,22 @@ False leads (100+): All rejected candidates confirmed in BACKLOG or SHIPPED. See
 
 No shipping (RESEARCH mode). 303 → 310 active P-items.
 Next: iter611 → BUILD (611%5==1; monetization category).
+
+## 2026-07-18T12:10Z · iter 611 · BUILD (seo-content+monetization) · caesarea-concerts-events
+
+**Item:** `/caesarea-concerts-events` — Caesarea Roman Theatre concerts & events guide (P2/S, iter335 research). 611%5==1 → BUILD (monetization); monetization category had caesarea-concerts-events as the top active item.
+
+**Content implemented:** New standalone guide `src/content/guides/caesarea-concerts-events.md`. Concert season overview table (international rock/pop ₪300-600+; Israeli pop/rock ₪150-400; Classical/orchestras ₪100-250; Jazz & Blues ₪120-280; Comedy/theatrical ₪100-200). Ticket buying 4-step guide (caesarea.com as authoritative source → ticketmaster.co.il/eventim.co.il/leaan.co.il). Getting there: car (Highway 2, 45 min from TLV / 30 min from Haifa; 60-90 min early arrival for parking) + train (northbound coastal service to Caesarea–Pardes Hanna, 10-min taxi; critical no-return-trains-after-11pm warning; pre-book taxi). Seat tier guide (lower orchestra = intimacy + highest price; middle tier = popular price/view balance; upper terraces = sea-view backdrop, lowest price; all have good acoustics). Seat comfort note (stone = hard; bring cushion or rent ~₪20). Food and drink (harbour restaurants recommended pre-show; Zichron Yaakov on route). Caesarea Festival of Light section (winter January–March, separate to summer concerts; light/projection mapping on aqueduct, harbour, theatre). Full-day combination timetable (10:00 National Park → 11:30 Aqueduct Beach → 13:00 lunch → 14:30 Ralli Museum → 16:00 Zichron Yaakov optional → 19:30 pre-show → 21:00 concert → 23:00 end). Overnight options (Caesarea hotel district vs Zichron Yaakov boutique guesthouses 12 km south). Cross-links section wired in body.
+
+**Frontmatter:** verdictName/verdictQuery set; 3 affiliateCtas (getyourguide Caesarea day tour, viator Caesarea+Zichron Yaakov wine, booking Zichron Yaakov hotels); 2 events entries (Caesarea Summer Concert Series 2026 Apr-Oct, Festival of Light 2026 Jan-Mar); 7 FAQs. YAML apostrophe issues caught and fixed (4 strings switched from single-quote to double-quote YAML to handle apostrophes in "Caesarea's").
+
+**Cross-links wired:**
+- `caesarea-guide.md`: updated practical tips concert paragraph (April–October dates, link to /caesarea-concerts-events); added /caesarea-concerts-events to cross-links line
+- `Footer.astro`: new `<li>` after israel-music-festivals pointing to /caesarea-concerts-events
+- `israel-events-festivals.md`: appended Caesarea concerts sentence to "For a deeper look…" cross-link paragraph
+
+**Gate:** pnpm check 0 errors ✓ · pnpm build 777 pages (+1 from 776) ✓ · pnpm test:e2e 1085/1085 pass ✓
+**Ship:** committed 72b5eff to master, pushed to origin. CI in_progress at push time — consistent with prior success pattern across all 610 prior iterations.
+**Prod:** Vercel deploy triggered on push; Lighthouse + CI workflows in_progress (normal).
+**BACKLOG:** [P2] caesarea-concerts-events → [SHIPPED iter611 → 72b5eff]. 310 → 309 active P-items.
+**Next:** iter612 → BUILD (612%5==2; seo-content category).
