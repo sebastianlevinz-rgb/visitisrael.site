@@ -9525,3 +9525,28 @@ Cross-links added from: kosher-food-guide.md, vegan-vegetarian-israel.md, israel
 **P-items**: active P-items unchanged (guide was P2/S — marked shipped).
 
 Next: iter618 → BUILD (618%5==3; tools category).
+
+## 2026-07-18T18:45Z · iter 618 · BUILD (tools→seo-content fallthrough) · solo-travel-israel
+
+**What**: New /solo-travel-israel — practical guide for all solo travellers (not solo-female-specific).
+Tools category had 0 ready items (all 11 tools shipped iters 57–138); fell through to seo-content.
+Picked P3/S backlog item "Solo travel in Israel guide" [iter20 research].
+
+**Content**: City-by-city base selection (TLV/Jerusalem/Haifa/Eilat), meeting people (Abraham Hostels,
+group day tours, free walking tours), Shabbat transport planning (trains stop at sunset; sherut bridge),
+accommodation tips for solo budgets (hostels, guesthouses, zimmer), getting around solo (rail/sherut/
+rental car for Galilee-Golan-Negev circuits), safety notes (government advisory framing, no guarantees),
+7-day suggested itinerary. 7 FAQs covering safety, best city, meeting people, Shabbat, transport,
+cost, and language. 3 CTAs: Abraham Hostels, GYG small-group tours, Booking accommodation.
+
+**Gate**: pnpm check 0 errors; pnpm build 782 pages (+1); 1090/1090 e2e pass.
+
+**Ship**: squash-merged auto/solo-travel-israel → master; committed 1aaac57; pushed to origin/master.
+CI in_progress at push time — consistent with 618-iteration prior success pattern.
+
+**Cross-links**: Added "/solo-travel-israel" link to solo-female-travel-israel.md cross-links section
+and to backpacking-israel.md Further Reading section.
+
+**P-items**: "Solo travel in Israel guide" (P3/S) moved to DONE.
+
+Next: iter619 → REVIEW (619%5==4).
