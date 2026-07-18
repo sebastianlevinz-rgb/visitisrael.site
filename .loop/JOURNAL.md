@@ -9600,3 +9600,28 @@ Next: iter620 → RESEARCH (620%5==0, pass #126).
 ~94%. Next research pass should focus on: 2027 attraction openings (Tel Aviv Museum expansion, National Museum of Israel re-opening), India/South Africa/Morocco nationality guides, content accuracy audit of event dates for Winter/Spring 2027.
 
 **Next iteration**: 621 → BUILD (621%5==1 → monetization rotation)
+
+## iter621 — 2026-07-18T21:50Z — BUILD (monetization) · haifa-cruise-terminal-guide
+
+**Mode**: BUILD — monetization rotation (621%5==1).
+**Item**: /haifa-cruise-terminal-guide (P2/S, seo-content+monetization; added to BACKLOG iter620)
+
+### What shipped
+New guide `/haifa-cruise-terminal-guide` — post-May-2026 Haifa cruise terminal arrival and shore excursion guide for cruise passengers. Content:
+- May 2026 terminal upgrade facts: NIS 16M (~$5.5M); 5,500m²; doubles capacity; 28 immigration booths; 600m² duty-free; 1,300m² security zone; cafeteria, Wi-Fi, currency exchange, bus terminal
+- Transport table from terminal: foot/shuttle (5min, free), taxi to Bahá'í Gardens (₪30–50, 10–15min), train HaMifratz→Akko (₪12–15, 20min), train→TLV (₪30–40, 55–65min)
+- Ranked shore excursions: Bahá'í Gardens (half-day), Old Akko by train (classic), Caesarea by car (45min south), Nazareth by car (35–45min), Rosh Hanikra (45min, 3-site circuit)
+- Jerusalem caution: 2.5–3h each way = very tight for cruise day; Ashdod port far better for Jerusalem
+- 7 FAQs: what changed 2026; getting to the city; best excursions; Jerusalem feasibility; ship vs independent; facilities; immigration wait time
+- 3 CTAs: GYG (shore excursions Haifa), Viator (Haifa+Akko+Rosh Hanikra northern circuit), Booking (Haifa hotels)
+- Cross-links added in: cruise-shore-excursions-israel.md (forward reference paragraph), haifa-travel-guide.md (updated cruise ship arrival paragraph)
+
+### Gate
+pnpm check 0 errors; pnpm build 783 pages (+1 from 782); 1090/1090 e2e pass (ran ~6.9min vs cloud 5min cap — background run).
+
+### Ship
+feat(621): add Haifa cruise terminal guide (/haifa-cruise-terminal-guide) [auto-loop]
+SHA: 4cdd1a8 — squash-merged to master; pushed.
+CI in_progress at push time — consistent with prior success pattern across 621 iterations.
+
+**Next iteration**: 622 → BUILD (622%5==2 → seo-content rotation)
