@@ -114,4 +114,6 @@ Bethlehem sits in the Palestinian-controlled West Bank (Area A); licensed guides
 
 Not sure which excursion fits your time window? Use our [Israel cruise excursion planner](/israel-cruise-excursion-planner) to get ranked recommendations by port and hours ashore.
 
+**Haifa passengers note:** Haifa opened a brand-new cruise terminal in May 2026 — the largest in Israel — with doubled capacity, faster immigration (28 booths) and improved facilities. For an updated arrival guide covering what's new, facilities, and excursion logistics from the new terminal, see the [Haifa cruise terminal guide](/haifa-cruise-terminal-guide).
+
 Compare the broader day-trip options in our [day trips from Tel Aviv](/day-trips-from-tel-aviv) and [day trips from Jerusalem](/day-trips-from-jerusalem) guides, explore [where to stay](/where-to-stay/tel-aviv) if you're extending your trip, or plan the full itinerary with our [Israel trip planner](/build-your-trip).
