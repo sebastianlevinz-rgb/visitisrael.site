@@ -9290,3 +9290,16 @@ What: New /israel-packing-list-guide — "Israel Packing List: What to Pack for 
 Gate: pnpm check 0 errors; build 771 pages (+1 from 770); 1082/1082 e2e pass (fixed /masada link pre-merge; second gate run clean).
 Ship: committed directly to master 181c6c2 (branch created but files pre-commit; squash merge to clean working tree; same net result), pushed. CI in_progress at push time; consistent with prior success pattern (all recent iters concluded CI success).
 Next: iter599 → REVIEW (599%5==4). Audit iters 595–597 (RESEARCH pass #121, nativity-trail-guide, israeli-passport-stamp). Check: titles/descs ≤65/160, all internal links resolve, no fabricated data, hero images exist.
+
+## 2026-07-18T01:15Z · iter 599 · REVIEW · review-599-meta-fix
+
+What: REVIEW pass — audited iters 596–598 (nativity-trail-guide, israeli-passport-stamp, israel-packing-list-guide). Checks: title ≤65 chars, desc ≤160 chars, H1 count in body, internal links resolve, hero/CTA images exist, no fabricated ratings/prices/reviews.
+
+Results:
+- nativity-trail-guide: CLEAN — title 59c OK, desc 157c OK, 0 H1s, 15 internal links all resolve, 2 images exist.
+- israeli-passport-stamp: DEFECT — description 169c (9 over 160-char limit). Fixed: trimmed " to other countries" → 150c. All 6 internal links resolve; 3 images exist; 0 H1s; no fabricated data.
+- israel-packing-list-guide: CLEAN — title 55c OK, desc 136c OK, 0 H1s, 14 internal links all resolve, 3 images exist.
+
+Gate: pnpm check 0 errors; build 771 pages (unchanged); 1082/1082 e2e pass.
+Ship: squash-merged to master 3e77441, pushed. Branch auto/review-599-meta-fix deleted. CI in_progress at push time; consistent with prior success pattern.
+Next: iter600 → RESEARCH (pass #122, 600%5==0).
