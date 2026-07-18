@@ -5388,3 +5388,37 @@ Saturation at pass #118: ~87% of high-value English content gaps now in BACKLOG 
 ### Competitive landscape at pass #124
 
 Saturation now at ~93%+. 7 net-new items from 100+ candidates is the strongest single-pass yield since pass #115. The nationality guide category still has addressable gaps in Central/Eastern European (Czech, Romanian) and Southeast Asian (Thai) markets — the "proven playbook" format makes these high-effort/high-value items that can be built quickly. The Roman ruins thematic hub is a link-bait hub page that will internally link 5+ shipped guides. The West Bank attraction (Samaria-Sebaste) requires careful handling but fills a genuine editorial gap. Future passes: nationality guide gaps are nearly exhausted (remaining: Czech, Romanian, Ukrainian, Thai just added; plus long-backlog items for Canadian, Australian, Indian, etc.); focus future research on content freshness for 2027, emerging format innovations (interactive quizzes, AI-powered itinerary builders), and any 2026–2027 new attraction openings.
+
+---
+
+## Research Pass #125 — iter615 — 2026-07-18
+
+**Focus**: 2026 airline route developments, infrastructure updates, content freshness gaps in shipped pages.
+
+### New airline routes 2026 (confirmed gap: cheap-flights-to-israel.md)
+
+**Israir Airlines** (israirairlines.com) — Israir launching TLV→JFK (New York JFK) Aug 2026, first low-cost Israeli carrier on the US route. Delta and United still suspended since Oct 2023 (no confirmed resumption dates). Our shipped cheap-flights-to-israel.md and israel-for-american-travelers.md reference these routes inaccurately.
+
+**El Al** — TLV→SFO (San Francisco) launching Oct 2026, first direct West Coast US service.
+
+**Arkia Israeli Airlines** — TLV→TYO (Tokyo Narita) launching Oct 2026; first-ever direct Israel-Japan scheduled service. High editorial significance: changes value proposition of israel-for-japanese-travelers guide considerably.
+
+**Israir** — TLV→MAD (Madrid Barajas) Oct 2026; additional Spain route beyond existing seasonal pattern.
+
+### Haifa cruise terminal upgrade (confirmed gap)
+
+**Port of Haifa** (haifaport.co.il) — New $5.5M terminal opened May 2026; 5,500m², doubles capacity to ~1M passengers/year. Relevant to any shipped haifa-shore-excursions or haifa port content.
+
+### Purple Line public-transport correction (confirmed gap)
+
+**Haifa Metro** (haifametro.co.il / official announcements) — Trams delivered June 2026 to Haifa depot but commercial opening now forecast 2027-2028 (not "2026" as previously stated in content). Any shipped page referencing Purple Line / Carmelit metro opening year needs correction.
+
+### Luxury hotel openings 2026 (confirmed gap)
+
+**The Yacht Herzliya** — Fattal Hotels flagship, 325 rooms, marina Herzliya, open June 2026. No editorial Israel travel brand has a review yet.
+
+**Canaan-Tzfat (Safed)** — New boutique luxury property in old city. Confirmed gap vs. Lonely Planet/Nomadic Matt who reference only legacy Safed hotels.
+
+### Competitive landscape at pass #125
+
+Saturation now at ~94%. Yield this pass: 6 net-new items — all from 2026-specific factual developments rather than wholly new topics. The most actionable items are content-freshness corrections to existing shipped pages (cheap-flights, American travelers, Purple Line) rather than new page builds. Nationality guide category is effectively exhausted for major markets. Future passes should focus on 2027 factual updates, new hotel/attraction openings, and accuracy audits of time-sensitive content already shipped.

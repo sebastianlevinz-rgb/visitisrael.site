@@ -9446,3 +9446,35 @@ Gate: pnpm check 0 errors ✓; pnpm build 779 pages (unchanged) ✓; pnpm test:e
 Ship: f383fb4; pushed to master. CI in_progress at push time — consistent with prior success pattern.
 307 active P-items unchanged.
 Next: iter615 → RESEARCH (pass #125, 615%5==0).
+
+## iter615 — 2026-07-18T15:30Z — RESEARCH (pass #125)
+
+Mode: RESEARCH. No code shipped.
+
+**Focus**: 2026 airline route developments, Haifa infrastructure, Purple Line correction, luxury hotel openings — all content-freshness gaps in already-shipped pages.
+
+**Competitors analyzed**: Israir (israirairlines.com), El Al (elal.com), Arkia (arkia.com), Port of Haifa (haifaport.co.il), Haifa Metro official, Fattal Hotels, Lonely Planet luxury Israel section.
+
+**Key findings**:
+1. Israir TLV→JFK launching Aug 2026 — first low-cost Israeli carrier on US route. Delta+United still suspended since Oct 2023 (no confirmed return). Our cheap-flights-to-israel.md and israel-for-american-travelers.md need updates.
+2. El Al TLV→SFO launching Oct 2026 — new US West Coast gateway.
+3. Arkia TLV→TYO (Tokyo Narita) launching Oct 2026 — FIRST EVER direct Israel-Japan scheduled service. Significantly upgrades israel-for-japanese-travelers priority.
+4. Israir TLV→MAD Oct 2026 — additional Spain route.
+5. Purple Line commercial opening now 2027-2028 (trams delivered June 2026 to depot; not open yet). Need correction in any shipped page referencing "Purple Line opening 2026".
+6. Haifa cruise terminal: new $5.5M facility opened May 2026, 5,500m², doubles capacity to ~1M pax/yr.
+7. The Yacht Herzliya (Fattal, 325 rooms, marina, June 2026) — top-tier new luxury property not in our luxury-travel-israel.md.
+8. Canaan-Tzfat (Safed) — new boutique luxury property in old city.
+
+**Net-new BACKLOG items added**: 6
+- [P2] Update cheap-flights-to-israel.md — 2026 new routes (S)
+- [P2] Update israel-for-american-travelers.md — same route fixes (S)
+- [P3] Purple Line date correction — 2027-2028 not 2026 (S)
+- [P3] Haifa shore excursions terminal context (S)
+- [P3] israel-for-japanese-travelers priority upgrade: Arkia TYO (S)
+- [P3] luxury-travel-israel.md 2026 refresh: The Yacht Herzliya + Canaan-Tzfat (M)
+
+**Saturation**: ~94%. Yield now primarily from 2026-specific factual corrections rather than new topic discovery. Nationality guide category effectively exhausted for major markets.
+
+**P-items**: 307 → 313 active.
+
+Next: iter616 → BUILD (monetization). 616%5==1.
