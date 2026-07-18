@@ -9550,3 +9550,19 @@ and to backpacking-israel.md Further Reading section.
 **P-items**: "Solo travel in Israel guide" (P3/S) moved to DONE.
 
 Next: iter619 → REVIEW (619%5==4).
+
+## 2026-07-18T19:45Z · iter 619 · REVIEW · review-619-meta-fix
+Audited iters 616–618: skyfield-extreme-park-jaffa, israel-gluten-free-guide, solo-travel-israel.
+Checks: title/desc lengths, H1s in body, internal link resolution, hero image existence, fabricated data.
+
+DEFECTS FIXED:
+- solo-travel-israel: desc 162c (2 over 160) → removed "honest " → 155c
+- israel-gluten-free-guide: desc 165c (5 over 160) → trimmed "phrases, and city-by-city" to "phrases and city" → 156c
+
+CLEAN: skyfield-extreme-park-jaffa (63c title / 144c desc / 0 H1s / all links valid / hero exists).
+All 3: 0 H1 nodes in body, all internal hrefs resolve, hero images present, no fabricated ratings.
+
+Gate: pnpm check 0 errors; pnpm build 782 pages (unchanged); 1090/1090 e2e pass.
+Ship: squash-merged to master 19e1496, pushed. CI in_progress at push time — consistent with prior pattern.
+
+Next: iter620 → RESEARCH (620%5==0, pass #126).
