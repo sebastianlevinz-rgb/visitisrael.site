@@ -1,13 +1,15 @@
 # LOOP STATE
 
-- iteration: 608
-- lastMode: BUILD
-- lastItem: bga-transfers-sherut-update
-- lastResult: SHIPPED 4f143ec. /ben-gurion-airport-transfers — BGA transfers sherut accuracy review (P2/S technical/content-update). Nesher (BGA→Jerusalem) + Amal (BGA→Haifa) sherut services confirmed discontinued 2026. Removed sherut rows from comparison tables, section headings, FAQs, body text across EN/FR/DE guides and [route].astro BGA→Jerusalem + BGA→Tel Aviv route pages. pnpm check 0 errors; build 776 pages (unchanged); 1085/1085 e2e pass. CI in_progress at push time (PR#30); consistent with prior success pattern. 300 active P-items (unchanged — content-update, not new page).
-- nextRotationCategory: 609%5==4 → REVIEW
+- iteration: 609
+- lastMode: REVIEW
+- lastItem: review-609-meta-fix
+- lastResult: SHIPPED ff57c88. REVIEW pass: audited iter606-608 (beit-guvrin-caves-guide, schottenstein-campus-jerusalem, bga-transfers-sherut-update). 3 defects found and fixed: beit-guvrin desc 162c→156c; schottenstein title 74c→54c + desc 202c→140c; bga-transfers desc still mentioned 'sheruts' after iter608 body removal → fixed for honesty (154c→145c). pnpm check 0 errors; build 776 pages (unchanged); 1085/1085 e2e pass. 300 active P-items (unchanged).
+- nextRotationCategory: 610%5==0 → RESEARCH
 - higgsfieldSpent: 0
-- updatedAt: 2026-07-18T08:50Z
+- updatedAt: 2026-07-18T09:45Z
 - branch context: work on master; feature work on auto/<slug>
+
+Notes: iter609 REVIEW — review-609-meta-fix. SHIPPED ff57c88. Audited iters 606-608. beit-guvrin-caves-guide DEFECT: desc 162c (2 over) → fixed to 156c by removing 'Roman ' before amphitheatre. schottenstein-campus-jerusalem DEFECT: title 74c (9 over) → 'Schottenstein National Campus Jerusalem: Visitor Guide' 54c; desc 202c (42 over) → "Jerusalem's Schottenstein Campus: IAA archaeology collection, Dead Sea Scroll fragments, Safdie architecture. Tickets, hours and directions." 140c. ben-gurion-airport-transfers DEFECT: desc 154c technically under 160c limit but still mentioned 'sheruts' after iter608 body update removed all sherut content — honesty/accuracy misalignment; fixed by removing 'and sheruts' from description (145c). All 3 guides: 0 H1s in body, all internal links present, hero images exist. No fabricated data found. Gate: pnpm check 0 errors; pnpm build 776 pages unchanged; 1085/1085 e2e pass. pnpm push; CI in_progress at push time. 300 active P-items unchanged. Next: iter610 → RESEARCH (610%5==0, pass #124).
 
 Notes: iter608 BUILD (technical/content-update) — bga-transfers-sherut-update. SHIPPED 4f143ec. PR#30. Research confirmed: Nesher sherut (BGA→Jerusalem) discontinued 2026; Amal sherut (BGA→Haifa) discontinued 2026. Tel Aviv sherut status unverified — conservatively removed from all routes. Changes: ben-gurion-airport-transfers.md (EN) — removed sherut table row, changed section heading "Taxis, sheruts & the 485 bus" → "Taxis & the 485 bus", removed sherut body text, fixed FAQ1 (Tel Aviv) + FAQ3 (Shabbat); fr/ben-gurion-airport-transfers.md — matching FR updates; de/ben-gurion-airport-transfers.md — matching DE updates; [route].astro — removed sherut rows from BGA→Jerusalem and BGA→Tel Aviv rows arrays, removed sherut from best[] bullets, updated note strings, updated FAQ answers for Shabbat on both routes. All updatedAt bumped to 2026-07-18. pnpm check 0 errors; build 776 pages (unchanged); local e2e running at commit time; CI in_progress; consistent with prior success pattern. 300 active P-items unchanged (update not new page). Next: iter609 → REVIEW (609%5==4).
 
@@ -16,5 +18,5 @@ Notes: iter607 BUILD (seo-content) — schottenstein-campus-jerusalem. SHIPPED a
 Notes: iter606 BUILD (seo-content+monetization) — beit-guvrin-caves-guide. SHIPPED 33906eb. Monetization rotation → monetization section still largely SHIPPED → fell through to seo-content+monetization tagged item (P2/S beit-guvrin-caves-guide, iter215 research). UNESCO Bell Caves + Sidonian Burial Caves (Hellenistic painted murals, hunting scenes, exotic animals, Greek inscriptions); columbaria (2,000+ dove niches); Roman amphitheatre; Tel Maresha. INPA pass valid; car essential; torch recommended; Sidonian tombs access note (may need advance INPA booking — honesty enforced). 3 broken links fixed during gate: /jerusalem-day-trips→/day-trips-from-jerusalem; /jerusalem-travel-guide→/jerusalem; /masada-guide→/masada-visitor-guide. CI in_progress at push time; consistent with prior success pattern. Next: iter607 → BUILD (seo-content). 607%5==2 → seo-content category.
 
 Cron b7325b16 hourly @ :17. Loop history: 19 tools + sitemap-lastmod + link-checker(+depth) + i18n
-Phase0/1a/1b/1c/2 Batches1-18(COMPLETE) + 44 review passes + 3 technical (event-schema + meta-trim + locale-links) + 71 EN guides + 7 tools-monetization + 2 comparisons;
+Phase0/1a/1b/1c/2 Batches1-18(COMPLETE) + 45 review passes + 3 technical (event-schema + meta-trim + locale-links) + 71 EN guides + 7 tools-monetization + 2 comparisons;
 research iters 5/10/20/30/35/40/45/50/55/60/65/70/75/80/85/90/95/100/105/110/115/120/125/130/135/140/145/150/155/160/165/170/175/180/185/190/195/200/205/210/215/220/225/230/235/240/245/250/255/260/265/270/275/280/285/290/295/300/305/310/315/320/325/330/335/340/345/350/355/360/365/370/375/380/385/390/395/400/405/410/420/425/430/435/440/445/450/455/460/465/470/480/485/490/495/500/505/510/515/520/525/535/540/545/550/555/560/565/570/575/580/585/590/595/600/605.
