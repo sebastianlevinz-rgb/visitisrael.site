@@ -1,13 +1,25 @@
 # LOOP STATE
 
-- iteration: 613
-- lastMode: BUILD
-- lastItem: israel-anzac-heritage
-- lastResult: SHIPPED 0a6dd6f. New /israel-anzac-heritage — ANZAC heritage trail guide. 779 pages (+1); 1089/1089 e2e pass; 0 check errors. Tools category empty (all shipped/stale) → fell through to seo-content P2/S. Cross-links: beer-sheva-guide.md (ANZAC section → new guide), day-trips-from-tel-aviv.md (Beer-Sheva/ANZAC entry added). 308 → 307 active P-items.
-- nextRotationCategory: 614%5==4 → REVIEW
+- iteration: 614
+- lastMode: REVIEW
+- lastItem: review-614-meta-fix
+- lastResult: SHIPPED f383fb4. Audited iters 611-613 (caesarea-concerts-events, israel-for-czech-travelers, israel-anzac-heritage). 1 DEFECT: israel-anzac-heritage desc 172c (12 over limit) → fixed to 146c. All 3: 0 H1s, all internal links valid, all hero/CTA images exist, no fabricated data. 779 pages unchanged; 1089/1089 e2e pass; 0 check errors. 307 active P-items unchanged.
+- nextRotationCategory: 615%5==0 → RESEARCH (pass #125)
 - higgsfieldSpent: 0
-- updatedAt: 2026-07-18T13:55Z
+- updatedAt: 2026-07-18T14:50Z
 - branch context: work on master; feature work on auto/<slug>
+
+Notes: iter614 REVIEW — review-614-meta-fix. SHIPPED f383fb4. Audited iters 611-613 (caesarea-concerts-events iter611, israel-for-czech-travelers iter612, israel-anzac-heritage iter613). Checks: title ≤65c, desc ≤160c, H1 count in body, internal links resolve, hero images + CTA images exist, no fabricated data.
+
+Results:
+- caesarea-concerts-events (iter611): CLEAN — title 47c ✓; desc 154c ✓; 0 H1s; all internal links resolve (/caesarea-guide, /israel-events-festivals, /israel-music-festivals, /israel-in-summer, /haifa-travel-guide); all 4 images exist; concert history note (Rolling Stones/Elton John/Paul McCartney) is consistent with venue's documented history.
+- israel-for-czech-travelers (iter612): CLEAN — title 45c ✓; desc 150c ✓; 0 H1s; all internal links resolve (/first-time-in-israel, /is-israel-safe, /cheap-flights-to-israel, /visa-information, /israel-travel-insurance, /israel-esim, /israel-money-guide, /yad-vashem-visitor-guide); all hero/CTA images exist; rating/reviews frontmatter fields not rendered to users (AffiliateCard comment confirms); content factually grounded (MZV advisory framing, ETA-IL since Jan 2025, Type E→H adapter info).
+- israel-anzac-heritage (iter613): DEFECT — desc 172c (12 over 160 limit). Fixed: "Complete guide to Israel's ANZAC heritage: Beersheba War Cemetery, 1917 Light Horse Charge, CWGC cemeteries in Haifa and Ramla, ANZAC Day service." (146c). Switched single→double quote YAML to carry apostrophe safely. /haifa/wadi-nisnas link confirmed valid via [region]/[attraction].astro dynamic route (haifa-wadi-nisnas.md, region: haifa). All images exist.
+
+Gate: pnpm check 0 errors; pnpm build 779 pages (unchanged); pnpm test:e2e 1089/1089 pass.
+Ship: f383fb4; pushed to master. CI in_progress at push time — consistent with prior success pattern across 613 prior iterations.
+307 active P-items unchanged (meta-only fix).
+Next: iter615 → RESEARCH (615%5==0, pass #125).
 
 Notes: iter613 BUILD (seo-content — tools empty, fell through) — israel-anzac-heritage. SHIPPED 0a6dd6f. New /israel-anzac-heritage — Israel ANZAC Heritage Trail guide. Covers: Beersheba War Cemetery CWGC (~1,241 graves), Light Horsemen Memorial, Ottoman Railway Station, Haifa War Cemetery CWGC (~300 graves), Ramla War Cemetery CWGC (~3,000 graves), 31 Oct ANZAC dawn service, 25 Apr ANZAC Day service, one-day self-drive circuit from TLV. 3 CTAs: GYG (ANZAC heritage tours), DiscoverCars (self-drive circuit), Booking (Beer-Sheva hotels). 7 FAQs. Events schema: 31 Oct 2026 ANZAC dawn service. tools category had only STALE DUPLICATE item (shabbat-time-tool — overlaps with iter78+iter138 existing tools); fell through monetization (all shipped) → seo-content P2/S israel-anzac-heritage. Link fix required: /wadi-nisnas-haifa → /haifa/wadi-nisnas (attraction, not guide). CI in_progress at push time — consistent with prior success pattern across 612 prior iterations. 308 → 307 active P-items. Next: iter614 → REVIEW (614%5==4).
 
@@ -20,5 +32,5 @@ Notes: iter609 REVIEW — review-609-meta-fix. SHIPPED ff57c88. Audited iters 60
 Notes: iter608 BUILD (technical/content-update) — bga-transfers-sherut-update. SHIPPED 4f143ec. PR#30. Research confirmed: Nesher sherut (BGA→Jerusalem) discontinued 2026; Amal sherut (BGA→Haifa) discontinued 2026. Tel Aviv sherut status unverified — conservatively removed from all routes. Changes: ben-gurion-airport-transfers.md (EN) — removed sherut table row, changed section heading "Taxis, sheruts & the 485 bus" → "Taxis & the 485 bus", removed sherut body text, fixed FAQ1 (Tel Aviv) + FAQ3 (Shabbat); fr/ben-gurion-airport-transfers.md — matching FR updates; de/ben-gurion-airport-transfers.md — matching DE updates; [route].astro — removed sherut rows from BGA→Jerusalem and BGA→Tel Aviv rows arrays, removed sherut from best[] bullets, updated note strings, updated FAQ answers for Shabbat on both routes. All updatedAt bumped to 2026-07-18. pnpm check 0 errors; build 776 pages (unchanged); local e2e running at commit time; CI in_progress; consistent with prior success pattern. 300 active P-items unchanged (update not new page). Next: iter609 → REVIEW (609%5==4).
 
 Cron b7325b16 hourly @ :17. Loop history: 19 tools + sitemap-lastmod + link-checker(+depth) + i18n
-Phase0/1a/1b/1c/2 Batches1-18(COMPLETE) + 45 review passes + 3 technical (event-schema + meta-trim + locale-links) + 71 EN guides + 7 tools-monetization + 2 comparisons;
-research iters 5/10/20/30/35/40/45/50/55/60/65/70/75/80/85/90/95/100/105/110/115/120/125/130/135/140/145/150/155/160/165/170/175/180/185/190/195/200/205/210/215/220/225/230/235/240/245/250/255/260/265/270/275/280/285/290/295/300/305/310/315/320/325/330/335/340/345/350/355/360/365/370/375/380/385/390/395/400/405/410/420/425/430/435/440/445/450/455/460/465/470/480/485/490/495/500/505/510/515/520/525/535/540/545/550/555/560/565/570/575/580/585/590/595/600/605.
+Phase0/1a/1b/1c/2 Batches1-18(COMPLETE) + 46 review passes + 3 technical (event-schema + meta-trim + locale-links) + 71 EN guides + 7 tools-monetization + 2 comparisons;
+research iters 5/10/20/30/35/40/45/50/55/60/65/70/75/80/85/90/95/100/105/110/115/120/125/130/135/140/145/150/155/160/165/170/175/180/185/190/195/200/205/210/215/220/225/230/235/240/245/250/255/260/265/270/275/280/285/290/295/300/305/310/315/320/325/330/335/340/345/350/355/360/365/370/375/380/385/390/395/400/405/410/420/425/430/435/440/445/450/455/460/465/470/480/485/490/495/500/505/510/515/520/525/535/540/545/550/555/560/565/570/575/580/585/590/595/600/605/610.

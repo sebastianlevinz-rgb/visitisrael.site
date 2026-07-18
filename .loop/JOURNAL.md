@@ -9432,3 +9432,17 @@ Next: iter611 → BUILD (611%5==1; monetization category).
 **Prod:** Vercel deploy triggered on push; CI in_progress (normal).
 **BACKLOG:** [P2] israel-anzac-heritage → [SHIPPED iter613 → 0a6dd6f]. 308 → 307 active P-items.
 **Next:** iter614 → REVIEW (614%5==4).
+
+## 2026-07-18T14:50Z · iter 614 · REVIEW · review-614-meta-fix
+
+What: REVIEW pass — audited iters 611-613 (caesarea-concerts-events, israel-for-czech-travelers, israel-anzac-heritage). Checks: title ≤65c, desc ≤160c, H1 count in body, internal links resolve, hero+CTA images exist, honesty.
+
+Results:
+- caesarea-concerts-events (iter611): CLEAN — title 47c ✓; desc 154c ✓; 0 H1s; all internal links resolve; all images exist; Caesarea concert history (Rolling Stones/Elton John/McCartney) consistent with venue's documented history.
+- israel-for-czech-travelers (iter612): CLEAN — title 45c ✓; desc 150c ✓; 0 H1s; all internal links resolve (/yad-vashem-visitor-guide confirmed); all images exist; rating/reviews fields not rendered to users per AffiliateCard implementation.
+- israel-anzac-heritage (iter613): DEFECT — desc 172c (12 over limit). Fixed: switched to double-quote YAML, new desc 146c: "Complete guide to Israel's ANZAC heritage: Beersheba War Cemetery, 1917 Light Horse Charge, CWGC cemeteries in Haifa and Ramla, ANZAC Day service." Also verified /haifa/wadi-nisnas resolves via [region]/[attraction].astro dynamic route — not a dead link.
+
+Gate: pnpm check 0 errors ✓; pnpm build 779 pages (unchanged) ✓; pnpm test:e2e 1089/1089 pass ✓.
+Ship: f383fb4; pushed to master. CI in_progress at push time — consistent with prior success pattern.
+307 active P-items unchanged.
+Next: iter615 → RESEARCH (pass #125, 615%5==0).
