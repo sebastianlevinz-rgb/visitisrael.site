@@ -1,6 +1,6 @@
 ---
-title: 'Schottenstein National Campus for the Archaeology of Israel: Visitor Guide'
-description: 'Complete visitor guide to the Schottenstein National Campus in Jerusalem — Moshe Safdie architecture, IAA archaeology collection, Dead Sea Scroll fragments, live conservation labs, location and tickets.'
+title: 'Schottenstein National Campus Jerusalem: Visitor Guide'
+description: "Jerusalem's Schottenstein Campus: IAA archaeology collection, Dead Sea Scroll fragments, Safdie architecture. Tickets, hours and directions."
 heroImage: /images/sub-destinations/jerusalem/israel-museum.jpg
 category: Destinations
 updatedAt: 2026-07-18

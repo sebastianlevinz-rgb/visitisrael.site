@@ -1,6 +1,6 @@
 ---
 title: 'Beit Guvrin & Maresha Caves: Complete Visitor Guide'
-description: 'Beit Guvrin guide: UNESCO Bell Caves, Sidonian Burial Caves, columbaria, Roman amphitheatre. INPA pass valid. Practical tips, hours, getting there from Jerusalem.'
+description: 'Beit Guvrin guide: UNESCO Bell Caves, Sidonian Burial Caves, columbaria, amphitheatre. INPA pass valid. Practical tips, hours, getting there from Jerusalem.'
 heroImage: /images/regions/jerusalem/hero.jpg
 category: Nature
 updatedAt: 2026-07-18
