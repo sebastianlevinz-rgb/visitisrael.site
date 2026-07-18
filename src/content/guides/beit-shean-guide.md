@@ -157,4 +157,4 @@ For rental car comparison, see the [car rental guide for Israel](/car-rental-isr
 
 ---
 
-See also: [Beit Alfa Byzantine Synagogue](/beit-alfa-guide) · [Water hiking in Israel](/water-hiking-israel) · [Israel National Parks Pass](/israel-national-parks-pass) · [Tel Megiddo (Armageddon) guide](/megiddo-jezreel-valley-guide) · [Day trips from Haifa](/day-trips-from-haifa) · [Best hotels — Sea of Galilee](/best-hotels-sea-of-galilee) · [Galilee tours compared](/galilee-tours-compared) · [Car rental in Israel](/car-rental-israel) · [Beit She'arim UNESCO catacombs](/beit-shearim-guide)
+See also: [Belvoir Fortress (Kokhav HaYarden)](/belvoir-fortress) · [Beit Alfa Byzantine Synagogue](/beit-alfa-guide) · [Water hiking in Israel](/water-hiking-israel) · [Israel National Parks Pass](/israel-national-parks-pass) · [Tel Megiddo (Armageddon) guide](/megiddo-jezreel-valley-guide) · [Day trips from Haifa](/day-trips-from-haifa) · [Best hotels — Sea of Galilee](/best-hotels-sea-of-galilee) · [Galilee tours compared](/galilee-tours-compared) · [Car rental in Israel](/car-rental-israel) · [Beit She'arim UNESCO catacombs](/beit-shearim-guide)

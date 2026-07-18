@@ -615,6 +615,7 @@ const ROUTES = [
   '/nativity-trail-guide',
   '/israeli-passport-stamp',
   '/soreq-cave-guide',
+  '/belvoir-fortress',
 ];
 
 for (const route of ROUTES) {
