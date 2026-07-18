@@ -95,6 +95,8 @@ On **31 October each year**, an official dawn service is held at the cemetery at
 
 A second Anzac memorial — a bronze statue of a Light Horse trooper — stands in the city's main park (HaNegev Park), donated by the Australian War Memorial in 2008.
 
+For a complete guide to the ANZAC sites across Israel — including the CWGC cemeteries at Ramla and Haifa, the ANZAC Day ceremonies, and a one-day heritage circuit from Tel Aviv — see the [Israel ANZAC heritage trail guide](/israel-anzac-heritage).
+
 ---
 
 ## The Ottoman Old City

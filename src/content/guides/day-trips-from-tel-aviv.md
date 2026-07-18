@@ -55,6 +55,7 @@ faqs:
 - **[Herzliya](/herzliya-guide)** — *~20 min by Green Line light rail.* Apollonia National Park's clifftop Crusader ruins, the Marina waterfront for lunch, and Acadia Beach. One of the most undervisited INPA sites within easy reach of Tel Aviv.
 - **[Netanya](/netanya-guide)** — *~45 min by train on the coastal line.* Cliff-top promenade, 14 km of Mediterranean beach, the Stern Diamond Factory tour and a Franco-Israeli café culture unlike anywhere else in Israel.
 - **[Latrun](/latrun-guide)** — *~40 min by car, on Route 1.* The [Yad La-Shiryon tank museum](/latrun-guide) (200+ armored vehicles), the 1890 Trappist monastery winery and [Mini Israel](/latrun-guide) scale-model park — all within 3 km of each other at the Route 1 junction. A natural stop on the drive between Tel Aviv and Jerusalem.
+- **[Beer-Sheva](/beer-sheva-guide) & ANZAC heritage** — *~1 hr by train.* Israel's Negev capital holds the CWGC Beersheba War Cemetery — the site of the 1917 Australian Light Horse Charge and an annual 31 October dawn service. Combine with Tel Be'er Sheva UNESCO archaeological site and the IAF Air Force Museum. See the full [Israel ANZAC heritage trail guide](/israel-anzac-heritage).
 - **The [Galilee](/galilee) & [Nazareth](/nazareth)** — *longer.* Better with an early start or a guide.
 
 ## How to do them

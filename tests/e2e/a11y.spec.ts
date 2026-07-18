@@ -205,6 +205,7 @@ const ROUTES = [
   '/israel-agritourism-guide',
   '/israel-jordan-itinerary',
   '/beer-sheva-guide',
+  '/israel-anzac-heritage',
   '/ein-kerem-jerusalem-guide',
   '/eilat-nightlife',
   '/city-of-david-jerusalem',

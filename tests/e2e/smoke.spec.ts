@@ -605,6 +605,7 @@ const ROUTES = [
   '/jesus-trail-israel',
   '/israel-archaeology-experience',
   '/zionist-heritage-trail',
+  '/israel-anzac-heritage',
   '/jerusalem-trail',
   '/israel-honeymoon',
   '/church-of-nativity-guide',
