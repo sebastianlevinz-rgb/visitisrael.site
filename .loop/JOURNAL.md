@@ -9398,3 +9398,20 @@ Next: iter611 → BUILD (611%5==1; monetization category).
 **Prod:** Vercel deploy triggered on push; Lighthouse + CI workflows in_progress (normal).
 **BACKLOG:** [P2] caesarea-concerts-events → [SHIPPED iter611 → 72b5eff]. 310 → 309 active P-items.
 **Next:** iter612 → BUILD (612%5==2; seo-content category).
+
+## 2026-07-18T12:50Z · iter 612 · BUILD (seo-content) · israel-for-czech-travelers
+
+**Item:** `/israel-for-czech-travelers` — Czech visitors nationality guide (P3/S, iter610 research). 612%5==2 → BUILD (seo-content); highest-priority ready seo-content item.
+
+**Content implemented:** New standalone guide `src/content/guides/israel-for-czech-travelers.md`. Sections: MZV advisory (mzv.gov.cz link; never paste advisory text), Flights from Czech Republic (El Al PRG→TLV direct ~4h30m; Wizz Air seasonal; connections via VIE/AMS/FRA/WAW; typical 3,000–7,000 CZK return), ETA-IL (₪25/~175CZK/~€7; 72h advance; multi-trip 2yr; apply at israel-entry.piba.gov.il), Time zone (+1h year-round; daylight saving note), Health insurance gap (veřejné zdravotní pojištění NOT valid outside EU/EEA; private travel insurance essential), Banking (Czech Visa/MC fully accepted at Israeli ATMs; Revolut/Wise recommended; CZK not exchangeable in most Israeli banks → convert to EUR/USD or use TLV airport ATMs), Power adapter (Type E Czech → Type H Israel; same 230V; plug adapter only, no transformer), Mobile (EU roaming doesn't apply in Israel; local SIM ₪50-90/~330-600CZK; eSIM option), Czech-Israeli historical connections (Josefov Prague Jewish Quarter UNESCO; Terezín; 1948 Czech arms to Israel; Masaryk's Zionist support; Czech among first to recognize Israel; Beit Terezín kibbutz; Yad Vashem Czech Jewish archive), Embassy contacts (DROZD registration; mzv.gov.cz/telaviv), Quick-reference table (MZV advisory / ETA-IL / time zone / voltage / currency / health insurance / emergency).
+
+**Frontmatter:** 6 FAQs (visa/ETA-IL, MZV advisory, health insurance, mobile, driving, power adapter); 3 affiliateCtas (booking TLV hotels, getyourguide Israel tours, safetywing travel insurance — critical for the health insurance gap angle); ctaHeading set.
+
+**Cross-links wired:**
+- `first-time-in-israel.md`: appended Czech visitors to country-specific guides list in "Next steps" section
+
+**Gate:** pnpm check 0 errors ✓ · pnpm build 778 pages (+1 from 777) ✓ · pnpm test:e2e 1087/1087 pass ✓
+**Ship:** squash-merged auto/israel-for-czech-travelers → master as d115f2b, pushed to origin.
+**Prod:** CI (Lighthouse + CI workflows) in_progress at push time — consistent with prior success pattern.
+**BACKLOG:** [P3] israel-for-czech-travelers → [SHIPPED iter612 → d115f2b]. 309 → 308 active P-items.
+**Next:** iter613 → BUILD (613%5==3; tools category).
