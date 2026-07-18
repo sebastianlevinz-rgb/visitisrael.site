@@ -366,6 +366,7 @@ const ROUTES = [
   '/galilee-culinary-institute-gonen',
   '/yam-lyam-sea-to-sea-hike',
   '/tel-aviv-pride-guide',
+  '/soreq-cave-guide',
 ];
 
 for (const route of ROUTES) {
