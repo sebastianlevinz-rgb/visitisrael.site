@@ -1,6 +1,6 @@
 ---
 title: 'Israeli Passport Stamp: What Every Traveller Needs to Know (2026)'
-description: 'Does Israel stamp your passport? How the paper entry slip works, what happens at land borders, and how evidence of Israel travel affects future trips to other countries.'
+description: 'Does Israel stamp your passport? How the paper entry slip works, what happens at land borders, and how evidence of Israel travel affects future trips.'
 heroImage: /images/regions/tel-aviv/hero.jpg
 category: Planning
 updatedAt: 2026-07-17
