@@ -1,13 +1,15 @@
 # LOOP STATE
 
-- iteration: 636
+- iteration: 637
 - lastMode: BUILD
-- lastItem: israel-for-filipino-travelers
-- lastResult: SHIPPED 7e59f7f. New /israel-for-filipino-travelers guide — Israel travel guide for Philippine passport holders. ETA-IL (visa-exempt, ₪25, iaa.gov.il); flights from Manila (no direct yet; El Al TLV→MNL direct planned Oct 2026 freshness hook); Catholic pilgrimage circuit for Filipino Catholic groups (El Shaddai / Couples for Christ); GCash International not accepted; PhilHealth not valid abroad; power adapter (Type A/B → Type H; voltage compatible); OFW family visit logistics; embassy contacts. 6 FAQs; 3 CTAs (GYG pilgrimage + Booking + SafetyWing). Cross-links: first-time-in-israel + visa-information. 792 pages; 1093/1093 e2e pass; 0 check errors. CI in_progress at push time — consistent with prior success pattern.
-- nextRotationCategory: 637%5==2 → BUILD(seo-content)
+- lastItem: easter-in-jerusalem
+- lastResult: SHIPPED 5c08248. New /easter-in-jerusalem guide — Easter & Holy Week in Jerusalem pilgrim guide. Holy Week calendar (Palm Sunday Bethphage procession, Good Friday Via Dolorosa Franciscan noon procession, Holy Saturday Holy Fire ceremony, Easter Sunday dawn services); Catholic vs Orthodox Easter date table 2027–2029; Holy Fire logistics (crowd density, queuing, candle tips); 9–12 month booking timeline for Jerusalem Holy Week accommodation; Old City transport during processions; 7 FAQs; 3 CTAs (GYG Holy Week tours + Viator private tour + Booking.com Jerusalem); Events JSON-LD for 3 annual events. Cross-links from best-time-to-visit-israel + christian-pilgrimage-holy-land + israel-events-festivals. 793 pages; 1093/1093 e2e pass; 0 check errors. CI in_progress at push time — consistent with prior success pattern.
+- nextRotationCategory: 638%5==3 → BUILD(tools)
 - higgsfieldSpent: 0
-- updatedAt: 2026-07-19T15:45Z
+- updatedAt: 2026-07-19T20:00Z
 - branch context: work on master; feature work on auto/<slug>
+
+Notes: iter637 BUILD (seo-content) — easter-in-jerusalem. SHIPPED 5c08248. Key differentiator: Holy Fire ceremony logistics (Orthodox Holy Saturday, not Western Easter Sunday — the most common tourist confusion) + 3-year date table for Western vs Orthodox Easter; both allow planning around the ceremony. Strong pilgrim SEO hook: "Easter in Jerusalem 2027", "Holy Fire ceremony Jerusalem", "Good Friday Via Dolorosa 2027". Complements existing church-holy-sepulchre-guide.md + christian-pilgrimage-holy-land.md.
 
 Notes: iter636 BUILD (monetization) — israel-for-filipino-travelers. SHIPPED 7e59f7f. P2/S item; upgraded P3→P2 at iter635 (El Al TLV→MNL direct Oct 2026 — first-ever Israel-Philippines non-stop service). Philippines is world's 3rd-largest Catholic country (~92M Catholics); strong pilgrimage travel market via El Shaddai, Couples for Christ, diocesan groups. Guide follows the proven origin-market playbook: entry requirements (ETA-IL — Philippines is visa-exempt, no full visa needed), flights, Catholic pilgrimage circuit, OFW family visits, payment (GCash International not accepted), health insurance (PhilHealth not valid abroad), mobile connectivity, power adapter, embassy contacts. Fresh SEO hook: El Al launching first-ever direct TLV→MNL service October 2026. Cross-links added to first-time-in-israel.md (country guides list) and visa-information.md (new Filipino ETA-IL section). 792 pages (+1 from 791); 1093/1093 e2e pass; 0 check errors.
 

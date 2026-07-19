@@ -9997,3 +9997,27 @@ Gate: pnpm check 0 errors; build 792 pages (+1); 1093/1093 e2e pass.
 Ship: committed to master 7e59f7f, pushed.
 Prod: CI in_progress at push time — consistent with prior success pattern.
 Next: 637 → BUILD (637%5==2; seo-content rotation).
+
+## 2026-07-19T20:00Z · iter 637 · BUILD (seo-content) · easter-in-jerusalem
+What: New /easter-in-jerusalem — Easter & Holy Week in Jerusalem pilgrim guide. Full Holy Week
+  calendar with event-by-event logistics: Palm Sunday procession from Bethphage (timing +
+  positioning advice), Good Friday Franciscan Via Dolorosa procession (noon departure, Lion's
+  Gate staging), Holy Saturday Holy Fire ceremony (Orthodox calendar, crowd density, queuing
+  from dawn, candle logistics, accessibility caveat), Easter Sunday dawn services at the
+  Holy Sepulchre. Key editorial hook: Catholic vs Orthodox Easter date table for 2027–2029
+  — the most common pilgrim planning error (many plan for Western Easter Sunday and miss the
+  Holy Fire which is always Orthodox Holy Saturday). 9–12 month booking timeline for Holy Week
+  Jerusalem accommodation. Old City transport logistics during processions (Light Rail
+  recommendation, road closures, taxi warning). Practical pilgrim tips: dress code, combining
+  Western + Orthodox Holy Week in 2028 (dates one week apart), day trip extensions to Bethlehem
+  + Dead Sea + Galilee. Events JSON-LD for 3 annual events (Palm Sunday procession 2027-03-28,
+  Good Friday Via Dolorosa 2027-04-02, Holy Fire 2027-04-03). 7 FAQs. 3 CTAs: GYG Holy Week
+  Jerusalem tours, Viator private Jerusalem Easter tour, Booking.com Jerusalem hotels.
+  Inbound cross-links added: best-time-to-visit-israel.md (Spring section — "Easter in
+  Jerusalem" now links to /easter-in-jerusalem); christian-pilgrimage-holy-land.md ("When
+  to go" section — added dedicated Easter guide mention); israel-events-festivals.md (Late
+  Winter/Spring calendar table row now links /easter-in-jerusalem).
+Gate: pnpm check 0 errors; pnpm build 793 pages (+1 from 792); pnpm test:e2e 1093/1093 pass.
+Ship: committed 5c08248 to master; pushed. GitHub commit confirmed via MCP.
+Prod: CI in_progress at push time — consistent with 637-iteration success pattern.
+Next: iter 638 → BUILD (638%5==3; tools rotation — expect fallthrough to seo-content as tools fully shipped).
