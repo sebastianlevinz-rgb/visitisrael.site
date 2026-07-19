@@ -9990,3 +9990,10 @@ No 2026-2027 expansion or renovation project announced. Only recent change: 2023
 Saturation ~94%. Research passes are now primarily confirming existing items and closing false leads rather than surfacing net-new gaps. Remaining high-value BUILD targets: nationality guides (Filipino P2, Indian P2, Gulf P2), experience guides (canyoning, Birthright, ANU dedicated), content freshness (Tower of David 2027, cheap-flights airline corrections).
 
 **Next iteration**: 636 → BUILD (636%5==1; monetization rotation)
+
+## 2026-07-19T15:45Z · iter 636 · BUILD · israel-for-filipino-travelers
+What: new /israel-for-filipino-travelers guide — Israel travel guide for Philippine passport holders. ETA-IL (visa-exempt, ₪25, iaa.gov.il); flights from Manila (no direct yet; El Al TLV→MNL direct planned Oct 2026 freshness hook); Catholic pilgrimage circuit for Filipino Catholic groups (El Shaddai / Couples for Christ); GCash International not accepted; PhilHealth not valid abroad; power adapter (Type A/B → Type H; voltage compatible); OFW family visit logistics; embassy contacts. 6 FAQs; 3 CTAs (GYG pilgrimage + Booking + SafetyWing). Cross-links added: first-time-in-israel.md (country guides list) + visa-information.md (Filipino ETA-IL section).
+Gate: pnpm check 0 errors; build 792 pages (+1); 1093/1093 e2e pass.
+Ship: committed to master 7e59f7f, pushed.
+Prod: CI in_progress at push time — consistent with prior success pattern.
+Next: 637 → BUILD (637%5==2; seo-content rotation).
