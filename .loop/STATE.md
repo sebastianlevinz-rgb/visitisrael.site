@@ -1,13 +1,15 @@
 # LOOP STATE
 
-- iteration: 621
+- iteration: 622
 - lastMode: BUILD
-- lastItem: haifa-cruise-terminal-guide
-- lastResult: SHIPPED 4cdd1a8. New /haifa-cruise-terminal-guide — post-May-2026 Haifa cruise terminal arrival and shore excursion guide. 783 pages (+1); 1090/1090 e2e pass; 0 check errors. CI in_progress at push time — consistent with prior success pattern.
-- nextRotationCategory: 622%5==2 → BUILD (seo-content)
+- lastItem: israel-national-trail-hiking
+- lastResult: SHIPPED 95ab374. New /israel-national-trail-hiking — INT section hiking guide (Shvil Yisrael) for tourists. 784 pages (+1); 1090/1090 e2e pass; 0 check errors. CI in_progress at push time — consistent with prior success pattern.
+- nextRotationCategory: 623%5==3 → BUILD (tools)
 - higgsfieldSpent: 0
-- updatedAt: 2026-07-18T21:50Z
+- updatedAt: 2026-07-19T01:00Z
 - branch context: work on master; feature work on auto/<slug>
+
+Notes: iter622 BUILD (seo-content) — israel-national-trail-hiking. SHIPPED 95ab374. New /israel-national-trail-hiking — Israel National Trail section hiking guide for tourists. 4 section guides: Upper Galilee & Golan (6–8 days), Mount Carmel & Mediterranean Coast (3–4 days), Negev Highlands & Ramon Crater (5–7 days), Eilat Mountains (3–4 days). Each covers starting/ending points, key waypoints, difficulty, best season, trail-angel contacts, transport. Trail-angel network section. Practical logistics + gear tables. Safety rules (water: 1L/hr min in heat, 5–7L/day desert; wadi flash flood rules; white-blue-orange tricolour blaze). 7 FAQs, 3 CTAs (DiscoverCars, GYG, Booking.com). Cross-links: hiking-in-israel.md + Footer.astro. 784 pages (+1); 1090/1090 e2e pass; 0 check errors. Next: iter623 → BUILD (tools).
 
 Notes: iter620 RESEARCH (pass #126) — research-620-pass-126. No code shipped. 6 net-new BACKLOG items. Focus: food event hubs, endurance sports tourism, post-upgrade cruise terminals, SE Asian nationality guides. Key finding: ISRAMAN Eilat triathlon (Jan 2027, 3,000 participants, 50+ countries) has zero editorial coverage from any competitor brand — strong opportunity. Israel food festivals (Eat Tel Aviv 10th edition 2026, A Story of Food, Sarona Wine Festival) lack an editorial hub across all major competitors. Haifa cruise terminal post-May-2026 upgrade ($5.5M, 5,500m², 1M pax/yr capacity) means all cruise content pre-dates the upgrade. Malaysia + Singapore nationality guides confirmed absent from BACKLOG despite flag in iter470. Content freshness batch: Israir TLV→JFK Aug 2026, El Al TLV→SFO Oct 2026, Purple Line deferred to 2027-2028, Terminal 1 international reopened July 2026. Saturation ~94%; next research pass should cover 2027 attraction openings (Tel Aviv Museum expansion, National Museum of Israel re-opening) and India/South Africa/Morocco nationality guides. Next: iter621 → BUILD (621%5==1; monetization).
 

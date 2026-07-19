@@ -9625,3 +9625,34 @@ SHA: 4cdd1a8 — squash-merged to master; pushed.
 CI in_progress at push time — consistent with prior success pattern across 621 iterations.
 
 **Next iteration**: 622 → BUILD (622%5==2 → seo-content rotation)
+
+## iter622 · 2026-07-19T01:00Z · BUILD (seo-content) · israel-national-trail-hiking
+
+**Mode**: BUILD — seo-content rotation (622%5==2).
+**Item**: /israel-national-trail-hiking (P2/M, seo-content; research iter110)
+
+### What shipped
+New guide `/israel-national-trail-hiking` — Israel National Trail section hiking guide for tourists who can't commit to the full 1,000 km (45–60 day) thru-hike. Content:
+- 4 section guides: Upper Galilee & Golan (6–8 days, Kibbutz Dan→Nahal Amud), Mount Carmel & Mediterranean Coast (3–4 days, Ein Hod→Haifa), Negev Highlands & Ramon Crater (5–7 days, Yeruham→Mitzpe Ramon), Eilat Mountains (3–4 days, Kibbutz Lotan→Eilat / includes Red Canyon)
+- Each section: starting/ending points, elevation profile, key waypoints, difficulty rating, best season, trail-angel contacts, transport logistics
+- Trail-angel network section: registration, protocol, etiquette; informal directory pointers
+- Practical logistics table: transport to/from 4 key section start/end points (train + bus + rental car options)
+- Gear table: essentials vs nice-to-have by section type (northern vs desert)
+- Safety rules: water (1L/hr min in heat; desert sections 5–7L/day; cache logistics for remote sections), wadi flash-flood rules, marking system (white-blue-orange tricolour blaze), navigation apps (Amud Anan)
+- How to integrate INT section hiking into a standard Israel trip (add-on framing for 7–14 day visits)
+- 7 FAQs: trail length; best first-visit sections; trail angels; permits; water strategy; navigation tools; best time to hike
+- 3 affiliate CTAs: DiscoverCars (trailhead access), GYG (guided INT hikes), Booking.com (trailhead accommodation)
+
+### Cross-links added
+- `hiking-in-israel.md`: paragraph added after Eilat Mountains bullet in National Trail section
+- `Footer.astro`: new li after `/hiking-in-israel` entry
+
+### Gate
+pnpm check 0 errors; pnpm build 784 pages (+1 from 783); 1090/1090 e2e pass.
+
+### Ship
+feat(622): add Israel National Trail section hiking guide (/israel-national-trail-hiking) [auto-loop]
+SHA: 95ab374 — squash-merged to master; pushed.
+CI in_progress at push time — consistent with prior success pattern across 622 iterations.
+
+**Next iteration**: 623 → BUILD (623%5==3 → tools rotation)
