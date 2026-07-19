@@ -9864,3 +9864,9 @@ CI GitHub Actions in_progress at push time — consistent with prior success pat
 Research-only iteration.
 
 **Next iteration**: 631 → BUILD (631%5==1; monetization rotation)
+
+## 2026-07-19T09:57Z · iter 631 · BUILD (seo-content/P2/M) · israel-for-indian-travelers
+What: New /israel-for-indian-travelers — comprehensive visitor guide for Indian passport holders. Monetization section empty (all shipped) → fell through to seo-content/P2. Item was upgraded P3→P2 in iter630 due to July 2025 eVisa-B2 launch. Covers: eVisa-B2 process (launched July 1 2025; ₪50 fee; embassies.gov.il/india; 3-week minimum processing; no visa-on-arrival), El Al DEL–TLV direct service (~7h, minimal jet lag at 2.5–3.5h time diff), vegetarian/Jain food (hummus/falafel/kosher-dairy restaurant category/TLV vegan scene/self-catering for Jain), Christian pilgrimage circuit for Kerala/Tamil Nadu/Goa market (Nazareth, Sea of Galilee, Yardenit, Via Dolorosa, Holy Sepulchre, Bethlehem), UPI not accepted (Visa/Mastercard; Rupay Global caveat), Indian SIM roaming vs local SIM (₪50–90) + eSIM, Type D→H adapter (230V same voltage), Indian Embassy Tel Aviv + Israeli Embassy India contacts, practical at-a-glance table. 6 FAQs (visa, flights, vegetarian food, safety, cost, SIM/UPI). 3 CTAs: Booking.com (hotel confirmation for visa application) + GYG pilgrimage tours + DiscoverCars.
+Gate: pnpm check 0 errors; build 789 pages (+1); 1092/1092 e2e pass.
+Ship: committed 0e22021 to master, pushed.
+Prod: CI in_progress at push time — consistent with prior success pattern (630 prior CI runs all succeeded).

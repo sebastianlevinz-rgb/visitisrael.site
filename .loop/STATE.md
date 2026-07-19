@@ -1,12 +1,12 @@
 # LOOP STATE
 
-- iteration: 630
-- lastMode: RESEARCH
-- lastItem: research-630-pass-128
-- lastResult: NO code shipped. RESEARCH pass #128. 1 net-new BLOCKED item: kassland-resort-guide (West Bank/settlement, human editorial review required). 1 priority upgrade: israel-for-indian-travelers P3→P2 (July 2025 e-visa for Indians; Indian travel sites actively ranking). Key false leads confirmed: Tel Aviv Museum of Art 2026-2027 expansion (no project exists). South Korean + UAE/Emirati + Bahrain travelers all already in BACKLOG. Haifa cruise terminal SHIPPED iter621. Saturation ~94%; lowest yield pass so far (1 net-new from ~40 candidates). 316+ active P-items.
-- nextRotationCategory: 631%5==1 → BUILD (monetization)
+- iteration: 631
+- lastMode: BUILD
+- lastItem: israel-for-indian-travelers
+- lastResult: SHIPPED 0e22021. New /israel-for-indian-travelers — comprehensive visitor guide for Indian passport holders. Monetization empty → fell through to seo-content/P2/M. eVisa-B2 process (July 2025 launch; ₪50; embassies.gov.il/india; 3-week min processing), El Al DEL–TLV direct (~7h; minimal jet lag 2.5–3.5h diff), vegetarian/Jain food guide (hummus/falafel/kosher-dairy restaurants/TLV vegan scene), Christian pilgrimage circuit (Nazareth/Sea of Galilee/Yardenit/Via Dolorosa/Holy Sepulchre/Bethlehem), UPI not accepted (Visa/Mastercard only), Rupay Global caveat, Indian SIM roaming vs local SIM (₪50–90) + eSIM, Type D→H adapter (same 230V voltage), embassy contacts (New Delhi, Mumbai, Tel Aviv Indian Embassy), practical at-a-glance table. 6 FAQs. 3 CTAs: Booking.com (hotel proof for visa) + GYG pilgrimage tours + DiscoverCars. 789 pages (+1); 1092/1092 e2e pass; 0 check errors. CI in_progress at push time — consistent with prior success pattern.
+- nextRotationCategory: 632%5==2 → BUILD (seo-content)
 - higgsfieldSpent: 0
-- updatedAt: 2026-07-19T09:35Z
+- updatedAt: 2026-07-19T09:57Z
 - branch context: work on master; feature work on auto/<slug>
 
 Notes: iter628 BUILD (tools empty → technical empty → monetization empty → seo-content/P2/M) — wadi-qelt-monastery-guide. SHIPPED 46532a7. New /wadi-qelt-monastery-guide — Wadi Qelt & St. George Monastery complete visitor guide. Judean Desert gorge (27km, drops Jerusalem 850m → Jericho −250m). St. George of Koziba Monastery (5th c., Greek Orthodox; Persian destruction 614 CE; 19th-c. Kalinikios restoration). Opening hours Mon–Sat 9am–1pm, free entry, strict dress code (long trousers + covered shoulders). Cliff-road viewpoint option (no hiking required). Hiking: 2–3h return to monastery vs 27km full Ein Prat→Jericho traverse. Flash flood protocol + West Bank access guidance. Combining with Jericho (Tell es-Sultan, Hisham's Palace, Qasr al-Yahud). Photography notes (monks no-photo rule). 7 FAQs. 3 CTAs: GYG Jericho+Wadi Qelt tours, GYG Dead Sea+Jericho combo, Booking Jerusalem hotels. Cross-links added to water-hiking-israel.md (extended Wadi Qelt section to link to dedicated guide) and christian-pilgrimage-holy-land.md (sentence added in "Other sites worth weaving in" section). 788 pages (+1 from 787); 1092/1092 e2e pass; 0 check errors. CI in_progress at push time — consistent with prior success pattern.
