@@ -621,6 +621,7 @@ const ROUTES = [
   '/belvoir-fortress',
   '/israel-food-festivals',
   '/jerusalem-light-rail-guide',
+  '/israel-for-filipino-travelers',
 ];
 
 for (const route of ROUTES) {

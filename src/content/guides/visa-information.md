@@ -55,6 +55,10 @@ If you need longer than your permitted stay, you can apply for an extension at a
 
 Citizens of countries not on the visa-exempt list — including **China** — must apply for a **B/2 Tourist Visa** at an Israeli embassy or consulate before travelling. The ETA-IL does not apply to Chinese passport holders. For a complete guide to the B/2 visa application process, flight options, payment practicalities, and Mandarin-speaking guide options, see our dedicated [Israel for Chinese travelers guide](/israel-for-chinese-travelers).
 
+## Filipino travellers — visa-exempt, ETA-IL required
+
+Philippine passport holders are on Israel's visa-exempt list — **no visa application needed**. However, since January 2025, Filipino citizens must obtain an ETA-IL (₪25) at iaa.gov.il at least 72 hours before travel. For the full Filipino-specific guide — flights from Manila, GCash in Israel, PhilHealth abroad, Catholic pilgrimage sites, and OFW-family visit logistics — see our dedicated [Israel for Filipino travelers guide](/israel-for-filipino-travelers).
+
 ## Before you go
 
 Not sure which category applies to your passport? Use our [Visa & ETA-IL checker](/israel-visa-eta-checker) for an instant result by nationality — covers 150+ countries.
