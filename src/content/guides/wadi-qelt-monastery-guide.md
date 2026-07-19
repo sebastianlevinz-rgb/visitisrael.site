@@ -1,6 +1,6 @@
 ---
 title: "Wadi Qelt & St. George Monastery: Complete Visitor Guide"
-description: "A Judean Desert gorge with a cliffside Byzantine monastery — how to hike Wadi Qelt, visit St. George Monastery, and combine with Jericho. Practical tips, opening hours, and safety notes."
+description: "Visit Wadi Qelt and St. George Monastery in the Judean Desert — hiking guide, opening hours, dress code, Jericho day trip, and West Bank safety tips."
 heroImage: /images/regions/negev/desert.jpg
 category: Hiking
 updatedAt: 2026-07-19
