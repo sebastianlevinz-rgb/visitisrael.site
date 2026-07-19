@@ -1,12 +1,12 @@
 # LOOP STATE
 
-- iteration: 629
-- lastMode: REVIEW
-- lastItem: review-629-desc-fix
-- lastResult: SHIPPED 1a80f5a. REVIEW iter629: audited iters 626-628. 1 DEFECT fixed: wadi-qelt-monastery-guide desc 188c→151c. mount-tabor-guide (154c) and jerusalem-light-rail-guide (150c) CLEAN. All cross-links valid. 788 pages; 1092/1092 e2e pass; 0 check errors. CI in_progress at push time.
-- nextRotationCategory: 630%5==0 → RESEARCH
+- iteration: 630
+- lastMode: RESEARCH
+- lastItem: research-630-pass-128
+- lastResult: NO code shipped. RESEARCH pass #128. 1 net-new BLOCKED item: kassland-resort-guide (West Bank/settlement, human editorial review required). 1 priority upgrade: israel-for-indian-travelers P3→P2 (July 2025 e-visa for Indians; Indian travel sites actively ranking). Key false leads confirmed: Tel Aviv Museum of Art 2026-2027 expansion (no project exists). South Korean + UAE/Emirati + Bahrain travelers all already in BACKLOG. Haifa cruise terminal SHIPPED iter621. Saturation ~94%; lowest yield pass so far (1 net-new from ~40 candidates). 316+ active P-items.
+- nextRotationCategory: 631%5==1 → BUILD (monetization)
 - higgsfieldSpent: 0
-- updatedAt: 2026-07-19T07:15Z
+- updatedAt: 2026-07-19T09:35Z
 - branch context: work on master; feature work on auto/<slug>
 
 Notes: iter628 BUILD (tools empty → technical empty → monetization empty → seo-content/P2/M) — wadi-qelt-monastery-guide. SHIPPED 46532a7. New /wadi-qelt-monastery-guide — Wadi Qelt & St. George Monastery complete visitor guide. Judean Desert gorge (27km, drops Jerusalem 850m → Jericho −250m). St. George of Koziba Monastery (5th c., Greek Orthodox; Persian destruction 614 CE; 19th-c. Kalinikios restoration). Opening hours Mon–Sat 9am–1pm, free entry, strict dress code (long trousers + covered shoulders). Cliff-road viewpoint option (no hiking required). Hiking: 2–3h return to monastery vs 27km full Ein Prat→Jericho traverse. Flash flood protocol + West Bank access guidance. Combining with Jericho (Tell es-Sultan, Hisham's Palace, Qasr al-Yahud). Photography notes (monks no-photo rule). 7 FAQs. 3 CTAs: GYG Jericho+Wadi Qelt tours, GYG Dead Sea+Jericho combo, Booking Jerusalem hotels. Cross-links added to water-hiking-israel.md (extended Wadi Qelt section to link to dedicated guide) and christian-pilgrimage-holy-land.md (sentence added in "Other sites worth weaving in" section). 788 pages (+1 from 787); 1092/1092 e2e pass; 0 check errors. CI in_progress at push time — consistent with prior success pattern.
@@ -36,5 +36,7 @@ Notes: iter615 RESEARCH (pass #125) — research-615-pass-125. No code shipped. 
 Cron b7325b16 hourly @ :17. Loop history: 19 tools + sitemap-lastmod + link-checker(+depth) + i18n
 Phase0/1a/1b/1c/2 Batches1-18(COMPLETE) + 46 review passes + 3 technical (event-schema + meta-trim + locale-links) + 71 EN guides + 7 tools-monetization + 2 comparisons;
 research iters 5/10/20/30/35/40/45/50/55/60/65/70/75/80/85/90/95/100/105/110/115/120/125/130/135/140/145/150/155/160/165/170/175/180/185/190/195/200/205/210/215/220/225/230/235/240/245/250/255/260/265/270/275/280/285/290/295/300/305/310/315/320/325/330/335/340/345/350/355/360/365/370/375/380/385/390/395/400/405/410/420/425/430/435/440/445/450/455/460/465/470/480/485/490/495/500/505/510/515/520/525/535/540/545/550/555/560/565/570/575/580/585/590/595/600/605/610/615/620.
+
+Notes: iter630 RESEARCH (pass #128) — research-630-pass-128. No code shipped. 1 net-new BLOCKED item: kassland-resort-guide (Ma'ale Adumim, Area C settlement; June 2026 opening; BLOCKED pending human editorial review). 1 priority upgrade: /israel-for-indian-travelers P3→P2 (July 2025 e-visa; 70K+ Indian visitors 2023). Tel Aviv Museum 2026-2027 expansion: CONFIRMED FALSE LEAD. Saturation: ~94%+; lowest yield pass (1 net-new from ~40 candidates). 316+ active P-items. Next: iter631 → BUILD (monetization).
 
 Notes: iter629 REVIEW — review-629-desc-fix. SHIPPED 1a80f5a. Audited iters 626-628: mount-tabor-guide, jerusalem-light-rail-guide, wadi-qelt-monastery-guide. 1 DEFECT found and fixed: wadi-qelt-monastery-guide meta description was 188 chars (>160 limit); trimmed to 151c ("Visit Wadi Qelt and St. George Monastery in the Judean Desert — hiking guide, opening hours, dress code, Jericho day trip, and West Bank safety tips."). mount-tabor-guide (154c) and jerusalem-light-rail-guide (150c) both within limit. Title lengths: mount-tabor-guide 53c, jerusalem-light-rail-guide 60c, wadi-qelt-monastery-guide 56c — all within 65c limit. All cross-links valid (including /transport/ben-gurion-to-jerusalem page). FAQs checked for honesty: Transfiguration tradition correctly framed as "3rd-century CE traditional identification, not archaeological certainty" in mount-tabor FAQ; Jerusalem Light Rail Shabbat hours and single fare quoted as approximate ranges (correct). 788 pages; 1092/1092 e2e pass; 0 check errors. CI in_progress at push time — consistent with prior success pattern. Next: iter630 → RESEARCH (630%5==0).

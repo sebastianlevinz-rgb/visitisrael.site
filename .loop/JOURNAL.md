@@ -9691,6 +9691,7 @@ CI in_progress at push time — consistent with prior success pattern across 624
 
 **Next iteration**: 625 → RESEARCH (625%5==0)
 
+
 ## 2026-07-19T04:05Z · iter 625 · RESEARCH · research-625-pass-127
 
 **Mode**: RESEARCH (625%5==0).
@@ -9831,3 +9832,35 @@ SHA: 1a80f5a — committed to master; pushed.
 CI GitHub Actions in_progress at push time — consistent with prior success pattern.
 
 **Next iteration**: 630 → RESEARCH (630%5==0)
+
+## 2026-07-19T09:35Z · iter 630 · RESEARCH · research-630-pass-128
+
+**Mode**: RESEARCH (630%5==0).
+**Scope**: Pass #128. Focus per STATE.md: Bahrain/UAE Abraham Accords outbound travelers; Tel Aviv Museum of Art post-renovation status; new 2026 attraction/resort openings.
+
+### Research summary
+~40 candidate topics checked via subagent research (30+ web searches) + exhaustive cross-check against full BACKLOG.md (~1,480 lines, 316+ active P-items) + DONE.md + src/content/guides/ (788 files). Saturation: ~94%+; lowest-yield pass to date.
+
+**1 net-new BLOCKED item:**
+- `/kassland-resort-guide` (BLOCKED — human editorial review required): New June 2026 mega-resort in Ma'ale Adumim (Area C, West Bank settlement). ₪220M investment; 220 rooms; Atlantis Spa 4,500 sqm; Kass Splash (largest indoor water park in Middle East); Magic Kass amusement park. 15 min from Jerusalem on Route 1. Already on Booking.com. Blocked pending human policy decision on West Bank settlement coverage. DO NOT BUILD without explicit approval.
+
+**1 priority upgrade:**
+- `/israel-for-indian-travelers`: P3→P2. July 2025 Israeli e-visa for Indians launched; multiple major Indian travel sites (btwvisas.com, unimoni.in) actively ranking for "Israel visa for Indians 2026"; 70K+ Indian visitors in 2023 pre-e-visa; removal of embassy-visit friction drives new high-intent query cluster. Backlog entry already accurate (mentions eVisa-B2 launch) — only priority level updated.
+
+**False leads confirmed:**
+- Tel Aviv Museum of Art 2026-2027 expansion: CONFIRMED FALSE — no project exists (last major renovation was 2010; 2023 renaming only).
+- UAE/Emirati standalone guide: already covered by /israel-for-gulf-travelers (iter230).
+- Bahrain standalone guide: ditto.
+- South Korean guide: already in BACKLOG (iter455).
+- Haifa cruise terminal freshness: SHIPPED iter621 (standalone guide; iter615 shore-excursion note separate).
+- Palmach Museum standalone: covered in /israel-military-heritage backlog (iter175).
+- National Campus for Archaeology: confirmed shipped (not separately tracked in DONE).
+
+**New intelligence gathered (for existing backlog items):**
+- Q1 2026 UAE-Israel air: 170K passengers (+30% YoY; Etihad daily AUH→TLV) — supports /israel-for-gulf-travelers priority.
+- Israel Tourism Ministry Seoul seminar 2025 (~200 attendees, church leaders + airlines) — supports /israel-for-korean-travelers (iter455).
+
+### No code shipped
+Research-only iteration.
+
+**Next iteration**: 631 → BUILD (631%5==1; monetization rotation)
