@@ -1,15 +1,17 @@
 # LOOP STATE
 
-- iteration: 627
+- iteration: 628
 - lastMode: BUILD
-- lastItem: jerusalem-light-rail-guide
-- lastResult: SHIPPED 9c7e2d9. New /jerusalem-light-rail-guide — Jerusalem Light Rail tourist guide (Red Line + Blue Line, 5 key tourist stops, Rav-Kav, Shabbat hours, Ben Gurion Airport→Navon→Light Rail connection). 787 pages (+1); 1092/1092 e2e pass; 0 check errors. CI in_progress at push time.
-- nextRotationCategory: 628%5==3 → BUILD (tools)
+- lastItem: wadi-qelt-monastery-guide
+- lastResult: SHIPPED 46532a7. New /wadi-qelt-monastery-guide — Wadi Qelt & St. George Monastery complete visitor guide. 788 pages (+1); 1092/1092 e2e pass; 0 check errors. CI in_progress at push time.
+- nextRotationCategory: 629%5==4 → REVIEW
 - higgsfieldSpent: 0
-- updatedAt: 2026-07-19T06:00Z
+- updatedAt: 2026-07-19T07:00Z
 - branch context: work on master; feature work on auto/<slug>
 
-Notes: iter627 BUILD (seo-content) — jerusalem-light-rail-guide. SHIPPED 9c7e2d9. New /jerusalem-light-rail-guide — Jerusalem Light Rail tourist guide. Red Line key tourist stops (Damascus Gate, Jaffa Gate/City Hall, Ben Yehuda, Mahane Yehuda, Mount Herzl/Yad Vashem) + Blue Line overview. Ben Gurion Airport→Navon→Red Line connection. Rav-Kav tap-on/tap-off, contactless payment, Shabbat suspension, Moovit app guidance. 7 FAQs. 3 CTAs: Airalo (eSIM), WelcomePickups (Jerusalem transfer), GetYourGuide (walking tours). Cross-links added to transportation.md (Jerusalem Light Rail paragraph) and rav-kav-israel.md (Jerusalem section). Smoke test +1. 787 pages (+1 from 786); 1092/1092 e2e pass; 0 check errors. CI in_progress at push time — consistent with prior success pattern.
+Notes: iter628 BUILD (tools empty → technical empty → monetization empty → seo-content/P2/M) — wadi-qelt-monastery-guide. SHIPPED 46532a7. New /wadi-qelt-monastery-guide — Wadi Qelt & St. George Monastery complete visitor guide. Judean Desert gorge (27km, drops Jerusalem 850m → Jericho −250m). St. George of Koziba Monastery (5th c., Greek Orthodox; Persian destruction 614 CE; 19th-c. Kalinikios restoration). Opening hours Mon–Sat 9am–1pm, free entry, strict dress code (long trousers + covered shoulders). Cliff-road viewpoint option (no hiking required). Hiking: 2–3h return to monastery vs 27km full Ein Prat→Jericho traverse. Flash flood protocol + West Bank access guidance. Combining with Jericho (Tell es-Sultan, Hisham's Palace, Qasr al-Yahud). Photography notes (monks no-photo rule). 7 FAQs. 3 CTAs: GYG Jericho+Wadi Qelt tours, GYG Dead Sea+Jericho combo, Booking Jerusalem hotels. Cross-links added to water-hiking-israel.md (extended Wadi Qelt section to link to dedicated guide) and christian-pilgrimage-holy-land.md (sentence added in "Other sites worth weaving in" section). 788 pages (+1 from 787); 1092/1092 e2e pass; 0 check errors. CI in_progress at push time — consistent with prior success pattern.
+
+Notes: iter627 BUILD (seo-content) — jerusalem-light-rail-guide. SHIPPED 9c7e2d9. New /jerusalem-light-rail-guide — Jerusalem Light Rail tourist guide (Red Line + Blue Line, 5 key tourist stops, Rav-Kav, Shabbat hours, Ben Gurion Airport→Navon→Light Rail connection). 787 pages (+1); 1092/1092 e2e pass; 0 check errors. CI in_progress at push time — consistent with prior success pattern.
 
 Notes: iter626 BUILD (monetization) — mount-tabor-guide. SHIPPED 59f1cb9. New /mount-tabor-guide — Mount Tabor complete visitor guide; Basilica of the Transfiguration (Franciscan; Antonio Barluzzi 1924; Transfiguration mosaic apse), Crusader fortress of Thabor (Arab Gate, Byzantine layers), Greek Orthodox church, Jezreel Valley panorama, summit road taxi logistics (servees/taxis only from Daburiyya — no private cars), practical info table. 7 FAQs. 3 CTAs: GYG (Galilee + Nazareth day tours), DiscoverCars (Galilee car rental), Booking (Nazareth hotels). Cross-links: christian-pilgrimage-holy-land, galilee-tours-compared, nazareth-travel-guide, israel-national-parks-pass, driving-in-israel, northern-israel-road-trip. 786 pages (+1); 1091/1091 e2e pass; 0 check errors. CI in_progress at push time — consistent with prior success pattern.
 

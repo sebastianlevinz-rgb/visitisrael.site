@@ -9786,3 +9786,23 @@ SHA: 9c7e2d9 — committed directly to master; pushed.
 CI GitHub Actions in_progress at push time — consistent with prior 627-iteration success pattern.
 
 **Next iteration**: 628 → BUILD (628%5==3 → tools category rotation)
+
+---
+
+## 2026-07-19T07:00Z · iter 628 · BUILD (tools empty→seo-content) · wadi-qelt-monastery-guide
+
+### Orient
+Rotation: 628%5==3 → BUILD (tools). Tools category: all 11 shipped (iters 57–138). Fall-through: technical (shipped iter38) → monetization (all shipped) → seo-content. Selected Wadi Qelt & St. George Monastery visitor guide (P2/M seo-content+monetization; confirmed TRIPLE-ZERO gap — no standalone page; competitors: hike-israel.com, BeinHarim, holylandtourstravel.com).
+
+### Build
+Created src/content/guides/wadi-qelt-monastery-guide.md — Judean Desert gorge + 5th-c. Greek Orthodox cliffside monastery. Content: monastery history (St. George of Koziba, 420 CE founding, Persian destruction 614 CE, 19th-c. Kalinikos restoration), Mon–Sat 9am–1pm hours, free entry, strict dress code, cliff-road viewpoint option (no hiking required), hiking options (2–3h return vs 27km full Ein Prat→Jericho traverse), flash flood safety, West Bank access guidance, combining with Jericho (Tell es-Sultan, Hisham's Palace, Qasr al-Yahud), photography notes (no monks photos without permission). 7 FAQs. 3 CTAs: GYG Jericho+Wadi Qelt, GYG Dead Sea+Jericho combo, Booking Jerusalem hotels. Cross-links added to water-hiking-israel.md (extended Wadi Qelt section to link dedicated guide) and christian-pilgrimage-holy-land.md (sentence in "Other sites worth weaving in" section).
+
+### Gate
+pnpm check 0 errors; pnpm build 788 pages (+1 from 787); pnpm test:e2e 1092/1092 pass.
+
+### Ship
+feat(628): add Wadi Qelt & St. George Monastery visitor guide [auto-loop]
+SHA: 46532a7 — committed directly to master; pushed.
+CI GitHub Actions in_progress at push time (CI + Lighthouse both triggered on 46532a7) — consistent with prior success pattern.
+
+**Next iteration**: 629 → REVIEW (629%5==4)
