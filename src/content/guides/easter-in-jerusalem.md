@@ -1,6 +1,6 @@
 ---
-title: 'Easter & Holy Week in Jerusalem: The Complete Pilgrim Guide (2027)'
-description: 'Plan your Easter in Jerusalem: Holy Week processions, the Holy Fire ceremony at the Holy Sepulchre, Catholic vs Orthodox Easter dates, booking timelines and practical logistics.'
+title: 'Easter & Holy Week in Jerusalem: Complete Pilgrim Guide'
+description: 'Plan Easter in Jerusalem: Holy Week processions, Holy Fire ceremony, Catholic vs Orthodox Easter dates, booking timelines and practical pilgrim logistics.'
 heroImage: /images/regions/jerusalem/holy-sepulchre.jpg
 category: Sacred Sites
 updatedAt: 2026-07-19
@@ -35,25 +35,25 @@ affiliateCtas:
 events:
   - name: 'Palm Sunday Procession from Bethphage to Jerusalem'
     description: 'Annual Palm Sunday procession descending the Mount of Olives from Bethphage to the Old City, re-enacting Jesus''s entry into Jerusalem.'
-    startDate: '2027-03-28'
-    endDate: '2027-03-28'
+    startDate: '2027-03-21'
+    endDate: '2027-03-21'
     locationName: 'Mount of Olives, Jerusalem'
     locationLocality: 'Jerusalem'
   - name: 'Good Friday Via Dolorosa Franciscan Procession'
     description: 'The official Franciscan Custody of the Holy Land procession walks all 14 Stations of the Cross along the Via Dolorosa to the Church of the Holy Sepulchre every Good Friday at 12:00 noon.'
-    startDate: '2027-04-02'
-    endDate: '2027-04-02'
+    startDate: '2027-03-26'
+    endDate: '2027-03-26'
     locationName: 'Via Dolorosa, Jerusalem Old City'
     locationLocality: 'Jerusalem'
   - name: 'Holy Fire Ceremony at the Church of the Holy Sepulchre'
     description: 'The annual Holy Fire miracle ceremony at the Edicule of the Holy Sepulchre, observed by Greek Orthodox, Armenian, Coptic and other Eastern churches on Holy Saturday evening.'
-    startDate: '2027-04-03'
-    endDate: '2027-04-03'
+    startDate: '2027-03-27'
+    endDate: '2027-03-27'
     locationName: 'Church of the Holy Sepulchre, Jerusalem'
     locationLocality: 'Jerusalem'
 faqs:
   - question: When is Easter in Jerusalem in 2027?
-    answer: "Western (Catholic and Protestant) Easter falls on 5 April 2027. Eastern Orthodox Easter falls on 2 May 2027. The Greek Orthodox, Armenian Apostolic, Coptic, Ethiopian and Syriac churches all celebrate Easter on a separate date calculated by the Julian calendar — this year five weeks after the Western date. Palm Sunday for Western churches is 29 March 2027; Good Friday is 2 April; Holy Saturday (the Holy Fire ceremony) is 3 April; Easter Sunday is 4 April 2027. Note: dates change every year because Easter is tied to the lunar calendar — always verify the current year's date at a reliable calendar source such as the Greek Orthodox Patriarchate of Jerusalem (en.jerusalem-patriarchate.info) before booking. For 2028 and beyond, Western Easter shifts again."
+    answer: "Western (Catholic and Protestant) Easter falls on 28 March 2027. Eastern Orthodox Easter falls on 2 May 2027. The Greek Orthodox, Armenian Apostolic, Coptic, Ethiopian and Syriac churches all celebrate Easter on a separate date calculated by the Julian calendar — this year five weeks after the Western date. Palm Sunday for Western churches is 21 March 2027; Good Friday is 26 March; Holy Saturday is 27 March; Easter Sunday is 28 March 2027. Note: dates change every year because Easter is tied to the lunar calendar — always verify the current year's date at a reliable calendar source such as the Greek Orthodox Patriarchate of Jerusalem (en.jerusalem-patriarchate.info) before booking. For 2028 and beyond, Western Easter shifts again."
   - question: What is the Holy Fire ceremony and can tourists attend?
     answer: "The Holy Fire ceremony takes place in the Church of the Holy Sepulchre on Holy Saturday (the day before Orthodox Easter Sunday) and is one of the most dramatic religious events in the Christian world. According to Greek Orthodox tradition, a miraculous flame emerges from within the Edicule (the Tomb of Christ) and is passed through the crowds on candles. The ceremony is conducted by the Greek Orthodox Patriarch of Jerusalem. It is open to the public, but space inside the church fills completely hours in advance — pilgrims begin queuing from early morning for the late-afternoon ceremony. The crowd is extremely dense. The ceremony is free. Important: the Holy Fire date follows the Orthodox Easter calendar, so in years when Orthodox and Western Easters differ (like 2027), the ceremony takes place weeks after Western Easter Sunday. Plan your trip specifically for the Orthodox Easter date if attending the Holy Fire is your priority."
   - question: When should I book Jerusalem hotels for Holy Week?
@@ -82,11 +82,11 @@ The first thing to understand about Easter in Jerusalem is that there are two Ea
 
 | Year | Western Easter | Orthodox Easter |
 |------|---------------|-----------------|
-| 2027 | 4 April | 2 May |
-| 2028 | 16 April | 22 April |
-| 2029 | 1 April | 6 May |
+| 2027 | 28 March | 2 May |
+| 2028 | 16 April | 16 April |
+| 2029 | 1 April | 8 April |
 
-In 2028, the two dates are a week apart — close enough that a single trip can catch the major events of both traditions. In 2027 and 2029, they are a month or more apart, requiring two separate trips.
+In 2028, both celebrations fall on the same date (16 April) — a single trip covers both Western and Orthodox liturgies. In 2027, the dates are five weeks apart (Western 28 March, Orthodox 2 May). In 2029, they are one week apart (Western 1 April, Orthodox 8 April).
 
 The Holy Fire ceremony (see below) follows the **Orthodox calendar**. If the Holy Fire is your primary goal, plan your trip around the Orthodox Holy Saturday, not the Western one.
 
@@ -94,7 +94,7 @@ The Holy Fire ceremony (see below) follows the **Orthodox calendar**. If the Hol
 
 ## The Holy Week calendar (Western Easter 2027)
 
-### Palm Sunday — 29 March 2027
+### Palm Sunday — 21 March 2027
 
 The week opens with the **Palm Sunday procession** from Bethphage, on the upper slope of the Mount of Olives, down through the Lion's Gate into the Old City. The Franciscan Custos of the Holy Land leads the procession; pilgrims from every continent join, many carrying palm fronds or olive branches. The procession descends the same slope on which the Gospels place Jesus's entry into Jerusalem five days before the Crucifixion.
 
@@ -106,7 +106,7 @@ These three days are relatively quieter on the public liturgical calendar, thoug
 
 The **Mount of Olives** and **Garden of Gethsemane** are especially meaningful to walk during Holy Week. The Church of All Nations (Basilica of the Agony), built over the rock where Jesus is said to have prayed on the night of his arrest, is one of the most atmospheric places in Jerusalem at any time — during Holy Week it carries an additional charge.
 
-### Holy Thursday (Maundy Thursday) — 1 April 2027
+### Holy Thursday (Maundy Thursday) — 25 March 2027
 
 Two sites anchor Holy Thursday for most Christian pilgrims:
 
@@ -114,7 +114,7 @@ Two sites anchor Holy Thursday for most Christian pilgrims:
 
 **The Garden of Gethsemane**, at the base of the Mount of Olives, is the setting of Jesus's arrest in all four Gospels. The **Church of All Nations** holds its most attended services of the year on Thursday night; the walled enclosure of ancient olive trees, preserved by the Franciscans, is open for quiet prayer throughout the day.
 
-### Good Friday — 2 April 2027
+### Good Friday — 26 March 2027
 
 Good Friday is the most intensely observed day of Holy Week for most Christian pilgrims.
 
@@ -124,7 +124,7 @@ Inside the **[Church of the Holy Sepulchre](/church-holy-sepulchre-guide)**, Goo
 
 The **Garden Tomb**, the Protestant alternative site in East Jerusalem, holds its own Good Friday services in English, drawing large crowds of Evangelical and Anglican pilgrims in a quieter garden setting than the Holy Sepulchre.
 
-### Holy Saturday — 3 April 2027 (Western) / 1 May 2027 (Orthodox)
+### Holy Saturday — 27 March 2027 (Western) / 1 May 2027 (Orthodox)
 
 **Western Holy Saturday** is a day of waiting liturgically — quieter than Good Friday and Easter Sunday, and one of the better days to visit the Sepulchre without extreme crowd pressure.
 
@@ -149,7 +149,7 @@ Whether viewed as miracle or as the oldest living Christian rite in continuous p
 
 ---
 
-## Easter Sunday — 4 April 2027 (Western) / 2 May 2027 (Orthodox)
+## Easter Sunday — 28 March 2027 (Western) / 2 May 2027 (Orthodox)
 
 **Western Easter Sunday** morning begins with **pre-dawn services** at the Church of the Holy Sepulchre — the most atmospheric time of the entire week to be in the church. The Franciscan Easter Sunday Mass is held in the early morning. After the liturgy, the crowd thins and a quieter morning walk through the walled city is possible.
 
@@ -180,7 +180,7 @@ All sites in Jerusalem's Old City require covered shoulders and knees — year-r
 
 ### Combining Western and Orthodox Holy Week
 
-In 2028, Western Easter (16 April) and Orthodox Easter (22 April) are one week apart — a trip of 10–12 days can include both Good Friday and the Orthodox Holy Fire ceremony. Plan Jerusalem for the full 10-day window: arrive Thursday before Western Palm Sunday and depart the Tuesday after Orthodox Easter Sunday.
+In 2028, Western Easter and Orthodox Easter both fall on 16 April — the same date — making it the easiest year to experience both traditions in a single trip. Plan Jerusalem for the full week: arrive Saturday before Palm Sunday and depart the Tuesday after Easter Sunday.
 
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: 'Israel Travel Guide for Filipino Visitors (2026)'
-description: 'Israel travel guide for Filipino tourists: ETA-IL for Philippine passport holders, flights from Manila, Catholic pilgrimage sites, PhilHealth abroad, GCash in Israel, OFW family visits and more.'
+description: 'Israel travel guide for Filipino visitors: ETA-IL entry, Holy Land pilgrimage, flights from Manila, OFW family visits, GCash and PhilHealth abroad tips.'
 heroImage: /images/regions/nazareth/hero.jpg
 category: Planning
 updatedAt: 2026-07-19
