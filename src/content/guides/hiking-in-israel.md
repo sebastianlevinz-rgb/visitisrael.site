@@ -36,6 +36,8 @@ The **Israel National Trail** — the *Shvil* — runs about **1,000 km (620 mil
 - **The Negev Highlands & Ramon Crater:** the dramatic heart of the desert sections — canyons, craters and silence. Spectacular, demanding, and **autumn-to-spring only**. Anchor it on [Mitzpe Ramon](/negev).
 - **The Eilat Mountains (the final stretch):** rugged, colourful desert finishing at the Red Sea. Cool-season only. The [Red Canyon](/red-canyon-eilat) — a free slot canyon hike with iron-oxide sandstone walls — is the most accessible standalone highlight of this section.
 
+For a complete breakdown of the best INT sections, trail-angel logistics, gear lists, water strategy and how to integrate section hiking into a normal Israel trip, see the **[Israel National Trail section hiking guide](/israel-national-trail-hiking)**.
+
 ## The Jesus Trail
 
 The **Jesus Trail** is Israel's best-known pilgrimage hike: roughly **65 km (40 miles)** from **[Nazareth](/nazareth)** to **Capernaum** on the **Sea of [Galilee](/galilee)**, tracing the landscape of Jesus's ministry. It's a far more accessible undertaking than the Shvil — most walkers complete it in **3–4 days**, staying in guesthouses and B&Bs along the way, so you carry only a daypack.
