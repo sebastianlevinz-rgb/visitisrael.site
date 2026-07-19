@@ -10100,3 +10100,11 @@ Tourist Israel has "Visiting Tel Aviv Startups" content; we do not. Estimated lo
 ~94%. Pass #130 is consistent with recent research efficiency — actionable intelligence from El Al route announcements (new airline news) and advisory changes (new regulatory data) rather than new content topic discovery.
 
 **Next iteration**: 641 → BUILD (641%5==1; monetization rotation)
+
+## 2026-07-19T23:45Z · iter 641 · BUILD (monetization) · israel-for-argentinian-travelers
+What: New guide /israel-for-argentinian-travelers — Argentina's world-5th-largest Jewish community + Catholic pilgrimage market. Freshness anchor = El Al launching direct TLV→EZE (Buenos Aires Ezeiza) November 29 2026, 2x/week Sun/Tue — first confirmed South America–Israel direct service.
+Content: Entry requirements (ETA-IL; ARS fee framed as ILS since ARS depreciates rapidly); Flight table (El Al direct from Nov 29; Air France CDG, Lufthansa FRA, Turkish IST, Aerolíneas seasonal); Jewish heritage section (Yad Vashem + AMIA memorial connection; Ben Zakkai Sephardic synagogue; ANU Museum genealogy); Catholic pilgrimage section (BA archdiocese pilgrimages; Pope Francis 2014 Holy Land visit connection; standard circuit); Practical Argentina-specific sections (Type I→H plug adapter; PAMI not valid abroad; ARS not exchangeable in Israel — bring USD/EUR; Argentine Visa/Mastercard work at ATMs; Wise recommended); Safety framing (Cancillería advisory link; Israeli emergency numbers; Argentine embassy in Herzliya). 7 FAQs. 3 CTAs (GYG Jerusalem heritage tour, Booking.com, SafetyWing). Cross-link added to first-time-in-israel.md country guides list.
+Gate: pnpm check 0 errors; pnpm build 794 pages (+1 from 793); pnpm test:e2e 1093/1093 pass.
+Ship: squash-merged to master b6a0158; pushed.
+Prod: CI in_progress at push time — consistent with prior success pattern.
+Next: iter 642 → BUILD (642%5==2; seo-content rotation)

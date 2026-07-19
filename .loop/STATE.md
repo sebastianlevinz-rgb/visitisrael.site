@@ -1,13 +1,15 @@
 # LOOP STATE
 
-- iteration: 640
-- lastMode: RESEARCH
-- lastItem: research-640-pass-130
-- lastResult: RESEARCH pass #130 complete. No code shipped. 2 priority upgrades + 1 net-new freshness item. Upgrades: israel-for-korean-travelers P3→P2 (El Al TLV→ICN direct March 27 2027, 3x/week B787-9 — first direct Israel-Korea service); israel-for-argentinian-travelers P3→P2 (El Al TLV→EZE direct November 29 2026, 2x/week). New item: is-israel-safe advisory freshness update (P2/S/technical) — UK removed Israel from "no travel" list June 2026; EU EASA aviation risk downgraded July 8 2026. All other candidates confirmed already-BACKLOGGED or false leads. Saturation ~94%.
-- nextRotationCategory: 641%5==1 → BUILD (monetization rotation)
+- iteration: 641
+- lastMode: BUILD
+- lastItem: israel-for-argentinian-travelers
+- lastResult: SHIPPED b6a0158. New guide /israel-for-argentinian-travelers — Argentina is world's 5th-largest Jewish community + strong Catholic pilgrimage market; freshness hook = El Al TLV→EZE direct Nov 29 2026 (2x/week, first confirmed South America–Israel direct service). 7 FAQs, 3 CTAs (GYG heritage tour + Booking + SafetyWing). Cross-link added to first-time-in-israel.md. 794 pages (+1); 1093/1093 e2e pass.
+- nextRotationCategory: 642%5==2 → BUILD (seo-content rotation)
 - higgsfieldSpent: 0
-- updatedAt: 2026-07-19T22:30Z
+- updatedAt: 2026-07-19T23:45Z
 - branch context: work on master; feature work on auto/<slug>
+
+Notes: iter641 BUILD (monetization) — israel-for-argentinian-travelers. SHIPPED b6a0158. P2/S item; upgraded P3→P2 at iter640 (El Al TLV→EZE Buenos Aires direct Nov 29 2026, 2x/week Sun/Tue). Argentina has world's 5th-largest Jewish community (~180K); AMIA bombing resonance → Yad Vashem; Pope Francis Holy Land 2014 connection for Catholic pilgrimage market. Argentina-specific practical sections: Type I→H plug adapter; PAMI not valid abroad; ARS not exchangeable in Israel; Wise card recommended. 794 pages; 1093/1093 e2e pass.
 
 Notes: iter640 RESEARCH (pass #130) — research-640-pass-130. No code shipped. Key findings: (1) El Al TLV→ICN Seoul direct March 27 2027 — upgrades israel-for-korean-travelers P3→P2; (2) El Al TLV→EZE Buenos Aires November 29 2026 — upgrades israel-for-argentinian-travelers P3→P2; (3) UK FCDO removed Israel from "no travel" list, EASA aviation risk downgrade July 8 — new P2 freshness item for is-israel-safe.md; (4) Nova memorial 250K+ H1 2026 confirms demand but oct-7-memorial-sites remains BLOCKED per honesty rules. COMPETITORS.md + BACKLOG.md updated.
 
@@ -17,10 +19,10 @@ Notes: iter638 BUILD (technical/content-update) — content-freshness-638. SHIPP
 
 Notes: iter637 BUILD (seo-content) — easter-in-jerusalem. SHIPPED 5c08248. Key differentiator: Holy Fire ceremony logistics (Orthodox Holy Saturday, not Western Easter Sunday — the most common tourist confusion) + 3-year date table for Western vs Orthodox Easter; both allow planning around the ceremony. Strong pilgrim SEO hook: "Easter in Jerusalem 2027", "Holy Fire ceremony Jerusalem", "Good Friday Via Dolorosa 2027". Complements existing church-holy-sepulchre-guide.md + christian-pilgrimage-holy-land.md.
 
-Notes: iter636 BUILD (monetization) — israel-for-filipino-travelers. SHIPPED 7e59f7f. P2/S item; upgraded P3→P2 at iter635 (El Al TLV→MNL direct Oct 2026 — first-ever Israel-Philippines non-stop service). Philippines is world's 3rd-largest Catholic country (~92M Catholics); strong pilgrimage travel market via El Shaddai, Couples for Christ, diocesan groups. Guide follows the proven origin-market playbook: entry requirements (ETA-IL — Philippines is visa-exempt, no full visa needed), flights, Catholic pilgrimage circuit, OFW family visits, payment (GCash International not accepted), health insurance (PhilHealth not valid abroad), mobile connectivity, power adapter, embassy contacts. Fresh SEO hook: El Al launching first-ever direct TLV→MNL service October 2026. Cross-links added to first-time-in-israel.md (country guides list) and visa-information.md (new Filipino ETA-IL section). 792 pages (+1 from 791); 1093/1093 e2e pass; 0 check errors.
+Notes: iter636 BUILD (monetization) — israel-for-filipino-travelers. SHIPPED 7e59f7f. P2/S item; upgraded P3→P2 at iter635 (El Al TLV→MNL direct Oct 2026 — first-ever Israel-Philippines non-stop service). Philippines is world's 3rd-largest Catholic country (~92M Catholics); strong pilgrimage travel market via El Shaddai, Couples for Christ, diocesan groups. Guide follows the proven origin-market playbook: entry requirements (ETA-IL — Philippines is visa-exempt, no full visa needed), flights, Catholic pilgrimage circuit, OFW family visits, payment (GCash International not accepted), health insurance (PhilHealth not valid abroad), mobile connectivity, power adapter, embassy contacts. Fresh SEO hook: El Al launching first-ever direct TLV→MNL service October 2026. Cross-links added to first-time-in-israel.md (country guides list) and visa-information.md (new Filipino ETA-IL section). 792 pages (+1 from 791); 1093/1093 e2e pass.
 
 Notes: iter635 RESEARCH (pass #129) — research-635-pass-129. No code shipped. 1 priority upgrade: israel-for-filipino-travelers P3→P2 (El Al TLV→MNL direct Oct 2026 — first-ever Israel-Philippines non-stop service). Tel Aviv Museum of Art expansion: CONFIRMED FALSE LEAD (closed permanently; second confirmation). Etihad 6x daily AUH→TLV from June 15 2026 (freshness note). Six Senses TLV + Nobu TLV opening 2026 (luxury hotel freshness; best-hotels-tel-aviv already SHIPPED iter243). Tower of David "Eyes on the Wall" April 2027 confirmed on track + June 2026 crowdsourcing campaign active. Saturation ~94%.
 
 Cron b7325b16 hourly @ :17. Loop history: 19 tools + sitemap-lastmod + link-checker(+depth) + i18n
-Phase0/1a/1b/1c/2 Batches1-18(COMPLETE) + 47 review passes + 3 technical (event-schema + meta-trim + locale-links) + 71 EN guides + 7 tools-monetization + 2 comparisons;
+Phase0/1a/1b/1c/2 Batches1-18(COMPLETE) + 47 review passes + 3 technical (event-schema + meta-trim + locale-links) + 72 EN guides + 7 tools-monetization + 2 comparisons;
 research iters 5/10/20/30/35/40/45/50/55/60/65/70/75/80/85/90/95/100/105/110/115/120/125/130/135/140/145/150/155/160/165/170/175/180/185/190/195/200/205/210/215/220/225/230/235/240/245/250/255/260/265/270/275/280/285/290/295/300/305/310/315/320/325/330/335/340/345/350/355/360/365/370/375/380/385/390/395/400/405/410/420/425/430/435/440/445/450/455/460/465/470/480/485/490/495/500/505/510/515/520/525/535/540/545/550/555/560/565/570/575/580/585/590/595/600/605/610/615/620/625/630/635/640.
