@@ -10032,3 +10032,37 @@ Gate: pnpm check 0 errors; pnpm build 793 pages (unchanged); pnpm test:e2e 1093/
 Ship: squash-merged to master d697cc5; pushed. CI in_progress at push time — consistent with prior success pattern.
 Prod: CI in_progress at iteration end — next run to confirm.
 Next: iter 639 → REVIEW (639%5==4).
+
+## 2026-07-19T21:50Z · iter 639 · REVIEW · review-639-date-meta-fixes
+Mode: REVIEW (639%5==4). Audited iters 636–638: israel-for-filipino-travelers, easter-in-jerusalem, content-freshness-638.
+
+### Findings — iters 636–638
+
+**iter638 (content-freshness: cheap-flights, israel-for-american-travelers, tel-aviv-light-rail)**
+All changes: factually accurate. Airline data verified against previous research. Purple Line timeline correction verified. No issues.
+
+**iter636 (israel-for-filipino-travelers)**
+- H1 in body: none ✓
+- Inbound links: 2 (first-time-in-israel + visa-information) ✓
+- Images: /images/regions/nazareth/hero.jpg exists ✓
+- Honesty: no fabricated data ✓
+- Title 48c [OK] ✓
+- Description: 194c [FAIL — 34 chars over 160 limit] → FIXED: trimmed to 152c
+
+**iter637 (easter-in-jerusalem) — CRITICAL DEFECTS FOUND AND FIXED**
+- H1 in body: none ✓
+- Inbound links: 5 (best-time-to-visit, christian-pilgrimage, events-festivals, jerusalem-armenian-quarter, jerusalem-trail) ✓
+- Images: /images/regions/jerusalem/holy-sepulchre.jpg exists ✓
+- Title: 66c [FAIL — 1 char over 65 limit] → FIXED: trimmed to 55c
+- Description: 177c [FAIL — 17 chars over 160 limit] → FIXED: trimmed to 154c
+- **DATE ERRORS (critical)**: Western Easter 2027 was "4 April" throughout; correct date per Gaussian/Anonymous Gregorian algorithm is **28 March 2027** (a=13, d=1, e=5; f=22+1+5=28; March 28, 2027 is a Sunday ✓). Errors cascaded through: date table, JSON-LD event startDate/endDate (3 events), section headings (Palm Sunday/Maundy Thursday/Good Friday/Holy Saturday/Easter Sunday), FAQ answer, narrative.
+- Orthodox Easter 2028: article said "22 April" → correct **16 April** (W+O coincide in 2028: both April 16).
+- Orthodox Easter 2029: article said "6 May" → correct **8 April** (algorithm: Julian March 26 + 13 = April 8).
+- Orthodox Easter 2027 (2 May) was already correct ✓; Western Easter 2029 (1 April) was already correct ✓; Western Easter 2028 (16 April) was already correct ✓.
+
+### Fix applied
+Branch auto/review-639-date-meta-fixes: 14 targeted edits across 2 files. All date references updated consistently.
+Gate: pnpm check 0 errors; pnpm build 793 pages; pnpm test:e2e 1093/1093 pass.
+Ship: committed d61c7ee to master; pushed. CI in_progress — consistent with prior success pattern.
+
+**Next iteration**: 640 → RESEARCH (640%5==0)
