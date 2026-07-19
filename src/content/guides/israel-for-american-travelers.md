@@ -3,7 +3,7 @@ title: 'Israel Travel Guide for American Visitors (2026)'
 description: 'Israel travel guide for US visitors: State Dept advisory, ETA-IL vs ESTA, direct US flights, no-FX-fee cards, adapters, US Embassy contacts and more.'
 heroImage: /images/regions/jerusalem/hero.jpg
 category: Planning
-updatedAt: 2026-07-10
+updatedAt: 2026-07-19
 ctaHeading: 'Book hotels, tours and car hire for your Israel trip'
 affiliateCtas:
   - partner: booking
@@ -71,16 +71,19 @@ The advisory is updated in response to events. Check it before you book, again b
 
 Several airlines operate nonstop services between the US and Ben Gurion Airport (TLV):
 
-| Route | Carriers |
-|---|---|
-| New York JFK | El Al, Delta (seasonal resumption 2026), United |
-| Newark EWR | United |
-| Miami MIA | El Al (seasonal) |
-| Chicago ORD | El Al (seasonal) |
-| Los Angeles LAX | El Al |
-| Boston BOS | Delta (announced Oct 2026) |
+| Route | Carriers | Notes |
+|---|---|---|
+| New York JFK | El Al, Israir, American | Israir low-cost nonstop launched Aug 2026 |
+| Los Angeles LAX | El Al | Year-round |
+| San Francisco SFO | El Al | New West Coast gateway, from Oct 2026 |
+| Miami MIA | El Al | Seasonal |
+| Chicago ORD | El Al | Seasonal |
 
-**El Al** runs the most frequencies year-round — often multiple daily departures from JFK — and tends to be price-competitive on the nonstop transatlantic market. **United** serves Newark year-round. **Delta** is resuming and expanding service in 2026 after a pause; confirm schedule before booking. Flight time from New York is approximately 10–11 hours eastbound; from LA approximately 15–16 hours.
+**Delta and United** have both suspended their Israel nonstop services since October 2023 and remained suspended as of July 2026. Check their websites for any future resumption updates before booking.
+
+**El Al** runs the most nonstop frequencies year-round — often multiple daily departures from JFK — and tends to be price-competitive on the direct market. Flight time from New York is approximately 10–11 hours eastbound; from Los Angeles approximately 15–16 hours.
+
+**Israir** launched the first low-cost Israeli carrier nonstop from JFK in August 2026 (Airbus A330, 206 economy seats), offering a budget-conscious alternative on the flagship New York route.
 
 **When to book.** Fares from the US are typically lowest in October (after the Jewish High Holiday season) and in January–February. The most expensive periods are Passover (March–April), the High Holidays (September–October), summer peak (July–August) and the Christmas–New Year window. Booking around 10–20 weeks in advance usually produces competitive fares. See the [cheap flights to Israel guide](/cheap-flights-to-israel) for fare tool tips and a full airline comparison.
 

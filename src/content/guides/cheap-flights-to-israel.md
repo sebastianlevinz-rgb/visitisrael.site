@@ -3,7 +3,7 @@ title: 'Cheap Flights to Israel (TLV): When to Book & Best Airlines'
 description: 'How to find cheap flights to Ben Gurion Airport — the best months to book, airlines flying direct from the US and Europe, and how to use fare tools.'
 heroImage: /images/regions/tel-aviv/hero.jpg
 category: Planning
-updatedAt: 2026-06-30
+updatedAt: 2026-07-19
 ctaHeading: 'Search and compare flights to Tel Aviv'
 affiliateCtas:
   - partner: skyscanner
@@ -20,7 +20,7 @@ faqs:
   - question: How far in advance should I book flights to Israel?
     answer: 'Booking roughly 20–26 weeks (5–6 months) ahead generally produces the best fares from North America and Australia. For European routes, 8–16 weeks ahead is usually optimal. Booking less than six weeks out tends to be the most expensive window. Set a Skyscanner or Google Flights price alert for your route and travel month so you can act when fares dip.'
   - question: Which airlines fly direct from the US to Israel?
-    answer: 'El Al, United, Delta and American Airlines all operate nonstop flights between Israel and major US airports including JFK, EWR, MIA, ORD and LAX. El Al tends to offer the most frequencies and is often price-competitive on the nonstop market. Connecting via London (Heathrow), Paris (CDG), Amsterdam (AMS), Rome (FCO) or Vienna (VIE) on European carriers sometimes produces a lower total fare — check both options.'
+    answer: 'El Al operates the most nonstop US–Israel frequencies year-round. Israir launched the first low-cost Israeli carrier nonstop from New York JFK in August 2026. El Al also added San Francisco SFO as a new West Coast gateway from October 2026. Delta and United have both suspended Israel nonstop service since October 2023 — check their websites for any resumption updates. American Airlines serves Miami MIA seasonally. Connecting via London, Paris, Amsterdam, Rome or Vienna on European carriers sometimes produces a lower total fare — run both searches.'
   - question: Are there budget airlines to Israel from Europe?
     answer: 'Yes. Wizz Air, Ryanair and easyJet all serve Ben Gurion Airport from multiple European cities. Aegean flies from Athens and several Greek islands. Fares on these carriers can be substantially below legacy-airline pricing, though base fares exclude hold luggage and seat selection — factor those in when comparing.'
   - question: What airport do international flights use for Israel?
@@ -47,15 +47,18 @@ These dates shift each year on the Hebrew calendar — use the fare tools below 
 
 ### From North America
 
-| Route | Carriers |
-| --- | --- |
-| New York JFK | El Al, Delta, American |
-| New York EWR | United |
-| Los Angeles LAX | El Al |
-| Chicago ORD | United |
-| Miami MIA | American, El Al |
+| Route | Carriers | Notes |
+| --- | --- | --- |
+| New York JFK | El Al, Israir, American | Israir low-cost nonstop from Aug 2026 |
+| Los Angeles LAX | El Al | Year-round |
+| San Francisco SFO | El Al | New route from Oct 2026 |
+| Miami MIA | El Al | Seasonal |
+
+**Delta and United** have both suspended their Israel nonstop services since October 2023 — as of July 2026 both remain suspended ("until at least September 2026"). Check their websites for any resumption updates before booking.
 
 **El Al** (Israel's national carrier) offers the most nonstop frequencies from North America and tends to be price-competitive on the direct market. **El Al's Lite fare** is often the entry price on the route — check what it includes before booking, as checked bags may be an add-on.
+
+**Israir** launched Israel's first low-cost carrier nonstop to the US from New York JFK in August 2026, using an Airbus A330 (ex-American Airlines) with 206 economy seats. Expect lower base fares than El Al on that route; compare total prices including any luggage fees.
 
 **One-stop connections via Europe** — particularly London Heathrow, Paris CDG, Amsterdam AMS, Rome Fiumicino or Vienna VIE — can be significantly cheaper than a nonstop, especially when booked well in advance. Running both searches side by side is worth the effort.
 
@@ -64,6 +67,7 @@ These dates shift each year on the Hebrew calendar — use the fare tools below 
 | Carrier | Main bases | Notes |
 | --- | --- | --- |
 | El Al | London, Paris, Amsterdam, Rome, Frankfurt, Zurich, Budapest | Daily or near-daily from major hubs |
+| Israir | Madrid MAD | New from Oct 2026; 3×/week A320 |
 | Wizz Air | London Luton, Budapest, Vienna, Bucharest and others | Ultra-low base fares; luggage add-ons |
 | Ryanair | Manchester, Dublin, Athens, Milan BGY, Lisbon and others | Seasonal frequency; strict carry-on rules |
 | easyJet | London Gatwick, Paris CDG, Geneva | Checked bag included on some fares |
@@ -73,10 +77,11 @@ Budget carrier base fares can be very low — especially in autumn and spring �
 
 ### From Australia and Asia
 
-No direct flights exist from Australia or most of Asia. Common one-stop routings include:
+No direct flights exist from Australia. New for 2026: **Arkia** launched the first-ever direct Israel–Japan service (TLV → Tokyo Narita) from October 2026 using a Boeing 787, opening a direct gateway to East Asia for the first time. Common one-stop routings include:
 
 - **Australia → Dubai or Abu Dhabi → TLV** (Emirates / Etihad)
 - **Australia → Singapore or Bangkok → TLV** (Singapore Airlines / Thai Airways)
+- **Japan / East Asia → TLV** (Arkia direct from Oct 2026; El Al codeshares)
 - **India → TLV** (Air India, IndiGo operate direct; El Al from Mumbai)
 
 ## How far in advance to book
