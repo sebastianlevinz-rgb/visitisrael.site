@@ -125,7 +125,7 @@ Same rules as the train network: **tap on at the platform validator when boardin
 
 ### Jerusalem Light Rail (Red and Purple lines)
 
-Same tap-on and tap-off rules as the Red Line. Jerusalem's light rail has been running since 2011 and is well-signposted in English. Tap at the platform validator before boarding; tap again at the validator at your exit station.
+Same tap-on and tap-off rules as the Red Line. Jerusalem's light rail has been running since 2011 and is well-signposted in English. Tap at the platform validator before boarding; tap again at the validator at your exit station. See the [Jerusalem Light Rail guide](/jerusalem-light-rail-guide) for key tourist stops, airport connection and Shabbat hours.
 
 ---
 

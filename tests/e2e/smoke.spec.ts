@@ -620,6 +620,7 @@ const ROUTES = [
   '/soreq-cave-guide',
   '/belvoir-fortress',
   '/israel-food-festivals',
+  '/jerusalem-light-rail-guide',
 ];
 
 for (const route of ROUTES) {

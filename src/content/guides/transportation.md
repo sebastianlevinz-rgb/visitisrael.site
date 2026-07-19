@@ -31,6 +31,8 @@ Buses cover everywhere the trains don't, from intercity Egged and Metropoline co
 
 The **[Tel Aviv Red Line](/tel-aviv-light-rail)** — Israel's first metro-style rail, opened 2023 — runs 24 km from Bat Yam south through central Tel Aviv to Petah Tikva northeast, with 10 underground stations. Key tourist stops: Jaffa area, Carlebach (city centre), Habima (White City / culture), and Arlozorov (intercity rail interchange for the airport). Contactless bank cards accepted at all validators. See the [Tel Aviv Light Rail guide](/tel-aviv-light-rail) for station-by-station breakdown, ticketing options and the airport connection.
 
+The **Jerusalem Light Rail** (Red and Blue lines) covers the key tourist stops in Jerusalem: Damascus Gate (Old City Muslim Quarter entrance), Jaffa Gate/City Hall (Old City Jaffa Gate, Mamilla), Ben Yehuda (city centre), Mahane Yehuda market, and Mount Herzl/Yad Vashem. See the [Jerusalem Light Rail guide](/jerusalem-light-rail-guide) for stop-by-stop breakdown, how to connect from Ben Gurion Airport and Shabbat schedule details.
+
 ## Sherut shared taxis
 
 **Sheruts** are shared minibuses that run fixed routes, leaving when full. They're cheap, frequent, and crucially they **keep running on Shabbat** on key routes — including between the airport, Tel Aviv and Jerusalem — when trains and most buses pause.
