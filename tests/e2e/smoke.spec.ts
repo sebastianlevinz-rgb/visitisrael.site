@@ -619,6 +619,7 @@ const ROUTES = [
   '/israeli-passport-stamp',
   '/soreq-cave-guide',
   '/belvoir-fortress',
+  '/israel-food-festivals',
 ];
 
 for (const route of ROUTES) {
