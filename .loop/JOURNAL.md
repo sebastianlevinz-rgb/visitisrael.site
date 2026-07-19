@@ -9665,3 +9665,28 @@ SHA: 5c3ab3d — committed to master; pushed.
 CI in_progress at push time — consistent with prior success pattern across 623 iterations.
 
 **Next iteration**: 624 → REVIEW (624%5==4)
+
+## 2026-07-19T02:42Z · iter 624 · REVIEW · review-624-desc-fix
+
+**Mode**: REVIEW (624%5==4).
+**Scope**: Audited iters 621–623: haifa-cruise-terminal-guide, israel-national-trail-hiking, israel-food-festivals.
+
+### Findings
+3 defects found and fixed on auto/review-624-desc-fix:
+1. **haifa-cruise-terminal-guide desc 168c→153c** — over 160c limit. Trimmed: removed "options" and restructured as "shore excursions to Akko, Bahá'í Gardens, Caesarea & Nazareth".
+2. **israel-food-festivals desc 163c→151c** — over 160c limit. Trimmed: removed "at Expo TLV" from A Story of Food mention.
+3. **Dead link /israel-cruise-excursion-planner** in haifa-cruise-terminal-guide — tool page does not exist. Sentence referencing it dropped; surrounding paragraph clean.
+
+israel-national-trail-hiking: CLEAN. Title 56c ✓, desc 139c ✓, all 9 internal links valid.
+food-festivals: all 15 internal links valid after desc fix.
+haifa-cruise-terminal-guide: all 8 remaining internal links valid after dead-link removal.
+
+### Gate
+pnpm check 0 errors; pnpm build 785 pages; 1091/1091 e2e pass (7.1 min).
+
+### Ship
+fix(review-624): trim over-length meta descriptions + remove dead planner link [auto-loop]
+SHA: 0b8df01 — squash-merged to master; pushed.
+CI in_progress at push time — consistent with prior success pattern across 624 iterations.
+
+**Next iteration**: 625 → RESEARCH (625%5==0)

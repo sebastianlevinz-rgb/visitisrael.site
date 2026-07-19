@@ -1,12 +1,12 @@
 # LOOP STATE
 
-- iteration: 623
-- lastMode: BUILD
-- lastItem: israel-food-festivals
-- lastResult: SHIPPED 5c3ab3d. New /israel-food-festivals — annual culinary events guide. 785 pages (+1); 1091/1091 e2e pass; 0 check errors. CI in_progress at push time — consistent with prior success pattern.
-- nextRotationCategory: 624%5==4 → REVIEW
+- iteration: 624
+- lastMode: REVIEW
+- lastItem: review-624-desc-fix
+- lastResult: SHIPPED 0b8df01. Audited iters 621-623. 3 defects fixed: haifa-cruise-terminal-guide desc 168→153c, israel-food-festivals desc 163→151c, dead link /israel-cruise-excursion-planner removed. 785 pages; 1091/1091 e2e pass.
+- nextRotationCategory: 625%5==0 → RESEARCH
 - higgsfieldSpent: 0
-- updatedAt: 2026-07-19T02:00Z
+- updatedAt: 2026-07-19T02:42Z
 - branch context: work on master; feature work on auto/<slug>
 
 Notes: iter623 BUILD (tools empty → fell through to seo-content/P3/S) — israel-food-festivals. SHIPPED 5c3ab3d. New /israel-food-festivals — annual culinary events guide for Israel. Covers: Eat Tel Aviv (May, Charles Clore Park, ~50,000 visitors, 10th edition 2026), A Story of Food at Expo TLV (Passover week, 100k+ visitors, 200+ exhibitors), Sarona Wine & Food Festival (June–July, Templar buildings setting), Tel Aviv Cocktail Festival (August, multi-bar format), Olive oil harvest festivals (November, Galilee & Golan, farm open days). Festival-at-a-glance table, per-event logistics, ticket sources, accommodation strategy, budget table, 7 FAQs, 3 CTAs (GYG food tours, Viator wine tasting, Booking TLV hotels). EventSchema for all 5 festivals. Cross-links: israel-events-festivals + israel-food-tours-cooking-classes. Tools category had 0 ready items (all 11 tools shipped iters 57–138); fell through: technical (shipped iter38) → monetization (all shipped) → seo-content. 785 pages (+1); 1091/1091 e2e pass; 0 check errors. CI in_progress at push time — consistent with prior success pattern. Next: iter624 → REVIEW (624%5==4).
