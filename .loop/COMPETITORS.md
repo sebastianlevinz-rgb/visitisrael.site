@@ -5488,3 +5488,74 @@ Saturation now at ~94%. Yield this pass: 6 net-new items — all from 2026-speci
 ### Competitive landscape at pass #126
 
 Saturation now at ~94%. 6 net-new items from this pass — split between new pages (food festivals hub, ISRAMAN, Haifa cruise terminal, 2 nationality guides) and a content-freshness batch update. Southeast Asian nationality guide gap (Malaysia, Singapore) mirrors the Central/Eastern European gap identified in passes #123-#124 — proven playbook applies. The sports-tourism niche (ISRAMAN triathlon) is the freshest angle at this saturation level; no competitor has editorial coverage. The food festivals hub fills a genuine aggregation gap that GYG/Viator rank well for but editorial Israel brands don't. Next research pass should focus on: 2027 attraction openings (Tel Aviv Museum expansion, National Museum of Israel re-opening), content accuracy audit of time-sensitive Winter/Spring 2027 event dates, and any remaining nationality guide gaps (Morocco, South Africa, India).
+
+## iter625 research — pass #127 — 2026-07-19
+
+### Research focus
+2027 attraction openings, nationality guide gaps, content freshness for shipped guides. Pass #127 at ~94% saturation.
+
+### Moroccan travelers (confirmed gap)
+
+**joinsherpa.com/visa/israel/moroccan-citizens** — Confirms Moroccan passport holders require in-person visa from Israeli mission in third country; ETA-IL is NOT available for Moroccan nationals. Embassy of Israel in Paris is most accessible option for Moroccan travelers.
+
+**hinterlandtravel.com/morocco/destinations/israel** — Travel logistics summary confirms no direct TLV→CMN service; connections via Paris CDG or Istanbul IST.
+
+**visalist.io/israel/visa-requirements/morocco** — Cross-confirms in-person visa requirement; no Morocco-based Israeli mission.
+
+**Context**: Abraham Accords normalized Israel-Morocco relations December 2020 but no embassy opened in Morocco. Moroccan citizens must travel to Paris, Brussels, or Ankara to apply for Israeli visas in person. Strong Moroccan Jewish heritage angle (300K+ Israeli-Moroccan community; Mimouna festival is widely celebrated in Israel). No competitor editorial brand covers this nationality market specifically.
+
+### Tower of David "Eyes on the Wall" 2027 (confirmed freshness opportunity)
+
+**tod.org.il** — Official Tower of David Museum site confirms upcoming "Eyes on the Wall" exhibition opening April 2027, marking 60th anniversary of Jerusalem reunification. First major museum exhibition dedicated to Western Wall's complete history. Curated by Shimon Lev.
+
+**timesofisrael.com** — Coverage confirms scope: ~2,000 years of Western Wall history; photographs, archival documents, films, personal object collections; will open inside the Tower of David Citadel archaeological space alongside existing exhibitions.
+
+**jta.org** — Jewish Telegraphic Agency coverage corroborates April 2027 opening.
+
+**Context**: Our tower-of-david-guide.md predates this announcement. A "Coming in 2027" callout box is a low-effort high-value content freshness update. Pre-emptive coverage gives SEO advantage over competitors who will publish simultaneously when exhibition opens.
+
+### Rosh HaNikra cable car status (accuracy concern)
+
+**ynetnews.com/travel/article/hjd8oz111gg** — Site marketing director confirmed at May 2025 reopening: "We've currently reopened the lower area and will later address the upper cable car zone." Cable car OOS as of May 2025.
+
+**jfeed.com/news-israel/rosh-hanikra-grottoes-reopen** — "Is It Safe to Visit Rosh Hanikra Again? Israel's Northern Gem Reopens" — confirms May 12 2025 reopening; cable car still out of service; Ottoman tunnel access to lower grottos.
+
+**rosh-hanikra.com/en** — Official site, most authoritative for current cable car status.
+
+**Context**: Our rosh-hanikra-guide.md (updatedAt 2026-07-12) retains "cable car" in frontmatter description and verdictQuery. If body doesn't explicitly address OOS status, visitors will be misled. Low-effort accuracy check needed. New HaTzuk chef restaurant (opened since war closure) is also missing from guide.
+
+### Israel canyoning (confirmed gap)
+
+**tripadvisor.com/Attractions-g293977-Activities-c61-t273-Israel** — "THE 15 BEST Israel Canyoning & Rappelling Tours" — confirms search demand; competitor platform ranks for this query with tour listings.
+
+**adventure-israel.com** — Adventure Israel operator: rappelling, canyoning, rock climbing. Licensed guides. Covers Black Canyon, Nachal Rachaf, Golan canyon.
+
+**ashdotextreme.co.il/en/canyoning-in-israel** — Ashdot Extreme: South + Central Israel specialty; Black Canyon, Nahal Tamar, canyoning season April–October.
+
+**israel-guides.net/canyoning-in-israel-exreme-tours** — Editorial site confirms "5 canyons in the Judean Desert along the Dead Sea + 1 in Golan Heights"; Black Canyon, Nachal Tamar, Wadi Qelt (incidental canyoning), Nachal Rachaf.
+
+**israel21c.org/canyoning-anyone** — Israeli editorial magazine has existing canyoning article confirming audience interest.
+
+**Context**: Dry-canyon canyoning is distinct from water-hiking-israel.md (nahal swimming) and not served by our adventure-sports hub beyond a brief mention. A dedicated canyoning guide fills a genuine editorial gap with clear monetization via GYG rappelling tours.
+
+### ANU Museum — Codex Sassoon (confirmed gap)
+
+**sothebys.com/en/articles/the-codex-sassoon** — World record auction: Codex Sassoon (c. 900 CE, one of oldest + most complete Hebrew Bibles) sold May 2023 for $38.1M to Alfred Moses who donated it to ANU Museum, Tel Aviv. Now on permanent display.
+
+**anu.org.il** — Official ANU Museum (formerly Beth Hatefutsoth/Diaspora Museum) site. Museum completely redesigned (NIS 300M / ~$85M) and reopened as "ANU" 2021. 4-floor permanent exhibition + Codex Sassoon gallery.
+
+**tripadvisor.com/Attraction_Review-g293984-d203718-Reviews-ANU_Museum_of_the_Jewish_People** — 3,500+ reviews; 4.5/5; one of Tel Aviv's most-reviewed museums.
+
+**Context**: tel-aviv-museums.md covers ANU in 2-3 sentences as part of a hub. The Codex Sassoon acquisition (May 2023, $38.1M) is the world's most expensive Hebrew manuscript and makes ANU uniquely significant as an attraction. No competitor editorial brand has a dedicated ANU guide. High-search-intent: "Codex Sassoon visit", "ANU Museum tickets", "Museum of the Jewish People Tel Aviv".
+
+### Birthright/Taglit (confirmed gap)
+
+**taglit.org** — Official Birthright Israel program site. Confirms: 800,000+ alumni; 70+ countries; free 10-day trip for qualifying Jewish adults 18–32; 40+ trip operators; 4 cycles per year (Jan/May/Jun/Dec).
+
+**jta.org/birthright** — JTA coverage of program logistics, history, and recent developments.
+
+**Context**: Birthright is one of the world's largest organized tourism programs yet no Israel editorial site has a practical "is this for me?" style guide. The program serves a specific, high-intent audience (diaspora Jews 18–32 who are researching their first trip to Israel via this program). Heavy cross-link potential with israel-for-american-travelers, israel-for-british-travelers, jewish-heritage-israel, and all first-timers guides.
+
+### Competitive landscape at pass #127
+
+Saturation: ~94%. 6 net-new items from 30+ candidates. False leads heavily outnumber confirmed gaps at this saturation level. Most productive angle: content freshness (cable car OOS, Tower of David 2027) + Codex Sassoon as new anchor attraction for ANU guide (2023 acquisition). Moroccan travelers is the only remaining Abraham Accords-country without a nationality guide (Bahrain, UAE — all normalization countries with significant tourist populations should be audited next pass). Birthright guide is the biggest editorial blindspot found: 800K alumni worldwide search for this and our site has zero dedicated content. Next pass should focus on: remaining Abraham Accords nationality gaps (Bahrain, UAE outbound travelers), Codex Sassoon companion guide (if ANU guide is shipped — Qumran Dead Sea Scrolls vs Codex Sassoon comparison piece), and any confirmed 2027 event openings (Tel Aviv Museum of Art post-renovation reopening — rumored but not confirmed).

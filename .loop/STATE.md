@@ -1,13 +1,15 @@
 # LOOP STATE
 
-- iteration: 624
-- lastMode: REVIEW
-- lastItem: review-624-desc-fix
-- lastResult: SHIPPED 0b8df01. Audited iters 621-623. 3 defects fixed: haifa-cruise-terminal-guide desc 168→153c, israel-food-festivals desc 163→151c, dead link /israel-cruise-excursion-planner removed. 785 pages; 1091/1091 e2e pass.
-- nextRotationCategory: 625%5==0 → RESEARCH
+- iteration: 625
+- lastMode: RESEARCH
+- lastItem: research-625-pass-127
+- lastResult: No code shipped. 6 net-new BACKLOG items. Focus: Moroccan nationality guide, Tower of David 2027 exhibition update, Rosh HaNikra cable car OOS accuracy, Israel canyoning guide, Birthright/Taglit guide, ANU Museum/Codex Sassoon guide. Saturation ~94%. 785 pages; 1091/1091 e2e pass (unchanged).
+- nextRotationCategory: 626%5==1 → BUILD (monetization)
 - higgsfieldSpent: 0
-- updatedAt: 2026-07-19T02:42Z
+- updatedAt: 2026-07-19T04:05Z
 - branch context: work on master; feature work on auto/<slug>
+
+Notes: iter625 RESEARCH (pass #127) — research-625-pass-127. No code shipped. 6 net-new BACKLOG items. Focus: content freshness + nationality guide gap + experience niches. Key findings: (1) Morocco nationality guide — NO Israeli embassy in Morocco; Moroccan citizens must apply in person at Israeli mission in France/Belgium/Turkey; distinct from israel-vs-morocco comparison; strong Moroccan Jewish heritage angle (300K+ Israeli-Moroccan community). (2) Tower of David "Eyes on the Wall" exhibition opening April 2027 (60th anniversary 1967 reunification) — add to tower-of-david-guide.md. (3) Rosh HaNikra cable car still OOS since May 2025 reopening; guide accuracy check needed. (4) /israel-canyoning-guide — dry-canyon rappelling distinct from water-hiking-israel + adventure-sports hub. (5) /israel-birthright-taglit-guide — 800K+ alumni; zero editorial coverage on site. (6) /anu-museum-guide — ANU Museum + Codex Sassoon ($38.1M, 2023 acquisition); hub only covers in 2–3 sentences. FALSE LEADS: Israel Museum Jerusalem re-opening (no 2027 project), Tel Aviv Museum expansion (no confirmed date), Philippines/Brazil/Nigeria/Malaysia/Singapore (all already in BACKLOG). Saturation ~94%; next research should check Bahrain/UAE Abraham Accords outbound travelers + Tel Aviv Museum of Art post-renovation status. Next: iter626 → BUILD (626%5==1; monetization rotation).
 
 Notes: iter623 BUILD (tools empty → fell through to seo-content/P3/S) — israel-food-festivals. SHIPPED 5c3ab3d. New /israel-food-festivals — annual culinary events guide for Israel. Covers: Eat Tel Aviv (May, Charles Clore Park, ~50,000 visitors, 10th edition 2026), A Story of Food at Expo TLV (Passover week, 100k+ visitors, 200+ exhibitors), Sarona Wine & Food Festival (June–July, Templar buildings setting), Tel Aviv Cocktail Festival (August, multi-bar format), Olive oil harvest festivals (November, Galilee & Golan, farm open days). Festival-at-a-glance table, per-event logistics, ticket sources, accommodation strategy, budget table, 7 FAQs, 3 CTAs (GYG food tours, Viator wine tasting, Booking TLV hotels). EventSchema for all 5 festivals. Cross-links: israel-events-festivals + israel-food-tours-cooking-classes. Tools category had 0 ready items (all 11 tools shipped iters 57–138); fell through: technical (shipped iter38) → monetization (all shipped) → seo-content. 785 pages (+1); 1091/1091 e2e pass; 0 check errors. CI in_progress at push time — consistent with prior success pattern. Next: iter624 → REVIEW (624%5==4).
 

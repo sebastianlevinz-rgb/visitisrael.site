@@ -9690,3 +9690,26 @@ SHA: 0b8df01 — squash-merged to master; pushed.
 CI in_progress at push time — consistent with prior success pattern across 624 iterations.
 
 **Next iteration**: 625 → RESEARCH (625%5==0)
+
+## 2026-07-19T04:05Z · iter 625 · RESEARCH · research-625-pass-127
+
+**Mode**: RESEARCH (625%5==0).
+**Scope**: Pass #127. Focus per STATE.md: 2027 attraction openings, India/South Africa/Morocco nationality guides, content accuracy audit for event dates Winter/Spring 2027.
+
+### Research summary
+30+ candidate topics checked against BACKLOG.md + DONE.md + src/content/guides/ (785 files). Confirmed 6 net-new items at ~94% saturation.
+
+**False leads eliminated**: India guide (BACKLOG iter430), South Africa guide (BACKLOG iter450), Philippines (BACKLOG confirmed iter610), Brazil (BACKLOG confirmed iter610), Nigeria (BACKLOG iter460), Malaysia (BACKLOG iter620), Singapore (BACKLOG iter620), Israel Museum Jerusalem re-opening (no 2027 project found; last renovation 2010), Tel Aviv Museum expansion (no confirmed 2027 announcement), Eilat Ramon Airport (SHIPPED standalone), Aqaba from Eilat (SHIPPED iter421), cycling guide (SHIPPED iter238), photography guide (SHIPPED iter351), medical tourism (SHIPPED iter367), adventure sports hub (SHIPPED iter53), water hiking (SHIPPED), Safed/Tzfat (SHIPPED), dark tourism (BACKLOG), Judean Hills winery day-trip (BACKLOG P2/M), Birthright Birthright (ZERO — genuinely new), ANU Museum Codex (ZERO — new).
+
+**6 net-new items confirmed**:
+1. `/israel-for-moroccan-travelers` (P3/M, seo-content+monetization) — No Israeli embassy in Morocco; in-person visa required from third country; Abraham Accords 2020; 300K+ Moroccan Jews in Israel; distinct from israel-vs-morocco comparison.
+2. Tower of David "Eyes on the Wall" 2027 update (P3/S, technical/content-update) — April 2027 exhibition opening; first WW-dedicated exhibition; 60th anniversary 1967; add to tower-of-david-guide.md.
+3. Rosh HaNikra cable car OOS accuracy check (P3/S, technical/content-update) — Cable car still out of service since May 2025 reopening; guide body may not reflect this; Ottoman tunnel access only; HaTzuk restaurant new.
+4. `/israel-canyoning-guide` (P3/S, seo-content+monetization) — Dry-canyon rappelling guide; distinct from water-hiking-israel.md (wet) + adventure-sports hub; Black Canyon, Nachal Rachaf, Nachal Tamar, Golan, Nahal Darga; Ashdot Extreme + Adventure Israel operators.
+5. `/israel-birthright-taglit-guide` (P3/S, seo-content) — 800K+ alumni program; eligibility/what's covered/what's not/operators/extension guide; no editorial brand covers this; heavy cross-link potential.
+6. `/anu-museum-guide` (P3/S, seo-content+monetization) — Standalone ANU Museum guide; Codex Sassoon ($38.1M, 2023 acquisition) on permanent display; tel-aviv-museums hub covers in 2–3 sentences only; strong Tiqets CTA potential.
+
+### No code shipped
+RESEARCH mode — no gate run.
+
+**Next iteration**: 626 → BUILD (626%5==1 → monetization category rotation)
