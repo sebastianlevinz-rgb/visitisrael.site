@@ -1,12 +1,12 @@
 # LOOP STATE
 
-- iteration: 633
-- lastMode: BUILD
-- lastItem: negev-incense-route
-- lastResult: SHIPPED a4ce68c. New /negev-incense-route — Negev Incense Route complete visitor guide to 4 UNESCO Nabataean desert cities. All 4 cities: Avdat (acropolis, Byzantine churches, bathhouse, wine press — most developed), Mamshit/Mampsis (best-preserved; fresco mansions, Roman bathhouse), Haluza (ancient Nabataean capital; largely unexcavated; enthusiasts only), Shivta (most remote; 3 Byzantine churches; largest known Nabataean wine press). Ein Avdat canyon logistics (same-day combo with Avdat), 2-day self-drive circuit from Beer Sheva/Mitzpe Ramon, INPA pass calculation, summer heat warnings (40°C+; Oct–May only), Shivta road honesty (2km unpaved; impassable when wet), Haluza skip note for casual visitors. 7 FAQs: What is the Incense Route, what are the 4 cities, visit duration, INPA pass, summer safety, Ein Avdat vs Avdat, guided vs self-drive. 3 CTAs: GYG Negev desert tours, DiscoverCars Negev car hire, GYG Mitzpe Ramon tours. UNESCO WHS #1107 (2005). Dense cross-links: negev, mitzpe-ramon-guide, timna-park-guide, 3-days-in-negev, south-israel-itinerary, negev-highway-40-guide, beer-sheva-guide, israel-national-parks-pass, driving-in-israel, is-israel-safe. 791 pages (+1 from 790); 1092/1092 e2e pass; 0 check errors.
-- nextRotationCategory: 634%5==4 → REVIEW
+- iteration: 634
+- lastMode: REVIEW
+- lastItem: review-634-cross-links
+- lastResult: SHIPPED b2261f7. Audited iters 631-633: israel-for-indian-travelers, anu-museum-guide, negev-incense-route. All title lengths (46c/62c/50c) and desc lengths (156c/145c/149c) within limits. H1 in body: none. Images: all credited. Honesty: no fabricated data. ANU: 2 inbound links (jewish-heritage-israel + tel-aviv-museums) PASS. 2 discoverability defects fixed: (1) negev-incense-route had zero inbound links — added link from negev.md Avdat section and negev-highway-40-guide.md Stop 3; (2) israel-for-indian-travelers had zero inbound links — added Indian visitors to country-guides list in first-time-in-israel.md. 791 pages; 1092/1092 e2e pass; 0 check errors.
+- nextRotationCategory: 635%5==0 → RESEARCH
 - higgsfieldSpent: 0
-- updatedAt: 2026-07-19T10:45Z
+- updatedAt: 2026-07-19T11:50Z
 - branch context: work on master; feature work on auto/<slug>
 
 Notes: iter628 BUILD (tools empty → technical empty → monetization empty → seo-content/P2/M) — wadi-qelt-monastery-guide. SHIPPED 46532a7. New /wadi-qelt-monastery-guide — Wadi Qelt & St. George Monastery complete visitor guide. Judean Desert gorge (27km, drops Jerusalem 850m → Jericho −250m). St. George of Koziba Monastery (5th c., Greek Orthodox; Persian destruction 614 CE; 19th-c. Kalinikios restoration). Opening hours Mon–Sat 9am–1pm, free entry, strict dress code (long trousers + covered shoulders). Cliff-road viewpoint option (no hiking required). Hiking: 2–3h return to monastery vs 27km full Ein Prat→Jericho traverse. Flash flood protocol + West Bank access guidance. Combining with Jericho (Tell es-Sultan, Hisham's Palace, Qasr al-Yahud). Photography notes (monks no-photo rule). 7 FAQs. 3 CTAs: GYG Jericho+Wadi Qelt tours, GYG Dead Sea+Jericho combo, Booking Jerusalem hotels. Cross-links added to water-hiking-israel.md (extended Wadi Qelt section to link to dedicated guide) and christian-pilgrimage-holy-land.md (sentence added in "Other sites worth weaving in" section). 788 pages (+1 from 787); 1092/1092 e2e pass; 0 check errors. CI in_progress at push time — consistent with prior success pattern.

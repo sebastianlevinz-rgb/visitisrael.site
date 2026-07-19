@@ -9926,3 +9926,34 @@ Gate: pnpm check 0 errors; build 791 pages (+1 from 790); 1092/1092 e2e pass.
 Ship: committed a4ce68c on master; pushed.
 Prod: CI in_progress at push time — consistent with 633-iteration success pattern.
 Next: iter 634 = REVIEW (634%5==4).
+
+## 2026-07-19T11:50Z · iter 634 · REVIEW · review-634-cross-links
+
+**Mode**: REVIEW (634%5==4).
+**Scope**: Audited iters 631-633: israel-for-indian-travelers (0e22021), anu-museum-guide (b452b06), negev-incense-route (a4ce68c).
+
+### Audit results
+- Title lengths: 46c / 62c / 50c — all within 65c limit. PASS.
+- Desc lengths: 156c / 145c / 149c — all within 160c limit. PASS.
+- H1 in body: none in any of the 3 guides. PASS.
+- Images: all hero + CTA images credited in data/photo-credits.json. PASS.
+- Internal links (all 3 guides): 0 dead links. PASS.
+- Affiliate patterns: no hardcoded affiliate URLs; all via frontmatter affiliateCtas. PASS.
+- Honesty: no fabricated ratings, review counts, or exact prices. PASS.
+- ANU inbound links: jewish-heritage-israel.md + tel-aviv-museums.md both link to /anu-museum-guide. PASS.
+
+### 2 discoverability defects found + fixed
+1. **negev-incense-route** — zero inbound links from any related page.
+   Fix: negev.md Avdat section — "Incense Route" text now links to /negev-incense-route + added sentence noting the 4-city complete guide. negev-highway-40-guide.md Stop 3 — replaced general /israel-unesco-sites CTA with specific /negev-incense-route link + two-day circuit mention.
+2. **israel-for-indian-travelers** — zero inbound links from any page.
+   Fix: first-time-in-israel.md country-guides list (line 46) — added "· [Indian visitors](/israel-for-indian-travelers)".
+
+### Gate
+pnpm check: 0 errors. pnpm build: 791 pages. pnpm test:e2e: 1092/1092 pass.
+
+### Ship
+fix(634): add inbound cross-links to negev-incense-route + israel-for-indian-travelers [auto-loop]
+SHA: b2261f7 — squash-merged to master; pushed.
+GitHub commit confirmed via MCP. CI in_progress at push time — consistent with prior success pattern.
+
+**Next iteration**: 635 → RESEARCH (635%5==0)
