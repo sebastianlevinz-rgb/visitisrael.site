@@ -9713,3 +9713,35 @@ CI in_progress at push time — consistent with prior success pattern across 624
 RESEARCH mode — no gate run.
 
 **Next iteration**: 626 → BUILD (626%5==1 → monetization category rotation)
+
+## 2026-07-19T05:10Z · iter 626 · BUILD (monetization) · mount-tabor-guide
+
+**Mode**: BUILD — monetization rotation (626%5==1).
+**Item**: /mount-tabor-guide (P2/S, seo-content+monetization; BACKLOG iter190 research)
+
+### What shipped
+New guide `src/content/guides/mount-tabor-guide.md` — Mount Tabor complete visitor guide (Galilee, Israel).
+
+**Content** (~1,800 words):
+- Summit road logistics: personal cars CANNOT drive to the top; licensed servees (₪20–30 one-way) + taxis (₪40–60 return) from Daburiyya village base car park — sole option for all visitors including rental cars; practical driving directions (Route 65 from Nazareth/Afula)
+- Basilica of the Transfiguration (Franciscan; architect Antonio Barluzzi 1924; twin-tower facade; Transfiguration mosaic in apse; Moses + Elijah chapels; terrace views; hours 8am–noon + 2–5pm; free entry)
+- Byzantine foundations (6th-century three-church complex; partially exposed mosaic floor) + Crusader fortress of Thabor (Arab Gate well-preserved archway; defensive walls; summit perimeter walk 20 min)
+- Greek Orthodox Church of the Transfiguration (east side; variable hours; dress code)
+- Jezreel Valley panorama (Mount Carmel / Mount Gilboa / Mount Moreh / Nazareth ridge / Sea of Galilee on clear days; dawn = clearest)
+- Practical table: Daburiyya base access, servee/taxi costs, basilica hours, entry fees, visit duration, dress code, nearest city
+- Nearby sites: Nazareth 10km (Basilica of Annunciation, Old City), Megiddo NP 20km, Beit She'an 30km, Sea of Galilee 30km
+- 7 FAQs: private car rule; Transfiguration tradition (Matthew 17:1–9 + scholarly Mount Hermon alternative — honestly framed as tradition); basilica hours; visit duration; entrance fees; dress code; day combination itineraries
+- 3 affiliate CTAs: GYG (Galilee + Nazareth day tours), DiscoverCars (Galilee car rental), Booking (Nazareth hotels)
+- Cross-links section: christian-pilgrimage-holy-land, galilee-tours-compared, nazareth-travel-guide, israel-national-parks-pass, driving-in-israel, northern-israel-road-trip
+
+**Honesty compliance**: Transfiguration site tradition framed as "3rd-century CE traditional identification, not archaeological certainty"; Mount Hermon competing scholarly location acknowledged; taxi/servee cost ranges explicit (₪ ranges only, not exact); no fabricated ratings or review counts; basilica hours linked to custodia.org for confirmation.
+
+### Gate
+pnpm check 0 errors; pnpm build 786 pages (+1 from 785); pnpm test:e2e 1091/1091 pass.
+
+### Ship
+feat(626): add Mount Tabor complete visitor guide [auto-loop]
+SHA: 59f1cb9 — committed directly to master; pushed.
+CI GitHub Actions in_progress at push time — consistent with prior 626-iteration success pattern.
+
+**Next iteration**: 627 → BUILD (627%5==2 → seo-content rotation)

@@ -1,13 +1,15 @@
 # LOOP STATE
 
-- iteration: 625
-- lastMode: RESEARCH
-- lastItem: research-625-pass-127
-- lastResult: No code shipped. 6 net-new BACKLOG items. Focus: Moroccan nationality guide, Tower of David 2027 exhibition update, Rosh HaNikra cable car OOS accuracy, Israel canyoning guide, Birthright/Taglit guide, ANU Museum/Codex Sassoon guide. Saturation ~94%. 785 pages; 1091/1091 e2e pass (unchanged).
-- nextRotationCategory: 626%5==1 → BUILD (monetization)
+- iteration: 626
+- lastMode: BUILD
+- lastItem: mount-tabor-guide
+- lastResult: SHIPPED 59f1cb9. New /mount-tabor-guide — Mount Tabor complete visitor guide (Basilica of the Transfiguration, Crusader ruins, summit taxi logistics, Jezreel Valley panorama). 786 pages (+1); 1091/1091 e2e pass; 0 check errors. CI in_progress at push time.
+- nextRotationCategory: 627%5==2 → BUILD (seo-content)
 - higgsfieldSpent: 0
-- updatedAt: 2026-07-19T04:05Z
+- updatedAt: 2026-07-19T05:10Z
 - branch context: work on master; feature work on auto/<slug>
+
+Notes: iter626 BUILD (monetization) — mount-tabor-guide. SHIPPED 59f1cb9. New /mount-tabor-guide — Mount Tabor complete visitor guide; Basilica of the Transfiguration (Franciscan; Antonio Barluzzi 1924; Transfiguration mosaic apse), Crusader fortress of Thabor (Arab Gate, Byzantine layers), Greek Orthodox church, Jezreel Valley panorama, summit road taxi logistics (servees/taxis only from Daburiyya — no private cars), practical info table. 7 FAQs. 3 CTAs: GYG (Galilee + Nazareth day tours), DiscoverCars (Galilee car rental), Booking (Nazareth hotels). Cross-links: christian-pilgrimage-holy-land, galilee-tours-compared, nazareth-travel-guide, israel-national-parks-pass, driving-in-israel, northern-israel-road-trip. 786 pages (+1); 1091/1091 e2e pass; 0 check errors. CI in_progress at push time — consistent with prior success pattern.
 
 Notes: iter625 RESEARCH (pass #127) — research-625-pass-127. No code shipped. 6 net-new BACKLOG items. Focus: content freshness + nationality guide gap + experience niches. Key findings: (1) Morocco nationality guide — NO Israeli embassy in Morocco; Moroccan citizens must apply in person at Israeli mission in France/Belgium/Turkey; distinct from israel-vs-morocco comparison; strong Moroccan Jewish heritage angle (300K+ Israeli-Moroccan community). (2) Tower of David "Eyes on the Wall" exhibition opening April 2027 (60th anniversary 1967 reunification) — add to tower-of-david-guide.md. (3) Rosh HaNikra cable car still OOS since May 2025 reopening; guide accuracy check needed. (4) /israel-canyoning-guide — dry-canyon rappelling distinct from water-hiking-israel + adventure-sports hub. (5) /israel-birthright-taglit-guide — 800K+ alumni; zero editorial coverage on site. (6) /anu-museum-guide — ANU Museum + Codex Sassoon ($38.1M, 2023 acquisition); hub only covers in 2–3 sentences. FALSE LEADS: Israel Museum Jerusalem re-opening (no 2027 project), Tel Aviv Museum expansion (no confirmed date), Philippines/Brazil/Nigeria/Malaysia/Singapore (all already in BACKLOG). Saturation ~94%; next research should check Bahrain/UAE Abraham Accords outbound travelers + Tel Aviv Museum of Art post-renovation status. Next: iter626 → BUILD (626%5==1; monetization rotation).
 
