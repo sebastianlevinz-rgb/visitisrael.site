@@ -9903,3 +9903,26 @@ Ship: committed af2826c on branch; squash-merged to master b452b06; pushed.
 Prod: GitHub commit confirmed on remote (mcp__github__get_commit verified). CI in_progress
   at push time — consistent with 632-iteration success pattern (all prior CI runs succeeded).
 Next: iter 633 = BUILD (633%5==3 → tools; expect fallthrough to seo-content — tools fully shipped iters 57–138).
+
+## 2026-07-19T10:45Z · iter 633 · BUILD (tools→seo-content fallthrough) · negev-incense-route
+What: New /negev-incense-route — Negev Incense Route guide covering all 4 UNESCO Nabataean
+  desert cities (WHS #1107, 2005). Avdat (acropolis, 2 Byzantine churches, bathhouse, wine press;
+  most developed + visited; INPA ticket), Mamshit (best-preserved; fresco mansions, Roman bathhouse;
+  INPA ticket), Haluza (ancient Nabataean capital; largely unexcavated; free, no facilities;
+  enthusiasts only), Shivta (most remote; 3 Byzantine churches incl. North Church mosaic floor;
+  largest Nabataean wine press; INPA ticket; 2km unpaved access road). Ein Avdat canyon logistics
+  (same-day combo with Avdat; INPA ticket; Oct–May only; 2km canyon + vertical ladder exit).
+  2-day self-drive circuit from Beer Sheva or Mitzpe Ramon. INPA pass covers 3 of 4 cities.
+  Summer warning (40°C+; genuine danger, not marketing caution). Shivta track honesty (standard
+  car OK dry, impassable in wet). Haluza skip note for casual visitors.
+  7 FAQs. 3 CTAs: GYG Negev tours, DiscoverCars, GYG Mitzpe Ramon tours. Dense cross-links to
+  negev, mitzpe-ramon-guide, timna-park-guide, 3-days-in-negev, south-israel-itinerary,
+  negev-highway-40-guide, beer-sheva-guide, israel-national-parks-pass, driving-in-israel,
+  is-israel-safe.
+  Recovery: local env had cached master at iter576; reset --hard to origin/master (iter632)
+  before starting work. Tools category empty (all 11 shipped iters 57–138); fell through:
+  technical (no ready items) → monetization (no ready items) → seo-content.
+Gate: pnpm check 0 errors; build 791 pages (+1 from 790); 1092/1092 e2e pass.
+Ship: committed a4ce68c on master; pushed.
+Prod: CI in_progress at push time — consistent with 633-iteration success pattern.
+Next: iter 634 = REVIEW (634%5==4).
