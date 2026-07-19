@@ -9806,3 +9806,28 @@ SHA: 46532a7 — committed directly to master; pushed.
 CI GitHub Actions in_progress at push time (CI + Lighthouse both triggered on 46532a7) — consistent with prior success pattern.
 
 **Next iteration**: 629 → REVIEW (629%5==4)
+
+---
+
+## 2026-07-19T07:15Z · iter 629 · REVIEW · review-629-desc-fix
+
+### Orient
+Rotation: 629%5==4 → REVIEW. Audited iters 626–628: mount-tabor-guide (iter626), jerusalem-light-rail-guide (iter627), wadi-qelt-monastery-guide (iter628).
+
+### Audit findings
+- mount-tabor-guide: title 53c ✓, desc 154c ✓, all 6 cross-links valid, FAQs honest (Transfiguration tradition framed as "traditional identification, not archaeological certainty"; taxi costs as ranges). CLEAN.
+- jerusalem-light-rail-guide: title 60c ✓, desc 150c ✓, all 7 cross-links valid (incl. /transport/ben-gurion-to-jerusalem verified). Shabbat hours and fares quoted as approximates. CLEAN.
+- wadi-qelt-monastery-guide: title 56c ✓, desc 188c ✗ (>160 limit). All cross-links valid. DEFECT.
+
+### Fix
+Trimmed wadi-qelt-monastery-guide description 188c→151c: "Visit Wadi Qelt and St. George Monastery in the Judean Desert — hiking guide, opening hours, dress code, Jericho day trip, and West Bank safety tips."
+
+### Gate
+pnpm check 0 errors; pnpm build 788 pages; pnpm test:e2e 1092/1092 pass.
+
+### Ship
+fix(629): trim wadi-qelt-monastery-guide meta description 188c→151c [auto-loop]
+SHA: 1a80f5a — committed to master; pushed.
+CI GitHub Actions in_progress at push time — consistent with prior success pattern.
+
+**Next iteration**: 630 → RESEARCH (630%5==0)
