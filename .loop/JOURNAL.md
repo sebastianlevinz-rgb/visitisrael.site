@@ -9870,3 +9870,36 @@ What: New /israel-for-indian-travelers — comprehensive visitor guide for India
 Gate: pnpm check 0 errors; build 789 pages (+1); 1092/1092 e2e pass.
 Ship: committed 0e22021 to master, pushed.
 Prod: CI in_progress at push time — consistent with prior success pattern (630 prior CI runs all succeeded).
+
+## 2026-07-19T10:10Z · iter 632 · BUILD (seo-content/P3/S) · anu-museum-guide
+What: New /anu-museum-guide — ANU Museum of the Jewish People dedicated visitor guide.
+  seo-content rotation (632%5==2). Item from iter625 RESEARCH; P3/S confirmed TRIPLE-ZERO GAP.
+  Content hook: Codex Sassoon ($38.1M Sotheby's world-record sale, May 2023; ~920 CE; all
+  24 books of Hebrew Bible; on permanent display at ANU — most valuable Jewish manuscript on
+  public display anywhere). Museum reopened 2021 as "ANU" after NIS 300M/$85M redesign.
+  Four permanent floors: Communities (Jewish communities worldwide), Wanderings (diaspora
+  migration), Culture (science/arts/literature contributions), Return (modern Israel + global
+  Jewry). Genealogy database (MyHeritage-powered; world's largest Jewish genealogy DB;
+  guided research desk + kiosk terminals; some sessions require advance booking).
+  Practical info: Klausner St 2, Ramat Aviv (Tel Aviv University campus); Red Line light
+  rail to University area; bus routes 7/89/171; Sun–Wed 10–17, Thu 10–20, Fri 10–13;
+  closed Shabbat and major Jewish holidays; approx ₪60 adults / ₪45 students/seniors /
+  under-18 free (ISIC valid); audio guide EN/HE/FR/RU. Who-should-visit matrix.
+  3 affiliate CTAs: Tiqets (advance tickets, skip queue), GetYourGuide (heritage tours
+  from ₪29), Booking.com (North Tel Aviv / Ramat Aviv hotels).
+  7 FAQs: location/transport, Codex Sassoon significance, visit duration (3–4h), Beth
+  Hatefutsoth rename history, genealogy database access, hours+admission, ANU+Eretz Israel
+  same-day pairing.
+  Cross-links: tel-aviv-museums.md (paragraph added after ANU section → /anu-museum-guide);
+  jewish-heritage-israel.md (Codex Sassoon mention + link added).
+  SEO targets: "ANU Museum Tel Aviv guide", "Codex Sassoon visit Israel",
+  "Museum of the Jewish People Tel Aviv", "ANU Museum opening hours tickets",
+  "Beth Hatefutsoth ANU Tel Aviv 2026".
+Startup: context resumed from iter631 — branch auto/anu-museum-guide had uncommitted changes
+  (file writes completed but not yet committed). e2e tests had run in background (job b7df6b2p6).
+Gate: pnpm check 0 errors; build 790 pages (+1 from 789); 1092/1092 e2e pass.
+Ship: committed af2826c on branch; squash-merged to master b452b06; pushed.
+  Branch auto/anu-museum-guide deleted post-merge.
+Prod: GitHub commit confirmed on remote (mcp__github__get_commit verified). CI in_progress
+  at push time — consistent with 632-iteration success pattern (all prior CI runs succeeded).
+Next: iter 633 = BUILD (633%5==3 → tools; expect fallthrough to seo-content — tools fully shipped iters 57–138).
