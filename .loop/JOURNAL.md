@@ -10021,3 +10021,14 @@ Gate: pnpm check 0 errors; pnpm build 793 pages (+1 from 792); pnpm test:e2e 109
 Ship: committed 5c08248 to master; pushed. GitHub commit confirmed via MCP.
 Prod: CI in_progress at push time — consistent with 637-iteration success pattern.
 Next: iter 638 → BUILD (638%5==3; tools rotation — expect fallthrough to seo-content as tools fully shipped).
+
+## 2026-07-19T20:55Z · iter 638 · BUILD (technical/content-update) · content-freshness-638
+What: Three-file content freshness corrections batch — corrected stale/false airline data and Purple Line timeline.
+(1) cheap-flights-to-israel.md: removed Delta (suspended Oct 2023) and United (suspended Oct 2023, still suspended July 2026) from US route table and FAQ; added Israir JFK (Aug 2026, first low-cost Israeli nonstop to US — A330, 206 economy seats); added El Al SFO (Oct 2026, new West Coast gateway); added Israir MAD (Oct 2026, 3x/week A320) to Europe table; added Arkia TYO (Oct 2026, first-ever direct Israel-Japan service, B787).
+(2) israel-for-american-travelers.md: same route corrections; removed erroneous "Delta resuming and expanding in 2026 after a pause" and "United serves Newark year-round" claims; added Israir JFK + El Al SFO.
+(3) tel-aviv-light-rail.md: corrected Purple Line from "targeted 2026 (unconfirmed)" to "expected 2027–2028 (first CAF Urbos trams delivered Haifa port June 2026; commercial opening deferred)" in both FAQ answer and body paragraph.
+Mode rationale: tools rotation (638%5==3) had no pure tools items ready — all tools shipped or marked STALE DUPLICATE; fell through to technical per playbook. Selected P2 technical items.
+Gate: pnpm check 0 errors; pnpm build 793 pages (unchanged); pnpm test:e2e 1093/1093 pass.
+Ship: squash-merged to master d697cc5; pushed. CI in_progress at push time — consistent with prior success pattern.
+Prod: CI in_progress at iteration end — next run to confirm.
+Next: iter 639 → REVIEW (639%5==4).

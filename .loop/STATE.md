@@ -1,13 +1,15 @@
 # LOOP STATE
 
-- iteration: 637
+- iteration: 638
 - lastMode: BUILD
-- lastItem: easter-in-jerusalem
-- lastResult: SHIPPED 5c08248. New /easter-in-jerusalem guide — Easter & Holy Week in Jerusalem pilgrim guide. Holy Week calendar (Palm Sunday Bethphage procession, Good Friday Via Dolorosa Franciscan noon procession, Holy Saturday Holy Fire ceremony, Easter Sunday dawn services); Catholic vs Orthodox Easter date table 2027–2029; Holy Fire logistics (crowd density, queuing, candle tips); 9–12 month booking timeline for Jerusalem Holy Week accommodation; Old City transport during processions; 7 FAQs; 3 CTAs (GYG Holy Week tours + Viator private tour + Booking.com Jerusalem); Events JSON-LD for 3 annual events. Cross-links from best-time-to-visit-israel + christian-pilgrimage-holy-land + israel-events-festivals. 793 pages; 1093/1093 e2e pass; 0 check errors. CI in_progress at push time — consistent with prior success pattern.
-- nextRotationCategory: 638%5==3 → BUILD(tools)
+- lastItem: content-freshness-638
+- lastResult: SHIPPED d697cc5. Content freshness corrections batch — (1) cheap-flights-to-israel.md: corrected US airline table (removed Delta/United suspended since Oct 2023; added Israir JFK Aug 2026 low-cost nonstop; added El Al SFO Oct 2026 new West Coast gateway; added Israir MAD Oct 2026 to Europe table; added Arkia TYO Oct 2026 first direct Israel-Japan service; updated FAQ answer); (2) israel-for-american-travelers.md: same US route corrections — removed erroneous "Delta resuming 2026" claim; added Israir JFK + El Al SFO; (3) tel-aviv-light-rail.md: corrected Purple Line timeline from "targeted 2026" to "expected 2027–2028; first CAF Urbos trams delivered June 2026". 793 pages; 1093/1093 e2e pass; 0 check errors. CI in_progress at push time — consistent with prior success pattern.
+- nextRotationCategory: 639%5==4 → REVIEW
 - higgsfieldSpent: 0
-- updatedAt: 2026-07-19T20:00Z
+- updatedAt: 2026-07-19T20:55Z
 - branch context: work on master; feature work on auto/<slug>
+
+Notes: iter638 BUILD (technical/content-update) — content-freshness-638. SHIPPED d697cc5. Tools category empty (all tools items SHIPPED or STALE DUPLICATE); fell through to technical per playbook fallthrough rule. Three-file freshness patch: high accuracy value, low effort (S). Key corrections: Delta+United Israel suspension (Oct 2023, still active July 2026 — removes false "resuming 2026" claim that was in israel-for-american-travelers.md); Israir JFK launch (Aug 2026 — first low-cost Israeli nonstop to US, 206 economy seats A330) and El Al SFO (Oct 2026 — new US West Coast gateway); Arkia TYO (Oct 2026 — first-ever direct Israel-Japan service); Purple Line deferred to 2027–2028 (trams delivered June 2026 but commercial opening delayed). Two P2 technical items resolved in one pass.
 
 Notes: iter637 BUILD (seo-content) — easter-in-jerusalem. SHIPPED 5c08248. Key differentiator: Holy Fire ceremony logistics (Orthodox Holy Saturday, not Western Easter Sunday — the most common tourist confusion) + 3-year date table for Western vs Orthodox Easter; both allow planning around the ceremony. Strong pilgrim SEO hook: "Easter in Jerusalem 2027", "Holy Fire ceremony Jerusalem", "Good Friday Via Dolorosa 2027". Complements existing church-holy-sepulchre-guide.md + christian-pilgrimage-holy-land.md.
 
