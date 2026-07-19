@@ -9957,3 +9957,36 @@ SHA: b2261f7 — squash-merged to master; pushed.
 GitHub commit confirmed via MCP. CI in_progress at push time — consistent with prior success pattern.
 
 **Next iteration**: 635 → RESEARCH (635%5==0)
+
+## 2026-07-19 · iter 635 · RESEARCH (pass #129) · airline expansion + luxury hotel openings + false lead closure
+Mode: RESEARCH (635%5==0). No code changed; gate not run; no ship.
+
+### Focus
+El Al TLV→Manila direct Oct 2026; Etihad Abu Dhabi-TLV capacity expansion; Tel Aviv luxury hotel openings 2026; Tower of David exhibition status; Tel Aviv Museum of Art post-renovation (false lead follow-up).
+
+### Key findings
+
+**El Al TLV→MNL direct: October 2026**
+El Al launching first-ever non-stop Israel→Manila (Philippines) service October 2026. Previously all MNL-TLV routes required connections (typically 16–19h via Middle East or Asia hubs). Commercial route confirms significant Israel-Philippines traffic demand. Philippines is world's 3rd-largest Catholic country (~92M Catholics); organized Holy Land pilgrimage is a major market; ~30,000 Filipino OFWs in Israel in caregiving sector add family-visit demand. BACKLOG ACTION: israel-for-filipino-travelers upgraded P3→P2.
+
+**Etihad 6x daily AUH→TLV from June 15 2026**
+Etihad expanded Abu Dhabi-Tel Aviv to 6x daily flights from June 15 2026, making it one of the highest-frequency Gulf-Israel routes. Combined Q1 2026 UAE-Israel air: 170K passengers +30% YoY. Despite normalization, only ~1,600 Emirati citizens have visited Israel — significant asymmetry. Content freshness note for cheap-flights-to-israel.md Gulf section and /israel-for-gulf-travelers (iter230) when built.
+
+**Six Senses TLV + Nobu Hotel TLV: 2026 openings**
+Two major luxury hotel brands entering Tel Aviv market in 2026: Six Senses (ultra-luxury wellness, Old North area) and Nobu Hotel (Robert De Niro/Nobu Matsuhisa brand). Both post-date SHIPPED /best-hotels-tel-aviv (iter243). No new BACKLOG item — annotated in COMPETITORS.md for future periodic refresh of that guide.
+
+**Tower of David "Eyes on the Wall" April 2027 confirmed on track**
+Tower of David Museum launched June 2026 public crowdsourcing campaign for historical Western Wall photographs, ahead of "Eyes on the Wall" permanent exhibition (April 2027, 60th anniversary of 1967 reunification). Confirms exhibit proceeding on schedule. Existing iter625 BACKLOG item remains accurate — no changes needed.
+
+**Tel Aviv Museum of Art expansion: CONFIRMED FALSE LEAD (2nd time)**
+No 2026-2027 expansion or renovation project announced. Only recent change: 2023 renaming of Helena Rubinstein Pavilion → Eyal Ofer Pavilion. Closed permanently as a research lead. Prior STATE.md note on this closed.
+
+### BACKLOG changes
+- Priority upgrade: israel-for-filipino-travelers P3→P2 (El Al TLV→MNL direct Oct 2026)
+- 0 net-new items (saturation ~94%; 0 from ~20 candidates)
+- False lead permanently closed: Tel Aviv Museum of Art expansion
+
+### Competitive landscape
+Saturation ~94%. Research passes are now primarily confirming existing items and closing false leads rather than surfacing net-new gaps. Remaining high-value BUILD targets: nationality guides (Filipino P2, Indian P2, Gulf P2), experience guides (canyoning, Birthright, ANU dedicated), content freshness (Tower of David 2027, cheap-flights airline corrections).
+
+**Next iteration**: 636 → BUILD (636%5==1; monetization rotation)
