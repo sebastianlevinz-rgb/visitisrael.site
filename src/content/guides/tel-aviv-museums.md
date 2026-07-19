@@ -75,6 +75,8 @@ ANU (formerly Beit Hatfutsot / Beth Hatefutsoth) reopened in 2021 after a major 
 
 **Getting there:** Red Line light rail to Tel Aviv University station, or bus routes to Ramat Aviv. Parking on campus. Budget three to four hours minimum; the building rewards unhurried exploration.
 
+For the full ANU experience — including the Codex Sassoon display and genealogy database — see our [dedicated ANU Museum visitor guide](/anu-museum-guide).
+
 ---
 
 ## Eretz Israel Museum
