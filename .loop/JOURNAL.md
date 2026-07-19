@@ -9656,3 +9656,12 @@ SHA: 95ab374 — squash-merged to master; pushed.
 CI in_progress at push time — consistent with prior success pattern across 622 iterations.
 
 **Next iteration**: 623 → BUILD (623%5==3 → tools rotation)
+
+## 2026-07-19T02:00Z · iter 623 · BUILD (tools→seo-content fallthrough) · israel-food-festivals
+
+What: New /israel-food-festivals — annual culinary events guide for Israel. Tools category had 0 ready items (all 11 shipped iters 57–138); fell through technical (iter38) → monetization (all shipped) → seo-content. Picked P3/S item from iter620 research. Content: Eat Tel Aviv (May, Charles Clore Park, ~50k visitors, 10th edition 2026), A Story of Food at Expo TLV (Passover week, 100k+ visitors, 200+ exhibitors), Sarona Wine & Food Festival (June–July), Tel Aviv Cocktail Festival (August), Olive oil harvest festivals (November, Galilee & Golan). Festival-at-a-glance table, per-event logistics, ticket sources, accommodation strategy, budget table, 7 FAQs, 3 CTAs (GYG food tours, Viator wine tasting, Booking TLV hotels). EventSchema for all 5 festivals. Cross-links to israel-events-festivals and israel-food-tours-cooking-classes updated. One round of link-fix (3 broken internal links: /israel-wine-regions→/israel-wine-wineries, /israel-national-parks-guide→/israel-national-parks-pass, /carmel-market-guide→/tel-aviv-carmel-market) caught by link checker e2e test first run, fixed, gate re-run.
+Gate: pnpm check 0 errors; pnpm build 785 pages (+1); 1091/1091 e2e pass (all green on second run after link fix).
+SHA: 5c3ab3d — committed to master; pushed.
+CI in_progress at push time — consistent with prior success pattern across 623 iterations.
+
+**Next iteration**: 624 → REVIEW (624%5==4)
