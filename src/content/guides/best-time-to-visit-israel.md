@@ -17,7 +17,7 @@ Israel packs several climates into a small country, so the "best" time depends o
 
 ## Season by season
 
-**Spring (March–May) — best overall.** Wildflowers in the [Galilee](/galilee) and Judean Hills, mild days, and a sea warming up. Passover (usually April) brings closures and higher prices — plan around it. Easter and Holy Week bring Jerusalem alive with pilgrimage processions. For the full spring planning guide, see [Israel in spring](/israel-in-spring): wildflower bloom timing, Passover logistics, Easter in Jerusalem, and Negev hiking season.
+**Spring (March–May) — best overall.** Wildflowers in the [Galilee](/galilee) and Judean Hills, mild days, and a sea warming up. Passover (usually April) brings closures and higher prices — plan around it. Easter and Holy Week bring Jerusalem alive with pilgrimage processions — see the [Easter in Jerusalem pilgrim guide](/easter-in-jerusalem) for Holy Fire ceremony logistics, Catholic vs Orthodox Easter dates, and booking timelines. For the full spring planning guide, see [Israel in spring](/israel-in-spring): wildflower bloom timing, Passover logistics, and Negev hiking season.
 
 **Summer (June–August) — hot.** The [Tel Aviv](/tel-aviv) coast is busy and humid; [Jerusalem](/jerusalem) is hot but dry; the [Dead Sea](/dead-sea) and [Eilat](/eilat) are extreme (40°C+), suited to early mornings and water. [Eilat](/eilat) is a summer beach-break favourite despite the heat. If you must travel in July or August, the [beat-the-heat summer guide](/israel-in-summer) covers the early-morning-first strategy and which regions to prioritise.
 

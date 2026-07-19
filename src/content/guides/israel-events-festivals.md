@@ -72,7 +72,7 @@ Israel packs a remarkable number of festivals, cultural events and religious hol
 
 | When | Event | Where |
 | --- | --- | --- |
-| **Late Winter/Spring** | [Purim](/purim-in-israel) (TLV Dizengoff party + Jerusalem Adloyada); Passover; Easter / Holy Week | Nationwide; [Tel Aviv](/tel-aviv), [Jerusalem](/jerusalem), [Nazareth](/nazareth) |
+| **Late Winter/Spring** | [Purim](/purim-in-israel) (TLV Dizengoff party + Jerusalem Adloyada); Passover; [Easter / Holy Week](/easter-in-jerusalem) (Palm Sunday procession, Good Friday Via Dolorosa, Holy Fire ceremony) | Nationwide; [Tel Aviv](/tel-aviv), [Jerusalem](/jerusalem), [Nazareth](/nazareth) |
 | **May–Jun** | Tel Aviv Pride (Middle East largest) | [Tel Aviv](/tel-aviv) |
 | **Summer** | Jerusalem festivals (film, lights, wine); White Night Tel Aviv; [Maccabiah Games](/maccabiah-games-2026) (every 4 years) | Jerusalem, Tel Aviv, Netanya |
 | **Autumn** | Rosh Hashanah, Yom Kippur, [Sukkot](/sukkot-in-israel) (High Holidays) | Nationwide |

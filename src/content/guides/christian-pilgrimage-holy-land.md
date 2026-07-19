@@ -64,7 +64,7 @@ Beyond the four anchors, a longer pilgrimage can take in some of the New Testame
 
 ## When to go
 
-Spring and autumn bring the most comfortable weather for walking Jerusalem's hills and the Galilee shore. The two great liturgical seasons — **Easter (Holy Week)** and **Christmas** — are spiritually unmatched, with processions, vigils and Midnight Mass in Bethlehem, but they are also the most crowded and expensive; book accommodation and any services far ahead. Summer is hot, especially in the Jordan Valley and at the Dead Sea, while winter is mild but can be wet in Jerusalem and the north. Our [best time to visit](/best-time-to-visit-israel) guide has the full month-by-month picture.
+Spring and autumn bring the most comfortable weather for walking Jerusalem's hills and the Galilee shore. The two great liturgical seasons — **[Easter and Holy Week](/easter-in-jerusalem)** and **Christmas** — are spiritually unmatched, with processions, vigils and Midnight Mass in Bethlehem, but they are also the most crowded and expensive; book accommodation and any services far ahead. Our [Easter in Jerusalem pilgrim guide](/easter-in-jerusalem) covers every Holy Week event in depth — the Palm Sunday procession, Good Friday Via Dolorosa, the Holy Fire ceremony and the Catholic vs Orthodox date difference. Summer is hot, especially in the Jordan Valley and at the Dead Sea, while winter is mild but can be wet in Jerusalem and the north. Our [best time to visit](/best-time-to-visit-israel) guide has the full month-by-month picture.
 
 ## Costs and how to go
 
