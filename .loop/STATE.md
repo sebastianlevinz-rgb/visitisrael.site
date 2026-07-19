@@ -1,13 +1,15 @@
 # LOOP STATE
 
-- iteration: 626
+- iteration: 627
 - lastMode: BUILD
-- lastItem: mount-tabor-guide
-- lastResult: SHIPPED 59f1cb9. New /mount-tabor-guide — Mount Tabor complete visitor guide (Basilica of the Transfiguration, Crusader ruins, summit taxi logistics, Jezreel Valley panorama). 786 pages (+1); 1091/1091 e2e pass; 0 check errors. CI in_progress at push time.
-- nextRotationCategory: 627%5==2 → BUILD (seo-content)
+- lastItem: jerusalem-light-rail-guide
+- lastResult: SHIPPED 9c7e2d9. New /jerusalem-light-rail-guide — Jerusalem Light Rail tourist guide (Red Line + Blue Line, 5 key tourist stops, Rav-Kav, Shabbat hours, Ben Gurion Airport→Navon→Light Rail connection). 787 pages (+1); 1092/1092 e2e pass; 0 check errors. CI in_progress at push time.
+- nextRotationCategory: 628%5==3 → BUILD (tools)
 - higgsfieldSpent: 0
-- updatedAt: 2026-07-19T05:10Z
+- updatedAt: 2026-07-19T06:00Z
 - branch context: work on master; feature work on auto/<slug>
+
+Notes: iter627 BUILD (seo-content) — jerusalem-light-rail-guide. SHIPPED 9c7e2d9. New /jerusalem-light-rail-guide — Jerusalem Light Rail tourist guide. Red Line key tourist stops (Damascus Gate, Jaffa Gate/City Hall, Ben Yehuda, Mahane Yehuda, Mount Herzl/Yad Vashem) + Blue Line overview. Ben Gurion Airport→Navon→Red Line connection. Rav-Kav tap-on/tap-off, contactless payment, Shabbat suspension, Moovit app guidance. 7 FAQs. 3 CTAs: Airalo (eSIM), WelcomePickups (Jerusalem transfer), GetYourGuide (walking tours). Cross-links added to transportation.md (Jerusalem Light Rail paragraph) and rav-kav-israel.md (Jerusalem section). Smoke test +1. 787 pages (+1 from 786); 1092/1092 e2e pass; 0 check errors. CI in_progress at push time — consistent with prior success pattern.
 
 Notes: iter626 BUILD (monetization) — mount-tabor-guide. SHIPPED 59f1cb9. New /mount-tabor-guide — Mount Tabor complete visitor guide; Basilica of the Transfiguration (Franciscan; Antonio Barluzzi 1924; Transfiguration mosaic apse), Crusader fortress of Thabor (Arab Gate, Byzantine layers), Greek Orthodox church, Jezreel Valley panorama, summit road taxi logistics (servees/taxis only from Daburiyya — no private cars), practical info table. 7 FAQs. 3 CTAs: GYG (Galilee + Nazareth day tours), DiscoverCars (Galilee car rental), Booking (Nazareth hotels). Cross-links: christian-pilgrimage-holy-land, galilee-tours-compared, nazareth-travel-guide, israel-national-parks-pass, driving-in-israel, northern-israel-road-trip. 786 pages (+1); 1091/1091 e2e pass; 0 check errors. CI in_progress at push time — consistent with prior success pattern.
 

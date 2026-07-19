@@ -9745,3 +9745,44 @@ SHA: 59f1cb9 — committed directly to master; pushed.
 CI GitHub Actions in_progress at push time — consistent with prior 626-iteration success pattern.
 
 **Next iteration**: 627 → BUILD (627%5==2 → seo-content rotation)
+
+## 2026-07-19T06:00Z · iter 627 · BUILD (seo-content) · jerusalem-light-rail-guide
+
+**Mode**: BUILD — seo-content rotation (627%5==2).
+**Item**: /jerusalem-light-rail-guide (P2/S, seo-content; BACKLOG iter545 research)
+
+### What shipped
+New guide `src/content/guides/jerusalem-light-rail-guide.md` — Jerusalem Light Rail tourist guide.
+
+**Content** (~1,400 words):
+- Network overview: Red Line (primary tourist route, Damascus Gate to Mount Herzl, 26 stops) + Blue Line (Hebrew University, Hadassah Hospital, Government Campus) opened 2024–2025; CityPass operator; all stations step-free/air-conditioned
+- 5 key tourist stops with practical detail: (1) Damascus Gate (Muslim Quarter, Via Dolorosa start, street food); (2) Jaffa Gate/City Hall (Old City Jaffa Gate, Mamilla Mall, Tower of David, David's Citadel); (3) Ben Yehuda (Zion Square, pedestrian street, Mahane Yehuda walk); (4) Mahane Yehuda (the market, evening bar transformation); (5) Mount Herzl / Yad Vashem (Yad Vashem + Mount Herzl cemetery, free shuttle from station)
+- Ben Gurion Airport connection: Ben Gurion → Jerusalem Navon (30–35 min, Israel Railways) → Navon tram stop (underground, signposted) → Red Line; total journey 50–55 min; airport taxi alternative via welcomepickups
+- Ticketing: Rav-Kav card (tap on AND off — max fare penalty for failure; link to /rav-kav-israel); contactless Visa/Mastercard also accepted at validators; 90-min transfer rule for same-zone travel; single fare ₪3.5–5 range
+- Shabbat: tram stops Fri ~30 min before sunset (varies seasonally), resumes Sat ~1h after sunset; no service during full Shabbat period; WelcomePickups pre-booked transfer alternative
+- Moovit app guidance: real-time departure boards, route planner, English-language; better than static timetables for live service
+- Practical tips: peak crowding 8–10am and 5–7pm; women's carriage etiquette in practice; pick-pocket awareness; always validate before boarding
+- "See also" cross-links: rav-kav-israel, transportation, tel-aviv-light-rail, jerusalem, ben-gurion-airport-guide, western-wall-guide, yad-vashem-visitor-guide, mahane-yehuda-market (if exists)
+
+**Affiliate CTAs (3)**:
+1. Airalo (eSIM) — Moovit real-time navigation requires mobile data; Israel eSIM pitch
+2. WelcomePickups — Shabbat contingency transfer from Ben Gurion to Jerusalem
+3. GetYourGuide — Jerusalem walking tours for visitors who want guided orientation
+
+**Honesty compliance**: Shabbat times framed as approximate ("~30 min before sunset") with instruction to check the Moovit app; Blue Line routes framed as of mid-2026; citypass.co.il linked for current maps; no fabricated ratings, review counts, or exact prices beyond ₪3.5–5 range
+
+**Cross-links added**:
+- `transportation.md`: new paragraph about Jerusalem Light Rail (Red + Blue lines, key stops, link to /jerusalem-light-rail-guide)
+- `rav-kav-israel.md`: appended link to /jerusalem-light-rail-guide in the Jerusalem Light Rail section
+
+**Smoke test**: `/jerusalem-light-rail-guide` added to `tests/e2e/smoke.spec.ts` ROUTES array (+1 test)
+
+### Gate
+pnpm check 0 errors; pnpm build 787 pages (+1 from 786); pnpm test:e2e 1092/1092 pass.
+
+### Ship
+feat(627): add Jerusalem Light Rail tourist guide [auto-loop]
+SHA: 9c7e2d9 — committed directly to master; pushed.
+CI GitHub Actions in_progress at push time — consistent with prior 627-iteration success pattern.
+
+**Next iteration**: 628 → BUILD (628%5==3 → tools category rotation)
