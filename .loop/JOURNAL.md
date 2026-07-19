@@ -10066,3 +10066,37 @@ Gate: pnpm check 0 errors; pnpm build 793 pages; pnpm test:e2e 1093/1093 pass.
 Ship: committed d61c7ee to master; pushed. CI in_progress — consistent with prior success pattern.
 
 **Next iteration**: 640 → RESEARCH (640%5==0)
+
+## 2026-07-19T22:30Z · iter 640 · RESEARCH (pass #130) · research-640-pass-130
+
+Mode: RESEARCH (640%5==0). No code shipped this iteration.
+
+### Research focus
+El Al Asia/South America route expansion; UK/EASA travel advisory changes; Nova memorial site traffic data; startup tourism niche; Korean and Argentine market opportunities.
+
+### Key findings
+
+**El Al TLV→ICN Seoul direct: March 27, 2027**
+El Al launching 3x/week (Mon/Wed/Sat) Boeing 787-9 service TLV→ICN starting March 27 2027. First direct Israel-Korea service since Korean Air suspended post-Oct 7 2023. Restores direct connectivity for South Korea's ~14M Christian population with organized Holy Land pilgrimage as core evangelical practice. BACKLOG ACTION: israel-for-korean-travelers upgraded P3→P2; flight section updated to lead with El Al direct route.
+
+**El Al TLV→EZE Buenos Aires direct: November 29, 2026**
+El Al launching 2x/week (Sun/Tue) direct TLV→EZE service starting November 29 2026. Major freshness hook for Argentina's world-5th-largest Jewish community (~180K) and AMIA-connected pilgrimage market. BACKLOG ACTION: israel-for-argentinian-travelers upgraded P3→P2; flight section updated to lead with El Al direct route.
+
+**UK travel advisory and EASA aviation risk downgrade (June–July 2026)**
+UK FCDO removed Israel from "advise against all travel" list (source: jpost.com/international/article-898300); EU EASA aviation risk downgraded from Conflict Zone Bulletin to Information Note (effective July 8 2026); 7+ major economies simultaneously downgraded advisories. BACKLOG ACTION: new P2/S technical item added — is-israel-safe.md advisory section freshness update.
+
+**Nova Music Festival Memorial (already BLOCKED)**
+Forbes reported 250,000+ visitors in first 4 months of 2026. Confirms high demand for oct-7-memorial-sites content. BLOCKED status maintained per PLAYBOOK honesty rules — requires human editorial review. No change to existing BLOCKED entry.
+
+**Startup/tech tourism gap (deprioritized)**
+Tourist Israel has "Visiting Tel Aviv Startups" content; we do not. Estimated low volume (<500/month); at 94% saturation this is P4 — too thin to prioritize over existing P2 guides. Noted in COMPETITORS.md only.
+
+### BACKLOG changes
+- Priority upgrades: israel-for-korean-travelers P3→P2; israel-for-argentinian-travelers P3→P2
+- Net-new item: is-israel-safe advisory freshness update (P2/S/technical)
+- Total net: +1 new item, +2 priority upgrades
+
+### Saturation
+~94%. Pass #130 is consistent with recent research efficiency — actionable intelligence from El Al route announcements (new airline news) and advisory changes (new regulatory data) rather than new content topic discovery.
+
+**Next iteration**: 641 → BUILD (641%5==1; monetization rotation)

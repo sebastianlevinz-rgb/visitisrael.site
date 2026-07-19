@@ -1,13 +1,15 @@
 # LOOP STATE
 
-- iteration: 639
-- lastMode: REVIEW
-- lastItem: review-639-date-meta-fixes
-- lastResult: SHIPPED d61c7ee. REVIEW iter639 — audited iters 636–638 (israel-for-filipino-travelers, easter-in-jerusalem, content-freshness batch). Critical factual errors found and corrected in easter-in-jerusalem.md: Western Easter 2027 was wrong (article said "4 April" → correct 28 March per Gaussian algorithm); Orthodox Easter 2028 wrong (said "22 April" → both W+O coincide on 16 April); Orthodox Easter 2029 wrong (said "6 May" → correct 8 April). All 3 JSON-LD event dates corrected; section headings, FAQ answer, narrative, and date table all corrected. Also fixed: title 66c→55c (over limit), desc 177c→154c (over limit) for easter-in-jerusalem; desc 194c→152c for israel-for-filipino-travelers. 793 pages; 1093/1093 e2e pass; 0 check errors. CI in_progress at push time.
-- nextRotationCategory: 640%5==0 → RESEARCH
+- iteration: 640
+- lastMode: RESEARCH
+- lastItem: research-640-pass-130
+- lastResult: RESEARCH pass #130 complete. No code shipped. 2 priority upgrades + 1 net-new freshness item. Upgrades: israel-for-korean-travelers P3→P2 (El Al TLV→ICN direct March 27 2027, 3x/week B787-9 — first direct Israel-Korea service); israel-for-argentinian-travelers P3→P2 (El Al TLV→EZE direct November 29 2026, 2x/week). New item: is-israel-safe advisory freshness update (P2/S/technical) — UK removed Israel from "no travel" list June 2026; EU EASA aviation risk downgraded July 8 2026. All other candidates confirmed already-BACKLOGGED or false leads. Saturation ~94%.
+- nextRotationCategory: 641%5==1 → BUILD (monetization rotation)
 - higgsfieldSpent: 0
-- updatedAt: 2026-07-19T21:50Z
+- updatedAt: 2026-07-19T22:30Z
 - branch context: work on master; feature work on auto/<slug>
+
+Notes: iter640 RESEARCH (pass #130) — research-640-pass-130. No code shipped. Key findings: (1) El Al TLV→ICN Seoul direct March 27 2027 — upgrades israel-for-korean-travelers P3→P2; (2) El Al TLV→EZE Buenos Aires November 29 2026 — upgrades israel-for-argentinian-travelers P3→P2; (3) UK FCDO removed Israel from "no travel" list, EASA aviation risk downgrade July 8 — new P2 freshness item for is-israel-safe.md; (4) Nova memorial 250K+ H1 2026 confirms demand but oct-7-memorial-sites remains BLOCKED per honesty rules. COMPETITORS.md + BACKLOG.md updated.
 
 Notes: iter639 REVIEW — review-639-date-meta-fixes. SHIPPED d61c7ee. Audited iters 636–638. Most significant finding: easter-in-jerusalem.md (iter637) had systematically wrong Easter 2027 dates throughout — Western Easter was off by ~1 week (article said April 4-5, correct is March 28 per the Gaussian algorithm: a=13, d=1, e=5, f=22+1+5=28 → March 28 which is a Sunday in 2027). Orthodox Easter 2028 was also wrong (article 22 April, correct 16 April — W+O coincide in 2028). Orthodox Easter 2029 wrong (6 May vs correct 8 April). JSON-LD event dates (Palm Sunday/Good Friday/Holy Saturday 2027), section headings, FAQ text, table, and narrative all corrected. SEO meta overruns also fixed: 3 description/title values over character limits across 2 guides.
 
@@ -21,4 +23,4 @@ Notes: iter635 RESEARCH (pass #129) — research-635-pass-129. No code shipped. 
 
 Cron b7325b16 hourly @ :17. Loop history: 19 tools + sitemap-lastmod + link-checker(+depth) + i18n
 Phase0/1a/1b/1c/2 Batches1-18(COMPLETE) + 47 review passes + 3 technical (event-schema + meta-trim + locale-links) + 71 EN guides + 7 tools-monetization + 2 comparisons;
-research iters 5/10/20/30/35/40/45/50/55/60/65/70/75/80/85/90/95/100/105/110/115/120/125/130/135/140/145/150/155/160/165/170/175/180/185/190/195/200/205/210/215/220/225/230/235/240/245/250/255/260/265/270/275/280/285/290/295/300/305/310/315/320/325/330/335/340/345/350/355/360/365/370/375/380/385/390/395/400/405/410/420/425/430/435/440/445/450/455/460/465/470/480/485/490/495/500/505/510/515/520/525/535/540/545/550/555/560/565/570/575/580/585/590/595/600/605/610/615/620/625/630/635.
+research iters 5/10/20/30/35/40/45/50/55/60/65/70/75/80/85/90/95/100/105/110/115/120/125/130/135/140/145/150/155/160/165/170/175/180/185/190/195/200/205/210/215/220/225/230/235/240/245/250/255/260/265/270/275/280/285/290/295/300/305/310/315/320/325/330/335/340/345/350/355/360/365/370/375/380/385/390/395/400/405/410/420/425/430/435/440/445/450/455/460/465/470/480/485/490/495/500/505/510/515/520/525/535/540/545/550/555/560/565/570/575/580/585/590/595/600/605/610/615/620/625/630/635/640.
