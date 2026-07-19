@@ -70,9 +70,9 @@ The **Mitzpe Ramon visitor centre** operated by the Israel Nature and Parks Auth
 
 ### Avdat Nabataean Archaeological Site (UNESCO Spice Route)
 
-**Avdat** is the most spectacular of the four Negev UNESCO sites on the **Incense Route — Desert Cities of the Negev** inscription. The Nabataeans, the same Arab trading civilisation that built Petra in Jordan, established a chain of caravan way-stations across the Negev around the second century BCE; Avdat became a substantial urban centre with terraced agricultural systems, a Roman-era acropolis, two Byzantine churches and an extensive necropolis. The site is presented as an archaeological complex, not a religious building.
+**Avdat** is the most spectacular of the four Negev UNESCO sites on the **[Incense Route — Desert Cities of the Negev](/negev-incense-route)** inscription. The Nabataeans, the same Arab trading civilisation that built Petra in Jordan, established a chain of caravan way-stations across the Negev around the second century BCE; Avdat became a substantial urban centre with terraced agricultural systems, a Roman-era acropolis, two Byzantine churches and an extensive necropolis. The site is presented as an archaeological complex, not a religious building.
 
-The drive up to the acropolis gives the photogenic angle. Allow an hour and a half to two hours to walk the main loop. The on-site interpretive material covers the Nabataean trading network and the agricultural innovation that made urban life possible in this arid landscape.
+The drive up to the acropolis gives the photogenic angle. Allow an hour and a half to two hours to walk the main loop. The on-site interpretive material covers the Nabataean trading network and the agricultural innovation that made urban life possible in this arid landscape. The other three UNESCO cities — Mamshit, Haluza, and Shivta — are covered in our [Negev Incense Route complete guide](/negev-incense-route).
 
 ### Sde Boker and Ben-Gurion's Grave
 

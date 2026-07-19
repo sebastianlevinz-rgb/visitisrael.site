@@ -83,7 +83,7 @@ Avdat (also written Ovdat or Oboda) is the best-preserved Nabataean city on Isra
 
 **What to see.** The visitors' trail (1.5–2 hours at a relaxed pace) passes the Nabataean residential quarter, two Byzantine churches on the acropolis, a large Byzantine wine press, Roman-era bathhouse ruins, and a reconstructed Nabataean tower. The view south from the acropolis across the plateau to the Negev highlands is one of the finest in Israel. Explanatory signs are in Hebrew, Arabic and English throughout.
 
-**INPA pass valid here.** Avdat is covered by the same Orange national parks pass as Ein Avdat. For more on Israel's UNESCO sites in the Negev see [Israel UNESCO sites](/israel-unesco-sites).
+**INPA pass valid here.** Avdat is covered by the same Orange national parks pass as Ein Avdat. To visit all four Nabataean cities on the Incense Route inscription — Avdat, Mamshit, Haluza and Shivta — see the [Negev Incense Route guide](/negev-incense-route) for a two-day self-drive circuit from Beer Sheva or Mitzpe Ramon.
 
 **Fuel at Avdat junction.** There is a petrol station at the Avdat junction (the Route 40/Route 204 interchange, 2 km west of the park entrance). This is a critical stop: south of Mitzpe Ramon, Highway 40 has virtually no services for 155 km. Fill up before continuing.
 
