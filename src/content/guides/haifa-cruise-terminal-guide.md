@@ -1,6 +1,6 @@
 ---
 title: 'New Haifa Cruise Terminal 2026: Shore Excursions & Arrival Guide'
-description: "Guide to Haifa's upgraded 2026 cruise terminal — facilities, immigration, shore excursion options (Akko, Bahá'í Gardens, Caesarea, Nazareth) and practical arrival tips."
+description: "Guide to Haifa's upgraded 2026 cruise terminal: facilities, immigration, shore excursions to Akko, Bahá'í Gardens, Caesarea & Nazareth, and arrival tips."
 heroImage: /images/regions/haifa/hero.jpg
 category: Tours
 verdictName: Haifa cruise shore excursions
@@ -117,4 +117,4 @@ The classic **Haifa + Akko** combination is the most popular northern-coast day 
 
 If you are extending your cruise with a pre- or post-voyage stay, Haifa is well positioned as a northern Israel base. The [day trips from Haifa guide](/day-trips-from-haifa) covers Akko, Rosh Hanikra, Caesarea, Zichron Yaakov and the Carmel Druze villages. For accommodation options across price tiers in the German Colony and on the Carmel ridge, see the [best hotels in Haifa guide](/best-hotels-haifa).
 
-For a full breakdown of what is achievable in different port-window lengths — including the Ashdod port options for Jerusalem and the Dead Sea — see the [Israel cruise shore excursions guide](/cruise-shore-excursions-israel). To plan your personal excursion ranking by hours ashore, try the interactive [Israel cruise excursion planner](/israel-cruise-excursion-planner).
+For a full breakdown of what is achievable in different port-window lengths — including the Ashdod port options for Jerusalem and the Dead Sea — see the [Israel cruise shore excursions guide](/cruise-shore-excursions-israel).

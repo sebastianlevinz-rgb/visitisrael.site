@@ -1,6 +1,6 @@
 ---
 title: 'Israel Food Festivals 2027: Eat Tel Aviv, Wine, & Culinary Events'
-description: 'Israel food festivals guide: Eat Tel Aviv, A Story of Food at Expo TLV, Sarona Wine Festival, olive oil harvest, Tel Aviv Cocktail Festival. Dates, tickets & tips.'
+description: 'Israel food festivals guide: Eat Tel Aviv, A Story of Food, Sarona Wine Festival, olive oil harvest, Tel Aviv Cocktail Festival. Dates, tickets & tips.'
 heroImage: /images/regions/tel-aviv/carmel-market.jpg
 category: Food
 updatedAt: 2026-07-19
