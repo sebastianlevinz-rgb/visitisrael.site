@@ -133,7 +133,7 @@ Because the trail is linear, most hikers arrange a car shuttle between the two e
 
 This is more a canyon walk and photography destination than a swimming hole — water levels in the channel are variable and wading sections are shallow and incidental rather than the main attraction. The payoff is the scenery: the gorge is among the most visually striking walks in Israel.
 
-**Practical tips:** The full gorge is 14 km one-way and requires a car shuttle. Most visitors do a shorter out-and-back from the Ein Prat (Wadi Qelt) entrance. The site is near Jericho in the West Bank — check [current access guidance](/is-israel-safe) and travel advisories before visiting; the reserve itself is in Area C and accessible to international visitors, but road access passes near Palestinian Authority areas. Hire a local guide if unsure.
+**Practical tips:** The full gorge is 14 km one-way and requires a car shuttle. Most visitors do a shorter out-and-back from the Ein Prat (Wadi Qelt) entrance. The site is near Jericho in the West Bank — check [current access guidance](/is-israel-safe) and travel advisories before visiting; the reserve itself is in Area C and accessible to international visitors, but road access passes near Palestinian Authority areas. Hire a local guide if unsure. For the full practical guide — monastery opening hours, dress code, viewpoint options, combining with Jericho and photography notes — see the dedicated [Wadi Qelt & St. George Monastery visitor guide](/wadi-qelt-monastery-guide).
 
 ---
 
