@@ -90,7 +90,7 @@ The segment ends at **Augusta Victoria** — the early-20th-century German Hospi
 
 The northern segment is the most urban, threading through built Jerusalem's northern quarters. From Augusta Victoria it descends to the **Mount Scopus** ridge (Hebrew University and Hadassah Hospital), passes through the mixed neighbourhood of Shuafat, and finishes at **Givat Hamivtar** near the neighbourhood of Ammunition Hill.
 
-**Ammunition Hill** (Givat HaTachmoshet) was the site of one of the most intense battles of the 1967 Six-Day War; it is now a preserved memorial site with original trenches and a museum. The battle for the hill gave Israel control of the northern route into the Old City. It is a sobering and historically dense endpoint to the trail loop — most walkers descend to the **Ammunition Hill light rail station** after the visit.
+**[Ammunition Hill](/ammunition-hill-jerusalem)** (Givat HaTachmoshet) was the site of one of the most intense battles of the 1967 Six-Day War; it is now a preserved memorial site with original trenches and a museum. The battle for the hill gave Israel control of the northern route into the Old City. It is a sobering and historically dense endpoint to the trail loop — most walkers descend to the **Ammunition Hill light rail station** after the visit. See the full [Ammunition Hill visitor guide](/ammunition-hill-jerusalem) for history, trench layout, museum details and logistics.
 
 ---
 
