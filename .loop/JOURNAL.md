@@ -10279,3 +10279,21 @@ Gate: pnpm check 0 errors (130 files); pnpm build 801 pages (+1 from 800); pnpm 
 Ship: committed 0902787 to master, pushed to origin/master. Feature branch deleted.
 Prod: CI in_progress at push time — consistent with prior pattern, expected success.
 Next: iter658 → BUILD/tools (658%5==3; tools rotation).
+
+## 2026-07-20T16:50Z · iter 658 · BUILD (technical fallthrough from tools) · eilat-hotels-freshness
+
+Mode: BUILD (658%5==3; rotation: tools → no standalone tools items → technical fallthrough per iter653 pattern)
+Item: eilat-hotels-freshness (P2/S, technical) — [iter655 research]
+Branch: auto/eilat-hotels-freshness (created; squash-merge applied to master working tree; no auto-branch commits needed)
+What: Freshness update to eilat-hotels-guide.md (SHIPPED iter241). Mirrors best-hotels-tel-aviv freshness update pattern (iter652). Changes:
+  - Updated Princess Hotel Eilat entry → Isrotel Princess Eilat, noting renovation/reopening 2025-2026 (check Booking.com for post-renovation availability)
+  - New "2025-2026 New Luxury Openings" section: Airport City ₪1B resort cluster (~5 luxury hotels, ~1,100 upscale rooms), phased openings 2026-2027
+  - New Booking.com affiliate CTA: "2025-2026 New Eilat Luxury Hotels"
+  - New FAQ: "What new hotels opened in Eilat in 2025-2026?" (Isrotel Princess + Airport City development)
+  - Updated decision matrix: new "Airport City cluster (phased openings — check live availability)" row
+  - Honest framing throughout: "check Booking.com for availability", "not all Airport City properties will be simultaneously open"
+  - updatedAt bumped 2026-07-02 → 2026-07-20; description trimmed 161→149 chars
+Gate: pnpm check 0 errors; pnpm build 801 pages (no new page — update only, same count as iter657); pnpm test:e2e 1098/1098 PASS. GREEN first run.
+Ship: committed 9c49838 to master, pushed to origin/master. Feature branch deleted.
+Prod: CI in_progress at push — consistent with prior pattern, expected success.
+Next: iter659 → REVIEW (659%5==4).
