@@ -628,6 +628,7 @@ const ROUTES = [
   '/israel-for-russian-speaking-travelers',
   '/israel-water-parks',
   '/israel-military-heritage',
+  '/via-ferrata-israel',
 ];
 
 for (const route of ROUTES) {

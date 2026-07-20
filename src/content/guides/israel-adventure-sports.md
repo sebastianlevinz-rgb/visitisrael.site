@@ -147,6 +147,17 @@ See the full [Mount Hermon skiing guide](/mount-hermon-skiing) for tickets, seas
 
 ---
 
+## Via ferrata (fixed-iron cliff climbing)
+
+Israel has two established via ferrata routes in the Galilee — fixed-iron-rung cliff routes with harness and safety cable that require no prior climbing experience:
+
+- **Ramim Cliff (Kibbutz Menara, Upper Galilee)** — Level B/C, 1.2 km loop, 2–3 hours; panoramic views over the Hula Valley; finishes with a zip-line descent. Operated by Ashdot Extreme (minimum age 12).
+- **Via Ferrata Ravid (Kibbutz Ravid, Lower Galilee)** — Level C, 900 m route, 3–4 hours; views over the Sea of Galilee and the Golan Heights; includes suspension bridges and multiple zip lines. Operated by Israel Extreme / Adventure Israel (minimum age 14).
+
+Both are advance-booking only; all equipment is provided. For a full comparison and booking tips, see the **[via ferrata Israel guide](/via-ferrata-israel)**.
+
+---
+
 ## Zip-lining & high-ropes
 
 Several sites across Israel offer zip-lining:
@@ -180,6 +191,7 @@ Israel has growing dedicated infrastructure for both road cycling and trail MTB:
 | Hot-air balloon | Galilee, Negev | Mar–May, Sept–Nov | Easy |
 | Skiing | Mount Hermon | Dec–Mar (snow-dependent) | Beginner–intermediate |
 | Sand surfing | Nitzana, Negev | Oct–Apr | Easy |
+| Via ferrata | Galilee | Oct–Apr | Moderate |
 | Zip-lining | Galilee, Golan, Haifa | Year-round | Easy |
 | River kayaking | Upper Jordan (Galilee) | Apr–Sep | Easy |
 

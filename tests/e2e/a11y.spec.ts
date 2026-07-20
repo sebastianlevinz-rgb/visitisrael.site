@@ -369,6 +369,7 @@ const ROUTES = [
   '/yam-lyam-sea-to-sea-hike',
   '/tel-aviv-pride-guide',
   '/soreq-cave-guide',
+  '/via-ferrata-israel',
 ];
 
 for (const route of ROUTES) {
