@@ -1,13 +1,15 @@
 # LOOP STATE
 
-- iteration: 653
-- lastMode: BUILD (technical — fallthrough from tools: tools category fully shipped)
-- lastItem: tower-of-david-2027-exhibition
-- lastResult: SHIPPED 16be2ac. Added "Eyes on the Wall" April 2027 exhibition callout to tower-of-david-guide.md: blockquote near top of body + new FAQ entry. Exhibition curated by Shimon Lev; first large-scale WW-dedicated museum show; April 2027 marking 60 years since 1967 Jerusalem reunification; confirmed from tod.org.il. Updated title to 2026-2027, updatedAt to 2026-07-20. Added reciprocal cross-links (ToD↔Yad Vashem). Honest framing: announced/upcoming, no fabricated prices or capacity. 799 pages; 1096/1096 e2e pass. CI in_progress at push time.
-- nextRotationCategory: 654%5==4 → REVIEW
+- iteration: 654
+- lastMode: REVIEW
+- lastItem: review-654-meta-fix
+- lastResult: SHIPPED 08ad8ee. REVIEW audit of iters 646-653 (south-african-travelers, ammunition-hill-jerusalem, yom-haatzmaut-guide, best-hotels-tel-aviv freshness, russian-speaking-travelers, tower-of-david). Found 1 bug: russian-speaking-travelers description 185 chars (limit 160) — same defect class as iter649. Fix: trimmed to 147 chars preserving all primary keywords. Cross-links verified: south-african ✓, ammunition-hill ✓ (jewish-heritage-israel + jerusalem-trail both have reciprocal links), yom-haatzmaut ✓ (traveling-israel-jewish-holidays cross-link present), russian-speaking ✓. All internal links verified (jerusalem/old-city→attraction slug confirmed, all guide links present). 799 pages; 1096/1096 e2e pass. CI in_progress at push time.
+- nextRotationCategory: 655%5==0 → RESEARCH
 - higgsfieldSpent: 0
-- updatedAt: 2026-07-20T12:00Z
+- updatedAt: 2026-07-20T13:00Z
 - branch context: work on master; feature work on auto/<slug>
+
+Notes: iter654 REVIEW — Found description overrun in russian-speaking-travelers (185→147 chars). Pattern: newly-added nationality guides shipped in BUILD iters 651/646 were not caught by iter649's meta-trim (that pass ran before iter651). REVIEW passes are essential for catching post-review BUILD defects.
 
 Notes: iter649 REVIEW — seo-meta-trim. Routine REVIEW audit of guides/ uncovered 18 title/desc violations not caught during BUILD iterations. Pattern: autonomous BUILD sessions routinely ship slightly-long titles/descs; a periodic REVIEW pass is needed to catch them. Consider adding an automated lint rule.
 

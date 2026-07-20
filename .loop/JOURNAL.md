@@ -10231,3 +10231,15 @@ Gate: pnpm check 0 errors; build 799 pages; 1096/1096 e2e pass.
 Ship: squash-merged to master 16be2ac, pushed.
 Prod: CI + Lighthouse in_progress at push time.
 Next: iter654 = REVIEW mode (654%5==4).
+
+## 2026-07-20T13:00Z · iter 654 · REVIEW · review-654-meta-fix
+
+Mode: REVIEW (654%5==4)
+What: Audited iters 646-653: israel-for-south-african-travelers, ammunition-hill-jerusalem, yom-haatzmaut-guide, russian-speaking-travelers, best-hotels-tel-aviv freshness, tower-of-david callout.
+  - Internal links: all verified. /jerusalem/old-city confirmed valid (attractionSlug strips region prefix → "old-city"); /first-time-in-israel, /is-israel-safe, /western-wall-tunnels-guide, /mahane-yehuda-market-guide, /via-dolorosa-guide, /jordan-river-baptism, /jerusalem-bethlehem-day-trip, /cheap-flights-to-israel, /israel-5-vs-7-vs-10-days, /christian-pilgrimage-holy-land, /jewish-heritage-israel, /transportation, /yad-vashem-visitor-guide, /zionist-heritage-trail, /1-day-jerusalem-itinerary, /jerusalem-trail, /traveling-israel-jewish-holidays, /ben-gurion-airport-guide all confirmed present.
+  - Cross-links: ammunition-hill↔jewish-heritage-israel ✓; ammunition-hill↔jerusalem-trail ✓; yom-haatzmaut↔traveling-israel-jewish-holidays ✓; both nationality guides↔first-time-in-israel ✓
+  - Honesty: price ranges only, official-site caveats on El Al/opening hours/airport closure, Nakba Day acknowledged factually, Jordanian casualties stated, no fabricated ratings in body.
+  - Bug found: russian-speaking-travelers description 185 chars (limit 160) — same class as iter649. Trimmed to 147 chars preserving ETA-IL, Istanbul, Dubai, Russian spoken, Jewish heritage, FSU.
+Gate: pnpm check 0 errors; pnpm build 799 pages; pnpm test:e2e 1096/1096 PASS. GREEN.
+Ship: committed 08ad8ee to master, pushed. CI + Lighthouse in_progress at push time; prior pattern success.
+Next: iter655 → RESEARCH (655%5==0).
