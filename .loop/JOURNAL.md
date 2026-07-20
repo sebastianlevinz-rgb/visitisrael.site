@@ -10188,3 +10188,15 @@ What: New standalone guide /yom-haatzmaut-guide — Yom HaZikaron & Yom Ha'atzma
 Gate: pnpm check 0 errors; build 798 pages (+1 from 797); pnpm test:e2e 1095/1095 PASS. GREEN.
 Ship: committed 5d4af31 directly on master (squash-merge was noop — auto/ branch had no commits), pushed to origin/master.
 Next: iter649 → REVIEW (649%5==4).
+
+## 2026-07-20T08:00Z · iter 649 · REVIEW · seo-meta-trim (18 guides)
+Mode: REVIEW (649%5==4)
+What: Scanned all src/content/guides/*.md for SEO title/description length violations. Found 18 files with title>65 chars or desc>160 chars — discovered by REVIEW audit rather than existing audit rule.
+Violations found:
+  Titles >65ch (6): yom-haatzmaut-guide (90ch), luxury-arava-desert (78ch), best-hotels-sea-of-galilee (69ch), galilee-culinary-institute-gonen (69ch), jerusalem-first-station-guide (67ch), jesus-trail-israel (67ch), israel-vs-greece (66ch), valley-of-elah-guide (66ch).
+  Descs >160ch (13): ammunition-hill-jerusalem (195ch), palmahim-beach-guide (172ch), israel-fine-dining (176ch), valley-of-tears-golan (166ch), negev-makhtesh-guide (168ch), birdwatching-in-israel (165ch), israel-visa-extension (167ch), israel-for-german-travelers (163ch), 3-days-in-eilat (161ch), 3-days-in-haifa (161ch).
+Fix: All trimmed in one commit — primary keywords preserved, meanings intact, no body content changed.
+Branch: auto/seo-meta-trim → squash-merged to master.
+Gate: pnpm check 0 errors; build 798 pages; pnpm test:e2e 1095/1095 PASS. GREEN.
+Ship: committed 1162607 to master, pushed. CI + Lighthouse in_progress at push time; prior iter648 CI = success.
+Next: iter650 → BUILD (650%5==0 → RESEARCH mode).

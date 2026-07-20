@@ -1,13 +1,15 @@
 # LOOP STATE
 
-- iteration: 648
-- lastMode: BUILD
-- lastItem: yom-haatzmaut-guide
-- lastResult: SHIPPED 5d4af31. New /yom-haatzmaut-guide (P2/S, seo-content). Yom HaZikaron & Yom Ha'atzmaut — Israel's most emotionally charged 48 hours. CONSOLIDATED two BACKLOG items (P2 iter170 + P3 iter540). Covers: 2027 dates (HaZikaron Apr 28 eve–Apr 29 day; Ha'atzmaut Apr 29 eve–Apr 30 day), siren etiquette (8pm + 11am, traffic stops), Ben Gurion Airport closure (~25h), Har Herzl national ceremony, transition ceremony (flag raised from half-mast to full-mast → fireworks), Tel Aviv Yarkon Park concert, Independence Day air show (Tel Aviv seafront, afternoon), BBQ park culture, Nakba Day context (respectfully acknowledged). Cross-links in traveling-israel-jewish-holidays.md (new Yom HaZikaron/Ha'atzmaut section + Related guides link) + israel-events-festivals.md (event table entry). Smoke route added. 798 pages; 1095/1095 e2e pass.
-- nextRotationCategory: 649%5==4 → REVIEW
+- iteration: 649
+- lastMode: REVIEW
+- lastItem: seo-meta-trim (18 guides)
+- lastResult: SHIPPED 1162607. REVIEW audit found 18 guides with SEO title>65 or desc>160 chars — 6 title violations (worst: yom-haatzmaut-guide 90ch, luxury-arava-desert 78ch) + 13 desc violations (worst: ammunition-hill-jerusalem 195ch). All trimmed to ≤65/≤160, primary keywords preserved, no body edits. Branch auto/seo-meta-trim. Gate: check 0 errors; build 798 pages; 1095/1095 e2e PASS.
+- nextRotationCategory: 650%5==0 → RESEARCH
 - higgsfieldSpent: 0
-- updatedAt: 2026-07-20T07:00Z
+- updatedAt: 2026-07-20T08:05Z
 - branch context: work on master; feature work on auto/<slug>
+
+Notes: iter649 REVIEW — seo-meta-trim. Routine REVIEW audit of guides/ uncovered 18 title/desc violations not caught during BUILD iterations. Pattern: autonomous BUILD sessions routinely ship slightly-long titles/descs; a periodic REVIEW pass is needed to catch them. Consider adding an automated lint rule.
 
 Notes: iter648 BUILD (seo-content, fallthrough from tools→technical→monetization all SHIPPED) — yom-haatzmaut-guide. SHIPPED 5d4af31. P2/S CONFIRMED GAP (two separate research entries: iter170 + iter540). Yom HaZikaron + Yom Ha'atzmaut — the back-to-back memorial/celebration days unique to Israel. Key facts used: 2027 Yom HaZikaron begins sunset Apr 28 (first siren 8pm Apr 28, second siren 11am Apr 29); 2027 Yom Ha'atzmaut begins sunset Apr 29; Har Herzl transition ceremony on eve of Ha'atzmaut (flag raised from half-mast to full, fireworks begin); Ben Gurion Airport closed ~25h over Yom HaZikaron; IDF air show over Tel Aviv seafront (afternoon Independence Day); Yarkon Park free concert; BBQ/mangal in all parks. HONESTY: Nakba Day coincidence acknowledged respectfully without false equivalence; restaurant closures in Jewish areas genuine cultural/legal norm; Arab-Israeli businesses may stay open (factual). Cross-links: traveling-israel-jewish-holidays.md now has full Yom HaZikaron & Yom Ha'atzmaut section + Related guides link; israel-events-festivals.md table row updated. Smoke route added as 623rd ROUTES entry. 798 pages; 1095/1095 e2e pass. CI queued at push time.
 
