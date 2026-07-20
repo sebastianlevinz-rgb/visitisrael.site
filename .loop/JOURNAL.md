@@ -10108,3 +10108,11 @@ Gate: pnpm check 0 errors; pnpm build 794 pages (+1 from 793); pnpm test:e2e 109
 Ship: squash-merged to master b6a0158; pushed.
 Prod: CI in_progress at push time — consistent with prior success pattern.
 Next: iter 642 → BUILD (642%5==2; seo-content rotation)
+
+## 2026-07-20T00:45Z · iter 642 · BUILD (seo-content) · israel-for-korean-travelers
+What: New guide /israel-for-korean-travelers targeting South Korean evangelical Christian pilgrims + secular travellers. Freshness anchor = El Al launching direct TLV→ICN (Seoul Incheon) service 27 March 2027, 3×/week (Mon/Wed/Sat), Boeing 787-9 — first direct Israel-Korea service since Korean Air suspended route post-October 2023. South Korea has ~29% Christian population (~14M Christians, ~10M Protestant); Korean evangelical church groups to Holy Land are a well-established, high-value travel segment.
+Content: ETA-IL (₪25/~₩9,000–10,000; process via iaa.gov.il); flight table (El Al direct from March 27 2027 + Turkish Airlines IST, Cathay Pacific HKG, Etihad AUH, Emirates DXB connections until then); evangelical pilgrimage circuit (Sea of Galilee boat, Church of Beatitudes, Capernaum, Basilica of Annunciation Nazareth, Yardenit Jordan River baptism, Via Dolorosa, Church of Holy Sepulchre, Garden of Gethsemane, Yad Vashem, Bethlehem); Korean payment matrix (KakaoPay / Naver Pay / T-money do NOT work in Israel; Visa/Mastercard Korean bank cards do; Samsung Pay notes); NHIS (국민건강보험) not valid abroad; Korean insurer recommendations (KB Insurance, Samsung Fire & Marine, Hyundai Marine & Fire, DB Insurance); voltage (220V/60Hz Type C/F → Type H plug adapter needed; no converter); mobile (local SIM ₪50–90 or eSIM recommended); embassy contacts (Embassy of Israel in Seoul: 46 Dobong Street, Seongbuk-gu; Korean Embassy in TLV: 25 Yirmiyahu Street). 7 FAQs. 3 CTAs (GYG Galilee Christian circuit tour, Booking.com Israel hotels, SafetyWing travel insurance). Cross-link added to first-time-in-israel.md country guides list.
+Gate: pnpm check 0 errors; pnpm build 795 pages (+1 from 794); pnpm test:e2e 1093/1093 pass.
+Ship: committed 83c96df to master; pushed. CI in_progress at time of memory commit — consistent with prior success pattern.
+
+**Next iteration**: 643 → BUILD (643%5==3; tools rotation)

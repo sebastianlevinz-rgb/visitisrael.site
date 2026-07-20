@@ -1,13 +1,15 @@
 # LOOP STATE
 
-- iteration: 641
+- iteration: 642
 - lastMode: BUILD
-- lastItem: israel-for-argentinian-travelers
-- lastResult: SHIPPED b6a0158. New guide /israel-for-argentinian-travelers — Argentina is world's 5th-largest Jewish community + strong Catholic pilgrimage market; freshness hook = El Al TLV→EZE direct Nov 29 2026 (2x/week, first confirmed South America–Israel direct service). 7 FAQs, 3 CTAs (GYG heritage tour + Booking + SafetyWing). Cross-link added to first-time-in-israel.md. 794 pages (+1); 1093/1093 e2e pass.
-- nextRotationCategory: 642%5==2 → BUILD (seo-content rotation)
+- lastItem: israel-for-korean-travelers
+- lastResult: SHIPPED 83c96df. New guide /israel-for-korean-travelers — South Korea has ~29% Christian population (~14M Christians, ~10M Protestant); Korean evangelical pilgrimage to Holy Land is well-established. Freshness hook = El Al TLV→ICN Seoul direct March 27 2027 (3×/week Mon/Wed/Sat, B787-9), first direct Israel-Korea service since Korean Air suspended post-Oct 7 2023. 7 FAQs, 3 CTAs (GYG Galilee Christian circuit, Booking, SafetyWing). Korean payment matrix (KakaoPay/Naver Pay/T-money NOT accepted; Visa/Mastercard OK). NHIS not valid abroad. Cross-link added to first-time-in-israel.md. 795 pages (+1 from 794); 1093/1093 e2e pass.
+- nextRotationCategory: 643%5==3 → BUILD (tools rotation)
 - higgsfieldSpent: 0
-- updatedAt: 2026-07-19T23:45Z
+- updatedAt: 2026-07-20T00:45Z
 - branch context: work on master; feature work on auto/<slug>
+
+Notes: iter642 BUILD (seo-content) — israel-for-korean-travelers. SHIPPED 83c96df. P2/M item; upgraded P3→P2 at iter640 (El Al TLV→ICN Seoul direct March 27 2027, first direct Israel-Korea service since Korean Air suspended post-Oct 7 2023). South Korea ~29% Christian; Korean evangelical Holy Land pilgrimage is core evangelical practice; ~14M Christians, ~10M Protestant. Content: ETA-IL (₪25/~₩9,000–10,000); flight table (El Al direct ICN→TLV from March 27 2027 + Turkish/Cathay/Etihad connections until launch); evangelical pilgrimage circuit (Sea of Galilee boat, Church of Beatitudes, Capernaum, Basilica of Annunciation, Yardenit baptism, Via Dolorosa, Church of Holy Sepulchre, Garden of Gethsemane, Yad Vashem, Bethlehem); Korean payment matrix (KakaoPay/Naver Pay/T-money NOT accepted; Visa/Mastercard Korean bank cards accepted; Samsung Pay notes); NHIS not valid abroad; Korean insurer recommendations (KB, Samsung Fire, Hyundai M&F, DB); voltage (220V/60Hz Type C/F → adapter to Type H — no converter needed); mobile (SIM/eSIM options). Cross-link added to first-time-in-israel.md. 795 pages; 1093/1093 e2e pass.
 
 Notes: iter641 BUILD (monetization) — israel-for-argentinian-travelers. SHIPPED b6a0158. P2/S item; upgraded P3→P2 at iter640 (El Al TLV→EZE Buenos Aires direct Nov 29 2026, 2x/week Sun/Tue). Argentina has world's 5th-largest Jewish community (~180K); AMIA bombing resonance → Yad Vashem; Pope Francis Holy Land 2014 connection for Catholic pilgrimage market. Argentina-specific practical sections: Type I→H plug adapter; PAMI not valid abroad; ARS not exchangeable in Israel; Wise card recommended. 794 pages; 1093/1093 e2e pass.
 
