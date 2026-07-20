@@ -1,13 +1,15 @@
 # LOOP STATE
 
-- iteration: 645
-- lastMode: RESEARCH
-- lastItem: research-645-pass-131
-- lastResult: No code shipped. RESEARCH pass #131. 5 net-new BACKLOG items added (SA travelers P2/S, Biblical Highway P2/M, Galilee Culinary Institute P3/S, Yam Caesarea marine park P3/S, Ashdod cruise port P3/S). 1 priority upgrade: israel-canyoning-guide P3→P2. False leads closed: Rosh Hanikra (SHIPPED iter483), Schottenstein Campus (SHIPPED iter607), Haifa cruise terminal (SHIPPED iter621). Oct 7 memorial remains BLOCKED. 795 pages; 1093/1093 e2e pass.
-- nextRotationCategory: 646%5==1 → BUILD/monetization
+- iteration: 646
+- lastMode: BUILD
+- lastItem: israel-for-south-african-travelers
+- lastResult: SHIPPED c07b5f7. New /israel-for-south-african-travelers guide (P2/S, seo-content+monetization). SA ~70K Jewish diaspora + evangelical/Anglican Christian pilgrim market. ETA-IL + El Al JNB→TLV direct + Emirates/Ethiopian connection table + Jewish heritage circuit (Yad Vashem, Western Wall, Jewish Quarter) + Christian pilgrimage circuit (Via Dolorosa, Holy Sepulchre, Yardenit, Nativity) + medical aid gap (Discovery/Momentum not valid abroad) + ZAR not exchangeable + Type M→H adapter + diplomatic context (no SA embassy in Israel since 2018). GYG + Booking.com + SafetyWing CTAs. Cross-link in first-time-in-israel.md. 796 pages; 1093/1093 e2e pass.
+- nextRotationCategory: 647%5==2 → BUILD/seo-content
 - higgsfieldSpent: 0
-- updatedAt: 2026-07-20T04:15Z
+- updatedAt: 2026-07-20T04:50Z
 - branch context: work on master; feature work on auto/<slug>
+
+Notes: iter646 BUILD (monetization) — israel-for-south-african-travelers. SHIPPED c07b5f7. P2/S item freshly added at iter645 research. South Africa has ~70K Jewish community (one of world's largest per capita, per SA Jewish Board of Deputies); large evangelical/Anglican/Methodist Christian pilgrim market; El Al operates TLV→JNB direct (seasonal — always verify at elal.com). Key SA-specific content: ETA-IL applies (visa-exempt, ₪25); diplomatic context — SA closed its embassy in Israel May 2018, no consular service in Israel, nearest SA mission = Amman Jordan; medical aid gap (Discovery Health/Momentum/Bonitas/Bestmed typically don't cover international costs); ZAR not exchangeable in Israel (use USD/EUR cash or Wise); Type M (SA large 3-round-pin 15A, 230V) → Type H (Israel 230V) — same voltage, adapter only; mobile (SIM/eSIM). Cross-link added to first-time-in-israel.md nationality guides list. 796 pages; 1093/1093 e2e pass.
 
 Notes: iter645 RESEARCH (pass #131) — research-645-pass-131. Researched South African travel market, Biblical Highway/Derech HaTanach (June 18 2026 PM Netanyahu + Ambassador Huckabee inauguration), Galilee Culinary Institute (JNF-USA, first kosher culinary institute, Chef Lior Lev Sercarz, end-2026 opening), Yam Caesarea marine national park (Israel's first marine national park, 267 acres, Herodian port ruins), Ashdod cruise port (second cruise gateway; Haifa guide SHIPPED iter621 but Ashdod gap confirmed), canyoning market validation (Viator/TripAdvisor both rank dedicated canyoning pages). 5 net-new items added; 1 priority upgrade (israel-canyoning-guide P3→P2). False leads closed: National Campus for Archaeology = Schottenstein Campus (SHIPPED iter607), Rosh Hanikra sea caves (SHIPPED iter483), Haifa cruise terminal (SHIPPED iter621). No code shipped.
 
@@ -32,5 +34,5 @@ Notes: iter636 BUILD (monetization) — israel-for-filipino-travelers. SHIPPED 7
 Notes: iter635 RESEARCH (pass #129) — research-635-pass-129. No code shipped. 1 priority upgrade: israel-for-filipino-travelers P3→P2 (El Al TLV→MNL direct Oct 2026 — first-ever Israel-Philippines non-stop service). Tel Aviv Museum of Art expansion: CONFIRMED FALSE LEAD (closed permanently; second confirmation). Etihad 6x daily AUH→TLV from June 15 2026 (freshness note). Six Senses TLV + Nobu TLV opening 2026 (luxury hotel freshness; best-hotels-tel-aviv already SHIPPED iter243). Tower of David "Eyes on the Wall" April 2027 confirmed on track + June 2026 crowdsourcing campaign active. Saturation ~94%.
 
 Cron b7325b16 hourly @ :17. Loop history: 19 tools + sitemap-lastmod + link-checker(+depth) + i18n
-Phase0/1a/1b/1c/2 Batches1-18(COMPLETE) + 47 review passes + 3 technical (event-schema + meta-trim + locale-links) + 73 EN guides + 7 tools-monetization + 2 comparisons;
-research iters 5/10/20/30/35/40/45/50/55/60/65/70/75/80/85/90/95/100/105/110/115/120/125/130/135/140/145/150/155/160/165/170/175/180/185/190/195/200/205/210/215/220/225/230/235/240/245/250/255/260/265/270/275/280/285/290/295/300/305/310/315/320/325/330/335/340/345/350/355/360/365/370/375/380/385/390/395/400/405/410/420/425/430/435/440/445/450/455/460/465/470/480/485/490/495/500/505/510/515/520/525/535/540/545/550/555/560/565/570/575/580/585/590/595/600/605/610/615/620/625/630/635/640.
+Phase0/1a/1b/1c/2 Batches1-18(COMPLETE) + 47 review passes + 3 technical (event-schema + meta-trim + locale-links) + 74 EN guides + 7 tools-monetization + 2 comparisons;
+research iters 5/10/20/30/35/40/45/50/55/60/65/70/75/80/85/90/95/100/105/110/115/120/125/130/135/140/145/150/155/160/165/170/175/180/185/190/195/200/205/210/215/220/225/230/235/240/245/250/255/260/265/270/275/280/285/290/295/300/305/310/315/320/325/330/335/340/345/350/355/360/365/370/375/380/385/390/395/400/405/410/420/425/430/435/440/445/450/455/460/465/470/480/485/490/495/500/505/510/515/520/525/535/540/545/550/555/560/565/570/575/580/585/590/595/600/605/610/615/620/625/630/635/640/645.
