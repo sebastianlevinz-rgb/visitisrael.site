@@ -10178,3 +10178,13 @@ Startup: fresh cloud clone; origin/master force-pushed to 83c43c7 (iter646); loc
 Gate: pnpm check 0 errors; build 797 pages (+1 from 796); pnpm test:e2e 1094/1094 PASS. GREEN.
 Ship: committed eb01ed3 directly on master, pushed to origin/master. CI #1166 + Lighthouse #1188 both in_progress at push time; prior iter646 CI = success pattern.
 Next: iter648 → BUILD/tools (648%5==3).
+
+## iter648 · 2026-07-20 · BUILD (seo-content, fallthrough tools→technical→monetization all SHIPPED)
+
+Mode: BUILD (648%5==3; rotation: tools → all SHIPPED → technical → all SHIPPED → monetization → all SHIPPED → seo-content fallthrough)
+Item: yom-haatzmaut-guide (P2/S, seo-content) — CONSOLIDATED two BACKLOG items: iter170 P2 + iter540 P3 both pointing to /yom-haatzmaut-guide
+Branch: auto/yom-haatzmaut-guide (created but no commits; files staged directly on master working tree due to prior session state)
+What: New standalone guide /yom-haatzmaut-guide — Yom HaZikaron & Yom Ha'atzmaut (Israel Memorial Day + Independence Day). The back-to-back 48h arc unique to Israel: solemn national mourning → nationwide celebration. 2027 dates: Yom HaZikaron eve Apr 28 (siren 8pm) + day Apr 29 (siren 11am); Yom Ha'atzmaut eve Apr 29 → day Apr 30. Content: siren etiquette (both sirens, traffic stops on highways, drivers exit vehicles — among most arresting sights in Israel for visitors); Ben Gurion Airport closure ~25h over HaZikaron; Har Herzl national ceremony (President + PM + bereaved families; open to public); transition ceremony (flag raised from half-mast → full-mast, fireworks begin); Tel Aviv Yarkon Park concert; Independence Day IAF air show (jets over TLV seafront, afternoon); BBQ/mangal in all parks from morning; Safra Square Jerusalem celebration. Nakba Day context acknowledged respectfully (same date, different reason; framing: factual without false equivalence). 7 FAQs including airport closure, siren protocol, what's closed on HaZikaron, where to watch the air show, Har Herzl ceremony. 2 CTAs: Booking.com TLV hotel (Independence Day week, book 2-3 months ahead) + GYG Jerusalem/TLV Yom Ha'atzmaut tour. Cross-links: traveling-israel-jewish-holidays.md (new full Yom HaZikaron & Ha'atzmaut section + Related guides link), israel-events-festivals.md (table row update). Smoke route /yom-haatzmaut-guide added (1095th e2e test).
+Gate: pnpm check 0 errors; build 798 pages (+1 from 797); pnpm test:e2e 1095/1095 PASS. GREEN.
+Ship: committed 5d4af31 directly on master (squash-merge was noop — auto/ branch had no commits), pushed to origin/master.
+Next: iter649 → REVIEW (649%5==4).
