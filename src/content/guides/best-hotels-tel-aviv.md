@@ -1,9 +1,9 @@
 ---
 title: 'Best Hotels in Tel Aviv 2026: Picks at Every Budget'
-description: 'Best hotels in Tel Aviv by neighborhood: budget, mid-range and luxury picks by area, from Florentin guesthouses to Tayelet beachfront hotels.'
+description: 'Best hotels in Tel Aviv by neighborhood: budget, mid-range and luxury picks by area, including 2026 new openings Six Senses and Nobu Hotel Tel Aviv.'
 heroImage: /images/regions/tel-aviv/hero.jpg
 category: Accommodation
-updatedAt: 2026-07-02
+updatedAt: 2026-07-20
 ctaHeading: 'Search Tel Aviv hotels for your dates'
 affiliateCtas:
   - partner: booking
@@ -18,6 +18,12 @@ affiliateCtas:
     image: /images/regions/tel-aviv/rothschild.jpg
     destination: Tel Aviv
     cta: See budget stays in Tel Aviv
+  - partner: booking
+    title: '2026 New Luxury Hotels in Tel Aviv'
+    description: "Tel Aviv's newest luxury openings — Six Senses Tel Aviv (Rothschild wellness hotel with 10-floor spa and rooftop pool) and Nobu Hotel Tel Aviv (Jaffa waterfront). Live rates and availability via Booking.com — check before planning around a specific property."
+    image: /images/regions/tel-aviv/rothschild.jpg
+    destination: Tel Aviv
+    cta: Search new luxury hotels in Tel Aviv
   - partner: getyourguide
     title: 'Tel Aviv Neighborhood Walking Tour'
     description: 'Walk the White City Bauhaus boulevards, Neve Tzedek lanes, Florentin street art and the ancient port of Old Jaffa with a local guide. The fastest way to understand how the neighborhoods connect and where to base yourself.'
@@ -32,7 +38,7 @@ faqs:
   - question: Which Tel Aviv hotels are best for families?
     answer: 'The large beachfront hotels on Hayarkon Street and the Tayelet promenade (Dan Tel Aviv, Leonardo, Sheraton Tel Aviv) offer the best family infrastructure: direct beach access, swimming pools, multiple restaurants and enough space to accommodate families comfortably. They are more expensive than boutique options but eliminate logistical friction if beach time is the priority. Book at least 2–3 months ahead for summer and Jewish holidays.'
   - question: Where do celebrities and diplomatic visitors stay in Tel Aviv?
-    answer: "The Norman on Nachalat Binyamin is Tel Aviv's most lauded boutique hotel and the most frequent choice for visiting artists, diplomats and celebrities — a beautifully restored pair of Eclectic-style buildings from the 1920s. The Setai Tel Aviv in Jaffa (Ottoman fortress reimagined as a luxury hotel) and the David InterContinental on the Tayelet also attract high-profile guests. Honest caveat: celebrity endorsements shift — check current editorial reviews rather than relying on dated reputation claims."
+    answer: "The Norman on Nachalat Binyamin is Tel Aviv's most lauded boutique hotel and a frequent choice for visiting artists and diplomats — a beautifully restored pair of 1920s Eclectic-style buildings. The Setai Tel Aviv in Jaffa (Ottoman fortress reimagined as luxury) and the David InterContinental on the Tayelet also attract high-profile guests. The 2026 opening of Six Senses Tel Aviv on Rothschild Boulevard and Nobu Hotel Tel Aviv in Jaffa have added two internationally recognized brands to this tier. Honest caveat: celebrity endorsements shift — check current editorial reviews rather than relying on any single guide."
   - question: Is it better to stay in Tel Aviv or Jerusalem?
     answer: "It depends on your itinerary. Tel Aviv suits beach holidays, food and nightlife; Jerusalem suits pilgrimage and heritage travel. Most visitors on 7+ day trips base in Tel Aviv and do a full-day Jerusalem excursion (1 hour by rail or express bus). The reverse is less natural — Jerusalem has less evening life and fewer beach options. For the decision in detail, see the Tel Aviv vs Jerusalem guide. For specific Jerusalem hotel picks by neighbourhood, see the best hotels in Jerusalem guide."
   - question: How far in advance should I book a Tel Aviv hotel?
@@ -105,14 +111,28 @@ Tel Aviv's luxury tier spans two distinct characters: grand beachfront resorts o
 
 ---
 
+## 2025–2026 new luxury openings
+
+Two significant additions to Tel Aviv's luxury tier opened in 2026, materially upgrading the city's position among top-tier international hotel destinations.
+
+**Six Senses Tel Aviv** (Rothschild-Herzl-Lilienblum, the city's financial and culinary Golden Triangle) is the brand's Israeli debut — and one of the most anticipated hotel openings in the country's history. The property integrates five 1909-era heritage buildings on Rothschild Boulevard with a new LEED Platinum tower, preserving the Bauhaus district's architectural fabric while adding contemporary luxury infrastructure: a rooftop sky pool, a ten-floor spa, and a Holistic Anti-Aging Center drawing on the brand's wellness philosophy. The location is arguably the best in central Tel Aviv — walking distance from the Carmel Market, the city's finest restaurants, and the White City architecture. For visitors who want world-class wellness infrastructure combined with genuine immersion in the Rothschild Boulevard cultural axis, this is now the first recommendation in Tel Aviv's luxury tier. Check current availability and rates via Booking.com — rates vary significantly by season and room category.
+
+**Nobu Hotel Tel Aviv** (Jaffa waterfront area) marks the debut of the Robert De Niro and Nobu Matsuhisa brand in Israel. The lifestyle-luxury positioning — Nobu Restaurant as the in-house dining draw, a design sensibility that has worked consistently from Miami to London to Los Cabos — brings an internationally recognized brand anchor to the Jaffa luxury cluster alongside The Setai. For visitors whose priority is Old Jaffa's port atmosphere combined with internationally familiar luxury credentials, Nobu Hotel Tel Aviv and The Setai now offer two distinct interpretations of the same location. Check current availability and rates via Booking.com.
+
+**Honest caveat on 2026 openings:** opening timelines for large luxury properties can shift. Confirm current operational status and availability directly via Booking.com before making plans around a specific property. The descriptions above reflect the properties as planned and announced; verify actual services and room categories before booking.
+
+---
+
 ## Who should stay where — the decision matrix
 
 | Priority | Recommended option |
 |---|---|
 | Beach access every morning | Beachfront Tayelet (David InterContinental, Dan Tel Aviv, Leonardo) |
-| White City architecture + restaurants | Rothschild Boulevard (Rothschild 22, The Norman) |
+| White City architecture + restaurants | Rothschild Boulevard (Six Senses TLV, The Norman, Rothschild 22) |
+| Wellness and spa focus | Six Senses Tel Aviv (Rothschild; 10-floor spa, rooftop pool, 2026 opening) |
 | Boutique design + quiet neighborhood | Neve Tzedek guesthouses or The Norman |
-| Jaffa and port atmosphere | The Setai Tel Aviv |
+| Jaffa and port atmosphere | The Setai Tel Aviv or Nobu Hotel Tel Aviv |
+| International luxury brand + Jaffa dining | Nobu Hotel Tel Aviv (Jaffa; Robert De Niro/Nobu Matsuhisa, 2026 opening) |
 | Best value in a central location | Brown TLV Urban Hotel or Alray Boutique (Old North) |
 | Family with beach as priority | Dan Tel Aviv or Sheraton (beachfront infrastructure + pools) |
 | Nightlife and bar scene proximity | Florentin and Old North guesthouses |
