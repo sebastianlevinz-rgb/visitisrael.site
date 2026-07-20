@@ -10224,3 +10224,10 @@ Gate: pnpm check 0 errors; build 799 pages; 1096/1096 e2e pass.
 Ship: squash-merged 4943cc7 to master, pushed. Feature branch deleted.
 Prod: CI queued at push time; prior runs consistently success.
 Next: iter653 → BUILD (653%5==3; tools rotation).
+
+## 2026-07-20T12:00Z · iter 653 · BUILD (technical, fallthrough from tools) · tower-of-david-2027-exhibition
+What: Tools category had no unshipped standalone items (all 11 shipped; shabbat-time-tool marked STALE DUPLICATE). Fell through to technical per rotation. Selected [P3/S] Tower of David "Eyes on the Wall" 2027 exhibition update — add pre-emptive callout to tower-of-david-guide.md about the first-ever large-scale museum exhibition dedicated to the Western Wall, opening April 2027 (announced by tod.org.il, curated by Shimon Lev, marks 60th anniversary of Jerusalem reunification). Changes: blockquote callout near body top with name/date/curator/theme/tod.org.il link; new FAQ entry "What is the Eyes on the Wall exhibition?"; ToD↔Yad Vashem reciprocal cross-links; title updated to 2026–2027; updatedAt 2026-07-20. Honest framing: "announced", no fabricated prices or capacity.
+Gate: pnpm check 0 errors; build 799 pages; 1096/1096 e2e pass.
+Ship: squash-merged to master 16be2ac, pushed.
+Prod: CI + Lighthouse in_progress at push time.
+Next: iter654 = REVIEW mode (654%5==4).

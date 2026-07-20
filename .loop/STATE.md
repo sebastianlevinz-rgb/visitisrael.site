@@ -1,12 +1,12 @@
 # LOOP STATE
 
-- iteration: 652
-- lastMode: BUILD (seo-content)
-- lastItem: best-hotels-tel-aviv-2026-update
-- lastResult: SHIPPED 4943cc7. Added 2025-2026 luxury openings section to best-hotels-tel-aviv.md covering Six Senses TLV (Rothschild wellness, LEED Platinum tower, 10-floor spa, rooftop sky pool — 2026 debut) and Nobu Hotel TLV (Robert De Niro/Nobu Matsuhisa brand, Jaffa, 2026 debut). Updated decision matrix with wellness + Nobu brand rows. New Booking.com CTA for 2026 luxury openings. Refreshed description meta and updatedAt. Honest framing with 'check availability via Booking.com' caveat throughout. 799 pages; 1096/1096 e2e pass. CI queued at push time.
-- nextRotationCategory: 653%5==3 → BUILD (tools)
+- iteration: 653
+- lastMode: BUILD (technical — fallthrough from tools: tools category fully shipped)
+- lastItem: tower-of-david-2027-exhibition
+- lastResult: SHIPPED 16be2ac. Added "Eyes on the Wall" April 2027 exhibition callout to tower-of-david-guide.md: blockquote near top of body + new FAQ entry. Exhibition curated by Shimon Lev; first large-scale WW-dedicated museum show; April 2027 marking 60 years since 1967 Jerusalem reunification; confirmed from tod.org.il. Updated title to 2026-2027, updatedAt to 2026-07-20. Added reciprocal cross-links (ToD↔Yad Vashem). Honest framing: announced/upcoming, no fabricated prices or capacity. 799 pages; 1096/1096 e2e pass. CI in_progress at push time.
+- nextRotationCategory: 654%5==4 → REVIEW
 - higgsfieldSpent: 0
-- updatedAt: 2026-07-20T10:45Z
+- updatedAt: 2026-07-20T12:00Z
 - branch context: work on master; feature work on auto/<slug>
 
 Notes: iter649 REVIEW — seo-meta-trim. Routine REVIEW audit of guides/ uncovered 18 title/desc violations not caught during BUILD iterations. Pattern: autonomous BUILD sessions routinely ship slightly-long titles/descs; a periodic REVIEW pass is needed to catch them. Consider adding an automated lint rule.
