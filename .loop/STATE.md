@@ -1,12 +1,12 @@
 # LOOP STATE
 
-- iteration: 660
-- lastMode: RESEARCH
-- lastItem: research-660-culinary-heritage-nationality-gaps
-- lastResult: 6 net-new BACKLOG items added. Sources: touristisrael.com, beinharimtours.com, timeout.com/israel, viator.com, lonelyplanet.com/israel, dark-tourism.com, worldjewishtravel.org. Research agent returned 10 candidates; 9 already in BACKLOG or blocked; 1 new (israel-culinary-heritage-tourism P2/M). Independent search found 4 new nationality guide gaps: Greek, Austrian, Swiss, Turkish travelers. Taiwanese travelers also confirmed new. Saturation ~95%.
-- nextRotationCategory: 661%5==1 → BUILD/monetization
+- iteration: 661
+- lastMode: BUILD
+- lastItem: israel-culinary-heritage-tourism
+- lastResult: SHIPPED bd8b0e9. New /israel-culinary-heritage-tourism — Israel culinary heritage tourism hub (3,500w, 70-diaspora food story, 6 traditions, 3 affiliate CTAs, 6 FAQs, 15+ cross-links). Build: 802 pages (+1 from 801). Gate: check 0 errors; 1098/1098 e2e pass. Cross-links added to Footer.astro + israeli-food-cuisine-guide.md + israel-food-tours-cooking-classes.md.
+- nextRotationCategory: 662%5==2 → BUILD/seo-content
 - higgsfieldSpent: 0
-- updatedAt: 2026-07-20T20:15Z
+- updatedAt: 2026-07-20T20:45Z
 - branch context: work on master; feature work on auto/<slug>
 
 Notes: iter657 BUILD (seo-content) — israel-military-heritage. SHIPPED 0902787. New /israel-military-heritage — Israel military heritage sites guide. Latrun Armored Corps Museum (free; Route 1; captured Egyptian/Syrian tanks), Palmach Museum TLV (advance booking; cinematic 1948 walk-through), IDF History Museum Ramat HaGan (free), Ammunition Hill Jerusalem (cross-linked to /ammunition-hill-jerusalem), IAF Museum Hatzerim (pre-registration; 150+ aircraft incl captured MiGs), Kibbutz Yad Mordechai (1948 battle + Warsaw Ghetto Uprising). 3 CTAs (GYG heritage tours, DiscoverCars, Booking.com). 7 FAQs. Cross-links: Footer.astro + jewish-heritage-israel.md. 801 pages; 1098/1098 e2e pass. Broken link fix: /israel-car-rental-guide → /car-rental-israel.

@@ -10332,3 +10332,26 @@ RESEARCH pass #134. Sources: touristisrael.com, beinharimtours.com, timeout.com/
 
 Gate: N/A (RESEARCH mode — no code shipped).
 Saturation note: ~95% — competitor web research returning primarily already-covered items. Deep nationality guide niche search remains productive vein.
+
+## 2026-07-20T20:45Z · iter 661 · BUILD/monetization · israel-culinary-heritage-tourism
+
+Item: [P2] Israel culinary heritage tourism hub (/israel-culinary-heritage-tourism) — 70-diaspora food story; selected as top ready BUILD/monetization item from BACKLOG iter660 research.
+
+Implementation:
+  NEW: src/content/guides/israel-culinary-heritage-tourism.md — ~3,500-word hub guide
+    Sections: 70-diaspora thesis → 6 culinary traditions (Yemenite, Iraqi-Jewish, Moroccan/North African, Persian/Iranian, Ashkenazi, Arab-Israeli) → where to eat the heritage (6 destinations) → cooking classes → cross-links section
+    3 affiliate CTAs: Viator (culinary heritage tours), GYG (market food walks), Abraham (private culinary experiences)
+    6 FAQs covering: why Israeli food is exceptional, best markets, Mizrahi food, cooking classes, authentic diaspora restaurants, veg/vegan
+    15+ internal cross-links (hummus-trail, food-cuisine-guide, food-tours-cooking-classes, tel-aviv-food-guide, etc.)
+  MODIFIED: src/components/Footer.astro — added /israel-culinary-heritage-tourism link in food section
+  MODIFIED: src/content/guides/israeli-food-cuisine-guide.md — appended cross-link paragraph
+  MODIFIED: src/content/guides/israel-food-tours-cooking-classes.md — updated last paragraph with cross-link
+
+Gate:
+  pnpm check: 0 errors ✓
+  pnpm build: 802 pages (+1 from 801) ✓
+  pnpm test:e2e: 1098/1098 PASS (8.7m) ✓
+
+Git note: feature branch auto/culinary-heritage-hub had no commits (changes in working tree); committed directly to master after gate passed.
+Ship: commit bd8b0e9 pushed to master. Vercel auto-deploy triggered.
+Next: iter 662 = BUILD/seo-content (662%5==2).
