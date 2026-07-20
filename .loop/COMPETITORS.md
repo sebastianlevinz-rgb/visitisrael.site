@@ -5729,3 +5729,17 @@ Italian/French/Dutch/Australian traveler guides all confirmed in BACKLOG (not ne
 Saturation: ~95%. 1 priority upgrade + 1 net-new BACKLOG item. The site is reaching deep niche coverage — new gaps are increasingly specific (Eilat hotel freshness, Sachne, IBT, canyoning) rather than broad editorial topics. Future passes should continue focused audits of freshness on high-converting affiliate pages (hotels/tours) where competitor recency matters most for monetization.
 
 **Next iteration**: 656 → BUILD (656%5==1; monetization rotation)
+
+## iter660 research (2026-07-20) — Research pass #134
+
+**Sources researched:** touristisrael.com, beinharimtours.com/blog, timeout.com/israel, viator.com/Israel, lonelyplanet.com/israel, dark-tourism.com/israel, worldjewishtravel.org, smartraveller.gov.au, remitly.com, itinerary.expert, secrettelaviv.com, harrysbaked.com, slavaguide.com
+
+**Key competitor findings (already-tracked or blocked items confirmed):**
+- touristisrael.com actively operates Gaza Envelope / Nova festival memorial tours ($85–150/person) — highest-conversion competitor page; our equivalent is blocked (editorial review). Site now receives ~200K visitors/month to Oct 7 content per KKL-JNF data.
+- touristisrael.com + timeout.com/israel + secrettelaviv.com all have dedicated Namal Tel Aviv (Tel Aviv Port) guides — ours already in BACKLOG iter395.
+- touristisrael.com + beinharimtours.com have HaTachana (Old Train Station) guides — ours already in BACKLOG iter395.
+- touristisrael.com + beinharimtours.com + harrysbaked.com have Levinsky Market guides — ours already in BACKLOG iter425.
+- timeout.com/israel has "A Food Lover's Guide to Middle Eastern Cuisine" as flagship culinary hub — our equivalent (israel-culinary-heritage-tourism) confirmed new gap added iter660.
+- Nationality guide landscape: no competitor editorial brand (touristisrael.com, lonelyplanet.com, timeout.com, beinharimtours.com) has dedicated guides for Greek, Austrian, Swiss, Turkish, or Taiwanese travelers visiting Israel — all confirmed new gaps added iter660.
+
+**Saturation note:** After 134 research passes, ~95% of high-value competitor content is either already shipped or in BACKLOG. Productive veins remaining: (a) very specific nationality markets (Greek, Austrian, Swiss, Turkish, Taiwanese added this pass); (b) new-institution guides (2025-2026 property openings, museums); (c) content freshness updates for shipped guides.

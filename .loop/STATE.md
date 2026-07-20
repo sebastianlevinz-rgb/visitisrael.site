@@ -1,12 +1,12 @@
 # LOOP STATE
 
-- iteration: 659
-- lastMode: REVIEW
-- lastItem: review-659-content-audit
-- lastResult: CLEAN. Audited iters 656-658 (israel-water-parks, israel-military-heritage, eilat-hotels-freshness). All checks pass: titles ≤65 chars (46/52/57), descs ≤160 chars (148/133/149), all internal cross-links resolve, price ranges only with verify-caveats, footer links present, sitemap lastmod 2026-07-20, parent guide cross-links confirmed. pnpm check 0 errors, build 801 pages, 1098/1098 e2e pass. No defects found — no fix shipped.
-- nextRotationCategory: 660%5==0 → RESEARCH
+- iteration: 660
+- lastMode: RESEARCH
+- lastItem: research-660-culinary-heritage-nationality-gaps
+- lastResult: 6 net-new BACKLOG items added. Sources: touristisrael.com, beinharimtours.com, timeout.com/israel, viator.com, lonelyplanet.com/israel, dark-tourism.com, worldjewishtravel.org. Research agent returned 10 candidates; 9 already in BACKLOG or blocked; 1 new (israel-culinary-heritage-tourism P2/M). Independent search found 4 new nationality guide gaps: Greek, Austrian, Swiss, Turkish travelers. Taiwanese travelers also confirmed new. Saturation ~95%.
+- nextRotationCategory: 661%5==1 → BUILD/monetization
 - higgsfieldSpent: 0
-- updatedAt: 2026-07-20T18:45Z
+- updatedAt: 2026-07-20T20:15Z
 - branch context: work on master; feature work on auto/<slug>
 
 Notes: iter657 BUILD (seo-content) — israel-military-heritage. SHIPPED 0902787. New /israel-military-heritage — Israel military heritage sites guide. Latrun Armored Corps Museum (free; Route 1; captured Egyptian/Syrian tanks), Palmach Museum TLV (advance booking; cinematic 1948 walk-through), IDF History Museum Ramat HaGan (free), Ammunition Hill Jerusalem (cross-linked to /ammunition-hill-jerusalem), IAF Museum Hatzerim (pre-registration; 150+ aircraft incl captured MiGs), Kibbutz Yad Mordechai (1948 battle + Warsaw Ghetto Uprising). 3 CTAs (GYG heritage tours, DiscoverCars, Booking.com). 7 FAQs. Cross-links: Footer.astro + jewish-heritage-israel.md. 801 pages; 1098/1098 e2e pass. Broken link fix: /israel-car-rental-guide → /car-rental-israel.
@@ -23,4 +23,4 @@ Notes: iter648 BUILD (seo-content, fallthrough from tools→technical→monetiza
 
 Cron b7325b16 hourly @ :17. Loop history: 19 tools + sitemap-lastmod + link-checker(+depth) + i18n
 Phase0/1a/1b/1c/2 Batches1-18(COMPLETE) + 47 review passes + 3 technical (event-schema + meta-trim + locale-links) + 75 EN guides + 7 tools-monetization + 2 comparisons;
-research iters 5/10/20/30/35/40/45/50/55/60/65/70/75/80/85/90/95/100/105/110/115/120/125/130/135/140/145/150/155/160/165/170/175/180/185/190/195/200/205/210/215/220/225/230/235/240/245/250/255/260/265/270/275/280/285/290/295/300/305/310/315/320/325/330/335/340/345/350/355/360/365/370/375/380/385/390/395/400/405/410/420/425/430/435/440/445/450/455/460/465/470/480/485/490/495/500/505/510/515/520/525/535/540/545/550/555/560/565/570/575/580/585/590/595/600/605/610/615/620/625/630/635/640/645/650/655.
+research iters 5/10/20/30/35/40/45/50/55/60/65/70/75/80/85/90/95/100/105/110/115/120/125/130/135/140/145/150/155/160/165/170/175/180/185/190/195/200/205/210/215/220/225/230/235/240/245/250/255/260/265/270/275/280/285/290/295/300/305/310/315/320/325/330/335/340/345/350/355/360/365/370/375/380/385/390/395/400/405/410/420/425/430/435/440/445/450/455/460/465/470/480/485/490/495/500/505/510/515/520/525/535/540/545/550/555/560/565/570/575/580/585/590/595/600/605/610/615/620/625/630/635/640/645/650/655/660.

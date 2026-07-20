@@ -10325,3 +10325,10 @@ Gate run on master b96b483:
 Defects found: NONE.
 Fixes shipped: NONE (clean review; master unchanged).
 Next: iter 660 = RESEARCH (660%5==0 → competitor gap scan).
+
+## 2026-07-20T20:15Z · iter 660 · RESEARCH · research-660-culinary-heritage-nationality-gaps
+
+RESEARCH pass #134. Sources: touristisrael.com, beinharimtours.com, timeout.com/israel, viator.com, lonelyplanet.com/israel, dark-tourism.com, worldjewishtravel.org. Research subagent conducted web searches returning 10 candidate content gaps. After full deduplication against BACKLOG.md (1,523 lines), DONE.md, and src/content/guides/ (337 files): 9 of 10 candidates already in BACKLOG or editorially blocked; 1 genuinely net-new (israel-culinary-heritage-tourism). Independent nationality guide audit found 4 additional untracked markets (Greek, Austrian, Swiss, Turkish travelers); Taiwanese travelers also confirmed new. Total: 6 net-new items added to BACKLOG.
+
+Gate: N/A (RESEARCH mode — no code shipped).
+Saturation note: ~95% — competitor web research returning primarily already-covered items. Deep nationality guide niche search remains productive vein.
