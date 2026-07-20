@@ -1,13 +1,15 @@
 # LOOP STATE
 
-- iteration: 642
+- iteration: 643
 - lastMode: BUILD
-- lastItem: israel-for-korean-travelers
-- lastResult: SHIPPED 83c96df. New guide /israel-for-korean-travelers — South Korea has ~29% Christian population (~14M Christians, ~10M Protestant); Korean evangelical pilgrimage to Holy Land is well-established. Freshness hook = El Al TLV→ICN Seoul direct March 27 2027 (3×/week Mon/Wed/Sat, B787-9), first direct Israel-Korea service since Korean Air suspended post-Oct 7 2023. 7 FAQs, 3 CTAs (GYG Galilee Christian circuit, Booking, SafetyWing). Korean payment matrix (KakaoPay/Naver Pay/T-money NOT accepted; Visa/Mastercard OK). NHIS not valid abroad. Cross-link added to first-time-in-israel.md. 795 pages (+1 from 794); 1093/1093 e2e pass.
-- nextRotationCategory: 643%5==3 → BUILD (tools rotation)
+- lastItem: advisory-freshness-643
+- lastResult: SHIPPED a1f08c3. Updated is-israel-safe.md (EN/FR/DE) with July 2026 advisory improvements: UK FCDO removed Israel from highest-risk "advise against all travel" category (June 2026); EASA reclassified Israeli airspace from Conflict Zone Bulletin to Information Note (July 8, 2026); US State Dept Level 2; Canada/Australia/Germany/France/Japan also downgraded. New "Current advisory status — July 2026" section added to all three locale editions; updatedAt bumped to 2026-07-20. Remaining restrictions (Gaza border, Golan Heights, northern West Bank) clearly noted with official source links. 795 pages unchanged; 1093/1093 e2e pass.
+- nextRotationCategory: 644%5==4 → REVIEW
 - higgsfieldSpent: 0
-- updatedAt: 2026-07-20T00:45Z
+- updatedAt: 2026-07-20T01:55Z
 - branch context: work on master; feature work on auto/<slug>
+
+Notes: iter643 BUILD (technical/seo-health) — advisory-freshness-643. Tools category empty (all SHIPPED or STALE DUPLICATE); fell through to technical per playbook fallthrough. SHIPPED a1f08c3. P2/S item from iter640 research — UK FCDO June 2026 removal of Israel from "advise against all travel"; EASA aviation risk downgrade July 8 2026; US Level 2. Updated EN+FR+DE editions of is-israel-safe.md with new advisory status section. CI queued at time of memory commit; consistent with prior success pattern.
 
 Notes: iter642 BUILD (seo-content) — israel-for-korean-travelers. SHIPPED 83c96df. P2/M item; upgraded P3→P2 at iter640 (El Al TLV→ICN Seoul direct March 27 2027, first direct Israel-Korea service since Korean Air suspended post-Oct 7 2023). South Korea ~29% Christian; Korean evangelical Holy Land pilgrimage is core evangelical practice; ~14M Christians, ~10M Protestant. Content: ETA-IL (₪25/~₩9,000–10,000); flight table (El Al direct ICN→TLV from March 27 2027 + Turkish/Cathay/Etihad connections until launch); evangelical pilgrimage circuit (Sea of Galilee boat, Church of Beatitudes, Capernaum, Basilica of Annunciation, Yardenit baptism, Via Dolorosa, Church of Holy Sepulchre, Garden of Gethsemane, Yad Vashem, Bethlehem); Korean payment matrix (KakaoPay/Naver Pay/T-money NOT accepted; Visa/Mastercard Korean bank cards accepted; Samsung Pay notes); NHIS not valid abroad; Korean insurer recommendations (KB, Samsung Fire, Hyundai M&F, DB); voltage (220V/60Hz Type C/F → adapter to Type H — no converter needed); mobile (SIM/eSIM options). Cross-link added to first-time-in-israel.md. 795 pages; 1093/1093 e2e pass.
 
@@ -26,5 +28,5 @@ Notes: iter636 BUILD (monetization) — israel-for-filipino-travelers. SHIPPED 7
 Notes: iter635 RESEARCH (pass #129) — research-635-pass-129. No code shipped. 1 priority upgrade: israel-for-filipino-travelers P3→P2 (El Al TLV→MNL direct Oct 2026 — first-ever Israel-Philippines non-stop service). Tel Aviv Museum of Art expansion: CONFIRMED FALSE LEAD (closed permanently; second confirmation). Etihad 6x daily AUH→TLV from June 15 2026 (freshness note). Six Senses TLV + Nobu TLV opening 2026 (luxury hotel freshness; best-hotels-tel-aviv already SHIPPED iter243). Tower of David "Eyes on the Wall" April 2027 confirmed on track + June 2026 crowdsourcing campaign active. Saturation ~94%.
 
 Cron b7325b16 hourly @ :17. Loop history: 19 tools + sitemap-lastmod + link-checker(+depth) + i18n
-Phase0/1a/1b/1c/2 Batches1-18(COMPLETE) + 47 review passes + 3 technical (event-schema + meta-trim + locale-links) + 72 EN guides + 7 tools-monetization + 2 comparisons;
+Phase0/1a/1b/1c/2 Batches1-18(COMPLETE) + 47 review passes + 3 technical (event-schema + meta-trim + locale-links) + 73 EN guides + 7 tools-monetization + 2 comparisons;
 research iters 5/10/20/30/35/40/45/50/55/60/65/70/75/80/85/90/95/100/105/110/115/120/125/130/135/140/145/150/155/160/165/170/175/180/185/190/195/200/205/210/215/220/225/230/235/240/245/250/255/260/265/270/275/280/285/290/295/300/305/310/315/320/325/330/335/340/345/350/355/360/365/370/375/380/385/390/395/400/405/410/420/425/430/435/440/445/450/455/460/465/470/480/485/490/495/500/505/510/515/520/525/535/540/545/550/555/560/565/570/575/580/585/590/595/600/605/610/615/620/625/630/635/640.

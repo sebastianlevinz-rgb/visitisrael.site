@@ -10116,3 +10116,35 @@ Gate: pnpm check 0 errors; pnpm build 795 pages (+1 from 794); pnpm test:e2e 109
 Ship: committed 83c96df to master; pushed. CI in_progress at time of memory commit — consistent with prior success pattern.
 
 **Next iteration**: 643 → BUILD (643%5==3; tools rotation)
+
+## 2026-07-20T01:55Z · iter 643 · BUILD (technical/seo-health) · advisory-freshness-643
+
+Mode: BUILD (643%5==3; tools rotation → empty, fell through to technical).
+
+### What
+Updated is-israel-safe.md (EN + FR + DE locale editions) with a new "Current advisory status — July 2026" section reflecting materially improved government travel advisories:
+- UK FCDO: removed Israel from highest-risk "advise against all travel" category (June 2026); most tourist areas now "exercise caution"
+- EASA: reclassified Israeli airspace from Conflict Zone Bulletin to Information Note (effective July 8, 2026)
+- US State Department: Level 2 "Exercise Increased Caution" (not Level 3/4)
+- Canada, Australia, Germany, France, Japan and others also downgraded advisories in 2026
+- Remaining restrictions clearly noted with links to official sources: Gaza border zone, Golan Heights near Syrian border, northern West Bank
+- updatedAt bumped to 2026-07-20 across all three locale editions
+
+SEO target: "is Israel safe 2026", "Israel travel advisory 2026", "UK Israel travel advice 2026" (high-intent safety queries).
+
+Stale branches noted (from 60+ iterations ago; not the crashed-previous-iteration scenario):
+- origin/auto/bga-transfers-sherut-update (iter608 work)
+- origin/auto/israel-hebrew-phrases (iter588 work)
+- origin/auto/israel-vs-cyprus (iter410 work)
+- origin/auto/jerusalem-trail (iter573 work)
+These are orphaned from old iterations; their content may or may not have been merged via other paths. Left as-is per playbook (no retroactive gate/merge on 60+-iteration-old branches).
+
+### Gate
+- pnpm check: 0 errors ✅
+- pnpm build: 795 pages (no page count change — content update, not new page) ✅
+- pnpm test:e2e: 1093/1093 pass (exit code 0) ✅
+
+### Ship
+Committed a1f08c3 to master; pushed to origin. CI + Lighthouse workflows queued at push time — consistent with prior success pattern.
+
+**Next iteration**: 644 → REVIEW (644%5==4)
