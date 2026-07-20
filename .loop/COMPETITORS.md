@@ -5634,4 +5634,36 @@ Tourist Israel (touristisrael.com/visiting-tel-aviv-startups) has a dedicated "V
 **Competitive landscape at pass #130**
 Saturation: ~94%. 2 priority upgrades + 1 freshness item from ~35 candidates. No net-new guides discovered. El Al's Asia + South America expansion (Seoul Mar 2027, Buenos Aires Nov 2026) is the primary new intelligence: it meaningfully upgrades two existing BACKLOG nationality guides from P3 to P2. The UK + EASA travel advisory improvement is actionable as a freshness fix for is-israel-safe.md. The Nova memorial site volume (250K+ H1 2026) confirms demand but the BLOCKED status on oct-7-memorial-sites remains appropriate per honesty rules.
 
+---
+
+### 2026-07-20 · iter 645 · RESEARCH pass #131
+
+**Focus:** South African travel market; Biblical Highway (Derech HaTanach) national initiative; Galilee Culinary Institute; Yam Caesarea marine national park; Ashdod cruise port; canyoning market demand validation
+
+**South Africa: confirmed nationality guide gap (P2)**
+South Africa is absent from shipped and backlogged nationality guides. ~70K South African Jewish diaspora + large Catholic/Christian pilgrim market; El Al operates TLV→JNB (Johannesburg O.R. Tambo) direct service. SA closed its embassy in Israel in May 2018 as diplomatic gesture; ETA-IL is still accessible to SA passport holders online. SA tour operators JOY Travel and On The Go Tours ZA both have active Israel pilgrimage packages — confirming tour market. COMPETITOR CONTEXT: No competitor editorial brand has a South Africa-specific Israel travel guide. Upgrade: new P2/S item added to BACKLOG.
+
+**Biblical Highway (Derech HaTanach) — June 18, 2026 national initiative**
+PM Netanyahu and US Ambassador Mike Huckabee co-inaugurated the "Derech HaTanach" (Biblical Highway) national tourism initiative along Route 60 on June 18, 2026. Initiative includes new signage, biblical interpretation centers, and visitor infrastructure at patriarchal narrative sites (Be'er Sheva, Beit El, Shiloh). Covered by Times of Israel, Jerusalem Post, and US evangelical media (Christian Broadcasting Network). No competitor editorial brand has published a dedicated Biblical Highway visitor guide. COMPETITOR GAP confirmed (P2/M — medium effort due to West Bank area coverage complexity + Hebron exclusion per PROJECT.md). Added to BACKLOG as new item.
+
+**Galilee Culinary Institute — world's only fully kosher culinary institute (pre-opening)**
+JNF-USA flagship project in Kiryat Shmona area (Upper Galilee); directed by Chef Lior Lev Sercarz (La Boîte NY). Described as the world's only fully kosher culinary institute; day programs + weeklong residencies; working farm, fine-dining restaurant, wine bar, brewery, guest suites. Expected to open end of 2026 per JNF-USA press materials. No competitor editorial brand has visitor-focused content (only JNF donor announcements and food press). Pre-opening coverage opportunity. HONESTY: verify galileeculinaryinstitute.com before publishing; Kiryat Shmona near Lebanon border — always link is-israel-safe.md. Added to BACKLOG as P3/S item.
+
+**Yam Caesarea marine national park — Israel's first marine national park**
+INPA declared Israel's first marine national park at Yam Caesarea (267 acres) west of Caesarea Maritima; contains submerged Herodian Sebastos harbor ruins + natural reef; snorkeling and scuba diving with INPA-licensed guide. Coverage: ynetnews.com/travel, Haaretz archaeology. No competitor editorial brand has a dedicated marine park visitor guide. Distinct from existing caesarea-guide.md (above-water amphitheater/hippodrome). Added to BACKLOG as P3/S item.
+
+**Ashdod cruise port — confirmed content gap**
+haifa-cruise-terminal-guide.md SHIPPED iter621. Ashdod is Israel's second international cruise port (closer to Jerusalem than Haifa at 45 min). GYG and Viator both carry dedicated "Ashdod port excursions" product categories (confirmed). cruise-shore-excursions-israel.md is general, not port-specific. No competitor editorial brand has a dedicated Ashdod cruise port day guide. Cruise passengers are time-constrained and high-converting for affiliate CTAs. Added to BACKLOG as P3/S item.
+
+**Israel canyoning market: confirmed P3→P2 upgrade**
+Existing iter625 BACKLOG item (israel-canyoning-guide, P3/S) validated: Viator publishes "THE 15 BEST Israel Canyoning & Rappelling Tours" (top result for "Israel canyoning"); TripAdvisor publishes equivalent page. adventure-israel.com and ashdotextreme.co.il both operate year-round with confirmed Black Canyon (Judean Desert near Arad) + Nachal Rachaf (Dead Sea area) bookings. The standalone canyoning guide is clearly distinct from water-hiking-israel.md (wading, not rappelling) and israel-adventure-sports.md (hub, one line). Upgrade to P2/S. Existing iter625 BACKLOG item updated (not duplicated).
+
+**False leads permanently closed this pass**
+- National Campus for Archaeology of Israel: research agent surfaced as gap; verified = Schottenstein National Campus for the Archaeology of Israel, SHIPPED iter607 /schottenstein-campus-jerusalem. Permanently closed.
+- Rosh Hanikra Sea Caves: research agent surfaced as gap; verified = SHIPPED iter483 /rosh-hanikra-guide. Permanently closed.
+- Haifa Cruise Terminal: research agent surfaced as gap; verified = SHIPPED iter621 /haifa-cruise-terminal-guide. Permanently closed.
+
+**Competitive landscape at pass #131**
+Saturation: ~94%. 5 net-new BACKLOG items + 1 priority upgrade from ~35 candidates. Primary intelligence: Biblical Highway (Derech HaTanach) June 2026 national initiative is a genuine editorial gap with strong faith tourism SEO hook (P2/M); South Africa nationality guide confirmed P2/S gap; Galilee Culinary Institute pre-opening coverage opportunity (P3/S). Yam Caesarea and Ashdod cruise port are confirmed niche gaps (P3/S each). Israel canyoning guide upgraded P3→P2 based on Viator/TripAdvisor SERP validation. Three significant false leads closed (Rosh Hanikra, Schottenstein Campus, Haifa cruise terminal) — agent hallucination/cache confusion pattern; future passes should treat these three as permanently closed.
+
 **Next iteration**: 641 → BUILD (641%5==1; monetization rotation)

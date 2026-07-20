@@ -1,13 +1,15 @@
 # LOOP STATE
 
-- iteration: 644
-- lastMode: REVIEW
-- lastItem: review-644-meta-fixes
-- lastResult: SHIPPED 1f92b0a. REVIEW pass iters 641-643. Found 2 meta description overruns from iter641-642 origin-market guides. Korean guide desc trimmed 167→157 chars; Argentine guide desc trimmed 177→154 chars. FR/DE is-israel-safe updates (iter643) reviewed clean. All internal links verified (jewish-genealogy-israel-trip, rav-kav-israel, bethlehem-travel-guide, via-dolorosa-guide all exist). 795 pages; 1093/1093 e2e pass. Prod deploy queued at push time.
-- nextRotationCategory: 645%5==0 → RESEARCH
+- iteration: 645
+- lastMode: RESEARCH
+- lastItem: research-645-pass-131
+- lastResult: No code shipped. RESEARCH pass #131. 5 net-new BACKLOG items added (SA travelers P2/S, Biblical Highway P2/M, Galilee Culinary Institute P3/S, Yam Caesarea marine park P3/S, Ashdod cruise port P3/S). 1 priority upgrade: israel-canyoning-guide P3→P2. False leads closed: Rosh Hanikra (SHIPPED iter483), Schottenstein Campus (SHIPPED iter607), Haifa cruise terminal (SHIPPED iter621). Oct 7 memorial remains BLOCKED. 795 pages; 1093/1093 e2e pass.
+- nextRotationCategory: 646%5==1 → BUILD/monetization
 - higgsfieldSpent: 0
-- updatedAt: 2026-07-20T02:55Z
+- updatedAt: 2026-07-20T04:15Z
 - branch context: work on master; feature work on auto/<slug>
+
+Notes: iter645 RESEARCH (pass #131) — research-645-pass-131. Researched South African travel market, Biblical Highway/Derech HaTanach (June 18 2026 PM Netanyahu + Ambassador Huckabee inauguration), Galilee Culinary Institute (JNF-USA, first kosher culinary institute, Chef Lior Lev Sercarz, end-2026 opening), Yam Caesarea marine national park (Israel's first marine national park, 267 acres, Herodian port ruins), Ashdod cruise port (second cruise gateway; Haifa guide SHIPPED iter621 but Ashdod gap confirmed), canyoning market validation (Viator/TripAdvisor both rank dedicated canyoning pages). 5 net-new items added; 1 priority upgrade (israel-canyoning-guide P3→P2). False leads closed: National Campus for Archaeology = Schottenstein Campus (SHIPPED iter607), Rosh Hanikra sea caves (SHIPPED iter483), Haifa cruise terminal (SHIPPED iter621). No code shipped.
 
 Notes: iter644 REVIEW — review-644-meta-fixes. Audited iters 641-643. Key finding: Korean guide desc 167 chars and Argentine guide desc 177 chars both exceeded 160-char SEO limit (same class as iter639 defect). Trimmed both to ≤160 chars. FR/DE is-israel-safe.md advisory updates from iter643 reviewed clean (FCDO/EASA/US State Dept correctly cited, official links present, no access-guarantee language). All internal links in iter641-642 guides verified as existing routes. SHIPPED 1f92b0a. Prod deploy queued.
 
