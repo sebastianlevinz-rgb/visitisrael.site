@@ -10268,3 +10268,14 @@ Gate: pnpm check 0 errors (130 files); pnpm build 800 pages (up from 799); pnpm 
 Ship: committed to master f27b6ee, pushed. Branch auto/israel-water-parks deleted.
 Prod: CI + Lighthouse in_progress at push — typical pattern, expected to succeed.
 Next: iter657 = BUILD (657%5==2 → seo-content). Top candidates from backlog: Israel military heritage sites for tourists (P2/S), Israel birdwatching & migration guide (P2/M), East Jerusalem visitor guide (P2/M), Israel yoga/meditation retreats (P2/M).
+
+## 2026-07-20T15:45Z · iter 657 · BUILD (seo-content) · israel-military-heritage
+Mode: BUILD (657%5==2; rotation: seo-content).
+Item: israel-military-heritage (P2/S, seo-content+monetization) — [iter175 research]
+Branch: auto/israel-military-heritage (created; squash-merged to master).
+What: New standalone guide /israel-military-heritage — Israel military heritage sites for tourists. Covers: Latrun Armored Corps Museum (Route 1 between TLV + Jerusalem; free entry + parking; hundreds of tanks incl. captured Egyptian/Syrian vehicles; Holocaust Survivor Units display; Sun–Thu 08:30–17:00); Palmach Museum Tel Aviv (Ramat Aviv; cinematic walk-through following fictional 1948 fighter; advance booking required via palmachmuseum.com; ₪50–70; 90 min); IDF History Museum Ramat HaGan (Bauhaus building; visual narrative 1948-present; free; 1.5h); Ammunition Hill Jerusalem (cross-link to existing /ammunition-hill-jerusalem guide; 1967 Six-Day War battlefield); Israel Air Force Museum Hatzerim near Beer-Sheva (pre-registration required iaf.org.il; 150+ aircraft incl. captured MiGs; 3h+); Kibbutz Yad Mordechai (1948 battle + Warsaw Ghetto Uprising memorial; life-size diorama; near Ashkelon; en-route TLV→Eilat). 3 affiliate CTAs: GYG heritage tours, DiscoverCars (for Latrun + Hatzerim), Booking.com hotels. 7 FAQs. Planning itineraries: TLV focus (Palmach + IDF History), Jerusalem/Route 1 (Latrun + Ammunition Hill), Southern Israel 2-day (Yad Mordechai + Hatzerim). Cross-links: Footer.astro (new li next to /ammunition-hill-jerusalem), jewish-heritage-israel.md (new military heritage circuit bullet after Ammunition Hill entry). Smoke test route /israel-military-heritage added (629th ROUTES entry = 1098 total e2e tests).
+Bug fix: guide initially linked /israel-car-rental-guide (does not exist) → corrected to /car-rental-israel after links.spec.ts failure on first e2e run; fixed before re-gate.
+Gate: pnpm check 0 errors (130 files); pnpm build 801 pages (+1 from 800); pnpm test:e2e 1098/1098 PASS. GREEN (second run after link fix).
+Ship: committed 0902787 to master, pushed to origin/master. Feature branch deleted.
+Prod: CI in_progress at push time — consistent with prior pattern, expected success.
+Next: iter658 → BUILD/tools (658%5==3; tools rotation).
