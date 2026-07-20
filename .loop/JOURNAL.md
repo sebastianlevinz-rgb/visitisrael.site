@@ -10217,3 +10217,10 @@ Gate: pnpm check 0 errors; build 799 pages (+1); 1096/1096 e2e pass.
 Ship: 01ecfad pushed to master. CI Lighthouse in_progress at push time.
 Prod: CI in_progress — will confirm on next iteration start-check.
 Next: iter652 → BUILD (652%5==2; seo-content rotation).
+
+## 2026-07-20T10:45Z · iter 652 · BUILD (seo-content) · best-hotels-tel-aviv-2026-update
+What: Freshness update to best-hotels-tel-aviv.md (P2/S from iter650 research). Added new '2025–2026 new luxury openings' section covering Six Senses Tel Aviv (Rothschild-Herzl-Lilienblum; 5 heritage 1909 buildings + LEED Platinum tower; 10-floor spa; rooftop sky pool; Holistic Anti-Aging Center; brand's Israeli debut) and Nobu Hotel Tel Aviv (Jaffa waterfront; Robert De Niro/Nobu Matsuhisa brand debut in Israel; lifestyle-luxury). Updated decision matrix with 2 new rows (wellness focus → Six Senses; international luxury brand → Nobu). Added new Booking.com CTA block for 2026 luxury openings. Refreshed description meta to include new properties. Updated updatedAt to 2026-07-20. Honest framing throughout: all properties marked '2026 opening — check availability via Booking.com'; explicit caveat that opening timelines can shift. No fabricated rates or amenities beyond what was publicly documented.
+Gate: pnpm check 0 errors; build 799 pages; 1096/1096 e2e pass.
+Ship: squash-merged 4943cc7 to master, pushed. Feature branch deleted.
+Prod: CI queued at push time; prior runs consistently success.
+Next: iter653 → BUILD (653%5==3; tools rotation).

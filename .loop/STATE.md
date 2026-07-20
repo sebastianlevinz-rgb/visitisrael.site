@@ -1,12 +1,12 @@
 # LOOP STATE
 
-- iteration: 651
-- lastMode: BUILD (monetization)
-- lastItem: israel-for-russian-speaking-travelers
-- lastResult: SHIPPED 01ecfad. New guide for FSU language-community visitors (Ukrainian, Kazakh, Georgian, Armenian, Moldovan, Azerbaijani, Belarusian, Russian passport holders). ETA-IL requirements, flights via Istanbul/Dubai, Russian language support in Israel, FSU neighborhoods (Ashdod, Nahariya, Bat Yam, Be'er Sheva, The Dacha), Yad Vashem Russian audioguide, practical tips. Three affiliate CTAs: GYG Russian-speaking tours + Booking.com + DiscoverCars. Cross-linked from first-time-in-israel.md. 799 pages; 1096/1096 e2e pass. CI in_progress at push time.
-- nextRotationCategory: 652%5==2 → BUILD (seo-content)
+- iteration: 652
+- lastMode: BUILD (seo-content)
+- lastItem: best-hotels-tel-aviv-2026-update
+- lastResult: SHIPPED 4943cc7. Added 2025-2026 luxury openings section to best-hotels-tel-aviv.md covering Six Senses TLV (Rothschild wellness, LEED Platinum tower, 10-floor spa, rooftop sky pool — 2026 debut) and Nobu Hotel TLV (Robert De Niro/Nobu Matsuhisa brand, Jaffa, 2026 debut). Updated decision matrix with wellness + Nobu brand rows. New Booking.com CTA for 2026 luxury openings. Refreshed description meta and updatedAt. Honest framing with 'check availability via Booking.com' caveat throughout. 799 pages; 1096/1096 e2e pass. CI queued at push time.
+- nextRotationCategory: 653%5==3 → BUILD (tools)
 - higgsfieldSpent: 0
-- updatedAt: 2026-07-20T09:55Z
+- updatedAt: 2026-07-20T10:45Z
 - branch context: work on master; feature work on auto/<slug>
 
 Notes: iter649 REVIEW — seo-meta-trim. Routine REVIEW audit of guides/ uncovered 18 title/desc violations not caught during BUILD iterations. Pattern: autonomous BUILD sessions routinely ship slightly-long titles/descs; a periodic REVIEW pass is needed to catch them. Consider adding an automated lint rule.
