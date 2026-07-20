@@ -3,7 +3,7 @@ title: "Israël est-il sûr ? Un guide honnête pour 2026"
 description: "Guide pratique sur la sécurité en Israël pour les touristes : conseils officiels, vie quotidienne, notes régionales et précautions à prendre."
 heroImage: /images/regions/tel-aviv/hero.jpg
 category: Planification
-updatedAt: 2026-05-20
+updatedAt: 2026-07-20
 faqs:
   - question: "Israël est-il sûr pour les touristes en ce moment ?"
     answer: "Pour la grande majorité des visiteurs et la plupart du temps, oui — les principales villes touristiques sont très surveillées et la criminalité ordinaire y est faible. La situation peut toutefois évoluer en fonction du contexte sécuritaire régional ; consultez toujours les conseils aux voyageurs officiels de votre gouvernement avant et pendant votre voyage, et suivez les recommandations locales."
@@ -22,6 +22,17 @@ Pour la grande majorité des visiteurs, un séjour en Israël est calme et sans 
 ## Consultez les conseils officiels en vigueur
 
 Israël se situe dans une région où la situation sécuritaire peut évoluer, parfois rapidement. La chose la plus importante est de **consulter les conseils aux voyageurs officiels de votre propre gouvernement** (par exemple le Quai d'Orsay pour la France, le DFAE pour la Suisse, ou l'équivalent de votre pays) **avant de réserver et à nouveau avant de prendre l'avion**, et de rester attentif aux nouvelles locales sur place. Ces conseils fournissent des informations actualisées zone par zone et signalent les lieux éventuellement déconseillés.
+
+## Situation des conseils officiels aux voyageurs — juillet 2026
+
+Les conseils de voyage officiels concernant Israël se sont nettement améliorés en 2026. Au mois de juillet 2026 :
+
+- **FCDO britannique :** En juin 2026, le Royaume-Uni a retiré Israël de sa catégorie de risque la plus élevée « déconseillé de voyager ». La plupart des zones touristiques sont désormais classées « prudence recommandée ». Des avertissements spécifiques subsistent pour la zone d'exclusion à la frontière de Gaza, la Cisjordanie du Nord et les zones proches des frontières libanaise et syrienne. Consultez [les conseils du FCDO pour Israël](https://www.gov.uk/foreign-travel-advice/israel).
+- **Département d'État américain :** Israël est classé au niveau 2 — « Faire preuve d'une prudence accrue » — en deçà des niveaux 3 et 4 plus restrictifs. Consultez [la page Israël du Département d'État](https://travel.state.gov/content/travel/en/international-travel/International-Travel-Country-Information-Pages/Israel.html).
+- **Agence européenne de la sécurité aérienne (EASA) :** L'espace aérien israélien a été reclassé d'un bulletin de zone de conflit à une note d'information le 8 juillet 2026, reflétant une réduction du risque aérien sur la plupart des routes.
+- **Le Canada, l'Australie, l'Allemagne, le Japon et d'autres gouvernements** ont également révisé à la baisse leurs conseils concernant Israël en 2026.
+
+**Aucun gouvernement ne considère Israël comme sans risque.** Tous les gouvernements déconseillent encore le voyage dans la zone frontalière de Gaza, les hauteurs du Golan proches de la frontière syrienne et la majeure partie de la Cisjordanie du Nord. Pour une information à jour, consultez directement les conseils officiels de votre propre gouvernement — et non ce guide.
 
 ## Notes régionales
 

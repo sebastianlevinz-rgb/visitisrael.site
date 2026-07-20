@@ -3,7 +3,7 @@ title: "Ist Israel sicher? Ein ehrlicher Reiseführer für 2026"
 description: "Ein praktischer, ehrlicher Blick auf die Sicherheit in Israel für Touristen: Alltag vor Ort, offizielle Reisehinweise, regionale Besonderheiten und sinnvolle"
 heroImage: /images/regions/tel-aviv/hero.jpg
 category: Planung
-updatedAt: 2026-05-20
+updatedAt: 2026-07-20
 faqs:
   - question: "Ist Israel zurzeit sicher für Touristen?"
     answer: "Für die meisten Besucher die meiste Zeit, ja — die wichtigsten Touristenstädte sind gut gesichert und die Alltagskriminalität ist gering. Die Lage kann sich jedoch mit der regionalen Sicherheitssituation verändern; konsultieren Sie daher immer die offiziellen Reisehinweise Ihrer Regierung vor und während der Reise und befolgen Sie lokale Empfehlungen."
@@ -22,6 +22,17 @@ Für die große Mehrheit der Besucher verläuft ein Israelaufenthalt ruhig und e
 ## Aktuelle offizielle Reisehinweise prüfen
 
 Israel liegt in einer Region, in der sich die Sicherheitslage schnell ändern kann. Das Wichtigste ist, **die offiziellen Reisehinweise Ihrer eigenen Regierung zu konsultieren** (z. B. das Auswärtige Amt in Deutschland oder das EDA in der Schweiz) **vor der Buchung und erneut vor dem Abflug** sowie die lokalen Nachrichten vor Ort im Blick zu behalten. Diese Hinweise geben aktuelle, gebietsspezifische Informationen und weisen auf Bereiche hin, die gemieden werden sollten.
+
+## Aktuelle Reisehinweise — Juli 2026
+
+Die offiziellen Reisehinweise für Israel haben sich 2026 spürbar verbessert. Stand Juli 2026:
+
+- **UK FCDO:** Das Vereinigte Königreich hat Israel im Juni 2026 aus der höchsten Risikokategorie „Von Reisen wird abgeraten" herausgenommen. Die meisten touristischen Bereiche werden nun mit „Vorsicht geboten" eingestuft. Spezifische Warnungen bestehen weiterhin für die Gaza-Sperrzone, den nördlichen Teil des Westjordanlands und Gebiete nahe der libanesischen und syrischen Grenze. Siehe [FCDO-Reisehinweise für Israel](https://www.gov.uk/foreign-travel-advice/israel).
+- **US-Außenministerium:** Israel wird mit Stufe 2 — „Erhöhte Vorsicht geboten" — eingestuft, unterhalb der restriktiveren Stufen 3 und 4. Siehe [Israel-Seite des US-Außenministeriums](https://travel.state.gov/content/travel/en/international-travel/International-Travel-Country-Information-Pages/Israel.html).
+- **Europäische Agentur für Flugsicherheit (EASA):** Am 8. Juli 2026 stufte die EASA den israelischen Luftraum von einem Konfliktgebiet-Bulletin auf eine Informationsmitteilung herab — ein Zeichen für das gesunkene Luftfahrtrisiko auf den meisten Strecken.
+- **Kanada, Australien, Frankreich, Japan und weitere Regierungen** haben ihre Israel-Reisehinweise 2026 ebenfalls nach unten korrigiert.
+
+**Keine Regierung stuft Israel als risikolos ein.** Alle Regierungen raten weiterhin von Reisen in die Gaza-Grenzzone, in die Golanhöhen nahe der syrischen Grenze und in weite Teile des nördlichen Westjordanlands ab. Für aktuelle Informationen konsultieren Sie bitte direkt die offiziellen Reisehinweise Ihrer eigenen Regierung — nicht diesen Leitfaden.
 
 ## Regionale Hinweise
 
