@@ -1,13 +1,15 @@
 # LOOP STATE
 
-- iteration: 643
-- lastMode: BUILD
-- lastItem: advisory-freshness-643
-- lastResult: SHIPPED a1f08c3. Updated is-israel-safe.md (EN/FR/DE) with July 2026 advisory improvements: UK FCDO removed Israel from highest-risk "advise against all travel" category (June 2026); EASA reclassified Israeli airspace from Conflict Zone Bulletin to Information Note (July 8, 2026); US State Dept Level 2; Canada/Australia/Germany/France/Japan also downgraded. New "Current advisory status — July 2026" section added to all three locale editions; updatedAt bumped to 2026-07-20. Remaining restrictions (Gaza border, Golan Heights, northern West Bank) clearly noted with official source links. 795 pages unchanged; 1093/1093 e2e pass.
-- nextRotationCategory: 644%5==4 → REVIEW
+- iteration: 644
+- lastMode: REVIEW
+- lastItem: review-644-meta-fixes
+- lastResult: SHIPPED 1f92b0a. REVIEW pass iters 641-643. Found 2 meta description overruns from iter641-642 origin-market guides. Korean guide desc trimmed 167→157 chars; Argentine guide desc trimmed 177→154 chars. FR/DE is-israel-safe updates (iter643) reviewed clean. All internal links verified (jewish-genealogy-israel-trip, rav-kav-israel, bethlehem-travel-guide, via-dolorosa-guide all exist). 795 pages; 1093/1093 e2e pass. Prod deploy queued at push time.
+- nextRotationCategory: 645%5==0 → RESEARCH
 - higgsfieldSpent: 0
-- updatedAt: 2026-07-20T01:55Z
+- updatedAt: 2026-07-20T02:55Z
 - branch context: work on master; feature work on auto/<slug>
+
+Notes: iter644 REVIEW — review-644-meta-fixes. Audited iters 641-643. Key finding: Korean guide desc 167 chars and Argentine guide desc 177 chars both exceeded 160-char SEO limit (same class as iter639 defect). Trimmed both to ≤160 chars. FR/DE is-israel-safe.md advisory updates from iter643 reviewed clean (FCDO/EASA/US State Dept correctly cited, official links present, no access-guarantee language). All internal links in iter641-642 guides verified as existing routes. SHIPPED 1f92b0a. Prod deploy queued.
 
 Notes: iter643 BUILD (technical/seo-health) — advisory-freshness-643. Tools category empty (all SHIPPED or STALE DUPLICATE); fell through to technical per playbook fallthrough. SHIPPED a1f08c3. P2/S item from iter640 research — UK FCDO June 2026 removal of Israel from "advise against all travel"; EASA aviation risk downgrade July 8 2026; US Level 2. Updated EN+FR+DE editions of is-israel-safe.md with new advisory status section. CI queued at time of memory commit; consistent with prior success pattern.
 

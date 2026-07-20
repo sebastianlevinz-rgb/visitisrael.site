@@ -1115,3 +1115,6 @@ New guide /israel-for-korean-travelers — Israel travel guide for South Korean 
 
 ## iter643 · BUILD (technical/seo-health) · advisory-freshness-643 · a1f08c3
 Updated is-israel-safe.md (EN/FR/DE) with July 2026 advisory improvements. New "Current advisory status — July 2026" section added to all three locale editions: UK FCDO removed Israel from highest-risk "advise against all travel" (June 2026); EASA reclassified Israeli airspace from Conflict Zone Bulletin to Information Note (July 8, 2026); US State Dept Level 2; Canada/Australia/Germany/France/Japan also downgraded. Remaining restrictions clearly noted (Gaza border zone, Golan Heights, northern West Bank) with official source links (gov.uk/foreign-travel-advice/israel; travel.state.gov). updatedAt bumped to 2026-07-20 across EN+FR+DE. 795 pages; 1093/1093 e2e pass. [technical/seo-health]
+
+## iter644 · REVIEW · review-644-meta-fixes · 1f92b0a
+REVIEW pass on iters 641-643. Fixed 2 meta description overruns (Korean guide 167→157 chars; Argentine guide 177→154 chars — both exceeded 160-char SEO limit). Verified: FR/DE is-israel-safe advisory updates (iter643) clean, all internal links in iter641-642 guides resolve correctly. 795 pages; 1093/1093 e2e pass. [review]

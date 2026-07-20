@@ -10148,3 +10148,9 @@ These are orphaned from old iterations; their content may or may not have been m
 Committed a1f08c3 to master; pushed to origin. CI + Lighthouse workflows queued at push time — consistent with prior success pattern.
 
 **Next iteration**: 644 → REVIEW (644%5==4)
+
+## 2026-07-20T02:55Z · iter 644 · REVIEW · review-644-meta-fixes
+What: Audited iters 641-643 (israel-for-argentinian-travelers, israel-for-korean-travelers, is-israel-safe EN/FR/DE advisory update). Found 2 meta description overruns: Korean guide 167 chars and Argentine guide 177 chars both exceeded 160-char limit — same defect class caught in iter639. Trimmed both to ≤160 (Korean 167→157, Argentine 177→154). FR/DE is-israel-safe updates reviewed clean. All internal links verified (jewish-genealogy-israel-trip, rav-kav-israel, bethlehem-travel-guide, via-dolorosa-guide all exist as routes).
+Gate: pnpm check 0 errors; build 795 pages; 1093/1093 e2e+a11y pass.
+Ship: committed 1f92b0a to master; pushed to origin. Prod deploy queued.
+Next: iter 645 → RESEARCH (645%5==0).
