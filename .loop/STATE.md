@@ -1,13 +1,15 @@
 # LOOP STATE
 
-- iteration: 654
-- lastMode: REVIEW
-- lastItem: review-654-meta-fix
-- lastResult: SHIPPED 08ad8ee. REVIEW audit of iters 646-653 (south-african-travelers, ammunition-hill-jerusalem, yom-haatzmaut-guide, best-hotels-tel-aviv freshness, russian-speaking-travelers, tower-of-david). Found 1 bug: russian-speaking-travelers description 185 chars (limit 160) — same defect class as iter649. Fix: trimmed to 147 chars preserving all primary keywords. Cross-links verified: south-african ✓, ammunition-hill ✓ (jewish-heritage-israel + jerusalem-trail both have reciprocal links), yom-haatzmaut ✓ (traveling-israel-jewish-holidays cross-link present), russian-speaking ✓. All internal links verified (jerusalem/old-city→attraction slug confirmed, all guide links present). 799 pages; 1096/1096 e2e pass. CI in_progress at push time.
-- nextRotationCategory: 655%5==0 → RESEARCH
+- iteration: 655
+- lastMode: RESEARCH
+- lastItem: research-655-pass-133
+- lastResult: RESEARCH complete. 1 priority upgrade (gan-hashlosha-guide P3→P2 — ~500K+ annual INPA visitors, reservation required, competitor content saturation). 1 net-new BACKLOG item (eilat-hotels-guide freshness P2/S — Isrotel Princess reopening + Airport City ₪1B investment 5 new luxury resorts). Saturation ~95%. No code changes; gate not run. Memory files updated and pushed.
+- nextRotationCategory: 656%5==1 → BUILD (monetization)
 - higgsfieldSpent: 0
-- updatedAt: 2026-07-20T13:00Z
+- updatedAt: 2026-07-20T14:30Z
 - branch context: work on master; feature work on auto/<slug>
+
+Notes: iter655 RESEARCH — Confirmed Gan HaShlosha upgrade and Eilat hotels freshness gap. Both items documented in BACKLOG. Nationality guide market re-audit confirms all remaining guides already backlogged (Italian/French/Dutch/Australian/Canadian/Polish/Hungarian/Brazilian/NZ — all in BACKLOG). Next BUILD should pick highest-priority monetization item from BACKLOG.
 
 Notes: iter654 REVIEW — Found description overrun in russian-speaking-travelers (185→147 chars). Pattern: newly-added nationality guides shipped in BUILD iters 651/646 were not caught by iter649's meta-trim (that pass ran before iter651). REVIEW passes are essential for catching post-review BUILD defects.
 

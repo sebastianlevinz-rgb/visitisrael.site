@@ -10243,3 +10243,20 @@ What: Audited iters 646-653: israel-for-south-african-travelers, ammunition-hill
 Gate: pnpm check 0 errors; pnpm build 799 pages; pnpm test:e2e 1096/1096 PASS. GREEN.
 Ship: committed 08ad8ee to master, pushed. CI + Lighthouse in_progress at push time; prior pattern success.
 Next: iter655 → RESEARCH (655%5==0).
+
+## 2026-07-20T14:30Z · iter 655 · RESEARCH (pass #133) · research-655-pass-133
+Mode: RESEARCH (655%5==0). No code changed; gate not run.
+What: Competitor content audit focusing on natural-springs/spa segment gaps (Sachne/Gan HaShlosha, Eilat hotel landscape), nationality guide market completeness, and Israel 2026 accommodation developments.
+Queries run: Gan HaShlosha Sachne INPA visitor guide competitors; Eilat luxury hotel 2026 Princess Airport City; Israel nationality guides Italian French Dutch Australian gaps; Israel thermal springs guide gaps; Eilat resort reopening 2025-2026 news.
+Findings:
+  1. Priority upgrade: gan-hashlosha-guide P3→P2. Item confirmed in BACKLOG at P3 since iter280 research; new intelligence validates upgrade: ~500K+ annual INPA visitors (one of Israel's most-visited parks), reservation now required per parks.org.il (capacity capped post-COVID), touristisrael.com + laidbacktrip.com + israel.travel/sachne all have dedicated visitor guide content. This is a high-volume nature/INPA page being underweighted at P3.
+  2. Net-new item: eilat-hotels-guide freshness update (P2/S, technical). eilat-hotels-guide.md (SHIPPED iter241) does not mention Isrotel Princess Hotel reopening or the Airport City ₪1B luxury resort cluster (5 new hotels, ~1,100 upscale rooms). Pattern mirrors best-hotels-tel-aviv freshness update (SHIPPED iter652). High-intent hotel affiliate page is materially stale vs. 2026 competitor content. Added to BACKLOG.
+False leads closed this pass:
+  - Italian/French/Dutch/Australian nationality guides: all confirmed already in BACKLOG (verified again).
+  - israel-thermal-springs.md: SHIPPED (covers Hamat Gader + Tiberias + Ein Gedi); Sachne/Gan HaShlosha is a distinct freshwater-park entry in the same region (not a thermal spring — kept as separate BACKLOG item gan-hashlosha-guide).
+  - Herzliya guide: SHIPPED iter282.
+  - Israel National Trail guide: SHIPPED.
+  - Israel music festivals: SHIPPED.
+  - Red Sea Jazz Festival standalone: not worth a separate page (covered adequately within israel-music-festivals.md).
+Saturation: ~95%. 1 priority upgrade + 1 net-new item from thorough sweep. The site now has comprehensive coverage of mainstream Israel nature/wellness (Dead Sea, Hamat Gader, Masada, Ein Gedi, snorkeling, water hiking, national trail, cycling). Remaining natural-environment gaps are increasingly niche (canyoning, IBT, Sachne).
+Gate: N/A (research mode). Next: iter656 → BUILD (656%5==1; monetization rotation).

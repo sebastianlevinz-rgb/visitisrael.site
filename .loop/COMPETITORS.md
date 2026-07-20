@@ -5705,3 +5705,27 @@ Verified via Python substring scan: israel-for-french, israel-for-italian, israe
 Saturation: ~94–95%. 3 net-new BACKLOG items from a thorough sweep of ~30+ candidates. The main finding is that the Russian-speaking language community (vs. nationality) guide is a genuinely unserved niche — slavaguide.com is the closest competitor but it's a different language; no English-language editorial brand has this. The IBT standalone guide is a confirmed gap (cycling-in-israel's one-liner doesn't serve IBT planning queries). The best-hotels-tel-aviv freshness update is a high-priority monetization fix: the five 2025-2026 luxury openings are now documented by all major competitors but missing from our highest-converting hotel affiliate page.
 
 **Next iteration**: 651 → BUILD (651%5==1; monetization rotation)
+
+---
+
+### 2026-07-20 · iter 655 · RESEARCH pass #133
+
+**Focus:** Natural springs/spa segment (Gan HaShlosha/Sachne; Hamat Gader freshness check); Eilat luxury hotel landscape 2026; nationality guide market completeness re-audit
+
+**Gan HaShlosha / Sachne: priority upgrade P3→P2**
+The Gan HaShlosha (Sachne) BACKLOG item (iter280, P3/S) was re-evaluated this pass. New intelligence: ~500K+ annual INPA visitors (one of Israel's most-visited INPA parks year-round, not a seasonal site); parks.org.il now requires advance reservation for peak-season visits (capacity capped since COVID — heightening visitor planning need); touristisrael.com has a dedicated "Gan HaShlosha National Park" page in its top-attractions tier; laidbacktrip.com has a comprehensive standalone guide; tripadvisor.com Beit She'an Valley lists Sachne as the #1 attraction. The P3 assessment at iter280 (when the site had fewer 500+ competitor pages and more low-hanging fruit) no longer reflects actual SERP demand. Upgraded to P2/S. Implementation remains straightforward (INPA park, no editorial complexity).
+
+**Eilat hotels freshness: confirmed net-new BACKLOG item**
+eilat-hotels-guide.md (SHIPPED iter241) covers the Eilat hotel landscape as of its 2024 publication date. Research this pass identified two materially new developments not mentioned: (1) Isrotel Princess Hotel reopening — iconic Eilat flagship, confirmed by isrotel.com and Eilat tourism press; (2) Airport City ₪1B luxury resort investment — five new hotels adding ~1,100 upscale rooms; targeted at international leisure + bleisure markets; covered by travelandtourworld.com (2026 Eilat revival article) and nomadlawyer.org/eilat-revival-2026. COMPETITOR CONTEXT: both developments are already documented on competitor sites (nomadlawyer, travelandtourworld, and booking.com listings are live). Our Eilat hotel guide will be materially stale for users searching "Eilat hotels 2026" if not updated. Priority P2/S (high-intent hotel affiliate page, same pattern as iter652 best-hotels-tel-aviv SHIPPED fix). Added to BACKLOG.
+
+**Nationality guide saturation re-audit**
+Italian/French/Dutch/Australian traveler guides all confirmed in BACKLOG (not new). Russian-speaking travelers SHIPPED iter651. South African travelers SHIPPED iter646. The unshipped nationality guides remaining in BACKLOG are: Italian (P2/S), French (P2/S), Dutch (P3/S), Australian (P3/S), Canadian (P3/S), Polish (P3/S), Hungarian (P3/S), Brazilian (P3/S), New Zealand (P3/S). No new nationality guide gaps discovered this pass — the remaining gaps are already documented.
+
+**False leads closed permanently this pass**
+- Red Sea Jazz Festival standalone: Eilat's signature jazz event is covered adequately within israel-music-festivals.md (SHIPPED). Separate page would be thin (single annual event, limited info beyond dates/venue). Do not add to BACKLOG.
+- Sachne as "thermal spring" gap vs. israel-thermal-springs.md: Sachne is a freshwater warm-spring park (28°C constant), NOT a hot mineral spring. israel-thermal-springs.md (SHIPPED) correctly covers hot sulphur mineral baths (Hamat Gader, Tiberias, Ein Gedi). Sachne is its own BACKLOG item (gan-hashlosha-guide) and is distinct. No gap in thermal springs coverage.
+
+**Competitive landscape at pass #133**
+Saturation: ~95%. 1 priority upgrade + 1 net-new BACKLOG item. The site is reaching deep niche coverage — new gaps are increasingly specific (Eilat hotel freshness, Sachne, IBT, canyoning) rather than broad editorial topics. Future passes should continue focused audits of freshness on high-converting affiliate pages (hotels/tours) where competitor recency matters most for monetization.
+
+**Next iteration**: 656 → BUILD (656%5==1; monetization rotation)
