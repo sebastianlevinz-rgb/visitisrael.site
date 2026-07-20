@@ -10407,3 +10407,29 @@ Gate:
 Category rotation: tools section fully shipped; fell through to seo-content per playbook.
 Ship: commit 407077c pushed to master.
 Next: iter 664 = BUILD/technical (664%5==4 → REVIEW).
+
+## 2026-07-20T23:45Z · iter 664 · REVIEW · review-664-meta-test-fixes
+
+REVIEW audit of the 3 most recently shipped guides (iter661-663: israel-culinary-heritage-tourism, israel-for-swiss-travelers, via-ferrata-israel).
+
+Checks run:
+1. SEO meta lengths (title ≤60, desc ≤160)
+2. Internal link resolution (guides, region routing, attraction routing)
+3. Hero image existence (public/ directory)
+4. Affiliate CTAs — no fabricated ratings/reviews rendered (AffiliateCard doesn't render rating/reviews fields)
+5. Honesty — no AggregateRating, no exact prices, ranges only
+6. Smoke + a11y test coverage
+
+Defects found (5):
+  1. israel-culinary-heritage-tourism desc: 176 chars → 144 chars (trimmed)
+  2. via-ferrata-israel desc: 165 chars → 152 chars (trimmed)
+  3. israel-culinary-heritage-tourism missing from smoke.spec.ts (iter661 omitted it)
+  4. israel-culinary-heritage-tourism missing from a11y.spec.ts (iter661 omitted it)
+  5. israel-for-swiss-travelers missing from a11y.spec.ts (iter662 added to smoke but not a11y)
+
+Pattern confirmed: autonomous BUILD sessions routinely omit a11y coverage even when adding to smoke; periodic REVIEW passes catch these. Also consistent with iter649/654 meta-overrun pattern.
+
+All 5 fixes applied end-to-end on branch auto/review-664-meta-test-fixes.
+Gate: pnpm check 0 errors; build 804 pages; 1104/1104 e2e pass (+3 new tests) ✓
+Ship: squash-merged to master 7add2a4, pushed. CI in_progress at push.
+Next: iter 665 = RESEARCH (665%5==0 → competitor discovery).
