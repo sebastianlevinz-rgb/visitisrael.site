@@ -629,6 +629,7 @@ const ROUTES = [
   '/israel-water-parks',
   '/israel-military-heritage',
   '/via-ferrata-israel',
+  '/israel-culinary-heritage-tourism',
 ];
 
 for (const route of ROUTES) {

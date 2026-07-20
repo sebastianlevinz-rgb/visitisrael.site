@@ -1,6 +1,6 @@
 ---
 title: 'Via Ferrata in Israel: Ramim Cliff & Ravid Guide (2026)'
-description: "Israel's two via ferrata routes compared — Ramim Cliff in Upper Galilee and Via Ferrata Ravid above the Sea of Galilee. Difficulty, views, booking and what to bring."
+description: "Israel's two via ferrata routes: Ramim Cliff (Upper Galilee, Level B/C) vs Via Ferrata Ravid (Sea of Galilee, Level C). Booking, kit and seasonal guide."
 heroImage: /images/regions/galilee/hero.jpg
 category: Adventure
 updatedAt: 2026-07-20

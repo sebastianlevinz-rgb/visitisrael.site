@@ -1,6 +1,6 @@
 ---
 title: 'Israeli Culinary Heritage Tourism: Food Culture Guide (2026)'
-description: 'Why Israeli food is one of the world''s most extraordinary culinary stories — 70 diaspora traditions on one plate, from Yemenite jachnun to Iraqi kubbeh to Persian saffron rice.'
+description: 'Israel''s culinary story: 70 diaspora traditions on one plate — Yemenite jachnun, Iraqi kubbeh, Moroccan couscous, Persian saffron rice and more.'
 heroImage: /images/regions/jerusalem/mahane-yehuda.jpg
 category: Food & Culture
 updatedAt: 2026-07-20

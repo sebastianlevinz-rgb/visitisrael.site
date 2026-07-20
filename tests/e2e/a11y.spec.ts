@@ -370,6 +370,8 @@ const ROUTES = [
   '/tel-aviv-pride-guide',
   '/soreq-cave-guide',
   '/via-ferrata-israel',
+  '/israel-for-swiss-travelers',
+  '/israel-culinary-heritage-tourism',
 ];
 
 for (const route of ROUTES) {
