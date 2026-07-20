@@ -1,9 +1,9 @@
 ---
-title: 'Tower of David Museum Jerusalem: Visitor Guide (2026)'
+title: 'Tower of David Museum Jerusalem: Visitor Guide (2026–2027)'
 description: "Tower of David Museum in Jerusalem — what the citadel holds, rooftop views, the Night Spectacular, and how to work it into an Old City visit."
 heroImage: /images/sub-destinations/jerusalem/tower-of-david.jpg
 category: Sacred Sites
-updatedAt: 2026-07-01
+updatedAt: 2026-07-20
 verdictName: 'a Tower of David visit (museum or Night Spectacular)'
 verdictQuery: 'Tower of David Jerusalem guided tour'
 ctaHeading: 'Book your Tower of David experience'
@@ -41,11 +41,15 @@ faqs:
     answer: "No. The Tower of David Museum is managed independently and is not part of the Israel Nature and Parks Authority network. The INPA Annual Pass does not apply here. Tickets must be purchased directly at tod.org.il or through a licensed tour operator."
   - question: Do I need to book Tower of David tickets in advance?
     answer: "For the Night Spectacular during peak season (June–September) and around Jewish holidays, advance booking is strongly recommended — the show sells out weeks ahead. For the daytime museum, walk-in tickets are usually available outside peak periods, but booking online saves queue time and occasionally offers a discount. Combined museum+Night Spectacular packages are most popular and sell out fastest."
+  - question: What is the 'Eyes on the Wall' exhibition opening in 2027?
+    answer: "The Tower of David Museum is opening a major exhibition called 'Eyes on the Wall' in April 2027, marking 60 years since the reunification of Jerusalem in June 1967. Curated by art historian Shimon Lev, the exhibition will be the first large-scale museum display dedicated entirely to the history of the Western Wall, spanning roughly 2,000 years through photographs, archival documents, films, and personal artefacts. It will run inside the Tower of David's own archaeological site alongside the existing citadel exhibits. Check tod.org.il for confirmed opening dates and ticket details as they are announced."
 ---
 
 The Ottoman citadel beside Jaffa Gate is one of the first things visitors encounter in Jerusalem — and one of the most reliably under-estimated. Most people pass it on the way into the Old City. The ones who stop discover one of the city's best museums, a rooftop view that puts the entire Old City in perspective, and an evening show that has been described by more than one visitor as the best hour they spent in Israel.
 
 This guide covers the daytime museum, the Night Spectacular, and how to fit the Tower of David into a Jerusalem itinerary.
+
+> **Coming April 2027 — "Eyes on the Wall" exhibition:** The Tower of David Museum is launching a major new exhibition marking 60 years since the reunification of Jerusalem (June 1967). *Eyes on the Wall* — curated by art historian Shimon Lev — will be the first large-scale museum exhibition dedicated entirely to the history of the Western Wall, covering approximately 2,000 years through photographs, archival documents, films, and personal artefacts. It will run inside the citadel alongside the existing exhibits. Confirmed by the Tower of David Museum (tod.org.il); ticket details and exact opening date not yet published. Check [tod.org.il](https://tod.org.il) for updates.
 
 ---
 
@@ -161,4 +165,4 @@ The INPA Annual Pass does not apply — the Tower of David Museum is independent
 
 ---
 
-**Cross-links:** [Jerusalem](/jerusalem) · [Jerusalem Old City Walking Tour](/jerusalem-old-city-walking-tour) · [1-Day Jerusalem Itinerary](/1-day-jerusalem-itinerary) · [Israel Evening Activities](/israel-evening-activities) · [Western Wall Tunnels Guide](/western-wall-tunnels-guide) · [Jewish Heritage in Israel](/jewish-heritage-israel) · [Christian Pilgrimage Holy Land](/christian-pilgrimage-holy-land) · [Israel Museum Jerusalem](/israel-museum-jerusalem) · [Free Things to Do in Israel](/free-things-to-do-israel)
+**Cross-links:** [Jerusalem](/jerusalem) · [Jerusalem Old City Walking Tour](/jerusalem-old-city-walking-tour) · [1-Day Jerusalem Itinerary](/1-day-jerusalem-itinerary) · [Israel Evening Activities](/israel-evening-activities) · [Western Wall Tunnels Guide](/western-wall-tunnels-guide) · [Jewish Heritage in Israel](/jewish-heritage-israel) · [Christian Pilgrimage Holy Land](/christian-pilgrimage-holy-land) · [Israel Museum Jerusalem](/israel-museum-jerusalem) · [Free Things to Do in Israel](/free-things-to-do-israel) · [Yad Vashem Visitor Guide](/yad-vashem-visitor-guide)

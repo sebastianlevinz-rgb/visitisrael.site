@@ -163,3 +163,4 @@ External tour operators running Jerusalem private or group tours sometimes inclu
 - [Jewish heritage travel guide](/jewish-heritage-israel) — broader Jewish history and culture across Israel
 - [Holy sites dress code & etiquette](/holy-sites-dress-code-etiquette) — what to wear at sacred and memorial sites
 - [Jerusalem tours compared](/jerusalem-tours-compared) — guided options across the city
+- [Tower of David Museum](/tower-of-david-guide) — Jerusalem's citadel museum and Night Spectacular; new "Eyes on the Wall" exhibition opening April 2027
