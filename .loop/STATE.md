@@ -1,12 +1,12 @@
 # LOOP STATE
 
-- iteration: 658
-- lastMode: BUILD (technical fallthrough from tools — no standalone tools items)
-- lastItem: eilat-hotels-freshness
-- lastResult: SHIPPED 9c49838. Freshness update to eilat-hotels-guide.md — added 2025-2026 new luxury openings section: Isrotel Princess renovation/reopening + Airport City ₪1B resort cluster (~5 hotels, ~1,100 upscale rooms); new Booking.com CTA for 2026 luxury openings; new FAQ "What new hotels opened in Eilat 2025-2026?"; decision matrix row for Airport City; updatedAt 2026-07-20; desc 149 chars. Honest framing throughout. 801 pages (no new page — update only); 1098/1098 e2e pass. CI in_progress at push time.
-- nextRotationCategory: 659%5==4 → REVIEW
+- iteration: 659
+- lastMode: REVIEW
+- lastItem: review-659-content-audit
+- lastResult: CLEAN. Audited iters 656-658 (israel-water-parks, israel-military-heritage, eilat-hotels-freshness). All checks pass: titles ≤65 chars (46/52/57), descs ≤160 chars (148/133/149), all internal cross-links resolve, price ranges only with verify-caveats, footer links present, sitemap lastmod 2026-07-20, parent guide cross-links confirmed. pnpm check 0 errors, build 801 pages, 1098/1098 e2e pass. No defects found — no fix shipped.
+- nextRotationCategory: 660%5==0 → RESEARCH
 - higgsfieldSpent: 0
-- updatedAt: 2026-07-20T16:50Z
+- updatedAt: 2026-07-20T18:45Z
 - branch context: work on master; feature work on auto/<slug>
 
 Notes: iter657 BUILD (seo-content) — israel-military-heritage. SHIPPED 0902787. New /israel-military-heritage — Israel military heritage sites guide. Latrun Armored Corps Museum (free; Route 1; captured Egyptian/Syrian tanks), Palmach Museum TLV (advance booking; cinematic 1948 walk-through), IDF History Museum Ramat HaGan (free), Ammunition Hill Jerusalem (cross-linked to /ammunition-hill-jerusalem), IAF Museum Hatzerim (pre-registration; 150+ aircraft incl captured MiGs), Kibbutz Yad Mordechai (1948 battle + Warsaw Ghetto Uprising). 3 CTAs (GYG heritage tours, DiscoverCars, Booking.com). 7 FAQs. Cross-links: Footer.astro + jewish-heritage-israel.md. 801 pages; 1098/1098 e2e pass. Broken link fix: /israel-car-rental-guide → /car-rental-israel.
