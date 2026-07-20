@@ -1,6 +1,6 @@
 ---
 title: 'Israel Travel Guide for Argentine Visitors (2026)'
-description: 'Israel travel guide for Argentine tourists: ETA-IL entry requirements, El Al direct Buenos Aires–Tel Aviv flight, Jewish heritage travel, Catholic pilgrimage and practical tips.'
+description: 'Israel travel guide for Argentine tourists: ETA-IL, El Al direct Buenos Aires to Tel Aviv, Jewish heritage travel, Catholic pilgrimage and practical tips.'
 heroImage: /images/regions/jerusalem/hero.jpg
 category: Planning
 updatedAt: 2026-07-19

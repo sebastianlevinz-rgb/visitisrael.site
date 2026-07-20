@@ -1,6 +1,6 @@
 ---
 title: 'Israel Travel Guide for Korean Visitors (2027)'
-description: 'Israel travel guide for Korean tourists: ETA-IL entry, El Al direct Seoul–Tel Aviv flight from March 2027, Christian pilgrimage, flights, insurance and practical tips.'
+description: 'Israel travel guide for Korean tourists: ETA-IL, El Al direct Seoul to Tel Aviv from March 2027, Christian pilgrimage, flights, insurance and practical tips.'
 heroImage: /images/regions/galilee/hero.jpg
 category: Planning
 updatedAt: 2026-07-20
