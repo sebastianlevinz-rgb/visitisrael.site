@@ -10355,3 +10355,28 @@ Gate:
 Git note: feature branch auto/culinary-heritage-hub had no commits (changes in working tree); committed directly to master after gate passed.
 Ship: commit bd8b0e9 pushed to master. Vercel auto-deploy triggered.
 Next: iter 662 = BUILD/seo-content (662%5==2).
+
+## 2026-07-20T21:55Z · iter 662 · BUILD/seo-content · israel-for-swiss-travelers
+
+Item: [P3] Israel for Swiss travelers (/israel-for-swiss-travelers) — seo-content S. Highest-priority ready seo-content item from the 6 nationality guides added in iter660 research.
+
+Implementation:
+  NEW: src/content/guides/israel-for-swiss-travelers.md — ~2,800-word nationality guide
+    EDA/FDFA advisory (eda.admin.ch); ITINERIS registration; SWISS ZRH-TLV daily (~4h); El Al also direct.
+    Type J (SEV 1011) → Type H adapter hook — the unique Swiss angle vs other European guides.
+    OKP/Grundversicherung gap (not valid outside CH/EU/EEA); Reiseversicherung recommendation.
+    Twint non-compatible; PostFinance PostCard non-compatible; UBS/Raiffeisen/ZKB Visa/Mastercard work.
+    6 FAQs (visa/ETA-IL, EDA advisory, Grundversicherung, Type J adapter, Twint, flight time).
+    3 affiliate CTAs: Booking.com, GYG Jerusalem day tour, SafetyWing.
+    ICRC/Geneva historical connection section; Embassy contacts.
+  MODIFIED: src/content/guides/first-time-in-israel.md — added Swiss visitors cross-link
+  MODIFIED: tests/e2e/smoke.spec.ts — added /israel-for-swiss-travelers to smoke list (+1 → 1099 tests)
+
+Gate:
+  pnpm check: 0 errors (130 files) ✓
+  pnpm build: 803 pages (+1 from 802) ✓
+  pnpm test:e2e: 1099/1099 PASS (7.1m) ✓
+  Fix applied: removed broken link to /israel-for-austrian-travelers (not yet shipped); replaced with /israel-for-indian-travelers.
+
+Ship: commit 77cad87 pushed to master. CI in_progress at push — consistent with prior pattern.
+Next: iter 663 = BUILD/tools (663%5==3).
