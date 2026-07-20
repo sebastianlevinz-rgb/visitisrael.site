@@ -1,6 +1,6 @@
 ---
 title: 'Israel Travel Guide for Russian-Speaking Visitors (2026)'
-description: 'Israel guide for Russian-speaking travelers from Ukraine, Kazakhstan, Georgia, Armenia and the FSU: ETA-IL, flights via Istanbul and Dubai, Russian language support and Jewish heritage.'
+description: 'Israel guide for Russian-speaking travelers: ETA-IL, flights via Istanbul and Dubai, Russian spoken widely, Jewish heritage and FSU community hubs.'
 heroImage: /images/regions/jerusalem/hero.jpg
 category: Planning
 updatedAt: 2026-07-20
