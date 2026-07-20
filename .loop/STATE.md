@@ -1,12 +1,12 @@
 # LOOP STATE
 
-- iteration: 662
+- iteration: 663
 - lastMode: BUILD
-- lastItem: israel-for-swiss-travelers
-- lastResult: SHIPPED 77cad87. New /israel-for-swiss-travelers — Swiss travelers guide (~2,800w; EDA/FDFA advisory, ETA-IL, SWISS ZRH-TLV daily flight, Type J→H adapter hook, OKP/Grundversicherung gap, Twint non-compatibility, ITINERIS registration, Swiss Embassy contacts; 6 FAQs, 3 CTAs). Build: 803 pages (+1 from 802). Gate: check 0 errors; 1099/1099 e2e pass. Cross-link added to first-time-in-israel.md; smoke test added.
-- nextRotationCategory: 663%5==3 → BUILD/tools
+- lastItem: via-ferrata-israel
+- lastResult: SHIPPED 407077c. New /via-ferrata-israel — via ferrata Israel guide (~1,300w; Ramim Cliff B/C + Via Ferrata Ravid C; head-to-head table; booking tips; seasonal guide; GYG + DiscoverCars CTAs). Tools section fully shipped → fell through to seo-content. Build: 804 pages (+1 from 803). Gate: check 0 errors; 1101/1101 e2e pass. Cross-link added to israel-adventure-sports.md.
+- nextRotationCategory: 664%5==4 → REVIEW
 - higgsfieldSpent: 0
-- updatedAt: 2026-07-20T21:55Z
+- updatedAt: 2026-07-20T22:45Z
 - branch context: work on master; feature work on auto/<slug>
 
 Notes: iter657 BUILD (seo-content) — israel-military-heritage. SHIPPED 0902787. New /israel-military-heritage — Israel military heritage sites guide. Latrun Armored Corps Museum (free; Route 1; captured Egyptian/Syrian tanks), Palmach Museum TLV (advance booking; cinematic 1948 walk-through), IDF History Museum Ramat HaGan (free), Ammunition Hill Jerusalem (cross-linked to /ammunition-hill-jerusalem), IAF Museum Hatzerim (pre-registration; 150+ aircraft incl captured MiGs), Kibbutz Yad Mordechai (1948 battle + Warsaw Ghetto Uprising). 3 CTAs (GYG heritage tours, DiscoverCars, Booking.com). 7 FAQs. Cross-links: Footer.astro + jewish-heritage-israel.md. 801 pages; 1098/1098 e2e pass. Broken link fix: /israel-car-rental-guide → /car-rental-israel.

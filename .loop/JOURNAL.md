@@ -10380,3 +10380,30 @@ Gate:
 
 Ship: commit 77cad87 pushed to master. CI in_progress at push — consistent with prior pattern.
 Next: iter 663 = BUILD/tools (663%5==3).
+
+## 2026-07-20T22:43Z · iter 663 · BUILD (tools→seo-content fallthrough) · via-ferrata-israel
+
+What:
+  CREATED: src/content/guides/via-ferrata-israel.md — new /via-ferrata-israel
+    ~1,300-word guide covering Israel's two via ferrata routes:
+    1. Ramim Cliff, Kibbutz Menara (Upper Galilee) — Level B/C, 1.2km loop, 2–3hrs,
+       Hula Valley + Lebanon views; Ashdot Extreme operator; zip-line descent; min age 12.
+    2. Via Ferrata Ravid, Kibbutz Ravid (Lower Galilee) — Level C, ~900m linear, 3–4hrs,
+       Sea of Galilee + Golan views; suspension bridges + multi zip; min age 14.
+    Head-to-head comparison table; booking tips; what to bring; seasonal guidance;
+    note on Israeli operator grading (not UIAA scale).
+    2 CTAs: GYG Galilee adventure tours + DiscoverCars.
+    Confirmed gap: no English-language standalone via ferrata Israel guide existed.
+  MODIFIED: src/content/guides/israel-adventure-sports.md — new via ferrata section
+    (pre-zip-lining), planning table row added (Galilee / Oct–Apr / Moderate).
+  MODIFIED: tests/e2e/smoke.spec.ts — added /via-ferrata-israel (+1 → 1101 tests)
+  MODIFIED: tests/e2e/a11y.spec.ts — added /via-ferrata-israel
+
+Gate:
+  pnpm check: 0 errors (130 files) ✓
+  pnpm build: 804 pages (+1 from 803) ✓
+  pnpm test:e2e: 1101/1101 PASS (8.0m) ✓
+
+Category rotation: tools section fully shipped; fell through to seo-content per playbook.
+Ship: commit 407077c pushed to master.
+Next: iter 664 = BUILD/technical (664%5==4 → REVIEW).
