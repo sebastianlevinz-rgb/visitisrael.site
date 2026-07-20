@@ -623,6 +623,7 @@ const ROUTES = [
   '/jerusalem-light-rail-guide',
   '/israel-for-filipino-travelers',
   '/ammunition-hill-jerusalem',
+  '/yom-haatzmaut-guide',
 ];
 
 for (const route of ROUTES) {

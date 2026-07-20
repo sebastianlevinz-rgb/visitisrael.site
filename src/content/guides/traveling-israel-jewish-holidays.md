@@ -97,6 +97,31 @@ For a full planning guide — hotel program tiers, tourist Seder options, Birkat
 
 ---
 
+## Yom HaZikaron & Yom Ha'atzmaut — Spring
+
+**What they are**: Yom HaZikaron (Memorial Day for fallen soldiers and terror victims) and Yom Ha'atzmaut (Independence Day) are observed back to back — Yom HaZikaron ends at nightfall and Independence Day begins within minutes. The 48-hour arc from collective national grief to nationwide celebration is one of the most distinctive experiences in the Israeli calendar.
+
+**When**: Yom HaZikaron begins on the eve of April 29, 2027; Yom Ha'atzmaut follows from the evening of April 29 through April 30, 2027.
+
+**Impact on visitors**:
+
+- **Ben Gurion Airport** closes for approximately 25 hours over Yom HaZikaron — do not book flights during the closure window. Check the Israel Airports Authority website for the exact window each year.
+- **Entertainment and nightlife** close in Jewish Israeli cities on Yom HaZikaron eve and day.
+- **The sirens**: two two-minute sirens mark Yom HaZikaron — at 8:00pm on the eve and 11:00am on the day. All traffic stops; drivers exit their vehicles. Visitors standing still during the siren is a mark of respect Israelis notice.
+- **Independence Day**: from nightfall on Yom Ha'atzmaut eve, Israel celebrates with fireworks, street parties (Tel Aviv's Yarkon Park), and the Tel Aviv seafront air show on Independence Day afternoon.
+
+**What to look forward to**:
+
+- **The Har Herzl transition ceremony**: the national ceremony where the flag is raised from half-mast to full-mast marks the precise moment Israel shifts from mourning to celebration — one of the most emotionally charged public events in the country.
+- **Independence Day air show**: Israeli Air Force jets fly over the Tel Aviv seafront in formation on Independence Day afternoon. Watching from the beach promenade is free and draws enormous crowds.
+- **BBQ culture**: Israeli families take mangal (charcoal grills) to Yarkon Park and parks across the country on Independence Day; the parks fill with the smell of grilling from morning.
+
+**Booking advice**: Tel Aviv accommodation during Independence Day week books fast and prices are elevated. Book two to three months ahead.
+
+For the full guide — siren etiquette, airport closure dates, Har Herzl ceremony tickets, air show viewing tips, and the Nakba Day context — see the [Yom HaZikaron & Yom Ha'atzmaut visitor guide](/yom-haatzmaut-guide).
+
+---
+
 ## Rosh Hashanah (Jewish New Year) — Autumn
 
 **What it is**: The Jewish New Year — two days of solemn synagogue services, shofar (ram's horn) blowing, and family meals featuring symbolic foods (apples and honey, pomegranate, round challah). The first day of the biblical Ten Days of Awe, leading to Yom Kippur.
@@ -235,6 +260,7 @@ For a full planning guide covering dates, the Western Wall Birkat Kohanim, Chol 
 
 ## Related guides
 
+- [Yom HaZikaron & Yom Ha'atzmaut Guide](/yom-haatzmaut-guide) — sirens, air show, transition ceremony, and airport closure dates
 - [Shabbat in Israel: A Practical Guide](/shabbat-guide) — the weekly rest day that echoes the holiday pattern
 - [What's Open on Shabbat](/whats-open-on-shabbat) — city-by-city breakdown including Jewish holidays
 - [Israel Events & Festivals Calendar](/israel-events-festivals) — full month-by-month calendar with dates
