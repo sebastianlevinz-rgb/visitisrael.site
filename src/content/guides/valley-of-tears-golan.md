@@ -1,6 +1,6 @@
 ---
 title: "Valley of Tears: Yom Kippur War Memorial & Golan Heights Guide"
-description: "Visit Emek HaBacha — the Valley of Tears — where Israel's tank crews stopped 1,500 Syrian tanks in 1973. Outdoor tank museum, Mount Bental, and practical visit guide."
+description: "Visit Emek HaBacha (Valley of Tears) — where Israel's tank crews stopped 1,500 Syrian tanks in 1973. Tank museum, Mount Bental and practical visit guide."
 heroImage: "/images/regions/golan/mount-bental.jpg"
 category: "golan"
 updatedAt: 2026-07-14

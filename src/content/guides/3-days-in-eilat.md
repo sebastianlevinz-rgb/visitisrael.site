@@ -1,6 +1,6 @@
 ---
 title: '3 Days in Eilat: The Perfect Red Sea Long Weekend (2026)'
-description: 'Three days in Eilat: snorkel Coral Beach, do a Petra day trip, swim with dolphins at Dolphin Reef, and explore Timna Park — with hotels, transport and heat tips.'
+description: 'Three days in Eilat: snorkel Coral Beach, Petra day trip, swim with dolphins and explore Timna Park — hotels, transport and heat tips.'
 heroImage: /images/regions/eilat/hero.jpg
 category: Itineraries
 updatedAt: 2026-07-10

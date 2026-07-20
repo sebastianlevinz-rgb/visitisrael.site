@@ -1,6 +1,6 @@
 ---
 title: 'How to Extend Your Tourist Visa in Israel (2026 Guide)'
-description: 'Need more than 90 days in Israel? This guide covers tourist visa extensions at the Population Authority, timing, costs, eligibility and your options for a longer stay.'
+description: 'Need more than 90 days in Israel? Covers tourist visa extensions at the Population Authority, timing, costs, eligibility and longer-stay options.'
 heroImage: /images/regions/tel-aviv/hero.jpg
 category: Planning
 updatedAt: 2026-07-11

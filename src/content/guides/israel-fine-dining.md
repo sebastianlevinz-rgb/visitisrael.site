@@ -1,6 +1,6 @@
 ---
 title: 'Fine Dining in Israel: Michelin Stars & Top Restaurants Guide'
-description: 'Your guide to fine dining in Israel — Michelin-starred Shmoné, La Liste favourites OCD TLV and Pastel, and how to book a table at the top restaurants in Jerusalem and Tel Aviv.'
+description: 'Your guide to fine dining in Israel — Michelin-starred Shmoné, La Liste favourites OCD TLV and Pastel, and top restaurants in Jerusalem and Tel Aviv.'
 heroImage: /images/regions/tel-aviv/carmel-market.jpg
 category: Food
 updatedAt: 2026-07-12

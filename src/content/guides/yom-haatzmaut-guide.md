@@ -1,5 +1,5 @@
 ---
-title: 'Yom HaZikaron & Yom Ha''atzmaut 2027: A Visitor''s Guide to Israel''s Most Emotional 48 Hours'
+title: 'Yom HaZikaron & Yom Ha''atzmaut 2027: Israel Visitor Guide'
 description: 'Experience Israel''s Memorial Day and Independence Day 2027 — the sirens, the silence on highways, the transition ceremony, fireworks, and BBQ parks.'
 heroImage: /images/regions/jerusalem/western-wall.jpg
 category: Planning

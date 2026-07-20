@@ -1,6 +1,6 @@
 ---
 title: 'Palmahim Beach National Park: Complete Visitor Guide'
-description: 'Palmahim Beach guide: INPA coastal park 30 km south of Tel Aviv, sand dunes, sea turtle nesting, supervised swimming, camping. How to get there, entry fees, practical tips.'
+description: 'Palmahim Beach: INPA coastal park 30 km south of Tel Aviv, sand dunes, sea turtle nesting, supervised swimming, camping — entry fees and practical tips.'
 heroImage: /images/regions/tel-aviv/beaches.jpg
 category: Nature
 updatedAt: 2026-07-14

@@ -1,5 +1,5 @@
 ---
-title: "Six Senses Shaharut & Luxury Arava Desert: Israel's Premier Wilderness Retreat"
+title: "Six Senses Shaharut: Luxury Arava Desert Wilderness Retreat"
 description: "Six Senses Shaharut: Israel's MICHELIN-listed luxury desert retreat in the Arava Valley. Desert architecture, wellness spa, and stargazing 45 km from Eilat."
 heroImage: /images/regions/negev/hero.jpg
 category: Accommodation

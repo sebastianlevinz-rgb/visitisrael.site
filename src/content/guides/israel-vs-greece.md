@@ -1,5 +1,5 @@
 ---
-title: 'Israel vs Greece: Which Mediterranean Destination to Choose (2027)'
+title: 'Israel vs Greece: Which Mediterranean Destination? (2027)'
 description: 'Israel vs Greece compared across history, beaches, food, costs, safety and visas — find out which Mediterranean destination best suits your next trip.'
 heroImage: /images/regions/jerusalem/hero.jpg
 category: Compare

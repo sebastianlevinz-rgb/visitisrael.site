@@ -1,6 +1,6 @@
 ---
 title: 'Ammunition Hill Jerusalem: Six-Day War Battlefield Guide (2026)'
-description: 'Visit Ammunition Hill (Givat HaTachmoshet) in Jerusalem — the preserved 1967 Six-Day War battle site with original trenches, Paratroopers'' Museum and free entry. Hours, tips and how to get there.'
+description: 'Visit Ammunition Hill (Givat HaTachmoshet) in Jerusalem — preserved 1967 trenches, Paratroopers'' Museum, free entry. Hours, transport and visit tips.'
 heroImage: /images/regions/jerusalem/hero.jpg
 category: Jerusalem
 updatedAt: 2026-07-20

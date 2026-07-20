@@ -1,6 +1,6 @@
 ---
 title: "Makhtesh HaGadol & HaKatan: The Two Other Negev Craters"
-description: "Complete guide to Makhtesh HaGadol (Big Crater) and Makhtesh HaKatan (Small Crater) near Yeruham and Dimona — Israel's two lesser-known but spectacular erosion craters."
+description: "Guide to Makhtesh HaGadol and Makhtesh HaKatan near Yeruham and Dimona — Israel's two lesser-known but spectacular erosion craters."
 heroImage: "/images/regions/negev/desert.jpg"
 category: "negev"
 updatedAt: 2026-07-15

@@ -1,6 +1,6 @@
 ---
 title: 'Israel Travel Guide for German Visitors (2026)'
-description: 'Israel travel guide for German tourists: Auswärtiges Amt advisory, ETA-IL, Lufthansa flights, Schuko adapter, GKV insurance gap, banking tips and embassy contacts.'
+description: 'Israel for German tourists: Auswärtiges Amt advisory, ETA-IL, Lufthansa flights, Schuko adapter, GKV insurance gap, banking and embassy tips.'
 heroImage: /images/regions/jerusalem/hero.jpg
 category: Planning
 updatedAt: 2026-07-10

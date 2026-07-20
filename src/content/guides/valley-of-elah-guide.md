@@ -1,5 +1,5 @@
 ---
-title: "Valley of Elah: David & Goliath's Biblical Landscape Visitor Guide"
+title: "Valley of Elah: David & Goliath's Biblical Landscape Guide"
 description: "Valley of Elah visitor guide: David and Goliath's biblical landscape — Elah Stream, ancient Gath and Khirbet Qeiyafa. Half-day from Jerusalem."
 heroImage: /images/regions/jerusalem/hero.jpg
 category: History

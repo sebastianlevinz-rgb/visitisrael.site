@@ -1,6 +1,6 @@
 ---
 title: '3 Days in Haifa: The Perfect Long Weekend Itinerary (2026)'
-description: "Three days in Haifa: UNESCO Bahá'í Terraces, Wadi Nisnas Arab-Christian quarter, Carmel Druze villages and Stella Maris — with transport, hotel and Shabbat tips."
+description: "Three days in Haifa: Bahá'í Terraces, Wadi Nisnas, Carmel Druze villages and Stella Maris — with transport, hotel and Shabbat tips."
 heroImage: /images/regions/haifa/hero.jpg
 category: Itineraries
 updatedAt: 2026-07-10

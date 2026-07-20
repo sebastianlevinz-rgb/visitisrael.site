@@ -1,5 +1,5 @@
 ---
-title: "Jesus Trail: Complete Hiker's Guide to the Galilee Pilgrimage Route"
+title: "Jesus Trail: Hiker's Guide to the Galilee Pilgrimage Route"
 description: 'Jesus Trail guide: 65 km Nazareth to Capernaum, 4 stages, trail angels, accommodation, self-guided vs guided options, and key spiritual sites en route.'
 heroImage: /images/regions/galilee/hero.jpg
 category: Outdoors

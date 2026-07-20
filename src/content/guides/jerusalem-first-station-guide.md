@@ -1,5 +1,5 @@
 ---
-title: "Jerusalem First Station (HaTachana HaRishona) Complete Guide (2026)"
+title: "Jerusalem First Station HaTachana HaRishona Guide (2026)"
 description: "Visit Jerusalem's 1892 Ottoman railway terminus — HaTachana HaRishona. Artisan market, restaurants, concerts and the northern trailhead of the 7km Mesila trail."
 heroImage: /images/regions/jerusalem/hero.jpg
 category: Destinations
