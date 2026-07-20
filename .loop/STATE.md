@@ -1,13 +1,15 @@
 # LOOP STATE
 
-- iteration: 646
+- iteration: 647
 - lastMode: BUILD
-- lastItem: israel-for-south-african-travelers
-- lastResult: SHIPPED c07b5f7. New /israel-for-south-african-travelers guide (P2/S, seo-content+monetization). SA ~70K Jewish diaspora + evangelical/Anglican Christian pilgrim market. ETA-IL + El Al JNB→TLV direct + Emirates/Ethiopian connection table + Jewish heritage circuit (Yad Vashem, Western Wall, Jewish Quarter) + Christian pilgrimage circuit (Via Dolorosa, Holy Sepulchre, Yardenit, Nativity) + medical aid gap (Discovery/Momentum not valid abroad) + ZAR not exchangeable + Type M→H adapter + diplomatic context (no SA embassy in Israel since 2018). GYG + Booking.com + SafetyWing CTAs. Cross-link in first-time-in-israel.md. 796 pages; 1093/1093 e2e pass.
-- nextRotationCategory: 647%5==2 → BUILD/seo-content
+- lastItem: ammunition-hill-jerusalem
+- lastResult: SHIPPED eb01ed3. New /ammunition-hill-jerusalem guide (P2/S, seo-content). Ammunition Hill (Givat HaTachmoshet) — preserved 1967 Six-Day War trench battlefield, northern Jerusalem. TRIPLE-ZERO GAP (iter550 research). Trench system walkthrough (11 sections: breach point, comms trench, MG nests, command post bunker, ammo store, observation post), Paratroopers' Museum, memorial park. Practical: Eshkol Blvd Ramat Eshkol; Blue Line light rail (Ammunition Hill station); Sun–Thu 8–18 Fri 8–14; fully accessible; 1.5–2h. GYG + Booking CTAs. Cross-links in jewish-heritage-israel.md + jerusalem-trail.md; Footer link; smoke route added. 797 pages; 1094/1094 e2e pass.
+- nextRotationCategory: 648%5==3 → BUILD/tools
 - higgsfieldSpent: 0
-- updatedAt: 2026-07-20T04:50Z
+- updatedAt: 2026-07-20T06:00Z
 - branch context: work on master; feature work on auto/<slug>
+
+Notes: iter647 BUILD (seo-content) — ammunition-hill-jerusalem. SHIPPED eb01ed3. P2/S TRIPLE-ZERO GAP (iter550 research July 15 2026). Ammunition Hill / Givat HaTachmoshet — the most intense single battle of the 1967 Six-Day War (36 Israeli paratroopers + 182 Jordanian defenders killed on night of June 5–6 1967). Original concrete trench system preserved exactly as left; 11 sections walkable. Paratroopers' Museum acknowledges both Israeli and Jordanian perspectives. Free entry to outdoor complex; museum charges small fee. Practical: Eshkol Blvd Ramat Eshkol, Blue Line light rail station within walking distance, free parking, Sun–Thu 8–18 Fri 8–14, fully paved accessible. 2 CTAs: GYG Jerusalem Six-Day War tour + Booking.com Jerusalem hotels. Cross-links added to jewish-heritage-israel.md (1967 section + Ammunition Hill bullet after Atlit entry), jerusalem-trail.md (Segment 4 terminus text linked), Footer.astro (Jerusalem section list). Smoke test: /ammunition-hill-jerusalem added (622nd ROUTES entry). Startup: fresh cloud clone; origin/master had been force-pushed to 83c43c7 (iter646); local was at 1f4245e (iter576); fixed via git reset --hard origin/master. 797 pages; 1094/1094 e2e pass. CI + Lighthouse both in_progress at push time.
 
 Notes: iter646 BUILD (monetization) — israel-for-south-african-travelers. SHIPPED c07b5f7. P2/S item freshly added at iter645 research. South Africa has ~70K Jewish community (one of world's largest per capita, per SA Jewish Board of Deputies); large evangelical/Anglican/Methodist Christian pilgrim market; El Al operates TLV→JNB direct (seasonal — always verify at elal.com). Key SA-specific content: ETA-IL applies (visa-exempt, ₪25); diplomatic context — SA closed its embassy in Israel May 2018, no consular service in Israel, nearest SA mission = Amman Jordan; medical aid gap (Discovery Health/Momentum/Bonitas/Bestmed typically don't cover international costs); ZAR not exchangeable in Israel (use USD/EUR cash or Wise); Type M (SA large 3-round-pin 15A, 230V) → Type H (Israel 230V) — same voltage, adapter only; mobile (SIM/eSIM). Cross-link added to first-time-in-israel.md nationality guides list. 796 pages; 1093/1093 e2e pass.
 
