@@ -625,6 +625,7 @@ const ROUTES = [
   '/ammunition-hill-jerusalem',
   '/yom-haatzmaut-guide',
   '/israel-for-russian-speaking-travelers',
+  '/israel-water-parks',
 ];
 
 for (const route of ROUTES) {

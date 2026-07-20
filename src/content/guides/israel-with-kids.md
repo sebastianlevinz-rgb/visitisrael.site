@@ -69,7 +69,7 @@ Many hotels let young children stay free in the parents' room and offer cots —
 
 ## Practical tips
 
-- **Beat the heat.** Spring and autumn are the family sweet spots. In summer, do water and indoor activities, carry lots of water, and rest at midday — especially at the Dead Sea, Eilat and in the desert. See [best time to visit](/best-time-to-visit-israel).
+- **Beat the heat.** Spring and autumn are the family sweet spots. In summer, do water and indoor activities, carry lots of water, and rest at midday — especially at the Dead Sea, Eilat and in the desert. See [best time to visit](/best-time-to-visit-israel). For dedicated water-day ideas, see the [Israel water parks & family fun guide](/israel-water-parks).
 - **Sun protection is non-negotiable** — high-factor sunscreen, hats and shade. The desert and Dead Sea sun is fierce.
 - **Pace the history.** Religious and archaeological sites mean a lot of walking and standing. Alternate a "culture" day with an "active" day.
 - **Food is easy.** Falafel, hummus, fresh bread, fruit, shakshuka and pizza are everywhere and kid-approved. See the [kosher food guide](/kosher-food-guide) and [Tel Aviv food guide](/tel-aviv-food-guide).
