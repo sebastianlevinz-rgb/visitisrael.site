@@ -5667,3 +5667,41 @@ Existing iter625 BACKLOG item (israel-canyoning-guide, P3/S) validated: Viator p
 Saturation: ~94%. 5 net-new BACKLOG items + 1 priority upgrade from ~35 candidates. Primary intelligence: Biblical Highway (Derech HaTanach) June 2026 national initiative is a genuine editorial gap with strong faith tourism SEO hook (P2/M); South Africa nationality guide confirmed P2/S gap; Galilee Culinary Institute pre-opening coverage opportunity (P3/S). Yam Caesarea and Ashdod cruise port are confirmed niche gaps (P3/S each). Israel canyoning guide upgraded P3→P2 based on Viator/TripAdvisor SERP validation. Three significant false leads closed (Rosh Hanikra, Schottenstein Campus, Haifa cruise terminal) — agent hallucination/cache confusion pattern; future passes should treat these three as permanently closed.
 
 **Next iteration**: 641 → BUILD (641%5==1; monetization rotation)
+
+---
+
+### 2026-07-20 · iter 650 · RESEARCH pass #132
+
+**Focus:** Nationality guide gaps (Russian-speaking, Italian, French, Dutch, Spanish); IBT cycling; new hotel freshness; Israel attraction openings 2026; wellness tourism; slow travel; monthly content format
+
+**Israel for Russian-speaking Travelers: confirmed P2 gap (net-new)**
+The Russian-speaking travel segment to Israel is large, distinct, and unserved. Russian is the 3rd most spoken language in Israel (after Hebrew + Arabic) due to the 1990s FSU aliyah wave (1M+ Russian speakers in Israel). slavaguide.com explicitly targets this market (English/Russian Israeli travel guides). Israel Outdoors runs "Quest" Russian-speaking Birthright-style trips. TripAdvisor discussions confirm demand for Russian-speaking guides in Jerusalem. The audience is NOT primarily Russian passport holders (Russia-Israel direct flights remain suspended since Feb 2022 El Al suspension; no direct flights via Russian carriers) — it is the broader FSU language community: Ukrainian, Kazakh, Belarusian, Georgian, Armenian, Moldovan, Azerbaijani travelers who speak Russian and whose families often have Israeli connections. This framing makes the guide inclusive rather than geopolitically fraught. Key content hooks: Russian-speaking guides available across all major tourist sites; "Russian" neighborhoods in Israel (Ashdod, Nahariya, parts of Bat Yam, Be'er Sheva) where signs and menus appear in Russian; FSU family connection visits (1M Russian-speaking Israelis have relatives in FSU countries); Yad Vashem's Russian-language programs for Holocaust memorial; ETA-IL required for all FSU passport holders since Jan 2025; entry from FSU countries typically via Istanbul (Turkish Airlines) or Dubai (Emirates); language support: Egged Russian-language bus schedules; kosher vs non-kosher food considerations (pork products widely unavailable in many areas — important for FSU travelers). COMPETITOR CONTEXT: NO English-language Israel editorial brand has this guide. slavaguide.com (Russian-language) is the primary competitor but does not produce the kind of structured SEO English content we do. BACKLOG ACTION: new P2/S item added.
+
+**Israel National Bike Trail (IBT) dedicated guide: confirmed P2 gap (net-new)**
+The cycling-in-israel.md guide (SHIPPED iter238) covers the IBT as a one-line overview alongside Tel-O-Fun and Sea of Galilee loop. A standalone dedicated IBT guide does not exist on any major English Israel travel editorial brand. The Israel Bike Trail is a 1,200km national cycling route from Mount Hermon to Eilat (paralleling the Israel National Trail) operated by INPA + Ministry of Tourism; 27 official segments; designed for off-road/mountain biking. Growing international market: ibt.org.il (official), Trailforks, AllTrails, komoot, bikepacking.co.il all have GPS/route data; but no editorial tourist guide explains which segments suit non-hardcore cyclists, how to plan a 5-7 day section trip, where to stay, how to rent a bike, and how the 2025-2026 Yahel-Timna southern section expansion (already in our BACKLOG as arava-mountain-biking, P2/S) integrates into the full trail. COMPETITOR CONTEXT: bike-israel.com (logistics only), alltrails.com (GPS tracks), Israel Bike tours operators (tour operator sites) — no editorial brand guide. BACKLOG ACTION: new P2/M item added. De-dup note: the arava-mountain-biking item covers the specific new Yahel-Timna southern section (P2/S, ready) — the IBT guide covers the full trail holistically (P2/M, distinct).
+
+**best-hotels-tel-aviv freshness update: confirmed P2 technical item (net-new as BACKLOG entry)**
+The best-hotels-tel-aviv.md guide (SHIPPED iter243) does not mention ANY of the following hotels that opened 2025-2026: (1) Six Senses Tel Aviv — ultra-luxury wellness, Old North, Rothschild-Herzl-Lilienblum area, opened 2026; (2) Nobu Hotel Tel Aviv — lifestyle-luxury brand debut in Israel, Jaffa area, opened 2026; (3) Dizengoff 99 — boutique hotel, Dizengoff area (confirmed in backlog as already noted); (4) Basel Complex Hotel — luxury complex, Central Tel Aviv; (5) Leon Towers — opened 2025-2026. Additionally: Yacht on the Herzliya (325-room Fattal luxury, June 2026) is technically Herzliya, not TLV — best-hotels-tel-aviv scope may or may not cover it, but the luxury tier section of the guide is materially outdated. The guide was likely written in 2024 and reflects the pre-Six Senses/Nobu landscape. For a high-converting hotel affiliate page, this is a significant SEO and monetization risk (users searching "best luxury hotels Tel Aviv 2026" may find more current competitor content). Noted in COMPETITORS.md intel at iter635 but NOT added to BACKLOG as an actionable item. Now formally added to BACKLOG as P2/S technical freshness item. COMPETITOR CONTEXT: touristisrael.com/israel-travel-2026/80636 lists Six Senses, Nobu, Dizengoff 99, Basel Complex, and Leon Towers as the year's marquee openings. BACKLOG ACTION: new P2/S item added.
+
+**New attractions 2026 — deduplicated against BACKLOG:**
+- Kassland Resort & Spa (Ma'ale Adumim, May 2026): ALREADY IN BACKLOG (confirmed present)
+- Yacht on the Herzliya (Fattal, June 2026): ALREADY IN BACKLOG (confirmed present)
+- Tower of David "Eyes on the Wall" April 2027: ALREADY IN BACKLOG (iter625)
+- new-luxury-hotels-israel-2026 roundup guide: ALREADY IN BACKLOG (iter370, P2/M, ready)
+- Galilee Culinary Institute: ALREADY IN BACKLOG (iter645)
+- Biblical Highway (Derech HaTanach): ALREADY IN BACKLOG (iter631)
+- Knesset Museum Jerusalem: ALREADY IN BACKLOG (iter370, P3/S)
+
+**Italian/French/Spanish/Dutch/Polish/Hungarian nationality guides: all already in BACKLOG**
+Verified via Python substring scan: israel-for-french, israel-for-italian, israel-for-spanish, israel-for-dutch all FOUND in backlog. israel-for-polish and israel-for-hungarian confirmed as P3/S ready items. No need to add duplicates. The Russian-speaking guide is the only genuinely missing nationality/language segment.
+
+**False leads permanently closed this pass:**
+- Monthly content format ("Things to do in Israel in [Month]"): Tourist Israel publishes 12 monthly pages; we have israel-by-month already in P2 BACKLOG (iter220 research) — no gap.
+- IBT as "already in cycling-in-israel": confirmed distinct — cycling-in-israel has ONE LINE on IBT as context; a 1200km national trail requires a dedicated guide.
+- Tel Aviv Museum of Art (any further expansion claims): PERMANENTLY CLOSED per prior research (iter629, iter635 both confirm no expansion). Dismiss without research in future passes.
+- Kassland/Herzliya hotel as new: both confirmed already in BACKLOG.
+
+**Competitive landscape at pass #132**
+Saturation: ~94–95%. 3 net-new BACKLOG items from a thorough sweep of ~30+ candidates. The main finding is that the Russian-speaking language community (vs. nationality) guide is a genuinely unserved niche — slavaguide.com is the closest competitor but it's a different language; no English-language editorial brand has this. The IBT standalone guide is a confirmed gap (cycling-in-israel's one-liner doesn't serve IBT planning queries). The best-hotels-tel-aviv freshness update is a high-priority monetization fix: the five 2025-2026 luxury openings are now documented by all major competitors but missing from our highest-converting hotel affiliate page.
+
+**Next iteration**: 651 → BUILD (651%5==1; monetization rotation)

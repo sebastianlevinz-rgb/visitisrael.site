@@ -10200,3 +10200,13 @@ Branch: auto/seo-meta-trim → squash-merged to master.
 Gate: pnpm check 0 errors; build 798 pages; pnpm test:e2e 1095/1095 PASS. GREEN.
 Ship: committed 1162607 to master, pushed. CI + Lighthouse in_progress at push time; prior iter648 CI = success.
 Next: iter650 → BUILD (650%5==0 → RESEARCH mode).
+
+## 2026-07-20T09:45Z · iter 650 · RESEARCH (pass #132) · research-650-pass-132
+Mode: RESEARCH (650%5==0). No code changed; gate not run.
+What: Researched Israel travel competitor landscape focusing on nationality guide gaps (Russian-speaking, Italian, French, Dutch, Spanish), IBT cycling, new hotel freshness, Israel 2026 attraction openings. Ran 10 WebSearch queries covering: new attractions 2026, competitor content on Tourist Israel, Dutch/Italian/Spanish/French traveler markets, Kassland Resort, Israel wellness tourism, IBT bikepacking, kibbutz volunteer, Russian-speaking FSU market, monthly content format, and hotel freshness.
+Findings — 3 net-new BACKLOG items:
+  1. israel-for-russian-speaking-travelers (P2/S, seo-content+monetization) — FSU language community guide; Russian is 3rd most spoken language in Israel; slavaguide.com is primary Russian-language competitor; no English editorial brand serves this audience; Python scan confirmed triple-zero gap.
+  2. israel-national-bike-trail (P2/M, seo-content+monetization) — IBT 1200km Mount Hermon→Eilat full trail guide; cycling-in-israel.md covers IBT as 1-line overview only; ibt.org.il official + GPS tools (Trailforks/AllTrails/komoot) but no editorial English tourist planning guide exists anywhere.
+  3. best-hotels-tel-aviv freshness update (P2/S, technical+seo-content) — 5 major 2025-2026 luxury openings (Six Senses TLV, Nobu Hotel TLV, Dizengoff 99, Basel Complex Hotel, Leon Towers) confirmed missing from SHIPPED iter243 guide; grep confirms zero matches; touristisrael.com/israel-travel-2026 lists all 5 as marquee 2026 openings.
+False leads closed: Italian/French/Spanish/Dutch/Polish/Hungarian nationality guides all already in BACKLOG (Python scan confirmed). Kassland, Herzliya hotel, new-luxury-hotels-2026 roundup, Tower of David 2027, monthly content hub — all already in BACKLOG. Monthly content: israel-by-month already P2. Stargazing: SHIPPED iter251. Israeli Digital Detox Retreats and Six Senses Shaharut: already in BACKLOG.
+Gate: N/A (research mode). Next: iter651 → BUILD (651%5==1; monetization rotation).
