@@ -10495,3 +10495,15 @@ Ship: committed to master 8f6f577, pushed. Branch auto/tel-aviv-dizengoff delete
 Prod: Lighthouse workflow in_progress at push — typical pattern, expected to succeed.
 Next: iter 667 = BUILD (667%5==2; seo-content rotation). Top P2 ready seo-content items: 3-days-in-jerusalem
   (iter1047), ramadan-guide (iter423), ashkelon-guide (iter867), east-jerusalem-guide (iter549), pet-friendly-israel (iter535).
+
+## 2026-07-21T03:20Z · iter 667 · BUILD (seo-content) · tel-aviv-hatachana
+Startup: context-resumed cloud run (prior context window exhausted mid-state-write). Master at 24416fc (content already shipped). No STOP flag.
+Orient: iteration 667, 667%5==2 → BUILD (seo-content). Picked: tel-aviv-hatachana (P2/S, seo-content+monetization, BACKLOG line 1076) — CONFIRMED GAP: no file at src/content/attractions/tel-aviv-hatachana*; HoshenTours + Timeout TLV + hatachana.co.il all have standalone pages; neve-tzedek-guide and jaffa-hotels-guide flanked the location geographically but NOTHING about the station complex itself.
+What: New /tel-aviv/hatachana attractions sub-destination page (src/content/attractions/tel-aviv-hatachana.md).
+  Content: Need-to-know table (free entry, ₪10/hr parking, 10:00–22:00 daily); Ottoman railway history (1892 Jaffa–Jerusalem Railway, first railway in Ottoman Palestine; 22 stone buildings; French company; closed 1940s; restored 2010); Friday morning organic market (~08:00–14:00: seasonal produce, artisan cheese, olive oil, homemade preserves); Thursday night designer market (~17:00–22:00: jewellery, ceramics, textiles, clothing); restaurants and cafes (casual-to-mid-range in courtyard; outdoor terraces under fig/olive trees; Israeli-Mediterranean sharing plates); design boutiques; courtyard events (hatachana.co.il calendar; May–Oct concerts, film screenings); walking route circuit (Rothschild → Neve Tzedek → HaTachana → Old Jaffa ~4km half-day); Nearby Attractions (Neve Tzedek, Old Jaffa, Alma Beach, Florentin); Why Visit. heroImage: /images/sub-destinations/tel-aviv/neve-tzedek.jpg (pre-credited, no new photo-credits entry needed). 5 FAQs. No fabricated ratings/prices/exact costs.
+  Cross-links added: neve-tzedek-guide.md (Jaffa bullet upgraded to [[HaTachana](/tel-aviv/hatachana)]), jaffa-hotels-guide.md (added HaTachana sentence in budget section), 3-days-in-tel-aviv.md (Day 3 inland route alternative via HaTachana).
+Bug: initial link URLs used wrong formats (/tel-aviv-neve-tzedek, /tel-aviv-florentin); correct format is /tel-aviv/neve-tzedek, /tel-aviv/florentin. Also neve-tzedek-guide linked to /tel-aviv-hatachana (wrong). All fixed before gate.
+Gate: pnpm check 0 errors; pnpm build 806 pages (+1 vs iter666); pnpm test:e2e 1104/1104 PASS (link-checker GREEN).
+Ship: committed to master 24416fc3972d577857f30c7f2871abf04411277a, pushed.
+Prod: Lighthouse workflow triggered at push — expected in_progress.
+Next: iter 668 = BUILD (668%5==3; tools rotation). Top tools items from BACKLOG.
