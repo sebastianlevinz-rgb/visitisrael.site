@@ -372,6 +372,7 @@ const ROUTES = [
   '/via-ferrata-israel',
   '/israel-for-swiss-travelers',
   '/israel-culinary-heritage-tourism',
+  '/haifa-shore-excursions',
 ];
 
 for (const route of ROUTES) {
