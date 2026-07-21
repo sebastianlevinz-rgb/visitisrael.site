@@ -1,12 +1,12 @@
 # LOOP STATE
 
-- iteration: 685
-- lastMode: RESEARCH
-- lastItem: research-685-airport-delta-freshness
-- lastResult: RESEARCH pass #139. 3 net-new items added to BACKLOG: (1) ben-gurion-airport-guide Terminal 1 war-closure + July 2026 reopening (P2/S/technical); (2) Delta/United status conflict between cheap-flights-to-israel.md and israel-travel-2026.md (P2/S/technical); (3) israel-paragliding-guide confirmed triple-zero gap (P3/S/seo-content). 22 candidates eliminated (all already in backlog). No code shipped (RESEARCH mode).
-- nextRotationCategory: 686%5==1 → BUILD (monetization rotation)
+- iteration: 686
+- lastMode: BUILD
+- lastItem: terminal-park-eilat
+- lastResult: SHIPPED 967d33d. New /terminal-park-eilat guide — Eilat entertainment complex on former Aqaba Airport site. P2/S monetization (iter380 research). 817 pages (+1); 1112/1112 e2e pass. CI + Lighthouse in_progress at push (consistent pattern).
+- nextRotationCategory: 687%5==2 → BUILD (seo-content rotation)
 - higgsfieldSpent: 0
-- updatedAt: 2026-07-21T22:00Z
+- updatedAt: 2026-07-21T22:58Z
 - branch context: work on master; feature work on auto/<slug>
 
 Notes: iter685 RESEARCH pass #139 — airport-terminal-1 + delta-conflict + paragliding. At ~95% saturation, 3 net-new from 30+ candidates. Two are technical freshness fixes on high-traffic pages (airport guide Terminal 1 description outdated post July 2026 reopening; Delta suspension vs. reinstatement conflict between two guides). One is a new content gap (paragliding — confirmed triple-zero, P3/S). See JOURNAL for full eliminated-candidates list.
