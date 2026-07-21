@@ -1,6 +1,6 @@
 ---
 title: 'Haifa Shore Excursions: Best Day Trips from Cruise Port (2026)'
-description: "Best shore excursions from Haifa cruise port — Bahá'í Gardens, Old Akko, Caesarea, Nazareth, Galilee and Sea of Galilee. Circuits, timing and booking tips for cruise passengers."
+description: "Best shore excursions from Haifa cruise port — Bahá'í Gardens, Akko, Caesarea, Nazareth and Galilee. Timing and booking tips for cruise passengers."
 heroImage: /images/regions/haifa/bahai-gardens.jpg
 category: Tours
 updatedAt: 2026-07-21

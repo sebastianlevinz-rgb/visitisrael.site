@@ -1,6 +1,6 @@
 ---
 title: 'Israel National Bike Trail (IBT): Complete Cycling Guide (2026)'
-description: 'Plan your Israel Bike Trail adventure — 1,200km from Mount Hermon to Eilat. Best sections for international cyclists, bike hire, water logistics, and seasonal safety.'
+description: 'Plan your Israel Bike Trail adventure — 1,200km from Mount Hermon to Eilat. Best sections for international cyclists, bike hire, water planning and safety.'
 heroImage: /images/regions/negev/desert.jpg
 category: Planning
 updatedAt: 2026-07-21

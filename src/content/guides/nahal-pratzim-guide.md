@@ -1,6 +1,6 @@
 ---
 title: 'Nahal Pratzim & the Flour Cave: Mount Sodom Hiking Guide (2026)'
-description: 'Hike the white salt canyons of Mount Sodom near the Dead Sea. Flour Cave, Nahal Pratzim slot canyon, and the Lot''s Wife pillar — visitor guide with trail tiers and logistics.'
+description: 'Hike the white salt canyons of Mount Sodom near the Dead Sea. Flour Cave, Nahal Pratzim slot canyon and Lot''s Wife pillar — trail tiers and logistics guide.'
 heroImage: /images/regions/dead-sea/hero.jpg
 category: Activities
 updatedAt: 2026-07-21
