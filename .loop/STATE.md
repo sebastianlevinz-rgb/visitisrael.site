@@ -1,13 +1,15 @@
 # LOOP STATE
 
-- iteration: 679
-- lastMode: REVIEW
-- lastItem: review-679-wine-trail-link
-- lastResult: SHIPPED bcf9644. REVIEW of iters 676-678 (israel-for-irish-travelers, galilee-wine-trail, ashdod-cruise-port-excursions). All three clean on: title/desc length (≤65/≤160), zero H1 in body, internal links valid (where-to-stay/* dynamic routes confirmed, /golan/mount-bental resolved correctly via attractionSlug strip), JSON-LD honesty (rating/reviews fields in frontmatter not rendered to page), affiliate helper usage. One discoverability gap: galilee-food-guide.md discussed Upper Galilee wine (Galil Mountain, Dalton, Rosh Pinna) but only linked to /golan-heights-wineries, not the newer /galilee-wine-trail. Added 2 cross-links: wine-tasting paragraph + Plan your trip section. 813 pages; 1108/1108 e2e pass; 0 check errors. CI in_progress at push.
-- nextRotationCategory: 680%5==0 → RESEARCH
+- iteration: 680
+- lastMode: RESEARCH
+- lastItem: research-680-pass138
+- lastResult: DONE 2 net-new (bahai-pilgrimage-haifa P3/S, israel-national-bike-trail P3/M) + 1 priority upgrade (haifa-shore-excursions P3→P2) + 2 freshness alerts (lag-baomer-israel 2026 bonfire ban; cheap-flights TLV-JFK/SFO routes + Purple Line delay). No code changes. 813 pages unchanged.
+- nextRotationCategory: 681%5==1 → monetization
 - higgsfieldSpent: 0
-- updatedAt: 2026-07-21T14:45Z
+- updatedAt: 2026-07-21T15:45Z
 - branch context: work on master; feature work on auto/<slug>
+
+Notes: iter680 RESEARCH pass #138 — bahai-pilgrimage-haifa + israel-national-bike-trail. At ~95% saturation, 2 net-new from 20 candidates is expected. Haifa Bahá'í pilgrim vs. tourist dual-angle: distinct from haifa-guide.md (brief garden mention only); global Bahá'í community 5-8M; UNESCO WH site; 9-day pilgrim program (invitation-only, 3-year waitlist) is undercovered by all mainstream travel sites. IBT thru-trail: distinct from cycling-in-israel.md (urban cycling focus); 1,200km north-south off-road route; ~400km northern section open; bikepacking.com/bikemap cover it but no mainstream editorial guide. Priority upgrade: haifa-shore-excursions P3→P2 (Haifa Bay Cruise Terminal opened May 2026; 2-ship capacity; 1M passenger/year target). Freshness alerts: lag-baomer-israel bonfire ban + Meron 600-person cap (2026 Knesset vote); cheap-flights-to-israel.md Israir TLV-JFK + El Al TLV-SFO routes; transport-in-israel.md Purple Line delay 2027-2028.
 
 Notes: iter679 REVIEW — review-679-wine-trail-link. Audited iter676 (israel-for-irish-travelers), iter677 (galilee-wine-trail), iter678 (ashdod-cruise-port-excursions). All 3 pages clean: title/desc length OK, zero H1 in body, all internal links valid (where-to-stay/* dynamic routes confirmed; /golan/mount-bental serves correctly via attractionSlug prefix-strip), no fabricated visible data, affiliate helpers used correctly. One discoverability gap: galilee-food-guide.md omitted cross-link to /galilee-wine-trail (shipped iter677). Fixed: 2 new links added (wine paragraph + Plan your trip). SHIPPED bcf9644. 813 pages; 1108/1108 e2e pass. Pattern: newly shipped guides benefit from back-linking in related content pages; REVIEW passes catch these within 1–2 iterations.
 
@@ -43,4 +45,4 @@ Notes: iter648 BUILD (seo-content, fallthrough from tools→technical→monetiza
 
 Cron b7325b16 hourly @ :17. Loop history: 19 tools + sitemap-lastmod + link-checker(+depth) + i18n
 Phase0/1a/1b/1c/2 Batches1-18(COMPLETE) + 47 review passes + 3 technical (event-schema + meta-trim + locale-links) + 76 EN guides + 7 tools-monetization + 2 comparisons;
-research iters 5/10/20/30/35/40/45/50/55/60/65/70/75/80/85/90/95/100/105/110/115/120/125/130/135/140/145/150/155/160/165/170/175/180/185/190/195/200/205/210/215/220/225/230/235/240/245/250/255/260/265/270/275/280/285/290/295/300/305/310/315/320/325/330/335/340/345/350/355/360/365/370/375/380/385/390/395/400/405/410/420/425/430/435/440/445/450/455/460/465/470/480/485/490/495/500/505/510/515/520/525/535/540/545/550/555/560/565/570/575/580/585/590/595/600/605/610/615/620/625/630/635/640/645/650/655/660/665/670.
+research iters 5/10/20/30/35/40/45/50/55/60/65/70/75/80/85/90/95/100/105/110/115/120/125/130/135/140/145/150/155/160/165/170/175/180/185/190/195/200/205/210/215/220/225/230/235/240/245/250/255/260/265/270/275/280/285/290/295/300/305/310/315/320/325/330/335/340/345/350/355/360/365/370/375/380/385/390/395/400/405/410/420/425/430/435/440/445/450/455/460/465/470/480/485/490/495/500/505/510/515/520/525/535/540/545/550/555/560/565/570/575/580/585/590/595/600/605/610/615/620/625/630/635/640/645/650/655/660/665/670/675/680.
