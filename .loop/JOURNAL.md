@@ -10639,3 +10639,12 @@ Monetization section empty (all shipped) → fell through to best seo-content+mo
 BACKLOG: negev-multi-day-hiking removed (shipped). galilee-food-guide upgraded P3→P2.
 DONE: negev-multi-day-hiking appended.
 Next: iter 672 → BUILD (672%5==2; seo-content rotation).
+
+## 2026-07-21T07:55Z · iter 672 · BUILD · galilee-food-guide
+What: New /galilee-food-guide (P2/S, seo-content). Complete Galilee culinary circuit: Saint Peter's fish (musht) in Tiberias with honest framing re farmed vs wild catch; Nazareth Arab-Israeli fine dining (Diana Restaurant, El Babour, Old Market spices, knafeh); Druze flatbread villages (Daliyat al-Carmel + Isfiya, laffa + labaneh + za'atar cooperatives); Golan Heights wine circuit (Yarden/Gamla/Pelter/Chateau Golan/Assaf) + artisan cheese; Upper Galilee farm-to-table (Rosh Pina boutique dining + Galilee Culinary Institute cross-link); Sea of Galilee eastern shore (Kibbutz Ein Gev lakeside). 5 FAQs, 2 CTAs (GYG Galilee food tours + Booking Tiberias hotels). Cross-links added: tiberias-guide.md, galilee-tours-compared.md, nazareth-travel-guide.md.
+Gate: pnpm check 0 errors; pnpm build 809 pages; pnpm test:e2e 1105/1105 PASS.
+Ship: commit 79b9dec pushed to master.
+Prod: CI/Lighthouse in_progress at iteration end; prior 3 runs all success.
+BACKLOG: galilee-food-guide removed (shipped).
+DONE: galilee-food-guide appended.
+Next: iter 673 → BUILD (673%5==3; tools rotation).

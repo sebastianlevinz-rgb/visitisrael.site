@@ -1,13 +1,15 @@
 # LOOP STATE
 
-- iteration: 671
+- iteration: 672
 - lastMode: BUILD
-- lastItem: negev-multi-day-hiking
-- lastResult: SHIPPED 9c60089. New /negev-multi-day-hiking guide (P2/S, seo-content+monetization). 3–5 day self-planned Negev desert hiking circuit based in Mitzpe Ramon. Day-by-day: crater rim orientation → Wadi Ardon crater floor → Ein Avdat canyon + Sde Boker → optional Avdat/Timna extensions. Water logistics table, camping guide (INPA designated sites), gear checklist, safety matrix. 3 affiliate CTAs: DiscoverCars + GYG + SafetyWing. Cross-links in: hiking-in-israel.md, mitzpe-ramon-guide.md, 3-days-in-negev.md. 808 pages; 1105/1105 e2e PASS. Monetization section empty (all shipped) → fell through to seo-content+monetization (negev-multi-day-hiking). CI Lighthouse in_progress at push.
-- nextRotationCategory: 672%5==2 → BUILD (seo-content rotation)
+- lastItem: galilee-food-guide
+- lastResult: SHIPPED 79b9dec. New /galilee-food-guide (P2/S, seo-content). Galilee culinary circuit: Saint Peter's fish in Tiberias (musht; honest framing re farmed vs wild), Druze flatbread villages (Daliyat al-Carmel + Isfiya; laffa + labaneh + za'atar), Golan Heights wine (Yarden/Gamla/Pelter/Chateau Golan/Assaf) + artisan cheese, Nazareth Arab-Israeli mezze (Diana + El Babour + Old Market), Upper Galilee farm-to-table (Rosh Pina; Galilee Culinary Institute cross-link), Sea of Galilee eastern shore (Kibbutz Ein Gev). 5 FAQs, 2 CTAs (GYG Galilee food tours + Booking Tiberias hotels). Cross-links: tiberias-guide.md, galilee-tours-compared.md, nazareth-travel-guide.md. 809 pages; 1105/1105 e2e PASS. CI in_progress at push.
+- nextRotationCategory: 673%5==3 → BUILD (tools rotation)
 - higgsfieldSpent: 0
-- updatedAt: 2026-07-21T06:50Z
+- updatedAt: 2026-07-21T07:55Z
 - branch context: work on master; feature work on auto/<slug>
+
+Notes: iter672 BUILD (seo-content) — galilee-food-guide. SHIPPED 79b9dec. P2/S confirmed gap (galilee-food-guide.md did not exist; touristisrael.com + timeout.com/israel both rank for Galilean cuisine; galilee-food-guide priority upgraded P3→P2 in iter670 due to JNF Galilee Culinary Institute timely hook). New /galilee-food-guide: complete Galilee culinary circuit covering Saint Peter's fish, Nazareth Arab-Israeli mezze, Druze flatbread, Golan wine, farm-to-table Rosh Pina. 809 pages; 1105/1105 e2e pass. CI in_progress at push.
 
 Notes: iter671 BUILD (monetization→seo-content+monetization fallthrough) — negev-multi-day-hiking. SHIPPED 9c60089. Monetization section entirely SHIPPED; fell through to best-matching seo-content+monetization item. New /negev-multi-day-hiking guide: 3–5 day on-foot desert circuit. 808 pages; 1105/1105 e2e pass. CI Lighthouse in_progress at push.
 
