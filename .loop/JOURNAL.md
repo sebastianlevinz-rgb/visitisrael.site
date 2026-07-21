@@ -10682,3 +10682,9 @@ What: New /israel-for-irish-travelers guide (P2/S monetization+seo-content). Con
 Gate: pnpm check 0 errors; pnpm build 811 pages (+1); pnpm test:e2e 1107/1107 pass.
 Ship: squash-committed b487c8f to master; pushed. CI in_progress at push.
 Next: iter 677 → BUILD (677%5==2; seo-content rotation).
+
+## 2026-07-21T13:00Z · iter 677 · BUILD (seo-content+monetization) · galilee-wine-trail
+What: New /galilee-wine-trail self-drive guide (P2/S seo-content+monetization). Confirmed gap: Upper Galilee wine circuit distinct from golan-heights-wineries.md (Golan-only detail) and israel-wine-wineries.md (all-regions hub). 2-day circuit from Tiberias/Haifa: Day 1 Golan (Golan Heights Winery/Katzrin; cross-ref to golan-heights-wineries); Day 2 Upper Galilee (Galil Mountain Winery at Kibbutz Yiron open daily; Kerem ben Zimra plateau; Dalton Winery at 900m — Israel's highest winery). Rosh Pinna as overnight base. Planning notes: Route 6 + Waze logistics, Shabbat planning, designated driver note (0.05% BAC), wine shipping tips. 7 FAQs: Upper Galilee vs Golan terroir, advance booking, days needed, suitability without car, best season, kosher status, shipping wine home. 3 CTAs: DiscoverCars (essential — zero public transit) + Booking.com (Rosh Pinna/Tiberias) + GYG guided Galilee wine tours. Cross-link added to israel-wine-wineries.md Galilee/Golan section. Older P3 backlog entry (line 745, iter305) and newer P2 entry (line 983, iter400) both covered — P2 entry marked SHIPPED.
+Gate: pnpm check 0 errors; pnpm build 812 pages (+1); pnpm test:e2e 1107/1107 pass.
+Ship: squash-committed 38b7d38 to master; pushed. CI in_progress at push.
+Next: iter 678 → BUILD (678%5==3; technical rotation).
