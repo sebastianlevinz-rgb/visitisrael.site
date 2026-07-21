@@ -5797,3 +5797,30 @@ Saturation: ~95%. 1 net-new BACKLOG item (/israel-photography-tours P3/S) from a
 **Saturation: ~95%.** 3 net-new items from 16 candidates is consistent with extreme saturation at pass #136. Remaining unshipped high-value items: (a) nationality guides (Italian/French P2/S); (b) israel-surfing P2/S (confirmed high-value competitive gap via pass #135); (c) israel-national-bike-trail P2/M; (d) galilee-wine-trail P2/M (priority upgraded this pass via GCI hook).
 
 **Next iteration**: 671 → BUILD (671%5==1; monetization rotation)
+
+## iter675 research pass #137 (2026-07-21) — Nationality guide gap audit + 2026 infrastructure
+
+**Sources consulted**: ireland.ie/dfa, portaldascomunidades.mne.gov.pt, hinterlandtravel.com, visalist.io, wizzair.com, 206tours.com, catholicjourneys.com, joinsherpa.com, touristisrael.com/israel-travel-2026, travelandtourworld.com, iaa.gov.il (schottenstein campus tours).
+
+**New net-new gaps found (6)**:
+- `/israel-for-irish-travelers` (P2/S): English-speaking market; Ireland recognized Palestine 2024 (neutral framing required); Irish Catholic pilgrimage robust; ETA-IL confusion for group tours; Ryanair DUB-TLV seasonal. No competitor has a dedicated Ireland-to-Israel editorial guide.
+- `/israel-for-portuguese-travelers` (P2/S): Portugal's 2015 Sephardic citizenship law creates unique Israel-Portugal connection; TAP Air direct LIS-TLV; strong Catholic pilgrim tradition. demand confirmed via travelwings.pt + seguroviagem.srv.br.
+- `/israel-for-vietnamese-travelers` (P3/S): Vietnam 98M pop, 7M Catholics; large EN-speaking diaspora in AU/USA/UK; demand confirmed via hinterlandtravel.com/vietnam/destinations/israel; no competitor EN editorial guide.
+- `/israel-for-chilean-travelers` (P3/S): Chile 19M, visa-exempt, Jewish community Santiago ~18K; completing Latin America series (Argentine SHIPPED, Colombian+Mexican in backlog).
+- `/israel-for-peruvian-travelers` (P3/S): Peru 33M, deeply Catholic, Semana Santa pilgrimage culture; completing Latin America coverage; 110V voltage warning is a genuinely useful tip.
+- `/israel-for-serbian-travelers` (P3/S): Serbia 7M, ~85% Serbian Orthodox; Serbian monastery in Jerusalem Old City since 13th century; Wizz Air BEG-TLV direct; ETA-IL confusion for group pilgrimage tours.
+
+**2026 infrastructure intel (not net-new content, context for existing backlog)**:
+- Haifa cruise terminal opened May 2026: handles 2 mega-ships simultaneously, target 1M passengers/year — strengthens the case for haifa-shore-excursions guide (existing P3/S backlog item).
+- IAA Schottenstein Campus (Jerusalem): preview tours active summer 2026; Leon Levy National Treasures center opening 2026; full visitor experience center expected early 2027. Guide SHIPPED iter607; no update needed.
+- TouristIsrael.com 2026 roundup confirms: Six Senses TLV, Nobu TLV openings confirmed 2026; Fattal Hotels adding 1,000+ rooms. best-hotels-tel-aviv freshness update already SHIPPED iter652.
+
+**Competitors covering Irish/Portuguese market**:
+- 206tours.com/cms/info/israel: has Ireland Catholic pilgrimage pages but no standalone editorial guide.
+- travelwings.pt/israel: Portuguese tour packages to Israel — demand confirmed, no EN editorial.
+- hinterlandtravel.com: has "Traveling to Israel from [country]" stub pages for Ireland, Portugal, Vietnam, Chile, Peru — purely visa/entry info, no editorial depth. Our guides will have significant content advantage.
+
+**False leads eliminated (17)**:
+chinese (SHIPPED iter478), greek (BACKLOG iter660), austrian (BACKLOG iter660), turkish (BACKLOG iter660), taiwanese (BACKLOG iter660), swiss (SHIPPED iter662), dutch (BACKLOG iter450), nordic (BACKLOG iter520), indian (BACKLOG), japanese (BACKLOG), korean (SHIPPED iter642), mexican (BACKLOG), nigerian (BACKLOG), colombian (BACKLOG), thai (BACKLOG), malaysian (BACKLOG), schottenstein-campus (SHIPPED iter607), travel-insurance-guide (EXISTS), money-guide (EXISTS iter92), evangelical-pilgrimage (BACKLOG P2/M), sustainable-eco-tourism (BACKLOG P3/M), dark-tourism (BACKLOG P2/S), israel-coastal-trail (BACKLOG P2/M).
+
+**Saturation: ~95%.** Pass #137 yield of 6 items from 23 candidates is consistent with extreme saturation. Remaining highest-value unshipped: nationality guides (Irish P2/S, Portuguese P2/S being highest priority of new batch); ongoing content gaps: evangelical-pilgrimage P2/M, dark-tourism P2/S, coastal-trail P2/M.

@@ -10670,3 +10670,9 @@ Pattern reminder: BUILD iters routinely ship slightly-long descriptions; REVIEW 
 Gate: pnpm check 0 errors; pnpm build 810 pages; pnpm test:e2e 1106/1106 pass.
 Ship: committed 4edcf38 to master; pushed. CI in_progress at iteration end.
 Next: iter 675 → RESEARCH (675%5==0).
+
+## 2026-07-21T10:45Z · iter 675 · RESEARCH · research-675-pass137
+What: RESEARCH pass #137. Evaluated 23 nationality guide and content-angle candidates at ~95% saturation. 17 eliminated as already in BACKLOG or DONE. 6 net-new items confirmed and appended to BACKLOG: israel-for-irish-travelers (P2/S), israel-for-portuguese-travelers (P2/S), israel-for-vietnamese-travelers (P3/S), israel-for-chilean-travelers (P3/S), israel-for-peruvian-travelers (P3/S), israel-for-serbian-travelers (P3/S). Key hooks: Irish Catholic pilgrim market + ETA-IL awareness gap; Portuguese Sephardic heritage (2015 citizenship law); Vietnamese Catholic diaspora (7M Catholics, large diaspora in EN-speaking countries); Chilean/Peruvian completing Latin America coverage; Serbian Orthodox Holy Land monastic tradition (13th century, active monastery in Jerusalem). Intel update logged to COMPETITORS: Haifa cruise terminal opened May 2026 (2 mega-ships simultaneously, 1M passengers/year). No code shipped (RESEARCH mode).
+Gate: N/A (RESEARCH mode).
+Ship: .loop/ memory files updated only; committed to master.
+Next: iter 676 → BUILD (676%5==1; monetization rotation).

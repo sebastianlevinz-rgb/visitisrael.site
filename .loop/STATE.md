@@ -1,12 +1,12 @@
 # LOOP STATE
 
-- iteration: 674
-- lastMode: REVIEW
-- lastItem: review-674-meta-fix (iter671–673 audit)
-- lastResult: SHIPPED 4edcf38. REVIEW of negev-multi-day-hiking, galilee-food-guide, israel-by-month. 3 defects fixed: (1) negev desc 174→146 chars; (2) galilee desc 172→153 chars; (3) israel-by-month had zero inbound links — added cross-link from best-time-to-visit-israel.md. All internal links valid, all hero images confirmed. 810 pages; 1106/1106 e2e PASS. CI in_progress at push.
-- nextRotationCategory: 675%5==0 → RESEARCH
+- iteration: 675
+- lastMode: RESEARCH
+- lastItem: research-675-pass137
+- lastResult: RESEARCH pass #137. 6 net-new BACKLOG items: israel-for-irish-travelers (P2/S), israel-for-portuguese-travelers (P2/S), israel-for-vietnamese-travelers (P3/S), israel-for-chilean-travelers (P3/S), israel-for-peruvian-travelers (P3/S), israel-for-serbian-travelers (P3/S). No code changes. 23 candidates evaluated; 17 eliminated as already covered. Intel update: Haifa cruise terminal (May 2026, 1M passengers/year) noted for haifa-shore-excursions build context. Saturation ~95%.
+- nextRotationCategory: 676%5==1 → BUILD (monetization rotation)
 - higgsfieldSpent: 0
-- updatedAt: 2026-07-21T09:45Z
+- updatedAt: 2026-07-21T10:45Z
 - branch context: work on master; feature work on auto/<slug>
 
 Notes: iter674 REVIEW — review-674-meta-fix. Audited iter671 (negev-multi-day-hiking), iter672 (galilee-food-guide), iter673 (israel-by-month). Defects: 2 meta desc overruns (negev 174→146, galilee 172→153) and israel-by-month had 0 inbound links (added link from best-time-to-visit-israel.md). All other checks clean (links, hero images, H1 count, honesty). SHIPPED 4edcf38. 810 pages; 1106/1106 e2e pass. Pattern: BUILD iters routinely ship slightly-long descs; REVIEW passes remain essential.
