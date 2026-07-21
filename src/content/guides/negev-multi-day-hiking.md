@@ -1,6 +1,6 @@
 ---
 title: 'Negev Desert Multi-Day Hiking Guide (3–5 Days)'
-description: 'Plan a 3–5 day self-guided Negev desert hiking circuit: Makhtesh Ramon, Ein Avdat canyon, Avdat Nabataean ruins, and Sde Boker. Water logistics, camping, and seasonal safety.'
+description: '3–5 day self-guided Negev hiking circuit: Makhtesh Ramon, Ein Avdat canyon, Avdat ruins, Sde Boker. Water logistics, camping, and seasonal safety.'
 heroImage: /images/regions/negev/desert.jpg
 category: Planning
 updatedAt: 2026-07-21

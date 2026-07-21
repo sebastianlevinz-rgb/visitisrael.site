@@ -1,6 +1,6 @@
 ---
 title: 'Galilee Food Guide: What to Eat & Where (2026)'
-description: 'Your complete Galilee food guide: Saint Peter Fish in Tiberias, Druze flatbread villages, Golan Heights wine, Nazareth Arab cuisine, and Upper Galilee farm-to-table dining.'
+description: 'Complete Galilee food guide: Saint Peter Fish in Tiberias, Druze flatbread villages, Golan Heights wine, Nazareth Arab cuisine, and farm-to-table dining.'
 heroImage: /images/regions/galilee/tiberias.jpg
 category: Food
 updatedAt: 2026-07-21
