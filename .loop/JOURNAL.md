@@ -10718,3 +10718,9 @@ Gate: pnpm check 0 errors; pnpm build 814 pages (+1); pnpm test:e2e 1110/1110 pa
 Merge SHA: 6b18fca (squash direct to master). Pushed.
 Prod: CI Lighthouse in_progress at push (standard pattern); Vercel deploy pending confirmation.
 Next: iter 682 → BUILD (682%5==2; seo-content rotation).
+
+## 2026-07-21 · iter 682 · BUILD (seo-content) · israel-national-bike-trail
+What: new /israel-national-bike-trail — Israel National Bike Trail (IBT) complete cycling guide (1,200km, Mount Hermon→Eilat). P2/M seo-content from iter650 research. Distinct from cycling-in-israel.md (urban cycling) and israel-national-trail-hiking.md (walking trail). Best sections for 5–7 day international visits: Galilee (Dan→Rosh Pina, ~130km), Jerusalem Hills (~90km), Negev–Arava (Ramon Crater→Eilat, ~200km). IBT at-a-glance table, 5 landscape zones, bike hire by city (TLV/Jerusalem/Eilat), navigation (ibt.org.il GPX + Trails of Israel app + Komoot), flying with bike, accommodation types, water planning table, The Israel Ride annual event (November, israelride.com), practical tips (N→S direction, solo/group, Shabbat, Golan safety). 3 affiliate CTAs (discovercars/getyourguide/booking), 7 FAQs. Dense cross-links.
+Gate: pnpm check 0 errors; build 815 pages (+1); 1110/1110 e2e pass.
+Ship: committed to master 6d05a07, pushed origin/master.
+Next: tools (iter 683, 683%5==3).

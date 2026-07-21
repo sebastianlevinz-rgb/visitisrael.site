@@ -1,13 +1,15 @@
 # LOOP STATE
 
-- iteration: 681
+- iteration: 682
 - lastMode: BUILD
-- lastItem: haifa-shore-excursions
-- lastResult: SHIPPED 6b18fca. New /haifa-shore-excursions guide. 814 pages (+1); 1110/1110 e2e pass; pnpm check 0 errors. CI Lighthouse in_progress at push.
-- nextRotationCategory: 682%5==2 → seo-content
+- lastItem: israel-national-bike-trail
+- lastResult: SHIPPED 6d05a07. New /israel-national-bike-trail guide. 815 pages (+1); 1110/1110 e2e pass; pnpm check 0 errors. CI Lighthouse in_progress at push.
+- nextRotationCategory: 683%5==3 → tools
 - higgsfieldSpent: 0
-- updatedAt: 2026-07-21T16:50Z
+- updatedAt: 2026-07-21T18:40Z
 - branch context: work on master; feature work on auto/<slug>
+
+Notes: iter682 BUILD (seo-content) — israel-national-bike-trail. SHIPPED 6d05a07. P2/M confirmed gap (iter650 research; distinct from cycling-in-israel.md which focuses on urban cycling; 1,200km north-south off-road route; ~400km northern section open per 2026 bikemap data). New /israel-national-bike-trail guide: IBT overview table (1200km, 27 segments, ibt.org.il), 5 landscape zones, 3 best-sections for 5-7 days (Galilee, Jerusalem Hills, Negev-Arava), bike hire by city (Tel Aviv/Jerusalem/Eilat), navigation (ibt.org.il GPX + Trails of Israel app + Komoot), flying with bike (airline policy overview), accommodation types, water planning table, The Israel Ride annual event (November, israelride.com), practical tips (direction, solo/group, Shabbat, Golan safety). 3 affiliate CTAs (discovercars/getyourguide/booking), 7 FAQs. Cross-links: /cycling-in-israel + /israel-national-trail-hiking + /negev-multi-day-hiking + /mitzpe-ramon-guide + /hiking-in-israel + /car-rental-israel. 815 pages (+1); 1110/1110 e2e pass.
 
 Notes: iter681 BUILD (monetization) — haifa-shore-excursions. SHIPPED 6b18fca. P2/S monetization (upgraded P3→P2 in iter680 when Haifa cruise terminal opened May 2026). New /haifa-shore-excursions guide targeting 'Haifa shore excursions' search intent — distinct from haifa-cruise-terminal-guide (terminal facilities/arrival) and cruise-shore-excursions-israel (combined Haifa+Ashdod overview). Four circuits: (1) Haifa city half-day — Bahá'í Gardens + German Colony + Wadi Nisnas; (2) Haifa + Old Akko by train (20 min) — most popular combination; (3) Caesarea + Bahá'í + Akko history circuit — private car needed; (4) Galilee + Nazareth + Sea of Galilee — full-day, ~70 min, popular with Christian pilgrims. Each circuit has timing table. Comparison table with drive times, hours needed, independent-feasibility and Shabbat risk. Port-at-a-glance table references May 2026 new terminal. Shabbat warning for Friday arrivals. 3 affiliate CTAs (GYG excursions, Viator Galilee, Booking.com Haifa). 7 FAQs. Smoke + a11y tests extended. Cross-links: cruise-shore-excursions-israel.md + haifa-cruise-terminal-guide.md → new page. 814 pages (+1); 1110/1110 e2e pass. CI Lighthouse in_progress at push.
 
