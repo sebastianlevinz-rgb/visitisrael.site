@@ -177,3 +177,5 @@ The natural pairing. [Masada](/dead-sea/masada) is 20 km south of Ein Bokek on R
 The reverse order (beach first, Masada second) also works for the daytime cable-car version but is not practical for sunrise. See our [Masada & Dead Sea day trip guide](/masada-dead-sea-day-trip) for the full breakdown and our [Masada tours comparison](/masada-tours-compared) for the guided vs self-drive options.
 
 **Add Qumran:** If you are driving yourself, the [Qumran National Park](/qumran-guide) — where the Dead Sea Scrolls were discovered in 1947 — is directly on Route 90 about 12 km north of Ein Bokek. A 90-minute detour at Qumran in the morning fits naturally before you head to the float beaches in the afternoon.
+
+**Add Nahal Pratzim (south Dead Sea):** For drivers heading south, the [Nahal Pratzim salt canyon and Flour Cave](/nahal-pratzim-guide) at Mount Sodom are 5 km south of Ein Bokek on Route 90. The Flour Cave (15 min return, free entry) and the short canyon loop (1–2 hours) make a distinctive half-day extension that most visitors never find.

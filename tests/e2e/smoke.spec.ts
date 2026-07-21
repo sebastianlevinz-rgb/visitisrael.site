@@ -635,6 +635,7 @@ const ROUTES = [
   '/israel-for-irish-travelers',
   '/ashdod-cruise-port-excursions',
   '/haifa-shore-excursions',
+  '/nahal-pratzim-guide',
 ];
 
 for (const route of ROUTES) {

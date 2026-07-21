@@ -201,3 +201,4 @@ Emergency number in Israel: **101** (Magen David Adom / emergency services). Isr
 - [Israel National Parks Pass guide](/israel-national-parks-pass) — INPA pass coverage and current prices
 - [South Israel itinerary](/south-israel-itinerary) — car-based circuit through the Negev and Eilat
 - [Israel safety guide](/is-israel-safe) — current travel conditions and desert safety guidance
+- [Nahal Pratzim & the Flour Cave](/nahal-pratzim-guide) — free salt-canyon hike at Mount Sodom, 20 km south of the Dead Sea resort strip; a hard alternative for strong hikers extending a Dead Sea day
