@@ -10507,3 +10507,41 @@ Gate: pnpm check 0 errors; pnpm build 806 pages (+1 vs iter666); pnpm test:e2e 1
 Ship: committed to master 24416fc3972d577857f30c7f2871abf04411277a, pushed.
 Prod: Lighthouse workflow triggered at push — expected in_progress.
 Next: iter 668 = BUILD (668%5==3; tools rotation). Top tools items from BACKLOG.
+
+## 2026-07-21T04:00Z · iter 668 · BUILD (tools→seo-content fallthrough) · israel-biblical-highway
+Startup: fresh cloud continuation (context resumption from compacted prior session). Local reset to
+  origin/master post-rebase. iter667 state advance (c043a07) found on origin/master; rebased
+  60a15f6 on top.
+Orient: iteration 668, 668%5==3 → BUILD (tools rotation). Tools section in BACKLOG confirmed
+  entirely SHIPPED. Fell through to seo-content. Scanned P1/P2 ready items.
+  Picked: israel-biblical-highway (P2/M, seo-content+monetization) — confirmed gap: no existing
+  file; iter645 research had fully scoped it; strong news hook (June 18 2026 inauguration);
+  faith tourism = site's strongest audience segment; 3 clear affiliate CTAs; Hebron scope
+  exclusion already designed into the backlog spec.
+What: New /israel-biblical-highway guide. Covers the Derech HaTanach (דרך התנ"ך) national
+  faith-tourism corridor inaugurated by PM Netanyahu and US Ambassador Huckabee on June 18 2026.
+  Content: Route 60 overview (watershed ridge of central highlands, Area C/B/A framing),
+  5 key sites: Tel Be'er Sheva (UNESCO heritage, INPA national park, Abraham/Isaac wells,
+  horned altar in situ), Bethlehem (cross-link /bethlehem-travel-guide), Jerusalem (Western
+  Wall, Via Dolorosa, Church of Holy Sepulchre, City of David, Pilgrimage Road),
+  Beit El (Jacob's dream site, Genesis 28, Area C, guided tour recommended),
+  Tel Shiloh (Tabernacle reconstruction at Shiloh Heritage Site, Sde Hemed Tours,
+  Iron Age I–II archaeology, collar-rim storage jars). Access + safety section:
+  Southern section (Be'er Sheva→Jerusalem; entirely Israel, self-drive OK); Central
+  (Bethlehem; Area A; guided tour required); Northern (Jerusalem→Beit El→Shiloh; Area C;
+  licensed guide strongly recommended). Government advisory links (US/UK/AU).
+  Getting there: hire car (DiscoverCars), guided tours (GYG), public transport (not feasible
+  for Beit El/Shiloh). 2-day itinerary. Where-to-stay cross-link (/where-to-stay/jerusalem).
+  7 FAQs (What is the Biblical Highway, Is it safe, Is Hebron included, Do I need a guide,
+  What is Tel Shiloh, Best season, How to combine with wider Israel). 3 affiliate CTAs
+  (discovercars: Route 60 hire car; getyourguide: biblical heritage tours Jerusalem;
+  booking: Jerusalem hotels).
+  Hebron explicitly excluded per PROJECT.md — noted in FAQ ("outside the scope of this guide").
+  Cross-links added: Footer.astro (Biblical Highway Route 60 link after zionist-heritage-trail),
+  christian-pilgrimage-holy-land.md (Derech HaTanach cross-link paragraph before final para),
+  jewish-heritage-israel.md (Biblical Highway bullet point in practical tips section).
+Gate: pnpm check 0 errors (130 files); pnpm build 807 pages (+1 vs iter667); pnpm test:e2e
+  1105/1105 PASS (+1 new smoke test for /israel-biblical-highway).
+Ship: rebased on c043a07 (iter667 state); committed 60a15f6 to master, pushed.
+Prod: Vercel CI triggered at push.
+Next: iter 669 = REVIEW (669%5==4 → REVIEW mode).

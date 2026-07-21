@@ -1,13 +1,15 @@
 # LOOP STATE
 
-- iteration: 667
+- iteration: 668
 - lastMode: BUILD
-- lastItem: tel-aviv-hatachana
-- lastResult: BUILD (seo-content). New /tel-aviv/hatachana attractions page: HaTachana Ottoman railway complex (1892), Friday organic market, Thursday designer market, restaurants, courtyard events, walking route Neve Tzedek→HaTachana→Old Jaffa. Cross-links added in neve-tzedek-guide.md, jaffa-hotels-guide.md, 3-days-in-tel-aviv.md. SHIPPED 24416fc. 806 pages; 1104/1104 e2e pass.
-- nextRotationCategory: 668%5==3 → BUILD (tools rotation)
+- lastItem: israel-biblical-highway
+- lastResult: BUILD (tools→seo-content fallthrough). New /israel-biblical-highway — Derech HaTanach Route 60 faith-tourism guide. Tel Be'er Sheva, Bethlehem cross-link, Jerusalem, Beit El, Tel Shiloh. 7 FAQs, 3 CTAs (discovercars/getyourguide/booking). West Bank A/B/C safety framing. Cross-links: Footer.astro, christian-pilgrimage-holy-land.md, jewish-heritage-israel.md. SHIPPED 60a15f6. 807 pages; 1105/1105 e2e pass.
+- nextRotationCategory: 669%5==4 → REVIEW
 - higgsfieldSpent: 0
-- updatedAt: 2026-07-21T03:20Z
+- updatedAt: 2026-07-21T04:00Z
 - branch context: work on master; feature work on auto/<slug>
+
+Notes: iter668 BUILD (tools→seo-content fallthrough) — israel-biblical-highway. SHIPPED 60a15f6. tools entirely SHIPPED; fell through to seo-content. New /israel-biblical-highway faith-tourism guide: Derech HaTanach national initiative (Netanyahu + Huckabee inauguration June 18 2026), Route 60 corridor from Tel Be'er Sheva (UNESCO heritage, INPA national park) → Bethlehem (cross-link /bethlehem-travel-guide) → Jerusalem (cross-links /via-dolorosa-guide, /church-holy-sepulchre-guide, /jerusalem/city-of-david, /christian-pilgrimage-holy-land, /jewish-heritage-israel) → Beit El (Jacob's dream site, Area C, guided tour recommended) → Tel Shiloh (Tabernacle reconstruction, archaeological site). Hebron explicitly excluded per PROJECT.md. West Bank A/B/C framing with US/UK/AU government advisory links. 7 FAQs, 3 affiliate CTAs (discovercars/getyourguide/booking). 807 pages; 1105/1105 e2e PASS. Pre-gate: iter667 state advance (tel-aviv-hatachana, 24416fc) had not been pushed before this session; c043a07 found on origin/master → rebased 60a15f6 on top of it.
 
 Notes: iter667 BUILD (seo-content) — tel-aviv-hatachana. SHIPPED 24416fc. P2/S confirmed gap (no existing file; HoshenTours + HaTachana.co.il + Timeout TLV all rank; neve-tzedek-guide and jaffa-hotels-guide flanked it geographically but nothing about the station). New /tel-aviv/hatachana attractions sub-destination: history (1892 Jaffa–Jerusalem Railway; first railway in Ottoman Palestine; 22 stone buildings reopened 2010), Need-to-know table, weekly markets (Friday organic 08:00–14:00 + Thursday designer 17:00–22:00), restaurants, design boutiques, courtyard events, walking route circuit. 5 FAQs. heroImage: /images/sub-destinations/tel-aviv/neve-tzedek.jpg (pre-credited). Broken link bug fixed: initial cross-links used /tel-aviv/neve-tzedek / /tel-aviv/florentin in wrong format (dashes); correct URLs use /tel-aviv/ prefix. Link-checker caught; fixed. 806 pages; 1104/1104 e2e pass.
 
