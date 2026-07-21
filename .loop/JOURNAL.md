@@ -10581,3 +10581,36 @@ Gate: pnpm check 0 errors (130 files, 0 warnings); pnpm build 807 pages; pnpm te
 
 Result: REVIEW CLEAN. No fixes needed.
 Next: iter 670 = RESEARCH (670%5==0 → RESEARCH mode).
+
+## 2026-07-21T05:30Z · iter 670 · RESEARCH · research-670-pass136
+
+Startup: cloud env, master at 572ba36990c55aa7559a9161e74c85ec0d245420. No STOP flag.
+Mode: 670%5==0 → RESEARCH.
+
+Research pass #136 — subagent task ac40c1990e0c438c9 completed before this session.
+De-duplicated 16 research agent candidates against BACKLOG.md (1539 lines), DONE.md, and src/content/guides/ (341 files).
+
+False leads eliminated (13/16):
+  - tel-aviv-day-trips: day-trips-from-tel-aviv.md EXISTS
+  - israel-canyoning-rappelling: BACKLOG iter625 (P2 after iter645)
+  - galilee-food-wine-route: covered by galilee-food-guide (P3/iter215) + galilee-wine-trail (P2/iter400)
+  - dead-sea-psoriasis-spa: dead-sea-medical-tourism.md EXISTS (SHIPPED iter306)
+  - israel-yoga-retreats: BACKLOG iter150 (P2/M)
+  - via-ferrata-israel: file EXISTS
+  - israel-travel-2026-whats-new: SHIPPED iter487
+  - israel-hidden-gems-local-secrets: SHIPPED iter297
+  - negev-jeep-safari: likely BACKLOG iter570 (negev-jeep-tours); not added pending verify
+  - tel-aviv-digital-nomad (variant): digital-nomad guide P3/M already in BACKLOG
+  - northern-israel-photography-workshop: photography-tours P3/S added iter665
+  - israel-entry-requirements-2026: visa-information.md + israel-travel-2026 SHIPPED covers ETA-IL
+  - israel-mice (SHIPS variant): PARTIALLY covered by SHIPPED iter501 → new P3 item added for B2B angle
+
+Net-new BACKLOG items added (3):
+  1. things-to-do-israel-by-month (P2/L) — TouristIsrael 12 monthly pages; large aggregate SEO
+  2. negev-multi-day-hiking (P2/S) — 10Adventures 5-day guide; distinct from INT section hike
+  3. israel-mice-incentive-travel (P3/M) — B2B event planner audience distinct from SHIPPED business-travel-guide
+
+Priority upgrade: galilee-food-guide P3→P2 (JNF Galilee Culinary Institute 100M NIS hook, opening end 2026).
+
+No code shipped (RESEARCH mode). No gate run.
+Next: iter 671 → BUILD (671%5==1; monetization rotation).

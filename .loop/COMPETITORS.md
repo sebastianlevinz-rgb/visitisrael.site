@@ -5771,3 +5771,29 @@ Israel's Ministry of Agriculture announced 13M ILS investment to develop Galilee
 Saturation: ~95%. 1 net-new BACKLOG item (/israel-photography-tours P3/S) from a broad sweep of 15+ search angles. The site is deeply saturated — new gaps are narrow niches (photography workshop booking, specific village guides) rather than broad topics. The most important remaining unshipped items are: (a) high-value P2 nationality guides (Italian, French) awaiting BUILD turn; (b) P2/S /israel-surfing (confirmed high-value competitive gap per this pass); (c) P2/M /birdwatching-in-israel; (d) P2/S biblical-highway-guide. Future research passes should focus on: content freshness on high-converting affiliate pages (hotels/tours); emerging 2026-2027 tourism developments; and specialty niches like LGBTQ+ travel updates, family micro-trips, or cross-border experiences.
 
 **Next iteration**: 666 → BUILD (666%5==1; monetization rotation)
+
+### 2026-07-21 · iter 670 · RESEARCH pass #136
+
+**Focus:** Monthly seasonal content gaps, adventure niches (canyoning, via ferrata, caving), Negev multi-day hiking, MICE/incentive travel, yoga retreats, Galilee food-wine route, day-trip hubs, digital nomad
+
+**Sources researched:** touristisrael.com (12 monthly pages confirmed), 10adventures.com/negev, euromic.com/israel, isram.com/mice, matadornetwork.com/galilee, bookyogaretreats.com/israel, adventure-israel.com, tripadvisor.com Israel canyoning (x15 results confirmed), cooldestinations.com, tzurtours.com, bookretreats.com/israel, ronkin-list.com/working-remotely-from-tel-aviv, health.travel/destinations/middle-east/israel
+
+**Key competitor findings:**
+- **TouristIsrael 12 monthly pages**: touristisrael.com/things-to-do-in-israel-in-[month] confirmed for all 12 months; our events-festivals.md (calendar) + best-time-to-visit (annual) + seasonal guides (winter/summer/autumn) do NOT capture the "things to do in Israel in December" query format; aggregate SEO value across 12 pages is significant. → BACKLOG (P2/L, seo-content).
+- **10Adventures Negev Desert Hiking Tour**: 10adventures.com/tour/negev-desert-hiking-tour — 5-day guided trekking tour; distinct from our INT section hike (SHIPPED iter622) and south-israel-itinerary (road trip, SHIPPED iter451); targets multi-day ON-FOOT desert trekkers; no equivalent editorial guide exists. → BACKLOG (P2/S, seo-content+monetization).
+- **TouristIsrael + Euromic + Isram MICE pages**: three distinct competitor brands have dedicated B2B MICE/incentive travel pages targeting event planners (not individual business travelers); our SHIPPED business-travel-guide (iter501) covers individual corporate travelers; B2B event planner audience is genuinely distinct. → BACKLOG (P3/M, seo-content+monetization).
+- **Galilee Culinary Institute timeliness**: JNF-USA 100M NIS Galilee Culinary Institute (Chef Lior Lev Sercarz, Kiryat Shmona area, opening end of 2026) creates fresh editorial hook for galilee-food-guide (existing BACKLOG iter215, P3/S) → priority upgrade P3→P2.
+
+**False leads confirmed eliminated (already shipped or in backlog):**
+- `/tel-aviv-day-trips`: day-trips-from-tel-aviv.md EXISTS
+- `/israel-canyoning-rappelling`: BACKLOG iter625 (P2 after iter645 upgrade)
+- `/galilee-food-wine-route`: two existing items cover this (galilee-food-guide P3/iter215 + galilee-wine-trail P2/iter400)
+- `/dead-sea-psoriasis-spa`: dead-sea-medical-tourism.md EXISTS (SHIPPED iter306)
+- `/israel-yoga-retreats`: BACKLOG iter150 (P2/M)
+- `/via-ferrata-israel`: file EXISTS in guides/
+- `/israel-travel-2026-whats-new`: SHIPPED iter487
+- `/israel-hidden-gems-local-secrets`: SHIPPED iter297
+
+**Saturation: ~95%.** 3 net-new items from 16 candidates is consistent with extreme saturation at pass #136. Remaining unshipped high-value items: (a) nationality guides (Italian/French P2/S); (b) israel-surfing P2/S (confirmed high-value competitive gap via pass #135); (c) israel-national-bike-trail P2/M; (d) galilee-wine-trail P2/M (priority upgraded this pass via GCI hook).
+
+**Next iteration**: 671 → BUILD (671%5==1; monetization rotation)
