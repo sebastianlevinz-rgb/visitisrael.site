@@ -10676,3 +10676,9 @@ What: RESEARCH pass #137. Evaluated 23 nationality guide and content-angle candi
 Gate: N/A (RESEARCH mode).
 Ship: .loop/ memory files updated only; committed to master.
 Next: iter 676 → BUILD (676%5==1; monetization rotation).
+
+## 2026-07-21T12:00Z · iter 676 · BUILD (monetization) · israel-for-irish-travelers
+What: New /israel-for-irish-travelers guide (P2/S monetization+seo-content). Confirmed gap from iter675 research. Irish English-speaking market (~5M population); strong Catholic pilgrimage tradition; Ryanair DUB–TLV seasonal hook; ETA-IL awareness gap for pilgrimage group organisers. Guide covers: ETA-IL (₪25/€7; individual application — common group misconception); DFA advisory link only (ireland.ie); May 2024 Ireland–Palestine recognition context (practical only, no editorial); Embassy of Ireland in Tel Aviv confirmed; Ryanair seasonal + LHR/Dubai/Istanbul connections; full Catholic pilgrimage circuit (Galilee/Nazareth/Jerusalem/Bethlehem) with Irish Franciscan connection (Custody of Holy Land since 1342); EHIC gap warning (EHIC valid EU/EEA only — Israel excluded — standalone travel insurance required); Revolut/Wise banking tips; Type G→H adapter (same 230V — no converter); SIM/eSIM. 3 CTAs: Booking.com, GYG Jerusalem Old City tour, DiscoverCars. Cross-link appended to first-time-in-israel.md nationality list. Smoke test added to tests/e2e/smoke.spec.ts.
+Gate: pnpm check 0 errors; pnpm build 811 pages (+1); pnpm test:e2e 1107/1107 pass.
+Ship: squash-committed b487c8f to master; pushed. CI in_progress at push.
+Next: iter 677 → BUILD (677%5==2; seo-content rotation).

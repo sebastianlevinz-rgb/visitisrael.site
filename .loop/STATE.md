@@ -1,12 +1,12 @@
 # LOOP STATE
 
-- iteration: 675
-- lastMode: RESEARCH
-- lastItem: research-675-pass137
-- lastResult: RESEARCH pass #137. 6 net-new BACKLOG items: israel-for-irish-travelers (P2/S), israel-for-portuguese-travelers (P2/S), israel-for-vietnamese-travelers (P3/S), israel-for-chilean-travelers (P3/S), israel-for-peruvian-travelers (P3/S), israel-for-serbian-travelers (P3/S). No code changes. 23 candidates evaluated; 17 eliminated as already covered. Intel update: Haifa cruise terminal (May 2026, 1M passengers/year) noted for haifa-shore-excursions build context. Saturation ~95%.
-- nextRotationCategory: 676%5==1 → BUILD (monetization rotation)
+- iteration: 676
+- lastMode: BUILD
+- lastItem: israel-for-irish-travelers
+- lastResult: SHIPPED b487c8f. New /israel-for-irish-travelers guide (P2/S monetization+seo-content). ETA-IL requirements for Irish passport holders, Ireland–Israel diplomatic context (factual framing), Ryanair DUB–TLV seasonal route + LHR/Dubai/Istanbul connections, Catholic pilgrimage circuit (Galilee/Nazareth/Jerusalem/Bethlehem), Irish Franciscan connection to Holy Land (Custody of the Holy Land since 1342), EHIC coverage gap warning (EHIC not valid outside EU/EEA), Revolut/Wise money tips, Type G→H adapter, SIM/eSIM. 3 CTAs: Booking.com, GYG Jerusalem tour, DiscoverCars. Cross-link added to first-time-in-israel.md. Smoke test added. 811 pages (+1); 1107/1107 e2e pass; 0 check errors. CI in_progress at push.
+- nextRotationCategory: 677%5==2 → BUILD (seo-content rotation)
 - higgsfieldSpent: 0
-- updatedAt: 2026-07-21T10:45Z
+- updatedAt: 2026-07-21T12:00Z
 - branch context: work on master; feature work on auto/<slug>
 
 Notes: iter674 REVIEW — review-674-meta-fix. Audited iter671 (negev-multi-day-hiking), iter672 (galilee-food-guide), iter673 (israel-by-month). Defects: 2 meta desc overruns (negev 174→146, galilee 172→153) and israel-by-month had 0 inbound links (added link from best-time-to-visit-israel.md). All other checks clean (links, hero images, H1 count, honesty). SHIPPED 4edcf38. 810 pages; 1106/1106 e2e pass. Pattern: BUILD iters routinely ship slightly-long descs; REVIEW passes remain essential.
