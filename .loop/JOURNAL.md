@@ -10614,3 +10614,28 @@ Priority upgrade: galilee-food-guide P3→P2 (JNF Galilee Culinary Institute 100
 
 No code shipped (RESEARCH mode). No gate run.
 Next: iter 671 → BUILD (671%5==1; monetization rotation).
+
+## 2026-07-21T06:50Z · iter 671 · BUILD (monetization→seo-content+monetization fallthrough) · negev-multi-day-hiking
+What: New /negev-multi-day-hiking guide (P2/S, seo-content+monetization). 3–5 day self-planned
+  Negev desert hiking circuit based in Mitzpe Ramon. Confirmed BACKLOG gap from iter670 research:
+  DISTINCT from israel-national-trail-hiking.md (INT section hiking) + south-israel-itinerary.md
+  (car road trip) + hiking-in-israel.md (day hike overview). 10Adventures "Negev Desert Hiking
+  Tour 5-day" competitor guide confirmed gap.
+  Content: Day 1 crater rim orientation (Ilan Ramon Space Center + rim promenade + Yotam Road
+  sunset); Day 2 Wadi Ardon full crater floor day (descent via Prism viewpoint, Carpenter's
+  Workshop basalt columns, Nubian ibex, wildflowers); Day 3 Ein Avdat canyon traverse (metal
+  ladder path, spring pool, Sde Boker + Ben-Gurion grave); Day 4 extension Avdat Nabataean ruins
+  + Negev Highlands wine; Day 5 extension southern crater floor jeep routes or Timna.
+  Critical safety content: water logistics table (zero water on crater floor; 5L minimum), camping
+  guide (INPA designated sites + advance booking), gear checklist, safety matrix with heat
+  threshold/action table. 3 affiliate CTAs: DiscoverCars (trailhead car hire), GYG (guided Negev
+  treks), SafetyWing (desert remote-area insurance).
+  Cross-links added: hiking-in-israel.md (multi-day trail section), mitzpe-ramon-guide.md (hiking
+  section), 3-days-in-negev.md (Useful Cross-Links).
+Gate: pnpm check 0 errors; pnpm build 808 pages (+1 from 807); pnpm test:e2e 1105/1105 pass.
+Ship: committed 9c60089 to master; pushed. Lighthouse CI in_progress at push — consistent with prior success pattern.
+Prod: CI Lighthouse in_progress at iteration end; next run to confirm.
+Monetization section empty (all shipped) → fell through to best seo-content+monetization item.
+BACKLOG: negev-multi-day-hiking removed (shipped). galilee-food-guide upgraded P3→P2.
+DONE: negev-multi-day-hiking appended.
+Next: iter 672 → BUILD (672%5==2; seo-content rotation).
