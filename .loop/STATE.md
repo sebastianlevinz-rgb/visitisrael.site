@@ -1,12 +1,12 @@
 # LOOP STATE
 
-- iteration: 677
+- iteration: 678
 - lastMode: BUILD
-- lastItem: galilee-wine-trail
-- lastResult: SHIPPED 38b7d38. New /galilee-wine-trail guide (P2/S seo-content+monetization). Upper Galilee wine circuit distinct from golan-heights-wineries.md (Golan-only). 2-day self-drive loop from Tiberias/Haifa: Day 1 Golan (cross-ref to golan-heights-wineries), Day 2 Upper Galilee — Galil Mountain Winery (Kibbutz Yiron, open daily), Kerem ben Zimra plateau, Dalton Winery (900m, Israel's highest winery). Rosh Pinna as overnight base. Driving logistics, Shabbat planning, designated-driver note (0.05% BAC), wine shipping tips, 7 FAQs. 3 CTAs: DiscoverCars + Booking (Rosh Pinna/Tiberias) + GYG guided tours. Cross-link added to israel-wine-wineries.md. 812 pages (+1); 1107/1107 e2e pass; 0 check errors. CI in_progress at push.
-- nextRotationCategory: 678%5==3 → BUILD (technical rotation)
+- lastItem: ashdod-cruise-port-excursions
+- lastResult: SHIPPED d90aa1c. New /ashdod-cruise-port-excursions guide (P2/S seo-content+monetization). technical rotation fully SHIPPED → fell through to seo-content. Ashdod cruise port standalone guide: port-at-a-glance table; Jerusalem from Ashdod (4 transport options with costs: private guide/shared mini-coach/private taxi/bus 405-436); Dead Sea + Masada circuit (8–10h; Masada cable car + Ein Bokek float); Tel Aviv half-day timed itinerary (Jaffa 9am → promenade → Carmel Market → Bauhaus walk → return); Bethlehem (PA Area A — licensed guide required); full 6-destination comparison table; extension stay section. 7 FAQs. 3 CTAs: GYG (Jerusalem from Ashdod), Viator (Dead Sea+Masada), Booking.com (Tel Aviv extension). Footer cross-link + cruise-shore-excursions-israel.md updated with new guide link. Smoke test route added. 813 pages (+1); 1108/1108 e2e pass; 0 check errors. CI in_progress at push. Stale auto/* branches noted (bga-transfers-sherut-update, israel-hebrew-phrases, israel-vs-cyprus, jerusalem-trail) — content already in master, branches are stale artifacts.
+- nextRotationCategory: 679%5==4 → REVIEW
 - higgsfieldSpent: 0
-- updatedAt: 2026-07-21T13:00Z
+- updatedAt: 2026-07-21T14:00Z
 - branch context: work on master; feature work on auto/<slug>
 
 Notes: iter674 REVIEW — review-674-meta-fix. Audited iter671 (negev-multi-day-hiking), iter672 (galilee-food-guide), iter673 (israel-by-month). Defects: 2 meta desc overruns (negev 174→146, galilee 172→153) and israel-by-month had 0 inbound links (added link from best-time-to-visit-israel.md). All other checks clean (links, hero images, H1 count, honesty). SHIPPED 4edcf38. 810 pages; 1106/1106 e2e pass. Pattern: BUILD iters routinely ship slightly-long descs; REVIEW passes remain essential.
