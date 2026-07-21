@@ -1,13 +1,15 @@
 # LOOP STATE
 
-- iteration: 678
-- lastMode: BUILD
-- lastItem: ashdod-cruise-port-excursions
-- lastResult: SHIPPED d90aa1c. New /ashdod-cruise-port-excursions guide (P2/S seo-content+monetization). technical rotation fully SHIPPED → fell through to seo-content. Ashdod cruise port standalone guide: port-at-a-glance table; Jerusalem from Ashdod (4 transport options with costs: private guide/shared mini-coach/private taxi/bus 405-436); Dead Sea + Masada circuit (8–10h; Masada cable car + Ein Bokek float); Tel Aviv half-day timed itinerary (Jaffa 9am → promenade → Carmel Market → Bauhaus walk → return); Bethlehem (PA Area A — licensed guide required); full 6-destination comparison table; extension stay section. 7 FAQs. 3 CTAs: GYG (Jerusalem from Ashdod), Viator (Dead Sea+Masada), Booking.com (Tel Aviv extension). Footer cross-link + cruise-shore-excursions-israel.md updated with new guide link. Smoke test route added. 813 pages (+1); 1108/1108 e2e pass; 0 check errors. CI in_progress at push. Stale auto/* branches noted (bga-transfers-sherut-update, israel-hebrew-phrases, israel-vs-cyprus, jerusalem-trail) — content already in master, branches are stale artifacts.
-- nextRotationCategory: 679%5==4 → REVIEW
+- iteration: 679
+- lastMode: REVIEW
+- lastItem: review-679-wine-trail-link
+- lastResult: SHIPPED bcf9644. REVIEW of iters 676-678 (israel-for-irish-travelers, galilee-wine-trail, ashdod-cruise-port-excursions). All three clean on: title/desc length (≤65/≤160), zero H1 in body, internal links valid (where-to-stay/* dynamic routes confirmed, /golan/mount-bental resolved correctly via attractionSlug strip), JSON-LD honesty (rating/reviews fields in frontmatter not rendered to page), affiliate helper usage. One discoverability gap: galilee-food-guide.md discussed Upper Galilee wine (Galil Mountain, Dalton, Rosh Pinna) but only linked to /golan-heights-wineries, not the newer /galilee-wine-trail. Added 2 cross-links: wine-tasting paragraph + Plan your trip section. 813 pages; 1108/1108 e2e pass; 0 check errors. CI in_progress at push.
+- nextRotationCategory: 680%5==0 → RESEARCH
 - higgsfieldSpent: 0
-- updatedAt: 2026-07-21T14:00Z
+- updatedAt: 2026-07-21T14:45Z
 - branch context: work on master; feature work on auto/<slug>
+
+Notes: iter679 REVIEW — review-679-wine-trail-link. Audited iter676 (israel-for-irish-travelers), iter677 (galilee-wine-trail), iter678 (ashdod-cruise-port-excursions). All 3 pages clean: title/desc length OK, zero H1 in body, all internal links valid (where-to-stay/* dynamic routes confirmed; /golan/mount-bental serves correctly via attractionSlug prefix-strip), no fabricated visible data, affiliate helpers used correctly. One discoverability gap: galilee-food-guide.md omitted cross-link to /galilee-wine-trail (shipped iter677). Fixed: 2 new links added (wine paragraph + Plan your trip). SHIPPED bcf9644. 813 pages; 1108/1108 e2e pass. Pattern: newly shipped guides benefit from back-linking in related content pages; REVIEW passes catch these within 1–2 iterations.
 
 Notes: iter674 REVIEW — review-674-meta-fix. Audited iter671 (negev-multi-day-hiking), iter672 (galilee-food-guide), iter673 (israel-by-month). Defects: 2 meta desc overruns (negev 174→146, galilee 172→153) and israel-by-month had 0 inbound links (added link from best-time-to-visit-israel.md). All other checks clean (links, hero images, H1 count, honesty). SHIPPED 4edcf38. 810 pages; 1106/1106 e2e pass. Pattern: BUILD iters routinely ship slightly-long descs; REVIEW passes remain essential.
 

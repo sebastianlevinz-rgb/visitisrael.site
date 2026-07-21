@@ -10694,3 +10694,8 @@ What: New /ashdod-cruise-port-excursions guide (P2/S seo-content+monetization). 
 Gate: pnpm check 0 errors; pnpm build 813 pages (+1 from 812); pnpm test:e2e 1108/1108 pass.
 Ship: squash-committed d90aa1c to master; pushed. CI + Lighthouse in_progress at push.
 Next: iter 679 → REVIEW (679%5==4).
+
+## 2026-07-21T14:45Z · iter 679 · REVIEW · review-679-wine-trail-link
+What: Audited iters 676 (israel-for-irish-travelers), 677 (galilee-wine-trail), 678 (ashdod-cruise-port-excursions). Checks run: (1) title ≤65 / desc ≤160 — all 3 clean; (2) zero H1 in body — all 3 clean; (3) internal links — all valid (where-to-stay/* are dynamic routes confirmed via getStaticPaths; /golan/mount-bental correctly resolves via attractionSlug prefix-stripping golan-mount-bental → mount-bental); (4) honesty — rating/reviews/priceFrom fields in affiliate CTA frontmatter are NOT rendered to visitors (AffiliateCard.astro comment confirms, zero rendering code found); (5) inbound links — ashdod has 2 (footer + cruise guide), ireland has 1 (first-time-in-israel nationality list), galilee-wine-trail has 1 (israel-wine-wineries). Defect: galilee-food-guide.md discusses Upper Galilee wine (Galil Mountain, Dalton, Rosh Pinna farm-to-table) but linked only to /golan-heights-wineries — missing the newer /galilee-wine-trail guide (iter677) which covers exactly those Upper Galilee producers. Fix: 2 cross-links added to galilee-food-guide.md (wine paragraph + Plan your trip section). Gate: pnpm check 0 errors; pnpm build 813 pages; pnpm test:e2e 1108/1108 pass.
+Ship: committed bcf9644 to master; pushed. CI in_progress at push.
+Next: iter 680 → RESEARCH (680%5==0).
