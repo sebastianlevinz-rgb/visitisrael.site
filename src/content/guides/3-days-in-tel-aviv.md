@@ -137,7 +137,7 @@ The old port itself is worth a final return: the quay faces Tel Aviv across the 
 
 ### Midday: Final Tayelet walk
 
-Walk north along the **Tayelet** from Jaffa for the last time. A final swim at Gordon or Frishman Beach, a fresh juice from a market kiosk, or a coffee at one of the beachfront cafés makes a natural transition from three days of activity to departure mode.
+Walk north along the **Tayelet** from Jaffa for the last time. If you prefer to walk inland rather than on the seafront, the route north through **[HaTachana](/tel-aviv/hatachana)** (the restored Ottoman railway station complex, with a pleasant café courtyard) and then through Neve Tzedek to Rothschild is equally rewarding. A final swim at Gordon or Frishman Beach, a fresh juice from a market kiosk, or a coffee at one of the beachfront cafés makes a natural transition from three days of activity to departure mode.
 
 For last food shopping before leaving, the covered section of Carmel Market (open until Friday early afternoon, all other weekdays until evening) stocks good portable gifts: spice blends, tahini, date honey, dried za'atar. Items in sealed packaging pass Ben Gurion security easily.
 

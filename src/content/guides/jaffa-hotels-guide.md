@@ -90,7 +90,7 @@ Jaffa's budget accommodation sits mainly on the north-facing edges of the distri
 
 **Neve Tzedek guesthouses** — the neighbourhood immediately north of Jaffa — offer genuinely characterful small-hotel accommodation at prices below the Old Jaffa luxury tier. Neve Tzedek is one of Tel Aviv's most appealing areas and is within 10–15 minutes on foot of the main Jaffa attractions. If budget matters but you want atmosphere, Neve Tzedek is often a better choice than pushing further north to Florentin.
 
-For a full picture of Tel Aviv's budget options across all areas, see the [best hotels in Tel Aviv guide](/best-hotels-tel-aviv).
+For a full picture of Tel Aviv's budget options across all areas, see the [best hotels in Tel Aviv guide](/best-hotels-tel-aviv). Guests staying in Jaffa or the southern Neve Tzedek area are also well-placed for **[HaTachana](/tel-aviv/hatachana)** — the restored 1892 Ottoman railway station complex between Neve Tzedek and the port, with weekly markets, restaurants and courtyard events.
 
 ---
 

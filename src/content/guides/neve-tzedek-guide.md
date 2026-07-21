@@ -103,7 +103,7 @@ For coffee: several independent specialty cafés along Shabazi and the lanes off
 
 Neve Tzedek connects naturally with the following areas:
 
-**[Jaffa](/jaffa-travel-guide):** 15 minutes walk south via HaTachana (the restored Ottoman railway station, now a retail and restaurant complex at the neighbourhood's southern edge). Jaffa adds the ancient port, the Flea Market and Abu Hassan hummus to a south Tel Aviv morning.
+**[Jaffa](/jaffa-travel-guide):** 15 minutes walk south via **[HaTachana](/tel-aviv/hatachana)** (the restored 1892 Ottoman railway station complex, now a cluster of restaurants, design boutiques and a weekly organic market at the neighbourhood's southern edge). Jaffa adds the ancient port, the Flea Market and Abu Hassan hummus to a south Tel Aviv morning.
 
 **[Carmel Market](/tel-aviv-carmel-market):** 10 minutes north. A logical combination: the market in the morning, Neve Tzedek boutiques and the Dellal courtyard after. On Tuesdays and Fridays, the Nahalat Binyamin artisan market runs alongside Carmel Market — designer jewellery, ceramics and handmade goods.
 
