@@ -10730,3 +10730,11 @@ What: new /nahal-pratzim-guide — Nahal Pratzim & the Flour Cave salt canyon hi
 Gate: pnpm check 0 errors; build 816 pages (+1); 1111/1111 e2e pass.
 Ship: squash-merged to master 1bf205a, pushed origin/master. CI in_progress at push (consistent with prior pattern; local gate canonical).
 Next: REVIEW (iter 684, 684%5==4).
+
+## 2026-07-21T20:46Z · iter 684 · REVIEW · review-684-meta-trim
+What: REVIEW slot (684%5==4). Audited the three most recently shipped guides: haifa-shore-excursions (iter681), israel-national-bike-trail (iter682), nahal-pratzim-guide (iter683).
+Findings: All three descriptions exceeded the 160-char limit (181, 168, 176 chars). All other checks CLEAN: 0 H1 nodes in body, all internal links valid (attraction routes /akko/old-city and /caesarea/national-park confirmed via attractionSlug logic; NOT dead), all hero images present, affiliate helpers used correctly, no fabricated prices/ratings/review counts.
+Fix: Trimmed 3 descriptions to 151/157/158 chars respectively. pnpm check 0 errors; build 816 pages; 1111/1111 e2e + a11y pass. SHIPPED 87141f9.
+Pattern: BUILD iters routinely ship slightly-long descs; REVIEW passes remain essential. Consistent with iters 649, 654, 674.
+Prod: CI in_progress at state-write time.
+Next: iter 685 = RESEARCH (685%5==0). nextRotationCategory = RESEARCH.

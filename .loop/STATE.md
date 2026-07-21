@@ -1,12 +1,12 @@
 # LOOP STATE
 
-- iteration: 683
-- lastMode: BUILD
-- lastItem: nahal-pratzim-guide
-- lastResult: SHIPPED 1bf205a. New /nahal-pratzim-guide. 816 pages (+1); 1111/1111 e2e pass; pnpm check 0 errors. CI in_progress at push.
-- nextRotationCategory: 684%5==4 → REVIEW
+- iteration: 684
+- lastMode: REVIEW
+- lastItem: review-684-meta-trim
+- lastResult: SHIPPED 87141f9. Audited iters 681-683 (haifa-shore-excursions, israel-national-bike-trail, nahal-pratzim-guide). 3 meta desc overruns fixed: 181→151, 168→157, 176→158 chars. H1 count, internal links, hero images, affiliate helper usage all clean. 816 pages; 1111/1111 e2e pass. CI in_progress at push.
+- nextRotationCategory: 685%5==0 → RESEARCH
 - higgsfieldSpent: 0
-- updatedAt: 2026-07-21T19:55Z
+- updatedAt: 2026-07-21T20:46Z
 - branch context: work on master; feature work on auto/<slug>
 
 Notes: iter683 BUILD (tools→seo-content fallthrough) — nahal-pratzim-guide. SHIPPED 1bf205a. tools section entirely SHIPPED; technical entirely SHIPPED; monetization entirely SHIPPED; fell through to seo-content. New /nahal-pratzim-guide: salt canyon and Flour Cave hiking at Mount Sodom (southwest Dead Sea shore). P2/S item confirmed missing (iter370 research). Three trail tiers: (1) Flour Cave — 15-min return, flat, family-friendly, headtorch needed, free entry; (2) Nahal Pratzim canyon loop — 0.9mi, 1-2h, moderate, slot canyon + Lot's Wife pillar + Dead Sea viewpoint; (3) Amiaz Plateau full day — 12.3mi, 5.5-6h, hard, remote, experienced hikers only. Logistics: Route 90 km193-194 pull-off, no bus stop, car essential, nearest services Neve Zohar. Flash-flood safety section (ims.gov.il link). Geology explanation (salt diapir, halite). 2 affiliate CTAs (DiscoverCars + Booking.com Dead Sea). 7 FAQs. Cross-links added: dead-sea-guide.md (Nahal Pratzim as half-day add-on), masada-dead-sea-day-trip.md (full-day Dead Sea south itinerary extension), dead-sea-tours-compared.md (self-drive add-on), negev-multi-day-hiking.md (Sodom ridge hard alternative). Smoke test +1. 816 pages (+1); 1111/1111 e2e pass.
