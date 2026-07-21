@@ -10724,3 +10724,9 @@ What: new /israel-national-bike-trail — Israel National Bike Trail (IBT) compl
 Gate: pnpm check 0 errors; build 815 pages (+1); 1110/1110 e2e pass.
 Ship: committed to master 6d05a07, pushed origin/master.
 Next: tools (iter 683, 683%5==3).
+
+## 2026-07-21 · iter 683 · BUILD (tools→seo-content fallthrough) · nahal-pratzim-guide
+What: new /nahal-pratzim-guide — Nahal Pratzim & the Flour Cave salt canyon hiking at Mount Sodom (Dead Sea south). P2/S seo-content from iter370 research. tools/technical/monetization all shipped; fell through to seo-content. Confirmed slug absent from guides/ before building. Three trail tiers: (1) Flour Cave 15-min return (family, free, headtorch required); (2) Nahal Pratzim canyon loop 0.9mi/1-2h moderate (slot canyon + Lot's Wife pillar + panoramic Dead Sea view); (3) Amiaz Plateau full day 12.3mi/5.5-6h hard (remote, experienced only). Logistics table (Route 90 km193-194, no bus, car essential). Flash-flood safety section with ims.gov.il link. Geology sidebar (salt diapir, halite, calcium sulphate Flour Cave). 2 affiliate CTAs (DiscoverCars/Booking.com Dead Sea), 7 FAQs. Cross-links: dead-sea-guide (half-day add-on), masada-dead-sea-day-trip (full-day south extension), dead-sea-tours-compared (self-drive), negev-multi-day-hiking (Sodom ridge hard alt). Smoke test +1 (/nahal-pratzim-guide).
+Gate: pnpm check 0 errors; build 816 pages (+1); 1111/1111 e2e pass.
+Ship: squash-merged to master 1bf205a, pushed origin/master. CI in_progress at push (consistent with prior pattern; local gate canonical).
+Next: REVIEW (iter 684, 684%5==4).

@@ -1,13 +1,15 @@
 # LOOP STATE
 
-- iteration: 682
+- iteration: 683
 - lastMode: BUILD
-- lastItem: israel-national-bike-trail
-- lastResult: SHIPPED 6d05a07. New /israel-national-bike-trail guide. 815 pages (+1); 1110/1110 e2e pass; pnpm check 0 errors. CI Lighthouse in_progress at push.
-- nextRotationCategory: 683%5==3 → tools
+- lastItem: nahal-pratzim-guide
+- lastResult: SHIPPED 1bf205a. New /nahal-pratzim-guide. 816 pages (+1); 1111/1111 e2e pass; pnpm check 0 errors. CI in_progress at push.
+- nextRotationCategory: 684%5==4 → REVIEW
 - higgsfieldSpent: 0
-- updatedAt: 2026-07-21T18:40Z
+- updatedAt: 2026-07-21T19:55Z
 - branch context: work on master; feature work on auto/<slug>
+
+Notes: iter683 BUILD (tools→seo-content fallthrough) — nahal-pratzim-guide. SHIPPED 1bf205a. tools section entirely SHIPPED; technical entirely SHIPPED; monetization entirely SHIPPED; fell through to seo-content. New /nahal-pratzim-guide: salt canyon and Flour Cave hiking at Mount Sodom (southwest Dead Sea shore). P2/S item confirmed missing (iter370 research). Three trail tiers: (1) Flour Cave — 15-min return, flat, family-friendly, headtorch needed, free entry; (2) Nahal Pratzim canyon loop — 0.9mi, 1-2h, moderate, slot canyon + Lot's Wife pillar + Dead Sea viewpoint; (3) Amiaz Plateau full day — 12.3mi, 5.5-6h, hard, remote, experienced hikers only. Logistics: Route 90 km193-194 pull-off, no bus stop, car essential, nearest services Neve Zohar. Flash-flood safety section (ims.gov.il link). Geology explanation (salt diapir, halite). 2 affiliate CTAs (DiscoverCars + Booking.com Dead Sea). 7 FAQs. Cross-links added: dead-sea-guide.md (Nahal Pratzim as half-day add-on), masada-dead-sea-day-trip.md (full-day Dead Sea south itinerary extension), dead-sea-tours-compared.md (self-drive add-on), negev-multi-day-hiking.md (Sodom ridge hard alternative). Smoke test +1. 816 pages (+1); 1111/1111 e2e pass.
 
 Notes: iter682 BUILD (seo-content) — israel-national-bike-trail. SHIPPED 6d05a07. P2/M confirmed gap (iter650 research; distinct from cycling-in-israel.md which focuses on urban cycling; 1,200km north-south off-road route; ~400km northern section open per 2026 bikemap data). New /israel-national-bike-trail guide: IBT overview table (1200km, 27 segments, ibt.org.il), 5 landscape zones, 3 best-sections for 5-7 days (Galilee, Jerusalem Hills, Negev-Arava), bike hire by city (Tel Aviv/Jerusalem/Eilat), navigation (ibt.org.il GPX + Trails of Israel app + Komoot), flying with bike (airline policy overview), accommodation types, water planning table, The Israel Ride annual event (November, israelride.com), practical tips (direction, solo/group, Shabbat, Golan safety). 3 affiliate CTAs (discovercars/getyourguide/booking), 7 FAQs. Cross-links: /cycling-in-israel + /israel-national-trail-hiking + /negev-multi-day-hiking + /mitzpe-ramon-guide + /hiking-in-israel + /car-rental-israel. 815 pages (+1); 1110/1110 e2e pass.
 
