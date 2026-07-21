@@ -631,6 +631,7 @@ const ROUTES = [
   '/via-ferrata-israel',
   '/israel-culinary-heritage-tourism',
   '/israel-biblical-highway',
+  '/israel-by-month',
 ];
 
 for (const route of ROUTES) {
