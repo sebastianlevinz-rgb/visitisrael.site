@@ -100,7 +100,7 @@ Mitzpe Ramon has over 35 marked trails ranging from a 30-minute rim stroll to mu
 
 **Nahal Ramon stream bed (4–6 hours, moderate-strenuous)**: The seasonal stream that carved the drainage outlet at the crater's western end. The trail follows the stream bed across the crater floor to the outlet canyon — a long flat walk through the most geologically varied part of the crater floor, ending at a viewpoint above the outlet. Return either on foot or arrange transport at the far end. This route in particular requires 3 litres of water per person and must start by 7:00am in summer.
 
-For multi-day crater traverses and technical routes, the [Hiking in Israel guide](/hiking-in-israel) covers the logistics, and the INPA rangers' office at the Space Center can advise on current trail conditions.
+For multi-day crater traverses and technical routes, the [Negev desert multi-day hiking guide](/negev-multi-day-hiking) covers a 3–5 day circuit based in Mitzpe Ramon with water logistics, camping, and day-by-day planning. The [Hiking in Israel guide](/hiking-in-israel) covers broader logistics, and the INPA rangers' office at the Space Center can advise on current trail conditions.
 
 ---
 

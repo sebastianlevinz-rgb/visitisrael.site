@@ -108,7 +108,7 @@ Other essentials: start at first light in warm weather; wear a hat and high-fact
 ## How to plan your hiking trip
 
 - **City-based and short on time?** Build day hikes around your regional bases — Ein Gedi and Masada from the [Dead Sea](/dead-sea); Arbel, Banias and the Jesus Trail's best day from the [Galilee](/galilee).
-- **A few days for a long trail?** The Jesus Trail is the easiest multi-day commitment; a northern or Carmel section of the National Trail is the next step up.
+- **A few days for a long trail?** The Jesus Trail is the easiest multi-day commitment; a northern or Carmel section of the National Trail is the next step up. For a Negev-specific multi-day circuit, see the [Negev desert multi-day hiking guide](/negev-multi-day-hiking).
 - **Get there.** A [rental car](/car-rental-israel) is close to essential for trailheads in the Galilee, Golan and Negev — see [transportation](/transportation) for the alternatives.
 - **Hiking on Shabbat?** Trails stay open, but transit stops — plan a car or check [what's open on Shabbat](/whats-open-on-shabbat).
 

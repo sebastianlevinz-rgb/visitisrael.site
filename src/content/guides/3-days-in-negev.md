@@ -166,6 +166,7 @@ The Negev is not a cheap destination relative to Tel Aviv or Haifa — accommoda
 - [Negev Desert guide](/negev) — region overview, best time to visit, and all Negev destinations
 - [Mitzpe Ramon guide](/mitzpe-ramon-guide) — complete guide to the crater town, hotels, and jeep operators
 - [Israel stargazing guide](/israel-stargazing) — dark-sky sites, best months, and tour operators
+- [Negev multi-day hiking guide](/negev-multi-day-hiking) — 3–5 day on-foot circuit with water logistics and camping
 - [Hiking in Israel](/hiking-in-israel) — rated trails including Ein Avdat and Makhtesh Ramon routes
 - [Beer-Sheva guide](/beer-sheva-guide) — the Negev capital, Tel Beer-Sheva UNESCO site, and Bedouin market
 - [Israel road trip guide](/israel-road-trip) — full national self-drive combining Negev, Dead Sea and north
