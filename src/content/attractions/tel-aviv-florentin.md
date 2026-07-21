@@ -85,7 +85,7 @@ Guided tours of Florentin's street art run daily — typically two hours coverin
 
 ## Nearby Attractions
 
-Florentin is the southern-edge creative quarter of central Tel Aviv. **Levinsky Market** sits ten minutes north and pairs naturally for a full south-Tel-Aviv day. **Neve Tzedek** is fifteen minutes west — the contrast between Florentin's grit and Neve Tzedek's polish is one of the city's defining experiences. **HaTachana** (the restored Ottoman railway station) is fifteen minutes west. **Old Jaffa** is twenty minutes south on foot through Manshiya and the southern tayelet.
+Florentin is the southern-edge creative quarter of central Tel Aviv. **Levinsky Market** sits ten minutes north and pairs naturally for a full south-Tel-Aviv day. **Neve Tzedek** is fifteen minutes west — the contrast between Florentin's grit and Neve Tzedek's polish is one of the city's defining experiences. **HaTachana** (the restored Ottoman railway station) is fifteen minutes west. **Old Jaffa** is twenty minutes south on foot through Manshiya and the southern tayelet. **[Dizengoff Square](/tel-aviv/dizengoff)** is twenty minutes north — the Friday market and café strip make a natural morning complement to an afternoon in Florentin.
 
 ## Why Visit
 
