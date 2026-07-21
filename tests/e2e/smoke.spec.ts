@@ -633,6 +633,7 @@ const ROUTES = [
   '/israel-biblical-highway',
   '/israel-by-month',
   '/israel-for-irish-travelers',
+  '/ashdod-cruise-port-excursions',
 ];
 
 for (const route of ROUTES) {
