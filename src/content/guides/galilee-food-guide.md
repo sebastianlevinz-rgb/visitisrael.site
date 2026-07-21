@@ -80,7 +80,7 @@ The Golan Heights plateau (900–1,200 m elevation, volcanic basalt soils, cool 
 
 **Artisan cheese** is a lesser-known Golan specialty: several Golan kibbutzim and moshavim produce goat's and sheep's milk cheeses sold at farm gates and Tiberias markets. Ask at the Tiberias daily market or any Upper Galilee farmstay for seasonal availability.
 
-A [self-drive wine circuit](/golan-heights-wineries) on the Golan is the most rewarding way to taste widely — plan a [car rental](/car-rental-israel) and designate a non-drinking driver; Israeli drink-drive limits are strict (0.05% BAC). For a guided experience, see the CTA above.
+A [self-drive wine circuit](/golan-heights-wineries) on the Golan is the most rewarding way to taste widely — plan a [car rental](/car-rental-israel) and designate a non-drinking driver; Israeli drink-drive limits are strict (0.05% BAC). For the Upper Galilee half of the circuit — Galil Mountain Winery, Dalton and the Rosh Pinna plateau — see the [Galilee wine trail guide](/galilee-wine-trail). For a guided experience, see the CTA above.
 
 ## Upper Galilee farm-to-table — Rosh Pina and beyond
 
@@ -103,4 +103,4 @@ The eastern shore of the Sea of Galilee — quieter than the Tiberias western st
 
 ## Plan your trip
 
-The Galilee food circuit pairs naturally with a broader Galilee itinerary — see [3 days in the Galilee](/3-days-in-galilee), the [Galilee tours comparison](/galilee-tours-compared), and the [day trip from Haifa to Nazareth and the Sea of Galilee](/nazareth-sea-of-galilee-day-trip). For broader Israel food context, the [Israeli food and cuisine guide](/israel-food-tours-cooking-classes) covers the whole country. Wine lovers can extend into the [Israel wine regions and winery guide](/israel-wine-wineries).
+The Galilee food circuit pairs naturally with a broader Galilee itinerary — see [3 days in the Galilee](/3-days-in-galilee), the [Galilee tours comparison](/galilee-tours-compared), and the [day trip from Haifa to Nazareth and the Sea of Galilee](/nazareth-sea-of-galilee-day-trip). For broader Israel food context, the [Israeli food and cuisine guide](/israel-food-tours-cooking-classes) covers the whole country. Wine lovers can extend into the [Galilee & Golan wine trail self-drive guide](/galilee-wine-trail) or the broader [Israel wine regions and winery guide](/israel-wine-wineries).
