@@ -563,7 +563,7 @@ Mode RESEARCH (180%5==0). No code changed. Searched: Haifa travel guide gap, Gol
 
 - [SHIPPED iter223] Haifa neighborhoods & where to stay guide (/haifa-neighborhoods-guide) → b60e624
 
-- [P2] (seo-content, M) Israel by month: when to visit guide (/israel-by-month) — touristisrael.com publishes 12 dedicated monthly pages; thingstodoinisrael.com/month/[month] has same format; we have best-time-to-visit-israel.md (seasonal overview) + israel-events-festivals.md (event calendar) but no month-by-month hub. Captures "Israel in [month]" queries across all 12 months as a single hub. Format: 12 expandable cards — temp range (day/night °C), crowd level (Low/Medium/High/Peak), price tier (Budget/Mid/Peak), Shabbat/holiday disruption note, key events, standout experience, advance booking advisory. HONESTY: weather ranges are 30-year climate averages (label as such); festival dates shift by Jewish calendar year — always note "check Hebrew calendar for exact dates"; "Budget season" for flights changes with geopolitical events — frame as typical. Cross-links: best-time-to-visit-israel, israel-events-festivals, israel-in-winter (backlog), israel-in-summer (backlog), christmas-in-israel, passover-in-israel. SEO: "Israel in January", "visiting Israel in July", "best month to visit Israel 2026", "Israel travel calendar". Sources: touristisrael.com/things-to-do-in-israel-in-january, thingstodoinisrael.com, exclusiveisraeltours.com, goisrael.com seasonal pages. [iter220 research] status: ready
+- [SHIPPED iter673 → d0fff2e] Israel by month: when to visit guide (/israel-by-month)
 
 - [SHIPPED iter237] Israel in summer travel guide (/israel-in-summer) → 5ee2ab3 [duplicate entry — see line 358 variant; shipped as iter237]
 

@@ -1,13 +1,15 @@
 # LOOP STATE
 
-- iteration: 672
+- iteration: 673
 - lastMode: BUILD
-- lastItem: galilee-food-guide
-- lastResult: SHIPPED 79b9dec. New /galilee-food-guide (P2/S, seo-content). Galilee culinary circuit: Saint Peter's fish in Tiberias (musht; honest framing re farmed vs wild), Druze flatbread villages (Daliyat al-Carmel + Isfiya; laffa + labaneh + za'atar), Golan Heights wine (Yarden/Gamla/Pelter/Chateau Golan/Assaf) + artisan cheese, Nazareth Arab-Israeli mezze (Diana + El Babour + Old Market), Upper Galilee farm-to-table (Rosh Pina; Galilee Culinary Institute cross-link), Sea of Galilee eastern shore (Kibbutz Ein Gev). 5 FAQs, 2 CTAs (GYG Galilee food tours + Booking Tiberias hotels). Cross-links: tiberias-guide.md, galilee-tours-compared.md, nazareth-travel-guide.md. 809 pages; 1105/1105 e2e PASS. CI in_progress at push.
-- nextRotationCategory: 673%5==3 → BUILD (tools rotation)
+- lastItem: israel-by-month
+- lastResult: SHIPPED d0fff2e. New /israel-by-month (P2/M, seo-content). 12-month travel calendar hub capturing 'Israel in [month]' queries. Each month: 30-year climate averages (labelled as such), crowd level, price tier, Jewish/Christian holiday disruption notes, standout experience, advance booking advisory. Summary booking-calendar table. 7 FAQs. 2 CTAs (Booking.com Israel hotels + GYG tours). Dense cross-links to all 12 seasonal/holiday guides + region pages. tools rotation had no ready items; fell through to seo-content. 810 pages; 1106/1106 e2e PASS. CI Lighthouse in_progress at push.
+- nextRotationCategory: 674%5==4 → REVIEW
 - higgsfieldSpent: 0
-- updatedAt: 2026-07-21T07:55Z
+- updatedAt: 2026-07-21T08:55Z
 - branch context: work on master; feature work on auto/<slug>
+
+Notes: iter673 BUILD (tools→seo-content fallthrough) — israel-by-month. SHIPPED d0fff2e. tools section entirely SHIPPED (only STALE DUPLICATE shabbat-time-tool remaining; covered by iter78 + iter138 tools); fell through to seo-content. New /israel-by-month: 12-month travel planning hub. Broken-link fix mid-iteration: /birdwatching-israel → /birdwatching-in-israel (correct slug). 810 pages; 1106/1106 e2e pass. CI Lighthouse in_progress at push.
 
 Notes: iter672 BUILD (seo-content) — galilee-food-guide. SHIPPED 79b9dec. P2/S confirmed gap (galilee-food-guide.md did not exist; touristisrael.com + timeout.com/israel both rank for Galilean cuisine; galilee-food-guide priority upgraded P3→P2 in iter670 due to JNF Galilee Culinary Institute timely hook). New /galilee-food-guide: complete Galilee culinary circuit covering Saint Peter's fish, Nazareth Arab-Israeli mezze, Druze flatbread, Golan wine, farm-to-table Rosh Pina. 809 pages; 1105/1105 e2e pass. CI in_progress at push.
 

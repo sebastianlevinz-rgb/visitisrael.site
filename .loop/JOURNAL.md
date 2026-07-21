@@ -10648,3 +10648,12 @@ Prod: CI/Lighthouse in_progress at iteration end; prior 3 runs all success.
 BACKLOG: galilee-food-guide removed (shipped).
 DONE: galilee-food-guide appended.
 Next: iter 673 → BUILD (673%5==3; tools rotation).
+
+## 2026-07-21T08:55Z · iter 673 · BUILD (tools→seo-content fallthrough) · israel-by-month
+What: New /israel-by-month — 12-month travel calendar guide. tools rotation had no ready items (only STALE DUPLICATE shabbat-time-tool, already covered by iter78+iter138); fell through to seo-content. 12 sections (one per month) each with: 30-year climate averages (labelled), crowd level, price tier, Jewish/Christian holiday disruption note, standout experience, advance booking advisory. Summary booking-calendar table. 7 FAQs. 2 CTAs (Booking.com Israel + GYG tours). Dense cross-links (all 12 seasonal/holiday guides, region pages, sukkot-in-israel, etc.). Broken-link fix mid-iteration: /birdwatching-israel → /birdwatching-in-israel.
+Gate: pnpm check 0 errors; pnpm build 810 pages; pnpm test:e2e 1106/1106 pass.
+Ship: squash-merged to master d0fff2e, pushed.
+Prod: CI/Lighthouse in_progress at iteration end; prior runs all success.
+BACKLOG: israel-by-month removed (shipped).
+DONE: israel-by-month appended.
+Next: iter 674 → REVIEW (674%5==4).
