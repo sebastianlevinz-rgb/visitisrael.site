@@ -366,6 +366,7 @@ const ROUTES = [
   '/tel-afek-guide',
   '/bedouin-experience-israel',
   '/red-canyon-eilat',
+  '/terminal-park-eilat',
   '/israel-kayaking',
   '/israel-visa-extension',
   '/sukkot-in-israel',
