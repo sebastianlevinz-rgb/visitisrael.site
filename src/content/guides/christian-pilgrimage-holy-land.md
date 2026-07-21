@@ -78,4 +78,6 @@ Israel is not a budget destination; see our [cost & budget guide](/israel-cost-b
 - **Bring your passport** for Bethlehem and any West Bank stop.
 - **Best seasons** are spring and autumn; check our [best time to visit](/best-time-to-visit-israel) guide. Easter and Christmas are spiritually rich but very crowded.
 
+For faith travelers interested in the patriarchal narrative landscape of the Hebrew highlands, the newly designated **[Israel Biblical Highway (Derech HaTanach)](/israel-biblical-highway)** follows Route 60 through the Judean and Samarian hills linking Tel Be'er Sheva, Jerusalem, Beit El and Tel Shiloh — inaugurated June 2026 as a national faith-tourism corridor.
+
 Pair this hub with our [first-time in Israel](/first-time-in-israel) guide and the regional and itinerary pages above to build a pilgrimage that fits your faith tradition, your group and your time.

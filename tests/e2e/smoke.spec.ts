@@ -630,6 +630,7 @@ const ROUTES = [
   '/israel-military-heritage',
   '/via-ferrata-israel',
   '/israel-culinary-heritage-tourism',
+  '/israel-biblical-highway',
 ];
 
 for (const route of ROUTES) {
