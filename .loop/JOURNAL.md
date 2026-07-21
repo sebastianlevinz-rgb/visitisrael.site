@@ -10433,3 +10433,40 @@ All 5 fixes applied end-to-end on branch auto/review-664-meta-test-fixes.
 Gate: pnpm check 0 errors; build 804 pages; 1104/1104 e2e pass (+3 new tests) ✓
 Ship: squash-merged to master 7add2a4, pushed. CI in_progress at push.
 Next: iter 665 = RESEARCH (665%5==0 → competitor discovery).
+
+## 2026-07-21T00:30Z · iter 665 · RESEARCH (pass #135) · research-665-competitor-scan-pass135
+
+Sources searched: touristisrael.com (surfing/watersports/kitesurfing pages), TripAdvisor (dark sky, horseback riding, trail running, food tours, Kfar Kama), Lonely Planet, GetYourGuide, Viator, iRunFar.com, finishers.com, winetourism.com, travelandtourworld.com (Galilee agritourism 13M ILS), JNS.org (Kfar Bikartem free tours), UNWTO tourism villages list, israelphotographytour.com / deepdesertisrael.com / matanwildphotography.com.
+
+Saturation: ~95%. Most searched angles confirmed already shipped or backlogged. Remote master had been force-updated (local reset to 7760177). 4 stale auto/* branches on origin confirmed safe (content already in master via squash-merges at iters 410/573/588/608).
+
+Key findings:
+1. Israel surfing: Tourist Israel has 4 dedicated watersports pages (surfing, windsurfing/kitesurfing, watersports hub, surfing tours). Our site has only 1 line in israel-adventure-sports hub. The /israel-surfing (P2/S) BACKLOG entry is confirmed high-value. Added competitive intelligence note to upgrade its priority visibility.
+2. Circassian Villages: Kfar Kama won UNWTO "Best Tourism Village 2022" recognition (32 globally). The /circassian-villages-israel (P3/S) item in BACKLOG now has a stronger SEO hook — "UNWTO Best Tourism Village Israel" is a distinctive angle. Added note to existing backlog entry.
+3. Israel photography tours: Multiple professional operators (israelphotographytour.com, deepdesertisrael.com, matanwildphotography.com) run photography workshops in Israel; GYG/Viator carry photography experience products. Distinct from existing israel-photography-guide.md (spots guide). Added /israel-photography-tours as P3/S net-new.
+4. Galilee Agritourism 2026 (13M ILS investment): Already addressed in shipped agritourism guide's FAQ section ("The 2026 government agritourism investment in Israel"). No new item needed.
+5. Galilee Olive Oil Trail: Overlaps with existing /israel-olive-harvest backlog item (which already references Tourist Israel's olive oil trail page as competitor). Not added separately.
+
+False leads closed this pass (all confirmed already covered):
+- Dark sky/stargazing: SHIPPED iter251
+- Photography spots guide: SHIPPED (israel-photography-guide.md)
+- Accessible travel: SHIPPED (israel-accessible-travel.md)
+- Horseback riding: SHIPPED iter252
+- Kibbutz hotels: SHIPPED iter261
+- Rosh HaShanah: SHIPPED iter277
+- Day trips from Eilat: SHIPPED iter382
+- Digital nomad: BACKLOG (iter30 research, P3/M)
+- Genealogy tourism: BACKLOG (iter50 research, P2/M)
+- Honeymoon: BACKLOG (iter20 research, P3/M)
+- Campervan/motorhome: BACKLOG (iter105 research, P2/M)
+- Backpacking/hostels: BACKLOG (iter45 research, P2/M)
+- Bachelorette/hen party: BACKLOG (iter105 research, P2/M)
+- Surfing: BACKLOG (iter105 research, P2/S) — confirmed competitive priority
+- Circassian villages: BACKLOG (iter355 research, P3/S) — UNWTO hook added
+- Samaritan community: BACKLOG (iter355 research)
+- Trail running/running tourism: BACKLOG (iter505 research, P3/M)
+- Dead Sea Marathon: BACKLOG (iter400 research, P3/S)
+- Ramat Gan Safari: BACKLOG (P3/S)
+
+Gate: RESEARCH mode — no code. No merge.
+Next: iter 666 = BUILD (666%5==1; monetization rotation). Evaluate top monetization P1/P2 items from BACKLOG.

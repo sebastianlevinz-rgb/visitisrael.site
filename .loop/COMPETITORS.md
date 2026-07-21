@@ -5743,3 +5743,31 @@ Saturation: ~95%. 1 priority upgrade + 1 net-new BACKLOG item. The site is reach
 - Nationality guide landscape: no competitor editorial brand (touristisrael.com, lonelyplanet.com, timeout.com, beinharimtours.com) has dedicated guides for Greek, Austrian, Swiss, Turkish, or Taiwanese travelers visiting Israel — all confirmed new gaps added iter660.
 
 **Saturation note:** After 134 research passes, ~95% of high-value competitor content is either already shipped or in BACKLOG. Productive veins remaining: (a) very specific nationality markets (Greek, Austrian, Swiss, Turkish, Taiwanese added this pass); (b) new-institution guides (2025-2026 property openings, museums); (c) content freshness updates for shipped guides.
+
+---
+
+### 2026-07-21 · iter 665 · RESEARCH pass #135
+
+**Focus:** Dark sky/astronomy, photography tours, wine tourism, volunteer/kibbutz, trail running, surfing/watersports, Circassian villages, agritourism 2026, accessibility, safari/zoo, genealogy/heritage, bachelorette/group travel
+
+**Israel surfing — confirmed 4-page competitive gap (Tourist Israel)**
+touristisrael.com has FOUR dedicated watersports pages: (1) /surfing-in-israel (surfing overview + TLV/Herzliya/Netanya/Caesarea/Haifa spots; year-round Mediterranean; schools + instructors); (2) /windsurfing-kitesurfing-in-israel (competitive history — Olympic/world champions; Beit Yannai + Haifa Bay + Eilat Red Sea); (3) /watersports-israel (hub page); (4) /tours/surfing-israel (GYG-linked tour listings). Our site has ZERO dedicated surfing/watersports content beyond one line in israel-adventure-sports hub. The /israel-surfing (P2/S) BACKLOG item (iter105) remains one of the most visible competitive gaps. Confirmation of importance: Israel has the highest number of qualified divers per capita globally; Mediterranean year-round surfing; TLV Surf Club at Jerusalem/Geula beach (₪80/hr); competitive windsurfers + kitesurfers.
+
+**Kfar Kama (Circassian village) — UNWTO "Best Tourism Village 2022"**
+Kfar Kama received UNWTO "Best Tourism Village 2022" recognition — one of 32 villages globally. Coverage: Israel21c.org ("Galilee Circassian village picked as top tourism spot"), Times of Israel ("Circassian town in northern Israel wins UN recognition as global 'tourist village'"), AllIsraelNews.com, TripAdvisor (active reviews 2026). The village has: Circassian Heritage Conservation Center (sound + light show + Adyghe culture displays); traditional Circassian cuisine (walnut-poached chicken, Circassian cheese); cheese-making workshops; family equestrian activities; Nowruz community festival (late May/June, open to visitors). UNWTO recognition is a strong SEO hook ("UNWTO Best Tourism Village Israel", "award-winning village Galilee"). /circassian-villages-israel (P3/S, BACKLOG iter355) confirmed — UNWTO angle should be added to description.
+
+**Photography workshop/tour market — confirmed operator ecosystem**
+israelphotographytour.com: private + guided photo tours (3-day itineraries; full-country coverage; street/landscape/architectural/portrait); workshops at all skill levels. deepdesertisrael.com: photography workshop at Ramon Crater (primordial landscape, light + shadow, portrait). matanwildphotography.com: desert wildlife photography tours (₪800/1-day, ₪1,550/2-day, ₪2,250/3-day; sunrise to sunset; wildlife tracking). GYG + Viator: both carry multiple "Israel photography tour" and "photography workshop Israel" products. No editorial English-language Israel travel site has a dedicated "photography tours booking guide" — distinct from "best photography spots" content. Actionable: /israel-photography-tours (P3/S, monetizable via GYG photography experience CTAs).
+
+**Galilee agritourism 2026 investment (13M ILS) — already addressed**
+Israel's Ministry of Agriculture announced 13M ILS investment to develop Galilee agritourism infrastructure for international visitors (new visitor centers, English-language seasonal programs, signage). Already incorporated in shipped israel-agritourism-guide.md's dedicated FAQ section (iter confirmed). No new page needed; the 2026 investment hook is live on site.
+
+**False leads permanently closed this pass**
+- All major activity/experience categories now either SHIPPED or BACKLOGGED — see JOURNAL iter665.
+- Rosh HaShanah: SHIPPED; Accessible travel: SHIPPED; Dark sky: SHIPPED; Photography spots: SHIPPED.
+- Olive oil trail as standalone page: overlaps with /israel-olive-harvest BACKLOG; not separately added.
+
+**Competitive landscape at pass #135**
+Saturation: ~95%. 1 net-new BACKLOG item (/israel-photography-tours P3/S) from a broad sweep of 15+ search angles. The site is deeply saturated — new gaps are narrow niches (photography workshop booking, specific village guides) rather than broad topics. The most important remaining unshipped items are: (a) high-value P2 nationality guides (Italian, French) awaiting BUILD turn; (b) P2/S /israel-surfing (confirmed high-value competitive gap per this pass); (c) P2/M /birdwatching-in-israel; (d) P2/S biblical-highway-guide. Future research passes should focus on: content freshness on high-converting affiliate pages (hotels/tours); emerging 2026-2027 tourism developments; and specialty niches like LGBTQ+ travel updates, family micro-trips, or cross-border experiences.
+
+**Next iteration**: 666 → BUILD (666%5==1; monetization rotation)
