@@ -10657,3 +10657,16 @@ Prod: CI/Lighthouse in_progress at iteration end; prior runs all success.
 BACKLOG: israel-by-month removed (shipped).
 DONE: israel-by-month appended.
 Next: iter 674 → REVIEW (674%5==4).
+
+## 2026-07-21T09:45Z · iter 674 · REVIEW · review-674-meta-fix (iter671–673 audit)
+What: REVIEW audit of the 3 most recent BUILD iterations (671 negev-multi-day-hiking, 672 galilee-food-guide, 673 israel-by-month).
+Checks: title/desc lengths (≤65/≤160), hero image existence, internal link validity, H1 absence in body, inbound links, no fabricated data.
+Defects found and fixed:
+  1. negev-multi-day-hiking description 174 chars → trimmed to 146 chars.
+  2. galilee-food-guide description 172 chars → trimmed to 153 chars.
+  3. israel-by-month had zero inbound links — added cross-link from best-time-to-visit-israel.md "Quick month picker" section.
+All 3 guides' internal links verified valid; all hero images confirmed present; no H1 in MDX bodies; no fabricated data.
+Pattern reminder: BUILD iters routinely ship slightly-long descriptions; REVIEW passes remain essential.
+Gate: pnpm check 0 errors; pnpm build 810 pages; pnpm test:e2e 1106/1106 pass.
+Ship: committed 4edcf38 to master; pushed. CI in_progress at iteration end.
+Next: iter 675 → RESEARCH (675%5==0).

@@ -1,13 +1,15 @@
 # LOOP STATE
 
-- iteration: 673
-- lastMode: BUILD
-- lastItem: israel-by-month
-- lastResult: SHIPPED d0fff2e. New /israel-by-month (P2/M, seo-content). 12-month travel calendar hub capturing 'Israel in [month]' queries. Each month: 30-year climate averages (labelled as such), crowd level, price tier, Jewish/Christian holiday disruption notes, standout experience, advance booking advisory. Summary booking-calendar table. 7 FAQs. 2 CTAs (Booking.com Israel hotels + GYG tours). Dense cross-links to all 12 seasonal/holiday guides + region pages. tools rotation had no ready items; fell through to seo-content. 810 pages; 1106/1106 e2e PASS. CI Lighthouse in_progress at push.
-- nextRotationCategory: 674%5==4 → REVIEW
+- iteration: 674
+- lastMode: REVIEW
+- lastItem: review-674-meta-fix (iter671–673 audit)
+- lastResult: SHIPPED 4edcf38. REVIEW of negev-multi-day-hiking, galilee-food-guide, israel-by-month. 3 defects fixed: (1) negev desc 174→146 chars; (2) galilee desc 172→153 chars; (3) israel-by-month had zero inbound links — added cross-link from best-time-to-visit-israel.md. All internal links valid, all hero images confirmed. 810 pages; 1106/1106 e2e PASS. CI in_progress at push.
+- nextRotationCategory: 675%5==0 → RESEARCH
 - higgsfieldSpent: 0
-- updatedAt: 2026-07-21T08:55Z
+- updatedAt: 2026-07-21T09:45Z
 - branch context: work on master; feature work on auto/<slug>
+
+Notes: iter674 REVIEW — review-674-meta-fix. Audited iter671 (negev-multi-day-hiking), iter672 (galilee-food-guide), iter673 (israel-by-month). Defects: 2 meta desc overruns (negev 174→146, galilee 172→153) and israel-by-month had 0 inbound links (added link from best-time-to-visit-israel.md). All other checks clean (links, hero images, H1 count, honesty). SHIPPED 4edcf38. 810 pages; 1106/1106 e2e pass. Pattern: BUILD iters routinely ship slightly-long descs; REVIEW passes remain essential.
 
 Notes: iter673 BUILD (tools→seo-content fallthrough) — israel-by-month. SHIPPED d0fff2e. tools section entirely SHIPPED (only STALE DUPLICATE shabbat-time-tool remaining; covered by iter78 + iter138 tools); fell through to seo-content. New /israel-by-month: 12-month travel planning hub. Broken-link fix mid-iteration: /birdwatching-israel → /birdwatching-in-israel (correct slug). 810 pages; 1106/1106 e2e pass. CI Lighthouse in_progress at push.
 
