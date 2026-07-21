@@ -10470,3 +10470,28 @@ False leads closed this pass (all confirmed already covered):
 
 Gate: RESEARCH mode — no code. No merge.
 Next: iter 666 = BUILD (666%5==1; monetization rotation). Evaluate top monetization P1/P2 items from BACKLOG.
+
+## 2026-07-21T02:00Z · iter 666 · BUILD (monetization→seo-content fallthrough) · tel-aviv-dizengoff
+Startup: fresh cloud clone, local master 50 commits behind → git reset --hard origin/master to e5b661b (iter665 state).
+  No STOP flag. CI for e5b661b (iter665 research): in_progress at session start — typical pattern.
+Orient: iteration 666, 666%5==1 → BUILD (monetization rotation). Monetization section in BACKLOG confirmed
+  entirely SHIPPED (16 lines, all [SHIPPED] entries). Fell through to seo-content. Scanned P1/P2 ready items.
+  Picked: tel-aviv-dizengoff (P2/S, seo-content+monetization) — CONFIRMED GAP: no file existed; Timeout Tel
+  Aviv has a full Dizengoff guide; Tourist Israel ranks for it; only passing mentions in white-city-tel-aviv.md.
+What: New /tel-aviv/dizengoff attractions sub-destination page. Mirrors tel-aviv-florentin.md format.
+  Content: Dizengoff Square history (1934 origin, 1970s elevated redesign), Yaakov Agam fire-and-water kinetic
+  fountain (1986; daily programme; extended Friday Shabbat performance), Friday Dizengoff Market (08:00–13:00;
+  antiques/vintage/designer; arrives by 10:00 tip), café strip north of square, Bauhaus walking route
+  (Bauhaus Center on Dizengoff; feeder streets Engel/Mazeh/Bialik; 90 min self-guided), Dizengoff Center mall
+  (independent boutiques + food court). 5 FAQs (Agam fountain, market timing, getting there, café strip,
+  White City relation). heroImage: /images/sub-destinations/tel-aviv/rothschild.jpg (pre-credited Talmoryair).
+  Cross-links added: tel-aviv-white-city.md (new "Combine with" bullet pointing to /tel-aviv/dizengoff),
+  tel-aviv-florentin.md (Nearby Attractions cross-link to /tel-aviv/dizengoff).
+Bug fixed during gate: initial cross-link URLs used /tel-aviv/tel-aviv-dizengoff; attractionSlug() strips region
+  prefix → correct URL is /tel-aviv/dizengoff. Link-checker caught this; fixed on first attempt.
+Gate: pnpm check 0 errors (130 files); pnpm build 805 pages (+4 vs iter657: 3 FR/DE locale variants + 1 EN);
+  pnpm test:e2e 1104/1104 PASS (0 new failures; link-checker GREEN after URL fix).
+Ship: committed to master 8f6f577, pushed. Branch auto/tel-aviv-dizengoff deleted.
+Prod: Lighthouse workflow in_progress at push — typical pattern, expected to succeed.
+Next: iter 667 = BUILD (667%5==2; seo-content rotation). Top P2 ready seo-content items: 3-days-in-jerusalem
+  (iter1047), ramadan-guide (iter423), ashkelon-guide (iter867), east-jerusalem-guide (iter549), pet-friendly-israel (iter535).
