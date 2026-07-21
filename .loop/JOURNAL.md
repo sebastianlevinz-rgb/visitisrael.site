@@ -10711,3 +10711,10 @@ False leads eliminated (18): haifa-shore-excursions (BACKLOG, upgrade noted), la
 Sources: bahai.org/pilgrimage, ibt.org.il/en/route, bikepacking.com/routes/israel-bike-trail, bikemap.net, outdoorisrael.com, ynetnews.com (bonfire ban), israir.com/tlv-jfk, elal.com (TLV-SFO), iaa.gov.il (Purple Line delay), touristisrael.com/haifa/attractions.
 Saturation: ~95%. 138 research passes complete.
 Next: iter 681 → BUILD (681%5==1; monetization rotation).
+
+## 2026-07-21T16:50Z · iter 681 · BUILD (monetization) · haifa-shore-excursions
+What: New /haifa-shore-excursions guide. P2/S monetization item — upgraded P3→P2 in iter680 (Haifa cruise terminal May 2026). Distinct from haifa-cruise-terminal-guide (terminal facilities) and cruise-shore-excursions-israel (combined Haifa+Ashdod overview). Four excursion circuits with timing tables: (1) Haifa city half-day; (2) Haifa + Old Akko by train; (3) Caesarea + Bahá'í + Akko history circuit; (4) Galilee + Nazareth + Sea of Galilee full-day. Comparison table: drive times, hours needed, independent-feasibility, Shabbat risk. Port-at-a-glance references May 2026 new terminal. Shabbat warning for Friday port calls. 3 affiliate CTAs (GYG, Viator Galilee, Booking.com Haifa). 7 FAQs. Cross-links added in cruise-shore-excursions-israel.md + haifa-cruise-terminal-guide.md.
+Gate: pnpm check 0 errors; pnpm build 814 pages (+1); pnpm test:e2e 1110/1110 pass.
+Merge SHA: 6b18fca (squash direct to master). Pushed.
+Prod: CI Lighthouse in_progress at push (standard pattern); Vercel deploy pending confirmation.
+Next: iter 682 → BUILD (682%5==2; seo-content rotation).

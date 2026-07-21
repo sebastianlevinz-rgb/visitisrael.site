@@ -1,13 +1,15 @@
 # LOOP STATE
 
-- iteration: 680
-- lastMode: RESEARCH
-- lastItem: research-680-pass138
-- lastResult: DONE 2 net-new (bahai-pilgrimage-haifa P3/S, israel-national-bike-trail P3/M) + 1 priority upgrade (haifa-shore-excursions P3→P2) + 2 freshness alerts (lag-baomer-israel 2026 bonfire ban; cheap-flights TLV-JFK/SFO routes + Purple Line delay). No code changes. 813 pages unchanged.
-- nextRotationCategory: 681%5==1 → monetization
+- iteration: 681
+- lastMode: BUILD
+- lastItem: haifa-shore-excursions
+- lastResult: SHIPPED 6b18fca. New /haifa-shore-excursions guide. 814 pages (+1); 1110/1110 e2e pass; pnpm check 0 errors. CI Lighthouse in_progress at push.
+- nextRotationCategory: 682%5==2 → seo-content
 - higgsfieldSpent: 0
-- updatedAt: 2026-07-21T15:45Z
+- updatedAt: 2026-07-21T16:50Z
 - branch context: work on master; feature work on auto/<slug>
+
+Notes: iter681 BUILD (monetization) — haifa-shore-excursions. SHIPPED 6b18fca. P2/S monetization (upgraded P3→P2 in iter680 when Haifa cruise terminal opened May 2026). New /haifa-shore-excursions guide targeting 'Haifa shore excursions' search intent — distinct from haifa-cruise-terminal-guide (terminal facilities/arrival) and cruise-shore-excursions-israel (combined Haifa+Ashdod overview). Four circuits: (1) Haifa city half-day — Bahá'í Gardens + German Colony + Wadi Nisnas; (2) Haifa + Old Akko by train (20 min) — most popular combination; (3) Caesarea + Bahá'í + Akko history circuit — private car needed; (4) Galilee + Nazareth + Sea of Galilee — full-day, ~70 min, popular with Christian pilgrims. Each circuit has timing table. Comparison table with drive times, hours needed, independent-feasibility and Shabbat risk. Port-at-a-glance table references May 2026 new terminal. Shabbat warning for Friday arrivals. 3 affiliate CTAs (GYG excursions, Viator Galilee, Booking.com Haifa). 7 FAQs. Smoke + a11y tests extended. Cross-links: cruise-shore-excursions-israel.md + haifa-cruise-terminal-guide.md → new page. 814 pages (+1); 1110/1110 e2e pass. CI Lighthouse in_progress at push.
 
 Notes: iter680 RESEARCH pass #138 — bahai-pilgrimage-haifa + israel-national-bike-trail. At ~95% saturation, 2 net-new from 20 candidates is expected. Haifa Bahá'í pilgrim vs. tourist dual-angle: distinct from haifa-guide.md (brief garden mention only); global Bahá'í community 5-8M; UNESCO WH site; 9-day pilgrim program (invitation-only, 3-year waitlist) is undercovered by all mainstream travel sites. IBT thru-trail: distinct from cycling-in-israel.md (urban cycling focus); 1,200km north-south off-road route; ~400km northern section open; bikepacking.com/bikemap cover it but no mainstream editorial guide. Priority upgrade: haifa-shore-excursions P3→P2 (Haifa Bay Cruise Terminal opened May 2026; 2-ship capacity; 1M passenger/year target). Freshness alerts: lag-baomer-israel bonfire ban + Meron 600-person cap (2026 Knesset vote); cheap-flights-to-israel.md Israir TLV-JFK + El Al TLV-SFO routes; transport-in-israel.md Purple Line delay 2027-2028.
 
