@@ -3,7 +3,7 @@ title: 'Best Time to Visit Israel: Month-by-Month & Season Guide'
 description: 'When to visit Israel: a season-by-season breakdown of weather, crowds, holidays and prices across Jerusalem, Tel Aviv, the desert and the coast.'
 heroImage: /images/regions/galilee/hero.jpg
 category: Planning
-updatedAt: 2026-05-20
+updatedAt: 2026-07-22
 faqs:
   - question: What is the best month to visit Israel?
     answer: April, May, October and November are the best months overall — warm, dry and comfortable across the whole country, before the summer heat and after it eases. Spring also brings wildflowers; autumn brings the olive harvest.
@@ -17,7 +17,7 @@ Israel packs several climates into a small country, so the "best" time depends o
 
 ## Season by season
 
-**Spring (March–May) — best overall.** Wildflowers in the [Galilee](/galilee) and Judean Hills, mild days, and a sea warming up. Passover (usually April) brings closures and higher prices — plan around it. Easter and Holy Week bring Jerusalem alive with pilgrimage processions — see the [Easter in Jerusalem pilgrim guide](/easter-in-jerusalem) for Holy Fire ceremony logistics, Catholic vs Orthodox Easter dates, and booking timelines. For the full spring planning guide, see [Israel in spring](/israel-in-spring): wildflower bloom timing, Passover logistics, and Negev hiking season.
+**Spring (March–May) — best overall.** Wildflowers in the [Galilee](/galilee) and Judean Hills, mild days, and a sea warming up. Passover (usually April) brings closures and higher prices — plan around it. Easter and Holy Week bring Jerusalem alive with pilgrimage processions — see the [Easter in Jerusalem pilgrim guide](/easter-in-jerusalem) for Holy Fire ceremony logistics, Catholic vs Orthodox Easter dates, and booking timelines. When Ramadan falls in late winter or early spring (as it does in 2026–28), Jaffa, Nazareth and Jerusalem's Muslim Quarter host some of the country's most atmospheric evening street culture — see the [Ramadan in Israel guide](/israel-ramadan-guide) for dates, access notes and what to expect. For the full spring planning guide, see [Israel in spring](/israel-in-spring): wildflower bloom timing, Passover logistics, and Negev hiking season.
 
 **Summer (June–August) — hot.** The [Tel Aviv](/tel-aviv) coast is busy and humid; [Jerusalem](/jerusalem) is hot but dry; the [Dead Sea](/dead-sea) and [Eilat](/eilat) are extreme (40°C+), suited to early mornings and water. [Eilat](/eilat) is a summer beach-break favourite despite the heat. If you must travel in July or August, the [beat-the-heat summer guide](/israel-in-summer) covers the early-morning-first strategy and which regions to prioritise.
 
@@ -36,7 +36,7 @@ Israel packs several climates into a small country, so the "best" time depends o
 
 ## Don't forget the holiday calendar
 
-Jewish, Christian and Muslim holidays drive both closures and prices. Jewish holidays follow a lunar-solar calendar; the Muslim calendar shifts about 11 days earlier each year. Check exact dates before booking, and read the [Shabbat guide](/shabbat-guide) for the weekly rhythm. Ready to plan? See our [itineraries](/itineraries) and [first-time guide](/first-time-in-israel).
+Jewish, Christian and Muslim holidays drive both closures and prices. Jewish holidays follow a lunar-solar calendar; Ramadan shifts about 11 days earlier each year — see the [Ramadan in Israel guide](/israel-ramadan-guide) for current-year dates, Damascus Gate atmosphere and Al-Aqsa access notes. Check exact dates before booking, and read the [Shabbat guide](/shabbat-guide) for the weekly rhythm. Ready to plan? See our [itineraries](/itineraries) and [first-time guide](/first-time-in-israel).
 
 For a detailed breakdown of all 12 months — 30-year climate averages, crowd levels, price tiers, Jewish and Christian holiday disruption notes, and standout experiences — see the **[Israel by month travel calendar](/israel-by-month)**.
 

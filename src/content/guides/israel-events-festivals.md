@@ -3,7 +3,7 @@ title: 'Israel Events & Festivals: A Month-by-Month Calendar'
 description: "Month-by-month guide to Israel's best events and festivals — from Tel Aviv Pride and Jerusalem festivals to the holiday calendar."
 heroImage: /images/regions/tel-aviv/hero.jpg
 category: Planning
-updatedAt: 2026-05-27
+updatedAt: 2026-07-22
 ctaHeading: 'Book ahead for festival season'
 affiliateCtas:
   - partner: booking
@@ -72,13 +72,13 @@ Israel packs a remarkable number of festivals, cultural events and religious hol
 
 | When | Event | Where |
 | --- | --- | --- |
-| **Late Winter/Spring** | [Purim](/purim-in-israel) (TLV Dizengoff party + Jerusalem Adloyada); Passover; [Easter / Holy Week](/easter-in-jerusalem) (Palm Sunday procession, Good Friday Via Dolorosa, Holy Fire ceremony); [Yom HaZikaron & Yom Ha'atzmaut](/yom-haatzmaut-guide) (Memorial Day sirens + Independence Day air show); [Lag BaOmer](/lag-baomer-israel) (nationwide bonfires + Meron pilgrimage) | Nationwide; [Tel Aviv](/tel-aviv), [Jerusalem](/jerusalem), [Nazareth](/nazareth), [Galilee](/galilee) |
+| **Late Winter/Spring** | [Purim](/purim-in-israel) (TLV Dizengoff party + Jerusalem Adloyada); Passover; [Easter / Holy Week](/easter-in-jerusalem) (Palm Sunday procession, Good Friday Via Dolorosa, Holy Fire ceremony); [Yom HaZikaron & Yom Ha'atzmaut](/yom-haatzmaut-guide) (Memorial Day sirens + Independence Day air show); [Lag BaOmer](/lag-baomer-israel) (nationwide bonfires + Meron pilgrimage); [Ramadan](/israel-ramadan-guide) (shifts ~11 days earlier each year; Damascus Gate nights + Jaffa iftar culture) | Nationwide; [Tel Aviv](/tel-aviv), [Jerusalem](/jerusalem), [Nazareth](/nazareth), [Galilee](/galilee) |
 | **May–Jun** | Tel Aviv Pride (Middle East largest) | [Tel Aviv](/tel-aviv) |
 | **Summer** | Jerusalem festivals (film, lights, wine); White Night Tel Aviv; [Maccabiah Games](/maccabiah-games-2026) (every 4 years) | Jerusalem, Tel Aviv, Netanya |
 | **Autumn** | Rosh Hashanah, Yom Kippur, [Sukkot](/sukkot-in-israel) (High Holidays) | Nationwide |
 | **Winter** | Hanukkah; Christmas (huge in Nazareth & Bethlehem) | Nationwide; [Nazareth](/nazareth) |
 
-*Exact dates of Jewish and Christian holidays shift each year (the Jewish calendar is lunar-solar) — always check the year you travel.*
+*Exact dates of Jewish and Christian holidays shift each year (the Jewish calendar is lunar-solar); Ramadan shifts approximately 11 days earlier each year on the Gregorian calendar — always check the year you travel.*
 
 ## The two big planning inputs
 
