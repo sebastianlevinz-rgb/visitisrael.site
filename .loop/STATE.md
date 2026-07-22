@@ -1,15 +1,15 @@
 # LOOP STATE
 
-- iteration: 702
+- iteration: 703
 - lastMode: BUILD
-- lastItem: bga-t3-expansion
-- lastResult: BUILD (technical/freshness) — SHIPPED 96d61cd. Updated ben-gurion-airport-guide.md Terminal 3 overview with 2-sentence note on the IAA $311M Terminal 3 capacity expansion contract awarded July 2026 (targeting ~16M→40M passengers/year; framed as construction beginning, no completion date per honesty rules). 823 pages (no new page); 1117/1117 e2e+a11y pass. CI in_progress at push.
-- nextRotationCategory: 703%5==3 → BUILD (technical)
+- lastItem: herzliya-yacht-hotel
+- lastResult: BUILD (technical/freshness) — SHIPPED b57197f. Updated herzliya-guide.md: added The Yacht by Fattal (June 2026 opening, 325 rooms, 50m outdoor pool, Club Marine Mediterranean restaurant, Skipper's Bar) to Marina section, Booking CTA description, and Marina FAQ answer. updatedAt bumped to 2026-07-22. 823 pages (no new page); 1117/1117 e2e+a11y pass. CI in_progress at push.
+- nextRotationCategory: 704%5==4 → REVIEW
 - higgsfieldSpent: 0
-- updatedAt: 2026-07-22T15:55Z
+- updatedAt: 2026-07-22T16:45Z
 - branch context: work on master; feature work on auto/<slug>
 
-Notes: iter702 BUILD (technical/freshness) — bga-t3-expansion. SHIPPED 96d61cd. Tools rotation had no unshipped items → fell through to technical. Added 2-sentence Terminal 3 capacity expansion note to ben-gurion-airport-guide.md: IAA $311M contract July 2026, targeting ~16M→40M passengers/year, no confirmed completion date. pnpm check 0 errors; 823 pages; 1117/1117 e2e+a11y pass.
+Notes: iter703 BUILD (technical/freshness) — herzliya-yacht-hotel. SHIPPED b57197f. Top technical item (P2 tel-megiddo consolidation) blocked:human-review; fell through to P3/S herzliya-guide The Yacht by Fattal freshness update. Added hotel description to Marina section (3 new sentences), updated Booking CTA description (mention The Yacht by Fattal alongside InterContinental David), updated Marina FAQ answer. pnpm check 0 errors; 823 pages; 1117/1117 e2e+a11y pass.
 
 Notes: iter701 BUILD (seo-content) — israel-ramadan-guide. SHIPPED 91d7764. P2/S confirmed gap (no file existed; DONE.md had no entry). Dual-audience: Muslim traveler pilgrimage planning + non-Muslim tourist logistics guide. Cross-links in/out of jaffa-travel-guide, muslim-travel-israel (added Ramadan-guide forward link from the Ramadan section), nazareth-travel-guide (new Ramadan section added). 823 pages; 1117/1117 e2e pass.
 

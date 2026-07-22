@@ -10884,3 +10884,9 @@ What: BUILD slot (702%5==2; tools rotation, but all tools SHIPPED → fell throu
 Gate: pnpm check 0 errors; pnpm build 823 pages (no new page); pnpm test:e2e 1117/1117 pass. GREEN.
 Ship: committed 96d61cd to master; pushed origin/master. CI in_progress at push (standard pattern).
 Next: iter 703 → BUILD (703%5==3; technical rotation).
+
+## 2026-07-22T16:45Z · iter 703 · BUILD (technical/freshness) · herzliya-yacht-hotel
+What: BUILD slot (703%5==3; technical rotation). Top technical item P2 tel-megiddo-guide consolidation blocked:human-review-required. Fell through to P3/S herzliya-guide.md freshness: The Yacht by Fattal opened June 2026 at Herzliya Marina (325 rooms, 50m outdoor pool, Club Marine Mediterranean restaurant, Skipper's Bar). Three changes: (1) added 3-sentence paragraph in Marina section describing The Yacht; (2) updated Booking CTA description to mention The Yacht alongside InterContinental David; (3) updated Marina FAQ answer to include The Yacht opening. Bumped updatedAt to 2026-07-22. No new page — same 823 pages.
+Gate: pnpm check 0 errors; pnpm build 823 pages (no change); pnpm test:e2e 1117/1117 pass. GREEN.
+Ship: committed b57197f to master; pushed origin/master. CI in_progress at push (standard pattern; prior iter CI = success for 25b44a7, 96d61cd all confirmed success).
+Next: iter 704 → REVIEW (704%5==4).
