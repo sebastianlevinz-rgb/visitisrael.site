@@ -1171,3 +1171,7 @@ Updated herzliya-guide.md with The Yacht by Fattal hotel (June 2026 opening, 325
 
 ## iter704 · review-704-ramadan-discoverability · 52f77dc
 REVIEW: israel-events-festivals.md + best-time-to-visit-israel.md — added Ramadan cross-links to /israel-ramadan-guide in both primary planning-intent guides. Discoverability fix: ramadan guide had only 3 audience-specific inbound links; now also linked from the events calendar table (Late Winter/Spring row) and two locations in the seasonal guide (Spring section + holiday-calendar paragraph).
+
+## iter706 · wedding-in-israel · 874ea5a
+**Destination Wedding in Israel Guide** (`/wedding-in-israel`) — P3/S monetization+seo-content.
+New guide covering legal framework (no civil marriage; symbolic ceremony + home-country registration path), 4 venue categories (Galilee vineyards, Jaffa/Akko/Jerusalem stone halls, Negev Ramon Crater, kibbutz), seasonal planning, team-building, guest experiences, and practical notes (Shabbat, noise, transport, insurance). 7 FAQs; 3 affiliate CTAs (tourradar/booking/abraham). Cross-links added from israel-honeymoon + israel-group-travel. 824 pages (+1); 1117/1117 e2e pass.

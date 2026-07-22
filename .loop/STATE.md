@@ -1,13 +1,15 @@
 # LOOP STATE
 
-- iteration: 705
-- lastMode: RESEARCH
-- lastItem: research-705-pass143
-- lastResult: RESEARCH — pass #143 at ~95% saturation. 3 net-new items from 30+ candidates screened. New: (1) /valley-of-springs-israel regional hub P3/S/seo-content (Beit She'an Valley tourism rebrand; beit-shean + gan-hashlosha + beit-alfa sub-guides already exist but no aggregating hub); (2) israel-travel-2026.md freshness P3/S/technical — "I Am Israel" $7M North America campaign June 2026 + NIS 174M ($56M) infrastructure across 58 projects; (3) kibbutz summer 2026 experiences P3/S/seo-content (Nir David + Ortal programs running Aug 2026; freshness note to kibbutz-hotels-israel.md). 30+ false leads screened and confirmed already in BACKLOG or DONE. No code changes (RESEARCH mode).
-- nextRotationCategory: 706%5==1 → BUILD
+- iteration: 706
+- lastMode: BUILD
+- lastItem: wedding-in-israel
+- lastResult: BUILD (monetization+seo-content) — Destination Wedding in Israel Guide (/wedding-in-israel) SHIPPED 874ea5a. New guide: legal framework (no civil marriage in Israel; symbolic ceremony + home-country registration path), 4 venue categories (Galilee vineyards, Jaffa/Akko/Jerusalem stone halls, Negev crater, kibbutz), seasonal planning, team-building (planner/officiant/kosher catering/photography), guest experiences, practical notes (Shabbat, noise ordinances, transport, insurance). 7 FAQs, 3 affiliate CTAs (tourradar/booking/abraham). Cross-links added to israel-honeymoon.md + israel-group-travel.md. 824 pages (+1); 1117/1117 e2e pass; pnpm check 0 errors.
+- nextRotationCategory: 707%5==2 → BUILD → seo-content
 - higgsfieldSpent: 0
-- updatedAt: 2026-07-22T19:30Z
+- updatedAt: 2026-07-22T21:00Z
 - branch context: work on master; feature work on auto/<slug>
+
+Notes: iter706 BUILD (monetization+seo-content) — wedding-in-israel SHIPPED 874ea5a. Full gate: pnpm check 0 errors; 824 pages (+1); 1117/1117 e2e+a11y pass. Broken link discovered and fixed during gate: initial draft used /7-days-in-israel but correct path is /itineraries/7-days-in-israel (itinerary pages are namespaced). 3 affiliate CTAs (tourradar wedding guests / booking wedding hotels / abraham private tours). Cross-links added from israel-honeymoon.md (See also section) + israel-group-travel.md (Next steps paragraph).
 
 Notes: iter705 RESEARCH pass #143. At ~95% saturation, 3 net-new from 30+ candidates screened. Key false positives eliminated: golf (iter290 BACKLOG), japanese-travelers (iter455 BACKLOG P2/S), october-7-memorial (iter80 BACKLOG BLOCKED), kassland-resort (iter630 BACKLOG BLOCKED West Bank), haifa-cruise-terminal (SHIPPED iter621), rosh-hanikra (SHIPPED iter483), craft-workshops (BACKLOG), extended-stay/volunteer (BACKLOG), architecture-hub (BACKLOG). 823 pages; 1117/1117 e2e pass (from last BUILD gate — RESEARCH has no gate run).
 
