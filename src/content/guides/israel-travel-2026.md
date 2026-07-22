@@ -3,12 +3,12 @@ title: 'Israel Travel 2026: What Is New & Open'
 description: 'Updated July 2026: Israel tourism is recovering strongly — new flights, hotel openings, reopened attractions, and the ETA-IL entry requirement explained.'
 heroImage: /images/regions/jerusalem/old-city.jpg
 category: Planning
-updatedAt: 2026-07-13
+updatedAt: 2026-07-22
 ctaHeading: 'Plan your 2026 Israel trip'
 affiliateCtas:
   - partner: skyscanner
     title: 'Find Flights to Israel 2026'
-    description: 'New routes are opening throughout 2026 — Delta resuming from Atlanta and Boston, Israir adding Asian routes, and European budget carriers expanding Israeli connections. Compare fares and set up price alerts for Ben Gurion Airport (TLV).'
+    description: 'New routes are opening throughout 2026 — Delta resumed JFK–Tel Aviv nonstop in 2025, Israir adding Asian routes, and European budget carriers expanding Israeli connections. Compare fares and set up price alerts for Ben Gurion Airport (TLV).'
     image: /images/regions/tel-aviv/hero.jpg
     destination: Tel Aviv Ben Gurion
     cta: Search flights to Israel
@@ -30,7 +30,7 @@ faqs:
   - question: Do I need an ETA-IL to visit Israel in 2026?
     answer: "If your passport is eligible, yes. The ETA-IL (Electronic Travel Authorization for Israel) has been mandatory since January 2025 for eligible nationalities, including EU countries, UK, USA, Canada, and Australia. It costs ₪25 (approximately €6 / $7 USD) and must be applied for at least 72 hours before departure at the official iaa.gov.il site. Not all nationalities are eligible — citizens of some countries must apply for a B/2 Tourist Visa instead. The full eligibility list and application process is covered in the visa-information guide."
   - question: What new flights to Israel are launching in 2026?
-    answer: "Several significant routes are opening or resuming in 2026: Delta is reinstating flights from Atlanta and daily service from Boston (from October 2026); Israir is expanding to Asian destinations including Tokyo, Bangkok, Delhi, and Hanoi; European budget carriers continue adding Israeli connections from cities across the continent. Ben Gurion Airport's Terminal 1 also reopened in July 2026 after refurbishment, adding capacity. Check airlines and comparison tools for current route availability."
+    answer: "Several significant routes are opening or resuming in 2026: Delta resumed daily JFK–Tel Aviv nonstop service in September 2025; the planned Atlanta and Boston routes remain delayed (Atlanta suspended through at least November 2026; Boston indefinitely — check delta.com). Israir is expanding to Asian destinations including Tokyo, Bangkok, Delhi, and Hanoi. European budget carriers continue adding Israeli connections. Ben Gurion Airport's Terminal 1 reopened in July 2026 after refurbishment, adding processing capacity. Check airlines and comparison tools for current route availability."
   - question: Are all major tourist sites open in Israel in 2026?
     answer: "Yes — all major tourist sites are open and accessible. The Rosh Hanikra cable car and grottos, which underwent restoration work, reopened in 2026. The Western Wall, Church of the Holy Sepulchre, Masada, Yad Vashem, and all INPA national parks are operating normally. Some sites have seasonal hours or require advance booking — see the individual site guides for specifics."
   - question: What new hotels are opening in Israel in 2026?
@@ -56,8 +56,8 @@ For an honest picture of the current security context, see the [is Israel safe g
 The most tangible sign of recovery for most international visitors is the expansion of direct and connecting routes to Ben Gurion Airport (TLV):
 
 **North America**
-- **Delta Air Lines** is reinstating transatlantic service to Tel Aviv, with flights from Atlanta and daily service from Boston resuming from October 2026.
-- El Al and United continue operating New York (JFK and EWR) and Los Angeles routes.
+- **Delta Air Lines** resumed daily nonstop service from New York JFK to Tel Aviv in September 2025. The planned Atlanta and Boston routes remain delayed — Atlanta is suspended through at least November 2026 and Boston is delayed indefinitely (check delta.com for updates).
+- El Al continues operating New York (JFK and EWR) and Los Angeles routes.
 
 **Asia**
 - **Israir** is adding new routes to Tokyo, Bangkok, Delhi, and Hanoi — opening Israel to direct Asian connections that previously required a European transit.

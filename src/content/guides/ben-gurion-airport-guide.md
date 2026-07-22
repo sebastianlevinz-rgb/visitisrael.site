@@ -3,7 +3,7 @@ title: 'Ben Gurion Airport Guide: Terminals, Security & Lounges (2026)'
 description: 'Ben Gurion Airport (TLV) guide: terminals, departures, security interview tips, 2026 lounges update, duty-free and onward transfers.'
 heroImage: /images/regions/tel-aviv/hero.jpg
 category: Transport
-updatedAt: 2026-06-24
+updatedAt: 2026-07-22
 ctaHeading: 'Sort your airport essentials before you fly'
 affiliateCtas:
   - partner: welcomepickups
@@ -45,7 +45,7 @@ faqs:
 
 Ben Gurion has two active passenger terminals. **Terminal 3** is the main international hub, opened in 2004 and expanded with a new west wing in 2024. It handles all major international airlines plus El Al domestic connections. Terminal 3 has three concourses (C, D, and E) accessible from a central departures hall, each with gates at both ends.
 
-**Terminal 1**, to the north of the campus, handles domestic Israeli flights and a small number of low-cost European carriers (including some Wizz Air and Ryanair routes). If you are flying budget from a European city, confirm your terminal before arriving — the two are not adjacent and a free shuttle bus runs between them.
+**Terminal 1**, to the north of the campus, was refurbished during the 2024–25 period and fully reopened for international service on 1 July 2026, adding capacity as traffic recovers. It handles domestic Israeli flights and a growing number of low-cost European carriers (including Wizz Air and Ryanair routes). If you are flying budget from a European city, confirm your terminal before arriving — the two are not adjacent and a free shuttle bus runs between them.
 
 ## Arrivals: what to expect
 
