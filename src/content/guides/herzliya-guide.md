@@ -5,7 +5,7 @@ heroImage: /images/regions/tel-aviv/beaches.jpg
 category: Destinations
 verdictName: "a Herzliya or northern coast day tour from Tel Aviv"
 verdictQuery: "Herzliya day trip guided tour from Tel Aviv northern coast"
-updatedAt: 2026-07-04
+updatedAt: 2026-07-22
 ctaHeading: "Book Herzliya tours & experiences"
 affiliateCtas:
   - partner: getyourguide
@@ -16,7 +16,7 @@ affiliateCtas:
     cta: Browse day tours
   - partner: booking
     title: "Hotels in Herzliya — Marina & Beach"
-    description: "Herzliya offers well-appointed beach and Marina-side hotels at prices below central Tel Aviv. The InterContinental David and Marina-area boutique properties put you within walking distance of Acadia Beach and the waterfront restaurants."
+    description: "Herzliya offers well-appointed beach and Marina-side hotels at prices below central Tel Aviv. The Yacht by Fattal (opened June 2026, 325 rooms, 50m outdoor pool) is the newest and most prominent Marina property, alongside the InterContinental David and smaller boutique options."
     image: /images/regions/tel-aviv/beaches.jpg
     destination: Herzliya
     cta: Check availability
@@ -32,7 +32,7 @@ faqs:
   - question: Can you combine Herzliya with Caesarea or Netanya?
     answer: "Yes — both make natural extensions. Caesarea Maritima is about 25 kilometres north of Herzliya: drive north on Highway 2 or take the coastal train toward Caesarea-Pardes Hanna station. Netanya is another 15 kilometres north of Caesarea, also on the coastal train line. A full northern coast day could run Herzliya (Apollonia) in the morning, Caesarea's Roman ruins in the afternoon, and Netanya's cliff-top promenade for a sunset coffee. Driving makes the day much easier; the train works well if you are content to be flexible about which sites you reach by foot from stations."
   - question: What is there to do at Herzliya Marina?
-    answer: "Herzliya Marina is a modern waterfront district with restaurants, cafés, boutiques and a working yacht harbour. It is a pleasant place for lunch or a coffee after visiting Apollonia — the waterfront strip has a relaxed Mediterranean atmosphere without the tourist density of Jaffa Port or the Old City. The Herzliya Museum of Contemporary Art is in the city centre about 1.5 kilometres east of the Marina and worth an hour if you are interested in rotating contemporary exhibitions. The museum's building is architecturally distinctive."
+    answer: "Herzliya Marina is a modern waterfront district with restaurants, cafés, boutiques and a working yacht harbour. The most prominent new addition is The Yacht by Fattal, a 325-room hotel (opened June 2026) with a 50m outdoor pool and the Club Marine Mediterranean restaurant. The Marina is a pleasant place for lunch or a coffee after visiting Apollonia — the waterfront strip has a relaxed Mediterranean atmosphere without the tourist density of Jaffa Port or the Old City. The Herzliya Museum of Contemporary Art is in the city centre about 1.5 kilometres east of the Marina and worth an hour if you are interested in rotating contemporary exhibitions."
 ---
 
 **Herzliya** sits on the Mediterranean coast 15 kilometres north of Tel Aviv: close enough to reach in 20 minutes on the Green Line light rail, yet distinct enough to justify its own half-day or full-day itinerary. The draw is a combination that few visitors expect — clifftop Crusader fortress ruins at Apollonia National Park, a well-maintained Blue Flag beach at Acadia, and a marina-side lunch scene that is noticeably calmer than anything in central Tel Aviv.
@@ -69,6 +69,8 @@ Below the fortress walls, the park also contains Byzantine and Hellenistic remai
 ## Herzliya Marina
 
 The **Herzliya Marina** is a modern yacht harbour and waterfront district about 2 kilometres south of Apollonia — the natural lunch stop after the morning ruins. The marina has restaurants, cafés and boutiques lining the waterfront, with the smell of the sea and the view of moored sailboats providing a pleasantly unhurried backdrop.
+
+The most significant new arrival is **The Yacht by Fattal** (Fattal Limited Edition collection), a 325-room hotel that opened in June 2026 directly on the Marina. It features a 50-metre outdoor pool, the Club Marine Mediterranean restaurant and a Skipper's Bar. Even if you are not staying there, the restaurant strip alongside it has improved the lunch and dinner options at the Marina considerably.
 
 The atmosphere here is distinctly different from the Old Jaffa port — newer, cleaner, less historically layered, and oriented towards a well-off Israeli and expat clientele. Prices reflect that: expect to pay ₪80–160 for a main course at a sit-down marina restaurant. Lighter options (sandwiches, coffee, pastries) are available at café level.
 
