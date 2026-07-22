@@ -5984,3 +5984,42 @@ All 8 research agent candidates were already present in BACKLOG or DONE:
 - Negev crater bikepacking — covered by israel-national-bike-trail (SHIPPED iter682; Negev-Arava section)
 - Music festivals Israel annual calendar — already in BACKLOG
 - Interactive food tourism map — already in BACKLOG
+
+### 2026-07-22 · iter 705 · RESEARCH pass #143 · Valley of Springs + Israel 2026 Campaign
+
+**Valley of Springs Regional Hub** (Israel21c / MyIsraeli Guide / regional council tourism):
+- "Valley of Springs Regional Council" is the official tourism rebrand for the Beit She'an Valley region
+- Competing content: israel21c.org has a "Take it slow in Israel's Valley of Springs" feature; myisraeliguide.com/valley-of-springs-in-northern-israel provides an aggregating guide
+- Our gap: individual site guides exist (beit-shean, gan-hashlosha, beit-alfa) but no /valley-of-springs-israel regional hub tying them together under this tourism brand
+- SEO angle: "Valley of Springs Israel" is a low-competition query that no major Israel travel site has optimized a dedicated hub for
+- Affiliate opportunities: kibbutz guesthouses in the valley, Booking.com (Beit She'an area), DiscoverCars (drive-in visitors from Nazareth/TLV)
+- Competitor gap: TouristIsrael, GoIsrael, Lonely Planet don't have a dedicated "Valley of Springs" hub page; Israel21c has feature content but no travel-guide format
+
+**"I Am Israel" Tourism Campaign & NIS 174M Infrastructure** (Forbes / JewishLink, June 2026):
+- Ministry of Tourism launched "I Am Israel" $7M North America repositioning campaign, June 2026 (Forbes: /sites/michaelgoldstein/2026/06/16/israel-tourism-spotlights-the-country-and-its-people-in-new-campaign)
+- NIS 174M ($56M) approved for 58 public tourism infrastructure projects; NIS 37M Eilat-focused component
+- Israel-travel-2026.md (iter487) covers the security situation + market data but misses this official campaign and infrastructure investment news
+- Update angle: add "I Am Israel" campaign context for travelers understanding government commitment to tourism + Eilat development specifics
+
+**Kibbutz Summer 2026 Experiences** (JPost Travel, July 2026):
+- Nir David (Bet She'an Valley) + Ortal (Golan Heights) structured summer programs through August 2026
+- Lantern-guided kibbutz historical tours, night swimming in springs, telescope stargazing at Mount Shifon (dark sky), taboon pita baking evenings
+- JPost source: jpost.com/travel/article-903005
+- Time-sensitive: programs end August 2026 — priority freshness update to kibbutz-hotels-israel.md before season ends
+- No competitor Israel travel guides have noted these specific 2026 programs yet
+
+### Confirmed NOT Gaps / Already Covered (iter705 false-lead elimination)
+
+- Golf tourism → BACKLOG iter290
+- Japanese travelers guide → BACKLOG P2/S iter455 (Arkia TLV-TYO Oct 2025 date-note added iter695)
+- October 7 memorial guide → BACKLOG BLOCKED human-review-required iter80
+- Kassland Resort → BACKLOG BLOCKED West Bank iter630
+- Haifa cruise terminal → SHIPPED iter621 (haifa-cruise-terminal-guide.md EXISTS)
+- Rosh Hanikra → SHIPPED iter483 (rosh-hanikra-guide.md EXISTS)
+- Craft workshops → BACKLOG /israel-craft-workshops
+- Extended stay / volunteer tourism → BACKLOG /extended-stay-israel
+- Architecture multi-city hub → BACKLOG
+- Art galleries → BACKLOG
+- Diving hub → BACKLOG
+- Knesset Museum → BACKLOG (Froumine House, 13 King George St, Jerusalem)
+- Sorek Stalactite Cave / Avshalom Reserve → BACKLOG/DONE

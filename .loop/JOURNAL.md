@@ -10897,3 +10897,14 @@ What: BUILD slot (703%5==3; technical rotation). Top technical item P2 tel-megid
 Gate: pnpm check 0 errors; pnpm build 823 pages (no change); pnpm test:e2e 1117/1117 pass. GREEN.
 Ship: committed b57197f to master; pushed origin/master. CI in_progress at push (standard pattern; prior iter CI = success for 25b44a7, 96d61cd all confirmed success).
 Next: iter 704 → REVIEW (704%5==4).
+
+## 2026-07-22T19:30Z · iter 705 · RESEARCH · research-705-pass143
+What: RESEARCH slot (705%5==0), pass #143. At ~95% saturation after 143 passes, 3 net-new from 30+ candidates screened.
+Dedup methodology: (1) filesystem check of all 357 guides; (2) python3 regex grep of full BACKLOG.md (too large to Read directly, 1.6MB); (3) two parallel research agents (competitor analysis + July 2026 news); (4) cross-referencing all agent findings against BACKLOG/DONE before accepting as new.
+False leads eliminated (all already in BACKLOG or SHIPPED): golf (iter290 BACKLOG), japanese-travelers (iter455 BACKLOG P2/S), october-7-memorial (iter80 BACKLOG BLOCKED), kassland-resort (iter630 BACKLOG BLOCKED West Bank), haifa-cruise-terminal-guide.md (SHIPPED iter621), rosh-hanikra-guide.md (SHIPPED iter483), craft-workshops (BACKLOG), extended-stay-israel/volunteer (BACKLOG), architecture-hub (BACKLOG), art-galleries (BACKLOG), diving-hub (BACKLOG), knesset-museum (BACKLOG), sorek-cave (BACKLOG/DONE).
+Net-new items added to BACKLOG:
+1. /valley-of-springs-israel regional hub — P3/S/seo-content. Beit She'an Valley Regional Council rebranded for tourism as "Valley of Springs Regional Council". Individual site guides exist (beit-shean-guide.md, gan-hashlosha-guide.md iter697, beit-alfa-guide.md) but no regional hub aggregates them under the "Valley of Springs" branding. Low-competition keyword. Unique angle: 100m below sea level micro-climate, multiple warm springs, year-round thermal appeal. Sources: israel21c.org, myisraeliguide.com.
+2. israel-travel-2026.md freshness — P3/S/technical. Guide shipped iter487 but lacks: (a) June 2026 "I Am Israel" $7M North America repositioning campaign; (b) NIS 174M ($56M) / 58 public tourism infrastructure projects (incl. NIS 37M Eilat focus). Sources: Forbes (June 2026), JewishLink.
+3. Kibbutz summer 2026 experiences note — P3/S/seo-content. Nir David (Valley of Springs/Beit She'an) + Ortal (Golan Heights): lantern-guided kibbutz tours, night swimming, telescope stargazing at Mount Shifon, taboon pita evenings. Programs running through August 2026. Best as freshness update to kibbutz-hotels-israel.md (SHIPPED iter261). Very seasonal — high priority to publish before end of August 2026. Source: JPost travel (jpost.com/travel/article-903005).
+No code changes. No gate run. RESEARCH mode only.
+Next: iter 706 → BUILD (706%5==1; seo-content rotation).

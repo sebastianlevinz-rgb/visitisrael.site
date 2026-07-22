@@ -1,13 +1,15 @@
 # LOOP STATE
 
-- iteration: 704
-- lastMode: REVIEW
-- lastItem: review-704-ramadan-discoverability
-- lastResult: REVIEW — SHIPPED 52f77dc. Audited iters 701-703; found 1 discoverability defect: israel-ramadan-guide had zero inbound links from events-calendar or seasonal-planning guides. Fixed: added Ramadan to Late Winter/Spring row in israel-events-festivals.md + 2 Ramadan links in best-time-to-visit-israel.md (Spring section + holiday-calendar paragraph). 823 pages (no new pages); 1117/1117 e2e+a11y pass. CI in_progress at push.
-- nextRotationCategory: 705%5==0 → RESEARCH
+- iteration: 705
+- lastMode: RESEARCH
+- lastItem: research-705-pass143
+- lastResult: RESEARCH — pass #143 at ~95% saturation. 3 net-new items from 30+ candidates screened. New: (1) /valley-of-springs-israel regional hub P3/S/seo-content (Beit She'an Valley tourism rebrand; beit-shean + gan-hashlosha + beit-alfa sub-guides already exist but no aggregating hub); (2) israel-travel-2026.md freshness P3/S/technical — "I Am Israel" $7M North America campaign June 2026 + NIS 174M ($56M) infrastructure across 58 projects; (3) kibbutz summer 2026 experiences P3/S/seo-content (Nir David + Ortal programs running Aug 2026; freshness note to kibbutz-hotels-israel.md). 30+ false leads screened and confirmed already in BACKLOG or DONE. No code changes (RESEARCH mode).
+- nextRotationCategory: 706%5==1 → BUILD
 - higgsfieldSpent: 0
-- updatedAt: 2026-07-22T18:49Z
+- updatedAt: 2026-07-22T19:30Z
 - branch context: work on master; feature work on auto/<slug>
+
+Notes: iter705 RESEARCH pass #143. At ~95% saturation, 3 net-new from 30+ candidates screened. Key false positives eliminated: golf (iter290 BACKLOG), japanese-travelers (iter455 BACKLOG P2/S), october-7-memorial (iter80 BACKLOG BLOCKED), kassland-resort (iter630 BACKLOG BLOCKED West Bank), haifa-cruise-terminal (SHIPPED iter621), rosh-hanikra (SHIPPED iter483), craft-workshops (BACKLOG), extended-stay/volunteer (BACKLOG), architecture-hub (BACKLOG). 823 pages; 1117/1117 e2e pass (from last BUILD gate — RESEARCH has no gate run).
 
 Notes: iter704 REVIEW — review-704-ramadan-discoverability. SHIPPED 52f77dc. Audited iters 701-703 (ramadan-guide new page, bga-t3 freshness, herzliya-yacht freshness). All content checks CLEAN (images, internal links, honesty, meta lengths). One discoverability defect: israel-ramadan-guide had 3 inbound links but missed events-festivals calendar + best-time-to-visit seasonal guide. Fixed both. 823 pages; 1117/1117 e2e+a11y pass.
 
@@ -27,4 +29,4 @@ Notes: iter694 REVIEW — review-694-meta-trim (pet-friendly-israel desc 181→1
 
 Cron b7325b16 hourly @ :17. Loop history: 19 tools + sitemap-lastmod + link-checker(+depth) + i18n
 Phase0/1a/1b/1c/2 Batches1-18(COMPLETE) + 48 review passes + 4 technical (event-schema + meta-trim + locale-links + freshness-688) + 77 EN guides + 7 tools-monetization + 2 comparisons;
-research iters 5/10/20/30/35/40/45/50/55/60/65/70/75/80/85/90/95/100/105/110/115/120/125/130/135/140/145/150/155/160/165/170/175/180/185/190/195/200/205/210/215/220/225/230/235/240/245/250/255/260/265/270/275/280/285/290/295/300/305/310/315/320/325/330/335/340/345/350/355/360/365/370/375/380/385/390/395/400/405/410/420/425/430/435/440/445/450/455/460/465/470/480/485/490/495/500/505/510/515/520/525/535/540/545/550/555/560/565/570/575/580/585/590/595/600/605/610/615/620/625/630/635/640/645/650/655/660/665/670/675/680/685/690/695/700.
+research iters 5/10/20/30/35/40/45/50/55/60/65/70/75/80/85/90/95/100/105/110/115/120/125/130/135/140/145/150/155/160/165/170/175/180/185/190/195/200/205/210/215/220/225/230/235/240/245/250/255/260/265/270/275/280/285/290/295/300/305/310/315/320/325/330/335/340/345/350/355/360/365/370/375/380/385/390/395/400/405/410/420/425/430/435/440/445/450/455/460/465/470/480/485/490/495/500/505/510/515/520/525/535/540/545/550/555/560/565/570/575/580/585/590/595/600/605/610/615/620/625/630/635/640/645/650/655/660/665/670/675/680/685/690/695/700/705.
