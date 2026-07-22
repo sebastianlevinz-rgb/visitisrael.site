@@ -1,13 +1,17 @@
 # LOOP STATE
 
-- iteration: 694
-- lastMode: REVIEW
-- lastItem: review-694-meta-trim (pet-friendly-israel desc 181→145)
-- lastResult: SHIPPED 081af26. REVIEW audit of iters 691–693 (pet-friendly-israel, lag-baomer-israel, jerusalem-lrt-green-line). One defect: pet-friendly-israel desc 181 chars (21 over ≤160); trimmed to 145. All other checks CLEAN. 820 pages; 1115/1115 e2e pass. CI+Lighthouse in_progress at push.
-- nextRotationCategory: 695%5==0 → RESEARCH (pass #141)
+- iteration: 695
+- lastMode: RESEARCH
+- lastItem: research-695-pass141
+- lastResult: RESEARCH pass #141. At ~95% saturation, 2 net-new items from 30+ candidates screened: (1) pre-commit meta length lint P2/S/technical — scripts/lint-meta-length.mjs; eliminates recurring REVIEW defect pattern (7 consecutive meta-trim passes). (2) herzliya-guide.md freshness P3/S/technical — The Yacht hotel by Fattal (Limited Edition, 325 rooms, 50m outdoor pool, Club Marine restaurant, opened June 2026). Key date confirmed: Arkia TLV-TYO Narita Oct 25 2026 (twice weekly Boeing 787) — priority note added for japanese-travelers BACKLOG item. No code shipped (RESEARCH mode). 820 pages; 1115/1115 e2e pass.
+- nextRotationCategory: 696%5==1 → BUILD (monetization)
 - higgsfieldSpent: 0
-- updatedAt: 2026-07-22T06:50Z
+- updatedAt: 2026-07-22T08:00Z
 - branch context: work on master; feature work on auto/<slug>
+
+Notes: iter695 RESEARCH pass #141. At ~95% saturation, 2 net-new from 30+ candidates screened. Pre-commit meta lint (P2/S/technical): after 7 REVIEW meta-trim passes catching 1-3 overruns each, an automated scripts/lint-meta-length.mjs wired into pnpm check would prevent these shipping in the first place. Herzliya freshness (P3/S/technical): The Yacht by Fattal opened June 2026 at Herzliya Marina (325 rooms, 50m outdoor pool, Club Marine restaurant) — herzliya-guide.md (iter282) predates this, marina section mentions "restaurants, cafés and boutiques" but no hotel. Arkia TLV-TYO Oct 25 confirmed; priority note added to japanese-travelers BACKLOG item. 820 pages; 1115/1115 e2e pass.
+
+Notes: iter694 REVIEW — review-694-meta-trim (pet-friendly-israel desc 181→145). SHIPPED 081af26. REVIEW audit of iters 691–693 (pet-friendly-israel, lag-baomer-israel, jerusalem-lrt-green-line). One defect: pet-friendly-israel desc 181 chars (21 over ≤160); trimmed to 145. All other checks CLEAN. 820 pages; 1115/1115 e2e pass. CI+Lighthouse in_progress at push.
 
 Notes: iter690 RESEARCH pass #140. At ~95% saturation, 3 net-new from 30+ candidates screened. Two background agents used: freshness agent (af20fbaf2837632b6, COMPLETED) returned rich findings — Israir TLV-JFK launching Jul/Aug 2026, El Al TLV-SFO Oct 25 2026, Jerusalem Green Line first section July 2026, Meron 2026 fully cancelled (PM's order + Hezbollah threat), rock climbing gap verified, dark tourism already BACKLOG BLOCKED, camel riding already SHIPPED. New attractions agent (a0239a0dfcea43ae0) still running at write time — not incorporated; available for iter695 research pass. 818 pages; 1113/1113 e2e pass.
 
@@ -39,4 +43,4 @@ Notes: iter648 BUILD (seo-content, fallthrough from tools→technical→monetiza
 
 Cron b7325b16 hourly @ :17. Loop history: 19 tools + sitemap-lastmod + link-checker(+depth) + i18n
 Phase0/1a/1b/1c/2 Batches1-18(COMPLETE) + 48 review passes + 4 technical (event-schema + meta-trim + locale-links + freshness-688) + 76 EN guides + 7 tools-monetization + 2 comparisons;
-research iters 5/10/20/30/35/40/45/50/55/60/65/70/75/80/85/90/95/100/105/110/115/120/125/130/135/140/145/150/155/160/165/170/175/180/185/190/195/200/205/210/215/220/225/230/235/240/245/250/255/260/265/270/275/280/285/290/295/300/305/310/315/320/325/330/335/340/345/350/355/360/365/370/375/380/385/390/395/400/405/410/420/425/430/435/440/445/450/455/460/465/470/480/485/490/495/500/505/510/515/520/525/535/540/545/550/555/560/565/570/575/580/585/590/595/600/605/610/615/620/625/630/635/640/645/650/655/660/665/670/675/680/685/690.
+research iters 5/10/20/30/35/40/45/50/55/60/65/70/75/80/85/90/95/100/105/110/115/120/125/130/135/140/145/150/155/160/165/170/175/180/185/190/195/200/205/210/215/220/225/230/235/240/245/250/255/260/265/270/275/280/285/290/295/300/305/310/315/320/325/330/335/340/345/350/355/360/365/370/375/380/385/390/395/400/405/410/420/425/430/435/440/445/450/455/460/465/470/480/485/490/495/500/505/510/515/520/525/535/540/545/550/555/560/565/570/575/580/585/590/595/600/605/610/615/620/625/630/635/640/645/650/655/660/665/670/675/680/685/690/695.

@@ -5932,3 +5932,32 @@ haifa-shore-excursions (ALREADY IN BACKLOG P3/S — priority upgrade to P2/S not
 - World Jewish Travel: Has Sderot "dark tourism" and resilience tour coverage
 - Remitly blog + JewBelong: Cover Lag BaOmer culturally but not as practical travel guides
 - JWeekly (San Francisco Jewish newspaper): Active coverage of El Al SFO route — West Coast Jewish community highly engaged in Israel travel recovery
+
+### 2026-07-22 · iter 695 · RESEARCH pass #141 · meta-lint + herzliya freshness
+
+**The Yacht Hotel by Fattal — Herzliya Marina** (Fattal Hotels press / booking.com listings, June 2026):
+- Brand: Fattal "Limited Edition" (their boutique/luxury tier, similar to Norman Tel Aviv, Beresheet Mitzpe Ramon)
+- Property: The Yacht Hotel, Herzliya Marina; 325 rooms; 50m outdoor pool; Club Marine restaurant; sea-facing rooms
+- Opened: June 2026
+- Relevance: herzliya-guide.md (iter282) was written before this opening; marina section mentions dining/retail atmosphere but NOT this hotel — it's the highest-profile new hotel in Herzliya in years
+- SEO angle: "Herzliya Marina hotel" searches will return this prominently; our guide will look stale without it
+- Competitor status: Booking.com, Fattal own site, and TripAdvisor all list it; Lonely Planet/Rough Guides have not updated yet — window to be first editorial guide with it
+- Action: herzliya-guide.md freshness P3/S/technical added to BACKLOG iter695
+
+**Arkia TLV-Tokyo Narita route confirmed date** (Arkia press release / Simple Flying Jul 2026):
+- Route: Tel Aviv Ben Gurion (TLV) → Tokyo Narita (NRT)
+- Launch date: October 25, 2026 (CONFIRMED; previously only "autumn 2026")
+- Frequency: twice weekly (planned; pending slot confirmation)
+- Aircraft: Boeing 787-9
+- Context: First scheduled TLV-Japan route; Israir TLV-JFK already launching Jul/Aug 2026; El Al TLV-SFO Oct 25 2026 → TLV gaining North America + Asia long-haul options
+- Action: israel-for-japanese-travelers BACKLOG item (P2/S seo-content) priority note updated — specific launch date confirmed; timely hook for page (publish before Oct 25 to capture pre-launch search intent)
+
+### Confirmed NOT Gaps / Already Covered (iter695 false-lead elimination)
+
+- israel-stargazing.md: EXISTS (SHIPPED iter~450+); FAQ section already mentions Summer of Stars 2026; Ramon Crater DarkSky Park designation already noted — no freshness gap
+- Sports / marathon content: sports-events-israel.md covers Jerusalem Marathon, Tel Aviv Marathon, Dead Sea Marathon, Eilat Israman, Maccabiah Games 2026 — fully current
+- Rock climbing guide: already added to BACKLOG iter690 as P3/M seo-content
+- Lag BaOmer / Meron 2026 cancellation: handled iter690 (research flag) + iter692 (BUILD — guide SHIPPED)
+- israel-for-japanese-travelers: already in BACKLOG P2/S seo-content; date note added this pass
+- Gaza/Nova musical festival tours (Tourist Israel): BLOCKED for us (sensitivity/honesty rules; dark tourism iter80 HUMAN-REVIEW-REQUIRED)
+- October 7 memorial guide: BACKLOG P2 HUMAN-REVIEW-REQUIRED iter80 — blocked; no change

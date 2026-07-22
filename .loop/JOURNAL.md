@@ -10821,3 +10821,11 @@ Next: iter 695 = RESEARCH (695%5==0), pass #141.
 
 ## 2026-07-22 · STOP flag detected
 stopped: STOP flag — .loop/STOP file is present. Skipping this iteration without changes. Awaiting human review/removal of STOP flag before resuming.
+
+## 2026-07-22T08:00Z · iter 695 · RESEARCH · research-695-pass141
+What: RESEARCH slot (695%5==0), pass #141. At ~95% saturation after 141 passes, 2 net-new items found from 30+ candidates screened.
+Net-new: (1) pre-commit meta length lint (P2/S/technical) — scripts/lint-meta-length.mjs reads src/content/guides/*.md, parses YAML frontmatter, exits 1 if title >65 or desc >160; wire into pnpm check. After 7 consecutive REVIEW meta-trim passes (iters 649/684/689/694+), each catching 1–3 overruns, an automated lint rule would prevent these from shipping in the first place. (2) herzliya-guide.md freshness (P3/S/technical) — The Yacht hotel by Fattal (Limited Edition brand; 325 rooms; 50m outdoor pool; Club Marine restaurant) opened June 2026 at Herzliya Marina; herzliya-guide.md (iter282) predates this opening; marina section mentions "restaurants, cafés and boutiques" but not the hotel; add 2–3 sentences + Booking.com CTA.
+Key date confirmed: Arkia TLV-TYO Narita October 25, 2026 (twice weekly, Boeing 787) — priority note added for israel-for-japanese-travelers BACKLOG item (specific launch date now known vs. "autumn 2026" previously).
+False leads eliminated (30+): israel-stargazing.md exists and FAQ already covers Summer of Stars; all major nationality guides in BACKLOG or SHIPPED; sports-events-israel.md fully covers marathon content (Jerusalem/TLV/Dead Sea/Eilat/Maccabiah 2026); many P3 items from prior passes confirmed SHIPPED (iter282/357/208/483/607/616 etc.); rock climbing already added iter690; Meron/Lag BaOmer already added iter690+692; Transport Purple Line already noted; October 7 memorial and dark tourism BACKLOG HUMAN-REVIEW-REQUIRED iter80 (blocked, unchanged).
+No code changes. No gate run. RESEARCH mode only.
+Next: iter 696 → BUILD (696%5==1; monetization rotation).
