@@ -10841,3 +10841,10 @@ Next: iter 696 → BUILD (696%5==1; monetization rotation).
 **Ship:** pushed to origin/master; 67e0f5d..606ac2f.
 **CI:** GitHub Actions ci.yml + lighthouse.yml in_progress at push time (standard cloud-env pattern).
 **Next:** iter 697 → BUILD (697%5==2; seo-content rotation).
+
+## 2026-07-22T10:47Z · iter 697 · BUILD (seo-content) · gan-hashlosha-guide
+What: New /gan-hashlosha-guide — Gan HaShlosha National Park (Sachne) warm spring pools in the Beit She'an Valley. P2/S item confirmed genuine gap (triple-zero filesystem check). Three freshwater pools at constant 28°C year-round fed by the Harod River springs; subtropical vegetation; INPA national parks pass valid. Capacity-controlled advance booking via parks.org.il required on busy weekends + Jewish holidays. Seasonal visit tips (winter surprise visit; summer early-arrival). Full Beit She'an Valley day circuit (Beit She'an Roman ruins 3km + Sachne + Beit Alfa zodiac mosaic 15 min south). 3 affiliate CTAs (DiscoverCars, Booking.com Tiberias, GYG Galilee tours). 7 FAQs. Cross-links: beit-shean-guide, israel-national-parks-pass, day-trips-from-haifa, galilee-tours-compared, water-hiking-israel. Smoke test backfill: added /tel-megiddo-guide (iter696 guide lacked smoke test entry) + new /gan-hashlosha-guide route.
+Gate: pnpm check 0 errors; build 822 pages (+1); 1117/1117 e2e+a11y pass.
+Ship: squash-merged to master 4ea7877, pushed.
+Prod: CI+Lighthouse in_progress at push time (standard pattern); previous iter CI result = success.
+Next: 698%5==3 → BUILD (tools).

@@ -1,12 +1,12 @@
 # LOOP STATE
 
-- iteration: 696
+- iteration: 697
 - lastMode: BUILD
-- lastItem: tel-megiddo-guide
-- lastResult: BUILD (monetization) — tel-megiddo-guide. SHIPPED 606ac2f. New standalone /tel-megiddo-guide: UNESCO Biblical Tel, Armageddon etymology (Har Megiddo→Harmageddon→Revelation 16:16; framed as theological tradition), 26 strata of occupation (4500 BCE–332 BCE), Solomonic Gate (scholarly consensus noted), Stables vs Storehouses debate (both interpretations presented), Ahab's Water Tunnel (walk-through), Jezreel Valley panorama, site museum + Megiddo Ivories. 3 CTAs (GYG Galilee tours, DiscoverCars Haifa, Booking.com Haifa). 7 FAQs. Cross-links: day-trips-from-haifa, mount-tabor-guide, galilee-tours-compared, jewish-heritage-israel, israel-national-parks-pass, car-rental-israel. 821 pages (+1); 1115/1115 e2e pass. CI+Lighthouse in_progress at push.
-- nextRotationCategory: 697%5==2 → BUILD (seo-content)
+- lastItem: gan-hashlosha-guide
+- lastResult: BUILD (seo-content) — gan-hashlosha-guide. SHIPPED 4ea7877. New standalone /gan-hashlosha-guide: Gan HaShlosha National Park (Sachne) warm spring pools in the Beit She'an Valley. Three freshwater pools at constant 28°C year-round (Harod River springs). Subtropical vegetation (date palms, bamboo, eucalyptus). Capacity-controlled advance booking via parks.org.il. Seasonal guide (winter surprise visit; summer early-arrival tips). Full day circuit: Beit She'an Roman ruins (3km) + Sachne swimming + Beit Alfa zodiac mosaic (15 min south). 3 CTAs (DiscoverCars, Booking.com Tiberias, GYG Galilee tours). 7 FAQs. Cross-links: beit-shean-guide, israel-national-parks-pass, day-trips-from-haifa, galilee-tours-compared, water-hiking-israel. Smoke tests: +2 routes (tel-megiddo-guide backfill + new page). 822 pages (+1); 1117/1117 e2e pass. CI+Lighthouse in_progress at push.
+- nextRotationCategory: 698%5==3 → BUILD (tools)
 - higgsfieldSpent: 0
-- updatedAt: 2026-07-22T10:00Z
+- updatedAt: 2026-07-22T10:47Z
 - branch context: work on master; feature work on auto/<slug>
 
 Notes: iter696 BUILD (monetization) — tel-megiddo-guide. SHIPPED 606ac2f. Genuine gap confirmed via filesystem check (no existing file). New /tel-megiddo-guide: UNESCO Biblical Tel + Armageddon hook driving secular + pilgrim traffic; Solomonic Gate + Ahab's Water Tunnel as standout experiences; honest framing of all scholarly debates. Two false positives encountered first (beer-sheva-guide.md already existed; best-hotels-negev.md already covers Mitzpe Ramon); systematic filesystem verification now standard before any BUILD. 821 pages; 1115/1115 e2e pass.
