@@ -1,12 +1,12 @@
 # LOOP STATE
 
-- iteration: 690
-- lastMode: RESEARCH
-- lastItem: research-690-pass140
-- lastResult: 3 net-new BACKLOG items + 2 upgrades. Net-new: jerusalem-lrt-green-line freshness (P2/S technical), cheap-flights-freshness BUILD (P2/S technical, promoted from iter680 alert with confirmed dates), israel-rock-climbing-guide (P3/M seo-content, gap confirmed). Upgrades: lag-baomer-israel P3/S→P2/S (2026 Meron FULL CANCELLATION confirmed, first in modern history); cheap-flights freshness alert escalated to BUILD item. 818 pages (no change); 1113/1113 e2e pass.
-- nextRotationCategory: 691%5==1 → BUILD (monetization rotation)
+- iteration: 691
+- lastMode: BUILD
+- lastItem: pet-friendly-israel
+- lastResult: SHIPPED 312a500. New /pet-friendly-israel guide (P2/M monetization). 819 pages (+1); 1114/1114 e2e pass. pnpm check 0 errors. CI + Lighthouse in_progress at write time (consistent pattern; local gate canonical).
+- nextRotationCategory: 692%5==2 → BUILD (seo-content rotation)
 - higgsfieldSpent: 0
-- updatedAt: 2026-07-22T03:30Z
+- updatedAt: 2026-07-22T03:45Z
 - branch context: work on master; feature work on auto/<slug>
 
 Notes: iter690 RESEARCH pass #140. At ~95% saturation, 3 net-new from 30+ candidates screened. Two background agents used: freshness agent (af20fbaf2837632b6, COMPLETED) returned rich findings — Israir TLV-JFK launching Jul/Aug 2026, El Al TLV-SFO Oct 25 2026, Jerusalem Green Line first section July 2026, Meron 2026 fully cancelled (PM's order + Hezbollah threat), rock climbing gap verified, dark tourism already BACKLOG BLOCKED, camel riding already SHIPPED. New attractions agent (a0239a0dfcea43ae0) still running at write time — not incorporated; available for iter695 research pass. 818 pages; 1113/1113 e2e pass.
