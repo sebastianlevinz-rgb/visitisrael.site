@@ -80,6 +80,25 @@ For a full planning guide — hotel program tiers, tourist Seder options, Birkat
 
 ---
 
+## Lag BaOmer — Late Spring
+
+**What it is**: The 33rd day of the Omer count between Passover and Shavuot. The day commemorates the yahrzeit (death anniversary) of Rabbi Shimon bar Yochai — the Talmudic sage associated with the Zohar and Jewish mysticism — and draws pilgrims to his tomb at Mount Meron in the Upper Galilee. Nationwide, bonfires light up parks and open spaces on the eve.
+
+**When**: Evening of 4 May 2027 (bonfires lit at nightfall). 2026: evening of 15 May (events significantly curtailed — see below).
+
+**Impact on visitors**:
+
+- **Bonfires nationwide**: in most years, bonfires appear across the country on the eve of Lag BaOmer, creating a distinctive smoky atmosphere in cities. Air quality is significantly affected — health authorities advise those with respiratory conditions to stay indoors.
+- **Meron pilgrimage — not guaranteed**: the Mount Meron pilgrimage has faced two major disruptions in five years — the 2021 crowd crush (45 deaths) and a full cancellation in 2026 due to a Hezbollah security threat. Meron attendance is now security-contingent and requires pre-registration in years it opens.
+- **Safed as the visitor alternative**: [Safed (Tzfat)](/safed-tzfat-guide), 12 km from Meron, holds its own Kabbalistic Lag BaOmer celebrations and is fully accessible without pre-registration.
+- **Not a statutory holiday**: offices and businesses stay open; public transport runs normally.
+
+**Booking advice**: if visiting during Lag BaOmer, book Safed accommodation one to two months ahead. Avoid planning an international trip around Meron specifically — access depends on annual security decisions.
+
+For the full visitor guide — Meron's disruption history, Safed bonfire experience, practical logistics, and 2027 dates — see the [Lag BaOmer in Israel guide](/lag-baomer-israel).
+
+---
+
 ## Shavuot — Late Spring / Early Summer
 
 **What it is**: A one-day harvest festival (two days in the Diaspora) marking the giving of the Torah at Sinai. Celebrated 50 days after Passover. Known for dairy food, all-night Torah study, and dawn prayers at the Western Wall.

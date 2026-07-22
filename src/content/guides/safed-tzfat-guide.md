@@ -139,7 +139,7 @@ Stock up at the Thursday or Friday morning market near Kikar HaMeginim for bread
 - **Rosh Pina** (20 min south): A beautifully preserved Rothschild-era Jewish agricultural village with a good restaurant scene — easy to add on the road between Safed and Tiberias
 - **Banias (Caesarea Philippi)** (50 min north): Israel's most dramatic waterfall and a major biblical/Roman site — extends a northern Galilee day considerably
 - **Akko (Acre)** (60 min west via Haifa): The medieval Crusader city makes a striking contrast to Safed's Kabbalistic atmosphere; combine the two for a full northern day if you have a car
-- **Mount Meron** (15 min west): The tomb of Rabbi Shimon Bar Yochai — the most important annual pilgrimage site in Judaism (Lag B'Omer draws hundreds of thousands); year-round the mountain itself is worth a short hike for views
+- **Mount Meron** (15 min west): The tomb of Rabbi Shimon Bar Yochai — the most important annual pilgrimage site in Judaism during Lag BaOmer; see the [Lag BaOmer in Israel guide](/lag-baomer-israel) for pilgrimage logistics and safety context; year-round the mountain itself is worth a short hike for views
 
 ---
 

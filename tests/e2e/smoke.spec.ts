@@ -639,6 +639,7 @@ const ROUTES = [
   '/nahal-pratzim-guide',
   '/israel-paragliding-guide',
   '/pet-friendly-israel',
+  '/lag-baomer-israel',
 ];
 
 for (const route of ROUTES) {
