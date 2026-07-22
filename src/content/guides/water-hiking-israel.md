@@ -101,7 +101,7 @@ The wilder, quieter gorge alongside Wadi David. Nahal Arugot is longer and more 
 
 The most accessible family water hike in Israel, and the one most Israelis point to when asked about "wading hikes." **Nahal HaKibbutzim** runs through the **Spring Valley** (Emek HaMa'ayanot) between three kibbutzim; the water is warm-ish (thermal springs feed the system), crystal clear and in places chest-deep on adults. Natural water slides, large swimming pools and a sandy-bottomed channel make this the closest thing to a water park that Israel's nature reserves offer.
 
-The adjacent **Gan HaShlosha** (Sachne) complex is one of Israel's most popular natural swimming spots — a series of large spring-fed pools open for swimming. Combine the nahal walk with a few hours at Gan HaShlosha for a full day out.
+The adjacent **[Gan HaShlosha](/gan-hashlosha-guide)** (Sachne) complex is one of Israel's most popular natural swimming spots — a series of large spring-fed pools open for swimming. Combine the nahal walk with a few hours at Gan HaShlosha for a full day out.
 
 **Practical tips:** This site requires a car or organised day trip — no direct public transport from Tel Aviv. Weekends and school holidays are extremely busy; mid-week visits are far more peaceful. The site is near the historical [Beit She'an](/beit-shean-guide) archaeological park, which pairs well for a full-day [Galilee](/galilee) itinerary.
 

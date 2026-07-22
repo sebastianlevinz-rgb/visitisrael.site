@@ -97,7 +97,7 @@ This is the most historically resonant spot on the site: from this vantage point
 
 ## Combining Beit She'an with Gan HaShlosha (Sachne)
 
-The most popular day-trip combination pairs Beit She'an with **Gan HaShlosha National Park** (known as *Sachne*, from the Arabic for "warm") 3 km to the south-west.
+The most popular day-trip combination pairs Beit She'an with **[Gan HaShlosha National Park](/gan-hashlosha-guide)** (known as *Sachne*, from the Arabic for "warm") 3 km to the south-west.
 
 Sachne is a series of large natural pools fed by the **Harod River springs**, which emerge at a constant **28°C year-round** from the Gilboa aquifer. The pools — linked by small waterfalls, with grass banks, shade trees and a small children's water park — are one of Israel's finest freshwater swimming sites. The deeper pools have diving rocks; the shallower areas are suitable for young children.
 
