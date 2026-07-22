@@ -1,13 +1,15 @@
 # LOOP STATE
 
-- iteration: 695
-- lastMode: RESEARCH
-- lastItem: research-695-pass141
-- lastResult: RESEARCH pass #141. At ~95% saturation, 2 net-new items from 30+ candidates screened: (1) pre-commit meta length lint P2/S/technical — scripts/lint-meta-length.mjs; eliminates recurring REVIEW defect pattern (7 consecutive meta-trim passes). (2) herzliya-guide.md freshness P3/S/technical — The Yacht hotel by Fattal (Limited Edition, 325 rooms, 50m outdoor pool, Club Marine restaurant, opened June 2026). Key date confirmed: Arkia TLV-TYO Narita Oct 25 2026 (twice weekly Boeing 787) — priority note added for japanese-travelers BACKLOG item. No code shipped (RESEARCH mode). 820 pages; 1115/1115 e2e pass.
-- nextRotationCategory: 696%5==1 → BUILD (monetization)
+- iteration: 696
+- lastMode: BUILD
+- lastItem: tel-megiddo-guide
+- lastResult: BUILD (monetization) — tel-megiddo-guide. SHIPPED 606ac2f. New standalone /tel-megiddo-guide: UNESCO Biblical Tel, Armageddon etymology (Har Megiddo→Harmageddon→Revelation 16:16; framed as theological tradition), 26 strata of occupation (4500 BCE–332 BCE), Solomonic Gate (scholarly consensus noted), Stables vs Storehouses debate (both interpretations presented), Ahab's Water Tunnel (walk-through), Jezreel Valley panorama, site museum + Megiddo Ivories. 3 CTAs (GYG Galilee tours, DiscoverCars Haifa, Booking.com Haifa). 7 FAQs. Cross-links: day-trips-from-haifa, mount-tabor-guide, galilee-tours-compared, jewish-heritage-israel, israel-national-parks-pass, car-rental-israel. 821 pages (+1); 1115/1115 e2e pass. CI+Lighthouse in_progress at push.
+- nextRotationCategory: 697%5==2 → BUILD (seo-content)
 - higgsfieldSpent: 0
-- updatedAt: 2026-07-22T08:00Z
+- updatedAt: 2026-07-22T10:00Z
 - branch context: work on master; feature work on auto/<slug>
+
+Notes: iter696 BUILD (monetization) — tel-megiddo-guide. SHIPPED 606ac2f. Genuine gap confirmed via filesystem check (no existing file). New /tel-megiddo-guide: UNESCO Biblical Tel + Armageddon hook driving secular + pilgrim traffic; Solomonic Gate + Ahab's Water Tunnel as standout experiences; honest framing of all scholarly debates. Two false positives encountered first (beer-sheva-guide.md already existed; best-hotels-negev.md already covers Mitzpe Ramon); systematic filesystem verification now standard before any BUILD. 821 pages; 1115/1115 e2e pass.
 
 Notes: iter695 RESEARCH pass #141. At ~95% saturation, 2 net-new from 30+ candidates screened. Pre-commit meta lint (P2/S/technical): after 7 REVIEW meta-trim passes catching 1-3 overruns each, an automated scripts/lint-meta-length.mjs wired into pnpm check would prevent these shipping in the first place. Herzliya freshness (P3/S/technical): The Yacht by Fattal opened June 2026 at Herzliya Marina (325 rooms, 50m outdoor pool, Club Marine restaurant) — herzliya-guide.md (iter282) predates this, marina section mentions "restaurants, cafés and boutiques" but no hotel. Arkia TLV-TYO Oct 25 confirmed; priority note added to japanese-travelers BACKLOG item. 820 pages; 1115/1115 e2e pass.
 
