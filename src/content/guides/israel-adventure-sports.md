@@ -136,6 +136,20 @@ Check availability in advance — flights are popular in spring wildflower seaso
 
 ---
 
+## Paragliding & tandem flights
+
+Israel has three distinct paragliding areas, each with its own season and character:
+
+- **Mt. Carmel coastal ridge (near Atlit, south of Haifa)** — the most developed commercial paragliding area. The ridge generates reliable afternoon sea-breeze lift with Mediterranean coastal views. Best October–June.
+- **Galilee / Golan plateau sites (near Katzrin)** — elevated plateau flying with panoramic views across the Sea of Galilee and the Jordan Valley. Best spring and autumn.
+- **Ramon Crater, Mitzpe Ramon** — thermal soaring above the Negev's vast erosion crater at 900 m altitude. Strong spring and autumn thermals; one of the most dramatic aerial settings in the country.
+
+Tandem paragliding flights require no experience — you fly with a licensed Israel Civil Aviation Authority (CAAI) pilot instructor. Commercial operators include Adventure Israel (adventure-israel.com) and Paragliding Israel (paragliding-israel.com); GetYourGuide lists additional vetted operators. Flight duration is typically 10–30 minutes but can extend significantly on good thermal days.
+
+For full site details, seasonal windows, booking advice and what to expect on the day, see the **[Israel paragliding guide](/israel-paragliding-guide)**.
+
+---
+
 ## Mount Hermon skiing & snowboarding
 
 **Mount Hermon** in the northern Golan Heights is Israel's only ski resort. It operates when snowfall is sufficient — roughly late December through March in good years — with 13 runs suited to beginners and intermediates. In low-snow winters, the upper slopes may not open at all. Pre-order tickets are mandatory; the resort does not accept walk-in gate sales on busy days.
@@ -188,6 +202,7 @@ Israel has growing dedicated infrastructure for both road cycling and trail MTB:
 | Surfing | Mediterranean coast | Oct–Mar (swells) | Beginner-friendly |
 | Kitesurfing | Haifa Bay, Eilat | Year-round | Beginner–intermediate |
 | Scuba / snorkelling | Eilat (Red Sea) | Year-round | Easy (guided options) |
+| Paragliding (tandem) | Haifa/Carmel, Galilee, Negev | Oct–Jun (Carmel); Mar–May, Sept–Nov (others) | Easy (tandem) |
 | Hot-air balloon | Galilee, Negev | Mar–May, Sept–Nov | Easy |
 | Skiing | Mount Hermon | Dec–Mar (snow-dependent) | Beginner–intermediate |
 | Sand surfing | Nitzana, Negev | Oct–Apr | Easy |

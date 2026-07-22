@@ -637,6 +637,7 @@ const ROUTES = [
   '/ashdod-cruise-port-excursions',
   '/haifa-shore-excursions',
   '/nahal-pratzim-guide',
+  '/israel-paragliding-guide',
 ];
 
 for (const route of ROUTES) {

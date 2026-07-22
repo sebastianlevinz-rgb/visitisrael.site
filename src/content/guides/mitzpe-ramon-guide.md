@@ -112,6 +112,8 @@ For multi-day crater traverses and technical routes, the [Negev desert multi-day
 
 **Mountain biking**: the crater rim trail circuit makes an excellent mountain bike route for experienced riders — the technical terrain, elevation changes, and exposure are significant; the trail is unsuitable for standard road bikes. Bikes can be hired in Mitzpe Ramon. A gentler graded track on the crater rim west of the Space Center is accessible to casual cyclists.
 
+**Paragliding**: the Ramon Crater's altitude (~900 m) and open terrain generate strong thermals, particularly in spring and autumn. Licensed commercial operators offer tandem paragliding flights from crater-edge launch sites. No experience required for tandem flights; the aerial view of the crater floor and surrounding Negev desert is genuinely exceptional. See the [Israel paragliding guide](/israel-paragliding-guide) for operator details and seasonal windows.
+
 ---
 
 ## Stargazing — Israel's IDA-certified dark-sky park
