@@ -172,6 +172,8 @@ Ramadan is one of the best times to experience Muslim culture in Jerusalem and N
 
 Ramadan dates shift approximately 11 days earlier each year on the Gregorian calendar. Always confirm dates using an Islamic calendar resource such as islamicfinder.org — never rely on a fixed Gregorian date in any guide, including this one.
 
+For a complete guide to visiting Israel during Ramadan — including Jaffa iftar culture, Nazareth Ramadan evenings, and detailed Temple Mount / Haram al-Sharif access notes — see the dedicated [Ramadan travel guide](/israel-ramadan-guide).
+
 ---
 
 ## Airport security at Ben Gurion

@@ -138,3 +138,5 @@ For visitors interested in Jaffa's food specifically, a [guided food tour](/isra
 For hotels in Jaffa — from the converted 19th-century French hospital at The Jaffa Hotel to mid-range boutique options in the Clock Tower district — see the [Jaffa hotels guide](/jaffa-hotels-guide).
 
 For the broader shopping picture — what to buy across Israel's markets, Old City bazaars, Dead Sea cosmetics, Israeli wine and Judaica — see the [shopping in Israel guide](/shopping-in-israel).
+
+**Visiting during Ramadan?** Jaffa's Arab food scene is at its most festive in the evenings during Ramadan — the Clock Tower area and Yefet Street come alive after iftar with lanterns, street food and community gatherings. See the [Ramadan in Israel guide](/israel-ramadan-guide) for what to expect.

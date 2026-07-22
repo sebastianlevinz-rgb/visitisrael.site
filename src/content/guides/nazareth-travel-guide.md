@@ -111,6 +111,12 @@ The city's restaurants are predominantly halal and are not kosher-certified. Mos
 
 ---
 
+## Ramadan in Nazareth
+
+Nazareth's Ramadan evenings rival its Christmas festival for atmosphere. After iftar, the Old City market and the streets around the central mosque come alive with lanterns, grilled meat stalls, knafeh vendors and an ebullient community gathering that continues late into the night. Arab-owned restaurants in the Old City operate on adjusted daytime hours during Ramadan — closed during fasting hours, open well past midnight after sunset. See the [Ramadan in Israel guide](/israel-ramadan-guide) for full logistics and dates.
+
+---
+
 ## The Christmas festival
 
 Nazareth's Christmas Eve celebration is regularly reported as the largest in Israel. The city's Arab Christian community — predominantly Greek Orthodox, Roman Catholic, Melkite, and Maronite — fills the streets around the Basilica and the Old City for an evening of carol singing, open churches, decorated streets, and festive markets. The atmosphere is markedly different from the heavily touristed Christmas experience in Bethlehem: Nazareth's celebration is primarily local, attended by Israeli Arab Christian families alongside international visitors.
