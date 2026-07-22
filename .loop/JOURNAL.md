@@ -10803,3 +10803,9 @@ Content: Full guide to Lag BaOmer in Israel. Structure: (1) What is Lag BaOmer (
 Gate: pnpm check 0 errors; pnpm build 820 pages (+1 from 819); pnpm test:e2e 1115/1115 pass (+1 smoke route).
 Ship: committed 3def4dc to master; pushed origin/master. CI + Lighthouse in_progress at push (consistent pattern; local gate canonical).
 Next: iter 693 → BUILD (693%5==3; tools rotation). Tools rotation all CONFIRMED SHIPPED → fallthrough to technical: cheap-flights-freshness (P2/S, Israir TLV-JFK + El Al TLV-SFO) or jerusalem-lrt-green-line (P2/S, Green Line first section July 2026).
+
+## 2026-07-22T06:00Z · iter 693 · BUILD (technical) · jerusalem-lrt-green-line
+What: Freshness update — Jerusalem LRT Green Line. P2/S technical (iter690 research). Checked cheap-flights-to-israel.md first: already updated (Israir TLV-JFK + El Al TLV-SFO were added in a prior push). Focus: transport gap. Two files updated: (1) transportation.md — updated Jerusalem Light Rail paragraph from "Red and Blue lines" to include Green Line description (Malha → Binyanei HaUmah/Convention Centre opened July 2026; full 19.6 km line to Gilo expected 2027); bumped updatedAt 2026-05-20→2026-07-22. (2) jerusalem-light-rail-guide.md — updated "two operational lines" to "three lines"; added Green Line bullet to network table; updated FAQ answer on which line serves tourist attractions; updated intro paragraph; bumped updatedAt 2026-07-19→2026-07-22. Both files are content-only edits; page count unchanged at 820.
+Gate: pnpm check 0 errors; pnpm build 820 pages; pnpm test:e2e 1115/1115 pass.
+Ship: committed 4b85e9f to master; pushed origin/master. CI in_progress at push (consistent pattern; local gate canonical).
+Next: iter 694 → REVIEW (694%5==4).
