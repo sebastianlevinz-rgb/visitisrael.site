@@ -1168,3 +1168,6 @@ REVIEW pass: galilee-food-guide cross-link fix. Audited iters 676-678 — all cl
 
 ## iter703 · herzliya-yacht-hotel · b57197f
 Updated herzliya-guide.md with The Yacht by Fattal hotel (June 2026 opening, 325 rooms, 50m pool, Club Marine restaurant). Added to Marina section, Booking CTA, and FAQ — freshness improvement for top Herzliya Marina accommodation.
+
+## iter704 · review-704-ramadan-discoverability · 52f77dc
+REVIEW: israel-events-festivals.md + best-time-to-visit-israel.md — added Ramadan cross-links to /israel-ramadan-guide in both primary planning-intent guides. Discoverability fix: ramadan guide had only 3 audience-specific inbound links; now also linked from the events calendar table (Late Winter/Spring row) and two locations in the seasonal guide (Spring section + holiday-calendar paragraph).

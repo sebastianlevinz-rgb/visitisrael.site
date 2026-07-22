@@ -10885,6 +10885,13 @@ Gate: pnpm check 0 errors; pnpm build 823 pages (no new page); pnpm test:e2e 111
 Ship: committed 96d61cd to master; pushed origin/master. CI in_progress at push (standard pattern).
 Next: iter 703 → BUILD (703%5==3; technical rotation).
 
+## 2026-07-22T18:49Z · iter 704 · REVIEW · review-704-ramadan-discoverability
+What: REVIEW of iters 701–703 (israel-ramadan-guide, bga-t3-expansion, herzliya-yacht-hotel). Image paths, internal link resolution, honesty (no fabricated data), meta lengths — all CLEAN. One discoverability defect found: israel-ramadan-guide (shipped iter701) had ZERO inbound links from the events calendar or seasonal planning guides. 3 existing cross-links (nazareth-guide, jaffa-guide, muslim-travel-israel) were good but the two primary planning-intent paths were missing.
+Fix (quick, safe, through full gate): (1) israel-events-festivals.md — added [Ramadan](/israel-ramadan-guide) to Late Winter/Spring table row with shift-note; updated table footer note; bumped updatedAt. (2) best-time-to-visit-israel.md — added Ramadan sentence + link in Spring section (noting 2026-28 overlap); updated closing "holiday calendar" paragraph with link; bumped updatedAt.
+Gate: pnpm check 0 errors; pnpm build 823 pages (no new pages); pnpm test:e2e 1117/1117 pass. GREEN.
+Ship: committed 52f77dc to master; pushed origin/master. CI + Lighthouse in_progress at push.
+Next: iter 705 → RESEARCH (705%5==0).
+
 ## 2026-07-22T16:45Z · iter 703 · BUILD (technical/freshness) · herzliya-yacht-hotel
 What: BUILD slot (703%5==3; technical rotation). Top technical item P2 tel-megiddo-guide consolidation blocked:human-review-required. Fell through to P3/S herzliya-guide.md freshness: The Yacht by Fattal opened June 2026 at Herzliya Marina (325 rooms, 50m outdoor pool, Club Marine Mediterranean restaurant, Skipper's Bar). Three changes: (1) added 3-sentence paragraph in Marina section describing The Yacht; (2) updated Booking CTA description to mention The Yacht alongside InterContinental David; (3) updated Marina FAQ answer to include The Yacht opening. Bumped updatedAt to 2026-07-22. No new page — same 823 pages.
 Gate: pnpm check 0 errors; pnpm build 823 pages (no change); pnpm test:e2e 1117/1117 pass. GREEN.

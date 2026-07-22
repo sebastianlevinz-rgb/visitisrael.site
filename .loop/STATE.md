@@ -1,13 +1,15 @@
 # LOOP STATE
 
-- iteration: 703
-- lastMode: BUILD
-- lastItem: herzliya-yacht-hotel
-- lastResult: BUILD (technical/freshness) — SHIPPED b57197f. Updated herzliya-guide.md: added The Yacht by Fattal (June 2026 opening, 325 rooms, 50m outdoor pool, Club Marine Mediterranean restaurant, Skipper's Bar) to Marina section, Booking CTA description, and Marina FAQ answer. updatedAt bumped to 2026-07-22. 823 pages (no new page); 1117/1117 e2e+a11y pass. CI in_progress at push.
-- nextRotationCategory: 704%5==4 → REVIEW
+- iteration: 704
+- lastMode: REVIEW
+- lastItem: review-704-ramadan-discoverability
+- lastResult: REVIEW — SHIPPED 52f77dc. Audited iters 701-703; found 1 discoverability defect: israel-ramadan-guide had zero inbound links from events-calendar or seasonal-planning guides. Fixed: added Ramadan to Late Winter/Spring row in israel-events-festivals.md + 2 Ramadan links in best-time-to-visit-israel.md (Spring section + holiday-calendar paragraph). 823 pages (no new pages); 1117/1117 e2e+a11y pass. CI in_progress at push.
+- nextRotationCategory: 705%5==0 → RESEARCH
 - higgsfieldSpent: 0
-- updatedAt: 2026-07-22T16:45Z
+- updatedAt: 2026-07-22T18:49Z
 - branch context: work on master; feature work on auto/<slug>
+
+Notes: iter704 REVIEW — review-704-ramadan-discoverability. SHIPPED 52f77dc. Audited iters 701-703 (ramadan-guide new page, bga-t3 freshness, herzliya-yacht freshness). All content checks CLEAN (images, internal links, honesty, meta lengths). One discoverability defect: israel-ramadan-guide had 3 inbound links but missed events-festivals calendar + best-time-to-visit seasonal guide. Fixed both. 823 pages; 1117/1117 e2e+a11y pass.
 
 Notes: iter703 BUILD (technical/freshness) — herzliya-yacht-hotel. SHIPPED b57197f. Top technical item (P2 tel-megiddo consolidation) blocked:human-review; fell through to P3/S herzliya-guide The Yacht by Fattal freshness update. Added hotel description to Marina section (3 new sentences), updated Booking CTA description (mention The Yacht by Fattal alongside InterContinental David), updated Marina FAQ answer. pnpm check 0 errors; 823 pages; 1117/1117 e2e+a11y pass.
 
