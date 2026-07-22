@@ -10809,3 +10809,12 @@ What: Freshness update — Jerusalem LRT Green Line. P2/S technical (iter690 res
 Gate: pnpm check 0 errors; pnpm build 820 pages; pnpm test:e2e 1115/1115 pass.
 Ship: committed 4b85e9f to master; pushed origin/master. CI in_progress at push (consistent pattern; local gate canonical).
 Next: iter 694 → REVIEW (694%5==4).
+
+## 2026-07-22T06:50Z · iter 694 · REVIEW · review-694-meta-trim
+What: REVIEW slot (694%5==4). Audited iters 691 (pet-friendly-israel), 692 (lag-baomer-israel), 693 (jerusalem-lrt-green-line freshness — transportation.md + jerusalem-light-rail-guide.md).
+Checks run: (1) title ≤65 chars — all clean (55/51/60/59); (2) desc ≤160 chars — 1 violation found; (3) zero H1 in body — all clean; (4) internal links — all 21 unique slugs verified present (guides/ checked, transport/[slug].astro dynamic routing confirmed); (5) hero images — all 9 images present in public/images/; (6) affiliate helpers — all CTAs via frontmatter partner: key, no hardcoded booking/getyourguide URLs in body; (7) back-links — tel-aviv-beach-guide → /pet-friendly-israel ✓; hayarkon-park-tel-aviv → /pet-friendly-israel ✓; traveling-israel-jewish-holidays → /lag-baomer-israel ✓; israel-events-festivals → /lag-baomer-israel ✓; safed-tzfat-guide → /lag-baomer-israel ✓; (8) Green Line in transportation.md and jerusalem-light-rail-guide.md — confirmed present and accurate.
+One defect: pet-friendly-israel description was 181 chars (21 over ≤160 limit). Trimmed from "Everything you need to know about bringing a dog or cat to Israel — import requirements, dog-friendly Tel Aviv beaches and parks, pet-welcome hotels, vet access, and practical tips." to "Bringing a dog or cat to Israel: import requirements, dog-friendly Tel Aviv beaches and parks, pet-welcome hotels, vet access and practical tips." (145 chars).
+Gate: pnpm check 0 errors; pnpm build 820 pages (no change — desc edit only); pnpm test:e2e 1115/1115 pass.
+Ship: committed 081af26 to master; pushed origin/master. CI + Lighthouse in_progress at push (consistent with prior pattern; local gate canonical).
+Pattern: BUILD iters continue to ship slightly-long descriptions (this is the 7th meta-trim in REVIEW history). An automated lint pre-commit check on desc ≤160 would catch these before they reach master.
+Next: iter 695 = RESEARCH (695%5==0), pass #141.
