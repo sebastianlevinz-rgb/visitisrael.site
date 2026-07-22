@@ -5961,3 +5961,26 @@ haifa-shore-excursions (ALREADY IN BACKLOG P3/S — priority upgrade to P2/S not
 - israel-for-japanese-travelers: already in BACKLOG P2/S seo-content; date note added this pass
 - Gaza/Nova musical festival tours (Tourist Israel): BLOCKED for us (sensitivity/honesty rules; dark tourism iter80 HUMAN-REVIEW-REQUIRED)
 - October 7 memorial guide: BACKLOG P2 HUMAN-REVIEW-REQUIRED iter80 — blocked; no change
+
+### 2026-07-22 · iter 700 · RESEARCH pass #142 · ben-gurion-t3-expansion
+
+**Ben Gurion Airport Terminal 3 Expansion** (Israel Airports Authority / Calcalist, July 2026):
+- Announcement: IAA awarded ~$311M contract for Terminal 3 major expansion project, July 2026
+- Scope: Capacity upgrade from ~16M passengers/year (current T3 throughput) to ~40M pax/year
+- Timeline: Multi-year project; construction start expected late 2026/early 2027; completion ~2029–2031 (IAA phased timeline; subject to change)
+- Context: T3 expansion is the long-term infrastructure fix; Terminal 1 July 2026 reopening (covered iter688) provides interim capacity relief
+- iter688 gap: ben-gurion-airport-guide.md was updated for T1 reopening — does NOT mention T3 expansion project
+- Competitor status: Simple Flying / The Aviationist / Calcalist cover the IAA announcement; mainstream travel guides have not updated airport pages yet
+- Action: P3/S/technical freshness BACKLOG item added iter700; 1–2 forward-looking sentences in Terminals overview; HONESTY: do not state specific completion year
+
+### Confirmed NOT Gaps / Already Covered (iter700 false-lead elimination)
+
+All 8 research agent candidates were already present in BACKLOG or DONE:
+- Knesset Museum Jerusalem (Froumine House, opened late 2025) — already in BACKLOG (confirmed)
+- Sorek Stalactite Cave / Avshalom Reserve — already in BACKLOG/DONE
+- Israel vegan food guide — already in BACKLOG
+- Ramat Gan Safari / open-air zoo — already in BACKLOG
+- Archaeology dig volunteer programs — already in BACKLOG
+- Negev crater bikepacking — covered by israel-national-bike-trail (SHIPPED iter682; Negev-Arava section)
+- Music festivals Israel annual calendar — already in BACKLOG
+- Interactive food tourism map — already in BACKLOG

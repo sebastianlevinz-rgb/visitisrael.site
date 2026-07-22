@@ -10865,3 +10865,10 @@ Two defects found:
 Gate: pnpm check 0 errors (lint OK + astro 0 errors); pnpm build 822 pages (no change); pnpm test:e2e 1117/1117 pass. GREEN.
 Ship: committed fc3fe65 to master; pushed origin/master. CI in_progress at push (standard pattern; prior CI runs for fafa3ed confirm success).
 Next: iter 700 = RESEARCH (700%5==0), pass #142.
+
+## 2026-07-22T14:00Z · iter 700 · RESEARCH · research-700-pass142
+What: RESEARCH slot (700%5==0), pass #142. At ~95% saturation after 142 passes, 1 net-new from 20+ candidates screened.
+Background research agent returned 8 candidate items; all 8 confirmed already in BACKLOG or DONE via python3 dedup checks: knesset-museum (already in BACKLOG from prior pass — Froumine House, 13 King George St, Jerusalem, opened late 2025), sorek stalactite cave (BACKLOG/DONE), israel-for-vegans (BACKLOG), ramat-gan-safari (BACKLOG), archaeology-dig-volunteer (BACKLOG), negev-crater-bikepacking (covered by israel-national-bike-trail SHIPPED iter682), music-festivals-israel-calendar (BACKLOG), food-tourism-map (BACKLOG). Direct WebSearch for new July 2026 developments surfaced 1 genuine gap: Ben Gurion Airport Terminal 3 expansion — IAA awarded ~$311M contract July 2026 for major long-term T3 capacity expansion (~16M→40M pax/year; estimated completion 2029–2031); ben-gurion-airport-guide.md iter688 freshness only covered Terminal 1 July 2026 reopening; T3 expansion is a separate strategic project not yet in guide. Added as P3/S/technical BACKLOG item.
+Additional confirms this pass: stranded remote branches auto/israel-hebrew-phrases + auto/bga-transfers-sherut-update confirmed squash-merged to master (israel-hebrew-phrases.md present in guides/; both entries in DONE.md with correct SHAs ba49d3b and 4f143ec); remote branches are stale/undeleted only — no recovery action needed.
+No code changes. No gate run. RESEARCH mode only.
+Next: iter 701 → BUILD (701%5==1; seo-content rotation).

@@ -1,13 +1,15 @@
 # LOOP STATE
 
-- iteration: 699
-- lastMode: REVIEW
-- lastItem: review-699-backlinks
-- lastResult: REVIEW — audited iters 696 (tel-megiddo-guide), 697 (gan-hashlosha-guide), 698 (lint-meta-length). Two discoverability defects found: (1) gan-hashlosha-guide had zero inbound links from beit-shean-guide.md and water-hiking-israel.md despite both discussing Sachne at length — FIXED: added /gan-hashlosha-guide links at most natural anchors in both files. SHIPPED fc3fe65. 822 pages (no new pages); 1117/1117 e2e pass. (2) tel-megiddo-guide has zero inbound content links AND a near-duplicate megiddo-jezreel-valley-guide.md exists (9+ inbound links) covering same topic — flagged BACKLOG blocked:human-review. lint-meta-length.mjs confirmed working (354 guides, 0 violations). CI in_progress at push.
-- nextRotationCategory: 700%5==0 → RESEARCH
+- iteration: 700
+- lastMode: RESEARCH
+- lastItem: research-700-pass142
+- lastResult: RESEARCH pass #142 — at ~95% saturation, 1 net-new from 20+ candidates screened. Background research agent returned 8 candidates; all 8 already in BACKLOG or DONE (knesset-museum confirmed in BACKLOG from prior pass; sorek cave, israel-for-vegans, ramat-gan-safari, archaeology-dig, negev-crater-bike, music-festivals, food-tourism-map all present). Direct WebSearch surfaced 1 genuine gap: ben-gurion-airport T3 expansion ($311M IAA contract July 2026; capacity project ~16M→40M pax/year, estimated 2029–2031) — iter688 freshness covered only Terminal 1 reopening; T3 expansion is a separate long-term project. Added as P3/S/technical. Also confirmed: Knesset Museum (Froumine House, Jerusalem) already in BACKLOG; stranded remote branches auto/israel-hebrew-phrases + auto/bga-transfers-sherut-update confirmed squash-merged to master (content in guides/, DONE.md entries correct) — remote branches are stale/undeleted only. 822 pages; 1117/1117 e2e pass.
+- nextRotationCategory: 701%5==1 → BUILD (seo-content)
 - higgsfieldSpent: 0
-- updatedAt: 2026-07-22T12:52Z
+- updatedAt: 2026-07-22T14:00Z
 - branch context: work on master; feature work on auto/<slug>
+
+Notes: iter699 REVIEW — audited iters 696 (tel-megiddo-guide), 697 (gan-hashlosha-guide), 698 (lint-meta-length). Two discoverability defects found: (1) gan-hashlosha-guide had zero inbound links from beit-shean-guide.md and water-hiking-israel.md despite both discussing Sachne at length — FIXED: added /gan-hashlosha-guide links at most natural anchors in both files. SHIPPED fc3fe65. 822 pages (no new pages); 1117/1117 e2e pass. (2) tel-megiddo-guide has zero inbound content links AND a near-duplicate megiddo-jezreel-valley-guide.md exists (9+ inbound links) covering same topic — flagged BACKLOG blocked:human-review. lint-meta-length.mjs confirmed working (354 guides, 0 violations). CI in_progress at push.
 
 Notes: iter696 BUILD (monetization) — tel-megiddo-guide. SHIPPED 606ac2f. Genuine gap confirmed via filesystem check (no existing file). New /tel-megiddo-guide: UNESCO Biblical Tel + Armageddon hook driving secular + pilgrim traffic; Solomonic Gate + Ahab's Water Tunnel as standout experiences; honest framing of all scholarly debates. Two false positives encountered first (beer-sheva-guide.md already existed; best-hotels-negev.md already covers Mitzpe Ramon); systematic filesystem verification now standard before any BUILD. 821 pages; 1115/1115 e2e pass.
 
@@ -35,14 +37,6 @@ Notes: iter681 BUILD (monetization) — haifa-shore-excursions. SHIPPED 6b18fca.
 
 Notes: iter680 RESEARCH pass #138 — bahai-pilgrimage-haifa + israel-national-bike-trail. At ~95% saturation, 2 net-new from 20 candidates is expected. Haifa Bahá'í pilgrim vs. tourist dual-angle: distinct from haifa-guide.md (brief garden mention only); global Bahá'í community 5-8M; UNESCO WH site; 9-day pilgrim program (invitation-only, 3-year waitlist) is undercovered by all mainstream travel sites. IBT thru-trail: distinct from cycling-in-israel.md (urban cycling focus); 1,200km north-south off-road route; ~400km northern section open; bikepacking.com/bikemap cover it but no mainstream editorial guide. Priority upgrade: haifa-shore-excursions P3→P2 (Haifa Bay Cruise Terminal opened May 2026; 2-ship capacity; 1M passenger/year target). Freshness alerts: lag-baomer-israel bonfire ban + Meron 600-person cap (2026 Knesset vote); cheap-flights-to-israel.md Israir TLV-JFK + El Al TLV-SFO routes; transport-in-israel.md Purple Line delay 2027-2028.
 
-Notes: iter679 REVIEW — review-679-wine-trail-link. Audited iter676 (israel-for-irish-travelers), iter677 (galilee-wine-trail), iter678 (ashdod-cruise-port-excursions). All 3 pages clean: title/desc length OK, zero H1 in body, all internal links valid (where-to-stay/* dynamic routes confirmed; /golan/mount-bental serves correctly via attractionSlug prefix-strip), no fabricated visible data, affiliate helpers used correctly. One discoverability gap: galilee-food-guide.md omitted cross-link to /galilee-wine-trail (shipped iter677). Fixed: 2 new links added (wine paragraph + Plan your trip). SHIPPED bcf9644. 813 pages; 1108/1108 e2e pass. Pattern: newly shipped guides benefit from back-linking in related content pages; REVIEW passes catch these within 1–2 iterations.
-
-Notes: iter670 RESEARCH — research-670-pass136. 3 net-new BACKLOG items (things-to-do-israel-by-month P2/L, negev-multi-day-hiking P2/S, israel-mice-incentive-travel P3/M). 1 priority upgrade: galilee-food-guide P3→P2 (JNF Galilee Culinary Institute timely hook). Saturation ~95%. No BUILD gate run (RESEARCH mode). No code changes.
-
-Notes: iter649 REVIEW — seo-meta-trim. Routine REVIEW audit of guides/ uncovered 18 title/desc violations not caught during BUILD iterations. Pattern: autonomous BUILD sessions routinely ship slightly-long titles/descs; a periodic REVIEW pass is needed to catch them. Consider adding an automated lint rule.
-
-Notes: iter648 BUILD (seo-content, fallthrough from tools→technical→monetization all SHIPPED) — yom-haatzmaut-guide. SHIPPED 5d4af31. P2/S CONFIRMED GAP (two separate research entries: iter170 + iter540). Yom HaZikaron + Yom Ha'atzmaut — the back-to-back memorial/independence days unique to Israel.
-
 Cron b7325b16 hourly @ :17. Loop history: 19 tools + sitemap-lastmod + link-checker(+depth) + i18n
 Phase0/1a/1b/1c/2 Batches1-18(COMPLETE) + 48 review passes + 4 technical (event-schema + meta-trim + locale-links + freshness-688) + 76 EN guides + 7 tools-monetization + 2 comparisons;
-research iters 5/10/20/30/35/40/45/50/55/60/65/70/75/80/85/90/95/100/105/110/115/120/125/130/135/140/145/150/155/160/165/170/175/180/185/190/195/200/205/210/215/220/225/230/235/240/245/250/255/260/265/270/275/280/285/290/295/300/305/310/315/320/325/330/335/340/345/350/355/360/365/370/375/380/385/390/395/400/405/410/420/425/430/435/440/445/450/455/460/465/470/480/485/490/495/500/505/510/515/520/525/535/540/545/550/555/560/565/570/575/580/585/590/595/600/605/610/615/620/625/630/635/640/645/650/655/660/665/670/675/680/685/690/695.
+research iters 5/10/20/30/35/40/45/50/55/60/65/70/75/80/85/90/95/100/105/110/115/120/125/130/135/140/145/150/155/160/165/170/175/180/185/190/195/200/205/210/215/220/225/230/235/240/245/250/255/260/265/270/275/280/285/290/295/300/305/310/315/320/325/330/335/340/345/350/355/360/365/370/375/380/385/390/395/400/405/410/420/425/430/435/440/445/450/455/460/465/470/480/485/490/495/500/505/510/515/520/525/535/540/545/550/555/560/565/570/575/580/585/590/595/600/605/610/615/620/625/630/635/640/645/650/655/660/665/670/675/680/685/690/695/700.
