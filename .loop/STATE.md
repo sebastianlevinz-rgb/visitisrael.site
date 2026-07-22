@@ -1,15 +1,17 @@
 # LOOP STATE
 
-- iteration: 686
+- iteration: 687
 - lastMode: BUILD
-- lastItem: terminal-park-eilat
-- lastResult: SHIPPED 967d33d. New /terminal-park-eilat guide — Eilat entertainment complex on former Aqaba Airport site. P2/S monetization (iter380 research). 817 pages (+1); 1112/1112 e2e pass. CI + Lighthouse in_progress at push (consistent pattern).
-- nextRotationCategory: 687%5==2 → BUILD (seo-content rotation)
+- lastItem: israel-paragliding-guide
+- lastResult: SHIPPED de2fe81. New /israel-paragliding-guide — tandem paragliding guide for Israel. P3/S seo-content confirmed triple-zero gap (iter685 research). 818 pages (+1); 1113/1113 e2e pass. CI in_progress at push (consistent pattern).
+- nextRotationCategory: 688%5==3 → BUILD (tools rotation)
 - higgsfieldSpent: 0
-- updatedAt: 2026-07-21T22:58Z
+- updatedAt: 2026-07-22T00:10Z
 - branch context: work on master; feature work on auto/<slug>
 
-Notes: iter685 RESEARCH pass #139 — airport-terminal-1 + delta-conflict + paragliding. At ~95% saturation, 3 net-new from 30+ candidates. Two are technical freshness fixes on high-traffic pages (airport guide Terminal 1 description outdated post July 2026 reopening; Delta suspension vs. reinstatement conflict between two guides). One is a new content gap (paragliding — confirmed triple-zero, P3/S). See JOURNAL for full eliminated-candidates list.
+Notes: iter687 BUILD (seo-content) — israel-paragliding-guide. SHIPPED de2fe81. Triple-zero confirmed gap. Three launch areas (Carmel coast / Galilee-Golan / Ramon Crater). Cross-links in adventure-sports, mitzpe-ramon, haifa guides. Bug caught: /golan/banias-springs → /golan/banias (fix before merge). 818 pages; 1113/1113 e2e pass.
+
+Notes: iter685 RESEARCH pass #139 — airport-terminal-1 + delta-conflict + paragliding. At ~95% saturation, 3 net-new from 30+ candidates. Two are technical freshness fixes on high-traffic pages (airport guide Terminal 1 description outdated post July 2026 reopening; Delta suspension vs. reinstatement conflict between two guides). One is a new content gap (paragliding — confirmed triple-zero, P3/S → SHIPPED iter687). See JOURNAL for full eliminated-candidates list.
 
 Notes: iter684 REVIEW — review-684-meta-trim. SHIPPED 87141f9. Audited iters 681-683 (haifa-shore-excursions, israel-national-bike-trail, nahal-pratzim-guide). 3 meta desc overruns fixed: 181→151, 168→157, 176→158 chars. H1 count, internal links, hero images, affiliate helper usage all clean. 816 pages; 1111/1111 e2e pass. CI in_progress at push.
 
