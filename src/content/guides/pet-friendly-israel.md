@@ -1,6 +1,6 @@
 ---
 title: 'Pet-Friendly Israel: Travelling with Dogs & Cats (2026)'
-description: 'Everything you need to know about bringing a dog or cat to Israel — import requirements, dog-friendly Tel Aviv beaches and parks, pet-welcome hotels, vet access, and practical tips.'
+description: 'Bringing a dog or cat to Israel: import requirements, dog-friendly Tel Aviv beaches and parks, pet-welcome hotels, vet access and practical tips.'
 heroImage: /images/regions/tel-aviv/beaches.jpg
 category: Planning
 updatedAt: 2026-07-22
