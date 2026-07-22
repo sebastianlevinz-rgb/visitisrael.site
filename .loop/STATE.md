@@ -1,12 +1,12 @@
 # LOOP STATE
 
-- iteration: 697
+- iteration: 698
 - lastMode: BUILD
-- lastItem: gan-hashlosha-guide
-- lastResult: BUILD (seo-content) — gan-hashlosha-guide. SHIPPED 4ea7877. New standalone /gan-hashlosha-guide: Gan HaShlosha National Park (Sachne) warm spring pools in the Beit She'an Valley. Three freshwater pools at constant 28°C year-round (Harod River springs). Subtropical vegetation (date palms, bamboo, eucalyptus). Capacity-controlled advance booking via parks.org.il. Seasonal guide (winter surprise visit; summer early-arrival tips). Full day circuit: Beit She'an Roman ruins (3km) + Sachne swimming + Beit Alfa zodiac mosaic (15 min south). 3 CTAs (DiscoverCars, Booking.com Tiberias, GYG Galilee tours). 7 FAQs. Cross-links: beit-shean-guide, israel-national-parks-pass, day-trips-from-haifa, galilee-tours-compared, water-hiking-israel. Smoke tests: +2 routes (tel-megiddo-guide backfill + new page). 822 pages (+1); 1117/1117 e2e pass. CI+Lighthouse in_progress at push.
-- nextRotationCategory: 698%5==3 → BUILD (tools)
+- lastItem: lint-meta-length
+- lastResult: BUILD (technical, fallthrough from tools all SHIPPED) — lint-meta-length. SHIPPED 658dd4d. Added scripts/lint-meta-length.mjs: reads all 354 src/content/guides/*.md, parses YAML frontmatter (handles single/double-quoted values with escape sequences), exits 1 if any title > 65 chars or description > 160 chars. Wired into pnpm check (runs before astro check). On first run, caught 3 existing violations and fixed them in the same commit: gan-hashlosha-guide.md desc 165→158 chars, israel-biblical-highway.md desc 161→157 chars, tel-megiddo-guide.md desc 164→146 chars. Eliminates the recurring defect class caught by 7+ consecutive REVIEW meta-trim passes. 822 pages (no new pages); 1117/1117 e2e pass. CI+Lighthouse in_progress at push.
+- nextRotationCategory: 699%5==4 → REVIEW
 - higgsfieldSpent: 0
-- updatedAt: 2026-07-22T10:47Z
+- updatedAt: 2026-07-22T11:44Z
 - branch context: work on master; feature work on auto/<slug>
 
 Notes: iter696 BUILD (monetization) — tel-megiddo-guide. SHIPPED 606ac2f. Genuine gap confirmed via filesystem check (no existing file). New /tel-megiddo-guide: UNESCO Biblical Tel + Armageddon hook driving secular + pilgrim traffic; Solomonic Gate + Ahab's Water Tunnel as standout experiences; honest framing of all scholarly debates. Two false positives encountered first (beer-sheva-guide.md already existed; best-hotels-negev.md already covers Mitzpe Ramon); systematic filesystem verification now standard before any BUILD. 821 pages; 1115/1115 e2e pass.

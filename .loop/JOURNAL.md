@@ -10848,3 +10848,9 @@ Gate: pnpm check 0 errors; build 822 pages (+1); 1117/1117 e2e+a11y pass.
 Ship: squash-merged to master 4ea7877, pushed.
 Prod: CI+Lighthouse in_progress at push time (standard pattern); previous iter CI result = success.
 Next: 698%5==3 → BUILD (tools).
+
+## 2026-07-22T11:44Z · iter 698 · BUILD (technical, tools fallthrough) · lint-meta-length
+What: BUILD slot (698%5==3; tools rotation). All pure tools BACKLOG entries confirmed SHIPPED (## tools section: 11/11 SHIPPED). Fell through to technical: top item P2/S "pre-commit frontmatter meta length lint" (iter695 research). Added scripts/lint-meta-length.mjs: reads 354 src/content/guides/*.md, parses YAML frontmatter with proper single/double-quote handling (including '' escape for apostrophes), exits 1 if title > 65 or desc > 160 chars. Wired into pnpm check (node scripts/lint-meta-length.mjs && astro check). First run caught 3 existing violations — all fixed in same commit: gan-hashlosha-guide.md desc 165→158, israel-biblical-highway.md desc 161→157, tel-megiddo-guide.md desc 164→146. Pattern eliminated: after 7 consecutive REVIEW meta-trim passes catching 1-3 overruns each (iters 649/684/689/694+), this lint prevents the class from shipping at all.
+Gate: pnpm check 0 errors (lint OK + astro 0 errors); pnpm build 822 pages; pnpm test:e2e 1117/1117 pass. GREEN.
+Ship: committed 658dd4d to master; pushed origin/master. CI run 29916869121 in_progress at push (standard pattern).
+Next: 699%5==4 → REVIEW.
