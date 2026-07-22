@@ -47,6 +47,10 @@ faqs:
 
 Israel welcomed significantly more international visitors in the first half of 2026 than the same period in 2025 — official tourism ministry figures and airline load factors both point to a recovery of 25–29% year-on-year. The main tourist circuits — Jerusalem's Old City, Tel Aviv and Jaffa, the Dead Sea, Galilee, and Eilat — are fully operational.
 
+**"I Am Israel" campaign (June 2026)**: Israel's Ministry of Tourism launched a $7 million North America repositioning campaign in June 2026 under the headline "I Am Israel". The campaign spotlights Israel and its people through personal stories from local residents — chefs, artists, hikers, winemakers — rather than leading with landmarks alone. It targets the United States and Canada, where recovery in visitor bookings has lagged behind European markets despite strong stated demand.
+
+**Tourism infrastructure investment (2026)**: The Ministry of Tourism approved NIS 174 million (approximately $56 million) for investment across 58 public tourism infrastructure projects in 2026. A NIS 37 million component is specifically allocated to Eilat-focused projects, supporting the resort city's positioning as a year-round Red Sea destination. These investments cover visitor facilities, trail infrastructure, interpretation centres, and accessibility upgrades at sites across the country.
+
 For an honest picture of the current security context, see the [is Israel safe guide](/is-israel-safe), which is updated regularly and explains the risk profile by region.
 
 ---
