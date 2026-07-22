@@ -10769,3 +10769,12 @@ What: Technical freshness batch resolving both P2/S/technical items from iter685
 Gate: pnpm check 0 errors; pnpm build 818 pages (no change — content-only edits); pnpm test:e2e 1113/1113 pass.
 Merge SHA: 0b09b01 (squash to master). Pushed. CI + Lighthouse in_progress at push (consistent pattern; local gate canonical).
 Next: iter 689 → REVIEW (689%5==4).
+
+## 2026-07-22T01:50Z · iter 689 · REVIEW · review-689-meta-trim
+What: REVIEW slot (689%5==4). Audited iters 686 (terminal-park-eilat), 687 (israel-paragliding-guide), 688 (technical-freshness-688 — 3 files).
+Checks run: (1) title ≤65 / desc ≤160 — 1 violation found; (2) zero H1 in body — all clean; (3) internal links — all valid (Golan attraction routes /golan/nimrod-fortress and /golan/banias confirmed valid via attractionSlug prefix-strip pattern, consistent with iter679 finding); (4) hero images — all present; (5) cross-links — terminal-park wired into eilat-travel-guide.md confirmed; paragliding wired into adventure-sports, mitzpe-ramon, haifa confirmed; (6) freshness accuracy — Terminal 1 July 2026 paragraph confirmed in body of airport guide; Delta JFK/ATL/BOS corrections confirmed consistent across cheap-flights + israel-travel-2026.
+One defect: terminal-park-eilat title was 66 chars (1 over ≤65). Trimmed from "...Amusement Complex Guide (2026)" to "...Amusement Complex (2026)" → 60 chars.
+Gate: pnpm check 0 errors; pnpm build 818 pages; pnpm test:e2e 1113/1113 pass.
+Ship: committed a071cc4 to master; pushed origin/master. CI in_progress at push (consistent pattern).
+Pattern: single-char title overruns continue to appear in BUILD iters (this is the 5th REVIEW to catch one). An automated lint check on title/desc length would catch these pre-commit.
+Next: iter 690 = RESEARCH (690%5==0).

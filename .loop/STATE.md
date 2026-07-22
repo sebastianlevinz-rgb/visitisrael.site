@@ -1,13 +1,15 @@
 # LOOP STATE
 
-- iteration: 688
-- lastMode: BUILD (technical fallthrough from tools)
-- lastItem: technical-freshness-688 (BGA Terminal 1 + Delta/United status)
-- lastResult: SHIPPED 0b09b01. Technical freshness batch: 3 files corrected (ben-gurion-airport-guide, cheap-flights-to-israel, israel-travel-2026). Tools rotation (688%5==3) fell through to technical — all standalone tool BACKLOG items confirmed shipped. BGA Terminal 1 July 2026 reopening added; Delta conflict resolved (JFK operating since Sep 2025; ATL suspended through Nov 2026; BOS indefinitely). 818 pages (no change); 1113/1113 e2e pass. CI in_progress at push (consistent pattern).
-- nextRotationCategory: 689%5==4 → REVIEW
+- iteration: 689
+- lastMode: REVIEW
+- lastItem: review-689-meta-trim (terminal-park-eilat title trim)
+- lastResult: SHIPPED a071cc4. REVIEW audit of iter686 (terminal-park-eilat), iter687 (israel-paragliding-guide), iter688 (technical freshness batch). One defect found and fixed: terminal-park-eilat title was 66 chars (1 over limit) — trimmed to 60 chars. All other checks clean across 5 files. 818 pages (no change); 1113/1113 e2e pass.
+- nextRotationCategory: 690%5==0 → RESEARCH
 - higgsfieldSpent: 0
-- updatedAt: 2026-07-22T00:50Z
+- updatedAt: 2026-07-22T01:50Z
 - branch context: work on master; feature work on auto/<slug>
+
+Notes: iter689 REVIEW — review-689-meta-trim. SHIPPED a071cc4. Audited iters 686 (terminal-park-eilat), 687 (israel-paragliding-guide), 688 (technical-freshness-688). One defect: terminal-park-eilat title 66 chars (1 over ≤65). Fixed to 60 chars. All other checks CLEAN: israel-paragliding-guide title/desc OK, 0 H1 in body, Golan attraction routes (/golan/nimrod-fortress + /golan/banias) confirmed valid via attractionSlug routing (golan-nimrod-fortress.md + golan-banias.md → prefix-strip pattern); cross-links to adventure-sports/mitzpe-ramon/haifa confirmed present. ben-gurion-airport-guide desc 132 chars OK; Terminal 1 July 2026 paragraph confirmed in body. cheap-flights Delta corrections consistent with israel-travel-2026.md. All hero images present. Pattern: BUILD iters occasionally ship 1-char-over titles; REVIEW catches them. 818 pages; 1113/1113 e2e pass.
 
 Notes: iter688 BUILD (technical fallthrough from tools) — technical-freshness-688. SHIPPED 0b09b01. Tools rotation fell through to technical (all tool BACKLOG entries confirmed SHIPPED). Resolved 2 P2/S/technical iter685 research items: (1) ben-gurion-airport-guide.md: Terminal 1 text updated to note July 2026 refurbishment and full international reopening (source: jns.org / travelandtourworld.com); updatedAt bumped 2026-06-24→2026-07-22. (2) cheap-flights-to-israel.md + israel-travel-2026.md: Delta conflict reconciled — confirmed via WebSearch (simpleflying.com, thejewishnews.com, travelandtourworld.com Jul 2026) that Delta JFK-TLV resumed Sep 2025 (daily, year-round); Atlanta suspended through at least Nov 2026; Boston delayed indefinitely. cheap-flights updated FAQ + inline paragraph + JFK route table row (added Delta). israel-travel-2026.md corrected prose + affiliate CTA description + updatedAt. No page count change (content-only edits on existing guides). 818 pages; 1113/1113 e2e pass.
 
@@ -34,5 +36,5 @@ Notes: iter649 REVIEW — seo-meta-trim. Routine REVIEW audit of guides/ uncover
 Notes: iter648 BUILD (seo-content, fallthrough from tools→technical→monetization all SHIPPED) — yom-haatzmaut-guide. SHIPPED 5d4af31. P2/S CONFIRMED GAP (two separate research entries: iter170 + iter540). Yom HaZikaron + Yom Ha'atzmaut — the back-to-back memorial/independence days unique to Israel.
 
 Cron b7325b16 hourly @ :17. Loop history: 19 tools + sitemap-lastmod + link-checker(+depth) + i18n
-Phase0/1a/1b/1c/2 Batches1-18(COMPLETE) + 47 review passes + 4 technical (event-schema + meta-trim + locale-links + freshness-688) + 76 EN guides + 7 tools-monetization + 2 comparisons;
+Phase0/1a/1b/1c/2 Batches1-18(COMPLETE) + 48 review passes + 4 technical (event-schema + meta-trim + locale-links + freshness-688) + 76 EN guides + 7 tools-monetization + 2 comparisons;
 research iters 5/10/20/30/35/40/45/50/55/60/65/70/75/80/85/90/95/100/105/110/115/120/125/130/135/140/145/150/155/160/165/170/175/180/185/190/195/200/205/210/215/220/225/230/235/240/245/250/255/260/265/270/275/280/285/290/295/300/305/310/315/320/325/330/335/340/345/350/355/360/365/370/375/380/385/390/395/400/405/410/420/425/430/435/440/445/450/455/460/465/470/480/485/490/495/500/505/510/515/520/525/535/540/545/550/555/560/565/570/575/580/585/590/595/600/605/610/615/620/625/630/635/640/645/650/655/660/665/670/675/680/685.
