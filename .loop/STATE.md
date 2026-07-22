@@ -1,12 +1,12 @@
 # LOOP STATE
 
-- iteration: 698
-- lastMode: BUILD
-- lastItem: lint-meta-length
-- lastResult: BUILD (technical, fallthrough from tools all SHIPPED) — lint-meta-length. SHIPPED 658dd4d. Added scripts/lint-meta-length.mjs: reads all 354 src/content/guides/*.md, parses YAML frontmatter (handles single/double-quoted values with escape sequences), exits 1 if any title > 65 chars or description > 160 chars. Wired into pnpm check (runs before astro check). On first run, caught 3 existing violations and fixed them in the same commit: gan-hashlosha-guide.md desc 165→158 chars, israel-biblical-highway.md desc 161→157 chars, tel-megiddo-guide.md desc 164→146 chars. Eliminates the recurring defect class caught by 7+ consecutive REVIEW meta-trim passes. 822 pages (no new pages); 1117/1117 e2e pass. CI+Lighthouse in_progress at push.
-- nextRotationCategory: 699%5==4 → REVIEW
+- iteration: 699
+- lastMode: REVIEW
+- lastItem: review-699-backlinks
+- lastResult: REVIEW — audited iters 696 (tel-megiddo-guide), 697 (gan-hashlosha-guide), 698 (lint-meta-length). Two discoverability defects found: (1) gan-hashlosha-guide had zero inbound links from beit-shean-guide.md and water-hiking-israel.md despite both discussing Sachne at length — FIXED: added /gan-hashlosha-guide links at most natural anchors in both files. SHIPPED fc3fe65. 822 pages (no new pages); 1117/1117 e2e pass. (2) tel-megiddo-guide has zero inbound content links AND a near-duplicate megiddo-jezreel-valley-guide.md exists (9+ inbound links) covering same topic — flagged BACKLOG blocked:human-review. lint-meta-length.mjs confirmed working (354 guides, 0 violations). CI in_progress at push.
+- nextRotationCategory: 700%5==0 → RESEARCH
 - higgsfieldSpent: 0
-- updatedAt: 2026-07-22T11:44Z
+- updatedAt: 2026-07-22T12:52Z
 - branch context: work on master; feature work on auto/<slug>
 
 Notes: iter696 BUILD (monetization) — tel-megiddo-guide. SHIPPED 606ac2f. Genuine gap confirmed via filesystem check (no existing file). New /tel-megiddo-guide: UNESCO Biblical Tel + Armageddon hook driving secular + pilgrim traffic; Solomonic Gate + Ahab's Water Tunnel as standout experiences; honest framing of all scholarly debates. Two false positives encountered first (beer-sheva-guide.md already existed; best-hotels-negev.md already covers Mitzpe Ramon); systematic filesystem verification now standard before any BUILD. 821 pages; 1115/1115 e2e pass.

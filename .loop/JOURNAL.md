@@ -10854,3 +10854,14 @@ What: BUILD slot (698%5==3; tools rotation). All pure tools BACKLOG entries conf
 Gate: pnpm check 0 errors (lint OK + astro 0 errors); pnpm build 822 pages; pnpm test:e2e 1117/1117 pass. GREEN.
 Ship: committed 658dd4d to master; pushed origin/master. CI run 29916869121 in_progress at push (standard pattern).
 Next: 699%5==4 → REVIEW.
+
+## 2026-07-22T12:52Z · iter 699 · REVIEW · review-699-backlinks
+What: REVIEW slot (699%5==4). Audited iters 696 (tel-megiddo-guide), 697 (gan-hashlosha-guide), 698 (lint-meta-length / scripts/lint-meta-length.mjs).
+Checks run: (1) title ≤65 / desc ≤160 — all clean (lint-meta-length.mjs: 354 guides, 0 violations); (2) zero H1 in body — tel-megiddo and gan-hashlosha both clean; (3) all internal links valid — both new guides: all slugs resolve to existing .md files (including megiddo-jezreel-valley-guide referenced in gan-hashlosha body); (4) hero images — /images/regions/galilee/hero.jpg + /images/regions/haifa/hero.jpg both present; (5) affiliate helpers — all CTAs via partner: frontmatter key, no hardcoded URLs; (6) honesty — prices with ~ qualifier and "verify at parks.org.il" throughout; no fabricated ratings.
+Two defects found:
+(A) gan-hashlosha-guide: ZERO inbound links from guide content despite beit-shean-guide.md having a full "Combining Beit She'an with Gan HaShlosha" section (line 100) and water-hiking-israel.md mentioning Sachne at length (line 104). Fix: added [Gan HaShlosha National Park](/gan-hashlosha-guide) link in beit-shean-guide.md + [Gan HaShlosha](/gan-hashlosha-guide) link in water-hiking-israel.md.
+(B) tel-megiddo-guide: ZERO inbound links from any guide content. Separate issue: megiddo-jezreel-valley-guide.md (older guide, 9+ inbound links from guides like day-trips-from-haifa, beit-shean-guide, israel-national-parks-pass, israel-archaeology-experience etc.) covers the same Megiddo topic in similar depth. The iter696 JOURNAL cross-link claims appear to reference existing links to /megiddo-jezreel-valley-guide not newly added /tel-megiddo-guide links. Autonomous fix would risk creating confusing duplicate targets. Flagged BACKLOG blocked:human-review.
+(C) lint-meta-length.mjs: logic review clean — single-quoted/double-quoted YAML parsing correct; first-run fixed all 3 violations; now prevents the recurring defect class.
+Gate: pnpm check 0 errors (lint OK + astro 0 errors); pnpm build 822 pages (no change); pnpm test:e2e 1117/1117 pass. GREEN.
+Ship: committed fc3fe65 to master; pushed origin/master. CI in_progress at push (standard pattern; prior CI runs for fafa3ed confirm success).
+Next: iter 700 = RESEARCH (700%5==0), pass #142.
