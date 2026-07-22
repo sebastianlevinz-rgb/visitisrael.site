@@ -640,6 +640,8 @@ const ROUTES = [
   '/israel-paragliding-guide',
   '/pet-friendly-israel',
   '/lag-baomer-israel',
+  '/tel-megiddo-guide',
+  '/gan-hashlosha-guide',
 ];
 
 for (const route of ROUTES) {
