@@ -3,7 +3,7 @@ title: 'Getting Around Israel: Trains, Buses, Sheruts & the Rav-Kav'
 description: "How to get around Israel: the Rav-Kav travel card, intercity trains, buses, sherut shared taxis, car rental and what runs on Shabbat."
 heroImage: /images/sub-destinations/tel-aviv/tayelet.jpg
 category: Planning
-updatedAt: 2026-05-20
+updatedAt: 2026-07-22
 faqs:
   - question: What is a Rav-Kav card?
     answer: The Rav-Kav is Israel's rechargeable smart card for public transport. It works on trains, buses and light rail nationwide. Buy one at the airport, train stations or bus hubs, load credit or a daily/period pass, and tap on each ride. A mobile app version is also available.
@@ -31,7 +31,7 @@ Buses cover everywhere the trains don't, from intercity Egged and Metropoline co
 
 The **[Tel Aviv Red Line](/tel-aviv-light-rail)** — Israel's first metro-style rail, opened 2023 — runs 24 km from Bat Yam south through central Tel Aviv to Petah Tikva northeast, with 10 underground stations. Key tourist stops: Jaffa area, Carlebach (city centre), Habima (White City / culture), and Arlozorov (intercity rail interchange for the airport). Contactless bank cards accepted at all validators. See the [Tel Aviv Light Rail guide](/tel-aviv-light-rail) for station-by-station breakdown, ticketing options and the airport connection.
 
-The **Jerusalem Light Rail** (Red and Blue lines) covers the key tourist stops in Jerusalem: Damascus Gate (Old City Muslim Quarter entrance), Jaffa Gate/City Hall (Old City Jaffa Gate, Mamilla), Ben Yehuda (city centre), Mahane Yehuda market, and Mount Herzl/Yad Vashem. See the [Jerusalem Light Rail guide](/jerusalem-light-rail-guide) for stop-by-stop breakdown, how to connect from Ben Gurion Airport and Shabbat schedule details.
+The **Jerusalem Light Rail** network covers the key tourist stops in Jerusalem: Damascus Gate (Old City Muslim Quarter entrance), Jaffa Gate/City Hall (Old City Jaffa Gate, Mamilla), Ben Yehuda (city centre), Mahane Yehuda market, and Mount Herzl/Yad Vashem. The **Red Line** is the main tourist artery; the **Blue Line** (opened 2024–2025) adds the Hebrew University Givat Ram campus and western residential areas. A third line — the **Green Line** — is now opening in stages: the first section (Malha Mall to Binyanei HaUmah/Convention Centre) opened in July 2026, with the full 19.6 km line to Gilo expected in 2027. See the [Jerusalem Light Rail guide](/jerusalem-light-rail-guide) for stop-by-stop breakdown, how to connect from Ben Gurion Airport and Shabbat schedule details.
 
 ## Sherut shared taxis
 

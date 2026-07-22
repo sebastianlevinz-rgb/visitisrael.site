@@ -3,7 +3,7 @@ title: 'Jerusalem Light Rail Guide: How to Use the Tram as a Tourist'
 description: 'A tourist guide to the Jerusalem Light Rail — key stops for visitors, Rav-Kav ticketing, Shabbat hours, getting from the airport and practical tips.'
 heroImage: /images/regions/jerusalem/mahane-yehuda.jpg
 category: Transport
-updatedAt: 2026-07-19
+updatedAt: 2026-07-22
 ctaHeading: 'Plan your Jerusalem transport and get around with ease'
 affiliateCtas:
   - partner: airalo
@@ -32,7 +32,7 @@ faqs:
   - question: What is a Rav-Kav card and where do I buy one in Jerusalem?
     answer: "The Rav-Kav is Israel's multi-modal transit smart card, valid on the Light Rail, all city buses and intercity trains. In Jerusalem, buy one at the Central Bus Station (Binyanei HaUma area), at Light Rail service machines at major stations, or at staffed counters at Jerusalem Navon railway station. Load credit at any machine or via the Rav-Kav Online app. Contactless bank cards (Visa or Mastercard tap) are also accepted at all Light Rail validators — useful for visitors who prefer not to buy a card."
   - question: Which Light Rail line serves the tourist attractions in Jerusalem?
-    answer: "The Red Line is the primary tourist-relevant line. Key stops include Damascus Gate (Muslim Quarter entrance, Christian Quarter nearby), Jaffa Gate/City Hall (Old City Jaffa Gate entrance, Mamilla mall), Ben Yehuda (city centre pedestrian mall, shopping), Mahane Yehuda (the famous market), and Mount Herzl/Yad Vashem (Holocaust memorial and national cemetery). The Blue Line adds coverage to Hebrew University's Givat Ram campus and connects to the western suburbs."
+    answer: "The Red Line is the primary tourist-relevant line. Key stops include Damascus Gate (Muslim Quarter entrance, Christian Quarter nearby), Jaffa Gate/City Hall (Old City Jaffa Gate entrance, Mamilla mall), Ben Yehuda (city centre pedestrian mall, shopping), Mahane Yehuda (the famous market), and Mount Herzl/Yad Vashem (Holocaust memorial and national cemetery). The Blue Line adds coverage to Hebrew University's Givat Ram campus and western suburbs. The Green Line, which began partial operations in July 2026 (Malha to Convention Centre), is a separate southern network; its first section mainly serves the Malha Mall and sports stadium area, with the full line to Gilo expected in 2027."
   - question: Can I use the Light Rail to get to Yad Vashem?
     answer: "Yes — the Mount Herzl station on the Red Line is the stop for both Mount Herzl national cemetery and Yad Vashem, which is a short walk from the station. This is the most convenient way for tourists without a car to reach Yad Vashem independently. From the city centre (Jaffa Gate area), the journey takes approximately 20–25 minutes. Yad Vashem is closed on Saturdays and Jewish holidays; confirm opening times at yadvashem.org before travelling."
   - question: How much does a single journey cost on the Jerusalem Light Rail?
@@ -41,16 +41,17 @@ faqs:
     answer: "Yes — the network is modern, air-conditioned and has English signage and announcements throughout. Israeli security infrastructure is visible at some stops (bag checks on entry to certain areas), which is normal in the city. The tram runs through mixed neighbourhoods including areas near Damascus Gate and the Muslim Quarter, which are safe for tourists with normal awareness. Follow your home government's current travel advisory for Jerusalem for the most current context."
 ---
 
-The **Jerusalem Light Rail** — known locally as the "rakevet kala" (light train) — is the backbone of public transport for tourists navigating the city. The Red Line threads the key visitor destinations from the Old City gates and markets through the city centre, connecting to Yad Vashem in the west; the newer Blue Line adds the Hebrew University campus and western residential areas. For anyone visiting Jerusalem without a rental car, understanding the tram saves time and removes the uncertainty of figuring out bus routes.
+The **Jerusalem Light Rail** — known locally as the "rakevet kala" (light train) — is the backbone of public transport for tourists navigating the city. The Red Line threads the key visitor destinations from the Old City gates and markets through the city centre, connecting to Yad Vashem in the west; the newer Blue Line adds the Hebrew University campus and western residential areas; and the Green Line, now opening in stages from July 2026, extends the network south toward Malha and Gilo. For anyone visiting Jerusalem without a rental car, understanding the tram saves time and removes the uncertainty of figuring out bus routes.
 
 ## The network at a glance
 
-Jerusalem's Light Rail has two operational lines as of mid-2026:
+Jerusalem's Light Rail has three lines, two fully operational and one now opening in stages:
 
 - **Red Line**: the main tourist artery — runs from Pisgat Ze'ev in the northeast, through the city centre, past the Old City gates, and out to Herzl/Yad Vashem in the southwest. Approximately 14 km; around 23 stations.
 - **Blue Line** (opened 2024–2025): covers the western approach — Hadassah Hospital (Ein Kerem), Hebrew University Givat Ram campus, and connecting to the main Red Line interchange. Check the latest network map at nta.co.il for the current Blue Line extent.
+- **Green Line** (opening in stages): a separate southern network running from Malha Mall in the southwest to Gilo (19.6 km, 37 stations at full build-out). The first section — Malha to Binyanei HaUmah/Convention Centre — opened July 2026. The full line to Gilo is expected in 2027. For most tourist itineraries, the Red Line remains primary; the Green Line is useful for reaching the Malha Mall area and, when complete, the Gilo neighbourhood.
 
-Both lines use the same Rav-Kav card and the same 90-minute transfer window. The Red Line is where most visitors spend the majority of their time.
+All lines use the same Rav-Kav card and the same 90-minute transfer window. The Red Line is where most visitors spend the majority of their time.
 
 Operating hours: roughly **05:30 to midnight Sunday to Thursday**, until approximately **14:00–15:00 Friday** (before Shabbat), then resuming **Saturday night after Shabbat ends** (approximately 20:00–21:00 depending on the season). Verify at nta.co.il or the Moovit app for the current schedule.
 
