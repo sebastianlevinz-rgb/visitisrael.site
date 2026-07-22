@@ -1,5 +1,5 @@
 ---
-title: 'Terminal Park Eilat: Ferris Wheel & Amusement Complex Guide (2026)'
+title: 'Terminal Park Eilat: Ferris Wheel & Amusement Complex (2026)'
 description: 'Terminal Park Eilat — the entertainment complex on the old airport site. Giant Ferris wheel, family rides, street food and Red Sea views near North Beach.'
 heroImage: /images/regions/eilat/hero.jpg
 category: Attractions
