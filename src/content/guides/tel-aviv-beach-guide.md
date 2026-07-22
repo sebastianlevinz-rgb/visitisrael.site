@@ -63,7 +63,7 @@ Hilton Beach sits at the northern end of the main city strip, slightly removed f
 
 The beach is clean and well-maintained. Slightly away from the main hotel concentration, it is less crowded than Gordon on peak weekday mornings, but fills up on summer weekends. The sea conditions are the same as the rest of the city strip.
 
-**Best for:** LGBTQ+ travellers — see the full [LGBTQ travel guide for Israel](/lgbtq-travel-israel); dog owners; visitors who prefer a slightly more relaxed vibe than the hotel-zone beaches.
+**Best for:** LGBTQ+ travellers — see the full [LGBTQ travel guide for Israel](/lgbtq-travel-israel); dog owners (see the full [pet-friendly Israel guide](/pet-friendly-israel)); visitors who prefer a slightly more relaxed vibe than the hotel-zone beaches.
 
 ### Gordon Beach
 

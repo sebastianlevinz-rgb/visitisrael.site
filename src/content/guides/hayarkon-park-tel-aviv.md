@@ -127,7 +127,7 @@ Hayarkon Park is open year-round and genuinely enjoyable in all seasons:
 - **Food:** Kiosks, café stands and snack vendors are scattered through the park. The largest concentration is near the Kanyon Ha'ir area. Alternatively, pick up supplies at the Carmel Market or a supermarket and bring a picnic — the park has no shortage of lawns and tables.
 - **Toilets:** Public facilities are available near the main activity areas. Bring hand sanitiser for quieter sections.
 - **Cycling:** Helmets are not legally mandatory in Israel but strongly recommended. Tel-O-Fun bikes can be used for the first 30 minutes free with a registered account.
-- **Dogs:** Dogs are welcome in most park areas on a lead; there are dedicated off-lead zones. The park has drinking water stations for dogs.
+- **Dogs:** Dogs are welcome in most park areas on a lead; there are dedicated off-lead zones. The park has drinking water stations for dogs. See the [pet-friendly Israel guide](/pet-friendly-israel) for import requirements and the best dog-friendly spots across the country.
 - **Accessibility:** The main cycling and walking paths are flat and paved. The Tropical Garden has some narrow paths and steps. The park is broadly wheelchair-accessible on the main routes.
 
 ---

@@ -638,6 +638,7 @@ const ROUTES = [
   '/haifa-shore-excursions',
   '/nahal-pratzim-guide',
   '/israel-paragliding-guide',
+  '/pet-friendly-israel',
 ];
 
 for (const route of ROUTES) {
