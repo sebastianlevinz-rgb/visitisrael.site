@@ -10926,3 +10926,12 @@ What: BUILD slot (708%5==3; tools or technical rotation). Picked P3/S technical/
 Gate: pnpm check 0 errors; pnpm build 825 pages (unchanged); pnpm test:e2e 1117/1117 pass. GREEN.
 Ship: committed 77eb9ee to master; pushed origin/master. CI in_progress at push (standard pattern; prior iters all confirmed success).
 Next: iter 709 → REVIEW (709%5==4).
+
+## 2026-07-22T23:50Z · iter 709 · REVIEW · review-709-portuguese-discoverability
+What: REVIEW (709%5==4). Audited iters 706–708: wedding-in-israel (new page), israel-for-portuguese-travelers (new page), israel-travel-2026 (freshness update).
+Checks: meta lengths (title ≤65, desc ≤160) — all CLEAN; no H1 in MDX body — CLEAN; internal links — all resolve (including /anu-museum-guide, /via-dolorosa-guide, /golan-heights-wineries); JSON-LD integrity (no fabricated aggregateRating, no ratingValue) — CLEAN; honesty (cost ranges, evergreen caveats, no absolute guarantees) — CLEAN.
+Defect: /israel-for-portuguese-travelers had ZERO inbound content links. All other 12 nationality guides were wired into the first-time-in-israel.md nationality hub paragraph; the Portuguese guide (iter707) was omitted from the list.
+Fix: added [Portuguese visitors](/israel-for-portuguese-travelers) to the nationality guide list in first-time-in-israel.md.
+Gate: pnpm check 0 errors; pnpm build 825 pages (unchanged); pnpm test:e2e 1117/1117 pass. GREEN.
+Ship: committed aaa6cc6 to master, pushed.
+Next: iter 710 → RESEARCH (710%5==0).

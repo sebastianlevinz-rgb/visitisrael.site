@@ -1,12 +1,12 @@
 # LOOP STATE
 
-- iteration: 708
-- lastMode: BUILD
-- lastItem: israel-travel-2026-freshness
-- lastResult: BUILD (technical/freshness) — israel-travel-2026.md freshness update SHIPPED 77eb9ee. Added 2 paragraphs to "Tourism is recovering strongly" section: (1) "I Am Israel" $7M North America MOT campaign June 2026 — spotlights Israel's people via personal stories, targets US+Canada; (2) NIS 174M ($56M) infrastructure investment across 58 tourism projects including NIS 37M Eilat component. 825 pages (unchanged); 1117/1117 e2e pass; pnpm check 0 errors. CI in_progress at push (standard pattern).
-- nextRotationCategory: 709%5==4 → REVIEW
+- iteration: 709
+- lastMode: REVIEW
+- lastItem: review-709-portuguese-discoverability
+- lastResult: REVIEW — audited iters 706-708 (wedding-in-israel, israel-for-portuguese-travelers, israel-travel-2026-freshness). Meta lengths, honesty, JSON-LD, internal links all CLEAN. One discoverability defect: /israel-for-portuguese-travelers (iter707) had zero inbound content links — all other 12 nationality guides were wired into first-time-in-israel.md nationality hub but the Portuguese guide was omitted. Fixed: added [Portuguese visitors](/israel-for-portuguese-travelers) to the hub list. SHIPPED aaa6cc6. pnpm check 0 errors; 825 pages; 1117/1117 e2e+a11y pass.
+- nextRotationCategory: 710%5==0 → RESEARCH
 - higgsfieldSpent: 0
-- updatedAt: 2026-07-22T22:50Z
+- updatedAt: 2026-07-22T23:50Z
 - branch context: work on master; feature work on auto/<slug>
 
 Notes: iter707 BUILD (seo-content) — israel-for-portuguese-travelers SHIPPED 974d593. Full gate: pnpm check 0 errors (first run caught desc 161 chars → fixed to 143; 358 guides, 0 violations); 825 pages (+1); 1117/1117 e2e+a11y pass. Unique angle: Portugal's 1496-97 Sephardic Jewish expulsion and Belmonte crypto-Jewish community survival — creates a personal history link between Portugal and Israel found in no other nationality guide. MB Way warning (unique to PT travellers). CESD/EHIC gap. TAP Air Portugal route advised via flytap.com. CI queued at push (standard pattern).
