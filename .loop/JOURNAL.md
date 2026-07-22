@@ -10914,3 +10914,9 @@ What: BUILD slot (706%5==1; monetization rotation). Picked P3/S confirmed gap: /
 Gate: pnpm check 0 errors (0 meta violations, 356 guides); pnpm build 824 pages (+1); pnpm test:e2e 1117/1117 pass. GREEN.
 Ship: committed 874ea5a to master; pushed origin/master. CI run in_progress at push (standard pattern; prior iters all confirmed success).
 Next: iter 707 → BUILD (707%5==2; seo-content rotation).
+
+## 2026-07-22T22:00Z · iter 707 · BUILD (seo-content) · israel-for-portuguese-travelers
+What: BUILD slot (707%5==2; seo-content rotation). Picked P2/S confirmed gap: /israel-for-portuguese-travelers — Israel Travel Guide for Portuguese Visitors. Verified file did not exist; not in DONE.md. Unique angle: Portugal's 1496-97 Sephardic Jewish expulsion → Belmonte crypto-Jewish community → ANU Museum connection. Also: strong Catholic pilgrimage culture (Fátima, Caminho de Santiago operators such as Abreu Tours); TAP Air Portugal LIS–TLV connection; MB Way does NOT work in Israel (practical warning unique to Portuguese travellers); Type F → Type H adapter (same 230V voltage); CESD/EHIC gap; Revolut/Wise for banking; 3 affiliate CTAs (Booking.com Israel hotels, GYG Jerusalem walking tour, DiscoverCars). Cross-links: christian-pilgrimage-holy-land, jewish-heritage-israel, first-time-in-israel, cheap-flights-to-israel, anu-museum-guide, via-dolorosa-guide, jordan-river-baptism, jerusalem-bethlehem-day-trip. First pnpm check caught description 161 chars (1 over ≤160 limit) — fixed to 143 chars; no other issues.
+Gate: pnpm check 0 errors (358 guides, 0 violations); pnpm build 825 pages (+1); pnpm test:e2e 1117/1117 pass. GREEN.
+Ship: committed 974d593 to master; pushed origin/master. CI queued at push (standard pattern; prior iters all confirmed success).
+Next: iter 708 → BUILD (708%5==3; tools or technical rotation).

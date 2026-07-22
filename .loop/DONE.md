@@ -1175,3 +1175,6 @@ REVIEW: israel-events-festivals.md + best-time-to-visit-israel.md — added Rama
 ## iter706 · wedding-in-israel · 874ea5a
 **Destination Wedding in Israel Guide** (`/wedding-in-israel`) — P3/S monetization+seo-content.
 New guide covering legal framework (no civil marriage; symbolic ceremony + home-country registration path), 4 venue categories (Galilee vineyards, Jaffa/Akko/Jerusalem stone halls, Negev Ramon Crater, kibbutz), seasonal planning, team-building, guest experiences, and practical notes (Shabbat, noise, transport, insurance). 7 FAQs; 3 affiliate CTAs (tourradar/booking/abraham). Cross-links added from israel-honeymoon + israel-group-travel. 824 pages (+1); 1117/1117 e2e pass.
+
+## iter707 — israel-for-portuguese-travelers → 974d593
+/israel-for-portuguese-travelers — Israel Travel Guide for Portuguese Visitors. Unique Sephardic heritage angle (1496-97 expulsion, Belmonte crypto-Jewish community survival 500+ years, ANU Museum); ETA-IL requirements; TAP Air Portugal LIS–TLV (via flytap.com); Catholic pilgrimage circuit (Galilee/Jerusalem/Bethlehem) with Abreu Tours / Viagens Ecuménicas operators; MB Way does NOT work in Israel (unique practical warning); Type F → Type H adapter (230V same); CESD/EHIC gap; Revolut/Wise; 3 CTAs (Booking.com/GYG Jerusalem/DiscoverCars). 825 pages; 1117/1117 e2e pass.
