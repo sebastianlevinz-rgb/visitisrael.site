@@ -1,12 +1,12 @@
 # LOOP STATE
 
-- iteration: 707
+- iteration: 708
 - lastMode: BUILD
-- lastItem: israel-for-portuguese-travelers
-- lastResult: BUILD (seo-content) — Israel Travel Guide for Portuguese Visitors (/israel-for-portuguese-travelers) SHIPPED 974d593. New guide: Sephardic heritage connection (1496-97 expulsion, Belmonte crypto-Jewish community, ANU Museum link), ETA-IL requirements, TAP Air Portugal LIS–TLV flights + connecting hub table, Catholic pilgrimage circuit (Galilee/Jerusalem/Bethlehem), MB Way does NOT work in Israel (practical warning), Type F → Type H adapter (same 230V voltage), CESD/EHIC gap, Revolut/Wise for banking. 3 affiliate CTAs (Booking.com/GYG Jerusalem/DiscoverCars). 825 pages (+1); 1117/1117 e2e pass; pnpm check 0 errors.
-- nextRotationCategory: 708%5==3 → BUILD → tools or technical
+- lastItem: israel-travel-2026-freshness
+- lastResult: BUILD (technical/freshness) — israel-travel-2026.md freshness update SHIPPED 77eb9ee. Added 2 paragraphs to "Tourism is recovering strongly" section: (1) "I Am Israel" $7M North America MOT campaign June 2026 — spotlights Israel's people via personal stories, targets US+Canada; (2) NIS 174M ($56M) infrastructure investment across 58 tourism projects including NIS 37M Eilat component. 825 pages (unchanged); 1117/1117 e2e pass; pnpm check 0 errors. CI in_progress at push (standard pattern).
+- nextRotationCategory: 709%5==4 → REVIEW
 - higgsfieldSpent: 0
-- updatedAt: 2026-07-22T22:00Z
+- updatedAt: 2026-07-22T22:50Z
 - branch context: work on master; feature work on auto/<slug>
 
 Notes: iter707 BUILD (seo-content) — israel-for-portuguese-travelers SHIPPED 974d593. Full gate: pnpm check 0 errors (first run caught desc 161 chars → fixed to 143; 358 guides, 0 violations); 825 pages (+1); 1117/1117 e2e+a11y pass. Unique angle: Portugal's 1496-97 Sephardic Jewish expulsion and Belmonte crypto-Jewish community survival — creates a personal history link between Portugal and Israel found in no other nationality guide. MB Way warning (unique to PT travellers). CESD/EHIC gap. TAP Air Portugal route advised via flytap.com. CI queued at push (standard pattern).

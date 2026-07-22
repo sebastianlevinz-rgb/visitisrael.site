@@ -10920,3 +10920,9 @@ What: BUILD slot (707%5==2; seo-content rotation). Picked P2/S confirmed gap: /i
 Gate: pnpm check 0 errors (358 guides, 0 violations); pnpm build 825 pages (+1); pnpm test:e2e 1117/1117 pass. GREEN.
 Ship: committed 974d593 to master; pushed origin/master. CI queued at push (standard pattern; prior iters all confirmed success).
 Next: iter 708 → BUILD (708%5==3; tools or technical rotation).
+
+## 2026-07-22T22:50Z · iter 708 · BUILD (technical/freshness) · israel-travel-2026-freshness
+What: BUILD slot (708%5==3; tools or technical rotation). Picked P3/S technical/freshness item: israel-travel-2026.md freshness update. Added 2 paragraphs to the "Tourism is recovering strongly" section: (1) "I Am Israel" $7M North America MOT repositioning campaign (June 2026) — spotlights Israel's people through personal stories of local residents; targets US + Canada where recovery lags European markets; (2) NIS 174M ($56M) approved for 58 public tourism infrastructure projects in 2026, including NIS 37M Eilat-focused component. No page count change (content-only edit to existing file). Honesty maintained: all figures sourced from BACKLOG item (Forbes/JewishLink sources); no fabricated specifics added.
+Gate: pnpm check 0 errors; pnpm build 825 pages (unchanged); pnpm test:e2e 1117/1117 pass. GREEN.
+Ship: committed 77eb9ee to master; pushed origin/master. CI in_progress at push (standard pattern; prior iters all confirmed success).
+Next: iter 709 → REVIEW (709%5==4).

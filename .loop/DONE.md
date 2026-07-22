@@ -1178,3 +1178,6 @@ New guide covering legal framework (no civil marriage; symbolic ceremony + home-
 
 ## iter707 — israel-for-portuguese-travelers → 974d593
 /israel-for-portuguese-travelers — Israel Travel Guide for Portuguese Visitors. Unique Sephardic heritage angle (1496-97 expulsion, Belmonte crypto-Jewish community survival 500+ years, ANU Museum); ETA-IL requirements; TAP Air Portugal LIS–TLV (via flytap.com); Catholic pilgrimage circuit (Galilee/Jerusalem/Bethlehem) with Abreu Tours / Viagens Ecuménicas operators; MB Way does NOT work in Israel (unique practical warning); Type F → Type H adapter (230V same); CESD/EHIC gap; Revolut/Wise; 3 CTAs (Booking.com/GYG Jerusalem/DiscoverCars). 825 pages; 1117/1117 e2e pass.
+
+## iter708 — israel-travel-2026-freshness → 77eb9ee
+israel-travel-2026.md freshness update (technical/freshness, P3/S). Added "I Am Israel" $7M MOT North America campaign (June 2026) + NIS 174M ($56M) / 58 infrastructure projects (incl. NIS 37M Eilat component) to "Tourism is recovering strongly" section. 825 pages unchanged; 1117/1117 e2e pass.
