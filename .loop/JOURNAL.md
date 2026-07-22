@@ -10872,3 +10872,9 @@ Background research agent returned 8 candidate items; all 8 confirmed already in
 Additional confirms this pass: stranded remote branches auto/israel-hebrew-phrases + auto/bga-transfers-sherut-update confirmed squash-merged to master (israel-hebrew-phrases.md present in guides/; both entries in DONE.md with correct SHAs ba49d3b and 4f143ec); remote branches are stale/undeleted only — no recovery action needed.
 No code changes. No gate run. RESEARCH mode only.
 Next: iter 701 → BUILD (701%5==1; seo-content rotation).
+
+## 2026-07-22T14:55Z · iter 701 · BUILD (seo-content) · israel-ramadan-guide
+What: BUILD slot (701%5==1; seo-content rotation). Picked P2/S confirmed gap: /israel-ramadan-guide — dual-audience Ramadan travel guide. Verified file did not exist; not in DONE.md as standalone guide (only mentioned in muslim-travel-israel iter446 as a brief Ramadan subsection). Content: Jaffa iftar culture (Yefet St / Clock Tower square after sunset), Damascus Gate / Muslim Quarter Jerusalem atmosphere and Tarawih prayer crowds, Nazareth Ramadan night market, Akko / Al-Jazzar Mosque context, Al-Aqsa access caveats for non-Muslim visitors (NEVER guarantee access during Ramadan — changes annually), Ramadan dates 2026/2027/2028 table, what changes/doesn't for non-Muslim tourists, honest framing throughout. 7 FAQs. 3 CTAs (GYG Jaffa night tour, Booking Jaffa, Booking Nazareth). Reverse cross-links added: jaffa-travel-guide.md (Ramadan note at bottom), muslim-travel-israel.md (forward link from Ramadan section to new guide), nazareth-travel-guide.md (new Ramadan subsection).
+Gate: pnpm check 0 errors; pnpm build 823 pages (+1); pnpm test:e2e 1117/1117 pass. GREEN.
+Ship: squash-merged + committed 91d7764 to master; pushed origin/master. CI run 29930243068 in_progress at push (standard pattern). Lighthouse also in_progress.
+Next: iter 702 → BUILD (702%5==2; tools rotation). Tools backlog needs assessment — many tools SHIPPED in prior iterations.
