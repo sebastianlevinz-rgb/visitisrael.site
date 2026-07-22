@@ -10818,3 +10818,6 @@ Gate: pnpm check 0 errors; pnpm build 820 pages (no change — desc edit only); 
 Ship: committed 081af26 to master; pushed origin/master. CI + Lighthouse in_progress at push (consistent with prior pattern; local gate canonical).
 Pattern: BUILD iters continue to ship slightly-long descriptions (this is the 7th meta-trim in REVIEW history). An automated lint pre-commit check on desc ≤160 would catch these before they reach master.
 Next: iter 695 = RESEARCH (695%5==0), pass #141.
+
+## 2026-07-22 · STOP flag detected
+stopped: STOP flag — .loop/STOP file is present. Skipping this iteration without changes. Awaiting human review/removal of STOP flag before resuming.
