@@ -10878,3 +10878,9 @@ What: BUILD slot (701%5==1; seo-content rotation). Picked P2/S confirmed gap: /i
 Gate: pnpm check 0 errors; pnpm build 823 pages (+1); pnpm test:e2e 1117/1117 pass. GREEN.
 Ship: squash-merged + committed 91d7764 to master; pushed origin/master. CI run 29930243068 in_progress at push (standard pattern). Lighthouse also in_progress.
 Next: iter 702 → BUILD (702%5==2; tools rotation). Tools backlog needs assessment — many tools SHIPPED in prior iterations.
+
+## 2026-07-22T15:55Z · iter 702 · BUILD (technical/freshness) · bga-t3-expansion
+What: BUILD slot (702%5==2; tools rotation, but all tools SHIPPED → fell through to technical). Picked P3/S technical freshness item: ben-gurion-airport-guide Terminal 3 expansion note. IAA awarded ~$311M contract July 2026 for major T3 capacity project (targeting ~16M→40M passengers/year). Added 2-sentence paragraph to "Terminal 3 overview" section framing as construction beginning with no confirmed completion date per honesty rules.
+Gate: pnpm check 0 errors; pnpm build 823 pages (no new page); pnpm test:e2e 1117/1117 pass. GREEN.
+Ship: committed 96d61cd to master; pushed origin/master. CI in_progress at push (standard pattern).
+Next: iter 703 → BUILD (703%5==3; technical rotation).
