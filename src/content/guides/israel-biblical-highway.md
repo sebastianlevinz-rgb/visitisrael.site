@@ -1,6 +1,6 @@
 ---
 title: 'Israel Biblical Highway: Derech HaTanach Route 60 Guide (2026)'
-description: "Drive Israel's Biblical Highway (Route 60): Be'er Sheva to Shiloh via Jerusalem and Beit El. Faith-tourism circuit guide with safety, logistics and tour options."
+description: "Drive Israel's Biblical Highway (Route 60): Be'er Sheva to Shiloh via Jerusalem and Beit El. Faith-tourism guide with safety, logistics and tour options."
 heroImage: /images/regions/jerusalem/hero.jpg
 category: Faith & Heritage
 updatedAt: 2026-07-21

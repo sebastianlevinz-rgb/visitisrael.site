@@ -1,6 +1,6 @@
 ---
 title: 'Tel Megiddo Visitor Guide: Armageddon & the Biblical Tel'
-description: 'Tel Megiddo (Armageddon) visitor guide: UNESCO Biblical Tel, water tunnel walk, Solomonic Gate, Jezreel Valley panorama, and how to combine with Haifa and Nazareth.'
+description: 'Tel Megiddo (Armageddon) visitor guide: UNESCO Biblical Tel, water tunnel walk, Solomonic Gate, Jezreel Valley panorama, and day trips from Haifa.'
 heroImage: /images/regions/galilee/hero.jpg
 category: Archaeological Sites
 updatedAt: 2026-07-22

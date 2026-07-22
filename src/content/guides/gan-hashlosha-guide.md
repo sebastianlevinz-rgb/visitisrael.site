@@ -1,6 +1,6 @@
 ---
 title: 'Gan HaShlosha (Sachne) Visitor Guide: Israel''s Warm Spring Pools'
-description: 'Gan HaShlosha (Sachne) visitor guide: year-round 28°C spring pools, how to book via parks.org.il, best times to avoid crowds, and the Beit She''an Valley day circuit.'
+description: 'Gan HaShlosha (Sachne) visitor guide: year-round 28°C spring pools, how to book via parks.org.il, best times to visit, and the Beit She''an Valley day circuit.'
 heroImage: /images/regions/galilee/hero.jpg
 category: Nature
 updatedAt: 2026-07-22

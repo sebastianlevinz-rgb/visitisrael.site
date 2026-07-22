@@ -11,7 +11,7 @@
     "dev": "astro dev",
     "build": "node scripts/photos/gen-avif-webp.mjs && astro build",
     "preview": "astro preview",
-    "check": "astro check",
+    "check": "node scripts/lint-meta-length.mjs && astro check",
     "photos": "node scripts/photos/fetch-commons.mjs",
     "photos:optimize": "node scripts/photos/optimize-and-place.mjs",
     "photos:formats": "node scripts/photos/gen-avif-webp.mjs",
