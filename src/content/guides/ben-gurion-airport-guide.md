@@ -43,7 +43,7 @@ faqs:
 
 ## Terminal overview: T3 vs Terminal 1
 
-Ben Gurion has two active passenger terminals. **Terminal 3** is the main international hub, opened in 2004 and expanded with a new west wing in 2024. It handles all major international airlines plus El Al domestic connections. Terminal 3 has three concourses (C, D, and E) accessible from a central departures hall, each with gates at both ends.
+Ben Gurion has two active passenger terminals. **Terminal 3** is the main international hub, opened in 2004 and expanded with a new west wing in 2024. It handles all major international airlines plus El Al domestic connections. Terminal 3 has three concourses (C, D, and E) accessible from a central departures hall, each with gates at both ends. **Long-term expansion underway:** In July 2026, the Israel Airports Authority awarded a contract of approximately $311 million for a major Terminal 3 capacity project, targeting growth from the current ~16 million passengers per year toward 40 million. Construction is beginning; the IAA has not confirmed a final completion date, so plan travel around TLV's current fully operational infrastructure.
 
 **Terminal 1**, to the north of the campus, was refurbished during the 2024–25 period and fully reopened for international service on 1 July 2026, adding capacity as traffic recovers. It handles domestic Israeli flights and a growing number of low-cost European carriers (including Wizz Air and Ryanair routes). If you are flying budget from a European city, confirm your terminal before arriving — the two are not adjacent and a free shuttle bus runs between them.
 
