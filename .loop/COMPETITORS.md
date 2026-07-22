@@ -5860,3 +5860,75 @@ haifa-shore-excursions (ALREADY IN BACKLOG P3/S — priority upgrade to P2/S not
 **False leads eliminated (22)**: hanukkah-guide, negev-wine-route, canadian-travelers, how-to-tour-israel, digital-nomad, dark-tourism, kassland (BLOCKED/Green Line), australian-travelers, japanese-travelers, monthly-pages (iter670), lag-baomer, UNESCO nominations, INPA parks, autumn festivals — all already backlogged or shipped.
 
 **Saturation: ~95%.** Pass #139 yield of 3 items from 30+ candidates is consistent with extreme saturation. Two are internal consistency/freshness fixes rather than net-new content. The genuine new content gap (paragliding) is the first triple-zero find in 5+ research passes. Next highest-value unshipped: nationality guides (Portuguese P2/S, Vietnamese P3/S); dark-tourism hub (P2/S); israel-comprehensive-diving-hub (P2/M); Terminal Park Eilat (P2/S).
+
+## Research Pass #140 · iter690 · 2026-07-22
+
+### Freshness Updates Verified
+
+**Israir TLV-JFK** (Aviation Source News, Globes, ToI liveblog — May-July 2026):
+- Israir received US DOT + Israeli MoT approval for 6 weekly TLV-JFK nonstop round-trips
+- Aircraft: Airbus A330 (new acquisition; first of 2 planes purchased for ~$85M)
+- Launch: end of July / early August 2026 (original target Passover 2026, delayed for operational/security reasons)
+- Last Israir transatlantic was 2008 — 18-year gap; significant return of Israeli carrier on the route
+- Context: United + Delta both suspended TLV through at least September 2026 → Israir + El Al are primary US options
+- Sources: aviationsourcenews.com; en.globes.co.il; timesofisrael.com liveblog
+
+**El Al TLV-SFO** (AirwaysMag, Aviation A2Z, AirlineGeeks, JWeekly — June 1-2 2026):
+- Confirmed: El Al launching TLV-SFO October 25, 2026
+- Frequency: 3x weekly (Sundays, Tuesdays, Thursdays); Aircraft: Boeing 787-9 Dreamliner
+- Economy round-trips from ~$1,199
+- First nonstop TLV-SFO since El Al cut the route in COVID 2020 — 6-year absence
+- JWeekly angle: Jewish Bay Area community; question of whether United will follow
+- Sources: airwaysmag.com; aviationa2z.com; airlinegeeks.com; jweekly.com
+
+**Jerusalem Green Line LRT** (Wikipedia, Times of Israel — 2026):
+- Important distinction: Tel Aviv has the Purple Line (delayed to late 2027+); Jerusalem has its OWN separate LRT network (Red Line operational since 2011; Green Line under construction; Blue Line future)
+- Jerusalem Green Line first section (Malha → Binyanei HaUmah/Convention Centre): opened/opening July 2026 per Jerusalem mayor announcement (mayor said May; final opening July)
+- Full Green Line (Malha → Gilo, 19.6km, 37 stations): expected 2027
+- Significant for Jerusalem guides: New line serves Givat Ram cultural campus (Israel Museum, Schottenstein Campus, National Library), Malha Mall, Teddy Stadium
+- Sources: en.wikipedia.org/wiki/Green_Line_(Jerusalem_Light_Rail); timesofisrael.com liveblog
+
+**Meron / Lag BaOmer 2026 FULL CANCELLATION** (Haaretz, JPost, Yeshiva World, Jewish Weekly — May 2026):
+- PM Netanyahu cancelled 2026 Meron Hilula by government order — FIRST FULL CANCELLATION in modern history
+- Trigger: Hezbollah rocket struck Upper Galilee without warning siren on eve of Lag BaOmer
+- Transportation Ministry refused to implement mass crowd logistics framework
+- Result: 200,000 pilgrims banned; only 3 official bonfires at Meron (~200 capacity each)
+- Nationwide bonfire ban issued by Fire and Rescue Commissioner (extreme fire conditions)
+- Context: 2021 crowd crush killed 45 people; 2026 = second major disruption in 5 years
+- Date: May 4-5, 2026 (past for 2026; annual event repeats each May)
+- Sources: haaretz.com; jpost.com; theyeshivaworld.com; thejewishweekly.com
+
+**Tel Aviv Purple Line** (Globes, industry sources):
+- Official target: "end of 2027" — industry sources call this still overambitious
+- 27km, 43 stations (Tel Aviv center ↔ Yehud/Giv'at Shmuel)
+- Consistent with iter680 alert (2027-2028); no material change in timeline
+
+### Content Gap Confirmed
+
+**Rock Climbing Israel** — VERIFIED GAP (iter680 flagged "possible existence; needs verify" → NOW CONFIRMED):
+- TravelTriangle: "10 Places for Rock Climbing in Israel" (thin listicle, not comprehensive)
+- climbing-israel.com: technical route database for experienced climbers (NOT a travel-audience guide; covers 20 sites by technical grade)
+- MountainProject/theCrag: route databases (very technical, specialist audience only)
+- Operator pages: Adventure Israel, Israel Extreme, Ashdot Extreme Tours (booking pages only)
+- No editorial travel guide addressing: regional overview, difficulty levels for tourists, logistics, best season, gear
+- Key sites: Ein Fara/Wadi Qelt cliffs (Judean wilderness), Zanoach Cliff (Judean Mountains), Negev crags near Mitzpe Ramon, Ma'aleh HaHamisha (central hills)
+- Verdict: Clear editorial gap for a broadly-aimed traveler's climbing guide
+
+### Confirmed NOT Gaps / Already Covered
+
+- Dark tourism broader guide: October 7 memorial BACKLOG item (P2, HUMAN-REVIEW-REQUIRED, iter80) already tracks this — blocked; not re-added
+- Camel riding / Bedouin Negev: bedouin-experience-israel.md SHIPPED iter357
+- Schottenstein Campus (National Campus for Archaeology): guide SHIPPED iter607, content current as of 2026-07-18
+- Tower of David Museum: renovation complete June 2023; tower-of-david-guide.md SHIPPED iter208
+- Rosh Hanikra cable car reopened 2026: rosh-hanikra-guide.md SHIPPED iter483; guide already notes 2026 cable car restoration
+- Galilee Christian pilgrimage sites cable car: planning approved April 2026; not operational, not under construction
+- Lag BaOmer guide: exists in BACKLOG as iter265 P3/S — priority upgraded to P2/S this pass
+
+### Competitor Notes (new observations)
+
+- TouristIsrael: Has Lag BaOmer page (outdated post-2026 cancellation), October 7 memorial page (human-guided-tour focused), no rock climbing coverage
+- climbing-israel.com: Dominates technical climbing niche but does NOT compete in editorial travel space
+- dark-tourism.com: Global reference site; has Israel index; growing post-October 7
+- World Jewish Travel: Has Sderot "dark tourism" and resilience tour coverage
+- Remitly blog + JewBelong: Cover Lag BaOmer culturally but not as practical travel guides
+- JWeekly (San Francisco Jewish newspaper): Active coverage of El Al SFO route — West Coast Jewish community highly engaged in Israel travel recovery
