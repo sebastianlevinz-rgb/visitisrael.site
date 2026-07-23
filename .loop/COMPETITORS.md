@@ -6155,3 +6155,23 @@ Comprehensive cross-reference at ~95% saturation (147 research passes). 30+ cand
   (b) Freshness maintenance as events unfold (REVIEW mode catches these well);
   (c) The large queue of nationality guides (French, Canadian, Dutch, Australian, Turkish, Thai, Greek, Austrian, Swiss, Taiwanese, Belgian, Ukrainian, Romanian, Czech, Polish, Hungarian, NZ, Moroccan, Mexican, Vietnamese) — all researched, all ready, just need BUILD iterations;
   (d) Monetization/tool BUILD items (itinerary builder, price calculator updates, affiliate deeplinks).
+
+### 2026-07-23 · iter 730 · RESEARCH pass #148 — saturation cross-reference
+
+25+ candidates screened across fresh angles: very recent news (last 24h), competitor interactive tools, niche event coverage, new airline routes, niche traveler segments, film tourism, motorcycle touring, medical tourism, cultural/food niches. Executed hours after iter725 (same day, zero-yield pass #147).
+
+**1 net-new item confirmed:**
+- **Israir Madrid direct route** (announced July 9, 2026): TLV–MAD 3×/week A320 launching October 25, 2026. cheap-flights-to-israel.md already current (`| Israir | Madrid MAD | New from Oct 2026; 3×/week A320 |`). israel-for-spanish-travelers.md FAQ missing this route — added P3/S freshness item to BACKLOG.
+
+**Key false leads eliminated:**
+- Safed Klezmer Festival — BACKLOG iter300 (P2/S seo-content, ready); not a new gap
+- Red Sea Jazz Festival (Eilat) — covered inside eilat-nightlife.md; no standalone guide needed yet
+- Dan Carmel Hotel Haifa "July 2026 reopening" — no confirmed specific event found; classified false lead
+- Most airline routes (Israir NYC, El Al SFO, El Al Buenos Aires) — all already in relevant guide files
+
+**Pattern observation (148 passes, ~95% saturation):**
+Two RESEARCH passes in same calendar day (iter725 + iter730) both confirm saturation ceiling. Genuine new items are now rare even across distinctly different search angles (iter725 used competitor taxonomy scan; iter730 used recent-news + niche-segment angles). BACKLOG already holds ~724 researched items awaiting BUILD. Remaining value from RESEARCH mode is primarily:
+  (a) Breaking news freshness (airline route launches, attraction openings, closures) — iter730's one find is this type;
+  (b) Correcting factual errors in existing guides caught by freshness monitoring (Independence Hall, Bayudaya concern);
+  (c) Cross-checking own pages against each other for inconsistencies (iter730's MAD gap = cheap-flights vs spanish-guide mismatch).
+REVIEW and BUILD modes yield higher ROI per iteration at current saturation.
