@@ -1,12 +1,12 @@
 # LOOP STATE
 
-- iteration: 719
-- lastMode: REVIEW
-- lastItem: review-719-spanish-cheap-flights — audit iters 716-718 + cheap-flights Arkia AGP fix
-- lastResult: SHIPPED 104f307. REVIEW of iters 716-718 (arava-mountain-biking, air-haifa-haifa-airport-guide, israel-for-spanish-travelers + eilat-ramon freshness). All CLEAN: 0 dead links, meta lengths OK, inbound discoverability OK, honesty OK. One defect found: cheap-flights-to-israel.md European carriers table missing Arkia TLV–Málaga (AGP) direct route (Jul 2026). Fixed: added Arkia row with link to /israel-for-spanish-travelers. Gate: pnpm check 0 errors; pnpm build 830 pages; pnpm test:e2e 1118/1118 pass. GREEN.
-- nextRotationCategory: 720%5==0 → RESEARCH
+- iteration: 720
+- lastMode: RESEARCH
+- lastItem: research-720-competitor-content-gaps-pass-146
+- lastResult: RESEARCH pass #146. 32+ false leads eliminated (12 from background research agent + 20 pre-compaction). Net-new: 2 items — (1) tel-aviv-museums.md Independence Hall closure freshness defect (P2/S); (2) cheap-flights-to-israel.md Antwerp ANR route note (P3/S). Saturation ~95% confirmed. No gate run (RESEARCH mode).
+- nextRotationCategory: 721%5==1 → BUILD/monetization
 - higgsfieldSpent: 0
-- updatedAt: 2026-07-23T09:50Z
+- updatedAt: 2026-07-23T10:15Z
 - branch context: work on master; feature work on auto/<slug>
 
 Notes: iter718 BUILD (seo-content/technical) — israel-for-spanish-travelers SHIPPED 613b078 + eilat-ramon-airport-guide Wizz Air Israel domestic hub freshness. Spain guide: ETA-IL, Arkia TLV↔AGP direct July 2026, Sephardic heritage (1492 Alhambra), TSE gap, Type F→H adapter, Bizum warning. 7 FAQs, 3 CTAs. Hub first-time-in-israel.md updated. 830 pages (+1); 1118/1118 e2e pass.

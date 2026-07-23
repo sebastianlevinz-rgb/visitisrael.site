@@ -6111,3 +6111,24 @@ All 8 research agent candidates were already present in BACKLOG or DONE:
 - Galilee Culinary Institute → BACKLOG iter540
 - Arkia Tokyo October 2026 → BACKLOG iter615 upgrade already logged
 - Digital nomad Israel → BACKLOG iter30
+
+### 2026-07-23 · iter 720 · RESEARCH pass #146 — deep competitor cross-reference at ~95% saturation
+
+Background research agent (subagent) performed 14 targeted searches across touristisrael.com (403-blocked; worked around via SERP analysis), abrahamtours.com, beinharimtours.com, lonelyplanet.com, roughguides.com, GetYourGuide, Viator, bookretreats.com, masaisrael.org, secrettelaviv.com, jewishlink.news (2026 tourism stats), jpost.com tourism, nomadicmatt.com, thebrokebackpacker.com.
+
+**Key findings:**
+- 362 EN guides confirmed live on site (pnpm build 830 pages). Saturation now genuinely high (~95%) across obvious editorial verticals: nationality guides (17), active travel, food/wine, religious heritage, tools, comparisons.
+- Tourist Israel SERP footprint continues to grow (dedicated marathon article, heritage tour money pages, 11-day Israel+Jordan+Egypt package tours at $3,000–6,000+) — their tour-package pages are not editorial competition but rather affiliate/booking partners.
+- Abraham Tours vs Beinharim comparison: BrokeBackpacker and Nomadic Matt currently own "Abraham Tours review" transactional query. Our israel-tour-operators-guide.md covers both but does not have a head-to-head comparison page — this IS in BACKLOG already.
+- Yoga retreat space: bookretreats.com lists 40+ Israel retreat offerings (Six Senses Shaharut, Desert Ashram, Or HaLev, Ne'ot Semadar, Moa Oasis). ZERO editorial competitor coverage. BACKLOG iter150 covers this gap (ready).
+- Marathon/running tourism: secrettelaviv.com, Tourist Israel rank "Tel Aviv Marathon 2026/2027" pages. Our sports-events-israel.md covers it in 2 FAQs. BACKLOG item (iter350) captures this gap (ready).
+- Advisory tool: no competitor has a multi-country advisory comparison table. BACKLOG item captures this gap (ready).
+- **Only 2 genuine net-new items found** from 32+ candidates screened:
+  1. Independence Hall closure (renovation since 2024) not reflected in tel-aviv-museums.md — creates a trust defect for visitors who see "free entry" and arrive at a closed building.
+  2. Antwerp (ANR) TUI fly Belgium route (2× weekly nonstop to TLV, since Dec 2023) missing from cheap-flights-to-israel.md European carriers table.
+
+**Pattern observation:** At 95%+ saturation, most remaining SEO gains will come from:
+  (a) Freshness maintenance on shipped guides (Independence Hall closure is a live example);
+  (b) Shipping the large queue of P2/P3 BACKLOG items already well-researched (100+ ready items);
+  (c) Cross-link deepening between existing guides;
+  (d) Monetization optimization on high-traffic existing pages.

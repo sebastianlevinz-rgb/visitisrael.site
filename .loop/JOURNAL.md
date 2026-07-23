@@ -11022,3 +11022,14 @@ Fix: added "Arkia | Málaga AGP | New Jul 2026; weekly direct — see [Israel fo
 Gate: pnpm check 0 errors; pnpm build 830 pages (unchanged); pnpm test:e2e 1118/1118 pass. GREEN.
 Ship: committed 104f307 to master; pushed origin/master. CI in_progress at push (standard pattern; prior iter CI d496c669 = success).
 Next: iter 720 → RESEARCH (720%5==0).
+
+## 2026-07-23T10:15Z · iter 720 · RESEARCH · research-720-competitor-content-gaps-pass-146
+What: RESEARCH (720%5==0). Background research agent + manual cross-reference against 721-item BACKLOG.
+Scope: touristisrael.com (403-blocked; SERP workaround), abrahamtours.com, beinharimtours.com, lonelyplanet.com, roughguides.com, GetYourGuide, Viator, bookretreats.com, masaisrael.org, secrettelaviv.com, jewishlink.news, jpost.com, nomadicmatt.com, thebrokebackpacker.com. 14 targeted searches. 32+ candidates screened.
+False leads eliminated: all 12 background agent suggestions already in BACKLOG — Australian travelers (iter430), Canadian travelers (iter430), Japanese travelers (iter455), Dutch/Netherlands travelers (iter450), Brazilian travelers (iter450), Polish travelers (iter605), Israel+Jordan+Egypt 3-country itinerary (iter275), yoga/spiritual retreats (iter150), kibbutz volunteer/extended-stay (iter160), Abraham Tours vs Bein Harim comparison (BACKLOG), Tel Aviv Marathon participant guide (iter350), multi-country travel advisory tool (BACKLOG). Pre-compaction false leads (20+) including all remaining nationality guides, all activity guides, all heritage/religious guides confirmed in BACKLOG or SHIPPED.
+Net-new items found: 2
+  1. tel-aviv-museums.md Independence Hall closure freshness defect (P2/S) — guide describes Independence Hall as "free entry; 30-min guided presentation" but it has been closed for renovation since 2024 (confirmed by BACKLOG iter520 Democracy Pavilion entry). Trust defect: visitors who see "free entry" and arrive find a closed building. Freshness fix needed.
+  2. cheap-flights-to-israel.md Antwerp (ANR) hub note (P3/S) — TUI fly Belgium ANR→TLV 2× weekly since Dec 2023; European carriers table lists Brussels BRU and Charleroi CRL but not Antwerp ANR. Belgian market hook missing.
+BACKLOG updated: 2 items added, research log comment appended. COMPETITORS.md updated with iter720 findings + pattern observations at ~95% saturation.
+No gate run (RESEARCH mode).
+Next: iter 721 → BUILD/monetization (721%5==1).
