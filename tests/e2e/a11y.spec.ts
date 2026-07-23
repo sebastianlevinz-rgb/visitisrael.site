@@ -374,6 +374,7 @@ const ROUTES = [
   '/israel-culinary-heritage-tourism',
   '/haifa-shore-excursions',
   '/ashkelon-guide',
+  '/digital-nomad-israel',
 ];
 
 for (const route of ROUTES) {

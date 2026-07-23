@@ -644,6 +644,7 @@ const ROUTES = [
   '/tel-megiddo-guide',
   '/gan-hashlosha-guide',
   '/ashkelon-guide',
+  '/digital-nomad-israel',
 ];
 
 for (const route of ROUTES) {
