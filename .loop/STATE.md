@@ -1,13 +1,15 @@
 # LOOP STATE
 
-- iteration: 722
-- lastMode: BUILD (seo-content)
-- lastItem: binyamina-wine-town-guide
-- lastResult: SHIPPED 3a29484. New /binyamina-guide — Binyamina wine town day trip guide on the Carmel coast. Binyamina Winery (Rothschild-era building), Tishbi Estate (family winery + chocolate tasting + kosher dairy restaurant), Ramat Hanadiv access, July 2026 IAA Roman marble statue find (Lycurgus inscription) freshness peg. 7 FAQs. 3 affiliate CTAs (GYG Carmel wine tours / DiscoverCars / Booking Caesarea area). Cross-links IN from: caesarea-guide, zichron-yaakov-guide, day-trips-from-haifa. Gate: pnpm check 0 errors; pnpm build 831 pages (+1); pnpm test:e2e 1118/1118 pass. CI in_progress at push (standard pattern; prior runs all success).
-- nextRotationCategory: 723%5==3 → BUILD/technical
+- iteration: 723
+- lastMode: BUILD (technical+seo)
+- lastItem: israel-power-plug
+- lastResult: SHIPPED cb68c2a. New /israel-power-plug — Israel Type H plug adapter guide. Standalone English-language guide filling confirmed zero-gap: Type H unique 3-round-pin V-shape socket used ONLY in Israel + Palestinian Territories. Per-country sections: US/Canada (Type A/B→H, 230V converter risk for 120V-only devices), UK/Ireland (Type G→H), Continental Europe (Type C physically fits H sockets), Australia/NZ (Type I→H). USB-C shortcut, where-to-buy table (Ben Gurion duty-free / Israeli supermarkets ₪20-40 / KSP/Ivory), packing checklist, hotel USB port note. 7 FAQs. 2 affiliate CTAs (airalo eSIM + booking hotels). Cross-links IN from: first-time-in-israel (Type H mention + link added), israel-esim (Type H plug link in Before you go section). Cross-links FROM guide: /israel-esim, /ben-gurion-airport-guide, /first-time-in-israel, /israel-cost-budget. Gate: pnpm check 0 errors; pnpm build 832 pages (+1); pnpm test:e2e 1118/1118 pass. CI in_progress at push (standard pattern; prior runs all success).
+- nextRotationCategory: 724%5==4 → REVIEW
 - higgsfieldSpent: 0
-- updatedAt: 2026-07-23T12:45Z
+- updatedAt: 2026-07-23T13:48Z
 - branch context: work on master; feature work on auto/<slug>
+
+Notes: iter723 BUILD (technical+seo) — israel-power-plug SHIPPED cb68c2a. New /israel-power-plug fills confirmed zero-gap: no standalone English-language Israel plug guide existed (BACKLOG iter180 research, P3/technical+seo/S). Type H socket unique to Israel + Palestinian Territories — 3 round pins in V-shape, found nowhere else. Per-country sections (US, UK, EU, AU/NZ), USB-C shortcut, where-to-buy table, packing checklist. 7 FAQs, 2 CTAs (airalo + booking). Cross-links into guide from first-time-in-israel.md and israel-esim.md. Gate: 0 errors; 832 pages (+1); 1118/1118 e2e pass GREEN. Env note: local master was stale (iter576); resolved via git reset --hard origin/master; feature branch auto/israel-power-plug-guide created but no commits landed there (file edits stayed in working-tree across checkout); merged directly on master with git add + git commit. Title length violation caught on first pnpm check (72 chars > 65 max); shortened title to 65 chars on second pass. Playwright browser download blocked; resolved by PLAYWRIGHT_BROWSERS_PATH=/opt/pw-browsers env var (pre-installed Chromium in cloud env — standard cloud-env pattern).
 
 Notes: iter722 BUILD (seo-content) — binyamina-guide SHIPPED 3a29484. New /binyamina-guide fills confirmed TRIPLE-ZERO gap (zero BACKLOG P-item, zero DONE.md entry, zero guide file). Carmel coast wine town 50 min from TLV by train; Binyamina Winery + Tishbi Estate + Ramat Hanadiv + July 2026 IAA Roman marble statue freshness peg. Cross-links: caesarea-guide (Binyamina Winery link added to Caesarea+Zichron section), zichron-yaakov-guide (Tishbi/Binyamina link updated with /binyamina-guide href), day-trips-from-haifa (Binyamina guide mention added to Zichron Yaakov bullet). Gate: 0 errors; 831 pages; 1118/1118 e2e pass GREEN. Note: env reset local master from iter576 (stale clone) to origin/master iter721 via git reset --hard origin/master before building — standard cloud-clone divergence recovery. 4 remote stale auto/* branches noted (bga-transfers-sherut-update, israel-hebrew-phrases, israel-vs-cyprus, jerusalem-trail) — not our work, left for human review.
 
