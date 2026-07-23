@@ -85,6 +85,8 @@ Ramon Airport is a single-terminal building. It is comfortable and functional bu
 
 The most frequent service is Tel Aviv (Ben Gurion, TLV) to Eilat (ETM). **El Al, Arkia and Israir** all fly the route, with a flight time of roughly 50 minutes. In peak season there can be eight to ten departures each direction per day; outside peak periods the schedule is more limited. Tickets can be cheap (₪150–200 one-way booked early) or significantly more expensive if you book close to travel dates or around Jewish holidays.
 
+**Air Haifa** (the new carrier based at Haifa Airport, launched September 2024) has announced a Haifa (HFA) to ETM direct route and up to 10 daily TLV–ETM departures from October 2026, making it a new competitor on the Eilat corridor. For travellers based in northern Israel, the [Haifa Airport & Air Haifa guide](/air-haifa-haifa-airport-guide) covers this option. Verify current Air Haifa schedules at airhaifa.com before planning.
+
 Use the [cheap flights to Israel guide](/cheap-flights-to-israel) for tools to track Israeli domestic fare fluctuations.
 
 ### International routes (2026)

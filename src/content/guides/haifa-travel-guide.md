@@ -142,6 +142,8 @@ Water quality on Haifa beaches varies seasonally — check the current status at
 
 **From Jerusalem:** Train via Tel Aviv (~2 hours total) or direct express bus (~1h 45min). By car: Highway 1 to Highway 2 via Tel Aviv, 1.5–2 hours.
 
+**By air via Haifa Airport (HFA):** If you are arriving from Eilat, Cyprus or the Greek islands, [Air Haifa flies directly to Haifa International Airport (HFA)](/air-haifa-haifa-airport-guide) — 4 km from the city centre. This is particularly useful for travellers ending a southern Israel trip and flying north, or those arriving from a Greek island summer break without routing via Ben Gurion.
+
 **Within Haifa:** The Carmelit connects the lower city (Paris Square) to the Carmel ridge in 8 minutes. City buses cover the rest, including Bat Galim beach and the Carmel ridge hotels, and uniquely in Israel they operate on Shabbat. Taxis and Gett are readily available. The German Colony, Wadi Nisnas, the port promenade and the Bahá'í Gardens lower terrace are all walkable from each other (15–20 minutes flat).
 
 ---
