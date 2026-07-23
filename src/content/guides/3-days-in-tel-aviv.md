@@ -70,7 +70,7 @@ Start on [Rothschild Boulevard](/tel-aviv-white-city) — the spine of Tel Aviv'
 Walk north from the southern end and look for:
 
 - **84 Rothschild** (Engel House, 1933) — Zeev Rechter's first "pilotis" building in Israel, the pioneering design that lifts the structure off the ground on columns.
-- **Independence Hall** (16 Rothschild) — the room where David Ben-Gurion declared the State of Israel on 14 May 1948; free entry, 30-minute guided presentation, call ahead for English times.
+- **Independence Hall** (16 Rothschild) — the room where David Ben-Gurion declared the State of Israel on 14 May 1948. **Closed for renovation since 2024** (no reopening date announced); the exterior on the boulevard promenade is still viewable. Visit the nearby **Democracy Pavilion** (free interactive installation on Rothschild Blvd) as the accessible statehood-history alternative while the interior remains closed.
 - **Bauhaus Center** (77 Dizengoff) — a small museum and design shop with books, maps and print reproductions of the original architectural plans; self-guided walking map available.
 
 The side streets off Rothschild — particularly Ahad Ha'am, Sheinkin and Frishman — each hold clusters of well-preserved 1930s buildings. You are not looking at reconstructions: these are real inhabited apartment blocks, and the residents use the same pilotis as covered parking.

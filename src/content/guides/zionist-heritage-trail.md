@@ -65,7 +65,7 @@ Behind the Herzl compound, the **national military cemetery** holds tens of thou
 
 On 14 May 1948, David Ben Gurion stood in this building on Rothschild Boulevard in Tel Aviv and read aloud the Declaration of Independence of the State of Israel, eleven minutes before the British Mandate officially ended. **Independence Hall (Beit Ha'atzmaut)** is the single most concentrated site of the founding moment.
 
-The hall has been preserved in its 1948 state: wooden chairs, a portrait of Herzl on the wall, a podium. Entry is free; the site runs guided presentations in English (check current times with the Tel Aviv municipality before visiting — schedules vary). The presentation is approximately 30 minutes and is moving even for visitors with no personal connection to the event.
+The hall has been preserved in its 1948 state: wooden chairs, a portrait of Herzl on the wall, a podium. **Note (updated July 2026): Independence Hall has been closed for renovation since 2024 and has no published reopening date.** The exterior on Rothschild Boulevard remains viewable and is a worthwhile stop on any White City walk. Check current status at the Tel Aviv municipality website before planning a visit specifically to enter the building. The nearby **Democracy Pavilion** (free interactive installation on Rothschild Blvd) is open and serves as the accessible statehood-history experience while the interior remains closed.
 
 Rothschild Boulevard itself — where the Declaration was signed — is worth a slow walk. The [Tel Aviv White City](/tel-aviv-white-city) of Bauhaus and International Style buildings begins here; several early Zionist institutions occupy the boulevard's historic buildings.
 

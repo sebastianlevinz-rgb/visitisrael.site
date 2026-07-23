@@ -129,7 +129,7 @@ Full eating guide: [Tel Aviv food guide](/tel-aviv-food-guide).
 
 **The Palmach Museum** (Haim Levanon St) uses immersive, guide-led group narratives to tell the story of the pre-state Jewish underground. Advance booking required; guide-led only.
 
-**Independence Hall** (Rothschild 16) is where David Ben-Gurion declared the establishment of the State of Israel on 14 May 1948. The hall is preserved as it was that day; guided visits are brief (45–60 min) and powerful in context.
+**Independence Hall** (Rothschild 16) is where David Ben-Gurion declared the establishment of the State of Israel on 14 May 1948. The building has been **closed for renovation since 2024** — no official reopening date has been announced; check current status at the Tel Aviv municipality website before visiting. The exterior on the Rothschild Boulevard promenade remains accessible. The nearby **Democracy Pavilion** (free interactive installation on Rothschild Blvd, open now) lets visitors explore the founding of Israel and digitally sign the Declaration of Independence.
 
 ---
 
