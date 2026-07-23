@@ -1,12 +1,12 @@
 # LOOP STATE
 
-- iteration: 710
-- lastMode: RESEARCH
-- lastItem: research-710-new-content-gaps
-- lastResult: RESEARCH — pass #144. 6 net-new BACKLOG items: Design Museum Holon standalone guide (P3/S), Binyamina wine town guide (P3/S), Roman marble statues Binyamina freshness note for israel-archaeology-experience.md (P3/S), Tel Aviv Ottoman Railway walking/cycling path guide (P3/S), city-of-david-jerusalem freshness update (P3/S technical, First Temple wooden beams July 20 2026), israel-for-italian-travelers priority upgrade P3→P2 (ITA Airways twice-daily Rome FCO→TLV from July 1 2026). Priority note added for new-luxury-hotels-israel-2026 (Six Senses TLV 2026 opening). COMPETITORS.md updated with 5 intel sections. No shipping in RESEARCH mode.
-- nextRotationCategory: 711%5==1 → BUILD/monetization
+- iteration: 711
+- lastMode: BUILD
+- lastItem: israel-for-italian-travelers
+- lastResult: SHIPPED 0923c4c — /israel-for-italian-travelers new page. P2/S seo-content+monetization, upgraded iter710. ITA Airways twice-daily FCO→TLV hook (July 1 2026). Gate: pnpm check 0 errors (358 guides, 0 violations); pnpm build 826 pages (+1); pnpm test:e2e 1117/1117 pass. GREEN.
+- nextRotationCategory: 712%5==2 → BUILD/tools (or technical if tools empty)
 - higgsfieldSpent: 0
-- updatedAt: 2026-07-23T00:30Z
+- updatedAt: 2026-07-23T02:00Z
 - branch context: work on master; feature work on auto/<slug>
 
 Notes: iter710 RESEARCH pass #144 — at ~95% saturation, 6 net-new from 20+ candidates screened. Key false positives eliminated: helicopter tours (BACKLOG iter190), Knesset Museum (BACKLOG iter370), rock climbing (SHIPPED iter690), Valley of Springs (BACKLOG iter705), Six Senses Shaharut (already in yoga-retreats BACKLOG), Canadian/Australian/Turkish travelers (all BACKLOG), bahai-pilgrimage-haifa (BACKLOG iter680), dark-tourism/october-7 (BACKLOG BLOCKED human-review). 825 pages; 1117/1117 e2e pass (from last BUILD gate — RESEARCH has no gate run).

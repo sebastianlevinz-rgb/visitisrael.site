@@ -10950,3 +10950,9 @@ False leads eliminated (20+): helicopter tours, Knesset Museum, rock climbing (S
 Memory: BACKLOG.md appended (6 items + priority note + saturation line); COMPETITORS.md appended (5 intel sections); STATE.md bumped to iter710.
 Gate: none required (RESEARCH mode).
 Next: iter 711 → BUILD/monetization (711%5==1).
+
+## 2026-07-23T02:00Z · iter 711 · BUILD (seo-content+monetization) · israel-for-italian-travelers
+What: BUILD slot (711%5==1; monetization rotation fully shipped → fell through to seo-content). Picked P2/S israel-for-italian-travelers — upgraded P3→P2 in iter710 due to ITA Airways doubling Rome FCO→TLV to twice-daily from July 1, 2026. File did not exist; not in DONE.md. Content: ETA-IL (Italy visa-exempt but Jan 2025 requirement — common confusion); ITA Airways FCO–TLV twice-daily + El Al FCO+MXP options; Italian Jewish heritage (Rome 2,000-year community, ANU Museum, Franciscan Custody of Holy Land); Catholic pilgrimage circuit (Church of Beatitudes Italian Franciscan sisters, Basilica of Annunciation Italian mosaic panel, Franciscan Via Dolorosa procession); TEAM/Tessera Sanitaria gap (not valid in Israel); Type L→H adapter (same 230V; Italian multi-plug complexity noted); Bancomat/PagoBancomat ATM caveats; Italian Embassy TLV address; MAECI advisory link; airport security briefing (3h+ arrival). 7 FAQs + 3 affiliate CTAs (Booking.com / GYG Jerusalem tour / DiscoverCars). Wire: added [Italian visitors](/israel-for-italian-travelers) to first-time-in-israel.md nationality hub paragraph (peer to 13 other nationality guides).
+Gate: pnpm check 0 errors (358 guides, 0 violations); pnpm build 826 pages (+1); pnpm test:e2e 1117/1117 pass. GREEN.
+Ship: committed 0923c4c to master; pushed origin/master. CI run 29972906634 in_progress at push (standard pattern; prod-deploy verified next iter start-check).
+Next: iter 712 → BUILD/tools or technical (712%5==2).
