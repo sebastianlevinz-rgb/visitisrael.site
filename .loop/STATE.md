@@ -1,15 +1,17 @@
 # LOOP STATE
 
-- iteration: 716
-- lastMode: BUILD (seo-content fall-through from monetization — no monetization items ready)
-- lastItem: arava-mountain-biking
-- lastResult: SHIPPED 4d7b033. New /arava-mountain-biking — Yahel–Timna Singletrack Trail Guide (P2/S). Gate: pnpm check 0 errors; pnpm build 828 pages (+1); pnpm test:e2e 1117/1117 pass. GREEN. CI in_progress at push (standard pattern).
-- nextRotationCategory: 717%5==2 → BUILD/seo-content or tools
+- iteration: 717
+- lastMode: BUILD (seo-content/transport)
+- lastItem: air-haifa-haifa-airport-guide
+- lastResult: SHIPPED 8083fb8. New /air-haifa-haifa-airport-guide — Haifa Airport (HFA) & Air Haifa 2026 guide (P2/S). Gate: pnpm check 0 errors (361 guides); pnpm build 829 pages (+1); pnpm test:e2e 1118/1118 pass. GREEN. CI in_progress at push (standard pattern).
+- nextRotationCategory: 718%5==3 → BUILD/tools or technical
 - higgsfieldSpent: 0
-- updatedAt: 2026-07-23T07:00Z
+- updatedAt: 2026-07-23T07:51Z
 - branch context: work on master; feature work on auto/<slug>
 
-Notes: iter715 RESEARCH pass #145 — 5 net-new: Air Haifa/HFA guide (P2/S), Israel for Spanish travelers (P3/S), Eilat Ramon Airport freshness (P3/S), Israel Festival date-correction (iter235: Jul 28–Aug 20 2026), Michmoret sea turtle rescue center freshness (iter570). 15+ false leads eliminated. Saturation ~95%. No gate run (RESEARCH mode).
+Notes: iter717 BUILD (seo-content/transport) — air-haifa-haifa-airport-guide SHIPPED 8083fb8. New guide for Haifa Airport HFA + Air Haifa carrier (launched Sep 2024). Routes: HFA↔Eilat domestic, Cyprus, Greek islands, Oct 2026 TLV→ETM planned. Cross-links: haifa-travel-guide, eilat-ramon-airport-guide (Air Haifa note in domestic section), Footer. 7 FAQs, 3 CTAs. 829 pages (+1); 1118/1118 e2e pass.
+
+Notes: iter715 RESEARCH pass #145 — 5 net-new: Air Haifa/HFA guide (P2/S SHIPPED iter717), Israel for Spanish travelers (P3/S), Eilat Ramon Airport freshness (P3/S, Air Haifa note DONE in iter717), Israel Festival date-correction (iter235: Jul 28–Aug 20 2026), Michmoret sea turtle rescue center freshness (iter570). 15+ false leads eliminated. Saturation ~95%. No gate run (RESEARCH mode).
 
 Notes: iter711 BUILD (seo-content+monetization) — israel-for-italian-travelers SHIPPED 0923c4c. ITA Airways twice-daily FCO→TLV hook (July 1 2026). Gate: pnpm check 0 errors (358 guides, 0 violations); pnpm build 826 pages (+1); pnpm test:e2e 1117/1117 pass. GREEN.
 
