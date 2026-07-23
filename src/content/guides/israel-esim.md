@@ -69,4 +69,4 @@ A few tips that keep costs down:
 
 ## Before you go
 
-Sort your data alongside the rest of your trip admin: read the [first-time-in-Israel guide](/first-time-in-israel), sort [travel insurance](/israel-travel-insurance), and if you are driving, our [car rental guide](/car-rental-israel). Heading from the airport into town? See [Ben Gurion airport transfers](/ben-gurion-airport-transfers) and the [transportation guide](/transportation).
+Sort your data alongside the rest of your trip admin: read the [first-time-in-Israel guide](/first-time-in-israel), sort [travel insurance](/israel-travel-insurance), and if you are driving, our [car rental guide](/car-rental-israel). Don't forget the [Israel power plug guide](/israel-power-plug) — Israel uses the unique Type H socket, so check what adapter you need before you fly. Heading from the airport into town? See [Ben Gurion airport transfers](/ben-gurion-airport-transfers) and the [transportation guide](/transportation).
