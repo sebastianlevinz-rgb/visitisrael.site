@@ -10970,3 +10970,12 @@ What: BUILD slot (713%5==3; technical rotation). Top technical item (tel-megiddo
 Gate: pnpm check 0 errors; pnpm build 827 pages (no change); pnpm test:e2e 1117/1117 pass. GREEN.
 Ship: committed 5273c2a to master; pushed origin/master. CI + Lighthouse in_progress at push (standard pattern; prior iters CI confirmed success for 1a99814 and earlier).
 Next: iter 714 → REVIEW (714%5==4).
+
+## 2026-07-23T05:00Z · iter 714 · REVIEW · review-714-guided-discoverability
+What: REVIEW (714%5==4). Audited iters 711–713: israel-for-italian-travelers (new page), guided-vs-self-guided-israel (new page), archaeology freshness (city-of-david-jerusalem.md + israel-archaeology-experience.md).
+Checks: meta lengths (title ≤65, desc ≤160) — both new guides CLEAN (47/149 and 53/128); H1 in MDX bodies — none found; 29 internal links across both new guides — all resolve (verified against content filesystem); JSON-LD integrity — no aggregateRating/ratingValue anywhere in schema.ts; honesty — cost ranges only ($150–350/day, $50–120/person, ₪50–90 SIM, ₪25 ETA-IL), evergreen caveats, no fabricated data; affiliate rel="sponsored nofollow noopener" — CLEAN; photo credits — both guides use /images/regions/jerusalem/hero.jpg and /images/regions/negev/hero.jpg, both ledgered. Freshness updates confirmed in body text (First Temple beams + Binyamina statues).
+Defect found: /guided-vs-self-guided-israel (iter712) had 3 inbound links (footer, first-time-in-israel, private-tours-israel) but was absent from two high-traffic hubs that explicitly discuss the guided/independent decision point: christian-pilgrimage-holy-land.md ("Independent travellers can self-drive...but should use tours or guides for Bethlehem") and best-tours-in-israel.md "More ways to plan" section.
+Fix: christian-pilgrimage-holy-land.md Costs section — added "Not sure which approach suits your group? See our guided vs self-guided Israel guide"; best-tours-in-israel.md "More ways to plan" — prepended "Still deciding whether to go guided or self-guided?" callout.
+Gate: pnpm check 0 errors; pnpm build 827 pages (unchanged); pnpm test:e2e 1117/1117 pass. GREEN.
+Ship: committed b701045 to master; pushed origin/master. CI run 29980620308 in_progress at push (standard pattern; prior iter CI for 0c9dfe4 = success).
+Next: iter 715 → RESEARCH (715%5==0).
