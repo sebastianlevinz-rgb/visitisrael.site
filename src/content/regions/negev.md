@@ -60,6 +60,8 @@ There are three accommodation clusters and a fourth for slow travellers.
 
 **Eco-lodges and farms** (the term is **chavot bodedim** in Hebrew — single-family farms scattered across the central Negev) offer rustic accommodation with kitchen access and full silence. Search for properties around Ezuz, Halutza and Be'er Milka.
 
+**Retreat centres** are clustered in the Arava valley south of Mitzpe Ramon and in the central Negev: Six Senses Shaharut (luxury eco-resort with yoga and Ayurveda programmes near Eilat), Desert Ashram (Osho-lineage meditation community), Ne'ot Semadar (eco-oasis community with yoga workshops) and Moa Oasis (Nabataean incense route setting with retreat programming). See the [Israel yoga & meditation retreats guide](/israel-yoga-retreats) for full detail on each centre and how to book.
+
 ## Top Things to Do in the Negev
 
 ### Mitzpe Ramon Crater (Makhtesh Ramon)
