@@ -11095,3 +11095,12 @@ Content: New '## Summer 2026 kibbutz programmes' section inserted before '## How
 Gate: pnpm check 0 errors; pnpm build 834 pages (no change — freshness update not new page); pnpm test:e2e 1122/1122 pass. GREEN.
 Ship: committed c49f613 to master; pushed origin/master. CI in_progress at push (standard pattern).
 Next: iter 729 → REVIEW (729%5==4).
+
+## 2026-07-23T19:47Z · iter 729 · REVIEW · review-729-nomad-neighborhoods-backlink
+What: REVIEW (729%5==4). Audited iters 726–728: ashkelon-guide (new page, iter726), digital-nomad-israel (new page, iter727), kibbutz-hotels-israel.md kibbutz-summer-2026 freshness (iter728).
+Checks: meta lengths (title ≤65, desc ≤160) — all CLEAN (ashkelon 58/155, digital-nomad 58/147, kibbutz 54/147); H1 in MDX bodies — none found; internal links — all resolve (ashkelon: /is-israel-safe, /israel-national-parks-pass, /israel-military-heritage, /day-trips-from-tel-aviv; digital-nomad: /visa-information, /israel-esim, /israel-power-plug, /tel-aviv-neighborhoods-guide, /transportation, /israel-cost-budget, /car-rental-israel, /is-israel-safe, /ben-gurion-airport-guide; kibbutz: /gan-hashlosha-guide, /golan-heights-guide); hero images — all exist; affiliates — getyourguide/discovercars/booking/airalo all configured; smoke/a11y specs — both new pages present; JSON-LD — no aggregateRating/ratingValue anywhere; price honesty — all costs as ranges; inbound links — ashkelon 2 (israel-national-parks-pass + day-trips-from-tel-aviv), digital-nomad 2 (first-time-in-israel + israel-esim), kibbutz existing; cross-links properly wired. pnpm check 0 errors confirmed.
+Defect found and fixed: tel-aviv-neighborhoods-guide.md "Planning your Tel Aviv visit" section had no reference to /digital-nomad-israel despite digital-nomad guide's entire neighbourhood section directly mirroring this guide. Added one sentence in Planning footer paragraph. 1122/1122 e2e pass GREEN.
+Concern logged to BACKLOG (human review): ashkelon-guide Afridar section describes "the Bayudaya" as West African Hebrew-faith immigrants — Bayudaya (Abayudaya) are a Ugandan/East African community, not West African; potential factual error needs editorial verification and source before autonomous fix.
+Gate: pnpm check 0 errors; pnpm build 834 pages (no change); pnpm test:e2e 1122/1122 pass. GREEN.
+Ship: committed 2c7db9c to master; pushed origin/master. CI in_progress at push (standard pattern; iter728 CI = success).
+Next: iter 730 → RESEARCH (730%5==0).
