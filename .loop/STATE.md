@@ -1,13 +1,15 @@
 # LOOP STATE
 
-- iteration: 711
+- iteration: 712
 - lastMode: BUILD
-- lastItem: israel-for-italian-travelers
-- lastResult: SHIPPED 0923c4c — /israel-for-italian-travelers new page. P2/S seo-content+monetization, upgraded iter710. ITA Airways twice-daily FCO→TLV hook (July 1 2026). Gate: pnpm check 0 errors (358 guides, 0 violations); pnpm build 826 pages (+1); pnpm test:e2e 1117/1117 pass. GREEN.
-- nextRotationCategory: 712%5==2 → BUILD/tools (or technical if tools empty)
+- lastItem: guided-vs-self-guided-israel
+- lastResult: SHIPPED 2b176fb — /guided-vs-self-guided-israel new page. P3/S tools+seo-content. Balanced guided vs self-guided decision guide (confirmed editorial gap — no competitor has neutral pre-decision page). Gate: pnpm check 0 errors; pnpm build 827 pages (+1); pnpm test:e2e 1117/1117 pass. GREEN. CI in_progress at push (standard pattern).
+- nextRotationCategory: 713%5==3 → BUILD/technical (or tools if technical empty)
 - higgsfieldSpent: 0
-- updatedAt: 2026-07-23T02:00Z
+- updatedAt: 2026-07-23T03:00Z
 - branch context: work on master; feature work on auto/<slug>
+
+Notes: iter711 BUILD (seo-content+monetization) — israel-for-italian-travelers SHIPPED 0923c4c. ITA Airways twice-daily FCO→TLV hook (July 1 2026). Gate: pnpm check 0 errors (358 guides, 0 violations); pnpm build 826 pages (+1); pnpm test:e2e 1117/1117 pass. GREEN.
 
 Notes: iter710 RESEARCH pass #144 — at ~95% saturation, 6 net-new from 20+ candidates screened. Key false positives eliminated: helicopter tours (BACKLOG iter190), Knesset Museum (BACKLOG iter370), rock climbing (SHIPPED iter690), Valley of Springs (BACKLOG iter705), Six Senses Shaharut (already in yoga-retreats BACKLOG), Canadian/Australian/Turkish travelers (all BACKLOG), bahai-pilgrimage-haifa (BACKLOG iter680), dark-tourism/october-7 (BACKLOG BLOCKED human-review). 825 pages; 1117/1117 e2e pass (from last BUILD gate — RESEARCH has no gate run).
 
@@ -16,8 +18,6 @@ Notes: iter709 REVIEW — audited iters 706-708 (wedding-in-israel, israel-for-p
 Notes: iter707 BUILD (seo-content) — israel-for-portuguese-travelers SHIPPED 974d593. Full gate: pnpm check 0 errors (first run caught desc 161 chars → fixed to 143; 358 guides, 0 violations); 825 pages (+1); 1117/1117 e2e+a11y pass. Unique angle: Portugal's 1496-97 Sephardic Jewish expulsion and Belmonte crypto-Jewish community survival — creates a personal history link between Portugal and Israel found in no other nationality guide. MB Way warning (unique to PT travellers). CESD/EHIC gap. TAP Air Portugal route advised via flytap.com. CI queued at push (standard pattern).
 
 Notes: iter706 BUILD (monetization+seo-content) — wedding-in-israel SHIPPED 874ea5a. Full gate: pnpm check 0 errors; 824 pages (+1); 1117/1117 e2e+a11y pass. Broken link discovered and fixed during gate: initial draft used /7-days-in-israel but correct path is /itineraries/7-days-in-israel (itinerary pages are namespaced). 3 affiliate CTAs (tourradar wedding guests / booking wedding hotels / abraham private tours). Cross-links added from israel-honeymoon.md (See also section) + israel-group-travel.md (Next steps paragraph).
-
-Notes: iter705 RESEARCH pass #143. At ~95% saturation, 3 net-new from 30+ candidates screened. Key false positives eliminated: golf (iter290 BACKLOG), japanese-travelers (iter455 BACKLOG P2/S), october-7-memorial (iter80 BACKLOG BLOCKED), kassland-resort (iter630 BACKLOG BLOCKED West Bank), haifa-cruise-terminal (SHIPPED iter621), rosh-hanikra (SHIPPED iter483), craft-workshops (BACKLOG), extended-stay/volunteer (BACKLOG), architecture-hub (BACKLOG). 823 pages; 1117/1117 e2e pass (from last BUILD gate — RESEARCH has no gate run).
 
 Cron b7325b16 hourly @ :17. Loop history: 19 tools + sitemap-lastmod + link-checker(+depth) + i18n
 Phase0/1a/1b/1c/2 Batches1-18(COMPLETE) + 48 review passes + 4 technical (event-schema + meta-trim + locale-links + freshness-688) + 78 EN guides + 7 tools-monetization + 2 comparisons;
