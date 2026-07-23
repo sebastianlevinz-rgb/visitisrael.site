@@ -1,11 +1,11 @@
 ---
 title: 'Rosh Hanikra Sea Caves: Complete Visitor Guide'
-description: 'Rosh Hanikra guide: chalk cliff sea grottos, cable car, Lebanon border viewpoint, Ottoman railway tunnel. Practical tips, opening hours, how to get there.'
+description: 'Rosh Hanikra guide: chalk cliff sea grottos, Lebanon border viewpoint, Ottoman railway tunnel, HaTzuk restaurant. Verify cable car status before visiting.'
 heroImage: /images/regions/akko/hero.jpg
 category: Nature
 updatedAt: 2026-07-12
 verdictName: 'a Rosh Hanikra sea caves visit'
-verdictQuery: 'Rosh Hanikra cable car tour Israel northern coast'
+verdictQuery: 'Rosh Hanikra sea grottos northern Israel coast'
 ctaHeading: 'Plan your visit to Rosh Hanikra'
 affiliateCtas:
   - partner: getyourguide
@@ -34,16 +34,16 @@ faqs:
   - question: Is Rosh Hanikra open on Shabbat?
     answer: "No. As a KKL-JNF site, Rosh Hanikra is closed on Shabbat (from Friday sunset to Saturday night). It is also closed on Yom Kippur. On all other Jewish public holidays the site is typically open but extremely busy — arrive as early as possible if you plan to visit on a national holiday such as Passover intermediate days, Sukkot, or Israeli Independence Day. Always check the current schedule at kkl-jnf.org before travelling, as opening hours vary between summer and winter seasons."
   - question: How long should I spend at Rosh Hanikra?
-    answer: "Allow 1.5 to 2 hours at the site. The cable car descent takes about 90 seconds each way; the cave walkway below is roughly 300 metres of boardwalk and takes 30–40 minutes to explore properly. Additional time is spent at the cable car queue (which can be significant on weekend mornings — arrive early) and at the viewpoint platform above the cliffs. If you include the border observation area and the informational displays about the railway history, 2 hours is comfortable. Rosh Hanikra is usually combined with Akko as an AM+PM northern coast day — Akko in the morning, Rosh Hanikra in the early afternoon."
+    answer: "Allow 1.5 to 2 hours at the site. If the cable car is operating, the descent takes about 90 seconds each way; the cave walkway below is roughly 300 metres of boardwalk and takes 30–40 minutes to explore properly. If access is via the Ottoman tunnel alternative, the walk-in is shorter but the main grotto chambers are still reachable. Additional time goes to the viewpoint platform above the cliffs, the border observation area, and the railway history displays. Rosh Hanikra is usually combined with Akko as an AM+PM northern coast day — Akko in the morning, Rosh Hanikra in the early afternoon."
   - question: Can you walk down to the caves without the cable car?
-    answer: "No. The caves are accessible only via the KKL-JNF cable car — the cliff face drops roughly 70 metres directly to the sea and there is no walkable path down. The cable car holds approximately 40 passengers per run and operates on a continuous loop; if queues build up (typically on weekends and public holidays), wait times can reach 30–45 minutes. Arriving before 10am on a weekday minimises the wait significantly. The cable car is not operational on Shabbat or during strong storms."
+    answer: "Normally the cable car is the standard access to the grotto level — the cliff face drops roughly 70 metres and there is no regular footpath down. However, when the cable car is out of service (as it was during and after the 2023–2025 war closure), KKL-JNF has used the historic Ottoman railway tunnel through the chalk headland as an alternative lower-grottos access route. If the cable car is operating, the cabin holds approximately 40 passengers per run; queues on weekends and public holidays can reach 30–45 minutes — arriving before 10am on a weekday minimises the wait. Check current access status at kkl-jnf.org or rosh-hanikra.com/en before travelling. The cable car does not run on Shabbat or during strong storms."
   - question: What is the best time of year to visit Rosh Hanikra?
     answer: "Autumn and winter (October–March) offer the most dramatic cave experience — Mediterranean swells are larger, creating louder and more spectacular surges of water through the chalk arches. The summer sea (June–August) is calmer, which means quieter grottos but more pleasant conditions for the cable car viewpoint and outdoor areas. Spring (April–May) combines still-active swells with warm weather and the wildflower blooms visible along the coastal road. Weekday mornings in any season are quieter than weekend afternoons. Bear in mind that the caves close during high-sea warnings, which can occur at short notice in winter — check conditions on the day if visiting during a storm period."
 ---
 
 **Rosh Hanikra** (Hebrew: **רֹאשׁ הַנִּיקְרָה**; Arabic: رأس الناقورة, Ra's an-Nāqūrah) marks the northernmost point of Israel's Mediterranean coast — a wall of brilliant white chalk cliffs where the Lebanon border runs just 100 metres north of the cable car station. Below the cliffs, the sea has carved a network of grottoes over millions of years: tunnels, arches, and chambers lit by surging turquoise water. Above them, the sealed eastern portal of the old Haifa–Beirut railway tunnel sits exactly at the border line, a concrete reminder of a time when the Levant's coasts were connected.
 
-This guide covers the complete Rosh Hanikra experience: the cable car descent, the cave walkways, the border viewpoint, the railway history, and how to plan a northern coast day combining Akko and Rosh Hanikra.
+This guide covers the complete Rosh Hanikra experience: the grottos and cave walkways (accessed by cable car when operating, or via the Ottoman tunnel during cable car closures), the border viewpoint, the railway history, HaTzuk restaurant, and how to plan a northern coast day combining Akko and Rosh Hanikra. **Always verify current cable car status at kkl-jnf.org before visiting** — the cable car was closed during and after the 2023–2025 war period and its restoration timeline has not been publicly confirmed.
 
 ---
 
@@ -57,15 +57,17 @@ The colour of the water inside the grottos — an intense blue-green that bleach
 
 ### The cable car descent
 
-The KKL-JNF cable car was restored and relaunched in 2026 after a period of refurbishment. It is the only access to the grotto level. The cabin descends approximately 70 metres down the cliff face in about 90 seconds, arriving at a platform directly at sea level inside the chalk cliff. Capacity is roughly 40 passengers per run; on weekends and public holidays queues can build. Arriving before 10am on a weekday all but eliminates the wait.
+> **Check current access before visiting.** The KKL-JNF cable car was closed during and after the 2023–2025 war period. The site reopened in May 2025 with access to the lower grottos via the historic Ottoman railway tunnel; cable car restoration was ongoing at the time of that reopening. Verify the current cable car status at [kkl-jnf.org](https://kkl-jnf.org) or [rosh-hanikra.com/en](https://rosh-hanikra.com/en) before travelling — KKL-JNF publishes operational notices in advance of closures.
 
-The cable car does not operate:
+When operating, the cable car descends approximately 70 metres down the cliff face in about 90 seconds, arriving at a platform directly at sea level inside the chalk cliff. Capacity is roughly 40 passengers per run; on weekends and public holidays queues can build. Arriving before 10am on a weekday all but eliminates the wait.
+
+When the cable car is out of service, KKL-JNF has used the historic Ottoman railway tunnel as an alternative lower-grottos access route — a shorter walk-in experience but still allowing visitors to see the main grotto chambers. Confirm at the ticket booth on arrival which access route is active.
+
+When operating, the cable car does not run:
 - On Shabbat (Friday sunset to Saturday night)
 - On Yom Kippur
 - During high-sea warnings or strong storms
 - During scheduled maintenance (check kkl-jnf.org for notices)
-
-Always confirm the cable car is running before making the drive, particularly in winter.
 
 ### The grotto walkways
 
@@ -135,17 +137,19 @@ If relying on public transport, book return taxi in advance or confirm availabil
 
 ### Practical checklist
 
-- **Camera / phone**: charged; sea spray is minimal inside the grottos but bring a case for the cable car
+- **Verify access before arriving**: cable car has been subject to extended closures; check kkl-jnf.org or rosh-hanikra.com/en for current operating status
+- **Camera / phone**: charged; sea spray is minimal inside the grottos
 - **Footwear**: grip soles; the boardwalk can be wet
 - **Layers**: the grotto interior is noticeably cooler than the cliff-top; a light jacket is useful in autumn–winter
-- **Water and snacks**: a café operates at the top station; the cave level has no facilities
-- **Cash or card**: the site accepts payment at the cable car station; ATMs are available in Nahariya
-- **Timing**: arrive early on weekends; the cable car queue is the main variable
+- **Dining**: HaTzuk, a chef restaurant, opened at the site following the 2025 reopening — a meal here makes the trip a longer half-day outing
+- **Water and snacks**: a café also operates at the top station; the cave level has no facilities
+- **Cash or card**: the site accepts payment at the ticket station; ATMs are available in Nahariya
+- **Timing**: arrive early on weekends to avoid queues if the cable car is operating
 - **Shabbat**: the site closes Friday afternoon and does not reopen until Saturday night — plan around this; see the [Shabbat guide](/shabbat-guide) for Friday closing times by season
 
 ### Admission and INPA pass note
 
-Rosh Hanikra is managed by KKL-JNF, not by the Israel Nature and Parks Authority. **The Israel National Parks Pass is not valid here.** Admission is charged separately at the cable car station. Current prices are published at [kkl-jnf.org](https://kkl-jnf.org) — always check before visiting as prices are updated periodically. As a rough orientation, adult cable car and cave entry has historically been in the ₪45–80 range; verify the current rate directly with KKL-JNF.
+Rosh Hanikra is managed by KKL-JNF, not by the Israel Nature and Parks Authority. **The Israel National Parks Pass is not valid here.** Admission is charged separately at the site's ticket desk. Current prices are published at [kkl-jnf.org](https://kkl-jnf.org) — always check before visiting as prices are updated periodically. As a rough orientation, adult admission has historically been in the ₪45–80 range (cable car included when operating); verify the current rate directly with KKL-JNF, as pricing may differ depending on which access route is active.
 
 For parks that DO accept the National Parks Pass, see the [Israel National Parks Pass guide](/israel-national-parks-pass).
 
