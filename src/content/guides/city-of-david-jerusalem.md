@@ -3,7 +3,7 @@ title: "City of David Jerusalem: Hezekiah's Tunnel Visitor Guide (2026)"
 description: "City of David Jerusalem: wade Hezekiah's Tunnel, see the Pool of Siloam, and plan your visit. Hours, tickets, tours, and the dual-name context."
 heroImage: /images/sub-destinations/jerusalem/city-of-david.jpg
 category: Archaeological Sites
-updatedAt: 2026-07-06
+updatedAt: 2026-07-23
 verdictName: "a guided City of David and Hezekiah's Tunnel tour"
 verdictQuery: "City of David Hezekiah Tunnel guided tour Jerusalem"
 ctaHeading: "Book a City of David guided tour"
@@ -66,7 +66,7 @@ Three features define the archaeological significance:
 
 **The Gihon Spring** is the reason Jerusalem exists where it does. A natural karst spring emerging from the bedrock on the eastern slope of the ridge, it was the sole reliable water source for the settlement for centuries. All of the water-management infrastructure in the park — the tunnels, cisterns, shafts — was built to control, protect, and channel this spring.
 
-**The Bronze Age and Iron Age urban remains** include defensive walls, an administrative building tentatively identified as the Step Stone Structure (part of a palace or major public building), a large stone proto-Aeolic column capital consistent with First Temple-period construction, and dense stratigraphic evidence of continuous occupation through the Assyrian, Babylonian, Persian, and Hellenistic periods.
+**The Bronze Age and Iron Age urban remains** include defensive walls, an administrative building tentatively identified as the Step Stone Structure (part of a palace or major public building), a large stone proto-Aeolic column capital consistent with First Temple-period construction, and dense stratigraphic evidence of continuous occupation through the Assyrian, Babylonian, Persian, and Hellenistic periods. In July 2026, IAA and Tel Aviv University researchers excavating the Givati Parking Lot — adjacent to the park entrance — identified charred wooden roof beams radiocarbon-dated to the 586 BCE Babylonian destruction, among the most direct physical evidence yet recovered of the event described in 2 Kings 25.
 
 **Hezekiah's Tunnel** is the engineering capstone: a 533-metre channel that two teams of workers chiselled simultaneously from both ends through solid rock, meeting in the middle — a remarkable feat documented by the Siloam Inscription, discovered in the tunnel in 1880 and now in Istanbul's Museum of the Ancient Orient. The tunnel diverted the Gihon Spring's water from its exposed eastern slope (vulnerable to a besieging army) to the Pool of Siloam inside the city walls, in anticipation of the Assyrian siege of Jerusalem recorded in 2 Kings 18–19.
 

@@ -3,7 +3,7 @@ title: "Dig for a Day in Israel: Archaeological Experience Guide"
 description: "Participate in a real Israeli archaeological dig — one-day programs at Tel Megiddo, Beit Guvrin & more, plus multi-week volunteer excavations. Planning guide."
 heroImage: /images/regions/galilee/hero.jpg
 category: History
-updatedAt: 2026-07-16
+updatedAt: 2026-07-23
 ctaHeading: "Book archaeology tours and experiences in Israel"
 affiliateCtas:
   - partner: getyourguide
@@ -41,7 +41,7 @@ faqs:
     answer: "For Jerusalem: Beit Guvrin-Maresha National Park (55km southwest, 50–60 minutes by car) offers the most accessible dig program — UNESCO World Heritage chalk caves plus archaeologist-supervised dig sessions when available. The City of David in Jerusalem itself offers archaeology-focused guided visits through the excavation area, though this is a guided tour rather than active participation. For Tel Aviv: Tel Megiddo is 90–100km north (about 90 minutes by car); Emek Hefer (Sharon Plain, 40km north) occasionally hosts IAA volunteer-linked sessions. Most dig programmes require a car; public transport access to active excavation sites is limited."
 ---
 
-Israel sits on some of the most densely layered archaeological terrain on earth. A journey of 30 kilometres from Jerusalem crosses Bronze Age hillforts, Iron Age cities, Hellenistic farms, Roman roads, Byzantine monasteries and Ottoman aqueducts — often on the same site. The result is that Israel hosts more active archaeological excavations per square kilometre than almost anywhere else in the world, and a growing number of those sites offer **structured opportunities for ordinary travellers to pick up a trowel and join in**.
+Israel sits on some of the most densely layered archaeological terrain on earth. A journey of 30 kilometres from Jerusalem crosses Bronze Age hillforts, Iron Age cities, Hellenistic farms, Roman roads, Byzantine monasteries and Ottoman aqueducts — often on the same site. The result is that Israel hosts more active archaeological excavations per square kilometre than almost anywhere else in the world, and a growing number of those sites offer **structured opportunities for ordinary travellers to pick up a trowel and join in**. New discoveries arrive constantly: in July 2026, IAA excavators working along the coastal railway route near Binyamina unearthed two Greco-Roman marble statues — one bearing a Greek inscription identifying it as "Lycurgus" — inside a Roman-Byzantine winepress, a reminder that even infrastructure projects here routinely surface the unexpected.
 
 This guide covers everything from one-day tourist dig programmes to multi-week volunteer excavations: how to book, what to expect on a dig day, and how to build an Israel itinerary around one of the most distinctive travel experiences the country offers.
 
