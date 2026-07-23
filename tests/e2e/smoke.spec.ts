@@ -643,6 +643,7 @@ const ROUTES = [
   '/lag-baomer-israel',
   '/tel-megiddo-guide',
   '/gan-hashlosha-guide',
+  '/ashkelon-guide',
 ];
 
 for (const route of ROUTES) {

@@ -96,7 +96,7 @@ The INPA manages over 63 nature reserves and archaeological parks across the cou
 - [Nahal Alexander / Hof Bet Yanai](/nahal-alexander-guide) (Nile soft-shelled turtle reserve 40 km north of Tel Aviv; riverside trail free; beach entry covered by pass)
 - [Tel Afek National Park](/tel-afek-guide) (Antipatris — Canaanite, Roman & Ottoman ruins; Yarkon springs; 40 km from Tel Aviv)
 - Apollonia National Park (Crusader fortress north of Tel Aviv)
-- Ashkelon National Park
+- [Ashkelon National Park](/ashkelon-guide) (world's oldest intact Canaanite arch, Philistine-period dog cemetery, Roman forum; southern coastal plain)
 
 ### Explicitly excluded — buy a separate ticket
 

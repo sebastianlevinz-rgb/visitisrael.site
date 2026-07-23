@@ -373,6 +373,7 @@ const ROUTES = [
   '/israel-for-swiss-travelers',
   '/israel-culinary-heritage-tourism',
   '/haifa-shore-excursions',
+  '/ashkelon-guide',
 ];
 
 for (const route of ROUTES) {
