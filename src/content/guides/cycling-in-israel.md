@@ -118,6 +118,8 @@ The Golan's plateau roads are quiet and scenic. The section between the Katzrin 
 
 The Ramon Crater (Makhtesh Ramon) and surrounding trails offer technical mountain biking terrain, with volcanic rock formations, dry riverbeds and open desert. A small number of hire shops in Mitzpe Ramon stock hardtail MTBs. Strictly autumn–spring: summer heat in the Negev (38–44°C) makes trail cycling dangerous, and several trails close. See the [Negev region guide](/negev) for base logistics, trail access and overnight stay options in the crater area.
 
+The southern Arava Valley, between Eilat and Kibbutz Yahel, has a newer and more extensive trail network: the **Yahel–Timna singletrack**, opened in 2026. This 100+ km continuous desert route threads through volcanic basalt ridges and limestone wadis before descending to Timna Park — the most technically demanding and scenically remote mountain biking in Israel. See the [Arava mountain biking guide](/arava-mountain-biking) for trail details, logistics and bike hire in Eilat.
+
 ### Israel National Bike Trail
 
 The 1,200km Israel Bike Trail is a multi-week undertaking for experienced touring or mountain cyclists. Day sections of the IBT near Mitzpe Ramon and in the Upper Galilee are popular for one-day rides with a hired bike. The official site (israelbiketrail.com) publishes GPX files, stage-by-stage elevation profiles and recommended accommodation points.

@@ -108,6 +108,8 @@ Red Canyon works naturally as part of a longer day in the Eilat Mountains and Ar
 
 **Desert hiking + [Eilat diving](/eilat-diving-snorkeling):** Red Canyon takes a morning. The drive back to Eilat and an afternoon snorkelling at Coral Beach or a glass-bottom boat tour is a natural pairing — desert in the morning, sea in the afternoon.
 
+**Red Canyon + Arava mountain biking:** For fit mountain bikers, the Red Canyon hike (2 hours) can precede a drive north to Kibbutz Yahel (55 km on Highway 90) to ride the southern section of the new [Yahel–Timna singletrack](/arava-mountain-biking). The singletrack covers different terrain — volcanic basalt and limestone wadi rather than sandstone slot canyon — making the two a complementary day for riders who want both hiking and technical MTB in the Eilat region.
+
 ---
 
 ## Flash flood safety: the full protocol
