@@ -10979,3 +10979,16 @@ Fix: christian-pilgrimage-holy-land.md Costs section — added "Not sure which a
 Gate: pnpm check 0 errors; pnpm build 827 pages (unchanged); pnpm test:e2e 1117/1117 pass. GREEN.
 Ship: committed b701045 to master; pushed origin/master. CI run 29980620308 in_progress at push (standard pattern; prior iter CI for 0c9dfe4 = success).
 Next: iter 715 → RESEARCH (715%5==0).
+
+## 2026-07-23T06:00Z · iter 715 · RESEARCH · pass #145 · Air Haifa + Spanish travelers + Festival dates + Sea Turtle visitor center
+What: RESEARCH (715%5==0). Web-researched competitors and recent news for content gaps at ~95% saturation.
+Findings: 5 net-new items confirmed (3 standalone BACKLOG + 1 date-correction note + 1 freshness note).
+  1. [P2/S transport+seo-content] /air-haifa-haifa-airport-guide — Air Haifa (launched Sept 2024, HFA hub) flying Haifa↔Eilat domestic + Cyprus + Greek islands; October 2026: up to 10 daily TLV→ETM route announced. Zero competitor coverage.
+  2. [P3/S seo-content] /israel-for-spanish-travelers — confirmed gap; Arkia launched TLV→Málaga (AGP) weekly from July 2026 (~$279 OW); ETA-IL confusion common for Spanish travelers (visa-exempt but ETA required); Sephardic heritage angle.
+  3. [P3/S technical] eilat-ramon-airport-guide freshness — Wizz Air Israel hub (March 2026) domestic TLV-ETM + Air Haifa October 2026 TLV-ETM both absent from guide (updatedAt 2026-07-14).
+  4. [DATE-CORRECTION] Israel Festival Jerusalem BACKLOG iter235 — corrected dates from "July 16–August 1" to "July 28–August 20, 2026" (65th anniversary, 24 days; opened July 28 aerial performance over Hinnom Valley).
+  5. [FRESHNESS NOTE] Michmoret Sea Turtle Rescue Center for michmoret-beach-guide BACKLOG iter570 — new INPA visitor center opened July 2026 (Haaretz July 10, 2026; 10,000th visitor milestone; Mediterranean loggerhead turtles; advance booking via parks.org.il).
+False leads eliminated (15+): Swedish/Dutch/Turkish/Australian/Canadian/Japanese travelers (all BACKLOG), Ben Gurion Terminal 1 (SHIPPED iter688), Nahal Alexander (SHIPPED iter537), Galilee Culinary Institute (BACKLOG iter540), Arkia Tokyo upgrade (BACKLOG iter615 already), digital nomad (BACKLOG iter30).
+Memory: BACKLOG.md appended (5 items + iter715 saturation line); COMPETITORS.md appended (iter715 section + false-lead list); STATE.md bumped to iter715.
+Gate: none required (RESEARCH mode).
+Next: iter 716 → BUILD/monetization (716%5==1).

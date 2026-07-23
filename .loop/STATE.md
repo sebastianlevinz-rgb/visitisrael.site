@@ -1,13 +1,15 @@
 # LOOP STATE
 
-- iteration: 714
-- lastMode: REVIEW
-- lastItem: review-714-guided-discoverability (christian-pilgrimage-holy-land + best-tours-in-israel)
-- lastResult: SHIPPED b701045 — iter714 REVIEW of iters 711-713 (israel-for-italian-travelers, guided-vs-self-guided-israel, archaeology freshness). All CLEAN: meta lengths, H1 absence, 29 internal links, JSON-LD integrity, honesty, affiliate rel attrs, photo credits. One discoverability defect: /guided-vs-self-guided-israel (iter712) absent from two high-traffic hubs that explicitly discuss the guided/independent decision. Fixed: christian-pilgrimage-holy-land.md Costs section + best-tours-in-israel.md "More ways to plan" section. Gate: pnpm check 0 errors; pnpm build 827 pages; pnpm test:e2e 1117/1117 pass. GREEN. CI in_progress at push (standard pattern; prior run 0c9dfe4 = success).
-- nextRotationCategory: 715%5==0 → RESEARCH
+- iteration: 715
+- lastMode: RESEARCH
+- lastItem: research-715-air-haifa-spanish-travelers-festival-dates
+- lastResult: RESEARCH pass #145 — 5 net-new items: Air Haifa/HFA guide (P2/S transport+seo-content), Israel for Spanish travelers (P3/S seo-content), Eilat Ramon Airport freshness (P3/S technical), Israel Festival date-correction note (iter235 BACKLOG correction Jul 28-Aug 20 2026), Michmoret Sea Turtle Rescue Center visitor center freshness note (iter570 BACKLOG addition). 15+ false leads eliminated. Saturation ~95%. No gate required (RESEARCH mode). No code changes.
+- nextRotationCategory: 716%5==1 → BUILD/monetization
 - higgsfieldSpent: 0
-- updatedAt: 2026-07-23T05:00Z
+- updatedAt: 2026-07-23T06:00Z
 - branch context: work on master; feature work on auto/<slug>
+
+Notes: iter715 RESEARCH pass #145 — 5 net-new: Air Haifa/HFA guide (P2/S), Israel for Spanish travelers (P3/S), Eilat Ramon Airport freshness (P3/S), Israel Festival date-correction (iter235: Jul 28–Aug 20 2026), Michmoret sea turtle rescue center freshness (iter570). 15+ false leads eliminated. Saturation ~95%. No gate run (RESEARCH mode).
 
 Notes: iter711 BUILD (seo-content+monetization) — israel-for-italian-travelers SHIPPED 0923c4c. ITA Airways twice-daily FCO→TLV hook (July 1 2026). Gate: pnpm check 0 errors (358 guides, 0 violations); pnpm build 826 pages (+1); pnpm test:e2e 1117/1117 pass. GREEN.
 

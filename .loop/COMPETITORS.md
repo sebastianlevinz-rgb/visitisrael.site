@@ -6062,3 +6062,52 @@ All 8 research agent candidates were already present in BACKLOG or DONE:
 - TripAdvisor, Secret Tel Aviv, Tourist Israel all mention it; no competitor has a full visitor guide (dedicated long-form editorial)
 - Our site: tel-aviv-museums.md mentions it in a FAQ answer only; no standalone guide
 - Action: added Design Museum Holon standalone guide to BACKLOG P3/S seo-content
+
+### 2026-07-23 · iter 715 · RESEARCH pass #145 · Air Haifa + Spanish travelers + Festival dates + Sea Turtle visitor center
+
+**Air Haifa — new Israeli domestic + regional carrier (September 2024 launch)**:
+- Hub: Haifa International Airport (HFA / Uri Michaeli Airport); IATA: HFA
+- Routes 2025/2026: Haifa↔Eilat (domestic), Haifa↔Larnaca+Paphos (Cyprus), Haifa↔Rhodes+Crete+Karpathos+Mykonos (Greece seasonal)
+- October 2026 plan: up to 10 daily TLV → Ramon Airport (ETM) domestic route — direct competition on the Ben Gurion–Eilat domestic corridor
+- Zero competitor coverage: "Air Haifa" returns no editorial content on Tourist Israel, Lonely Planet Israel, or Rough Guides
+- Sources: jpost.com/travel/article-901439, israelnationalnews.com/news/429480, alternativeairlines.com/air-haifa
+- Action: confirmed genuine gap; added to BACKLOG P2/S transport+seo-content (/air-haifa-haifa-airport-guide)
+
+**Arkia Málaga route July 2026 — Spanish travel market hook**:
+- Arkia launched TLV → Málaga (AGP) weekly nonstop in July 2026, from approximately $279 one-way
+- No competitor Israel travel guide has built a Spain-focused page around this new direct route
+- Tourist Israel has generic European content but zero dedicated Spain guide
+- ETA-IL creates persistent confusion for Spanish travelers: Spain is visa-exempt but ETA-IL still mandatory since January 2025
+- Action: confirmed /israel-for-spanish-travelers as genuine content gap; added to BACKLOG P3/S
+
+**Wizz Air Israel hub expansion + domestic TLV-ETM route (March 2026)**:
+- Wizz Air established Israel hub at Ben Gurion in March 2026; planned domestic TLV↔Eilat (ETM) service
+- eilat-ramon-airport-guide.md (updatedAt 2026-07-14) predates both Wizz Air domestic and Air Haifa ETM announcements
+- No competitor Israel travel site has updated their Ramon Airport guide to reflect these new domestic air options
+- Action: added Eilat Ramon Airport freshness update to BACKLOG P3/S technical
+
+**Israel Festival Jerusalem 65th anniversary — competitor date accuracy gap**:
+- 2026 festival: July 28–August 20 (65th anniversary, 24 days; opened July 28 with aerial performance over Hinnom Valley / Ben Hinnom)
+- Competitor sites (Tourist Israel, GoIsrael) show outdated or wrong dates (July 16–August 1 on some listings)
+- Our own BACKLOG iter235 carried the wrong July 16–August 1 date — corrected this pass to July 28–August 20
+- Action: date-correction note added to BACKLOG iter235 item
+
+**Mikhmoret INPA Sea Turtle Rescue Center — new visitor center July 2026**:
+- New visitor center opened at Mikhmoret INPA sea turtle rescue center; reported Haaretz July 10, 2026; 10,000th visitor milestone
+- Treats Mediterranean loggerhead sea turtles (Caretta caretta) — DISTINCT from Nahal Alexander soft-shell river turtles (SHIPPED iter537)
+- No competitor Israel travel guide has reported on the new visitor center; parks.org.il has booking info
+- Action: freshness note added to Michmoret beach guide BACKLOG item (iter570) for when guide is built
+
+### Confirmed NOT Gaps / Already Covered (iter715 false-lead elimination)
+
+- Israel for Swedish travelers → BACKLOG iter365
+- Israel for Dutch travelers → BACKLOG iter370
+- Israel for Turkish travelers → BACKLOG iter680
+- Israel for Australian travelers → BACKLOG iter640
+- Israel for Canadian travelers → BACKLOG iter630
+- Israel for Japanese travelers → BACKLOG iter455/iter615 (P2/S upgrade already logged)
+- Ben Gurion Terminal 1 international flights → SHIPPED iter688
+- Nahal Alexander river turtles → SHIPPED iter537
+- Galilee Culinary Institute → BACKLOG iter540
+- Arkia Tokyo October 2026 → BACKLOG iter615 upgrade already logged
+- Digital nomad Israel → BACKLOG iter30
