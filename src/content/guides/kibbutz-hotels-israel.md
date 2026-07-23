@@ -3,7 +3,7 @@ title: 'Kibbutz Hotel Stays in Israel: Best Picks by Region 2026'
 description: 'Stay overnight at a working kibbutz: Sea of Galilee lakeshore, Dead Sea resort, Negev eco-lodge and Golan picks with price ranges and booking tips.'
 heroImage: /images/regions/galilee/sea-of-galilee.jpg
 category: Accommodation
-updatedAt: 2026-07-03
+updatedAt: 2026-07-23
 ctaHeading: 'Search kibbutz hotels for your dates'
 affiliateCtas:
   - partner: booking
@@ -128,6 +128,32 @@ Lotan runs short ecology workshops (clay building, organic farming, bird-ringing
 The property runs a hotel rather than a guesthouse, with conference facilities, a swimming pool, and a spa. Archaeological excavations have uncovered a royal Judean palace on the kibbutz grounds; the finds are displayed on site.
 
 **Price range:** ₪850–1,400/room/night depending on season (Jerusalem high season: Passover, Sukkot, Christmas).
+
+---
+
+## Summer 2026 kibbutz programmes
+
+Two kibbutzim have launched structured summer 2026 evening and night experiences worth seeking out before the season ends:
+
+### Nir David (Valley of Springs — Beit She'an area)
+
+**Kibbutz Nir David**, in the warm, lush **Valley of Springs** (Emek HaMa'ayanot) near Beit She'an, is running a series of summer evening programmes through August 2026:
+
+- **Lantern-guided kibbutz history walks** — a guided after-dark circuit of the kibbutz's founding-era architecture and communal spaces, led by lantern light, with a guide from the kibbutz's veteran generation
+- **Night swimming in the warm springs** — Nir David sits beside the warm-water springs that give the valley its name; evening swims in the natural pools are part of the summer programme
+- **Taboon pita evenings** — communal bread-baking in a traditional clay taboon oven with kibbutz members, followed by a shared seasonal meal
+
+Nir David is 30 minutes from Beit She'an and close to [Gan HaShlosha National Park](/gan-hashlosha-guide) (the warm-water springs park that draws millions of visitors). The summer programmes must be booked directly with the kibbutz; check availability through the Nir David guesthouse. Pairing a programme evening with a morning at Gan HaShlosha makes a natural two-part day.
+
+### Ortal (Golan Heights)
+
+**Kibbutz Ortal** on the Golan plateau runs its own summer 2026 programme with a different character:
+
+- **Lantern-guided kibbutz evening tours** — history and community storytelling by lantern light
+- **Telescope stargazing on the Golan** — the Golan plateau's minimal light pollution makes summer nights exceptional for astronomy; Ortal's programme uses guided telescope sessions, with Mount Shifon in the wider Golan area providing dark-sky conditions. The same plateau that gives the [Golan Heights](/golan-heights-guide) its daytime panoramas turns spectacular overhead after dark
+- **Taboon pita evenings** — shared communal bread-baking, in the same tradition as Nir David's programme
+
+Both programmes run through August 2026 and are best booked directly with each kibbutz's accommodation office well in advance, as summer evening slots fill quickly.
 
 ---
 
