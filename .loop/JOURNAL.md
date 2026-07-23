@@ -11053,3 +11053,15 @@ Violations caught and fixed during gate: (1) title 72 chars > 65 max → shorten
 Gate: pnpm check 0 errors (363 guides); pnpm build 832 pages (+1 /israel-power-plug); pnpm test:e2e 1118/1118 pass (7.3 min). GREEN.
 Ship: committed cb68c2a to master; pushed origin/master. CI in_progress at push (standard pattern; prior iter runs all confirmed success).
 Next: iter 724 → REVIEW (724%5==4).
+
+## 2026-07-23T14:47Z · iter 724 · REVIEW · independence-hall-propagation
+What: REVIEW (724%5==4). Audited iters 721–723: tel-aviv-museums.md Independence Hall closure freshness fix (iter721), binyamina-guide (new page, iter722), israel-power-plug (new page, iter723).
+Checks: meta lengths (title ≤65, desc ≤160) — all CLEAN (44/122, 49/152, 62/153); H1 in MDX bodies — none found; hero images — all exist (tel-aviv/hero.jpg, haifa/carmel.jpg, jerusalem/hero.jpg, negev/hero.jpg, caesarea/hero.jpg); internal links — all 17 links across binyamina-guide and israel-power-plug resolve; inbound discoverability — binyamina-guide 3 inbound links (caesarea-guide, zichron-yaakov-guide, day-trips-from-haifa), israel-power-plug 2 inbound links (first-time-in-israel, israel-esim), tel-aviv-museums pre-existing page; AffiliateCard rating/reviews fields — confirmed unused in rendered UI (component says "Live prices & reviews on partner site"); JSON-LD — no fabricated aggregateRating anywhere; honesty — all costs as ranges (₪20-40, ₪50-90, ₪15-25 taxi), winery visit caveats, no exact prices.
+Defect found: Independence Hall closure propagation gap. Iter721 fixed tel-aviv-museums.md (8 stale references) but 3 other guides still described the building as open:
+  1. 3-days-in-tel-aviv.md line 73: "free entry, 30-minute guided presentation, call ahead for English times" — building has been closed since 2024.
+  2. tel-aviv-things-to-do.md line 132: "guided visits are brief (45-60 min) and powerful in context" — misleading for visitors who arrive at a closed building.
+  3. zionist-heritage-trail.md lines 68–70: full paragraph describing free entry + guided presentations with no closure notice.
+Fix: all three corrected — closure noted with "since 2024" datestamp; Democracy Pavilion named as accessible open alternative; advised checking Tel Aviv municipality listing for reopening.
+Gate: pnpm check 0 errors; pnpm build 832 pages (no page-count change); pnpm test:e2e 1118/1118 pass. GREEN.
+Ship: squash-merged to master 232c10e, pushed. CI in_progress at push (standard pattern; prior iter CI 8992053 = success).
+Next: iter 725 → RESEARCH (725%5==0).

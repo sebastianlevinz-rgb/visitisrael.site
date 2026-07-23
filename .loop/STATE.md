@@ -1,13 +1,15 @@
 # LOOP STATE
 
-- iteration: 723
-- lastMode: BUILD (technical+seo)
-- lastItem: israel-power-plug
-- lastResult: SHIPPED cb68c2a. New /israel-power-plug — Israel Type H plug adapter guide. Standalone English-language guide filling confirmed zero-gap: Type H unique 3-round-pin V-shape socket used ONLY in Israel + Palestinian Territories. Per-country sections: US/Canada (Type A/B→H, 230V converter risk for 120V-only devices), UK/Ireland (Type G→H), Continental Europe (Type C physically fits H sockets), Australia/NZ (Type I→H). USB-C shortcut, where-to-buy table (Ben Gurion duty-free / Israeli supermarkets ₪20-40 / KSP/Ivory), packing checklist, hotel USB port note. 7 FAQs. 2 affiliate CTAs (airalo eSIM + booking hotels). Cross-links IN from: first-time-in-israel (Type H mention + link added), israel-esim (Type H plug link in Before you go section). Cross-links FROM guide: /israel-esim, /ben-gurion-airport-guide, /first-time-in-israel, /israel-cost-budget. Gate: pnpm check 0 errors; pnpm build 832 pages (+1); pnpm test:e2e 1118/1118 pass. CI in_progress at push (standard pattern; prior runs all success).
-- nextRotationCategory: 724%5==4 → REVIEW
+- iteration: 724
+- lastMode: REVIEW
+- lastItem: independence-hall-propagation
+- lastResult: SHIPPED 232c10e. REVIEW iter724 audited iters 721-723 (tel-aviv-museums freshness, binyamina-guide, israel-power-plug). Meta/desc/H1/JSON-LD/honesty/hero-images all CLEAN. Defect found: iter721 Independence Hall closure fix only patched tel-aviv-museums.md but 3 other guides still described the building as open with "free entry, 30-minute guided presentation" and "guided visits are brief (45-60 min)". Fixed: 3-days-in-tel-aviv.md (bullet corrected + Democracy Pavilion added), tel-aviv-things-to-do.md (stale guided-visit sentence corrected), zionist-heritage-trail.md (closure note added to site-2 section). Gate: pnpm check 0 errors; pnpm build 832 pages; pnpm test:e2e 1118/1118 pass. CI in_progress at push (standard pattern; prior runs all success).
+- nextRotationCategory: 725%5==0 → RESEARCH
 - higgsfieldSpent: 0
-- updatedAt: 2026-07-23T13:48Z
+- updatedAt: 2026-07-23T14:47Z
 - branch context: work on master; feature work on auto/<slug>
+
+Notes: iter724 REVIEW — independence-hall-propagation SHIPPED 232c10e. Audited iters 721-723 (tel-aviv-museums freshness, binyamina-guide, israel-power-plug). All meta/desc/H1/internal-links/JSON-LD/honesty checks CLEAN. Defect found and fixed: iter721's Independence Hall closure fix only patched tel-aviv-museums.md but 3 other guides still described Independence Hall as open with free entry and guided visits: 3-days-in-tel-aviv.md (bullet said "free entry, 30-minute guided presentation"), tel-aviv-things-to-do.md ("guided visits are brief (45-60 min)"), zionist-heritage-trail.md (whole section, no closure note). All three corrected: closure noted prominently, Democracy Pavilion flagged as open alternative, municipality listing link for reopening status. 832 pages (no change); 1118/1118 e2e pass GREEN. CI in_progress at push (standard pattern). Env note: cloud clone started at iter576; reset to origin/master iter723 (8992053) via git reset --hard origin/master.
 
 Notes: iter723 BUILD (technical+seo) — israel-power-plug SHIPPED cb68c2a. New /israel-power-plug fills confirmed zero-gap: no standalone English-language Israel plug guide existed (BACKLOG iter180 research, P3/technical+seo/S). Type H socket unique to Israel + Palestinian Territories — 3 round pins in V-shape, found nowhere else. Per-country sections (US, UK, EU, AU/NZ), USB-C shortcut, where-to-buy table, packing checklist. 7 FAQs, 2 CTAs (airalo + booking). Cross-links into guide from first-time-in-israel.md and israel-esim.md. Gate: 0 errors; 832 pages (+1); 1118/1118 e2e pass GREEN. Env note: local master was stale (iter576); resolved via git reset --hard origin/master; feature branch auto/israel-power-plug-guide created but no commits landed there (file edits stayed in working-tree across checkout); merged directly on master with git add + git commit. Title length violation caught on first pnpm check (72 chars > 65 max); shortened title to 65 chars on second pass. Playwright browser download blocked; resolved by PLAYWRIGHT_BROWSERS_PATH=/opt/pw-browsers env var (pre-installed Chromium in cloud env — standard cloud-env pattern).
 
