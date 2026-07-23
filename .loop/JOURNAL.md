@@ -11128,3 +11128,15 @@ Startup: local master stale (HEAD detached from refs/heads/master); reset to ori
 Gate: pnpm check 0 errors (368 guides, 0 violations); pnpm build 836 pages (+1 /israel-yoga-retreats); pnpm test:e2e 1124/1124 pass (+2 new tests: smoke + a11y for /israel-yoga-retreats). GREEN.
 Ship: committed e189067 to master; pushed origin/master. CI pending at push (standard pattern; prior consecutive CI runs all confirmed success).
 Next: iter 733 → BUILD/technical (733%5==3).
+
+## 2026-07-23T23:50Z · iter 733 · BUILD/technical · rosh-hanikra-oos-update
+
+**Item**: [P3] (technical/content-update, S) Rosh HaNikra cable car OOS accuracy check (BACKLOG line 1479, iter625 research)
+
+**What**: Fixed honesty violation in /rosh-hanikra-guide.md. A prior iteration had introduced the claim "The KKL-JNF cable car was restored and relaunched in 2026 after a period of refurbishment." Research pass iter625 (2026-07-19) had cited ynetnews.com/travel, jfeed.com/rosh-hanikra-grottoes-reopen, and rosh-hanikra.com/en confirming the cable car remained OOS at the May 2025 site reopening, with access via the historic Ottoman railway tunnel only. The BACKLOG entry was created specifically to flag this discrepancy — the guide said one thing, the research found another. Implemented the BACKLOG fix: (1) removed fabricated "relaunched in 2026" claim; (2) added OOS status blockquote with verify-status links; (3) described Ottoman tunnel as the active grotto access alternative during cable car closure; (4) updated 2 FAQs (grotto access, visit duration) to handle both cable car and tunnel scenarios; (5) added HaTzuk chef restaurant to practical checklist; (6) updated frontmatter description and verdictQuery to de-emphasize cable car as guaranteed feature.
+
+**Gate**: pnpm check 0 errors; 836 pages (page edit, no count change); 1124/1124 e2e+a11y pass. GREEN.
+
+**Merge**: Squash to master 11be68d; pushed origin/master; branch auto/rosh-hanikra-oos-update deleted.
+
+**CI**: in_progress at push (run 30054115546 CI + 30054115558 Lighthouse — both for 11be68d). Standard pattern; prior consecutive runs all confirmed success.
