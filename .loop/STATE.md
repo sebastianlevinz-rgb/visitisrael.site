@@ -1,13 +1,15 @@
 # LOOP STATE
 
-- iteration: 720
-- lastMode: RESEARCH
-- lastItem: research-720-competitor-content-gaps-pass-146
-- lastResult: RESEARCH pass #146. 32+ false leads eliminated (12 from background research agent + 20 pre-compaction). Net-new: 2 items — (1) tel-aviv-museums.md Independence Hall closure freshness defect (P2/S); (2) cheap-flights-to-israel.md Antwerp ANR route note (P3/S). Saturation ~95% confirmed. No gate run (RESEARCH mode).
-- nextRotationCategory: 721%5==1 → BUILD/monetization
+- iteration: 721
+- lastMode: BUILD (technical/freshness)
+- lastItem: fix-721-tel-aviv-museums-independence-hall-freshness
+- lastResult: SHIPPED c4163d8. Independence Hall closure defect fixed in tel-aviv-museums.md (closed for renovation since 2024; 8 stale references corrected; Democracy Pavilion added as alternative; no reopening date stated; broken internal link avoided). Gate: pnpm check 0 errors; pnpm build 830 pages (no change); pnpm test:e2e 1118/1118 pass. CI pending at state-update time (normal pattern; prior 3 runs all success).
+- nextRotationCategory: 722%5==2 → BUILD/seo-content
 - higgsfieldSpent: 0
-- updatedAt: 2026-07-23T10:15Z
+- updatedAt: 2026-07-23T12:05Z
 - branch context: work on master; feature work on auto/<slug>
+
+Notes: iter721 BUILD (technical/freshness) — tel-aviv-museums.md Independence Hall closure SHIPPED c4163d8. 8 stale references corrected (section heading, body, 3 FAQs, planning circuits, practical info, booking CTA desc). Democracy Pavilion named as open alternative; no internal link (page not yet shipped, avoids broken-link gate fail). Gate: pnpm check 0 errors; 830 pages; 1118/1118 e2e pass. CI pending at push (standard pattern).
 
 Notes: iter718 BUILD (seo-content/technical) — israel-for-spanish-travelers SHIPPED 613b078 + eilat-ramon-airport-guide Wizz Air Israel domestic hub freshness. Spain guide: ETA-IL, Arkia TLV↔AGP direct July 2026, Sephardic heritage (1492 Alhambra), TSE gap, Type F→H adapter, Bizum warning. 7 FAQs, 3 CTAs. Hub first-time-in-israel.md updated. 830 pages (+1); 1118/1118 e2e pass.
 

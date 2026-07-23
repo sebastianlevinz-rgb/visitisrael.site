@@ -1197,3 +1197,6 @@ Value: two archaeological guides refreshed with July 2026 discoveries; freshness
 
 ## iter 719 · REVIEW · cheap-flights Arkia AGP fix · 104f307
 Audit of iters 716-718. Found cheap-flights-to-israel.md missing Arkia TLV–Málaga (AGP) direct route from European carriers table. Added row linking to /israel-for-spanish-travelers — giving the Spanish guide its second inbound content link and fixing a freshness gap in the flights hub.
+
+## iter721 · fix(freshness) · tel-aviv-museums Independence Hall closure · c4163d8
+Corrected 8 stale references in /tel-aviv-museums describing Independence Hall as open when it has been closed for renovation since 2024. Section heading now flags closure with July 2026 datestamp; body redirects to Democracy Pavilion (free alternative on Rothschild Blvd); FAQ "Where is Independence Hall" fully updated; planning circuits updated to Ben-Gurion House → Democracy Pavilion → White City walk; practical info updated. No fabricated reopening date. Protects active organic traffic from trust-eroding defect.
