@@ -83,7 +83,7 @@ Prices for a tasting-only visit run approximately **₪50–80 per person**; cel
 - **Carmel Sha'al** — the premium Bordeaux-variety blends from Carmel's best vineyard plots.
 - **Carmel Limited Edition** — the top tier, small production, typically available only at the visitor centre and specialist shops.
 
-The [Israel wine guide](/israel-wine-wineries) covers Carmel's place within Israel's broader wine regions — Golan Heights, Galilee and Judean Hills. For a full wine-country day, the Carmel area pairs well with a visit to Tishbi Winery, a boutique family estate 8 km south of Zichron Yaakov near Binyamina.
+The [Israel wine guide](/israel-wine-wineries) covers Carmel's place within Israel's broader wine regions — Golan Heights, Galilee and Judean Hills. For a full wine-country day, the Carmel area pairs well with a visit to [Tishbi Estate and Binyamina Winery](/binyamina-guide) — two wineries 8 km south of Zichron Yaakov in Binyamina town, both accessible by train from Tel Aviv.
 
 ---
 
