@@ -1,12 +1,12 @@
 # LOOP STATE
 
-- iteration: 712
-- lastMode: BUILD
-- lastItem: guided-vs-self-guided-israel
-- lastResult: SHIPPED 2b176fb — /guided-vs-self-guided-israel new page. P3/S tools+seo-content. Balanced guided vs self-guided decision guide (confirmed editorial gap — no competitor has neutral pre-decision page). Gate: pnpm check 0 errors; pnpm build 827 pages (+1); pnpm test:e2e 1117/1117 pass. GREEN. CI in_progress at push (standard pattern).
-- nextRotationCategory: 713%5==3 → BUILD/technical (or tools if technical empty)
+- iteration: 713
+- lastMode: BUILD/technical
+- lastItem: freshness-july2026-archaeology (city-of-david-jerusalem + israel-archaeology-experience)
+- lastResult: SHIPPED 5273c2a — July 2026 archaeology freshness. city-of-david-jerusalem.md: added First Temple charred wooden roof beams discovery (IAA + TAU, Givati Parking Lot, Jul 2026, 586 BCE Babylonian destruction), updatedAt 2026-07-06→2026-07-23. israel-archaeology-experience.md: added Binyamina Roman marble statues (IAA coastal-railway excavation Jul 2026, one inscribed "Lycurgus"), updatedAt 2026-07-16→2026-07-23. Gate: pnpm check 0 errors; pnpm build 827 pages (no change); pnpm test:e2e 1117/1117 pass. GREEN. CI in_progress at push (standard pattern).
+- nextRotationCategory: 714%5==4 → REVIEW
 - higgsfieldSpent: 0
-- updatedAt: 2026-07-23T03:00Z
+- updatedAt: 2026-07-23T03:50Z
 - branch context: work on master; feature work on auto/<slug>
 
 Notes: iter711 BUILD (seo-content+monetization) — israel-for-italian-travelers SHIPPED 0923c4c. ITA Airways twice-daily FCO→TLV hook (July 1 2026). Gate: pnpm check 0 errors (358 guides, 0 violations); pnpm build 826 pages (+1); pnpm test:e2e 1117/1117 pass. GREEN.

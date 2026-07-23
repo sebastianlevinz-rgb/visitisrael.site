@@ -10962,3 +10962,11 @@ What: BUILD slot (712%5==2; tools rotation). Picked P3/S tools item: /guided-vs-
 Gate: pnpm check 0 errors; pnpm build 827 pages (+1); pnpm test:e2e 1117/1117 pass (second run after link fixes). GREEN.
 Ship: committed 2b176fb to master; pushed origin/master. CI run 29975472136 in_progress at push (standard pattern; prior iters all confirmed success).
 Next: iter 713 → BUILD/technical (713%5==3).
+
+## 2026-07-23T03:50Z · iter 713 · BUILD (technical/freshness) · freshness-july2026-archaeology
+What: BUILD slot (713%5==3; technical rotation). Top technical item (tel-megiddo consolidation) blocked:human-review-required. Picked two P3/S technical freshness items from iter710 RESEARCH and combined them as one bounded change (both are archaeological freshness notes, S-effort each).
+1. city-of-david-jerusalem.md: IAA + Tel Aviv University Givati Parking Lot excavation (July 20, 2026) identified charred wooden roof beams radiocarbon-dated to the 586 BCE Babylonian destruction — added 1 sentence to "Bronze Age and Iron Age urban remains" paragraph; updatedAt bumped 2026-07-06 → 2026-07-23.
+2. israel-archaeology-experience.md: IAA coastal-railway excavation near Binyamina (July 2026) unearthed two Greco-Roman marble statues (one inscribed "Lycurgus") in a Roman-Byzantine winepress — added 1 sentence to opening paragraph as "ongoing discovery" freshness signal; updatedAt bumped 2026-07-16 → 2026-07-23.
+Gate: pnpm check 0 errors; pnpm build 827 pages (no change); pnpm test:e2e 1117/1117 pass. GREEN.
+Ship: committed 5273c2a to master; pushed origin/master. CI + Lighthouse in_progress at push (standard pattern; prior iters CI confirmed success for 1a99814 and earlier).
+Next: iter 714 → REVIEW (714%5==4).
