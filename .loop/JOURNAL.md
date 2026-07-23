@@ -10935,3 +10935,18 @@ Fix: added [Portuguese visitors](/israel-for-portuguese-travelers) to the nation
 Gate: pnpm check 0 errors; pnpm build 825 pages (unchanged); pnpm test:e2e 1117/1117 pass. GREEN.
 Ship: committed aaa6cc6 to master, pushed.
 Next: iter 710 → RESEARCH (710%5==0).
+
+## 2026-07-23T00:30Z · iter 710 · RESEARCH · pass #144 · ITA Airways + First Temple + Binyamina + Ottoman Railway
+What: RESEARCH (710%5==0). Web-scraped competitors and recent news for content gaps at ~95% saturation.
+Findings: 6 net-new BACKLOG items confirmed (not already in BACKLOG or DONE).
+  1. [P2/S upgrade] israel-for-italian-travelers — ITA Airways doubled Rome FCO→TLV to twice-daily from July 1, 2026. Prior iter445 entry was P3; upgraded to P2 given 2026 flight-frequency hook.
+  2. [P3/S technical] city-of-david-jerusalem freshness — First Temple charred wooden roof beams from 586 BCE Babylonian destruction discovered July 20, 2026 (IAA + TAU, Givati Parking Lot excavation). Guide updatedAt 2026-07-06; add 1-2 sentences.
+  3. [P3/S] Design Museum Holon standalone guide — confirmed gap; tel-aviv-museums.md FAQ mention only; no BACKLOG entry; Ron Arad + Bruno Asa corten-steel building; Condé Nast recognized.
+  4. [P3/S] Binyamina wine town day-trip guide — confirmed gap; zero BACKLOG + zero guide file; Binyamina Winery (1925 Rothschild perfume factory) + Tishbi Winery; 2026 freshness peg: Roman marble statues found nearby July 2026.
+  5. [P3/S] Roman marble statues Binyamina — freshness note for israel-archaeology-experience.md; two Greco-Roman marble statues (one inscribed "Lycurgus") from coastal railway IAA excavation July 2026.
+  6. [P3/S] Tel Aviv Ottoman Railway walking/cycling path — confirmed gap; 2026 NIS 174M infrastructure programme; Nahalat Binyamin → beach route; no competitor guide; distinct from cycling-in-israel.md national scope.
+  Priority note added to new-luxury-hotels-israel-2026 BACKLOG item: Six Senses TLV (five restored buildings, sky pool, 2026 opening).
+False leads eliminated (20+): helicopter tours, Knesset Museum, rock climbing (SHIPPED), Valley of Springs (BACKLOG iter705), Six Senses Shaharut, Canadian/Australian/Turkish travelers, bahai-pilgrimage-haifa (BACKLOG iter680), dark-tourism + october-7 (BACKLOG BLOCKED), archaeological dig tourism, israel-national-bike-trail (SHIPPED), lag-baomer (BACKLOG upgraded iter690), musical-instrument-museum (insufficient SEO), Jordan River baptism (EXISTS), Schottenstein Campus (SHIPPED iter607), City of David (EXISTS; freshness note only).
+Memory: BACKLOG.md appended (6 items + priority note + saturation line); COMPETITORS.md appended (5 intel sections); STATE.md bumped to iter710.
+Gate: none required (RESEARCH mode).
+Next: iter 711 → BUILD/monetization (711%5==1).

@@ -6023,3 +6023,42 @@ All 8 research agent candidates were already present in BACKLOG or DONE:
 - Diving hub → BACKLOG
 - Knesset Museum → BACKLOG (Froumine House, 13 King George St, Jerusalem)
 - Sorek Stalactite Cave / Avshalom Reserve → BACKLOG/DONE
+
+### 2026-07-23 · iter 710 · RESEARCH pass #144 · ITA Airways + First Temple + Binyamina + Ottoman Railway
+
+**ITA Airways twice-daily Rome FCO → TLV from July 1, 2026** (travelandtourworld.com):
+- ITA Airways doubled Israel service frequency from July 1, 2026: twice-daily FCO–TLV
+- Materially raises 2026 search volume for "Italy Israel flights", "Rome Tel Aviv direct"
+- Competitor gap: italy-travel-sites and israel-travel-sites have not yet built content around the doubled frequency; standard ITA page at ita-airways.com/en/flights-to-israel lists schedule only
+- Action: promoted israel-for-italian-travelers from P3→P2 in BACKLOG; when built, lead with ITA Airways twice-daily as main 2026 hook
+
+**First Temple wooden beams discovery — City of David, July 20, 2026** (Haaretz, phys.org):
+- IAA + Tel Aviv University excavation at City of David (Givati Parking Lot) uncovered charred roof timbers from the Babylonian destruction of Jerusalem in 586 BCE
+- First time wooden beams from the First Temple period have been recovered from a stratified Iron Age destruction layer at this site
+- Published Haaretz July 20, 2026; also covered phys.org/news
+- Competitor gap: all existing City of David content (including our own guide, updatedAt 2026-07-06) predates this find; competitors (Lonely Planet, GoIsrael, TouristIsrael city-of-david pages) have not yet updated
+- Action: added city-of-david-jerusalem freshness update to BACKLOG P3/S/technical
+
+**Roman marble statues near Binyamina, July 2026** (popular-archaeology.com, breakingtravelnews.com):
+- IAA excavation during coastal high-speed railway project near Binyamina uncovered two Greco-Roman marble statues in a Roman-Byzantine winepress installation
+- One statue bears Greek inscription "Lycurgus" (mythological king associated with viticulture — contextually apt in a winepress)
+- High-quality heritage discovery in an underexplored Israel corridor (Caesarea–Zichron Yaakov coast)
+- Competitor gap: zero competitor coverage from standard Israel travel sites; archaeology media only
+- Actions: (1) added Binyamina wine town guide to BACKLOG with 2026 discovery as freshness peg; (2) added Roman marble statues freshness note for israel-archaeology-experience.md
+
+**Six Senses Tel Aviv opening, 2026** (luxurytraveladvisor.com, myisraelstay.com):
+- Six Senses brand entering Tel Aviv 2026; five restored historic buildings; sky pool; distinct from Six Senses Shaharut (Arava desert)
+- myisraelstay.com listed 17 hotel openings for summer 2026 in a single article — competitor is tracking luxury openings as a topic
+- Action: priority note added to new-luxury-hotels-israel-2026 BACKLOG item to feature Six Senses TLV
+
+**Tel Aviv Ottoman Railway walking/cycling path, 2026** (travelmarketreport.com):
+- NIS 174M ($56M) public tourism infrastructure programme approved 2026 includes TLV urban cycling/walking route along old Ottoman railway alignment
+- Route: Nahalat Binyamin → Herzl Street → beach; extensions to Dizengoff Boulevard and major TLV bike-path network
+- Competitor gap: no Israel travel site has a dedicated guide to this route; cycling-in-israel.md (SHIPPED) covers national/inter-city cycling; this is a distinct urban TLV experience
+- Action: added Tel Aviv Ottoman Railway walking/cycling path to BACKLOG P3/S seo-content
+
+**Design Museum Holon — confirmed competitor gap**:
+- Ron Arad + Bruno Asa corten-steel building; Condé Nast "new wonders of the world"; only dedicated design museum in Israel
+- TripAdvisor, Secret Tel Aviv, Tourist Israel all mention it; no competitor has a full visitor guide (dedicated long-form editorial)
+- Our site: tel-aviv-museums.md mentions it in a FAQ answer only; no standalone guide
+- Action: added Design Museum Holon standalone guide to BACKLOG P3/S seo-content
