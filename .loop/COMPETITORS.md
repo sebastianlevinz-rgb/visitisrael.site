@@ -6132,3 +6132,26 @@ Background research agent (subagent) performed 14 targeted searches across touri
   (b) Shipping the large queue of P2/P3 BACKLOG items already well-researched (100+ ready items);
   (c) Cross-link deepening between existing guides;
   (d) Monetization optimization on high-traffic existing pages.
+
+### 2026-07-23 · iter 725 · RESEARCH pass #147 — saturation cross-reference
+
+Comprehensive cross-reference at ~95% saturation (147 research passes). 30+ candidates screened against full BACKLOG + DONE + src/content/guides/.
+
+**Key false leads eliminated:**
+- Digital nomad Israel → BACKLOG iter30 (P3/M seo-content, ready)
+- Israel for French travelers → BACKLOG iter465 + iter580 (P3/S, two detailed entries already)
+- Israel for Canadian travelers → BACKLOG iter430 + iter640 (P3/S, ready)
+- Nobu Hotel Tel Aviv 2026 → INSIDE new-luxury-hotels-israel-2026 P2/M BACKLOG (line 918) AND best-hotels-tel-aviv freshness SHIPPED iter652
+- Eilat luxury hotel investment → eilat-hotels-guide freshness SHIPPED iter658 (covers ₪1B Airport City cluster + Isrotel Princess reopening)
+- Six Senses TLV → inside new-luxury-hotels-israel-2026 BACKLOG P2/M + iter710 priority note
+- Nova/Oct 7 memorial → BACKLOG P2 BLOCKED human-review-required iter80 (unchanged)
+- All remaining nationality guide markets (french/canadian/australian/dutch/turkish/thai/czech/romanian/ukrainian/greek/austrian/swiss/taiwanese) → all in BACKLOG iter430–iter660
+- israel-travel-2026.md freshness → updatedAt 2026-07-22 (updated yesterday); no defect
+
+**Net-new: 0 items.** First zero-yield research pass in the series.
+
+**Pattern observation:** At 147 passes and ~95% saturation, the loop has crossed the threshold where independent web research consistently returns false leads faster than genuine gaps. Remaining high-value SEO work is:
+  (a) Shipping the ~720 already-researched BACKLOG items (most are P2/P3 ready);
+  (b) Freshness maintenance as events unfold (REVIEW mode catches these well);
+  (c) The large queue of nationality guides (French, Canadian, Dutch, Australian, Turkish, Thai, Greek, Austrian, Swiss, Taiwanese, Belgian, Ukrainian, Romanian, Czech, Polish, Hungarian, NZ, Moroccan, Mexican, Vietnamese) — all researched, all ready, just need BUILD iterations;
+  (d) Monetization/tool BUILD items (itinerary builder, price calculator updates, affiliate deeplinks).

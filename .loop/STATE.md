@@ -1,13 +1,15 @@
 # LOOP STATE
 
-- iteration: 724
-- lastMode: REVIEW
-- lastItem: independence-hall-propagation
-- lastResult: SHIPPED 232c10e. REVIEW iter724 audited iters 721-723 (tel-aviv-museums freshness, binyamina-guide, israel-power-plug). Meta/desc/H1/JSON-LD/honesty/hero-images all CLEAN. Defect found: iter721 Independence Hall closure fix only patched tel-aviv-museums.md but 3 other guides still described the building as open with "free entry, 30-minute guided presentation" and "guided visits are brief (45-60 min)". Fixed: 3-days-in-tel-aviv.md (bullet corrected + Democracy Pavilion added), tel-aviv-things-to-do.md (stale guided-visit sentence corrected), zionist-heritage-trail.md (closure note added to site-2 section). Gate: pnpm check 0 errors; pnpm build 832 pages; pnpm test:e2e 1118/1118 pass. CI in_progress at push (standard pattern; prior runs all success).
-- nextRotationCategory: 725%5==0 → RESEARCH
+- iteration: 725
+- lastMode: RESEARCH
+- lastItem: research-pass-147-saturation-check
+- lastResult: RESEARCH pass #147 COMPLETE. 0 net-new BACKLOG items (all 30+ candidates already in BACKLOG or SHIPPED/DONE). Saturation ~95% confirmed (147 research passes). Key false leads eliminated: digital nomad (BACKLOG iter30), Israel for French travelers (BACKLOG iter465), Israel for Canadian travelers (BACKLOG iter430), Nobu TLV (inside new-luxury-hotels-israel-2026 P2/M item + best-hotels-tel-aviv SHIPPED iter652), Eilat luxury investment (eilat-hotels-guide freshness SHIPPED iter658). No gate run (RESEARCH mode).
+- nextRotationCategory: 726%5==1 → BUILD/seo-content
 - higgsfieldSpent: 0
-- updatedAt: 2026-07-23T14:47Z
+- updatedAt: 2026-07-23T15:30Z
 - branch context: work on master; feature work on auto/<slug>
+
+Notes: iter725 RESEARCH — research-pass-147-saturation-check. RESEARCH mode (725%5==0). Pass #147 at ~95% saturation. 30+ candidates screened across web research completed in prior context (Tourist Israel, GetYourGuide, Viator, Lonely Planet, Rough Guides competitors; nationality guide gap audit; freshness candidates for luxury hotels, Eilat, digital nomad). 0 net-new items added — all candidates already tracked in BACKLOG or SHIPPED. Key eliminations: digital nomad guide (BACKLOG iter30/ready), Israel for French travelers (BACKLOG iter465/ready), Israel for Canadian travelers (BACKLOG iter430/ready), Nobu Hotel TLV (already inside new-luxury-hotels-israel-2026 P2/M BACKLOG item + best-hotels-tel-aviv SHIPPED iter652), Eilat luxury investment (eilat-hotels-guide freshness SHIPPED iter658 covers ₪1B Airport City cluster). No gate run (RESEARCH mode).
 
 Notes: iter724 REVIEW — independence-hall-propagation SHIPPED 232c10e. Audited iters 721-723 (tel-aviv-museums freshness, binyamina-guide, israel-power-plug). All meta/desc/H1/internal-links/JSON-LD/honesty checks CLEAN. Defect found and fixed: iter721's Independence Hall closure fix only patched tel-aviv-museums.md but 3 other guides still described Independence Hall as open with free entry and guided visits: 3-days-in-tel-aviv.md (bullet said "free entry, 30-minute guided presentation"), tel-aviv-things-to-do.md ("guided visits are brief (45-60 min)"), zionist-heritage-trail.md (whole section, no closure note). All three corrected: closure noted prominently, Democracy Pavilion flagged as open alternative, municipality listing link for reopening status. 832 pages (no change); 1118/1118 e2e pass GREEN. CI in_progress at push (standard pattern). Env note: cloud clone started at iter576; reset to origin/master iter723 (8992053) via git reset --hard origin/master.
 
