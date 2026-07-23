@@ -11004,3 +11004,12 @@ What: BUILD (717%5==2; rotation seo-content/transport). Picked P2/S item: /air-h
 Gate: pnpm check 0 errors (361 guides); pnpm build 829 pages (+1); pnpm test:e2e 1118/1118 pass. GREEN.
 Ship: committed 8083fb8 to master; pushed origin/master. CI run 29989453177 in_progress at push (standard pattern).
 Next: iter 718 → BUILD/tools or technical (718%5==3).
+
+## 2026-07-23T09:00Z · iter 718 · BUILD (seo-content/technical) · israel-for-spanish-travelers + eilat-ramon-airport freshness
+What: BUILD (718%5==3; tools rotation — all tools SHIPPED, fell through to technical → 1 technical item ready + 1 seo-content fall-through, combined per iter713 precedent).
+  1. [P3/S technical] eilat-ramon-airport-guide.md freshness: added Wizz Air Israel domestic hub paragraph (launched March 2026 as Israeli subsidiary, operates ETM as domestic hub competing on TLV-ETM corridor); bumped updatedAt 2026-07-14 → 2026-07-23.
+  2. [P3/S seo-content] New /israel-for-spanish-travelers guide: ETA-IL requirement (mandatory since Jan 2025); Arkia TLV↔Málaga (AGP) direct weekly route from July 2026; Sephardic heritage hook (1492 Alhambra Decree, Ladino language, Safed synagogues, ANU Museum, Spain's 2015 Sephardic nationality restoration); TSE/EHIC health-insurance gap (EU card not valid in Israel); Type F → Type H power adapter; Bizum does not work in Israel; Visa/MC/Apple Pay do. 7 FAQs. 3 CTAs (booking/getyourguide/discovercars). Hub: first-time-in-israel.md nationality paragraph updated with [Spanish visitors] link.
+Fix during gate: description 166 chars → shortened to 150; /israel-visa-requirements broken link → corrected to /israel-eta-guide (1 rebuild+recheck required).
+Gate: pnpm check 0 errors (362 guides); pnpm build 830 pages (+1); pnpm test:e2e 1118/1118 pass. GREEN.
+Ship: squash-merged to master 613b078; pushed origin/master.
+Next: iter 719 → REVIEW (719%5==4).

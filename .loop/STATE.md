@@ -1,13 +1,15 @@
 # LOOP STATE
 
-- iteration: 717
-- lastMode: BUILD (seo-content/transport)
-- lastItem: air-haifa-haifa-airport-guide
-- lastResult: SHIPPED 8083fb8. New /air-haifa-haifa-airport-guide — Haifa Airport (HFA) & Air Haifa 2026 guide (P2/S). Gate: pnpm check 0 errors (361 guides); pnpm build 829 pages (+1); pnpm test:e2e 1118/1118 pass. GREEN. CI in_progress at push (standard pattern).
-- nextRotationCategory: 718%5==3 → BUILD/tools or technical
+- iteration: 718
+- lastMode: BUILD (seo-content/technical)
+- lastItem: israel-for-spanish-travelers + eilat-ramon-airport freshness (Wizz Air Israel)
+- lastResult: SHIPPED 613b078. New /israel-for-spanish-travelers (P3/S) + eilat-ramon-airport-guide Wizz Air Israel domestic hub freshness (P3/S). Gate: pnpm check 0 errors (362 guides); pnpm build 830 pages (+1); pnpm test:e2e 1118/1118 pass. GREEN.
+- nextRotationCategory: 719%5==4 → REVIEW
 - higgsfieldSpent: 0
-- updatedAt: 2026-07-23T07:51Z
+- updatedAt: 2026-07-23T09:00Z
 - branch context: work on master; feature work on auto/<slug>
+
+Notes: iter718 BUILD (seo-content/technical) — israel-for-spanish-travelers SHIPPED 613b078 + eilat-ramon-airport-guide Wizz Air Israel domestic hub freshness. Spain guide: ETA-IL, Arkia TLV↔AGP direct July 2026, Sephardic heritage (1492 Alhambra), TSE gap, Type F→H adapter, Bizum warning. 7 FAQs, 3 CTAs. Hub first-time-in-israel.md updated. 830 pages (+1); 1118/1118 e2e pass.
 
 Notes: iter717 BUILD (seo-content/transport) — air-haifa-haifa-airport-guide SHIPPED 8083fb8. New guide for Haifa Airport HFA + Air Haifa carrier (launched Sep 2024). Routes: HFA↔Eilat domestic, Cyprus, Greek islands, Oct 2026 TLV→ETM planned. Cross-links: haifa-travel-guide, eilat-ramon-airport-guide (Air Haifa note in domestic section), Footer. 7 FAQs, 3 CTAs. 829 pages (+1); 1118/1118 e2e pass.
 
