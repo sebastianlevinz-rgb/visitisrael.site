@@ -3,7 +3,7 @@ title: 'Cheap Flights to Israel (TLV): When to Book & Best Airlines'
 description: 'How to find cheap flights to Ben Gurion Airport — the best months to book, airlines flying direct from the US and Europe, and how to use fare tools.'
 heroImage: /images/regions/tel-aviv/hero.jpg
 category: Planning
-updatedAt: 2026-07-19
+updatedAt: 2026-07-23
 ctaHeading: 'Search and compare flights to Tel Aviv'
 affiliateCtas:
   - partner: skyscanner
@@ -67,6 +67,7 @@ These dates shift each year on the Hebrew calendar — use the fare tools below 
 | Carrier | Main bases | Notes |
 | --- | --- | --- |
 | El Al | London, Paris, Amsterdam, Rome, Frankfurt, Zurich, Budapest | Daily or near-daily from major hubs |
+| Arkia | Málaga AGP | New Jul 2026; weekly direct — see [Israel for Spanish visitors](/israel-for-spanish-travelers) |
 | Israir | Madrid MAD | New from Oct 2026; 3×/week A320 |
 | Wizz Air | London Luton, Budapest, Vienna, Bucharest and others | Ultra-low base fares; luggage add-ons |
 | Ryanair | Manchester, Dublin, Athens, Milan BGY, Lisbon and others | Seasonal frequency; strict carry-on rules |
