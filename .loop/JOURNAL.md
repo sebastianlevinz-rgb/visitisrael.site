@@ -11088,3 +11088,10 @@ Startup: local master stale (iter576 clone diverge from origin/master iter726 2d
 Gate: pnpm check 0 errors (366 guides, 0 violations); pnpm build 834 pages (+1 /digital-nomad-israel); pnpm test:e2e 1122/1122 pass. GREEN.
 Ship: committed 544bd7f to master; pushed origin/master. CI (run #30030884135) + Lighthouse (run #30030882681) both in_progress at journal time — standard Vercel pattern; prior 3 consecutive CI runs all confirmed success.
 Next: iter 728 → BUILD/technical (728%5==3).
+
+## 2026-07-23T19:00Z · iter 728 · BUILD (seo-content/freshness) · kibbutz-summer-2026
+What: BUILD (728%5==3; technical rotation — no ready technical items, fell through to seo-content per playbook §2). Picked URGENT-seasonal P3/S freshness item: kibbutz-summer-2026 — add Summer 2026 kibbutz programmes section to kibbutz-hotels-israel.md. Technical category had only SHIPPED items; next eligible was seo-content.
+Content: New '## Summer 2026 kibbutz programmes' section inserted before '## How to book a kibbutz hotel'. Two subsections: (1) Nir David (Valley of Springs/Beit She'an area) — lantern-guided kibbutz history walks, night swimming in warm springs (Nir David sits beside the valley's warm-water springs), taboon pita communal evenings; cross-link to /gan-hashlosha-guide; (2) Ortal (Golan Heights) — lantern-guided kibbutz evening tours, guided telescope stargazing on Golan plateau (Mount Shifon dark-sky conditions), taboon pita evenings; cross-link to /golan-heights-guide. Both programmes end August 2026; direct booking with kibbutz office advised; no fabricated prices. updatedAt bumped to 2026-07-23. Source: JPost travel (iter705 research).
+Gate: pnpm check 0 errors; pnpm build 834 pages (no change — freshness update not new page); pnpm test:e2e 1122/1122 pass. GREEN.
+Ship: committed c49f613 to master; pushed origin/master. CI in_progress at push (standard pattern).
+Next: iter 729 → REVIEW (729%5==4).
