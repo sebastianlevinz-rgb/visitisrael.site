@@ -11013,3 +11013,12 @@ Fix during gate: description 166 chars → shortened to 150; /israel-visa-requir
 Gate: pnpm check 0 errors (362 guides); pnpm build 830 pages (+1); pnpm test:e2e 1118/1118 pass. GREEN.
 Ship: squash-merged to master 613b078; pushed origin/master.
 Next: iter 719 → REVIEW (719%5==4).
+
+## 2026-07-23T09:50Z · iter 719 · REVIEW · review-719-spanish-cheap-flights
+What: REVIEW (719%5==4). Audited iters 716–718: arava-mountain-biking (new page), air-haifa-haifa-airport-guide (new page), israel-for-spanish-travelers (new page), eilat-ramon-airport-guide freshness (Wizz Air Israel hub + Air Haifa October 2026 note).
+Checks: meta lengths (title ≤65, desc ≤160) — all CLEAN (59/156, 53/130, 65/139); H1 in MDX bodies — none found; internal links — all 20+ links resolve including /transport/haifa-to-akko (confirmed in ROUTES object) and /timna-park-guide, /red-canyon-eilat, /car-rental-israel, /eilat-travel-guide; hero images — all exist in public/images/; inbound discoverability — arava-mountain-biking 3 inbound links (cycling-in-israel, eilat-travel-guide, red-canyon-eilat), air-haifa 3 inbound links (haifa-travel-guide, eilat-ramon-airport-guide, Footer), israel-for-spanish-travelers 1 inbound link (first-time-in-israel nationality hub); JSON-LD/schema — no fabricated aggregateRating anywhere; honesty — all costs as ranges, ETA-IL correct, TSE/EHIC gap correct, AffiliateCard rating/reviews fields confirmed unused by component (component says "Live prices & reviews on partner site"); pnpm check 0 errors confirmed before fix.
+Defect found: cheap-flights-to-israel.md European carriers table included Israir Madrid MAD (Oct 2026) but was missing Arkia TLV–Málaga AGP direct route (launched Jul 2026) — the primary flight hook in the Spanish travelers guide (iter718). The Spanish guide linked TO cheap-flights but had no reciprocal link.
+Fix: added "Arkia | Málaga AGP | New Jul 2026; weekly direct — see [Israel for Spanish visitors](/israel-for-spanish-travelers)" row to the European carriers table; bumped updatedAt to 2026-07-23.
+Gate: pnpm check 0 errors; pnpm build 830 pages (unchanged); pnpm test:e2e 1118/1118 pass. GREEN.
+Ship: committed 104f307 to master; pushed origin/master. CI in_progress at push (standard pattern; prior iter CI d496c669 = success).
+Next: iter 720 → RESEARCH (720%5==0).
