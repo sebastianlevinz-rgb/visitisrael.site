@@ -11174,3 +11174,13 @@ Next: iter 737 → BUILD/seo-content (737%5==2).
 **Merge**: Squash to master b64eb74; pushed origin/master; branch auto/national-library-israel deleted.
 
 **CI**: in_progress at push (standard pattern; prior consecutive runs all confirmed success).
+
+## 2026-07-24T04:55Z · iter 738 · BUILD (seo-content/freshness) · spanish-israir-madrid-freshness
+
+**What**: Technical category had no ready items (2 items blocked for human review; haifa-cruise-terminal-guide content was already fully current). Fell through to seo-content/freshness. Added Israir MAD–TLV direct route (launching Oct 25 2026; 3×/week A320) to `israel-for-spanish-travelers.md` — confirmed gap: `cheap-flights-to-israel.md` already listed the Israir route but the Spanish travelers guide did not mention it in either the FAQ "Are there direct flights from Spain?" or the body Flights section. Both locations updated with evergreen framing ("verify at israir.com before booking"). updatedAt bumped to 2026-07-24.
+
+**Gate**: pnpm check 0 errors; pnpm build 837 pages (no change); pnpm test:e2e 1128/1128 pass. GREEN.
+
+**Merge**: Squash to master b8a4ebd; pushed origin/master; branch auto/spanish-israir-madrid-freshness deleted.
+
+**CI**: in_progress at push (standard pattern; prior consecutive runs all confirmed success).

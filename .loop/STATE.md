@@ -1,12 +1,12 @@
 # LOOP STATE
 
-- iteration: 737
+- iteration: 738
 - lastMode: BUILD
-- lastItem: national-library-israel
-- lastResult: BUILD iter737 (seo-content) — national-library-israel SHIPPED b64eb74. New /national-library-israel fills confirmed P3/S seo-content gap (BACKLOG iter130 research). No existing dedicated visitor guide for the National Library of Israel despite its 2023–2024 opening in the Herzog & de Meuron landmark building on Jerusalem's Givat Ram campus. Content: H&dM architecture (pomegranate-cross-section radial interior, Jerusalem stone, commission 2012, opened 2023–24); public access vs reading-room registration (public areas free/walk-in; reading rooms require nli.org.il pre-reg); collection highlights (5M+ books, 50k manuscripts, Einstein archive, Gershom Scholem library, Jewish music archives, genealogical records); practical visit (Eliezer Kaplan St 1, light rail to Knesset stop, Sun–Thu hours); Givat Ram campus half-day itinerary (NLI → Wohl Rose Garden → Israel Museum → Knesset viewpoint); 7 FAQs; 3 affiliate CTAs (GYG cultural tours, Booking Jerusalem hotels, Abraham private heritage tours). Cross-links IN: jerusalem-museums.md §5 now links /national-library-israel; jewish-genealogy-israel-trip.md NLI section now links /national-library-israel. Cross-links FROM: /jewish-genealogy-israel-trip, /jerusalem-museums, /jewish-heritage-israel, /shabbat-guide. Gate: pnpm check 0 errors (369 guides, 0 violations); pnpm build 837 pages (+1 /national-library-israel); pnpm test:e2e 1128/1128 pass (+2 new vectors: smoke + a11y for /national-library-israel). CI in_progress at push (standard pattern; prior consecutive runs all confirmed success).
-- nextRotationCategory: 738%5==3 → BUILD/technical
+- lastItem: spanish-israir-madrid-freshness
+- lastResult: BUILD iter738 (technical fallthrough → seo-content/freshness) — spanish-israir-madrid-freshness SHIPPED b8a4ebd. Technical category had no ready items (2 items blocked for human review; haifa-cruise-terminal-guide content already fully current from prior iterations). Fell through to seo-content: added Israir MAD–TLV direct route (Oct 25 2026; 3×/week A320) to israel-for-spanish-travelers.md — confirmed gap vs cheap-flights-to-israel.md which already listed it. Updated FAQ "Are there direct flights from Spain?" + body Flights section + bumped updatedAt to 2026-07-24. Gate: pnpm check 0 errors; 837 pages (no change); 1128/1128 e2e+a11y pass. CI in_progress at push (standard pattern; prior consecutive runs confirmed success).
+- nextRotationCategory: 739%5==4 → REVIEW
 - higgsfieldSpent: 0
-- updatedAt: 2026-07-24T03:45Z
+- updatedAt: 2026-07-24T04:55Z
 - branch context: work on master; feature work on auto/<slug>
 
 Notes: iter736 BUILD (monetization fallthrough → technical/seo P2) — israel-pass-ride-freshness SHIPPED 21f38ee. Corrected outdated "check with concierge" wording in israel-national-parks-pass.md Israel Pass combo section: renamed to "Israel Pass & Ride — the all-in-one tourist pass"; described as permanent INPA product with dedicated israelpass.biz website + 24/6 booth in Ben Gurion T3 arrivals hall + Ramon Airport; added Orange Card vs Israel Pass & Ride comparison paragraph; updated FAQ #4 to mention T3 booth. Cross-reference added to rav-kav-israel.md T3 arrivals section (visitors comparing standalone Rav-Kav vs combo pass see both options). Gate: pnpm check 0 errors; 836 pages (no change); 1126/1126 e2e+a11y pass. CI in_progress at push (standard pattern).
