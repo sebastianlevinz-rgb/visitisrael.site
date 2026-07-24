@@ -364,6 +364,7 @@ const ROUTES = [
   '/sde-boker-ein-avdat-guide',
   '/mount-hermon-skiing',
   '/israel-photography-guide',
+  '/israel-photography-tours',
   '/tel-afek-guide',
   '/bedouin-experience-israel',
   '/red-canyon-eilat',
