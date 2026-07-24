@@ -121,6 +121,8 @@ Two significant additions to Tel Aviv's luxury tier opened in 2026, materially u
 
 **Honest caveat on 2026 openings:** opening timelines for large luxury properties can shift. Confirm current operational status and availability directly via Booking.com before making plans around a specific property. The descriptions above reflect the properties as planned and announced; verify actual services and room categories before booking.
 
+For a wider roundup of all 2026 luxury hotel openings across Israel — from Herzliya Marina to the Dead Sea, Safed and Beersheba — see the [new luxury hotels in Israel 2026 guide](/new-luxury-hotels-israel-2026).
+
 ---
 
 ## Who should stay where — the decision matrix
