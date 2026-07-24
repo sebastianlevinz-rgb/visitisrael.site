@@ -1231,3 +1231,6 @@ Honesty fix to /rosh-hanikra-guide.md (P3/technical/content-update, iter625 rese
 
 ## iter741 · israel-trip-cost-by-style · d13be5d
 - [iter741 d13be5d] Israel Trip Cost by Travel Style (/israel-trip-cost-by-style) — 3-tier traveller profile guide (backpacker $65–100/day, mid-range $150–300/day, luxury $400+/day) with daily spending tables, accommodation picks, holiday spike calendar, quick-comparison table. Hostelworld + Booking.com + TourRadar affiliate CTAs. 7 FAQs. Cross-link added to israel-cost-budget.md. Companion to the existing /israel-trip-cost-calculator tool. 838 pages (+1); 1130/1130 e2e+a11y pass. [monetization/seo-content]
+
+## iter742 · sustainable-travel-israel · 9a554af
+- [iter742 9a554af] Sustainable & Eco-Tourism Guide to Israel (/sustainable-travel-israel) — Kibbutz Lotan permaculture, Succah in the Desert, Ariel Sharon Park reclamation, Hula Valley wetland restoration (100k+ cranes), Coral Beach reef ethics, Clil eco-village, Ein Gedi Kibbutz botanical garden, water conservation context (90% wastewater recycling, drip irrigation, Dead Sea shrinkage), low-impact hiking ethics. Booking.com eco-hotel + Abraham Tours + GYG birdwatching CTAs. 839 pages (+1); 1132/1132 e2e+a11y pass. [seo-content]

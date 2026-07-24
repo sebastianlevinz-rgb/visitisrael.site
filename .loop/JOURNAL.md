@@ -11225,3 +11225,13 @@ Next: iter 737 → BUILD/seo-content (737%5==2).
 **Ship**: committed d13be5d to master; pushed origin/master. CI in_progress at push (standard pattern). Cloud-env: empty-branch pattern (working-tree edits committed directly on master after branch produced no commits).
 
 **Next**: iter 742 → BUILD (seo-content) per 742%5==2 rotation.
+
+## 2026-07-24T08:40Z · iter 742 · BUILD (seo-content) · sustainable-travel-israel
+
+**What**: New `/sustainable-travel-israel` fills confirmed P3/M seo-content gap (Frommers, responsibletravel.com, genesis-tours.com, ISRAEL21c all rank; zero equivalent page on site). Content: Kibbutz Lotan permaculture eco-campus in the Arava desert (solar, adobe, organic farming, birdwatching on rift valley migration corridor); Succah in the Desert off-grid eco-accommodation near Mitzpe Ramon (bamboo structures, near-zero electricity, dark-sky park stargazing); Ariel Sharon Park landfill-to-forest reclamation (former Hiriya dump → 2,000-acre metro park, reclamation story); Hula Valley wetland restoration (drained 1953, partially re-flooded 1994, now 100k+ common cranes winter annually); Coral Beach Eilat reef-safe visit ethics (no-touch rules, reef-safe sunscreen, INPA marine reserve); Clil eco-village northern Galilee (intentional community, limited guest access); Ein Gedi Kibbutz botanical garden (900+ species, date-palm plantation, sustainable Dead Sea-area stays); Israel water conservation context (90% wastewater recycling global benchmark, drip irrigation, Dead Sea shrinkage ~1m/year); low-impact hiking ethics (marked trails, pack-out, no campfire); sustainable transport options (rail, Rav-Kav, car-hire minimisation). Honesty framing: mixed environmental record, no eco-paradise narrative. 3 affiliate CTAs: Booking.com eco-hotel filter, Abraham Tours nature day trips, GYG Hula Valley birdwatching. Cross-links added to glamping-israel.md (Kibbutz Lotan section) and birdwatching-in-israel.md (useful cross-links section).
+
+**Gate**: pnpm check — description 162 chars (max 160) on first run, trimmed to 158; 0 errors on second run. pnpm build 839 pages (+1). pnpm test:e2e 1132/1132 pass (+2 tests: smoke + a11y for /sustainable-travel-israel). GREEN.
+
+**Ship**: committed 9a554af to master; pushed origin/master. CI in_progress at push (standard pattern). Cloud-env: empty-branch pattern (working-tree edits committed directly on master).
+
+**Next**: iter 743 → BUILD (tools) per 743%5==3 rotation.
