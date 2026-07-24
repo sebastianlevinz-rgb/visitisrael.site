@@ -11296,3 +11296,15 @@ Next: iter 745 → RESEARCH (745%5==0).
 **Ship**: committed 107bf75 to master; pushed origin/master. CI in_progress at push (standard pattern). Cloud-env: empty-branch pattern (working-tree edits committed directly on master; auto/best-hotels-mitzpe-ramon feature branch deleted locally).
 
 **Next**: iter 747 → BUILD (seo-content) per 747%5==2 rotation. Top candidates: accessible-travel-israel (P2/M iter55/585), israel-for-canadian-travelers (P3/S), israel-for-australian-travelers (P3/S), new-luxury-hotels-israel-2026 (P2/M iter740).
+
+## 2026-07-24 · iter 747 · BUILD (seo-content) · golan-heights-hiking-trails
+
+**What**: New guide `/golan-heights-hiking-trails` — fills TRIPLE-ZERO gap (P2/S seo-content, iter335 research; no P-item for exact slug, no DONE.md entry, no guide file). Golan Heights hiking was covered only by ~3 sentences in golan-heights-guide.md; touristisrael.com, lonelyplanet.com, hike-israel.com all rank with dedicated trail guides.
+
+**Content**: Yehudiya Forest Nature Reserve (Yehudiya Loop 14 km hard, 5–7 h; Zavitan Canyon 5 km moderate, 2–3 h; practical table with INPA pass + transport notes); Nahal Meshushim + Hexagon Pool (7 km trail, hexagonal basalt column geology, seasonal permit system, water shoes essential); Gamla circuit cross-link (5 km, griffon vulture colony, 51 m waterfall → standalone guide); Banias Falls Trail (4.7 km) + Nimrod Fortress; Israel National Trail Golan section (4–5 day section hike, day-by-day outline from Hamat Gader → Gamla → Yehudiya → Meshushim → Bental → Banias → Dan, Quneitra viewpoint context). Seasonal guide table. Safety: UXO off-trail warning for ceasefire-line areas, flash-flood guidance referencing ims.gov.il. 3 affiliate CTAs (GYG Golan hiking day tours, DiscoverCars rental, GYG Golan+Galilee multi-day). 6 FAQs. Cross-links added to golan-heights-guide.md (hiking section) and hiking-in-israel.md (Banias day-hike table row). Smoke + a11y specs +1 each.
+
+**Gate**: pnpm check 0 errors; pnpm build 842 pages (+1 /golan-heights-hiking-trails); pnpm test:e2e 1138/1138 pass. GREEN.
+
+**Ship**: committed d70f393 to master; pushed origin/master. Branch auto/golan-heights-hiking-trails deleted. CI in_progress at push (standard pattern).
+
+**Next**: iter 748 → BUILD (tools/technical) per 748%5==3 rotation.
