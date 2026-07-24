@@ -3,7 +3,7 @@ title: 'Cheap Flights to Israel (TLV): When to Book & Best Airlines'
 description: 'How to find cheap flights to Ben Gurion Airport — the best months to book, airlines flying direct from the US and Europe, and how to use fare tools.'
 heroImage: /images/regions/tel-aviv/hero.jpg
 category: Planning
-updatedAt: 2026-07-23
+updatedAt: 2026-07-24
 ctaHeading: 'Search and compare flights to Tel Aviv'
 affiliateCtas:
   - partner: skyscanner
@@ -22,7 +22,7 @@ faqs:
   - question: Which airlines fly direct from the US to Israel?
     answer: 'El Al operates the most nonstop US–Israel frequencies year-round. Delta resumed daily nonstop service on its New York JFK–Tel Aviv route in September 2025; however, its planned Atlanta and Boston routes remain suspended (Atlanta through at least November 2026; Boston delayed indefinitely — check delta.com). Israir launched the first low-cost Israeli carrier nonstop from New York JFK in August 2026. El Al also added San Francisco SFO as a new West Coast gateway from October 2026. United has not yet resumed Israel service. American Airlines serves Miami MIA seasonally. Connecting via London, Paris, Amsterdam, Rome or Vienna on European carriers sometimes produces a lower total fare — run both searches.'
   - question: Are there budget airlines to Israel from Europe?
-    answer: 'Yes. Wizz Air, Ryanair and easyJet all serve Ben Gurion Airport from multiple European cities. Aegean flies from Athens and several Greek islands. Fares on these carriers can be substantially below legacy-airline pricing, though base fares exclude hold luggage and seat selection — factor those in when comparing.'
+    answer: 'Yes. Wizz Air, Ryanair and easyJet all serve Ben Gurion Airport from multiple European cities. Aegean flies from Athens and several Greek islands. Eurowings (Lufthansa Group LCC) launched new routes from Hamburg and Düsseldorf in July 2026. Fares on these carriers can be substantially below legacy-airline pricing, though base fares exclude hold luggage and seat selection — factor those in when comparing.'
   - question: What airport do international flights use for Israel?
     answer: 'Virtually all international flights arrive at Ben Gurion International Airport (IATA: TLV), located roughly 15 km southeast of Tel Aviv and 50 km northwest of Jerusalem. Ramon Airport near Eilat handles some seasonal charter and low-cost services to Red Sea resort destinations, but for most visitors from North America, Europe, or Australia, TLV is the entry point.'
 ---
@@ -68,8 +68,11 @@ These dates shift each year on the Hebrew calendar — use the fare tools below 
 | --- | --- | --- |
 | El Al | London, Paris, Amsterdam, Rome, Frankfurt, Zurich, Budapest | Daily or near-daily from major hubs |
 | Air France / Transavia | Paris CDG, Orly | 3–4 daily CDG–TLV; see [Israel for French visitors](/israel-for-french-travelers) |
+| ITA Airways | Rome FCO | Twice daily from July 2026; Italy's state carrier (successor to Alitalia) — see [Israel for Italian visitors](/israel-for-italian-travelers) |
 | Arkia | Málaga AGP | New Jul 2026; weekly direct — see [Israel for Spanish visitors](/israel-for-spanish-travelers) |
 | Israir | Madrid MAD | New from Oct 2026; 3×/week A320 |
+| airBaltic | Riga RIX | Resumed July 2026 with El Al codeshare; connects Baltic/Nordic passengers via Riga hub |
+| Eurowings | Hamburg HAM, Düsseldorf DUS | New routes from July 2026; Lufthansa Group LCC — base fares exclude checked luggage |
 | Wizz Air | London Luton, Budapest, Vienna, Bucharest and others | Ultra-low base fares; luggage add-ons |
 | Ryanair | Manchester, Dublin, Athens, Milan BGY, Lisbon and others | Seasonal frequency; strict carry-on rules |
 | easyJet | London Gatwick, Paris CDG, Geneva | Checked bag included on some fares |
@@ -85,6 +88,12 @@ No direct flights exist from Australia. New for 2026: **Arkia** launched the fir
 - **Australia → Singapore or Bangkok → TLV** (Singapore Airlines / Thai Airways)
 - **Japan / East Asia → TLV** (Arkia direct from Oct 2026; El Al codeshares)
 - **India → TLV** (Air India, IndiGo operate direct; El Al from Mumbai)
+
+### From South America
+
+Direct service between South America and Israel has historically been limited to occasional charters, but **El Al** is launching a scheduled TLV–Buenos Aires Ezeiza (EZE) route from **29 November 2026** — the first-ever regular direct connection between Israel and South America. Argentina has a Jewish community of roughly 180,000–200,000, making it the largest in South America, and the route targets diaspora family travel as well as the broader Argentine tourist market.
+
+Verify the current schedule at el-al.com before booking, as launch-date service can be subject to adjustment. Travelers from other South American cities (São Paulo, Rio, Santiago) will continue to connect via European hubs (most commonly Madrid or Amsterdam) or via Miami and New York on a two-leg itinerary to TLV.
 
 ## How far in advance to book
 
