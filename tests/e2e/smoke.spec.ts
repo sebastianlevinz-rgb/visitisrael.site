@@ -648,6 +648,7 @@ const ROUTES = [
   '/digital-nomad-israel',
   '/israel-yoga-retreats',
   '/national-library-israel',
+  '/israel-trip-cost-by-style',
 ];
 
 for (const route of ROUTES) {

@@ -21,6 +21,8 @@ Israel is not a budget destination — costs sit closer to Western Europe than t
 - **Mid-range — ~$150–280/day.** A comfortable hotel, a mix of casual and sit-down meals, the odd guided tour, trains and taxis.
 - **Luxury — $400+/day.** Five-star hotels like the [King David or Mamilla](/jerusalem#where-to-stay), fine dining, private guiding and car hire.
 
+For a deeper breakdown of what each tier actually looks like day-to-day — with itemised spending tables, hotel picks by price band and pro tips per travel style — see the [Israel trip cost by travel style guide](/israel-trip-cost-by-style).
+
 ## Where the money goes
 
 **Accommodation** is the biggest line. Expect roughly $30–45 for a hostel dorm, $130–220 for a solid mid-range hotel, and $350+ for luxury, with sharp peaks around Passover, the High Holidays, Christmas and Easter. Compare options in each region's *where to stay* section.
