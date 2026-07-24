@@ -78,6 +78,8 @@ The **Public Transportation Information Center** is in the **Terminal 3 arrivals
 
 Israel Railways also has **ticket machines** one level below arrivals in the underground train station. These machines sell and load Rav-Kav cards, but the touchscreen interface is less intuitive for first-timers. The information center is the better choice on arrival.
 
+**Also in T3 arrivals — the Israel Pass & Ride:** if you plan to visit several national parks, compare the standalone Rav-Kav with the **Israel Pass & Ride** ([israelpass.biz](https://israelpass.biz)), sold at a dedicated booth in the same arrivals hall. The Israel Pass & Ride bundles unlimited 14-day INPA park entry with transit credit and up to 40% discounts at 90+ partner attractions. It costs more than a standalone Rav-Kav card, but if your itinerary includes three or more national parks alongside public transit use, it can save money overall. See the [Israel National Parks Pass guide](/israel-national-parks-pass) for a full cost comparison.
+
 ### Other places to buy
 
 - **Any Israel Railways train station** (machines or staffed counters)

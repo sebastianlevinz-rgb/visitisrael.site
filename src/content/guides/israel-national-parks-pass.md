@@ -3,7 +3,7 @@ title: 'Israel National Parks Pass: Blue, Green, Orange & Matmon Cards'
 description: 'Israel National Parks Pass guide — Blue, Green and Orange tourist cards plus the Matmon annual pass. What each covers, costs and where to buy.'
 heroImage: /images/regions/negev/avdat.jpg
 category: Planning
-updatedAt: 2026-06-24
+updatedAt: 2026-07-24
 faqs:
   - question: Which Israel National Parks Pass is best for a 10-day tourist trip?
     answer: "For most tourists visiting 4–6 sites, the Green Card (covers 6 sites, valid 14 days) offers the best balance of value and flexibility. If your itinerary leans heavily on national parks and nature reserves — say Masada, Ein Gedi, Caesarea, Avdat, Beit She'an and Beit Guvrin — the Orange Card's unlimited access pays for itself quickly. Verify current prices at the parks.org.il official site before buying, as they are revised periodically."
@@ -12,7 +12,7 @@ faqs:
   - question: Is the City of David included in the national parks pass?
     answer: 'No. The City of David in Jerusalem is managed by the Ir David Foundation and is not part of the Israel Nature and Parks Authority (INPA) network, so it is not covered by any national parks pass. Entry to the City of David requires a separate ticket. The adjacent Hezekiah Tunnel (Warren Shaft route) is also ticketed separately.'
   - question: Where do I buy the Israel National Parks Pass?
-    answer: 'Tourist cards (Blue/Green/Orange) are sold at the entrance to any INPA national park or nature reserve — just ask at the ticket booth. The Matmon annual pass requires a cheque or bank transfer and a mailing address inside Israel (your hotel address works); apply via the INPA customer service line or at a larger site office. Some tourist offices in Jerusalem and Tel Aviv stock tourist cards during peak season.'
+    answer: 'Tourist cards (Blue/Green/Orange) are sold at the entrance to any INPA national park or nature reserve — just ask at the ticket booth. The Matmon annual pass requires a cheque or bank transfer and a mailing address inside Israel (your hotel address works); apply via the INPA customer service line or at a larger site office. Some tourist offices in Jerusalem and Tel Aviv stock tourist cards during peak season. The Israel Pass & Ride (israelpass.biz) — which bundles unlimited park entry with Rav-Kav transit credit — is sold at a dedicated booth in Ben Gurion Airport Terminal 3 arrivals hall (staffed around the clock, six days a week) and at Ramon Airport (ETM).'
   - question: Can I buy the Israel National Parks Pass online?
     answer: "As of the last update, tourist cards are primarily sold in person at site entrances rather than through a dedicated online portal. Verify the current purchasing options at the official Israel Nature and Parks Authority website (parks.org.il) before your trip, as the INPA periodically updates its ticketing systems."
   - question: Is the Bahá'í Gardens Haifa included in the national parks pass?
@@ -56,9 +56,15 @@ The **Matmon** (Hebrew: *מנוי* — subscription) is an annual household pass
 
 To purchase a Matmon: contact the INPA customer service office, provide an Israeli mailing address (your hotel works), and pay by cheque or bank transfer. Cards are posted; processing typically takes a few days. Call the INPA directly or ask at a large site like Caesarea for the current application procedure.
 
-### Israel Pass combo (Rav-Kav + parks)
+### Israel Pass & Ride — the all-in-one tourist pass
 
-Periodically, the Israel Ministry of Tourism packages a combo pass bundling public transit credit (via the [Rav-Kav card](/transportation)) with national park entry. Availability and terms change seasonally — check with the Israel Tourism Board or your hotel concierge closer to your travel date.
+The **Israel Pass & Ride** ([israelpass.biz](https://israelpass.biz)) is a permanent INPA tourist product that bundles three things into one card: unlimited 14-day access to all 70+ INPA national parks and nature reserves (equivalent to the Orange Card above), a **[Rav-Kav](/rav-kav-israel) public transit credit** usable on buses, trains, and light rail, and discounts of up to 40% at approximately 90 partner attractions — museums, wineries, boat tours, and more.
+
+A dedicated sales booth operates in the **Ben Gurion Airport Terminal 3 arrivals hall** (staffed around the clock, six days a week), so you can buy your Israel Pass & Ride the moment you land before boarding your first bus or train. The pass is also available at Ramon Airport (ETM) arrivals and through the official site.
+
+**Orange Card vs Israel Pass & Ride:** the Orange Card costs less and is typically the better choice if you plan to rent a car (most INPA sites are outside urban bus routes). The Israel Pass & Ride makes more sense if you are using Israel's public transit network heavily — particularly on a Tel Aviv–Jerusalem–Haifa circuit by train and bus — since the transit credit offsets what would otherwise be daily Rav-Kav top-ups.
+
+**Verify current pricing** at [israelpass.biz](https://israelpass.biz) or [en.parks.org.il/new/israel-pass/](https://en.parks.org.il/new/israel-pass/) before buying — the INPA adjusts prices periodically and the partner-discount list changes.
 
 ---
 
