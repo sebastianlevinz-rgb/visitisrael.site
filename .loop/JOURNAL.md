@@ -11154,3 +11154,11 @@ What: RESEARCH (735%5==0, pass #149). Focus: July 2026 infrastructure news, new 
 Net-new (3): (1) Israel Pass & Ride P2/S freshness update to israel-national-parks-pass.md — permanent INPA product (israelpass.biz, Ben Gurion T3 + Ramon Airport booth, 70+ parks + Rav-Kav transit + partner discounts) currently described as "periodically" seasonal in our guide; (2) Kassland Resort Ma'ale Adumim P3/S freshness note — first combined hotel+indoor-water-park+thermal-spa complex near Jerusalem opened May 2026; add to israel-wellness-spa.md + israel-rainy-day-activities.md; (3) Haifa Port cruise terminal upgrade P3/S freshness note — May 2026 capacity/security/duty-free expansions; verify haifa-cruise-terminal-guide.md reflects this.
 Gate: none (RESEARCH mode). No merge/SHA.
 Next: iter 736 → BUILD/monetization (736%5==1).
+
+## 2026-07-24T02:55Z · iter 736 · BUILD (monetization→technical/seo P2 fallthrough) · israel-pass-ride-freshness
+What: BUILD (736%5==1 → monetization; pure monetization section exhausted → fell through to highest-priority ready item: P2/S Israel Pass & Ride freshness update from iter735 research).
+Corrected outdated "Israel Pass combo" wording in israel-national-parks-pass.md. The existing single paragraph described the combo as "periodically" available and pointed visitors to "check with concierge" — inaccurate since israelpass.biz is now a PERMANENT INPA product with a 24/6 dedicated booth in Ben Gurion T3 arrivals hall and at Ramon Airport (ETM).
+Changes: (1) israel-national-parks-pass.md — renamed section to "Israel Pass & Ride — the all-in-one tourist pass"; described product accurately (permanent, israelpass.biz, T3+ETM booths, 70+ parks unlimited 14-day + Rav-Kav transit credit + up to 40% at 90+ partner attractions); added Orange Card vs Israel Pass & Ride comparison paragraph; updated FAQ #4 to mention T3 arrivals booth; updated updatedAt to 2026-07-24. (2) rav-kav-israel.md — added Israel Pass & Ride cross-reference note in the T3 arrivals section so visitors evaluating standalone Rav-Kav vs combo pass see both options at the point of decision; links to /israel-national-parks-pass.
+Gate: pnpm check 0 errors; 836 pages (no change); 1126/1126 e2e+a11y pass. GREEN.
+Merge SHA: 21f38ee; pushed origin/master. CI in_progress at push (standard pattern).
+Next: iter 737 → BUILD/seo-content (737%5==2).
