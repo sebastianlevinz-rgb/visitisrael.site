@@ -11406,3 +11406,35 @@ french-travelers).
 **Gate**: pnpm check 0 errors; pnpm build 845 pages (+1); pnpm test:e2e 1144/1144 pass. GREEN.
 **Ship**: fded8a5 committed and pushed to master. CI in_progress at push (standard pattern).
 **Next**: iter 753 → BUILD (technical) per 753%5==3 rotation.
+
+## 2026-07-24 · iter 753 · BUILD (seo-content) · israel-for-serbian-travelers
+
+**What**: New /israel-for-serbian-travelers — Serbia-specific Israel travel guide. Confirmed content
+gap (triple-zero: no DONE entry, no BACKLOG P-item, no file). PLAYBOOK mode 753%5==3 → BUILD
+(technical), but technical category had only blocked P2 items (human review required) — fell
+through to seo-content per PLAYBOOK fallthrough rule.
+
+Serbia ~7M population; ~85% Serbian Orthodox; Serbian Orthodox Church has maintained monastic
+presence in Jerusalem since 13th century (Srpski Manastir Svetog Đorđa, Old City). Pilgrimage to
+the Holy Land is among the most significant journeys in the Serbian Orthodox tradition. Wizz Air
+BEG–TLV direct seasonal service has made this more accessible. ETA-IL confusion for pilgrimage
+groups (many unaware of individual application requirement even for organised tours) makes this a
+practical gap beyond just traffic opportunity.
+
+Key content delivered: ETA-IL requirement (individual application even for pilgrimage groups);
+Wizz Air BEG–TLV seasonal (~3h30m) + Air Serbia connections; full Orthodox pilgrimage circuit
+(Srpski Manastir Svetog Đorđa, Holy Sepulchre Calvary chapel rights, Mount Tabor Transfiguration,
+Bethlehem, Yardenit, Sea of Galilee); DinaCard limitations (domestic-only, Visa/Mastercard
+required); Schuko Type F → Type H adapter only (230V identical); Serbia–Israel WWII connection
+(Righteous Among Nations); MFA Serbia advisory + Serbian Embassy contacts; quick-reference table.
+7 FAQs. 3 CTAs (Booking.com + GYG + DiscoverCars).
+
+Cross-links added: first-time-in-israel.md nationality hub (Serbian visitors row added); 
+christian-pilgrimage-holy-land.md (Serbia cross-link sentence at end of guide).
+Smoke test +1 (israel-for-serbian-travelers route).
+
+**Gate**: pnpm check 0 errors (378 guides validated); pnpm build 846 pages (+1); pnpm test:e2e
+1145/1145 pass (+1 new smoke test). GREEN.
+**Ship**: 5dbc1ef squash-merged and pushed to master. CI + Lighthouse in_progress at push
+(standard pattern — prior 5 runs all `success`).
+**Next**: iter 754 → REVIEW per 754%5==4 rotation.
