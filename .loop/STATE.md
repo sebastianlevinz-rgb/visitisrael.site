@@ -1,12 +1,12 @@
 # LOOP STATE
 
-- iteration: 757
+- iteration: 758
 - lastMode: BUILD
-- lastItem: israel-for-gulf-travelers
-- lastResult: BUILD iter757 — israel-for-gulf-travelers SHIPPED 90ff61b. New /israel-for-gulf-travelers fills confirmed P2/M seo-content gap (iter230 research). UAE, Bahrain & Morocco Abraham Accords visitor guide covering: ETA-IL pre-travel approval; direct flights table (El Al/FlyDubai/Etihad DXB/AUH, Royal Air Maroc CMN–TLV, ~3h15 from Dubai); Arabic language context (20% Arab-Israeli population, bilingual signage); Al-Aqsa Mosque / Temple Mount / Haram al-Sharif visitor access (PAIRED NAMING throughout; honest caveat on hours changing per Waqf/security); halal food guide (Muslim Quarter Jerusalem, Nazareth, Akko, Jaffa, Wadi Nisnas Haifa; honest kosher≠halal caveat); prayer facilities by city; currency+NFC payment; UAE licence+IDP driving; cross-border options (Aqaba/Taba). 7 FAQs. 3 CTAs: GYG Jerusalem Muslim Quarter tour + Booking.com hotels + GYG Eilat Red Sea diving. Hebron excluded per project content policy. Cross-link added to first-time-in-israel.md nationality hub. 2 new smoke+a11y tests. Gate: pnpm check 0 errors (380 guides); pnpm build 848 pages (+1); pnpm test:e2e 1149/1149 pass (+2 tests). CI in_progress at push (standard pattern — prior 5 runs all success).
-- nextRotationCategory: 758%5==3 → BUILD tools
+- lastItem: cheap-flights-carriers-2026
+- lastResult: BUILD iter758 — cheap-flights-carriers-2026 SHIPPED cf02d6b. Technical/freshness update to /cheap-flights-to-israel. Tools backlog had no ready items; fell through to technical. Added 4 freshness items from iter755 research: ITA Airways FCO–TLV (twice daily from 1 Jul 2026; Italy state carrier); airBaltic RIX–TLV (resumed Jul 2026, El Al codeshare); Eurowings HAM+DUS–TLV (new Jul 2026, Lufthansa Group LCC); El Al Buenos Aires EZE (launching 29 Nov 2026 — first-ever direct South America route, new subsection added). FAQ updated to mention Eurowings. updatedAt bumped to 2026-07-24. Page count unchanged (848). Gate: pnpm check 0 errors; pnpm build 848 pages; pnpm test:e2e 1149/1149 pass. CI in_progress at push (standard pattern — prior 5 runs all success).
+- nextRotationCategory: 759%5==4 → REVIEW
 - higgsfieldSpent: 0
-- updatedAt: 2026-07-24T23:10Z
+- updatedAt: 2026-07-24T23:55Z
 - branch context: work on master; feature work on auto/<slug>
 
 Notes: iter751 BUILD (monetization) — new-luxury-hotels-israel-2026 SHIPPED f210b76. New guide covers Israel's 2026 luxury hotel surge: Six Senses Tel Aviv (10-floor spa, sky pool, 5 heritage buildings + LEED Platinum tower), Nobu Hotel Tel Aviv (Jaffa, De Niro/Matsuhisa brand), The Yacht Hotel Herzliya (325 rooms, Fattal Group, marina resort, June 2026), Isrotel Kayma Dead Sea (eco-luxury), Herzl Hotel Beersheba (Ottoman Governor's House), Canaan-Tzfat (Safed boutique), Ein Hod Boutique Wellness Hotel, plus Dizengoff 99/Basel Complex/Leon Towers/Palatin Hotel (TLV openings). 7 FAQs, 3 affiliate CTAs (2x Booking.com + GetYourGuide luxury experiences). Honest opening-status caveats throughout; no fabricated prices or ratings. Cross-links added from best-hotels-tel-aviv.md, israel-accommodation-guide.md, luxury-travel-israel.md. Gate: pnpm check 0 errors; pnpm build 844 pages (+1); pnpm test:e2e 1140/1140 pass. CI in_progress at push (standard pattern).

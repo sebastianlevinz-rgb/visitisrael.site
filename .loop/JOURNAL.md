@@ -11484,3 +11484,17 @@ Smoke test +1 (israel-for-serbian-travelers route).
 **Gate**: pnpm check 0 errors (380 guides); pnpm build 848 pages (+1); pnpm test:e2e 1149/1149 pass (+2 new tests). GREEN.
 **Ship**: 90ff61b committed and pushed to master. CI in_progress at push (standard pattern — prior 5 runs all success).
 **Next**: iter 758 → BUILD tools (758%5==3).
+
+## 2026-07-24T23:55Z · iter 758 · BUILD (technical/freshness) · cheap-flights-carriers-2026
+
+**Mode**: BUILD (758%5==3 → tools; tools backlog no ready items → fell through to technical/freshness).
+**Branch**: auto/cheap-flights-carriers-2026.
+**What shipped**: Freshness update to /cheap-flights-to-israel adding 4 new 2026 carriers discovered in iter755 research:
+  1. ITA Airways FCO–TLV: twice daily from 1 Jul 2026; Italy's state carrier (Alitalia successor); Italy = top-5 inbound market. Added to EU carrier table with cross-link to /israel-for-italian-travelers.
+  2. airBaltic RIX–TLV: resumed Jul 2026 with El Al codeshare agreement; Baltic/Nordic passengers connect via Riga hub.
+  3. Eurowings HAM–TLV + DUS–TLV: two new Lufthansa Group LCC routes (HAM Jul 10, DUS Jul 18, 2026); noted no free hold bag; FAQ updated to include Eurowings alongside Wizz/Ryanair/easyJet.
+  4. El Al TLV–Buenos Aires EZE: launching 29 Nov 2026 (first-ever direct South America service); new "From South America" subsection added noting Argentine Jewish diaspora ~200K; honest "verify at el-al.com" caveat; Brazil/Chile travellers directed to European hubs.
+updatedAt bumped to 2026-07-24. No new pages (848 unchanged).
+**Gate**: pnpm check 0 errors; pnpm build 848 pages; pnpm test:e2e 1149/1149 pass. GREEN.
+**Ship**: cf02d6b committed and pushed to master. CI in_progress at push (standard pattern — prior 5 runs all success).
+**Next**: iter 759 → REVIEW (759%5==4).
