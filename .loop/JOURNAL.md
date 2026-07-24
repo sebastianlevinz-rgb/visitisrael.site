@@ -11465,3 +11465,13 @@ Smoke test +1 (israel-for-serbian-travelers route).
 **Gate**: N/A (RESEARCH mode).
 **Ship**: N/A. Updated .loop/ STATE+JOURNAL+BACKLOG+COMPETITORS; committed and pushed.
 **Next**: iter 756 → BUILD (756%5==1 → monetization). Top candidate from backlog: israel-for-nordic-travelers.md (priority-upgraded P2/M this iter) OR next monetization P2 item (per rotation).
+
+## 2026-07-24T21:38Z · iter 756 · BUILD · israel-for-nordic-travelers
+
+**Mode**: BUILD (756%5==1 → monetization; monetization section had only SHIPPED/ARCHIVED items → fell through to seo-content per PLAYBOOK → top seo-content candidate: israel-for-nordic-travelers P2/M upgraded this iter).
+**Branch**: auto/israel-for-nordic-travelers (squash-merged; branch deleted).
+**What shipped**: New /israel-for-nordic-travelers guide for Norway, Sweden, Denmark and Finland. ETA-IL (all 4 visa-exempt since Jan 2025, apply eta.gov.il); flights (SAS CPH–TLV nonstop resumed Oct 2025, airBaltic RIX–TLV Jul 1 2026 + El Al codeshare, Finnair HEL via hub, El Al seasonal CPH, Norwegian Air when operating); Nordic health insurance gap (Försäkringskassan/Helfo/Kela/yellow card not valid in Israel → SafetyWing CTA); Swish/Vipps/MobilePay don't work, Revolut/Wise do; Type F Schuko → Type H (same 230V); Lutheran pilgrimage connection (Swedish Theological Institute Jerusalem, Norwegian Mission in the East, Finnish Missionary Society); outdoor fit (Makhtesh Ramon, Israel National Trail, Negev); Nordic embassy contacts (Swedish: Hashmonaim 4; Norwegian: Hamered 40; Danish/Finnish: links); quick-reference table; 7 FAQs. 3 CTAs: Booking.com + GYG (Negev jeep focus for outdoor Nordic market) + SafetyWing. Cross-link added to first-time-in-israel.md nationality hub.
+**Gate**: pnpm check 0 errors (379 guides); pnpm build 847 pages (+1); pnpm test:e2e 1147/1147 pass (+2 new smoke+a11y tests for /israel-for-nordic-travelers). GREEN.
+**Ship**: 71c7067 squash-merged and pushed to master. CI in_progress at push (standard pattern — prior 5 runs all success).
+**Stale remote branches noted**: auto/bga-transfers-sherut-update (iter608 tip), auto/israel-hebrew-phrases (iter588), auto/israel-vs-cyprus (iter410), auto/jerusalem-trail (iter573) — content from all 4 confirmed present in master; orphaned branches left in place (human cleanup or next iteration).
+**Next**: iter 757 → BUILD seo-content (757%5==2). Top candidates: israel-winter-sun-guide (P3/S), israel-group-tour-planning (P3/M seo-content+monetization), or next P2 seo-content item.
