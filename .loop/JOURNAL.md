@@ -11199,3 +11199,19 @@ Next: iter 737 → BUILD/seo-content (737%5==2).
 **Gate**: pnpm check 0 errors; pnpm build 837 pages (no change); pnpm test:e2e 1128/1128 pass. GREEN.
 
 **Merge SHA**: fe85e4c; pushed origin/master. CI in_progress at push (standard pattern; prior consecutive runs confirmed success).
+
+## 2026-07-24T07:00Z · iter 740 · RESEARCH · research-pass-150-july-2026
+
+**What**: RESEARCH mode (740%5==0). Pass #150 at ~95%+ saturation. Ran research subagent with 10 targeted web searches (July 2026 Israel travel news, competitor content audit, niche travel segments). 15+ candidates evaluated and de-duped against full BACKLOG + DONE.
+
+**Net-new: 2 items.**
+
+1. **TUS IL new airline** (P3/S, technical/freshness) — Israel's fifth airline (TUS IL, backed by Holiday Lines Group parent of TUS Airways Cyprus + Blue Bird Greece) launched 2026 with A320s; routes include European cities + Georgia + UAE (routes not previously served by any Israeli carrier with European licence). Genuinely absent from cheap-flights-to-israel.md and all guides. Source: travelandtourworld.com/news/article/tus-il-new-israeli-airline-launching-in-2026.
+
+2. **Fauda Season 4 Golan filming locations** (P3/S, seo-content/freshness) — israel-film-tv-tourism.md (SHIPPED iter272) mentions "four seasons" and covers Kfar Kasim but has zero content on Season 4 Golan Heights filming (Magdel Shams Druze village, Mount Hermon). Verified via grep: "hermon", "magdel", "druze village", "golan.*fauda" all absent. 2-3 sentence freshness addition to Fauda section + cross-link golan-heights-guide. Source: Variety 2022.
+
+**False leads eliminated (13+)**: ETA-IL guide (SHIPPED iter83); Ben Gurion T1 (SHIPPED iter688); T3 expansion (covered iter487); Israir Asia routes (in israel-travel-2026 + cheap-flights); 17 hotel roundup (BACKLOG P2/M new-luxury-hotels-israel-2026); Galilee agro-tourism (SHIPPED iter288); accessible travel (BACKLOG iter55/585); medical tourism (BACKLOG iter585); cheap-flights US routes (already updated: Israir JFK + El Al SFO both present in guide); american-travelers T1 mention (existing BACKLOG content-freshness-corrections-batch P3/S).
+
+**Gate**: N/A (RESEARCH mode).
+
+**Next**: iter 741 → BUILD (monetization) per 741%5==1 rotation.

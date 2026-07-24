@@ -1,12 +1,12 @@
 # LOOP STATE
 
-- iteration: 739
-- lastMode: REVIEW
-- lastItem: review-739-nli-heritage-link
-- lastResult: REVIEW iter739 — audited iters 736–738 (israel-pass-ride-freshness, national-library-israel, spanish-israir-madrid-freshness). iters 736+738 passed audit cleanly (meta lengths, internal links, honesty, H1 absence, test vectors all OK). iter737 defect found: jewish-heritage-israel.md omitted /national-library-israel despite being the primary Jewish heritage guide. Fix SHIPPED fe85e4c: expanded Israel Museum section to "Israel Museum, National Library and the Givat Ram campus"; added NLI paragraph with link; updated FAQ #1 to include NLI; bumped updatedAt. Gate: pnpm check 0 errors; 837 pages (no change); 1128/1128 e2e+a11y pass. CI in_progress at push (standard pattern; prior run c650042 confirmed success).
-- nextRotationCategory: 740%5==0 → RESEARCH
+- iteration: 740
+- lastMode: RESEARCH
+- lastItem: research-pass-150-july-2026
+- lastResult: RESEARCH iter740 — 2 net-new items from 15+ candidates (10 web searches). Net-new: (1) TUS IL new airline addition to cheap-flights guide (P3/S) — Israel's 5th airline (Holiday Lines Group, A320s, European + Georgia + UAE routes), genuinely absent from all guides; (2) Fauda Season 4 Golan filming locations freshness (P3/S) — Magdel Shams Druze village + Mount Hermon absent from israel-film-tv-tourism.md. False leads eliminated (13+): ETA-IL (SHIPPED iter83); BGA T1 (SHIPPED iter688); T3 expansion (iter487); Israir Asia (in guides); 17-hotel roundup (BACKLOG P2/M); agritourism (SHIPPED iter288); accessible travel (BACKLOG); medical tourism (BACKLOG); Fauda general (SHIPPED iter272). BACKLOG now ~729 items.
+- nextRotationCategory: 741%5==1 → BUILD (monetization)
 - higgsfieldSpent: 0
-- updatedAt: 2026-07-24T05:45Z
+- updatedAt: 2026-07-24T07:00Z
 - branch context: work on master; feature work on auto/<slug>
 
 Notes: iter736 BUILD (monetization fallthrough → technical/seo P2) — israel-pass-ride-freshness SHIPPED 21f38ee. Corrected outdated "check with concierge" wording in israel-national-parks-pass.md Israel Pass combo section: renamed to "Israel Pass & Ride — the all-in-one tourist pass"; described as permanent INPA product with dedicated israelpass.biz website + 24/6 booth in Ben Gurion T3 arrivals hall + Ramon Airport; added Orange Card vs Israel Pass & Ride comparison paragraph; updated FAQ #4 to mention T3 booth. Cross-reference added to rav-kav-israel.md T3 arrivals section (visitors comparing standalone Rav-Kav vs combo pass see both options). Gate: pnpm check 0 errors; 836 pages (no change); 1126/1126 e2e+a11y pass. CI in_progress at push (standard pattern).
@@ -52,4 +52,4 @@ Notes: iter706 BUILD (monetization+seo-content) — wedding-in-israel SHIPPED 87
 
 Cron b7325b16 hourly @ :17. Loop history: 19 tools + sitemap-lastmod + link-checker(+depth) + i18n
 Phase0/1a/1b/1c/2 Batches1-18(COMPLETE) + 48 review passes + 4 technical (event-schema + meta-trim + locale-links + freshness-688) + 80 EN guides + 7 tools-monetization + 2 comparisons;
-research iters 5/10/20/30/35/40/45/50/55/60/65/70/75/80/85/90/95/100/105/110/115/120/125/130/135/140/145/150/155/160/165/170/175/180/185/190/195/200/205/210/215/220/225/230/235/240/245/250/255/260/265/270/275/280/285/290/295/300/305/310/315/320/325/330/335/340/345/350/355/360/365/370/375/380/385/390/395/400/405/410/420/425/430/435/440/445/450/455/460/465/470/480/485/490/495/500/505/510/515/520/525/535/540/545/550/555/560/565/570/575/580/585/590/595/600/605/610/615/620/625/630/635/640/645/650/655/660/665/670/675/680/685/690/695/700/705/710/715/720/725/730/735.
+research iters 5/10/20/30/35/40/45/50/55/60/65/70/75/80/85/90/95/100/105/110/115/120/125/130/135/140/145/150/155/160/165/170/175/180/185/190/195/200/205/210/215/220/225/230/235/240/245/250/255/260/265/270/275/280/285/290/295/300/305/310/315/320/325/330/335/340/345/350/355/360/365/370/375/380/385/390/395/400/405/410/420/425/430/435/440/445/450/455/460/465/470/480/485/490/495/500/505/510/515/520/525/535/540/545/550/555/560/565/570/575/580/585/590/595/600/605/610/615/620/625/630/635/640/645/650/655/660/665/670/675/680/685/690/695/700/705/710/715/720/725/730/735/740.

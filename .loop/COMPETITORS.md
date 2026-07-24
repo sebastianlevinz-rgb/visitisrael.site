@@ -6192,3 +6192,22 @@ REVIEW and BUILD modes yield higher ROI per iteration at current saturation.
 - Genuine new items now almost exclusively freshness corrections (permanent vs seasonal description errors, new infrastructure) and very new resort/attraction openings (May 2026).
 - BACKLOG holds ~727 researched items; BUILD and REVIEW modes continue to yield higher ROI per iteration than RESEARCH.
 - This pass confirms the competitor gap landscape is stable: no new competitor feature patterns identified beyond what was catalogued in passes #140–148.
+
+### 2026-07-24 · iter 740 · RESEARCH pass #150 — July 2026 fresh news + competitor content audit
+
+10 web searches conducted via research subagent; 15+ candidates evaluated.
+
+**New competitor intelligence:**
+- **travelandtourworld.com** covers TUS IL launch in detail (new Israeli airline, Holiday Lines Group, A320s, Georgia + UAE + European routes). We have no coverage of TUS IL in any guide. They are tracking this better than us on route breadth.
+- **myisraelstay.com** published "The 17 hotel openings shaping Israel's summer 2026" — this exact article is already in our BACKLOG citation for new-luxury-hotels-israel-2026 (P2/M, not yet shipped). They have a structured roundup page; we do not yet.
+- **breakingtravelnews.com** + **israel.com** have Ben Gurion Airport $311M T3 expansion coverage — our israel-travel-2026 guide (SHIPPED iter487) mentions this; no competitive gap here.
+- **ATIJ (atij.org)** published a 2026 wheelchair-accessible Israel guide — competitor in the accessible travel space. Our BACKLOG has this item (iter55/585 P3/M accessible-israel-guide). They now have updated 2026 content; our BACKLOG item is well-specified and should be BUILD-prioritised.
+- **Variety (2022)** cited Fauda S4 filming in Magdel Shams Golan + Mount Hermon + Jaffa — our film-tv-tourism guide (SHIPPED iter272) mentions four seasons but omits S4 Golan locations. Other Israel travel sites have not picked this up — this is a genuine discovery gap we can close cheaply.
+- **Tourist Israel (touristisrael.com/israel-travel-2026)** continues to be our most active competitor — maintains a live 2026 update page. Our /israel-travel-2026 (SHIPPED iter487) is equivalent; both cover hotel openings, new routes, ETA-IL.
+
+**Key competitor patterns still not replicated (existing BACKLOG):**
+- Standalone new hotel roundup page (new-luxury-hotels-israel-2026 P2/M) — tourist-israel has this; we don't yet.
+- Accessible travel guide (P3/M accessible-israel-guide) — ATIJ 2026 guide outranks us on wheelchair queries.
+- Medical tourism guide (P3/M israel-medical-tourism) — Sheba Medical Center + health-tourism.com outrank us.
+
+**Net-new to BACKLOG: 2 items.** Low-yield pass consistent with ~95%+ saturation after 150 RESEARCH iterations.
