@@ -1234,3 +1234,6 @@ Honesty fix to /rosh-hanikra-guide.md (P3/technical/content-update, iter625 rese
 
 ## iter742 · sustainable-travel-israel · 9a554af
 - [iter742 9a554af] Sustainable & Eco-Tourism Guide to Israel (/sustainable-travel-israel) — Kibbutz Lotan permaculture, Succah in the Desert, Ariel Sharon Park reclamation, Hula Valley wetland restoration (100k+ cranes), Coral Beach reef ethics, Clil eco-village, Ein Gedi Kibbutz botanical garden, water conservation context (90% wastewater recycling, drip irrigation, Dead Sea shrinkage), low-impact hiking ethics. Booking.com eco-hotel + Abraham Tours + GYG birdwatching CTAs. 839 pages (+1); 1132/1132 e2e+a11y pass. [seo-content]
+
+## iter743 · best-hotels-netanya · 5f710f1
+- [iter743 5f710f1] Best Hotels in Netanya (/best-hotels-netanya) — Cliff-top Independence Square zone (Seasons Hotel cliff-top luxury, David Tower full-service), Leonardo Club all-inclusive (European charter groups, families), Ramada mid-range international brand, city-centre budget guesthouses (₪400-650). Decision matrix table. 6 FAQs. Booking.com destination:Netanya + GYG northern coast tour CTAs. Cross-links: netanya-guide.md Where to stay paragraph + israel-accommodation-guide.md Related guides list. 840 pages (+1); 1134/1134 e2e+a11y pass. [monetization]

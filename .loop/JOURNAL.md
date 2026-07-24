@@ -11235,3 +11235,9 @@ Next: iter 737 → BUILD/seo-content (737%5==2).
 **Ship**: committed 9a554af to master; pushed origin/master. CI in_progress at push (standard pattern). Cloud-env: empty-branch pattern (working-tree edits committed directly on master).
 
 **Next**: iter 743 → BUILD (tools) per 743%5==3 rotation.
+
+## 2026-07-24 · iter 743 · BUILD (monetization) · best-hotels-netanya
+What: New /best-hotels-netanya guide — tools+technical categories empty, fell through to monetization P3/S item from iter545 research. Cliff-top Independence Square zone (Seasons Hotel, David Tower), Leonardo Club all-inclusive (European charter focus), Ramada mid-range, city-centre budget guesthouses (₪400-650). Booking.com destination:Netanya CTA + GYG Netanya northern coast tour query. 6 FAQs: best area, pricing tiers, northern-coast base value (Caesarea 25km, Haifa 45min), Leonardo Club all-inclusive format, cliff-top beach access (limestone escarpment + free elevators), BGA transfer (train ~50min + local bus/taxi). Booking context: French school holiday peaks (Feb/Apr/Jul-Aug), Israeli domestic Passover/Sukkot moderate demand, Shabbat dining note. Seasons Hotel summer fill warning (book 4-6 weeks ahead). Decision matrix table. Cross-link to netanya-guide.md (Where to stay paragraph added before Cross-links line) + israel-accommodation-guide.md (Netanya entry added to Related guides). Images: /images/regions/tel-aviv/beaches.jpg (hero + booking CTA), /images/sub-destinations/caesarea/harbour.jpg (GYG CTA). Smoke + a11y specs extended (+2 tests each).
+Gate: pnpm check 0 errors; 840 pages (+1 /best-hotels-netanya); 1134/1134 e2e+a11y pass.
+Ship: squash-merged to master 5f710f1, pushed. Branch auto/best-hotels-netanya deleted.
+Next: iter 744 → REVIEW (744%5==4).

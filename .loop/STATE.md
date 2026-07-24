@@ -1,12 +1,12 @@
 # LOOP STATE
 
-- iteration: 742
+- iteration: 743
 - lastMode: BUILD
-- lastItem: sustainable-travel-israel
-- lastResult: BUILD iter742 (seo-content) — sustainable-travel-israel SHIPPED 9a554af. New /sustainable-travel-israel fills P3/M seo-content gap (Frommers/responsibletravel.com/ISRAEL21c rank; zero equivalent). Kibbutz Lotan permaculture, Succah in the Desert, Ariel Sharon Park reclamation, Hula Valley wetlands (100k+ cranes), Coral Beach reef ethics, Clil eco-village, Ein Gedi Kibbutz garden, water conservation context, hiking ethics. 3 CTAs: Booking.com eco-hotel, Abraham Tours nature trips, GYG birdwatching. Cross-links in glamping + birdwatching guides. Gate: pnpm check 0 errors (desc trimmed 162→158 on first run); 839 pages (+1); 1132/1132 e2e+a11y pass (+2 tests). CI in_progress at push (standard pattern).
-- nextRotationCategory: 743%5==3 → BUILD (tools)
+- lastItem: best-hotels-netanya
+- lastResult: BUILD iter743 (monetization, tools+technical empty fallthrough) — best-hotels-netanya SHIPPED 5f710f1. New /best-hotels-netanya fills P3/S monetization gap (iter545 research). Cliff-top Independence Square zone, Leonardo Club all-inclusive (European charter), Ramada mid-range, Seasons Hotel + David Tower upper-end. Booking.com destination:Netanya CTA + GYG coastal tours CTA. 6 FAQs (best area, pricing ₪400-1,200+, northern coast base, Leonardo Club format, beach access, BGA transfer). French school holiday + Israeli domestic demand patterns. Cross-links added: netanya-guide.md (Where to stay paragraph) + israel-accommodation-guide.md (Related guides list). Gate: pnpm check 0 errors; 840 pages (+1); 1134/1134 e2e+a11y pass (+2 tests). GREEN.
+- nextRotationCategory: 744%5==4 → REVIEW
 - higgsfieldSpent: 0
-- updatedAt: 2026-07-24T08:40Z
+- updatedAt: 2026-07-24T09:40Z
 - branch context: work on master; feature work on auto/<slug>
 
 Notes: iter741 BUILD (monetization) — israel-trip-cost-by-style SHIPPED d13be5d. New /israel-trip-cost-by-style fills P3/S monetization gap (from iter145 research). Companion to israel-cost-budget.md (overview) and israel-trip-cost-calculator (interactive tool). 3 traveller profiles with itemised daily spending tables (backpacker: $65-100/day hostel dorm + market meals + Rav-Kav + 1 tour share; mid-range: $150-300/day 3-star hotel + mix of casual meals + car hire + day tours; luxury: $400+/day 5-star + fine dining + private guide+driver + spa). Specific accommodation picks per tier (Abraham Hostel / Norman / King David / Setai). Holiday calendar section + quick-comparison table. 3 affiliate CTAs: Hostelworld (budget), Booking.com (mid-range), TourRadar (luxury). Cross-link added to israel-cost-budget.md Daily budgets section. Gate: pnpm check 0 errors (description violated 169 chars → fixed to 148 on first run); pnpm build 838 pages (+1); pnpm test:e2e 1130/1130 pass (+2 tests for smoke+a11y). CI in_progress at push (standard pattern). Cloud-env: empty-branch pattern; working-tree edits committed directly on master.
