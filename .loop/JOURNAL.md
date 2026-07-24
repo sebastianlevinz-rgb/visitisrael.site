@@ -11241,3 +11241,9 @@ What: New /best-hotels-netanya guide — tools+technical categories empty, fell 
 Gate: pnpm check 0 errors; 840 pages (+1 /best-hotels-netanya); 1134/1134 e2e+a11y pass.
 Ship: squash-merged to master 5f710f1, pushed. Branch auto/best-hotels-netanya deleted.
 Next: iter 744 → REVIEW (744%5==4).
+
+## 2026-07-24 · iter 744 · REVIEW · review-744-eco-agri-crosslink
+What: Audited iters 741-743 (israel-trip-cost-by-style, sustainable-travel-israel, best-hotels-netanya). Checks: meta title/desc lengths within limits; hero images all exist (beaches.jpg, negev/desert.jpg, jerusalem/hero.jpg); all internal links resolve (note: /israel-trip-cost-calculator is a pages/ Astro file, not a content guide — false alarm from initial check); inbound links present (best-hotels-netanya: 2 via netanya-guide+accommodation-guide; israel-trip-cost-by-style: 1 via israel-cost-budget; sustainable-travel-israel: 2 via birdwatching+glamping); no H1 in body (layout owns it); no honesty violations specific to these guides. One defect found: israel-agritourism-guide.md line 104 mentioned "eco-farming and permaculture programme" at Kibbutz Lotan without linking to /sustainable-travel-israel, which has a dedicated Lotan section (permaculture campus, Hai-Bar Yotvata, Arava birdwatching). Cross-link added at end of Kibbutz Lotan paragraph.
+Gate: pnpm check 0 errors; 840 pages (no change); 1134/1134 e2e+a11y pass.
+Ship: squash-merged to master 7bd383c, pushed. CI in_progress at push (standard pattern).
+Next: iter 745 → RESEARCH (745%5==0).
