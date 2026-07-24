@@ -1,12 +1,12 @@
 # LOOP STATE
 
-- iteration: 734
-- lastMode: REVIEW
-- lastItem: review-734-photography-tours-test-coverage
-- lastResult: REVIEW iter734 — Audited iters 731–733 (israel-photography-tours, israel-yoga-retreats, rosh-hanikra-oos-update). Six checks across all three pages: meta lengths (all ≤65 title / ≤160 desc — CLEAN), H1 in bodies (none — CLEAN), internal links (all resolve to existing content — CLEAN), hero images (all on disk — CLEAN), backlinks (photography-tours has inbound link from israel-photography-guide; yoga-retreats has inbound from israel-wellness-spa + negev — CLEAN), rosh-hanikra OOS fix confirmed in place with blockquote + verification links. Defect found and fixed: /israel-photography-tours was shipped in iter731 but NEVER added to smoke.spec.ts or a11y.spec.ts — the only guide in recent history to omit both test vectors. Fix: added '/israel-photography-tours' to smoke ROUTES array (after '/israel-photography-guide') and a11y ROUTES array. Gate: pnpm check 0 errors; 836 pages (no change); 1126/1126 e2e+a11y pass (+2 from prior 1124). GREEN. Committed 730deb2; pushed origin/master.
-- nextRotationCategory: 735%5==0 → RESEARCH
+- iteration: 735
+- lastMode: RESEARCH
+- lastItem: research-735-freshness-infrastructure-pass
+- lastResult: RESEARCH iter735 — 3 net-new items from 20+ candidates screened. Pass #149 at ~95% saturation. Net-new: (1) Israel Pass & Ride freshness update to israel-national-parks-pass.md (P2/S — permanent INPA product with dedicated israelpass.biz website + Ben Gurion T3 booth, not the seasonal optional combo the current guide implies); (2) Kassland Resort Ma'ale Adumim freshness note (P3/S — first combined luxury hotel + indoor water park + thermal spa near Jerusalem, opened May 2026; freshness note to israel-wellness-spa.md + israel-rainy-day-activities.md); (3) Haifa Port cruise facility upgrade freshness note (P3/S — May 2026 terminal expansions; freshness check for haifa-cruise-terminal-guide.md). All appended to BACKLOG and COMPETITORS. No gate run (RESEARCH mode).
+- nextRotationCategory: 736%5==1 → BUILD/monetization
 - higgsfieldSpent: 0
-- updatedAt: 2026-07-24T00:45Z
+- updatedAt: 2026-07-24T01:30Z
 - branch context: work on master; feature work on auto/<slug>
 
 Notes: iter733 BUILD (technical/content-update/honesty) — rosh-hanikra-oos-update SHIPPED 11be68d. Honesty fix to /rosh-hanikra-guide.md: removed fabricated "cable car restored and relaunched in 2026" claim introduced by a prior iteration. Research pass iter625 (ynetnews/jfeed/rosh-hanikra.com) had confirmed cable car remained OOS at May 2025 site reopening with Ottoman tunnel as active grottos access route. Changes: OOS notice blockquote + verify-status CTA links (kkl-jnf.org/rosh-hanikra.com/en); Ottoman tunnel described as alternative access; 2 FAQs updated (grotto access, visit duration); HaTzuk chef restaurant added to practical checklist (opened 2025); frontmatter description + verdictQuery de-emphasize cable car; intro para directs visitors to verify status before travelling. 836 pages (no change); 1124/1124 e2e+a11y pass. GREEN. CI in_progress at push (standard pattern).

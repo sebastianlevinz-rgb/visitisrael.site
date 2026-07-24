@@ -11148,3 +11148,9 @@ Defect found and fixed: /israel-photography-tours was shipped in iter731 but nev
 Gate: pnpm check 0 errors; 836 pages (no change); 1126/1126 e2e+a11y pass (was 1124, +2 new photography-tours tests). GREEN.
 Merge SHA: 730deb2; committed directly to master, pushed origin/master. CI pending at push (standard pattern).
 Next: iter 735 → RESEARCH (735%5==0, pass #149).
+
+## 2026-07-24T01:30Z · iter 735 · RESEARCH · research-735-freshness-infrastructure-pass
+What: RESEARCH (735%5==0, pass #149). Focus: July 2026 infrastructure news, new resort openings, competitor freshness gaps. 20+ candidates screened.
+Net-new (3): (1) Israel Pass & Ride P2/S freshness update to israel-national-parks-pass.md — permanent INPA product (israelpass.biz, Ben Gurion T3 + Ramon Airport booth, 70+ parks + Rav-Kav transit + partner discounts) currently described as "periodically" seasonal in our guide; (2) Kassland Resort Ma'ale Adumim P3/S freshness note — first combined hotel+indoor-water-park+thermal-spa complex near Jerusalem opened May 2026; add to israel-wellness-spa.md + israel-rainy-day-activities.md; (3) Haifa Port cruise terminal upgrade P3/S freshness note — May 2026 capacity/security/duty-free expansions; verify haifa-cruise-terminal-guide.md reflects this.
+Gate: none (RESEARCH mode). No merge/SHA.
+Next: iter 736 → BUILD/monetization (736%5==1).

@@ -6175,3 +6175,20 @@ Two RESEARCH passes in same calendar day (iter725 + iter730) both confirm satura
   (b) Correcting factual errors in existing guides caught by freshness monitoring (Independence Hall, Bayudaya concern);
   (c) Cross-checking own pages against each other for inconsistencies (iter730's MAD gap = cheap-flights vs spanish-guide mismatch).
 REVIEW and BUILD modes yield higher ROI per iteration at current saturation.
+
+### 2026-07-24 · iter 735 · RESEARCH pass #149 — freshness + infrastructure scan
+
+20+ candidates screened; focus: recent (July 2026) news, competitor tool gaps, infrastructure updates, new resort openings.
+
+**3 net-new items confirmed:**
+
+1. **Israel Pass & Ride (permanent INPA product)** — The "Israel Pass combo" section in israel-national-parks-pass.md describes a seasonal optional combo; in reality this is a permanent, branded product (israelpass.biz) with a dedicated Terminal 3 arrivals booth (24/6), also available at Ramon Airport. Bundles 70+ parks access + Rav-Kav transit credit + partner-attraction discounts. Competitor coverage (laidbacktrip.com, israelrail.com) describes this accurately; our guide does not. P2/S freshness update queued.
+
+2. **Kassland Resort Ma'ale Adumim** — Opened May 2026: first combined luxury hotel + indoor water park + thermal spa complex in the Jerusalem region (~15 min from city centre). Domestic-tourism headlines; no English travel guide coverage yet. Good "spa resort near Jerusalem" and "indoor water park Israel" keyword hooks. P3/S freshness note to israel-wellness-spa.md + israel-rainy-day-activities.md.
+
+3. **Haifa Port cruise terminal upgrades** — May 2026: expanded check-in, security, border control, duty-free. haifa-cruise-terminal-guide.md (SHIPPED iter621) may not reflect these improvements. P3/S freshness note.
+
+**Pattern (pass #149, 95%+ saturation):**
+- Genuine new items now almost exclusively freshness corrections (permanent vs seasonal description errors, new infrastructure) and very new resort/attraction openings (May 2026).
+- BACKLOG holds ~727 researched items; BUILD and REVIEW modes continue to yield higher ROI per iteration than RESEARCH.
+- This pass confirms the competitor gap landscape is stable: no new competitor feature patterns identified beyond what was catalogued in passes #140–148.
