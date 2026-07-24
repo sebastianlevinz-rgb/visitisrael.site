@@ -21,7 +21,7 @@ affiliateCtas:
   - partner: discovercars
     title: 'Rent a Car for a Greater Tel Aviv Day'
     description: "A hire car lets you combine Design Museum Holon in the morning with Jaffa's flea market or the Bauhaus Center in the afternoon — Holon is a quick drive south of Tel Aviv."
-    image: /images/regions/negev/hero.jpg
+    image: /images/regions/tel-aviv/jaffa.jpg
     destination: Israel
     cta: Compare car hire
 faqs:

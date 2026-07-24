@@ -129,6 +129,10 @@ Full eating guide: [Tel Aviv food guide](/tel-aviv-food-guide).
 
 **The Palmach Museum** (Haim Levanon St) uses immersive, guide-led group narratives to tell the story of the pre-state Jewish underground. Advance booking required; guide-led only.
 
+**Design Museum Holon** (Pinkhas Eilon St 8, Holon) — 20 minutes south of central Tel Aviv — is Israel's only museum dedicated entirely to design. The building, by architect Ron Arad, is a landmark in its own right: five sweeping ribbons of corten weathering steel. The museum operates on a rotating-exhibitions model with no permanent collection; check the current programme at dmh.org.il before visiting. Natural pairing with the White City Bauhaus streets and the Tel Aviv Museum of Art. See the [Design Museum Holon visitor guide](/design-museum-holon) for directions, hours and tickets.
+
+For a full museum overview across all Tel Aviv cultural institutions, see the [Tel Aviv museums guide](/tel-aviv-museums).
+
 **Independence Hall** (Rothschild 16) is where David Ben-Gurion declared the establishment of the State of Israel on 14 May 1948. The building has been **closed for renovation since 2024** — no official reopening date has been announced; check current status at the Tel Aviv municipality website before visiting. The exterior on the Rothschild Boulevard promenade remains accessible. The nearby **Democracy Pavilion** (free interactive installation on Rothschild Blvd, open now) lets visitors explore the founding of Israel and digitally sign the Declaration of Independence.
 
 ---
