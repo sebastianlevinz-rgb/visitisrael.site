@@ -131,3 +131,4 @@ Israel operates two **Hai-Bar nature reserves** focused on returning extinct or 
 - [Israel adventure sports](/israel-adventure-sports) — broader outdoor activities guide
 - [Car rental in Israel](/car-rental-israel) — essential for reaching Agamon HaHula and Golan sites
 - [Best time to visit Israel](/best-time-to-visit-israel) — seasonal overview for trip planning
+- [Sustainable & eco-tourism in Israel](/sustainable-travel-israel) — Hula Valley restoration story, responsible Coral Beach visits, eco-stays and low-impact travel

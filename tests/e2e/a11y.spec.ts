@@ -379,6 +379,7 @@ const ROUTES = [
   '/israel-photography-tours',
   '/national-library-israel',
   '/israel-trip-cost-by-style',
+  '/sustainable-travel-israel',
 ];
 
 for (const route of ROUTES) {

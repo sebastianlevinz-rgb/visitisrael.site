@@ -85,7 +85,7 @@ The programme at Kibbutz Lotan includes optional workshops (birdwatching on the 
 
 **The honest caveat on summer:** The Arava Valley runs at desert-floor elevation and reaches 42°C+ in July and August. The Kibbutz Lotan eco-cabins do have air conditioning in the guest units, but the heat between 10am and 5pm outside is serious. A summer stay at Lotan only makes sense if you are committed to staying entirely indoors during the hottest hours or if you are planning a winter birdwatching trip (November–March = peak migration).
 
-**Best for:** Eco-travellers, birdwatchers, families interested in sustainable living. Best season: November–March for birdwatching; March–May and October–November for general comfort.
+**Best for:** Eco-travellers, birdwatchers, families interested in sustainable living. Best season: November–March for birdwatching; March–May and October–November for general comfort. For the broader sustainable travel picture in Israel — Ariel Sharon Park, Hula Valley restoration, Coral Beach reef ethics, and responsible hiking — see the [sustainable & eco-tourism guide](/sustainable-travel-israel).
 
 ### Note on bathroom facilities
 
