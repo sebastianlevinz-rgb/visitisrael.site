@@ -3,7 +3,7 @@ title: 'Jewish Heritage Travel in Israel: A Complete Guide'
 description: 'Yad Vashem, the Western Wall, Jewish Quarter, Safed, Masada and more — Jewish heritage guide to Israel with planning tips and tour recommendations.'
 heroImage: /images/sub-destinations/jerusalem/western-wall.jpg
 category: Planning
-updatedAt: 2026-06-23
+updatedAt: 2026-07-24
 ctaHeading: 'Book Jewish heritage tours in Israel'
 affiliateCtas:
   - partner: getyourguide
@@ -26,7 +26,7 @@ affiliateCtas:
     cta: See tour options
 faqs:
   - question: What are the most important Jewish heritage sites in Israel?
-    answer: 'The Western Wall (Kotel) in Jerusalem is the most sacred site in Judaism accessible today. Yad Vashem, the World Holocaust Remembrance Center, is essential for anyone tracing 20th-century Jewish history. The Jewish Quarter of the Old City, the Israel Museum (home of the Shrine of the Book and the Dead Sea Scrolls), and the City of David are all in Jerusalem. Further afield: Masada (symbol of Jewish resistance), Safed (historic center of Kabbalah), the ANU — Museum of the Jewish People in Tel Aviv, and Gamla in the Golan Heights round out a full heritage journey.'
+    answer: 'The Western Wall (Kotel) in Jerusalem is the most sacred site in Judaism accessible today. Yad Vashem, the World Holocaust Remembrance Center, is essential for anyone tracing 20th-century Jewish history. The Jewish Quarter of the Old City, the Israel Museum (home of the Shrine of the Book and the Dead Sea Scrolls), the National Library of Israel (rare manuscripts, Einstein archive, genealogy records — on the same Givat Ram campus as the Israel Museum), and the City of David are all in Jerusalem. Further afield: Masada (symbol of Jewish resistance), Safed (historic center of Kabbalah), the ANU — Museum of the Jewish People in Tel Aviv, and Gamla in the Golan Heights round out a full heritage journey.'
   - question: Do I need to book Yad Vashem in advance?
     answer: "Admission to Yad Vashem is free. Advance registration is required for the Holocaust History Museum and strongly recommended for guided tours, especially in peak season (March–May, October–November) and around Yom HaShoah. Walk-in access to the grounds, the Children's Memorial and the Hall of Names is generally available without a booking. Allow at least 3–4 hours for a meaningful visit; a full day is better if you plan to join a guided tour."
   - question: How many days do I need for a Jewish heritage trip in Israel?
@@ -59,9 +59,11 @@ The **[Jewish Quarter](/jerusalem/old-city)** of the Old City was rebuilt almost
 
 **Mount Herzl**, adjacent to Yad Vashem, is Israel's national cemetery — the burial site of Theodor Herzl (founder of modern Zionism), every Israeli prime minister and president, and fallen soldiers. It is free to enter. The contrast of the national military cemetery with Yad Vashem immediately below makes for a profound half-day circuit. A small museum on the hill tells Herzl's story from fin-de-siècle Vienna to the founding of the state. Travelers who want to trace the full Zionist founding narrative — from Mount Herzl south to Ben-Gurion's Sde Boker grave, north to the first kibbutz at Degania Aleph, and on to the Tel Hai memorial in the Upper Galilee — will find a complete self-drive circuit in the [Zionist Heritage Trail guide](/zionist-heritage-trail).
 
-### Israel Museum and the Shrine of the Book
+### Israel Museum, National Library and the Givat Ram campus
 
 The **[Israel Museum](/jerusalem/israel-museum)** holds the most comprehensive collection of Jewish art, archaeology and Judaica in the world. Its centrepiece is the **Shrine of the Book** — a white dome housing the complete Isaiah Scroll and other **Dead Sea Scrolls** found at Qumran. The adjacent **Model of Second Temple Jerusalem** (1:50 scale, outdoor) makes the ancient city immediately legible. The museum is paid entry; allow half a day minimum.
+
+On the same **Givat Ram cultural campus**, the **[National Library of Israel](/national-library-israel)** opened its landmark [Herzog & de Meuron building](https://nli.org.il) in 2023–2024. The library holds more than five million books, over 50,000 manuscripts (including illuminated medieval Hebrew codices), the personal archive and papers of Albert Einstein, the Gershom Scholem Kabbalah library, and Jewish community records spanning Yemen to Poland to Morocco — making it one of the most significant repositories of Jewish textual heritage in the world. The public exhibition galleries and entrance atrium are free to enter without registration; reading room access requires advance registration for researchers. It is a natural half-day addition to an Israel Museum visit and an essential stop for visitors interested in Jewish intellectual history, rare manuscripts or genealogical research. See the full [National Library visitor guide](/national-library-israel) for opening hours, what to expect and how to plan a Givat Ram campus day.
 
 ### City of David
 
