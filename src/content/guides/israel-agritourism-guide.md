@@ -101,7 +101,7 @@ Ein Yael, in the Rephaim Valley south-west of Jerusalem's city centre, is an arc
 
 Several kibbutzim operate visitor-accessible farm experiences beyond the standard zimmer (rural B&B) stays:
 
-**Kibbutz Lotan** (Arava Valley) runs a well-regarded eco-farming and permaculture programme. Visitors can tour the organic food gardens, the bird and nature trail, and the eco-dome building projects. Short-stay visits are bookable; longer residential volunteering has historically been available for those wanting an immersive agricultural experience.
+**Kibbutz Lotan** (Arava Valley) runs a well-regarded eco-farming and permaculture programme. Visitors can tour the organic food gardens, the bird and nature trail, and the eco-dome building projects. Short-stay visits are bookable; longer residential volunteering has historically been available for those wanting an immersive agricultural experience. For the full permaculture, solar energy and birdwatching story at Lotan — including the Hai-Bar Yotvata reintroduction programme nearby — see the [sustainable & eco-tourism guide](/sustainable-travel-israel).
 
 **Kibbutz Ketura** (Arava Valley, adjacent to Lotan) grows Medjool dates and has pioneered solar energy systems; tours of both the date farm and the solar research centre are sometimes offered through the Arava Institute.
 
