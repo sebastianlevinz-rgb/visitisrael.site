@@ -1,12 +1,12 @@
 # LOOP STATE
 
-- iteration: 749
-- lastMode: REVIEW
-- lastItem: review-749-design-museum-fix
-- lastResult: REVIEW iter749 — review-749-design-museum-fix SHIPPED 1bb3cc8. Audited iters 746-748 (negev-jeep-tours, golan-heights-hiking-trails, design-museum-holon). Meta lengths CLEAN (41/55/52 chars titles; 143/155/155 chars descs). All images exist. All internal links resolve. Inbound discoverability CLEAN (design-museum-holon←tel-aviv-museums; golan-heights-hiking-trails←golan-heights-guide+hiking-in-israel; negev-jeep-tours←mitzpe-ramon-guide+negev-tours-compared). Honesty CLEAN (all prices as ranges, no fabricated ratings). One defect found + fixed: design-museum-holon.md DiscoverCars CTA had `image: /images/regions/negev/hero.jpg` on a Tel Aviv guide — corrected to /images/regions/tel-aviv/jaffa.jpg. Discoverability gap fixed: tel-aviv-things-to-do.md Culture & museums section had zero mention of Design Museum Holon and zero link to /tel-aviv-museums hub — added Design Museum Holon paragraph + cross-link to /tel-aviv-museums. Gate: pnpm check 0 errors; pnpm build 843 pages (no change); pnpm test:e2e 1140/1140 pass (10.1 min). GREEN. CI in_progress at push (standard pattern).
-- nextRotationCategory: 750%5==0 → RESEARCH
+- iteration: 750
+- lastMode: RESEARCH
+- lastItem: research-750-saturation-check-152
+- lastResult: RESEARCH iter750 — pass #152 at ~95% saturation. 1 net-new item: Almog Beach Eilat city-designated beach expansion (P3/S freshness, eilat-travel-guide.md addition). 1 resolved: Turkish Airlines still confirmed suspended Jul 2026 per jpost.com — iter419 BACKLOG item reclassified to BUILD(technical/S). Priority note added to new-luxury-hotels-israel-2026: Dizengoff 99 (Isrotel), Palatin Hotel (Fattal), Basel Complex (Isrotel), Leon Towers (Isrotel) all confirmed 2026 openings + Fattal 8+ hotels group plan. 25+ false leads eliminated (all already in BACKLOG or SHIPPED: NationalCampus=SHIPPED iter607, BiblicalHighway=SHIPPED iter668, PilgrimageRoad=SHIPPED iter371, GalileeCulinaryInstitute=EXISTS, BeerSheva=SHIPPED iter328, nationality-guides=BACKLOG). Saturation: ~95% (152 research passes). No gate run (research mode).
+- nextRotationCategory: 751%5==1 → BUILD (monetization)
 - higgsfieldSpent: 0
-- updatedAt: 2026-07-24T15:45Z
+- updatedAt: 2026-07-24T16:30Z
 - branch context: work on master; feature work on auto/<slug>
 
 Notes: iter741 BUILD (monetization) — israel-trip-cost-by-style SHIPPED d13be5d. New /israel-trip-cost-by-style fills P3/S monetization gap (from iter145 research). Companion to israel-cost-budget.md (overview) and israel-trip-cost-calculator (interactive tool). 3 traveller profiles with itemised daily spending tables (backpacker: $65-100/day hostel dorm + market meals + Rav-Kav + 1 tour share; mid-range: $150-300/day 3-star hotel + mix of casual meals + car hire + day tours; luxury: $400+/day 5-star + fine dining + private guide+driver + spa). Specific accommodation picks per tier (Abraham Hostel / Norman / King David / Setai). Holiday calendar section + quick-comparison table. 3 affiliate CTAs: Hostelworld (budget), Booking.com (mid-range), TourRadar (luxury). Cross-link added to israel-cost-budget.md Daily budgets section. Gate: pnpm check 0 errors (description violated 169 chars → fixed to 148 on first run); pnpm build 838 pages (+1); pnpm test:e2e 1130/1130 pass (+2 tests for smoke+a11y). CI in_progress at push (standard pattern). Cloud-env: empty-branch pattern; working-tree edits committed directly on master.

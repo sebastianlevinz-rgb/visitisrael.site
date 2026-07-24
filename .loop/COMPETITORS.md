@@ -6229,3 +6229,21 @@ REVIEW and BUILD modes yield higher ROI per iteration at current saturation.
 No material changes from iter740 assessment. Tourist Israel, Lonely Planet, TripAdvisor, GetYourGuide maintain their standard content sets. No new major Israel travel competitor sites detected. myisraelstay.com continues luxury hotel roundup coverage (our new-luxury-hotels-israel-2026 BACKLOG item is the direct counter). ATIJ accessible-travel 2026 guide continues to outrank us on wheelchair queries (our accessible-travel-israel BACKLOG item is the counter).
 
 **Saturation note (pass #151, 95%+):** Four consecutive RESEARCH passes (iter725/730/735/740/745) have all yielded 0–3 items, with the majority being freshness corrections rather than genuine new content categories. The BACKLOG at 720+ items is effectively the research corpus — no new research angles are likely to surface material gaps. Future RESEARCH iterations should focus narrowly on: (a) breaking-news freshness (new airline routes, attraction closures/openings in the last 30 days), (b) own-guide cross-consistency audits, (c) competitor tool feature launches.
+
+### 2026-07-24 · iter 750 · RESEARCH pass #152 · freshness + saturation check
+
+**Focus:** Breaking-news freshness for Israel tourism (new openings/designations in last 30 days), Turkish Airlines status verification, competitor new features.
+
+**Key findings:**
+
+**Almog Beach Eilat (new):** Eilat municipality expanding Almog (Coral) Beach between Coral Beach Nature Reserve and Kite Beach into the region's first officially city-designated managed beach; new lifeguard station under construction; part of ₪1B Eilat revival. Source: ynetnews.com/travel/article/hjvl4hcryl.
+
+**Turkish Airlines status confirmed (verification):** Still fully suspended to Israel as of July 2026 per Jerusalem Post (jpost.com/middle-east/article-869553). "Considering asking Israeli authorities to restore service" (Oct 2025 report) has not advanced to actual flights. The masaisrael.org/airlines-flying-to-israel July 2026 operator list does not include Turkish Airlines.
+
+**2026 luxury hotel openings confirmed:** Six Senses Tel Aviv (five 110-year-old restored buildings + 42-storey tower; 140-key; Rothschild Blvd; spring 2026). Fattal Hotels group: 8+ properties opening in 2026 (Palatin Hotel, Dizengoff 99 Isrotel, Basel Complex Isrotel, Leon Towers Isrotel). The Yacht Herzliya already noted (SHIPPED iter703).
+
+**Biblical Highway / Route 60 (already shipped):** Officially designated "Derech HaTanach" by PM Netanyahu + US Ambassador Huckabee on June 18, 2026. Our /israel-biblical-highway guide covers this — SHIPPED iter668. Competing TBN documentary and acrookedpath.com coverage confirms the topic is actively ranking.
+
+**National Campus for Archaeology (already shipped):** SHIPPED iter607 — confirmed open for tours (Tue + Thu, advance booking via iaa.org.il); Leon Levy National Treasures Center targeting 2026 full opening (visitor experience center early 2027).
+
+**Saturation: ~95% (152 research passes, 843 pages, 750+ iterations).**

@@ -11338,3 +11338,34 @@ Next: iter 745 → RESEARCH (745%5==0).
 **Ship**: committed 1bb3cc8 to master; pushed origin/master. Branch auto/review-749-design-museum-fix deleted. CI in_progress at push (standard pattern).
 
 **Next**: iter 750 → RESEARCH per 750%5==0 rotation.
+
+## 2026-07-24T16:30Z · iter 750 · RESEARCH · research-750-saturation-check-152
+
+**Mode**: RESEARCH — iter 750%5==0.
+
+**Research scope**: Pass #152 at ~95% saturation. Focused on breaking-news freshness (new Israel tourism openings/announcements in last 30 days), competitor new features, and verifying whether unresolved BACKLOG items are now actionable.
+
+**Net-new BACKLOG additions (1 genuine new item):**
+- P3/S technical/freshness: Almog (Coral) Beach Eilat city-designated beach expansion — Eilat municipality expanding Almog Beach between Coral Beach Nature Reserve and Kite Beach; new lifeguard station being constructed; designated as Eilat's first officially city-managed beach. Part of the ₪1B Eilat luxury/infrastructure revival. Not currently mentioned in eilat-travel-guide.md. Action: add 1-2 sentences + update beaches section. Sources: ynetnews.com/travel/article/hjvl4hcryl, recommend.com/destinations/israel-invests-in-tourism-infrastructure.
+
+**Resolved BACKLOG items (1):**
+- iter419/line-1047 Turkish Airlines status: CONFIRMED STILL SUSPENDED as of July 2026 per jpost.com/middle-east/article-869553. "TK considering asking Israeli authorities to restore service" (Oct 2025 report) has not materialised into actual flights. The israel-vs-turkey.md "no direct flights" claim is still factually correct. Item action: add one-sentence evergreen note ("no direct flights as of mid-2026; check turkishairlines.com for current status"). Reclassified from REVIEW to BUILD(technical/S) — small text addition only.
+
+**Priority note added:**
+- new-luxury-hotels-israel-2026 BACKLOG item (iter370/P2/M): confirmed additional 2026-opening properties beyond the Six Senses TLV priority note (iter710): Dizengoff 99 (Isrotel, TLV), Palatin Hotel (Fattal), Basel Complex Hotel (Isrotel), Leon Towers (Isrotel). Fattal Hotels group plans 8+ new openings in 2026 totalling 1,000+ rooms. All are 2026 Israeli-sovereign openings suitable for the luxury-hotels-2026 roundup guide.
+
+**False leads eliminated (all already in BACKLOG or SHIPPED):**
+- National Campus Archaeology → SHIPPED iter607 (b452b06)
+- Biblical Highway → SHIPPED iter668 (60a15f6)
+- Jerusalem Pilgrimage Road → SHIPPED iter371 (5279b75)
+- Galilee Culinary Institute → EXISTS (galilee-culinary-institute-gonen.md)
+- Beer-Sheva guide → SHIPPED iter328 (5f7c736)
+- Canada/Australia/France/Japan travelers → all BACKLOG (iter430/430/465/455)
+- Six Senses Tel Aviv → already in PRIORITY NOTE iter710 for new-luxury-hotels guide
+- Schottenstein Campus → SHIPPED iter607
+
+**Saturation pattern (pass #152):** 1 genuine net-new from 25+ candidates researched. Confirms 95%+ saturation ceiling established at iter725. Future passes should focus narrowly on breaking-news freshness and cross-consistency audits.
+
+**Gate**: N/A (RESEARCH mode — no code changes).
+**Ship**: N/A.
+**Next**: iter 751 → BUILD (monetization) per 751%5==1 rotation. Top candidates: new-luxury-hotels-israel-2026 (P2/M iter370/615 — now with enriched property list), israel-for-canadian-travelers (P3/S iter430), israel-for-australian-travelers (P3/S iter430), Almog Beach freshness note to eilat-travel-guide.md (P3/S new). Monetization rotation: new-luxury-hotels-israel-2026 is the highest-priority monetization BUILD item.
