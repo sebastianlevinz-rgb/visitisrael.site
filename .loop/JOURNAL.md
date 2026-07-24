@@ -11162,3 +11162,15 @@ Changes: (1) israel-national-parks-pass.md — renamed section to "Israel Pass &
 Gate: pnpm check 0 errors; 836 pages (no change); 1126/1126 e2e+a11y pass. GREEN.
 Merge SHA: 21f38ee; pushed origin/master. CI in_progress at push (standard pattern).
 Next: iter 737 → BUILD/seo-content (737%5==2).
+
+## 2026-07-24T03:45Z · iter 737 · BUILD (seo-content) · national-library-israel
+
+**Item**: [P3] (seo-content, S) National Library of Israel visitor guide (/national-library-israel)
+
+**What**: New /national-library-israel fills confirmed P3/S seo-content gap (BACKLOG iter130 research). No existing dedicated visitor guide despite the National Library of Israel opening its Herzog & de Meuron landmark building on Jerusalem's Givat Ram campus in 2023–2024. Content: architecture (pomegranate-cross-section radial interior, Jerusalem stone, H&dM commission 2012, opened 2023–24); public access explanation (public areas free/walk-in; reading rooms require nli.org.il pre-registration; reading rooms closed without advance booking); collection highlights (5M+ books, 50k manuscripts, Einstein archive, Gershom Scholem library, Jewish music archives, genealogical records); practical info (Eliezer Kaplan St 1, light rail to Knesset stop, open Sun–Thu); Givat Ram campus day plan (NLI → Wohl Rose Garden → Israel Museum → Knesset viewpoint); who-should-visit section (architecture enthusiasts, Jewish heritage travelers, genealogists, rare-book lovers, photographers); 7 FAQs. 3 affiliate CTAs: GYG Jerusalem cultural tours, Booking Jerusalem hotels, Abraham private heritage tours. Cross-links IN: jerusalem-museums.md §5 now links /national-library-israel; jewish-genealogy-israel-trip.md NLI section now links /national-library-israel. Cross-links FROM: /jewish-genealogy-israel-trip, /jerusalem-museums, /jewish-heritage-israel, /shabbat-guide.
+
+**Gate**: pnpm check 0 errors (369 guides, 0 violations); pnpm build 837 pages (+1 /national-library-israel); pnpm test:e2e 1128/1128 pass (+2 new: smoke + a11y for /national-library-israel). GREEN.
+
+**Merge**: Squash to master b64eb74; pushed origin/master; branch auto/national-library-israel deleted.
+
+**CI**: in_progress at push (standard pattern; prior consecutive runs all confirmed success).
