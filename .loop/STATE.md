@@ -1,12 +1,12 @@
 # LOOP STATE
 
-- iteration: 738
-- lastMode: BUILD
-- lastItem: spanish-israir-madrid-freshness
-- lastResult: BUILD iter738 (technical fallthrough → seo-content/freshness) — spanish-israir-madrid-freshness SHIPPED b8a4ebd. Technical category had no ready items (2 items blocked for human review; haifa-cruise-terminal-guide content already fully current from prior iterations). Fell through to seo-content: added Israir MAD–TLV direct route (Oct 25 2026; 3×/week A320) to israel-for-spanish-travelers.md — confirmed gap vs cheap-flights-to-israel.md which already listed it. Updated FAQ "Are there direct flights from Spain?" + body Flights section + bumped updatedAt to 2026-07-24. Gate: pnpm check 0 errors; 837 pages (no change); 1128/1128 e2e+a11y pass. CI in_progress at push (standard pattern; prior consecutive runs confirmed success).
-- nextRotationCategory: 739%5==4 → REVIEW
+- iteration: 739
+- lastMode: REVIEW
+- lastItem: review-739-nli-heritage-link
+- lastResult: REVIEW iter739 — audited iters 736–738 (israel-pass-ride-freshness, national-library-israel, spanish-israir-madrid-freshness). iters 736+738 passed audit cleanly (meta lengths, internal links, honesty, H1 absence, test vectors all OK). iter737 defect found: jewish-heritage-israel.md omitted /national-library-israel despite being the primary Jewish heritage guide. Fix SHIPPED fe85e4c: expanded Israel Museum section to "Israel Museum, National Library and the Givat Ram campus"; added NLI paragraph with link; updated FAQ #1 to include NLI; bumped updatedAt. Gate: pnpm check 0 errors; 837 pages (no change); 1128/1128 e2e+a11y pass. CI in_progress at push (standard pattern; prior run c650042 confirmed success).
+- nextRotationCategory: 740%5==0 → RESEARCH
 - higgsfieldSpent: 0
-- updatedAt: 2026-07-24T04:55Z
+- updatedAt: 2026-07-24T05:45Z
 - branch context: work on master; feature work on auto/<slug>
 
 Notes: iter736 BUILD (monetization fallthrough → technical/seo P2) — israel-pass-ride-freshness SHIPPED 21f38ee. Corrected outdated "check with concierge" wording in israel-national-parks-pass.md Israel Pass combo section: renamed to "Israel Pass & Ride — the all-in-one tourist pass"; described as permanent INPA product with dedicated israelpass.biz website + 24/6 booth in Ben Gurion T3 arrivals hall + Ramon Airport; added Orange Card vs Israel Pass & Ride comparison paragraph; updated FAQ #4 to mention T3 booth. Cross-reference added to rav-kav-israel.md T3 arrivals section (visitors comparing standalone Rav-Kav vs combo pass see both options). Gate: pnpm check 0 errors; 836 pages (no change); 1126/1126 e2e+a11y pass. CI in_progress at push (standard pattern).

@@ -11184,3 +11184,18 @@ Next: iter 737 → BUILD/seo-content (737%5==2).
 **Merge**: Squash to master b8a4ebd; pushed origin/master; branch auto/spanish-israir-madrid-freshness deleted.
 
 **CI**: in_progress at push (standard pattern; prior consecutive runs all confirmed success).
+
+## 2026-07-24T05:45Z · iter 739 · REVIEW · review-739-nli-heritage-link
+
+**What**: REVIEW (739%5==4). Audited iters 736–738: israel-pass-ride-freshness (iter736), national-library-israel (iter737), spanish-israir-madrid-freshness (iter738).
+
+**Findings**:
+- iter736 (Israel Pass & Ride freshness) — CLEAN. Meta OK, honesty framing correct ("verify at israelpass.biz"), rav-kav cross-reference present, no H1 in body.
+- iter738 (Israir MAD–TLV freshness) — CLEAN. FAQ + body both updated consistently; evergreen "verify at israir.com" framing; no exact prices.
+- iter737 (national-library-israel) — DEFECT: jewish-heritage-israel.md was not updated to link to /national-library-israel. The guide's JOURNAL entry listed the NLI as a "Cross-links FROM" source, but that referred to outbound links FROM the NLI guide body, not inbound cross-links INTO the NLI guide from jewish-heritage-israel.md. The latter was missing.
+
+**Fix**: jewish-heritage-israel.md — expanded Israel Museum section heading to "Israel Museum, National Library and the Givat Ram campus"; added paragraph describing NLI (building, collections, public access, genealogy value) with link to /national-library-israel; updated FAQ #1 to include NLI alongside Israel Museum/City of David/ANU; bumped updatedAt to 2026-07-24.
+
+**Gate**: pnpm check 0 errors; pnpm build 837 pages (no change); pnpm test:e2e 1128/1128 pass. GREEN.
+
+**Merge SHA**: fe85e4c; pushed origin/master. CI in_progress at push (standard pattern; prior consecutive runs confirmed success).
