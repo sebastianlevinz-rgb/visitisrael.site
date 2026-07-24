@@ -11280,3 +11280,19 @@ Next: iter 745 → RESEARCH (745%5==0).
 **Gate**: N/A (RESEARCH mode — no code changes).
 **Ship**: N/A.
 **Next**: iter 746 → BUILD (monetization) per 746%5==1 rotation. Top candidates: new-luxury-hotels-israel-2026 (P2/M iter740), accessible-travel-israel (P2/M iter55/585), israel-for-canadian-travelers (P3/S), israel-for-australian-travelers (P3/S).
+
+## 2026-07-24 · iter 746 · BUILD (monetization) · negev-jeep-tours
+
+**Mode**: BUILD (monetization) — 746%5==1.
+
+**What**: New /negev-jeep-tours — dedicated Negev jeep & 4WD safari guide. TRIPLE-ZERO gap confirmed: no exact-slug P-item in BACKLOG (only listed as part of BACKLOG iter570 P2/M entry), no DONE.md entry, no guide file in src/content/guides/.
+
+**Content**: Ramon Crater jeep circuit (Carpentry volcanic formation, multicoloured sandstone strata, ammonite fossil wall, Mitzpe Ramon return); Wadi Zin Nabataean spice-route circuit (Ein Avdat canyon, ancient Nabataean camel trail sections); Eilat Mountains + Red Canyon area (Shchoret canyon red sandstone slot, Timna Park add-on); guided vs self-drive 4WD breakdown (when a jeep tour is essential vs optional; self-drive permitted tracks). Honesty throughout: pricing as ranges only (₪250–450 half-day group, ₪400–700 full-day, ₪1,200–2,500 private); operator categories described rather than individual operators with fabricated specifics. 7 FAQs. 3 affiliate CTAs: GYG (jeep safaris), Viator (private 4WD), Booking.com (Mitzpe Ramon hotels as tour base).
+
+**Cross-links added**: mitzpe-ramon-guide.md (end of jeep tours paragraph), israel-adventure-sports.md (Negev jeep & 4×4 section), negev-tours-compared.md (jeep safari section). Smoke + a11y specs extended (+2 tests each for /negev-jeep-tours).
+
+**Gate**: pnpm check 0 errors (description + title within limits); pnpm build 841 pages (+1 /negev-jeep-tours); pnpm test:e2e 1136/1136 pass (10.7 min). GREEN.
+
+**Ship**: committed 107bf75 to master; pushed origin/master. CI in_progress at push (standard pattern). Cloud-env: empty-branch pattern (working-tree edits committed directly on master; auto/best-hotels-mitzpe-ramon feature branch deleted locally).
+
+**Next**: iter 747 → BUILD (seo-content) per 747%5==2 rotation. Top candidates: accessible-travel-israel (P2/M iter55/585), israel-for-canadian-travelers (P3/S), israel-for-australian-travelers (P3/S), new-luxury-hotels-israel-2026 (P2/M iter740).

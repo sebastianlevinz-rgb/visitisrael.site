@@ -1237,3 +1237,6 @@ Honesty fix to /rosh-hanikra-guide.md (P3/technical/content-update, iter625 rese
 
 ## iter743 · best-hotels-netanya · 5f710f1
 - [iter743 5f710f1] Best Hotels in Netanya (/best-hotels-netanya) — Cliff-top Independence Square zone (Seasons Hotel cliff-top luxury, David Tower full-service), Leonardo Club all-inclusive (European charter groups, families), Ramada mid-range international brand, city-centre budget guesthouses (₪400-650). Decision matrix table. 6 FAQs. Booking.com destination:Netanya + GYG northern coast tour CTAs. Cross-links: netanya-guide.md Where to stay paragraph + israel-accommodation-guide.md Related guides list. 840 pages (+1); 1134/1134 e2e+a11y pass. [monetization]
+
+## iter746 · negev-jeep-tours · 107bf75
+- [iter746 107bf75] Negev Jeep & 4WD Safari Guide (/negev-jeep-tours) — TRIPLE-ZERO gap (no P-item, no DONE, no file). Ramon Crater circuit (Carpentry formation, multicoloured sands, ammonite wall), Wadi Zin Nabataean spice-route, Eilat Mountains + Red Canyon area, guided vs self-drive 4WD. Price ranges only (₪250-450 group half-day, ₪400-700 full-day, ₪1,200-2,500 private). GYG + Viator + Booking.com Mitzpe Ramon CTAs. Cross-links: mitzpe-ramon-guide.md + israel-adventure-sports.md + negev-tours-compared.md. 841 pages (+1); 1136/1136 e2e+a11y pass. [monetization/seo-content]
