@@ -383,6 +383,7 @@ const ROUTES = [
   '/sustainable-travel-israel',
   '/best-hotels-netanya',
   '/negev-jeep-tours',
+  '/design-museum-holon',
 ];
 
 for (const route of ROUTES) {

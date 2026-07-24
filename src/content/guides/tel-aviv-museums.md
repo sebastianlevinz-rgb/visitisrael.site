@@ -132,7 +132,7 @@ The Design Museum Holon is the most architecturally distinctive museum building 
 
 The museum focuses on contemporary design, fashion, visual communication, and applied arts. It does not have a large permanent collection in the traditional sense; instead, it runs a rotating programme of major temporary exhibitions that have included retrospectives on Israeli fashion designers, international design biennales, and cross-disciplinary shows combining product design with architecture and film.
 
-**Before visiting:** Check the current exhibition at dmh.org.il. The museum is not worth a separate trip to Holon if the current show doesn't interest you; it is strongly recommended for design, fashion, or architecture enthusiasts when the programme aligns.
+**Before visiting:** Check the current exhibition at dmh.org.il. The museum is not worth a separate trip to Holon if the current show doesn't interest you; it is strongly recommended for design, fashion, or architecture enthusiasts when the programme aligns. See the [Design Museum Holon visitor guide](/design-museum-holon) for full practical details including opening hours, tickets and directions.
 
 **Getting there:** Holon is roughly 20 minutes from central Tel Aviv by car or taxi. There is no direct light rail connection; the most practical option is a taxi (Gett/inDrive) or rideshare. Alternatively, combine with a visit to Old Jaffa (which is en route) and make it a south-of-Tel-Aviv afternoon.
 
