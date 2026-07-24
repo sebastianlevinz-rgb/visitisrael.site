@@ -11438,3 +11438,18 @@ Smoke test +1 (israel-for-serbian-travelers route).
 **Ship**: 5dbc1ef squash-merged and pushed to master. CI + Lighthouse in_progress at push
 (standard pattern — prior 5 runs all `success`).
 **Next**: iter 754 → REVIEW per 754%5==4 rotation.
+
+## 2026-07-24T19:50Z · iter 754 · REVIEW · review-754-holy-sepulchre-status-quo-fix
+
+**Mode**: REVIEW (754%5==4).
+**Scope**: Audited israel-for-french-travelers (iter752) and israel-for-serbian-travelers (iter753) — both shipped within last 24h, both nationality-specific guides with factual claims that warranted a fresh audit pass.
+
+**Finding — corrected (autonomous fix):** The Serbian guide incorrectly stated the Serbian Orthodox Church holds "specific rights at the Calvary chapel" under the Ottoman-era Status Quo agreement and that "Serbian Orthodox worshippers have defined access rights under the Status Quo agreement." The Status Quo of 1757/1852 covers Greek Orthodox, Armenian Apostolic, and Roman Catholic Franciscan communities as primary custodians; Serbian Orthodox is not a Status Quo denomination with defined custodial rights. Serbian Orthodox pilgrims worship freely as visitors at all shared areas, but the Status Quo framing was factually wrong and would mislead pilgrims expecting privileged access. Fixed in: (1) body Section "Church of the Holy Sepulchre" — removed "grants the Serbian Orthodox Church specific rights at the Calvary chapel" + "defined access rights under the Status Quo agreement"; replaced with accurate description of access as visitors and mention that the Srpski Manastir nearby provides a base; (2) FAQ #6 — corrected matching sentence to remove Status Quo claim.
+
+**Finding — BACKLOG/human-review (not auto-fixed):**
+- French guide (iter752): "Notre-Dame de France, at 3 Via Dolorosa... operated by the Institut Catholique de Paris" — Institut Catholique de Paris is an academic university (Paris, France), not a pilgrim hospice operator; the actual operator of the Notre-Dame de France Center in Jerusalem is more likely a French religious congregation (e.g. Assumptionists/Augustinians of the Assumption). Address and operator need editorial verification before changing.
+- Serbian guide (iter753): "established during the era of King Stefan Prvovjenčani in the 13th century" — the monastery founding attribution to Stefan Prvovjenčani (died 1228) is historically uncertain; Serbian Holy Land connections are more commonly attributed to Saint Sava (1175–1235) and King Stefan Milutin (1282–1321). Needs historical source verification before modifying.
+
+**Gate**: pnpm check 0 errors; pnpm build 846 pages (no change); pnpm test:e2e 1145/1145 pass. GREEN.
+**Ship**: dc1e128 committed and pushed to master. CI in_progress at push (standard pattern — prior 5 runs all success).
+**Next**: iter 755 → RESEARCH (755%5==0).
