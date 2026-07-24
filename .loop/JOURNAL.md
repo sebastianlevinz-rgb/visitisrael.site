@@ -11475,3 +11475,12 @@ Smoke test +1 (israel-for-serbian-travelers route).
 **Ship**: 71c7067 squash-merged and pushed to master. CI in_progress at push (standard pattern — prior 5 runs all success).
 **Stale remote branches noted**: auto/bga-transfers-sherut-update (iter608 tip), auto/israel-hebrew-phrases (iter588), auto/israel-vs-cyprus (iter410), auto/jerusalem-trail (iter573) — content from all 4 confirmed present in master; orphaned branches left in place (human cleanup or next iteration).
 **Next**: iter 757 → BUILD seo-content (757%5==2). Top candidates: israel-winter-sun-guide (P3/S), israel-group-tour-planning (P3/M seo-content+monetization), or next P2 seo-content item.
+
+## 2026-07-24T23:10Z · iter 757 · BUILD · israel-for-gulf-travelers
+
+**Mode**: BUILD (757%5==2 → seo-content). Top P2 seo-content item without existing guide file.
+**Branch**: auto/israel-for-gulf-travelers (cloud-env empty-branch pattern; working-tree edits committed directly on master → 90ff61b).
+**What shipped**: New /israel-for-gulf-travelers fills confirmed P2/M seo-content gap (iter230 research). UAE, Bahrain & Morocco Abraham Accords visitor guide covering: ETA-IL pre-travel approval (eta.gov.il, ~₪25, required since Jan 2025); direct flights table (El Al/FlyDubai/Etihad from DXB/AUH; Royal Air Maroc CMN–TLV; ~3h15 from Dubai); Arabic language context (20% Arab-Israeli population; bilingual signage; Arabic-speaking taxi drivers; Muslim Quarter/Nazareth/Akko/Jaffa); Al-Aqsa Mosque / Temple Mount / Haram al-Sharif visitor access — PAIRED NAMING throughout; honest caveats on access hours changing per Waqf/security conditions; halal food guide (Muslim Quarter Jerusalem, Nazareth, Akko, Jaffa, Wadi Nisnas Haifa) with explicit kosher≠halal caveat; prayer facilities by city (Al-Aqsa, Al-Bahr Jaffa, Al-Jazzar Akko, Haifa, Nazareth); currency+NFC payment; UAE/IDP driving; cross-border options (Aqaba Wadi Araba, Taba Sinai). 7 FAQs. 3 CTAs: GYG Jerusalem Muslim Quarter tour + Booking.com hotels + GYG Eilat Red Sea diving. Hebron excluded per project content policy. Cross-link added to first-time-in-israel.md nationality hub. 2 new smoke+a11y tests for /israel-for-gulf-travelers.
+**Gate**: pnpm check 0 errors (380 guides); pnpm build 848 pages (+1); pnpm test:e2e 1149/1149 pass (+2 new tests). GREEN.
+**Ship**: 90ff61b committed and pushed to master. CI in_progress at push (standard pattern — prior 5 runs all success).
+**Next**: iter 758 → BUILD tools (758%5==3).
