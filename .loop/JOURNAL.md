@@ -11140,3 +11140,11 @@ Next: iter 733 → BUILD/technical (733%5==3).
 **Merge**: Squash to master 11be68d; pushed origin/master; branch auto/rosh-hanikra-oos-update deleted.
 
 **CI**: in_progress at push (run 30054115546 CI + 30054115558 Lighthouse — both for 11be68d). Standard pattern; prior consecutive runs all confirmed success.
+
+## 2026-07-24T00:45Z · iter 734 · REVIEW · review-734-photography-tours-test-coverage
+What: REVIEW (734%5==4). Audited iters 731–733: israel-photography-tours (new page, iter731), israel-yoga-retreats (new page, iter732), rosh-hanikra-oos-update (honesty fix, iter733).
+Six checks across all three pages: (1) meta lengths — all CLEAN (photography-tours 41/158, yoga-retreats 44/133, rosh-hanikra 46/154, all within ≤65/≤160 limits); (2) H1 in bodies — none found in any file; (3) internal links — all 20 links across 3 files resolve to existing content (guides, regions, attractions); (4) hero images — all 5 referenced images on disk; (5) backlinks — photography-tours has inbound from israel-photography-guide.md intro paragraph; yoga-retreats has inbound from israel-wellness-spa.md + negev.md; rosh-hanikra existing cross-links intact; (6) rosh-hanikra OOS fix confirmed: blockquote with verify-status links in place, Ottoman tunnel described as active alternative, cable car framing appropriately uncertain.
+Defect found and fixed: /israel-photography-tours was shipped in iter731 but never added to smoke.spec.ts or a11y.spec.ts — only guide in recent history to omit both test vectors. Fix: added '/israel-photography-tours' to ROUTES array in smoke.spec.ts (after '/israel-photography-guide') and a11y.spec.ts (after '/israel-yoga-retreats'). +2 test vectors.
+Gate: pnpm check 0 errors; 836 pages (no change); 1126/1126 e2e+a11y pass (was 1124, +2 new photography-tours tests). GREEN.
+Merge SHA: 730deb2; committed directly to master, pushed origin/master. CI pending at push (standard pattern).
+Next: iter 735 → RESEARCH (735%5==0, pass #149).
