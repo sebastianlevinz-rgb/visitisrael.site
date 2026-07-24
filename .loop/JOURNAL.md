@@ -11369,3 +11369,14 @@ Next: iter 745 → RESEARCH (745%5==0).
 **Gate**: N/A (RESEARCH mode — no code changes).
 **Ship**: N/A.
 **Next**: iter 751 → BUILD (monetization) per 751%5==1 rotation. Top candidates: new-luxury-hotels-israel-2026 (P2/M iter370/615 — now with enriched property list), israel-for-canadian-travelers (P3/S iter430), israel-for-australian-travelers (P3/S iter430), Almog Beach freshness note to eilat-travel-guide.md (P3/S new). Monetization rotation: new-luxury-hotels-israel-2026 is the highest-priority monetization BUILD item.
+
+## 2026-07-24T17:00Z · iter 751 · BUILD (monetization) · new-luxury-hotels-israel-2026
+
+**Mode**: BUILD — iter 751%5==1 → monetization rotation.
+**Item**: new-luxury-hotels-israel-2026 (P2/M, from iter370/615 research, enriched iter710+750).
+**What**: New guide `/new-luxury-hotels-israel-2026` — Israel's 2026 luxury hotel surge roundup.
+Featured properties: Six Senses Tel Aviv (flagship opening; 5 heritage buildings + LEED Platinum tower, 10-floor spa, rooftop sky pool; most anticipated Israel hotel opening in a decade), Nobu Hotel Tel Aviv (Jaffa, De Niro/Matsuhisa brand debut in Israel), The Yacht Hotel Herzliya (Fattal Group, 325 rooms, marina resort, opened June 2026), Isrotel Kayma Dead Sea (eco-luxury concept), Herzl Hotel Beersheba (Ottoman Governor's House conversion), Canaan-Tzfat (Safed boutique), Ein Hod Boutique Wellness Hotel (Carmel artists' colony), plus TLV additions Dizengoff 99/Basel Complex/Leon Towers/Palatin Hotel.
+Honest opening-status caveats throughout; no fabricated prices or ratings; all prices as indicative ranges only. 7 FAQs, 3 affiliate CTAs (Booking.com new luxury TLV, Booking.com new hotels Israel, GetYourGuide TLV luxury experiences). Cross-links added: best-hotels-tel-aviv.md (after 2025-2026 section), israel-accommodation-guide.md (Related guides), luxury-travel-israel.md (Plan your trip). VERT Hotel and Kassland Resort correctly excluded (too early / West Bank BLOCKED).
+**Gate**: pnpm check 0 errors; pnpm build 844 pages (+1 /new-luxury-hotels-israel-2026); pnpm test:e2e 1140/1140 pass. GREEN.
+**Ship**: f210b76 committed and pushed to master. CI in_progress at push (standard pattern; prior 3 consecutive runs all success).
+**Next**: iter 752 → BUILD (seo-content) per 752%5==2 rotation.

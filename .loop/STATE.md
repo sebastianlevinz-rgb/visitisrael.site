@@ -1,12 +1,12 @@
 # LOOP STATE
 
-- iteration: 750
-- lastMode: RESEARCH
-- lastItem: research-750-saturation-check-152
-- lastResult: RESEARCH iter750 — pass #152 at ~95% saturation. 1 net-new item: Almog Beach Eilat city-designated beach expansion (P3/S freshness, eilat-travel-guide.md addition). 1 resolved: Turkish Airlines still confirmed suspended Jul 2026 per jpost.com — iter419 BACKLOG item reclassified to BUILD(technical/S). Priority note added to new-luxury-hotels-israel-2026: Dizengoff 99 (Isrotel), Palatin Hotel (Fattal), Basel Complex (Isrotel), Leon Towers (Isrotel) all confirmed 2026 openings + Fattal 8+ hotels group plan. 25+ false leads eliminated (all already in BACKLOG or SHIPPED: NationalCampus=SHIPPED iter607, BiblicalHighway=SHIPPED iter668, PilgrimageRoad=SHIPPED iter371, GalileeCulinaryInstitute=EXISTS, BeerSheva=SHIPPED iter328, nationality-guides=BACKLOG). Saturation: ~95% (152 research passes). No gate run (research mode).
-- nextRotationCategory: 751%5==1 → BUILD (monetization)
+- iteration: 751
+- lastMode: BUILD (monetization)
+- lastItem: new-luxury-hotels-israel-2026
+- lastResult: BUILD iter751 — new /new-luxury-hotels-israel-2026 SHIPPED f210b76. New guide covers Israel's 2026 luxury hotel surge: Six Senses Tel Aviv (10-floor spa, sky pool, 5 heritage buildings + LEED Platinum tower), Nobu Hotel Tel Aviv (Jaffa, De Niro/Matsuhisa brand), The Yacht Hotel Herzliya (325 rooms, Fattal Group, marina resort, June 2026), Isrotel Kayma Dead Sea (eco-luxury), Herzl Hotel Beersheba (Ottoman Governor's House), Canaan-Tzfat (Safed boutique), Ein Hod Boutique Wellness Hotel, plus Dizengoff 99/Basel Complex/Leon Towers/Palatin Hotel (TLV openings). 7 FAQs, 3 affiliate CTAs (2x Booking.com + GetYourGuide luxury experiences). Honest opening-status caveats throughout; no fabricated prices or ratings. Cross-links added from best-hotels-tel-aviv.md, israel-accommodation-guide.md, luxury-travel-israel.md. Gate: pnpm check 0 errors; pnpm build 844 pages (+1); pnpm test:e2e 1140/1140 pass. CI in_progress at push (standard pattern).
+- nextRotationCategory: 752%5==2 → BUILD (seo-content)
 - higgsfieldSpent: 0
-- updatedAt: 2026-07-24T16:30Z
+- updatedAt: 2026-07-24T17:00Z
 - branch context: work on master; feature work on auto/<slug>
 
 Notes: iter741 BUILD (monetization) — israel-trip-cost-by-style SHIPPED d13be5d. New /israel-trip-cost-by-style fills P3/S monetization gap (from iter145 research). Companion to israel-cost-budget.md (overview) and israel-trip-cost-calculator (interactive tool). 3 traveller profiles with itemised daily spending tables (backpacker: $65-100/day hostel dorm + market meals + Rav-Kav + 1 tour share; mid-range: $150-300/day 3-star hotel + mix of casual meals + car hire + day tours; luxury: $400+/day 5-star + fine dining + private guide+driver + spa). Specific accommodation picks per tier (Abraham Hostel / Norman / King David / Setai). Holiday calendar section + quick-comparison table. 3 affiliate CTAs: Hostelworld (budget), Booking.com (mid-range), TourRadar (luxury). Cross-link added to israel-cost-budget.md Daily budgets section. Gate: pnpm check 0 errors (description violated 169 chars → fixed to 148 on first run); pnpm build 838 pages (+1); pnpm test:e2e 1130/1130 pass (+2 tests for smoke+a11y). CI in_progress at push (standard pattern). Cloud-env: empty-branch pattern; working-tree edits committed directly on master.
