@@ -11380,3 +11380,29 @@ Honest opening-status caveats throughout; no fabricated prices or ratings; all p
 **Gate**: pnpm check 0 errors; pnpm build 844 pages (+1 /new-luxury-hotels-israel-2026); pnpm test:e2e 1140/1140 pass. GREEN.
 **Ship**: f210b76 committed and pushed to master. CI in_progress at push (standard pattern; prior 3 consecutive runs all success).
 **Next**: iter 752 → BUILD (seo-content) per 752%5==2 rotation.
+
+## 2026-07-24T17:30Z · iter 752 · BUILD (seo-content) · israel-for-french-travelers
+
+**Mode**: BUILD — iter 752%5==2 → seo-content rotation.
+**Item**: israel-for-french-travelers (P3/S, from iter465/iter580 research).
+**What**: New guide `/israel-for-french-travelers` — France-specific Israel travel guide.
+France = Israel's #2 inbound market; Europe's largest Jewish diaspora (~500,000); no competitor
+has a France-specific Israel guide in English. Content: ETA-IL (mandatory since Jan 2025; many
+French travel agents haven't updated pre-departure checklists); Air France CDG–TLV 3–4 daily
+nonstop (~4h30m) + Transavia France + El Al; Assurance Maladie/CEAM non-coverage gap (carte
+vitale and CEAM have zero coverage in Israel; assurance voyage required; AXA Voyage/Chapka/
+Heyme/April International recommendations); Type E→H plug adapter (same 230V; adapter only,
+no converter); French payment systems (Lydia/Lyf Pay/PayLib do NOT work; Visa/MC/N26/Revolut
+all work); Sephardic heritage angle (Moroccan/Algerian/Tunisian community ties; Mahane Yehuda
+Moroccan-Jewish food, ANU Museum genealogy, Safed Sephardic synagogues); French Catholic
+pilgrimage (Notre-Dame de France hospice at 3 Via Dolorosa; Institut Catholique de Paris-
+operated); Passover/spring school holidays booking alert (vacances de printemps typically
+coincide; Jerusalem sells out months ahead); embassy contacts (Ambassade de France 112 Promenade
+Herbert Samuel TLV; Consulat général 5 Paul Émile Botta Jerusalem). 7 FAQs, 3 affiliate CTAs
+(Booking.com + GYG + DiscoverCars). Cross-links: first-time-in-israel.md (French visitors added
+to nationality hub), cheap-flights-to-israel.md (Air France/Transavia row added to EU carriers
+table). Smoke + a11y specs extended (+2 tests for new-luxury-hotels-israel-2026 + israel-for-
+french-travelers).
+**Gate**: pnpm check 0 errors; pnpm build 845 pages (+1); pnpm test:e2e 1144/1144 pass. GREEN.
+**Ship**: fded8a5 committed and pushed to master. CI in_progress at push (standard pattern).
+**Next**: iter 753 → BUILD (technical) per 753%5==3 rotation.
