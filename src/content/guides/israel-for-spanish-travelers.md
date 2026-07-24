@@ -3,7 +3,7 @@ title: 'Israel for Spanish Travelers: Flights, Visa & ETA-IL, Tips (2026)'
 description: 'Spain to Israel: ETA-IL requirements, direct flights from Madrid and Málaga, Sephardic heritage, health insurance gaps, and practical tips.'
 heroImage: /images/regions/jerusalem/hero.jpg
 category: Planning
-updatedAt: 2026-07-23
+updatedAt: 2026-07-24
 ctaHeading: 'Book your Israel trip from Spain'
 affiliateCtas:
   - partner: booking
@@ -33,7 +33,7 @@ faqs:
   - question: Do Spanish citizens need a visa for Israel?
     answer: "No visa is required for Spanish passport holders for tourist stays of up to 90 days. However, since January 2025, Spanish travellers must obtain an ETA-IL (Electronic Travel Authorisation for Israel) online before departure. Apply at eta.gov.il — approval is usually granted within minutes to a few hours. Do not confuse the ETA-IL with a visa; it is a pre-travel authorisation, not a stamp, and most airlines now check for it at check-in."
   - question: Are there direct flights from Spain to Israel?
-    answer: "Yes. Arkia launched a weekly direct route between Tel Aviv (Ben Gurion, TLV) and Málaga (AGP) in July 2026. El Al, Iberia and Vueling connect Madrid (MAD) and Barcelona (BCN) to Tel Aviv with one stop (typically via Rome, Paris or London). Ryanair and Wizz Air operate seasonal routes from secondary Spanish airports. Flight time on a direct service is approximately 4–5 hours."
+    answer: "Yes. Two carriers now operate direct Spain–Israel routes. Arkia launched a weekly direct TLV–Málaga (AGP) service in July 2026. Israir is adding a direct Madrid (MAD)–Tel Aviv route from October 25, 2026, operating 3× weekly on an A320 — verify the current schedule at israir.com before booking. El Al, Iberia and Vueling also connect Madrid and Barcelona to Tel Aviv with one stop. Ryanair and Wizz Air run seasonal services from secondary Spanish airports. Flight time on a direct service is approximately 4–5 hours."
   - question: Is my Spanish health insurance (TSE/EHIC) valid in Israel?
     answer: "No. The Tarjeta Sanitaria Europea (TSE), also known as the EHIC, is an EU-scheme card and covers you only within the European Economic Area. It does not provide any cover in Israel. Spanish travellers need a dedicated travel insurance policy that includes medical cover and emergency repatriation for Israel. See our Israel travel insurance guide for what to look for."
   - question: What power adapter do Spanish travellers need in Israel?
@@ -64,7 +64,7 @@ Apply at [eta.gov.il](https://www.eta.gov.il) — the process takes a few minute
 
 ## Flights from Spain to Israel
 
-**Direct:** Arkia launched a weekly TLV–Málaga (AGP) direct route in July 2026 — the first scheduled direct connection between Israel and southern Spain. Flight time is approximately 4–5 hours. Check arkia.com for current scheduling and seasonal frequency.
+**Direct:** Two carriers now operate direct Spain–Israel services. Arkia launched a weekly TLV–Málaga (AGP) route in July 2026 — the first scheduled direct connection between Israel and southern Spain. **Israir** is adding direct Madrid (MAD)–Tel Aviv flights from October 25, 2026, with 3 weekly departures on an A320 — the first nonstop Madrid–Tel Aviv option. Verify current schedules at arkia.com and israir.com before booking, as route frequency can change. Flight time on a direct service is approximately 4–5 hours.
 
 **One-stop:** El Al connects Tel Aviv with both Madrid (MAD) and Barcelona (BCN) via codeshare arrangements. Iberia (via Madrid, often connecting through Rome or other hubs) and Vueling operate competing routes. Ryanair and Wizz Air run seasonal services from Valencia, Alicante and other Spanish cities, typically via a hub.
 
