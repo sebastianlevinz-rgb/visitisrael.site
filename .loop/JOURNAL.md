@@ -11322,3 +11322,19 @@ Next: iter 745 → RESEARCH (745%5==0).
 **Stale BACKLOG notes**: lag-baomer-israel has a "status: ready" upgrade note at line 1597 but was SHIPPED iter692 (3def4dc) — the upgrade note was appended after shipping. Logged for REVIEW pass cleanup.
 
 **Next**: iter 749 → REVIEW per 749%5==4 rotation.
+
+## 2026-07-24T15:45Z · iter 749 · REVIEW · review-749-design-museum-fix
+
+**What**: Audited iters 746-748 (negev-jeep-tours, golan-heights-hiking-trails, design-museum-holon).
+
+**Checks clean**: Meta lengths (41/55/52 title chars; 143/155/155 desc chars). All hero images resolve. All internal links resolve (sampled 20+ hrefs across 3 guides). Inbound discoverability adequate: design-museum-holon←tel-aviv-museums.md; golan-heights-hiking-trails←golan-heights-guide+hiking-in-israel; negev-jeep-tours←mitzpe-ramon-guide+negev-tours-compared. Honesty clean: all prices as ranges, no fabricated ratings or review counts.
+
+**Defect fixed**: design-museum-holon.md DiscoverCars CTA block had `image: /images/regions/negev/hero.jpg` — a Negev landscape image on a Holon/Tel Aviv guide. CTA copy mentions Jaffa's flea market; corrected image to `/images/regions/tel-aviv/jaffa.jpg`.
+
+**Discoverability gap fixed**: tel-aviv-things-to-do.md Culture & museums section listed Tel Aviv Museum of Art, Eretz Israel Museum, Palmach Museum and Independence Hall but had zero mention of Design Museum Holon and zero inbound link to /tel-aviv-museums hub. Added a Design Museum Holon paragraph with /design-museum-holon link + cross-link to /tel-aviv-museums.
+
+**Gate**: pnpm check 0 errors; pnpm build 843 pages (no change); pnpm test:e2e 1140/1140 pass (10.1 min). GREEN.
+
+**Ship**: committed 1bb3cc8 to master; pushed origin/master. Branch auto/review-749-design-museum-fix deleted. CI in_progress at push (standard pattern).
+
+**Next**: iter 750 → RESEARCH per 750%5==0 rotation.

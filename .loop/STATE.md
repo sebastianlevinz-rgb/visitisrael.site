@@ -1,12 +1,12 @@
 # LOOP STATE
 
-- iteration: 748
-- lastMode: BUILD
-- lastItem: design-museum-holon
-- lastResult: BUILD iter748 — design-museum-holon SHIPPED b710606. New /design-museum-holon fills P3/S seo-content gap (iter710 research). Standalone visitor guide for Ron Arad's corten-steel Design Museum Holon in Holon (20 min from TLV). Content: building section (Ron Arad + Bruno Asa, corten steel ribbons, Condé Nast "new wonders of the world" recognition), exhibitions section (rotating-only model, no permanent collection, seasonal timed-entry caveat), getting there (car/bus/taxi from TLV and Ben Gurion Airport), practical info (hours, tickets, café, gift shop), combining with TLV day. 7 FAQs. 3 CTAs: GYG TLV architecture/design tour, Booking.com TLV hotels, DiscoverCars. Cross-link added to tel-aviv-museums.md Design Museum Holon section. Smoke + a11y specs +1 each (1140/1140 pass). Category fall-through: 748%5==3 → tools → all tools SHIPPED → technical → all shipped/blocked → seo-content (Design Museum Holon). Gate: pnpm check 0 errors; pnpm build 843 pages (+1); pnpm test:e2e 1140/1140 pass (8.6 min). GREEN. CI in_progress at push (standard pattern).
-- nextRotationCategory: 749%5==4 → REVIEW
+- iteration: 749
+- lastMode: REVIEW
+- lastItem: review-749-design-museum-fix
+- lastResult: REVIEW iter749 — review-749-design-museum-fix SHIPPED 1bb3cc8. Audited iters 746-748 (negev-jeep-tours, golan-heights-hiking-trails, design-museum-holon). Meta lengths CLEAN (41/55/52 chars titles; 143/155/155 chars descs). All images exist. All internal links resolve. Inbound discoverability CLEAN (design-museum-holon←tel-aviv-museums; golan-heights-hiking-trails←golan-heights-guide+hiking-in-israel; negev-jeep-tours←mitzpe-ramon-guide+negev-tours-compared). Honesty CLEAN (all prices as ranges, no fabricated ratings). One defect found + fixed: design-museum-holon.md DiscoverCars CTA had `image: /images/regions/negev/hero.jpg` on a Tel Aviv guide — corrected to /images/regions/tel-aviv/jaffa.jpg. Discoverability gap fixed: tel-aviv-things-to-do.md Culture & museums section had zero mention of Design Museum Holon and zero link to /tel-aviv-museums hub — added Design Museum Holon paragraph + cross-link to /tel-aviv-museums. Gate: pnpm check 0 errors; pnpm build 843 pages (no change); pnpm test:e2e 1140/1140 pass (10.1 min). GREEN. CI in_progress at push (standard pattern).
+- nextRotationCategory: 750%5==0 → RESEARCH
 - higgsfieldSpent: 0
-- updatedAt: 2026-07-24T14:50Z
+- updatedAt: 2026-07-24T15:45Z
 - branch context: work on master; feature work on auto/<slug>
 
 Notes: iter741 BUILD (monetization) — israel-trip-cost-by-style SHIPPED d13be5d. New /israel-trip-cost-by-style fills P3/S monetization gap (from iter145 research). Companion to israel-cost-budget.md (overview) and israel-trip-cost-calculator (interactive tool). 3 traveller profiles with itemised daily spending tables (backpacker: $65-100/day hostel dorm + market meals + Rav-Kav + 1 tour share; mid-range: $150-300/day 3-star hotel + mix of casual meals + car hire + day tours; luxury: $400+/day 5-star + fine dining + private guide+driver + spa). Specific accommodation picks per tier (Abraham Hostel / Norman / King David / Setai). Holiday calendar section + quick-comparison table. 3 affiliate CTAs: Hostelworld (budget), Booking.com (mid-range), TourRadar (luxury). Cross-link added to israel-cost-budget.md Daily budgets section. Gate: pnpm check 0 errors (description violated 169 chars → fixed to 148 on first run); pnpm build 838 pages (+1); pnpm test:e2e 1130/1130 pass (+2 tests for smoke+a11y). CI in_progress at push (standard pattern). Cloud-env: empty-branch pattern; working-tree edits committed directly on master.
