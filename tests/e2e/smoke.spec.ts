@@ -656,6 +656,7 @@ const ROUTES = [
   '/design-museum-holon',
   '/new-luxury-hotels-israel-2026',
   '/israel-for-french-travelers',
+  '/israel-for-serbian-travelers',
 ];
 
 for (const route of ROUTES) {
