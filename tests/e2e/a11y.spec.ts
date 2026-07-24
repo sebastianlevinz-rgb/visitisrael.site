@@ -380,6 +380,7 @@ const ROUTES = [
   '/national-library-israel',
   '/israel-trip-cost-by-style',
   '/sustainable-travel-israel',
+  '/best-hotels-netanya',
 ];
 
 for (const route of ROUTES) {

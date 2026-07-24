@@ -139,4 +139,6 @@ The Sharon Plain east of Netanya has a cluster of small wineries that make up pa
 
 **Getting Rav-Kav:** If you plan to use buses within Netanya after arriving by train, an existing Rav-Kav card (loaded with stored value) covers local buses. A single-ride ticket can also be purchased on bus.
 
+**Where to stay:** For hotel recommendations by area and price tier, see the [best hotels in Netanya guide](/best-hotels-netanya) — it covers cliff-top sea-view properties, the Leonardo Club all-inclusive, and budget options near the city centre.
+
 **Cross-links:** [Caesarea guide](/caesarea-guide) · [Day trips from Tel Aviv](/day-trips-from-tel-aviv) · [Haifa day trips](/day-trips-from-haifa) · [Rav-Kav Israel guide](/rav-kav-israel) · [Transportation in Israel](/transportation) · [Tel Aviv complete guide](/tel-aviv) · [Israel National Parks Pass](/israel-national-parks-pass)
