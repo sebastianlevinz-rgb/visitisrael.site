@@ -11215,3 +11215,13 @@ Next: iter 737 → BUILD/seo-content (737%5==2).
 **Gate**: N/A (RESEARCH mode).
 
 **Next**: iter 741 → BUILD (monetization) per 741%5==1 rotation.
+
+## 2026-07-24T07:45Z · iter 741 · BUILD (monetization) · israel-trip-cost-by-style
+
+**What**: New `/israel-trip-cost-by-style` guide fills the monetization gap between the existing israel-cost-budget.md overview and the israel-trip-cost-calculator interactive tool. Three traveller profiles (backpacker $65–100/day, mid-range $150–300/day, luxury $400+/day) with itemised daily spending tables, per-tier accommodation picks (Abraham Hostel / Norman / King David / Setai), pro tips per profile, holiday calendar spike section, and a quick-comparison summary table. 7 FAQs. Monetization: Hostelworld CTA (budget tier), Booking.com CTA (mid-range), TourRadar CTA (luxury). Cross-link added to israel-cost-budget.md Daily budgets section pointing readers to the companion guide for deeper breakdowns.
+
+**Gate**: pnpm check — caught desc 169 chars (max 160) on first run, fixed to 148; 0 errors on second run. pnpm build 838 pages (+1). pnpm test:e2e 1130/1130 pass (+2 tests: smoke + a11y for /israel-trip-cost-by-style). GREEN.
+
+**Ship**: committed d13be5d to master; pushed origin/master. CI in_progress at push (standard pattern). Cloud-env: empty-branch pattern (working-tree edits committed directly on master after branch produced no commits).
+
+**Next**: iter 742 → BUILD (seo-content) per 742%5==2 rotation.

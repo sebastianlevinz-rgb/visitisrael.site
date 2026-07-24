@@ -1,13 +1,15 @@
 # LOOP STATE
 
-- iteration: 740
-- lastMode: RESEARCH
-- lastItem: research-pass-150-july-2026
-- lastResult: RESEARCH iter740 — 2 net-new items from 15+ candidates (10 web searches). Net-new: (1) TUS IL new airline addition to cheap-flights guide (P3/S) — Israel's 5th airline (Holiday Lines Group, A320s, European + Georgia + UAE routes), genuinely absent from all guides; (2) Fauda Season 4 Golan filming locations freshness (P3/S) — Magdel Shams Druze village + Mount Hermon absent from israel-film-tv-tourism.md. False leads eliminated (13+): ETA-IL (SHIPPED iter83); BGA T1 (SHIPPED iter688); T3 expansion (iter487); Israir Asia (in guides); 17-hotel roundup (BACKLOG P2/M); agritourism (SHIPPED iter288); accessible travel (BACKLOG); medical tourism (BACKLOG); Fauda general (SHIPPED iter272). BACKLOG now ~729 items.
-- nextRotationCategory: 741%5==1 → BUILD (monetization)
+- iteration: 741
+- lastMode: BUILD
+- lastItem: israel-trip-cost-by-style
+- lastResult: BUILD iter741 (monetization) — israel-trip-cost-by-style SHIPPED d13be5d. New /israel-trip-cost-by-style fills monetization gap (P3/S backlog iter145 research). Three traveller profiles (backpacker $65-100/day, mid-range $150-300/day, luxury $400+/day) with itemised daily spending tables, accommodation picks per tier, pro tips, and a quick-comparison summary table. Monetization: Hostelworld CTA (budget), Booking.com CTA (mid-range), TourRadar CTA (luxury). Cross-link added from israel-cost-budget.md. Gate: pnpm check 0 errors; 838 pages (+1); 1130/1130 e2e+a11y pass (+2 tests). CI in_progress at push (standard pattern).
+- nextRotationCategory: 742%5==2 → BUILD (seo-content)
 - higgsfieldSpent: 0
-- updatedAt: 2026-07-24T07:00Z
+- updatedAt: 2026-07-24T07:45Z
 - branch context: work on master; feature work on auto/<slug>
+
+Notes: iter741 BUILD (monetization) — israel-trip-cost-by-style SHIPPED d13be5d. New /israel-trip-cost-by-style fills P3/S monetization gap (from iter145 research). Companion to israel-cost-budget.md (overview) and israel-trip-cost-calculator (interactive tool). 3 traveller profiles with itemised daily spending tables (backpacker: $65-100/day hostel dorm + market meals + Rav-Kav + 1 tour share; mid-range: $150-300/day 3-star hotel + mix of casual meals + car hire + day tours; luxury: $400+/day 5-star + fine dining + private guide+driver + spa). Specific accommodation picks per tier (Abraham Hostel / Norman / King David / Setai). Holiday calendar section + quick-comparison table. 3 affiliate CTAs: Hostelworld (budget), Booking.com (mid-range), TourRadar (luxury). Cross-link added to israel-cost-budget.md Daily budgets section. Gate: pnpm check 0 errors (description violated 169 chars → fixed to 148 on first run); pnpm build 838 pages (+1); pnpm test:e2e 1130/1130 pass (+2 tests for smoke+a11y). CI in_progress at push (standard pattern). Cloud-env: empty-branch pattern; working-tree edits committed directly on master.
 
 Notes: iter736 BUILD (monetization fallthrough → technical/seo P2) — israel-pass-ride-freshness SHIPPED 21f38ee. Corrected outdated "check with concierge" wording in israel-national-parks-pass.md Israel Pass combo section: renamed to "Israel Pass & Ride — the all-in-one tourist pass"; described as permanent INPA product with dedicated israelpass.biz website + 24/6 booth in Ben Gurion T3 arrivals hall + Ramon Airport; added Orange Card vs Israel Pass & Ride comparison paragraph; updated FAQ #4 to mention T3 booth. Cross-reference added to rav-kav-israel.md T3 arrivals section (visitors comparing standalone Rav-Kav vs combo pass see both options). Gate: pnpm check 0 errors; 836 pages (no change); 1126/1126 e2e+a11y pass. CI in_progress at push (standard pattern).
 

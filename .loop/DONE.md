@@ -1228,3 +1228,6 @@ Honesty fix to /rosh-hanikra-guide.md (P3/technical/content-update, iter625 rese
 ## iter739 · REVIEW · review-739-nli-heritage-link · fe85e4c
 - **What**: Discoverability fix — jewish-heritage-israel.md now links to /national-library-israel with a full paragraph describing the NLI building, collections and visitor access; FAQ #1 updated to include NLI.
 - **Why**: iter737 shipped /national-library-israel but omitted the cross-link from the primary Jewish heritage guide. Standard REVIEW-mode catch.
+
+## iter741 · israel-trip-cost-by-style · d13be5d
+- [iter741 d13be5d] Israel Trip Cost by Travel Style (/israel-trip-cost-by-style) — 3-tier traveller profile guide (backpacker $65–100/day, mid-range $150–300/day, luxury $400+/day) with daily spending tables, accommodation picks, holiday spike calendar, quick-comparison table. Hostelworld + Booking.com + TourRadar affiliate CTAs. 7 FAQs. Cross-link added to israel-cost-budget.md. Companion to the existing /israel-trip-cost-calculator tool. 838 pages (+1); 1130/1130 e2e+a11y pass. [monetization/seo-content]
