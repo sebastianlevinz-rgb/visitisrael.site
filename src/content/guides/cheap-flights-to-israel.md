@@ -67,6 +67,7 @@ These dates shift each year on the Hebrew calendar — use the fare tools below 
 | Carrier | Main bases | Notes |
 | --- | --- | --- |
 | El Al | London, Paris, Amsterdam, Rome, Frankfurt, Zurich, Budapest | Daily or near-daily from major hubs |
+| Air France / Transavia | Paris CDG, Orly | 3–4 daily CDG–TLV; see [Israel for French visitors](/israel-for-french-travelers) |
 | Arkia | Málaga AGP | New Jul 2026; weekly direct — see [Israel for Spanish visitors](/israel-for-spanish-travelers) |
 | Israir | Madrid MAD | New from Oct 2026; 3×/week A320 |
 | Wizz Air | London Luton, Budapest, Vienna, Bucharest and others | Ultra-low base fares; luggage add-ons |

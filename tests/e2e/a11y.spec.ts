@@ -384,6 +384,8 @@ const ROUTES = [
   '/best-hotels-netanya',
   '/negev-jeep-tours',
   '/design-museum-holon',
+  '/new-luxury-hotels-israel-2026',
+  '/israel-for-french-travelers',
 ];
 
 for (const route of ROUTES) {
