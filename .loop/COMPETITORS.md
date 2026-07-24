@@ -6247,3 +6247,31 @@ No material changes from iter740 assessment. Tourist Israel, Lonely Planet, Trip
 **National Campus for Archaeology (already shipped):** SHIPPED iter607 — confirmed open for tours (Tue + Thu, advance booking via iaa.org.il); Leon Levy National Treasures Center targeting 2026 full opening (visitor experience center early 2027).
 
 **Saturation: ~95% (152 research passes, 843 pages, 750+ iterations).**
+
+### 2026-07-24 · iter 755 · RESEARCH pass #153 · breaking-news airline routes freshness
+
+**Focus:** Breaking-news European airline route launches to TLV (last 30 days), South America route gaps, cross-guide consistency audits.
+
+**Key findings:**
+
+**ITA Airways FCO–TLV (new, July 1 2026):** ITA Airways (Italy's state flag carrier, Alitalia successor) launched twice-daily Rome Fiumicino–TLV service from July 1, 2026. Not present in cheap-flights-to-israel.md carrier table. Italy is a top-5 inbound tourism market; ITA is now the primary Italian scheduled carrier to TLV.
+
+**airBaltic RIX–TLV + El Al codeshare (new, July 1 2026):** airBaltic (Latvia, IATA BT) resumed Riga–TLV service July 1, 2026, with an El Al codeshare agreement making it jointly bookable. Riga hub provides connections from Estonia, Lithuania, Finland, and parts of Scandinavia. Absent from cheap-flights-to-israel.md.
+
+**Eurowings HAM–TLV and DUS–TLV (new, July 10 and July 18 2026):** Eurowings (Lufthansa Group LCC) launched Hamburg–TLV (Jul 10) and Düsseldorf–TLV (Jul 18) — both within the 14 days preceding this research pass. Germany is Israel's #3 inbound market; prior guide coverage was Lufthansa FRA mainline only. Absent from cheap-flights-to-israel.md.
+
+**El Al TLV–EZE Buenos Aires (Nov 29 2026 launch):** El Al is inaugurating Buenos Aires Ezeiza service November 29, 2026 — first Israeli carrier nonstop to South America. cheap-flights-to-israel.md has no South America section at all; the gap is a discoverability miss for any South American reader. (Note: the israel-for-argentinian-travelers backlog item is separate scope.)
+
+**SAS CPH–TLV status:** SAS returned to TLV service October 2025 (documented in JOURNAL iter717 context). No new info this pass — confirming this is already known.
+
+**Competitor landscape assessment (stable):**
+No material new competitor sites detected. touristisrael.com, Lonely Planet, TripAdvisor, GetYourGuide maintain standard content. None has a dedicated ITA Airways Italy→Israel section, an airBaltic/Nordic codeshare section, or a South America cheap-flights section. Our cheap-flights guide (SHIPPED iter638) is well-positioned to maintain edge with these freshness additions.
+
+**Cross-guide consistency check:**
+- cheap-flights-to-israel.md vs israel-for-french-travelers.md: both were checked; Air France CDG–TLV row added to cheap-flights by iter752 — consistent.
+- ben-gurion-airport-guide.md vs israel-travel-2026.md (T3 expansion): israel-travel-2026.md has T3 expansion tender context (SHIPPED iter487); airport guide has none — cross-guide gap confirmed.
+- Nordic travelers guide: BACKLOG iter450 P3/S → priority upgrade to P2/M justified by SAS+airBaltic+El Al codeshare convergence.
+
+**False leads eliminated (19+):** Israir JFK (SHIPPED iter638 — confirmed in guide); El Al SFO (SHIPPED iter638 — confirmed in guide); October 7 memorial (BLOCKED iter80); Turkish Airlines TLV (still suspended, verified iter750); new luxury hotels (SHIPPED iter751); Air Haifa TLV-ETM (SHIPPED iter717); Kassland Resort (BACKLOG iter735); TUS IL (BACKLOG iter740); Nordic guide non-existence (BACKLOG iter450 line 1117 — already spec'd).
+
+**Saturation: ~95% (153 prior research passes).** Pass #153 confirms the pattern: genuine new items are now exclusively from breaking-news events (route launches, new openings) in the last 30 days. All established content categories are saturated. Future RESEARCH iterations should scan aviation news and attraction opening announcements first.

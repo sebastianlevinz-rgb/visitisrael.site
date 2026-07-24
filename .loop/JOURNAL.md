@@ -11453,3 +11453,15 @@ Smoke test +1 (israel-for-serbian-travelers route).
 **Gate**: pnpm check 0 errors; pnpm build 846 pages (no change); pnpm test:e2e 1145/1145 pass. GREEN.
 **Ship**: dc1e128 committed and pushed to master. CI in_progress at push (standard pattern — prior 5 runs all success).
 **Next**: iter 755 → RESEARCH (755%5==0).
+
+## 2026-07-24 · iter 755 · RESEARCH · research-755-european-routes-freshness
+
+**Mode**: RESEARCH (755%5==0). No code changed; gate not run.
+**Sources**: Aviation news (Eurowings/airBaltic/ITA Airways press releases + masaisrael.org airline list), cheap-flights-to-israel.md grep verification, BACKLOG.md grep, DONE.md cross-check.
+**Focus**: Breaking-news airline route freshness (last 30 days), South America gap, cross-guide consistency.
+**Net-new**: 6 items confirmed. (1) ITA Airways FCO–TLV July 1 launch → cheap-flights carrier table P2/S; (2) airBaltic RIX–TLV July 1 + El Al codeshare → cheap-flights carrier table P3/S; (3) Eurowings HAM+DUS–TLV July 10/18 → cheap-flights carrier table P3/S; (4) El Al EZE Buenos Aires Nov 29 launch → cheap-flights South America section P3/S; (5) nordic-travelers priority upgrade P3→P2/M (SAS+airBaltic+codeshare convergence); (6) ben-gurion-airport-guide T3 expansion cross-guide freshness note P3/S.
+**False leads eliminated**: 19+ (see COMPETITORS.md pass #153 and BACKLOG section).
+**Saturation**: ~95% (153 research passes). Pattern confirmed: new items exclusively from breaking-news events in last 30 days.
+**Gate**: N/A (RESEARCH mode).
+**Ship**: N/A. Updated .loop/ STATE+JOURNAL+BACKLOG+COMPETITORS; committed and pushed.
+**Next**: iter 756 → BUILD (756%5==1 → monetization). Top candidate from backlog: israel-for-nordic-travelers.md (priority-upgraded P2/M this iter) OR next monetization P2 item (per rotation).

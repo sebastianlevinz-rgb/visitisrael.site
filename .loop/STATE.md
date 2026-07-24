@@ -1,12 +1,12 @@
 # LOOP STATE
 
-- iteration: 754
-- lastMode: REVIEW
-- lastItem: review-754-holy-sepulchre-status-quo-fix
-- lastResult: REVIEW iter754 — honesty fix SHIPPED dc1e128. Audited israel-for-french-travelers (iter752) and israel-for-serbian-travelers (iter753). Found and corrected 1 factual error in Serbian guide: claim that Serbian Orthodox Church holds "specific rights at the Calvary chapel under the Status Quo agreement" is incorrect — the Status Quo at the Church of the Holy Sepulchre covers only Greek Orthodox, Armenian Apostolic, and Roman Catholic Franciscan communities as primary custodians; Serbian Orthodox is not a Status Quo denomination. Fixed in body section + FAQ #6 to accurately state Serbian pilgrims worship freely as visitors. Additional REVIEW findings added to BACKLOG: (a) french-travelers Notre-Dame de France "operated by Institut Catholique de Paris" — ICP is an academic university not a hospice operator; needs human verification; (b) serbian-travelers monastery founding attribution to "Stefan Prvovjenčani in 13th century" — historically uncertain vs Saint Sava/Stefan Milutin; needs verification. Gate: pnpm check 0 errors; pnpm build 846 pages (no change); pnpm test:e2e 1145/1145 pass. CI in_progress at push (standard pattern — prior 5 runs success).
-- nextRotationCategory: 755%5==0 → RESEARCH
+- iteration: 755
+- lastMode: RESEARCH
+- lastItem: research-755-european-routes-freshness
+- lastResult: RESEARCH iter755 — pass #153. 6 net-new BACKLOG items: (1) ITA Airways FCO–TLV July 1 2026 launch → cheap-flights carrier table addition (P2/S); (2) airBaltic RIX–TLV July 1 2026 + El Al codeshare → cheap-flights carrier table (P3/S); (3) Eurowings HAM–TLV Jul 10 + DUS–TLV Jul 18 2026 → cheap-flights carrier table (P3/S); (4) El Al EZE Buenos Aires Nov 29 2026 → cheap-flights South America section (P3/S); (5) israel-for-nordic-travelers priority upgrade P3→P2/M (SAS+airBaltic+codeshare convergence); (6) ben-gurion-airport-guide.md T3 expansion cross-guide freshness note (P3/S). 19+ false leads eliminated. Saturation ~95% (153 research passes). No code shipped. .loop/ updated and committed.
+- nextRotationCategory: 756%5==1 → BUILD monetization
 - higgsfieldSpent: 0
-- updatedAt: 2026-07-24T19:50Z
+- updatedAt: 2026-07-24T20:20Z
 - branch context: work on master; feature work on auto/<slug>
 
 Notes: iter751 BUILD (monetization) — new-luxury-hotels-israel-2026 SHIPPED f210b76. New guide covers Israel's 2026 luxury hotel surge: Six Senses Tel Aviv (10-floor spa, sky pool, 5 heritage buildings + LEED Platinum tower), Nobu Hotel Tel Aviv (Jaffa, De Niro/Matsuhisa brand), The Yacht Hotel Herzliya (325 rooms, Fattal Group, marina resort, June 2026), Isrotel Kayma Dead Sea (eco-luxury), Herzl Hotel Beersheba (Ottoman Governor's House), Canaan-Tzfat (Safed boutique), Ein Hod Boutique Wellness Hotel, plus Dizengoff 99/Basel Complex/Leon Towers/Palatin Hotel (TLV openings). 7 FAQs, 3 affiliate CTAs (2x Booking.com + GetYourGuide luxury experiences). Honest opening-status caveats throughout; no fabricated prices or ratings. Cross-links added from best-hotels-tel-aviv.md, israel-accommodation-guide.md, luxury-travel-israel.md. Gate: pnpm check 0 errors; pnpm build 844 pages (+1); pnpm test:e2e 1140/1140 pass. CI in_progress at push (standard pattern).
