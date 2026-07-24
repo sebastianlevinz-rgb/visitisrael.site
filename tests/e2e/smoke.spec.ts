@@ -658,6 +658,7 @@ const ROUTES = [
   '/israel-for-french-travelers',
   '/israel-for-serbian-travelers',
   '/israel-for-nordic-travelers',
+  '/israel-for-gulf-travelers',
 ];
 
 for (const route of ROUTES) {

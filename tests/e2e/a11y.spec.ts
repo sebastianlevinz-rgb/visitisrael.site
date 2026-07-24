@@ -387,6 +387,7 @@ const ROUTES = [
   '/new-luxury-hotels-israel-2026',
   '/israel-for-french-travelers',
   '/israel-for-nordic-travelers',
+  '/israel-for-gulf-travelers',
 ];
 
 for (const route of ROUTES) {
