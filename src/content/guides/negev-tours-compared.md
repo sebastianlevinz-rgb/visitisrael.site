@@ -74,7 +74,7 @@ The tour format designed specifically for the crater interior. A half-day jeep s
 
 Local Mitzpe Ramon operators who live at the crater offer a more immersive experience than large Tel Aviv–based tour buses: smaller groups (typically 6–12 people), genuine geological knowledge from guides who have spent years in the Makhtesh, and flexibility to follow the morning's conditions. Full-day jeep safaris extend into the southern reaches of the Makhtesh and sometimes add the Carpentry Workshop formation — a volcanic-rock pattern that resembles stacked planks.
 
-Booking directly with a Mitzpe Ramon operator, or through [GetYourGuide](/plan-your-trip) filtering for crater-based departures, typically gives better crater time than Tel Aviv–based operators who spend 5 of their 14 hours on the highway.
+Booking directly with a Mitzpe Ramon operator, or through [GetYourGuide](/plan-your-trip) filtering for crater-based departures, typically gives better crater time than Tel Aviv–based operators who spend 5 of their 14 hours on the highway. For a detailed breakdown of jeep circuits, self-drive 4WD tracks, and what to look for when comparing operators, see the [Negev jeep tours guide](/negev-jeep-tours).
 
 ## Negev overnight: Bedouin camp and desert stargazing
 

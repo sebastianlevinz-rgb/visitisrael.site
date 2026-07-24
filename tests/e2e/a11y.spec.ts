@@ -381,6 +381,7 @@ const ROUTES = [
   '/israel-trip-cost-by-style',
   '/sustainable-travel-israel',
   '/best-hotels-netanya',
+  '/negev-jeep-tours',
 ];
 
 for (const route of ROUTES) {

@@ -63,7 +63,7 @@ The **Negev** and **Judean Desert** are the heart of Israel's adventure-sports s
 **Golan Heights** and the **Negev** are the two main jeep-tour arenas. Both involve scenic off-road tracks that private cars can't reach and sites where a guide adds real value.
 
 - **Golan jeep tours** — volcanic basalt terrain, hidden waterfalls (Zavitan river), Syrian-era bunkers, Nimrod Fortress, and panoramic Hermon views. Spring jeep tours pass through wildflower-carpeted hillsides.
-- **Negev jeep & 4×4 tours** — Ramon Crater rim tracks, Nabataean spice-route ruins, Bedouin hospitality stops, and sunset desert drives. Half-day and full-day formats available from Mitzpe Ramon and Be'er Sheva.
+- **Negev jeep & 4×4 tours** — Ramon Crater rim tracks, Nabataean spice-route ruins, Bedouin hospitality stops, and sunset desert drives. Half-day and full-day formats available from Mitzpe Ramon and Be'er Sheva. See the [Negev jeep tours guide](/negev-jeep-tours) for a full breakdown of circuits, self-drive tracks and booking advice.
 - **Eilat Mountains 4×4** — off-road tracks through the multicoloured sandstone mountains of the southern Negev, often combined with Red Canyon and Timna Park.
 
 ---
