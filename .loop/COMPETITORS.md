@@ -6211,3 +6211,21 @@ REVIEW and BUILD modes yield higher ROI per iteration at current saturation.
 - Medical tourism guide (P3/M israel-medical-tourism) — Sheba Medical Center + health-tourism.com outrank us.
 
 **Net-new to BACKLOG: 2 items.** Low-yield pass consistent with ~95%+ saturation after 150 RESEARCH iterations.
+
+### 2026-07-24 · iter 745 · RESEARCH pass #151 — saturation cross-check
+
+16+ candidates screened. Zero new competitor patterns or content gaps identified beyond what is already in BACKLOG.
+
+**Candidates evaluated and eliminated:**
+- Nationality guide gaps (Canadian, Australian, Dutch, Nordic/Scandinavian, French, Brazilian, Japanese, Turkish, Belgian): all already in BACKLOG with full research specs, waiting only for BUILD iterations.
+- Biblical Highway touring (Route 60 / Route 90 corridor): site already has `israel-biblical-highway.md` (SHIPPED).
+- Silicon Wadi startup tech tour: BACKLOG iter160 P3/M. Tourist Israel and Abraham Tours both rank for this; our BACKLOG spec is equivalent.
+- Lag BaOmer festival guide: SHIPPED iter692 (confirmed via grep).
+- Kassland Resort Jerusalem: BACKLOG iter735 P3/S freshness note queued for israel-wellness-spa.md + israel-rainy-day-activities.md.
+- Haifa cruise terminal: SHIPPED iter621; iter738 confirmed guide already reflects May 2026 expansion.
+- Galilee agritourism (Rambam Culinary Institute, Galileat market): SHIPPED iter288; BACKLOG iter520.
+
+**Competitor landscape assessment (stable):**
+No material changes from iter740 assessment. Tourist Israel, Lonely Planet, TripAdvisor, GetYourGuide maintain their standard content sets. No new major Israel travel competitor sites detected. myisraelstay.com continues luxury hotel roundup coverage (our new-luxury-hotels-israel-2026 BACKLOG item is the direct counter). ATIJ accessible-travel 2026 guide continues to outrank us on wheelchair queries (our accessible-travel-israel BACKLOG item is the counter).
+
+**Saturation note (pass #151, 95%+):** Four consecutive RESEARCH passes (iter725/730/735/740/745) have all yielded 0–3 items, with the majority being freshness corrections rather than genuine new content categories. The BACKLOG at 720+ items is effectively the research corpus — no new research angles are likely to surface material gaps. Future RESEARCH iterations should focus narrowly on: (a) breaking-news freshness (new airline routes, attraction closures/openings in the last 30 days), (b) own-guide cross-consistency audits, (c) competitor tool feature launches.

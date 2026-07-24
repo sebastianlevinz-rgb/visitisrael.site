@@ -11247,3 +11247,36 @@ What: Audited iters 741-743 (israel-trip-cost-by-style, sustainable-travel-israe
 Gate: pnpm check 0 errors; 840 pages (no change); 1134/1134 e2e+a11y pass.
 Ship: squash-merged to master 7bd383c, pushed. CI in_progress at push (standard pattern).
 Next: iter 745 → RESEARCH (745%5==0).
+
+## 2026-07-24 · iter 745 · RESEARCH · research-pass-151-saturation-check
+
+**Mode**: RESEARCH (745%5==0). Pass #151.
+
+**What**: Screened 16+ candidate items across nationality guides, freshness targets, infrastructure updates, and niche travel segments. Full de-duplication run against BACKLOG.md and DONE.md.
+
+**Net-new: 0 items.** All candidates were already in BACKLOG or SHIPPED.
+
+**Candidates eliminated:**
+- Biblical Highway Route 60 / Route 90 guide → SHIPPED (israel-biblical-highway.md)
+- Kassland Resort Ma'ale Adumim → BACKLOG iter735 P3/S freshness note
+- India travelers guide → SHIPPED iter631
+- UK travelers guide → SHIPPED iter427
+- Silicon Wadi / startup tech tour → BACKLOG iter160 P3/M (already queued)
+- Haifa cruise terminal upgrades → SHIPPED iter621, verified current iter738 (already has May 2026 expansion context)
+- Galilee agritourism / Rambam culinary institute → SHIPPED iter288; BACKLOG iter520
+- Lag BaOmer guide → SHIPPED iter692; upgraded P2/S iter690 entry in BACKLOG
+- Israel for Canadian travelers → BACKLOG (ready)
+- Israel for Australian travelers → BACKLOG (ready)
+- Israel for Dutch travelers → BACKLOG (ready)
+- Israel for Nordic travelers → BACKLOG (ready)
+- Israel for French travelers → BACKLOG (ready)
+- Israel for Brazilian travelers → BACKLOG (ready)
+- Japan travelers guide → BACKLOG iter615
+- Turkish travelers guide → BACKLOG iter680
+- Belgian travelers guide → BACKLOG iter515
+
+**Pattern**: Pass #151 confirms the saturation ceiling established in iter725 (pass #147, 0 items), iter730 (pass #148, 1 item), iter735 (pass #149, 3 items), iter740 (pass #150, 2 items). Genuine new discovery gaps are now rare; remaining RESEARCH value is exclusively: (a) breaking news freshness, (b) inconsistency cross-checks between own guides, (c) major competitor feature launches. At 720+ BACKLOG items already researched and ready, BUILD mode is overwhelmingly the higher ROI activity.
+
+**Gate**: N/A (RESEARCH mode — no code changes).
+**Ship**: N/A.
+**Next**: iter 746 → BUILD (monetization) per 746%5==1 rotation. Top candidates: new-luxury-hotels-israel-2026 (P2/M iter740), accessible-travel-israel (P2/M iter55/585), israel-for-canadian-travelers (P3/S), israel-for-australian-travelers (P3/S).
