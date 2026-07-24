@@ -123,7 +123,7 @@ The **Night Spectacular** (projection-mapping show, seasonal) is a separate even
 
 ## 5. National Library of Israel
 
-The **National Library of Israel** moved into a new building on the Givat Ram cultural campus in 2023–2024 — a landmark commission by architects Herzog & de Meuron (the firm behind the Tate Modern extension and Beijing's Olympic Aquatics Centre). The building's radial design is said to be inspired by the cross-section of a pomegranate; it is clad in Jerusalem stone and set in dialogue with the surrounding government campus and Israel Museum complex.
+The **[National Library of Israel](/national-library-israel)** moved into a new building on the Givat Ram cultural campus in 2023–2024 — a landmark commission by architects Herzog & de Meuron (the firm behind the Tate Modern extension and Beijing's Olympic Aquatics Centre). The building's radial design is said to be inspired by the cross-section of a pomegranate; it is clad in Jerusalem stone and set in dialogue with the surrounding government campus and Israel Museum complex.
 
 The collection itself is extraordinary: approximately five million books, 50,000 manuscripts (including some of the world's oldest Hebrew manuscripts), the personal archives of Albert Einstein and Gershom Scholem, the largest collection of historical Jewish music in the world, and rotating public exhibitions of rare items from the collection.
 

@@ -124,7 +124,7 @@ The online database shows you name, dates and the type of document. In-person at
 
 ## National Library of Israel, Jerusalem
 
-The **National Library of Israel** — housed in its striking new [Herzog & de Meuron building](https://nli.org.il/en/visit) on Jerusalem's Givat Ram campus (adjacent to the Israel Museum and the Knesset) — offers genealogical resources that complement the ANU and Yad Vashem with different strengths.
+The **[National Library of Israel](/national-library-israel)** — housed in its striking new [Herzog & de Meuron building](https://nli.org.il/en/visit) on Jerusalem's Givat Ram campus (adjacent to the Israel Museum and the Knesset) — offers genealogical resources that complement the ANU and Yad Vashem with different strengths.
 
 ### What the NLI holds for genealogists
 

@@ -647,6 +647,7 @@ const ROUTES = [
   '/ashkelon-guide',
   '/digital-nomad-israel',
   '/israel-yoga-retreats',
+  '/national-library-israel',
 ];
 
 for (const route of ROUTES) {
