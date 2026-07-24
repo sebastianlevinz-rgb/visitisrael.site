@@ -135,7 +135,7 @@ The Golan Heights has excellent hiking through terrain that differs markedly fro
 
 The **Israel National Trail** passes through the Golan Heights, and multi-day sections from Katzrin north to Mount Hermon are among the most scenic on the entire trail. Spring (March–May) is the best time for trail hiking; streams are full and the wildflower display is at its peak.
 
-A [car rental](/car-rental-israel) is essential for reaching most trailheads. The [Israel adventure sports guide](/israel-adventure-sports) covers jeep tours, rappelling, and more active Golan experiences.
+A [car rental](/car-rental-israel) is essential for reaching most trailheads. For detailed trail information — distances, difficulty grades, seasonal swimming, and the Hexagon Pool logistics — see the [Golan Heights hiking trails guide](/golan-heights-hiking-trails). The [Israel adventure sports guide](/israel-adventure-sports) covers jeep tours, rappelling, and more active Golan experiences.
 
 ---
 

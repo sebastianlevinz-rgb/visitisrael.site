@@ -210,6 +210,7 @@ const ROUTES = [
   '/eilat-nightlife',
   '/city-of-david-jerusalem',
   '/gamla-nature-reserve-guide',
+  '/golan-heights-hiking-trails',
   '/jerusalem-mount-zion-guide',
   '/bedouin-experience-israel',
   '/red-canyon-eilat',

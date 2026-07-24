@@ -358,6 +358,7 @@ const ROUTES = [
   '/eilat-nightlife',
   '/city-of-david-jerusalem',
   '/gamla-nature-reserve-guide',
+  '/golan-heights-hiking-trails',
   '/luxury-arava-desert',
   '/jerusalem-mount-zion-guide',
   '/mitzpe-ramon-guide',
