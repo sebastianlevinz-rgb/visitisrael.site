@@ -1609,7 +1609,7 @@ Priority upgrade: lag-baomer-israel (P3/S iter265 BACKLOG) → P2/S. Reason: 202
 
 - [SHIPPED iter713 → 5273c2a] city-of-david-jerusalem freshness update — First Temple charred wooden roof beams (586 BCE Babylonian destruction) discovered July 20, 2026 (IAA + TAU, Givati Parking Lot). Added 1 sentence to Bronze Age/Iron Age section; updatedAt 2026-07-06 → 2026-07-23.
 
-- [P3, seo-content, S] Design Museum Holon standalone visitor guide (/design-museum-holon) — CONFIRMED GAP: tel-aviv-museums.md has it only in a FAQ answer. No standalone guide in BACKLOG or DONE. Ron Arad + Bruno Asa corten-steel building; Condé Nast "new wonders of the world" designation; first Israel-dedicated design museum; rotating contemporary and industrial design exhibitions; 20 min from TLV city centre by bus/car. Affiliate CTAs: Booking.com (Tel Aviv or Holon hotels), GYG (Tel Aviv design/architecture tour), DiscoverCars (TLV day trip). Cross-links: tel-aviv-museums.md (add back-link), tel-aviv-neighborhoods-guide.md, holon-guide (when built). SEO: "Design Museum Holon visit", "Holon museum Israel", "Ron Arad museum Israel guide". Sources: tripadvisor, secrettelaviv.com, touristisrael.com, lonelyplanet.com. [iter710 research] status: ready
+- [SHIPPED iter748 → b710606] Design Museum Holon standalone visitor guide (/design-museum-holon) — Ron Arad + Bruno Asa corten-steel building; rotating exhibitions; 7 FAQs; 3 CTAs. Cross-link added to tel-aviv-museums.md. [iter710 research]
 
 - [SHIPPED iter722 → 3a29484] Binyamina wine town day-trip guide (/binyamina-guide)
 

@@ -11308,3 +11308,17 @@ Next: iter 745 → RESEARCH (745%5==0).
 **Ship**: committed d70f393 to master; pushed origin/master. Branch auto/golan-heights-hiking-trails deleted. CI in_progress at push (standard pattern).
 
 **Next**: iter 748 → BUILD (tools/technical) per 748%5==3 rotation.
+
+## 2026-07-24 · iter 748 · BUILD (seo-content, fall-through from tools/technical) · design-museum-holon
+
+**What**: New guide `/design-museum-holon` — fills P3/S seo-content gap (iter710 research). Standalone visitor guide for Design Museum Holon in Holon (20 min from Tel Aviv). Category fall-through: 748%5==3 → tools (all shipped) → technical (all shipped or human-review-blocked) → seo-content.
+
+**Content**: Building section (Ron Arad + Bruno Asa, five corten steel ribbons, Condé Nast "new wonders of the world" recognition 2010); exhibitions section (rotating-only model, no permanent collection, seasonal timed-entry caveat, dmh.org.il reference); getting there (car via Route 4 / Dan bus / taxi 15-20 min / Ben Gurion Airport 25 min); practical info (hours Sun-Thu 10-18, Fri 10-14, closed Shabbat; ticket ranges 50-60 ILS; café + gift shop); combining with TLV day (White City, Bauhaus Center, Tel Aviv Museum of Art, Jaffa). 7 FAQs. 3 CTAs: GYG Tel Aviv architecture+design walking tour, Booking.com TLV city centre hotels, DiscoverCars self-drive. Cross-link added to tel-aviv-museums.md Design Museum Holon section. Smoke + a11y Playwright specs +1 each.
+
+**Gate**: pnpm check 0 errors; pnpm build 843 pages (+1 /design-museum-holon); pnpm test:e2e 1140/1140 pass (8.6 min). GREEN.
+
+**Ship**: committed b710606 to master; pushed origin/master. Branch auto/design-museum-holon deleted. CI in_progress at push (standard pattern).
+
+**Stale BACKLOG notes**: lag-baomer-israel has a "status: ready" upgrade note at line 1597 but was SHIPPED iter692 (3def4dc) — the upgrade note was appended after shipping. Logged for REVIEW pass cleanup.
+
+**Next**: iter 749 → REVIEW per 749%5==4 rotation.

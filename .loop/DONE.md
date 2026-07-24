@@ -1243,3 +1243,6 @@ Honesty fix to /rosh-hanikra-guide.md (P3/technical/content-update, iter625 rese
 
 ## iter747 · golan-heights-hiking-trails · d70f393
 - [iter747 d70f393] Golan Heights Hiking Trails Guide (/golan-heights-hiking-trails) — TRIPLE-ZERO gap (no P-item exact slug, no DONE entry, no guide file). Yehudiya Loop (14km hard, 5-7h), Zavitan Canyon (5km moderate, 2-3h), Nahal Meshushim + Hexagon Pool (7km, hexagonal basalt columns, seasonal permit notes), Gamla cross-link (5km circuit → gamla-nature-reserve-guide), Banias Falls Trail (4.7km) + Nimrod Fortress, INT Golan section (4-5 day traverse). Seasonal guide table. Safety: UXO off-trail, flash-flood. 3 CTAs (GYG hiking tours ×2, DiscoverCars). Cross-links added: golan-heights-guide.md + hiking-in-israel.md. 842 pages (+1); 1138/1138 e2e+a11y pass. [seo-content]
+
+## iter748 · design-museum-holon · b710606
+- [iter748 b710606] Design Museum Holon Visitor Guide (/design-museum-holon) — P3/S seo-content gap (iter710 research). Ron Arad's 2010 corten-steel building in Holon (20 min from TLV); rotating exhibitions (no permanent collection); practical info (hours, tickets, getting there); 7 FAQs; 3 CTAs (GYG architecture tour, Booking.com TLV, DiscoverCars). Cross-link from tel-aviv-museums.md. 843 pages (+1); 1140/1140 e2e+a11y pass. [seo-content]
