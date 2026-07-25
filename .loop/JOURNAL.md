@@ -11761,3 +11761,13 @@ All three files redirect readers to united.com for current seasonal frequencies 
 **Ship**: committed daf6591 to master; pushed origin/master. CI + Lighthouse in_progress at push (standard pattern). Branch auto/comparison-title-year-fix deleted.
 **Prod**: CI in_progress (standard).
 **Next**: iter 780 → RESEARCH (780%5==0). Scan competitors for profitable features/content gaps not yet captured. Cap at 6–10 new items.
+
+## 2026-07-25T21:30Z · iter 780 · RESEARCH · monthly-guides-aviation-freshness (NO SHIP)
+**Research pass #156.** Confirmed saturation ~97% after 156 passes; genuine new items almost exclusively breaking-news freshness + systematic gap completion.
+**Key finds**: (1) P1/S honesty fix — British Airways TLV flights suspended through at least Oct 25, 2026 (Jerusalem Post + Times of Israel confirmed). cheap-flights-to-israel.md + israel-for-british-travelers.md both need BA status update (same pattern as Emirates iter763 + Ryanair iter766). Added to BACKLOG P1/S, should be first BUILD after this. (2) Monthly guide gaps — December (Hanukkah+Christmas double-traffic P2/M), February (kalanit wildflower peak P2/M), May (Yom HaAtzmaut+beach season P2/S), September (Rosh Hashana+Yom Kippur bike-in-streets P2/S), January (quietest/cheapest month + Orthodox Christmas P2/S) — Tourist Israel covers all 12 months; we now have Oct (iter776) + Nov (iter777) + Apr+Mar (iter775 BACKLOG); remaining standalone gaps = Dec/Feb/May/Sep/Jan. (3) Tel Aviv vs Eilat comparison P2/S — sibling to tel-aviv-vs-jerusalem.md (SHIPPED); not in BACKLOG previously. (4) Airlines flying to Israel status page P2/M — masaisrael.org + israelwelcome.com both ranking; cheap-flights.md too unwieldy for real-time status.
+**Confirmed duplicates**: hanukkah-in-israel (P3/S line 691 iter265) + new-years-eve-israel (P3/S line 792 iter315) both already in BACKLOG — not re-added.
+**Air Haifa TLV-ETM**: FALSE LEAD — iter755 FALSE LEADS confirm guide already covers this (SHIPPED iter717).
+**El Al TLV-KRK**: Implementation note only — when israel-for-polish-travelers backlog item is built, lead flight section with El Al TLV-KRK 12×/week direct. Not a standalone new item.
+**HolyLandTravel.ai**: Competitor intelligence logged in COMPETITORS.md; no BACKLOG action needed (our tool moat remains and is broader).
+**Net-new items added**: 8. BACKLOG ~749 items total. No code changed; gate not run (research mode).
+**Next**: iter 781 → BUILD (781%5==1 → monetization). Top-priority BUILD item: P1/S British Airways honesty fix (cheap-flights-to-israel.md + israel-for-british-travelers.md).

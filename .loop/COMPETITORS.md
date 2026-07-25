@@ -6382,3 +6382,45 @@ No material new competitor sites detected. touristisrael.com, Lonely Planet, Tri
 **20+ false leads eliminated**: Checked for gaps in: Dead Sea swim guide, Tel Aviv beach guide, Masada sunrise, Ein Gedi, Caesarea, Haifa Bahai Gardens, Old City quarters, Golan wine, Galilean cuisine, Israel surfing, VAT refund, agritourism, multiple nationality guides, all Israeli cities, existing seasonal guides. All confirmed present as standalone pages.
 
 **6 net-new items confirmed added to BACKLOG**: Israel in October (P2/M), Israel in April (P2/M), Hula Valley guide (P2/M), Nahalat Binyamin market (P2/S), Israel in November (P2/S), Israel in March (P2/S).
+
+### 2026-07-25 · iter 780 · RESEARCH pass #156 — aviation freshness + monthly guide gap completion + comparison guide gap
+
+**Scope**: (1) Aviation freshness scan (British Airways/IAG TLV suspension status; airline recovery landscape); (2) Monthly guide gap completion pass (which of the 12 months still lack standalone guides); (3) Comparison guide gap (internal Israel city comparisons); (4) Competitor tool intelligence.
+
+**British Airways TLV suspension (P1/S honesty fix)**:
+- BA has extended TLV suspension through at least October 25, 2026 (Jerusalem Post, Times of Israel).
+- IAG partner Iberia also suspended from TLV.
+- cheap-flights-to-israel.md and israel-for-british-travelers.md must be updated: BA row = "Suspended through at least Oct 25, 2026 — verify at ba.com."
+- UK is a top-3 Israel source market; presenting suspended flag carrier as active = serious misinformation.
+- Same pattern as Emirates (iter763) and Ryanair (iter766). → BACKLOG P1/S added.
+
+**Airlines status page gap (P2/M)**:
+- masaisrael.org/airlines-flying-to-israel and israelwelcome.com/airlines-flying-to-israel-2026 both rank strongly for "which airlines fly to Israel 2026" — this is the highest-searched aviation query of 2026 due to the complex post-war airline recovery.
+- Our cheap-flights-to-israel.md covers booking strategy but NOT a real-time status table.
+- July 2026 recovery landscape: Lufthansa/SWISS/ITA resumed Jul 1; Air France Jul 3; Eurowings mid-July; airBaltic Jul; BA suspended at least Oct 25; easyJet uncertain; Ryanair confirmed out; Turkish Airlines not flying TLV.
+- A dedicated /airlines-flying-israel-2026 page with "last verified [date]" + carrier status table would rank for distinct high-intent queries. → BACKLOG P2/M added.
+
+**Monthly guide gaps confirmed (remaining after Oct/Nov iter776/777, Mar/Apr iter775)**:
+- December: Tourist Israel has 4 dedicated December pages (Hanukkah × 3 + general December). We have christmas-in-israel.md + israel-in-winter.md but NO December monthly guide. Hanukkah 2026 Dec 4-12 creates double traffic spike (Hanukkah + Christmas). → BACKLOG P2/M added.
+- May: Tourist Israel + thingstodoinisrael.com + bookmundi + kimkim all have May pages. Yom HaAtzmaut (Independence Day) + Jerusalem Day + beach season start + shoulder pricing. → BACKLOG P2/S added.
+- September: Tourist Israel + thingstodoinisrael.com + bookmundi have September pages. Rosh Hashana + Yom Kippur bike-in-streets phenomenon (genuinely unique, highly searchable) + grape harvest peak. → BACKLOG P2/S added.
+- February: Tourist Israel + thingstodoinisrael.com + bookmundi + kimkim have February pages. Kalanit wildflower peak (differentiated angle, strong European nature photographer audience) + Hermon skiing + almond blossom. → BACKLOG P2/M added.
+- January: Tourist Israel + thingstodoinisrael.com + bookmundi have January pages. Quietest/cheapest month, Orthodox Christmas Jan 6-7 + Armenian Christmas Jan 18-19 (distinct from the crowded Dec 24 Catholic mass — intimate services angle), Jan 27 Holocaust Remembrance Day at Yad Vashem. → BACKLOG P2/S added.
+- Remaining gaps after iter780 additions: Israel in June, July, August (covered by israel-in-summer.md broadly; June = Tel Aviv White Night P3/S already in BACKLOG iter265; July/August = high heat months, lower incremental value vs winter/spring months).
+
+**Tel Aviv vs Eilat comparison (P2/S)**:
+- budgetyourtrip.com/compare/tel-aviv-vs-eilat ranks for "should I visit Tel Aviv or Eilat".
+- We have tel-aviv-vs-jerusalem.md (SHIPPED) but no other internal Israel city comparisons.
+- Strong affiliate value: guides hotel bookings in two different destinations at different price points.
+- Eilat tax-free angle + seasonal logic (Eilat winter / TLV spring-autumn) makes comparison genuinely useful.
+- → BACKLOG P2/S added.
+
+**HolyLandTravel.ai competitor intelligence (no BACKLOG action)**:
+- World Jewish Travel + Reichman University students launched HolyLandTravel.ai — free AI-driven pilgrimage planning tool for Christian tourists; builds tailor-made itineraries for Holy Land destinations.
+- Israel Tourism Ministry NIS 1M "Travel Innovation IL" initiative backing AI tools for tourism.
+- Our 6 interactive tools remain a moat — no competitor has replicated our breadth (cost calculator, packing list, region quiz, Leaflet map, build-your-trip, distance calculator).
+- Pilgrimage-specific AI tool is narrower than our general trip builder. No immediate action needed; moat should be widened in future tools iterations.
+
+**8 net-new items added to BACKLOG**: BA suspension honesty fix (P1/S), airlines status page (P2/M), December monthly guide (P2/M), February monthly guide (P2/M), May monthly guide (P2/S), September monthly guide (P2/S), January monthly guide (P2/S), Tel Aviv vs Eilat comparison (P2/S).
+**Confirmed duplicates not re-added**: hanukkah-in-israel (P3/S already at line 691), new-years-eve-israel (P3/S already at line 792).
+**Saturation**: ~97% after 156 research passes.

@@ -1,12 +1,12 @@
 # LOOP STATE
 
-- iteration: 779
-- lastMode: REVIEW
-- lastItem: comparison-title-year-fix
-- lastResult: REVIEW iter779 — comparison-title-year-fix SHIPPED daf6591. Audited all comparison guides (israel-vs-turkey/jordan/egypt/greece/france/cyprus) and monthly guides (israel-in-october, israel-in-november). Monthly guides clean: 0 dead links, all cross-links resolve, no fabricated data. Found: 5 comparison guides had '(2027)' in page titles while israel-vs-turkey (updated iter778) correctly used '(2026)'. Forward-year inconsistency fixed in israel-vs-jordan, israel-vs-egypt, israel-vs-france, israel-vs-greece, israel-vs-cyprus. Gate: pnpm check 0 errors; pnpm build 853 pages (no change); pnpm test:e2e 1155/1155 pass. CI in_progress at push (standard pattern).
-- nextRotationCategory: 780%5==0 → RESEARCH
+- iteration: 780
+- lastMode: RESEARCH
+- lastItem: research-780-monthly-guides-aviation-freshness
+- lastResult: RESEARCH iter780 (pass #156) — 8 net-new items added to BACKLOG. Key finds: (1) P1/S honesty fix — British Airways TLV suspension through at least Oct 25, 2026; cheap-flights-to-israel.md + israel-for-british-travelers.md need BA row updated (same pattern as Emirates iter763 + Ryanair iter766). (2) 5 monthly guide gaps: December (P2/M, Hanukkah+Christmas double traffic spike), February (P2/M, kalanit wildflower peak), May (P2/S, Yom HaAtzmaut+Jerusalem Day), September (P2/S, Rosh Hashana+Yom Kippur bike-in-streets), January (P2/S, quietest month+Orthodox Christmas). (3) Tel Aviv vs Eilat comparison (P2/S, sibling to tel-aviv-vs-jerusalem SHIPPED). (4) Airlines flying to Israel status page (P2/M). Confirmed duplicates not re-added: hanukkah-in-israel (P3/S line 691), new-years-eve-israel (P3/S line 792). Saturation: ~97% after 156 research passes.
+- nextRotationCategory: 781%5==1 → BUILD (monetization)
 - higgsfieldSpent: 0
-- updatedAt: 2026-07-25T20:47Z
+- updatedAt: 2026-07-25T21:30Z
 - branch context: work on master; feature work on auto/<slug>
 
 Notes: iter779 REVIEW — comparison-title-year-fix SHIPPED daf6591. All 6 israel-vs-X comparison guides now consistently use '(2026)' year in titles. Monthly guides (Oct/Nov) fully clean audit. Next iteration is RESEARCH mode (780%5==0).
