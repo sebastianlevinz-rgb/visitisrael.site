@@ -1,5 +1,5 @@
 ---
-title: 'Israel vs Jordan: Which Should You Visit? (2027)'
+title: 'Israel vs Jordan: Which Should You Visit? (2026)'
 description: 'Israel vs Jordan: compare history, Petra, the Dead Sea, costs, visas, safety and beaches to decide which Middle East destination suits your trip.'
 heroImage: /images/regions/jerusalem/hero.jpg
 category: Compare

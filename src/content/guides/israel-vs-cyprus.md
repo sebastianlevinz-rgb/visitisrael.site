@@ -1,5 +1,5 @@
 ---
-title: 'Israel vs Cyprus: Which Should You Visit? (2027)'
+title: 'Israel vs Cyprus: Which Should You Visit? (2026)'
 description: 'Israel vs Cyprus: compare beaches, history, costs, nightlife, safety and visas to decide which Mediterranean destination suits your next trip.'
 heroImage: /images/regions/jerusalem/hero.jpg
 category: Compare

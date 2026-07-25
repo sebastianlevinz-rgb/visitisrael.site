@@ -1,5 +1,5 @@
 ---
-title: 'Israel vs France: Which Should You Visit? (2027)'
+title: 'Israel vs France: Which Should You Visit? (2026)'
 description: 'Israel vs France compared across history, food, costs, beaches, nightlife, safety and visas — decide which destination best suits your next trip.'
 heroImage: /images/regions/jerusalem/hero.jpg
 category: Compare
