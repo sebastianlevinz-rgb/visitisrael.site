@@ -11523,3 +11523,11 @@ updatedAt bumped to 2026-07-24. No new pages (848 unchanged).
 **Gate**: N/A (RESEARCH mode).
 **Ship**: N/A. Updated .loop/ STATE+JOURNAL+BACKLOG+COMPETITORS; committed and pushed.
 **Next**: iter 761 → BUILD (761%5==1 → monetization). Top P2 monetization item ready. If no ready monetization item, fall through to seo-content per PLAYBOOK. The Emirates honesty fix (P2/M technical/honesty) is now the highest-priority technical item.
+
+## 2026-07-25T02:50Z · iter 761 · BUILD (monetization) · israel-mediterranean-cruise-guide
+**What**: New /israel-mediterranean-cruise-guide — P2/M monetization gap confirmed by iter390 research. Comprehensive guide for planning a Mediterranean cruise that includes Israel.
+**Content**: Haifa vs Ashdod port comparison table; four Haifa shore-excursion circuits (city half-day, Old Akko by train, Caesarea+Bahá'í Gardens, Galilee+Nazareth); Jerusalem/Masada/Dead Sea from Ashdod port; pre/post-cruise 3-4 night Tel Aviv+Jerusalem extension; seasonal guide (Oct–Apr best); visa note (visa-free for EU/US/UK/CA/AU); dress-code and security context. 3 affiliate CTAs (GYG Haifa excursions, Viator Ashdod/Jerusalem tours, Booking.com Tel Aviv hotels). 7 FAQs. Cross-links to haifa-shore-excursions, cruise-shore-excursions-israel, haifa-cruise-terminal-guide, israel-accommodation-guide, israel-vs-greece, israel-jordan-itinerary, is-israel-safe, israel-money-guide, holy-sites-dress-code-etiquette, best-hotels-jerusalem.
+**Gate**: pnpm check 0 errors; pnpm build 849 pages (+1); 1149/1149 e2e+a11y pass (7.1 min).
+**Ship**: squash-merged to master 2172b98, pushed. Feature branch auto/israel-mediterranean-cruise-guide deleted.
+**Prod**: CI in_progress at push (standard pattern). Previous SHA 8adc7c5 confirmed success.
+**Next**: iter 762 → BUILD (762%5==2 → seo-content).

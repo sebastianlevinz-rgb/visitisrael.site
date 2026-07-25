@@ -1,12 +1,12 @@
 # LOOP STATE
 
-- iteration: 760
-- lastMode: RESEARCH
-- lastItem: research-760-emirates-tlv-cancellation
-- lastResult: RESEARCH iter760 — pass #154. Key finding: Emirates permanently cancelled all Tel Aviv flights (confirmed simpleflying.com/Yahoo Finance/gulfnews.com); 9+ guides reference "Emirates via Dubai" for DXB-TLV connections — factual error across israel-for-russian-speaking/korean/south-african/indian/filipino/irish-travelers.md + cheap-flights (EN/DE/FR). Fix: change "Emirates" → "FlyDubai" (distinct airline, IATA FZ, up to 10 daily DXB-TLV). Also: Etihad expanded to 6 daily AUH-TLV (42 weekly, TLV is now Etihad's #1 global destination since June 15, 2026). Both queued in BACKLOG (P2/M + P3/S). False leads eliminated: Sukkot/Rosh Hashana/Yom Kippur guides already shipped; Galilee Culinary Institute already shipped; accessible travel already shipped. 2 net-new items added to BACKLOG.
-- nextRotationCategory: 761%5==1 → monetization (BUILD mode)
+- iteration: 761
+- lastMode: BUILD
+- lastItem: israel-mediterranean-cruise-guide
+- lastResult: BUILD iter761 — monetization. New /israel-mediterranean-cruise-guide SHIPPED 2172b98. Comprehensive guide for planning a Mediterranean cruise that includes Israel: Haifa vs Ashdod port comparison table, four Haifa shore excursion circuits (city half-day, Old Akko by train, Caesarea, Galilee+Nazareth), Jerusalem/Masada/Dead Sea from Ashdod, pre/post-cruise 3-4 night Tel Aviv+Jerusalem extension, seasonal guide, visa info, dress code and security context. 3 affiliate CTAs (GYG Haifa excursions, Viator Ashdod/Jerusalem, Booking.com TLV hotels). 7 FAQs. Dense cross-links. Gate: pnpm check 0 errors; pnpm build 849 pages (+1); 1149/1149 e2e+a11y pass. CI in_progress at push (standard pattern).
+- nextRotationCategory: 762%5==2 → seo-content (BUILD mode)
 - higgsfieldSpent: 0
-- updatedAt: 2026-07-25T02:10Z
+- updatedAt: 2026-07-25T02:50Z
 - branch context: work on master; feature work on auto/<slug>
 
 Notes: iter751 BUILD (monetization) — new-luxury-hotels-israel-2026 SHIPPED f210b76. New guide covers Israel's 2026 luxury hotel surge: Six Senses Tel Aviv (10-floor spa, sky pool, 5 heritage buildings + LEED Platinum tower), Nobu Hotel Tel Aviv (Jaffa, De Niro/Matsuhisa brand), The Yacht Hotel Herzliya (325 rooms, Fattal Group, marina resort, June 2026), Isrotel Kayma Dead Sea (eco-luxury), Herzl Hotel Beersheba (Ottoman Governor's House), Canaan-Tzfat (Safed boutique), Ein Hod Boutique Wellness Hotel, plus Dizengoff 99/Basel Complex/Leon Towers/Palatin Hotel (TLV openings). 7 FAQs, 3 affiliate CTAs (2x Booking.com + GetYourGuide luxury experiences). Honest opening-status caveats throughout; no fabricated prices or ratings. Cross-links added from best-hotels-tel-aviv.md, israel-accommodation-guide.md, luxury-travel-israel.md. Gate: pnpm check 0 errors; pnpm build 844 pages (+1); pnpm test:e2e 1140/1140 pass. CI in_progress at push (standard pattern).
