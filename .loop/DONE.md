@@ -1282,3 +1282,6 @@ Etihad AUH-TLV frequency freshness: israel-for-gulf-travelers.md + cheap-flights
 
 ## iter769 · 2026-07-25 · review-769-easyjet-status-caveats · 6464d3b
 REVIEW audit of iter766 found 5 comparison/nationality guides presenting easyJet as active TLV carrier without caveat, inconsistent with cheap-flights-to-israel.md. Fixed: israel-for-british-travelers.md, israel-vs-turkey.md, israel-vs-egypt.md, israel-vs-jordan.md, israel-vs-france.md — all now include "(verify current status on easyjet.com before booking)" note. Content-only; 850 pages unchanged; 1151/1151 e2e pass.
+
+## iter771 · united-airlines-tlv-honesty-fix · 214d032
+- [iter771 214d032] United Airlines TLV resumed service honesty fix — P1/S technical/honesty (iter770 research). Three US-focused guides incorrectly stated United has not resumed Israel service since October 2023. In fact United resumed Newark EWR–TLV in March 2025 and added ORD–TLV and IAD–TLV in November 2025. Fixed: israel-for-american-travelers.md (table + inline paragraph); cheap-flights-to-israel.md (FAQ + table + inline paragraph); israel-travel-2026.md (North America section body + FAQ). All point to united.com for current schedules. 850 pages unchanged; e2e exit 0. [technical/honesty]

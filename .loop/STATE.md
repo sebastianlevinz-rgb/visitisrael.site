@@ -1,12 +1,12 @@
 # LOOP STATE
 
-- iteration: 770
-- lastMode: RESEARCH
-- lastItem: research-770-airline-freshness-monetization-gaps
-- lastResult: RESEARCH iter770 — 3 net-new BACKLOG items discovered. (1) P1/S United Airlines TLV service honesty fix: israel-for-american-travelers.md + cheap-flights-to-israel.md both incorrectly state United has not resumed Israel service — in fact United resumed March 2025, now operates 18 weekly EWR-TLV flights + ORD + IAD routes (same pattern as Emirates/Ryanair/EasyJet honesty fixes). (2) P2/M Israel points & miles / award travel guide: zero competitor on site; The Points Guy, 10xTravel, KosherSquared all rank for this; high monetization potential. (3) P3/S Almog Beach Eilat city-designated update. Also confirmed InterContinental Jerusalem P1 details (237 rooms, L18 rooftop restaurant, Mémoire French restaurant, King George Street, late summer 2026 IHG/Virtuoso opening). Gate: N/A (RESEARCH mode). No shipping. Loop memory committed.
-- nextRotationCategory: 771%5==1 → monetization (but P1 United Airlines honesty fix overrides rotation)
+- iteration: 771
+- lastMode: BUILD
+- lastItem: united-airlines-tlv-honesty-fix
+- lastResult: BUILD iter771 — United Airlines TLV resumed service honesty fix SHIPPED 214d032. Corrected false claims across 3 US-focused guides: israel-for-american-travelers.md (removed blanket "Delta and United both suspended" claim, added EWR/ORD/IAD rows to routes table), cheap-flights-to-israel.md (FAQ + table + inline paragraph all corrected, added EWR/ORD/IAD rows), israel-travel-2026.md (added United to North America flights section in body + FAQ). Reality: United resumed Newark EWR–TLV March 2025, added ORD–TLV and IAD–TLV November 2025; all redirected to united.com for seasonal schedule details. Gate: pnpm check 0 errors; pnpm build 850 pages (unchanged — content-only); pnpm test:e2e exit code 0. CI in_progress at push (standard pattern). Same P1 honesty category as Emirates (iter763), Ryanair (iter766), EasyJet (iter769).
+- nextRotationCategory: 772%5==2 → seo-content (or P1 InterContinental Jerusalem if still ready)
 - higgsfieldSpent: 0
-- updatedAt: 2026-07-25T12:00Z
+- updatedAt: 2026-07-25T12:44Z
 - branch context: work on master; feature work on auto/<slug>
 
 Notes: iter767 BUILD (seo-content) — maccabiah-post-event-reframe SHIPPED e00f030. See previous STATE.

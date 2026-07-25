@@ -11660,3 +11660,17 @@ Files with uncaveated easyJet-TLV claims (pre-fix):
 **Gate**: N/A (RESEARCH mode).
 **Ship**: N/A.
 **Next**: iter 771 → BUILD (771%5==1 → monetization; P1 United Airlines honesty fix overrides rotation — same pattern as iter766 Ryanair P1 override).
+
+## 2026-07-25T12:44Z · iter 771 · BUILD · united-airlines-tlv-honesty-fix
+
+**Mode**: BUILD (771%5==1; P1 honesty fix overrides rotation category).
+**Item**: United Airlines TLV resumed service — honesty fix across 3 US guides.
+**What**: Removed false claims that United has not resumed Israel service from 3 guides. Reality: United resumed Newark EWR–TLV in March 2025; added ORD–TLV and IAD–TLV in November 2025. Files changed:
+  - `israel-for-american-travelers.md`: removed blanket "Delta and United both suspended as of July 2026" claim; added EWR/ORD/IAD rows to routes table; corrected inline paragraph.
+  - `cheap-flights-to-israel.md`: updated FAQ #3 answer; added EWR/ORD/IAD rows to North America table; corrected inline paragraph after table.
+  - `israel-travel-2026.md`: added United bullet to North America flights section; updated FAQ answer about 2026 flight news.
+All three files redirect readers to united.com for current seasonal frequencies — no hardcoded flight counts to risk staleness.
+**Gate**: pnpm check 0 errors · pnpm build 850 pages (unchanged — content-only fix) · pnpm test:e2e exit code 0. GREEN.
+**Ship**: 214d032 committed directly to master; pushed origin/master. Branch auto/united-airlines-tlv-honesty-fix deleted.
+**Prod**: CI in_progress at push (standard pattern).
+**Next**: iter 772 → seo-content (772%5==2); P1 InterContinental Jerusalem guide is strong candidate.
