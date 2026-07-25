@@ -11609,3 +11609,10 @@ Bonus: `cheap-flights-to-israel.md` Arkia TLV→Tokyo aircraft type corrected Bo
 **Gate**: pnpm check 0 errors (131 files) · pnpm build 850 pages (no change — content-only) · pnpm test:e2e 1151/1151 pass (7.0 min). GREEN.
 **Ship**: 661584f committed and pushed to master. CI run #30149826263 + Lighthouse run #30149826296 in_progress at state-update time. Prior SHA dcfefd6 → all CI/Lighthouse runs consistently success pattern.
 **Next**: iter 767 → BUILD (767%5==2 → seo-content). Top ready P2/S seo-content items: InterContinental Jerusalem (new luxury hotel omission from new-luxury-hotels-israel-2026.md), Maccabiah Games post-event reframe.
+
+## 2026-07-25T08:55Z · iter 767 · BUILD (seo-content) · maccabiah-post-event-reframe
+What: BUILD (767%5==2 → seo-content). Top P2/S ready item: Maccabiah Games 2026 guide post-event reframe (iter765 research). The 22nd Maccabiah Games concluded on 13 July 2026; maccabiah-games-2026.md (updatedAt 2026-07-04) was still written in present/future tense.
+Changes: (1) Added post-event blockquote banner at top of body: "The 22nd Maccabiah Games concluded on 13 July 2026. This guide is preserved as a reference for the 2026 edition. The next Maccabiah Games will be held in 2030." (2) Converted "are running 30 June to 13 July 2026" → "ran from 30 June to 13 July 2026" in the intro paragraph. (3) Converted intro closing sentence from future planning ("this guide covers everything you need to plan") to retrospective reference ("this guide covers the 2026 Maccabiah experience and remains useful for planning the 2030 edition"). (4) Changed "Games run 30 June..." to "Games ran 30 June..." in the at-a-glance section. (5) updatedAt 2026-07-04 → 2026-07-25. Body content (venues, transport, accommodation, volunteering) preserved as evergreen reference for 2030.
+Gate: pnpm check 0 errors; pnpm build 850 pages (no change — content-only); pnpm test:e2e 1151/1151 pass (8.7 min). GREEN.
+Merge SHA: e00f030; committed directly to master, pushed origin/master. CI in_progress at push (standard pattern).
+Next: iter 768 → BUILD/tools (768%5==3).

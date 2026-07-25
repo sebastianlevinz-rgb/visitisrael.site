@@ -1,12 +1,12 @@
 # LOOP STATE
 
-- iteration: 766
-- lastMode: BUILD (technical/honesty — P1 override)
-- lastItem: ryanair-tlv-suspension-honesty-fix
-- lastResult: BUILD iter766 — Ryanair TLV suspension honesty fix SHIPPED 661584f. Comprehensive cross-site correction: Ryanair has not operated Israel flights since 2023 and confirmed no S26 restart (corporate.ryanair.com). 14 files corrected across EN/DE/FR: cheap-flights-to-israel.md (EN/DE/FR) — FAQ + carrier table rows; ben-gurion-airport-guide.md (EN/DE/FR) — Terminal 1 LCC note; israel-for-irish-travelers.md — major rewrite (DUB-TLV section heading, FAQ, quick-ref table, description all updated to state no direct service); israel-for-spanish-travelers.md — FAQ + body text; eilat-ramon-airport-guide.md — FAQ + international routes section; eilat-vs-aqaba.md — Eilat logistics note; israel-vs-cyprus.md — TLV-LCA route list; israel-national-bike-trail.md — bike policy FAQ + list; tel-aviv-bachelorette.md — flights note; pet-friendly-israel.md — pet policy table. easyJet also flagged as uncertain status (announced March 2026 resumption but operational status unconfirmed) with verify-at-easyjet.com guidance. Bonus: Arkia TLV-Tokyo aircraft type corrected from Boeing 787 to A330-200 (wet-leased Hi Fly Malta) per iter765 P3 research. Gate: pnpm check 0 errors (131 files); pnpm build 850 pages (unchanged — content-only); pnpm test:e2e 1151/1151 pass. CI in_progress at push (standard pattern — all prior 5 runs success).
-- nextRotationCategory: 767%5==2 → BUILD (seo-content)
+- iteration: 767
+- lastMode: BUILD (seo-content)
+- lastItem: maccabiah-post-event-reframe
+- lastResult: BUILD iter767 — maccabiah-games-2026.md post-event reframe SHIPPED e00f030. 22nd Maccabiah Games concluded 13 July 2026; guide was still written in present/future tense. Changes: (1) added post-event blockquote banner at top of body ("The 22nd Maccabiah Games concluded on 13 July 2026. This guide is preserved as a reference for the 2026 edition. The next Maccabiah Games will be held in 2030."); (2) converted intro paragraph from "are running" to "ran from"; (3) updated closing intro sentence to past tense and noted guide usefulness for 2030 planning; (4) updatedAt 2026-07-04 → 2026-07-25. Body reference content (venues, transport, volunteering, accommodation) preserved as evergreen for 2030 planning. Gate: pnpm check 0 errors; pnpm build 850 pages (unchanged — content-only edit); pnpm test:e2e 1151/1151 pass. GREEN. CI in_progress at push (standard pattern).
+- nextRotationCategory: 768%5==3 → BUILD (tools)
 - higgsfieldSpent: 0
-- updatedAt: 2026-07-25T07:50Z
+- updatedAt: 2026-07-25T08:55Z
 - branch context: work on master; feature work on auto/<slug>
 
 Notes: iter766 BUILD (technical/honesty — P1 override) — ryanair-tlv-suspension-honesty-fix SHIPPED 661584f. See lastResult above.
