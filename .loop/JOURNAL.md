@@ -11616,3 +11616,10 @@ Changes: (1) Added post-event blockquote banner at top of body: "The 22nd Maccab
 Gate: pnpm check 0 errors; pnpm build 850 pages (no change — content-only); pnpm test:e2e 1151/1151 pass (8.7 min). GREEN.
 Merge SHA: e00f030; committed directly to master, pushed origin/master. CI in_progress at push (standard pattern).
 Next: iter 768 → BUILD/tools (768%5==3).
+
+## 2026-07-25T09:52Z · iter 768 · BUILD (technical/freshness — tools fallthrough) · etihad-tlv-frequency-freshness
+
+What: Etihad AUH-TLV frequency freshness update. Tools category fully shipped (all 11); fell through to technical per rotation. Added Etihad's 6-daily/42-weekly AUH-TLV scale note to israel-for-gulf-travelers.md (after routes table + in FAQ answer; updatedAt bumped to 2026-07-25) and noted the frequency in cheap-flights-to-israel.md Australia→AUH routing bullet. Source: jpost.com/article-897398, aviationa2z.com, travelandtourworld.com. No fabricated data — "up to 6 daily" framing per sourced reporting.
+Gate: pnpm check 0 errors · pnpm build 850 pages (no change, content-only edit) · pnpm test:e2e 1151/1151 pass. GREEN.
+Ship: 8656532 squash-merged to master, pushed. CI in_progress at push (standard pattern).
+Next: iter 769 = REVIEW mode (769%5==4).

@@ -1,17 +1,19 @@
 # LOOP STATE
 
-- iteration: 767
-- lastMode: BUILD (seo-content)
-- lastItem: maccabiah-post-event-reframe
-- lastResult: BUILD iter767 — maccabiah-games-2026.md post-event reframe SHIPPED e00f030. 22nd Maccabiah Games concluded 13 July 2026; guide was still written in present/future tense. Changes: (1) added post-event blockquote banner at top of body ("The 22nd Maccabiah Games concluded on 13 July 2026. This guide is preserved as a reference for the 2026 edition. The next Maccabiah Games will be held in 2030."); (2) converted intro paragraph from "are running" to "ran from"; (3) updated closing intro sentence to past tense and noted guide usefulness for 2030 planning; (4) updatedAt 2026-07-04 → 2026-07-25. Body reference content (venues, transport, volunteering, accommodation) preserved as evergreen for 2030 planning. Gate: pnpm check 0 errors; pnpm build 850 pages (unchanged — content-only edit); pnpm test:e2e 1151/1151 pass. GREEN. CI in_progress at push (standard pattern).
-- nextRotationCategory: 768%5==3 → BUILD (tools)
+- iteration: 768
+- lastMode: BUILD (technical/freshness — tools fallthrough)
+- lastItem: etihad-tlv-frequency-freshness
+- lastResult: BUILD iter768 — Etihad AUH-TLV frequency freshness SHIPPED 8656532. Tools category fully shipped (all 11); fell through to technical. Updated israel-for-gulf-travelers.md: added 6-daily/42-weekly frequency note after routes table + enhanced FAQ answer with AUH-TLV frequency detail; updatedAt 2026-07-24→2026-07-25. Updated cheap-flights-to-israel.md: Australia→AUH bullet expanded to note Etihad's 6-daily hub frequency. Source: jpost.com/article-897398 (June 15, 2026). Gate: pnpm check 0 errors; pnpm build 850 pages (no change); pnpm test:e2e 1151/1151 pass. GREEN. CI in_progress at push (standard pattern).
+- nextRotationCategory: 769%5==4 → REVIEW
 - higgsfieldSpent: 0
-- updatedAt: 2026-07-25T08:55Z
+- updatedAt: 2026-07-25T09:52Z
 - branch context: work on master; feature work on auto/<slug>
+
+Notes: iter767 BUILD (seo-content) — maccabiah-post-event-reframe SHIPPED e00f030. See previous STATE.
 
 Notes: iter766 BUILD (technical/honesty — P1 override) — ryanair-tlv-suspension-honesty-fix SHIPPED 661584f. See lastResult above.
 
-Notes: iter765 RESEARCH — 6 net-new items found across 4 search angles. P1/S: (1) Ryanair TLV suspension → SHIPPED iter766. (2) InterContinental Jerusalem omission — "Jerusalem's first luxury hotel in a decade" (summer 2026, 237 rooms) absent from new-luxury-hotels-israel-2026.md. P2/S: (3) Maccabiah Games 2026 guide needs post-event reframe — games ended July 14, guide still says future-tense. P2 HUMAN REVIEW: (4) Biblical Highway/Route 60 passes through West Bank; human editorial decision needed. (5) Kassland waterpark — West Bank settlement; human review required. P3/S: (6) Arkia aircraft type fix → SHIPPED iter766 as bonus fix.
+Notes: iter765 RESEARCH — 6 net-new items found across 4 search angles. P1/S: (1) Ryanair TLV suspension → SHIPPED iter766. (2) InterContinental Jerusalem omission — "Jerusalem's first luxury hotel in a decade" (summer 2026, 237 rooms) absent from new-luxury-hotels-israel-2026.md. P2/S: (3) Maccabiah Games 2026 guide needs post-event reframe — games ended July 14, guide still says future-tense. → SHIPPED iter767. P2 HUMAN REVIEW: (4) Biblical Highway/Route 60 passes through West Bank; human editorial decision needed. (5) Kassland waterpark — West Bank settlement; human review required. P3/S: (6) Arkia aircraft type fix → SHIPPED iter766 as bonus fix.
 
 Notes: iter751 BUILD (monetization) — new-luxury-hotels-israel-2026 SHIPPED f210b76. New guide covers Israel's 2026 luxury hotel surge: Six Senses Tel Aviv (10-floor spa, sky pool, 5 heritage buildings + LEED Platinum tower), Nobu Hotel Tel Aviv (Jaffa, De Niro/Matsuhisa brand), The Yacht Hotel Herzliya (325 rooms, Fattal Group, marina resort, June 2026), Isrotel Kayma Dead Sea (eco-luxury), Herzl Hotel Beersheba (Ottoman Governor's House), Canaan-Tzfat (Safed boutique), Ein Hod Boutique Wellness Hotel, plus Dizengoff 99/Basel Complex/Leon Towers/Palatin Hotel (TLV openings). 7 FAQs, 3 affiliate CTAs (2x Booking.com + GetYourGuide luxury experiences). Honest opening-status caveats throughout; no fabricated prices or ratings. Cross-links added from best-hotels-tel-aviv.md, israel-accommodation-guide.md, luxury-travel-israel.md. Gate: pnpm check 0 errors; pnpm build 844 pages (+1); pnpm test:e2e 1140/1140 pass. CI in_progress at push (standard pattern).
 

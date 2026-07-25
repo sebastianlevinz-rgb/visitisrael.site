@@ -1276,3 +1276,6 @@ Honesty fix to /rosh-hanikra-guide.md (P3/technical/content-update, iter625 rese
 
 ## iter766 · ryanair-tlv-suspension-honesty-fix · 661584f
 - [iter766 661584f] Ryanair TLV suspension honesty fix — P1/S technical/honesty (iter765 research). Ryanair has not operated Israel flights since 2023 and confirmed no S26 restart. 14 guides corrected across EN/DE/FR: cheap-flights-to-israel (EN/DE/FR) carrier table + FAQ; ben-gurion-airport-guide (EN/DE/FR) Terminal 1 LCC note; israel-for-irish-travelers (major rewrite — heading + FAQ + quick-ref + description); israel-for-spanish-travelers; eilat-ramon-airport-guide; eilat-vs-aqaba; israel-vs-cyprus; israel-national-bike-trail; tel-aviv-bachelorette; pet-friendly-israel. easyJet also flagged as uncertain (announced resumption but status unconfirmed). Bonus: Arkia TLV-Tokyo aircraft type corrected Boeing 787 → A330-200 wet-leased from Hi Fly Malta (P3/S iter765 research bundled). 850 pages unchanged; 1151/1151 e2e+a11y pass. [technical/honesty]
+
+## iter768 — etihad-tlv-frequency-freshness · 8656532 · 2026-07-25
+Etihad AUH-TLV frequency freshness: israel-for-gulf-travelers.md + cheap-flights-to-israel.md updated with 6-daily/42-weekly scale note sourced from jpost.com/article-897398. Technical/freshness P3/S; tools-category fallthrough.
