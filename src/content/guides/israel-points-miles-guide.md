@@ -37,7 +37,7 @@ faqs:
     answer: 'Yes. IHG One Rewards has the most Israel presence — the InterContinental Jerusalem opening late summer 2026 (237 rooms, luxury tier), plus several Holiday Inn and Crowne Plaza properties in Tel Aviv. Marriott Bonvoy has the W Tel Aviv, Renaissance Jerusalem, Sheraton Tel Aviv and others. Hilton Honors has several properties including the DoubleTree in Tel Aviv. All three programmes accept points transfers from American Express Membership Rewards, making it possible to combine flight and hotel redemptions from one card.'
 ---
 
-Award travel to Israel is genuinely good value — a round-trip economy fare from New York to Tel Aviv typically costs $800–1,200 in cash, and business class runs $3,000–5,000+. At those prices, frequent-flyer redemptions can deliver 4–10 cents per mile in value, well above the 1–2 cents you get redeeming for domestic flights. Here is how to choose the right programme and when to book.
+Award travel to Israel is genuinely good value — a round-trip economy fare from New York to Tel Aviv typically costs $800–1,200 in cash, and business class runs $3,000–5,000+. At those prices, frequent-flyer redemptions can deliver 4–10 cents per mile in value, well above the 1–2 cents you get redeeming for domestic flights. Here is how to choose the right programme and when to book. For a cash-fare baseline first, see the [cheap flights to Israel guide](/cheap-flights-to-israel).
 
 ## Why Israel is a good award destination
 
@@ -76,8 +76,8 @@ Flying Blue's **Promo Rewards** promotions are the single biggest variable in Is
 
 Qantas is a strong option for Australians and anyone with Amex MR or Capital One miles to spare.
 
-- **Rate:** approximately 37,500 Qantas points one-way economy from North America (partner award on El Al or Emirates connection).
-- **Advantage:** Qantas has a fixed award chart (not fully dynamic), making it easier to plan. Sydney–Tel Aviv redemptions are also available via oneworld partners.
+- **Rate:** approximately 37,500 Qantas points one-way economy from North America (oneworld partner award via British Airways through London Heathrow or Cathay Pacific through Hong Kong).
+- **Advantage:** Qantas has a fixed award chart (not fully dynamic), making it easier to plan. Sydney–Tel Aviv redemptions are available via oneworld partners including British Airways and Finnair.
 - **Transfer partners:** Amex MR (1:1), Capital One (1:1).
 
 ### El Al Matmid
@@ -115,7 +115,7 @@ Book as early as possible: El Al opens award availability 11–12 months in adva
 
 ## Hotels via points in Israel
 
-IHG, Marriott and Hilton all have strong Israel footprints:
+IHG, Marriott and Hilton all have strong Israel footprints. For a full overview of accommodation options across all budgets, see the [Israel accommodation guide](/israel-accommodation-guide); for the most notable 2026 luxury openings including the InterContinental Jerusalem and Six Senses Tel Aviv, see [new luxury hotels Israel 2026](/new-luxury-hotels-israel-2026).
 
 **IHG One Rewards**
 - InterContinental Jerusalem (opening late summer 2026, 237 rooms, luxury tier — IHG Rewards redemptions available once open)

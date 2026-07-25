@@ -199,6 +199,7 @@ The **Waldorf Astoria Jerusalem**, **King David Hotel**, and **Beresheet Resort*
 ## Related guides
 
 - [New luxury hotels in Israel 2026](/new-luxury-hotels-israel-2026) — Six Senses Tel Aviv, Nobu Hotel, The Yacht Herzliya and all 2026 major openings
+- [Israel points & miles guide](/israel-points-miles-guide) — how to book IHG, Marriott and Hilton Israel hotels using loyalty points
 - [Best hotels in Netanya](/best-hotels-netanya) — cliff-top sea-view properties, all-inclusive resorts, and budget stays on Israel's French Riviera coast
 - [Hotels near Ben Gurion Airport](/hotels-near-ben-gurion-airport) — Airport City zone, free shuttles, Shabbat logistics
 - [Israel zimmer guide](/israel-zimmer-guide) — rural B&B stays in detail by region
