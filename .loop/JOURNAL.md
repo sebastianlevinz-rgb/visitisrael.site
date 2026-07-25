@@ -11569,3 +11569,23 @@ Gate: pnpm check 0 errors · pnpm build 850 pages · pnpm test:e2e 1151/1151 pas
 Ship: squash-merged + committed 0d290ca on master; pushed origin/master. Branch auto/review-764-temple-mount-discoverability deleted.
 Prod: CI concluded success (most recent runs all success). No regression.
 Next: iter 765 → BUILD mode (765%5==0 → RESEARCH; wait, 765%5==0 → RESEARCH mode).
+
+## 2026-07-25T07:30Z · iter 765 · RESEARCH · research-765-ryanair-intercontinental-biblical-highway
+
+**Mode**: RESEARCH (765%5==0). No code shipped; gate not required.
+**Sources**: corporate.ryanair.com, jpost.com, ynetnews.com, aviationa2z.com (Ryanair suspension); hotel-online.com, holalatinosnews.com, travelandtourworld.com (InterContinental Jerusalem); foxnews.com/world, ynetnews.com/travel, thejewishedition.com (Biblical Highway); israelhayom.com, ynetnews.com (Kassland); aeroroutes.com, ch-aviation.com, travelandtourworld.com (Arkia aircraft type). Research agent (83k tokens, 56 tool uses) provided cross-validation.
+**Method**: 4 angles: (1) very recent news last 2-4 weeks, (2) nationality guide gaps, (3) competitor tools, (4) seasonal content. Plus research agent with same angles.
+
+**Net-new BACKLOG items**: 6
+1. **[P1] Ryanair TLV suspension** (technical/honesty, S) — CRITICAL: cheap-flights-to-israel.md lists Ryanair as active carrier. Ryanair has NOT operated Israel flights since 2023; removed TLV from route map; corporate.ryanair.com confirms no S26 restart. easyJet suspension also uncertain. Same urgency as Emirates fix (iter763). status: ready
+2. **[P1] InterContinental Jerusalem** (seo-content, S) — new-luxury-hotels-israel-2026.md (iter751) has zero mention of InterContinental Jerusalem, described as "Jerusalem's first new luxury hotel in over a decade" (IHG brand, 237 rooms, summer 2026, Virtuoso network). Significant credibility gap. status: ready
+3. **[P2] Maccabiah Games post-event reframe** (seo-content, S) — games concluded July 14, guide written in future tense (updatedAt 2026-07-04). Add concluded notice + Maccabiah 2030 forward pointer. status: ready
+4. **[P2, HUMAN REVIEW REQUIRED] Biblical Highway/Route 60** (seo-content, M) — government designated Route 60 "The Biblical Highway" June 16, 2026. Major SEO opportunity for Christian/pilgrimage tourism but route passes through West Bank (Bethlehem, Shiloh, Gush Etzion) including Hebron-adjacent territory. Human editorial decision required. status: blocked:human-review-required
+5. **[P3, HUMAN REVIEW REQUIRED] Kassland waterpark** (seo-content, S) — largest indoor waterpark in Middle East opened May 2026 in Ma'ale Adumim (West Bank settlement). Human editorial decision required. status: blocked:human-review-required
+6. **[P3] Arkia aircraft type fix** (technical/freshness, S) — guide says "Boeing 787" for TLV→Tokyo; actual is A330-200 wet-leased from Hi Fly Malta. status: ready
+
+**False leads eliminated**: Haifa cruise terminal (covered + updated 2026-07-18), israel-in-autumn.md (comprehensive, 2026-07-08), Dutch/Polish/Australian travelers (all already in BACKLOG at iter450-iter615), sukkot guide (exists), birdwatching guide (exists), InterContinental Jerusalem fr/de (not needed until EN guide ships).
+
+**Gate**: N/A (RESEARCH mode).
+**Ship**: N/A. Updating .loop/ STATE+JOURNAL+BACKLOG+COMPETITORS; committing and pushing.
+**Next**: iter 766 → BUILD (766%5==1 → monetization; P1 honesty items override rotation — Ryanair suspension fix is highest-urgency).

@@ -6298,3 +6298,31 @@ No material new competitor sites detected. touristisrael.com, Lonely Planet, Tri
 **North America recovery note (informational):** Israel received ~34,700 US+Canada visitors in June 2026, up 73% YoY. This context can be used in is-israel-safe.md or israel-travel-2026.md freshness updates when applicable.
 
 **Saturation: ~95% (154 research passes).** This pass confirms the Emirates cancellation as the only genuine new gap. All seasonal and feature content categories remain saturated. Future passes: continue breaking-news aviation scan (focus on route suspensions/cancellations — these create honesty issues across existing guides).
+
+### 2026-07-25 · iter 765 · RESEARCH pass #149 — freshness + new openings sweep
+
+**Angles covered**: (1) very recent Israel tourism news July 2026; (2) nationality guide market gaps; (3) competitor tool innovation; (4) seasonal content gaps. Research agent (83k tokens, 56 searches) provided parallel cross-validation.
+
+**Key findings:**
+
+**CRITICAL — Ryanair/easyJet suspension not reflected**: cheap-flights-to-israel.md (updated 2026-07-24) still lists Ryanair as active with multiple European routes. Ryanair corporate press release confirms no restart for Summer 2026 (slot dispute + Terminal 1 availability dispute with Ben Gurion Airport). TLV removed from Ryanair's route map entirely. Same pattern as the Emirates suspension (iter760 research → iter763 fix). easyJet announced March 2026 resumption but masaisrael.org "Airlines Flying to Israel in July 2026" shows uncertainty. Highest-priority fix for iter766.
+
+**InterContinental Jerusalem summer 2026**: new-luxury-hotels-israel-2026.md (iter751) covers 10+ openings but misses the most newsworthy Jerusalem hotel development in a decade. IHG brand, 237 rooms/suites, rooftop restaurant L18 at Jerusalem's highest dining elevation, Virtuoso network. hotel-online.com: "first luxury hospitality brand to open in Jerusalem in over a decade."
+
+**Biblical Highway — Route 60**: Israeli government officially branded Route 60 "The Biblical Highway" June 16, 2026 (Netanyahu + US Ambassador Huckabee ceremony). Route 66-style heritage tourism brand from Nazareth to Beersheba. High SEO value for Christian/pilgrimage segment — touristisrael.com and competitor sites have NOT produced a dedicated guide yet. Major potential SEO gap. BUT: Route 60 passes through contested West Bank territories (Bethlehem, Shiloh, Gush Etzion, near Hebron); human editorial decision required per PLAYBOOK safety rules. Sources: foxnews.com/world, ynetnews.com/travel/article/bkgkdeyzge, thejewishedition.com/2026/06/19.
+
+**Kassland waterpark/resort**: Largest indoor waterpark in Middle East + spa + hotel (220 rooms) opened May 2026 in Ma'ale Adumim (Israeli settlement, West Bank). israelhayom.com, ynetnews.com cover it but frame explicitly as West Bank resort. High family-tourism demand; human review required for coverage decision.
+
+**Competitor tool gap**: No competitor site (Tourist Israel, Bein Harim, Abraham Tours) has a multi-country itinerary builder or real-time flight comparison tool. Our 6 existing tools remain differentiated. Tourist Israel offers "adjustable itineraries" but as static editorial pages, not interactive tools.
+
+**Nationality guide markets without dedicated guides** (confirmed by filesystem scan):
+- Dutch travelers: in BACKLOG iter450 (P3/S)
+- Polish travelers: in BACKLOG iter605 (P3/S) 
+- Australian travelers: in BACKLOG (P2/M)
+- Japanese travelers: in BACKLOG iter615 (P2/S upgrade — Arkia direct TLV-NRT from Oct 2026)
+
+**Maccabiah Games 2026**: Guide exists (maccabiah-games-2026.md); games ended July 14; guide needs post-event reframe. Minor P2/S fix.
+
+**Aircraft type error found**: cheap-flights-to-israel.md says Arkia uses "Boeing 787" for TLV→NRT; actual is A330-200 wet-leased from Hi Fly Malta. Separate P3/S fix.
+
+**2 net-new confirmed-genuine items** (beyond what's already in BACKLOG): Ryanair suspension (P1/S) + InterContinental Jerusalem (P1/S) + Maccabiah reframe (P2/S).
