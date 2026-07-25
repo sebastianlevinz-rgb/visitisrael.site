@@ -11771,3 +11771,17 @@ All three files redirect readers to united.com for current seasonal frequencies 
 **HolyLandTravel.ai**: Competitor intelligence logged in COMPETITORS.md; no BACKLOG action needed (our tool moat remains and is broader).
 **Net-new items added**: 8. BACKLOG ~749 items total. No code changed; gate not run (research mode).
 **Next**: iter 781 → BUILD (781%5==1 → monetization). Top-priority BUILD item: P1/S British Airways honesty fix (cheap-flights-to-israel.md + israel-for-british-travelers.md).
+
+## 2026-07-25T22:45Z · iter 781 · BUILD (P1 honesty override) · ba-tlv-suspension-honesty-fix
+**Mode**: BUILD (781%5==1, monetization rotation; monetization category had no ready S-effort items → P1 honesty fix override per playbook §2).
+**Startup**: fresh cloud clone; local master diverged 46 commits behind origin/master (standard cloud-init divergence); git reset --hard origin/master to aed27c7. corepack OK; pnpm install --frozen-lockfile 9.3s. playwright install --with-deps failed (version mismatch, standard); playwright.config.ts resolves pre-installed /opt/pw-browsers/chromium_headless_shell-1194 binary correctly.
+**Item**: ba-tlv-suspension-honesty-fix (P1/S — British Airways LHR–TLV service suspended through at least late Oct 2026; iter780 research finding).
+**What changed**:
+  - src/content/guides/cheap-flights-to-israel.md: added suspended British Airways row to the UK/Europe carrier table, matching the Ryanair/easyJet suspension pattern. Row: "British Airways | London Heathrow (LHR) — Suspended | BA has suspended its Heathrow–TLV service; scheduled to resume from late October 2026 — verify current status at ba.com before booking"
+  - src/content/guides/israel-for-british-travelers.md: (a) route table: changed LHR row from "El Al, British Airways" to "El Al, British Airways (suspended — see below)"; (b) carrier prose: changed "British Airways serves Heathrow year-round" to "British Airways has suspended its Heathrow–Tel Aviv service through at least late October 2026; verify the latest schedule at ba.com before booking"; (c) BA Holidays package note: added suspension caveat + ba.com verify link.
+  - No test changes needed (content-only edit to existing pages).
+**Gate**: pnpm check 0 errors (131 files); pnpm build 853 pages (no change); pnpm test:e2e 1155/1155 pass. GREEN first run.
+**Ship**: committed 5d277e7 to master; pushed origin/master. Branch auto/ba-tlv-suspension-honesty-fix deleted.
+**Prod**: CI in_progress at push (standard pattern). Last 3 CI runs all completed success.
+**Side note**: israel-points-miles-guide.md references BA LHR as a routing option for Qantas/AA oneworld awards (iter774 fix). BA suspension is temporary (through late Oct 2026); award ticket routing recommendations remain valid for forward-looking planning. Not a P1 fix — noted for monitoring.
+**Next**: iter 782 → BUILD (782%5==2, seo-content). Top candidate: israel-in-december monthly guide (P2/M, Hanukkah+Christmas double traffic spike, from iter780 research) or israel-in-february (P2/M, kalanit wildflower peak).

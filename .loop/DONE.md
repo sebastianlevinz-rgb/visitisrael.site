@@ -1304,3 +1304,6 @@ REVIEW audit of iter766 found 5 comparison/nationality guides presenting easyJet
 
 ## iter779 · comparison-title-year-fix · daf6591
 - [iter779 daf6591] REVIEW — corrected year in 5 comparison guide titles: israel-vs-jordan, israel-vs-egypt, israel-vs-france, israel-vs-greece, israel-vs-cyprus changed from '(2027)' → '(2026)'. Found during REVIEW audit of comparison guides + monthly guides. Monthly guides (Oct/Nov) were fully clean. All 6 israel-vs-X guides now consistently use '(2026)' matching israel-vs-turkey (fixed iter778). 853 pages (no change); 1155/1155 e2e+a11y pass. 2026-07-25.
+
+## iter781 · ba-tlv-suspension-honesty-fix · 5d277e7
+- [iter781 5d277e7] BUILD (P1 honesty fix) — marked British Airways LHR–TLV service as suspended through late Oct 2026 in cheap-flights-to-israel.md (added suspended BA row to UK/Europe carrier table) and israel-for-british-travelers.md (route table + carrier prose + BA Holidays package note). Two guides had outdated "BA serves Heathrow year-round" copy; now directs readers to verify at ba.com. Pattern same as Emirates iter763 + Ryanair iter766. 853 pages (no change); 1155/1155 e2e+a11y pass. 2026-07-25.

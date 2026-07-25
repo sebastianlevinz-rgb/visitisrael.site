@@ -1,13 +1,15 @@
 # LOOP STATE
 
-- iteration: 780
-- lastMode: RESEARCH
-- lastItem: research-780-monthly-guides-aviation-freshness
-- lastResult: RESEARCH iter780 (pass #156) — 8 net-new items added to BACKLOG. Key finds: (1) P1/S honesty fix — British Airways TLV suspension through at least Oct 25, 2026; cheap-flights-to-israel.md + israel-for-british-travelers.md need BA row updated (same pattern as Emirates iter763 + Ryanair iter766). (2) 5 monthly guide gaps: December (P2/M, Hanukkah+Christmas double traffic spike), February (P2/M, kalanit wildflower peak), May (P2/S, Yom HaAtzmaut+Jerusalem Day), September (P2/S, Rosh Hashana+Yom Kippur bike-in-streets), January (P2/S, quietest month+Orthodox Christmas). (3) Tel Aviv vs Eilat comparison (P2/S, sibling to tel-aviv-vs-jerusalem SHIPPED). (4) Airlines flying to Israel status page (P2/M). Confirmed duplicates not re-added: hanukkah-in-israel (P3/S line 691), new-years-eve-israel (P3/S line 792). Saturation: ~97% after 156 research passes.
-- nextRotationCategory: 781%5==1 → BUILD (monetization)
+- iteration: 781
+- lastMode: BUILD
+- lastItem: ba-tlv-suspension-honesty-fix
+- lastResult: BUILD iter781 (P1 override, monetization fallthrough → honesty/seo-content) — ba-tlv-suspension-honesty-fix SHIPPED 5d277e7. British Airways suspended LHR–TLV service through at least late Oct 2026. Fixed 2 guides: cheap-flights-to-israel.md (added suspended BA row to UK/Europe carrier table, matching Ryanair pattern); israel-for-british-travelers.md (route table + carrier prose + BA Holidays package note updated with suspension caveat + ba.com verify link). Gate: pnpm check 0 errors; pnpm build 853 pages (no change); pnpm test:e2e 1155/1155 pass. CI in_progress at push (standard pattern). Side note: israel-points-miles-guide.md references BA LHR routing for Qantas/AA awards (iter774 fix) — technically still valid as forward-looking booking strategy since BA resumes late Oct 2026; not a P1 fix.
+- nextRotationCategory: 782%5==2 → BUILD (seo-content)
 - higgsfieldSpent: 0
-- updatedAt: 2026-07-25T21:30Z
+- updatedAt: 2026-07-25T22:45Z
 - branch context: work on master; feature work on auto/<slug>
+
+Notes: iter781 BUILD (P1 honesty override) — ba-tlv-suspension-honesty-fix SHIPPED 5d277e7. Monetization category had no S-effort items ready; fell through to P1 honesty fix. Monthly guide items (Dec/Feb/May/Sep/Jan) + tel-aviv-vs-eilat + airlines-status-page added to BACKLOG from iter780 research. Next: iter782 = BUILD (seo-content).
 
 Notes: iter779 REVIEW — comparison-title-year-fix SHIPPED daf6591. All 6 israel-vs-X comparison guides now consistently use '(2026)' year in titles. Monthly guides (Oct/Nov) fully clean audit. Next iteration is RESEARCH mode (780%5==0).
 
