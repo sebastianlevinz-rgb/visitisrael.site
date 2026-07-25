@@ -77,6 +77,7 @@ These dates shift each year on the Hebrew calendar — use the fare tools below 
 | airBaltic | Riga RIX | Resumed July 2026 with El Al codeshare; connects Baltic/Nordic passengers via Riga hub |
 | Eurowings | Hamburg HAM, Düsseldorf DUS | New routes from July 2026; Lufthansa Group LCC — base fares exclude checked luggage |
 | Wizz Air | London Luton, Budapest, Vienna, Bucharest and others | Ultra-low base fares; luggage add-ons |
+| British Airways | London Heathrow (LHR) — *Suspended* | BA has suspended its Heathrow–TLV service; scheduled to resume from late October 2026 — verify current status at ba.com before booking |
 | Ryanair | *Suspended* | Ryanair has not operated TLV flights since 2023 and confirmed no S26 restart (corporate.ryanair.com) — do not rely on Ryanair for Israel flights |
 | easyJet | London Gatwick, Paris CDG, Geneva — *verify status* | Announced March 2026 resumption; current operational status uncertain — confirm at easyjet.com before booking |
 | Aegean | Athens and Greek islands | Good option for combining with a Greece trip |
