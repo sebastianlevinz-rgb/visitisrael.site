@@ -258,6 +258,7 @@ const ROUTES = [
   '/cheap-flights-to-israel',
   '/jerusalem-old-city-walking-tour',
   '/church-holy-sepulchre-guide',
+  '/temple-mount-visitor-guide',
   '/yad-vashem-visitor-guide',
   '/haifa-travel-guide',
   '/haifa-neighborhoods-guide',

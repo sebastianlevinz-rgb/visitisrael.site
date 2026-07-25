@@ -151,4 +151,4 @@ For Christian pilgrims walking the Via Dolorosa, emerging from the Tunnels into 
 
 ---
 
-**Cross-links:** [Jerusalem](/jerusalem) · [Jerusalem Old City Walking Tour](/jerusalem-old-city-walking-tour) · [Church of the Holy Sepulchre Guide](/church-holy-sepulchre-guide) · [1-Day Jerusalem Itinerary](/1-day-jerusalem-itinerary) · [Jewish Heritage in Israel](/jewish-heritage-israel) · [Christian Pilgrimage Holy Land](/christian-pilgrimage-holy-land) · [Jerusalem Tours Compared](/jerusalem-tours-compared) · [Jerusalem Food Guide](/jerusalem-food-guide)
+**Cross-links:** [Jerusalem](/jerusalem) · [Jerusalem Old City Walking Tour](/jerusalem-old-city-walking-tour) · [Temple Mount / Haram al-Sharif Visitor Guide](/temple-mount-visitor-guide) · [Church of the Holy Sepulchre Guide](/church-holy-sepulchre-guide) · [1-Day Jerusalem Itinerary](/1-day-jerusalem-itinerary) · [Jewish Heritage in Israel](/jewish-heritage-israel) · [Christian Pilgrimage Holy Land](/christian-pilgrimage-holy-land) · [Jerusalem Tours Compared](/jerusalem-tours-compared) · [Jerusalem Food Guide](/jerusalem-food-guide)
