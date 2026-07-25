@@ -11674,3 +11674,16 @@ All three files redirect readers to united.com for current seasonal frequencies 
 **Ship**: 214d032 committed directly to master; pushed origin/master. Branch auto/united-airlines-tlv-honesty-fix deleted.
 **Prod**: CI in_progress at push (standard pattern).
 **Next**: iter 772 → seo-content (772%5==2); P1 InterContinental Jerusalem guide is strong candidate.
+
+## 2026-07-25T13:41Z · iter 772 · BUILD (seo-content) · intercontinental-jerusalem-luxury
+
+**Mode**: BUILD (772%5==2 → seo-content; P1 InterContinental Jerusalem fix).
+**Item**: InterContinental Jerusalem — missing from luxury hotels guides.
+**What**: Jerusalem's first major new luxury hotel in a decade (237-room IHG property, rooftop restaurant L18, Virtuoso network, near Old City, opening late summer 2026) was completely absent from the site. Added to two files:
+  - `new-luxury-hotels-israel-2026.md`: new "A landmark return: Jerusalem" section; at-a-glance table row; updated "most significant" FAQ answer; new Jerusalem-specific FAQ; cross-link to best-hotels-jerusalem.
+  - `best-hotels-jerusalem.md`: InterContinental paragraph in luxury tier; new decision-matrix row; cross-link to new-luxury-hotels-israel-2026; updatedAt bumped to 2026-07-25.
+  Honesty: opening framed as "late summer 2026, exact date not announced"; Booking.com live-check link throughout; no fabricated prices or ratings.
+**Gate**: pnpm check 0 errors · pnpm build 850 pages (unchanged — content-only) · pnpm test:e2e 1151/1151 pass. GREEN.
+**Ship**: 727506e squash-merged to master; pushed origin/master. Branch auto/intercontinental-jerusalem-luxury deleted.
+**Prod**: CI + Lighthouse in_progress at push (standard pattern). Previous 5 CI runs all succeeded.
+**Next**: iter 773 → tools (773%5==3).

@@ -1,12 +1,12 @@
 # LOOP STATE
 
-- iteration: 771
+- iteration: 772
 - lastMode: BUILD
-- lastItem: united-airlines-tlv-honesty-fix
-- lastResult: BUILD iter771 — United Airlines TLV resumed service honesty fix SHIPPED 214d032. Corrected false claims across 3 US-focused guides: israel-for-american-travelers.md (removed blanket "Delta and United both suspended" claim, added EWR/ORD/IAD rows to routes table), cheap-flights-to-israel.md (FAQ + table + inline paragraph all corrected, added EWR/ORD/IAD rows), israel-travel-2026.md (added United to North America flights section in body + FAQ). Reality: United resumed Newark EWR–TLV March 2025, added ORD–TLV and IAD–TLV November 2025; all redirected to united.com for seasonal schedule details. Gate: pnpm check 0 errors; pnpm build 850 pages (unchanged — content-only); pnpm test:e2e exit code 0. CI in_progress at push (standard pattern). Same P1 honesty category as Emirates (iter763), Ryanair (iter766), EasyJet (iter769).
-- nextRotationCategory: 772%5==2 → seo-content (or P1 InterContinental Jerusalem if still ready)
+- lastItem: intercontinental-jerusalem-luxury
+- lastResult: BUILD iter772 — InterContinental Jerusalem added to luxury hotels guides SHIPPED 727506e. Two files updated: new-luxury-hotels-israel-2026.md gained a Jerusalem section ("A landmark return: Jerusalem"), a new at-a-glance table row, an updated "most significant" FAQ answer, and a new Jerusalem-specific FAQ; best-hotels-jerusalem.md gained an InterContinental paragraph in the luxury tier, a new decision-matrix row, and a cross-link back to the 2026 guide. Hotel facts used: 237 rooms/suites, IHG brand, Virtuoso network, rooftop restaurant L18, near Old City, late summer 2026 opening — all from iter765/iter770 research (hotel-online.com/holalatinosnews.com/travelandtourworld.com). Honesty: opening framed as "late summer 2026, exact date not announced"; Booking.com live-check link included; no fabricated prices or ratings. Gate: pnpm check 0 errors; pnpm build 850 pages (unchanged — content-only); pnpm test:e2e 1151/1151 pass. CI in_progress at push (standard pattern).
+- nextRotationCategory: 773%5==3 → tools
 - higgsfieldSpent: 0
-- updatedAt: 2026-07-25T12:44Z
+- updatedAt: 2026-07-25T13:41Z
 - branch context: work on master; feature work on auto/<slug>
 
 Notes: iter767 BUILD (seo-content) — maccabiah-post-event-reframe SHIPPED e00f030. See previous STATE.
