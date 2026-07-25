@@ -74,12 +74,14 @@ Several airlines operate nonstop services between the US and Ben Gurion Airport 
 | Route | Carriers | Notes |
 |---|---|---|
 | New York JFK | El Al, Israir, American | Israir low-cost nonstop launched Aug 2026 |
+| Newark EWR | United, El Al | United resumed EWR–TLV March 2025; check united.com for current schedule |
 | Los Angeles LAX | El Al | Year-round |
 | San Francisco SFO | El Al | New West Coast gateway, from Oct 2026 |
 | Miami MIA | El Al | Seasonal |
-| Chicago ORD | El Al | Seasonal |
+| Chicago ORD | United, El Al | United added ORD–TLV November 2025; check united.com for frequency |
+| Washington IAD | United | United added IAD–TLV November 2025; check united.com for frequency |
 
-**Delta and United** have both suspended their Israel nonstop services since October 2023 and remained suspended as of July 2026. Check their websites for any future resumption updates before booking.
+**United Airlines** resumed Newark EWR–Tel Aviv nonstop service in March 2025 and has since expanded significantly, adding Chicago O'Hare (ORD) and Washington Dulles (IAD) routes in November 2025. Check united.com for current schedules and seasonal frequencies. **Delta** suspended its Israel service in October 2023; Delta resumed daily JFK–Tel Aviv service in September 2025 but its Atlanta and Boston routes remain delayed — check delta.com.
 
 **El Al** runs the most nonstop frequencies year-round — often multiple daily departures from JFK — and tends to be price-competitive on the direct market. Flight time from New York is approximately 10–11 hours eastbound; from Los Angeles approximately 15–16 hours.
 

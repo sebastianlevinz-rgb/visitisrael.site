@@ -20,7 +20,7 @@ faqs:
   - question: How far in advance should I book flights to Israel?
     answer: 'Booking roughly 20–26 weeks (5–6 months) ahead generally produces the best fares from North America and Australia. For European routes, 8–16 weeks ahead is usually optimal. Booking less than six weeks out tends to be the most expensive window. Set a Skyscanner or Google Flights price alert for your route and travel month so you can act when fares dip.'
   - question: Which airlines fly direct from the US to Israel?
-    answer: 'El Al operates the most nonstop US–Israel frequencies year-round. Delta resumed daily nonstop service on its New York JFK–Tel Aviv route in September 2025; however, its planned Atlanta and Boston routes remain suspended (Atlanta through at least November 2026; Boston delayed indefinitely — check delta.com). Israir launched the first low-cost Israeli carrier nonstop from New York JFK in August 2026. El Al also added San Francisco SFO as a new West Coast gateway from October 2026. United has not yet resumed Israel service. American Airlines serves Miami MIA seasonally. Connecting via London, Paris, Amsterdam, Rome or Vienna on European carriers sometimes produces a lower total fare — run both searches.'
+    answer: 'El Al operates the most nonstop US–Israel frequencies year-round. Delta resumed daily nonstop service on its New York JFK–Tel Aviv route in September 2025; however, its planned Atlanta and Boston routes remain suspended (Atlanta through at least November 2026; Boston delayed indefinitely — check delta.com). United Airlines resumed Newark EWR–Tel Aviv nonstop service in March 2025 and added Chicago ORD and Washington Dulles IAD routes in November 2025 — check united.com for current schedules and seasonal frequencies. Israir launched the first low-cost Israeli carrier nonstop from New York JFK in August 2026. El Al also added San Francisco SFO as a new West Coast gateway from October 2026. American Airlines serves Miami MIA seasonally. Connecting via London, Paris, Amsterdam, Rome or Vienna on European carriers sometimes produces a lower total fare — run both searches.'
   - question: Are there budget airlines to Israel from Europe?
     answer: 'Yes. Wizz Air is the most active LCC on TLV routes, flying from London Luton, Budapest, Vienna, Bucharest and others. Eurowings (Lufthansa Group LCC) launched Hamburg and Düsseldorf routes in July 2026. Note: Ryanair has NOT operated Ben Gurion Airport flights since 2023 and has confirmed it will not restart TLV service for summer 2026 (corporate.ryanair.com). easyJet announced a March 2026 resumption but its Israel service status remains uncertain — verify at easyjet.com before booking. Aegean flies from Athens and several Greek islands. LCC base fares exclude hold luggage and seat selection — factor those add-ons in when comparing.'
   - question: What airport do international flights use for Israel?
@@ -50,11 +50,14 @@ These dates shift each year on the Hebrew calendar — use the fare tools below 
 | Route | Carriers | Notes |
 | --- | --- | --- |
 | New York JFK | El Al, Delta, Israir, American | Delta daily nonstop resumed Sep 2025; Israir low-cost nonstop from Aug 2026 |
+| Newark EWR | United, El Al | United resumed Mar 2025; check united.com for current schedule |
 | Los Angeles LAX | El Al | Year-round |
 | San Francisco SFO | El Al | New route from Oct 2026 |
 | Miami MIA | El Al | Seasonal |
+| Chicago ORD | United, El Al | United added ORD–TLV November 2025; check united.com |
+| Washington IAD | United | United added IAD–TLV November 2025; check united.com |
 
-**Delta** resumed its daily New York JFK–Tel Aviv nonstop in September 2025 and operates it year-round. However, the planned Atlanta–Tel Aviv launch has been pushed back to at least December 2026, and the Boston–Tel Aviv route is delayed indefinitely — check delta.com for current status. **United** has not yet resumed any Israel service.
+**Delta** resumed its daily New York JFK–Tel Aviv nonstop in September 2025 and operates it year-round. However, the planned Atlanta–Tel Aviv launch has been pushed back to at least December 2026, and the Boston–Tel Aviv route is delayed indefinitely — check delta.com for current status. **United Airlines** resumed Newark EWR–Tel Aviv service in March 2025 and has since expanded to Chicago O'Hare (ORD) and Washington Dulles (IAD) — check united.com for current frequencies and seasonal schedules.
 
 **El Al** (Israel's national carrier) offers the most nonstop frequencies from North America and tends to be price-competitive on the direct market. **El Al's Lite fare** is often the entry price on the route — check what it includes before booking, as checked bags may be an add-on.
 
