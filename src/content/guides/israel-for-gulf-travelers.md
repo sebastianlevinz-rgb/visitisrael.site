@@ -104,7 +104,7 @@ You will not struggle to communicate as an Arabic speaker in Israel's major tour
 
 ## Al-Aqsa / Haram al-Sharif: visiting Islam's third holiest site
 
-The **Temple Mount / Haram al-Sharif** compound in the Old City of Jerusalem is one of the most significant destinations in the world for Muslim visitors. The compound contains the Al-Aqsa Mosque (the black-domed basilica), the **Dome of the Rock** (the gold-domed shrine over the Foundation Stone), and the surrounding esplanade — one of Islam's most revered spaces.
+The **Temple Mount / Haram al-Sharif** compound in the Old City of Jerusalem is one of the most significant destinations in the world for Muslim visitors. The compound contains the Al-Aqsa Mosque (the grey-domed mosque), the **Dome of the Rock** (the gold-domed shrine over the Foundation Stone), and the surrounding esplanade — one of Islam's most revered spaces.
 
 **For Muslim visitors:** you may enter the compound through multiple gates for prayer during open hours. The Al-Aqsa Mosque and Dome of the Rock interiors are accessible to Muslim worshippers.
 
@@ -139,7 +139,7 @@ International hotel chains in Tel Aviv (Sheraton, Marriott, Dan, David Kempinski
 Mosques operate in every major Israeli city:
 
 - **Jerusalem:** Al-Aqsa Mosque (primary; compound access per Waqf schedule); Haram al-Sharif courtyard; numerous neighbourhood mosques in East Jerusalem
-- **Jaffa (Tel Aviv):** Al-Bahr Mosque (the oldest mosque in Israel; an active Ottoman-era landmark; open for prayer)
+- **Jaffa (Tel Aviv):** Al-Bahr Mosque (a historic 19th-century Ottoman-era port mosque in the Jaffa seafront; open for prayer)
 - **Haifa:** Al-Istiqlal Mosque (Independence Mosque; central)
 - **Akko:** Al-Jazzar Mosque (18th-century; Ottoman; open to visitors outside prayer times — plan your visit accordingly)
 - **Nazareth:** Al-Shihab Mosque and the White Mosque
