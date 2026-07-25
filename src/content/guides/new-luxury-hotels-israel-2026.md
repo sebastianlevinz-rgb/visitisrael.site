@@ -3,7 +3,7 @@ title: 'New Luxury Hotels in Israel 2026: Best Openings'
 description: 'Israel 2026 luxury hotel surge: Six Senses Tel Aviv, Nobu Hotel, The Yacht Herzliya and 14+ new properties opening. What to expect and how to book.'
 heroImage: /images/regions/tel-aviv/hero.jpg
 category: Accommodation
-updatedAt: 2026-07-24
+updatedAt: 2026-07-25
 ctaHeading: 'Search 2026 new hotel openings'
 affiliateCtas:
   - partner: booking
@@ -26,7 +26,9 @@ affiliateCtas:
     cta: Browse Tel Aviv luxury experiences
 faqs:
   - question: Which new luxury hotel opening in Israel in 2026 is most significant?
-    answer: 'Six Senses Tel Aviv is widely regarded as Israel''s most anticipated luxury hotel opening in over a decade — a brand that has defined wellness luxury globally, set across five restored 1909 Tel Aviv heritage buildings on Rothschild Boulevard with a LEED Platinum tower, ten-floor spa and rooftop sky pool. It materially raises the ceiling on what is available in Tel Aviv''s hotel market. Confirm current status and availability via Booking.com before planning around any specific property.'
+    answer: 'Two openings stand out at city level. Six Senses Tel Aviv is widely regarded as Israel''s most anticipated wellness luxury opening in over a decade — five restored 1909 heritage buildings on Rothschild Boulevard, a LEED Platinum tower, ten-floor spa and rooftop sky pool. For Jerusalem, InterContinental Jerusalem is the first major new luxury hotel in the city in more than a decade: 237 rooms, rooftop restaurant L18, Virtuoso network membership, within walking distance of the Old City, opening late summer 2026. Confirm current status and availability via Booking.com before planning around any specific property.'
+  - question: Is there a new luxury hotel opening in Jerusalem in 2026?
+    answer: 'Yes — InterContinental Jerusalem is the most significant Jerusalem hotel opening in more than a decade. The 237-room IHG property opens in late summer 2026 within walking distance of the Old City. It features a rooftop restaurant (L18) and joins the Virtuoso network on opening. An exact opening date has not been officially announced as of mid-2026 — check Booking.com for live availability and current listings before planning around this property.'
   - question: What is The Yacht Hotel in Herzliya?
     answer: 'The Yacht Hotel is a 325-room Fattal Group property at Herzliya Marina that opened in June 2026. It features two outdoor pools, a spa and a waterfront al fresco restaurant with direct marina views, targeting leisure and business travellers 20 minutes north of Tel Aviv. It is the first significant luxury hotel in the Herzliya Marina precinct and brings full-service resort infrastructure to Israel''s main recreational marina. Check current availability and rates via Booking.com.'
   - question: Are the 2026 new hotel openings actually open?
@@ -56,6 +58,7 @@ Israel's hotel market entered its most active expansion phase in two decades in 
 | Dizengoff 99 | Dizengoff, Tel Aviv | Boutique |
 | Basel Complex Hotel | Central Tel Aviv | Urban luxury |
 | Leon Towers | Tel Aviv | Luxury complex |
+| InterContinental Jerusalem | Near Old City, Jerusalem | Luxury (opening late summer 2026) |
 | The Yacht Hotel | Herzliya Marina | Marina resort |
 | Isrotel Kayma Dead Sea | Dead Sea | Eco-luxury spa |
 | Herzl Hotel | Beersheba | Heritage boutique |
@@ -87,6 +90,16 @@ Three Isrotel properties opened in 2025–2026, adding significant capacity at t
 ## Marina and waterfront: Herzliya
 
 **The Yacht Hotel** (Herzliya Marina, opened June 2026) is a Fattal Group property and the first full-service luxury resort at Israel's main recreational marina. At 325 rooms with two outdoor pools, a spa and a waterfront al fresco restaurant, it provides proper resort infrastructure that the Herzliya Marina precinct previously lacked. The location — 20 minutes north of central Tel Aviv by car, or reachable by train and short taxi — makes it a practical alternative base for visitors who want a quieter, marina-facing environment with easy day-trip access to Tel Aviv. Check current availability and rates via Booking.com.
+
+---
+
+## A landmark return: Jerusalem
+
+**InterContinental Jerusalem** is the most significant Jerusalem hotel opening in over a decade. Described by the trade press as Jerusalem's first major new luxury hotel in more than ten years, the 237-room IHG property is positioned within walking distance of the Old City and joins the Virtuoso network on opening. The rooftop restaurant L18 adds a new high-altitude dining option to a city where rooftop views of the Old City walls are in short supply.
+
+The hotel brings the global InterContinental brand — operating in 60+ countries and consistently ranked among the world's leading luxury networks — to Jerusalem for the first time, filling a gap in the market that the existing luxury tier (Mamilla Hotel, Waldorf Astoria Jerusalem, American Colony) has occupied without new competition for years.
+
+**Opening timeline:** late summer 2026. An exact date has not been officially announced as of mid-2026. Confirm live availability via Booking.com before building a trip around this property — large luxury openings can have phased launches. For the current Jerusalem luxury hotel market while InterContinental Jerusalem is still opening, see the [best hotels in Jerusalem guide](/best-hotels-jerusalem).
 
 ---
 
@@ -122,4 +135,4 @@ The year's most distinctive boutique openings are outside Tel Aviv — propertie
 
 ## Useful links
 
-For the established luxury tier — The Norman, The Setai, King David and Waldorf Astoria — see the [luxury travel in Israel guide](/luxury-travel-israel). For Tel Aviv hotel picks at every budget and by neighbourhood, see [best hotels in Tel Aviv](/best-hotels-tel-aviv). For accommodation across all regions — Dead Sea resorts, Galilee kibbutz hotels, Negev desert lodges — see the [Israel accommodation guide](/israel-accommodation-guide). For the full Dead Sea hotel corridor including established 5-star alternatives, see the [Dead Sea hotels guide](/dead-sea-hotels-guide). For context on the [Haifa and Carmel region](/haifa-travel-guide) where Ein Hod sits, and on [Safed](/safed-tzfat-guide) for the Canaan-Tzfat boutique, see the respective destination guides.
+For the established luxury tier — The Norman, The Setai, King David and Waldorf Astoria — see the [luxury travel in Israel guide](/luxury-travel-israel). For Jerusalem hotel picks at all tiers — including the current luxury lineup and context on the InterContinental Jerusalem opening — see the [best hotels in Jerusalem guide](/best-hotels-jerusalem). For Tel Aviv hotel picks at every budget and by neighbourhood, see [best hotels in Tel Aviv](/best-hotels-tel-aviv). For accommodation across all regions — Dead Sea resorts, Galilee kibbutz hotels, Negev desert lodges — see the [Israel accommodation guide](/israel-accommodation-guide). For the full Dead Sea hotel corridor including established 5-star alternatives, see the [Dead Sea hotels guide](/dead-sea-hotels-guide). For context on the [Haifa and Carmel region](/haifa-travel-guide) where Ein Hod sits, and on [Safed](/safed-tzfat-guide) for the Canaan-Tzfat boutique, see the respective destination guides.
