@@ -3,7 +3,7 @@ title: 'Israel for Gulf Travelers: UAE, Bahrain & Morocco Guide (2026)'
 description: 'Travel guide for UAE, Bahrain and Morocco visitors to Israel — ETA-IL, direct flights, Al-Aqsa access, halal food, Arabic-speaking areas and practical tips.'
 heroImage: /images/regions/jerusalem/hero.jpg
 category: Planning
-updatedAt: 2026-07-24
+updatedAt: 2026-07-25
 ctaHeading: 'Book your Israel experiences'
 affiliateCtas:
   - partner: getyourguide
@@ -36,7 +36,7 @@ faqs:
   - question: Do UAE, Bahrain and Morocco citizens need a visa for Israel?
     answer: 'Citizens of the United Arab Emirates, Bahrain and Morocco can visit Israel without a traditional visa for stays of up to 90 days under existing bilateral or Abraham Accords-adjacent arrangements. However, since January 2025, all visa-exempt travelers — including UAE, Bahrain and Moroccan passport holders — must obtain an approved ETA-IL (Electronic Travel Authorisation for Israel) before departure. Apply online at eta.gov.il — the process takes a few minutes, costs approximately ₪25, and approval is typically granted within minutes to a few hours. The ETA-IL is linked to your passport electronically; verify current eligibility with your airline and the Israeli Ministry of Interior before booking, as entry policy can evolve.'
   - question: Are there direct flights from the Gulf to Israel?
-    answer: 'Yes. El Al, FlyDubai, Etihad and Air Arabia operate routes linking Tel Aviv Ben Gurion (TLV) to Dubai (DXB/DWC), Abu Dhabi (AUH) and other Gulf cities. Flight time from Dubai to Tel Aviv is approximately 3 hours 15 minutes. Royal Air Maroc connects Casablanca (CMN) to TLV, making Morocco one of the more accessible North African entry points. As schedules change, verify current frequencies directly with airlines or your travel agent before booking.'
+    answer: 'Yes. El Al, FlyDubai, Etihad and Air Arabia operate routes linking Tel Aviv Ben Gurion (TLV) to Dubai (DXB/DWC), Abu Dhabi (AUH) and other Gulf cities. Flight time from Dubai to Tel Aviv is approximately 3 hours 15 minutes; Abu Dhabi to Tel Aviv approximately 3 hours 30 minutes. Etihad significantly expanded its AUH-TLV service in 2026 and now operates up to 6 daily flights (42 weekly departures), giving UAE travelers from Abu Dhabi a wide choice of departure times. Royal Air Maroc connects Casablanca (CMN) to TLV, making Morocco one of the more accessible North African entry points. As schedules change, verify current frequencies directly with airlines or your travel agent before booking.'
   - question: Can Gulf travelers visit the Al-Aqsa Mosque compound (Temple Mount / Haram al-Sharif)?
     answer: "The Temple Mount / Haram al-Sharif compound in Jerusalem's Old City is Islam's third holiest site. Non-Muslim tourists may enter the compound plaza during restricted visitor hours (typically Sunday–Thursday, approximately 07:30–11:00 and 13:30–14:30 — but NOT during or immediately before prayer times). Entry for non-Muslim visitors is via the Mughrabi Gate only. Muslim visitors may enter through multiple gates for prayer at all times the compound is open to worshippers. Access hours, gate rules and compound closures change regularly depending on religious calendar dates, security conditions and Waqf decisions — always verify current arrangements with the Islamic Waqf Jerusalem (the administering authority) before your visit. The Al-Aqsa Mosque and the Dome of the Rock interiors are NOT accessible to non-Muslims."
   - question: Where can I find halal food in Israel?
@@ -83,6 +83,8 @@ Several airlines now connect the Gulf directly to Tel Aviv Ben Gurion Airport (T
 | Abu Dhabi (AUH) → Tel Aviv | Etihad, El Al | ~3h 30m |
 | Casablanca (CMN) → Tel Aviv | Royal Air Maroc, El Al | ~4h |
 | Doha (DOH) → Tel Aviv | Check current status | ~3h |
+
+**Etihad frequency note:** As of June 2026, Etihad operates up to **6 daily flights** between Abu Dhabi (AUH) and Tel Aviv (TLV) — around 42 weekly departures, making it one of Etihad's most-served routes globally. UAE-based travelers have departure options throughout the day; check etihad.com for current timetables and book in advance around Israeli holidays (see the [Jewish holiday calendar](/israel-shabbat-calendar)) when demand peaks.
 
 Schedules and frequencies change — verify with your airline or travel agent before booking. Ben Gurion Airport is Israel's main international gateway, 20 km east of Tel Aviv with a fast train link to the city centre.
 
