@@ -11498,3 +11498,16 @@ updatedAt bumped to 2026-07-24. No new pages (848 unchanged).
 **Gate**: pnpm check 0 errors; pnpm build 848 pages; pnpm test:e2e 1149/1149 pass. GREEN.
 **Ship**: cf02d6b committed and pushed to master. CI in_progress at push (standard pattern — prior 5 runs all success).
 **Next**: iter 759 → REVIEW (759%5==4).
+
+## 2026-07-25T00:40Z · iter 759 · REVIEW · review-759-alaqsa-dome-fix
+
+**Mode**: REVIEW (759%5==4). Audited recently shipped nationality guides + new-luxury-hotels-israel-2026.md.
+**Scope**: israel-for-gulf-travelers.md (iter757), israel-for-nordic-travelers.md (iter756), new-luxury-hotels-israel-2026.md (iter751), golan-heights-hiking-trails.md.
+**Findings**:
+1. **Al-Aqsa dome description** — gulf guide line 107: "black-domed basilica" is wrong on two counts. The Al-Aqsa Mosque has a grey/lead-coloured dome (not black); and it is a mosque, not a basilica. Fixed to "grey-domed mosque". This is high-sensitivity content (Muslim holy site in a guide aimed at Muslim Gulf travelers).
+2. **Al-Bahr Mosque age claim** — gulf guide line 142: "the oldest mosque in Israel" is factually wrong. The current Al-Bahr Mosque structure is 19th-century Ottoman (~1810 CE). The White Mosque in Ramla (built 717 CE, Umayyad) predates it by over a millennium. Fixed to "a historic 19th-century Ottoman-era port mosque in the Jaffa seafront."
+**Non-issues confirmed**: AffiliateCard component confirmed NOT to render rating/reviews fields (comment in component confirms this explicitly) — no fabrication risk from frontmatter values. All internal links in luxury hotels guide verified extant. Nordic guide clean on review.
+**Branch**: auto/review-759-alaqsa-dome-fix (squash-merged; branch deleted).
+**Gate**: pnpm check 0 errors; pnpm build 848 pages (no change); pnpm test:e2e 1149/1149 pass. GREEN.
+**Ship**: 44ed204 committed and pushed to master. CI in_progress at push (standard pattern — prior 2 runs success).
+**Next**: iter 760 → RESEARCH (760%5==0).

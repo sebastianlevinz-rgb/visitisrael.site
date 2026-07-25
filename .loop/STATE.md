@@ -1,12 +1,12 @@
 # LOOP STATE
 
-- iteration: 758
-- lastMode: BUILD
-- lastItem: cheap-flights-carriers-2026
-- lastResult: BUILD iter758 — cheap-flights-carriers-2026 SHIPPED cf02d6b. Technical/freshness update to /cheap-flights-to-israel. Tools backlog had no ready items; fell through to technical. Added 4 freshness items from iter755 research: ITA Airways FCO–TLV (twice daily from 1 Jul 2026; Italy state carrier); airBaltic RIX–TLV (resumed Jul 2026, El Al codeshare); Eurowings HAM+DUS–TLV (new Jul 2026, Lufthansa Group LCC); El Al Buenos Aires EZE (launching 29 Nov 2026 — first-ever direct South America route, new subsection added). FAQ updated to mention Eurowings. updatedAt bumped to 2026-07-24. Page count unchanged (848). Gate: pnpm check 0 errors; pnpm build 848 pages; pnpm test:e2e 1149/1149 pass. CI in_progress at push (standard pattern — prior 5 runs all success).
-- nextRotationCategory: 759%5==4 → REVIEW
+- iteration: 759
+- lastMode: REVIEW
+- lastItem: review-759-alaqsa-dome-fix
+- lastResult: REVIEW iter759 — alaqsa-dome-fix SHIPPED 44ed204. Audited israel-for-gulf-travelers.md (iter757), israel-for-nordic-travelers.md (iter756), new-luxury-hotels-israel-2026.md (iter751), golan-heights-hiking-trails.md. Two fixable factual errors found and corrected: (1) Al-Aqsa Mosque described as "black-domed basilica" — dome is grey/lead-coloured, not black; building type is mosque not basilica. Fixed to "grey-domed mosque". (2) Al-Bahr Mosque in Jaffa claimed as "the oldest mosque in Israel" — current structure is 19th-century Ottoman; White Mosque in Ramla (717 CE) predates it by a millennium. Fixed to accurate framing. Nordic guide: clean. Luxury hotels guide: all internal links verified extant (jaffa-hotels-guide/dead-sea-hotels-guide/beer-sheva-guide/negev-incense-route/israel-eta-guide all exist). AffiliateCard confirmed does NOT render rating/reviews fields — no fabrication risk. Gate: pnpm check 0 errors; pnpm build 848 pages (no change); pnpm test:e2e 1149/1149 pass. CI in_progress at push (standard pattern — prior 2 runs success).
+- nextRotationCategory: 760%5==0 → RESEARCH
 - higgsfieldSpent: 0
-- updatedAt: 2026-07-24T23:55Z
+- updatedAt: 2026-07-25T00:40Z
 - branch context: work on master; feature work on auto/<slug>
 
 Notes: iter751 BUILD (monetization) — new-luxury-hotels-israel-2026 SHIPPED f210b76. New guide covers Israel's 2026 luxury hotel surge: Six Senses Tel Aviv (10-floor spa, sky pool, 5 heritage buildings + LEED Platinum tower), Nobu Hotel Tel Aviv (Jaffa, De Niro/Matsuhisa brand), The Yacht Hotel Herzliya (325 rooms, Fattal Group, marina resort, June 2026), Isrotel Kayma Dead Sea (eco-luxury), Herzl Hotel Beersheba (Ottoman Governor's House), Canaan-Tzfat (Safed boutique), Ein Hod Boutique Wellness Hotel, plus Dizengoff 99/Basel Complex/Leon Towers/Palatin Hotel (TLV openings). 7 FAQs, 3 affiliate CTAs (2x Booking.com + GetYourGuide luxury experiences). Honest opening-status caveats throughout; no fabricated prices or ratings. Cross-links added from best-hotels-tel-aviv.md, israel-accommodation-guide.md, luxury-travel-israel.md. Gate: pnpm check 0 errors; pnpm build 844 pages (+1); pnpm test:e2e 1140/1140 pass. CI in_progress at push (standard pattern).
