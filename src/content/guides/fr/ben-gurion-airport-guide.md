@@ -45,7 +45,7 @@ faqs:
 
 Ben Gourion dispose de deux terminaux passagers actifs. **Le Terminal 3** est le hub international principal, ouvert en 2004 et agrandi avec une nouvelle aile ouest en 2024. Il accueille toutes les grandes compagnies aériennes internationales ainsi que les connexions domestiques d'El Al. Le Terminal 3 comporte trois concourses (C, D et E) accessibles depuis un hall de départs central, chacun avec des gates aux deux extrémités.
 
-**Le Terminal 1**, au nord du campus, accueille les vols intérieurs israéliens et un petit nombre de compagnies low-cost européennes (dont certains vols Wizz Air et Ryanair). Si vous voyagez en low-cost depuis une ville européenne, confirmez votre terminal avant d'arriver — les deux terminaux ne sont pas adjacents et une navette gratuite circule entre eux.
+**Le Terminal 1**, au nord du campus, accueille les vols intérieurs israéliens et un nombre croissant de compagnies low-cost européennes (dont Wizz Air ; Ryanair a suspendu tous ses vols vers Israël — consultez le [guide des vols pas chers](/fr/cheap-flights-to-israel) pour les disponibilités LCC actuelles). Si vous voyagez en low-cost depuis une ville européenne, confirmez votre terminal avant d'arriver — les deux terminaux ne sont pas adjacents et une navette gratuite circule entre eux.
 
 ## Arrivées : à quoi s'attendre
 

@@ -3,7 +3,7 @@ title: 'Cheap Flights to Israel (TLV): When to Book & Best Airlines'
 description: 'How to find cheap flights to Ben Gurion Airport — the best months to book, airlines flying direct from the US and Europe, and how to use fare tools.'
 heroImage: /images/regions/tel-aviv/hero.jpg
 category: Planning
-updatedAt: 2026-07-24
+updatedAt: 2026-07-25
 ctaHeading: 'Search and compare flights to Tel Aviv'
 affiliateCtas:
   - partner: skyscanner
@@ -22,7 +22,7 @@ faqs:
   - question: Which airlines fly direct from the US to Israel?
     answer: 'El Al operates the most nonstop US–Israel frequencies year-round. Delta resumed daily nonstop service on its New York JFK–Tel Aviv route in September 2025; however, its planned Atlanta and Boston routes remain suspended (Atlanta through at least November 2026; Boston delayed indefinitely — check delta.com). Israir launched the first low-cost Israeli carrier nonstop from New York JFK in August 2026. El Al also added San Francisco SFO as a new West Coast gateway from October 2026. United has not yet resumed Israel service. American Airlines serves Miami MIA seasonally. Connecting via London, Paris, Amsterdam, Rome or Vienna on European carriers sometimes produces a lower total fare — run both searches.'
   - question: Are there budget airlines to Israel from Europe?
-    answer: 'Yes. Wizz Air, Ryanair and easyJet all serve Ben Gurion Airport from multiple European cities. Aegean flies from Athens and several Greek islands. Eurowings (Lufthansa Group LCC) launched new routes from Hamburg and Düsseldorf in July 2026. Fares on these carriers can be substantially below legacy-airline pricing, though base fares exclude hold luggage and seat selection — factor those in when comparing.'
+    answer: 'Yes. Wizz Air is the most active LCC on TLV routes, flying from London Luton, Budapest, Vienna, Bucharest and others. Eurowings (Lufthansa Group LCC) launched Hamburg and Düsseldorf routes in July 2026. Note: Ryanair has NOT operated Ben Gurion Airport flights since 2023 and has confirmed it will not restart TLV service for summer 2026 (corporate.ryanair.com). easyJet announced a March 2026 resumption but its Israel service status remains uncertain — verify at easyjet.com before booking. Aegean flies from Athens and several Greek islands. LCC base fares exclude hold luggage and seat selection — factor those add-ons in when comparing.'
   - question: What airport do international flights use for Israel?
     answer: 'Virtually all international flights arrive at Ben Gurion International Airport (IATA: TLV), located roughly 15 km southeast of Tel Aviv and 50 km northwest of Jerusalem. Ramon Airport near Eilat handles some seasonal charter and low-cost services to Red Sea resort destinations, but for most visitors from North America, Europe, or Australia, TLV is the entry point.'
 ---
@@ -74,15 +74,15 @@ These dates shift each year on the Hebrew calendar — use the fare tools below 
 | airBaltic | Riga RIX | Resumed July 2026 with El Al codeshare; connects Baltic/Nordic passengers via Riga hub |
 | Eurowings | Hamburg HAM, Düsseldorf DUS | New routes from July 2026; Lufthansa Group LCC — base fares exclude checked luggage |
 | Wizz Air | London Luton, Budapest, Vienna, Bucharest and others | Ultra-low base fares; luggage add-ons |
-| Ryanair | Manchester, Dublin, Athens, Milan BGY, Lisbon and others | Seasonal frequency; strict carry-on rules |
-| easyJet | London Gatwick, Paris CDG, Geneva | Checked bag included on some fares |
+| Ryanair | *Suspended* | Ryanair has not operated TLV flights since 2023 and confirmed no S26 restart (corporate.ryanair.com) — do not rely on Ryanair for Israel flights |
+| easyJet | London Gatwick, Paris CDG, Geneva — *verify status* | Announced March 2026 resumption; current operational status uncertain — confirm at easyjet.com before booking |
 | Aegean | Athens and Greek islands | Good option for combining with a Greece trip |
 
 Budget carrier base fares can be very low — especially in autumn and spring — but checked luggage and seat selection add up fast. A €30 base fare can become €90–120 with one hold bag and a seat assignment. Check the total-basket price before comparing to legacy carriers that include luggage.
 
 ### From Australia and Asia
 
-No direct flights exist from Australia. New for 2026: **Arkia** launched the first-ever direct Israel–Japan service (TLV → Tokyo Narita) from October 2026 using a Boeing 787, opening a direct gateway to East Asia for the first time. Common one-stop routings include:
+No direct flights exist from Australia. New for 2026: **Arkia** launched the first-ever direct Israel–Japan service (TLV → Tokyo Narita) from October 2026 using an Airbus A330-200 (wet-leased from Hi Fly Malta), opening a direct gateway to East Asia for the first time. Common one-stop routings include:
 
 - **Australia → Dubai or Abu Dhabi → TLV** (FlyDubai / Etihad — note: Emirates has permanently suspended its Tel Aviv service; use FlyDubai for Dubai connections)
 - **Australia → Singapore or Bangkok → TLV** (Singapore Airlines / Thai Airways)

@@ -1,6 +1,6 @@
 ---
 title: 'Israel Travel Guide for Irish Visitors (2026)'
-description: 'Israel travel guide for Irish tourists: ETA-IL, Ryanair Dublin to Tel Aviv, Catholic pilgrimage circuit, EHIC gap, power adapter and practical tips.'
+description: 'Israel travel guide for Irish tourists: ETA-IL, Dublin to Tel Aviv flight options, Catholic pilgrimage circuit, EHIC gap, power adapter and practical tips.'
 heroImage: /images/regions/jerusalem/hero.jpg
 category: Planning
 updatedAt: 2026-07-25
@@ -30,7 +30,7 @@ faqs:
   - question: Do Irish citizens need a visa to enter Israel?
     answer: "No. Irish passport holders are on Israel's visa-exempt list and do not need a full visa. However, since January 2025, all visa-exempt nationals — including Irish citizens — must obtain an Electronic Travel Authorisation (ETA-IL) before travelling to Israel. Apply at iaa.gov.il (the official Israeli Airports Authority portal); the fee is ₪25 (approximately €6–7 at current rates — check the ILS/EUR rate at XE.com before applying); it is valid for multiple entries over two years; processing typically takes 72 hours to a few days. Apply at least one week before departure. You will need your passport number, date of birth and basic travel details. On arrival at Ben Gurion Airport, Irish passport holders may be asked about travel purpose, accommodation and return flight — having your hotel bookings and return ticket on your phone or printed helps the process go smoothly. Entry is not guaranteed — all final decisions are made by Israeli immigration at the port of entry."
   - question: How do I fly from Ireland to Israel?
-    answer: "Ryanair operates a seasonal service between Dublin Airport (DUB) and Tel Aviv Ben Gurion Airport (TLV) — check ryanair.com for current schedules and dates as frequency and timing vary by season. When Ryanair is not operating, the most common routing is a connection via London Heathrow (LHR) with El Al or British Airways (total journey approximately 6–7 hours), or via a Middle East hub: FlyDubai via Dubai (DXB — note: FlyDubai is a separate airline from Emirates; Emirates has permanently suspended its Tel Aviv service), Etihad via Abu Dhabi (AUH), or Turkish Airlines via Istanbul (IST). Aer Lingus flies to LHR, where you can connect to El Al's daily LHR–TLV service (total journey approximately 7 hours). The most affordable fares from Ireland are typically in January–February and October–November, outside Israel's peak seasons."
+    answer: "There is currently no direct Dublin–Tel Aviv scheduled service: Ryanair has not operated Israel flights since 2023 and has confirmed it will not restart TLV service for summer 2026 (corporate.ryanair.com). The most common routings from Dublin are: via London Heathrow (LHR) with El Al or British Airways (total journey approximately 6–7 hours); via a Middle East hub such as FlyDubai via Dubai (DXB — note: FlyDubai is a separate airline from Emirates; Emirates has permanently suspended its Tel Aviv service), Etihad via Abu Dhabi (AUH), or Turkish Airlines via Istanbul (IST). Aer Lingus flies to LHR, where you can connect to El Al's daily LHR–TLV service (total journey approximately 7 hours). The most affordable fares from Ireland are typically in January–February and October–November, outside Israel's peak seasons."
   - question: Is there an Irish embassy or consulate in Israel?
     answer: "Yes — Ireland has an Embassy of Ireland in Tel Aviv (Rothschild Boulevard, Tel Aviv). Irish citizens requiring consular assistance in Israel should contact the Embassy of Ireland, Tel Aviv. Details are available at ireland.ie/en/dfa/embassies. In an emergency while in Israel, the Irish emergency consular number (24/7) is available through the Department of Foreign Affairs in Dublin. Register your trip with the DFA Travel Smart app before departing, and always carry a note of the embassy's local phone number."
   - question: Does my European Health Insurance Card (EHIC) cover medical costs in Israel?
@@ -75,9 +75,9 @@ In May 2024, Ireland formally recognised the State of Palestine alongside Norway
 
 ## Flying from Ireland to Israel
 
-### Ryanair: Dublin to Tel Aviv (seasonal)
+### Direct flights from Dublin: currently no scheduled service
 
-**Ryanair operates a seasonal route between Dublin Airport (DUB) and Tel Aviv Ben Gurion Airport (TLV).** Schedules, frequency and operating seasons change each year — always check [ryanair.com](https://ryanair.com) for current availability. When operating, this is typically the cheapest and most direct option for Irish travellers.
+**There is currently no direct scheduled service between Dublin (DUB) and Tel Aviv (TLV).** Ryanair has not operated any Israel flights since 2023 and has explicitly confirmed it will not restart TLV service for summer 2026 (source: corporate.ryanair.com press release). Irish travellers need to connect through a European or Middle East hub.
 
 ### Connecting options from Ireland
 
@@ -205,7 +205,7 @@ Better options for Irish travellers:
 | Entry requirement | ETA-IL required (not a full visa); apply at iaa.gov.il; ₪25; 72h+ before travel; 2-year multi-entry |
 | ETA-IL for groups | Each traveller applies individually — tour operators cannot apply on your behalf |
 | DFA advisory | Check ireland.ie/en/dfa/overseas-travel/advice/israel before booking |
-| Flights | Ryanair DUB–TLV seasonal (check ryanair.com); or connect via London/Dubai/Istanbul |
+| Flights | No direct DUB–TLV service (Ryanair suspended since 2023); connect via London/Dubai/Istanbul |
 | Currency | New Israeli Shekel (₪); bring Revolut or Wise; euro cash accepted in limited venues |
 | Payments | AIB/Bank of Ireland/Ulster Bank Visa/Mastercard cards work; tell your bank before travel |
 | Power | Type H socket (230V = same voltage as Ireland); Type G → Type H adapter only |

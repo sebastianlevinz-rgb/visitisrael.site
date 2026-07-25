@@ -59,7 +59,7 @@ Arriving without the correct documents risks **mandatory quarantine** — not a 
 |---------|----------|------------|
 | El Al | Pets under 8 kg incl. carrier | Pets over 8 kg; some breed restrictions |
 | Arkia | Small pets in-cabin (domestic) | Larger pets as cargo |
-| Wizz Air / Ryanair | Generally no pets | Varies by route |
+| Wizz Air | Generally no pets | Varies by route |
 
 Confirm your airline's current pet policy when booking — policies change. Breed restrictions for guard-type dogs (including Pit Bulls, Rottweilers, Dogo Argentino, and related breeds) apply at the border level regardless of the airline used.
 

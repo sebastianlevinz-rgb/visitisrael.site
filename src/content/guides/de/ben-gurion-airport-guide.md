@@ -45,7 +45,7 @@ faqs:
 
 Ben Gurion hat zwei aktive Passagierterminals. **Terminal 3** ist das Haupt-Internationalhub, 2004 eröffnet und 2024 um einen neuen Westflügel erweitert. Es bedient alle großen internationalen Fluggesellschaften sowie El-Al-Inlandsverbindungen. Terminal 3 hat drei Concourses (C, D und E), zugänglich von einer zentralen Abflughalle, jeder mit Gates an beiden Enden.
 
-**Terminal 1**, nördlich des Geländes, bedient israelische Inlandsflüge und eine kleine Anzahl europäischer Low-Cost-Carrier (einschließlich einiger Wizz-Air- und Ryanair-Flüge). Wenn Sie mit einer Budgetfluggesellschaft aus einer europäischen Stadt fliegen, bestätigen Sie Ihr Terminal vor der Ankunft — die beiden sind nicht benachbart und ein kostenloser Shuttle-Bus verkehrt zwischen ihnen.
+**Terminal 1**, nördlich des Geländes, bedient israelische Inlandsflüge und eine wachsende Anzahl europäischer Low-Cost-Carrier (z. B. Wizz Air; Ryanair hat alle Israelflüge eingestellt — aktuelle LCC-Verfügbarkeit im [Billigflüge-Guide](/de/cheap-flights-to-israel) prüfen). Wenn Sie mit einer Budgetfluggesellschaft aus einer europäischen Stadt fliegen, bestätigen Sie Ihr Terminal vor der Ankunft — die beiden sind nicht benachbart und ein kostenloser Shuttle-Bus verkehrt zwischen ihnen.
 
 ## Ankunft: Was zu erwarten ist
 

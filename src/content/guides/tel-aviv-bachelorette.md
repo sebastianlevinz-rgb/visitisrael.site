@@ -98,7 +98,7 @@ Tel Aviv is a genuinely world-class destination for a bachelorette or hen party.
 - **Compact city** — beach, market, Neve Tzedek restaurants and Florentin bars are all walkable or a short taxi ride apart. No car needed.
 - **Long seasons** — April–May and September–October give warm-sea swimming without the August crush. Spring especially has perfect evening temperatures for al-fresco drinking.
 - **Nightlife starts late** — bars fill from 22:00; clubs after midnight. The Israeli weekend runs Friday–Saturday, making Thursday evening a serious night out.
-- **Flights from Europe** — direct from most major European cities in 4–5 hours. Several carriers (easyJet, Ryanair, Wizz Air, El Al) now serve Tel Aviv from UK and continental hubs.
+- **Flights from Europe** — direct from most major European cities in 4–5 hours. Wizz Air, El Al, and easyJet (verify current status) serve Tel Aviv from UK and continental hubs. Note: Ryanair has suspended all Israel flights since 2023 — see the [cheap flights guide](/cheap-flights-to-israel) for current LCC options.
 
 ---
 

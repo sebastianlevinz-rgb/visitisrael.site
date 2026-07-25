@@ -36,7 +36,7 @@ faqs:
   - question: How do I find water on the IBT?
     answer: "Water availability varies critically by section. Galilee and Carmel: springs, kibbutz water taps and community supply points exist at most segment endpoints — water is generally available. Jerusalem Hills: kibbutz stores and settlement water points along route; carry 2L minimum. Negev and Arava: treat water as a life-safety matter. Carry a minimum 3 litres and refill at every confirmed point — ibt.org.il publishes a water-point map per segment. In the Arava summer heat, dehydration risk is extreme; water sources listed on the map may be seasonal. Never enter a Negev segment without confirming the water points ahead are active. The ibt.org.il website and Trail Israel app show current water-point status."
   - question: Can I fly to Israel with my bike?
-    answer: "Yes. El Al, EasyJet and Ryanair all carry bikes as checked luggage — check each airline's current bike policy and fees before booking (typically £30–60 each way; max box size and weight limits apply). Bikes must be boxed or bagged. Ben Gurion Airport has no bike box suppliers airside — arrange packaging in advance. If you prefer not to travel with a bike, hire shops in Tel Aviv, Jerusalem and Eilat offer carbon-hardtail and full-suspension MTB hire, though availability for premium bikes is limited in peak summer, so book well ahead."
+    answer: "Yes. El Al and EasyJet (verify current TLV service status at easyjet.com) carry bikes as checked luggage — check each airline's current bike policy and fees before booking (typically £30–60 each way; max box size and weight limits apply). Note: Ryanair has suspended all Israel flights since 2023. Bikes must be boxed or bagged. Ben Gurion Airport has no bike box suppliers airside — arrange packaging in advance. If you prefer not to travel with a bike, hire shops in Tel Aviv, Jerusalem and Eilat offer carbon-hardtail and full-suspension MTB hire, though availability for premium bikes is limited in peak summer, so book well ahead."
   - question: Is there accommodation along the IBT?
     answer: "The IBT's official website (ibt.org.il) publishes segment-by-segment accommodation guides including kibbutz guesthouses (zimmers), INPA-managed campsites and urban hostels at major segment endpoints. Camping outside designated INPA campsites is prohibited in nature reserves. Wild camping in the Negev is technically possible in non-protected areas but not recommended solo. Budget for 2–3 nights in a kibbutz guesthouse per week to maintain morale and equipment maintenance — many kibbutzim actively welcome IBT cyclists and some leave a water tap and bike-wash hose outside."
 ---
@@ -154,8 +154,8 @@ Komoot has a user-created IBT collection (collection 1917030) with segment-by-se
 Most major airlines serving Ben Gurion Airport carry bikes as oversized checked baggage:
 
 - **El Al** — Israel's national carrier; standard bike-as-luggage policy with cardboard box or bike bag; fees and dimensions on el.al website
-- **EasyJet** — bike bags accepted; fixed fee applies; book in advance
-- **Ryanair** — bikes accepted with advance booking; size restrictions apply
+- **EasyJet** — bike bags accepted; fixed fee applies; book in advance (verify current TLV service status at easyjet.com)
+- **Ryanair** — ~~bikes accepted with advance booking~~ Note: Ryanair has suspended all Israel flights since 2023 and has confirmed no restart for summer 2026 — Ryanair is not currently an option for flying to Israel with a bike
 
 Ben Gurion Airport has no bike-box suppliers airside. Buy a cardboard bike box from your local bike shop before travel, or ship a bike bag ahead to your hotel in Israel. The best IBT starting points (Tel Aviv, Jerusalem, Haifa, Eilat) all have UPS/FedEx offices if you need to ship equipment.
 

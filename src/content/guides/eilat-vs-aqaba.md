@@ -110,7 +110,7 @@ The Wadi Araba crossing is straightforward as a border run — see the [Aqaba fr
 
 ## Practical logistics summary
 
-**Getting to Eilat**: [Ramon Airport](/eilat-ramon-airport-guide) receives direct flights from London (Luton, Stansted), Rome, Milan, Warsaw and other European cities with Wizz Air and Ryanair, plus frequent domestic connections from Tel Aviv. The bus from Tel Aviv Central Bus Station takes 4–5 hours.
+**Getting to Eilat**: [Ramon Airport](/eilat-ramon-airport-guide) receives direct flights from London (Luton, Stansted), Rome, Milan, Warsaw and other European cities with Wizz Air and charter operators (TUI, Jet2), plus frequent domestic connections from Tel Aviv. Note: Ryanair has suspended all Israel flights since 2023. The bus from Tel Aviv Central Bus Station takes 4–5 hours.
 
 **Getting to Aqaba**: Aqaba King Hussein International Airport has more limited connections; most independent international visitors arrive overland from Petra or cross from Eilat. If you're already in Israel, the Wadi Araba crossing is the simplest route.
 

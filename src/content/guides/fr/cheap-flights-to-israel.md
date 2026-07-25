@@ -22,7 +22,7 @@ faqs:
   - question: "Quelles compagnies proposent des vols directs depuis les États-Unis vers Israël ?"
     answer: "El Al, United, Delta et American Airlines opèrent tous des vols sans escale entre Israël et les grands aéroports américains dont JFK, EWR, MIA, ORD et LAX. El Al offre le plus de fréquences et est souvent compétitif sur le marché des vols directs. Une correspondance via Londres (Heathrow), Paris (CDG), Amsterdam (AMS), Rome (FCO) ou Vienne (VIE) sur des compagnies européennes produit parfois un tarif total inférieur — comparez les deux options."
   - question: "Existe-t-il des compagnies low-cost vers Israël depuis l'Europe ?"
-    answer: "Oui. Wizz Air, Ryanair et easyJet desservent tous l'aéroport Ben Gourion depuis plusieurs villes européennes. Aegean relie Athènes et plusieurs îles grecques. Les tarifs de ces compagnies peuvent être nettement inférieurs à ceux des compagnies traditionnelles, mais les tarifs de base excluent les bagages en soute et le choix de siège — intégrez ces coûts lors de la comparaison."
+    answer: "Oui. Wizz Air est la principale LCC sur les liaisons TLV (Londres Luton, Budapest, Vienne, Bucarest, etc.). Eurowings (groupe Lufthansa) dessert Hambourg et Düsseldorf depuis juillet 2026. Attention : Ryanair N'OPÈRE PLUS de vols Ben Gourion depuis 2023 et a confirmé ne pas reprendre le service TLV pour l'été 2026 (corporate.ryanair.com). easyJet a annoncé une reprise en mars 2026 mais son statut opérationnel reste incertain — vérifiez sur easyjet.com avant de réserver. Aegean relie Athènes et plusieurs îles grecques. Les tarifs de base des LCC excluent bagages en soute et choix de siège — intégrez ces coûts lors de la comparaison."
   - question: "Quel aéroport utilisent les vols internationaux à destination d'Israël ?"
     answer: "Pratiquement tous les vols internationaux arrivent à l'aéroport international Ben Gourion (IATA : TLV), situé à environ 15 km au sud-est de Tel Aviv et 50 km au nord-ouest de Jérusalem. L'aéroport Ramon près d'Eilat accueille quelques services charters saisonniers et low-cost vers les destinations balnéaires de la mer Rouge, mais pour la plupart des visiteurs en provenance d'Amérique du Nord, d'Europe ou d'Australie, TLV est le point d'entrée."
 ---
@@ -65,8 +65,8 @@ Ces dates changent chaque année selon le calendrier hébraïque — utilisez le
 | --- | --- | --- |
 | El Al | Londres, Paris, Amsterdam, Rome, Francfort, Zurich, Budapest | Quotidien ou quasi-quotidien depuis les grands hubs |
 | Wizz Air | Londres Luton, Budapest, Vienne, Bucarest et autres | Tarifs de base très bas ; options bagages |
-| Ryanair | Manchester, Dublin, Athènes, Milan BGY, Lisbonne et autres | Fréquences saisonnières ; règles strictes pour le bagage cabine |
-| easyJet | Londres Gatwick, Paris CDG, Genève | Bagage inclus sur certains tarifs |
+| Ryanair | *Suspendu* | Aucun vol TLV depuis 2023 ; aucune reprise S26 confirmée (corporate.ryanair.com) — ne pas compter sur Ryanair pour Israël |
+| easyJet | Londres Gatwick, Paris CDG, Genève — *vérifier le statut* | Reprise annoncée mars 2026 ; statut opérationnel actuel incertain — confirmer sur easyjet.com avant réservation |
 | Aegean | Athènes et îles grecques | Bonne option pour combiner avec la Grèce |
 
 Les tarifs de base des compagnies low-cost peuvent être très bas — notamment en automne et au printemps — mais les bagages en soute et le choix de siège s'accumulent rapidement. Un tarif de base à 30 € peut devenir 90–120 € avec un bagage et une attribution de siège. Vérifiez le prix total du panier avant de comparer avec les compagnies traditionnelles qui incluent les bagages.
