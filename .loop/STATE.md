@@ -1,13 +1,15 @@
 # LOOP STATE
 
-- iteration: 777
+- iteration: 778
 - lastMode: BUILD
-- lastItem: israel-in-november-monthly-guide
-- lastResult: BUILD iter777 (seo-content) — israel-in-november SHIPPED ced2da0. New /israel-in-november fills P2 monthly-guide gap confirmed in iter775 research. Tourist Israel + thingstodoinisrael.com + tzurtours.com all publish November-specific content; zero equivalent page existed. Content: Hula Valley crane migration peak (35k–50k cranes, Agamon HaHula Sunrise Safari wagon logistics + booking lead-times); Olive Branch Days festival (30th anniversary 2026, Galilee/Golan, olive picking + pressing + tasting); November in Jerusalem (cultural season, first rains, Old City in off-peak light); Tel Aviv outdoor dining season + Nahalat Binyamin market; Negev/Eilat/Dead Sea warm-weather escape overview; practical packing + booking priorities; 6 FAQs. 3 affiliate CTAs: Booking.com (shoulder-season value hotels), GYG ×2 (Hula Valley crane tours, olive harvest experiences). Reverse links: israel-in-autumn.md + birdwatching-in-israel.md. Gate: pnpm check 0 errors; pnpm build 853 pages (+1); pnpm test:e2e 1155/1155 pass (3 broken-link fixes applied mid-gate). CI in_progress at push (standard pattern).
-- nextRotationCategory: 778%5==3 → BUILD (tools)
+- lastItem: turkey-airlines-tlv-status
+- lastResult: BUILD iter778 (tools→technical fallthrough) — turkey-airlines-tlv-status SHIPPED c079cdb. Tools category exhausted (all items shipped; only stale-duplicate remained). Fell through to technical. P3/S fix: added evergreen one-sentence note to israel-vs-turkey.md "Getting there from Europe" Turkey paragraph — Turkish Airlines has not restored TLV service as of mid-2026; direct users to verify at turkishairlines.com. Contextual placement: TK named in that paragraph as EU-route carrier; note clarifies it does not serve Israel. Gate: pnpm check 0 errors; pnpm build 853 pages (no change); pnpm test:e2e 1155/1155 pass. CI in_progress at push (standard pattern).
+- nextRotationCategory: 779%5==4 → REVIEW
 - higgsfieldSpent: 0
-- updatedAt: 2026-07-25T19:05Z
+- updatedAt: 2026-07-25T20:00Z
 - branch context: work on master; feature work on auto/<slug>
+
+Notes: iter778 BUILD (technical fallthrough) — turkey-airlines-tlv-status SHIPPED c079cdb. Tools category now fully exhausted. Next iteration is REVIEW mode (779%5==4). Good candidates for review: comparison guides series (israel-vs-turkey freshly updated, israel-vs-jordan, israel-vs-egypt, israel-vs-greece) — audit for honesty, dead links, schema validity. OR monthly guides just shipped (israel-in-october, israel-in-november) — cross-check affiliate CTAs and internal link accuracy.
 
 Notes: iter777 BUILD (seo-content) — israel-in-november SHIPPED ced2da0. See lastResult above. 4 of 6 iter775 items now shipped (Oct iter776, Nov iter777). Remaining 4 items in BACKLOG: Apr, Mar monthly guides, Hula Valley standalone guide, Nahalat Binyamin market guide.
 

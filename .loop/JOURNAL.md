@@ -11742,3 +11742,12 @@ All three files redirect readers to united.com for current seasonal frequencies 
 **Ship**: committed ced2da0 directly to master (branch had no commits — working-tree pattern consistent with cloud env); pushed origin/master. CI (Lighthouse + CI workflows) in_progress at push (standard pattern).
 **Prod**: CI in_progress (standard; previous SHAs all success).
 **Next**: iter 778 → BUILD (778%5==3 → tools). Top tools candidates: interactive monthly calendar/events tool, sea temperature widget, or Hula Valley timing advisor.
+
+## 2026-07-25T20:00Z · iter 778 · BUILD (tools→technical fallthrough) · turkey-airlines-tlv-status
+**What**: technical/honesty P3/S fix — added evergreen one-sentence note to israel-vs-turkey.md "Getting there from Europe" → Turkey paragraph: "Note: as of mid-2026, Turkish Airlines has not restored its Tel Aviv (TLV) service — verify current routes at turkishairlines.com before planning a combined itinerary." The guide mentioned Turkish Airlines as an option for getting to Istanbul; this clarifies TK does not currently serve TLV, preventing user confusion. The "no direct flights between the two countries (as of 2026)" line in "Combining both" was already factually correct; this note adds the carrier-specific detail where TK is first mentioned.
+**Rotation**: 778%5==3 → tools; tools category exhausted (all items SHIPPED; only remaining item labeled STALE DUPLICATE). Fell through to technical. Only ready technical item was this P3/S fix.
+**Fresh env recovery**: `git reset --hard origin/master` (local master was 50 commits behind origin — standard cloud-env pattern).
+**Gate**: pnpm check 0 errors; pnpm build 853 pages (no change); pnpm test:e2e 1155/1155 pass. GREEN.
+**Ship**: committed c079cdb to master; pushed origin/master. CI in_progress at push (standard pattern). Branch auto/turkey-airlines-tlv-status deleted.
+**Prod**: CI in_progress (standard; all prior SHAs success).
+**Next**: iter 779 → REVIEW (779%5==4). Pick a slice of shipped content and audit it: correctness, SEO, a11y, dead links, schema validity, honesty. Focus candidate: monthly guides series (israel-in-october, israel-in-november — just shipped), or comparison guides (israel-vs-turkey now freshly updated, israel-vs-jordan, israel-vs-egypt, israel-vs-greece).

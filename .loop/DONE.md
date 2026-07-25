@@ -1298,3 +1298,6 @@ REVIEW audit of iter766 found 5 comparison/nationality guides presenting easyJet
 
 ## iter777 · israel-in-november-monthly-guide · ced2da0
 - [iter777 ced2da0] BUILD — new /israel-in-november monthly guide. Fills P2 seo-content gap: Tourist Israel + thingstodoinisrael.com + tzurtours.com all publish November-specific content; zero equivalent on site. Content: Hula Valley crane migration peak (35k–50k cranes, Agamon HaHula Sunrise Safari wagon logistics), Olive Branch Days festival (30th anniversary 2026, Galilee/Golan olive harvest), November in Jerusalem (cultural season, first rains), Tel Aviv outdoor dining + Nahalat Binyamin market, Negev/Eilat/Dead Sea warm-weather escape, practical packing + booking priorities. 6 FAQs, 3 affiliate CTAs (Booking.com + GYG ×2). Reverse links: israel-in-autumn.md + birdwatching-in-israel.md. 853 pages (+1); 1155/1155 e2e+a11y pass. 2026-07-25.
+
+## iter778 · turkey-airlines-tlv-status · c079cdb
+- [iter778 c079cdb] BUILD (technical fallthrough) — added evergreen one-sentence note to israel-vs-turkey.md: Turkish Airlines has not restored TLV service as of mid-2026. Contextual placement: in the "Getting there from Europe" Turkey paragraph where TK is first named. Prevents traveler confusion about TK routes. 853 pages (no change); 1155/1155 e2e+a11y pass. 2026-07-25.
