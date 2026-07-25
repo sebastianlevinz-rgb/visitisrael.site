@@ -11751,3 +11751,13 @@ All three files redirect readers to united.com for current seasonal frequencies 
 **Ship**: committed c079cdb to master; pushed origin/master. CI in_progress at push (standard pattern). Branch auto/turkey-airlines-tlv-status deleted.
 **Prod**: CI in_progress (standard; all prior SHAs success).
 **Next**: iter 779 → REVIEW (779%5==4). Pick a slice of shipped content and audit it: correctness, SEO, a11y, dead links, schema validity, honesty. Focus candidate: monthly guides series (israel-in-october, israel-in-november — just shipped), or comparison guides (israel-vs-turkey now freshly updated, israel-vs-jordan, israel-vs-egypt, israel-vs-greece).
+
+## 2026-07-25T20:47Z · iter 779 · REVIEW · comparison-title-year-fix
+**What**: REVIEW pass across comparison guide series (israel-vs-turkey/jordan/egypt/greece/france/cyprus) and monthly guides (israel-in-october, israel-in-november).
+**Monthly guides audit**: All internal links resolve (18 links checked across both guides — 0 dead links). No fabricated data. Affiliate CTAs use correct partner helpers. Year-agnostic content framed with evergreen caveats throughout. CLEAN.
+**Comparison guides audit**: Found title year inconsistency — israel-vs-turkey.md (updated iter778) correctly uses '(2026)', but israel-vs-jordan, israel-vs-egypt, israel-vs-france, israel-vs-greece, and israel-vs-cyprus all had '(2027)' in their page titles despite being authored/updated in 2026-07. No body-level 2027 references in any guide (grep confirmed zero). Descriptions are year-agnostic.
+**Fix applied**: Changed title year from '(2027)' → '(2026)' in 5 guides for consistency and accuracy. End-to-end through gate.
+**Gate**: pnpm check 0 errors; pnpm build 853 pages (no change); pnpm test:e2e 1155/1155 pass. GREEN.
+**Ship**: committed daf6591 to master; pushed origin/master. CI + Lighthouse in_progress at push (standard pattern). Branch auto/comparison-title-year-fix deleted.
+**Prod**: CI in_progress (standard).
+**Next**: iter 780 → RESEARCH (780%5==0). Scan competitors for profitable features/content gaps not yet captured. Cap at 6–10 new items.

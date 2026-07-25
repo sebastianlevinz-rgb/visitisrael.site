@@ -1,13 +1,15 @@
 # LOOP STATE
 
-- iteration: 778
-- lastMode: BUILD
-- lastItem: turkey-airlines-tlv-status
-- lastResult: BUILD iter778 (tools→technical fallthrough) — turkey-airlines-tlv-status SHIPPED c079cdb. Tools category exhausted (all items shipped; only stale-duplicate remained). Fell through to technical. P3/S fix: added evergreen one-sentence note to israel-vs-turkey.md "Getting there from Europe" Turkey paragraph — Turkish Airlines has not restored TLV service as of mid-2026; direct users to verify at turkishairlines.com. Contextual placement: TK named in that paragraph as EU-route carrier; note clarifies it does not serve Israel. Gate: pnpm check 0 errors; pnpm build 853 pages (no change); pnpm test:e2e 1155/1155 pass. CI in_progress at push (standard pattern).
-- nextRotationCategory: 779%5==4 → REVIEW
+- iteration: 779
+- lastMode: REVIEW
+- lastItem: comparison-title-year-fix
+- lastResult: REVIEW iter779 — comparison-title-year-fix SHIPPED daf6591. Audited all comparison guides (israel-vs-turkey/jordan/egypt/greece/france/cyprus) and monthly guides (israel-in-october, israel-in-november). Monthly guides clean: 0 dead links, all cross-links resolve, no fabricated data. Found: 5 comparison guides had '(2027)' in page titles while israel-vs-turkey (updated iter778) correctly used '(2026)'. Forward-year inconsistency fixed in israel-vs-jordan, israel-vs-egypt, israel-vs-france, israel-vs-greece, israel-vs-cyprus. Gate: pnpm check 0 errors; pnpm build 853 pages (no change); pnpm test:e2e 1155/1155 pass. CI in_progress at push (standard pattern).
+- nextRotationCategory: 780%5==0 → RESEARCH
 - higgsfieldSpent: 0
-- updatedAt: 2026-07-25T20:00Z
+- updatedAt: 2026-07-25T20:47Z
 - branch context: work on master; feature work on auto/<slug>
+
+Notes: iter779 REVIEW — comparison-title-year-fix SHIPPED daf6591. All 6 israel-vs-X comparison guides now consistently use '(2026)' year in titles. Monthly guides (Oct/Nov) fully clean audit. Next iteration is RESEARCH mode (780%5==0).
 
 Notes: iter778 BUILD (technical fallthrough) — turkey-airlines-tlv-status SHIPPED c079cdb. Tools category now fully exhausted. Next iteration is REVIEW mode (779%5==4). Good candidates for review: comparison guides series (israel-vs-turkey freshly updated, israel-vs-jordan, israel-vs-egypt, israel-vs-greece) — audit for honesty, dead links, schema validity. OR monthly guides just shipped (israel-in-october, israel-in-november) — cross-check affiliate CTAs and internal link accuracy.
 

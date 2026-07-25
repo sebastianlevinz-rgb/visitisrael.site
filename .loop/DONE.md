@@ -1301,3 +1301,6 @@ REVIEW audit of iter766 found 5 comparison/nationality guides presenting easyJet
 
 ## iter778 · turkey-airlines-tlv-status · c079cdb
 - [iter778 c079cdb] BUILD (technical fallthrough) — added evergreen one-sentence note to israel-vs-turkey.md: Turkish Airlines has not restored TLV service as of mid-2026. Contextual placement: in the "Getting there from Europe" Turkey paragraph where TK is first named. Prevents traveler confusion about TK routes. 853 pages (no change); 1155/1155 e2e+a11y pass. 2026-07-25.
+
+## iter779 · comparison-title-year-fix · daf6591
+- [iter779 daf6591] REVIEW — corrected year in 5 comparison guide titles: israel-vs-jordan, israel-vs-egypt, israel-vs-france, israel-vs-greece, israel-vs-cyprus changed from '(2027)' → '(2026)'. Found during REVIEW audit of comparison guides + monthly guides. Monthly guides (Oct/Nov) were fully clean. All 6 israel-vs-X guides now consistently use '(2026)' matching israel-vs-turkey (fixed iter778). 853 pages (no change); 1155/1155 e2e+a11y pass. 2026-07-25.
