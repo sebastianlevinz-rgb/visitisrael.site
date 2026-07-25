@@ -6326,3 +6326,30 @@ No material new competitor sites detected. touristisrael.com, Lonely Planet, Tri
 **Aircraft type error found**: cheap-flights-to-israel.md says Arkia uses "Boeing 787" for TLV→NRT; actual is A330-200 wet-leased from Hi Fly Malta. Separate P3/S fix.
 
 **2 net-new confirmed-genuine items** (beyond what's already in BACKLOG): Ryanair suspension (P1/S) + InterContinental Jerusalem (P1/S) + Maccabiah reframe (P2/S).
+
+### 2026-07-25 · iter 770 · RESEARCH — airline freshness + monetization gaps
+
+**Search angles**: Tourist Israel 2026 update, Nomadic Matt/TPG tools, aviation news, award travel competitors.
+
+**United Airlines TLV resumed — honesty failure in 3 guides (P1)**:
+- israel-for-american-travelers.md (line 82) states "Delta and United have both suspended their Israel nonstop services since October 2023 and remained suspended as of July 2026" — BOTH claims are wrong.
+- cheap-flights-to-israel.md FAQ states "United has not yet resumed any Israel service" — wrong.
+- Reality (confirmed via ynetnews, onemileatatime, upgradedpoints): United resumed EWR–TLV March 15, 2025; twice-daily by July 2025; 18 weekly flights summer 2026 (3 frequencies); ORD + IAD added Nov 2025.
+- Same honesty severity as Emirates (iter763), Ryanair (iter766), EasyJet (iter769). → BACKLOG P1/S.
+
+**Points & miles guide gap — monetization opportunity (P2/M)**:
+- "Fly to Israel with points" / "Israel award travel" SERP dominated by: The Points Guy, 10xTravel, Million Mile Secrets, KosherSquared, Pointify Travels, Point Me to the Plane.
+- We have ZERO equivalent guide. High monetization potential (credit card affiliate CTAs).
+- Key award sweet spots: United MileagePlus 42,500 one-way economy; AA 40,000; Flying Blue promo ~12,500; Qantas 37,500; El Al Matmid via Amex transfer. → BACKLOG P2/M.
+
+**Israir TLV–JFK already updated in guides**: cheap-flights-to-israel.md correctly notes Israir launched A330 JFK nonstop in August 2026. No further fix needed here.
+
+**Almog Beach Eilat city-designated (P3/S)**: Israel MoT news confirms Almog Beach expansion + city designation. Short update to eilat-beach-guide.md. → BACKLOG P3/S.
+
+**InterContinental Jerusalem details confirmed (P1/S — already in BACKLOG)**:
+- 237 rooms/suites, 17 floors, King George Street above Independence Park, walking distance to Old City.
+- Rooftop restaurant L18 (panoramic city views), French restaurant Mémoire, spa, heated pool, sun deck.
+- IHG brand (Virtuoso member); "Jerusalem's first new luxury hotel in over a decade"; late summer 2026 opening.
+- Sources: hotel-online.com, travelandtourworld.com, koshersquared.com.
+
+**3 net-new items added to BACKLOG**: United Airlines honesty fix (P1/S), points & miles guide (P2/M), Almog Beach update (P3/S).

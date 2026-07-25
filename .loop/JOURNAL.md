@@ -11646,3 +11646,17 @@ Files with uncaveated easyJet-TLV claims (pre-fix):
 **Ship**: 6464d3b committed directly to master; pushed origin/master. Branch auto/review-769-easyjet-status-caveats deleted.
 **Prod**: CI in_progress at push (standard pattern). Prior SHA fe0d1ee confirmed success pattern.
 **Next**: iter 770 → RESEARCH mode (770%5==0).
+
+## 2026-07-25T12:00Z · iter 770 · RESEARCH · airline-freshness-monetization-gaps
+
+**Mode**: RESEARCH (770%5==0).
+**Search angles**: Tourist Israel 2026 update, Nomadic Matt/TPG tool gaps, aviation news, airline route freshness, award travel SERP.
+**Items discovered and added to BACKLOG**:
+  1. **P1/S — United Airlines TLV honesty fix (HIGHEST PRIORITY)**: israel-for-american-travelers.md (line 82) flatly states "Delta and United have both suspended their Israel nonstop services since October 2023 and remained suspended as of July 2026" — CONFIRMED FALSE. cheap-flights-to-israel.md FAQ also states "United has not yet resumed any Israel service" — also FALSE. Reality: United resumed EWR–TLV on March 15, 2025; expanded to twice-daily July 2025; added 3rd frequency (4×/week) March 30, 2026; added ORD–TLV and IAD–TLV in November 2025; summer 2026 = 18 weekly EWR–TLV flights total. Same P1 honesty category as Emirates (iter763), Ryanair (iter766), EasyJet (iter769). Sources: ynetnews.com/travel/article/h1qijdbalx, onemileatatime.com/news/united-airlines-israel-flights, upgradedpoints.com.
+  2. **P2/M — Israel points & miles / award travel guide** (/israel-points-miles-guide): zero equivalent on site; The Points Guy, 10xTravel, Million Mile Secrets, KosherSquared, Pointify Travels all rank for "fly Israel with points". High monetization potential (credit card affiliate CTAs). Key content: United MileagePlus 42,500 one-way economy; AA 40,000; Flying Blue promo ~12,500; Qantas 37,500; El Al Matmid via Amex. Sources: thepointsguy.com, 10xtravel.com, pointmetotheplane.boardingarea.com, koshersquared.com.
+  3. **P3/S — Almog Beach Eilat city-designated**: brief update to eilat-beach-guide.md. Sources: travelpulse.com, travelandtourworld.com.
+**Existing BACKLOG P1 confirmed**: InterContinental Jerusalem details verified (237 rooms, L18 rooftop restaurant, Mémoire French restaurant, King George Street above Independence Park, 17 floors, IHG Virtuoso, late summer 2026 opening).
+**Existing guides checked OK (no new items needed)**: Israir TLV–JFK already in cheap-flights-to-israel.md (added prior iter). Wine, surfing, genealogy, LGBTQ, accessible travel, honeymoon, ETA-IL, photography tours all have dedicated guides. Galilee Culinary Institute + National Campus for Archaeology both have guides.
+**Gate**: N/A (RESEARCH mode).
+**Ship**: N/A.
+**Next**: iter 771 → BUILD (771%5==1 → monetization; P1 United Airlines honesty fix overrides rotation — same pattern as iter766 Ryanair P1 override).

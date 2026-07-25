@@ -1,12 +1,12 @@
 # LOOP STATE
 
-- iteration: 769
-- lastMode: REVIEW
-- lastItem: review-769-easyjet-status-caveats
-- lastResult: REVIEW iter769 — easyJet TLV status consistency fix SHIPPED 6464d3b. Audit of iter766 (Ryanair honesty fix) found 5 comparison/nationality guides still presenting easyJet as an active TLV carrier without caveat, while cheap-flights-to-israel.md (iter766) correctly notes status as uncertain. Fixed: israel-for-british-travelers.md (table + prose), israel-vs-turkey.md, israel-vs-egypt.md, israel-vs-jordan.md, israel-vs-france.md (prose + FAQ answer). Also noted: InterContinental Jerusalem P1 item still in BACKLOG. Gate: pnpm check 0 errors; pnpm build 850 pages (no change); pnpm test:e2e 1151/1151 pass. GREEN. CI in_progress at push (standard pattern).
-- nextRotationCategory: 770%5==0 → RESEARCH
+- iteration: 770
+- lastMode: RESEARCH
+- lastItem: research-770-airline-freshness-monetization-gaps
+- lastResult: RESEARCH iter770 — 3 net-new BACKLOG items discovered. (1) P1/S United Airlines TLV service honesty fix: israel-for-american-travelers.md + cheap-flights-to-israel.md both incorrectly state United has not resumed Israel service — in fact United resumed March 2025, now operates 18 weekly EWR-TLV flights + ORD + IAD routes (same pattern as Emirates/Ryanair/EasyJet honesty fixes). (2) P2/M Israel points & miles / award travel guide: zero competitor on site; The Points Guy, 10xTravel, KosherSquared all rank for this; high monetization potential. (3) P3/S Almog Beach Eilat city-designated update. Also confirmed InterContinental Jerusalem P1 details (237 rooms, L18 rooftop restaurant, Mémoire French restaurant, King George Street, late summer 2026 IHG/Virtuoso opening). Gate: N/A (RESEARCH mode). No shipping. Loop memory committed.
+- nextRotationCategory: 771%5==1 → monetization (but P1 United Airlines honesty fix overrides rotation)
 - higgsfieldSpent: 0
-- updatedAt: 2026-07-25T11:00Z
+- updatedAt: 2026-07-25T12:00Z
 - branch context: work on master; feature work on auto/<slug>
 
 Notes: iter767 BUILD (seo-content) — maccabiah-post-event-reframe SHIPPED e00f030. See previous STATE.
