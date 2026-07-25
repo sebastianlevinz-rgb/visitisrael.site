@@ -1,12 +1,12 @@
 # LOOP STATE
 
-- iteration: 772
+- iteration: 773
 - lastMode: BUILD
-- lastItem: intercontinental-jerusalem-luxury
-- lastResult: BUILD iter772 — InterContinental Jerusalem added to luxury hotels guides SHIPPED 727506e. Two files updated: new-luxury-hotels-israel-2026.md gained a Jerusalem section ("A landmark return: Jerusalem"), a new at-a-glance table row, an updated "most significant" FAQ answer, and a new Jerusalem-specific FAQ; best-hotels-jerusalem.md gained an InterContinental paragraph in the luxury tier, a new decision-matrix row, and a cross-link back to the 2026 guide. Hotel facts used: 237 rooms/suites, IHG brand, Virtuoso network, rooftop restaurant L18, near Old City, late summer 2026 opening — all from iter765/iter770 research (hotel-online.com/holalatinosnews.com/travelandtourworld.com). Honesty: opening framed as "late summer 2026, exact date not announced"; Booking.com live-check link included; no fabricated prices or ratings. Gate: pnpm check 0 errors; pnpm build 850 pages (unchanged — content-only); pnpm test:e2e 1151/1151 pass. CI in_progress at push (standard pattern).
-- nextRotationCategory: 773%5==3 → tools
+- lastItem: israel-points-miles-guide
+- lastResult: BUILD iter773 — Israel points & miles / award travel guide SHIPPED 444c891. New /israel-points-miles-guide fills confirmed P2/M monetization gap (The Points Guy, 10xTravel, KosherSquared all rank for "fly to Israel with points"; zero equivalent on site). Content: United MileagePlus (EWR/ORD/IAD–TLV, ~42,500–56,000 miles one-way economy), Flying Blue Promo Rewards (~12,500–20,000 promo / ~25,000–32,000 standard), American AAdvantage (~40,000), Qantas (~37,500), El Al Matmid via Amex MR. Transfer partner matrix (Amex MR/Chase UR/Capital One/Citi/Bilt). Off-peak windows (Jan–Mar, Oct–Nov). Hotels via IHG/Marriott/Hilton points. Honesty: all mile counts approximate with dynamic-pricing caveat; no fabricated prices/ratings. Two affiliate CTAs (Skyscanner + Booking.com). Cross-links from cheap-flights-to-israel.md + israel-for-american-travelers.md. Smoke + a11y tests added (+2 tests). Gate: pnpm check 0 errors; pnpm build 851 pages (+1); pnpm test:e2e 1153/1153 pass. CI in_progress at push (standard pattern).
+- nextRotationCategory: 774%5==4 → REVIEW
 - higgsfieldSpent: 0
-- updatedAt: 2026-07-25T13:41Z
+- updatedAt: 2026-07-25T14:50Z
 - branch context: work on master; feature work on auto/<slug>
 
 Notes: iter767 BUILD (seo-content) — maccabiah-post-event-reframe SHIPPED e00f030. See previous STATE.
