@@ -87,7 +87,7 @@ Several airlines operate nonstop services between the US and Ben Gurion Airport 
 
 **Israir** launched the first low-cost Israeli carrier nonstop from JFK in August 2026 (Airbus A330, 206 economy seats), offering a budget-conscious alternative on the flagship New York route.
 
-**When to book.** Fares from the US are typically lowest in October (after the Jewish High Holiday season) and in January–February. The most expensive periods are Passover (March–April), the High Holidays (September–October), summer peak (July–August) and the Christmas–New Year window. Booking around 10–20 weeks in advance usually produces competitive fares. See the [cheap flights to Israel guide](/cheap-flights-to-israel) for fare tool tips and a full airline comparison.
+**When to book.** Fares from the US are typically lowest in October (after the Jewish High Holiday season) and in January–February. The most expensive periods are Passover (March–April), the High Holidays (September–October), summer peak (July–August) and the Christmas–New Year window. Booking around 10–20 weeks in advance usually produces competitive fares. See the [cheap flights to Israel guide](/cheap-flights-to-israel) for fare tool tips and a full airline comparison. If you collect United MileagePlus, Amex Membership Rewards or other major points, see the [Israel points & miles guide](/israel-points-miles-guide) for how many miles you need and the best programmes to use.
 
 ### Connecting via Europe
 

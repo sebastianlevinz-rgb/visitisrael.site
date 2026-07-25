@@ -136,3 +136,5 @@ Most nationalities flying into Israel will not have an Israeli passport stamp �
 Once you land, the [Ben Gurion Airport guide](/ben-gurion-airport-guide) covers terminal layout, the security interview process, passport control flow and the 2026 lounge situation. The [airport transfers guide](/ben-gurion-airport-transfers) compares the train, private transfer, taxi and sherut options to Tel Aviv and Jerusalem with current prices and Shabbat notes.
 
 Sort your [Israel eSIM](/israel-esim) before departure so you have data on arrival without roaming charges. Budget planning for the full trip? The [Israel cost and budget guide](/israel-cost-budget) covers accommodation, food, transport and tours across all price tiers.
+
+Want to fly for free (or nearly free)? The [Israel points & miles guide](/israel-points-miles-guide) covers the best frequent-flyer programmes for TLV — United MileagePlus, Flying Blue promos, El Al Matmid and more — with current approximate mile costs and the best booking windows.

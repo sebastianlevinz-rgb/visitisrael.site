@@ -660,6 +660,7 @@ const ROUTES = [
   '/israel-for-serbian-travelers',
   '/israel-for-nordic-travelers',
   '/israel-for-gulf-travelers',
+  '/israel-points-miles-guide',
 ];
 
 for (const route of ROUTES) {
