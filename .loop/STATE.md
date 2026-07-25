@@ -1,12 +1,12 @@
 # LOOP STATE
 
-- iteration: 761
+- iteration: 762
 - lastMode: BUILD
-- lastItem: israel-mediterranean-cruise-guide
-- lastResult: BUILD iter761 — monetization. New /israel-mediterranean-cruise-guide SHIPPED 2172b98. Comprehensive guide for planning a Mediterranean cruise that includes Israel: Haifa vs Ashdod port comparison table, four Haifa shore excursion circuits (city half-day, Old Akko by train, Caesarea, Galilee+Nazareth), Jerusalem/Masada/Dead Sea from Ashdod, pre/post-cruise 3-4 night Tel Aviv+Jerusalem extension, seasonal guide, visa info, dress code and security context. 3 affiliate CTAs (GYG Haifa excursions, Viator Ashdod/Jerusalem, Booking.com TLV hotels). 7 FAQs. Dense cross-links. Gate: pnpm check 0 errors; pnpm build 849 pages (+1); 1149/1149 e2e+a11y pass. CI in_progress at push (standard pattern).
-- nextRotationCategory: 762%5==2 → seo-content (BUILD mode)
+- lastItem: temple-mount-visitor-guide
+- lastResult: BUILD iter762 — seo-content. New /temple-mount-visitor-guide SHIPPED e3a63c1. Most-asked Jerusalem visitor question ("Can non-Muslims visit the Dome of the Rock?") — confirmed content gap with no standalone guide. Mughrabi Gate sole non-Muslim entry; open-air plaza access only (no mosque interiors, no exceptions); visitor hours Mon–Thu + Sat ~7:30–11am & 1:30–2:30pm (closures unpredictable); dress code; no prayer/religious items; three-faith historical context. Paired naming throughout. 3 CTAs (GYG + Viator + Abraham Tours). Cross-links to jerusalem-old-city-walking-tour.md, western-wall-tunnels-guide.md, church-holy-sepulchre-guide.md, jewish-heritage-israel.md. Gate: pnpm check 0 errors; pnpm build 850 pages (+1); 1151/1151 e2e+a11y pass (+2 new tests). CI in_progress at push (standard pattern).
+- nextRotationCategory: 763%5==3 → tools (BUILD mode)
 - higgsfieldSpent: 0
-- updatedAt: 2026-07-25T02:50Z
+- updatedAt: 2026-07-25T03:50Z
 - branch context: work on master; feature work on auto/<slug>
 
 Notes: iter751 BUILD (monetization) — new-luxury-hotels-israel-2026 SHIPPED f210b76. New guide covers Israel's 2026 luxury hotel surge: Six Senses Tel Aviv (10-floor spa, sky pool, 5 heritage buildings + LEED Platinum tower), Nobu Hotel Tel Aviv (Jaffa, De Niro/Matsuhisa brand), The Yacht Hotel Herzliya (325 rooms, Fattal Group, marina resort, June 2026), Isrotel Kayma Dead Sea (eco-luxury), Herzl Hotel Beersheba (Ottoman Governor's House), Canaan-Tzfat (Safed boutique), Ein Hod Boutique Wellness Hotel, plus Dizengoff 99/Basel Complex/Leon Towers/Palatin Hotel (TLV openings). 7 FAQs, 3 affiliate CTAs (2x Booking.com + GetYourGuide luxury experiences). Honest opening-status caveats throughout; no fabricated prices or ratings. Cross-links added from best-hotels-tel-aviv.md, israel-accommodation-guide.md, luxury-travel-israel.md. Gate: pnpm check 0 errors; pnpm build 844 pages (+1); pnpm test:e2e 1140/1140 pass. CI in_progress at push (standard pattern).

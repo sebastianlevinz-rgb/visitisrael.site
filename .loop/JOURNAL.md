@@ -11531,3 +11531,9 @@ updatedAt bumped to 2026-07-24. No new pages (848 unchanged).
 **Ship**: squash-merged to master 2172b98, pushed. Feature branch auto/israel-mediterranean-cruise-guide deleted.
 **Prod**: CI in_progress at push (standard pattern). Previous SHA 8adc7c5 confirmed success.
 **Next**: iter 762 → BUILD (762%5==2 → seo-content).
+
+## 2026-07-25T03:50Z · iter 762 · BUILD (seo-content) · temple-mount-visitor-guide
+What: new /temple-mount-visitor-guide — confirmed P2/M seo-content gap. Most-asked Jerusalem visitor question had no standalone guide. Content: Mughrabi Gate as sole non-Muslim entry; open-air plaza access only (no mosque interiors, no exceptions); visitor hours Mon–Thu + Sat ~7:30–11am & 1:30–2:30pm (closures unpredictable); dress code (full cover, hair for women); no prayer/religious items policy; photography rules; three-faith historical context (Jewish Temple history, Islamic Night Journey + Al-Isra', Dome of the Rock 691 CE Umayyad construction, WAQF/Israeli dual-administration since 1967). Paired naming "Temple Mount / Haram al-Sharif" throughout. Honest framing: mosque interiors = zero access, no exceptions. 3 CTAs (GYG + Viator + Abraham Tours). Cross-links added to jerusalem-old-city-walking-tour.md FAQ, western-wall-tunnels-guide.md, church-holy-sepulchre-guide.md, jewish-heritage-israel.md.
+Gate: pnpm check 0 errors; pnpm build 850 pages (+1); 1151/1151 e2e+a11y pass (+2 new tests smoke+a11y).
+Ship: squash-merged to master e3a63c1, pushed.
+Prod: CI in_progress at push (standard pattern).
