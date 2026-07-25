@@ -82,7 +82,7 @@ Christianity's holiest site, traditionally identified as the location of the cru
 
 ### Temple Mount / Haram al-Sharif
 
-The Temple Mount — known as Haram al-Sharif to Muslims — is the platform that holds the Dome of the Rock and the Al-Aqsa Mosque, Islam's third-holiest site. Non-Muslim visitors enter via the wooden Mughrabi Bridge from the Western Wall plaza during specific morning and afternoon windows (typically Sunday to Thursday). The complex is administered by the Jordanian Waqf; rules around non-Muslim entry to the buildings change periodically — at present, entry to the Dome of the Rock and Al-Aqsa Mosque is limited to Muslim worshippers only. Modest dress is strictly enforced.
+The Temple Mount — known as Haram al-Sharif to Muslims — is the platform that holds the Dome of the Rock and the Al-Aqsa Mosque, Islam's third-holiest site. Non-Muslim visitors enter via the wooden Mughrabi Bridge from the Western Wall plaza during specific morning and afternoon windows (typically Monday to Thursday and Saturday). The complex is administered by the Jordanian Waqf; rules around non-Muslim entry to the buildings change periodically — at present, entry to the Dome of the Rock and Al-Aqsa Mosque is limited to Muslim worshippers only. Modest dress is strictly enforced. See the [Temple Mount / Haram al-Sharif visitor guide](/temple-mount-visitor-guide) for access rules, dress code, and practical planning advice.
 
 ### Via Dolorosa
 

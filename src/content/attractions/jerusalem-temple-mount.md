@@ -16,12 +16,12 @@ secondaryKeywords:
 latitude: 31.778
 longitude: 35.2354
 publishedAt: 2026-05-27
-updatedAt: 2026-06-16
+updatedAt: 2026-07-25
 faqs:
   - question: Can tourists visit the Temple Mount?
-    answer: 'Yes. Non-Muslim visitors can enter the Temple Mount / Haram al-Sharif during set visiting hours, usually mornings from Sunday to Thursday, via the wooden Mughrabi Bridge beside the Western Wall. The compound is closed to non-Muslims on Fridays, Saturdays and Muslim holidays. Hours change with the season and the security situation, so check locally and arrive early.'
+    answer: 'Yes. Non-Muslim visitors can enter the Temple Mount / Haram al-Sharif during set visiting hours, typically Monday to Thursday and Saturday, via the wooden Mughrabi Bridge beside the Western Wall. The compound is closed to non-Muslims on Fridays and Islamic holidays. Hours change with the season and the security situation, so check locally and arrive early.'
   - question: What are the Temple Mount visiting hours for non-Muslims?
-    answer: 'Non-Muslims may enter only through the Mughrabi Gate, typically Sunday to Thursday in two windows: roughly 07:30–10:30 in the morning and a shorter afternoon slot around 12:30–13:30 (about 07:30–11:00 in winter). These times shift seasonally and can be cut short or suspended at no notice for security reasons or during Ramadan, so confirm the day before and arrive at opening.'
+    answer: 'Non-Muslims may enter only through the Mughrabi Gate, typically Monday to Thursday and Saturday in two windows: roughly 07:30–10:30 in the morning and a shorter afternoon slot around 12:30–13:30 (about 07:30–11:00 in winter). The compound is closed to non-Muslims on Fridays and Islamic holidays. These times shift seasonally and can be cut short or suspended at no notice for security reasons or during Ramadan, so confirm the day before and arrive at opening.'
   - question: Can non-Muslims enter the Dome of the Rock or Al-Aqsa Mosque?
     answer: 'No. Non-Muslims may walk the open esplanade and photograph the exterior of the Dome of the Rock and Al-Aqsa Mosque, but the interiors of both are open to Muslim worshippers only.'
   - question: What is the dress code and what can''t I bring?
@@ -35,10 +35,10 @@ The walled plateau at the heart of Jerusalem's Old City is the most significant 
 | | |
 |---|---|
 | **Cost** | Free. You pass through Israeli security screening at the Mughrabi Gate. |
-| **Hours (non-Muslims)** | **Sun–Thu only**, typically ~07:30–10:30 and a short afternoon slot ~12:30–13:30 (winter ~07:30–11:00). **Closed Fri, Sat, Muslim holidays**; restricted during Ramadan. Subject to short-notice closure. |
+| **Hours (non-Muslims)** | **Mon–Thu + Sat**, typically ~07:30–10:30 and a short afternoon slot ~12:30–13:30 (winter ~07:30–11:00). **Closed Fri, Islamic holidays**; restricted during Ramadan. Subject to short-notice closure. |
 | **Time needed** | 45 min–1 hour on the esplanade; add 30–60 min for the security queue. |
 | **Getting there** | Enter via the **Mughrabi Gate** wooden bridge from the **Western Wall plaza** (near **Dung Gate**). Buses and taxis serve Dung Gate; ~10-min walk from Jaffa Gate. |
-| **Best time** | **Arrive before the gate opens** (queue forms early); morning light is best for the Dome of the Rock. Avoid Fridays, Shabbat and Ramadan. |
+| **Best time** | **Arrive before the gate opens** (queue forms early); morning light is best for the Dome of the Rock. Avoid Fridays, Islamic holidays and Ramadan. |
 | **Accessibility** | The **Mughrabi Bridge is a long covered ramp** (manageable but steep in places); the esplanade itself is broad and largely flat with some steps between levels and uneven historic paving. |
 
 ## What is the Temple Mount / Haram al-Sharif?
@@ -53,7 +53,7 @@ The compound is administered by the **Jordanian-run Islamic Waqf** (religious tr
 
 **Entrance.** Non-Muslims enter only through the **Mughrabi Gate**, reached by a covered **wooden bridge** that rises from the [Western Wall](/jerusalem/western-wall) plaza (by the security checkpoint near Dung Gate). All other gates are reserved for Muslim worshippers.
 
-**Hours.** Non-Muslim visiting is limited to set windows, typically **mornings, Sunday to Thursday** — often roughly **07:30–10:30** plus a shorter afternoon slot around **12:30–13:30** (about 07:30–11:00 in winter). The compound is **closed to non-Muslims on Fridays, Saturdays and Islamic holidays**, and during **Ramadan** access is more restricted. These times shift and can be cut short or suspended without notice for security reasons, so confirm locally the day before and **arrive at opening** — there is only one queue and it builds fast.
+**Hours.** Non-Muslim visiting is limited to set windows, typically **mornings, Monday to Thursday and Saturday** — often roughly **07:30–10:30** plus a shorter afternoon slot around **12:30–13:30** (about 07:30–11:00 in winter). The compound is **closed to non-Muslims on Fridays and Islamic holidays**, and during **Ramadan** access is more restricted. These times shift and can be cut short or suspended without notice for security reasons, so confirm locally the day before and **arrive at opening** — there is only one queue and it builds fast.
 
 **Security & wait times.** Everyone passes Israeli screening at the bridge. In quiet periods the wait is 15–20 minutes; in peak season or on the run-up to closing time, expect **30–60 minutes or more**, and the gate stops admitting visitors well before the official close. Because the window is short, get in line before opening.
 
@@ -76,4 +76,4 @@ The compound is administered by the **Jordanian-run Islamic Waqf** (religious tr
 
 ## Plan your visit
 
-The Temple Mount sits a few minutes' walk from the [Western Wall](/jerusalem/western-wall), the [Church of the Holy Sepulchre](/jerusalem/holy-sepulchre) and the [Old City](/jerusalem/old-city) markets — see the full [Jerusalem guide](/jerusalem) to string them together, and the [3-day Jerusalem itinerary](/itineraries/3-days-in-jerusalem) for timing. Because the hours are tight and unpredictable, many visitors join a guided Old City tour that builds the Temple Mount window into the morning, then continues to the Western Wall and Christian Quarter once the compound closes to non-Muslims. Keep your head and shoulders covered for the nearby holy sites too, and read our [first-time-in-Israel guide](/first-time-in-israel) before you go.
+The Temple Mount sits a few minutes' walk from the [Western Wall](/jerusalem/western-wall), the [Church of the Holy Sepulchre](/jerusalem/holy-sepulchre) and the [Old City](/jerusalem/old-city) markets — see the full [Jerusalem guide](/jerusalem) to string them together, and the [3-day Jerusalem itinerary](/itineraries/3-days-in-jerusalem) for timing. Because the hours are tight and unpredictable, many visitors join a guided Old City tour that builds the Temple Mount window into the morning, then continues to the Western Wall and Christian Quarter once the compound closes to non-Muslims. Keep your head and shoulders covered for the nearby holy sites too, and read our [first-time-in-Israel guide](/first-time-in-israel) before you go. For a comprehensive pre-visit briefing — what you can and cannot access, exact entry rules, dress code, and historical context — see the [Temple Mount / Haram al-Sharif non-Muslim visitor guide](/temple-mount-visitor-guide).
