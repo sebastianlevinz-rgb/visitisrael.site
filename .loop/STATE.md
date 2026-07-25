@@ -1,12 +1,12 @@
 # LOOP STATE
 
-- iteration: 773
-- lastMode: BUILD
-- lastItem: israel-points-miles-guide
-- lastResult: BUILD iter773 — Israel points & miles / award travel guide SHIPPED 444c891. New /israel-points-miles-guide fills confirmed P2/M monetization gap (The Points Guy, 10xTravel, KosherSquared all rank for "fly to Israel with points"; zero equivalent on site). Content: United MileagePlus (EWR/ORD/IAD–TLV, ~42,500–56,000 miles one-way economy), Flying Blue Promo Rewards (~12,500–20,000 promo / ~25,000–32,000 standard), American AAdvantage (~40,000), Qantas (~37,500), El Al Matmid via Amex MR. Transfer partner matrix (Amex MR/Chase UR/Capital One/Citi/Bilt). Off-peak windows (Jan–Mar, Oct–Nov). Hotels via IHG/Marriott/Hilton points. Honesty: all mile counts approximate with dynamic-pricing caveat; no fabricated prices/ratings. Two affiliate CTAs (Skyscanner + Booking.com). Cross-links from cheap-flights-to-israel.md + israel-for-american-travelers.md. Smoke + a11y tests added (+2 tests). Gate: pnpm check 0 errors; pnpm build 851 pages (+1); pnpm test:e2e 1153/1153 pass. CI in_progress at push (standard pattern).
-- nextRotationCategory: 774%5==4 → REVIEW
+- iteration: 774
+- lastMode: REVIEW
+- lastItem: review-774-points-miles-links-qantas
+- lastResult: REVIEW iter774 — audit of israel-points-miles-guide (iter773) SHIPPED 7473dbf. Honesty fix: Qantas section stated "partner award on El Al or Emirates connection" — both inaccurate (Emirates cancelled all TLV service iter763; El Al is Star Alliance / Qantas is oneworld — no alliance cross-booking). Corrected to "oneworld partner award via British Airways through LHR or Cathay Pacific through HKG." Internal link gap fixed: guide body had zero cross-links; added /cheap-flights-to-israel in intro, /israel-accommodation-guide + /new-luxury-hotels-israel-2026 in Hotels section. Reverse links added: israel-accommodation-guide.md, new-luxury-hotels-israel-2026.md, and luxury-travel-israel.md all now cross-link to /israel-points-miles-guide. Gate: pnpm check 0 errors; pnpm build 851 pages (no change); pnpm test:e2e 1153/1153 pass. CI in_progress at push (standard pattern).
+- nextRotationCategory: 775%5==0 → RESEARCH
 - higgsfieldSpent: 0
-- updatedAt: 2026-07-25T14:50Z
+- updatedAt: 2026-07-25T15:50Z
 - branch context: work on master; feature work on auto/<slug>
 
 Notes: iter767 BUILD (seo-content) — maccabiah-post-event-reframe SHIPPED e00f030. See previous STATE.

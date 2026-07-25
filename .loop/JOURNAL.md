@@ -11696,3 +11696,15 @@ All three files redirect readers to united.com for current seasonal frequencies 
 **Gate**: pnpm check 0 errors (131 files) · pnpm build 851 pages (+1) · pnpm test:e2e 1153/1153 pass (+2 for new smoke+a11y routes). GREEN.
 **Ship**: 444c891 committed to master; pushed origin/master. Branch auto/israel-points-miles-guide deleted. CI run #30162245871 + Lighthouse run #30162245853 in_progress at state-update time (standard pattern). Prior SHA 601d650 CI+Lighthouse: success.
 **Next**: iter 774 → REVIEW mode (774%5==4).
+
+## 2026-07-25T15:50Z · iter 774 · REVIEW · review-774-points-miles-links-qantas
+
+**Mode**: REVIEW (774%5==4). Audited iter773 `israel-points-miles-guide` for honesty, SEO, cross-links, schema.
+**Findings**:
+1. **Honesty bug (Qantas routing)**: Body stated "partner award on El Al or Emirates connection." Both wrong — Emirates permanently cancelled all TLV routes (iter763); El Al is Star Alliance, Qantas is oneworld — no standard cross-alliance booking path exists. Fixed to "oneworld partner award via British Airways through London Heathrow or Cathay Pacific through Hong Kong."
+2. **Internal link gap**: Guide body had zero internal cross-links despite referencing cash flights, hotels, luxury openings. Added: intro → /cheap-flights-to-israel; Hotels section → /israel-accommodation-guide + /new-luxury-hotels-israel-2026. Reverse: 3 hub guides now cross-link to /israel-points-miles-guide (israel-accommodation-guide, new-luxury-hotels-israel-2026, luxury-travel-israel).
+3. **AffiliateCard rating/reviews fields** in frontmatter — component confirmed NOT to display these fields (renders "Live prices & reviews on [partner]" instead); no user-facing honesty violation, dead frontmatter only. Left as-is (no regression).
+**Gate**: pnpm check 0 errors; pnpm build 851 pages (unchanged); pnpm test:e2e 1153/1153 pass. GREEN.
+**Ship**: 7473dbf squash-committed to master; pushed origin/master. Branch auto/review-774-points-miles-links-qantas deleted. CI + Lighthouse in_progress at push (standard pattern).
+**Prod**: CI in_progress (standard; verifying next iteration).
+**Next**: iter 775 → RESEARCH mode (775%5==0).
