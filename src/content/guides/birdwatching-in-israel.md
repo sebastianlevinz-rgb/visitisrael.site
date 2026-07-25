@@ -132,4 +132,5 @@ Israel operates two **Hai-Bar nature reserves** focused on returning extinct or 
 - [Car rental in Israel](/car-rental-israel) — essential for reaching Agamon HaHula and Golan sites
 - [Best time to visit Israel](/best-time-to-visit-israel) — seasonal overview for trip planning
 - [Israel in October](/israel-in-october) — month-specific guide covering crane migration start, wine harvest, and the Jewish High Holidays
+- [Israel in November](/israel-in-november) — the crane migration peak month; full Agamon HaHula logistics and Olive Branch Days festival guide
 - [Sustainable & eco-tourism in Israel](/sustainable-travel-israel) — Hula Valley restoration story, responsible Coral Beach visits, eco-stays and low-impact travel
