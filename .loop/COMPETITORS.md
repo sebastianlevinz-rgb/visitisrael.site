@@ -6275,3 +6275,26 @@ No material new competitor sites detected. touristisrael.com, Lonely Planet, Tri
 **False leads eliminated (19+):** Israir JFK (SHIPPED iter638 — confirmed in guide); El Al SFO (SHIPPED iter638 — confirmed in guide); October 7 memorial (BLOCKED iter80); Turkish Airlines TLV (still suspended, verified iter750); new luxury hotels (SHIPPED iter751); Air Haifa TLV-ETM (SHIPPED iter717); Kassland Resort (BACKLOG iter735); TUS IL (BACKLOG iter740); Nordic guide non-existence (BACKLOG iter450 line 1117 — already spec'd).
 
 **Saturation: ~95% (153 prior research passes).** Pass #153 confirms the pattern: genuine new items are now exclusively from breaking-news events (route launches, new openings) in the last 30 days. All established content categories are saturated. Future RESEARCH iterations should scan aviation news and attraction opening announcements first.
+
+### 2026-07-25 · iter 760 · RESEARCH pass #154 · Emirates-TLV + Gulf aviation freshness
+
+**Focus:** Breaking news from last 30 days, fall 2026 seasonal content gaps, Gulf aviation updates.
+
+**Key findings:**
+
+**Emirates permanent TLV cancellation (critical honesty issue):** Emirates Airlines has PERMANENTLY cancelled all Tel Aviv flights (confirmed via simpleflying.com + Yahoo Finance + gulfnews.com). Emirates planned to resume service April 2026 but instead officially withdrew from the route entirely. FlyDubai (IATA: FZ, Dubai government-owned airline — distinct from Emirates despite shared ownership) continues to operate DXB-TLV with up to 10 daily flights. Our 9+ guides reference "Emirates via Dubai" as a DXB-TLV routing option — this is now factually wrong. → BACKLOG P2/M technical/honesty fix.
+
+**Etihad 6 daily AUH-TLV (massive expansion):** As of June 15, 2026, Etihad operates 42 weekly (6 daily) flights on AUH-TLV, making Tel Aviv Etihad's most-served global destination, ahead of London Heathrow. Over 100,000 travelers used the AUH-TLV route in Q1 2026 (+30% YoY); 70% use Abu Dhabi as a stopover for Asia connections (Thailand, India, Japan). Sources: jpost.com/article-897398, aviationa2z.com, travelandtourworld.com. → BACKLOG P3/S freshness (fold into Emirates fix iteration).
+
+**False leads confirmed (not new):**
+- Sukkot guide: sukkot-in-israel.md already exists (SHIPPED)
+- Rosh Hashana guide: rosh-hashanah-in-israel.md already exists (SHIPPED)
+- Yom Kippur guide: yom-kippur-in-israel.md already exists (SHIPPED)
+- Galilee Culinary Institute: galilee-culinary-institute-gonen.md already exists (SHIPPED)
+- Accessible travel guide: israel-accessible-travel.md already exists (SHIPPED iter353)
+- Israel events/festivals summer section: israel-events-festivals.md covers the Israel Festival in Jerusalem summer row
+- Medical tourism (Sheba): BACKLOG P3/M already queued (iter740)
+
+**North America recovery note (informational):** Israel received ~34,700 US+Canada visitors in June 2026, up 73% YoY. This context can be used in is-israel-safe.md or israel-travel-2026.md freshness updates when applicable.
+
+**Saturation: ~95% (154 research passes).** This pass confirms the Emirates cancellation as the only genuine new gap. All seasonal and feature content categories remain saturated. Future passes: continue breaking-news aviation scan (focus on route suspensions/cancellations — these create honesty issues across existing guides).

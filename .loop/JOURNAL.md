@@ -11511,3 +11511,15 @@ updatedAt bumped to 2026-07-24. No new pages (848 unchanged).
 **Gate**: pnpm check 0 errors; pnpm build 848 pages (no change); pnpm test:e2e 1149/1149 pass. GREEN.
 **Ship**: 44ed204 committed and pushed to master. CI in_progress at push (standard pattern — prior 2 runs success).
 **Next**: iter 760 → RESEARCH (760%5==0).
+
+## 2026-07-25T02:10Z · iter 760 · RESEARCH · research-760-emirates-tlv-cancellation
+
+**Mode**: RESEARCH (760%5==0). No code changed; gate not run.
+**Sources**: simpleflying.com (Emirates cancels TLV flights), Yahoo Finance (Emirates permanently ends TLV), gulfnews.com (Emirates suspends → cancels), aviationa2z.com (Etihad 6 daily AUH-TLV), jpost.com/article-897398 (Etihad TLV most-served destination), travelandtourworld.com (Etihad expansion), touristisrael.com (competitor seasonal content audit).
+**Focus**: Breaking-news last 30 days, fall 2026 seasonal content gaps, Gulf aviation updates.
+**Key finding**: Emirates Airlines has PERMANENTLY cancelled all Tel Aviv flights (confirmed by multiple sources). 9+ visitisrael.site guides currently recommend "Emirates via Dubai (DXB)" as a routing option to Israel — this is now factually wrong. FlyDubai (IATA: FZ — a distinct airline, Dubai government-owned like Emirates but separately managed) still operates up to 10 daily DXB-TLV flights. Etihad expanded to 6 daily (42 weekly) AUH-TLV flights, making TLV their #1 global route as of June 15, 2026.
+**Net-new BACKLOG items**: 2. (1) Emirates-TLV honesty fix P2/M — multi-guide correction changing "Emirates" → "FlyDubai" for DXB routing across 9 guides + DE/FR cheap-flights; (2) Etihad 6-daily expansion P3/S freshness note (fold into Emirates fix iteration).
+**False leads eliminated (confirmed-as-shipped)**: Sukkot/Rosh Hashana/Yom Kippur guides (all exist); Galilee Culinary Institute (shipped); Accessible travel (SHIPPED iter353); Israel events-festivals summer section covers Jerusalem festivals.
+**Gate**: N/A (RESEARCH mode).
+**Ship**: N/A. Updated .loop/ STATE+JOURNAL+BACKLOG+COMPETITORS; committed and pushed.
+**Next**: iter 761 → BUILD (761%5==1 → monetization). Top P2 monetization item ready. If no ready monetization item, fall through to seo-content per PLAYBOOK. The Emirates honesty fix (P2/M technical/honesty) is now the highest-priority technical item.
