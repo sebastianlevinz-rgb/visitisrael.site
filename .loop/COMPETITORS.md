@@ -6353,3 +6353,32 @@ No material new competitor sites detected. touristisrael.com, Lonely Planet, Tri
 - Sources: hotel-online.com, travelandtourworld.com, koshersquared.com.
 
 **3 net-new items added to BACKLOG**: United Airlines honesty fix (P1/S), points & miles guide (P2/M), Almog Beach update (P3/S).
+
+### 2026-07-25 · iter 775 · RESEARCH — monthly guides + niche destination gaps
+
+**Search angles**: Tourist Israel monthly guides, Hula Valley wildlife, Nahalat Binyamin market, seasonal content gaps, "things to do in Israel in [month]".
+
+**Monthly guide gap — structural pattern found (P2/M + P2/S)**:
+- Tourist Israel has dedicated pages for ALL 12 months (/things-to-do-in-israel-in-[month]).
+- Lonely Planet and GoIsrael similarly have month-by-month content.
+- We have: israel-in-spring.md, israel-in-summer.md, israel-in-autumn.md, israel-in-winter.md (seasonal) + passover-in-israel.md + easter-in-jerusalem.md.
+- We have ZERO standalone monthly guides. High long-tail search volume, especially Oct (High Holidays + wine harvest + Hula cranes start), Apr (Passover + Easter peak tourist), Nov (crane migration peak), Mar (Purim + wildflowers).
+- Monthly guides serve intent that seasonal guides don't: travellers searching "Israel in October" have a specific trip window, not just a season. → 6 new BACKLOG items added.
+
+**Hula Valley & Agamon HaHula — BBC Wildlife world top 10 (P2/M)**:
+- Agamon HaHula lake (northern Galilee) hosts 35,000–45,000 common cranes Nov–Dec, plus pelicans, storks, eagles.
+- BBC Wildlife Magazine "top 10 wildlife events worldwide"; Lonely Planet Israel highlights it as a bucket-list experience.
+- Tourist Israel has a dedicated Hula Valley page with practical logistics. GoIsrael has an Agamon HaHula guide.
+- We have birdwatching-in-israel.md which mentions Hula Valley in 2 sentences. Zero standalone page.
+- High seasonality: best Nov–Jan; perfectly complements "Israel in November" monthly guide.
+- Affiliate angles: birdwatching tours, car hire (Hula is 3h drive from TLV), north-Israel accommodation. → BACKLOG P2/M added.
+
+**Nahalat Binyamin arts & crafts market (P2/S)**:
+- Weekly market (Tue + Fri) run by ~200 juried local artisans; adjacent to Carmel Market (which we cover).
+- Tourist Israel + GoIsrael both have dedicated pages; frequently cited in Lonely Planet Tel Aviv.
+- We have tel-aviv-carmel-market.md but zero Nahalat Binyamin page. Obvious gap for travellers visiting Carmel.
+- Monetisation angle: thin (no direct affiliate), but strong internal-link hub (Carmel → Nahalat Binyamin → Tel Aviv walking tour → accommodation). → BACKLOG P2/S added.
+
+**20+ false leads eliminated**: Checked for gaps in: Dead Sea swim guide, Tel Aviv beach guide, Masada sunrise, Ein Gedi, Caesarea, Haifa Bahai Gardens, Old City quarters, Golan wine, Galilean cuisine, Israel surfing, VAT refund, agritourism, multiple nationality guides, all Israeli cities, existing seasonal guides. All confirmed present as standalone pages.
+
+**6 net-new items confirmed added to BACKLOG**: Israel in October (P2/M), Israel in April (P2/M), Hula Valley guide (P2/M), Nahalat Binyamin market (P2/S), Israel in November (P2/S), Israel in March (P2/S).

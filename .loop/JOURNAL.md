@@ -11708,3 +11708,14 @@ All three files redirect readers to united.com for current seasonal frequencies 
 **Ship**: 7473dbf squash-committed to master; pushed origin/master. Branch auto/review-774-points-miles-links-qantas deleted. CI + Lighthouse in_progress at push (standard pattern).
 **Prod**: CI in_progress (standard; verifying next iteration).
 **Next**: iter 775 → RESEARCH mode (775%5==0).
+
+## 2026-07-25T16:30Z · iter 775 · RESEARCH · research-775-monthly-guides-hula-valley-nahalat-binyamin
+
+**Mode**: RESEARCH (775%5==0).
+**Search angles**: Tourist Israel monthly content, Lonely Planet seasonal, GoIsrael niche destinations, birdwatching/wildlife travel, Tel Aviv markets, "Israel in [month]" SERP.
+**Key finding — structural monthly guide gap**: Tourist Israel, Lonely Planet, GoIsrael all publish 12 dedicated monthly guides ("Things to do in Israel in [Month]"). We have only 4 broad seasonal guides + passover/easter. Monthly guides serve distinct search intent (specific travel window vs broad season) and rank independently. Zero existing monthly guide pages on site.
+**Best opportunities**: Israel in October (High Holidays + wine harvest + crane migration; highest estimated search volume), Israel in April (Passover + Easter peak; busiest tourist month), Hula Valley/Agamon HaHula (BBC Wildlife world top-10; 35,000+ cranes; Tourist Israel + GoIsrael both have dedicated pages; only 2 sentences in our birdwatching guide), Israel in November (crane migration peak + Olive Branch Days), Israel in March (Purim + wildflowers), Nahalat Binyamin arts market (200+ juried artisans Tue/Fri; Tourist Israel + GoIsrael have pages; we have adjacent Carmel Market covered but not this).
+**False leads eliminated (20+)**: All Israeli cities, major attractions, existing nationality/visa guides, Dead Sea/Masada/Ein Gedi/Caesarea/Haifa, all existing seasonal guides, surfing, VAT refund, agritourism, wine trails — all confirmed present.
+**6 items added to BACKLOG**: Israel in October (P2/M), Israel in April (P2/M), Hula Valley guide (P2/M), Nahalat Binyamin market (P2/S), Israel in November (P2/S), Israel in March (P2/S).
+**No shipping** (research mode — memory update only).
+**Next**: iter 776 → BUILD mode (776%5==1 → monetization rotation).

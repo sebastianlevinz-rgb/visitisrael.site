@@ -1,13 +1,15 @@
 # LOOP STATE
 
-- iteration: 774
-- lastMode: REVIEW
-- lastItem: review-774-points-miles-links-qantas
-- lastResult: REVIEW iter774 — audit of israel-points-miles-guide (iter773) SHIPPED 7473dbf. Honesty fix: Qantas section stated "partner award on El Al or Emirates connection" — both inaccurate (Emirates cancelled all TLV service iter763; El Al is Star Alliance / Qantas is oneworld — no alliance cross-booking). Corrected to "oneworld partner award via British Airways through LHR or Cathay Pacific through HKG." Internal link gap fixed: guide body had zero cross-links; added /cheap-flights-to-israel in intro, /israel-accommodation-guide + /new-luxury-hotels-israel-2026 in Hotels section. Reverse links added: israel-accommodation-guide.md, new-luxury-hotels-israel-2026.md, and luxury-travel-israel.md all now cross-link to /israel-points-miles-guide. Gate: pnpm check 0 errors; pnpm build 851 pages (no change); pnpm test:e2e 1153/1153 pass. CI in_progress at push (standard pattern).
-- nextRotationCategory: 775%5==0 → RESEARCH
+- iteration: 775
+- lastMode: RESEARCH
+- lastItem: research-775-monthly-guides-hula-valley-nahalat-binyamin
+- lastResult: RESEARCH iter775 — 4 search angles, 6 net-new items found. Monthly guide gap confirmed: Tourist Israel + Lonely Planet + GoIsrael all have 12-month dedicated pages; we have zero. Biggest individual gaps: Oct (High Holidays + crane migration start, highest search vol), Apr (Passover + Easter peak), Nov (crane migration peak), Mar (Purim + wildflowers). Hula Valley confirmed BBC Wildlife world top-10 but only mentioned in 2 sentences in birdwatching guide. Nahalat Binyamin arts market (200+ juried artisans, Tue/Fri) absent despite Carmel Market page existing. 20+ false leads eliminated — all Israeli cities, major attractions, nationality guides, existing seasonal guides confirmed present. 6 items added to BACKLOG.
+- nextRotationCategory: 776%5==1 → BUILD (monetization)
 - higgsfieldSpent: 0
-- updatedAt: 2026-07-25T15:50Z
+- updatedAt: 2026-07-25T16:30Z
 - branch context: work on master; feature work on auto/<slug>
+
+Notes: iter774 REVIEW (seo-content) — review-774-points-miles-links-qantas SHIPPED 7473dbf. Honesty fix: Qantas section stated "partner award on El Al or Emirates connection" — both inaccurate (Emirates cancelled all TLV service iter763; El Al is Star Alliance / Qantas is oneworld — no alliance cross-booking). Corrected to "oneworld partner award via British Airways through LHR or Cathay Pacific through HKG." Internal link gap fixed: guide body had zero cross-links; added /cheap-flights-to-israel in intro, /israel-accommodation-guide + /new-luxury-hotels-israel-2026 in Hotels section. Reverse links added: israel-accommodation-guide.md, new-luxury-hotels-israel-2026.md, and luxury-travel-israel.md all now cross-link to /israel-points-miles-guide. Gate: pnpm check 0 errors; pnpm build 851 pages (no change); pnpm test:e2e 1153/1153 pass. CI in_progress at push (standard pattern).
 
 Notes: iter767 BUILD (seo-content) — maccabiah-post-event-reframe SHIPPED e00f030. See previous STATE.
 
@@ -29,4 +31,4 @@ Notes: iter727 BUILD (seo-content) — digital-nomad-israel SHIPPED 544bd7f. New
 
 Cron b7325b16 hourly @ :17. Loop history: 19 tools + sitemap-lastmod + link-checker(+depth) + i18n
 Phase0/1a/1b/1c/2 Batches1-18(COMPLETE) + 48 review passes + 4 technical (event-schema + meta-trim + locale-links + freshness-688) + 80 EN guides + 7 tools-monetization + 2 comparisons;
-research iters 5/10/20/30/35/40/45/50/55/60/65/70/75/80/85/90/95/100/105/110/115/120/125/130/135/140/145/150/155/160/165/170/175/180/185/190/195/200/205/210/215/220/225/230/235/240/245/250/255/260/265/270/275/280/285/290/295/300/305/310/315/320/325/330/335/340/345/350/355/360/365/370/375/380/385/390/395/400/405/410/420/425/430/435/440/445/450/455/460/465/470/480/485/490/495/500/505/510/515/520/525/535/540/545/550/555/560/565/570/575/580/585/590/595/600/605/610/615/620/625/630/635/640/645/650/655/660/665/670/675/680/685/690/695/700/705/710/715/720/725/730/735/740/745/750/755/760/765.
+research iters 5/10/20/30/35/40/45/50/55/60/65/70/75/80/85/90/95/100/105/110/115/120/125/130/135/140/145/150/155/160/165/170/175/180/185/190/195/200/205/210/215/220/225/230/235/240/245/250/255/260/265/270/275/280/285/290/295/300/305/310/315/320/325/330/335/340/345/350/355/360/365/370/375/380/385/390/395/400/405/410/420/425/430/435/440/445/450/455/460/465/470/480/485/490/495/500/505/510/515/520/525/535/540/545/550/555/560/565/570/575/580/585/590/595/600/605/610/615/620/625/630/635/640/645/650/655/660/665/670/675/680/685/690/695/700/705/710/715/720/725/730/735/740/745/750/755/760/765/775.
