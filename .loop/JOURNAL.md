@@ -11557,3 +11557,15 @@ Gate: pnpm check 0 errors (131 files) · pnpm build 850 pages (unchanged — con
 Ship: committed f0b5a50 directly on master; pushed origin/master. Branch auto/emirates-tlv-honesty-fix deleted.
 Prod: CI (run 30144833425) + Lighthouse (run 30144833408) in_progress at state-update time. Prior commit 6438a15 confirmed success. Consistent pattern — no regression.
 Next: iter 764 → REVIEW mode (764%5==4). Audit recent iters 761-763 (israel-mediterranean-cruise-guide, temple-mount-visitor-guide, emirates-honesty-fix).
+
+## 2026-07-25T06:00Z · iter 764 · REVIEW · temple-mount-discoverability
+Mode: REVIEW (764%5==4).
+Audit scope: temple-mount-visitor-guide (iter762) — the comprehensive non-Muslim visitor guide for Temple Mount / Haram al-Sharif.
+Findings:
+  1. Visiting days INCONSISTENCY — attraction page (jerusalem-temple-mount.md) listed Temple Mount as "closed Fridays, Saturdays and Muslim holidays / open Sun-Thu"; visitor guide (iter762) specifies "Mon-Thu + Saturday". Three occurrences corrected in attraction: FAQ answer, need-to-know table ("Mon-Thu + Sat"), and body text. Also updated "Avoid Fridays, Shabbat" → "Avoid Fridays, Islamic holidays" since Saturday is now correctly listed as open. Jerusalem region page updated from "Sunday to Thursday" to "Monday to Thursday and Saturday".
+  2. Discoverability GAP — zero inbound links from the Jerusalem region page or Jerusalem attraction page to /temple-mount-visitor-guide. Added cross-links in both files.
+  All changes are content-only; no new pages; 850 pages unchanged in build count.
+Gate: pnpm check 0 errors · pnpm build 850 pages · pnpm test:e2e 1151/1151 pass.
+Ship: squash-merged + committed 0d290ca on master; pushed origin/master. Branch auto/review-764-temple-mount-discoverability deleted.
+Prod: CI concluded success (most recent runs all success). No regression.
+Next: iter 765 → BUILD mode (765%5==0 → RESEARCH; wait, 765%5==0 → RESEARCH mode).

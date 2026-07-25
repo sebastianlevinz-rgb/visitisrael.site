@@ -1,12 +1,12 @@
 # LOOP STATE
 
-- iteration: 763
-- lastMode: BUILD
-- lastItem: emirates-tlv-honesty-fix
-- lastResult: BUILD iter763 — technical/honesty. Emirates-TLV permanent cancellation fix SHIPPED f0b5a50. Emirates has permanently suspended ALL Tel Aviv flights; 9 guides still referenced Emirates for DXB→TLV routing. Fixed all occurrences across israel-for-russian-speaking-travelers, -korean, -south-african, -indian, -filipino, -irish, cheap-flights-to-israel (EN/DE/FR). All DXB routing references updated to FlyDubai with inline note explaining FlyDubai is separately managed from Emirates (both Dubai government-owned). updatedAt bumped to 2026-07-25 on 8 content guides. tools category exhausted → fell through to technical/honesty. Gate: pnpm check 0 errors; pnpm build 850 pages (unchanged — content-only fix); 1151/1151 e2e+a11y pass. CI in_progress at push (standard pattern).
-- nextRotationCategory: 764%5==4 → REVIEW mode
+- iteration: 764
+- lastMode: REVIEW
+- lastItem: review-764-temple-mount-discoverability
+- lastResult: REVIEW iter764 — audited temple-mount-visitor-guide (iter762). Two issues found and fixed: (1) visiting days inconsistency — attraction page said "closed Sat, open Sun-Thu"; visitor guide says "Mon-Thu + Sat"; corrected all 3 occurrences in attraction page + Jerusalem region page; (2) discoverability gap — 0 inbound links from attraction or region page to /temple-mount-visitor-guide; cross-links added to both. Gate: pnpm check 0 errors; pnpm build 850 pages (unchanged); 1151/1151 e2e+a11y pass. SHIPPED 0d290ca. CI success confirmed.
+- nextRotationCategory: 765%5==0 → RESEARCH mode
 - higgsfieldSpent: 0
-- updatedAt: 2026-07-25T05:05Z
+- updatedAt: 2026-07-25T06:00Z
 - branch context: work on master; feature work on auto/<slug>
 
 Notes: iter751 BUILD (monetization) — new-luxury-hotels-israel-2026 SHIPPED f210b76. New guide covers Israel's 2026 luxury hotel surge: Six Senses Tel Aviv (10-floor spa, sky pool, 5 heritage buildings + LEED Platinum tower), Nobu Hotel Tel Aviv (Jaffa, De Niro/Matsuhisa brand), The Yacht Hotel Herzliya (325 rooms, Fattal Group, marina resort, June 2026), Isrotel Kayma Dead Sea (eco-luxury), Herzl Hotel Beersheba (Ottoman Governor's House), Canaan-Tzfat (Safed boutique), Ein Hod Boutique Wellness Hotel, plus Dizengoff 99/Basel Complex/Leon Towers/Palatin Hotel (TLV openings). 7 FAQs, 3 affiliate CTAs (2x Booking.com + GetYourGuide luxury experiences). Honest opening-status caveats throughout; no fabricated prices or ratings. Cross-links added from best-hotels-tel-aviv.md, israel-accommodation-guide.md, luxury-travel-israel.md. Gate: pnpm check 0 errors; pnpm build 844 pages (+1); pnpm test:e2e 1140/1140 pass. CI in_progress at push (standard pattern).
