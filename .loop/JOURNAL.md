@@ -11719,3 +11719,18 @@ All three files redirect readers to united.com for current seasonal frequencies 
 **6 items added to BACKLOG**: Israel in October (P2/M), Israel in April (P2/M), Hula Valley guide (P2/M), Nahalat Binyamin market (P2/S), Israel in November (P2/S), Israel in March (P2/S).
 **No shipping** (research mode — memory update only).
 **Next**: iter 776 → BUILD mode (776%5==1 → monetization rotation).
+
+## 2026-07-25T17:45Z · iter 776 · BUILD · israel-in-october-monthly-guide
+
+**Mode**: BUILD (776%5==1 → monetization rotation). No P1/P2 monetization items ready in BACKLOG — all recent monetization items shipped. Fell through to seo-content (next category). Top P2 item from iter775 research: "Israel in October" monthly guide (highest search volume of the 6 new items per research).
+**What shipped**: New /israel-in-october guide (src/content/guides/israel-in-october.md). Fills confirmed structural gap: Tourist Israel + thingstodoinisrael.com + globalhighlights.com all rank for "Israel in October"; site had zero monthly guide pages.
+**Content**: Two-phase October structure (Jewish High Holidays phase Oct 1–14 approx + post-Sukkot lull mid-late Oct). Sections: Yom Kippur logistics (25-hr shutdown, cyclists on highways, Kol Nidre at Western Wall), Sukkot and Birkat Kohanim (mass Priestly Blessing at Western Wall — arrive 5:30–6:30am, tens of thousands gather), wine harvest season (Golan Heights: Yarden walk-in, Chateau Golan/Assaf boutique by appt; Galilee + Judean Hills; all Oct harvest context), Negev hiking season reopen (Oct = desert hiking opens after summer closure; Makhtesh Ramon, Nahal Zin, Incense Route cities), Hula Valley crane migration start (cranes arrive Oct 25–28; late Oct = low-crowd early season; Sunrise Safari booking advised), October events calendar (InDNegev festival mid-Oct; Birkat Kohanim dates), post-Sukkot lull section (25–40% price drop, 2–3 week quiet window), practical planning (weather by zone, booking lead times, Shabbat/holiday closure tool link).
+**3 affiliate CTAs**: Booking.com (holiday advance booking + post-Sukkot value CTA), GYG (Golan wine harvest tours), GYG (Jerusalem Sukkot/Birkat Kohanim tours). 7 FAQs with FAQPage schema.
+**Cross-links**: israel-in-autumn, traveling-israel-jewish-holidays, israel-wine-wineries, birdwatching-in-israel, mitzpe-ramon-guide, israel-effective-days, israel-national-parks-pass, golan-heights-guide, is-israel-safe (InDNegev location note).
+**Reverse links added**: israel-in-autumn.md final paragraph now links to /israel-in-october; birdwatching-in-israel.md cross-links section now links to /israel-in-october.
+**Startup note**: fresh cloud clone had local master 50 commits behind origin → git reset --hard origin/master to fcbb3e4 (iter775 state). Standard pattern for cloud env.
+**Meta fix on first check run**: title was 67 chars (max 65), description was 204 chars (max 160). Trimmed to 56 chars and 158 chars respectively before gate.
+**Gate**: pnpm check 0 errors (131 files); pnpm build 852 pages (+1 from 851); pnpm test:e2e 1155/1155 pass (+2: smoke test for /israel-in-october + a11y test for /israel-in-october). GREEN.
+**Ship**: squash-merged to master 95cba26; pushed origin/master. Branch auto/israel-in-october-monthly-guide deleted. CI in_progress at push (standard pattern).
+**Prod**: CI in_progress (standard; previous SHAs all success).
+**Next**: iter 777 → BUILD (777%5==2 → seo-content). Top candidates from iter775 research: Israel in April (P2/M, Passover+Easter peak), Hula Valley guide (P2/M), Israel in November (P2/S), Israel in March (P2/S), Nahalat Binyamin market (P2/S).

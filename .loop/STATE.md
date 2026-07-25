@@ -1,13 +1,15 @@
 # LOOP STATE
 
-- iteration: 775
-- lastMode: RESEARCH
-- lastItem: research-775-monthly-guides-hula-valley-nahalat-binyamin
-- lastResult: RESEARCH iter775 — 4 search angles, 6 net-new items found. Monthly guide gap confirmed: Tourist Israel + Lonely Planet + GoIsrael all have 12-month dedicated pages; we have zero. Biggest individual gaps: Oct (High Holidays + crane migration start, highest search vol), Apr (Passover + Easter peak), Nov (crane migration peak), Mar (Purim + wildflowers). Hula Valley confirmed BBC Wildlife world top-10 but only mentioned in 2 sentences in birdwatching guide. Nahalat Binyamin arts market (200+ juried artisans, Tue/Fri) absent despite Carmel Market page existing. 20+ false leads eliminated — all Israeli cities, major attractions, nationality guides, existing seasonal guides confirmed present. 6 items added to BACKLOG.
-- nextRotationCategory: 776%5==1 → BUILD (monetization)
+- iteration: 776
+- lastMode: BUILD
+- lastItem: israel-in-october-monthly-guide
+- lastResult: BUILD iter776 (seo-content fallthrough from monetization — no P1/P2 monetization items ready) — israel-in-october SHIPPED 95cba26. New /israel-in-october fills the monthly guide gap confirmed in iter775 research. Tourist Israel + thingstodoinisrael.com + globalhighlights.com all rank for "Israel in October"; we had zero equivalent page. Content: two-phase October structure (High Holidays phase + post-Sukkot lull), Yom Kippur logistics, Sukkot Birkat Kohanim at Western Wall, wine harvest season (Golan/Galilee/Judean Hills), Negev hiking season reopen, Hula Valley crane migration start (late Oct), practical packing + booking-lead-time guidance. 7 FAQs. 3 affiliate CTAs: Booking.com (holiday advance booking + post-lull value), GYG ×2 (Golan wine harvest tours, Jerusalem Sukkot tours). Reverse links: israel-in-autumn.md + birdwatching-in-israel.md. Gate: pnpm check 0 errors; pnpm build 852 pages (+1); pnpm test:e2e 1155/1155 pass (+2). CI in_progress at push (standard pattern).
+- nextRotationCategory: 777%5==2 → BUILD (seo-content)
 - higgsfieldSpent: 0
-- updatedAt: 2026-07-25T16:30Z
+- updatedAt: 2026-07-25T17:45Z
 - branch context: work on master; feature work on auto/<slug>
+
+Notes: iter775 RESEARCH — 6 net-new items found. Monthly guide gap confirmed: Tourist Israel + Lonely Planet + GoIsrael all have 12-month dedicated pages; we had zero. 6 items added: Oct/Apr/Nov/Mar monthly guides, Hula Valley standalone guide, Nahalat Binyamin market guide. October shipped this iteration (iter776). Remaining 5 items still in BACKLOG.
 
 Notes: iter774 REVIEW (seo-content) — review-774-points-miles-links-qantas SHIPPED 7473dbf. Honesty fix: Qantas section stated "partner award on El Al or Emirates connection" — both inaccurate (Emirates cancelled all TLV service iter763; El Al is Star Alliance / Qantas is oneworld — no alliance cross-booking). Corrected to "oneworld partner award via British Airways through LHR or Cathay Pacific through HKG." Internal link gap fixed: guide body had zero cross-links; added /cheap-flights-to-israel in intro, /israel-accommodation-guide + /new-luxury-hotels-israel-2026 in Hotels section. Reverse links added: israel-accommodation-guide.md, new-luxury-hotels-israel-2026.md, and luxury-travel-israel.md all now cross-link to /israel-points-miles-guide. Gate: pnpm check 0 errors; pnpm build 851 pages (no change); pnpm test:e2e 1153/1153 pass. CI in_progress at push (standard pattern).
 
