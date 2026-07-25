@@ -3,7 +3,7 @@ title: 'Israel Travel Guide for British Visitors (2026)'
 description: 'Israel travel guide for UK visitors: FCDO advice, ETA-IL, direct UK flights, adapters, currency, driving on a UK licence and British Embassy contacts.'
 heroImage: /images/regions/jerusalem/hero.jpg
 category: Planning
-updatedAt: 2026-07-10
+updatedAt: 2026-07-25
 ctaHeading: 'Book hotels, tours and car hire for your Israel trip'
 affiliateCtas:
   - partner: booking
@@ -74,14 +74,14 @@ Several airlines operate nonstop services between the UK and Ben Gurion Airport 
 | Route | Carriers |
 |---|---|
 | London Heathrow (LHR) | El Al, British Airways |
-| London Gatwick (LGW) | El Al, easyJet (seasonal) |
+| London Gatwick (LGW) | El Al, easyJet (seasonal — verify current status) |
 | Manchester (MAN) | El Al, Jet2 (seasonal), Wizz Air |
 | Birmingham (BHX) | Jet2 (seasonal) |
 | Edinburgh (EDI) | Jet2 (seasonal) |
 
 Flight time from London is approximately 4 hours 45 minutes eastbound. Manchester adds roughly 20 minutes. Seasonal services from regional UK airports typically operate April to October.
 
-**El Al** runs the most frequencies year-round — often multiple daily departures from both Heathrow and Gatwick — and tends to be price-competitive on the nonstop market. **British Airways** serves Heathrow year-round. Budget carriers **easyJet**, **Jet2** and **Wizz Air** offer lower base fares but charge separately for hold luggage and seat selection, which can narrow the price gap significantly.
+**El Al** runs the most frequencies year-round — often multiple daily departures from both Heathrow and Gatwick — and tends to be price-competitive on the nonstop market. **British Airways** serves Heathrow year-round. Budget carriers **Jet2** and **Wizz Air** offer lower base fares but charge separately for hold luggage and seat selection, which can narrow the price gap significantly. **easyJet** has served LGW–TLV seasonally but its Israel service status remains uncertain as of mid-2026 — verify on easyjet.com before booking. See the [cheap flights to Israel guide](/cheap-flights-to-israel) for the latest carrier comparison.
 
 **When to book.** Fares from the UK are typically lowest in October (after the Jewish High Holiday season) and November to mid-December. The most expensive periods are Passover (March–April), the High Holidays (September–October), and the Christmas–New Year window. Booking around 10–20 weeks in advance usually produces competitive fares from London. See the [cheap flights to Israel guide](/cheap-flights-to-israel) for fare tool tips and a full airline comparison.
 

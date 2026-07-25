@@ -3,7 +3,7 @@ title: 'Israel vs Jordan: Which Should You Visit? (2027)'
 description: 'Israel vs Jordan: compare history, Petra, the Dead Sea, costs, visas, safety and beaches to decide which Middle East destination suits your trip.'
 heroImage: /images/regions/jerusalem/hero.jpg
 category: Compare
-updatedAt: 2026-07-09
+updatedAt: 2026-07-25
 ctaHeading: 'Start planning your Israel trip'
 affiliateCtas:
   - partner: getyourguide
@@ -125,7 +125,7 @@ Both countries are visited by millions of tourists annually on well-established 
 
 ## Getting there
 
-**Israel** is well served from major European hubs. From London, El Al, British Airways and EasyJet fly to Ben Gurion Airport (TLV) in approximately 4.5 hours. Low-cost routes have expanded significantly since 2023. From New York (JFK), El Al flies direct to TLV in approximately 10–11 hours.
+**Israel** is well served from major European hubs. From London, El Al and British Airways fly to Ben Gurion Airport (TLV) in approximately 4.5 hours; EasyJet has served the Gatwick route seasonally (verify current status on easyjet.com before booking). Low-cost routes have expanded significantly since 2023. From New York (JFK), El Al flies direct to TLV in approximately 10–11 hours.
 
 **Jordan** is served from London to Queen Alia International Airport (AMM) in approximately 5 hours, via Royal Jordanian, British Airways and other European carriers. Royal Jordanian and connections via European hubs serve North American routes; direct transatlantic service to Amman is limited.
 

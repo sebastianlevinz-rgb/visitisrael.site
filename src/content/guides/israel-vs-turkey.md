@@ -3,7 +3,7 @@ title: 'Israel vs Turkey: Which Should You Visit? (2026)'
 description: 'Israel or Turkey for your next trip? Compare costs, beaches, history, food, visas, safety and nightlife to find which destination fits your style.'
 heroImage: /images/regions/jerusalem/hero.jpg
 category: Compare
-updatedAt: 2026-07-08
+updatedAt: 2026-07-25
 ctaHeading: 'Start planning your trip'
 affiliateCtas:
   - partner: booking
@@ -133,7 +133,7 @@ For first-time visitors coming from Europe or North America, both destinations f
 
 Both destinations are well-served from major European hubs.
 
-**Israel:** From London (Heathrow/Gatwick/Luton), El Al, British Airways and EasyJet fly to Ben Gurion Airport (TLV) in approximately 4.5 hours. From Amsterdam, Paris, Frankfurt and Rome, flights are typically 3.5–4.5 hours. Low-cost carriers have increased Israel routes since 2023.
+**Israel:** From London (Heathrow/Gatwick/Luton), El Al and British Airways fly to Ben Gurion Airport (TLV) in approximately 4.5 hours; EasyJet has served the Gatwick route seasonally (verify current status on easyjet.com before booking). From Amsterdam, Paris, Frankfurt and Rome, flights are typically 3.5–4.5 hours. Low-cost carriers have increased Israel routes since 2023.
 
 **Turkey:** Istanbul is closer to Western Europe — roughly 3.5 hours from London, 2.5 hours from Rome or Vienna. Pegasus Airlines and Turkish Airlines offer competitive fares from across Europe. Bodrum and Antalya have direct charter and low-cost connections from the UK, Germany and Scandinavia in summer.
 

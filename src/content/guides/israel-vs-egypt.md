@@ -3,7 +3,7 @@ title: 'Israel vs Egypt: Which Should You Visit? (2027)'
 description: 'Israel vs Egypt: compare history, beaches, costs, safety, visas and food to find which Middle East destination suits your travel style.'
 heroImage: /images/regions/jerusalem/hero.jpg
 category: Compare
-updatedAt: 2026-07-09
+updatedAt: 2026-07-25
 ctaHeading: 'Start planning your Israel trip'
 affiliateCtas:
   - partner: getyourguide
@@ -121,7 +121,7 @@ Both destinations are visited by millions of tourists annually on safe, well-tro
 
 ## Getting there
 
-**Israel** is served from most major European hubs. From London (Heathrow/Gatwick/Luton), El Al, British Airways and EasyJet fly to Ben Gurion Airport (TLV) in approximately 4.5 hours. Low-cost carriers have expanded Israel routes significantly since 2023.
+**Israel** is served from most major European hubs. From London (Heathrow/Gatwick/Luton), El Al and British Airways fly to Ben Gurion Airport (TLV) in approximately 4.5 hours; EasyJet has served the Gatwick route seasonally (verify current status on easyjet.com before booking). Low-cost carriers have expanded Israel routes significantly since 2023.
 
 **Egypt** has similar flight times from London to Cairo (approximately 5 hours), with EgyptAir and various European carriers operating the route. Charter and low-cost flights to Sharm el-Sheikh and Hurghada run from UK and German airports in summer.
 
