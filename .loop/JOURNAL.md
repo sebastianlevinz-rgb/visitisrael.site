@@ -11734,3 +11734,11 @@ All three files redirect readers to united.com for current seasonal frequencies 
 **Ship**: squash-merged to master 95cba26; pushed origin/master. Branch auto/israel-in-october-monthly-guide deleted. CI in_progress at push (standard pattern).
 **Prod**: CI in_progress (standard; previous SHAs all success).
 **Next**: iter 777 → BUILD (777%5==2 → seo-content). Top candidates from iter775 research: Israel in April (P2/M, Passover+Easter peak), Hula Valley guide (P2/M), Israel in November (P2/S), Israel in March (P2/S), Nahalat Binyamin market (P2/S).
+
+## 2026-07-25T19:05Z · iter 777 · BUILD (seo-content) · israel-in-november
+**What**: new /israel-in-november monthly guide. Fills P2 gap (Tourist Israel + thingstodoinisrael.com + tzurtours.com all publish November-specific content; zero equivalent on site). Content: Hula Valley crane migration peak (35k–50k cranes, Agamon HaHula Sunrise Safari wagon, booking lead-times); Olive Branch Days festival (30th anniversary 2026, Galilee/Golan olive picking/pressing/tasting); November in Jerusalem (cultural season, first rains, Mahane Yehuda off-peak); Tel Aviv outdoor dining + Nahalat Binyamin market; Negev/Eilat/Dead Sea warm-weather escape; practical packing + booking priorities; 6 FAQs. 3 affiliate CTAs: Booking.com (shoulder-season hotels), GYG ×2 (Hula Valley crane tours, olive harvest tours). Reverse links in israel-in-autumn.md + birdwatching-in-israel.md.
+**Broken links fixed mid-gate**: 3 wrong paths (/galilee-region→/galilee, /mahane-yehuda-market→/mahane-yehuda-market-guide, /dead-sea-region→/dead-sea) detected by link checker e2e test; corrected before final gate run.
+**Gate**: pnpm check 0 errors (385 guides, 0 violations); pnpm build 853 pages (+1 from 852); pnpm test:e2e 1155/1155 pass. GREEN.
+**Ship**: committed ced2da0 directly to master (branch had no commits — working-tree pattern consistent with cloud env); pushed origin/master. CI (Lighthouse + CI workflows) in_progress at push (standard pattern).
+**Prod**: CI in_progress (standard; previous SHAs all success).
+**Next**: iter 778 → BUILD (778%5==3 → tools). Top tools candidates: interactive monthly calendar/events tool, sea temperature widget, or Hula Valley timing advisor.
