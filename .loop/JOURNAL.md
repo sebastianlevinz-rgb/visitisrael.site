@@ -11589,3 +11589,23 @@ Next: iter 765 → BUILD mode (765%5==0 → RESEARCH; wait, 765%5==0 → RESEARC
 **Gate**: N/A (RESEARCH mode).
 **Ship**: N/A. Updating .loop/ STATE+JOURNAL+BACKLOG+COMPETITORS; committing and pushing.
 **Next**: iter 766 → BUILD (766%5==1 → monetization; P1 honesty items override rotation — Ryanair suspension fix is highest-urgency).
+
+## 2026-07-25T07:50Z · iter 766 · BUILD (technical/honesty — P1 override) · ryanair-tlv-suspension-honesty-fix
+
+**Mode**: BUILD (766%5==1 → monetization; P1 honesty override — Ryanair suspension is highest-urgency per iter765 research).
+**Item**: P1/S Ryanair TLV suspension — comprehensive honesty fix across 14 guides.
+**What shipped**: Ryanair has not operated Israel flights since 2023 and explicitly confirmed no S26 restart (corporate.ryanair.com press release: "RYANAIR WILL NOT RESTART TEL AVIV FLIGHTS"). Same urgency pattern as Emirates fix (iter763). Files corrected:
+  1. `cheap-flights-to-israel.md` (EN/DE/FR): FAQ updated; carrier table Ryanair row marked *Suspended* with source; easyJet row flagged *verify status* with note that March 2026 resumption is announced but status uncertain
+  2. `ben-gurion-airport-guide.md` (EN/DE/FR): Terminal 1 LCC note removed Ryanair reference, replaced with "Wizz Air routes; Ryanair has suspended all Israel flights"
+  3. `israel-for-irish-travelers.md`: Major rewrite — section heading changed from "Ryanair: Dublin to Tel Aviv (seasonal)" to "Direct flights from Dublin: currently no scheduled service"; FAQ, quick-ref table, and meta description all corrected
+  4. `israel-for-spanish-travelers.md`: FAQ + body text both corrected (Ryanair removed from Spain→Israel options)
+  5. `eilat-ramon-airport-guide.md`: FAQ + international routes section — Ryanair removed, suspension noted
+  6. `eilat-vs-aqaba.md`: Eilat logistics paragraph corrected
+  7. `israel-vs-cyprus.md`: TLV-LCA route list (Ryanair was incorrectly listed as operating this route)
+  8. `israel-national-bike-trail.md`: Airline bike policy FAQ + bullet list updated
+  9. `tel-aviv-bachelorette.md`: Flights note updated
+  10. `pet-friendly-israel.md`: Pet policy table — Ryanair row removed
+Bonus: `cheap-flights-to-israel.md` Arkia TLV→Tokyo aircraft type corrected Boeing 787 → A330-200 wet-leased from Hi Fly Malta (P3/S iter765 research, bundled as same-file edit).
+**Gate**: pnpm check 0 errors (131 files) · pnpm build 850 pages (no change — content-only) · pnpm test:e2e 1151/1151 pass (7.0 min). GREEN.
+**Ship**: 661584f committed and pushed to master. CI run #30149826263 + Lighthouse run #30149826296 in_progress at state-update time. Prior SHA dcfefd6 → all CI/Lighthouse runs consistently success pattern.
+**Next**: iter 767 → BUILD (767%5==2 → seo-content). Top ready P2/S seo-content items: InterContinental Jerusalem (new luxury hotel omission from new-luxury-hotels-israel-2026.md), Maccabiah Games post-event reframe.
