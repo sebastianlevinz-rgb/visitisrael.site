@@ -3,7 +3,7 @@ title: 'Israel Travel Guide for Filipino Visitors (2026)'
 description: 'Israel travel guide for Filipino visitors: ETA-IL entry, Holy Land pilgrimage, flights from Manila, OFW family visits, GCash and PhilHealth abroad tips.'
 heroImage: /images/regions/nazareth/hero.jpg
 category: Planning
-updatedAt: 2026-07-19
+updatedAt: 2026-07-25
 ctaHeading: 'Book hotels, tours and travel insurance for your Holy Land trip'
 affiliateCtas:
   - partner: getyourguide
@@ -30,7 +30,7 @@ faqs:
   - question: Do Filipino citizens need a visa to enter Israel?
     answer: "No. Philippine passport holders are on Israel's visa-exempt list and do not need to apply for a visa before travelling to Israel. However, since January 2025, all visa-exempt nationals — including Filipinos — must obtain an Electronic Travel Authorisation (ETA-IL) before boarding any flight to Israel. The ETA-IL is straightforward: apply at iaa.gov.il (the official Israeli Airports Authority portal); the fee is ₪25 (approximately ₱700 at recent exchange rates); it is valid for multiple entries over two years; and processing typically takes between 72 hours and a few days. Apply at least a week before departure to allow buffer time. You will need your passport number and basic personal details — no supporting documents are required for the ETA-IL itself, unlike a full visa application. On arrival at Ben Gurion Airport, immigration officers may ask about the purpose of your visit, your accommodation, and your return flight. For pilgrimage visits, having your tour operator confirmation and hotel bookings on your phone or printed is helpful. There is no guarantee of entry — all final decisions are made by Israeli immigration at the port of entry."
   - question: What is the best way to fly from Manila to Israel?
-    answer: "There is currently no direct non-stop service between Ninoy Aquino International Airport (MNL, Manila) and Ben Gurion Airport (TLV, Tel Aviv). Connecting options via Gulf and Asian hubs typically take 14–20 hours total including the layover: Emirates operates MNL to DXB (Dubai) to TLV — one of the most popular routings among Filipino travellers, with multiple daily MNL–DXB departures and good TLV connections; Qatar Airways operates MNL to DOH (Doha) to TLV — strong frequency and competitive fares; Etihad operates MNL to AUH (Abu Dhabi) to TLV; Philippine Airlines (PAL) connects via DOH, DXB or AUH using partner carrier connections; Thai Airways and Gulf Air are alternative options via Bangkok or Bahrain. Note: El Al Israel Airlines has announced a direct TLV–Manila service planned for launch in October 2026 — this would be the first-ever non-stop Israel–Philippines connection, cutting travel time significantly. Check elal.com for updates and booking status as the launch date approaches."
+    answer: "There is currently no direct non-stop service between Ninoy Aquino International Airport (MNL, Manila) and Ben Gurion Airport (TLV, Tel Aviv). Connecting options via Gulf and Asian hubs typically take 14–20 hours total including the layover: FlyDubai operates MNL to DXB (Dubai) to TLV — FlyDubai is a separate airline from Emirates (though both are Dubai government-owned); Emirates has permanently suspended its Tel Aviv service, but FlyDubai continues up to 10 daily DXB–TLV flights; Qatar Airways operates MNL to DOH (Doha) to TLV — strong frequency and competitive fares; Etihad operates MNL to AUH (Abu Dhabi) to TLV; Philippine Airlines (PAL) connects via DOH, DXB or AUH using partner carrier connections; Thai Airways and Gulf Air are alternative options via Bangkok or Bahrain. Note: El Al Israel Airlines has announced a direct TLV–Manila service planned for launch in October 2026 — this would be the first-ever non-stop Israel–Philippines connection, cutting travel time significantly. Check elal.com for updates and booking status as the launch date approaches."
   - question: Is PhilHealth valid abroad and do I need travel insurance for Israel?
     answer: "PhilHealth (the Philippine Health Insurance Corporation) does NOT cover medical costs outside the Philippines. If you become ill or are injured in Israel, PhilHealth will not reimburse treatment costs. Medical care in Israel for uninsured tourists can be costly — an emergency room visit may run into thousands of shekels. Travel insurance with emergency medical cover is strongly recommended for all Filipino visitors. For OFWs (Overseas Filipino Workers): OWWA (Overseas Workers Welfare Administration) provides some medical benefit coverage for documented OFWs, but the coverage limits are low and do not substitute for comprehensive travel insurance — OWWA is a welfare supplement, not a travel insurance policy. Recommended approach: take out a separate international travel insurance policy before departure. Filipino-market policies from Manulife Philippines, AXA Philippines, Pioneer Insurance, and Pacific Cross are widely used for international travel. Alternatively, global providers such as SafetyWing, World Nomads or Allianz Global Assistance cover Israel. Always confirm that Israel is explicitly included in the policy's covered destinations."
   - question: Does GCash work in Israel?
@@ -73,13 +73,13 @@ There is currently no direct non-stop service between Manila (MNL) and Tel Aviv 
 
 | Hub | Main Carriers | Typical Total Journey Time |
 |---|---|---|
-| Dubai (DXB) | Emirates, Philippine Airlines | 15–17 hours |
+| Dubai (DXB) | FlyDubai, Philippine Airlines | 15–17 hours |
 | Doha (DOH) | Qatar Airways, Philippine Airlines | 14–16 hours |
 | Abu Dhabi (AUH) | Etihad, Philippine Airlines | 15–17 hours |
 | Bangkok (BKK) | Thai Airways | 16–20 hours |
 | Bahrain (BAH) | Gulf Air | 15–18 hours |
 
-**Emirates via Dubai** is one of the most popular routes among Filipino travellers — multiple daily Manila–Dubai departures and good onward connectivity to Tel Aviv. **Qatar Airways via Doha** offers competitive fares and is widely used by pilgrimage groups.
+**FlyDubai via Dubai** is a popular routing — FlyDubai (distinct from Emirates; both are Dubai government-owned) continues up to 10 daily DXB–TLV flights. Note: Emirates has permanently suspended its Tel Aviv service. **Qatar Airways via Doha** offers competitive fares and is widely used by pilgrimage groups.
 
 ### El Al direct Manila service (October 2026)
 
@@ -240,7 +240,7 @@ Co-located with the Philippine Embassy; provides OFW welfare, legal assistance, 
 | Item | Detail |
 |---|---|
 | Entry requirement | ETA-IL required (not a visa); apply at iaa.gov.il; ₪25 (~₱700); 72h+ before travel; 2-year multi-entry |
-| Flights | No direct Manila–TLV yet; Emirates via Dubai, Qatar via Doha, Etihad via Abu Dhabi; El Al direct planned Oct 2026 |
+| Flights | No direct Manila–TLV yet; FlyDubai via Dubai (not Emirates — Emirates suspended TLV), Qatar via Doha, Etihad via Abu Dhabi; El Al direct planned Oct 2026 |
 | Currency | New Israeli Shekel (₪); ₪1 ≈ ₱28–30 (verify at XE.com) |
 | Payments | Visa/Mastercard (BDO, BPI, Metrobank) — GCash International not accepted |
 | Power | Type H socket; 230V/50Hz — same voltage range as Philippines; plug adapter needed |

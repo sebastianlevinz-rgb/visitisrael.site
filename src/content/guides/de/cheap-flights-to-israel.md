@@ -3,7 +3,7 @@ title: "Günstige Flüge nach Israel (TLV): Wann buchen und beste Airlines"
 description: "Wie Sie die günstigsten Flüge zum Flughafen Ben Gurion finden — die besten Buchungsmonate, welche Airlines Direktflüge aus den USA und Europa anbieten, und Tarif-Tools zum Sparen."
 heroImage: /images/regions/tel-aviv/hero.jpg
 category: Planung
-updatedAt: 2026-06-30
+updatedAt: 2026-07-25
 ctaHeading: "Flüge nach Tel Aviv suchen und vergleichen"
 affiliateCtas:
   - partner: skyscanner
@@ -75,7 +75,7 @@ Die Grundtarife von Low-Cost-Airlines können sehr niedrig sein — besonders im
 
 Keine Direktflüge von Australien oder den meisten Teilen Asiens. Gängige Ein-Stopp-Verbindungen:
 
-- **Australien → Dubai oder Abu Dhabi → TLV** (Emirates / Etihad)
+- **Australien → Dubai oder Abu Dhabi → TLV** (FlyDubai / Etihad — Hinweis: Emirates hat seinen Tel-Aviv-Dienst dauerhaft eingestellt; für Dubai-Verbindungen bitte FlyDubai nutzen)
 - **Australien → Singapur oder Bangkok → TLV** (Singapore Airlines / Thai Airways)
 - **Indien → TLV** (Air India, IndiGo fliegen direkt; El Al ab Mumbai)
 

@@ -84,7 +84,7 @@ Budget carrier base fares can be very low — especially in autumn and spring �
 
 No direct flights exist from Australia. New for 2026: **Arkia** launched the first-ever direct Israel–Japan service (TLV → Tokyo Narita) from October 2026 using a Boeing 787, opening a direct gateway to East Asia for the first time. Common one-stop routings include:
 
-- **Australia → Dubai or Abu Dhabi → TLV** (Emirates / Etihad)
+- **Australia → Dubai or Abu Dhabi → TLV** (FlyDubai / Etihad — note: Emirates has permanently suspended its Tel Aviv service; use FlyDubai for Dubai connections)
 - **Australia → Singapore or Bangkok → TLV** (Singapore Airlines / Thai Airways)
 - **Japan / East Asia → TLV** (Arkia direct from Oct 2026; El Al codeshares)
 - **India → TLV** (Air India, IndiGo operate direct; El Al from Mumbai)

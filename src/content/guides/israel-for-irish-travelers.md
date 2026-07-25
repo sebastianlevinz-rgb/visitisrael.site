@@ -3,7 +3,7 @@ title: 'Israel Travel Guide for Irish Visitors (2026)'
 description: 'Israel travel guide for Irish tourists: ETA-IL, Ryanair Dublin to Tel Aviv, Catholic pilgrimage circuit, EHIC gap, power adapter and practical tips.'
 heroImage: /images/regions/jerusalem/hero.jpg
 category: Planning
-updatedAt: 2026-07-21
+updatedAt: 2026-07-25
 ctaHeading: 'Book hotels, tours and car rental for your Israel trip from Ireland'
 affiliateCtas:
   - partner: booking
@@ -30,7 +30,7 @@ faqs:
   - question: Do Irish citizens need a visa to enter Israel?
     answer: "No. Irish passport holders are on Israel's visa-exempt list and do not need a full visa. However, since January 2025, all visa-exempt nationals — including Irish citizens — must obtain an Electronic Travel Authorisation (ETA-IL) before travelling to Israel. Apply at iaa.gov.il (the official Israeli Airports Authority portal); the fee is ₪25 (approximately €6–7 at current rates — check the ILS/EUR rate at XE.com before applying); it is valid for multiple entries over two years; processing typically takes 72 hours to a few days. Apply at least one week before departure. You will need your passport number, date of birth and basic travel details. On arrival at Ben Gurion Airport, Irish passport holders may be asked about travel purpose, accommodation and return flight — having your hotel bookings and return ticket on your phone or printed helps the process go smoothly. Entry is not guaranteed — all final decisions are made by Israeli immigration at the port of entry."
   - question: How do I fly from Ireland to Israel?
-    answer: "Ryanair operates a seasonal service between Dublin Airport (DUB) and Tel Aviv Ben Gurion Airport (TLV) — check ryanair.com for current schedules and dates as frequency and timing vary by season. When Ryanair is not operating, the most common routing is a connection via London Heathrow (LHR) with El Al or British Airways (total journey approximately 6–7 hours), or via a Middle East hub: Emirates via Dubai (DXB), Etihad via Abu Dhabi (AUH), or Turkish Airlines via Istanbul (IST). Aer Lingus flies to LHR, where you can connect to El Al's daily LHR–TLV service (total journey approximately 7 hours). The most affordable fares from Ireland are typically in January–February and October–November, outside Israel's peak seasons."
+    answer: "Ryanair operates a seasonal service between Dublin Airport (DUB) and Tel Aviv Ben Gurion Airport (TLV) — check ryanair.com for current schedules and dates as frequency and timing vary by season. When Ryanair is not operating, the most common routing is a connection via London Heathrow (LHR) with El Al or British Airways (total journey approximately 6–7 hours), or via a Middle East hub: FlyDubai via Dubai (DXB — note: FlyDubai is a separate airline from Emirates; Emirates has permanently suspended its Tel Aviv service), Etihad via Abu Dhabi (AUH), or Turkish Airlines via Istanbul (IST). Aer Lingus flies to LHR, where you can connect to El Al's daily LHR–TLV service (total journey approximately 7 hours). The most affordable fares from Ireland are typically in January–February and October–November, outside Israel's peak seasons."
   - question: Is there an Irish embassy or consulate in Israel?
     answer: "Yes — Ireland has an Embassy of Ireland in Tel Aviv (Rothschild Boulevard, Tel Aviv). Irish citizens requiring consular assistance in Israel should contact the Embassy of Ireland, Tel Aviv. Details are available at ireland.ie/en/dfa/embassies. In an emergency while in Israel, the Irish emergency consular number (24/7) is available through the Department of Foreign Affairs in Dublin. Register your trip with the DFA Travel Smart app before departing, and always carry a note of the embassy's local phone number."
   - question: Does my European Health Insurance Card (EHIC) cover medical costs in Israel?
@@ -86,7 +86,7 @@ When a direct route is not available, the most common connections from Dublin to
 | Hub | Main Carriers | Typical Total Journey |
 |---|---|---|
 | London Heathrow (LHR) | El Al, British Airways | 6–7 hours |
-| Dubai (DXB) | Emirates | 9–11 hours |
+| Dubai (DXB) | FlyDubai | 9–11 hours |
 | Istanbul (IST) | Turkish Airlines | 8–10 hours |
 | Abu Dhabi (AUH) | Etihad | 9–11 hours |
 | Amsterdam (AMS) | KLM, Transavia | 7–9 hours |

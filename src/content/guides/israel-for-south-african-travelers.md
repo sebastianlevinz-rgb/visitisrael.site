@@ -3,7 +3,7 @@ title: 'Israel Travel Guide for South African Visitors (2026)'
 description: 'Israel travel guide for South Africans: ETA-IL, El Al direct Johannesburg to Tel Aviv, Jewish heritage, Christian pilgrimage and practical tips.'
 heroImage: /images/regions/jerusalem/hero.jpg
 category: Planning
-updatedAt: 2026-07-20
+updatedAt: 2026-07-25
 ctaHeading: 'Book hotels, tours and travel insurance for your Israel trip from South Africa'
 affiliateCtas:
   - partner: getyourguide
@@ -30,7 +30,7 @@ faqs:
   - question: Do South African citizens need a visa to enter Israel?
     answer: "No. South African passport holders are on Israel's visa-exempt list and do not need to apply for a full visa before travelling to Israel. However, since January 2025, all visa-exempt nationals — including South Africans — must obtain an Electronic Travel Authorisation (ETA-IL) before boarding any flight to Israel. Apply at iaa.gov.il (the official Israeli Airports Authority portal); the fee is ₪25 (the rand equivalent changes with exchange rates — check the current ZAR/ILS rate at XE.com; you pay in shekels as charged); it is valid for multiple entries over two years; processing typically takes 72 hours to a few days. Apply at least one week before departure. You will need your passport number, date of birth and basic travel details — no supporting documents are required for the ETA-IL itself. On arrival at Ben Gurion Airport, immigration officers may ask about your travel purpose, accommodation and return flight. Having your hotel bookings and return ticket on your phone or printed is helpful. Entry is not guaranteed — all final decisions are made by Israeli immigration at the port of entry."
   - question: What is the best way to fly from South Africa to Israel?
-    answer: "El Al Israel Airlines operates a direct service between Johannesburg O.R. Tambo International Airport (JNB) and Tel Aviv Ben Gurion Airport (TLV) — check current schedule and frequency at elal.com before booking as Israel-South Africa routes have historically varied seasonally. Alternative connections from South Africa: Emirates (JNB → DXB → TLV) is one of the most popular options given Emirates' strong JNB–Dubai frequency and wide seat choice; Ethiopian Airlines (JNB → ADD → TLV via Addis Ababa) is another well-used routing; Turkish Airlines (JNB → IST → TLV) via Istanbul is competitive on price. Typical total journey time for indirect routes from Johannesburg to Tel Aviv is 13–16 hours depending on connection and layover duration. Flying from Cape Town (CPT) adds approximately 2 hours compared with Johannesburg departures."
+    answer: "El Al Israel Airlines operates a direct service between Johannesburg O.R. Tambo International Airport (JNB) and Tel Aviv Ben Gurion Airport (TLV) — check current schedule and frequency at elal.com before booking as Israel-South Africa routes have historically varied seasonally. Alternative connections from South Africa: FlyDubai (JNB → DXB → TLV; FlyDubai is a separately operated airline from Emirates, though also Dubai government-owned — Emirates has permanently suspended its Tel Aviv service) is a connection option via Dubai; Ethiopian Airlines (JNB → ADD → TLV via Addis Ababa) is another well-used routing; Turkish Airlines (JNB → IST → TLV) via Istanbul is competitive on price. Typical total journey time for indirect routes from Johannesburg to Tel Aviv is 13–16 hours depending on connection and layover duration. Flying from Cape Town (CPT) adds approximately 2 hours compared with Johannesburg departures."
   - question: Does my South African medical aid scheme cover me in Israel?
     answer: "South African medical aid schemes — including Discovery Health, Momentum Health, Bonitas, Bestmed and Medihelp — typically do NOT cover international medical costs unless you specifically hold an international travel extension or an international plan. Medical costs for uninsured tourists in Israel can be very high — an emergency room visit may run to several thousand US dollars equivalent. Before travelling to Israel, check with your medical aid scheme whether you have international emergency cover for the full duration of your trip and whether Israel is an included destination. If you do not have confirmed international cover, take out a comprehensive travel insurance policy with emergency medical benefits. South African providers with international cover: Genric Insurance, Travel Insurance Consultants (TIC). International providers that cover Israel: SafetyWing, World Nomads, Allianz Travel, AIG Travel Guard. Confirm Israel is explicitly listed as a covered destination before purchasing any policy."
   - question: What power adapter do I need from South Africa for Israel?
@@ -83,13 +83,13 @@ South African Jewish visitors travelling with an organised heritage or Birthrigh
 
 | Hub | Main Carriers | Typical Total Journey |
 |---|---|---|
-| Dubai (DXB) | Emirates | 13–15 hours |
+| Dubai (DXB) | FlyDubai | 13–15 hours |
 | Addis Ababa (ADD) | Ethiopian Airlines | 12–14 hours |
 | Istanbul (IST) | Turkish Airlines | 14–16 hours |
 | Amsterdam (AMS) | KLM | 15–17 hours |
 | Paris (CDG) | Air France | 16–18 hours |
 
-**Emirates via Dubai** is one of the most popular options from both Johannesburg and Cape Town, given Emirates' high frequency from South Africa and competitive pricing. Ethiopian Airlines via Addis Ababa is often the most affordable option. From Cape Town (CPT), all routes involve at minimum a connection through Johannesburg or a Middle East hub, adding approximately 2 hours to the journey.
+**FlyDubai via Dubai** is a connection option from both Johannesburg and Cape Town — FlyDubai (distinct from Emirates but also Dubai government-owned) operates up to 10 daily DXB–TLV flights. Note: Emirates has permanently suspended its Tel Aviv service. Ethiopian Airlines via Addis Ababa is often the most affordable option. From Cape Town (CPT), all routes involve at minimum a connection through Johannesburg or a Middle East hub, adding approximately 2 hours to the journey.
 
 ### When to book
 
@@ -231,7 +231,7 @@ South Africa's government has taken a high-profile critical diplomatic position 
 | Item | Detail |
 |---|---|
 | Entry requirement | ETA-IL required (not a visa); apply at iaa.gov.il; ₪25; 72h+ before travel; 2-year multi-entry |
-| Flights | El Al direct JNB→TLV (check current schedule at elal.com); Emirates via Dubai popular alternative |
+| Flights | El Al direct JNB→TLV (check current schedule at elal.com); FlyDubai via Dubai (note: Emirates has suspended TLV service) |
 | Currency | New Israeli Shekel (₪); ZAR not accepted; bring USD/EUR cash or Wise card |
 | Payments | FNB/Standard Bank/Capitec Visa/Mastercard cards work; inform your bank before travel |
 | Power | Type H socket; 230V — same voltage as SA; Type M → Type H adapter needed |

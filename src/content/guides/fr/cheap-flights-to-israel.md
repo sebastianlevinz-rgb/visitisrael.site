@@ -3,7 +3,7 @@ title: "Vols pas chers pour Israël (TLV) : quand réserver et meilleures compag
 description: "Comment trouver les vols les moins chers vers l'aéroport Ben Gourion — les meilleurs mois pour réserver, les compagnies avec vols directs depuis les États-Unis et l'Europe, et les outils de comparaison tarifaire."
 heroImage: /images/regions/tel-aviv/hero.jpg
 category: Planification
-updatedAt: 2026-06-30
+updatedAt: 2026-07-25
 ctaHeading: "Recherchez et comparez les vols vers Tel Aviv"
 affiliateCtas:
   - partner: skyscanner
@@ -75,7 +75,7 @@ Les tarifs de base des compagnies low-cost peuvent être très bas — notamment
 
 Aucun vol direct n'existe depuis l'Australie ou la majeure partie de l'Asie. Les itinéraires avec escale les plus courants sont :
 
-- **Australie → Dubaï ou Abou Dhabi → TLV** (Emirates / Etihad)
+- **Australie → Dubaï ou Abou Dhabi → TLV** (FlyDubai / Etihad — remarque : Emirates a définitivement suspendu son service vers Tel Aviv ; pour les correspondances via Dubaï, privilégiez FlyDubai)
 - **Australie → Singapour ou Bangkok → TLV** (Singapore Airlines / Thai Airways)
 - **Inde → TLV** (Air India, IndiGo opèrent des vols directs ; El Al depuis Mumbai)
 

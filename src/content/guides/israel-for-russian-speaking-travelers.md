@@ -3,7 +3,7 @@ title: 'Israel Travel Guide for Russian-Speaking Visitors (2026)'
 description: 'Israel guide for Russian-speaking travelers: ETA-IL, flights via Istanbul and Dubai, Russian spoken widely, Jewish heritage and FSU community hubs.'
 heroImage: /images/regions/jerusalem/hero.jpg
 category: Planning
-updatedAt: 2026-07-20
+updatedAt: 2026-07-25
 ctaHeading: 'Book hotels, tours and car hire for your Israel trip'
 affiliateCtas:
   - partner: getyourguide
@@ -31,7 +31,7 @@ faqs:
   - question: Do Ukrainian, Kazakh, Georgian or Armenian citizens need a visa to enter Israel?
     answer: "Most FSU passport holders are on Israel's visa-exempt list. Ukrainian, Kazakh, Georgian, Armenian, Moldovan, Azerbaijani and Belarusian citizens do not need a full visa for tourist stays of up to 90 days. However, since January 2025, all visa-exempt travelers — regardless of nationality — must obtain an Electronic Travel Authorisation (ETA-IL) before boarding any flight to Israel. Apply at iaa.gov.il (the official Israeli Airports Authority portal); the fee is ₪25; valid for two years and multiple entries; processing typically takes 72 hours to a few days. Apply at least a week before departure. On arrival at Ben Gurion Airport, have your ETA-IL confirmation, accommodation bookings and return flight available."
   - question: Can Russian citizens travel to Israel?
-    answer: "Russian passport holders are on Israel's visa-exempt list — no tourist visa is required. The ETA-IL requirement applies to Russian citizens as to all visa-exempt travelers (apply at iaa.gov.il; ₪25; 72 hours ahead). The main practical constraint is flight access: El Al suspended direct Tel Aviv–Moscow service in February 2022, and no direct Israel–Russia flights have operated since. The standard routing for Russian passport holders is via Istanbul (Turkish Airlines) or via Dubai (Emirates). Travel time Tel Aviv–Moscow via Istanbul is approximately 6–8 hours including connection. Russian passport holders should be aware that Israel's immigration officers are professional and tourism-focused — carry clear documentation of your travel purpose, accommodation and return travel details."
+    answer: "Russian passport holders are on Israel's visa-exempt list — no tourist visa is required. The ETA-IL requirement applies to Russian citizens as to all visa-exempt travelers (apply at iaa.gov.il; ₪25; 72 hours ahead). The main practical constraint is flight access: El Al suspended direct Tel Aviv–Moscow service in February 2022, and no direct Israel–Russia flights have operated since. The standard routing for Russian passport holders is via Istanbul (Turkish Airlines) or via Dubai (FlyDubai — a separately operated airline from Emirates, though also Dubai government-owned; Emirates has permanently suspended its Tel Aviv service). Travel time Tel Aviv–Moscow via Istanbul is approximately 6–8 hours including connection. Russian passport holders should be aware that Israel's immigration officers are professional and tourism-focused — carry clear documentation of your travel purpose, accommodation and return travel details."
   - question: Is Russian spoken in Israel?
     answer: "Yes — Russian is effectively the third spoken language of Israel after Hebrew and Arabic. Approximately 1.2 million Israelis immigrated from the former Soviet Union, primarily in the large aliyah wave of the 1990s (roughly one million people from 1990–2000). As a result, Russian is widely understood in daily life: many shop assistants, taxi drivers, hotel receptionists, doctors and restaurant staff in Tel Aviv, Jerusalem, Haifa, Ashdod and Be'er Sheva will switch to Russian if you address them in it. Egged bus timetables are available in Russian at some stops; supermarket signage in certain neighborhoods is bilingual Hebrew–Russian; menus in tourist-facing restaurants sometimes appear in Russian. Russian-speaking licensed tourist guides are available at most major sites — see the GetYourGuide CTA above."
   - question: Which neighborhoods in Israel have the largest Russian-speaking communities?
@@ -179,7 +179,7 @@ Israeli restaurant culture is strongly shaped by Jewish dietary laws. In Jewish 
 | Item | Detail |
 |---|---|
 | Entry requirement | ETA-IL required (not a visa); apply at iaa.gov.il; ₪25; 72h+ before travel; 2-year multi-entry |
-| Russian passport: flights | No direct Israel–Russia service; route via Istanbul (Turkish Airlines) or Dubai (Emirates) |
+| Russian passport: flights | No direct Israel–Russia service; route via Istanbul (Turkish Airlines) or Dubai (FlyDubai — note: Emirates has suspended TLV service) |
 | Georgian/Armenian: direct flight | Georgian Airways TBS→TLV direct; Flyone Armenia EVN→TLV direct — check current schedule |
 | Currency | New Israeli Shekel (₪); FSU currencies not exchangeable in Israel; bring USD/EUR or use Wise card |
 | Power adapter | Type C/F → Type H adapter needed; 230V compatible — no converter required |
