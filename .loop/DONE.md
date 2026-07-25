@@ -1279,3 +1279,6 @@ Honesty fix to /rosh-hanikra-guide.md (P3/technical/content-update, iter625 rese
 
 ## iter768 — etihad-tlv-frequency-freshness · 8656532 · 2026-07-25
 Etihad AUH-TLV frequency freshness: israel-for-gulf-travelers.md + cheap-flights-to-israel.md updated with 6-daily/42-weekly scale note sourced from jpost.com/article-897398. Technical/freshness P3/S; tools-category fallthrough.
+
+## iter769 · 2026-07-25 · review-769-easyjet-status-caveats · 6464d3b
+REVIEW audit of iter766 found 5 comparison/nationality guides presenting easyJet as active TLV carrier without caveat, inconsistent with cheap-flights-to-israel.md. Fixed: israel-for-british-travelers.md, israel-vs-turkey.md, israel-vs-egypt.md, israel-vs-jordan.md, israel-vs-france.md — all now include "(verify current status on easyjet.com before booking)" note. Content-only; 850 pages unchanged; 1151/1151 e2e pass.

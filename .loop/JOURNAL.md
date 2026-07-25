@@ -11623,3 +11623,26 @@ What: Etihad AUH-TLV frequency freshness update. Tools category fully shipped (a
 Gate: pnpm check 0 errors · pnpm build 850 pages (no change, content-only edit) · pnpm test:e2e 1151/1151 pass. GREEN.
 Ship: 8656532 squash-merged to master, pushed. CI in_progress at push (standard pattern).
 Next: iter 769 = REVIEW mode (769%5==4).
+
+## 2026-07-25T11:00Z · iter 769 · REVIEW · easyjet-status-caveats
+
+**Mode**: REVIEW (769%5==4).
+**Audit scope**: iter766 Ryanair honesty fix — checked all remaining easyJet references across the codebase.
+
+**Finding**: 5 comparison/nationality guides presented easyJet as an active TLV carrier without caveat, inconsistent with cheap-flights-to-israel.md (iter766) which correctly notes "easyJet Israel service status remains uncertain — verify at easyjet.com before booking."
+
+Files with uncaveated easyJet-TLV claims (pre-fix):
+  - israel-for-british-travelers.md: table "easyJet (seasonal)" + prose listed it as active budget carrier
+  - israel-vs-turkey.md: "El Al, British Airways and EasyJet fly to Ben Gurion Airport"
+  - israel-vs-egypt.md: same phrasing
+  - israel-vs-jordan.md: same phrasing
+  - israel-vs-france.md: prose + FAQ answer ("Air France, El Al, EasyJet and others operate the route")
+
+**Fix applied**: All 5 files updated to caveat easyJet with "(verify current status on easyjet.com before booking)". israel-for-british-travelers.md now has a dedicated sentence: "easyJet has served LGW–TLV seasonally but its Israel service status remains uncertain as of mid-2026." israel-vs-france.md FAQ retains Transavia as confirmed active; EasyJet caveated. updatedAt bumped to 2026-07-25 on all 5.
+
+**Other notes**: Confirmed Ryanair references to Albania (israel-vs-albania.md) and Cyprus (israel-vs-cyprus.md) are correct — those are non-TLV routes Ryanair still operates. InterContinental Jerusalem (P1/S seo-content) confirmed still in BACKLOG — ready for next BUILD pass.
+
+**Gate**: pnpm check 0 errors · pnpm build 850 pages (no change, content-only) · pnpm test:e2e 1151/1151 pass (11.3 min). GREEN.
+**Ship**: 6464d3b committed directly to master; pushed origin/master. Branch auto/review-769-easyjet-status-caveats deleted.
+**Prod**: CI in_progress at push (standard pattern). Prior SHA fe0d1ee confirmed success pattern.
+**Next**: iter 770 → RESEARCH mode (770%5==0).

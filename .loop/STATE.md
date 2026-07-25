@@ -1,12 +1,12 @@
 # LOOP STATE
 
-- iteration: 768
-- lastMode: BUILD (technical/freshness — tools fallthrough)
-- lastItem: etihad-tlv-frequency-freshness
-- lastResult: BUILD iter768 — Etihad AUH-TLV frequency freshness SHIPPED 8656532. Tools category fully shipped (all 11); fell through to technical. Updated israel-for-gulf-travelers.md: added 6-daily/42-weekly frequency note after routes table + enhanced FAQ answer with AUH-TLV frequency detail; updatedAt 2026-07-24→2026-07-25. Updated cheap-flights-to-israel.md: Australia→AUH bullet expanded to note Etihad's 6-daily hub frequency. Source: jpost.com/article-897398 (June 15, 2026). Gate: pnpm check 0 errors; pnpm build 850 pages (no change); pnpm test:e2e 1151/1151 pass. GREEN. CI in_progress at push (standard pattern).
-- nextRotationCategory: 769%5==4 → REVIEW
+- iteration: 769
+- lastMode: REVIEW
+- lastItem: review-769-easyjet-status-caveats
+- lastResult: REVIEW iter769 — easyJet TLV status consistency fix SHIPPED 6464d3b. Audit of iter766 (Ryanair honesty fix) found 5 comparison/nationality guides still presenting easyJet as an active TLV carrier without caveat, while cheap-flights-to-israel.md (iter766) correctly notes status as uncertain. Fixed: israel-for-british-travelers.md (table + prose), israel-vs-turkey.md, israel-vs-egypt.md, israel-vs-jordan.md, israel-vs-france.md (prose + FAQ answer). Also noted: InterContinental Jerusalem P1 item still in BACKLOG. Gate: pnpm check 0 errors; pnpm build 850 pages (no change); pnpm test:e2e 1151/1151 pass. GREEN. CI in_progress at push (standard pattern).
+- nextRotationCategory: 770%5==0 → RESEARCH
 - higgsfieldSpent: 0
-- updatedAt: 2026-07-25T09:52Z
+- updatedAt: 2026-07-25T11:00Z
 - branch context: work on master; feature work on auto/<slug>
 
 Notes: iter767 BUILD (seo-content) — maccabiah-post-event-reframe SHIPPED e00f030. See previous STATE.
