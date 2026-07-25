@@ -135,7 +135,7 @@ Both destinations are well-served from major European hubs.
 
 **Israel:** From London (Heathrow/Gatwick/Luton), El Al and British Airways fly to Ben Gurion Airport (TLV) in approximately 4.5 hours; EasyJet has served the Gatwick route seasonally (verify current status on easyjet.com before booking). From Amsterdam, Paris, Frankfurt and Rome, flights are typically 3.5–4.5 hours. Low-cost carriers have increased Israel routes since 2023.
 
-**Turkey:** Istanbul is closer to Western Europe — roughly 3.5 hours from London, 2.5 hours from Rome or Vienna. Pegasus Airlines and Turkish Airlines offer competitive fares from across Europe. Bodrum and Antalya have direct charter and low-cost connections from the UK, Germany and Scandinavia in summer.
+**Turkey:** Istanbul is closer to Western Europe — roughly 3.5 hours from London, 2.5 hours from Rome or Vienna. Pegasus Airlines and Turkish Airlines offer competitive fares from across Europe. Bodrum and Antalya have direct charter and low-cost connections from the UK, Germany and Scandinavia in summer. Note: as of mid-2026, Turkish Airlines has not restored its Tel Aviv (TLV) service — verify current routes at turkishairlines.com before planning a combined itinerary.
 
 Flexible-date searches often reveal 30–40% differences between weeks — use the Skyscanner flights card above to compare fares for both destinations.
 
