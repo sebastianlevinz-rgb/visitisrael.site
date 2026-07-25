@@ -1,12 +1,12 @@
 # LOOP STATE
 
-- iteration: 762
+- iteration: 763
 - lastMode: BUILD
-- lastItem: temple-mount-visitor-guide
-- lastResult: BUILD iter762 — seo-content. New /temple-mount-visitor-guide SHIPPED e3a63c1. Most-asked Jerusalem visitor question ("Can non-Muslims visit the Dome of the Rock?") — confirmed content gap with no standalone guide. Mughrabi Gate sole non-Muslim entry; open-air plaza access only (no mosque interiors, no exceptions); visitor hours Mon–Thu + Sat ~7:30–11am & 1:30–2:30pm (closures unpredictable); dress code; no prayer/religious items; three-faith historical context. Paired naming throughout. 3 CTAs (GYG + Viator + Abraham Tours). Cross-links to jerusalem-old-city-walking-tour.md, western-wall-tunnels-guide.md, church-holy-sepulchre-guide.md, jewish-heritage-israel.md. Gate: pnpm check 0 errors; pnpm build 850 pages (+1); 1151/1151 e2e+a11y pass (+2 new tests). CI in_progress at push (standard pattern).
-- nextRotationCategory: 763%5==3 → tools (BUILD mode)
+- lastItem: emirates-tlv-honesty-fix
+- lastResult: BUILD iter763 — technical/honesty. Emirates-TLV permanent cancellation fix SHIPPED f0b5a50. Emirates has permanently suspended ALL Tel Aviv flights; 9 guides still referenced Emirates for DXB→TLV routing. Fixed all occurrences across israel-for-russian-speaking-travelers, -korean, -south-african, -indian, -filipino, -irish, cheap-flights-to-israel (EN/DE/FR). All DXB routing references updated to FlyDubai with inline note explaining FlyDubai is separately managed from Emirates (both Dubai government-owned). updatedAt bumped to 2026-07-25 on 8 content guides. tools category exhausted → fell through to technical/honesty. Gate: pnpm check 0 errors; pnpm build 850 pages (unchanged — content-only fix); 1151/1151 e2e+a11y pass. CI in_progress at push (standard pattern).
+- nextRotationCategory: 764%5==4 → REVIEW mode
 - higgsfieldSpent: 0
-- updatedAt: 2026-07-25T03:50Z
+- updatedAt: 2026-07-25T05:05Z
 - branch context: work on master; feature work on auto/<slug>
 
 Notes: iter751 BUILD (monetization) — new-luxury-hotels-israel-2026 SHIPPED f210b76. New guide covers Israel's 2026 luxury hotel surge: Six Senses Tel Aviv (10-floor spa, sky pool, 5 heritage buildings + LEED Platinum tower), Nobu Hotel Tel Aviv (Jaffa, De Niro/Matsuhisa brand), The Yacht Hotel Herzliya (325 rooms, Fattal Group, marina resort, June 2026), Isrotel Kayma Dead Sea (eco-luxury), Herzl Hotel Beersheba (Ottoman Governor's House), Canaan-Tzfat (Safed boutique), Ein Hod Boutique Wellness Hotel, plus Dizengoff 99/Basel Complex/Leon Towers/Palatin Hotel (TLV openings). 7 FAQs, 3 affiliate CTAs (2x Booking.com + GetYourGuide luxury experiences). Honest opening-status caveats throughout; no fabricated prices or ratings. Cross-links added from best-hotels-tel-aviv.md, israel-accommodation-guide.md, luxury-travel-israel.md. Gate: pnpm check 0 errors; pnpm build 844 pages (+1); pnpm test:e2e 1140/1140 pass. CI in_progress at push (standard pattern).

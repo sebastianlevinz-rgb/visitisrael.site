@@ -11537,3 +11537,23 @@ What: new /temple-mount-visitor-guide — confirmed P2/M seo-content gap. Most-a
 Gate: pnpm check 0 errors; pnpm build 850 pages (+1); 1151/1151 e2e+a11y pass (+2 new tests smoke+a11y).
 Ship: squash-merged to master e3a63c1, pushed.
 Prod: CI in_progress at push (standard pattern).
+
+## 2026-07-25T05:05Z · iter 763 · BUILD (technical/honesty) · emirates-tlv-honesty-fix
+Mode: BUILD (763%5==3 → tools). tools category EXHAUSTED (11 shipped) → fell through to technical/honesty.
+Item: P2/M Emirates-TLV permanent cancellation honesty fix (iter760 research). Emirates has permanently cancelled ALL TLV flights; 9 visitisrael.site guides still referenced Emirates for DXB→TLV routing, presenting false information to visitors.
+Files fixed (16 edits across 9 files):
+  - israel-for-russian-speaking-travelers.md (FAQ + quick-ref table): "via Dubai (Emirates)" → FlyDubai
+  - israel-for-korean-travelers.md (FAQ + table): Emirates ICN→DXB→TLV → FlyDubai
+  - israel-for-south-african-travelers.md (FAQ + table + bold prose + quick-ref): all 4 Emirates DXB refs → FlyDubai
+  - cheap-flights-to-israel.md (Australia→Dubai routing): Emirates/Etihad → FlyDubai/Etihad
+  - de/cheap-flights-to-israel.md: same Australian routing fix in German
+  - fr/cheap-flights-to-israel.md: same Australian routing fix in French
+  - israel-for-indian-travelers.md (FAQ + table): Emirates DXB ref → FlyDubai; table row "Flydubai + Emirates" → "FlyDubai"
+  - israel-for-filipino-travelers.md (FAQ + table + bold prose + quick-ref): all 4 Emirates DXB refs → FlyDubai
+  - israel-for-irish-travelers.md (FAQ + table): Emirates via Dubai → FlyDubai
+All fixes include inline note: FlyDubai is separately managed from Emirates (both Dubai government-owned); Emirates has permanently suspended Tel Aviv service. updatedAt bumped to 2026-07-25 on 8 content guides.
+Cloud-env note: local master diverged from origin (50/50 commits); hard-reset to origin/master then applied edits directly on master (standard pattern).
+Gate: pnpm check 0 errors (131 files) · pnpm build 850 pages (unchanged — content-only fix) · pnpm test:e2e 1151/1151 pass.
+Ship: committed f0b5a50 directly on master; pushed origin/master. Branch auto/emirates-tlv-honesty-fix deleted.
+Prod: CI (run 30144833425) + Lighthouse (run 30144833408) in_progress at state-update time. Prior commit 6438a15 confirmed success. Consistent pattern — no regression.
+Next: iter 764 → REVIEW mode (764%5==4). Audit recent iters 761-763 (israel-mediterranean-cruise-guide, temple-mount-visitor-guide, emirates-honesty-fix).
