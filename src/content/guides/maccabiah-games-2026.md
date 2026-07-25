@@ -3,7 +3,7 @@ title: 'Maccabiah Games 2026: Spectator Guide to the Jewish Olympics'
 description: "Guide to the 22nd Maccabiah Games 2026 — spectator access, venue cities, accommodation, transport, and volunteering at the Jewish Olympics."
 heroImage: /images/regions/tel-aviv/hero.jpg
 category: Events
-updatedAt: 2026-07-04
+updatedAt: 2026-07-25
 ctaHeading: 'Plan your Maccabiah stay in Israel'
 affiliateCtas:
   - partner: booking
@@ -41,9 +41,11 @@ faqs:
     answer: 'Yes — the Maccabiah relies heavily on a volunteer corps for logistics, transportation, venue operations, translation, meal services, and athlete liaison. Volunteers must be 18 or older, often need to commit 10–14 days, and accommodation support is sometimes provided. Applications open roughly 6–9 months before the games through the volunteer section of maccabiah.com. Volunteer positions fill quickly for popular roles — apply early and specify your language skills, as translation support for non-Hebrew, non-English delegations is always in demand.'
 ---
 
-The Maccabiah Games — the world's third-largest multi-sport event — is held in Israel every four years and draws over 10,000 Jewish athletes from more than 80 countries. The 22nd Maccabiah Games are running 30 June to 13 July 2026, transforming Jerusalem, Tel Aviv, Netanya, Haifa, and Beer Sheva into an international Jewish sporting celebration unlike anything else on the calendar.
+> **The 22nd Maccabiah Games concluded on 13 July 2026.** This guide is preserved as a reference for the 2026 edition. The next Maccabiah Games will be held in 2030.
 
-Whether you are travelling to watch a family member compete, attending as a supporter from the diaspora, or simply visiting Israel during what becomes a nationwide festival of sport and community, this guide covers everything you need to plan your Maccabiah experience.
+The Maccabiah Games — the world's third-largest multi-sport event — is held in Israel every four years and draws over 10,000 Jewish athletes from more than 80 countries. The 22nd Maccabiah Games ran from 30 June to 13 July 2026, transforming Jerusalem, Tel Aviv, Netanya, Haifa, and Beer Sheva into an international Jewish sporting celebration unlike anything else on the calendar.
+
+Whether you travelled to watch a family member compete, attended as a supporter from the diaspora, or visited Israel during this nationwide festival of sport and community, this guide covers the 2026 Maccabiah experience and remains useful for planning the 2030 edition.
 
 ---
 
@@ -66,7 +68,7 @@ Sports at the 22nd Maccabiah Games include swimming, athletics (track and field)
 
 ## The 2026 Games at a glance
 
-The 22nd Maccabiah Games run **30 June to 13 July 2026**.
+The 22nd Maccabiah Games ran **30 June to 13 July 2026**.
 
 | Aspect | Details |
 |---|---|
