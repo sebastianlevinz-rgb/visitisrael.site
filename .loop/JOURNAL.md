@@ -11923,3 +11923,19 @@ No code shipped (research mode). Next: iter791 = BUILD (seo-content: israel-in-f
 **Ship**: committed 688ab77 to master (cloud-env pattern: direct commit on master); pushed origin/master. Branch auto/israel-in-february deleted.
 **Prod**: CI in_progress at push (standard pattern); prior CI runs all success.
 **Next**: iter 792 → BUILD (792%5==2 → tools exhausted → seo-content/technical fallthrough). Top seo-content candidates: israel-in-january (P2/S), israel-in-march (P2/M), purim-in-israel (P2/S).
+
+## 2026-07-26T10:05Z · iter 792 · BUILD (seo-content) · israel-in-march
+**Mode**: BUILD (792%5==2 → tools). Tools category fully exhausted (all shipped). Fell through to seo-content. Top candidate: israel-in-march (P2/S — confirmed by iter775 research; touristisrael.com, thingstodoinisrael.com, bookmundi.com, kimkim.com all rank; site had israel-in-spring.md broadly and israel-spring-wildflowers.md but no March-specific monthly guide).
+**Item**: israel-in-march — new /israel-in-march monthly guide.
+**What changed**:
+  - src/content/guides/israel-in-march.md (NEW): 2000+ word guide. Lead angles: Purim street parties (Tel Aviv Rothschild Blvd multi-stage free outdoor party; Jerusalem family parade; Shushan Purim Jerusalem 1-day-later caveat) + kalaniot wildflower bloom (last reliable month; Eshkol/Ruhama Negev, coastal plain, Galilee orchids/cyclamens; Darom Adom festival logistics; daromadom.co.il tracking; bloom-timing honesty). Spring hiking: Masada Snake Path optimal (no pre-dawn requirement in March), Ramon Crater rim trail, Galilee Jesus Trail, Golan waterfalls. Dead Sea section (21-24°C March water). Jerusalem pre-Easter window (14-20°C, quieter than April, post-winter warmth). Tel Aviv section (18-24°C, Purim booking spike). March events calendar with honesty caveats (all Hebrew-calendar dates shift annually, wildflower timing rainfall-dependent, Easter date shifts annually). Weather table by region (6 zones, early/late March columns). Packing guidance. Booking priorities (Purim TLV 2-3 months ahead, Dead Sea if school break 4-6 weeks). 7 FAQs. 3 affiliate CTAs: Booking.com TLV Purim hotels, GYG Negev wildflower day tour, GYG Masada sunrise + hiking tour.
+  - Link fix during gate (Rule 1 auto-fix): initial draft linked /jerusalem-temple-mount (broken) → corrected to /temple-mount-visitor-guide.
+  - src/content/guides/israel-in-spring.md: added forward link to /israel-in-march in closing paragraph.
+  - src/content/guides/israel-in-february.md: added forward link to /israel-in-march in "Where February fits" section.
+  - src/content/guides/israel-in-april.md: added backward link to /israel-in-march in "Where April fits" section.
+  - tests/e2e/smoke.spec.ts: +1 route /israel-in-march (after /israel-in-february).
+  - tests/e2e/a11y.spec.ts: +1 route /israel-in-march (after /israel-in-february).
+**Gate**: pnpm check 0 errors; pnpm build 860 pages (+1); pnpm test:e2e 1171/1171 pass (+2 tests for smoke+a11y). GREEN. (First gate run: 1 broken link /jerusalem-temple-mount caught by links.spec.ts → fixed → second full run: 1171/1171 pass.)
+**Ship**: committed e475b02 to master; pushed origin/master. Branch auto/israel-in-march deleted.
+**Prod**: CI + Lighthouse both in_progress at push (standard pattern; prior CI runs all success).
+**Next**: iter 793 → BUILD (793%5==3 → technical; no P1/P2 technical items → fallthrough to seo-content: israel-in-january P2/S or israel-in-may P2/S top candidates).
