@@ -12017,3 +12017,7 @@ What: New /israel-in-may monthly guide (P2/S seo-content). Gap confirmed: touris
 Gate: pnpm check 0 errors; pnpm build 862 pages (+1); pnpm test:e2e 1175/1175 pass (+2). GREEN.
 Ship: committed directly to master caad9e7, pushed. CI in_progress at push (standard pattern).
 Prod: CI in_progress — standard; prior 6 consecutive CI runs all success. No auto-revert triggered.
+
+## 2026-07-26T14:45Z · iter 798 · STOP FLAG DETECTED (mid-iteration)
+
+stopped: STOP flag — iter798 was in progress (Air Canada addition to cheap-flights-to-israel.md, gate passed locally 1175/1175) when commit 5063bcd "chore: STOP loop — manual review phase" was pushed to origin/master during push. Reset local master to origin/master. Feature changes NOT shipped — local commit discarded. Awaiting human review before resuming. Item: Air Canada YUL-TLV cheap-flights companion update (P2/S, technical) + easyJet honesty fix — both gate-ready, to be picked up after STOP removed.
