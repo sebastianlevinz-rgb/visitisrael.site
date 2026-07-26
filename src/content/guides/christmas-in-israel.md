@@ -159,6 +159,7 @@ December through February is Israel's green season and its quietest:
 
 ## Plan your Christmas trip
 
+- [Israel in December](/israel-in-december) — full December planning guide covering Hanukkah, Christmas, Haifa's Holiday of Holidays, Eilat winter sun, and the Dead Sea
 - [Best time to visit Israel](/best-time-to-visit-israel) — full seasonal breakdown including winter advantages
 - [Church of the Holy Sepulchre guide](/church-holy-sepulchre-guide) — visitor information and denomination logistics
 - [Nazareth travel guide](/nazareth-travel-guide) — Old City, Basilica of the Annunciation, accommodation
