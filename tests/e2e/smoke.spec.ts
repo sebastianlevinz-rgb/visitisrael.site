@@ -324,6 +324,7 @@ const ROUTES = [
   '/israel-in-spring',
   '/israel-in-october',
   '/israel-in-april',
+  '/israel-in-may',
   '/israel-spring-wildflowers',
   '/jerusalem-coffee-guide',
   '/cycling-in-israel',

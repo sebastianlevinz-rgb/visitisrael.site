@@ -148,6 +148,7 @@ For visitors who want to understand Israel — not just visit its sites — thes
 
 ## Further reading
 
+- [Israel in May](/israel-in-may) — the full May travel guide covering Yom HaAtzmaut, Lag BaOmer, Jerusalem Day, and the opening beach season
 - [Traveling in Israel during Jewish holidays](/traveling-israel-jewish-holidays) — how major holidays affect transport, restaurants, and tourist sites across the year
 - [Israel events and festivals calendar](/israel-events-festivals) — the full calendar including Independence Day, Sukkot, and summer festivals
 - [Jewish heritage in Israel](/jewish-heritage-israel) — the historical and spiritual sites that give context to events like Yom HaZikaron

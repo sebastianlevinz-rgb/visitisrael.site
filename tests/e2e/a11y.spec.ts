@@ -400,6 +400,7 @@ const ROUTES = [
   '/israel-in-february',
   '/israel-in-march',
   '/israel-in-january',
+  '/israel-in-may',
 ];
 
 for (const route of ROUTES) {
