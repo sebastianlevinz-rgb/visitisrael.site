@@ -399,6 +399,7 @@ const ROUTES = [
   '/israel-in-december',
   '/israel-in-february',
   '/israel-in-march',
+  '/israel-in-january',
 ];
 
 for (const route of ROUTES) {

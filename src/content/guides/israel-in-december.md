@@ -231,6 +231,7 @@ All religious sites: covered shoulders and knees regardless of outside temperatu
 ## Where December fits in the bigger picture
 
 - [Israel in winter (December–February)](/israel-in-winter): the full three-month seasonal overview with Eilat, Dead Sea, and Jerusalem winter strategy
+- [Israel in January](/israel-in-january): Eilat at peak domestic season, the Dead Sea in quiet conditions, and Negev hiking without wildflower crowds
 - [Christmas in Israel](/christmas-in-israel): complete Bethlehem logistics, church booking requirements, Ministry of Tourism buses, Latin vs Orthodox vs Armenian Christmas dates
 - [Traveling in Israel during Jewish holidays](/traveling-israel-jewish-holidays): what Hanukkah means in practice for transport, opening hours, and planning
 - [Eilat travel guide](/eilat-travel-guide): full Eilat activity map, beach breakdown, and accommodation tiers
