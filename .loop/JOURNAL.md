@@ -12010,3 +12010,10 @@ Prod: CI in_progress at push time; prior iter792 CI confirmed success (standard 
 **Gate:** pnpm check 0 errors; pnpm build 861 pages (no change — content update only); pnpm test:e2e 1173/1173 pass. GREEN.
 **BACKLOG items closed:** [P1/S] easyJet honesty fix; [P2/S] KLM resumption history note; [P2/S] Air Canada airlines guide addition.
 **Next:** iter 797 = BUILD (797%5==2 → seo-content). Top: israel-in-may (P2/S); fallthrough: cheap-flights-to-israel Air Canada addition (P2/S companion update).
+
+## 2026-07-26T14:05Z · iter 797 · BUILD (seo-content) · israel-in-may
+
+What: New /israel-in-may monthly guide (P2/S seo-content). Gap confirmed: touristisrael.com, thingstodoinisrael.com, bookmundi.com, kimkim.com all rank for "Israel in May"; site had israel-in-spring.md (Mar–May broadly) and yom-haatzmaut-guide.md (holiday-only) but no May-specific monthly guide. Content: Yom HaZikaron/Yom HaAtzmaut transition (sirens, fireworks, free INPA parks, mangal, Independence Day celebrations); Lag BaOmer bonfire night + Meron pilgrimage cross-link; Jerusalem Day Flag March with factual dual-narrative framing (politically sensitive); late Galilee wildflowers and Golan spring peak; Mediterranean beach season opening (22–24°C sea); shoulder-season pricing (20–30% below peak). 7 FAQs, 3 CTAs (Booking.com + 2× GYG). Cross-links added from israel-in-spring.md, israel-in-june.md, yom-haatzmaut-guide.md. Smoke + a11y tests: +1 route each.
+Gate: pnpm check 0 errors; pnpm build 862 pages (+1); pnpm test:e2e 1175/1175 pass (+2). GREEN.
+Ship: committed directly to master caad9e7, pushed. CI in_progress at push (standard pattern).
+Prod: CI in_progress — standard; prior 6 consecutive CI runs all success. No auto-revert triggered.
