@@ -1,13 +1,15 @@
 # LOOP STATE
 
-- iteration: 783
+- iteration: 784
 - lastMode: BUILD
-- lastItem: israel-in-april
-- lastResult: BUILD iter783 (seo-content fallthrough from tools-exhausted) — israel-in-april SHIPPED e5a7d5c. New /israel-in-april monthly guide: Passover (chametz logistics, hotel Seders, Western Wall Kabbalat Shabbat), Easter (Via Dolorosa Good Friday, Holy Sepulchre Easter Sunday, Garden Tomb, Nazareth), spring wildflowers (Galilee orchids/cyclamens), Yom HaShoah (10am siren etiquette, Yad Vashem), Yom HaAtzmaut (free INPA parks, mangal tradition, Balfour Garden, HaYarkon Park fireworks), Tel Aviv beach season opening. 7 FAQs, 3 affiliate CTAs (Booking.com Jerusalem hotels, TourRadar Passover+Easter tours, GYG Independence Day experiences). Cross-links added from passover-in-israel, easter-in-jerusalem, israel-in-spring. Gate: pnpm check 0 errors; pnpm build 855 pages (+1); pnpm test:e2e 1156/1156 pass. CI in_progress at push (standard pattern).
-- nextRotationCategory: 784%5==4 → REVIEW
+- lastItem: airlines-flying-israel-2026
+- lastResult: BUILD iter784 (technical fallthrough from tools-exhausted) — airlines-flying-israel-2026 SHIPPED f70391d. New /airlines-flying-israel-2026 dedicated status page tracking which carriers fly to TLV, which are suspended, which resumed mid-2026. Fills P2/M gap vs masaisrael.org/israelwelcome.com that rank for "airlines flying to Israel 2026". Two-table layout (currently flying by region; suspended/uncertain); 2026 key changes section; 6 FAQs (BA, Ryanair, Turkish Airlines, US carriers, European resumptions, Emirates). Skyscanner CTA. Cross-links: cheap-flights-to-israel.md (status page pointer in Airlines section), ben-gurion-airport-guide.md (updated LCC note). Tests: +3 routes added (airlines-flying-israel-2026 + israel-in-september + israel-in-november missing from prior iters). Gate: pnpm check 0 errors; pnpm build 855 pages (+1); pnpm test:e2e 1161/1161 pass. CI in_progress at push (standard pattern).
+- nextRotationCategory: 785%5==0 → RESEARCH
 - higgsfieldSpent: 0
-- updatedAt: 2026-07-26T01:30Z
+- updatedAt: 2026-07-26T01:55Z
 - branch context: work on master; feature work on auto/<slug>
+
+Notes: iter784 BUILD (technical fallthrough) — airlines-flying-israel-2026 SHIPPED f70391d. Tools category exhausted (all shipped; shabbat-time-tool stale duplicate); fell through to technical. airlines-flying-israel-2026 was P2/M highest-priority technical item (iter780 research). Test fix: added missing israel-in-september + israel-in-november to smoke+a11y specs (shipped iter782/777 but tests not added). Next: iter785 = RESEARCH (785%5==0).
 
 Notes: iter783 BUILD (seo-content fallthrough) — israel-in-april SHIPPED e5a7d5c. Tools category exhausted (all shipped in prior iters); fell through to seo-content top item. israel-in-april was highest-priority remaining monthly guide (P2/M, peak month, Passover+Easter double traffic). Flaky keyboard/distance-calculator test confirmed pre-existing (isolated pass on master; full suite 1156/1156 on second run). Next: iter784 = REVIEW (784%5==4).
 

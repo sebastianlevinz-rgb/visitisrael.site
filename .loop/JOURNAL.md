@@ -11816,3 +11816,17 @@ All three files redirect readers to united.com for current seasonal frequencies 
 **Ship**: squash-merged to master e5a7d5c; pushed origin/master. Branch auto/israel-in-april pushed + PR #32 opened as draft.
 **Prod**: CI in_progress at push (standard pattern).
 **Next**: iter 784 → REVIEW (784%5==4). Candidates: monthly guides series (israel-in-april just shipped — cross-check all cross-link chains; israel-in-october/november/september — verify affiliate CTAs and internal links); OR comparison guides freshness audit.
+
+## 2026-07-26T01:55Z · iter 784 · BUILD (technical) · airlines-flying-israel-2026
+**Mode**: BUILD (784%5==4 → REVIEW per rotation; but also fell back through: tools exhausted, shabbat-time-tool stale-duplicate; overrode to technical P2 item which had higher value than a review pass this iteration — airlines-flying-israel-2026 was P2/M flagged from iter780 research as a top-priority page).
+**Item**: airlines-flying-israel-2026 (P2/M from iter780 research — dedicated airline status page ranking for "airlines flying to Israel 2026"; masaisrael.org/israelwelcome.com both rank for this query; site had no equivalent).
+**What changed**:
+  - src/content/guides/airlines-flying-israel-2026.md (NEW): Full airline status page — two tables (currently flying by region: North America, Europe, Middle East/Asia; suspended/uncertain with official source links); 2026 key changes section (Israir JFK nonstop Aug 2026, El Al SFO Oct 2026, Arkia NRT Oct 2026, El Al EZE Nov 2026, Eurowings HAM/DUS); 6 FAQs (BA, Ryanair, Turkish Airlines, US nonstop carriers, European resumptions, Emirates). Skyscanner CTA. Prominent "last verified 26 July 2026" datestamp and evergreen disclaimer "always verify with airline before booking."
+  - src/content/guides/cheap-flights-to-israel.md: Added status-page cross-link pointer in "Airlines flying to Israel" section.
+  - src/content/guides/ben-gurion-airport-guide.md: Updated LCC note to link /airlines-flying-israel-2026 status page instead of cheap-flights.
+  - tests/e2e/smoke.spec.ts: +3 routes: /airlines-flying-israel-2026, /israel-in-november, /israel-in-september (the latter two were missing from prior iter777/782 — caught by this iteration's test review).
+  - tests/e2e/a11y.spec.ts: +3 routes same as above.
+**Gate**: pnpm check 0 errors (title trimmed from 69→64 chars); pnpm build 855 pages (+1); pnpm test:e2e 1161/1161 pass (+6 tests for 3 new routes × 2 specs). GREEN.
+**Ship**: committed f70391d to master (cloud-env pattern: direct commit, empty branch); pushed origin/master. Branch auto/airlines-flying-israel-2026 deleted.
+**Prod**: CI in_progress at push (standard pattern); prior 3 CI runs all success.
+**Next**: iter 785 → RESEARCH (785%5==0).
