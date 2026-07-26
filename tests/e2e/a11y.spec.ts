@@ -391,6 +391,9 @@ const ROUTES = [
   '/israel-for-gulf-travelers',
   '/israel-points-miles-guide',
   '/israel-in-october',
+  '/israel-in-november',
+  '/israel-in-september',
+  '/airlines-flying-israel-2026',
 ];
 
 for (const route of ROUTES) {

@@ -663,6 +663,9 @@ const ROUTES = [
   '/israel-for-nordic-travelers',
   '/israel-for-gulf-travelers',
   '/israel-points-miles-guide',
+  '/israel-in-november',
+  '/israel-in-september',
+  '/airlines-flying-israel-2026',
 ];
 
 for (const route of ROUTES) {

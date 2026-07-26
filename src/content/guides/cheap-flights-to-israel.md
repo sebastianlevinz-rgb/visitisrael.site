@@ -45,6 +45,8 @@ These dates shift each year on the Hebrew calendar — use the fare tools below 
 
 ## Airlines flying to Israel
 
+For a regularly updated summary of which airlines are currently operating, which are suspended, and which resumed in 2026, see the [airlines flying to Israel 2026 status page](/airlines-flying-israel-2026).
+
 ### From North America
 
 | Route | Carriers | Notes |
