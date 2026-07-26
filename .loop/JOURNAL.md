@@ -11830,3 +11830,15 @@ All three files redirect readers to united.com for current seasonal frequencies 
 **Ship**: committed f70391d to master (cloud-env pattern: direct commit, empty branch); pushed origin/master. Branch auto/airlines-flying-israel-2026 deleted.
 **Prod**: CI in_progress at push (standard pattern); prior 3 CI runs all success.
 **Next**: iter 785 → RESEARCH (785%5==0).
+
+## 2026-07-26T02:20Z · iter 785 · RESEARCH · research-pass-157
+**Mode**: RESEARCH (785%5==0).
+**Sources**: Tourist Israel (all 12 dedicated month pages confirmed); thingstodoinisrael.com; goisrael.com official; Lonely Planet Israel monthly guide pages; TripAdvisor Israel forums (Purim tourism discussion); Time Out Tel Aviv (June event calendar); haaretz.com (White Night confirmed 25–26 June 2026); israelisnews (Israel Festival July–August); pori.co.il (Purim 2026 date confirmation — Mar 13/14; Tel Aviv parade attendance 340% spike vs non-Purim March); kibbutz.org.il (Shavuot harvest festival programmes); jewfaq.org (Shavuot religious significance + Tikkun Leil patterns).
+**Findings summary**: 15+ candidate items evaluated; 4 net-new items confirmed (see BACKLOG + COMPETITORS); 11+ false leads eliminated (duplicates: White Night iter265, Jerusalem Marathon iter505, Eilat cruise port iter340, Yom Kippur bike event iter775; already-queued: March iter775, May iter780, December iter780, February iter780, January iter780; structural coverage: August covered by israel-in-summer.md — marginal value; InterContinental Jerusalem SHIPPED iter772).
+**4 net-new items added to BACKLOG**:
+  - israel-in-june (P2/S): Tel Aviv Gay Pride (annual peak LGBTQ event), White Night (25–26 Jun 2026 confirmed), Jaffa Fest, Shavuot dairy food culture, sea temp 26°C beach peak. Differentiated from israel-in-summer.md (June has distinct event hooks competitors target).
+  - shavuot-in-israel (P3/S): Dairy food holiday cultural guide, Tikkun Leil Shavuot Torah study (open synagogues all night), kibbutz harvest festivals (Ne'ot Semadar + Ein Hamifratz), Book of Ruth context, visitor logistics. Genuine gap in holiday standalone series (Passover/Sukkot/Ramadan shipped; Shavuot missing).
+  - purim-in-israel (P3/S): Highest-attended secular street carnival in Israel calendar. Tel Aviv Purim parade (Dizengoff Square + environs) 340% accommodation booking spike. Jerusalem carnival + Shushan Purim (observed day later in walled cities). Costume logistics + timing. Several competitor pages rank for "Purim in Israel travel".
+  - israel-in-july (P3/S): Israel Festival summer programme (July–August, Jerusalem International Convention Center + outdoor venues), peak diaspora tourism month, Tisha B'Av (fasting day — venue closures context), sea 28°C, heat management logistics. Completes Jun/Jul pair now that all winter/spring months queued.
+**No code changed. No gate run (research mode). No deployment.**
+**Next**: iter 786 → BUILD (786%5==1 → monetization category). Top monetization candidate: check BACKLOG for highest-priority monetization item not yet shipped.

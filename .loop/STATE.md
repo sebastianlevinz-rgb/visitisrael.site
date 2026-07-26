@@ -1,13 +1,15 @@
 # LOOP STATE
 
-- iteration: 784
-- lastMode: BUILD
-- lastItem: airlines-flying-israel-2026
-- lastResult: BUILD iter784 (technical fallthrough from tools-exhausted) — airlines-flying-israel-2026 SHIPPED f70391d. New /airlines-flying-israel-2026 dedicated status page tracking which carriers fly to TLV, which are suspended, which resumed mid-2026. Fills P2/M gap vs masaisrael.org/israelwelcome.com that rank for "airlines flying to Israel 2026". Two-table layout (currently flying by region; suspended/uncertain); 2026 key changes section; 6 FAQs (BA, Ryanair, Turkish Airlines, US carriers, European resumptions, Emirates). Skyscanner CTA. Cross-links: cheap-flights-to-israel.md (status page pointer in Airlines section), ben-gurion-airport-guide.md (updated LCC note). Tests: +3 routes added (airlines-flying-israel-2026 + israel-in-september + israel-in-november missing from prior iters). Gate: pnpm check 0 errors; pnpm build 855 pages (+1); pnpm test:e2e 1161/1161 pass. CI in_progress at push (standard pattern).
-- nextRotationCategory: 785%5==0 → RESEARCH
+- iteration: 785
+- lastMode: RESEARCH
+- lastItem: research-pass-157
+- lastResult: RESEARCH iter785 — research-pass-157. 4 net-new items added to BACKLOG: israel-in-june (P2/S — Tel Aviv Pride, White Night, Jaffa Fest, Shavuot dairy culture; distinct from israel-in-summer.md), shavuot-in-israel (P3/S — dairy food holiday, Tikkun Leil Torah study, kibbutz harvest festivals; genuine gap in holiday standalone series), purim-in-israel (P3/S — 340% visitor spike, TLV street party, Jerusalem carnival, Shushan Purim; competitors rank for "Purim in Israel"), israel-in-july (P3/S — Israel Festival, peak diaspora month, Tisha B'Av heat management; completes Jun/Jul pair now that winter/spring months all queued). 15+ false leads eliminated (existing or duplicate). Saturation ~97%+. BACKLOG now ~753 items. No code changed; no gate run (research mode).
+- nextRotationCategory: 786%5==1 → BUILD (monetization)
 - higgsfieldSpent: 0
-- updatedAt: 2026-07-26T01:55Z
+- updatedAt: 2026-07-26T02:20Z
 - branch context: work on master; feature work on auto/<slug>
+
+Notes: iter785 RESEARCH — research-pass-157. 4 net-new items: israel-in-june (P2/S), shavuot-in-israel (P3/S), purim-in-israel (P3/S), israel-in-july (P3/S). Sources: Tourist Israel (all 12 month pages confirmed), thingstodoinisrael.com, goisrael.com, Lonely Planet Israel, TripAdvisor Purim forum, Time Out Tel Aviv June event calendar. Competitor angles: monthly guide saturation gap now narrow (Jun/Jul/Aug/Dec/Mar/May remain; Dec/Mar/May queued iter780; Jun/Jul added this pass; Aug covered by israel-in-summer.md). Holiday standalone series: Passover/Sukkot/Ramadan shipped; Lag BaOmer/Hanukkah/High Holidays queued; Shavuot/Purim newly added this pass. Next: iter786 = BUILD (786%5==1 → monetization).
 
 Notes: iter784 BUILD (technical fallthrough) — airlines-flying-israel-2026 SHIPPED f70391d. Tools category exhausted (all shipped; shabbat-time-tool stale duplicate); fell through to technical. airlines-flying-israel-2026 was P2/M highest-priority technical item (iter780 research). Test fix: added missing israel-in-september + israel-in-november to smoke+a11y specs (shipped iter782/777 but tests not added). Next: iter785 = RESEARCH (785%5==0).
 

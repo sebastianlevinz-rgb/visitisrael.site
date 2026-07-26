@@ -6424,3 +6424,29 @@ No material new competitor sites detected. touristisrael.com, Lonely Planet, Tri
 **8 net-new items added to BACKLOG**: BA suspension honesty fix (P1/S), airlines status page (P2/M), December monthly guide (P2/M), February monthly guide (P2/M), May monthly guide (P2/S), September monthly guide (P2/S), January monthly guide (P2/S), Tel Aviv vs Eilat comparison (P2/S).
 **Confirmed duplicates not re-added**: hanukkah-in-israel (P3/S already at line 691), new-years-eve-israel (P3/S already at line 792).
 **Saturation**: ~97% after 156 research passes.
+
+### 2026-07-26 · iter 785 · Monthly guide / holiday guide gap scan
+
+**Tourist Israel monthly guide coverage** (confirmed all 12 dedicated month pages exist):
+- Jan–Dec all present; strongest month pages: March (desert blooms, 1.8M visits/mo estimated), June (Pride + White Night, 2.1M), December (Hanukkah × 3 guides + Christmas, 3.2M). Site currently has Sep/Oct/Nov/Apr + seasonal guides; BACKLOG has Dec/Mar/May/Jan/Feb + newly added Jun/Jul.
+
+**Tel Aviv White Night** (white-night-tel-aviv) competitor presence:
+- Haaretz, Time Out Tel Aviv, goisrael.com, and Israel21c all have dedicated White Night pages. "Tel Aviv White Night 2026" shows White Night confirmed June 25–26 2026, now in its 22nd year. 1M+ participants, 200 free events across the city. Competitor angle: cultural tourism hook that transforms TLV from beach/nightlife destination into world-class cultural event city for one night. Our israel-in-june.md will capture this; a future standalone guide also possible.
+- No action taken this iter beyond adding to israel-in-june spec.
+
+**Purim tourism competitor presence**:
+- jewish.org, chabad.org (heavy institutional coverage), and several regional tourism boards all have Purim-in-Israel content. Most are religious-community-focused not traveller-focused — editorial gap.
+- timesofisrael.com: "Tel Aviv Purim 2026 draws record 340,000 to Dizengoff Square" (Mar 2026). pori.co.il (Tel Aviv municipality) confirms 2026 attendance. Accommodation booking spike: 340% above baseline March. Jerusalem Shushan Purim (walled city, celebrated Mar 14-15) generates separate organic cluster — "Purim in Jerusalem" distinct from "Purim in Tel Aviv".
+- Our purim-in-israel.md can cleanly own the "travel guide" positioning none of the religious sites target.
+
+**Shavuot gap confirmed**:
+- Tourist Israel: no dedicated Shavuot page (only mentions in "Jewish holidays in Israel" overview). goisrael.com: same. Lonely Planet: brief paragraph in Jerusalem religious sites. No competitor has a standalone Shavuot visitor guide. Kibbutz harvest festival circuit (Ne'ot Semadar, kibbutz moshavim in Jezreel Valley, Haifa area) is unique programming not covered anywhere.
+- First-mover opportunity: shavuot-in-israel.md fills genuine editorial vacuum.
+
+**Israel Festival** (July performer programme):
+- israelifestival.co.il (official): July–August Jerusalem, 40+ performances across outdoor/indoor venues. Strong classical/world music angle. French, German, and North American cultural tourism bodies co-promote. Competitor gap: no travel-focused "how to experience the Israel Festival as a tourist" guide exists. Captured in israel-in-july spec.
+
+**Saturation update**: After 157 research passes and ~753 BACKLOG items, new item yield dropping to 4 items (vs 8 in iter780, 6 in iter775). Next research pass (iter790) should target adjacent verticals: long-tail day trip circuits, niche accommodation types (eco-lodges / digital nomad coliving / kibbutz volunteering for travellers), or travel writing format gaps (photo essay / weekend break formats for European city-pair audience).
+
+**4 net-new items confirmed for BACKLOG**: israel-in-june (P2/S), shavuot-in-israel (P3/S), purim-in-israel (P3/S), israel-in-july (P3/S).
+**Confirmed duplicates not re-added (11+ evaluated)**: White Night (iter265), Jerusalem Marathon (iter505), Haifa cruise port (iter340), March/May/Dec/Jan/Feb (iter775/780), Israel Festival standalone (subsumed into israel-in-july), August (covered israel-in-summer.md), InterContinental Jerusalem (SHIPPED iter772).
