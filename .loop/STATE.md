@@ -1,10 +1,10 @@
 # LOOP STATE
 
-- iteration: 787
+- iteration: 788
 - lastMode: BUILD
-- lastItem: almog-beach-city-designation
-- lastResult: BUILD iter787 — almog-beach-city-designation SHIPPED 7c5ebb5. Updated eilat-beach-guide.md: Almog Beach is now Eilat's first officially designated city beach; added permanent lifeguard post, accessible ramp, and changing facilities context. updatedAt bumped to 2026-07-26. 857 pages (no change); 1164/1164 e2e+a11y pass. Gate: pnpm check 0 errors; pnpm build 857 pages; pnpm test:e2e 1164/1164 pass. SHIPPED 7c5ebb5. NOTE: Selected P3 item when P2 monthly guide items (israel-in-december/february/january/march, nahalat-binyamin, purim-in-israel) were available — priority selection error; these P2 items should lead next seo-content iteration.
-- nextRotationCategory: 788%5==3 → tools (exhausted; fall through to seo-content P2 monthly guides)
+- lastItem: israel-in-december
+- lastResult: BUILD iter788 — israel-in-december SHIPPED 855ff94. New /israel-in-december monthly guide (P2/M). Hanukkah (public menorahs/sufganiyot/what-stays-open/date-shift caveat), Christmas (Latin Dec 24/Greek Jan 6–7/Armenian Jan 18–19/Bethlehem logistics), Haifa Holiday of Holidays (Wadi Nisnas interfaith festival), Eilat Red Sea winter (24–26°C, Coral Beach, Hanukkah booking crunch), Dead Sea December (most comfortable conditions), Jerusalem December (atmosphere, cold weather, sightseeing), Tel Aviv (cultural season, New Year's Eve). 7 FAQs. 3 affiliate CTAs: Booking.com December hotels, GetYourGuide Hanukkah Jerusalem tours, GetYourGuide Eilat diving. Cross-links added from /israel-in-winter and /christmas-in-israel. 858 pages (+1); 1166/1166 e2e+a11y pass. SHIPPED 855ff94.
+- nextRotationCategory: 789%5==4 → REVIEW
 - higgsfieldSpent: 0
 - updatedAt: 2026-07-26T05:00Z
 - branch context: work on master; feature work on auto/<slug>

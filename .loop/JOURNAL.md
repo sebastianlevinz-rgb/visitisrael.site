@@ -11879,3 +11879,10 @@ Ship: committed 7c5ebb5 to master; pushed. CI in_progress at push (standard patt
 Prod: CI in_progress at iteration end — next run to confirm.
 NOTE: Priority error — selected P3 item when multiple P2 seo-content items were ready in BACKLOG (below the visible top-of-file section I scanned): israel-in-december (P2/M), israel-in-february (P2/M), israel-in-january (P2/S), israel-in-march (P2/S), nahalat-binyamin-market (P2/S), purim-in-israel (P2/S). Next seo-content BUILD iteration MUST pick one of these P2 items.
 Next: iter 788 → BUILD (788%5==3; tools rotation — exhausted; fall through to seo-content, pick P2 monthly guide or P2/S seo-content item).
+
+## 2026-07-26T05:44Z · iter 788 · BUILD (seo-content) · israel-in-december
+What: New /israel-in-december monthly guide (P2/M, highest-priority seo-content item). Covers: Hanukkah (public menorahs, sufganiyot, what stays open, date-shift caveat), Christmas (Latin Dec 24, Greek Jan 6–7, Armenian Jan 18–19, Bethlehem logistics), Haifa Holiday of Holidays (Wadi Nisnas interfaith festival), Eilat Red Sea winter (24–26°C, Coral Beach, Hanukkah booking crunch), Dead Sea December (most comfortable floating conditions), Jerusalem December (cold/atmospheric, sightseeing tips), Tel Aviv (cultural season, New Year's Eve). 7 FAQs, 3 affiliate CTAs: Booking.com December hotels, GYG Hanukkah Jerusalem, GYG Eilat diving. Cross-links added to /israel-in-winter + /christmas-in-israel.
+Gate: pnpm check 0 errors; pnpm build 858 pages (+1); pnpm test:e2e 1166/1166 pass (+2 tests). GREEN.
+Ship: committed 855ff94 to master; pushed. CI in_progress at push (standard pattern).
+Prod: CI in_progress at iteration end — next run to confirm.
+Next: iter 789 → REVIEW (789%5==4). Good candidates: december/monthly guide honesty cross-check; comparison guide audit; airlines-flying-israel-2026 carrier table freshness; or any guide newly requiring an update per recent news.
