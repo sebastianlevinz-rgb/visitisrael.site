@@ -11990,3 +11990,23 @@ Prod: CI in_progress at push time; prior iter792 CI confirmed success (standard 
 **Gate:** RESEARCH mode — no gate needed.
 **Ship:** No code changes.
 **Next:** iter 796 = BUILD (796%5==1 → seo-content rotation, but P1 easyJet honesty fix overrides; top candidate: easyJet-confirmed-suspension-fix airlines guide update; fallthrough: israel-in-may P2/S).
+
+## 2026-07-26T13:00Z · iter 796 · BUILD · easyjet-suspension-honesty-fix
+
+**Mode:** BUILD (P1 honesty override over 797%5==1 seo-content rotation)
+**Branch:** auto/easyjet-suspension-honesty-fix → merged master (07da0db / 947b554)
+**File changed:** src/content/guides/airlines-flying-israel-2026.md
+
+**Changes shipped:**
+1. easyJet suspended table row: "Uncertain. Announced March 2026 resumption; operational status unconfirmed" → "Suspended. March 2026 resumption did not happen. Next planned restart: late October 2026 — date may shift again; verify at easyjet.com before booking"
+2. Ryanair FAQ (line 21): removed easyJet as budget UK alternative (easyJet also suspended); replaced with Wizz Air (London Luton) + El Al/European hubs (Air France/Lufthansa/SWISS)
+3. "Still not flying" text: added easyJet alongside BA/Ryanair/Turkish/Emirates
+4. "How to book" section: added clarification that easyJet March 2026 restart did not happen; October 2026 date approximate
+5. KLM active table row: added "(suspended March 1–July 25, 2026; resumed July 26, 2026)"
+6. Key changes section: added "KLM suspension and resumption" paragraph with history
+7. Air Canada: added to North America active table — YUL–TLV seasonal Jun–Oct 2026 (Fri/Sun)
+8. Air Canada: added to Key changes "New routes" bullet
+
+**Gate:** pnpm check 0 errors; pnpm build 861 pages (no change — content update only); pnpm test:e2e 1173/1173 pass. GREEN.
+**BACKLOG items closed:** [P1/S] easyJet honesty fix; [P2/S] KLM resumption history note; [P2/S] Air Canada airlines guide addition.
+**Next:** iter 797 = BUILD (797%5==2 → seo-content). Top: israel-in-may (P2/S); fallthrough: cheap-flights-to-israel Air Canada addition (P2/S companion update).
