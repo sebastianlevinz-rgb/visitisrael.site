@@ -12023,3 +12023,4 @@ Prod: CI in_progress — standard; prior 6 consecutive CI runs all success. No a
 stopped: STOP flag — iter798 was in progress (Air Canada addition to cheap-flights-to-israel.md, gate passed locally 1175/1175) when commit 5063bcd "chore: STOP loop — manual review phase" was pushed to origin/master during push. Reset local master to origin/master. Feature changes NOT shipped — local commit discarded. Awaiting human review before resuming. Item: Air Canada YUL-TLV cheap-flights companion update (P2/S, technical) + easyJet honesty fix — both gate-ready, to be picked up after STOP removed.
 
 ## 2026-07-26 · stopped: STOP flag
+stopped: STOP flag
