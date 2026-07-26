@@ -1,0 +1,92 @@
+---
+import { getCollection, render } from 'astro:content';
+import BaseLayout from '@/layouts/BaseLayout.astro';
+import Hero from '@/components/Hero.astro';
+import Breadcrumbs from '@/components/Breadcrumbs.astro';
+import AuthorByline from '@/components/AuthorByline.astro';
+import AffiliateCard from '@/components/AffiliateCard.astro';
+import FaqSection from '@/components/FaqSection.astro';
+import JsonLd from '@/components/JsonLd.astro';
+import { defaultAuthor } from '@/data/authors';
+import { article, breadcrumbList, faqPage, touristTrip, SITE } from '@/lib/schema';
+
+export async function getStaticPaths() {
+  const allItineraries = await getCollection('itineraries');
+  const esItineraries = allItineraries.filter((e) => e.id.startsWith('es/'));
+  const idSet = new Set(allItineraries.map((e) => e.id));
+  return esItineraries.map((entry) => {
+    const baseId = entry.id.slice(3); // strip 'es/'
+    const hasEn = idSet.has(baseId);
+    const hasFr = idSet.has(`fr/${baseId}`);
+    const hasDe = idSet.has(`de/${baseId}`);
+    return {
+      params: { slug: baseId },
+      props: { entry, baseId, hasEn, hasFr, hasDe },
+    };
+  });
+}
+
+const { entry, baseId, hasEn = false, hasFr = false, hasDe = false } = Astro.props;
+const { Content } = await render(entry);
+const d = entry.data;
+const hero = d.heroImage ?? '/images/regions/jerusalem/hero.jpg';
+const path = `/es/itineraries/${baseId}`;
+const enPath = `/itineraries/${baseId}`;
+const frPath = `/fr/itineraries/${baseId}`;
+const dePath = `/de/itineraries/${baseId}`;
+
+const alternates = [
+  ...(hasEn ? [{ hreflang: 'en', href: `${SITE}${enPath}` }] : []),
+  ...(hasFr ? [{ hreflang: 'fr', href: `${SITE}${frPath}` }] : []),
+  ...(hasDe ? [{ hreflang: 'de', href: `${SITE}${dePath}` }] : []),
+  { hreflang: 'es', href: `${SITE}${path}` },
+  ...(hasEn ? [{ hreflang: 'x-default', href: `${SITE}${enPath}` }] : []),
+];
+
+const crumbs = [
+  { name: 'Inicio', path: '/es/' },
+  { name: 'Itinerarios', path: '/es/itineraries' },
+  { name: d.title, path },
+];
+
+const isTelAviv = d.startRegion === 'tel-aviv';
+const tours = isTelAviv
+  ? [
+      { partner: 'getyourguide' as const, title: 'Tour gastronómico por Tel Aviv', description: 'Descubre el Mercado Carmel y el Jaffa antiguo con un guía local.', image: '/images/regions/tel-aviv/carmel-market.jpg', query: 'Tel Aviv food tour' },
+      { partner: 'viator' as const, title: 'Visita guiada al Jaffa antiguo', description: 'Explora el antiguo puerto, el mercado de pulgas y las vistas panorámicas.', image: '/images/regions/tel-aviv/jaffa.jpg', query: 'Old Jaffa walking tour' },
+      { partner: 'civitatis' as const, title: 'Masada y Mar Muerto desde Tel Aviv', description: 'Amanecer en Masada y baño en el Mar Muerto — excursión de un día.', image: '/images/regions/dead-sea/hero.jpg', query: 'Masada Dead Sea day trip Tel Aviv' },
+    ]
+  : [
+      { partner: 'getyourguide' as const, title: 'Tour guiado por la Ciudad Antigua de Jerusalén', description: 'Recorre los cuatro barrios y los lugares sagrados con un guía local.', image: '/images/regions/jerusalem/hero.jpg', query: 'Jerusalem Old City tour' },
+      { partner: 'viator' as const, title: 'Excursión a Masada y el Mar Muerto', description: 'Amanecer en Masada y baño en el Mar Muerto.', image: '/images/regions/dead-sea/hero.jpg', query: 'Masada Dead Sea day trip' },
+      { partner: 'civitatis' as const, title: 'Tour gastronómico por Tel Aviv y Jaffa', description: 'Pasea por el Mercado Carmel y el Jaffa antiguo con un guía foodie.', image: '/images/regions/tel-aviv/hero.jpg', query: 'Tel Aviv Jaffa food tour' },
+    ];
+
+const schema = [
+  article({ headline: d.title, description: d.description, image: hero, path, authorName: defaultAuthor.name, authorUrl: defaultAuthor.url, datePublished: d.publishedAt, dateModified: d.updatedAt }),
+  breadcrumbList(crumbs),
+  touristTrip({ name: d.title, description: d.description, image: hero, path, days: d.days }),
+  ...(d.faqs && d.faqs.length > 0 ? [faqPage(d.faqs)] : []),
+];
+---
+
+<BaseLayout title={d.title} description={d.description} path={path} image={hero} alternates={alternates}>
+  <JsonLd slot="head" schema={schema} />
+  <Hero image={hero} title={d.title} subtitle={d.days ? `Itinerario de ${d.days} días` : undefined} alt={d.title} />
+  <Breadcrumbs items={crumbs} />
+  <AuthorByline updated={d.updatedAt} />
+
+  <article class="prose-content mx-auto max-w-3xl px-4 pt-4">
+    <Content />
+  </article>
+
+  <section class="mx-auto max-w-6xl px-4 pt-10" aria-labelledby="book">
+    <h2 id="book" class="mb-5 font-display text-3xl font-bold text-ink">Reserva las experiencias principales</h2>
+    <div class="grid grid-cols-1 gap-5 sm:grid-cols-3">
+      {tours.map((t) => <AffiliateCard {...t} />)}
+    </div>
+  </section>
+
+  <FaqSection faqs={d.faqs ?? []} />
+  <AuthorByline updated={d.updatedAt} />
+</BaseLayout>

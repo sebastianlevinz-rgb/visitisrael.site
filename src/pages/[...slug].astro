@@ -21,19 +21,21 @@ export async function getStaticPaths() {
   return [
     ...allGuides.map((entry) => {
       const firstSeg = entry.id.split('/')[0];
-      const isLocalized = firstSeg === 'fr' || firstSeg === 'de';
+      const isLocalized = firstSeg === 'fr' || firstSeg === 'de' || firstSeg === 'es';
       const baseSlug = isLocalized ? entry.id.slice(firstSeg.length + 1) : entry.id;
 
       const hasFr = guideIdSet.has(`fr/${baseSlug}`);
       const hasDe = guideIdSet.has(`de/${baseSlug}`);
+      const hasEs = guideIdSet.has(`es/${baseSlug}`);
       const hasEn = guideIdSet.has(baseSlug);
 
       let guideAlternates: { hreflang: string; href: string }[] = [];
-      if (hasEn && (hasFr || hasDe)) {
+      if (hasEn && (hasFr || hasDe || hasEs)) {
         guideAlternates = [
           { hreflang: 'en', href: `${SITE}/${baseSlug}` },
           ...(hasFr ? [{ hreflang: 'fr', href: `${SITE}/fr/${baseSlug}` }] : []),
           ...(hasDe ? [{ hreflang: 'de', href: `${SITE}/de/${baseSlug}` }] : []),
+          ...(hasEs ? [{ hreflang: 'es', href: `${SITE}/es/${baseSlug}` }] : []),
           { hreflang: 'x-default', href: `${SITE}/${baseSlug}` },
         ];
       }
@@ -54,9 +56,9 @@ const path = `/${entry.id}`;
 const hero = data.heroImage as string | undefined;
 const faqs = data.faqs ?? [];
 
-// Detect locale from the entry id prefix (fr/... or de/...)
+// Detect locale from the entry id prefix (fr/... de/... es/...)
 const firstSeg = entry.id.split('/')[0];
-const entryLocale: Locale = firstSeg === 'fr' || firstSeg === 'de' ? (firstSeg as Locale) : 'en';
+const entryLocale: Locale = (firstSeg === 'fr' || firstSeg === 'de' || firstSeg === 'es') ? (firstSeg as Locale) : 'en';
 const t = useTranslations(entryLocale);
 const planPath = `${localeHome(entryLocale)}plan-your-trip`;
 

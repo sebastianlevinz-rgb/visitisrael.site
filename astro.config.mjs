@@ -71,10 +71,10 @@ export default defineConfig({
   site: SITE,
   output: 'static',
   trailingSlash: 'ignore',
-  // English-first; French + German added progressively under /fr/ and /de/.
+  // English-first; French, German, Spanish added progressively.
   // prefixDefaultLocale:false keeps en at the root — see .loop/I18N-PLAN.md.
   i18n: {
-    locales: ['en', 'fr', 'de'],
+    locales: ['en', 'fr', 'de', 'es'],
     defaultLocale: 'en',
     routing: { prefixDefaultLocale: false },
   },
@@ -82,7 +82,7 @@ export default defineConfig({
     sitemap({
       i18n: {
         defaultLocale: 'en',
-        locales: { en: 'en', fr: 'fr', de: 'de' },
+        locales: { en: 'en', fr: 'fr', de: 'de', es: 'es' },
       },
       // Internal modules are noindex; keep them out of the sitemap.
       filter: (page) =>

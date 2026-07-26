@@ -8,7 +8,7 @@
  * Translation rollout is phased — see .loop/I18N-PLAN.md. Until a given page has
  * a translation, links should resolve to the locale home (no broken routes).
  */
-export const locales = ['en', 'fr', 'de'] as const;
+export const locales = ['en', 'fr', 'de', 'es'] as const;
 export type Locale = (typeof locales)[number];
 export const defaultLocale: Locale = 'en';
 
@@ -17,6 +17,7 @@ export const languageNames: Record<Locale, string> = {
   en: 'English',
   fr: 'Français',
   de: 'Deutsch',
+  es: 'Español',
 };
 
 /** <html lang> / og:locale value per locale. */
@@ -24,14 +25,16 @@ export const ogLocale: Record<Locale, string> = {
   en: 'en_US',
   fr: 'fr_FR',
   de: 'de_DE',
+  es: 'es_ES',
 };
 
 const SITE = 'https://visitisrael.site';
 
-/** Locale from a URL pathname: /fr/… → 'fr', /de/… → 'de', otherwise 'en'. */
+/** Locale from a URL pathname: /fr/… → 'fr', /de/… → 'de', /es/… → 'es', otherwise 'en'. */
 export function getLocaleFromPath(pathname: string): Locale {
   const seg = pathname.split('/').filter(Boolean)[0];
-  return seg === 'fr' || seg === 'de' ? seg : 'en';
+  if (seg === 'fr' || seg === 'de' || seg === 'es') return seg;
+  return 'en';
 }
 
 /** Home URL for a locale: en → '/', others → '/<locale>/'. */
@@ -40,7 +43,7 @@ export function localeHome(locale: Locale): string {
 }
 
 /**
- * Reciprocal hreflang alternates for the home pages (all three exist).
+ * Reciprocal hreflang alternates for the home pages (all four exist).
  * Other pages add their own set as translations ship.
  */
 export function homeAlternates(): { hreflang: string; href: string }[] {
@@ -48,6 +51,7 @@ export function homeAlternates(): { hreflang: string; href: string }[] {
     { hreflang: 'en', href: `${SITE}/` },
     { hreflang: 'fr', href: `${SITE}/fr/` },
     { hreflang: 'de', href: `${SITE}/de/` },
+    { hreflang: 'es', href: `${SITE}/es/` },
     { hreflang: 'x-default', href: `${SITE}/` },
   ];
 }
@@ -61,6 +65,7 @@ export function pageAlternates(slug: string): { hreflang: string; href: string }
     { hreflang: 'en', href: `${SITE}/${slug}` },
     { hreflang: 'fr', href: `${SITE}/fr/${slug}` },
     { hreflang: 'de', href: `${SITE}/de/${slug}` },
+    { hreflang: 'es', href: `${SITE}/es/${slug}` },
     { hreflang: 'x-default', href: `${SITE}/${slug}` },
   ];
 }
@@ -276,6 +281,76 @@ const ui = {
     'cta.tours': 'Touren',
     'cta.quickBooking': 'Schnellbuchung',
     'a11y.skipToContent': 'Zum Inhalt springen',
+  },
+  es: {
+    'home.heroTitle': 'Visitar Israel',
+    'home.heroSubtitle':
+      'Una guía independiente de las 11 regiones — desde Jerusalén hasta el Mar Rojo — con itinerarios, atracciones y enlaces de reserva de confianza.',
+    'home.regionsHeading': 'Explorar las regiones',
+    'home.planHeading': 'Planifica tu viaje',
+    'home.rolloutNotice':
+      'Nuestras guías detalladas están actualmente en inglés mientras ampliamos el contenido en español. Explora las regiones a continuación o lee las guías completas en inglés.',
+    'home.englishCta': 'Ver la guía completa en inglés',
+    'nav.regions': 'Regiones',
+    'nav.itineraries': 'Itinerarios',
+    'nav.plan': 'Planifica tu viaje',
+    'nav.planShort': 'Planifica',
+    'nav.search': 'Buscar',
+    'nav.openMenu': 'Abrir menú',
+    'nav.language': 'Idioma',
+    'nav.thingsToDo': 'Qué hacer',
+    'nav.buildTrip': 'Crea tu viaje',
+    'nav.tours': 'Excursiones',
+    'nav.costCalculator': 'Calculadora de presupuesto',
+    'nav.distanceCalculator': 'Calculadora de distancias',
+    'nav.howManyDays': '¿Cuántos días?',
+    'nav.map': 'Mapa',
+    'nav.home': 'Inicio',
+    'plan.title': 'Planifica tu viaje a Israel: guías, itinerarios y regiones',
+    'plan.description':
+      'Todo lo que necesitas para planificar un viaje a Israel: guías prácticas, itinerarios listos y guías detalladas de las 11 regiones.',
+    'plan.heroTitle': 'Planifica tu viaje',
+    'plan.heroSubtitle': 'Guías prácticas, itinerarios y las 11 regiones — empieza aquí.',
+    'plan.guidesHeading': 'Guías prácticas',
+    'plan.toolsHeading': 'Herramientas de viaje gratuitas',
+    'plan.itinerariesHeading': 'Itinerarios',
+    'plan.itinerariesIntro': 'Rutas listas de 3 días a una semana —',
+    'plan.browseAll': 'ver todos los itinerarios →',
+    'plan.regionsHeading': 'Las 11 regiones',
+    'tool.buildTrip': 'Crea tu viaje',
+    'tool.costCalc': 'Calculadora de presupuesto',
+    'tool.currency': 'Moneda y propinas',
+    'tool.packing': 'Lista de equipaje',
+    'tool.quiz': 'Quiz: ¿qué región te espera?',
+    'tool.map': 'Mapa de viaje',
+    'tool.distance': 'Calculadora de distancias',
+    'tool.days': '¿Cuántos días?',
+    'tool.weather': 'Tiempo y equipaje',
+    'tool.restaurantFinder': 'Restaurantes kosher y veganos',
+    'tool.shabbatCalendar': 'Calendario Shabat y festividades',
+    'tool.visaEtaChecker': 'Verificador de visa y ETA-IL',
+    'tool.travelTime': 'Calculadora de tiempos de viaje',
+    'tool.holidayPlanner': 'Planificador de días festivos',
+    'tool.parksCalc': 'Calculadora de pase de parques',
+    'tool.carQuiz': '¿Necesito alquilar un coche?',
+    'tool.goldenHour': 'Calculadora de amanecer y hora dorada',
+    'tool.shabbatCountdown': '¿Es Shabat ahora?',
+    'tool.experienceFinder': '¿Qué tipo de viajero soy?',
+    'tool.effectiveDays': 'Calculadora de días de visita efectivos',
+    'tool.seasonPicker': 'Mejor época para visitar — selector de temporada',
+    'tool.itineraryChecker': 'Verificador de viabilidad del itinerario',
+    'footer.tagline':
+      'Una guía de viaje independiente en inglés sobre Israel — regiones, atracciones, itinerarios y enlaces de reserva de confianza.',
+    'footer.dayTrips': 'Excursiones de un día',
+    'footer.essentials': 'Esenciales',
+    'footer.about': 'Acerca de',
+    'footer.copyright':
+      'Una guía de viaje independiente. Fotografías a través de Wikimedia Commons e ilustraciones originales asistidas por IA. Este sitio contiene enlaces de afiliados.',
+    'cta.flights': 'Vuelos',
+    'cta.hotels': 'Hoteles',
+    'cta.tours': 'Tours',
+    'cta.quickBooking': 'Reserva rápida',
+    'a11y.skipToContent': 'Ir al contenido',
   },
 } satisfies Record<Locale, Record<string, string>>;
 
