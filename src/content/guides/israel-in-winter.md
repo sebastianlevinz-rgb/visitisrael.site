@@ -200,4 +200,4 @@ Days 5–9 require a rental car or organised transfers. Days 1–4 are walkable 
 
 ---
 
-See the [Israel in December guide](/israel-in-december) for the full Hanukkah + Christmas month breakdown. See [best time to visit Israel](/best-time-to-visit-israel) for how winter compares with the full year, [Israel events and festivals](/israel-events-festivals) for the Hanukkah and Purim calendar, and [first time in Israel](/first-time-in-israel) for the planning essentials.
+See the [Israel in December guide](/israel-in-december) for the full Hanukkah + Christmas month breakdown. See the [Israel in February guide](/israel-in-february) for kalaniot anemone season, Mount Hermon skiing, Dead Sea floating conditions, and lowest hotel prices. See [best time to visit Israel](/best-time-to-visit-israel) for how winter compares with the full year, [Israel events and festivals](/israel-events-festivals) for the Hanukkah and Purim calendar, and [first time in Israel](/first-time-in-israel) for the planning essentials.
