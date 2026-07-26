@@ -12024,3 +12024,6 @@ stopped: STOP flag — iter798 was in progress (Air Canada addition to cheap-fli
 
 ## 2026-07-26 · stopped: STOP flag
 stopped: STOP flag
+
+## 2026-07-26T20:24Z · stopped: STOP flag
+stopped: STOP flag — loop halted per playbook step 0; STOP file present with reason: "manual review and corrections needed". No action taken this iteration.
