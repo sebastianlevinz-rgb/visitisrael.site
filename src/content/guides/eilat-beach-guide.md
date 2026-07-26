@@ -3,7 +3,7 @@ title: 'Eilat Beaches Guide: North Beach vs Coral Beach 2026'
 description: "Compare Eilat's beaches — North Beach resort strip, Coral Beach Nature Reserve, Almog Beach and Dolphin Reef — to choose the right one for your visit."
 heroImage: /images/regions/eilat/coral-beach.jpg
 category: Activities
-updatedAt: 2026-07-08
+updatedAt: 2026-07-26
 ctaHeading: 'Book Eilat beach hotels and water activities'
 affiliateCtas:
   - partner: booking
@@ -26,7 +26,7 @@ affiliateCtas:
     cta: Compare Eilat car hire rates
 faqs:
   - question: What is the best beach in Eilat?
-    answer: "It depends on what you want. North Beach is the best all-round resort beach — centrally located, free, lively, with watersports and restaurants on the promenade. Coral Beach Nature Reserve is the best for snorkeling — the reef starts at wading depth and the water is exceptionally clear. Almog Beach is the best for budget travellers who want a quiet, uncrowded experience without paying for a sun lounger. Most visitors staying more than one day do both North Beach and Coral Beach."
+    answer: "It depends on what you want. North Beach is the best all-round resort beach — centrally located, free, lively, with watersports and restaurants on the promenade. Coral Beach Nature Reserve is the best for snorkeling — the reef starts at wading depth and the water is exceptionally clear. Almog Beach is the best for budget travellers and families who want a quiet, uncrowded, supervised experience without paying for a sun lounger — it is now Eilat's officially designated city beach with a permanent lifeguard post. Most visitors staying more than one day do both North Beach and Coral Beach."
   - question: How do I get to Coral Beach Nature Reserve from North Beach?
     answer: 'Coral Beach is approximately 3 km south of the North Beach hotel strip along the coastal road. The easiest option is a short taxi or car — the route is straightforward. In cooler months it is walkable in about 35–40 minutes along the promenade and coastal path. The route is safe but exposed: bring water and sun protection if walking in any month. There is limited public bus service along the coastal road; ask at your hotel for the current schedule.'
   - question: Is Coral Beach better than North Beach for families?
@@ -49,7 +49,7 @@ Eilat has a 12-kilometre Red Sea coastline that packs four distinct beach experi
 | --- | --- | --- | --- |
 | North Beach | City centre hotel strip | Free | Resort atmosphere, watersports, evenings |
 | Coral Beach Nature Reserve | 3 km south | ~₪30 (INPA) | Coral snorkeling, marine life |
-| Almog Beach | Northernmost edge | Free | Budget travellers, quiet, uncrowded |
+| Almog Beach | Northernmost edge | Free | Budget travellers, families, quiet, uncrowded |
 | [Dolphin Reef](/eilat-dolphin-reef-guide) | South of North Beach | Paid entry | Dolphin watching, lagoon swimming |
 
 ---
@@ -82,9 +82,11 @@ Coral Beach is also where most of Eilat's dive centres are based — see the ful
 
 Almog Beach is Eilat's northernmost public beach, at the far end of the hotel zone away from the main tourist centre. It is quieter and less developed than North Beach — no sun-lounger vendors, minimal facilities — and entry is free. The 2025/2026 Eilat municipality investment expanded and improved the beach infrastructure, making it the best-maintained free public beach option outside the resort strip.
 
-Almog is the local's choice for a quiet half-day with young children or a picnic by the water. It is less convenient for tourists who want restaurants and watersports on hand, but it is the right answer if you want uncrowded Red Sea water without paying for services you don't need.
+Almog is now Eilat's first officially designated city beach, a status that has triggered a round of municipal upgrades: a permanent lifeguard post, a paved accessibility ramp into the water, and new changing facilities are all being added as part of the designation. The full infrastructure improvements were underway as of mid-2026 — verify current completion status on arrival. The designation signals ongoing investment that is expanding the beach's appeal beyond the backpacker crowd to families looking for a supervised, accessible Red Sea swim at no entry cost.
 
-**Best for:** Budget travellers, quiet beach morning, local atmosphere.
+Almog remains the local's choice for a quiet half-day — it is less convenient for tourists who want restaurants and watersports on hand, but the right answer if you want uncrowded Red Sea water without paying for services you don't need.
+
+**Best for:** Budget travellers, families seeking a supervised free beach, quiet beach morning, local atmosphere.
 
 ---
 
@@ -106,7 +108,7 @@ For families with strong swimmers aged 8 and up: **Coral Beach** for the marine 
 
 For visitors primarily interested in relaxing and watersports without committing to snorkeling equipment: **North Beach** is simpler and has more infrastructure.
 
-For budget travellers spending several days: combine all three — Almog Beach for a quiet half-day, North Beach for watersports, Coral Beach as the snorkeling anchor.
+For budget travellers spending several days: combine all three — Almog Beach for a quiet half-day (now with lifeguard supervision as Eilat's designated city beach), North Beach for watersports, Coral Beach as the snorkeling anchor.
 
 ---
 
