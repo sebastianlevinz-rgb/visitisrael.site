@@ -393,6 +393,7 @@ const ROUTES = [
   '/israel-in-october',
   '/israel-in-november',
   '/israel-in-september',
+  '/israel-in-june',
   '/airlines-flying-israel-2026',
 ];
 

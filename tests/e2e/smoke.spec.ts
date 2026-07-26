@@ -665,6 +665,7 @@ const ROUTES = [
   '/israel-points-miles-guide',
   '/israel-in-november',
   '/israel-in-september',
+  '/israel-in-june',
   '/airlines-flying-israel-2026',
 ];
 
