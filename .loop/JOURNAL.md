@@ -11842,3 +11842,32 @@ All three files redirect readers to united.com for current seasonal frequencies 
   - israel-in-july (P3/S): Israel Festival summer programme (July–August, Jerusalem International Convention Center + outdoor venues), peak diaspora tourism month, Tisha B'Av (fasting day — venue closures context), sea 28°C, heat management logistics. Completes Jun/Jul pair now that all winter/spring months queued.
 **No code changed. No gate run (research mode). No deployment.**
 **Next**: iter 786 → BUILD (786%5==1 → monetization category). Top monetization candidate: check BACKLOG for highest-priority monetization item not yet shipped.
+
+## 2026-07-26T03:45Z · iter 786 · BUILD · israel-in-june
+**Mode**: BUILD (786%5==1 → monetization). Monetization category exhausted (all items SHIPPED or ARCHIVED). Fell through to seo-content per PLAYBOOK fallthrough rules. Highest-priority seo-content ready item: israel-in-june (P2/S, freshest from iter785 research).
+**Branch**: auto/israel-in-june (cloud-env pattern: edits committed directly on master; branch was pointer only, no distinct commits).
+**Item**: israel-in-june — new /israel-in-june monthly guide.
+**Research basis**: Tourist Israel (touristisrael.com/things-to-do-in-israel-in-june), thingstodoinisrael.com/month/june, Time Out Tel Aviv June calendar, secrettelaviv.com/laila-lavan-white-night-2026 (White Night 2026 confirmed June 25–26). Competitor angles: touristisrael.com, bookmundi.com/israel-in-june, kimkim.com/c/israel-in-june all rank for "Israel in June" with dedicated pages; we had israel-in-summer.md (covers June broadly but doesn't capture June-specific event traffic).
+**Content**: 1600+ words covering:
+  - June in two modes intro (event-dense early June vs warm-but-still-pleasant late June)
+  - Tel Aviv Pride: 200k+ parade attendance, Gan Meir → seafront route, Pride Week lead-up events, accommodation booking priorities (6–8 weeks ahead for central TLV), honesty on annual date variation (link tlv.gov.il)
+  - Jerusalem Festival of Light: 10 nights mid-June, 3km Old City free walking route, 250k+ visitors, Tower of David separately ticketed, weekday evening timing guidance, honesty on annual date variation
+  - White Night / Laila Lavan: 70+ venues free all night, 2026 = June 25–26, Bauhaus Center walks, honesty on annual date variation (link tlv.gov.il)
+  - Jaffa Fest outdoor theatre (international troupes, Jaffa Port ambiance)
+  - Shavuot dairy food culture: cheesecake/labaneh/blintzes at Machane Yehuda + Carmel Market, Tikkun Leil all-night Torah study, synagogue visitor logistics, honesty on Hebrew calendar date shift
+  - Beaches: Mediterranean 26–28°C, Gordon/Hilton/Frishman strips, June slightly less crowded than July–August
+  - Tel Aviv in June city section (Pride → White Night seasonal arc)
+  - Jerusalem in June city section (Festival of Light + Shavuot + cultural season)
+  - June events calendar (structured H3 list with honesty caveats on date variability + annual official-source links)
+  - Practical planning: weather by region (coast/Jerusalem/Galilee/Eilat), packing (SPF 50+, light layers for Jerusalem evenings), booking lead times by event
+  - Cross-links to: /tel-aviv-pride-guide, /lgbtq-travel-israel, /jerusalem-festival-of-light, /best-beaches-israel, /best-time-to-visit-israel, /israel-in-summer, /israel-events-festivals
+**Frontmatter**: 7 FAQs; 3 affiliate CTAs (Booking.com June hotels advance booking, GYG Jerusalem Festival of Light guided walk, GYG Tel Aviv June tours); category=Planning; heroImage=/images/regions/tel-aviv/beaches.jpg.
+**Cross-links added**:
+  - israel-in-summer.md: final paragraph updated to cross-link /israel-in-june with context (Tel Aviv Pride, Festival of Light, White Night all in June)
+**Tests**:
+  - tests/e2e/smoke.spec.ts: +1 route /israel-in-june
+  - tests/e2e/a11y.spec.ts: +1 route /israel-in-june
+**Gate**: pnpm check 0 errors; pnpm build 857 pages (+1); pnpm test:e2e 1164/1164 pass (+2 tests). GREEN.
+**Ship**: committed 3e812cc to master; pushed origin/master. Branch auto/israel-in-june deleted.
+**Prod**: CI in_progress at push (standard pattern).
+**Next**: iter 787 → BUILD (787%5==2 → seo-content category). Top seo-content items: israel-in-december (P2/M), israel-in-may (P2/S), israel-in-february (P2/M), israel-in-january (P2/S), israel-in-march (P2/S), israel-in-july (P3/S), hula-valley-guide (P2/M), nahalat-binyamin-market (P2/S), tel-aviv-vs-eilat (P2/S).
