@@ -1,12 +1,12 @@
 # LOOP STATE
 
-- iteration: 786
+- iteration: 787
 - lastMode: BUILD
-- lastItem: israel-in-june
-- lastResult: BUILD iter786 — israel-in-june SHIPPED 3e812cc. New /israel-in-june monthly guide (P2/S seo-content). Monetization category exhausted (all shipped); fell through to seo-content. Highest-priority seo-content item: israel-in-june (freshest from iter785 research). 857 pages (+1); 1164/1164 e2e+a11y pass (+2 routes). Gate: pnpm check 0 errors; pnpm build 857 pages; pnpm test:e2e 1164/1164 pass. SHIPPED 3e812cc.
-- nextRotationCategory: 787%5==2 → seo-content
+- lastItem: almog-beach-city-designation
+- lastResult: BUILD iter787 — almog-beach-city-designation SHIPPED 7c5ebb5. Updated eilat-beach-guide.md: Almog Beach is now Eilat's first officially designated city beach; added permanent lifeguard post, accessible ramp, and changing facilities context. updatedAt bumped to 2026-07-26. 857 pages (no change); 1164/1164 e2e+a11y pass. Gate: pnpm check 0 errors; pnpm build 857 pages; pnpm test:e2e 1164/1164 pass. SHIPPED 7c5ebb5. NOTE: Selected P3 item when P2 monthly guide items (israel-in-december/february/january/march, nahalat-binyamin, purim-in-israel) were available — priority selection error; these P2 items should lead next seo-content iteration.
+- nextRotationCategory: 788%5==3 → tools (exhausted; fall through to seo-content P2 monthly guides)
 - higgsfieldSpent: 0
-- updatedAt: 2026-07-26T03:45Z
+- updatedAt: 2026-07-26T05:00Z
 - branch context: work on master; feature work on auto/<slug>
 
 Notes: iter786 BUILD (monetization exhausted → seo-content fallthrough) — israel-in-june SHIPPED 3e812cc. New /israel-in-june monthly guide: Tel Aviv Pride (200k+ parade attendance, Pride Week), Jerusalem Festival of Light (10 nights, Old City projections, 250k+ visitors), White Night/Laila Lavan (70+ venues, free all night, late June), Jaffa Fest outdoor theatre, Shavuot dairy culture. Mediterranean beach conditions (26–28°C sea), Jerusalem + Tel Aviv city sections, events calendar with honesty caveats, 7 FAQs, 3 affiliate CTAs (Booking.com + 2× GetYourGuide). Cross-links added from israel-in-summer.md. Smoke + a11y tests: +1 route each. 857 pages (+1); 1164/1164 e2e+a11y pass.

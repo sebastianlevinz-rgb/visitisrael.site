@@ -11871,3 +11871,11 @@ All three files redirect readers to united.com for current seasonal frequencies 
 **Ship**: committed 3e812cc to master; pushed origin/master. Branch auto/israel-in-june deleted.
 **Prod**: CI in_progress at push (standard pattern).
 **Next**: iter 787 → BUILD (787%5==2 → seo-content category). Top seo-content items: israel-in-december (P2/M), israel-in-may (P2/S), israel-in-february (P2/M), israel-in-january (P2/S), israel-in-march (P2/S), israel-in-july (P3/S), hula-valley-guide (P2/M), nahalat-binyamin-market (P2/S), tel-aviv-vs-eilat (P2/S).
+
+## 2026-07-26T05:00Z · iter 787 · BUILD (seo-content) · almog-beach-city-designation
+What: Updated eilat-beach-guide.md — Almog Beach city designation freshness update (P3/S). Almog Beach is now Eilat's first officially designated city beach, triggering municipal upgrades: permanent lifeguard post, paved accessibility ramp into water, new changing facilities. Added this context to the Almog Beach section, at-a-glance table (added "families"), FAQ answer, and "which beach to choose" paragraph. updatedAt bumped 2026-07-08 → 2026-07-26.
+Gate: pnpm check 0 errors; pnpm build 857 pages (no change); pnpm test:e2e 1164/1164 pass. GREEN.
+Ship: committed 7c5ebb5 to master; pushed. CI in_progress at push (standard pattern).
+Prod: CI in_progress at iteration end — next run to confirm.
+NOTE: Priority error — selected P3 item when multiple P2 seo-content items were ready in BACKLOG (below the visible top-of-file section I scanned): israel-in-december (P2/M), israel-in-february (P2/M), israel-in-january (P2/S), israel-in-march (P2/S), nahalat-binyamin-market (P2/S), purim-in-israel (P2/S). Next seo-content BUILD iteration MUST pick one of these P2 items.
+Next: iter 788 → BUILD (788%5==3; tools rotation — exhausted; fall through to seo-content, pick P2 monthly guide or P2/S seo-content item).
