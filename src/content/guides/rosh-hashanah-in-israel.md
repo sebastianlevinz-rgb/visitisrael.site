@@ -181,3 +181,4 @@ For broader context on visiting Israel during Jewish holidays:
 - [Best time to visit Israel](/best-time-to-visit-israel) — seasonal guide including the High Holiday window
 - [Jerusalem accommodation guide](/where-to-stay/jerusalem) — hotel areas and what to book for the holiday period
 - [Mahane Yehuda Market guide](/mahane-yehuda-market-guide) — the market's honey and holiday preparations
+- [Israel in September](/israel-in-september) — the full September monthly guide covering Rosh Hashana, Yom Kippur, grape harvest, and beach season

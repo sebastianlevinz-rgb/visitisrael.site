@@ -173,5 +173,6 @@ In Tel Aviv, the Carmel Market area, Rothschild Boulevard, and Florentin fill wi
 - [What's Open on Shabbat](/whats-open-on-shabbat) — city-by-city breakdown applying equally to Jewish holidays
 - [Israel Events & Festivals Calendar](/israel-events-festivals) — exact dates for the full calendar year
 - [Shabbat & Jewish Holiday Calendar Tool](/israel-shabbat-calendar) — precise candle-lighting and end-of-fast times
+- [Israel in September](/israel-in-september) — the full September monthly guide covering Yom Kippur, Rosh Hashana, grape harvest, and beach season logistics
 - [Visa and ETA-IL information](/visa-information) — entry requirements for your nationality
 - [Is Israel Safe?](/is-israel-safe) — safety context for planning your visit

@@ -170,6 +170,7 @@ October includes multiple full Jewish holiday closures (Yom Kippur, first/last d
 ## Where October fits in the bigger picture
 
 October is the bridge between Israel's summer peak and winter quiet. The seasonal guides provide the full picture:
+- [Israel in September](/israel-in-september): Rosh Hashana and Yom Kippur in depth, grape harvest opening, and the peak beach season that October follows
 - [Israel in autumn (September–November)](/israel-in-autumn): the complete seasonal overview including November crane peak and post-summer pricing
 - [Best time to visit Israel](/best-time-to-visit-israel): the annual planning matrix covering all 12 months
 - [Traveling in Israel during Jewish holidays](/traveling-israel-jewish-holidays): full logistics for managing holiday closures, Sukkot planning, and the Yom Kippur experience

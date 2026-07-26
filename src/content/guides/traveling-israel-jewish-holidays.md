@@ -279,6 +279,7 @@ For a full planning guide covering dates, the Western Wall Birkat Kohanim, Chol 
 
 ## Related guides
 
+- [Israel in September](/israel-in-september) — monthly guide for the High Holiday month (Rosh Hashana, Yom Kippur, grape harvest, beach season)
 - [Yom HaZikaron & Yom Ha'atzmaut Guide](/yom-haatzmaut-guide) — sirens, air show, transition ceremony, and airport closure dates
 - [Shabbat in Israel: A Practical Guide](/shabbat-guide) — the weekly rest day that echoes the holiday pattern
 - [What's Open on Shabbat](/whats-open-on-shabbat) — city-by-city breakdown including Jewish holidays
