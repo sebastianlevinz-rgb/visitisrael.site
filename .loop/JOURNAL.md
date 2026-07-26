@@ -11966,3 +11966,27 @@ Prod: CI in_progress at push time; prior iter792 CI confirmed success (standard 
 **Monthly guide gap inventory:** israel-in-may, israel-in-july, israel-in-august still unshipped (3 remaining dedicated monthly guides; israel-in-summer.md broadly covers Aug).
 **Fixes shipped:** NONE — review was clean.
 **Next:** iter 795 = RESEARCH (795%5==0).
+
+## 2026-07-26T12:30Z · iter 795 · RESEARCH · airline-freshness-nationality-gaps
+
+**Mode:** RESEARCH (795%5==0 — pass #161)
+**Items researched:** easyJet TLV status, KLM TLV suspension/resumption, Air Canada YUL-TLV, nationality guide gaps, competitor content scan
+**Tools used:** WebSearch (8 queries), WebFetch (attempted 4, 403 on most), background research agent (false leads eliminated)
+
+**Findings — 3 net-new items added to BACKLOG:**
+1. **[P1/S]** easyJet confirmed suspended July 2026, October resumption — airlines-flying-israel-2026.md still shows "uncertain" but Wego June 2026 status, ynetnews/JNS/BBC confirm NOT flying; planned late October 2026 window (same as BA); guide's "Still not flying" text (line 105) omits easyJet though it IS in suspended table — inconsistency. Fix: update row + add to "Still not flying" text + clarify Ryanair FAQ line 21 that recommends easyJet as alternative.
+2. **[P2/S]** KLM suspended March 1–July 25, 2026; resumed July 26 (today) — Guide shows KLM as active "Connecting hub" without the suspension history; add "(suspended March–July 2026; resumed July 26)" and context in Key Changes section.
+3. **[P2/S]** Air Canada YUL-TLV seasonal service (Jun–Oct 2026, Fri/Sun) absent from both airlines guide and cheap-flights guide — only Canadian carrier flying direct to TLV.
+
+**Priority upgrade noted (not a new BACKLOG item):** israel-for-romanian-travelers [iter610 research] upgraded P3→P2 — 300,000+ passengers Romania↔Israel since start of 2025; AnimaWings launched OTP-TLV 3x/wk (Oct 5); FLYONE launched OTP-TLV 2x/wk (Jun 5). Sources: jpost.com/israel-news/article-869132, travelandtourworld.com.
+
+**False leads eliminated (all already in BACKLOG or existing guides):**
+- Australian travelers (BACKLOG iter430 P3), Canadian travelers (BACKLOG iter430 P3), Romanian travelers (BACKLOG iter610 P3→P2 upgrade), Dutch travelers (BACKLOG iter450 P3), Belgian travelers (BACKLOG iter515 P3), New Zealand travelers (BACKLOG iter605 P3), Polish/Hungarian (BACKLOG iter605/610)
+- israel-in-may (BACKLOG P2/S, iter780), israel-in-july (BACKLOG P3/S, iter785), shavuot-in-israel (BACKLOG P3/S, iter785)
+- Wine tourism, birdwatching, hiking, archaeology, cruises, kids guide — all EXISTING guides
+- Emirates resumption — CONFIRMED permanent cancellation (not resuming; early 2026 reports were speculation)
+
+**Saturation:** ~96% (161 prior research passes). BACKLOG ≈ 724 active P-items.
+**Gate:** RESEARCH mode — no gate needed.
+**Ship:** No code changes.
+**Next:** iter 796 = BUILD (796%5==1 → seo-content rotation, but P1 easyJet honesty fix overrides; top candidate: easyJet-confirmed-suspension-fix airlines guide update; fallthrough: israel-in-may P2/S).

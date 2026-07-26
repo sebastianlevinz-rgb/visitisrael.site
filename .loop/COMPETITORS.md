@@ -6494,3 +6494,19 @@ already tracked. Findings this pass:
    73%+ YoY surge but still well below pre-war levels; March–May slump reported in one source
    (unverified). Tourism recovery is real but gradual. is-israel-safe.md (iter643 SHIPPED with
    July 2026 advisory update) accurately frames the recovery context.
+
+---
+
+## iter795 (2026-07-26) — Airline status freshness scan + nationality gap audit
+
+1. **easyJet TLV confirmed suspended July 2026** — Multiple postponements since March 2026 announcement. Confirmed NOT flying per Wego June 2026 status blog, BBC (suspended until October), ynetnews (delayed to winter 2026). Planned resumption: late October 2026 (same window as British Airways). Our airlines-flying-israel-2026.md still shows "uncertain" language — needs update to confirmed-suspended status. Competitor masaisrael.org "Airlines Flying to Israel in July 2026" correctly shows easyJet as suspended. Action: easyJet P1/S honesty fix in BACKLOG [iter795 research].
+
+2. **KLM TLV volatility — suspended March 1 to July 25, 2026; resumed July 26** — KLM had 3 reversals in 2026: (a) resumed briefly Feb 2; (b) suspended again March 1; (c) resumed July 26 (KL461/KL462 news.klm.com). Our guide showed KLM as active throughout without noting suspension. Resuming today so guide is now technically correct, but history note helps travelers understand route reliability. Action: P2/S note in BACKLOG [iter795 research].
+
+3. **Air Canada YUL-TLV seasonal service** — Air Canada resumed Montréal–Tel Aviv June–October 2026 (Fri/Sun). No competitor Israel guide coverage of this North American option. Relevant for Canadian market (Air Canada is the only Canadian carrier flying direct). Action: P2/S addition to airlines guide in BACKLOG [iter795 research].
+
+4. **Romanian-Israeli corridor confirmed as major market** — 300,000+ passengers Romania↔Israel since start of 2025 (Skyscanner data). AnimaWings (new carrier, TLV-OTP Oct 5, 3x/wk) + FLYONE (new carrier, TLV-OTP Jun 5, 2x/wk) alongside existing TAROM/El Al/Wizz Air. Romanian travel market to Israel is comparable in volume to UK or Germany per-capita. No competitor has a Romanian-targeted Israel guide. israel-for-romanian-travelers BACKLOG priority upgraded P3→P2. Sources: jpost.com/israel-news/article-869132, travelandtourworld.com.
+
+5. **Nationality guide saturation audit** — All major nationality gaps now in BACKLOG or shipped: 21 nationality guides in BACKLOG (Australian P3/S, Canadian P3/S, Dutch P3/S, Belgian P3/S, Romanian P3→P2, Polish P3/S, Hungarian P3/S, New Zealand P3/S, Thai P3/S, Ukrainian P3/S, Czech P3/S, and more). Shipped: British, American, German, Chinese, Korean, Swiss, Italian, Spanish, French, South African, Filipino, Gulf, Indian, Argentinian, Nordic, Portuguese, Serbian, Irish. Content saturation for nationality guides at ~96%.
+
+6. **Emirates permanent exit confirmed** — Feb 2026 reports of potential resumption were speculation; Yahoo/SimpleFying confirmed Emirates permanently ended all TLV service. Our guides correctly reflect this per iter763 fix. No action needed.
