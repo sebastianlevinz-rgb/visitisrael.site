@@ -18,7 +18,7 @@ faqs:
   - question: Is British Airways flying to Israel in 2026?
     answer: 'No. British Airways suspended its London Heathrow–Tel Aviv service and has announced a planned restart no earlier than late October 2026. Verify current status at ba.com before booking — the date has shifted before. In the meantime, Virgin Atlantic does not fly TLV; the best London alternatives are El Al direct from Heathrow, or connections via European hubs on Lufthansa, Air France, or KLM/Air France.'
   - question: Is Ryanair flying to Israel in 2026?
-    answer: 'No. Ryanair has not operated any flights to Ben Gurion Airport since 2023 and confirmed it will not restart TLV service during Summer 2026. Do not rely on Ryanair for Israel travel. The closest budget alternatives from the UK are Wizz Air (London Luton) and easyJet (London Gatwick — verify current status at easyjet.com).'
+    answer: 'No. Ryanair has not operated any flights to Ben Gurion Airport since 2023 and confirmed it will not restart TLV service during Summer 2026. Do not rely on Ryanair for Israel travel. Note that easyJet is also currently suspended from TLV. The main budget alternative from the UK is Wizz Air (London Luton). For other UK options, check El Al direct from Heathrow or connections via Air France, Lufthansa, or SWISS.'
   - question: Is Turkish Airlines flying to Israel?
     answer: 'No. Turkish Airlines (THY) has suspended its Istanbul–Tel Aviv routes and has not announced a confirmed restart date. Istanbul (IST) is therefore not currently available as a connecting hub for Israel. Alternative Middle East hubs: Dubai (FlyDubai direct to TLV; Emirates does NOT fly TLV), Abu Dhabi (Etihad up to 6 daily AUH–TLV as of mid-2026), Doha (Qatar Airways — verify current operational status).'
   - question: What airlines fly nonstop from the United States to Israel in 2026?
@@ -44,6 +44,7 @@ faqs:
 | **United** | Newark EWR, Chicago ORD, Washington IAD | Newark resumed March 2025; ORD and IAD added November 2025 — check united.com for seasonal schedules |
 | **Israir** | New York JFK | Israel's first low-cost nonstop to the US; launched August 2026 using Airbus A330; compare total prices including luggage |
 | **American Airlines** | Miami MIA | Seasonal; check aa.com for exact dates |
+| **Air Canada** | Montreal YUL | Seasonal Jun–Oct 2026 (Fri/Sun); check aircanada.com for schedule |
 
 **Delta note:** The planned Atlanta–Tel Aviv and Boston–Tel Aviv routes remain suspended. Atlanta is deferred to at least December 2026; Boston indefinitely. Only the JFK–TLV nonstop is operating.
 
@@ -61,7 +62,7 @@ faqs:
 | **Wizz Air** | London Luton, Budapest, Vienna, Bucharest, and others | Low-cost; base fares exclude luggage |
 | **Arkia** | Málaga AGP, Tokyo Narita NRT (Oct 2026) | Arkia's new Japan route opens Israel's first direct East Asia gateway |
 | **Aegean** | Athens ATH and Greek island airports | Good for combined Israel–Greece trips |
-| **KLM** | Amsterdam AMS | Connecting hub for Northern Europe |
+| **KLM** | Amsterdam AMS | Resumed 26 July 2026 (suspended March 1–July 25); connecting hub for Northern Europe |
 | **Austrian Airlines** | Vienna VIE | Connecting hub for Central and Eastern Europe |
 
 ### Middle East, Asia & Oceania
@@ -84,7 +85,7 @@ faqs:
 | **Ryanair** | Suspended since 2023. No Summer 2026 restart confirmed | corporate.ryanair.com |
 | **Turkish Airlines** | Suspended. No restart date announced | turkishairlines.com |
 | **Emirates** | Permanent suspension; no restart planned | emirates.com |
-| **easyJet** | Uncertain. Announced March 2026 resumption; operational status unconfirmed | easyjet.com |
+| **easyJet** | Suspended. March 2026 resumption did not happen. Next planned restart: late October 2026 — **date may shift again; verify at easyjet.com before booking** | easyjet.com |
 | **Delta Atlanta (ATL)** | Suspended through at least December 2026 | delta.com |
 | **Delta Boston (BOS)** | Indefinitely delayed | delta.com |
 
@@ -100,15 +101,18 @@ faqs:
 - **Arkia TLV–NRT** (October 2026): First direct Israel–Japan service, opening East Asian routing.
 - **El Al TLV–EZE** (29 November 2026): First scheduled direct Israel–Argentina service, targeting South American Jewish community travel.
 - **Eurowings HAM/DUS** (July 2026): New German LCC routes.
+- **Air Canada YUL–TLV** (seasonal Jun–Oct 2026): Montreal–Tel Aviv service, Fridays and Sundays. First direct Canada–Israel link in 2026.
+
+**KLM suspension and resumption:** KLM suspended its Amsterdam–TLV service from 1 March 2026 (following renewed security concerns) and resumed on 26 July 2026. Travelers who booked KLM via Amsterdam during March–July 2026 were rerouted or refunded. Service is now active.
 
 **Still not flying:**
-- British Airways, Ryanair, Turkish Airlines, and Emirates remain absent from the TLV market as of July 2026.
+- British Airways, Ryanair, Turkish Airlines, Emirates, and easyJet remain absent from the TLV market as of July 2026.
 
 ---
 
 ## How to book with confidence
 
-**Check the airline's official website first** — this page is updated periodically but airline schedules change faster than any editorial site can track. For British Airways and easyJet in particular, the situation has shifted multiple times; treat any date in this guide as approximate, not confirmed.
+**Check the airline's official website first** — this page is updated periodically but airline schedules change faster than any editorial site can track. For British Airways and easyJet in particular, the situation has shifted multiple times (easyJet's March 2026 restart did not happen; the current planned date is late October 2026); treat any date in this guide as approximate, not confirmed.
 
 **Compare fares across all active carriers** using a fare comparison tool before booking. With the field of flying carriers narrower than it was in 2023, some routes that previously had 3–4 competing options now have 1–2, and prices reflect that.
 
