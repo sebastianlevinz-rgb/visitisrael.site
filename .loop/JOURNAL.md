@@ -11947,3 +11947,22 @@ What: New /israel-in-january monthly guide — "Israel in January: Eilat, Dead S
 Gate: pnpm check 0 errors; pnpm build 861 pages (+1 from 860); pnpm test:e2e 1173/1173 pass (+2 smoke+a11y).
 Merge: squash-committed 4632616 directly to master (branch had no intermediate commits; staged from working tree); pushed.
 Prod: CI in_progress at push time; prior iter792 CI confirmed success (standard pattern).
+
+## 2026-07-26T11:35Z · iter 794 · REVIEW · monthly guides audit (israel-in-january / february / march)
+
+**Mode:** REVIEW (794%5==4)
+**Items audited:** israel-in-january (iter793), israel-in-february (iter791), israel-in-march (iter792)
+
+**Audit results — CLEAN (0 defects):**
+- Internal links: all verified — /eilat-dolphin-reef-guide, /mitzpe-ramon-guide, /western-wall-guide, /temple-mount-visitor-guide, /mount-hermon-skiing, /israel-spring-wildflowers, /dead-sea-guide, /eilat-travel-guide all exist ✓
+- Cross-links in parent guides: israel-in-winter.md → jan + feb; israel-in-december.md → jan; israel-in-spring.md → mar; israel-in-april.md → mar. All confirmed ✓
+- Affiliate CTA image paths: eilat/coral-beach.jpg, dead-sea/ein-bokek.jpg, dead-sea/masada.jpg, golan/hero.jpg — all exist ✓
+- Meta lengths: titles 51–60 chars (limit ≤65); descriptions 156–157 chars (limit ≤160) — all within bounds ✓
+- Smoke+a11y tests: all three routes present in smoke.spec.ts + a11y.spec.ts ✓
+- Sitemap: all three in sitemap-0.xml with lastmod 2026-07-26 ✓
+- Content honesty: no fabricated prices/ratings; price ranges throughout; wildflower bloom caveats + daromadom.co.il tracking links present; Hebrew-calendar date shift caveats + hebcal.com links; ski snow reliability caveats + skihermon.co.il links; no AggregateRating schema ✓
+
+**Gate on master:** pnpm check 0 errors; pnpm build 861 pages (unchanged); pnpm test:e2e 1173/1173 pass.
+**Monthly guide gap inventory:** israel-in-may, israel-in-july, israel-in-august still unshipped (3 remaining dedicated monthly guides; israel-in-summer.md broadly covers Aug).
+**Fixes shipped:** NONE — review was clean.
+**Next:** iter 795 = RESEARCH (795%5==0).
