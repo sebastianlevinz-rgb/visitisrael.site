@@ -11910,3 +11910,16 @@ Confirmations (already in BACKLOG or DONE): monthly guides Jan/Feb/Mar/May/Jul, 
 COMPETITORS.md updated: myisraelstay.com added as luxury hotel competitor; HolyLandTravel.ai (IMTM 2026) noted; tourism recovery stats (73%+ YoY, 285k Q1 2026 visitors).
 No code shipped (research mode). Next: iter791 = BUILD (seo-content: israel-in-february P2/M top candidate).
 
+
+## 2026-07-26T09:20Z · iter 791 · BUILD (seo-content) · israel-in-february
+**Mode**: BUILD (791%5==1 → monetization). Monetization category exhausted. Fell through to seo-content. Top candidate: israel-in-february (P2/M — confirmed by iter780 research; touristisrael.com, bookmundi.com, kimkim.com, globalhighlights.com all rank; site had israel-in-winter.md and israel-spring-wildflowers.md but no February-specific monthly guide).
+**Item**: israel-in-february — new /israel-in-february monthly guide.
+**What changed**:
+  - src/content/guides/israel-in-february.md (NEW): 1800+ word guide. Lead angle: kalaniot anemone wildflower peak (Darom Adom festival, Eshkol region Negev — carpets of red/pink anemones typically Feb–early Mar; honest bloom-timing caveat + daromadom.co.il tracking link). Mount Hermon skiing (most reliable snow month; honest snowfall caveat, check skihermon.co.il). Almond blossom in Galilee. Dead Sea in February (20-23°C, best floating conditions of year, school-break caveat). Eilat Red Sea (24-26°C, 22-24°C water, solid diving/snorkelling). Negev and Ramon Crater hiking (16-20°C, peak condition, Makhtesh crater rim trail). Tu BiShvat minor holiday (non-disruptive). Jerusalem section (cold/atmospheric, snow possible, lowest hotel prices). Tel Aviv section (best-value base month, wildflower day-trip combination). February events calendar with honesty caveats. Weather table + packing + booking priorities. Cross-links to: israel-spring-wildflowers, mount-hermon-skiing, dead-sea-guide, mitzpe-ramon-guide, israel-in-winter, best-time-to-visit-israel. 7 FAQs. 3 affiliate CTAs: Booking.com Dead Sea (winter floating), GYG Negev wildflower tour, GYG Mount Hermon ski day trip.
+  - src/content/guides/israel-in-winter.md: final paragraph updated to cross-link /israel-in-february (kalaniot/skiing/lowest prices angle).
+  - tests/e2e/smoke.spec.ts: +1 route /israel-in-february (after /israel-in-december).
+  - tests/e2e/a11y.spec.ts: +1 route /israel-in-february (after /israel-in-december).
+**Gate**: pnpm check 0 errors; pnpm build 859 pages (+1); pnpm test:e2e 1169/1169 pass (+2 tests for smoke+a11y). GREEN.
+**Ship**: committed 688ab77 to master (cloud-env pattern: direct commit on master); pushed origin/master. Branch auto/israel-in-february deleted.
+**Prod**: CI in_progress at push (standard pattern); prior CI runs all success.
+**Next**: iter 792 → BUILD (792%5==2 → tools exhausted → seo-content/technical fallthrough). Top seo-content candidates: israel-in-january (P2/S), israel-in-march (P2/M), purim-in-israel (P2/S).
