@@ -193,3 +193,5 @@ Easter week makes a natural base for the wider Christian pilgrimage circuit:
 - **[Via Dolorosa & Old City walking tour](/best-tours-in-israel)** — most Holy Week guided tours combine these into a half-day.
 - **[Dead Sea & Masada](/masada-dead-sea-day-trip)** — logical rest day after Good Friday; the contrast between the intensity of the Old City and the desolation of the Judean Desert is stark and appropriate.
 - **[Galilee](/galilee)** — consider basing two nights in Tiberias or Nazareth before or after the Jerusalem week; Capernaum, the Mount of Beatitudes and the Sea of Galilee complete the pilgrimage circuit.
+
+For the full April context — Passover, Independence Day, wildflowers, and practical planning — see the [Israel in April guide](/israel-in-april).

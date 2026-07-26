@@ -175,4 +175,4 @@ Both destinations function almost entirely around the hotel program model during
 
 **Bring snacks or plan ahead for the main days.** On full Yom Tov days, your hotel will feed you but venturing out for food requires knowing in advance which Arab-neighbourhood or non-Jewish establishments are open in your area.
 
-See our [traveling in Israel during Jewish holidays guide](/traveling-israel-jewish-holidays) for the broader calendar and a comparison of all major holiday periods.
+See our [traveling in Israel during Jewish holidays guide](/traveling-israel-jewish-holidays) for the broader calendar and a comparison of all major holiday periods. For the full April travel picture — Easter, Independence Day, and wildflowers alongside Passover — see the [Israel in April guide](/israel-in-april).
