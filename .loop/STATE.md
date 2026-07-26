@@ -1,12 +1,12 @@
 # LOOP STATE
 
-- iteration: 788
-- lastMode: BUILD
-- lastItem: israel-in-december
-- lastResult: BUILD iter788 — israel-in-december SHIPPED 855ff94. New /israel-in-december monthly guide (P2/M). Hanukkah (public menorahs/sufganiyot/what-stays-open/date-shift caveat), Christmas (Latin Dec 24/Greek Jan 6–7/Armenian Jan 18–19/Bethlehem logistics), Haifa Holiday of Holidays (Wadi Nisnas interfaith festival), Eilat Red Sea winter (24–26°C, Coral Beach, Hanukkah booking crunch), Dead Sea December (most comfortable conditions), Jerusalem December (atmosphere, cold weather, sightseeing), Tel Aviv (cultural season, New Year's Eve). 7 FAQs. 3 affiliate CTAs: Booking.com December hotels, GetYourGuide Hanukkah Jerusalem tours, GetYourGuide Eilat diving. Cross-links added from /israel-in-winter and /christmas-in-israel. 858 pages (+1); 1166/1166 e2e+a11y pass. SHIPPED 855ff94.
-- nextRotationCategory: 789%5==4 → REVIEW
+- iteration: 789
+- lastMode: REVIEW
+- lastItem: review-789-april-a11y-coverage
+- lastResult: REVIEW iter789 — review-789-april-a11y-coverage SHIPPED 1cdf946. Audited recently-shipped monthly guides (israel-in-december iter788, israel-in-june iter786, israel-in-april iter783). Found: /israel-in-april missing from a11y.spec.ts (iter783 added it to smoke.spec.ts only). All internal links in december+april guides verified clean (7 cross-links each, all resolve). Content honesty audit clean (no fabricated prices/ratings; date-shift caveats present on all Hebrew-calendar references). Fix shipped: added /israel-in-april to a11y spec. 858 pages (no change); 1167/1167 e2e+a11y pass (+1). CI in_progress at push (standard pattern).
+- nextRotationCategory: 790%5==0 → RESEARCH
 - higgsfieldSpent: 0
-- updatedAt: 2026-07-26T05:00Z
+- updatedAt: 2026-07-26T07:00Z
 - branch context: work on master; feature work on auto/<slug>
 
 Notes: iter786 BUILD (monetization exhausted → seo-content fallthrough) — israel-in-june SHIPPED 3e812cc. New /israel-in-june monthly guide: Tel Aviv Pride (200k+ parade attendance, Pride Week), Jerusalem Festival of Light (10 nights, Old City projections, 250k+ visitors), White Night/Laila Lavan (70+ venues, free all night, late June), Jaffa Fest outdoor theatre, Shavuot dairy culture. Mediterranean beach conditions (26–28°C sea), Jerusalem + Tel Aviv city sections, events calendar with honesty caveats, 7 FAQs, 3 affiliate CTAs (Booking.com + 2× GetYourGuide). Cross-links added from israel-in-summer.md. Smoke + a11y tests: +1 route each. 857 pages (+1); 1164/1164 e2e+a11y pass.

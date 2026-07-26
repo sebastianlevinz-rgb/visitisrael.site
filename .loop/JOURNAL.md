@@ -11886,3 +11886,17 @@ Gate: pnpm check 0 errors; pnpm build 858 pages (+1); pnpm test:e2e 1166/1166 pa
 Ship: committed 855ff94 to master; pushed. CI in_progress at push (standard pattern).
 Prod: CI in_progress at iteration end — next run to confirm.
 Next: iter 789 → REVIEW (789%5==4). Good candidates: december/monthly guide honesty cross-check; comparison guide audit; airlines-flying-israel-2026 carrier table freshness; or any guide newly requiring an update per recent news.
+
+## 2026-07-26T07:00Z · iter 789 · REVIEW · review-789-april-a11y-coverage
+**Mode**: REVIEW (789%5==4).
+**Scope**: Audited recently-shipped monthly guides — israel-in-december (iter788), israel-in-june (iter786), israel-in-april (iter783) — plus checked airlines-flying-israel-2026 (iter784) cross-links.
+**Findings**:
+  - /israel-in-april missing from a11y.spec.ts: iter783 added the route to smoke.spec.ts only; a11y spec was not updated. All other monthly guides shipped in the same wave (Sep/Oct/Nov/Jun/Dec) have a11y coverage. Gap confirmed by comm -23 diff of smoke vs a11y route lists.
+  - Internal links in israel-in-december: all 7 cross-links verified (christmas-in-israel, dead-sea-guide, eilat-travel-guide, israel-in-winter, traveling-israel-jewish-holidays, best-time-to-visit-israel, israel-events-festivals). All resolve. CLEAN.
+  - Internal links in israel-in-april: all 17 cross-links verified. All resolve. CLEAN.
+  - Honesty audit: all Hebrew-calendar references in both guides carry annual-shift caveats with hebcal.com/chabad.org/howshofficial links. No fabricated prices, ratings, or exact counts. CLEAN.
+**Fix**: added '/israel-in-april' to a11y.spec.ts ROUTES array adjacent to the other monthly-guide routes (oct/nov/sep/jun/dec cluster at line 393-398).
+**Gate**: pnpm check 0 errors; pnpm build 858 pages (no change); pnpm test:e2e 1167/1167 pass (+1 new a11y test). GREEN.
+**Ship**: committed 1cdf946 to master; pushed origin/master. CI + Lighthouse in_progress at push (standard pattern).
+**Prod**: CI in_progress — previous 2 CI runs both success.
+**Next**: iter 790 → RESEARCH (790%5==0). Good research angles: missing monthly guides (israel-in-july P3/S, israel-in-may P2/S, israel-in-march P2/S, israel-in-february P2/M queued); holiday standalones (shavuot-in-israel P3/S, lag-baomer queued); new 2026 competitor content gaps; tourism-tech/tool opportunities.
