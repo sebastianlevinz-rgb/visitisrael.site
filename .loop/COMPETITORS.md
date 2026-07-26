@@ -6450,3 +6450,47 @@ No material new competitor sites detected. touristisrael.com, Lonely Planet, Tri
 
 **4 net-new items confirmed for BACKLOG**: israel-in-june (P2/S), shavuot-in-israel (P3/S), purim-in-israel (P3/S), israel-in-july (P3/S).
 **Confirmed duplicates not re-added (11+ evaluated)**: White Night (iter265), Jerusalem Marathon (iter505), Haifa cruise port (iter340), March/May/Dec/Jan/Feb (iter775/780), Israel Festival standalone (subsumed into israel-in-july), August (covered israel-in-summer.md), InterContinental Jerusalem (SHIPPED iter772).
+
+### 2026-07-26T08:30Z · iter 790 · RESEARCH pass #158 · 4 angles investigated
+Sources: touristisrael.com, thingstodoinisrael.com/month/*, kimkim.com, bookmundi.com, globalhighlights.com,
+ynetnews.com, myisraelstay.com, jpost.com, travelpulse.com, jewishlink.news, timesofisrael.com,
+travelagewest.com, atij.org, galileeculinaryinstitute.com, cooldestinations.com, itraveljerusalem.com.
+
+**Backlog saturation confirmed ~94%+** after 158 research passes. Almost all major content angles
+already tracked. Findings this pass:
+
+1. **myisraelstay.com** — new luxury/couples Israel travel site emerging as competitor for hotel
+   content. Publishes roundups like "17 hotel openings shaping Israel's summer 2026" and
+   "five worth a couple's June stay." Not in our competitor tracking. Primarily luxury
+   hotel + romantic Israel niche. Watch for: luxury hotel roundup formats, couples itineraries.
+
+2. **Tourist Israel "Traveling to Israel Now" page** — confirmed as one of their highest-traffic
+   guides. Covers: current safety advisories by country, open airports, tour status. Our
+   equivalent is is-israel-safe.md (SHIPPED iter0) + israel-travel-2026.md (iter487 SHIPPED) +
+   is-israel-safe freshness update (SHIPPED iter643 with UK/EASA advisory downgrade context).
+   We are current. Tourist Israel has more real-time update cadence.
+
+3. **Christian pilgrimage recovery emphasis** — Times of Israel: "Israel banks on Christian
+   pilgrims and faith-based travel to drive tourism recovery." Israel MOT + private operators
+   targeting US, Latin American, African evangelical churches aggressively. HolyLandTravel.ai
+   (AI pilgrimage planning app) launched at IMTM 2026 with US Ambassador Huckabee endorsement.
+   Our christian-pilgrimage-holy-land.md (SHIPPED + i18n'd in iter132 batch 10) covers this
+   segment. A mention of HolyLandTravel.ai as a planning resource would add value.
+
+4. **17 luxury hotel openings summer 2026** — confirmed via myisraelstay.com + thejc.com article.
+   Our new-luxury-hotels-israel-2026.md (iter751) + iter772 InterContinental Jerusalem covers
+   most of the wave. Newly found: Beersheba luxury hotel (NIS 20M investment, "Reinforcement
+   player in Beersheba" JPost article-886370; no hotel name published; opening mid-2026).
+   Also confirmed: The Norman Hotel Tel Aviv — 50-room Bauhaus boutique, June 2026 — already
+   mentioned in earlier site content (rooftop-bars iter266). Kassland (Ma'ale Adumim, West Bank
+   settlement) confirmed as HUMAN REVIEW REQUIRED per existing backlog status.
+
+5. **Monthly guide saturation** — Tourist Israel + thingstodoinisrael.com both have all 12 months.
+   We now have: Apr, Jun, Sep, Oct, Nov, Dec SHIPPED; spring/summer/autumn/winter season guides.
+   Remaining: Jan (P2/M), Feb (P2/M), Mar (P2/S), May (P2/S), Jul (P3/S) — all queued in BACKLOG.
+   israel-in-february is top priority (unique kalaniot/anemone wildflower hook + ski angle).
+
+6. **Tourism recovery numbers** — 285,000 inbound visitors Q1 2026 (vs 3.5M peak in 2023);
+   73%+ YoY surge but still well below pre-war levels; March–May slump reported in one source
+   (unverified). Tourism recovery is real but gradual. is-israel-safe.md (iter643 SHIPPED with
+   July 2026 advisory update) accurately frames the recovery context.

@@ -11900,3 +11900,13 @@ Next: iter 789 → REVIEW (789%5==4). Good candidates: december/monthly guide ho
 **Ship**: committed 1cdf946 to master; pushed origin/master. CI + Lighthouse in_progress at push (standard pattern).
 **Prod**: CI in_progress — previous 2 CI runs both success.
 **Next**: iter 790 → RESEARCH (790%5==0). Good research angles: missing monthly guides (israel-in-july P3/S, israel-in-may P2/S, israel-in-march P2/S, israel-in-february P2/M queued); holiday standalones (shavuot-in-israel P3/S, lag-baomer queued); new 2026 competitor content gaps; tourism-tech/tool opportunities.
+
+## 2026-07-26T09:00Z · iter 790 · RESEARCH · research-pass-158
+
+Mode: RESEARCH (790%5==0). Sources searched: touristisrael.com, thingstodoinisrael.com, kimkim.com, bookmundi.com, myisraelstay.com, jpost.com, ynetnews.com, timesofisrael.com, atij.org, travelpulse.com, travelagewest.com, globalhighlights.com.
+Backlog saturation: ~94%+ after 158 research passes. 2 net-new items found.
+New BACKLOG items: (1) Beersheba luxury hotel NIS 20M project → add section to new-luxury-hotels-israel-2026.md (P3/S, technical/seo); (2) HolyLandTravel.ai pilgrimage planning app → add mention to christian-pilgrimage-holy-land.md (P3/S, seo-content).
+Confirmations (already in BACKLOG or DONE): monthly guides Jan/Feb/Mar/May/Jul, shavuot/purim/black-travelers/golf/birdwatching all queued; Oct 7 memorial blocked:requires-human-editorial-review; Kassland confirmed West Bank settlement (Ma'ale Adumim) = human review required, not shipped.
+COMPETITORS.md updated: myisraelstay.com added as luxury hotel competitor; HolyLandTravel.ai (IMTM 2026) noted; tourism recovery stats (73%+ YoY, 285k Q1 2026 visitors).
+No code shipped (research mode). Next: iter791 = BUILD (seo-content: israel-in-february P2/M top candidate).
+
