@@ -218,4 +218,4 @@ Days 4–10 require a rental car or organised transfers. Days 1–3 are accessib
 
 ---
 
-For the peak April window — Passover, Easter, and Independence Day — see the [Israel in April guide](/israel-in-april). See [best time to visit Israel](/best-time-to-visit-israel) for how spring compares with the full year, [Israel events and festivals](/israel-events-festivals) for the complete spring event calendar, and [first time in Israel](/first-time-in-israel) for the planning essentials that apply year-round.
+For the March-specific guide — Purim street parties, wildflower bloom, and pre-crowd hiking — see [Israel in March](/israel-in-march). For the peak April window — Passover, Easter, and Independence Day — see the [Israel in April guide](/israel-in-april). See [best time to visit Israel](/best-time-to-visit-israel) for how spring compares with the full year, [Israel events and festivals](/israel-events-festivals) for the complete spring event calendar, and [first time in Israel](/first-time-in-israel) for the planning essentials that apply year-round.

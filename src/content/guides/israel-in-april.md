@@ -180,6 +180,7 @@ The April season connects the following guides on this site:
 
 - [Passover in Israel guide](/passover-in-israel) — full logistics for the Seder, chametz, and holiday closures
 - [Easter in Jerusalem guide](/easter-in-jerusalem) — Via Dolorosa, Holy Sepulchre, Garden Tomb, and Orthodox Easter
+- [Israel in March](/israel-in-march) — Purim, wildflowers, and pre-crowd hiking in the quieter month before April
 - [Israel in spring guide](/israel-in-spring) — the full March–May seasonal overview
 - [Israel spring wildflowers guide](/israel-spring-wildflowers) — Darom Adom, Galilee orchids, bloom tracking
 - [Best time to visit Israel](/best-time-to-visit-israel) — month-by-month comparison

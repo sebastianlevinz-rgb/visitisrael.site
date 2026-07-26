@@ -245,6 +245,7 @@ HONESTY: All event dates that depend on the Hebrew calendar shift annually — n
 ## Where February fits in the bigger picture
 
 - [Israel in winter (December–February)](/israel-in-winter): the full three-month seasonal overview — Eilat, Dead Sea, wildflowers, Jerusalem
+- [Israel in March](/israel-in-march): Purim street parties, the last of the wildflowers, and ideal spring hiking before Easter crowds
 - [Israel spring wildflowers guide](/israel-spring-wildflowers): in-depth kalaniot bloom locations, Darom Adom logistics, cyclamen and iris species calendar
 - [Mount Hermon ski guide](/mount-hermon-skiing): runs, rental, ski school, snow conditions tracker, and getting there
 - [Dead Sea guide](/dead-sea-guide): beach choices, floating tips, safety, and the Ein Bokek resort strip
