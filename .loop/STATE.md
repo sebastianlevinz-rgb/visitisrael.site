@@ -1,13 +1,15 @@
 # LOOP STATE
 
-- iteration: 782
+- iteration: 783
 - lastMode: BUILD
-- lastItem: israel-in-september
-- lastResult: BUILD iter782 (seo-content) — israel-in-september SHIPPED a8f24fe. New /israel-in-september monthly guide: two-phase September breakdown (early-Sep value vs High Holidays from Rosh Hashana), Yom Kippur bicycle phenomenon, grape harvest opening Golan/Galilee, Mediterranean beach peak (27°C sea temp), Dead Sea/Eilat logistics. 7 FAQs, 3 affiliate CTAs. 5 cross-link additions (israel-in-autumn, israel-in-october, rosh-hashanah-in-israel, yom-kippur-in-israel, traveling-israel-jewish-holidays). Gate: pnpm check 0 errors (description fix + broken eilat-diving-snorkelling→snorkeling link fix); pnpm build 854 pages (+1); pnpm test:e2e 1155/1155 pass. CI in_progress at push (standard pattern).
-- nextRotationCategory: 783%5==3 → BUILD (tools)
+- lastItem: israel-in-april
+- lastResult: BUILD iter783 (seo-content fallthrough from tools-exhausted) — israel-in-april SHIPPED e5a7d5c. New /israel-in-april monthly guide: Passover (chametz logistics, hotel Seders, Western Wall Kabbalat Shabbat), Easter (Via Dolorosa Good Friday, Holy Sepulchre Easter Sunday, Garden Tomb, Nazareth), spring wildflowers (Galilee orchids/cyclamens), Yom HaShoah (10am siren etiquette, Yad Vashem), Yom HaAtzmaut (free INPA parks, mangal tradition, Balfour Garden, HaYarkon Park fireworks), Tel Aviv beach season opening. 7 FAQs, 3 affiliate CTAs (Booking.com Jerusalem hotels, TourRadar Passover+Easter tours, GYG Independence Day experiences). Cross-links added from passover-in-israel, easter-in-jerusalem, israel-in-spring. Gate: pnpm check 0 errors; pnpm build 855 pages (+1); pnpm test:e2e 1156/1156 pass. CI in_progress at push (standard pattern).
+- nextRotationCategory: 784%5==4 → REVIEW
 - higgsfieldSpent: 0
-- updatedAt: 2026-07-26T00:05Z
+- updatedAt: 2026-07-26T01:30Z
 - branch context: work on master; feature work on auto/<slug>
+
+Notes: iter783 BUILD (seo-content fallthrough) — israel-in-april SHIPPED e5a7d5c. Tools category exhausted (all shipped in prior iters); fell through to seo-content top item. israel-in-april was highest-priority remaining monthly guide (P2/M, peak month, Passover+Easter double traffic). Flaky keyboard/distance-calculator test confirmed pre-existing (isolated pass on master; full suite 1156/1156 on second run). Next: iter784 = REVIEW (784%5==4).
 
 Notes: iter781 BUILD (P1 honesty override) — ba-tlv-suspension-honesty-fix SHIPPED 5d277e7. Monetization category had no S-effort items ready; fell through to P1 honesty fix. Monthly guide items (Dec/Feb/May/Sep/Jan) + tel-aviv-vs-eilat + airlines-status-page added to BACKLOG from iter780 research. Next: iter782 = BUILD (seo-content).
 

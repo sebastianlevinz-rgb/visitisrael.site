@@ -11801,3 +11801,18 @@ All three files redirect readers to united.com for current seasonal frequencies 
 **Ship**: committed a8f24fe to master; pushed origin/master. Branch auto/israel-in-september deleted.
 **Prod**: CI in_progress at push (standard pattern). Last 3 CI runs all completed success.
 **Next**: iter 783 → BUILD (783%5==3, tools category). Top tools candidate from BACKLOG.
+
+## 2026-07-26T01:30Z · iter 783 · BUILD (seo-content) · israel-in-april
+**Mode**: BUILD (783%5==3 → tools, but tools exhausted → fallthrough to seo-content).
+**Startup**: resumed from context summary; working tree had April guide changes stashed (prior investigation of south-israel-itinerary a11y flakiness); git stash pop restored all changes. corepack + pnpm install already done in prior context.
+**Item**: israel-in-april (P2/M — April is Israel's highest-traffic tourist month; Tourist Israel + thingstodoinisrael.com/month/april both rank; site had passover-in-israel + easter-in-jerusalem + israel-in-spring but no unified April monthly guide; from iter775 research).
+**What changed**:
+  - src/content/guides/israel-in-april.md (NEW): Full April monthly guide — Passover (chametz logistics, hotel Seder booking, Western Wall Kabbalat Shabbat); Easter (Via Dolorosa Good Friday procession at 3pm, Holy Sepulchre Easter Sunday arrive-by-5am, Garden Tomb sunrise alternative, Nazareth community); spring wildflowers (Galilee orchids/cyclamens last window); Yom HaShoah (10am siren etiquette, Yad Vashem logistics, venue closures); Yom HaAtzmaut (free INPA parks, mangal tradition, Balfour Garden Jerusalem, HaYarkon Park Tel Aviv, fireworks); Tel Aviv beach season opening (sea 20–22°C, promenade culture); planning essentials (4–6 month booking lead for Passover/Easter week); cross-links section. 7 FAQs (Is April good / Passover changes / Easter comparison / Yom HaShoah etiquette / Yom HaAtzmaut details / April weather / booking timeline). 3 affiliate CTAs: Booking.com Jerusalem hotels (peak season urgency), TourRadar Passover+Easter Holy Land tours, GYG Independence Day experiences.
+  - src/content/guides/passover-in-israel.md: cross-link added at end to /israel-in-april.
+  - src/content/guides/easter-in-jerusalem.md: cross-link added to /israel-in-april.
+  - src/content/guides/israel-in-spring.md: last paragraph updated to reference /israel-in-april for April-specific content.
+  - tests/e2e/smoke.spec.ts: /israel-in-april route added.
+**Gate**: pnpm check 0 errors; pnpm build 855 pages (+1); pnpm test:e2e 1156/1156 pass (2nd run; 1st run had flaky keyboard/distance-calculator timeout — confirmed pre-existing on master isolation test, passes consistently in isolation). GREEN.
+**Ship**: squash-merged to master e5a7d5c; pushed origin/master. Branch auto/israel-in-april pushed + PR #32 opened as draft.
+**Prod**: CI in_progress at push (standard pattern).
+**Next**: iter 784 → REVIEW (784%5==4). Candidates: monthly guides series (israel-in-april just shipped — cross-check all cross-link chains; israel-in-october/november/september — verify affiliate CTAs and internal links); OR comparison guides freshness audit.
