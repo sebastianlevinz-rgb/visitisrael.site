@@ -390,6 +390,7 @@ const ROUTES = [
   '/israel-for-nordic-travelers',
   '/israel-for-gulf-travelers',
   '/israel-points-miles-guide',
+  '/israel-in-april',
   '/israel-in-october',
   '/israel-in-november',
   '/israel-in-september',
