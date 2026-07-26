@@ -1,12 +1,12 @@
 # LOOP STATE
 
-- iteration: 781
+- iteration: 782
 - lastMode: BUILD
-- lastItem: ba-tlv-suspension-honesty-fix
-- lastResult: BUILD iter781 (P1 override, monetization fallthrough → honesty/seo-content) — ba-tlv-suspension-honesty-fix SHIPPED 5d277e7. British Airways suspended LHR–TLV service through at least late Oct 2026. Fixed 2 guides: cheap-flights-to-israel.md (added suspended BA row to UK/Europe carrier table, matching Ryanair pattern); israel-for-british-travelers.md (route table + carrier prose + BA Holidays package note updated with suspension caveat + ba.com verify link). Gate: pnpm check 0 errors; pnpm build 853 pages (no change); pnpm test:e2e 1155/1155 pass. CI in_progress at push (standard pattern). Side note: israel-points-miles-guide.md references BA LHR routing for Qantas/AA awards (iter774 fix) — technically still valid as forward-looking booking strategy since BA resumes late Oct 2026; not a P1 fix.
-- nextRotationCategory: 782%5==2 → BUILD (seo-content)
+- lastItem: israel-in-september
+- lastResult: BUILD iter782 (seo-content) — israel-in-september SHIPPED a8f24fe. New /israel-in-september monthly guide: two-phase September breakdown (early-Sep value vs High Holidays from Rosh Hashana), Yom Kippur bicycle phenomenon, grape harvest opening Golan/Galilee, Mediterranean beach peak (27°C sea temp), Dead Sea/Eilat logistics. 7 FAQs, 3 affiliate CTAs. 5 cross-link additions (israel-in-autumn, israel-in-october, rosh-hashanah-in-israel, yom-kippur-in-israel, traveling-israel-jewish-holidays). Gate: pnpm check 0 errors (description fix + broken eilat-diving-snorkelling→snorkeling link fix); pnpm build 854 pages (+1); pnpm test:e2e 1155/1155 pass. CI in_progress at push (standard pattern).
+- nextRotationCategory: 783%5==3 → BUILD (tools)
 - higgsfieldSpent: 0
-- updatedAt: 2026-07-25T22:45Z
+- updatedAt: 2026-07-26T00:05Z
 - branch context: work on master; feature work on auto/<slug>
 
 Notes: iter781 BUILD (P1 honesty override) — ba-tlv-suspension-honesty-fix SHIPPED 5d277e7. Monetization category had no S-effort items ready; fell through to P1 honesty fix. Monthly guide items (Dec/Feb/May/Sep/Jan) + tel-aviv-vs-eilat + airlines-status-page added to BACKLOG from iter780 research. Next: iter782 = BUILD (seo-content).

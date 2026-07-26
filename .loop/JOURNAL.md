@@ -11785,3 +11785,19 @@ All three files redirect readers to united.com for current seasonal frequencies 
 **Prod**: CI in_progress at push (standard pattern). Last 3 CI runs all completed success.
 **Side note**: israel-points-miles-guide.md references BA LHR as a routing option for Qantas/AA oneworld awards (iter774 fix). BA suspension is temporary (through late Oct 2026); award ticket routing recommendations remain valid for forward-looking planning. Not a P1 fix — noted for monitoring.
 **Next**: iter 782 → BUILD (782%5==2, seo-content). Top candidate: israel-in-december monthly guide (P2/M, Hanukkah+Christmas double traffic spike, from iter780 research) or israel-in-february (P2/M, kalanit wildflower peak).
+
+## 2026-07-26T00:05Z · iter 782 · BUILD (seo-content) · israel-in-september
+**Mode**: BUILD (782%5==2, seo-content rotation).
+**Startup**: fresh cloud clone; local master diverged behind origin/master (force-updated); git reset --hard origin/master to 5c95e4b. corepack OK; pnpm install --frozen-lockfile 10s. playwright install --with-deps failed (version mismatch, standard); pre-installed /opt/pw-browsers/chromium resolves via PLAYWRIGHT_BROWSERS_PATH env.
+**Item**: israel-in-september (P2/S — no September monthly guide on site; Tourist Israel, thingstodoinisrael.com, bookmundi.com all rank for "Israel in September"; from iter780 research).
+**What changed**:
+  - src/content/guides/israel-in-september.md (NEW): Full monthly guide — two-phase September breakdown (early-Sep value vs High Holidays from Rosh Hashana onward); Rosh Hashana atmosphere + Tashlich; Yom Kippur bicycle phenomenon in depth (empty Ayalon highway, Tayelet cyclists, Kol Nidre Western Wall); grape harvest opening at Golan/Galilee wineries (Yarden/Chateau Golan logistics); Mediterranean beach peak (27°C sea temp); Dead Sea heat logistics; Eilat diving peak; practical packing/booking priorities; holiday supply + transport gap logistics. 7 FAQs. 3 affiliate CTAs: Booking.com (advance High Holiday hotels), GYG (Rosh Hashana Jerusalem tours), GYG (Golan wine harvest tours).
+  - src/content/guides/israel-in-autumn.md: added /israel-in-september link to closing cross-link paragraph.
+  - src/content/guides/israel-in-october.md: added /israel-in-september link to "Where October fits" section.
+  - src/content/guides/rosh-hashanah-in-israel.md: added /israel-in-september link to Related guides section.
+  - src/content/guides/yom-kippur-in-israel.md: added /israel-in-september link to Related guides section.
+  - src/content/guides/traveling-israel-jewish-holidays.md: added /israel-in-september link to Related guides section.
+**Gate**: pnpm check 0 errors (description was 164 chars → fixed to 153; then link-checker fail eilat-diving-snorkelling → fixed to eilat-diving-snorkeling); pnpm build 854 pages (+1); pnpm test:e2e 1155/1155 pass. GREEN second run.
+**Ship**: committed a8f24fe to master; pushed origin/master. Branch auto/israel-in-september deleted.
+**Prod**: CI in_progress at push (standard pattern). Last 3 CI runs all completed success.
+**Next**: iter 783 → BUILD (783%5==3, tools category). Top tools candidate from BACKLOG.
