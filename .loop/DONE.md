@@ -1341,3 +1341,4 @@ REVIEW audit of iter766 found 5 comparison/nationality guides presenting easyJet
 
 ## iter801 · es-guides-batch-2 · a0394fab
 - [iter801 a0394fab] BUILD (i18n-ES Phase ES-1) — 5 ES guides shipped: /es/shabbat-guide, /es/is-israel-safe, /es/israel-accommodation-guide, /es/israel-travel-tips, /es/ben-gurion-airport-guide. Neutral LATAM Spanish. Smoke +5, a11y +5; hreflang test corrected for 4-locale setup. ES guides: 10/394. [i18n-ES]
+- [iter802 → 5d5e00a] Nahalat Binyamin Arts & Crafts Market guide (/nahalat-binyamin-market-tel-aviv) — Israel's largest juried artisan market in Tel Aviv; 200+ handmade-only stalls, Tue + Fri. Fills P2/S seo-content gap distinct from adjacent Carmel Market guide. 7 FAQs, 3 CTAs. 954 pages (+1); 1195/1195 pass.

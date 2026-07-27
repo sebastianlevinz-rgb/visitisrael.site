@@ -12137,3 +12137,34 @@ Shipped 5 Spanish ES guides (Phase ES-1, batch 2) on commit a0394fab:
 Smoke tests +5 ES routes; a11y tests +5 ES routes; hreflang test updated (og:locale:alternate 2→3, 'es' added to hreflang loop — ES locale now fully live).
 Gate: pnpm check 0 errors; pnpm build 953 pages (+5); pnpm test:e2e 1193/1193 pass (+10 tests). GREEN.
 CI in_progress at push (standard pattern). ES guides: 10/394 complete.
+
+## 2026-07-27T13:00Z · iter 802 · BUILD (seo-content P2/S) · nahalat-binyamin-market-tel-aviv
+
+Mode: BUILD (802 % 5 == 2). Category: seo-content (nextRotationCategory from STATE).
+Selected item: /nahalat-binyamin-market-tel-aviv (P2, S effort) — Nahalat Binyamin Arts & Crafts Market.
+Rationale: genuinely missing (verified no file in src/content/guides/); distinct from adjacent
+tel-aviv-carmel-market.md (food market); BACKLOG entry confirmed ready; S effort = bounded.
+
+Content shipped:
+- New /nahalat-binyamin-market-tel-aviv guide: 200+ juried artisan stalls, Tue + Fri only,
+  operating since 1920s. Quality-control model (artists selling own work). 6 product categories:
+  jewellery, ceramics, original paintings, glasswork, textiles, wooden Judaica.
+- Best-time guidance (Fri 10am–1pm peak; Tue morning low crowds), Carmel Market combination
+  routing, Kerem HaTeimanim neighbourhood context.
+- 7 FAQs, 3 affiliate CTAs (GYG market tour, Civitatis walking tour, Booking.com TLV hotels).
+- Cross-link: tel-aviv-carmel-market.md external URL → /nahalat-binyamin-market-tel-aviv.
+- Smoke test route +1; a11y route +1.
+
+Stale BACKLOG note: Many P2 seo-content entries found to be stale (existing files at different
+slugs): israel-muslim-travel-guide (→ muslim-travel-israel.md), birdwatching-israel (→
+birdwatching-in-israel.md), jerusalem-neighborhoods (→ jerusalem-neighborhoods-guide.md),
+golan-heights-wine-route (→ golan-heights-wineries.md), israel-military-history-guide (→
+israel-military-heritage.md), israel-in-autumn/yom-haatzmaut-in-israel/purim-in-israel/
+israel-solo-travel (all exist under alternate slugs). Genuine P2 missing items include:
+east-jerusalem-guide (M, sensitive), egypt-jordan-israel-itinerary (M), israel-for-black-
+travelers (M), best-hotels-mitzpe-ramon (M), israel-diving-guide (M), tel-aviv-art-scene (M).
+
+Gate: pnpm check 0 errors; pnpm build 954 pages (+1); pnpm test:e2e 1195/1195 pass (+2).
+Ship: squash-merged to master 5d5e00a; pushed origin/master. CI in_progress at push.
+Prod: CI in_progress (standard pattern).
+Next: iter 803 = BUILD (i18n-ES Phase ES-2) — next 5 ES guides per I18N-PLAN.md comm output.

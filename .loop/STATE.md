@@ -1,13 +1,15 @@
 # LOOP STATE
 
-- iteration: 801
-- lastMode: BUILD (i18n-ES Phase ES-1)
-- lastItem: es-guides-batch-2
-- lastResult: SHIPPED a0394fab. 5 ES guides added (Phase ES-1 complete): shabbat-guide, is-israel-safe, israel-accommodation-guide, israel-travel-tips, ben-gurion-airport-guide. Gate: pnpm check 0 errors; 953 pages (+5); 1193/1193 e2e+a11y pass (+10 tests). hreflang og:locale:alternate test corrected 2→3 (ES locale now live). CI in_progress at push (standard pattern). ES guides now 10/394.
-- nextRotationCategory: seo-content (P2 items — rotate away from i18n; next i18n BUILD at iter803).
+- iteration: 802
+- lastMode: BUILD (seo-content P2/S)
+- lastItem: nahalat-binyamin-market-tel-aviv
+- lastResult: SHIPPED 5d5e00a. New /nahalat-binyamin-market-tel-aviv guide fills P2/S seo-content gap. Nahalat Binyamin pedestrian market (200+ juried artisan stalls, Tue + Fri, since 1920s). Content: market concept + quality-control, what to find (jewellery/ceramics/paintings/glasswork/textiles/Judaica), combine-with-Carmel-Market routing, Kerem HaTeimanim context. 7 FAQs, 3 affiliate CTAs (GYG/Civitatis/Booking). Cross-link update to tel-aviv-carmel-market.md. Gate: pnpm check 0 errors; 954 pages (+1); 1195/1195 pass (+2 tests). CI in_progress at push (standard pattern).
+- nextRotationCategory: i18n-ES BUILD (iter803%5==3 → BUILD; i18n-ES Phase ES-2 = next 5 ES guides per I18N-PLAN.md).
 - higgsfieldSpent: 0
-- updatedAt: 2026-07-27T11:58Z
+- updatedAt: 2026-07-27T13:00Z
 - branch context: work on master; feature work on auto/<slug>
+
+Notes: iter802 BUILD (seo-content P2/S) — nahalat-binyamin-market-tel-aviv SHIPPED 5d5e00a. New /nahalat-binyamin-market-tel-aviv fills confirmed P2/S seo-content gap (iter375 research). Nahalat Binyamin = Israel's largest juried arts & crafts market (200+ handmade-only stalls, open Tue + Fri since 1920s). Distinct from adjacent tel-aviv-carmel-market.md (food market). Content: quality-control model (artists only selling own work), 6 product categories (jewellery/ceramics/paintings/glasswork/textiles/wooden Judaica), Carmel Market combine routing, Kerem HaTeimanim neighbourhood context. 7 FAQs. 3 CTAs (GYG, Civitatis, Booking.com). Cross-link updated in tel-aviv-carmel-market.md (external URL → internal link). Gate: pnpm check 0 errors; 954 pages (+1); 1195/1195 pass (+2).
 
 Notes: iter797 BUILD (seo-content P2/S) — israel-in-may SHIPPED caad9e7. New /israel-in-may monthly guide fills the last major spring shoulder-season gap. Key content: Yom HaZikaron/Yom HaAtzmaut transition with HONESTY caveats (Hebrew calendar date shifts annually); Lag BaOmer bonfire night (link to lag-baomer-israel.md); Jerusalem Day dual-narrative (factual, no advocacy, politically sensitive framing); Galilee late wildflowers + Golan spring peak; TLV beach season opening (22–24°C sea). 7 FAQs, 3 CTAs. Gate: 0 errors; 862 pages (+1); 1175/1175 pass (+2). CI in_progress at push (standard pattern). Monthly guide series now covers: Jan/Feb/Mar/Apr/May/Jun/Sep/Oct/Nov/Dec (10/12 months). Remaining: Jul (P3/S), Aug (covered by israel-in-summer.md).
 
