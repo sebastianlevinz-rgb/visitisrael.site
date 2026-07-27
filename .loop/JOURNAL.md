@@ -12259,3 +12259,21 @@ Cross-links: added to israel-in-summer.md + israel-in-june.md.
 Gate: pnpm check 0 errors; pnpm build 965 pages (+1); pnpm test:e2e 1217/1217 pass (+2: smoke+a11y). GREEN.
 Ship: squash-merged to master 5c86e9f, pushed origin/master. CI in_progress at push (standard pattern).
 Next: iter808 = BUILD (808%5==3 → tools category, but tools exhausted → fall through to technical or i18n-ES Phase ES-4).
+Next: iter808 = BUILD (808%5==3 → tools, but tools exhausted → i18n-ES Phase ES-4).
+
+## 2026-07-27T18:48Z · iter 808 · BUILD (i18n-ES Phase ES-4) · es-guides-batch-5
+
+Mode: BUILD (808 % 5 == 3). Tools category exhausted; fell through to i18n-ES Phase ES-4.
+
+Selected: 5 high-priority ES guide translations (Phase ES-4).
+Guides: /es/day-trips-from-jerusalem, /es/day-trips-from-tel-aviv, /es/best-tours-in-israel,
+/es/dead-sea-guide, /es/best-holy-land-tours. Neutral LATAM Spanish (no vosotros).
+/es/ link prefixes where ES versions exist (20 prior guides + 11 regions). Religious/contested
+sites (Western Wall/Muro de los Lamentos, Santo Sepulcro, Monte del Templo/Cúpula de la Roca)
+carry over EN neutral framing. YAML single-quote escape in day-trips-from-tel-aviv.md fixed
+(Bahá'í inside single-quoted YAML → switched to double-quote). 10 new tests (5 smoke + 5 a11y).
+
+Gate: pnpm check 0 errors; pnpm build 970 pages (+5); pnpm test:e2e 1227/1227 pass (+10). GREEN.
+Ship: committed 903b747 directly on master (auto branch empty — no commits made before switching
+back), pushed origin/master. CI in_progress at push (standard pattern; Lighthouse succeeded).
+ES guide count: 25/394. Phase ES-4 complete.

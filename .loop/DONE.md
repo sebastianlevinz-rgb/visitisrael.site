@@ -1350,3 +1350,6 @@ BUILD (i18n-ES Phase ES-3) — 5 ES itinerary guides: /es/1-day-jerusalem-itiner
 
 ## iter807 · israel-in-july · 5c86e9f
 BUILD (seo-content) — New /israel-in-july monthly guide completes the monthly series (final gap after Jan–Jun+Sep–Dec shipped; Aug covered by israel-in-summer.md). Israel Festival (Sultan's Pool + Jerusalem Theatre performing arts); Sea of Galilee July (29°C Kinneret, kayaking/SUP); Tisha B'Av (Western Wall candlelight vigils); peak diaspora season; heat management strategy (7–10am/midday AC/5pm+ pattern); Dead Sea + Masada safety warnings. 7 FAQs, 3 CTAs (Booking.com, 2× GYG). Cross-links: israel-in-summer.md + israel-in-june.md. Gate: pnpm check 0 errors; 965 pages (+1); 1217/1217 pass (+2 tests). 2026-07-27.
+
+## iter808 · es-guides-batch-5 (Phase ES-4) · 903b747
+BUILD (i18n-ES Phase ES-4) — 5 high-priority ES guides translated to neutral Latin-American Spanish: /es/day-trips-from-jerusalem, /es/day-trips-from-tel-aviv, /es/best-tours-in-israel, /es/dead-sea-guide, /es/best-holy-land-tours. /es/ link prefixes where ES versions exist (25 prior ES guides + 11 regions). Religious/contested sites carry over EN neutral framing. YAML fix: single-quote escape in day-trips-from-tel-aviv.md. 10 new tests (5 smoke + 5 a11y). Gate: pnpm check 0 errors; 970 pages (+5); 1227/1227 pass (+10). ES guides: 25/394. Phase ES-4 complete. 2026-07-27.

@@ -1,13 +1,15 @@
 # LOOP STATE
 
-- iteration: 807
-- lastMode: BUILD (iter807%5==2 → seo-content)
-- lastItem: israel-in-july
-- lastResult: SHIPPED 5c86e9f. New /israel-in-july monthly guide fills final major monthly gap (Jan–Jun+Sep–Dec shipped; Aug covered by israel-in-summer). Content: Israel Festival in Jerusalem (mid-Jul–early Aug, world-class performing arts at Sultan's Pool/Jerusalem Theatre); Sea of Galilee July water season (29°C Kinneret, kayaking/SUP/boat trips); Tisha B'Av (Western Wall candlelight vigils, Jewish heritage visitors); peak diaspora season context; detailed heat-management strategy (7–10am outdoors, midday AC, 5pm+ evening); Dead Sea + Masada July safety. 7 FAQs, 3 CTAs (Booking.com, GYG Jerusalem/Israel Festival, GYG Galilee water). Cross-links from israel-in-summer.md + israel-in-june.md. Gate: pnpm check 0 errors; 965 pages (+1); 1217/1217 pass (+2 tests). Monthly series now complete (all 12 months covered; Aug via israel-in-summer).
-- nextRotationCategory: tools (iter808%5==3 → BUILD; next after seo-content is tools — but tools exhausted; fall through to technical or i18n-ES Phase ES-4)
+- iteration: 808
+- lastMode: BUILD (iter808%5==3 → tools exhausted → i18n-ES Phase ES-4)
+- lastItem: es-guides-batch-5
+- lastResult: SHIPPED 903b747. 5 ES guides (Phase ES-4): /es/day-trips-from-jerusalem, /es/day-trips-from-tel-aviv, /es/best-tours-in-israel, /es/dead-sea-guide, /es/best-holy-land-tours. Neutral LATAM Spanish; /es/ link prefixes where ES versions exist; religious/contested sites carry over EN neutral framing. YAML single-quote escape fix in day-trips-from-tel-aviv.md. 10 new tests (5 smoke + 5 a11y). Gate: pnpm check 0 errors; 970 pages (+5); 1227/1227 pass (+10). ES guide count: 25/394. Phase ES-4 complete.
+- nextRotationCategory: REVIEW (iter809%5==4 → REVIEW mode)
 - higgsfieldSpent: 0
-- updatedAt: 2026-07-27T17:55Z
+- updatedAt: 2026-07-27T18:48Z
 - branch context: work on master; feature work on auto/<slug>
+
+Notes: iter808 BUILD (i18n-ES Phase ES-4) — es-guides-batch-5 SHIPPED 903b747. 5 ES guides: /es/day-trips-from-jerusalem, /es/day-trips-from-tel-aviv, /es/best-tours-in-israel, /es/dead-sea-guide, /es/best-holy-land-tours. Neutral LATAM Spanish; /es/ link prefixes where ES versions exist; neutral framing on contested sites preserved. 10 new tests; 970 pages; 1227/1227 pass. ES: 25/394. Phase ES-4 complete.
 
 Notes: iter806 BUILD (i18n-ES Phase ES-3) — es-guides-batch-4 SHIPPED d76ed3b. 5 ES itinerary guides: /es/1-day-jerusalem-itinerary, /es/1-day-tel-aviv-itinerary, /es/3-days-in-eilat, /es/3-days-in-galilee, /es/3-days-in-haifa. Neutral LATAM Spanish (no vosotros); /es/ link prefixes where ES pages exist; 10 new tests (5 smoke + 5 a11y). Gate: pnpm check 0 errors; 964 pages; 1215/1215 pass. ES: 20/394. Phase ES-3 complete.
 
