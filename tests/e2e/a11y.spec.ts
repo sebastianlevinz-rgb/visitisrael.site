@@ -409,6 +409,11 @@ const ROUTES = [
   '/es/israel-accommodation-guide',
   '/es/israel-travel-tips',
   '/es/ben-gurion-airport-guide',
+  '/es/ben-gurion-airport-transfers',
+  '/es/car-rental-israel',
+  '/es/driving-in-israel',
+  '/es/israel-travel-insurance',
+  '/es/israel-money-guide',
 ];
 
 for (const route of ROUTES) {
