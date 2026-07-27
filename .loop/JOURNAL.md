@@ -12230,3 +12230,17 @@ Net-new BACKLOG items added: 2.
 Also noted: ES Phase ES-3 next batch candidates (top 5 from comm output: 1-day-jerusalem-itinerary, 1-day-tel-aviv-itinerary, 3-days-in-eilat, 3-days-in-galilee, 3-days-in-haifa).
 Gate: N/A (RESEARCH mode — no code changed).
 Next: iter806 = BUILD (806%5==1 → monetization or i18n-ES Phase ES-3 per STATE priority).
+
+## 2026-07-27 · iter 806 · BUILD (i18n-ES Phase ES-3)
+What: ES Phase ES-3 — 5 itinerary guides translated to neutral LATAM Spanish.
+- /es/1-day-jerusalem-itinerary (Un día en Jerusalén)
+- /es/1-day-tel-aviv-itinerary (Un Día en Tel Aviv)
+- /es/3-days-in-eilat (3 Días en Eilat)
+- /es/3-days-in-galilee (3 Días en Galilea)
+- /es/3-days-in-haifa (3 Días en Haifa)
+Links: /es/ prefix added for all 11 ES regions, ES attractions where pages exist; left bare for missing ES attraction pages (jerusalem-holy-sepulchre, temple-mount, tel-aviv-dizengoff, tel-aviv-hatachana). External links (bahai-haifa.org, hma.org.il, muhraka.com) kept as-is.
+Tests: 5 routes added to smoke.spec.ts; 5 routes added to a11y.spec.ts (+10 tests total).
+Gate: pnpm check 0 errors; pnpm build 964 pages; pnpm test:e2e 1215/1215 pass.
+Ship: squash-merged to master d76ed3b, pushed.
+ES guides: 20/394. Phase ES-3 complete.
+Next: iter807 = REVIEW (807%5==2).

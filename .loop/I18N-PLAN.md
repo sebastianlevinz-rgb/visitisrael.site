@@ -13,10 +13,10 @@
 | en     | 394    | 65          | 11      | 6           |
 | fr     | 87     | 61          | 11      | 6           |
 | de     | 87     | 61          | 11      | 6           |
-| es     | 15     | 61          | 11      | 6           |
+| es     | 20     | 61          | 11      | 6           |
 
 **Gaps to close:**
-- es guides: **379 missing** (15/394 done — ongoing, highest priority)
+- es guides: **374 missing** (20/394 done — ongoing, highest priority)
 - fr guides: **307 missing** (EN guides added after Phase 2 Batch 18, iter408)
 - de guides: **307 missing** (same)
 - fr/de/es attractions: **4 missing each** (the 4 EN attractions added after Phase 4)
@@ -73,7 +73,7 @@ Take the top 5 by priority (or head -5 if priority not obvious), translate each 
 
 ## Progress tracker
 
-### ES guides (10 / 394)
+### ES guides (20 / 394)
 - Phase ES-0 — DONE. iter799 shipped 5/394:
   first-time-in-israel, visa-information, best-time-to-visit-israel,
   israel-cost-budget, transportation (02b1058).
@@ -83,7 +83,10 @@ Take the top 5 by priority (or head -5 if priority not obvious), translate each 
 - Phase ES-2 — DONE. iter803 shipped 5/394 (1af15a0):
   ben-gurion-airport-transfers, car-rental-israel, driving-in-israel,
   israel-travel-insurance, israel-money-guide.
-- Phase ES-3 — NOT STARTED. Next batch: pick next 5 from comm output (post-ES-2).
+- Phase ES-3 — DONE. iter806 shipped 5/394 (d76ed3b):
+  1-day-jerusalem-itinerary, 1-day-tel-aviv-itinerary, 3-days-in-eilat,
+  3-days-in-galilee, 3-days-in-haifa.
+- Phase ES-4 — NOT STARTED. Next batch: pick next 5 from comm output (post-ES-3).
 
 ### FR guide catch-up (87 / 394 = 307 remaining)
 - Phase FR-catchup — NOT STARTED.
