@@ -49,7 +49,7 @@ The market runs roughly north to south, with two distinct halves that attract di
 
 **The southern section** (approaching Allenby Street) shifts to clothing, homewares, household goods and some secondhand items. The energy here is more bazaar than food market. Bargaining is normal on un-tagged clothing and household goods; start around half the asking price and expect to settle somewhere between. Cash is the rule; some stalls now accept contactless payment but do not count on it.
 
-**Running parallel on Tuesdays and Fridays** — the [Nahalat Binyamin artisan market](https://www.nahalatbinyamin.com/) sets up along Nahalat Binyamin Street, immediately adjacent. Israeli artists and craftspeople sell ceramics, jewellery, prints, leather goods and handmade toys. The combination of food market and artisan market on a Friday morning is Tel Aviv at its most enjoyable.
+**Running parallel on Tuesdays and Fridays** — the [Nahalat Binyamin artisan market](/nahalat-binyamin-market-tel-aviv) sets up along Nahalat Binyamin Street, immediately adjacent. Israeli artists and craftspeople sell ceramics, jewellery, prints, leather goods and handmade toys. The combination of food market and artisan market on a Friday morning is Tel Aviv at its most enjoyable.
 
 ---
 

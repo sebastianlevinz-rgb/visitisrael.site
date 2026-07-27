@@ -252,6 +252,7 @@ const ROUTES = [
   '/de/israel-evening-activities',
   '/tel-aviv-carmel-market',
   '/sarona-market-tel-aviv',
+  '/nahalat-binyamin-market-tel-aviv',
   '/tel-aviv-neighborhoods-guide',
   '/israel-evening-activities',
   '/1-day-jerusalem-itinerary',
