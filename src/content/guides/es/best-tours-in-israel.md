@@ -45,12 +45,12 @@ Israel recompensa a quienes eligen bien sus días guiados — especialmente en l
 
 ## Los tours que merece la pena reservar
 
-- **[Jerusalén](/es/jerusalem) — Ciudad Vieja** — los cuatro barrios, el [Muro de los Lamentos](/jerusalem/western-wall), el [Santo Sepulcro](/jerusalem/holy-sepulchre) y la [Vía Dolorosa](/jerusalem/via-dolorosa) con un guía que hace cobrar vida a la historia.
-- **Amanecer en [Masada](/dead-sea/masada) y el [Mar Muerto](/es/dead-sea)** — la excursión clásica; un tour organizado se encarga de la salida antes del amanecer.
+- **[Jerusalén](/es/jerusalem) — Ciudad Vieja** — los cuatro barrios, el [Muro de los Lamentos](/es/jerusalem/western-wall), el [Santo Sepulcro](/jerusalem/holy-sepulchre) y la [Vía Dolorosa](/es/jerusalem/via-dolorosa) con un guía que hace cobrar vida a la historia.
+- **Amanecer en [Masada](/es/dead-sea/masada) y el [Mar Muerto](/es/dead-sea)** — la excursión clásica; un tour organizado se encarga de la salida antes del amanecer.
 - **[Petra](/petra-from-eilat-vs-amman) desde [Eilat](/es/eilat)** — un tour gestiona la frontera jordana, el visado y la larga jornada. O quédate en el lado israelí con un safari en jeep por el desierto o snorkel en el Mar Rojo.
 - **[Galilea](/es/galilee) y [Nazaret](/es/nazareth)** — Cafarnaún, el Monte de las Bienaventuranzas y el Mar de Galilea.
 - **[Desierto del Néguev](/es/negev) y el Cráter Ramón** — el mayor cráter de erosión del mundo, ruinas nabateas y opción de pernocta beduina.
-- **[Tel Aviv](/es/tel-aviv) y la [Jaffa antigua](/tel-aviv/old-jaffa) — tour gastronómico** — recorre el [Mercado Carmel](/tel-aviv/carmel-market) con un guía local.
+- **[Tel Aviv](/es/tel-aviv) y la [Jaffa antigua](/es/tel-aviv/old-jaffa) — tour gastronómico** — recorre el [Mercado Carmel](/es/tel-aviv/carmel-market) con un guía local.
 
 ## Cómo elegir
 
@@ -66,4 +66,4 @@ Los titulares de pasaporte chino necesitan un visado de turista B/2 (no ETA-IL) 
 
 ## Más formas de planificar
 
-¿Todavía decides entre tour guiado o autoguiado? Nuestra guía Israel guiado vs. autoguiado explica qué sitios requieren un guía con licencia del Ministerio de Turismo, el modelo híbrido que usan la mayoría de los que visitan Israel por primera vez y una comparativa de costos. ¿Prefieres que todo esté incluido? Consulta los [paquetes de varios días](/israel-tour-packages). ¿Planificas tu propia ruta? Usa nuestros [itinerarios](/itineraries) y las [11 regiones](/). Y organiza los trámites prácticos — una [eSIM](/israel-esim), un [seguro de viaje](/es/israel-travel-insurance) y tu [traslado desde el aeropuerto](/es/ben-gurion-airport-transfers) — antes de volar.
+¿Todavía decides entre tour guiado o autoguiado? Nuestra guía Israel guiado vs. autoguiado explica qué sitios requieren un guía con licencia del Ministerio de Turismo, el modelo híbrido que usan la mayoría de los que visitan Israel por primera vez y una comparativa de costos. ¿Prefieres que todo esté incluido? Consulta los [paquetes de varios días](/israel-tour-packages). ¿Planificas tu propia ruta? Usa nuestros [itinerarios](/es/itineraries) y las [11 regiones](/es/). Y organiza los trámites prácticos — una [eSIM](/israel-esim), un [seguro de viaje](/es/israel-travel-insurance) y tu [traslado desde el aeropuerto](/es/ben-gurion-airport-transfers) — antes de volar.

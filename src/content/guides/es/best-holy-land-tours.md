@@ -56,7 +56,7 @@ El clásico viaje de iglesia: un precio único incluye hoteles, autocar, logíst
 
 ## Guías cristianos privados
 
-Un **guía privado con conductor** pone el itinerario en tus manos: centra los días en tu denominación, añade una misa o una renovación del bautismo en [Yardenit](/galilee/yardenit), ralentiza el ritmo donde importa y viaja con tu familia o con tu propio clero. Cuesta más — aproximadamente **$550–900 al día** para guía y vehículo — pero para una familia o un pequeño grupo de fe que comparte el costo, suele ser la forma más enriquecedora de viajar.
+Un **guía privado con conductor** pone el itinerario en tus manos: centra los días en tu denominación, añade una misa o una renovación del bautismo en [Yardenit](/es/galilee/yardenit), ralentiza el ritmo donde importa y viaja con tu familia o con tu propio clero. Cuesta más — aproximadamente **$550–900 al día** para guía y vehículo — pero para una familia o un pequeño grupo de fe que comparte el costo, suele ser la forma más enriquecedora de viajar.
 
 ## Excursiones de fe
 
@@ -64,7 +64,7 @@ Un **guía privado con conductor** pone el itinerario en tus manos: centra los d
 
 - **[Jerusalén y Belén](/jerusalem-bethlehem-day-trip)** — los lugares sagrados de la Ciudad Vieja más la Iglesia de la Natividad, con el control de paso gestionado por el guía.
 - **[Nazaret y el Mar de Galilea](/nazareth-sea-of-galilee-day-trip)** — Cafarnaún, el Monte de las Bienaventuranzas y la orilla del lago en un día guiado.
-- **Un [recorrido a pie por la Ciudad Vieja de Jerusalén](/best-tours-in-israel)** — los cuatro barrios, el Santo Sepulcro y la Vía Dolorosa con un guía.
+- **Un [recorrido a pie por la Ciudad Vieja de Jerusalén](/es/best-tours-in-israel)** — los cuatro barrios, el Santo Sepulcro y la Vía Dolorosa con un guía.
 
 Las excursiones de un día cuestan habitualmente **$90–150 por persona** y son la forma más flexible y con menos compromiso de añadir el conocimiento experto donde más cuenta.
 
@@ -81,4 +81,4 @@ Las excursiones de un día cuestan habitualmente **$90–150 por persona** y son
 - **Lleva el pasaporte** para Belén y cualquier parada en Cisjordania, y **viste con modestia** en todos los santuarios — consulta nuestra [guía de etiqueta y código de vestimenta](/holy-sites-dress-code-etiquette).
 - **Ten en cuenta el [Shabat](/es/shabbat-guide)** y los días de fiesta cristiana y musulmana, cuando los horarios y el transporte cambian.
 
-¿Listo para planificar la ruta? Nuestra [guía de peregrinación cristiana](/christian-pilgrimage-holy-land) traza el circuito completo de Tierra Santa, y los [itinerarios de 7 y 10 días](/itineraries) lo ordenan día a día. Organiza los trámites prácticos con una [eSIM](/israel-esim), un [seguro de viaje](/es/israel-travel-insurance) y tu [traslado desde el aeropuerto](/es/ben-gurion-airport-transfers) antes de volar.
+¿Listo para planificar la ruta? Nuestra [guía de peregrinación cristiana](/christian-pilgrimage-holy-land) traza el circuito completo de Tierra Santa, y los [itinerarios de 7 y 10 días](/es/itineraries) lo ordenan día a día. Organiza los trámites prácticos con una [eSIM](/israel-esim), un [seguro de viaje](/es/israel-travel-insurance) y tu [traslado desde el aeropuerto](/es/ben-gurion-airport-transfers) antes de volar.

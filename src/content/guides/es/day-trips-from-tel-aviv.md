@@ -46,9 +46,9 @@ faqs:
 
 ## Las principales excursiones
 
-- **[Jerusalén](/es/jerusalem)** — *~45 min en tren.* La excursión estrella: la [Ciudad Vieja](/jerusalem/old-city), el [Muro de los Lamentos](/jerusalem/western-wall) y el [Santo Sepulcro](/jerusalem/holy-sepulchre). Para un plan minuto a minuto, consulta el [itinerario de 1 día en Jerusalén](/es/1-day-jerusalem-itinerary).
-- **[Cesarea](/es/caesarea), [Haifa](/es/haifa) y [Akko](/es/akko)** — *la costa norte.* Ruinas romanas, los [Jardines Bahá'í](/haifa/bahai-gardens) y un puerto cruzado en un día guiado. Consulta la guía completa de Cesarea y la guía de viaje de Akko.
-- **[Masada](/dead-sea/masada) y el [Mar Muerto](/es/dead-sea)** — *~2 h.* El clásico del desierto; lo más práctico es en tour. Ver [comparación de salidas al Mar Muerto desde Jerusalén y Tel Aviv](/dead-sea-day-trip-comparison).
+- **[Jerusalén](/es/jerusalem)** — *~45 min en tren.* La excursión estrella: la [Ciudad Vieja](/es/jerusalem/old-city), el [Muro de los Lamentos](/es/jerusalem/western-wall) y el [Santo Sepulcro](/jerusalem/holy-sepulchre). Para un plan minuto a minuto, consulta el [itinerario de 1 día en Jerusalén](/es/1-day-jerusalem-itinerary).
+- **[Cesarea](/es/caesarea), [Haifa](/es/haifa) y [Akko](/es/akko)** — *la costa norte.* Ruinas romanas, los [Jardines Bahá'í](/es/haifa/bahai-gardens) y un puerto cruzado en un día guiado. Consulta la guía completa de Cesarea y la guía de viaje de Akko.
+- **[Masada](/es/dead-sea/masada) y el [Mar Muerto](/es/dead-sea)** — *~2 h.* El clásico del desierto; lo más práctico es en tour. Ver [comparación de salidas al Mar Muerto desde Jerusalén y Tel Aviv](/dead-sea-day-trip-comparison).
 - **[Tel Afek / Antípatris](/tel-afek-guide)** — *~45 min en coche.* Un compacto sitio INPA donde 4.000 años de ocupación se superponen en una misma colina: el campo de batalla bíblico de Afek (1 Samuel 4), la ciudad de Antípatris de Herodes (escala de Pablo el Apóstol en Hechos 23) y una fortaleza otomana completamente intacta — además de los manantiales del río Yarkon. Se puede combinar con Cesarea al norte.
 - **[Herzliya](/herzliya-guide)** — *~20 min en el Tren Ligero Verde.* Las ruinas cruzadas de la cima del acantilado en el Parque Nacional Apolonia, el frente marítimo de la marina para comer y la playa de Acadia. Uno de los sitios INPA menos visitados y más cercanos a Tel Aviv.
 - **[Netanya](/netanya-guide)** — *~45 min en tren por la línea costera.* Paseo marítimo en lo alto del acantilado, 14 km de playa mediterránea, el tour de la Fábrica de Diamantes Stern y una cultura de café franco-israelí única en Israel.
@@ -63,4 +63,4 @@ Para Jerusalén, simplemente toma el **[tren](/es/transportation)** — rápido,
 
 ## Planifica tu viaje
 
-Consulta la guía completa de [Tel Aviv](/es/tel-aviv) y nuestros [itinerarios](/itineraries). ¿Sales desde la ciudad santa? Consulta las [excursiones desde Jerusalén](/es/day-trips-from-jerusalem). Explora también todos los [tours y excursiones](/es/best-tours-in-israel) o los [paquetes de varios días](/israel-tour-packages).
+Consulta la guía completa de [Tel Aviv](/es/tel-aviv) y nuestros [itinerarios](/es/itineraries). ¿Sales desde la ciudad santa? Consulta las [excursiones desde Jerusalén](/es/day-trips-from-jerusalem). Explora también todos los [tours y excursiones](/es/best-tours-in-israel) o los [paquetes de varios días](/israel-tour-packages).

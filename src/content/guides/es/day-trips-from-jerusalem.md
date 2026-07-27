@@ -64,4 +64,4 @@ Para las excursiones al desierto, un **tour guiado de un día** (arriba) elimina
 
 ## Planifica tu viaje
 
-Consulta la guía completa de [Jerusalén](/es/jerusalem) y el [itinerario de 3 días en Jerusalén](/itineraries/3-days-in-jerusalem). ¿Haces las excursiones al revés? Consulta las [excursiones desde Tel Aviv](/es/day-trips-from-tel-aviv). Y explora todos los [tours y excursiones](/es/best-tours-in-israel) o los [paquetes de varios días](/israel-tour-packages).
+Consulta la guía completa de [Jerusalén](/es/jerusalem) y el [itinerario de 3 días en Jerusalén](/es/itineraries/3-days-in-jerusalem). ¿Haces las excursiones al revés? Consulta las [excursiones desde Tel Aviv](/es/day-trips-from-tel-aviv). Y explora todos los [tours y excursiones](/es/best-tours-in-israel) o los [paquetes de varios días](/israel-tour-packages).
