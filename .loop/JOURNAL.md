@@ -12125,3 +12125,15 @@ Saturation: ~96%+ after 162 research passes. Expected low yield at this stage.
 BACKLOG: 455 ready items representing months of BUILD work.
 No code shipped (RESEARCH mode).
 Next: iter 801 = BUILD (i18n-ES) — ES guides batch 2, next 5 highest-priority ES guides per I18N-PLAN.md.
+
+## 2026-07-27T11:58Z · iter 801 · BUILD (i18n-ES Phase ES-1) · es-guides-batch-2
+
+Shipped 5 Spanish ES guides (Phase ES-1, batch 2) on commit a0394fab:
+- /es/shabbat-guide: El Shabat en Israel — when/what changes/city-by-city/planning tips; 3 FAQs
+- /es/is-israel-safe: honest July 2026 advisory status (FCDO Level 2 → cautious; US State Dept Level 2; EASA reclassification 8 Jul 2026); 3 FAQs
+- /es/israel-accommodation-guide: all 7 accommodation types, comparison table, honest price ranges, 7 FAQs; affiliate CTAs (Booking×2, Hostelworld)
+- /es/israel-travel-tips: all 20 practical tips in LATAM Spanish; 7 FAQs; affiliate CTAs (GYG + Booking)
+- /es/ben-gurion-airport-guide: terminals T3+T1 update (July 2026 T1 reopening, T3 $311M expansion), security interview process, lounge update (Priority Pass ended 1 Jan 2026), duty-free, transfers; 6 FAQs; affiliate CTAs (WelcomePickups + SafetyWing + KiwiTaxi)
+Smoke tests +5 ES routes; a11y tests +5 ES routes; hreflang test updated (og:locale:alternate 2→3, 'es' added to hreflang loop — ES locale now fully live).
+Gate: pnpm check 0 errors; pnpm build 953 pages (+5); pnpm test:e2e 1193/1193 pass (+10 tests). GREEN.
+CI in_progress at push (standard pattern). ES guides: 10/394 complete.

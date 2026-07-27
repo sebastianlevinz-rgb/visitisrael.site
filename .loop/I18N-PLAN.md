@@ -13,10 +13,10 @@
 | en     | 394    | 65          | 11      | 6           |
 | fr     | 87     | 61          | 11      | 6           |
 | de     | 87     | 61          | 11      | 6           |
-| es     | 5      | 61          | 11      | 6           |
+| es     | 10     | 61          | 11      | 6           |
 
 **Gaps to close:**
-- es guides: **389 missing** (5/394 done — ongoing, highest priority)
+- es guides: **384 missing** (10/394 done — ongoing, highest priority)
 - fr guides: **307 missing** (EN guides added after Phase 2 Batch 18, iter408)
 - de guides: **307 missing** (same)
 - fr/de/es attractions: **4 missing each** (the 4 EN attractions added after Phase 4)
@@ -73,13 +73,16 @@ Take the top 5 by priority (or head -5 if priority not obvious), translate each 
 
 ## Progress tracker
 
-### ES guides (5 / 394)
-- Phase ES-0 — IN PROGRESS. iter799 shipped 5/394:
+### ES guides (10 / 394)
+- Phase ES-0 — DONE. iter799 shipped 5/394:
   first-time-in-israel, visa-information, best-time-to-visit-israel,
   israel-cost-budget, transportation (02b1058).
-- Phase ES-1 — NOT STARTED. Next batch: shabbat-guide, is-israel-safe,
-  israel-accommodation-guide, best-time-to-visit-israel (done), israel-travel-tips
-  (or similar high-traffic evergreen guides — pick top 5 from EN not yet in ES).
+- Phase ES-1 — DONE. iter801 shipped 5/394 (a0394fab):
+  shabbat-guide, is-israel-safe, israel-accommodation-guide,
+  israel-travel-tips, ben-gurion-airport-guide.
+- Phase ES-2 — NOT STARTED. Next batch: pick next 5 from comm output.
+  Candidates: ben-gurion-airport-transfers, car-rental-israel, driving-in-israel,
+  israel-travel-insurance, israel-money-guide (or similar high-traffic evergreen guides).
 
 ### FR guide catch-up (87 / 394 = 307 remaining)
 - Phase FR-catchup — NOT STARTED.

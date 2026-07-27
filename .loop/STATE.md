@@ -1,12 +1,12 @@
 # LOOP STATE
 
-- iteration: 800
-- lastMode: RESEARCH (pass 162)
-- lastItem: research-pass-162
-- lastResult: 1 net-new BACKLOG item: Turkish nationals PIBA security clearance freshness fix (P2/S, technical/honesty) — new 2026 PIBA policy requires all Turkish nationals to undergo security clearance for Israeli visa; visa-information.md doesn't mention it. Research agent found 10 suggestions, all already in BACKLOG. Haifa cruise terminal + Galilee Culinary Institute confirmed SHIPPED. Saturation: ~96% (162 research passes). BACKLOG: 455 ready items.
-- nextRotationCategory: i18n-BUILD — ES guides batch 2 (5/394 done, 389 remaining). See I18N-PLAN.md.
+- iteration: 801
+- lastMode: BUILD (i18n-ES Phase ES-1)
+- lastItem: es-guides-batch-2
+- lastResult: SHIPPED a0394fab. 5 ES guides added (Phase ES-1 complete): shabbat-guide, is-israel-safe, israel-accommodation-guide, israel-travel-tips, ben-gurion-airport-guide. Gate: pnpm check 0 errors; 953 pages (+5); 1193/1193 e2e+a11y pass (+10 tests). hreflang og:locale:alternate test corrected 2→3 (ES locale now live). CI in_progress at push (standard pattern). ES guides now 10/394.
+- nextRotationCategory: seo-content (P2 items — rotate away from i18n; next i18n BUILD at iter803).
 - higgsfieldSpent: 0
-- updatedAt: 2026-07-27T10:50Z
+- updatedAt: 2026-07-27T11:58Z
 - branch context: work on master; feature work on auto/<slug>
 
 Notes: iter797 BUILD (seo-content P2/S) — israel-in-may SHIPPED caad9e7. New /israel-in-may monthly guide fills the last major spring shoulder-season gap. Key content: Yom HaZikaron/Yom HaAtzmaut transition with HONESTY caveats (Hebrew calendar date shifts annually); Lag BaOmer bonfire night (link to lag-baomer-israel.md); Jerusalem Day dual-narrative (factual, no advocacy, politically sensitive framing); Galilee late wildflowers + Golan spring peak; TLV beach season opening (22–24°C sea). 7 FAQs, 3 CTAs. Gate: 0 errors; 862 pages (+1); 1175/1175 pass (+2). CI in_progress at push (standard pattern). Monthly guide series now covers: Jan/Feb/Mar/Apr/May/Jun/Sep/Oct/Nov/Dec (10/12 months). Remaining: Jul (P3/S), Aug (covered by israel-in-summer.md).
