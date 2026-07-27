@@ -17,7 +17,7 @@ faqs:
 
 ## El panorama cotidiano honesto
 
-Para la gran mayoría de los visitantes, un viaje a Israel es tranquilo y sin incidentes. Los principales destinos turísticos —[Jerusalén](/jerusalem), [Tel Aviv](/tel-aviv), el [Mar Muerto](/dead-sea), la [Galilea](/galilee) y [Eilat](/eilat)— reciben grandes cantidades de turistas internacionales y se encuentran entre los lugares con mayor presencia de seguridad que encontrará en su viaje. La delincuencia violenta contra turistas es poco frecuente, y la delincuencia menor es baja para los estándares de las grandes ciudades. La experiencia diaria es mucho más relajada de lo que suelen sugerir los titulares internacionales.
+Para la gran mayoría de los visitantes, un viaje a Israel es tranquilo y sin incidentes. Los principales destinos turísticos —[Jerusalén](/es/jerusalem), [Tel Aviv](/es/tel-aviv), el [Mar Muerto](/es/dead-sea), la [Galilea](/es/galilee) y [Eilat](/es/eilat)— reciben grandes cantidades de turistas internacionales y se encuentran entre los lugares con mayor presencia de seguridad que encontrará en su viaje. La delincuencia violenta contra turistas es poco frecuente, y la delincuencia menor es baja para los estándares de las grandes ciudades. La experiencia diaria es mucho más relajada de lo que suelen sugerir los titulares internacionales.
 
 ## Consulte el consejo oficial actualizado
 

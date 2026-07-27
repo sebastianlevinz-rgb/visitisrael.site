@@ -32,7 +32,7 @@ Israel es un destino seguro y bien organizado para la gran mayoría de los visit
 
 - **Facturas médicas.** El tratamiento es excelente, pero los visitantes pagan de su bolsillo; un incidente grave sin cobertura puede ser muy costoso. El seguro cubre los gastos hospitalarios y, crucialmente, la **evacuación médica**.
 - **Interrupciones del viaje.** Los vuelos y los planes pueden cambiar, especialmente dada la situación en la región — la cobertura de cancelación e interrupción protege sus reservas pagadas por adelantado.
-- **Actividades.** Si va a bucear en el Mar Rojo en [Eilat](/eilat), hacer senderismo en el [Néguev](/negev) o escalar [Masada](/dead-sea/masada), asegúrese de que estén cubiertos.
+- **Actividades.** Si va a bucear en el Mar Rojo en [Eilat](/es/eilat), hacer senderismo en el [Néguev](/es/negev) o escalar [Masada](/es/dead-sea/masada), asegúrese de que estén cubiertos.
 
 ## Qué buscar
 

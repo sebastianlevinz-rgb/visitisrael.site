@@ -57,13 +57,13 @@ Los radares fijos están ubicados en la Ruta 1 (Tel Aviv–Jerusalén), la Ruta 
 
 ## Peaje de la Ruta 6 (Autopista Trans-Israel)
 
-La Ruta 6 es una autopista norte–sur de peaje **sin cabinas físicas** — cámaras aéreas fotografían su matrícula al entrar en cada tramo. Si alquila un coche, la empresa cobra automáticamente el peaje en su tarjeta de crédito tras el viaje (más una pequeña tasa de gestión; consulte su contrato). La carretera es rápida y mayormente sin congestión: es la mejor forma de desplazarse entre la [Galilea](/galilee) y el [Néguev](/negev) sin atravesar Tel Aviv.
+La Ruta 6 es una autopista norte–sur de peaje **sin cabinas físicas** — cámaras aéreas fotografían su matrícula al entrar en cada tramo. Si alquila un coche, la empresa cobra automáticamente el peaje en su tarjeta de crédito tras el viaje (más una pequeña tasa de gestión; consulte su contrato). La carretera es rápida y mayormente sin congestión: es la mejor forma de desplazarse entre la [Galilea](/es/galilee) y el [Néguev](/es/negev) sin atravesar Tel Aviv.
 
 Si entra a Israel en un vehículo de matrícula extranjera, regístrese y pague en [Derech Eretz](https://www.derechEretz.co.il) en los 30 días siguientes al viaje.
 
 ## Navegación: Waze y Google Maps
 
-Ambas funcionan bien. Waze es la favorita de los locales y se actualiza en tiempo real con informes policiales, cierres de vías y obras. Descargue mapas sin conexión para zonas con cobertura irregular (partes del [Néguev](/negev) y los [Altos del Golán](/golan) pueden perder señal). Nota: Waze no siempre traza rutas óptimas por [Cisjordania](/border-crossings) para conductores con contratos de alquiler que restringen la zona — si su contrato lo limita, circule por la Autopista 1 y la Ruta 2 costera.
+Ambas funcionan bien. Waze es la favorita de los locales y se actualiza en tiempo real con informes policiales, cierres de vías y obras. Descargue mapas sin conexión para zonas con cobertura irregular (partes del [Néguev](/es/negev) y los [Altos del Golán](/es/golan) pueden perder señal). Nota: Waze no siempre traza rutas óptimas por [Cisjordania](/border-crossings) para conductores con contratos de alquiler que restringen la zona — si su contrato lo limita, circule por la Autopista 1 y la Ruta 2 costera.
 
 ## Estacionamiento: código de colores del bordillo
 
@@ -75,11 +75,11 @@ Israel utiliza un sistema de bordillos con código de colores que es sencillo un
 
 ### Estacionamiento en Tel Aviv
 
-Aparcar en [Tel Aviv](/tel-aviv) es notoriamente escaso. Use **ZAP Parking** o aparcamientos privados cerca de su destino — suelen ser más rápidos que dar vueltas a la manzana. El paseo marítimo tiene aparcamientos de superficie de pago; el Carmel Market es zona peatonal durante el horario del mercado (07:00–18:00 dom–vie).
+Aparcar en [Tel Aviv](/es/tel-aviv) es notoriamente escaso. Use **ZAP Parking** o aparcamientos privados cerca de su destino — suelen ser más rápidos que dar vueltas a la manzana. El paseo marítimo tiene aparcamientos de superficie de pago; el Carmel Market es zona peatonal durante el horario del mercado (07:00–18:00 dom–vie).
 
 ### Estacionamiento en Jerusalén
 
-La [Ciudad Vieja](/jerusalem) es solo peatonal. Los aparcamientos más cercanos están en Mamilla Mall (Puerta de Jaffa), Plaza Safra (Puerta Nueva) y el Tribunal Supremo (dirección Puerta de Damasco). Muchas calles de Jerusalén son de sentido único y estrechas — planifique su ruta y no dependa solo de Waze para las zonas adoquinadas.
+La [Ciudad Vieja](/es/jerusalem) es solo peatonal. Los aparcamientos más cercanos están en Mamilla Mall (Puerta de Jaffa), Plaza Safra (Puerta Nueva) y el Tribunal Supremo (dirección Puerta de Damasco). Muchas calles de Jerusalén son de sentido único y estrechas — planifique su ruta y no dependa solo de Waze para las zonas adoquinadas.
 
 ## El Shabat y la ventaja del coche
 
@@ -93,7 +93,7 @@ En [Yom Kipur](/israel-events-festivals) prácticamente todos los israelíes dej
 
 ## Restricciones en Cisjordania y fronteras
 
-La mayoría de los contratos **prohíben llevar el coche a Jordania** y pueden anular el seguro en el Área A de la Autoridad Palestina (las principales ciudades de Cisjordania). Si quiere visitar [Petra](/petra-from-israel), reserve un tour organizado desde [Eilat](/eilat) o cruce de forma independiente y alquile un coche jordano — no lleve el coche de alquiler. Para la [guía de cruces fronterizos](/border-crossings) consulte la logística completa.
+La mayoría de los contratos **prohíben llevar el coche a Jordania** y pueden anular el seguro en el Área A de la Autoridad Palestina (las principales ciudades de Cisjordania). Si quiere visitar [Petra](/petra-from-israel), reserve un tour organizado desde [Eilat](/es/eilat) o cruce de forma independiente y alquile un coche jordano — no lleve el coche de alquiler. Para la [guía de cruces fronterizos](/border-crossings) consulte la logística completa.
 
 Si conduce cerca de [Belén](/jerusalem-bethlehem-day-trip), tenga en cuenta que entrar en el Área A (señalizada con carteles de advertencia en rojo en hebreo, árabe e inglés) anula el seguro de su alquiler. La mayoría de los sitios turísticos de Cisjordania (la Basílica de la Natividad en Belén, Jericó) son más accesibles mediante tours coordinados que en automóvil particular.
 
@@ -107,7 +107,7 @@ Si conduce cerca de [Belén](/jerusalem-bethlehem-day-trip), tenga en cuenta que
 | Ruta 90 | Valle del Jordán: Mar Muerto ↔ Mar de Galilea |
 | Ruta 40 | Néguev: Be'er Sheva ↔ Mitzpe Ramon ↔ Eilat |
 
-La Ruta 90 por el Valle del Jordán ofrece un paisaje espectacular entre el [Mar Muerto](/dead-sea) y la [Galilea](/galilee) — reserve tiempo extra ya que el tramo de 130 km no tiene gasolineras durante largos tramos.
+La Ruta 90 por el Valle del Jordán ofrece un paisaje espectacular entre el [Mar Muerto](/es/dead-sea) y la [Galilea](/es/galilee) — reserve tiempo extra ya que el tramo de 130 km no tiene gasolineras durante largos tramos.
 
 ## Antes de conducir
 

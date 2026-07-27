@@ -50,7 +50,7 @@ Un **traslado privado reservado con anticipación** incluye un conductor esperan
 
 ## El tren (más económico y rápido)
 
-Israel Railways conecta el aeropuerto con el centro de [Tel Aviv](/tel-aviv) en ~20 minutos y con [Jerusalén](/jerusalem) (estación Yitzhak Navon) en ~30, por solo unos pocos dólares con una [tarjeta Rav-Kav](/es/transportation). El único inconveniente: **no circula en Shabat** (desde el viernes por la tarde hasta el sábado por la noche) ni en las festividades principales.
+Israel Railways conecta el aeropuerto con el centro de [Tel Aviv](/es/tel-aviv) en ~20 minutos y con [Jerusalén](/es/jerusalem) (estación Yitzhak Navon) en ~30, por solo unos pocos dólares con una [tarjeta Rav-Kav](/es/transportation). El único inconveniente: **no circula en Shabat** (desde el viernes por la tarde hasta el sábado por la noche) ni en las festividades principales.
 
 ## Taxis y el autobús 485
 

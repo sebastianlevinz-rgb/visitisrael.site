@@ -23,7 +23,7 @@ La tarjeta cuesta ₪5 y no requiere identificación: la tarjeta anónima que co
 
 ## Trenes
 
-[Israel Railways](/es/first-time-in-israel) opera una red rápida y cómoda a lo largo de la costa y hacia el interior. La línea principal une el **aeropuerto Ben Gurion** con el centro de [Tel Aviv](/tel-aviv) en unos 20 minutos y con [Jerusalén](/jerusalem) (estación Yitzhak Navon) en unos 30. Los trenes también llegan a [Haifa](/haifa), Akko, Beerseba y las ciudades costeras. Los trenes no circulan en Shabat.
+[Israel Railways](/es/first-time-in-israel) opera una red rápida y cómoda a lo largo de la costa y hacia el interior. La línea principal une el **aeropuerto Ben Gurion** con el centro de [Tel Aviv](/es/tel-aviv) en unos 20 minutos y con [Jerusalén](/es/jerusalem) (estación Yitzhak Navon) en unos 30. Los trenes también llegan a [Haifa](/es/haifa), Akko, Beerseba y las ciudades costeras. Los trenes no circulan en Shabat.
 
 ## Autobuses y tren ligero
 
@@ -45,7 +45,7 @@ Los taxis con taxímetro son ampliamente disponibles; insista en el taxímetro o
 
 ## Alquiler de coche
 
-No necesita coche para el triángulo [Tel Aviv](/tel-aviv)–[Jerusalén](/jerusalem)–[Haifa](/haifa). Pero para la [Galilea](/galilee), los [Altos del Golán](/golan) y el [Néguev](/negev), donde los atractivos están dispersos y los autobuses son escasos, un coche de alquiler transforma el viaje. Se circula por la derecha; se recomienda el permiso de conducción internacional junto con el de su país.
+No necesita coche para el triángulo [Tel Aviv](/es/tel-aviv)–[Jerusalén](/es/jerusalem)–[Haifa](/es/haifa). Pero para la [Galilea](/es/galilee), los [Altos del Golán](/es/golan) y el [Néguev](/es/negev), donde los atractivos están dispersos y los autobuses son escasos, un coche de alquiler transforma el viaje. Se circula por la derecha; se recomienda el permiso de conducción internacional junto con el de su país.
 
 ## En Shabat
 

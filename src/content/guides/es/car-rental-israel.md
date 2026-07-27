@@ -41,9 +41,9 @@ Israel es pequeño y los trenes son excelentes entre las principales ciudades �
 
 ## Cuándo vale la pena (y cuándo no) alquilar
 
-**Prescinda del coche en** el corredor [Tel Aviv](/tel-aviv)–[Jerusalén](/jerusalem)–[Haifa](/haifa) — los trenes y autobuses son más rápidos y baratos una vez que considera el estacionamiento en la ciudad.
+**Prescinda del coche en** el corredor [Tel Aviv](/es/tel-aviv)–[Jerusalén](/es/jerusalem)–[Haifa](/es/haifa) — los trenes y autobuses son más rápidos y baratos una vez que considera el estacionamiento en la ciudad.
 
-**Alquile un coche para** la [Galilea](/galilee), los [Altos del Golán](/golan) y el [Néguev](/negev), donde atracciones como bodegas, miradores y el cráter Makhtesh Ramon están dispersos y el transporte público es escaso. Una estrategia habitual: recorrer las ciudades en tren y alquilar dos o tres días para el norte o el sur.
+**Alquile un coche para** la [Galilea](/es/galilee), los [Altos del Golán](/es/golan) y el [Néguev](/es/negev), donde atracciones como bodegas, miradores y el cráter Makhtesh Ramon están dispersos y el transporte público es escaso. Una estrategia habitual: recorrer las ciudades en tren y alquilar dos o tres días para el norte o el sur.
 
 ## ¿Qué tipo de vehículo elegir?
 

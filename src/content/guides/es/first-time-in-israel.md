@@ -17,9 +17,9 @@ Israel es un país compacto, variado y fácil de recorrer, pero una pequeña pla
 
 ## Cuándo ir y cuánto tiempo quedarse
 
-Los mejores meses son la **primavera (marzo–mayo)** y el **otoño (septiembre–noviembre)**, cuando todo el país disfruta de un clima agradable. El verano es caluroso —soportable en la costa, pero intenso en el [Mar Muerto](/dead-sea) y en [Eilat](/eilat)—, mientras que el invierno es suave y verde, aunque puede ser lluvioso, con alguna nevada ocasional en [Jerusalén](/jerusalem).
+Los mejores meses son la **primavera (marzo–mayo)** y el **otoño (septiembre–noviembre)**, cuando todo el país disfruta de un clima agradable. El verano es caluroso —soportable en la costa, pero intenso en el [Mar Muerto](/es/dead-sea) y en [Eilat](/es/eilat)—, mientras que el invierno es suave y verde, aunque puede ser lluvioso, con alguna nevada ocasional en [Jerusalén](/es/jerusalem).
 
-Para una primera visita, planifique **una semana**. El circuito clásico combina dos o tres días en Jerusalén, dos en [Tel Aviv](/tel-aviv) y un día en el Mar Muerto, con posibilidad de agregar la [Galilea](/galilee) o [Nazaret](/nazareth) si dispone de diez días. Consulte nuestros [itinerarios](/itineraries) para rutas día a día.
+Para una primera visita, planifique **una semana**. El circuito clásico combina dos o tres días en Jerusalén, dos en [Tel Aviv](/es/tel-aviv) y un día en el Mar Muerto, con posibilidad de agregar la [Galilea](/es/galilee) o [Nazaret](/es/nazareth) si dispone de diez días. Consulte nuestros [itinerarios](/itineraries) para rutas día a día.
 
 ## Llegada: el aeropuerto y cómo moverse
 

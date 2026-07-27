@@ -27,11 +27,11 @@ Para un desglose más detallado de cómo se ve cada nivel día a día —con tab
 
 **El alojamiento** es la partida más grande. Espere pagar unos 30–45 USD por dormitorio de hostal, 130–220 USD por un hotel intermedio sólido, y 350 USD o más por lujo, con fuertes picos durante Pésaj, las Festividades Judías, la Navidad y la Semana Santa. Compare opciones en la sección *dónde alojarse* de cada región.
 
-**La comida** varía ampliamente: un almuerzo de mercado o un falafel/hummus cuesta unos pocos dólares, una comida informal en restaurante 15–25 USD, y una cena de alto nivel 60 USD o más. Mercados como el [Mahane Yehuda](/jerusalem/mahane-yehuda) y el [Mercado Carmel](/tel-aviv/carmel-market) son a la vez una experiencia y una forma de ahorrar.
+**La comida** varía ampliamente: un almuerzo de mercado o un falafel/hummus cuesta unos pocos dólares, una comida informal en restaurante 15–25 USD, y una cena de alto nivel 60 USD o más. Mercados como el [Mahane Yehuda](/es/jerusalem/mahane-yehuda) y el [Mercado Carmel](/es/tel-aviv/carmel-market) son a la vez una experiencia y una forma de ahorrar.
 
 **El transporte** es económico. Las tarifas de tren y autobús interurbanos son módicas con la [tarjeta Rav-Kav](/transportation); el tren aeropuerto-ciudad cuesta solo unos pocos dólares. Un coche de alquiler sale más caro una vez añadidos la gasolina y el aparcamiento.
 
-**Atracciones y tours** varían. El [Muro Occidental](/jerusalem/western-wall) y muchos miradores son gratuitos; los parques nacionales y los museos cobran entradas módicas; los tours guiados de día suelen costar 40–120 USD, y la [excursión a Petra desde Eilat](/eilat) es una opción premium de 200 USD o más.
+**Atracciones y tours** varían. El [Muro Occidental](/es/jerusalem/western-wall) y muchos miradores son gratuitos; los parques nacionales y los museos cobran entradas módicas; los tours guiados de día suelen costar 40–120 USD, y la [excursión a Petra desde Eilat](/es/eilat) es una opción premium de 200 USD o más.
 
 ## Presupuesto de ejemplo para una semana de nivel intermedio (por persona)
 

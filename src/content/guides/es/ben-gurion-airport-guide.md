@@ -105,7 +105,7 @@ También hay una **tienda de llegadas James Richardson** antes del control de pa
 
 Para comparativas de rutas, horarios del Shabat y precios a Tel Aviv, Jerusalén, Haifa y Eilat, consulte la [guía de traslados desde el aeropuerto Ben Gurion](/ben-gurion-airport-transfers) y nuestra [guía general de transporte](/es/transportation). Opciones principales:
 
-- **Tren**: lo más rápido y económico — [Tel Aviv](/tel-aviv) en ~20 min, [Jerusalén](/jerusalem) en ~30 min. Sin servicio durante el Shabat.
+- **Tren**: lo más rápido y económico — [Tel Aviv](/es/tel-aviv) en ~20 min, [Jerusalén](/es/jerusalem) en ~30 min. Sin servicio durante el Shabat.
 - **Traslado privado**: precio fijo, el conductor le espera, disponible durante el Shabat.
 - **Taxi**: con taxímetro vía la fila de la aplicación Gett en llegadas.
 - **Autobús 485**: sirve a Jerusalén 24 h excepto el Shabat.

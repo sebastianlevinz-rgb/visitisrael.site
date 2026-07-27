@@ -25,16 +25,16 @@ Durante el Shabat, en las zonas judías: **el transporte público (trenes y la m
 
 ## Ciudad por ciudad
 
-- **[Jerusalén](/jerusalem):** la más observante. La ciudad judía y el Jerusalén occidental se silencian; el Mamilla se apaga. Pero los **barrios Cristiano y Musulmán** de la Ciudad Vieja, y los sitios cristianos, continúan su actividad. El sábado por la noche la ciudad vuelve a la vida.
-- **[Tel Aviv](/tel-aviv):** la más secular. Las playas, los cafés, los museos y muchos restaurantes permanecen abiertos; solo el transporte público y algunos comercios hacen una pausa.
-- **[Nazaret](/nazareth), [Haifa](/haifa) y las ciudades árabes:** prácticamente no se ven afectadas; Haifa incluso mantiene algunos servicios de transporte durante el Shabat.
+- **[Jerusalén](/es/jerusalem):** la más observante. La ciudad judía y el Jerusalén occidental se silencian; el Mamilla se apaga. Pero los **barrios Cristiano y Musulmán** de la Ciudad Vieja, y los sitios cristianos, continúan su actividad. El sábado por la noche la ciudad vuelve a la vida.
+- **[Tel Aviv](/es/tel-aviv):** la más secular. Las playas, los cafés, los museos y muchos restaurantes permanecen abiertos; solo el transporte público y algunos comercios hacen una pausa.
+- **[Nazaret](/es/nazareth), [Haifa](/es/haifa) y las ciudades árabes:** prácticamente no se ven afectadas; Haifa incluso mantiene algunos servicios de transporte durante el Shabat.
 
 ## Cómo planificar
 
 - **Organícese el viernes por la tarde** — compre snacks, llene el coche de alquiler, organice el transporte.
 - **Desplácese en sherut, taxi, aplicación de transporte o coche propio**, no en tren ni autobús. Consulte la [guía de transporte](/es/transportation).
-- **Aproveche la experiencia.** Una cena del viernes por la noche, un paseo tranquilo del sábado por la Ciudad Vieja o un día de playa en Tel Aviv forman parte de la experiencia. En el [Muro Occidental](/jerusalem/western-wall), los rezos del viernes por la noche son inolvidables (no está permitido fotografiar una vez iniciado el Shabat).
-- **Reserve una excursión para el sábado** —por ejemplo al [Mar Muerto](/dead-sea) o a Belén— a través de un operador que proporcione transporte.
+- **Aproveche la experiencia.** Una cena del viernes por la noche, un paseo tranquilo del sábado por la Ciudad Vieja o un día de playa en Tel Aviv forman parte de la experiencia. En el [Muro Occidental](/es/jerusalem/western-wall), los rezos del viernes por la noche son inolvidables (no está permitido fotografiar una vez iniciado el Shabat).
+- **Reserve una excursión para el sábado** —por ejemplo al [Mar Muerto](/es/dead-sea) o a Belén— a través de un operador que proporcione transporte.
 
 ¿Necesita los horarios exactos de encendido de velas y Havdalá para sus fechas de viaje? Use nuestro [Calendario del Shabat y festividades judías](/israel-shabbat-calendar), que muestra los horarios ciudad por ciudad para Jerusalén, Tel Aviv, Haifa, Eilat y Beersheba, además de todas las festividades judías principales para 2026–2027.
 
