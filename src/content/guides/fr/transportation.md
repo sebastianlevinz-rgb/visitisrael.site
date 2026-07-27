@@ -1,14 +1,14 @@
 ---
-title: "Se déplacer en Israël : trains, bus, sheruts et carte Rav-Kav"
-description: "Comment circuler en Israël : la carte Rav-Kav, les trains interurbains, les bus, les sheruts (taxis collectifs), la location de voiture et ce qui circule le"
+title: "Se déplacer en Israël : trains, bus et carte Rav-Kav"
+description: "Comment circuler en Israël : la carte Rav-Kav, les trains interurbains, les bus, la location de voiture et ce qui circule le Shabbat."
 heroImage: /images/sub-destinations/tel-aviv/tayelet.jpg
 category: Planification
-updatedAt: 2026-05-20
+updatedAt: 2026-07-27
 faqs:
   - question: "Qu'est-ce que la carte Rav-Kav ?"
     answer: "La Rav-Kav est la carte rechargeable des transports publics en Israël. Elle fonctionne sur les trains, les bus et le tramway dans tout le pays. Achetez-en une à l'aéroport, dans les gares ou aux grandes stations de bus, chargez-y du crédit ou un abonnement journalier ou périodique, puis validez à chaque trajet. Une version application mobile est également disponible."
   - question: "Les transports publics fonctionnent-ils le Shabbat ?"
-    answer: "La plupart des trains et des bus s'arrêtent du vendredi après-midi au samedi soir. Les sheruts (taxis collectifs) continuent de circuler sur les lignes principales, y compris depuis l'aéroport Ben Gourion, et certaines villes ont mis en place des services limités le samedi. Les taxis privés et les applications de covoiturage fonctionnent toute la semaine."
+    answer: "La plupart des trains et des bus s'arrêtent du vendredi après-midi au samedi soir. Les principaux services de sheruts interurbains — dont les liaisons aéroport Ben Gourion → Jérusalem et Haïfa — ont été interrompus en 2026 ; comptez sur les trains en semaine, ou les taxis et applications de covoiturage le Shabbat. Certains sheruts urbains locaux peuvent encore circuler dans certaines villes. Les taxis privés et les applications de covoiturage fonctionnent toute la semaine."
   - question: "Faut-il louer une voiture en Israël ?"
     answer: "Pas nécessairement pour les grandes villes — les trains et les bus relient bien Tel Aviv, Jérusalem, Haïfa et la côte. Une voiture est utile pour la Galilée, le plateau du Golan et le Néguev, où les curiosités sont dispersées et les transports publics limités."
 ---
@@ -27,9 +27,9 @@ La **Rav-Kav** est une carte rechargeable valable sur les trains interurbains, l
 
 Les bus couvrent tout ce que les trains ne desservent pas, des autocars Egged et Metropoline aux réseaux urbains denses. Jérusalem et Tel Aviv disposent toutes deux de lignes de **tramway** rapides pour circuler dans le centre-ville. Tous acceptent la Rav-Kav.
 
-## Les sheruts (taxis collectifs)
+## Les taxis collectifs (sheruts)
 
-Les **sheruts** sont des minibus partagés qui circulent sur des trajets fixes et partent dès qu'ils sont pleins. Bon marché et fréquents, ils ont l'avantage de **continuer à circuler le Shabbat** sur les lignes principales — y compris entre l'aéroport, Tel Aviv et Jérusalem — lorsque les trains et la plupart des bus sont à l'arrêt.
+Les **sheruts** sont des minibus partagés qui circulent sur des trajets fixes et partent dès qu'ils sont pleins. Les principaux opérateurs interurbains — le service Nesher (aéroport Ben Gourion → Jérusalem) et le service Amal (aéroport → Haïfa) — ont cessé leurs activités en 2026 ; les trains assurent désormais directement ces liaisons. Dans certaines villes, des sheruts urbains locaux circulent toujours sur des trajets fixes, y compris le Shabbat ; renseignez-vous sur place.
 
 ## Taxis et applications de covoiturage
 
@@ -41,7 +41,7 @@ Vous n'avez pas besoin d'une voiture pour le triangle [Tel Aviv](/tel-aviv)–[J
 
 ## Le Shabbat
 
-Préparez à l'avance le vendredi après-midi jusqu'au samedi soir : privilégiez les **sheruts, les taxis, les applications de covoiturage ou la voiture de location**. Consultez notre [guide du Shabbat](/fr/shabbat-guide) pour comprendre le rythme complet de la semaine.
+Préparez à l'avance le vendredi après-midi jusqu'au samedi soir : privilégiez les **taxis, les applications de covoiturage ou la voiture de location**. Consultez notre [guide du Shabbat](/fr/shabbat-guide) pour comprendre le rythme complet de la semaine.
 
 ## Comparaisons d'itinéraires
 

@@ -1,14 +1,14 @@
 ---
-title: 'Getting Around Israel: Trains, Buses, Sheruts & the Rav-Kav'
-description: "How to get around Israel: the Rav-Kav travel card, intercity trains, buses, sherut shared taxis, car rental and what runs on Shabbat."
+title: 'Getting Around Israel: Trains, Buses & the Rav-Kav'
+description: "How to get around Israel: the Rav-Kav travel card, intercity trains, buses, car rental and what runs on Shabbat."
 heroImage: /images/sub-destinations/tel-aviv/tayelet.jpg
 category: Planning
-updatedAt: 2026-07-22
+updatedAt: 2026-07-27
 faqs:
   - question: What is a Rav-Kav card?
     answer: The Rav-Kav is Israel's rechargeable smart card for public transport. It works on trains, buses and light rail nationwide. Buy one at the airport, train stations or bus hubs, load credit or a daily/period pass, and tap on each ride. A mobile app version is also available.
   - question: Does public transport run on Shabbat?
-    answer: Most trains and buses stop from Friday afternoon to Saturday evening. Sherut shared taxis keep running on key routes (including from Ben Gurion Airport), and some cities have begun limited Saturday services. Private taxis and ride apps operate throughout.
+    answer: Most trains and buses stop from Friday afternoon to Saturday evening. The main intercity shared-taxi (sherut) services — including the airport routes to Jerusalem and Haifa — were discontinued in 2026; rely on trains on weekdays, or private taxis and ride apps on Shabbat. Some intra-city sherut routes may still run in certain cities. Private taxis and ride apps operate throughout.
   - question: Do I need to rent a car in Israel?
     answer: Not for the main cities — trains and buses connect Tel Aviv, Jerusalem, Haifa and the coast well. A car is worth it for the Galilee, Golan Heights and Negev, where attractions are spread out and transit is limited.
 ---
@@ -33,9 +33,9 @@ The **[Tel Aviv Red Line](/tel-aviv-light-rail)** — Israel's first metro-style
 
 The **Jerusalem Light Rail** network covers the key tourist stops in Jerusalem: Damascus Gate (Old City Muslim Quarter entrance), Jaffa Gate/City Hall (Old City Jaffa Gate, Mamilla), Ben Yehuda (city centre), Mahane Yehuda market, and Mount Herzl/Yad Vashem. The **Red Line** is the main tourist artery; the **Blue Line** (opened 2024–2025) adds the Hebrew University Givat Ram campus and western residential areas. A third line — the **Green Line** — is now opening in stages: the first section (Malha Mall to Binyanei HaUmah/Convention Centre) opened in July 2026, with the full 19.6 km line to Gilo expected in 2027. See the [Jerusalem Light Rail guide](/jerusalem-light-rail-guide) for stop-by-stop breakdown, how to connect from Ben Gurion Airport and Shabbat schedule details.
 
-## Sherut shared taxis
+## Shared taxis (sheruts)
 
-**Sheruts** are shared minibuses that run fixed routes, leaving when full. They're cheap, frequent, and crucially they **keep running on Shabbat** on key routes — including between the airport, Tel Aviv and Jerusalem — when trains and most buses pause.
+**Sheruts** are shared minibuses that run fixed routes, leaving when full. Israel's major intercity sherut operators — the Nesher service (Ben Gurion Airport → Jerusalem) and Amal service (Ben Gurion Airport → Haifa) — discontinued services in 2026; trains now cover those airport-to-city routes directly. In some cities, local intra-city sheruts still run on fixed routes, including on Shabbat when trains and most buses pause; check locally for current services.
 
 ## Taxis and ride apps
 
@@ -51,7 +51,7 @@ You don't need a car for the [Tel Aviv](/tel-aviv)–[Jerusalem](/jerusalem)–[
 
 ## On Shabbat
 
-Plan ahead for Friday afternoon to Saturday night: rely on **sheruts, taxis, ride apps or a rental car**. See our [Shabbat guide](/shabbat-guide) for the full rhythm of the week.
+Plan ahead for Friday afternoon to Saturday night: rely on **taxis, ride apps or a rental car**. See our [Shabbat guide](/shabbat-guide) for the full rhythm of the week.
 
 ## Popular routes compared
 

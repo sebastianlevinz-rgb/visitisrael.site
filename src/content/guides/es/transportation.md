@@ -1,14 +1,14 @@
 ---
 title: "Cómo moverse en Israel: trenes, autobuses y tarjeta Rav-Kav"
-description: "Cómo circular en Israel: la tarjeta Rav-Kav, trenes interurbanos, autobuses, sheruts (taxis compartidos), alquiler de coche y qué funciona en Shabat."
+description: "Cómo circular en Israel: la tarjeta Rav-Kav, trenes interurbanos, autobuses, alquiler de coche y qué funciona en Shabat."
 heroImage: /images/sub-destinations/tel-aviv/tayelet.jpg
 category: Planificación
-updatedAt: 2026-07-22
+updatedAt: 2026-07-27
 faqs:
   - question: "¿Qué es la tarjeta Rav-Kav?"
     answer: "La Rav-Kav es la tarjeta recargable de transporte público de Israel. Funciona en trenes, autobuses y tren ligero en todo el país. Se compra en el aeropuerto, las estaciones de tren o los grandes intercambiadores de autobús; se carga con crédito o un abono diario o periódico, y se valida en cada trayecto. También existe una versión en aplicación móvil."
   - question: "¿Funciona el transporte público en Shabat?"
-    answer: "La mayoría de los trenes y autobuses se detienen desde el viernes por la tarde hasta el sábado por la noche. Los sheruts (taxis compartidos) siguen circulando en las rutas principales, incluida la del aeropuerto Ben Gurion, y algunas ciudades han puesto en marcha servicios limitados en sábado. Los taxis privados y las aplicaciones de transporte funcionan en todo momento."
+    answer: "La mayoría de los trenes y autobuses se detienen desde el viernes por la tarde hasta el sábado por la noche. Los principales servicios de sheruts interurbanos —incluidos los del aeropuerto Ben Gurion a Jerusalén y Haifa— fueron suspendidos en 2026; utilice trenes entre semana, o taxis y aplicaciones de transporte en Shabat. En algunas ciudades pueden seguir operando sheruts urbanos locales. Los taxis privados y las aplicaciones de transporte funcionan en todo momento."
   - question: "¿Necesito alquilar un coche en Israel?"
     answer: "No es necesario para las principales ciudades: los trenes y autobuses conectan bien Tel Aviv, Jerusalén, Haifa y la costa. Un coche sí vale la pena para la Galilea, los Altos del Golán y el Néguev, donde las atracciones están dispersas y el transporte público es limitado."
 ---
@@ -31,9 +31,9 @@ Los autobuses cubren todo lo que los trenes no alcanzan, desde los autocares int
 
 La **[Línea Roja de Tel Aviv](/tel-aviv-light-rail)** —el primer tren tipo metro de Israel, inaugurado en 2023— recorre 24 km desde Bat Yam, al sur, pasando por el centro de Tel Aviv hasta Petah Tikva, al noreste, con 10 estaciones subterráneas. Los principales puntos turísticos: la zona de Jaffa, Carlebach (centro de la ciudad), Habima (Ciudad Blanca/cultura) y Arlozorov (intercambiador con el tren al aeropuerto).
 
-## Sheruts (taxis compartidos)
+## Taxis compartidos (sheruts)
 
-Los **sheruts** son minibuses compartidos que circulan por rutas fijas y salen cuando están llenos. Son económicos, frecuentes y, crucialmente, **siguen funcionando en Shabat** en las rutas principales —incluida la que une el aeropuerto, Tel Aviv y Jerusalén— cuando los trenes y la mayoría de los autobuses se detienen.
+Los **sheruts** son minibuses compartidos que circulan por rutas fijas y salen cuando están llenos. Los principales operadores interurbanos —el servicio Nesher (aeropuerto Ben Gurion → Jerusalén) y el servicio Amal (aeropuerto → Haifa)— cesaron su actividad en 2026; los trenes cubren ahora esas rutas directamente desde el aeropuerto. En algunas ciudades, los sheruts urbanos locales siguen circulando por rutas fijas, incluso en Shabat; consulte en destino las opciones actuales.
 
 ## Taxis y aplicaciones de transporte
 
@@ -49,7 +49,7 @@ No necesita coche para el triángulo [Tel Aviv](/es/tel-aviv)–[Jerusalén](/es
 
 ## En Shabat
 
-Planifique con antelación el período del viernes por la tarde al sábado por la noche: dependa de **sheruts, taxis, aplicaciones de transporte o un coche de alquiler**. Consulte nuestra [guía del Shabat](/shabbat-guide) para conocer el ritmo completo de la semana.
+Planifique con antelación el período del viernes por la tarde al sábado por la noche: dependa de **taxis, aplicaciones de transporte o un coche de alquiler**. Consulte nuestra [guía del Shabat](/es/shabbat-guide) para conocer el ritmo completo de la semana.
 
 ## Rutas más populares comparadas
 

@@ -1,14 +1,14 @@
 ---
 title: "Israel mit öffentlichen Verkehrsmitteln: Züge & Rav-Kav"
-description: "So reisen Sie durch Israel: die Rav-Kav-Karte, Intercity-Züge, Busse, Sherut-Sammeltaxis, Mietwagen und was am Schabbat fährt."
+description: "So reisen Sie durch Israel: die Rav-Kav-Karte, Intercity-Züge, Busse, Mietwagen und was am Schabbat fährt."
 heroImage: /images/sub-destinations/tel-aviv/tayelet.jpg
 category: Planung
-updatedAt: 2026-05-20
+updatedAt: 2026-07-27
 faqs:
   - question: "Was ist die Rav-Kav-Karte?"
     answer: "Die Rav-Kav ist Israels aufladbare Smartcard für öffentliche Verkehrsmittel. Sie gilt für Züge, Busse und Stadtbahnen im ganzen Land. Kaufen Sie eine am Flughafen, in Bahnhöfen oder Busbahnhöfen, laden Sie Guthaben oder eine Tages-/Periodenkarte auf und tippen Sie bei jeder Fahrt auf das Lesegerät. Eine App-Version ist ebenfalls verfügbar."
   - question: "Fahren öffentliche Verkehrsmittel am Schabbat?"
-    answer: "Die meisten Züge und Busse fahren von Freitagnachmittag bis Samstagabend nicht. Sherut-Sammeltaxis verkehren weiterhin auf wichtigen Strecken, darunter ab dem Flughafen Ben Gurion, und einige Städte haben einen eingeschränkten Samstagsverkehr eingeführt. Private Taxis und Ride-Hailing-Apps sind durchgehend verfügbar."
+    answer: "Die meisten Züge und Busse fahren von Freitagnachmittag bis Samstagabend nicht. Die wichtigsten Intercity-Sherut-Dienste — darunter die Flughafen-Strecken nach Jerusalem und Haifa — wurden 2026 eingestellt; nutzen Sie an Werktagen Züge oder am Schabbat Taxis und Ride-Hailing-Apps. In einigen Städten fahren möglicherweise noch städtische Sheruts auf lokalen Strecken. Private Taxis und Ride-Hailing-Apps sind durchgehend verfügbar."
   - question: "Brauche ich in Israel ein Mietauto?"
     answer: "Für die großen Städte nicht — Züge und Busse verbinden Tel Aviv, Jerusalem, Haifa und die Küste gut. Ein Mietauto lohnt sich für Galiläa, die Golanhöhen und den Negev, wo Sehenswürdigkeiten weit verstreut liegen und der öffentliche Nahverkehr begrenzt ist."
 ---
@@ -27,9 +27,9 @@ Die **Rav-Kav** ist eine aufladbare Karte, die für Intercity-Züge, Stadt- und 
 
 Busse erschließen alles, was die Züge nicht erreichen — von Intercity-Coaches (Egged, Metropoline) bis zu dichten städtischen Netzen. Jerusalem und Tel Aviv verfügen beide über **Stadtbahnlinien**, die eine schnelle Fortbewegung im Stadtzentrum ermöglichen. Alle Verkehrsmittel akzeptieren die Rav-Kav.
 
-## Sherut-Sammeltaxis
+## Sammeltaxis (Sheruts)
 
-**Sheruts** sind Sammelminibusse auf festen Strecken, die abfahren, wenn sie voll sind. Sie sind günstig, häufig und fahren entscheidenderweise **auch am Schabbat** auf wichtigen Strecken — darunter zwischen Flughafen, Tel Aviv und Jerusalem — wenn Züge und die meisten Busse ruhen.
+**Sheruts** sind Sammelminibusse auf festen Strecken, die abfahren, wenn sie voll sind. Die großen Intercity-Sherut-Betreiber — der Nesher-Dienst (Flughafen Ben Gurion → Jerusalem) und der Amal-Dienst (Flughafen → Haifa) — haben 2026 den Betrieb eingestellt; Züge bedienen diese Verbindungen nun direkt. In einigen Städten fahren lokale Sheruts weiterhin auf festen Stadtrouten, auch am Schabbat; fragen Sie vor Ort nach aktuellen Verbindungen.
 
 ## Taxis und Ride-Hailing
 
@@ -41,7 +41,7 @@ Für das Dreieck [Tel Aviv](/tel-aviv)–[Jerusalem](/jerusalem)–[Haifa](/haif
 
 ## Am Schabbat
 
-Planen Sie für Freitagnachmittag bis Samstagabend voraus: Nutzen Sie **Sheruts, Taxis, Ride-Hailing-Apps oder einen Mietwagen**. Unseren [Schabbat-Ratgeber](/de/shabbat-guide) lesen für den vollständigen Wochenrhythmus.
+Planen Sie für Freitagnachmittag bis Samstagabend voraus: Nutzen Sie **Taxis, Ride-Hailing-Apps oder einen Mietwagen**. Unseren [Schabbat-Ratgeber](/de/shabbat-guide) lesen für den vollständigen Wochenrhythmus.
 
 ## Streckenvergleiche
 
