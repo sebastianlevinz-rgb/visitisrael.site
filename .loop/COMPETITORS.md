@@ -6559,3 +6559,42 @@ Context: BACKLOG at ~96%+ saturation (457 ready items after this pass). Backgrou
 5. **Items confirmed NOT new**: Oct 7 memorial (HUMAN REVIEW REQUIRED, in BACKLOG since iter80); Buenos Aires/Argentina items (israel-for-argentinian-travelers SHIPPED iter726, cheap-flights update SHIPPED iter758); ES vuelos Buenos Aires coverage confirmed in cheap-flights-to-israel.md El Al section.
 
 Net-new BACKLOG items: 2 (Eastern Railway + 10-day itinerary).
+
+## iter810 · 2026-07-27 · 164th research pass
+
+### Sources scanned
+- travelpulse.com (Israel tourism infrastructure news July 2026)
+- recommend.com (Israel tourism investment 2026)
+- travelandtourworld.com (Haifa cruise terminal + tourism revival)
+- touristisrael.com/things-to-do-in-israel-in-july (July events)
+- israel-taxi.com/travel-blog/sherut-in-israel (sherut discontinuation confirmed)
+- touristisrael.com/sherut-shared-taxi-israel (outdated reference still live)
+- timesofisrael.com/national-archeology-campus (Schottenstein opening timeline)
+- winetourism.com/wine-region/judea (Judean Hills wine region)
+- mokitours.com/the-judean-hills-wine-trail (Judean Hills trail itinerary)
+- israelwinetour.co.il (wine tour operator)
+- galileeculinaryinstitute.com (GCI opening status)
+- jpost.com/food-recipes/article-901989 (GCI full opening)
+- jpost.com/israel-news/article-900684 (Eastern Railway details)
+- golanwinetour.com (Golan Heights wine tour competitor)
+- outdooractive.com/jerusalem-trail (Jerusalem Trail reference)
+
+### Key findings
+
+1. **Haifa new cruise terminal (May 2026)**: New terminal can handle 2 mega-ships simultaneously, ~1M passengers/year. Prior Haifa port descriptions are outdated (single-ship capacity). Our cruise-shore-excursions.md and haifa-travel-guide.md predate this and need updates.
+
+2. **Intercity sherut DISCONTINUED**: israel-taxi.com explicitly confirms Nesher sherut (BGA→Jerusalem) and Amal sherut (BGA→Haifa) no longer operating. Our transportation.md title and description still reference "sheruts" prominently — P1/S honesty fix needed. Intra-city Shabbat sheruts (within cities) may still run — needs verification before edit.
+
+3. **Judean Hills wine trail**: Strong competitor cluster (winetourism.com, mokitours.com, israelwinetour.co.il, israelwinexp.com) ranking for "Judean Hills wine trail" / "Judean Hills wine tour." Only registered Israeli wine Appellation of Origin. 30+ boutique wineries within 45 min of Jerusalem. Our israel-wine-wineries.md hub covers this region in 2–3 paragraphs — no dedicated SEO page captures "Judean Hills wine" queries.
+
+4. **Galilee Culinary Institute**: First academic year begins October 2026. Restaurant, wine bar, brewery, and guest suites now publicly accessible. Our iter522 guide was written for Feb 2026 soft-launch and needs updatedAt + expansion.
+
+5. **Stale auto/* branches**: All 7 branches verified against DONE.md — ALL feature work (israel-hebrew-phrases iter588, jerusalem-trail iter573, israel-mediterranean-cruise-guide iter761, israel-vs-cyprus iter411, schottenstein-campus iter607, galilee-culinary-institute iter522, bga-transfers-sherut iter608 area) was shipped in later iterations. Branches are orphaned remnants. No recovery needed.
+
+6. **ES Phase ES-5**: Candidates for next 5 ES guides — first-time-in-israel, best-time-to-visit-israel, visa-information, israel-cost-budget, transportation — the highest-priority EN guides not yet translated to ES.
+
+### Competitor content gap snapshot (July 2026)
+- Tourist Israel has dedicated "Gaza Border Tour" day trip — we don't cover this (human review required; sensitive content)
+- Golan Heights wine trail: golanwinetour.com ranks for this query; we have zero dedicated Golan wine page
+- Judean Hills wine trail: multiple operators rank; we have only the wine hub
+- Haifa cruise terminal: travel trade press covers it but no travel editorial guide exists yet → first-mover opportunity

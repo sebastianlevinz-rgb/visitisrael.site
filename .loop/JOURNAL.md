@@ -12283,3 +12283,35 @@ What: Audited the 5 Phase ES-4 guides shipped in iter808 (/es/day-trips-from-jer
 Gate: pnpm check 0 errors; build 970 pages (no change); pnpm test:e2e 1227/1227 pass.
 Ship: squash-merged to master 534c97f, pushed. CI in_progress at push (standard pattern).
 Next: iter810 = RESEARCH (810%5==0).
+
+## 2026-07-27T20:30Z · iter 810 · RESEARCH · research-810-wine-trails-transport-updates
+
+Mode: RESEARCH (810 % 5 == 0). No shipping — discovery only.
+Startup: hard-reset to origin/master at 9ee9624 (iter809 state). No STOP flag.
+
+Stale auto/* branch audit: 7 branches found (bga-transfers-sherut-update, israel-hebrew-phrases, israel-in-april, israel-mediterranean-cruise-guide, israel-vs-cyprus, jerusalem-trail, dependabot/*). ALL feature branches verified SHIPPED in DONE.md:
+- auto/israel-hebrew-phrases: DONE iter588 (ba49d3b)
+- auto/jerusalem-trail: DONE iter573
+- auto/israel-mediterranean-cruise-guide: DONE iter761 (2172b98)
+- auto/israel-vs-cyprus: DONE iter411 (3f78882)
+- auto/bga-transfers-sherut-update: sherut fix from iter608 — already contains iter606/607 commits. Ben-gurion-airport-transfers.md has NO sherut mentions (grep confirmed); however transportation.md title + description still reference "sheruts" — this is the active honesty gap.
+- auto/israel-in-april: DONE iter783 (already shipped)
+Conclusion: all stale auto branches are orphaned remnants of already-shipped work. No recovery needed. Dependabot branches are Renovate PRs (not loop work).
+
+Research angles covered (164th research pass; saturation ~96%+):
+1. Israel tourism news July 2026: Haifa new cruise terminal opened May 2026 (2 mega-ships simultaneous; up to 1M passengers/year). Israel Eastern Railway June 2026 (Hadera East→Rosh HaAyin North→Tel Aviv; 2 trains/hour; confirmed open — iter805 added to BACKLOG). Galilee Culinary Institute: first academic year begins October 2026 with restaurant/wine bar/brewery/guest suites now open to public (we shipped /galilee-culinary-institute-gonen iter522 for the Feb 2026 soft-launch — needs updatedAt + expansion). National Campus for Archaeology (Schottenstein): visitor centre opening revised to early 2027 (not 2026); we already shipped /schottenstein-campus-jerusalem iter607 with correct framing.
+2. Transportation honesty gap: intercity sherut services (Nesher BGA→Jerusalem; Amal BGA→Haifa) CONFIRMED DISCONTINUED as of 2026 per israel-taxi.com. transportation.md title says "Sheruts & the Rav-Kav" and description says "sherut shared taxis" — these intercity references are now outdated. Body Shabbat section says "rely on sheruts, taxis, ride apps or a rental car" — intra-city sheruts may still operate; needs careful scoping.
+3. Wine trail gap: winetourism.com, mokitours.com, israelwinetour.co.il, israelwinexp.com all rank for "Judean Hills wine trail" and "Judean Hills wine tour". Our israel-wine-wineries.md covers all 5 regions in one hub; no dedicated Judean Hills page. 30+ boutique wineries (Castel, Tzora, Flam, Ella Valley, Clos de Gat, Agur) within 45 min of Jerusalem + Tel Aviv. Also: Golan Heights wine trail (golanwinetour.com) similarly lacks a dedicated competitor.
+4. Haifa cruise terminal 2026: new terminal May 2026 opening confirmed; our cruise-shore-excursions.md and haifa-travel-guide.md don't reflect this (they predate May 2026 opening).
+
+Net-new BACKLOG items added: 4 (see BACKLOG below).
+- [P1/S] transportation.md sherut honesty fix (intercity sheruts discontinued 2026)
+- [P2/S] Haifa cruise terminal May 2026 update — cruise-shore-excursions.md + haifa-travel-guide.md
+- [P2/S] Judean Hills wine trail guide (/judean-hills-wine-trail)
+- [P3/S] Golan Heights wine trail guide (/golan-heights-wine-trail)
+- Also: Galilee Culinary Institute freshness refresh (Oct 2026 full opening)
+
+ES Phase ES-5 candidates identified: first-time-in-israel, best-time-to-visit-israel, visa-information, israel-cost-budget, transportation (5 highest-priority EN guides not yet in ES).
+
+Gate: N/A (RESEARCH mode — no code changed).
+Next: iter811 = BUILD (811%5==1 → monetization category, or fall-through to i18n-ES Phase ES-5 or P1 honesty fix for sherut).

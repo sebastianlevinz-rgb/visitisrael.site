@@ -1,13 +1,15 @@
 # LOOP STATE
 
-- iteration: 809
-- lastMode: REVIEW (iter809%5==4)
-- lastItem: review-809-es4-link-fixes
-- lastResult: SHIPPED 534c97f. Audited Phase ES-4 guides (iter808). Found systemic attraction/itinerary link bug — same as iter804 fixed for ES-0/1/2, but ES-4 guides were authored after that fix with same pattern. Fixed 14 bare links across 4 files: day-trips-from-jerusalem (1 link), day-trips-from-tel-aviv (5 links), best-tours-in-israel (6 links), best-holy-land-tours (3 links). /jerusalem/western-wall, /jerusalem/via-dolorosa, /jerusalem/old-city, /haifa/bahai-gardens, /dead-sea/masada, /tel-aviv/old-jaffa, /tel-aviv/carmel-market, /galilee/yardenit, /itineraries, /es/itineraries/3-days-in-jerusalem, /best-tours-in-israel — all corrected to /es/... prefix. /jerusalem/holy-sepulchre correctly left bare (no ES version). Gate: pnpm check 0 errors; 970 pages (no change); 1227/1227 pass. CI in_progress at push (standard pattern).
-- nextRotationCategory: RESEARCH (iter810%5==0 → RESEARCH mode)
+- iteration: 810
+- lastMode: RESEARCH (iter810%5==0)
+- lastItem: research-810-wine-trails-transport-updates
+- lastResult: RESEARCH COMPLETE (no shipping). 164th research pass. 4 net-new BACKLOG items: [P1/S] transportation.md sherut honesty fix (intercity Nesher/Amal sheruts DISCONTINUED per israel-taxi.com); [P2/S] Haifa new cruise terminal May 2026 update (2 mega-ships, 1M pax/year); [P2/S] Judean Hills wine trail guide (/judean-hills-wine-trail — 30+ boutique wineries, Judea's only registered Appellation); [P3/S] Golan Heights wine trail guide; [P2/S] Galilee Culinary Institute freshness update (Oct 2026 full opening). Stale auto/* branches: ALL 7 verified as already-SHIPPED work (orphaned remnants from iters 411/522/573/588/607/761). ES Phase ES-5 candidates identified: first-time-in-israel, best-time-to-visit-israel, visa-information, israel-cost-budget, transportation. BACKLOG now at ~460 ready items.
+- nextRotationCategory: BUILD (iter811%5==1 → monetization OR P1 honesty fix for sherut OR i18n-ES Phase ES-5)
 - higgsfieldSpent: 0
-- updatedAt: 2026-07-27T19:45Z
+- updatedAt: 2026-07-27T20:45Z
 - branch context: work on master; feature work on auto/<slug>
+
+Notes: iter810 RESEARCH (research-810-wine-trails-transport-updates) — 164th research pass. Key findings: (1) Intercity sheruts DISCONTINUED — transportation.md title/description outdated (P1/S fix next BUILD); (2) Haifa new cruise terminal May 2026 — up to 1M passengers/year, dual mega-ship capable; (3) Judean Hills wine trail gap — 30+ wineries, registered Appellation, strong competitor ranking from winetourism.com/mokitours.com/israelwinetour.co.il; (4) Golan Heights wine trail gap; (5) GCI full opening Oct 2026 (freshness update needed); (6) All 7 stale auto/* branches confirmed already-SHIPPED — no recovery needed. ES Phase ES-5 next batch: first-time-in-israel, best-time-to-visit-israel, visa-information, israel-cost-budget, transportation. Next: iter811 BUILD (monetization rotation, or P1 sherut fix override, or i18n-ES Phase ES-5).
 
 Notes: iter809 REVIEW (review-809-es4-link-fixes) — SHIPPED 534c97f. Audited all 5 Phase ES-4 guides. Found 14 bare attraction/itinerary links missing /es/ prefix across 4 guides: day-trips-from-jerusalem (itineraries/3-days-in-jerusalem), day-trips-from-tel-aviv (old-city, western-wall, masada, bahai-gardens, /itineraries), best-tours-in-israel (western-wall, via-dolorosa, masada, old-jaffa, carmel-market, /itineraries, /es/ index), best-holy-land-tours (yardenit, /best-tours-in-israel, /itineraries). /jerusalem/holy-sepulchre correctly left bare (no ES attraction page). Gate: 0 errors; 970 pages; 1227/1227 pass. CI in_progress. Next: iter810 RESEARCH.
 
