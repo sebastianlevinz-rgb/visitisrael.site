@@ -12205,3 +12205,10 @@ driving-in-israel, israel-travel-insurance, israel-money-guide) and verified gat
 pnpm check 0 errors; 959 pages; 1205/1205 e2e+a11y pass (identical green gate).
 Outcome: no new commit needed — origin/master already at 3425bae (state advance). Local commit reset to origin/master. Auto branch deleted.
 Duplicate runs are expected when cron fires while prior run is still in-flight. No data loss.
+
+## 2026-07-27T14:50Z · iter 804 · REVIEW · review-804-es-region-links
+What: Audited iter803 ES guides (smoke+a11y confirmed complete, all 5 in both specs). Found systemic i18n link bug across ALL 15 ES guides: region page links used bare /region path (e.g. /tel-aviv) instead of /es/region even though ES region pages exist for all 11 regions. Also: attraction sub-path links (/jerusalem/western-wall, /dead-sea/masada, etc.) missing /es/ prefix; all had ES equivalents. Fix: Python regex on body text only (not YAML frontmatter) to prefix all 11 region names. 11/15 guides affected; 4 had no region links in body. Links to EN-only guides (border-crossings, israel-esim, etc.) correctly left un-prefixed.
+Gate: pnpm check 0 errors; 959 pages (no change); 1205/1205 pass. GREEN.
+Ship: squash-merged to master 193d504; pushed origin/master. Branch deleted.
+Prod: CI in_progress at push (standard pattern).
+Next: iter805 = RESEARCH (805%5==0).

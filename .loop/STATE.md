@@ -1,13 +1,15 @@
 # LOOP STATE
 
-- iteration: 803
-- lastMode: BUILD (i18n-ES Phase ES-2)
-- lastItem: es-guides-batch-3 (5 guides: ben-gurion-airport-transfers, car-rental-israel, driving-in-israel, israel-travel-insurance, israel-money-guide)
-- lastResult: SHIPPED 1af15a0. ES guides 15/394 (+5). Phase ES-2 complete. 5 high-traffic transport + planning guides in neutral Latin-American Spanish. 959 pages; 10 new targeted tests pass. CI in_progress at push (standard pattern).
-- nextRotationCategory: REVIEW (iter804%5==4 → REVIEW). After: iter805%5==0 → RESEARCH; iter806 → monetization/i18n-ES Phase ES-3.
+- iteration: 804
+- lastMode: REVIEW (iter804%5==4)
+- lastItem: review-804-es-region-links (11 ES guides: region/attraction link prefix fix)
+- lastResult: SHIPPED 193d504. Fixed missing /es/ prefix on region and attraction links across all 15 ES guides (11 had issues). Links to /tel-aviv, /jerusalem, /haifa, /galilee, /golan, /negev, /dead-sea, /eilat, /nazareth, /akko, /caesarea + sub-attraction paths corrected to /es/ prefix. 959 pages (no change); 1205/1205 pass.
+- nextRotationCategory: RESEARCH (iter805%5==0 → RESEARCH). After: iter806%5==1 → monetization/i18n-ES Phase ES-3.
 - higgsfieldSpent: 0
-- updatedAt: 2026-07-27T13:40Z
+- updatedAt: 2026-07-27T14:50Z
 - branch context: work on master; feature work on auto/<slug>
+
+Notes: iter804 REVIEW (review-804-es-region-links) — SHIPPED 193d504. Audited: (1) iter803 ES guides (5 guides) — smoke+a11y specs confirmed complete (all 5 in both specs). (2) Systemic i18n link bug found across ALL 15 ES guides: region page links used bare /region path instead of /es/region even though ES region pages exist for all 11 regions. Fix: Python regex replacement on body text (not YAML frontmatter) to add /es/ prefix. Also fixed attraction sub-path links (/jerusalem/western-wall → /es/jerusalem/western-wall, etc.). Links to guides without ES versions correctly left un-prefixed. 11 of 15 ES guides affected; 4 had no region links in body. Gate: pnpm check 0 errors; 959 pages; 1205/1205 pass. Green.
 
 Notes: iter803 BUILD (i18n-ES Phase ES-2) — es-guides-batch-3 SHIPPED 1af15a0. 5 ES guides: /es/ben-gurion-airport-transfers, /es/car-rental-israel, /es/driving-in-israel, /es/israel-travel-insurance, /es/israel-money-guide. Neutral Latin-American Spanish (no vosotros). Inter-guide links use /es/ prefix where ES version exists. 959 pages (pagefind indexed). 10 new targeted tests pass (5 smoke + 5 a11y). ES guide count: 15/394. Phase ES-2 complete; Phase ES-3 queued for iter806 or later.
 
