@@ -6510,3 +6510,28 @@ already tracked. Findings this pass:
 5. **Nationality guide saturation audit** — All major nationality gaps now in BACKLOG or shipped: 21 nationality guides in BACKLOG (Australian P3/S, Canadian P3/S, Dutch P3/S, Belgian P3/S, Romanian P3→P2, Polish P3/S, Hungarian P3/S, New Zealand P3/S, Thai P3/S, Ukrainian P3/S, Czech P3/S, and more). Shipped: British, American, German, Chinese, Korean, Swiss, Italian, Spanish, French, South African, Filipino, Gulf, Indian, Argentinian, Nordic, Portuguese, Serbian, Irish. Content saturation for nationality guides at ~96%.
 
 6. **Emirates permanent exit confirmed** — Feb 2026 reports of potential resumption were speculation; Yahoo/SimpleFying confirmed Emirates permanently ended all TLV service. Our guides correctly reflect this per iter763 fix. No action needed.
+
+---
+
+## iter800 (2026-07-27) — Research pass 162 (deep saturation check + July 2026 specific)
+
+Context: BACKLOG at ~96% saturation (455 ready items from 162 prior research passes). Background Explore agent spawned + parallel WebSearch across competitor taxonomies (touristisrael.com, beinharimtours.com, Nomadic Matt, hinterlandtravel.com) and July 2026 Israel tourism developments.
+
+1. **Turkish nationals PIBA security clearance — new 2026 policy** — Israel's PIBA announced ALL Turkish nationals seeking an Israeli visa must now undergo a mandatory security clearance process before visa approval. Previously Turkish nationals were NOT subject to this. visa-information.md does not mention it. Source: Fragomen LLC immigration attorneys. → Added to BACKLOG [P2/S technical/honesty].
+
+2. **Research agent: all 10 suggestions already in BACKLOG** — Confirms ~96%+ saturation:
+   - October 7 / Gaza Envelope memorial guide → [P2, HUMAN REVIEW REQUIRED]
+   - Canadian, Dutch, Australian, Polish traveler nationality guides → [P3/S each, iter660+795]
+   - Negev Desert Wine Trail → [P3/S]
+   - Israel vs Morocco → [P3/S, iter405]
+   - Kassland Resort → [P2, HUMAN REVIEW REQUIRED — West Bank settlement]
+   - National Campus for Archaeology of Israel → [P3/S, iter505]
+   - Interactive October 7 memorial map tool → not yet a standalone item (blocked by editorial review on the guide)
+
+3. **Items confirmed SHIPPED:** Galilee Culinary Institute (galilee-culinary-institute-gonen.md, 2026-07-14); new Haifa cruise terminal 2026 (haifa-cruise-terminal-guide.md, 2026-07-18, full $5.5M May 2026 terminal details).
+
+4. **"Kfar Bikartem" free Druze/Circassian village tour program** — Summer 2026 initiative (JNS.org) offering free guided tours of Druze + Circassian villages in Galilee/Golan (nature hikes, culinary workshops, heritage tours, cherry picking). The existing circassian-villages-israel BACKLOG item (P3/S, iter395) should incorporate this program angle when shipped. No new standalone item needed.
+
+5. **HolyLandTravel.ai** — AI-powered Christian pilgrimage planning app launched at IMTM 2026, endorsed by US Ambassador Huckabee. Could be mentioned as a planning resource footnote in christian-pilgrimage-holy-land.md. Too minor for standalone BACKLOG item.
+
+Net-new BACKLOG items: 1. Expected at this saturation level.

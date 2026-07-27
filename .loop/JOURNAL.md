@@ -12088,3 +12088,40 @@ Ship: squash-merged to master 02b1058, pushed. CI in_progress at push time.
 Prod: CI in_progress (standard pattern for this repo).
 I18N progress: ES 5/394 guides (1.3%); FR 87/394; DE 87/394.
 Next: iter 800 = BUILD (i18n-ES) — ES guides batch 2, next 5 high-priority guides.
+
+## 2026-07-27T10:50Z · iter 800 · RESEARCH (pass 162) · deep saturation check
+
+Mode: RESEARCH (800 % 5 == 0).
+Research method: (1) Background Explore agent (agentId: a492b672ce42070b8) across competitor
+  taxonomies + 2026 tourism developments; (2) parallel WebSearch across 7 angle queries;
+  (3) exhaustive BACKLOG dedup via Python3 regex scans per candidate.
+Sources checked: touristisrael.com, beinharimtours.com, exclusive israel tours,
+  hinterlandtravel.com, Fragomen LLC (immigration), JNS.org (Kfar Bikartem), Times of Israel
+  (archaeology campus), thingstodoinisrael.com, Nomadic Matt, Fragomen immigration law.
+
+Net-new BACKLOG items: 1
+1. Turkish nationals PIBA security clearance (P2/S, technical/honesty) — New 2026 PIBA
+   policy: ALL Turkish nationals seeking Israeli visa must now undergo mandatory security
+   clearance process before visa approval. visa-information.md does not mention this.
+   Source: Fragomen LLC. [iter800 research]
+
+False leads / already in BACKLOG (all confirmed via Python3 dedup):
+- October 7 / Gaza Envelope memorial guide [BACKLOG, P2 HUMAN REVIEW REQUIRED]
+- Israel for Canadian travelers [BACKLOG, P3/S]
+- Israel for Dutch travelers [BACKLOG, P3/S]
+- Israel for Australian travelers [BACKLOG, P3/S]
+- Israel for Polish travelers [BACKLOG, P3/S]
+- Negev Desert Wine Trail [BACKLOG, P3/S]
+- Israel vs Morocco [BACKLOG, P3/S, iter405]
+- Kassland Resort & Spa [BACKLOG, P2 HUMAN REVIEW REQUIRED — West Bank settlement]
+- National Campus for Archaeology of Israel [BACKLOG, P3/S, iter505]
+- Interactive October 7 memorial sites map [not yet standalone item; blocked by editorial review]
+- Galilee Culinary Institute (galilee-culinary-institute-gonen.md) [SHIPPED 2026-07-14]
+- Haifa cruise terminal 2026 (haifa-cruise-terminal-guide.md) [SHIPPED 2026-07-18]
+- Kfar Bikartem Druze/Circassian free summer tour program [BACKLOG angle for circassian-villages-israel P3/S]
+- HolyLandTravel.ai AI app [noted COMPETITORS.md iter795; too minor for standalone item]
+
+Saturation: ~96%+ after 162 research passes. Expected low yield at this stage.
+BACKLOG: 455 ready items representing months of BUILD work.
+No code shipped (RESEARCH mode).
+Next: iter 801 = BUILD (i18n-ES) — ES guides batch 2, next 5 highest-priority ES guides per I18N-PLAN.md.

@@ -1,12 +1,12 @@
 # LOOP STATE
 
-- iteration: 799
-- lastMode: BUILD (i18n-ES)
-- lastItem: es-guides-batch-1 (Phase ES-0, 5 ES guides)
-- lastResult: SHIPPED 02b1058. ES guides Phase ES-0 begun: 5 top-priority planning guides shipped (/es/first-time-in-israel, /es/visa-information, /es/best-time-to-visit-israel, /es/israel-cost-budget, /es/transportation). Auto-fix: itineraries/[slug].astro + index.astro now filter es/ entries (same as fr/de). 948 pages (+5); e2e pass. CI in_progress at push (standard pattern).
+- iteration: 800
+- lastMode: RESEARCH (pass 162)
+- lastItem: research-pass-162
+- lastResult: 1 net-new BACKLOG item: Turkish nationals PIBA security clearance freshness fix (P2/S, technical/honesty) — new 2026 PIBA policy requires all Turkish nationals to undergo security clearance for Israeli visa; visa-information.md doesn't mention it. Research agent found 10 suggestions, all already in BACKLOG. Haifa cruise terminal + Galilee Culinary Institute confirmed SHIPPED. Saturation: ~96% (162 research passes). BACKLOG: 455 ready items.
 - nextRotationCategory: i18n-BUILD — ES guides batch 2 (5/394 done, 389 remaining). See I18N-PLAN.md.
 - higgsfieldSpent: 0
-- updatedAt: 2026-07-27T10:10Z
+- updatedAt: 2026-07-27T10:50Z
 - branch context: work on master; feature work on auto/<slug>
 
 Notes: iter797 BUILD (seo-content P2/S) — israel-in-may SHIPPED caad9e7. New /israel-in-may monthly guide fills the last major spring shoulder-season gap. Key content: Yom HaZikaron/Yom HaAtzmaut transition with HONESTY caveats (Hebrew calendar date shifts annually); Lag BaOmer bonfire night (link to lag-baomer-israel.md); Jerusalem Day dual-narrative (factual, no advocacy, politically sensitive framing); Galilee late wildflowers + Golan spring peak; TLV beach season opening (22–24°C sea). 7 FAQs, 3 CTAs. Gate: 0 errors; 862 pages (+1); 1175/1175 pass (+2). CI in_progress at push (standard pattern). Monthly guide series now covers: Jan/Feb/Mar/Apr/May/Jun/Sep/Oct/Nov/Dec (10/12 months). Remaining: Jul (P3/S), Aug (covered by israel-in-summer.md).
