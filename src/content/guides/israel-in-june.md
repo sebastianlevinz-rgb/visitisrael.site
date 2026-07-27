@@ -233,6 +233,7 @@ Light summer clothing throughout. Sunscreen, hat, and sunglasses are non-negotia
 ## Where June fits in the bigger picture
 
 - [Israel in May](/israel-in-may): the shoulder-season month before June — Yom HaAtzmaut, Lag BaOmer, and the beach season opening
+- [Israel in July](/israel-in-july): the month that follows — peak diaspora season, the Israel Festival in Jerusalem, and heat strategy for the hottest month
 - [Israel in summer (June–August)](/israel-in-summer): the full seasonal overview including July and August heat strategy
 - [Tel Aviv Pride guide](/tel-aviv-pride-guide): complete Pride Week planning, parade logistics, and the full event programme
 - [LGBTQ+ travel in Israel](/lgbtq-travel-israel): the comprehensive guide to LGBTQ+ travel across Israel
