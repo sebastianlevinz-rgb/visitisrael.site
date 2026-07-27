@@ -1347,3 +1347,6 @@ REVIEW audit of iter766 found 5 comparison/nationality guides presenting easyJet
 
 ## iter806 · es-guides-batch-4 (Phase ES-3) · d76ed3b
 BUILD (i18n-ES Phase ES-3) — 5 ES itinerary guides: /es/1-day-jerusalem-itinerary, /es/1-day-tel-aviv-itinerary, /es/3-days-in-eilat, /es/3-days-in-galilee, /es/3-days-in-haifa. Neutral LATAM Spanish (no vosotros). /es/ link prefixes where ES pages exist; bare links for 4 missing ES attractions (holy-sepulchre, temple-mount, dizengoff, hatachana). 10 new tests (5 smoke + 5 a11y). Gate: pnpm check 0 errors; pnpm build 964 pages; pnpm test:e2e 1215/1215 pass. ES guides: 20/394. Phase ES-3 complete.
+
+## iter807 · israel-in-july · 5c86e9f
+BUILD (seo-content) — New /israel-in-july monthly guide completes the monthly series (final gap after Jan–Jun+Sep–Dec shipped; Aug covered by israel-in-summer.md). Israel Festival (Sultan's Pool + Jerusalem Theatre performing arts); Sea of Galilee July (29°C Kinneret, kayaking/SUP); Tisha B'Av (Western Wall candlelight vigils); peak diaspora season; heat management strategy (7–10am/midday AC/5pm+ pattern); Dead Sea + Masada safety warnings. 7 FAQs, 3 CTAs (Booking.com, 2× GYG). Cross-links: israel-in-summer.md + israel-in-june.md. Gate: pnpm check 0 errors; 965 pages (+1); 1217/1217 pass (+2 tests). 2026-07-27.

@@ -12244,3 +12244,18 @@ Gate: pnpm check 0 errors; pnpm build 964 pages; pnpm test:e2e 1215/1215 pass.
 Ship: squash-merged to master d76ed3b, pushed.
 ES guides: 20/394. Phase ES-3 complete.
 Next: iter807 = REVIEW (807%5==2).
+
+## 2026-07-27T17:55Z · iter 807 · BUILD (seo-content) · israel-in-july
+
+Mode: BUILD (807 % 5 == 2). Category: seo-content (rotation after last monetization/i18n-ES run).
+Note: STATE.md from iter806 erroneously labelled nextRotationCategory as "REVIEW (iter807%5==2)" — 807%5=2 is BUILD per PLAYBOOK; corrected this iteration.
+Note: iter805 research added "Standalone Israel 10-day itinerary" to BACKLOG but /src/content/itineraries/10-days-in-israel.md already exists covering the same ground — removed from BACKLOG as duplicate.
+
+Selected: israel-in-july (P3/S seo-content) — final major monthly guide gap.
+Monthly guide series now COMPLETE: Jan/Feb/Mar/Apr/May/Jun/Jul/Sep/Oct/Nov/Dec (Aug covered by israel-in-summer.md).
+
+Content: Israel Festival (Jerusalem, mid-Jul–Aug, Sultan's Pool + Jerusalem Theatre, world-class performing arts); Sea of Galilee July (29°C Kinneret; kayaking/SUP/boat tours, morning window strategy); Tisha B'Av (Western Wall candlelight vigils, Jewish heritage section); peak diaspora season (North American Jewish summer + Bar/Bat Mitzvah season); heat management (7–10am outdoors, 11am–4pm AC, 5pm+ evening resume); Dead Sea + Masada July safety warnings; Tel Aviv July (beach/rooftop/nightlife); Jerusalem July (Old City morning strategy, Israel Festival overlap). 7 FAQs. 3 CTAs.
+Cross-links: added to israel-in-summer.md + israel-in-june.md.
+Gate: pnpm check 0 errors; pnpm build 965 pages (+1); pnpm test:e2e 1217/1217 pass (+2: smoke+a11y). GREEN.
+Ship: squash-merged to master 5c86e9f, pushed origin/master. CI in_progress at push (standard pattern).
+Next: iter808 = BUILD (808%5==3 → tools category, but tools exhausted → fall through to technical or i18n-ES Phase ES-4).
