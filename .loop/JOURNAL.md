@@ -12197,3 +12197,11 @@ Gate: pnpm check 0 errors; 959 pages (unchanged from post-iter802 build); 10/10 
 Ship: squash-merged to master 1af15a0; pushed origin/master. CI in_progress at push.
 ES count: 15/394. Phase ES-2 DONE. I18N-PLAN.md updated.
 Next: iter804 = REVIEW (804%5==4).
+
+## 2026-07-27T14:00Z · iter 803 · BUILD (i18n-ES Phase ES-2) · es-guides-batch-3 [DUPLICATE RUN]
+What: parallel cloud instance already completed iter803 (1af15a0) before this run could push.
+This run independently produced the same 5 ES guides (ben-gurion-airport-transfers, car-rental-israel,
+driving-in-israel, israel-travel-insurance, israel-money-guide) and verified gate independently:
+pnpm check 0 errors; 959 pages; 1205/1205 e2e+a11y pass (identical green gate).
+Outcome: no new commit needed — origin/master already at 3425bae (state advance). Local commit reset to origin/master. Auto branch deleted.
+Duplicate runs are expected when cron fires while prior run is still in-flight. No data loss.
