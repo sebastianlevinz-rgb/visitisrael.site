@@ -414,6 +414,11 @@ const ROUTES = [
   '/es/driving-in-israel',
   '/es/israel-travel-insurance',
   '/es/israel-money-guide',
+  '/es/1-day-jerusalem-itinerary',
+  '/es/1-day-tel-aviv-itinerary',
+  '/es/3-days-in-eilat',
+  '/es/3-days-in-galilee',
+  '/es/3-days-in-haifa',
 ];
 
 for (const route of ROUTES) {
