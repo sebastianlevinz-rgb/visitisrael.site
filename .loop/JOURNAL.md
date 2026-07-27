@@ -12168,3 +12168,32 @@ Gate: pnpm check 0 errors; pnpm build 954 pages (+1); pnpm test:e2e 1195/1195 pa
 Ship: squash-merged to master 5d5e00a; pushed origin/master. CI in_progress at push.
 Prod: CI in_progress (standard pattern).
 Next: iter 803 = BUILD (i18n-ES Phase ES-2) — next 5 ES guides per I18N-PLAN.md comm output.
+
+## 2026-07-27T13:40Z · iter 803 · BUILD (i18n-ES Phase ES-2) · es-guides-batch-3
+
+Mode: BUILD (803 % 5 == 3). Category: i18n-ES Phase ES-2 (per STATE.md nextRotationCategory).
+Selected: next 5 from comm output — all confirmed high-traffic evergreen transport + planning guides.
+
+5 ES guides shipped:
+- /es/ben-gurion-airport-transfers: traslados privados (WelcomePickups/Kiwitaxi CTAs), tren
+  ~20min a TLV / ~30min a JER, autobús 485, comparativa tabla, cobertura Shabat explicada.
+- /es/car-rental-israel: cuándo alquilar (skip for cities, rent for Galilee/Golan/Negev),
+  tabla de categorías de vehículo con tarifas indicativas, extras (CDW, joven, Ruta 6),
+  discovercars + rentalcars CTAs.
+- /es/driving-in-israel: estilo de conducción israelí, límites de velocidad tabla, Ruta 6
+  peaje sin cabinas, Waze/Google Maps, código de colores bordillo, Shabat + Yom Kipur,
+  restricciones Cisjordania/Jordania, mapa rutas principales.
+- /es/israel-travel-insurance: por qué importa, qué buscar, tabla de niveles (básico/estándar/
+  integral/aventura), aviso situación de seguridad, SafetyWing CTA.
+- /es/israel-money-guide: NIS denominaciones, cajeros bancarios (Leumi/Hapoalim/Discount/
+  Mizrahi), PIN de 4 dígitos, evitar DCC (tabla de acciones), Visa/Mastercard vs Amex,
+  estrategia efectivo mercados + Shabat, tabla de cambio de divisas, SafetyWing CTA.
+
+Cross-linking: guides in this batch link to each other via /es/ prefix where applicable.
+Also link to existing ES guides: /es/shabbat-guide, /es/transportation, /es/ben-gurion-airport-guide,
+/es/is-israel-safe, /es/first-time-in-israel, /es/visa-information, /es/israel-cost-budget.
+
+Gate: pnpm check 0 errors; 959 pages (unchanged from post-iter802 build); 10/10 targeted tests pass.
+Ship: squash-merged to master 1af15a0; pushed origin/master. CI in_progress at push.
+ES count: 15/394. Phase ES-2 DONE. I18N-PLAN.md updated.
+Next: iter804 = REVIEW (804%5==4).

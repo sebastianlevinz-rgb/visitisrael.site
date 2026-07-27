@@ -1,13 +1,15 @@
 # LOOP STATE
 
-- iteration: 802
-- lastMode: BUILD (seo-content P2/S)
-- lastItem: nahalat-binyamin-market-tel-aviv
-- lastResult: SHIPPED 5d5e00a. New /nahalat-binyamin-market-tel-aviv guide fills P2/S seo-content gap. Nahalat Binyamin pedestrian market (200+ juried artisan stalls, Tue + Fri, since 1920s). Content: market concept + quality-control, what to find (jewellery/ceramics/paintings/glasswork/textiles/Judaica), combine-with-Carmel-Market routing, Kerem HaTeimanim context. 7 FAQs, 3 affiliate CTAs (GYG/Civitatis/Booking). Cross-link update to tel-aviv-carmel-market.md. Gate: pnpm check 0 errors; 954 pages (+1); 1195/1195 pass (+2 tests). CI in_progress at push (standard pattern).
-- nextRotationCategory: i18n-ES BUILD (iter803%5==3 → BUILD; i18n-ES Phase ES-2 = next 5 ES guides per I18N-PLAN.md).
+- iteration: 803
+- lastMode: BUILD (i18n-ES Phase ES-2)
+- lastItem: es-guides-batch-3 (5 guides: ben-gurion-airport-transfers, car-rental-israel, driving-in-israel, israel-travel-insurance, israel-money-guide)
+- lastResult: SHIPPED 1af15a0. ES guides 15/394 (+5). Phase ES-2 complete. 5 high-traffic transport + planning guides in neutral Latin-American Spanish. 959 pages; 10 new targeted tests pass. CI in_progress at push (standard pattern).
+- nextRotationCategory: REVIEW (iter804%5==4 → REVIEW). After: iter805%5==0 → RESEARCH; iter806 → monetization/i18n-ES Phase ES-3.
 - higgsfieldSpent: 0
-- updatedAt: 2026-07-27T13:00Z
+- updatedAt: 2026-07-27T13:40Z
 - branch context: work on master; feature work on auto/<slug>
+
+Notes: iter803 BUILD (i18n-ES Phase ES-2) — es-guides-batch-3 SHIPPED 1af15a0. 5 ES guides: /es/ben-gurion-airport-transfers, /es/car-rental-israel, /es/driving-in-israel, /es/israel-travel-insurance, /es/israel-money-guide. Neutral Latin-American Spanish (no vosotros). Inter-guide links use /es/ prefix where ES version exists. 959 pages (pagefind indexed). 10 new targeted tests pass (5 smoke + 5 a11y). ES guide count: 15/394. Phase ES-2 complete; Phase ES-3 queued for iter806 or later.
 
 Notes: iter802 BUILD (seo-content P2/S) — nahalat-binyamin-market-tel-aviv SHIPPED 5d5e00a. New /nahalat-binyamin-market-tel-aviv fills confirmed P2/S seo-content gap (iter375 research). Nahalat Binyamin = Israel's largest juried arts & crafts market (200+ handmade-only stalls, open Tue + Fri since 1920s). Distinct from adjacent tel-aviv-carmel-market.md (food market). Content: quality-control model (artists only selling own work), 6 product categories (jewellery/ceramics/paintings/glasswork/textiles/wooden Judaica), Carmel Market combine routing, Kerem HaTeimanim neighbourhood context. 7 FAQs. 3 CTAs (GYG, Civitatis, Booking.com). Cross-link updated in tel-aviv-carmel-market.md (external URL → internal link). Gate: pnpm check 0 errors; 954 pages (+1); 1195/1195 pass (+2).
 
