@@ -12068,3 +12068,23 @@ stopped: STOP flag
 Old SEO loop retired (STOP flag removed). New mission: translate site to es/fr/de/en.
 Gap: ES 0/394 guides, FR 87/394 guides, DE 87/394 guides. I18N-PLAN.md updated.
 New cron scheduled — translation-only loop begins next run.
+
+## 2026-07-27T10:10Z · iter 799 · BUILD (i18n-ES) · es-guides-batch-1
+What: ES guides Phase ES-0 — first 5 Spanish-language guide translations.
+  New files: src/content/guides/es/{first-time-in-israel,visa-information,
+  best-time-to-visit-israel,israel-cost-budget,transportation}.md
+  Neutral Latin-American Spanish register (ustedes; no vosotros). Proper ES exonyms:
+  Jerusalén, Mar Muerto, Galilea, Neguev, Golán, Monte Hermón. Locale-prefixed links
+  (/es/) between the 5 guides; bare paths for regions, tools, and untranslated guides.
+  No fabricated prices/ratings. Religious/contested site content follows EN framing.
+  Auto-fix (Rule 2): itineraries/[slug].astro + itineraries/index.astro now filter
+  es/ entries (same pattern as fr/de) so ES itinerary content is not double-routed.
+  hasEs prop + hreflang wired in itinerary EN template.
+Tests: 7 new smoke routes (/es/ home + 5 ES guide routes + /es/plan-your-trip removed
+  for now); 2 new a11y routes (/es/first-time-in-israel, /es/visa-information);
+  hreflang alternates test updated to check 'es' on /fr/first-time-in-israel.
+Gate: pnpm check 0 errors; pnpm build 948 pages (+5); pnpm test:e2e pass. GREEN.
+Ship: squash-merged to master 02b1058, pushed. CI in_progress at push time.
+Prod: CI in_progress (standard pattern for this repo).
+I18N progress: ES 5/394 guides (1.3%); FR 87/394; DE 87/394.
+Next: iter 800 = BUILD (i18n-ES) — ES guides batch 2, next 5 high-priority guides.

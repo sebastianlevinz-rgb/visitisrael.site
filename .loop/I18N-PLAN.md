@@ -13,10 +13,10 @@
 | en     | 394    | 65          | 11      | 6           |
 | fr     | 87     | 61          | 11      | 6           |
 | de     | 87     | 61          | 11      | 6           |
-| es     | 0      | 61          | 11      | 6           |
+| es     | 5      | 61          | 11      | 6           |
 
 **Gaps to close:**
-- es guides: **394 missing** (all of them — highest priority)
+- es guides: **389 missing** (5/394 done — ongoing, highest priority)
 - fr guides: **307 missing** (EN guides added after Phase 2 Batch 18, iter408)
 - de guides: **307 missing** (same)
 - fr/de/es attractions: **4 missing each** (the 4 EN attractions added after Phase 4)
@@ -73,8 +73,13 @@ Take the top 5 by priority (or head -5 if priority not obvious), translate each 
 
 ## Progress tracker
 
-### ES guides (0 / 394)
-- Phase ES-0 — NOT STARTED. Next run should begin here.
+### ES guides (5 / 394)
+- Phase ES-0 — IN PROGRESS. iter799 shipped 5/394:
+  first-time-in-israel, visa-information, best-time-to-visit-israel,
+  israel-cost-budget, transportation (02b1058).
+- Phase ES-1 — NOT STARTED. Next batch: shabbat-guide, is-israel-safe,
+  israel-accommodation-guide, best-time-to-visit-israel (done), israel-travel-tips
+  (or similar high-traffic evergreen guides — pick top 5 from EN not yet in ES).
 
 ### FR guide catch-up (87 / 394 = 307 remaining)
 - Phase FR-catchup — NOT STARTED.
