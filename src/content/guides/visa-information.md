@@ -3,7 +3,7 @@ title: 'Israel Visa & ETA-IL Entry Requirements for Tourists (2026)'
 description: 'Israel entry requirements: who needs a visa, the mandatory ETA-IL authorization, the paper entry slip, how long you can stay and what to expect at the border.'
 heroImage: /images/regions/tel-aviv/hero.jpg
 category: Planning
-updatedAt: 2026-06-22
+updatedAt: 2026-07-27
 faqs:
   - question: Do I need a visa to visit Israel?
     answer: Citizens of the US, UK, EU/Schengen, Canada, Australia and many other countries do not need a visa for tourist stays of up to 90 days. However, since 1 January 2025 most of these visa-exempt travellers must obtain an ETA-IL (electronic travel authorization) online before they fly. Requirements depend on your nationality, so always verify with an official Israeli source before you travel.
@@ -54,6 +54,12 @@ If you need longer than your permitted stay, you can apply for an extension at a
 ## Travelers who need a B/2 visa — including Chinese citizens
 
 Citizens of countries not on the visa-exempt list — including **China** — must apply for a **B/2 Tourist Visa** at an Israeli embassy or consulate before travelling. The ETA-IL does not apply to Chinese passport holders. For a complete guide to the B/2 visa application process, flight options, payment practicalities, and Mandarin-speaking guide options, see our dedicated [Israel for Chinese travelers guide](/israel-for-chinese-travelers).
+
+## Turkish nationals — mandatory PIBA security clearance
+
+Turkish passport holders are **not on Israel's visa-exempt list** and require a **B/2 Tourist Visa**. Since 2026, all Turkish nationals must additionally complete a mandatory **PIBA (Population and Immigration Authority) security clearance** before their visa can be approved — a step that extends processing time beyond a standard B/2 application.
+
+If you hold a Turkish passport, apply well in advance of your intended travel date and confirm current clearance procedures directly with an Israeli embassy or consulate in Turkey, or via the [official PIBA portal](https://israel-entry.piba.gov.il/). Immigration policies can change; always verify before booking.
 
 ## Filipino travellers — visa-exempt, ETA-IL required
 

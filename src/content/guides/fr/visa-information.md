@@ -3,7 +3,7 @@ title: "Visa & ETA-IL Israël : conditions d'entrée touristes 2026"
 description: "Conditions d'entrée en Israël : visa, autorisation ETA-IL obligatoire, bulletin d'entrée papier, durée de séjour autorisée et procédures à la frontière."
 heroImage: /images/regions/tel-aviv/hero.jpg
 category: Planification
-updatedAt: 2026-06-22
+updatedAt: 2026-07-27
 faqs:
   - question: "Ai-je besoin d'un visa pour visiter Israël ?"
     answer: "Les ressortissants français, belges, suisses, canadiens, australiens et de nombreux autres pays n'ont pas besoin de visa pour des séjours touristiques jusqu'à 90 jours. Cependant, depuis le 1er janvier 2025, la plupart de ces voyageurs exemptés de visa doivent obtenir une ETA-IL (autorisation électronique de voyage) en ligne avant de prendre l'avion. Les conditions varient selon la nationalité — vérifiez toujours les exigences applicables auprès d'une source officielle israélienne avant de voyager."
@@ -50,6 +50,12 @@ Attendez-vous à des questions de sécurité à l'arrivée — sur votre voyage,
 ## Prolongation de séjour et entrée par voie terrestre
 
 Si vous avez besoin de rester plus longtemps que la durée autorisée, renseignez-vous auprès de l'Autorité de la population et de l'immigration pendant votre séjour. Si vous entrez **par voie terrestre depuis la Jordanie ou l'Égypte**, les exigences concernant l'ETA-IL et les procédures diffèrent selon le poste-frontière — consultez notre [guide des passages frontaliers](/fr/border-crossings).
+
+## Ressortissants turcs — contrôle de sécurité PIBA obligatoire
+
+Les ressortissants turcs ne bénéficient **pas de l'exemption de visa** pour Israël et doivent obtenir un **visa de visiteur B/2**. Depuis 2026, tous les ressortissants turcs doivent en outre obligatoirement passer un **contrôle de sécurité PIBA (Autorité de la population et de l'immigration)** avant que leur visa ne puisse être approuvé, ce qui allonge les délais par rapport à une demande B/2 standard.
+
+Si vous avez un passeport turc, faites votre demande bien à l'avance et confirmez les procédures actuelles directement auprès d'une ambassade ou d'un consulat israélien en Turquie, ou via le [portail officiel de la PIBA](https://israel-entry.piba.gov.il/). Les conditions d'immigration peuvent évoluer ; vérifiez toujours avant de réserver.
 
 ## Avant de partir
 

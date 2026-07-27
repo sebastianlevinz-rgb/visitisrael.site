@@ -3,7 +3,7 @@ title: "Visa e ETA-IL para Israel: requisitos de entrada 2026"
 description: "Entrada a Israel: quién necesita visa, la autorización ETA-IL obligatoria, el comprobante de entrada en papel y qué esperar en la frontera."
 heroImage: /images/regions/tel-aviv/hero.jpg
 category: Planificación
-updatedAt: 2026-06-22
+updatedAt: 2026-07-27
 faqs:
   - question: "¿Necesito visa para visitar Israel?"
     answer: "Los ciudadanos de EE. UU., el Reino Unido, la UE/Schengen, Canadá, Australia y muchos otros países no necesitan visa para estancias turísticas de hasta 90 días. Sin embargo, desde el 1 de enero de 2025, la mayoría de estos viajeros exentos de visa deben obtener una ETA-IL (autorización electrónica de viaje) en línea antes de volar. Los requisitos dependen de la nacionalidad; verifique siempre con una fuente oficial israelí antes de viajar."
@@ -54,6 +54,12 @@ Si necesita permanecer más del tiempo permitido, puede solicitar una prórroga 
 ## Viajeros que necesitan una visa B/2
 
 Los ciudadanos de países que no están en la lista de exentos de visa deben solicitar una **visa de turista B/2** en una embajada o consulado israelí antes de viajar. La ETA-IL no se aplica a estos pasaportes.
+
+## Ciudadanos turcos — verificación de seguridad PIBA obligatoria
+
+Los ciudadanos turcos **no están exentos de visa** para Israel y necesitan una **visa de turista B/2**. Desde 2026, todos los nacionales turcos deben además completar una obligatoria **verificación de seguridad de la PIBA (Autoridad de Población e Inmigración)** antes de que su visa pueda ser aprobada, lo que extiende los plazos más allá de una solicitud B/2 estándar.
+
+Si tiene pasaporte turco, solicite la visa con suficiente antelación y confirme los procedimientos actuales directamente con una embajada o consulado israelí en Turquía, o a través del [portal oficial de la PIBA](https://israel-entry.piba.gov.il/). Los requisitos de inmigración pueden cambiar; verifique siempre antes de reservar.
 
 ## Antes de viajar
 

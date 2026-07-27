@@ -3,7 +3,7 @@ title: "Visum & ETA-IL für Israel: Einreisebedingungen 2026"
 description: "Einreisebedingungen für Israel-Touristen: Visum, obligatorische ETA-IL-Reisegenehmigung, Einreiseschein auf Papier, Aufenthaltsdauer und Grenzformalitäten."
 heroImage: /images/regions/tel-aviv/hero.jpg
 category: Planung
-updatedAt: 2026-06-22
+updatedAt: 2026-07-27
 faqs:
   - question: "Brauche ich ein Visum für Israel?"
     answer: "Bürger aus Deutschland, Österreich, der Schweiz, Kanada, Australien und vielen anderen Ländern benötigen für touristische Aufenthalte bis zu 90 Tagen kein Visum. Seit dem 1. Januar 2025 müssen die meisten dieser visumbefreiten Reisenden jedoch eine ETA-IL (elektronische Einreisegenehmigung) online beantragen, bevor sie fliegen. Die Bedingungen hängen von der Staatsangehörigkeit ab — prüfen Sie die aktuellen Anforderungen stets bei einer offiziellen israelischen Quelle vor Ihrer Reise."
@@ -50,6 +50,12 @@ Rechnen Sie mit Sicherheitsfragen bei der Ankunft — zu Ihrer Reise, Ihrem Aufe
 ## Aufenthaltsverlängerung und Einreise auf dem Landweg
 
 Falls Sie länger als die erlaubte Aufenthaltsdauer bleiben möchten, wenden Sie sich während Ihres Aufenthalts an die Bevölkerungs- und Einwanderungsbehörde. Bei der **Einreise auf dem Landweg aus Jordanien oder Ägypten** gelten abweichende ETA-IL-Anforderungen und Verfahren je nach Grenzübergang — lesen Sie unseren [Ratgeber zu Grenzübergängen](/de/border-crossings).
+
+## Türkische Staatsangehörige — obligatorische PIBA-Sicherheitsüberprüfung
+
+Türkische Staatsangehörige sind **nicht von der Visumpflicht für Israel befreit** und benötigen ein **B/2-Besuchervisum**. Seit 2026 müssen alle türkischen Staatsangehörigen zusätzlich eine obligatorische **PIBA-Sicherheitsüberprüfung (Bevölkerungs- und Einwanderungsbehörde)** bestehen, bevor ihr Visum genehmigt werden kann — ein Schritt, der die Bearbeitungszeit gegenüber einem normalen B/2-Antrag verlängert.
+
+Wenn Sie einen türkischen Reisepass besitzen, beantragen Sie das Visum weit im Voraus und bestätigen Sie die aktuellen Überprüfungsverfahren direkt bei einer israelischen Botschaft oder einem Konsulat in der Türkei oder über das [offizielle PIBA-Portal](https://israel-entry.piba.gov.il/). Einwanderungsvorschriften können sich ändern; überprüfen Sie diese stets vor der Buchung.
 
 ## Vor der Abreise
 
