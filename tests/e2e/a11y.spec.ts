@@ -401,6 +401,8 @@ const ROUTES = [
   '/israel-in-march',
   '/israel-in-january',
   '/israel-in-may',
+  '/es/first-time-in-israel',
+  '/es/visa-information',
 ];
 
 for (const route of ROUTES) {

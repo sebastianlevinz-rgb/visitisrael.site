@@ -4,8 +4,14 @@ const ROUTES = [
   '/',
   '/fr/',
   '/de/',
+  '/es/',
   '/fr/plan-your-trip',
   '/de/plan-your-trip',
+  '/es/first-time-in-israel',
+  '/es/visa-information',
+  '/es/best-time-to-visit-israel',
+  '/es/israel-cost-budget',
+  '/es/transportation',
   '/jerusalem',
   '/jerusalem/western-wall',
   '/itineraries',
@@ -801,7 +807,7 @@ test('translated guide sets lang, hreflang alternates, and reciprocates from EN'
   // French guide has correct lang + hreflang
   await page.goto('/fr/first-time-in-israel');
   await expect(page.locator('html')).toHaveAttribute('lang', 'fr');
-  for (const hl of ['en', 'fr', 'de', 'x-default']) {
+  for (const hl of ['en', 'fr', 'de', 'es', 'x-default']) {
     await expect(page.locator(`link[rel="alternate"][hreflang="${hl}"]`)).toHaveCount(1);
   }
   await expect(page.locator('link[rel="alternate"][hreflang="en"]')).toHaveAttribute(
@@ -825,6 +831,10 @@ test('translated guide sets lang, hreflang alternates, and reciprocates from EN'
   await expect(page.locator('link[rel="alternate"][hreflang="de"]')).toHaveAttribute(
     'href',
     /\/de\/first-time-in-israel$/
+  );
+  await expect(page.locator('link[rel="alternate"][hreflang="es"]')).toHaveAttribute(
+    'href',
+    /\/es\/first-time-in-israel$/
   );
 });
 

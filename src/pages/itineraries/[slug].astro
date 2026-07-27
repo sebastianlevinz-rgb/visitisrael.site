@@ -12,7 +12,9 @@ import { article, breadcrumbList, faqPage, touristTrip, SITE } from '@/lib/schem
 
 export async function getStaticPaths() {
   const allItineraries = await getCollection('itineraries');
-  const enItineraries = allItineraries.filter((e) => !e.id.startsWith('fr/') && !e.id.startsWith('de/'));
+  const enItineraries = allItineraries.filter(
+    (e) => !e.id.startsWith('fr/') && !e.id.startsWith('de/') && !e.id.startsWith('es/')
+  );
   const idSet = new Set(allItineraries.map((e) => e.id));
   return enItineraries.map((entry) => ({
     params: { slug: entry.id },
@@ -20,22 +22,25 @@ export async function getStaticPaths() {
       entry,
       hasFr: idSet.has(`fr/${entry.id}`),
       hasDe: idSet.has(`de/${entry.id}`),
+      hasEs: idSet.has(`es/${entry.id}`),
     },
   }));
 }
 
-const { entry, hasFr = false, hasDe = false } = Astro.props;
+const { entry, hasFr = false, hasDe = false, hasEs = false } = Astro.props;
 const { Content } = await render(entry);
 const d = entry.data;
 const hero = d.heroImage ?? '/images/regions/jerusalem/hero.jpg';
 const path = `/itineraries/${entry.id}`;
 const frPath = `/fr/itineraries/${entry.id}`;
 const dePath = `/de/itineraries/${entry.id}`;
+const esPath = `/es/itineraries/${entry.id}`;
 
 const alternates = [
   { hreflang: 'en', href: `${SITE}${path}` },
   ...(hasFr ? [{ hreflang: 'fr', href: `${SITE}${frPath}` }] : []),
   ...(hasDe ? [{ hreflang: 'de', href: `${SITE}${dePath}` }] : []),
+  ...(hasEs ? [{ hreflang: 'es', href: `${SITE}${esPath}` }] : []),
   { hreflang: 'x-default', href: `${SITE}${path}` },
 ];
 const crumbs = [
