@@ -12277,3 +12277,9 @@ Gate: pnpm check 0 errors; pnpm build 970 pages (+5); pnpm test:e2e 1227/1227 pa
 Ship: committed 903b747 directly on master (auto branch empty — no commits made before switching
 back), pushed origin/master. CI in_progress at push (standard pattern; Lighthouse succeeded).
 ES guide count: 25/394. Phase ES-4 complete.
+
+## 2026-07-27T19:45Z · iter 809 · REVIEW · review-809-es4-link-fixes
+What: Audited the 5 Phase ES-4 guides shipped in iter808 (/es/day-trips-from-jerusalem, /es/day-trips-from-tel-aviv, /es/best-tours-in-israel, /es/dead-sea-guide, /es/best-holy-land-tours). Found the same systemic attraction-link bug as iter804 — ES-4 guides were authored after that fix with the same bare-link pattern. 14 links in 4 files missing /es/ prefix: attraction sub-pages (western-wall, via-dolorosa, old-city, masada, bahai-gardens, old-jaffa, carmel-market, yardenit), guide cross-refs (/best-tours-in-israel), and itinerary links (/itineraries, /itineraries/3-days-in-jerusalem). /jerusalem/holy-sepulchre correctly left bare (no ES version exists). dead-sea-guide.md was clean (no bare links). ES-3 guides verified clean via spot-check (3-days-in-haifa uses /es/haifa/... correctly).
+Gate: pnpm check 0 errors; build 970 pages (no change); pnpm test:e2e 1227/1227 pass.
+Ship: squash-merged to master 534c97f, pushed. CI in_progress at push (standard pattern).
+Next: iter810 = RESEARCH (810%5==0).

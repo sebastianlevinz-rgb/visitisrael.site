@@ -1353,3 +1353,6 @@ BUILD (seo-content) — New /israel-in-july monthly guide completes the monthly 
 
 ## iter808 · es-guides-batch-5 (Phase ES-4) · 903b747
 BUILD (i18n-ES Phase ES-4) — 5 high-priority ES guides translated to neutral Latin-American Spanish: /es/day-trips-from-jerusalem, /es/day-trips-from-tel-aviv, /es/best-tours-in-israel, /es/dead-sea-guide, /es/best-holy-land-tours. /es/ link prefixes where ES versions exist (25 prior ES guides + 11 regions). Religious/contested sites carry over EN neutral framing. YAML fix: single-quote escape in day-trips-from-tel-aviv.md. 10 new tests (5 smoke + 5 a11y). Gate: pnpm check 0 errors; 970 pages (+5); 1227/1227 pass (+10). ES guides: 25/394. Phase ES-4 complete. 2026-07-27.
+
+## review-809-es4-link-fixes · 534c97f
+Fix 14 bare attraction/itinerary links in Phase ES-4 ES guides missing /es/ prefix. Ensures Spanish-language users navigating within /es/ stay on ES pages for attractions and itineraries that have ES versions.

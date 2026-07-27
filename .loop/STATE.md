@@ -1,13 +1,15 @@
 # LOOP STATE
 
-- iteration: 808
-- lastMode: BUILD (iter808%5==3 → tools exhausted → i18n-ES Phase ES-4)
-- lastItem: es-guides-batch-5
-- lastResult: SHIPPED 903b747. 5 ES guides (Phase ES-4): /es/day-trips-from-jerusalem, /es/day-trips-from-tel-aviv, /es/best-tours-in-israel, /es/dead-sea-guide, /es/best-holy-land-tours. Neutral LATAM Spanish; /es/ link prefixes where ES versions exist; religious/contested sites carry over EN neutral framing. YAML single-quote escape fix in day-trips-from-tel-aviv.md. 10 new tests (5 smoke + 5 a11y). Gate: pnpm check 0 errors; 970 pages (+5); 1227/1227 pass (+10). ES guide count: 25/394. Phase ES-4 complete.
-- nextRotationCategory: REVIEW (iter809%5==4 → REVIEW mode)
+- iteration: 809
+- lastMode: REVIEW (iter809%5==4)
+- lastItem: review-809-es4-link-fixes
+- lastResult: SHIPPED 534c97f. Audited Phase ES-4 guides (iter808). Found systemic attraction/itinerary link bug — same as iter804 fixed for ES-0/1/2, but ES-4 guides were authored after that fix with same pattern. Fixed 14 bare links across 4 files: day-trips-from-jerusalem (1 link), day-trips-from-tel-aviv (5 links), best-tours-in-israel (6 links), best-holy-land-tours (3 links). /jerusalem/western-wall, /jerusalem/via-dolorosa, /jerusalem/old-city, /haifa/bahai-gardens, /dead-sea/masada, /tel-aviv/old-jaffa, /tel-aviv/carmel-market, /galilee/yardenit, /itineraries, /es/itineraries/3-days-in-jerusalem, /best-tours-in-israel — all corrected to /es/... prefix. /jerusalem/holy-sepulchre correctly left bare (no ES version). Gate: pnpm check 0 errors; 970 pages (no change); 1227/1227 pass. CI in_progress at push (standard pattern).
+- nextRotationCategory: RESEARCH (iter810%5==0 → RESEARCH mode)
 - higgsfieldSpent: 0
-- updatedAt: 2026-07-27T18:48Z
+- updatedAt: 2026-07-27T19:45Z
 - branch context: work on master; feature work on auto/<slug>
+
+Notes: iter809 REVIEW (review-809-es4-link-fixes) — SHIPPED 534c97f. Audited all 5 Phase ES-4 guides. Found 14 bare attraction/itinerary links missing /es/ prefix across 4 guides: day-trips-from-jerusalem (itineraries/3-days-in-jerusalem), day-trips-from-tel-aviv (old-city, western-wall, masada, bahai-gardens, /itineraries), best-tours-in-israel (western-wall, via-dolorosa, masada, old-jaffa, carmel-market, /itineraries, /es/ index), best-holy-land-tours (yardenit, /best-tours-in-israel, /itineraries). /jerusalem/holy-sepulchre correctly left bare (no ES attraction page). Gate: 0 errors; 970 pages; 1227/1227 pass. CI in_progress. Next: iter810 RESEARCH.
 
 Notes: iter808 BUILD (i18n-ES Phase ES-4) — es-guides-batch-5 SHIPPED 903b747. 5 ES guides: /es/day-trips-from-jerusalem, /es/day-trips-from-tel-aviv, /es/best-tours-in-israel, /es/dead-sea-guide, /es/best-holy-land-tours. Neutral LATAM Spanish; /es/ link prefixes where ES versions exist; neutral framing on contested sites preserved. 10 new tests; 970 pages; 1227/1227 pass. ES: 25/394. Phase ES-4 complete.
 
