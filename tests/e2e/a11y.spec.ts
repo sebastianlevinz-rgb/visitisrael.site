@@ -420,6 +420,11 @@ const ROUTES = [
   '/es/3-days-in-eilat',
   '/es/3-days-in-galilee',
   '/es/3-days-in-haifa',
+  '/es/day-trips-from-jerusalem',
+  '/es/day-trips-from-tel-aviv',
+  '/es/best-tours-in-israel',
+  '/es/dead-sea-guide',
+  '/es/best-holy-land-tours',
 ];
 
 for (const route of ROUTES) {
