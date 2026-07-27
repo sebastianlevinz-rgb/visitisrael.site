@@ -1,13 +1,15 @@
 # LOOP STATE
 
-- iteration: 810
-- lastMode: RESEARCH (iter810%5==0)
-- lastItem: research-810-wine-trails-transport-updates
-- lastResult: RESEARCH COMPLETE (no shipping). 164th research pass. 4 net-new BACKLOG items: [P1/S] transportation.md sherut honesty fix (intercity Nesher/Amal sheruts DISCONTINUED per israel-taxi.com); [P2/S] Haifa new cruise terminal May 2026 update (2 mega-ships, 1M pax/year); [P2/S] Judean Hills wine trail guide (/judean-hills-wine-trail — 30+ boutique wineries, Judea's only registered Appellation); [P3/S] Golan Heights wine trail guide; [P2/S] Galilee Culinary Institute freshness update (Oct 2026 full opening). Stale auto/* branches: ALL 7 verified as already-SHIPPED work (orphaned remnants from iters 411/522/573/588/607/761). ES Phase ES-5 candidates identified: first-time-in-israel, best-time-to-visit-israel, visa-information, israel-cost-budget, transportation. BACKLOG now at ~460 ready items.
-- nextRotationCategory: BUILD (iter811%5==1 → monetization OR P1 honesty fix for sherut OR i18n-ES Phase ES-5)
+- iteration: 811
+- lastMode: BUILD (iter811%5==1 → P1 honesty fix override)
+- lastItem: transportation-sherut-honesty-fix
+- lastResult: SHIPPED 1949eda. P1 honesty fix: corrected false intercity sherut claims in transportation.md (EN/FR/DE/ES). Nesher (BGA→Jerusalem) and Amal (BGA→Haifa) intercity sheruts confirmed discontinued 2026; title/description/body/FAQ/Shabbat sections updated in all 4 locales. Bonus: fixed bare /shabbat-guide link → /es/shabbat-guide in ES file. Gate: pnpm check 0 errors; build 970 pages (unchanged); 1227/1227 e2e pass. CI in_progress at push (standard pattern).
+- nextRotationCategory: BUILD (iter812%5==2 → seo-content OR i18n-ES Phase ES-5)
 - higgsfieldSpent: 0
-- updatedAt: 2026-07-27T20:45Z
+- updatedAt: 2026-07-27T21:50Z
 - branch context: work on master; feature work on auto/<slug>
+
+Notes: iter811 BUILD (P1 honesty fix override) — transportation-sherut-honesty-fix SHIPPED 1949eda. Nesher (BGA→Jerusalem) and Amal (BGA→Haifa) intercity sheruts CONFIRMED DISCONTINUED 2026. transportation.md (EN/FR/DE/ES) corrected: (1) EN + FR titles had "Sheruts" removed; (2) all 4 descriptions updated to drop intercity sherut reference; (3) sherut body section rewritten to name Nesher/Amal discontinuation + note intra-city sheruts may still run locally; (4) Shabbat FAQ fixed — removed "(including from Ben Gurion Airport)" claim; (5) Shabbat section simplified to taxis/apps/rental; (6) ES link bug fixed (/shabbat-guide → /es/shabbat-guide). Gate: 0 errors; 970 pages; 1227/1227 pass. CI in_progress. Next: iter812 BUILD (seo-content or i18n-ES Phase ES-5).
 
 Notes: iter810 RESEARCH (research-810-wine-trails-transport-updates) — 164th research pass. Key findings: (1) Intercity sheruts DISCONTINUED — transportation.md title/description outdated (P1/S fix next BUILD); (2) Haifa new cruise terminal May 2026 — up to 1M passengers/year, dual mega-ship capable; (3) Judean Hills wine trail gap — 30+ wineries, registered Appellation, strong competitor ranking from winetourism.com/mokitours.com/israelwinetour.co.il; (4) Golan Heights wine trail gap; (5) GCI full opening Oct 2026 (freshness update needed); (6) All 7 stale auto/* branches confirmed already-SHIPPED — no recovery needed. ES Phase ES-5 next batch: first-time-in-israel, best-time-to-visit-israel, visa-information, israel-cost-budget, transportation. Next: iter811 BUILD (monetization rotation, or P1 sherut fix override, or i18n-ES Phase ES-5).
 

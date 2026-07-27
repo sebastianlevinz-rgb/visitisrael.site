@@ -12315,3 +12315,10 @@ ES Phase ES-5 candidates identified: first-time-in-israel, best-time-to-visit-is
 
 Gate: N/A (RESEARCH mode — no code changed).
 Next: iter811 = BUILD (811%5==1 → monetization category, or fall-through to i18n-ES Phase ES-5 or P1 honesty fix for sherut).
+
+## 2026-07-27T21:50Z · iter 811 · BUILD (P1 honesty override) · transportation-sherut-honesty-fix
+What: P1 honesty fix — corrected false intercity sherut claims in transportation guides (EN/FR/DE/ES). Nesher (BGA→Jerusalem) and Amal (BGA→Haifa) intercity sheruts are CONFIRMED DISCONTINUED as of 2026 per israel-taxi.com. Four files each had 3 false claims: (1) title/description implying active intercity sheruts; (2) sherut section body claiming airport→city routes still run on Shabbat; (3) Shabbat FAQ naming airport routes as running. Fixes: EN + FR titles updated (DE/ES titles already omitted sheruts); descriptions cleaned; sherut section rewritten to name Nesher/Amal discontinuation and note intra-city sheruts may still run locally on some city routes; Shabbat FAQ airport claim removed; Shabbat body section simplified to taxis/apps/rental. Bonus: fixed ES bare /shabbat-guide → /es/shabbat-guide.
+Gate: pnpm check 0 errors; pnpm build 970 pages (no change); pnpm test:e2e 1227/1227 pass.
+Ship: squash-merged to master 1949eda; pushed. CI in_progress at push (standard pattern).
+Prod: CI in_progress at iteration end — consistent with prior success pattern.
+Next: iter812 = BUILD (812%5==2 → seo-content rotation OR i18n-ES Phase ES-5).

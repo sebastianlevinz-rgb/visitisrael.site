@@ -1356,3 +1356,6 @@ BUILD (i18n-ES Phase ES-4) — 5 high-priority ES guides translated to neutral L
 
 ## review-809-es4-link-fixes · 534c97f
 Fix 14 bare attraction/itinerary links in Phase ES-4 ES guides missing /es/ prefix. Ensures Spanish-language users navigating within /es/ stay on ES pages for attractions and itineraries that have ES versions.
+
+## iter811 — transportation-sherut-honesty-fix (1949eda)
+P1 honesty fix: corrected false intercity sherut claims in transportation guides (EN/FR/DE/ES). Removed discontinued Nesher/Amal airport sherut references from titles, descriptions, body sections, and FAQs across all 4 locales. Fixed ES /shabbat-guide bare link. 1227/1227 e2e pass.
