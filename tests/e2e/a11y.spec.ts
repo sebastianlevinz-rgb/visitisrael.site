@@ -403,6 +403,11 @@ const ROUTES = [
   '/israel-in-may',
   '/es/first-time-in-israel',
   '/es/visa-information',
+  '/es/shabbat-guide',
+  '/es/is-israel-safe',
+  '/es/israel-accommodation-guide',
+  '/es/israel-travel-tips',
+  '/es/ben-gurion-airport-guide',
 ];
 
 for (const route of ROUTES) {

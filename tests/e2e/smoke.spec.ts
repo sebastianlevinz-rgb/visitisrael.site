@@ -12,6 +12,11 @@ const ROUTES = [
   '/es/best-time-to-visit-israel',
   '/es/israel-cost-budget',
   '/es/transportation',
+  '/es/shabbat-guide',
+  '/es/is-israel-safe',
+  '/es/israel-accommodation-guide',
+  '/es/israel-travel-tips',
+  '/es/ben-gurion-airport-guide',
   '/jerusalem',
   '/jerusalem/western-wall',
   '/itineraries',
@@ -755,13 +760,13 @@ test('localized region sets lang, hreflang alternates, and reciprocates', async 
 test('localized home sets <html lang> and reciprocal hreflang', async ({ page }) => {
   await page.goto('/fr/');
   await expect(page.locator('html')).toHaveAttribute('lang', 'fr');
-  // hreflang alternates for all three locales + x-default.
-  for (const hl of ['en', 'fr', 'de', 'x-default']) {
+  // hreflang alternates for all four locales + x-default.
+  for (const hl of ['en', 'fr', 'de', 'es', 'x-default']) {
     await expect(page.locator(`link[rel="alternate"][hreflang="${hl}"]`)).toHaveCount(1);
   }
-  // og:locale is fr; the two other locales appear as og:locale:alternate.
+  // og:locale is fr; the three other locales appear as og:locale:alternate.
   await expect(page.locator('meta[property="og:locale"]')).toHaveAttribute('content', 'fr_FR');
-  await expect(page.locator('meta[property="og:locale:alternate"]')).toHaveCount(2);
+  await expect(page.locator('meta[property="og:locale:alternate"]')).toHaveCount(3);
   // Header chrome is localized (Phase 1): French nav label + CTA.
   await expect(page.locator('header')).toContainText('Itinéraires');
   await expect(page.locator('header')).toContainText('Préparer votre voyage');
