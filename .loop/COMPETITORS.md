@@ -6535,3 +6535,27 @@ Context: BACKLOG at ~96% saturation (455 ready items from 162 prior research pas
 5. **HolyLandTravel.ai** — AI-powered Christian pilgrimage planning app launched at IMTM 2026, endorsed by US Ambassador Huckabee. Could be mentioned as a planning resource footnote in christian-pilgrimage-holy-land.md. Too minor for standalone BACKLOG item.
 
 Net-new BACKLOG items: 1. Expected at this saturation level.
+
+---
+
+## iter805 (2026-07-27) — Research pass 163: Eastern Railway + 10-day itinerary gap + ES competition audit
+
+Context: BACKLOG at ~96%+ saturation (457 ready items after this pass). Background research via Explore agents across 3 angles.
+
+1. **Israel Eastern Railway — genuine infrastructure news** — Israel Railways opened a 64km electrified double-track line (Hadera→Lod) on June 28, 2026. Initial stations: Hadera East, Shomron-Tayyaba, and Tira-Kochav Yair, connecting to Rosh HaAyin North hub. Increases national rail capacity ~30%. Confirmed via JPost (article-900684), JNS, and Globes. Tourist relevance: reduces congestion on existing Jerusalem-TLV-Haifa spine lines; new suburban stations not primary tourist destinations but indirect benefit. Zero backlog entry prior to this pass. → [P2/S technical/transport] BACKLOG item added.
+
+2. **10-day Israel itinerary gap** — Multiple competitors rank for "Israel itinerary 10 days": misstourist.com (12 spots + cost breakdown), wanderwithjo.com (4d Jerusalem / 3d Tel Aviv / 2d Nazareth split), nextleveloftravel.com, israel-taxi.com. We have israel-5-vs-7-vs-10-days.md (a trip-length recommender) and israel-road-trip.md (7-day self-drive) and israel-jordan-itinerary.md (10-day with Jordan) — but NO standalone day-by-day Israel-only 10-day guide. Competitors do not link to planning tools; our differentiator = cost calculator + distance calculator + travel time tool integration. → [P2/M seo-content] BACKLOG item added.
+
+3. **Spanish religious pilgrimage competitors** — Spanish-language competitors for "turismo religioso Israel": tierrasantaisrael.com, peregrinacionisrael.com, israelturismo.com — all are tour operators, not editorial content sites. An informational editorial guide at /es/turismo-religioso-israel (or ES translation of christian-pilgrimage-holy-land.md) could outrank them organically. This is within the existing ES translation pipeline (Phase ES-3+) — no new standalone BACKLOG item needed, but noted for Phase ES-3 batch prioritization.
+
+4. **ES Phase ES-3 batch candidates** — Top 5 from comm output (EN not yet in ES):
+   - 1-day-jerusalem-itinerary.md
+   - 1-day-tel-aviv-itinerary.md
+   - 3-days-in-eilat.md
+   - 3-days-in-galilee.md
+   - 3-days-in-haifa.md
+   The short-duration itinerary guides are high-value ES targets (strong Latin American market for "qué hacer en Jerusalén 1 día").
+
+5. **Items confirmed NOT new**: Oct 7 memorial (HUMAN REVIEW REQUIRED, in BACKLOG since iter80); Buenos Aires/Argentina items (israel-for-argentinian-travelers SHIPPED iter726, cheap-flights update SHIPPED iter758); ES vuelos Buenos Aires coverage confirmed in cheap-flights-to-israel.md El Al section.
+
+Net-new BACKLOG items: 2 (Eastern Railway + 10-day itinerary).

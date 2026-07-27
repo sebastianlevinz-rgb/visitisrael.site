@@ -12212,3 +12212,21 @@ Gate: pnpm check 0 errors; 959 pages (no change); 1205/1205 pass. GREEN.
 Ship: squash-merged to master 193d504; pushed origin/master. Branch deleted.
 Prod: CI in_progress at push (standard pattern).
 Next: iter805 = RESEARCH (805%5==0).
+
+## 2026-07-27T15:15Z · iter 805 · RESEARCH · research-805-eastern-railway-10day-itinerary
+
+Mode: RESEARCH (805 % 5 == 0). No shipping — discovery only.
+Startup: local master 51 commits behind origin — git reset --hard origin/master to 694b970 (iter804 state). No STOP flag.
+
+Research angles covered (163rd pass; saturation ~96%+):
+1. Tourist Israel competitor taxonomy scan — Oct 7 memorial confirmed already in BACKLOG (blocked:HUMAN REVIEW). 10-day itinerary gap found (standalone Israel-only day-by-day not in backlog or guides/).
+2. Israel transport news July 2026 — Israel Eastern Railway (64km Hadera→Lod) opened June 28, 2026. Verified via JPost/JNS/Globes. Three initial stations + Rosh HaAyin North hub. Increases national rail capacity ~30%. No backlog entry; no existing guide. Genuinely new.
+3. Spanish-language competitor audit (viajeroscallejeros.com, deilusionarecuerdo.com, viajesaisrael.com, tierrasantaisrael.com) — confirms strong demand for ES itinerary guides and religious pilgrimage ES content. argentina/Buenos Aires items confirmed already SHIPPED (israel-for-argentinian-travelers iter726 + cheap-flights-to-israel update iter758). ES religious pilgrimage gap is in i18n pipeline (translation of christian-pilgrimage-holy-land.md).
+
+Net-new BACKLOG items added: 2.
+1. Israel Eastern Railway 2026 update — P2/S technical/transport. 64km new line, 3 new stations, +30% national rail capacity. Timely (opened June 2026). → Add section to transportation.md OR standalone timely guide.
+2. Standalone Israel 10-day itinerary — P2/M seo-content. Day-by-day Israel-only (NOT Jordan combo, NOT road-trip). High-volume "10 days in Israel" queries; competitors misstourist.com/wanderwithjo.com/nextleveloftravel.com all rank; our israel-5-vs-7-vs-10-days.md is a recommender tool not a day-by-day guide.
+
+Also noted: ES Phase ES-3 next batch candidates (top 5 from comm output: 1-day-jerusalem-itinerary, 1-day-tel-aviv-itinerary, 3-days-in-eilat, 3-days-in-galilee, 3-days-in-haifa).
+Gate: N/A (RESEARCH mode — no code changed).
+Next: iter806 = BUILD (806%5==1 → monetization or i18n-ES Phase ES-3 per STATE priority).

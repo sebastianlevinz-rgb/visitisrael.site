@@ -1,12 +1,12 @@
 # LOOP STATE
 
-- iteration: 804
-- lastMode: REVIEW (iter804%5==4)
-- lastItem: review-804-es-region-links (11 ES guides: region/attraction link prefix fix)
-- lastResult: SHIPPED 193d504. Fixed missing /es/ prefix on region and attraction links across all 15 ES guides (11 had issues). Links to /tel-aviv, /jerusalem, /haifa, /galilee, /golan, /negev, /dead-sea, /eilat, /nazareth, /akko, /caesarea + sub-attraction paths corrected to /es/ prefix. 959 pages (no change); 1205/1205 pass.
-- nextRotationCategory: RESEARCH (iter805%5==0 → RESEARCH). After: iter806%5==1 → monetization/i18n-ES Phase ES-3.
+- iteration: 805
+- lastMode: RESEARCH (iter805%5==0)
+- lastItem: research-805-eastern-railway-10day-itinerary
+- lastResult: RESEARCH only (no ship). 2 net-new BACKLOG items at ~96%+ saturation (163rd research pass). Israel Eastern Railway opened June 28 2026 (64km Hadera→Lod, +30% rail capacity) — P2/S technical/seo transport update. Standalone Israel-only 10-day day-by-day itinerary (/israel-10-day-itinerary) — P2/M seo-content (distinct from israel-5-vs-7-vs-10-days recommender + israel-road-trip 7-day + israel-jordan-itinerary 10-day combo). Also noted: ES Phase ES-3 next batch candidates (top 5 from comm output: 1-day-jerusalem-itinerary, 1-day-tel-aviv-itinerary, 3-days-in-eilat, 3-days-in-galilee, 3-days-in-haifa).
+- nextRotationCategory: BUILD (iter806%5==1 → monetization/i18n-ES Phase ES-3).
 - higgsfieldSpent: 0
-- updatedAt: 2026-07-27T14:50Z
+- updatedAt: 2026-07-27T15:15Z
 - branch context: work on master; feature work on auto/<slug>
 
 Notes: iter804 REVIEW (review-804-es-region-links) — SHIPPED 193d504. Audited: (1) iter803 ES guides (5 guides) — smoke+a11y specs confirmed complete (all 5 in both specs). (2) Systemic i18n link bug found across ALL 15 ES guides: region page links used bare /region path instead of /es/region even though ES region pages exist for all 11 regions. Fix: Python regex replacement on body text (not YAML frontmatter) to add /es/ prefix. Also fixed attraction sub-path links (/jerusalem/western-wall → /es/jerusalem/western-wall, etc.). Links to guides without ES versions correctly left un-prefixed. 11 of 15 ES guides affected; 4 had no region links in body. Gate: pnpm check 0 errors; 959 pages; 1205/1205 pass. Green.
