@@ -12322,3 +12322,22 @@ Gate: pnpm check 0 errors; pnpm build 970 pages (no change); pnpm test:e2e 1227/
 Ship: squash-merged to master 1949eda; pushed. CI in_progress at push (standard pattern).
 Prod: CI in_progress at iteration end — consistent with prior success pattern.
 Next: iter812 = BUILD (812%5==2 → seo-content rotation OR i18n-ES Phase ES-5).
+
+## 2026-07-27T22:57Z · iter 812 · BUILD (i18n-ES Phase ES-5) · es-guides-batch-6
+
+Mode: BUILD (812 % 5 == 2 → seo-content rotation; i18n-ES Phase ES-5 highest-priority item).
+Startup: repo at 8a62a3a (iter811 state commit). No STOP flag. Hard-reset skipped (already on master at iter811 state).
+
+ES guides selected (5 highest-traffic planning/logistics guides not yet in ES):
+1. backpacking-israel — Abraham Hostels network (Jerusalem/TLV/Haifa/Eilat/Tiberias), budget logistics, Rav-Kav, Shabat planning, market food, day tour price table, 10/14-day routes, 6 FAQs.
+2. best-beaches-israel — 13-beach at-a-glance table, Tel Aviv (Gordon/Frishman/Hilton/Banana/Alma/Nordau), Herzliya, Palmahim NP, Dor Habonim, Hof Bet Yanai, Achziv, Eilat Red Sea (North Beach + Coral Beach), Sea of Galilee, 6 FAQs.
+3. cheap-flights-to-israel — LATAM-market money page; seasonal pricing; N. America/Europe/S. America/Australia airline tables; El Al Buenos Aires EZE Nov 29 2026 (first direct SA→IL route — critical for ES audience); Ryanair confirmed suspended (honest); fare tools (Skyscanner/GFlights/ITA Matrix); ETA-IL reminder; 5 FAQs.
+4. kosher-food-guide — kashrut basics (meat/dairy separation, teudat kashrut, Shabbat closures), platos imprescindibles (hummus/falafel/sabich/shakshuka/knafeh), market eating (Mahane Yehuda, Carmel, Nazareth Wadi Nisnas), practical tips (tap water safe, vegan-friendly), 3 FAQs.
+5. israel-packing-list-guide — luggage strategy (carry-on best), documents (ETA-IL, Type H adaptor), clothing by season (summer/spring-autumn/winter), 3 footwear pairs (Dead Sea sandals separate), health/hygiene, electronics (power bank carry-on), what NOT to bring, packing by trip type, 7 FAQs.
+
+Implementation: 5 new files in src/content/guides/es/; 5 smoke routes + 5 a11y routes added to tests/e2e/.
+Squash-merge to master: feat(i18n-es): ES Phase ES-5 — 5 high-traffic ES guides (backpacking, beaches, flights, kosher, packing) [auto-loop] → 9609531.
+
+Gate: pnpm check 0 errors; pnpm build 975 pages (+5); pnpm test:e2e 1237/1237 pass (+10). GREEN.
+Ship: committed on master as 9609531; pushed. CI in_progress (standard pattern).
+Next: iter813 = BUILD (813%5==3 → technical category).

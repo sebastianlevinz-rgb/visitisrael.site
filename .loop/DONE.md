@@ -1359,3 +1359,6 @@ Fix 14 bare attraction/itinerary links in Phase ES-4 ES guides missing /es/ pref
 
 ## iter811 — transportation-sherut-honesty-fix (1949eda)
 P1 honesty fix: corrected false intercity sherut claims in transportation guides (EN/FR/DE/ES). Removed discontinued Nesher/Amal airport sherut references from titles, descriptions, body sections, and FAQs across all 4 locales. Fixed ES /shabbat-guide bare link. 1227/1227 e2e pass.
+
+## iter812 · es-guides-batch-6 (Phase ES-5) · 9609531
+BUILD (i18n-ES Phase ES-5) — 5 high-traffic ES planning/logistics guides: /es/backpacking-israel, /es/best-beaches-israel, /es/cheap-flights-to-israel, /es/kosher-food-guide, /es/israel-packing-list-guide. Neutral LATAM Spanish (no vosotros); /es/ link prefixes where ES versions exist; El Al Buenos Aires EZE Nov 29 2026 direct route highlighted for LATAM market. 10 new tests (5 smoke + 5 a11y). Gate: pnpm check 0 errors; pnpm build 975 pages (+5); pnpm test:e2e 1237/1237 pass (+10). ES guides: 30/394. Phase ES-5 complete. 2026-07-27.

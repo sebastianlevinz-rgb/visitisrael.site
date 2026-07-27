@@ -1,13 +1,15 @@
 # LOOP STATE
 
-- iteration: 811
-- lastMode: BUILD (iter811%5==1 → P1 honesty fix override)
-- lastItem: transportation-sherut-honesty-fix
-- lastResult: SHIPPED 1949eda. P1 honesty fix: corrected false intercity sherut claims in transportation.md (EN/FR/DE/ES). Nesher (BGA→Jerusalem) and Amal (BGA→Haifa) intercity sheruts confirmed discontinued 2026; title/description/body/FAQ/Shabbat sections updated in all 4 locales. Bonus: fixed bare /shabbat-guide link → /es/shabbat-guide in ES file. Gate: pnpm check 0 errors; build 970 pages (unchanged); 1227/1227 e2e pass. CI in_progress at push (standard pattern).
-- nextRotationCategory: BUILD (iter812%5==2 → seo-content OR i18n-ES Phase ES-5)
+- iteration: 812
+- lastMode: BUILD (iter812%5==2 → i18n-ES Phase ES-5)
+- lastItem: es-guides-batch-6
+- lastResult: SHIPPED 9609531. ES Phase ES-5: 5 high-traffic ES guides created (backpacking-israel, best-beaches-israel, cheap-flights-to-israel, kosher-food-guide, israel-packing-list-guide). Neutral LATAM Spanish (no vosotros); /es/ link prefixes; no fabricated prices/ratings; El Al Buenos Aires EZE Nov 2026 route noted (first direct SA→IL). 10 new Playwright tests (5 smoke + 5 a11y). Gate: pnpm check 0 errors; build 975 pages (+5); 1237/1237 e2e pass (+10). CI in_progress at push (standard pattern). ES guides: 30/394.
+- nextRotationCategory: BUILD (iter813%5==3 → technical)
 - higgsfieldSpent: 0
-- updatedAt: 2026-07-27T21:50Z
+- updatedAt: 2026-07-27T22:57Z
 - branch context: work on master; feature work on auto/<slug>
+
+Notes: iter812 BUILD (i18n-ES Phase ES-5) — es-guides-batch-6 SHIPPED 9609531. 5 high-traffic planning/logistics guides: backpacking-israel (Abraham Hostels, budget logistics, 10/14-day routes), best-beaches-israel (13-beach at-a-glance table, Tel Aviv/Eilat/Galilee), cheap-flights-to-israel (money page; El Al Buenos Aires EZE Nov 29 2026 direct route highlighted for LATAM market), kosher-food-guide (kashrut basics, hummus/falafel/sabich, market eating), israel-packing-list-guide (luggage strategy, Type H adaptor, Dead Sea kit, seasonal clothing). All 5 use /es/ link prefixes for existing ES pages; religious sites carry neutral framing; no machine-fabricated prices or ratings. 10 tests added. CI in_progress at iteration end (standard pattern). Next: iter813 BUILD (technical category).
 
 Notes: iter811 BUILD (P1 honesty fix override) — transportation-sherut-honesty-fix SHIPPED 1949eda. Nesher (BGA→Jerusalem) and Amal (BGA→Haifa) intercity sheruts CONFIRMED DISCONTINUED 2026. transportation.md (EN/FR/DE/ES) corrected: (1) EN + FR titles had "Sheruts" removed; (2) all 4 descriptions updated to drop intercity sherut reference; (3) sherut body section rewritten to name Nesher/Amal discontinuation + note intra-city sheruts may still run locally; (4) Shabbat FAQ fixed — removed "(including from Ben Gurion Airport)" claim; (5) Shabbat section simplified to taxis/apps/rental; (6) ES link bug fixed (/shabbat-guide → /es/shabbat-guide). Gate: 0 errors; 970 pages; 1227/1227 pass. CI in_progress. Next: iter812 BUILD (seo-content or i18n-ES Phase ES-5).
 
