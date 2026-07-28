@@ -435,6 +435,11 @@ const ROUTES = [
   '/es/airlines-flying-israel-2026',
   '/es/3-days-in-negev',
   '/es/akko-acre-guide',
+  '/es/christian-pilgrimage-holy-land',
+  '/es/bethlehem-travel-guide',
+  '/es/border-crossings',
+  '/es/haifa-travel-guide',
+  '/es/day-trips-from-eilat',
   '/israel-transport-cost-estimator',
 ];
 
