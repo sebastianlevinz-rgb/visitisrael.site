@@ -91,7 +91,7 @@ El **paseo Tayelet** recorre 14 km desde el puerto de Jaffa en el sur hasta el P
 
 ### Noche: Cena al atardecer en el puerto de Jaffa
 
-Toma el Tayelet hacia el sur hasta [Jaffa](/tel-aviv-jaffa) para el atardecer. La vista desde el antiguo puerto mirando hacia el horizonte de Tel Aviv — iluminado, con el Mediterráneo en primer plano — es la imagen característica de la ciudad. La Torre del Reloj y el paseo elevado sobre el puerto ofrecen los mejores miradores.
+Toma el Tayelet hacia el sur hasta [Jaffa](/es/tel-aviv/old-jaffa) para el atardecer. La vista desde el antiguo puerto mirando hacia el horizonte de Tel Aviv — iluminado, con el Mediterráneo en primer plano — es la imagen característica de la ciudad. La Torre del Reloj y el paseo elevado sobre el puerto ofrecen los mejores miradores.
 
 Para cenar, los restaurantes del Puerto de Jaffa en el antiguo muelle sirven pescado fresco y meze.
 
