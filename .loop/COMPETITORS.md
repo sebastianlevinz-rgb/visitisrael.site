@@ -6598,3 +6598,24 @@ Net-new BACKLOG items: 2 (Eastern Railway + 10-day itinerary).
 - Golan Heights wine trail: golanwinetour.com ranks for this query; we have zero dedicated Golan wine page
 - Judean Hills wine trail: multiple operators rank; we have only the wine hub
 - Haifa cruise terminal: travel trade press covers it but no travel editorial guide exists yet → first-mover opportunity
+
+## iter815 · 2026-07-28 · 165th research pass
+
+### Sources scanned
+- touristisrael.com (July 2026 events + content audit)
+- israeltraveladvisor.com (content gap audit)
+- israel-taxi.com/travel-blog (transport status)
+- winetourism.com/wine-region/judea (Judean Hills — iter810 follow-up)
+- golanwinetour.com (Golan wine — iter810 follow-up)
+
+### Competitive position (July 2026)
+
+**Tourist Israel**: Still ranks for some day-trip and event queries. Has a "Gaza Border Tour" page — sensitive content we correctly skip. No new content gaps identified beyond iter810 findings. Our airport, transport, visa, accommodation, and planning coverage equals or exceeds theirs.
+
+**Israel Travel Advisor**: General overview site; no dedicated SEO pages for BGA, sherut status, or airline tracking. Our airlines-flying-israel-2026.md (updatedAt 2026-07-26) is the most current editorial resource in this niche.
+
+**israel-taxi.com**: Authoritative on ground transport; their sherut discontinuation article was the P1 source for iter811. No other new competitive content noted.
+
+**Wine tour operators (winetourism.com, golanwinetour.com, mokitours.com)**: Both Judean Hills and Golan Heights wine guides SHIPPED (iter551, iter556). Our coverage is live and indexed. No new gap.
+
+**Net-new items this pass**: 2 (BGA T3 eastern-wing tender P3/S; ES Phase ES-6 batch P2/M). Saturation ~97%.

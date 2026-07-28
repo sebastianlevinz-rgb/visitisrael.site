@@ -12366,3 +12366,35 @@ What: Audited all 5 iter812 ES Phase ES-5 guides for correctness, honesty, link 
 Gate: pnpm check 0 errors; build 975 pages (no change); 1237/1237 e2e pass.
 Ship: squash-merged to master bf05746, pushed. Prod: CI success.
 Next: iter815 RESEARCH mode (815%5==0).
+
+## 2026-07-28T02:00Z · iter 815 · RESEARCH · research-815-bga-expansion-es6-batch
+
+Mode: RESEARCH (815%5==0 → 165th research pass)
+No STOP flag. Hard-reset to origin/master (cloud env fresh checkout; local was at iter734 state). HEAD at 70de963 (iter814 docs commit).
+
+### Sources scanned
+- simpleflying.com/tel-aviv-83-million-terminal-3-expansion (BGA T3 eastern wing tender July 2026)
+- jpost.com/travel/article-901549 (BGA expansion reporting)
+- atij.org (airline industry body Israel tourism statistics July 2026)
+- touristisrael.com (competitor content audit July 2026)
+- travelandtourworld.com (Israel tourism revival coverage)
+- israeltraveladvisor.com (content gap audit)
+- israel-taxi.com/travel-blog (transport status check)
+- winetourism.com (Judean Hills / Golan wine trail rankings — iter810 follow-up)
+- golanwinetour.com (Golan wine competitor — iter810 follow-up)
+- comm -23 output (EN guides not in ES — batch selection for ES-6)
+
+### Key findings
+
+1. **BGA Terminal 3 eastern wing tender (July 1, 2026)**: Israel Airports Authority issued $83M tender for 50,000m² new eastern terminal wing + 20,000m² underground facility. 30-month construction timeline → capacity target ~40M pax/year by 2030. NOTE: iter702 already added a note to ben-gurion-airport-guide.md about the broader $311M T3 capacity program. This July 1, 2026 tender is a new specific construction procurement milestone within that program. A 1-sentence freshness update to ben-gurion-airport-guide.md adding "eastern wing tender" context is P3/S. HONESTY: no opening date promised; construction approved but not started; do not imply imminent passenger-experience change.
+
+2. **ES Phase ES-6 batch selected** (from comm -23 output — EN guides not yet in ES): highest-traffic batch: 3-days-in-israel, 3-days-in-tel-aviv, airlines-flying-israel-2026, 3-days-in-negev, akko-acre-guide. (air-haifa-haifa-airport-guide deprioritized as niche.) airlines-flying-israel-2026.md updatedAt 2026-07-26 — content current and ready for ES translation. I18N-PLAN.md updated with ES-6 batch details.
+
+3. **Saturation check**: ~97%+ after 165 passes. All major content gaps filled. Competitor audit: Tourist Israel, Israel Travel Advisor, israel-taxi.com — no new content gap vs. our site. Our coverage matches or exceeds in all categories. Kassland Resort stays BLOCKED (West Bank settlement, iter785). Gaza Border Tour (Tourist Israel) — sensitive content, skipped per PLAYBOOK.
+
+4. **Stale BACKLOG entries noted** (too invasive to clean up in 1.7MB file during RESEARCH pass): judean-hills-wine-trail.md SHIPPED iter551; golan-heights-wineries.md SHIPPED iter556 — iter810 BACKLOG entries for these are stale and should be marked SHIPPED when BACKLOG is cleaned up.
+
+5. **EN guide count correction**: Actual count 396 (not 394 per I18N-PLAN snapshot — 2 guides added after last snapshot). I18N-PLAN status table updated.
+
+Net-new BACKLOG items: 2 (BGA T3 eastern-wing tender P3/S freshness; ES Phase ES-6 batch P2/M).
+Next: iter816 = BUILD (816%5==1 → seo-content/i18n-ES Phase ES-6 highest priority).

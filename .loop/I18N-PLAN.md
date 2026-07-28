@@ -6,17 +6,17 @@
 >
 > One bounded slice per loop iteration. NEVER bulk-translate in one shot.
 
-## Current status snapshot (2026-07-27)
+## Current status snapshot (2026-07-28)
 
 | Locale | Guides | Attractions | Regions | Itineraries |
 |--------|--------|-------------|---------|-------------|
-| en     | 394    | 65          | 11      | 6           |
+| en     | 396    | 65          | 11      | 6           |
 | fr     | 87     | 61          | 11      | 6           |
 | de     | 87     | 61          | 11      | 6           |
 | es     | 30     | 61          | 11      | 6           |
 
 **Gaps to close:**
-- es guides: **364 missing** (30/394 done — ongoing, highest priority)
+- es guides: **366 missing** (30/396 done — ongoing, highest priority)
 - fr guides: **307 missing** (EN guides added after Phase 2 Batch 18, iter408)
 - de guides: **307 missing** (same)
 - fr/de/es attractions: **4 missing each** (the 4 EN attractions added after Phase 4)
@@ -92,7 +92,7 @@ Take the top 5 by priority (or head -5 if priority not obvious), translate each 
 - Phase ES-5 — DONE. iter812 shipped 5/394 (9609531):
   backpacking-israel, best-beaches-israel, cheap-flights-to-israel,
   kosher-food-guide, israel-packing-list-guide.
-- Phase ES-6 — NOT STARTED. Next batch: pick next 5 from comm output (post-ES-5).
+- Phase ES-6 — NOT STARTED. Batch selected (iter815 research): 3-days-in-israel, 3-days-in-tel-aviv, airlines-flying-israel-2026, 3-days-in-negev, akko-acre-guide. Ready to ship in iter816 BUILD.
 
 ### FR guide catch-up (87 / 394 = 307 remaining)
 - Phase FR-catchup — NOT STARTED.

@@ -1,13 +1,15 @@
 # LOOP STATE
 
-- iteration: 814
-- lastMode: REVIEW (iter814%5==4)
-- lastItem: review-814-es5-link-fixes
-- lastResult: SHIPPED bf05746. Audited all 5 ES Phase ES-5 guides from iter812. Found 4 bare attraction links in kosher-food-guide.md missing /es/ prefix (Jerusalem Mahane Yehuda, Tel Aviv Carmel Market, Old Jaffa, Haifa Wadi Nisnas) — all 4 ES attraction pages exist. Fixed. All other bare links in all 5 guides confirmed correct (no ES version exists). Gate: pnpm check 0 errors; build 975 pages; 1237/1237 e2e pass. CI success.
-- nextRotationCategory: BUILD (iter815%5==0 → RESEARCH)
+- iteration: 815
+- lastMode: RESEARCH (iter815%5==0)
+- lastItem: research-815-bga-expansion-es6-batch
+- lastResult: No ship — research only. 165th research pass; saturation ~97%. 2 net-new BACKLOG items: BGA T3 eastern-wing tender (P3/S freshness — iter702 covered broader program, July 1 2026 $83M tender for eastern wing is new), ES Phase ES-6 batch guidance (P2/M — 5 guides ready). All auto/* branches confirmed already-SHIPPED (no recovery needed). airlines-flying-israel-2026.md confirmed current (updatedAt 2026-07-26). EN guide count now 396 (not 394 per I18N-PLAN — 2 guides added after last snapshot). ES at 30/396.
+- nextRotationCategory: seo-content (iter816%5==1 → BUILD; highest-priority item: ES Phase ES-6)
 - higgsfieldSpent: 0
-- updatedAt: 2026-07-28T01:00Z
+- updatedAt: 2026-07-28T02:00Z
 - branch context: work on master; feature work on auto/<slug>
+
+Notes: iter815 RESEARCH — research-815-bga-expansion-es6-batch. 165th pass. Saturation ~97%. 2 net-new items appended to BACKLOG: (1) P3/S BGA T3 eastern-wing tender ($83M, July 1 2026 — separate from iter702's $311M program note; specific 50,000m² eastern wing + 20,000m² underground facility + 30-month timeline); (2) P2/M ES Phase ES-6 batch: 3-days-in-israel, 3-days-in-tel-aviv, airlines-flying-israel-2026, 3-days-in-negev, akko-acre-guide. I18N-PLAN.md updated with ES-6 batch. Competitors: Tourist Israel / Israel Travel Advisor / israel-taxi.com — no new content gaps vs our site. Kassland Resort stays BLOCKED. Gaza Border Tour skipped (sensitive). Next: iter816 BUILD (816%5==1 → seo-content/i18n-ES Phase ES-6 highest priority).
 
 Notes: iter814 REVIEW — review-814-es5-link-fixes SHIPPED bf05746. Audited all 5 iter812 ES Phase ES-5 guides. Found 4 bare attraction links in kosher-food-guide.md missing /es/ prefix (/jerusalem/mahane-yehuda, /tel-aviv/carmel-market, /tel-aviv/old-jaffa, /haifa/wadi-nisnas) — all corrected. All other bare links confirmed correct (no ES version exists). 1237/1237 pass. CI success. Next: iter815 RESEARCH (815%5==0).
 
@@ -31,54 +33,6 @@ Notes: iter803 BUILD (i18n-ES Phase ES-2) — es-guides-batch-3 SHIPPED 1af15a0.
 
 Notes: iter802 BUILD (seo-content P2/S) — nahalat-binyamin-market-tel-aviv SHIPPED 5d5e00a. New /nahalat-binyamin-market-tel-aviv fills confirmed P2/S seo-content gap (iter375 research). Nahalat Binyamin = Israel's largest juried arts & crafts market (200+ handmade-only stalls, open Tue + Fri since 1920s). Distinct from adjacent tel-aviv-carmel-market.md (food market). Content: quality-control model (artists only selling own work), 6 product categories (jewellery/ceramics/paintings/glasswork/textiles/wooden Judaica), Carmel Market combine routing, Kerem HaTeimanim neighbourhood context. 7 FAQs. 3 CTAs (GYG, Civitatis, Booking.com). Cross-link updated in tel-aviv-carmel-market.md (external URL → internal link). Gate: pnpm check 0 errors; 954 pages (+1); 1195/1195 pass (+2).
 
-Notes: iter797 BUILD (seo-content P2/S) — israel-in-may SHIPPED caad9e7. New /israel-in-may monthly guide fills the last major spring shoulder-season gap. Key content: Yom HaZikaron/Yom HaAtzmaut transition with HONESTY caveats (Hebrew calendar date shifts annually); Lag BaOmer bonfire night (link to lag-baomer-israel.md); Jerusalem Day dual-narrative (factual, no advocacy, politically sensitive framing); Galilee late wildflowers + Golan spring peak; TLV beach season opening (22–24°C sea). 7 FAQs, 3 CTAs. Gate: 0 errors; 862 pages (+1); 1175/1175 pass (+2). CI in_progress at push (standard pattern). Monthly guide series now covers: Jan/Feb/Mar/Apr/May/Jun/Sep/Oct/Nov/Dec (10/12 months). Remaining: Jul (P3/S), Aug (covered by israel-in-summer.md).
-
-Notes: iter791 BUILD (seo-content) — israel-in-february SHIPPED 688ab77. See previous STATE.
-
-Notes: iter789 REVIEW — review-789-april-a11y-coverage SHIPPED 1cdf946. See previous STATE.
-
-Notes: iter788 BUILD (seo-content) — israel-in-december SHIPPED 855ff94. See previous STATE.
-
-Notes: iter787 REVIEW — review-787-seo-content-audit. See previous STATE.
-
-Notes: iter786 BUILD (monetization exhausted → seo-content fallthrough) — israel-in-june SHIPPED 3e812cc. See previous STATE.
-
-Notes: iter785 RESEARCH — research-pass-157. See previous STATE.
-
-Notes: iter784 BUILD (technical fallthrough) — airlines-flying-israel-2026 SHIPPED f70391d. See previous STATE.
-
-Notes: iter783 BUILD (seo-content fallthrough) — israel-in-april SHIPPED e5a7d5c. See previous STATE.
-
-Notes: iter781 BUILD (P1 honesty override) — ba-tlv-suspension-honesty-fix SHIPPED 5d277e7. See previous STATE.
-
-Notes: iter779 REVIEW — comparison-title-year-fix SHIPPED daf6591. See previous STATE.
-
-Notes: iter778 BUILD (technical fallthrough) — turkey-airlines-tlv-status SHIPPED c079cdb. See previous STATE.
-
-Notes: iter777 BUILD (seo-content) — israel-in-november SHIPPED ced2da0. See previous STATE.
-
-Notes: iter775 RESEARCH — 6 net-new items found. See previous STATE.
-
-Notes: iter774 REVIEW (seo-content) — review-774-points-miles-links-qantas SHIPPED 7473dbf. See previous STATE.
-
-Notes: iter767 BUILD (seo-content) — maccabiah-post-event-reframe SHIPPED e00f030. See previous STATE.
-
-Notes: iter766 BUILD (technical/honesty — P1 override) — ryanair-tlv-suspension-honesty-fix SHIPPED 661584f. See previous STATE.
-
-Notes: iter765 RESEARCH — 6 net-new items found across 4 search angles. See previous STATE.
-
-Notes: iter751 BUILD (monetization) — new-luxury-hotels-israel-2026 SHIPPED f210b76. See previous STATE.
-
-Notes: iter741 BUILD (monetization) — israel-trip-cost-by-style SHIPPED d13be5d. See previous STATE.
-
-Notes: iter736 BUILD (monetization fallthrough → technical/seo P2) — israel-pass-ride-freshness SHIPPED 21f38ee. See previous STATE.
-
-Notes: iter733 BUILD (technical/content-update/honesty) — rosh-hanikra-oos-update SHIPPED 11be68d. See previous STATE.
-
-Notes: iter732 BUILD (seo-content) — israel-yoga-retreats SHIPPED e189067. See previous STATE.
-
-Notes: iter727 BUILD (seo-content) — digital-nomad-israel SHIPPED 544bd7f. See previous STATE.
-
 Cron b7325b16 hourly @ :17. Loop history: 19 tools + sitemap-lastmod + link-checker(+depth) + i18n
 Phase0/1a/1b/1c/2 Batches1-18(COMPLETE) + 48 review passes + 4 technical (event-schema + meta-trim + locale-links + freshness-688) + 81 EN guides + 7 tools-monetization + 2 comparisons;
-research iters 5/10/20/30/35/40/45/50/55/60/65/70/75/80/85/90/95/100/105/110/115/120/125/130/135/140/145/150/155/160/165/170/175/180/185/190/195/200/205/210/215/220/225/230/235/240/245/250/255/260/265/270/275/280/285/290/295/300/305/310/315/320/325/330/335/340/345/350/355/360/365/370/375/380/385/390/395/400/405/410/420/425/430/435/440/445/450/455/460/465/470/480/485/490/495/500/505/510/515/520/525/535/540/545/550/555/560/565/570/575/580/585/590/595/600/605/610/615/620/625/630/635/640/645/650/655/660/665/670/675/680/685/690/695/700/705/710/715/720/725/730/735/740/745/750/755/760/765/775/785/790.
+research iters 5/10/20/30/35/40/45/50/55/60/65/70/75/80/85/90/95/100/105/110/115/120/125/130/135/140/145/150/155/160/165/170/175/180/185/190/195/200/205/210/215/220/225/230/235/240/245/250/255/260/265/270/275/280/285/290/295/300/305/310/315/320/325/330/335/340/345/350/355/360/365/370/375/380/385/390/395/400/405/410/420/425/430/435/440/445/450/455/460/465/470/480/485/490/495/500/505/510/515/520/525/535/540/545/550/555/560/565/570/575/580/585/590/595/600/605/610/615/620/625/630/635/640/645/650/655/660/665/670/675/680/685/690/695/700/705/710/715/720/725/730/735/740/745/750/755/760/765/775/785/790/810/815.
