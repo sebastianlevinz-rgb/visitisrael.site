@@ -79,7 +79,7 @@ Reserva 90 minutos para un paseo tranquilo.
 
 ### Mediodía: Mercado Carmel
 
-Camina 10–15 minutos hacia el este hasta el **[Mercado Carmel](/tel-aviv/carmel-market)** (HaCarmel). El mercado se divide en dos secciones: la mitad cubierta de especias y delicatessen (azafrán, za'atar, amba, encurtidos de todo tipo, bloques de halvah, fruta seca) y la mitad al aire libre de frutas y verduras. La sección cubierta es la más distintiva — recórrela de sur a norte, probando sobre la marcha.
+Camina 10–15 minutos hacia el este hasta el **[Mercado Carmel](/es/tel-aviv/carmel-market)** (HaCarmel). El mercado se divide en dos secciones: la mitad cubierta de especias y delicatessen (azafrán, za'atar, amba, encurtidos de todo tipo, bloques de halvah, fruta seca) y la mitad al aire libre de frutas y verduras. La sección cubierta es la más distintiva — recórrela de sur a norte, probando sobre la marcha.
 
 **Almuerzo:** Shakshuka o un falafel fresco dentro del shuk (₪15–30), o dirígete una manzana hacia el este hasta la calle Levinsky — la franja de especias del Mercado Levinsky es más tranquila, orientada más a cocineros profesionales que a turistas, y merece un breve desvío.
 

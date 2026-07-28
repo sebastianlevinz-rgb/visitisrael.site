@@ -140,7 +140,7 @@ El tren de alta velocidad desde Jerusalén Yitzhak Navon hasta Tel Aviv HaShalom
 
 ### Mañana: La Vieja Jaffa
 
-Empieza en [Jaffa (Yafo)](/tel-aviv/old-jaffa) — el antiguo puerto que precede a Tel Aviv en varios miles de años. Desde Tel Aviv HaShalom, toma el tren ligero (Línea Roja) hacia Jaffa o un taxi (10–15 minutos).
+Empieza en [Jaffa (Yafo)](/es/tel-aviv/old-jaffa) — el antiguo puerto que precede a Tel Aviv en varios miles de años. Desde Tel Aviv HaShalom, toma el tren ligero (Línea Roja) hacia Jaffa o un taxi (10–15 minutos).
 
 Paradas clave en Jaffa:
 
