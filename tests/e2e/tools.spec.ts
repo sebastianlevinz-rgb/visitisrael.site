@@ -1012,3 +1012,52 @@ test.describe('Israel itinerary checker', () => {
     await expect(link).toBeVisible();
   });
 });
+
+test.describe('Israel transport cost estimator', () => {
+  test('page loads and shows three cost cards', async ({ page }) => {
+    await page.goto('/israel-transport-cost-estimator');
+    await expect(page.locator('#tce-cards .cost-card')).toHaveCount(3);
+  });
+
+  test('default result shows non-zero costs and a cheapest badge', async ({ page }) => {
+    await page.goto('/israel-transport-cost-estimator');
+    const cards = page.locator('#tce-cards .cost-card');
+    await expect(cards).toHaveCount(3);
+    // Each card should show a ₪ price
+    const firstPrice = page.locator('#tce-cards .cost-card').first().locator('p.font-display');
+    await expect(firstPrice).toContainText('₪');
+    // Exactly one "Cheapest" badge should be visible
+    await expect(page.locator('.badge')).toHaveCount(1);
+  });
+
+  test('increasing days increases car cost', async ({ page }) => {
+    await page.goto('/israel-transport-cost-estimator');
+    const carCard = page.locator('#tce-cards .cost-card').nth(0);
+    const ils = (s: string | null) => Number((s || '').replace(/[^0-9]/g, ''));
+    const before = ils(await carCard.locator('p.font-display').textContent());
+    await page.locator('#tce-days').fill('14');
+    await page.waitForTimeout(200);
+    const after = ils(await carCard.locator('p.font-display').textContent());
+    expect(after).toBeGreaterThan(before);
+  });
+
+  test('quick preset buttons update days input', async ({ page }) => {
+    await page.goto('/israel-transport-cost-estimator');
+    await page.locator('.tce-preset[data-days="10"]').click();
+    await expect(page.locator('#tce-days')).toHaveValue('10');
+  });
+
+  test('recommendation text is shown and non-empty', async ({ page }) => {
+    await page.goto('/israel-transport-cost-estimator');
+    const rec = page.locator('#tce-recommendation');
+    await expect(rec).toBeVisible();
+    const text = await rec.textContent();
+    expect((text || '').length).toBeGreaterThan(20);
+  });
+
+  test('footer links to transport cost estimator', async ({ page }) => {
+    await page.goto('/');
+    const link = page.locator('a[href="/israel-transport-cost-estimator"]').first();
+    await expect(link).toBeVisible();
+  });
+});

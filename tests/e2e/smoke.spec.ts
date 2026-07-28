@@ -76,6 +76,7 @@ const ROUTES = [
   '/which-israel-region-quiz',
   '/israel-distance-calculator',
   '/israel-travel-time',
+  '/israel-transport-cost-estimator',
   '/israel-how-many-days',
   '/where-to-stay/jerusalem',
   '/where-to-stay/tel-aviv',

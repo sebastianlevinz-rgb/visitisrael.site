@@ -1,0 +1,509 @@
+---
+import BaseLayout from '@/layouts/BaseLayout.astro';
+import Hero from '@/components/Hero.astro';
+import Breadcrumbs from '@/components/Breadcrumbs.astro';
+import JsonLd from '@/components/JsonLd.astro';
+import { breadcrumbList, faqPage } from '@/lib/schema';
+
+const title = 'Israel Transport Cost Estimator — Car vs Bus vs Taxi';
+const description =
+  'Free Israel transport cost estimator. Compare rental car, intercity bus/train and shared taxi costs for your trip length and number of city hops — in shekels and US dollars.';
+
+const crumbs = [
+  { name: 'Home', path: '/' },
+  { name: 'Transport cost estimator', path: '/israel-transport-cost-estimator' },
+];
+
+const faqs = [
+  {
+    question: 'Is renting a car in Israel cheaper than using public transport?',
+    answer:
+      'It depends on your trip length and number of city changes. For trips with 4+ city hops over 7+ days, a rental car often works out cheaper per day than buying individual intercity bus/train tickets — especially for 2+ travellers sharing the car. For short trips concentrated in Jerusalem and Tel Aviv, public transit is almost always cheaper. Use the estimator above to compare.',
+  },
+  {
+    question: 'How much does an intercity bus trip cost in Israel?',
+    answer:
+      'A single intercity Egged/Dan bus journey (e.g. Tel Aviv → Jerusalem or Tel Aviv → Haifa) costs around ₪30–40 (≈$8–11) per person with a Rav-Kav card. The train is similarly priced. Longer journeys like Tel Aviv → Eilat cost ₪60–80 (≈$16–22). Prices correct for 2026 — verify at bus.co.il or rail.co.il.',
+  },
+  {
+    question: 'How much does a sherut (shared taxi) cost?',
+    answer:
+      'Shared taxis (sheruts) run fixed routes at fixed prices. The TLV–Jerusalem route on Egged (sherut style) no longer operates as an intercity shared route — intercity sheruts from Ben Gurion Airport are discontinued. Intra-city sheruts still operate in some areas. Private taxis are metered; from Ben Gurion to Jerusalem expect ₪250–340 (≈$70–90) day rate.',
+  },
+  {
+    question: 'Can I use a Rav-Kav card for intercity travel?',
+    answer:
+      'Yes. The Rav-Kav card (Israel\'s contactless transit card) works on Egged intercity buses and Israel Railways. Load credit at bus stations or major train stations. Each intercity journey is deducted at the point of boarding. The card costs ₪5 to obtain. See our full Rav-Kav guide for details.',
+  },
+  {
+    question: 'Does public transport run on Shabbat?',
+    answer:
+      'No. Intercity trains and most Egged intercity buses stop from Friday afternoon (approx. 1–2 hours before sunset) until Saturday night (approx. 1–2 hours after sunset). Private taxis run all Shabbat. Rental cars are unaffected. If you are travelling on Shabbat, either hire a private taxi, rent a car, or book a pre-arranged shuttle. The estimator notes this in its mixed-transit recommendation.',
+  },
+];
+
+const schema = [breadcrumbList(crumbs), faqPage(faqs)];
+---
+
+<BaseLayout
+  title={title}
+  description={description}
+  path="/israel-transport-cost-estimator"
+  image="/images/regions/tel-aviv/hero.jpg"
+  imageAlt="Public transport and road travel in Israel"
+>
+  <JsonLd schema={schema} slot="head" />
+  <Hero
+    image="/images/regions/tel-aviv/hero.jpg"
+    title="Israel Transport Cost Estimator"
+    subtitle="Compare the real cost of renting a car vs taking intercity buses &amp; trains vs mixed transport — for your exact trip."
+    alt="Road and transport options in Israel"
+  />
+  <Breadcrumbs items={crumbs} />
+
+  <section class="mx-auto max-w-5xl px-4 pt-10 no-print">
+    <p class="eyebrow" data-reveal>Plan smarter</p>
+    <h2 class="font-display text-3xl font-bold text-ink" data-reveal>
+      Find your cheapest way around Israel
+    </h2>
+    <p class="mt-2 max-w-2xl text-ink-muted" data-reveal>
+      Figures are based on 2026 on-the-ground prices. Results update instantly as you adjust inputs.
+      For the full transport overview, see our
+      <a href="/transportation" class="font-semibold text-primary">getting around guide</a>.
+    </p>
+  </section>
+
+  <div class="mx-auto max-w-5xl px-4 pb-4 pt-8">
+    <div class="grid gap-8 lg:grid-cols-[1fr_1.2fr]">
+      <!-- Inputs -->
+      <form
+        id="tce-form"
+        class="rounded-card border border-border bg-card p-6 shadow-card no-print"
+        aria-label="Transport cost inputs"
+      >
+        <p class="mb-4 text-sm font-semibold text-ink">Trip details</p>
+
+        <!-- Quick day presets -->
+        <div class="mb-1">
+          <span class="block text-sm font-medium text-ink-muted">Trip length</span>
+          <div class="mt-2 flex flex-wrap gap-2" role="group" aria-label="Quick duration presets">
+            <button type="button" class="tce-preset" data-days="5">5 days</button>
+            <button type="button" class="tce-preset" data-days="7">7 days</button>
+            <button type="button" class="tce-preset" data-days="10">10 days</button>
+            <button type="button" class="tce-preset" data-days="14">14 days</button>
+          </div>
+        </div>
+
+        <div class="mt-4 grid grid-cols-2 gap-4">
+          <label class="block">
+            <span class="text-sm font-semibold text-ink">Days</span>
+            <input
+              type="number"
+              id="tce-days"
+              min="1"
+              max="60"
+              value="7"
+              class="mt-1 w-full rounded-btn border border-border bg-sand px-3 py-2 text-ink"
+            />
+          </label>
+          <label class="block">
+            <span class="text-sm font-semibold text-ink">Travellers</span>
+            <input
+              type="number"
+              id="tce-pax"
+              min="1"
+              max="8"
+              value="2"
+              class="mt-1 w-full rounded-btn border border-border bg-sand px-3 py-2 text-ink"
+            />
+            <span class="mt-1 block text-xs text-ink-muted">sharing one car if driving</span>
+          </label>
+        </div>
+
+        <label class="mt-5 block">
+          <span class="text-sm font-semibold text-ink">City hops</span>
+          <input
+            type="number"
+            id="tce-hops"
+            min="0"
+            max="20"
+            value="3"
+            class="mt-1 w-full rounded-btn border border-border bg-sand px-3 py-2 text-ink"
+          />
+          <span class="mt-1 block text-xs text-ink-muted">
+            Intercity journeys (e.g. Jerusalem→Tel Aviv = 1 hop)
+          </span>
+        </label>
+
+        <!-- Approximate km per day when driving -->
+        <label class="mt-5 block">
+          <span class="text-sm font-semibold text-ink">Daily driving distance</span>
+          <select
+            id="tce-km"
+            class="mt-1 w-full rounded-btn border border-border bg-sand px-3 py-2 text-ink"
+          >
+            <option value="60">Light — ~60 km/day (city-based, few day trips)</option>
+            <option value="120" selected>Moderate — ~120 km/day (2–3 intercity hops/week)</option>
+            <option value="200">Heavy — ~200 km/day (full road-trip circuit)</option>
+          </select>
+        </label>
+
+        <!-- Journey type mix for public transit -->
+        <label class="mt-5 block">
+          <span class="text-sm font-semibold text-ink">Intercity journey type</span>
+          <select
+            id="tce-journey-type"
+            class="mt-1 w-full rounded-btn border border-border bg-sand px-3 py-2 text-ink"
+          >
+            <option value="short" selected>Short hops — ₪35/trip (TLV↔Jerusalem, TLV↔Haifa)</option>
+            <option value="medium">Medium — ₪55/trip (TLV↔Tiberias, Jerusalem↔Eilat half-way)</option>
+            <option value="long">Long haul — ₪75/trip (TLV↔Eilat, TLV↔Mitzpe Ramon)</option>
+          </select>
+        </label>
+
+        <p class="mt-5 text-xs text-ink-muted">
+          Car costs include rental (~₪550/day) + fuel (~₪20/100 km) + tolls (~₪15/day Route 6).
+          Bus/train uses Rav-Kav per-journey pricing. Taxi column = private intercity taxis (Shabbat-proof).
+        </p>
+      </form>
+
+      <!-- Results -->
+      <div
+        id="tce-results"
+        class="rounded-card border border-border bg-sand-deep p-6 shadow-card"
+        aria-live="polite"
+        aria-label="Transport cost comparison results"
+      >
+        <p class="eyebrow">Cost comparison</p>
+        <p class="mt-1 text-sm text-ink-muted">All figures are estimates · excludes airport transfers</p>
+
+        <div class="mt-5 space-y-4" id="tce-cards">
+          <!-- Cards injected by JS -->
+        </div>
+
+        <div id="tce-recommendation" class="mt-6 rounded-btn bg-primary-soft p-4 text-sm text-ink hidden">
+          <!-- Recommendation injected by JS -->
+        </div>
+
+        <div class="mt-6 flex flex-wrap gap-3 no-print">
+          <a href="/car-rental-israel" class="btn btn-primary">Compare car rental options</a>
+          <a href="/rav-kav-israel" class="btn btn-ghost">Rav-Kav guide</a>
+        </div>
+        <p class="mt-4 text-xs text-ink-muted">
+          Shekel figures use an approximate rate of ₪3.7 = $1. Car rental rates vary by season and provider — compare at
+          <a href="/car-rental-israel" class="text-primary font-medium">our car rental guide</a>.
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Affiliate CTA -->
+  <section class="mx-auto max-w-5xl px-4 pb-4 pt-10 no-print">
+    <div class="rounded-card border border-border bg-card p-6 shadow-card">
+      <p class="eyebrow">Need a private transfer?</p>
+      <h3 class="mt-1 font-display text-xl font-bold text-ink">Skip the stress — book a private driver</h3>
+      <p class="mt-2 max-w-xl text-ink-muted text-sm">
+        For airport pick-ups, Shabbat travel, or multi-stop day trips where car hire doesn't make sense,
+        a private transfer locks in door-to-door convenience at a fixed price.
+        GetYourGuide's Israel private transfer options include Ben Gurion → Jerusalem, Ben Gurion → Tel Aviv,
+        and custom routes.
+      </p>
+      <a
+        href="https://www.getyourguide.com/israel-l175/transfers-tc72/"
+        rel="noopener sponsored"
+        target="_blank"
+        class="btn btn-primary mt-4 inline-block"
+      >
+        Browse private transfers on GetYourGuide
+      </a>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="mx-auto max-w-3xl px-4 pb-4 pt-14 no-print">
+    <h2 class="mb-4 font-display text-2xl font-bold text-ink">Frequently asked questions</h2>
+    <div class="space-y-4">
+      {
+        faqs.map((f) => (
+          <details class="rounded-card border border-border bg-card p-4">
+            <summary class="cursor-pointer font-semibold text-ink">{f.question}</summary>
+            <p class="mt-2 text-ink-muted">{f.answer}</p>
+          </details>
+        ))
+      }
+    </div>
+  </section>
+
+  <!-- Cross-links -->
+  <section class="mx-auto max-w-3xl px-4 pb-16 pt-10 no-print">
+    <p class="text-sm text-ink-muted">
+      Also useful:
+      <a href="/transportation" class="font-semibold text-primary">Getting around Israel</a>
+      · <a href="/israel-car-rental-quiz" class="font-semibold text-primary">Should I rent a car? (quiz)</a>
+      · <a href="/rav-kav-israel" class="font-semibold text-primary">Rav-Kav guide</a>
+      · <a href="/car-rental-israel" class="font-semibold text-primary">Car rental in Israel</a>
+      · <a href="/israel-trip-cost-calculator" class="font-semibold text-primary">Full trip budget planner</a>
+    </p>
+  </section>
+</BaseLayout>
+
+<style>
+  .tce-preset {
+    border-radius: var(--radius-btn);
+    border: 1.5px solid var(--color-border);
+    padding: 0.3rem 0.75rem;
+    font-size: var(--text-sm);
+    font-weight: 600;
+    color: var(--color-ink-muted);
+    background: transparent;
+    cursor: pointer;
+    transition: border-color 0.15s ease, background 0.15s ease, color 0.15s ease;
+  }
+  .tce-preset:hover {
+    border-color: var(--color-primary);
+    color: var(--color-primary);
+  }
+  .tce-preset.active {
+    border-color: var(--color-primary);
+    background: var(--color-primary-soft);
+    color: var(--color-primary);
+  }
+  .tce-preset:focus-visible {
+    outline: 3px solid var(--color-primary);
+    outline-offset: 2px;
+  }
+
+  .cost-card {
+    border-radius: var(--radius-card);
+    border: 1.5px solid var(--color-border);
+    background: var(--color-card);
+    padding: 1rem 1.25rem;
+    transition: border-color 0.2s ease;
+  }
+  .cost-card.best {
+    border-color: var(--color-primary);
+    background: var(--color-primary-soft);
+  }
+  .cost-card .badge {
+    display: inline-block;
+    font-size: 0.65rem;
+    font-weight: 700;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    background: var(--color-primary);
+    color: white;
+    border-radius: 9999px;
+    padding: 0.1rem 0.55rem;
+    margin-left: 0.5rem;
+    vertical-align: middle;
+  }
+
+  @media print {
+    .no-print { display: none !important; }
+    body { background: white; }
+  }
+</style>
+
+<script is:inline>
+  (function () {
+    var RATE = 3.7; // ILS per USD (approx)
+
+    // Car cost constants (ILS)
+    var CAR_DAILY_RENTAL = 550;   // rental incl. basic insurance
+    var CAR_FUEL_PER_100KM = 20;  // avg fuel cost
+    var CAR_TOLL_DAILY = 15;      // Route 6 toll average
+
+    // Bus/train per hop (ILS, per person)
+    var HOP_COST = { short: 35, medium: 55, long: 75 };
+
+    // Private taxi per hop (ILS, per person) — ~2× bus cost
+    var TAXI_COST = { short: 70, medium: 110, long: 150 };
+
+    var $ = function (id) { return document.getElementById(id); };
+    var num = function (id, d) {
+      var v = parseFloat($(id).value);
+      return isNaN(v) || v < 0 ? d : v;
+    };
+    var ils = function (n) {
+      return '₪' + Math.round(n).toLocaleString('en-US');
+    };
+    var usd = function (n) {
+      return '$' + Math.round(n / RATE).toLocaleString('en-US');
+    };
+    var fmt = function (ilsVal) {
+      return ils(ilsVal) + ' (' + usd(ilsVal) + ')';
+    };
+
+    function updatePresets(days) {
+      document.querySelectorAll('.tce-preset').forEach(function (btn) {
+        var d = parseInt(btn.getAttribute('data-days'), 10);
+        btn.classList.toggle('active', d === days);
+      });
+    }
+
+    function compute() {
+      var days = Math.max(1, num('tce-days', 7));
+      var pax = Math.max(1, num('tce-pax', 2));
+      var hops = Math.max(0, num('tce-hops', 3));
+      var kmPerDay = parseInt(($('tce-km') || {}).value || '120', 10);
+      var journeyType = ($('tce-journey-type') || {}).value || 'short';
+
+      updatePresets(days);
+
+      var hopRate = HOP_COST[journeyType] || 35;
+      var taxiRate = TAXI_COST[journeyType] || 70;
+
+      // === Option A: Rental car (shared, all travellers) ===
+      var carRental = CAR_DAILY_RENTAL * days;
+      var carFuel = (kmPerDay * days / 100) * CAR_FUEL_PER_100KM;
+      var carTolls = CAR_TOLL_DAILY * days;
+      var carTotal = carRental + carFuel + carTolls;
+      var carPerPerson = carTotal / pax;
+
+      // === Option B: Intercity bus + train (Rav-Kav, per person) ===
+      var busPerPerson = hops * hopRate;
+      var busTotal = busPerPerson * pax;
+
+      // === Option C: Mixed — bus for most hops, private taxi for 1–2 (Shabbat coverage) ===
+      // Assume 1 taxi hop per week for Shabbat / late night flexibility, rest bus
+      var taxiHops = Math.max(1, Math.floor(days / 7));
+      var busHops = Math.max(0, hops - taxiHops);
+      var mixedPerPerson = busHops * hopRate + taxiHops * taxiRate;
+      var mixedTotal = mixedPerPerson * pax;
+
+      var options = [
+        {
+          id: 'car',
+          label: 'Rental car',
+          sublabel: 'Shared · incl. fuel & Route 6 toll',
+          totalIls: carTotal,
+          ppIls: carPerPerson,
+          breakdown: [
+            { k: 'Rental (' + days + ' days)', v: ils(carRental) },
+            { k: 'Fuel (~' + kmPerDay + ' km/day)', v: ils(Math.round(carFuel)) },
+            { k: 'Tolls (Route 6 est.)', v: ils(Math.round(carTolls)) },
+          ],
+          note: 'Best for 2+ travellers on a full road-trip circuit. Excludes parking (₪25–60/day in city centres).',
+        },
+        {
+          id: 'bus',
+          label: 'Intercity bus & train',
+          sublabel: 'Rav-Kav card · per person',
+          totalIls: busTotal,
+          ppIls: busPerPerson,
+          breakdown: [
+            { k: hops + ' intercity journey' + (hops !== 1 ? 's' : '') + ' × ₪' + hopRate + '/pp', v: ils(busTotal) },
+          ],
+          note: 'Does NOT cover Shabbat (Fri sunset–Sat night). Add a private taxi for those nights.',
+        },
+        {
+          id: 'mixed',
+          label: 'Mixed (bus + taxi)',
+          sublabel: 'Bus for most hops · taxi for Shabbat',
+          totalIls: mixedTotal,
+          ppIls: mixedPerPerson,
+          breakdown: [
+            { k: busHops + ' bus hop' + (busHops !== 1 ? 's' : '') + ' × ₪' + hopRate + '/pp', v: ils(busHops * hopRate * pax) },
+            { k: taxiHops + ' private taxi hop' + (taxiHops !== 1 ? 's' : '') + ' × ₪' + taxiRate + '/pp', v: ils(taxiHops * taxiRate * pax) },
+          ],
+          note: 'Good balance: low cost on weekdays, flexibility on Shabbat.',
+        },
+      ];
+
+      // Find cheapest
+      var minTotal = Math.min(carTotal, busTotal, mixedTotal);
+      options.forEach(function (o) { o.best = o.totalIls === minTotal; });
+
+      var container = $('tce-cards');
+      container.innerHTML = '';
+
+      options.forEach(function (o) {
+        var card = document.createElement('div');
+        card.className = 'cost-card' + (o.best ? ' best' : '');
+
+        var header = document.createElement('div');
+        header.className = 'flex items-start justify-between gap-2';
+
+        var labelWrap = document.createElement('div');
+        var lbl = document.createElement('span');
+        lbl.className = 'font-semibold text-ink';
+        lbl.textContent = o.label;
+        var badge = o.best ? '<span class="badge">Cheapest</span>' : '';
+        lbl.innerHTML = o.label + badge;
+
+        var sub = document.createElement('p');
+        sub.className = 'text-xs text-ink-muted mt-0.5';
+        sub.textContent = o.sublabel;
+        labelWrap.appendChild(lbl);
+        labelWrap.appendChild(sub);
+
+        var priceWrap = document.createElement('div');
+        priceWrap.className = 'text-right shrink-0';
+        var totalEl = document.createElement('p');
+        totalEl.className = 'font-display text-2xl font-bold text-ink tabular';
+        totalEl.textContent = ils(o.totalIls);
+        var ppEl = document.createElement('p');
+        ppEl.className = 'text-xs text-ink-muted';
+        ppEl.textContent = ils(o.ppIls) + '/person · ' + usd(o.ppIls) + '/person';
+        priceWrap.appendChild(totalEl);
+        priceWrap.appendChild(ppEl);
+
+        header.appendChild(labelWrap);
+        header.appendChild(priceWrap);
+        card.appendChild(header);
+
+        // Breakdown list
+        var brkList = document.createElement('ul');
+        brkList.className = 'mt-3 space-y-0.5';
+        o.breakdown.forEach(function (row) {
+          var li = document.createElement('li');
+          li.className = 'flex justify-between text-xs text-ink-muted';
+          var kEl = document.createElement('span');
+          kEl.textContent = row.k;
+          var vEl = document.createElement('span');
+          vEl.className = 'font-medium text-ink';
+          vEl.textContent = row.v;
+          li.appendChild(kEl);
+          li.appendChild(vEl);
+          brkList.appendChild(li);
+        });
+        card.appendChild(brkList);
+
+        // Note
+        var noteEl = document.createElement('p');
+        noteEl.className = 'mt-3 text-xs text-ink-muted border-t border-border pt-2';
+        noteEl.textContent = o.note;
+        card.appendChild(noteEl);
+
+        container.appendChild(card);
+      });
+
+      // Recommendation
+      var recEl = $('tce-recommendation');
+      var cheapestOpt = options.find(function (o) { return o.best; });
+      var saving = null;
+      var secondCheapest = options.filter(function (o) { return !o.best; }).sort(function (a, b) { return a.totalIls - b.totalIls; })[0];
+      if (secondCheapest) saving = Math.round(secondCheapest.totalIls - minTotal);
+      var recText = '';
+      if (cheapestOpt.id === 'car') {
+        recText = 'For ' + pax + (pax > 1 ? ' travellers' : ' traveller') + ' on ' + days + ' days with ' + hops + ' city hop' + (hops !== 1 ? 's' : '') + ', a shared rental car is the most cost-effective option' + (saving ? ' — saving ₪' + saving.toLocaleString('en-US') + ' vs the next cheapest alternative' : '') + '. Ideal if you plan to explore outside city centres or visit Galilee, the Negev, or Golan.';
+      } else if (cheapestOpt.id === 'bus') {
+        recText = 'For this trip profile, intercity buses and trains (Rav-Kav) are cheapest' + (saving ? ' — saving ₪' + saving.toLocaleString('en-US') + ' vs a rental car' : '') + '. Remember public transport does not run on Shabbat (Friday evening to Saturday night).';
+      } else {
+        recText = 'The mixed approach — bus for weekday hops, private taxi for Shabbat flexibility — is cheapest for this trip' + (saving ? ' — saving ₪' + saving.toLocaleString('en-US') + ' vs a full rental car' : '') + '.';
+      }
+      recEl.textContent = recText;
+      recEl.classList.remove('hidden');
+    }
+
+    $('tce-form').addEventListener('input', compute);
+    document.querySelectorAll('.tce-preset').forEach(function (btn) {
+      btn.addEventListener('click', function () {
+        $('tce-days').value = btn.getAttribute('data-days');
+        compute();
+      });
+    });
+
+    compute();
+  })();
+</script>

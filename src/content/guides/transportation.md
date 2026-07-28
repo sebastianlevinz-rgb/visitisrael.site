@@ -53,6 +53,10 @@ You don't need a car for the [Tel Aviv](/tel-aviv)–[Jerusalem](/jerusalem)–[
 
 Plan ahead for Friday afternoon to Saturday night: rely on **taxis, ride apps or a rental car**. See our [Shabbat guide](/shabbat-guide) for the full rhythm of the week.
 
+## Transport cost estimator
+
+Unsure whether to rent a car or rely on public transport for your itinerary? Our [Israel transport cost estimator](/israel-transport-cost-estimator) compares the total cost of a rental car (including fuel and tolls), intercity bus and train, and a mixed approach — for your exact trip length, number of city hops, and group size.
+
 ## Popular routes compared
 
 Planning a specific hop? We compare every option — train, bus, tour, taxi and driving — with real durations and costs for the routes travellers ask about most:

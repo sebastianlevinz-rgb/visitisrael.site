@@ -435,6 +435,7 @@ const ROUTES = [
   '/es/airlines-flying-israel-2026',
   '/es/3-days-in-negev',
   '/es/akko-acre-guide',
+  '/israel-transport-cost-estimator',
 ];
 
 for (const route of ROUTES) {
