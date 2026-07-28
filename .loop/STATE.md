@@ -1,13 +1,15 @@
 # LOOP STATE
 
-- iteration: 818
-- lastMode: BUILD (iter818%5==3 → seo-content)
-- lastItem: gci-freshness-update
-- lastResult: SHIPPED ad941e4. GCI (Galilee Culinary Institute) freshness update: restaurant, wine bar, brewery, guest suites and day-tripper cooking workshops all confirmed open to public (July 2026); first full academic year launching October 2026. updatedAt 2026-07-28. Gate: 0 errors; 980 pages; 1247/1247 e2e pass. CI in_progress at iteration end (standard pattern).
-- nextRotationCategory: tools (iter819%5==4 → REVIEW; iter820%5==0 → RESEARCH)
+- iteration: 819
+- lastMode: REVIEW (iter819%5==4 → ES Phase ES-6 link audit)
+- lastItem: review-819-es6-link-fixes
+- lastResult: SHIPPED fe69d72. Audited all 5 iter816 ES Phase ES-6 guides for link correctness. Found 2 bare attraction links missing /es/ prefix: 3-days-in-israel.md (/tel-aviv/old-jaffa → /es/tel-aviv/old-jaffa) and 3-days-in-tel-aviv.md (/tel-aviv/carmel-market → /es/tel-aviv/carmel-market). Both ES attraction pages confirmed to exist. All other bare links verified correct (no ES version exists for /christian-pilgrimage-holy-land, /mount-of-olives-guide, /tel-aviv-carmel-market guide, /tel-aviv-white-city, /jaffa-travel-guide). Gate: 0 errors; 980 pages; 1247/1247 e2e pass. CI in_progress at iteration end (standard pattern).
+- nextRotationCategory: tools (iter820%5==0 → RESEARCH; iter821%5==1 → BUILD tools)
 - higgsfieldSpent: 0
-- updatedAt: 2026-07-28T05:00Z
+- updatedAt: 2026-07-28T05:50Z
 - branch context: work on master; feature work on auto/<slug>
+
+Notes: iter819 REVIEW — review-819-es6-link-fixes SHIPPED fe69d72. Audited all 5 iter816 ES Phase ES-6 guides (3-days-in-israel, 3-days-in-tel-aviv, airlines-flying-israel-2026, 3-days-in-negev, akko-acre-guide). Found 2 bare attraction links missing /es/ prefix: 3-days-in-israel.md line 143 (/tel-aviv/old-jaffa → /es/tel-aviv/old-jaffa); 3-days-in-tel-aviv.md line 82 (/tel-aviv/carmel-market → /es/tel-aviv/carmel-market). All other bare links in all 5 guides confirmed correct (no ES version exists). Pattern: same systematic link-prefix audit as iter809 (ES-4) and iter814 (ES-5). Gate: pnpm check 0 errors; build 980 pages (no change); 1247/1247 e2e pass. CI in_progress. Next: iter820 RESEARCH (820%5==0).
 
 Notes: iter818 BUILD (seo-content) — gci-freshness-update SHIPPED ad941e4. galilee-culinary-institute-gonen.md: updated opening status from "soft-launched February 2026 / early operational stage" to fully open (restaurant, wine bar, brewery, guest suites, day-tripper cooking workshops all operating); first full academic year launches October 2026; updatedAt 2026-07-28; description trimmed to 160 chars. Gate: pnpm check 0 errors; build 980 pages (no change); 1247/1247 e2e pass. CI in_progress. judean-hills-wine-trail BACKLOG entry confirmed stale (guide already exists from iter551 — file at src/content/guides/judean-hills-wine-trail.md). Next: iter819 REVIEW (819%5==4).
 

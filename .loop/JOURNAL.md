@@ -12443,3 +12443,9 @@ What: Freshness update to galilee-culinary-institute-gonen.md. Guide was written
 Gate: pnpm check 0 errors; build 980 pages (no change); 1247/1247 e2e+a11y pass.
 Ship: squash-merged to master ad941e4, pushed. CI in_progress at iteration end (standard pattern).
 Next: iter819 REVIEW (819%5==4).
+
+## 2026-07-28T05:50Z · iter 819 · REVIEW · review-819-es6-link-fixes
+What: Audited all 5 iter816 ES Phase ES-6 guides (3-days-in-israel, 3-days-in-tel-aviv, airlines-flying-israel-2026, 3-days-in-negev, akko-acre-guide) for link correctness, honesty, and test coverage. Found 2 bare attraction links missing /es/ prefix: (1) 3-days-in-israel.md line 143 — /tel-aviv/old-jaffa → /es/tel-aviv/old-jaffa (ES attraction tel-aviv-old-jaffa.md exists); (2) 3-days-in-tel-aviv.md line 82 — /tel-aviv/carmel-market → /es/tel-aviv/carmel-market (ES attraction tel-aviv-carmel-market.md exists). All other bare links in all 5 guides verified correct: /christian-pilgrimage-holy-land (no ES guide), /mount-of-olives-guide (no ES guide), /tel-aviv-carmel-market as guide slug (no ES guide, distinct from attraction path), /tel-aviv-white-city (no ES guide), /jaffa-travel-guide (no ES guide). airlines-flying-israel-2026, 3-days-in-negev, and akko-acre-guide had zero bare link issues. Test coverage already in place from iter816 (5 smoke + 5 a11y).
+Gate: pnpm check 0 errors; pnpm build 980 pages (no change); pnpm test:e2e 1247/1247 pass. GREEN.
+Ship: squash-merged to master fe69d72, pushed. CI in_progress (standard pattern).
+Next: iter820 RESEARCH (820%5==0) — 166th research pass.
