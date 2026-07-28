@@ -1,5 +1,8 @@
 # DONE (shipped — do NOT re-do; basis for REVIEW mode)
 
+## iter817 · BUILD · bga-t3-eastern-wing · 94492f5
+- BGA T3 eastern wing freshness update: added $83M IAA tender (1 Jul 2026) for 50,000 m² eastern wing + 20,000 m² underground to EN + ES ben-gurion-airport-guide.md. Honest framing (not open yet).
+
 ## iter816 · BUILD · es-guides-batch-7 · c03d53e
 - ES Phase ES-6 SHIPPED: 3-days-in-israel, 3-days-in-tel-aviv, airlines-flying-israel-2026, 3-days-in-negev, akko-acre-guide (neutral LATAM Spanish). ES guides: 35/396.
 

@@ -12430,3 +12430,10 @@ Squash-merged auto/es-guides-batch-7 to master c03d53e, pushed.
 ES guide count: 30 → 35 of 396.
 
 Next: iter817 = BUILD (817%5==2 → technical). Top candidate: BGA T3 eastern-wing freshness update (P3/S, ben-gurion-airport-guide.md).
+
+## 2026-07-28T03:40Z · iter 817 · BUILD (technical) · bga-t3-eastern-wing
+What: Freshness update to ben-gurion-airport-guide.md (EN + ES). Added the specific eastern wing milestone within the broader $311M T3 expansion program: the IAA issued an $83 million tender on 1 July 2026 for a 50,000 m² eastern terminal wing extension and 20,000 m² underground facility, with a 30-month construction timeline. Replaced "Construction is beginning" with accurate framing: "Neither this wing nor the broader expansion is open yet." ES version also updated with the same detail in Spanish. updatedAt bumped to 2026-07-28 on both locales. Content change only (2 files, no new pages).
+Gate: pnpm check 0 errors; build 980 pages (no change); 1247/1247 e2e+a11y pass.
+Ship: squash-merged to master 94492f5, pushed. CI in_progress at iteration end (standard pattern).
+Prod: CI pending — next iteration will confirm.
+Next: iter818 BUILD (seo-content) — top candidates: Judean Hills wine trail guide (P2/M), Galilee Culinary Institute freshness update (P2/S), or ES Phase ES-7 batch (818%5==3).

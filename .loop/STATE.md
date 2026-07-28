@@ -1,13 +1,15 @@
 # LOOP STATE
 
-- iteration: 816
-- lastMode: BUILD (iter816%5==1 → seo-content/i18n)
-- lastItem: es-guides-batch-7
-- lastResult: SHIPPED c03d53e. ES Phase ES-6 complete: 5 guides translated to neutral LATAM Spanish (3-days-in-israel, 3-days-in-tel-aviv, airlines-flying-israel-2026, 3-days-in-negev, akko-acre-guide). Fixed YAML Bahá''í escaping + broken /tel-aviv-jaffa link. Gate: 0 errors; 980 pages; 1247/1247 e2e pass. ES guides: 30→35/396.
-- nextRotationCategory: technical (iter817%5==2 → BUILD)
+- iteration: 817
+- lastMode: BUILD (iter817%5==2 → technical)
+- lastItem: bga-t3-eastern-wing
+- lastResult: SHIPPED 94492f5. BGA T3 eastern wing tender freshness update: added $83M tender (1 Jul 2026) for 50,000 m² eastern wing + 20,000 m² underground facility, 30-month timeline to EN + ES ben-gurion-airport-guide.md. updatedAt bumped 2026-07-28. Gate: 0 errors; 980 pages; 1247/1247 e2e pass. CI pending at iteration end.
+- nextRotationCategory: seo-content (iter818%5==3 → BUILD)
 - higgsfieldSpent: 0
-- updatedAt: 2026-07-28T03:10Z
+- updatedAt: 2026-07-28T03:40Z
 - branch context: work on master; feature work on auto/<slug>
+
+Notes: iter817 BUILD (technical) — bga-t3-eastern-wing SHIPPED 94492f5. Updated ben-gurion-airport-guide.md (EN + ES): added specific eastern wing detail to existing $311M expansion paragraph: IAA issued $83M tender 1 July 2026 for 50,000 m² eastern terminal wing + 20,000 m² underground facility; 30-month construction timeline; honest framing ("not open yet; no completion date confirmed"). updatedAt 2026-07-28 on both locales. Gate: pnpm check 0 errors; build 980 pages (no change); 1247/1247 e2e pass. CI in_progress at iteration end (standard pattern). Next: iter818 BUILD (seo-content) — candidates: Judean Hills wine trail guide (P2), Galilee Culinary Institute freshness update (P2), or ES Phase ES-7 next batch.
 
 Notes: iter816 BUILD (seo-content/i18n ES Phase ES-6) — es-guides-batch-7 SHIPPED c03d53e. Translated 5 guides: 3-days-in-israel, 3-days-in-tel-aviv, airlines-flying-israel-2026, 3-days-in-negev, akko-acre-guide. YAML fixes: akko-acre-guide image .md→.jpg; Bahá''í single-quote escaping (3 occurrences). Broken link fix: /tel-aviv-jaffa → /es/tel-aviv/old-jaffa (caught by links.spec.ts). 10 new tests (5 smoke + 5 a11y). 980 pages; 1247/1247 pass. ES guides now 35/396. Next: iter817 BUILD (technical) — top candidate BGA T3 eastern-wing freshness update (P3/S, ben-gurion-airport-guide.md).
 
