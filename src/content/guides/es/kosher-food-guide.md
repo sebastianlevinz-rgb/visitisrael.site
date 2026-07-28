@@ -32,7 +32,7 @@ Lo fundamental es que **gran parte de Israel no es kosher.** [Tel Aviv](/es/tel-
 
 ## Dónde comer
 
-Los **mercados** son el corazón de la gastronomía israelí: [Mahane Yehuda](/jerusalem/mahane-yehuda) en Jerusalén y el [Mercado Carmel](/tel-aviv/carmel-market) en Tel Aviv son a partes iguales tiendas de comestibles, pasillo gastronómico callejero y vida nocturna. El [Viejo Jaffa](/tel-aviv/old-jaffa), los callejones del casco antiguo de Nazaret y el [Wadi Nisnas](/haifa/wadi-nisnas) de Haifa son excepcionales para la cocina árabe-israelí.
+Los **mercados** son el corazón de la gastronomía israelí: [Mahane Yehuda](/es/jerusalem/mahane-yehuda) en Jerusalén y el [Mercado Carmel](/es/tel-aviv/carmel-market) en Tel Aviv son a partes iguales tiendas de comestibles, pasillo gastronómico callejero y vida nocturna. El [Viejo Jaffa](/es/tel-aviv/old-jaffa), los callejones del casco antiguo de Nazaret y el [Wadi Nisnas](/es/haifa/wadi-nisnas) de Haifa son excepcionales para la cocina árabe-israelí.
 
 ## Consejos prácticos
 
