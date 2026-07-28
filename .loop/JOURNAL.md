@@ -12664,3 +12664,10 @@ What: 5 new French guides — 3-days-in-tel-aviv, 3-days-in-eilat, dead-sea-vs-e
 Gate: pnpm check 0 errors; build 1006 pages (+5 from 1001); 1305/1305 e2e pass (10 new routes in smoke + a11y specs).
 Ship: committed 5fa1ab23, pushed to master. FR guides: 92→97/396.
 Next: iter832 BUILD-seo-content (832%5==2) — top candidate: Eilat vs Sharm el Sheikh [P2 seo-content M] or ES Phase ES-10 [P2 i18n-ES M].
+
+## 2026-07-28T18:55Z · iter 832 · BUILD (seo-content/i18n-ES) · es-phase-10
+Mode: iter832%5==2 → BUILD-seo-content. Top candidate: ES Phase ES-10 [P2 i18n-ES M] — 5-guide batch defined iter830.
+What: 5 new Spanish guides — cruise-shore-excursions-israel (excursiones desde Haifa/Ashdod, terminal mayo 2026, circuitos 8/10/12h), dead-sea-vs-eilat (comparativa Mar Muerto vs Eilat — flotación vs arrecife, tablas, circuito sur 5 días, Petra access), beer-sheva-guide (Tel Be'er Sheva UNESCO, Museo IAF 150+ aviones, memorial ANZAC/Cementerio de Guerra CWGC, Ciudad Vieja Otomana), best-hotels-haifa (Colony Hotel Colonia Alemana, Dan Carmel Carmelo ridge, Port Inn budget, Shabat en Haifa), day-trips-from-haifa (Akko, Rosh Hanikra, Cesárea, Zichron Yaakov, Nazaret, Beit Shearim, Tel Megiddo, pueblos drusos, Atlit; tabla tren vs auto; ventanas crucero). Neutral LATAM Spanish (tuteo); YAML con comillas dobles en títulos con apostrofes; /es/ prefix solo para páginas confirmadas existentes (50 ES guides verificadas); honestidad: Dolphin Reef "no garantizado", terminal Haifa mayo 2026 verificada, precios en rangos ₪/$.
+Gate: pnpm check 0 errors; build 1011 páginas (+5 desde 1006); 1315/1315 e2e pass (10 tests nuevos: 5 smoke + 5 a11y).
+Ship: committed 792d26c6, pushed to master. ES guides: 50→55/396. CI in_progress (standard pattern — consistent with all prior ES phases).
+Next: iter833 BUILD-tools (833%5==3) — top candidates from BACKLOG: [P2] Mediterranean cruises homeporting (/israel-homeport-cruise) [seo-content/M] or Eilat vs Sharm el Sheikh [P2 seo-content M]. DE Phase DE-1 also ready [P2 i18n-DE M].

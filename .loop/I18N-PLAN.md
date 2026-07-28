@@ -11,12 +11,12 @@
 | Locale | Guides | Attractions | Regions | Itineraries |
 |--------|--------|-------------|---------|-------------|
 | en     | 396    | 65          | 11      | 6           |
-| fr     | 87     | 61          | 11      | 6           |
+| fr     | 97     | 61          | 11      | 6           |
 | de     | 87     | 61          | 11      | 6           |
-| es     | 50     | 61          | 11      | 6           |
+| es     | 55     | 61          | 11      | 6           |
 
 **Gaps to close:**
-- es guides: **346 missing** (50/396 done — ongoing, highest priority)
+- es guides: **341 missing** (55/396 done — ongoing, highest priority)
 - fr guides: **307 missing** (EN guides added after Phase 2 Batch 18, iter408)
 - de guides: **307 missing** (same)
 - fr/de/es attractions: **4 missing each** (the 4 EN attractions added after Phase 4)
@@ -114,16 +114,13 @@ Take the top 5 by priority (or head -5 if priority not obvious), translate each 
   Ministry of Tourism bus "not guaranteed each year"; Western Wall egalitarian Ezrat Yisrael;
   no fabricated ceremony prices or ratings.
   ES guides: 45→50/396. 1285/1285 e2e pass.
-- Phase ES-10 — DEFINED iter830. Next ES BUILD iteration:
+- Phase ES-10 — DONE. iter832 shipped 792d26c6:
   cruise-shore-excursions-israel, dead-sea-vs-eilat, beer-sheva-guide,
-  best-hotels-haifa, day-trips-from-haifa.
-  Rationale: cruise-shore-excursions-israel = Haifa terminal $5.5M May 2026 expansion drives
-  LATAM cruise market (NCL/MSC/Costa all serve TLV+Haifa); dead-sea-vs-eilat = key planning
-  comparison for two main beach/resort destinations; beer-sheva = Negev gateway and Bedouin
-  market access; best-hotels-haifa = accommodation monetization for northern circuit; 
-  day-trips-from-haifa = practical planning for Galilee+Carmel+Akko circuit.
-  All 5 confirmed missing from ES via comm -23 check iter830.
-  Target: ES guides 50→55/396.
+  best-hotels-haifa, day-trips-from-haifa. LATAM Spanish neutral register;
+  YAML double-quotes on apostrophe fields; /es/ prefix only for confirmed existing pages;
+  Dolphin Reef "no garantizado" honesty; terminal Haifa mayo 2026 verified;
+  price ranges only (no fabricated figures). 10 new tests (5 smoke + 5 a11y).
+  ES guides: 50→55/396. Build: 1011 pages. 1315/1315 e2e pass.
 
 ### FR guide catch-up (92 / 396 = 304 remaining)
 - Phase FR-1 — DONE. iter828 shipped ff27fd98:

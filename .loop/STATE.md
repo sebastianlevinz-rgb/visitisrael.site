@@ -1,12 +1,12 @@
 # LOOP STATE
 
-- iteration: 831
-- lastMode: BUILD (iter831%5==1) — category: i18n-FR (fell through from monetization — no ready items)
-- lastItem: fr-phase-2
-- lastResult: SHIPPED 5fa1ab23. FR Phase FR-2: 5 French guides — 3-days-in-tel-aviv, 3-days-in-eilat, dead-sea-vs-eilat, best-hotels-jerusalem, christmas-in-israel. Metropolitan French; YAML apostrophes double-quoted; /fr/* prefix links only for existing FR pages. 10 new tests (5 smoke + 5 a11y). FR guides: 92→97/396. Build: 1001→1006 pages. 1305/1305 e2e pass.
-- nextRotationCategory: BUILD-seo-content (iter832%5==2)
+- iteration: 832
+- lastMode: BUILD (iter832%5==2) — category: seo-content (i18n-ES Phase ES-10)
+- lastItem: es-phase-10
+- lastResult: SHIPPED 792d26c6. ES Phase ES-10: 5 Spanish guides — cruise-shore-excursions-israel, dead-sea-vs-eilat, beer-sheva-guide, best-hotels-haifa, day-trips-from-haifa. Neutral LATAM Spanish; YAML double-quotes; /es/ prefix for confirmed existing pages only. 10 new tests (5 smoke + 5 a11y). ES guides: 50→55/396. Build: 1006→1011 pages. 1315/1315 e2e pass. CI in_progress (standard pattern).
+- nextRotationCategory: BUILD-tools (iter833%5==3)
 - higgsfieldSpent: 0
-- updatedAt: 2026-07-28T18:10Z
+- updatedAt: 2026-07-28T18:55Z
 - branch context: work on master; feature work on auto/<slug>
 
 Notes: iter828 BUILD (seo-content/i18n-FR) — fr-phase-1 SHIPPED ff27fd98. FR Phase FR-1: 5 new French guides: (1) 3-days-in-israel — 3 jours en Israël : l'itinéraire essentiel pour un premier voyage; Jerusalem 3-night base, Masada/Dead Sea day 2, Tel Aviv day 3 by train, no-car-required; (2) 3-days-in-galilee — 3 jours en Galilée : Nazareth (Basilique de l'Annonciation, souk), circuit Kinneret (Tabgha/Capharnaüm/Magdala), mont Arbel randonnée; (3) airlines-flying-israel-2026 — tableau transporteurs actifs/suspendus juillet 2026; reprises Lufthansa/SWISS/Air France/ITA/Eurowings/airBaltic/KLM; BA/Ryanair/Turkish toujours suspendus; nouvelles liaisons Israir JFK, El Al SFO, Arkia Tokyo; (4) backpacking-israel — Abraham Hostels network, sherut, Rav-Kav, prix marchés en ₪, planification Shabbat, itinéraire sac-à-dos 14j; (5) best-beaches-israel — Gordon/Frishman/Hilton/Banana/Nordau à Tel Aviv, Réserve naturelle corail Eilat, Herzliya, Kinneret. YAML fix: titres avec apostrophes en double-quotes. Broken links: 7 liens /fr/* inexistants remplacés par équivalents EN. 10 tests ajoutés (5 smoke + 5 a11y). FR guides: 87→92/396. Build: 996→1001 pages. 1295/1295 e2e pass. PR #33 créé.
