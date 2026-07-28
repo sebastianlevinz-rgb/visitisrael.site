@@ -1,13 +1,15 @@
 # LOOP STATE
 
-- iteration: 825
-- lastMode: RESEARCH (iter825%5==0 → RESEARCH)
-- lastItem: research-825-es9-fr1-de1-catchup
-- lastResult: RESEARCH complete. 167th research pass. 3 net-new backlog items defined: (1) [P1] ES Phase ES-9 — church-holy-sepulchre-guide, christmas-in-israel, caesarea-guide, israel-with-kids, bar-bat-mitzvah-israel (LATAM Catholic pilgrimage + family + diaspora); (2) [P1] FR Phase FR-1 — first FR catch-up batch: 3-days-in-israel, 3-days-in-galilee, airlines-flying-israel-2026, backpacking-israel, best-beaches-israel (309 FR guides missing); (3) [P2] DE Phase DE-1 — same 5 guides for DE (309 DE guides missing). No new EN content gaps found. Site at ~97%+ EN saturation. I18N-PLAN.md updated. Gate: not run (RESEARCH mode). No code shipped.
-- nextRotationCategory: BUILD-seo-content (iter826%5==1 → seo-content; top P1 item is ES Phase ES-9)
+- iteration: 826
+- lastMode: BUILD (iter826%5==1 → seo-content/i18n-ES)
+- lastItem: es-phase-9
+- lastResult: ES Phase ES-9 SHIPPED f8bdb180. 5 new ES guides: church-holy-sepulchre-guide, christmas-in-israel, caesarea-guide, bar-bat-mitzvah-israel, bedouin-experience-israel. LATAM Catholic pilgrimage + diaspora + adventure market. 10 new tests (5 smoke + 5 a11y). Build: 996 pages (+5). 1285/1285 e2e pass. ES guides: 45→50/396.
+- nextRotationCategory: BUILD-tools (iter827%5==2)
 - higgsfieldSpent: 0
-- updatedAt: 2026-07-28T11:30Z
+- updatedAt: 2026-07-28T13:10Z
 - branch context: work on master; feature work on auto/<slug>
+
+Notes: iter826 BUILD (seo-content/i18n-ES) — es-phase-9 SHIPPED f8bdb180. ES Phase ES-9: 5 new Spanish guides: (1) church-holy-sepulchre-guide — Santo Sepulcro visitor guide, Status Quo six-denomination framing (Greek Orthodox, Roman Catholic/Franciscan, Armenian Apostolic, Coptic, Syriac, Ethiopian Tewahedo), Edículo queue strategy, dawn visit tips, Via Dolorosa connection; (2) christmas-in-israel — three-Christmas guide (Catholic Dec 24-25, Orthodox Jan 6-7, Armenian Jan 18-19), Belén Checkpoint 300 logistics, Nazaret market, Ministry of Tourism bus "not guaranteed each year" honest note; (3) caesarea-guide — Cesárea day trip: Teatro Romano, Hipódromo, puerto herodiano Sebastos, Yam Cesárea Marine Park, Playa del Acueducto, Museo Ralli, combination itineraries (Haifa, Akko, Zichron Yaakov); (4) bar-bat-mitzvah-israel — bar/bat mitzvá trip guide: Western Wall + egalitarian Ezrat Yisrael, Masada sunrise bar mitzvah, Safed synagogues, 18-month planning timeline, 10-14 day family itinerary; (5) bedouin-experience-israel — Beduino cultural framing (diyafa), Kfar HaNokdim, Sde Boker, Negev Bedouin Heritage Centre, Mansaf, qahwa coffee ritual, camel etiquette. ES guides: 45→50/396. Build: 996 pages. 1285/1285 e2e pass. CI in_progress (standard pattern). Next: iter827 BUILD-tools (827%5==2).
 
 Notes: iter825 RESEARCH — 167th research pass. 3 net-new backlog items added. ES gap: 351 guides (45/396 done); FR gap: 309 guides (87/396 done — NOT STARTED catchup); DE gap: 309 guides (87/396 done — NOT STARTED catchup). Saturation: ~97%+ EN. Defined ES-9 batch (LATAM Catholic + family: church-holy-sepulchre, christmas-in-israel, caesarea, israel-with-kids, bar-bat-mitzvah), FR Phase FR-1 (3-days-in-israel, 3-days-in-galilee, airlines-flying-israel-2026, backpacking-israel, best-beaches-israel), and DE Phase DE-1 (same 5 guides). I18N-PLAN.md updated with all 3 new phase definitions. COMPETITORS.md updated. Next: iter826 BUILD seo-content (826%5==1) — top candidate ES Phase ES-9 [P1 i18n-ES M].
 

@@ -1,5 +1,8 @@
 # DONE (shipped — do NOT re-do; basis for REVIEW mode)
 
+## iter826 · BUILD · es-phase-9 · f8bdb180
+- ES Phase ES-9 SHIPPED: church-holy-sepulchre-guide, christmas-in-israel, caesarea-guide, bar-bat-mitzvah-israel, bedouin-experience-israel (neutral LATAM Spanish; Status Quo six-denomination framing on Holy Sepulchre; Bethlehem Checkpoint 300 logistics; Ministry of Tourism bus caveat; Western Wall egalitarian Ezrat Yisrael; no fabricated prices or ceremony quotes; /es/ prefix links). ES guides: 45→50/396. 10 new tests (5 smoke + 5 a11y). Build: 996 pages (+5). 1285/1285 e2e pass.
+
 ## iter824 · REVIEW · review-824-es8-voseo-fix · d320ddc9
 - ES Phase ES-8 audit: link audit CLEAN (all /es/ prefixes correct, zero dead links); tests verified (5 smoke + 5 a11y). Fixed 3 voseo forms ("alojás"→"alojas") in masada-visitor-guide.md (2×) + best-hotels-jerusalem.md (1×). Gate 1275/1275 pass.
 

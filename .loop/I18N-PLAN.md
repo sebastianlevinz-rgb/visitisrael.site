@@ -13,10 +13,10 @@
 | en     | 396    | 65          | 11      | 6           |
 | fr     | 87     | 61          | 11      | 6           |
 | de     | 87     | 61          | 11      | 6           |
-| es     | 45     | 61          | 11      | 6           |
+| es     | 50     | 61          | 11      | 6           |
 
 **Gaps to close:**
-- es guides: **351 missing** (45/396 done — ongoing, highest priority)
+- es guides: **346 missing** (50/396 done — ongoing, highest priority)
 - fr guides: **307 missing** (EN guides added after Phase 2 Batch 18, iter408)
 - de guides: **307 missing** (same)
 - fr/de/es attractions: **4 missing each** (the 4 EN attractions added after Phase 4)
@@ -105,18 +105,15 @@ Take the top 5 by priority (or head -5 if priority not obvious), translate each 
   eilat-travel-guide, tel-aviv-beach-guide. LATAM accommodation + iconic destination market.
   Honest caveats on Six Senses TLV/Nobu TLV openings; InterContinental Jerusalem "late summer 2026".
   ES guides: 40→45/396. 1275/1275 e2e pass.
-- Phase ES-9 — DEFINED iter825. Next BUILD iteration:
+- Phase ES-9 — DONE. iter826 shipped 5/396 (f8bdb180):
   church-holy-sepulchre-guide, christmas-in-israel, caesarea-guide,
   bar-bat-mitzvah-israel, bedouin-experience-israel.
   LATAM Catholic pilgrimage + diaspora + adventure market.
-  Note: church-holy-sepulchre requires careful Status Quo / six-denomination framing (no
-  access claims for any single denomination's interior without verification);
-  christmas-in-israel requires Bethlehem checkpoint logistics note + honest framing of
-  Ministry of Tourism bus service ("typically offered — verify closer to date");
-  caesarea: mixed Herodian/Byzantine/Crusader/Ottoman history — neutral framing;
-  bar-bat-mitzvah: no exact ceremony price quotes, use broad ranges only;
-  bedouin: frame camel rides/desert stays as curated cultural experiences, not staged.
-  Target: ES guides 45→50/396.
+  Status Quo six-denomination framing (Greek Orthodox, Roman Catholic/Franciscan,
+  Armenian Apostolic, Coptic, Syriac, Ethiopian Tewahedo); Checkpoint 300 logistics;
+  Ministry of Tourism bus "not guaranteed each year"; Western Wall egalitarian Ezrat Yisrael;
+  no fabricated ceremony prices or ratings.
+  ES guides: 45→50/396. 1285/1285 e2e pass.
 
 ### FR guide catch-up (87 / 396 = 309 remaining)
 - Phase FR-1 — DEFINED iter825. Next FR BUILD iteration:

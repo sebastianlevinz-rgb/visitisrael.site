@@ -12531,3 +12531,38 @@ Mode: RESEARCH (825%5==0). 167th research pass. No code shipped; gate not run.
 Gate: not run (RESEARCH mode). 991 pages / 1275/1275 tests GREEN (iter824 SHA d320ddc9).
 Ship: .loop/ memory files only.
 Next: iter826 BUILD seo-content (826%5==1) — top candidate: ES Phase ES-9 [P1 i18n-ES M] (church-holy-sepulchre, christmas-in-israel, caesarea, bar-bat-mitzvah, bedouin).
+
+## 2026-07-28 · iter 826 · BUILD (seo-content / i18n-ES) · es-phase-9
+Mode: BUILD (826%5==1 → seo-content; i18n-ES priority).
+Item: ES Phase ES-9 — 5 new Spanish-language guides for LATAM Catholic pilgrims, Jewish diaspora families, and adventure travelers.
+
+### What shipped
+5 new files in `src/content/guides/es/`:
+
+1. **church-holy-sepulchre-guide.md** — Santo Sepulcro visitor guide. Status Quo six-denomination neutral framing (Greek Orthodox, Roman Catholic/Franciscan, Armenian Apostolic, Coptic, Syriac, Ethiopian Tewahedo). Edículo queue strategy (pre-8 AM dawn visit tip). Via Dolorosa connection. 3 affiliateCtas (getyourguide, viator, abraham). 7 FAQs.
+2. **christmas-in-israel.md** — Three-Christmas guide: Catholic Dec 24-25, Orthodox Jan 6-7, Armenian Jan 18-19. Belén section with Checkpoint 300 logistics (arrive before 9 AM, shuttle "not guaranteed each year" honest framing). Nazaret market, Jerusalem winter atmosphere, Tel Aviv New Year. Winter travel advantages section.
+3. **caesarea-guide.md** — Cesárea day trip: Teatro Romano (capacity 3,500+), Hipódromo (Crusader restoration), puerto herodiano Sebastos, Yam Cesárea Marine Park, Playa del Acueducto, Museo Ralli (free admission). Combination itineraries (Cesárea+Haifa, +Akko, +Zichron Yaakov). Transport from Tel Aviv (car/train) and Haifa. YAML bug fixed: 3 instances of "Bahá'í" in single-quoted YAML strings escaped as `Bahá''í`.
+4. **bar-bat-mitzvah-israel.md** — Bar/bat mitzvá trip guide for LATAM Jewish diaspora. Western Wall (men's/women's sections + egalitarian Ezrat Yisrael with honest access-dispute context). Masada sunrise ceremony option. Safed synagogues. 18-month planning timeline. 10-14 day family itinerary. Shabbat in Jerusalem section. Honest cost ranges (no exact ceremony prices per honesty rules).
+5. **bedouin-experience-israel.md** — Beduino cultural hospitality framing (diyafa concept, not staged performances). Sites: Kfar HaNokdim (near Masada), Havat Sde Boker, Negev Bedouin Heritage Centre. Activities: camel riding, beit sha'ar tent, communal meal, bonfire/stargazing, overnight options. Mansaf, flatbread (khubz/saj), qahwa coffee ritual. Seasonal planning (avoid Aug heat), practical etiquette. Masada+Mitzpe Ramon combination.
+
+All guides: neutral LATAM Spanish register (no vosotros/voseo), /es/ prefix on all internal links to existing ES pages, no fabricated ratings/prices, honesty rules followed throughout.
+
+### Tests added
+`tests/e2e/smoke.spec.ts`: 5 new routes after `/es/tel-aviv-beach-guide`.
+`tests/e2e/a11y.spec.ts`: same 5 routes added to WCAG 2A/2AA suite.
+
+### Gate
+- `pnpm check`: 0 errors (YAML apostrophe bug in caesarea-guide.md fixed before gate)
+- `pnpm build`: 996 pages (+5 vs iter824 baseline of 991)
+- `pnpm test:e2e`: 1285/1285 PASS (all 1275 prior + 10 new)
+
+### Git
+- Feature branch: `auto/es-phase-9`
+- Squash-merge to master: SHA `f8bdb180c99836690e01315ad41c60d515c6d343`
+- Branch deleted after merge
+- CI: in_progress at time of state update (standard pattern)
+
+### ES guide progress
+45 → 50 / 396 (346 remaining)
+
+Next: iter827 BUILD-tools (827%5==2).
