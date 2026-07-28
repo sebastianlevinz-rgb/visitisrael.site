@@ -1,9 +1,9 @@
 ---
 title: "Galilee Culinary Institute Kibbutz Gonen: Visitor's Guide (2026)"
-description: "Visit the Galilee Culinary Institute at Kibbutz Gonen — farm-to-table campus with cooking workshops, restaurant and wine bar in the Upper Galilee."
+description: "Galilee Culinary Institute at Kibbutz Gonen — farm-to-table restaurant, cooking workshops and wine bar now fully open to visitors in the Upper Galilee."
 heroImage: /images/regions/galilee/hero.jpg
 category: Destinations
-updatedAt: 2026-07-14
+updatedAt: 2026-07-28
 ctaHeading: Explore the Upper Galilee's culinary and wine circuit
 affiliateCtas:
   - partner: getyourguide
@@ -26,11 +26,11 @@ affiliateCtas:
     cta: See Upper Galilee accommodation
 faqs:
   - question: What is the Galilee Culinary Institute at Kibbutz Gonen?
-    answer: "The Galilee Culinary Institute (galileeculinaryinstitute.com) is a NIS 100M culinary campus at Kibbutz Gonen in the Upper Galilee, funded by JNF-USA and soft-launched in February 2026. The project is led by Chef Lior Lev Sercarz — a French-trained Israeli chef and founder of the La Boîte spice brand in New York City. The campus includes a 12-dunam (roughly 3-acre) working farm, a restaurant and wine bar, a microbrewery and guest accommodation suites. Its culinary philosophy draws on the multicultural food traditions of the Upper Galilee — Jewish, Druze and Bedouin — using produce grown on the estate and sourced from neighbouring Galilee farms. As of 2026, the institute is in its early operational stage; check galileeculinaryinstitute.com for current programming and availability."
+    answer: "The Galilee Culinary Institute (galileeculinaryinstitute.com) is a NIS 100M culinary campus at Kibbutz Gonen in the Upper Galilee, funded by JNF-USA and opened in 2026. The project is led by Chef Lior Lev Sercarz — a French-trained Israeli chef and founder of the La Boîte spice brand in New York City. The campus includes a 12-dunam (roughly 3-acre) working farm, a restaurant and wine bar, a microbrewery and guest accommodation suites. Its culinary philosophy draws on the multicultural food traditions of the Upper Galilee — Jewish, Druze and Bedouin — using produce grown on the estate and sourced from neighbouring Galilee farms. The restaurant, wine bar, brewery and guest suites are fully open to visitors; the institute's first full academic year begins October 2026. Advance booking for workshops and restaurant dinners is strongly recommended — check galileeculinaryinstitute.com for current schedules."
   - question: How do I get to Kibbutz Gonen from Tiberias or Rosh Pina?
     answer: "Kibbutz Gonen lies on Route 918 in the Upper Galilee, approximately 25km north of Safed (Tzfat), 45 minutes from Tiberias by car, and one hour from Haifa. From Rosh Pina — the closest small town with tourist accommodation — the drive is around 20 minutes north on Route 90, then east on Route 918. A car is essential: Kibbutz Gonen has no public bus connection. The surrounding area is rich in day-trip destinations: Tel Dan Nature Reserve (20km), Banias Springs (20km), Nimrod Fortress (15km) and the Hula Valley Nature Reserve (10km south) are all within easy driving distance. Most visitors combine the institute with a morning at Tel Dan or Banias, then a late lunch or afternoon cooking session at Gonen."
   - question: What cooking workshops does the Galilee Culinary Institute offer?
-    answer: "The institute's cooking workshops follow a farm-to-table format: participants typically begin with a guided farm tour to see what is growing that day, then move to a hands-on cooking session using estate and local produce, and conclude with a sit-down meal. Sessions incorporating the Galilee's multicultural food traditions — Druze flatbreads, Bedouin spice blends and Jewish Galilee recipes — reflect the region's diverse culinary heritage rather than a single cuisine. Workshops in English are available on request. Session formats, pricing and availability change as the programme matures; advance booking via galileeculinaryinstitute.com is essential as capacity is limited."
+    answer: "The institute's cooking workshops follow a farm-to-table format: participants begin with a guided farm tour to see what is growing that day, then move to a hands-on cooking session using estate and local produce, and conclude with a sit-down meal. Sessions incorporate the Galilee's multicultural food traditions — Druze flatbreads, Bedouin spice blends, and Jewish Galilee recipes. Day-tripper workshops are now publicly available, not just for enrolled students; workshops in English are offered regularly. The first full academic year launches October 2026, expanding the programme further. Advance booking via galileeculinaryinstitute.com is essential as capacity per session is limited."
   - question: Who is Chef Lior Lev Sercarz?
     answer: "Lior Lev Sercarz is an Israeli-born, French-trained chef best known internationally for founding La Boîte, a spice and specialty ingredient brand based in New York City that supplies some of North America's most celebrated restaurants. He trained in France and worked in the professional kitchen world before establishing La Boîte's focus on hand-blended spice mixes and culinary education. His return to Israel to lead the Galilee Culinary Institute brings his spice expertise and multicultural culinary philosophy to a setting — the Upper Galilee — that is itself a meeting point of Jewish, Druze, Bedouin and Lebanese food traditions. The institute positions him as the creative and educational director of the campus."
   - question: What else is there to see and do near Kibbutz Gonen?
@@ -41,7 +41,7 @@ faqs:
     answer: "The farm-to-table format lends itself well to small groups and family visits with older children who have an interest in food and cooking. The working farm setting is engaging for curious visitors of any age. The cooking workshop component is hands-on and participatory, making it more interactive than a standard restaurant visit. For larger groups — corporate events, private dinners, Jewish heritage tour groups with a culinary focus — the institute can accommodate private bookings; contact them directly via galileeculinaryinstitute.com for group enquiries. As a newly opened facility, the institute's group programming is still developing, so enquire directly rather than assuming specific offerings are available."
 ---
 
-The **Galilee Culinary Institute at Kibbutz Gonen** is one of the most significant new culinary destinations to open in Israel in recent years — a NIS 100M farm-to-table campus in the Upper Galilee that brings together a working farm, restaurant, wine bar, microbrewery and cooking school on a single 12-dunam estate. The institute soft-launched in February 2026 under the creative direction of **Chef Lior Lev Sercarz**, the Israeli-born, French-trained founder of New York's La Boîte spice brand, and is funded by JNF-USA as a flagship investment in Upper Galilee culinary tourism.
+The **Galilee Culinary Institute at Kibbutz Gonen** is one of the most significant new culinary destinations to open in Israel in recent years — a NIS 100M farm-to-table campus in the Upper Galilee that brings together a working farm, restaurant, wine bar, microbrewery and cooking school on a single 12-dunam estate. The institute opened in 2026 under the creative direction of **Chef Lior Lev Sercarz**, the Israeli-born, French-trained founder of New York's La Boîte spice brand, and is funded by JNF-USA as a flagship investment in Upper Galilee culinary tourism. The restaurant, wine bar, brewery, guest suites and day-tripper cooking workshops are now all open to the public; the first full academic year launches October 2026.
 
 For travellers who have already discovered the Upper Galilee's wine villages — [Rosh Pina](/rosh-pina-guide), the Dalton and Galil Mountain wineries, the stone houses of Safed — the institute adds a new reason to extend a Galilee itinerary northward, toward the Hula Valley and the slopes of Mount Hermon.
 
@@ -53,15 +53,15 @@ The institute occupies a site at **Kibbutz Gonen**, one of the collective agricu
 
 The project's culinary philosophy draws explicitly on the **multicultural food traditions of the Upper Galilee** — a region where Jewish, Druze and Bedouin communities have lived alongside one another for generations, each with distinct agricultural practices, spice cultures and kitchen traditions. The Galilee's position near Lebanon also gives it access to ingredients and techniques from the broader Levantine culinary tradition.
 
-The campus components, as operational from 2026:
+The campus components, all now open to visitors:
 
-- **12-dunam working farm**: growing herbs, vegetables and seasonal produce used directly in the restaurant kitchen, with additional sourcing from neighbouring Galilee farms and producers
-- **Restaurant and wine bar**: farm-to-table dining using estate produce and a wine list focused on Upper Galilee and Golan Heights producers
+- **12-dunam working farm**: growing herbs, vegetables and seasonal produce used directly in the restaurant kitchen, with additional sourcing from neighbouring Galilee farms and producers; guided farm tours available for day-trippers
+- **Restaurant and wine bar**: farm-to-table dining using estate produce and a wine list focused on Upper Galilee and Golan Heights producers; restaurant reservations recommended, especially weekends
 - **Microbrewery**: on-site craft beer production using local ingredients, complementing the wine bar
-- **Guest suites**: accommodation enabling multi-day culinary retreat stays
-- **Cooking workshop space**: the educational core of the institute, where participatory cooking sessions are held with visiting chefs and institute instructors
+- **Guest suites**: accommodation enabling multi-day culinary retreat stays; book directly via galileeculinaryinstitute.com
+- **Cooking workshop space**: the educational core of the institute, where participatory cooking sessions are held with visiting chefs and institute instructors — now publicly available to day-trippers, not just enrolled students
 
-Because the institute opened in early 2026, operational details — workshop schedules, opening hours, specific menu focus — continue to evolve. Always check [galileeculinaryinstitute.com](https://galileeculinaryinstitute.com) directly for the most current programme before planning a visit.
+The first full academic year launches **October 2026**, expanding the educational programme. Always check [galileeculinaryinstitute.com](https://galileeculinaryinstitute.com) directly for current hours, workshop schedules and restaurant booking before planning a visit.
 
 ---
 
@@ -83,7 +83,7 @@ Workshop content varies by season, reflecting what the farm is producing at the 
 - **Bedouin spice culture**: the use of warming spices — cardamom, black lime, dried herbs — in rice dishes, lamb preparations and coffee rituals
 - **Jewish Galilee cooking**: North African-influenced preparations brought by Moroccan and Libyan Jewish immigrants to the Galilee, alongside Levantine vegetable dishes and dairy-based cooking from the kibbutz tradition
 
-English-language sessions are available on request. **Advance booking is essential** — capacity per session is limited and the institute is attracting significant interest from Israeli and international food-focused travellers. Book directly via galileeculinaryinstitute.com.
+English-language sessions are available on request. **Day-tripper workshops are publicly available** — you do not need to be an enrolled student to participate. With the first full academic year launching October 2026, workshop formats and frequency are expanding. **Advance booking is essential** — capacity per session is limited and the institute is attracting significant interest from Israeli and international food-focused travellers. Book directly via galileeculinaryinstitute.com.
 
 ---
 
@@ -144,10 +144,11 @@ See the [birdwatching in Israel guide](/birdwatching-in-israel) for seasonal tim
 ## Practical information
 
 **Address:** Kibbutz Gonen, Upper Galilee (Route 918)  
-**Booking:** galileeculinaryinstitute.com (advance booking required for workshops; recommended for restaurant)  
+**Status:** Fully open — restaurant, wine bar, brewery, guest suites and day-tripper cooking workshops all operating; first full academic year launches October 2026  
+**Booking:** galileeculinaryinstitute.com (advance booking required for workshops; strongly recommended for restaurant weekends)  
 **Getting there:** Own car or rental car essential — no public transport  
 **Nearest accommodation hub:** Rosh Pina (20 min south) — stone guesthouses, vineyard B&Bs and rural zimmers; see our [Israel zimmer guide](/israel-zimmer-guide) for how to search and book rural Galilee accommodation
 
-The institute opened in early 2026 and is still establishing its full programme. Hours, workshop schedules and menu focus are subject to change — always verify current details directly at galileeculinaryinstitute.com before making a special trip.
+Hours, workshop schedules and menu focus are subject to change — always verify current details directly at galileeculinaryinstitute.com before making a special trip.
 
 For a broader Galilee itinerary context, see the [3 days in the Galilee guide](/3-days-in-galilee), the [Rosh Pina wine village guide](/rosh-pina-guide) and the [Israel agritourism guide](/israel-agritourism-guide).
