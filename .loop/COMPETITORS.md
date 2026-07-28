@@ -6619,3 +6619,17 @@ Net-new BACKLOG items: 2 (Eastern Railway + 10-day itinerary).
 **Wine tour operators (winetourism.com, golanwinetour.com, mokitours.com)**: Both Judean Hills and Golan Heights wine guides SHIPPED (iter551, iter556). Our coverage is live and indexed. No new gap.
 
 **Net-new items this pass**: 2 (BGA T3 eastern-wing tender P3/S; ES Phase ES-6 batch P2/M). Saturation ~97%.
+
+### 2026-07-28 · iter 820 · 166th research pass
+
+**Tourist Israel (touristisrael.com)**: Confirmed new Gaza Border & Nova Festival Small Group Tour launched. Editorial scope too sensitive for autonomous coverage (HUMAN REVIEW still required — see BACKLOG blocked entry). No other net-new editorial gaps found.
+
+**Spanish-language Israel travel market**: greca.co, israelturismo.com, compasstravelisrael.com, compasstravelisrael.com/israel-tours-in-spanish — all thin aggregator-quality content with minimal editorial depth. Our ES pages rank quickly when published; ES Phase ES-7 batch (christian-pilgrimage-holy-land, bethlehem-travel-guide, border-crossings, haifa-travel-guide, day-trips-from-eilat) has high estimated ROI per page translated. No well-resourced Spanish competitor for Israel travel content identified.
+
+**IAA National Campus for Archaeology (iaa.org.il)**: Running open preview tours now; Moshe Safdie-designed 36,000 m² campus on Museum Row. Full Leon Levy National Center for National Treasures (1.8M artefacts + Dead Sea Scrolls) opens early 2027. Added as P3/S seo-content item (preview mention in israel-archaeology-experience.md).
+
+**Israel Pass & Ride (israelpass.biz)**: New tourist card combining INPA national park access + Rav-Kav transit discount sold at Ben Gurion Airport T3. Already covered comprehensively in israel-national-parks-pass.md. No new content gap.
+
+**New luxury hotels 2026**: Six Senses Tel Aviv confirmed open (late spring 2026, LEED Platinum, Rothschild Blvd). InterContinental Jerusalem "late summer 2026" — not yet open as of July 28. Both already in new-luxury-hotels-israel-2026.md with accurate framing. No new gap.
+
+**Net-new items this pass**: 3 (ES Phase ES-7 batch P1/M; transport-cost-estimator tool P2/S; National Campus archaeology preview P3/S). Saturation ~97%+.

@@ -12449,3 +12449,22 @@ What: Audited all 5 iter816 ES Phase ES-6 guides (3-days-in-israel, 3-days-in-te
 Gate: pnpm check 0 errors; pnpm build 980 pages (no change); pnpm test:e2e 1247/1247 pass. GREEN.
 Ship: squash-merged to master fe69d72, pushed. CI in_progress (standard pattern).
 Next: iter820 RESEARCH (820%5==0) — 166th research pass.
+
+## 2026-07-28T07:45Z · iter 820 · RESEARCH · research-820-es7-batch-tools-archaeology
+Mode: RESEARCH (820%5==0). 166th research pass. No code shipped; gate not run.
+Competitors searched: Tourist Israel (new 2026 content), touristisrael.com guides, Spanish-language Israel travel market (greca.co, israelturismo.com, compasstravelisrael.com), Israel tourism news July 2026, IAA National Campus archaeology updates, Six Senses Tel Aviv status, InterContinental Jerusalem status, Israel Pass & Ride transit card.
+
+De-duplication sweep (confirmed ALREADY EXIST — NOT added): mitzpe-ramon-guide.md, rosh-hanikra-guide.md, israel-eta-guide.md, solo-female-travel-israel.md, cruise-shore-excursions-israel.md, israel-wine-wineries.md, digital-nomad-israel.md, tiberias-guide.md, best-hotels-tiberias.md, best-hotels-sea-of-galilee.md, first-time-in-israel.md. Israel Pass & Ride already covered comprehensively in israel-national-parks-pass.md. Six Senses Tel Aviv already in new-luxury-hotels-israel-2026.md with correct "confirm via Booking.com" framing. 23+ tools already built (season-picker, weather-packing, itinerary-checker, experience-finder all cover angles suggested). Saturation: ~97%+.
+
+3 net-new backlog items added:
+  1. [P1] (i18n-ES, M) ES Phase ES-7 — 5-guide batch: christian-pilgrimage-holy-land, bethlehem-travel-guide, border-crossings, haifa-travel-guide, day-trips-from-eilat. Defined in I18N-PLAN.md. LATAM Catholic + logistics market. Ready for next i18n BUILD iteration.
+  2. [P2] (tools, S) /israel-transport-cost-estimator — rental car vs bus/train vs taxi total cost comparison interactive tool. Distinct from trip-cost-calculator (no transport detail) + travel-time tool (time not cost). Ready for iter821 BUILD tools.
+  3. [P3] (seo-content, S) National Campus for Archaeology preview section in israel-archaeology-experience.md — IAA running open preview tours now; full Leon Levy Center opening early 2027 (1.8M artefacts incl. 15,000 Dead Sea Scroll fragments). Source: iaa.org.il/en/page/touriaa.
+
+Spanish market note: Israeli travel competitor content in Spanish (greca.co, israelturismo.com) is thin and aggregator-quality. Our ES pages rank well quickly as a result — ES Phase ES-7 has high ROI per page.
+Gaza Border & Nova Festival: Tourist Israel now offers a small-group tour. Content still HUMAN REVIEW REQUIRED — not added to backlog.
+InterContinental Jerusalem: "late summer 2026" per hotel-online.com; luxury guide framing already correct (no update needed).
+
+Gate: not run (RESEARCH mode). 980 pages / 1247/1247 tests GREEN (iter819 commit fe69d72).
+Ship: .loop/ memory files only.
+Next: iter821 BUILD/tools (821%5==1) — top candidate: transport-cost-estimator (P2, tools, S, ready).

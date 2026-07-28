@@ -95,6 +95,14 @@ Take the top 5 by priority (or head -5 if priority not obvious), translate each 
 - Phase ES-6 — DONE. iter816 shipped 5/396 (c03d53e):
   3-days-in-israel, 3-days-in-tel-aviv, airlines-flying-israel-2026,
   3-days-in-negev, akko-acre-guide.
+- Phase ES-7 — READY (iter820 research, 2026-07-28). Next 5-guide batch for BUILD:
+  christian-pilgrimage-holy-land (largest LATAM Catholic market guide),
+  bethlehem-travel-guide (pilgrimage companion; top Christmas tourism query),
+  border-crossings (Jordan crossing logistics; LATAM Israel+Jordan combos),
+  haifa-travel-guide (major port city; cruise visitor segment),
+  day-trips-from-eilat (warm Red Sea + Petra access — top LATAM Eilat query).
+  All 5 confirmed to exist in EN. Neutral LATAM Spanish (no vosotros); /es/ prefixes
+  where ES pages exist; 10 new tests (5 smoke + 5 a11y). Target: ES guides 35→40/396.
 
 ### FR guide catch-up (87 / 394 = 307 remaining)
 - Phase FR-catchup — NOT STARTED.
