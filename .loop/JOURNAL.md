@@ -12617,3 +12617,43 @@ Next: iter828 BUILD-monetization (828%5==3).
 **Gate:** pnpm check 0 errors · build 1001 pages · e2e 1295/1295 pass
 **Existing BACKLOG item:** [P3] extend lint-meta-length.mjs to cover guides/es/, guides/fr/, guides/de/ subdirectories — root-cause fix still deferred.
 **Next:** iter830 BUILD (830%5==0 → RESEARCH, then iter831 BUILD monetization or i18n)
+
+## 2026-07-28T17:15Z · iter 830 · RESEARCH · research-830-i18n-gap-analysis
+
+**Mode:** RESEARCH (iter830%5==0) — 168th research pass
+**Scope:** Deep de-duplication + i18n gap analysis + competitor monitoring
+
+**Research methodology:**
+- 2 parallel web research agents (webfetch + websearch on competitors)
+- Direct filesystem diff: `comm -23 en_guides fr_guides/de_guides/es_guides` (all 3 locales)
+- Verified findings against DONE.md, BACKLOG.md, I18N-PLAN.md
+
+**Key de-duplication (all agents suggested — all already DONE):**
+- 14-day Israel itinerary → DONE iter141 (a02b487)
+- Digital nomad Israel → DONE iter727 (544bd7f)
+- Israel for Indian travelers → DONE iter631 (0e22021)
+- Skyfield Extreme Park Jaffa → DONE iter616 (49ab3f6)
+- Israel National Trail guide → EXISTS (israel-national-trail-hiking.md)
+- Israel+Jordan 14-day → DONE iter291 (6fe447d)
+- Working remotely from Tel Aviv → DONE iter727 (digital-nomad-israel)
+
+**Bug caught: I18N-PLAN.md FR Phase FR-2 stale definition.** Previous definition listed guides already in FR (cheap-flights-to-israel, shabbat-guide, first-time-in-israel, is-israel-safe, ben-gurion-airport-guide — all in Phase 2 Batches 1–18). Corrected to guides confirmed missing via `comm -23`:
+- New FR Phase FR-2: 3-days-in-tel-aviv, 3-days-in-eilat, dead-sea-vs-eilat, best-hotels-jerusalem, christmas-in-israel
+
+**Net-new BACKLOG items: 3**
+1. [P1] FR Phase FR-2 (i18n-FR, M) — 5 French guides defined above. [ready]
+2. [P2] ES Phase ES-10 (i18n-ES, M) — cruise-shore-excursions-israel, dead-sea-vs-eilat, beer-sheva-guide, best-hotels-haifa, day-trips-from-haifa. Subsumed standalone ES cruise item. [ready]
+3. Haifa homeport cruise: P3→P2 priority upgrade (NCL confirmed comeback, terminal live May 2026). [existing item, upgraded]
+
+**Confirmed still relevant in BACKLOG:**
+- Eilat vs Sharm el Sheikh [P2] — SERP dominated by stale 2019–2022 TripAdvisor forum threads; no 2026 editorial guide exists
+- Haifa homeport cruise [now P2] — terminal live, homeporting distinct from shore-excursions guide
+- Golan Heights Wine Route [P3] — official wine route exists (tourgolan.org.il), our galilee-culinary-institute is a single institution not the region
+
+**Competitor signals:**
+- myisraelstay.com running 17-hotel-opening roundup (summer 2026)
+- cruisefever.net + cruiseindustrynews.com: Haifa terminal + NCL comeback
+- TripAdvisor: stale Eilat vs Sharm forum threads dominate SERP → real gap
+
+**No code changed. Gate not run (RESEARCH mode).**
+Next: iter831 BUILD-monetization (831%5==1) — top candidate: FR Phase FR-2 [P1] or Haifa homeport cruise [P2].

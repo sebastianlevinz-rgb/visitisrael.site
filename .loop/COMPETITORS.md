@@ -6660,3 +6660,36 @@ Net-new BACKLOG items: 2 (Eastern Railway + 10-day itinerary).
 3. [P2] DE Phase DE-1 catch-up (i18n-DE, M): same 5 guides as FR-1
 
 Gate: not run (RESEARCH mode). 991 pages / 1275/1275 tests GREEN (iter824 commit d320ddc9).
+
+### 2026-07-28 · iter 830 · 168th research pass — Deep de-dup + i18n gap analysis
+
+**Sources checked:** cruiseindustrynews.com, cruisefever.net, travelandtourworld.com, myisraelstay.com, ronkin-list.com, touristisrael.com (search SERPs), jweekly.com, TripAdvisor/AllTrails hiking SERPs.
+
+#### De-duplication pass (all suggested — all already shipped):
+- 14-day Israel itinerary → DONE iter141 (a02b487)
+- Digital nomad Israel → DONE iter727 (544bd7f)  
+- Israel for Indian travelers → DONE iter631 (0e22021)
+- Skyfield Extreme Park Jaffa → DONE iter616 (49ab3f6)
+- Israel National Trail guide → EXISTS (israel-national-trail-hiking.md)
+- Israel+Jordan 14-day itinerary → DONE iter291 (6fe447d)
+
+#### Competitor patterns (noteworthy):
+- **myisraelstay.com** — running "17 hotel openings shaping Israel's summer 2026" roundup; good affiliate signal but we have luxury-travel-israel + individual best-hotels-* guides covering the space.
+- **cruisefever.net / cruiseindustrynews.com** — Haifa $5.5M terminal (May 14, 2026) heavily covered in cruise trade press; zero mainstream travel sites have SEO-optimized homeporting guide → gap confirmed (Haifa homeport item upgraded to P2 in BACKLOG).
+- **TripAdvisor forums** — dominate "Eilat vs Sharm el Sheikh" SERPs with stale 2019-2022 threads; zero 2026 editorial guide exists → confirms [P2] eilat-vs-sharm item in BACKLOG is a real opportunity.
+- **ronkin-list.com / jweekly.com** — covering "working remotely from Tel Aviv"; we have digital-nomad-israel (iter727) which covers this. No new gap.
+
+#### Key finding: FR Phase FR-2 definition was stale
+I18N-PLAN.md listed "cheap-flights-to-israel, shabbat-guide, first-time-in-israel, is-israel-safe, ben-gurion-airport-guide" as FR Phase FR-2 — but ALL are already in FR from Phase 2 Batches 1-18. Corrected to: 3-days-in-tel-aviv, 3-days-in-eilat, dead-sea-vs-eilat, best-hotels-jerusalem, christmas-in-israel (all confirmed missing from FR via comm -23 July 2026).
+
+#### Net-new backlog items this pass: 3 (all i18n)
+1. [P1] FR Phase FR-2 (i18n-FR, M): 3-days-in-tel-aviv, 3-days-in-eilat, dead-sea-vs-eilat, best-hotels-jerusalem, christmas-in-israel
+2. [P2] ES Phase ES-10 (i18n-ES, M): cruise-shore-excursions-israel, dead-sea-vs-eilat, beer-sheva-guide, best-hotels-haifa, day-trips-from-haifa
+3. Haifa homeport upgraded P3→P2 (existing BACKLOG item, not new)
+
+#### Gaps confirmed still open (not yet shipped, not in BACKLOG as ready):
+- Eilat vs Sharm el Sheikh [P2 in BACKLOG, ready] — SERP opportunity real
+- Haifa homeport cruise [P2 in BACKLOG, ready] — terminal live, NCL comeback imminent
+- Golan Heights Wine Route [P3 in BACKLOG, ready] — low competition niche
+
+Gate: not run (RESEARCH mode). 1001 pages / 1295/1295 tests GREEN (iter829 commit b68cfe6d).

@@ -114,6 +114,16 @@ Take the top 5 by priority (or head -5 if priority not obvious), translate each 
   Ministry of Tourism bus "not guaranteed each year"; Western Wall egalitarian Ezrat Yisrael;
   no fabricated ceremony prices or ratings.
   ES guides: 45→50/396. 1285/1285 e2e pass.
+- Phase ES-10 — DEFINED iter830. Next ES BUILD iteration:
+  cruise-shore-excursions-israel, dead-sea-vs-eilat, beer-sheva-guide,
+  best-hotels-haifa, day-trips-from-haifa.
+  Rationale: cruise-shore-excursions-israel = Haifa terminal $5.5M May 2026 expansion drives
+  LATAM cruise market (NCL/MSC/Costa all serve TLV+Haifa); dead-sea-vs-eilat = key planning
+  comparison for two main beach/resort destinations; beer-sheva = Negev gateway and Bedouin
+  market access; best-hotels-haifa = accommodation monetization for northern circuit; 
+  day-trips-from-haifa = practical planning for Galilee+Carmel+Akko circuit.
+  All 5 confirmed missing from ES via comm -23 check iter830.
+  Target: ES guides 50→55/396.
 
 ### FR guide catch-up (92 / 396 = 304 remaining)
 - Phase FR-1 — DONE. iter828 shipped ff27fd98:
@@ -121,15 +131,22 @@ Take the top 5 by priority (or head -5 if priority not obvious), translate each 
   backpacking-israel, best-beaches-israel. Metropolitan French;
   YAML apostrophes double-quoted; /fr/* broken links → EN fallbacks.
   FR guides: 87→92/396. 1295/1295 e2e pass.
-- Phase FR-2 — PENDING. Next FR BUILD iteration (iter829+):
-  cheap-flights-to-israel, shabbat-guide, first-time-in-israel,
-  is-israel-safe, ben-gurion-airport-guide.
+- Phase FR-2 — DEFINED iter830 (corrected — previous FR-2 definition listed guides
+  already in FR from Phase 2 Batches 1–18). Next FR BUILD iteration:
+  3-days-in-tel-aviv, 3-days-in-eilat, dead-sea-vs-eilat,
+  best-hotels-jerusalem, christmas-in-israel.
+  Rationale: short city-break itineraries high-traffic for French market (Air France CDG–TLV
+  daily); dead-sea-vs-eilat is key planning comparison; best-hotels-jerusalem drives Booking
+  affiliate revenue; christmas-in-israel targets large French Catholic market.
+  WARN: best-hotels-jerusalem already in FR? → NO, confirmed missing via comm -23 check iter830.
   Target: FR guides 92→97/396.
 
 ### DE guide catch-up (87 / 396 = 309 remaining)
-- Phase DE-1 — DEFINED iter825. After FR-1:
+- Phase DE-1 — DEFINED iter825. After FR-2 (interleave):
   3-days-in-israel, 3-days-in-galilee, airlines-flying-israel-2026,
   backpacking-israel, best-beaches-israel. Standard Hochdeutsch.
+  Same guide set as FR-1 — Germany is Israel's 4th-largest European source market; these
+  foundational short-trip/planning guides serve same high-traffic intent in German.
   Target: DE guides 87→92/396.
 
 ### Attraction catch-up (4 missing per locale)
