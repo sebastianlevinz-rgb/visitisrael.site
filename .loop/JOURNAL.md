@@ -12437,3 +12437,9 @@ Gate: pnpm check 0 errors; build 980 pages (no change); 1247/1247 e2e+a11y pass.
 Ship: squash-merged to master 94492f5, pushed. CI in_progress at iteration end (standard pattern).
 Prod: CI pending — next iteration will confirm.
 Next: iter818 BUILD (seo-content) — top candidates: Judean Hills wine trail guide (P2/M), Galilee Culinary Institute freshness update (P2/S), or ES Phase ES-7 batch (818%5==3).
+
+## 2026-07-28T05:00Z · iter 818 · BUILD (seo-content) · gci-freshness-update
+What: Freshness update to galilee-culinary-institute-gonen.md. Guide was written for the February 2026 soft-launch (iter522). As of July 2026, the restaurant, wine bar, microbrewery, guest suites, and day-tripper cooking workshops are all fully open to the public. The first full academic year launches October 2026. Changes: (1) opening framing updated from "soft-launched / early operational stage" to "fully open"; (2) each campus component now notes public availability; (3) cooking workshops FAQ updated — day-tripper access now explicit, English workshops "offered regularly" not just "on request"; (4) practical info table now has "Status: Fully open" row + October 2026 academic year note; (5) restaurant reservations noted as "strongly recommended weekends"; (6) updatedAt 2026-07-28; (7) description trimmed from 161 → 158 chars (was over 160-char lint limit). Also confirmed: judean-hills-wine-trail guide already shipped iter551 (file exists at src/content/guides/judean-hills-wine-trail.md) — BACKLOG entry was stale.
+Gate: pnpm check 0 errors; build 980 pages (no change); 1247/1247 e2e+a11y pass.
+Ship: squash-merged to master ad941e4, pushed. CI in_progress at iteration end (standard pattern).
+Next: iter819 REVIEW (819%5==4).

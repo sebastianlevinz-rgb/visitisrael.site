@@ -1,13 +1,15 @@
 # LOOP STATE
 
-- iteration: 817
-- lastMode: BUILD (iter817%5==2 → technical)
-- lastItem: bga-t3-eastern-wing
-- lastResult: SHIPPED 94492f5. BGA T3 eastern wing tender freshness update: added $83M tender (1 Jul 2026) for 50,000 m² eastern wing + 20,000 m² underground facility, 30-month timeline to EN + ES ben-gurion-airport-guide.md. updatedAt bumped 2026-07-28. Gate: 0 errors; 980 pages; 1247/1247 e2e pass. CI pending at iteration end.
-- nextRotationCategory: seo-content (iter818%5==3 → BUILD)
+- iteration: 818
+- lastMode: BUILD (iter818%5==3 → seo-content)
+- lastItem: gci-freshness-update
+- lastResult: SHIPPED ad941e4. GCI (Galilee Culinary Institute) freshness update: restaurant, wine bar, brewery, guest suites and day-tripper cooking workshops all confirmed open to public (July 2026); first full academic year launching October 2026. updatedAt 2026-07-28. Gate: 0 errors; 980 pages; 1247/1247 e2e pass. CI in_progress at iteration end (standard pattern).
+- nextRotationCategory: tools (iter819%5==4 → REVIEW; iter820%5==0 → RESEARCH)
 - higgsfieldSpent: 0
-- updatedAt: 2026-07-28T03:40Z
+- updatedAt: 2026-07-28T05:00Z
 - branch context: work on master; feature work on auto/<slug>
+
+Notes: iter818 BUILD (seo-content) — gci-freshness-update SHIPPED ad941e4. galilee-culinary-institute-gonen.md: updated opening status from "soft-launched February 2026 / early operational stage" to fully open (restaurant, wine bar, brewery, guest suites, day-tripper cooking workshops all operating); first full academic year launches October 2026; updatedAt 2026-07-28; description trimmed to 160 chars. Gate: pnpm check 0 errors; build 980 pages (no change); 1247/1247 e2e pass. CI in_progress. judean-hills-wine-trail BACKLOG entry confirmed stale (guide already exists from iter551 — file at src/content/guides/judean-hills-wine-trail.md). Next: iter819 REVIEW (819%5==4).
 
 Notes: iter817 BUILD (technical) — bga-t3-eastern-wing SHIPPED 94492f5. Updated ben-gurion-airport-guide.md (EN + ES): added specific eastern wing detail to existing $311M expansion paragraph: IAA issued $83M tender 1 July 2026 for 50,000 m² eastern terminal wing + 20,000 m² underground facility; 30-month construction timeline; honest framing ("not open yet; no completion date confirmed"). updatedAt 2026-07-28 on both locales. Gate: pnpm check 0 errors; build 980 pages (no change); 1247/1247 e2e pass. CI in_progress at iteration end (standard pattern). Next: iter818 BUILD (seo-content) — candidates: Judean Hills wine trail guide (P2), Galilee Culinary Institute freshness update (P2), or ES Phase ES-7 next batch.
 
