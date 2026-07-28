@@ -105,12 +105,30 @@ Take the top 5 by priority (or head -5 if priority not obvious), translate each 
   eilat-travel-guide, tel-aviv-beach-guide. LATAM accommodation + iconic destination market.
   Honest caveats on Six Senses TLV/Nobu TLV openings; InterContinental Jerusalem "late summer 2026".
   ES guides: 40→45/396. 1275/1275 e2e pass.
+- Phase ES-9 — DEFINED iter825. Next BUILD iteration:
+  church-holy-sepulchre-guide, christmas-in-israel, caesarea-guide,
+  bar-bat-mitzvah-israel, bedouin-experience-israel.
+  LATAM Catholic pilgrimage + diaspora + adventure market.
+  Note: church-holy-sepulchre requires careful Status Quo / six-denomination framing (no
+  access claims for any single denomination's interior without verification);
+  christmas-in-israel requires Bethlehem checkpoint logistics note + honest framing of
+  Ministry of Tourism bus service ("typically offered — verify closer to date");
+  caesarea: mixed Herodian/Byzantine/Crusader/Ottoman history — neutral framing;
+  bar-bat-mitzvah: no exact ceremony price quotes, use broad ranges only;
+  bedouin: frame camel rides/desert stays as curated cultural experiences, not staged.
+  Target: ES guides 45→50/396.
 
-### FR guide catch-up (87 / 394 = 307 remaining)
-- Phase FR-catchup — NOT STARTED.
+### FR guide catch-up (87 / 396 = 309 remaining)
+- Phase FR-1 — DEFINED iter825. Next FR BUILD iteration:
+  3-days-in-israel, 3-days-in-galilee, airlines-flying-israel-2026,
+  backpacking-israel, best-beaches-israel. Neutral metropolitan French.
+  Target: FR guides 87→92/396.
 
-### DE guide catch-up (87 / 394 = 307 remaining)
-- Phase DE-catchup — NOT STARTED.
+### DE guide catch-up (87 / 396 = 309 remaining)
+- Phase DE-1 — DEFINED iter825. After FR-1:
+  3-days-in-israel, 3-days-in-galilee, airlines-flying-israel-2026,
+  backpacking-israel, best-beaches-israel. Standard Hochdeutsch.
+  Target: DE guides 87→92/396.
 
 ### Attraction catch-up (4 missing per locale)
 - NOT STARTED. Low priority; do after guide catch-up is well underway.

@@ -6633,3 +6633,30 @@ Net-new BACKLOG items: 2 (Eastern Railway + 10-day itinerary).
 **New luxury hotels 2026**: Six Senses Tel Aviv confirmed open (late spring 2026, LEED Platinum, Rothschild Blvd). InterContinental Jerusalem "late summer 2026" — not yet open as of July 28. Both already in new-luxury-hotels-israel-2026.md with accurate framing. No new gap.
 
 **Net-new items this pass**: 3 (ES Phase ES-7 batch P1/M; transport-cost-estimator tool P2/S; National Campus archaeology preview P3/S). Saturation ~97%+.
+
+## iter825 · 2026-07-28 · 167th research pass
+
+### Sources / analysis
+- Audit of ES guide gap: 351 missing (45/396 done)
+- Audit of FR guide gap: 309 missing (87/396 done) — Phase FR-catchup NOT STARTED
+- Audit of DE guide gap: 309 missing (87/396 done) — Phase DE-catchup NOT STARTED
+- EN guide prioritization for LATAM market: Catholic pilgrimage segment, family travel, diaspora community
+- Competitor landscape (Spanish-language Israel travel): greca.co, israelturismo.com still thin; no dominant Spanish-language competitor for Israel travel found
+- I18N-PLAN.md: ES Phase ES-9 + FR Phase FR-1 + DE Phase DE-1 all defined
+
+### Key findings
+
+1. **ES Phase ES-9 candidates identified**: church-holy-sepulchre-guide, christmas-in-israel, caesarea-guide, israel-with-kids, bar-bat-mitzvah-israel — all target LATAM Catholic pilgrimage + family + Jewish diaspora markets. High search-volume segments for LATAM.
+
+2. **FR/DE catch-up gap**: 309 guides each in FR and DE are untranslated. FR Phase FR-1 priority: 3-days-in-israel, 3-days-in-galilee, airlines-flying-israel-2026, backpacking-israel, best-beaches-israel. France ~3rd largest Israel tourism source market. Air France direct CDG-TLV makes airlines guide especially relevant for FR market.
+
+3. **No new EN content gaps found**: Site at ~97%+ EN content saturation. All major competitive angles covered. No new well-ranked competitor pages without our equivalent found.
+
+4. **Confirmed NOT new**: caesarea-concerts-events.md EXISTS (src/content/guides/caesarea-concerts-events.md). israel-for-american-travelers EXISTS. free-things-to-do-israel EXISTS. lgbtq-travel-israel EXISTS. israel-road-trip EXISTS. All confirmed present in EN; focus remains on locale catch-up.
+
+### Net-new backlog items: 3
+1. [P1] ES Phase ES-9 batch (i18n-ES, M): church-holy-sepulchre, christmas-in-israel, caesarea-guide, israel-with-kids, bar-bat-mitzvah-israel
+2. [P1] FR Phase FR-1 catch-up (i18n-FR, M): 3-days-in-israel, 3-days-in-galilee, airlines-flying-israel-2026, backpacking-israel, best-beaches-israel
+3. [P2] DE Phase DE-1 catch-up (i18n-DE, M): same 5 guides as FR-1
+
+Gate: not run (RESEARCH mode). 991 pages / 1275/1275 tests GREEN (iter824 commit d320ddc9).

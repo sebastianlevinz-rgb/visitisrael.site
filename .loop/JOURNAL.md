@@ -12499,3 +12499,35 @@ Ship: commit d320ddc9 on master; pushed to origin/master.
 Prod: CI in_progress at push (standard pattern).
 Discovery: lint-meta-length.mjs only scans src/content/guides/*.md (top-level), not subdirs — ES/FR/DE guide title/desc overruns not caught by linter. masada-visitor-guide ES title is 91 chars (limit 65); tel-aviv-beach-guide ES title 78 chars. Added to BACKLOG.
 Next: iter825 RESEARCH (825%5==0).
+
+## 2026-07-28T11:30Z · iter 825 · RESEARCH · research-825-es9-fr1-de1-catchup
+Mode: RESEARCH (825%5==0). 167th research pass. No code shipped; gate not run.
+
+### Sources analyzed
+- Audit of ES guide gap (45/396 done; 351 missing) — prioritized by LATAM search volume
+- Audit of FR guide gap (87/396 done; 309 missing — Phase FR-catchup NOT STARTED)
+- Audit of DE guide gap (87/396 done; 309 missing — Phase DE-catchup NOT STARTED)
+- Research agent: WebSearch on Israel tourism news July 2026, competitor audit, Spanish-language Israel travel market
+- Competitor sources: touristisrael.com, travelpulse.com, allisraelnews.com, cruiseindustrynews.com, excursionesparacruceros.com
+- De-duplication sweep: caesarea-concerts-events EXISTS; israel-for-american-travelers EXISTS; free-things-to-do-israel EXISTS; lgbtq-travel-israel EXISTS; israel-road-trip EXISTS; israel-in-december.md EXISTS
+
+### Key findings
+1. **ES Phase ES-9 defined**: church-holy-sepulchre-guide, christmas-in-israel, caesarea-guide, bar-bat-mitzvah-israel, bedouin-experience-israel — LATAM Catholic pilgrimage + diaspora + adventure. Strongest LATAM-specific demand signals. I18N-PLAN.md updated.
+2. **FR Phase FR-1 defined**: 309 FR guides missing after Phase 2 Batch 18 COMPLETE (iter196). First batch: 3-days-in-israel, 3-days-in-galilee, airlines-flying-israel-2026, backpacking-israel, best-beaches-israel. France is top-3 Israel tourism source market.
+3. **DE Phase DE-1 defined**: Same 5 guides as FR-1. Both FR and DE catch-up are NOT STARTED — significant gap. I18N-PLAN.md updated with both.
+4. **Cruise ES translation**: cruise-shore-excursions-israel.md exists in EN/FR/DE but NOT ES — net-new P2/S BACKLOG item. Haifa $5.5M new terminal (May 2026) relevant.
+5. **Eilat vs Sharm el Sheikh**: No comparison page exists; distinct from eilat-vs-aqaba (P2/M, seo-content).
+6. **Homeport cruise from Israel**: New angle on Haifa terminal (P3/M, seo-content).
+7. **No new EN content gaps found**: All major July 2026 news items (Ben Gurion T1 reopen, T3 expansion, Haifa cruise terminal, Galilee Culinary Institute, Schottenstein Campus, luxury hotels) confirmed covered. Site at ~97%+ EN saturation.
+
+### Net-new backlog items: 6
+1. [P1] ES Phase ES-9 (i18n-ES, M) — church-holy-sepulchre, christmas-in-israel, caesarea, bar-bat-mitzvah, bedouin
+2. [P1] FR Phase FR-1 (i18n-FR, M) — 3-days-in-israel, 3-days-in-galilee, airlines-flying-israel-2026, backpacking-israel, best-beaches-israel
+3. [P2] DE Phase DE-1 (i18n-DE, M) — same 5 guides as FR-1
+4. [P2] ES cruise-shore-excursions translation (i18n-ES, S)
+5. [P2] Eilat vs Sharm el Sheikh comparison (seo-content, M)
+6. [P3] Mediterranean homeport cruise from Israel guide (seo-content, M)
+
+Gate: not run (RESEARCH mode). 991 pages / 1275/1275 tests GREEN (iter824 SHA d320ddc9).
+Ship: .loop/ memory files only.
+Next: iter826 BUILD seo-content (826%5==1) — top candidate: ES Phase ES-9 [P1 i18n-ES M] (church-holy-sepulchre, christmas-in-israel, caesarea, bar-bat-mitzvah, bedouin).

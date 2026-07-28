@@ -1,13 +1,15 @@
 # LOOP STATE
 
-- iteration: 824
-- lastMode: REVIEW (iter824%5==4)
-- lastItem: review-824-es8-voseo-fix
-- lastResult: SHIPPED d320ddc9. ES Phase ES-8 REVIEW — audited all 5 guides (masada-visitor-guide, best-hotels-jerusalem, best-hotels-tel-aviv, eilat-travel-guide, tel-aviv-beach-guide). Link audit clean: all /es/ prefixes correct (zero missing), zero dead links across all ~30 internal links. Tests verified: 5 smoke + 5 a11y routes confirmed present. Found + fixed 3 voseo (River Plate Spanish) forms: masada-visitor-guide.md (2×) + best-hotels-jerusalem.md (1×) "alojás"→"alojas". Gate: pnpm check 0 errors; build 991 pages (stable); 1275/1275 e2e pass. CI in_progress (standard pattern).
-- nextRotationCategory: RESEARCH (iter825%5==0 → RESEARCH)
+- iteration: 825
+- lastMode: RESEARCH (iter825%5==0 → RESEARCH)
+- lastItem: research-825-es9-fr1-de1-catchup
+- lastResult: RESEARCH complete. 167th research pass. 3 net-new backlog items defined: (1) [P1] ES Phase ES-9 — church-holy-sepulchre-guide, christmas-in-israel, caesarea-guide, israel-with-kids, bar-bat-mitzvah-israel (LATAM Catholic pilgrimage + family + diaspora); (2) [P1] FR Phase FR-1 — first FR catch-up batch: 3-days-in-israel, 3-days-in-galilee, airlines-flying-israel-2026, backpacking-israel, best-beaches-israel (309 FR guides missing); (3) [P2] DE Phase DE-1 — same 5 guides for DE (309 DE guides missing). No new EN content gaps found. Site at ~97%+ EN saturation. I18N-PLAN.md updated. Gate: not run (RESEARCH mode). No code shipped.
+- nextRotationCategory: BUILD-seo-content (iter826%5==1 → seo-content; top P1 item is ES Phase ES-9)
 - higgsfieldSpent: 0
-- updatedAt: 2026-07-28T10:52Z
+- updatedAt: 2026-07-28T11:30Z
 - branch context: work on master; feature work on auto/<slug>
+
+Notes: iter825 RESEARCH — 167th research pass. 3 net-new backlog items added. ES gap: 351 guides (45/396 done); FR gap: 309 guides (87/396 done — NOT STARTED catchup); DE gap: 309 guides (87/396 done — NOT STARTED catchup). Saturation: ~97%+ EN. Defined ES-9 batch (LATAM Catholic + family: church-holy-sepulchre, christmas-in-israel, caesarea, israel-with-kids, bar-bat-mitzvah), FR Phase FR-1 (3-days-in-israel, 3-days-in-galilee, airlines-flying-israel-2026, backpacking-israel, best-beaches-israel), and DE Phase DE-1 (same 5 guides). I18N-PLAN.md updated with all 3 new phase definitions. COMPETITORS.md updated. Next: iter826 BUILD seo-content (826%5==1) — top candidate ES Phase ES-9 [P1 i18n-ES M].
 
 Notes: iter824 REVIEW — review-824-es8-voseo-fix SHIPPED d320ddc9. Audited all 5 ES Phase ES-8 guides. Link audit: clean — all /es/ prefix links correct, zero dead links. Tests: 5 smoke (lines 50-54) + 5 a11y (lines 443-447) confirmed present. Bug found + fixed: 3 voseo forms "alojás" (Argentine/River Plate) corrected to "alojas" (neutral LATAM) in masada-visitor-guide.md (2×) and best-hotels-jerusalem.md (1×). New BACKLOG items added: (1) review ES Phase ES-7 guides for voseo; (2) extend lint-meta-length.mjs to cover guides/es/ subdirectory (ES title/desc lengths not currently enforced). Next: iter825 RESEARCH (825%5==0).
 
@@ -25,4 +27,4 @@ Notes: iter818 BUILD (seo-content) — gci-freshness-update SHIPPED ad941e4. gal
 
 Cron b7325b16 hourly @ :17. Loop history: 19 tools + sitemap-lastmod + link-checker(+depth) + i18n
 Phase0/1a/1b/1c/2 Batches1-18(COMPLETE) + 48 review passes + 4 technical (event-schema + meta-trim + locale-links + freshness-688) + 81 EN guides + 7 tools-monetization + 2 comparisons;
-research iters 5/10/20/30/35/40/45/50/55/60/65/70/75/80/85/90/95/100/105/110/115/120/125/130/135/140/145/150/155/160/165/170/175/180/185/190/195/200/205/210/215/220/225/230/235/240/245/250/255/260/265/270/275/280/285/290/295/300/305/310/315/320/325/330/335/340/345/350/355/360/365/370/375/380/385/390/395/400/405/410/420/425/430/435/440/445/450/455/460/465/470/480/485/490/495/500/505/510/515/520/525/535/540/545/550/555/560/565/570/575/580/585/590/595/600/605/610/615/620/625/630/635/640/645/650/655/660/665/670/675/680/685/690/695/700/705/710/715/720/725/730/735/740/745/750/755/760/765/775/785/790/810/815/820.
+research iters 5/10/20/30/35/40/45/50/55/60/65/70/75/80/85/90/95/100/105/110/115/120/125/130/135/140/145/150/155/160/165/170/175/180/185/190/195/200/205/210/215/220/225/230/235/240/245/250/255/260/265/270/275/280/285/290/295/300/305/310/315/320/325/330/335/340/345/350/355/360/365/370/375/380/385/390/395/400/405/410/420/425/430/435/440/445/450/455/460/465/470/480/485/490/495/500/505/510/515/520/525/535/540/545/550/555/560/565/570/575/580/585/590/595/600/605/610/615/620/625/630/635/640/645/650/655/660/665/670/675/680/685/690/695/700/705/710/715/720/725/730/735/740/745/750/755/760/765/775/785/790/810/815/820/825.
