@@ -165,7 +165,7 @@ Tiberias ist eines der günstigsten Reiseziele in Israel für Mittelklasse-Reise
 
 ## Nützliche weiterführende Links
 
-- [Galiläa-Regionsführer](/galilee) — Regionsüberblick, Sehenswürdigkeiten und beste Reisezeit
+- [Galiläa-Regionsführer](/de/galilee) — Regionsüberblick, Sehenswürdigkeiten und beste Reisezeit
 - [See-Genezareth-Führung](/sea-of-galilee-guide) — der See, seine Geschichte, praktische Infos und Badeplätze
 - [Christliche Galiläa-Stätten-Route](/galilee-christian-sites-circuit) — Stätte-für-Stätte-Führung entlang des Westufers
 - [Galiläa-Touren-Vergleich](/de/galilee-tours-compared) — geführte Touren, wenn Sie nicht fahren

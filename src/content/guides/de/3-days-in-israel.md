@@ -44,7 +44,7 @@ faqs:
     answer: "Der Schlangenweg ist der alte Wanderweg hinauf zum Masada-Plateau — ein 45- bis 60-minütiger Aufstieg von ca. 400 Höhenmetern auf einem gut ausgebauten Zickzackpfad. Anspruchsvoll, aber für die meisten körperlich fitten Erwachsenen machbar. Die Hauptherausforderung ist die Hitze: Im Sommer wird dieser Weg ohne sehr frühen Start (Abfahrt von der Basis vor 5 Uhr) gefährlich. Im Frühling und Herbst ist ein Start um 6 Uhr angenehm. Eine Seilbahn ist für diejenigen verfügbar, die nicht wandern möchten; sie funktioniert ab ca. 8 Uhr und ist schneller, aber etwas teurer. Seilbahn und Schlangenweg führen beide zum selben Gipfelplateau. Alle Details finden Sie im [Masada-Besucherführer](/masada-visitor-guide)."
 ---
 
-**Drei Tage in Israel** sind ein knappes, aber machbares Programm für ein echtes erstes Erlebnis. Dieser Reiseplan konzentriert sich auf die drei unverzichtbaren Stationen des Landes — [Jerusalem](/jerusalem), das [Tote Meer](/dead-sea) und [Tel Aviv](/tel-aviv) — und ist so konzipiert, dass er ohne Mietwagen durchführbar ist, wobei Tag 2 eine Autooption für mehr Unabhängigkeit bietet.
+**Drei Tage in Israel** sind ein knappes, aber machbares Programm für ein echtes erstes Erlebnis. Dieser Reiseplan konzentriert sich auf die drei unverzichtbaren Stationen des Landes — [Jerusalem](/de/jerusalem), das [Tote Meer](/de/dead-sea) und [Tel Aviv](/de/tel-aviv) — und ist so konzipiert, dass er ohne Mietwagen durchführbar ist, wobei Tag 2 eine Autooption für mehr Unabhängigkeit bietet.
 
 **Hinweis zum Tempo.** Dieser Plan setzt volle Tage und wenige ruhige Morgen voraus. Wenn Sie es lieber gemütlicher angehen und einen halben Tag am Strand verbringen möchten, müssen Sie etwas kürzen. Die in eckigen Klammern [optional] stehenden Punkte im gesamten Leitfaden sind die ersten, die bei einem langsameren Tempo gestrichen werden können.
 
@@ -66,7 +66,7 @@ Die Altstadt von Jerusalem ist eine der dichtesten Konzentrationen bedeutsamer m
 
 ### Morgen: Jüdisches Viertel und Klagemauer
 
-Beginnen Sie früh (8 Uhr) an der [Klagemauer](/jerusalem/western-wall) — der heiligsten zugänglichen Stätte des Judentums, der erhaltenen Stützmauer von Herodes' zweitem Tempelkomplex. Die große Esplanade ist jederzeit frei zugänglich. Männer und Frauen beten in getrennten Abschnitten; angemessene Kleidung erforderlich (Kopfbedeckungen kostenlos am Eingang erhältlich). Kommen Sie früh, um den Menschenmassen zu entgehen, die sich ab Mitte des Vormittags ansammeln.
+Beginnen Sie früh (8 Uhr) an der [Klagemauer](/de/jerusalem/western-wall) — der heiligsten zugänglichen Stätte des Judentums, der erhaltenen Stützmauer von Herodes' zweitem Tempelkomplex. Die große Esplanade ist jederzeit frei zugänglich. Männer und Frauen beten in getrennten Abschnitten; angemessene Kleidung erforderlich (Kopfbedeckungen kostenlos am Eingang erhältlich). Kommen Sie früh, um den Menschenmassen zu entgehen, die sich ab Mitte des Vormittags ansammeln.
 
 Von der Klagemauer-Esplanade in das **Jüdische Viertel** — das zuletzt wiederaufgebaute der vier Viertel (1948 zerstört, nach 1967 wieder aufgebaut). Wichtige Stationen:
 
@@ -164,7 +164,7 @@ Schlüsselgebäude: das Engel-Haus (Rothschild 84, Israels erstes Gebäude auf S
 
 ### Abend: Gordon Beach und die Tayelet
 
-Tel Avivs [Strandpromenade (Tayelet)](/tel-aviv) erstreckt sich über 13 km Mittelmeerküste. Gordon Beach, Frishman Beach und der Bereich zwischen der HaYarkon-Straße und dem Meer bilden den wichtigsten Touristenstreifen. Im Sommer ist der Sonnenuntergang hier (gegen 19:30–20:00 Uhr) eines der besten kostenlosen Erlebnisse des Landes — der Strand füllt sich mit Einheimischen, das Wasser schimmert golden, und der Horizont öffnet sich zum Meer.
+Tel Avivs [Strandpromenade (Tayelet)](/de/tel-aviv) erstreckt sich über 13 km Mittelmeerküste. Gordon Beach, Frishman Beach und der Bereich zwischen der HaYarkon-Straße und dem Meer bilden den wichtigsten Touristenstreifen. Im Sommer ist der Sonnenuntergang hier (gegen 19:30–20:00 Uhr) eines der besten kostenlosen Erlebnisse des Landes — der Strand füllt sich mit Einheimischen, das Wasser schimmert golden, und der Horizont öffnet sich zum Meer.
 
 Von Gordon Beach nach Süden entlang der Promenade in Richtung Neve Tzedek zu Abendessen-Optionen — das Viertel beherbergt die höchste Restaurantdichte pro Block in Tel Aviv. Alternativ deckt der [Tel Aviv Gastronomieführer](/de/tel-aviv-food-guide) die gesamte kulinarische Landschaft der Stadt ab.
 
