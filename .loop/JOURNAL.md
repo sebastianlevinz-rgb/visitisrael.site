@@ -12468,3 +12468,10 @@ InterContinental Jerusalem: "late summer 2026" per hotel-online.com; luxury guid
 Gate: not run (RESEARCH mode). 980 pages / 1247/1247 tests GREEN (iter819 commit fe69d72).
 Ship: .loop/ memory files only.
 Next: iter821 BUILD/tools (821%5==1) — top candidate: transport-cost-estimator (P2, tools, S, ready).
+
+## 2026-07-28T07:55Z · iter 821 · BUILD (tools) · transport-cost-estimator
+What: New /israel-transport-cost-estimator page — vanilla-JS island comparing 3 transport modes. Inputs: trip days, travellers (sharing car), city hops (intercity journeys), daily driving distance (light/moderate/heavy km/day), journey type (short ₪35 / medium ₪55 / long ₪75 per hop). Outputs: (a) Rental car: ₪550/day rental + ₪20/100km fuel + ₪15/day Route 6 tolls, shared by travellers; (b) Intercity bus+train via Rav-Kav: per-hop rate × hops × pax; (c) Mixed: bus for most hops + private taxi for Shabbat legs (1 per week). Three cost cards with ILS + USD/person breakdown, "Cheapest" badge on winner, plain-language recommendation paragraph. 5 FAQs (car vs bus break-even, intercity bus pricing, sherut note, Rav-Kav, Shabbat). GYG private transfer CTA. Cross-linked from: Footer (new li after travel-time), transportation.md (new "Transport cost estimator" section), israel-car-rental-quiz.astro (new cross-links section at bottom). 7 files; 574 insertions.
+Gate: pnpm check 0 errors; build 981 pages (+1, 980→981); 1255/1255 e2e+a11y pass (6 new tool tests + 1 smoke + 1 a11y).
+Merge SHA: 6330131. CI in_progress at iteration end (standard pattern; Lighthouse workflow triggered).
+Prod: deploy in_progress — standard; next iteration start-check will confirm.
+Next: iter822 BUILD seo-content (822%5==2) — top candidate: ES Phase ES-7 batch [P1 i18n-ES M] (christian-pilgrimage-holy-land, bethlehem-travel-guide, border-crossings, haifa-travel-guide, day-trips-from-eilat).

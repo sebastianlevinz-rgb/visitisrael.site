@@ -210,7 +210,7 @@ bounded, gated BUILD item. Full architecture + honesty rules + progress tracker 
 - [SHIPPED iter103] Israel Jewish holiday impact planner (/israel-holiday-planner) → cc3a0df
 - [SHIPPED iter118] Israel sunrise / golden-hour calculator (/israel-golden-hour) → f1cedb7
 - [SHIPPED iter138] Live Shabbat countdown & status widget (/israel-shabbat-countdown) → 0bc6005
-- [P2] (tools, S) Israel transport cost estimator (/israel-transport-cost-estimator) — Enter: trip length (days), number of city-hops, preference (self-drive vs public transit). Output: estimated total transport budget for (a) rental car + fuel (~₪150/day + ₪20/100km), (b) intercity bus+train (Rav-Kav per-trip × estimated legs), (c) mix of shared taxi + bus. Captures "how much does transportation cost in Israel" + "Israel car rental vs train cost" queries. Distinct from: trip-cost-calculator (accommodation/food/activities, not transport detail), travel-time tool (time not cost), car-rental-quiz (binary yes/no not cost). Accessible vanilla JS island; aria-live results; cross-links: rav-kav-israel, car-rental-israel, transportation, israel-trip-cost-calculator. GYG private transfer CTA as monetization. [iter820 research] status: ready
+- [SHIPPED iter821 → 6330131] (tools, S) Israel transport cost estimator (/israel-transport-cost-estimator) — Vanilla-JS island comparing rental car, intercity bus/train, and mixed transport costs. Inputs: days, travellers, city hops, km/day, journey type. Three cost cards + cheapest badge + recommendation. Cross-linked from Footer, transportation.md, israel-car-rental-quiz. 1255/1255 pass. 981 pages.
 
 ## technical
 - [SHIPPED iter38] Expanded a11y coverage (36 routes), keyboard-nav + perf-budget tests, skip-link WCAG fix, Leaflet self-hosted → b6580b7
