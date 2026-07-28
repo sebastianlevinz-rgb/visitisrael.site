@@ -430,6 +430,11 @@ const ROUTES = [
   '/es/cheap-flights-to-israel',
   '/es/kosher-food-guide',
   '/es/israel-packing-list-guide',
+  '/es/3-days-in-israel',
+  '/es/3-days-in-tel-aviv',
+  '/es/airlines-flying-israel-2026',
+  '/es/3-days-in-negev',
+  '/es/akko-acre-guide',
 ];
 
 for (const route of ROUTES) {
