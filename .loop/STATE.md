@@ -1,13 +1,15 @@
 # LOOP STATE
 
-- iteration: 833
-- lastMode: BUILD (iter833%5==3) — category: tools (fell through to i18n epic: DE Phase DE-1)
-- lastItem: de-phase-1
-- lastResult: SHIPPED ebfb0bd7. DE Phase DE-1: 5 German guides — 3-days-in-israel, 3-days-in-galilee, airlines-flying-israel-2026, backpacking-israel, best-beaches-israel. Hochdeutsch; Planung/Reiserouten categories; /de/ prefix for confirmed existing DE pages only. 10 new tests (5 smoke + 5 a11y). DE guides: 87→92/396. Build: 1011→1016 pages. All e2e pass.
-- nextRotationCategory: BUILD-technical (iter834%5==4 → REVIEW)
+- iteration: 834
+- lastMode: REVIEW (iter834%5==4)
+- lastItem: review-834-de-phase1-link-fixes
+- lastResult: SHIPPED d58fe4fa. Audited 5 DE Phase DE-1 guides. Found 4 link prefix bugs in 2 guides (3-days-in-israel: /de/jerusalem ×2, /de/dead-sea, /de/jerusalem/western-wall; 3-days-in-galilee: /de/galilee). 3 guides CLEAN (airlines-flying-israel-2026, backpacking-israel, best-beaches-israel). Honesty: AffiliateCard ignores rating/reviews frontmatter — not rendered. Register: all 5 Hochdeutsch consistent. 1325/1325 e2e pass.
+- nextRotationCategory: RESEARCH (iter835%5==0 → RESEARCH)
 - higgsfieldSpent: 0
-- updatedAt: 2026-07-28T20:15Z
+- updatedAt: 2026-07-28T20:56Z
 - branch context: work on master; feature work on auto/<slug>
+
+Notes: iter834 REVIEW — review-834-de-phase1-link-fixes SHIPPED d58fe4fa. Audited all 5 DE Phase DE-1 guides. Link audit: 4 bugs found in 2 guides. 3-days-in-israel.md: /jerusalem→/de/jerusalem (line 47), /dead-sea→/de/dead-sea (line 47), /tel-aviv→/de/tel-aviv (lines 47+167), /jerusalem/western-wall→/de/jerusalem/western-wall (line 69). 3-days-in-galilee.md: /galilee→/de/galilee (line 168). 3 guides CLEAN (airlines-flying-israel-2026, backpacking-israel, best-beaches-israel — all bare links correct as no DE version exists). Honesty check: AffiliateCard ignores rating/reviews YAML props (not in component interface, not rendered). Register check: all 5 guides consistently Hochdeutsch. Gate: pnpm check 0 errors; build 1016 pages (no change); 1325/1325 e2e pass.
 
 Notes: iter833 BUILD (tools→i18n-DE) — de-phase-1 SHIPPED ebfb0bd7. DE Phase DE-1: 5 German guides (Hochdeutsch) — 3-days-in-israel, 3-days-in-galilee, airlines-flying-israel-2026, backpacking-israel, best-beaches-israel. Tools category empty (shabbat-time-tool STALE); fell through to i18n epic. /de/ prefix only where DE page exists; plain links for EN-only (cycling-in-israel). Planung/Reiserouten categories. 10 tests. DE guides: 87→92/396. Build: 1011→1016 pages. All e2e pass.
 

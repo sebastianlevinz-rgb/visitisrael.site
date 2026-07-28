@@ -12686,3 +12686,18 @@ Category names: Planung (Planning), Reiserouten (Itineraries).
 Tests: +10 routes to smoke.spec.ts + a11y.spec.ts.
 Gate: pnpm check 0 errors; build 1016 pages (+5); all e2e pass.
 Ship: squash-merged to master ebfb0bd7, pushed. Branch deleted.
+
+## 2026-07-28 · iter 834 · REVIEW · review-834-de-phase1-link-fixes
+Rotation: iter834%5==4 → REVIEW. Target: DE Phase DE-1 guides (iter833).
+Audit: read all 5 guides; extracted all internal links; checked each against ls src/content/guides/de/, attractions/de/, regions/de/.
+Findings: 4 link prefix bugs across 2 guides (same systematic pattern as ES REVIEW iters 809/814/819).
+- 3-days-in-israel.md: /jerusalem→/de/jerusalem, /dead-sea→/de/dead-sea, /tel-aviv→/de/tel-aviv (×2), /jerusalem/western-wall→/de/jerusalem/western-wall
+- 3-days-in-galilee.md: /galilee→/de/galilee
+- airlines-flying-israel-2026.md: CLEAN
+- backpacking-israel.md: CLEAN (/cycling-in-israel correct — no DE version)
+- best-beaches-israel.md: CLEAN (/cycling-in-israel correct — no DE version)
+Honesty check: AffiliateCard.astro interface has no rating/reviews props → not rendered → no fabricated data.
+Register check: all 5 guides consistently Hochdeutsch (Sie-form; formal register).
+Gate: pnpm check 0 errors; build 1016 pages (no change); 1325/1325 e2e pass.
+Ship: committed directly on master d58fe4fa, pushed.
+Next: iter835 RESEARCH (835%5==0 → RESEARCH).
