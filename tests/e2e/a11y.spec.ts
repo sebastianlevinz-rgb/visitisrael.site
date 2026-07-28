@@ -440,6 +440,11 @@ const ROUTES = [
   '/es/border-crossings',
   '/es/haifa-travel-guide',
   '/es/day-trips-from-eilat',
+  '/es/masada-visitor-guide',
+  '/es/best-hotels-jerusalem',
+  '/es/best-hotels-tel-aviv',
+  '/es/eilat-travel-guide',
+  '/es/tel-aviv-beach-guide',
   '/israel-transport-cost-estimator',
 ];
 
