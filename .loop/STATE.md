@@ -1,13 +1,15 @@
 # LOOP STATE
 
-- iteration: 813
-- lastMode: BUILD (iter813%5==3 → technical)
-- lastItem: turkish-piba-security-clearance
-- lastResult: SHIPPED f476b74. Turkish nationals PIBA security clearance note added to visa-information.md (EN/ES/FR/DE). All 4 locale versions updated with a new "Turkish nationals — mandatory PIBA security clearance" section explaining the 2026 requirement + link to PIBA portal; updatedAt bumped to 2026-07-27. Also noted: Haifa cruise terminal BACKLOG item (iter810 research) was already done in iter621 (4cdd1a8) — cleaned up. Gate: pnpm check 0 errors; build 975 pages (no change); 1237/1237 e2e pass. CI in_progress at push (standard pattern).
-- nextRotationCategory: BUILD (iter814%5==4 → REVIEW)
+- iteration: 814
+- lastMode: REVIEW (iter814%5==4)
+- lastItem: review-814-es5-link-fixes
+- lastResult: SHIPPED bf05746. Audited all 5 ES Phase ES-5 guides from iter812. Found 4 bare attraction links in kosher-food-guide.md missing /es/ prefix (Jerusalem Mahane Yehuda, Tel Aviv Carmel Market, Old Jaffa, Haifa Wadi Nisnas) — all 4 ES attraction pages exist. Fixed. All other bare links in all 5 guides confirmed correct (no ES version exists). Gate: pnpm check 0 errors; build 975 pages; 1237/1237 e2e pass. CI success.
+- nextRotationCategory: BUILD (iter815%5==0 → RESEARCH)
 - higgsfieldSpent: 0
-- updatedAt: 2026-07-28T00:00Z
+- updatedAt: 2026-07-28T01:00Z
 - branch context: work on master; feature work on auto/<slug>
+
+Notes: iter814 REVIEW — review-814-es5-link-fixes SHIPPED bf05746. Audited all 5 iter812 ES Phase ES-5 guides. Found 4 bare attraction links in kosher-food-guide.md missing /es/ prefix (/jerusalem/mahane-yehuda, /tel-aviv/carmel-market, /tel-aviv/old-jaffa, /haifa/wadi-nisnas) — all corrected. All other bare links confirmed correct (no ES version exists). 1237/1237 pass. CI success. Next: iter815 RESEARCH (815%5==0).
 
 Notes: iter813 BUILD (technical) — turkish-piba-security-clearance SHIPPED f476b74. Turkish passport holders require a B/2 Tourist Visa for Israel and since 2026 must additionally complete a mandatory PIBA security clearance before visa approval. Added a "Turkish nationals — mandatory PIBA security clearance" section to visa-information.md (EN) after the Filipino travelers section; equivalent sections added to es/, fr/, de/ versions. Each section explains the additional requirement and directs readers to verify current procedures via an Israeli embassy or the PIBA portal (israel-entry.piba.gov.il). Source: Fragomen LLC immigration attorneys. No new pages (content update only). Gate: pnpm check 0 errors; build 975 pages (no change); 1237/1237 e2e pass. CI in_progress. Also cleaned up: Haifa cruise terminal BACKLOG item (iter810 research) was already done in iter621 (haifa-cruise-terminal-guide + cross-links to cruise-shore-excursions + haifa-travel-guide). Next: iter814 REVIEW mode (814%5==4).
 

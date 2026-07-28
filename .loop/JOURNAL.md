@@ -12360,3 +12360,9 @@ Action:
 Gate: pnpm check 0 errors; pnpm build 975 pages (no change); pnpm test:e2e 1237/1237 pass. GREEN.
 Ship: committed on master as f476b74; pushed. CI in_progress (standard pattern).
 Next: iter814 = REVIEW (814%5==4).
+
+## 2026-07-28T01:00Z · iter 814 · REVIEW · review-814-es5-link-fixes
+What: Audited all 5 iter812 ES Phase ES-5 guides for correctness, honesty, link validity, and test coverage. Found 4 bare attraction links in kosher-food-guide.md where ES attraction pages exist (/jerusalem/mahane-yehuda, /tel-aviv/carmel-market, /tel-aviv/old-jaffa, /haifa/wadi-nisnas) — added /es/ prefixes to all 4. Confirmed all other bare links in all 5 guides are correct (cycling-in-israel, israeli-street-food-guide, lgbtq-travel-israel, jaffa-travel-guide, water-hiking-israel, airlines-flying-israel-2026, israel-esim, hiking-in-israel, holy-sites-dress-code-etiquette, masada-visitor-guide, israel-national-parks-pass — no ES version exists for any of these). Test coverage: all 5 guides already in smoke + a11y specs from iter812. Honesty check: prices in ranges, no fabricated data, sherut discontinuation correctly noted in backpacking guide.
+Gate: pnpm check 0 errors; build 975 pages (no change); 1237/1237 e2e pass.
+Ship: squash-merged to master bf05746, pushed. Prod: CI success.
+Next: iter815 RESEARCH mode (815%5==0).
