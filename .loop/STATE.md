@@ -1,12 +1,12 @@
 # LOOP STATE
 
-- iteration: 826
-- lastMode: BUILD (iter826%5==1 → seo-content/i18n-ES)
-- lastItem: es-phase-9
-- lastResult: ES Phase ES-9 SHIPPED f8bdb180. 5 new ES guides: church-holy-sepulchre-guide, christmas-in-israel, caesarea-guide, bar-bat-mitzvah-israel, bedouin-experience-israel. LATAM Catholic pilgrimage + diaspora + adventure market. 10 new tests (5 smoke + 5 a11y). Build: 996 pages (+5). 1285/1285 e2e pass. ES guides: 45→50/396.
-- nextRotationCategory: BUILD-tools (iter827%5==2)
+- iteration: 827
+- lastMode: BUILD-technical (iter827%5==2 → tools fell through; no active tools items; technical P2 taken)
+- lastItem: review-827-es7-voseo
+- lastResult: ES Phase ES-7 voseo review — CLEAN. 0 voseo forms found in all 5 guides (christian-pilgrimage-holy-land, bethlehem-travel-guide, border-crossings, haifa-travel-guide, day-trips-from-eilat). No code changes needed.
+- nextRotationCategory: BUILD-monetization (iter828%5==3)
 - higgsfieldSpent: 0
-- updatedAt: 2026-07-28T13:10Z
+- updatedAt: 2026-07-28T14:05Z
 - branch context: work on master; feature work on auto/<slug>
 
 Notes: iter826 BUILD (seo-content/i18n-ES) — es-phase-9 SHIPPED f8bdb180. ES Phase ES-9: 5 new Spanish guides: (1) church-holy-sepulchre-guide — Santo Sepulcro visitor guide, Status Quo six-denomination framing (Greek Orthodox, Roman Catholic/Franciscan, Armenian Apostolic, Coptic, Syriac, Ethiopian Tewahedo), Edículo queue strategy, dawn visit tips, Via Dolorosa connection; (2) christmas-in-israel — three-Christmas guide (Catholic Dec 24-25, Orthodox Jan 6-7, Armenian Jan 18-19), Belén Checkpoint 300 logistics, Nazaret market, Ministry of Tourism bus "not guaranteed each year" honest note; (3) caesarea-guide — Cesárea day trip: Teatro Romano, Hipódromo, puerto herodiano Sebastos, Yam Cesárea Marine Park, Playa del Acueducto, Museo Ralli, combination itineraries (Haifa, Akko, Zichron Yaakov); (4) bar-bat-mitzvah-israel — bar/bat mitzvá trip guide: Western Wall + egalitarian Ezrat Yisrael, Masada sunrise bar mitzvah, Safed synagogues, 18-month planning timeline, 10-14 day family itinerary; (5) bedouin-experience-israel — Beduino cultural framing (diyafa), Kfar HaNokdim, Sde Boker, Negev Bedouin Heritage Centre, Mansaf, qahwa coffee ritual, camel etiquette. ES guides: 45→50/396. Build: 996 pages. 1285/1285 e2e pass. CI in_progress (standard pattern). Next: iter827 BUILD-tools (827%5==2).

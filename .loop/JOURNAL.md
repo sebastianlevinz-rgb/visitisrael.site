@@ -12566,3 +12566,11 @@ All guides: neutral LATAM Spanish register (no vosotros/voseo), /es/ prefix on a
 45 → 50 / 396 (346 remaining)
 
 Next: iter827 BUILD-tools (827%5==2).
+
+## 2026-07-28T14:05Z · iter 827 · BUILD-technical (tools fell through) · review-827-es7-voseo
+
+What: Voseo audit of all 5 ES Phase ES-7 guides (christian-pilgrimage-holy-land, bethlehem-travel-guide, border-crossings, haifa-travel-guide, day-trips-from-eilat). Systematic grep for River Plate voseo forms: accented present tense (-ás, -és, -ís), voseo imperatives (-á, -é, -í), lexical voseo markers (sos, etc.).
+Result: CLEAN — 0 voseo forms found across all 5 guides. All guides use neutral LATAM Spanish tuteo register correctly.
+Action: No code changes needed. Branch abandoned. Backlog item resolved.
+Mode note: iter827%5==2 → BUILD-tools; no active tools items in backlog (STALE DUPLICATE marked, transport-cost-estimator already SHIPPED iter821); fell through to technical category per playbook.
+Next: iter828 BUILD-monetization (828%5==3).
