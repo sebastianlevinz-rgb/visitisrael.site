@@ -1,15 +1,15 @@
 # LOOP STATE
 
-- iteration: 815
-- lastMode: RESEARCH (iter815%5==0)
-- lastItem: research-815-bga-expansion-es6-batch
-- lastResult: No ship — research only. 165th research pass; saturation ~97%. 2 net-new BACKLOG items: BGA T3 eastern-wing tender (P3/S freshness — iter702 covered broader program, July 1 2026 $83M tender for eastern wing is new), ES Phase ES-6 batch guidance (P2/M — 5 guides ready). All auto/* branches confirmed already-SHIPPED (no recovery needed). airlines-flying-israel-2026.md confirmed current (updatedAt 2026-07-26). EN guide count now 396 (not 394 per I18N-PLAN — 2 guides added after last snapshot). ES at 30/396.
-- nextRotationCategory: seo-content (iter816%5==1 → BUILD; highest-priority item: ES Phase ES-6)
+- iteration: 816
+- lastMode: BUILD (iter816%5==1 → seo-content/i18n)
+- lastItem: es-guides-batch-7
+- lastResult: SHIPPED c03d53e. ES Phase ES-6 complete: 5 guides translated to neutral LATAM Spanish (3-days-in-israel, 3-days-in-tel-aviv, airlines-flying-israel-2026, 3-days-in-negev, akko-acre-guide). Fixed YAML Bahá''í escaping + broken /tel-aviv-jaffa link. Gate: 0 errors; 980 pages; 1247/1247 e2e pass. ES guides: 30→35/396.
+- nextRotationCategory: technical (iter817%5==2 → BUILD)
 - higgsfieldSpent: 0
-- updatedAt: 2026-07-28T02:00Z
+- updatedAt: 2026-07-28T03:10Z
 - branch context: work on master; feature work on auto/<slug>
 
-Notes: iter815 RESEARCH — research-815-bga-expansion-es6-batch. 165th pass. Saturation ~97%. 2 net-new items appended to BACKLOG: (1) P3/S BGA T3 eastern-wing tender ($83M, July 1 2026 — separate from iter702's $311M program note; specific 50,000m² eastern wing + 20,000m² underground facility + 30-month timeline); (2) P2/M ES Phase ES-6 batch: 3-days-in-israel, 3-days-in-tel-aviv, airlines-flying-israel-2026, 3-days-in-negev, akko-acre-guide. I18N-PLAN.md updated with ES-6 batch. Competitors: Tourist Israel / Israel Travel Advisor / israel-taxi.com — no new content gaps vs our site. Kassland Resort stays BLOCKED. Gaza Border Tour skipped (sensitive). Next: iter816 BUILD (816%5==1 → seo-content/i18n-ES Phase ES-6 highest priority).
+Notes: iter816 BUILD (seo-content/i18n ES Phase ES-6) — es-guides-batch-7 SHIPPED c03d53e. Translated 5 guides: 3-days-in-israel, 3-days-in-tel-aviv, airlines-flying-israel-2026, 3-days-in-negev, akko-acre-guide. YAML fixes: akko-acre-guide image .md→.jpg; Bahá''í single-quote escaping (3 occurrences). Broken link fix: /tel-aviv-jaffa → /es/tel-aviv/old-jaffa (caught by links.spec.ts). 10 new tests (5 smoke + 5 a11y). 980 pages; 1247/1247 pass. ES guides now 35/396. Next: iter817 BUILD (technical) — top candidate BGA T3 eastern-wing freshness update (P3/S, ben-gurion-airport-guide.md).
 
 Notes: iter814 REVIEW — review-814-es5-link-fixes SHIPPED bf05746. Audited all 5 iter812 ES Phase ES-5 guides. Found 4 bare attraction links in kosher-food-guide.md missing /es/ prefix (/jerusalem/mahane-yehuda, /tel-aviv/carmel-market, /tel-aviv/old-jaffa, /haifa/wadi-nisnas) — all corrected. All other bare links confirmed correct (no ES version exists). 1237/1237 pass. CI success. Next: iter815 RESEARCH (815%5==0).
 

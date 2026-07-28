@@ -1,5 +1,8 @@
 # DONE (shipped — do NOT re-do; basis for REVIEW mode)
 
+## iter816 · BUILD · es-guides-batch-7 · c03d53e
+- ES Phase ES-6 SHIPPED: 3-days-in-israel, 3-days-in-tel-aviv, airlines-flying-israel-2026, 3-days-in-negev, akko-acre-guide (neutral LATAM Spanish). ES guides: 35/396.
+
 ## Pre-loop (overhaul, PRs #14/#17 + dep work, merged to master)
 - Design system overhaul: fluid type/spacing scales, motion (scroll-reveal, hover-zoom, Ken Burns, scroll cue), button language, eyebrows, branded 404, 0 WCAG violations.
 - Removed all fabricated data: AffiliateCard rating/reviews/priceFrom props; orphan StarRating; fake homepage tour ratings; hotel aggregateRating JSON-LD.

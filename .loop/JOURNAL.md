@@ -12398,3 +12398,35 @@ No STOP flag. Hard-reset to origin/master (cloud env fresh checkout; local was a
 
 Net-new BACKLOG items: 2 (BGA T3 eastern-wing tender P3/S freshness; ES Phase ES-6 batch P2/M).
 Next: iter816 = BUILD (816%5==1 → seo-content/i18n-ES Phase ES-6 highest priority).
+
+## 2026-07-28T03:10Z · iter 816 · BUILD (seo-content/i18n) · es-guides-batch-7
+
+Mode: BUILD (816%5==1 → seo-content; highest-priority item ES Phase ES-6)
+No STOP flag. Fresh cloud env; reset to origin/master aa6dfe5 (iter815 docs commit).
+Branch: auto/es-guides-batch-7
+
+### What
+Translated 5 EN guides to neutral Latin-American Spanish (ES Phase ES-6):
+- src/content/guides/es/3-days-in-israel.md — Jerusalem/Dead Sea/Tel Aviv 3-day itinerary
+- src/content/guides/es/3-days-in-tel-aviv.md — Bauhaus/Carmel Market/Jaffa 3-day itinerary
+- src/content/guides/es/airlines-flying-israel-2026.md — carrier status table, verified 2026-07-26
+- src/content/guides/es/3-days-in-negev.md — Makhtesh Ramon/Ein Avdat/Sde Boker
+- src/content/guides/es/akko-acre-guide.md — Old City, Crusader halls, Bahá'í sites
+
+Added 5 smoke + 5 a11y e2e routes (tests/e2e/smoke.spec.ts + a11y.spec.ts).
+
+### Fixes applied
+- akko-acre-guide.md: YAML image path .md → .jpg (line 18)
+- akko-acre-guide.md: YAML Bahá'í → Bahá''í (3 occurrences in single-quoted FAQ answers)
+- 3-days-in-tel-aviv.md: broken link /tel-aviv-jaffa → /es/tel-aviv/old-jaffa (links.spec.ts caught it)
+
+### Gate
+- pnpm check: 0 errors, 0 warnings ✓
+- pnpm build: 980 pages built in 41.70s ✓
+- pnpm test:e2e: 1247/1247 passed (13.3m) ✓
+
+### Ship
+Squash-merged auto/es-guides-batch-7 to master c03d53e, pushed.
+ES guide count: 30 → 35 of 396.
+
+Next: iter817 = BUILD (817%5==2 → technical). Top candidate: BGA T3 eastern-wing freshness update (P3/S, ben-gurion-airport-guide.md).
