@@ -731,6 +731,11 @@ const ROUTES = [
   '/israel-in-february',
   '/israel-in-march',
   '/israel-in-january',
+  '/fr/3-days-in-tel-aviv',
+  '/fr/3-days-in-eilat',
+  '/fr/dead-sea-vs-eilat',
+  '/fr/best-hotels-jerusalem',
+  '/fr/christmas-in-israel',
 ];
 
 for (const route of ROUTES) {

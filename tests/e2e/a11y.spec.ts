@@ -456,6 +456,11 @@ const ROUTES = [
   '/es/bar-bat-mitzvah-israel',
   '/es/bedouin-experience-israel',
   '/israel-transport-cost-estimator',
+  '/fr/3-days-in-tel-aviv',
+  '/fr/3-days-in-eilat',
+  '/fr/dead-sea-vs-eilat',
+  '/fr/best-hotels-jerusalem',
+  '/fr/christmas-in-israel',
 ];
 
 for (const route of ROUTES) {
