@@ -1,13 +1,15 @@
 # LOOP STATE
 
-- iteration: 822
-- lastMode: BUILD seo-content (iter822%5==2 → BUILD seo-content; i18n-ES counts as seo-content)
-- lastItem: es-phase-7
-- lastResult: SHIPPED eac9c25. ES Phase ES-7 — 5 ES guide translations: christian-pilgrimage-holy-land, bethlehem-travel-guide, border-crossings, haifa-travel-guide, day-trips-from-eilat. Neutral LATAM Spanish; /es/ prefixes on existing ES pages; 10 new tests (5 smoke + 5 a11y). Gate: pnpm check 0 errors; build 986 pages (+5 from 981); 1265/1265 e2e pass. CI in_progress (standard pattern). Vercel deploy triggered.
-- nextRotationCategory: tools (iter823%5==3 → BUILD tools; candidates: National Campus Archaeology preview [P3 seo-content S] — or next ES batch ES-8 [P1 i18n-ES M])
+- iteration: 823
+- lastMode: BUILD seo-content (iter823%5==3 → BUILD tools; tools backlog exhausted → fell through to i18n-ES)
+- lastItem: es-phase-8
+- lastResult: SHIPPED 9557827. ES Phase ES-8 — 5 ES guide translations: masada-visitor-guide, best-hotels-jerusalem, best-hotels-tel-aviv, eilat-travel-guide, tel-aviv-beach-guide. Neutral LATAM Spanish; /es/ prefixes on existing ES pages only; 10 new tests (5 smoke + 5 a11y). Gate: pnpm check 0 errors; build 991 pages (+5 from 986); 1275/1275 e2e pass. CI in_progress (standard pattern). Vercel deploy triggered.
+- nextRotationCategory: REVIEW (iter824%5==4 → REVIEW)
 - higgsfieldSpent: 0
-- updatedAt: 2026-07-28T08:52Z
+- updatedAt: 2026-07-28T09:58Z
 - branch context: work on master; feature work on auto/<slug>
+
+Notes: iter823 BUILD (seo-content/i18n-ES) — es-phase-8 SHIPPED 9557827. ES Phase ES-8: 5 new Spanish guides covering LATAM accommodation + iconic destination market: (1) masada-visitor-guide — Snake Path vs teleférico vs amanecer, Palacio Norte, sinagoga, iglesia, muro romano, cisternas, Sonido y Luz, parque nacional pass + practical tips; (2) best-hotels-jerusalem — Mamilla, Centro Oeste, Colonia Alemana, Jerusalén Este/American Colony, Ein Kerem; budget/mid/luxury; holiday pricing calendar (Pésaj, Sucot, Navidad, Semana Santa); InterContinental Jerusalem honest "late summer 2026"; (3) best-hotels-tel-aviv — Rothschild/Ciudad Blanca, Neve Tzedek, Tayelet, Florentin, Vieja Jaffa; 2026 new openings Six Senses TLV + Nobu Hotel TLV with honest caveats; (4) eilat-travel-guide — North Beach, Coral Beach, Dolphin Reef (honest semi-wild framing), Underwater Observatory, Timna, tax-free shopping; transport air/car/bus; day trips Petra/Wadi Rum/Egypt/Taba/Cañón Rojo; (5) tel-aviv-beach-guide — 7 beaches: Gordon, Frishman, Hilton [LGBTQ+/perros], Banana, Bograshov [surf], Alma, Nordau [religioso separado]; flag system; jellyfish season; disabled access; Shabat at beach; seasonal notes. ES guides: 40→45/396. 10 new tests (5 smoke + 5 a11y). Build: 991 pages. All 1275 e2e pass. Next: iter824 REVIEW (iter824%5==4).
 
 Notes: iter822 BUILD (seo-content/i18n-ES) — es-phase-7 SHIPPED eac9c25. ES Phase ES-7: 5 new Spanish guides covering the LATAM Catholic + logistics market: (1) christian-pilgrimage-holy-land — full pilgrimage circuit guide (Jerusalem/Bethlehem/Nazareth/Galilee), careful religious/contested-site framing; (2) bethlehem-travel-guide — West Bank destination guide with neutral barrier framing, checkpoint logistics, Banksy art, dining; (3) border-crossings — 3 Jordan crossings + Taba Egypt, practical tips; (4) haifa-travel-guide — Bahai Gardens, Carmelit, German Colony, Wadi Nisnas, beaches, museums; (5) day-trips-from-eilat — Petra, Timna, Red Canyon, Aqaba, Coral Beach comparison table with summer heat planning. ES guides: 35→40/396. 10 new tests added to smoke.spec.ts and a11y.spec.ts. Build: 986 pages. All 1265 e2e tests pass. Next: iter823 BUILD tools — top candidate National Campus Archaeology preview [P3 seo-content S] or next ES batch ES-8.
 

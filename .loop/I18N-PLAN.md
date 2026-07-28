@@ -13,10 +13,10 @@
 | en     | 396    | 65          | 11      | 6           |
 | fr     | 87     | 61          | 11      | 6           |
 | de     | 87     | 61          | 11      | 6           |
-| es     | 40     | 61          | 11      | 6           |
+| es     | 45     | 61          | 11      | 6           |
 
 **Gaps to close:**
-- es guides: **356 missing** (40/396 done — ongoing, highest priority)
+- es guides: **351 missing** (45/396 done — ongoing, highest priority)
 - fr guides: **307 missing** (EN guides added after Phase 2 Batch 18, iter408)
 - de guides: **307 missing** (same)
 - fr/de/es attractions: **4 missing each** (the 4 EN attractions added after Phase 4)
@@ -73,7 +73,7 @@ Take the top 5 by priority (or head -5 if priority not obvious), translate each 
 
 ## Progress tracker
 
-### ES guides (35 / 396)
+### ES guides (45 / 396)
 - Phase ES-0 — DONE. iter799 shipped 5/394:
   first-time-in-israel, visa-information, best-time-to-visit-israel,
   israel-cost-budget, transportation (02b1058).
@@ -100,6 +100,11 @@ Take the top 5 by priority (or head -5 if priority not obvious), translate each 
   haifa-travel-guide, day-trips-from-eilat. LATAM Catholic + logistics market.
   Careful neutral framing on Bethlehem/separation barrier/Holy Sepulchre/Western Wall.
   ES guides: 35→40/396. 1265/1265 e2e pass.
+- Phase ES-8 — DONE. iter823 shipped 5/396 (9557827):
+  masada-visitor-guide, best-hotels-jerusalem, best-hotels-tel-aviv,
+  eilat-travel-guide, tel-aviv-beach-guide. LATAM accommodation + iconic destination market.
+  Honest caveats on Six Senses TLV/Nobu TLV openings; InterContinental Jerusalem "late summer 2026".
+  ES guides: 40→45/396. 1275/1275 e2e pass.
 
 ### FR guide catch-up (87 / 394 = 307 remaining)
 - Phase FR-catchup — NOT STARTED.

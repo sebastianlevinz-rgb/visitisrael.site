@@ -1,5 +1,8 @@
 # DONE (shipped — do NOT re-do; basis for REVIEW mode)
 
+## iter823 · BUILD · es-guides-batch-8 · 9557827
+- ES Phase ES-8 SHIPPED: masada-visitor-guide, best-hotels-jerusalem, best-hotels-tel-aviv, eilat-travel-guide, tel-aviv-beach-guide (neutral LATAM Spanish; /es/ prefixes on existing ES pages only; 10 new tests). ES guides: 40→45/396. Build: 991 pages (+5). 1275/1275 e2e pass.
+
 ## iter817 · BUILD · bga-t3-eastern-wing · 94492f5
 - BGA T3 eastern wing freshness update: added $83M IAA tender (1 Jul 2026) for 50,000 m² eastern wing + 20,000 m² underground to EN + ES ben-gurion-airport-guide.md. Honest framing (not open yet).
 
