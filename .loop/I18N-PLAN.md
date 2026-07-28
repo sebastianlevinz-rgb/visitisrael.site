@@ -6,17 +6,17 @@
 >
 > One bounded slice per loop iteration. NEVER bulk-translate in one shot.
 
-## Current status snapshot (2026-07-28 iter835)
+## Current status snapshot (2026-07-28 iter836)
 
 | Locale | Guides | Attractions | Regions | Itineraries |
 |--------|--------|-------------|---------|-------------|
 | en     | 396    | 65          | 11      | 6           |
 | fr     | 97     | 61          | 11      | 6           |
 | de     | 92     | 61          | 11      | 6           |
-| es     | 55     | 61          | 11      | 6           |
+| es     | 60     | 61          | 11      | 6           |
 
 **Gaps to close:**
-- es guides: **341 missing** (55/396 done — Phase ES-11 DEFINED, next to ship)
+- es guides: **336 missing** (60/396 done — Phase ES-12 next to define)
 - fr guides: **299 missing** (97/396 done — Phase FR-3 DEFINED, next to ship)
 - de guides: **304 missing** (92/396 done — Phase DE-2 DEFINED, next to ship)
 - fr/de/es attractions: **4 missing each** (the 4 EN attractions added after Phase 4)
@@ -121,19 +121,12 @@ Take the top 5 by priority (or head -5 if priority not obvious), translate each 
   Dolphin Reef "no garantizado" honesty; terminal Haifa mayo 2026 verified;
   price ranges only (no fabricated figures). 10 new tests (5 smoke + 5 a11y).
   ES guides: 50→55/396. Build: 1011 pages. 1315/1315 e2e pass.
-- Phase ES-11 — DEFINED iter835. Next 5 ES guides:
+- Phase ES-11 — DONE. iter836 shipped f2fa1b3c:
   aqaba-from-eilat, bahai-world-center-guide, church-of-nativity-guide,
   city-of-david-jerusalem, eilat-diving-snorkeling.
-  Rationale: "Tierra Santa" LATAM Catholic pilgrimage market — church-of-nativity is the
-  top LATAM Catholic query per competitor research (compasstravelisrael.com, Amazon ES guide);
-  city-of-david is the major Jerusalem archaeological attraction; UNESCO Bahá'í World Centre
-  serves significant Latin American Bahá'í community; aqaba-from-eilat targets LATAM adventure
-  travelers; eilat-diving-snorkeling captures Red Sea adventure tourism.
-  Honesty notes: church-of-nativity covers Bethlehem/West Bank — carry EN neutral
-  checkpoint/barrier framing exactly; bahai-world-center requires photo-credits
-  restrictedSiteAcknowledgment; city-of-david has contested archaeological context — use EN
-  neutral framing; no fabricated dive-site ratings in eilat-diving-snorkeling.
-  ES guides target: 55→60/396. [iter835 research] status: ready
+  LATAM "Tierra Santa" Catholic pilgrimage + adventure market. West Bank/Silwan/Bahá'í
+  neutral framing carried exactly from EN. No fabricated prices. 10 new tests (5 smoke + 5 a11y).
+  ES guides: 55→60/396. Build: 1016→1021 pages. All e2e pass.
 
 ### FR guide catch-up (97 / 396 = 299 remaining)
 - Phase FR-1 — DONE. iter828 shipped ff27fd98:

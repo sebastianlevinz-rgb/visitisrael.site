@@ -12713,3 +12713,15 @@ No BACKLOG stale items found. Freshness status: is-israel-safe 2026-07-20 (curre
 Gate: N/A (RESEARCH mode — no code).
 No ship (RESEARCH mode).
 Next: iter836 BUILD seo-content (836%5==1 → BUILD; top candidate ES Phase ES-11 [P1 i18n-ES M]).
+
+## 2026-07-28T23:00Z · iter 836 · BUILD (seo-content/i18n-ES) · es-phase-11
+What: ES Phase ES-11 — 5 new Spanish-language guides for LATAM "Tierra Santa" Catholic pilgrimage + adventure tourism market.
+(1) aqaba-from-eilat: day trip logistics Yitzhak Rabin/Wadi Araba border crossing, Japanese Garden snorkeling, Cedar Pride wreck, Aqaba Fort/souk, one-day vs overnight options, Aqaba vs Eilat comparison table.
+(2) bahai-world-center-guide: 19 UNESCO terraces + Shrine of Báb (Haifa), Bahjí + Ridván Garden (Akko), two-day circuit, Friday afternoon closure, dress code enforcement, religious site framing carried from EN.
+(3) church-of-nativity-guide: Grotto queue management, denomination map (Status Quo), Door of Humility, Latin/Orthodox/Armenian Christmas dates, Checkpoint 300 logistics; West Bank neutral framing carried exactly from EN ("Belén es una ciudad palestina en la Zona A de Cisjordania").
+(4) city-of-david-jerusalem: Hezekiah's Tunnel wet/dry routes, Pool of Siloam, Jerusalem Pilgrimage Road (opened Jan 2026), Elad Foundation management controversy noted neutrally, dual-naming Silwan/City of David carried from EN.
+(5) eilat-diving-snorkeling: Coral Beach Reserve, Japanese Gardens, Satil wreck, seasons, PADI costs, cross-link to aqaba-from-eilat.
+Quality: neutral LATAM Spanish (tuteo, no vosotros); YAML double-quotes on apostrophe fields; /es/ prefix only for confirmed existing ES pages; no fabricated prices or ratings; all religious/contested-site framing exactly from EN.
+Gate: pnpm check 0 errors; build 1016→1021 pages; all 1335 e2e pass (10 new tests: 5 smoke + 5 a11y).
+Ship: committed f2fa1b3c, pushed to master. CI in_progress (standard Vercel pattern).
+Next: iter837 BUILD (837%5==2 → BUILD; cycle to i18n-FR Phase FR-3 or REVIEW ES-11).

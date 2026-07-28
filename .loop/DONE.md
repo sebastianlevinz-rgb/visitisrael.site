@@ -1418,3 +1418,6 @@ covers EN top-level). Zero dead links, all tests present, no H1, no honesty issu
 
 ## iter834 · REVIEW · review-834-de-phase1-link-fixes · d58fe4fa
 REVIEW of DE Phase DE-1 (iter833) guides. Audited all 5 German guides for link prefixes, honesty, and register. Found 4 link prefix bugs in 2 guides: 3-days-in-israel.md (4 fixes: /de/jerusalem ×2, /de/dead-sea, /de/jerusalem/western-wall); 3-days-in-galilee.md (1 fix: /de/galilee). 3 guides CLEAN (airlines-flying-israel-2026, backpacking-israel, best-beaches-israel). Honesty: AffiliateCard rating/reviews props inert — not rendered. Register: all 5 Hochdeutsch consistent. Gate: 0 errors; 1016 pages; 1325/1325 pass. 2026-07-28.
+
+## iter836 · BUILD · es-phase-11 · f2fa1b3c
+ES Phase ES-11 SHIPPED: aqaba-from-eilat, bahai-world-center-guide, church-of-nativity-guide, city-of-david-jerusalem, eilat-diving-snorkeling (neutral LATAM Spanish; West Bank/Silwan/Bahá'í neutral framing from EN; no fabricated prices; /es/ prefix only for confirmed existing pages). ES guides: 55→60/396. 10 new tests (5 smoke + 5 a11y). Build: 1016→1021 pages (+5). All e2e pass. 2026-07-28.
