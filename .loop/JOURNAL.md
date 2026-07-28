@@ -12701,3 +12701,15 @@ Register check: all 5 guides consistently Hochdeutsch (Sie-form; formal register
 Gate: pnpm check 0 errors; build 1016 pages (no change); 1325/1325 e2e pass.
 Ship: committed directly on master d58fe4fa, pushed.
 Next: iter835 RESEARCH (835%5==0 → RESEARCH).
+
+## 2026-07-28T21:30Z · iter 835 · RESEARCH · research-835-es11-fr3-de2-definitions
+What: 169th research pass. Competitor research across DE market (sonnenklar.tv, urlaubsguru.de, viel-unterwegs.de — "Israel Rundreise 2026" structured itinerary demand confirmed), FR market (routard.com, partirou.com — Haïfa/Galilée itinerary content confirmed), ES/LATAM market (compasstravelisrael.com, Amazon "ISRAEL GUÍA DE VIAJE 2026" — "Tierra Santa" pilgrimage is top LATAM Catholic query; church-of-nativity top individual item). Content gap analysis: comm -23 EN vs ES/FR/DE confirmed next 5 guides for each locale.
+New BACKLOG items added (4):
+1. [P1] ES Phase ES-11 — aqaba-from-eilat, bahai-world-center-guide, church-of-nativity-guide, city-of-david-jerusalem, eilat-diving-snorkeling. LATAM Catholic/Bahá'í/adventure markets.
+2. [P1] FR Phase FR-3 — 1-day-tel-aviv-itinerary, 3-days-in-haifa, 3-days-in-negev, bedouin-experience-israel, beer-sheva-guide. FR itinerary demand via routard.com.
+3. [P1] DE Phase DE-2 — 1-day-tel-aviv-itinerary, 3-days-in-eilat, 3-days-in-haifa, 3-days-in-negev, 3-days-in-tel-aviv. DE Rundreise demand via sonnenklar.tv.
+4. [P3] Rosh Hanikra cable car freshness check — Jul 2026 sources confirm cable car still OOS ("work continues to restore"); guide appropriately hedged; low priority.
+No BACKLOG stale items found. Freshness status: is-israel-safe 2026-07-20 (current), airlines 2026-07-26 (current), israel-travel-2026 2026-07-22 (current). EN saturation ~97%+.
+Gate: N/A (RESEARCH mode — no code).
+No ship (RESEARCH mode).
+Next: iter836 BUILD seo-content (836%5==1 → BUILD; top candidate ES Phase ES-11 [P1 i18n-ES M]).

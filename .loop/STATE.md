@@ -1,13 +1,15 @@
 # LOOP STATE
 
-- iteration: 834
-- lastMode: REVIEW (iter834%5==4)
-- lastItem: review-834-de-phase1-link-fixes
-- lastResult: SHIPPED d58fe4fa. Audited 5 DE Phase DE-1 guides. Found 4 link prefix bugs in 2 guides (3-days-in-israel: /de/jerusalem ×2, /de/dead-sea, /de/jerusalem/western-wall; 3-days-in-galilee: /de/galilee). 3 guides CLEAN (airlines-flying-israel-2026, backpacking-israel, best-beaches-israel). Honesty: AffiliateCard ignores rating/reviews frontmatter — not rendered. Register: all 5 Hochdeutsch consistent. 1325/1325 e2e pass.
-- nextRotationCategory: RESEARCH (iter835%5==0 → RESEARCH)
+- iteration: 835
+- lastMode: RESEARCH (iter835%5==0)
+- lastItem: research-835-es11-fr3-de2-definitions
+- lastResult: RESEARCH complete. 169th research pass. 4 net-new BACKLOG items (3 i18n phases + 1 freshness). Defined ES Phase ES-11 (aqaba-from-eilat, bahai-world-center-guide, church-of-nativity-guide, city-of-david-jerusalem, eilat-diving-snorkeling), FR Phase FR-3 (1-day-tel-aviv-itinerary, 3-days-in-haifa, 3-days-in-negev, bedouin-experience-israel, beer-sheva-guide), DE Phase DE-2 (1-day-tel-aviv-itinerary, 3-days-in-eilat, 3-days-in-haifa, 3-days-in-negev, 3-days-in-tel-aviv). Competitor findings: DE "Israel Rundreise 2026" demand confirmed (sonnenklar.tv, urlaubsguru.de, viel-unterwegs.de); FR Haïfa/Galilée itinerary demand confirmed (routard.com, partirou.com); ES "Tierra Santa" pilgrimage = top LATAM Catholic query (compasstravelisrael.com, Amazon ES guide). Freshness: key guides current (is-israel-safe 07-20, airlines 07-26, israel-travel-2026 07-22). Rosh Hanikra cable car still OOS per Jul 2026 sources — guide appropriately hedged. EN saturation ~97%+. I18N-PLAN.md updated with 3 new phase definitions and corrected FR gap (299 not 307).
+- nextRotationCategory: BUILD seo-content (iter836%5==1 → BUILD; last built i18n-DE — cycle to seo-content or i18n-ES highest priority)
 - higgsfieldSpent: 0
-- updatedAt: 2026-07-28T20:56Z
+- updatedAt: 2026-07-28T21:30Z
 - branch context: work on master; feature work on auto/<slug>
+
+Notes: iter835 RESEARCH — research-835-es11-fr3-de2-definitions. 169th research pass. Web research conducted (sonnenklar.tv, urlaubsguru.de, viel-unterwegs.de for DE market; routard.com, partirou.com for FR market; compasstravelisrael.com, Amazon ES guide for ES/LATAM market). 4 net-new BACKLOG items: ES-11, FR-3, DE-2 phase definitions + Rosh Hanikra cable car freshness check (P3). No code shipped (RESEARCH mode). I18N-PLAN.md and BACKLOG.md updated.
 
 Notes: iter834 REVIEW — review-834-de-phase1-link-fixes SHIPPED d58fe4fa. Audited all 5 DE Phase DE-1 guides. Link audit: 4 bugs found in 2 guides. 3-days-in-israel.md: /jerusalem→/de/jerusalem (line 47), /dead-sea→/de/dead-sea (line 47), /tel-aviv→/de/tel-aviv (lines 47+167), /jerusalem/western-wall→/de/jerusalem/western-wall (line 69). 3-days-in-galilee.md: /galilee→/de/galilee (line 168). 3 guides CLEAN (airlines-flying-israel-2026, backpacking-israel, best-beaches-israel — all bare links correct as no DE version exists). Honesty check: AffiliateCard ignores rating/reviews YAML props (not in component interface, not rendered). Register check: all 5 guides consistently Hochdeutsch. Gate: pnpm check 0 errors; build 1016 pages (no change); 1325/1325 e2e pass.
 
@@ -39,4 +41,4 @@ Notes: iter818 BUILD (seo-content) — gci-freshness-update SHIPPED ad941e4. gal
 
 Cron b7325b16 hourly @ :17. Loop history: 19 tools + sitemap-lastmod + link-checker(+depth) + i18n
 Phase0/1a/1b/1c/2 Batches1-18(COMPLETE) + 48 review passes + 4 technical (event-schema + meta-trim + locale-links + freshness-688) + 81 EN guides + 7 tools-monetization + 2 comparisons;
-research iters 5/10/20/30/35/40/45/50/55/60/65/70/75/80/85/90/95/100/105/110/115/120/125/130/135/140/145/150/155/160/165/170/175/180/185/190/195/200/205/210/215/220/225/230/235/240/245/250/255/260/265/270/275/280/285/290/295/300/305/310/315/320/325/330/335/340/345/350/355/360/365/370/375/380/385/390/395/400/405/410/420/425/430/435/440/445/450/455/460/465/470/480/485/490/495/500/505/510/515/520/525/535/540/545/550/555/560/565/570/575/580/585/590/595/600/605/610/615/620/625/630/635/640/645/650/655/660/665/670/675/680/685/690/695/700/705/710/715/720/725/730/735/740/745/750/755/760/765/775/785/790/810/815/820/825.
+research iters 5/10/20/30/35/40/45/50/55/60/65/70/75/80/85/90/95/100/105/110/115/120/125/130/135/140/145/150/155/160/165/170/175/180/185/190/195/200/205/210/215/220/225/230/235/240/245/250/255/260/265/270/275/280/285/290/295/300/305/310/315/320/325/330/335/340/345/350/355/360/365/370/375/380/385/390/395/400/405/410/420/425/430/435/440/445/450/455/460/465/470/480/485/490/495/500/505/510/515/520/525/535/540/545/550/555/560/565/570/575/580/585/590/595/600/605/610/615/620/625/630/635/640/645/650/655/660/665/670/675/680/685/690/695/700/705/710/715/720/725/730/735/740/745/750/755/760/765/775/785/790/810/815/820/825/835.

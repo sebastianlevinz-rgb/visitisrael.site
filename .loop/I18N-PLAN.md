@@ -6,7 +6,7 @@
 >
 > One bounded slice per loop iteration. NEVER bulk-translate in one shot.
 
-## Current status snapshot (2026-07-28)
+## Current status snapshot (2026-07-28 iter835)
 
 | Locale | Guides | Attractions | Regions | Itineraries |
 |--------|--------|-------------|---------|-------------|
@@ -16,9 +16,9 @@
 | es     | 55     | 61          | 11      | 6           |
 
 **Gaps to close:**
-- es guides: **341 missing** (55/396 done — ongoing, highest priority)
-- fr guides: **307 missing** (EN guides added after Phase 2 Batch 18, iter408)
-- de guides: **304 missing** (92/396 done — DE Phase DE-1 shipped iter833)
+- es guides: **341 missing** (55/396 done — Phase ES-11 DEFINED, next to ship)
+- fr guides: **299 missing** (97/396 done — Phase FR-3 DEFINED, next to ship)
+- de guides: **304 missing** (92/396 done — Phase DE-2 DEFINED, next to ship)
 - fr/de/es attractions: **4 missing each** (the 4 EN attractions added after Phase 4)
 
 ## Architecture (already shipped, do not re-do)
@@ -121,8 +121,21 @@ Take the top 5 by priority (or head -5 if priority not obvious), translate each 
   Dolphin Reef "no garantizado" honesty; terminal Haifa mayo 2026 verified;
   price ranges only (no fabricated figures). 10 new tests (5 smoke + 5 a11y).
   ES guides: 50→55/396. Build: 1011 pages. 1315/1315 e2e pass.
+- Phase ES-11 — DEFINED iter835. Next 5 ES guides:
+  aqaba-from-eilat, bahai-world-center-guide, church-of-nativity-guide,
+  city-of-david-jerusalem, eilat-diving-snorkeling.
+  Rationale: "Tierra Santa" LATAM Catholic pilgrimage market — church-of-nativity is the
+  top LATAM Catholic query per competitor research (compasstravelisrael.com, Amazon ES guide);
+  city-of-david is the major Jerusalem archaeological attraction; UNESCO Bahá'í World Centre
+  serves significant Latin American Bahá'í community; aqaba-from-eilat targets LATAM adventure
+  travelers; eilat-diving-snorkeling captures Red Sea adventure tourism.
+  Honesty notes: church-of-nativity covers Bethlehem/West Bank — carry EN neutral
+  checkpoint/barrier framing exactly; bahai-world-center requires photo-credits
+  restrictedSiteAcknowledgment; city-of-david has contested archaeological context — use EN
+  neutral framing; no fabricated dive-site ratings in eilat-diving-snorkeling.
+  ES guides target: 55→60/396. [iter835 research] status: ready
 
-### FR guide catch-up (92 / 396 = 304 remaining)
+### FR guide catch-up (97 / 396 = 299 remaining)
 - Phase FR-1 — DONE. iter828 shipped ff27fd98:
   3-days-in-israel, 3-days-in-galilee, airlines-flying-israel-2026,
   backpacking-israel, best-beaches-israel. Metropolitan French;
@@ -133,6 +146,17 @@ Take the top 5 by priority (or head -5 if priority not obvious), translate each 
   best-hotels-jerusalem, christmas-in-israel.
   Metropolitan French; YAML apostrophes double-quoted; /fr/* prefix links only for existing FR pages.
   10 new tests (5 smoke + 5 a11y). FR guides: 92→97/396. 1305/1305 e2e pass.
+- Phase FR-3 — DEFINED iter835. Next 5 FR guides:
+  1-day-tel-aviv-itinerary, 3-days-in-haifa, 3-days-in-negev,
+  bedouin-experience-israel, beer-sheva-guide.
+  Rationale: routard.com + partirou.com confirm French search demand for Haïfa and Galilée
+  itinerary content; 1-day-tel-aviv fills the biggest short-itinerary gap (France = major
+  Israel inbound market; no visa required); 3-days-in-haifa (Jardins bahá'ís UNESCO,
+  Carmélite, Colonie allemande); 3-days-in-negev (Makhtesh Ramon désert aventure);
+  bedouin experience (French cultural tourism interest); beer-sheva (porte du Néguev).
+  Metropolitan French register; YAML double-quotes for apostrophes; /fr/* prefix only for
+  confirmed existing FR pages; plain links for guides without FR equivalent.
+  10 new tests (5 smoke + 5 a11y). FR guides target: 97→102/396. [iter835 research] status: ready
 
 ### DE guide catch-up (92 / 396 = 304 remaining)
 - Phase DE-1 — DONE. iter833 shipped ebfb0bd7:
@@ -141,6 +165,17 @@ Take the top 5 by priority (or head -5 if priority not obvious), translate each 
   Planung/Reiserouten categories; /de/ prefix only for confirmed existing DE pages;
   cycling-in-israel plain link (no DE version). 10 new tests (5 smoke + 5 a11y).
   DE guides: 87→92/396. Build: 1016 pages. All e2e pass.
+- Phase DE-2 — DEFINED iter835. Next 5 DE guides:
+  1-day-tel-aviv-itinerary, 3-days-in-eilat, 3-days-in-haifa,
+  3-days-in-negev, 3-days-in-tel-aviv.
+  Rationale: sonnenklar.tv, urlaubsguru.de, viel-unterwegs.de confirm strong DE demand for
+  "Israel Rundreise 2026" structured itinerary content; missing 3-days-in-tel-aviv and
+  3-days-in-eilat is a critical gap (top German tourist destinations: Tel Aviv modern city
+  break; Eilat Red Sea beach resort); 1-day-tel-aviv, 3-days-in-haifa, 3-days-in-negev
+  round out Rundreise coverage for German travellers.
+  Standard Hochdeutsch register; YAML double-quotes for apostrophes in titles;
+  /de/* prefix links only where DE page exists; plain links for EN-only pages.
+  10 new tests (5 smoke + 5 a11y). DE guides target: 92→97/396. [iter835 research] status: ready
 
 ### Attraction catch-up (4 missing per locale)
 - NOT STARTED. Low priority; do after guide catch-up is well underway.
