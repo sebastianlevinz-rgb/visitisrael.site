@@ -115,11 +115,16 @@ Take the top 5 by priority (or head -5 if priority not obvious), translate each 
   no fabricated ceremony prices or ratings.
   ES guides: 45→50/396. 1285/1285 e2e pass.
 
-### FR guide catch-up (87 / 396 = 309 remaining)
-- Phase FR-1 — DEFINED iter825. Next FR BUILD iteration:
+### FR guide catch-up (92 / 396 = 304 remaining)
+- Phase FR-1 — DONE. iter828 shipped ff27fd98:
   3-days-in-israel, 3-days-in-galilee, airlines-flying-israel-2026,
-  backpacking-israel, best-beaches-israel. Neutral metropolitan French.
-  Target: FR guides 87→92/396.
+  backpacking-israel, best-beaches-israel. Metropolitan French;
+  YAML apostrophes double-quoted; /fr/* broken links → EN fallbacks.
+  FR guides: 87→92/396. 1295/1295 e2e pass.
+- Phase FR-2 — PENDING. Next FR BUILD iteration (iter829+):
+  cheap-flights-to-israel, shabbat-guide, first-time-in-israel,
+  is-israel-safe, ben-gurion-airport-guide.
+  Target: FR guides 92→97/396.
 
 ### DE guide catch-up (87 / 396 = 309 remaining)
 - Phase DE-1 — DEFINED iter825. After FR-1:

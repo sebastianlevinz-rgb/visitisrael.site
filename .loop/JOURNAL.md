@@ -12574,3 +12574,24 @@ Result: CLEAN — 0 voseo forms found across all 5 guides. All guides use neutra
 Action: No code changes needed. Branch abandoned. Backlog item resolved.
 Mode note: iter827%5==2 → BUILD-tools; no active tools items in backlog (STALE DUPLICATE marked, transport-cost-estimator already SHIPPED iter821); fell through to technical category per playbook.
 Next: iter828 BUILD-monetization (828%5==3).
+
+## 2026-07-28 · iter 828 · BUILD · fr-phase-1
+
+**Mode:** BUILD (seo-content/i18n) — monetization empty → fell through to [P1] FR Phase FR-1
+**Branch:** auto/fr-phase-1 → squash-merged to master ff27fd98
+**PR:** #33
+
+**Shipped:** 5 French guide translations
+- `3-days-in-israel` — 3 jours en Israël, Jerusalem 3-night base, Masada+Dead Sea, Tel Aviv by train
+- `3-days-in-galilee` — Nazareth/Annonciation, circuit Kinneret, mont Arbel randonnée
+- `airlines-flying-israel-2026` — transporteurs actifs/suspendus juillet 2026; reprises Lufthansa/SWISS/KLM
+- `backpacking-israel` — Abraham Hostels, sherut, Rav-Kav, itinéraire 14j, prix marchés ₪
+- `best-beaches-israel` — Tel Aviv (Gordon/Hilton/Banana/Nordau), corail Eilat, Herzliya
+
+**Bugs found + fixed:**
+1. YAML apostrophe: French `l'` / `d'` inside single-quoted YAML strings → changed to double-quoted titles in 3-days-in-israel + best-beaches-israel + affiliate fields in backpacking + best-beaches
+2. 7 broken internal links: `/fr/where-to-stay/{jerusalem,tel-aviv}`, `/fr/transport/ben-gurion-to-jerusalem` (×2), `/fr/shopping-in-israel`, `/fr/cycling-in-israel` (×3), `/fr/eilat-travel-guide` — all replaced with working EN fallback paths
+
+**Gate:** pnpm check 0 errors · build 1001 pages (+5) · e2e 1295/1295 pass
+**Lesson:** When writing FR content, check ALL single-quoted YAML fields (not just top-level title) for French apostrophes. Also: internal links that use `/fr/` prefix must point to pages that actually exist in FR locale; fall back to EN path otherwise.
+**FR guides:** 87 → 92 / 396

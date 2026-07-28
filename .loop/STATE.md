@@ -1,13 +1,15 @@
 # LOOP STATE
 
-- iteration: 827
-- lastMode: BUILD-technical (iter827%5==2 → tools fell through; no active tools items; technical P2 taken)
-- lastItem: review-827-es7-voseo
-- lastResult: ES Phase ES-7 voseo review — CLEAN. 0 voseo forms found in all 5 guides (christian-pilgrimage-holy-land, bethlehem-travel-guide, border-crossings, haifa-travel-guide, day-trips-from-eilat). No code changes needed.
-- nextRotationCategory: BUILD-monetization (iter828%5==3)
+- iteration: 828
+- lastMode: BUILD-seo-content/i18n (iter828%5==3 → monetization empty → fell through to i18n FR Phase FR-1)
+- lastItem: fr-phase-1
+- lastResult: FR Phase FR-1 SHIPPED ff27fd98. 5 FR guides: 3-days-in-israel, 3-days-in-galilee, airlines-flying-israel-2026, backpacking-israel, best-beaches-israel. YAML apostrophe bug fixed (double-quote titles); 7 broken /fr/ links fixed to EN fallbacks. FR guides: 87→92/396. Build: 996→1001 pages. 1295/1295 e2e pass.
+- nextRotationCategory: REVIEW (iter829%5==4)
 - higgsfieldSpent: 0
-- updatedAt: 2026-07-28T14:05Z
+- updatedAt: 2026-07-28T15:05Z
 - branch context: work on master; feature work on auto/<slug>
+
+Notes: iter828 BUILD (seo-content/i18n-FR) — fr-phase-1 SHIPPED ff27fd98. FR Phase FR-1: 5 new French guides: (1) 3-days-in-israel — 3 jours en Israël : l'itinéraire essentiel pour un premier voyage; Jerusalem 3-night base, Masada/Dead Sea day 2, Tel Aviv day 3 by train, no-car-required; (2) 3-days-in-galilee — 3 jours en Galilée : Nazareth (Basilique de l'Annonciation, souk), circuit Kinneret (Tabgha/Capharnaüm/Magdala), mont Arbel randonnée; (3) airlines-flying-israel-2026 — tableau transporteurs actifs/suspendus juillet 2026; reprises Lufthansa/SWISS/Air France/ITA/Eurowings/airBaltic/KLM; BA/Ryanair/Turkish toujours suspendus; nouvelles liaisons Israir JFK, El Al SFO, Arkia Tokyo; (4) backpacking-israel — Abraham Hostels network, sherut, Rav-Kav, prix marchés en ₪, planification Shabbat, itinéraire sac-à-dos 14j; (5) best-beaches-israel — Gordon/Frishman/Hilton/Banana/Nordau à Tel Aviv, Réserve naturelle corail Eilat, Herzliya, Kinneret. YAML fix: titres avec apostrophes en double-quotes. Broken links: 7 liens /fr/* inexistants remplacés par équivalents EN. 10 tests ajoutés (5 smoke + 5 a11y). FR guides: 87→92/396. Build: 996→1001 pages. 1295/1295 e2e pass. PR #33 créé.
 
 Notes: iter826 BUILD (seo-content/i18n-ES) — es-phase-9 SHIPPED f8bdb180. ES Phase ES-9: 5 new Spanish guides: (1) church-holy-sepulchre-guide — Santo Sepulcro visitor guide, Status Quo six-denomination framing (Greek Orthodox, Roman Catholic/Franciscan, Armenian Apostolic, Coptic, Syriac, Ethiopian Tewahedo), Edículo queue strategy, dawn visit tips, Via Dolorosa connection; (2) christmas-in-israel — three-Christmas guide (Catholic Dec 24-25, Orthodox Jan 6-7, Armenian Jan 18-19), Belén Checkpoint 300 logistics, Nazaret market, Ministry of Tourism bus "not guaranteed each year" honest note; (3) caesarea-guide — Cesárea day trip: Teatro Romano, Hipódromo, puerto herodiano Sebastos, Yam Cesárea Marine Park, Playa del Acueducto, Museo Ralli, combination itineraries (Haifa, Akko, Zichron Yaakov); (4) bar-bat-mitzvah-israel — bar/bat mitzvá trip guide: Western Wall + egalitarian Ezrat Yisrael, Masada sunrise bar mitzvah, Safed synagogues, 18-month planning timeline, 10-14 day family itinerary; (5) bedouin-experience-israel — Beduino cultural framing (diyafa), Kfar HaNokdim, Sde Boker, Negev Bedouin Heritage Centre, Mansaf, qahwa coffee ritual, camel etiquette. ES guides: 45→50/396. Build: 996 pages. 1285/1285 e2e pass. CI in_progress (standard pattern). Next: iter827 BUILD-tools (827%5==2).
 

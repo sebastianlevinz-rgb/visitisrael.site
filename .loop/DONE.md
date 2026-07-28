@@ -1,5 +1,8 @@
 # DONE (shipped — do NOT re-do; basis for REVIEW mode)
 
+## iter828 · BUILD · fr-phase-1 · ff27fd98
+- FR Phase FR-1 SHIPPED: 3-days-in-israel, 3-days-in-galilee, airlines-flying-israel-2026, backpacking-israel, best-beaches-israel (metropolitan French; double-quoted YAML for apostrophe fields; /fr/* broken links replaced with EN fallbacks). FR guides: 87→92/396. 10 new tests (5 smoke + 5 a11y). Build: 1001 pages (+5). 1295/1295 e2e pass. PR #33.
+
 ## iter826 · BUILD · es-phase-9 · f8bdb180
 - ES Phase ES-9 SHIPPED: church-holy-sepulchre-guide, christmas-in-israel, caesarea-guide, bar-bat-mitzvah-israel, bedouin-experience-israel (neutral LATAM Spanish; Status Quo six-denomination framing on Holy Sepulchre; Bethlehem Checkpoint 300 logistics; Ministry of Tourism bus caveat; Western Wall egalitarian Ezrat Yisrael; no fabricated prices or ceremony quotes; /es/ prefix links). ES guides: 45→50/396. 10 new tests (5 smoke + 5 a11y). Build: 996 pages (+5). 1285/1285 e2e pass.
 
