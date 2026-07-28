@@ -1,5 +1,8 @@
 # DONE (shipped — do NOT re-do; basis for REVIEW mode)
 
+## iter831 · BUILD · fr-phase-2 · 5fa1ab23
+- FR Phase FR-2 SHIPPED: 3-days-in-tel-aviv, 3-days-in-eilat, dead-sea-vs-eilat, best-hotels-jerusalem, christmas-in-israel (metropolitan French; YAML apostrophes double-quoted; /fr/* prefix links only for confirmed-existing FR pages; honesty on InterContinental Jerusalem "opening fin été 2026", Ministry of Tourism buses "not guaranteed each year", Bethlehem safety check-advisory caveat). FR guides: 92→97/396. 10 new tests (5 smoke + 5 a11y). Build: 1006 pages (+5). 1305/1305 e2e pass.
+
 ## iter828 · BUILD · fr-phase-1 · ff27fd98
 - FR Phase FR-1 SHIPPED: 3-days-in-israel, 3-days-in-galilee, airlines-flying-israel-2026, backpacking-israel, best-beaches-israel (metropolitan French; double-quoted YAML for apostrophe fields; /fr/* broken links replaced with EN fallbacks). FR guides: 87→92/396. 10 new tests (5 smoke + 5 a11y). Build: 1001 pages (+5). 1295/1295 e2e pass. PR #33.
 

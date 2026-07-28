@@ -131,15 +131,11 @@ Take the top 5 by priority (or head -5 if priority not obvious), translate each 
   backpacking-israel, best-beaches-israel. Metropolitan French;
   YAML apostrophes double-quoted; /fr/* broken links → EN fallbacks.
   FR guides: 87→92/396. 1295/1295 e2e pass.
-- Phase FR-2 — DEFINED iter830 (corrected — previous FR-2 definition listed guides
-  already in FR from Phase 2 Batches 1–18). Next FR BUILD iteration:
+- Phase FR-2 — DONE. iter831 shipped 5fa1ab23:
   3-days-in-tel-aviv, 3-days-in-eilat, dead-sea-vs-eilat,
   best-hotels-jerusalem, christmas-in-israel.
-  Rationale: short city-break itineraries high-traffic for French market (Air France CDG–TLV
-  daily); dead-sea-vs-eilat is key planning comparison; best-hotels-jerusalem drives Booking
-  affiliate revenue; christmas-in-israel targets large French Catholic market.
-  WARN: best-hotels-jerusalem already in FR? → NO, confirmed missing via comm -23 check iter830.
-  Target: FR guides 92→97/396.
+  Metropolitan French; YAML apostrophes double-quoted; /fr/* prefix links only for existing FR pages.
+  10 new tests (5 smoke + 5 a11y). FR guides: 92→97/396. 1305/1305 e2e pass.
 
 ### DE guide catch-up (87 / 396 = 309 remaining)
 - Phase DE-1 — DEFINED iter825. After FR-2 (interleave):

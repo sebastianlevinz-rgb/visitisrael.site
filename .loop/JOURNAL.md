@@ -12657,3 +12657,10 @@ Next: iter828 BUILD-monetization (828%5==3).
 
 **No code changed. Gate not run (RESEARCH mode).**
 Next: iter831 BUILD-monetization (831%5==1) — top candidate: FR Phase FR-2 [P1] or Haifa homeport cruise [P2].
+
+## 2026-07-28 · iter 831 · BUILD (i18n-FR) · fr-phase-2
+Mode: iter831%5==1 → BUILD. Preferred category: monetization. No ready monetization items (all SHIPPED or HUMAN-REVIEW blocked). Fell through to highest-priority ready item: P1 i18n-FR FR Phase FR-2.
+What: 5 new French guides — 3-days-in-tel-aviv, 3-days-in-eilat, dead-sea-vs-eilat, best-hotels-jerusalem, christmas-in-israel. Metropolitan French register (not machine translation); YAML fields with apostrophes wrapped in double-quotes; /fr/* prefix links applied only for confirmed-existing FR pages. Honesty preserved: InterContinental Jerusalem "fin été 2026" no exact date; Ministry of Tourism buses "not guaranteed each year"; Bethlehem "check official travel advisory"; no fabricated prices/ratings.
+Gate: pnpm check 0 errors; build 1006 pages (+5 from 1001); 1305/1305 e2e pass (10 new routes in smoke + a11y specs).
+Ship: committed 5fa1ab23, pushed to master. FR guides: 92→97/396.
+Next: iter832 BUILD-seo-content (832%5==2) — top candidate: Eilat vs Sharm el Sheikh [P2 seo-content M] or ES Phase ES-10 [P2 i18n-ES M].
