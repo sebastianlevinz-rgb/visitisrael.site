@@ -1362,3 +1362,6 @@ P1 honesty fix: corrected false intercity sherut claims in transportation guides
 
 ## iter812 · es-guides-batch-6 (Phase ES-5) · 9609531
 BUILD (i18n-ES Phase ES-5) — 5 high-traffic ES planning/logistics guides: /es/backpacking-israel, /es/best-beaches-israel, /es/cheap-flights-to-israel, /es/kosher-food-guide, /es/israel-packing-list-guide. Neutral LATAM Spanish (no vosotros); /es/ link prefixes where ES versions exist; El Al Buenos Aires EZE Nov 29 2026 direct route highlighted for LATAM market. 10 new tests (5 smoke + 5 a11y). Gate: pnpm check 0 errors; pnpm build 975 pages (+5); pnpm test:e2e 1237/1237 pass (+10). ES guides: 30/394. Phase ES-5 complete. 2026-07-27.
+
+## iter813 · turkish-piba-security-clearance · f476b74
+BUILD (technical) — Added mandatory PIBA security clearance note for Turkish nationals to visa-information.md (EN/ES/FR/DE). All 4 locale versions updated with a new section explaining that Turkish passport holders must complete a PIBA security clearance in addition to the standard B/2 Tourist Visa application (2026 requirement). Directs readers to verify current procedures via an Israeli embassy or the official PIBA portal. Source: Fragomen LLC immigration attorneys. No new pages (content update to 4 existing files). Gate: pnpm check 0 errors; build 975 pages (no change); 1237/1237 e2e pass. 2026-07-28.

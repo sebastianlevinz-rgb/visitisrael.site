@@ -12341,3 +12341,22 @@ Squash-merge to master: feat(i18n-es): ES Phase ES-5 — 5 high-traffic ES guide
 Gate: pnpm check 0 errors; pnpm build 975 pages (+5); pnpm test:e2e 1237/1237 pass (+10). GREEN.
 Ship: committed on master as 9609531; pushed. CI in_progress (standard pattern).
 Next: iter813 = BUILD (813%5==3 → technical category).
+
+## 2026-07-28T00:00Z · iter 813 · BUILD · turkish-piba-security-clearance
+
+Mode: BUILD (813%5==3 → technical category)
+Item: Turkish nationals PIBA security clearance — add honesty note to visa-information.md (EN/ES/FR/DE)
+
+Pre-flight: Local master was stale (iter734); git reset --hard origin/master to 5a26105.
+No stale auto/* branches found.
+
+Action:
+- Added "Turkish nationals — mandatory PIBA security clearance" section to visa-information.md (EN) after the Filipino travelers section.
+- Added equivalent sections (ES/FR/DE) adapted to each locale's structure and language.
+- All 4 files: updatedAt bumped to 2026-07-27.
+- No new pages; existing tests cover all 4 locale routes already.
+- Noted: Haifa cruise terminal BACKLOG item (iter810 research) was already completed in iter621 (haifa-cruise-terminal-guide + cross-links). BACKLOG item marked SHIPPED.
+
+Gate: pnpm check 0 errors; pnpm build 975 pages (no change); pnpm test:e2e 1237/1237 pass. GREEN.
+Ship: committed on master as f476b74; pushed. CI in_progress (standard pattern).
+Next: iter814 = REVIEW (814%5==4).
