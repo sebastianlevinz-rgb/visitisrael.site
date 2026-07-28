@@ -445,6 +445,11 @@ const ROUTES = [
   '/es/best-hotels-tel-aviv',
   '/es/eilat-travel-guide',
   '/es/tel-aviv-beach-guide',
+  '/es/church-holy-sepulchre-guide',
+  '/es/christmas-in-israel',
+  '/es/caesarea-guide',
+  '/es/bar-bat-mitzvah-israel',
+  '/es/bedouin-experience-israel',
   '/israel-transport-cost-estimator',
 ];
 
