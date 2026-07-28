@@ -12,13 +12,13 @@
 |--------|--------|-------------|---------|-------------|
 | en     | 396    | 65          | 11      | 6           |
 | fr     | 97     | 61          | 11      | 6           |
-| de     | 87     | 61          | 11      | 6           |
+| de     | 92     | 61          | 11      | 6           |
 | es     | 55     | 61          | 11      | 6           |
 
 **Gaps to close:**
 - es guides: **341 missing** (55/396 done — ongoing, highest priority)
 - fr guides: **307 missing** (EN guides added after Phase 2 Batch 18, iter408)
-- de guides: **307 missing** (same)
+- de guides: **304 missing** (92/396 done — DE Phase DE-1 shipped iter833)
 - fr/de/es attractions: **4 missing each** (the 4 EN attractions added after Phase 4)
 
 ## Architecture (already shipped, do not re-do)
@@ -134,13 +134,13 @@ Take the top 5 by priority (or head -5 if priority not obvious), translate each 
   Metropolitan French; YAML apostrophes double-quoted; /fr/* prefix links only for existing FR pages.
   10 new tests (5 smoke + 5 a11y). FR guides: 92→97/396. 1305/1305 e2e pass.
 
-### DE guide catch-up (87 / 396 = 309 remaining)
-- Phase DE-1 — DEFINED iter825. After FR-2 (interleave):
+### DE guide catch-up (92 / 396 = 304 remaining)
+- Phase DE-1 — DONE. iter833 shipped ebfb0bd7:
   3-days-in-israel, 3-days-in-galilee, airlines-flying-israel-2026,
-  backpacking-israel, best-beaches-israel. Standard Hochdeutsch.
-  Same guide set as FR-1 — Germany is Israel's 4th-largest European source market; these
-  foundational short-trip/planning guides serve same high-traffic intent in German.
-  Target: DE guides 87→92/396.
+  backpacking-israel, best-beaches-israel. Standard Hochdeutsch;
+  Planung/Reiserouten categories; /de/ prefix only for confirmed existing DE pages;
+  cycling-in-israel plain link (no DE version). 10 new tests (5 smoke + 5 a11y).
+  DE guides: 87→92/396. Build: 1016 pages. All e2e pass.
 
 ### Attraction catch-up (4 missing per locale)
 - NOT STARTED. Low priority; do after guide catch-up is well underway.

@@ -12671,3 +12671,18 @@ What: 5 new Spanish guides — cruise-shore-excursions-israel (excursiones desde
 Gate: pnpm check 0 errors; build 1011 páginas (+5 desde 1006); 1315/1315 e2e pass (10 tests nuevos: 5 smoke + 5 a11y).
 Ship: committed 792d26c6, pushed to master. ES guides: 50→55/396. CI in_progress (standard pattern — consistent with all prior ES phases).
 Next: iter833 BUILD-tools (833%5==3) — top candidates from BACKLOG: [P2] Mediterranean cruises homeporting (/israel-homeport-cruise) [seo-content/M] or Eilat vs Sharm el Sheikh [P2 seo-content M]. DE Phase DE-1 also ready [P2 i18n-DE M].
+
+## 2026-07-28 · iter 833 · BUILD (tools→i18n-DE) · de-phase-1
+Rotation category: BUILD-tools (833%5==3). Tools category empty (shabbat-time-tool STALE DUPLICATE).
+Fell through to i18n epic: DE Phase DE-1 — first DE guide catch-up batch.
+What: 5 German (Hochdeutsch) guide translations on branch auto/de-phase-1:
+- 3-days-in-israel.md — Jerusalem Day 1 (Klagemauer, Via Dolorosa, Grabeskirche, Ölberg, Mahane Yehuda), Day 2 Masada + Totes Meer, Day 3 Tel Aviv + Jaffa
+- 3-days-in-galilee.md — Day 1 Nazareth (Verkündigungsbasilika, Souk, Berg des Sturzes), Day 2 See Genezareth (Tabgha, Kafarnaum, Magdala, Boot, Seligpreisungskirche), Day 3 Berg Arbel
+- airlines-flying-israel-2026.md — aktive/eingestellte Airlines; Lufthansa/SWISS 1.7.2026, KLM 26.7.2026, Israir JFK August 2026, El Al SFO Oktober 2026
+- backpacking-israel.md — Abraham Hostels Netzwerk, Rav-Kav, Sherut, Schabbat-Planung, Gruppentouren-Preistabelle, 10/14-Tage-Routen
+- best-beaches-israel.md — Tel Aviv (Gordon/Frishman/Hilton/Banana/Alma/Nordau), Herzliya, Palmahim, Dor Habonim, Bet Yanai, Achziv, Eilat Korallenstand, Kinneret
+Link strategy: /de/ prefix for confirmed existing DE pages; plain links for EN-only pages (cycling-in-israel, etc.).
+Category names: Planung (Planning), Reiserouten (Itineraries).
+Tests: +10 routes to smoke.spec.ts + a11y.spec.ts.
+Gate: pnpm check 0 errors; build 1016 pages (+5); all e2e pass.
+Ship: squash-merged to master ebfb0bd7, pushed. Branch deleted.
