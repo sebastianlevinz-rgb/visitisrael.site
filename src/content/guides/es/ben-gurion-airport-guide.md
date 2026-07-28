@@ -3,7 +3,7 @@ title: 'Guía del aeropuerto Ben Gurion 2026: terminales, seguridad y salones VI
 description: 'Guía del aeropuerto Ben Gurion (TLV) 2026: terminales, salidas, consejos para la entrevista de seguridad, actualización de salones y traslados desde el aeropuerto.'
 heroImage: /images/regions/tel-aviv/hero.jpg
 category: Transporte
-updatedAt: 2026-07-22
+updatedAt: 2026-07-28
 ctaHeading: 'Reserve sus esenciales del aeropuerto antes de volar'
 affiliateCtas:
   - partner: welcomepickups
@@ -43,7 +43,7 @@ El **Aeropuerto Internacional Ben Gurion (TLV)** gestiona prácticamente todas l
 
 ## Descripción general de las terminales: T3 vs Terminal 1
 
-Ben Gurion tiene dos terminales de pasajeros activas. La **Terminal 3** es el principal hub internacional, inaugurado en 2004 y ampliado en 2024. Gestiona todas las principales aerolíneas internacionales más las conexiones domésticas de El Al. Tiene tres concourses (C, D y E) accesibles desde una sala central de salidas. **Expansión en curso:** En julio de 2026, la Autoridad de Aeropuertos de Israel adjudicó un contrato de aproximadamente 311 millones de dólares para un importante proyecto de capacidad en la Terminal 3, con el objetivo de crecer desde los actuales ~16 millones de pasajeros por año hasta 40 millones. La IAA no ha confirmado una fecha de finalización.
+Ben Gurion tiene dos terminales de pasajeros activas. La **Terminal 3** es el principal hub internacional, inaugurado en 2004 y ampliado en 2024. Gestiona todas las principales aerolíneas internacionales más las conexiones domésticas de El Al. Tiene tres concourses (C, D y E) accesibles desde una sala central de salidas. **Expansión en curso:** En julio de 2026, la Autoridad de Aeropuertos de Israel adjudicó un contrato de aproximadamente 311 millones de dólares para un importante proyecto de capacidad en la Terminal 3, con el objetivo de crecer desde los actuales ~16 millones de pasajeros por año hasta 40 millones. La primera fase incluye una nueva ala terminal este: el 1 de julio de 2026 la IAA publicó una licitación de 83 millones de dólares para una extensión de 50.000 m² en el ala este y una instalación subterránea de 20.000 m², con un plazo de construcción de 30 meses. La IAA no ha confirmado una fecha de finalización; la expansión no está disponible aún para los viajeros.
 
 La **Terminal 1**, al norte del recinto, fue renovada durante 2024–25 y reabrió completamente para el servicio internacional el 1 de julio de 2026. Gestiona los vuelos domésticos israelíes y un número creciente de aerolíneas de bajo coste europeas. Si vuela en aerolínea de bajo coste desde una ciudad europea, confirme su terminal antes de llegar — las dos no son adyacentes y hay un autobús lanzadera gratuito entre ellas.
 

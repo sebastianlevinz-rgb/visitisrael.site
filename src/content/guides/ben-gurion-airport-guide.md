@@ -3,7 +3,7 @@ title: 'Ben Gurion Airport Guide: Terminals, Security & Lounges (2026)'
 description: 'Ben Gurion Airport (TLV) guide: terminals, departures, security interview tips, 2026 lounges update, duty-free and onward transfers.'
 heroImage: /images/regions/tel-aviv/hero.jpg
 category: Transport
-updatedAt: 2026-07-22
+updatedAt: 2026-07-28
 ctaHeading: 'Sort your airport essentials before you fly'
 affiliateCtas:
   - partner: welcomepickups
@@ -43,7 +43,7 @@ faqs:
 
 ## Terminal overview: T3 vs Terminal 1
 
-Ben Gurion has two active passenger terminals. **Terminal 3** is the main international hub, opened in 2004 and expanded with a new west wing in 2024. It handles all major international airlines plus El Al domestic connections. Terminal 3 has three concourses (C, D, and E) accessible from a central departures hall, each with gates at both ends. **Long-term expansion underway:** In July 2026, the Israel Airports Authority awarded a contract of approximately $311 million for a major Terminal 3 capacity project, targeting growth from the current ~16 million passengers per year toward 40 million. Construction is beginning; the IAA has not confirmed a final completion date, so plan travel around TLV's current fully operational infrastructure.
+Ben Gurion has two active passenger terminals. **Terminal 3** is the main international hub, opened in 2004 and expanded with a new west wing in 2024. It handles all major international airlines plus El Al domestic connections. Terminal 3 has three concourses (C, D, and E) accessible from a central departures hall, each with gates at both ends. **Long-term expansion underway:** In July 2026, the Israel Airports Authority awarded a contract of approximately $311 million for a major Terminal 3 capacity project, targeting growth from the current ~16 million passengers per year toward 40 million. The first major phase focuses on a dedicated eastern terminal wing: on 1 July 2026 the IAA issued an $83 million tender for a 50,000 m² eastern wing extension and a 20,000 m² underground facility, with a 30-month construction timeline. Neither this wing nor the broader expansion is open yet; the IAA has not confirmed a final completion date, so plan travel around TLV's current fully operational infrastructure.
 
 **Terminal 1**, to the north of the campus, was refurbished during the 2024–25 period and fully reopened for international service on 1 July 2026, adding capacity as traffic recovers. It handles domestic Israeli flights and a growing number of low-cost European carriers (including Wizz Air routes; note Ryanair has suspended all Israel flights — see the [airlines flying to Israel 2026](/airlines-flying-israel-2026) status page for current carrier availability). If you are flying budget from a European city, confirm your terminal before arriving — the two are not adjacent and a free shuttle bus runs between them.
 
