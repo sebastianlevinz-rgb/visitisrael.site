@@ -1,5 +1,8 @@
 # DONE (shipped — do NOT re-do; basis for REVIEW mode)
 
+## iter824 · REVIEW · review-824-es8-voseo-fix · d320ddc9
+- ES Phase ES-8 audit: link audit CLEAN (all /es/ prefixes correct, zero dead links); tests verified (5 smoke + 5 a11y). Fixed 3 voseo forms ("alojás"→"alojas") in masada-visitor-guide.md (2×) + best-hotels-jerusalem.md (1×). Gate 1275/1275 pass.
+
 ## iter823 · BUILD · es-guides-batch-8 · 9557827
 - ES Phase ES-8 SHIPPED: masada-visitor-guide, best-hotels-jerusalem, best-hotels-tel-aviv, eilat-travel-guide, tel-aviv-beach-guide (neutral LATAM Spanish; /es/ prefixes on existing ES pages only; 10 new tests). ES guides: 40→45/396. Build: 991 pages (+5). 1275/1275 e2e pass.
 

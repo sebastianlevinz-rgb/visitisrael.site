@@ -12487,3 +12487,15 @@ Implemented ES Phase ES-8: 5 new Spanish-language guides targeting LATAM accommo
 Guides shipped: masada-visitor-guide (Snake Path vs teleférico vs amanecer; Palacio Norte, sinagoga, iglesia, muro romano, cisternas, Sonido y Luz; parque nacional pass), best-hotels-jerusalem (Mamilla, Centro Oeste, Colonia Alemana, Jerusalén Este/American Colony, Ein Kerem; budget/mid/luxury; holiday pricing calendar; InterContinental honest "late summer 2026"), best-hotels-tel-aviv (Rothschild/Ciudad Blanca, Neve Tzedek, Tayelet, Florentin, Vieja Jaffa; 2026 openings Six Senses TLV + Nobu Hotel TLV with honest caveats), eilat-travel-guide (North Beach, Coral Beach, Dolphin Reef, Underwater Observatory, Timna, tax-free shopping; transport air/car/bus; day trips Petra/Wadi Rum/Egypt), tel-aviv-beach-guide (7 beaches: Gordon, Frishman, Hilton [LGBTQ+/perros], Banana, Bograshov [surf], Alma, Nordau [religioso]; flag system; jellyfish season; disabled access; Shabat at beach).
 Gate: pnpm check 0 errors; build 991 pages (+5 from 986); 1275/1275 e2e pass (10 new: 5 smoke + 5 a11y).
 Merge SHA: 9557827. ES guides: 40→45/396. Vercel deploy triggered; CI in_progress (standard pattern).
+
+## 2026-07-28T10:52Z · iter 824 · REVIEW · review-824-es8-voseo-fix
+Audited all 5 ES Phase ES-8 guides (masada-visitor-guide, best-hotels-jerusalem, best-hotels-tel-aviv, eilat-travel-guide, tel-aviv-beach-guide) shipped in iter823.
+Link audit: CLEAN — all /es/ prefix links correct (zero missing locale prefixes); zero dead links across ~30 internal hrefs verified; pages at /dead-sea/ein-gedi, /israel-golden-hour, /lgbtq-travel-israel, /pet-friendly-israel, /eilat-beach-guide, /eilat-hotels-guide, /eilat-nightlife, /timna-park-guide, /eilat-ramon-airport-guide, /israel-egypt-guide, /red-canyon-eilat, /hai-bar-yotvata-guide, /arava-mountain-biking, /aqaba-from-eilat, /eilat-diving-snorkeling, /israel-surfing all confirmed present.
+Tests: confirmed 5 smoke (lines 50-54) + 5 a11y (lines 443-447) for /es/masada-visitor-guide, /es/best-hotels-jerusalem, /es/best-hotels-tel-aviv, /es/eilat-travel-guide, /es/tel-aviv-beach-guide.
+Bug found: 3 voseo (River Plate Spanish, Argentine) conjugations — "alojás" — in masada-visitor-guide.md (FAQ line 39 + body line 147) and best-hotels-jerusalem.md (body line 42). Voseo is specific to Argentina/Uruguay; playbook specifies neutral LATAM Spanish.
+Fix applied: "te alojás" → "te alojas" in all 3 occurrences.
+Gate: pnpm check 0 errors; build 991 pages (stable); 1275/1275 e2e pass. GREEN.
+Ship: commit d320ddc9 on master; pushed to origin/master.
+Prod: CI in_progress at push (standard pattern).
+Discovery: lint-meta-length.mjs only scans src/content/guides/*.md (top-level), not subdirs — ES/FR/DE guide title/desc overruns not caught by linter. masada-visitor-guide ES title is 91 chars (limit 65); tel-aviv-beach-guide ES title 78 chars. Added to BACKLOG.
+Next: iter825 RESEARCH (825%5==0).

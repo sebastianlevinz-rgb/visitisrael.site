@@ -1,13 +1,15 @@
 # LOOP STATE
 
-- iteration: 823
-- lastMode: BUILD seo-content (iter823%5==3 → BUILD tools; tools backlog exhausted → fell through to i18n-ES)
-- lastItem: es-phase-8
-- lastResult: SHIPPED 9557827. ES Phase ES-8 — 5 ES guide translations: masada-visitor-guide, best-hotels-jerusalem, best-hotels-tel-aviv, eilat-travel-guide, tel-aviv-beach-guide. Neutral LATAM Spanish; /es/ prefixes on existing ES pages only; 10 new tests (5 smoke + 5 a11y). Gate: pnpm check 0 errors; build 991 pages (+5 from 986); 1275/1275 e2e pass. CI in_progress (standard pattern). Vercel deploy triggered.
-- nextRotationCategory: REVIEW (iter824%5==4 → REVIEW)
+- iteration: 824
+- lastMode: REVIEW (iter824%5==4)
+- lastItem: review-824-es8-voseo-fix
+- lastResult: SHIPPED d320ddc9. ES Phase ES-8 REVIEW — audited all 5 guides (masada-visitor-guide, best-hotels-jerusalem, best-hotels-tel-aviv, eilat-travel-guide, tel-aviv-beach-guide). Link audit clean: all /es/ prefixes correct (zero missing), zero dead links across all ~30 internal links. Tests verified: 5 smoke + 5 a11y routes confirmed present. Found + fixed 3 voseo (River Plate Spanish) forms: masada-visitor-guide.md (2×) + best-hotels-jerusalem.md (1×) "alojás"→"alojas". Gate: pnpm check 0 errors; build 991 pages (stable); 1275/1275 e2e pass. CI in_progress (standard pattern).
+- nextRotationCategory: RESEARCH (iter825%5==0 → RESEARCH)
 - higgsfieldSpent: 0
-- updatedAt: 2026-07-28T09:58Z
+- updatedAt: 2026-07-28T10:52Z
 - branch context: work on master; feature work on auto/<slug>
+
+Notes: iter824 REVIEW — review-824-es8-voseo-fix SHIPPED d320ddc9. Audited all 5 ES Phase ES-8 guides. Link audit: clean — all /es/ prefix links correct, zero dead links. Tests: 5 smoke (lines 50-54) + 5 a11y (lines 443-447) confirmed present. Bug found + fixed: 3 voseo forms "alojás" (Argentine/River Plate) corrected to "alojas" (neutral LATAM) in masada-visitor-guide.md (2×) and best-hotels-jerusalem.md (1×). New BACKLOG items added: (1) review ES Phase ES-7 guides for voseo; (2) extend lint-meta-length.mjs to cover guides/es/ subdirectory (ES title/desc lengths not currently enforced). Next: iter825 RESEARCH (825%5==0).
 
 Notes: iter823 BUILD (seo-content/i18n-ES) — es-phase-8 SHIPPED 9557827. ES Phase ES-8: 5 new Spanish guides covering LATAM accommodation + iconic destination market: (1) masada-visitor-guide — Snake Path vs teleférico vs amanecer, Palacio Norte, sinagoga, iglesia, muro romano, cisternas, Sonido y Luz, parque nacional pass + practical tips; (2) best-hotels-jerusalem — Mamilla, Centro Oeste, Colonia Alemana, Jerusalén Este/American Colony, Ein Kerem; budget/mid/luxury; holiday pricing calendar (Pésaj, Sucot, Navidad, Semana Santa); InterContinental Jerusalem honest "late summer 2026"; (3) best-hotels-tel-aviv — Rothschild/Ciudad Blanca, Neve Tzedek, Tayelet, Florentin, Vieja Jaffa; 2026 new openings Six Senses TLV + Nobu Hotel TLV with honest caveats; (4) eilat-travel-guide — North Beach, Coral Beach, Dolphin Reef (honest semi-wild framing), Underwater Observatory, Timna, tax-free shopping; transport air/car/bus; day trips Petra/Wadi Rum/Egypt/Taba/Cañón Rojo; (5) tel-aviv-beach-guide — 7 beaches: Gordon, Frishman, Hilton [LGBTQ+/perros], Banana, Bograshov [surf], Alma, Nordau [religioso separado]; flag system; jellyfish season; disabled access; Shabat at beach; seasonal notes. ES guides: 40→45/396. 10 new tests (5 smoke + 5 a11y). Build: 991 pages. All 1275 e2e pass. Next: iter824 REVIEW (iter824%5==4).
 
