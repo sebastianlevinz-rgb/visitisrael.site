@@ -1,13 +1,15 @@
 # LOOP STATE
 
-- iteration: 821
-- lastMode: BUILD tools (iter821%5==1)
-- lastItem: transport-cost-estimator
-- lastResult: SHIPPED 6330131. New page /israel-transport-cost-estimator — vanilla-JS island comparing rental car vs intercity bus/train vs mixed transport costs. Inputs: days, travellers, city hops, daily driving km, journey type. Outputs three cost cards (ILS + USD), highlights cheapest, plain-language recommendation. Cross-linked from Footer, transportation.md, israel-car-rental-quiz. 7 files changed, 574 insertions. 6 new tool tests + 1 smoke + 1 a11y; 1255/1255 pass. 981 pages (980→981). CI in_progress (standard pattern). Vercel deploy triggered.
-- nextRotationCategory: seo-content (iter822%5==2 → BUILD seo-content; candidates: ES Phase ES-7 [P1 i18n-ES M], National Campus Archaeology preview [P3 seo-content S], Golan Heights wine trail [P3 seo-content+monetization S])
+- iteration: 822
+- lastMode: BUILD seo-content (iter822%5==2 → BUILD seo-content; i18n-ES counts as seo-content)
+- lastItem: es-phase-7
+- lastResult: SHIPPED eac9c25. ES Phase ES-7 — 5 ES guide translations: christian-pilgrimage-holy-land, bethlehem-travel-guide, border-crossings, haifa-travel-guide, day-trips-from-eilat. Neutral LATAM Spanish; /es/ prefixes on existing ES pages; 10 new tests (5 smoke + 5 a11y). Gate: pnpm check 0 errors; build 986 pages (+5 from 981); 1265/1265 e2e pass. CI in_progress (standard pattern). Vercel deploy triggered.
+- nextRotationCategory: tools (iter823%5==3 → BUILD tools; candidates: National Campus Archaeology preview [P3 seo-content S] — or next ES batch ES-8 [P1 i18n-ES M])
 - higgsfieldSpent: 0
-- updatedAt: 2026-07-28T07:55Z
+- updatedAt: 2026-07-28T08:52Z
 - branch context: work on master; feature work on auto/<slug>
+
+Notes: iter822 BUILD (seo-content/i18n-ES) — es-phase-7 SHIPPED eac9c25. ES Phase ES-7: 5 new Spanish guides covering the LATAM Catholic + logistics market: (1) christian-pilgrimage-holy-land — full pilgrimage circuit guide (Jerusalem/Bethlehem/Nazareth/Galilee), careful religious/contested-site framing; (2) bethlehem-travel-guide — West Bank destination guide with neutral barrier framing, checkpoint logistics, Banksy art, dining; (3) border-crossings — 3 Jordan crossings + Taba Egypt, practical tips; (4) haifa-travel-guide — Bahai Gardens, Carmelit, German Colony, Wadi Nisnas, beaches, museums; (5) day-trips-from-eilat — Petra, Timna, Red Canyon, Aqaba, Coral Beach comparison table with summer heat planning. ES guides: 35→40/396. 10 new tests added to smoke.spec.ts and a11y.spec.ts. Build: 986 pages. All 1265 e2e tests pass. Next: iter823 BUILD tools — top candidate National Campus Archaeology preview [P3 seo-content S] or next ES batch ES-8.
 
 Notes: iter821 BUILD (tools) — transport-cost-estimator SHIPPED 6330131. New page /israel-transport-cost-estimator: vanilla-JS island comparing 3 transport modes for Israel travel. Inputs: days, travellers (sharing car), city hops, driving distance (light/moderate/heavy), journey type (short/medium/long). Three cost cards: (a) Rental car — daily rental ₪550 + fuel ₪20/100km + Route 6 toll ₪15/day; (b) Intercity bus+train (Rav-Kav) — per-hop pricing × number of hops × travellers; (c) Mixed — bus for most hops, private taxi for Shabbat legs (1/week). Highlights cheapest with badge. Recommendation paragraph. 5 FAQs (car vs bus cost, intercity bus prices, sherut note, Rav-Kav, Shabbat transport). GYG private transfer CTA. Cross-links: Footer (between travel-time and how-many-days), transportation.md (new "Transport cost estimator" section before "Popular routes compared"), israel-car-rental-quiz (new cross-links section at bottom). Gate: pnpm check 0 errors; build 981 pages (+1); 1255/1255 e2e pass. CI in_progress (standard pattern). Next: iter822 BUILD seo-content — top candidate ES Phase ES-7 [P1 i18n-ES M] or National Campus Archaeology preview [P3 seo-content S].
 

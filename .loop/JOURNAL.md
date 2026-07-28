@@ -12475,3 +12475,9 @@ Gate: pnpm check 0 errors; build 981 pages (+1, 980→981); 1255/1255 e2e+a11y p
 Merge SHA: 6330131. CI in_progress at iteration end (standard pattern; Lighthouse workflow triggered).
 Prod: deploy in_progress — standard; next iteration start-check will confirm.
 Next: iter822 BUILD seo-content (822%5==2) — top candidate: ES Phase ES-7 batch [P1 i18n-ES M] (christian-pilgrimage-holy-land, bethlehem-travel-guide, border-crossings, haifa-travel-guide, day-trips-from-eilat).
+
+## 2026-07-28T08:52Z · iter 822 · BUILD seo-content (i18n-ES) · es-phase-7
+Implemented ES Phase ES-7: 5 new Spanish-language guides targeting LATAM Catholic + logistics-planning market.
+Guides shipped: christian-pilgrimage-holy-land (full pilgrimage circuit; careful religious/contested-site neutral framing), bethlehem-travel-guide (West Bank destination; checkpoint logistics + neutral barrier framing + Banksy art), border-crossings (3 Jordan crossings + Taba Egypt; practical logistics), haifa-travel-guide (Bahai Gardens, Carmelit, German Colony, Wadi Nisnas, beaches), day-trips-from-eilat (Petra, Timna, Red Canyon, Aqaba, Coral Beach comparison; summer heat planning).
+Gate: pnpm check 0 errors; build 986 pages (+5 from 981); 1265/1265 e2e pass (10 new: 5 smoke + 5 a11y).
+Merge SHA: eac9c25. ES guides: 35→40/396. Vercel deploy triggered; CI in_progress (standard pattern).
