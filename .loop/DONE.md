@@ -1401,3 +1401,8 @@ BUILD (tools) — New /israel-transport-cost-estimator page. Vanilla-JS island c
 
 ## iter822 · BUILD seo-content (i18n-ES) · es-phase-7 · eac9c25
 - ES Phase ES-7 SHIPPED: christian-pilgrimage-holy-land, bethlehem-travel-guide, border-crossings, haifa-travel-guide, day-trips-from-eilat (neutral LATAM Spanish; careful religious/contested-site framing for Bethlehem/Holy Sepulchre/Muro Occidental). ES guides: 40/396.
+
+## iter 829 — review-829-fr1-meta-trim · SHA b68cfe6d
+REVIEW audit of FR Phase FR-1 (iter828) guides. Meta-length fix: trimmed all 5 FR guides to ≤65-char
+titles and ≤160-char descriptions (overruns had slipped past gate since lint-meta-length.mjs only
+covers EN top-level). Zero dead links, all tests present, no H1, no honesty issues.

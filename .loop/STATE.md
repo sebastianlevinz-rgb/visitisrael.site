@@ -1,12 +1,12 @@
 # LOOP STATE
 
-- iteration: 828
-- lastMode: BUILD-seo-content/i18n (iter828%5==3 → monetization empty → fell through to i18n FR Phase FR-1)
-- lastItem: fr-phase-1
-- lastResult: FR Phase FR-1 SHIPPED ff27fd98. 5 FR guides: 3-days-in-israel, 3-days-in-galilee, airlines-flying-israel-2026, backpacking-israel, best-beaches-israel. YAML apostrophe bug fixed (double-quote titles); 7 broken /fr/ links fixed to EN fallbacks. FR guides: 87→92/396. Build: 996→1001 pages. 1295/1295 e2e pass.
-- nextRotationCategory: REVIEW (iter829%5==4)
+- iteration: 829
+- lastMode: REVIEW (iter829%5==4) — FR Phase FR-1 audit
+- lastItem: review-829-fr1-meta-trim
+- lastResult: SHIPPED b68cfe6d. FR-1 audit CLEAN — no dead links, all tests present, no H1, no honesty issues. Bug fixed: meta-length overruns in all 5 FR-1 guides (titles 66–77→54–64 chars, descs 163–168→120–141 chars). Gate: 0 errors · 1001 pages · 1295/1295 pass.
+- nextRotationCategory: RESEARCH (iter830%5==0)
 - higgsfieldSpent: 0
-- updatedAt: 2026-07-28T15:05Z
+- updatedAt: 2026-07-28T16:10Z
 - branch context: work on master; feature work on auto/<slug>
 
 Notes: iter828 BUILD (seo-content/i18n-FR) — fr-phase-1 SHIPPED ff27fd98. FR Phase FR-1: 5 new French guides: (1) 3-days-in-israel — 3 jours en Israël : l'itinéraire essentiel pour un premier voyage; Jerusalem 3-night base, Masada/Dead Sea day 2, Tel Aviv day 3 by train, no-car-required; (2) 3-days-in-galilee — 3 jours en Galilée : Nazareth (Basilique de l'Annonciation, souk), circuit Kinneret (Tabgha/Capharnaüm/Magdala), mont Arbel randonnée; (3) airlines-flying-israel-2026 — tableau transporteurs actifs/suspendus juillet 2026; reprises Lufthansa/SWISS/Air France/ITA/Eurowings/airBaltic/KLM; BA/Ryanair/Turkish toujours suspendus; nouvelles liaisons Israir JFK, El Al SFO, Arkia Tokyo; (4) backpacking-israel — Abraham Hostels network, sherut, Rav-Kav, prix marchés en ₪, planification Shabbat, itinéraire sac-à-dos 14j; (5) best-beaches-israel — Gordon/Frishman/Hilton/Banana/Nordau à Tel Aviv, Réserve naturelle corail Eilat, Herzliya, Kinneret. YAML fix: titres avec apostrophes en double-quotes. Broken links: 7 liens /fr/* inexistants remplacés par équivalents EN. 10 tests ajoutés (5 smoke + 5 a11y). FR guides: 87→92/396. Build: 996→1001 pages. 1295/1295 e2e pass. PR #33 créé.

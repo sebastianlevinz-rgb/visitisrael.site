@@ -12595,3 +12595,25 @@ Next: iter828 BUILD-monetization (828%5==3).
 **Gate:** pnpm check 0 errors · build 1001 pages (+5) · e2e 1295/1295 pass
 **Lesson:** When writing FR content, check ALL single-quoted YAML fields (not just top-level title) for French apostrophes. Also: internal links that use `/fr/` prefix must point to pages that actually exist in FR locale; fall back to EN path otherwise.
 **FR guides:** 87 → 92 / 396
+
+## 2026-07-28T16:00Z · iter 829 · REVIEW · review-829-fr1-meta-trim
+
+**Mode:** REVIEW (iter829%5==4) — audited FR Phase FR-1 guides (iter828)
+**Branch:** auto/review-829-fr1-meta-trim → squash-merged to master b68cfe6d
+
+**Audit findings — FR Phase FR-1 (5 guides):**
+1. **Links:** All /fr/* internal links valid; all bare EN fallback links valid. Zero dead links.
+2. **Tests:** Smoke tests (lines 234-238) and a11y tests (lines 358-362) both confirmed present for all 5 guides.
+3. **H1 in body:** None found in any of the 5 guides. ✓
+4. **French register:** Formal 'vous' in FAQs; neutral metropolitan French throughout. No errors found. ✓
+5. **Honesty:** Airline statuses accurate (matches iter796/iter828 corrections). Affiliate rating/reviews match EN source values. No fabricated prices. ✓
+6. **Meta-length violations (BUG FIXED):** All 5 guides had overruns (titles 66–77 chars, descs 163–168 chars; limits 65/160). Root cause: lint-meta-length.mjs only scans top-level src/content/guides/*.md, not FR/ES/DE subdirectories. Quick fix applied:
+   - 3-days-in-israel: title 77→54 chars, desc 165→141 chars
+   - 3-days-in-galilee: title 66→60 chars, desc 168→135 chars
+   - airlines-flying-israel-2026: title 66→56 chars, desc 165→120 chars
+   - backpacking-israel: title 72→64 chars, desc 164→132 chars
+   - best-beaches-israel: title 66→64 chars, desc 158 (already ≤160 but title trimmed)
+
+**Gate:** pnpm check 0 errors · build 1001 pages · e2e 1295/1295 pass
+**Existing BACKLOG item:** [P3] extend lint-meta-length.mjs to cover guides/es/, guides/fr/, guides/de/ subdirectories — root-cause fix still deferred.
+**Next:** iter830 BUILD (830%5==0 → RESEARCH, then iter831 BUILD monetization or i18n)
