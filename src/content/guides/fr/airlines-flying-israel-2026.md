@@ -1,6 +1,6 @@
 ---
-title: 'Compagnies aériennes vers Israël 2026 : état actuel et suspensions'
-description: "Quelles compagnies desservent l'aéroport Ben Gourion (TLV) en ce moment ? Tableau actualisé des transporteurs actifs, suspendus et en reprise — vérifié juillet 2026."
+title: 'Compagnies vers Israël 2026 : état actuel et suspensions'
+description: "Compagnies vers Ben Gourion (TLV) : tableau des transporteurs actifs, suspendus et en reprise — mis à jour juillet 2026."
 heroImage: /images/regions/tel-aviv/hero.jpg
 category: Planning
 updatedAt: 2026-07-26

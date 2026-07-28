@@ -1,6 +1,6 @@
 ---
-title: "3 jours en Israël : l'itinéraire essentiel pour un premier voyage (2026–2027)"
-description: "Seulement trois jours en Israël ? Cet itinéraire concentré couvre Jérusalem, la mer Morte et Masada, et Tel Aviv — les incontournables en un programme serré."
+title: "3 jours en Israël : l'itinéraire essentiel (2026–2027)"
+description: "Trois jours en Israël : Jérusalem et la Vieille Ville, la mer Morte et Masada, Tel Aviv et Jaffa — les incontournables en un programme serré."
 heroImage: /images/regions/jerusalem/hero.jpg
 category: Itineraries
 updatedAt: 2026-07-14

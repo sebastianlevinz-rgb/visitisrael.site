@@ -1,6 +1,6 @@
 ---
-title: '3 jours en Galilée : Nazareth, mer de Galilée et Capharnaüm (2026)'
-description: "Trois jours en Galilée : la Vieille Ville de Nazareth, le rivage chrétien de la mer de Galilée (Capharnaüm, Tabgha, Magdala) et la randonnée au belvédère du Mont Arbel."
+title: '3 jours en Galilée : Nazareth, Capharnaüm et Kinneret (2026)'
+description: "Trois jours en Galilée : Nazareth, le rivage chrétien de la mer de Galilée (Capharnaüm, Tabgha, Magdala) et la randonnée au Mont Arbel."
 heroImage: /images/regions/galilee/hero.jpg
 category: Itineraries
 updatedAt: 2026-07-11

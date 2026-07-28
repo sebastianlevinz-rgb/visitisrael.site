@@ -1,6 +1,6 @@
 ---
-title: 'Voyage en Israël avec un petit budget : auberges, conseils et itinéraire'
-description: "Le guide pratique du voyage en Israël avec un petit budget — meilleures auberges par ville, transports, Shabbat et excursions en groupe depuis les hubs de routards."
+title: 'Voyage en Israël petit budget : auberges, conseils et itinéraire'
+description: "Guide du voyage en Israël avec un petit budget — meilleures auberges, transports, Shabbat et excursions depuis les hubs de routards."
 heroImage: /images/regions/tel-aviv/hero.jpg
 category: Planning
 updatedAt: 2026-07-05

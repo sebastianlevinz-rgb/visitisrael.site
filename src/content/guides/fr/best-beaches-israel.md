@@ -1,5 +1,5 @@
 ---
-title: "Meilleures plages d'Israël : Tel Aviv, Eilat et plus encore (2026)"
+title: "Meilleures plages d'Israël : Tel Aviv, Eilat et mer Rouge (2026)"
 description: "Plages gratuites de Tel Aviv, récif corallien d'Eilat et sables familiaux d'Herzliya — le guide complet des meilleures plages d'Israël avec ce qu'on y trouve."
 heroImage: /images/regions/tel-aviv/beaches.jpg
 category: Planning
