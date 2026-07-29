@@ -6,7 +6,7 @@
 >
 > One bounded slice per loop iteration. NEVER bulk-translate in one shot.
 
-## Current status snapshot (2026-07-29 iter858 BUILD)
+## Current status snapshot (2026-07-30 iter860 RESEARCH)
 
 | Locale | Guides | Attractions | Regions | Itineraries |
 |--------|--------|-------------|---------|-------------|
@@ -16,9 +16,9 @@
 | es     | 80     | 61          | 11      | 6           |
 
 **Gaps to close:**
-- es guides: **316 missing** (80/396 done — Phase ES-15 SHIPPED iter856; next: ES-16 to define)
-- fr guides: **274 missing** (122/396 done — Phase FR-7 SHIPPED iter858; next: FR-8 to define)
-- de guides: **284 missing** (112/396 done — Phase DE-5 SHIPPED iter853; next: DE-6 DEFINED iter855 — ready)
+- es guides: **316 missing** (80/396 done — Phase ES-15 SHIPPED iter856; **Phase ES-16 DEFINED iter860** — ready)
+- fr guides: **274 missing** (122/396 done — Phase FR-7 SHIPPED iter858; **Phase FR-8 DEFINED iter860** — ready)
+- de guides: **284 missing** (112/396 done — Phase DE-5 SHIPPED iter853; Phase DE-6 DEFINED iter855 — ready)
 - fr/de/es attractions: **4 missing each** (the 4 EN attractions added after Phase 4)
 
 **Dead Sea cluster status (iter855 audit):**
@@ -165,6 +165,33 @@ Take the top 5 by priority (or head -5 if priority not obvious), translate each 
   no fabricated prices; Easter 2027 dates confirmed (Catholic April 20; Orthodox/Armenian April 12);
   paired-naming where applicable; no fabricated tour prices (ranges only).
   Status: ready — pick in next ES BUILD iteration.
+- Phase ES-16 — DEFINED iter860 (174th research pass). Candidates verified via comm -23:
+  yad-vashem-visitor-guide, western-wall-guide, golan-heights-guide,
+  galilee-tours-compared, tiberias-guide. ALL 5 CONFIRMED MISSING in ES via comm -23.
+  Rationale: (1) yad-vashem-visitor-guide: "Yad Vashem guía de visita" / "Museo del Holocausto Israel"
+  = highest search intent for Israeli Jewish heritage in LATAM; LATAM Jewish diaspora (Argentina,
+  Brazil, Mexico, Colombia largest communities); most-visited Jewish memorial globally; visitor
+  logistics: pre-registration recommended, free entry, dress code, Avenue of the Righteous; no
+  fabricated claims about number of victims (link yad-vashem.org for current data); HONESTY:
+  visiting Yad Vashem is an emotionally intense experience — frame sensitively; (2) western-wall-guide:
+  "Muro de los Lamentos" / "Kotel" = top LATAM pilgrim query; Kotel plaza logistics, prayer etiquette
+  (modesty/Shabbat), Ezrat Yisrael egalitarian section, Western Wall Tunnel Tour (advance booking);
+  pairs with ES city-of-david-jerusalem + church-holy-sepulchre-guide already SHIPPED; HONESTY:
+  Temple Mount access policies are Israeli-controlled + Waqf-controlled and change without notice;
+  (3) golan-heights-guide: "Altos del Golán" = LATAM adventure + nature + wine query; Druze villages
+  (Majdal Shams, Masada village), Nimrod Fortress, Hermon ski resort, Golan Heights wineries circuit,
+  Valley of Tears; sovereignty dispute framing: use neutral language ("the Golan Heights, administered
+  by Israel since 1967"); (4) galilee-tours-compared: "Tours Galilea comparados / Tour Galilea desde
+  Tel Aviv" = top LATAM pilgrimage tour purchase query; Civitatis has tours but zero editorial
+  guide; GYG Galilee Christian circuit = #1 Israel GYG product globally; format: group tour vs.
+  private guide vs. self-drive comparison + LATAM budget tiers; (5) tiberias-guide: "Tiberíades"
+  = base city for all LATAM Galilee pilgrimage; Kinneret promenade + Sea of Galilee boat +
+  Hamat Tiberias hot springs + Maimonides grave + Jesus footsteps sites; pairs with ES
+  3-days-in-galilee + best-hotels-sea-of-galilee + best-hotels-tiberias already SHIPPED.
+  Neutral LATAM Spanish tuteo; YAML double-quotes; /es/ prefix only for confirmed existing
+  ES pages; Golan Heights sovereignty neutral framing; no fabricated prices; Yad Vashem
+  sensitive framing. 10 new tests (5 smoke + 5 a11y).
+  Status: ready — pick in next ES BUILD iteration.
 - Phase ES-15 — DONE. iter856 shipped df7dc674:
   galilee-christian-sites-circuit, free-things-to-do-israel, dead-sea-day-trip-comparison,
   best-hotels-sea-of-galilee, cycling-in-israel.
@@ -250,13 +277,26 @@ Take the top 5 by priority (or head -5 if priority not obvious), translate each 
   Metropolitan French; YAML double-quotes; /fr/* prefix for confirmed existing FR pages only;
   no fabricated prices. 10 new tests (5 smoke + 5 a11y).
   Status: SHIPPED iter858.
-- Phase FR-8 — to define in next RESEARCH pass. Candidates (comm -23 confirmed missing):
+- Phase FR-8 — DEFINED iter860 (174th research pass). Candidates verified via comm -23:
   dead-sea-hotels-guide, dead-sea-tours-compared, dead-sea-day-trip-comparison,
-  best-hotels-tiberias, cycling-in-israel.
-  Rationale: dead-sea cluster 3 missing FR guides (hotels, tours-compared, day-trip-comparison);
-  best-hotels-tiberias pairs with FR sea-of-galilee-guide (FR-6) + best-hotels-sea-of-galilee (FR-7);
-  cycling-in-israel = zero FR editorial, France = top European cycling market.
-  Status: candidates — verify with comm -23 before authoring.
+  best-hotels-tiberias, cycling-in-israel. ALL 5 CONFIRMED MISSING in FR via comm -23.
+  Rationale: (1) dead-sea-hotels-guide: "Hôtels Mer Morte / Ein Bokek" completes FR Dead Sea
+  accommodation cluster (have dead-sea-guide + dead-sea-israel-vs-jordan + dead-sea-medical-tourism;
+  missing hotels); Ein-Bokek strip 3-tier comparison (luxe/milieu/budget + alternative Ein Gedi);
+  Booking.com affiliate; pairs with FR best-hotels-negev (FR-7 SHIPPED);
+  (2) dead-sea-tours-compared: "Tours Mer Morte depuis Jérusalem" = Civitatis FR top product;
+  zero FR editorial guide; Masada+Dead Sea combo as signature LATAM + French pilgrimage product;
+  group vs. private vs. self-drive framing; (3) dead-sea-day-trip-comparison: "Mer Morte depuis
+  Jérusalem ou Tel Aviv?" = classic FR traveler logistics question; completion of FR Dead Sea
+  cluster (have guide + medical + israel-vs-jordan + vs-eilat; missing day-trip logistics comparison);
+  (4) best-hotels-tiberias: "Hôtels Tibériade / Lac de Tibériade" = French Jewish/Christian
+  Galilee pilgrim accommodation; pairs with FR sea-of-galilee-guide (FR-6) + best-hotels-sea-of-galilee
+  (FR-7); Scots Hotel + Leonardo Plaza anchors; (5) cycling-in-israel: "Cyclisme en Israël / Vélo
+  Tel Aviv" = France is top European cycling market (Tour de France culture); zero FR editorial;
+  Tel-O-Fun 150km+ Avenues Blanches Tel Aviv; Israel National Cycling Trail (Shvil HaOfanim) long-distance.
+  Metropolitan French; YAML double-quotes; /fr/* prefix for confirmed existing FR pages only;
+  paired-naming on contested sites; no fabricated prices. 10 new tests (5 smoke + 5 a11y).
+  Status: ready — pick in next FR BUILD iteration.
 - Phase FR-5 definition text (moved to DONE above) — iter845 research: dead-sea-medical-tourism, netanya-guide,
   eilat-hotels-guide, passover-in-israel, church-of-nativity-guide.
   Rationale: (1) dead-sea-medical-tourism: mer-morte.info = entire niche French site with weak

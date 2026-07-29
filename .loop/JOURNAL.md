@@ -13028,3 +13028,15 @@ Startup note: session began from stale clone (local master at iter734, origin/ma
 Gate: N/A (RESEARCH mode).
 Ship: N/A (memory-only update; .loop/ files committed to master).
 Next: iter 860 → RESEARCH (860%5==0). Subsequent BUILD candidates: jordan-river-baptism freshness (P2/S, quick update), israel-for-vietnamese-travelers (P2/S, time-sensitive before Oct 2026 El Al Hanoi launch).
+
+## 2026-07-30T00:00Z · iter 860 · RESEARCH · pass #174 — i18n phase definitions + freshness confirmations
+Mode: RESEARCH (860%5==0). No code changed; gate not run.
+What: 174th research pass. Sources: AeroRoutes, VnExpress International, Israel MFA Vietnam Embassy (El Al Hanoi confirmed); Times of Israel + ITN + TravelPulse (Qasr el Yahud confirmed open); touristisrael.com/israel-travel-resources (competitor gap check); comm -23 for FR-8 and ES-16 candidates.
+Priority upgrades (3): (1) jordan-river-baptism.md freshness P2→P1 — Qasr el Yahud CONFIRMED OPEN since Feb 2026; NIS 25M renovation completed: new air-conditioned visitor center, hot showers, wooden deck for Jordan River access, landscaped grounds, improved parking; multiple independent confirmed sources; (2) cheap-flights-to-israel.md El Al TLV→Hanoi P3/verify-first→P2/ready — CONFIRMED: Oct 24 2026, 3×/week Boeing 787-9 Dreamliner; Arkia/Israir already launched Israel-Vietnam service earlier so El Al not first; El Al TLV→Seoul ICN Mar 27 2027 3×/week also noted; (3) israel-for-vietnamese-travelers already upgraded P3→P2 in iter859.
+New i18n phases defined: (A) ES Phase ES-16 — yad-vashem-visitor-guide, western-wall-guide, golan-heights-guide, galilee-tours-compared, tiberias-guide (all 5 confirmed missing via comm -23; LATAM Jewish heritage + pilgrimage market; added to BACKLOG + I18N-PLAN.md); (B) FR Phase FR-8 — dead-sea-hotels-guide, dead-sea-tours-compared, dead-sea-day-trip-comparison, best-hotels-tiberias, cycling-in-israel (all 5 confirmed missing via comm -23; France top cycling market; Dead Sea cluster completion in FR; formally added to BACKLOG + I18N-PLAN.md).
+Stale BACKLOG cleanup: FR-7 duplicate P1 item removed (FR-7 SHIPPED iter858 3b540160; BACKLOG had stale P1 entry; now shows SHIPPED marker only).
+Competitor findings (touristisrael.com): Gaza Border/Nova Festival tour (BACKLOG HUMAN-REVIEW-REQUIRED, unchanged); ETA-IL guide (BACKLOG P1 iter5, unchanged); monthly seasonal content (all covered). No net-new competitor gaps found this pass.
+False leads eliminated: The Yacht Herzliya (SHIPPED iter703); month-by-month seasonal guides (SHIPPED/BACKLOG); National Campus Archaeology (BACKLOG iter485).
+Gate: N/A (RESEARCH mode).
+Ship: .loop/ state files committed to master after update.
+Next: iter 861 → BUILD (861%5==1); monetization rotation. Top BUILD candidates: jordan-river-baptism freshness P1/S, israel-for-vietnamese-travelers P2/S, DE Phase DE-6 P1/M, ES Phase ES-16 P1/M.

@@ -1,12 +1,12 @@
 # LOOP STATE
 
-- iteration: 859
+- iteration: 860
 - lastMode: RESEARCH
-- lastItem: research-pass-173-freshness-glamping-baptism-flights
-- lastResult: RESEARCH iter859 — pass #173 at ~97%+ saturation. 3 net-new BACKLOG items: (1) jordan-river-baptism.md Qasr el Yahud Feb 2026 renovation freshness P2/S (new visitor center, hot showers, wooden deck — stale since iter136); (2) glamping-israel.md Dan Hotels Eilat + Isrotel Ramon Crater freshness P3/S (both announced/in-progress 2026); (3) cheap-flights-to-israel.md El Al TLV→Hanoi (Oct 24 2026 B787-9 3×/week) verify-first P3/S. 1 priority upgrade: israel-for-vietnamese-travelers P3→P2 (El Al direct TLV→Hanoi materializes flight hook; guide still unshipped). No gate run (RESEARCH mode).
-- nextRotationCategory: RESEARCH (860%5==0 → RESEARCH)
+- lastItem: research-pass-174-i18n-phases-freshness-confirmations
+- lastResult: RESEARCH iter860 — pass #174 at ~97%+ saturation. 3 priority upgrades + 2 i18n phases defined. Upgrades: (1) jordan-river-baptism.md freshness P2→P1 (Qasr el Yahud CONFIRMED OPEN since Feb 2026; NIS 25M; new visitor center, hot showers, wooden deck, landscaping; confirmed sources: Times of Israel, ITN, TravelPulse); (2) cheap-flights El Al TLV→Hanoi P3/verify-first→P2/ready (CONFIRMED: Oct 24 2026, 3×/week B787-9; Arkia/Israir already launched Vietnam service; El Al TLV→Seoul ICN Mar 27 2027 3×/week also noted); (3) israel-for-vietnamese-travelers already upgraded P3→P2 iter859. New phases: ES Phase ES-16 DEFINED (yad-vashem-visitor-guide, western-wall-guide, golan-heights-guide, galilee-tours-compared, tiberias-guide — all 5 verified missing via comm -23); FR Phase FR-8 FORMALLY DEFINED (dead-sea-hotels-guide, dead-sea-tours-compared, dead-sea-day-trip-comparison, best-hotels-tiberias, cycling-in-israel — all 5 verified missing via comm -23). Stale BACKLOG cleanup: FR-7 P1 duplicate removed (SHIPPED iter858). No gate run (RESEARCH mode).
+- nextRotationCategory: BUILD (861%5==1 → BUILD; monetization rotation)
 - higgsfieldSpent: 0
-- updatedAt: 2026-07-29T23:00Z
+- updatedAt: 2026-07-30T00:00Z
 - branch context: work on master; feature work on auto/<slug>
 
 Notes: iter857 BUILD — P0 honesty fix SHIPPED 9a7bea65. Removed false 'reopened 2025-2026' claim for Isrotel Princess from EN/ES/FR eilat-hotels-guide.md (3 files). Hotel confirmed closed July 2026; Airport City future revival announced but no reopening date. Gate: 0 errors; 1081 pages; 1455/1455 e2e pass.

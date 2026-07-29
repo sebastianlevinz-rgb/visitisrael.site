@@ -6798,3 +6798,20 @@ Research scope: comm -23 gap audit across ES/FR/DE + freshness check (Isrotel Pr
 
 **Saturation observation (pass #173):**
 Pattern continues: at ~97%+ saturation, new items are exclusively (a) infrastructure changes to existing shipped pages (Qasr el Yahud renovation), (b) new developments in sectors where we already have guides (glamping, airports), (c) airline route hooks enabling time-sensitive nationality guides (El Al Hanoi → Vietnamese travelers). Pure new guide topics are now essentially zero per pass.
+
+## iter860 competitor research — 2026-07-30 — 174th research pass
+
+**touristisrael.com content audit (July 2026):**
+- Gaza Border & Nova Festival tour (dedicated small-group day tour) — already in BACKLOG P2 HUMAN-REVIEW-REQUIRED iter80. No change.
+- Month-by-month activity guides ("things to do in Israel in October", etc.) — all SHIPPED or in BACKLOG queue. No change.
+- Israel Entry Requirements / ETA guide — BACKLOG P1 from iter5. No change.
+- Solo travel Israel — solo-female-travel-israel.md SHIPPED iter132; general solo travel not a distinct gap.
+- "Traveling to Israel Now" live-status page — not reproducible on a static Astro site. Not added.
+
+**Freshness confirmations (iter860):**
+- Qasr el Yahud (Jordan River baptism site): CONFIRMED OPEN since Feb 2026; NIS 25M renovation complete. Sources: timesofisrael.com/qasr-al-yahud-baptismal-site-reopens-after-nis-25-million-facelift, itn.co.il/top-stories/a-renewed-spiritual-journey-the-historic-qasr-al-yahud-baptism-site-unveils-a-stunning-upgrade, travelpulse.com/renovated-kasr-el-yahud-baptism-site-enhances-pilgrim-experience-at-historic-jordan-river-crossing.
+- El Al TLV→Hanoi (HAN): CONFIRMED Oct 24 2026, 3×/week, Boeing 787-9 Dreamliner. First ever El Al Vietnam route; but NOTE: Arkia/Israir launched Israel-Vietnam service earlier in 2026 (El Al not first to route). El Al TLV→Seoul (ICN) announced Mar 27 2027, 3×/week. Sources: aeroroutes.com/eng/260210-ly4q26han, e.vnexpress.net, embassies.gov.il/vietnam/en/news/direct-flight.
+- Israel tourism summer 2026: 17 new hotel openings; faith-based/pilgrimage travel leading recovery; National Campus for Archaeology of Israel expected fully open 2026; Almog Beach Eilat expanding. Sources: myisraelstay.com/the-17-hotel-openings-shaping-israels-summer-2026.
+
+**Saturation observation (pass #174):**
+At ~97%+ saturation, new material is now primarily (a) freshness confirmations with source verification, (b) i18n phase definitions for ES/FR/DE, (c) priority upgrades when new data confirms previously uncertain items. Zero pure new EN guide topics found this pass.
