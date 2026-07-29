@@ -12852,3 +12852,9 @@ Honesty: aucun prix fabriqué; UVB/PASI hedgés "données d'études cliniques �
 Gate: pnpm check 0 errors; build 1056 pages (+5); 1405/1405 e2e pass (10 new routes: 5 smoke + 5 a11y). links.spec.ts: 0 broken links.
 Ship: 1556cf5e on master, pushed. FR guides: 107→112/396. CI standard pattern (Vercel auto-deploy triggered).
 Next: iter848 BUILD (848%5==3 → BUILD; top candidates DE Phase DE-4 [P1 i18n-DE M] or ES Phase ES-14 [P1 i18n-ES M]).
+
+## 2026-07-29T11:30Z · iter 847 (dup-run) · BUILD · fr-phase-5 — ALREADY SHIPPED
+What: Duplicate scheduled run. This cloud instance executed the same FR Phase FR-5 scope as the parallel run that shipped 1556cf5e. On attempt to push, git rejected: origin/master already contained commit 1556cf5e with all 5 FR guides + smoke/a11y spec extensions. Local checkout reset to origin/master (git reset --hard origin/master). No new content shipped; no state advancement — iter847 was already recorded by the primary run at 2026-07-29T11:00Z.
+Gate: Not rerun (code already present on master; e2e baseline 1405/1405 from primary run).
+Ship: None. No duplicate push.
+Next: iter848 BUILD (848%5==3 → BUILD; DE Phase DE-4 [P1 i18n-DE M] — best-hotels-tel-aviv, israel-jordan-itinerary, day-trips-from-jerusalem, caesarea-guide, day-trips-from-tel-aviv).
