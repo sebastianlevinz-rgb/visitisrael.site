@@ -476,6 +476,11 @@ const ROUTES = [
   '/fr/dead-sea-vs-eilat',
   '/fr/best-hotels-jerusalem',
   '/fr/christmas-in-israel',
+  '/fr/1-day-tel-aviv-itinerary',
+  '/fr/3-days-in-haifa',
+  '/fr/3-days-in-negev',
+  '/fr/bedouin-experience-israel',
+  '/fr/beer-sheva-guide',
 ];
 
 for (const route of ROUTES) {
