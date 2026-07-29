@@ -12976,3 +12976,19 @@ Quality: neutral LATAM Spanish tuteo; YAML double-quotes; no fabricated prices/r
 Gate: pnpm check 0 errors; build 1081 pages (+10, 1071→1081); pnpm test:e2e 1455/1455 pass (10.8m). GREEN.
 Ship: squash-merged to master df7dc674, pushed. CI + Lighthouse workflows triggered.
 Next: iter857 BUILD (857%5==2 → BUILD). FR Phase FR-7: easter-in-jerusalem, best-hotels-sea-of-galilee, best-hotels-haifa, ashdod-cruise-port-excursions, best-hotels-negev. P0 Isrotel Princess Eilat honesty fix still pending (eilat-hotels-guide EN+ES/FR/DE — target: next BUILD pass or dedicated fix).
+
+## 2026-07-29T20:45Z · iter 857 · BUILD (honesty/technical) · princess-eilat-honesty-fix
+What: P0 honesty fix — Isrotel Princess Eilat CONFIRMED CLOSED. Removed false
+  "reopened 2025–2026" claim from eilat-hotels-guide.md in EN, ES, and FR locales
+  (DE variant does not exist). Replaced with accurate notice: hotel currently closed
+  as of July 2026; Airport City consortium announced future revival under new name;
+  no confirmed reopening date. Fix applied to: frontmatter CTA description, FAQ answer,
+  body paragraph, planning tip, and decision matrix in all 3 locale files.
+  updatedAt bumped to 2026-07-29 in all files. DE eilat-hotels-guide.md confirmed absent
+  (no DE fix needed). Sources confirmed in iter855 research: eilat.city 'out of business',
+  isrotel.com omits Princess from active Eilat properties, Airport City revival = future event.
+Gate: pnpm check 0 errors; build 1081 pages (no change); 1455/1455 e2e pass. GREEN.
+Ship: squash-merged to master 9a7bea65, pushed. Prod deploy pending (commit confirmed on GitHub).
+Next: iter858 BUILD (858%5==3 → BUILD). FR Phase FR-7: easter-in-jerusalem, best-hotels-sea-of-galilee,
+  best-hotels-haifa, ashdod-cruise-port-excursions, best-hotels-negev. Also P1: Rosh Hanikra cable car
+  freshness fix (rosh-hanikra-guide.md, S effort).
