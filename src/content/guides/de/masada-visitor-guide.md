@@ -156,7 +156,7 @@ Die Licht-und-Ton-Show lohnt sich in Kombination mit einem Tagesbesuch, wenn man
 
 **Fotos:** Der klassische Aufnahme ist der Sonnenaufgangsblick ostwärts über das Tote Meer — vor dem Gipfel ankommen, bevor die Sonne über den Moab-Bergen aufgeht, für das beste Licht.
 
-**Kombinationsbesuche:** Masada passt natürlich mit dem [Ein-Gedi-Naturreservat](/dead-sea) (30 Minuten nördlich) und einem [Totes-Meer-Schwimmstop](/de/dead-sea-guide) an den Ein-Bokek-Stränden (20 Minuten südlich) zusammen. Die meisten organisierten Touren bündeln alle drei in einen einzigen langen Tag.
+**Kombinationsbesuche:** Masada passt natürlich mit dem [Ein-Gedi-Naturreservat](/de/dead-sea) (30 Minuten nördlich) und einem [Totes-Meer-Schwimmstop](/de/dead-sea-guide) an den Ein-Bokek-Stränden (20 Minuten südlich) zusammen. Die meisten organisierten Touren bündeln alle drei in einen einzigen langen Tag.
 
 ---
 
