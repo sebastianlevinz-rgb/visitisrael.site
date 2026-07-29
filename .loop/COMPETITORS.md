@@ -6775,3 +6775,26 @@ Research scope: comm -23 gap audit across ES/FR/DE + freshness check (Isrotel Pr
 - ES: "Circuito Cristiano Galilea" = zero LATAM editorial; "Cosas gratis en Israel" = zero LATAM editorial; cycling Israel = zero ES specialist editorial. All three in ES-15 batch.
 - FR: "Pâques à Jérusalem" = zero FR travel editorial (only news articles cover Easter Jerusalem); "Hôtels Lac de Tibériade" = underrepresented in FR; "Hôtels Haïfa" = thin FR coverage.
 - DE: "Weihnachten in Israel" = DACH Christmas travel guide gap (Eberhardt/Sonnenklar/Studiosus do tours but no authoritative German travel editorial); "Fahrradfahren Israel" = zero DE specialist editorial; "Hotels Totes Meer" = thin DE coverage vs. OTAs.
+
+### 2026-07-29 · iter 859 · RESEARCH pass #173 — freshness audit: pilgrim sites, glamping, airline routes
+
+30+ candidates screened across infrastructure renovations, hotel openings, airline route launches. 3 net-new items confirmed, 1 priority upgrade.
+
+**Pilgrim site infrastructure update (P2/S):**
+- **Qasr el Yahud NIS 25M renovation (Feb 2026)** — timesofisrael.com/qasr-al-yahud-baptismal-site-reopens + travelpulse.com/renovated-kasr-el-yahud + travelandtourworld.com/qasr-el-yahud confirm Israeli Antiquities Authority completed a NIS 25M renovation of Qasr el Yahud (the primary historically-proposed Jordan River baptism site) in February 2026. New facilities: air-conditioned visitor service center, hot showers replacing cold outdoor facilities, wooden deck platform for Jordan River water access. jordan-river-baptism.md (SHIPPED iter136) predates this. → BACKLOG P2/S freshness update [iter859 research].
+
+**Glamping developments (P3/S):**
+- **Dan Hotels + Midbarya Eilat glamping complex** — timesofisrael.com/dan-hotels-eilat-glamping + danhotels.com/News/glamping confirm year-round glamping complex at Eilat Coral Beach Nature Reserve (AC tents with pools + spa + food complex). Investment: tens of millions of shekels. Verify operational status before publishing.
+- **Isrotel Ramon Crater glamping** — ynetnews.com/travel/s1vqvupgmx + itn.co.il/isrotel-glamping confirm luxury glamping inside Ramon Crater as part of Isrotel's 3B NIS expansion plan 2026. Planning phase at time of research. Both absent from glamping-israel.md. → BACKLOG P3/S freshness [iter859 research].
+
+**Airline route freshness (P3/S verify-first):**
+- **El Al TLV→Hanoi Oct 24 2026 (B787-9, 3×/week)** — travelandtourworld.com/el-al-vietnam-direct + embassies.gov.il/vietnam confirm first-ever direct El Al Israel-Vietnam service. cheap-flights-to-israel.md last updated iter758 (ITA/airBaltic/Eurowings/El Al Buenos Aires); airlines-flying-israel-2026.md (iter784) may already capture this. Verify before adding. Priority upgrade implication: israel-for-vietnamese-travelers (iter675, unshipped) → P2 because direct flight hook now exists.
+
+**Key false leads:**
+- InterContinental Jerusalem: SHIPPED iter772 (confirmed ✓ by iter785 notes). 
+- Herzl Hotel Beersheba: Herzl Hotel already in new-luxury-hotels-israel-2026.md (SHIPPED iter751); separate NIS 20M project BACKLOG iter790. Both handled.
+- All monthly guides (Dec/Jan/Feb/Mar/Apr/May/Jun/Jul): all SHIPPED or in BACKLOG queue per iters 775/780/785.
+- Kassland Resort: BACKLOG iter735 ✓.
+
+**Saturation observation (pass #173):**
+Pattern continues: at ~97%+ saturation, new items are exclusively (a) infrastructure changes to existing shipped pages (Qasr el Yahud renovation), (b) new developments in sectors where we already have guides (glamping, airports), (c) airline route hooks enabling time-sensitive nationality guides (El Al Hanoi → Vietnamese travelers). Pure new guide topics are now essentially zero per pass.

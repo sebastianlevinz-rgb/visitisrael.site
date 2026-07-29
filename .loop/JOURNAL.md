@@ -13014,3 +13014,17 @@ Gate: pnpm check 0 errors; build 1086 pages (+5); 1465/1465 e2e pass (14.6m). GR
 Ship: squash-merged to master 3b540160, pushed. Prod deploy initiated.
 Next: iter859 REVIEW (859%5==4 → REVIEW). Audit recent FR-7 batch or DE-5/6 guides for link
   prefix correctness + honesty + register.
+
+## 2026-07-29T23:00Z · iter 859 · RESEARCH · research-pass-173
+Mode: RESEARCH (session fired from stale clone at iter734; after syncing to origin/master iter858, continuation run confirmed as iter859 RESEARCH pass). No code changed; gate not run.
+What: Fresh 2026-07-29 web research pass across infrastructure freshness, new hotel openings, airline routes. Sources: timesofisrael.com/qasr-al-yahud-baptismal-site-reopens, travelpulse.com/renovated-kasr-el-yahud, travelandtourworld.com/qasr-el-yahud, danhotels.com/News/glamping, ynetnews.com/travel/s1vqvupgmx, itn.co.il/isrotel-glamping, travelandtourworld.com/el-al-vietnam-direct, embassies.gov.il/vietnam, airlinegeeks.com.
+Findings — 3 net-new BACKLOG items, 1 priority upgrade:
+  1. jordan-river-baptism.md freshness (P2/S) — Qasr el Yahud NIS 25M IAA renovation completed Feb 2026: air-conditioned visitor center, hot showers, wooden deck for river access. Existing BACKLOG iter280 entry is for a new standalone guide (/jordan-river-baptism-site); this is a separate freshness update to the SHIPPED guide (iter136). Confirmed absent.
+  2. glamping-israel.md freshness (P3/S) — Dan Hotels+Midbarya Eilat Coral Beach glamping (AC tents, pools, spa) + Isrotel Ramon Crater luxury glamping (3B NIS plan). Both postdate existing guide. Confirmed absent from BACKLOG and DONE.md.
+  3. cheap-flights-to-israel.md El Al TLV→Hanoi (P3/S, verify-first) — El Al TLV→HAN launched Oct 24 2026 (B787-9, 3×/week). VERIFY against current cheap-flights.md and airlines-flying-israel-2026.md (iter784) before adding — may already be present.
+  Priority upgrade: israel-for-vietnamese-travelers [iter675] P3/S → P2/S. El Al direct TLV→Hanoi Oct 24 materializes flight hook; guide still unshipped per BACKLOG/DONE check. Build within 3–4 iterations before Oct 2026 service start.
+De-duped: InterContinental Jerusalem freshness (SHIPPED iter772 ✓); Fattal Yafo 113 (same iter772 batch ✓); Herzl Hotel Beersheba (in new-luxury-hotels-israel-2026.md SHIPPED iter751 + iter790 NIS 20M item already spec'd ✓); all monthly guides (SHIPPED or BACKLOG queue ✓); Kassland Resort (BACKLOG iter735 ✓).
+Startup note: session began from stale clone (local master at iter734, origin/master at iter858). Recovered via git fetch + reset --hard origin/master. Prior session context had appended stale iter735 research to BACKLOG — resolved via stash conflict + restore from HEAD; only genuinely new items (not already in origin/master BACKLOG) appended.
+Gate: N/A (RESEARCH mode).
+Ship: N/A (memory-only update; .loop/ files committed to master).
+Next: iter 860 → RESEARCH (860%5==0). Subsequent BUILD candidates: jordan-river-baptism freshness (P2/S, quick update), israel-for-vietnamese-travelers (P2/S, time-sensitive before Oct 2026 El Al Hanoi launch).

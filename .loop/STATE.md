@@ -1,12 +1,12 @@
 # LOOP STATE
 
-- iteration: 858
-- lastMode: BUILD (iter858%5==3 → BUILD; FR Phase FR-7 — 5 French guides)
-- lastItem: fr-phase-7
-- lastResult: BUILD COMPLETE — FR Phase FR-7 SHIPPED 3b540160. 5 FR guides (easter-in-jerusalem: Pâques 2027 dates catholique 28 mars / orthodoxe 2 mai + Feu Sacré 1er mai; best-hotels-sea-of-galilee: 4 rives Kinneret + Nof Ginosar + Magdala; best-hotels-haifa: Colonie Allemande / Carmel / Port tiers + Carmelit shabbat; ashdod-cruise-port-excursions: Jérusalem + Mer Morte + Tel Aviv timing + bateau vs indépendant; best-hotels-negev: Beresheet + Selina + Ramon Inn + HI Beit Noam). Metropolitan French; YAML double-quotes; /fr/* prefix confirmed-existing pages only; no fabricated prices; Bahá'í + West Bank honest caveats. 10 new e2e tests (5 smoke + 5 a11y). FR guides: 117→122/396. Build: 1081→1086 pages. 1455→1465 e2e pass (14.6m).
-- nextRotationCategory: BUILD (iter859%5==4 → REVIEW; review a recent FR or DE batch for link prefix correctness + honesty)
+- iteration: 859
+- lastMode: RESEARCH
+- lastItem: research-pass-173-freshness-glamping-baptism-flights
+- lastResult: RESEARCH iter859 — pass #173 at ~97%+ saturation. 3 net-new BACKLOG items: (1) jordan-river-baptism.md Qasr el Yahud Feb 2026 renovation freshness P2/S (new visitor center, hot showers, wooden deck — stale since iter136); (2) glamping-israel.md Dan Hotels Eilat + Isrotel Ramon Crater freshness P3/S (both announced/in-progress 2026); (3) cheap-flights-to-israel.md El Al TLV→Hanoi (Oct 24 2026 B787-9 3×/week) verify-first P3/S. 1 priority upgrade: israel-for-vietnamese-travelers P3→P2 (El Al direct TLV→Hanoi materializes flight hook; guide still unshipped). No gate run (RESEARCH mode).
+- nextRotationCategory: RESEARCH (860%5==0 → RESEARCH)
 - higgsfieldSpent: 0
-- updatedAt: 2026-07-29T22:15Z
+- updatedAt: 2026-07-29T23:00Z
 - branch context: work on master; feature work on auto/<slug>
 
 Notes: iter857 BUILD — P0 honesty fix SHIPPED 9a7bea65. Removed false 'reopened 2025-2026' claim for Isrotel Princess from EN/ES/FR eilat-hotels-guide.md (3 files). Hotel confirmed closed July 2026; Airport City future revival announced but no reopening date. Gate: 0 errors; 1081 pages; 1455/1455 e2e pass.
@@ -23,4 +23,4 @@ Notes: iter848 BUILD (i18n-DE) — de-phase-4 SHIPPED 399f791d. DE Phase DE-4: 5
 
 Cron b7325b16 hourly @ :17. Loop history: 19 tools + sitemap-lastmod + link-checker(+depth) + i18n
 Phase0/1a/1b/1c/2 Batches1-18(COMPLETE) + 48 review passes + 4 technical (event-schema + meta-trim + locale-links + freshness-688) + 81 EN guides + 7 tools-monetization + 2 comparisons;
-research iters 5/10/20/30/35/40/45/50/55/60/65/70/75/80/85/90/95/100/105/110/115/120/125/130/135/140/145/150/155/160/165/170/175/180/185/190/195/200/205/210/215/220/225/230/235/240/245/250/255/260/265/270/275/280/285/290/295/300/305/310/315/320/325/330/335/340/345/350/355/360/365/370/375/380/385/390/395/400/405/410/420/425/430/435/440/445/450/455/460/465/470/480/485/490/495/500/505/510/515/520/525/535/540/545/550/555/560/565/570/575/580/585/590/595/600/605/610/615/620/625/630/635/640/645/650/655/660/665/670/675/680/685/690/695/700/705/710/715/720/725/730/735/740/745/750/755/760/765/775/785/790/810/815/820/825/835/840/845/850.
+research iters 5/10/20/30/35/40/45/50/55/60/65/70/75/80/85/90/95/100/105/110/115/120/125/130/135/140/145/150/155/160/165/170/175/180/185/190/195/200/205/210/215/220/225/230/235/240/245/250/255/260/265/270/275/280/285/290/295/300/305/310/315/320/325/330/335/340/345/350/355/360/365/370/375/380/385/390/395/400/405/410/420/425/430/435/440/445/450/455/460/465/470/480/485/490/495/500/505/510/515/520/525/535/540/545/550/555/560/565/570/575/580/585/590/595/600/605/610/615/620/625/630/635/640/645/650/655/660/665/670/675/680/685/690/695/700/705/710/715/720/725/730/735/740/745/750/755/760/765/775/785/790/810/815/820/825/835/840/845/850/859.
