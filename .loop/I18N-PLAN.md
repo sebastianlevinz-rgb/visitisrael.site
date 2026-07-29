@@ -17,7 +17,7 @@
 
 **Gaps to close:**
 - es guides: **331 missing** (65/396 done — Phase ES-13 next)
-- fr guides: **294 missing** (102/396 done — Phase FR-4 DEFINED, ready to BUILD)
+- fr guides: **289 missing** (107/396 done — Phase FR-4 SHIPPED iter842; Phase FR-5 next)
 - de guides: **299 missing** (97/396 done — Phase DE-3 DEFINED, ready to BUILD)
 - fr/de/es attractions: **4 missing each** (the 4 EN attractions added after Phase 4)
 
@@ -157,12 +157,16 @@ Take the top 5 by priority (or head -5 if priority not obvious), translate each 
   YAML double-quotes apostrophes; /fr/* prefix confirmed existing FR pages only;
   no fabricated prices. 10 new tests (5 smoke + 5 a11y).
   FR guides: 97→102/396. Build: 1021→1026 pages. 1345/1345 e2e pass.
-- Phase FR-4 — DEFINED. iter840 research: bahai-world-center-guide, beit-guvrin-caves-guide,
-  beit-shean-guide, best-hotels-tel-aviv, israel-jordan-itinerary.
+- Phase FR-4 — DONE. iter842 shipped cc4db236:
+  bahai-world-center-guide, beit-guvrin-caves-guide, beit-shean-guide,
+  best-hotels-tel-aviv, israel-jordan-itinerary.
   Metropolitan French; YAML apostrophes double-quoted; /fr/* prefix only for confirmed FR pages;
-  Bahá'í active religious site framing; UNESCO Bell Caves; Roman archaeology;
-  "Circuit Israël et Jordanie" combined-tour market. 10 new tests (5 smoke + 5 a11y).
-  Status: ready — pick in next BUILD iteration for FR category.
+  Bahá'í active religious site framing (non-Bahá'ís exterior/terraces only);
+  UNESCO Bell Caves + Sidonian Burial Caves; Beit She'an Decapolis + 749 CE time-capsule;
+  Tel Aviv hotels 5 neighborhoods 3 tiers + honest 2026 new openings;
+  10-day Israel+Jordan circuit + two border crossings + Jordan Pass;
+  no fabricated prices. 10 new tests (5 smoke + 5 a11y).
+  FR guides: 102→107/396. Build: 1036→1041 pages. 1375/1375 e2e pass.
 
 ### DE guide catch-up (97 / 396 = 299 remaining — Phase DE-3 DEFINED)
 - Phase DE-1 — DONE. iter833 shipped ebfb0bd7:

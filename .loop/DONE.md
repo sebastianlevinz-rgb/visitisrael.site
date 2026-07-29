@@ -1,5 +1,8 @@
 # DONE (shipped — do NOT re-do; basis for REVIEW mode)
 
+## iter842 · BUILD · fr-phase-4 · cc4db236
+- FR Phase FR-4 SHIPPED: bahai-world-center-guide, beit-guvrin-caves-guide, beit-shean-guide, best-hotels-tel-aviv, israel-jordan-itinerary. Metropolitan French; Bahá'í religious site framing (non-Bahá'ís exterior/terraces only, shrines reserved for pilgrimage); UNESCO Bell Caves + Sidonian Burial Caves; Beit She'an Nysa-Scythopolis Decapolis + 749 CE earthquake time-capsule + Sachne combo; Tel Aviv hotel neighborhoods (5 zones: Rothschild/Ville blanche, Neve Tzedek, Tayelet, Florentin/vieux nord, vieille Jaffa); 2026 new openings Six Senses TLV + Nobu Hotel TLV with honest caveats; 10-day Israel+Jordan circuit (Wadi Araba + Allenby border crossings, Jordan Pass, car rental restriction); no fabricated prices/ratings. 10 new tests (5 smoke + 5 a11y). FR guides: 102→107/396. Build: 1036→1041 pages. 1375/1375 e2e pass.
+
 ## iter841 · BUILD · es-phase-12 · cfbee79b
 - ES Phase ES-12 SHIPPED: bethlehem-tours-compared, beit-shean-guide, birdwatching-in-israel, beit-guvrin-caves-guide, israel-jordan-itinerary. Neutral LATAM Spanish; /es/ prefix only for confirmed existing ES pages; West Bank/Cisjordania neutral framing; Civitatis Belén pilgrimage funnel; "Gran Tour Israel y Jordania" LATAM top-seller; UNESCO Bet Guvrin Bell Caves + Beit She'an Decapolis; Agamón HaHula crane spectacle; no fabricated prices/ratings. 10 new tests (5 smoke + 5 a11y). ES guides: 60→65/396. Build: 1031→1036 pages. 1365/1365 e2e pass.
 
