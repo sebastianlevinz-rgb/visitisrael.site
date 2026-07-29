@@ -6,19 +6,19 @@
 >
 > One bounded slice per loop iteration. NEVER bulk-translate in one shot.
 
-## Current status snapshot (2026-07-29 iter845)
+## Current status snapshot (2026-07-29 iter846)
 
 | Locale | Guides | Attractions | Regions | Itineraries |
 |--------|--------|-------------|---------|-------------|
 | en     | 396    | 65          | 11      | 6           |
 | fr     | 107    | 61          | 11      | 6           |
 | de     | 102    | 61          | 11      | 6           |
-| es     | 65     | 61          | 11      | 6           |
+| es     | 70     | 61          | 11      | 6           |
 
 **Gaps to close:**
-- es guides: **331 missing** (65/396 done — Phase ES-13 defined iter845; next BUILD)
-- fr guides: **289 missing** (107/396 done — Phase FR-5 defined iter845; next BUILD after ES-13)
-- de guides: **294 missing** (102/396 done — Phase DE-4 defined iter843/iter845; next DE BUILD)
+- es guides: **326 missing** (70/396 done — Phase ES-13 SHIPPED iter846; next: ES-14 or FR/DE turn)
+- fr guides: **289 missing** (107/396 done — Phase FR-5 defined iter845; ready to BUILD)
+- de guides: **294 missing** (102/396 done — Phase DE-4 defined iter843/iter845; ready to BUILD)
 - fr/de/es attractions: **4 missing each** (the 4 EN attractions added after Phase 4)
 
 ## Architecture (already shipped, do not re-do)
@@ -133,26 +133,13 @@ Take the top 5 by priority (or head -5 if priority not obvious), translate each 
   LATAM pilgrimage conversion + archaeology + ecotourism + Gran Tour combined market.
   /es/ prefix only for confirmed existing ES pages. 10 new tests (5 smoke + 5 a11y).
   ES guides: 60→65/396. Build: 1036 pages. 1365/1365 e2e pass.
-- Phase ES-13 — DEFINED. iter845 research: dead-sea-medical-tourism, eilat-hotels-guide,
-  nazareth-travel-guide, dead-sea-hotels-guide, digital-nomad-israel.
-  Rationale: (1) dead-sea-medical-tourism: active thin Spanish competitor pages (ad-hoc-news.de);
-  psoriasis/skin condition/spa angle; pairs with dead-sea-guide (ES); (2) eilat-hotels-guide:
-  Expedia ES + Trip.com searches; Eilat cluster completion; high Booking affiliate value;
-  (3) nazareth-travel-guide: pepetours/nubiatours/tierrasantaisrael.com confirm Nazareth as
-  primary LATAM pilgrimage keyword; zero ES specialist editorial; (4) dead-sea-hotels-guide:
-  Civitatis sells Dead Sea tours but no ES hotel comparison; Ein Bokek resort strip specialist;
-  (5) digital-nomad-israel: "Israel nomada digital" completely unclaimed in Spanish; LATAM
-  remote-work market (Argentina/Colombia/Mexico) + Tel Aviv tech hub appeal.
-  Quality: neutral LATAM Spanish; YAML double-quotes; /es/ prefix for confirmed existing ES pages only;
-  no fabricated prices; Dead Sea therapeutic benefits hedged (widely researched, not replacing medical advice).
-  Status: ready — pick in next BUILD iteration for ES category.
-  LATAM pilgrimage conversion + archaeology + ecotourism + Gran Tour combined market.
-  bethlehem-tours-compared: Civitatis/toursfestival top LATAM circuit includes Bethlehem;
-  beit-shean: "Bet Shean ruinas" LATAM archaeology search; birdwatching: growing LATAM
-  ecotourism; beit-guvrin: "Cuevas de Bet Guvrin" family adventure; israel-jordan:
-  "Gran Tour Israel y Jordania" #1 LATAM packaged tour product.
-  /es/ prefix only for confirmed existing ES pages. 10 new tests (5 smoke + 5 a11y).
-  ES guides: 60→65/396. Build: 1036 pages. 1365/1365 e2e pass.
+- Phase ES-13 — DONE. iter846 shipped 70024e3a:
+  dead-sea-medical-tourism, eilat-hotels-guide, nazareth-travel-guide,
+  dead-sea-hotels-guide, digital-nomad-israel.
+  LATAM health-tourism + accommodation + pilgrimage + digital-nomad market.
+  UVB climatoterapia hedged; Nazareth paired-naming נָצְרַת/النَّاصِرَة; Ein Bokek honest framing;
+  grey-area nomad visa explicitly stated. No fabricated prices.
+  ES guides: 65→70/396. Build: 1046→1051 pages. 1385→1395 e2e pass.
 
 ### FR guide catch-up (107 / 396 = 289 remaining)
 - Phase FR-1 — DONE. iter828 shipped ff27fd98:

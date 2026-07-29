@@ -1,13 +1,15 @@
 # LOOP STATE
 
-- iteration: 845
-- lastMode: RESEARCH (iter845%5==0 → RESEARCH; 171st research pass)
-- lastItem: research-845-es13-fr5-de4-gap-analysis
-- lastResult: 6 net-new BACKLOG items. ES-13 phase defined (nazareth-travel-guide, sea-of-galilee-guide, galilee-christian-sites-circuit, dead-sea-hotels-guide, eilat-hotels-guide). FR-5 phase defined (church-of-nativity-guide, bethlehem-tours-compared, sea-of-galilee-guide, aqaba-from-eilat, city-of-david-jerusalem). DE-4 already defined (iter843 planning). 2 freshness items (Gordonia Zichron Yaakov, InterContinental Jerusalem). COMPETITORS.md updated. No code shipped.
-- nextRotationCategory: BUILD (iter846%5==1 → BUILD; i18n-ES Phase ES-13 [P1] top candidate)
+- iteration: 846
+- lastMode: BUILD (iter846%5==1 → BUILD; ES Phase ES-13)
+- lastItem: es-phase-13
+- lastResult: 5 ES guides shipped (dead-sea-medical-tourism, eilat-hotels-guide, nazareth-travel-guide, dead-sea-hotels-guide, digital-nomad-israel). ES guides: 65→70/396. Build: 1046→1051 pages. 1385→1395 e2e pass (10 new tests). SHA: 70024e3a.
+- nextRotationCategory: BUILD (iter847%5==2 → BUILD; top candidates FR Phase FR-5 [P1 i18n-FR M] or DE Phase DE-4 [P1 i18n-DE M])
 - higgsfieldSpent: 0
-- updatedAt: 2026-07-29T07:45Z
+- updatedAt: 2026-07-29T09:00Z
 - branch context: work on master; feature work on auto/<slug>
+
+Notes: iter846 BUILD (i18n-ES) — es-phase-13 SHIPPED 70024e3a. ES Phase ES-13: 5 Spanish guides (dead-sea-medical-tourism, eilat-hotels-guide, nazareth-travel-guide, dead-sea-hotels-guide, digital-nomad-israel). LATAM health-tourism + accommodation + pilgrimage + digital-nomad market. UVB climatoterapia at −430m psoriasis/eczema/vitiligo (PASI 70-90% clearance hedged); Eilat 3-zone hotel decision matrix; Nazareth paired-naming נָצְרַת/النَّاصِرَة + 6-denomination Annunciation framing; Ein Bokek resort strip honest "no es encantador" framing; Tel Aviv coworking + grey-area nomad visa framing (no digital nomad visa exists). No fabricated prices. 10 new tests (5 smoke + 5 a11y). ES guides: 65→70/396. Build: 1046→1051 pages. 1385→1395 e2e pass. CI standard pattern.
 
 Notes: iter845 RESEARCH — 171st research pass. Content gap analysis (comm -23 on guides/es + guides/fr directories). ES-13: nazareth-travel-guide + sea-of-galilee-guide + galilee-christian-sites-circuit = zero LATAM editorial competition (greca.co/israelturismo.com have tour listings only); dead-sea-hotels-guide + eilat-hotels-guide = highest remaining affiliate value in uncovered ES. FR-5: church-of-nativity-guide + bethlehem-tours-compared = large FR Catholic pilgrim market; sea-of-galilee-guide ("Lac de Tibériade") zero FR editorial competition; aqaba-from-eilat natural extension for French travellers using Routard itineraries; city-of-david-jerusalem ("Cité de David" archaeology + Hezekiah's Tunnel) strong FR cultural tourism segment. DE-4 already defined and ready (iter843 planning). InterContinental Jerusalem + Gordonia Zichron Yaakov freshness items added as P3. Confirmed saturation ~97%+ EN; i18n is primary remaining growth lever. ES: 65→331 remaining; FR: 107→289 remaining; DE: 102→294 remaining.
 
