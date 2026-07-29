@@ -486,6 +486,11 @@ const ROUTES = [
   '/de/3-days-in-eilat',
   '/de/3-days-in-haifa',
   '/de/3-days-in-negev',
+  '/es/bethlehem-tours-compared',
+  '/es/beit-shean-guide',
+  '/es/birdwatching-in-israel',
+  '/es/beit-guvrin-caves-guide',
+  '/es/israel-jordan-itinerary',
 ];
 
 for (const route of ROUTES) {
