@@ -12817,3 +12817,22 @@ Honesty check: 0 issues. All prices presented as ranges or approximates (₪29�
 Register check: All 5 guides consistently Standard Hochdeutsch. PASS.
 Gate: No code changes — nothing to merge. Clean review pass.
 Next: iter845 RESEARCH (845%5==0) — 171st research pass.
+
+## 2026-07-29T07:45Z · iter 845 · RESEARCH · research-845-es13-fr5-de4-gap-analysis
+What: 171st research pass. Content gap analysis via comm -23 (guides/es + guides/fr vs guides/*.md). ES: 331 guides remaining; FR: 289 guides remaining; DE: 294 remaining (DE-4 already defined).
+ES-13 phase defined (LATAM Christian pilgrimage + Dead Sea + Eilat accommodation cluster):
+  1. nazareth-travel-guide.md — "Nazaret Israel guía" top LATAM Catholic query; Nazareth = #3 pilgrimage destination; zero competitor ES editorial (greca.co/israelturismo.com tour-only listings); pairs with existing ES christian-pilgrimage + galilee content
+  2. sea-of-galilee-guide.md — "Mar de Galilea" / "Lago de Tiberíades" dual naming; Capharnaum/Magdala/Tabgha cluster + boat tours; zero LATAM editorial competition; connects Nazareth circuit
+  3. galilee-christian-sites-circuit.md — LATAM pilgrimage driving circuit; complete Galilee Christian site cluster with nazareth + sea-of-galilee; LATAM group tour operators cover this circuit routinely
+  4. dead-sea-hotels-guide.md — highest remaining affiliate value; "hoteles Mar Muerto Israel" distinct query from Dead Sea guide itself; Ein Bokek resort strip specialist content; Booking.com spa hotel chain
+  5. eilat-hotels-guide.md — "hoteles Eilat" beach destination; paired with existing eilat-travel-guide + eilat-diving-snorkeling in ES; Eilat = top LATAM Red Sea beach destination; high affiliate value
+FR-5 phase defined (French Catholic pilgrimage + West Bank + Jordan circuit + archaeology):
+  1. church-of-nativity-guide.md — "Basilique de la Nativité Bethléem" top FR pilgrimage query; Le Routard prominent Bethlehem coverage; Status Quo six-denomination framing essential; West Bank neutral from EN
+  2. bethlehem-tours-compared.md — practical FR tour options (circuit organisé, excursion privée, bus 231 DIY, demi-journée vs journée complète); Voyageurs du Monde/FRAM all include Bethlehem; conversion page
+  3. sea-of-galilee-guide.md — "Lac de Tibériade" / "Mer de Galilée" dual naming; Air France TLV-CDG daily = large FR market; Capharnaum + Magdala + Tabgha + Sermon on the Mount; zero FR editorial competitor
+  4. aqaba-from-eilat.md — "Aqaba depuis Eilat" connects to existing FR israel-jordan-itinerary; French backpacker + independent traveler market; Routard mentions Aqaba briefly but no day-trip logistics page
+  5. city-of-david-jerusalem.md — "Cité de David" UNESCO archaeology; Tunnel d'Ézéchias wet/dry; Jerusalem Pilgrimage Road (Jan 2026); Silwan/City of David dual naming; Elad Foundation context neutral from EN
+DE-4 already defined in I18N-PLAN.md (iter843 planning): best-hotels-tel-aviv, israel-jordan-itinerary, day-trips-from-jerusalem, caesarea-guide, day-trips-from-tel-aviv. Ready to BUILD.
+Net-new BACKLOG items: (1) [P1] ES-13; (2) [P1] FR-5; (3) [P3] Gordonia Zichron Yaakov freshness update (Fattal Hotels summer 2026 opening); (4) [P3] InterContinental Jerusalem open check + honest caveat update in best-hotels-jerusalem.md.
+Gate: not run (RESEARCH mode — no code changes). 1046 pages / 1385/1385 tests GREEN (iter843 commit c06662e0 baseline; iter844 no-code-change pass).
+Next: iter846 BUILD (846%5==1 → BUILD; top candidate ES Phase ES-13 [P1 i18n-ES M]).

@@ -6,7 +6,7 @@
 >
 > One bounded slice per loop iteration. NEVER bulk-translate in one shot.
 
-## Current status snapshot (2026-07-29 iter843)
+## Current status snapshot (2026-07-29 iter845)
 
 | Locale | Guides | Attractions | Regions | Itineraries |
 |--------|--------|-------------|---------|-------------|
@@ -16,9 +16,9 @@
 | es     | 65     | 61          | 11      | 6           |
 
 **Gaps to close:**
-- es guides: **331 missing** (65/396 done — Phase ES-13 next)
-- fr guides: **289 missing** (107/396 done — Phase FR-5 next)
-- de guides: **294 missing** (102/396 done — Phase DE-3 SHIPPED iter843; Phase DE-4 next)
+- es guides: **331 missing** (65/396 done — Phase ES-13 defined iter845; next BUILD)
+- fr guides: **289 missing** (107/396 done — Phase FR-5 defined iter845; next BUILD after ES-13)
+- de guides: **294 missing** (102/396 done — Phase DE-4 defined iter843/iter845; next DE BUILD)
 - fr/de/es attractions: **4 missing each** (the 4 EN attractions added after Phase 4)
 
 ## Architecture (already shipped, do not re-do)
@@ -73,7 +73,7 @@ Take the top 5 by priority (or head -5 if priority not obvious), translate each 
 
 ## Progress tracker
 
-### ES guides (60 / 396)
+### ES guides (65 / 396)
 - Phase ES-0 — DONE. iter799 shipped 5/394:
   first-time-in-israel, visa-information, best-time-to-visit-israel,
   israel-cost-budget, transportation (02b1058).
@@ -131,6 +131,22 @@ Take the top 5 by priority (or head -5 if priority not obvious), translate each 
   bethlehem-tours-compared, beit-shean-guide, birdwatching-in-israel,
   beit-guvrin-caves-guide, israel-jordan-itinerary.
   LATAM pilgrimage conversion + archaeology + ecotourism + Gran Tour combined market.
+  /es/ prefix only for confirmed existing ES pages. 10 new tests (5 smoke + 5 a11y).
+  ES guides: 60→65/396. Build: 1036 pages. 1365/1365 e2e pass.
+- Phase ES-13 — DEFINED. iter845 research: dead-sea-medical-tourism, eilat-hotels-guide,
+  nazareth-travel-guide, dead-sea-hotels-guide, digital-nomad-israel.
+  Rationale: (1) dead-sea-medical-tourism: active thin Spanish competitor pages (ad-hoc-news.de);
+  psoriasis/skin condition/spa angle; pairs with dead-sea-guide (ES); (2) eilat-hotels-guide:
+  Expedia ES + Trip.com searches; Eilat cluster completion; high Booking affiliate value;
+  (3) nazareth-travel-guide: pepetours/nubiatours/tierrasantaisrael.com confirm Nazareth as
+  primary LATAM pilgrimage keyword; zero ES specialist editorial; (4) dead-sea-hotels-guide:
+  Civitatis sells Dead Sea tours but no ES hotel comparison; Ein Bokek resort strip specialist;
+  (5) digital-nomad-israel: "Israel nomada digital" completely unclaimed in Spanish; LATAM
+  remote-work market (Argentina/Colombia/Mexico) + Tel Aviv tech hub appeal.
+  Quality: neutral LATAM Spanish; YAML double-quotes; /es/ prefix for confirmed existing ES pages only;
+  no fabricated prices; Dead Sea therapeutic benefits hedged (widely researched, not replacing medical advice).
+  Status: ready — pick in next BUILD iteration for ES category.
+  LATAM pilgrimage conversion + archaeology + ecotourism + Gran Tour combined market.
   bethlehem-tours-compared: Civitatis/toursfestival top LATAM circuit includes Bethlehem;
   beit-shean: "Bet Shean ruinas" LATAM archaeology search; birdwatching: growing LATAM
   ecotourism; beit-guvrin: "Cuevas de Bet Guvrin" family adventure; israel-jordan:
@@ -138,7 +154,7 @@ Take the top 5 by priority (or head -5 if priority not obvious), translate each 
   /es/ prefix only for confirmed existing ES pages. 10 new tests (5 smoke + 5 a11y).
   ES guides: 60→65/396. Build: 1036 pages. 1365/1365 e2e pass.
 
-### FR guide catch-up (102 / 396 = 294 remaining)
+### FR guide catch-up (107 / 396 = 289 remaining)
 - Phase FR-1 — DONE. iter828 shipped ff27fd98:
   3-days-in-israel, 3-days-in-galilee, airlines-flying-israel-2026,
   backpacking-israel, best-beaches-israel. Metropolitan French;
@@ -160,6 +176,29 @@ Take the top 5 by priority (or head -5 if priority not obvious), translate each 
 - Phase FR-4 — DONE. iter842 shipped cc4db236:
   bahai-world-center-guide, beit-guvrin-caves-guide, beit-shean-guide,
   best-hotels-tel-aviv, israel-jordan-itinerary.
+  Metropolitan French; Bahá'í religious site framing; UNESCO Bell Caves; Beit She'an Decapolis;
+  Tel Aviv hotels 5 neighborhoods 3 tiers + honest 2026 new openings; 10-day Israel+Jordan circuit;
+  no fabricated prices. 10 new tests (5 smoke + 5 a11y).
+  FR guides: 102→107/396. Build: 1036→1041 pages. 1375/1375 e2e pass.
+- Phase FR-5 — DEFINED. iter845 research: dead-sea-medical-tourism, netanya-guide,
+  eilat-hotels-guide, passover-in-israel, church-of-nativity-guide.
+  Rationale: (1) dead-sea-medical-tourism: mer-morte.info = entire niche French site with weak
+  domain authority; spadreams.fr "Cure mer morte" ads; French cures thermales/thalasso distinct
+  cultural segment; authoritative guide would outrank all competitors; (2) netanya-guide:
+  ~50K francophone residents (~30% of Netanya's population per francosphere.co.il);
+  zero FR travel editorial competition; linkable asset for franco-Israeli press (israelvalley.com,
+  francosphere.co.il, sante.org.il); family-visit + medical-tourism + beach tourism market;
+  (3) eilat-hotels-guide: Expedia.fr + ebookers.fr + roadcalls.fr + eilat.city/fr confirm FR
+  commercial intent; hotel guide = missing layer in FR Eilat cluster;
+  (4) passover-in-israel: French Jewish diaspora (largest in Western Europe); Pessah 5786 =
+  April 1-9, 2026; Chabad.fr + AJCF have religious content; zero FR travel guide covering
+  visitor experience during Pessah; seasonal + evergreen;
+  (5) church-of-nativity-guide: "Basilique de la Nativité Bethléem" top FR pilgrimage query;
+  Le Routard prominent Bethlehem coverage; Status Quo six-denomination framing; West Bank
+  neutral from EN; Checkpoint 300 logistics in French.
+  Quality: metropolitan French; YAML double-quotes apostrophes; /fr/* prefix confirmed existing FR
+  pages only; no fabricated prices; Netanya francophone statistics sourced; Pessah dates verified.
+  Status: ready — pick in BUILD iteration after ES-13.
   Metropolitan French; YAML apostrophes double-quoted; /fr/* prefix only for confirmed FR pages;
   Bahá'í active religious site framing (non-Bahá'ís exterior/terraces only);
   UNESCO Bell Caves + Sidonian Burial Caves; Beit She'an Decapolis + 749 CE time-capsule;

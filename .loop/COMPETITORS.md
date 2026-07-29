@@ -6721,3 +6721,40 @@ Gate: not run (RESEARCH mode). 1001 pages / 1295/1295 tests GREEN (iter829 commi
 - Kassland Resort & Spa (Ma'ale Adumim) already in BACKLOG as HUMAN REVIEW REQUIRED.
 
 Gate: not run (RESEARCH mode). 1031 pages / 1355/1355 tests GREEN (iter839 commit 9d8a7e5b).
+
+### 2026-07-29 · iter 845 · 171st research pass — ES/FR content gap + competitor audit
+
+**Sources:** civitatis.com (ES Israel tours), greca.co (ES travel blog), touristisrael.com (ES/EN), mer-morte.info (FR niche site), routard.com (FR Israel guide), roadcalls.fr (FR Eilat), eilat.city/fr (FR attraction content), francosphere.co.il (franco-Israeli community), pepetours.com (LATAM pilgrimage tours), nubiatours.com, europatoursypaquetes.com, tierrasantaisrael.com, chabad.fr, AJCF (French Jewish community), Expedia.fr, ebookers.fr, spadreams.fr, terredisrael.com, sante.org.il.
+
+#### ES (LATAM) market findings:
+- **Civitatis.com** — dominant in ES Israel tour bookings; 5-day Israel circuit (TLV→Bethlehem→Jerusalem→Dead Sea→Masada) = bestseller. They sell activities only — no editorial destination guides. We own the informational pre-purchase layer they don't cover.
+- **greca.co** — Running "20 mejores atracciones en Israel" blog (thin); Israel+Jordan packages. Our depth should dominate their generalist content.
+- **touristisrael.com** — ES-language tour listings (no editorial content). Our guides = first-mover in Israel-specialist ES editorial.
+- **pepetours.com / nubiatours.com / tierrasantaisrael.com** — LATAM Catholic pilgrimage tour operators; all use "Nazaret" as primary keyword in Israel tour descriptions → confirms nazareth-travel-guide.md is high-priority ES gap.
+- **ad-hoc-news.de** — Running thin ES press-release pages for "Mar Muerto Israel guía" (2 pages targeting LATAM); confirms dead-sea-medical-tourism demand in Spanish; zero authoritative editorial competitor.
+- **"Israel nomada digital"** — Zero results from monoviajero.com, viajeroscallejeros.com, losviajesdedomi.com. Completely unclaimed keyword in LATAM Spanish.
+
+#### FR market findings:
+- **mer-morte.info** — Entire niche site dedicated to Dead Sea health tourism in French; spans thalasso, psoriasis, skin conditions, spa booking; LOW domain authority; spadreams.fr also running "Cure mer morte" content. Dead Sea medical cluster in FR = significant opportunity.
+- **francosphere.co.il** — Confirms Netanya as "capitale incontestée de la francophonie israélienne" (~50K francophone residents ~30% of population); sante.org.il + israelvalley.com + jibris.com all confirm francophone Netanya market. Zero travel guide competition.
+- **routard.com** — Dominates French Israel coverage with stubs; Mer Morte = basic section; Eilat = brief overview. Our Israel-specialist depth should outrank Routard on long-tail queries.
+- **roadcalls.fr** — "21 conseils pour réussir votre visite à Eilat" (attraction-level content); eilat.city/fr — attraction pages in French; both lack hotel comparison guide layer.
+- **Chabad.fr / AJCF** — French Pessah content for community; not travel guides. "Voyager en Israël pendant Pessah" = zero competitor travel editorial.
+- **voirisrael.com** — Local francophone Israel travel agency; no SEO-optimized editorial content; pilgrimage + guided tours focus.
+
+#### Key intelligence patterns:
+1. In both ES and FR markets, the competitor landscape for Israel travel is dominated by tour operators (sell activities, not information) or thin generalist sites. Our topical authority = clear SEO edge.
+2. Dead Sea medical tourism: active and distinct market in FR (cures thermales cultural segment); thin but present in ES (LATAM health spa tourism). Zero authoritative editorial competitor in either language.
+3. Netanya FR: unique audience (franco-Israeli diaspora + family visits + beach tourism) with zero editorial competition; backlink potential from franco-Israeli community media.
+4. Pessah in FR: French Jewish diaspora = largest in Western Europe; Pessah = Israel's highest-traffic event month; zero competitor French travel guide for visitor experience.
+5. "Israel nomada digital" in ES: genuinely unclaimed keyword; LATAM remote-work market (Buenos Aires, Bogotá, Mexico City tech communities) increasingly interested in Israel's startup ecosystem.
+
+#### Competitive intelligence update (COMPETITORS.md):
+| Competitor | Market | Strength | Our Edge |
+|---|---|---|---|
+| civitatis.com | ES | Tour booking dominance | We own pre-purchase informational |
+| greca.co | ES | Blog (thin) | Our depth on every destination |
+| mer-morte.info | FR | Dead Sea niche (weak authority) | Israel-specialist domain → outrank |
+| routard.com | FR | Brand recognition | Depth + freshness → outrank long-tail |
+| francosphere.co.il | FR | Community content | Travel guide layer we can add |
+

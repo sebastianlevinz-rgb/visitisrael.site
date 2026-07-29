@@ -1,13 +1,15 @@
 # LOOP STATE
 
-- iteration: 844
-- lastMode: REVIEW (iter844%5==4 → REVIEW; DE Phase DE-3 link/honesty/register audit)
-- lastItem: review-844-de-phase-3 (bedouin-experience-israel, beer-sheva-guide, beit-guvrin-caves-guide, beit-shean-guide, bahai-world-center-guide)
-- lastResult: CLEAN — 21 internal links audited across 5 guides; 0 link prefix bugs (all /de/* links point to confirmed existing DE guides; /tel-arad-guide and /haifa-travel-guide correctly left unqualified as no DE version exists); 0 honesty issues (all prices as ranges or approximates: ₪29–35, ₪35–50, ₪60–80, ca. ₪35; no fabricated ratings or review counts; bedouin-experience-israel explicitly states no fabricated reviews); Standard Hochdeutsch register consistent throughout all 5 guides. No code changes needed.
-- nextRotationCategory: RESEARCH (iter845%5==0 → RESEARCH; 171st research pass)
+- iteration: 845
+- lastMode: RESEARCH (iter845%5==0 → RESEARCH; 171st research pass)
+- lastItem: research-845-es13-fr5-de4-gap-analysis
+- lastResult: 6 net-new BACKLOG items. ES-13 phase defined (nazareth-travel-guide, sea-of-galilee-guide, galilee-christian-sites-circuit, dead-sea-hotels-guide, eilat-hotels-guide). FR-5 phase defined (church-of-nativity-guide, bethlehem-tours-compared, sea-of-galilee-guide, aqaba-from-eilat, city-of-david-jerusalem). DE-4 already defined (iter843 planning). 2 freshness items (Gordonia Zichron Yaakov, InterContinental Jerusalem). COMPETITORS.md updated. No code shipped.
+- nextRotationCategory: BUILD (iter846%5==1 → BUILD; i18n-ES Phase ES-13 [P1] top candidate)
 - higgsfieldSpent: 0
-- updatedAt: 2026-07-29T06:27Z
+- updatedAt: 2026-07-29T07:45Z
 - branch context: work on master; feature work on auto/<slug>
+
+Notes: iter845 RESEARCH — 171st research pass. Content gap analysis (comm -23 on guides/es + guides/fr directories). ES-13: nazareth-travel-guide + sea-of-galilee-guide + galilee-christian-sites-circuit = zero LATAM editorial competition (greca.co/israelturismo.com have tour listings only); dead-sea-hotels-guide + eilat-hotels-guide = highest remaining affiliate value in uncovered ES. FR-5: church-of-nativity-guide + bethlehem-tours-compared = large FR Catholic pilgrim market; sea-of-galilee-guide ("Lac de Tibériade") zero FR editorial competition; aqaba-from-eilat natural extension for French travellers using Routard itineraries; city-of-david-jerusalem ("Cité de David" archaeology + Hezekiah's Tunnel) strong FR cultural tourism segment. DE-4 already defined and ready (iter843 planning). InterContinental Jerusalem + Gordonia Zichron Yaakov freshness items added as P3. Confirmed saturation ~97%+ EN; i18n is primary remaining growth lever. ES: 65→331 remaining; FR: 107→289 remaining; DE: 102→294 remaining.
 
 Notes: iter840 RESEARCH — 170th research pass. Key findings: (1) LATAM "Gran Tour Israel y Jordania" is #1 LATAM package tour product → israel-jordan-itinerary.md must ship in ES; (2) beit-guvrin-caves-guide + beit-shean-guide have SERP gaps in all 3 language markets; (3) bethlehem-tours-compared.md critical for LATAM Civitatis/toursfestival conversion funnel; (4) Gordonia Zichron Yaakov (Fattal Hotels) all-suite resort opened summer 2026 — not in our guides; (5) InterContinental Jerusalem may have opened by now — freshness check needed. Sources: routard.com, civitatis.com, viel-unterwegs.de, eberhardt-travel.de, tourradar.com, myisraelstay.com, ynetnews.com, israelhayom.com. i18n phases ES-12/FR-4/DE-3 all defined in BACKLOG and I18N-PLAN.md.
 
