@@ -6,19 +6,19 @@
 >
 > One bounded slice per loop iteration. NEVER bulk-translate in one shot.
 
-## Current status snapshot (2026-07-29 iter837)
+## Current status snapshot (2026-07-29 iter838)
 
 | Locale | Guides | Attractions | Regions | Itineraries |
 |--------|--------|-------------|---------|-------------|
 | en     | 396    | 65          | 11      | 6           |
 | fr     | 102    | 61          | 11      | 6           |
-| de     | 92     | 61          | 11      | 6           |
+| de     | 97     | 61          | 11      | 6           |
 | es     | 60     | 61          | 11      | 6           |
 
 **Gaps to close:**
 - es guides: **336 missing** (60/396 done — Phase ES-12 next to define)
 - fr guides: **294 missing** (102/396 done — Phase FR-4 next to define)
-- de guides: **304 missing** (92/396 done — Phase DE-2 DEFINED, next to ship)
+- de guides: **299 missing** (97/396 done — Phase DE-3 next to define)
 - fr/de/es attractions: **4 missing each** (the 4 EN attractions added after Phase 4)
 
 ## Architecture (already shipped, do not re-do)
@@ -153,24 +153,24 @@ Take the top 5 by priority (or head -5 if priority not obvious), translate each 
   mitzpe-ramon-guide, tel-aviv-nightlife (already in FR). Run `comm -23` to find
   exact top 5 missing. Status: to-define (next research or BUILD iteration).
 
-### DE guide catch-up (92 / 396 = 304 remaining)
+### DE guide catch-up (97 / 396 = 299 remaining)
 - Phase DE-1 — DONE. iter833 shipped ebfb0bd7:
   3-days-in-israel, 3-days-in-galilee, airlines-flying-israel-2026,
   backpacking-israel, best-beaches-israel. Standard Hochdeutsch;
   Planung/Reiserouten categories; /de/ prefix only for confirmed existing DE pages;
   cycling-in-israel plain link (no DE version). 10 new tests (5 smoke + 5 a11y).
   DE guides: 87→92/396. Build: 1016 pages. All e2e pass.
-- Phase DE-2 — DEFINED iter835. Next 5 DE guides:
+- Phase DE-2 — DONE. iter838 shipped e1c560ca:
   1-day-tel-aviv-itinerary, 3-days-in-eilat, 3-days-in-haifa,
   3-days-in-negev, 3-days-in-tel-aviv.
-  Rationale: sonnenklar.tv, urlaubsguru.de, viel-unterwegs.de confirm strong DE demand for
-  "Israel Rundreise 2026" structured itinerary content; missing 3-days-in-tel-aviv and
-  3-days-in-eilat is a critical gap (top German tourist destinations: Tel Aviv modern city
-  break; Eilat Red Sea beach resort); 1-day-tel-aviv, 3-days-in-haifa, 3-days-in-negev
-  round out Rundreise coverage for German travellers.
-  Standard Hochdeutsch register; YAML double-quotes for apostrophes in titles;
-  /de/* prefix links only where DE page exists; plain links for EN-only pages.
-  10 new tests (5 smoke + 5 a11y). DE guides target: 92→97/396. [iter835 research] status: ready
+  Standard Hochdeutsch; correct geology Makhtesh Ramon (kein Meteoriten-/Vulkankrater);
+  Dolphin Reef semi-wild framing; Bahá'í active religious site note; Stella Maris photography
+  caveat; Wadi Ardon serious hike + summer heat warnings. YAML fix: escaped ASCII double-quotes
+  inside YAML double-quoted string (3-days-in-negev.md „Erosionskrater\"/ „Boxcañon\").
+  /de/* prefix links only where DE page exists; plain links for EN-only pages; no fabricated prices.
+  10 new tests (5 smoke + 5 a11y). DE guides: 92→97/396. Build: 1031 pages. 1355/1355 e2e pass.
+- Phase DE-3 — NEXT. Run `comm -23` to find top 5 missing DE guides after DE-2.
+  Status: to-define (next RESEARCH or BUILD iteration).
 
 ### Attraction catch-up (4 missing per locale)
 - NOT STARTED. Low priority; do after guide catch-up is well underway.

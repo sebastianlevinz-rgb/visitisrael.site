@@ -1,5 +1,11 @@
 # DONE (shipped — do NOT re-do; basis for REVIEW mode)
 
+## iter838 · BUILD · de-phase-2 · e1c560ca
+- DE Phase DE-2 SHIPPED: 1-day-tel-aviv-itinerary, 3-days-in-eilat, 3-days-in-haifa, 3-days-in-negev, 3-days-in-tel-aviv (Standard Hochdeutsch; correct geology Makhtesh Ramon — kein Meteoriten-/Vulkankrater; Dolphin Reef semi-wild framing; Bahá'í active religious site note; Stella Maris photography caveat; Wadi Ardon serious hike summer heat warnings; YAML fix: escaped ASCII double-quotes inside YAML double-quoted string in 3-days-in-negev.md). /de/* prefix links only where DE page exists; no fabricated prices; honest notes on Mitzpe Ramon accommodation scarcity. DE guides: 92→97/396. 10 new tests (5 smoke + 5 a11y). Build: 1031 pages (+5). 1355/1355 e2e pass.
+
+## iter837 · BUILD · fr-phase-3 · 0bccb519
+- FR Phase FR-3 SHIPPED: 1-day-tel-aviv-itinerary, 3-days-in-haifa, 3-days-in-negev, bedouin-experience-israel, beer-sheva-guide. Metropolitan French; Makhtesh Ramon géologie correcte (pas cratère météoritique); charge cavalerie ANZAC 1917 Beer-Sheva; diyafa bédouine. FR guides: 97→102/396. 10 new tests. Build: 1026 pages (+5). 1345/1345 e2e pass.
+
 ## iter831 · BUILD · fr-phase-2 · 5fa1ab23
 - FR Phase FR-2 SHIPPED: 3-days-in-tel-aviv, 3-days-in-eilat, dead-sea-vs-eilat, best-hotels-jerusalem, christmas-in-israel (metropolitan French; YAML apostrophes double-quoted; /fr/* prefix links only for confirmed-existing FR pages; honesty on InterContinental Jerusalem "opening fin été 2026", Ministry of Tourism buses "not guaranteed each year", Bethlehem safety check-advisory caveat). FR guides: 92→97/396. 10 new tests (5 smoke + 5 a11y). Build: 1006 pages (+5). 1305/1305 e2e pass.
 

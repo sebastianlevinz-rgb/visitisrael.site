@@ -12733,3 +12733,18 @@ Register: français métropolitain (non-québécois). YAML double-quotes pour ap
 Gate: pnpm check 0 errors; pnpm build 1026 pages (1021→1026, +5); 1345/1345 e2e pass.
 Ship: committed 0bccb519, pushed to master. CI in_progress (standard Vercel pattern).
 FR guides: 97→102/396. Next: iter838 BUILD (838%5==3 → BUILD; rotate to DE Phase DE-2 or seo-content).
+
+## 2026-07-29T01:10Z · iter 838 · BUILD (i18n-DE) · de-phase-2
+
+What: DE Phase DE-2 — 5 new German-language guides in Standard Hochdeutsch for the German/Austrian/Swiss tourism market:
+(1) 1-day-tel-aviv-itinerary — 1 Tag in Tel Aviv: Alt-Jaffa 7:30 Uhr (Hafen, Uhrenturm, Andromeda Fels, Flohmarkt), Strandpromenade Tayelet 4 km bis Gordon Beach, Karmelmarkt Mittagspause (Hummus/Shakshuka/frischer Saft), Weiße Stadt UNESCO-Spaziergang Rothschild Blvd/Dizengoff/Bialik, Strand/Kunstmuseum TEL AVIV MUSEUM OF ART Wahl, Neve Tzedek oder Florentin Abendessen; Echtzeit-Tabelle; cross-links /de/jaffa-travel-guide, /de/tel-aviv-carmel-market, /de/tel-aviv-nightlife, /de/tel-aviv-white-city.
+(2) 3-days-in-tel-aviv — 3 Tage in Tel Aviv: Tag 1 Weiße Stadt + Karmelmarkt + Strandpromenade + Jaffa Sonnenuntergang; Tag 2 ANU Museum jüdische Diaspora + Sarona Stadtspaziergang + Tel Aviv Museum of Art + Florentin Abend; Tag 3 Alt-Jaffa Morgen + Tayelet + Rückreise; Budget-Tabelle; Schabbat-Tipps; cross-links.
+(3) 3-days-in-eilat — 3 Tage in Eilat: Tag 1 Coral Beach Naturreservat + Underwater Observatory + Nordstrand Promenade; Tag 2 Petra über Grenzübergang Yitzhak Rabin (vollständige Logistik: Stunden, Taxi, Visagebühren); Tag 3 Dolphin Reef (ehrlich: semi-wild, Begegnung nicht garantiert) + Timna Park; Hitzetipps; cross-links.
+(4) 3-days-in-haifa — 3 Tage in Haifa: Tag 1 Bahá'í-Terrassen 9 Uhr Pflichtführung (19 UNESCO-Terrassen, Schrein des Báb, aktive Kultstätte, Fotografierrestriktionen, kein Eintritt freitags nachmittags) + Deutsche Kolonie + Hafen; Tag 2 Wadi Nisnas Straßenkunst + Karmelmarkt Haifa + Merkaz HaCarmel; Tag 3 Stella Maris Karmeliterkloster + Daliyat el-Carmel Druzen-Dorf (Kochen, Töpferei, Handwerk) + Karmel-Nationalpark Rückkehr; cross-links.
+(5) 3-days-in-negev — 3 Tage Negev: Tag 1 Makhtesh Ramon Kratergrat + Ilan-Ramon-Raumzentrum + Sternbeobachtung IDA-Dunkelpark; Tag 2 Wadi-Ardon-Trail 10-12 km (anspruchsvoll, Hitzewarnungen, 07:00 Start, 10:00 Schatten) + Alpaka-Farm Nachmittag; Tag 3 Ein-Avdat-Nationalpark Canyon + Sde Boker Ben-Gurion-Grab + Rückfahrt. KRITISCH: korrekte Geologie — "Makhtesh Ramon ist weder ein Meteoritenkrater noch ein Vulkankrater. Er entstand durch tektonische Hebung und Millionen Jahre Wassererosion."
+
+Technical: YAML-Fix in 3-days-in-negev.md — ASCII double-quotes (U+0022) used as closing German typographic quotes „Erosionskrater" and „Boxcañon" inside YAML double-quoted string terminated the string prematurely (js-yaml error line 36:440). Fix: backslash-escaped as „Erosionskrater\" and „Boxcañon\" per YAML spec.
+Quality: Standard Hochdeutsch (kein Schweizerdeutsch/Österreichisch-spezifisch); YAML double-quotes für Apostrophe in Titeln; /de/* Präfix-Links nur auf bestätigte DE-Seiten; keine erfundenen Preise/Bewertungen; alle religiösen/umstrittenen Stätten neutral; Dolphin Reef semi-wild framing; Bahá'í aktive Kultstätte Note; 10 neue e2e-Tests (5 smoke + 5 a11y).
+Gate: pnpm check 0 errors (138 files, 0 errors); pnpm build 1031 pages (1026→1031, +5); 1355/1355 e2e pass (9.1 min).
+Ship: squash-merged to master e1c560ca, pushed. Branch auto/de-phase-2 deleted.
+Next: iter839 REVIEW (839%5==4 → REVIEW; candidate: audit DE Phase DE-2 guides or ES Phase ES-11).

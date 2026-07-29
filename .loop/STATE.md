@@ -1,13 +1,15 @@
 # LOOP STATE
 
-- iteration: 837
-- lastMode: BUILD (iter837%5==2 → BUILD; i18n-FR Phase FR-3)
-- lastItem: fr-phase-3
-- lastResult: SHIPPED 0bccb519. FR Phase FR-3: 5 French guides — 1-day-tel-aviv-itinerary, 3-days-in-haifa, 3-days-in-negev, bedouin-experience-israel, beer-sheva-guide. Metropolitan French register; Wadi Nisnas street art + Carmelit funiculaire + Jardins bahá'ís UNESCO for Haïfa; Makhtesh Ramon correct geology (pas cratère météoritique); diyafa + beit sha'ar bédouin framing; charge cavalerie ANZAC 1917 pour Beer-Sheva. /fr/* prefix confirmed pages only; no fabricated prices; 10 tests (5 smoke + 5 a11y). Build: 1021→1026 pages. 1345/1345 e2e pass. CI in_progress (standard pattern).
-- nextRotationCategory: BUILD (iter838%5==3 → BUILD; cycle → DE Phase DE-2 or seo-content Eilat-vs-Sharm)
+- iteration: 838
+- lastMode: BUILD (iter838%5==3 → BUILD; i18n-DE Phase DE-2)
+- lastItem: de-phase-2
+- lastResult: SHIPPED e1c560ca. DE Phase DE-2: 5 German guides — 1-day-tel-aviv-itinerary, 3-days-in-eilat, 3-days-in-haifa, 3-days-in-negev, 3-days-in-tel-aviv. Standard Hochdeutsch; Makhtesh Ramon correct geology (kein Meteoriten-/Vulkankrater); Dolphin Reef semi-wild framing; Bahá'í active religious site note; YAML fix for ASCII double-quotes in YAML double-quoted string (3-days-in-negev.md). /de/* prefix confirmed pages only; no fabricated prices; 10 tests (5 smoke + 5 a11y). Build: 1026→1031 pages. 1355/1355 e2e pass.
+- nextRotationCategory: REVIEW (iter839%5==4 → REVIEW; candidate: DE Phase DE-2 audit or ES Phase ES-11 audit)
 - higgsfieldSpent: 0
-- updatedAt: 2026-07-29T00:12Z
+- updatedAt: 2026-07-29T01:10Z
 - branch context: work on master; feature work on auto/<slug>
+
+Notes: iter838 BUILD (i18n-DE) — de-phase-2 SHIPPED e1c560ca. DE Phase DE-2: 5 German guides (1-day-tel-aviv-itinerary, 3-days-in-eilat, 3-days-in-haifa, 3-days-in-negev, 3-days-in-tel-aviv). Standard Hochdeutsch; correct geology Makhtesh Ramon; Dolphin Reef semi-wild; Bahá'í religious site framing. DE guides: 92→97/396. Build: 1026→1031 pages. 1355/1355 e2e pass. YAML fix: escaped ASCII double-quotes inside YAML double-quoted string (3-days-in-negev.md „Erosionskrater" / „Boxcañon").
 
 Notes: iter837 BUILD (i18n-FR) — fr-phase-3 SHIPPED 0bccb519. FR Phase FR-3: 5 French guides (1-day-tel-aviv-itinerary, 3-days-in-haifa, 3-days-in-negev, bedouin-experience-israel, beer-sheva-guide). Metropolitan French; correct geology Makhtesh Ramon; ANZAC 1917 Beer-Sheva; diyafa bédouine. FR guides: 97→102/396. Build: 1021→1026 pages. 1345/1345 e2e pass.
 
