@@ -6,20 +6,25 @@
 >
 > One bounded slice per loop iteration. NEVER bulk-translate in one shot.
 
-## Current status snapshot (2026-07-29 iter852)
+## Current status snapshot (2026-07-29 iter855 RESEARCH)
 
 | Locale | Guides | Attractions | Regions | Itineraries |
 |--------|--------|-------------|---------|-------------|
 | en     | 396    | 65          | 11      | 6           |
 | fr     | 117    | 61          | 11      | 6           |
-| de     | 107    | 61          | 11      | 6           |
+| de     | 112    | 61          | 11      | 6           |
 | es     | 75     | 61          | 11      | 6           |
 
 **Gaps to close:**
-- es guides: **321 missing** (75/396 done — Phase ES-14 SHIPPED iter851; next: ES-15)
-- fr guides: **279 missing** (117/396 done — Phase FR-6 SHIPPED iter852; next: FR-7)
-- de guides: **284 missing** (112/396 done — Phase DE-5 SHIPPED iter853; next: DE-6)
+- es guides: **321 missing** (75/396 done — Phase ES-14 SHIPPED iter851; next: ES-15 DEFINED iter855)
+- fr guides: **279 missing** (117/396 done — Phase FR-6 SHIPPED iter852; next: FR-7 UPDATED iter855)
+- de guides: **284 missing** (112/396 done — Phase DE-5 SHIPPED iter853; next: DE-6 DEFINED iter855)
 - fr/de/es attractions: **4 missing each** (the 4 EN attractions added after Phase 4)
+
+**Dead Sea cluster status (iter855 audit):**
+- ES: COMPLETE (has dead-sea-guide, dead-sea-hotels-guide, dead-sea-medical-tourism, dead-sea-tours-compared, dead-sea-vs-eilat); still missing: dead-sea-day-trip-comparison, dead-sea-israel-vs-jordan
+- FR: PARTIAL (has dead-sea-guide, dead-sea-israel-vs-jordan, dead-sea-medical-tourism, dead-sea-vs-eilat); missing: dead-sea-hotels-guide, dead-sea-tours-compared, dead-sea-day-trip-comparison
+- DE: PARTIAL (has dead-sea-guide, dead-sea-israel-vs-jordan, dead-sea-medical-tourism); missing: dead-sea-hotels-guide, dead-sea-vs-eilat, dead-sea-tours-compared, dead-sea-day-trip-comparison
 
 ## Architecture (already shipped, do not re-do)
 
@@ -160,8 +165,35 @@ Take the top 5 by priority (or head -5 if priority not obvious), translate each 
   no fabricated prices; Easter 2027 dates confirmed (Catholic April 20; Orthodox/Armenian April 12);
   paired-naming where applicable; no fabricated tour prices (ranges only).
   Status: ready — pick in next ES BUILD iteration.
+- Phase ES-15 — DEFINED iter855 (173rd research pass). Next ES batch (top 5 by SEO priority + LATAM market fit):
+  galilee-christian-sites-circuit, free-things-to-do-israel, dead-sea-day-trip-comparison,
+  best-hotels-sea-of-galilee, cycling-in-israel.
+  Rationale: (1) galilee-christian-sites-circuit: "Circuito Cristiano Galilea / Sitios Bíblicos
+  del Mar de Galilea" = zero LATAM editorial competition confirmed; Capernaum + Tabgha +
+  Church of Beatitudes + Magdala = core Sea of Galilee pilgrimage circuit; self-drive format
+  ideal for independent LATAM travelers; pairs with 3-days-in-galilee + best-hotels-tiberias
+  already in ES; high GYG affiliate value (guided Galilee tours);
+  (2) free-things-to-do-israel: "Actividades gratis en Israel" / "Cosas gratuitas en Israel" =
+  unclaimed in LATAM Spanish editorial; Yad Vashem + Tel Aviv beaches + Bahá'í Gardens +
+  Machane Yehuda free entry = confirmed free; budget travel = very high LATAM market volume;
+  GYG CTA for "combine free sights with paid experience";
+  (3) dead-sea-day-trip-comparison: "¿Mar Muerto desde Jerusalén o Tel Aviv?" = decision content
+  completing ES Dead Sea cluster (already has dead-sea-guide + dead-sea-hotels-guide +
+  dead-sea-medical-tourism + dead-sea-tours-compared + dead-sea-vs-eilat); high purchase intent;
+  GYG/Civitatis day-trip booking CTA; compares journey times, prices, add-ons;
+  (4) best-hotels-sea-of-galilee: "Hoteles Mar de Galilea / Lago Kinneret" = unclaimed in LATAM
+  Spanish; completes ES Galilee accommodation cluster (have 3-days-in-galilee + best-hotels-tiberias);
+  kibbutz resorts + Scots Hotel + east-shore Golan retreats; Booking.com affiliate value;
+  (5) cycling-in-israel: "Ciclismo en Israel / Tel Aviv en bicicleta" = zero confirmed ES editorial
+  competition; Tel Aviv 150km+ dedicated bike lanes + Tel-O-Fun bike share unique in region;
+  growing LATAM adventure/active tourism; Israel National Trail (Shvil HaOfanim) appeal;
+  pairs with ES 3-days-in-tel-aviv + eilat-travel-guide.
+  Quality: neutral LATAM Spanish tuteo; YAML double-quotes; /es/ prefix for confirmed existing
+  ES pages only; no fabricated prices; Galilee Christian site framing paired-naming where applicable
+  (Capernaum/كفر ناحوم); cycling prices as ranges only. 10 new tests (5 smoke + 5 a11y).
+  Status: ready — pick in next ES BUILD iteration.
 
-### FR guide catch-up (107 / 396 = 289 remaining)
+### FR guide catch-up (117 / 396 = 279 remaining)
 - Phase FR-1 — DONE. iter828 shipped ff27fd98:
   3-days-in-israel, 3-days-in-galilee, airlines-flying-israel-2026,
   backpacking-israel, best-beaches-israel. Metropolitan French;
@@ -206,25 +238,30 @@ Take the top 5 by priority (or head -5 if priority not obvious), translate each 
   Road Jan 2026; Dolphin Reef semi-wild framing; tax-free shopping Eilat; YAML double-quotes;
   /fr/* prefix only for confirmed existing FR pages. No fabricated prices.
   10 new tests (5 smoke + 5 a11y). FR guides: 112→117/396. Build: 1066→1071 pages. 1425→1435 e2e pass.
-- Phase FR-7 — DEFINED. Next FR batch (top candidates by SEO priority + FR market fit):
-  nazareth-travel-guide, best-hotels-sea-of-galilee, best-hotels-haifa,
-  ashdod-cruise-port-excursions, best-hotels-nazareth.
-  Rationale: (1) nazareth-travel-guide: was displaced from FR-6 (file already existed) → this
-  was an error in the FR-6 definition; confirm actual absence before shipping (comm -23 check);
-  if exists, skip and take next; "Nazareth Israël guide" zero FR specialist editorial;
-  Basilique de l'Annonciation + Greek Orthodox St Gabriel; paired-naming נָצְרַת/النَّاصِرَة;
-  LATAM + French Catholic pilgrimage market; Lonely Planet/Routard cover Nazareth but thin;
-  (2) best-hotels-sea-of-galilee: completes FR Galilee hotel cluster (sea-of-galilee-guide
-  just SHIPPED); Scots Hotel + Leonardo + Ein Gev kibbutz; Booking.com affiliate value;
-  (3) best-hotels-haifa: DACH + FR Haifa tourism (Bahá'í Gardens, Carmel, Technion);
-  pairs with FR 3-days-in-haifa already DONE; Booking.com affiliate value;
-  (4) ashdod-cruise-port-excursions: MSC/Costa/Royal Caribbean FR speakers on Med cruises;
-  Civitatis FR equivalent ("excursions depuis Ashdod") thin; pairs with FR
-  cruise-shore-excursions-israel (if exists — verify before linking);
-  (5) best-hotels-negev: completes FR Negev cluster with 3-days-in-negev already DONE;
-  Beresheet Hotel + Mitzpe Ramon options; Booking.com affiliate value.
-  Standard Metropolitan French; YAML double-quotes; /fr/* prefix for confirmed existing FR pages.
-  Status: ready — pick in next FR BUILD iteration (iter853 or next FR turn).
+- Phase FR-7 — UPDATED iter855 (173rd research pass). Previous definition had nazareth-travel-guide
+  as #1 but iter855 comm -23 confirms nazareth-travel-guide IS already in FR. Replace with
+  easter-in-jerusalem (highest-intent pilgrimage gap confirmed). Revised batch:
+  easter-in-jerusalem, best-hotels-sea-of-galilee, best-hotels-haifa,
+  ashdod-cruise-port-excursions, best-hotels-negev.
+  Rationale: (1) easter-in-jerusalem: "Pâques à Jérusalem / Semaine Sainte" = zero confirmed FR
+  travel editorial guide; French Catholic pilgrim market (France = 3rd largest Israel tourism source);
+  Messe de Minuit Holy Sepulchre + Feu Sacré + Via Dolorosa processions + Orthodox Holy Fire dates;
+  Pâques 2027 = April 20 (Catholic), April 12 (Orthodox); pairs with existing FR
+  christmas-in-israel + church-of-nativity-guide + bethlehem-tours-compared; high seasonal
+  affiliate value (GYG Easter week tours);
+  (2) best-hotels-sea-of-galilee: "Hôtels Lac de Tibériade" completes FR Galilee hotel cluster
+  (sea-of-galilee-guide SHIPPED in FR-6); Scots Hotel Tibériade + kibbutz En Gev + Nof Ginosar;
+  Booking.com affiliate; pairs with FR 3-days-in-galilee + nazareth-sea-of-galilee-day-trip;
+  (3) best-hotels-haifa: confirmed missing from FR (comm -23 verified); Bahá'í + Carmel + Technion
+  market; pairs with FR 3-days-in-haifa + bahai-world-center-guide; Booking.com affiliate;
+  (4) ashdod-cruise-port-excursions: MSC/Costa/Royal Caribbean Med cruises carry French passengers;
+  "excursions depuis Ashdod" thin in FR; content: port logistics + best excursion options by
+  hours-in-port (Jerusalem/Bethlehem/Dead Sea/TLV); pairs with FR cruise-shore-excursions-israel;
+  (5) best-hotels-negev: "Hôtels Néguev / Mitzpe Ramon" completes FR Negev cluster with
+  3-days-in-negev already DONE; Beresheet + Mitzpe Ramon alternatives; Booking.com affiliate.
+  Metropolitan French; YAML double-quotes; /fr/* prefix for confirmed existing FR pages only;
+  no fabricated prices. 10 new tests (5 smoke + 5 a11y).
+  Status: ready — pick in next FR BUILD iteration.
 - Phase FR-5 definition text (moved to DONE above) — iter845 research: dead-sea-medical-tourism, netanya-guide,
   eilat-hotels-guide, passover-in-israel, church-of-nativity-guide.
   Rationale: (1) dead-sea-medical-tourism: mer-morte.info = entire niche French site with weak
@@ -304,7 +341,35 @@ Take the top 5 by priority (or head -5 if priority not obvious), translate each 
   aqaba-from-eilat: Yitzhak-Rabin-/Wadi-Araba-Übergang; Japanese Garden snorkeling;
   al-Aqabah-Burg; GYG/Booking/Discovercars CTAs.
   DE guides: 107→112/396. Build: 1071→1076 pages. 1435→1445 e2e pass.
-- Phase DE-6 — NOT YET DEFINED. Next DE BUILD iteration to define batch from remaining 284.
+- Phase DE-6 — DEFINED iter855 (173rd research pass). Next DE batch:
+  christmas-in-israel, church-of-nativity-guide, cycling-in-israel,
+  dead-sea-hotels-guide, dead-sea-vs-eilat.
+  Rationale: (1) christmas-in-israel: "Weihnachten in Israel / Bethlehem und Nazareth" = DACH
+  Christmas pilgrimage market; Mitternachtsmesse Geburtskirche + Weihnachtsmarkt Nazareth +
+  Heiligabend Jerusalem; pairs with DE bethlehem-tours-compared (already shipped) + upcoming
+  church-of-nativity-guide (DE-6 #2); high winter travel affiliate value; Weihnachten 2026/2027
+  dates; DACH pilgrimage operators (Eberhardt, Studiosus, Sonnenklar) all run Christmas Israel tours;
+  (2) church-of-nativity-guide: "Geburtskirche Bethlehem Besucherführer" / "Tür der Demut" +
+  Geburtsgrotte-Warteschlange-Tipps + Denomination-Karte + UNESCO Weltkulturerbe;
+  Status Quo sechs-Denomination-Framing (Greek Orthodox + Roman Catholic/Franciscan + Armenian
+  Apostolic + Coptic + Syriac + Ethiopian); West Bank neutral framing from EN; pairs with
+  christmas-in-israel (DE-6 #1) + existing DE bethlehem-tours-compared;
+  (3) cycling-in-israel: "Fahrradfahren in Israel / Tel Aviv Fahrrad" = Germany/Austria/Switzerland
+  top European cycling markets; Tel-O-Fun bike share + 150km Radwege Tel Aviv = unique in region;
+  Israel National Cycling Trail (Shvil HaOfanim) = long-distance trail interests DACH hikers;
+  "Radtour Israel" = zero confirmed DE specialist editorial; pairs with existing DE
+  3-days-in-tel-aviv + eilat-travel-guide;
+  (4) dead-sea-hotels-guide: "Hotels am Toten Meer / Unterkunft Ein Bokek" completes DE Dead Sea
+  accommodation cluster (have dead-sea-guide + dead-sea-israel-vs-jordan + dead-sea-medical-tourism);
+  Ein-Bokek-Hotelstrip 3-Tier-Vergleich (Luxus/Mittelklasse/Budget + Alternativstandort Qumran);
+  "Hotels Totes Meer" top DACH accommodation query; Booking.com affiliate;
+  (5) dead-sea-vs-eilat: "Totes Meer oder Eilat?" = classic DACH southern Israel decision question;
+  comparison/decision format matches DACH information-seeking style; Mer Morte/Schwimmen vs.
+  Rotes Meer/Schnorcheln/Tauchen verdict; pairs with completed Dead Sea cluster + existing
+  DE eilat guides (3-days-in-eilat, eilat-diving-snorkeling).
+  Standard Hochdeutsch; YAML double-quotes; /de/* prefix for confirmed existing DE pages only;
+  paired-naming on contested sites; no fabricated prices. 10 new tests (5 smoke + 5 a11y).
+  Status: ready — pick in next DE BUILD iteration.
 
 ### Attraction catch-up (4 missing per locale)
 - NOT STARTED. Low priority; do after guide catch-up is well underway.

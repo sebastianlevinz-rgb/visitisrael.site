@@ -6758,3 +6758,20 @@ Gate: not run (RESEARCH mode). 1031 pages / 1355/1355 tests GREEN (iter839 commi
 | routard.com | FR | Brand recognition | Depth + freshness → outrank long-tail |
 | francosphere.co.il | FR | Community content | Travel guide layer we can add |
 
+
+### 2026-07-29 · iter 855 · 173rd research pass — Dead Sea cluster audit + freshness verification
+Research scope: comm -23 gap audit across ES/FR/DE + freshness check (Isrotel Princess + Rosh Hanikra).
+
+**Dead Sea cluster saturation:**
+- ES: 5/5 Dead Sea guides complete (guide/hotels/medical-tourism/tours-compared/vs-eilat). Outstanding: dead-sea-day-trip-comparison, dead-sea-israel-vs-jordan.
+- FR: 4/7 Dead Sea guides done (guide/israel-vs-jordan/medical-tourism/vs-eilat). Outstanding: hotels/tours-compared/day-trip-comparison.
+- DE: 3/7 Dead Sea guides done (guide/israel-vs-jordan/medical-tourism). Outstanding: hotels/vs-eilat/tours-compared/day-trip-comparison.
+
+**Competitor intelligence (freshness verification):**
+- Isrotel Princess Eilat: CONFIRMED CLOSED as of July 2026. eilat.city lists "out of business"; isrotel.com omits Princess from Eilat active hotels page. Airport City consortium future revival plan = not yet open. This was an honesty gap in our eilat-hotels-guide (EN+ES/FR/DE) claiming "reopened 2025-2026". Competitors (booking.com/agoda) show stale OTA listings for the Princess — this is an opportunity to outcompete by being accurate where they aren't.
+- Rosh Hanikra cable car: CONFIRMED OPERATING since late 2025 (westgalil.org.il/GetYourGuide/Trip.com). Opportunity: update our guide to accurately reflect operating status; travelers searching "Rosh Hanikra 2026" will find our guide more reliable than sites with outdated closure notes.
+
+**i18n competitor gap patterns:**
+- ES: "Circuito Cristiano Galilea" = zero LATAM editorial; "Cosas gratis en Israel" = zero LATAM editorial; cycling Israel = zero ES specialist editorial. All three in ES-15 batch.
+- FR: "Pâques à Jérusalem" = zero FR travel editorial (only news articles cover Easter Jerusalem); "Hôtels Lac de Tibériade" = underrepresented in FR; "Hôtels Haïfa" = thin FR coverage.
+- DE: "Weihnachten in Israel" = DACH Christmas travel guide gap (Eberhardt/Sonnenklar/Studiosus do tours but no authoritative German travel editorial); "Fahrradfahren Israel" = zero DE specialist editorial; "Hotels Totes Meer" = thin DE coverage vs. OTAs.

@@ -12949,3 +12949,18 @@ Register: Standard Hochdeutsch throughout PASS.
 Gate: pnpm check 0 errors; build 1076 pages (no change); pnpm test:e2e 1445/1445 pass (10.8m).
 Ship: committed 1aaba278 to master; pushed origin/master. CI in_progress at push time.
 Next: iter855 RESEARCH (855%5==0 → RESEARCH; candidates: ES-15, FR-7, DE-6 batch definition).
+
+## 2026-07-29 · iter 855 · RESEARCH · 173rd research pass — i18n batch definitions + freshness verification
+What: RESEARCH mode (855%5==0). 173rd research pass. Scope: (1) Dead Sea cluster gap audit across ES/FR/DE via comm -23; (2) define ES-15, FR-7, DE-6 i18n batches; (3) freshness verification on Isrotel Princess Eilat + Rosh Hanikra cable car.
+Findings:
+  Dead Sea cluster status: ES COMPLETE (5/5 Done: dead-sea-guide/hotels/medical-tourism/tours-compared/vs-eilat). FR PARTIAL (missing: dead-sea-hotels-guide, dead-sea-tours-compared, dead-sea-day-trip-comparison). DE PARTIAL (missing: dead-sea-hotels-guide, dead-sea-vs-eilat, dead-sea-tours-compared, dead-sea-day-trip-comparison).
+  nazareth-travel-guide confirmed present in FR (comm -23 verified) — FR-7 prior definition was wrong; replaced with easter-in-jerusalem.
+  HONESTY CRITICAL: Isrotel Princess Eilat CONFIRMED CLOSED. Our guides claim "reopened in 2025-2026" = FALSE. eilat.city marks it "out of business"; isrotel.com Eilat page omits Princess from active hotels; JC reported closure threat May 2024; Airport City revival plan frames Princess return as FUTURE event. P0 honesty fix required in eilat-hotels-guide.md (EN + ES/FR/DE). Upgraded from P3 to P0.
+  Rosh Hanikra cable car CONFIRMED OPERATING (restored ~late 2025). westgalil.org.il Nov 2025 hours include cable car; GetYourGuide 2026 cable car tours; Trip.com 2026 ticket (₪53 adult / ₪43 child roundtrip included). Guide language still says "timeline not confirmed" = outdated. P1 freshness fix required. Upgraded from P3 to P1.
+Batch definitions added to I18N-PLAN.md + BACKLOG.md:
+  ES-15: galilee-christian-sites-circuit, free-things-to-do-israel, dead-sea-day-trip-comparison, best-hotels-sea-of-galilee, cycling-in-israel.
+  FR-7 UPDATED: easter-in-jerusalem, best-hotels-sea-of-galilee, best-hotels-haifa, ashdod-cruise-port-excursions, best-hotels-negev.
+  DE-6: christmas-in-israel, church-of-nativity-guide, cycling-in-israel, dead-sea-hotels-guide, dead-sea-vs-eilat.
+Gate: N/A (research mode, no shipping).
+Ship: N/A. JOURNAL + STATE + BACKLOG + I18N-PLAN updated; commit+push to advance state.
+Next: iter856 BUILD (856%5==1 → BUILD). TOP P0: Isrotel Princess honesty fix (eilat-hotels-guide EN+ES/FR/DE). After that: ES-15 or DE-6 or FR-7 BUILD.
