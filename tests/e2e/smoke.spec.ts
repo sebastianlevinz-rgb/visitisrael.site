@@ -786,6 +786,11 @@ const ROUTES = [
   '/de/beit-guvrin-caves-guide',
   '/de/beit-shean-guide',
   '/de/bahai-world-center-guide',
+  '/de/best-hotels-tel-aviv',
+  '/de/israel-jordan-itinerary',
+  '/de/best-hotels-jerusalem',
+  '/de/masada-visitor-guide',
+  '/de/sea-of-galilee-guide',
 ];
 
 for (const route of ROUTES) {
