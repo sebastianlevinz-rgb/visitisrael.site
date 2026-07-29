@@ -516,6 +516,11 @@ const ROUTES = [
   '/fr/eilat-hotels-guide',
   '/fr/passover-in-israel',
   '/fr/church-of-nativity-guide',
+  '/es/dead-sea-tours-compared',
+  '/es/eilat-tours-compared',
+  '/es/easter-in-jerusalem',
+  '/es/best-hotels-tiberias',
+  '/es/ashdod-cruise-port-excursions',
 ];
 
 for (const route of ROUTES) {
