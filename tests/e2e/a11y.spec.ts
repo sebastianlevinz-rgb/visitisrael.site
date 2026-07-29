@@ -501,6 +501,11 @@ const ROUTES = [
   '/es/birdwatching-in-israel',
   '/es/beit-guvrin-caves-guide',
   '/es/israel-jordan-itinerary',
+  '/es/dead-sea-medical-tourism',
+  '/es/eilat-hotels-guide',
+  '/es/nazareth-travel-guide',
+  '/es/dead-sea-hotels-guide',
+  '/es/digital-nomad-israel',
 ];
 
 for (const route of ROUTES) {
