@@ -1,13 +1,15 @@
 # LOOP STATE
 
-- iteration: 838
-- lastMode: BUILD (iter838%5==3 → BUILD; i18n-DE Phase DE-2)
-- lastItem: de-phase-2
-- lastResult: SHIPPED e1c560ca. DE Phase DE-2: 5 German guides — 1-day-tel-aviv-itinerary, 3-days-in-eilat, 3-days-in-haifa, 3-days-in-negev, 3-days-in-tel-aviv. Standard Hochdeutsch; Makhtesh Ramon correct geology (kein Meteoriten-/Vulkankrater); Dolphin Reef semi-wild framing; Bahá'í active religious site note; YAML fix for ASCII double-quotes in YAML double-quoted string (3-days-in-negev.md). /de/* prefix confirmed pages only; no fabricated prices; 10 tests (5 smoke + 5 a11y). Build: 1026→1031 pages. 1355/1355 e2e pass.
-- nextRotationCategory: REVIEW (iter839%5==4 → REVIEW; candidate: DE Phase DE-2 audit or ES Phase ES-11 audit)
+- iteration: 839
+- lastMode: REVIEW (iter839%5==4 → REVIEW; DE Phase DE-2 audit)
+- lastItem: review-839-de-phase2-link-fixes
+- lastResult: SHIPPED 9d8a7e5b. DE Phase DE-2 audit: 5 guides reviewed. 8 attraction link prefix bugs found and fixed across 2 guides (3-days-in-eilat: 4 bugs; 3-days-in-haifa: 4 bugs). 3 guides CLEAN (1-day-tel-aviv-itinerary, 3-days-in-negev, 3-days-in-tel-aviv). Gate: pnpm check 0 errors; build 1031 pages (no change); 1355/1355 e2e pass. CI in_progress (standard pattern).
+- nextRotationCategory: BUILD (iter840%5==0 → RESEARCH; iter840 is RESEARCH mode)
 - higgsfieldSpent: 0
-- updatedAt: 2026-07-29T01:10Z
+- updatedAt: 2026-07-29T01:50Z
 - branch context: work on master; feature work on auto/<slug>
+
+Notes: iter839 REVIEW — review-839-de-phase2-link-fixes SHIPPED 9d8a7e5b. Audited all 5 DE Phase DE-2 guides. 8 attraction link prefix bugs found in 2 guides (same systematic pattern as DE Phase DE-1 review iter834). 3-days-in-eilat.md: /eilat/coral-beach→/de/eilat/coral-beach, /eilat/underwater-observatory→/de/eilat/underwater-observatory, /eilat/dolphin-reef→/de/eilat/dolphin-reef, /eilat/timna-park→/de/eilat/timna-park. 3-days-in-haifa.md: /haifa/german-colony→/de/haifa/german-colony, /haifa/wadi-nisnas→/de/haifa/wadi-nisnas, /haifa/stella-maris→/de/haifa/stella-maris, /haifa/carmel-national-park→/de/haifa/carmel-national-park. Honesty check: no fabricated prices/ratings. Register check: all 5 guides consistently Standard Hochdeutsch. Build: 1031 pages (no change). 1355/1355 e2e pass.
 
 Notes: iter838 BUILD (i18n-DE) — de-phase-2 SHIPPED e1c560ca. DE Phase DE-2: 5 German guides (1-day-tel-aviv-itinerary, 3-days-in-eilat, 3-days-in-haifa, 3-days-in-negev, 3-days-in-tel-aviv). Standard Hochdeutsch; correct geology Makhtesh Ramon; Dolphin Reef semi-wild; Bahá'í religious site framing. DE guides: 92→97/396. Build: 1026→1031 pages. 1355/1355 e2e pass. YAML fix: escaped ASCII double-quotes inside YAML double-quoted string (3-days-in-negev.md „Erosionskrater" / „Boxcañon").
 

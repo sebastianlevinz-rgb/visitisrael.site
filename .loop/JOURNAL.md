@@ -12748,3 +12748,28 @@ Quality: Standard Hochdeutsch (kein Schweizerdeutsch/Österreichisch-spezifisch)
 Gate: pnpm check 0 errors (138 files, 0 errors); pnpm build 1031 pages (1026→1031, +5); 1355/1355 e2e pass (9.1 min).
 Ship: squash-merged to master e1c560ca, pushed. Branch auto/de-phase-2 deleted.
 Next: iter839 REVIEW (839%5==4 → REVIEW; candidate: audit DE Phase DE-2 guides or ES Phase ES-11).
+
+## 2026-07-29T01:50Z · iter 839 · REVIEW · review-839-de-phase2-link-fixes
+Rotation: iter839%5==4 → REVIEW. Target: DE Phase DE-2 guides (iter838).
+Audit: read all 5 guides; extracted all internal links; checked each against ls src/content/guides/de/, src/content/attractions/de/, src/content/regions/de/.
+Findings: 8 attraction link prefix bugs across 2 guides (same systematic pattern as DE Phase DE-1 review iter834).
+
+3-days-in-eilat.md (4 bugs — all Eilat attraction pages exist in attractions/de/):
+- /eilat/coral-beach → /de/eilat/coral-beach
+- /eilat/underwater-observatory → /de/eilat/underwater-observatory
+- /eilat/dolphin-reef → /de/eilat/dolphin-reef
+- /eilat/timna-park → /de/eilat/timna-park
+
+3-days-in-haifa.md (4 bugs — all Haifa attraction pages exist in attractions/de/):
+- /haifa/german-colony → /de/haifa/german-colony
+- /haifa/wadi-nisnas → /de/haifa/wadi-nisnas
+- /haifa/stella-maris → /de/haifa/stella-maris
+- /haifa/carmel-national-park → /de/haifa/carmel-national-park
+
+Clean guides: 1-day-tel-aviv-itinerary.md (no attraction links), 3-days-in-negev.md (no /region/attraction links), 3-days-in-tel-aviv.md (no /region/attraction links).
+Honesty check: AffiliateCard priceFrom/rating/reviews are YAML props not rendered in component interface → no fabricated data.
+Register check: all 5 guides consistently Standard Hochdeutsch (formal register).
+Note: /bahai-world-center-guide links in 3-days-in-haifa.md left as EN (no DE guide exists; intentional fallback).
+Gate: pnpm check 0 errors; build 1031 pages (no change); 1355/1355 e2e pass (9.7 min).
+Ship: committed 9d8a7e5b directly on master, pushed. CI in_progress (standard pattern).
+Next: iter840 RESEARCH (840%5==0 → RESEARCH; 170th research pass).
