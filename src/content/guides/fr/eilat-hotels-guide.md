@@ -3,7 +3,7 @@ title: "Hôtels à Eilat 2026 : guide par zone et budget"
 description: "Guide hôtels Eilat : plage nord, Coral Beach, petits budgets en centre-ville, nouvelles ouvertures de luxe 2025-2026. Tarifs saisonniers et matrice de décision."
 heroImage: /images/regions/eilat/hero.jpg
 category: Hébergement
-updatedAt: 2026-07-20
+updatedAt: 2026-07-29
 ctaHeading: "Recherchez des hôtels à Eilat pour vos dates"
 affiliateCtas:
   - partner: booking
@@ -20,7 +20,7 @@ affiliateCtas:
     cta: Voir les séjours budget à Eilat
   - partner: booking
     title: "Nouvelles ouvertures hôtels de luxe Eilat 2025-2026"
-    description: "Parcourez les nouvelles propriétés de luxe ouvertes ou rouvertes à Eilat — dont l'Isrotel Princess rénové et le groupe Airport City. Disponibilités en direct ; vérifiez quels établissements acceptent actuellement des réservations."
+    description: "Parcourez les nouvelles propriétés de luxe d'Eilat — cluster Airport City (l'Isrotel Princess est actuellement fermé). Disponibilités en direct ; vérifiez quels établissements acceptent actuellement des réservations."
     image: /images/regions/eilat/hero.jpg
     destination: Eilat
     cta: Voir les nouvelles ouvertures de luxe à Eilat
@@ -44,7 +44,7 @@ faqs:
   - question: "Eilat vaut-elle la peine pour un week-end ?"
     answer: "Oui — un vol du vendredi matin depuis Tel Aviv prend environ 50 minutes vers l'aéroport Ramon. Un week-end de deux nuits à Eilat fonctionne bien : plage et snorkeling à Coral Beach le vendredi, Dolphin Reef ou Parc Timna le samedi, vol du soir pour rentrer. C'est le court séjour domestique le plus populaire en Israël. Les prix sont plus élevés en dates de week-end (ven-sam) qu'en semaine ; comparez les deux options."
   - question: "Quels nouveaux hôtels ont ouvert à Eilat en 2025-2026 ?"
-    answer: "Le plus grand cycle d'investissement hôtelier d'Eilat depuis des décennies est en cours. L'Isrotel Princess (route de Coral Beach) a rouvert après une rénovation majeure en 2025-2026. Le développement Airport City, un projet de 1 milliard de NIS sur l'ancien site de l'aéroport d'Eilat, ajoute environ cinq nouveaux hôtels de luxe (environ 1 100 chambres haut de gamme au total) en phases jusqu'en 2026-2027. Toutes les propriétés Airport City ne seront pas ouvertes simultanément — vérifiez les disponibilités en direct."
+    answer: "Le plus grand cycle d'investissement hôtelier d'Eilat depuis des décennies est en cours. À noter : l'Isrotel Princess (route de Coral Beach) est actuellement fermé (juillet 2026) — le consortium Airport City a annoncé une future réhabilitation sous un nouveau nom, sans date de réouverture confirmée à ce jour ; vérifiez Booking.com avant de planifier votre séjour autour de cet hôtel. Le développement Airport City, un projet de 1 milliard de NIS sur l'ancien site de l'aéroport d'Eilat, ajoute environ cinq nouveaux hôtels de luxe (environ 1 100 chambres haut de gamme au total) en phases jusqu'en 2026-2027. Toutes les propriétés Airport City ne seront pas ouvertes simultanément — vérifiez les disponibilités en direct."
 ---
 
 **Eilat** est située à la pointe sud d'Israël sur le golfe d'Aqaba, à quelques kilomètres des frontières jordanienne et égyptienne, avec un climat annuel qui en fait la principale station balnéaire d'Israël. La ville compte 380+ hôtels répartis dans trois zones distinctes — chacune avec un caractère différent et un compromis distance-récif. Ce guide cartographie ces zones, nomme les meilleures options à chaque niveau de prix, et explique quand réserver et quand ne pas s'embêter avec la bande balnéaire.
@@ -111,7 +111,7 @@ Eilat dispose d'un solide niveau luxe ancré par les marques israéliennes de re
 
 **Isrotel Royal Beach** occupe une position centrale en bord de plage sur la promenade de la Plage Nord et est régulièrement classé parmi les meilleurs hôtels resorts d'Israël. Sa propriété sœur **Isrotel Yam Suf** se trouve à l'extrémité sud de la bande près de Coral Beach.
 
-**Isrotel Princess Eilat** (groupe Isrotel) sur la route de Coral Beach est un grand resort orienté familles avec un complexe de piscines exceptionnel et un accès direct à la zone de plage sud. L'hôtel a subi une rénovation importante et a rouvert en 2025-2026.
+**Isrotel Princess Eilat** (groupe Isrotel) sur la route de Coral Beach était un grand resort orienté familles avec un complexe de piscines exceptionnel et un accès direct à la zone de plage sud. L'hôtel est actuellement fermé (juillet 2026) — le consortium Airport City a annoncé une future réhabilitation sous un nouveau nom, sans date de réouverture confirmée. Vérifiez Booking.com avant de planifier votre séjour autour de cet établissement.
 
 **1 200 à 3 000+ ₪/nuit** est la fourchette luxe réaliste à Eilat, avec le haut de gamme pour les suites vue mer et les semaines de haute saison.
 
@@ -121,7 +121,7 @@ Eilat dispose d'un solide niveau luxe ancré par les marques israéliennes de re
 
 Eilat est au milieu de son plus grand cycle d'investissement hôtelier depuis des décennies. Le **cluster de resorts de luxe Airport City** — un développement de 1 milliard de NIS sur le terrain adjacent à la piste de l'ancien aéroport d'Eilat — a ajouté et ajoutera environ 1 100 chambres haut de gamme à travers cinq nouveaux établissements hôteliers, en phases jusqu'en 2026-2027.
 
-> **Conseil de planification :** la réouverture de l'Isrotel Princess et le développement Airport City signalent une mise à niveau significative de la capacité d'Eilat. Toujours utiliser une plateforme de réservation en direct plutôt que des estimations de prix en cache.
+> **Conseil de planification :** le développement Airport City signale une mise à niveau significative de la capacité d'Eilat. Utilisez toujours une plateforme de réservation en direct plutôt que des estimations de prix en cache.
 
 ---
 
@@ -151,9 +151,9 @@ Eilat est au milieu de son plus grand cycle d'investissement hôtelier depuis de
 | Priorité | Zone à choisir |
 |---|---|
 | Accès plage + promenade + vie nocturne | Bande Plage Nord |
-| Snorkeling ou plongée quotidienne sur le récif | Coral Beach Sud (près Isrotel Princess / Isrotel Yam Suf) |
+| Snorkeling ou plongée quotidienne sur le récif | Coral Beach Sud (près Isrotel Yam Suf / Réserve Coral Beach) |
 | Coût le plus bas | Pensions centre-ville |
-| Famille + infrastructure piscine | Plage Nord (Dan, Royal Beach) ou Isrotel Princess |
+| Famille + infrastructure piscine | Plage Nord (Dan, Royal Beach) |
 | Calme + moins de foule | Coral Beach Sud |
 | Nouvelle ouverture de luxe 2026 | Cluster Airport City (ouvertures échelonnées — vérifiez disponibilités) |
 
