@@ -94,7 +94,7 @@ Die **Aqaba-Promenade** — eine palmengesäumte Strandpromenade — verläuft m
 
 | | Aqaba | Eilat |
 |---|---|---|
-| **Bester Riffzugang** | Ufereinstieg von Strandclubs (10-Min.-Taxi zur Strandzone) | Ufereinstieg am [Korallenbeach-Naturreservat](/eilat-diving-snorkeling) (20 Min. Fußweg von Hotels) |
+| **Bester Riffzugang** | Ufereinstieg von Strandclubs (10-Min.-Taxi zur Strandzone) | Ufereinstieg am [Korallenbeach-Naturreservat](/de/eilat-diving-snorkeling) (20 Min. Fußweg von Hotels) |
 | **Besucheraufkommen (Hochsaison)** | Niedriger — weniger Tagesausflügler als in Eilat | Höher — israelische Familien und Reisegruppen |
 | **Korallengesundheit** | Starke Regeneration an Südufer-Riffen | Erholung; geschützte Abschnitte des Korallenbeach-Reservats in gutem Zustand |
 | **Einrichtungen** | Strandclubs mit Leihausrüstung | Gut ausgestattetes Reservat mit markierten Unterwasserpfaden |

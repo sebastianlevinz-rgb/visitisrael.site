@@ -108,7 +108,7 @@ Beide Spots erfordern einen zertifizierten Kurs bevor man selbstständig fährt.
 - **Dolphin Reef** — eine halbwilde Delphinkolonie, wo Schnorchler und Taucher das Wasser mit freilaufenden Großen Tümmlern teilen; Tauchgänge sind geführt und kapazitätsbegrenzt.
 - **Moses Rock, Japanese Gardens, Canyon** — die drei beliebtesten Tauchsites, von Einsteiger-Flachwasserriffen bis 30-m-Wandtauchgängen. Dutzende Tauchzentren an der nördlichen Strandpromenade bieten PADI-Kurse und Tagesausflugsboote.
 
-Für einen tieferen Einblick in Eilats Unterwasserwelt, siehe unseren [Eilat-Tauchreiseführer](/eilat-diving-snorkeling).
+Für einen tieferen Einblick in Eilats Unterwasserwelt, siehe unseren [Eilat-Tauchreiseführer](/de/eilat-diving-snorkeling).
 
 ---
 

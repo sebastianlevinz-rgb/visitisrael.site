@@ -59,13 +59,13 @@ Die zugänglichste Einführung in Eilats Riff. Ein Glasbodenboot ermöglicht es,
 
 Das [Naturschutzgebiet Coral Beach](/eilat/coral-beach) ist der Hauptschnorchelplatz — ein geschütztes Riff, das sich etwa 1,2 km entlang der Küste erstreckt, mit markierten Unterwasserpfaden. Der Eintritt mit eigener Ausrüstung kostet eine bescheidene Schutzgebühr am Eingang; eine geführte Tour bietet Navigation und in der Regel hochwertigere Ausrüstung. Die Bedingungen sind das ganze Jahr über gut, wobei der Sommer das wärmste Wasser und die beste Sichtweite bietet.
 
-Wer tiefer tauchen möchte, findet in unserem [Tauchen und Schnorcheln in Eilat-Leitfaden](/eilat-diving-snorkeling) alle Kursoptionen, empfohlene Anbieter und Saisontipps.
+Wer tiefer tauchen möchte, findet in unserem [Tauchen und Schnorcheln in Eilat-Leitfaden](/de/eilat-diving-snorkeling) alle Kursoptionen, empfohlene Anbieter und Saisontipps.
 
 ## Tauch-Touren
 
 Eilat ist eines der anfängerfreundlichsten Tauchziele der Welt — ein betreuter Freiwasser-Kurs kann vollständig im nördlichen Roten Meer absolviert werden, und die meisten Anbieter bieten PADI-Zertifizierung an. Fun-Dives für bereits zertifizierte Taucher finden in der Regel am Riff des [Unterwasser-Observatoriums](/eilat/underwater-observatory), an Moses Rock und in den Japanischen Gärten statt.
 
-Die Preise variieren: Ein einzelner geführter Shore-Tauchgang kostet etwa 50–80 $, ein PADI-Discover-Scuba-Probetauchgang ~80–110 $ und eine vollständige Open-Water-Zertifizierung (3–4 Tage) ~300–400 $ einschließlich Ausrüstung. Vergewissern Sie sich immer, dass Ihr Anbieter eine anerkannte Zertifizierung hat und dass das Guide-Taucher-Verhältnis angegeben ist. Siehe unseren [Eilat-Tauchleitfaden](/eilat-diving-snorkeling) für Anbieterempfehlungen und die besten Tauchstellen.
+Die Preise variieren: Ein einzelner geführter Shore-Tauchgang kostet etwa 50–80 $, ein PADI-Discover-Scuba-Probetauchgang ~80–110 $ und eine vollständige Open-Water-Zertifizierung (3–4 Tage) ~300–400 $ einschließlich Ausrüstung. Vergewissern Sie sich immer, dass Ihr Anbieter eine anerkannte Zertifizierung hat und dass das Guide-Taucher-Verhältnis angegeben ist. Siehe unseren [Eilat-Tauchleitfaden](/de/eilat-diving-snorkeling) für Anbieterempfehlungen und die besten Tauchstellen.
 
 ## Jeep-Safari und Wüstenausflüge in den Eilat-Bergen
 
@@ -91,14 +91,14 @@ Der beliebteste Länder-übergreifende Ausflug von Eilat. Petra — Jordaniens r
 
 Ein ganzer Tag in Petra ist wirklich lang — typischerweise Abfahrt aus Eilat um 05:30–06:00 Uhr und Rückkehr nach 21:00 Uhr. Das Gehen in Petra ist anspruchsvoll: Die klassische Siq-Schatz-Kloster-Runde deckt 7–12 km auf unebenem Gelände ab, je nachdem wie weit man erkundet. Tragen Sie Wanderschuhe, keine Sandalen.
 
-Für einen eingehenderen Vergleich der Eilat-Route gegenüber dem Einreisen aus Amman — einschließlich Kostenaufschlüsselung, Grenzwartezeiten und dem Argument für eine Übernachtung in Wadi Rum — siehe unseren [Leitfaden Petra von Eilat vs. von Amman](/petra-from-eilat-vs-amman) und [Petra-Touren im Vergleich](/petra-tours-compared).
+Für einen eingehenderen Vergleich der Eilat-Route gegenüber dem Einreisen aus Amman — einschließlich Kostenaufschlüsselung, Grenzwartezeiten und dem Argument für eine Übernachtung in Wadi Rum — siehe unseren [Leitfaden Petra von Eilat vs. von Amman](/de/petra-from-eilat-vs-amman) und [Petra-Touren im Vergleich](/de/petra-tours-compared).
 
 ## Wie wählen
 
 - **Erster Eilat-Besuch, begrenzte Zeit:** eine **Schnorcheltour im Roten Meer** am Morgen, dann das [Coral-Beach-Schutzgebiet](/eilat/coral-beach) nachmittags selbstständig erkunden.
-- **Zertifizierte Taucher:** ein **Fun-Tauchgang** oder ein Zwei-Tank-Geführter-Tauchgang bei einem der etablierten Anbieter; siehe [Tauchen in Eilat](/eilat-diving-snorkeling).
+- **Zertifizierte Taucher:** ein **Fun-Tauchgang** oder ein Zwei-Tank-Geführter-Tauchgang bei einem der etablierten Anbieter; siehe [Tauchen in Eilat](/de/eilat-diving-snorkeling).
 - **Wüstenlandschaftsfokus:** **Jeep-Safari in den Eilat-Bergen** zum Roten Canyon + Timna-Park, Halb- oder Ganztag.
 - **Familien mit kleinen Kindern:** **Glasbodenboot-Tour** (kein Schwimmen nötig) + Nachmittagsbesuch beim [Dolphin Reef](/eilat/dolphin-reef).
 - **Die klassische Israel–Jordanien-Kombination:** ein **Petra-Tagesausflug** — erschöpfend, aber unvergesslich; erwägen Sie eine Übernachtung, wenn Sie einen zweiten Tag erübrigen können.
 
-Für einen umfassenderen Überblick über geführte Touren in Israel, lesen Sie unseren [Leitfaden für die besten Touren in Israel](/best-tours-in-israel). Wenn Sie Petra besuchen und Routen vergleichen, deckt der [Leitfaden Petra von Eilat vs. von Amman](/petra-from-eilat-vs-amman) alle praktischen Überlegungen ab.
+Für einen umfassenderen Überblick über geführte Touren in Israel, lesen Sie unseren [Leitfaden für die besten Touren in Israel](/de/best-tours-in-israel). Wenn Sie Petra besuchen und Routen vergleichen, deckt der [Leitfaden Petra von Eilat vs. von Amman](/de/petra-from-eilat-vs-amman) alle praktischen Überlegungen ab.
