@@ -69,7 +69,7 @@ Zwei Besuchsmodi überlappen zeitlich. **Kostenlose Führungen** des vollständi
 
 ### Nachmittag — Deutsche Kolonie und Ben-Gurion-Allee
 
-Die [Deutsche Kolonie](/haifa/german-colony) am Fuß der Terrassen ist eines der am besten erhaltenen Viertel des 19. Jahrhunderts in Israel. Die Ben-Gurion-Allee verläuft als langer baumgesäumter Boulevard direkt auf der Bahá'í-Sichtachse; die 1869 von württembergischen Templer-Siedlern erbauten Kalksteinhäuser beherbergen heute Cafés, Designshops und Brasseries. Der Blick die Allee hinauf zum Schrein des Báb — besonders im goldenen Nachmittagslicht — ist Haifas meistfotografierter Winkel.
+Die [Deutsche Kolonie](/de/haifa/german-colony) am Fuß der Terrassen ist eines der am besten erhaltenen Viertel des 19. Jahrhunderts in Israel. Die Ben-Gurion-Allee verläuft als langer baumgesäumter Boulevard direkt auf der Bahá'í-Sichtachse; die 1869 von württembergischen Templer-Siedlern erbauten Kalksteinhäuser beherbergen heute Cafés, Designshops und Brasseries. Der Blick die Allee hinauf zum Schrein des Báb — besonders im goldenen Nachmittagslicht — ist Haifas meistfotografierter Winkel.
 
 Gehen Sie die gesamte Länge der Allee entlang (ca. 20 Minuten von Ende zu Ende) und halten Sie am Templer-Friedhof am südlichen Ende — die Grabsteine zeichnen deutschsprachige Siedler auf, die Jahrzehnte vor der zionistischen Bewegung ankamen. Das [Haifaer Kunstmuseum](https://hma.org.il) liegt am Rand der Kolonie — ein vertretbarer 45-Minuten-Halt.
 
@@ -83,7 +83,7 @@ Tag 2 bewegt sich den Haifa-Hang hinauf und in das arabisch-christliche Viertel,
 
 ### Morgen — Wadi Nisnas
 
-[Wadi Nisnas](/haifa/wadi-nisnas) ist ein kleines, dichtes arabisch-christliches Viertel auf Haifas unterem Hang — eines der ältesten dauerhaft bewohnten Viertel der Stadt. Das Hauptangebot ist die Kulinarik: Mehrere Hummus- und Falafel-Institutionen, die seit Jahrzehnten in Betrieb sind und sich hauptsächlich an arabische Einheimische richten, nicht an Touristen. Die Atmosphäre ist aufrichtig Viertel-Maßstab; die Straßen sind eng, seit 2011 in Auftrag gegebene Wandgemälde bedecken viele Wände, und das Tempo ist gemächlich.
+[Wadi Nisnas](/de/haifa/wadi-nisnas) ist ein kleines, dichtes arabisch-christliches Viertel auf Haifas unterem Hang — eines der ältesten dauerhaft bewohnten Viertel der Stadt. Das Hauptangebot ist die Kulinarik: Mehrere Hummus- und Falafel-Institutionen, die seit Jahrzehnten in Betrieb sind und sich hauptsächlich an arabische Einheimische richten, nicht an Touristen. Die Atmosphäre ist aufrichtig Viertel-Maßstab; die Straßen sind eng, seit 2011 in Auftrag gegebene Wandgemälde bedecken viele Wände, und das Tempo ist gemächlich.
 
 Das **Fest der Feste** (meist im Dezember) füllt Wadi Nisnas mit Märkten, Live-Musik und gemeinschaftsübergreifenden Veranstaltungen, die das jüdische Chanukka und das christliche Weihnachten gemeinsam feiern — ein Schaufenster von Haifas arabischen, jüdischen und christlichen Gemeinschaften. Wenn Ihr Besuch in den Dezember fällt, ist dieses Festival den Urlaub wert.
 
@@ -111,7 +111,7 @@ Tag 3 verlässt die Stadt Richtung Karmelgrat — das Plateau über Haifa, Heima
 
 ### Morgen — Stella-Maris-Karmeliterkloster
 
-[Stella Maris](/haifa/stella-maris) liegt auf der Klippenkante des Karmel, 200 Meter über dem Mittelmeer. Der Unbeschuhte Karmeliterorden unterhält seit dem 12. Jahrhundert Präsenz an diesem Ort; die heutige Kirche stammt aus den 1820er Jahren. Das Innere beherbergt die Elias-Höhle — die traditionelle Zuflucht des Propheten, verehrt von jüdischen, christlichen und muslimischen Pilgern — und das Deckenfresko der Kirchendecke ist ein ungewöhnliches Bildprogramm.
+[Stella Maris](/de/haifa/stella-maris) liegt auf der Klippenkante des Karmel, 200 Meter über dem Mittelmeer. Der Unbeschuhte Karmeliterorden unterhält seit dem 12. Jahrhundert Präsenz an diesem Ort; die heutige Kirche stammt aus den 1820er Jahren. Das Innere beherbergt die Elias-Höhle — die traditionelle Zuflucht des Propheten, verehrt von jüdischen, christlichen und muslimischen Pilgern — und das Deckenfresko der Kirchendecke ist ein ungewöhnliches Bildprogramm.
 
 Von der Klosterterrasse erstreckt sich der Blick südwärts entlang der Mittelmeerküste und nördwärts über die Haifa-Bucht. Es gibt auch eine Seilbahn vom Kloster hinunter zur Bat-Galim-Strandpromenade — ein 20-sekündiger Abstieg von 75 Metern als alternativer Rückweg auf Meereshöhe. Eintritt in die Kirche kostenlos; angemessene Kleidung erforderlich.
 
@@ -131,7 +131,7 @@ Die Hauptstraße des Dorfes (der Shuk) ist ein dichter Markt mit Drusen-Handwerk
 
 ### Nachmittag Rückfahrt — Karmel-Nationalpark
 
-Auf der Rückfahrt nach Haifa durchquert der [Karmel-Nationalpark](/haifa/carmel-national-park) das bewaldete Plateau zwischen den Dörfern und der Stadt. Der Park hat mehrere markierte Wanderwege durch mediterranes Buschland — der kurze Nahal-Lotem-Pfad (ca. 45 Minuten) eignet sich für eine Nachmittagswanderung vor der Rückkehr. Im Frühling (Februar–April) sind die Waldböden mit Wildblumen bedeckt; im Sommer ist die Schattentemperatur deutlich kühler als an der Küste.
+Auf der Rückfahrt nach Haifa durchquert der [Karmel-Nationalpark](/de/haifa/carmel-national-park) das bewaldete Plateau zwischen den Dörfern und der Stadt. Der Park hat mehrere markierte Wanderwege durch mediterranes Buschland — der kurze Nahal-Lotem-Pfad (ca. 45 Minuten) eignet sich für eine Nachmittagswanderung vor der Rückkehr. Im Frühling (Februar–April) sind die Waldböden mit Wildblumen bedeckt; im Sommer ist die Schattentemperatur deutlich kühler als an der Küste.
 
 ## Optionale Ergänzungen bei längerem Aufenthalt
 

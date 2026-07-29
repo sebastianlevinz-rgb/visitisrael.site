@@ -57,13 +57,13 @@ Tag 1 dient der Eingewöhnung: das Rote Meer, die Temperaturen und warum das Rif
 
 ### Morgen — Coral Beach Nature Reserve
 
-Das [Coral Beach Nature Reserve](/eilat/coral-beach) liegt 3 km südlich des Stadtzentrums an der Golfküste. Kaufen Sie am Eingang eine INPA-Eintrittskarte — die Gebühren sind moderat und enthalten Schnorchelausrüstung vom Verleih am Kiosk. Das Reservat schützt das nördlichste Korallenriff der Welt; das Wasser ist glasklar, die Sicht beträgt in der Regel 20 Meter oder mehr, und das Riff beginnt direkt am Ufer. Kein Boot nötig. Riffverträgliche Sonnencreme mitbringen — chemische Sonnenschutzmittel schädigen das Korall.
+Das [Coral Beach Nature Reserve](/de/eilat/coral-beach) liegt 3 km südlich des Stadtzentrums an der Golfküste. Kaufen Sie am Eingang eine INPA-Eintrittskarte — die Gebühren sind moderat und enthalten Schnorchelausrüstung vom Verleih am Kiosk. Das Reservat schützt das nördlichste Korallenriff der Welt; das Wasser ist glasklar, die Sicht beträgt in der Regel 20 Meter oder mehr, und das Riff beginnt direkt am Ufer. Kein Boot nötig. Riffverträgliche Sonnencreme mitbringen — chemische Sonnenschutzmittel schädigen das Korall.
 
 Planen Sie zwei bis drei Stunden ein. Das Riff ist am Morgen am fotogensten, bevor die direkte Sonne die Kontraste aushebelt. Für geführtes Schnorcheln oder ein Seekajak bieten die benachbarten Tauchzentren geführte Rifftouren an.
 
 ### Nachmittag — Unterwasserobservatorium Marine Park
 
-Das [Unterwasserobservatorium Marine Park](/eilat/underwater-observatory) liegt 1 km nördlich von Coral Beach. Die Beobachtungskammer taucht sechs Meter unter die Meeresoberfläche ein, umgeben von 800+ Arten des Roten Meeres — Haie, Rochen und Rifffische in einer naturnahen Umgebung. Es gibt auch ein Berührungsbecken, einen Aquariumskomplex und Haibecken über Wasser. Einplanen: zwei Stunden.
+Das [Unterwasserobservatorium Marine Park](/de/eilat/underwater-observatory) liegt 1 km nördlich von Coral Beach. Die Beobachtungskammer taucht sechs Meter unter die Meeresoberfläche ein, umgeben von 800+ Arten des Roten Meeres — Haie, Rochen und Rifffische in einer naturnahen Umgebung. Es gibt auch ein Berührungsbecken, einen Aquariumskomplex und Haibecken über Wasser. Einplanen: zwei Stunden.
 
 Zusammen machen Coral Beach am Morgen und das Observatorium am Nachmittag einen vollständigen Rotes-Meer-Tag — ohne Boot, Tauchlizenz oder Tour. Beide geschlossen an Jom Kippur.
 
@@ -93,13 +93,13 @@ Tag 3 teilt sich zwischen dem Meer am Morgen und der Wüste am Nachmittag.
 
 ### Morgen — Delfinriff
 
-Das [Delfinriff](/eilat/dolphin-reef) liegt 3 km südlich des Stadtzentrums, wenige Fahrminuten von der Hotelzone. Das Riff beherbergt eine halbwilde Gruppe von Großen Tümmlern, die im offenen Wasser mit Besuchern interagieren — keine eingeübte Vorstellung, sondern eine offene Meereserbegegnung, bei der die Tiere ihr eigenes Interaktionsniveau wählen. Morgensessions sind schneller ausgebucht als Nachmittage; eine Swim-Session am Vortag reservieren.
+Das [Delfinriff](/de/eilat/dolphin-reef) liegt 3 km südlich des Stadtzentrums, wenige Fahrminuten von der Hotelzone. Das Riff beherbergt eine halbwilde Gruppe von Großen Tümmlern, die im offenen Wasser mit Besuchern interagieren — keine eingeübte Vorstellung, sondern eine offene Meereserbegegnung, bei der die Tiere ihr eigenes Interaktionsniveau wählen. Morgensessions sind schneller ausgebucht als Nachmittage; eine Swim-Session am Vortag reservieren.
 
 Der Eintrittspreis deckt den Strand und die Beobachtungsstege ab, wenn Sie nicht schwimmen wollen; die Swim-Session ist eine separate Eintrittskarte. Ehrlicher Hinweis: Die Delphine können das Gebiet verlassen und tun es manchmal — eine nahe Begegnung ist nicht garantiert, und ein Delfinriff-Besuch bei einer ruhigen Session kann enttäuschend wirken. Die meisten Besuche sind es wert.
 
 ### Nachmittag — Timna-Tal und König-Salomos-Säulen
 
-Der [Timna-Park](/eilat/timna-park) liegt 25 km nördlich von Eilat an der Route 90. Der Park bewahrt eine der ältesten Kupferminen der Welt — 3.000 Jahre kontinuierlicher Abbau hinterließen Schächte, antike Schmelzstätten und die berühmten pilzförmigen Sandsteinformationen einschließlich der König-Salomos-Säulen. Der Park ist groß (60 Quadratkilometer) und mit dem Auto erschlossen; die meisten Besucher fahren zwischen den Hauptsehenswürdigkeiten.
+Der [Timna-Park](/de/eilat/timna-park) liegt 25 km nördlich von Eilat an der Route 90. Der Park bewahrt eine der ältesten Kupferminen der Welt — 3.000 Jahre kontinuierlicher Abbau hinterließen Schächte, antike Schmelzstätten und die berühmten pilzförmigen Sandsteinformationen einschließlich der König-Salomos-Säulen. Der Park ist groß (60 Quadratkilometer) und mit dem Auto erschlossen; die meisten Besucher fahren zwischen den Hauptsehenswürdigkeiten.
 
 Wichtige Stationen: König-Salomos-Säulen (die meistfotografierte Formation — zwei massive Säulen aus nubischem Sandstein, die durch natürliche Erosion zu Architektur wurden), der ägyptische Hathor-Tempel (für sein Alter bemerkenswert erhalten) und der Timna-See im Parkmittelpunkt. Das Sonnenuntergangslicht auf dem rot-orangefarbenen Sandstein ist spektakulär — den König-Salomos-Säulen-Besuch eine Stunde vor Sonnenuntergang einplanen.
 
