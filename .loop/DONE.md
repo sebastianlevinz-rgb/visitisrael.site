@@ -1,5 +1,8 @@
 # DONE (shipped — do NOT re-do; basis for REVIEW mode)
 
+## iter856 · BUILD · es-phase-15 · df7dc674
+- ES Phase ES-15 SHIPPED: galilee-christian-sites-circuit, free-things-to-do-israel, dead-sea-day-trip-comparison, best-hotels-sea-of-galilee, cycling-in-israel. Neutral LATAM Spanish tuteo; YAML double-quotes; paired-naming Cafarnaúm/כְּפַר נַחוּם + Magdala/Migdal; /es/ prefix only for confirmed existing ES pages; no fabricated prices; Bahá'í active-site caveat on free-things-to-do-israel; Dolphin Reef semi-wild note on best-hotels-sea-of-galilee. 10 new tests (5 smoke + 5 a11y). ES guides: 75→80/396. Build: 1071→1081 pages. 1455/1455 e2e pass (10.8m).
+
 ## iter854 · REVIEW · review-854-de5-link-fixes · 1aaba278
 - DE Phase DE-5 link audit: 7 prefix bugs fixed across 3 DE guides.
   aqaba-from-eilat.md: /eilat-diving-snorkeling → /de/eilat-diving-snorkeling (comparison table).

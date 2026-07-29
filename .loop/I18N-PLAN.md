@@ -6,19 +6,19 @@
 >
 > One bounded slice per loop iteration. NEVER bulk-translate in one shot.
 
-## Current status snapshot (2026-07-29 iter855 RESEARCH)
+## Current status snapshot (2026-07-29 iter856 BUILD)
 
 | Locale | Guides | Attractions | Regions | Itineraries |
 |--------|--------|-------------|---------|-------------|
 | en     | 396    | 65          | 11      | 6           |
 | fr     | 117    | 61          | 11      | 6           |
 | de     | 112    | 61          | 11      | 6           |
-| es     | 75     | 61          | 11      | 6           |
+| es     | 80     | 61          | 11      | 6           |
 
 **Gaps to close:**
-- es guides: **321 missing** (75/396 done — Phase ES-14 SHIPPED iter851; next: ES-15 DEFINED iter855)
-- fr guides: **279 missing** (117/396 done — Phase FR-6 SHIPPED iter852; next: FR-7 UPDATED iter855)
-- de guides: **284 missing** (112/396 done — Phase DE-5 SHIPPED iter853; next: DE-6 DEFINED iter855)
+- es guides: **316 missing** (80/396 done — Phase ES-15 SHIPPED iter856; next: ES-16 to define)
+- fr guides: **279 missing** (117/396 done — Phase FR-6 SHIPPED iter852; next: FR-7 DEFINED iter855 — ready)
+- de guides: **284 missing** (112/396 done — Phase DE-5 SHIPPED iter853; next: DE-6 DEFINED iter855 — ready)
 - fr/de/es attractions: **4 missing each** (the 4 EN attractions added after Phase 4)
 
 **Dead Sea cluster status (iter855 audit):**
@@ -165,33 +165,24 @@ Take the top 5 by priority (or head -5 if priority not obvious), translate each 
   no fabricated prices; Easter 2027 dates confirmed (Catholic April 20; Orthodox/Armenian April 12);
   paired-naming where applicable; no fabricated tour prices (ranges only).
   Status: ready — pick in next ES BUILD iteration.
-- Phase ES-15 — DEFINED iter855 (173rd research pass). Next ES batch (top 5 by SEO priority + LATAM market fit):
+- Phase ES-15 — DONE. iter856 shipped df7dc674:
   galilee-christian-sites-circuit, free-things-to-do-israel, dead-sea-day-trip-comparison,
   best-hotels-sea-of-galilee, cycling-in-israel.
   Rationale: (1) galilee-christian-sites-circuit: "Circuito Cristiano Galilea / Sitios Bíblicos
-  del Mar de Galilea" = zero LATAM editorial competition confirmed; Capernaum + Tabgha +
-  Church of Beatitudes + Magdala = core Sea of Galilee pilgrimage circuit; self-drive format
-  ideal for independent LATAM travelers; pairs with 3-days-in-galilee + best-hotels-tiberias
-  already in ES; high GYG affiliate value (guided Galilee tours);
-  (2) free-things-to-do-israel: "Actividades gratis en Israel" / "Cosas gratuitas en Israel" =
-  unclaimed in LATAM Spanish editorial; Yad Vashem + Tel Aviv beaches + Bahá'í Gardens +
-  Machane Yehuda free entry = confirmed free; budget travel = very high LATAM market volume;
-  GYG CTA for "combine free sights with paid experience";
-  (3) dead-sea-day-trip-comparison: "¿Mar Muerto desde Jerusalén o Tel Aviv?" = decision content
-  completing ES Dead Sea cluster (already has dead-sea-guide + dead-sea-hotels-guide +
-  dead-sea-medical-tourism + dead-sea-tours-compared + dead-sea-vs-eilat); high purchase intent;
-  GYG/Civitatis day-trip booking CTA; compares journey times, prices, add-ons;
-  (4) best-hotels-sea-of-galilee: "Hoteles Mar de Galilea / Lago Kinneret" = unclaimed in LATAM
-  Spanish; completes ES Galilee accommodation cluster (have 3-days-in-galilee + best-hotels-tiberias);
-  kibbutz resorts + Scots Hotel + east-shore Golan retreats; Booking.com affiliate value;
-  (5) cycling-in-israel: "Ciclismo en Israel / Tel Aviv en bicicleta" = zero confirmed ES editorial
-  competition; Tel Aviv 150km+ dedicated bike lanes + Tel-O-Fun bike share unique in region;
-  growing LATAM adventure/active tourism; Israel National Trail (Shvil HaOfanim) appeal;
-  pairs with ES 3-days-in-tel-aviv + eilat-travel-guide.
-  Quality: neutral LATAM Spanish tuteo; YAML double-quotes; /es/ prefix for confirmed existing
-  ES pages only; no fabricated prices; Galilee Christian site framing paired-naming where applicable
-  (Capernaum/كفر ناحوم); cycling prices as ranges only. 10 new tests (5 smoke + 5 a11y).
-  Status: ready — pick in next ES BUILD iteration.
+  del Mar de Galilea" = zero LATAM editorial competition; Capernaum/Tabgha/Church of Beatitudes/
+  Magdala = core Sea of Galilee pilgrimage circuit; self-drive format; pairs with 3-days-in-galilee
+  + best-hotels-tiberias already in ES; high GYG affiliate value;
+  (2) free-things-to-do-israel: "Actividades gratis en Israel" unclaimed in LATAM Spanish; Yad Vashem
+  + Tel Aviv beaches + Bahá'í Gardens + Machane Yehuda free entry confirmed; budget LATAM market;
+  (3) dead-sea-day-trip-comparison: "¿Mar Muerto desde Jerusalén o Tel Aviv?" completes ES Dead Sea
+  cluster (guide + hotels + medical-tourism + tours-compared + vs-eilat already shipped); high purchase
+  intent; (4) best-hotels-sea-of-galilee: "Hoteles Mar de Galilea / Lago Kinneret" unclaimed in LATAM
+  Spanish; kibbutz resorts + Scots Hotel + east-shore retreats; Booking.com affiliate;
+  (5) cycling-in-israel: zero ES editorial; Tel Aviv 150km+ bike lanes + Tel-O-Fun; adventure tourism.
+  Quality: neutral LATAM Spanish tuteo; YAML double-quotes; paired-naming Cafarnaúm/כְּפַר נַחוּם +
+  Magdala/Migdal; /es/ prefix for confirmed existing ES pages only; no fabricated prices; Bahá'í
+  active-site caveat; cycling prices as ranges only. 10 new tests (5 smoke + 5 a11y).
+  ES guides: 75→80/396. Build: 1071→1081 pages. 1445→1455 e2e pass.
 
 ### FR guide catch-up (117 / 396 = 279 remaining)
 - Phase FR-1 — DONE. iter828 shipped ff27fd98:

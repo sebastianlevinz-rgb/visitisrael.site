@@ -12964,3 +12964,15 @@ Batch definitions added to I18N-PLAN.md + BACKLOG.md:
 Gate: N/A (research mode, no shipping).
 Ship: N/A. JOURNAL + STATE + BACKLOG + I18N-PLAN updated; commit+push to advance state.
 Next: iter856 BUILD (856%5==1 → BUILD). TOP P0: Isrotel Princess honesty fix (eilat-hotels-guide EN+ES/FR/DE). After that: ES-15 or DE-6 or FR-7 BUILD.
+
+## 2026-07-29 · iter 856 · BUILD · es-phase-15
+What: BUILD mode (856%5==1). i18n ES Phase ES-15. 5 ES guides: galilee-christian-sites-circuit, free-things-to-do-israel, dead-sea-day-trip-comparison, best-hotels-sea-of-galilee, cycling-in-israel. LATAM Catholic Galilee circuit + budget travel + Dead Sea cluster addition + Galilee accommodation + adventure cycling.
+  galilee-christian-sites-circuit: 6-site circuit (Cafarnaúm + Tabgha ×2 + Bienaventuranzas + Magdala + Kursi optional); driving logistics; Nazareth combination; paired-naming Cafarnaúm/כְּפַר נַחוּם + Magdala/Migdal; GYG/discovercars/booking CTAs; /es/ prefix only for confirmed existing ES pages.
+  free-things-to-do-israel: 10 free attractions (Yad Vashem, Muro Lamentos, playas TLV, Jardines Bahá'í, Vía Dolorosa, Mahane Yehuda, Monte Olivos, Viejo Jaffa, TLV Greeters, Casa Ben-Gurion); Bahá'í active-site caveat (advance booking required); <span dir="ltr" lang="en"> for Tel-O-Fun, Rav-Kav brand names.
+  dead-sea-day-trip-comparison: comparison table (trayecto/duración/Masada combo/tiempo flotación/precio/mejor para); Jerusalem vs Tel Aviv sections; self-drive section; price ranges 89–120 USD / 60–100 USD per person; completes ES Dead Sea cluster.
+  best-hotels-sea-of-galilee: four-shores orientation; Tiberias city defers to /es/best-hotels-tiberias; Nof Ginosar/Migdal/northern shore pilgrim centres/Ein Gev/southern kibbutz; 11-row decision matrix; seasonal booking patterns; ₪150–300/₪500–1000/₪1000–2200 price tiers.
+  cycling-in-israel: Tel Aviv focus (terrain, Tel-O-Fun, 4 key routes: Tayelet/Yarkon/White City/Tayelet-Jaffa); Galilee loop + Golan + Negev + 1200km Israel Bike Trail; El Al/Tel-O-Fun <span dir="ltr"> wrapping; helmet law accurately described.
+Quality: neutral LATAM Spanish tuteo; YAML double-quotes; no fabricated prices/ratings; 10 new tests (5 smoke + 5 a11y) added to smoke.spec.ts + a11y.spec.ts ROUTES arrays. git fetch + hard-reset to origin/master required at startup (50 detached commits from prior session).
+Gate: pnpm check 0 errors; build 1081 pages (+10, 1071→1081); pnpm test:e2e 1455/1455 pass (10.8m). GREEN.
+Ship: squash-merged to master df7dc674, pushed. CI + Lighthouse workflows triggered.
+Next: iter857 BUILD (857%5==2 → BUILD). FR Phase FR-7: easter-in-jerusalem, best-hotels-sea-of-galilee, best-hotels-haifa, ashdod-cruise-port-excursions, best-hotels-negev. P0 Isrotel Princess Eilat honesty fix still pending (eilat-hotels-guide EN+ES/FR/DE — target: next BUILD pass or dedicated fix).
