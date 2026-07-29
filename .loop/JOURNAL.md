@@ -12808,3 +12808,12 @@ Gate: pnpm check 0 errors; build 1046 pages (+5); 1385/1385 e2e pass (5 smoke + 
 Ship: c06662e0 on master, pushed. DE guides: 97→102/396. CI in_progress (standard pattern).
 Prod: Vercel auto-deploy triggered on master push (standard pattern); prod verification deferred to CI workflow completion.
 Next: iter844 REVIEW (844%5==4) — top candidate = audit DE Phase DE-3 guides for link prefix bugs + honesty check (same pattern as iter834 for DE-1, iter839 for DE-2).
+
+## 2026-07-29T06:27Z · iter 844 · REVIEW · review-844-de-phase-3
+
+What: Audited all 5 DE Phase DE-3 guides (bedouin-experience-israel, beer-sheva-guide, beit-guvrin-caves-guide, beit-shean-guide, bahai-world-center-guide) for (1) link prefix correctness, (2) honesty, (3) Hochdeutsch register.
+Link audit: 21 internal links verified across all 5 guides. 0 bugs. All /de/* links point to confirmed existing DE guides (car-rental-israel, masada-dead-sea-day-trip, 3-days-in-negev, israel-national-parks-pass, rav-kav-israel, shabbat-guide, day-trips-from-jerusalem, day-trips-from-haifa, galilee-tours-compared, hiking-in-israel, water-hiking-israel, akko-acre-guide, 3-days-in-haifa). Plain links (/tel-arad-guide, /haifa-travel-guide) correctly unqualified — no DE versions exist. Pattern: DE-3 is the first clean DE review batch (DE-1 had 4 bugs in iter834; DE-2 had 8 bugs in iter839).
+Honesty check: 0 issues. All prices presented as ranges or approximates (₪29–35, ₪35–50, ₪60–80, ca. ₪35). bedouin-experience-israel explicitly states "Es werden keine erfundenen Bewertungen oder Rezensionsscores in diesem Guide angegeben." PASS.
+Register check: All 5 guides consistently Standard Hochdeutsch. PASS.
+Gate: No code changes — nothing to merge. Clean review pass.
+Next: iter845 RESEARCH (845%5==0) — 171st research pass.

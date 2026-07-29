@@ -1,12 +1,12 @@
 # LOOP STATE
 
-- iteration: 843
-- lastMode: BUILD (iter843%5==3 → BUILD; i18n-DE category)
-- lastItem: de-phase-3 (bedouin-experience-israel, beer-sheva-guide, beit-guvrin-caves-guide, beit-shean-guide, bahai-world-center-guide)
-- lastResult: SHIPPED c06662e0. DE Phase DE-3: 5 German guides. Standard Hochdeutsch; /de/* prefix for confirmed existing DE pages; plain links for EN-only pages; diyafa Beduinen cultural framing; ANZAC 4. Australische Light-Horse-Brigade Kavallerieritt 31. Oktober 1917 Beer-Sheva; Bet-Guvrin-Höhlen UNESCO Glockenhöhlen + Sidonische Grabkammern + Taubenschläge (Columbaria) + Amphitheater; Beit She'an Nysa-Scythopolis Dekapolis + 749 CE Galiläa-Erdbeben-Zeitkapsel; Bahá'í-Weltzentrum active religious site (non-Bahá'ís Terrassen/Außenbereiche; Schrein-Innenraum nur für Bahá'í-Pilger) + Freitagnachmittag-Schließung Bahjí; no fabricated prices. 10 new tests (5 smoke + 5 a11y). DE guides: 97→102/396. Build: 1041→1046 pages. 1385/1385 e2e pass. CI in_progress (standard pattern).
-- nextRotationCategory: REVIEW (iter844%5==4 → REVIEW; top candidate = review iter843 DE Phase DE-3 guides for link prefix bugs + honesty check)
+- iteration: 844
+- lastMode: REVIEW (iter844%5==4 → REVIEW; DE Phase DE-3 link/honesty/register audit)
+- lastItem: review-844-de-phase-3 (bedouin-experience-israel, beer-sheva-guide, beit-guvrin-caves-guide, beit-shean-guide, bahai-world-center-guide)
+- lastResult: CLEAN — 21 internal links audited across 5 guides; 0 link prefix bugs (all /de/* links point to confirmed existing DE guides; /tel-arad-guide and /haifa-travel-guide correctly left unqualified as no DE version exists); 0 honesty issues (all prices as ranges or approximates: ₪29–35, ₪35–50, ₪60–80, ca. ₪35; no fabricated ratings or review counts; bedouin-experience-israel explicitly states no fabricated reviews); Standard Hochdeutsch register consistent throughout all 5 guides. No code changes needed.
+- nextRotationCategory: RESEARCH (iter845%5==0 → RESEARCH; 171st research pass)
 - higgsfieldSpent: 0
-- updatedAt: 2026-07-29T06:00Z
+- updatedAt: 2026-07-29T06:27Z
 - branch context: work on master; feature work on auto/<slug>
 
 Notes: iter840 RESEARCH — 170th research pass. Key findings: (1) LATAM "Gran Tour Israel y Jordania" is #1 LATAM package tour product → israel-jordan-itinerary.md must ship in ES; (2) beit-guvrin-caves-guide + beit-shean-guide have SERP gaps in all 3 language markets; (3) bethlehem-tours-compared.md critical for LATAM Civitatis/toursfestival conversion funnel; (4) Gordonia Zichron Yaakov (Fattal Hotels) all-suite resort opened summer 2026 — not in our guides; (5) InterContinental Jerusalem may have opened by now — freshness check needed. Sources: routard.com, civitatis.com, viel-unterwegs.de, eberhardt-travel.de, tourradar.com, myisraelstay.com, ynetnews.com, israelhayom.com. i18n phases ES-12/FR-4/DE-3 all defined in BACKLOG and I18N-PLAN.md.
