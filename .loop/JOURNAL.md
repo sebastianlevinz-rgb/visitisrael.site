@@ -12937,3 +12937,15 @@ Context: squash-merge found nothing to squash (auto/de-phase-5 branch had no com
 Gate: pnpm check 0 errors; pnpm build 1076 pages (+5 vs 1071); pnpm test:e2e 1445/1445 pass. PLAYWRIGHT_BROWSERS_PATH=/opt/pw-browsers.
 Ship: committed acb25c7b to master; pushed origin/master. CI + Lighthouse in_progress at push time (run IDs 30473979038 / 30473981099).
 Next: iter854 REVIEW (854%5==4 → REVIEW; top P1: review DE-5 guides for link prefix correctness + honesty + Hochdeutsch register).
+
+## 2026-07-29 · iter 854 · REVIEW · review-854-de5-link-fixes
+What: REVIEW pass — audited all 5 DE Phase DE-5 guides (best-hotels-haifa, bethlehem-tours-compared, dead-sea-medical-tourism, city-of-david-jerusalem, aqaba-from-eilat) for (1) link prefix correctness, (2) honesty, (3) Hochdeutsch register.
+Link audit: expanded scope to include other DE guides referencing eilat-diving-snorkeling. Found 7 missing /de/ prefix bugs across 3 files:
+  - aqaba-from-eilat.md line 97: /eilat-diving-snorkeling → /de/eilat-diving-snorkeling (DE-5 guide; comparison table had inconsistency vs. footer which was correct)
+  - eilat-tours-compared.md: 3× /eilat-diving-snorkeling + /petra-from-eilat-vs-amman (×2) + /petra-tours-compared + /best-tours-in-israel (all existing DE guides confirmed)
+  - israel-adventure-sports.md: /eilat-diving-snorkeling
+Honesty check: all 5 DE-5 guides PASS — price ranges only, UVB Totes-Meer claims hedged (70-90% PASI clearance in studies), GKV framing qualified (historisch/variiert je Krankenkasse), no fabricated ratings, Elad Foundation neutral framing, National Parks Pass NOT valid (honesty note preserved).
+Register: Standard Hochdeutsch throughout PASS.
+Gate: pnpm check 0 errors; build 1076 pages (no change); pnpm test:e2e 1445/1445 pass (10.8m).
+Ship: committed 1aaba278 to master; pushed origin/master. CI in_progress at push time.
+Next: iter855 RESEARCH (855%5==0 → RESEARCH; candidates: ES-15, FR-7, DE-6 batch definition).

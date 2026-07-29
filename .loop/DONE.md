@@ -1,6 +1,15 @@
 # DONE (shipped — do NOT re-do; basis for REVIEW mode)
 
-## iter852 · BUILD · fr-phase-6 · b5b1b9b3
+## iter854 · REVIEW · review-854-de5-link-fixes · 1aaba278
+- DE Phase DE-5 link audit: 7 prefix bugs fixed across 3 DE guides.
+  aqaba-from-eilat.md: /eilat-diving-snorkeling → /de/eilat-diving-snorkeling (comparison table).
+  eilat-tours-compared.md: 3× /eilat-diving-snorkeling + /petra-from-eilat-vs-amman (×2) + /petra-tours-compared + /best-tours-in-israel → all /de/ prefixed.
+  israel-adventure-sports.md: /eilat-diving-snorkeling → /de/eilat-diving-snorkeling.
+  Honesty: all 5 DE-5 guides PASS (price ranges only; UVB claims hedged; GKV framing qualified; no fabricated ratings).
+  Register: Standard Hochdeutsch throughout PASS.
+  1445/1445 e2e pass. Build 1076 pages (no change).
+
+## iter853 · BUILD · de-phase-5 · acb25c7b
 - FR Phase FR-6 SHIPPED: bethlehem-tours-compared, sea-of-galilee-guide, aqaba-from-eilat, city-of-david-jerusalem, eilat-travel-guide. Metropolitan French; YAML double-quotes apostrophes; /fr/* prefix only for confirmed existing FR pages. Checkpoint 300 logistics; Yardenit honesty note; Elad Foundation neutral framing; National Parks Pass not valid (City of David); Jerusalem Pilgrimage Road Jan 2026; Dolphin Reef semi-wild framing; Wadi Araba crossing logistics. Note: nazareth-travel-guide already existed in FR — replaced with eilat-travel-guide. 10 new tests (5 smoke + 5 a11y). FR guides: 112→117/396. Build: 1066→1071 pages. 1425→1435 e2e pass.
 
 ## iter851 · BUILD · es-phase-14 · 2f0d2787
