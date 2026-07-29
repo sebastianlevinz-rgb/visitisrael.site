@@ -18,7 +18,7 @@
 **Gaps to close:**
 - es guides: **321 missing** (75/396 done — Phase ES-14 SHIPPED iter851; next: ES-15)
 - fr guides: **279 missing** (117/396 done — Phase FR-6 SHIPPED iter852; next: FR-7)
-- de guides: **289 missing** (107/396 done — Phase DE-4 SHIPPED iter848; next: DE-5 defined)
+- de guides: **284 missing** (112/396 done — Phase DE-5 SHIPPED iter853; next: DE-6)
 - fr/de/es attractions: **4 missing each** (the 4 EN attractions added after Phase 4)
 
 ## Architecture (already shipped, do not re-do)
@@ -292,23 +292,19 @@ Take the top 5 by priority (or head -5 if priority not obvious), translate each 
   InterContinental Jerusalem "Spätsommer 2026" honest caveat; no fabricated prices.
   10 new tests (5 smoke + 5 a11y).
   DE guides: 102→107/396. Build: 1056→1061 pages. 1405→1415 e2e pass.
-- Phase DE-5 — DEFINED. iter848 planning: best-hotels-haifa, bethlehem-tours-compared,
+- Phase DE-5 — SHIPPED iter853 acb25c7b. best-hotels-haifa, bethlehem-tours-compared,
   dead-sea-medical-tourism, city-of-david-jerusalem, aqaba-from-eilat.
-  Rationale: (1) best-hotels-haifa: DACH Haifa tourism (Bahá'í, Carmel, Technion); high
-  Booking.com affiliate value; pairs with existing DE 3-days-in-haifa + day-trips-from-haifa;
-  (2) bethlehem-tours-compared: DACH Christian/Protestant pilgrimage; Eberhardt/Sonnenklar
-  always include Bethlehem; "Betlehem Tagesausflug" common DACH query; tour format comparison
-  (geführte Gruppenreise/Privatführer/Bus 231/halber vs ganzer Tag); Checkpoint 300 logistics;
-  (3) dead-sea-medical-tourism: "Totes Meer Kur" real DACH query; Kurtourismus/Balneologie
-  very popular in DACH; Dead Sea as Kurort; UVB-Klimatherapie bei −430m für
-  Psoriasis/Neurodermitis/Arthritis; clinical data hedged; pairs with DE dead-sea-guide;
-  (4) city-of-david-jerusalem: high historical/archaeology interest for DACH; "Davidsstadt
-  Jerusalem" + Hiskia-Tunnel; Elad Foundation context neutral from EN; Jerusalem Pilgrimage
-  Road (Jan 2026); (5) aqaba-from-eilat: "Aqaba von Eilat" DACH day-trip; pairs with
-  existing DE eilat cluster + jordan itinerary; Wadi-Araba-Grenzübergang logistics.
-  Standard Hochdeutsch; /de/* prefix confirmed existing DE pages; plain links EN-only;
-  no fabricated prices. 10 new tests (5 smoke + 5 a11y).
-  Status: ready — pick in next DE BUILD iteration.
+  best-hotels-haifa: Deutsche Kolonie/Karmel/Hafen tiers; Booking.com + GYG CTAs.
+  bethlehem-tours-compared: halber Tag/ganzer Tag/Jericho-Combo/Dual-Narrative/Self-guided;
+  Checkpoint 300 logistics; West Bank neutral framing; Abraham Tours/Bein Harim/Elijah Tours.
+  dead-sea-medical-tourism: UVB-Klimatherapie bei −430m, GKV-Erstattungsweg, Paula Dead Sea
+  Clinic, PASI 70-90% hedged, no fabricated cure claims.
+  city-of-david-jerusalem: Hiskia-Tunnel wet/dry routes; Davidsstadt/Silwan dual-naming;
+  Elad Foundation neutral; Jerusalem Pilgrimage Road Jan 2026; National Parks Pass NOT valid.
+  aqaba-from-eilat: Yitzhak-Rabin-/Wadi-Araba-Übergang; Japanese Garden snorkeling;
+  al-Aqabah-Burg; GYG/Booking/Discovercars CTAs.
+  DE guides: 107→112/396. Build: 1071→1076 pages. 1435→1445 e2e pass.
+- Phase DE-6 — NOT YET DEFINED. Next DE BUILD iteration to define batch from remaining 284.
 
 ### Attraction catch-up (4 missing per locale)
 - NOT STARTED. Low priority; do after guide catch-up is well underway.

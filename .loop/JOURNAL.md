@@ -12923,3 +12923,17 @@ Context issue: git divergence (local master had diverged from origin/master); re
 Gate: pnpm check 0 errors; pnpm build 1071 pages (+5); pnpm test:e2e 1435/1435 pass (15.3 min). PLAYWRIGHT_BROWSERS_PATH=/opt/pw-browsers.
 Ship: committed b5b1b9b3 to master; pushed origin/master.
 Next: iter853 BUILD (853%5==3 → BUILD; top P1: DE Phase DE-5 or FR Phase FR-7).
+
+## 2026-07-29 · iter 853 · BUILD (i18n-DE) · de-phase-5
+What: DE Phase DE-5 — 5 German-language travel guides.
+Files: src/content/guides/de/{best-hotels-haifa,bethlehem-tours-compared,dead-sea-medical-tourism,city-of-david-jerusalem,aqaba-from-eilat}.md + tests/e2e/{smoke,a11y}.spec.ts (+5 routes each).
+Guides:
+  - best-hotels-haifa: "Die besten Hotels in Haifa 2026: Deutsche Kolonie, Karmel & Hafen" — 3 tiers (boutique/mid/budget); Booking.com + GYG CTAs; pairs with DE 3-days-in-haifa + day-trips-from-haifa.
+  - bethlehem-tours-compared: "Bethlehem-Touren im Vergleich" — halber Tag/ganzer Tag/Jericho-Combo/Dual-Narrative/Self-guided; Checkpoint 300 logistics; Abraham Tours/Bein Harim/Elijah Tours; West Bank neutral framing; no fabricated prices.
+  - dead-sea-medical-tourism: "Totes Meer Kur & Klimatherapie" — UVB-Klimatherapie bei −430m, Psoriasis/Neurodermitis/Arthritis, GKV-Erstattungsweg (Antrag vor der Reise!), Paula Dead Sea Clinic, clinical evidence hedged (70-90% PASI clearance).
+  - city-of-david-jerusalem: "Davidsstadt Jerusalem: Hiskia-Tunnel Besucherführer" — dual-naming Davidsstadt/Silwan; Elad Foundation context neutral from EN; wet/dry tunnel routes; Jerusalem Pilgrimage Road (Jan 2026); National Parks Pass NOT valid (honesty note).
+  - aqaba-from-eilat: "Aqaba von Eilat: Rotes-Meer-Jordanien-Tagesausflug" — Yitzhak-Rabin-/Wadi-Araba-Übergang; Japanese Garden snorkeling comparison; al-Aqabah-Burg; GYG/Booking/Discovercars CTAs.
+Context: squash-merge found nothing to squash (auto/de-phase-5 branch had no commits; files were in working tree only); committed 7 files directly to master as acb25c7b. Context compaction mid-session; resumed cleanly from uncommitted working tree state.
+Gate: pnpm check 0 errors; pnpm build 1076 pages (+5 vs 1071); pnpm test:e2e 1445/1445 pass. PLAYWRIGHT_BROWSERS_PATH=/opt/pw-browsers.
+Ship: committed acb25c7b to master; pushed origin/master. CI + Lighthouse in_progress at push time (run IDs 30473979038 / 30473981099).
+Next: iter854 REVIEW (854%5==4 → REVIEW; top P1: review DE-5 guides for link prefix correctness + honesty + Hochdeutsch register).
