@@ -1,13 +1,15 @@
 # LOOP STATE
 
-- iteration: 850
-- lastMode: RESEARCH (iter850%5==0 → RESEARCH; 172nd research pass)
-- lastItem: research-850-es14-definition
-- lastResult: ES-14 batch defined (dead-sea-tours-compared, eilat-tours-compared, easter-in-jerusalem, best-hotels-tiberias, ashdod-cruise-port-excursions). InterContinental Jerusalem confirmed pre-opening (Virtuoso Preview Property, Aug/Sep 2026 target). Eilat Princess renovation status flag added. No code shipped (RESEARCH mode).
-- nextRotationCategory: BUILD (iter851%5==1 → BUILD; i18n-ES ES-14 is top P1 item)
+- iteration: 851
+- lastMode: BUILD (iter851%5==1 → BUILD; ES Phase ES-14)
+- lastItem: es-phase-14
+- lastResult: SHIPPED 2f0d2787 — 5 ES guides (dead-sea-tours-compared, eilat-tours-compared, easter-in-jerusalem, best-hotels-tiberias, ashdod-cruise-port-excursions). 10 new e2e tests (5 smoke + 5 a11y). ES guides: 70→75/396. Build: 1061→1066 pages. 1415→1425 e2e pass.
+- nextRotationCategory: BUILD (iter852%5==2 → BUILD; top P1 items: DE-5 or FR-6)
 - higgsfieldSpent: 0
-- updatedAt: 2026-07-29T14:00Z
+- updatedAt: 2026-07-29T15:00Z
 - branch context: work on master; feature work on auto/<slug>
+
+Notes: iter851 BUILD — ES Phase ES-14 SHIPPED 2f0d2787. 5 ES guides (dead-sea-tours-compared, eilat-tours-compared, easter-in-jerusalem, best-hotels-tiberias, ashdod-cruise-port-excursions). Easter 2027 dates from EN guide (Catholic March 28 / Orthodox May 2). Dolphin Reef + Yardenit honesty notes preserved. All meta ≤65/≤160. ES guides: 70→75/396. Build: 1061→1066 pages. 1415→1425 e2e pass.
 
 Notes: iter850 RESEARCH — 172nd research pass. ES-14 batch defined: dead-sea-tours-compared, eilat-tours-compared, easter-in-jerusalem, best-hotels-tiberias, ashdod-cruise-port-excursions. Sources: civitatis.com LATAM SERP (zero editorial competitor for "semana santa jerusalen"), israel-taxi.com/tiberias-hotel.com (confirmed zero ES editorial for Tiberias hotels), hotel-online.com + enprimeurclub.com (InterContinental Jerusalem Virtuoso Preview Property = pre-opening as of Jul 2026), travelandtourworld.com/globes.co.il (Eilat Airport City hotels not open; Eilat former airport site redevelopment → first occupancy 2028). Key findings: (1) Semana Santa Jerusalén = high-value LATAM Catholic gap — Civitatis has tours but no evergreen editorial guide; (2) Tiberias hotels = zero ES editorial competitor confirmed; (3) InterContinental Jerusalem still pre-opening — guide framing correct (no change needed); (4) Eilat Isrotel Princess status flagged as freshness check — our guides say "reopened 2025-2026" but research suggests still under renovation; (5) Air Haifa BGA→Eilat route already covered in guide (updatedAt 2026-07-23). Net: ES-14 ready, 2 freshness items updated/flagged. FR-6 + DE-5 already defined and ready. ES: 70/396, FR: 112/396, DE: 107/396.
 

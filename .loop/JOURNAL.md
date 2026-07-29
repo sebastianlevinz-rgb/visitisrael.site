@@ -12894,3 +12894,17 @@ Gate: N/A (RESEARCH mode — no code shipped).
 Merge: none.
 Prod: N/A.
 Next: iter851 BUILD (851%5==1) — top P1 item is ES Phase ES-14 (i18n-ES).
+
+## 2026-07-29T15:00Z · iter 851 · BUILD · es-phase-14
+What: ES Phase ES-14 — 5 Spanish-language LATAM travel guides.
+Files added:
+  - src/content/guides/es/dead-sea-tours-compared.md (solo flotación vs combo Masada vs coche propio vs guía privado; Ein Bokek framing; Qumrán/Ein Gedi drive-by options; no fabricated prices)
+  - src/content/guides/es/eilat-tours-compared.md (snórquel Mar Rojo, safari jeep, excursión Petra, Dolphin Reef semi-salvaje; Abraham Tours Petra border logistics; Eilat/Aqaba honest day-trip length warning)
+  - src/content/guides/es/easter-in-jerusalem.md (Semana Santa LATAM Catholic gap confirmed — zero Civitatis editorial; Catholic Easter 2027 = March 28; Orthodox May 2; Fuego Sagrado logistics; Via Dolorosa procesión Viernes Santo; crowd logistics; church-holy-sepulchre-guide + christian-pilgrimage-holy-land paired)
+  - src/content/guides/es/best-hotels-tiberias.md (Scots Hotel 5★ junto al lago; U Boutique Kinneret; Nof Ginosar Kibbutz; budget Arbel Hostel; Galilee Christian circuit base: Capernaum/Tabgha/Magdala/Nazareth/Yardenit; Yardenit honesty note preserved)
+  - src/content/guides/es/ashdod-cruise-port-excursions.md (MSC/Costa/Royal Caribbean Ashdod logistics; Jerusalén/Belén/Mar Muerto/Tel Aviv by hours-in-port; ship excursión vs private guide vs taxi tradeoffs; veredicto table; time warnings for 6h vs 8h+ port calls)
+Tests: 5 smoke + 5 a11y added to tests/e2e/{smoke,a11y}.spec.ts — 1415→1425 total.
+Key quality notes: neutral LATAM Spanish tuteo throughout; YAML double-quotes for apostrophes; /es/ prefix only for confirmed existing ES pages (verified 75-page ES guide list); no fabricated prices or ratings; Easter 2027 dates sourced from EN guide (authoritative: Catholic March 28 / Orthodox May 2 — BACKLOG entry had stale dates, EN guide corrected); Dolphin Reef semi-wild framing preserved; all meta ≤65 char title / ≤160 char desc (ashdod meta fixed before gate).
+Gate: pnpm check 0 errors; pnpm build 1066 pages (+5); pnpm test:e2e 1425/1425 pass (12.0 min).
+Ship: squash-merged auto/es-phase-14 → master 2f0d2787; pushed origin/master.
+Next: iter852 BUILD (852%5==2 → BUILD; top P1: DE Phase DE-5 or FR Phase FR-6).

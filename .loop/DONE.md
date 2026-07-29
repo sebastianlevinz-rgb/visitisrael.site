@@ -1,5 +1,8 @@
 # DONE (shipped — do NOT re-do; basis for REVIEW mode)
 
+## iter851 · BUILD · es-phase-14 · 2f0d2787
+- ES Phase ES-14 SHIPPED: dead-sea-tours-compared, eilat-tours-compared, easter-in-jerusalem, best-hotels-tiberias, ashdod-cruise-port-excursions. Neutral LATAM Spanish tuteo; YAML double-quotes apostrophes; /es/ prefix only for confirmed existing ES pages. Easter 2027: Catholic March 28 / Orthodox May 2 (from EN guide; BACKLOG had stale dates). Dolphin Reef semi-wild framing preserved. Yardenit honesty note preserved. Ashdod port logistics (MSC/Costa/Royal Caribbean): 6h vs 8h+ port-call verdict table. All meta ≤65/≤160 (ashdod title trimmed from 73→54 chars, desc 200→146 chars). No fabricated prices/ratings. 10 new tests (5 smoke + 5 a11y). ES guides: 70→75/396. Build: 1061→1066 pages. 1415→1425 e2e pass.
+
 ## iter849 · REVIEW · review-849-de-phase4-link-fixes · 9398d3fc
 - DE Phase DE-4 link audit: 2 prefix bugs fixed (israel-jordan-itinerary /dead-sea-israel-vs-jordan→/de/; masada-visitor-guide /dead-sea→/de/dead-sea). 25 other /de/* links verified clean. Honesty + Hochdeutsch register check PASS. 1415/1415 e2e pass.
 
