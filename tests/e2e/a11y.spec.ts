@@ -506,6 +506,11 @@ const ROUTES = [
   '/es/nazareth-travel-guide',
   '/es/dead-sea-hotels-guide',
   '/es/digital-nomad-israel',
+  '/fr/dead-sea-medical-tourism',
+  '/fr/netanya-guide',
+  '/fr/eilat-hotels-guide',
+  '/fr/passover-in-israel',
+  '/fr/church-of-nativity-guide',
 ];
 
 for (const route of ROUTES) {
