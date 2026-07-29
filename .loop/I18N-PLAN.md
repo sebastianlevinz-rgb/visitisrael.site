@@ -6,18 +6,18 @@
 >
 > One bounded slice per loop iteration. NEVER bulk-translate in one shot.
 
-## Current status snapshot (2026-07-29 iter846)
+## Current status snapshot (2026-07-29 iter847)
 
 | Locale | Guides | Attractions | Regions | Itineraries |
 |--------|--------|-------------|---------|-------------|
 | en     | 396    | 65          | 11      | 6           |
-| fr     | 107    | 61          | 11      | 6           |
+| fr     | 112    | 61          | 11      | 6           |
 | de     | 102    | 61          | 11      | 6           |
 | es     | 70     | 61          | 11      | 6           |
 
 **Gaps to close:**
-- es guides: **326 missing** (70/396 done — Phase ES-13 SHIPPED iter846; next: ES-14 or FR/DE turn)
-- fr guides: **289 missing** (107/396 done — Phase FR-5 defined iter845; ready to BUILD)
+- es guides: **326 missing** (70/396 done — Phase ES-13 SHIPPED iter846; next: ES-14)
+- fr guides: **284 missing** (112/396 done — Phase FR-5 SHIPPED iter847; next: FR-6)
 - de guides: **294 missing** (102/396 done — Phase DE-4 defined iter843/iter845; ready to BUILD)
 - fr/de/es attractions: **4 missing each** (the 4 EN attractions added after Phase 4)
 
@@ -167,7 +167,31 @@ Take the top 5 by priority (or head -5 if priority not obvious), translate each 
   Tel Aviv hotels 5 neighborhoods 3 tiers + honest 2026 new openings; 10-day Israel+Jordan circuit;
   no fabricated prices. 10 new tests (5 smoke + 5 a11y).
   FR guides: 102→107/396. Build: 1036→1041 pages. 1375/1375 e2e pass.
-- Phase FR-5 — DEFINED. iter845 research: dead-sea-medical-tourism, netanya-guide,
+- Phase FR-5 — DONE. iter847 shipped 1556cf5e:
+  dead-sea-medical-tourism, netanya-guide, eilat-hotels-guide, passover-in-israel,
+  church-of-nativity-guide. Metropolitan French; French Jewish diaspora (largest W. Europe)
+  + Netanya francophone community (~50K francophones, ~30% population);
+  UVB climatothérapie dead-sea claims hedged; Pessah 2027 dates confirmed (April 22-29);
+  Status Quo six-denomination + West Bank neutral from EN; Airport City 2026 openings honest;
+  broken links fixed (bethlehem-tours-compared + eilat-travel-guide → EN fallbacks);
+  no fabricated prices. 10 new tests (5 smoke + 5 a11y).
+  FR guides: 107→112/396. Build: 1051→1056 pages. 1395→1405 e2e pass.
+- Phase FR-6 — DEFINED. Next FR batch (top candidates by SEO priority + FR market fit):
+  bethlehem-tours-compared, sea-of-galilee-guide, aqaba-from-eilat,
+  city-of-david-jerusalem, nazareth-travel-guide.
+  Rationale: (1) bethlehem-tours-compared: FR pilgrimage conversion layer; Voyageurs du Monde/
+  FRAM all include Bethlehem; tour format comparison (circuit organisé/excursion privée/bus 231
+  DIY/demi-journée vs journée complète); Checkpoint 300 logistics in French;
+  (2) sea-of-galilee-guide: "Lac de Tibériade" / "Mer de Galilée"; Air France TLV-CDG daily
+  = large FR market; Capharnaum + Magdala + Tabgha; zero FR editorial competitor;
+  (3) aqaba-from-eilat: "Aqaba depuis Eilat"; connects to FR israel-jordan-itinerary
+  already SHIPPED; Routard mentions Aqaba briefly but no day-trip logistics page;
+  (4) city-of-david-jerusalem: "Cité de David" archaeology + Tunnel d'Ézéchias;
+  Elad Foundation context neutral from EN; Jerusalem Pilgrimage Road (Jan 2026);
+  (5) nazareth-travel-guide: "Nazareth Israël guide" zero FR specialist editorial; Basilique
+  de l'Annonciation; LATAM + French Catholic pilgrimage market.
+  Status: ready — pick in next FR BUILD iteration.
+- Phase FR-5 definition text (moved to DONE above) — iter845 research: dead-sea-medical-tourism, netanya-guide,
   eilat-hotels-guide, passover-in-israel, church-of-nativity-guide.
   Rationale: (1) dead-sea-medical-tourism: mer-morte.info = entire niche French site with weak
   domain authority; spadreams.fr "Cure mer morte" ads; French cures thermales/thalasso distinct

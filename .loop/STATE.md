@@ -1,13 +1,15 @@
 # LOOP STATE
 
-- iteration: 846
-- lastMode: BUILD (iter846%5==1 → BUILD; ES Phase ES-13)
-- lastItem: es-phase-13
-- lastResult: 5 ES guides shipped (dead-sea-medical-tourism, eilat-hotels-guide, nazareth-travel-guide, dead-sea-hotels-guide, digital-nomad-israel). ES guides: 65→70/396. Build: 1046→1051 pages. 1385→1395 e2e pass (10 new tests). SHA: 70024e3a.
-- nextRotationCategory: BUILD (iter847%5==2 → BUILD; top candidates FR Phase FR-5 [P1 i18n-FR M] or DE Phase DE-4 [P1 i18n-DE M])
+- iteration: 847
+- lastMode: BUILD (iter847%5==2 → BUILD; FR Phase FR-5)
+- lastItem: fr-phase-5
+- lastResult: 5 FR guides shipped (dead-sea-medical-tourism, netanya-guide, eilat-hotels-guide, passover-in-israel, church-of-nativity-guide). FR guides: 107→112/396. Build: 1051→1056 pages. 1395→1405 e2e pass (10 new tests). SHA: 1556cf5e.
+- nextRotationCategory: BUILD (iter848%5==3 → BUILD; top candidates DE Phase DE-4 [P1 i18n-DE M] or ES Phase ES-14 [P1 i18n-ES M])
 - higgsfieldSpent: 0
-- updatedAt: 2026-07-29T09:00Z
+- updatedAt: 2026-07-29T11:00Z
 - branch context: work on master; feature work on auto/<slug>
+
+Notes: iter847 BUILD (i18n-FR) — fr-phase-5 SHIPPED 1556cf5e. FR Phase FR-5: 5 French guides (dead-sea-medical-tourism, netanya-guide, eilat-hotels-guide, passover-in-israel, church-of-nativity-guide). French Jewish diaspora (largest in Western Europe) + Netanya francophone community (~50K francophones, ~30% of population) + Pessah visitor guide + FR pilgrimage market. Metropolitan French register; YAML double-quotes for apostrophes; /fr/* prefix only for confirmed existing FR pages (bethlehem-tours-compared + eilat-travel-guide missing → EN fallbacks used). Dead Sea UVB claims hedged; Netanya francophone stats sourced; Pessah 2027 dates confirmed (April 22-29); church-of-nativity Status Quo six-denomination framing + West Bank neutral from EN. No fabricated prices. 10 new tests (5 smoke + 5 a11y). FR guides: 107→112/396. Build: 1051→1056 pages. 1395→1405 e2e pass. CI standard pattern.
 
 Notes: iter846 BUILD (i18n-ES) — es-phase-13 SHIPPED 70024e3a. ES Phase ES-13: 5 Spanish guides (dead-sea-medical-tourism, eilat-hotels-guide, nazareth-travel-guide, dead-sea-hotels-guide, digital-nomad-israel). LATAM health-tourism + accommodation + pilgrimage + digital-nomad market. UVB climatoterapia at −430m psoriasis/eczema/vitiligo (PASI 70-90% clearance hedged); Eilat 3-zone hotel decision matrix; Nazareth paired-naming נָצְרַת/النَّاصِرَة + 6-denomination Annunciation framing; Ein Bokek resort strip honest "no es encantador" framing; Tel Aviv coworking + grey-area nomad visa framing (no digital nomad visa exists). No fabricated prices. 10 new tests (5 smoke + 5 a11y). ES guides: 65→70/396. Build: 1046→1051 pages. 1385→1395 e2e pass. CI standard pattern.
 
