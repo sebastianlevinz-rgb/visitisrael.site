@@ -771,6 +771,11 @@ const ROUTES = [
   '/de/3-days-in-eilat',
   '/de/3-days-in-haifa',
   '/de/3-days-in-negev',
+  '/de/bedouin-experience-israel',
+  '/de/beer-sheva-guide',
+  '/de/beit-guvrin-caves-guide',
+  '/de/beit-shean-guide',
+  '/de/bahai-world-center-guide',
 ];
 
 for (const route of ROUTES) {
