@@ -6,19 +6,19 @@
 >
 > One bounded slice per loop iteration. NEVER bulk-translate in one shot.
 
-## Current status snapshot (2026-07-29 iter847)
+## Current status snapshot (2026-07-29 iter848)
 
 | Locale | Guides | Attractions | Regions | Itineraries |
 |--------|--------|-------------|---------|-------------|
 | en     | 396    | 65          | 11      | 6           |
 | fr     | 112    | 61          | 11      | 6           |
-| de     | 102    | 61          | 11      | 6           |
+| de     | 107    | 61          | 11      | 6           |
 | es     | 70     | 61          | 11      | 6           |
 
 **Gaps to close:**
 - es guides: **326 missing** (70/396 done — Phase ES-13 SHIPPED iter846; next: ES-14)
 - fr guides: **284 missing** (112/396 done — Phase FR-5 SHIPPED iter847; next: FR-6)
-- de guides: **294 missing** (102/396 done — Phase DE-4 defined iter843/iter845; ready to BUILD)
+- de guides: **289 missing** (107/396 done — Phase DE-4 SHIPPED iter848; next: DE-5 defined)
 - fr/de/es attractions: **4 missing each** (the 4 EN attractions added after Phase 4)
 
 ## Architecture (already shipped, do not re-do)
@@ -218,7 +218,7 @@ Take the top 5 by priority (or head -5 if priority not obvious), translate each 
   no fabricated prices. 10 new tests (5 smoke + 5 a11y).
   FR guides: 102→107/396. Build: 1036→1041 pages. 1375/1375 e2e pass.
 
-### DE guide catch-up (102 / 396 = 294 remaining — Phase DE-4 next)
+### DE guide catch-up (107 / 396 = 289 remaining — Phase DE-5 next)
 - Phase DE-1 — DONE. iter833 shipped ebfb0bd7:
   3-days-in-israel, 3-days-in-galilee, airlines-flying-israel-2026,
   backpacking-israel, best-beaches-israel. Standard Hochdeutsch;
@@ -247,23 +247,34 @@ Take the top 5 by priority (or head -5 if priority not obvious), translate each 
   Freitagnachmittag-Schließung Bahjí; haifa-travel-guide plain link (no DE version);
   no fabricated prices. 10 new tests (5 smoke + 5 a11y).
   DE guides: 97→102/396. Build: 1041→1046 pages. 1385/1385 e2e pass.
-- Phase DE-4 — DEFINED. iter843 planning: best-hotels-tel-aviv, israel-jordan-itinerary,
-  day-trips-from-jerusalem, caesarea-guide, day-trips-from-tel-aviv.
-  Rationale: (1) best-hotels-tel-aviv: DACH business + leisure travellers; 5-Sterne-Segment
-  Tel Aviv growing; hotel-content high affiliate value; pairs with 3-days-in-tel-aviv DE;
-  (2) israel-jordan-itinerary: "Israel-Jordanien Rundreise" is top DACH packaged tour
-  (Eberhardt, Sonnenklar, FTI all offer it); "Israel Jordanien Reise" is a high-volume DACH
-  query; combines with existing DE Negev/Petra cultural interest; both border crossings +
-  Jordan Pass; (3) day-trips-from-jerusalem: standard DACH itinerary component; Jerusalem
-  is always the base hotel in Eberhardt/TUI packages; Masada/Dead Sea/Bethlehem/Jericho
-  day-trip planning is a natural DE-traveller need; (4) caesarea-guide: Roman ruins highly
-  popular with German cultural/history tourists (Rother hiking guides cite Caesarea);
-  Maritima Caesarea + Herodian harbour + Roman theatre; pairs well with existing DE haifa
-  content; (5) day-trips-from-tel-aviv: practical planning for German urban base;
-  Haifa/Caesarea/Jerusalem/Dead Sea/Nazareth day-trip radius from TLV hotel.
-  Standard Hochdeutsch; /de/* prefix for confirmed existing DE pages; plain links EN-only;
+- Phase DE-4 — DONE. iter848 shipped 399f791d:
+  best-hotels-tel-aviv, israel-jordan-itinerary, best-hotels-jerusalem,
+  masada-visitor-guide, sea-of-galilee-guide.
+  (Note: day-trips-from-jerusalem/caesarea-guide/day-trips-from-tel-aviv already existed in DE;
+  replaced with next highest-priority missing guides.)
+  Standard Hochdeutsch; DACH hotel market (TLV 5 neighborhoods + Jerusalem 4 neighborhoods);
+  "Israel-Jordanien Rundreise" + both border crossings + Jordan Pass; Masada 3 Aufstiegsmethoden
+  + Licht-und-Ton-Show; Kinneretsee alle 4 Ufer + Radtour-Rundkurs + Yardenit honesty note;
+  InterContinental Jerusalem "Spätsommer 2026" honest caveat; no fabricated prices.
+  10 new tests (5 smoke + 5 a11y).
+  DE guides: 102→107/396. Build: 1056→1061 pages. 1405→1415 e2e pass.
+- Phase DE-5 — DEFINED. iter848 planning: best-hotels-haifa, bethlehem-tours-compared,
+  dead-sea-medical-tourism, city-of-david-jerusalem, aqaba-from-eilat.
+  Rationale: (1) best-hotels-haifa: DACH Haifa tourism (Bahá'í, Carmel, Technion); high
+  Booking.com affiliate value; pairs with existing DE 3-days-in-haifa + day-trips-from-haifa;
+  (2) bethlehem-tours-compared: DACH Christian/Protestant pilgrimage; Eberhardt/Sonnenklar
+  always include Bethlehem; "Betlehem Tagesausflug" common DACH query; tour format comparison
+  (geführte Gruppenreise/Privatführer/Bus 231/halber vs ganzer Tag); Checkpoint 300 logistics;
+  (3) dead-sea-medical-tourism: "Totes Meer Kur" real DACH query; Kurtourismus/Balneologie
+  very popular in DACH; Dead Sea as Kurort; UVB-Klimatherapie bei −430m für
+  Psoriasis/Neurodermitis/Arthritis; clinical data hedged; pairs with DE dead-sea-guide;
+  (4) city-of-david-jerusalem: high historical/archaeology interest for DACH; "Davidsstadt
+  Jerusalem" + Hiskia-Tunnel; Elad Foundation context neutral from EN; Jerusalem Pilgrimage
+  Road (Jan 2026); (5) aqaba-from-eilat: "Aqaba von Eilat" DACH day-trip; pairs with
+  existing DE eilat cluster + jordan itinerary; Wadi-Araba-Grenzübergang logistics.
+  Standard Hochdeutsch; /de/* prefix confirmed existing DE pages; plain links EN-only;
   no fabricated prices. 10 new tests (5 smoke + 5 a11y).
-  Status: ready — pick in next BUILD iteration for DE category.
+  Status: ready — pick in next DE BUILD iteration.
 
 ### Attraction catch-up (4 missing per locale)
 - NOT STARTED. Low priority; do after guide catch-up is well underway.

@@ -12858,3 +12858,17 @@ What: Duplicate scheduled run. This cloud instance executed the same FR Phase FR
 Gate: Not rerun (code already present on master; e2e baseline 1405/1405 from primary run).
 Ship: None. No duplicate push.
 Next: iter848 BUILD (848%5==3 → BUILD; DE Phase DE-4 [P1 i18n-DE M] — best-hotels-tel-aviv, israel-jordan-itinerary, day-trips-from-jerusalem, caesarea-guide, day-trips-from-tel-aviv).
+
+## 2026-07-29T12:00Z · iter 848 · BUILD · de-phase-4
+What: DE Phase DE-4 — 5 new German-language travel guides for the DACH market.
+Files shipped:
+  - src/content/guides/de/best-hotels-tel-aviv.md (neighborhoods: Rothschild/Weiße Stadt, Neve Tzedek, Tayelet, Florentin, Alt-Jaffa; 3 price tiers; Six Senses TLV + Nobu Hotel TLV 2026 honest caveats; decision matrix)
+  - src/content/guides/de/israel-jordan-itinerary.md (10-day "Israel-Jordanien Rundreise"; Wadi Araba + Allenby border crossings; Jordan Pass; day-by-day Jerusalem→Dead Sea→Masada→Eilat→Petra→Wadi Rum→Amman→Jerash)
+  - src/content/guides/de/best-hotels-jerusalem.md (Mamilla/Jaffa-Tor, W.Jerusalem-Mitte, Deutsche Kolonie, Ost-Jerusalem/American Colony; Abraham Hostel budget; InterContinental Jerusalem "Eröffnung Spätsommer 2026" honest caveat; Jewish calendar booking note)
+  - src/content/guides/de/masada-visitor-guide.md (3 Aufstiegsmethoden table: Schlangenweg/Seilbahn/Sonnenaufgangswanderung; INPA Nationalparks-Pass; Licht-und-Ton-Show Di+Do März–Okt ~₪75–120; verdictName/verdictQuery)
+  - src/content/guides/de/sea-of-galilee-guide.md (all 4 Ufer: West/Nord/Ost/Süd; Yardenit honesty note; ~65km Radtour-Rundkurs; Kafarnaum/Tabgha Brotvermehrungskirche+Primat/Berg der Seligpreisungen; Hamat Gader)
+Tests: 5 smoke + 5 a11y added to tests/e2e/{smoke,a11y}.spec.ts — 1405→1415 total.
+Note: DE-4 original plan included day-trips-from-jerusalem, caesarea-guide, day-trips-from-tel-aviv — all pre-existing in DE. Replaced with best-hotels-jerusalem, masada-visitor-guide, sea-of-galilee-guide (next highest-priority missing DE guides).
+Gate: pnpm check 0 errors; pnpm build 1061 pages (+5); pnpm test:e2e 1415/1415 pass.
+Ship: committed 399f791d to master; pushed origin/master.
+Next: iter849 REVIEW (849%5==4 → REVIEW; review recent DE Phase DE-4 or DE-3 guides for link audit + register consistency).

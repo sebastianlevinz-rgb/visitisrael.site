@@ -1,13 +1,15 @@
 # LOOP STATE
 
-- iteration: 847
-- lastMode: BUILD (iter847%5==2 → BUILD; FR Phase FR-5)
-- lastItem: fr-phase-5
-- lastResult: 5 FR guides shipped (dead-sea-medical-tourism, netanya-guide, eilat-hotels-guide, passover-in-israel, church-of-nativity-guide). FR guides: 107→112/396. Build: 1051→1056 pages. 1395→1405 e2e pass (10 new tests). SHA: 1556cf5e.
-- nextRotationCategory: BUILD (iter848%5==3 → BUILD; top candidates DE Phase DE-4 [P1 i18n-DE M] or ES Phase ES-14 [P1 i18n-ES M])
+- iteration: 848
+- lastMode: BUILD (iter848%5==3 → BUILD; DE Phase DE-4)
+- lastItem: de-phase-4
+- lastResult: 5 DE guides shipped (best-hotels-tel-aviv, israel-jordan-itinerary, best-hotels-jerusalem, masada-visitor-guide, sea-of-galilee-guide). DE guides: 102→107/396. Build: 1056→1061 pages. 1405→1415 e2e pass. SHA: 399f791d.
+- nextRotationCategory: REVIEW (iter849%5==4 → REVIEW)
 - higgsfieldSpent: 0
-- updatedAt: 2026-07-29T11:00Z
+- updatedAt: 2026-07-29T12:00Z
 - branch context: work on master; feature work on auto/<slug>
+
+Notes: iter848 BUILD (i18n-DE) — de-phase-4 SHIPPED 399f791d. DE Phase DE-4: 5 German guides (best-hotels-tel-aviv, israel-jordan-itinerary, best-hotels-jerusalem, masada-visitor-guide, sea-of-galilee-guide). DACH business + leisure hotel market + "Israel-Jordanien Rundreise" top DACH packaged tour + Licht-und-Ton-Show Masada + Kinneret Kinneretsee Nordgestade-Südgestade circuit. Standard Hochdeutsch; YAML double-quotes; paired-naming on contested sites; Yardenit honesty note; no fabricated prices. 10 new tests (5 smoke + 5 a11y). DE guides: 102→107/396. Build: 1056→1061 pages. 1405→1415 e2e pass.
 
 Notes: iter847 BUILD (i18n-FR) — fr-phase-5 SHIPPED 1556cf5e. FR Phase FR-5: 5 French guides (dead-sea-medical-tourism, netanya-guide, eilat-hotels-guide, passover-in-israel, church-of-nativity-guide). French Jewish diaspora (largest in Western Europe) + Netanya francophone community (~50K francophones, ~30% of population) + Pessah visitor guide + FR pilgrimage market. Metropolitan French register; YAML double-quotes for apostrophes; /fr/* prefix only for confirmed existing FR pages (bethlehem-tours-compared + eilat-travel-guide missing → EN fallbacks used). Dead Sea UVB claims hedged; Netanya francophone stats sourced; Pessah 2027 dates confirmed (April 22-29); church-of-nativity Status Quo six-denomination framing + West Bank neutral from EN. No fabricated prices. 10 new tests (5 smoke + 5 a11y). FR guides: 107→112/396. Build: 1051→1056 pages. 1395→1405 e2e pass. CI standard pattern.
 
