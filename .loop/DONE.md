@@ -1,5 +1,8 @@
 # DONE (shipped — do NOT re-do; basis for REVIEW mode)
 
+## iter841 · BUILD · es-phase-12 · cfbee79b
+- ES Phase ES-12 SHIPPED: bethlehem-tours-compared, beit-shean-guide, birdwatching-in-israel, beit-guvrin-caves-guide, israel-jordan-itinerary. Neutral LATAM Spanish; /es/ prefix only for confirmed existing ES pages; West Bank/Cisjordania neutral framing; Civitatis Belén pilgrimage funnel; "Gran Tour Israel y Jordania" LATAM top-seller; UNESCO Bet Guvrin Bell Caves + Beit She'an Decapolis; Agamón HaHula crane spectacle; no fabricated prices/ratings. 10 new tests (5 smoke + 5 a11y). ES guides: 60→65/396. Build: 1031→1036 pages. 1365/1365 e2e pass.
+
 ## iter838 · BUILD · de-phase-2 · e1c560ca
 - DE Phase DE-2 SHIPPED: 1-day-tel-aviv-itinerary, 3-days-in-eilat, 3-days-in-haifa, 3-days-in-negev, 3-days-in-tel-aviv (Standard Hochdeutsch; correct geology Makhtesh Ramon — kein Meteoriten-/Vulkankrater; Dolphin Reef semi-wild framing; Bahá'í active religious site note; Stella Maris photography caveat; Wadi Ardon serious hike summer heat warnings; YAML fix: escaped ASCII double-quotes inside YAML double-quoted string in 3-days-in-negev.md). /de/* prefix links only where DE page exists; no fabricated prices; honest notes on Mitzpe Ramon accommodation scarcity. DE guides: 92→97/396. 10 new tests (5 smoke + 5 a11y). Build: 1031 pages (+5). 1355/1355 e2e pass.
 

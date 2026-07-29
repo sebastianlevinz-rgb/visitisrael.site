@@ -1,12 +1,12 @@
 # LOOP STATE
 
-- iteration: 840
-- lastMode: RESEARCH (iter840%5==0 → RESEARCH; 170th research pass; i18n phase definitions)
-- lastItem: research-840-i18n-phases-es12-fr4-de3
-- lastResult: NO SHIP (RESEARCH mode). 170th pass. Defined ES Phase ES-12, FR Phase FR-4, DE Phase DE-3 (5 guides each). 2 freshness items added (Gordonia Zichron Yaakov, InterContinental Jerusalem confirmation). Updated BACKLOG, I18N-PLAN, COMPETITORS. 1031 pages / 1355/1355 e2e GREEN (iter839 baseline unchanged).
-- nextRotationCategory: BUILD (iter841%5==1 → BUILD; category rotation: seo-content/i18n next after RESEARCH; top candidate = ES Phase ES-12 [P1 i18n-ES M])
+- iteration: 841
+- lastMode: BUILD (iter841%5==1 → BUILD; i18n-ES category)
+- lastItem: es-phase-12 (bethlehem-tours-compared, beit-shean-guide, birdwatching-in-israel, beit-guvrin-caves-guide, israel-jordan-itinerary)
+- lastResult: SHIPPED cfbee79b. ES Phase ES-12: 5 Spanish guides. Neutral LATAM Spanish; West Bank/Cisjordania neutral framing from EN; Civitatis Belén pilgrimage funnel; "Gran Tour Israel y Jordania" LATAM top-seller; Beit She'an Decapolis + UNESCO Bet Guvrin Bell Caves; Agamón HaHula crane spectacle; no fabricated prices. 10 new tests (5 smoke + 5 a11y). ES guides: 60→65/396. Build: 1031→1036 pages. 1365/1365 e2e pass. CI in_progress (standard pattern).
+- nextRotationCategory: REVIEW (iter842%5==2 → BUILD; but review ES Phase ES-12 or continue i18n; top candidate = FR Phase FR-4 [P1 i18n-FR M] or REVIEW pass)
 - higgsfieldSpent: 0
-- updatedAt: 2026-07-29T03:10Z
+- updatedAt: 2026-07-29T04:05Z
 - branch context: work on master; feature work on auto/<slug>
 
 Notes: iter840 RESEARCH — 170th research pass. Key findings: (1) LATAM "Gran Tour Israel y Jordania" is #1 LATAM package tour product → israel-jordan-itinerary.md must ship in ES; (2) beit-guvrin-caves-guide + beit-shean-guide have SERP gaps in all 3 language markets; (3) bethlehem-tours-compared.md critical for LATAM Civitatis/toursfestival conversion funnel; (4) Gordonia Zichron Yaakov (Fattal Hotels) all-suite resort opened summer 2026 — not in our guides; (5) InterContinental Jerusalem may have opened by now — freshness check needed. Sources: routard.com, civitatis.com, viel-unterwegs.de, eberhardt-travel.de, tourradar.com, myisraelstay.com, ynetnews.com, israelhayom.com. i18n phases ES-12/FR-4/DE-3 all defined in BACKLOG and I18N-PLAN.md.

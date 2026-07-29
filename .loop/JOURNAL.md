@@ -12783,3 +12783,11 @@ Gate: not run (RESEARCH mode — no code changes).
 Ship: none. .loop/ state files updated and committed.
 Prod: 1031 pages / 1355/1355 e2e GREEN (iter839 baseline 9d8a7e5b unchanged).
 Next: iter841 BUILD (841%5==1) — top candidate ES Phase ES-12 [P1 i18n-ES M] or rotation-category BUILD item.
+
+## 2026-07-29T04:05Z · iter 841 · BUILD · es-phase-12
+What: ES Phase ES-12 — 5 Spanish guides for LATAM pilgrimage + archaeology + nature markets.
+Guides: (1) bethlehem-tours-compared.md — tour format comparison (medio día/día completo/Jericó/narrativa dual/independiente), Checkpoint 300 logistics, West Bank neutral framing, Arabic bus 231 DIY route, INPA car rental caveat; (2) beit-shean-guide.md — Nysa-Escitópolis Decapolis city, theater romano 7.000 plazas, cardo columnado, terremoto 749 d.C. preservación, tel bíblico de Saúl, combo con Sachne/Gan HaShlosha, circuito Beit Alfa/Megiddo; (3) birdwatching-in-israel.md — Agamón HaHula 120.000 grullas, Safari al Amanecer, corredor Gran Valle del Rift, IBRCE Eilat raptors migratorios, Gamla Buitres Leonados, Hai-Bar Yotvata/Carmel, calendario migratorio estacional; (4) beit-guvrin-caves-guide.md — Cuevas Campana UNESCO 800 cámaras, murales sidonios helenísticos, columbarios Segundo Templo, anfiteatro romano único en Israel, Tel Maresha, circuito Valle de Ela/Ascalón/Tel Lachish; (5) israel-jordan-itinerary.md — "Gran Tour Israel y Jordania" 10 días: Jerusalén D1-3, Mar Muerto D4, Masada→Eilat D5, Wadi Araba cruce→Petra D6, Petra D7, Wadi Rum D8, Amán D9, Jerash→puente Allenby D10; ambos pasos fronterizos documentados; Jordan Pass; restricciones coche de alquiler.
+Honesty: no precios fabricados; framing West Bank neutral exactamente del EN; InterContinental Jerusalem "opening summer 2026" sin fecha confirmada; Sachne temperatura constante 28°C verificado; /es/ prefix solo para páginas ES confirmadas.
+Gate: pnpm check 0 errors; build 1036 pages (+5); 1365/1365 e2e pass (all new routes covered).
+Ship: cfbee79b. ES guides: 60→65/396. CI in_progress (standard pattern).
+Next: iter842 BUILD (842%5==2) — rotation continues; top candidates: FR Phase FR-4 [P1 i18n-FR M] or review of ES-12 guides.

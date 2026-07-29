@@ -6,17 +6,17 @@
 >
 > One bounded slice per loop iteration. NEVER bulk-translate in one shot.
 
-## Current status snapshot (2026-07-29 iter840)
+## Current status snapshot (2026-07-29 iter841)
 
 | Locale | Guides | Attractions | Regions | Itineraries |
 |--------|--------|-------------|---------|-------------|
 | en     | 396    | 65          | 11      | 6           |
 | fr     | 102    | 61          | 11      | 6           |
 | de     | 97     | 61          | 11      | 6           |
-| es     | 60     | 61          | 11      | 6           |
+| es     | 65     | 61          | 11      | 6           |
 
 **Gaps to close:**
-- es guides: **336 missing** (60/396 done — Phase ES-12 DEFINED, ready to BUILD)
+- es guides: **331 missing** (65/396 done — Phase ES-13 next)
 - fr guides: **294 missing** (102/396 done — Phase FR-4 DEFINED, ready to BUILD)
 - de guides: **299 missing** (97/396 done — Phase DE-3 DEFINED, ready to BUILD)
 - fr/de/es attractions: **4 missing each** (the 4 EN attractions added after Phase 4)
@@ -127,7 +127,7 @@ Take the top 5 by priority (or head -5 if priority not obvious), translate each 
   LATAM "Tierra Santa" Catholic pilgrimage + adventure market. West Bank/Silwan/Bahá'í
   neutral framing carried exactly from EN. No fabricated prices. 10 new tests (5 smoke + 5 a11y).
   ES guides: 55→60/396. Build: 1016→1021 pages. All e2e pass.
-- Phase ES-12 — DEFINED. iter840 research:
+- Phase ES-12 — DONE. iter841 shipped cfbee79b:
   bethlehem-tours-compared, beit-shean-guide, birdwatching-in-israel,
   beit-guvrin-caves-guide, israel-jordan-itinerary.
   LATAM pilgrimage conversion + archaeology + ecotourism + Gran Tour combined market.
@@ -135,7 +135,8 @@ Take the top 5 by priority (or head -5 if priority not obvious), translate each 
   beit-shean: "Bet Shean ruinas" LATAM archaeology search; birdwatching: growing LATAM
   ecotourism; beit-guvrin: "Cuevas de Bet Guvrin" family adventure; israel-jordan:
   "Gran Tour Israel y Jordania" #1 LATAM packaged tour product.
-  /es/ prefix only for confirmed existing ES pages. 10 new tests. Status: ready.
+  /es/ prefix only for confirmed existing ES pages. 10 new tests (5 smoke + 5 a11y).
+  ES guides: 60→65/396. Build: 1036 pages. 1365/1365 e2e pass.
 
 ### FR guide catch-up (102 / 396 = 294 remaining)
 - Phase FR-1 — DONE. iter828 shipped ff27fd98:
