@@ -1,15 +1,17 @@
 # LOOP STATE
 
-- iteration: 842
-- lastMode: BUILD (iter842%5==2 → BUILD; i18n-FR category)
-- lastItem: fr-phase-4 (bahai-world-center-guide, beit-guvrin-caves-guide, beit-shean-guide, best-hotels-tel-aviv, israel-jordan-itinerary)
-- lastResult: SHIPPED cc4db236. FR Phase FR-4: 5 French guides. Metropolitan French; YAML apostrophes double-quoted; /fr/* prefix only for confirmed existing FR pages; Bahá'í active religious site framing (exterior/terraces open to all, shrines reserved for Bahá'í pilgrimage); UNESCO Bell Caves; Roman Decapolis archaeology (Beit She'an 749 CE time-capsule); 2026 new openings Six Senses TLV + Nobu Hotel TLV honest caveats; "Circuit Israël et Jordanie" both border crossings documented; Jordan Pass; no fabricated prices. 10 new tests (5 smoke + 5 a11y). FR guides: 102→107/396. Build: 1036→1041 pages. 1375/1375 e2e pass. CI in_progress (standard pattern).
-- nextRotationCategory: BUILD (iter843%5==3 → BUILD; top candidate = DE Phase DE-3 [P1 i18n-DE M])
+- iteration: 843
+- lastMode: BUILD (iter843%5==3 → BUILD; i18n-DE category)
+- lastItem: de-phase-3 (bedouin-experience-israel, beer-sheva-guide, beit-guvrin-caves-guide, beit-shean-guide, bahai-world-center-guide)
+- lastResult: SHIPPED c06662e0. DE Phase DE-3: 5 German guides. Standard Hochdeutsch; /de/* prefix for confirmed existing DE pages; plain links for EN-only pages; diyafa Beduinen cultural framing; ANZAC 4. Australische Light-Horse-Brigade Kavallerieritt 31. Oktober 1917 Beer-Sheva; Bet-Guvrin-Höhlen UNESCO Glockenhöhlen + Sidonische Grabkammern + Taubenschläge (Columbaria) + Amphitheater; Beit She'an Nysa-Scythopolis Dekapolis + 749 CE Galiläa-Erdbeben-Zeitkapsel; Bahá'í-Weltzentrum active religious site (non-Bahá'ís Terrassen/Außenbereiche; Schrein-Innenraum nur für Bahá'í-Pilger) + Freitagnachmittag-Schließung Bahjí; no fabricated prices. 10 new tests (5 smoke + 5 a11y). DE guides: 97→102/396. Build: 1041→1046 pages. 1385/1385 e2e pass. CI in_progress (standard pattern).
+- nextRotationCategory: REVIEW (iter844%5==4 → REVIEW; top candidate = review iter843 DE Phase DE-3 guides for link prefix bugs + honesty check)
 - higgsfieldSpent: 0
-- updatedAt: 2026-07-29T05:00Z
+- updatedAt: 2026-07-29T06:00Z
 - branch context: work on master; feature work on auto/<slug>
 
 Notes: iter840 RESEARCH — 170th research pass. Key findings: (1) LATAM "Gran Tour Israel y Jordania" is #1 LATAM package tour product → israel-jordan-itinerary.md must ship in ES; (2) beit-guvrin-caves-guide + beit-shean-guide have SERP gaps in all 3 language markets; (3) bethlehem-tours-compared.md critical for LATAM Civitatis/toursfestival conversion funnel; (4) Gordonia Zichron Yaakov (Fattal Hotels) all-suite resort opened summer 2026 — not in our guides; (5) InterContinental Jerusalem may have opened by now — freshness check needed. Sources: routard.com, civitatis.com, viel-unterwegs.de, eberhardt-travel.de, tourradar.com, myisraelstay.com, ynetnews.com, israelhayom.com. i18n phases ES-12/FR-4/DE-3 all defined in BACKLOG and I18N-PLAN.md.
+
+Notes: iter843 BUILD (i18n-DE) — de-phase-3 SHIPPED c06662e0. DE Phase DE-3: 5 German guides (bedouin-experience-israel, beer-sheva-guide, beit-guvrin-caves-guide, beit-shean-guide, bahai-world-center-guide). Standard Hochdeutsch; diyafa Beduinen cultural immersion framing; ANZAC Beerscheba 1917 Kavallerieritt; Bet-Guvrin-Höhlen UNESCO Glockenhöhlen + Sidonische Grabkammern; Beit She'an Nysa-Scythopolis Dekapolis + 749 CE Erdbeben-Zeitkapsel; Gan HaShlosha/Sachne 28°C combo; Bahá'í-Weltzentrum active religious site (non-Bahá'ís Terrassen/Außenbereiche; Schrein-Innenraum nur für Bahá'í-Pilger); Freitagnachmittag-Schließung Bahjí; no fabricated prices. 10 new tests (5 smoke + 5 a11y). DE guides: 97→102/396. Build: 1041→1046 pages. 1385/1385 e2e pass. CI in_progress (standard pattern).
 
 Notes: iter842 BUILD (i18n-FR) — fr-phase-4 SHIPPED cc4db236. FR Phase FR-4: 5 French guides (bahai-world-center-guide, beit-guvrin-caves-guide, beit-shean-guide, best-hotels-tel-aviv, israel-jordan-itinerary). Metropolitan French; Bahá'í religious site framing (non-Bahá'ís exterior/terraces only); UNESCO Bell Caves + Sidonian Burial Caves; Beit She'an Nysa-Scythopolis Decapolis + 749 CE earthquake time-capsule; Tel Aviv hotel neighborhoods (5 zones, 3 price tiers, honest 2026 new openings); 10-day Israel+Jordan circuit (two border crossings, Jordan Pass, Petra + Wadi Rum); no fabricated prices. 10 new tests (5 smoke + 5 a11y). FR guides: 102→107/396. Build: 1036→1041 pages. 1375/1375 e2e pass. CI in_progress (standard pattern).
 

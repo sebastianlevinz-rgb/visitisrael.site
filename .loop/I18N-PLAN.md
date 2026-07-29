@@ -6,19 +6,19 @@
 >
 > One bounded slice per loop iteration. NEVER bulk-translate in one shot.
 
-## Current status snapshot (2026-07-29 iter841)
+## Current status snapshot (2026-07-29 iter843)
 
 | Locale | Guides | Attractions | Regions | Itineraries |
 |--------|--------|-------------|---------|-------------|
 | en     | 396    | 65          | 11      | 6           |
-| fr     | 102    | 61          | 11      | 6           |
-| de     | 97     | 61          | 11      | 6           |
+| fr     | 107    | 61          | 11      | 6           |
+| de     | 102    | 61          | 11      | 6           |
 | es     | 65     | 61          | 11      | 6           |
 
 **Gaps to close:**
 - es guides: **331 missing** (65/396 done — Phase ES-13 next)
-- fr guides: **289 missing** (107/396 done — Phase FR-4 SHIPPED iter842; Phase FR-5 next)
-- de guides: **299 missing** (97/396 done — Phase DE-3 DEFINED, ready to BUILD)
+- fr guides: **289 missing** (107/396 done — Phase FR-5 next)
+- de guides: **294 missing** (102/396 done — Phase DE-3 SHIPPED iter843; Phase DE-4 next)
 - fr/de/es attractions: **4 missing each** (the 4 EN attractions added after Phase 4)
 
 ## Architecture (already shipped, do not re-do)
@@ -168,7 +168,7 @@ Take the top 5 by priority (or head -5 if priority not obvious), translate each 
   no fabricated prices. 10 new tests (5 smoke + 5 a11y).
   FR guides: 102→107/396. Build: 1036→1041 pages. 1375/1375 e2e pass.
 
-### DE guide catch-up (97 / 396 = 299 remaining — Phase DE-3 DEFINED)
+### DE guide catch-up (102 / 396 = 294 remaining — Phase DE-4 next)
 - Phase DE-1 — DONE. iter833 shipped ebfb0bd7:
   3-days-in-israel, 3-days-in-galilee, airlines-flying-israel-2026,
   backpacking-israel, best-beaches-israel. Standard Hochdeutsch;
@@ -184,11 +184,34 @@ Take the top 5 by priority (or head -5 if priority not obvious), translate each 
   inside YAML double-quoted string (3-days-in-negev.md „Erosionskrater\"/ „Boxcañon\").
   /de/* prefix links only where DE page exists; plain links for EN-only pages; no fabricated prices.
   10 new tests (5 smoke + 5 a11y). DE guides: 92→97/396. Build: 1031 pages. 1355/1355 e2e pass.
-- Phase DE-3 — DEFINED. iter840 research: bedouin-experience-israel, beer-sheva-guide,
-  beit-guvrin-caves-guide, beit-shean-guide, bahai-world-center-guide.
+- Phase DE-3 — DONE. iter843 shipped c06662e0:
+  bedouin-experience-israel, beer-sheva-guide, beit-guvrin-caves-guide,
+  beit-shean-guide, bahai-world-center-guide.
+  Standard Hochdeutsch; diyafa Beduinen cultural immersion (Kfar HaNokdim, Sde Boker,
+  Negev Beduinen-Erbe-Zentrum); ANZAC 4. Australische Light-Horse-Brigade Kavallerieritt
+  31. Oktober 1917 Beer-Sheva; Tel Beer-Sheva UNESCO + IAF Museum Hatzerim;
+  Bet-Guvrin-Höhlen UNESCO Glockenhöhlen + Sidonische Grabkammern + Taubenschläge +
+  Amphitheater; Beit She'an Nysa-Scythopolis Dekapolis + 749 CE Erdbeben-Zeitkapsel +
+  Sachne/Gan HaShlosha 28°C combo; Bahá'í-Weltzentrum active religious site
+  (non-Bahá'ís Terrassen/Außenbereiche; Schrein-Innenraum nur für Bahá'í-Pilger);
+  Freitagnachmittag-Schließung Bahjí; haifa-travel-guide plain link (no DE version);
+  no fabricated prices. 10 new tests (5 smoke + 5 a11y).
+  DE guides: 97→102/396. Build: 1041→1046 pages. 1385/1385 e2e pass.
+- Phase DE-4 — DEFINED. iter843 planning: best-hotels-tel-aviv, israel-jordan-itinerary,
+  day-trips-from-jerusalem, caesarea-guide, day-trips-from-tel-aviv.
+  Rationale: (1) best-hotels-tel-aviv: DACH business + leisure travellers; 5-Sterne-Segment
+  Tel Aviv growing; hotel-content high affiliate value; pairs with 3-days-in-tel-aviv DE;
+  (2) israel-jordan-itinerary: "Israel-Jordanien Rundreise" is top DACH packaged tour
+  (Eberhardt, Sonnenklar, FTI all offer it); "Israel Jordanien Reise" is a high-volume DACH
+  query; combines with existing DE Negev/Petra cultural interest; both border crossings +
+  Jordan Pass; (3) day-trips-from-jerusalem: standard DACH itinerary component; Jerusalem
+  is always the base hotel in Eberhardt/TUI packages; Masada/Dead Sea/Bethlehem/Jericho
+  day-trip planning is a natural DE-traveller need; (4) caesarea-guide: Roman ruins highly
+  popular with German cultural/history tourists (Rother hiking guides cite Caesarea);
+  Maritima Caesarea + Herodian harbour + Roman theatre; pairs well with existing DE haifa
+  content; (5) day-trips-from-tel-aviv: practical planning for German urban base;
+  Haifa/Caesarea/Jerusalem/Dead Sea/Nazareth day-trip radius from TLV hotel.
   Standard Hochdeutsch; /de/* prefix for confirmed existing DE pages; plain links EN-only;
-  Beduinen cultural immersion (Eberhardt/Sonnenklar Rundreise itineraries include it);
-  ANZAC Beer Sheva 1917; Bet-Guvrin-Höhlen UNESCO spelunking; Baha'i Weltzentrum;
   no fabricated prices. 10 new tests (5 smoke + 5 a11y).
   Status: ready — pick in next BUILD iteration for DE category.
 
