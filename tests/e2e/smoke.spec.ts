@@ -806,6 +806,11 @@ const ROUTES = [
   '/de/dead-sea-medical-tourism',
   '/de/city-of-david-jerusalem',
   '/de/aqaba-from-eilat',
+  '/es/galilee-christian-sites-circuit',
+  '/es/free-things-to-do-israel',
+  '/es/dead-sea-day-trip-comparison',
+  '/es/best-hotels-sea-of-galilee',
+  '/es/cycling-in-israel',
 ];
 
 for (const route of ROUTES) {
