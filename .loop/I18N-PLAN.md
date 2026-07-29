@@ -6,18 +6,18 @@
 >
 > One bounded slice per loop iteration. NEVER bulk-translate in one shot.
 
-## Current status snapshot (2026-07-29 iter856 BUILD)
+## Current status snapshot (2026-07-29 iter858 BUILD)
 
 | Locale | Guides | Attractions | Regions | Itineraries |
 |--------|--------|-------------|---------|-------------|
 | en     | 396    | 65          | 11      | 6           |
-| fr     | 117    | 61          | 11      | 6           |
+| fr     | 122    | 61          | 11      | 6           |
 | de     | 112    | 61          | 11      | 6           |
 | es     | 80     | 61          | 11      | 6           |
 
 **Gaps to close:**
 - es guides: **316 missing** (80/396 done — Phase ES-15 SHIPPED iter856; next: ES-16 to define)
-- fr guides: **279 missing** (117/396 done — Phase FR-6 SHIPPED iter852; next: FR-7 DEFINED iter855 — ready)
+- fr guides: **274 missing** (122/396 done — Phase FR-7 SHIPPED iter858; next: FR-8 to define)
 - de guides: **284 missing** (112/396 done — Phase DE-5 SHIPPED iter853; next: DE-6 DEFINED iter855 — ready)
 - fr/de/es attractions: **4 missing each** (the 4 EN attractions added after Phase 4)
 
@@ -229,11 +229,8 @@ Take the top 5 by priority (or head -5 if priority not obvious), translate each 
   Road Jan 2026; Dolphin Reef semi-wild framing; tax-free shopping Eilat; YAML double-quotes;
   /fr/* prefix only for confirmed existing FR pages. No fabricated prices.
   10 new tests (5 smoke + 5 a11y). FR guides: 112→117/396. Build: 1066→1071 pages. 1425→1435 e2e pass.
-- Phase FR-7 — UPDATED iter855 (173rd research pass). Previous definition had nazareth-travel-guide
-  as #1 but iter855 comm -23 confirms nazareth-travel-guide IS already in FR. Replace with
-  easter-in-jerusalem (highest-intent pilgrimage gap confirmed). Revised batch:
-  easter-in-jerusalem, best-hotels-sea-of-galilee, best-hotels-haifa,
-  ashdod-cruise-port-excursions, best-hotels-negev.
+- Phase FR-7 — SHIPPED iter858 3b540160. easter-in-jerusalem, best-hotels-sea-of-galilee,
+  best-hotels-haifa, ashdod-cruise-port-excursions, best-hotels-negev.
   Rationale: (1) easter-in-jerusalem: "Pâques à Jérusalem / Semaine Sainte" = zero confirmed FR
   travel editorial guide; French Catholic pilgrim market (France = 3rd largest Israel tourism source);
   Messe de Minuit Holy Sepulchre + Feu Sacré + Via Dolorosa processions + Orthodox Holy Fire dates;
@@ -252,7 +249,14 @@ Take the top 5 by priority (or head -5 if priority not obvious), translate each 
   3-days-in-negev already DONE; Beresheet + Mitzpe Ramon alternatives; Booking.com affiliate.
   Metropolitan French; YAML double-quotes; /fr/* prefix for confirmed existing FR pages only;
   no fabricated prices. 10 new tests (5 smoke + 5 a11y).
-  Status: ready — pick in next FR BUILD iteration.
+  Status: SHIPPED iter858.
+- Phase FR-8 — to define in next RESEARCH pass. Candidates (comm -23 confirmed missing):
+  dead-sea-hotels-guide, dead-sea-tours-compared, dead-sea-day-trip-comparison,
+  best-hotels-tiberias, cycling-in-israel.
+  Rationale: dead-sea cluster 3 missing FR guides (hotels, tours-compared, day-trip-comparison);
+  best-hotels-tiberias pairs with FR sea-of-galilee-guide (FR-6) + best-hotels-sea-of-galilee (FR-7);
+  cycling-in-israel = zero FR editorial, France = top European cycling market.
+  Status: candidates — verify with comm -23 before authoring.
 - Phase FR-5 definition text (moved to DONE above) — iter845 research: dead-sea-medical-tourism, netanya-guide,
   eilat-hotels-guide, passover-in-israel, church-of-nativity-guide.
   Rationale: (1) dead-sea-medical-tourism: mer-morte.info = entire niche French site with weak

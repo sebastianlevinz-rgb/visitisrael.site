@@ -12992,3 +12992,25 @@ Ship: squash-merged to master 9a7bea65, pushed. Prod deploy pending (commit conf
 Next: iter858 BUILD (858%5==3 → BUILD). FR Phase FR-7: easter-in-jerusalem, best-hotels-sea-of-galilee,
   best-hotels-haifa, ashdod-cruise-port-excursions, best-hotels-negev. Also P1: Rosh Hanikra cable car
   freshness fix (rosh-hanikra-guide.md, S effort).
+
+## 2026-07-29T22:15Z · iter 858 · BUILD (i18n-FR) · fr-phase-7
+What: FR Phase FR-7 — 5 French guides for the French Catholic pilgrim + hotel market.
+  easter-in-jerusalem: Pâques à Jérusalem 2027 — Feu Sacré cérémonie orthodoxe + procession
+    franciscaine Via Dolorosa; dates 28 mars (catholique) / 2 mai (orthodoxe); 3 events JSON-LD;
+    7 FAQs; links to /fr/church-holy-sepulchre-guide + /fr/christian-pilgrimage-holy-land.
+  best-hotels-sea-of-galilee: Hôtels lac de Tibériade — 4 rives Kinneret cartographiées;
+    Nof Ginosar kibbutz plage privée + Barque de Jésus; Magdala/Duc In Altum pèlerins;
+    Booking + GYG + DiscoverCars CTAs; /fr/ links only for confirmed FR pages.
+  best-hotels-haifa: Hôtels Haïfa — Colonie Allemande / Carmel / Port / Hadar tiers;
+    Carmelit + bus shabbat unique en Israël; réservation Jardins Bahá'í (inscription supérieure);
+    links to /fr/bahai-world-center-guide + /fr/3-days-in-haifa + /fr/car-rental-israel.
+  ashdod-cruise-port-excursions: Excursions port Ashdod — Jérusalem (1h), Mer Morte+Massada,
+    Tel Aviv (35min); timing par heure de présence; bateau vs indépendant avec avertissement
+    retard; Bethléem Zone A honest caveat; links to /fr/bethlehem-tours-compared + /fr/cruise-shore-excursions-israel.
+  best-hotels-negev: Hôtels Néguev Mitzpe Ramon — Beresheet bord de cratère (1800–4500₪+),
+    Selina Ramon, Isrotel Ramon Inn milieu de gamme, HI Beit Noam budget, zimmer locaux;
+    links to /fr/car-rental-israel + /fr/3-days-in-negev. No fabricated prices; seasonal booking warnings.
+Gate: pnpm check 0 errors; build 1086 pages (+5); 1465/1465 e2e pass (14.6m). GREEN.
+Ship: squash-merged to master 3b540160, pushed. Prod deploy initiated.
+Next: iter859 REVIEW (859%5==4 → REVIEW). Audit recent FR-7 batch or DE-5/6 guides for link
+  prefix correctness + honesty + register.

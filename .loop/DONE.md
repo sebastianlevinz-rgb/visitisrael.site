@@ -1475,3 +1475,11 @@ DE Phase DE-5 SHIPPED: best-hotels-haifa (Deutsche Kolonie/Karmel/Hafen hotel ti
 
 ## iter857 · BUILD (honesty/P0) · princess-eilat-honesty-fix · 9a7bea65
 P0 honesty fix SHIPPED: Isrotel Princess Eilat confirmed closed as of July 2026 (eilat.city 'out of business'; isrotel.com omits from active Eilat properties). Removed false 'reopened in 2025-2026' claim from eilat-hotels-guide.md in EN, ES, and FR locales (DE variant absent). All references updated: CTA description, FAQ answer, body paragraph, planning tip, and decision matrix. Replaced with accurate closure notice and Airport City future revival disclosure (no confirmed reopening date). Gate: 0 errors; 1081 pages (no change); 1455/1455 e2e pass. 2026-07-29.
+
+## iter858 · FR Phase FR-7 · 3b540160
+5 French guides: easter-in-jerusalem (Pâques 2027 catholique 28 mars / orthodoxe 2 mai + Feu Sacré),
+best-hotels-sea-of-galilee (4 rives Kinneret + Nof Ginosar kibbutz + Magdala),
+best-hotels-haifa (Colonie Allemande / Carmel / Port + Carmelit shabbat),
+ashdod-cruise-port-excursions (Jérusalem + Mer Morte + Tel Aviv timing + West Bank honest caveat),
+best-hotels-negev (Beresheet / Selina / Ramon Inn / HI Beit Noam + zimmer).
+FR guides: 117→122/396. Build: 1081→1086 pages. 1455→1465 e2e pass.
