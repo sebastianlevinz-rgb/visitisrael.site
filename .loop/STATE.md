@@ -1,13 +1,15 @@
 # LOOP STATE
 
-- iteration: 836
-- lastMode: BUILD (iter836%5==1 → BUILD; i18n-ES highest priority)
-- lastItem: es-phase-11
-- lastResult: SHIPPED f2fa1b3c. ES Phase ES-11: 5 Spanish guides — aqaba-from-eilat, bahai-world-center-guide, church-of-nativity-guide, city-of-david-jerusalem, eilat-diving-snorkeling. LATAM "Tierra Santa" Catholic pilgrimage + adventure tourism market. Neutral LATAM Spanish; /es/ prefix only for confirmed existing pages; West Bank/City-of-David neutral dual-name framing; Bahá'í + Bethlehem religious framing carried from EN exactly; no fabricated prices. 10 tests (5 smoke + 5 a11y). Build: 1016→1021 pages. All e2e pass. CI in_progress (standard pattern).
-- nextRotationCategory: REVIEW (iter837%5==2 → BUILD; cycle → seo-content or i18n-FR/DE; after long ES run, consider FR Phase FR-3 next BUILD or REVIEW of ES-11)
+- iteration: 837
+- lastMode: BUILD (iter837%5==2 → BUILD; i18n-FR Phase FR-3)
+- lastItem: fr-phase-3
+- lastResult: SHIPPED 0bccb519. FR Phase FR-3: 5 French guides — 1-day-tel-aviv-itinerary, 3-days-in-haifa, 3-days-in-negev, bedouin-experience-israel, beer-sheva-guide. Metropolitan French register; Wadi Nisnas street art + Carmelit funiculaire + Jardins bahá'ís UNESCO for Haïfa; Makhtesh Ramon correct geology (pas cratère météoritique); diyafa + beit sha'ar bédouin framing; charge cavalerie ANZAC 1917 pour Beer-Sheva. /fr/* prefix confirmed pages only; no fabricated prices; 10 tests (5 smoke + 5 a11y). Build: 1021→1026 pages. 1345/1345 e2e pass. CI in_progress (standard pattern).
+- nextRotationCategory: BUILD (iter838%5==3 → BUILD; cycle → DE Phase DE-2 or seo-content Eilat-vs-Sharm)
 - higgsfieldSpent: 0
-- updatedAt: 2026-07-28T23:00Z
+- updatedAt: 2026-07-29T00:12Z
 - branch context: work on master; feature work on auto/<slug>
+
+Notes: iter837 BUILD (i18n-FR) — fr-phase-3 SHIPPED 0bccb519. FR Phase FR-3: 5 French guides (1-day-tel-aviv-itinerary, 3-days-in-haifa, 3-days-in-negev, bedouin-experience-israel, beer-sheva-guide). Metropolitan French; correct geology Makhtesh Ramon; ANZAC 1917 Beer-Sheva; diyafa bédouine. FR guides: 97→102/396. Build: 1021→1026 pages. 1345/1345 e2e pass.
 
 Notes: iter836 BUILD (seo-content/i18n-ES) — es-phase-11 SHIPPED f2fa1b3c. ES Phase ES-11: 5 Spanish guides. (1) aqaba-from-eilat — day trip logistics Yitzhak Rabin/Wadi Araba border, Japanese Garden snorkeling, Cedar Pride wreck, Aqaba Fort, souk duty-free, one-day vs overnight, Aqaba vs Eilat comparison table; (2) bahai-world-center-guide — 19 UNESCO terraces + Shrine of Báb (Haifa), Bahjí + Ridván Garden (Akko), two-day circuit, Friday afternoon closure caveat, dress code enforcement, religious site framing; (3) church-of-nativity-guide — Grotto queue management, denomination map (Status Quo), Door of Humility, Christmas dates (Latin 24 Dec / Orthodox 6 Jan / Armenian 18 Jan), Checkpoint 300 logistics, West Bank neutral framing exactly from EN; (4) city-of-david-jerusalem — Hezekiah's Tunnel wet/dry routes, Pool of Siloam, Jerusalem Pilgrimage Road (opened Jan 2026), Elad Foundation management controversy noted neutrally, dual-naming Silwan/City of David; (5) eilat-diving-snorkeling — Coral Beach Reserve, Japanese Gardens, Satil wreck, seasons, PADI costs, cross-link to aqaba-from-eilat. ES guides: 55→60/396. Build: 1016→1021 pages. 10 new tests (5 smoke + 5 a11y). Gate: pnpm check 0 errors; build 1021 pages; all e2e pass. CI in_progress (standard pattern).
 

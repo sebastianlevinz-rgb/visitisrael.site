@@ -6,18 +6,18 @@
 >
 > One bounded slice per loop iteration. NEVER bulk-translate in one shot.
 
-## Current status snapshot (2026-07-28 iter836)
+## Current status snapshot (2026-07-29 iter837)
 
 | Locale | Guides | Attractions | Regions | Itineraries |
 |--------|--------|-------------|---------|-------------|
 | en     | 396    | 65          | 11      | 6           |
-| fr     | 97     | 61          | 11      | 6           |
+| fr     | 102    | 61          | 11      | 6           |
 | de     | 92     | 61          | 11      | 6           |
 | es     | 60     | 61          | 11      | 6           |
 
 **Gaps to close:**
 - es guides: **336 missing** (60/396 done — Phase ES-12 next to define)
-- fr guides: **299 missing** (97/396 done — Phase FR-3 DEFINED, next to ship)
+- fr guides: **294 missing** (102/396 done — Phase FR-4 next to define)
 - de guides: **304 missing** (92/396 done — Phase DE-2 DEFINED, next to ship)
 - fr/de/es attractions: **4 missing each** (the 4 EN attractions added after Phase 4)
 
@@ -139,17 +139,19 @@ Take the top 5 by priority (or head -5 if priority not obvious), translate each 
   best-hotels-jerusalem, christmas-in-israel.
   Metropolitan French; YAML apostrophes double-quoted; /fr/* prefix links only for existing FR pages.
   10 new tests (5 smoke + 5 a11y). FR guides: 92→97/396. 1305/1305 e2e pass.
-- Phase FR-3 — DEFINED iter835. Next 5 FR guides:
+- Phase FR-3 — DONE. iter837 shipped 0bccb519:
   1-day-tel-aviv-itinerary, 3-days-in-haifa, 3-days-in-negev,
   bedouin-experience-israel, beer-sheva-guide.
-  Rationale: routard.com + partirou.com confirm French search demand for Haïfa and Galilée
-  itinerary content; 1-day-tel-aviv fills the biggest short-itinerary gap (France = major
-  Israel inbound market; no visa required); 3-days-in-haifa (Jardins bahá'ís UNESCO,
-  Carmélite, Colonie allemande); 3-days-in-negev (Makhtesh Ramon désert aventure);
-  bedouin experience (French cultural tourism interest); beer-sheva (porte du Néguev).
-  Metropolitan French register; YAML double-quotes for apostrophes; /fr/* prefix only for
-  confirmed existing FR pages; plain links for guides without FR equivalent.
-  10 new tests (5 smoke + 5 a11y). FR guides target: 97→102/396. [iter835 research] status: ready
+  Metropolitan French; Makhtesh Ramon géologie correcte (pas cratère météoritique);
+  diyafa + beit sha'ar bédouin; charge cavalerie ANZAC 1917 Beer-Sheva;
+  YAML double-quotes apostrophes; /fr/* prefix confirmed existing FR pages only;
+  no fabricated prices. 10 new tests (5 smoke + 5 a11y).
+  FR guides: 97→102/396. Build: 1021→1026 pages. 1345/1345 e2e pass.
+- Phase FR-4 — NEXT. Candidates (highest-priority FR gaps after FR-3):
+  haifa-travel-guide, masada-visitor-guide, day-trips-from-haifa (already in FR),
+  israel-with-kids, israel-for-seniors (both already in FR), eilat-travel-guide,
+  mitzpe-ramon-guide, tel-aviv-nightlife (already in FR). Run `comm -23` to find
+  exact top 5 missing. Status: to-define (next research or BUILD iteration).
 
 ### DE guide catch-up (92 / 396 = 304 remaining)
 - Phase DE-1 — DONE. iter833 shipped ebfb0bd7:
