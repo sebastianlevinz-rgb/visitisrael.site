@@ -12884,3 +12884,13 @@ Register check: all 5 guides consistently Standard Hochdeutsch. PASS.
 Gate: pnpm check 0 errors; build 1061 pages (no change); 1415/1415 e2e pass (11.3 min).
 Ship: committed 9398d3fc to master, pushed origin/master. CI in_progress (standard pattern; Vercel auto-deploy triggered).
 Next: iter850 RESEARCH (850%5==0 → RESEARCH; 172nd research pass).
+
+## 2026-07-29T14:00Z · iter 850 · RESEARCH · research-850-es14-definition
+What: 172nd research pass. Defined ES Phase ES-14 (5-guide LATAM Spanish batch). Verified competitor landscape and freshness items.
+Research findings: (1) "Semana Santa Jerusalén" = zero Civitatis editorial guide in ES; Infobae/news articles cover 2026 but no evergreen guide exists → confirms easter-in-jerusalem.md is a strong LATAM gap; (2) Tiberias hotels = zero Spanish-language editorial competitors confirmed (israel-taxi.com/Secret Tel Aviv all EN-only); (3) InterContinental Jerusalem still pre-opening as of July 29 2026 (Virtuoso "Preview Property" status); our guide framing "opening summer 2026" is accurate — no update needed; (4) Eilat Isrotel Princess status: research suggests still under renovation ("no confirmed reopening date" per July 2026 sources) — possible honesty issue in eilat-hotels-guide.md which says "reopened in 2025-2026"; added freshness check P3 to BACKLOG; (5) Air Haifa BGA→ETM route (Oct 2026) already covered in air-haifa-haifa-airport-guide.md (updatedAt 2026-07-23) — no action needed.
+BACKLOG updates: ES-13 marked SHIPPED (70024e3a); ES-14 added (P1/ready); Eilat Princess freshness check added (P3/ready); InterContinental Jerusalem BACKLOG note updated with iter850 confirmation.
+I18N-PLAN.md: ES Phase ES-14 definition added (ready status).
+Gate: N/A (RESEARCH mode — no code shipped).
+Merge: none.
+Prod: N/A.
+Next: iter851 BUILD (851%5==1) — top P1 item is ES Phase ES-14 (i18n-ES).

@@ -140,6 +140,26 @@ Take the top 5 by priority (or head -5 if priority not obvious), translate each 
   UVB climatoterapia hedged; Nazareth paired-naming נָצְרַת/النَّاصِرَة; Ein Bokek honest framing;
   grey-area nomad visa explicitly stated. No fabricated prices.
   ES guides: 65→70/396. Build: 1046→1051 pages. 1385→1395 e2e pass.
+- Phase ES-14 — DEFINED. iter850 research: dead-sea-tours-compared, eilat-tours-compared,
+  easter-in-jerusalem, best-hotels-tiberias, ashdod-cruise-port-excursions.
+  Rationale: (1) dead-sea-tours-compared: Civitatis top-selling LATAM product = Masada+Dead Sea combo;
+  zero LATAM editorial comparison guide; adds missing monetization layer to ES Dead Sea cluster
+  (dead-sea-guide + hotels + medical-tourism already shipped); group vs. private vs. self-drive framing;
+  (2) eilat-tours-compared: completes Eilat monetization cluster in ES (eilat-travel-guide +
+  eilat-hotels-guide + eilat-diving-snorkeling already shipped);
+  (3) easter-in-jerusalem: Semana Santa = biggest religious tourism week in LATAM; zero Civitatis
+  editorial guide ("semana santa jerusalen" SERP = only news, no evergreen); Catholic/Orthodox/Armenian
+  Easter dates; Via Dolorosa processions; Midnight Mass Holy Sepulchre logistics; Checkpoint 300;
+  pairs with ES christmas-in-israel + church-holy-sepulchre-guide;
+  (4) best-hotels-tiberias: zero Spanish-language editorial competitors; Tiberias = LATAM Christian
+  Galilee pilgrimage base (Capernaum/Tabgha/Magdala/Nazareth/Yardenit circuit); Scots Hotel +
+  Leonardo + Ruth Rimonim anchors; Booking.com affiliate value; pairs with ES 3-days-in-galilee;
+  (5) ashdod-cruise-port-excursions: MSC/Costa/Royal Caribbean call Ashdod for Jerusalem day trips;
+  Civitatis sells tours but no ES editorial; Ashdod port logistics + best options by hours-in-port.
+  Quality: neutral LATAM Spanish tuteo; YAML double-quotes; /es/ prefix for confirmed existing ES pages;
+  no fabricated prices; Easter 2027 dates confirmed (Catholic April 20; Orthodox/Armenian April 12);
+  paired-naming where applicable; no fabricated tour prices (ranges only).
+  Status: ready — pick in next ES BUILD iteration.
 
 ### FR guide catch-up (107 / 396 = 289 remaining)
 - Phase FR-1 — DONE. iter828 shipped ff27fd98:
