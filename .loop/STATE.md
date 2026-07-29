@@ -1,13 +1,15 @@
 # LOOP STATE
 
-- iteration: 848
-- lastMode: BUILD (iter848%5==3 → BUILD; DE Phase DE-4)
-- lastItem: de-phase-4
-- lastResult: 5 DE guides shipped (best-hotels-tel-aviv, israel-jordan-itinerary, best-hotels-jerusalem, masada-visitor-guide, sea-of-galilee-guide). DE guides: 102→107/396. Build: 1056→1061 pages. 1405→1415 e2e pass. SHA: 399f791d.
-- nextRotationCategory: REVIEW (iter849%5==4 → REVIEW)
+- iteration: 849
+- lastMode: REVIEW (iter849%5==4 → REVIEW; DE Phase DE-4 link audit)
+- lastItem: review-849-de-phase4-link-fixes
+- lastResult: 2 link prefix bugs fixed in DE-4 guides (israel-jordan-itinerary + masada-visitor-guide). Build: 1061 pages (no change). 1415/1415 e2e pass. SHA: 9398d3fc.
+- nextRotationCategory: RESEARCH (iter850%5==0 → RESEARCH; 172nd research pass)
 - higgsfieldSpent: 0
-- updatedAt: 2026-07-29T12:00Z
+- updatedAt: 2026-07-29T13:00Z
 - branch context: work on master; feature work on auto/<slug>
+
+Notes: iter849 REVIEW — review-849-de-phase4-link-fixes SHIPPED 9398d3fc. Audited all 5 DE Phase DE-4 guides (best-hotels-tel-aviv, israel-jordan-itinerary, best-hotels-jerusalem, masada-visitor-guide, sea-of-galilee-guide) for (1) link prefix correctness, (2) honesty, (3) Hochdeutsch register. Link audit: 27 internal links verified. 2 bugs found + fixed: israel-jordan-itinerary.md line 145 /dead-sea-israel-vs-jordan→/de/dead-sea-israel-vs-jordan (DE guide confirmed existing); masada-visitor-guide.md line 159 /dead-sea→/de/dead-sea (DE region confirmed existing). Remaining 25 /de/* links all verified against existing DE guide/region pages. Honesty check: all prices ranges, caveats on new openings, no fabricated ratings. Register: all 5 consistently Standard Hochdeutsch. Gate: pnpm check 0 errors; build 1061 pages (no change); 1415/1415 e2e pass.
 
 Notes: iter848 BUILD (i18n-DE) — de-phase-4 SHIPPED 399f791d. DE Phase DE-4: 5 German guides (best-hotels-tel-aviv, israel-jordan-itinerary, best-hotels-jerusalem, masada-visitor-guide, sea-of-galilee-guide). DACH business + leisure hotel market + "Israel-Jordanien Rundreise" top DACH packaged tour + Licht-und-Ton-Show Masada + Kinneret Kinneretsee Nordgestade-Südgestade circuit. Standard Hochdeutsch; YAML double-quotes; paired-naming on contested sites; Yardenit honesty note; no fabricated prices. 10 new tests (5 smoke + 5 a11y). DE guides: 102→107/396. Build: 1056→1061 pages. 1405→1415 e2e pass.
 

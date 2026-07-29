@@ -12872,3 +12872,15 @@ Note: DE-4 original plan included day-trips-from-jerusalem, caesarea-guide, day-
 Gate: pnpm check 0 errors; pnpm build 1061 pages (+5); pnpm test:e2e 1415/1415 pass.
 Ship: committed 399f791d to master; pushed origin/master.
 Next: iter849 REVIEW (849%5==4 → REVIEW; review recent DE Phase DE-4 or DE-3 guides for link audit + register consistency).
+
+## 2026-07-29T13:00Z · iter 849 · REVIEW · review-849-de-phase4-link-fixes
+What: Audited all 5 DE Phase DE-4 guides (best-hotels-tel-aviv, israel-jordan-itinerary, best-hotels-jerusalem, masada-visitor-guide, sea-of-galilee-guide) for (1) link prefix correctness, (2) honesty, (3) Hochdeutsch register.
+Link audit: 27 internal /de/* links verified across all 5 guides. 2 bugs found in 2 guides (same systematic plain-link pattern as DE-1 review iter834 and DE-2 review iter839; DE-3 iter844 was the first clean batch):
+  - israel-jordan-itinerary.md line 145: /dead-sea-israel-vs-jordan → /de/dead-sea-israel-vs-jordan (DE guide src/content/guides/de/dead-sea-israel-vs-jordan.md confirmed existing)
+  - masada-visitor-guide.md line 159: /dead-sea → /de/dead-sea (DE region src/content/regions/de/dead-sea.md confirmed existing)
+Remaining 25 /de/* links verified clean (ben-gurion-airport-guide, best-hotels-jerusalem, car-rental-israel, church-holy-sepulchre-guide, dead-sea-guide, driving-in-israel, galilee, galilee-tours-compared, israel-accommodation-guide, israel-national-parks-pass, jaffa-travel-guide, jerusalem, jerusalem-food-guide, jerusalem-old-city-walking-tour, jordan-river-baptism, masada-dead-sea-day-trip, masada-tours-compared, petra-from-eilat-vs-amman, petra-from-israel, safed-tzfat-guide, tel-aviv-food-guide, tel-aviv-light-rail, tel-aviv-neighborhoods-guide, tel-aviv-to-jerusalem, tel-aviv-vs-jerusalem, tel-aviv-white-city, tiberias-guide).
+Honesty check: all prices as ranges (₪300-550 budget, ₪550-1100 mid, ₪1200+ luxury in TLV/JRS; Masada Licht-und-Ton-Show ₪75-120); Six Senses TLV + Nobu TLV + InterContinental Jerusalem all have honest "check Booking.com before planning" caveats; Yardenit honest note preserved; no fabricated ratings/review counts. PASS.
+Register check: all 5 guides consistently Standard Hochdeutsch. PASS.
+Gate: pnpm check 0 errors; build 1061 pages (no change); 1415/1415 e2e pass (11.3 min).
+Ship: committed 9398d3fc to master, pushed origin/master. CI in_progress (standard pattern; Vercel auto-deploy triggered).
+Next: iter850 RESEARCH (850%5==0 → RESEARCH; 172nd research pass).
