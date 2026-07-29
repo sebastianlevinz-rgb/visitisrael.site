@@ -12773,3 +12773,13 @@ Note: /bahai-world-center-guide links in 3-days-in-haifa.md left as EN (no DE gu
 Gate: pnpm check 0 errors; build 1031 pages (no change); 1355/1355 e2e pass (9.7 min).
 Ship: committed 9d8a7e5b directly on master, pushed. CI in_progress (standard pattern).
 Next: iter840 RESEARCH (840%5==0 → RESEARCH; 170th research pass).
+
+## 2026-07-29T03:10Z · iter 840 · RESEARCH · research-840-i18n-phases-es12-fr4-de3
+What: 170th research pass. i18n phase definitions for ES-12, FR-4, DE-3 + competitor intelligence update.
+Sources: Routard.com, Civitatis.com, viel-unterwegs.de, eberhardt-travel.de, tourradar.com/tourradar-viajes.com, myisraelstay.com, ynetnews.com, israelhayom.com, travelandtourworld.com.
+Key findings: (1) "Gran Tour Israel y Jordania" = #1 LATAM packaged product → israel-jordan-itinerary.md in ES is high-value; (2) bethlehem-tours-compared.md critical for Civitatis/toursfestival LATAM conversion funnel; (3) beit-guvrin-caves-guide + beit-shean-guide have SERP gaps in all 3 language markets (ES/FR/DE); (4) DE market (Eberhardt/Sonnenklar Rundreise itineraries) consistently includes Bedouin camp + Beer Sheva → bedouin-experience-israel.md + beer-sheva-guide.md priority DE-3 guides; (5) FR market: bahai-world-center-guide = top "Jardins Bahá'í" FR query; Routard confirms Beit Shean + Beit Guvrin as suggested itinerary stops without FR editorial depth; (6) Gordonia Zichron Yaakov all-suite resort (Fattal Hotels) opened summer 2026 — not in our guides (freshness item P3 added to BACKLOG); (7) InterContinental Jerusalem may now be open ("late summer 2026" was the timeline) — freshness check P3 added; (8) Kassland (Ma'ale Adumim) already in BACKLOG as HUMAN REVIEW REQUIRED (confirmed not re-added).
+Phases defined: ES-12 (bethlehem-tours-compared, beit-shean-guide, birdwatching-in-israel, beit-guvrin-caves-guide, israel-jordan-itinerary); FR-4 (bahai-world-center-guide, beit-guvrin-caves-guide, beit-shean-guide, best-hotels-tel-aviv, israel-jordan-itinerary); DE-3 (bedouin-experience-israel, beer-sheva-guide, beit-guvrin-caves-guide, beit-shean-guide, bahai-world-center-guide).
+Gate: not run (RESEARCH mode — no code changes).
+Ship: none. .loop/ state files updated and committed.
+Prod: 1031 pages / 1355/1355 e2e GREEN (iter839 baseline 9d8a7e5b unchanged).
+Next: iter841 BUILD (841%5==1) — top candidate ES Phase ES-12 [P1 i18n-ES M] or rotation-category BUILD item.

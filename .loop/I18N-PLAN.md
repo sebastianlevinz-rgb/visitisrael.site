@@ -6,7 +6,7 @@
 >
 > One bounded slice per loop iteration. NEVER bulk-translate in one shot.
 
-## Current status snapshot (2026-07-29 iter838)
+## Current status snapshot (2026-07-29 iter840)
 
 | Locale | Guides | Attractions | Regions | Itineraries |
 |--------|--------|-------------|---------|-------------|
@@ -16,9 +16,9 @@
 | es     | 60     | 61          | 11      | 6           |
 
 **Gaps to close:**
-- es guides: **336 missing** (60/396 done — Phase ES-12 next to define)
-- fr guides: **294 missing** (102/396 done — Phase FR-4 next to define)
-- de guides: **299 missing** (97/396 done — Phase DE-3 next to define)
+- es guides: **336 missing** (60/396 done — Phase ES-12 DEFINED, ready to BUILD)
+- fr guides: **294 missing** (102/396 done — Phase FR-4 DEFINED, ready to BUILD)
+- de guides: **299 missing** (97/396 done — Phase DE-3 DEFINED, ready to BUILD)
 - fr/de/es attractions: **4 missing each** (the 4 EN attractions added after Phase 4)
 
 ## Architecture (already shipped, do not re-do)
@@ -73,7 +73,7 @@ Take the top 5 by priority (or head -5 if priority not obvious), translate each 
 
 ## Progress tracker
 
-### ES guides (45 / 396)
+### ES guides (60 / 396)
 - Phase ES-0 — DONE. iter799 shipped 5/394:
   first-time-in-israel, visa-information, best-time-to-visit-israel,
   israel-cost-budget, transportation (02b1058).
@@ -127,8 +127,17 @@ Take the top 5 by priority (or head -5 if priority not obvious), translate each 
   LATAM "Tierra Santa" Catholic pilgrimage + adventure market. West Bank/Silwan/Bahá'í
   neutral framing carried exactly from EN. No fabricated prices. 10 new tests (5 smoke + 5 a11y).
   ES guides: 55→60/396. Build: 1016→1021 pages. All e2e pass.
+- Phase ES-12 — DEFINED. iter840 research:
+  bethlehem-tours-compared, beit-shean-guide, birdwatching-in-israel,
+  beit-guvrin-caves-guide, israel-jordan-itinerary.
+  LATAM pilgrimage conversion + archaeology + ecotourism + Gran Tour combined market.
+  bethlehem-tours-compared: Civitatis/toursfestival top LATAM circuit includes Bethlehem;
+  beit-shean: "Bet Shean ruinas" LATAM archaeology search; birdwatching: growing LATAM
+  ecotourism; beit-guvrin: "Cuevas de Bet Guvrin" family adventure; israel-jordan:
+  "Gran Tour Israel y Jordania" #1 LATAM packaged tour product.
+  /es/ prefix only for confirmed existing ES pages. 10 new tests. Status: ready.
 
-### FR guide catch-up (97 / 396 = 299 remaining)
+### FR guide catch-up (102 / 396 = 294 remaining)
 - Phase FR-1 — DONE. iter828 shipped ff27fd98:
   3-days-in-israel, 3-days-in-galilee, airlines-flying-israel-2026,
   backpacking-israel, best-beaches-israel. Metropolitan French;
@@ -147,13 +156,14 @@ Take the top 5 by priority (or head -5 if priority not obvious), translate each 
   YAML double-quotes apostrophes; /fr/* prefix confirmed existing FR pages only;
   no fabricated prices. 10 new tests (5 smoke + 5 a11y).
   FR guides: 97→102/396. Build: 1021→1026 pages. 1345/1345 e2e pass.
-- Phase FR-4 — NEXT. Candidates (highest-priority FR gaps after FR-3):
-  haifa-travel-guide, masada-visitor-guide, day-trips-from-haifa (already in FR),
-  israel-with-kids, israel-for-seniors (both already in FR), eilat-travel-guide,
-  mitzpe-ramon-guide, tel-aviv-nightlife (already in FR). Run `comm -23` to find
-  exact top 5 missing. Status: to-define (next research or BUILD iteration).
+- Phase FR-4 — DEFINED. iter840 research: bahai-world-center-guide, beit-guvrin-caves-guide,
+  beit-shean-guide, best-hotels-tel-aviv, israel-jordan-itinerary.
+  Metropolitan French; YAML apostrophes double-quoted; /fr/* prefix only for confirmed FR pages;
+  Bahá'í active religious site framing; UNESCO Bell Caves; Roman archaeology;
+  "Circuit Israël et Jordanie" combined-tour market. 10 new tests (5 smoke + 5 a11y).
+  Status: ready — pick in next BUILD iteration for FR category.
 
-### DE guide catch-up (97 / 396 = 299 remaining)
+### DE guide catch-up (97 / 396 = 299 remaining — Phase DE-3 DEFINED)
 - Phase DE-1 — DONE. iter833 shipped ebfb0bd7:
   3-days-in-israel, 3-days-in-galilee, airlines-flying-israel-2026,
   backpacking-israel, best-beaches-israel. Standard Hochdeutsch;
@@ -169,8 +179,13 @@ Take the top 5 by priority (or head -5 if priority not obvious), translate each 
   inside YAML double-quoted string (3-days-in-negev.md „Erosionskrater\"/ „Boxcañon\").
   /de/* prefix links only where DE page exists; plain links for EN-only pages; no fabricated prices.
   10 new tests (5 smoke + 5 a11y). DE guides: 92→97/396. Build: 1031 pages. 1355/1355 e2e pass.
-- Phase DE-3 — NEXT. Run `comm -23` to find top 5 missing DE guides after DE-2.
-  Status: to-define (next RESEARCH or BUILD iteration).
+- Phase DE-3 — DEFINED. iter840 research: bedouin-experience-israel, beer-sheva-guide,
+  beit-guvrin-caves-guide, beit-shean-guide, bahai-world-center-guide.
+  Standard Hochdeutsch; /de/* prefix for confirmed existing DE pages; plain links EN-only;
+  Beduinen cultural immersion (Eberhardt/Sonnenklar Rundreise itineraries include it);
+  ANZAC Beer Sheva 1917; Bet-Guvrin-Höhlen UNESCO spelunking; Baha'i Weltzentrum;
+  no fabricated prices. 10 new tests (5 smoke + 5 a11y).
+  Status: ready — pick in next BUILD iteration for DE category.
 
 ### Attraction catch-up (4 missing per locale)
 - NOT STARTED. Low priority; do after guide catch-up is well underway.

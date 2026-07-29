@@ -6693,3 +6693,31 @@ I18N-PLAN.md listed "cheap-flights-to-israel, shabbat-guide, first-time-in-israe
 - Golan Heights Wine Route [P3 in BACKLOG, ready] — low competition niche
 
 Gate: not run (RESEARCH mode). 1001 pages / 1295/1295 tests GREEN (iter829 commit b68cfe6d).
+
+### 2026-07-29 · iter 840 · RESEARCH · 170th research pass · i18n market scan + freshness
+
+**Sources consulted:** Routard.com (FR Israel guide), Civitatis.com (ES Israel tours), viel-unterwegs.de (DE travel blog), eberhardt-travel.de (DE tour operator), tourradar.com/tourradar-viajes.com, myisraelstay.com, ynetnews.com, israelhayom.com, travelandtourworld.com.
+
+**ES (LATAM) market findings:**
+- toursfestival.com, festivalagents.com, compasstravelisrael.com all confirm "Tierra Santa" and "Gran Tour Israel y Jordania" are the #1 + #2 LATAM Israel products. Our israel-jordan-itinerary.md translates directly to a high-converting ES page.
+- Civitatis' 5-day Israel circuit (TLV→Bethlehem→Jerusalem→Dead Sea→Masada) = bestseller; confirms bethlehem-tours-compared.md is a conversion page for LATAM market.
+- Minube.com and TourRadar ES rank for "Bet Shean ruinas" + "cuevas Israel" — both ZERO competitor editorial depth, just aggregator results.
+- Ecotourism / birdwatching rising in LATAM (Colombia, Brazil, Argentina are global birding-tour markets) — Israel's Eilat + Hula Valley are world-class, zero LATAM-language competitors cover it well.
+
+**FR market findings:**
+- Routard.com covers Haïfa/Bahai prominently, confirmed "Jardins Bahá'í" is top FR traveler query — our bahai-world-center-guide.md in FR will compete head-on.
+- Le Routard Israel/Palestine ETA-IL entry already handled by us (visa-information.md + israel-eta-guide.md).
+- "Bet Shéan" and "Bet Guvrin" appear in Routard's suggested Israel itinerary stops without dedicated editorial pages — confirmed FR content gap for us.
+- "Circuit Israël et Jordanie" appears on multiple FR package tour sites; our israel-jordan-itinerary.md in FR directly targets this cluster.
+
+**DE (DACH) market findings:**
+- Eberhardt Travel + Sonnenklar.TV 8-11 day Israel Rundreise consistently includes Bedouin camp night (Negev) and Beer Sheva stop — confirms these are DE market staples we're missing in DE locale.
+- viel-unterwegs.de + konpasu.de cover "Israel Sehenswürdigkeiten" with light regional breakdowns; no dedicated Beit Guvrin, Beit Shean, or Bedouin experience pages in German — clear gap.
+- Bahá'í content in German: bahais.de (German national Bahá'í centre in Hofheim) links to Haifa pilgrimage; DE-language Bahá'í World Centre content has minimal competition.
+
+**New hotel openings (potential freshness):**
+- Gordonia Zichron Yaakov (Fattal Hotels): all-suite Carmel Coast Mediterranean resort opened summer 2026. Not yet in our guides. SERP gap.
+- InterContinental Jerusalem: still listed as "late summer 2026" pending — as of late July 2026 check needed (may have opened).
+- Kassland Resort & Spa (Ma'ale Adumim) already in BACKLOG as HUMAN REVIEW REQUIRED.
+
+Gate: not run (RESEARCH mode). 1031 pages / 1355/1355 tests GREEN (iter839 commit 9d8a7e5b).

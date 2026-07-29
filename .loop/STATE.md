@@ -1,13 +1,15 @@
 # LOOP STATE
 
-- iteration: 839
-- lastMode: REVIEW (iter839%5==4 → REVIEW; DE Phase DE-2 audit)
-- lastItem: review-839-de-phase2-link-fixes
-- lastResult: SHIPPED 9d8a7e5b. DE Phase DE-2 audit: 5 guides reviewed. 8 attraction link prefix bugs found and fixed across 2 guides (3-days-in-eilat: 4 bugs; 3-days-in-haifa: 4 bugs). 3 guides CLEAN (1-day-tel-aviv-itinerary, 3-days-in-negev, 3-days-in-tel-aviv). Gate: pnpm check 0 errors; build 1031 pages (no change); 1355/1355 e2e pass. CI in_progress (standard pattern).
-- nextRotationCategory: BUILD (iter840%5==0 → RESEARCH; iter840 is RESEARCH mode)
+- iteration: 840
+- lastMode: RESEARCH (iter840%5==0 → RESEARCH; 170th research pass; i18n phase definitions)
+- lastItem: research-840-i18n-phases-es12-fr4-de3
+- lastResult: NO SHIP (RESEARCH mode). 170th pass. Defined ES Phase ES-12, FR Phase FR-4, DE Phase DE-3 (5 guides each). 2 freshness items added (Gordonia Zichron Yaakov, InterContinental Jerusalem confirmation). Updated BACKLOG, I18N-PLAN, COMPETITORS. 1031 pages / 1355/1355 e2e GREEN (iter839 baseline unchanged).
+- nextRotationCategory: BUILD (iter841%5==1 → BUILD; category rotation: seo-content/i18n next after RESEARCH; top candidate = ES Phase ES-12 [P1 i18n-ES M])
 - higgsfieldSpent: 0
-- updatedAt: 2026-07-29T01:50Z
+- updatedAt: 2026-07-29T03:10Z
 - branch context: work on master; feature work on auto/<slug>
+
+Notes: iter840 RESEARCH — 170th research pass. Key findings: (1) LATAM "Gran Tour Israel y Jordania" is #1 LATAM package tour product → israel-jordan-itinerary.md must ship in ES; (2) beit-guvrin-caves-guide + beit-shean-guide have SERP gaps in all 3 language markets; (3) bethlehem-tours-compared.md critical for LATAM Civitatis/toursfestival conversion funnel; (4) Gordonia Zichron Yaakov (Fattal Hotels) all-suite resort opened summer 2026 — not in our guides; (5) InterContinental Jerusalem may have opened by now — freshness check needed. Sources: routard.com, civitatis.com, viel-unterwegs.de, eberhardt-travel.de, tourradar.com, myisraelstay.com, ynetnews.com, israelhayom.com. i18n phases ES-12/FR-4/DE-3 all defined in BACKLOG and I18N-PLAN.md.
 
 Notes: iter839 REVIEW — review-839-de-phase2-link-fixes SHIPPED 9d8a7e5b. Audited all 5 DE Phase DE-2 guides. 8 attraction link prefix bugs found in 2 guides (same systematic pattern as DE Phase DE-1 review iter834). 3-days-in-eilat.md: /eilat/coral-beach→/de/eilat/coral-beach, /eilat/underwater-observatory→/de/eilat/underwater-observatory, /eilat/dolphin-reef→/de/eilat/dolphin-reef, /eilat/timna-park→/de/eilat/timna-park. 3-days-in-haifa.md: /haifa/german-colony→/de/haifa/german-colony, /haifa/wadi-nisnas→/de/haifa/wadi-nisnas, /haifa/stella-maris→/de/haifa/stella-maris, /haifa/carmel-national-park→/de/haifa/carmel-national-park. Honesty check: no fabricated prices/ratings. Register check: all 5 guides consistently Standard Hochdeutsch. Build: 1031 pages (no change). 1355/1355 e2e pass.
 
