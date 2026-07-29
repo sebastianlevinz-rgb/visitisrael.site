@@ -801,6 +801,11 @@ const ROUTES = [
   '/es/easter-in-jerusalem',
   '/es/best-hotels-tiberias',
   '/es/ashdod-cruise-port-excursions',
+  '/de/best-hotels-haifa',
+  '/de/bethlehem-tours-compared',
+  '/de/dead-sea-medical-tourism',
+  '/de/city-of-david-jerusalem',
+  '/de/aqaba-from-eilat',
 ];
 
 for (const route of ROUTES) {
