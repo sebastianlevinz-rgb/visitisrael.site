@@ -1,5 +1,8 @@
 # DONE (shipped — do NOT re-do; basis for REVIEW mode)
 
+## iter852 · BUILD · fr-phase-6 · b5b1b9b3
+- FR Phase FR-6 SHIPPED: bethlehem-tours-compared, sea-of-galilee-guide, aqaba-from-eilat, city-of-david-jerusalem, eilat-travel-guide. Metropolitan French; YAML double-quotes apostrophes; /fr/* prefix only for confirmed existing FR pages. Checkpoint 300 logistics; Yardenit honesty note; Elad Foundation neutral framing; National Parks Pass not valid (City of David); Jerusalem Pilgrimage Road Jan 2026; Dolphin Reef semi-wild framing; Wadi Araba crossing logistics. Note: nazareth-travel-guide already existed in FR — replaced with eilat-travel-guide. 10 new tests (5 smoke + 5 a11y). FR guides: 112→117/396. Build: 1066→1071 pages. 1425→1435 e2e pass.
+
 ## iter851 · BUILD · es-phase-14 · 2f0d2787
 - ES Phase ES-14 SHIPPED: dead-sea-tours-compared, eilat-tours-compared, easter-in-jerusalem, best-hotels-tiberias, ashdod-cruise-port-excursions. Neutral LATAM Spanish tuteo; YAML double-quotes apostrophes; /es/ prefix only for confirmed existing ES pages. Easter 2027: Catholic March 28 / Orthodox May 2 (from EN guide; BACKLOG had stale dates). Dolphin Reef semi-wild framing preserved. Yardenit honesty note preserved. Ashdod port logistics (MSC/Costa/Royal Caribbean): 6h vs 8h+ port-call verdict table. All meta ≤65/≤160 (ashdod title trimmed from 73→54 chars, desc 200→146 chars). No fabricated prices/ratings. 10 new tests (5 smoke + 5 a11y). ES guides: 70→75/396. Build: 1061→1066 pages. 1415→1425 e2e pass.
 

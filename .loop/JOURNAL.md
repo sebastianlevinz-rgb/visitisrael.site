@@ -12908,3 +12908,18 @@ Key quality notes: neutral LATAM Spanish tuteo throughout; YAML double-quotes fo
 Gate: pnpm check 0 errors; pnpm build 1066 pages (+5); pnpm test:e2e 1425/1425 pass (12.0 min).
 Ship: squash-merged auto/es-phase-14 → master 2f0d2787; pushed origin/master.
 Next: iter852 BUILD (852%5==2 → BUILD; top P1: DE Phase DE-5 or FR Phase FR-6).
+
+## 2026-07-29 · iter 852 · BUILD (i18n-FR) · fr-phase-6
+What: FR Phase FR-6 — 5 Metropolitan French travel guides.
+Files: src/content/guides/fr/{bethlehem-tours-compared,sea-of-galilee-guide,aqaba-from-eilat,city-of-david-jerusalem,eilat-travel-guide}.md + tests/e2e/{smoke,a11y}.spec.ts (+5 routes each).
+Guides:
+  - bethlehem-tours-compared: Visites de Bethléem comparées — half-day vs full-day vs Jéricho combo; Checkpoint 300 logistics; tour format table; GYG/Viator/Abraham CTAs; no fabricated prices.
+  - sea-of-galilee-guide: Mer de Galilée (Lac de Tibériade) — all 4 shores; Kinneret cycling circuit (~65km); Yardenit honesty note (pas le site historique du baptême de Jésus); GYG/Viator/Booking CTAs.
+  - aqaba-from-eilat: Aqaba depuis Eilat — Yitzhak Rabin/Wadi Araba crossing logistics; snorkeling comparison table; 1-day vs overnight; GYG/Booking/Discovercars CTAs.
+  - city-of-david-jerusalem: Cité de David Jérusalem — dual naming Cité de David/Silwan; Elad Foundation management context neutral from EN; wet/dry tunnel routes; Jerusalem Pilgrimage Road (Jan 2026 opening); National Parks Pass NOT valid (honesty note); quick-reference table.
+  - eilat-travel-guide: Guide de voyage Eilat — North Beach vs Coral Beach; Dolphin Reef honest semi-wild framing; Underwater Observatory; Timna Park; tax-free shopping; getting there (air/car/bus); trip-length planning table; GYG/Discovercars/Booking CTAs.
+Note: nazareth-travel-guide was displaced (file already exists in FR since earlier iterations) → replaced by eilat-travel-guide (next highest-priority confirmed-missing FR guide; pairs with eilat-hotels-guide + eilat-tours-compared already in FR).
+Context issue: git divergence (local master had diverged from origin/master); reset --hard to origin/master; all FR guide files survived as untracked; committed directly to master.
+Gate: pnpm check 0 errors; pnpm build 1071 pages (+5); pnpm test:e2e 1435/1435 pass (15.3 min). PLAYWRIGHT_BROWSERS_PATH=/opt/pw-browsers.
+Ship: committed b5b1b9b3 to master; pushed origin/master.
+Next: iter853 BUILD (853%5==3 → BUILD; top P1: DE Phase DE-5 or FR Phase FR-7).

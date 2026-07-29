@@ -6,18 +6,18 @@
 >
 > One bounded slice per loop iteration. NEVER bulk-translate in one shot.
 
-## Current status snapshot (2026-07-29 iter851)
+## Current status snapshot (2026-07-29 iter852)
 
 | Locale | Guides | Attractions | Regions | Itineraries |
 |--------|--------|-------------|---------|-------------|
 | en     | 396    | 65          | 11      | 6           |
-| fr     | 112    | 61          | 11      | 6           |
+| fr     | 117    | 61          | 11      | 6           |
 | de     | 107    | 61          | 11      | 6           |
 | es     | 75     | 61          | 11      | 6           |
 
 **Gaps to close:**
 - es guides: **321 missing** (75/396 done — Phase ES-14 SHIPPED iter851; next: ES-15)
-- fr guides: **284 missing** (112/396 done — Phase FR-5 SHIPPED iter847; next: FR-6)
+- fr guides: **279 missing** (117/396 done — Phase FR-6 SHIPPED iter852; next: FR-7)
 - de guides: **289 missing** (107/396 done — Phase DE-4 SHIPPED iter848; next: DE-5 defined)
 - fr/de/es attractions: **4 missing each** (the 4 EN attractions added after Phase 4)
 
@@ -140,7 +140,7 @@ Take the top 5 by priority (or head -5 if priority not obvious), translate each 
   UVB climatoterapia hedged; Nazareth paired-naming נָצְרַת/النَّاصِرَة; Ein Bokek honest framing;
   grey-area nomad visa explicitly stated. No fabricated prices.
   ES guides: 65→70/396. Build: 1046→1051 pages. 1385→1395 e2e pass.
-- Phase ES-14 — DEFINED. iter850 research: dead-sea-tours-compared, eilat-tours-compared,
+- Phase ES-14 — DONE. iter851 shipped 2f0d2787: dead-sea-tours-compared, eilat-tours-compared,
   easter-in-jerusalem, best-hotels-tiberias, ashdod-cruise-port-excursions.
   Rationale: (1) dead-sea-tours-compared: Civitatis top-selling LATAM product = Masada+Dead Sea combo;
   zero LATAM editorial comparison guide; adds missing monetization layer to ES Dead Sea cluster
@@ -196,21 +196,35 @@ Take the top 5 by priority (or head -5 if priority not obvious), translate each 
   broken links fixed (bethlehem-tours-compared + eilat-travel-guide → EN fallbacks);
   no fabricated prices. 10 new tests (5 smoke + 5 a11y).
   FR guides: 107→112/396. Build: 1051→1056 pages. 1395→1405 e2e pass.
-- Phase FR-6 — DEFINED. Next FR batch (top candidates by SEO priority + FR market fit):
+- Phase FR-6 — DONE. iter852 shipped b5b1b9b3:
   bethlehem-tours-compared, sea-of-galilee-guide, aqaba-from-eilat,
-  city-of-david-jerusalem, nazareth-travel-guide.
-  Rationale: (1) bethlehem-tours-compared: FR pilgrimage conversion layer; Voyageurs du Monde/
-  FRAM all include Bethlehem; tour format comparison (circuit organisé/excursion privée/bus 231
-  DIY/demi-journée vs journée complète); Checkpoint 300 logistics in French;
-  (2) sea-of-galilee-guide: "Lac de Tibériade" / "Mer de Galilée"; Air France TLV-CDG daily
-  = large FR market; Capharnaum + Magdala + Tabgha; zero FR editorial competitor;
-  (3) aqaba-from-eilat: "Aqaba depuis Eilat"; connects to FR israel-jordan-itinerary
-  already SHIPPED; Routard mentions Aqaba briefly but no day-trip logistics page;
-  (4) city-of-david-jerusalem: "Cité de David" archaeology + Tunnel d'Ézéchias;
-  Elad Foundation context neutral from EN; Jerusalem Pilgrimage Road (Jan 2026);
-  (5) nazareth-travel-guide: "Nazareth Israël guide" zero FR specialist editorial; Basilique
-  de l'Annonciation; LATAM + French Catholic pilgrimage market.
-  Status: ready — pick in next FR BUILD iteration.
+  city-of-david-jerusalem, eilat-travel-guide.
+  Note: nazareth-travel-guide was already present in FR (from earlier iterations) — replaced
+  with eilat-travel-guide (next highest-priority confirmed-missing FR guide).
+  Metropolitan French; Checkpoint 300 logistics; Yardenit honesty note; Elad Foundation neutral
+  from EN; National Parks Pass NOT valid (City of David, honesty note); Jerusalem Pilgrimage
+  Road Jan 2026; Dolphin Reef semi-wild framing; tax-free shopping Eilat; YAML double-quotes;
+  /fr/* prefix only for confirmed existing FR pages. No fabricated prices.
+  10 new tests (5 smoke + 5 a11y). FR guides: 112→117/396. Build: 1066→1071 pages. 1425→1435 e2e pass.
+- Phase FR-7 — DEFINED. Next FR batch (top candidates by SEO priority + FR market fit):
+  nazareth-travel-guide, best-hotels-sea-of-galilee, best-hotels-haifa,
+  ashdod-cruise-port-excursions, best-hotels-nazareth.
+  Rationale: (1) nazareth-travel-guide: was displaced from FR-6 (file already existed) → this
+  was an error in the FR-6 definition; confirm actual absence before shipping (comm -23 check);
+  if exists, skip and take next; "Nazareth Israël guide" zero FR specialist editorial;
+  Basilique de l'Annonciation + Greek Orthodox St Gabriel; paired-naming נָצְרַת/النَّاصِرَة;
+  LATAM + French Catholic pilgrimage market; Lonely Planet/Routard cover Nazareth but thin;
+  (2) best-hotels-sea-of-galilee: completes FR Galilee hotel cluster (sea-of-galilee-guide
+  just SHIPPED); Scots Hotel + Leonardo + Ein Gev kibbutz; Booking.com affiliate value;
+  (3) best-hotels-haifa: DACH + FR Haifa tourism (Bahá'í Gardens, Carmel, Technion);
+  pairs with FR 3-days-in-haifa already DONE; Booking.com affiliate value;
+  (4) ashdod-cruise-port-excursions: MSC/Costa/Royal Caribbean FR speakers on Med cruises;
+  Civitatis FR equivalent ("excursions depuis Ashdod") thin; pairs with FR
+  cruise-shore-excursions-israel (if exists — verify before linking);
+  (5) best-hotels-negev: completes FR Negev cluster with 3-days-in-negev already DONE;
+  Beresheet Hotel + Mitzpe Ramon options; Booking.com affiliate value.
+  Standard Metropolitan French; YAML double-quotes; /fr/* prefix for confirmed existing FR pages.
+  Status: ready — pick in next FR BUILD iteration (iter853 or next FR turn).
 - Phase FR-5 definition text (moved to DONE above) — iter845 research: dead-sea-medical-tourism, netanya-guide,
   eilat-hotels-guide, passover-in-israel, church-of-nativity-guide.
   Rationale: (1) dead-sea-medical-tourism: mer-morte.info = entire niche French site with weak

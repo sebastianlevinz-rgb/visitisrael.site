@@ -1,13 +1,15 @@
 # LOOP STATE
 
-- iteration: 851
-- lastMode: BUILD (iter851%5==1 → BUILD; ES Phase ES-14)
-- lastItem: es-phase-14
-- lastResult: SHIPPED 2f0d2787 — 5 ES guides (dead-sea-tours-compared, eilat-tours-compared, easter-in-jerusalem, best-hotels-tiberias, ashdod-cruise-port-excursions). 10 new e2e tests (5 smoke + 5 a11y). ES guides: 70→75/396. Build: 1061→1066 pages. 1415→1425 e2e pass.
-- nextRotationCategory: BUILD (iter852%5==2 → BUILD; top P1 items: DE-5 or FR-6)
+- iteration: 852
+- lastMode: BUILD (iter852%5==2 → BUILD; FR Phase FR-6)
+- lastItem: fr-phase-6
+- lastResult: SHIPPED b5b1b9b3 — 5 FR guides (bethlehem-tours-compared, sea-of-galilee-guide, aqaba-from-eilat, city-of-david-jerusalem, eilat-travel-guide). 10 new e2e tests (5 smoke + 5 a11y). FR guides: 112→117/396. Build: 1066→1071 pages. 1425→1435 e2e pass.
+- nextRotationCategory: BUILD (iter853%5==3 → BUILD; top P1 items: DE-5 or FR-7)
 - higgsfieldSpent: 0
-- updatedAt: 2026-07-29T15:00Z
+- updatedAt: 2026-07-29T16:10Z
 - branch context: work on master; feature work on auto/<slug>
+
+Notes: iter852 BUILD — FR Phase FR-6 SHIPPED b5b1b9b3. 5 FR guides (bethlehem-tours-compared: half-day/full-day/Jéricho tour format comparison; sea-of-galilee-guide: all 4 shores + Kinneret cycling circuit + Yardenit honesty note; aqaba-from-eilat: Wadi Araba crossing logistics + snorkeling comparison; city-of-david-jerusalem: dual naming Cité de David/Silwan + Elad Foundation neutral + wet/dry tunnel routes + Jerusalem Pilgrimage Road Jan 2026; eilat-travel-guide: beaches + Dolphin Reef honest + Underwater Observatory + Timna Park + tax-free shopping). nazareth-travel-guide was displaced (already existed) → replaced by eilat-travel-guide. Metropolitan French; YAML double-quotes; /fr/* prefix confirmed-existing pages only; no fabricated prices. 10 new e2e tests (5 smoke + 5 a11y). FR guides: 112→117/396. Build: 1066→1071 pages. 1425→1435 e2e pass (15.3m).
 
 Notes: iter851 BUILD — ES Phase ES-14 SHIPPED 2f0d2787. 5 ES guides (dead-sea-tours-compared, eilat-tours-compared, easter-in-jerusalem, best-hotels-tiberias, ashdod-cruise-port-excursions). Easter 2027 dates from EN guide (Catholic March 28 / Orthodox May 2). Dolphin Reef + Yardenit honesty notes preserved. All meta ≤65/≤160. ES guides: 70→75/396. Build: 1061→1066 pages. 1415→1425 e2e pass.
 
