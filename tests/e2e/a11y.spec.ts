@@ -592,6 +592,11 @@ const ROUTES = [
   '/de/vegan-vegetarian-israel',
   '/de/israel-for-german-travelers',
   '/de/best-hotels-negev',
+  '/es/egypt-jordan-israel-itinerary',
+  '/es/eilat-beach-guide',
+  '/es/ein-gedi-guide',
+  '/es/eilat-dolphin-reef-guide',
+  '/es/best-hotels-nazareth',
 ];
 
 for (const route of ROUTES) {
