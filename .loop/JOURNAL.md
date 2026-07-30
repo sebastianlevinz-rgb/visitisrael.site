@@ -13369,3 +13369,16 @@ Merge: squash-merged auto/de-phase-9 → master SHA a03df166; pushed.
 CI: in_progress.
 DE guides: 127→132/397. Build pages: 1132→1137.
 Next: iter 879 → REVIEW (879%5==4). Candidate: review-879-de-phase-9-link-audit (audit all 5 DE-9 guides for /de/* link prefix correctness, meta lengths ≤65/≤160, H1 absence in MDX, Standard Hochdeutsch register, no fabricated prices).
+
+## 2026-07-30T19:00Z · iter 879 · REVIEW · review-879-de-phase-9-link-audit
+What: REVIEW iteration. Audited all 5 DE Phase DE-9 guides for /de/* link prefix correctness, meta lengths ≤65/≤160, H1 absence in MDX, Standard Hochdeutsch register, no fabricated prices.
+Findings fixed:
+  - 15 instances of truncated 'Führe' link text (grammatically incorrect German — missing 'r' from 'Reiseführer', or historical 'Führer' connotation) in 4 guides (ashdod-cruise-port-excursions×7, israel-for-german-travelers×6, best-hotels-sea-of-galilee×5, vegan-vegetarian-israel×4) → all replaced with 'Leitfaden'.
+  - best-hotels-sea-of-galilee.md: description 165→158 chars (trimmed 'das ' and ' in Tiberias' → 'Tiberias').
+  - best-hotels-negev.md: description 167→155 chars (replaced 'Entscheidungshilfe für den richtigen Negev-Basis' with 'Entscheidungsmatrix für Mitzpe Ramon').
+Clean findings (no fix needed): all /de/* hrefs verified against existing slugs (0 broken links); no H1 in MDX bodies; no fabricated prices/ratings; best-hotels-negev used 'Guide' (Anglicism — acceptable); Hochdeutsch register otherwise correct.
+Gate: pnpm check 0 errors; pnpm build 1137 pages (no change); e2e exit 0.
+Merge: committed directly to master SHA 10529e74; pushed.
+CI: in_progress.
+Build pages: 1137 (unchanged).
+Next: iter 880 → RESEARCH (880%5==0). Candidate: research-880 — web research for profitable features/content gaps; append 6–10 new prioritized BACKLOG items.

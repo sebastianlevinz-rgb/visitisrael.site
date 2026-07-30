@@ -1,13 +1,15 @@
 # LOOP STATE
 
-- iteration: 878
-- lastMode: BUILD
-- lastItem: de-phase-9
-- lastResult: DE-9 SHIPPED a03df166. 5 DE guides (ashdod-cruise-port-excursions, best-hotels-sea-of-galilee, vegan-vegetarian-israel, israel-for-german-travelers, best-hotels-negev). DE guides: 127→132/397. Build: 1132→1137 pages (+5). 10/10 e2e pass. CI in_progress.
-- nextRotationCategory: REVIEW (879%5==4)
+- iteration: 879
+- lastMode: REVIEW
+- lastItem: review-879-de-phase-9-link-audit
+- lastResult: SHIPPED 10529e74. 15 Führe→Leitfaden register fixes in 4 DE-9 guides + 2 meta desc trims (sea-of-galilee 165→158, negev 167→155). All links clean. Build: 1137 pages (no change). e2e exit 0. CI in_progress.
+- nextRotationCategory: RESEARCH (880%5==0)
 - higgsfieldSpent: 0
-- updatedAt: 2026-07-30T18:00Z
+- updatedAt: 2026-07-30T19:00Z
 - branch context: work on master; feature work on auto/<slug>
+
+Notes: iter879 REVIEW — review-879-de-phase-9-link-audit SHIPPED 10529e74. Audited all 5 DE-9 guides. 15 instances of truncated 'Führe' link text across 4 guides (ashdod-cruise-port-excursions, israel-for-german-travelers, best-hotels-sea-of-galilee, vegan-vegetarian-israel) → replaced with 'Leitfaden' (correct Standard Hochdeutsch; avoids compound 'Reiseführer' truncation). 2 meta description overruns: best-hotels-sea-of-galilee 165→158 chars (trimmed 'das ' + ' in'), best-hotels-negev 167→155 chars (replaced 'Entscheidungshilfe für den richtigen Negev-Basis' with 'Entscheidungsmatrix für Mitzpe Ramon'). No broken links — all /de/* hrefs verified against existing slugs. No H1 in MDX bodies. No fabricated prices (all ₪ as ranges with Richtwert). Best-hotels-negev already used 'Guide' (acceptable Anglicism) — not 'Führe'. Gate: pnpm check 0 errors; pnpm build 1137 pages (no change); e2e exit 0. 5 guides CLEAN post-fix.
 
 Notes: iter878 BUILD — de-phase-9 SHIPPED a03df166. 5 DE guides: ashdod-cruise-port-excursions (German cruise market AIDA/TUI Cruises/MSC/Costa, Jerusalem/Dead Sea/Masada/Tel Aviv excursion timing tables, ETA-IL note, Bethlehem Area A caveat, port logistics section, comparison table, 7 FAQs, 3 CTAs GYG/Viator/Booking), best-hotels-sea-of-galilee (DACH Christian tourism, four shores west/north/east/south, Nof Ginosar/Altes Boot/Jesus Boat, Magdala pilgrimage center, Domus Galilaeae, Ein Gev, Kibbutz Kinneret, Scots Hotel Tiberias deferred to /de/best-hotels-tiberias, decision matrix, seasonal notes, 7 FAQs, 3 CTAs Booking/GYG/Discovercars), vegan-vegetarian-israel (Germany #1 per-capita vegan in Europe angle, key dishes Hummus/Falafel/Shakshuka/Sabich/Msabbaha/Israeli breakfast, Kashrut system explained, Hebrew supermarket label table חלב/פרווה/בשרי, Tel Aviv/Jerusalem/Haifa sections, 6 FAQs, 2 CTAs GYG/Booking), israel-for-german-travelers (GKV gap → Reisekrankenversicherung, EC-Karte limitation → DKB/Revolut/N26 recommendations, Schuko Type F→Type H adapter, ETA-IL ₪25 iaa.gov.il 72h processing, ELEFAND crisis registration, Auswärtiges Amt advisory, Lufthansa/Eurowings/El Al route table FRA/MUC/BER/DUS/HAM, time zone table, German Embassy Tel Aviv contact, 6 FAQs, 3 CTAs Booking/GYG/SafetyWing), best-hotels-negev (IDA International Dark Sky Park first in Middle East angle, Beresheet Hotel ₪1,800–₪4,500+ crater-rim, Selina Ramon design-forward, Ramon Inn mid-range, Succah in the Desert off-grid no-electricity caveat, HI Beit Noam ₪120–180 dorm, Zimmer B&B, Sde Boker alternative base, decision matrix, seasonal notes, 7 FAQs, 3 CTAs Booking/GYG/Discovercars). Standard Hochdeutsch; YAML double-quotes; /de/* prefix only confirmed existing DE pages; no fabricated prices/ratings; Makhtesh Ramon correctly Erosionskrater. 10 new e2e tests (5 smoke + 5 a11y). DE guides: 127→132/397. Build: 1132→1137 pages (+5). 10/10 e2e pass. Gate: 0 errors.
 
