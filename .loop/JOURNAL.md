@@ -13110,3 +13110,12 @@ Net-new BACKLOG items: 1 (DE Phase DE-7 batch). I18N-PLAN.md updated with DE Pha
 Gate: N/A (RESEARCH mode).
 Ship: N/A (memory-only update; .loop/ files committed to master).
 Next: iter 866 → BUILD (866%5==1); monetization rotation. Top BUILD candidates: DE Phase DE-7 P1/M (DEFINED this iter), FR Phase FR-8 P1/M (DEFINED iter860), israel-for-vietnamese-travelers P2/S (time-sensitive before Oct 2026 El Al Hanoi launch).
+
+## 2026-07-30T07:00Z · iter 866 · BUILD · egypt-jordan-israel-itinerary
+Mode: BUILD (866%5==1; monetization rotation → fell through to P2 seo-content+monetization).
+Item: Egypt, Jordan & Israel 3-country itinerary guide (/egypt-jordan-israel-itinerary) [BACKLOG iter275, P2 M].
+What: New guide for the most common 3-country Middle East circuit. Content: Route A (Israel-first via Ben Gurion) and Route B (Egypt-first via Cairo), all 4 crossing options (Wadi Araba land border, Aqaba–Nuweiba ferry, Taba–Eilat land border, Amman→Cairo flight), 14-day recommended itinerary table + 10-day tight framework, tour operator guidance (Abraham Tours + TourRadar + international operators), 7 FAQs, practical money/visa/safety notes. 3 affiliate CTAs: TourRadar (3-country packages), Abraham Tours (Israel+Jordan multi-day), Booking.com (Jordan+Egypt hotels). Honesty: no fabricated prices (ranges only), Sinai advisory warning, Israeli rental car border restriction noted, honest framing of 10-day as rushed. Cross-links added: israel-egypt-guide.md (1 line), israel-jordan-itinerary.md (1 sentence closing), best-holy-land-tours.md (1 sentence closing). Smoke + a11y tests updated (+1 route each).
+Fix: First e2e run found 1 broken link (/yad-vashem-guide → should be /yad-vashem-visitor-guide); fixed before gate. Build: 1096→1097 pages (+1).
+Gate: pnpm check 0 errors; build 1097 pages; 1487/1487 e2e pass (23.5m). GREEN.
+Ship: squash-merged 00062314 to master; pushed. PR #35 draft at github.com/sebastianlevinz-rgb/visitisrael.site/pull/35.
+Next: iter 867 → BUILD (867%5==2; seo-content rotation). Top candidates: DE Phase DE-7 P1/M (yad-vashem-visitor-guide, golan-heights-guide, eilat-travel-guide, dead-sea-tours-compared, western-wall-guide — DEFINED iter865).

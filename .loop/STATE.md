@@ -1,13 +1,15 @@
 # LOOP STATE
 
-- iteration: 865
-- lastMode: RESEARCH
-- lastItem: research-865-de-phase7-definition
-- lastResult: RESEARCH iter865 — research-pass-175: DE Phase DE-7 defined + freshness confirmations. Sources: traveldailynews.com, thejc.com (luxury hotel openings), myisraelstay.com (17 openings summer 2026), israel.com/transportation (Eastern Railway), yadvashem.org/de (confirmed German audio guide), reisefroh.de/viel-unterwegs.de (DACH competitor scan). Main output: DE Phase DE-7 defined (5 guides: yad-vashem-visitor-guide, golan-heights-guide, eilat-travel-guide, dead-sea-tours-compared, western-wall-guide) for DACH market — added to BACKLOG + I18N-PLAN.md. Freshness confirmations: (1) Jerusalem Green Line first section (Malha→Binyanei HaUmah) opened July 2026 — already covered in jerusalem-light-rail-guide.md (updatedAt 2026-07-22) ✓; (2) new-luxury-hotels guide (updatedAt 2026-07-25) already covers Dizengoff 99 + The Yacht Herzliya + all 17 openings ✓; (3) Gordonia Zichron Yaakov already in BACKLOG P3 iter840 ✓; (4) Biblical Highway already SHIPPED iter668 ✓. Net-new items added to BACKLOG: 1 (DE Phase DE-7 batch). No code changes; gate N/A.
-- nextRotationCategory: BUILD (866%5==1 → BUILD; monetization rotation)
+- iteration: 866
+- lastMode: BUILD
+- lastItem: egypt-jordan-israel-itinerary
+- lastResult: BUILD iter866 — egypt-jordan-israel-itinerary SHIPPED 00062314. New 3-country Middle East itinerary guide covering Route A (Israel-first) and Route B (Egypt-first), Wadi Araba / Aqaba-Nuweiba ferry / Taba border crossings, 14-day and 10-day sample itinerary tables, tour operator notes, practical visa/money/safety notes. Cross-links added to israel-egypt-guide, israel-jordan-itinerary, best-holy-land-tours. 3 affiliate CTAs: tourradar, abraham, booking. 7 FAQs. Smoke + a11y tests updated. Build: 1097 pages (+1). Gate: 1487/1487 e2e pass.
+- nextRotationCategory: seo-content (867%5==2 → BUILD; seo-content rotation)
 - higgsfieldSpent: 0
-- updatedAt: 2026-07-30T05:00Z
+- updatedAt: 2026-07-30T07:00Z
 - branch context: work on master; feature work on auto/<slug>
+
+Notes: iter866 BUILD — egypt-jordan-israel-itinerary SHIPPED 00062314. 3-country Middle East itinerary guide (Route A/B, all 3 border crossings, 10-day+14-day frameworks, 3 affiliate CTAs). Cross-links: israel-egypt-guide + israel-jordan-itinerary + best-holy-land-tours. 1097 pages. 1487/1487 e2e pass.
 
 Notes: iter865 RESEARCH — research-pass-175: DE Phase DE-7 defined (yad-vashem-visitor-guide, golan-heights-guide, eilat-travel-guide, dead-sea-tours-compared, western-wall-guide). Jerusalem Green Line ✓ covered (Jul-22). Luxury hotels guide ✓ current (Jul-25). No code changes.
 

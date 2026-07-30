@@ -1497,3 +1497,6 @@ FR guides: 117→122/396. Build: 1081→1086 pages. 1455→1465 e2e pass.
 
 ## iter864 · REVIEW · review-864-de-phase6-link-fixes · ae9dacc0
 - Audited DE Phase DE-6 (5 guides). 5 bugs fixed: 2 link prefix bugs (cycling-in-israel /tel-aviv-white-city + dead-sea-hotels-guide /masada-dead-sea-day-trip both upgraded to /de/), 1 typo (Konfessiosmskarte→Konfessionskarte), 2 desc overruns trimmed (163→138 and 177→149 chars). Build unchanged: 1096 pages. 1485/1485 e2e pass.
+
+## iter866 · BUILD · egypt-jordan-israel-itinerary · 00062314
+- New 3-country Middle East itinerary guide (/egypt-jordan-israel-itinerary). Route A (Israel-first) + Route B (Egypt-first). 4 crossing options covered (Wadi Araba, Aqaba-Nuweiba ferry, Taba-Eilat, Amman→Cairo flight). 14-day + 10-day sample itinerary tables. 3 affiliate CTAs (tourradar, abraham, booking). 7 FAQs. Cross-links added to israel-egypt-guide, israel-jordan-itinerary, best-holy-land-tours. Build: 1096→1097 pages (+1). 1487/1487 e2e pass.
