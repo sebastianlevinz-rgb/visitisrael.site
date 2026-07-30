@@ -78,7 +78,7 @@ Take the top 5 by priority (or head -5 if priority not obvious), translate each 
 
 ## Progress tracker
 
-### ES guides (85 / 396)
+### ES guides (90 / 397)
 - Phase ES-0 — DONE. iter799 shipped 5/394:
   first-time-in-israel, visa-information, best-time-to-visit-israel,
   israel-cost-budget, transportation (02b1058).
@@ -172,6 +172,14 @@ Take the top 5 by priority (or head -5 if priority not obvious), translate each 
   Golan Heights neutral political-status note; Yad Vashem pre-registration caveat;
   Nimrod Fortress correctly identified as Ayyubid. ES guides: 80→85/396.
   Build: 1086→1091 pages. 1475/1475 e2e pass (11.8m).
+- Phase ES-17 — SHIPPED iter871 1fb80f61:
+  dead-sea-israel-vs-jordan, jaffa-travel-guide, tel-aviv-vs-jerusalem,
+  israel-for-argentinian-travelers, vegan-vegetarian-israel.
+  Neutral LATAM Spanish tuteo; YAML double-quotes; /es/ prefix only for confirmed existing ES pages;
+  no fabricated prices or ratings; 1948 Jaffa history honest framing; ETA-IL (iaa.gov.il, ₪25, 1 week);
+  El Al EZE-TLV direct 29 Nov 2026 (2×/week); PAMI abroad clarification explicit;
+  Tel Aviv ~5% vegan per capita; kashrut navigation; Hebrew supermarket labels.
+  10 new e2e tests (5 smoke + 5 a11y). ES guides: 85→90/397. Build: 1112→1117 pages. 1527/1527 e2e pass.
 - Phase ES-15 — DONE. iter856 shipped df7dc674:
   galilee-christian-sites-circuit, free-things-to-do-israel, dead-sea-day-trip-comparison,
   best-hotels-sea-of-galilee, cycling-in-israel.

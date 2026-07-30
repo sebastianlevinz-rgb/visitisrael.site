@@ -13240,3 +13240,18 @@ Gate: N/A (research only, no code changes).
 Merge: N/A.
 Prod: N/A.
 Next: iter 871 → BUILD (871%5==1; seo-content rotation). Top candidate: ES Phase ES-17 (dead-sea-israel-vs-jordan, jaffa-travel-guide, tel-aviv-vs-jerusalem, israel-for-argentinian-travelers, vegan-vegetarian-israel).
+
+## 2026-07-30T12:20Z · iter 871 · BUILD · es-phase-17
+What: 5 LATAM Spanish guides (ES Phase ES-17). Targets confirmed zero SERP competition in Spanish:
+  - dead-sea-israel-vs-jordan: completes ES Dead Sea cluster; "¿Mar Muerto Israel o Jordania?" comparison; cross-links /es/dead-sea-guide, /es/border-crossings, /es/masada-visitor-guide
+  - jaffa-travel-guide: zero ES editorial; Old Port (Nof Yam), Clock Tower, Ilana Goor Museum, Flea Market (Shuk HaPishpeshim), Abu Hassan, Abouelafia; 1948 history honest framing (50,000-70,000 Arabs fled/expelled); 3 affiliate CTAs (getyourguide, viator, civitatis)
+  - tel-aviv-vs-jerusalem: high comparison intent; cross-links /es/jaffa-travel-guide, /es/shabbat-guide, /es/first-time-in-israel
+  - israel-for-argentinian-travelers: Argentina 185K Jewish residents + large Israel tourism source market; ETA-IL (iaa.gov.il, ₪25, apply 1 week before); El Al direct EZE-TLV from 29 Nov 2026 (2×/week); Jewish heritage circuit (Yad Vashem, Ben Zakkai synagogues, Western Wall, ANU Museum); Catholic pilgrimage circuit; PAMI abroad clarification; Type I→Type H adapter; ARS not exchangeable; Wise card tip; 3 affiliate CTAs (getyourguide priceFrom/rating, booking, safetywing)
+  - vegan-vegetarian-israel: "Israel vegano" zero LATAM editorial; Tel Aviv ~5% vegan per capita; key dishes (hummus, falafel, shakshuka, sabich, msabbaha); restaurants (Falafel Sumsum, HaKosem, Abu Hassan, Meshek Barzilay, Green Cat, Opa); kashrut navigation (meat/parve/dairy/non-kosher); Hebrew supermarket labels; Jerusalem (Mahane Yehuda, Abu Shukri, Nachlaot/German Colony); 2 affiliate CTAs
+Quality: neutral LATAM Spanish tuteo; YAML double-quotes on apostrophe fields; /es/ prefix only for confirmed existing ES pages; no fabricated prices/ratings; paired-naming on contested sites; no H1 in body.
+10 new e2e tests (5 smoke routes + 5 a11y routes added to spec files).
+Gate: pnpm check 0 errors; build 1117 pages (1112+5); pnpm test:e2e 1527/1527 pass (18.8m).
+Merge: squash-committed directly to master 1fb80f618cb210d521760fedd941aec475a5312d (branch workaround — auto/es-phase-17 checkout failed; files staged and committed on master directly).
+Prod: CI in_progress (runs 30540964065 + 30540964013 started 2026-07-30T12:03Z). Vercel deploy pending CI.
+ES guides: 85→90/397. Build pages: 1112→1117.
+Next: iter 872 → REVIEW (872%5==2). Candidate: review-872-es-phase-17-link-audit.
