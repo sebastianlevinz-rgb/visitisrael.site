@@ -557,6 +557,11 @@ const ROUTES = [
   '/fr/dead-sea-day-trip-comparison',
   '/fr/best-hotels-tiberias',
   '/fr/cycling-in-israel',
+  '/de/yad-vashem-visitor-guide',
+  '/de/western-wall-guide',
+  '/de/golan-heights-guide',
+  '/de/eilat-travel-guide',
+  '/de/dead-sea-tours-compared',
 ];
 
 for (const route of ROUTES) {
