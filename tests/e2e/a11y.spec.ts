@@ -107,6 +107,7 @@ const ROUTES = [
   '/israel-surfing',
   '/israel-tour-operators-guide',
   '/cruise-shore-excursions-israel',
+  '/israel-homeport-cruise',
   '/israel-accommodation-guide',
   '/israel-travel-apps',
   '/jewish-heritage-israel',

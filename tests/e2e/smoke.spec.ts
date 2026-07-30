@@ -125,6 +125,7 @@ const ROUTES = [
   '/transport/ben-gurion-to-tel-aviv',
   '/transport/jerusalem-to-nazareth',
   '/cruise-shore-excursions-israel',
+  '/israel-homeport-cruise',
   '/luxury-travel-israel',
   '/jewish-heritage-israel',
   '/bar-bat-mitzvah-israel',

@@ -115,6 +115,6 @@ The classic **Haifa + Akko** combination is the most popular northern-coast day 
 
 ## Planning the broader trip
 
-If you are extending your cruise with a pre- or post-voyage stay, Haifa is well positioned as a northern Israel base. The [day trips from Haifa guide](/day-trips-from-haifa) covers Akko, Rosh Hanikra, Caesarea, Zichron Yaakov and the Carmel Druze villages. For accommodation options across price tiers in the German Colony and on the Carmel ridge, see the [best hotels in Haifa guide](/best-hotels-haifa).
+If you are extending your cruise with a pre- or post-voyage stay, Haifa is well positioned as a northern Israel base. The [day trips from Haifa guide](/day-trips-from-haifa) covers Akko, Rosh Hanikra, Caesarea, Zichron Yaakov and the Carmel Druze villages. For accommodation options across price tiers in the German Colony and on the Carmel ridge, see the [best hotels in Haifa guide](/best-hotels-haifa). If you are considering Haifa as a **homeport** departure — embarking or disembarking a cruise here — see the [Israel homeport cruise guide](/israel-homeport-cruise) for logistics, pre-cruise extension options and luggage guidance.
 
 For a detailed comparison of all four Haifa shore excursion circuits (Haifa city half-day, Haifa + Akko, Caesarea history circuit, and the Galilee + Nazareth + Sea of Galilee full-day), see the [Haifa shore excursions guide](/haifa-shore-excursions). For a full breakdown including Ashdod port options, see the [Israel cruise shore excursions guide](/cruise-shore-excursions-israel).
