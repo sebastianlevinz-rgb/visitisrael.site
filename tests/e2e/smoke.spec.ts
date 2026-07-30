@@ -468,6 +468,7 @@ const ROUTES = [
   '/south-israel-itinerary',
   '/3-days-in-galilee',
   '/israel-egypt-guide',
+  '/egypt-jordan-israel-itinerary',
   '/birdwatching-in-israel',
   '/israel-season-picker',
   '/israel-itinerary-checker',
