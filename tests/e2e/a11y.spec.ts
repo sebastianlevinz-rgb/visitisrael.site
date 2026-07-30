@@ -562,6 +562,11 @@ const ROUTES = [
   '/de/golan-heights-guide',
   '/de/eilat-travel-guide',
   '/de/dead-sea-tours-compared',
+  '/de/bethlehem-travel-guide',
+  '/de/day-trips-from-eilat',
+  '/de/dead-sea-day-trip-comparison',
+  '/de/eilat-hotels-guide',
+  '/de/best-hotels-tiberias',
 ];
 
 for (const route of ROUTES) {
