@@ -6,7 +6,7 @@
 >
 > One bounded slice per loop iteration. NEVER bulk-translate in one shot.
 
-## Current status snapshot (2026-07-30 iter878 BUILD de-phase-9)
+## Current status snapshot (2026-07-30 iter880 RESEARCH 178th-pass)
 
 | Locale | Guides | Attractions | Regions | Itineraries |
 |--------|--------|-------------|---------|-------------|
@@ -16,9 +16,9 @@
 | es     | 95     | 61          | 11      | 6           |
 
 **Gaps to close:**
-- es guides: **302 missing** (95/397 done — Phase ES-18 SHIPPED iter876 5cf2bf65; **Phase ES-19 TBD**)
-- fr guides: **260 missing** (137/397 done — Phase FR-10 SHIPPED iter877 5ada8f0b; **Phase FR-11 TBD**)
-- de guides: **265 missing** (132/397 done — Phase DE-9 SHIPPED iter878 a03df166; **Phase DE-10 TBD**)
+- es guides: **302 missing** (95/397 done — Phase ES-18 SHIPPED iter876 5cf2bf65; **Phase ES-19 defined iter880**)
+- fr guides: **260 missing** (137/397 done — Phase FR-10 SHIPPED iter877 5ada8f0b; **Phase FR-11 defined iter880**)
+- de guides: **265 missing** (132/397 done — Phase DE-9 SHIPPED iter878 a03df166; **Phase DE-10 defined iter880**)
 - fr/de/es attractions: **4 missing each** (the 4 EN attractions added after Phase 4)
 
 **Dead Sea cluster status (iter855 audit):**
@@ -317,6 +317,16 @@ Take the top 5 by priority (or head -5 if priority not obvious), translate each 
   no fabricated prices. 10 new tests (5 smoke + 5 a11y).
   FR guides: 102→107/396. Build: 1036→1041 pages. 1375/1375 e2e pass.
 
+### Phase DE-10 (132 → 137/397) — ready (defined iter880)
+Guides: `galilee-christian-sites-circuit.md`, `ein-gedi-guide.md`, `haifa-travel-guide.md`, `egypt-jordan-israel-itinerary.md`, `eilat-beach-guide.md`
+All 5 confirmed MISSING from DE via comm -23 (2026-07-30).
+- galilee-christian-sites-circuit: DACH Christian pilgrimage market (significant German Catholic + Protestant tourers); "Galiläa christliche Stätten Rundfahrt ~45km Tiberiasring" zero DACH editorial; anti-clockwise circuit Kafarnaum/Tabgha/Berg der Seligpreisungen/Magdala/Kourssi; GYG + Viator CTAs; pairs with /de/sea-of-galilee-guide + /de/best-hotels-sea-of-galilee (both confirmed existing)
+- ein-gedi-guide: DACH nature/hiking tourism; Dead Sea cluster completion; "Ein Gedi Naturreservat: Wadi David, Nahal Arugot, Steinböcke"; GYG + Abraham CTAs; pairs with /de/dead-sea-guide + /de/dead-sea-tours-compared (both confirmed existing)
+- haifa-travel-guide: major confirmed DE gap; DACH city guide for Haifa (Deutsche Kolonie 19.Jh. Tempelarchitektur, Bahá'í Weltzentrum exterior/Terrassen for non-Bahá'ís, Karmelit U-Bahn, Wadi Nisnas, Stella Maris); Booking + GYG CTAs; pairs with /de/3-days-in-haifa + /de/bahai-world-center-guide (both confirmed existing)
+- egypt-jordan-israel-itinerary: "Ägypten Jordanien Israel Rundreise: 3-Länder-Itinerar" high DACH purchase intent; TourRadar + Abraham CTAs; pairs with /de/israel-jordan-itinerary (confirmed existing)
+- eilat-beach-guide: completes DE Eilat beach cluster; "Eilat Strände: Nordstrand vs Korallenreservat" DACH beach tourism; Booking + GYG CTAs; pairs with /de/eilat-travel-guide + /de/eilat-hotels-guide (both confirmed existing)
+Quality: Standard Hochdeutsch; YAML double-quotes; /de/* prefix confirmed-existing pages only; no fabricated prices; Bahá'í active-site framing (non-Bahá'ís Außenbereiche/Terrassen only); Dolphin Reef semi-wild honesty; Makhtesh Ramon = Erosionskrater not Meteoriten-/Vulkankrater.
+
 ### DE guide catch-up (107 / 396 = 289 remaining — Phase DE-5 next)
 - Phase DE-1 — DONE. iter833 shipped ebfb0bd7:
   3-days-in-israel, 3-days-in-galilee, airlines-flying-israel-2026,
@@ -445,6 +455,16 @@ SHIPPED iter878 SHA a03df166. DE guides: 127→132/397. Build: 1132→1137 pages
 - best-hotels-negev: IDA Dark Sky Park first in Middle East; Beresheet ₪1,800–₪4,500+ crater-rim; Selina Ramon; Ramon Inn; Succah in the Desert off-grid; HI Beit Noam ₪120–180; Zimmer B&B; Sde Boker alternative; decision matrix; 7 FAQs; 3 CTAs Booking/GYG/Discovercars.
 Quality: Standard Hochdeutsch; YAML double-quotes; /de/* prefix confirmed-existing pages only; no fabricated prices; Makhtesh Ramon correctly Erosionskrater.
 
+### Phase FR-11 (137 → 142/397) — ready (defined iter880)
+Guides: `egypt-jordan-israel-itinerary.md`, `ein-gedi-guide.md`, `ein-kerem-jerusalem-guide.md`, `eilat-dolphin-reef-guide.md`, `galilee-wine-trail.md`
+All 5 confirmed MISSING from FR via comm -23 (2026-07-30).
+- egypt-jordan-israel-itinerary: "Égypte Jordanie Israël: circuit 3 pays" = France is 3rd largest Israel tourism source; very high purchase intent; TourRadar + Abraham CTAs; pairs with /fr/israel-jordan-itinerary (confirmed existing)
+- ein-gedi-guide: FR Dead Sea cluster completion; "Réserve naturelle d'Ein Gedi: chutes + ibex + gorges"; GYG + Abraham CTAs; pairs with /fr/dead-sea-guide + /fr/masada-visitor-guide (both confirmed existing)
+- ein-kerem-jerusalem-guide: French Catholic pilgrims (Basilique de la Visitation, Église de Saint-Jean-Baptiste, Fenêtres de Chagall à Hadassah); zero FR editorial; Jerusalem cluster extension; GYG + Yad Vashem combo tour CTAs; pairs with /fr/easter-in-jerusalem + /fr/bethlehem-travel-guide (confirmed existing)
+- eilat-dolphin-reef-guide: completes FR Eilat activities cluster; "Dolphin Reef Eilat" zero FR editorial; honest semi-wild (rencontres non garanties) framing; GYG CTAs; pairs with /fr/eilat-travel-guide + /fr/eilat-beach-guide (confirmed existing)
+- galilee-wine-trail: French wine tourism market (France = world's biggest wine country); "Route des vins de Galilée et Golan: circuit en voiture" zero FR editorial; Galil Mountain/Dalton/Golan Heights Winery/boutique estates; Discovercars + Booking CTAs; pairs with /fr/sea-of-galilee-guide + /fr/golan-heights-guide (need to confirm /fr/golan-heights-guide exists before authoring)
+Quality: metropolitan French; YAML double-quotes; /fr/* prefix confirmed-existing pages only; no fabricated prices; Dolphin Reef semi-wild honesty; Ein Kerem Chagall Windows honesty (not authenticated attribution debates).
+
 ### Phase FR-10 (132 → 137/397) — SHIPPED iter877 5ada8f0b
 Guides: `masada-visitor-guide.md`, `haifa-travel-guide.md`, `galilee-christian-sites-circuit.md`, `day-trips-from-eilat.md`, `birdwatching-in-israel.md`
 SHIPPED iter877 SHA 5ada8f0b. FR guides: 132→137/397. Build: 1127→1132 pages. 1557/1557 e2e pass. Gate: 0 errors.
@@ -454,6 +474,16 @@ SHIPPED iter877 SHA 5ada8f0b. FR guides: 132→137/397. Build: 1127→1132 pages
 - day-trips-from-eilat: 7 excursions + comparison table; summer heat planning 38-42°C; priceFrom/rating/reviews preserved from EN source (ranges only); cross-links /fr/petra-from-eilat-vs-amman, /fr/eilat-beach-guide, /fr/aqaba-from-eilat.
 - birdwatching-in-israel: Agamon HaHula 120K cranes, Wagon Safari ₪50-80; IBRCE Eilat baguage + Festival mi-mars (LPO France 45K members angle); Golan/Gamla vautours fauves; Hai-Bar Yotvata+Carmel; En Afek; seasonal calendar; timing disclaimer.
 Quality: metropolitan French; YAML double-quotes; /fr/* prefix confirmed-existing pages only; no fabricated prices or ratings; Bahá'í active-site framing; Magdala identification honesty.
+
+### Phase ES-19 (95 → 100/397) — ready (defined iter880)
+Guides: `egypt-jordan-israel-itinerary.md`, `eilat-beach-guide.md`, `ein-gedi-guide.md`, `eilat-dolphin-reef-guide.md`, `best-hotels-nazareth.md`
+All 5 confirmed MISSING from ES via comm -23 (2026-07-30).
+- egypt-jordan-israel-itinerary: "Israel Jordania Egipto: itinerario de 3 países" = very high purchase intent; no LATAM editorial; TourRadar + Abraham CTAs; pairs with /es/israel-jordan-itinerary (confirmed existing)
+- eilat-beach-guide: "Playas de Eilat: Playa Norte vs Coral Beach" completes ES Eilat beach cluster; high search volume; Booking + GYG CTAs; pairs with /es/eilat-travel-guide + /es/eilat-hotels-guide
+- ein-gedi-guide: Dead Sea eco-cluster completion; "Ein Gedi Reserva Natural" popular LATAM eco/pilgrimage tourism; GYG + Abraham CTAs; pairs with /es/dead-sea-guide + /es/masada-visitor-guide (both confirmed existing)
+- eilat-dolphin-reef-guide: "Dolphin Reef Eilat" high purchase intent; honest semi-wild framing; completes Eilat activities cluster; GYG CTAs; pairs with /es/eilat-travel-guide
+- best-hotels-nazareth: LATAM Catholic pilgrim accommodation; zero ES editorial; Booking affiliate; pairs with /es/nazareth-travel-guide (confirmed existing)
+Quality: neutral LATAM Spanish tuteo; YAML double-quotes; /es/ prefix confirmed-existing pages only; no fabricated prices; Dolphin Reef semi-wild honesty note.
 
 ### Phase ES-18 (90 → 95/397) — SHIPPED iter876 5cf2bf65
 Guides: `sea-of-galilee-guide.md`, `netanya-guide.md`, `best-hotels-negev.md`, `best-hotels-netanya.md`, `passover-in-israel.md`
@@ -483,3 +513,22 @@ Quality: neutral LATAM Spanish tuteo; YAML double-quotes; /es/* prefix confirmed
 - Phase FR-11: TBD (next RESEARCH iteration to define)
 - Phase ES-19: TBD (next RESEARCH iteration to define)
 **Freshness (iter875):** Gordonia Zichron Yaakov confirmed opened February 1, 2026 (141 rooms, 81m infinity pool, adults 10+, Gordonia Hotels brand). BACKLOG Gordonia item upgraded P3→P2 with confirmed date. InterContinental Jerusalem: still "late summer 2026" per IHG listing; check August/September 2026. easyJet TLV: guide correctly shows suspended/late-October-2026 due to Operation Rising Lion (Iran conflict June 2026).
+
+---
+
+## Updated status snapshot (iter880 RESEARCH 2026-07-30)
+
+| Locale | Guides | Note |
+|--------|--------|------|
+| en     | 397    | stable |
+| fr     | 137    | 260 missing — Phase FR-10 SHIPPED iter877 5ada8f0b; **Phase FR-11 defined iter880** |
+| de     | 132    | 265 missing — Phase DE-9 SHIPPED iter878 a03df166; **Phase DE-10 defined iter880** |
+| es     | 95     | 302 missing — Phase ES-18 SHIPPED iter876 5cf2bf65; **Phase ES-19 defined iter880** |
+
+**DE-phase-9 (iter878) shipped:** DE guides now 132/397.
+**DE-phase-9 link-audit (iter879) shipped:** 15 register fixes + 2 meta desc trims.
+**All three next phases defined iter880:**
+- Phase ES-19: egypt-jordan-israel-itinerary, eilat-beach-guide, ein-gedi-guide, eilat-dolphin-reef-guide, best-hotels-nazareth (all confirmed MISSING from ES)
+- Phase FR-11: egypt-jordan-israel-itinerary, ein-gedi-guide, ein-kerem-jerusalem-guide, eilat-dolphin-reef-guide, galilee-wine-trail (all confirmed MISSING from FR)
+- Phase DE-10: galilee-christian-sites-circuit, ein-gedi-guide, haifa-travel-guide, egypt-jordan-israel-itinerary, eilat-beach-guide (all confirmed MISSING from DE)
+**Freshness (iter880):** InterContinental Jerusalem still "late summer 2026" per travel sources — current guide caveat still accurate. The Yacht Herzliya (Fattal, 325 rooms, opened June 2026) already in herzliya-guide.md Booking CTA. Airport City Eilat cluster (5 hotels + Princess revival) already in eilat-hotels-guide.md with correct framing (phased openings, check live availability). Israir India routes (Delhi+Mumbai, from April 2026) NOT in cheap-flights or airlines guides — added P2/S freshness BACKLOG item (verify post-Operation Rising Lion status before updating).

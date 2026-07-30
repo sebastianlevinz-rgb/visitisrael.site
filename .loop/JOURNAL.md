@@ -13382,3 +13382,18 @@ Merge: committed directly to master SHA 10529e74; pushed.
 CI: in_progress.
 Build pages: 1137 (unchanged).
 Next: iter 880 → RESEARCH (880%5==0). Candidate: research-880 — web research for profitable features/content gaps; append 6–10 new prioritized BACKLOG items.
+
+## 2026-07-30T20:00Z · iter 880 · RESEARCH · research-880-es19-fr11-de10-israir-india
+What: 178th RESEARCH pass. No shipping. Defined next i18n batch for all 3 locales; freshness checks; competitor audit.
+i18n phases defined (all guides confirmed MISSING via comm -23 on 2026-07-30):
+  - Phase ES-19 (95→100/397): egypt-jordan-israel-itinerary, eilat-beach-guide, ein-gedi-guide, eilat-dolphin-reef-guide, best-hotels-nazareth. Rationale: 3-country trip highest LATAM purchase intent; Eilat beach + activity cluster completion; Dead Sea eco-cluster; pilgrim accommodation cluster. Cross-links confirmed: /es/israel-jordan-itinerary, /es/eilat-travel-guide, /es/eilat-hotels-guide, /es/dead-sea-guide, /es/masada-visitor-guide, /es/nazareth-travel-guide.
+  - Phase FR-11 (137→142/397): egypt-jordan-israel-itinerary, ein-gedi-guide, ein-kerem-jerusalem-guide, eilat-dolphin-reef-guide, galilee-wine-trail. Rationale: France = 3rd largest Israel tourism source; FR Dead Sea + Eilat activity cluster completion; French Catholic pilgrims (Visitation/Jean-Baptiste/Chagall); French wine tourists = top market. Cross-links confirmed: /fr/israel-jordan-itinerary, /fr/dead-sea-guide, /fr/masada-visitor-guide, /fr/easter-in-jerusalem, /fr/eilat-travel-guide, /fr/eilat-beach-guide. Note: verify /fr/golan-heights-guide exists before authoring galilee-wine-trail.
+  - Phase DE-10 (132→137/397): galilee-christian-sites-circuit, ein-gedi-guide, haifa-travel-guide, egypt-jordan-israel-itinerary, eilat-beach-guide. Rationale: DACH Christian pilgrimage tourism; nature/hiking tourism; Haifa major DE gap; 3-country bucket-list trip; Eilat beach cluster. Cross-links confirmed: /de/sea-of-galilee-guide, /de/best-hotels-sea-of-galilee, /de/dead-sea-guide, /de/dead-sea-tours-compared, /de/3-days-in-haifa, /de/bahai-world-center-guide, /de/israel-jordan-itinerary, /de/eilat-travel-guide, /de/eilat-hotels-guide.
+Freshness findings:
+  - InterContinental Jerusalem: still "late summer 2026" per travel industry sources. Guide caveat remains accurate. No fix needed.
+  - The Yacht Herzliya (Fattal Hotels, 325 rooms, opened June 2026): already in herzliya-guide.md Booking CTA with correct date. No fix needed.
+  - Airport City Eilat (5 luxury hotels + Princess revival): already in eilat-hotels-guide.md with "phased openings, check live availability" correct framing. No fix needed.
+  - Israir India routes (Delhi BOM + Mumbai BOM nonstop from April 2026): NOT in cheap-flights-to-israel.md or airlines-flying-israel-2026.md (those guides only show Air India/IndiGo for India). Israir confirmed launches April 2026 per ynetnews + travelandtourworld. Operation Rising Lion (June 13) may have affected status — marked P2/S freshness BACKLOG item to verify current operational status before updating guides.
+Memory: STATE.md (iter→880, mode RESEARCH, nextRotationCategory BUILD 881%5==1), I18N-PLAN.md (ES-19 + FR-11 + DE-10 defined + updated status snapshot), BACKLOG.md (Israir India freshness item added; ES-19/FR-11/DE-10 iter markers added), COMPETITORS.md (append findings).
+No code changes. No shipping.
+Next: iter 881 → BUILD (881%5==1). Candidate: ES Phase ES-19 (5 guides — egypt-jordan-israel-itinerary, eilat-beach-guide, ein-gedi-guide, eilat-dolphin-reef-guide, best-hotels-nazareth). Alternately FR-11 or DE-10 per build-rotation balance (ES is highest gap priority per I18N-PLAN §Batching).

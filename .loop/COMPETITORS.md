@@ -6855,3 +6855,32 @@ Sources: reisefroh.de, viel-unterwegs.de, lonelyplanet.de, aldi-reisen.de/reisef
 - DE: 127/397 done. DE-9 batch already defined iter870 — all 5 confirmed missing via comm -23.
 
 **EN saturation**: ~97%+ (177th pass; no new EN-only gaps identified this pass). Next EN opportunity: Gordonia freshness update (P2/S), InterContinental Jerusalem update (P3/S when confirmed open).
+
+---
+
+## iter880 — 2026-07-30 — 178th research pass
+
+**Sources checked:** thejc.com, touristisrael.com, travelpulse.com, travelandtourworld.com, nomadlawyer.org, myisraelstay.com, americaisraeltours.com, breakingtravelnews.com, ynetnews.com, itn.co.il, laidbacktrip.com
+
+**Hotel developments (confirmed current in our guides):**
+- The Yacht Herzliya (Fattal Hotels, 325 rooms, 12 room categories, 50m pool, 2 restaurants, opened June 2026): already in herzliya-guide.md Booking CTA. No competitor opportunity — covered.
+- Airport City Eilat cluster (5 hotels ~1,100 rooms, Princess Hotel revival under new name): already in eilat-hotels-guide.md with phased-openings honesty framing. Princess Hotel closure + Airport City future revival = correct framing.
+- InterContinental Jerusalem: "late summer 2026" per travel industry sources (travelandtourworld confirmed). Still accurate in our guide. No competitor has a specific opening-day guide — opportunity remains if it opens in Aug/Sep 2026 to publish a "new hotel review" style guide.
+
+**Airline developments (gap found):**
+- Israir India (Delhi + Mumbai nonstop, from April 2026): NOT in our flight guides. Competitors (touristisrael.com) mention it. Air India + IndiGo already in our guides; Israir is the new low-cost Israeli-flag carrier on this route. Post-Operation Rising Lion status unknown — verify before updating.
+- Arkia TLV→Tokyo Narita (from October 2026): already in airlines-flying-israel-2026.md. No gap.
+- Israir JFK + Madrid: already covered. No gap.
+
+**Content gaps checked (competitors vs ours):**
+- GetYourGuide supplier list: Tourist Israel Tours on GYG — confirms GYG is our right affiliate for guided products. No new structural gap.
+- Wanderlog Israel trip planner: competitor has open itinerary tool. Our "build-your-trip" tool covers same need. No gap.
+- Israel Pass & Ride (israelpass.biz): competitor sites mention it. Already covered in our israel-national-parks-pass.md with full Orange Card vs Israel Pass & Ride comparison. No gap.
+- TouristIsrael.com monthly events pages (March–November 2026): we have israel-events-festivals.md and israel-by-month.md (both confirmed in EN). No structural gap.
+
+**i18n batch definitions (all gaps confirmed via comm -23):**
+- ES-19: egypt-jordan-israel-itinerary, eilat-beach-guide, ein-gedi-guide, eilat-dolphin-reef-guide, best-hotels-nazareth (95→100/397).
+- FR-11: egypt-jordan-israel-itinerary, ein-gedi-guide, ein-kerem-jerusalem-guide, eilat-dolphin-reef-guide, galilee-wine-trail (137→142/397).
+- DE-10: galilee-christian-sites-circuit, ein-gedi-guide, haifa-travel-guide, egypt-jordan-israel-itinerary, eilat-beach-guide (132→137/397).
+
+**EN saturation**: ~97%+ (178th pass; no new EN-only gaps found this pass). Gordonia Zichron Yaakov: already updated to P2 with confirmed Feb 1, 2026 opening date (iter875). InterContinental Jerusalem: check August/September 2026.
