@@ -13055,3 +13055,20 @@ Gate: pnpm check 0 errors; pnpm build 1086 pages; pnpm test:e2e 1465/1465 pass (
 Ship: commit 49c03c8d pushed to master.
 Prod: CI + Lighthouse in-progress at push time (2026-07-30T00:50Z).
 Next: iter 862 → BUILD (862%5==2); seo-content rotation. Top candidates: cheap-flights El Al Hanoi P2/S, israel-for-vietnamese-travelers P2/S, ES Phase ES-16 P1/M, FR Phase FR-8 P1/M, DE Phase DE-6 P1/M.
+
+## 2026-07-30 · iter 862 · BUILD (i18n-ES) · es-phase-16
+Mode: BUILD (862%5==2); seo-content rotation → i18n-ES P1 item.
+Item: es-phase-16 — 5 Spanish guides for LATAM Jewish heritage + pilgrimage + Galilee cluster.
+
+What shipped (commit cfe8ffd1):
+1. yad-vashem-visitor-guide.md (/es/): "Museo del Holocausto más visitado del mundo" — Moshe Safdie museum 2005 (10 galerías cronológicas, fotografía prohibida dentro), Memorial de los Niños (5 velas × espejos = 1.5M puntos de luz), Avenida de los Justos (27,000+ nombrados, incluye Schindler/Wallenberg/Karski), Sala de los Nombres (4.8M fichas, base de datos consultable). Gratuito + registro obligatorio previo. Tren ligero Línea 1 → Monte Herzl → lanzadera gratuita cada 20min, o Bus 27.
+2. western-wall-guide.md (/es/): "Muro de los Lamentos (Kotel en hebreo, הַכּוֹתֶל הַמַּעֲרָבִי)" — paired-naming opening; 57m visibles de 488m totales del muro de contención herodiano; 3 secciones (masculina/femenina/Robinson egalitaria); tradición de los papelitos (Fundación recoge 2×/año, entierro en Monte de los Olivos); Kabalat Shabat viernes al atardecer, Birkat Kohanim en Pesaj+Sucot; abierto 24h, gratuito.
+3. golan-heights-guide.md (/es/): "Altos del Golán" — Monte Bental (1,165m, bunkers sirios, Valle de las Lágrimas 7km), Banias (2 rutas: 2.5km cascadas superior + 3.5km cascada inferior), Fortaleza de Nimrod (ayyúbida 1229 d.C., no cruzada — error común aclarado, escalera oculta 27m), pueblos drusos (Majdal Shams + Grito de la Colina), bodegas (Yarden/Gamla/Golán en Katzrin, Pelter, Bazelet HaGolan, Assaf). NEUTRAL political-status note verbatim in FAQ.
+4. galilee-tours-compared.md (/es/): Tabla comparativa 6 formatos (~$65–$400): peregrinación cristiana, herencia judía, Mar de Galilea+Golán, multi-día, auto-guiado, guía privado; secciones narrativas por perfil; cuándo reservar (Semana Santa/Pésaj/Navidad 2–3 semanas antes).
+5. tiberias-guide.md (/es/): Hamat Tiberias (mosaico zodiacal s.IV EC con Helios + 12 signos), Barco de Jesús en Kibbutz Ginosar (100 a.C.–70 d.C., honesty note: "no se afirma que sea una embarcación que Jesús usara"), Tayelet lakefront, excursiones día (Nazaret 40min, Cafarnaúm/Bienaventuranzas 20–30min, Safed 45min, Golán 30min, Yardenit 10min).
+
+Pre-commit honesty checks: no fabricated prices anywhere (tour prices are ranges only); Golan Heights political status neutral covering all 3 positions; Nimrod correctly Ayyubid not Crusader; Jesus Boat does not claim Jesus used it; no "safe for border areas" claims without noting restrictions; Yardenit honest framing preserved.
+Gate: pnpm check 0 errors; pnpm build 1086→1091 pages (+5); pnpm test:e2e 1475/1475 pass (11.8m). All gates GREEN.
+Ship: commit cfe8ffd1 merged to master; pushed.
+Prod: CI + Lighthouse in-progress at push time (2026-07-30T02:10Z); prior commit ecbd4f0b confirmed CI+Lighthouse success.
+Next: iter 863 → BUILD (863%5==3); tools rotation. Top BUILD candidates: FR Phase FR-8 P1/M, DE Phase DE-6 P1/M, transport cost estimator tool P2/S, Eilat vs Sharm seo-content P2/M.
