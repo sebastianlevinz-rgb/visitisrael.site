@@ -13210,3 +13210,19 @@ Gate: pnpm check 0 errors; pnpm build 1112 pages (+10); pnpm test:e2e 1517/1517 
 Ship: committed directly on master 3f8807e4; pushed.
 CI: pushed to origin/master; Vercel auto-deploy triggered.
 DE guides: 122→127/396. Next: iter 869 → REVIEW (869%5==4).
+
+## 2026-07-30T09:58Z · iter 869 · REVIEW · review-869-de-phase8-link-fixes
+What: Audited all 5 DE Phase DE-8 guides (bethlehem-travel-guide, day-trips-from-eilat,
+dead-sea-day-trip-comparison, eilat-hotels-guide, best-hotels-tiberias) for link prefix
+correctness, honesty, meta length (≤65/≤160), and Hochdeutsch register.
+Bugs: 2 link prefix bugs found in dead-sea-day-trip-comparison.md line 61 —
+  /dead-sea/ein-gedi → /de/dead-sea/ein-gedi (DE attraction confirmed: src/content/attractions/de/dead-sea-ein-gedi.md)
+  /dead-sea → /de/dead-sea (DE region confirmed: src/content/regions/de/dead-sea.md)
+  4 other guides CLEAN (bethlehem-travel-guide, day-trips-from-eilat, eilat-hotels-guide,
+  best-hotels-tiberias). 27 total internal links verified across all 5 guides.
+Honesty: Isrotel Princess correctly framed as closed July 2026; price ranges only; no fabricated ratings.
+Register: all 5 guides consistently Standard Hochdeutsch. Meta: all ≤65/≤160 ✓.
+Gate: pnpm check 0 errors; pnpm build 1112 pages (no change); pnpm test:e2e 1517/1517 pass (17.1m).
+Ship: squash-merged auto/review-869-de-phase8-link-fixes to master c2114f86; pushed.
+CI: in_progress on c2114f86 at time of ship.
+Next: iter 870 → RESEARCH (870%5==0).

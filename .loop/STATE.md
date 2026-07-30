@@ -1,13 +1,15 @@
 # LOOP STATE
 
-- iteration: 868
-- lastMode: BUILD
-- lastItem: de-phase-8
-- lastResult: BUILD iter868 — de-phase-8 SHIPPED 3f8807e4. 5 DE guides: bethlehem-travel-guide (Kontrollpunkt 300, Geburtskirche UNESCO + Renovierungsnote, Krippenplatz, Banksy-Kunst, Olivenholz-Handwerk, neutral West-Bank-Framing), day-trips-from-eilat (Petra Tagesausflug + Transport-Optionen, Timna-Park Salomonische Pfeiler, Roter Canyon, Coral Beach, Glasbodenboot, Dolphin Reef, Aqaba), dead-sea-day-trip-comparison (Vergleich Jerusalem/Tel Aviv Abfahrt, Fahrzeiten, Masada-Kombi, Selbstfahrer-Routen), eilat-hotels-guide (3 Zonen: Nordstrand/Coral Beach Süd/Stadtzentrum, Budget/Mittelklasse/Luxus, Airport City 2026, Isrotel Princess geschlossen), best-hotels-tiberias (Scots Hotel, U Boutique Kinneret, Nof Ginosar Kibbutz, Leonardo Club, Ein Gev Resort, Entscheidungsmatrix). DE guides: 122→127/396. Build: 1102→1112 pages (+10). 1517/1517 e2e pass (10.2m). Gate: 0 errors.
-- nextRotationCategory: RESEARCH (869%5==4 → REVIEW; 870%5==0 → RESEARCH)
+- iteration: 869
+- lastMode: REVIEW
+- lastItem: review-869-de-phase8-link-fixes
+- lastResult: REVIEW iter869 — review-869-de-phase8-link-fixes SHIPPED c2114f86. Audited all 5 DE Phase DE-8 guides (bethlehem-travel-guide, day-trips-from-eilat, dead-sea-day-trip-comparison, eilat-hotels-guide, best-hotels-tiberias). 2 link prefix bugs fixed in dead-sea-day-trip-comparison.md line 61: /dead-sea/ein-gedi→/de/dead-sea/ein-gedi and /dead-sea→/de/dead-sea. Both DE pages confirmed existing. 4 guides CLEAN. Meta ≤65/≤160 ✓; honesty ✓ (Isrotel Princess closed, ranges only); register ✓ (Standard Hochdeutsch). Gate: 0 errors; 1112 pages (no change); 1517/1517 e2e pass. CI in_progress on c2114f86.
+- nextRotationCategory: RESEARCH (870%5==0 → RESEARCH)
 - higgsfieldSpent: 0
-- updatedAt: 2026-07-30T09:30Z
+- updatedAt: 2026-07-30T09:58Z
 - branch context: work on master; feature work on auto/<slug>
+
+Notes: iter869 REVIEW — review-869-de-phase8-link-fixes SHIPPED c2114f86. Audited 5 DE Phase DE-8 guides. 2 link prefix bugs fixed in dead-sea-day-trip-comparison.md: /dead-sea/ein-gedi→/de/dead-sea/ein-gedi; /dead-sea→/de/dead-sea. 4 guides CLEAN. 1112 pages (no change). 1517/1517 e2e pass.
 
 Notes: iter868 BUILD — de-phase-8 SHIPPED 3f8807e4. 5 DE guides: bethlehem-travel-guide (Kontrollpunkt 300, Geburtskirche, Banksy-Kunst, neutral West-Bank-Framing), day-trips-from-eilat (Petra, Timna-Park, Roter Canyon, Aqaba, priceFrom/rating preserved), dead-sea-day-trip-comparison (Jerusalem vs Tel Aviv Vergleich, Masada-Kombi, Selbstfahrer), eilat-hotels-guide (3 Zonen, Budget/Mittelklasse/Luxus, Airport City 2026, Princess geschlossen), best-hotels-tiberias (Scots Hotel, Nof Ginosar Kibbutz, Entscheidungsmatrix). DE guides: 122→127/396. 1112 pages (+10). 1517/1517 e2e pass.
 
