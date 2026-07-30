@@ -13226,3 +13226,17 @@ Gate: pnpm check 0 errors; pnpm build 1112 pages (no change); pnpm test:e2e 1517
 Ship: squash-merged auto/review-869-de-phase8-link-fixes to master c2114f86; pushed.
 CI: in_progress on c2114f86 at time of ship.
 Next: iter 870 → RESEARCH (870%5==0).
+
+## 2026-07-30T10:30Z · iter 870 · RESEARCH · research-870-phases-es17-fr9-de9
+What: 176th research pass. Analyzed i18n gaps and competitor landscape. Defined 3 new i18n batch phases.
+Findings:
+  - EN guide count: 397 (up from 396 in prior state snapshots; +1 new guide added since iter865).
+  - ES gaps: 312 remaining. Phase ES-17 defined: dead-sea-israel-vs-jordan, jaffa-travel-guide, tel-aviv-vs-jerusalem, israel-for-argentinian-travelers, vegan-vegetarian-israel. De-duplication: jaffa-travel-guide + tel-aviv-vs-jerusalem already in FR+DE (confirmed); israel-for-argentinian-travelers EN guide b6a0158; vegan-vegetarian-israel EN guide f2c65cf (both confirmed missing in ES).
+  - FR gaps: 270 remaining. Phase FR-9 defined: bethlehem-travel-guide, vegan-vegetarian-israel, israel-for-french-travelers, best-hotels-netanya, eilat-beach-guide. De-duplication: passover-in-israel already in FR (skip); best-hotels-negev already in FR (skip).
+  - DE gaps: 270 remaining. Phase DE-9 defined: ashdod-cruise-port-excursions, best-hotels-sea-of-galilee, vegan-vegetarian-israel, israel-for-german-travelers, best-hotels-negev. All 5 confirmed missing from DE.
+  - 2026 tourism news: (a) Kassland Resort & Spa opened May 2026 near Jerusalem (220 rooms, Atlantis Spa 20 pools, indoor water park) → P3 freshness item; (b) Highway 60 "Biblical Highway" official branding 2026 → verify israel-biblical-highway.md is current; (c) North American visitors +73% YoY, Israel tourism rebound confirmed; (d) ETA-IL requirement (Jan 2025) = key practical info gap for argentina/french/german-travelers EN→locale translations.
+  - Competitor gaps confirmed: zero LATAM editorial for "Israel vegano"; zero FR standalone guide for Bethlehem; zero DE editorial for Ashdod cruise port; zero SERP competition for israel-for-[german/french/argentinian]-travelers in respective locales.
+Gate: N/A (research only, no code changes).
+Merge: N/A.
+Prod: N/A.
+Next: iter 871 → BUILD (871%5==1; seo-content rotation). Top candidate: ES Phase ES-17 (dead-sea-israel-vs-jordan, jaffa-travel-guide, tel-aviv-vs-jerusalem, israel-for-argentinian-travelers, vegan-vegetarian-israel).

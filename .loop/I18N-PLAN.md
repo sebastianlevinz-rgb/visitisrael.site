@@ -376,3 +376,44 @@ Take the top 5 by priority (or head -5 if priority not obvious), translate each 
 - ES regions (11/11): DONE (when added unclear, but present).
 - ES attractions (61/65): DONE (partial — 4 still missing).
 - ES itineraries (6/6): DONE.
+
+---
+
+## Updated status snapshot (iter870 RESEARCH 2026-07-30)
+
+| Locale | Guides | Note |
+|--------|--------|------|
+| en     | 397    | +1 vs prior snapshot |
+| fr     | 127    | 270 missing — Phase FR-9 defined |
+| de     | 127    | 270 missing — Phase DE-9 defined |
+| es     | 85     | 312 missing — Phase ES-17 defined |
+
+**De-phase-8 (iter868) and review-869 shipped:** DE guides now 127/397.
+**Next phases defined this research pass (iter870):**
+
+### Phase ES-17 (85 → 90/397) — ready
+Guides: `dead-sea-israel-vs-jordan.md`, `jaffa-travel-guide.md`, `tel-aviv-vs-jerusalem.md`, `israel-for-argentinian-travelers.md`, `vegan-vegetarian-israel.md`
+- dead-sea-israel-vs-jordan: completes ES Dead Sea cluster; "¿Mar Muerto Israel o Jordania?"; zero LATAM editorial
+- jaffa-travel-guide: zero ES editorial; format proven in FR+DE (iter137)
+- tel-aviv-vs-jerusalem: "¿Tel Aviv o Jerusalén?" very high comparison intent; already in FR+DE
+- israel-for-argentinian-travelers: ETA-IL since Jan 2025 critical update; EN guide b6a0158; zero SERP competition
+- vegan-vegetarian-israel: "Israel vegano" zero LATAM editorial; EN guide f2c65cf; Israel = world #1 per-capita vegan
+Quality: neutral LATAM Spanish tuteo; YAML double-quotes; /es/ prefix confirmed-existing pages only; no fabricated prices.
+
+### Phase FR-9 (127 → 132/397) — ready
+Guides: `bethlehem-travel-guide.md`, `vegan-vegetarian-israel.md`, `israel-for-french-travelers.md`, `best-hotels-netanya.md`, `eilat-beach-guide.md`
+- bethlehem-travel-guide: completes FR Bethlehem cluster; France is #3 Israel tourism source; Checkpoint 300 + West Bank neutral
+- vegan-vegetarian-israel: "Israël végan/végétarien" zero FR editorial; passover-in-israel already in FR (skip)
+- israel-for-french-travelers: ETA-IL since Jan 2025; El Al CDG/ORY + Air France TLV; zero SERP competition; EN exists
+- best-hotels-netanya: ~50K francophones in Netanya; zero FR editorial; Booking.com affiliate
+- eilat-beach-guide: completes FR Eilat cluster; Coral Beach vs North Beach; seasonal pricing
+Quality: metropolitan French; YAML double-quotes; /fr/* prefix confirmed-existing pages only; no fabricated prices.
+
+### Phase DE-9 (127 → 132/397) — ready
+Guides: `ashdod-cruise-port-excursions.md`, `best-hotels-sea-of-galilee.md`, `vegan-vegetarian-israel.md`, `israel-for-german-travelers.md`, `best-hotels-negev.md`
+- ashdod-cruise-port-excursions: AIDA/TUI/MSC German cruise market; Germany = Europe's largest cruise market; zero DE editorial
+- best-hotels-sea-of-galilee: completes DE Galilee cluster; DACH Christian tourism; Nof Ginosar + Ein Gev kibbutz; EN iter536
+- vegan-vegetarian-israel: "Israel vegan/vegetarisch" popular DACH searches; Germany = #1 per-capita vegan in Europe; EN iter242
+- israel-for-german-travelers: specific airport protocols + direct flights; historical sensitivity handled; EN exists; zero SERP
+- best-hotels-negev: DACH eco-tourism; Beresheet + Mitzpe Ramon; pairs with de/3-days-in-negev
+Quality: Standard Hochdeutsch; YAML double-quotes; /de/* prefix confirmed-existing pages only; no fabricated prices.
