@@ -1,5 +1,10 @@
 # DONE (shipped — do NOT re-do; basis for REVIEW mode)
 
+## iter861 · BUILD · freshness-batch-qasr-rosh-hanikra · 49c03c8d
+- jordan-river-baptism.md (EN+FR+DE) SHIPPED: Qasr el-Yahud NIS 25M renovation (Feb 2026) reflected across all locale files. New facilities: air-conditioned visitor service centre, hot showers (replacing cold outdoor facilities), wooden deck for direct Jordan River access, landscaped grounds, improved parking. Updated comparison table, FAQ Q1 + Q2 answers, "What to expect" body section in all 3 files. updatedAt → 2026-07-30. Sources: Times of Israel, ITN, TravelPulse.
+- rosh-hanikra-guide.md (EN only) SHIPPED: Cable car confirmed operating since ~late 2025. Removed all hedged uncertainty language. Meta description updated (added "Cable car back in operation (restored 2025)"). Callout block converted from warning to positive notice. FAQ answers updated (removed conditional "if operating" framing). Practical checklist updated. Admission pricing confirmed ₪53 adult / ₪43 child (Trip.com 2026 ticket page). updatedAt → 2026-07-30. Sources: westgalil.org.il, GetYourGuide 2026, Trip.com 2026.
+- Gate: pnpm check 0 errors; build 1086 pages; 1465/1465 e2e pass (11.5m).
+
 ## iter856 · BUILD · es-phase-15 · df7dc674
 - ES Phase ES-15 SHIPPED: galilee-christian-sites-circuit, free-things-to-do-israel, dead-sea-day-trip-comparison, best-hotels-sea-of-galilee, cycling-in-israel. Neutral LATAM Spanish tuteo; YAML double-quotes; paired-naming Cafarnaúm/כְּפַר נַחוּם + Magdala/Migdal; /es/ prefix only for confirmed existing ES pages; no fabricated prices; Bahá'í active-site caveat on free-things-to-do-israel; Dolphin Reef semi-wild note on best-hotels-sea-of-galilee. 10 new tests (5 smoke + 5 a11y). ES guides: 75→80/396. Build: 1071→1081 pages. 1455/1455 e2e pass (10.8m).
 

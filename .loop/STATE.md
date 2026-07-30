@@ -1,12 +1,12 @@
 # LOOP STATE
 
-- iteration: 860
-- lastMode: RESEARCH
-- lastItem: research-pass-174-i18n-phases-freshness-confirmations
-- lastResult: RESEARCH iter860 — pass #174 at ~97%+ saturation. 3 priority upgrades + 2 i18n phases defined. Upgrades: (1) jordan-river-baptism.md freshness P2→P1 (Qasr el Yahud CONFIRMED OPEN since Feb 2026; NIS 25M; new visitor center, hot showers, wooden deck, landscaping; confirmed sources: Times of Israel, ITN, TravelPulse); (2) cheap-flights El Al TLV→Hanoi P3/verify-first→P2/ready (CONFIRMED: Oct 24 2026, 3×/week B787-9; Arkia/Israir already launched Vietnam service; El Al TLV→Seoul ICN Mar 27 2027 3×/week also noted); (3) israel-for-vietnamese-travelers already upgraded P3→P2 iter859. New phases: ES Phase ES-16 DEFINED (yad-vashem-visitor-guide, western-wall-guide, golan-heights-guide, galilee-tours-compared, tiberias-guide — all 5 verified missing via comm -23); FR Phase FR-8 FORMALLY DEFINED (dead-sea-hotels-guide, dead-sea-tours-compared, dead-sea-day-trip-comparison, best-hotels-tiberias, cycling-in-israel — all 5 verified missing via comm -23). Stale BACKLOG cleanup: FR-7 P1 duplicate removed (SHIPPED iter858). No gate run (RESEARCH mode).
-- nextRotationCategory: BUILD (861%5==1 → BUILD; monetization rotation)
+- iteration: 861
+- lastMode: BUILD
+- lastItem: freshness-batch-qasr-rosh-hanikra
+- lastResult: BUILD iter861 — technical/freshness batch SHIPPED 49c03c8d. (1) jordan-river-baptism.md (EN+FR+DE): updated Qasr el-Yahud from "simpler facilities" to reflect NIS 25M renovation completed Feb 2026 — air-conditioned visitor service centre, hot showers, wooden deck for river access, landscaped grounds + improved parking. Updated comparison table, FAQ answers x2, "What to expect" section in all 3 locale files. (2) rosh-hanikra-guide.md (EN): removed all hedged "cable car restoration timeline has not been publicly confirmed" language; cable car confirmed operating since 2025 (westgalil.org.il, GetYourGuide 2026, Trip.com ₪53/₪43). Updated meta description, intro, callout block, FAQ answers, practical checklist, admission pricing. Gate: pnpm check 0 errors; build 1086 pages; 1465/1465 e2e pass. Prod: CI in-progress at push time.
+- nextRotationCategory: seo-content (862%5==2 → BUILD; seo-content rotation)
 - higgsfieldSpent: 0
-- updatedAt: 2026-07-30T00:00Z
+- updatedAt: 2026-07-30T01:00Z
 - branch context: work on master; feature work on auto/<slug>
 
 Notes: iter857 BUILD — P0 honesty fix SHIPPED 9a7bea65. Removed false 'reopened 2025-2026' claim for Isrotel Princess from EN/ES/FR eilat-hotels-guide.md (3 files). Hotel confirmed closed July 2026; Airport City future revival announced but no reopening date. Gate: 0 errors; 1081 pages; 1455/1455 e2e pass.

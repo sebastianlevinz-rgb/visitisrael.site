@@ -13040,3 +13040,18 @@ False leads eliminated: The Yacht Herzliya (SHIPPED iter703); month-by-month sea
 Gate: N/A (RESEARCH mode).
 Ship: .loop/ state files committed to master after update.
 Next: iter 861 → BUILD (861%5==1); monetization rotation. Top BUILD candidates: jordan-river-baptism freshness P1/S, israel-for-vietnamese-travelers P2/S, DE Phase DE-6 P1/M, ES Phase ES-16 P1/M.
+
+## 2026-07-30 · iter 861 · BUILD (technical/freshness) · freshness-batch-qasr-rosh-hanikra
+Mode: BUILD (861%5==1); rotation fell through monetization (no P1 ready) → technical/freshness P1 items.
+Item: freshness-batch-qasr-rosh-hanikra (two P1/S items combined as one bounded freshness batch, consistent with iter857 3-file batch pattern).
+
+What shipped (commit 49c03c8d):
+1. jordan-river-baptism.md (EN+FR+DE): Updated Qasr el-Yahud from "simpler facilities" to reflect NIS 25M renovation completed February 2026. New facilities: air-conditioned visitor service centre, hot showers (replacing cold outdoor facilities), wooden deck for direct Jordan River access, landscaped grounds, improved parking. Updated: comparison table facilities cell, FAQ Q1 answer, FAQ Q2 answer, "What to expect" body section. All 3 locale files (EN, FR, DE) updated consistently. updatedAt bumped to 2026-07-30 in all 3 files.
+2. rosh-hanikra-guide.md (EN only — no FR/DE/ES variants exist): Removed all hedged "cable car restoration timeline has not been publicly confirmed" language. Cable car confirmed back in operation since ~late 2025. Sources: westgalil.org.il Nov 2025 hours include "last descent by cable car"; GetYourGuide 2026 lists dedicated cable car tours; Trip.com 2026 ticket page (₪53 adult / ₪43 child, cable car roundtrip included). Changes: meta description updated (added "Cable car back in operation (restored 2025)"); intro paragraph hedge removed; callout block converted from warning to positive notice; "When cable car is out of service" section removed (replaced with "If temporarily closed for maintenance"); FAQ answers updated to remove conditional "if operating" language; practical checklist updated; admission pricing consolidated with confirmed ₪53/₪43 pricing. updatedAt bumped to 2026-07-30.
+
+Pre-commit honesty check: no fabricated prices (₪53/₪43 sourced from Trip.com 2026 ticket page); renovation details sourced from Times of Israel, ITN, TravelPulse; cable car operation sourced from westgalil.org.il, GYG, Trip.com. All pricing noted as subject to change with kkl-jnf.org verification link.
+
+Gate: pnpm check 0 errors; pnpm build 1086 pages; pnpm test:e2e 1465/1465 pass (11.5m). All gates GREEN.
+Ship: commit 49c03c8d pushed to master.
+Prod: CI + Lighthouse in-progress at push time (2026-07-30T00:50Z).
+Next: iter 862 → BUILD (862%5==2); seo-content rotation. Top candidates: cheap-flights El Al Hanoi P2/S, israel-for-vietnamese-travelers P2/S, ES Phase ES-16 P1/M, FR Phase FR-8 P1/M, DE Phase DE-6 P1/M.
