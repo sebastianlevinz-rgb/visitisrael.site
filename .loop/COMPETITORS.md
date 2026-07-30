@@ -6815,3 +6815,27 @@ Pattern continues: at ~97%+ saturation, new items are exclusively (a) infrastruc
 
 **Saturation observation (pass #174):**
 At ~97%+ saturation, new material is now primarily (a) freshness confirmations with source verification, (b) i18n phase definitions for ES/FR/DE, (c) priority upgrades when new data confirms previously uncertain items. Zero pure new EN guide topics found this pass.
+
+### 2026-07-30 · iter 865 · RESEARCH pass #175 — DACH competitor scan + freshness confirmations
+
+Sources: reisefroh.de, viel-unterwegs.de, lonelyplanet.de, aldi-reisen.de/reisefuehrer, israel-spezialist.de, yadvashem.org/de, traveldailynews.com, thejc.com, myisraelstay.com, israel.com/transportation.
+
+**DACH competitor landscape (DE guides)**
+- israel-spezialist.de: Dedicated German-language Israel specialist. Has standalone pages for Yad Vashem, Golanhöhen, Eilat. Relatively thin editorial content (1-3 paragraphs) with heavy package-tour commercial focus. Our opportunity: deep editorial guides with practical logistics, honest caveats, and affiliate CTAs beat thin commercial pages on long-tail DACH queries.
+- reisefroh.de: German travel blog; "Israel Sehenswürdigkeiten 10 einmalige Highlights" ranks well for general DACH queries. No standalone destination guides (just listicles). Not a direct editorial competitor on destination-specific queries.
+- viel-unterwegs.de: Personal travel blog with Israel section. Covers Golanhöhen + Eilat briefly. Low editorial depth. Not a structural threat.
+- lonelyplanet.de: Translated LP content; generic German. Covers all major destinations but with less Israel specificity than we provide. Represents the quality floor to beat.
+- aldi-reisen.de/reisefuehrer/israel: Package-tour focused; purely commercial; no editorial threat.
+
+**Key DACH gaps confirmed for DE Phase DE-7:**
+- "Yad Vashem Besuch" / "Jad Vaschem Gedenkstätte": israel-spezialist.de has thin content; we'd outrank with full guide.
+- "Golanhöhen Urlaub": viel-unterwegs.de + LP thin; no standalone guide competitor.
+- "Eilat Urlaub": aldi-reisen + TUI commercial only; zero editorial gap content.
+- "Klagemauer Jerusalem Besuch": generic LP/Lonely Planet; we'd win on specificity.
+- "Totes-Meer-Touren Vergleich": zero DACH editorial competitor confirmed.
+
+**Freshness confirmations (no competitor gaps found):**
+- Jerusalem Light Rail Green Line first section opened July 2026 (Malha→Binyanei HaUmah) → our guide already current.
+- 17 luxury hotel openings summer 2026 (Dizengoff 99, The Yacht Herzliya, Gordonia Zichron Yaakov, InterContinental Jerusalem TBD) → new-luxury-hotels guide updated 2026-07-25 covers most; Gordonia in BACKLOG P3.
+- Eastern Railway (Sharon/Samaria corridor) opening in stages 2026 → primarily suburban; not tourist-facing; not worth a guide.
+- Biblical Highway (Route 60 Derech HaTanach, inaugurated June 18, 2026) → guide SHIPPED iter668.

@@ -13095,3 +13095,18 @@ What: Audited all 5 DE Phase DE-6 guides (christmas-in-israel, church-of-nativit
 Gate: pnpm check 0 errors; build 1096 pages; 1485/1485 e2e pass (11.9m). GREEN.
 Ship: squash-merged ae9dacc0 to master; pushed. CI+Lighthouse in-progress at push time.
 Next: iter 865 → RESEARCH (865%5==0). Top candidates: FR Phase FR-8 P1/M, DE Phase DE-7 TBD, israel-for-vietnamese-travelers P2/S.
+
+## 2026-07-30T05:00Z · iter 865 · RESEARCH · pass #175 — DE Phase DE-7 definition + freshness confirmations
+Mode: RESEARCH (865%5==0). No code changed; gate not run.
+What: 175th research pass. Sources: traveldailynews.com, thejc.com, myisraelstay.com (17 luxury hotel openings summer 2026), travelpulse.com, travelmarketreport.com (Israel tourism infrastructure investment), israel.com/transportation (Eastern Railway new corridor), timesofisrael.com (Jerusalem Light Rail Green Line), yadvashem.org/de (German audio guide confirmed), reisefroh.de, viel-unterwegs.de, lonelyplanet.de (DACH Israel competitor scan).
+Key findings:
+  1. DE Phase DE-7 DEFINED — 5 guides selected for DACH market highest SEO priority: (a) yad-vashem-visitor-guide ("Jad Vaschem Besuch" = top DACH cultural search; German audio guide ₪30 confirmed at yadvashem.org/de; Yad Vashem has extensive German-language section; competitor israel-spezialist.de already ranks); (b) golan-heights-guide ("Golanhöhen" hiking + wine + geopolitics; DACH wine tourism segment; competitor viel-unterwegs.de covers broadly); (c) eilat-travel-guide ("Eilat Urlaub" = major DACH winter sun destination; Condor/TUI/Corendon direct flights; completes Eilat cluster in DE); (d) dead-sea-tours-compared (completes DE Dead Sea cluster; added dead-sea-hotels-guide + dead-sea-vs-eilat in DE-6; tours comparison missing); (e) western-wall-guide ("Klagemauer" = one of most recognizable German-language Israel terms; core Jerusalem guide missing from DE).
+  2. Jerusalem Green Line → already covered in jerusalem-light-rail-guide.md (updatedAt 2026-07-22; guide correctly states first section Malha→Binyanei HaUmah opened July 2026). No freshness update needed.
+  3. new-luxury-hotels-israel-2026.md (updatedAt 2026-07-25) → already covers Dizengoff 99, The Yacht Herzliya (opened June 2026, 325 rooms), all 17 new 2026 openings. No update needed.
+  4. Gordonia Zichron Yaakov freshness → already in BACKLOG (P3, iter840). De-duped. No re-add.
+  5. Biblical Highway (Route 60) → already SHIPPED (iter668; guide at /israel-biblical-highway). De-duped.
+  6. Eastern Railway (Sharon/Samaria corridor) → new passenger service opening in stages 2026. Primarily suburban commuter rail, not tourist-facing (Hadera East/Shomron/Tira-Kochav Yair). Low tourist SEO value; not added to BACKLOG.
+Net-new BACKLOG items: 1 (DE Phase DE-7 batch). I18N-PLAN.md updated with DE Phase DE-7 definition.
+Gate: N/A (RESEARCH mode).
+Ship: N/A (memory-only update; .loop/ files committed to master).
+Next: iter 866 → BUILD (866%5==1); monetization rotation. Top BUILD candidates: DE Phase DE-7 P1/M (DEFINED this iter), FR Phase FR-8 P1/M (DEFINED iter860), israel-for-vietnamese-travelers P2/S (time-sensitive before Oct 2026 El Al Hanoi launch).

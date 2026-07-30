@@ -6,7 +6,7 @@
 >
 > One bounded slice per loop iteration. NEVER bulk-translate in one shot.
 
-## Current status snapshot (2026-07-30 iter860 RESEARCH)
+## Current status snapshot (2026-07-30 iter865 RESEARCH)
 
 | Locale | Guides | Attractions | Regions | Itineraries |
 |--------|--------|-------------|---------|-------------|
@@ -18,7 +18,7 @@
 **Gaps to close:**
 - es guides: **316 missing** (80/396 done — Phase ES-15 SHIPPED iter856; **Phase ES-16 DEFINED iter860** — ready)
 - fr guides: **274 missing** (122/396 done — Phase FR-7 SHIPPED iter858; **Phase FR-8 DEFINED iter860** — ready)
-- de guides: **279 missing** (117/396 done — Phase DE-6 SHIPPED iter863; Phase DE-7 TBD)
+- de guides: **279 missing** (117/396 done — Phase DE-6 SHIPPED iter863; **Phase DE-7 DEFINED iter865** — ready)
 - fr/de/es attractions: **4 missing each** (the 4 EN attractions added after Phase 4)
 
 **Dead Sea cluster status (iter855 audit):**
@@ -384,6 +384,23 @@ Take the top 5 by priority (or head -5 if priority not obvious), translate each 
   West Bank neutral framing; Dolphin Reef "Begegnungen nicht garantiert" honesty note;
   paired-naming on contested sites; no fabricated prices.
   DE guides: 112→117/396. Build: 1091→1096 pages. 1485/1485 e2e pass.
+- Phase DE-7 — DEFINED iter865 (research-pass-175). READY. 5 guides:
+  yad-vashem-visitor-guide, golan-heights-guide, eilat-travel-guide,
+  dead-sea-tours-compared, western-wall-guide.
+  Rationale: (1) yad-vashem-visitor-guide: "Jad Vaschem Besuch" top DACH cultural query;
+  German historical connection; yadvashem.org/de confirmed German audio guide (₪30);
+  advance reservation required; competitor israel-spezialist.de already ranks;
+  (2) golan-heights-guide: "Golanhöhen" wine + hiking + geopolitics DACH interest;
+  (3) eilat-travel-guide: "Eilat Urlaub" = major DACH winter sun (Condor/TUI/Corendon
+  direct flights Dec–Mar); completes Eilat cluster in DE;
+  (4) dead-sea-tours-compared: completes DE Dead Sea cluster (hotels + vs-eilat + medical
+  already in DE; tours comparison = missing monetization layer; group vs. private vs. Masada combo);
+  (5) western-wall-guide: "Klagemauer" widely recognized DACH term; core Jerusalem guide
+  missing from DE; Robinson's Arch egalitarian section relevant for reform/liberal DACH visitors.
+  Quality requirements: Standard Hochdeutsch; YAML double-quotes; /de/* prefix only for confirmed
+  existing DE pages; paired-naming (Klagemauer / ha-Kotel / הַכֹּותֶל); Golan political-status
+  note neutral; no fabricated prices/ratings; Dolphin Reef + Yardenit honesty notes.
+  10 new tests (5 smoke + 5 a11y). Builds on DE: 117/396 → 122/396.
 
 ### Attraction catch-up (4 missing per locale)
 - NOT STARTED. Low priority; do after guide catch-up is well underway.
