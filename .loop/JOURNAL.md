@@ -13180,3 +13180,33 @@ git pull --rebase; both FR and DE e2e route sets preserved in smoke.spec.ts + a1
 Ship: pushed as 3debfa00cccbfd052da10298bf691b3417214a35.
 CI: in_progress (run 30524944283, started 2026-07-30T08:00:45Z). Local gate PASS.
 Next: iter 868 → BUILD (868%5==3; tools rotation). Top candidates: tools BACKLOG items.
+
+## 2026-07-30 · iter 868 · BUILD (i18n-DE) · de-phase-8
+What: 5 new German-language guides for DACH market.
+  - /de/bethlehem-travel-guide: Bethlehem Reiseführer — Kontrollpunkt 300 (30–60 Min. Wartezeit),
+    Geburtskirche UNESCO (Renovierungsnote), Krippenplatz/Manger Square, Hirtenfeld, Banksy-Kunstwerke
+    (Walled Off Hotel + Betonsäule + Taube mit Schutzweste), Olivenholz-Handwerk, Al-Andalus
+    Restaurant. Neutral West-Bank-Framing (Westjordanland/Palestinian Territories). 3 CTAs
+    (GYG Bethlehem-Halbtagestour / Viator Bethlehem+Jericho / Abraham dual-narrative). 7 FAQs.
+  - /de/day-trips-from-eilat: Tagesausflüge ab Eilat — Petra via Yitzhak-Rabin-Übergang (5 Optionen
+    Budget-Bus/Direktbus/Einzel-Taxi/Sharing-Van/Geführt + Visa On Arrival 50 JOD), Timna-Park
+    Salomonische Pfeiler/Pilzfels/antike Kupferminen, Roter Canyon 30-Min.-Schlucht, Coral Beach
+    Unterwasser-Observatorium, Glasbodenboot, Dolphin Reef, Aqaba-Shopping. priceFrom/rating/reviews
+    aus EN-Source übernommen. 3 CTAs (GYG/Viator/Booking). 7 FAQs.
+  - /de/dead-sea-day-trip-comparison: Totes Meer Vergleich — Vergleichstabelle Jerusalem vs. Tel Aviv
+    (Fahrzeit 45 Min. vs. 90 Min., Kosten, Shabbat-Einschränkungen), Masada-Kombi Empfehlung,
+    Selbstfahrer-Routen (Be'er Sheva Umgehung, Egged 486), Ein Gedi Strand dauerhaft geschlossen
+    (Dolinen-Einsturzgefahr). 3 CTAs (GYG/Viator/Booking). 7 FAQs.
+  - /de/eilat-hotels-guide: Hotels in Eilat — 3 Zonen (Nordstrand ruhig, Coral Beach Süd
+    Tauchgründe, Stadtzentrum günstig), Budget/Mittelklasse/Luxus-Tier, Airport City 2026 neue
+    Eröffnungen (erste Bewertungen fehlen noch), Isrotel Princess dauerhaft geschlossen Juli 2026,
+    Saisonale Preistabelle. 3 CTAs (Booking/GYG/Viator). 7 FAQs.
+  - /de/best-hotels-tiberias: Beste Hotels Tiberias — Scots Hotel 5-Sterne Church-of-Scotland-
+    Erbe (Weinkellerrestaurant), U Boutique Kinneret (Instagram-tauglich, Dachpool), Nof Ginosar
+    Kibbutz (Jesus-Boot-Museum, ₪100 Eintritt inbegriffen), Leonardo Club Tiberias (All-Inclusive
+    Familien), Ein Gev Kibbutz Resort (Ostseite Bergsee-Blick, Fischerboote), Budget-Optionen,
+    Entscheidungsmatrix. 3 CTAs (Booking/GYG/Viator). 7 FAQs.
+Gate: pnpm check 0 errors; pnpm build 1112 pages (+10); pnpm test:e2e 1517/1517 pass (10.2m).
+Ship: committed directly on master 3f8807e4; pushed.
+CI: pushed to origin/master; Vercel auto-deploy triggered.
+DE guides: 122→127/396. Next: iter 869 → REVIEW (869%5==4).

@@ -18,7 +18,7 @@
 **Gaps to close:**
 - es guides: **311 missing** (85/396 done — Phase ES-16 SHIPPED iter862; **Phase ES-17 TBD**)
 - fr guides: **269 missing** (127/396 done — Phase FR-8 SHIPPED iter866-b; **Phase FR-9 TBD**)
-- de guides: **274 missing** (122/396 done — Phase DE-7 SHIPPED iter867 3debfa00; **Phase DE-8 TBD**)
+- de guides: **269 missing** (127/396 done — Phase DE-8 SHIPPED iter868 3f8807e4; **Phase DE-9 TBD**)
 - fr/de/es attractions: **4 missing each** (the 4 EN attractions added after Phase 4)
 
 **Dead Sea cluster status (iter855 audit):**
