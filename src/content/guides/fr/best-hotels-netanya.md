@@ -1,6 +1,6 @@
 ---
 title: "Meilleurs hôtels à Netanya 2026 : falaises et bord de mer"
-description: "Meilleurs hôtels à Netanya par secteur : établissements avec vue sur mer en bord de falaise, pensions de plage et complexes all-inclusive sur la côte israélienne."
+description: "Meilleurs hôtels à Netanya : falaise avec vue sur mer, complexes all-inclusive et pensions de plage sur la côte méditerranéenne."
 heroImage: /images/regions/tel-aviv/beaches.jpg
 category: Accommodation
 updatedAt: 2026-07-30

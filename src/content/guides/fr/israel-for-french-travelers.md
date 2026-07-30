@@ -1,5 +1,5 @@
 ---
-title: "Israël pour les voyageurs français : vols, ETA-IL, conseils pratiques (2026)"
+title: "Israël pour les Français : ETA-IL, vols et conseils 2026"
 description: "France vers Israël : obligation ETA-IL, vols Air France et Transavia, lacunes d'assurance santé (carte vitale non valide), adaptateurs et conseils pratiques."
 heroImage: /images/regions/jerusalem/hero.jpg
 category: Planning

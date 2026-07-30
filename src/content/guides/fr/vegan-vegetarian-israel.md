@@ -1,6 +1,6 @@
 ---
-title: "Guide végétalien et végétarien en Israël : Tel Aviv et au-delà (2026)"
-description: "Israël est l'une des meilleures destinations mondiales pour les végétaliens et végétariens. Guide de la cuisine végétale à Tel Aviv, Jérusalem et Haïfa, avec conseils sur le système kasher."
+title: "Végétalien en Israël : Tel Aviv, Jérusalem, Haïfa (2026)"
+description: "Guide de la cuisine végétale en Israël : restaurants à Tel Aviv, Jérusalem et Haïfa, plats du Moyen-Orient et navigation dans le système casher."
 heroImage: /images/sub-destinations/tel-aviv/carmel-market.jpg
 category: "Food & Drink"
 updatedAt: 2026-07-30

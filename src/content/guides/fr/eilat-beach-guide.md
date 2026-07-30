@@ -1,6 +1,6 @@
 ---
 title: "Guide des plages d'Eilat : Plage Nord vs Plage de Corail 2026"
-description: "Comparez les plages d'Eilat — la Plage Nord, la Réserve naturelle de la Plage de Corail, la Plage Almog et le Dolphin Reef — pour choisir la bonne selon vos envies."
+description: "Guide des plages d'Eilat : Plage Nord, Réserve de la Plage de Corail, Plage Almog et Dolphin Reef — pour choisir selon vos envies."
 heroImage: /images/regions/eilat/coral-beach.jpg
 category: Activities
 updatedAt: 2026-07-30
