@@ -1,6 +1,6 @@
 ---
 title: "Israel, Jordania y Egipto: Itinerario de 3 Países (2026–2027)"
-description: "Planifica tu viaje por Israel, Jordania y Egipto: rutas, pasos fronterizos, marcos de 10 y 14 días y notas logísticas honestas para el Gran Tour del Medio Oriente."
+description: "Planifica tu viaje por Israel, Jordania y Egipto: rutas, pasos fronterizos, marcos de 10 y 14 días y logística honesta para el Gran Tour del Medio Oriente."
 heroImage: /images/regions/eilat/hero.jpg
 category: Itinerary
 updatedAt: 2026-07-30

@@ -1,6 +1,6 @@
 ---
 title: "Mejores Hoteles en Nazaret 2026: Dónde Alojarse"
-description: "Hoteles en Nazaret: Rimonim cerca de la Basílica, Hermanas de Nazaret (arqueología del siglo I bajo tus pies), posadas boutique en la Ciudad Antigua y opciones económicas."
+description: "Hoteles en Nazaret: Rimonim cerca de la Basílica, Hermanas de Nazaret (arqueología del siglo I), posadas boutique en la Ciudad Antigua y opciones económicas."
 heroImage: /images/regions/nazareth/hero.jpg
 category: Accommodation
 updatedAt: 2026-07-30
