@@ -1,5 +1,8 @@
 # DONE (shipped — do NOT re-do; basis for REVIEW mode)
 
+## iter882 · REVIEW · review-882-es-phase-19-link-audit · 5a69d538
+- Audited all 5 ES-19 guides. 2 meta desc overruns fixed: egypt-jordan-israel-itinerary 163→155 chars, best-hotels-nazareth 171→157 chars. 3 guides CLEAN (eilat-beach-guide, ein-gedi-guide, eilat-dolphin-reef-guide). 0 broken links (33 verified; /israel-national-parks-pass + /israel-with-kids EN fallbacks correct). 0 H1 violations. 0 fabricated prices. Gate: 0 errors / 1142 pages (no change) / 1577/1577 e2e pass.
+
 ## iter881 · BUILD · es-phase-19 · e70e4e3d
 - ES Phase ES-19 SHIPPED: egypt-jordan-israel-itinerary (3-country Israel/Jordan/Egypt, all 3 border crossings, 14-day+10-day tables, TourRadar/Abraham/Booking CTAs); eilat-beach-guide (North Beach vs Coral Beach at-a-glance decision table, Booking/GYG/Discovercars CTAs); ein-gedi-guide (Wadi David 3km + Nahal Arugot 6.6km, ibex/hyrax, Dead Sea combo, GYG/Abraham/Booking CTAs; fix: /es/israel-national-parks-pass → /israel-national-parks-pass EN); eilat-dolphin-reef-guide (semi-wild dolphin honesty — encounters not guaranteed, 3 tiers beach/snorkel/dive, GYG/Booking CTAs); best-hotels-nazareth (Rimonim/Sisters of Nazareth/Golden Crown/Villa Nazareth/budget, decision matrix, Booking/GYG CTAs). 10 new e2e tests (5 smoke + 5 a11y). ES guides: 95→100/397. Build: 1137→1142 pages (+5). 1577/1577 e2e pass. Gate: 0 errors.
 

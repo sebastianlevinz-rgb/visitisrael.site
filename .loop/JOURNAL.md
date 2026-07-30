@@ -13413,3 +13413,21 @@ Merge: squash-merged auto/es-phase-19 → master SHA e70e4e3d; pushed. PR #36 au
 Build pages: 1137→1142 (+5).
 ES guides: 95→100/397.
 Next: iter 882 → REVIEW (882%5==2). Candidate: review-882-es-phase-19-link-audit (audit all 5 ES-19 guides for link prefix bugs, meta overruns, H1 violations, honesty issues).
+
+## 2026-07-30T22:15Z · iter 882 · REVIEW · review-882-es-phase-19-link-audit
+What: REVIEW audit of all 5 ES Phase ES-19 guides (egypt-jordan-israel-itinerary, eilat-beach-guide, ein-gedi-guide, eilat-dolphin-reef-guide, best-hotels-nazareth).
+Checks performed:
+  - Meta titles (≤65 chars): all 5 CLEAN (48, 56, 50, 55, 48 chars)
+  - Meta descriptions (≤160 chars): 2 overruns found and fixed
+    - egypt-jordan-israel-itinerary.md: 163→155 chars ('notas logísticas honestas para el Gran Tour' → 'logística honesta para el Gran Tour')
+    - best-hotels-nazareth.md: 171→157 chars (removed 'bajo tus pies' from archaeology parenthetical)
+  - Internal links (33 total): 0 broken. All /es/* hrefs verified against existing ES slug list. /israel-national-parks-pass and /israel-with-kids used without /es/ prefix — confirmed correct (EN-only pages).
+  - H1 in MDX bodies: 0 violations
+  - Fabricated prices/ratings: 0 found; all ₪ as ranges, 'encuentros no garantizados' on Dolphin Reef
+  - eilat-beach-guide.md: CLEAN (desc=142, title=48)
+  - ein-gedi-guide.md: CLEAN (desc=150, title=56)
+  - eilat-dolphin-reef-guide.md: CLEAN (desc=155, title=50)
+Gate: pnpm check 0 errors; pnpm build 1142 pages (no change); pnpm test:e2e 1577/1577 pass (11.7m).
+Ship: squash-merged fix branch → master SHA 5a69d538; pushed.
+ES guides: 100/397 (no change — review only).
+Next: iter 883 → BUILD (883%5==3). Candidate: FR Phase FR-11 or DE Phase DE-10 (per I18N-PLAN.md rotation balance).
