@@ -13072,3 +13072,20 @@ Gate: pnpm check 0 errors; pnpm build 1086→1091 pages (+5); pnpm test:e2e 1475
 Ship: commit cfe8ffd1 merged to master; pushed.
 Prod: CI + Lighthouse in-progress at push time (2026-07-30T02:10Z); prior commit ecbd4f0b confirmed CI+Lighthouse success.
 Next: iter 863 → BUILD (863%5==3); tools rotation. Top BUILD candidates: FR Phase FR-8 P1/M, DE Phase DE-6 P1/M, transport cost estimator tool P2/S, Eilat vs Sharm seo-content P2/M.
+
+## 2026-07-30 · iter 863 · BUILD (i18n-DE) · de-phase-6
+Mode: BUILD (863%5==3); tools rotation → no tools items ready → fell through to next P1 i18n item.
+Item: de-phase-6 — 5 German guides for DACH Christmas pilgrimage + cycling culture + Dead Sea cluster.
+
+What shipped (commit eda39a8a):
+1. christmas-in-israel.md (/de/): "Weihnachten in Israel" — 3 Weihnachtsfeste (kath./prot. 24.–25. Dez.; orthodox 6.–7. Jan.; armenisch 18.–19. Jan.); Mitternachtsmesse Geburtskirche (Kartennummer von Frà Custode; Sicherheitsprüfung 20:00, Messe 00:00); Checkpoint 300 Logistik; Nazareth Weihnachtsmarkt (Arabisch-christliches Fest, größte Feier in Israel); Heilig-Grab-Kirche Jerusalem an Weihnachten; Tel Aviv Silvesteralternativen; Winter-Reisevorteile (kürzere Schlangen, Wetterstimmung).
+2. church-of-nativity-guide.md (/de/): "Geburtskirche Bethlehem" — Demutspforte (Erniedrigung auf 1,2m; historische Schutzfunktion); Hauptbasilika (44 justinianische Säulen, Mosaikbodenfenster); Geburtsgrotte (Silber-Geburtstern 14-strahlig + Krippe gegenüber); Konfessionskarte Status Quo 6 Konfessionen (Griechisch-Orthodox Hauptzugang/Grotte; Lat. Franziskaner Rechtsschiff; Armenisch-Apostolisch Linksschiff; Kopten/Syrische/Äthiopier Nebenräume); Katharinenkirche + Hieronymus-Höhle Zugang; Kleiderordnung; West-Bank-neutral von EN übernommen.
+3. cycling-in-israel.md (/de/): "Fahrradfahren in Israel" — Tel Aviv 150km+ separate Radwege, flach, dichte Infrastruktur; Tel-O-Fun 4 Schritte (registrieren/einloggen/Rad wählen/abstellen); 4 Hauptrouten (Tayelet Strandpromenade 6km, Yarkon-Park 14km, Weiße Stadt Loop 8km Bauhaus, Tayelet bis Jaffa 11km); Praktische Tipps (Schloss, Hitze/früh morgens, Vorfahrtsrecht Autos, E-Bikes Anbieter); Anderswo in Israel (Kinneret-Rundfahrt 62km, Golan geteerte Radwege, Negev MTB Ben-Gurion-Pfad, Yahel-Timna Singletrack 2026 in Planung, Israel Bike Trail IBT 1200km).
+4. dead-sea-hotels-guide.md (/de/): "Totes Meer Hotels" — Ein-Bokek-Resort-Meile 15 Hotels / 3,5km Strandfront; Ein Gedi Kibbuz ₪480–600 Preisbereich (Alternative); Mittelklasse ₪700–1.400 (Isrotel Ganim, Lot Spa, Leonardo Plaza); Luxus ₪1.400+ (David Dead Sea Resort, Herods Dead Sea, Isrotel Dead Sea Hotel); 12-Monats-Saisonpreistabelle; Bus 486 Tagesausflug-Alternative; alle Preise als ₪-Bereiche, keine erfundenen Bewertungen.
+5. dead-sea-vs-eilat.md (/de/): "Totes Meer oder Eilat?" — 8-Kriterien-Vergleichstabelle (Hauptattraktion/Wassertyp/Kombination/Distanz Jerusalem+Tel Aviv/Familie/Spa/Steuer/Petra); "Totes Meer wählen, wenn…" / "Eilat wählen, wenn…" narrative; 5-Tage-Südschleife (Masada Tag1/Totes Meer+Ein Gedi Tag2/Qumran+Arava+Timna Tag3/Eilat-Koralle Tag4/Rückreise Tag5); ehrliche Dolphin-Reef-Note ("Begegnungen nicht garantiert — die Delfine interagieren nach eigenen Bedingungen, keine Dressurshow").
+
+Fix: 3 broken internal links found by links.spec.ts and fixed before merge: /de/bethlehem-travel-guide, /de/eilat-hotels-guide, /de/eilat-vs-aqaba all fell back to EN pages (DE versions don't yet exist).
+
+Gate: pnpm check 0 errors; pnpm build 1091→1096 pages (+5); pnpm test:e2e 1485/1485 pass (12.0m). All gates GREEN.
+Ship: squash-merged eda39a8a to master; pushed. PR #34 auto/de-phase-6 → master (draft, CI passing).
+Next: iter 864 → REVIEW (864%5==4). Top REVIEW candidates: DE Phase DE-6 link audit, FR Phase FR-8 P1/M.

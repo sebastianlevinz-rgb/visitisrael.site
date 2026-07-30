@@ -12,13 +12,13 @@
 |--------|--------|-------------|---------|-------------|
 | en     | 396    | 65          | 11      | 6           |
 | fr     | 122    | 61          | 11      | 6           |
-| de     | 112    | 61          | 11      | 6           |
+| de     | 117    | 61          | 11      | 6           |
 | es     | 80     | 61          | 11      | 6           |
 
 **Gaps to close:**
 - es guides: **316 missing** (80/396 done — Phase ES-15 SHIPPED iter856; **Phase ES-16 DEFINED iter860** — ready)
 - fr guides: **274 missing** (122/396 done — Phase FR-7 SHIPPED iter858; **Phase FR-8 DEFINED iter860** — ready)
-- de guides: **284 missing** (112/396 done — Phase DE-5 SHIPPED iter853; Phase DE-6 DEFINED iter855 — ready)
+- de guides: **279 missing** (117/396 done — Phase DE-6 SHIPPED iter863; Phase DE-7 TBD)
 - fr/de/es attractions: **4 missing each** (the 4 EN attractions added after Phase 4)
 
 **Dead Sea cluster status (iter855 audit):**
@@ -376,35 +376,14 @@ Take the top 5 by priority (or head -5 if priority not obvious), translate each 
   aqaba-from-eilat: Yitzhak-Rabin-/Wadi-Araba-Übergang; Japanese Garden snorkeling;
   al-Aqabah-Burg; GYG/Booking/Discovercars CTAs.
   DE guides: 107→112/396. Build: 1071→1076 pages. 1435→1445 e2e pass.
-- Phase DE-6 — DEFINED iter855 (173rd research pass). Next DE batch:
+- Phase DE-6 — SHIPPED iter863 eda39a8a.
   christmas-in-israel, church-of-nativity-guide, cycling-in-israel,
   dead-sea-hotels-guide, dead-sea-vs-eilat.
-  Rationale: (1) christmas-in-israel: "Weihnachten in Israel / Bethlehem und Nazareth" = DACH
-  Christmas pilgrimage market; Mitternachtsmesse Geburtskirche + Weihnachtsmarkt Nazareth +
-  Heiligabend Jerusalem; pairs with DE bethlehem-tours-compared (already shipped) + upcoming
-  church-of-nativity-guide (DE-6 #2); high winter travel affiliate value; Weihnachten 2026/2027
-  dates; DACH pilgrimage operators (Eberhardt, Studiosus, Sonnenklar) all run Christmas Israel tours;
-  (2) church-of-nativity-guide: "Geburtskirche Bethlehem Besucherführer" / "Tür der Demut" +
-  Geburtsgrotte-Warteschlange-Tipps + Denomination-Karte + UNESCO Weltkulturerbe;
-  Status Quo sechs-Denomination-Framing (Greek Orthodox + Roman Catholic/Franciscan + Armenian
-  Apostolic + Coptic + Syriac + Ethiopian); West Bank neutral framing from EN; pairs with
-  christmas-in-israel (DE-6 #1) + existing DE bethlehem-tours-compared;
-  (3) cycling-in-israel: "Fahrradfahren in Israel / Tel Aviv Fahrrad" = Germany/Austria/Switzerland
-  top European cycling markets; Tel-O-Fun bike share + 150km Radwege Tel Aviv = unique in region;
-  Israel National Cycling Trail (Shvil HaOfanim) = long-distance trail interests DACH hikers;
-  "Radtour Israel" = zero confirmed DE specialist editorial; pairs with existing DE
-  3-days-in-tel-aviv + eilat-travel-guide;
-  (4) dead-sea-hotels-guide: "Hotels am Toten Meer / Unterkunft Ein Bokek" completes DE Dead Sea
-  accommodation cluster (have dead-sea-guide + dead-sea-israel-vs-jordan + dead-sea-medical-tourism);
-  Ein-Bokek-Hotelstrip 3-Tier-Vergleich (Luxus/Mittelklasse/Budget + Alternativstandort Qumran);
-  "Hotels Totes Meer" top DACH accommodation query; Booking.com affiliate;
-  (5) dead-sea-vs-eilat: "Totes Meer oder Eilat?" = classic DACH southern Israel decision question;
-  comparison/decision format matches DACH information-seeking style; Mer Morte/Schwimmen vs.
-  Rotes Meer/Schnorcheln/Tauchen verdict; pairs with completed Dead Sea cluster + existing
-  DE eilat guides (3-days-in-eilat, eilat-diving-snorkeling).
-  Standard Hochdeutsch; YAML double-quotes; /de/* prefix for confirmed existing DE pages only;
-  paired-naming on contested sites; no fabricated prices. 10 new tests (5 smoke + 5 a11y).
-  Status: ready — pick in next DE BUILD iteration.
+  Standard Hochdeutsch; YAML double-quotes; 3 broken links fixed to EN fallbacks
+  (/de/bethlehem-travel-guide, /de/eilat-hotels-guide, /de/eilat-vs-aqaba → EN);
+  West Bank neutral framing; Dolphin Reef "Begegnungen nicht garantiert" honesty note;
+  paired-naming on contested sites; no fabricated prices.
+  DE guides: 112→117/396. Build: 1091→1096 pages. 1485/1485 e2e pass.
 
 ### Attraction catch-up (4 missing per locale)
 - NOT STARTED. Low priority; do after guide catch-up is well underway.

@@ -1,5 +1,8 @@
 # DONE (shipped — do NOT re-do; basis for REVIEW mode)
 
+## iter863 · BUILD · de-phase-6 · eda39a8a
+- DE Phase DE-6 SHIPPED: christmas-in-israel, church-of-nativity-guide, cycling-in-israel, dead-sea-hotels-guide, dead-sea-vs-eilat. Standard Hochdeutsch; YAML double-quotes; 3 broken links fixed to EN fallbacks (/de/bethlehem-travel-guide, /de/eilat-hotels-guide, /de/eilat-vs-aqaba → EN); West Bank neutral framing; no fabricated prices; Dolphin Reef "Begegnungen nicht garantiert" honesty note. DE guides: 112→117/396. Build: 1091→1096 pages. 1485/1485 e2e pass (12.0m).
+
 ## iter862 · BUILD · es-phase-16 · cfe8ffd1
 - ES Phase ES-16 SHIPPED: yad-vashem-visitor-guide, western-wall-guide, golan-heights-guide, galilee-tours-compared, tiberias-guide. Neutral LATAM Spanish tuteo; YAML double-quotes; paired-naming "Muro de los Lamentos (Kotel / הַכּוֹתֶל הַמַּעֲרָבִי)"; Golan Heights neutral political-status note (Israeli administration 1967; US recognition 2019; UN position occupied Syrian territory; Druze Syrian citizenship); Yad Vashem pre-registration requirement honest caveat; Nimrod Fortress correctly identified as Ayyubid (not Crusader); Jesus Boat "no se afirma que sea una embarcación que Jesús usara"; /es/ prefix only for confirmed existing ES pages; no fabricated prices. 10 new tests (5 smoke + 5 a11y). ES guides: 80→85/396. Build: 1086→1091 pages. 1475/1475 e2e pass (11.8m).
 

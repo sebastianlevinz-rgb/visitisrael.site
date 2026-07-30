@@ -1,13 +1,15 @@
 # LOOP STATE
 
-- iteration: 862
+- iteration: 863
 - lastMode: BUILD
-- lastItem: es-phase-16
-- lastResult: BUILD iter862 — ES Phase ES-16 SHIPPED cfe8ffd1. 5 ES guides: yad-vashem-visitor-guide (gratuito + registro obligatorio; 10 galerías; Memorial Niños; Avenida Justos; Sala Nombres; tren ligero Monte Herzl), western-wall-guide (Kotel/הַכּוֹתֶל הַמַּעֲרָבִי paired naming; 24h gratuito; secciones masculina/femenina/Robinson; papelitos; Kabalat Shabat; Birkat Kohanim), golan-heights-guide (Altos del Golán: Monte Bental + Banias + Nimrod + Druze + bodegas Yarden/Gamla/Golán; nota política neutral — administración israelí 1967, EEUU 2019, ONU territorio sirio ocupado), galilee-tours-compared (6-format table $65–400; cómo elegir por perfil), tiberias-guide (Hamat zodíaco s.IV; Barco Jesús Ginosar; Tayelet; excursiones). LATAM tuteo; YAML double-quotes; /es/* links verified; paired-naming; no fabricated prices. +10 tests. Gate: pnpm check 0 errors; build 1086→1091 pages; 1475/1475 e2e pass (11.8m). Prod: CI+Lighthouse in_progress at push time.
-- nextRotationCategory: tools (863%5==3 → BUILD; tools rotation)
+- lastItem: de-phase-6
+- lastResult: BUILD iter863 — DE Phase DE-6 SHIPPED eda39a8a. 5 DE guides: christmas-in-israel (drei Weihnachtsfeste kath/orth/armenisch; Mitternachtsmesse Geburtskirche; Checkpoint 300; Nazareth Weihnachtsmarkt; Heilig-Grab Jerusalem; Winterreisevorteile), church-of-nativity-guide (Demutspforte; Geburtsgrotte + Geburtstern; Konfessionskarte Status Quo 6 Konfessionen; Katharinenkirche + Hieronymus-Höhle; Kleiderordnung; West-Bank-neutral von EN), cycling-in-israel (Tel Aviv 150km+ Radwege; Tel-O-Fun 4 Schritte; 4 Hauptrouten Tayelet/Yarkon/Weiße Stadt/Jaffa; Kinneret/Golan/Negev MTB/Yahel-Timna 2026/IBT), dead-sea-hotels-guide (Ein-Bokek-Resort-Meile 3 Tiers ₪-Bereiche; Ein Gedi Kibbuz ₪480-600; Saisonpreistabelle 12 Monate; Bus 486 Tagesausflug), dead-sea-vs-eilat (8-Kriterien-Tabelle; Wähle Totes Meer/Eilat wenn; 5-Tage-Südschleife; ehrliche Dolphin-Reef-Note). Standard Hochdeutsch; YAML double-quotes; /de/* only confirmed existing; 3 broken links fixed (bethlehem-travel-guide/eilat-hotels-guide/eilat-vs-aqaba → EN fallbacks). +10 tests (5 smoke + 5 a11y). Gate: pnpm check 0 errors; build 1091→1096 pages; 1485/1485 e2e pass (12.0m).
+- nextRotationCategory: REVIEW (864%5==4)
 - higgsfieldSpent: 0
-- updatedAt: 2026-07-30T02:10Z
+- updatedAt: 2026-07-30T03:10Z
 - branch context: work on master; feature work on auto/<slug>
+
+Notes: iter863 BUILD — DE Phase DE-6 SHIPPED eda39a8a. 5 DE guides christmas-in-israel, church-of-nativity-guide, cycling-in-israel, dead-sea-hotels-guide, dead-sea-vs-eilat. 3 broken links fixed to EN fallbacks. DE guides: 112→117/396. Build: 1091→1096 pages. 1485/1485 e2e pass.
 
 Notes: iter857 BUILD — P0 honesty fix SHIPPED 9a7bea65. Removed false 'reopened 2025-2026' claim for Isrotel Princess from EN/ES/FR eilat-hotels-guide.md (3 files). Hotel confirmed closed July 2026; Airport City future revival announced but no reopening date. Gate: 0 errors; 1081 pages; 1455/1455 e2e pass.
 
