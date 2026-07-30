@@ -1,13 +1,15 @@
 # LOOP STATE
 
-- iteration: 874
-- lastMode: REVIEW
-- lastItem: review-874-fr-phase-9-link-audit
-- lastResult: REVIEW iter874 SHIPPED 1c463419. Audited all 5 FR Phase FR-9 guides. 5 meta overruns fixed across 4 files (vegan: title 75->61 + desc 200->151; french-travelers: title 78->58; netanya-hotels: desc 167->133; eilat-beach: desc 169->133). bethlehem-travel-guide CLEAN. All 27 internal links /fr/ prefixed + confirmed existing. No H1 violations. Honesty ✓. Build: 1122 pages (no change). 1537/1537 e2e pass (14.9m). CI in_progress (runs 30553793409 + 30553793478).
-- nextRotationCategory: RESEARCH (875%5==0)
+- iteration: 875
+- lastMode: RESEARCH
+- lastItem: research-875-fr10-es18-freshness
+- lastResult: RESEARCH iter875 177th pass. DE-9 confirmed ready (all 5 missing from DE). FR-10 defined (masada-visitor-guide, haifa-travel-guide, galilee-christian-sites-circuit, day-trips-from-eilat, birdwatching-in-israel). ES-18 defined (sea-of-galilee-guide, netanya-guide, best-hotels-negev, best-hotels-netanya, passover-in-israel). Gordonia Zichron Yaakov opened Feb 1, 2026 (BACKLOG P3→P2 corrected). easyJet guide accurate. InterContinental Jerusalem still pre-open. No code changes.
+- nextRotationCategory: BUILD (876%5==1)
 - higgsfieldSpent: 0
-- updatedAt: 2026-07-30T15:10Z
+- updatedAt: 2026-07-30T15:45Z
 - branch context: work on master; feature work on auto/<slug>
+
+Notes: iter875 RESEARCH — 177th research pass. FR-10 + ES-18 defined in I18N-PLAN.md + BACKLOG. Gordonia Zichron Yaakov freshness item upgraded P3→P2 with confirmed Feb 1 2026 opening date. No shipping.
 
 Notes: iter874 REVIEW — review-874-fr-phase-9-link-audit SHIPPED 1c463419. Audited all 5 FR Phase FR-9 guides. 5 meta overruns fixed in 4 files. bethlehem-travel-guide CLEAN. Gate: 0 errors; 1122 pages; 1537/1537 e2e pass. CI in_progress.
 

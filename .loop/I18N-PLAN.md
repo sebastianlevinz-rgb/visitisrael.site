@@ -435,3 +435,34 @@ Guides: `ashdod-cruise-port-excursions.md`, `best-hotels-sea-of-galilee.md`, `ve
 - israel-for-german-travelers: specific airport protocols + direct flights; historical sensitivity handled; EN exists; zero SERP
 - best-hotels-negev: DACH eco-tourism; Beresheet + Mitzpe Ramon; pairs with de/3-days-in-negev
 Quality: Standard Hochdeutsch; YAML double-quotes; /de/* prefix confirmed-existing pages only; no fabricated prices.
+
+### Phase FR-10 (132 → 137/397) — ready
+Guides: `masada-visitor-guide.md`, `haifa-travel-guide.md`, `galilee-christian-sites-circuit.md`, `day-trips-from-eilat.md`, `birdwatching-in-israel.md`
+- masada-visitor-guide: "Masada guide français" zero FR editorial confirmed; France = #3 Israel tourism source; most iconic Israeli landmark; 3 ascent methods (cable car/snake path/Roman ramp side); Sound & Light show Tue+Thu Mar–Oct; pairs with FR dead-sea cluster (dead-sea-guide, dead-sea-tours-compared, dead-sea-hotels-guide, dead-sea-day-trip-comparison all shipped) + bethlehem-tours-compared; high GYG/Viator affiliate value
+- haifa-travel-guide: FR cluster has 3-days-in-haifa + best-hotels-haifa + bahai-world-center-guide + day-trips-from-haifa but MISSING the city anchor guide; "Haïfa guide complet / guide de voyage Haïfa"; would anchor the full FR Haifa cluster; Carmel + Bahá'í terrasses + marché Wadi Nisnas + Deutsche Kolonie + téléphérique du Carmel + port
+- galilee-christian-sites-circuit: "Circuit chrétien Galilée" zero FR editorial confirmed; exists in ES (Phase ES-15, iter856); France strong Catholic pilgrim market; Capernaum/Tabgha/Mont des Béatitudes/Magdala/Yardenit self-drive circuit; pairs with FR sea-of-galilee-guide + 3-days-in-galilee + best-hotels-sea-of-galilee already shipped
+- day-trips-from-eilat: "Excursions depuis Eilat" / "Excursion Pétra depuis Eilat" zero FR editorial confirmed; Petra day trip, Timna Park, Ravin Rouge, Aqaba day trip; Eilat cluster completer (FR has eilat-travel-guide + eilat-beach-guide + eilat-hotels-guide + eilat-diving-snorkeling + aqaba-from-eilat); pairs with FR eilat-travel-guide for excursion cross-links
+- birdwatching-in-israel: France = LPO (Ligue pour la Protection des Oiseaux, ~45K members, one of Europe's largest bird protection organizations); "ornithologie Israël" / "observation oiseaux Israël" zero FR editorial confirmed; Israel's tri-continental Afro-Eurasian flyway + Eilat IBRCE + Hula Valley = world-class sites; exists in EN + ES (Phase ES-12, iter841); ecotourism/nature market growing in France
+Quality: metropolitan French; YAML double-quotes; /fr/* prefix confirmed-existing pages only; no fabricated prices.
+
+### Phase ES-18 (90 → 95/397) — ready
+Guides: `sea-of-galilee-guide.md`, `netanya-guide.md`, `best-hotels-negev.md`, `best-hotels-netanya.md`, `passover-in-israel.md`
+- sea-of-galilee-guide: "Mar de Galilea guía" / "Lago Kinneret Israel" MISSING from ES confirmed; LATAM pilgrimage base; already have best-hotels-sea-of-galilee (ES-15) + galilee-christian-sites-circuit (ES-15) + best-hotels-tiberias (ES-14) but missing the main lake overview guide; Kinneret boat + Capernaum + Tabgha + Yardenit + 4 shores + baptism site logistics; anchors the FR Galilee cluster
+- netanya-guide: "Netanya guía de viaje" / "playa Netanya Israel" MISSING from ES confirmed; Mediterranean beach city on Israeli coast; pairs with best-hotels-netanya (also in this batch); connects LATAM family beach tourism to Israel's most accessible Mediterranean coast north of TLV; train from BGA 45min
+- best-hotels-negev.md: "Hoteles Néguev / Mitzpe Ramon" MISSING from ES confirmed; LATAM eco-tourism + desert adventure; pairs with ES 3-days-in-negev (Phase ES-3) + cycling-in-israel (Phase ES-15); Gordonia Zichron Yaakov excluded (not Negev); Beresheet Desert hotel + Mitzpe Ramon alternatives + Ramon Crater glamping; Booking.com affiliate
+- best-hotels-netanya.md: MISSING from ES confirmed; pairs with netanya-guide; Mediterranean beach hotels 3 tiers; Seasons Hotel + Leonardo Club all-inclusive + Ramada + budget pensions; Booking.com affiliate; French school holiday peaks note (Netanya francophone community context lite)
+- passover-in-israel.md: "Pesaj en Israel" / "Pascua judía Israel" MISSING from ES confirmed; LATAM Jewish diaspora (Argentina ~180K Jewish community, Brazil ~95K, Mexico ~40K, Colombia ~6K, Uruguay ~18K) = very high reader relevance; also serves Catholic LATAM awareness of Jewish holy days; zero ES editorial competitor; Pessah 5787 = April 22–29 2027; what's open/closed guide; Jerusalem Old City crowds; seder for tourists; airport/transport logistics; pairs with existing ES christmas-in-israel; seasonal with strong evergreen value
+Quality: neutral LATAM Spanish tuteo; YAML double-quotes; /es/* prefix confirmed-existing pages only; no fabricated prices; Pessah dates verified.
+
+---
+
+## Updated status snapshot (iter875 RESEARCH 2026-07-30)
+
+| Locale | Guides | Note |
+|--------|--------|------|
+| en     | 397    | stable |
+| fr     | 132    | 265 missing — Phase FR-9 SHIPPED iter873; **Phase FR-10 defined iter875** |
+| de     | 127    | 270 missing — Phase DE-9 defined iter870; **all 5 confirmed missing** |
+| es     | 90     | 307 missing — Phase ES-17 SHIPPED iter871; **Phase ES-18 defined iter875** |
+
+**Freshness (iter875):** Gordonia Zichron Yaakov confirmed opened February 1, 2026 (141 rooms, 81m infinity pool, adults 10+, Gordonia Hotels brand). BACKLOG Gordonia item upgraded P3→P2 with confirmed date. InterContinental Jerusalem: still "late summer 2026" per IHG listing; check August/September 2026. easyJet TLV: guide correctly shows suspended/late-October-2026 due to Operation Rising Lion (Iran conflict June 2026).

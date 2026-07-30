@@ -6839,3 +6839,19 @@ Sources: reisefroh.de, viel-unterwegs.de, lonelyplanet.de, aldi-reisen.de/reisef
 - 17 luxury hotel openings summer 2026 (Dizengoff 99, The Yacht Herzliya, Gordonia Zichron Yaakov, InterContinental Jerusalem TBD) → new-luxury-hotels guide updated 2026-07-25 covers most; Gordonia in BACKLOG P3.
 - Eastern Railway (Sharon/Samaria corridor) opening in stages 2026 → primarily suburban; not tourist-facing; not worth a guide.
 - Biblical Highway (Route 60 Derech HaTanach, inaugurated June 18, 2026) → guide SHIPPED iter668.
+
+### 2026-07-30 · iter 875 · 177th research pass · freshness + i18n gap audit
+
+**Sources consulted:** ynetnews.com, Jerusalem Post, itn.co.il (Gordonia); airwaysmag.com, timesofisrael.com, ynetnews.com (easyJet); ihg.com, holalatinosnews.com, travelandtourworld.com (InterContinental Jerusalem); travelandtourworld.com, recommend.com (Israel tourism July 2026).
+
+**Freshness findings:**
+- **Gordonia Zichron Yaakov** opened February 1, 2026 (earlier than "summer 2026" estimate). 141 rooms, 81m heated infinity pool, adults 10+ resort. Gordonia Hotels brand. ₪200M investment. Our zichron-yaakov-guide.md + best-hotels-haifa.md have no mention — P2 fix queued.
+- **easyJet TLV**: Our guide is accurate. March 29, 2026 resumption (Luton/Amsterdam/Milan) was announced then cancelled due to "Operation Rising Lion" (Israel–Iran conflict, June 13–25, 2026) — airline delayed to end-October 2026. Guide correctly shows suspended/late-Oct-2026.
+- **InterContinental Jerusalem**: IHG has hotel listed on ihg.com but no confirmed open date as of July 30 2026. "Late summer 2026" framing in our guides remains appropriate. Re-check in August/September 2026.
+
+**i18n gap analysis:**
+- FR: 132/397 done. masada-visitor-guide + haifa-travel-guide + galilee-christian-sites-circuit + day-trips-from-eilat + birdwatching-in-israel = FR-10 batch (all zero FR editorial confirmed).
+- ES: 90/397 done. sea-of-galilee-guide + netanya-guide + best-hotels-negev + best-hotels-netanya + passover-in-israel = ES-18 batch (all zero ES editorial confirmed).
+- DE: 127/397 done. DE-9 batch already defined iter870 — all 5 confirmed missing via comm -23.
+
+**EN saturation**: ~97%+ (177th pass; no new EN-only gaps identified this pass). Next EN opportunity: Gordonia freshness update (P2/S), InterContinental Jerusalem update (P3/S when confirmed open).

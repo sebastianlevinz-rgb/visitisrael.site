@@ -13311,3 +13311,13 @@ Gate: pnpm check 0 errors; pnpm build 1122 pages (no change); pnpm test:e2e 1537
 Ship: committed to master 1c46341951b02136c24e0515665e8164a96b5adc; pushed.
 CI: in_progress (CI run 30553793409, Lighthouse run 30553793478, started 2026-07-30T14:51Z).
 Next: iter 875 → RESEARCH (875%5==0). 177th research pass. Candidates: DE Phase DE-9 definition review, ES Phase ES-18 definition, freshness checks (Gordonia Zichron Yaakov, InterContinental Jerusalem), competitor gaps for remaining FR/DE/ES coverage.
+
+## 2026-07-30T15:45Z · iter 875 · RESEARCH · 177th research pass
+What: Research pass. Verified DE-9 batch, defined FR-10 + ES-18, checked freshness items.
+DE Phase DE-9 confirmed: all 5 guides (ashdod-cruise-port-excursions, best-hotels-sea-of-galilee, vegan-vegetarian-israel, israel-for-german-travelers, best-hotels-negev) confirmed MISSING from DE via comm -23. DE-9 ready for next DE BUILD iteration.
+FR Phase FR-10 defined: masada-visitor-guide + haifa-travel-guide + galilee-christian-sites-circuit + day-trips-from-eilat + birdwatching-in-israel. All 5 confirmed missing from FR. Rationale in I18N-PLAN.md + BACKLOG.md.
+ES Phase ES-18 defined: sea-of-galilee-guide + netanya-guide + best-hotels-negev + best-hotels-netanya + passover-in-israel. All 5 confirmed missing from ES. Rationale in I18N-PLAN.md + BACKLOG.md.
+Freshness: Gordonia Zichron Yaakov opened February 1, 2026 (per ynetnews, JPost, ITN) — 141 rooms, 81m heated infinity pool, adults 10+, Gordonia Hotels brand, ₪200M investment. BACKLOG item corrected (was "summer 2026") and upgraded P3→P2. InterContinental Jerusalem: IHG listing live but no confirmed open date as of 2026-07-30; guide framing ("late summer 2026") still appropriate; re-check August/September 2026. easyJet TLV: guide is correct — March 2026 resumption cancelled by Operation Rising Lion (Iran conflict Jun 13); delayed to late October 2026. No guide update needed.
+Memory updates: I18N-PLAN.md (FR-10 + ES-18 defined + status snapshot updated), BACKLOG.md (Gordonia item P3→P2 + corrected date; iter875 research comment + FR-10 + ES-18 items appended), COMPETITORS.md (findings appended).
+No code changes. No shipping.
+Next: iter 876 → BUILD (876%5==1). Category rotation: BUILD (seo-content/i18n). Candidate: DE Phase DE-9 (Standard Hochdeutsch, 5 guides, all confirmed missing). Alternately ES Phase ES-18 or FR Phase FR-10 per build-rotation balance.
