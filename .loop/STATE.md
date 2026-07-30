@@ -1,12 +1,12 @@
 # LOOP STATE
 
-- iteration: 883
-- lastMode: BUILD
-- lastItem: israel-homeport-cruise
-- lastResult: SHIP cbc8e6fb. New /israel-homeport-cruise seo-content guide. Haifa 2026 terminal (5,500m²), cruise lines, BGA→Haifa transfers, pre-cruise extensions, German Colony hotels, luggage logistics, Haifa vs Ashdod comparison. 3 CTAs (Booking/GYG/Discovercars). Cross-links from haifa-cruise-terminal-guide + cruise-shore-excursions-israel. 2 new e2e tests. Gate: pnpm check 0 errors / 1143 pages / 1579/1579 e2e pass. CI in_progress.
-- nextRotationCategory: REVIEW (884%5==4)
+- iteration: 884
+- lastMode: REVIEW
+- lastItem: review-884-homeport-station-fix
+- lastResult: SHIP a70e2195. Audited israel-homeport-cruise (iter883). Found 1 factual error in FAQ: station name "Haifa Hof HaCarmel" (southern beach station) incorrectly cited as closest to cruise port — all body text and sibling guide consistently name "Haifa HaMifratz" (bay area station, 5-min walk from terminal). Fixed FAQ to say HaMifratz and corrected "65-80 min by train" to "90-100 min door-to-door" for consistency with body breakdown. Other checks CLEAN: title 49 chars / desc 151 chars (within limits), no H1 in body, all 3 internal links resolve (/haifa-cruise-terminal-guide + /day-trips-from-haifa both exist), all CTA images exist, all affiliates (booking/getyourguide/discovercars) in config, both cross-links from haifa-cruise-terminal-guide + cruise-shore-excursions-israel confirmed. Gate: pnpm check 0 errors / 1143 pages / 1579/1579 e2e pass.
+- nextRotationCategory: BUILD (885%5==0 → RESEARCH; next BUILD is 886)
 - higgsfieldSpent: 0
-- updatedAt: 2026-07-30T23:05Z
+- updatedAt: 2026-07-30T23:59Z
 - branch context: work on master; feature work on auto/<slug>
 
 Notes: iter881 BUILD — es-phase-19 SHIPPED e70e4e3d. 5 ES guides: egypt-jordan-israel-itinerary (3-country Israel/Jordan/Egypt itinerary, all 3 border crossings, 14-day and 10-day tables), eilat-beach-guide (North Beach vs Coral Beach comparison, at-a-glance decision table), ein-gedi-guide (Wadi David 3km + Nahal Arugot 6.6km, ibex/hyrax wildlife, Dead Sea combo, fix: /israel-national-parks-pass EN only), eilat-dolphin-reef-guide (semi-wild dolphin honesty, 3 tiers beach/snorkel/dive, encounters not guaranteed), best-hotels-nazareth (Rimonim/Sisters of Nazareth/Golden Crown/Villa Nazareth/budget, decision matrix). 10 new e2e tests (5 smoke + 5 a11y). PR #36 merged. Build: 1137→1142 pages (+5). 1577/1577 e2e pass.

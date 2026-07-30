@@ -1542,3 +1542,4 @@ Audited 5 ES Phase ES-17 guides. Fixed 10 /es/ prefix bugs + 1 title overrun + 4
 
 ## iter874 · REVIEW · review-874-fr-phase-9-link-audit · 1c463419
 - FR Phase FR-9 meta overrun audit SHIPPED: 5 meta fixes across 4 files. bethlehem-travel-guide CLEAN. All 27 links /fr/ prefixed + all referenced FR pages confirmed existing. No H1 violations. Honesty ✓. Gate: 0 errors; 1122 pages (no change); 1537/1537 e2e pass (14.9m).
+- [iter884 review → a70e2195] review-884-homeport-station-fix — Corrected "Haifa Hof HaCarmel" → "Haifa HaMifratz" in israel-homeport-cruise FAQ (wrong station near cruise port); fixed "65-80 min by train" to "90-100 min door-to-door". Guide otherwise CLEAN.
