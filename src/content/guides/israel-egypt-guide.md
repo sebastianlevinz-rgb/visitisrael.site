@@ -151,3 +151,4 @@ Alternatively, use Nuweiba as a pivot — there is a high-speed Red Sea ferry fr
 - [Petra from Israel](/petra-from-israel) — single-day Petra options from Eilat
 - [Visa and entry information for Israel](/visa-information) — ETA-IL, passports, Israeli entry requirements and passport stamp policy
 - [Israel vs Egypt: Which Should You Visit?](/israel-vs-egypt) — if you haven't decided yet and are choosing between the two
+- [Egypt, Jordan & Israel: 3-Country Itinerary](/egypt-jordan-israel-itinerary) — add Petra, Wadi Rum and Amman to your Egypt visit for the classic Middle East triple

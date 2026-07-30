@@ -374,6 +374,7 @@ const ROUTES = [
   '/muslim-travel-israel',
   '/israel-season-picker',
   '/israel-egypt-guide',
+  '/egypt-jordan-israel-itinerary',
   '/israel-itinerary-checker',
   '/tel-aviv-bachelorette',
   '/israel-for-chinese-travelers',
