@@ -1,5 +1,8 @@
 # DONE (shipped — do NOT re-do; basis for REVIEW mode)
 
+## iter883 · BUILD (seo-content) · israel-homeport-cruise · cbc8e6fb
+- New /israel-homeport-cruise guide. Haifa 2026 terminal specs (5,500m², 28 booths, doubled capacity, May 14 2026), cruise lines (NCL/Royal Caribbean/MSC/Costa/Celebrity), BGA→Haifa transfers (train/car; sherut discontinued), pre-cruise 1/2/3-day extensions (TLV / JER+TLV / JER+Dead Sea+Caesarea via Caesarea), German Colony hotel district, luggage logistics, Haifa vs Ashdod table, ETA-IL note. 3 CTAs (Booking Haifa / GYG day trips / Discovercars). Cross-linked from haifa-cruise-terminal-guide + cruise-shore-excursions-israel. 2 new e2e tests. Build: 1142→1143 pages. 1579/1579 pass. CI in_progress.
+
 ## iter882 · REVIEW · review-882-es-phase-19-link-audit · 5a69d538
 - Audited all 5 ES-19 guides. 2 meta desc overruns fixed: egypt-jordan-israel-itinerary 163→155 chars, best-hotels-nazareth 171→157 chars. 3 guides CLEAN (eilat-beach-guide, ein-gedi-guide, eilat-dolphin-reef-guide). 0 broken links (33 verified; /israel-national-parks-pass + /israel-with-kids EN fallbacks correct). 0 H1 violations. 0 fabricated prices. Gate: 0 errors / 1142 pages (no change) / 1577/1577 e2e pass.
 

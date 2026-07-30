@@ -13431,3 +13431,8 @@ Gate: pnpm check 0 errors; pnpm build 1142 pages (no change); pnpm test:e2e 1577
 Ship: squash-merged fix branch → master SHA 5a69d538; pushed.
 ES guides: 100/397 (no change — review only).
 Next: iter 883 → BUILD (883%5==3). Candidate: FR Phase FR-11 or DE Phase DE-10 (per I18N-PLAN.md rotation balance).
+
+## 2026-07-30T23:05Z · iter 883 · BUILD (seo-content) · israel-homeport-cruise
+What: New /israel-homeport-cruise guide targeting "cruise from Israel / homeport Haifa 2026" intent. Content: new 5,500m² Haifa terminal (opened May 14, 2026, 28 border-control booths), cruise line overview (NCL/Royal Caribbean/MSC/Costa/Celebrity with honest caveat on seasonal schedules), BGA→Haifa transfer options (train ~85min / car ~95min; sherut discontinued note), pre-cruise extensions (1-day TLV / 2-day JER+TLV / 3-day JER+Dead Sea+Caesarea), German Colony hotel district, luggage logistics, Haifa vs Ashdod comparison table, ETA-IL note, practical info (currency, time zone, all-aboard buffer). 3 affiliate CTAs: Booking (Haifa hotels), GYG (pre-cruise day trips), Discovercars (BGA hire). Cross-links wired from haifa-cruise-terminal-guide.md (Planning the broader trip section) and cruise-shore-excursions-israel.md (Haifa passengers note). Balanced BUILD rotation: last 4 BUILDs were all i18n phases; this is first EN seo-content BUILD since iter773 (israel-points-miles-guide). 2 new e2e tests (smoke /israel-homeport-cruise + a11y /israel-homeport-cruise).
+Gate: pnpm check 0 errors; pnpm build 1143 pages (+1 from 1142); pnpm test:e2e 1579/1579 pass (was 1577, +2 new).
+Ship: committed cbc8e6fb to master, pushed. CI in_progress at time of state advance.
