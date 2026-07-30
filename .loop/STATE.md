@@ -1,13 +1,15 @@
 # LOOP STATE
 
-- iteration: 876
+- iteration: 877
 - lastMode: BUILD
-- lastItem: es-phase-18
-- lastResult: ES-18 SHIPPED 5cf2bf65. 5 ES guides (sea-of-galilee-guide, netanya-guide, best-hotels-negev, best-hotels-netanya, passover-in-israel). ES guides: 90→95/397. Build: 1122→1127 pages (+5). 1547/1547 e2e pass. CI in_progress.
-- nextRotationCategory: BUILD (877%5==2)
+- lastItem: fr-phase-10
+- lastResult: FR-10 SHIPPED 5ada8f0b. 5 FR guides (masada-visitor-guide, haifa-travel-guide, galilee-christian-sites-circuit, day-trips-from-eilat, birdwatching-in-israel). FR guides: 132→137/397. Build: 1127→1132 pages (+5). 1557/1557 e2e pass. CI in_progress.
+- nextRotationCategory: REVIEW (878%5==3)
 - higgsfieldSpent: 0
-- updatedAt: 2026-07-30T16:30Z
+- updatedAt: 2026-07-30T17:00Z
 - branch context: work on master; feature work on auto/<slug>
+
+Notes: iter877 BUILD — fr-phase-10 SHIPPED 5ada8f0b. 5 FR guides: masada-visitor-guide (3 ascent methods table, fortress sections — Palais du Nord/Ouest, synagogue, église byzantine, mur romain, citernes — INPA pass section, Son et Lumière Tue+Thu Mar–Oct, cross-links dead-sea cluster + fr/masada-tours-compared), haifa-travel-guide (Bahá'í World Centre exterior/terraces framing for non-Bahá'ís, Carmelit, Colonie Allemande, Wadi Nisnas, Stella Maris, MadaTech/Tikotin/Maritime museums, Bat Galim/Dado/Hof HaCarmel beaches, nearby Akko/Rosh Hanikra/Césarée, 1/2/3-day options), galilee-christian-sites-circuit (anti-clockwise lake circuit ~45km from Tibériade: Capharnaüm, Tabgha Multiplication + Primauté Pierre, Béatitudes, Magdala honesty note, Kourssi), day-trips-from-eilat (7 excursions: Pétra/Timna/Ravin Rouge/Plage de Corail/bateau/Dolphin Reef/Aqaba, comparison table, summer heat planning), birdwatching-in-israel (Agamon HaHula 120K cranes, IBRCE Eilat baguage + Festival mars, Golan/Gamla vautours fauves, Hai-Bar Yotvata + Carmel, En Afek, seasonal calendar, LPO France angle). 10 new e2e tests (5 smoke + 5 a11y). Gate: 0 errors / 1132 pages / 1557/1557 pass.
 
 Notes: iter876 BUILD — es-phase-18 SHIPPED 5cf2bf65. 5 ES guides: sea-of-galilee-guide (4 shores, Kinneret circuit, Yardenit honesty note), netanya-guide (cliff promenade, French connection, Stern Diamond Factory), best-hotels-negev (Beresheet, Selina Ramon, Succah in the Desert, decision matrix), best-hotels-netanya (4 zones, 3 tiers, decision matrix), passover-in-israel (Pesaj 5787 Apr 22-29 2027, hotel programs, tourist Seder options, Birkat Kohanim). 10 new e2e tests (5 smoke + 5 a11y). Gate: 0 errors / 1127 pages / 1547/1547 pass.
 

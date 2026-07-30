@@ -6,18 +6,18 @@
 >
 > One bounded slice per loop iteration. NEVER bulk-translate in one shot.
 
-## Current status snapshot (2026-07-30 iter876 BUILD es-phase-18)
+## Current status snapshot (2026-07-30 iter877 BUILD fr-phase-10)
 
 | Locale | Guides | Attractions | Regions | Itineraries |
 |--------|--------|-------------|---------|-------------|
 | en     | 397    | 65          | 11      | 6           |
-| fr     | 132    | 61          | 11      | 6           |
+| fr     | 137    | 61          | 11      | 6           |
 | de     | 127    | 61          | 11      | 6           |
 | es     | 95     | 61          | 11      | 6           |
 
 **Gaps to close:**
 - es guides: **302 missing** (95/397 done — Phase ES-18 SHIPPED iter876 5cf2bf65; **Phase ES-19 TBD**)
-- fr guides: **265 missing** (132/397 done — Phase FR-9 SHIPPED iter873; **Phase FR-10 ready iter875**)
+- fr guides: **260 missing** (137/397 done — Phase FR-10 SHIPPED iter877 5ada8f0b; **Phase FR-11 TBD**)
 - de guides: **270 missing** (127/397 done — Phase DE-8 SHIPPED iter868 3f8807e4; **Phase DE-9 ready iter875**)
 - fr/de/es attractions: **4 missing each** (the 4 EN attractions added after Phase 4)
 
@@ -444,14 +444,15 @@ Guides: `ashdod-cruise-port-excursions.md`, `best-hotels-sea-of-galilee.md`, `ve
 - best-hotels-negev: DACH eco-tourism; Beresheet + Mitzpe Ramon; pairs with de/3-days-in-negev
 Quality: Standard Hochdeutsch; YAML double-quotes; /de/* prefix confirmed-existing pages only; no fabricated prices.
 
-### Phase FR-10 (132 → 137/397) — ready
+### Phase FR-10 (132 → 137/397) — SHIPPED iter877 5ada8f0b
 Guides: `masada-visitor-guide.md`, `haifa-travel-guide.md`, `galilee-christian-sites-circuit.md`, `day-trips-from-eilat.md`, `birdwatching-in-israel.md`
-- masada-visitor-guide: "Masada guide français" zero FR editorial confirmed; France = #3 Israel tourism source; most iconic Israeli landmark; 3 ascent methods (cable car/snake path/Roman ramp side); Sound & Light show Tue+Thu Mar–Oct; pairs with FR dead-sea cluster (dead-sea-guide, dead-sea-tours-compared, dead-sea-hotels-guide, dead-sea-day-trip-comparison all shipped) + bethlehem-tours-compared; high GYG/Viator affiliate value
-- haifa-travel-guide: FR cluster has 3-days-in-haifa + best-hotels-haifa + bahai-world-center-guide + day-trips-from-haifa but MISSING the city anchor guide; "Haïfa guide complet / guide de voyage Haïfa"; would anchor the full FR Haifa cluster; Carmel + Bahá'í terrasses + marché Wadi Nisnas + Deutsche Kolonie + téléphérique du Carmel + port
-- galilee-christian-sites-circuit: "Circuit chrétien Galilée" zero FR editorial confirmed; exists in ES (Phase ES-15, iter856); France strong Catholic pilgrim market; Capernaum/Tabgha/Mont des Béatitudes/Magdala/Yardenit self-drive circuit; pairs with FR sea-of-galilee-guide + 3-days-in-galilee + best-hotels-sea-of-galilee already shipped
-- day-trips-from-eilat: "Excursions depuis Eilat" / "Excursion Pétra depuis Eilat" zero FR editorial confirmed; Petra day trip, Timna Park, Ravin Rouge, Aqaba day trip; Eilat cluster completer (FR has eilat-travel-guide + eilat-beach-guide + eilat-hotels-guide + eilat-diving-snorkeling + aqaba-from-eilat); pairs with FR eilat-travel-guide for excursion cross-links
-- birdwatching-in-israel: France = LPO (Ligue pour la Protection des Oiseaux, ~45K members, one of Europe's largest bird protection organizations); "ornithologie Israël" / "observation oiseaux Israël" zero FR editorial confirmed; Israel's tri-continental Afro-Eurasian flyway + Eilat IBRCE + Hula Valley = world-class sites; exists in EN + ES (Phase ES-12, iter841); ecotourism/nature market growing in France
-Quality: metropolitan French; YAML double-quotes; /fr/* prefix confirmed-existing pages only; no fabricated prices.
+SHIPPED iter877 SHA 5ada8f0b. FR guides: 132→137/397. Build: 1127→1132 pages. 1557/1557 e2e pass. Gate: 0 errors.
+- masada-visitor-guide: 3-method comparison table (Chemin du Serpent/téléphérique/lever du soleil); fortress sections (Palais Nord/Ouest, synagogue, église byzantine, mur romain, citernes); INPA pass ₪29; Spectacle Son et Lumière Mar–Oct Tue+Thu 21h00; event frontmatter; cross-links dead-sea cluster + /fr/masada-tours-compared.
+- haifa-travel-guide: Bahá'í Centre non-Bahá'ís exterior/terraces only (active-site honesty framing); Carmelit ₪7; Colonie Allemande; Wadi Nisnas; Stella Maris; MadaTech/Tikotin/Maritime; Bat Galim/Dado/Hof HaCarmel beaches; Akko 25min/Rosh Hanikra/Césarée/Zichron Yaakov; train TLV 55-90min.
+- galilee-christian-sites-circuit: anti-clockwise ~45km lake circuit; Capharnaüm/Tabgha x2/Béatitudes/Magdala (identification honesty note)/Kourssi; Nazareth combo option.
+- day-trips-from-eilat: 7 excursions + comparison table; summer heat planning 38-42°C; priceFrom/rating/reviews preserved from EN source (ranges only); cross-links /fr/petra-from-eilat-vs-amman, /fr/eilat-beach-guide, /fr/aqaba-from-eilat.
+- birdwatching-in-israel: Agamon HaHula 120K cranes, Wagon Safari ₪50-80; IBRCE Eilat baguage + Festival mi-mars (LPO France 45K members angle); Golan/Gamla vautours fauves; Hai-Bar Yotvata+Carmel; En Afek; seasonal calendar; timing disclaimer.
+Quality: metropolitan French; YAML double-quotes; /fr/* prefix confirmed-existing pages only; no fabricated prices or ratings; Bahá'í active-site framing; Magdala identification honesty.
 
 ### Phase ES-18 (90 → 95/397) — SHIPPED iter876 5cf2bf65
 Guides: `sea-of-galilee-guide.md`, `netanya-guide.md`, `best-hotels-negev.md`, `best-hotels-netanya.md`, `passover-in-israel.md`
@@ -465,17 +466,19 @@ Quality: neutral LATAM Spanish tuteo; YAML double-quotes; /es/* prefix confirmed
 
 ---
 
-## Updated status snapshot (iter876 BUILD 2026-07-30)
+## Updated status snapshot (iter877 BUILD 2026-07-30)
 
 | Locale | Guides | Note |
 |--------|--------|------|
 | en     | 397    | stable |
-| fr     | 132    | 265 missing — Phase FR-9 SHIPPED iter873; **Phase FR-10 ready iter875** |
+| fr     | 137    | 260 missing — Phase FR-10 SHIPPED iter877 5ada8f0b; **Phase FR-11 TBD** |
 | de     | 127    | 270 missing — Phase DE-9 ready iter875; **all 5 confirmed missing** |
 | es     | 95     | 302 missing — Phase ES-18 SHIPPED iter876 5cf2bf65; **Phase ES-19 TBD** |
 
+**FR-phase-10 (iter877) shipped:** FR guides now 137/397.
 **ES-phase-18 (iter876) shipped:** ES guides now 95/397.
 **Next phases ready:**
-- Phase FR-10: masada-visitor-guide, haifa-travel-guide, galilee-christian-sites-circuit, day-trips-from-eilat, birdwatching-in-israel
 - Phase DE-9: ashdod-cruise-port-excursions, best-hotels-sea-of-galilee, vegan-vegetarian-israel, israel-for-german-travelers, best-hotels-negev
+- Phase FR-11: TBD (next RESEARCH iteration to define)
+- Phase ES-19: TBD (next RESEARCH iteration to define)
 **Freshness (iter875):** Gordonia Zichron Yaakov confirmed opened February 1, 2026 (141 rooms, 81m infinity pool, adults 10+, Gordonia Hotels brand). BACKLOG Gordonia item upgraded P3→P2 with confirmed date. InterContinental Jerusalem: still "late summer 2026" per IHG listing; check August/September 2026. easyJet TLV: guide correctly shows suspended/late-October-2026 due to Operation Rising Lion (Iran conflict June 2026).
