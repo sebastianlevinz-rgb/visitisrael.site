@@ -13353,3 +13353,19 @@ Merge: committed directly to master (staged + committed on master) SHA 5ada8f0b;
 CI: in_progress.
 FR guides: 132→137/397. Build pages: 1127→1132.
 Next: iter 878 → REVIEW (878%5==3). Candidate: review-878-fr-phase-10-link-audit (audit all 5 FR-10 guides for link prefix correctness, meta lengths ≤65/≤160, H1 absence, Bahá'í/Magdala honesty, metropolitan French register).
+
+## 2026-07-30 · iter 878 · BUILD · de-phase-9
+Mode: BUILD (878%5=3; playbook maps 3→BUILD).
+Item: Phase DE-9 — 5 German-language guide translations.
+What:
+- src/content/guides/de/ashdod-cruise-port-excursions.md: German cruise market (AIDA/TUI Cruises/MSC/Costa), Jerusalem/Dead Sea/Masada/Tel Aviv excursion timing + transport tables, ETA-IL note, Bethlehem Area A caveat, port logistics section, comparison table, 7 FAQs, 3 CTAs.
+- src/content/guides/de/best-hotels-sea-of-galilee.md: DACH Christian tourism, four shores (Westufer/Nordufer/Ostufer/Südufer), Nof Ginosar/Altes Boot, Magdala pilgrimage center, Domus Galilaeae, Ein Gev, Kibbutz Kinneret, Scots Hotel Tiberias → /de/best-hotels-tiberias deferral, decision matrix, 7 FAQs, 3 CTAs.
+- src/content/guides/de/vegan-vegetarian-israel.md: Germany #1 per-capita vegan Europe angle, key dishes, Kashrut system explained, Hebrew supermarket label table, Tel Aviv/Jerusalem/Haifa sections, 6 FAQs, 2 CTAs.
+- src/content/guides/de/israel-for-german-travelers.md: GKV gap, EC-Karte limitation, Schuko adapter, ETA-IL, ELEFAND, Auswärtiges Amt, Lufthansa route table, time zone table, German Embassy, 6 FAQs, 3 CTAs.
+- src/content/guides/de/best-hotels-negev.md: IDA Dark Sky Park first in Middle East (DACH Naturreisende angle), Beresheet/Selina/Ramon Inn/Succah/HI Beit Noam/Zimmer/Sde Boker, decision matrix, seasonal notes, 7 FAQs, 3 CTAs.
+- tests/e2e/smoke.spec.ts + a11y.spec.ts: +5 DE routes each (10 new tests).
+Gate: pnpm check 0 errors; pnpm build 1132→1137 pages (+5); pnpm test:e2e 10/10 new DE tests pass.
+Merge: squash-merged auto/de-phase-9 → master SHA a03df166; pushed.
+CI: in_progress.
+DE guides: 127→132/397. Build pages: 1132→1137.
+Next: iter 879 → REVIEW (879%5==4). Candidate: review-879-de-phase-9-link-audit (audit all 5 DE-9 guides for /de/* link prefix correctness, meta lengths ≤65/≤160, H1 absence in MDX, Standard Hochdeutsch register, no fabricated prices).

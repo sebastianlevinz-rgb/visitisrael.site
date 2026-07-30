@@ -6,19 +6,19 @@
 >
 > One bounded slice per loop iteration. NEVER bulk-translate in one shot.
 
-## Current status snapshot (2026-07-30 iter877 BUILD fr-phase-10)
+## Current status snapshot (2026-07-30 iter878 BUILD de-phase-9)
 
 | Locale | Guides | Attractions | Regions | Itineraries |
 |--------|--------|-------------|---------|-------------|
 | en     | 397    | 65          | 11      | 6           |
 | fr     | 137    | 61          | 11      | 6           |
-| de     | 127    | 61          | 11      | 6           |
+| de     | 132    | 61          | 11      | 6           |
 | es     | 95     | 61          | 11      | 6           |
 
 **Gaps to close:**
 - es guides: **302 missing** (95/397 done — Phase ES-18 SHIPPED iter876 5cf2bf65; **Phase ES-19 TBD**)
 - fr guides: **260 missing** (137/397 done — Phase FR-10 SHIPPED iter877 5ada8f0b; **Phase FR-11 TBD**)
-- de guides: **270 missing** (127/397 done — Phase DE-8 SHIPPED iter868 3f8807e4; **Phase DE-9 ready iter875**)
+- de guides: **265 missing** (132/397 done — Phase DE-9 SHIPPED iter878 a03df166; **Phase DE-10 TBD**)
 - fr/de/es attractions: **4 missing each** (the 4 EN attractions added after Phase 4)
 
 **Dead Sea cluster status (iter855 audit):**
@@ -435,14 +435,15 @@ Guides: `bethlehem-travel-guide.md`, `vegan-vegetarian-israel.md`, `israel-for-f
 - eilat-beach-guide: completes FR Eilat cluster; Coral Beach vs North Beach; seasonal pricing
 Quality: metropolitan French; YAML double-quotes; /fr/* prefix confirmed-existing pages only; no fabricated prices.
 
-### Phase DE-9 (127 → 132/397) — ready
+### Phase DE-9 (127 → 132/397) — SHIPPED iter878 a03df166
 Guides: `ashdod-cruise-port-excursions.md`, `best-hotels-sea-of-galilee.md`, `vegan-vegetarian-israel.md`, `israel-for-german-travelers.md`, `best-hotels-negev.md`
-- ashdod-cruise-port-excursions: AIDA/TUI/MSC German cruise market; Germany = Europe's largest cruise market; zero DE editorial
-- best-hotels-sea-of-galilee: completes DE Galilee cluster; DACH Christian tourism; Nof Ginosar + Ein Gev kibbutz; EN iter536
-- vegan-vegetarian-israel: "Israel vegan/vegetarisch" popular DACH searches; Germany = #1 per-capita vegan in Europe; EN iter242
-- israel-for-german-travelers: specific airport protocols + direct flights; historical sensitivity handled; EN exists; zero SERP
-- best-hotels-negev: DACH eco-tourism; Beresheet + Mitzpe Ramon; pairs with de/3-days-in-negev
-Quality: Standard Hochdeutsch; YAML double-quotes; /de/* prefix confirmed-existing pages only; no fabricated prices.
+SHIPPED iter878 SHA a03df166. DE guides: 127→132/397. Build: 1132→1137 pages. 10/10 e2e pass. Gate: 0 errors.
+- ashdod-cruise-port-excursions: AIDA/TUI Cruises/MSC/Costa German cruise market; Jerusalem/Dead Sea/Masada/Tel Aviv excursion timing + transport tables; ETA-IL note; Bethlehem Area A caveat; port logistics; comparison table; 7 FAQs; 3 CTAs GYG/Viator/Booking.
+- best-hotels-sea-of-galilee: DACH Christian tourism; four shores west/north/east/south; Nof Ginosar/Altes Boot; Magdala pilgrimage center; Domus Galilaeae; Ein Gev; Kibbutz Kinneret; Scots Hotel Tiberias → /de/best-hotels-tiberias; decision matrix; 7 FAQs; 3 CTAs Booking/GYG/Discovercars.
+- vegan-vegetarian-israel: Germany #1 per-capita vegan Europe angle; key dishes Hummus/Falafel/Shakshuka/Sabich/Msabbaha; Kashrut system explained; Hebrew supermarket label table חלב/פרווה/בשרי; Tel Aviv/Jerusalem/Haifa sections; 6 FAQs; 2 CTAs GYG/Booking.
+- israel-for-german-travelers: GKV gap → Reisekrankenversicherung; EC-Karte limitation → DKB/Revolut/N26; Schuko Type F→Type H; ETA-IL ₪25; ELEFAND; Auswärtiges Amt; Lufthansa/Eurowings/El Al route table; time zone table; German Embassy Tel Aviv; 6 FAQs; 3 CTAs Booking/GYG/SafetyWing.
+- best-hotels-negev: IDA Dark Sky Park first in Middle East; Beresheet ₪1,800–₪4,500+ crater-rim; Selina Ramon; Ramon Inn; Succah in the Desert off-grid; HI Beit Noam ₪120–180; Zimmer B&B; Sde Boker alternative; decision matrix; 7 FAQs; 3 CTAs Booking/GYG/Discovercars.
+Quality: Standard Hochdeutsch; YAML double-quotes; /de/* prefix confirmed-existing pages only; no fabricated prices; Makhtesh Ramon correctly Erosionskrater.
 
 ### Phase FR-10 (132 → 137/397) — SHIPPED iter877 5ada8f0b
 Guides: `masada-visitor-guide.md`, `haifa-travel-guide.md`, `galilee-christian-sites-circuit.md`, `day-trips-from-eilat.md`, `birdwatching-in-israel.md`

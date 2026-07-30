@@ -1,13 +1,15 @@
 # LOOP STATE
 
-- iteration: 877
+- iteration: 878
 - lastMode: BUILD
-- lastItem: fr-phase-10
-- lastResult: FR-10 SHIPPED 5ada8f0b. 5 FR guides (masada-visitor-guide, haifa-travel-guide, galilee-christian-sites-circuit, day-trips-from-eilat, birdwatching-in-israel). FR guides: 132→137/397. Build: 1127→1132 pages (+5). 1557/1557 e2e pass. CI in_progress.
-- nextRotationCategory: REVIEW (878%5==3)
+- lastItem: de-phase-9
+- lastResult: DE-9 SHIPPED a03df166. 5 DE guides (ashdod-cruise-port-excursions, best-hotels-sea-of-galilee, vegan-vegetarian-israel, israel-for-german-travelers, best-hotels-negev). DE guides: 127→132/397. Build: 1132→1137 pages (+5). 10/10 e2e pass. CI in_progress.
+- nextRotationCategory: REVIEW (879%5==4)
 - higgsfieldSpent: 0
-- updatedAt: 2026-07-30T17:00Z
+- updatedAt: 2026-07-30T18:00Z
 - branch context: work on master; feature work on auto/<slug>
+
+Notes: iter878 BUILD — de-phase-9 SHIPPED a03df166. 5 DE guides: ashdod-cruise-port-excursions (German cruise market AIDA/TUI Cruises/MSC/Costa, Jerusalem/Dead Sea/Masada/Tel Aviv excursion timing tables, ETA-IL note, Bethlehem Area A caveat, port logistics section, comparison table, 7 FAQs, 3 CTAs GYG/Viator/Booking), best-hotels-sea-of-galilee (DACH Christian tourism, four shores west/north/east/south, Nof Ginosar/Altes Boot/Jesus Boat, Magdala pilgrimage center, Domus Galilaeae, Ein Gev, Kibbutz Kinneret, Scots Hotel Tiberias deferred to /de/best-hotels-tiberias, decision matrix, seasonal notes, 7 FAQs, 3 CTAs Booking/GYG/Discovercars), vegan-vegetarian-israel (Germany #1 per-capita vegan in Europe angle, key dishes Hummus/Falafel/Shakshuka/Sabich/Msabbaha/Israeli breakfast, Kashrut system explained, Hebrew supermarket label table חלב/פרווה/בשרי, Tel Aviv/Jerusalem/Haifa sections, 6 FAQs, 2 CTAs GYG/Booking), israel-for-german-travelers (GKV gap → Reisekrankenversicherung, EC-Karte limitation → DKB/Revolut/N26 recommendations, Schuko Type F→Type H adapter, ETA-IL ₪25 iaa.gov.il 72h processing, ELEFAND crisis registration, Auswärtiges Amt advisory, Lufthansa/Eurowings/El Al route table FRA/MUC/BER/DUS/HAM, time zone table, German Embassy Tel Aviv contact, 6 FAQs, 3 CTAs Booking/GYG/SafetyWing), best-hotels-negev (IDA International Dark Sky Park first in Middle East angle, Beresheet Hotel ₪1,800–₪4,500+ crater-rim, Selina Ramon design-forward, Ramon Inn mid-range, Succah in the Desert off-grid no-electricity caveat, HI Beit Noam ₪120–180 dorm, Zimmer B&B, Sde Boker alternative base, decision matrix, seasonal notes, 7 FAQs, 3 CTAs Booking/GYG/Discovercars). Standard Hochdeutsch; YAML double-quotes; /de/* prefix only confirmed existing DE pages; no fabricated prices/ratings; Makhtesh Ramon correctly Erosionskrater. 10 new e2e tests (5 smoke + 5 a11y). DE guides: 127→132/397. Build: 1132→1137 pages (+5). 10/10 e2e pass. Gate: 0 errors.
 
 Notes: iter877 BUILD — fr-phase-10 SHIPPED 5ada8f0b. 5 FR guides: masada-visitor-guide (3 ascent methods table, fortress sections — Palais du Nord/Ouest, synagogue, église byzantine, mur romain, citernes — INPA pass section, Son et Lumière Tue+Thu Mar–Oct, cross-links dead-sea cluster + fr/masada-tours-compared), haifa-travel-guide (Bahá'í World Centre exterior/terraces framing for non-Bahá'ís, Carmelit, Colonie Allemande, Wadi Nisnas, Stella Maris, MadaTech/Tikotin/Maritime museums, Bat Galim/Dado/Hof HaCarmel beaches, nearby Akko/Rosh Hanikra/Césarée, 1/2/3-day options), galilee-christian-sites-circuit (anti-clockwise lake circuit ~45km from Tibériade: Capharnaüm, Tabgha Multiplication + Primauté Pierre, Béatitudes, Magdala honesty note, Kourssi), day-trips-from-eilat (7 excursions: Pétra/Timna/Ravin Rouge/Plage de Corail/bateau/Dolphin Reef/Aqaba, comparison table, summer heat planning), birdwatching-in-israel (Agamon HaHula 120K cranes, IBRCE Eilat baguage + Festival mars, Golan/Gamla vautours fauves, Hai-Bar Yotvata + Carmel, En Afek, seasonal calendar, LPO France angle). 10 new e2e tests (5 smoke + 5 a11y). Gate: 0 errors / 1132 pages / 1557/1557 pass.
 
