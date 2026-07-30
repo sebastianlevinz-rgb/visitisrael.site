@@ -108,4 +108,4 @@ Eine praktische Südschleife für einen 5-Tage-Trip ab Jerusalem:
 
 Für einen kürzeren Urlaub (2 Nächte) ist **das Tote Meer näher und reicher an angrenzenden Sehenswürdigkeiten** von Jerusalem aus. Für einen **reinen Strand-und-Aktivitäten-Urlaub** gibt Eilats Riff und Resort-Infrastruktur den Ausschlag.
 
-Die Totes-Meer-Besuche mit dem [Totes-Meer-Reiseführer](/de/dead-sea-guide) planen, die Region im [Toten Meer Hub](/de/dead-sea) erkunden oder [Eilat-Aktivitäten](/de/eilat) für das vollständige Eilat-Programm durchsuchen. Wenn Sie Eilat gegen Aqaba auf der jordanischen Seite abwägen, lesen Sie den [Eilat vs. Aqaba Vergleich](/de/eilat-vs-aqaba) für ein Gegenüberstellung von Tauchen, Stränden und Petra-Logistik.
+Die Totes-Meer-Besuche mit dem [Totes-Meer-Reiseführer](/de/dead-sea-guide) planen, die Region im [Toten Meer Hub](/de/dead-sea) erkunden oder [Eilat-Aktivitäten](/de/eilat) für das vollständige Eilat-Programm durchsuchen. Wenn Sie Eilat gegen Aqaba auf der jordanischen Seite abwägen, lesen Sie den [Eilat vs. Aqaba Vergleich](/eilat-vs-aqaba) für ein Gegenüberstellung von Tauchen, Stränden und Petra-Logistik.
