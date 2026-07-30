@@ -1512,3 +1512,6 @@ DE Phase DE-8 SHIPPED: bethlehem-travel-guide (Kontrollpunkt 300, Geburtskirche 
 
 ## iter871 · BUILD · es-phase-17 · 1fb80f61
 ES Phase ES-17 SHIPPED: dead-sea-israel-vs-jordan (¿Mar Muerto Israel o Jordania? comparison; completes ES Dead Sea cluster), jaffa-travel-guide (zero ES editorial; Old Port, Clock Tower, Flea Market, Abu Hassan, Abouelafia; 1948 history honest framing), tel-aviv-vs-jerusalem (high comparison intent; ¿Tel Aviv o Jerusalén?), israel-for-argentinian-travelers (ETA-IL ₪25; El Al direct EZE-TLV 29 Nov 2026; Jewish heritage + Catholic pilgrimage circuit; PAMI clarification; Wise card tip), vegan-vegetarian-israel (Tel Aviv ~5% vegan per capita; kashrut navigation; key restaurants; Hebrew supermarket labels). Neutral LATAM Spanish tuteo; no fabricated prices; /es/ prefix for confirmed existing pages only. 10 new e2e tests (5 smoke + 5 a11y). ES guides: 85→90/397. Build: 1112→1117 pages (+5). 1527/1527 e2e pass. 2026-07-30.
+
+## iter 872 · REVIEW · review-872-es-phase-17-link-audit · bcc1ece9
+Audited 5 ES Phase ES-17 guides. Fixed 10 /es/ prefix bugs + 1 title overrun + 4 desc overruns across 4 files. israel-for-argentinian-travelers CLEAN. All links now locale-correct.

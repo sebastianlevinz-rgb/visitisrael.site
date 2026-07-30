@@ -13255,3 +13255,25 @@ Merge: squash-committed directly to master 1fb80f618cb210d521760fedd941aec475a53
 Prod: CI in_progress (runs 30540964065 + 30540964013 started 2026-07-30T12:03Z). Vercel deploy pending CI.
 ES guides: 85→90/397. Build pages: 1112→1117.
 Next: iter 872 → REVIEW (872%5==2). Candidate: review-872-es-phase-17-link-audit.
+
+## 2026-07-30T13:05Z · iter 872 · REVIEW · review-872-es-phase-17-link-audit
+What: Audited all 5 ES Phase ES-17 guides (dead-sea-israel-vs-jordan, jaffa-travel-guide,
+tel-aviv-vs-jerusalem, israel-for-argentinian-travelers, vegan-vegetarian-israel) for link
+prefix correctness, meta lengths (≤65/≤160), H1 absence, honesty, and register.
+Bugs found: 10 link prefix bugs across 4 files:
+  - dead-sea-israel-vs-jordan.md: 5 links without /es/ prefix (/dead-sea x3 + /dead-sea/qumran
+    + /jerusalem — all ES pages confirmed existing)
+  - jaffa-travel-guide.md: 1 link (/day-trips-from-jerusalem → /es/day-trips-from-jerusalem)
+  - tel-aviv-vs-jerusalem.md: 4 links (/jerusalem + /tel-aviv + /jerusalem/western-wall + /dead-sea;
+    /jerusalem/holy-sepulchre kept as EN fallback — no ES attraction file)
+  - vegan-vegetarian-israel.md: 2 links (/nazareth-travel-guide + /tel-aviv)
+Meta overruns fixed: dead-sea-israel-vs-jordan desc 162→151; jaffa title 68→60, desc 171→146;
+  tel-aviv-vs-jerusalem desc 168→140; vegan-vegetarian-israel desc 167→156.
+israel-for-argentinian-travelers.md: CLEAN (all links correct, meta within limits, honesty ✓).
+Honesty: all 5 guides pass (no fabricated prices/ratings; 1948 Jaffa history honest; ETA-IL accurate;
+  PAMI abroad caveat clear; ~5% vegan hedged as "approximately"; El Al EZE-TLV labeled as launch date).
+Gate: pnpm check 0 errors; pnpm build 1117 pages (no change); pnpm test:e2e 1527/1527 pass (16.0m).
+Ship: committed directly on master bcc1ece9; pushed.
+CI: in_progress (Lighthouse run 30544955456, CI run 30544955553, started 2026-07-30T13:00Z).
+Next: iter 873 → BUILD (873%5==3; i18n-FR Phase FR-9: bethlehem-travel-guide, vegan-vegetarian-israel,
+  israel-for-french-travelers, best-hotels-netanya, eilat-beach-guide).

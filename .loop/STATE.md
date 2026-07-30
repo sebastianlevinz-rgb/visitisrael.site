@@ -1,13 +1,15 @@
 # LOOP STATE
 
-- iteration: 871
-- lastMode: BUILD
-- lastItem: es-phase-17
-- lastResult: BUILD iter871 — ES Phase ES-17 SHIPPED 1fb80f61. 5 LATAM Spanish guides: dead-sea-israel-vs-jordan, jaffa-travel-guide, tel-aviv-vs-jerusalem, israel-for-argentinian-travelers, vegan-vegetarian-israel. Neutral LATAM Spanish tuteo; YAML double-quotes; /es/ prefix only for confirmed existing ES pages; no fabricated prices; 1948 Jaffa history honest; ETA-IL accurate; PAMI abroad clarification. 10 new e2e tests. ES guides: 85→90/397. Build: 1112→1117 pages. Gate: 0 errors; 1527/1527 e2e pass. CI: in_progress at time of state update (runs 30540964065 + 30540964013).
-- nextRotationCategory: REVIEW (872%5==2)
+- iteration: 872
+- lastMode: REVIEW
+- lastItem: review-872-es-phase-17-link-audit
+- lastResult: REVIEW iter872 SHIPPED bcc1ece9. Audited all 5 ES Phase ES-17 guides. 10 link prefix bugs fixed across 4 files (dead-sea-israel-vs-jordan: 5 links; jaffa-travel-guide: 1 link; tel-aviv-vs-jerusalem: 4 links; vegan-vegetarian-israel: 2 links). 1 title overrun (jaffa: 68→60) + 4 desc overruns fixed. israel-for-argentinian-travelers: CLEAN. Gate: 0 errors; 1117 pages (no change); 1527/1527 e2e pass (16.0m). CI: in_progress (runs 30544955456 + 30544955553).
+- nextRotationCategory: BUILD (873%5==3; i18n-FR Phase FR-9 next)
 - higgsfieldSpent: 0
-- updatedAt: 2026-07-30T12:20Z
+- updatedAt: 2026-07-30T13:05Z
 - branch context: work on master; feature work on auto/<slug>
+
+Notes: iter872 REVIEW — review-872-es-phase-17-link-audit SHIPPED bcc1ece9. Audited all 5 ES Phase ES-17 guides. 10 link prefix bugs + 1 title overrun + 4 desc overruns fixed (12 total fixes in 4 files). israel-for-argentinian-travelers CLEAN. Gate: 0 errors; 1117 pages; 1527/1527 e2e pass. CI in_progress.
 
 Notes: iter871 BUILD — es-phase-17 SHIPPED 1fb80f61. 5 ES guides (dead-sea-israel-vs-jordan, jaffa-travel-guide, tel-aviv-vs-jerusalem, israel-for-argentinian-travelers, vegan-vegetarian-israel). ES guides: 85→90/397. Build: 1112→1117 pages (+5). 1527/1527 e2e pass. CI in_progress.
 
