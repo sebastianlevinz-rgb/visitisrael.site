@@ -1,6 +1,6 @@
 ---
 title: 'Beste Hotels im Negev 2026: Unterkunft in Mitzpe Ramon'
-description: 'Negev-Hotelführer: Beresheet Hotel am Kraterkranz, Selina Ramon, Ramon Inn Mittelklasse, Eco-Glamping und HI-Hostel — Entscheidungshilfe für den richtigen Negev-Basis.'
+description: 'Negev-Hotelführer: Beresheet Hotel am Kraterkranz, Selina Ramon, Ramon Inn Mittelklasse, Eco-Glamping und HI-Hostel — Entscheidungsmatrix für Mitzpe Ramon.'
 heroImage: /images/regions/negev/mitzpe-ramon.jpg
 category: Unterkunft
 updatedAt: 2026-07-30

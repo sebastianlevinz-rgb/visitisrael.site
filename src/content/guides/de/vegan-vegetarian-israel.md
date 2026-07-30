@@ -73,9 +73,9 @@ Das Fundament ist die nahöstliche Küche. Hummus, Falafel, Shakshuka, Pita mit 
 
 **HaKosem** ("Der Zauberer", Shlomo-HaMelech-Straße) — weiterer Maßstab für Falafel und Sabich. Das Sabich hier — Aubergine, Ei, Amba, alle Würzungen — wird oft als das beste der Stadt bezeichnet.
 
-**Abu Hassan** (Jaffa / Yafo) — das bekannteste Hummus-Ziel auf der Tel-Aviv-Jaffa-Achse. Schlangen bilden sich ab 8 Uhr morgens. Eine Schüssel Msabbaha oder Hummus mit Pita und einem Glas Tee ist die vollständige Bestellung. Nur Bar; schließt, wenn der Tagesvorrat aufgebraucht ist (normalerweise bis Mittag). Weiteres zum Jaffa-Kontext: [Jaffa-Reiseführe](/de/jaffa-travel-guide).
+**Abu Hassan** (Jaffa / Yafo) — das bekannteste Hummus-Ziel auf der Tel-Aviv-Jaffa-Achse. Schlangen bilden sich ab 8 Uhr morgens. Eine Schüssel Msabbaha oder Hummus mit Pita und einem Glas Tee ist die vollständige Bestellung. Nur Bar; schließt, wenn der Tagesvorrat aufgebraucht ist (normalerweise bis Mittag). Weiteres zum Jaffa-Kontext: [Jaffa-Leitfaden](/de/jaffa-travel-guide).
 
-**Karmelmarkt (Shuk HaCarmel)** — Tel Avivs zentraler Freiluftmarkt. Die Lebensmittelstände verkaufen Frischgemüse, Trockenfrüchte, Gewürze, Oliven und Streetfood. Durch die Hauptallee zu laufen ist an sich ein vegan-freundliches Esserlebnis. Weiteres zum Layout: [Karmelmarkt-Führe](/de/tel-aviv-carmel-market).
+**Karmelmarkt (Shuk HaCarmel)** — Tel Avivs zentraler Freiluftmarkt. Die Lebensmittelstände verkaufen Frischgemüse, Trockenfrüchte, Gewürze, Oliven und Streetfood. Durch die Hauptallee zu laufen ist an sich ein vegan-freundliches Esserlebnis. Weiteres zum Layout: [Karmelmarkt-Leitfaden](/de/tel-aviv-carmel-market).
 
 ### Dedizierte vegane Restaurants
 
@@ -111,7 +111,7 @@ Jerusalems pflanzliche Szene ist kleiner und weniger experimentierfreudig als Te
 
 **Nachlaot und Deutsches Viertel** — beide haben einige vegetarisch orientierte Cafés. Das Deutsche Viertel (Emek-Refaim-Straße) ist leichter zu Fuß zu durchstreifen.
 
-**Schabbat-Planung:** In Jerusalem schließen freitagabends und samstags die meisten jüdisch geführten Restaurants. Das Muslimische Viertel der Altstadt bleibt samstags geöffnet. Samstagsmahlzeiten um das Muslimische Viertel planen oder Selbstverpflegung organisieren. Weiteres: [Schabbat-Führe](/de/shabbat-guide).
+**Schabbat-Planung:** In Jerusalem schließen freitagabends und samstags die meisten jüdisch geführten Restaurants. Das Muslimische Viertel der Altstadt bleibt samstags geöffnet. Samstagsmahlzeiten um das Muslimische Viertel planen oder Selbstverpflegung organisieren. Weiteres: [Schabbat-Leitfaden](/de/shabbat-guide).
 
 ---
 
@@ -119,7 +119,7 @@ Jerusalems pflanzliche Szene ist kleiner und weniger experimentierfreudig als Te
 
 Haifa hat eine kleinere vegane Szene, aber die arabische Bevölkerung der Stadt bedeutet eine zuverlässige Hummus-und-Falafel-Runde. Das Wadi-Nisnas-Viertel ist ein arabisches Stadtviertel mit traditionellen Hummus-Shops und Produzentenmärkten, die von Natur aus pflanzenfreundlich sind.
 
-Im Galiläa servieren arabisch geführte Restaurants in Nazareth große libanesische Mezze-Mahlzeiten — ein Dutzend kleine Gerichte mit Hummus, Baba Ghanoush, Tabbouleh, Fattoush, gefüllten Weinblättern — die weitgehend vegan sind. Weiteres: [Nazareth-Reiseführe](/de/nazareth-travel-guide).
+Im Galiläa servieren arabisch geführte Restaurants in Nazareth große libanesische Mezze-Mahlzeiten — ein Dutzend kleine Gerichte mit Hummus, Baba Ghanoush, Tabbouleh, Fattoush, gefüllten Weinblättern — die weitgehend vegan sind. Weiteres: [Nazareth-Leitfaden](/de/nazareth-travel-guide).
 
 ---
 
@@ -149,4 +149,4 @@ Supermarktketten (Shufersal, Rami Levy, Victory) führen alle umfangreiche Obst-
 
 ---
 
-Weiteres zum israelischen Lebensmittel- und Küchenzusammenhang: [Israelische Küche & Esskultur](/de/israeli-food-cuisine-guide) und [Koscher-Essen-Führe](/de/kosher-food-guide). Für Marktbesuche: [Karmelmarkt-Führe](/de/tel-aviv-carmel-market). Für Schabbat-Planung: [Schabbat-Führe](/de/shabbat-guide). Für die weitere Tel-Aviv-Restaurantszene: [Tel-Aviv-Food-Führe](/de/tel-aviv-food-guide).
+Weiteres zum israelischen Lebensmittel- und Küchenzusammenhang: [Israelische Küche & Esskultur](/de/israeli-food-cuisine-guide) und [Koscher-Essen-Leitfaden](/de/kosher-food-guide). Für Marktbesuche: [Karmelmarkt-Leitfaden](/de/tel-aviv-carmel-market). Für Schabbat-Planung: [Schabbat-Leitfaden](/de/shabbat-guide). Für die weitere Tel-Aviv-Restaurantszene: [Tel-Aviv-Food-Leitfaden](/de/tel-aviv-food-guide).

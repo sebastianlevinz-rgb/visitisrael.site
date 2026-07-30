@@ -89,7 +89,7 @@ Jerusalem ist die erste Wahl der meisten Ashdod-Kreuzfahrtpassagiere — und das
 2. **Jerusalem ist nicht selbstfahrerfreundlich** — Parken in der Altadtnähe ist begrenzt und stressig. Ein Reiseleiter mit Minibus löst dieses Problem.
 3. **Sicherheitshinweis Altstadt** — Alle Besucher passieren Metalldetektoren an den Toren; leichtes Gepäck mitführen.
 
-Für tiefergehende Besichtigungshinweise: [Jerusalem-Altstadtspaziergang](/de/jerusalem-old-city-walking-tour) und [Grabeskirchen-Führe](/de/church-holy-sepulchre-guide).
+Für tiefergehende Besichtigungshinweise: [Jerusalem-Altstadtspaziergang](/de/jerusalem-old-city-walking-tour) und [Grabeskirchen-Leitfaden](/de/church-holy-sepulchre-guide).
 
 ---
 
@@ -114,7 +114,7 @@ Das Tote Meer liegt ca. 90–105 km von Ashdod entfernt — rund 1,5–2 Stunden
 
 Eine Masada-und-Totes-Meer-Kombination ab Ashdod dauert 8–10 Stunden: Ashdod → Masada (1,5 Std. südöstlich) → Seilbahn + Besichtigung (2 Std.) → Fahrt zum Strand Ein Bokek (30 Min.) → Float + Mittagessen (2 Std.) → Rückfahrt nach Ashdod (2 Std.). Funktioniert bei Schiffen, die um 7 Uhr anlegen und um 20 Uhr auslaufen. Bei engerem Zeitplan eines der beiden Ziele wählen.
 
-Unser [Totes-Meer-Reiseführe](/de/dead-sea-guide) behandelt Strände, Schlammritual und Sicherheitstipps ausführlich.
+Unser [Totes-Meer-Leitfaden](/de/dead-sea-guide) behandelt Strände, Schlammritual und Sicherheitstipps ausführlich.
 
 ---
 
@@ -133,7 +133,7 @@ Tel Aviv ist das einfachste unabhängige Reiseziel ab Ashdod. Bei nur 35 km und 
 | 13:30–14:30 Uhr | Weißstadt Bauhaus-Spaziergang: Rothschild-Boulevard |
 | 15:00 Uhr | Rücktaxi nach Ashdod (ca. ₪110–140) |
 
-Weiteres zum Jaffa-Besuch: [Jaffa-Reiseführe](/de/jaffa-travel-guide) und [Tel-Aviv-Viertelführe](/de/tel-aviv-neighborhoods-guide).
+Weiteres zum Jaffa-Besuch: [Jaffa-Leitfaden](/de/jaffa-travel-guide) und [Tel-Aviv-Viertel-Leitfaden](/de/tel-aviv-neighborhoods-guide).
 
 ---
 
@@ -143,7 +143,7 @@ Bethlehem — Heimstätte der Geburtskirche — liegt ca. 1,5 Stunden vom Hafen 
 
 **Wichtiger Zugangshinweis:** Bethlehem liegt im Gebiet der Palästinensischen Autonomiebehörde (Bereich A). Israelische Mietwagen sind nicht in Bereich A zugelassen. Für Kreuzfahrtpassagiere ist eine vorgebuchte Führung, die Bethlehem mit Jerusalem in einem ganztägigen Programm kombiniert, die zuverlässigste Option — die meisten Anbieter managen alle Grenzübergangsformalitäten. Checkpoint 300 kann zu Stoßzeiten 15–45 Minuten Wartezeit haben.
 
-Der [Bethlehem-Reiseführe](/de/bethlehem-travel-guide) behandelt Geburtskirche, Krippenplatz und praktische Logistik ausführlich.
+Der [Bethlehem-Leitfaden](/de/bethlehem-travel-guide) behandelt Geburtskirche, Krippenplatz und praktische Logistik ausführlich.
 
 ---
 
@@ -165,7 +165,7 @@ Der [Bethlehem-Reiseführe](/de/bethlehem-travel-guide) behandelt Geburtskirche,
 - Telefonnummer des Hafenagenten speichern
 - Rücktransport im Voraus vereinbaren — nicht auf spontane Taxis in der Jerusalemer Altstadt vertrauen
 
-Für vollständige ETA-IL- und Einreisebestimmungen: [Israel-Visa-Führe](/de/visa-information).
+Für vollständige ETA-IL- und Einreisebestimmungen: [Israel-Visa-Leitfaden](/de/visa-information).
 
 ---
 
@@ -186,4 +186,4 @@ Für vollständige ETA-IL- und Einreisebestimmungen: [Israel-Visa-Führe](/de/vi
 
 Viele Kreuzfahrtpassagiere verlieben sich in Israel und kehren für eine längere Reise zurück — oder hängen Übernachtungen vor oder nach der Kreuzfahrt an. Tel Aviv ist die natürliche Basis (30 Minuten vom Hafen, internationale Flugverbindungen ab Ben-Gurion-Flughafen 25 Minuten entfernt).
 
-Weitere Informationen: [Unterkunft in Tel Aviv](/de/israel-accommodation-guide) für stadtübergreifende Orientierung. Der [Haifa-Kreuzfahrt-Ausflüge-Führe](/de/cruise-shore-excursions-israel) behandelt Haifa-Hafenoptionen (Bahá'í-Gärten, Alt-Akko, Caesarea, Nazareth) für Passagiere, die am nördlichen Hafen anlegen.
+Weitere Informationen: [Unterkunft in Tel Aviv](/de/israel-accommodation-guide) für stadtübergreifende Orientierung. Der [Haifa-Kreuzfahrtausflüge-Leitfaden](/de/cruise-shore-excursions-israel) behandelt Haifa-Hafenoptionen (Bahá'í-Gärten, Alt-Akko, Caesarea, Nazareth) für Passagiere, die am nördlichen Hafen anlegen.

@@ -1,6 +1,6 @@
 ---
 title: "Beste Hotels am See Genezareth 2026: Unterkunft am Kinneret"
-description: "Hotels am See Genezareth: Kibbutz-Resorts am Ufer, Pilgerunterkünfte nahe Kafarnaum, das Scots Hotel in Tiberias und Rückzugsorte an der Ostküste mit Golan-Panorama."
+description: "Hotels am See Genezareth: Kibbutz-Resorts am Ufer, Pilgerunterkünfte nahe Kafarnaum, Scots Hotel Tiberias und Rückzugsorte an der Ostküste mit Golan-Panorama."
 heroImage: /images/regions/galilee/sea-of-galilee.jpg
 category: Unterkunft
 updatedAt: 2026-07-30
@@ -32,18 +32,18 @@ faqs:
   - question: "Ist das Nof-Ginosar-Hotel eine gute Basis für christliche Stätten?"
     answer: "Ja — das Nof-Ginosar-Kibbutz-Hotel gilt weitgehend als beste Basis für den Nordküsten-Pilgerweg. Kafarnaum liegt 12 km nördlich, der Berg der Seligpreisungen ca. 15 km nördlich, und die archäologische Stätte Magdala mit der Duc-In-Altum-Kirche liegt nur 4 km südlich auf derselben Uferstraße. Das Alte-Boot-Museum (mit einem echten Fischerboot aus dem 1. Jahrhundert n. Chr.) befindet sich auf dem Kibbutz-Gelände. Der Kompromiss: Tiberias-Restaurants sind 10–15 Minuten Fahrt entfernt."
   - question: "Brauche ich am See Genezareth ein Auto?"
-    answer: "Ja — ein Auto wird dringend empfohlen. Kafarnaum, Magdala, der Berg der Seligpreisungen, Ein Gev am Ostufer und der Golan verteilen sich über 40–60 km Uferbereich und Hochebene; Busverbindungen sind selten und für Touristen oft unpraktisch. Tiberias-Stadt ist zu Fuß erreichbar und hat Busverbindungen nach Jerusalem (2 Std.) und Tel Aviv (2,5 Std.), aber für alles jenseits der Stadt ist ein Mietwagen entscheidend. Siehe den [Mietwagen-Israel-Führe](/de/car-rental-israel)."
+    answer: "Ja — ein Auto wird dringend empfohlen. Kafarnaum, Magdala, der Berg der Seligpreisungen, Ein Gev am Ostufer und der Golan verteilen sich über 40–60 km Uferbereich und Hochebene; Busverbindungen sind selten und für Touristen oft unpraktisch. Tiberias-Stadt ist zu Fuß erreichbar und hat Busverbindungen nach Jerusalem (2 Std.) und Tel Aviv (2,5 Std.), aber für alles jenseits der Stadt ist ein Mietwagen entscheidend. Siehe den [Mietwagen-Israel-Leitfaden](/de/car-rental-israel)."
   - question: "Was ist das Magdala-Center und Pilgerzentrum?"
     answer: "Das Magdala-Center (offiziell: Duc In Altum — 'Fahre in die Tiefe', Lukas 5,4) ist ein Pilgerhotel und -zentrum, das um die archäologische Stätte von Magdala an der Westküste des Sees Genezareth errichtet wurde, ca. 5 km nördlich von Tiberias. Bei den Bauarbeiten 2009 wurde eine frühchristliche Synagoge aus dem 1. Jahrhundert n. Chr. entdeckt — eine von nur sieben Synagogen aus der Zeit Jesu, die in Israel gefunden wurden. Das Zentrum wird von den Legionären Christi betrieben und ist primär für organisierte Pilgergruppen konzipiert; Einzelzimmer sind manchmal verfügbar — direkt über magdala.org anfragen."
   - question: "Ist Kibbutz Ein Gev als Basis für die gesamte Galiläa-Rundfahrt geeignet?"
     answer: "Ein Gev eignet sich am besten für Besucher, die gezielt Abgeschiedenheit und Golan-Panorama suchen, weniger als logistische Basis für eine mehrtägige Galiläa-Rundfahrt. Die Fahrt von Ein Gev nach Tiberias erfordert entweder eine Touristenfähre (30–40 Min.) oder eine Fahrt nördlich um den See auf Route 92 (ca. 45–50 Min.). Ein Gev eignet sich gut für Vogelbeobachter im Hulatal oder für Reisende, die den Golan erkunden wollen."
-  - question: "Was unterscheidet diesen Führe vom Tiberias-Hotelführe?"
-    answer: "Der [Tiberias-Hotelführe](/de/best-hotels-tiberias) behandelt die fünf Hauptunterkünfte in und um Tiberias-Stadt eingehend — Scots Hotel, U Boutique Kinneret, Nof-Ginosar-Kibbutz-Hotel, Leonardo Club und Ein-Gev-Resort — samt Budget-Optionen. Dieser Führe nimmt die gesamte Seeperspektive ein: Er orientiert Besucher über alle vier Kinneret-Ufer, ergänzt Migdal/Magdala-Pilgerunterkünfte, Kafarnaum-Rückzugsorte, das Südufer und die Golan-Unterkunftszone und bietet eine Entscheidungsmatrix für verschiedene Reisetypen."
+  - question: "Was unterscheidet diesen Leitfaden vom Tiberias-Hotelleitfaden?"
+    answer: "Der [Tiberias-Hotelleitfaden](/de/best-hotels-tiberias) behandelt die fünf Hauptunterkünfte in und um Tiberias-Stadt eingehend — Scots Hotel, U Boutique Kinneret, Nof-Ginosar-Kibbutz-Hotel, Leonardo Club und Ein-Gev-Resort — samt Budget-Optionen. Dieser Leitfaden nimmt die gesamte Seeperspektive ein: Er orientiert Besucher über alle vier Kinneret-Ufer, ergänzt Migdal/Magdala-Pilgerunterkünfte, Kafarnaum-Rückzugsorte, das Südufer und die Golan-Unterkunftszone und bietet eine Entscheidungsmatrix für verschiedene Reisetypen."
 ---
 
 Der **See Genezareth** — auf Hebräisch Kinneret — ist ein Süßwassersee von etwa 166 Quadratkilometern im Jordantal, 215 Meter unter dem Meeresspiegel. Er ist das Herzstück des israelischen Galiläas, eine der heiligsten Landschaften des Christentums und Israels führendes Natur- und Süßwasserreiseziel. Wo Sie am See übernachten, bestimmt, welche Rundfahrt an einem Tag machbar ist, wie weit Sie bis zum Sonnenaufgang übers Wasser laufen, und ob das Abendessen aus einer Kibbutz-Gemeinschaftsküche oder einem Tiberias-Restaurant besteht.
 
-Die Unterkunftslandschaft reicht weit über Tiberias-Stadt hinaus. Das Westufer hat Kibbutz-Gästehäuser in Migdal und Ginosar; das Nordufer verfügt über Pilgerzentren in Reichweite von Kafarnaum; das Ostufer liegt unterhalb des Golan-Hochlands; und das Südufer verbindet mit dem Jordan und der Taufstelle Yardenit. Dieser Führe deckt das gesamte Seebild ab — alle vier Ufer — und zeigt, wo man nach Zweck übernachtet.
+Die Unterkunftslandschaft reicht weit über Tiberias-Stadt hinaus. Das Westufer hat Kibbutz-Gästehäuser in Migdal und Ginosar; das Nordufer verfügt über Pilgerzentren in Reichweite von Kafarnaum; das Ostufer liegt unterhalb des Golan-Hochlands; und das Südufer verbindet mit dem Jordan und der Taufstelle Yardenit. Dieser Leitfaden deckt das gesamte Seebild ab — alle vier Ufer — und zeigt, wo man nach Zweck übernachtet.
 
 Für stadtspezifische Hoteltipps in Tiberias (Scots Hotel, U Boutique Kinneret, Leonardo Club): [Beste Hotels in Tiberias](/de/best-hotels-tiberias).
 
@@ -69,7 +69,7 @@ Tiberias ist, wo die meisten Erstbesucher des Sees Genezareth logieren — und d
 
 Die herausragenden Häuser der Stadt sind das **Scots Hotel** (5 Sterne, umgebautes schottisches Missionskhospital von 1885, Church-of-Scotland-Eigentum, Weinkeller und Seeterrasse) und das **U Boutique Kinneret Hotel** (4 Sterne, zeitgenössisches Design, Rooftop-Bar, Seefrontzimmer). In der Familie-und-All-Inclusive-Kategorie hat der **Leonardo Club Hotel Tiberias** einen Privatstrand und Pool am südlichen Seeufer.
 
-Für alle stadtspezifischen Details — Hausprofile, Buchungszeitpunkte, Schabbathinweise und das Budget-Hostelkategorie — lesen Sie den [Tiberias-Hotelführe](/de/best-hotels-tiberias). Der Rest dieses Führes behandelt die anderen Zonen des Sees.
+Für alle stadtspezifischen Details — Hausprofile, Buchungszeitpunkte, Schabbathinweise und das Budget-Hostelkategorie — lesen Sie den [Tiberias-Hotelleitfaden](/de/best-hotels-tiberias). Der Rest dieses Leitfadens behandelt die anderen Zonen des Sees.
 
 ---
 
@@ -167,4 +167,4 @@ Alle genannten Preise sind Richtwerte. Livepreise ändern sich täglich — übe
 
 ## Nützliche Links
 
-Für die vollständige Vier-Ufer-Kinneret-Rundfahrt — Magdala, Kafarnaum, Berg der Seligpreisungen, Yardenit, Ein Gev und Hamat Gader — den [See-Genezareth-Führe](/de/sea-of-galilee-guide) lesen. Für Galiläa-Tagestouren ab Tel Aviv oder Jerusalem: [Galiläa-Touren im Vergleich](/de/galilee-tours-compared). Für Bootstouren vom Tiberias-Anleger: Den [Reiseführe Tiberias](/de/tiberias-guide) für Veranstalter und Erwartungen konsultieren. Für den Mietwagen: [Mietwagen Israel](/de/car-rental-israel).
+Für die vollständige Vier-Ufer-Kinneret-Rundfahrt — Magdala, Kafarnaum, Berg der Seligpreisungen, Yardenit, Ein Gev und Hamat Gader — den [See-Genezareth-Leitfaden](/de/sea-of-galilee-guide) lesen. Für Galiläa-Tagestouren ab Tel Aviv oder Jerusalem: [Galiläa-Touren im Vergleich](/de/galilee-tours-compared). Für Bootstouren vom Tiberias-Anleger: Den [Tiberias-Leitfaden](/de/tiberias-guide) für Veranstalter und Erwartungen konsultieren. Für den Mietwagen: [Mietwagen Israel](/de/car-rental-israel).

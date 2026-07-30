@@ -43,7 +43,7 @@ faqs:
 
 Deutschland verbindet seit Jahrzehnten eine enge und bedeutungsvolle Beziehung mit Israel — historisch gewachsen, kulturell gereift und durch eine bemerkenswerte deutschsprachige Gemeinschaft in Israel (besonders in Tel Aviv) lebendig gehalten. Israel gehört zu den beliebtesten Fernreisezielen für Deutsche, mit täglichen Lufthansa-Direktflügen ab Frankfurt und München sowie starken El-Al-Verbindungen. Dieser Leitfaden behandelt die praktischen Informationen speziell für deutsche Besucher: Auswärtiges-Amt-Hinweis, ETA-IL, Flüge aus Deutschland, die GKV-Versicherungslücke, Steckdosenadapter, Bankwesen und Botschaftskontakte.
 
-Für das breitere Reiseplanungsbild: [Erstbesucher-Komplettführe](/de/first-time-in-israel) und [Sicherheitsführe](/de/is-israel-safe).
+Für das breitere Reiseplanungsbild: [Erstbesucher-Leitfaden](/de/first-time-in-israel) und [Sicherheits-Leitfaden](/de/is-israel-safe).
 
 ---
 
@@ -96,7 +96,7 @@ Wesentliche Fakten:
 - **Beantragen unter:** iaa.gov.il (das offizielle Portal der Israel Airports Authority; andere Seiten mit höheren Gebühren sind nicht offiziell)
 - **Aufenthaltsdauer:** Bis zu 90 Tage pro Besuch als Tourist
 
-Die ETA-IL ist elektronisch mit Ihrem Reisepass verknüpft. Es gibt kein physisches Dokument zum Mitführen. Antragsnummer notieren. Vollständige Schritte: [ETA-IL- und Visaführe](/de/visa-information).
+Die ETA-IL ist elektronisch mit Ihrem Reisepass verknüpft. Es gibt kein physisches Dokument zum Mitführen. Antragsnummer notieren. Vollständige Schritte: [ETA-IL- und Visa-Leitfaden](/de/visa-information).
 
 **Israelischer Einreisestempel.** Der Flughafen Ben Gurion stempelt seit ca. 2013 keine Reisepässe mehr — stattdessen erhalten Sie einen kleinen Papiereintrittsschein. Diesen aufbewahren; Hotels und manche internen Checkpoints fragen möglicherweise danach.
 
@@ -126,7 +126,7 @@ Medizinische Behandlung in Israel ohne Versicherung kann teuer werden — ein ku
 - **Bestehende Zusatzversicherung prüfen.** Manche private Zusatzversicherungen beinhalten begrenzten internationalen Krankenversicherungsschutz — Versicherungsunterlagen prüfen.
 - **Kreditkartenschutz ist oft unzureichend.** Manche deutsche Kreditkarten beinhalten einen begrenzten Reiseversicherungsschutz, aber Evakuierungslimits liegen typischerweise weit unter den realen Kosten eines Luftkranktransports aus Israel.
 
-Weiteres: [Israel-Reiseversicherungsführe](/de/israel-travel-insurance).
+Weiteres: [Israel-Reiseversicherungs-Leitfaden](/de/israel-travel-insurance).
 
 ---
 
@@ -145,7 +145,7 @@ Israels Währung ist der **Neue Israelische Schekel (₪, ILS)**. Kartenzahlunge
 
 **Geldautomaten.** Bank-Leumi-, Bank-Hapoalim- und Israel-Post-Bank-Geldautomaten sind in Städten und Touristenbereichen weit verbreitet. ATMs zeigen Beträge in Schekel an; wählen Sie "in Schekel berechnen" (nicht in Euro), um den eigenen ATM-Wechselkurs zu vermeiden.
 
-**Bargeld.** Einige hundert Schekel (₪200–400) für kleinere Händler, Märkte und ländliche Gebiete mitführen. Wechseln nicht am Flughafen (schlechte Kurse) — im Stadtzentrum oder am Geldautomaten wechseln. Weiteres: [Israel-Geldführe](/de/israel-money-guide).
+**Bargeld.** Einige hundert Schekel (₪200–400) für kleinere Händler, Märkte und ländliche Gebiete mitführen. Wechseln nicht am Flughafen (schlechte Kurse) — im Stadtzentrum oder am Geldautomaten wechseln. Weiteres: [Israel-Geld-Leitfaden](/de/israel-money-guide).
 
 ---
 
@@ -179,7 +179,7 @@ WLAN ist in Hotels, Restaurants und Cafés in Israels Touristenbereichen weit ve
 
 Deutschland und Israel verbindet eine einzigartige historische Beziehung. Die diplomatischen Beziehungen wurden 1965 normalisiert, nach dem Nachkriegsprozess der Wiedergutmachung. Eine bedeutende deutschsprachige jüdische Gemeinschaft — die Jeckes — siedelte sich in den 1930er Jahren in Tel Aviv und Haifa an und hinterließ einen dauerhaften Eindruck auf das israelische Berufs- und Geistesleben, einschließlich des Stadtbilds von Tel Avivs Weißem Stadtviertel.
 
-Viele deutsche Besucher wählen einen Besuch bei **Yad Vashem** — der Gedenkstätte für die Opfer des Holocaust am Stadtrand Jerusalems — als zentralen Teil ihrer Israel-Reise. Das Holocaust-Historische Museum und das Kinderdenkmal gehören zu den meistbesuchten Kulturstätten des Landes. Der [Yad-Vashem-Besucherführe](/de/yad-vashem-visitor-guide) gibt vollständige Informationen zu Öffnungszeiten, Eintritt, Führungen und der emotionalen Bedeutung des Besuchs.
+Viele deutsche Besucher wählen einen Besuch bei **Yad Vashem** — der Gedenkstätte für die Opfer des Holocaust am Stadtrand Jerusalems — als zentralen Teil ihrer Israel-Reise. Das Holocaust-Historische Museum und das Kinderdenkmal gehören zu den meistbesuchten Kulturstätten des Landes. Der [Yad-Vashem-Besucherleitfaden](/de/yad-vashem-visitor-guide) gibt vollständige Informationen zu Öffnungszeiten, Eintritt, Führungen und der emotionalen Bedeutung des Besuchs.
 
 Diese historische Dimension ist weder ungewöhnlich noch unangenehm anzusprechen — sie wird auf beiden Seiten weitgehend anerkannt und prägt eine besondere deutsch-israelische Kulturverbindung, die viele Besucher als einen der bedeutsamsten Aspekte einer Israel-Reise beschreiben.
 
@@ -228,6 +228,6 @@ Mit **ELEFAND** (krisenvorsorgeliste.diplo.de) registrieren, damit die Botschaft
 
 ## Ihre Israel-Reise aus Deutschland planen
 
-Die beliebteste Reisestruktur für deutsche Besucher mit 7–10 Tagen teilt sich grob in Tel Aviv (2–3 Nächte), Jerusalem (2–3 Nächte) und einen Regionalausflug — Galiläa, Totes Meer oder Eilat. Der [5-vs-7-vs-10-Tage-Führe](/de/israel-5-vs-7-vs-10-days) hilft beim Kalibrieren der richtigen Reisedauer. Deutsche Reisende, die gewohnt sind, Auto zu fahren, finden Israel per Mietwagen in der Regel unkompliziert — der Rechtsverkehr ist identisch zu Deutschland, Straßen sind gut ausgebaut und GPS-Navigation ist auf Englisch klar. Weiteres: [Mietwagen-Israel-Führe](/de/car-rental-israel) und [Fahren in Israel](/de/driving-in-israel).
+Die beliebteste Reisestruktur für deutsche Besucher mit 7–10 Tagen teilt sich grob in Tel Aviv (2–3 Nächte), Jerusalem (2–3 Nächte) und einen Regionalausflug — Galiläa, Totes Meer oder Eilat. Der [5-vs-7-vs-10-Tage-Leitfaden](/de/israel-5-vs-7-vs-10-days) hilft beim Kalibrieren der richtigen Reisedauer. Deutsche Reisende, die gewohnt sind, Auto zu fahren, finden Israel per Mietwagen in der Regel unkompliziert — der Rechtsverkehr ist identisch zu Deutschland, Straßen sind gut ausgebaut und GPS-Navigation ist auf Englisch klar. Weiteres: [Mietwagen-Israel-Leitfaden](/de/car-rental-israel) und [Fahren in Israel](/de/driving-in-israel).
 
 [Ist Israel sicher?](/de/is-israel-safe) behandelt die Sicherheitsfrage vollständig mit gebietsspezifischem Kontext. [Wie viel kostet Israel?](/de/israel-cost-budget) setzt das Budgetbild — Israel ist im Großen und Ganzen vergleichbar teuer mit Westeuropa, mit Unterkünften von Budget-Hostels bis zu Boutique-Hotels und Michelin-geführten Restaurants.
