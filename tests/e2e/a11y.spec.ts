@@ -577,6 +577,11 @@ const ROUTES = [
   '/es/tel-aviv-vs-jerusalem',
   '/es/israel-for-argentinian-travelers',
   '/es/vegan-vegetarian-israel',
+  '/es/sea-of-galilee-guide',
+  '/es/netanya-guide',
+  '/es/best-hotels-negev',
+  '/es/best-hotels-netanya',
+  '/es/passover-in-israel',
 ];
 
 for (const route of ROUTES) {
