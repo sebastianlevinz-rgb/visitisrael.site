@@ -1,13 +1,15 @@
 # LOOP STATE
 
-- iteration: 873
-- lastMode: BUILD
-- lastItem: fr-phase-9
-- lastResult: BUILD iter873 SHIPPED 3a3f1b1f. 5 FR guides (bethlehem-travel-guide, vegan-vegetarian-israel, israel-for-french-travelers, best-hotels-netanya, eilat-beach-guide). Metropolitan French; YAML double-quotes; /fr/* links confirmed-existing only; West Bank/Bethlehem neutral framing; reef-safe sunscreen honesty; Netanya ~60K francophones; ETA-IL since Jan 2025; Assurance Maladie not valid. FR guides: 127→132/397. Build: 1117→1122 pages (+5). 1537/1537 e2e pass (11.8m). CI: in_progress (runs 30549936948 + 30549937112).
-- nextRotationCategory: REVIEW (874%5==4)
+- iteration: 874
+- lastMode: REVIEW
+- lastItem: review-874-fr-phase-9-link-audit
+- lastResult: REVIEW iter874 SHIPPED 1c463419. Audited all 5 FR Phase FR-9 guides. 5 meta overruns fixed across 4 files (vegan: title 75->61 + desc 200->151; french-travelers: title 78->58; netanya-hotels: desc 167->133; eilat-beach: desc 169->133). bethlehem-travel-guide CLEAN. All 27 internal links /fr/ prefixed + confirmed existing. No H1 violations. Honesty ✓. Build: 1122 pages (no change). 1537/1537 e2e pass (14.9m). CI in_progress (runs 30553793409 + 30553793478).
+- nextRotationCategory: RESEARCH (875%5==0)
 - higgsfieldSpent: 0
-- updatedAt: 2026-07-30T14:30Z
+- updatedAt: 2026-07-30T15:10Z
 - branch context: work on master; feature work on auto/<slug>
+
+Notes: iter874 REVIEW — review-874-fr-phase-9-link-audit SHIPPED 1c463419. Audited all 5 FR Phase FR-9 guides. 5 meta overruns fixed in 4 files. bethlehem-travel-guide CLEAN. Gate: 0 errors; 1122 pages; 1537/1537 e2e pass. CI in_progress.
 
 Notes: iter873 BUILD — fr-phase-9 SHIPPED 3a3f1b1f. 5 FR guides (bethlehem-travel-guide, vegan-vegetarian-israel, israel-for-french-travelers, best-hotels-netanya, eilat-beach-guide). FR guides: 127→132/397. Build: 1117→1122 pages. 1537/1537 e2e pass. CI in_progress.
 

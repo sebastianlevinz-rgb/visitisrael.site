@@ -13292,3 +13292,22 @@ Merge: committed directly to master 3a3f1b1f; pushed.
 Prod: CI in_progress (run 30549936948; Lighthouse run 30549937112, started 2026-07-30).
 FR guides: 127→132/397. Build pages: 1117→1122.
 Next: iter 874 → REVIEW (874%5==4). Candidate: review-874-fr-phase-9-link-audit.
+
+## 2026-07-30T15:10Z · iter 874 · REVIEW · review-874-fr-phase-9-link-audit
+What: Audited all 5 FR Phase FR-9 guides (bethlehem-travel-guide, vegan-vegetarian-israel,
+israel-for-french-travelers, best-hotels-netanya, eilat-beach-guide) for link prefix
+correctness, meta length (≤65/≤160), H1 absence, honesty, and metropolitan French register.
+Bugs found: 5 meta overruns across 4 files:
+  - vegan-vegetarian-israel.md: title 75→61 chars ("Végétalien en Israël : Tel Aviv, Jérusalem, Haïfa (2026)"); desc 200→151 chars
+  - israel-for-french-travelers.md: title 78→58 chars ("Israël pour les Français : ETA-IL, vols et conseils 2026")
+  - best-hotels-netanya.md: desc 167→133 chars
+  - eilat-beach-guide.md: desc 169→133 chars
+bethlehem-travel-guide.md: CLEAN (all links /fr/ prefixed, meta ≤65/≤160, no H1, West Bank neutral framing correct).
+All 27 internal links across 5 guides verified /fr/ prefixed; all 28 referenced FR pages confirmed existing.
+No H1 violations in any guide body.
+Honesty: no fabricated prices/ratings; West Bank/Bethlehem neutral; reef-safe mandatory; Dolphin Reef semi-wild; Assurance Maladie/CEAM not valid — all correct. Register: metropolitan French ✓.
+Note: Notre-Dame de France operator attribution in israel-for-french-travelers.md remains BACKLOG blocked:human-review-required — not auto-corrected per safety rules.
+Gate: pnpm check 0 errors; pnpm build 1122 pages (no change); pnpm test:e2e 1537/1537 pass (14.9m).
+Ship: committed to master 1c46341951b02136c24e0515665e8164a96b5adc; pushed.
+CI: in_progress (CI run 30553793409, Lighthouse run 30553793478, started 2026-07-30T14:51Z).
+Next: iter 875 → RESEARCH (875%5==0). 177th research pass. Candidates: DE Phase DE-9 definition review, ES Phase ES-18 definition, freshness checks (Gordonia Zichron Yaakov, InterContinental Jerusalem), competitor gaps for remaining FR/DE/ES coverage.
