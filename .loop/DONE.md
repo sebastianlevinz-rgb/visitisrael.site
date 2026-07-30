@@ -1494,3 +1494,6 @@ best-hotels-haifa (Colonie Allemande / Carmel / Port + Carmelit shabbat),
 ashdod-cruise-port-excursions (Jérusalem + Mer Morte + Tel Aviv timing + West Bank honest caveat),
 best-hotels-negev (Beresheet / Selina / Ramon Inn / HI Beit Noam + zimmer).
 FR guides: 117→122/396. Build: 1081→1086 pages. 1455→1465 e2e pass.
+
+## iter864 · REVIEW · review-864-de-phase6-link-fixes · ae9dacc0
+- Audited DE Phase DE-6 (5 guides). 5 bugs fixed: 2 link prefix bugs (cycling-in-israel /tel-aviv-white-city + dead-sea-hotels-guide /masada-dead-sea-day-trip both upgraded to /de/), 1 typo (Konfessiosmskarte→Konfessionskarte), 2 desc overruns trimmed (163→138 and 177→149 chars). Build unchanged: 1096 pages. 1485/1485 e2e pass.

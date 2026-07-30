@@ -13089,3 +13089,9 @@ Fix: 3 broken internal links found by links.spec.ts and fixed before merge: /de/
 Gate: pnpm check 0 errors; pnpm build 1091→1096 pages (+5); pnpm test:e2e 1485/1485 pass (12.0m). All gates GREEN.
 Ship: squash-merged eda39a8a to master; pushed. PR #34 auto/de-phase-6 → master (draft, CI passing).
 Next: iter 864 → REVIEW (864%5==4). Top REVIEW candidates: DE Phase DE-6 link audit, FR Phase FR-8 P1/M.
+
+## 2026-07-30T03:50Z · iter 864 · REVIEW · review-864-de-phase6-link-fixes
+What: Audited all 5 DE Phase DE-6 guides (christmas-in-israel, church-of-nativity-guide, cycling-in-israel, dead-sea-hotels-guide, dead-sea-vs-eilat) for link prefix correctness, meta length, honesty, and Hochdeutsch register. 5 bugs fixed: (1) cycling-in-israel.md /tel-aviv-white-city→/de/tel-aviv-white-city (DE version exists); (2) dead-sea-hotels-guide.md /masada-dead-sea-day-trip→/de/masada-dead-sea-day-trip (DE version exists); (3) church-of-nativity-guide.md desc typo "Konfessiosmskarte"→"Konfessionskarte"; (4) cycling-in-israel.md desc 163→138 chars; (5) dead-sea-vs-eilat.md desc 177→149 chars. Intentional EN fallbacks confirmed: /bethlehem-travel-guide, /eilat-hotels-guide, /eilat-vs-aqaba (DE versions absent). Honesty clean; West Bank neutral framing intact; Standard Hochdeutsch throughout.
+Gate: pnpm check 0 errors; build 1096 pages; 1485/1485 e2e pass (11.9m). GREEN.
+Ship: squash-merged ae9dacc0 to master; pushed. CI+Lighthouse in-progress at push time.
+Next: iter 865 → RESEARCH (865%5==0). Top candidates: FR Phase FR-8 P1/M, DE Phase DE-7 TBD, israel-for-vietnamese-travelers P2/S.

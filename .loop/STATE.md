@@ -1,13 +1,15 @@
 # LOOP STATE
 
-- iteration: 863
-- lastMode: BUILD
-- lastItem: de-phase-6
-- lastResult: BUILD iter863 — DE Phase DE-6 SHIPPED eda39a8a. 5 DE guides: christmas-in-israel (drei Weihnachtsfeste kath/orth/armenisch; Mitternachtsmesse Geburtskirche; Checkpoint 300; Nazareth Weihnachtsmarkt; Heilig-Grab Jerusalem; Winterreisevorteile), church-of-nativity-guide (Demutspforte; Geburtsgrotte + Geburtstern; Konfessionskarte Status Quo 6 Konfessionen; Katharinenkirche + Hieronymus-Höhle; Kleiderordnung; West-Bank-neutral von EN), cycling-in-israel (Tel Aviv 150km+ Radwege; Tel-O-Fun 4 Schritte; 4 Hauptrouten Tayelet/Yarkon/Weiße Stadt/Jaffa; Kinneret/Golan/Negev MTB/Yahel-Timna 2026/IBT), dead-sea-hotels-guide (Ein-Bokek-Resort-Meile 3 Tiers ₪-Bereiche; Ein Gedi Kibbuz ₪480-600; Saisonpreistabelle 12 Monate; Bus 486 Tagesausflug), dead-sea-vs-eilat (8-Kriterien-Tabelle; Wähle Totes Meer/Eilat wenn; 5-Tage-Südschleife; ehrliche Dolphin-Reef-Note). Standard Hochdeutsch; YAML double-quotes; /de/* only confirmed existing; 3 broken links fixed (bethlehem-travel-guide/eilat-hotels-guide/eilat-vs-aqaba → EN fallbacks). +10 tests (5 smoke + 5 a11y). Gate: pnpm check 0 errors; build 1091→1096 pages; 1485/1485 e2e pass (12.0m).
-- nextRotationCategory: REVIEW (864%5==4)
+- iteration: 864
+- lastMode: REVIEW
+- lastItem: review-864-de-phase6-link-fixes
+- lastResult: REVIEW iter864 — review-864-de-phase6-link-fixes SHIPPED ae9dacc0. Audited all 5 DE Phase DE-6 guides (christmas-in-israel, church-of-nativity-guide, cycling-in-israel, dead-sea-hotels-guide, dead-sea-vs-eilat). 5 bugs fixed: (1) cycling-in-israel.md /tel-aviv-white-city→/de/tel-aviv-white-city; (2) dead-sea-hotels-guide.md /masada-dead-sea-day-trip→/de/masada-dead-sea-day-trip; (3) church-of-nativity-guide.md desc typo "Konfessiosmskarte"→"Konfessionskarte"; (4) cycling-in-israel.md desc 163→138 chars; (5) dead-sea-vs-eilat.md desc 177→149 chars. Intentional EN fallbacks confirmed: /bethlehem-travel-guide, /eilat-hotels-guide, /eilat-vs-aqaba (no DE versions exist). Honesty clean; all prices ranges; Dolphin Reef note preserved; West Bank neutral framing intact. Register: all 5 consistently Standard Hochdeutsch. Gate: pnpm check 0 errors; build 1096 pages; 1485/1485 e2e pass (11.9m). CI in-progress at push time.
+- nextRotationCategory: BUILD (865%5==0 → RESEARCH; but if RESEARCH mode, proceed as research)
 - higgsfieldSpent: 0
-- updatedAt: 2026-07-30T03:10Z
+- updatedAt: 2026-07-30T03:50Z
 - branch context: work on master; feature work on auto/<slug>
+
+Notes: iter864 REVIEW — review-864-de-phase6-link-fixes SHIPPED ae9dacc0. Audited all 5 DE Phase DE-6 guides. 2 link prefix bugs + 1 typo + 2 desc overruns fixed. Build: 1096 pages (no change). 1485/1485 e2e pass.
 
 Notes: iter863 BUILD — DE Phase DE-6 SHIPPED eda39a8a. 5 DE guides christmas-in-israel, church-of-nativity-guide, cycling-in-israel, dead-sea-hotels-guide, dead-sea-vs-eilat. 3 broken links fixed to EN fallbacks. DE guides: 112→117/396. Build: 1091→1096 pages. 1485/1485 e2e pass.
 
@@ -25,4 +27,4 @@ Notes: iter848 BUILD (i18n-DE) — de-phase-4 SHIPPED 399f791d. DE Phase DE-4: 5
 
 Cron b7325b16 hourly @ :17. Loop history: 19 tools + sitemap-lastmod + link-checker(+depth) + i18n
 Phase0/1a/1b/1c/2 Batches1-18(COMPLETE) + 48 review passes + 4 technical (event-schema + meta-trim + locale-links + freshness-688) + 81 EN guides + 7 tools-monetization + 2 comparisons;
-research iters 5/10/20/30/35/40/45/50/55/60/65/70/75/80/85/90/95/100/105/110/115/120/125/130/135/140/145/150/155/160/165/170/175/180/185/190/195/200/205/210/215/220/225/230/235/240/245/250/255/260/265/270/275/280/285/290/295/300/305/310/315/320/325/330/335/340/345/350/355/360/365/370/375/380/385/390/395/400/405/410/420/425/430/435/440/445/450/455/460/465/470/480/485/490/495/500/505/510/515/520/525/535/540/545/550/555/560/565/570/575/580/585/590/595/600/605/610/615/620/625/630/635/640/645/650/655/660/665/670/675/680/685/690/695/700/705/710/715/720/725/730/735/740/745/750/755/760/765/775/785/790/810/815/820/825/835/840/845/850/859.
+research iters 5/10/20/30/35/40/45/50/55/60/65/70/75/80/85/90/95/100/105/110/115/120/125/130/135/140/145/150/155/160/165/170/175/180/185/190/195/200/205/210/215/220/225/230/235/240/245/250/255/260/265/270/275/280/285/290/295/300/305/310/315/320/325/330/335/340/345/350/355/360/365/370/375/380/385/390/395/400/405/410/420/425/430/435/440/445/450/455/460/465/470/480/485/490/495/500/505/510/515/520/525/535/540/545/550/555/560/565/570/575/580/585/590/595/600/605/610/615/620/625/630/635/640/645/650/655/660/665/670/675/680/685/690/695/700/705/710/715/720/725/730/735/740/745/750/755/760/765/775/785/790/810/815/820/825/835/840/845/850/859/864.
