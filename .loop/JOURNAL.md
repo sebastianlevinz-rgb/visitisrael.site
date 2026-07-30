@@ -13119,3 +13119,30 @@ Fix: First e2e run found 1 broken link (/yad-vashem-guide → should be /yad-vas
 Gate: pnpm check 0 errors; build 1097 pages; 1487/1487 e2e pass (23.5m). GREEN.
 Ship: squash-merged 00062314 to master; pushed. PR #35 draft at github.com/sebastianlevinz-rgb/visitisrael.site/pull/35.
 Next: iter 867 → BUILD (867%5==2; seo-content rotation). Top candidates: DE Phase DE-7 P1/M (yad-vashem-visitor-guide, golan-heights-guide, eilat-travel-guide, dead-sea-tours-compared, western-wall-guide — DEFINED iter865).
+
+## 2026-07-30T07:30Z · iter 866-b · BUILD · fr-phase-8
+Mode: BUILD (concurrent parallel execution alongside iter866-a / egypt-jordan-israel-itinerary).
+Item: FR Phase FR-8 — 5 French guides completing Dead Sea cluster + Tiberias + cycling [BACKLOG P1/M].
+Context: Two iter866 runs fired simultaneously from the same iter865 STATE.md. The concurrent run
+(iter866-a) shipped egypt-jordan-israel-itinerary (00062314). This run shipped fr-phase-8 (fe3dea89),
+rebased on top of the concurrent push. STATE.md bumped to iter867 to reflect both 866 runs complete.
+What: 5 new FR guides:
+  1. dead-sea-hotels-guide — Ein Bokek resort strip; 3-tier pricing (luxe 1400+ ₪, mid 700–1400 ₪,
+     budget 480–600 ₪); seasonal pricing table; 3 affiliate CTAs (booking, getyourguide, viator).
+  2. dead-sea-tours-compared — 5 tour format comparison table (guided seul, Massada combo,
+     voiture location, voiture+Massada, guide privé); 6 FAQs; 3 affiliate CTAs.
+  3. dead-sea-day-trip-comparison — Jerusalem vs Tel Aviv departure comparison table (drive time,
+     tour duration, Massada feasibility, float time, price range); 6 FAQs; 2 affiliate CTAs.
+  4. best-hotels-tiberias — 6 property profiles (Scots Hotel 5★, U Boutique 4★, Nof Ginosar 3★,
+     Leonardo Club 4★, Ein Gev 2★, budget options); decision matrix table; 2 affiliate CTAs; 6 FAQs.
+  5. cycling-in-israel — Tel-O-Fun 4-step system; 4 Tel Aviv routes (Tayelet 12km, Yarkon 10km,
+     White City Bauhaus loop, Tayelet→Jaffa); cycling elsewhere (Galilee 60km, Golan, Negev/IBT);
+     2 affiliate CTAs; 7 FAQs; Yahel–Timna singletrack 2026 noted.
+10 new e2e tests (5 smoke.spec.ts + 5 a11y.spec.ts).
+Gate: pnpm check 0 errors (138 files, 0 errors, 0 warnings); build 1101 pages on branch
+(1102 effective after rebase with concurrent 866); 1495/1495 e2e pass (16.2m). GREEN.
+Ship: squash-merged auto/fr-phase-8 → master (fe3dea89); rebased on 2e12ff67 (concurrent 866);
+pushed as fe3dea89. FR guides: 122→127/396. Build: ~1102 pages. ES: 85/396 (ES-16 SHIPPED iter862).
+Next: iter 867 → BUILD (867%5==2; seo-content rotation). Top candidate: DE Phase DE-7 P1/M
+(yad-vashem-visitor-guide, golan-heights-guide, eilat-travel-guide, dead-sea-tours-compared,
+western-wall-guide — DEFINED iter865).

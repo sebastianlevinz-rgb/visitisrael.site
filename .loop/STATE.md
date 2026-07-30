@@ -1,13 +1,15 @@
 # LOOP STATE
 
-- iteration: 866
+- iteration: 867
 - lastMode: BUILD
-- lastItem: egypt-jordan-israel-itinerary
-- lastResult: BUILD iter866 — egypt-jordan-israel-itinerary SHIPPED 00062314. New 3-country Middle East itinerary guide covering Route A (Israel-first) and Route B (Egypt-first), Wadi Araba / Aqaba-Nuweiba ferry / Taba border crossings, 14-day and 10-day sample itinerary tables, tour operator notes, practical visa/money/safety notes. Cross-links added to israel-egypt-guide, israel-jordan-itinerary, best-holy-land-tours. 3 affiliate CTAs: tourradar, abraham, booking. 7 FAQs. Smoke + a11y tests updated. Build: 1097 pages (+1). Gate: 1487/1487 e2e pass.
-- nextRotationCategory: seo-content (867%5==2 → BUILD; seo-content rotation)
+- lastItem: fr-phase-8
+- lastResult: BUILD iter866-b — fr-phase-8 SHIPPED fe3dea89. 5 FR guides: dead-sea-hotels-guide (Ein Bokek 3-tier + seasonal pricing), dead-sea-tours-compared (5 tour format comparison), dead-sea-day-trip-comparison (Jerusalem vs Tel Aviv departure), best-hotels-tiberias (6 property profiles + decision matrix), cycling-in-israel (Tel-O-Fun + 4 Tel Aviv routes + IBT). 10 new e2e tests (5 smoke + 5 a11y). FR guides: 122→127/396. Build: 1101 pages on branch (1102 after rebase with concurrent 866). Gate: 1495/1495 e2e pass.
+- nextRotationCategory: BUILD (867%5==2 → BUILD; seo-content rotation)
 - higgsfieldSpent: 0
-- updatedAt: 2026-07-30T07:00Z
+- updatedAt: 2026-07-30T07:30Z
 - branch context: work on master; feature work on auto/<slug>
+
+Notes: iter866-b BUILD — fr-phase-8 SHIPPED fe3dea89. Two iter866 runs executed concurrently (parallel loop fire): iter866-a shipped egypt-jordan-israel-itinerary (00062314); iter866-b shipped fr-phase-8 (fe3dea89, rebased on top). FR guides: 122→127/396. 1495/1495 e2e pass.
 
 Notes: iter866 BUILD — egypt-jordan-israel-itinerary SHIPPED 00062314. 3-country Middle East itinerary guide (Route A/B, all 3 border crossings, 10-day+14-day frameworks, 3 affiliate CTAs). Cross-links: israel-egypt-guide + israel-jordan-itinerary + best-holy-land-tours. 1097 pages. 1487/1487 e2e pass.
 
