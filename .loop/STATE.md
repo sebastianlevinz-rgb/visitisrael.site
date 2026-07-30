@@ -1,13 +1,15 @@
 # LOOP STATE
 
-- iteration: 872
-- lastMode: REVIEW
-- lastItem: review-872-es-phase-17-link-audit
-- lastResult: REVIEW iter872 SHIPPED bcc1ece9. Audited all 5 ES Phase ES-17 guides. 10 link prefix bugs fixed across 4 files (dead-sea-israel-vs-jordan: 5 links; jaffa-travel-guide: 1 link; tel-aviv-vs-jerusalem: 4 links; vegan-vegetarian-israel: 2 links). 1 title overrun (jaffa: 68→60) + 4 desc overruns fixed. israel-for-argentinian-travelers: CLEAN. Gate: 0 errors; 1117 pages (no change); 1527/1527 e2e pass (16.0m). CI: in_progress (runs 30544955456 + 30544955553).
-- nextRotationCategory: BUILD (873%5==3; i18n-FR Phase FR-9 next)
+- iteration: 873
+- lastMode: BUILD
+- lastItem: fr-phase-9
+- lastResult: BUILD iter873 SHIPPED 3a3f1b1f. 5 FR guides (bethlehem-travel-guide, vegan-vegetarian-israel, israel-for-french-travelers, best-hotels-netanya, eilat-beach-guide). Metropolitan French; YAML double-quotes; /fr/* links confirmed-existing only; West Bank/Bethlehem neutral framing; reef-safe sunscreen honesty; Netanya ~60K francophones; ETA-IL since Jan 2025; Assurance Maladie not valid. FR guides: 127→132/397. Build: 1117→1122 pages (+5). 1537/1537 e2e pass (11.8m). CI: in_progress (runs 30549936948 + 30549937112).
+- nextRotationCategory: REVIEW (874%5==4)
 - higgsfieldSpent: 0
-- updatedAt: 2026-07-30T13:05Z
+- updatedAt: 2026-07-30T14:30Z
 - branch context: work on master; feature work on auto/<slug>
+
+Notes: iter873 BUILD — fr-phase-9 SHIPPED 3a3f1b1f. 5 FR guides (bethlehem-travel-guide, vegan-vegetarian-israel, israel-for-french-travelers, best-hotels-netanya, eilat-beach-guide). FR guides: 127→132/397. Build: 1117→1122 pages. 1537/1537 e2e pass. CI in_progress.
 
 Notes: iter872 REVIEW — review-872-es-phase-17-link-audit SHIPPED bcc1ece9. Audited all 5 ES Phase ES-17 guides. 10 link prefix bugs + 1 title overrun + 4 desc overruns fixed (12 total fixes in 4 files). israel-for-argentinian-travelers CLEAN. Gate: 0 errors; 1117 pages; 1527/1527 e2e pass. CI in_progress.
 

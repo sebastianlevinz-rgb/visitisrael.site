@@ -13277,3 +13277,18 @@ Ship: committed directly on master bcc1ece9; pushed.
 CI: in_progress (Lighthouse run 30544955456, CI run 30544955553, started 2026-07-30T13:00Z).
 Next: iter 873 → BUILD (873%5==3; i18n-FR Phase FR-9: bethlehem-travel-guide, vegan-vegetarian-israel,
   israel-for-french-travelers, best-hotels-netanya, eilat-beach-guide).
+
+## 2026-07-30T14:30Z · iter 873 · BUILD · fr-phase-9
+What: 5 metropolitan French guides (FR Phase FR-9). Targets confirmed missing from src/content/guides/fr/:
+  - bethlehem-travel-guide: completes FR Bethlehem cluster; Checkpoint 300 logistics + West Bank Zone A neutral framing; Church of the Nativity Status Quo six-denomination; Place de la Mangeoire + Champ des Bergers + barrière de séparation/Banksy art; Palestinian crafts; 3 affiliate CTAs (getyourguide, viator, booking/car)
+  - vegan-vegetarian-israel: "Israël végan/végétarien" zero FR editorial; Tel Aviv ~5% vegan per capita; key dishes (houmous, falafel, shakshuka, sabich, msabbaha); restaurants (Meshek Barzilay, Green Cat, HaKosem, Abu Hassan); kashrut system (parve/milchik/basari); Jerusalem, Haïfa, Hebrew supermarket labels; 2 affiliate CTAs
+  - israel-for-french-travelers: ETA-IL required since Jan 2025 (iaa.gov.il, ₪25); Air France 3-4 daily CDG-TLV + Transavia + El Al; Assurance Maladie/CEAM not valid → assurance voyage required; Lydia/PayLib don't work in Israel; Type E→H adapter; ~500K French Jewish diaspora; Sephardic heritage sites; Notre-Dame de France; CPAM gap; embassy contacts; quick reference table; 3 affiliate CTAs
+  - best-hotels-netanya: ~60K francophones in Netanya (~30% population); cliff-top Independence Square zone, beach access zone, city centre, Leonardo Club zone; Budget ₪400-650, mid-range ₪650-1,100 (Ramada + Leonardo Club all-inclusive), boutique/upper-end ₪1,200+ (Seasons Hotel + David Tower); decision matrix; July-August + French school holiday price peaks; 1 affiliate CTA (booking)
+  - eilat-beach-guide: Plage Nord (free, resort strip, 2km arc), Réserve naturelle de la Plage de Corail (~₪30 INPA, reef-safe sunscreen mandatory, INPA enforces), Plage Almog (free, new city beach 2025/2026 upgrade, permanent lifeguard designation), Dolphin Reef; comparison table; which beach to choose guidance; 2 affiliate CTAs (booking, getyourguide)
+Quality: metropolitan French; YAML double-quotes on apostrophe fields; /fr/* prefix only for confirmed existing FR pages; no fabricated prices/ratings; West Bank/Bethlehem neutral framing; Church of the Nativity Status Quo honesty; reef-safe sunscreen mandatory (honesty); no H1 in body (AUD-008).
+10 new e2e tests (5 smoke routes + 5 a11y routes added to spec files).
+Gate: pnpm check 0 errors; build 1122 pages (1117+5); pnpm test:e2e 1537/1537 pass (11.8m).
+Merge: committed directly to master 3a3f1b1f; pushed.
+Prod: CI in_progress (run 30549936948; Lighthouse run 30549937112, started 2026-07-30).
+FR guides: 127→132/397. Build pages: 1117→1122.
+Next: iter 874 → REVIEW (874%5==4). Candidate: review-874-fr-phase-9-link-audit.

@@ -6,19 +6,19 @@
 >
 > One bounded slice per loop iteration. NEVER bulk-translate in one shot.
 
-## Current status snapshot (2026-07-30 iter867 BUILD de-phase-7)
+## Current status snapshot (2026-07-30 iter873 BUILD fr-phase-9)
 
 | Locale | Guides | Attractions | Regions | Itineraries |
 |--------|--------|-------------|---------|-------------|
-| en     | 396    | 65          | 11      | 6           |
-| fr     | 127    | 61          | 11      | 6           |
-| de     | 122    | 61          | 11      | 6           |
-| es     | 85     | 61          | 11      | 6           |
+| en     | 397    | 65          | 11      | 6           |
+| fr     | 132    | 61          | 11      | 6           |
+| de     | 127    | 61          | 11      | 6           |
+| es     | 90     | 61          | 11      | 6           |
 
 **Gaps to close:**
-- es guides: **311 missing** (85/396 done — Phase ES-16 SHIPPED iter862; **Phase ES-17 TBD**)
-- fr guides: **269 missing** (127/396 done — Phase FR-8 SHIPPED iter866-b; **Phase FR-9 TBD**)
-- de guides: **269 missing** (127/396 done — Phase DE-8 SHIPPED iter868 3f8807e4; **Phase DE-9 TBD**)
+- es guides: **307 missing** (90/397 done — Phase ES-17 SHIPPED iter871; **Phase ES-18 TBD**)
+- fr guides: **265 missing** (132/397 done — Phase FR-9 SHIPPED iter873; **Phase FR-10 TBD**)
+- de guides: **270 missing** (127/397 done — Phase DE-8 SHIPPED iter868 3f8807e4; **Phase DE-9 TBD**)
 - fr/de/es attractions: **4 missing each** (the 4 EN attractions added after Phase 4)
 
 **Dead Sea cluster status (iter855 audit):**
@@ -273,6 +273,15 @@ Take the top 5 by priority (or head -5 if priority not obvious), translate each 
   Jerusalem vs Tel Aviv departure comparison table; 6 property profiles Tiberias with decision matrix;
   Tel-O-Fun 4-step system + 4 Tel Aviv routes + Negev MTB + IBT 1200km.
   10 new e2e tests (5 smoke + 5 a11y). FR guides: 122→127/396. Build: ~1102 pages. 1495/1495 e2e pass.
+- Phase FR-9 — SHIPPED iter873 3a3f1b1f:
+  bethlehem-travel-guide, vegan-vegetarian-israel, israel-for-french-travelers,
+  best-hotels-netanya, eilat-beach-guide.
+  Metropolitan French; YAML double-quotes; /fr/* prefix only for confirmed existing FR pages;
+  Checkpoint 300 + West Bank neutral framing; Church of the Nativity Status Quo six-denomination;
+  ETA-IL since Jan 2025; Assurance Maladie not valid (assurance voyage required); Lydia/PayLib
+  not compatible; ~60K francophones in Netanya; reef-safe sunscreen mandatory at Coral Beach;
+  Plage Almog new city beach designation 2025/2026 with permanent lifeguard; no fabricated prices.
+  10 new e2e tests (5 smoke + 5 a11y). FR guides: 127→132/397. Build: 1117→1122 pages. 1537/1537 e2e pass.
 - Phase FR-5 definition text (moved to DONE above) — iter845 research: dead-sea-medical-tourism, netanya-guide,
   eilat-hotels-guide, passover-in-israel, church-of-nativity-guide.
   Rationale: (1) dead-sea-medical-tourism: mer-morte.info = entire niche French site with weak
@@ -387,16 +396,17 @@ Take the top 5 by priority (or head -5 if priority not obvious), translate each 
 
 ---
 
-## Updated status snapshot (iter870 RESEARCH 2026-07-30)
+## Updated status snapshot (iter873 BUILD 2026-07-30)
 
 | Locale | Guides | Note |
 |--------|--------|------|
-| en     | 397    | +1 vs prior snapshot |
-| fr     | 127    | 270 missing — Phase FR-9 defined |
+| en     | 397    | stable |
+| fr     | 132    | 265 missing — Phase FR-9 SHIPPED iter873; Phase FR-10 TBD |
 | de     | 127    | 270 missing — Phase DE-9 defined |
-| es     | 85     | 312 missing — Phase ES-17 defined |
+| es     | 90     | 307 missing — Phase ES-17 SHIPPED iter871; Phase ES-18 TBD |
 
-**De-phase-8 (iter868) and review-869 shipped:** DE guides now 127/397.
+**FR-phase-9 (iter873) shipped:** FR guides now 132/397.
+**ES-phase-17 (iter871) shipped:** ES guides now 90/397.
 **Next phases defined this research pass (iter870):**
 
 ### Phase ES-17 (85 → 90/397) — ready
