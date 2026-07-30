@@ -546,6 +546,11 @@ const ROUTES = [
   '/es/golan-heights-guide',
   '/es/galilee-tours-compared',
   '/es/tiberias-guide',
+  '/de/christmas-in-israel',
+  '/de/church-of-nativity-guide',
+  '/de/cycling-in-israel',
+  '/de/dead-sea-hotels-guide',
+  '/de/dead-sea-vs-eilat',
 ];
 
 for (const route of ROUTES) {
