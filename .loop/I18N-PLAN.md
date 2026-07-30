@@ -6,19 +6,19 @@
 >
 > One bounded slice per loop iteration. NEVER bulk-translate in one shot.
 
-## Current status snapshot (2026-07-30 iter873 BUILD fr-phase-9)
+## Current status snapshot (2026-07-30 iter876 BUILD es-phase-18)
 
 | Locale | Guides | Attractions | Regions | Itineraries |
 |--------|--------|-------------|---------|-------------|
 | en     | 397    | 65          | 11      | 6           |
 | fr     | 132    | 61          | 11      | 6           |
 | de     | 127    | 61          | 11      | 6           |
-| es     | 90     | 61          | 11      | 6           |
+| es     | 95     | 61          | 11      | 6           |
 
 **Gaps to close:**
-- es guides: **307 missing** (90/397 done — Phase ES-17 SHIPPED iter871; **Phase ES-18 TBD**)
-- fr guides: **265 missing** (132/397 done — Phase FR-9 SHIPPED iter873; **Phase FR-10 TBD**)
-- de guides: **270 missing** (127/397 done — Phase DE-8 SHIPPED iter868 3f8807e4; **Phase DE-9 TBD**)
+- es guides: **302 missing** (95/397 done — Phase ES-18 SHIPPED iter876 5cf2bf65; **Phase ES-19 TBD**)
+- fr guides: **265 missing** (132/397 done — Phase FR-9 SHIPPED iter873; **Phase FR-10 ready iter875**)
+- de guides: **270 missing** (127/397 done — Phase DE-8 SHIPPED iter868 3f8807e4; **Phase DE-9 ready iter875**)
 - fr/de/es attractions: **4 missing each** (the 4 EN attractions added after Phase 4)
 
 **Dead Sea cluster status (iter855 audit):**
@@ -78,7 +78,7 @@ Take the top 5 by priority (or head -5 if priority not obvious), translate each 
 
 ## Progress tracker
 
-### ES guides (90 / 397)
+### ES guides (95 / 397)
 - Phase ES-0 — DONE. iter799 shipped 5/394:
   first-time-in-israel, visa-information, best-time-to-visit-israel,
   israel-cost-budget, transportation (02b1058).
@@ -198,6 +198,14 @@ Take the top 5 by priority (or head -5 if priority not obvious), translate each 
   Magdala/Migdal; /es/ prefix for confirmed existing ES pages only; no fabricated prices; Bahá'í
   active-site caveat; cycling prices as ranges only. 10 new tests (5 smoke + 5 a11y).
   ES guides: 75→80/396. Build: 1071→1081 pages. 1445→1455 e2e pass.
+- Phase ES-18 — SHIPPED. iter876 5cf2bf65:
+  sea-of-galilee-guide, netanya-guide, best-hotels-negev, best-hotels-netanya, passover-in-israel.
+  Neutral LATAM Spanish tuteo; YAML double-quotes; /es/ prefix only for confirmed-existing ES pages;
+  all ₪ as ranges only; Yardenit "popular... no necesariamente histórico" honesty; Stern Diamond
+  Factory commercial nature disclosed; Beresheet/Succah/Selina Ramon price ranges; Pesaj 5787
+  April 22–29 2027; Birkat Kohanim logistics; tourist Seder options; no fabricated prices.
+  10 new e2e tests (5 smoke + 5 a11y). ES guides: 90→95/397. Build: 1122→1127 pages (+5).
+  1547/1547 e2e pass. Gate: 0 errors.
 
 ### FR guide catch-up (127 / 396 = 269 remaining)
 - Phase FR-1 — DONE. iter828 shipped ff27fd98:
@@ -445,24 +453,29 @@ Guides: `masada-visitor-guide.md`, `haifa-travel-guide.md`, `galilee-christian-s
 - birdwatching-in-israel: France = LPO (Ligue pour la Protection des Oiseaux, ~45K members, one of Europe's largest bird protection organizations); "ornithologie Israël" / "observation oiseaux Israël" zero FR editorial confirmed; Israel's tri-continental Afro-Eurasian flyway + Eilat IBRCE + Hula Valley = world-class sites; exists in EN + ES (Phase ES-12, iter841); ecotourism/nature market growing in France
 Quality: metropolitan French; YAML double-quotes; /fr/* prefix confirmed-existing pages only; no fabricated prices.
 
-### Phase ES-18 (90 → 95/397) — ready
+### Phase ES-18 (90 → 95/397) — SHIPPED iter876 5cf2bf65
 Guides: `sea-of-galilee-guide.md`, `netanya-guide.md`, `best-hotels-negev.md`, `best-hotels-netanya.md`, `passover-in-israel.md`
-- sea-of-galilee-guide: "Mar de Galilea guía" / "Lago Kinneret Israel" MISSING from ES confirmed; LATAM pilgrimage base; already have best-hotels-sea-of-galilee (ES-15) + galilee-christian-sites-circuit (ES-15) + best-hotels-tiberias (ES-14) but missing the main lake overview guide; Kinneret boat + Capernaum + Tabgha + Yardenit + 4 shores + baptism site logistics; anchors the FR Galilee cluster
-- netanya-guide: "Netanya guía de viaje" / "playa Netanya Israel" MISSING from ES confirmed; Mediterranean beach city on Israeli coast; pairs with best-hotels-netanya (also in this batch); connects LATAM family beach tourism to Israel's most accessible Mediterranean coast north of TLV; train from BGA 45min
-- best-hotels-negev.md: "Hoteles Néguev / Mitzpe Ramon" MISSING from ES confirmed; LATAM eco-tourism + desert adventure; pairs with ES 3-days-in-negev (Phase ES-3) + cycling-in-israel (Phase ES-15); Gordonia Zichron Yaakov excluded (not Negev); Beresheet Desert hotel + Mitzpe Ramon alternatives + Ramon Crater glamping; Booking.com affiliate
-- best-hotels-netanya.md: MISSING from ES confirmed; pairs with netanya-guide; Mediterranean beach hotels 3 tiers; Seasons Hotel + Leonardo Club all-inclusive + Ramada + budget pensions; Booking.com affiliate; French school holiday peaks note (Netanya francophone community context lite)
-- passover-in-israel.md: "Pesaj en Israel" / "Pascua judía Israel" MISSING from ES confirmed; LATAM Jewish diaspora (Argentina ~180K Jewish community, Brazil ~95K, Mexico ~40K, Colombia ~6K, Uruguay ~18K) = very high reader relevance; also serves Catholic LATAM awareness of Jewish holy days; zero ES editorial competitor; Pessah 5787 = April 22–29 2027; what's open/closed guide; Jerusalem Old City crowds; seder for tourists; airport/transport logistics; pairs with existing ES christmas-in-israel; seasonal with strong evergreen value
-Quality: neutral LATAM Spanish tuteo; YAML double-quotes; /es/* prefix confirmed-existing pages only; no fabricated prices; Pessah dates verified.
+SHIPPED iter876 SHA 5cf2bf65. ES guides: 90→95/397. Build: 1122→1127 pages. 1547/1547 e2e pass. Gate: 0 errors.
+- sea-of-galilee-guide: 4 shores, Kinneret cycling circuit, Yardenit honesty note, 3 CTAs, 6 FAQs.
+- netanya-guide: cliff promenade, French connection ~60K francophones, Stern Diamond Factory, Poleg Blue Flag, 2 CTAs, 6 FAQs.
+- best-hotels-negev: Beresheet, Selina Ramon, Ramon Inn, Succah in the Desert (off-grid caveat), HI Beit Noam, decision matrix, 7 FAQs.
+- best-hotels-netanya: 4 zones, 3 tiers, decision matrix, Shabbat note, French school holiday peaks, 6 FAQs.
+- passover-in-israel: Pesaj 5787 Apr 22-29 2027, hotel programs, tourist Seder options, Birkat Kohanim, open/closed guide, 7 FAQs.
+Quality: neutral LATAM Spanish tuteo; YAML double-quotes; /es/* prefix confirmed-existing pages only; no fabricated prices; all ₪ ranges only; Yardenit honest framing preserved.
 
 ---
 
-## Updated status snapshot (iter875 RESEARCH 2026-07-30)
+## Updated status snapshot (iter876 BUILD 2026-07-30)
 
 | Locale | Guides | Note |
 |--------|--------|------|
 | en     | 397    | stable |
-| fr     | 132    | 265 missing — Phase FR-9 SHIPPED iter873; **Phase FR-10 defined iter875** |
-| de     | 127    | 270 missing — Phase DE-9 defined iter870; **all 5 confirmed missing** |
-| es     | 90     | 307 missing — Phase ES-17 SHIPPED iter871; **Phase ES-18 defined iter875** |
+| fr     | 132    | 265 missing — Phase FR-9 SHIPPED iter873; **Phase FR-10 ready iter875** |
+| de     | 127    | 270 missing — Phase DE-9 ready iter875; **all 5 confirmed missing** |
+| es     | 95     | 302 missing — Phase ES-18 SHIPPED iter876 5cf2bf65; **Phase ES-19 TBD** |
 
+**ES-phase-18 (iter876) shipped:** ES guides now 95/397.
+**Next phases ready:**
+- Phase FR-10: masada-visitor-guide, haifa-travel-guide, galilee-christian-sites-circuit, day-trips-from-eilat, birdwatching-in-israel
+- Phase DE-9: ashdod-cruise-port-excursions, best-hotels-sea-of-galilee, vegan-vegetarian-israel, israel-for-german-travelers, best-hotels-negev
 **Freshness (iter875):** Gordonia Zichron Yaakov confirmed opened February 1, 2026 (141 rooms, 81m infinity pool, adults 10+, Gordonia Hotels brand). BACKLOG Gordonia item upgraded P3→P2 with confirmed date. InterContinental Jerusalem: still "late summer 2026" per IHG listing; check August/September 2026. easyJet TLV: guide correctly shows suspended/late-October-2026 due to Operation Rising Lion (Iran conflict June 2026).

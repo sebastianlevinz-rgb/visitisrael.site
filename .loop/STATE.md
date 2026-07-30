@@ -1,13 +1,15 @@
 # LOOP STATE
 
-- iteration: 875
-- lastMode: RESEARCH
-- lastItem: research-875-fr10-es18-freshness
-- lastResult: RESEARCH iter875 177th pass. DE-9 confirmed ready (all 5 missing from DE). FR-10 defined (masada-visitor-guide, haifa-travel-guide, galilee-christian-sites-circuit, day-trips-from-eilat, birdwatching-in-israel). ES-18 defined (sea-of-galilee-guide, netanya-guide, best-hotels-negev, best-hotels-netanya, passover-in-israel). Gordonia Zichron Yaakov opened Feb 1, 2026 (BACKLOG P3→P2 corrected). easyJet guide accurate. InterContinental Jerusalem still pre-open. No code changes.
-- nextRotationCategory: BUILD (876%5==1)
+- iteration: 876
+- lastMode: BUILD
+- lastItem: es-phase-18
+- lastResult: ES-18 SHIPPED 5cf2bf65. 5 ES guides (sea-of-galilee-guide, netanya-guide, best-hotels-negev, best-hotels-netanya, passover-in-israel). ES guides: 90→95/397. Build: 1122→1127 pages (+5). 1547/1547 e2e pass. CI in_progress.
+- nextRotationCategory: BUILD (877%5==2)
 - higgsfieldSpent: 0
-- updatedAt: 2026-07-30T15:45Z
+- updatedAt: 2026-07-30T16:30Z
 - branch context: work on master; feature work on auto/<slug>
+
+Notes: iter876 BUILD — es-phase-18 SHIPPED 5cf2bf65. 5 ES guides: sea-of-galilee-guide (4 shores, Kinneret circuit, Yardenit honesty note), netanya-guide (cliff promenade, French connection, Stern Diamond Factory), best-hotels-negev (Beresheet, Selina Ramon, Succah in the Desert, decision matrix), best-hotels-netanya (4 zones, 3 tiers, decision matrix), passover-in-israel (Pesaj 5787 Apr 22-29 2027, hotel programs, tourist Seder options, Birkat Kohanim). 10 new e2e tests (5 smoke + 5 a11y). Gate: 0 errors / 1127 pages / 1547/1547 pass.
 
 Notes: iter875 RESEARCH — 177th research pass. FR-10 + ES-18 defined in I18N-PLAN.md + BACKLOG. Gordonia Zichron Yaakov freshness item upgraded P3→P2 with confirmed Feb 1 2026 opening date. No shipping.
 
