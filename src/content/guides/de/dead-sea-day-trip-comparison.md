@@ -58,7 +58,7 @@ Das Tote Meer ist der beliebteste Tagesausflug sowohl von Jerusalem als auch von
 
 Jerusalem ist die nächstgelegene Großstadt zum Toten Meer und der beliebteste Abfahrtsort für Tourgruppen. Die Fahrt südostwärts auf Route 1 dauert 45–90 Minuten, was bedeutet, dass Touren Masada am Morgen und einen Nachmittagsbadetag kombinieren und noch vor dem frühen Abend nach Jerusalem zurückgekehrt sein können.
 
-**Die klassische Masada-Kombi** startet Jerusalem um 07:00–08:00 Uhr (oder 03:00–04:00 für die Sonnenaufgangsvariante), besteigt Masada per Seilbahn oder Schlangenweg, hält wenn nötig bei [Ein Gedi](/dead-sea/ein-gedi) und erreicht [Ein Bokek](/dead-sea) am frühen Nachmittag für etwa eine Stunde im Wasser. Ein voller, aber effizienter Tag.
+**Die klassische Masada-Kombi** startet Jerusalem um 07:00–08:00 Uhr (oder 03:00–04:00 für die Sonnenaufgangsvariante), besteigt Masada per Seilbahn oder Schlangenweg, hält wenn nötig bei [Ein Gedi](/de/dead-sea/ein-gedi) und erreicht [Ein Bokek](/de/dead-sea) am frühen Nachmittag für etwa eine Stunde im Wasser. Ein voller, aber effizienter Tag.
 
 **Nur-Totes-Meer-Touren ab Jerusalem** starten später (ca. 09:00 Uhr) und geben einem zwei bis drei Stunden am Ufer — genug Zeit zum richtigen Schwimmen, Schlammbad und Entspannen. Geeignet für Wiederholungsbesucher, die Masada bereits kennen, oder alle, die lieber einen entspannten Wellnesstag ohne frühen Wecker möchten.
 
