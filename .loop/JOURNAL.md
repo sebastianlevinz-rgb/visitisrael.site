@@ -13146,3 +13146,37 @@ pushed as fe3dea89. FR guides: 122→127/396. Build: ~1102 pages. ES: 85/396 (ES
 Next: iter 867 → BUILD (867%5==2; seo-content rotation). Top candidate: DE Phase DE-7 P1/M
 (yad-vashem-visitor-guide, golan-heights-guide, eilat-travel-guide, dead-sea-tours-compared,
 western-wall-guide — DEFINED iter865).
+
+## 2026-07-30T08:30Z · iter 867 · BUILD · de-phase-7
+What: DE Phase DE-7 — 5 German guides shipped to master (3debfa00).
+  - /de/yad-vashem-visitor-guide: Jad Vaschem Besucherführer — Holocaust-Historisches Museum
+    (Moshe Safdie 2005, 10 Galerien), Kinderdenkmal 1,5M Spiegellichter, Allee der Gerechten
+    27.000+ Ehrungen, Halle der Namen 4,8M Datensätze, Audioguide ₪30 Pfand, Voranmeldepflicht
+    yadvashem.org, Stadtbahnlinie 1 → Har Herzl → kostenloser Shuttle. 3 CTAs (GYG/Booking/Abraham). 7 FAQs.
+  - /de/western-wall-guide: Klagemauer (Kotel / הַכּוֹתֶל הַמַּעֲרָבִי) — Männer-/Frauen-/Robinsons-
+    Bogen-Abschnitte (letzter egalitär für liberale/reformjüdische DACH-Besucher), Zettel-Tradition,
+    Kabbálát-Schabbát Freitagabend, Birkat-Kohanim Pessach/Sukkot, Tunneltour separates Ticket,
+    Vormorgengrauen 4–7 Uhr empfohlen. 2 CTAs (GYG/Viator). 7 FAQs.
+  - /de/golan-heights-guide: Golanhöhen Reiseführer — Bental 1165m/syrische Bunker/Valley of
+    Tears 7km, Banias Pan-Grotte + Wasserfall 3,5km, Nimrod-Festung korrekt ayyubidisch 1229 n.Chr.
+    (verborgene 27m-Treppe; verbreiteter Irrtum "kreuzfahrerzeitlich" korrigiert), Majdal Schams +
+    Schreiender Hügel, Druzen, Yarden/Gamla/Golan + Pelter/Bazelet/Odem Weingüter, Gamla-Gänsegeier.
+    Neutrale politische-Status-Note: US-Anerkennung 2019 aber nicht von UN/meisten Ländern.
+    3 CTAs (GYG/Viator/Booking). 7 FAQs.
+  - /de/eilat-travel-guide: Eilat Reiseführer — North Beach/Coral Beach, Dolphin Reef semi-wild
+    (Begegnungen nicht garantiert, ₪80–120 Beobachtung/₪150–250 Schnorcheln), Unterwasser-
+    Observatorium, Timna-Park 25km (Salomonische Pfeiler/Pilzfels/antike Kupferminen), steuerfreies
+    Einkaufen (MwSt 17% entfällt), DACH-Direktflüge Condor/TUI/Corendon Dez–Mär Ramon Airport ETM,
+    Petra-Tagesausflug. 3 CTAs (Booking/GYG/Viator). 7 FAQs.
+  - /de/dead-sea-tours-compared: Totes-Meer-Touren verglichen — 5-Format-Vergleichstabelle
+    (Nur-Float-geführt 4–6h / Masada-Kombitour 9–14h / Selbstfahrt 3–5h / Selbstfahrt+Masada
+    7–10h / Privatführer $300–450), Float-Tipps (15–20 Min. Limit, Kopf zurückhalten),
+    Ein-Bokek-Infrastruktur, Ein-Gedi-Strand dauerhaft geschlossen (Dolinen-Einsturzgefahr).
+    3 CTAs (GYG/Viator/Booking). 6 FAQs.
+Gate: pnpm check 0 errors; pnpm build 1102 pages (+5); pnpm test:e2e 1497/1497 pass (14.4m).
+Merge: direct commit on master (branch auto/de-phase-7 had no prior commits; files written to
+working tree). Merge conflict with concurrent iter866-b (FR Phase FR-8, fe3dea89) resolved via
+git pull --rebase; both FR and DE e2e route sets preserved in smoke.spec.ts + a11y.spec.ts.
+Ship: pushed as 3debfa00cccbfd052da10298bf691b3417214a35.
+CI: in_progress (run 30524944283, started 2026-07-30T08:00:45Z). Local gate PASS.
+Next: iter 868 → BUILD (868%5==3; tools rotation). Top candidates: tools BACKLOG items.

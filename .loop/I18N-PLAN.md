@@ -6,25 +6,25 @@
 >
 > One bounded slice per loop iteration. NEVER bulk-translate in one shot.
 
-## Current status snapshot (2026-07-30 iter866-b BUILD fr-phase-8)
+## Current status snapshot (2026-07-30 iter867 BUILD de-phase-7)
 
 | Locale | Guides | Attractions | Regions | Itineraries |
 |--------|--------|-------------|---------|-------------|
 | en     | 396    | 65          | 11      | 6           |
 | fr     | 127    | 61          | 11      | 6           |
-| de     | 117    | 61          | 11      | 6           |
+| de     | 122    | 61          | 11      | 6           |
 | es     | 85     | 61          | 11      | 6           |
 
 **Gaps to close:**
 - es guides: **311 missing** (85/396 done — Phase ES-16 SHIPPED iter862; **Phase ES-17 TBD**)
 - fr guides: **269 missing** (127/396 done — Phase FR-8 SHIPPED iter866-b; **Phase FR-9 TBD**)
-- de guides: **279 missing** (117/396 done — Phase DE-6 SHIPPED iter863; **Phase DE-7 DEFINED iter865** — ready)
+- de guides: **274 missing** (122/396 done — Phase DE-7 SHIPPED iter867 3debfa00; **Phase DE-8 TBD**)
 - fr/de/es attractions: **4 missing each** (the 4 EN attractions added after Phase 4)
 
 **Dead Sea cluster status (iter855 audit):**
 - ES: COMPLETE (has dead-sea-guide, dead-sea-hotels-guide, dead-sea-medical-tourism, dead-sea-tours-compared, dead-sea-vs-eilat); still missing: dead-sea-day-trip-comparison, dead-sea-israel-vs-jordan
 - FR: PARTIAL (has dead-sea-guide, dead-sea-israel-vs-jordan, dead-sea-medical-tourism, dead-sea-vs-eilat); missing: dead-sea-hotels-guide, dead-sea-tours-compared, dead-sea-day-trip-comparison
-- DE: PARTIAL (has dead-sea-guide, dead-sea-israel-vs-jordan, dead-sea-medical-tourism); missing: dead-sea-hotels-guide, dead-sea-vs-eilat, dead-sea-tours-compared, dead-sea-day-trip-comparison
+- DE: PARTIAL (has dead-sea-guide, dead-sea-israel-vs-jordan, dead-sea-medical-tourism, dead-sea-hotels-guide, dead-sea-vs-eilat, dead-sea-tours-compared); missing: dead-sea-day-trip-comparison
 
 ## Architecture (already shipped, do not re-do)
 
@@ -352,23 +352,16 @@ Take the top 5 by priority (or head -5 if priority not obvious), translate each 
   West Bank neutral framing; Dolphin Reef "Begegnungen nicht garantiert" honesty note;
   paired-naming on contested sites; no fabricated prices.
   DE guides: 112→117/396. Build: 1091→1096 pages. 1485/1485 e2e pass.
-- Phase DE-7 — DEFINED iter865 (research-pass-175). READY. 5 guides:
+- Phase DE-7 — SHIPPED iter867 3debfa00.
   yad-vashem-visitor-guide, golan-heights-guide, eilat-travel-guide,
   dead-sea-tours-compared, western-wall-guide.
-  Rationale: (1) yad-vashem-visitor-guide: "Jad Vaschem Besuch" top DACH cultural query;
-  German historical connection; yadvashem.org/de confirmed German audio guide (₪30);
-  advance reservation required; competitor israel-spezialist.de already ranks;
-  (2) golan-heights-guide: "Golanhöhen" wine + hiking + geopolitics DACH interest;
-  (3) eilat-travel-guide: "Eilat Urlaub" = major DACH winter sun (Condor/TUI/Corendon
-  direct flights Dec–Mar); completes Eilat cluster in DE;
-  (4) dead-sea-tours-compared: completes DE Dead Sea cluster (hotels + vs-eilat + medical
-  already in DE; tours comparison = missing monetization layer; group vs. private vs. Masada combo);
-  (5) western-wall-guide: "Klagemauer" widely recognized DACH term; core Jerusalem guide
-  missing from DE; Robinson's Arch egalitarian section relevant for reform/liberal DACH visitors.
-  Quality requirements: Standard Hochdeutsch; YAML double-quotes; /de/* prefix only for confirmed
-  existing DE pages; paired-naming (Klagemauer / ha-Kotel / הַכֹּותֶל); Golan political-status
-  note neutral; no fabricated prices/ratings; Dolphin Reef + Yardenit honesty notes.
-  10 new tests (5 smoke + 5 a11y). Builds on DE: 117/396 → 122/396.
+  Standard Hochdeutsch; YAML double-quotes; /de/* prefix only for confirmed existing DE pages;
+  no fabricated prices; Golan Heights neutral political-status note (US-Anerkennung 2019,
+  nicht von UN/meisten Ländern anerkannt); Nimrod-Festung correctly Ayyubid 1229 n.Chr.;
+  Dolphin Reef "Begegnungen nicht garantiert" honesty; paired-naming Klagemauer / הַכּוֹתֶל הַמַּעֲרָבִי;
+  Robinsons-Bogen egalitär für liberale/reformjüdische DACH-Besucher; Voranmeldepflicht Jad Vaschem.
+  Merge conflict with concurrent iter866-b (FR-phase-8) resolved via rebase, BOTH route sets preserved.
+  10 new e2e tests (5 smoke + 5 a11y). DE guides: 117→122/396. Build: 1097→1102 pages. 1497/1497 e2e pass (14.4m).
 
 ### Attraction catch-up (4 missing per locale)
 - NOT STARTED. Low priority; do after guide catch-up is well underway.

@@ -2,12 +2,14 @@
 
 - iteration: 867
 - lastMode: BUILD
-- lastItem: fr-phase-8
-- lastResult: BUILD iter866-b — fr-phase-8 SHIPPED fe3dea89. 5 FR guides: dead-sea-hotels-guide (Ein Bokek 3-tier + seasonal pricing), dead-sea-tours-compared (5 tour format comparison), dead-sea-day-trip-comparison (Jerusalem vs Tel Aviv departure), best-hotels-tiberias (6 property profiles + decision matrix), cycling-in-israel (Tel-O-Fun + 4 Tel Aviv routes + IBT). 10 new e2e tests (5 smoke + 5 a11y). FR guides: 122→127/396. Build: 1101 pages on branch (1102 after rebase with concurrent 866). Gate: 1495/1495 e2e pass.
-- nextRotationCategory: BUILD (867%5==2 → BUILD; seo-content rotation)
+- lastItem: de-phase-7
+- lastResult: BUILD iter867 — de-phase-7 SHIPPED 3debfa00. 5 DE guides: yad-vashem-visitor-guide (Jad Vaschem 10-Galerien + Kinderdenkmal + Voranmeldepflicht), western-wall-guide (Klagemauer/הַכּוֹתֶל + Männer/Frauen/Robinsons-Bogen + Tunneltour), golan-heights-guide (Bental/Banias/Nimrod-ayyubidisch/Druzen/Weingüter, neutral Golanhöhen-Politiknote), eilat-travel-guide (Coral Beach + Dolphin Reef semi-wild + Timna + Condor/TUI/Corendon Direktflüge DACH), dead-sea-tours-compared (5-Format-Tabelle + Float-Tipps + Ein-Gedi-Strand geschlossen). Merge conflict with concurrent iter866-b (FR-phase-8) resolved via rebase, both route sets preserved. DE guides: 117→122/396. Build: 1102 pages (+5). 1497/1497 e2e pass (14.4m). Gate: 0 errors.
+- nextRotationCategory: BUILD (868%5==3 → BUILD; tools rotation)
 - higgsfieldSpent: 0
-- updatedAt: 2026-07-30T07:30Z
+- updatedAt: 2026-07-30T08:30Z
 - branch context: work on master; feature work on auto/<slug>
+
+Notes: iter867 BUILD — de-phase-7 SHIPPED 3debfa00. 5 DE guides: yad-vashem-visitor-guide (Jad Vaschem, Voranmeldepflicht, Kinderdenkmal), western-wall-guide (Klagemauer/הַכּוֹתֶל, Robinsons-Bogen egalitär), golan-heights-guide (Nimrod korrekt ayyubidisch, neutral Golanhöhen-Politiknote), eilat-travel-guide (Dolphin Reef semi-wild, Condor/TUI DACH-Direktflüge), dead-sea-tours-compared (5-Format-Tabelle, Ein-Gedi-Strand geschlossen). DE guides: 117→122/396. 1102 pages. 1497/1497 e2e pass.
 
 Notes: iter866-b BUILD — fr-phase-8 SHIPPED fe3dea89. Two iter866 runs executed concurrently (parallel loop fire): iter866-a shipped egypt-jordan-israel-itinerary (00062314); iter866-b shipped fr-phase-8 (fe3dea89, rebased on top). FR guides: 122→127/396. 1495/1495 e2e pass.
 
