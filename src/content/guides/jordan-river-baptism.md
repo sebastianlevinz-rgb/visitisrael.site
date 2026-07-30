@@ -5,7 +5,7 @@ heroImage: /images/sub-destinations/galilee/yardenit.jpg
 category: Planning
 verdictName: a Jordan River baptism tour
 verdictQuery: Jordan River baptism Israel tour
-updatedAt: 2026-06-28
+updatedAt: 2026-07-30
 ctaHeading: 'Book a Jordan River baptism tour'
 affiliateCtas:
   - partner: getyourguide
@@ -28,9 +28,9 @@ affiliateCtas:
     cta: See Galilee day tours
 faqs:
   - question: Can anyone be baptised at Yardenit or Qasr el-Yahud?
-    answer: 'Yes. Both sites welcome individuals and groups for baptism or renewal of baptismal vows. Yardenit has full changing facilities, white robe rental and steps directly into the Jordan River. Qasr el-Yahud is run by the Israel Nature and Parks Authority and has simpler facilities but offers direct access to the river at what is traditionally identified as the site of Jesus''s baptism. You do not need to pre-book just to enter the water, but if you want a formal ceremony with your own minister or priest, co-ordinate your service time in advance.'
+    answer: 'Yes. Both sites welcome individuals and groups for baptism or renewal of baptismal vows. Yardenit has full changing facilities, white robe rental and steps directly into the Jordan River. Qasr el-Yahud is run by the Israel Nature and Parks Authority; following a NIS 25M renovation completed February 2026, it now has an air-conditioned visitor service centre, hot showers, and a wooden deck for direct river access. You do not need to pre-book just to enter the water, but if you want a formal ceremony with your own minister or priest, co-ordinate your service time in advance.'
   - question: What is the difference between Yardenit and Qasr el-Yahud?
-    answer: 'Yardenit (near Kibbutz Kinneret, at the southern outflow of the Sea of Galilee) is privately managed, has 500,000+ annual visitors, excellent facilities and fits naturally into a Galilee day. Qasr el-Yahud (in the Jordan Valley about 10 km east of Jericho) is the site more commonly identified by scholars and multiple church traditions as the place of Jesus''s baptism; its facilities are simpler but the spiritual atmosphere is striking, with churches of several denominations right on the bank. Choose Yardenit for ease and a Galilee context; choose Qasr el-Yahud for stronger historical and spiritual significance.'
+    answer: 'Yardenit (near Kibbutz Kinneret, at the southern outflow of the Sea of Galilee) is privately managed, has 500,000+ annual visitors, excellent facilities and fits naturally into a Galilee day. Qasr el-Yahud (in the Jordan Valley about 10 km east of Jericho) is the site more commonly identified by scholars and multiple church traditions as the place of Jesus''s baptism; its facilities were significantly upgraded in a NIS 25M renovation completed February 2026 (new visitor centre, hot showers, wooden river deck), and the spiritual atmosphere is striking, with churches of several denominations right on the bank. Choose Yardenit for ease and a Galilee context; choose Qasr el-Yahud for stronger historical and spiritual significance.'
   - question: What do I need to bring to a Jordan River baptism site?
     answer: 'Both sites: bring a towel and a spare set of clothes to change into after entering the water, and a waterproof bag for wet items. At Yardenit you can rent a traditional white baptism robe on site (around $10). At Qasr el-Yahud the INPA site has changing facilities; bring your own robe or clothing for the water. Photography is welcomed in the water area — but do not photograph other worshippers without their consent.'
   - question: Is Qasr el-Yahud safe to visit?
@@ -51,7 +51,7 @@ The Jordan River is one of the most spiritually significant waterways in the wor
 |---|---|---|
 | Location | Sea of Galilee outflow, near Kibbutz Kinneret | Jordan Valley, ~10 km east of Jericho |
 | Management | Private (Kibbutz Kinneret) | INPA (Israel Nature & Parks Authority) |
-| Facilities | Changing rooms, robe rental, café, gift shop, baptism certificates | Changing facilities, multiple denomination churches on site |
+| Facilities | Changing rooms, robe rental, café, gift shop, baptism certificates | Visitor centre, hot showers, wooden deck for river access, changing facilities, denomination churches on site (renovated Feb 2026) |
 | Entry | Free to visit; robe rental ~$10 | Free entry |
 | Annual visitors | ~500,000 | Fewer; quieter atmosphere |
 | Best paired with | Galilee / Sea of Galilee day | Dead Sea, Masada, Jericho day |
@@ -97,9 +97,9 @@ The exact location of Jesus's baptism is a matter of genuine scholarly uncertain
 
 ### What to expect
 
-The atmosphere at Qasr el-Yahud is strikingly different from Yardenit — quieter, less commercial and more raw. The Jordan River here is narrow and slow-moving, with the Jordanian bank visible just across the water. The churches of several denominations line the bank. There are changing facilities on site.
+The atmosphere at Qasr el-Yahud is strikingly different from Yardenit — quieter, less commercial and more contemplative. The Jordan River here is narrow and slow-moving, with the Jordanian bank visible just across the water. The churches of several denominations line the bank. **Following a NIS 25M renovation completed February 2026**, the site now has an air-conditioned visitor service centre, hot showers (replacing the previous cold outdoor facilities), a wooden deck for direct Jordan River access, and landscaped grounds with improved parking — a substantial upgrade in comfort and capacity.
 
-Entry is free. Check current hours and any access notes at [parks.org.il](https://www.parks.org.il) before visiting, as INPA site hours change seasonally and occasionally the site has specific access arrangements.
+Entry is free. Check current hours at [parks.org.il](https://www.parks.org.il) before visiting, as INPA site hours change seasonally.
 
 ### How it fits into your trip
 

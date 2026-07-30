@@ -5,7 +5,7 @@ heroImage: /images/sub-destinations/galilee/yardenit.jpg
 category: Planification
 verdictName: a Jordan River baptism tour
 verdictQuery: Jordan River baptism Israel tour
-updatedAt: 2026-06-28
+updatedAt: 2026-07-30
 ctaHeading: "Réservez une excursion de baptême dans le Jourdain"
 affiliateCtas:
   - partner: getyourguide
@@ -28,9 +28,9 @@ affiliateCtas:
     cta: Voir les circuits en Galilée
 faqs:
   - question: "N'importe qui peut-il se faire baptiser à Yardenit ou à Qasr el-Yahud ?"
-    answer: "Oui. Les deux sites accueillent des individus et des groupes pour le baptême ou le renouvellement des vœux baptismaux. Yardenit dispose de vestiaires complets, de la location de robes blanches et de marches descendant directement dans le Jourdain. Qasr el-Yahud est géré par l'Autorité israélienne de la nature et des parcs (INPA) et propose des équipements plus simples mais offre un accès direct à la rivière sur le site traditionnellement identifié comme celui du baptême de Jésus. Il n'est pas nécessaire de réserver à l'avance pour entrer dans l'eau, mais si vous souhaitez une cérémonie formelle avec votre propre ministre ou prêtre, coordonnez votre heure de service à l'avance."
+    answer: "Oui. Les deux sites accueillent des individus et des groupes pour le baptême ou le renouvellement des vœux baptismaux. Yardenit dispose de vestiaires complets, de la location de robes blanches et de marches descendant directement dans le Jourdain. Qasr el-Yahud est géré par l'INPA ; après une rénovation de 25 millions NIS achevée en février 2026, il dispose désormais d'un centre d'accueil climatisé, de douches chaudes et d'une passerelle en bois pour accéder directement au fleuve. Il n'est pas nécessaire de réserver à l'avance pour entrer dans l'eau, mais si vous souhaitez une cérémonie formelle avec votre propre ministre ou prêtre, coordonnez votre heure de service à l'avance."
   - question: "Quelle est la différence entre Yardenit et Qasr el-Yahud ?"
-    answer: "Yardenit (près du kibboutz Kinneret, à l'exutoire méridional de la mer de Galilée) est géré par des privés, accueille plus de 500 000 visiteurs par an, dispose d'excellents équipements et s'intègre naturellement dans une journée en Galilée. Qasr el-Yahud (dans la vallée du Jourdain à environ 10 km à l'est de Jéricho) est le site le plus souvent identifié par des spécialistes et plusieurs traditions ecclésiales comme le lieu du baptême de Jésus ; ses équipements sont plus simples mais l'atmosphère spirituelle est frappante, avec des églises de plusieurs confessions directement sur la rive. Choisissez Yardenit pour la commodité et un contexte en Galilée ; choisissez Qasr el-Yahud pour une signification historique et spirituelle plus forte."
+    answer: "Yardenit (près du kibboutz Kinneret, à l'exutoire méridional de la mer de Galilée) est géré par des privés, accueille plus de 500 000 visiteurs par an, dispose d'excellents équipements et s'intègre naturellement dans une journée en Galilée. Qasr el-Yahud (dans la vallée du Jourdain à environ 10 km à l'est de Jéricho) est le site le plus souvent identifié par des spécialistes et plusieurs traditions ecclésiales comme le lieu du baptême de Jésus ; ses équipements ont été nettement améliorés par une rénovation de 25 millions NIS achevée en février 2026 (nouveau centre d'accueil, douches chaudes, passerelle flottante), et l'atmosphère spirituelle est frappante, avec des églises de plusieurs confessions directement sur la rive. Choisissez Yardenit pour la commodité et un contexte en Galilée ; choisissez Qasr el-Yahud pour une signification historique et spirituelle plus forte."
   - question: "Que faut-il apporter sur un site de baptême dans le Jourdain ?"
     answer: "Pour les deux sites : apportez une serviette et des vêtements de rechange pour après être entré dans l'eau, ainsi qu'un sac imperméable pour les affaires mouillées. À Yardenit, vous pouvez louer une robe de baptême blanche traditionnelle sur place (environ 10 $). À Qasr el-Yahud, le site INPA dispose de vestiaires ; apportez votre propre robe ou des vêtements adaptés à l'eau. La photographie est la bienvenue dans les zones aquatiques — mais ne photographiez pas d'autres fidèles sans leur consentement."
   - question: "Qasr el-Yahud est-il sûr à visiter ?"
@@ -51,7 +51,7 @@ Le Jourdain est l'une des voies navigables les plus spirituellement significativ
 |---|---|---|
 | Emplacement | Exutoire de la mer de Galilée, près du kibboutz Kinneret | Vallée du Jourdain, ~10 km à l'est de Jéricho |
 | Gestion | Privée (kibboutz Kinneret) | INPA (Autorité israélienne de la nature et des parcs) |
-| Équipements | Vestiaires, location de robes, café, boutique de cadeaux, certificats de baptême | Vestiaires, églises multi-confessionnelles sur site |
+| Équipements | Vestiaires, location de robes, café, boutique de cadeaux, certificats de baptême | Centre d'accueil, douches chaudes, passerelle sur le fleuve, vestiaires, églises multi-confessionnelles sur site (rénové fév. 2026) |
 | Entrée | Gratuite ; location de robe ~10 $ | Entrée gratuite |
 | Visiteurs annuels | ~500 000 | Moins ; atmosphère plus calme |
 | Meilleur associé avec | Journée Galilée / mer de Galilée | Journée mer Morte, Masada, Jéricho |
@@ -97,9 +97,9 @@ L'emplacement exact du baptême de Jésus fait l'objet d'une véritable incertit
 
 ### Ce à quoi s'attendre
 
-L'atmosphère à Qasr el-Yahud est frappamment différente de celle de Yardenit — plus calme, moins commerciale et plus brute. Le Jourdain est étroit et à cours lent ici, avec la rive jordanienne visible juste en face. Les églises de plusieurs confessions longent la rive. Des vestiaires sont disponibles sur place.
+L'atmosphère à Qasr el-Yahud est frappamment différente de celle de Yardenit — plus calme, moins commerciale et plus contemplative. Le Jourdain est étroit et à cours lent ici, avec la rive jordanienne visible juste en face. Les églises de plusieurs confessions longent la rive. **À la suite d'une rénovation de 25 millions NIS achevée en février 2026**, le site dispose désormais d'un centre d'accueil climatisé, de douches chaudes (remplaçant les anciennes installations extérieures sans eau chaude), d'une passerelle en bois pour l'accès direct au Jourdain et d'un aménagement paysager avec amélioration du stationnement.
 
-L'entrée est gratuite. Vérifiez les horaires actuels et d'éventuelles notes d'accès sur [parks.org.il](https://www.parks.org.il) avant de visiter, car les horaires des sites INPA varient selon les saisons.
+L'entrée est gratuite. Vérifiez les horaires actuels sur [parks.org.il](https://www.parks.org.il) avant de visiter, car les horaires des sites INPA varient selon les saisons.
 
 ### Comment cela s'intègre dans votre voyage
 

@@ -5,7 +5,7 @@ heroImage: /images/sub-destinations/galilee/yardenit.jpg
 category: Planung
 verdictName: a Jordan River baptism tour
 verdictQuery: Jordan River baptism Israel tour
-updatedAt: 2026-06-28
+updatedAt: 2026-07-30
 ctaHeading: "Eine Jordan-Tauftour buchen"
 affiliateCtas:
   - partner: getyourguide
@@ -28,9 +28,9 @@ affiliateCtas:
     cta: Galiläa-Touren ansehen
 faqs:
   - question: "Kann sich jeder in Yardenit oder Qasr el-Yahud taufen lassen?"
-    answer: "Ja. Beide Stätten heißen Einzelpersonen und Gruppen zur Taufe oder Taufgelübde-Erneuerung willkommen. Yardenit hat vollständige Umkleidekabinen, weiße Roben zum Ausleihen und Stufen direkt in den Jordan. Qasr el-Yahud wird von der israelischen Natur- und Parkbehörde (INPA) verwaltet und hat einfachere Einrichtungen, bietet aber direkten Zugang zum Fluss an der traditionell als Taufstätte Jesu identifizierten Stelle. Eine Voranmeldung für den Fluss selbst ist nicht nötig; wer eine formale Zeremonie mit eigenem Pastor oder Priester wünscht, sollte die Zeit vorab koordinieren."
+    answer: "Ja. Beide Stätten heißen Einzelpersonen und Gruppen zur Taufe oder Taufgelübde-Erneuerung willkommen. Yardenit hat vollständige Umkleidekabinen, weiße Roben zum Ausleihen und Stufen direkt in den Jordan. Qasr el-Yahud wird von der INPA verwaltet; nach einer NIS-25-Millionen-Renovierung, die im Februar 2026 abgeschlossen wurde, verfügt es nun über ein klimatisiertes Besucherzentrum, Warmwasserduschen und ein Holzdeck für den direkten Flusszugang. Eine Voranmeldung für den Fluss selbst ist nicht nötig; wer eine formale Zeremonie mit eigenem Pastor oder Priester wünscht, sollte die Zeit vorab koordinieren."
   - question: "Was ist der Unterschied zwischen Yardenit und Qasr el-Yahud?"
-    answer: "Yardenit (nahe Kibbutz Kinneret, am südlichen Abfluss des Sees Genezareth) ist privat geführt, zählt über 500.000 Besucher jährlich, hat ausgezeichnete Einrichtungen und passt gut in einen Galiläa-Tag. Qasr el-Yahud (im Jordantal, etwa 10 km östlich von Jericho) ist die Stätte, die Wissenschaftler und mehrere Kirchentraditionen am häufigsten als Taufstätte Jesu identifizieren; die Einrichtungen sind einfacher, aber die spirituelle Atmosphäre ist eindrucksvoll, mit Kirchen verschiedener Konfessionen direkt am Ufer. Yardenit für Komfort und Galiläa-Kontext; Qasr el-Yahud für stärkere historische und spirituelle Bedeutung."
+    answer: "Yardenit (nahe Kibbutz Kinneret, am südlichen Abfluss des Sees Genezareth) ist privat geführt, zählt über 500.000 Besucher jährlich, hat ausgezeichnete Einrichtungen und passt gut in einen Galiläa-Tag. Qasr el-Yahud (im Jordantal, etwa 10 km östlich von Jericho) ist die Stätte, die Wissenschaftler und mehrere Kirchentraditionen am häufigsten als Taufstätte Jesu identifizieren; die Einrichtungen wurden durch eine NIS-25-Millionen-Renovierung (abgeschlossen Februar 2026) erheblich aufgewertet — mit neuem Besucherzentrum, Warmwasserduschen und Holzdeck — und die spirituelle Atmosphäre ist eindrucksvoll, mit Kirchen verschiedener Konfessionen direkt am Ufer. Yardenit für Komfort und Galiläa-Kontext; Qasr el-Yahud für stärkere historische und spirituelle Bedeutung."
   - question: "Was sollte man zu einer Taufstätte am Jordan mitbringen?"
     answer: "Für beide Stätten: Handtuch und Wechselkleidung für nach dem Einsteigen ins Wasser, sowie eine wasserdichte Tasche für nasse Sachen. In Yardenit kann man vor Ort eine traditionelle weiße Taufrobe leihen (ca. 10 $). In Qasr el-Yahud gibt es Umkleidekabinen; eigene Robe oder wassergeeignete Kleidung mitbringen. Fotografieren im Wasserbereich ist erlaubt — aber andere Gläubige nur mit ausdrücklicher Zustimmung fotografieren."
   - question: "Ist Qasr el-Yahud sicher zu besuchen?"
@@ -51,7 +51,7 @@ Der Jordan ist einer der spirituell bedeutsamsten Wasserläufe der Welt, und Isr
 |---|---|---|
 | Lage | Jordan-Abfluss aus dem See Genezareth, nahe Kibbutz Kinneret | Jordantal, ~10 km östlich von Jericho |
 | Verwaltung | Privat (Kibbutz Kinneret) | INPA (Israelische Natur- und Parkbehörde) |
-| Einrichtungen | Umkleidekabinen, Rohenverleihe, Café, Souvenirladen, Taufurkunden | Umkleidekabinen, multikonfessionelle Kirchen vor Ort |
+| Einrichtungen | Umkleidekabinen, Rohenverleihe, Café, Souvenirladen, Taufurkunden | Besucherzentrum, Warmwasserduschen, Holzdeck für Flusszugang, Umkleidekabinen, multikonfessionelle Kirchen vor Ort (saniert Feb. 2026) |
 | Eintritt | Gratis; Rohenverleihe ~10 $ | Gratis |
 | Jährl. Besucher | ~500.000 | Weniger; ruhigere Atmosphäre |
 | Gut kombinierbar mit | Galiläa-/See-Genezareth-Tag | Totes Meer, Masada, Jericho |
@@ -97,9 +97,9 @@ Der genaue Ort der Taufe Jesu ist wissenschaftlich tatsächlich umstritten — S
 
 ### Was einen erwartet
 
-Die Atmosphäre in Qasr el-Yahud unterscheidet sich auffällig von Yardenit — stiller, weniger kommerziell und ursprünglicher. Der Jordan ist hier schmal und fließt träge, das jordanische Ufer liegt direkt gegenüber. Die Kirchen verschiedener Konfessionen säumen das Ufer. Umkleidekabinen sind vor Ort vorhanden.
+Die Atmosphäre in Qasr el-Yahud unterscheidet sich auffällig von Yardenit — stiller, weniger kommerziell und kontemplativer. Der Jordan ist hier schmal und fließt träge, das jordanische Ufer liegt direkt gegenüber. Die Kirchen verschiedener Konfessionen säumen das Ufer. **Nach einer NIS-25-Millionen-Renovierung, die im Februar 2026 abgeschlossen wurde**, verfügt die Stätte nun über ein klimatisiertes Besucherzentrum, Warmwasserduschen (ersetzt die früheren Kaltwasser-Außenanlagen), ein Holzdeck für den direkten Zugang zum Jordan sowie eine Außenanlage mit verbessertem Parkplatz.
 
-Der Eintritt ist frei. Aktuelle Öffnungszeiten und Zugangshinweise unter [parks.org.il](https://www.parks.org.il) vor dem Besuch prüfen, da INPA-Stätten saisonal variieren.
+Der Eintritt ist frei. Aktuelle Öffnungszeiten unter [parks.org.il](https://www.parks.org.il) vor dem Besuch prüfen, da INPA-Stätten saisonal variieren.
 
 ### Wie es in Ihre Reise passt
 
