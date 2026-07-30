@@ -1,6 +1,6 @@
 ---
 title: "¿Tel Aviv o Jerusalén? Cuál visitar en tu viaje a Israel"
-description: "¿Tel Aviv o Jerusalén? Comparativa de las dos grandes ciudades de Israel: ambiente, atracciones, playas, gastronomía, vida nocturna, Shabat y cuál elegir como base."
+description: "¿Tel Aviv o Jerusalén? Comparativa: ambiente, atracciones, playas, gastronomía, vida nocturna, Shabat y cuál elegir como base en Israel."
 heroImage: /images/regions/tel-aviv/hero.jpg
 category: Compare
 updatedAt: 2026-07-30
@@ -17,7 +17,7 @@ Las dos grandes ciudades de Israel están a menos de una hora de distancia, pero
 
 ## La diferencia en una frase
 
-**[Jerusalén](/jerusalem)** es antigua, sagrada e intensa — una Ciudad Antigua amurallada, sagrada para tres religiones. **[Tel Aviv](/tel-aviv)** es joven, laica y mediterránea — playas, Bauhaus, bares y brunch.
+**[Jerusalén](/es/jerusalem)** es antigua, sagrada e intensa — una Ciudad Antigua amurallada, sagrada para tres religiones. **[Tel Aviv](/es/tel-aviv)** es joven, laica y mediterránea — playas, Bauhaus, bares y brunch.
 
 ## Comparativa lado a lado
 
@@ -25,7 +25,7 @@ Las dos grandes ciudades de Israel están a menos de una hora de distancia, pero
 | --- | --- | --- |
 | **Mejor para** | Historia, religión, arqueología | Playas, gastronomía, vida nocturna |
 | **Ambiente** | Reverencial, tradicional | Relajado, 24/7, secular |
-| **Atracciones emblemáticas** | [Muro de las Lamentaciones](/jerusalem/western-wall), [Santo Sepulcro](/jerusalem/holy-sepulchre), Ciudad Antigua | [Jaffa Antigua](/es/jaffa-travel-guide), playas, Ciudad Blanca |
+| **Atracciones emblemáticas** | [Muro de las Lamentaciones](/es/jerusalem/western-wall), [Santo Sepulcro](/jerusalem/holy-sepulchre), Ciudad Antigua | [Jaffa Antigua](/es/jaffa-travel-guide), playas, Ciudad Blanca |
 | **Playas** | Ninguna | 14 km de costa |
 | **Vida nocturna** | Tranquila | De las mejores del mundo |
 | **El Shabat** | Cierra en gran parte | Sigue activa |
@@ -33,7 +33,7 @@ Las dos grandes ciudades de Israel están a menos de una hora de distancia, pero
 
 ## ¿Cuál encaja con tu viaje?
 
-- **Elige Jerusalén si** te atrae la historia y la religión, quieres estar cerca del [Mar Muerto](/dead-sea) y de Belén, y no te importan las noches tranquilas.
+- **Elige Jerusalén si** te atrae la historia y la religión, quieres estar cerca del [Mar Muerto](/es/dead-sea) y de Belén, y no te importan las noches tranquilas.
 - **Elige Tel Aviv si** quieres sol, mar, gastronomía y vida nocturna, y una base más animada — incluido durante el [Shabat](/es/shabbat-guide).
 
 ## La respuesta honesta: visita las dos

@@ -1,6 +1,6 @@
 ---
 title: "Guía vegana y vegetariana de Israel: Tel Aviv y más (2026)"
-description: "Israel es uno de los mejores destinos veganos y vegetarianos del mundo. Guía de alimentación plant-based en Tel Aviv, Jerusalén y Haifa, con consejos sobre kashrut."
+description: "Israel, uno de los mejores destinos veganos del mundo. Alimentación plant-based en Tel Aviv, Jerusalén y Haifa, con restaurantes y consejos sobre kashrut."
 heroImage: /images/sub-destinations/tel-aviv/carmel-market.jpg
 category: "Food & Drink"
 updatedAt: 2026-07-30
@@ -119,7 +119,7 @@ La escena plant-based de Jerusalén es más pequeña y menos aventurera que la d
 
 Haifa tiene una escena vegana más pequeña, pero la población árabe de la ciudad garantiza un circuito confiable de hummus y falafel. La Colonia Alemana de Haifa (mismo nombre, barrio de época templaria cerca de los Jardines Bahá'í) tiene varios cafés de orientación vegetariana. El barrio de Wadi Nisnas es una zona árabe de la ciudad con hummusiyot tradicionales y mercados de productos frescos naturalmente aptos para la alimentación plant-based.
 
-En Galilea, los restaurantes de dueños árabes en Nazaret sirven grandes mezze de estilo libanés — una docena de platos pequeños de hummus, baba ghanoush, tabule, fatush, hojas de parra rellenas — que son en gran parte veganos. Consultá la [guía de Nazaret](/nazareth-travel-guide) para información específica.
+En Galilea, los restaurantes de dueños árabes en Nazaret sirven grandes mezze de estilo libanés — una docena de platos pequeños de hummus, baba ghanoush, tabule, fatush, hojas de parra rellenas — que son en gran parte veganos. Consultá la [guía de Nazaret](/es/nazareth-travel-guide) para información específica.
 
 ---
 
@@ -149,4 +149,4 @@ Las cadenas de supermercados (Shufersal, Rami Levy, Victory) tienen amplias secc
 
 ---
 
-Consultá la [guía de gastronomía y cocina israelí](/israeli-food-cuisine-guide) para el contexto cultural alimentario más amplio, la [guía de comida kosher](/es/kosher-food-guide) para un desglose completo del kashrut, y la [guía de Tel Aviv](/tel-aviv) para una visión más amplia de la escena de restaurantes de la ciudad. Para el Shabat, consultá la [guía del Shabat](/es/shabbat-guide).
+Consultá la [guía de gastronomía y cocina israelí](/israeli-food-cuisine-guide) para el contexto cultural alimentario más amplio, la [guía de comida kosher](/es/kosher-food-guide) para un desglose completo del kashrut, y la [guía de Tel Aviv](/es/tel-aviv) para una visión más amplia de la escena de restaurantes de la ciudad. Para el Shabat, consultá la [guía del Shabat](/es/shabbat-guide).

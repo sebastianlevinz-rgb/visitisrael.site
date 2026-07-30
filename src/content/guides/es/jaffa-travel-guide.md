@@ -1,6 +1,6 @@
 ---
-title: "Guía de Jaffa (Yafo): puerto antiguo, mercado y gastronomía (2026)"
-description: "Guía completa de Jaffa: Puerto Antiguo, Torre del Reloj, Mercado de las Pulgas, hummus en Abu Hassan, la panadería Abouelafia y cómo llegar desde Tel Aviv y Jerusalén."
+title: "Guía de Jaffa (Yafo): puerto, mercado y gastronomía (2026)"
+description: "Guía de Jaffa: Puerto Antiguo, Torre del Reloj, Mercado de las Pulgas, hummus en Abu Hassan, panadería Abouelafia y cómo llegar desde Tel Aviv."
 heroImage: /images/regions/tel-aviv/jaffa.jpg
 category: Destinations
 updatedAt: 2026-07-30
@@ -111,7 +111,7 @@ Hoy Jaffa tiene una población mixta judía y árabe de unas 50.000 personas. Es
 
 **Cómo llegar desde Tel Aviv:** Camina hacia el sur por el paseo marítimo (15–20 min desde los hoteles de la playa), toma la Línea Roja del tranvía de Tel Aviv o usa Gett/Yango (unos 10 min desde el centro en tráfico fluido).
 
-**Cómo llegar desde Jerusalén:** El tren de alta velocidad llega a Tel Aviv en ~45 minutos; desde Tel Aviv HaShalom, un transporte compartido va al sur hasta la Jaffa Antigua. Excelente como [excursión de un día desde Jerusalén](/day-trips-from-jerusalem).
+**Cómo llegar desde Jerusalén:** El tren de alta velocidad llega a Tel Aviv en ~45 minutos; desde Tel Aviv HaShalom, un transporte compartido va al sur hasta la Jaffa Antigua. Excelente como [excursión de un día desde Jerusalén](/es/day-trips-from-jerusalem).
 
 **Aparcamiento:** Limitado y caro alrededor de la Ciudad Antigua. Si vas en coche desde fuera de la ciudad, aparca en el centro de Tel Aviv y camina hacia el sur.
 
