@@ -842,6 +842,11 @@ const ROUTES = [
   '/de/dead-sea-day-trip-comparison',
   '/de/eilat-hotels-guide',
   '/de/best-hotels-tiberias',
+  '/es/dead-sea-israel-vs-jordan',
+  '/es/jaffa-travel-guide',
+  '/es/tel-aviv-vs-jerusalem',
+  '/es/israel-for-argentinian-travelers',
+  '/es/vegan-vegetarian-israel',
 ];
 
 for (const route of ROUTES) {
