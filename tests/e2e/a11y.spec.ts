@@ -587,6 +587,11 @@ const ROUTES = [
   '/es/best-hotels-negev',
   '/es/best-hotels-netanya',
   '/es/passover-in-israel',
+  '/de/ashdod-cruise-port-excursions',
+  '/de/best-hotels-sea-of-galilee',
+  '/de/vegan-vegetarian-israel',
+  '/de/israel-for-german-travelers',
+  '/de/best-hotels-negev',
 ];
 
 for (const route of ROUTES) {
