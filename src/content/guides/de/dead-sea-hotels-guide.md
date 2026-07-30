@@ -120,7 +120,7 @@ Die Luxuskategorie in Ein Bokek wird von israelischen Resort-Marken mit umfangre
 Wenn Übernacht-Resort-Preise das Budget übersteigen, ist das Totes-Meer-Erlebnis vollständig als Tagesausflug von Jerusalem zugänglich:
 
 - **Direktbus (Egged 486):** Jerusalem → Ein Bokek Zentralbusbahnhof, ungefähr 90 Minuten, fährt mehrmals täglich. Letzter Rückbus von Ein Bokek nach Jerusalem fährt etwa 17:00–18:00 (aktuellen Fahrplan bei moovit.com oder der Egged-App prüfen).
-- **Organisierter Tagesausflug:** Abholung vom Jerusalemer oder Tel Aviver Hotel, ganztägiger Reiseplan mit Guide, typischerweise mit Masada oder Ein Gedi neben dem Totes-Meer-Schwimmen. Lesen Sie [Masada und Totes-Meer-Tagestouren](/masada-dead-sea-day-trip) für Formatvergleich.
+- **Organisierter Tagesausflug:** Abholung vom Jerusalemer oder Tel Aviver Hotel, ganztägiger Reiseplan mit Guide, typischerweise mit Masada oder Ein Gedi neben dem Totes-Meer-Schwimmen. Lesen Sie [Masada und Totes-Meer-Tagestouren](/de/masada-dead-sea-day-trip) für Formatvergleich.
 - **Mietwagen:** Die flexibelste Option für Familien — Route 1 nach Osten zur Route 90 nach Süden fahren; Ein Bokek ist ausgeschildert; Kalia Beach (Nordufer) ist 15 Minuten hinter Qumran, nützlich bei Anreise von Jerusalem gen Süden.
 
 Budgetreisende, die einen Tagesausflug machen, sparen die Übernacht-Hotelprämie (₪700–3.500/Nacht) auf Kosten des Sonnenaufgang-Moments. Für die meisten Erstbesucher mit knappem Budget ist der Tagesausflug ein ausgezeichneter Wert.

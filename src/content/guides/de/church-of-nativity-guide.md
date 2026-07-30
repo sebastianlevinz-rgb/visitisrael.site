@@ -1,6 +1,6 @@
 ---
 title: "Geburtskirche Bethlehem: Vollständiger Besucherführer (2026)"
-description: "So besuchen Sie die Geburtskirche in Bethlehem — Grotten-Warteschlangen-Tipps, Konfessiosmskarte, Heiligabend-Messe, Demutspforte und Checkpoint-Logistik."
+description: "So besuchen Sie die Geburtskirche in Bethlehem — Grotten-Warteschlangen-Tipps, Konfessionskarte, Heiligabend-Messe, Demutspforte und Checkpoint-Logistik."
 heroImage: /images/west-bank/bethlehem/church-of-the-nativity.jpg
 category: Reiseführer
 updatedAt: 2026-07-30

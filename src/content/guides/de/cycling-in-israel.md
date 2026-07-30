@@ -1,6 +1,6 @@
 ---
 title: "Fahrradfahren in Israel: Tel Aviv Radrouten & Tipps (2026)"
-description: "Tel Aviv hat 150 km+ Radwege und das Tel-O-Fun Stadtrad-Verleihsystem. Vollständiger Führe zu Radrouten, Verleih und praktischen Tipps fürs Radfahren in Israel."
+description: "Tel Aviv hat 150 km+ Radwege und Tel-O-Fun Stadtradverleih. Führe zu Routen, Verleih und praktischen Tipps fürs Fahrradfahren in Israel."
 heroImage: /images/sub-destinations/tel-aviv/tayelet.jpg
 category: Planung
 updatedAt: 2026-07-30
@@ -84,7 +84,7 @@ Diese Route eignet sich für alle, die der Strandatmosphäre entfliehen und in G
 
 Rothschild-Boulevard, Dizengoff-Straße und Bialik-Straße bilden ein loses Dreieck durch das Herz der Bauhaus-Weißen-Stadt — eine der weltweit größten Konzentrationen von Architektur im Internationalen Stil. Der Rothschild hat einen getrennten Radweg entlang seiner baumgesäumten Mitte. Diese Schleife (ca. 6–8 km je nach Abstecher) führt am Engel-Haus (dem ersten Pilotis-Gebäude Israels), dem Bauhaus-Center auf Dizengoff 77, dem Rubin-Museum, dem Rathaus und Dutzenden von Rundbalkon-Apartmenthäusern der 1930er Jahre vorbei.
 
-Beste Zeit: frühmorgens, bevor der Boulevard mit Cafétischen füllt. Lesen Sie den [Tel Aviv Weiße Stadt Führe](/tel-aviv-white-city) für gebäudeweises Detail.
+Beste Zeit: frühmorgens, bevor der Boulevard mit Cafétischen füllt. Lesen Sie den [Tel Aviv Weiße Stadt Führe](/de/tel-aviv-white-city) für gebäudeweises Detail.
 
 ### 4. Tayelet bis Jaffa
 

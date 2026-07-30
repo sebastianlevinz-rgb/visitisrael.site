@@ -1,6 +1,6 @@
 ---
 title: "Totes Meer oder Eilat: Welches sollte man besuchen?"
-description: "Totes Meer oder Eilat für einen Südisrael-Aufenthalt? Float, Rotes-Meer-Riff, Sehenswürdigkeiten, Kosten, Familienattraktionen und Transport verglichen — oder beide planen."
+description: "Totes Meer oder Eilat? Float vs. Rotes-Meer-Riff, Kosten, Familienattraktionen und Transport verglichen — inklusive 5-Tage-Südschleife für beide."
 heroImage: /images/regions/dead-sea/ein-bokek.jpg
 category: Vergleich
 updatedAt: 2026-07-30
