@@ -13397,3 +13397,19 @@ Freshness findings:
 Memory: STATE.md (iter→880, mode RESEARCH, nextRotationCategory BUILD 881%5==1), I18N-PLAN.md (ES-19 + FR-11 + DE-10 defined + updated status snapshot), BACKLOG.md (Israir India freshness item added; ES-19/FR-11/DE-10 iter markers added), COMPETITORS.md (append findings).
 No code changes. No shipping.
 Next: iter 881 → BUILD (881%5==1). Candidate: ES Phase ES-19 (5 guides — egypt-jordan-israel-itinerary, eilat-beach-guide, ein-gedi-guide, eilat-dolphin-reef-guide, best-hotels-nazareth). Alternately FR-11 or DE-10 per build-rotation balance (ES is highest gap priority per I18N-PLAN §Batching).
+
+## 2026-07-30T21:30Z · iter 881 · BUILD · es-phase-19
+What: Phase ES-19 — 5 new Spanish-language guides added to src/content/guides/es/.
+Guides shipped:
+  1. egypt-jordan-israel-itinerary.md — 3-country itinerary Israel→Jordan→Egypt. Route A (Israel-first)/Route B (Egypt-first); all 3 border crossings (Wadi Araba, Aqaba–Nuweiba ferry, Taba–Eilat); 14-day and 10-day sample itinerary tables; practical notes (money, Jordan Pass, ETA-IL, safety). CTAs: TourRadar, Abraham Tours, Booking.
+  2. eilat-beach-guide.md — North Beach vs Coral Beach comparison. At-a-glance decision table (North/Coral/Almog/Dolphin Reef); beach descriptions; decision guide; practical notes. CTAs: Booking, GetYourGuide, Discovercars.
+  3. ein-gedi-guide.md — Ein Gedi nature reserve complete guide. Wadi David (3km loop), Nahal Arugot (6.6km return), ibex nubios, damanes de roca (hyrax), botanical garden, Shabbat logistics, Dead Sea combo. Fix: /es/israel-national-parks-pass doesn't exist → changed to /israel-national-parks-pass (EN). CTAs: GetYourGuide, Abraham Tours, Booking.
+  4. eilat-dolphin-reef-guide.md — Dolphin Reef guide. Semi-wild dolphin honesty (encounters not guaranteed); 3 tiers (beach+pier/snorkel/dive); encounter programs; photography; Coral Beach combo. verdictName/verdictQuery preserved from EN. CTAs: GetYourGuide, Booking.
+  5. best-hotels-nazareth.md — Nazareth accommodation guide. Rimonim Nazareth, Sisters of Nazareth (archaeology under building), Golden Crown, Villa Nazareth boutique, budget options; decision matrix table; booking context (religious calendar peaks). CTAs: Booking, GetYourGuide.
+Tests: 5 new routes added to smoke.spec.ts + a11y.spec.ts (10 new e2e tests total).
+Fix: ein-gedi-guide.md had 2 broken links to /es/israel-national-parks-pass (page doesn't exist in ES locale); both changed to /israel-national-parks-pass (EN page). Caught by link checker (1st e2e run), fixed before merge.
+Gate: pnpm check 0 errors; pnpm build 1137→1142 pages (+5); node check-links.mjs 0 broken; pnpm test:e2e 1577/1577 pass (15.2m).
+Merge: squash-merged auto/es-phase-19 → master SHA e70e4e3d; pushed. PR #36 auto/es-phase-19→master.
+Build pages: 1137→1142 (+5).
+ES guides: 95→100/397.
+Next: iter 882 → REVIEW (882%5==2). Candidate: review-882-es-phase-19-link-audit (audit all 5 ES-19 guides for link prefix bugs, meta overruns, H1 violations, honesty issues).

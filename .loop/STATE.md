@@ -1,13 +1,15 @@
 # LOOP STATE
 
-- iteration: 880
-- lastMode: RESEARCH
-- lastItem: research-880-es19-fr11-de10-israir-india
-- lastResult: NO SHIP. 178th research pass. Defined ES-19 (5 guides), FR-11 (5 guides), DE-10 (5 guides). Israir India (Delhi+Mumbai, April 2026) freshness gap found — added P2/S BACKLOG item. Airport City/Princess Eilat + InterContinental Jerusalem + The Yacht Herzliya all confirmed current in existing guides. No code changes.
-- nextRotationCategory: BUILD (881%5==1)
+- iteration: 881
+- lastMode: BUILD
+- lastItem: es-phase-19
+- lastResult: SHIP e70e4e3d. 5 ES guides: egypt-jordan-israel-itinerary, eilat-beach-guide, ein-gedi-guide, eilat-dolphin-reef-guide, best-hotels-nazareth. Fix: /es/ein-gedi-guide used /es/israel-national-parks-pass (doesn't exist) → changed to /israel-national-parks-pass (EN). Gate: pnpm check 0 errors; build 1137→1142 pages (+5); e2e 1577/1577 pass. ES guides: 95→100/397.
+- nextRotationCategory: REVIEW (882%5==2)
 - higgsfieldSpent: 0
-- updatedAt: 2026-07-30T20:00Z
+- updatedAt: 2026-07-30T21:30Z
 - branch context: work on master; feature work on auto/<slug>
+
+Notes: iter881 BUILD — es-phase-19 SHIPPED e70e4e3d. 5 ES guides: egypt-jordan-israel-itinerary (3-country Israel/Jordan/Egypt itinerary, all 3 border crossings, 14-day and 10-day tables), eilat-beach-guide (North Beach vs Coral Beach comparison, at-a-glance decision table), ein-gedi-guide (Wadi David 3km + Nahal Arugot 6.6km, ibex/hyrax wildlife, Dead Sea combo, fix: /israel-national-parks-pass EN only), eilat-dolphin-reef-guide (semi-wild dolphin honesty, 3 tiers beach/snorkel/dive, encounters not guaranteed), best-hotels-nazareth (Rimonim/Sisters of Nazareth/Golden Crown/Villa Nazareth/budget, decision matrix). 10 new e2e tests (5 smoke + 5 a11y). PR #36 merged. Build: 1137→1142 pages (+5). 1577/1577 e2e pass.
 
 Notes: iter880 RESEARCH — 178th research pass. ES-19, FR-11, DE-10 defined. Israir India routes (Delhi+Mumbai from April 2026) freshness gap identified — not in cheap-flights or airlines guide. All 15 guides confirmed MISSING from target locales via comm -23. Airport City Eilat cluster + Isrotel Princess closure + InterContinental Jerusalem "late summer 2026" all current in existing guides (no fixes needed). The Yacht Herzliya (Fattal, June 2026, 325 rooms) already in herzliya-guide.md Booking CTA. Israel Pass & Ride already covered in israel-national-parks-pass.md. No code changes; no shipping.
 
