@@ -827,6 +827,11 @@ const ROUTES = [
   '/de/cycling-in-israel',
   '/de/dead-sea-hotels-guide',
   '/de/dead-sea-vs-eilat',
+  '/fr/dead-sea-hotels-guide',
+  '/fr/dead-sea-tours-compared',
+  '/fr/dead-sea-day-trip-comparison',
+  '/fr/best-hotels-tiberias',
+  '/fr/cycling-in-israel',
 ];
 
 for (const route of ROUTES) {
