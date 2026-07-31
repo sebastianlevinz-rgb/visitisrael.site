@@ -13613,3 +13613,15 @@ Gate: pnpm check 0 errors; pnpm build 1178 pages (+5 from 1173); pnpm test:e2e 1
 Ship: committed 3a1da161 directly on master (auto/fr-phase-12 branch had no divergent commits), pushed origin/master.
 FR guides: 142→147/398. Build: 1173→1178 pages. 10 new e2e tests.
 Next: iter 899 → REVIEW FR-12 (899%5=4). Audit all 5 FR Phase 12 guides: meta title ≤65, desc ≤160, /fr/* cross-links exist in filesystem, no H1 in MDX body, no fabricated prices, honesty framing, metropolitan French register.
+
+## 2026-07-31T15:00Z · iter 899 · REVIEW (FR-12 audit) · review-899-fr-phase-12
+What: Audited all 5 FR Phase 12 guides (digital-nomad-israel, eilat-snorkeling-guide, best-hotels-nazareth, galilee-food-guide, golan-heights-tours-compared) against: meta title ≤65, desc ≤160, /fr/* cross-link prefixes exist in filesystem, no H1 in MDX body, no fabricated prices, honesty framing, metropolitan French register.
+Findings:
+  digital-nomad-israel: CLEAN — title 59 chars, desc 159 chars, all 7 /fr/* links verified. No H1. Visa grey-zone honesty ✓, Ariane+diplomatie.gouv.fr FR-specific ✓.
+  eilat-snorkeling-guide: CLEAN — title 64 chars, desc 159 chars, all /fr/* links verified (/fr/eilat/coral-beach, /fr/eilat/timna-park, /fr/eilat/underwater-observatory confirmed via src/content/attractions/fr/ + /fr/[region]/[attraction] route). Coral Beach bleaching honesty ✓.
+  best-hotels-nazareth: CLEAN — title 63 chars, desc 159 chars, all /fr/* links verified (nazareth-travel-guide, galilee-christian-sites-circuit, galilee-tours-compared, best-hotels-tiberias, tiberias-guide, christian-pilgrimage-holy-land, israel-accommodation-guide, ben-gurion-airport-guide). Sœurs de Nazareth archaeology scholarly caveat ✓.
+  galilee-food-guide: 3 FIXES — (1) /galilee-wine-trail → /fr/galilee-wine-trail (FR guide confirmed existing; EN-root link while FR exists is a bug, same pattern as ES-21 iter892); (2) galilénne → galiléenne (misspelled adjective); (3) galilén → galiléen (misspelled adjective). 4 non-/fr/ links (/golan-heights-guide ×1, /galilee-culinary-institute-gonen, /sea-of-galilee-beaches) verified as valid EN fallbacks (no FR versions exist). Saint-Pierre farmed-not-wild honesty ✓.
+  golan-heights-tours-compared: CLEAN — title 64 chars, desc 144 chars. /golan-heights-guide (no /fr/ prefix, no FR version exists) confirmed valid EN fallback. Golan political status factual/neutral ✓. All /fr/* links verified.
+Gate: pnpm check 0 errors; pnpm build 1178 pages (no change); pnpm test:e2e 1649/1649 pass (15.4m).
+Merge: SHIPPED ac3d674c to master; CI in_progress at push time.
+Next: iter 900 → RESEARCH (900%5=0) — 181st research pass; define FR-13, ES-23, DE-13 batches; scan for freshness gaps.
