@@ -53,7 +53,7 @@ Recoge el coche en el Aeropuerto Ben Gurión o en el centro de Tel Aviv a primer
 
 **Cesarea** (parada a mitad de camino, 45 km al norte de TLV) es uno de los sitios romanos y cruzados más impresionantes de Oriente Medio — una ciudad portuaria completa construida por Herodes el Grande en el siglo I a.C. Planifica dos o tres horas para el parque arqueológico: el teatro romano, las murallas cruzadas, las ruinas del hipódromo y el rompeolas del puerto.
 
-Continúa 50 km más hacia el norte hasta **Haifa**. Llega a tiempo para un paseo vespertino por la [Colonia Alemana](/haifa-travel-guide) y cena en el Bulevar Ben Gurión. Reserva con antelación los jardines en terrazas del Centro Mundial Bahá'í para la mañana siguiente — los tours guiados gratuitos deben reservarse con antelación y se llenan semanas antes en temporada alta. Noche en Haifa.
+Continúa 50 km más hacia el norte hasta **Haifa**. Llega a tiempo para un paseo vespertino por la [Colonia Alemana](/es/haifa-travel-guide) y cena en el Bulevar Ben Gurión. Reserva con antelación los jardines en terrazas del Centro Mundial Bahá'í para la mañana siguiente — los tours guiados gratuitos deben reservarse con antelación y se llenan semanas antes en temporada alta. Noche en Haifa.
 
 ---
 

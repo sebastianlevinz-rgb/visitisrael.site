@@ -48,15 +48,15 @@ La base familiar por defecto. Las **playas** son limpias, con pendiente suave y 
 
 ### Jerusalén
 
-Más cargado de historia, pero perfectamente manejable con el ritmo adecuado. Los niños disfrutan caminando por las murallas de la **Ciudad Vieja** y los túneles, la plaza del **Muro de las Lamentaciones** y los museos interactivos de la ciudad; el **Zoo Bíblico** y el **Acuario** son días familiares completos. Alterna una mañana intensa de turismo con una tarde de descanso. Para contexto, consulta la [guía de Jerusalén](/jerusalem).
+Más cargado de historia, pero perfectamente manejable con el ritmo adecuado. Los niños disfrutan caminando por las murallas de la **Ciudad Vieja** y los túneles, la plaza del **Muro de las Lamentaciones** y los museos interactivos de la ciudad; el **Zoo Bíblico** y el **Acuario** son días familiares completos. Alterna una mañana intensa de turismo con una tarde de descanso. Para contexto, consulta la [guía de Jerusalén](/es/jerusalem).
 
 ### El Mar Muerto
 
-El **flote** es pura novedad para los niños con edad suficiente para mantener el agua (que escuece mucho) fuera de los ojos — generalmente a partir de los 7–8 años aproximadamente. La reserva natural de **Ein Gedi** tiene senderos cortos y sombreados hasta cascadas y pozas que los niños más pequeños recorren sin dificultad. Ve temprano; el calor del mediodía es intenso. Consulta la [guía del Mar Muerto](/dead-sea).
+El **flote** es pura novedad para los niños con edad suficiente para mantener el agua (que escuece mucho) fuera de los ojos — generalmente a partir de los 7–8 años aproximadamente. La reserva natural de **Ein Gedi** tiene senderos cortos y sombreados hasta cascadas y pozas que los niños más pequeños recorren sin dificultad. Ve temprano; el calor del mediodía es intenso. Consulta la [guía del Mar Muerto](/es/dead-sea).
 
 ### Galilea y el norte
 
-Verde, fresco y al aire libre — la [Galilea](/galilee) y el [Golán](/golan) están hechos para las familias activas. Piensa en caminatas suaves hasta manantiales y cascadas, kayak en el río Jordán, la orilla del Mar de Galilea y campos de flores silvestres en primavera. Muchos alojamientos familiares tipo "tzimmer" (cabaña rural) en esta zona.
+Verde, fresco y al aire libre — la [Galilea](/es/galilee) y el [Golán](/es/golan) están hechos para las familias activas. Piensa en caminatas suaves hasta manantiales y cascadas, kayak en el río Jordán, la orilla del Mar de Galilea y campos de flores silvestres en primavera. Muchos alojamientos familiares tipo "tzimmer" (cabaña rural) en esta zona.
 
 ### Eilat y el Mar Rojo
 
@@ -64,7 +64,7 @@ La ciudad resort familiar de Israel. Aguas calmadas y cálidas, **barcos de fond
 
 ### El Néguev
 
-Para familias con niños mayores, el [Néguev](/negev) ofrece aventura — el **Cráter Ramón** (Makhtesh Ramon), tours en jeep, granjas de alpacas y observación de estrellas. Las experiencias de hospitalidad beduina (té, una comida, a veces un paseo en camello) son un éxito con los niños.
+Para familias con niños mayores, el [Néguev](/es/negev) ofrece aventura — el **Cráter Ramón** (Makhtesh Ramon), tours en jeep, granjas de alpacas y observación de estrellas. Las experiencias de hospitalidad beduina (té, una comida, a veces un paseo en camello) son un éxito con los niños.
 
 ## Dónde alojarse con niños
 

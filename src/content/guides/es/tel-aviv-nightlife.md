@@ -25,13 +25,13 @@ faqs:
     answer: "Excepcional. Tel Aviv es una de las ciudades más amigables con el colectivo LGBTQ+ del mundo, con una escena activa todo el año. El Orgullo de junio es uno de los más grandes y coloridos del mundo. Los bares y clubs LGBTQ-específicos se concentran principalmente en el centro y en Florentin, aunque prácticamente toda la escena nocturna de Tel Aviv es acogedora e inclusiva."
 ---
 
-Cuando el sol se pone, Tel Aviv simplemente cambia de marcha. Esta es una ciudad genuinamente laica y activa las 24 horas, con una de las mejores escenas nocturnas del mundo — desde los garitos desenfadados de [Florentin](/tel-aviv/florentin) hasta las azoteas más sofisticadas y los clubs de playa que funcionan hasta el amanecer.
+Cuando el sol se pone, Tel Aviv simplemente cambia de marcha. Esta es una ciudad genuinamente laica y activa las 24 horas, con una de las mejores escenas nocturnas del mundo — desde los garitos desenfadados de [Florentin](/es/tel-aviv/florentin) hasta las azoteas más sofisticadas y los clubs de playa que funcionan hasta el amanecer.
 
 ## Dónde salir
 
-- **[Florentin](/tel-aviv/florentin)** — el corazón palpitante: bares densos y sin pretensiones, arte urbano y comida nocturna. El barrio más de moda de la escena actual, con rincones que se descubren caminando.
-- **Rothschild y Lev Ha'ir** — cóctelerías de diseño y terrazas para ver y ser visto junto al [Bulevar Rothschild](/tel-aviv/rothschild). Más sofisticado, excelente para el aperitivo tardío antes de ir a un club.
-- **El Mercado del Carmel después del anochecer** — los callejones del [mercado](/tel-aviv/carmel-market) se transforman en una franja de bares animada. Muy local, muy casual.
+- **[Florentin](/es/tel-aviv/florentin)** — el corazón palpitante: bares densos y sin pretensiones, arte urbano y comida nocturna. El barrio más de moda de la escena actual, con rincones que se descubren caminando.
+- **Rothschild y Lev Ha'ir** — cóctelerías de diseño y terrazas para ver y ser visto junto al [Bulevar Rothschild](/es/tel-aviv/rothschild). Más sofisticado, excelente para el aperitivo tardío antes de ir a un club.
+- **El Mercado del Carmel después del anochecer** — los callejones del [mercado](/es/tel-aviv/carmel-market) se transforman en una franja de bares animada. Muy local, muy casual.
 - **El puerto (Namal) y la playa** — bares de playa con brisa y clubs que siguen hasta el amanecer. El Club Haoman 17 (Yafo) y otros venues de electrónica se concentran en esta zona.
 
 ## Lo que debes saber antes de salir
@@ -75,4 +75,4 @@ Tel Aviv es una de las ciudades más acogedoras del mundo para el colectivo LGBT
 
 ## Planifica tu noche
 
-Primero cena bien en la [guía gastronómica de Tel Aviv](/es/tel-aviv-beach-guide) o explora el resto de [Tel Aviv](/tel-aviv). Para el aperitivo antes de que abran los clubs, las azoteas funcionan mejor entre las 19:00 y las 22:00. Para los que quieren combinar sol y noche, una tarde en la [playa de Tel Aviv](/es/tel-aviv-beach-guide) seguida de las primeras horas de bares en Florentin es una fórmula perfecta.
+Primero cena bien en la [guía gastronómica de Tel Aviv](/es/tel-aviv-beach-guide) o explora el resto de [Tel Aviv](/es/tel-aviv). Para el aperitivo antes de que abran los clubs, las azoteas funcionan mejor entre las 19:00 y las 22:00. Para los que quieren combinar sol y noche, una tarde en la [playa de Tel Aviv](/es/tel-aviv-beach-guide) seguida de las primeras horas de bares en Florentin es una fórmula perfecta.
