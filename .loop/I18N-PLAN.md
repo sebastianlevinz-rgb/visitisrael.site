@@ -11,13 +11,13 @@
 | Locale | Guides | Attractions | Regions | Itineraries |
 |--------|--------|-------------|---------|-------------|
 | en     | 397    | 65          | 11      | 6           |
-| fr     | 137    | 61          | 11      | 6           |
+| fr     | 142    | 61          | 11      | 6           |
 | de     | 137    | 61          | 11      | 6           |
 | es     | 100    | 61          | 11      | 6           |
 
 **Gaps to close:**
 - es guides: **297 missing** (100/397 done — Phase ES-19 SHIPPED iter881 e70e4e3d; **Phase ES-20 defined iter885**)
-- fr guides: **260 missing** (137/397 done — Phase FR-10 SHIPPED iter877 5ada8f0b; **Phase FR-11 defined iter880**)
+- fr guides: **255 missing** (142/397 done — Phase FR-11 SHIPPED iter887 8e2e60da; **Phase FR-12 defined iter885**)
 - de guides: **260 missing** (137/397 done — Phase DE-10 SHIPPED iter886 2a552983; **Phase DE-11 defined iter885**)
 - fr/de/es attractions: **4 missing each** (the 4 EN attractions added after Phase 4)
 
@@ -455,9 +455,9 @@ SHIPPED iter878 SHA a03df166. DE guides: 127→132/397. Build: 1132→1137 pages
 - best-hotels-negev: IDA Dark Sky Park first in Middle East; Beresheet ₪1,800–₪4,500+ crater-rim; Selina Ramon; Ramon Inn; Succah in the Desert off-grid; HI Beit Noam ₪120–180; Zimmer B&B; Sde Boker alternative; decision matrix; 7 FAQs; 3 CTAs Booking/GYG/Discovercars.
 Quality: Standard Hochdeutsch; YAML double-quotes; /de/* prefix confirmed-existing pages only; no fabricated prices; Makhtesh Ramon correctly Erosionskrater.
 
-### Phase FR-11 (137 → 142/397) — ready (defined iter880)
+### Phase FR-11 (137 → 142/397) — SHIPPED iter887 8e2e60da
 Guides: `egypt-jordan-israel-itinerary.md`, `ein-gedi-guide.md`, `ein-kerem-jerusalem-guide.md`, `eilat-dolphin-reef-guide.md`, `galilee-wine-trail.md`
-All 5 confirmed MISSING from FR via comm -23 (2026-07-30).
+All 5 confirmed MISSING from FR via comm -23 (2026-07-30). SHIPPED iter887 SHA 8e2e60da. FR guides: 137→142/397. Build: 1148→1153 pages. Gate: 0 errors.
 - egypt-jordan-israel-itinerary: "Égypte Jordanie Israël: circuit 3 pays" = France is 3rd largest Israel tourism source; very high purchase intent; TourRadar + Abraham CTAs; pairs with /fr/israel-jordan-itinerary (confirmed existing)
 - ein-gedi-guide: FR Dead Sea cluster completion; "Réserve naturelle d'Ein Gedi: chutes + ibex + gorges"; GYG + Abraham CTAs; pairs with /fr/dead-sea-guide + /fr/masada-visitor-guide (both confirmed existing)
 - ein-kerem-jerusalem-guide: French Catholic pilgrims (Basilique de la Visitation, Église de Saint-Jean-Baptiste, Fenêtres de Chagall à Hadassah); zero FR editorial; Jerusalem cluster extension; GYG + Yad Vashem combo tour CTAs; pairs with /fr/easter-in-jerusalem + /fr/bethlehem-travel-guide (confirmed existing)
@@ -551,12 +551,13 @@ Quality: neutral LATAM Spanish tuteo; YAML double-quotes; /es/* prefix confirmed
 | Locale | Guides | Note |
 |--------|--------|------|
 | en     | 397    | stable |
-| fr     | 137    | 260 missing — Phase FR-11 defined iter880 (**next BUILD candidate iter887**); Phase FR-12 defined iter885 |
+| fr     | 142    | 255 missing — Phase FR-11 SHIPPED iter887 8e2e60da; **Phase FR-12 defined iter885 (iter889+ candidate)** |
 | de     | 137    | 260 missing — Phase DE-10 SHIPPED iter886 2a552983; **Phase DE-11 defined iter885 (iter889+ candidate)** |
-| es     | 100    | 297 missing — Phase ES-19 SHIPPED iter881 e70e4e3d; **Phase ES-20 defined iter885 (iter887/888 candidate)** |
+| es     | 100    | 297 missing — Phase ES-19 SHIPPED iter881 e70e4e3d; **Phase ES-20 defined iter885 (iter889+ candidate)** |
 
-**DE-phase-10 (iter886) shipped:** DE guides now 137/397. DE and FR are now tied at 137 — FR-11 should go next (iter887).
+**FR-phase-11 (iter887) shipped:** FR guides now 142/397. FR now leads DE (142 vs 137).
 **Phase DE-11 (iter885):** digital-nomad-israel, ein-kerem-jerusalem-guide, best-hotels-nazareth, galilee-food-guide, golan-heights-tours-compared. Target iter889+.
+**Phase FR-12 (iter885):** digital-nomad-israel, eilat-snorkeling-guide, best-hotels-nazareth, galilee-food-guide, golan-heights-tours-compared. Target iter889+.
 
 ### Phase ES-20 (100 → 105/397) — DEFINED iter885
 

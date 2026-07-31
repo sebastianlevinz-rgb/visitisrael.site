@@ -13471,3 +13471,10 @@ Gate: pnpm check 0 errors; pnpm build 1148 pages (+5 from 1143); pnpm test:e2e 1
 Ship: committed 2a552983 to master, pushed. CI in_progress at time of state advance.
 DE guides: 132→137/397. Build: 1143→1148 pages (+5). 10 new e2e tests (5 smoke + 5 a11y).
 Next: iter 887 → BUILD (887%5==2). Candidate: FR Phase FR-11 or ES Phase ES-20 (per I18N-PLAN.md rotation balance; FR-11 prioritized — FR currently tied with the newly advanced DE count at 137).
+
+## 2026-07-31 · iter 887 · BUILD (i18n-FR) · fr-phase-11
+What: 5 new FR guides — egypt-jordan-israel-itinerary (Routes A/B, 3-country borders, 10+14 day frameworks, safety note diplomatie.gouv.fr/voyage.gc.ca), ein-gedi-guide (Wadi David 3km + Nahal Arugot 6.6km, 2026 upper-trail flooding closure, ibex/hyrax wildlife, INPA pass advance booking required), ein-kerem-jerusalem-guide (Église de la Visitation, Église Saint-Jean-Baptiste, Fenêtres de Chagall à Hadassah ~₪25–35, Byzantine-period identification honesty), eilat-dolphin-reef-guide (rencontres non garanties, pas un dauphinarium, 3 tiers beach/snorkel/dive, dolphinreef.co.il for official prices — no fabricated prices), galilee-wine-trail (circuit auto 2-day Galil Mountain/Dalton/Golan Heights Winery, ₪80–120/₪80–150 wine ranges, designated driver/BAC 0.05% note, Golan Heights political context). Metropolitan French; YAML double-quotes; /fr/* cross-links verified against existing FR pages only; no fabricated prices. 10 new e2e tests (5 smoke + 5 a11y).
+Gate: pnpm check 0 errors; pnpm build 1153 pages (+5); pnpm test:e2e exit 0.
+Ship: squash-merged to master 8e2e60da, pushed origin/master.
+FR guides: 137→142/397. Build: 1148→1153 pages (+5).
+Next: iter 888 → REVIEW (888%5==3). Candidates: REVIEW of fr-phase-11 (link audit) or ES-20/DE-11.
