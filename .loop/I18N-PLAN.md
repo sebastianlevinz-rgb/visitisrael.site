@@ -6,18 +6,18 @@
 >
 > One bounded slice per loop iteration. NEVER bulk-translate in one shot.
 
-## Current status snapshot (2026-07-31 iter906 BUILD — ES-24 SHIPPED; DE-14/FR-15 defined)
+## Current status snapshot (2026-07-31 iter907 BUILD — FR-13 SHIPPED; ES-25/DE-14 next)
 
 | Locale | Guides | Attractions | Regions | Itineraries |
 |--------|--------|-------------|---------|-------------|
 | en     | 398    | 65          | 11      | 6           |
-| fr     | 147    | 61          | 11      | 6           |
+| fr     | 152    | 61          | 11      | 6           |
 | de     | 147    | 61          | 11      | 6           |
 | es     | 125    | 61          | 11      | 6           |
 
 **Gaps to close:**
 - es guides: **273 missing** (125/398 done — Phase ES-24 SHIPPED iter906 2514541b; **Phase ES-25 TBD**)
-- fr guides: **251 missing** (147/398 done — Phase FR-14 defined iter900; **Phase FR-15 defined iter905**)
+- fr guides: **246 missing** (152/398 done — Phase FR-13 SHIPPED iter907 36b05ce9; **Phase FR-14 defined iter900; Phase FR-15 defined iter905**)
 - de guides: **251 missing** (147/398 done — Phase DE-12 SHIPPED iter903 8193efe9; **Phase DE-13 defined iter900; Phase DE-14 defined iter905**)
 - fr/de/es attractions: **4 missing each** (the 4 EN attractions added after Phase 4)
 
@@ -632,7 +632,7 @@ All 5 confirmed MISSING from `src/content/guides/es/` via `comm -23` (2026-07-31
 - israel-road-trip: "Road trip por Israel: ruta completa en coche" — LATAM adventure + self-drive tourism; "ruta en coche por Israel" = zero dedicated LATAM Spanish editorial guide (only aggregator listicles); 7–10 day circuit Tel Aviv → Jerusalem → Dead Sea → Negev (Highway 40/Ramon Crater) → Eilat → back via Arava/Highway 90 → Sea of Galilee → Golan → Haifa → Tel Aviv; toll roads / Waze recommendation / driving in Israel tips; Discovercars affiliate CTAs (highest-margin affiliate on site); pairs with /es/car-rental-israel + /es/driving-in-israel (both confirmed existing)
 Quality: neutral LATAM Spanish tuteo; YAML double-quotes; /es/ prefix only for confirmed existing ES pages; no fabricated prices (₪/$ ranges only + verify-before-visiting caveats); Jordan Pass prices hedged with "verify at visitjordan.com"; Golan Heights political context note where referenced; Petra entry fees honest ranges.
 
-### Phase FR-13 (142 → 147/398) — DEFINED iter895
+### Phase FR-13 (147 → 152/398) — SHIPPED iter907 36b05ce9
 
 Target: after FR-12 ships.
 Guides: `eilat-vs-aqaba.md`, `guided-vs-self-guided-israel.md`, `haifa-cruise-terminal-guide.md`, `jordan-pass-guide.md`, `eilat-nightlife.md`
