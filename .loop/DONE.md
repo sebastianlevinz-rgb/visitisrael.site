@@ -1569,3 +1569,5 @@ Audited 5 ES Phase ES-17 guides. Fixed 10 /es/ prefix bugs + 1 title overrun + 4
 - 22 /fr/* cross-links verified against filesystem — all exist.
 - 0 H1 violations, 0 fabricated prices, honesty framing intact.
 - Gate: 0 errors; 1153 pages; 1599/1599 e2e pass.
+
+- [SHIPPED iter892 → 1b74d57c] (review, S) ES Phase 21 REVIEW — 5 meta/link fixes across 4 guides: galilee-food-guide (/tiberias-guide→/es/tiberias-guide), galilee-wine-trail (desc 185→149), holy-sites-dress-code-etiquette (desc 173→157), guided-vs-self-guided-israel (title 69→60, /negev→/es/negev, typo fix), eilat-vs-aqaba (desc 177→141). 1619/1619 e2e pass.

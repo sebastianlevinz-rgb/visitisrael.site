@@ -1,13 +1,15 @@
 # LOOP STATE
 
-- iteration: 891
-- lastMode: BUILD
-- lastItem: es-phase-21
-- lastResult: BUILD pass. ES Phase 21 SHIPPED a8307efb. 5 ES guides: galilee-food-guide, galilee-wine-trail, holy-sites-dress-code-etiquette, guided-vs-self-guided-israel, eilat-vs-aqaba. ES: 105→110/398. Build: 1158→1163 pages (+5). 1619/1619 e2e pass (14.6m). CI in_progress at push time.
-- nextRotationCategory: REVIEW (iter892; 892%5=2; audit es-phase-21 guides for meta/link/honesty)
+- iteration: 892
+- lastMode: REVIEW
+- lastItem: review-892-es-phase-21-meta-link-fix
+- lastResult: REVIEW pass. 5 fixes in 4 ES Phase 21 guides SHIPPED 1b74d57c. galilee-food-guide: /tiberias-guide→/es/tiberias-guide. galilee-wine-trail: desc 185→149 chars. holy-sites-dress-code-etiquette: desc 173→157 chars. guided-vs-self-guided-israel: title 69→60 chars, /negev→/es/negev, typo "Toursindican"→"Tours indican". eilat-vs-aqaba: desc 177→141 chars. Build: 1163 pages (no change). 1619/1619 e2e pass (15.4m). CI in_progress at push time.
+- nextRotationCategory: BUILD (iter893; 893%5=3; i18n-FR phase 12 or i18n-DE phase 11 per I18N-PLAN.md)
 - higgsfieldSpent: 0
-- updatedAt: 2026-07-31T09:15Z
+- updatedAt: 2026-07-31T09:45Z
 - branch context: work on master; feature work on auto/<slug>
+
+Notes: iter892 REVIEW — review-892-es-phase-21-meta-link-fix SHIPPED 1b74d57c. Audited all 5 ES Phase 21 guides against: meta title ≤65 / desc ≤160, /es/* cross-links exist in filesystem, no H1 in MDX body, no fabricated prices, honesty framing. 5 fixes across 4 files: galilee-food-guide link /tiberias-guide→/es/tiberias-guide (ES tiberias-guide confirmed existing, iter862); galilee-wine-trail desc 185→149 chars (removed 'Bodega de los Altos del Golán y' and 'consejos de alojamiento', kept key bodega names + "base en Rosh Pina"); holy-sites-dress-code-etiquette desc 173→157 chars (removed 'los' in 'en los lugares' and 'Normas de' prefix); guided-vs-self-guided-israel title 69→60 chars (dropped 'Viaje' from title: '¿Guía Privado o Independiente...'), link /negev→/es/negev (ES negev region confirmed at src/content/regions/es/negev.md), typo 'Toursindican'→'Tours indican'; eilat-vs-aqaba desc 177→141 chars (removed 'estado del arrecife, acceso a, logística de'). eilat-vs-aqaba honesty ✓ (reef bleaching caveat both sides). No fabricated prices; no H1 in any MDX body. Gate: pnpm check 0 errors; pnpm build 1163 pages (no change); pnpm test:e2e 1619/1619 pass (15.4m). CI in_progress at push time.
 
 Notes: iter891 BUILD — es-phase-21 SHIPPED a8307efb. 5 ES guides: galilee-food-guide (pez de San Pedro farmed-not-wild honesty, Nazaret Diana/El Babour, aldeas druzas laffa+labaneh, Golan wine Yarden/Pelter, Galilee Culinary Institute Gonen Feb 2026, Kibbutz Ein Gev ferry; CTAs GYG/Booking; cross-links /es/sea-of-galilee-guide /es/nazareth-travel-guide /es/golan-heights-guide), galilee-wine-trail (2-day self-drive Golan Day1 Yarden/Chateau Golan + Alta Galilea Day2 Galil Mountain/Dalton/Safed; 0.05% BAC limit; Rosh Pina base; Golan political note; CTAs Discovercars/Booking/GYG; cross-links /es/golan-heights-tours-compared /es/car-rental-israel), holy-sites-dress-code-etiquette (Western Wall gender sections kipa/shawl Shabbat photo ban; Temple Mount Mughrabi Gate only non-Muslims no interior; churches men remove hats; mosques shoes off women cover hair; quick reference table; cross-links /es/western-wall-guide /es/church-holy-sepulchre-guide /es/bethlehem-travel-guide), guided-vs-self-guided-israel (MOT license requirement Western Wall Tunnels + City of David; cost table $150–350 private/$50–120 group; traveller-type matrix 7 categories; hybrid model 1 Jerusalem guide day + car; cross-links /es/best-tours-in-israel /es/is-israel-safe), eilat-vs-aqaba (11-row comparison table; Coral Beach bleached-but-recovering honesty; Aqaba Japanese Garden/Cedar Pride diver preference; tax-free zone; Wadi Araba crossing 06:30–20:00; do-both 5-step itinerary; reef bleaching caveat both sides; CTAs Booking×2/GYG; cross-links /es/eilat-travel-guide /es/aqaba-from-eilat). 10 new e2e tests (5 smoke + 5 a11y). Gate: pnpm check 0 errors; pnpm build 1163 pages (+5); pnpm test:e2e 1619/1619 pass (14.6m). CI in_progress at push time.
 

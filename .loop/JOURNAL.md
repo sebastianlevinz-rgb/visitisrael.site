@@ -13534,3 +13534,10 @@ Gate: pnpm check 0 errors; pnpm build 1163 pages (+5 from 1158); pnpm test:e2e 1
 Ship: committed a8307efb to master, pushed origin/master. CI in_progress at push time (consistent with prior success pattern).
 ES guides: 105→110/398. Build: 1158→1163 pages. 10 new e2e tests.
 Next: iter 892 → REVIEW (892%5=2). Audit ES-21 guides: meta desc ≤160, title ≤65, /es/* cross-links exist, no H1 in MDX body, no fabricated prices, honesty framing.
+
+## 2026-07-31T09:45Z · iter 892 · REVIEW · review-892-es-phase-21-meta-link-fix
+What: Audited all 5 ES Phase 21 guides (galilee-food-guide, galilee-wine-trail, holy-sites-dress-code-etiquette, guided-vs-self-guided-israel, eilat-vs-aqaba) for meta title ≤65, desc ≤160, /es/* link prefixes, no H1 in body, no fabricated prices, honesty framing.
+Fixes: 5 bugs across 4 files — 1 link prefix bug, 3 desc overruns, 1 title overrun, 1 link prefix bug, 1 typo. eilat-vs-aqaba was CLEAN on links/H1/honesty; only desc trimmed.
+Gate: pnpm check 0 errors; pnpm build 1163 pages (no change); pnpm test:e2e 1619/1619 pass (15.4m).
+Merge: SHIPPED 1b74d57c to master; CI in_progress at push time.
+Prod: CI in_progress; prior iter's Lighthouse run succeeded (iter891 fc805f05 → success).
