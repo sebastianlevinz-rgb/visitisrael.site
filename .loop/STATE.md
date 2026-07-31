@@ -1,13 +1,15 @@
 # LOOP STATE
 
-- iteration: 888
-- lastMode: REVIEW
-- lastItem: review-888-fr-phase-11-meta-fix
-- lastResult: SHIPPED 02aec01e. Audited 5 FR Phase 11 guides. 3 meta desc overruns fixed: egypt-jordan-israel-itinerary 167→141 chars, ein-kerem-jerusalem-guide 167→157 chars, galilee-wine-trail 165→150 chars. ein-gedi-guide + eilat-dolphin-reef-guide CLEAN. 0 broken links (22 /fr/* hrefs verified). 0 H1 violations. 0 fabricated prices. Gate: 0 errors; 1153 pages; 1599/1599 e2e pass.
-- nextRotationCategory: BUILD (iter889; next candidates ES-20 / DE-11 per i18n rotation; next RESEARCH iter890)
+- iteration: 889
+- lastMode: BUILD
+- lastItem: es-phase-20
+- lastResult: SHIPPED b84c18cb. 5 ES guides: hiking-in-israel, eilat-snorkeling-guide, ein-kerem-jerusalem-guide, golan-heights-tours-compared, haifa-cruise-terminal-guide. 10 new e2e tests (5 smoke + 5 a11y). ES: 100→105/397. Build: 1153→1158 pages (+5). 1609/1609 e2e pass (13.8m).
+- nextRotationCategory: RESEARCH (iter890; 890%5=0; iter891 BUILD candidates: DE-11 / FR-12 per i18n rotation)
 - higgsfieldSpent: 0
-- updatedAt: 2026-07-31T04:15Z
+- updatedAt: 2026-07-31T07:30Z
 - branch context: work on master; feature work on auto/<slug>
+
+Notes: iter889 BUILD — es-phase-20 SHIPPED b84c18cb. 5 ES guides: hiking-in-israel (Israel National Trail 1000km, Jesus Trail 65km, Yam l'Yam 2-day Nazareth→Akko, Nativity Trail, day hikes table, safety rules — /israel-national-parks-pass EN only as no ES version exists), eilat-snorkeling-guide (Coral Beach Nature Reserve reef honesty — bleached but recovering, glass-bottom boats, Underwater Observatory, gear rental, Dolphin Reef semi-wild honesty — 3 CTAs GYG/Booking), ein-kerem-jerusalem-guide (Church of Visitation, Church of St. John Baptist, Hadassah Chagall Windows ₪25–35 verify-before-visiting honesty, Mary's Spring, Ein Kerem Byzantine tradition identification honesty — 3 CTAs GYG×2/Booking), golan-heights-tours-compared (comparison table day trip/jeep safari/wine tour/2-day/self-drive, Golan political status framed factually, Nimrod Fortress, Banias waterfall — 3 CTAs GYG/Viator/Civitatis), haifa-cruise-terminal-guide (NIS 16M May 2026 terminal 5,500m² 28 booths, Bahá'í Gardens active religious site framing, shore excursions Bahá'í/Akko/Caesarea/Nazareth/Rosh Hanikra — 3 CTAs GYG/Viator/Booking). YAML double-quotes; /es/* prefix only for confirmed existing ES pages. 10 new e2e tests (5 smoke + 5 a11y). Gate: pnpm check 0 errors; pnpm build 1158 pages (+5); pnpm test:e2e 1609/1609 pass (13.8m). Committed directly on master (files were in working tree, not on feature branch). CI in_progress at push time.
 
 Notes: iter888 REVIEW — review-888-fr-phase-11-meta-fix SHIPPED 02aec01e. Audited all 5 FR Phase 11 guides against: meta title ≤65 / desc ≤160, /fr/* cross-links exist in filesystem, no H1 in MDX body, no fabricated prices, honesty framing. 3 meta desc overruns found and fixed: egypt-jordan-israel-itinerary 167→141 chars (trimmed 'Préparez un circuit de 3 pays au Moyen-Orient :' → 'Circuit 3 pays au Moyen-Orient :' + removed 'routes, '), ein-kerem-jerusalem-guide 167→157 chars (removed 'de pierre'), galilee-wine-trail 165→150 chars (removed 'itinéraire de'). ein-gedi-guide (136 chars) + eilat-dolphin-reef-guide (151 chars) CLEAN. 22 unique /fr/* hrefs verified — all exist. 0 H1 in any MDX body. 0 fabricated prices. Gate: pnpm check 0 errors; pnpm build 1153 pages; 1599/1599 e2e pass (12.0m, pre-installed Chromium).
 

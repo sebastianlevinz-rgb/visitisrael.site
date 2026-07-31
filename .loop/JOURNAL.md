@@ -13491,3 +13491,16 @@ CLEAN: ein-gedi-guide (136 chars), eilat-dolphin-reef-guide (151 chars) — no c
 Gate: pnpm check 0 errors; pnpm build 1153 pages (no change); pnpm test:e2e 1599/1599 pass (12.0m, pre-installed Chromium at /opt/pw-browsers).
 Ship: committed 02aec01e to master, pushed origin/master.
 Next: iter 889 → BUILD. Candidates: ES-20 (ES: 100/397) / DE-11 (DE: 137/397) per i18n rotation balance.
+
+## 2026-07-31T07:30Z · iter 889 · BUILD (i18n-ES) · es-phase-20
+What: ES Phase 20 — 5 Spanish (LATAM neutral tuteo) guides to advance ES from 100→105/397.
+  (1) hiking-in-israel.md: Israel National Trail 1,000km south-to-north, Jesus Trail 65km Nazareth→Capernaum, Yam l'Yam 2-day Nazareth→Akko, Nativity Trail, Jerusalem Trail, day hikes comparison table (Masada Snake Path, Ein Gedi, HaNegev Highlands, Rosh HaNikra). Safety rules (heat management, water, smartphone navigation). /israel-national-parks-pass = EN only (no ES equivalent). 3 CTAs: GYG hiking tours / Viator multi-day / Booking Desert Nights Camp.
+  (2) eilat-snorkeling-guide.md: Coral Beach Nature Reserve primary (honest reef note: bleached-but-recovering framing, not "pristine"), glass-bottom boats, Underwater Observatory Marine Park, gear rental, marine life. Dolphin Reef semi-wild honesty ("encuentros no están garantizados"). 3 CTAs: GYG snorkeling / Booking Eilat hotel.
+  (3) ein-kerem-jerusalem-guide.md: Church of the Visitation (upper + lower chapels, Magnificat inscriptions), Church of St. John the Baptist (grotto of John Baptist), Hadassah Hospital Chagall Windows (₪25–35 entry, verify-before-visiting honesty, custodia.org note for church opening hours), Mary's Spring. Ein Kerem identification as Byzantine tradition framing (not archaeological fact). 2 GYG CTAs + 1 Booking CTA.
+  (4) golan-heights-tours-compared.md: Comparison table — day trip from TLV/JER (~$75–110), day trip from Tiberias (~$55–85), jeep safari (~$80–140), wine tour (~$60–95), 2-day Golan+Galilee (~$200–350), self-drive. Golan political status framed factually: Israeli-administered since 1967, annexed 1981, US recognized 2019, disputed by most international bodies. 3 CTAs: GYG day trip / Viator jeep safari / Civitatis wine tour.
+  (5) haifa-cruise-terminal-guide.md: NIS 16M new terminal opened May 14 2026 (5,500m², 28 border-control booths, doubled capacity). Bahá'í Gardens active religious site framing (exterior path open to all, interior for pilgrims only — correct May 2026 policy). Shore excursions: Bahá'í + German Colony (3–4h), Akko (2.5h), Caesarea (1.5h), Nazareth (3h), Rosh Hanikra (2h). 3 CTAs: GYG shore excursions / Viator Haifa day trips / Booking Haifa hotel.
+Implementation notes: All 5 files written; 10 e2e tests added (5 smoke + 5 a11y); files existed in working tree from prior session — staged and committed directly on master (feature branch auto/es-phase-20 had same base as master, never received commits from prior session).
+Gate: pnpm check 0 errors (116 hints); pnpm build 1158 pages (+5 from 1153); pnpm test:e2e 1609/1609 pass (13.8m, pre-installed Chromium /opt/pw-browsers).
+Ship: committed b84c18cb to master, pushed origin/master.
+ES guides: 100→105/397. Build: 1153→1158 pages. 10 new e2e tests.
+Next: iter 890 → RESEARCH (890%5=0). iter 891 BUILD candidates: DE-11 / FR-12 per i18n rotation.
