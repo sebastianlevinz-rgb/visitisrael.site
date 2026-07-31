@@ -6911,3 +6911,25 @@ Guided-tour aggregator model (sells tours, no deep editorial). Covers Egypt-Jord
 - DE: 132/397 (post-DE-9; pre-DE-10). DE-11 (after DE-10 ships → 137): digital-nomad-israel, ein-kerem-jerusalem-guide, best-hotels-nazareth, galilee-food-guide, golan-heights-tours-compared.
 
 **EN saturation**: ~97%+ (179th pass; no new EN-only gaps identified this pass).
+
+### 2026-07-31 · iter 890 · 179th research pass
+Sources: touristisrael.com, myisraelstay.com, travelandtourworld.com, travel-tourister.com, greca.co, viajesaisrael.com, matadornetwork.com/es.
+
+**Israel tourism momentum (2026):** US/Canada arrivals up +73% YoY in June 2026 (travelandtourworld.com). 17 new hotel openings in 2026 confirmed (myisraelstay.com). $12M Eilat tourism infrastructure investment underway.
+
+**Cruise risk — HONESTY FLAG (P1):** Middle East cruise crisis reported March 2026 (travel-tourister.com): regional conflict/security disrupted cruise itineraries throughout the Eastern Mediterranean. MSC, TUI, Celestyal ships reported disruptions. Unclear if Haifa/Ashdod specifically suspended, but HIGH RISK our cruise guides show stale active-service content. Verify before next cruise guide BUILD.
+
+**New hotel openings not yet in guides:**
+- Nordoy Hotel TLV: adults-only boutique, 22 rooms, 2026 (confirm exact opening)
+- Dizengoff 99: 122 rooms, Dizengoff St. TLV, 2026
+
+**LATAM Spanish gaps confirmed (no SERP competition):**
+- "Eilat vs Aqaba español": only competitor is greca.co dated 2023 guide (no comparison piece)
+- "Código vestimenta Israel sagrados" LATAM: felicesvacaciones.es/viajesaisrael.com have Spain-based content only; no LATAM-specific editorial
+- galilee-food-guide LATAM: zero editorial; food tourism growing in LATAM (Colombia/Mexico/Argentina)
+- galilee-wine-trail LATAM: zero editorial; wine-culture segment present in Argentina/Chile audience
+
+**i18n status (iter890, confirmed MISSING):**
+- ES: 105/398. ES-21 next (galilee-food-guide, galilee-wine-trail, holy-sites-dress-code-etiquette, guided-vs-self-guided-israel, eilat-vs-aqaba).
+- FR: 142/398. FR-12 next (digital-nomad-israel, eilat-snorkeling-guide, best-hotels-nazareth, galilee-food-guide, golan-heights-tours-compared).
+- DE: 137/398. DE-11 next (digital-nomad-israel, ein-kerem-jerusalem-guide, best-hotels-nazareth, galilee-food-guide, golan-heights-tours-compared).

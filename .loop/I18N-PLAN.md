@@ -570,8 +570,19 @@ All 5 confirmed MISSING from `src/content/guides/es/` via `comm -23` (2026-07-31
 - haifa-cruise-terminal-guide: completes Haifa cluster (haifa-travel-guide confirmed existing in ES); new May 2026 cruise terminal (28 border-control booths); BGA→Haifa transfer options; LATAM cruise-from-Israel demand; Booking CTA (Haifa hotels); pairs with /es/haifa-travel-guide
 Quality: neutral LATAM Spanish tuteo; YAML double-quotes; /es/ prefix confirmed-existing pages only; no fabricated prices; Coral Beach honest snorkeling condition note; Golan Heights political context note (Israeli-controlled; settlement wineries context-appropriate for non-Israeli audiences).
 
-### Phase FR-12 (142 → 147/397) — DEFINED iter885
-Target: after FR-11 ships (iter887 candidate → FR-12 circa iter889+).
+### Phase ES-21 (105 → 110/398) — DEFINED iter890
+
+Guides: `galilee-food-guide.md`, `galilee-wine-trail.md`, `holy-sites-dress-code-etiquette.md`, `guided-vs-self-guided-israel.md`, `eilat-vs-aqaba.md`
+All 5 confirmed MISSING from `src/content/guides/es/` via `comm -23` (2026-07-31).
+- galilee-food-guide: "Gastronomía de Galilea / Cocina Israelí del Norte" — LATAM food-tourism is growing fast (Colombia, Mexico, Argentina strong food-travel segment); Galilee Culinary Institute Gonen (farm-to-table tasting menus), St. Peter's fish, freekeh, za'atar, hummus trail from Acre to Tiberias; zero LATAM editorial competition; GYG + Booking CTAs; pairs with /es/sea-of-galilee-guide (confirmed existing)
+- galilee-wine-trail: "Ruta del Vino de Galilea y Golán" — winery circuit (Galil Mountain, Dalton, Golan Heights Winery, Pelter, Odem Mountain); wine tourism is strong in LATAM Spanish markets (Chile, Argentina, Spain-adjacent culture); Discovercars + GYG CTAs; pairs with /es/golan-heights-guide + /es/sea-of-galilee-guide (both confirmed existing); Golan Heights political context note
+- holy-sites-dress-code-etiquette: "Código de Vestimenta en los Lugares Sagrados de Israel" — essential for LATAM Catholic + Jewish pilgrimage market; Western Wall gender division + head covering + prayer etiquette; Church of Holy Sepulchre (six-denomination dress norms); Al-Aqsa / Dome of the Rock; pairs with /es/western-wall-guide + /es/church-holy-sepulchre-guide + /es/bethlehem-travel-guide (all confirmed existing); zero LATAM-specific editorial competition (only Spain-based partial coverage found via viajesaisrael.com/matadornetwork.com/es)
+- guided-vs-self-guided-israel: "¿Guía Privado o Viaje Independiente en Israel?" — highest-purchase-intent decision guide; converts fence-sitters toward GYG/Viator group tour affiliate bookings; helps LATAM travelers who are uncertain about self-driving vs. group; format: comparison table + cost analysis + verdict per traveler type; pairs with /es/best-tours-in-israel (confirmed existing); GYG + Viator CTAs; zero LATAM editorial competition
+- eilat-vs-aqaba: "Eilat o Aqaba: ¿Cuál Elegir para tus Vacaciones en el Mar Rojo?" — Red Sea head-to-head for LATAM beach vacation planners; only competitor found is greca.co Eilat guide (2023, no comparison); covers: visa friction (Israel ETA-IL vs. Jordan on-arrival for LATAM), flight access, reef quality (Coral Beach Reserve vs. Aqaba reefs), nightlife, price tiers; HONESTY: frame Red Sea reef conditions accurately (Eilat Coral Beach bleached but recovering; snorkeling vs. diving tradeoffs); pairs with /es/eilat-travel-guide + /es/aqaba-from-eilat (both confirmed existing); GYG + Booking CTAs
+Quality: neutral LATAM Spanish tuteo; YAML double-quotes; /es/ prefix confirmed-existing pages only; no fabricated prices; Golan Heights political context note (Israeli-administered; settlement wineries note); holy sites paired-naming carried from EN (Al-Aqsa/Temple Mount neutral framing); reef conditions hedged honestly.
+
+### Phase FR-12 (142 → 147/398) — DEFINED iter885
+Target: after FR-11 ships (iter887 candidate → FR-12 circa iter890+).
 
 Guides: `digital-nomad-israel.md`, `eilat-snorkeling-guide.md`, `best-hotels-nazareth.md`, `galilee-food-guide.md`, `golan-heights-tours-compared.md`
 All 5 confirmed MISSING from `src/content/guides/fr/` via `comm -23` (2026-07-31).

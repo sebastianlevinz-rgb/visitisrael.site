@@ -1,13 +1,15 @@
 # LOOP STATE
 
-- iteration: 889
-- lastMode: BUILD
-- lastItem: es-phase-20
-- lastResult: SHIPPED b84c18cb. 5 ES guides: hiking-in-israel, eilat-snorkeling-guide, ein-kerem-jerusalem-guide, golan-heights-tours-compared, haifa-cruise-terminal-guide. 10 new e2e tests (5 smoke + 5 a11y). ES: 100→105/397. Build: 1153→1158 pages (+5). 1609/1609 e2e pass (13.8m).
-- nextRotationCategory: RESEARCH (iter890; 890%5=0; iter891 BUILD candidates: DE-11 / FR-12 per i18n rotation)
+- iteration: 890
+- lastMode: RESEARCH
+- lastItem: research-890-es21-competitor-scan
+- lastResult: RESEARCH pass 179. ES-21 defined (5 guides: galilee-food-guide, galilee-wine-trail, holy-sites-dress-code-etiquette, guided-vs-self-guided-israel, eilat-vs-aqaba). FR-12 + DE-11 confirmed still MISSING. Cruise suspension risk flagged P1. InterContinental Jerusalem still NOT open (framing correct). EN now 398 (+1 since iter889). 2 new BACKLOG items.
+- nextRotationCategory: BUILD (iter891; 891%5=1; ES-21 is next BUILD candidate per i18n rotation)
 - higgsfieldSpent: 0
-- updatedAt: 2026-07-31T07:30Z
+- updatedAt: 2026-07-31T08:30Z
 - branch context: work on master; feature work on auto/<slug>
+
+Notes: iter890 RESEARCH — research-890 (179th research pass). ES-21 defined: 5 guides confirmed MISSING from ES via comm -23: galilee-food-guide (LATAM food tourism, Galilee Culinary Institute Gonen, pairs /es/sea-of-galilee-guide), galilee-wine-trail (winery circuit, pairs /es/golan-heights-guide), holy-sites-dress-code-etiquette (LATAM Catholic/Jewish pilgrim etiquette; pairs /es/western-wall-guide + /es/church-holy-sepulchre-guide), guided-vs-self-guided-israel ("¿Guía privado o viaje independiente Israel?"; pairs /es/best-tours-in-israel), eilat-vs-aqaba ("Eilat o Aqaba: ¿Cuál Elegir?"; zero LATAM editorial confirmed; pairs /es/eilat-travel-guide + /es/aqaba-from-eilat). Competitor research: US/Canada arrivals +73% YoY June 2026 (travelandtourworld.com); 17 new Israel hotels 2026 (myisraelstay.com); cruise calls to Israeli ports possibly suspended (March 2026 regional security — P1 honesty check added); InterContinental Jerusalem still pre-opening (late summer 2026 — current framing correct); Nordoy Hotel TLV (22 rooms) + Dizengoff 99 (122 rooms) new TLV openings (P3). EN count 398 (was 397; yam-caesarea-guide added). No code changes.
 
 Notes: iter889 BUILD — es-phase-20 SHIPPED b84c18cb. 5 ES guides: hiking-in-israel (Israel National Trail 1000km, Jesus Trail 65km, Yam l'Yam 2-day Nazareth→Akko, Nativity Trail, day hikes table, safety rules — /israel-national-parks-pass EN only as no ES version exists), eilat-snorkeling-guide (Coral Beach Nature Reserve reef honesty — bleached but recovering, glass-bottom boats, Underwater Observatory, gear rental, Dolphin Reef semi-wild honesty — 3 CTAs GYG/Booking), ein-kerem-jerusalem-guide (Church of Visitation, Church of St. John Baptist, Hadassah Chagall Windows ₪25–35 verify-before-visiting honesty, Mary's Spring, Ein Kerem Byzantine tradition identification honesty — 3 CTAs GYG×2/Booking), golan-heights-tours-compared (comparison table day trip/jeep safari/wine tour/2-day/self-drive, Golan political status framed factually, Nimrod Fortress, Banias waterfall — 3 CTAs GYG/Viator/Civitatis), haifa-cruise-terminal-guide (NIS 16M May 2026 terminal 5,500m² 28 booths, Bahá'í Gardens active religious site framing, shore excursions Bahá'í/Akko/Caesarea/Nazareth/Rosh Hanikra — 3 CTAs GYG/Viator/Booking). YAML double-quotes; /es/* prefix only for confirmed existing ES pages. 10 new e2e tests (5 smoke + 5 a11y). Gate: pnpm check 0 errors; pnpm build 1158 pages (+5); pnpm test:e2e 1609/1609 pass (13.8m). Committed directly on master (files were in working tree, not on feature branch). CI in_progress at push time.
 

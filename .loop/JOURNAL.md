@@ -13504,3 +13504,20 @@ Gate: pnpm check 0 errors (116 hints); pnpm build 1158 pages (+5 from 1153); pnp
 Ship: committed b84c18cb to master, pushed origin/master.
 ES guides: 100→105/397. Build: 1153→1158 pages. 10 new e2e tests.
 Next: iter 890 → RESEARCH (890%5=0). iter 891 BUILD candidates: DE-11 / FR-12 per i18n rotation.
+
+## 2026-07-31T08:30Z · iter 890 · RESEARCH · research-890-es21-competitor-scan
+What: 179th research pass. ES-21 defined (5 guides). Competitor + freshness scan.
+ES-21 guides (all confirmed MISSING from ES via comm -23):
+  galilee-food-guide (LATAM food tourism; Galilee Culinary Institute Gonen; pairs /es/sea-of-galilee-guide),
+  galilee-wine-trail (winery circuit Galil Mountain/Dalton/Golan; pairs /es/golan-heights-guide),
+  holy-sites-dress-code-etiquette (LATAM Catholic/Jewish pilgrim etiquette; pairs /es/western-wall-guide + /es/church-holy-sepulchre-guide),
+  guided-vs-self-guided-israel ("¿Guía privado o viaje independiente?"; pairs /es/best-tours-in-israel),
+  eilat-vs-aqaba ("Eilat o Aqaba: ¿Cuál Elegir?"; zero LATAM editorial confirmed; pairs /es/eilat-travel-guide + /es/aqaba-from-eilat).
+Freshness/honesty findings:
+  CRUISE RISK (P1): Israeli port cruise calls (Haifa/Ashdod) may be suspended per March 2026 regional security context (Operation Rising Lion); haifa-cruise-terminal-guide + cruise-shore-excursions + ashdod-cruise-port-excursions + israel-homeport-cruise may need suspension notice — added P1 honesty check to BACKLOG (verify first, do not auto-fix without source confirmation).
+  InterContinental Jerusalem: still NOT open (pre-opening "late summer 2026") — current guide framing is correct, no change needed.
+  Israir India routes (Delhi+Mumbai): announced April 2026 but operational status UNCONFIRMED — do not add to airline guides without verification.
+  New TLV hotels: Nordoy Hotel (22 rooms, adults-only) + Dizengoff 99 (122 rooms) confirmed 2026 openings — added P3 BACKLOG item.
+  EN count: 398 (was 397; yam-caesarea-guide added since iter889). ES: 105/398. FR: 142/398. DE: 137/398.
+Gate: N/A (research only). Shipped: nothing.
+Next: iter 891 → BUILD (891%5=1). ES-21 is primary BUILD candidate.
