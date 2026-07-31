@@ -1595,3 +1595,12 @@ Value: ES guides 110→115/398 (continued largest-gap catch-up). Completes ES Jo
 
 ## iter897 · REVIEW (ES-22 link audit) · review-897-es-phase-22 · c5133e07
 - Audited all 5 ES Phase 22 guides (jordan-pass-guide, petra-from-israel, tel-aviv-nightlife, israel-with-kids, israel-road-trip). Meta: all titles ≤65 ✓, all descs ≤160 ✓, no H1 ✓, no fabricated prices ✓. Fixed 10 /es/* link-prefix errors: tel-aviv-nightlife (4 attraction/region links missing /es/ prefix), israel-with-kids (5 region links missing /es/ prefix), israel-road-trip (1 guide link missing /es/ prefix). jordan-pass-guide + petra-from-israel CLEAN. Gate: pnpm check 0 errors; pnpm build 1173 pages; pnpm test:e2e 1639/1639 pass (13.6m).
+
+## iter 901 · BUILD · es-phase-23 · d6cbe672 · 2026-07-31
+ES Phase 23 — 5 LATAM Spanish guides. ES guides: 115→120/398. Build: 1183 pages. 1659/1659 e2e pass.
+- eilat-nightlife (resort nightlife; North Beach; Red Sea Jazz Festival; no fabricated prices; GYG/Viator/Booking CTAs)
+- golan-heights-wineries (Yarden/Chateau Golan/Pelter; 2-day circuit; Golan political note; DiscoverCars/GYG/Booking CTAs)
+- haifa-food-guide (Wadi Nisnas; German Colony; Fattoush/Al-Pasha/Em Sabri; GYG/Viator/Booking CTAs)
+- israel-5-vs-7-vs-10-days (trip-length decision; 4-column comparison table; 5-day itinerary; GYG/Booking CTAs)
+- hotels-near-ben-gurion-airport (Airport City/Lod; ₪ ranges; Shabbat logistics; Booking/DiscoverCars CTAs)
+Value: ES guides 115→120/398 (gap 283→278). Completes Eilat nightlife cluster, Golan wine cluster, Haifa food cluster; adds high-intent trip-planning and transit accommodation guides.

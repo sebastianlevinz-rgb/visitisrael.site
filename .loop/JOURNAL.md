@@ -13639,3 +13639,15 @@ Freshness findings:
   (5) "Bible Road" Highway 60 MoT initiative: too early to write editorial content; P3/monitor BACKLOG item.
 Net-new BACKLOG items added: 3 (2 freshness + 1 watch). No code changes. No ship.
 Next: iter 901 → BUILD (901%5=1 → ES-23: eilat-nightlife, golan-heights-wineries, haifa-food-guide, israel-5-vs-7-vs-10-days, hotels-near-ben-gurion-airport).
+
+## 2026-07-31T17:00Z · iter 901 · BUILD · es-phase-23 · SHIPPED d6cbe672
+What: 5 ES Phase 23 guides. ES guides: 115→120/398. Build: 1178→1183 pages (+5). 1659/1659 e2e pass (12.7m, pre-installed Chromium).
+- eilat-nightlife (North Beach promenade + beach clubs + Club Kokomo + Three Monkeys + Unplugged; Red Sea Jazz Festival; GYG sunset tours/Viator sunset cruise/Booking North Beach hotels CTAs; no fabricated cover prices; 6 FAQs; cross-links /es/eilat-travel-guide /es/eilat-hotels-guide /es/tel-aviv-nightlife)
+- golan-heights-wineries (Yarden/Chateau Golan/Pelter/Galil Mountain/Odem Mountain 2-day self-drive circuit; Golan political status factual/neutral; advance booking tips; kosher status per estate; DiscoverCars/GYG/Booking CTAs; 7 FAQs; cross-links /es/golan-heights-guide /es/galilee-wine-trail /es/car-rental-israel)
+- haifa-food-guide (Wadi Nisnas: Falafel Ha'zkenim/Em Sabri Bakery/Al-Pasha; German Colony: Fattoush/Hanamal 24/Nabila/Colony Hotel; port district craft beer + fish; Night Market seasonal; GYG food tour/Viator Haifa+Akko/Booking CTAs; 7 FAQs; cross-link /es/haifa-travel-guide)
+- israel-5-vs-7-vs-10-days (comparison table 5/7/10/14 days vs what's covered vs what's skipped; detailed 5-day suggested itinerary; decision aid for LATAM trip-planning searches "cuántos días Israel"; GYG guided tours/Booking CTAs; 6 FAQs; cross-links /es/first-time-in-israel /es/best-time-to-visit-israel /es/car-rental-israel /es/eilat-travel-guide)
+- hotels-near-ben-gurion-airport (Airport City zone: Leonardo ₪550-850/Carlton ₪650-950/HIX ₪500-750; Lod zone; Shabbat logistics; decision matrix; Booking airport hotels/DiscoverCars CTAs; 7 FAQs; cross-links /es/ben-gurion-airport-guide /es/ben-gurion-airport-transfers /es/car-rental-israel)
+Gate: pnpm check 0 errors; pnpm build 1183 pages (+5); pnpm test:e2e 1659/1659 pass (12.7m).
+Ship: squash-merged d6cbe672 to master, pushed. auto/es-phase-23 deleted.
+CI in_progress at push time.
+Next: iter 902 → REVIEW (902%5=2) — audit ES-23 guides: meta title ≤65, desc ≤160, /es/* cross-links exist in filesystem, no H1 in MDX body, no fabricated prices, honesty framing.
