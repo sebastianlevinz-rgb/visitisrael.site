@@ -6933,3 +6933,20 @@ Sources: touristisrael.com, myisraelstay.com, travelandtourworld.com, travel-tou
 - ES: 105/398. ES-21 next (galilee-food-guide, galilee-wine-trail, holy-sites-dress-code-etiquette, guided-vs-self-guided-israel, eilat-vs-aqaba).
 - FR: 142/398. FR-12 next (digital-nomad-israel, eilat-snorkeling-guide, best-hotels-nazareth, galilee-food-guide, golan-heights-tours-compared).
 - DE: 137/398. DE-11 next (digital-nomad-israel, ein-kerem-jerusalem-guide, best-hotels-nazareth, galilee-food-guide, golan-heights-tours-compared).
+
+### 2026-07-31 · iter 895 · 180th research pass — LP / Travelstride / Reddit / State Dept
+Sources: lonelyplanet.com/israel, travelstride.com/israel, expedia.com/Israel, masaisrael.org/reddit-israel-travel, travel.state.gov/israel, touristisrael.com/israel-travel-2026, myisraelstay.com/hotel-openings-2026, kimkim.com/israel-in-september.
+
+Key findings (verified / net-new):
+1. **Jewish Holiday Impact Planner gap** — Sep–Oct 2026 (Rosh Hashanah Sep 12–13, Yom Kippur Sep 21, Sukkot Sep 26, Simchat Torah Oct 3) is the single most-searched seasonal Israel topic on Reddit and kimkim. LP has a static "Jewish holidays" mention. Our traveling-israel-jewish-holidays.md exists in EN but is NOT interactive. A day-level open/closed widget filterable by holiday and city would be a moat. → BACKLOG (tools, P2, M).
+2. **Tour package comparison widget** — Travelstride, AffordableTours, Gate1 all have filterable package listings (duration / price / group size / theme). Our build-your-trip is a personal trip builder, not a package comparator. A comparison widget with GYG/Viator/Abraham/Bein Harim package affiliate links would add a high-margin monetization layer LP doesn't have. → BACKLOG (tools/monetization, P2, M).
+3. **Haifa shore excursion content** — LP does not have dedicated shore excursion guides for Haifa cruise port. The research agent noted this as a zero-competition slot. We already have haifa-cruise-terminal-guide.md (EN) and it's defined for FR-13. No new action needed beyond continuing the i18n program. (DE + FR translations will fill this.)
+4. **No new honesty flags found** — American Airlines is correctly listed as Miami MIA seasonal in our airlines guide (not JFK — that is Delta); Yahel-Timna MTB already has its own comprehensive EN guide (arava-mountain-biking.md); Rosh Hanikra cable car fix already shipped iter861; Isrotel Princess closure already fixed iter857. State Dept advisory wording noted for future check (is-israel-safe.md was last updated Jul 2026 — should confirm Level 2 "Exercise Increased Caution" language is current).
+5. **17 new Israel hotel openings summer 2026** — myisraelstay.com confirms 17 new properties. We already have Nordoy Hotel TLV (P3) and Dizengoff 99 (P3) from iter890, and Gordonia Zichron Yaakov (P2) from iter875, in BACKLOG. No additional hotel items added this pass.
+
+Competitor posture summary:
+- LP: strong on print-guide depth but NO interactive tools; no shore excursion hub; sparse i18n
+- Travelstride/AffordableTours: package comparison format is their moat; no editorial depth
+- Civitatis (ES/FR/DE): tour bookings with zero editorial comparison guides — our ES/FR/DE translations fill that exact gap
+- masaisrael.org (EN aggregator): Reddit-based; safety + flights are their top topics; no interactive tools
+- Tourist Israel: money pages for tours; no tools; English-dominant
