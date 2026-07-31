@@ -873,6 +873,11 @@ const ROUTES = [
   '/es/ein-gedi-guide',
   '/es/eilat-dolphin-reef-guide',
   '/es/best-hotels-nazareth',
+  '/de/galilee-christian-sites-circuit',
+  '/de/ein-gedi-guide',
+  '/de/haifa-travel-guide',
+  '/de/egypt-jordan-israel-itinerary',
+  '/de/eilat-beach-guide',
 ];
 
 for (const route of ROUTES) {
