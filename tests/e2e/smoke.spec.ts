@@ -898,6 +898,11 @@ const ROUTES = [
   '/de/best-hotels-nazareth',
   '/de/galilee-food-guide',
   '/de/golan-heights-tours-compared',
+  '/es/jordan-pass-guide',
+  '/es/petra-from-israel',
+  '/es/tel-aviv-nightlife',
+  '/es/israel-with-kids',
+  '/es/israel-road-trip',
 ];
 
 for (const route of ROUTES) {
