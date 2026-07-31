@@ -6,17 +6,17 @@
 >
 > One bounded slice per loop iteration. NEVER bulk-translate in one shot.
 
-## Current status snapshot (2026-07-31 iter907 BUILD — FR-13 SHIPPED; ES-25/DE-14 next)
+## Current status snapshot (2026-07-31 iter908 BUILD — ES-25 SHIPPED; REVIEW iter909 next)
 
 | Locale | Guides | Attractions | Regions | Itineraries |
 |--------|--------|-------------|---------|-------------|
 | en     | 398    | 65          | 11      | 6           |
 | fr     | 152    | 61          | 11      | 6           |
 | de     | 147    | 61          | 11      | 6           |
-| es     | 125    | 61          | 11      | 6           |
+| es     | 130    | 61          | 11      | 6           |
 
 **Gaps to close:**
-- es guides: **273 missing** (125/398 done — Phase ES-24 SHIPPED iter906 2514541b; **Phase ES-25 TBD**)
+- es guides: **268 missing** (130/398 done — Phase ES-25 SHIPPED iter908 d3df76f; **Phase ES-26 TBD**)
 - fr guides: **246 missing** (152/398 done — Phase FR-13 SHIPPED iter907 36b05ce9; **Phase FR-14 defined iter900; Phase FR-15 defined iter905**)
 - de guides: **251 missing** (147/398 done — Phase DE-12 SHIPPED iter903 8193efe9; **Phase DE-13 defined iter900; Phase DE-14 defined iter905**)
 - fr/de/es attractions: **4 missing each** (the 4 EN attractions added after Phase 4)
@@ -705,6 +705,17 @@ All 5 confirmed MISSING from `src/content/guides/fr/` via `comm -23` (2026-07-31
 - galilee-vs-golan-weekend: "Week-end en Galilée ou sur le Golan : lequel choisir?" — FR independent travelers planning a 2-day northern Israel detour; comparison framework (nature/wine/religious sites/hiking/cuisine); authentic local experiences vs. lake pilgrimage circuit; decision matrix by traveler type; pairs with /fr/galilee-travel-guide + /fr/golan-heights-guide + /fr/galilee-wine-trail (all confirmed existing in FR or confirm); GYG CTAs
 - glamping-israel: "Glamping en Israël : hébergements insolites dans la nature" — French glampisme/hébergement insolite market is growing rapidly (France #1 glamping market in Europe per Glamping Hub data); Beresheet Desert Lodge (Makhtesh Ramon crater rim), Succah in the Desert off-grid sukkot, Yahel outpost Arava, Ein Gedi kibbutz glamping, North Galilee moshav zimmer style; honest pricing in ₪ ranges; pairs with /fr/best-hotels-negev + /fr/sea-of-galilee-guide (both confirmed existing); Booking CTAs
 Quality: metropolitan French; YAML double-quotes; /fr/* prefix only for confirmed existing FR pages; no fabricated prices; Golan Heights political context note (factual/neutral); glamping prices as ₪ ranges only; Beresheet/Succah prices in ranges.
+
+### Phase ES-25 (125 → 130/398) — SHIPPED iter908 d3df76f
+
+Guides: `masada-dead-sea-day-trip.md`, `jerusalem-tours-compared.md`, `israel-national-parks-pass.md`, `galilee-vs-golan-weekend.md`, `haifa-neighborhoods-guide.md`
+All 5 confirmed MISSING from `src/content/guides/es/` via `comm -23` (2026-07-31, iter908).
+- masada-dead-sea-day-trip: amanecer vs. de día decision table; Camino de la Serpiente 45-60min; Ein Gedi oasis; flotación Mar Muerto; USD 89-120 group tours (teleférico NOT included in pase); Sound&Light Show event Mar–Oct; 3 CTAs GYG/Viator/Abraham
+- jerusalem-tours-compared: 5-type comparison table; Old City 3-4h ~USD30-50; full day 7-8h ~USD60-95; Jerusalem+Belén ~USD80-110; Túneles Muro ~USD25-35; guía privado USD300+/día; verdictName/verdictQuery set; 3 CTAs GYG/Viator/Civitatis
+- israel-national-parks-pass: 4 tiers Azul/Verde/Naranja/Matmon; Israel Pass & Ride (parks+Rav-Kav) at BGA T3 arrivals; exclusions table (teleférico/Ciudad de David/Bahá'í/Yad Vashem); prices hedged to parks.org.il verification
+- galilee-vs-golan-weekend: 11-row comparison table; 4-night combined itinerary; 6 FAQs inc. Golan safety + wine; Golan political status factual/neutral; 2 CTAs DiscoverCars/Booking
+- haifa-neighborhoods-guide: 6 barrios (Colonia Alemana/Wadi Nisnas/Hadar/Merkaz HaCarmel/Bat Galim/Puerto); Carmelit 6 stops ₪7/trip Sun-Thu 06-22/Fri~15/Shabbat nightfall-22; Bahá'í active-site framing (exterior/terrazas only, tour libre requires advance registration); Fiesta de las Fiestas (Hanukkah+Navidad+Eid Dec); 2 CTAs Booking/GYG
+Quality: neutral LATAM Spanish tuteo; YAML double-quotes; /es/* prefix only for confirmed existing ES pages; no fabricated prices/ratings; Golan political note factual/neutral; Bahá'í active-site framing; Sound&Light Show 2026 event schema.
 
 ### Phase ES-24 (120 → 125/398) — DEFINED iter905
 

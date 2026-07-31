@@ -1613,3 +1613,11 @@ Value: ES guides 115→120/398 (gap 283→278). Completes Eilat nightlife cluste
 
 ## iter904 · REVIEW · review-904-de-phase-12 · 1169b589
 - DE Phase 12 REVIEW: 6 missing /de/ cross-link prefixes fixed across 2 files. birdwatching-in-israel: /akko-acre-guide → /de/akko-acre-guide. easter-in-jerusalem: /church-holy-sepulchre-guide (×2), /christian-pilgrimage-holy-land (×2), /holy-sites-dress-code-etiquette, /masada-dead-sea-day-trip all prefixed with /de/. eilat-dolphin-reef-guide, eilat-snorkeling-guide, jordan-pass-guide: all CLEAN. Meta title/desc, H1, honesty framing all OK. 1659/1659 e2e pass.
+
+## iter908 · BUILD · es-phase-25 · d3df76f
+- masada-dead-sea-day-trip (amanecer vs. de día; Ein Gedi; Mar Muerto; USD 89-120; teleférico no incluido; GYG/Viator/Abraham CTAs)
+- jerusalem-tours-compared (tabla 5 tipos; guía privado USD300+/día; Túneles Muro reserva anticipada; GYG/Viator/Civitatis CTAs)
+- israel-national-parks-pass (Azul/Verde/Naranja/Matmon; Israel Pass & Ride; exclusiones table; parks.org.il verification)
+- galilee-vs-golan-weekend (11-row comparison; 4-night itinerary; Golan political note; DiscoverCars/Booking CTAs)
+- haifa-neighborhoods-guide (6 barrios; Carmelit ₪7; Bahá'í active-site framing; Fiesta de las Fiestas dic; Booking/GYG CTAs)
+Value: ES guides 125→130/398 (gap 273→268). Completes Masada/Dead Sea cluster + Jerusalem tours coverage + parks pass planning guide + Galilee-Golan compare pair + Haifa neighborhoods guide for LATAM travelers.
