@@ -13651,3 +13651,16 @@ Gate: pnpm check 0 errors; pnpm build 1183 pages (+5); pnpm test:e2e 1659/1659 p
 Ship: squash-merged d6cbe672 to master, pushed. auto/es-phase-23 deleted.
 CI in_progress at push time.
 Next: iter 902 → REVIEW (902%5=2) — audit ES-23 guides: meta title ≤65, desc ≤160, /es/* cross-links exist in filesystem, no H1 in MDX body, no fabricated prices, honesty framing.
+
+## 2026-07-31T18:00Z · iter 902 · REVIEW (ES-23 audit) · review-902-es-phase-23
+What: Audited all 5 ES Phase 23 guides (eilat-nightlife, golan-heights-wineries, haifa-food-guide, israel-5-vs-7-vs-10-days, hotels-near-ben-gurion-airport) against: meta title ≤65, desc ≤160, /es/* cross-link prefixes exist in filesystem, no H1 in MDX body, no fabricated prices, honesty framing.
+Findings:
+  eilat-nightlife: 2 FIXES — title 81→65 chars ('Vida nocturna en Eilat: clubes de playa, bares y Festival de Jazz'); desc 161→158 chars (removed 'el ' before 'paseo').
+  golan-heights-wineries: CLEAN — title 42 chars, desc 160 chars (exactly at limit). All /es/* links verified. Golan political status factual/neutral ✓.
+  haifa-food-guide: 3 FIXES — title 77→65 chars (removed 'la '+'y la' articles → 'Gastronomía en Haifa: Wadi Nisnas, Colonia Alemana y cocina árabe'); desc 163→159 chars (removed 'los ' before 'dulces'); link bug [guía de Akko (Acre)](/es/haifa-travel-guide)→/es/akko-acre-guide (ES akko-acre-guide.md confirmed existing at src/content/guides/es/).
+  israel-5-vs-7-vs-10-days: CLEAN — title 52 chars, desc 154 chars. All /es/* links verified (12 unique hrefs).
+  hotels-near-ben-gurion-airport: 1 FIX — desc 181→140 chars (removed 'zona '+'conviene'+'honestos' clauses, kept Airport City/Lod/Tel Aviv/Shabat/prices).
+Cross-links: 22 unique /es/* hrefs verified — all exist in src/content/guides/es/. 0 H1 in any MDX body. 0 fabricated prices. Honesty framing ✓.
+Gate: pnpm check 0 errors; pnpm build 1183 pages (no change); pnpm test:e2e 1659/1659 pass (17.6m).
+Ship: squash-merged (staged+committed) bd3e95bc to master, pushed origin/master. CI in_progress at push time.
+Next: iter 903 → BUILD i18n DE-13 (903%5=3; DE-13 defined iter900: eilat-vs-aqaba, galilee-wine-trail, haifa-food-guide, golan-heights-hiking-trails, hotels-near-ben-gurion-airport — all confirmed MISSING from DE).
