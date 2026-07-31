@@ -613,6 +613,11 @@ const ROUTES = [
   '/es/ein-kerem-jerusalem-guide',
   '/es/golan-heights-tours-compared',
   '/es/haifa-cruise-terminal-guide',
+  '/es/galilee-food-guide',
+  '/es/galilee-wine-trail',
+  '/es/holy-sites-dress-code-etiquette',
+  '/es/guided-vs-self-guided-israel',
+  '/es/eilat-vs-aqaba',
 ];
 
 for (const route of ROUTES) {
