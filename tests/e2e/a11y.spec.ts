@@ -648,6 +648,11 @@ const ROUTES = [
   '/fr/haifa-cruise-terminal-guide',
   '/fr/jordan-pass-guide',
   '/fr/eilat-nightlife',
+  '/es/masada-dead-sea-day-trip',
+  '/es/jerusalem-tours-compared',
+  '/es/israel-national-parks-pass',
+  '/es/galilee-vs-golan-weekend',
+  '/es/haifa-neighborhoods-guide',
 ];
 
 for (const route of ROUTES) {
