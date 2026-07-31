@@ -1,13 +1,15 @@
 # LOOP STATE
 
-- iteration: 890
-- lastMode: RESEARCH
-- lastItem: research-890-es21-competitor-scan
-- lastResult: RESEARCH pass 179. ES-21 defined (5 guides: galilee-food-guide, galilee-wine-trail, holy-sites-dress-code-etiquette, guided-vs-self-guided-israel, eilat-vs-aqaba). FR-12 + DE-11 confirmed still MISSING. Cruise suspension risk flagged P1. InterContinental Jerusalem still NOT open (framing correct). EN now 398 (+1 since iter889). 2 new BACKLOG items.
-- nextRotationCategory: BUILD (iter891; 891%5=1; ES-21 is next BUILD candidate per i18n rotation)
+- iteration: 891
+- lastMode: BUILD
+- lastItem: es-phase-21
+- lastResult: BUILD pass. ES Phase 21 SHIPPED a8307efb. 5 ES guides: galilee-food-guide, galilee-wine-trail, holy-sites-dress-code-etiquette, guided-vs-self-guided-israel, eilat-vs-aqaba. ES: 105→110/398. Build: 1158→1163 pages (+5). 1619/1619 e2e pass (14.6m). CI in_progress at push time.
+- nextRotationCategory: REVIEW (iter892; 892%5=2; audit es-phase-21 guides for meta/link/honesty)
 - higgsfieldSpent: 0
-- updatedAt: 2026-07-31T08:30Z
+- updatedAt: 2026-07-31T09:15Z
 - branch context: work on master; feature work on auto/<slug>
+
+Notes: iter891 BUILD — es-phase-21 SHIPPED a8307efb. 5 ES guides: galilee-food-guide (pez de San Pedro farmed-not-wild honesty, Nazaret Diana/El Babour, aldeas druzas laffa+labaneh, Golan wine Yarden/Pelter, Galilee Culinary Institute Gonen Feb 2026, Kibbutz Ein Gev ferry; CTAs GYG/Booking; cross-links /es/sea-of-galilee-guide /es/nazareth-travel-guide /es/golan-heights-guide), galilee-wine-trail (2-day self-drive Golan Day1 Yarden/Chateau Golan + Alta Galilea Day2 Galil Mountain/Dalton/Safed; 0.05% BAC limit; Rosh Pina base; Golan political note; CTAs Discovercars/Booking/GYG; cross-links /es/golan-heights-tours-compared /es/car-rental-israel), holy-sites-dress-code-etiquette (Western Wall gender sections kipa/shawl Shabbat photo ban; Temple Mount Mughrabi Gate only non-Muslims no interior; churches men remove hats; mosques shoes off women cover hair; quick reference table; cross-links /es/western-wall-guide /es/church-holy-sepulchre-guide /es/bethlehem-travel-guide), guided-vs-self-guided-israel (MOT license requirement Western Wall Tunnels + City of David; cost table $150–350 private/$50–120 group; traveller-type matrix 7 categories; hybrid model 1 Jerusalem guide day + car; cross-links /es/best-tours-in-israel /es/is-israel-safe), eilat-vs-aqaba (11-row comparison table; Coral Beach bleached-but-recovering honesty; Aqaba Japanese Garden/Cedar Pride diver preference; tax-free zone; Wadi Araba crossing 06:30–20:00; do-both 5-step itinerary; reef bleaching caveat both sides; CTAs Booking×2/GYG; cross-links /es/eilat-travel-guide /es/aqaba-from-eilat). 10 new e2e tests (5 smoke + 5 a11y). Gate: pnpm check 0 errors; pnpm build 1163 pages (+5); pnpm test:e2e 1619/1619 pass (14.6m). CI in_progress at push time.
 
 Notes: iter890 RESEARCH — research-890 (179th research pass). ES-21 defined: 5 guides confirmed MISSING from ES via comm -23: galilee-food-guide (LATAM food tourism, Galilee Culinary Institute Gonen, pairs /es/sea-of-galilee-guide), galilee-wine-trail (winery circuit, pairs /es/golan-heights-guide), holy-sites-dress-code-etiquette (LATAM Catholic/Jewish pilgrim etiquette; pairs /es/western-wall-guide + /es/church-holy-sepulchre-guide), guided-vs-self-guided-israel ("¿Guía privado o viaje independiente Israel?"; pairs /es/best-tours-in-israel), eilat-vs-aqaba ("Eilat o Aqaba: ¿Cuál Elegir?"; zero LATAM editorial confirmed; pairs /es/eilat-travel-guide + /es/aqaba-from-eilat). Competitor research: US/Canada arrivals +73% YoY June 2026 (travelandtourworld.com); 17 new Israel hotels 2026 (myisraelstay.com); cruise calls to Israeli ports possibly suspended (March 2026 regional security — P1 honesty check added); InterContinental Jerusalem still pre-opening (late summer 2026 — current framing correct); Nordoy Hotel TLV (22 rooms) + Dizengoff 99 (122 rooms) new TLV openings (P3). EN count 398 (was 397; yam-caesarea-guide added). No code changes.
 

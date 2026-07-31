@@ -13521,3 +13521,16 @@ Freshness/honesty findings:
   EN count: 398 (was 397; yam-caesarea-guide added since iter889). ES: 105/398. FR: 142/398. DE: 137/398.
 Gate: N/A (research only). Shipped: nothing.
 Next: iter 891 → BUILD (891%5=1). ES-21 is primary BUILD candidate.
+
+## 2026-07-31T09:15Z · iter 891 · BUILD (i18n-ES) · es-phase-21
+What: ES Phase 21 — 5 Spanish (LATAM neutral tuteo) guides advancing ES from 105→110/398.
+  (1) galilee-food-guide.md: pez de San Pedro farmed-not-wild honesty, Nazaret Diana/El Babour restaurants, aldeas druzas laffa+labaneh (Daliyat al-Carmel/Isfiya), Golan wine Yarden/Galil Mountain/Pelter, Galilee Culinary Institute Gonen Feb 2026, Kibbutz Ein Gev ferry, Shabbat closures note. CTAs: GYG food tours + Booking Tiberias hotels.
+  (2) galilee-wine-trail.md: 2-day self-drive circuit; Day 1 Golan (Yarden tasting room, Chateau Golan, Assaf boutique — advance booking), Day 2 Alta Galilea (Galil Mountain Winery open daily no appointment ₪80–120/person, Kerem ben Zimra plateau, Dalton Winery 900m ₪80–150/person, Safed descent); 0.05% BAC limit + designated driver rule; Golan political note (Israeli-administered 1967, annexed 1981, US recognized 2019, disputed by most international bodies); Rosh Pina overnight base. CTAs: Discovercars + Booking Rosh Pinna + GYG wine tours.
+  (3) holy-sites-dress-code-etiquette.md: Western Wall/הַכּוֹתֶל הַמַּעֲרָבִי gender sections/free kipot+shawls/Shabbat photography ban; Temple Mount/Haram al-Sharif via Mughrabi Gate only/non-Muslims cannot enter Dome or Al-Aqsa/strictest dress code/overt non-Muslim prayer not permitted; churches/mosques per-site rules; quick reference table; packing checklist. No affiliateCtas (Planning category).
+  (4) guided-vs-self-guided-israel.md: MOT license requirement for Western Wall Tunnels + City of David restricted sections; cost table ($150–350 private/$50–120 group/$40–80 car+INPA pass); 7-category traveller-type matrix; hybrid model; how to verify MOT license on GYG/Viator; unlicensed guides note. CTAs: GYG private licensed guide + Discovercars car rental.
+  (5) eilat-vs-aqaba.md: 11-row comparison table (country, draws, reef access, diving reputation, beach scene, Petra distance, visa, getting there, accommodation cost, tax-free shopping, Wadi Rum distance); Coral Beach "bleached but recovering" honesty; Aqaba Japanese Garden/Cedar Pride preferred by experienced divers; Eilat tax-free zone (no 17% VAT); Wadi Araba crossing 06:30–20:00 (30–90 min); do-both 5-step itinerary; reef bleaching caveat both sides. CTAs: Booking Eilat hotels + Booking Aqaba hotels + GYG Red Sea diving.
+Also: 5 smoke + 5 a11y e2e tests added for all new routes.
+Gate: pnpm check 0 errors; pnpm build 1163 pages (+5 from 1158); pnpm test:e2e 1619/1619 pass (14.6m).
+Ship: committed a8307efb to master, pushed origin/master. CI in_progress at push time (consistent with prior success pattern).
+ES guides: 105→110/398. Build: 1158→1163 pages. 10 new e2e tests.
+Next: iter 892 → REVIEW (892%5=2). Audit ES-21 guides: meta desc ≤160, title ≤65, /es/* cross-links exist, no H1 in MDX body, no fabricated prices, honesty framing.

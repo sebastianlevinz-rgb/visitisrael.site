@@ -6,19 +6,19 @@
 >
 > One bounded slice per loop iteration. NEVER bulk-translate in one shot.
 
-## Current status snapshot (2026-07-31 iter889 BUILD es-phase-20 SHIPPED)
+## Current status snapshot (2026-07-31 iter891 BUILD es-phase-21 SHIPPED)
 
 | Locale | Guides | Attractions | Regions | Itineraries |
 |--------|--------|-------------|---------|-------------|
-| en     | 397    | 65          | 11      | 6           |
+| en     | 398    | 65          | 11      | 6           |
 | fr     | 142    | 61          | 11      | 6           |
 | de     | 137    | 61          | 11      | 6           |
-| es     | 105    | 61          | 11      | 6           |
+| es     | 110    | 61          | 11      | 6           |
 
 **Gaps to close:**
-- es guides: **292 missing** (105/397 done — Phase ES-20 SHIPPED iter889 b84c18cb; **Phase ES-21 TBD**)
-- fr guides: **255 missing** (142/397 done — Phase FR-11 SHIPPED iter887 8e2e60da; **Phase FR-12 defined iter885**)
-- de guides: **260 missing** (137/397 done — Phase DE-10 SHIPPED iter886 2a552983; **Phase DE-11 defined iter885**)
+- es guides: **288 missing** (110/398 done — Phase ES-21 SHIPPED iter891 a8307efb; **Phase ES-22 TBD**)
+- fr guides: **256 missing** (142/398 done — Phase FR-11 SHIPPED iter887 8e2e60da; **Phase FR-12 defined iter885**)
+- de guides: **261 missing** (137/398 done — Phase DE-10 SHIPPED iter886 2a552983; **Phase DE-11 defined iter885**)
 - fr/de/es attractions: **4 missing each** (the 4 EN attractions added after Phase 4)
 
 **Dead Sea cluster status (iter855 audit):**
@@ -570,7 +570,7 @@ All 5 confirmed MISSING from `src/content/guides/es/` via `comm -23` (2026-07-31
 - haifa-cruise-terminal-guide: completes Haifa cluster (haifa-travel-guide confirmed existing in ES); new May 2026 cruise terminal (28 border-control booths); BGA→Haifa transfer options; LATAM cruise-from-Israel demand; Booking CTA (Haifa hotels); pairs with /es/haifa-travel-guide
 Quality: neutral LATAM Spanish tuteo; YAML double-quotes; /es/ prefix confirmed-existing pages only; no fabricated prices; Coral Beach honest snorkeling condition note; Golan Heights political context note (Israeli-controlled; settlement wineries context-appropriate for non-Israeli audiences).
 
-### Phase ES-21 (105 → 110/398) — DEFINED iter890
+### Phase ES-21 (105 → 110/398) — SHIPPED iter891 a8307efb
 
 Guides: `galilee-food-guide.md`, `galilee-wine-trail.md`, `holy-sites-dress-code-etiquette.md`, `guided-vs-self-guided-israel.md`, `eilat-vs-aqaba.md`
 All 5 confirmed MISSING from `src/content/guides/es/` via `comm -23` (2026-07-31).
