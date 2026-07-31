@@ -643,6 +643,11 @@ const ROUTES = [
   '/es/israel-food-tours-cooking-classes',
   '/es/golan-heights-hiking-trails',
   '/es/israel-accessible-travel',
+  '/fr/eilat-vs-aqaba',
+  '/fr/guided-vs-self-guided-israel',
+  '/fr/haifa-cruise-terminal-guide',
+  '/fr/jordan-pass-guide',
+  '/fr/eilat-nightlife',
 ];
 
 for (const route of ROUTES) {
