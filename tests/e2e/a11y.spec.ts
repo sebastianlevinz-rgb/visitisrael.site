@@ -628,6 +628,11 @@ const ROUTES = [
   '/es/tel-aviv-nightlife',
   '/es/israel-with-kids',
   '/es/israel-road-trip',
+  '/fr/digital-nomad-israel',
+  '/fr/eilat-snorkeling-guide',
+  '/fr/best-hotels-nazareth',
+  '/fr/galilee-food-guide',
+  '/fr/golan-heights-tours-compared',
 ];
 
 for (const route of ROUTES) {
