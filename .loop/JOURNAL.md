@@ -13541,3 +13541,17 @@ Fixes: 5 bugs across 4 files — 1 link prefix bug, 3 desc overruns, 1 title ove
 Gate: pnpm check 0 errors; pnpm build 1163 pages (no change); pnpm test:e2e 1619/1619 pass (15.4m).
 Merge: SHIPPED 1b74d57c to master; CI in_progress at push time.
 Prod: CI in_progress; prior iter's Lighthouse run succeeded (iter891 fc805f05 → success).
+
+## 2026-07-31T11:00Z · iter 893 · BUILD (i18n-DE) · de-phase-11
+What: DE Phase 11 — 5 Standard Hochdeutsch guides advancing DE from 137→142/398.
+  (1) digital-nomad-israel.md: DACH freelancer/remote-work angle; GKV gap → internationale Reiseversicherung; EC-Karte limitation → DKB/Revolut/N26; Schuko Type F→Type H adapter; 90-Tage-Touristenerlaubnis honesty (no DN visa); WeWork/Mindspace coworking pricing ₪100–220/day hot-desk; Haifa 20–30% cheaper alternative; Auswärtiges Amt advisory; /de/is-israel-safe + /de/tel-aviv-neighborhoods-guide cross-links; /israel-travel-tips EN fallback (DE page not yet translated).
+  (2) ein-kerem-jerusalem-guide.md: DACH Christian/cultural tourism; Kirche der Heimsuchung + Johannesgeburtskirche opening hours (Mo–Sa, closed Sun, midday break); Chagall-Fenster ₪25–35 verify-before-visiting honesty (hadassah.org.il); Yad-Vashem-Kombination (10 Fahrminuten); /de/1-day-jerusalem-itinerary cross-link (DE jerusalem-travel-guide not yet translated).
+  (3) best-hotels-nazareth.md: DACH Christian pilgrim accommodation; Rimonim (5 Gehminuten zur Basilika, Gruppenlogistik); Soeurs de Nazareth archaeological honesty (1. Jh. Grabkomplex, multi-layer excavation, kostenlos für Gäste); Golden Crown (Upper Nazareth, Konferenz); Villa Nazareth (Boutique Altstadt); seasonal notes Weihnachten/Ostern 2–3 Monate vorher buchen; /de/nazareth-travel-guide + /de/ben-gurion-airport-guide + /de/car-rental-israel cross-links.
+  (4) galilee-food-guide.md: DACH food-tourism; Petrusfisch farmed-not-wild honesty; Diana Restaurant (Bulus family, reservations required); El Babour (Ottoman-era Mühle); Drusen-Dorf Daliyat al-Carmel/Isfiya Laffa/Labaneh/Za'atar; Kibbutz Ein Gev ferry; Yarden/Galil Mountain/Pelter/Chateau Golan/Assaf/Odem Mountain wineries; Galilee Culinary Institute Gonen (Feb 2026); 2-day route; /de/tiberias-guide + /de/best-hotels-tiberias + /de/golan-heights-guide + /druze-villages-carmel (EN fallback) cross-links.
+  (5) golan-heights-tours-compared.md: completes DE Golan cluster; 6-format comparison table with EUR prices (Tagesausflug TLV 70–100€, Jeep 75–130€, Wein 55–90€, 2-Tage 180–320€); Golan political context factual (1967/1981/2019, neutral phrasing); 0,05% BAK limit warning (same as DE); Birkat Ram Kratersee; Gamla ruins; Israeli licensed guide (MOT) requirement noted; /de/golan-heights-guide + /de/car-rental-israel cross-links.
+Also: 5 smoke + 5 a11y e2e tests added for all new routes.
+Meta audit: digital-nomad title=65 desc=158 ✓; ein-kerem title=41 desc=156 ✓; best-hotels-nazareth title=59 desc=158 ✓; galilee-food title=41 desc=160 ✓; golan-tours title=64 chars desc=148 ✓ (bash reported 66 due to UTF-8 byte counting; Python confirmed 64 true chars).
+Gate: pnpm check 0 errors; pnpm build 1168 pages (+5 from 1163); pnpm test:e2e 1629/1629 pass (13.2m).
+Ship: committed 2e8bb16f to master, pushed origin/master. CI in_progress at push time.
+DE guides: 137→142/398. Build: 1163→1168 pages. 10 new e2e tests.
+Next: iter 894 → REVIEW (894%5=4). Audit DE-11 guides: meta title ≤65, desc ≤160, /de/* cross-links exist in filesystem, no H1 in MDX body, no fabricated prices, honesty framing, register (Standard Hochdeutsch).

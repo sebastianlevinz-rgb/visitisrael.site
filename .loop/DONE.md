@@ -1571,3 +1571,12 @@ Audited 5 ES Phase ES-17 guides. Fixed 10 /es/ prefix bugs + 1 title overrun + 4
 - Gate: 0 errors; 1153 pages; 1599/1599 e2e pass.
 
 - [SHIPPED iter892 → 1b74d57c] (review, S) ES Phase 21 REVIEW — 5 meta/link fixes across 4 guides: galilee-food-guide (/tiberias-guide→/es/tiberias-guide), galilee-wine-trail (desc 185→149), holy-sites-dress-code-etiquette (desc 173→157), guided-vs-self-guided-israel (title 69→60, /negev→/es/negev, typo fix), eilat-vs-aqaba (desc 177→141). 1619/1619 e2e pass.
+
+## DE Phase 11 — iter 893 · 2026-07-31 · SHA 2e8bb16f
+5 Standard Hochdeutsch guides:
+- digital-nomad-israel (DACH remote-work; GKV gap, EC-Karte, Schuko; WeWork/Mindspace pricing; Haifa alt)
+- ein-kerem-jerusalem-guide (Kirche Heimsuchung/Johannes; Chagall ₪25-35; Yad Vashem Kombination)
+- best-hotels-nazareth (Rimonim; Soeurs de Nazareth archaeological honesty; seasonal booking)
+- galilee-food-guide (Petrusfisch farmed-not-wild; Diana/El Babour; Drusen Laffa/Labaneh; Golan Wein; GCI Gonen Feb 2026)
+- golan-heights-tours-compared (6-format table; EUR prices; 0,05% BAK; MOT guide note; Golan political context)
+Value: DE guides 137→142/398 (–4 from FR, now tied with FR at 142). +5 DE pages completing DACH pilgrimage, nomad, gastro, and adventure clusters.

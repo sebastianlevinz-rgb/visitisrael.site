@@ -1,12 +1,12 @@
 # LOOP STATE
 
-- iteration: 892
-- lastMode: REVIEW
-- lastItem: review-892-es-phase-21-meta-link-fix
-- lastResult: REVIEW pass. 5 fixes in 4 ES Phase 21 guides SHIPPED 1b74d57c. galilee-food-guide: /tiberias-guide→/es/tiberias-guide. galilee-wine-trail: desc 185→149 chars. holy-sites-dress-code-etiquette: desc 173→157 chars. guided-vs-self-guided-israel: title 69→60 chars, /negev→/es/negev, typo "Toursindican"→"Tours indican". eilat-vs-aqaba: desc 177→141 chars. Build: 1163 pages (no change). 1619/1619 e2e pass (15.4m). CI in_progress at push time.
-- nextRotationCategory: BUILD (iter893; 893%5=3; i18n-FR phase 12 or i18n-DE phase 11 per I18N-PLAN.md)
+- iteration: 893
+- lastMode: BUILD
+- lastItem: de-phase-11
+- lastResult: BUILD pass. 5 DE guides SHIPPED 2e8bb16f. digital-nomad-israel (DACH remote-work, GKV/EC-Karte/Schuko, WeWork/Mindspace, Haifa cheaper), ein-kerem-jerusalem-guide (Kirche der Heimsuchung/Johannesgeburtskirche hours, Chagall ₪25-35 honesty, Yad-Vashem Kombination), best-hotels-nazareth (Rimonim, Soeurs de Nazareth archaeological honesty, Villa Nazareth), galilee-food-guide (Petrusfisch farmed-not-wild, Diana/El Babour, Drusen-Laffa/Labaneh, Golan winzer, Galilee Culinary Institute Gonen Feb 2026), golan-heights-tours-compared (6-format table, Golan political context factual, 0.05% BAK note). DE: 137→142/398. Build: 1163→1168 pages (+5). 1629/1629 e2e pass (13.2m). CI in_progress at push time.
+- nextRotationCategory: REVIEW (iter894; 894%5=4; audit DE Phase 11 guides for meta ≤65/≤160, /de/* cross-links, no H1 in body)
 - higgsfieldSpent: 0
-- updatedAt: 2026-07-31T09:45Z
+- updatedAt: 2026-07-31T11:00Z
 - branch context: work on master; feature work on auto/<slug>
 
 Notes: iter892 REVIEW — review-892-es-phase-21-meta-link-fix SHIPPED 1b74d57c. Audited all 5 ES Phase 21 guides against: meta title ≤65 / desc ≤160, /es/* cross-links exist in filesystem, no H1 in MDX body, no fabricated prices, honesty framing. 5 fixes across 4 files: galilee-food-guide link /tiberias-guide→/es/tiberias-guide (ES tiberias-guide confirmed existing, iter862); galilee-wine-trail desc 185→149 chars (removed 'Bodega de los Altos del Golán y' and 'consejos de alojamiento', kept key bodega names + "base en Rosh Pina"); holy-sites-dress-code-etiquette desc 173→157 chars (removed 'los' in 'en los lugares' and 'Normas de' prefix); guided-vs-self-guided-israel title 69→60 chars (dropped 'Viaje' from title: '¿Guía Privado o Independiente...'), link /negev→/es/negev (ES negev region confirmed at src/content/regions/es/negev.md), typo 'Toursindican'→'Tours indican'; eilat-vs-aqaba desc 177→141 chars (removed 'estado del arrecife, acceso a, logística de'). eilat-vs-aqaba honesty ✓ (reef bleaching caveat both sides). No fabricated prices; no H1 in any MDX body. Gate: pnpm check 0 errors; pnpm build 1163 pages (no change); pnpm test:e2e 1619/1619 pass (15.4m). CI in_progress at push time.
