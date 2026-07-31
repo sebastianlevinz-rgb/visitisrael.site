@@ -913,6 +913,11 @@ const ROUTES = [
   '/fr/best-hotels-nazareth',
   '/fr/galilee-food-guide',
   '/fr/golan-heights-tours-compared',
+  '/es/israel-eta-guide',
+  '/es/how-to-hire-licensed-tour-guide-israel',
+  '/es/israel-food-tours-cooking-classes',
+  '/es/golan-heights-hiking-trails',
+  '/es/israel-accessible-travel',
 ];
 
 for (const route of ROUTES) {
