@@ -1,6 +1,6 @@
 ---
 title: "Eilat o Aqaba: ¿Cuál Elegir para tus Vacaciones en el Mar Rojo?"
-description: "Eilat o Aqaba: compara buceo, estado del arrecife, playas, acceso a Petra, precios de alojamiento y logística de visados para elegir tu base en el Mar Rojo — o visitar ambas."
+description: "Eilat o Aqaba: compara buceo, arrecife, playas, Petra, precios de alojamiento y visados para elegir tu base en el Mar Rojo — o visitar ambas."
 heroImage: /images/regions/eilat/red-sea.jpg
 category: Compare
 updatedAt: 2026-07-31

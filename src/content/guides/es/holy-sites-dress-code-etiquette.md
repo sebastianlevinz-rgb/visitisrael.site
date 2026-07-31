@@ -1,6 +1,6 @@
 ---
 title: "Código de Vestimenta en los Lugares Sagrados de Israel (2026)"
-description: "Código de vestimenta en los lugares sagrados de Israel: Muro de los Lamentos, Monte del Templo, iglesias y mezquitas. Normas de modestia, fotografía y etiqueta en Shabbat."
+description: "Código de vestimenta en lugares sagrados de Israel: Muro de los Lamentos, Monte del Templo, iglesias y mezquitas. Modestia, fotografía y etiqueta en Shabbat."
 heroImage: /images/regions/jerusalem/western-wall.jpg
 category: Planning
 updatedAt: 2026-07-31

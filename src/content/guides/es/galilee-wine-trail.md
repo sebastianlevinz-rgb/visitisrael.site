@@ -1,6 +1,6 @@
 ---
 title: "Ruta del Vino de Galilea y el Golán: Guía en Auto (2026)"
-description: "Recorre en auto la ruta del vino de Galilea y el Golán: Galil Mountain, Dalton, Bodega de los Altos del Golán y productores boutique — circuito de 2 días y consejos de alojamiento."
+description: "Recorre en auto la ruta del vino de Galilea y el Golán: Galil Mountain, Dalton y productores boutique en un circuito de 2 días con base en Rosh Pina."
 heroImage: /images/regions/galilee/hero.jpg
 category: Food
 updatedAt: 2026-07-31

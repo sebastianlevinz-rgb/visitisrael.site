@@ -41,7 +41,7 @@ El plato emblemático del Mar de Galilea es el **pez de San Pedro** (*musht* en 
 
 El **Kibbutz Ein Gev**, en la orilla oriental, tiene un popular restaurante frente al lago con piscifactoría propia y un entorno tranquilo, alejado del bullicio de Tiberíades. Se puede llegar en ferry desde Tiberíades en verano.
 
-Consulta la [guía de Tiberíades](/tiberias-guide) para planificar tu visita, y si pernoctas, revisa los [mejores hoteles en Tiberíades](/es/best-hotels-tiberias) para opciones con vistas al lago.
+Consulta la [guía de Tiberíades](/es/tiberias-guide) para planificar tu visita, y si pernoctas, revisa los [mejores hoteles en Tiberíades](/es/best-hotels-tiberias) para opciones con vistas al lago.
 
 ## Nazaret — La cocina árabe-israelí en su máximo esplendor
 
