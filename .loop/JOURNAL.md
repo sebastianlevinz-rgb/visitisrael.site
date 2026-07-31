@@ -13478,3 +13478,16 @@ Gate: pnpm check 0 errors; pnpm build 1153 pages (+5); pnpm test:e2e exit 0.
 Ship: squash-merged to master 8e2e60da, pushed origin/master.
 FR guides: 137→142/397. Build: 1148→1153 pages (+5).
 Next: iter 888 → REVIEW (888%5==3). Candidates: REVIEW of fr-phase-11 (link audit) or ES-20/DE-11.
+
+## 2026-07-31T04:15Z · iter 888 · REVIEW (i18n-FR) · review-888-fr-phase-11-meta-fix
+What: Full audit of all 5 FR Phase 11 guides shipped in iter887 (egypt-jordan-israel-itinerary, ein-gedi-guide, ein-kerem-jerusalem-guide, eilat-dolphin-reef-guide, galilee-wine-trail).
+Checks: meta title ≤65 chars, meta description ≤160 chars, /fr/* cross-link existence in filesystem, no H1 in MDX body, no fabricated prices, honesty framing (dolphin reef semi-wild, wine ranges, border fee ranges).
+Findings: 3 meta description overruns; 22 /fr/* cross-links all valid; 0 H1 violations; 0 fabricated prices.
+Fixes applied:
+  (1) egypt-jordan-israel-itinerary.md: desc 167→141 chars (trimmed opening phrase + removed redundant 'routes, ').
+  (2) ein-kerem-jerusalem-guide.md: desc 167→157 chars (removed 'de pierre').
+  (3) galilee-wine-trail.md: desc 165→150 chars (removed 'itinéraire de').
+CLEAN: ein-gedi-guide (136 chars), eilat-dolphin-reef-guide (151 chars) — no changes needed.
+Gate: pnpm check 0 errors; pnpm build 1153 pages (no change); pnpm test:e2e 1599/1599 pass (12.0m, pre-installed Chromium at /opt/pw-browsers).
+Ship: committed 02aec01e to master, pushed origin/master.
+Next: iter 889 → BUILD. Candidates: ES-20 (ES: 100/397) / DE-11 (DE: 137/397) per i18n rotation balance.
