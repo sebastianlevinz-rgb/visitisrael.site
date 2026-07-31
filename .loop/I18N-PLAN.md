@@ -6,19 +6,19 @@
 >
 > One bounded slice per loop iteration. NEVER bulk-translate in one shot.
 
-## Current status snapshot (2026-07-30 iter881 BUILD es-phase-19 SHIPPED)
+## Current status snapshot (2026-07-31 iter886 BUILD de-phase-10 SHIPPED)
 
 | Locale | Guides | Attractions | Regions | Itineraries |
 |--------|--------|-------------|---------|-------------|
 | en     | 397    | 65          | 11      | 6           |
 | fr     | 137    | 61          | 11      | 6           |
-| de     | 132    | 61          | 11      | 6           |
+| de     | 137    | 61          | 11      | 6           |
 | es     | 100    | 61          | 11      | 6           |
 
 **Gaps to close:**
-- es guides: **297 missing** (100/397 done — Phase ES-19 SHIPPED iter881 e70e4e3d; **Phase ES-20 TBD**)
+- es guides: **297 missing** (100/397 done — Phase ES-19 SHIPPED iter881 e70e4e3d; **Phase ES-20 defined iter885**)
 - fr guides: **260 missing** (137/397 done — Phase FR-10 SHIPPED iter877 5ada8f0b; **Phase FR-11 defined iter880**)
-- de guides: **265 missing** (132/397 done — Phase DE-9 SHIPPED iter878 a03df166; **Phase DE-10 defined iter880**)
+- de guides: **260 missing** (137/397 done — Phase DE-10 SHIPPED iter886 2a552983; **Phase DE-11 defined iter885**)
 - fr/de/es attractions: **4 missing each** (the 4 EN attractions added after Phase 4)
 
 **Dead Sea cluster status (iter855 audit):**
@@ -317,7 +317,7 @@ Take the top 5 by priority (or head -5 if priority not obvious), translate each 
   no fabricated prices. 10 new tests (5 smoke + 5 a11y).
   FR guides: 102→107/396. Build: 1036→1041 pages. 1375/1375 e2e pass.
 
-### Phase DE-10 (132 → 137/397) — ready (defined iter880)
+### Phase DE-10 (132 → 137/397) — SHIPPED iter886 2a552983
 Guides: `galilee-christian-sites-circuit.md`, `ein-gedi-guide.md`, `haifa-travel-guide.md`, `egypt-jordan-israel-itinerary.md`, `eilat-beach-guide.md`
 All 5 confirmed MISSING from DE via comm -23 (2026-07-30).
 - galilee-christian-sites-circuit: DACH Christian pilgrimage market (significant German Catholic + Protestant tourers); "Galiläa christliche Stätten Rundfahrt ~45km Tiberiasring" zero DACH editorial; anti-clockwise circuit Kafarnaum/Tabgha/Berg der Seligpreisungen/Magdala/Kourssi; GYG + Viator CTAs; pairs with /de/sea-of-galilee-guide + /de/best-hotels-sea-of-galilee (both confirmed existing)
@@ -546,6 +546,18 @@ Quality: neutral LATAM Spanish tuteo; YAML double-quotes; /es/* prefix confirmed
 | de     | 132    | 265 missing — Phase DE-10 defined iter880 (next BUILD candidate); **Phase DE-11 defined iter885** |
 | es     | 100    | 297 missing — Phase ES-19 SHIPPED iter881 e70e4e3d; **Phase ES-20 defined iter885** |
 
+## Updated status snapshot (iter886 BUILD de-phase-10 SHIPPED 2026-07-31)
+
+| Locale | Guides | Note |
+|--------|--------|------|
+| en     | 397    | stable |
+| fr     | 137    | 260 missing — Phase FR-11 defined iter880 (**next BUILD candidate iter887**); Phase FR-12 defined iter885 |
+| de     | 137    | 260 missing — Phase DE-10 SHIPPED iter886 2a552983; **Phase DE-11 defined iter885 (iter889+ candidate)** |
+| es     | 100    | 297 missing — Phase ES-19 SHIPPED iter881 e70e4e3d; **Phase ES-20 defined iter885 (iter887/888 candidate)** |
+
+**DE-phase-10 (iter886) shipped:** DE guides now 137/397. DE and FR are now tied at 137 — FR-11 should go next (iter887).
+**Phase DE-11 (iter885):** digital-nomad-israel, ein-kerem-jerusalem-guide, best-hotels-nazareth, galilee-food-guide, golan-heights-tours-compared. Target iter889+.
+
 ### Phase ES-20 (100 → 105/397) — DEFINED iter885
 
 Guides: `hiking-in-israel.md`, `eilat-snorkeling-guide.md`, `ein-kerem-jerusalem-guide.md`, `golan-heights-tours-compared.md`, `haifa-cruise-terminal-guide.md`
@@ -558,7 +570,7 @@ All 5 confirmed MISSING from `src/content/guides/es/` via `comm -23` (2026-07-31
 Quality: neutral LATAM Spanish tuteo; YAML double-quotes; /es/ prefix confirmed-existing pages only; no fabricated prices; Coral Beach honest snorkeling condition note; Golan Heights political context note (Israeli-controlled; settlement wineries context-appropriate for non-Israeli audiences).
 
 ### Phase FR-12 (142 → 147/397) — DEFINED iter885
-Target: after FR-11 ships (iter886 candidate → FR-12 circa iter888+).
+Target: after FR-11 ships (iter887 candidate → FR-12 circa iter889+).
 
 Guides: `digital-nomad-israel.md`, `eilat-snorkeling-guide.md`, `best-hotels-nazareth.md`, `galilee-food-guide.md`, `golan-heights-tours-compared.md`
 All 5 confirmed MISSING from `src/content/guides/fr/` via `comm -23` (2026-07-31).
@@ -570,7 +582,7 @@ All 5 confirmed MISSING from `src/content/guides/fr/` via `comm -23` (2026-07-31
 Quality: metropolitan French; YAML double-quotes; /fr/* prefix only for confirmed existing FR pages; no fabricated prices; Golan Heights political context note; Checkpoint 300 West Bank neutral framing if referenced.
 
 ### Phase DE-11 (137 → 142/397) — DEFINED iter885
-Target: after DE-10 ships (iter887 candidate → DE-11 circa iter889+).
+Target: DE-10 SHIPPED iter886 2a552983 → DE-11 candidate iter889+.
 
 Guides: `digital-nomad-israel.md`, `ein-kerem-jerusalem-guide.md`, `best-hotels-nazareth.md`, `galilee-food-guide.md`, `golan-heights-tours-compared.md`
 All 5 confirmed MISSING from `src/content/guides/de/` via `comm -23` (2026-07-31).

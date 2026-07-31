@@ -1,13 +1,15 @@
 # LOOP STATE
 
-- iteration: 885
-- lastMode: RESEARCH
-- lastItem: research-885-179th-pass
-- lastResult: No shipping. ES-20/FR-12/DE-11 defined. 4 net-new BACKLOG items. Key findings: (1) Israir India (Delhi+Mumbai) routes NOT yet operating as of July 31 2026 — DGCA approval not confirmed; Israir's near-term focus is A330 widebody NY/Miami (August 2026); India Phase 2 deferred, no launch date. (2) Israir NY/Miami A330 August 2026 launch = freshness opportunity for airlines-flying-israel-2026.md + cheap-flights-to-israel.md. (3) BGA freshness: El Al TOP Platinum Lounge reopened + Brown Hotels airport hotel (260 rooms, construction 2027, opening ~2031). (4) digital-nomad-israel CLEAR gap in DE/FR (zero German guide found; French partial); eilat-snorkeling-guide CLEAR gap in ES/FR (zero editorial); hiking-in-israel CLEAR gap in ES (absent from ES). Competitor intel: beinharimtours.com has Ein Kerem + Haifa shore excursions + digital-nomad guides; Tourist Israel lacks standalone Haifa/Galilee food guides. ES: 100/398, FR: 137/398, DE: 132/398. EN: 398.
-- nextRotationCategory: BUILD (886%5==1 → BUILD; pick FR-11 or DE-10 per i18n rotation balance)
+- iteration: 886
+- lastMode: BUILD
+- lastItem: de-phase-10
+- lastResult: SHIPPED 2a552983. 5 DE guides: galilee-christian-sites-circuit (~45km Tiberiasring anti-clockwise, 7 FAQs, GYG/Viator/Booking CTAs), ein-gedi-guide (Wadi David 3km + Nahal Arugot 6.6km, ibex/hyrax, Dead Sea combo, 2026 upper-trail closure caveat, 7 FAQs, GYG/Abraham/Booking CTAs), haifa-travel-guide (Deutsche Kolonie DACH angle, Bahá'í Terrassen framing, Karmelit ₪7, Wadi Nisnas, 7 FAQs, GYG/Viator/Booking CTAs; YAML fix: apostrophes in double-quotes), egypt-jordan-israel-itinerary (Routes A+B, 10-day+14-day tables, Wadi-Araba/Aqaba-Nuweiba logistics, ETA-IL+Jordan Pass+GKV gap, 7 FAQs, TourRadar/Abraham/Booking CTAs), eilat-beach-guide (Nordstrand/Coral Beach/Almog/Dolphin Reef comparison table, riffverträgliche Sonnencreme mandatory, Dolphin Reef honesty note, 7 FAQs, Booking/GYG/Discovercars CTAs). 10 new e2e tests (5 smoke + 5 a11y). DE guides: 132→137/397. Build: 1143→1148 pages (+5). 1589/1589 e2e pass. Gate: 0 errors.
+- nextRotationCategory: BUILD (887%5==2 → BUILD; next REVIEW iter889; next candidate FR-11 or ES-20 per i18n rotation balance)
 - higgsfieldSpent: 0
-- updatedAt: 2026-07-31T00:45Z
+- updatedAt: 2026-07-31T02:20Z
 - branch context: work on master; feature work on auto/<slug>
+
+Notes: iter886 BUILD — de-phase-10 SHIPPED 2a552983. 5 Standard Hochdeutsch guides: galilee-christian-sites-circuit (Tiberiasring ~45km anti-clockwise, Magdala identification honesty), ein-gedi-guide (Wadi David 3km + Nahal Arugot 6.6km, 2026 upper-trail closure caveat, INPA pass), haifa-travel-guide (Deutsche Kolonie DACH hook, Bahá'í Terrassen/Außenbereiche framing, Karmelit ₪7, YAML fix apostrophes double-quoted), egypt-jordan-israel-itinerary (Routes A/B, 10+14 day tables, Wadi Araba + Aqaba-Nuweiba ferry, GKV gap, ETA-IL), eilat-beach-guide (4-strand comparison table, riffverträgliche Sonnencreme Pflicht, Dolphin Reef semi-wild honesty). YAML fix required: haifa-travel-guide description + FAQ with Bahá'í apostrophe inside single-quoted YAML string — fixed to double-quotes. Hard-reset to origin/master needed (prior run left orphan commits). 10 new tests. DE: 132→137/397. Build 1148 pages. 1589/1589 e2e pass.
 
 Notes: iter881 BUILD — es-phase-19 SHIPPED e70e4e3d. 5 ES guides: egypt-jordan-israel-itinerary (3-country Israel/Jordan/Egypt itinerary, all 3 border crossings, 14-day and 10-day tables), eilat-beach-guide (North Beach vs Coral Beach comparison, at-a-glance decision table), ein-gedi-guide (Wadi David 3km + Nahal Arugot 6.6km, ibex/hyrax wildlife, Dead Sea combo, fix: /israel-national-parks-pass EN only), eilat-dolphin-reef-guide (semi-wild dolphin honesty, 3 tiers beach/snorkel/dive, encounters not guaranteed), best-hotels-nazareth (Rimonim/Sisters of Nazareth/Golden Crown/Villa Nazareth/budget, decision matrix). 10 new e2e tests (5 smoke + 5 a11y). PR #36 merged. Build: 1137→1142 pages (+5). 1577/1577 e2e pass.
 
