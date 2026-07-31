@@ -13555,3 +13555,10 @@ Gate: pnpm check 0 errors; pnpm build 1168 pages (+5 from 1163); pnpm test:e2e 1
 Ship: committed 2e8bb16f to master, pushed origin/master. CI in_progress at push time.
 DE guides: 137→142/398. Build: 1163→1168 pages. 10 new e2e tests.
 Next: iter 894 → REVIEW (894%5=4). Audit DE-11 guides: meta title ≤65, desc ≤160, /de/* cross-links exist in filesystem, no H1 in MDX body, no fabricated prices, honesty framing, register (Standard Hochdeutsch).
+
+## 2026-07-31T12:00Z · iter 894 · REVIEW · review-894-de-phase-11-audit
+What: Audited all 5 DE Phase 11 guides (digital-nomad-israel, ein-kerem-jerusalem-guide, best-hotels-nazareth, galilee-food-guide, golan-heights-tours-compared) against: meta title ≤65, desc ≤160, /de/* cross-link prefixes exist in filesystem, no H1 in MDX body, no fabricated prices, honesty framing.
+Results: ALL 5 CLEAN. Titles: 65, 40, 59, 40, 64 — all ≤65. Descriptions: 157, 156, 154, 157, 143 — all ≤160. No H1 in any body. All 9 /de/* hrefs verified as existing in src/content/guides/de/. Two non-prefixed links (/druze-villages-carmel + /israel-travel-tips) confirmed as valid EN-root fallbacks — no DE versions exist; the root files exist at src/content/guides/. Honesty verified: Petrusfisch farmed-not-wild ✓, Chagall windows ₪25–35 + "vor dem Besuch prüfen" ✓, Soeurs de Nazareth archaeology with scholarly caveat ✓, Golan political status factual/neutral ✓, 0,05% BAK limit honest ✓. No fabricated ratings or exact prices anywhere.
+Gate: no code changes; no gate run required.
+Ship: no merge (REVIEW clean, no fixes). State + journal updated; commit+push .loop/ state.
+Next: iter 895 → RESEARCH (895%5=0).
