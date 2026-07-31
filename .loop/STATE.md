@@ -1,12 +1,12 @@
 # LOOP STATE
 
-- iteration: 899
-- lastMode: REVIEW (FR-12)
-- lastItem: review-899-fr-phase-12 SHIPPED ac3d674c
-- lastResult: FR Phase 12 REVIEW — Audited all 5 guides (digital-nomad-israel, eilat-snorkeling-guide, best-hotels-nazareth, galilee-food-guide, golan-heights-tours-compared) against: meta title ≤65, desc ≤160, /fr/* link prefixes, no H1 in body, no fabricated prices, honesty framing, metropolitan French register. Titles: 59, 64, 63, 48, 64 — all ≤65 ✓. Descriptions: 159, 159, 159, 158, 144 — all ≤160 ✓. No H1 in any MDX body ✓. 3 bugs in galilee-food-guide: /galilee-wine-trail → /fr/galilee-wine-trail (FR exists); galilénne → galiléenne (spelling); galilén → galiléen (spelling). 4 non-/fr/ links confirmed valid EN fallbacks (/golan-heights-guide ×2, /galilee-culinary-institute-gonen, /red-canyon-eilat, /sea-of-galilee-beaches — no FR versions). All 29 /fr/* hrefs verified existing. Coral Beach bleaching honesty ✓; Saint-Pierre farmed-not-wild ✓; Sœurs de Nazareth archaeology scholarly caveat ✓; Golan political status factual/neutral ✓; no fabricated prices/ratings. Gate: pnpm check 0 errors; pnpm build 1178 pages (no change); pnpm test:e2e 1649/1649 pass (15.4m). Shipped ac3d674c.
-- nextRotationCategory: RESEARCH (iter900; 900%5=0 → RESEARCH — 181st research pass)
+- iteration: 900
+- lastMode: RESEARCH (181st research pass)
+- lastItem: research-900 (ES-23/DE-13/FR-14 defined; freshness scan; 2 BACKLOG items added)
+- lastResult: RESEARCH — Defined ES-23 (eilat-nightlife, golan-heights-wineries, haifa-food-guide, israel-5-vs-7-vs-10-days, hotels-near-ben-gurion-airport; all confirmed MISSING via comm -23). Defined DE-13 (eilat-vs-aqaba, galilee-wine-trail, haifa-food-guide, golan-heights-hiking-trails, hotels-near-ben-gurion-airport). Defined FR-14 (haifa-food-guide, golan-heights-wineries, hotels-near-ben-gurion-airport, galilee-vs-golan-weekend, glamping-israel). Freshness: InterContinental Jerusalem now open (summer 2026) — P2 fix added to BACKLOG; GCI date correction (Feb → May 7) — P2 fix added; easyJet current framing CORRECT (suspended until Oct 2026); Kassland Ma'ale Adumim noted as editorial-risk item (not added). "Bible Road" Highway 60 MoT initiative: P3/monitor added. No code changes. No ship.
+- nextRotationCategory: BUILD (iter901; 901%5=1 → BUILD — ES-23 highest priority, largest gap 283)
 - higgsfieldSpent: 0
-- updatedAt: 2026-07-31T15:00Z
+- updatedAt: 2026-07-31T16:00Z
 - branch context: work on master; feature work on auto/<slug>
 
 Notes: iter892 REVIEW — review-892-es-phase-21-meta-link-fix SHIPPED 1b74d57c. Audited all 5 ES Phase 21 guides against: meta title ≤65 / desc ≤160, /es/* cross-links exist in filesystem, no H1 in MDX body, no fabricated prices, honesty framing. 5 fixes across 4 files: galilee-food-guide link /tiberias-guide→/es/tiberias-guide (ES tiberias-guide confirmed existing, iter862); galilee-wine-trail desc 185→149 chars (removed 'Bodega de los Altos del Golán y' and 'consejos de alojamiento', kept key bodega names + "base en Rosh Pina"); holy-sites-dress-code-etiquette desc 173→157 chars (removed 'los' in 'en los lugares' and 'Normas de' prefix); guided-vs-self-guided-israel title 69→60 chars (dropped 'Viaje' from title: '¿Guía Privado o Independiente...'), link /negev→/es/negev (ES negev region confirmed at src/content/regions/es/negev.md), typo 'Toursindican'→'Tours indican'; eilat-vs-aqaba desc 177→141 chars (removed 'estado del arrecife, acceso a, logística de'). eilat-vs-aqaba honesty ✓ (reef bleaching caveat both sides). No fabricated prices; no H1 in any MDX body. Gate: pnpm check 0 errors; pnpm build 1163 pages (no change); pnpm test:e2e 1619/1619 pass (15.4m). CI in_progress at push time.

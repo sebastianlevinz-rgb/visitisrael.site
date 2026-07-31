@@ -13625,3 +13625,17 @@ Findings:
 Gate: pnpm check 0 errors; pnpm build 1178 pages (no change); pnpm test:e2e 1649/1649 pass (15.4m).
 Merge: SHIPPED ac3d674c to master; CI in_progress at push time.
 Next: iter 900 → RESEARCH (900%5=0) — 181st research pass; define FR-13, ES-23, DE-13 batches; scan for freshness gaps.
+
+## 2026-07-31T16:00Z · iter 900 · RESEARCH · research-900 (181st research pass)
+What: Gap analysis + freshness scan. Defined ES-23, DE-13, FR-14 i18n batches; 3 BACKLOG items added.
+ES-23 defined (all confirmed MISSING from src/content/guides/es/ via comm -23, iter900): eilat-nightlife (completes Eilat cluster; LATAM resort nightlife), golan-heights-wineries ("Bodegas del Golán"; LATAM wine culture — Chile/Argentina/Uruguay), haifa-food-guide (completes Haifa cluster; Wadi Nisnas/Druze/port), israel-5-vs-7-vs-10-days ("¿Cuántos días en Israel?" high-intent decision guide), hotels-near-ben-gurion-airport (high booking intent; layover/transit; Booking affiliate).
+DE-13 defined (all confirmed MISSING from src/content/guides/de/ via comm -23): eilat-vs-aqaba (DACH Red Sea comparison), galilee-wine-trail (DACH Weinstraße; Golan Day1/Galilee Day2), haifa-food-guide (DACH culinary; Deutsche Kolonie hook), golan-heights-hiking-trails (DACH Wanderkultur), hotels-near-ben-gurion-airport (DACH high booking intent).
+FR-14 defined (all confirmed MISSING from src/content/guides/fr/ via comm -23): haifa-food-guide (Wadi Nisnas/marché/bière artisanale), golan-heights-wineries (French œnotourisme), hotels-near-ben-gurion-airport (Air France/Transavia late arrivals), galilee-vs-golan-weekend (weekend comparison), glamping-israel (French glampisme — France #1 EU glamping market).
+Freshness findings:
+  (1) InterContinental Jerusalem: IHG booking site active; "summer 2026" opening confirmed across multiple sources. Our guide says "opening late summer 2026 / date not officially announced" → P2/S fix added to BACKLOG.
+  (2) Galilee Culinary Institute: JNS confirms May 7 opening; galilee-food-guide.md says "opened February 2026" → P2/S date correction added to BACKLOG.
+  (3) easyJet: resumed March 29, then re-suspended April/May through October 2026. Our airlines guide framing is CORRECT. No fix needed.
+  (4) Kassland Ma'ale Adumim resort (opened May 2026): Israeli settlement context creates editorial risk; noted in COMPETITORS.md, not added to content BACKLOG.
+  (5) "Bible Road" Highway 60 MoT initiative: too early to write editorial content; P3/monitor BACKLOG item.
+Net-new BACKLOG items added: 3 (2 freshness + 1 watch). No code changes. No ship.
+Next: iter 901 → BUILD (901%5=1 → ES-23: eilat-nightlife, golan-heights-wineries, haifa-food-guide, israel-5-vs-7-vs-10-days, hotels-near-ben-gurion-airport).

@@ -6950,3 +6950,28 @@ Competitor posture summary:
 - Civitatis (ES/FR/DE): tour bookings with zero editorial comparison guides — our ES/FR/DE translations fill that exact gap
 - masaisrael.org (EN aggregator): Reddit-based; safety + flights are their top topics; no interactive tools
 - Tourist Israel: money pages for tours; no tools; English-dominant
+
+### 2026-07-31 · iter 900 · 181st research pass — freshness + new development scan
+Sources: itraveljerusalem.com, hotel-online.com, ihg.com, holalatinosnews.com, koshersquared.com, ynetnews.com, jpost.com, timesofisrael.com, jns.org, galileeculinaryinstitute.com, travelandtourworld.com, travelmarketreport.com, myisraelstay.com, israelhayom.com, masaisrael.org.
+
+**InterContinental Jerusalem — FRESHNESS (P2):**
+Our best-hotels-jerusalem.md says "opening late summer 2026 / date not officially announced." IHG official booking page now active with full hotel details (237 rooms, L18 rooftop, Mémoire French restaurant, indoor pool, Virtuoso-listed). hotel-online.com: "executive team appointed ahead of late summer opening." holalatinosnews.com: "will open its doors this summer." Status: hotel has opened or is imminently opening summer 2026. → BACKLOG P2/S freshness fix (update "opening late summer 2026" → "opened summer 2026").
+
+**easyJet — CURRENT STATUS CONFIRMED CORRECT:**
+easyJet briefly resumed March 29, 2026 (London Luton, Amsterdam, Milan Malpensa — 3 routes). Then extended suspension again through October 2026 per ynetnews.com ("EasyJet delays resuming Israel operations to winter 2026") and Globes ("easyJet cancels all Israel flights until October"). Our airlines-flying-israel-2026.md framing of easyJet as suspended is ACCURATE as of July 2026. No fix needed.
+
+**Galilee Culinary Institute — OPENING DATE DISCREPANCY (P2):**
+Our galilee-food-guide.md says "opened February 2026" but JNS confirms official opening date was May 7, 2026 (soft launch was ~January; formal academic year opening in October 2026). Our galilee-culinary-institute-gonen.md guide correctly avoids a specific month ("opened in 2026"). Fix galilee-food-guide.md to "opened spring 2026 (May)." → BACKLOG P2/S fix.
+
+**Kassland Ma'ale Adumim (opened May 2026):**
+New 220-room all-season resort in Ma'ale Adumim Israeli settlement (West Bank). Features Kass Splash indoor waterpark (18 slides, claimed largest indoor waterpark in Middle East) + Atlantis Spa (4,500m²) + bowling + amusement park. Mixed reviews (orientation issues, language barriers). COVERAGE NOTE: Ma'ale Adumim is an internationally controversial Israeli settlement; covering a commercial resort there without extensive neutral framing creates editorial risk. Not added to BACKLOG content — awareness only.
+
+**"Bible Road" — Ministry of Tourism Highway 60 initiative (P3):**
+Israel MOT approving national initiative to rebrand Highway 60 as "The Bible Road" — a heritage tourism corridor. No official launch yet; too early to write editorial content without fabricating details. Added to BACKLOG as P3/monitor.
+
+**i18n gap analysis (iter900, all confirmed MISSING via comm -23):**
+- ES: 115/398. ES-23 next (eilat-nightlife, golan-heights-wineries, haifa-food-guide, israel-5-vs-7-vs-10-days, hotels-near-ben-gurion-airport).
+- FR: 147/398. FR-13 next (eilat-vs-aqaba, guided-vs-self-guided-israel, haifa-cruise-terminal-guide, jordan-pass-guide, eilat-nightlife). FR-14 defined (haifa-food-guide, golan-heights-wineries, hotels-near-ben-gurion-airport, galilee-vs-golan-weekend, glamping-israel).
+- DE: 142/398. DE-12 next (birdwatching-in-israel, easter-in-jerusalem, eilat-dolphin-reef-guide, eilat-snorkeling-guide, jordan-pass-guide). DE-13 defined (eilat-vs-aqaba, galilee-wine-trail, haifa-food-guide, golan-heights-hiking-trails, hotels-near-ben-gurion-airport).
+
+**EN saturation**: ~97%+ (181st pass; no new EN-only structural gaps identified this pass beyond Bible Road watch item).
