@@ -618,6 +618,11 @@ const ROUTES = [
   '/es/holy-sites-dress-code-etiquette',
   '/es/guided-vs-self-guided-israel',
   '/es/eilat-vs-aqaba',
+  '/de/digital-nomad-israel',
+  '/de/ein-kerem-jerusalem-guide',
+  '/de/best-hotels-nazareth',
+  '/de/galilee-food-guide',
+  '/de/golan-heights-tours-compared',
 ];
 
 for (const route of ROUTES) {
