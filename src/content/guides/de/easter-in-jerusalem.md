@@ -70,7 +70,7 @@ faqs:
 
 Jerusalems Karwoche ist der christliche liturgische Kalender in seiner intensivsten Form. Für wenige Tage jeden Frühling füllen sich die Altstadtgassen mit Pilgern von jedem Kontinent, die Grabeskirche wird zur Bühne für einige der ältesten lebendigen christlichen Traditionen der Welt, und die ummauerte Stadt, die den Schauplatz des Leidenswegs bildete, trägt das Gewicht dieser Geschichte auf eine Art, die nirgendwo sonst auf der Erde zu vergleichen ist. Dieser Guide umfasst alle wichtigen Ereignisse der Karwoche, wie man jedem beiwohnt, und die praktischen Details, die den Unterschied zwischen einem transformierenden Erlebnis und einem frustrierenden ausmachen.
 
-Für allgemeine Grabeskirche-Logistik das ganze Jahr über siehe den [vollständigen Grabeskirchen-Besucherguide](/church-holy-sepulchre-guide). Für das breitere christliche Pilgerreiseziel Israel siehe [Christliche Pilgerreise ins Heilige Land](/christian-pilgrimage-holy-land).
+Für allgemeine Grabeskirche-Logistik das ganze Jahr über siehe den [vollständigen Grabeskirchen-Besucherguide](/de/church-holy-sepulchre-guide). Für das breitere christliche Pilgerreiseziel Israel siehe [Christliche Pilgerreise ins Heilige Land](/de/christian-pilgrimage-holy-land).
 
 ---
 
@@ -116,7 +116,7 @@ Der Karfreitag ist für die meisten christlichen Pilger der intensivste Tag der 
 
 **Die franziskanische Via-Dolorosa-Prozession** beginnt an der Ersten Kreuzwegstation (nahe der Kirche St. Anna und dem Löwentor) um **12:00 Uhr** und geht durch alle 14 Stationen zur Grabeskirche. Die Menge ist gewaltig — Tausende Pilger tragen Holzkreuze, singen und gehen gemeinsam durch die engen Gassen des muslimischen Viertels. Die Prozession trifft nach etwa 90 Minuten ein. Sie ist kostenlos und für alle zugänglich; am Löwentor bis 11:30 Uhr eintreffen, um in der Prozession statt hinter ihr zu gehen.
 
-In der **[Grabeskirche](/church-holy-sepulchre-guide)** laufen Karfreitagsgottesdienste den ganzen Tag über in allen sechs Konfessionen. Die **Edikula (Grabkammer Christi)** hat an Karfreitag eine der längsten Warteschlangen des Jahres; wer das Grab besuchen möchte, sollte zur Eröffnung um 04:00 Uhr morgens kommen, wenn die Schlange kurz ist.
+In der **[Grabeskirche](/de/church-holy-sepulchre-guide)** laufen Karfreitagsgottesdienste den ganzen Tag über in allen sechs Konfessionen. Die **Edikula (Grabkammer Christi)** hat an Karfreitag eine der längsten Warteschlangen des Jahres; wer das Grab besuchen möchte, sollte zur Eröffnung um 04:00 Uhr morgens kommen, wenn die Schlange kurz ist.
 
 Die **Gartengruft**, die protestantische Alternativstätte in Ostjerusalem, hält ihre eigenen englischsprachigen Karfreitagsgottesdienste ab — mit großem evangelikalen und anglikanischen Pilgerpublikum in einer ruhigeren Gartenatmosphäre.
 
@@ -170,13 +170,13 @@ Preisrahmen: Jerusalemer Karwoche-Preise sind 30–60 % höher als die üblichen
 
 ### Kleidungsordnung
 
-Alle Stätten in Jerusalems Altstadt erfordern bedeckte Schultern und Knie — ganzjährig, aber besonders zur Karwoche. Einen leichten Schal oder Umhang im Tagesrucksack tragen. Hüte in der Grabeskirche abnehmen. Für den vollständigen Leitfaden zur Kleidungsordnung an heiligen Stätten: [Heilige-Stätten-Kleidungsordnung Israel](/holy-sites-dress-code-etiquette).
+Alle Stätten in Jerusalems Altstadt erfordern bedeckte Schultern und Knie — ganzjährig, aber besonders zur Karwoche. Einen leichten Schal oder Umhang im Tagesrucksack tragen. Hüte in der Grabeskirche abnehmen. Für den vollständigen Leitfaden zur Kleidungsordnung an heiligen Stätten: [Heilige-Stätten-Kleidungsordnung Israel](/de/holy-sites-dress-code-etiquette).
 
 ### Weihnachten und weitere christliche Pilgerreisen
 
 Die Karwoche eignet sich als Ausgangspaket für das breitere christliche Pilgerreiseziel:
 
 - **[Bethlehem](/de/bethlehem-travel-guide)** — 40 Minuten mit organisierter Tour oder Taxi; Geburtskirche. Westjordanland: Reisepass mitbringen.
-- **[Ölberg und Gethsemane](/christian-pilgrimage-holy-land)** — von der Altstadt zu Fuß erreichbar; unerlässliche Karwoche-Geografie.
+- **[Ölberg und Gethsemane](/de/christian-pilgrimage-holy-land)** — von der Altstadt zu Fuß erreichbar; unerlässliche Karwoche-Geografie.
 - **[Galilaea](/de/3-days-in-galilee)** — zwei Übernachtungen in Tiberias oder Nazareth vor oder nach der Jerusalemer Woche erwägen; Kafarnaum, der Berg der Seligpreisungen und der See Genezareth vervollständigen den Pilgerweg.
-- **[Totes Meer und Massada](/masada-dead-sea-day-trip)** — logischer Ruhetag nach dem Karfreitag; der Kontrast zwischen der Intensität der Altstadt und der Einöde der Judäischen Wüste ist stark und angemessen.
+- **[Totes Meer und Massada](/de/masada-dead-sea-day-trip)** — logischer Ruhetag nach dem Karfreitag; der Kontrast zwischen der Intensität der Altstadt und der Einöde der Judäischen Wüste ist stark und angemessen.

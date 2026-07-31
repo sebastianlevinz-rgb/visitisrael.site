@@ -93,7 +93,7 @@ Israel betreibt zwei **Hai-Bar-Naturreservate** für die Rückkehr ausgestorbene
 
 ## En-Afek-Naturreservat — Nordfeuchtgebiet
 
-Das **En-Afek-Naturreservat** (10 km östlich von Akko) bewahrt einen Abschnitt des Na'aman-Flusses und seine Schilfbeete. Standvögel umfassen **Eisvogel, Seidenreiher, Graureiher, Purpurhuhn, Spornkiebitz und Zwergdommel**. Ein einfacher 2-km-Rundweg durchquert das Reservat; der INPA-Pass ist gültig. Kombinieren Sie es mit dem [Akko-Reiseführer](/akko-acre-guide) für einen Tag im Norden.
+Das **En-Afek-Naturreservat** (10 km östlich von Akko) bewahrt einen Abschnitt des Na'aman-Flusses und seine Schilfbeete. Standvögel umfassen **Eisvogel, Seidenreiher, Graureiher, Purpurhuhn, Spornkiebitz und Zwergdommel**. Ein einfacher 2-km-Rundweg durchquert das Reservat; der INPA-Pass ist gültig. Kombinieren Sie es mit dem [Akko-Reiseführer](/de/akko-acre-guide) für einen Tag im Norden.
 
 ## Saisonaler Migrationskalender
 
