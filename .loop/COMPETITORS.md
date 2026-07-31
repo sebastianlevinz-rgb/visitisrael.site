@@ -6974,4 +6974,32 @@ Israel MOT approving national initiative to rebrand Highway 60 as "The Bible Roa
 - FR: 147/398. FR-13 next (eilat-vs-aqaba, guided-vs-self-guided-israel, haifa-cruise-terminal-guide, jordan-pass-guide, eilat-nightlife). FR-14 defined (haifa-food-guide, golan-heights-wineries, hotels-near-ben-gurion-airport, galilee-vs-golan-weekend, glamping-israel).
 - DE: 142/398. DE-12 next (birdwatching-in-israel, easter-in-jerusalem, eilat-dolphin-reef-guide, eilat-snorkeling-guide, jordan-pass-guide). DE-13 defined (eilat-vs-aqaba, galilee-wine-trail, haifa-food-guide, golan-heights-hiking-trails, hotels-near-ben-gurion-airport).
 
+### 2026-07-31 · iter 905 · 181st research pass (RESEARCH iter905 — no code shipped)
+
+Sources: touristisrael.com/israel-travel-2026, masaisrael.org/airlines, travelandtourworld.com, timesofisrael.com (Lufthansa Group / Austrian Airlines / ITA Airways resumptions), iaa.org.il (National Campus for the Archaeology of Israel), atij.org (Accessible Tourism in Israel), exclusiveisraeltours.com (MOT guide licensing), argentinian-consulate-tlv (ETA-IL LATAM updates), iatiseguros.com (ETA-IL ES insurance angle), jetpacglobal.com (safety ratings), americaisraeltours.com (tourism comeback 2026).
+
+**Airlines freshness gap (P2, S — BACKLOG):**
+- Austrian Airlines (~June 2026 TLV resumption) currently missing from airlines-flying-israel-2026.md. Table row reads `| **Austrian Airlines** | Vienna VIE | Connecting hub for Central and Eastern Europe |` without a resumption date. Austrian was the first Lufthansa Group airline to resume TLV service in 2026 (~June 1–9, based on timesofisrael.com and travelandtourworld.com coverage). Lufthansa itself resumed July 1 2026 (already in guide); Swiss resumed July 1 2026 (already in guide); Austrian's earlier resumption is missing. Fix: update table row + add Austrian to Key Changes section. Added to BACKLOG as P2/S freshness fix.
+
+**National Campus for Archaeology — date hedge (P3, S — BACKLOG):**
+- Leon Levy National Treasures Center (National Campus for the Archaeology of Israel, Jerusalem) had a partial soft opening in 2026; full campus anticipated early 2027. Check israel-archaeology-experience.md for any "opening 2026" framing that may need a hedge ("partial opening 2026; full campus expected early 2027"). Added to BACKLOG as P3/S content check.
+
+**ETA-IL LATAM market intelligence:**
+- Argentine consulate Tel Aviv page confirms ETA-IL mandatory for Argentine passport holders since Jan 2025. Multiple Spanish-language scam portals (israeleta.es, israelevisa.com) charge inflated intermediary fees — competitor risk for our ES israel-eta-guide (ES-24). Our guide must explicitly warn against these and link only to piba.gov.il.
+- iatiseguros.com (Argentine travel insurance site) ranks for "ETA Israel argentinos" — confirms this is an active search segment. Our /es/israel-eta-guide (ES-24 defined this iter) directly targets this gap.
+- LATAM ETA-IL application success rate is high once travelers use the correct portal; the confusion is portal-identification and fee-awareness.
+
+**Accessible tourism — ATIJ confirmed authoritative (for ES-24 + FR-15):**
+- atij.org confirmed active as of July 2026. Yad Sarah organization (free mobility equipment loans) has 100+ locations. Key for ES-24 + FR-15 israel-accessible-travel guides.
+- No major competitor (touristisrael.com, Lonely Planet, Rough Guides) has dedicated ES/FR accessible travel content for Israel. First-mover advantage for both locales.
+
+**MOT guide licensing — confirmed current (for ES-24 + FR-15 how-to-hire-licensed-tour-guide):**
+- exclusiveisraeltours.com confirms Israel MOT licensing requirement is enforced at national heritage sites. ATGT (French) and Israel Tour Guide Association (English) are the representative bodies.
+- No ES or FR competitor has a licensed-guide explainer. ES-24 + FR-15 cover this gap simultaneously.
+
+**i18n gap analysis (iter905, all confirmed MISSING via comm -23):**
+- ES: 120/398. ES-24 defined iter905 (israel-eta-guide, how-to-hire-licensed-tour-guide-israel, israel-food-tours-cooking-classes, golan-heights-hiking-trails, israel-accessible-travel).
+- FR: 147/398. FR-14 defined iter900; FR-15 defined iter905 (israel-eta-guide, how-to-hire-licensed-tour-guide-israel, haifa-neighborhoods-guide, israel-accessible-travel, haifa-shore-excursions).
+- DE: 147/398. DE-13 defined iter900; DE-14 defined iter905 (galilee-vs-golan-weekend, glamping-israel, best-hotels-netanya, haifa-tours-compared, haifa-neighborhoods-guide). NOTE: /de/galilee-travel-guide.md does NOT exist — galilee-vs-golan-weekend DE must use EN fallback for that cross-link.
+
 **EN saturation**: ~97%+ (181st pass; no new EN-only structural gaps identified this pass beyond Bible Road watch item).

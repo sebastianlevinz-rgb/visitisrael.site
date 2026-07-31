@@ -1,13 +1,15 @@
 # LOOP STATE
 
-- iteration: 904
-- lastMode: REVIEW
-- lastItem: review-904-de-phase-12 (birdwatching-in-israel, easter-in-jerusalem, eilat-dolphin-reef-guide, eilat-snorkeling-guide, jordan-pass-guide)
-- lastResult: SHIPPED 1169b589 — DE Phase 12 REVIEW: 6 link bugs fixed across 2 files; 3 guides CLEAN. Gate: pnpm check 0 errors; pnpm build 1188 pages; pnpm test:e2e 1659/1659 pass (11.5m). CI in_progress at push time.
-- nextRotationCategory: BUILD (iter905; 905%5=0 → RESEARCH; but 905%5=0 → RESEARCH mode)
+- iteration: 905
+- lastMode: RESEARCH
+- lastItem: research-905 (181st research pass — ES-24/DE-14/FR-15 defined; Austrian Airlines freshness; National Campus update; LATAM competitor scan)
+- lastResult: NO SHIP (research mode). ES-24 defined: israel-eta-guide, how-to-hire-licensed-tour-guide-israel, israel-food-tours-cooking-classes, golan-heights-hiking-trails, israel-accessible-travel. DE-14 defined: galilee-vs-golan-weekend, glamping-israel, best-hotels-netanya, haifa-tours-compared, haifa-neighborhoods-guide. FR-15 defined: israel-eta-guide, how-to-hire-licensed-tour-guide-israel, haifa-neighborhoods-guide, israel-accessible-travel, haifa-shore-excursions. 2 freshness items added to BACKLOG.
+- nextRotationCategory: BUILD (iter906; 906%5=1 → BUILD mode; priority ES-24 highest gap 278 missing)
 - higgsfieldSpent: 0
-- updatedAt: 2026-07-31T19:57Z
+- updatedAt: 2026-07-31T21:00Z
 - branch context: work on master; feature work on auto/<slug>
+
+Notes: iter905 RESEARCH — 181st research pass. ES-24 defined: israel-eta-guide (ETA-IL mandatory for LATAM; Argentine consulate + Spain embassy thin; zero dedicated LATAM editorial; pairs /es/visa-information + /es/border-crossings), how-to-hire-licensed-tour-guide-israel (MOT license required for WW Tunnels + CoD; high GYG/Viator conversion; pairs /es/best-tours-in-israel + /es/guided-vs-self-guided-israel), israel-food-tours-cooking-classes (LATAM food tourism growing; zero editorial; pairs /es/kosher-food-guide + /es/galilee-food-guide), golan-heights-hiking-trails (completes ES Golan cluster; LATAM eco-tourism; pairs /es/golan-heights-guide), israel-accessible-travel (atij.org EN-only specialist; zero LATAM editorial; pairs /es/first-time-in-israel). DE-14: galilee-vs-golan-weekend + glamping-israel + best-hotels-netanya + haifa-tours-compared + haifa-neighborhoods-guide. FR-15: israel-eta-guide + how-to-hire-licensed-tour-guide-israel + haifa-neighborhoods-guide + israel-accessible-travel + haifa-shore-excursions. Freshness: Austrian Airlines June 2026 TLV resumption missing from guide (P2/S). National Campus Archaeology partial-open-2026 vs full-early-2027 framing needed (P3/S). Competitor scan: LATAM = all tour aggregators, zero editorial competition. HolyLandTravel.ai = AI pilgrimage planner (not competitive with editorial model). Tourism recovery confirmed (34,700 US/Canada arrivals June 2026). No code changes.
 
 Notes: iter904 REVIEW — review-904-de-phase-12 SHIPPED 1169b589. Audited all 5 DE Phase 12 guides against: meta title ≤65, desc ≤160, /de/* cross-links exist in filesystem, no H1 in MDX body, no fabricated prices, honesty framing. 6 fixes across 2 files: birdwatching-in-israel /akko-acre-guide → /de/akko-acre-guide (1 fix); easter-in-jerusalem /church-holy-sepulchre-guide (×2) → /de/church-holy-sepulchre-guide, /christian-pilgrimage-holy-land (×2) → /de/christian-pilgrimage-holy-land, /holy-sites-dress-code-etiquette → /de/holy-sites-dress-code-etiquette, /masada-dead-sea-day-trip → /de/masada-dead-sea-day-trip (5 fixes). /jerusalem-pilgrimage-road kept as EN-only link (no DE version exists ✓). eilat-dolphin-reef-guide: CLEAN (5 /de/* links verified). eilat-snorkeling-guide: CLEAN (5 /de/* links verified). jordan-pass-guide: CLEAN (4 /de/* links verified). All meta titles ≤65 chars. All meta descriptions ≤160 chars. 0 H1 in any MDX body. 0 fabricated prices. Honesty framing ✓ (dolphin encounters-not-guaranteed, Coral Beach bleaching disclosed, Jordan Pass 1-night rule explicit). rating/review fields in easter-in-jerusalem CTAs are not rendered to users per AffiliateCard.astro comment (no honesty violation). Gate: pnpm check 0 errors; pnpm build 1188 pages; pnpm test:e2e 1659/1659 pass (11.5m). Lighthouse CI passed. CI in_progress at push time.
 
