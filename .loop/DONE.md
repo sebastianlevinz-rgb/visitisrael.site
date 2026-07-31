@@ -1580,3 +1580,12 @@ Audited 5 ES Phase ES-17 guides. Fixed 10 /es/ prefix bugs + 1 title overrun + 4
 - galilee-food-guide (Petrusfisch farmed-not-wild; Diana/El Babour; Drusen Laffa/Labaneh; Golan Wein; GCI Gonen Feb 2026)
 - golan-heights-tours-compared (6-format table; EUR prices; 0,05% BAK; MOT guide note; Golan political context)
 Value: DE guides 137→142/398 (–4 from FR, now tied with FR at 142). +5 DE pages completing DACH pilgrimage, nomad, gastro, and adventure clusters.
+
+## iter 896 · BUILD · es-phase-22 · SHIPPED d79c6e80 · 2026-07-31
+ES Phase 22 — 5 LATAM Spanish guides. ES guides: 110→115/398. Build: 1173 pages. 1639/1639 e2e pass.
+- jordan-pass-guide (3 tiers JD 70-90; visa waiver math; Wadi Araba 5-step crossing; prices→jordanpass.jo)
+- petra-from-israel (3 routes table; Eilat day trip $215-407 / TLV+flight $399-445 / Jerusalem multi-day $295+; Monastery vs Treasury distinction)
+- tel-aviv-nightlife (Florentin/Rothschild/Namal; Thu/Fri big nights; LGBTQ-friendly; ₪ ranges only; GYG bar tour CTA)
+- israel-with-kids (6 regions by family suitability; INPA under-5 free; Shabat transport warning; summer heat 38-42°C advisory; 7-day sample itinerary)
+- israel-road-trip (7-day clockwise circuit ~850km; Cesarea→Haifa→Akko→Galilea→Golán→Valle Jordán→Mar Muerto→Masada→Néguev; car-to-Jordan prohibited honest)
+Value: ES guides 110→115/398 (continued largest-gap catch-up). Completes ES Jordan/Petra cluster, adds nightlife, family travel, and self-drive itinerary segments.

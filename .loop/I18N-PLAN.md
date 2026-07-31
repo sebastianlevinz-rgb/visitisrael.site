@@ -6,19 +6,19 @@
 >
 > One bounded slice per loop iteration. NEVER bulk-translate in one shot.
 
-## Current status snapshot (2026-07-31 iter893 BUILD de-phase-11 SHIPPED)
+## Current status snapshot (2026-07-31 iter896 BUILD es-phase-22 SHIPPED)
 
 | Locale | Guides | Attractions | Regions | Itineraries |
 |--------|--------|-------------|---------|-------------|
 | en     | 398    | 65          | 11      | 6           |
 | fr     | 142    | 61          | 11      | 6           |
 | de     | 142    | 61          | 11      | 6           |
-| es     | 110    | 61          | 11      | 6           |
+| es     | 115    | 61          | 11      | 6           |
 
 **Gaps to close:**
-- es guides: **288 missing** (110/398 done — Phase ES-21 SHIPPED iter891 a8307efb; **Phase ES-22 TBD**)
+- es guides: **283 missing** (115/398 done — Phase ES-22 SHIPPED iter896 d79c6e80; **Phase ES-23 TBD**)
 - fr guides: **256 missing** (142/398 done — Phase FR-11 SHIPPED iter887 8e2e60da; **Phase FR-12 defined iter885**)
-- de guides: **256 missing** (142/398 done — Phase DE-11 SHIPPED iter893 2e8bb16f; **Phase DE-12 TBD**)
+- de guides: **256 missing** (142/398 done — Phase DE-11 SHIPPED iter893 2e8bb16f; **Phase DE-12 defined iter895**)
 - fr/de/es attractions: **4 missing each** (the 4 EN attractions added after Phase 4)
 
 **Dead Sea cluster status (iter855 audit):**
@@ -621,7 +621,7 @@ Quality: Standard Hochdeutsch; YAML double-quotes; /de/* prefix only for confirm
 **FR-12 (iter885) defined, FR-13 (iter895) defined.**
 **Next BUILD candidates:** ES-22 (highest priority, largest gap) → then DE-12 or FR-12 by rotation.
 
-### Phase ES-22 (110 → 115/398) — DEFINED iter895
+### Phase ES-22 (110 → 115/398) — SHIPPED iter896 d79c6e80
 
 Guides: `jordan-pass-guide.md`, `petra-from-israel.md`, `tel-aviv-nightlife.md`, `israel-with-kids.md`, `israel-road-trip.md`
 All 5 confirmed MISSING from `src/content/guides/es/` via `comm -23` (2026-07-31).
