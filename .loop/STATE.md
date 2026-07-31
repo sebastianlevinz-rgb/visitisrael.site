@@ -1,12 +1,12 @@
 # LOOP STATE
 
-- iteration: 896
-- lastMode: BUILD (i18n ES-22)
-- lastItem: es-phase-22 SHIPPED d79c6e80
-- lastResult: ES Phase 22 — 5 LATAM Spanish guides advancing ES from 110→115/398: jordan-pass-guide (Jordan Pass 3-tier guide, Wadi Araba crossing steps, math for Israel visitors), petra-from-israel (3 routes: Eilat day trip ~$215-407 / TLV+flight ~$399-445 / Jerusalem multi-day $295+; Siq/Treasury vs Monastery distinction), tel-aviv-nightlife (Florentin/Rothschild/Namal neighbourhoods, Thu/Fri big nights, LGBTQ-friendly framing, no fabricated cover prices), israel-with-kids (regions by family suitability, INPA under-5 free, Shabat timing, summer heat caveats, 7-day sample itinerary), israel-road-trip (7-day clockwise circuit ~850km, day-by-day Cesarea→Haifa→Akko→Galilee→Golan→Jordan Valley→Dead Sea→Masada→Negev, Israeli rental car crossing Jordan prohibited honesty). 10 new e2e tests. Gate: pnpm check 0 errors; pnpm build 1173 pages (+5); pnpm test:e2e 1639/1639 pass (12.7m). Pushed d79c6e80; CI in_progress at update time.
-- nextRotationCategory: REVIEW (iter897; 897%5=2 → review ES-22 guides)
+- iteration: 897
+- lastMode: REVIEW (ES-22 link audit)
+- lastItem: review-897-es-phase-22 SHIPPED c5133e07
+- lastResult: ES Phase 22 review — audited all 5 guides (jordan-pass-guide, petra-from-israel, tel-aviv-nightlife, israel-with-kids, israel-road-trip). Meta titles all ≤65 chars ✓, descriptions all ≤160 chars ✓, no H1 in any body ✓, no fabricated prices ✓, honesty framing ✓. 10 /es/* link-prefix errors fixed across 3 guides: tel-aviv-nightlife (4 fixes: /tel-aviv/florentin×2 → /es/tel-aviv/florentin, /tel-aviv/rothschild → /es/tel-aviv/rothschild, /tel-aviv/carmel-market → /es/tel-aviv/carmel-market, /tel-aviv → /es/tel-aviv); israel-with-kids (5 fixes: /dead-sea /galilee /golan /jerusalem /negev → /es/* region pages, all confirmed existing); israel-road-trip (1 fix: /haifa-travel-guide → /es/haifa-travel-guide, guide confirmed existing). jordan-pass-guide and petra-from-israel CLEAN — all 7+5 /es/* links verified. Gate: pnpm check 0 errors; pnpm build 1173 pages; pnpm test:e2e 1639/1639 pass (13.6m). Merged c5133e07.
+- nextRotationCategory: BUILD FR-12 (iter898; 898%5=3 → BUILD; FR-12 defined iter885: digital-nomad-israel, eilat-snorkeling-guide, best-hotels-nazareth, galilee-food-guide, golan-heights-tours-compared — all confirmed MISSING from FR)
 - higgsfieldSpent: 0
-- updatedAt: 2026-07-31T12:10Z
+- updatedAt: 2026-07-31T12:54Z
 - branch context: work on master; feature work on auto/<slug>
 
 Notes: iter892 REVIEW — review-892-es-phase-21-meta-link-fix SHIPPED 1b74d57c. Audited all 5 ES Phase 21 guides against: meta title ≤65 / desc ≤160, /es/* cross-links exist in filesystem, no H1 in MDX body, no fabricated prices, honesty framing. 5 fixes across 4 files: galilee-food-guide link /tiberias-guide→/es/tiberias-guide (ES tiberias-guide confirmed existing, iter862); galilee-wine-trail desc 185→149 chars (removed 'Bodega de los Altos del Golán y' and 'consejos de alojamiento', kept key bodega names + "base en Rosh Pina"); holy-sites-dress-code-etiquette desc 173→157 chars (removed 'los' in 'en los lugares' and 'Normas de' prefix); guided-vs-self-guided-israel title 69→60 chars (dropped 'Viaje' from title: '¿Guía Privado o Independiente...'), link /negev→/es/negev (ES negev region confirmed at src/content/regions/es/negev.md), typo 'Toursindican'→'Tours indican'; eilat-vs-aqaba desc 177→141 chars (removed 'estado del arrecife, acceso a, logística de'). eilat-vs-aqaba honesty ✓ (reef bleaching caveat both sides). No fabricated prices; no H1 in any MDX body. Gate: pnpm check 0 errors; pnpm build 1163 pages (no change); pnpm test:e2e 1619/1619 pass (15.4m). CI in_progress at push time.

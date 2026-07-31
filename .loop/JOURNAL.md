@@ -13586,3 +13586,15 @@ Gate: pnpm check 0 errors; pnpm build 1173 pages (+5 from 1168); pnpm test:e2e 1
 Ship: committed d79c6e80 to master, pushed origin/master. CI in_progress at push time.
 ES guides: 110→115/398. Build: 1168→1173 pages. 10 new e2e tests.
 Next: iter 897 → REVIEW (897%5=2). Audit ES-22 guides: meta title ≤65, desc ≤160, /es/* cross-links exist in filesystem, no H1 in MDX body, no fabricated prices, honesty framing, register (LATAM Spanish tuteo).
+
+## 2026-07-31T12:54Z · iter 897 · REVIEW (ES-22 link audit) · review-897-es-phase-22
+What: Audited all 5 ES Phase 22 guides against: meta title ≤65, desc ≤160, /es/* cross-links exist in filesystem, no H1 in MDX body, no fabricated prices, honesty framing.
+Findings:
+  jordan-pass-guide: CLEAN — title 60 chars, desc 152 chars, all 4 /es/* links verified (aqaba-from-eilat, petra-from-israel, israel-jordan-itinerary, egypt-jordan-israel-itinerary). No H1. Prices hedged to jordanpass.jo ✓.
+  petra-from-israel: CLEAN — title 62 chars, desc 159 chars, all 5 /es/* links verified (eilat-travel-guide, jordan-pass-guide, aqaba-from-eilat, israel-jordan-itinerary, egypt-jordan-israel-itinerary). No H1. Route costs as ranges only ✓.
+  tel-aviv-nightlife: 4 link-prefix FIXES — /tel-aviv/florentin (×2), /tel-aviv/rothschild, /tel-aviv/carmel-market all missing /es/ prefix; also /tel-aviv → /es/tel-aviv (region). All 4 ES attraction pages confirmed existing. Meta: title 61, desc 154 ✓. No H1.
+  israel-with-kids: 5 link-prefix FIXES — /dead-sea /galilee /golan /jerusalem /negev all missing /es/ prefix; all 5 ES region pages confirmed existing. Meta: title 47, desc 155 ✓. No H1. Dolphin Reef "no garantizado" ✓.
+  israel-road-trip: 1 link-prefix FIX — /haifa-travel-guide → /es/haifa-travel-guide (ES guide confirmed existing). Meta: title 58, desc 141 ✓. No H1. "Jordan crossing prohibited" rental car honesty ✓.
+Gate: pnpm check 0 errors; pnpm build 1173 pages (no change); pnpm test:e2e 1639/1639 pass (13.6m).
+Ship: squash-merged auto/review-897-es-phase-22 → master c5133e07, pushed origin/master.
+Next: iter 898 → BUILD FR-12 (898%5=3; FR-12 defined iter885: digital-nomad-israel, eilat-snorkeling-guide, best-hotels-nazareth, galilee-food-guide, golan-heights-tours-compared — all confirmed MISSING from FR).

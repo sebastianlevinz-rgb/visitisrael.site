@@ -1589,3 +1589,6 @@ ES Phase 22 — 5 LATAM Spanish guides. ES guides: 110→115/398. Build: 1173 pa
 - israel-with-kids (6 regions by family suitability; INPA under-5 free; Shabat transport warning; summer heat 38-42°C advisory; 7-day sample itinerary)
 - israel-road-trip (7-day clockwise circuit ~850km; Cesarea→Haifa→Akko→Galilea→Golán→Valle Jordán→Mar Muerto→Masada→Néguev; car-to-Jordan prohibited honest)
 Value: ES guides 110→115/398 (continued largest-gap catch-up). Completes ES Jordan/Petra cluster, adds nightlife, family travel, and self-drive itinerary segments.
+
+## iter897 · REVIEW (ES-22 link audit) · review-897-es-phase-22 · c5133e07
+- Audited all 5 ES Phase 22 guides (jordan-pass-guide, petra-from-israel, tel-aviv-nightlife, israel-with-kids, israel-road-trip). Meta: all titles ≤65 ✓, all descs ≤160 ✓, no H1 ✓, no fabricated prices ✓. Fixed 10 /es/* link-prefix errors: tel-aviv-nightlife (4 attraction/region links missing /es/ prefix), israel-with-kids (5 region links missing /es/ prefix), israel-road-trip (1 guide link missing /es/ prefix). jordan-pass-guide + petra-from-israel CLEAN. Gate: pnpm check 0 errors; pnpm build 1173 pages; pnpm test:e2e 1639/1639 pass (13.6m).
