@@ -6,19 +6,19 @@
 >
 > One bounded slice per loop iteration. NEVER bulk-translate in one shot.
 
-## Current status snapshot (2026-07-31 iter898 BUILD fr-phase-12 SHIPPED)
+## Current status snapshot (2026-07-31 iter903 BUILD de-phase-12 SHIPPED)
 
 | Locale | Guides | Attractions | Regions | Itineraries |
 |--------|--------|-------------|---------|-------------|
 | en     | 398    | 65          | 11      | 6           |
 | fr     | 147    | 61          | 11      | 6           |
-| de     | 142    | 61          | 11      | 6           |
+| de     | 147    | 61          | 11      | 6           |
 | es     | 120    | 61          | 11      | 6           |
 
 **Gaps to close:**
 - es guides: **278 missing** (120/398 done — Phase ES-23 SHIPPED iter901 d6cbe672; **Phase ES-24 TBD**)
 - fr guides: **251 missing** (147/398 done — Phase FR-12 SHIPPED iter898 3a1da161; **Phase FR-13 defined iter895**)
-- de guides: **256 missing** (142/398 done — Phase DE-11 SHIPPED iter893 2e8bb16f; **Phase DE-12 defined iter895**)
+- de guides: **251 missing** (147/398 done — Phase DE-12 SHIPPED iter903 8193efe9; **Phase DE-13 defined iter900**)
 - fr/de/es attractions: **4 missing each** (the 4 EN attractions added after Phase 4)
 
 **Dead Sea cluster status (iter855 audit):**
@@ -644,7 +644,7 @@ All 5 confirmed MISSING from `src/content/guides/fr/` via `comm -23` (2026-07-31
 - eilat-nightlife: "Vie nocturne à Eilat" — Completes FR Eilat cluster (eilat-travel-guide + eilat-beach-guide + eilat-dolphin-reef-guide + aqaba-from-eilat already in FR); FR young travelers + all-inclusive resort market; Club Kokomo + rooftop bars + terminal park entertainment area; honest framing (Eilat nightlife significantly quieter than Tel Aviv); no fabricated cover prices (₪ ranges); pairs with /fr/eilat-travel-guide (confirmed existing); GYG tour CTAs
 Quality: metropolitan French; YAML double-quotes; /fr/* prefix only for confirmed existing FR pages; no fabricated prices; Coral Beach reef conditions honest; Haïfa cruise terminal 2026 confirmed (JCTIA + cruiseindustrynews.com sourcing); MOT guide licensing note.
 
-### Phase DE-12 (142 → 147/398) — DEFINED iter895
+### Phase DE-12 (142 → 147/398) — SHIPPED iter903 8193efe9
 
 Target: after DE-12 is next after DE-11 REVIEW (iter894 clean).
 Guides: `birdwatching-in-israel.md`, `easter-in-jerusalem.md`, `eilat-dolphin-reef-guide.md`, `eilat-snorkeling-guide.md`, `jordan-pass-guide.md`
@@ -664,12 +664,12 @@ Quality: Standard Hochdeutsch; YAML double-quotes; /de/* prefix only for confirm
 |--------|--------|------|
 | en     | 398    | stable |
 | fr     | 147    | 251 missing — Phase FR-12 SHIPPED iter898 3a1da161; **Phase FR-13 defined iter895 (next BUILD candidate)**; Phase FR-14 defined iter900 |
-| de     | 142    | 256 missing — Phase DE-11 SHIPPED iter893 2e8bb16f; **Phase DE-12 defined iter895 (next BUILD candidate)**; Phase DE-13 defined iter900 |
+| de     | 147    | 251 missing — Phase DE-12 SHIPPED iter903 8193efe9; **Phase DE-13 defined iter900 (next BUILD candidate)**; Phase DE-14 TBD |
 | es     | 120    | 278 missing — Phase ES-23 SHIPPED iter901 d6cbe672; **Phase ES-24 TBD** |
 
 **FR-12 (iter898) shipped:** FR guides now 147/398.
 **ES-23 (iter901) shipped:** ES guides now 120/398.
-**Next BUILD candidates by priority:** ES-24 (highest gap 278) → FR-13 → DE-12 by rotation.
+**Next BUILD candidates by priority:** ES-24 (highest gap 278) → FR-13 → DE-13 by rotation.
 
 ### Phase ES-23 (115 → 120/398) — SHIPPED iter901 d6cbe672
 

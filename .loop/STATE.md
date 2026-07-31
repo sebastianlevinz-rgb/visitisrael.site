@@ -1,13 +1,15 @@
 # LOOP STATE
 
-- iteration: 902
-- lastMode: REVIEW
-- lastItem: review-902-es-phase-23 (eilat-nightlife, golan-heights-wineries, haifa-food-guide, israel-5-vs-7-vs-10-days, hotels-near-ben-gurion-airport)
-- lastResult: SHIPPED bd3e95bc — 6 fixes across 3 files. Gate: pnpm check 0 errors; pnpm build 1183 pages (no change); pnpm test:e2e 1659/1659 pass (17.6m). CI in_progress at push time.
-- nextRotationCategory: BUILD i18n DE-13 (iter903; 903%5=3 → BUILD; DE-13 defined iter900: eilat-vs-aqaba, galilee-wine-trail, haifa-food-guide, golan-heights-hiking-trails, hotels-near-ben-gurion-airport — all confirmed MISSING from DE)
+- iteration: 903
+- lastMode: BUILD
+- lastItem: de-phase-12 (birdwatching-in-israel, easter-in-jerusalem, eilat-dolphin-reef-guide, eilat-snorkeling-guide, jordan-pass-guide)
+- lastResult: SHIPPED 8193efe9 — DE Phase 12 (142→147 DE/398). Gate: pnpm check 0 errors; pnpm build 1188 pages (+5); pnpm test:e2e 1659/1659 pass (17.6m).
+- nextRotationCategory: REVIEW (iter904; 904%5=4 → REVIEW; audit DE-12 guides: meta title ≤65, desc ≤160, /de/* cross-links exist in filesystem, no H1 in MDX body, no fabricated prices, honesty framing)
 - higgsfieldSpent: 0
-- updatedAt: 2026-07-31T18:00Z
+- updatedAt: 2026-07-31T18:55Z
 - branch context: work on master; feature work on auto/<slug>
+
+Notes: iter903 BUILD — de-phase-12 SHIPPED 8193efe9. 5 Standard Hochdeutsch guides: birdwatching-in-israel (Agamon HaHula 120K+ Kraniche, IBRCE Eilat Zugvogel-Rastplatz, Golan Griffongeier/Schwarzmilane, NABU/BUND-Markt-Angle, Saisonkalender-Tabelle; CTAs GYG/Abraham/Viator); easter-in-jerusalem (Westliches Ostern 28.3.2027, Orthodoxes Ostern 2.5.2027, Heiliges Feuer Orthodoxer Karsamstag, Via Dolorosa Prozessionen, 7 FAQs; CTAs GYG priceFrom:40/Viator/Booking); eilat-dolphin-reef-guide (3 Erlebnisstufen Strand/Schnorcheln/Tauchen, "Begegnungen nicht garantiert" Ehrlichkeitsframing, semi-wild pod ~6–8 Tiere; CTAs GYG/Booking); eilat-snorkeling-guide (Korallenreservat Coral Beach bleached-but-recovering honest, riffverträgliche Sonnencreme Pflicht, Glasbodenboote, Unterwasser-Observatorium; CTAs GYG/Booking); jordan-pass-guide (3 Stufen JD 70–80/75–85/80–95, 1-Nacht-Regel, Preise zu jordanpass.jo verweisen, Wadi-Araba-Übergang; CTAs GYG/Booking/Viator). Standard Hochdeutsch; YAML double-quotes; /de/* prefix only confirmed-existing DE pages; no fabricated prices/ratings. DE guides: 142→147/398. Build: 1183→1188 pages (+5). 1659/1659 e2e pass. Gate: 0 errors. Squash-merged auto/de-phase-12 to master, pushed 8193efe9.
 
 Notes: iter902 REVIEW — review-902-es-phase-23 SHIPPED bd3e95bc. Audited all 5 ES Phase 23 guides against: meta title ≤65, desc ≤160, /es/* cross-links exist in filesystem, no H1 in MDX body, no fabricated prices, honesty framing. 6 fixes across 3 files: eilat-nightlife title 81→65 chars ('bares, clubs de playa, bares y Festival de Jazz'), desc 161→158 chars (removed 'el ' before 'paseo'); haifa-food-guide title 77→65 chars (removed 'la '/'y la' articles), desc 163→159 chars (removed 'los ' before 'dulces'), link bug [guía de Akko (Acre)](/es/haifa-travel-guide)→/es/akko-acre-guide (ES akko-acre-guide.md confirmed existing); hotels-near-ben-gurion-airport desc 181→140 chars (trimmed 'zona '+'conviene'+'honestos' clauses, kept Airport City/Lod/Tel Aviv/Shabat/prices). golan-heights-wineries: CLEAN (title 42, desc 160). israel-5-vs-7-vs-10-days: CLEAN (title 52, desc 154). All cross-links verified (22 unique /es/* hrefs — all exist). 0 H1 in any MDX body. 0 fabricated prices. Honesty framing ✓. Gate: pnpm check 0 errors; pnpm build 1183 pages (no change); pnpm test:e2e 1659/1659 pass (17.6m).
 
