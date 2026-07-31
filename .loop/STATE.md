@@ -1,12 +1,12 @@
 # LOOP STATE
 
-- iteration: 884
-- lastMode: REVIEW
-- lastItem: review-884-homeport-station-fix
-- lastResult: SHIP a70e2195. Audited israel-homeport-cruise (iter883). Found 1 factual error in FAQ: station name "Haifa Hof HaCarmel" (southern beach station) incorrectly cited as closest to cruise port — all body text and sibling guide consistently name "Haifa HaMifratz" (bay area station, 5-min walk from terminal). Fixed FAQ to say HaMifratz and corrected "65-80 min by train" to "90-100 min door-to-door" for consistency with body breakdown. Other checks CLEAN: title 49 chars / desc 151 chars (within limits), no H1 in body, all 3 internal links resolve (/haifa-cruise-terminal-guide + /day-trips-from-haifa both exist), all CTA images exist, all affiliates (booking/getyourguide/discovercars) in config, both cross-links from haifa-cruise-terminal-guide + cruise-shore-excursions-israel confirmed. Gate: pnpm check 0 errors / 1143 pages / 1579/1579 e2e pass.
-- nextRotationCategory: BUILD (885%5==0 → RESEARCH; next BUILD is 886)
+- iteration: 885
+- lastMode: RESEARCH
+- lastItem: research-885-179th-pass
+- lastResult: No shipping. ES-20/FR-12/DE-11 defined. 4 net-new BACKLOG items. Key findings: (1) Israir India (Delhi+Mumbai) routes NOT yet operating as of July 31 2026 — DGCA approval not confirmed; Israir's near-term focus is A330 widebody NY/Miami (August 2026); India Phase 2 deferred, no launch date. (2) Israir NY/Miami A330 August 2026 launch = freshness opportunity for airlines-flying-israel-2026.md + cheap-flights-to-israel.md. (3) BGA freshness: El Al TOP Platinum Lounge reopened + Brown Hotels airport hotel (260 rooms, construction 2027, opening ~2031). (4) digital-nomad-israel CLEAR gap in DE/FR (zero German guide found; French partial); eilat-snorkeling-guide CLEAR gap in ES/FR (zero editorial); hiking-in-israel CLEAR gap in ES (absent from ES). Competitor intel: beinharimtours.com has Ein Kerem + Haifa shore excursions + digital-nomad guides; Tourist Israel lacks standalone Haifa/Galilee food guides. ES: 100/398, FR: 137/398, DE: 132/398. EN: 398.
+- nextRotationCategory: BUILD (886%5==1 → BUILD; pick FR-11 or DE-10 per i18n rotation balance)
 - higgsfieldSpent: 0
-- updatedAt: 2026-07-30T23:59Z
+- updatedAt: 2026-07-31T00:45Z
 - branch context: work on master; feature work on auto/<slug>
 
 Notes: iter881 BUILD — es-phase-19 SHIPPED e70e4e3d. 5 ES guides: egypt-jordan-israel-itinerary (3-country Israel/Jordan/Egypt itinerary, all 3 border crossings, 14-day and 10-day tables), eilat-beach-guide (North Beach vs Coral Beach comparison, at-a-glance decision table), ein-gedi-guide (Wadi David 3km + Nahal Arugot 6.6km, ibex/hyrax wildlife, Dead Sea combo, fix: /israel-national-parks-pass EN only), eilat-dolphin-reef-guide (semi-wild dolphin honesty, 3 tiers beach/snorkel/dive, encounters not guaranteed), best-hotels-nazareth (Rimonim/Sisters of Nazareth/Golden Crown/Villa Nazareth/budget, decision matrix). 10 new e2e tests (5 smoke + 5 a11y). PR #36 merged. Build: 1137→1142 pages (+5). 1577/1577 e2e pass.

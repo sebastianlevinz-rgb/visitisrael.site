@@ -534,3 +534,49 @@ Quality: neutral LATAM Spanish tuteo; YAML double-quotes; /es/* prefix confirmed
 - Phase FR-11: egypt-jordan-israel-itinerary, ein-gedi-guide, ein-kerem-jerusalem-guide, eilat-dolphin-reef-guide, galilee-wine-trail (all confirmed MISSING from FR)
 - Phase DE-10: galilee-christian-sites-circuit, ein-gedi-guide, haifa-travel-guide, egypt-jordan-israel-itinerary, eilat-beach-guide (all confirmed MISSING from DE)
 **Freshness (iter880):** InterContinental Jerusalem still "late summer 2026" per travel sources — current guide caveat still accurate. The Yacht Herzliya (Fattal, 325 rooms, opened June 2026) already in herzliya-guide.md Booking CTA. Airport City Eilat cluster (5 hotels + Princess revival) already in eilat-hotels-guide.md with correct framing (phased openings, check live availability). Israir India routes (Delhi+Mumbai, from April 2026) NOT in cheap-flights or airlines guides — added P2/S freshness BACKLOG item (verify post-Operation Rising Lion status before updating).
+
+---
+
+## Updated status snapshot (iter885 RESEARCH 2026-07-31)
+
+| Locale | Guides | Note |
+|--------|--------|------|
+| en     | 397    | stable |
+| fr     | 137    | 260 missing — Phase FR-11 defined iter880 (next BUILD candidate); **Phase FR-12 defined iter885** |
+| de     | 132    | 265 missing — Phase DE-10 defined iter880 (next BUILD candidate); **Phase DE-11 defined iter885** |
+| es     | 100    | 297 missing — Phase ES-19 SHIPPED iter881 e70e4e3d; **Phase ES-20 defined iter885** |
+
+### Phase ES-20 (100 → 105/397) — DEFINED iter885
+
+Guides: `hiking-in-israel.md`, `eilat-snorkeling-guide.md`, `ein-kerem-jerusalem-guide.md`, `golan-heights-tours-compared.md`, `haifa-cruise-terminal-guide.md`
+All 5 confirmed MISSING from `src/content/guides/es/` via `comm -23` (2026-07-31).
+- hiking-in-israel: "Senderismo en Israel" zero ES editorial; popular LATAM eco-tourism + adventure market; Israel Trail (Shvil Yisrael) sections, Golan Heights, Negev highlands; GYG CTAs; pairs with /es/negev-desert-guide + /es/golan-heights-guide (both confirmed existing)
+- eilat-snorkeling-guide: completes ES Eilat water-activities cluster (eilat-beach-guide + eilat-diving-snorkeling + eilat-dolphin-reef-guide now in ES); Coral Beach snorkeling pass (honest: gear rental from glass-bottom boat pier); GYG CTAs; pairs with /es/eilat-travel-guide
+- ein-kerem-jerusalem-guide: Jerusalem pilgrimage village; Church of St. John Baptist + Church of Visitation; LATAM Catholic pilgrim route; popular independent day trip from Jerusalem; zero ES editorial; pairs with /es/jerusalem-travel-guide (confirmed existing)
+- golan-heights-tours-compared: completes ES Golan cluster (golan-heights-guide confirmed existing); winery tours (Odem Mountain, Pelter, Bazelet HaGolan), off-road jeep tours, Nimrod Fortress; TourRadar + GYG CTAs; pairs with /es/golan-heights-guide
+- haifa-cruise-terminal-guide: completes Haifa cluster (haifa-travel-guide confirmed existing in ES); new May 2026 cruise terminal (28 border-control booths); BGA→Haifa transfer options; LATAM cruise-from-Israel demand; Booking CTA (Haifa hotels); pairs with /es/haifa-travel-guide
+Quality: neutral LATAM Spanish tuteo; YAML double-quotes; /es/ prefix confirmed-existing pages only; no fabricated prices; Coral Beach honest snorkeling condition note; Golan Heights political context note (Israeli-controlled; settlement wineries context-appropriate for non-Israeli audiences).
+
+### Phase FR-12 (142 → 147/397) — DEFINED iter885
+Target: after FR-11 ships (iter886 candidate → FR-12 circa iter888+).
+
+Guides: `digital-nomad-israel.md`, `eilat-snorkeling-guide.md`, `best-hotels-nazareth.md`, `galilee-food-guide.md`, `golan-heights-tours-compared.md`
+All 5 confirmed MISSING from `src/content/guides/fr/` via `comm -23` (2026-07-31).
+- digital-nomad-israel: "Nomade numérique Israël" popular French digital nomad / remote-work market; Start-up Nation coworking scene (WeWork TLV, Mindspace, Soho House); practical visa/tax info for French nationals; zero FR editorial; pairs with /fr/tel-aviv-travel-guide (confirm existing)
+- eilat-snorkeling-guide: completes FR Eilat water-activities cluster; "Snorkeling Eilat" popular French diving/snorkeling tourist searches; Coral Beach + glass-bottom boat; GYG CTAs; pairs with /fr/eilat-travel-guide (confirm existing)
+- best-hotels-nazareth: FR Catholic pilgrim accommodation market; Nazareth significant francophone Christian pilgrimage demand; Booking affiliate; pairs with /fr/nazareth-travel-guide (confirm existing before using /fr/ prefix)
+- galilee-food-guide: Galilee culinary tourism; French food-culture audience; wine (Galilee + Golan) + local produce (St. Peter's fish, za'atar, freekeh) + hummus trail; Galilee Culinary Institute Gonen; pairs with /fr/galilee-travel-guide (confirm existing)
+- golan-heights-tours-compared: completes FR Golan cluster; French wine-tourism audience (Golan wineries); winery tours + off-road jeep + Nimrod Fortress; TourRadar + GYG; pairs with /fr/golan-heights-guide (confirm existing)
+Quality: metropolitan French; YAML double-quotes; /fr/* prefix only for confirmed existing FR pages; no fabricated prices; Golan Heights political context note; Checkpoint 300 West Bank neutral framing if referenced.
+
+### Phase DE-11 (137 → 142/397) — DEFINED iter885
+Target: after DE-10 ships (iter887 candidate → DE-11 circa iter889+).
+
+Guides: `digital-nomad-israel.md`, `ein-kerem-jerusalem-guide.md`, `best-hotels-nazareth.md`, `galilee-food-guide.md`, `golan-heights-tours-compared.md`
+All 5 confirmed MISSING from `src/content/guides/de/` via `comm -23` (2026-07-31).
+- digital-nomad-israel: "Digitaler Nomade Israel" DACH remote-work + freelancer market; Start-up Nation coworking (WeWork TLV, Mindspace); visa/tax notes for German freelancers; popular DACH tech-worker travel angle; zero DE editorial; pairs with /de/tel-aviv-travel-guide (confirm existing)
+- ein-kerem-jerusalem-guide: DACH Christian + cultural tourism; Church of St. John Baptist + Church of Visitation; German evangelical + Catholic pilgrimage groups visit routinely; pairs with /de/jerusalem-travel-guide (confirm existing)
+- best-hotels-nazareth: DACH Christian pilgrim accommodation; German evangelical + Catholic pilgrimage market; Booking affiliate; pairs with /de/nazareth-travel-guide (confirm existing)
+- galilee-food-guide: DACH food-tourism audience; German wine culture interest in Golan + Galilee wines; Galilean cuisine (lamb, St. Peter's fish, freekeh, za'atar) aligns with DACH culinary travel trends; Galilee Culinary Institute Gonen; pairs with /de/galilee-travel-guide (confirm existing)
+- golan-heights-tours-compared: completes DE Golan cluster; winery tours (Odem, Pelter, Bazelet HaGolan) align with DACH wine-tourism; off-road jeep + Nimrod Fortress; TourRadar + GYG CTAs; pairs with /de/golan-heights-guide (confirm existing)
+Quality: Standard Hochdeutsch; YAML double-quotes; /de/* prefix only for confirmed existing DE pages; no fabricated prices; Golan Heights political context note; historical sensitivity (German-Israel context) handled by referencing existing DE guide tone.

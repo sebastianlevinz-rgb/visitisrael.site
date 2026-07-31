@@ -13441,3 +13441,20 @@ Ship: committed cbc8e6fb to master, pushed. CI in_progress at time of state adva
 What: Audited israel-homeport-cruise.md (iter883 SHIP). Found 1 factual error: FAQ stated passengers should alight at "Haifa Hof HaCarmel" when travelling from BGA to the cruise port. Hof HaCarmel is the southern beach-area station; the cruise port is in the bay area nearest to "Haifa HaMifratz" (confirmed by body text on lines 64/86/87/103/136 and consistently by haifa-cruise-terminal-guide.md). Also corrected "65-80 minutes by train" to "90-100 minutes door-to-door by either road or train" for consistency with the body's three-leg breakdown (20+55-65+5-10 min). All other checks CLEAN: title 49 chars / desc 151 chars, no H1 in body, all internal links resolve, all CTA images exist, cross-links from both sibling guides confirmed.
 Gate: pnpm check 0 errors / pnpm build 1143 pages / 1579/1579 e2e pass.
 Merge SHA: a70e2195. CI in_progress (prev SHA 7e43a3b4 was success).
+
+## 2026-07-31T00:45Z · iter 885 · RESEARCH · research-885-179th-pass
+What: 179th RESEARCH pass. Scanned competitor content gaps, freshness items, and i18n SERP gaps. Defined next batch of i18n phases.
+Sources checked: touristisrael.com, beinharim.com, arkia.com, israir.co.il, itn.co.il, ynetnews.com, jpost.com, travelandtourworld.com, lpa.gov.il, elal.com.
+Competitor analysis:
+  - Tourist Israel: no new EN structural gaps. Purim standalone pages still unchallenged by us (P3/S BACKLOG iter785). No net-new gap.
+  - Bein Harim: guided-tour aggregator; no editorial gaps vs our content. GYG + TourRadar CTAs correctly positioned in our guides.
+Freshness findings:
+  - Israir India routes (DEL + BOM from April 2026): NOT currently operating post-Operation Rising Lion. DGCA approval for foreign carriers into India unconfirmed; Israir capacity committed to A330 NY/Miami August 2026. BACKLOG item "israir-india-routes-freshness" (iter880 P2/S) deferred — do NOT update flight guides until service confirmed. Re-check Q4 2026.
+  - Israir A330 NY/Miami (August 2026 target): flagship widebody expansion. If confirmed operating, cheap-flights-to-israel.md + airlines-flying-israel-2026.md will need Israir US widebody row. NEW P2/S item queued.
+  - El Al TOP Platinum Lounge BGA (Q2 2026 opening): confirmed open. ben-gurion-airport-guide.md has generic lounge mention only. P3/S freshness item queued for specific lounge details + Brown Hotels BGA-adjacent land (2031 target, awareness only).
+i18n gap analysis (all confirmed MISSING via comm -23 on 2026-07-31):
+  - ES: 100/397. ES-20: hiking-in-israel, eilat-snorkeling-guide, ein-kerem-jerusalem-guide, golan-heights-tours-compared, haifa-cruise-terminal-guide.
+  - FR: 137/397. FR-12 (after FR-11 ships): digital-nomad-israel, eilat-snorkeling-guide, best-hotels-nazareth, galilee-food-guide, golan-heights-tours-compared.
+  - DE: 132/397. DE-11 (after DE-10 ships): digital-nomad-israel, ein-kerem-jerusalem-guide, best-hotels-nazareth, galilee-food-guide, golan-heights-tours-compared.
+EN saturation: ~97%+ (179th pass; no new EN gaps). BACKLOG ~774 items.
+Next: iter 886 → BUILD (886%5==1). Candidate: FR Phase FR-11 or DE Phase DE-10 (both defined and ready per I18N-PLAN.md).
