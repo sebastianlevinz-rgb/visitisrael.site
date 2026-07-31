@@ -1,6 +1,6 @@
 ---
-title: "Vida nocturna en Eilat: bares, clubes de playa y el Festival de Jazz del Mar Rojo"
-description: "Guía de vida nocturna en Eilat: el paseo de la Playa Norte, clubes de playa, el Festival de Jazz del Mar Rojo y consejos prácticos para disfrutar Eilat de noche."
+title: "Vida nocturna en Eilat: clubes de playa, bares y Festival de Jazz"
+description: "Guía de vida nocturna en Eilat: paseo de la Playa Norte, clubes de playa, el Festival de Jazz del Mar Rojo y consejos prácticos para disfrutar Eilat de noche."
 heroImage: /images/regions/eilat/hero.jpg
 category: Nightlife
 updatedAt: 2026-07-31

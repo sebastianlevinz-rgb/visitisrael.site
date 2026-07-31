@@ -1,6 +1,6 @@
 ---
 title: "Hoteles cerca del Aeropuerto Ben Gurión (TLV) 2026"
-description: "Hoteles cerca del Aeropuerto Ben Gurión: zona Airport City, área de Lod y cuándo conviene reservar en Tel Aviv. Traslado gratuito, logística del Shabat y rangos de precios honestos."
+description: "Hoteles cerca del Aeropuerto Ben Gurión: Airport City, área de Lod, cuándo ir a Tel Aviv. Traslado gratuito, logística del Shabat y precios."
 heroImage: /images/regions/tel-aviv/hero.jpg
 category: Accommodation
 updatedAt: 2026-07-31

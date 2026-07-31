@@ -1,6 +1,6 @@
 ---
-title: "Gastronomía en Haifa: Wadi Nisnas, la Colonia Alemana y la cocina árabe-judía"
-description: "Dónde comer en Haifa: el falafel y los dulces de Wadi Nisnas, los restaurantes de mezze de la Colonia Alemana, el puerto y el carácter gastronómico único de Haifa."
+title: "Gastronomía en Haifa: Wadi Nisnas, Colonia Alemana y cocina árabe"
+description: "Dónde comer en Haifa: el falafel y dulces de Wadi Nisnas, los restaurantes de mezze de la Colonia Alemana, el puerto y el carácter gastronómico único de Haifa."
 heroImage: /images/regions/haifa/german-colony.jpg
 category: Food
 updatedAt: 2026-07-31
@@ -114,4 +114,4 @@ La Colonia Alemana está directamente debajo de la salida de los Jardines Bahá'
 
 Wadi Nisnas se conecta fácilmente con los pueblos drusos del Monte Carmel como parte de un día gastronómico más largo — Wadi Nisnas para el falafel y la kanafeh matutinos, luego coche o tour guiado a Daliyat el-Carmel para el pita druso recién hecho en el saj y la cata de aceite de oliva por la tarde.
 
-Para la excursión a Akko: la [guía de Akko (Acre)](/es/haifa-travel-guide) cubre la propia tradición de hummus de la ciudad vieja y los restaurantes de pescado alrededor del puerto — un circuito gastronómico natural del norte combinado con Haifa.
+Para la excursión a Akko: la [guía de Akko (Acre)](/es/akko-acre-guide) cubre la propia tradición de hummus de la ciudad vieja y los restaurantes de pescado alrededor del puerto — un circuito gastronómico natural del norte combinado con Haifa.
