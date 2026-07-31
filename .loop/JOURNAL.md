@@ -13677,3 +13677,14 @@ Gate: pnpm check 0 errors; pnpm build 1188 pages (+5); pnpm test:e2e 1659/1659 p
 Ship: squash-merged auto/de-phase-12 to master, pushed 8193efe9. CI pending at push time.
 DE guides: 142 → 147/398. 
 Next: iter 904 → REVIEW (904%5=4) — audit DE-12 guides: meta title ≤65, desc ≤160, /de/* cross-links exist in filesystem, no H1 in MDX body, no fabricated prices, honesty framing.
+
+## 2026-07-31T19:57Z · iter 904 · REVIEW · review-904-de-phase-12
+What: Audited all 5 DE Phase 12 guides (birdwatching-in-israel, easter-in-jerusalem, eilat-dolphin-reef-guide, eilat-snorkeling-guide, jordan-pass-guide) against: meta title ≤65 chars, desc ≤160 chars, /de/* cross-links exist in filesystem, no H1 in MDX body, no fabricated prices, honesty framing.
+Findings: 6 link bugs across 2 files (all missing /de/ prefix where DE version exists):
+  birdwatching-in-israel: /akko-acre-guide → /de/akko-acre-guide (1 fix)
+  easter-in-jerusalem: /church-holy-sepulchre-guide (×2) → /de/church-holy-sepulchre-guide, /christian-pilgrimage-holy-land (×2) → /de/christian-pilgrimage-holy-land, /holy-sites-dress-code-etiquette → /de/holy-sites-dress-code-etiquette, /masada-dead-sea-day-trip → /de/masada-dead-sea-day-trip (5 fixes)
+  /jerusalem-pilgrimage-road kept as EN (no DE version exists — verified)
+CLEAN: eilat-dolphin-reef-guide (all 5 /de/* links verified), eilat-snorkeling-guide (5 links), jordan-pass-guide (4 links). All titles ≤65, all descs ≤160. 0 H1 in any body. Honesty ✓ (dolphin encounters-not-guaranteed, Coral Beach bleaching, Jordan Pass 1-night rule). rating/reviews in easter CTAs not rendered to users per AffiliateCard comment.
+Gate: pnpm check 0 errors; pnpm build 1188 pages (no change); pnpm test:e2e 1659/1659 pass (11.5m).
+Ship: squash-merged auto/review-904-de-phase-12 to master, pushed 1169b589. Lighthouse CI success. CI in_progress at end of turn.
+Next: iter 905 → RESEARCH (905%5=0) — 181st research pass.

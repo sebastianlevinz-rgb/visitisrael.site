@@ -1607,3 +1607,6 @@ ES Phase 23 — 5 LATAM Spanish guides. ES guides: 115→120/398. Build: 1183 pa
 - israel-5-vs-7-vs-10-days (trip-length decision; 4-column comparison table; 5-day itinerary; GYG/Booking CTAs)
 - hotels-near-ben-gurion-airport (Airport City/Lod; ₪ ranges; Shabbat logistics; Booking/DiscoverCars CTAs)
 Value: ES guides 115→120/398 (gap 283→278). Completes Eilat nightlife cluster, Golan wine cluster, Haifa food cluster; adds high-intent trip-planning and transit accommodation guides.
+
+## iter904 · REVIEW · review-904-de-phase-12 · 1169b589
+- DE Phase 12 REVIEW: 6 missing /de/ cross-link prefixes fixed across 2 files. birdwatching-in-israel: /akko-acre-guide → /de/akko-acre-guide. easter-in-jerusalem: /church-holy-sepulchre-guide (×2), /christian-pilgrimage-holy-land (×2), /holy-sites-dress-code-etiquette, /masada-dead-sea-day-trip all prefixed with /de/. eilat-dolphin-reef-guide, eilat-snorkeling-guide, jordan-pass-guide: all CLEAN. Meta title/desc, H1, honesty framing all OK. 1659/1659 e2e pass.

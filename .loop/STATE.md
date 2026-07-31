@@ -1,13 +1,15 @@
 # LOOP STATE
 
-- iteration: 903
-- lastMode: BUILD
-- lastItem: de-phase-12 (birdwatching-in-israel, easter-in-jerusalem, eilat-dolphin-reef-guide, eilat-snorkeling-guide, jordan-pass-guide)
-- lastResult: SHIPPED 8193efe9 — DE Phase 12 (142→147 DE/398). Gate: pnpm check 0 errors; pnpm build 1188 pages (+5); pnpm test:e2e 1659/1659 pass (17.6m).
-- nextRotationCategory: REVIEW (iter904; 904%5=4 → REVIEW; audit DE-12 guides: meta title ≤65, desc ≤160, /de/* cross-links exist in filesystem, no H1 in MDX body, no fabricated prices, honesty framing)
+- iteration: 904
+- lastMode: REVIEW
+- lastItem: review-904-de-phase-12 (birdwatching-in-israel, easter-in-jerusalem, eilat-dolphin-reef-guide, eilat-snorkeling-guide, jordan-pass-guide)
+- lastResult: SHIPPED 1169b589 — DE Phase 12 REVIEW: 6 link bugs fixed across 2 files; 3 guides CLEAN. Gate: pnpm check 0 errors; pnpm build 1188 pages; pnpm test:e2e 1659/1659 pass (11.5m). CI in_progress at push time.
+- nextRotationCategory: BUILD (iter905; 905%5=0 → RESEARCH; but 905%5=0 → RESEARCH mode)
 - higgsfieldSpent: 0
-- updatedAt: 2026-07-31T18:55Z
+- updatedAt: 2026-07-31T19:57Z
 - branch context: work on master; feature work on auto/<slug>
+
+Notes: iter904 REVIEW — review-904-de-phase-12 SHIPPED 1169b589. Audited all 5 DE Phase 12 guides against: meta title ≤65, desc ≤160, /de/* cross-links exist in filesystem, no H1 in MDX body, no fabricated prices, honesty framing. 6 fixes across 2 files: birdwatching-in-israel /akko-acre-guide → /de/akko-acre-guide (1 fix); easter-in-jerusalem /church-holy-sepulchre-guide (×2) → /de/church-holy-sepulchre-guide, /christian-pilgrimage-holy-land (×2) → /de/christian-pilgrimage-holy-land, /holy-sites-dress-code-etiquette → /de/holy-sites-dress-code-etiquette, /masada-dead-sea-day-trip → /de/masada-dead-sea-day-trip (5 fixes). /jerusalem-pilgrimage-road kept as EN-only link (no DE version exists ✓). eilat-dolphin-reef-guide: CLEAN (5 /de/* links verified). eilat-snorkeling-guide: CLEAN (5 /de/* links verified). jordan-pass-guide: CLEAN (4 /de/* links verified). All meta titles ≤65 chars. All meta descriptions ≤160 chars. 0 H1 in any MDX body. 0 fabricated prices. Honesty framing ✓ (dolphin encounters-not-guaranteed, Coral Beach bleaching disclosed, Jordan Pass 1-night rule explicit). rating/review fields in easter-in-jerusalem CTAs are not rendered to users per AffiliateCard.astro comment (no honesty violation). Gate: pnpm check 0 errors; pnpm build 1188 pages; pnpm test:e2e 1659/1659 pass (11.5m). Lighthouse CI passed. CI in_progress at push time.
 
 Notes: iter903 BUILD — de-phase-12 SHIPPED 8193efe9. 5 Standard Hochdeutsch guides: birdwatching-in-israel (Agamon HaHula 120K+ Kraniche, IBRCE Eilat Zugvogel-Rastplatz, Golan Griffongeier/Schwarzmilane, NABU/BUND-Markt-Angle, Saisonkalender-Tabelle; CTAs GYG/Abraham/Viator); easter-in-jerusalem (Westliches Ostern 28.3.2027, Orthodoxes Ostern 2.5.2027, Heiliges Feuer Orthodoxer Karsamstag, Via Dolorosa Prozessionen, 7 FAQs; CTAs GYG priceFrom:40/Viator/Booking); eilat-dolphin-reef-guide (3 Erlebnisstufen Strand/Schnorcheln/Tauchen, "Begegnungen nicht garantiert" Ehrlichkeitsframing, semi-wild pod ~6–8 Tiere; CTAs GYG/Booking); eilat-snorkeling-guide (Korallenreservat Coral Beach bleached-but-recovering honest, riffverträgliche Sonnencreme Pflicht, Glasbodenboote, Unterwasser-Observatorium; CTAs GYG/Booking); jordan-pass-guide (3 Stufen JD 70–80/75–85/80–95, 1-Nacht-Regel, Preise zu jordanpass.jo verweisen, Wadi-Araba-Übergang; CTAs GYG/Booking/Viator). Standard Hochdeutsch; YAML double-quotes; /de/* prefix only confirmed-existing DE pages; no fabricated prices/ratings. DE guides: 142→147/398. Build: 1183→1188 pages (+5). 1659/1659 e2e pass. Gate: 0 errors. Squash-merged auto/de-phase-12 to master, pushed 8193efe9.
 
