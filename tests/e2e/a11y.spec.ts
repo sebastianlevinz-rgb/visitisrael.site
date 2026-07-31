@@ -603,6 +603,11 @@ const ROUTES = [
   '/de/haifa-travel-guide',
   '/de/egypt-jordan-israel-itinerary',
   '/de/eilat-beach-guide',
+  '/fr/egypt-jordan-israel-itinerary',
+  '/fr/ein-gedi-guide',
+  '/fr/ein-kerem-jerusalem-guide',
+  '/fr/eilat-dolphin-reef-guide',
+  '/fr/galilee-wine-trail',
 ];
 
 for (const route of ROUTES) {
