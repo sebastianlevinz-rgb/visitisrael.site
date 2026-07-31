@@ -37,7 +37,7 @@ La Galilée est la région culinaire la plus diverse d'Israël : traditions de m
 
 Le plat emblématique de la mer de Galilée est le **poisson Saint-Pierre** (*musht* en hébreu, une espèce de tilapia du lac de Tibériade, le Kinneret). Les restaurants le long du front de lac de Tibériade — particulièrement la bande entre la marina et la vieille ville — le servent grillé entier, simplement assaisonné au citron et aux herbes, accompagné de salade israélienne, de tahini et de pain frais. C'est l'un des repas les plus atmosphériques d'Israël : vue sur le lac, soirées douces et un plat dégusté ici depuis des siècles.
 
-**Note pratique :** la mer de Galilée soutient une pêche sauvage mais les stocks de musht sont étroitement gérés ; la plupart du poisson servi en restaurant aujourd'hui est d'élevage en aquaculture galilénne. Cela n'enlève rien à la saveur ou à l'expérience — appréciez-le comme une tradition culinaire, non comme une garantie de pêche sauvage.
+**Note pratique :** la mer de Galilée soutient une pêche sauvage mais les stocks de musht sont étroitement gérés ; la plupart du poisson servi en restaurant aujourd'hui est d'élevage en aquaculture galiléenne. Cela n'enlève rien à la saveur ou à l'expérience — appréciez-le comme une tradition culinaire, non comme une garantie de pêche sauvage.
 
 **Le kibbutz Ein Gev** sur la rive orientale gère un restaurant populaire au bord du lac avec sa propre pisciculture et un cadre au niveau de l'eau, loin de l'agitation de Tibériade. Accessible en courte traversée en ferry depuis Tibériade en été.
 
@@ -80,7 +80,7 @@ Le plateau du Golan (altitude 900–1 200 m, sols de basalte volcanique, nuits f
 
 **Fromages artisanaux :** spécialité moins connue du Golan — plusieurs kibbutzim et moshavim du Golan produisent des fromages de chèvre et de brebis vendus à la ferme et sur les marchés de Tibériade.
 
-Un [circuit de dégustation en voiture](/galilee-wine-trail) sur le Golan est la façon la plus enrichissante de goûter largement — prévoyez un conducteur non buveur ; les limites d'alcoolémie israéliennes sont strictes (0,05 % d'alcoolémie). Pour la moitié Haute-Galilée du circuit — Galil Mountain Winery, Dalton et le plateau de Rosh Pinna — voir le [guide de la route des vins de Galilée](/fr/galilee-wine-trail).
+Un [circuit de dégustation en voiture](/fr/galilee-wine-trail) sur le Golan est la façon la plus enrichissante de goûter largement — prévoyez un conducteur non buveur ; les limites d'alcoolémie israéliennes sont strictes (0,05 % d'alcoolémie). Pour la moitié Haute-Galilée du circuit — Galil Mountain Winery, Dalton et le plateau de Rosh Pinna — voir le [guide de la route des vins de Galilée](/fr/galilee-wine-trail).
 
 ## Farm-to-table en Haute-Galilée — Rosh Pinna et ses environs
 
@@ -103,4 +103,4 @@ La rive orientale de la mer de Galilée — plus calme que la bande ouest de Tib
 
 ## Planifiez votre voyage
 
-Le circuit gastronomique en Galilée s'associe naturellement à un itinéraire galilén plus large — voir [3 jours en Galilée](/fr/3-days-in-galilee), la [comparaison des circuits en Galilée](/fr/galilee-tours-compared). Pour le contexte gastronomique plus large en Israël, le [guide de la cuisine israélienne](/fr/israel-food-tours-cooking-classes) couvre l'ensemble du pays. Les amateurs de vin peuvent prolonger avec la [route des vins Galilée–Golan en voiture](/fr/galilee-wine-trail) ou le [guide des régions viticoles d'Israël](/fr/israel-wine-wineries).
+Le circuit gastronomique en Galilée s'associe naturellement à un itinéraire galiléen plus large — voir [3 jours en Galilée](/fr/3-days-in-galilee), la [comparaison des circuits en Galilée](/fr/galilee-tours-compared). Pour le contexte gastronomique plus large en Israël, le [guide de la cuisine israélienne](/fr/israel-food-tours-cooking-classes) couvre l'ensemble du pays. Les amateurs de vin peuvent prolonger avec la [route des vins Galilée–Golan en voiture](/fr/galilee-wine-trail) ou le [guide des régions viticoles d'Israël](/fr/israel-wine-wineries).
