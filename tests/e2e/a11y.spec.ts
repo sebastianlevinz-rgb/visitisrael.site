@@ -608,6 +608,11 @@ const ROUTES = [
   '/fr/ein-kerem-jerusalem-guide',
   '/fr/eilat-dolphin-reef-guide',
   '/fr/galilee-wine-trail',
+  '/es/hiking-in-israel',
+  '/es/eilat-snorkeling-guide',
+  '/es/ein-kerem-jerusalem-guide',
+  '/es/golan-heights-tours-compared',
+  '/es/haifa-cruise-terminal-guide',
 ];
 
 for (const route of ROUTES) {
