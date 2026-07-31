@@ -1,6 +1,6 @@
 ---
 title: "Route des vins de Galilée et du Golan (2026)"
-description: "Circuit auto de la route des vins en Galilée et sur le Golan : Galil Mountain, Dalton, vignobles boutique — itinéraire de 2 jours, dégustations et hébergement."
+description: "Circuit auto de la route des vins en Galilée et sur le Golan : Galil Mountain, Dalton, vignobles boutique — 2 jours, dégustations et hébergement."
 heroImage: /images/regions/galilee/hero.jpg
 category: Gastronomie
 updatedAt: 2026-07-31

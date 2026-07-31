@@ -1,6 +1,6 @@
 ---
 title: "Égypte, Jordanie et Israël : circuit 3 pays (2026)"
-description: "Préparez un circuit de 3 pays au Moyen-Orient : Israël, Jordanie et Égypte — routes, passages frontaliers, itinéraires de 10 et 14 jours et conseils logistiques."
+description: "Circuit 3 pays au Moyen-Orient : Israël, Jordanie et Égypte — passages frontaliers, itinéraires de 10 et 14 jours, conseils logistiques."
 heroImage: /images/regions/eilat/hero.jpg
 category: Itinéraire
 updatedAt: 2026-07-31

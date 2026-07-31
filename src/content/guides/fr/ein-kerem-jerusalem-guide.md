@@ -1,6 +1,6 @@
 ---
 title: "Ein Kerem Jérusalem : village et guide de pèlerinage"
-description: "Ein Kerem : Église de la Visitation, Église Saint-Jean-Baptiste, Fenêtres de Chagall à Hadassah. Village de pierre de Jérusalem-Ouest, 15 min de la Vieille Ville."
+description: "Ein Kerem : Église de la Visitation, Église Saint-Jean-Baptiste, Fenêtres de Chagall à Hadassah. Village de Jérusalem-Ouest, 15 min de la Vieille Ville."
 heroImage: /images/regions/jerusalem/hero.jpg
 category: Sites sacrés
 updatedAt: 2026-07-31
