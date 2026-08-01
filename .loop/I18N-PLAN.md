@@ -13,10 +13,10 @@
 | en     | 398    | 65          | 11      | 6           |
 | fr     | 157    | 61          | 11      | 6           |
 | de     | 152    | 61          | 11      | 6           |
-| es     | 140    | 61          | 11      | 6           |
+| es     | 145    | 61          | 11      | 6           |
 
 **Gaps to close:**
-- es guides: **258 missing** (140/398 done — Phase ES-27 SHIPPED iter917 9137f5b5; **Phase ES-28 TBD**)
+- es guides: **253 missing** (145/398 done — Phase ES-28 SHIPPED iter921 6681a508; **Phase ES-29 TBD**)
 - fr guides: **241 missing** (157/398 done — Phase FR-14 SHIPPED iter913 d949691f; **Phase FR-15 defined iter905**)
 - de guides: **246 missing** (152/398 done — Phase DE-13 SHIPPED iter918 bc83fca6; **Phase DE-14 defined iter905**)
 - fr/de/es attractions: **4 missing each** (the 4 EN attractions added after Phase 4)
@@ -782,7 +782,7 @@ All 5 confirmed MISSING from `src/content/guides/es/` via `comm -23` (2026-08-01
 
 Quality: neutral LATAM Spanish tuteo; YAML double-quotes; /es/ prefix only for confirmed-existing ES pages; no fabricated prices (₪/$ ranges + "verify at gate/booking platform"); haifa-shore-excursions MUST include cruise suspension notice (honesty rule — services currently suspended March 2026); Bahá'í upper terrace tour requires advance registration (can't walk in); Druze photography etiquette (ask permission); UXO off-trail warning for Golan activities; no fabricated tour ratings or review counts; all ₪ as ranges only.
 
-### Phase ES-28 (140 → 145/398) — DEFINED iter920
+### Phase ES-28 (140 → 145/398) — SHIPPED iter921 6681a508
 
 Target: iter921 BUILD (next BUILD iteration; ES has largest gap 258 missing guides).
 Guides: `lgbtq-travel-israel.md`, `jerusalem-neighborhoods-guide.md`, `israel-by-month.md`, `jewish-heritage-israel.md`, `israel-travel-2026.md`

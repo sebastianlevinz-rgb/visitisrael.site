@@ -1,13 +1,15 @@
 # LOOP STATE
 
-- iteration: 920
-- lastMode: RESEARCH
-- lastItem: research-920-es-28-defined
-- lastResult: RESEARCH iter920 (184th research pass). ES-28 defined: lgbtq-travel-israel, jerusalem-neighborhoods-guide, israel-by-month, jewish-heritage-israel, israel-travel-2026 (all confirmed MISSING from ES). LATAM editorial competition confirmed thin (tour aggregators only). US/Canada tourism +73% YoY. No code changes.
-- nextRotationCategory: BUILD (iter921; 921%5=1 → BUILD; recommend ES-28)
+- iteration: 921
+- lastMode: BUILD
+- lastItem: es-phase-28
+- lastResult: BUILD iter921. ES Phase ES-28 SHIPPED 6681a508 — 5 ES guides: lgbtq-travel-israel, jerusalem-neighborhoods-guide, israel-by-month, jewish-heritage-israel, israel-travel-2026. ES guides: 140→145/398. Build: 1223→1228 pages (+5). 1739/1739 e2e pass (27.7m). Gate: 0 errors.
+- nextRotationCategory: BUILD (iter922; 922%5=2 → BUILD; recommend DE-14 or FR-15)
 - higgsfieldSpent: 0
-- updatedAt: 2026-08-01T12:10Z
+- updatedAt: 2026-08-01T14:00Z
 - branch context: work on master; feature work on auto/<slug>
+
+Notes: iter921 BUILD — es-phase-28 SHIPPED 6681a508. 5 LATAM-Spanish guides created in src/content/guides/es/: lgbtq-travel-israel (Tel Aviv gay scene, Hilton gay beach, Tel Aviv Pride June, safety across Israel, etiquette; CTAs GYG+Booking; 6 FAQs; cross-links /es/tel-aviv-beach-guide+/es/shabbat-guide+/es/is-israel-safe+/es/first-time-in-israel+/itineraries); jerusalem-neighborhoods-guide (8 neighborhoods: Old City 4 quarters + Mamilla/City Center/German Colony/Mahane Yehuda; 9-row comparison table; EN fallback /jerusalem-travel-guide used per iter920 note; CTAs Booking+GYG+Viator; 6 FAQs); israel-by-month (12-month planning calendar; weather/crowds/prices/holidays/standout experiences per month; seasonal summary table; cross-links /es/best-time-to-visit-israel; CTAs Booking+GYG; 7 FAQs); jewish-heritage-israel (Yad Vashem+Western Wall paired-naming+City of David+ANU Museum+Safed+Masada+Gamla+Galilee communities; 3 itinerary structures; LATAM Jewish diaspora Argentina~190K/Brazil~95K/Mexico~40K angle; CTAs GYG+Viator+Abraham; 6 FAQs); israel-travel-2026 (tourism recovery +25-29% YoY; "I Am Israel" campaign; new/expanded flights United/Delta/Israir/El Al; BGA Terminal 1 reopened July 2026; ETA-IL ₪25 iaa.gov.il; Rosh Hanikra reopened; new hotels Jaffa/Jerusalem/Herzliya; CTAs Skyscanner+Booking+GYG; 6 FAQs). All: LATAM neutral tuteo; YAML double-quotes; /es/* prefix only confirmed-existing pages; no fabricated prices/ratings. tests/e2e/smoke.spec.ts + a11y.spec.ts each +5 routes. Gate: pnpm check 0 errors; pnpm build 1228 pages (+5); pnpm test:e2e 1739/1739 pass (27.7m). ES guides: 140→145/398.
 
 Notes: iter920 RESEARCH — research-920-es-28-defined. 184th research pass. ES-28 batch defined (5 guides all confirmed MISSING from ES via comm -23): lgbtq-travel-israel (Tel Aviv #1 global LGBTQ+ destination; zero LATAM ES editorial; LATAM market Mexico/Argentina/Colombia); jerusalem-neighborhoods-guide (completes TLV+Jerusalem pair after ES-26 tel-aviv-neighborhoods-guide iter911; high planning-stage intent; /es/jerusalem-travel-guide does NOT exist — use EN fallback /jerusalem-travel-guide in cross-links); israel-by-month (month-by-month planning; very high LATAM search intent; pairs /es/best-time-to-visit-israel confirmed); jewish-heritage-israel (LATAM Jewish diaspora: Argentina ~190K, Brazil ~95K, Mexico ~40K; genealogy tourism; pairs /es/yad-vashem-visitor-guide + /es/western-wall-guide confirmed); israel-travel-2026 (flagship 2026 update; tourism +73% YoY; ETA-IL + Terminal 1 + Biblical Highway; pairs /es/first-time-in-israel + /es/visa-information + /es/airlines-flying-israel-2026 all confirmed). ES current: 140/398. DE-14 + FR-15 both fully defined and ready for next non-ES BUILD iterations. No code changes; no gate run.
 

@@ -13928,3 +13928,19 @@ Gate: RESEARCH mode — no code changes, no gate run.
 Ship: no shipping this iteration.
 ES guides: 140/398 (no change — RESEARCH).
 Next: iter921 → BUILD (921%5=1 → BUILD mode). Recommend ES-28 (highest ES gap: 258 missing guides).
+
+## 2026-08-01T14:00Z · iter 921 · BUILD (i18n-ES) · es-phase-28
+What: ES Phase ES-28 — 5 Spanish-language guides for the LATAM market.
+Files created:
+  - src/content/guides/es/lgbtq-travel-israel.md (Tel Aviv gay scene, Hilton gay beach, Pride June, safety; CTAs GYG+Booking; 6 FAQs; cross-links /es/tel-aviv-beach-guide+/es/shabbat-guide+/es/is-israel-safe+/es/first-time-in-israel+/itineraries)
+  - src/content/guides/es/jerusalem-neighborhoods-guide.md (8 neighborhoods: Old City 4 quarters + Mamilla/City Center/German Colony/Mahane Yehuda; 9-row comparison table; EN fallback /jerusalem-travel-guide per iter920 note; CTAs Booking+GYG+Viator; 6 FAQs)
+  - src/content/guides/es/israel-by-month.md (12-month planning calendar; weather/crowds/prices/holidays/standout per month; seasonal summary table; CTAs Booking+GYG; 7 FAQs)
+  - src/content/guides/es/jewish-heritage-israel.md (Yad Vashem+Western Wall paired-naming+City of David+ANU Museum+Safed+Masada+Gamla+Galilee; 3 itinerary structures; LATAM diaspora Argentina~190K/Brazil~95K/Mexico~40K; CTAs GYG+Viator+Abraham; 6 FAQs)
+  - src/content/guides/es/israel-travel-2026.md (tourism +25-29% YoY; "I Am Israel" campaign; United/Delta/Israir/El Al flights; BGA Terminal 1 July 2026; ETA-IL ₪25; Rosh Hanikra reopened; new hotels; CTAs Skyscanner+Booking+GYG; 6 FAQs)
+Files modified: tests/e2e/smoke.spec.ts (+5 ES routes), tests/e2e/a11y.spec.ts (+5 ES routes)
+Link fixes during dev: /itinerarios→/itineraries (lgbtq guide); /vía-dolorosa→/via-dolorosa-guide (israel-by-month)
+Quality: LATAM neutral tuteo; YAML double-quotes; /es/* prefix only confirmed-existing pages; no fabricated prices/ratings; honest 2026 recovery framing; Jewish holiday schedules via hebcal.com (not hardcoded); Golan political note (factual/neutral)
+Gate: pnpm check 0 errors; pnpm build 1228 pages (+5 from 1223); pnpm test:e2e 1739/1739 pass (27.7m). GREEN.
+Ship: squash-merged auto/es-phase-28 to master, pushed 6681a508. Branch deleted.
+ES guides: 140→145/398. Build pages: 1223→1228.
+Next: iter922 → BUILD (922%5=2 → BUILD; recommend DE-14 or FR-15 by rotation).
