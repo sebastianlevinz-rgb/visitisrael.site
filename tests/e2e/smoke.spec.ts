@@ -968,6 +968,11 @@ const ROUTES = [
   '/fr/haifa-neighborhoods-guide',
   '/fr/israel-accessible-travel',
   '/fr/haifa-shore-excursions',
+  '/fr/golan-heights-guide',
+  '/fr/golan-heights-hiking-trails',
+  '/fr/druze-villages-carmel',
+  '/fr/rosh-hanikra-guide',
+  '/fr/mount-of-olives-guide',
 ];
 
 for (const route of ROUTES) {
