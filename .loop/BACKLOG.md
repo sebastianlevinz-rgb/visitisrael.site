@@ -3,6 +3,12 @@
 Format: `- [P1] (category, effort S/M/L) Title — why valuable — impl sketch — status`
 Priorities P0 (highest) → P3. Status: ready | blocked:<reason> | in-progress.
 
+## i18n — ready batches (next BUILD iterations)
+<!-- iter925 research additions — 2026-08-01 — 185th research pass. comm -23 confirmed 15 guides MISSING from target locales. Cross-links verified. Key notes: /es/jerusalem-travel-guide MISSING (EN fallback); olive tree age honesty (Gethsemane); FR golan-heights-guide is largest single FR gap (exists in ES+DE, missing from FR); cruise suspension notice required in DE haifa-cruise-terminal-guide; UXO off-trail warning all Golan guides. -->
+- [P1] (i18n-ES, M) ES Phase ES-29 — jerusalem-food-guide, tel-aviv-food-guide, rosh-hanikra-guide, mount-of-olives-guide, safed-tzfat-guide. ES guides 145→150/398. All confirmed MISSING via comm -23 (2026-08-01). Next ES BUILD candidate. status: ready
+- [P1] (i18n-FR, M) FR Phase FR-16 — golan-heights-guide, golan-heights-hiking-trails, druze-villages-carmel, rosh-hanikra-guide, mount-of-olives-guide. FR guides 162→167/398. All confirmed MISSING via comm -23 (2026-08-01). Note: golan-heights-guide is largest FR gap — exists in ES+DE but not FR. status: ready
+- [P1] (i18n-DE, M) DE Phase DE-15 — guided-vs-self-guided-israel, golan-heights-wineries, druze-villages-carmel, rosh-hanikra-guide, haifa-cruise-terminal-guide. DE guides 157→162/398. All confirmed MISSING via comm -23 (2026-08-01). status: ready
+
 ## technical / SEO-health
 <!-- iter905 research additions — 2026-07-31 — 181st research pass. Sources: masaisrael.org/airlines, timesofisrael.com (Austrian/Lufthansa resumption), iaa.org.il (National Campus), atij.org (accessible travel), exclusiveisraeltours.com (MOT guide licensing), jetpacglobal.com (safety), travelandtourworld.com (tourism recovery). Net-new: 2 items (Austrian Airlines freshness; National Campus date hedge). ES-24 + DE-14 + FR-15 defined in I18N-PLAN.md. EN count stable 398. Competitor scan: LATAM = all tour aggregators, zero editorial competition on individual guide pages. HolyLandTravel.ai = AI pilgrimage planner (not competitive with editorial model). Tourism recovery confirmed (34,700 US/Canada arrivals June 2026). -->
 <!-- SHIPPED iter923 c6b16be9: FR Phase FR-15 — israel-eta-guide, how-to-hire-licensed-tour-guide-israel, haifa-neighborhoods-guide, israel-accessible-travel, haifa-shore-excursions. FR guides: 157→162/398. Build: 1233→1238 pages (+5). 1759/1759 e2e pass. Gate: 0 errors. CI: success. -->

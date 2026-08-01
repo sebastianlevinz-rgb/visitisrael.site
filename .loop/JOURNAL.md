@@ -13986,3 +13986,16 @@ Clean files: all 5 guides: 0 H1 in MDX body; all 11 /fr/* cross-link targets ver
 Gate: pnpm check 0 errors; pnpm build 1238 pages (no change); pnpm test:e2e 1759/1759 pass. GREEN.
 Ship: squash-merged → 5ba948b7, pushed. CI: success (Lighthouse + all workflows).
 Next: iter925 → RESEARCH (925%5=0 → RESEARCH mode).
+
+## 2026-08-01T18:00Z · iter 925 · RESEARCH · research-925-es-29-fr-16-de-15-defined
+What: 185th research pass. Defined next BUILD batches for all three locales.
+All 15 guides confirmed MISSING via `comm -23` (2026-08-01).
+Phase ES-29 (145→150): jerusalem-food-guide, tel-aviv-food-guide, rosh-hanikra-guide, mount-of-olives-guide, safed-tzfat-guide.
+  - Key notes: /es/jerusalem-travel-guide MISSING → EN fallback; olive tree age honesty (Gethsemane); Kabbalah Center vs. traditional Safed distinction.
+Phase FR-16 (162→167): golan-heights-guide (major FR gap — exists in ES+DE but not FR), golan-heights-hiking-trails, druze-villages-carmel, rosh-hanikra-guide, mount-of-olives-guide.
+  - Key notes: Golan political status note required (same standard as DE); UXO warning; FR golan-heights-guide is a significant omission — fix in next non-ES BUILD iter.
+Phase DE-15 (157→162): guided-vs-self-guided-israel, golan-heights-wineries, druze-villages-carmel, rosh-hanikra-guide, haifa-cruise-terminal-guide.
+  - Key notes: cruise suspension notice required in haifa-cruise-terminal-guide; Siedlungsweingüter-Kontext brief + neutral for DACH wine readers; 0,05% BAK Fahrerhinweis; INPA pass not valid for Rosh Hanikra cable car.
+Gate result: n/a (no code changes — research only).
+Ship: no commit to master; loop memory files only.
+Next: iter926 → BUILD (926%5=1 → BUILD; ES-29 by priority — ES has largest gap 253 missing).
