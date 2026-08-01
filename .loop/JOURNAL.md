@@ -13839,3 +13839,16 @@ Gate: pnpm check 0 errors; pnpm build 1213 pages (no change); pnpm test:e2e 1709
 Ship: squash-merged auto/review-914-fr-phase-14-meta-link-fix to master a86b2933, pushed origin master. CI in_progress at push.
 FR guides: 157/398 (no change — REVIEW, no new pages).
 Next: iter 915 → RESEARCH (915%5=0 → RESEARCH mode).
+
+## 2026-08-01T07:15Z · iter 915 · RESEARCH · research-915-es-27-defined
+What: 183rd research pass. RESEARCH mode (915%5=0). Defined ES-27 batch; updated BACKLOG; updated COMPETITORS.
+Findings:
+  - ES-27 defined: 5 guides all confirmed MISSING from ES via comm -23 (2026-08-01) — haifa-tours-compared, haifa-shore-excursions, israel-adventure-sports, druze-villages-carmel, hayarkon-park-tel-aviv. All EN source guides exist and are current. Cross-links (/es/haifa-travel-guide, /es/haifa-food-guide, /es/day-trips-from-haifa, /es/is-israel-safe, /es/car-rental-israel, /es/first-time-in-israel) all confirmed existing in ES.
+  - Cruise P1 honesty gap still unshipped: israel-homeport-cruise.md (updated Jul 30) + haifa-cruise-terminal-guide.md (updated Jul 18) present cruise operations as active; NEITHER includes a suspension notice about the March 28, 2026 industry-wide cruise call suspension at Haifa/Ashdod. This is the top priority P1 honesty fix for iter916 BUILD. cruise-shore-excursions-israel.md (updated Jun 23) also needs a suspension notice. ES/FR/DE locale variants of ashdod-cruise-port-excursions need the same. If/when cruise service resumes, remove notice.
+  - LATAM editorial competition: confirmed still thin (tour-aggregator sites + Civitatis package pages only; zero dedicated LATAM editorial guides for haifa-tours-compared, haifa-shore-excursions, israel-adventure-sports, druze-villages-carmel, hayarkon-park-tel-aviv topics in Spanish).
+  - Competitor tools: Lonely Planet Trip Builder + Wanderlog Israel map planner are gaining ground as interactive trip-planning tools; our build-your-trip moat is still intact but competitor tooling pressure increasing.
+  - Delta ATL/BOS: research agent returned unverified "resumed April 2026" data conflicting with our Jul 2026 guide (still shows suspended). Trust our guide (more recently verified by humans). Do NOT update airlines guide without verified source.
+  - US/Canada arrivals: +73% YoY June 2026 per travelandtourworld.com (34,700 visitors). Tourism recovery trajectory healthy.
+Gate: RESEARCH mode — no code changes, no gate run.
+Ship: no shipping this iteration.
+Next: iter 916 → BUILD (916%5=1 → BUILD mode). Recommend: P1 cruise-honesty-fix as highest-priority (honesty rules), then ES-27 in next BUILD iteration.

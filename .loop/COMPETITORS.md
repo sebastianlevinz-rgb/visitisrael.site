@@ -7031,3 +7031,25 @@ Sources: touristisrael.com/israel-travel-2026, masaisrael.org/airlines, travelan
 - BGA Terminal 3 expansion ongoing — confirmed still in progress (no opening date set); current framing in airport guides is correct.
 
 **i18n gap status (iter910):** ES=130/398, FR=152/398, DE=147/398. LATAM editorial competition remains thin; tour-aggregator-only. ES-26 defined (tel-aviv-neighborhoods-guide, glamping-israel, israel-biblical-highway, getyourguide-vs-viator-israel, mitzpe-ramon-guide) — all confirmed MISSING from src/content/guides/es/ via comm -23.
+
+### 2026-08-01 · iter 915 · RESEARCH · 183rd research pass
+Sources: travelandtourworld.com, touristisrael.com, lonelyplanet.com/journeys, viator.com/Israel, civitatis.com, travelviajes.com.ar, despegar.com.ar.
+
+**LATAM editorial gap still wide (confirmed):**
+- "Haifa tours comparados", "deportes de aventura Israel", "aldeas druzas Israel", "Hayarkon Park Tel Aviv" — zero dedicated LATAM Spanish editorial guides found on any source.
+- Tour aggregators (Civitatis, Viator ES) have tour listings but no comparison editorial content for any of these 5 topics.
+- "Israel turismo 2026 argentina" SERP returns only agency package pages (Travel Viajes, Antia, Despegar) — zero editorial travel blog content.
+- "¿Es seguro viajar a Israel en 2026?" returns agency FAQs, not authoritative editorial. Our is-israel-safe.md would dominate this query.
+
+**Competitor tool threats:**
+- Lonely Planet launched "Journeys" (local-expert-matched itineraries) + "Trip Builder" wizard — interactive alternatives to our build-your-trip tool. Moat still wide but worth noting.
+- Wanderlog has Israel-specific map-based planner with stop-by-stop listings and bookable extensions.
+- Neither Lonely Planet nor Wanderlog has Hebrew/Spanish/French/German Israel itinerary content — our i18n coverage is uncontested.
+
+**Tourism data:**
+- US/Canada arrivals +73% YoY June 2026 (34,700 visitors) per travelandtourworld.com.
+- Israel total tourism recovery trajectory healthy (17+ new hotel openings confirmed summer 2026).
+- El Al TLV–EZE (Buenos Aires, Nov 29, 2026) — already in our guides. LATAM's first direct Israel service. No editorial LATAM competitors covering this route launch.
+
+**Honesty alert (ongoing):**
+- Cruise guide suspension still unaddressed: Haifa/Ashdod cruise calls suspended March 28, 2026. Our guides (israel-homeport-cruise + haifa-cruise-terminal + cruise-shore-excursions + ashdod-cruise-port-excursions) present services as active. P1 BUILD task.
