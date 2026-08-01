@@ -706,7 +706,7 @@ All 5 confirmed MISSING from `src/content/guides/fr/` via `comm -23` (2026-07-31
 - glamping-israel: "Glamping en Israël : hébergements insolites dans la nature" — French glampisme/hébergement insolite market is growing rapidly (France #1 glamping market in Europe per Glamping Hub data); Beresheet Desert Lodge (Makhtesh Ramon crater rim), Succah in the Desert off-grid sukkot, Yahel outpost Arava, Ein Gedi kibbutz glamping, North Galilee moshav zimmer style; honest pricing in ₪ ranges; pairs with /fr/best-hotels-negev + /fr/sea-of-galilee-guide (both confirmed existing); Booking CTAs
 Quality: metropolitan French; YAML double-quotes; /fr/* prefix only for confirmed existing FR pages; no fabricated prices; Golan Heights political context note (factual/neutral); glamping prices as ₪ ranges only; Beresheet/Succah prices in ranges.
 
-### Phase ES-26 (130 → 135/398) — DEFINED iter910
+### Phase ES-26 (130 → 135/398) — SHIPPED iter911 65e3f5c9
 
 Target: iter911 BUILD (next BUILD iteration; ES highest priority, largest gap 268 remaining).
 Guides: `tel-aviv-neighborhoods-guide.md`, `glamping-israel.md`, `israel-biblical-highway.md`, `getyourguide-vs-viator-israel.md`, `mitzpe-ramon-guide.md`
