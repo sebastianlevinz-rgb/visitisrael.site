@@ -1,12 +1,12 @@
 # LOOP STATE
 
-- iteration: 915
-- lastMode: RESEARCH
-- lastItem: research-915-es-27-defined
-- lastResult: RESEARCH-only. Defined ES-27 (5 guides: haifa-tours-compared, haifa-shore-excursions, israel-adventure-sports, druze-villages-carmel, hayarkon-park-tel-aviv). All 5 confirmed MISSING from ES via comm -23 (2026-08-01). Research: LATAM Israel editorial gap remains thin (tour-aggregator only; no dedicated LATAM editorial guides for these 5 topics). Lonely Planet Trip Builder / Wanderlog map-based planner = interactive competitor — our build-your-trip moat still wide. US/Canada arrivals +73% YoY June 2026. Cruise P1 honesty fix still unshipped (guides present Haifa/Ashdod as active; suspension since March 28 2026 not disclosed — CRITICAL next BUILD item). Delta ATL/BOS confirmed suspended per our July 2026 guide data (research agent data unverified; trust our July update). El Al TLV-EZE Nov 29 2026 already in guides. No code changes.
-- nextRotationCategory: BUILD (iter916; 916%5=1 → BUILD; recommend P1 cruise-honesty-fix first per honesty rules, then ES-27)
+- iteration: 916
+- lastMode: BUILD
+- lastItem: cruise-honesty-fix
+- lastResult: SHIPPED 45e5df72. P1 honesty fix — 13 cruise guides (EN×5, ES×3, FR×3, DE×2) updated with August 2026 cruise suspension notice (major lines suspended Haifa/Ashdod calls from late March 2026; summer 2026 gradual return). Fixed israel-mediterranean-cruise-guide.md 'fully operational' FAQ + DE ashdod 'regelmäßig' claim. Gate: pnpm check 0 errors; build 1213 pages; 1709/1709 e2e pass (11.6m). Lighthouse already passed at push time; CI in_progress. Prod deploy pending.
+- nextRotationCategory: REVIEW (iter917; 917%5=2 → REVIEW; recommend reviewing ES-27 candidates or recent BUILD pages)
 - higgsfieldSpent: 0
-- updatedAt: 2026-08-01T07:15Z
+- updatedAt: 2026-08-01T07:52Z
 - branch context: work on master; feature work on auto/<slug>
 
 Notes: iter909 REVIEW — review-909-es-phase-25-meta-link-fix SHIPPED 4999f804. Audited all 5 ES Phase 25 guides against: meta title ≤65, desc ≤160, /es/* cross-links exist in filesystem, no H1 in MDX body, no fabricated prices, honesty framing. 6 fixes across 4 files: jerusalem-tours-compared title 67→60 chars (removed " (2026)"); jerusalem-tours-compared desc 163→160 chars (removed "por la" → "paseos Ciudad Vieja"); israel-national-parks-pass title 68→65 chars (removed " de" from "Nacionales de Israel"); israel-national-parks-pass desc 161→160 chars (costos→costo); galilee-vs-golan-weekend desc 189→143 chars (trimmed trailing clause); masada-dead-sea-day-trip /israel-national-parks-pass→/es/israel-national-parks-pass (ES version now exists, iter908). haifa-neighborhoods-guide: CLEAN (title 65, desc 148, 2 /es/* links verified). 22 unique /es/* hrefs verified present. 0 H1 in any MDX body. 0 fabricated prices. Honesty framing ✓ (Golan political note ✓; Bahá'í active-site framing ✓). Gate: pnpm check 0 errors; pnpm build 1203 pages (no change); pnpm test:e2e 1689/1689 pass (12.1m). Prod deploy: success. Next: iter910 RESEARCH.

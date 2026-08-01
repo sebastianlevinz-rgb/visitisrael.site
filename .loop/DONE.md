@@ -1636,3 +1636,14 @@ Value: ES guides 125→130/398 (gap 273→268). Completes Masada/Dead Sea cluste
 
 ## iter909 · REVIEW (i18n-ES) · review-909-es-phase-25-meta-link-fix · 4999f804
 - REVIEW ES Phase 25 guides SHIPPED: 6 fixes across 4 files (jerusalem-tours-compared title 67→60 + desc 163→160; israel-national-parks-pass title 68→65 + desc 161→160; galilee-vs-golan-weekend desc 189→143; masada-dead-sea-day-trip link /israel-national-parks-pass→/es/). haifa-neighborhoods-guide CLEAN. 1689/1689 e2e pass.
+
+## iter916 · BUILD (honesty) · cruise-honesty-fix · 45e5df72
+- P1 HONESTY FIX: Added August 2026 cruise suspension notice to 13 cruise guides across all locales
+  (EN: haifa-cruise-terminal-guide, ashdod-cruise-port-excursions, cruise-shore-excursions-israel,
+  israel-homeport-cruise, israel-mediterranean-cruise-guide; ES×3: cruise-shore-excursions-israel,
+  ashdod-cruise-port-excursions, haifa-cruise-terminal-guide; FR×3: same pattern;
+  DE×2: cruise-shore-excursions-israel, ashdod-cruise-port-excursions)
+- Fixed "Israeli port agents confirm fully operational" FAQ → accurate gradual-return framing
+- Fixed DE ashdod "AIDA/TUI/MSC/Costa legen regelmäßig an" → suspension-aware framing
+- All 13 updatedAt bumped to 2026-08-01
+Value: Cruise guides no longer misrepresent Haifa/Ashdod as active without caveat; readers properly informed to verify cruise line schedules.

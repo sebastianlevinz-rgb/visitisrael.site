@@ -13852,3 +13852,20 @@ Findings:
 Gate: RESEARCH mode — no code changes, no gate run.
 Ship: no shipping this iteration.
 Next: iter 916 → BUILD (916%5=1 → BUILD mode). Recommend: P1 cruise-honesty-fix as highest-priority (honesty rules), then ES-27 in next BUILD iteration.
+
+## 2026-08-01T07:49Z · iter 916 · BUILD (honesty) · cruise-honesty-fix
+What: P1 honesty fix — 13 cruise guide pages (EN×5, ES×3, FR×3, DE×2) were
+presenting Haifa and Ashdod cruise ports as fully active with no disclosure of the
+industry-wide suspension that began ~March 28 2026 following regional security
+developments. Web research confirmed: (1) cruise lines suspended Israel calls from
+late March 2026; (2) Haifa new terminal opened May 14 2026 as revival effort;
+(3) Summer 2026 is a "gradual return" phase, NOT fully resumed. Fixed:
+- Added suspension/status blockquote notice to body of all 13 affected guides (EN/ES/FR/DE)
+- Fixed israel-mediterranean-cruise-guide.md FAQ that said "Israeli port agents confirm
+  both Haifa and Ashdod are fully operational" → accurate gradual-return framing
+- Fixed DE ashdod guide claim that "AIDA/TUI/MSC/Costa legen regelmäßig an" → contextualized
+- Updated updatedAt frontmatter for all 13 files to 2026-08-01
+Gate: pnpm check 0 errors; pnpm build 1213 pages (no change); pnpm test:e2e 1709/1709 pass (11.6m).
+Ship: squash-merged to master, pushed 45e5df72. CI in_progress / Lighthouse success at time of push.
+Prod: pending Vercel deploy confirmation.
+Next: iter 917 → REVIEW (917%5=2 → REVIEW). Or ES-27 BUILD on next odd iteration.
