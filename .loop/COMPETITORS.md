@@ -7003,3 +7003,31 @@ Sources: touristisrael.com/israel-travel-2026, masaisrael.org/airlines, travelan
 - DE: 147/398. DE-13 defined iter900; DE-14 defined iter905 (galilee-vs-golan-weekend, glamping-israel, best-hotels-netanya, haifa-tours-compared, haifa-neighborhoods-guide). NOTE: /de/galilee-travel-guide.md does NOT exist — galilee-vs-golan-weekend DE must use EN fallback for that cross-link.
 
 **EN saturation**: ~97%+ (181st pass; no new EN-only structural gaps identified this pass beyond Bible Road watch item).
+
+### 2026-08-01 · iter 910 · RESEARCH — 182nd pass · LATAM ES editorial + cruise suspension
+
+**Civitatis (dominant LATAM Israel OTA — civitatis.com):**
+- Civitatis has a Tel Aviv-specific tour app + guided walking tours of Tel Aviv (Jaffa, Old City, markets) in Spanish, but has **NO comprehensive editorial tel-aviv-neighborhoods-guide.md** comparing barrios (Neve Tzedek, Rothschild, Florentin, Jaffa, Kerem HaTeimanim, Dizengoff, HaKirya) with per-neighborhood hotel tiers. Tour listings only; no comparison content.
+- Civitatis ranks "Israel tours" and "qué hacer en Tel Aviv" category pages, but all pages are tour-aggregator product pages, not editorial guides. No SEO editorial competition for our tel-aviv-neighborhoods-guide ES target.
+- Civitatis does have strong affiliate programs → keep using Civitatis as a CTA partner (confirmed existing in ES jerusalem-tours-compared iter908), do NOT treat as pure competitor; treat as affiliate channel + editorial gap opportunity simultaneously.
+
+**disfrutatelaviv.com (only dedicated Spanish Tel Aviv editorial site):**
+- Tiny-authority Spanish-language blog about Tel Aviv; covers a few neighborhood articles but with very shallow content, no comparison tables, no affiliate CTAs, no structured data. Domain authority low; easily outranked with comprehensive editorial + schema.
+- This is the ONLY dedicated LATAM Spanish editorial site for Tel Aviv — confirming the gap for our ES-26 tel-aviv-neighborhoods-guide is real and the competition is minimal.
+
+**LATAM Israel editorial competition assessment (iter910 summary):**
+- Tour aggregators (Civitatis, Viator, GetYourGuide, Despegar) dominate LATAM Israel SERPs for money pages.
+- Zero LATAM Spanish editorial competitor for: tel-aviv-neighborhoods-guide, glamping-israel, israel-biblical-highway (evangelical pilgrim angle), getyourguide-vs-viator-israel (decision comparison), mitzpe-ramon-guide.
+- ES-26 phase targets all zero-competition gaps — correct prioritization confirmed.
+
+**Cruise suspension — competitive risk (honesty/freshness, P1):**
+- Our haifa-cruise-terminal-guide.md (EN + ES + FR) and israel-homeport-cruise.md (EN) present shore excursions and homeport cruising as fully active. As of March 28, 2026, Israeli ports (Haifa + Ashdod) have been bypassed industry-wide (Middle East cruise crisis; multiple cruise lines diverted). The new Haifa cruise terminal (NIS 16M, opened May 14, 2026) is ready but **ships are NOT calling**.
+- Competitors (touristisrael.com, Lonely Planet) have not updated their cruise content either — we have an opportunity to be the honest first-mover with a suspension notice box, turning the gap into a trust signal.
+- Confirmed sources: cruiseindustrynews.com, seatrade-cruise.com, cruisemapper.com (iter910 research).
+- → P1 BACKLOG item already updated with this evidence. Action: add a notice callout box to affected guides when cruise situation resolves OR add "currently suspended / check latest updates" disclaimer.
+
+**Fattal Hotels Group expansion (P3 freshness watch):**
+- Fattal Hotels Group (Dan, Leonardo, NYX, Vera brands) announced 8 new Israel hotel openings "in the next year" (TravelAge West / TravelPulse July 2026). Summer 2026 Israel tourism recovery is real (17 new hotel openings across country per myisraelstay.com). Our new-luxury-hotels-israel-2026.md (if exists) or hotel guides may need Fattal pipeline mention.
+- BGA Terminal 3 expansion ongoing — confirmed still in progress (no opening date set); current framing in airport guides is correct.
+
+**i18n gap status (iter910):** ES=130/398, FR=152/398, DE=147/398. LATAM editorial competition remains thin; tour-aggregator-only. ES-26 defined (tel-aviv-neighborhoods-guide, glamping-israel, israel-biblical-highway, getyourguide-vs-viator-israel, mitzpe-ramon-guide) — all confirmed MISSING from src/content/guides/es/ via comm -23.

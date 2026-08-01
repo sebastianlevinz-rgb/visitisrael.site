@@ -1,12 +1,12 @@
 # LOOP STATE
 
-- iteration: 909
-- lastMode: REVIEW
-- lastItem: review-909-es-phase-25-meta-link-fix
-- lastResult: SHIPPED 4999f804. Audited all 5 ES Phase 25 guides; 6 fixes across 4 files. 1689/1689 e2e pass. Gate: 0 errors; 1203 pages (no change).
-- nextRotationCategory: RESEARCH (iter910; 910%5=0 → RESEARCH mode)
+- iteration: 910
+- lastMode: RESEARCH
+- lastItem: research-910-es26-cruise-biblical-highway
+- lastResult: ES-26 defined (5 guides: tel-aviv-neighborhoods-guide, glamping-israel, israel-biblical-highway, getyourguide-vs-viator-israel, mitzpe-ramon-guide). Cruise P1 CONFIRMED: Haifa+Ashdod ports suspended since March 28 2026; new terminal open but ships not calling. Fattal Hotels P3 added. 2 new BACKLOG items. No code shipped.
+- nextRotationCategory: BUILD (iter911; 911%5=1 → BUILD mode; ES-26 highest priority)
 - higgsfieldSpent: 0
-- updatedAt: 2026-08-01T00:45Z
+- updatedAt: 2026-08-01T01:15Z
 - branch context: work on master; feature work on auto/<slug>
 
 Notes: iter909 REVIEW — review-909-es-phase-25-meta-link-fix SHIPPED 4999f804. Audited all 5 ES Phase 25 guides against: meta title ≤65, desc ≤160, /es/* cross-links exist in filesystem, no H1 in MDX body, no fabricated prices, honesty framing. 6 fixes across 4 files: jerusalem-tours-compared title 67→60 chars (removed " (2026)"); jerusalem-tours-compared desc 163→160 chars (removed "por la" → "paseos Ciudad Vieja"); israel-national-parks-pass title 68→65 chars (removed " de" from "Nacionales de Israel"); israel-national-parks-pass desc 161→160 chars (costos→costo); galilee-vs-golan-weekend desc 189→143 chars (trimmed trailing clause); masada-dead-sea-day-trip /israel-national-parks-pass→/es/israel-national-parks-pass (ES version now exists, iter908). haifa-neighborhoods-guide: CLEAN (title 65, desc 148, 2 /es/* links verified). 22 unique /es/* hrefs verified present. 0 H1 in any MDX body. 0 fabricated prices. Honesty framing ✓ (Golan political note ✓; Bahá'í active-site framing ✓). Gate: pnpm check 0 errors; pnpm build 1203 pages (no change); pnpm test:e2e 1689/1689 pass (12.1m). Prod deploy: success. Next: iter910 RESEARCH.
