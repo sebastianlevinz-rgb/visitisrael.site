@@ -1,6 +1,6 @@
 ---
-title: "Pase de Parques Nacionales de Israel: Tarjetas Azul, Verde y Naranja"
-description: "Guía del Pase de Parques Nacionales de Israel: tarjetas Azul, Verde y Naranja para turistas más el abono anual Matmon. Qué incluye, costos y dónde comprarlo."
+title: "Pase de Parques Nacionales Israel: Tarjetas Azul, Verde y Naranja"
+description: "Guía del Pase de Parques Nacionales de Israel: tarjetas Azul, Verde y Naranja para turistas más el abono anual Matmon. Qué incluye, costo y dónde comprarlo."
 heroImage: /images/regions/negev/avdat.jpg
 category: Planning
 updatedAt: 2026-07-31

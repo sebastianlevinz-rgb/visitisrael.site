@@ -1,6 +1,6 @@
 ---
-title: "Tours por Jerusalén Comparados: ¿Cuál es el Mejor Guiado? (2026)"
-description: "Tours por Jerusalén comparados: paseos por la Ciudad Vieja, tours de día completo, combo Belén, Túneles del Muro y guías privados — costo y dónde reservar."
+title: "Tours por Jerusalén Comparados: ¿Cuál es el Mejor Guiado?"
+description: "Tours por Jerusalén comparados: paseos por Ciudad Vieja, tours de día completo, combo Belén, Túneles del Muro y guías privados — costo y dónde reservar."
 heroImage: /images/regions/jerusalem/hero.jpg
 category: Tours
 verdictName: Tours por Jerusalén

@@ -102,7 +102,7 @@ Los autobuses de Egged (línea 486 o conexiones desde Beer-Sheva) llegan a la ba
 
 ## El Pase de Parques Nacionales de Israel
 
-Si tu itinerario incluye varios parques —por ejemplo, Masada, Ein Gedi, Cesárea, Beit She'an y otros— el [Pase de Parques Nacionales de Israel](/israel-national-parks-pass) puede ahorrarte dinero. El teleférico de Masada **no** está incluido en ningún pase; se paga aparte.
+Si tu itinerario incluye varios parques —por ejemplo, Masada, Ein Gedi, Cesárea, Beit She'an y otros— el [Pase de Parques Nacionales de Israel](/es/israel-national-parks-pass) puede ahorrarte dinero. El teleférico de Masada **no** está incluido en ningún pase; se paga aparte.
 
 ## Comprar entradas
 

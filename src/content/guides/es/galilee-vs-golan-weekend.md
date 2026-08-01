@@ -1,6 +1,6 @@
 ---
 title: "Galilea vs Altos del Golán: ¿Cuál Visitar en un Fin de Semana?"
-description: "Galilea o Altos del Golán para un fin de semana en el norte de Israel: compara paisajes, atractivos, bases, temporada y transporte para decidir — o planifica los dos en un solo circuito."
+description: "Galilea o Altos del Golán para un fin de semana: compara paisajes, atractivos, bases, temporada y transporte para decidir — o hacer los dos."
 heroImage: /images/regions/galilee/hero.jpg
 category: Compare
 updatedAt: 2026-07-31
