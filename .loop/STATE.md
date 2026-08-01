@@ -1,13 +1,15 @@
 # LOOP STATE
 
-- iteration: 928
-- lastMode: BUILD (i18n-DE)
-- lastItem: de-phase-15
-- lastResult: BUILD iter928. DE Phase DE-15 SHIPPED 75504d53. 5 Standard Hochdeutsch guides: guided-vs-self-guided-israel (MoT-Lizenzpflicht; Hybridmodell; Kostenvergleich-Tabelle; 7 FAQs; GYG+DiscoverCars CTAs); golan-heights-wineries (5 Weingüter Yarden/Chateau Golan/Assaf/Bazelet/Pelter; Golan-Politikhinweis US-Anerkennung 2019/nicht UN-anerkannt; Selbstfahr-Rundkurs ab Tiberias; ₪60-120 Verkostungspreisbereich; verdictName/verdictQuery; 7 FAQs; GYG+DiscoverCars+Booking CTAs); druze-villages-carmel (Daliyat el-Carmel Markt; Drusen-Pita auf Saj; Khalwat-Fotografierverbot; El-Muhraka-Kloster-Panorama; Karmel-Nationalpark; 7 FAQs; GYG+Viator+Booking CTAs); rosh-hanikra-guide (Seilbahn 2025 wiederhergestellt ₪53/₪43; INPA-Pass gilt nicht; Osmanischer Eisenbahntunnel; Schabbat-Schließung; 6 FAQs; GYG+Booking+DiscoverCars CTAs); haifa-cruise-terminal-guide (August-2026-Kreuzfahrt-Suspension-Hinweis korrekt; Terminal 5500m²; 7 FAQs; GYG+Viator+Booking CTAs). 10 new e2e tests (+5 smoke +5 a11y). Gate: pnpm check 0 errors; pnpm build 1253 pages (+5 from 1248); pnpm test:e2e 1789/1789 pass (14.1m). DE guides: 157→162/398.
-- nextRotationCategory: BUILD (iter929; 929%5=4 → REVIEW; recommend REVIEW of recent ES or FR guides)
+- iteration: 929
+- lastMode: REVIEW
+- lastItem: review-929-fr16-meta-trim
+- lastResult: REVIEW iter929. Audited FR-16 (golan-heights-guide, golan-heights-hiking-trails, druze-villages-carmel, rosh-hanikra-guide, mount-of-olives-guide) and DE-15 (guided-vs-self-guided-israel, golan-heights-wineries, druze-villages-carmel, rosh-hanikra-guide, haifa-cruise-terminal-guide). Found 5 FR-16 meta description overruns (165-191 chars vs 160 limit). Fixed: trimmed to 141-160 chars while preserving all keywords. DE-15: clean (no issues). Gate: 0 errors; 1253 pages; 1789/1789 e2e pass. SHA 4514ea88.
+- nextRotationCategory: RESEARCH (iter930; 930%5=0 → RESEARCH; recommend 180th research pass)
 - higgsfieldSpent: 0
-- updatedAt: 2026-08-01T21:15Z
+- updatedAt: 2026-08-01T22:30Z
 - branch context: work on master; feature work on auto/<slug>
+
+Notes: iter929 REVIEW — review-929-fr16-meta-trim SHIPPED 4514ea88. Systematic audit of FR-16 and DE-15 guides. FR-16: all 5 meta descriptions exceeded 160 chars (165-191 chars). Trimmed to 141-160 chars preserving all key keywords. DE-15: clean. No fabricated prices/ratings. Gate: 1789/1789 e2e pass; 0 build errors. CI in_progress at state-update time (meta-only change, extremely low CI-fail risk).
 
 Notes: iter928 BUILD — de-phase-15 SHIPPED 75504d53. 5 Standard Hochdeutsch guides: guided-vs-self-guided-israel, golan-heights-wineries, druze-villages-carmel, rosh-hanikra-guide, haifa-cruise-terminal-guide. Key facts preserved: Golan political note (US-Anerkennung 2019, nicht UN-anerkannt); khalwat Fotografierverbot; Seilbahn Rosh Hanikra 2025 wiederhergestellt (₪53/₪43), INPA-Pass gilt nicht; August-2026 Kreuzfahrt-Suspension korrekt; keine erfundenen Preise oder Bewertungen. 10 e2e tests (+5 smoke +5 a11y). DE guides: 157→162/398. Build: 1248→1253 pages (+5). 1789/1789 e2e pass.
 

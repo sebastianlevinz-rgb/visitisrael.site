@@ -1678,3 +1678,6 @@ FR guides: 162→167/398. Build: 1243→1248 pages. 1779/1779 e2e pass.
 ## iter928 · de-phase-15 · 75504d53 · 2026-08-01
 5 German guides: guided-vs-self-guided-israel (MoT-Lizenzpflicht; Hybridmodell; Kostenvergleich; 7 FAQs; GYG+DiscoverCars), golan-heights-wineries (5 Weingüter; Golan political note; Selbstfahr-Rundkurs; verdictName/verdictQuery; 7 FAQs; GYG+DiscoverCars+Booking), druze-villages-carmel (Drusen-Pita auf Saj; Khalwat-Fotografierverbot; El-Muhraka; 7 FAQs; GYG+Viator+Booking), rosh-hanikra-guide (Seilbahn 2025 ₪53/₪43; INPA nicht gültig; osmanischer Tunnel; 6 FAQs), haifa-cruise-terminal-guide (Aug-2026-Suspension-Blockquote; Terminal 5500m²; 7 FAQs; GYG+Viator+Booking).
 DE guides: 157→162/398. Build: 1248→1253 pages. 1789/1789 e2e pass.
+
+## iter929 · review-929-fr16-meta-trim · 4514ea88 · 2026-08-01
+REVIEW audit of FR-16 and DE-15 guides. 5 FR-16 meta description overruns (165-191 chars) trimmed to 141-160 chars. DE-15 clean. Gate: 0 errors; 1253 pages; 1789/1789 e2e pass.

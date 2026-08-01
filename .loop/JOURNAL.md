@@ -14028,3 +14028,27 @@ Gate: pnpm check 0 errors; pnpm build 1253 pages (+5 from 1248); pnpm test:e2e 1
 Ship: squash-merged auto/de-phase-15 to master, pushed 75504d53.
 DE guides: 157→162/398. Build pages: 1248→1253.
 Next: iter929 → REVIEW (929%5=4 → REVIEW; recommend reviewing recent ES or FR guides for meta overruns, cross-link accuracy).
+
+## 2026-08-01T22:30Z · iter 929 · REVIEW · fr-phase-16 meta description audit
+Mode: REVIEW (929%5=4). Reviewed most recently shipped content: FR-16 (iter927) and DE-15 (iter928).
+
+Checks performed:
+- H1 in MDX body: 0 violations across all 10 guides
+- Title length (≤75 chars FR/DE tolerance): all pass
+- Meta description length (≤160 chars): 5 FR-16 violations found
+- Internal link correctness (/fr/* and /de/* hrefs): all pass
+- Honesty (no fabricated prices/ratings): all pass
+- Paired-naming on contested sites: all pass
+
+FR-16 description overruns fixed:
+  golan-heights-guide: 165→142 chars (trimmed "meilleures randonnées")
+  golan-heights-hiking-trails: 168→156 chars (trimmed "et logistique")
+  druze-villages-carmel: 168→141 chars (trimmed "parc national du Carmel")
+  rosh-hanikra-guide: 171→152 chars (trimmed "restaurant HaTzuk")
+  mount-of-olives-guide: 191→160 chars (trimmed "route du Dimanche des Rameaux")
+
+DE-15: all 5 guides clean — no fixes needed.
+
+Gate: pnpm build 0 errors; 1253 pages; pnpm test:e2e 1789/1789 pass (22.8m). GREEN.
+Ship: squash-merged to master, pushed 4514ea88. CI in_progress at state-update time.
+Next: iter930 → RESEARCH (930%5=0 → RESEARCH; 180th research pass).
