@@ -13973,3 +13973,16 @@ Gate: pnpm check 0 errors; pnpm build 1238 pages (+5 from 1233); pnpm test:e2e 1
 Ship: committed directly on master as c6b16be9, pushed. CI: success (all workflow runs concluded success).
 FR guides: 157→162/398. Build pages: 1233→1238.
 Next: iter924 → REVIEW (924%5=4 → REVIEW; recommend auditing FR-15 guides: meta title ≤65, desc ≤160, /fr/* cross-links verified, no H1, honesty framing).
+
+## 2026-08-01 · iter 924 · REVIEW (FR-15 meta/link audit) · review-924-fr-phase-15-meta-link-fix
+What: Audited all 5 FR Phase FR-15 guides against: meta title ≤65, desc ≤160, /fr/* cross-links exist in filesystem, no H1 in MDX body, no fabricated prices, honesty framing.
+6 fixes across 5 files:
+  - israel-eta-guide: title 76→48 chars (removed 'pour Voyageurs Francophones'; key SEO term 'ETA-IL Israël' retained)
+  - how-to-hire-licensed-tour-guide-israel: title 68→56 (removed 'Touristique' from 'Guide Touristique Agréé'); desc 169→157 (removed 'touristique '); cross-link bug: 'Accessibilité en Israël' was pointing to /fr/first-time-in-israel → corrected to /fr/israel-accessible-travel (now exists from FR-15)
+  - haifa-neighborhoods-guide: desc 168→146 (trimmed 'avec les conseils ' + 'les hôtels' → 'hôtels')
+  - israel-accessible-travel: title 78→50 ('Tourisme Accessible en Israël : Guide pour Voyageurs en Situation de Handicap' → 'Voyage Accessible en Israël : Guide Pratique 2026'); desc 176→151 (trimmed 'astuces pratiques' → 'astuces', removed 'meilleures plages accessibles' clause)
+  - haifa-shore-excursions: title 78→59 ('Excursions de Croisière depuis Haïfa : Guide pour Passagers en Escale (2026)' → 'Excursions depuis Haïfa : Guide Croisière et Escales 2026'); desc 187→145 (removed second 'Conseils de réservation' sentence; added 'pour passagers en escale' to first sentence)
+Clean files: all 5 guides: 0 H1 in MDX body; all 11 /fr/* cross-link targets verified present; 0 fabricated prices; honesty framing ✓ (cruise suspension notice; Bahá'í active-site framing; ETA-IL portal official; tarifs as fourchettes indicatives).
+Gate: pnpm check 0 errors; pnpm build 1238 pages (no change); pnpm test:e2e 1759/1759 pass. GREEN.
+Ship: squash-merged → 5ba948b7, pushed. CI: success (Lighthouse + all workflows).
+Next: iter925 → RESEARCH (925%5=0 → RESEARCH mode).
