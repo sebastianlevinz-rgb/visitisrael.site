@@ -6,19 +6,19 @@
 >
 > One bounded slice per loop iteration. NEVER bulk-translate in one shot.
 
-## Current status snapshot (2026-08-01 iter927 BUILD — FR-16 SHIPPED; iter928 BUILD DE-15 next)
+## Current status snapshot (2026-08-01 iter930 RESEARCH — ES-30/FR-17/DE-16 DEFINED; next BUILD iter931)
 
 | Locale | Guides | Attractions | Regions | Itineraries |
 |--------|--------|-------------|---------|-------------|
 | en     | 398    | 65          | 11      | 6           |
 | fr     | 167    | 61          | 11      | 6           |
-| de     | 157    | 61          | 11      | 6           |
+| de     | 162    | 61          | 11      | 6           |
 | es     | 150    | 61          | 11      | 6           |
 
 **Gaps to close:**
-- es guides: **248 missing** (150/398 done — Phase ES-29 SHIPPED iter926 b9ec8b3a; **Phase ES-30 TBD**)
-- fr guides: **231 missing** (167/398 done — Phase FR-16 SHIPPED iter927 e6d059c1; **Phase FR-17 TBD**)
-- de guides: **236 missing** (162/398 done — Phase DE-15 SHIPPED iter928 75504d53; **Phase DE-16 TBD**)
+- es guides: **248 missing** (150/398 done — Phase ES-29 SHIPPED iter926 b9ec8b3a; **Phase ES-30 DEFINED iter930 — israel-events-festivals, galilee-culinary-institute-gonen, herzliya-guide, israel-egypt-guide, israel-esim**)
+- fr guides: **231 missing** (167/398 done — Phase FR-16 SHIPPED iter927 e6d059c1; **Phase FR-17 DEFINED iter930 — haifa-tours-compared, galilee-culinary-institute-gonen, israel-by-month, israel-egypt-guide, herzliya-guide**)
+- de guides: **236 missing** (162/398 done — Phase DE-15 SHIPPED iter928 75504d53; **Phase DE-16 DEFINED iter930 — eilat-nightlife, haifa-shore-excursions, how-to-hire-licensed-tour-guide-israel, israel-accessible-travel, galilee-culinary-institute-gonen**)
 - fr/de/es attractions: **4 missing each** (the 4 EN attractions added after Phase 4)
 
 **Dead Sea cluster status (iter855 audit):**
@@ -912,3 +912,87 @@ Research agent ranking (by DACH SEO value + affiliate conversion + editorial gap
 - haifa-cruise-terminal-guide: "Kreuzfahrtterminal Haifa: Landausflüge und Tipps für DACH-Kreuzfahrtgäste" — AIDA Cruises + TUI Cruises DACH market; May 2026 NIS 16M terminal upgrade (5,500m²; 28 Grenzschutz-Schalter); HONESTY: cruise suspension notice (March 2026 major cruise lines suspended Haifa/Ashdod calls; gradual return ongoing summer 2026 — check status before booking cruise including this one); Bahá'í Terrassenanlagen (advance registration required; active religious site — exterior/terraces only for non-Bahá'ís); verdictName/verdictQuery set; 4 Ausflug-Circuits: Bahá'í+Akko 6h / Caesarea+Atlit 5h / Nazareth+Galiläa 8h / Rosh Hanikra 7h; Port-Übersicht (Shuttles; ETA-IL Pflicht vor Einschiffung; Shabbat logistics); 3 CTAs GYG Haifa Ausflug/Viator Nordisrael-Kombi/Booking Haifa Hotel; cross-links /de/haifa-travel-guide ✓ + /de/day-trips-from-haifa ✓
 
 Quality: Standard Hochdeutsch; YAML double-quotes; /de/* prefix only for confirmed-existing DE pages; no fabricated prices (all as Richtwertspannen); Golan Heights political status note factual/neutral (same wording as DE standard "von Israel seit 1967 kontrolliert; US-Anerkennung 2019 international umstritten"); Siedlungsweingüter-Kontext brief and neutral; cruise suspension notice for haifa-cruise-terminal-guide; Bahá'í active-site framing (Außenbereiche/Terrassen only); INPA-Pass gilt NICHT für Kabinenbahn (honesty); Dolphin Reef encounters-not-guaranteed if referenced; all prices as Richtwertspannen.
+
+### Phase ES-30 (150 → 155/398) — DEFINED iter930 RESEARCH 2026-08-01
+
+Guides: `israel-events-festivals.md`, `galilee-culinary-institute-gonen.md`, `herzliya-guide.md`, `israel-egypt-guide.md`, `israel-esim.md`
+All 5 confirmed MISSING from `src/content/guides/es/` via `comm -23` (2026-08-01).
+
+Research ranking (by LATAM ES search volume + editorial gap):
+1. `israel-events-festivals.md` — LATAM travelers plan around festivals; zero ES editorial calendar guide
+2. `galilee-culinary-institute-gonen.md` — culinary tourism trending LATAM; institute open Feb 2026
+3. `herzliya-guide.md` — tech hub + coastal; LATAM tech travelers + marina/beach tourism
+4. `israel-egypt-guide.md` — "Israel y Egipto" combo very popular LATAM; pairs israel-jordan-itinerary ES ✓
+5. `israel-esim.md` — practical; "Israel eSIM turistas" high practical search volume; no ES competitor
+
+- israel-events-festivals: "Festivales y Eventos en Israel 2026: Calendario Anual" — LATAM travelers plan trips around major events; Civitatis sells event-specific tours but zero ES editorial calendar guide; content: Purim (março), Pésaj/Passover crowd impact, Día de la Independencia Jerusalem (Yom HaAtzmaut parading), Shavuot, Sukkot market/concert surge, Hanukkah (Jerusalem Old City lights), Rosh Hashaná high season pricing, Cesárea Concerts (June–Aug), Metzitzim reggae, Tel Aviv Gay Pride (June), festivals by region (Galilee wine harvest Aug–Sep, Eilat Jazz Red Sea Dec); affiliate hook: hotels fill fast around Sukkot (Booking CTA); GYG/Viator event-specific tour CTAs; cross-links /es/christmas-in-israel ✓ /es/easter-in-jerusalem ✓ /es/passover-in-israel ✓ /es/israel-cost-budget ✓
+- galilee-culinary-institute-gonen: "Instituto Culinario de Galilea en Kibbutz Gonen: Guía del Visitante" — JNF-USA culinary campus at Kibbutz Gonen; soft launch Feb 2026; academic year Oct 2026; farm-to-table restaurant + wine bar + microbrewery + cooking workshops; multicultural Jewish/Druze/Bedouin cuisine; Chef Lior Lev Sercarz (La Boîte NYC); 12-dunam working farm; NIS 100M; cross-links /es/galilee-food-guide ✓ /es/druze-villages-carmel ✓ /es/sea-of-galilee-guide ✓ /es/car-rental-israel ✓
+- herzliya-guide: "Guía de Herzliya: Marina, Playas y Hub Tecnológico de Israel" — tech hub + coastal; Intel/Google/Apple HQ area; Herzliya Marina restaurant strip; Apollonia National Park (Crusader fortress sea views); Arena Mall; International Club beach; business travel + Israeli high-tech tourism appeal; CTAs Booking/GYG; cross-links /es/tel-aviv-neighborhoods-guide ✓ /es/car-rental-israel ✓ /es/ben-gurion-airport-guide ✓
+- israel-egypt-guide: "Israel y Egipto: Itinerario Combinado 10–14 Días" — "Israel y Egipto combinado" = major LATAM search; Sinai peninsula (Dahab/Sharm) → Eilat border crossing → Jerusalem → Tel Aviv circuit; Taba border 24h except Yom Kippur/Eid; Jordan Pass + Egypt e-Visa; Petra extension option; airline hub TLV+CAI (El Al direct); honesty: Sharm safety per travel advisories (frame "check FCO/State Dept before booking"); CTAs GYG tour combo/Viator/Booking; cross-links /es/israel-jordan-itinerary ✓ /es/eilat-travel-guide ✓ /es/border-crossings ✓ /es/israel-travel-insurance ✓
+- israel-esim: "eSIM Israel 2026: Cómo Conectarte sin Gastar de Más" — practical; "Israel eSIM turistas LATAM" = high practical search; content: eSIM-compatible phones check; Cellcom/Partner/Hot Mobile plans comparison table (7-day/30-day; data quotas; roaming); Airalo/Holafly international eSIM alternatives; physical SIM at BGA arrivals hall; Dual SIM setup for Latin American phones; CTAs DiscoverCars (offline navigation) + Booking; cross-links /es/ben-gurion-airport-guide ✓ /es/transportation ✓
+
+Cross-links to verify before BUILD iteration:
+- /es/christmas-in-israel ✓, /es/easter-in-jerusalem ✓, /es/passover-in-israel ✓: all confirmed SHIPPED
+- /es/galilee-food-guide: needs verification before BUILD
+- /es/druze-villages-carmel ✓: confirmed SHIPPED (ES-17)
+- /es/sea-of-galilee-guide ✓, /es/car-rental-israel ✓, /es/ben-gurion-airport-guide ✓, /es/tel-aviv-neighborhoods-guide ✓, /es/israel-jordan-itinerary ✓, /es/eilat-travel-guide ✓, /es/border-crossings ✓: all confirmed SHIPPED
+- /es/transportation ✓: confirmed SHIPPED (ES-0)
+- /es/israel-travel-insurance ✓: confirmed SHIPPED (ES-2)
+
+Quality: neutral LATAM Spanish tuteo; YAML double-quotes; /es/* cross-links only for confirmed-existing pages; no fabricated prices; Sharm safety framing = advisory reference not a recommendation; culinary institute academic/tourist programs distinction clear; eSIM price comparison in USD ranges only (current plans vary frequently).
+
+### Phase FR-17 (167 → 172/398) — DEFINED iter930 RESEARCH 2026-08-01
+
+Guides: `haifa-tours-compared.md`, `galilee-culinary-institute-gonen.md`, `israel-by-month.md`, `israel-egypt-guide.md`, `herzliya-guide.md`
+All 5 confirmed MISSING from `src/content/guides/fr/` via `comm -23` (2026-08-01).
+
+Research ranking (by FR search volume + editorial gap):
+1. `haifa-tours-compared.md` — Haifa cluster completion; French love Bahá'í Gardens; zero FR tour comparison
+2. `galilee-culinary-institute-gonen.md` — French culinary tourists; JNF-France connections; farm-to-table resonates
+3. `israel-by-month.md` — French travelers meticulous planners; "meilleure période Israël" = high FR search
+4. `israel-egypt-guide.md` — "Israël et Égypte" combo popular for FR market (Air France CDG-CAI)
+5. `herzliya-guide.md` — large francophone expat community; Intel/Google Israel; marina + beach
+
+- haifa-tours-compared: "Tours à Haïfa : Guide Comparatif des Meilleures Excursions" — Haifa cluster completion (haifa-travel-guide + haifa-neighborhoods-guide + haifa-shore-excursions + best-hotels-haifa all in FR); verdictName/verdictQuery set; 5-format comparison table: Tour Jardins Bahá'ís guidé 40–80 USD / Haïfa + Akko demi-journée / Haïfa + Akko + Rosh Hanikra journée complète / Circuit druze Karmel / Visite auto-guidée Karmelit; Bahá'í Terrasses Supérieures = guided obligatoire + advance registration bahai.org.il; Deutsche Kolonie hook (Templer allemands 1868; colonie historique DACH); CTAs GYG/Viator; cross-links /fr/haifa-travel-guide ✓ /fr/bahai-world-center-guide ✓ /fr/day-trips-from-haifa ✓ /fr/haifa-neighborhoods-guide ✓
+- galilee-culinary-institute-gonen: "Institut Culinaire de Galilée à Kibbutz Gonen : Guide Visiteur" — French culinary tourist hook; JNF-France connections; Chef Lior Lev Sercarz (formé en France; fondateur La Boîte NYC); ouverture lancement doux fév. 2026; an académique oct. 2026; cuisine multiculturelle juive/druze/bédouine; ferme 12 dunams; bar à vins + brasserie artisanale; cross-links /fr/galilee-food-guide (verify) /fr/druze-villages-carmel ✓ /fr/sea-of-galilee-guide ✓ /fr/car-rental-israel ✓
+- israel-by-month: "Israël Mois par Mois : Meilleure Période pour Visiter" — metropolitan French; meticulous planners; content mirrors EN guide in French; month-by-month table: Jan–Feb (hivers doux; Dead Sea low season; sites sans foules); Mar–Apr (Pessah + Easter = foules + prix élevés; fleurs sauvages); May–Jun (idéal; Shavouot); Jul–Aug (chaleur extrême Eilat; côte méditerranéenne parfaite; haute saison); Sep–Oct (Rosh Hashaná + Souccot = impact tarifs); Nov–Dec (Hanoukka; pluies Galilée; parfait Dead Sea); regional climate differences (Eilat vs. côte vs. Galilée vs. Désert Néguev); cross-links /fr/is-israel-safe ✓ /fr/israel-cost-budget ✓ /fr/israel-travel-tips ✓ /fr/best-time-to-visit-israel ✓
+- israel-egypt-guide: "Israël et Égypte : Itinéraire Combiné 10–14 Jours" — "Israël Égypte" combo growing with FR market; Air France CDG-CAI; Sinai (Dahab/Sharm)/Eilat/Taba crossing/Jerusalem/Tel Aviv circuit; Jordan Pass + Egypt e-Visa; Petra extension; Sharm safety = reference aux conseils officiels (MEAE.fr) not recommendation; cross-links /fr/israel-jordan-itinerary ✓ /fr/eilat-travel-guide ✓ /fr/border-crossings ✓ /fr/israel-travel-insurance ✓
+- herzliya-guide: "Guide de Herzliya : Marina, Plages et Hub Technologique d'Israël" — large francophone expat community (Intel/Google/Microsoft Israel offices); Herzliya marina restaurants; Apollonia Crusader ruins; International Club beach; ENSIT French-Israeli high school angle; business travel + beach tourism; CTAs Booking/GYG; cross-links /fr/tel-aviv-neighborhoods-guide ✓ /fr/car-rental-israel ✓ /fr/ben-gurion-airport-guide ✓
+
+Cross-links to verify before BUILD:
+- /fr/haifa-travel-guide ✓, /fr/bahai-world-center-guide ✓, /fr/day-trips-from-haifa ✓, /fr/haifa-neighborhoods-guide ✓: all confirmed SHIPPED
+- /fr/galilee-food-guide: needs verification
+- /fr/druze-villages-carmel ✓: confirmed SHIPPED (FR-16)
+- /fr/sea-of-galilee-guide ✓, /fr/car-rental-israel ✓, /fr/is-israel-safe ✓, /fr/israel-cost-budget ✓, /fr/israel-travel-tips ✓, /fr/best-time-to-visit-israel ✓: all confirmed SHIPPED
+- /fr/israel-jordan-itinerary ✓, /fr/eilat-travel-guide ✓, /fr/border-crossings ✓, /fr/israel-travel-insurance ✓: all confirmed SHIPPED
+- /fr/tel-aviv-neighborhoods-guide ✓, /fr/ben-gurion-airport-guide ✓: confirm before BUILD
+
+Quality: metropolitan French; YAML double-quotes; /fr/* cross-links only confirmed-existing; no fabricated prices; Sharm safety = reference officielle seulement; culinary institute academic vs. visitor programs distinction; paired-naming on contested sites.
+
+### Phase DE-16 (162 → 167/398) — DEFINED iter930 RESEARCH 2026-08-01
+
+Guides: `eilat-nightlife.md`, `haifa-shore-excursions.md`, `how-to-hire-licensed-tour-guide-israel.md`, `israel-accessible-travel.md`, `galilee-culinary-institute-gonen.md`
+All 5 confirmed MISSING from `src/content/guides/de/` via `comm -23` (2026-08-01).
+
+Research ranking (by DACH search volume + editorial gap + affiliate value):
+1. `eilat-nightlife.md` — completes DE Eilat cluster; Condor/TUI direct flights; seasonal winter-sun tourism
+2. `haifa-shore-excursions.md` — completes DE Haifa cruise cluster (haifa-cruise-terminal-guide DE-15); cruise suspension notice required
+3. `how-to-hire-licensed-tour-guide-israel.md` — DACH travelers prefer structured guides; MOT licensing
+4. `israel-accessible-travel.md` — Germany = strong Reisen-ohne-Barrieren market; Israel accessibility high
+5. `galilee-culinary-institute-gonen.md` — DACH culinary tourism; JNF-DACH; open Feb 2026
+
+- eilat-nightlife: "Eilat Nachtleben: Clubs, Bars und Abendunterhaltung am Roten Meer" — completes DE Eilat cluster (eilat-travel-guide + eilat-diving-snorkeling + eilat-tours-compared + eilat-hotels-guide + dead-sea-vs-eilat all in DE); Condor/TUI direct flights Nov–Apr (DACH winter-sun package tourists); content: Haoman 17 Eilat (biggest club; international DJs); Shelter (rock/alternative); yacht-party options Marina; lounge bars North Beach promenade; Red Sea Jazz Festival (December); late night timetable (Israeli scene starts 01:00); alcohol + kashrut note (most Eilat bars not kosher); safety context 2026; dress codes; transportation (no public transit after midnight; Bolt/Gett taxis); cross-links /de/eilat-travel-guide ✓ /de/eilat-diving-snorkeling ✓ /de/eilat-tours-compared ✓ /de/eilat-hotels-guide ✓
+- haifa-shore-excursions: "Landausflüge ab Haifa: Die besten Kreuzfahrtausflüge in Nordisrael" — AIDA Cruises + TUI Cruises + Costa DACH market; HONESTY: cruise suspension notice (March 2026 major cruise lines suspended Haifa/Ashdod calls; gradual return ongoing summer 2026 — check status before booking cruise including this one); content mirrors DE haifa-cruise-terminal-guide and the existing EN haifa-shore-excursions.md; 4 circuit options: Bahá'í + Akko 6h / Caesarea + Atlit 5h / Nazareth + Galilée 8h / Rosh Hanikra 7h; comparison table (Bahá'í advance booking; Crusader sea fortresses; BGA journey 40min); verdictName/verdictQuery; CTAs GYG Nordisrael-Tagesausflug/Viator Kreuzfahrtpaket/Booking Haifa Hotel; cross-links /de/haifa-travel-guide ✓ /de/haifa-cruise-terminal-guide ✓ /de/day-trips-from-haifa ✓
+- how-to-hire-licensed-tour-guide-israel: "Lizenzierte Reiseleiter in Israel finden: Der DACH-Ratgeber" — DACH independent travelers often prefer structured guides for quality + language assurance; MOT licensing mandatory for official guides (Israel guides-israel.co.il); cost table (Privatführer ₪600-900/Tag guide-only / ₪1,200-1,800 guide+Fahrer / ₪1,600-2,400 Minibus); German-speaking guide availability (Jerusalem, TLV, Galilee circuits); where to book (tourism.gov.il certified list / IATOA / hotel concierge / GYG private option); freelance vs. agency comparison; pilgrimage guide specialists (Christian + Jewish heritage licensed routes require licensed guide for Kotel-Tunnel / Beit Guvrin / Masada); cross-links /de/best-tours-in-israel ✓ /de/galilee-tours-compared ✓ /de/car-rental-israel ✓
+- israel-accessible-travel: "Barrierefreies Reisen in Israel: Ein Ratgeber für DACH-Reisende" — Germany = strong Reisen-ohne-Barrieren segment (barrierefrei-reisen.com, Reisen für Alle brand); Israel accessibility is high relative to region: BGA T3 wheelchair routes + accessible transfers; Western Wall wheelchair platform; Dead Sea Ein Bokek accessible resort strip + mobile beach wheelchair rentals; Tel Aviv board promenade; Haifa Carmelit accessible cabins; accessible kibbutz guest accommodation; IDF-veteran accessible tourism (different from civilian; note distinction honestly); GovMap accessibility layer; CTAs GYG accessible tour / Booking accessible hotels; cross-links /de/ben-gurion-airport-guide ✓ /de/dead-sea-guide ✓ /de/haifa-travel-guide ✓ /de/western-wall-guide ✓
+- galilee-culinary-institute-gonen: "Kulinarisches Institut Galiläa in Kibbutz Gonen: Besuchsführer" — DACH culinary tourism (Kulinarische Reisen is a strong DE tourism segment); JNF-DACH connections (KKL Deutschland); Chef Lior Lev Sercarz (in Frankreich ausgebildet); soft launch Feb 2026; Studienjahr ab Okt 2026; multicultural Drusen/Beduinen/jüdische Küche; Gonen-Kibbutz Unterkunft; Weinbar + Mikrobrauerei; cross-links /de/galilee-food-guide (verify) /de/druze-villages-carmel ✓ /de/sea-of-galilee-guide ✓ /de/car-rental-israel ✓
+
+Cross-links to verify before BUILD:
+- /de/eilat-travel-guide ✓, /de/eilat-diving-snorkeling ✓, /de/eilat-tours-compared ✓, /de/eilat-hotels-guide ✓: all confirmed SHIPPED
+- /de/haifa-travel-guide ✓, /de/haifa-cruise-terminal-guide ✓, /de/day-trips-from-haifa ✓: all confirmed SHIPPED
+- /de/best-tours-in-israel ✓, /de/galilee-tours-compared ✓, /de/car-rental-israel ✓: all confirmed SHIPPED
+- /de/ben-gurion-airport-guide ✓, /de/dead-sea-guide ✓, /de/western-wall-guide ✓: all confirmed SHIPPED
+- /de/galilee-food-guide: needs verification before BUILD
+- /de/druze-villages-carmel ✓: confirmed SHIPPED (DE-15)
+
+Quality: Standard Hochdeutsch; YAML double-quotes; /de/* cross-links only confirmed-existing; no fabricated prices (Richtwertspannen); cruise suspension notice in haifa-shore-excursions (consistent with DE-15 haifa-cruise-terminal-guide); Bahá'í active-site framing; INPA-Pass gilt NICHT note where applicable; Golan political note if any Golan content referenced.

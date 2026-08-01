@@ -7079,3 +7079,35 @@ Sources: itn.co.il, gordoniahotels.com, jpost.com, hotel-online.com, virtuoso.co
 - Tel Aviv Pride 2026: Confirmed June 7–13, parade June 12. lgbtq-travel-israel.md EN content is current.
 
 **EN saturation (iter920):** ~97%+ (184th research pass). No new EN structural gaps beyond tool opportunities and eilat-vs-sharm-el-sheikh. Focus remains on ES (258 missing), FR (241 missing), DE (246 missing) i18n catch-up.
+
+### 2026-08-01 · iter 930 · RESEARCH — 186th pass · ES-30/FR-17/DE-16 definitions + freshness scan
+
+Sources: civitatis.com, routard.com, urlaubsguru.de, sonnenklar.tv, travelandtourworld.com, touristisrael.com, jns.org/galileeculinaryinstitute, ynetnews.com, israelhayom.com, tripadvisor.com, weather2travel.com, globalhighlights.com, responsibletravel.com, tourradar.com.
+
+**ES market competitive landscape (iter930):**
+- Civitatis Israel: top products = 5-day circuit Tel Aviv → Jerusalem → Bethlehem → Dead Sea → Galilee; guided Jerusalem tour; Bethlehem from Jerusalem. No editorial ES calendar/events guide — zero competition on israel-events-festivals in Spanish.
+- Greca.co / CompassTravelIsrael: tour-aggregator only. Zero dedicated editorial ES guide pages for Galilee Culinary Institute, Herzliya, or Israel+Egypt combined itinerary.
+- Zero ES editorial competitors for: israel-events-festivals, galilee-culinary-institute-gonen, herzliya-guide, israel-egypt-guide, israel-esim. Strong editorial vacuum confirmed.
+
+**FR market competitive landscape (iter930):**
+- Routard.com: thin stubs for Eilat/Haïfa/Jérusalem (no Haifa tour comparison, no month-by-month guide body, no Galilee Culinary Institute). Advisory note: French Ministry of Foreign Affairs advises against non-essential travel (March 2026 state of emergency advisory — this cuts both ways: demand is lower but editorial guide value is higher for those who do travel).
+- Petit Futé: stub-level listings only, no editorial depth guides.
+- Zero FR editorial competitors for: haifa-tours-compared, galilee-culinary-institute-gonen, israel-by-month (month-by-month depth), israel-egypt-guide, herzliya-guide. Editorial gap confirmed.
+
+**DE market competitive landscape (iter930):**
+- Sonnenklar.tv / TUI / urlaubsguru.de: package-vacation aggregators (Eilat, Tel Aviv). No editorial DE guide for Eilat nightlife, accessible travel, or licensed-tour-guide hiring. 
+- Viel-unterwegs.de / eberhardt-travel.de: group-tour focused, not editorial. No DE guide on accessible Israel travel.
+- urlaubsguru.de: "Beste Reisezeit Israel" seasonal overview (table only; no month-by-month editorial narrative with holiday impact). We will out-depth them with the FR version; DE month-by-month content will also be needed once FR is shipped.
+- Zero DE editorial competitors for: eilat-nightlife, haifa-shore-excursions (editorial depth), how-to-hire-licensed-tour-guide-israel, israel-accessible-travel, galilee-culinary-institute-gonen.
+
+**Freshness findings (iter930):**
+- Galilee Culinary Institute: CONFIRMED soft launch Feb 2026; academic year Oct 2026. EN guide galilee-culinary-institute-gonen.md already current (updatedAt 2026-07-28; description "fully open to visitors"). No EN code change needed. All 3 locales missing → priority for ES-30/FR-17/DE-16.
+- Almog Beach Eilat: CONFIRMED city-designated beach with improved infrastructure (lifeguard post, accessibility ramp, changing facilities). eilat-beach-guide.md EN already current (describes "Eilat's first officially designated city beach" + 2025/2026 investment). No freshness update needed.
+- Kassland Resort Ma'ale Adumim: CONFIRMED OPEN May 2026 (220 rooms; Kass Splash = claimed largest indoor water park Middle East; Atlantis Spa 4,500m²; bowling; Magic Kass indoor amusement park; shooting range; ₪220M investment). Sources: israelhayom.com, ynetnews.com/travel. Remains HUMAN REVIEW REQUIRED — Ma'ale Adumim is an Israeli settlement in the occupied West Bank (ynetnews.com itself describes it as "the West Bank's newest resort"). Editorial decision on coverage + framing required before any code change.
+- Isrotel Princess Eilat: Airport City 1B NIS plan = 5 new luxury hotels + Princess Hotel "return" confirmed as future development (no specific opening date). Our eilat-hotels-guide.md (iter857 fix) correctly frames as "closed, future revival planned." Agoda/Trip.com listings are stale pre-closing data. No code change needed.
+- Eilat luxury revival (Airport City NIS 1B): 5 new luxury hotels + Princess Hotel revival confirmed as future announcement (2026–2027+ horizon). Hotels already in BACKLOG (P3 freshness items). No immediate honesty issue in current guides.
+
+**Israel tourism macro (iter930):**
+- US/Canada June 2026 arrivals +73% YoY (confirmed); French Ministry of Foreign Affairs advisory (state of emergency March 2026, non-essential travel advised against) = subdued FR tourism market but editorial gap opportunity.
+- Javier Milei 2026 state visit to Israel (confirmed per Wikipedia) = short-term tailwind for Argentine/"Israel viaje" queries.
+- Israel + Egypt combined itinerary demand: strong across LATAM (Sinai/Eilat circuit) and FR (Air France CDG-CAI routes). Our israel-egypt-guide.md in EN exists; ES/FR translations added to ES-30/FR-17.

@@ -14052,3 +14052,25 @@ DE-15: all 5 guides clean — no fixes needed.
 Gate: pnpm build 0 errors; 1253 pages; pnpm test:e2e 1789/1789 pass (22.8m). GREEN.
 Ship: squash-merged to master, pushed 4514ea88. CI in_progress at state-update time.
 Next: iter930 → RESEARCH (930%5=0 → RESEARCH; 180th research pass).
+
+## 2026-08-01T23:30Z · iter 930 · RESEARCH · research-930-es30-fr17-de16-definitions
+Mode: RESEARCH (930%5=0 → 186th research pass).
+
+Sources consulted: civitatis.com (Israel tour products + ES/EN editorial gaps), routard.com (FR stubs + travel advisory), urlaubsguru.de/sonnenklar.tv (DACH aggregator landscape), travelandtourworld.com + touristisrael.com (2026 tourism news), jns.org/galileeculinaryinstitute.com (GCI opening date), ynetnews.com/israelhayom.com (Kassland opening), tripadvisor.com (water parks), weather2travel.com/globalhighlights.com/tourradar.com (seasonal + combined itinerary).
+
+Key research findings:
+1. Galilee Culinary Institute: CONFIRMED soft launch Feb 2026; academic year Oct 2026. EN guide already current. Zero editorial competition in ES/FR/DE — added to all 3 next batches.
+2. Almog Beach Eilat: city-designated beach expansion confirmed. eilat-beach-guide.md EN already up to date. No code change needed.
+3. Kassland Resort: CONFIRMED OPEN May 2026 (220 rooms, water park, spa). Still HUMAN REVIEW REQUIRED — Ma'ale Adumim is a West Bank settlement. No code change.
+4. Isrotel Princess: still closed; Airport City 1B NIS future revival plan (no date). Our iter857 guide framing already correct.
+5. Editorial gap confirmed in all 3 locales for 15 identified guides — zero competitor editorial content found for any of the 15 proposed batch guides.
+
+Batches defined (all guides confirmed MISSING via comm -23):
+- ES-30: israel-events-festivals, galilee-culinary-institute-gonen, herzliya-guide, israel-egypt-guide, israel-esim
+- FR-17: haifa-tours-compared, galilee-culinary-institute-gonen, israel-by-month, israel-egypt-guide, herzliya-guide
+- DE-16: eilat-nightlife, haifa-shore-excursions, how-to-hire-licensed-tour-guide-israel, israel-accessible-travel, galilee-culinary-institute-gonen
+
+BACKLOG updated: ES-29/FR-16 marked shipped; ES-30/FR-17/DE-16 added as [P1] ready. I18N-PLAN.md updated with full phase definitions including content sketches and cross-link verifications.
+Gate: n/a (research only — no code changes, no gate run).
+Ship: no feature commit; .loop/ memory files only. State commit to follow.
+Next: iter931 → BUILD (931%5=1 → BUILD; ES-30 by rotation — ES has largest gap 248 missing).

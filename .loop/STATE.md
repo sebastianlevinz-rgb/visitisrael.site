@@ -1,13 +1,15 @@
 # LOOP STATE
 
-- iteration: 929
-- lastMode: REVIEW
-- lastItem: review-929-fr16-meta-trim
-- lastResult: REVIEW iter929. Audited FR-16 (golan-heights-guide, golan-heights-hiking-trails, druze-villages-carmel, rosh-hanikra-guide, mount-of-olives-guide) and DE-15 (guided-vs-self-guided-israel, golan-heights-wineries, druze-villages-carmel, rosh-hanikra-guide, haifa-cruise-terminal-guide). Found 5 FR-16 meta description overruns (165-191 chars vs 160 limit). Fixed: trimmed to 141-160 chars while preserving all keywords. DE-15: clean (no issues). Gate: 0 errors; 1253 pages; 1789/1789 e2e pass. SHA 4514ea88.
-- nextRotationCategory: RESEARCH (iter930; 930%5=0 → RESEARCH; recommend 180th research pass)
+- iteration: 930
+- lastMode: RESEARCH
+- lastItem: research-930-es30-fr17-de16-definitions
+- lastResult: RESEARCH iter930 (186th research pass). Sources: civitatis.com, routard.com, urlaubsguru.de, sonnenklar.tv, travelandtourworld.com, touristisrael.com, jns.org, ynetnews.com, israelhayom.com, tripadvisor.com. Defined ES-30 (israel-events-festivals, galilee-culinary-institute-gonen, herzliya-guide, israel-egypt-guide, israel-esim), FR-17 (haifa-tours-compared, galilee-culinary-institute-gonen, israel-by-month, israel-egypt-guide, herzliya-guide), DE-16 (eilat-nightlife, haifa-shore-excursions, how-to-hire-licensed-tour-guide-israel, israel-accessible-travel, galilee-culinary-institute-gonen). All guides confirmed MISSING via comm -23. Key freshness checks: EN galilee-culinary-institute-gonen already current (open Feb 2026); eilat-beach-guide.md already covers Almog Beach city-designation; Kassland HUMAN REVIEW status unchanged (confirmed open but Ma'ale Adumim settlement = editorial decision required); Isrotel Princess still closed (future Airport City revival planned). Zero editorial ES/FR/DE competitors on any of the 15 new batch guides. No code changes — research only.
+- nextRotationCategory: BUILD (iter931; 931%5=1 → BUILD; recommend ES-30 by rotation — ES has largest gap 248 missing)
 - higgsfieldSpent: 0
-- updatedAt: 2026-08-01T22:30Z
+- updatedAt: 2026-08-01T23:30Z
 - branch context: work on master; feature work on auto/<slug>
+
+Notes: iter930 RESEARCH — research-930-es30-fr17-de16-definitions. 186th research pass. Defined next 3 i18n batches (ES-30 / FR-17 / DE-16). 15 guides confirmed MISSING across 3 locales. Key theme: galilee-culinary-institute-gonen appears in ALL 3 batches (open Feb 2026; zero editorial competitor in any locale). Freshness: EN guides already current for Galilee Culinary Institute and Almog Beach. Kassland HUMAN REVIEW unchanged. No code changes — research + I18N-PLAN + BACKLOG + COMPETITORS updates only.
 
 Notes: iter929 REVIEW — review-929-fr16-meta-trim SHIPPED 4514ea88. Systematic audit of FR-16 and DE-15 guides. FR-16: all 5 meta descriptions exceeded 160 chars (165-191 chars). Trimmed to 141-160 chars preserving all key keywords. DE-15: clean. No fabricated prices/ratings. Gate: 1789/1789 e2e pass; 0 build errors. CI in_progress at state-update time (meta-only change, extremely low CI-fail risk).
 
@@ -23,4 +25,4 @@ Notes: iter921 BUILD — es-phase-28 SHIPPED 6681a508. ES guides: 140→145/398.
 
 Cron b7325b16 hourly @ :17. Loop history: 19 tools + sitemap-lastmod + link-checker(+depth) + i18n
 Phase0/1a/1b/1c/2 Batches1-18(COMPLETE) + 48 review passes + 4 technical (event-schema + meta-trim + locale-links + freshness-688) + 81 EN guides + 7 tools-monetization + 2 comparisons;
-research iters 5/10/20/30/35/40/45/50/55/60/65/70/75/80/85/90/95/100/105/110/115/120/125/130/135/140/145/150/155/160/165/170/175/180/185/190/195/200/205/210/215/220/225/230/235/240/245/250/255/260/265/270/275/280/285/290/295/300/305/310/315/320/325/330/335/340/345/350/355/360/365/370/375/380/385/390/395/400/405/410/420/425/430/435/440/445/450/455/460/465/470/480/485/490/495/500/505/510/515/520/525/535/540/545/550/555/560/565/570/575/580/585/590/595/600/605/610/615/620/625/630/635/640/645/650/655/660/665/670/675/680/685/690/695/700/705/710/715/720/725/730/735/740/745/750/755/760/765/775/785/790/810/815/820/825/835/840/845/850/859/864/865/870/875/880/885/890/895/900/905/910/915/920/925.
+research iters 5/10/20/30/35/40/45/50/55/60/65/70/75/80/85/90/95/100/105/110/115/120/125/130/135/140/145/150/155/160/165/170/175/180/185/190/195/200/205/210/215/220/225/230/235/240/245/250/255/260/265/270/275/280/285/290/295/300/305/310/315/320/325/330/335/340/345/350/355/360/365/370/375/380/385/390/395/400/405/410/420/425/430/435/440/445/450/455/460/465/470/480/485/490/495/500/505/510/515/520/525/535/540/545/550/555/560/565/570/575/580/585/590/595/600/605/610/615/620/625/630/635/640/645/650/655/660/665/670/675/680/685/690/695/700/705/710/715/720/725/730/735/740/745/750/755/760/765/775/785/790/810/815/820/825/835/840/845/850/859/864/865/870/875/880/885/890/895/900/905/910/915/920/925/930.
