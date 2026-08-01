@@ -653,6 +653,11 @@ const ROUTES = [
   '/es/israel-national-parks-pass',
   '/es/galilee-vs-golan-weekend',
   '/es/haifa-neighborhoods-guide',
+  '/es/tel-aviv-neighborhoods-guide',
+  '/es/glamping-israel',
+  '/es/israel-biblical-highway',
+  '/es/getyourguide-vs-viator-israel',
+  '/es/mitzpe-ramon-guide',
 ];
 
 for (const route of ROUTES) {
