@@ -13818,3 +13818,9 @@ Gate: pnpm check 0 errors; pnpm build 1208 pages (no change); pnpm test:e2e 1699
 Ship: squash-merged auto/review-912-es-phase-26-meta-link-fix to master 46414abf, pushed origin master. CI in_progress at push.
 ES guides: 135/398 (no change — REVIEW, no new pages).
 Next: iter 913 → BUILD (913%5=3 → BUILD mode; implement FR-14: 5 French guides as defined in I18N-PLAN.md).
+
+## 2026-08-01 · iter 913 · BUILD (i18n-FR) · fr-phase-14
+What: 5 French guides (FR Phase 14) — haifa-food-guide, golan-heights-wineries, hotels-near-ben-gurion-airport, galilee-vs-golan-weekend, glamping-israel. Metropolitan French; factual/neutral Golan political status in all 3 guides that mention it; ₪ price ranges only (no fabricated figures); Bahá'í active-site framing in haifa-food-guide; all cross-links verified (/fr/* prefix only for confirmed-existing FR pages; EN fallbacks for /golan-heights-guide and /galilee-travel-guide which have no FR version). 10 new e2e tests (5 smoke + 5 a11y).
+Gate: pnpm check 0 errors; build 1213 pages (+5); 1709/1709 e2e pass.
+Ship: committed directly on master d949691f (branch auto/fr-phase-14 had no commits; files were in working tree).
+FR guides: 152→157/398.

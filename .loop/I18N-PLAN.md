@@ -6,18 +6,18 @@
 >
 > One bounded slice per loop iteration. NEVER bulk-translate in one shot.
 
-## Current status snapshot (2026-08-01 iter910 RESEARCH — ES-26 defined; iter911 BUILD next)
+## Current status snapshot (2026-08-01 iter913 BUILD — FR-14 SHIPPED; iter914 REVIEW next)
 
 | Locale | Guides | Attractions | Regions | Itineraries |
 |--------|--------|-------------|---------|-------------|
 | en     | 398    | 65          | 11      | 6           |
-| fr     | 152    | 61          | 11      | 6           |
+| fr     | 157    | 61          | 11      | 6           |
 | de     | 147    | 61          | 11      | 6           |
-| es     | 130    | 61          | 11      | 6           |
+| es     | 135    | 61          | 11      | 6           |
 
 **Gaps to close:**
-- es guides: **268 missing** (130/398 done — Phase ES-25 SHIPPED iter908 d3df76f; **Phase ES-26 defined iter910**)
-- fr guides: **246 missing** (152/398 done — Phase FR-13 SHIPPED iter907 36b05ce9; **Phase FR-14 defined iter900; Phase FR-15 defined iter905**)
+- es guides: **263 missing** (135/398 done — Phase ES-26 SHIPPED iter911 65e3f5c9; **Phase ES-27 TBD**)
+- fr guides: **241 missing** (157/398 done — Phase FR-14 SHIPPED iter913 d949691f; **Phase FR-15 defined iter905**)
 - de guides: **251 missing** (147/398 done — Phase DE-12 SHIPPED iter903 8193efe9; **Phase DE-13 defined iter900; Phase DE-14 defined iter905**)
 - fr/de/es attractions: **4 missing each** (the 4 EN attractions added after Phase 4)
 
@@ -694,9 +694,8 @@ All 5 confirmed MISSING from `src/content/guides/de/` via `comm -23` (2026-07-31
 - hotels-near-ben-gurion-airport: "Hotels in der Nähe des Flughafens Ben Gurion (TLV)" — high booking intent; DACH travelers with late arrivals / early departures / Frankfurt/Zurich/Vienna red-eyes common; TRYP by Wyndham on-site; Lod/Modi'in/Petah Tikva options; Tel Aviv 45min; comparison table; pairs with /de/ben-gurion-airport-guide (confirmed existing); Booking affiliate CTAs
 Quality: Standard Hochdeutsch; YAML double-quotes; /de/* prefix only for confirmed existing DE pages; no fabricated prices; Golan Heights political context note (factual/neutral); Coral Beach reef condition honest; 0,05% BAK-Grenze wine trail; German Wanderkultur angle for hiking guide.
 
-### Phase FR-14 (152 → 157/398) — DEFINED iter900
+### Phase FR-14 (152 → 157/398) — SHIPPED iter913 d949691f
 
-Target: after FR-13 ships (FR-13 = eilat-vs-aqaba, guided-vs-self-guided-israel, haifa-cruise-terminal-guide, jordan-pass-guide, eilat-nightlife).
 Guides: `haifa-food-guide.md`, `golan-heights-wineries.md`, `hotels-near-ben-gurion-airport.md`, `galilee-vs-golan-weekend.md`, `glamping-israel.md`
 All 5 confirmed MISSING from `src/content/guides/fr/` via `comm -23` (2026-07-31, iter900).
 - haifa-food-guide: "Gastronomie à Haïfa : marchés, cuisine arabe-juive et bières artisanales" — completes FR Haifa cluster (haifa-travel-guide confirmed existing in FR); French food-culture audience appreciates market coverage (Wadi Nisnas marché Arab-Juif; Shuk Talpiot); Druze village Daliyat al-Carmel labneh + laffa 30min de Haïfa; Colonie Allemande café strip; Said Hummus iconique; port restaurant strip + bière artisanale (Shapiro/Six Points sourcing); pairs with /fr/haifa-travel-guide (confirmed existing); Booking Haïfa + GYG food tour CTAs
