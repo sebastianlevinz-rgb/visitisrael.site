@@ -1,6 +1,6 @@
 ---
-title: "Engager un Guide Touristique Agréé en Israël : Guide Complet 2026"
-description: "Comment recruter un guide touristique agréé par le ministère du Tourisme en Israël : licence, tarifs ₪ par jour, sites où c'est obligatoire et questions à poser."
+title: "Engager un Guide Agréé en Israël : Guide Complet 2026"
+description: "Comment recruter un guide agréé par le ministère du Tourisme en Israël : licence, tarifs ₪ par jour, sites où c'est obligatoire et questions à poser."
 heroImage: /images/regions/jerusalem/hero.jpg
 category: Tours
 updatedAt: 2026-08-01
@@ -110,4 +110,4 @@ Si vous voyagez avec un voyagiste francophone — Nouvelles Frontières, Kuoni, 
 ## Ressources complémentaires
 
 - Guide [Meilleurs circuits en Israël](/fr/best-tours-in-israel) — comparatif circuits organisés vs. guide privé
-- Guide [Accessibilité en Israël](/fr/first-time-in-israel) pour les premiers voyages
+- Guide [Tourisme accessible en Israël](/fr/israel-accessible-travel) pour les voyageurs à mobilité réduite

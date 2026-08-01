@@ -1,6 +1,6 @@
 ---
-title: "Excursions de Croisière depuis Haïfa : Guide pour Passagers en Escale (2026)"
-description: "Meilleures excursions depuis le port de croisière de Haïfa : Jardins Bahá'ís, Akko, Césarée, Nazareth et Galilée. Conseils de réservation et horaires pour passagers de croisière."
+title: "Excursions depuis Haïfa : Guide Croisière et Escales 2026"
+description: "Meilleures excursions depuis le port de croisière de Haïfa : Jardins Bahá'ís, Akko, Césarée, Nazareth et Galilée pour passagers en escale."
 heroImage: /images/regions/haifa/bahai-gardens.jpg
 category: Tours
 updatedAt: 2026-08-01

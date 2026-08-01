@@ -1,6 +1,6 @@
 ---
-title: "Tourisme Accessible en Israël : Guide pour Voyageurs en Situation de Handicap"
-description: "Planifier un voyage accessible en Israël : sites adaptés aux fauteuils roulants, transport adapté, astuces pour Jérusalem et Tel Aviv, et les meilleures plages accessibles."
+title: "Voyage Accessible en Israël : Guide Pratique 2026"
+description: "Planifier un voyage accessible en Israël : sites adaptés aux fauteuils roulants, transport adapté et astuces pour Jérusalem, Tel Aviv et Ein Bokek."
 heroImage: /images/regions/dead-sea/ein-bokek.jpg
 category: Planning
 updatedAt: 2026-08-01

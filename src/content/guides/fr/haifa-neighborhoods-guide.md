@@ -1,6 +1,6 @@
 ---
 title: "Quartiers de Haïfa : Où Séjourner et Quoi Explorer (2026)"
-description: "Choisir son quartier à Haïfa : Colonie Allemande, Wadi Nisnas, Hadar, Merkaz HaCarmel, Bat Galim et le port — avec les conseils Carmelit et les hôtels par secteur."
+description: "Choisir son quartier à Haïfa : Colonie Allemande, Wadi Nisnas, Hadar, Merkaz HaCarmel, Bat Galim et le port — Carmelit et hôtels par secteur."
 heroImage: /images/regions/haifa/german-colony.jpg
 category: Destinations
 updatedAt: 2026-08-01

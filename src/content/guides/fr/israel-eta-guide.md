@@ -1,5 +1,5 @@
 ---
-title: "Autorisation ETA-IL Israël 2026 : Guide Complet pour Voyageurs Francophones"
+title: "Autorisation ETA-IL Israël : Guide Complet 2026"
 description: "Demander l'ETA-IL avant votre vol en Israël : qui est concerné, portail officiel, coût ₪25, délai 72h et éviter les sites frauduleux."
 heroImage: /images/regions/tel-aviv/hero.jpg
 category: Planning
