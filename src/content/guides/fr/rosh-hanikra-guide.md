@@ -1,6 +1,6 @@
 ---
 title: "Rosh Hanikra : Guide Complet des Grottes Marines (2026)"
-description: "Guide de Rosh Hanikra : grottes marines de craie blanche, belvédère sur la frontière libanaise, tunnel ferroviaire ottoman, restaurant HaTzuk. Téléphérique rouvert (2025)."
+description: "Guide de Rosh Hanikra : grottes marines de craie blanche, belvédère sur la frontière libanaise, tunnel ferroviaire ottoman. Téléphérique rouvert (2025)."
 heroImage: /images/regions/akko/hero.jpg
 category: Nature
 updatedAt: 2026-08-01

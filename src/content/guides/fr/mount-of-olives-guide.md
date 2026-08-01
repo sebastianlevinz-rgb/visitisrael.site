@@ -1,6 +1,6 @@
 ---
 title: "Mont des Oliviers Jérusalem : Guide Complet du Visiteur (2026)"
-description: "Guide du mont des Oliviers : panorama des Sept Arches, Jardin de Gethsémani, Église de Toutes les Nations, Dominus Flevit, cimetière juif, route du Dimanche des Rameaux et conseils pratiques."
+description: "Guide du mont des Oliviers : panorama des Sept Arches, Jardin de Gethsémani, Église de Toutes les Nations, Dominus Flevit et cimetière juif. Conseils pratiques."
 heroImage: /images/sub-destinations/jerusalem/mount-of-olives.jpg
 category: Sites sacrés
 updatedAt: 2026-08-01

@@ -1,6 +1,6 @@
 ---
 title: "Randonnées dans les Hauteurs du Golan : Yehudiya, Meshushim et plus (2026)"
-description: "Meilleurs sentiers de randonnée du Golan — boucle Yehudiya, piscine d'Hexagones, Gamla et section israélienne du Sentier national : distances, difficulté et logistique."
+description: "Meilleurs sentiers de randonnée du Golan — boucle Yehudiya, piscine d'Hexagones, Gamla et section israélienne du Sentier national : distances et difficulté."
 heroImage: /images/regions/golan/hero.jpg
 category: Nature et Randonnée
 updatedAt: 2026-08-01

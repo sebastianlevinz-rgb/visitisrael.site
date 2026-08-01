@@ -1,6 +1,6 @@
 ---
 title: "Villages druzes du mont Carmel : Guide de Daliyat el-Carmel (2026)"
-description: "Visitez Daliyat el-Carmel et Isfiya — pita druze sur sajj, marché aux épices, panorama du monastère El-Muhraka et parc national du Carmel. À 40 min de Haïfa en voiture."
+description: "Visitez Daliyat el-Carmel et Isfiya — pita druze sur sajj, marché aux épices, panorama du monastère El-Muhraka. À 40 min de Haïfa en voiture."
 heroImage: /images/sub-destinations/haifa/carmel-national-park.jpg
 category: Destinations
 verdictName: "une excursion guidée Haïfa et villages druzes du Carmel"

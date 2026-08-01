@@ -1,6 +1,6 @@
 ---
 title: "Guide des Hauteurs du Golan : Randonnée, Vignobles et Attractions (2026)"
-description: "Planifiez votre voyage dans les Hauteurs du Golan — mont Bental, Banias, forteresse de Nimrod, villages druzes, vignobles, ski sur l'Hermon et meilleures randonnées."
+description: "Planifiez votre voyage dans les Hauteurs du Golan — mont Bental, Banias, forteresse de Nimrod, villages druzes, vignobles et ski sur l'Hermon."
 heroImage: /images/regions/golan/hero.jpg
 category: Destinations
 updatedAt: 2026-08-01
