@@ -14014,3 +14014,8 @@ Gate: pnpm check 0 errors; pnpm build 1243 pages (+5 from 1238); pnpm test:e2e 1
 Ship: squash-merged auto/es-phase-29 to master, pushed b9ec8b3a. Branch deleted. CI in_progress at push time.
 ES guides: 145→150/398. Build pages: 1238→1243.
 Next: iter927 → BUILD (927%5=2 → BUILD; recommend FR-16 by rotation — FR has third-largest gap after ES+DE; Phase FR-16 defined iter925: golan-heights-guide+golan-heights-hiking-trails+druze-villages-carmel+rosh-hanikra-guide+mount-of-olives-guide).
+
+## 2026-08-01T20:30Z · iter 927 · BUILD (i18n-FR) · fr-phase-16
+5 FR guides shipped: golan-heights-guide, golan-heights-hiking-trails, druze-villages-carmel, rosh-hanikra-guide, mount-of-olives-guide.
+Golan political status note (US-2019 recognition + UN non-recognition); UXO off-trail warning; Druze photography etiquette (khalwa); Rosh Hanikra cable car INPA pass not valid; Gethsémani olive tree age honest (~900yr, not 1st cent.); paired-naming Har HaZeitim/Jabal az-Zaytun.
+FR guides: 162→167/398. Build: 1243→1248 pages. 1779/1779 e2e pass.

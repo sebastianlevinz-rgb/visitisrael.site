@@ -6,18 +6,18 @@
 >
 > One bounded slice per loop iteration. NEVER bulk-translate in one shot.
 
-## Current status snapshot (2026-08-01 iter923 BUILD — FR-15 SHIPPED; iter924 REVIEW next)
+## Current status snapshot (2026-08-01 iter927 BUILD — FR-16 SHIPPED; iter928 BUILD DE-15 next)
 
 | Locale | Guides | Attractions | Regions | Itineraries |
 |--------|--------|-------------|---------|-------------|
 | en     | 398    | 65          | 11      | 6           |
-| fr     | 162    | 61          | 11      | 6           |
+| fr     | 167    | 61          | 11      | 6           |
 | de     | 157    | 61          | 11      | 6           |
 | es     | 150    | 61          | 11      | 6           |
 
 **Gaps to close:**
 - es guides: **248 missing** (150/398 done — Phase ES-29 SHIPPED iter926 b9ec8b3a; **Phase ES-30 TBD**)
-- fr guides: **236 missing** (162/398 done — Phase FR-15 SHIPPED iter923 c6b16be9; **Phase FR-16 TBD**)
+- fr guides: **231 missing** (167/398 done — Phase FR-16 SHIPPED iter927 e6d059c1; **Phase FR-17 TBD**)
 - de guides: **241 missing** (157/398 done — Phase DE-14 SHIPPED iter922 ae700f9b; **Phase DE-15 TBD**)
 - fr/de/es attractions: **4 missing each** (the 4 EN attractions added after Phase 4)
 
@@ -823,7 +823,7 @@ Quality: neutral LATAM Spanish tuteo; YAML double-quotes; /es/* prefix only for 
 | Locale | Guides | Note |
 |--------|--------|------|
 | en     | 398    | stable |
-| fr     | 162    | 236 missing — Phase FR-15 SHIPPED iter923 c6b16be9; **Phase FR-16 defined iter925** |
+| fr     | 167    | 231 missing — Phase FR-16 SHIPPED iter927 e6d059c1; **Phase FR-17 TBD** |
 | de     | 157    | 241 missing — Phase DE-14 SHIPPED iter922 ae700f9b; **Phase DE-15 defined iter925** |
 | es     | 150    | 248 missing — Phase ES-29 SHIPPED iter926 b9ec8b3a; **Phase ES-30 TBD** |
 
@@ -872,7 +872,7 @@ Research agent ranking (by ES search volume + affiliate value + editorial gap):
 
 Quality: neutral LATAM Spanish tuteo; YAML double-quotes; /es/* prefix only for confirmed-existing ES pages; no fabricated prices (all ₪/$ ranges only); no fabricated ratings or review counts; paired-naming on contested sites; Bahá'í active-site framing if referenced; UXO off-trail warning if Golan referenced; olive tree age honesty (Gethsemane trees: significant not precisely 2000yo); Dominus Flevit dome honesty (afternoon light for photography); Kabbalah Center vs. traditional Safed Kabbalah distinction.
 
-### Phase FR-16 (162 → 167/398) — DEFINED iter925
+### Phase FR-16 (162 → 167/398) — SHIPPED iter927 e6d059c1
 
 Guides: `golan-heights-guide.md`, `golan-heights-hiking-trails.md`, `druze-villages-carmel.md`, `rosh-hanikra-guide.md`, `mount-of-olives-guide.md`
 All 5 confirmed MISSING from `src/content/guides/fr/` via `comm -23` (2026-08-01).

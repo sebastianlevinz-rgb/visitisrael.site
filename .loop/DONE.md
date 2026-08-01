@@ -1670,3 +1670,7 @@ Value: Cruise guides no longer misrepresent Haifa/Ashdod as active without cavea
 5 ES guides shipped: jerusalem-food-guide, tel-aviv-food-guide, rosh-hanikra-guide, mount-of-olives-guide, safed-tzfat-guide.
 LATAM food+north-Israel cluster; paired-naming; Gethsemane olive tree age honest; Rosh Hanikra cable car restored 2025; Kabbalah Center vs historical Safed distinction.
 ES guides: 145→150/398. Build: 1238→1243 pages. 1769/1769 e2e pass.
+
+## iter927 · fr-phase-16 · e6d059c1 · 2026-08-01
+5 French guides: golan-heights-guide (Golan region overview + political status note + UXO warning), golan-heights-hiking-trails (Yehudiya/Zavitan/Meshushim/Gamla; UXO; INT sections), druze-villages-carmel (Daliyat el-Carmel; pita drusa; photography etiquette), rosh-hanikra-guide (grottos; cable car INPA caveat; winter caveat), mount-of-olives-guide (Gethsémani olive tree honesty; paired-naming; pilgrimage circuit).
+FR guides: 162→167/398. Build: 1243→1248 pages. 1779/1779 e2e pass.
