@@ -1,13 +1,15 @@
 # LOOP STATE
 
-- iteration: 908
-- lastMode: BUILD
-- lastItem: es-phase-25
-- lastResult: SHIPPED d3df76f. 5 ES guides: masada-dead-sea-day-trip, jerusalem-tours-compared, israel-national-parks-pass, galilee-vs-golan-weekend, haifa-neighborhoods-guide. ES guides: 125→130/398. 10 new e2e tests (5 smoke + 5 a11y). 1689/1689 e2e pass. Gate: 0 errors; 1203 pages (+5).
-- nextRotationCategory: REVIEW (iter909; 909%5=4 → REVIEW mode)
+- iteration: 909
+- lastMode: REVIEW
+- lastItem: review-909-es-phase-25-meta-link-fix
+- lastResult: SHIPPED 4999f804. Audited all 5 ES Phase 25 guides; 6 fixes across 4 files. 1689/1689 e2e pass. Gate: 0 errors; 1203 pages (no change).
+- nextRotationCategory: RESEARCH (iter910; 910%5=0 → RESEARCH mode)
 - higgsfieldSpent: 0
-- updatedAt: 2026-07-31T23:58Z
+- updatedAt: 2026-08-01T00:45Z
 - branch context: work on master; feature work on auto/<slug>
+
+Notes: iter909 REVIEW — review-909-es-phase-25-meta-link-fix SHIPPED 4999f804. Audited all 5 ES Phase 25 guides against: meta title ≤65, desc ≤160, /es/* cross-links exist in filesystem, no H1 in MDX body, no fabricated prices, honesty framing. 6 fixes across 4 files: jerusalem-tours-compared title 67→60 chars (removed " (2026)"); jerusalem-tours-compared desc 163→160 chars (removed "por la" → "paseos Ciudad Vieja"); israel-national-parks-pass title 68→65 chars (removed " de" from "Nacionales de Israel"); israel-national-parks-pass desc 161→160 chars (costos→costo); galilee-vs-golan-weekend desc 189→143 chars (trimmed trailing clause); masada-dead-sea-day-trip /israel-national-parks-pass→/es/israel-national-parks-pass (ES version now exists, iter908). haifa-neighborhoods-guide: CLEAN (title 65, desc 148, 2 /es/* links verified). 22 unique /es/* hrefs verified present. 0 H1 in any MDX body. 0 fabricated prices. Honesty framing ✓ (Golan political note ✓; Bahá'í active-site framing ✓). Gate: pnpm check 0 errors; pnpm build 1203 pages (no change); pnpm test:e2e 1689/1689 pass (12.1m). Prod deploy: success. Next: iter910 RESEARCH.
 
 Notes: iter908 BUILD — es-phase-25 SHIPPED d3df76f. 5 ES guides: masada-dead-sea-day-trip (amanecer vs. de día, Camino de la Serpiente, Ein Gedi, flotación Mar Muerto, USD 89-120 group tours, teleférico no incluido en pase; 3 CTAs GYG/Viator/Abraham; evento Sound&Light Show Mar–Oct; cross-links /es/masada-visitor-guide /es/dead-sea-guide /es/ein-gedi-guide), jerusalem-tours-compared (tabla 5 tipos de tour, guía privado USD 300+/día, Túneles Muro reserva anticipada esencial, combo Belén gestión cruce; verdictName/verdictQuery set; 3 CTAs GYG/Viator/Civitatis; cross-links /es/western-wall-guide /es/church-holy-sepulchre-guide /es/day-trips-from-jerusalem /es/best-tours-in-israel), israel-national-parks-pass (4 niveles Azul/Verde/Naranja/Matmon, Naranja ~₪150/Verde ~₪110/Azul ~₪78/Matmon ~₪181, Israel Pass & Ride terminal T3 BGA; excl. teleférico/Ciudad de David/Jardines Bahá'í; parks.org.il verify-before-buying; cross-links /es/masada-visitor-guide /es/ein-gedi-guide /es/dead-sea-guide /es/masada-dead-sea-day-trip), galilee-vs-golan-weekend (11-row comparison table, 4-night combined itinerary, Golan political note factual/neutral, 6 FAQs inc. Golan safety; 2 CTAs DiscoverCars/Booking; cross-links /es/golan-heights-guide /es/golan-heights-wineries /es/galilee-tours-compared /es/sea-of-galilee-guide), haifa-neighborhoods-guide (6 barrios: Colonia Alemana/Wadi Nisnas/Hadar/Merkaz HaCarmel/Bat Galim/Puerto; Carmelit 6 estaciones ₪7/viaje Sun-Thu 06-22/Fri~15/Shab nightfall-22; Bahá'í active-site framing; Fiesta de las Fiestas Wadi Nisnas diciembre; 2 CTAs Booking/GYG; cross-links /es/haifa-travel-guide /es/best-hotels-haifa). LATAM neutral tuteo; YAML double-quotes; /es/* prefix only confirmed-existing ES pages; no fabricated prices/ratings; Golan political note factual/neutral; Bahá'í active-site framing. 10 new e2e tests (5 smoke + 5 a11y). ES guides: 125→130/398. Build: 1198→1203 pages (+5). 1689/1689 e2e pass. Gate: 0 errors. Squash-merged auto/es-phase-25 to master, pushed d3df76f.
 

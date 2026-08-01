@@ -1621,3 +1621,6 @@ Value: ES guides 115→120/398 (gap 283→278). Completes Eilat nightlife cluste
 - galilee-vs-golan-weekend (11-row comparison; 4-night itinerary; Golan political note; DiscoverCars/Booking CTAs)
 - haifa-neighborhoods-guide (6 barrios; Carmelit ₪7; Bahá'í active-site framing; Fiesta de las Fiestas dic; Booking/GYG CTAs)
 Value: ES guides 125→130/398 (gap 273→268). Completes Masada/Dead Sea cluster + Jerusalem tours coverage + parks pass planning guide + Galilee-Golan compare pair + Haifa neighborhoods guide for LATAM travelers.
+
+## iter909 · REVIEW (i18n-ES) · review-909-es-phase-25-meta-link-fix · 4999f804
+- REVIEW ES Phase 25 guides SHIPPED: 6 fixes across 4 files (jerusalem-tours-compared title 67→60 + desc 163→160; israel-national-parks-pass title 68→65 + desc 161→160; galilee-vs-golan-weekend desc 189→143; masada-dead-sea-day-trip link /israel-national-parks-pass→/es/). haifa-neighborhoods-guide CLEAN. 1689/1689 e2e pass.

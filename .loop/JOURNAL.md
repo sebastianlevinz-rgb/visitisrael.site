@@ -13753,3 +13753,9 @@ Gate: pnpm check 0 errors; pnpm build 1203 pages (+5); pnpm test:e2e 1689/1689 p
 Ship: squash-merged auto/es-phase-25 to master, pushed d3df76f.
 ES guides: 125→130/398.
 Next: iter 909 → REVIEW (909%5=4 → REVIEW mode; review ES-25 guides for meta-overrun, broken /es/* links, H1 in body, honesty framing).
+
+## 2026-08-01T00:45Z · iter 909 · REVIEW · review-909-es-phase-25-meta-link-fix
+What: audited all 5 ES Phase 25 guides (masada-dead-sea-day-trip, jerusalem-tours-compared, israel-national-parks-pass, galilee-vs-golan-weekend, haifa-neighborhoods-guide) against: meta title ≤65, desc ≤160, /es/* cross-links in filesystem, no H1 in body, no fabricated prices, honesty framing.
+Findings: 6 bugs across 4 files — 2 title overruns (67 + 68), 3 desc overruns (163, 161, 189), 1 stale bare link (/israel-national-parks-pass should be /es/ since ES version shipped iter908). haifa-neighborhoods-guide: CLEAN.
+Gate: pnpm check 0 errors; pnpm build 1203 pages (no change); pnpm test:e2e 1689/1689 pass (12.1m).
+Merge: squash-merged to master 4999f804, pushed. Prod deploy: success (GitHub Actions completed/success).
