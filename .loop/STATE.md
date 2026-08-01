@@ -1,12 +1,12 @@
 # LOOP STATE
 
-- iteration: 913
-- lastMode: BUILD
-- lastItem: fr-phase-14
-- lastResult: SHIPPED d949691f. 5 FR guides (haifa-food-guide, golan-heights-wineries, hotels-near-ben-gurion-airport, galilee-vs-golan-weekend, glamping-israel). Metropolitan French; factual Golan political status; ₪ ranges only; cross-links verified. Gate: 0 TS errors; 1213 pages (+5); 1709/1709 e2e pass.
-- nextRotationCategory: REVIEW (iter914; 914%5=4 → REVIEW mode; audit FR-14 guides)
+- iteration: 914
+- lastMode: REVIEW
+- lastItem: review-914-fr-phase-14-meta-link-fix
+- lastResult: SHIPPED a86b2933. 10 fixes across all 5 FR-14 guides: 2 title overruns (haifa-food-guide 76→60 chars; hotels-near-ben-gurion-airport 72→61 chars), 4 desc overruns (golan-heights-wineries 176→155; hotels-near-ben-gurion-airport 177→155; galilee-vs-golan-weekend 180→136; glamping-israel 184→127), 4 bare cross-links (galilee-vs-golan-weekend /galilee-tours-compared×2+/transportation+/is-israel-safe→/fr/; glamping-israel /bedouin-experience-israel→/fr/). haifa-food-guide CLEAN. 0 H1 in any MDX body. 0 fabricated prices. Honesty framing ✓. Gate: 0 TS errors; 1213 pages (no change); 1709/1709 e2e pass (22.3m).
+- nextRotationCategory: RESEARCH (iter915; 915%5=0 → RESEARCH mode)
 - higgsfieldSpent: 0
-- updatedAt: 2026-08-01T05:00Z
+- updatedAt: 2026-08-01T06:30Z
 - branch context: work on master; feature work on auto/<slug>
 
 Notes: iter909 REVIEW — review-909-es-phase-25-meta-link-fix SHIPPED 4999f804. Audited all 5 ES Phase 25 guides against: meta title ≤65, desc ≤160, /es/* cross-links exist in filesystem, no H1 in MDX body, no fabricated prices, honesty framing. 6 fixes across 4 files: jerusalem-tours-compared title 67→60 chars (removed " (2026)"); jerusalem-tours-compared desc 163→160 chars (removed "por la" → "paseos Ciudad Vieja"); israel-national-parks-pass title 68→65 chars (removed " de" from "Nacionales de Israel"); israel-national-parks-pass desc 161→160 chars (costos→costo); galilee-vs-golan-weekend desc 189→143 chars (trimmed trailing clause); masada-dead-sea-day-trip /israel-national-parks-pass→/es/israel-national-parks-pass (ES version now exists, iter908). haifa-neighborhoods-guide: CLEAN (title 65, desc 148, 2 /es/* links verified). 22 unique /es/* hrefs verified present. 0 H1 in any MDX body. 0 fabricated prices. Honesty framing ✓ (Golan political note ✓; Bahá'í active-site framing ✓). Gate: pnpm check 0 errors; pnpm build 1203 pages (no change); pnpm test:e2e 1689/1689 pass (12.1m). Prod deploy: success. Next: iter910 RESEARCH.

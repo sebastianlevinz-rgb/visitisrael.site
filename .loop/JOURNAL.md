@@ -13824,3 +13824,18 @@ What: 5 French guides (FR Phase 14) — haifa-food-guide, golan-heights-wineries
 Gate: pnpm check 0 errors; build 1213 pages (+5); 1709/1709 e2e pass.
 Ship: committed directly on master d949691f (branch auto/fr-phase-14 had no commits; files were in working tree).
 FR guides: 152→157/398.
+Next: iter 914 → REVIEW (914%5=4 → REVIEW mode; audit FR-14 guides).
+
+## 2026-08-01T06:30Z · iter 914 · REVIEW · review-914-fr-phase-14-meta-link-fix
+What: Audited all 5 FR Phase 14 guides (haifa-food-guide, golan-heights-wineries, hotels-near-ben-gurion-airport, galilee-vs-golan-weekend, glamping-israel) against: meta title ≤65 chars, desc ≤160 chars, /fr/* cross-links correct, no H1 in MDX body, no fabricated prices, honesty framing.
+Found 10 issues across 5 files:
+  - haifa-food-guide: title 76 chars → 60 chars (removed "et Fruits de Mer (2026)" → "et Port"). Desc 116 chars ✓. Links ✓. CLEAN otherwise.
+  - golan-heights-wineries: title 63 chars ✓. Desc 176 chars → 155 chars (removed "et meilleures excursions viticoles"). Links ✓.
+  - hotels-near-ben-gurion-airport: title 72 chars → 61 chars (removed "(TLV) 2026"). Desc 177 chars → 155 chars (removed "et fourchettes de prix honnêtes" → "et tarifs").
+  - galilee-vs-golan-weekend: title 61 chars ✓. Desc 180 chars → 136 chars (removed trailing "— ou planifiez les deux en une seule boucle"). 4 bare cross-links fixed: /galilee-tours-compared (×2) → /fr/galilee-tours-compared; /transportation → /fr/transportation; /is-israel-safe → /fr/is-israel-safe.
+  - glamping-israel: title 65 chars ✓. Desc 184 chars → 127 chars (trimmed to "Galilée." period). 1 bare cross-link: /bedouin-experience-israel → /fr/bedouin-experience-israel.
+All: 0 H1 in any MDX body. 0 fabricated prices. Honesty framing ✓.
+Gate: pnpm check 0 errors; pnpm build 1213 pages (no change); pnpm test:e2e 1709/1709 pass (22.3m). GREEN.
+Ship: squash-merged auto/review-914-fr-phase-14-meta-link-fix to master a86b2933, pushed origin master. CI in_progress at push.
+FR guides: 157/398 (no change — REVIEW, no new pages).
+Next: iter 915 → RESEARCH (915%5=0 → RESEARCH mode).
