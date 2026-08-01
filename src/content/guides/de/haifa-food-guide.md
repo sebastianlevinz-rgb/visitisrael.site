@@ -1,5 +1,5 @@
 ---
-title: "Haifa kulinarisch: Wadi Nisnas, Deutsche Kolonie und Meeresfrüchte"
+title: "Haifa Küche: Wadi Nisnas, Deutsche Kolonie und Meeresfrüchte"
 description: "Wo man in Haifa isst: Wadi Nisnas Falafel und Knafeh, Deutsche Kolonie Mezze, Hafendistrikt Meeresfrüchte und Haifas einzigartiger Küchencharakter."
 heroImage: /images/regions/haifa/german-colony.jpg
 category: Food

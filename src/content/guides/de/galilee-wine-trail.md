@@ -50,6 +50,8 @@ Dieser Leitfaden deckt den Obergaliläa-Teil des Kreises ab, der sich vom reinen
 
 Die zwei Regionen sind durch die Routen 91 und 886 verbunden – eine 45–60-minütige Fahrt von Rosh Pinna nach Katzrin macht eine kombinierte Ein- oder Zweitages-Runde mit dem Auto praktisch.
 
+> **Hinweis zum Golan:** Die Golanhöhen stehen seit 1967 unter israelischer Kontrolle; die US-Anerkennung von 2019 wird von den Vereinten Nationen und den meisten Ländern nicht anerkannt. Für Reisende funktioniert das Gebiet wie jeder andere Teil Israels mit israelischer Infrastruktur, Gesetzen und Währung.
+
 ---
 
 ## Empfohlener 2-Tages-Kreis
