@@ -13869,3 +13869,20 @@ Gate: pnpm check 0 errors; pnpm build 1213 pages (no change); pnpm test:e2e 1709
 Ship: squash-merged to master, pushed 45e5df72. CI in_progress / Lighthouse success at time of push.
 Prod: pending Vercel deploy confirmation.
 Next: iter 917 → REVIEW (917%5=2 → REVIEW). Or ES-27 BUILD on next odd iteration.
+
+## 2026-08-01T08:45Z · iter 917 · BUILD (i18n-ES) · es-phase-27
+What: ES Phase ES-27 — 5 Spanish guides covering Haifa tours, cruise shore excursions, adventure sports, Druze villages of Mount Carmel, and Hayarkon Park Tel Aviv.
+Mode: BUILD (917%5=2; PLAYBOOK §3 overrides stale STATE.md note that said "REVIEW").
+Files created:
+  - src/content/guides/es/haifa-tours-compared.md — 5-format tour comparison (private guide/group pilgrimage/themed day trip/Haifa+aldeas druzas combo/self-drive); verdictName+verdictQuery; CTAs GYG+Viator; 7 FAQs; cross-links to /es/haifa-travel-guide, /es/bahai-world-center-guide, /es/akko-acre-guide, /es/day-trips-from-haifa, /es/druze-villages-carmel, /es/best-tours-in-israel, /es/haifa-shore-excursions.
+  - src/content/guides/es/haifa-shore-excursions.md — 4 cruise circuits (Bahá'í+Akko 6h / Cesarea+Atlit 5h / Nazaret+Galilea 8h / Rosh Hanikra 7h); cruise suspension blockquote notice (major lines suspended Haifa/Ashdod late March 2026; summer 2026 gradual return) consistent with iter916 P1 fix; port-at-a-glance table; Shabbat warning; ETA-IL reminder; 3 CTAs GYG+Viator+Booking.
+  - src/content/guides/es/israel-adventure-sports.md — barranquismo/surf/kitesurf/jeep tours/rappelling/kayak/esquí Hermón/ala delta; Dolphin Reef semi-wild "no garantizadas" honesty; planning table by activity/region/season/difficulty; 3 CTAs GYG+Viator+Abraham; cross-links /es/mitzpe-ramon-guide, /es/golan-heights-guide, /es/cycling-in-israel, /es/eilat-beach-guide.
+  - src/content/guides/es/druze-villages-carmel.md — Daliyat el-Carmel+Isfiya 40min from Haifa; pita drusa en saj; El-Muhraka hours caveat; photography rules for khalwat+religious elders; Carmel National Park trails; recommended full-day combination itinerary; verdictName+verdictQuery; 3 CTAs GYG+Viator+Booking; cross-links /es/golan-heights-guide, /es/haifa-travel-guide, /es/day-trips-from-haifa, /es/haifa-tours-compared, /es/israel-national-parks-pass.
+  - src/content/guides/es/hayarkon-park-tel-aviv.md — 950 acres; santuario de aves 170 especies; Yarkon swimming NOT recommended (water quality history); alquiler barcas/kayaks; HaTsuk climbing wall; Ganei Yehoshua concerts; Línea Roja metro (HaMuzeon station); Tel-O-Fun bike docks; seasonal table; 3 CTAs GYG+Viator+Booking; cross-links /es/tel-aviv-beach-guide, /es/jaffa-travel-guide, /es/cycling-in-israel, /es/1-day-tel-aviv-itinerary.
+Tests added: 5 routes to tests/e2e/smoke.spec.ts + 5 routes to tests/e2e/a11y.spec.ts.
+Quality: LATAM neutral tuteo; YAML double-quotes; /es/* prefix only for confirmed-existing ES pages; no fabricated prices/ratings; cruise suspension honesty carried forward from iter916; Bahá'í active-site framing in haifa-tours-compared; Dolphin Reef semi-wild honesty in israel-adventure-sports.
+Issue: auto/es-phase-27 branch created but files written directly to working tree (never committed to branch) → git merge --squash was no-op. Fix: staged files + committed directly to master. Branch deleted. Lesson logged.
+Gate: pnpm check 0 errors; pnpm build 1218 pages (+5); pnpm test:e2e 1719/1719 pass (11.1m). GREEN.
+Ship: committed directly to master, pushed 9137f5b5. CI in_progress at push time.
+ES guides: 135→140/398. Build pages: 1213→1218.
+Next: iter 918 → BUILD (918%5=3 → BUILD mode). Recommend: ES-28 next i18n batch or DE-13/FR-15 if ES saturation is preferred later.
