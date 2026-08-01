@@ -958,6 +958,11 @@ const ROUTES = [
   '/es/israel-by-month',
   '/es/jewish-heritage-israel',
   '/es/israel-travel-2026',
+  '/fr/israel-eta-guide',
+  '/fr/how-to-hire-licensed-tour-guide-israel',
+  '/fr/haifa-neighborhoods-guide',
+  '/fr/israel-accessible-travel',
+  '/fr/haifa-shore-excursions',
 ];
 
 for (const route of ROUTES) {
