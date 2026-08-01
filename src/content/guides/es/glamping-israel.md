@@ -123,7 +123,7 @@ Una estancia de glamping de dos noches en el Néguev combina de forma natural co
 - **Tour de observación de estrellas** — sesión guiada de telescopio; reserva con antelación
 - **Caminata por el cráter** — la caminata por el borde del Makhtesh Ramon y los senderos del suelo del cráter son la experiencia central del Néguev; lleva agua suficiente y empieza antes de las 8:00am con cualquier temperatura cálida
 - **Tour en jeep** — los operadores licenciados de 4×4 recorren zonas del suelo del cráter inaccesibles a pie; reserva a través de tu alojamiento o por GetYourGuide
-- **Experiencia beduina** — Kfar HaNokdim cerca de Masada ofrece paseos en camello y cenas beduinas tradicionales; a unas 1 hora al norte de Mitzpe Ramón. Consulta la [guía de experiencia beduina](/bedouin-experience-israel) para detalles.
+- **Experiencia beduina** — Kfar HaNokdim cerca de Masada ofrece paseos en camello y cenas beduinas tradicionales; a unas 1 hora al norte de Mitzpe Ramón. Consulta la [guía de experiencia beduina](/es/bedouin-experience-israel) para detalles.
 
 ---
 

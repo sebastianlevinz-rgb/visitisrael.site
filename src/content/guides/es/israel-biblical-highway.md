@@ -81,7 +81,7 @@ Para los detalles completos de visita — logística del Puesto de Control 300, 
 
 Jerusalén ancla la Carretera Bíblica — es el punto más accesible de todo el recorrido y la base natural para un circuito de varios días. Para los viajeros de fe, el **Muro Occidental** de la Ciudad Vieja, la **Vía Dolorosa**, la **[Iglesia del Santo Sepulcro](/es/church-holy-sepulchre-guide)** y el recinto de la Explanada de las Mezquitas representan la convergencia de la geografía sagrada judía, cristiana e islámica en un solo kilómetro cuadrado.
 
-El **Camino de la Peregrinación de Jerusalén** — la antigua calle escalonada descubierta entre la Piscina de Siloé y la Explanada del Templo — y el yacimiento arqueológico de la [Ciudad de David](/city-of-david-jerusalem) dan a los visitantes de la Ruta 60 la oportunidad de caminar por una calle que estuvo en uso durante los períodos de la Edad del Hierro y del Segundo Templo descritos en ambos Testamentos.
+El **Camino de la Peregrinación de Jerusalén** — la antigua calle escalonada descubierta entre la Piscina de Siloé y la Explanada del Templo — y el yacimiento arqueológico de la [Ciudad de David](/es/city-of-david-jerusalem) dan a los visitantes de la Ruta 60 la oportunidad de caminar por una calle que estuvo en uso durante los períodos de la Edad del Hierro y del Segundo Templo descritos en ambos Testamentos.
 
 Consulta la [guía de peregrinación cristiana](/es/christian-pilgrimage-holy-land) para un itinerario completo de fe en Jerusalén.
 
