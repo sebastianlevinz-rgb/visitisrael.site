@@ -13783,3 +13783,38 @@ Gate: pnpm check 0 errors; pnpm build 1208 pages (+5, was 1203); pnpm test:e2e 1
 Ship: squash-merged auto/es-phase-26 → master 65e3f5c9, pushed origin master.
 ES guides: 130→135/398. Build pages: 1203→1208 (+5). 10 new e2e tests (5 smoke + 5 a11y).
 Next: iter912 REVIEW (review ES-26 guides for meta title ≤65 / desc ≤160 / /es/* cross-link existence / no H1 in MDX body / no fabricated prices / honesty framing).
+
+## 2026-08-01T04:30Z · iter 912 · REVIEW · review-912-es-phase-26-meta-link-fix
+What: REVIEW pass on all 5 ES Phase 26 guides shipped in iter 911 (65e3f5c9): tel-aviv-neighborhoods-guide, glamping-israel, israel-biblical-highway, getyourguide-vs-viator-israel, mitzpe-ramon-guide.
+Audit checklist (Python3 unicode len; filesystem cross-link verification):
+  (1) Meta title ≤65 chars:
+      tel-aviv-neighborhoods-guide: 59 chars ✓
+      glamping-israel: 56 chars ✓
+      israel-biblical-highway: 51 chars ✓
+      getyourguide-vs-viator-israel: 54 chars ✓
+      mitzpe-ramon-guide: 54 chars ✓
+  (2) Meta desc ≤160 chars:
+      tel-aviv-neighborhoods-guide: 137 chars ✓
+      glamping-israel: 146 chars ✓
+      israel-biblical-highway: 133 chars ✓
+      getyourguide-vs-viator-israel: 136 chars ✓
+      mitzpe-ramon-guide: 131 chars ✓
+  (3) No H1 in MDX body: 0 H1 in any of the 5 guides ✓
+  (4) No fabricated prices: ₪ ranges in prose only; all tour prices hedged with GYG/Viator live links ✓
+  (5) Honesty framing: West Bank safety framing (biblical highway) ✓; Makhtesh Ramon erosion crater (not meteor) ✓; Kibbutz Lotan composting-toilet honesty ✓; Bahá'í active-site framing not needed in these guides ✓
+  (6) Cross-link audit — bare EN links (missing /es/ prefix) found:
+      tel-aviv-neighborhoods-guide line 144: /tel-aviv → DEFECT (ES region src/content/regions/es/tel-aviv.md exists)
+      tel-aviv-neighborhoods-guide line 144: /digital-nomad-israel + stale "(disponible próximamente en español)" → DEFECT (ES guide src/content/guides/es/digital-nomad-israel.md exists)
+      glamping-israel line 126: /bedouin-experience-israel → DEFECT (ES guide src/content/guides/es/bedouin-experience-israel.md exists)
+      israel-biblical-highway line 84: /city-of-david-jerusalem → DEFECT (ES guide src/content/guides/es/city-of-david-jerusalem.md exists)
+      getyourguide-vs-viator-israel: all /es/* cross-links verified ✓ (/es/best-tours-in-israel, /es/israel-jordan-itinerary both exist)
+      mitzpe-ramon-guide: all /es/* cross-links verified ✓ (/es/israel-national-parks-pass, /es/3-days-in-negev, /es/car-rental-israel, /es/3-days-in-eilat, /es/best-hotels-negev all exist)
+  (7) Hero + CTA images: all 10 image paths verified against /public/ ✓
+Fixes applied (4 total across 3 files):
+  - tel-aviv-neighborhoods-guide: /tel-aviv → /es/tel-aviv; /digital-nomad-israel (+ removed stale parenthetical) → /es/digital-nomad-israel
+  - glamping-israel: /bedouin-experience-israel → /es/bedouin-experience-israel
+  - israel-biblical-highway: /city-of-david-jerusalem → /es/city-of-david-jerusalem
+Gate: pnpm check 0 errors; pnpm build 1208 pages (no change); pnpm test:e2e 1699/1699 pass (14.1m). GREEN.
+Ship: squash-merged auto/review-912-es-phase-26-meta-link-fix to master 46414abf, pushed origin master. CI in_progress at push.
+ES guides: 135/398 (no change — REVIEW, no new pages).
+Next: iter 913 → BUILD (913%5=3 → BUILD mode; implement FR-14: 5 French guides as defined in I18N-PLAN.md).
