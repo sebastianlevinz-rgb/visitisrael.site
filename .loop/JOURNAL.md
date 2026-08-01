@@ -13944,3 +13944,18 @@ Gate: pnpm check 0 errors; pnpm build 1228 pages (+5 from 1223); pnpm test:e2e 1
 Ship: squash-merged auto/es-phase-28 to master, pushed 6681a508. Branch deleted.
 ES guides: 140→145/398. Build pages: 1223→1228.
 Next: iter922 → BUILD (922%5=2 → BUILD; recommend DE-14 or FR-15 by rotation).
+
+## 2026-08-01T14:50Z · iter 922 · BUILD (i18n-DE) · de-phase-14
+What: DE Phase DE-14 — 5 German-language guides for the DACH market.
+Files created:
+  - src/content/guides/de/galilee-vs-golan-weekend.md (11-row Galiläa vs Golanhöhen comparison table; combined 4-night northern loop itinerary; Golan political note factual/neutral; 6 FAQs inc. Golan safety; CTAs DiscoverCars+Booking)
+  - src/content/guides/de/glamping-israel.md (Beresheet Desert Lodge Relais&Chateaux ₪ ranges; Selina Ramon ₪300-700; Succah in the Desert ₪400-600; Yahel Outpost Arava; Kibbutz-Tzimmer Sea of Galilee; NABU/BUND birdwatcher angle; seasonal table Negev summer Extremhitze warning; CTAs Booking+GYG)
+  - src/content/guides/de/best-hotels-netanya.md (3 cliff-zone tiers ₪700-2000; Grand Yam/Galil mid-range; NH/budget Zone 3; 60K francophone community note; day-trip distances table; 6 FAQs; CTAs Booking+GYG)
+  - src/content/guides/de/haifa-tours-compared.md (verdictName+verdictQuery set; 5-format table USD 40-100/person; Bahá'í Obere Terrasse advance registration note; Deutsche Kolonie DACH historical hook 2 sentences; 5 FAQs; CTAs GYG+Viator)
+  - src/content/guides/de/haifa-neighborhoods-guide.md (6 Stadtteile: Deutsche Kolonie/Wadi Nisnas/Hadar/Merkaz HaCarmel/Bat Galim/Hafen; Karmelit 6-station table ₪7; Deutsche Kolonie WWII Templer deportation factual; Fest der Feste Dezember; 6 FAQs; CTAs Booking+GYG)
+Files modified: tests/e2e/smoke.spec.ts (+5 DE routes), tests/e2e/a11y.spec.ts (+5 DE routes)
+Quality: Standard Hochdeutsch; YAML double-quotes throughout; /de/* cross-links only for confirmed-existing DE pages (/de/galilee-travel-guide does NOT exist — used /de/galilee-tours-compared); no fabricated prices/ratings; Golan political note factual/neutral; Bahá'í active-site framing (exterior/terrassen only); Deutsche Kolonie DACH hook (factual 2 sentences, WWII context); Dolphin Reef encounters-not-guaranteed (glamping seasonal table); reef bleaching honest.
+Gate: pnpm check 0 errors; pnpm build 1233 pages (+5 from 1228); pnpm test:e2e 1749/1749 pass. GREEN.
+Ship: squash-merged auto/de-phase-14 to master, pushed ae700f9b. Branch deleted.
+DE guides: 152→157/398. Build pages: 1228→1233.
+Next: iter923 → BUILD (923%5=3 → BUILD; recommend FR-15 or ES-29 by rotation).
