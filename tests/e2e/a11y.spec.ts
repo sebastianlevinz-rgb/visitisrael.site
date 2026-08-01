@@ -658,6 +658,11 @@ const ROUTES = [
   '/es/israel-biblical-highway',
   '/es/getyourguide-vs-viator-israel',
   '/es/mitzpe-ramon-guide',
+  '/fr/haifa-food-guide',
+  '/fr/golan-heights-wineries',
+  '/fr/hotels-near-ben-gurion-airport',
+  '/fr/galilee-vs-golan-weekend',
+  '/fr/glamping-israel',
 ];
 
 for (const route of ROUTES) {
