@@ -6,19 +6,19 @@
 >
 > One bounded slice per loop iteration. NEVER bulk-translate in one shot.
 
-## Current status snapshot (2026-08-01 iter917 BUILD — ES-27 SHIPPED; iter918 BUILD next)
+## Current status snapshot (2026-08-01 iter918 BUILD — DE-13 SHIPPED; iter919 REVIEW next)
 
 | Locale | Guides | Attractions | Regions | Itineraries |
 |--------|--------|-------------|---------|-------------|
 | en     | 398    | 65          | 11      | 6           |
 | fr     | 157    | 61          | 11      | 6           |
-| de     | 147    | 61          | 11      | 6           |
+| de     | 152    | 61          | 11      | 6           |
 | es     | 140    | 61          | 11      | 6           |
 
 **Gaps to close:**
 - es guides: **258 missing** (140/398 done — Phase ES-27 SHIPPED iter917 9137f5b5; **Phase ES-28 TBD**)
 - fr guides: **241 missing** (157/398 done — Phase FR-14 SHIPPED iter913 d949691f; **Phase FR-15 defined iter905**)
-- de guides: **251 missing** (147/398 done — Phase DE-12 SHIPPED iter903 8193efe9; **Phase DE-13 defined iter900; Phase DE-14 defined iter905**)
+- de guides: **246 missing** (152/398 done — Phase DE-13 SHIPPED iter918 bc83fca6; **Phase DE-14 defined iter905**)
 - fr/de/es attractions: **4 missing each** (the 4 EN attractions added after Phase 4)
 
 **Dead Sea cluster status (iter855 audit):**
@@ -664,12 +664,12 @@ Quality: Standard Hochdeutsch; YAML double-quotes; /de/* prefix only for confirm
 |--------|--------|------|
 | en     | 398    | stable |
 | fr     | 147    | 251 missing — Phase FR-12 SHIPPED iter898 3a1da161; **Phase FR-13 defined iter895 (next BUILD candidate)**; Phase FR-14 defined iter900 |
-| de     | 147    | 251 missing — Phase DE-12 SHIPPED iter903 8193efe9; **Phase DE-13 defined iter900 (next BUILD candidate)**; Phase DE-14 TBD |
+| de     | 152    | 246 missing — Phase DE-13 SHIPPED iter918 bc83fca6; **Phase DE-14 defined iter905 (next DE BUILD candidate)** |
 | es     | 120    | 278 missing — Phase ES-23 SHIPPED iter901 d6cbe672; **Phase ES-24 TBD** |
 
 **FR-12 (iter898) shipped:** FR guides now 147/398.
 **ES-23 (iter901) shipped:** ES guides now 120/398.
-**Next BUILD candidates by priority:** ES-24 (highest gap 278) → FR-13 → DE-13 by rotation.
+**Next BUILD candidates by priority:** ES-28 (highest gap 258) → FR-15 → DE-14 by rotation.
 
 ### Phase ES-23 (115 → 120/398) — SHIPPED iter901 d6cbe672
 
@@ -682,7 +682,7 @@ All 5 confirmed MISSING from `src/content/guides/es/` via `comm -23` (2026-07-31
 - hotels-near-ben-gurion-airport: "Hoteles cerca del Aeropuerto Ben Gurion (TLV)" — very high booking intent; LATAM travelers with late-night arrivals / early departures / overnight transit; comparison of on-site Yitzhak Rabin (now TRYP by Wyndham), on-airport pod options, Lod city 5min, Modi'in 20min, Petah Tikva options, Tel Aviv proper (45min); pairs with /es/ben-gurion-airport-guide + /es/ben-gurion-airport-transfers (both confirmed existing); Booking affiliate CTAs (highest conversion rate on site for accommodation clicks)
 Quality: neutral LATAM Spanish tuteo; YAML double-quotes; /es/ prefix only for confirmed existing ES pages; no fabricated prices (₪/$ ranges + "verify at gate/booking platform"); Golan Heights political context note (factual/neutral — Israeli-administered since 1967, US recognized 2019, disputed internationally); nightlife no fabricated cover prices or ratings.
 
-### Phase DE-13 (147 → 152/398) — DEFINED iter900
+### Phase DE-13 (147 → 152/398) — SHIPPED iter918 bc83fca6
 
 Target: after DE-12 ships (DE-12 candidate for next DE BUILD iteration).
 Guides: `eilat-vs-aqaba.md`, `galilee-wine-trail.md`, `haifa-food-guide.md`, `golan-heights-hiking-trails.md`, `hotels-near-ben-gurion-airport.md`
