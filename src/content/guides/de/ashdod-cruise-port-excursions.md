@@ -3,7 +3,7 @@ title: "Ashdod Kreuzfahrthafen: Ausflüge Jerusalem & Totes Meer"
 description: "Die besten Tagesausflüge vom Kreuzfahrthafen Ashdod — Jerusalem, Totes Meer, Masada und Tel Aviv. Timing, Transport und Buchungstipps für Kreuzfahrtpassagiere."
 heroImage: /images/regions/jerusalem/old-city.jpg
 category: Touren
-updatedAt: 2026-07-30
+updatedAt: 2026-08-01
 ctaHeading: "Ihren Ashdod-Kreuzfahrtausflug buchen"
 verdictName: "Ausflüge vom Kreuzfahrthafen Ashdod"
 verdictQuery: "Ashdod Kreuzfahrt Tagesausflug Jerusalem Israel"
@@ -43,9 +43,11 @@ faqs:
     answer: "Ashdod ist Israels wichtigstes südliches Kreuzfahrtterminal. Der Kreuzfahrtanleger liegt ca. 5 Minuten per Taxi oder 20 Minuten zu Fuß vom Stadtzentrum Ashdod entfernt. Taxis warten am Hafenausgang; Gett und Yango-Mitfahrapps haben möglicherweise keine Fahrer direkt am Terminal. Führen Sie einige israelische Schekel (₪) für Kleinbeträge mit. Das Terminal verfügt über einen kleinen Duty-Free-Bereich und ein Café."
 ---
 
+> **Hinweis — August 2026:** Große Kreuzfahrtlinien — darunter AIDA, TUI Cruises, MSC und Costa — haben planmäßige Anläufe in Haifa und Aschdod ab Ende März 2026 infolge regionaler Sicherheitsentwicklungen ausgesetzt. Im Sommer 2026 nehmen einige Reedereien schrittweise den Betrieb wieder auf. **Prüfen Sie den aktuellen Israel-Fahrplan Ihrer Reederei**, bevor Sie Landausflüge buchen.
+
 **Ashdod ist Israels wichtigster südlicher Kreuzfahrthafen** — und hinsichtlich der Reiseziele geografisch privilegierter als der nördliche Hafen Haifa, denn Jerusalem ist nur eine Stunde entfernt. Diese geografische Tatsache prägt alle Ashdod-Ausflüge: Die Mehrheit der Kreuzfahrtpassagiere fährt direkt in die Altstadt, der Rest verteilt sich auf das Tote Meer und Tel Aviv.
 
-AIDA, TUI Cruises (Mein Schiff), MSC und Costa legen regelmäßig in Ashdod an. Dieser Leitfaden behandelt alle praktischen Aspekte Ihres Ashdod-Landtages — Reiseziele, Zeitplanung, Transportoptionen und Prioritäten bei begrenzter Landzeit. Der [Kreuzfahrt-Ausflüge-Überblick](/de/cruise-shore-excursions-israel) vergleicht beide israelischen Häfen — Haifa und Ashdod.
+Dieser Leitfaden behandelt alle praktischen Aspekte Ihres Ashdod-Landtages — Reiseziele, Zeitplanung, Transportoptionen und Prioritäten bei begrenzter Landzeit. Der [Kreuzfahrt-Ausflüge-Überblick](/de/cruise-shore-excursions-israel) vergleicht beide israelischen Häfen — Haifa und Ashdod.
 
 ---
 

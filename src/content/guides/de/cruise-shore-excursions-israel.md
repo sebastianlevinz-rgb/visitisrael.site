@@ -5,7 +5,7 @@ heroImage: /images/regions/haifa/hero.jpg
 category: Touren
 verdictName: "Kreuzfahrtausflüge in Israel"
 verdictQuery: Israel shore excursion cruise Haifa Ashdod
-updatedAt: 2026-06-23
+updatedAt: 2026-08-01
 ctaHeading: "Kreuzfahrtausflüge in Israel buchen"
 affiliateCtas:
   - partner: getyourguide
@@ -42,6 +42,8 @@ faqs:
 ---
 
 Kreuzfahrtschiffe, die Israel anlaufen, docken an zwei Haupthäfen: **Haifa** im Norden und **Aschdod** im Süden. Jeder Hafen bringt Sie in Reichweite sehr unterschiedlicher Sehenswürdigkeiten — der richtige Landausflug hängt also ganz davon ab, in welchem Hafen Sie anlegen und wie viele Stunden Sie an Land haben.
+
+> **Hinweis — August 2026:** Große Kreuzfahrtlinien haben planmäßige Anläufe in den Häfen Haifa und Aschdod ab Ende März 2026 infolge regionaler Sicherheitsentwicklungen ausgesetzt. Im Sommer 2026 nehmen einige Reedereien schrittweise den Betrieb wieder auf. **Prüfen Sie den aktuellen Israel-Fahrplan Ihrer Reederei**, bevor Sie Landausflüge buchen.
 
 ## Landausflüge vom Hafen Haifa
 

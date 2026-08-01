@@ -5,7 +5,7 @@ heroImage: /images/regions/haifa/hero.jpg
 category: Circuits
 verdictName: "les excursions depuis le port de croisière de Haïfa"
 verdictQuery: "Haifa cruise port excursion Israel 2026"
-updatedAt: 2026-07-31
+updatedAt: 2026-08-01
 ctaHeading: "Réservez vos excursions depuis le port de croisière de Haïfa"
 affiliateCtas:
   - partner: getyourguide
@@ -44,6 +44,8 @@ faqs:
   - question: "Faut-il une ETA-IL pour débarquer à Haïfa comme passager de croisière ?"
     answer: "Les ressortissants de pays exemptés de visa pour Israël (dont les citoyens français, belges et suisses) doivent disposer d'une ETA-IL (Autorisation Électronique de Voyage) depuis le 1er janvier 2025. L'ETA-IL doit être demandée sur le site officiel piba.gov.il au moins 72 heures avant l'arrivée. Frais : ₪25 (~7 €), validité 2 ans. Votre compagnie de croisière peut l'indiquer dans les informations pré-embarquement — vérifiez avant de partir et ne passez pas par des sites commerciaux intermédiaires qui pratiquent des tarifs gonflés."
 ---
+
+> **Avis — août 2026 :** Les principales compagnies de croisière ont suspendu leurs escales programmées à Haïfa et Ashdod à partir de fin mars 2026 à la suite de développements sécuritaires régionaux. Le nouveau terminal (inauguré le 14 mai 2026) est pleinement opérationnel et l'été 2026 voit une reprise progressive par certains armateurs. **Vérifiez le calendrier israélien actuel de votre compagnie** avant de réserver des excursions ou de planifier votre escale.
 
 Le nouveau terminal de croisière de Haïfa, inauguré le **14 mai 2026**, a considérablement amélioré l'expérience des passagers arrivant au principal port du nord d'Israël. L'installation de 5 500 m² — la plus grande d'Israël et parmi les plus performantes de la Méditerranée orientale — accueille deux mega-ships simultanément, réduit les files à l'immigration grâce à 28 postes de contrôle frontalier dédiés, et place le terminal à quelques minutes à pied de la gare ferroviaire de Haïfa et du centre-ville. Ce guide couvre le terminal lui-même, les meilleures options d'excursion depuis Haïfa, et la logistique pratique qui fait la différence entre une journée portuaire sereine et une journée stressante.
 

@@ -5,7 +5,7 @@ heroImage: /images/regions/haifa/hero.jpg
 category: Tours
 verdictName: "excursiones desde el puerto de cruceros de Haifa"
 verdictQuery: "Haifa cruise port excursion Israel 2026"
-updatedAt: 2026-07-18
+updatedAt: 2026-08-01
 ctaHeading: "Reserva excursiones desde el puerto de cruceros de Haifa"
 affiliateCtas:
   - partner: getyourguide
@@ -42,6 +42,8 @@ faqs:
   - question: "¿Cuánto tiempo tarda la inmigración en la terminal de cruceros de Haifa?"
     answer: "Los 28 puestos de control fronterizo dedicados de la nueva terminal fueron diseñados específicamente para reducir los tiempos de espera de los pasajeros. Para un solo barco con carga de pasajeros estándar, la inmigración suele completarse en 30–60 minutos desde el atraque. En temporada alta — especialmente cuando dos megabarcos llegan simultáneamente — permite hasta 90 minutos. El control fronterizo israelí implica preguntas de seguridad de rutina; ten a mano tu tarjeta de embarque del barco, pasaporte y documentación de regreso al barco."
 ---
+
+> **Aviso — agosto de 2026:** Las principales navieras suspendieron las escalas programadas en Haifa y Ashdod a partir de finales de marzo de 2026 tras los últimos desarrollos de seguridad regional. El nuevo terminal (inaugurado el 14 de mayo de 2026) está completamente equipado y el verano de 2026 registra una reanudación gradual por parte de algunos operadores. **Verifica el itinerario actual de tu naviera para Israel** antes de reservar excursiones o asumir que la escala se realizará según lo previsto.
 
 La nueva terminal de cruceros de Haifa, inaugurada el **14 de mayo de 2026**, ha cambiado significativamente la experiencia de los pasajeros de cruceros que llegan al principal puerto del norte de Israel. Las instalaciones de 5.500 m² — las más grandes de Israel y entre las más capaces del Mediterráneo oriental — gestionan dos megabarcos simultáneamente, reducen las colas de inmigración con 28 puestos de control fronterizo dedicados y sitúan la terminal a distancia a pie de la estación de tren y el centro de Haifa. Esta guía cubre la propia terminal mejorada, las mejores opciones de excursiones desde Haifa y la logística práctica que marca la diferencia entre un día en el puerto sin estrés y uno apresurado.
 

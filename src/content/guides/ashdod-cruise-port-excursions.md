@@ -3,7 +3,7 @@ title: 'Ashdod Cruise Port Excursions: Jerusalem & Dead Sea Guide'
 description: 'Best day trips from Ashdod cruise port — Jerusalem Old City, Dead Sea, Masada and Tel Aviv. Timing, transport options, and booking advice for cruise passengers.'
 heroImage: /images/regions/jerusalem/old-city.jpg
 category: Tours
-updatedAt: 2026-07-21
+updatedAt: 2026-08-01
 ctaHeading: 'Book your Ashdod cruise excursion'
 verdictName: 'Ashdod cruise port excursions'
 verdictQuery: 'Ashdod cruise port day trip Jerusalem Israel'
@@ -42,6 +42,8 @@ faqs:
   - question: What practical things should I know about Ashdod port?
     answer: "Ashdod is Israel's primary southern cruise terminal. The cruise pier is about 5 minutes by taxi or 20 minutes on foot from Ashdod city centre — most passengers take a taxi or meet their excursion group at the gangway. Taxis queue at the port exit; Gett and Yango ride-hailing apps may not have drivers waiting at the terminal itself. Carry some Israeli new shekels (₪) for small purchases — card payments are near-universal in Jerusalem and Tel Aviv but useful to have for taxis and market stalls. The port has a small duty-free and café area for returns."
 ---
+
+> **Cruise call status — August 2026:** Major cruise lines suspended scheduled port calls to Haifa and Ashdod from late March 2026 following regional security developments. Summer 2026 is seeing a gradual resumption by some operators. **Verify your cruise line's current Israel schedule** before booking shore excursions or assuming a port day will proceed as planned.
 
 **Ashdod is Israel's primary southern cruise port** — and arguably the more privileged of the two (Haifa is the northern port), because it puts Jerusalem within one hour. That single geographic fact shapes everything about Ashdod shore excursions: the vast majority of cruise passengers head straight for the Old City, and the rest divide between the Dead Sea and Tel Aviv.
 

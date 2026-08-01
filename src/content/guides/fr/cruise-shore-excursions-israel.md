@@ -5,7 +5,7 @@ heroImage: /images/regions/haifa/hero.jpg
 category: Circuits
 verdictName: "les excursions de croisière en Israël"
 verdictQuery: Israel shore excursion cruise Haifa Ashdod
-updatedAt: 2026-06-23
+updatedAt: 2026-08-01
 ctaHeading: "Réservez vos excursions de croisière en Israël"
 affiliateCtas:
   - partner: getyourguide
@@ -42,6 +42,8 @@ faqs:
 ---
 
 Les navires de croisière faisant escale en Israël accostent dans deux ports principaux : **Haïfa** au nord et **Ashdod** au sud. Chacun vous met à portée de sites très différents — le bon choix d'excursion dépend donc entièrement du port où vous vous trouvez et du nombre d'heures que vous avez à terre.
+
+> **Avis — août 2026 :** Les principales compagnies de croisière ont suspendu leurs escales à Haïfa et Ashdod à partir de fin mars 2026. L'été 2026 voit une reprise progressive par certains armateurs. **Vérifiez le calendrier israélien actuel de votre compagnie** avant de réserver des excursions.
 
 ## Excursions depuis le port de Haïfa
 

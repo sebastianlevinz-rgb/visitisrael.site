@@ -5,7 +5,7 @@ heroImage: /images/regions/haifa/hero.jpg
 category: Tours
 verdictName: 'Israel cruise shore excursions'
 verdictQuery: 'Israel shore excursion cruise Haifa Ashdod'
-updatedAt: 2026-06-23
+updatedAt: 2026-08-01
 ctaHeading: 'Book shore excursions in Israel'
 affiliateCtas:
   - partner: getyourguide
@@ -40,6 +40,8 @@ faqs:
   - question: How much do Israel shore excursions cost?
     answer: 'Ship-sold group excursions typically run in the rough range of $80–150 per person for a half-day and $130–200+ for a full day, varying by operator and destination. Independent private transfers from Ashdod to Jerusalem run roughly $150–250 each way (for a car). Local guide fees run approximately $300–450 for a full day for a private guide, often shared across a small group. Prices vary widely — compare before you book and check live pricing at the time of purchase.'
 ---
+
+> **Cruise call status — August 2026:** Major cruise lines suspended scheduled port calls to Haifa and Ashdod from late March 2026 following regional security developments. The new Haifa terminal (opened 14 May 2026) is fully equipped, and summer 2026 is seeing a gradual resumption by some operators. **Verify your cruise line's current Israel schedule** before booking shore excursions.
 
 Cruise ships calling at Israel dock at two main ports: **Haifa** in the north and **Ashdod** in the south. Each puts you within striking distance of very different highlights — so the right shore excursion depends entirely on which port you're in and how many hours you have ashore.
 

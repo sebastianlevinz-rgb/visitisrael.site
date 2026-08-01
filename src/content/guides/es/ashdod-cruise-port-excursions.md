@@ -3,7 +3,7 @@ title: "Puerto de Ashdod: excursiones a Jerusalén y Mar Muerto"
 description: "Excursiones de un día desde el puerto de cruceros de Ashdod: Jerusalén, Mar Muerto, Masada y Tel Aviv. Horarios, transporte y consejos de reserva."
 heroImage: /images/regions/jerusalem/old-city.jpg
 category: Tours
-updatedAt: 2026-07-21
+updatedAt: 2026-08-01
 ctaHeading: "Reserva tu excursión desde el puerto de Ashdod"
 verdictName: "excursiones desde el puerto de cruceros de Ashdod"
 verdictQuery: "Ashdod cruise port day trip Jerusalem Israel"
@@ -42,6 +42,8 @@ faqs:
   - question: "¿Qué cosas prácticas debo saber sobre el puerto de Ashdod?"
     answer: "Ashdod es la principal terminal de cruceros del sur de Israel. El muelle de cruceros está a unos 5 minutos en taxi o 20 minutos a pie del centro de la ciudad de Ashdod — la mayoría de los pasajeros toman un taxi o se reúnen con su grupo de excursión en el muelle de embarque. Los taxis esperan en la salida del puerto; es posible que las apps de transporte compartido Gett y Yango no tengan conductores esperando en la propia terminal. Lleva algunos séquels israelíes (₪) para pequeñas compras — el pago con tarjeta es casi universal en Jerusalén y Tel Aviv, pero es útil tener efectivo para taxis y puestos de mercado. El puerto tiene una pequeña zona duty-free y una cafetería para los regresos."
 ---
+
+> **Aviso — agosto de 2026:** Las principales navieras suspendieron las escalas en Haifa y Ashdod a partir de finales de marzo de 2026. El verano de 2026 registra una reanudación gradual por parte de algunos operadores. **Verifica el itinerario actual de tu naviera para Israel** antes de reservar excursiones o asumir que la escala se realizará según lo previsto.
 
 **Ashdod es el principal puerto de cruceros del sur de Israel** — y podría decirse que el más privilegiado de los dos (Haifa es el puerto del norte), ya que pone Jerusalén a una hora de distancia. Ese único hecho geográfico lo determina todo sobre las excursiones en tierra desde Ashdod: la gran mayoría de los pasajeros de crucero se dirigen directamente a la Ciudad Vieja, y el resto se divide entre el Mar Muerto y Tel Aviv.
 

@@ -3,7 +3,7 @@ title: 'Cruises from Israel: Homeport in Haifa 2026 Guide'
 description: "Sail from Israel's newly expanded Haifa cruise terminal: lines, itineraries, pre- and post-cruise stay options, and how to get from Ben Gurion Airport."
 heroImage: /images/regions/haifa/hero.jpg
 category: Transport
-updatedAt: 2026-07-30
+updatedAt: 2026-08-01
 ctaHeading: 'Find cruises departing from Israel'
 affiliateCtas:
   - partner: booking
@@ -42,6 +42,8 @@ faqs:
   - question: How does pre-cruise hotel booking in Haifa work?
     answer: "Most cruise lines recommend arriving one day early and staying near the embarkation port. In Haifa, the German Colony neighbourhood (UNESCO-adjacent, Bahá'í Gardens 10 minutes' walk) and the Carmel Ridge area offer the widest range of accommodation — boutique hotels, Airbnb and serviced apartments. The port area itself is industrial but the German Colony and downtown Haifa are a short taxi ride away. When searching Booking.com, filter for 'Haifa port' or 'Haifa German Colony' and choose check-out for your embarkation day. Most hotels accept early drop-off for luggage before formal check-in."
 ---
+
+> **Cruise call status — August 2026:** Major cruise lines suspended scheduled port calls to Haifa and Ashdod from late March 2026 following regional security developments. The new Haifa terminal (opened 14 May 2026) is fully equipped for homeport operations, and summer 2026 is seeing a gradual resumption by some operators. **Verify your cruise line's current Israel schedule** — including homeport sailings — before booking.
 
 ## Cruising from Israel: A Practical Guide
 

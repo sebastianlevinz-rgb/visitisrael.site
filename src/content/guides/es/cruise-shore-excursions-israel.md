@@ -5,7 +5,7 @@ heroImage: /images/regions/haifa/hero.jpg
 category: Tours
 verdictName: excursiones de crucero en Israel
 verdictQuery: excursion crucero Israel Haifa Ashdod
-updatedAt: 2026-06-23
+updatedAt: 2026-08-01
 ctaHeading: Reserva excursiones en Israel
 affiliateCtas:
   - partner: getyourguide
@@ -42,6 +42,8 @@ faqs:
 ---
 
 Los cruceros que escalan en Israel atracan en dos puertos principales: **Haifa** al norte y **Ashdod** al sur. Cada uno te sitúa a distancia de tiro de atracciones muy distintas, así que la excursión ideal depende del puerto en que estés y del tiempo que tengas en tierra.
+
+> **Aviso — agosto de 2026:** Las principales navieras suspendieron las escalas en Haifa y Ashdod a partir de finales de marzo de 2026. El verano de 2026 registra una reanudación gradual por parte de algunos operadores. **Verifica el itinerario actual de tu naviera para Israel** antes de reservar excursiones.
 
 ## Excursiones desde el puerto de Haifa
 

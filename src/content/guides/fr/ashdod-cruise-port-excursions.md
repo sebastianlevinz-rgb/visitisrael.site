@@ -3,7 +3,7 @@ title: "Excursions depuis le port de croisière d'Ashdod : Jérusalem et Mer Mor
 description: "Meilleures excursions depuis le port d'Ashdod — Vieille Ville de Jérusalem, Mer Morte, Massada et Tel Aviv. Timing, transports et conseils de réservation pour croisiéristes."
 heroImage: /images/regions/jerusalem/old-city.jpg
 category: Visites
-updatedAt: 2026-07-29
+updatedAt: 2026-08-01
 verdictName: "les excursions depuis le port de croisière d'Ashdod"
 verdictQuery: "Ashdod cruise port day trip Jerusalem Israel"
 ctaHeading: "Réservez votre excursion depuis le port d'Ashdod"
@@ -42,6 +42,8 @@ faqs:
   - question: "Que faut-il savoir sur le port d'Ashdod ?"
     answer: "Ashdod est le principal terminal de croisière sud d'Israël. La jetée de croisière est à environ 5 minutes en taxi ou 20 minutes à pied du centre-ville d'Ashdod — la plupart des passagers prennent un taxi ou retrouvent leur groupe d'excursion à la passerelle. Des taxis font la queue à la sortie du port ; les applications de VTC Gett et Yango n'ont pas toujours de chauffeurs qui attendent au terminal lui-même. Apportez quelques shekels nouveaux israéliens (₪) pour les petits achats — les paiements par carte sont quasi universels à Jérusalem et Tel Aviv, mais utiles pour les taxis et les étals de marché. Le port dispose d'un petit duty-free et d'une zone café pour les retours."
 ---
+
+> **Avis — août 2026 :** Les principales compagnies de croisière ont suspendu leurs escales à Haïfa et Ashdod à partir de fin mars 2026. L'été 2026 voit une reprise progressive par certains armateurs. **Vérifiez le calendrier israélien actuel de votre compagnie** avant de réserver des excursions ou de planifier votre escale.
 
 **Ashdod est le principal port de croisière sud d'Israël** — et sans doute le plus avantageux des deux (Haïfa est le port nord), car il met Jérusalem à moins d'une heure. Ce seul fait géographique structure tout ce qui concerne les excursions depuis Ashdod : la grande majorité des passagers de croisière se dirigent directement vers la Vieille Ville, et les autres se partagent entre la Mer Morte et Tel Aviv.
 

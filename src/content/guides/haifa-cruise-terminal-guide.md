@@ -5,7 +5,7 @@ heroImage: /images/regions/haifa/hero.jpg
 category: Tours
 verdictName: Haifa cruise shore excursions
 verdictQuery: Haifa cruise port excursion Israel 2026
-updatedAt: 2026-07-18
+updatedAt: 2026-08-01
 ctaHeading: Book shore excursions from Haifa cruise port
 affiliateCtas:
   - partner: getyourguide
@@ -42,6 +42,8 @@ faqs:
   - question: How long does immigration take at Haifa cruise terminal?
     answer: "The new terminal's 28 dedicated border-control booths were specifically designed to reduce passenger wait times versus the prior facility. For a single ship with a standard passenger load, immigration is typically completed within 30–60 minutes of docking. At peak season — particularly when two mega-ships arrive simultaneously — allow up to 90 minutes. Israeli border control involves routine security questions; have your ship card, passport and return-ship documentation readily accessible. Passengers with a prior Israel entry record (or an Israeli passport) typically move through faster."
 ---
+
+> **Cruise call status — August 2026:** Major cruise lines suspended scheduled port calls to Haifa and Ashdod from late March 2026 following regional security developments. The new Haifa cruise terminal (opened 14 May 2026) is fully equipped, and summer 2026 is seeing a gradual resumption by some operators. **Verify your cruise line's current Israel schedule** before booking shore excursions or assuming a port day will proceed as planned.
 
 Haifa's new cruise terminal, inaugurated on **14 May 2026**, has significantly changed the experience for cruise passengers arriving at Israel's primary northern port. The 5,500m² facility — the largest in Israel and among the most capable in the Eastern Mediterranean — handles two mega-ships simultaneously, cuts immigration queuing with 28 dedicated border-control booths, and places the terminal within walking distance of Haifa's train station and city centre. This guide covers the upgraded terminal itself, the best shore excursion options from Haifa, and the practical logistics that make the difference between a stress-free port day and a rushed one.
 

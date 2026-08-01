@@ -3,7 +3,7 @@ title: 'Mediterranean Cruise Including Israel: Planning Guide 2026'
 description: 'Planning a Mediterranean cruise that includes Israel — ports, best shore excursions, pre/post stays in Tel Aviv and Jerusalem, and booking tips.'
 heroImage: /images/regions/haifa/hero.jpg
 category: Tours
-updatedAt: 2026-07-25
+updatedAt: 2026-08-01
 verdictName: 'Mediterranean cruise including Israel'
 verdictQuery: 'Mediterranean cruise Israel ports Haifa Ashdod itinerary'
 ctaHeading: 'Plan your Israel cruise experience'
@@ -28,7 +28,7 @@ affiliateCtas:
     cta: Search Tel Aviv hotels
 faqs:
   - question: Which cruise lines sail to Israel in 2026?
-    answer: "The main cruise lines with Israel calls in 2026 include MSC Cruises, Royal Caribbean, Celebrity Cruises, Norwegian Cruise Line, Costa Cruises, P&O Cruises UK, Cunard, Silversea and Seabourn. Israel is a standard port of call on Eastern Mediterranean itineraries departing from Civitavecchia (Rome), Piraeus (Athens), Barcelona and Venice/Trieste. Israeli port agents confirm both Haifa and Ashdod are fully operational. Always check your specific sailing schedule against current FCDO and US State Department Israel travel advisories before booking — these are updated regularly."
+    answer: "Lines that have historically included Israel calls — MSC Cruises, Royal Caribbean, Celebrity Cruises, Norwegian Cruise Line, Costa Cruises, P&O Cruises UK, Cunard, Silversea and Seabourn — all operate on Eastern Mediterranean itineraries. However, following a region-wide suspension of Israeli port calls that began in late March 2026, summer 2026 is a gradual-return phase: some operators have resumed Haifa and Ashdod calls while others have not yet reinstated them. Verify your specific sailing's Israel schedule directly with your cruise line or on Cruise Critic and CruiseMapper before booking, and check the FCDO and US State Department Israel travel advisories."
   - question: Which Israeli port is better — Haifa or Ashdod?
     answer: "It depends entirely on what you want to see. Haifa is the best port for northern Israel: the UNESCO Bahá'í Gardens are 10–15 minutes by taxi; Old Akko is 20 minutes by train; Caesarea, Nazareth and the Sea of Galilee are all comfortable day-trips. Ashdod is the gateway to southern Israel: Jerusalem is 45–60 minutes by coach; Masada and the Dead Sea are about 2.5 hours away (a very full day). If your itinerary calls at both ports, you can cover north and south comfortably. Many Eastern Med cruises include only one Israeli port — in that case, Ashdod gives you Jerusalem (the headline attraction), while Haifa offers easier independent travel and more variety for history lovers who have already seen Jerusalem."
   - question: Can I do Jerusalem on a cruise port day?
@@ -42,6 +42,8 @@ faqs:
   - question: Do I need a visa to visit Israel on a cruise?
     answer: "Citizens of the EU, USA, UK, Canada, Australia and most Western countries enter Israel visa-free for up to 90 days — this applies to cruise passengers as well. You will clear Israeli border control at the port itself (Haifa or Ashdod): bring your passport (valid 6+ months beyond travel), the name and address of any accommodation you plan to use for overnight stays, and a return travel document (cruise ticket or onward flight). Israeli stamps in your passport may create difficulties at some Arab border crossings; if this is a concern, ask the immigration officer at the Israeli port not to stamp your passport — this is a standard request and is usually granted."
 ---
+
+> **Cruise call status — August 2026:** Major cruise lines suspended scheduled port calls to Haifa and Ashdod from late March 2026 following regional security developments. The new Haifa terminal (opened 14 May 2026) is fully equipped, and summer 2026 is seeing a gradual resumption by some operators. **Verify your cruise line's current Israel itinerary** before planning around a specific port day.
 
 Israel appears on Eastern Mediterranean cruise itineraries for good reason: two distinct port cities give cruise passengers access to Jerusalem, the Sea of Galilee, Masada, the UNESCO Bahá'í Gardens and some of the oldest cities in the world — all within a single port day each. This guide covers how to choose your itinerary, what to expect at each port, and how to build a pre- or post-cruise extension that turns a fleeting port call into a deeper Israel experience.
 
