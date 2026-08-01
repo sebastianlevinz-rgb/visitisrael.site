@@ -13903,3 +13903,11 @@ Ship: squash-merged auto/de-phase-13 to master, pushed bc83fca6. Branch deleted.
 DE guides: 147→152/398. Build pages: 1218→1223.
 Flags: haifa-food-guide title 67 chars — over 65 limit; target REVIEW iter919 to fix.
 Next: iter 919 → REVIEW (919%5=4 → REVIEW mode; review DE-13 guides meta/links/honesty; fix haifa-food-guide title).
+
+## 2026-08-01T11:07Z · iter 919 · REVIEW · review-919-de-phase-13-meta-link-fix
+What: Audited 5 DE Phase 13 guides (eilat-vs-aqaba, galilee-wine-trail, haifa-food-guide, golan-heights-hiking-trails, hotels-near-ben-gurion-airport) for meta title/desc length, /de/* cross-link validity, H1 violations, no fabricated prices, honesty framing.
+Fixes (2): (1) haifa-food-guide title 66→60 chars ('kulinarisch:' → 'Küche:') — flagged in iter918 STATE; (2) galilee-wine-trail: Golan political note added to body (matching ES counterpart; absent despite iter918 spec).
+Clean: eilat-vs-aqaba (59/141, 8 links ✓, reef bleaching ✓, Dolphin Reef encounters-not-guaranteed ✓); golan-heights-hiking-trails (64/147, 3 links ✓, UXO ✓, political note in body ✓); hotels-near-ben-gurion-airport (62/149, 3 links ✓, Richtwertspannen ✓). 0 H1 in any body. 21 /de/* hrefs all verified present.
+Gate: pnpm check 0 errors; pnpm build 1223 pages (no change); pnpm test:e2e 1729/1729 pass (22.8m). GREEN.
+Ship: committed c06b5a68, pushed to master. CI in_progress at push time.
+Next: iter920 → RESEARCH (920%5=0 → RESEARCH mode).
