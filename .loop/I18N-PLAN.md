@@ -6,18 +6,18 @@
 >
 > One bounded slice per loop iteration. NEVER bulk-translate in one shot.
 
-## Current status snapshot (2026-08-01 iter922 BUILD — DE-14 SHIPPED; iter923 BUILD next)
+## Current status snapshot (2026-08-01 iter923 BUILD — FR-15 SHIPPED; iter924 REVIEW next)
 
 | Locale | Guides | Attractions | Regions | Itineraries |
 |--------|--------|-------------|---------|-------------|
 | en     | 398    | 65          | 11      | 6           |
-| fr     | 157    | 61          | 11      | 6           |
+| fr     | 162    | 61          | 11      | 6           |
 | de     | 157    | 61          | 11      | 6           |
 | es     | 145    | 61          | 11      | 6           |
 
 **Gaps to close:**
 - es guides: **253 missing** (145/398 done — Phase ES-28 SHIPPED iter921 6681a508; **Phase ES-29 TBD**)
-- fr guides: **241 missing** (157/398 done — Phase FR-14 SHIPPED iter913 d949691f; **Phase FR-15 defined iter905**)
+- fr guides: **236 missing** (162/398 done — Phase FR-15 SHIPPED iter923 c6b16be9; **Phase FR-16 TBD**)
 - de guides: **241 missing** (157/398 done — Phase DE-14 SHIPPED iter922 ae700f9b; **Phase DE-15 TBD**)
 - fr/de/es attractions: **4 missing each** (the 4 EN attractions added after Phase 4)
 

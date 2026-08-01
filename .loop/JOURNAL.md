@@ -13959,3 +13959,17 @@ Gate: pnpm check 0 errors; pnpm build 1233 pages (+5 from 1228); pnpm test:e2e 1
 Ship: squash-merged auto/de-phase-14 to master, pushed ae700f9b. Branch deleted.
 DE guides: 152→157/398. Build pages: 1228→1233.
 Next: iter923 → BUILD (923%5=3 → BUILD; recommend FR-15 or ES-29 by rotation).
+
+## 2026-08-01 · iter 923 · BUILD (i18n-FR) · fr-phase-15
+What: FR Phase FR-15 — 5 new French guides completing the FR catch-up batch defined in iter905.
+Guides created:
+  - src/content/guides/fr/israel-eta-guide.md — ETA-IL mandatory pre-travel clearance for FR/BE/CH travelers; official portal israel-entry.piba.gov.il; ₪25 fee; 72h advance; scam site warning; dual nationality/Aliyah cases; 8 FAQs.
+  - src/content/guides/fr/how-to-hire-licensed-tour-guide-israel.md — Ministry of Tourism blue licence; mandatory sites table; tarifs ₪600-900→₪1600-2400; IATOA verification; francophone specializations; 3 CTAs; 6 FAQs.
+  - src/content/guides/fr/haifa-neighborhoods-guide.md — 6 quartiers at-a-glance table; Carmelit 6 stations; Fête des Fêtes décembre; Bahá'í active-site framing; 6 FAQs.
+  - src/content/guides/fr/israel-accessible-travel.md — Yad Sarah 100+ loan points; ATIJ network; Tel Aviv/Jerusalem/Ein Bokek/Massada/Haifa accessibility details; 6 FAQs.
+  - src/content/guides/fr/haifa-shore-excursions.md — cruise suspension notice Aug 2026; excursion table 6 circuits; ETA-IL required; Bahá'í upper terraces advance registration; 6 FAQs.
+Tests: smoke.spec.ts + a11y.spec.ts each +5 FR routes.
+Gate: pnpm check 0 errors; pnpm build 1238 pages (+5 from 1233); pnpm test:e2e 1759/1759 pass (12.2m). GREEN.
+Ship: committed directly on master as c6b16be9, pushed. CI: success (all workflow runs concluded success).
+FR guides: 157→162/398. Build pages: 1233→1238.
+Next: iter924 → REVIEW (924%5=4 → REVIEW; recommend auditing FR-15 guides: meta title ≤65, desc ≤160, /fr/* cross-links verified, no H1, honesty framing).
