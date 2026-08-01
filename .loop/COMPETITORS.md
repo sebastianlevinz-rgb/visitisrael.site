@@ -7053,3 +7053,29 @@ Sources: travelandtourworld.com, touristisrael.com, lonelyplanet.com/journeys, v
 
 **Honesty alert (ongoing):**
 - Cruise guide suspension still unaddressed: Haifa/Ashdod cruise calls suspended March 28, 2026. Our guides (israel-homeport-cruise + haifa-cruise-terminal + cruise-shore-excursions + ashdod-cruise-port-excursions) present services as active. P1 BUILD task.
+
+### 2026-08-01 · iter 920 · RESEARCH — 184th pass · ES-28 definition + tool gaps + freshness
+
+Sources: itn.co.il, gordoniahotels.com, jpost.com, hotel-online.com, virtuoso.com, themedialine.org (HolyLandTravel.ai), getyourguide.press (Spring 2026 AI release), wikipedia.org (Milei 2026 state visit), nomadlawyer.org (US arrivals data), civitatis.com, tripadvisor.com, misterbandb.com, travelgay.com, wanderlog.com, lonelyplanet.com.
+
+**LATAM editorial competition (iter920):**
+- Spanish Israel LGBTQ guide: MrBnB has city-level listings; TravelGay has bar/club directories. NO editorial depth guide in Spanish covering the full LGBTQ+ experience (Pride dates, hotel picks, legal context, regional beyond Tel Aviv). Our lgbtq-travel-israel.md ES translation fills a genuine vacuum.
+- Spanish Jerusalem neighborhoods guide: jerusalen.com covers the 4 Old City quarters only (no modern neighborhoods, no hotel tiers, no practical decision matrix). Zero other LATAM ES editorial competitor. Our guide will dominate "barrios de Jerusalén dónde alojarse."
+- Spanish month-by-month guide: exoticca.com and adonde-y-cuando.es have thin seasonal pages. visitartierrasanta.com has a table but no editorial narrative. Zero dedicated editorial monthly guide in Spanish.
+- Spanish Jewish heritage guide: World Jewish Travel has English-only; Civitatis has tour listings only. Zero ES editorial depth guide covering Yad Vashem + Western Wall + City of David + genealogy research + bar mitzvah planning context. High affinity with LATAM diaspora (Argentina 190K+, Brazil 95K+, Mexico 40K+).
+- Spanish Israel 2026 update: Agency package pages only (Despegar, Travel Viajes, Antia). Zero editorial "what changed in 2026" guide in Spanish. JPost summer 2026 "tourism struggles" headline = honest angle competitors are ignoring.
+
+**Tool competitive landscape (iter920):**
+- HolyLandTravel.ai: AI-powered pilgrimage planner (launched IMTM Jan 2026, backed by Ambassador Huckabee's office). Requires app download + login. We can replicate as a lightweight vanilla JS static widget — no AI needed, no auth, instant output, zero competition. Source: themedialine.org/people/region/for-christian-tourists-a-new-ai-platform-offers-a-pathway-back-to-israel/
+- GetYourGuide Spring 2026 AI release: GYG launched "AI tour recommendations" inside their booking flow. This is an OTA feature, not editorial — does not threaten our planning tools. Source: getyourguide.press/blog/springrelease2026
+- Lonely Planet Journeys + Trip Builder: Growing threat to our build-your-trip tool. Neither has Spanish/French/German Israel content — i18n moat intact.
+- Wanderlog Israel planner: Map-based trip planner with stop-by-stop listings and bookable extensions. Growing traction but no i18n editorial content.
+
+**Freshness scan (iter920):**
+- Gordonia Zichron Yaakov: CONFIRMED opened Feb 1, 2026 (141 rooms, 81m heated infinity pool, ₪200M, adults 10+). Sources: itn.co.il opening announcement + gordoniahotels.com/en/zikhron/ + jpost.com/travel/article-876623. MISSING from our zichron-yaakov-guide.md AND new-luxury-hotels-israel-2026.md → P2 freshness items added to BACKLOG.
+- InterContinental Jerusalem: LIKELY NOT YET OPEN as of Aug 1, 2026. Evidence: (a) no guest reviews found on Booking.com/TripAdvisor; (b) Virtuoso listing marked "preview property" implying early 2027 availability; (c) hotel-online.com Aug 2026 headline "executive team appointed ahead of late summer opening"; (d) holalatinosnews.com still says "will open its doors this summer" (future tense). Hedged framing in our guides is correct. Re-check October 2026.
+- Israel tourism recovery: US/Canada June 2026 arrivals +73% YoY (34,700 visitors) per nomadlawyer.org. JPost July 2026 "land with no tourists: summer on ice again" headline signals uneven recovery. Our israel-travel-2026.md should not claim full recovery — current framing can stand if it acknowledges unevenness.
+- Milei 2026 state visit to Israel: Confirmed per Wikipedia (2026 state visit). Short-term tailwind for "Israel viaje Argentina" queries.
+- Tel Aviv Pride 2026: Confirmed June 7–13, parade June 12. lgbtq-travel-israel.md EN content is current.
+
+**EN saturation (iter920):** ~97%+ (184th research pass). No new EN structural gaps beyond tool opportunities and eilat-vs-sharm-el-sheikh. Focus remains on ES (258 missing), FR (241 missing), DE (246 missing) i18n catch-up.

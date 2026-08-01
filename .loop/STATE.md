@@ -1,13 +1,15 @@
 # LOOP STATE
 
-- iteration: 919
-- lastMode: REVIEW
-- lastItem: review-919-de-phase-13-meta-link-fix
-- lastResult: SHIPPED c06b5a68. REVIEW iter919 DE Phase 13 audit — 2 fixes: (1) haifa-food-guide title 66→60 chars; (2) galilee-wine-trail Golan political note added. 3 clean guides confirmed. Gate: pnpm check 0 errors; build 1223 pages (no change); 1729/1729 e2e pass (22.8m). Pushed c06b5a68. CI in_progress at push time.
-- nextRotationCategory: RESEARCH (iter920; 920%5=0 → RESEARCH)
+- iteration: 920
+- lastMode: RESEARCH
+- lastItem: research-920-es-28-defined
+- lastResult: RESEARCH iter920 (184th research pass). ES-28 defined: lgbtq-travel-israel, jerusalem-neighborhoods-guide, israel-by-month, jewish-heritage-israel, israel-travel-2026 (all confirmed MISSING from ES). LATAM editorial competition confirmed thin (tour aggregators only). US/Canada tourism +73% YoY. No code changes.
+- nextRotationCategory: BUILD (iter921; 921%5=1 → BUILD; recommend ES-28)
 - higgsfieldSpent: 0
-- updatedAt: 2026-08-01T11:07Z
+- updatedAt: 2026-08-01T12:10Z
 - branch context: work on master; feature work on auto/<slug>
+
+Notes: iter920 RESEARCH — research-920-es-28-defined. 184th research pass. ES-28 batch defined (5 guides all confirmed MISSING from ES via comm -23): lgbtq-travel-israel (Tel Aviv #1 global LGBTQ+ destination; zero LATAM ES editorial; LATAM market Mexico/Argentina/Colombia); jerusalem-neighborhoods-guide (completes TLV+Jerusalem pair after ES-26 tel-aviv-neighborhoods-guide iter911; high planning-stage intent; /es/jerusalem-travel-guide does NOT exist — use EN fallback /jerusalem-travel-guide in cross-links); israel-by-month (month-by-month planning; very high LATAM search intent; pairs /es/best-time-to-visit-israel confirmed); jewish-heritage-israel (LATAM Jewish diaspora: Argentina ~190K, Brazil ~95K, Mexico ~40K; genealogy tourism; pairs /es/yad-vashem-visitor-guide + /es/western-wall-guide confirmed); israel-travel-2026 (flagship 2026 update; tourism +73% YoY; ETA-IL + Terminal 1 + Biblical Highway; pairs /es/first-time-in-israel + /es/visa-information + /es/airlines-flying-israel-2026 all confirmed). ES current: 140/398. DE-14 + FR-15 both fully defined and ready for next non-ES BUILD iterations. No code changes; no gate run.
 
 Notes: iter919 REVIEW — review-919-de-phase-13-meta-link-fix SHIPPED c06b5a68. Audited all 5 DE Phase 13 guides against: meta title ≤65, desc ≤160, /de/* cross-links exist in filesystem, no H1 in MDX body, no fabricated prices, honesty framing. 2 fixes across 2 files: haifa-food-guide title 66→60 chars (removed "kulinarisch:" → "Küche:"); galilee-wine-trail: added Golan political note ("Die Golanhöhen stehen seit 1967 unter israelischer Kontrolle; die US-Anerkennung von 2019 wird von den Vereinten Nationen und den meisten Ländern nicht anerkannt...") — was missing despite iter918 spec. eilat-vs-aqaba: CLEAN (title 59, desc 141, 8 /de/* links ✓, reef bleaching honest ✓, Dolphin Reef encounters-not-guaranteed ✓). golan-heights-hiking-trails: CLEAN (title 64, desc 147, 3 /de/* links ✓, UXO warning ✓, Golan political note in body ✓). hotels-near-ben-gurion-airport: CLEAN (title 62, desc 149, 3 /de/* links ✓, all prices as Richtwertspannen ✓). 0 H1 in any MDX body. 0 fabricated prices. 21 unique /de/* hrefs verified present. Gate: pnpm check 0 errors; pnpm build 1223 pages (no change); pnpm test:e2e 1729/1729 pass (22.8m). Pushed c06b5a68. CI in_progress.
 

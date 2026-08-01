@@ -13911,3 +13911,20 @@ Clean: eilat-vs-aqaba (59/141, 8 links ✓, reef bleaching ✓, Dolphin Reef enc
 Gate: pnpm check 0 errors; pnpm build 1223 pages (no change); pnpm test:e2e 1729/1729 pass (22.8m). GREEN.
 Ship: committed c06b5a68, pushed to master. CI in_progress at push time.
 Next: iter920 → RESEARCH (920%5=0 → RESEARCH mode).
+
+## 2026-08-01T12:10Z · iter 920 · RESEARCH · research-920-es-28-defined
+What: 184th research pass. RESEARCH mode (920%5=0). Defined ES-28 batch; updated BACKLOG with 7 net-new items; updated COMPETITORS; confirmed freshness issues.
+Findings:
+  - ES-28 defined: 5 guides all confirmed MISSING from ES via comm -23 (2026-08-01) — lgbtq-travel-israel, jerusalem-neighborhoods-guide, israel-by-month, jewish-heritage-israel, israel-travel-2026. All EN source guides exist and are current (updated June–July 2026). Research agent ranking: israel-by-month (#1 highest-volume planning query) > israel-travel-2026 (#2 time-sensitive 2026 surge) > jewish-heritage-israel (#3 LATAM diaspora) > jerusalem-neighborhoods-guide (#4 planning intent) > lgbtq-travel-israel (#5 high-value segment). NOTE: /es/jerusalem-travel-guide does NOT exist — use EN fallback /jerusalem-travel-guide in ES-28 jerusalem-neighborhoods-guide.
+  - Gordonia Zichron Yaakov freshness (P2/XS): Confirmed opened February 1, 2026 (141 rooms, 81m infinity pool, ₪200M investment per ITN + gordoniahotels.com). MISSING from both zichron-yaakov-guide.md AND new-luxury-hotels-israel-2026.md. Add to both files in next BUILD iteration.
+  - InterContinental Jerusalem: Likely NOT YET OPEN as of Aug 1, 2026 (no guest reviews found; Virtuoso listing implies early 2027; Hotel Online says "ahead of late summer opening"). Current hedged framing in best-hotels-jerusalem.md correct — maintain. Re-check Oct 2026; update to "late 2026 or early 2027" if still not open.
+  - New tool opportunities: (A) Faith/Pilgrimage Route Builder vanilla JS widget (/israel-pilgrimage-planner) — HolyLandTravel.ai competitor; faith tourism is Israel's primary 2026 recovery driver; zero editorial competition; (B) LATAM Currency Adapter for existing cost calculator (ARS/BRL/MXN/CLP multiplier rows — S-effort); (C) "Which Jerusalem Hotel Neighborhood?" quiz (5-question → Old City/Mamilla/German Colony/Mahane Yehuda — S-effort).
+  - New EN content gaps: eilat-vs-sharm-el-sheikh.md (zero editorial coverage EN+ES; Houthi drone context; Argentine/Brazilian charter angle); israel-para-latinoamericanos.md (Argentina Milei 2026 state visit tailwind; LATAM-specific routing/insurance/diaspora content distinct from israel-for-spanish-travelers.md); turismo-religioso-israel.md ES hub page.
+  - GetYourGuide launched Spring 2026 AI release — competitor tool pressure on our build-your-trip; moat intact but narrowing.
+  - US/Canada arrivals +73% YoY June 2026 (34,700 visitors per nomadlawyer.org). JPost "land with no tourists" summer headline suggests recovery uneven — israel-travel-2026.md framing should NOT claim full recovery; "trajectory positive but summer 2026 still below pre-war" is the honest frame.
+  - Tel Aviv Pride 2026 confirmed June 7–13 (parade June 12) — lgbtq-travel-israel.md EN content is current.
+  - 2026 Milei state visit to Israel confirmed (Wikipedia) — raises "Israel viaje Argentina" query volume short-term.
+Gate: RESEARCH mode — no code changes, no gate run.
+Ship: no shipping this iteration.
+ES guides: 140/398 (no change — RESEARCH).
+Next: iter921 → BUILD (921%5=1 → BUILD mode). Recommend ES-28 (highest ES gap: 258 missing guides).
