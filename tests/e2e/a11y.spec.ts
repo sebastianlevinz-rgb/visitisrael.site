@@ -663,6 +663,11 @@ const ROUTES = [
   '/fr/hotels-near-ben-gurion-airport',
   '/fr/galilee-vs-golan-weekend',
   '/fr/glamping-israel',
+  '/es/haifa-tours-compared',
+  '/es/haifa-shore-excursions',
+  '/es/israel-adventure-sports',
+  '/es/druze-villages-carmel',
+  '/es/hayarkon-park-tel-aviv',
 ];
 
 for (const route of ROUTES) {
