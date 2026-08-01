@@ -18,7 +18,7 @@
 **Gaps to close:**
 - es guides: **248 missing** (150/398 done — Phase ES-29 SHIPPED iter926 b9ec8b3a; **Phase ES-30 TBD**)
 - fr guides: **231 missing** (167/398 done — Phase FR-16 SHIPPED iter927 e6d059c1; **Phase FR-17 TBD**)
-- de guides: **241 missing** (157/398 done — Phase DE-14 SHIPPED iter922 ae700f9b; **Phase DE-15 TBD**)
+- de guides: **236 missing** (162/398 done — Phase DE-15 SHIPPED iter928 75504d53; **Phase DE-16 TBD**)
 - fr/de/es attractions: **4 missing each** (the 4 EN attractions added after Phase 4)
 
 **Dead Sea cluster status (iter855 audit):**
@@ -824,7 +824,7 @@ Quality: neutral LATAM Spanish tuteo; YAML double-quotes; /es/* prefix only for 
 |--------|--------|------|
 | en     | 398    | stable |
 | fr     | 167    | 231 missing — Phase FR-16 SHIPPED iter927 e6d059c1; **Phase FR-17 TBD** |
-| de     | 157    | 241 missing — Phase DE-14 SHIPPED iter922 ae700f9b; **Phase DE-15 defined iter925** |
+| de     | 162    | 236 missing — Phase DE-15 SHIPPED iter928 75504d53; **Phase DE-16 TBD** |
 | es     | 150    | 248 missing — Phase ES-29 SHIPPED iter926 b9ec8b3a; **Phase ES-30 TBD** |
 
 **All three next phases defined iter925 (185th research pass):**
@@ -893,7 +893,7 @@ Research agent ranking (by FR SEO value + editorial gap):
 
 Quality: metropolitan French; YAML double-quotes; /fr/* prefix only for confirmed-existing FR pages; no fabricated prices (all ₪/$ ranges only); Golan Heights political status note factual/neutral (UN non-recognition stated clearly); UXO off-trail warning (Golan); Bahá'í active-site framing if referenced; olive tree age honesty (Gethsémani); Druze photography etiquette; Rosh Hanikra winter sea-state caveat; cable car not covered by INPA pass.
 
-### Phase DE-15 (157 → 162/398) — DEFINED iter925
+### Phase DE-15 (157 → 162/398) — SHIPPED iter928 75504d53
 
 Guides: `guided-vs-self-guided-israel.md`, `golan-heights-wineries.md`, `druze-villages-carmel.md`, `rosh-hanikra-guide.md`, `haifa-cruise-terminal-guide.md`
 All 5 confirmed MISSING from `src/content/guides/de/` via `comm -23` (2026-08-01).

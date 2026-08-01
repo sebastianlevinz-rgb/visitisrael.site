@@ -1674,3 +1674,7 @@ ES guides: 145→150/398. Build: 1238→1243 pages. 1769/1769 e2e pass.
 ## iter927 · fr-phase-16 · e6d059c1 · 2026-08-01
 5 French guides: golan-heights-guide (Golan region overview + political status note + UXO warning), golan-heights-hiking-trails (Yehudiya/Zavitan/Meshushim/Gamla; UXO; INT sections), druze-villages-carmel (Daliyat el-Carmel; pita drusa; photography etiquette), rosh-hanikra-guide (grottos; cable car INPA caveat; winter caveat), mount-of-olives-guide (Gethsémani olive tree honesty; paired-naming; pilgrimage circuit).
 FR guides: 162→167/398. Build: 1243→1248 pages. 1779/1779 e2e pass.
+
+## iter928 · de-phase-15 · 75504d53 · 2026-08-01
+5 German guides: guided-vs-self-guided-israel (MoT-Lizenzpflicht; Hybridmodell; Kostenvergleich; 7 FAQs; GYG+DiscoverCars), golan-heights-wineries (5 Weingüter; Golan political note; Selbstfahr-Rundkurs; verdictName/verdictQuery; 7 FAQs; GYG+DiscoverCars+Booking), druze-villages-carmel (Drusen-Pita auf Saj; Khalwat-Fotografierverbot; El-Muhraka; 7 FAQs; GYG+Viator+Booking), rosh-hanikra-guide (Seilbahn 2025 ₪53/₪43; INPA nicht gültig; osmanischer Tunnel; 6 FAQs), haifa-cruise-terminal-guide (Aug-2026-Suspension-Blockquote; Terminal 5500m²; 7 FAQs; GYG+Viator+Booking).
+DE guides: 157→162/398. Build: 1248→1253 pages. 1789/1789 e2e pass.

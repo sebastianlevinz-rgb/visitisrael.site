@@ -1,13 +1,15 @@
 # LOOP STATE
 
-- iteration: 927
-- lastMode: BUILD (i18n-FR)
-- lastItem: fr-phase-16
-- lastResult: BUILD iter927. FR Phase FR-16 SHIPPED e6d059c1. 5 metropolitan-French guides: golan-heights-guide (Golan geography; Nimrod Fortress Ayyubid 1229; Banias/Gamla/Quneitra; winery circuit overview; political status note UN non-recognition stated; UXO off-trail warning; CTAs GYG+DiscoverCars+Booking; 7 FAQs); golan-heights-hiking-trails (Yehudiya 14km difficile; Zavitan 5km modéré; Nahal Meshushim/Piscine Hexagonale; Gamla circuit+vautours; INT Golan sections; UXO warning; CTAs GYG+DiscoverCars+GYG multi-day; 6 FAQs); druze-villages-carmel (Daliyat el-Carmel pita drusa; marché artisanal; El-Muhraka monastery; photography etiquette — khalwa; CTAs GYG+Viator+Booking; 7 FAQs); rosh-hanikra-guide (grottes bioluminescentes; cable car ₪53 restored 2025; INPA pass NOT valid; Ottoman railway tunnel; winter sea-state caveat; CTAs GYG+Booking+DiscoverCars; 6 FAQs); mount-of-olives-guide (Basilique de l'Agonie; Gethsémani olive trees honest ~900yr; Dominus Flevit; Tombeau de la Vierge; paired-naming Har HaZeitim/Jabal az-Zaytun + Dome of the Rock/Qubbat as-Sakhrah; CTAs GYG+Viator+Booking; 7 FAQs). 10 new e2e tests (+5 smoke +5 a11y). Gate: pnpm check 0 errors; pnpm build 1248 pages (+5 from 1243); pnpm test:e2e 1779/1779 pass (15.0m). CI in_progress at push time. FR guides: 162→167/398.
-- nextRotationCategory: BUILD (iter928; 928%5=3 → BUILD; recommend DE-15 by rotation — DE now furthest behind at 157/398 vs FR 167/398 vs ES 150/398)
+- iteration: 928
+- lastMode: BUILD (i18n-DE)
+- lastItem: de-phase-15
+- lastResult: BUILD iter928. DE Phase DE-15 SHIPPED 75504d53. 5 Standard Hochdeutsch guides: guided-vs-self-guided-israel (MoT-Lizenzpflicht; Hybridmodell; Kostenvergleich-Tabelle; 7 FAQs; GYG+DiscoverCars CTAs); golan-heights-wineries (5 Weingüter Yarden/Chateau Golan/Assaf/Bazelet/Pelter; Golan-Politikhinweis US-Anerkennung 2019/nicht UN-anerkannt; Selbstfahr-Rundkurs ab Tiberias; ₪60-120 Verkostungspreisbereich; verdictName/verdictQuery; 7 FAQs; GYG+DiscoverCars+Booking CTAs); druze-villages-carmel (Daliyat el-Carmel Markt; Drusen-Pita auf Saj; Khalwat-Fotografierverbot; El-Muhraka-Kloster-Panorama; Karmel-Nationalpark; 7 FAQs; GYG+Viator+Booking CTAs); rosh-hanikra-guide (Seilbahn 2025 wiederhergestellt ₪53/₪43; INPA-Pass gilt nicht; Osmanischer Eisenbahntunnel; Schabbat-Schließung; 6 FAQs; GYG+Booking+DiscoverCars CTAs); haifa-cruise-terminal-guide (August-2026-Kreuzfahrt-Suspension-Hinweis korrekt; Terminal 5500m²; 7 FAQs; GYG+Viator+Booking CTAs). 10 new e2e tests (+5 smoke +5 a11y). Gate: pnpm check 0 errors; pnpm build 1253 pages (+5 from 1248); pnpm test:e2e 1789/1789 pass (14.1m). DE guides: 157→162/398.
+- nextRotationCategory: BUILD (iter929; 929%5=4 → REVIEW; recommend REVIEW of recent ES or FR guides)
 - higgsfieldSpent: 0
-- updatedAt: 2026-08-01T20:30Z
+- updatedAt: 2026-08-01T21:15Z
 - branch context: work on master; feature work on auto/<slug>
+
+Notes: iter928 BUILD — de-phase-15 SHIPPED 75504d53. 5 Standard Hochdeutsch guides: guided-vs-self-guided-israel, golan-heights-wineries, druze-villages-carmel, rosh-hanikra-guide, haifa-cruise-terminal-guide. Key facts preserved: Golan political note (US-Anerkennung 2019, nicht UN-anerkannt); khalwat Fotografierverbot; Seilbahn Rosh Hanikra 2025 wiederhergestellt (₪53/₪43), INPA-Pass gilt nicht; August-2026 Kreuzfahrt-Suspension korrekt; keine erfundenen Preise oder Bewertungen. 10 e2e tests (+5 smoke +5 a11y). DE guides: 157→162/398. Build: 1248→1253 pages (+5). 1789/1789 e2e pass.
 
 Notes: iter927 BUILD — fr-phase-16 SHIPPED e6d059c1. 5 metropolitan-French guides created in src/content/guides/fr/: golan-heights-guide, golan-heights-hiking-trails, druze-villages-carmel, rosh-hanikra-guide, mount-of-olives-guide. All: metropolitan French; YAML double-quotes; /fr/* prefix only confirmed-existing pages; no fabricated prices/ratings; Golan political status note (UN non-recognition); UXO off-trail warning; Druze photography etiquette; Rosh Hanikra cable car status accurate (restored 2025, INPA not valid); Gethsémani olive tree age hedged; paired-naming on Har HaZeitim/Jabal az-Zaytun; no H1 in MDX body. FR guides: 162→167/398. Build: 1243→1248 pages (+5). 1779/1779 e2e pass. Gate: 0 errors.
 

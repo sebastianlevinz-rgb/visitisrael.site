@@ -14019,3 +14019,12 @@ Next: iter927 → BUILD (927%5=2 → BUILD; recommend FR-16 by rotation — FR h
 5 FR guides shipped: golan-heights-guide, golan-heights-hiking-trails, druze-villages-carmel, rosh-hanikra-guide, mount-of-olives-guide.
 Golan political status note (US-2019 recognition + UN non-recognition); UXO off-trail warning; Druze photography etiquette (khalwa); Rosh Hanikra cable car INPA pass not valid; Gethsémani olive tree age honest (~900yr, not 1st cent.); paired-naming Har HaZeitim/Jabal az-Zaytun.
 FR guides: 162→167/398. Build: 1243→1248 pages. 1779/1779 e2e pass.
+
+## 2026-08-01T21:15Z · iter 928 · BUILD (i18n-DE) · de-phase-15
+5 DE guides shipped: guided-vs-self-guided-israel, golan-heights-wineries, druze-villages-carmel, rosh-hanikra-guide, haifa-cruise-terminal-guide.
+Key facts: Golan political note (US-Anerkennung 2019, nicht von UN/meisten Ländern anerkannt); khalwat-Fotografierverbot (Khalwat-Schrein); Seilbahn Rosh Hanikra 2025 wiederhergestellt (₪53 Erwachsene / ₪43 Kinder), INPA-Pass gilt nicht (KKL-JNF); August-2026-Kreuzfahrt-Suspension in haifa-cruise-terminal-guide.md korrekt als Blockquote; no fabricated prices/ratings; verdictName/verdictQuery in golan-heights-wineries + druze-villages-carmel + rosh-hanikra-guide + haifa-cruise-terminal-guide; Standard Hochdeutsch; YAML double-quotes; /de/* only confirmed-existing DE pages.
+Files modified: smoke.spec.ts (+5 DE routes), a11y.spec.ts (+5 DE routes).
+Gate: pnpm check 0 errors; pnpm build 1253 pages (+5 from 1248); pnpm test:e2e 1789/1789 pass (14.1m). GREEN.
+Ship: squash-merged auto/de-phase-15 to master, pushed 75504d53.
+DE guides: 157→162/398. Build pages: 1248→1253.
+Next: iter929 → REVIEW (929%5=4 → REVIEW; recommend reviewing recent ES or FR guides for meta overruns, cross-link accuracy).
