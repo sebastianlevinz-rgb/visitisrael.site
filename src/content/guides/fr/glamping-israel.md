@@ -1,6 +1,6 @@
 ---
 title: "Glamping en Israël : Hébergements Insolites dans la Nature (2026)"
-description: "Glamping en Israël — éco-lodges dans le désert du Néguev, camps sous tente au bord du cratère et séjours éco-nature en Galilée. Meilleure saison, ce qu'il faut emporter et où réserver."
+description: "Glamping en Israël — éco-lodges dans le désert du Néguev, camps sous tente au bord du cratère et séjours éco-nature en Galilée."
 heroImage: /images/regions/negev/desert.jpg
 category: Plein air
 updatedAt: 2026-08-01
@@ -129,7 +129,7 @@ Un séjour de deux nuits dans le Néguev s'associe naturellement avec :
 - **Circuit d'observation des étoiles** — soirée au télescope guidée au Landroom Observatory ou avec Astronomy Israel (réservez à l'avance)
 - **Randonnée dans le cratère** — la promenade sur le rebord du Makhtesh Ramon et les sentiers en fond de cratère sont l'expérience centrale du Néguev ; emportez une réserve d'eau complète et démarrez avant 8h par temps chaud
 - **Jeep tour** — des opérateurs 4×4 agréés proposent des demi-journées et journées complètes dans le cratère atteignant des zones inaccessibles à pied ; réservez via votre hébergement ou GetYourGuide
-- **Hospitalité bédouine** — Kfar HaNokdim près de Massada propose des randonnées à dos de chameau et un dîner bédouin traditionnel ; à environ 1h au nord de Mitzpe Ramon — une extension naturelle depuis une base de glamping dans le Néguev. Consultez le [guide de l'expérience bédouine](/bedouin-experience-israel) pour les détails et conseils de réservation
+- **Hospitalité bédouine** — Kfar HaNokdim près de Massada propose des randonnées à dos de chameau et un dîner bédouin traditionnel ; à environ 1h au nord de Mitzpe Ramon — une extension naturelle depuis une base de glamping dans le Néguev. Consultez le [guide de l'expérience bédouine](/fr/bedouin-experience-israel) pour les détails et conseils de réservation
 
 ---
 

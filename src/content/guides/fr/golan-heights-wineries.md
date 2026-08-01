@@ -1,6 +1,6 @@
 ---
 title: "Vignobles des Hauteurs du Golan : Guide de l'Œnotourisme (2026)"
-description: "Guide des domaines viticoles du Golan : Yarden, Chateau Golan, Assaf, Pelter et plus — circuit en voiture, conseils de dégustation et meilleures excursions viticoles pour 2026."
+description: "Guide des domaines viticoles du Golan : Yarden, Chateau Golan, Assaf, Pelter et plus — circuit en voiture, conseils de dégustation et excursions pour 2026."
 heroImage: /images/regions/golan/mount-bental.jpg
 category: Gastronomie
 updatedAt: 2026-08-01

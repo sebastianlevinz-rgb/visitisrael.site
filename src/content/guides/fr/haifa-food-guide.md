@@ -1,5 +1,5 @@
 ---
-title: "Gastronomie à Haïfa : Wadi Nisnas, Colonie Allemande et Fruits de Mer (2026)"
+title: "Gastronomie à Haïfa : Wadi Nisnas, Colonie Allemande et Port"
 description: "Où manger à Haïfa : falafel de Wadi Nisnas, restaurants de mezze de la Colonie allemande, fruits de mer du port et l'identité culinaire unique de la ville."
 heroImage: /images/regions/haifa/german-colony.jpg
 category: Gastronomie

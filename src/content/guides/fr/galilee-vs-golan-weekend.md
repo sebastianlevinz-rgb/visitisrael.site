@@ -1,6 +1,6 @@
 ---
 title: "Week-end en Galilée ou sur le Golan : Lequel Choisir ? (2026)"
-description: "Galilée ou Hauteurs du Golan pour un week-end dans le nord d'Israël ? Comparez paysages, sites, bases, saison et transport pour décider — ou planifiez les deux en une seule boucle."
+description: "Galilée ou Hauteurs du Golan pour un week-end dans le nord d'Israël ? Comparez paysages, sites, bases, saison et transport pour décider."
 heroImage: /images/regions/galilee/hero.jpg
 category: Comparatif
 updatedAt: 2026-08-01
@@ -53,7 +53,7 @@ Le nord d'Israël offre deux paysages très différents dans une petite géograp
 
 Vous êtes en **pèlerinage chrétien ou pour l'expérience de la mer de Galilée**. Les rives nord et ouest du lac concentrent le circuit néo-testamentaire — Capharnaüm (ruines de la synagogue, maison de Pierre), l'Église des Béatitudes (site du Sermon sur la montagne), Tabgha (mosaïque des Pains et des Poissons), et Yardenit (site de baptême symbolique). Aucune autre région d'Israël n'offre cette géographie théologique aussi dense.
 
-La Galilée convient aussi si vous **voyagez sans voiture** : Tibériade est accessible en bus Egged depuis Tel-Aviv (environ 2h30), et des [circuits organisés en Galilée](/galilee-tours-compared) partent quotidiennement de Tel-Aviv, Haïfa et Jérusalem. Depuis une base à Tibériade, vous pouvez marcher ou prendre un taxi jusqu'au bord de la mer de Galilée, les thermes de Hamat Tibériade et la vieille ville de Tibériade.
+La Galilée convient aussi si vous **voyagez sans voiture** : Tibériade est accessible en bus Egged depuis Tel-Aviv (environ 2h30), et des [circuits organisés en Galilée](/fr/galilee-tours-compared) partent quotidiennement de Tel-Aviv, Haïfa et Jérusalem. Depuis une base à Tibériade, vous pouvez marcher ou prendre un taxi jusqu'au bord de la mer de Galilée, les thermes de Hamat Tibériade et la vieille ville de Tibériade.
 
 Pour les familles, la Galilée offre une entrée plus douce : **baignade dans le lac**, randonnée paisible sur le Sentier de Jésus, et le parc archéologique de Magdala conviennent bien aux enfants.
 
@@ -78,7 +78,7 @@ Depuis Tibériade, le trajet jusqu'à Katzrin prend environ 35–40 minutes. Il 
 3. **Jour 3** — Conduire vers le nord par la vallée du Jourdain jusqu'au Golan ; cascade de Banias, mont Bental, déjeuner druze à Majdal Shams ; nuit à Katzrin ou dans un tzimmer de kibbutz
 4. **Jour 4** — Forteresse de Nimrod le matin ; dégustation au Golan Heights Winery ; retour vers le sud
 
-Pour les options de circuits de groupe organisés en Galilée, consultez la page [circuits Galilée comparés](/galilee-tours-compared). Pour l'itinéraire [3 jours en Galilée](/fr/3-days-in-galilee), consultez le plan structuré Galilée uniquement. Pour la logistique du circuit en autonomie, consultez le [guide des transports en Israël](/transportation).
+Pour les options de circuits de groupe organisés en Galilée, consultez la page [circuits Galilée comparés](/fr/galilee-tours-compared). Pour l'itinéraire [3 jours en Galilée](/fr/3-days-in-galilee), consultez le plan structuré Galilée uniquement. Pour la logistique du circuit en autonomie, consultez le [guide des transports en Israël](/fr/transportation).
 
 ## Bases et comment y aller
 
@@ -86,4 +86,4 @@ Pour les options de circuits de groupe organisés en Galilée, consultez la page
 
 **Base Golan — Katzrin :** La ville régionale ; supermarchés, station-service, une auberge de jeunesse et plusieurs hôtels. La plupart des visiteurs internationaux qui souhaitent l'expérience complète du Golan séjournent dans un **tzimmer de kibbutz** (chalet en bois en autogestion sur une ferme de kibbutz) — le Kibbutz Merom Golan et le Moshav Odem sont les plus populaires. La réservation préalable est indispensable les week-ends de fêtes. Une [voiture de location](/fr/car-rental-israel) récupérée à l'aéroport Ben Gourion ou à Haïfa est la seule option pratique pour le Golan.
 
-Pour le contexte administratif du Golan et les informations de sécurité, consultez le [guide Sécurité en Israël](/is-israel-safe).
+Pour le contexte administratif du Golan et les informations de sécurité, consultez le [guide Sécurité en Israël](/fr/is-israel-safe).

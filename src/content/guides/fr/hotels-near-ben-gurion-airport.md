@@ -1,6 +1,6 @@
 ---
-title: "Hôtels près de l'Aéroport Ben Gourion (TLV) 2026 : Les Meilleurs Séjours"
-description: "Hôtels près de l'aéroport Ben Gourion : zone Airport City, secteur de Lod, et quand réserver Tel-Aviv. Navettes gratuites, logistique du Shabbat et fourchettes de prix honnêtes."
+title: "Hôtels près de l'Aéroport Ben Gourion : Les Meilleurs Séjours"
+description: "Hôtels près de l'aéroport Ben Gourion : zone Airport City, secteur de Lod, et quand réserver Tel-Aviv. Navettes gratuites, logistique du Shabbat et tarifs."
 heroImage: /images/regions/tel-aviv/hero.jpg
 category: Hébergement
 updatedAt: 2026-08-01
