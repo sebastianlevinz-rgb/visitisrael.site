@@ -948,6 +948,11 @@ const ROUTES = [
   '/es/israel-adventure-sports',
   '/es/druze-villages-carmel',
   '/es/hayarkon-park-tel-aviv',
+  '/es/lgbtq-travel-israel',
+  '/es/jerusalem-neighborhoods-guide',
+  '/es/israel-by-month',
+  '/es/jewish-heritage-israel',
+  '/es/israel-travel-2026',
 ];
 
 for (const route of ROUTES) {
