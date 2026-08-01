@@ -13,10 +13,10 @@
 | en     | 398    | 65          | 11      | 6           |
 | fr     | 162    | 61          | 11      | 6           |
 | de     | 157    | 61          | 11      | 6           |
-| es     | 145    | 61          | 11      | 6           |
+| es     | 150    | 61          | 11      | 6           |
 
 **Gaps to close:**
-- es guides: **253 missing** (145/398 done — Phase ES-28 SHIPPED iter921 6681a508; **Phase ES-29 TBD**)
+- es guides: **248 missing** (150/398 done — Phase ES-29 SHIPPED iter926 b9ec8b3a; **Phase ES-30 TBD**)
 - fr guides: **236 missing** (162/398 done — Phase FR-15 SHIPPED iter923 c6b16be9; **Phase FR-16 TBD**)
 - de guides: **241 missing** (157/398 done — Phase DE-14 SHIPPED iter922 ae700f9b; **Phase DE-15 TBD**)
 - fr/de/es attractions: **4 missing each** (the 4 EN attractions added after Phase 4)
@@ -825,7 +825,7 @@ Quality: neutral LATAM Spanish tuteo; YAML double-quotes; /es/* prefix only for 
 | en     | 398    | stable |
 | fr     | 162    | 236 missing — Phase FR-15 SHIPPED iter923 c6b16be9; **Phase FR-16 defined iter925** |
 | de     | 157    | 241 missing — Phase DE-14 SHIPPED iter922 ae700f9b; **Phase DE-15 defined iter925** |
-| es     | 145    | 253 missing — Phase ES-28 SHIPPED iter921 6681a508; **Phase ES-29 defined iter925** |
+| es     | 150    | 248 missing — Phase ES-29 SHIPPED iter926 b9ec8b3a; **Phase ES-30 TBD** |
 
 **All three next phases defined iter925 (185th research pass):**
 - Phase ES-29: jerusalem-food-guide, tel-aviv-food-guide, rosh-hanikra-guide, mount-of-olives-guide, safed-tzfat-guide (all confirmed MISSING from ES via comm -23 2026-08-01)

@@ -1665,3 +1665,8 @@ Value: ES guides 125→130/398 (gap 273→268). Completes Masada/Dead Sea cluste
 - Fixed DE ashdod "AIDA/TUI/MSC/Costa legen regelmäßig an" → suspension-aware framing
 - All 13 updatedAt bumped to 2026-08-01
 Value: Cruise guides no longer misrepresent Haifa/Ashdod as active without caveat; readers properly informed to verify cruise line schedules.
+
+## iter 926 · es-phase-29 · b9ec8b3a · 2026-08-01
+5 ES guides shipped: jerusalem-food-guide, tel-aviv-food-guide, rosh-hanikra-guide, mount-of-olives-guide, safed-tzfat-guide.
+LATAM food+north-Israel cluster; paired-naming; Gethsemane olive tree age honest; Rosh Hanikra cable car restored 2025; Kabbalah Center vs historical Safed distinction.
+ES guides: 145→150/398. Build: 1238→1243 pages. 1769/1769 e2e pass.
