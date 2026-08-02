@@ -718,6 +718,11 @@ const ROUTES = [
   '/de/how-to-hire-licensed-tour-guide-israel',
   '/de/israel-accessible-travel',
   '/de/galilee-culinary-institute-gonen',
+  '/es/mahane-yehuda-market-guide',
+  '/es/shopping-in-israel',
+  '/es/via-dolorosa-guide',
+  '/es/tower-of-david-guide',
+  '/es/solo-travel-israel',
 ];
 
 for (const route of ROUTES) {
