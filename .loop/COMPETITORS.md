@@ -7282,3 +7282,38 @@ Sources: civitatis.com, jerusalen.com, routard.com, petitfute.com, urbanmeandere
 - DACH honeymoon and GetYourGuide comparison are the two clearest zero-competition gaps.
 - FR road trip needs Route 90 differentiation to avoid competing head-on with 5+ established FR travel blogs.
 - DE wellness/Dead Sea Kur is a natural fit but requires careful medical-claim framing (therapeutic tradition, not cure promises).
+
+## 191st research pass (iter955, 2026-08-02)
+
+**Scope:** FR/DE/ES SERP whitespace audit for niche attraction/practical guides. WebSearch on: gamla-nature-reserve, herodion-visitor-guide, design-museum-holon (FR), israel-film-tv-tourism (FR/DE), israel-business-travel (DE), israel-car-rental-comparison (FR/DE/ES), gan-hashlosha-sachne (ES), eilat-ramon-airport (FR/ES). Also checked new 2026 EN guide coverage (Skyfield Jaffa, Jerusalem First Station).
+
+**Complete SERP whitespace — zero FR/DE/ES competitor:**
+
+- **Gamla Nature Reserve (FR/DE/ES):** All ranking content (touristisrael.com, israel-in-photos.com, Lonely Planet, Frommers, Fodors, parks.org.il) is English-only. No dedicated visitor guide in any of the three target languages. Triple-priority translation; dual appeal (Griffon vultures + Second Temple revolt ruins).
+
+- **Herodion (FR/DE/ES):** EN well-served (israel-in-photos.com deep guide, Bein Harim Tours). FR: only fr.wikipedia.org + single Routard photo — no visitor guide. DE/ES: nothing found. West Bank Area C context note must be faithfully carried from EN FAQ.
+
+- **Design Museum Holon (FR):** "musée design Holon" query returns only EN-language results (wonderfulmuseums.com ×3, museum own site, Expedia). No French travel competitor has a guide. DE/ES also absent.
+
+- **Israel Film/TV Tourism — Fauda/Shtisel (FR/DE):** FR: fr.timesofisrael.com has news articles about shows but zero location-tourism angle. DE: no DACH site maps filming locations for travelers. Netflix audience for these shows in France and Germany is large and untapped. High-intent search query cluster (Kfar Kasim Fauda, Mea She'arim Shtisel, Jaffa Fauda season 4).
+
+- **Gan Hashlosha Sachne (ES):** Only result in Spanish: auto-generated stub on travelinti.com. No substantive ES editorial. 28°C year-round warm springs = strong family-travel appeal.
+
+**Thin/partial competitor coverage:**
+
+- **Israel Business Travel (DE):** dienstreise.de = basic 1-page; visumisrael.de = visa only; TRESCHER Reiseführer 2026 = book not web; isra-tech.net = B2B focus. No comprehensive DE digital guide covering coworking, tech ecosystem, kosher client dining, Shabbat scheduling, ETA-IL requirements.
+
+- **Israel Car Rental Comparison (FR/DE/ES):** Aggregators (momondo, Booking.com) have localized versions; zero editorial comparison guides with Israel-specific CDW/CP insurance, cross-Green-Line rules, road sign guidance, or agency rankings in any of the three languages.
+
+- **Eilat Ramon Airport (FR/ES):** Purely practical; no editorial FR/ES competitor found. Pairs with strong existing Eilat cluster in both locales.
+
+**New 2026 attractions already in EN (need FR/DE/ES):**
+
+- **skyfield-extreme-park-jaffa.md** — exists in EN, MISSING from FR/DE/ES. Rooftop Bloomfield Stadium Jaffa; bungee + zipline; novelty 2026.
+- **jerusalem-first-station-guide.md** — exists in EN, MISSING from FR/DE/ES. Reopened April 2026; 7 restaurants, 2,000-person venue; prime TripAdvisor Jerusalem activity.
+
+**Strategy notes (iter955):**
+- Gamla is the #1 triple-locale priority: full SERP whitespace in all three languages.
+- Film/TV tourism is the highest-leverage non-overlap opportunity (large existing Netflix audience converting to location searches with no FR/DE editorial serving them).
+- Business travel DE is the clearest single-language commercial gap: DACH tech travelers a major segment.
+- Car rental editorial gap exists uniformly across FR/DE/ES — aggregators rank but no editorial; our comparison guide differentiates on Israel-specific nuances (no competitors cover CDW/CP rules or cross-Green-Line vehicle restrictions in these languages).

@@ -14493,3 +14493,40 @@ Gate result: CLEAN — no code changes required.
 - Honesty framing: no fabricated ratings, no exact prices; all prices in ranges (₪ or USD ranges); Dead Sea spa claims hedged; Herodiom/West Bank access advisory correctly noted ✓.
 - Bare link check: no slugs missing /es/ prefix across any guide ✓.
 Next: iter955 → RESEARCH (191st research pass).
+
+## 2026-08-02T23:47Z · iter 955 · RESEARCH · research-955-fr22-es34-de20-batch-definitions
+
+**Mode:** RESEARCH (iter955; 955%5=0 → 191st research pass). No shipping this iteration.
+
+**Startup:** git fetch + reset --hard origin/master (local was at iter954 STATE). Clean working tree confirmed.
+
+**What:** FR-22, ES-34, DE-20 batch definitions. SERP whitespace audit across FR/DE/ES for niche attraction + practical guides. Competitor sources: touristisrael.com, israel-in-photos.com, Lonely Planet/Frommers/Fodors (all EN-only for targets), fr.wikipedia.org, Routard, fr.timesofisrael.com, wonderfulmuseums.com, travelinti.com, dienstreise.de, visumisrael.de, isra-tech.net, momondo, parks.org.il.
+
+**Key findings:**
+
+1. **Gamla Nature Reserve** — complete SERP whitespace in FR/DE/ES; all major competitors EN-only. Triple-locale priority (5 Griffon vultures + Second Temple revolt ruins; dual tourism appeal). Included in all three batches.
+
+2. **Herodion** — zero FR/DE/ES dedicated visitor guide (FR: only fr.wikipedia + Routard photo; DE/ES: nothing). Area C West Bank framing from EN FAQ must carry faithfully in all translations.
+
+3. **Design Museum Holon** — "musée design Holon" SERP returns only EN results + museum's own site. Zero FR editorial competitor. Ron Arad architecture culturally resonant for FR audience. → FR-22.
+
+4. **Israel Film/TV Tourism (Fauda/Shtisel)** — Large Netflix audience in France + DACH; zero FR/DE editorial location guide. High-intent search cluster (Kfar Kasim, Mea She'arim, Jaffa). → FR-22, DE-20.
+
+5. **Israel Business Travel (DE)** — Only dienstreise.de (1 page) + visumisrael.de (visa only); no comprehensive DE digital guide for DACH tech travelers. → DE-20.
+
+6. **Israel Car Rental Comparison (FR/DE/ES)** — Aggregators (momondo, Booking) localized; zero editorial with Israel-specific CDW/CP rules, cross-Green-Line restrictions, road-sign tips. → ES-34, DE-20.
+
+7. **Gan Hashlosha Sachne (ES)** — Only auto-generated stub found (travelinti.com). 28°C warm pools = family-travel appeal. → ES-34.
+
+8. **New 2026 EN attractions confirmed in repo:** skyfield-extreme-park-jaffa.md ✓ + jerusalem-first-station-guide.md ✓ — both MISSING from FR/DE/ES. Queued as P2 bundle for future batch.
+
+**Batches defined (all confirmed MISSING via comm -23):**
+- FR-22: gamla-nature-reserve-guide, herodion-guide, design-museum-holon, eilat-ramon-airport-guide, israel-film-tv-tourism. FR 192→197/398.
+- ES-34: gamla-nature-reserve-guide, herodion-guide, gan-hashlosha-guide, eilat-ramon-airport-guide, israel-car-rental-comparison. ES 170→175/398.
+- DE-20: gamla-nature-reserve-guide, herodion-guide, israel-film-tv-tourism, israel-business-travel-guide, israel-car-rental-comparison. DE 182→187/398 (after DE-19).
+
+**Net-new BACKLOG items added:** 4 (FR-22 [P1], ES-34 [P1], DE-20 [P1], skyfield+first-station FR/DE/ES [P2]).
+
+**Gate:** N/A (RESEARCH mode — no code shipped).
+
+**Next:** iter956 → BUILD (956%5=1 → BUILD). Priority: DE-19 (israel-honeymoon, israel-hidden-gems, israel-hebrew-phrases, hayarkon-park-tel-aviv, getyourguide-vs-viator-israel in DE).
