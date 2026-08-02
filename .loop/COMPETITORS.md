@@ -7152,3 +7152,41 @@ Sources: competitive web search (ES/FR/DE SERPs), cocinaisraeli.com, jerusalen.c
 - Shopping/markets content is the clearest remaining editorial gap across all 3 locales (shopping-in-israel in ES-31 + FR-18; mahane-yehuda-market-guide also in both).
 - Solo travel guides are CLEAR gaps in both ES and FR (both assigned to current batches).
 - DE-17 prioritizes cluster parity with FR (5 guides FR has that DE lacks: herzliya, israel-by-month, israel-egypt-guide, mount-of-olives, israel-eta).
+
+### 2026-08-02 · iter 940 · RESEARCH — 188th research pass — ES-32/FR-19/DE-18 definitions + airlines freshness
+
+Sources: civitatis.com, jerusalen.com, routard.com, petitfute.com, urbanmeanderer.de, missesbackpack.de, de.wikivoyage.org, onemileatatime.com, aviationa2z.com, aeroxplorer.com, delta.com/news, simpleflying.com, thejewishnews.com, travelandtourworld.com, paddleyourownkanoo.com, israelhayom.com, touristisrael.com, beinharimtours.com, israel-taxi.com, takeyourbackpack.com, tripadvisor.com, getyourguide.com, alltrails.com, hike-israel.com.
+
+**Airlines competitive landscape (iter940) — FRESHNESS CRITICAL:**
+- American Airlines JFK-TLV: Initially announced March 2026 restart → cancelled/suspended through ALL 2026 per May 18 2026 announcement. Earliest restart January 2027 (aviationa2z.com/aeroxplorer.com/paddleyourownkanoo.com/israelhayom.com). Our guide correctly says Miami MIA seasonal only; AA JFK not mentioned.
+- Delta Airlines: ALREADY RESUMED from Atlanta ATL April 15, 2026 (3x/week W/F/Su on A350-900). Boston BOS launching October 24, 2026 (daily, A330-900neo). Source: delta.com/news official press release + simpleflying.com + onemileatatime.com. Our guide incorrectly says "ATL Suspended through Dec 2026" and "BOS Indefinitely delayed" → P1 freshness fix needed.
+- United Airlines: Previously confirmed ORD+IAD resumed Nov 2025 + EWR (earlier). No new changes detected.
+- Delta adding second JFK-TLV flight for peak winter (Nov 30 – Jan), making JFK 2× daily in peak season.
+
+**ES competitive landscape (iter940):**
+- western-wall-tunnels in ES: jerusalen.com/tuneles-muro has basic info ("túneles del Kotel" = thin stub). TakeyourBackpack/airial.travel = English only. No comprehensive ES editorial with booking workflow (israel-kotel.org.il). Editorial vacuum confirmed.
+- jaffa-food in ES: TripAdvisor ES has restaurant lists (not editorial). WanderLog/CultureTrip = English only. Zero standalone ES foodie travel guide for Jaffa.
+- tel-aviv-museums in ES: touristisrael.com/beinharimtours.com/visit-tel-aviv.com all English only. GetYourGuide has booking listings (not editorial). Zero editorial ES museums comparison.
+- israel-best-scenic-drives in ES: AllTrails shows trails (English); TripAdvisor has English listings; hike-israel.com (English). Zero LATAM Spanish editorial scenic drives guide.
+- israel-in-summer in ES: traveltriangle.com/blog/israel-in-october = English. expedia.com/Negev-Desert.dx = thin multilingual listing. Zero dedicated ES summer Israel editorial.
+
+**FR competitive landscape (iter940):**
+- jerusalem-neighborhoods in FR: routard.com has only security advisory ("éviter certains quartiers de Jérusalem-Est" = safety note). No FR neighborhoods guide with hotel-tier decision matrix. itraveljerusalem.com/fr = thin official bureau info.
+- israel-best-scenic-drives in FR: Zero FR editorial found. TripAdvisor FR shows English-language reviews. AllTrails FR = English trails.
+- jaffa-food in FR: TripAdvisor FR = restaurant listings only. WanderLog = English. Zero dedicated FR Jaffa food editorial.
+- tel-aviv-museums in FR: visit-tel-aviv.com has no FR version. touristisrael.com = English only. Zero FR editorial.
+- israel-in-autumn in FR: yodl.travel has EN seasonal guide. Magnificent Travel has EN weather guide. Zero dedicated FR autumn Israel editorial.
+
+**DE competitive landscape (iter940):**
+- shopping-in-israel in DE: No DE travel shopping guide found. Doronia.de = German retailer selling Israeli products (not travel editorial). israelmagazin.de/israel-orte = no shopping guide. MwSt-Rückerstattung angle = zero DE editorial coverage.
+- mahane-yehuda in DE: israelmagazin.de/israel-orte/jerusalem/mahane-yehuda = exists but undated; israel-reiseleiter.com = undated blog post. No 2026 bar scene or Friday Shabbat siren ritual in any DE guide.
+- via-dolorosa in DE: urbanmeanderer.de/via-dolorosa-stationen-jerusalem = travel blog post (not standalone guide). missesbackpack.de/via-dolorosa-jerusalem = photo blog. de.wikivoyage.org/wiki/Via_Dolorosa = wiki stub. yshany-tours.ch/blog = tour operator. No comprehensive editorial with Franciscan procession times, secular framing, accessibility.
+- solo-travel-israel in DE: Zero DE editorial solo Israel guides found. All results (onevasco.com, touristisrael.com, mukikapupstravels.com, templeseeker.com) = English only.
+- western-wall-tunnels in DE: No booking-workflow DE editorial found. thekotel.org/en = English Heritage Foundation site. Zero DE guide on how to book israel-kotel.org.il, what to see (Warren's Gate/Foundation Stone/Hasmonean Aqueduct), timing.
+
+**Strategy notes (iter940):**
+- Airlines freshness fix is P1 — Delta ATL has been operating for 3.5 months; our guide remains wrong.
+- Jaffa cluster is a clear next priority across all 3 locales: ES + FR + DE all missing jaffa-food-guide.
+- Seasonal series (israel-in-*) represents a batch of 4 guides missing from all locales = 12 guides total over future iterations.
+- Museums comparison is a consistent gap across all 3 locales.
+- DE-18 closes the Jerusalem pilgrimage content gap in DE to match FR (shopping, mahane-yehuda, via-dolorosa, solo, western-wall-tunnels — all 5 shipped in FR-18).

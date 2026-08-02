@@ -14189,3 +14189,40 @@ Fix: trimmed 5 values across 4 files; keywords preserved.
 Gate: pnpm check 0 errors; pnpm build 1283 pages; pnpm test:e2e 1849/1849 pass (15.0m). GREEN.
 Ship: squash-merged to master c9c68480, pushed. CI in_progress.
 Next: iter940 → RESEARCH (940%5=0 → RESEARCH).
+
+## 2026-08-02T09:15Z · iter 940 · RESEARCH · research-940-es32-fr19-de18-airlines
+Mode: RESEARCH (940%5==0). No code shipped.
+
+Competitors scanned: civitatis.com, jerusalen.com, routard.com, urbanmeanderer.de, missesbackpack.de, wikivoyage.org/de, onemileatatime.com, aviationa2z.com, aeroxplorer.com, delta.com/news, simpleflying.com, thejewishnews.com, travelandtourworld.com, paddleyourownkanoo.com, israelhayom.com, touristisrael.com, beinharimtours.com, israel-taxi.com, takeyourbackpack.com, tripadvisor.com, getyourguide.com.
+
+KEY FRESHNESS FINDING (P1): airlines-flying-israel-2026.md contains factual errors on Delta routes:
+- Delta ATL: Guide says "Suspended through at least December 2026" → INCORRECT. Delta Atlanta launched April 15, 2026 (3x/week W/F/Su on A350-900). Source: delta.com/news, simpleflying.com, onemileatatime.com, upgradedpoints.com.
+- Delta BOS: Guide says "Indefinitely delayed" → INCORRECT. Delta Boston daily service launching October 24, 2026 (A330-900neo). Same sources.
+- American Airlines: Correctly listed as Miami MIA seasonal only. JFK-TLV suspended through all 2026; earliest Jan 2027. Source: aviationa2z.com May 18 2026, aeroxplorer.com, paddleyourownkanoo.com, israelhayom.com.
+P1 BACKLOG item added: airlines-freshness-delta-atl-bos.
+
+3 i18n batches defined (all 15 guides confirmed MISSING via comm -23):
+ES-32 (5 guides): western-wall-tunnels-guide, jaffa-food-guide, tel-aviv-museums, israel-best-scenic-drives, israel-in-summer.
+  - western-wall-tunnels: jerusalen.com has thin basic info; no ES booking-workflow + practical guide
+  - jaffa-food-guide: zero dedicated ES editorial; only English TripAdvisor/WanderLog/CultureTrip found
+  - tel-aviv-museums: zero ES editorial; Tourist Israel/Bein Harim/visit-tel-aviv.com all English-only
+  - israel-best-scenic-drives: zero LATAM editorial; only EN AllTrails/TripAdvisor/Times of Israel found
+  - israel-in-summer: summer = peak LATAM travel season; all 4 seasonal variants missing from ES; israel-by-month exists but individual seasonal deep-dives absent
+
+FR-19 (5 guides): jerusalem-neighborhoods-guide, israel-best-scenic-drives, jaffa-food-guide, tel-aviv-museums, israel-in-autumn.
+  - jerusalem-neighborhoods-guide: Routard.com has only security advisory for Jerusalem; no FR neighborhoods-hotel-tiers guide
+  - israel-best-scenic-drives: zero FR editorial; only EN TripAdvisor/AllTrails/hike-israel.com
+  - jaffa-food-guide: zero dedicated FR Jaffa food guide; French food culture connection strong; only EN TripAdvisor/WanderLog
+  - tel-aviv-museums: zero FR editorial; all major museum sites (visit-tel-aviv.com, touristisrael.com) EN-only
+  - israel-in-autumn: zero dedicated FR autumn guide; Oct-Nov Hula Valley cranes + post-Sukkot calm + Tamar Festival angle
+
+DE-18 (5 guides): shopping-in-israel, mahane-yehuda-market-guide, via-dolorosa-guide, solo-travel-israel, western-wall-tunnels-guide.
+  - shopping-in-israel: no DE travel shopping guide found; only German retail site (Doronia.de) + EN guides; MwSt-Rückerstattung (VAT refund) + market cluster editorial gap
+  - mahane-yehuda-market-guide: israelmagazin.de + israel-reiseleiter.com have posts but undated/thin; 2026 bar-scene + Shabbat timing differentiates
+  - via-dolorosa-guide: urbanmeanderer.de + missesbackpack.de = travel blog posts; de.wikivoyage.org stub; no comprehensive standalone editorial with Franciscan procession logistics, secular framing, accessibility
+  - solo-travel-israel: zero DE editorial solo Israel guide; all solo guides EN-only (onevasco, touristisrael, mukikapupstravels); DACH solo travel segment growing
+  - western-wall-tunnels-guide: completes DE Jerusalem pilgrimage cluster; western-wall-guide already in DE; no booking-workflow DE editorial found
+
+EN saturation: ~97%+ (188th research pass). No new EN structural gaps identified this pass.
+No code changed; gate not run (research mode).
+Next: iter941 = BUILD (941%5=1 → BUILD). Priority: airlines freshness fix (P1) or ES-32 i18n batch.
