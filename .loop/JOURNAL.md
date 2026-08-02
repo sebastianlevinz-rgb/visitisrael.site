@@ -14233,3 +14233,18 @@ Gate: pnpm check 0 errors; build 1288 pages; 1859/1859 e2e pass (15.1m).
 Ship: squash-merged to master 070daf35, pushed.
 ES guides: 160→165/398. Build: 1283→1288 pages (+5). 10 new e2e tests (5 smoke + 5 a11y).
 Next: iter942 = REVIEW (942%5=2 → REVIEW). Candidate: review ES-32 meta/link audit OR review airline freshness fix (P1 backlog).
+
+## 2026-08-02T11:05Z · iter 942 · BUILD (technical/freshness) · airlines-freshness-delta-atl-bos
+Mode: BUILD (942%5=2 → BUILD; note: previous STATE.md incorrectly said "REVIEW" — 942%5=2 is BUILD per PLAYBOOK). P1 freshness fix (highest priority item identified in iter940 research).
+
+What: Corrected factually wrong Delta ATL/BOS status across all 4 locale versions of airlines-flying-israel-2026.md (EN/ES/FR/DE).
+- Delta ATL (Atlanta): was "Suspended through at least December 2026" → INCORRECT. Launched April 15, 2026 (3×/week Wed/Fri/Sun, A350-900). Moved from suspended table to currently-flying table. Delta row updated to show "New York JFK, Atlanta ATL". Delta note paragraph rewritten. Added ATL to "New routes launched in 2026" section.
+- Delta BOS (Boston): was "Indefinitely delayed" → INCORRECT. Now correctly shows as "Launching 24 October 2026 (daily, A330-900neo) — confirm at delta.com". Remains in suspended/upcoming table. Added BOS to new "Upcoming (not yet launched)" section.
+- All 4 locales: dateline "Last verified" bumped Jul→Aug 2026; updatedAt frontmatter Jul 26 → Aug 2 2026; "Still not flying" section Jul→Aug 2026.
+Sources: delta.com/news official release, simpleflying.com, onemileatatime.com, thejewishnews.com, upgradedpoints.com (all confirmed in iter940 research).
+Honesty: No fabricated data — ATL launch confirmed April 15 2026; BOS Oct 24 confirmed with "verify at delta.com" caveat.
+
+Gate: pnpm check 0 errors; build 1288 pages (content update only, page count unchanged); 1859/1859 e2e+a11y pass (14.7m). Airlines-specific 8 tests: all pass. GREEN.
+Ship: squash-merged to master f47682b7, pushed origin/master.
+CI: in_progress at journal-write time (Lighthouse + CI workflows both running for f47682b7).
+Next: iter943 → BUILD (943%5=3 → BUILD; FR-19 by rotation: jerusalem-neighborhoods-guide, israel-best-scenic-drives, jaffa-food-guide, tel-aviv-museums, israel-in-autumn).
