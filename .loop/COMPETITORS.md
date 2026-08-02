@@ -7111,3 +7111,44 @@ Sources: civitatis.com, routard.com, urlaubsguru.de, sonnenklar.tv, travelandtou
 - US/Canada June 2026 arrivals +73% YoY (confirmed); French Ministry of Foreign Affairs advisory (state of emergency March 2026, non-essential travel advised against) = subdued FR tourism market but editorial gap opportunity.
 - Javier Milei 2026 state visit to Israel (confirmed per Wikipedia) = short-term tailwind for Argentine/"Israel viaje" queries.
 - Israel + Egypt combined itinerary demand: strong across LATAM (Sinai/Eilat circuit) and FR (Air France CDG-CAI routes). Our israel-egypt-guide.md in EN exists; ES/FR translations added to ES-30/FR-17.
+
+---
+
+## iter935 RESEARCH — 187th research pass — 2026-08-02
+
+Sources: competitive web search (ES/FR/DE SERPs), cocinaisraeli.com, jerusalen.com, disfrutatelaviv.com, miaventuraviajando.com, visitartierrasanta.com, travelplannet.com, itraveljerusalem.com/fr, advised-traveler.com, beinharimtours.com/fr, alexguideisrael.com, israelmagazin.de, israel-reiseleiter.com, lonelyplanet.de, marcopolo.de, backpackertrail.de, de.m.wikivoyage.org, urlaubsguru.de, planet-of-hotels.com, agoda.com (Gordonia), booking.com (Herzliya hotels).
+
+**ES competitive landscape (iter935):**
+- shopping-in-israel in ES: CLEAR STRONG GAP. toursfestival.com = aggregator only. melhoresdestinos.com.br = Portuguese, not ES. Zero standalone ES shopping Israel guide exists. VAT refund + market cluster guide would be unchallenged editorial.
+- mahane-yehuda-market-guide in ES: MODERATE gap. cocinaisraeli.com (cooking-focused, undated), jerusalen.com/mercado-mahane-yehuda (basic info, no nightlife angle, no 2026 update). 2026 bar scene + Shabbat siren ritual angle is differentiator.
+- via-dolorosa-guide in ES: MODERATE gap. visitartierrasanta.com (pilgrim-only), losviajesdelewar.com (travel narrative), jerusalen.com (basic). Secular practical guide (station logistics, timing, non-pilgrim perspective) missing from all ES competitors.
+- tower-of-david-guide in ES: MODERATE gap. jerusalen.com (practical hours/tickets, no 2026 renovation detail), tod.org.il/es (museum's own site = commercial). 2026 renovated galleries + Night Spectacular missing from all.
+- solo-travel-israel in ES: MODERATE-STRONG gap. disfrutatelaviv.com = TLV-specific, not Israel-wide. No comprehensive LATAM Spanish Israel solo guide found.
+- tel-aviv-things-to-do in ES: THIN (thick competition). disfrutatelaviv.com, miaventuraviajando.com, iberia.com destination guides all rank. Not included in ES-31.
+
+**FR competitive landscape (iter935):**
+- solo-travel-israel in FR: CLEAR STRONG GAP. All top FR results are in English (mukikapupstravels.com, sologuides.com). No dedicated FR solo Israel guide exists.
+- western-wall-tunnels-guide in FR: MODERATE-STRONG gap. alexguideisrael.com = tour-operator, not editorial self-guided booking guide. allaboutjerusalem.com/fr = thin. Self-guided booking workflow (how to reserve online, timeline, what to expect) missing from FR.
+- via-dolorosa-guide in FR: MODERATE-STRONG gap. beinharimtours.com/fr = commercial. laidbacktrip.com = English only. Standalone FR secular walking guide with Franciscan historical hook largely absent.
+- mahane-yehuda-market-guide in FR: MODERATE gap. itraveljerusalem.com/fr (official bureau, well-produced), jerusalem.fr (dedicated site). Neither covers 2020s rooftop bar transformation or Friday Shabbat siren ritual.
+- tel-aviv-things-to-do in FR: THIN (competition exists). advised-traveler.com "Tel Aviv en 2026" = direct editorial competitor. Not included in FR-18.
+
+**DE competitive landscape (iter935):**
+- herzliya-guide in DE: CLEAR GAP. de.m.wikivoyage.org = sparse stub. urlaubmachen.info = low-quality aggregator. Zero quality DE editorial guide for Herzliya.
+- israel-eta-guide in DE: CLEAR-MODERATE gap. Third-party fee-portal sites dominate SERP; official israel-entry.piba.gov.il guide in German is thin. An editorial DE warning travelers away from fee sites and walking through the official portal is valuable.
+- mount-of-olives-guide in DE: MODERATE gap. No standalone high-quality DE Ölberg guide found. "Ölberg Jerusalem" SERP dominated by tour operator snippets.
+- israel-by-month in DE: THIN (competition exists). lonelyplanet.de, marcopolo.de, backpackertrail.de all rank. Differentiator = 2026-specific flight availability + geopolitical context + narrative (not just table). Still valuable as cluster-parity with FR.
+- israel-egypt-guide in DE: MODERATE gap. DE search dominated by Condor package pages and news articles. No editorial combined-trip guide with Taba crossing logistics + BMAA.de safety framing exists.
+- machane-jehuda in DE: MODERATE gap. israelmagazin.de/israel-orte/jerusalem/mahane-yehuda has a guide; israel-reiseleiter.com has a post but appears undated. 2026 nighttime bar scene + practical Shabbat timing differentiates. (Assigned to FR-18 and ES-31 first; DE version in future batch.)
+- tel-aviv-things-to-do in DE: THIN (competition exists). germanbackpacker.com, viel-unterwegs.de rank. Not included in DE-17.
+
+**Freshness findings (iter935):**
+- Gordonia Zichron Yaakov (opened Feb 1, 2026): confirmed bookable on Agoda + Planet of Hotels. 141 rooms; 81m heated infinity pool; spa 7+4 treatment rooms; adults 10+; Mediterranean views; ₪200M/$52M investment. Booking.com listing confirmed (direct URL 403 from scraper proxy but indexed in city results). BACKLOG [P2] freshness update remains valid — Gordonia appears in best-hotels-haifa.md Carmel Coast section and zichron-yaakov-guide.md would benefit from a "Where to Stay" para. No code change this iteration; item remains in BACKLOG.
+- American Airlines JFK-TLV: research agent mentioned "JFK-TLV nonstop restarted March 2026" — but our current airlines-flying-israel-2026.md only lists American Airlines from Miami MIA (seasonal). Needs verification at aa.com before any change. Added as low-priority freshness note.
+- Israel tourism macro: hotel occupancy 44% (Calcalist July 31 2026); international arrivals Jan-May 2026 = 344,900 (-36.9% YoY); US travelers = 35.2% of all inbound. Multiple significant 2026 hotel openings confirmed (The Yacht Herzliya June 2026, Kassland May 2026, Nordoy Hotel TLV, Dizengoff 99 TLV). Recovery expected once airlines return.
+
+**Strategy notes (iter935):**
+- Three locales are within striking distance of parity on Jerusalem pilgrimage content (all have western-wall-guide, church-holy-sepulchre, masada, yad-vashem); next pilgrimage-tier priority is via-dolorosa (ES-31 + FR-18), western-wall-tunnels (FR-18), and mount-of-olives (DE-17).
+- Shopping/markets content is the clearest remaining editorial gap across all 3 locales (shopping-in-israel in ES-31 + FR-18; mahane-yehuda-market-guide also in both).
+- Solo travel guides are CLEAR gaps in both ES and FR (both assigned to current batches).
+- DE-17 prioritizes cluster parity with FR (5 guides FR has that DE lacks: herzliya, israel-by-month, israel-egypt-guide, mount-of-olives, israel-eta).

@@ -14120,3 +14120,20 @@ All links OK (/de/* hrefs confirmed in place); no H1 in MDX body; no fabricated 
 Gate: pnpm check 0 errors; pnpm build 1268 pages; pnpm test:e2e 1819/1819 pass (16.6m). GREEN.
 Ship: squash-merged to master d24ae5a3, pushed. CI in_progress at journal-write time (meta-only + blockquote — extremely low CI-fail risk).
 Next: iter935 → RESEARCH (935%5=0 → RESEARCH).
+
+## 2026-08-02T04:10Z · iter 935 · RESEARCH · research-935-es31-fr18-de17-definitions
+Mode: RESEARCH (935%5=0 → RESEARCH; 187th research pass).
+
+What: Competitor gap analysis across ES/FR/DE locales; defined next 3 i18n batches.
+
+**ES-31 batch** (guides 155→160/398): mahane-yehuda-market-guide, shopping-in-israel, via-dolorosa-guide, tower-of-david-guide, solo-travel-israel. All 5 confirmed MISSING via `comm -23`. Key opportunities: shopping-in-israel = CLEAR STRONG GAP (zero dedicated ES shopping Israel guide found anywhere); solo-travel-israel = moderate-strong gap (no comprehensive ES Israel solo guide; disfrutatelaviv.com is TLV-only). Excluded tel-aviv-things-to-do (thick competition from disfrutatelaviv.com, miaventuraviajando.com).
+
+**FR-18 batch** (guides 172→177/398): mahane-yehuda-market-guide, via-dolorosa-guide, western-wall-tunnels-guide, solo-travel-israel, shopping-in-israel. All 5 confirmed MISSING via `comm -23`. Key opportunities: solo-travel-israel = CLEAR STRONG GAP (ALL top FR search results are English; no dedicated FR Israel solo guide exists); western-wall-tunnels-guide = moderate-strong gap (alexguideisrael.com is tour-operator only; booking workflow guide missing). Excluded tel-aviv-things-to-do (advised-traveler.com is direct competitor with 2026 article).
+
+**DE-17 batch** (guides 167→172/398): herzliya-guide, israel-by-month, israel-egypt-guide, mount-of-olives-guide, israel-eta-guide. All 5 confirmed MISSING from DE via `comm -23`; all 5 already exist in FR (cluster parity batch). Key: herzliya-guide = CLEAR GAP (only wikivoyage stub); israel-eta-guide = important practical (ETA-IL since Jan 2025; DE competitor coverage thin; third-party fee-portal warning valuable). israel-by-month has competition (lonelyplanet.de, marcopolo.de) but 2026-specific airline/geopolitical context differentiates.
+
+Freshness findings: Gordonia Zichron Yaakov confirmed bookable (Agoda, planet-of-hotels.com); BACKLOG [P2] item unchanged. American Airlines JFK-TLV research agent claim unverified — flagged in COMPETITORS for manual check. Israel tourism macro: hotel occupancy 44% (Calcalist Jul 31); international arrivals Jan-May 344,900 (-36.9% YoY); recovery when airlines return.
+
+Gate: n/a (research only — no code changes, no gate run).
+Ship: no feature commit; .loop/ memory files only (BACKLOG/COMPETITORS/I18N-PLAN/STATE/JOURNAL updated). State commit to follow.
+Next: iter936 → BUILD (936%5=1 → BUILD; ES-31 by rotation — ES has largest gap 243 missing).

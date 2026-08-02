@@ -1,13 +1,15 @@
 # LOOP STATE
 
-- iteration: 934
-- lastMode: REVIEW
-- lastItem: review-934-de16-meta-cruise-fix
-- lastResult: REVIEW iter934 review-934-de16-meta-cruise-fix SHIPPED d24ae5a3. Audited 5 DE-16 guides (eilat-nightlife, haifa-shore-excursions, how-to-hire-licensed-tour-guide-israel, israel-accessible-travel, galilee-culinary-institute-gonen). Found 4 issues and fixed all inline: (1) galilee-culinary-institute-gonen title 72→64 chars; desc 165→141 chars; (2) how-to-hire-licensed-tour-guide-israel desc 168→135 chars; (3) israel-accessible-travel desc 165→150 chars; (4) haifa-shore-excursions MISSING August 2026 cruise suspension blockquote (present in sibling haifa-cruise-terminal-guide.md; iter933 BUILD logged it as done but didn't add it) — added matching blockquote. All links OK; no H1 in body; no fabricated ratings. Gate: 0 errors; 1268 pages; 1819/1819 e2e pass. CI in_progress at state-update time (meta-only + blockquote, extremely low CI-fail risk).
-- nextRotationCategory: RESEARCH (iter935; 935%5=0 → RESEARCH)
+- iteration: 935
+- lastMode: RESEARCH
+- lastItem: research-935-es31-fr18-de17-definitions
+- lastResult: RESEARCH iter935 — 187th research pass. Defined next 3 i18n batches: ES-31 (mahane-yehuda-market-guide, shopping-in-israel, via-dolorosa-guide, tower-of-david-guide, solo-travel-israel); FR-18 (mahane-yehuda-market-guide, via-dolorosa-guide, western-wall-tunnels-guide, solo-travel-israel, shopping-in-israel); DE-17 (herzliya-guide, israel-by-month, israel-egypt-guide, mount-of-olives-guide, israel-eta-guide). Key findings: shopping-in-israel = CLEAR ES gap (zero competitors); solo-travel-israel = CLEAR FR gap; herzliya-guide = CLEAR DE gap (wikivoyage stub only); tel-aviv-things-to-do has THICK competition in both ES (disfrutatelaviv.com) and DE (germanbackpacker.com) — excluded. DE-17 closes 5 of 8 FR-ahead guides for cluster parity. Freshness: Gordonia Zichron Yaakov confirmed bookable; Israel hotel occupancy at 44% (recovery in progress). No code changes — research + BACKLOG + COMPETITORS + I18N-PLAN updates only. Commit follows.
+- nextRotationCategory: BUILD (iter936; 936%5=1 → BUILD; ES-31 by rotation — ES has largest gap 243 missing)
 - higgsfieldSpent: 0
-- updatedAt: 2026-08-02T03:05Z
+- updatedAt: 2026-08-02T04:10Z
 - branch context: work on master; feature work on auto/<slug>
+
+Notes: iter935 RESEARCH — 187th research pass. 3 batches defined (ES-31/FR-18/DE-17). Key findings: shopping-in-israel (CLEAR ES gap), solo-travel-israel (CLEAR FR gap), herzliya-guide (CLEAR DE gap). DE-17 closes cluster parity gap vs FR. No code changes.
 
 Notes: iter934 REVIEW — review-934-de16-meta-cruise-fix SHIPPED d24ae5a3. Audited DE-16 guides. 4 fixes: galilee-culinary-institute-gonen title+desc trimmed; how-to-hire desc trimmed; israel-accessible-travel desc trimmed; haifa-shore-excursions cruise suspension blockquote added. 1819/1819 e2e pass. CI in_progress.
 
