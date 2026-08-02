@@ -1,6 +1,6 @@
 ---
-title: "Israel ETA-IL: Vollständiger Antragsleitfaden für Deutsche (2026)"
-description: "ETA-IL für Israel: wer es braucht, das offizielle Portal, Kosten ₪25, Bearbeitungszeit und was nach der Genehmigung zu tun ist — Schritt-für-Schritt-Anleitung."
+title: "ETA-IL Israel: Vollständiger Antragsleitfaden 2026"
+description: "ETA-IL für Israel: Wer es braucht, offizielles Portal, Kosten ₪25, Bearbeitungszeit und nächste Schritte — Schritt-für-Schritt."
 heroImage: /images/regions/tel-aviv/hero.jpg
 category: "Planung"
 updatedAt: 2026-08-02

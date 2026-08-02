@@ -1,6 +1,6 @@
 ---
 title: "Israel und Ägypten: Kombinationsreise 10–14 Tage (2026)"
-description: "Israel-Ägypten-Reise kombiniert: Taba-Grenzübergang, kostenlose 14-Tage-Sinai-Genehmigung, Ägyptisches Visum, Süd-Sinai-Basen, Pyramiden und GEM — mit 10- und 14-Tages-Routen."
+description: "Israel-Ägypten kombiniert: Taba-Grenzübergang, Sinai-Genehmigung, ägyptisches Visum, Pyramiden und GEM — 10- und 14-Tage-Routen."
 heroImage: /images/regions/eilat/hero.jpg
 category: "Routen"
 updatedAt: 2026-08-02

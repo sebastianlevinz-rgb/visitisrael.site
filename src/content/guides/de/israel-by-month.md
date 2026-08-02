@@ -1,6 +1,6 @@
 ---
 title: "Israel: Beste Reisezeit Monat für Monat (2026–2027)"
-description: "Israel-Reisekalender: Wetter, Besuchermengen, Preise, jüdische Feiertage und Highlights für jeden Monat — Januar bis Dezember, für deutschsprachige Reisende."
+description: "Israel-Reisekalender: Wetter, Besuchermengen, Preise, jüdische Feiertage und Highlights für jeden Monat — Januar bis Dezember."
 heroImage: /images/regions/jerusalem/hero.jpg
 category: "Planung"
 updatedAt: 2026-08-02

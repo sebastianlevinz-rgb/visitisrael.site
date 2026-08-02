@@ -1,6 +1,6 @@
 ---
 title: "Herzliya Reiseführer: Apollonia, Marina und Strandleben (2026)"
-description: "Herzliya kompakt: Apollonia-Nationalpark mit Kreuzfahrerburg, Herzliya-Marina, Acadia Beach und Anreise ab Tel Aviv in 20 Minuten — für deutschsprachige Reisende."
+description: "Herzliya kompakt: Apollonia-Nationalpark mit Kreuzfahrerburg, Herzliya-Marina, Acadia Beach und Anreise ab Tel Aviv in 20 Minuten."
 heroImage: /images/regions/tel-aviv/beaches.jpg
 category: "Ziele"
 verdictName: "einen geführten Herzliya-Tagesausflug ab Tel Aviv"
