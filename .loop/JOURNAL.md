@@ -14467,3 +14467,17 @@ Also added 5 routes to smoke.spec.ts and a11y.spec.ts (10 new test assertions).
 - /fr/* prefix only for confirmed-existing FR pages (EN fallback for /sea-of-galilee-guide).
 
 **Next:** iter953 → REVIEW (953%5=3 → REVIEW). Audit FR-21 batch: meta lengths (western-wall-guide desc 162 → trim to ≤160), /fr/* internal links, honesty, paired-naming.
+
+## 2026-08-02T22:17Z · iter 953 · REVIEW · review-953-fr21-meta-links
+
+What: Audited FR-21 batch (5 guides: yad-vashem-visitor-guide, western-wall-guide, israel-road-trip, mitzpe-ramon-guide, israel-travel-tips) per REVIEW checklist.
+Gate result: CLEAN — no code changes required.
+- Meta lengths: all ≤65 title / ≤160 desc. western-wall-guide desc = exactly 160 chars (STATE.md had flagged 162 at ship time; already correct in master — no trim needed).
+- /fr/* internal links: 16 links across 5 guides; all resolve to existing FR guide files.
+- H1 violations: none (all use ## headings in body; H1 owned by layout RSC).
+- Hero images: all 5 exist under public/images/.
+- Photo credits: western-wall.jpg has restrictedSiteAcknowledgment in data/photo-credits.json ✓.
+- Paired-naming Western Wall: "Mur des Lamentations", "Kotel", "Mur occidental", "הַכּוֹתֶל הַמַּעֲרָבִי" all present ✓.
+- Honesty: no fabricated prices; ETA-IL ₪25 noted as "environ" (approximate official fee); hotel prices = ranges or "consultez Booking.com"; no star ratings fabricated; Beresheet "5 étoiles" = official classification.
+- E2e coverage: all 5 /fr/* routes in both smoke.spec.ts and a11y.spec.ts ✓.
+Next: iter954 → REVIEW (954%5=4). Audit ES-33 batch (israel-honeymoon, israel-hidden-gems, israel-hebrew-phrases, israel-in-autumn, israel-in-winter): meta ≤65/≤160, /es/* links, honesty, paired-naming.

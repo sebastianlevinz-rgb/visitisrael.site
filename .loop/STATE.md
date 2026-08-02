@@ -1,12 +1,12 @@
 # LOOP STATE
 
-- iteration: 952
-- lastMode: BUILD
-- lastItem: fr-phase-21
-- lastResult: FR-21 SHIPPED b5dfc0be. 5 French guides: yad-vashem-visitor-guide, western-wall-guide, israel-road-trip, mitzpe-ramon-guide, israel-travel-tips. FR guides: 187→192/398. Build: 1308→1313 pages. 10 new e2e tests (5 smoke + 5 a11y). 1909/1909 e2e pass (16.8m).
-- nextRotationCategory: REVIEW (iter953; 953%5=3 → REVIEW; audit FR-21 batch: meta lengths ≤65/≤160, /fr/* links resolve, honesty framing, paired-naming Western Wall)
+- iteration: 953
+- lastMode: REVIEW
+- lastItem: review-953-fr21-meta-links
+- lastResult: FR-21 REVIEW CLEAN. All 5 guides (yad-vashem-visitor-guide, western-wall-guide, israel-road-trip, mitzpe-ramon-guide, israel-travel-tips) audited: all meta ≤65 title / ≤160 desc (western-wall-guide exactly 160 — no fix needed); all 16 /fr/* internal links resolve; no honesty issues; no H1 violations; all hero images exist; photo credits for western-wall.jpg has restrictedSiteAcknowledgment; paired-naming present (Mur des Lamentations / Kotel / Mur occidental); all 5 routes in smoke + a11y e2e specs. No code changes required.
+- nextRotationCategory: REVIEW (iter954; 954%5=4 → REVIEW; audit ES-33 batch: meta lengths ≤65/≤160, /es/* links resolve, honesty framing. iter955%5=0 → RESEARCH; iter956%5=1 → BUILD = DE-19)
 - higgsfieldSpent: 0
-- updatedAt: 2026-08-02T21:15Z
+- updatedAt: 2026-08-02T22:17Z
 - branch context: work on master; feature work on auto/<slug>
 
 Notes: iter950 RESEARCH — 190th research pass. FR-21 defined (yad-vashem, western-wall-guide, israel-road-trip, mitzpe-ramon-guide, israel-travel-tips); DE-19 defined (israel-honeymoon, israel-hidden-gems, israel-hebrew-phrases, hayarkon-park-tel-aviv, getyourguide-vs-viator-israel). Zero DACH editorial competitors for honeymoon or GYG vs Viator; FR road trip saturated but Route 90 north-south spine angle differentiates; DE hidden-gems gains Golan/Northern-Israel specifics (Meshushim hexagonal pools, Hula Valley cranes, Ein Keshatot synagogue). Key honesty notes: car rental NIS ranges only (rates risen post-conflict rebound); GYG vs Viator commission rates do NOT fabricate — describe features/platform differences only. nextRotationCategory → BUILD (iter951 = ES-33).
