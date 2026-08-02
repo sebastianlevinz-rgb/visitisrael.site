@@ -14366,3 +14366,31 @@ Also added 5 routes to smoke.spec.ts and a11y.spec.ts (10 new test assertions).
 **Ship:** No code changes — state update only.
 
 **Next:** iter950 → RESEARCH (950%5=0 → RESEARCH). Candidates: 190th research pass — ES-33 gaps, DE-19 candidates, EN freshness (Fattal Hotels pipeline, Wizz Air bases, August seasonal content).
+
+## 2026-08-02 · iter 950 · RESEARCH (fr21-de19-definitions)
+
+**Mode:** RESEARCH (iter950; 950%5=0 → RESEARCH)
+**Item:** research-950-fr21-de19-definitions — 190th research pass, FR-21 + DE-19 batch definitions
+
+**Competitors scanned (SERP + snippets; WebFetch blocked 403 on all attempts):** touristisrael.com, TourRadar.com, abouttravel.ch, travelontoast.de, meikereist.de, reisefroh.de, konpasu.de, capitaine-rando.com, mllebougeotte.fr, voirisrael.com, ijo-reisen.de, totes-meer-urlaub.de, kuren.de, Havas Voyages, Un Monde à Deux, roadcalls.fr.
+
+**Key intelligence:**
+- DE "Flitterwochen in Israel": zero DACH editorial; touristisrael.com has 2 EN-only honeymoon pages; DACH searchers hitting EN package-sellers only → DE editorial has no direct content competition.
+- DE "Geheimtipps Israel": only thin personal blogs (abouttravel.ch, travelontoast.de, meikereist.de, reisefroh.de, konpasu.de). Differentiator: Northern Israel/Golan emphasis — Meshushim hexagonal basalt pools (Yehudiya Reserve), Hula Valley crane migration (500M birds twice yearly), Ein Keshatot Golan 6th-c. synagogue ruins.
+- FR "Voyage de noces/Lune de miel en Israël": no standalone FR editorial; all results OTA booking pages (Havas Voyages, Expedia.fr, Voyageurs du Monde). Strong affiliate opportunity.
+- DE "GetYourGuide vs. Viator Israel": completely uncontested in German. GetYourGuide is Berlin-founded → natural DACH default.
+- FR Road Trip Israel: SATURATED with generic 10-day itineraries (capitaine-rando, mllebougeotte, cercledesvoyages, roadcalls). Differentiator: "Route 90 de Dan à Eilat" north-south spine angle almost uncontested.
+- DE Dead Sea Wellness: OTA-dominated niche (ijo-reisen.de Kur packages, totes-meer-urlaub.de, sonnenklar.tv). Editorial gap for neutral guide (not cure-claiming). Added P3 BACKLOG item.
+
+**Batches defined:**
+- FR-21 (187 → 192/398): yad-vashem-visitor-guide, western-wall-guide, israel-road-trip, mitzpe-ramon-guide, israel-travel-tips. All 5 confirmed MISSING from FR via comm -23.
+- DE-19 (177 → 182/398): israel-honeymoon, israel-hidden-gems, israel-hebrew-phrases, hayarkon-park-tel-aviv, getyourguide-vs-viator-israel. All 5 confirmed MISSING from DE via comm -23.
+
+**Honesty flags:**
+- Car rental pricing in FR road trip guide: NIS ranges only (rates risen with post-conflict tourism rebound; do NOT use 2024 figures).
+- GYG vs Viator: do NOT fabricate exact commission rates; compare features/selection/platform differences only.
+- DE wellness/Dead Sea medical claims: therapeutic tradition only, no cure promises; cite research not outcomes.
+
+**No code changes.** State + memory files updated only.
+
+**Next:** iter951 → BUILD (951%5=1 → BUILD; priority = ES-33 batch).

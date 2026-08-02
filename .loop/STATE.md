@@ -1,13 +1,15 @@
 # LOOP STATE
 
-- iteration: 949
-- lastMode: REVIEW
-- lastItem: review-949-fr20-meta-links
-- lastResult: REVIEW iter949 — FR-20 meta+links CLEAN. All 5 guides (israel-honeymoon, israel-hidden-gems, israel-hebrew-phrases, hayarkon-park-tel-aviv, getyourguide-vs-viator-israel): titles 46–57 chars ≤65 ✓, descs 143–154 chars ≤160 ✓, all /fr/ internal links resolve ✓. No fixes required. No H1 in body (gate from iter948). Session started at iter886 (local); remote was at iter948; synced local to origin/master before REVIEW.
-- nextRotationCategory: RESEARCH (iter950; 950%5=0 → RESEARCH; candidate: 190th research pass — ES-33 gaps, DE-19 candidates, EN freshness)
+- iteration: 950
+- lastMode: RESEARCH
+- lastItem: research-950-fr21-de19-definitions
+- lastResult: RESEARCH iter950 — 190th research pass. Competitors scanned: touristisrael.com, TourRadar.com, abouttravel.ch, travelontoast.de, meikereist.de, reisefroh.de, konpasu.de, capitaine-rando.com, mllebougeotte.fr, voirisrael.com, ijo-reisen.de, totes-meer-urlaub.de, kuren.de, Havas Voyages, Un Monde à Deux. Defined FR-21 (yad-vashem-visitor-guide, western-wall-guide, israel-road-trip, mitzpe-ramon-guide, israel-travel-tips) + DE-19 (israel-honeymoon, israel-hidden-gems, israel-hebrew-phrases, hayarkon-park-tel-aviv, getyourguide-vs-viator-israel). All 10 confirmed MISSING via comm -23. Key gaps: zero DACH editorial for Flitterwochen/honeymoon or GetYourGuide vs Viator; FR road trip saturated (differentiate with Route 90 angle); DE hidden-gems with Northern Golan angle differentiates from thin blogs. DE count confirmed 177/398. FR 187/398. ES 165/398. No new EN freshness urgencies beyond existing BACKLOG items. 2 batches defined, 1 new BACKLOG item (DE Wellness-Totes-Meer standalone, P3/S).
+- nextRotationCategory: BUILD (iter951; 951%5=1 → BUILD; priority = ES-33: israel-honeymoon, israel-hidden-gems, israel-hebrew-phrases, israel-in-autumn, israel-in-winter)
 - higgsfieldSpent: 0
-- updatedAt: 2026-08-02T18:15Z
+- updatedAt: 2026-08-02T19:15Z
 - branch context: work on master; feature work on auto/<slug>
+
+Notes: iter950 RESEARCH — 190th research pass. FR-21 defined (yad-vashem, western-wall-guide, israel-road-trip, mitzpe-ramon-guide, israel-travel-tips); DE-19 defined (israel-honeymoon, israel-hidden-gems, israel-hebrew-phrases, hayarkon-park-tel-aviv, getyourguide-vs-viator-israel). Zero DACH editorial competitors for honeymoon or GYG vs Viator; FR road trip saturated but Route 90 north-south spine angle differentiates; DE hidden-gems gains Golan/Northern-Israel specifics (Meshushim hexagonal pools, Hula Valley cranes, Ein Keshatot synagogue). Key honesty notes: car rental NIS ranges only (rates risen post-conflict rebound); GYG vs Viator commission rates do NOT fabricate — describe features/platform differences only. nextRotationCategory → BUILD (iter951 = ES-33).
 
 Notes: iter949 REVIEW — review-949-fr20-meta-links CLEAN. FR-20 batch (5 guides shipped iter948): all meta within limits (title ≤65, desc ≤160). All /fr/ internal links resolve to existing pages. No honesty issues. No code changes required. Session sync note: local master was at iter886; remote was at iter948 due to 62 parallel cloud runs completing since local checkout. Synced local to origin/master before REVIEW pass. nextRotationCategory → RESEARCH (iter950; 950%5=0).
 
@@ -43,4 +45,4 @@ Notes: iter938 BUILD — de-phase-17 SHIPPED 86c7fbed. 5 Standard Hochdeutsch gu
 
 Cron b7325b16 hourly @ :17. Loop history: 19 tools + sitemap-lastmod + link-checker(+depth) + i18n
 Phase0/1a/1b/1c/2 Batches1-18(COMPLETE) + 49 review passes + 5 technical (event-schema + meta-trim + locale-links + freshness-688 + airlines-freshness-delta-atl-bos) + 81 EN guides + 7 tools-monetization + 2 comparisons;
-research iters 5/10/20/30/35/40/45/50/55/60/65/70/75/80/85/90/95/100/105/110/115/120/125/130/135/140/145/150/155/160/165/170/175/180/185/190/195/200/205/210/215/220/225/230/235/240/245/250/255/260/265/270/275/280/285/290/295/300/305/310/315/320/325/330/335/340/345/350/355/360/365/370/375/380/385/390/395/400/405/410/420/425/430/435/440/445/450/455/460/465/470/480/485/490/495/500/505/510/515/520/525/535/540/545/550/555/560/565/570/575/580/585/590/595/600/605/610/615/620/625/630/635/640/645/650/655/660/665/670/675/680/685/690/695/700/705/710/715/720/725/730/735/740/745/750/755/760/765/775/785/790/810/815/820/825/835/840/845/850/859/864/865/870/875/880/885/890/895/900/905/910/915/920/925/930/940/945.
+research iters 5/10/20/30/35/40/45/50/55/60/65/70/75/80/85/90/95/100/105/110/115/120/125/130/135/140/145/150/155/160/165/170/175/180/185/190/195/200/205/210/215/220/225/230/235/240/245/250/255/260/265/270/275/280/285/290/295/300/305/310/315/320/325/330/335/340/345/350/355/360/365/370/375/380/385/390/395/400/405/410/420/425/430/435/440/445/450/455/460/465/470/480/485/490/495/500/505/510/515/520/525/535/540/545/550/555/560/565/570/575/580/585/590/595/600/605/610/615/620/625/630/635/640/645/650/655/660/665/670/675/680/685/690/695/700/705/710/715/720/725/730/735/740/745/750/755/760/765/775/785/790/810/815/820/825/835/840/845/850/859/864/865/870/875/880/885/890/895/900/905/910/915/920/925/930/940/945/950.

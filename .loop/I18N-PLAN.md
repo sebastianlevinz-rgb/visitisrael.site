@@ -1171,9 +1171,9 @@ Quality: Standard Hochdeutsch; YAML double-quotes; /de/* cross-links only confir
 | Locale | Guides | Note |
 |--------|--------|------|
 | en     | 398    | stable |
-| fr     | 187    | 211 missing — Phase FR-20 SHIPPED iter948 da608dbd; **Phase FR-21 TBD** |
-| de     | 172    | 226 missing — Phase DE-17 SHIPPED iter938 86c7fbed; **Phase DE-18 DEFINED iter940 (next DE BUILD)** |
-| es     | 165    | 233 missing — Phase ES-32 SHIPPED iter941 070daf35; **Phase ES-33 DEFINED iter945** |
+| fr     | 187    | 211 missing — Phase FR-20 SHIPPED iter948 da608dbd; **Phase FR-21 DEFINED iter950** |
+| de     | 177    | 221 missing — Phase DE-18 SHIPPED iter946 a71356b8; **Phase DE-19 DEFINED iter950** |
+| es     | 165    | 233 missing — Phase ES-32 SHIPPED iter941 070daf35; **Phase ES-33 DEFINED iter945 (next ES BUILD)** |
 
 **FR-19 (iter944) shipped:** FR guides now 182/398. FR leads DE (182 vs 172).
 **DE-18 (iter940):** ready for next DE BUILD (5 guides: shopping-in-israel, mahane-yehuda-market-guide, via-dolorosa-guide, solo-travel-israel, western-wall-tunnels-guide).
@@ -1239,3 +1239,66 @@ Cross-links to verify before BUILD:
 - /es/transportation: verify; likely exists as it was one of the first ES guides
 
 Quality: neutral LATAM Spanish tuteo; YAML double-quotes; /es/* prefix only for confirmed-existing ES pages; no fabricated prices (rangos only); Makhtesh Ramon "heart shape" honesty note; Sukkot dates 2026 verified (26 sep-3 oct); crane count hedged ("hasta 500.000"); Dead Sea winter framing honest (not "ideal all day" — UV lower but still apply sunscreen); Checkpoint 300 + Bethlehem West Bank neutral framing.
+
+### Phase FR-21 (187 → 192/398) — DEFINED iter950 RESEARCH 2026-08-02
+
+Guides: `yad-vashem-visitor-guide.md`, `western-wall-guide.md`, `israel-road-trip.md`, `mitzpe-ramon-guide.md`, `israel-travel-tips.md`
+All 5 confirmed MISSING from `src/content/guides/fr/` via `comm -23` (2026-08-02 iter950).
+
+Research ranking (by FR search volume + affiliate value + editorial gap):
+1. `yad-vashem-visitor-guide.md` — France has Europe's largest Jewish diaspora (~500–600K); "Yad Vashem visite" is a substantial FR search; critical France–Israel cultural connection; no FR editorial competitor found; pre-registration caveat essential
+2. `western-wall-guide.md` — "Mur des Lamentations" = most recognized French-language Israel term; French pilgrimage + Jewish diaspora market; pairs /fr/western-wall-tunnels-guide ✓ (building companion)
+3. `israel-road-trip.md` — Road trip format extremely popular with French travelers; differentiated "Route 90 de Dan à Eilat" angle vs. saturated generic 10-day circuits; car rental affiliate (/fr/car-rental-israel ✓, /fr/driving-in-israel ✓)
+4. `mitzpe-ramon-guide.md` — "Makhtesh Ramon / cratère Ramon" popular with French eco-travelers; Beresheet + Succah affiliate; pairs /fr/3-days-in-negev ✓
+5. `israel-travel-tips.md` — High pre-trip informational intent; French travelers research thoroughly; SIM cards, tipping, Shabbat logistics, dress codes, security; pairs /fr/israel-by-month ✓, /fr/best-time-to-visit-israel ✓
+
+Content notes per guide:
+- `yad-vashem-visitor-guide.md`: FR "Yad Vashem : Guide de Visite Complet (2026)" — Hall of Names + Eternal Flame + Hall of Remembrance; children's memorial; Righteous Among Nations Garden; guided tour vs. self-guided; pre-registration required (yadvashem.org/fr); audioguide ₪30; Group visits: advance booking recommended; Dress code: no specific requirements but respectful; Links: /fr/jerusalem-old-city ✓ (if exists), /fr/western-wall-guide (building in batch); no fabricated tour prices; official FR website (yadvashem.org/fr) exists
+- `western-wall-guide.md`: FR "Le Mur des Lamentations (Kotel) : Guide Complet (2026)" — Mur des Lamentations / ha-Kotel ha-Ma'arawi / הַכּוֹתֶל הַמַּעֲרָבִי (paired-naming essential); plaza logistics + gender-divided prayer sections + Ezrat Yisrael egalitarian section (Robinson's Arch context); visiting hours, dress code, prayer note customs; Western Wall Tunnels → link /fr/western-wall-tunnels-guide ✓; Jewish calendar context (Shabbat, Yom Kippur atmosphere); no fabricated prices; respect framing (active religious site)
+- `israel-road-trip.md`: FR "Road Trip en Israël : Route 90 de Dan à Eilat et Circuits (2026)" — Route 90 differentiator (north-south spine, 500km from Lebanese border to Red Sea: Tel Dan→Sea of Galilee→Bet She'an→Jericho junction→Dead Sea→Arava→Eilat); also circular 10-day circuit option; car rental pricing: ₪ ranges only (do NOT use specific daily rates — rates risen with post-conflict tourism rebound); best season: Oct–Apr; /fr/car-rental-israel ✓, /fr/driving-in-israel ✓; GYG scenic stops CTAs; no fabricated petrol/toll prices; Shabbat driving note (fuel stations close)
+- `mitzpe-ramon-guide.md`: FR "Mitzpe Ramon et Makhtesh Ramon : Guide Pratique (2026)" — géologie honnête (érosion, pas météorite ni volcan); vues panoramiques belvédère; descente dans le makhtesh (sentiers Wadi Ardon + Nahal Ga'ash); glamping (Beresheet Hotel ₪ gammes; Succah in the Desert ₪ gammes); ciel étoilé Néguev (pollution lumineuse quasi-nulle; astrophotographie); faune (chèvres ibex, ânes sauvages); craft brewery Ramon en ville; pairs /fr/3-days-in-negev ✓; Booking.com CTAs; no fabricated prices
+- `israel-travel-tips.md`: FR "Conseils Pratiques pour Voyager en Israël (2026)" — carte SIM (cellcom, partner; eSIM options; acheter à l'aéroport TLV); pourboires (restaurants 10-12%, taxis arrondir, hôtels facultatif); Shabbat logistique (vendredi coucher soleil – samedi nuit; transports en commun arrêtés; épiceries/restaurants casher fermés; hôtels disponibles; pré-réservation recommandée); code vestimentaire lieux saints (épaules/genoux couverts); sécurité aéroport Ben Gourion (interrogatoire routine: répondre calmement + honnêtement, 1–3h si passeport avec tampons arabes); argent: shekels NIS (bureaux de change TLV/Jérusalem; cartes banque acceptées partout); no fabricated safety claims; pairs /fr/israel-by-month ✓, /fr/best-time-to-visit-israel ✓, /fr/first-time-in-israel ✓ (if exists in FR)
+
+Cross-links to verify before BUILD:
+- /fr/western-wall-tunnels-guide ✓ (confirmed existing)
+- /fr/3-days-in-negev ✓ (confirmed)
+- /fr/car-rental-israel ✓ (confirmed)
+- /fr/driving-in-israel ✓ (confirmed)
+- /fr/israel-by-month ✓ (confirmed)
+- /fr/best-time-to-visit-israel ✓ (confirmed)
+- /fr/dead-sea-guide ✓ (confirmed)
+- /fr/negev-desert-guide: MISSING → use EN fallback /negev-desert-guide
+- /fr/first-time-in-israel: CHECK before using /fr/ prefix (may not exist in FR — use EN fallback if absent)
+- /fr/jerusalem-old-city: CHECK before using (use EN fallback if absent)
+
+Quality: metropolitan French; YAML double-quotes; /fr/* prefix only for confirmed-existing FR pages (EN fallbacks where FR missing); no fabricated prices (₪ ranges only); paired-naming on contested sites (Western Wall); Yad Vashem pre-registration requirement honest caveat; road trip car rental ranges only (do not cite specific daily NIS rates); Shabbat logistics accurate + non-alarmist.
+
+### Phase DE-19 (177 → 182/398) — DEFINED iter950 RESEARCH 2026-08-02
+
+Guides: `israel-honeymoon.md`, `israel-hidden-gems.md`, `israel-hebrew-phrases.md`, `hayarkon-park-tel-aviv.md`, `getyourguide-vs-viator-israel.md`
+All 5 confirmed MISSING from `src/content/guides/de/` via `comm -23` (2026-08-02 iter950).
+
+Research ranking (by DE/DACH search volume + affiliate value + zero-competition gaps):
+1. `israel-honeymoon.md` — zero DACH editorial competitor confirmed (only touristisrael.com EN-only pages); "Flitterwochen Israel / Hochzeitsreise Israel" = high DACH commercial intent; DACH couples choose Dead Sea spa + Negev glamping + Galilee wine trail; Booking.com + GYG couples tours = strong affiliate
+2. `getyourguide-vs-viator-israel.md` — completely uncontested in German; GetYourGuide Berlin-founded = natural DACH default brand; DACH travelers comparison-minded (Vergleich culture); strong affiliate conversion
+3. `israel-hidden-gems.md` — only thin personal blogs (travelontoast.de, reisefroh.de, meikereist.de, konpasu.de); differentiated with Northern Israel/Golan angle: Meshushim hexagonal basalt pools + Hula Valley crane migration + Ein Keshatot Golan synagogue vs. standard gems
+4. `israel-hebrew-phrases.md` — practical pre-trip; phonetics adapted for German speakers (distinct from EN/FR versions); unique editorial value; high pre-departure engagement
+5. `hayarkon-park-tel-aviv.md` — main TLV urban park for DACH city-break visitors; Yarkon-Amphitheater (50.000 Plätze; Jay-Z, Radiohead gespielt); Kayak/Tretboot; Tropische Gärten; Minizoo (Ganei Yehoshua); pairs /de/1-day-tel-aviv-itinerary ✓
+
+Content notes per guide:
+- `israel-honeymoon.md`: DE "Flitterwochen in Israel : Romantische Reise als Paar (2026)" — Totes Meer Schwimmen (einzigartiges Auftriebserlebnis; Mineralien; Sonnencreme vor dem Bad auftragen); Makhtesh Ramon ("herzförmig" — ehrliche Anmerkung: Form aus Vogelperspektive sichtbar; Glamping Beresheet Hotel oder Succah in the Desert ₪ Preisspannen; kaum Lichtverschmutzung = Sternenhimmel); Galilee Weinroute (Golan Heights Winery + Galil Mountain + Pelter; Privatverkostung; Seelandschaft); Tel Aviv romantisch (Hotel Norman Dachterrasse; Jaffa-Hafen Sonnenuntergang; Fischrestaurants); kein Preis erfunden; 3 CTAs Booking/GYG Paarsausflüge; cross-links /de/dead-sea-guide ✓, /de/galilee-wine-trail ✓, /de/3-days-in-negev ✓
+- `israel-hidden-gems.md`: DE "10 Israel Geheimtipps : Verborgene Schätze (2026)" — with Northern Israel/Golan emphasis to differentiate from standard EN list: Meshushim-Bach (Sechseck-Basaltbecken im Yehudia-Naturreservat, Golan; Wanderzugang über Yehudiya; 45°C Wasserfall im Sommer → Frühling/Herbst empfohlen); Hulavalley Kranichzug (Agamon HaHula; bis 500.000 Kraniche okt–jan; Vogelboot ₪ Preisspannen); Ein Keshatot (6. Jh. Synagoge in Golan-Weinbergen; Mosaik-Inschrift; kaum bekannt, auch DACH-Reiseführer vergessen es); Ayalon-Institut Rehovot (geheime Munitionsfabrik 1945-48; Pflichtführung); Ilana Goor Museum Jaffa (Künstlerhaus 18. Jh. Osmanisches Gebäude); Ralli-Museen Caesarea (private hispanisch-amerikanische Skulpturmuseen im Archäologiepark); cross-links /de/beit-guvrin-caves-guide ✓, /de/caesarea-guide ✓, /de/golan-heights-guide ✓
+- `israel-hebrew-phrases.md`: DE "Hebräisch für Reisende : Wichtige Ausdrücke in Israel (2026)" — Phonetik für Deutschsprachige (deutsche Vokalaussprache angepasst: Chet=ch wie in „Bach"; Ayin=sanfter Kehlverschluss); Kategorien: Begrüßungen (Shalom, Boker Tov, Erev Tov, Ma Shlomcha/Shlomech, Lehitraot); Restaurant/Kashrut (Koscher=כָּשֵׁר; Yesh ta'arucha be-anglit?=Gibt es eine englische Speisekarte?); Verkehr (Eifo ha-takhanah?=Wo ist der Bahnhof?); Notfall (Hatzalah=Rettungsdienst; Mishmar=Polizei); Zahlen 1–10; kulturelle Note: Englisch sehr verbreitet; wenige hebräische Wörter = geschätzter Respekt; keine erfundenen phonetischen Fehler; pairs /de/first-time-in-israel ✓, /de/transportation ✓
+- `hayarkon-park-tel-aviv.md`: DE "Hayarkon Park Tel Aviv : Freizeitführer (2026)" — Tels Avivs größter Stadtpark (3,5 km²); Aktivitäten: Kajak/Tretboot auf dem Yarkon-Fluss (₪ Preisspannen; Bootsverleih am Eingang); Yarkon-Amphitheater (50.000 Plätze; Sommerkonzerte; Jay-Z, Radiohead haben hier gespielt); Tropische Gärten (Gewächshäuser kostenlos; Kaktearium + Japanischer Garten); Fahrradweg 7 km (Fahrradverleih am Eingang); Ganei Yehoshua (kleiner Zoo Nordseite gratis); Tipps: frühmorgens für Parkplatz; Freitag = Israelische Familien Picknick-Tag; Shabbat Park offen; 3 CTAs GYG Tel Aviv Touren/Booking TLV Hotels; pairs /de/1-day-tel-aviv-itinerary ✓, /de/jaffa-travel-guide ✓ (if exists in DE; use EN fallback if absent)
+- `getyourguide-vs-viator-israel.md`: DE "GetYourGuide vs. Viator für Israel-Ausflüge (2026)" — GetYourGuide (Berlin-gegründet 2009; Standard in DACH-Markt; kostenlose Stornierung i.d.R. bis 24h; Israel-spezifische Touren gut vertreten); Viator (TripAdvisor-Gruppe; stärker kombinierte Touren + Transfers; globaler, weniger lokale DACH-Vertrauensbasis); Vergleichstabelle 9 Kriterien (Interface, Stornobedingungen, Preis, Tourenauswahl Israel, Kundenservice, App, Gutscheine/Promo, Lokale Guides, Barrierefreiheit); WICHTIG: keine genauen Provisionssätze (ändern sich häufig; nicht fabrizieren); für typische Israel-Ausflüge nach Kategorie empfehlen (Masada+Totes Meer: GYG; Galilee-Kreuzfahrt: beide gut; Jerusalem Rundgang: GYG etwas mehr lokale Guides); 3 CTAs GYG/Viator; cross-links /de/best-tours-in-israel ✓, /de/golan-heights-tours-compared ✓
+
+Cross-links to verify before BUILD:
+- /de/dead-sea-guide ✓, /de/galilee-wine-trail ✓, /de/3-days-in-negev ✓: confirmed existing
+- /de/beit-guvrin-caves-guide ✓, /de/caesarea-guide ✓, /de/golan-heights-guide ✓: confirmed existing
+- /de/first-time-in-israel ✓, /de/transportation ✓: confirmed existing
+- /de/1-day-tel-aviv-itinerary ✓: confirmed existing
+- /de/best-tours-in-israel ✓, /de/golan-heights-tours-compared ✓: confirmed existing
+- /de/jaffa-travel-guide: CHECK — if not in DE, use EN fallback /jaffa-travel-guide
+- /de/israel-by-month: CHECK — confirmed in DE (de-phase-17 shipped it); use /de/israel-by-month ✓
+
+Quality: Standard Hochdeutsch; YAML double-quotes; /de/* prefix only for confirmed-existing DE pages (EN fallbacks where DE missing); no fabricated prices (₪ Preisspannen only); honeymoon — Makhtesh Ramon "herzförmig" honesty note (Vogelperspektive); hidden gems — Meshushim summer heat warning (Frühjahr/Herbst besser); GYG vs Viator: KEINE genauen Provisionssätze — Plattformmerkmale beschreiben; Hebräisch-Phonetik: nur bekannte/verifizierbare Ausspracheregeln, keine erfundenen Wörter.

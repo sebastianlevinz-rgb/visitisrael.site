@@ -7234,3 +7234,51 @@ Sources: civitatis.com, jerusalen.com, routard.com, petitfute.com, urbanmeandere
 - Hidden gems = low-effort aggregation win that targets head-term "hidden gems" searches.
 - French market is active and competitive from package operators but thin on editorial depth — our editorial model can outrank.
 - August seasonal content gap is actionable and evergreen (events confirmed annually).
+
+## 190th research pass (iter950, 2026-08-02)
+
+**Scope:** DACH + French market competitor scan for FR-21 + DE-19 batch definitions. WebFetch blocked 403 universally; all intelligence from SERP snippets + titles + meta.
+
+**DE market — Honeymoon / Flitterwochen:**
+- touristisrael.com: 2 EN-only pages (/honeymoon-in-israel, /how-to-have-the-ultimate-honeymoon) — no DE version
+- TourRadar.com, BeinHarimTours.com, MazadaTours.com: tour packages only, no editorial honeymoon content in German
+- **Gap: zero DACH editorial honeymoon guides** — clean editorial opportunity
+
+**DE market — Geheimtipps / Hidden Gems:**
+- abouttravel.ch (Swiss blog, blocked), travelontoast.de, meikereist.de, reisefroh.de, konpasu.de: all thin personal travel blogs, not structured editorial
+- Specific hidden gems surfaced in snippets NOT on our site yet: Meshushim stream hexagonal basalt pools (Yehudiya Reserve, Golan), Hula Valley crane migration (500M birds), Ein Keshatot Golan synagogue ruins (6th c.)
+- **Gap: structured DE "10 Geheimtipps" with Northern Israel/Golan emphasis beats all thin blog competitors**
+
+**DE market — GetYourGuide vs Viator:**
+- thetraveler.org, samseesworld.com, viatravelers.com: all EN-only comparison articles, no DACH version
+- automate.travel: vendor/operator-side commission article (not traveler-facing)
+- **Gap: completely uncontested in German** — GYG Berlin-based = natural DACH brand trust
+
+**DE market — Dead Sea Wellness (Kur):**
+- ijo-reisen.de: specialist 21-day Kur packages (Psoriasis, joints) — avoid reproducing clinical claims
+- totes-meer-urlaub.de: dedicated niche, OTA model
+- kuren.de, sonnenklar.tv: aggregators
+- Lot Spa (En Boqeq) flagship across all results; seasonal pricing windows March–December 2026 confirmed
+- **Gap: neutral editorial guide (not cure-claiming) fills space none of the OTAs occupy**
+
+**FR market — Voyage de noces / Lune de miel:**
+- Havas Voyages: package tours €2,900+ "lune de miel Israël" targeting
+- Voyageurs du Monde: luxury tailor-made, no editorial guide
+- Un Monde à Deux: generic honeymoon planning blog, not Israel-specific
+- Tripadvisor.fr, Expedia.fr: hotel listing pages only
+- **Gap: no standalone FR editorial "lune de miel Israel" guide** — high affiliate potential (luxury Dead Sea + Negev glamping)
+
+**FR market — Road Trip Israel:**
+- capitaine-rando.com: 10-day Negev/Galilee itinerary (confirmed ranking)
+- mllebougeotte.fr: TLV→Jerusalem→Dead Sea→Eilat (standard circuit)
+- cercledesvoyages.com: 8-day circuit; roadcalls.fr: 1-week; voirisrael.com: local-guide 10-day
+- **Gap: generic 10-day format SATURATED** — differentiated "Route 90 de Dan à Eilat" (north-south spine road) almost uncontested; also "road trip avec enfants" and "2 semaines en Israël" formats open
+
+**i18n batch definitions (iter950):**
+- FR-21 defined: yad-vashem-visitor-guide, western-wall-guide, israel-road-trip, mitzpe-ramon-guide, israel-travel-tips (all confirmed MISSING from FR)
+- DE-19 defined: israel-honeymoon, israel-hidden-gems, israel-hebrew-phrases, hayarkon-park-tel-aviv, getyourguide-vs-viator-israel (all confirmed MISSING from DE)
+
+**Strategy notes (iter950):**
+- DACH honeymoon and GetYourGuide comparison are the two clearest zero-competition gaps.
+- FR road trip needs Route 90 differentiation to avoid competing head-on with 5+ established FR travel blogs.
+- DE wellness/Dead Sea Kur is a natural fit but requires careful medical-claim framing (therapeutic tradition, not cure promises).
