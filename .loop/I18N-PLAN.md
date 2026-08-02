@@ -6,12 +6,12 @@
 >
 > One bounded slice per loop iteration. NEVER bulk-translate in one shot.
 
-## Current status snapshot (2026-08-02 iter941 BUILD — ES-32 SHIPPED 070daf35; DE-17 SHIPPED 86c7fbed; FR-18 SHIPPED fa22c327; FR-19/DE-18 DEFINED iter940)
+## Current status snapshot (2026-08-02 iter943 BUILD — FR-19 SHIPPED PR #39; DE-18 DEFINED iter940)
 
 | Locale | Guides | Attractions | Regions | Itineraries |
 |--------|--------|-------------|---------|-------------|
 | en     | 398    | 65          | 11      | 6           |
-| fr     | 177    | 61          | 11      | 6           |
+| fr     | 182    | 61          | 11      | 6           |
 | de     | 172    | 61          | 11      | 6           |
 | es     | 165    | 61          | 11      | 6           |
 
@@ -1108,7 +1108,7 @@ Cross-links to verify before BUILD:
 
 Quality: neutral LATAM Spanish tuteo; YAML double-quotes; /es/* cross-links only confirmed-existing; no fabricated prices (rangos); Western Wall Tunnels paired-naming all 3 traditions; museums hours honesty caveat; scenic drives no fabricated distances (use route numbers); summer heat safety honest.
 
-### Phase FR-19 (177 → 182/398) — DEFINED iter940 RESEARCH 2026-08-02
+### Phase FR-19 (177 → 182/398) — SHIPPED iter943 PR #39 auto/fr-phase-19 2026-08-02
 
 Guides: `jerusalem-neighborhoods-guide.md`, `israel-best-scenic-drives.md`, `jaffa-food-guide.md`, `tel-aviv-museums.md`, `israel-in-autumn.md`
 All 5 confirmed MISSING from `src/content/guides/fr/` via `comm -23` (2026-08-02 iter940).

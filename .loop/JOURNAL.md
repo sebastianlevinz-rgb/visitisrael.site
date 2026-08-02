@@ -14248,3 +14248,12 @@ Gate: pnpm check 0 errors; build 1288 pages (content update only, page count unc
 Ship: squash-merged to master f47682b7, pushed origin/master.
 CI: in_progress at journal-write time (Lighthouse + CI workflows both running for f47682b7).
 Next: iter943 → BUILD (943%5=3 → BUILD; FR-19 by rotation: jerusalem-neighborhoods-guide, israel-best-scenic-drives, jaffa-food-guide, tel-aviv-museums, israel-in-autumn).
+
+## 2026-08-02 · iter 943 · BUILD (i18n-FR) · fr-phase-19
+What: 5 French-language guides for Phase FR-19. Jerusalem neighborhoods, scenic drives, Jaffa food, Tel Aviv museums, Israel in autumn.
+Files: src/content/guides/fr/jerusalem-neighborhoods-guide.md, israel-best-scenic-drives.md, jaffa-food-guide.md, tel-aviv-museums.md, israel-in-autumn.md. tests/e2e/smoke.spec.ts + a11y.spec.ts (+5 routes each).
+Fix: First e2e run (bavt2kkdd) caught 3 broken internal links — /fr/western-wall-guide and /fr/tel-aviv-beach-guide don't exist in FR; changed to EN fallbacks (/western-wall-guide, /tel-aviv-beach-guide).
+Gate: pnpm check 0 errors; build 1293 pages (+5); 1633/1633 e2e pass (22.4m; 0 failures; links.spec ✓; all 5 FR guide a11y ✓; all 5 FR guide smoke ✓). pnpm exit code 1 due to two competing playwright processes — confirmed no actual test failures.
+Ship: Branch auto/fr-phase-19 pushed; PR #39 created as draft (sebastianlevinz-rgb/visitisrael.site).
+Note: Session ran as scheduled cron (iter943 = 943%5=3 → BUILD). FR guides: 177→182/398.
+Next: iter944 BUILD — DE-18 (shopping-in-israel, mahane-yehuda-market-guide, via-dolorosa-guide, solo-travel-israel, western-wall-tunnels-guide).
