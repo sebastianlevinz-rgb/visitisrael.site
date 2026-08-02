@@ -14481,3 +14481,15 @@ Gate result: CLEAN — no code changes required.
 - Honesty: no fabricated prices; ETA-IL ₪25 noted as "environ" (approximate official fee); hotel prices = ranges or "consultez Booking.com"; no star ratings fabricated; Beresheet "5 étoiles" = official classification.
 - E2e coverage: all 5 /fr/* routes in both smoke.spec.ts and a11y.spec.ts ✓.
 Next: iter954 → REVIEW (954%5=4). Audit ES-33 batch (israel-honeymoon, israel-hidden-gems, israel-hebrew-phrases, israel-in-autumn, israel-in-winter): meta ≤65/≤160, /es/* links, honesty, paired-naming.
+
+## 2026-08-02T23:17Z · iter 954 · REVIEW · review-954-es33-meta-links
+What: Audited the 5 ES-33 guides shipped iter951 (israel-honeymoon, israel-hidden-gems, israel-hebrew-phrases, israel-in-autumn, israel-in-winter).
+Gate result: CLEAN — no code changes required.
+- Meta lengths: all within limits. Titles 52–58 chars (≤65 ✓). Descriptions 129–142 chars (≤160 ✓).
+- /es/* internal links: 26 links across 5 guides; all resolve to existing ES guide files ✓.
+- H1 violations: none — all guides use ## headings in body; H1 owned by layout ✓.
+- Hero images: all 5 exist (dead-sea/hero.jpg, golan/hero.jpg, tel-aviv/hero.jpg, galilee/hero.jpg, dead-sea/ein-bokek.jpg) ✓.
+- Affiliate CTAs: 14 total across 5 guides; partners = booking/getyourguide/viator/tourradar/abraham — all valid ✓.
+- Honesty framing: no fabricated ratings, no exact prices; all prices in ranges (₪ or USD ranges); Dead Sea spa claims hedged; Herodiom/West Bank access advisory correctly noted ✓.
+- Bare link check: no slugs missing /es/ prefix across any guide ✓.
+Next: iter955 → RESEARCH (191st research pass).

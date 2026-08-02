@@ -1,12 +1,12 @@
 # LOOP STATE
 
-- iteration: 953
+- iteration: 954
 - lastMode: REVIEW
-- lastItem: review-953-fr21-meta-links
-- lastResult: FR-21 REVIEW CLEAN. All 5 guides (yad-vashem-visitor-guide, western-wall-guide, israel-road-trip, mitzpe-ramon-guide, israel-travel-tips) audited: all meta ≤65 title / ≤160 desc (western-wall-guide exactly 160 — no fix needed); all 16 /fr/* internal links resolve; no honesty issues; no H1 violations; all hero images exist; photo credits for western-wall.jpg has restrictedSiteAcknowledgment; paired-naming present (Mur des Lamentations / Kotel / Mur occidental); all 5 routes in smoke + a11y e2e specs. No code changes required.
-- nextRotationCategory: REVIEW (iter954; 954%5=4 → REVIEW; audit ES-33 batch: meta lengths ≤65/≤160, /es/* links resolve, honesty framing. iter955%5=0 → RESEARCH; iter956%5=1 → BUILD = DE-19)
+- lastItem: review-954-es33-meta-links
+- lastResult: ES-33 REVIEW CLEAN. All 5 guides (israel-honeymoon, israel-hidden-gems, israel-hebrew-phrases, israel-in-autumn, israel-in-winter) audited: all meta ≤65 title / ≤160 desc (57/140, 57/141, 58/142, 52/142, 53/129 chars); all 26 /es/* internal links resolve; hero images all exist; affiliate partners all valid (booking/getyourguide/viator/tourradar/abraham); no H1 in body; no honesty red flags (no fabricated ratings or exact prices). No code changes required.
+- nextRotationCategory: RESEARCH (iter955; 955%5=0 → RESEARCH — 191st research pass; iter956%5=1 → BUILD = DE-19)
 - higgsfieldSpent: 0
-- updatedAt: 2026-08-02T22:17Z
+- updatedAt: 2026-08-02T23:17Z
 - branch context: work on master; feature work on auto/<slug>
 
 Notes: iter950 RESEARCH — 190th research pass. FR-21 defined (yad-vashem, western-wall-guide, israel-road-trip, mitzpe-ramon-guide, israel-travel-tips); DE-19 defined (israel-honeymoon, israel-hidden-gems, israel-hebrew-phrases, hayarkon-park-tel-aviv, getyourguide-vs-viator-israel). Zero DACH editorial competitors for honeymoon or GYG vs Viator; FR road trip saturated but Route 90 north-south spine angle differentiates; DE hidden-gems gains Golan/Northern-Israel specifics (Meshushim hexagonal pools, Hula Valley cranes, Ein Keshatot synagogue). Key honesty notes: car rental NIS ranges only (rates risen post-conflict rebound); GYG vs Viator commission rates do NOT fabricate — describe features/platform differences only. nextRotationCategory → BUILD (iter951 = ES-33).
