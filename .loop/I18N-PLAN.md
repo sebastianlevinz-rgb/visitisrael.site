@@ -17,7 +17,7 @@
 
 **Gaps to close:**
 - es guides: **233 missing** (165/398 done — Phase ES-32 SHIPPED iter941 070daf35; **Phase ES-33 TBD — next ES BUILD**; NOTE: ES-32 meta overruns flagged iter944 — P2 BACKLOG review-es32-meta-trim)
-- fr guides: **216 missing** (182/398 done — Phase FR-19 SHIPPED iter944 7210f3d3; **Phase FR-20 TBD — next FR BUILD**)
+- fr guides: **211 missing** (187/398 done — Phase FR-20 SHIPPED iter948 da608dbd; **Phase FR-21 TBD — next FR BUILD**)
 - de guides: **226 missing** (172/398 done — Phase DE-17 SHIPPED iter938 86c7fbed; **Phase DE-18 DEFINED iter940 — next DE BUILD**)
 - fr/de/es attractions: **4 missing each** (the 4 EN attractions added after Phase 4)
 
@@ -1171,16 +1171,18 @@ Quality: Standard Hochdeutsch; YAML double-quotes; /de/* cross-links only confir
 | Locale | Guides | Note |
 |--------|--------|------|
 | en     | 398    | stable |
-| fr     | 182    | 216 missing — Phase FR-19 SHIPPED iter944 7210f3d3; **Phase FR-20 DEFINED iter945** |
+| fr     | 187    | 211 missing — Phase FR-20 SHIPPED iter948 da608dbd; **Phase FR-21 TBD** |
 | de     | 172    | 226 missing — Phase DE-17 SHIPPED iter938 86c7fbed; **Phase DE-18 DEFINED iter940 (next DE BUILD)** |
 | es     | 165    | 233 missing — Phase ES-32 SHIPPED iter941 070daf35; **Phase ES-33 DEFINED iter945** |
 
 **FR-19 (iter944) shipped:** FR guides now 182/398. FR leads DE (182 vs 172).
 **DE-18 (iter940):** ready for next DE BUILD (5 guides: shopping-in-israel, mahane-yehuda-market-guide, via-dolorosa-guide, solo-travel-israel, western-wall-tunnels-guide).
 **ES-32 meta overruns (iter944 review):** P2 BACKLOG item review-es32-meta-trim — 4/5 guides have desc/title overruns; fix before next ES-32 content iteration.
+**iter948 BUILD:** FR-20 SHIPPED da608dbd. israel-honeymoon + israel-hidden-gems + israel-hebrew-phrases + hayarkon-park-tel-aviv + getyourguide-vs-viator-israel. FR guides: 182→187/398. 1889/1889 e2e pass.
+
 **iter945 research (189th pass):** FR-20 + ES-33 defined. Key gap discovered: israel-honeymoon ENTIRELY MISSING from site — touristisrael.com has 3 dedicated pages; P2 EN guide queued + i18n in FR-20/ES-33.
 
-### Phase FR-20 (182 → 187/398) — DEFINED iter945 RESEARCH 2026-08-02
+### Phase FR-20 (182 → 187/398) — SHIPPED iter948 da608dbd 2026-08-02
 
 Guides: `israel-honeymoon.md`, `israel-hidden-gems.md`, `israel-hebrew-phrases.md`, `hayarkon-park-tel-aviv.md`, `getyourguide-vs-viator-israel.md`
 All 5 confirmed MISSING from `src/content/guides/fr/` via `comm -23` (2026-08-02 iter945).

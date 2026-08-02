@@ -1,13 +1,15 @@
 # LOOP STATE
 
-- iteration: 947
+- iteration: 948
 - lastMode: BUILD
-- lastItem: review-es32-meta-trim
-- lastResult: BUILD iter947 — review-es32-meta-trim SHIPPED 373bd808. 4 ES-32 frontmatter fixes: western-wall-tunnels-guide (desc 195→149, title 72→61), jaffa-food-guide (desc 196→147, title 82→57), israel-best-scenic-drives (desc 226→159), israel-in-summer (desc 201→160). All titles ≤65, all descs ≤160. Build 1298 pages (unchanged). 1879/1879 e2e+a11y pass (13.7m). CI in_progress at push time.
-- nextRotationCategory: BUILD (iter948; 948%5=3 → BUILD; candidate: FR-20 batch — israel-honeymoon, israel-hidden-gems, israel-hebrew-phrases, hayarkon-park-tel-aviv, getyourguide-vs-viator-israel)
+- lastItem: fr-phase-20
+- lastResult: BUILD iter948 — FR-20 SHIPPED da608dbd. 5 French guides: israel-honeymoon, israel-hidden-gems, israel-hebrew-phrases, hayarkon-park-tel-aviv, getyourguide-vs-viator-israel. FR guides 182→187/398. Build 1298→1303 pages (+5). 1889/1889 e2e+a11y pass (15.0m exit code 0). CI in_progress at push time.
+- nextRotationCategory: REVIEW (iter949; 949%5=4 → REVIEW; candidate: review-fr20-meta-check or ES-33 batch or next BACKLOG priority)
 - higgsfieldSpent: 0
-- updatedAt: 2026-08-02T16:00Z
+- updatedAt: 2026-08-02T17:00Z
 - branch context: work on master; feature work on auto/<slug>
+
+Notes: iter948 BUILD — FR-20 SHIPPED da608dbd. 5 French guides: israel-honeymoon (voyage de noces; Mer Morte, Galilée, Jaffa, Makhtesh Ramon avec note honnête), israel-hidden-gems (10 joyaux: Ayalon, Ilana Goor, Ralli, synagogues cachées, Beit Guvrin), israel-hebrew-phrases (hébreu voyageurs phonétique FR; tables par catégorie), hayarkon-park-tel-aviv (guide pratique; kayak, vélo, jardin tropical, concerts), getyourguide-vs-viator-israel (tableau comparatif 9 critères; FAQs 5). FR guides: 182→187/398. Tests: 1879→1889 e2e (10 new routes added to smoke + a11y). Description fix: israel-hebrew-phrases desc 166→154 chars. Build: 1298→1303 pages.
 
 Notes: iter945 RESEARCH — 189th research pass. Competitors scanned: tripadvisor.com, theknot.com, honeymoonisrael.org, honeymoons.com, touristisrael.com, wewillnomad.com, newyorkjewishtravelguide.com, docteur-voyage.fr, havas-voyages.fr, guidedesvacances.fr, partirou.com, trip-planner.io/fr, aviationa2z.com, jpost.com, travelandtourworld.com.
 

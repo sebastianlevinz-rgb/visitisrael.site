@@ -1725,3 +1725,8 @@ DE guides: 172→177/398. Build: 1293→1298 pages. 11/11 targeted e2e pass (lin
 ## iter 947 · review-es32-meta-trim · 373bd808 · 2026-08-02
 4 ES-32 guide meta overruns fixed: western-wall-tunnels-guide (desc 195→149, title 72→61), jaffa-food-guide (desc 196→147, title 82→57), israel-best-scenic-drives (desc 226→159), israel-in-summer (desc 201→160).
 Pure frontmatter fix — all titles ≤65, all descriptions ≤160. Build 1298 pages (unchanged). 1879/1879 e2e+a11y pass.
+
+## iter 948 · fr-phase-20 · da608dbd · 2026-08-02
+5 French guides shipped: israel-honeymoon, israel-hidden-gems, israel-hebrew-phrases, hayarkon-park-tel-aviv, getyourguide-vs-viator-israel.
+Metropolitan French; YAML double-quotes; /fr/* prefix for confirmed-existing pages; ₪ ranges only; Makhtesh Ramon "heart shape" honesty note; phonétique FR pour hébreu (r grasseyé); tableau comparatif GYG vs Viator 9 critères.
+FR guides: 182→187/398. Build: 1298→1303 pages (+5). 1889/1889 e2e pass (15.0m; exit code 0). Desc fix: israel-hebrew-phrases 166→154 chars before final rebuild.

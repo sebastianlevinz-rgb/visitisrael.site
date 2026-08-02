@@ -14323,3 +14323,23 @@ All titles now ≤65 chars; all descriptions ≤160 chars.
 **Ship:** squash-merged to master 373bd808; pushed origin/master. CI in_progress at push time (consistent pattern).
 
 **Next:** iter948 → BUILD (948%5=3 → BUILD). Priority: FR-20 batch — israel-honeymoon, israel-hidden-gems, israel-hebrew-phrases, hayarkon-park-tel-aviv, getyourguide-vs-viator-israel (all confirmed in EN, all missing from FR). FR guides 182→187/398.
+
+## 2026-08-02T17:00Z · iter 948 · BUILD (i18n-FR) · FR Phase FR-20
+
+**What:** 5 French-language guides (FR-20 batch), all confirmed MISSING via `comm -23` (iter945 research):
+
+1. `israel-honeymoon.md` — "Voyage de Noces en Israël : Guide Complet (2026)" — Mer Morte flottaison, Makhtesh Ramon (honnêteté: "en forme de cœur" = vue aérienne perspective-dépendante), Route du Vin Galilée, Tel Aviv romantique (Jaffa port coucher de soleil), Mer de Galilée. 3 CTAs: booking/tourradar/abraham. 7 FAQs. Cross-links: /fr/dead-sea-guide ✓, /fr/galilee-wine-trail ✓, /fr/jaffa-travel-guide ✓.
+2. `israel-hidden-gems.md` — "Joyaux Cachés d'Israël : 10 Lieux Méconnus (2026)" — Ayalon Institute Rehovot, Musée Ilana Goor Jaffa, Musées Ralli Césarée, synagogues cachées Vieille Ville, Grottes Beit Guvrin, Bahá'í nuit, Kinneret côte est, forêt de Samir, Mitzpe Ramon sous-sol, Haïfa Wadi Nisnas. 3 CTAs: getyourguide x3. 6 FAQs.
+3. `israel-hebrew-phrases.md` — "Hébreu pour Voyageurs : Expressions Essentielles (2026)" — Tables phonétiques pour francophones (r grasseyé ≈ hébreu), catégories: salutations, restaurant/kashrut, transports, shopping, urgences. 2 CTAs: getyourguide/viator. 7 FAQs. Desc fix applied (166→154 chars pre-rebuild).
+4. `hayarkon-park-tel-aviv.md` — "Parc Hayarkon Tel Aviv : Guide Pratique (2026)" — 3,5 km² parc urbain, kayak/pédalo Yarkon, amphithéâtre, jardins tropicaux, piste cyclable, mini-zoo. 3 CTAs: getyourguide/viator/booking. Cross-links: /fr/1-day-tel-aviv-itinerary ✓, /fr/jaffa-travel-guide ✓.
+5. `getyourguide-vs-viator-israel.md` — "GetYourGuide vs Viator en Israël : Lequel Choisir (2026)" — tableau comparatif 9 critères, 5 FAQs, 2 CTAs: getyourguide/viator. Cross-links: /best-time-to-visit-israel, /fr/israel-by-month ✓.
+
+Also added 5 routes to smoke.spec.ts and a11y.spec.ts (10 new test assertions).
+
+**Gate:** pnpm check 0 errors; pnpm build 1303 pages (+5 from 1298); pnpm test:e2e 1889/1889 passed (15.0m; exit code 0). GREEN.
+
+**Ship:** squash-merged to master da608dbd; pushed origin/master. CI in_progress at push time (consistent pattern).
+
+**FR progress:** 187/398 guides (11 remaining from FR-20: none — all 5 shipped). Next FR batch: FR-21 TBD (candidates from ongoing research).
+
+**Next:** iter949 → REVIEW (949%5=4 → REVIEW). Candidates: review-fr20-meta-check (verify new FR-20 guides have ≤65 title / ≤160 desc — likely clean since authored with those constraints), or ES-33 batch, or next BACKLOG priority.
