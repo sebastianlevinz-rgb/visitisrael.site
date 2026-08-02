@@ -14181,3 +14181,11 @@ Links-Test-Fix: herzliya-guide.md enthielt /de/netanya-guide (existiert nicht in
 Gate: pnpm check 0 errors; pnpm build 1283 pages (+5 from 1278); pnpm test:e2e 1849/1849 pass (14.7m). GREEN.
 Ship: squash-merged to master 86c7fbed, pushed. PR #38 auto/de-phase-17 erstellt + geschlossen (squash direkt auf master).
 Next: iter939 → REVIEW (939%5=4 → REVIEW).
+
+## 2026-08-02T07:56Z · iter 939 · REVIEW · review-939-de17-meta-trim
+What: Systematic audit of DE-17 guides (herzliya-guide, israel-by-month, israel-egypt-guide, israel-eta-guide, mount-of-olives-guide). Checked: title/desc lengths, /de/* internal links (25 total), H1 nodes in body, honesty.
+Findings: 4 meta overruns — herzliya desc 165; by-month desc 162; egypt desc 181; eta title 67 + desc 165. mount-of-olives clean (63/156). All 25 /de/* links resolve. No H1 in body. No honesty issues.
+Fix: trimmed 5 values across 4 files; keywords preserved.
+Gate: pnpm check 0 errors; pnpm build 1283 pages; pnpm test:e2e 1849/1849 pass (15.0m). GREEN.
+Ship: squash-merged to master c9c68480, pushed. CI in_progress.
+Next: iter940 → RESEARCH (940%5=0 → RESEARCH).

@@ -1,13 +1,15 @@
 # LOOP STATE
 
-- iteration: 938
-- lastMode: BUILD
-- lastItem: de-phase-17
-- lastResult: BUILD iter938 — DE-17 SHIPPED 86c7fbed. 5 Standard Hochdeutsch guides: herzliya-guide, israel-eta-guide, mount-of-olives-guide, israel-egypt-guide, israel-by-month. DE guides: 167→172/398. Build: 1278→1283 pages (+5). 10 new e2e tests (5 smoke + 5 a11y). 1849/1849 e2e pass (14.7m). Broken-link fix: /de/netanya-guide removed from herzliya-guide prose.
-- nextRotationCategory: REVIEW (iter939; 939%5=4 → REVIEW)
+- iteration: 939
+- lastMode: REVIEW
+- lastItem: review-939-de17-meta-trim
+- lastResult: REVIEW iter939 — review-939-de17-meta-trim SHIPPED c9c68480. Audited DE-17 guides (herzliya, israel-by-month, israel-egypt, israel-eta, mount-of-olives). 4 meta overruns fixed: herzliya desc 165→130; by-month desc 162→126; egypt desc 181→128; eta title 67→50 + desc 165→127. mount-of-olives clean (63/156). All 25 /de/ internal links valid. No H1 in body. No honesty issues. 1849/1849 e2e pass (15.0m). CI in_progress.
+- nextRotationCategory: RESEARCH (iter940; 940%5=0 → RESEARCH)
 - higgsfieldSpent: 0
-- updatedAt: 2026-08-02T07:25Z
+- updatedAt: 2026-08-02T07:56Z
 - branch context: work on master; feature work on auto/<slug>
+
+Notes: iter939 REVIEW — review-939-de17-meta-trim SHIPPED c9c68480. Audited all 5 DE-17 guides. 4 meta fixes: herzliya-guide desc 165→130; israel-by-month desc 162→126; israel-egypt-guide desc 181→128; israel-eta-guide title 67→50 + desc 165→127. mount-of-olives-guide clean. All /de/* cross-links verified present (25 links, 0 dead). No H1 in body. No honesty issues. Gate: 0 errors; 1283 pages; 1849/1849 e2e pass (15.0m).
 
 Notes: iter938 BUILD — de-phase-17 SHIPPED 86c7fbed. 5 Standard Hochdeutsch guides: herzliya-guide (Apollonia-NP Kreuzfahrerburg ₪35–45, Marina The Yacht by Fattal Jun 2026 325 Zimmer 50-m-Pool, Acadia Beach Blau-Flagge, Tagesausflug Green-Line-Stadtbahn 20 min), israel-eta-guide (ETA-IL seit Jan 2025 Pflicht; offizielles Portal israel-entry.piba.gov.il ₪25; Scam-Warnung 30–80€ Drittanbieter; 7-Schritt-Guide; 7 FAQs), mount-of-olives-guide (Ölberg dreifache Benennung Har HaZeitim/הַר הַזֵּיתִים/Jabal az-Zaytun; Getsemani Olivenbäume 900+ Jahre; Dominus Flevit Tränenkirchlein; Sieben-Bögen-Panorama; Palm Sunday route; Verkehrshinweis Erew Pessach/Sukkot; 7 FAQs), israel-egypt-guide (Taba 24/7 ₪101 Ausreisesteuer; Sinai-only 14-Tage-Permit vs. ägyptisches Visum $25–35; South-Sinai-Basen Taba/Nuweiba/Dahab/Sharm; Cairo GEM + Pyramiden; 10- + 14-Tages-Reiserouten; Sicherheit nur per Auswärtiges Amt/BMAA/EDA; Nuweiba-Aqaba-Fähre; 7 FAQs), israel-by-month (12-Monate-Narrative: Hula-Valley-Kraniche Jan, Negev-Wildblumen Feb, Galil März, Pessach+Ostern Apr, Sweet-Spot Mai, Festival of Light Jun, Extremhitze+Massen Jul, Strände Aug, Hohe Feiertage+Yom-Kippur-25h-Transport-Stop Sep, post-Sukkot-Lull Okt, stille Küste+Kraniche Nov, Chanukka+Weihnachten Dez; Buchungs-Cheat-Sheet-Tabelle; 7 FAQs). Broken-link fix: /de/netanya-guide entfernt aus herzliya-guide Prosa. 10 neue e2e-Tests (5 smoke + 5 a11y). Links-Test initial FAIL (netanya-guide 404) → fix → rebuild → Links-Test PASS → volles e2e 1849/1849 PASS (14.7m). Gate: pnpm check 0 errors; build 1283 pages; 1849/1849 e2e pass. PR #38 auto/de-phase-17 erstellt + squash direkt auf master 86c7fbed.
 
