@@ -1,12 +1,12 @@
 # LOOP STATE
 
-- iteration: 945
-- lastMode: RESEARCH
-- lastItem: research-945-honeymoon-hidden-gems-fr20-es33
-- lastResult: RESEARCH iter945 — 189th research pass. Sources: tripadvisor.com, theknot.com, honeymoonisrael.org, honeymoons.com, touristisrael.com, wewillnomad.com, newyorkjewishtravelguide.com, docteur-voyage.fr, havas-voyages.fr, guidedesvacances.fr, partirou.com, trip-planner.io/fr, aviationa2z.com, jpost.com, travelandtourworld.com. Key findings: (1) israel-honeymoon ENTIRELY MISSING — touristisrael.com has 3 pages; P2/M EN guide added to BACKLOG; in FR-20 + ES-33; (2) israel-hidden-gems aggregation gap — wewillnomad/Tripadvisor rank; P2/S; (3) Wizz Air $1B double-base (BGA April 2026 + ETM March 2026) — partially covered in guides; P2/S freshness update queued; (4) ETA-IL guide confirmed EXISTS in EN+FR (no new action); (5) French market active demand for honeymoon + cost content. 4 new BACKLOG items added. FR-20 defined (israel-honeymoon, israel-hidden-gems, israel-hebrew-phrases, hayarkon-park-tel-aviv, getyourguide-vs-viator-israel). ES-33 defined (israel-honeymoon, israel-hidden-gems, israel-hebrew-phrases, israel-in-autumn, israel-in-winter). ES-32 stale BACKLOG entry cleaned up. I18N-PLAN.md + COMPETITORS.md + BACKLOG.md updated.
-- nextRotationCategory: BUILD (iter946; 946%5=1 → BUILD; category rotation: DE-18 or review-es32-meta-trim or seo-content)
+- iteration: 946
+- lastMode: BUILD
+- lastItem: de-phase-18
+- lastResult: BUILD iter946 — DE Phase DE-18 SHIPPED a71356b8. 5 Standard Hochdeutsch guides: shopping-in-israel, mahane-yehuda-market-guide, via-dolorosa-guide, solo-travel-israel, western-wall-tunnels-guide. DE guides 172→177/398. Build 1293→1298 pages (+5). 10 new e2e tests (5 smoke + 5 a11y). 7 broken internal links fixed across 4 guides during gate (/de/jerusalem-neighborhoods-guide → /de/jerusalem-old-city-walking-tour, /de/jerusalem-travel-guide → /de/jerusalem-tours-compared, /de/israel-vat-refund → /israel-vat-refund, /de/sarona-market-tel-aviv → /sarona-market-tel-aviv, /de/jewish-quarter-jerusalem-guide → /de/jerusalem-old-city-walking-tour). Gate: pnpm check 0 errors; build 1298 pages; 11/11 targeted e2e pass (link-checker + 5 smoke + 5 a11y). CI in_progress at push time (consistent with prior pattern).
+- nextRotationCategory: BUILD (iter947; 947%5=2 → BUILD; candidate: review-es32-meta-trim P2 or FR-20 or next seo-content)
 - higgsfieldSpent: 0
-- updatedAt: 2026-08-02T14:10Z
+- updatedAt: 2026-08-02T15:20Z
 - branch context: work on master; feature work on auto/<slug>
 
 Notes: iter945 RESEARCH — 189th research pass. Competitors scanned: tripadvisor.com, theknot.com, honeymoonisrael.org, honeymoons.com, touristisrael.com, wewillnomad.com, newyorkjewishtravelguide.com, docteur-voyage.fr, havas-voyages.fr, guidedesvacances.fr, partirou.com, trip-planner.io/fr, aviationa2z.com, jpost.com, travelandtourworld.com.

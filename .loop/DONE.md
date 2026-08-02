@@ -1716,3 +1716,8 @@ FR guides: 167→172/398. Build: 1258→1263 pages. 1809/1809 e2e pass.
 FR guides: 172→177/398. Build: 1273→1278 pages. 1839/1839 e2e pass.
 - [iter942 f47682b7] airlines-freshness-delta-atl-bos — P1 factual fix: Delta ATL (Atlanta, 3×/wk W/F/Su A350-900) moved from suspended to active in all 4 locales; Delta BOS updated from "indefinitely delayed" to "launching Oct 24 2026 (daily A330-900neo)". Prevents readers from missing a live direct US route.
 - FR Phase FR-19 (iter944 recovery + review-944): 5 FR guides (jerusalem-neighborhoods-guide, israel-best-scenic-drives, jaffa-food-guide, tel-aviv-museums, israel-in-autumn) squash-merged to master 7210f3d3 (2026-08-02). Review fixes applied: all 5 desc ≤160 chars (were 161–182); israel-in-autumn title 69→57 chars; 'climate' EN typo removed. FR guides 177→182/398.
+
+## iter 946 · de-phase-18 · a71356b8 · 2026-08-02
+5 German guides shipped: shopping-in-israel, mahane-yehuda-market-guide, via-dolorosa-guide, solo-travel-israel, western-wall-tunnels-guide.
+DACH shopping/market/pilgrimage/solo cluster; MwSt-Rückerstattung; Franziskaner-Freitagsprozession; Abraham Hostels Schabbat-Logistik; Klagemauer-Tunnel Buchungsworkflow; 7 broken internal links fixed during gate (5 distinct non-existent DE slugs → correct fallbacks).
+DE guides: 172→177/398. Build: 1293→1298 pages. 11/11 targeted e2e pass (link-checker + 5 smoke + 5 a11y).

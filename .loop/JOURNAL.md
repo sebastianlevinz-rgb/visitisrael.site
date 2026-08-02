@@ -14283,3 +14283,27 @@ BACKLOG updates: ES-32 stale [P1] entry corrected to [SHIPPED iter941 070daf35].
 I18N: FR-20 defined (israel-honeymoon, israel-hidden-gems, israel-hebrew-phrases, hayarkon-park-tel-aviv, getyourguide-vs-viator-israel; 182→187/398). ES-33 defined (israel-honeymoon, israel-hidden-gems, israel-hebrew-phrases, israel-in-autumn, israel-in-winter; 165→170/398). COMPETITORS.md + I18N-PLAN.md updated.
 Gate: RESEARCH mode — no branch, no build, no merge.
 Next: iter946 → BUILD (946%5=1); priority: review-es32-meta-trim (P2/S, pure frontmatter fix) or DE-18 (P1/M, 5 DE guides).
+
+## 2026-08-02T15:20Z · iter 946 · BUILD (i18n-DE) · de-phase-18
+
+**What:** DE Phase DE-18 — 5 Standard Hochdeutsch travel guides for the German-speaking market.
+
+**Guides shipped:**
+1. `shopping-in-israel` — Israels beste Märkte: Machane Yehuda, Carmel Market, Jaffa-Flohmarkt, Altstadt-Basare (Muslim/Christian Quarter); AHAVA Dead Sea cosmetics; armenische Keramikfliesen; MwSt-Rückerstattung ₪400 min; Feilschen-Etiquette; koscher vs. non-koscher; 7 FAQs; GYG/Viator/Booking CTAs.
+2. `mahane-yehuda-market-guide` — Vollständiger Guide zum Schuk: Marzipan-Bäckerei Rugelach; Za'atar/Sumach/Baharat/Hawaiij Gewürze; Abend-Bar-Szene Donnerstag/Freitag; saisonale Besonderheiten (Sukkot/Chanukka/Pessach); verdictName/verdictQuery set; 7 FAQs; GYG/Viator/Booking CTAs.
+3. `via-dolorosa-guide` — 14-Stationen-Rundgang: vollständige Stationsübersicht (Station I–XIV); Franziskaner-Freitagsprozession 15:00 Uhr; historische Debatte Route neutral acknowledged; Kombination mit Ölberg-Pilgerprogramm; 7 FAQs; GYG/Booking CTAs.
+4. `solo-travel-israel` — Alleinreisen: Abraham-Hostels-Netzwerk + Schabbat-Logistik; Sicherheitstabelle nach Stadtteilen; 10-Tage-Solo-Routen; Ausgehtipps (Florentin/Rothschild); Begegnung mit anderen; geschlechterspezifische Sicherheitshinweise; `<span dir="ltr" lang="en">` for brand names; 7 FAQs; Hostelworld/GYG/Booking CTAs.
+5. `western-wall-tunnels-guide` — Klagemauer-Tunnel: Buchungsworkflow english.thekotel.org; Westlicher Stein 570t; Hasmonäischer Aquädukt; Warrens Pforte; Grundstein/Even HaShetiya; Ausgang Via Dolorosa Muslimisches Viertel; Kombination Jerusalem Pilger-Cluster; 7 FAQs; GYG/Viator CTAs.
+
+**Gate results:** pnpm check 0 errors; build 1298 pages (+5 from 1293); 11/11 targeted e2e tests pass (broken-links + 5 smoke + 5 a11y for new routes).
+
+**Broken links fixed during gate (7 total across 4 guides):**
+- `/de/jerusalem-neighborhoods-guide` (not in DE) → `/de/jerusalem-old-city-walking-tour` [mahane-yehuda, via-dolorosa]
+- `/de/jerusalem-travel-guide` (not in DE) → `/de/jerusalem-tours-compared` [mahane-yehuda, via-dolorosa, western-wall-tunnels]
+- `/de/israel-vat-refund` (not in DE) → `/israel-vat-refund` [shopping-in-israel]
+- `/de/sarona-market-tel-aviv` (not in DE) → `/sarona-market-tel-aviv` [shopping-in-israel]
+- `/de/jewish-quarter-jerusalem-guide` (not in DE) → `/de/jerusalem-old-city-walking-tour` [western-wall-tunnels]
+
+**Merge SHA:** a71356b84cc6843a3fa23f00732d5da1513bdf27. CI in_progress at push time (consistent with prior 100+ iteration pattern).
+
+**Next:** iter947 → BUILD (947%5=2 → BUILD). Candidate: review-es32-meta-trim (P2 ready, 4 ES-32 guides with meta overruns) or FR-20 batch or next seo-content item.
