@@ -1,6 +1,6 @@
 ---
 title: "Las mejores rutas escénicas de Israel: 7 recorridos en coche"
-description: "Las 7 mejores rutas escénicas de Israel en coche: desde el desierto del Néguev por la Carretera 40 hasta los Altos del Golán, la orilla del Mar Muerto, las colinas de Jerusalén y los caminos de cresta del Mar de Galilea."
+description: "Las 7 mejores rutas escénicas de Israel: desierto del Néguev (Ctra. 40), Altos del Golán, orilla del Mar Muerto, colinas de Jerusalén y crestas de Galilea."
 heroImage: /images/regions/negev/hero.jpg
 category: Guides
 updatedAt: 2026-07-13

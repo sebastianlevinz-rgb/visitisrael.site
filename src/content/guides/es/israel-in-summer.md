@@ -1,6 +1,6 @@
 ---
 title: "Israel en verano: guía para viajeros inteligentes (2026)"
-description: "Cómo viajar por Israel en verano sin sufrir el calor. Estrategia ante las altas temperaturas, mejores sitios según la hora del día, rotación costera y lo que realmente funciona en julio y agosto."
+description: "Cómo viajar por Israel en verano sin sufrir el calor: estrategia ante altas temperaturas, mejores sitios por hora del día y lo que funciona en julio y agosto."
 heroImage: /images/regions/tel-aviv/beaches.jpg
 category: Planning
 updatedAt: 2026-07-02

@@ -1,6 +1,6 @@
 ---
-title: "Túneles del Muro de los Lamentos: guía completa del visitante (2026)"
-description: "Cómo reservar los Túneles del Muro de los Lamentos: qué se ve bajo tierra, consejos de reserva anticipada, duración del tour, la salida por la Vía Dolorosa y para quién es imprescindible."
+title: "Túneles del Muro de los Lamentos: guía del visitante (2026)"
+description: "Cómo reservar los Túneles del Muro de los Lamentos: qué ver bajo tierra, consejos de reserva, duración del tour y la salida por la Vía Dolorosa."
 heroImage: /images/regions/jerusalem/western-wall.jpg
 category: Sacred Sites
 updatedAt: 2026-07-01

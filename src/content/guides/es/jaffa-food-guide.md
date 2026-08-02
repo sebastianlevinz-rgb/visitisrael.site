@@ -1,6 +1,6 @@
 ---
-title: "Guía gastronómica de Jaffa: los mejores restaurantes y comida callejera (2026)"
-description: "Dónde comer en Jaffa: el hummus de Abu Hassan, el Dr. Shakshuka, el marisco en mezze del Old Man and the Sea, Said, los restaurantes de pescado del puerto y el ambiente nocturno del mercadillo."
+title: "Guía gastronómica de Jaffa: mejores restaurantes (2026)"
+description: "Dónde comer en Jaffa: hummus de Abu Hassan, Dr. Shakshuka, marisco en mezze del Old Man and the Sea, Said, pescado del puerto y ambiente nocturno."
 heroImage: /images/sub-destinations/tel-aviv/old-jaffa.jpg
 category: Food
 updatedAt: 2026-07-01
