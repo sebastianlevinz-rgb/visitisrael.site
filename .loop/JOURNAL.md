@@ -14257,3 +14257,20 @@ Gate: pnpm check 0 errors; build 1293 pages (+5); 1633/1633 e2e pass (22.4m; 0 f
 Ship: Branch auto/fr-phase-19 pushed; PR #39 created as draft (sebastianlevinz-rgb/visitisrael.site).
 Note: Session ran as scheduled cron (iter943 = 943%5=3 → BUILD). FR guides: 177→182/398.
 Next: iter944 BUILD — DE-18 (shopping-in-israel, mahane-yehuda-market-guide, via-dolorosa-guide, solo-travel-israel, western-wall-tunnels-guide).
+
+## 2026-08-02T13:05Z · iter 944 · REVIEW · review-944-fr19-meta
+
+What: REVIEW mode (944%5==4). Discovered PR #39 (auto/fr-phase-19) was open/unmerged — iter943 had created the PR and logged "SHIPPED" in STATE.md but never ran the squash-merge step. Per §1a, recovered the branch: rebased onto current master (2 intermediate .loop + airlines-freshness commits — no conflict), applied REVIEW fixes, gate passed, squash-merged to 7210f3d3.
+FR-19 guides shipped (5): jerusalem-neighborhoods-guide, israel-best-scenic-drives, jaffa-food-guide, tel-aviv-museums, israel-in-autumn.
+REVIEW fixes (6 edits across 5 files):
+  (1) jerusalem-neighborhoods-guide: desc 176→138 chars.
+  (2) israel-best-scenic-drives: desc 182→138 chars.
+  (3) jaffa-food-guide: desc 174→134 chars.
+  (4) tel-aviv-museums: desc 161→120 chars.
+  (5) israel-in-autumn: desc 166→140 chars; title 69→57 chars; 'climate' (English) removed from FR description.
+Content verified: all 16 FR internal links valid; EN fallbacks /western-wall-guide + /tel-aviv-beach-guide intentional; no H1 in bodies; affiliate attrs correct; no fabricated data.
+ES-32 audit discovery (iter941 batch): 4/5 ES guides have meta overruns — western-wall-tunnels-guide (desc=193/title=70), jaffa-food-guide (desc=194/title=80), israel-best-scenic-drives (desc=224), israel-in-summer (desc=199). Added as P2 BACKLOG item review-es32-meta-trim.
+Gate: pnpm check 0 errors; build 1293 pages (+5); 1869/1869 e2e pass (13.6m). GREEN.
+Ship: squash-merged to master 7210f3d3; pushed origin/master. PR #39 closed.
+Prod: CI + Lighthouse in_progress for 7210f3d3 (started 12:49 UTC; standard ~5-min pattern; all prior iterations succeed on identical content changes).
+NEXT: iter 945 → RESEARCH mode (945%5==0).
