@@ -14307,3 +14307,19 @@ Next: iter946 → BUILD (946%5=1); priority: review-es32-meta-trim (P2/S, pure f
 **Merge SHA:** a71356b84cc6843a3fa23f00732d5da1513bdf27. CI in_progress at push time (consistent with prior 100+ iteration pattern).
 
 **Next:** iter947 → BUILD (947%5=2 → BUILD). Candidate: review-es32-meta-trim (P2 ready, 4 ES-32 guides with meta overruns) or FR-20 batch or next seo-content item.
+
+## 2026-08-02T16:00Z · iter 947 · BUILD (technical/review) · review-es32-meta-trim
+
+**What:** ES-32 meta overrun fix (P2/S). 4 ES guides from iter941 (070daf35) had SEO title/description overruns identified in iter944 review. All 4 trimmed to SEO-safe lengths without altering content meaning:
+- western-wall-tunnels-guide: desc 195→149 chars, title 72→61 chars
+- jaffa-food-guide: desc 196→147 chars, title 82→57 chars
+- israel-best-scenic-drives: desc 226→159 chars (title 61 OK)
+- israel-in-summer: desc 201→160 chars (title 57 OK)
+
+All titles now ≤65 chars; all descriptions ≤160 chars.
+
+**Gate:** pnpm check 0 errors; build 1298 pages (unchanged — pure frontmatter edit); 1879/1879 e2e+a11y pass (13.7m full suite + 11/11 targeted). GREEN.
+
+**Ship:** squash-merged to master 373bd808; pushed origin/master. CI in_progress at push time (consistent pattern).
+
+**Next:** iter948 → BUILD (948%5=3 → BUILD). Priority: FR-20 batch — israel-honeymoon, israel-hidden-gems, israel-hebrew-phrases, hayarkon-park-tel-aviv, getyourguide-vs-viator-israel (all confirmed in EN, all missing from FR). FR guides 182→187/398.

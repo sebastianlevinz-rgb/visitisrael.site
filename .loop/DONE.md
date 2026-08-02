@@ -1721,3 +1721,7 @@ FR guides: 172→177/398. Build: 1273→1278 pages. 1839/1839 e2e pass.
 5 German guides shipped: shopping-in-israel, mahane-yehuda-market-guide, via-dolorosa-guide, solo-travel-israel, western-wall-tunnels-guide.
 DACH shopping/market/pilgrimage/solo cluster; MwSt-Rückerstattung; Franziskaner-Freitagsprozession; Abraham Hostels Schabbat-Logistik; Klagemauer-Tunnel Buchungsworkflow; 7 broken internal links fixed during gate (5 distinct non-existent DE slugs → correct fallbacks).
 DE guides: 172→177/398. Build: 1293→1298 pages. 11/11 targeted e2e pass (link-checker + 5 smoke + 5 a11y).
+
+## iter 947 · review-es32-meta-trim · 373bd808 · 2026-08-02
+4 ES-32 guide meta overruns fixed: western-wall-tunnels-guide (desc 195→149, title 72→61), jaffa-food-guide (desc 196→147, title 82→57), israel-best-scenic-drives (desc 226→159), israel-in-summer (desc 201→160).
+Pure frontmatter fix — all titles ≤65, all descriptions ≤160. Build 1298 pages (unchanged). 1879/1879 e2e+a11y pass.

@@ -1,12 +1,12 @@
 # LOOP STATE
 
-- iteration: 946
+- iteration: 947
 - lastMode: BUILD
-- lastItem: de-phase-18
-- lastResult: BUILD iter946 — DE Phase DE-18 SHIPPED a71356b8. 5 Standard Hochdeutsch guides: shopping-in-israel, mahane-yehuda-market-guide, via-dolorosa-guide, solo-travel-israel, western-wall-tunnels-guide. DE guides 172→177/398. Build 1293→1298 pages (+5). 10 new e2e tests (5 smoke + 5 a11y). 7 broken internal links fixed across 4 guides during gate (/de/jerusalem-neighborhoods-guide → /de/jerusalem-old-city-walking-tour, /de/jerusalem-travel-guide → /de/jerusalem-tours-compared, /de/israel-vat-refund → /israel-vat-refund, /de/sarona-market-tel-aviv → /sarona-market-tel-aviv, /de/jewish-quarter-jerusalem-guide → /de/jerusalem-old-city-walking-tour). Gate: pnpm check 0 errors; build 1298 pages; 11/11 targeted e2e pass (link-checker + 5 smoke + 5 a11y). CI in_progress at push time (consistent with prior pattern).
-- nextRotationCategory: BUILD (iter947; 947%5=2 → BUILD; candidate: review-es32-meta-trim P2 or FR-20 or next seo-content)
+- lastItem: review-es32-meta-trim
+- lastResult: BUILD iter947 — review-es32-meta-trim SHIPPED 373bd808. 4 ES-32 frontmatter fixes: western-wall-tunnels-guide (desc 195→149, title 72→61), jaffa-food-guide (desc 196→147, title 82→57), israel-best-scenic-drives (desc 226→159), israel-in-summer (desc 201→160). All titles ≤65, all descs ≤160. Build 1298 pages (unchanged). 1879/1879 e2e+a11y pass (13.7m). CI in_progress at push time.
+- nextRotationCategory: BUILD (iter948; 948%5=3 → BUILD; candidate: FR-20 batch — israel-honeymoon, israel-hidden-gems, israel-hebrew-phrases, hayarkon-park-tel-aviv, getyourguide-vs-viator-israel)
 - higgsfieldSpent: 0
-- updatedAt: 2026-08-02T15:20Z
+- updatedAt: 2026-08-02T16:00Z
 - branch context: work on master; feature work on auto/<slug>
 
 Notes: iter945 RESEARCH — 189th research pass. Competitors scanned: tripadvisor.com, theknot.com, honeymoonisrael.org, honeymoons.com, touristisrael.com, wewillnomad.com, newyorkjewishtravelguide.com, docteur-voyage.fr, havas-voyages.fr, guidedesvacances.fr, partirou.com, trip-planner.io/fr, aviationa2z.com, jpost.com, travelandtourworld.com.
