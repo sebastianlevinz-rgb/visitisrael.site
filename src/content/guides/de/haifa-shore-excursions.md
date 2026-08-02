@@ -47,6 +47,8 @@ Der **Haifaer Kreuzfahrthafen** platziert Sie in Reichweite der vielfältigsten 
 
 Dieser Ratgeber behandelt die vier Haupt-Landausflug-Routen von Haifa mit ehrlicher Zeitplanung und Transportinformation. Für Terminal-Einrichtungen, Einwanderung und Ankunftslogistik, siehe den [Haifa-Kreuzfahrtterminal-Ratgeber](/de/haifa-cruise-terminal-guide). Für einen Vergleich der Häfen Haifa und Aschdod, siehe den [Israel-Kreuzfahrt-Landausflüge-Ratgeber](/de/cruise-shore-excursions-israel).
 
+> **Kreuzfahrt-Anlaufstatus — August 2026:** Große Kreuzfahrtlinien suspendierten planmäßige Hafenaufenthalte in Haifa und Aschdod ab Ende März 2026 infolge regionaler Sicherheitsentwicklungen. Der neue Haifaer Kreuzfahrtterminal (eröffnet 14. Mai 2026) ist vollständig ausgerüstet, und der Sommer 2026 verzeichnet eine schrittweise Wiederaufnahme durch einige Reedereien. **Prüfen Sie den aktuellen Israel-Fahrplan Ihrer Kreuzfahrtlinie**, bevor Sie Landausflüge buchen oder davon ausgehen, dass ein geplanter Hafentag wie geplant stattfindet.
+
 ---
 
 ## Haifaer Hafen auf einen Blick

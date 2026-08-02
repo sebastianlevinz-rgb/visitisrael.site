@@ -1,6 +1,6 @@
 ---
 title: "Lizenzierten Reiseguide in Israel buchen 2026"
-description: "Lizenzierten Reiseführer in Israel buchen: Was die Fremdenführerlizenz des Tourismusministeriums bedeutet, wo buchen, Spezialisierungen, Tagessätze und wichtige Fragen."
+description: "Lizenzierten Reiseführer in Israel buchen: Fremdenführerlizenz des Tourismusministeriums, wo suchen, Preise und Fragen vor der Buchung."
 heroImage: /images/regions/jerusalem/hero.jpg
 category: Touren
 updatedAt: 2026-08-02

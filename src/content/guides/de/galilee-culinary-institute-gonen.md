@@ -1,6 +1,6 @@
 ---
-title: "Galiläisches Kulinarisches Institut Kibbutz Gonen: Besucherratgeber 2026"
-description: "Galiläisches Kulinarisches Institut am Kibbutz Gonen — Farm-to-Table-Restaurant, Kochworkshops und Weinbar jetzt vollständig für Besucher geöffnet im Oberen Galiläa."
+title: "Galiläisches Kulinarisches Institut Gonen: Besucherratgeber 2026"
+description: "Galiläisches Kulinarisches Institut Kibbutz Gonen — Farm-to-Table-Restaurant, Kochworkshops und Weinbar offen für Besucher im Oberen Galiläa."
 heroImage: /images/regions/galilee/hero.jpg
 category: Ziele
 updatedAt: 2026-08-02

@@ -1,6 +1,6 @@
 ---
 title: "Barrierefreiheit in Israel: Rollstuhl- & Mobilitätsratgeber 2026"
-description: "Barrierefreies Reisen in Israel — rollstuhlgerechte Stätten, adaptierter Transport, Mobilitätstipps für Jerusalem und Tel Aviv und die besten barrierefreien Strände."
+description: "Barrierefreies Reisen in Israel — rollstuhlgerechte Stätten, adaptierter Transport, Mobilitätstipps für Jerusalem, Tel Aviv und barrierefreie Strände."
 heroImage: /images/regions/dead-sea/ein-bokek.jpg
 category: Planung
 updatedAt: 2026-08-02
