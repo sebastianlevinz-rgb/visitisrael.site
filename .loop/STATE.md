@@ -1,12 +1,12 @@
 # LOOP STATE
 
-- iteration: 940
-- lastMode: RESEARCH
-- lastItem: research-940-es32-fr19-de18-airlines
-- lastResult: RESEARCH iter940 — 188th research pass. Defined ES-32/FR-19/DE-18 i18n batches (15 guides, all comm -23 confirmed MISSING). KEY P1 FRESHNESS: airlines-flying-israel-2026.md says "Delta ATL suspended Dec 2026 / BOS indefinitely delayed" — INCORRECT. Delta ATL launched April 15 2026 (3x/week, A350-900); BOS launching Oct 24 2026 (daily, A330-900neo). P1 backlog item added. No code shipped (research mode).
-- nextRotationCategory: BUILD (iter941; 941%5=1 → BUILD)
+- iteration: 941
+- lastMode: BUILD
+- lastItem: es-phase-32
+- lastResult: BUILD iter941 — ES-32 SHIPPED 070daf35. 5 LATAM Spanish guides: western-wall-tunnels-guide, jaffa-food-guide, tel-aviv-museums, israel-best-scenic-drives, israel-in-summer. ES guides: 160→165/398. Build: 1283→1288 pages (+5). 10 new e2e tests (5 smoke + 5 a11y). 1859/1859 e2e pass (15.1m). Gate: pnpm check 0 errors; build complete; e2e all pass.
+- nextRotationCategory: REVIEW (iter942; 942%5=2 → REVIEW)
 - higgsfieldSpent: 0
-- updatedAt: 2026-08-02T09:15Z
+- updatedAt: 2026-08-02T09:55Z
 - branch context: work on master; feature work on auto/<slug>
 
 Notes: iter940 RESEARCH — 188th research pass. Competitors scanned: civitatis.com, jerusalen.com, routard.com, urbanmeanderer.de, missesbackpack.de, de.wikivoyage.org, delta.com/news, aviationa2z.com, aeroxplorer.com, simpleflying.com, thejewishnews.com, travelandtourworld.com, touristisrael.com, beinharimtours.com, tripadvisor.com, getyourguide.com, alltrails.com.

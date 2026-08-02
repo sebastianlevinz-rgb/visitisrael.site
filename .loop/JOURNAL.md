@@ -14226,3 +14226,10 @@ DE-18 (5 guides): shopping-in-israel, mahane-yehuda-market-guide, via-dolorosa-g
 EN saturation: ~97%+ (188th research pass). No new EN structural gaps identified this pass.
 No code changed; gate not run (research mode).
 Next: iter941 = BUILD (941%5=1 → BUILD). Priority: airlines freshness fix (P1) or ES-32 i18n batch.
+
+## 2026-08-02 · iter 941 · BUILD (i18n-ES) · es-phase-32
+What: 5 LATAM Spanish guides — western-wall-tunnels-guide (Túneles del Muro de los Lamentos: 488m herodiano, Piedra Occidental 570 ton, Puerta de Warren, salida Vía Dolorosa; booking english.thekotel.org ₪35-45), jaffa-food-guide (Abu Hassan/Said hummus solo efectivo madrugada, Dr. Shakshuka judeo-libio, Old Man and the Sea mezze de marisco, Abouelafia 24h, Shuk HaPishpeshim bares nocturnos, notas Shabat), tel-aviv-museums (TAMA tamuseum.org.il, ANU tranvía Línea Roja, Eretz Israel multi-pabellón, Ben-Gurión gratuita, Sala Independencia CERRADA 2024, Design Museum Holon en Holon no TLV), israel-best-scenic-drives (7 rutas: Hwy40 Neguev/Colinas Jerusalén Ruta395/Golán Ruta98/Cresta Guilboa Ruta667/Monte Carmelo/Cresta Galilea Ruta7717/Mar Muerto Ruta90; tabla resumen; conducción local honesta), israel-in-summer (mapa calor costa 28-32°C/Jerusalén 32-36°C/Mar Muerto 40-45°C; estrategia mañana-mediodía-tarde; Masada amanecer salida 03:30; Kalia Beach ₪60-90; Galilea+Rosh Hanikra+Safed; itinerario 7 días).
+Gate: pnpm check 0 errors; build 1288 pages; 1859/1859 e2e pass (15.1m).
+Ship: squash-merged to master 070daf35, pushed.
+ES guides: 160→165/398. Build: 1283→1288 pages (+5). 10 new e2e tests (5 smoke + 5 a11y).
+Next: iter942 = REVIEW (942%5=2 → REVIEW). Candidate: review ES-32 meta/link audit OR review airline freshness fix (P1 backlog).
