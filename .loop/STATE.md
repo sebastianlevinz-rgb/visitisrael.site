@@ -1,13 +1,15 @@
 # LOOP STATE
 
-- iteration: 935
-- lastMode: RESEARCH
-- lastItem: research-935-es31-fr18-de17-definitions
-- lastResult: RESEARCH iter935 — 187th research pass. Defined next 3 i18n batches: ES-31 (mahane-yehuda-market-guide, shopping-in-israel, via-dolorosa-guide, tower-of-david-guide, solo-travel-israel); FR-18 (mahane-yehuda-market-guide, via-dolorosa-guide, western-wall-tunnels-guide, solo-travel-israel, shopping-in-israel); DE-17 (herzliya-guide, israel-by-month, israel-egypt-guide, mount-of-olives-guide, israel-eta-guide). Key findings: shopping-in-israel = CLEAR ES gap (zero competitors); solo-travel-israel = CLEAR FR gap; herzliya-guide = CLEAR DE gap (wikivoyage stub only); tel-aviv-things-to-do has THICK competition in both ES (disfrutatelaviv.com) and DE (germanbackpacker.com) — excluded. DE-17 closes 5 of 8 FR-ahead guides for cluster parity. Freshness: Gordonia Zichron Yaakov confirmed bookable; Israel hotel occupancy at 44% (recovery in progress). No code changes — research + BACKLOG + COMPETITORS + I18N-PLAN updates only. Commit follows.
-- nextRotationCategory: BUILD (iter936; 936%5=1 → BUILD; ES-31 by rotation — ES has largest gap 243 missing)
+- iteration: 936
+- lastMode: BUILD
+- lastItem: es-phase-31
+- lastResult: BUILD iter936 — ES-31 SHIPPED 9d39b903. 5 LATAM Spanish guides: mahane-yehuda-market-guide, shopping-in-israel, via-dolorosa-guide, tower-of-david-guide, solo-travel-israel. ES guides: 155→160/398. Build: 1268→1273 pages (+5). 10 new e2e tests (5 smoke + 5 a11y) added; targeted 10-route pass confirmed. CI pending at push time.
+- nextRotationCategory: BUILD (iter937; 937%5=2 → BUILD; FR-18 by rotation)
 - higgsfieldSpent: 0
-- updatedAt: 2026-08-02T04:10Z
+- updatedAt: 2026-08-02T05:00Z
 - branch context: work on master; feature work on auto/<slug>
+
+Notes: iter936 BUILD — es-phase-31 SHIPPED 9d39b903. 5 LATAM Spanish guides: mahane-yehuda-market-guide, shopping-in-israel, via-dolorosa-guide, tower-of-david-guide, solo-travel-israel. ES guides: 155→160/398. Build: 1268→1273 pages (+5). 10 new e2e tests (5 smoke + 5 a11y). CI pending at push time.
 
 Notes: iter935 RESEARCH — 187th research pass. 3 batches defined (ES-31/FR-18/DE-17). Key findings: shopping-in-israel (CLEAR ES gap), solo-travel-israel (CLEAR FR gap), herzliya-guide (CLEAR DE gap). DE-17 closes cluster parity gap vs FR. No code changes.
 

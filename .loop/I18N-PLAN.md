@@ -997,7 +997,7 @@ Cross-links to verify before BUILD:
 
 Quality: Standard Hochdeutsch; YAML double-quotes; /de/* cross-links only confirmed-existing; no fabricated prices (Richtwertspannen); cruise suspension notice in haifa-shore-excursions (consistent with DE-15 haifa-cruise-terminal-guide); Bahá'í active-site framing; INPA-Pass gilt NICHT note where applicable; Golan political note if any Golan content referenced.
 
-### Phase ES-31 (155 → 160/398) — DEFINED iter935 RESEARCH 2026-08-02
+### Phase ES-31 (155 → 160/398) — SHIPPED iter936 9d39b903 2026-08-02
 
 Guides: `mahane-yehuda-market-guide.md`, `shopping-in-israel.md`, `via-dolorosa-guide.md`, `tower-of-david-guide.md`, `solo-travel-israel.md`
 All 5 confirmed MISSING from `src/content/guides/es/` via `comm -23` (2026-08-02).

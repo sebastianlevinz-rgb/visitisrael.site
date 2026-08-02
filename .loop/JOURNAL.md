@@ -14137,3 +14137,19 @@ Freshness findings: Gordonia Zichron Yaakov confirmed bookable (Agoda, planet-of
 Gate: n/a (research only — no code changes, no gate run).
 Ship: no feature commit; .loop/ memory files only (BACKLOG/COMPETITORS/I18N-PLAN/STATE/JOURNAL updated). State commit to follow.
 Next: iter936 → BUILD (936%5=1 → BUILD; ES-31 by rotation — ES has largest gap 243 missing).
+
+## 2026-08-02T05:00Z · iter 936 · BUILD (i18n-ES) · es-phase-31
+Mode: BUILD (936%5=1 → BUILD; ES-31 by rotation — ES has largest gap at 243 missing guides).
+
+What: 5 LATAM Spanish guides created in `src/content/guides/es/`:
+- `mahane-yehuda-market-guide.md` — Mercado Mahane Yehuda: dual-identity Shuk (daytime market + bar scene); Marzipan rugelach; halva; kanafeh; Friday Shabbat siren ritual; rooftop bar scene; seasonal (Pesaj/Sucot/Janucá); Beit Yaakov restaurant strip; 8 FAQs; CTAs GYG/Viator/Booking
+- `shopping-in-israel.md` — Compras en Israel: Machane Yehuda + Carmel Market/Nahalat Binyamin/Levinsky + Jaffa Flea Market + Old City bazaars (all 4 quarters); Dead Sea cosmetics; Judaica; VAT refund ₪400 min Terminal 3 Tax Free; bargaining honesty (regateo only Arab bazaars+Jaffa, NOT modern shops); 6 FAQs; CTAs GYG×2/Viator
+- `via-dolorosa-guide.md` — Vía Dolorosa 14 Estaciones: secular-practical + optional religious framing; all 14 stations detailed; Friday Franciscan procession 15:00; Stations X-XIV inside Church of the Holy Sepulchre; Praetorium location debate acknowledged neutral; timing table; 7 FAQs; CTAs GYG/Booking
+- `tower-of-david-guide.md` — Torre de David: 16 renovated galleries (2023); Night Spectacular (advance booking essential peak season); rooftop panorama; tickets ₪50–60 range; INPA NOT valid; April 2027 Eyes on the Wall callout; 8 FAQs; CTAs GYG/Viator
+- `solo-travel-israel.md` — Viaje Solo a Israel: government advisory safety framing; Abraham Hostels as social hubs; Shabbat strategy; 7-day solo itinerary; budget ₪250–380 backpacker / ₪550–1,100 mid-range; Moovit+Gett/Bolt; 7 FAQs; CTAs Abraham/GYG/Booking
+
+e2e tests extended: 5 new routes added to smoke.spec.ts + a11y.spec.ts (10 tests total).
+
+Gate: pnpm check 0 errors; pnpm build 1273 pages (+5 from 1268); targeted 10 new route tests 10/10 pass. GREEN.
+Ship: squash-merged to master 9d39b903, pushed. CI pending at journal-write time.
+Next: iter937 → BUILD (937%5=2 → BUILD; FR-18 by rotation).
