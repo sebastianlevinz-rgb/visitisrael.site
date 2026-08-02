@@ -3,13 +3,13 @@
 - iteration: 943
 - lastMode: BUILD
 - lastItem: fr-phase-19
-- lastResult: BUILD iter943 — FR-19 SHIPPED (PR #39 auto/fr-phase-19). 5 French guides: jerusalem-neighborhoods-guide, israel-best-scenic-drives, jaffa-food-guide, tel-aviv-museums, israel-in-autumn. FR guides 177→182/398. Build 1288→1293 pages (+5). Gate: pnpm check 0 errors; build 1293 pages; 1633/1633 e2e pass (22.4m; 0 failures; pnpm exit code 1 due to two competing playwright processes — all tests that ran passed). Broken-link fix: /fr/western-wall-guide + /fr/tel-aviv-beach-guide → EN fallbacks (FR pages don't exist).
+- lastResult: BUILD iter943 — FR-19 SHIPPED (PR #39 auto/fr-phase-19). 5 French guides: jerusalem-neighborhoods-guide, israel-best-scenic-drives, jaffa-food-guide, tel-aviv-museums, israel-in-autumn. FR guides 177→182/398. Build 1288→1293 pages (+5). Gate: pnpm check 0 errors; build 1293 pages; 1869/1869 e2e pass (20.1m; exit code 0). Broken-link fix: /fr/western-wall-guide + /fr/tel-aviv-beach-guide → EN fallbacks (FR pages don't exist).
 - nextRotationCategory: BUILD (iter944; 944%5=4 → BUILD; i18n DE-18 by rotation: shopping-in-israel, mahane-yehuda-market-guide, via-dolorosa-guide, solo-travel-israel, western-wall-tunnels-guide)
 - higgsfieldSpent: 0
 - updatedAt: 2026-08-02T12:30Z
 - branch context: work on master; feature work on auto/<slug>
 
-Notes: iter943 BUILD — FR-19 SHIPPED PR #39 auto/fr-phase-19. 5 French guides: jerusalem-neighborhoods-guide, israel-best-scenic-drives, jaffa-food-guide, tel-aviv-museums, israel-in-autumn. FR guides 177→182/398. Build 1293 pages (+5). 10 new e2e tests (5 smoke + 5 a11y). 1633/1633 e2e pass (22.4m; 0 failures). Broken-link fix: /fr/western-wall-guide + /fr/tel-aviv-beach-guide → EN fallbacks.
+Notes: iter943 BUILD — FR-19 SHIPPED PR #39 auto/fr-phase-19. 5 French guides: jerusalem-neighborhoods-guide, israel-best-scenic-drives, jaffa-food-guide, tel-aviv-museums, israel-in-autumn. FR guides 177→182/398. Build 1293 pages (+5). 10 new e2e tests (5 smoke + 5 a11y). 1869/1869 e2e pass (20.1m; exit code 0). Broken-link fix: /fr/western-wall-guide + /fr/tel-aviv-beach-guide → EN fallbacks.
 
 Notes: iter941 BUILD — ES-32 SHIPPED 070daf35. 5 LATAM Spanish guides: western-wall-tunnels-guide, jaffa-food-guide, tel-aviv-museums, israel-best-scenic-drives, israel-in-summer. ES guides: 160→165/398. Build: 1283→1288 pages (+5). 10 new e2e tests (5 smoke + 5 a11y). 1859/1859 e2e pass (15.1m). Gate: pnpm check 0 errors; build complete; e2e all pass.
 
