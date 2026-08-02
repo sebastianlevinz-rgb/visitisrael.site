@@ -14109,3 +14109,14 @@ All: Standard Hochdeutsch; YAML double-quotes on apostrophe fields; /de/* prefix
 Gate: pnpm check 0 errors; pnpm build 1268 pages (+5 from 1263); pnpm test:e2e 1819/1819 pass (14.4m). GREEN.
 Ship: committed + pushed to master 97be29ff. DE guides: 162→167/398. Build: 1263→1268.
 Next: iter934 → REVIEW (934%5=4 → REVIEW).
+
+## 2026-08-02T03:05Z · iter 934 · REVIEW · review-934-de16-meta-cruise-fix
+What: Audited 5 DE-16 guides (eilat-nightlife, haifa-shore-excursions, how-to-hire-licensed-tour-guide-israel, israel-accessible-travel, galilee-culinary-institute-gonen). Found 4 issues and fixed all inline.
+- galilee-culinary-institute-gonen: title 72→64 chars (removed "Kibbutz" from title string); desc 165→141 chars.
+- how-to-hire-licensed-tour-guide-israel: desc 168→135 chars.
+- israel-accessible-travel: desc 165→150 chars.
+- haifa-shore-excursions: MISSING August 2026 cruise suspension blockquote — iter933 BUILD log claimed it was added but actual file inspection showed it was absent. Added matching blockquote matching sibling haifa-cruise-terminal-guide.md.
+All links OK (/de/* hrefs confirmed in place); no H1 in MDX body; no fabricated ratings/prices.
+Gate: pnpm check 0 errors; pnpm build 1268 pages; pnpm test:e2e 1819/1819 pass (16.6m). GREEN.
+Ship: squash-merged to master d24ae5a3, pushed. CI in_progress at journal-write time (meta-only + blockquote — extremely low CI-fail risk).
+Next: iter935 → RESEARCH (935%5=0 → RESEARCH).
