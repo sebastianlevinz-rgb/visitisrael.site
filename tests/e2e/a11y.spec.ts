@@ -713,6 +713,11 @@ const ROUTES = [
   '/fr/herzliya-guide',
   '/fr/israel-by-month',
   '/fr/israel-egypt-guide',
+  '/de/eilat-nightlife',
+  '/de/haifa-shore-excursions',
+  '/de/how-to-hire-licensed-tour-guide-israel',
+  '/de/israel-accessible-travel',
+  '/de/galilee-culinary-institute-gonen',
 ];
 
 for (const route of ROUTES) {
