@@ -1,9 +1,9 @@
 ---
 title: 'Airlines Flying to Israel 2026: Current Status & Suspensions'
-description: 'Which airlines fly to Ben Gurion Airport (TLV) right now? Up-to-date table of active, suspended, and returning carriers — verified July 2026.'
+description: 'Which airlines fly to Ben Gurion Airport (TLV) right now? Up-to-date table of active, suspended, and returning carriers — verified August 2026.'
 heroImage: /images/regions/tel-aviv/hero.jpg
 category: Planning
-updatedAt: 2026-07-26
+updatedAt: 2026-08-02
 ctaHeading: 'Compare current fares to Tel Aviv'
 affiliateCtas:
   - partner: skyscanner
@@ -22,14 +22,14 @@ faqs:
   - question: Is Turkish Airlines flying to Israel?
     answer: 'No. Turkish Airlines (THY) has suspended its Istanbul–Tel Aviv routes and has not announced a confirmed restart date. Istanbul (IST) is therefore not currently available as a connecting hub for Israel. Alternative Middle East hubs: Dubai (FlyDubai direct to TLV; Emirates does NOT fly TLV), Abu Dhabi (Etihad up to 6 daily AUH–TLV as of mid-2026), Doha (Qatar Airways — verify current operational status).'
   - question: What airlines fly nonstop from the United States to Israel in 2026?
-    answer: 'Nonstop US–Israel services as of July 2026: El Al from New York JFK, Newark (codeshare), Los Angeles LAX, San Francisco SFO (new Oct 2026), Miami MIA (seasonal), Chicago ORD, and Washington IAD; Delta from New York JFK (daily, resumed Sep 2025); United from Newark EWR, Chicago ORD, and Washington IAD; Israir from New York JFK (low-cost nonstop, new Aug 2026); American Airlines from Miami MIA (seasonal). Delta Atlanta ATL and Boston BOS routes remain suspended.'
+    answer: 'Nonstop US–Israel services as of August 2026: El Al from New York JFK, Newark (codeshare), Los Angeles LAX, San Francisco SFO (new Oct 2026), Miami MIA (seasonal), Chicago ORD, and Washington IAD; Delta from New York JFK (daily, resumed Sep 2025) and Atlanta ATL (3×/week Wed/Fri/Sun, launched April 2026); United from Newark EWR, Chicago ORD, and Washington IAD; Israir from New York JFK (low-cost nonstop, new Aug 2026); American Airlines from Miami MIA (seasonal). Delta Boston BOS is scheduled to launch 24 October 2026 (daily, A330-900neo) — verify at delta.com.'
   - question: Which European airlines resumed Israel flights in 2026?
     answer: 'Following the Israel–Iran escalation of early 2026, most major European carriers gradually resumed service by mid-2026: ITA Airways (Rome FCO) resumed; Air France (Paris CDG) resumed; Lufthansa (Frankfurt FRA) and SWISS (Zurich ZRH) resumed July 1, 2026; Eurowings (Hamburg HAM, Düsseldorf DUS — new routes) resumed mid-July 2026; airBaltic (Riga RIX) resumed July 2026. British Airways remains suspended. Always check the airline''s own website for current operational status before booking.'
   - question: Is Emirates flying to Israel?
     answer: 'No. Emirates permanently suspended all Tel Aviv service in 2024 and has not announced any restart. For Dubai connections, use FlyDubai, which operates frequent direct DXB–TLV flights. For Abu Dhabi, Etihad operates up to 6 daily AUH–TLV flights as of mid-2026.'
 ---
 
-**Last verified: 26 July 2026.** The airlines-to-Israel landscape has changed significantly since 2024. This page tracks which carriers are actively flying, which are suspended, and which are due to return. The aviation situation continues to evolve — **always verify directly with the airline before purchasing tickets.**
+**Last verified: 2 August 2026.** The airlines-to-Israel landscape has changed significantly since 2024. This page tracks which carriers are actively flying, which are suspended, and which are due to return. The aviation situation continues to evolve — **always verify directly with the airline before purchasing tickets.**
 
 ---
 
@@ -40,13 +40,13 @@ faqs:
 | Airline | Route | Notes |
 | --- | --- | --- |
 | **El Al** | New York JFK, Los Angeles LAX, Miami MIA, Chicago ORD, Washington IAD, San Francisco SFO (new Oct 2026) | Most frequencies of any carrier; San Francisco is a new West Coast addition |
-| **Delta** | New York JFK | Daily nonstop resumed September 2025; year-round service |
+| **Delta** | New York JFK, Atlanta ATL | JFK: daily nonstop, resumed September 2025. ATL: 3×/week (Wed/Fri/Sun) on A350-900, launched April 15, 2026 |
 | **United** | Newark EWR, Chicago ORD, Washington IAD | Newark resumed March 2025; ORD and IAD added November 2025 — check united.com for seasonal schedules |
 | **Israir** | New York JFK | Israel's first low-cost nonstop to the US; launched August 2026 using Airbus A330; compare total prices including luggage |
 | **American Airlines** | Miami MIA | Seasonal; check aa.com for exact dates |
 | **Air Canada** | Montreal YUL | Seasonal Jun–Oct 2026 (Fri/Sun); check aircanada.com for schedule |
 
-**Delta note:** The planned Atlanta–Tel Aviv and Boston–Tel Aviv routes remain suspended. Atlanta is deferred to at least December 2026; Boston indefinitely. Only the JFK–TLV nonstop is operating.
+**Delta note:** Atlanta–Tel Aviv (ATL, 3×/week Wed/Fri/Sun, A350-900) launched April 15, 2026 and is now operating. Boston–Tel Aviv (BOS, daily, A330-900neo) is scheduled to launch October 24, 2026 — confirm at delta.com before booking.
 
 ### Europe
 
@@ -86,8 +86,7 @@ faqs:
 | **Turkish Airlines** | Suspended. No restart date announced | turkishairlines.com |
 | **Emirates** | Permanent suspension; no restart planned | emirates.com |
 | **easyJet** | Suspended. March 2026 resumption did not happen. Next planned restart: late October 2026 — **date may shift again; verify at easyjet.com before booking** | easyjet.com |
-| **Delta Atlanta (ATL)** | Suspended through at least December 2026 | delta.com |
-| **Delta Boston (BOS)** | Indefinitely delayed | delta.com |
+| **Delta Boston (BOS)** | Launching 24 October 2026 (daily, A330-900neo) — confirm at delta.com | delta.com |
 
 ---
 
@@ -96,6 +95,7 @@ faqs:
 **Resumed (mid-2026):** After the Israel–Iran escalation of early 2026, most major carriers gradually restored service. By July 2026, Air France, Lufthansa, SWISS, ITA Airways, Eurowings, and airBaltic had all resumed. Most European schedule disruptions have resolved, but the situation following any future regional event should be re-checked at each airline.
 
 **New routes launched in 2026:**
+- **Delta ATL–TLV** (April 15, 2026): Atlanta–Tel Aviv 3×/week (Wed/Fri/Sun) on A350-900. Delta's second US gateway alongside JFK.
 - **Israir JFK–TLV** (August 2026): Israel's first low-cost US carrier nonstop, directly competing with El Al on fares.
 - **El Al SFO–TLV** (October 2026): First direct West Coast US–Israel service.
 - **Arkia TLV–NRT** (October 2026): First direct Israel–Japan service, opening East Asian routing.
@@ -103,10 +103,13 @@ faqs:
 - **Eurowings HAM/DUS** (July 2026): New German LCC routes.
 - **Air Canada YUL–TLV** (seasonal Jun–Oct 2026): Montreal–Tel Aviv service, Fridays and Sundays. First direct Canada–Israel link in 2026.
 
+**Upcoming (not yet launched):**
+- **Delta BOS–TLV** (scheduled 24 October 2026): Daily Boston–Tel Aviv nonstop on A330-900neo — confirm at delta.com before booking.
+
 **KLM suspension and resumption:** KLM suspended its Amsterdam–TLV service from 1 March 2026 (following renewed security concerns) and resumed on 26 July 2026. Travelers who booked KLM via Amsterdam during March–July 2026 were rerouted or refunded. Service is now active.
 
 **Still not flying:**
-- British Airways, Ryanair, Turkish Airlines, Emirates, and easyJet remain absent from the TLV market as of July 2026.
+- British Airways, Ryanair, Turkish Airlines, Emirates, and easyJet remain absent from the TLV market as of August 2026.
 
 ---
 

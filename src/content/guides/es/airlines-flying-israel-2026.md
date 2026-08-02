@@ -1,9 +1,9 @@
 ---
 title: 'Aerolíneas que Vuelan a Israel en 2026: Estado Actual y Suspensiones'
-description: '¿Qué aerolíneas vuelan al Aeropuerto Ben Gurion (TLV) ahora mismo? Tabla actualizada de portadoras activas, suspendidas y que reanudan servicio — verificada en julio de 2026.'
+description: '¿Qué aerolíneas vuelan al Aeropuerto Ben Gurion (TLV) ahora mismo? Tabla actualizada de portadoras activas, suspendidas y que reanudan servicio — verificada en agosto de 2026.'
 heroImage: /images/regions/tel-aviv/hero.jpg
 category: Planificación
-updatedAt: 2026-07-26
+updatedAt: 2026-08-02
 ctaHeading: Compara tarifas actuales a Tel Aviv
 affiliateCtas:
   - partner: skyscanner
@@ -22,14 +22,14 @@ faqs:
   - question: '¿Está Turkish Airlines volando a Israel?'
     answer: 'No. Turkish Airlines (THY) ha suspendido sus rutas Estambul–Tel Aviv y no ha anunciado una fecha de reanudación confirmada. Estambul (IST) no está disponible por tanto como hub de conexión para Israel. Hubs alternativos en Oriente Medio: Dubái (FlyDubai directo a TLV; Emirates NO vuela a TLV), Abu Dabi (Etihad con hasta 6 vuelos diarios AUH–TLV a mediados de 2026), Doha (Qatar Airways — verifica el estado operativo actual).'
   - question: '¿Qué aerolíneas vuelan sin escala desde Estados Unidos a Israel en 2026?'
-    answer: 'Servicios sin escala EEUU–Israel a julio de 2026: El Al desde Nueva York JFK, Newark (código compartido), Los Ángeles LAX, San Francisco SFO (nuevo en oct. 2026), Miami MIA (estacional), Chicago ORD y Washington IAD; Delta desde Nueva York JFK (diario, reanudado en sep. 2025); United desde Newark EWR, Chicago ORD y Washington IAD; Israir desde Nueva York JFK (vuelo directo low cost, nuevo en ago. 2026 en Airbus A330); American Airlines desde Miami MIA (estacional). Las rutas de Delta desde Atlanta ATL y Boston BOS permanecen suspendidas.'
+    answer: 'Servicios sin escala EEUU–Israel a agosto de 2026: El Al desde Nueva York JFK, Newark (código compartido), Los Ángeles LAX, San Francisco SFO (nuevo en oct. 2026), Miami MIA (estacional), Chicago ORD y Washington IAD; Delta desde Nueva York JFK (diario, reanudado en sep. 2025) y Atlanta ATL (3×/semana mié./vie./dom., lanzada en abril de 2026); United desde Newark EWR, Chicago ORD y Washington IAD; Israir desde Nueva York JFK (vuelo directo low cost, nuevo en ago. 2026 en Airbus A330); American Airlines desde Miami MIA (estacional). La ruta de Delta Boston BOS está prevista para el 24 de octubre de 2026 (diaria, A330-900neo) — verifica en delta.com.'
   - question: '¿Qué aerolíneas europeas reanudaron los vuelos a Israel en 2026?'
     answer: 'Tras la escalada Israel–Irán de principios de 2026, la mayoría de las principales aerolíneas europeas fueron reanudando gradualmente el servicio a mediados de 2026: ITA Airways (Roma FCO) reanudó; Air France (París CDG) reanudó; Lufthansa (Fráncfort FRA) y SWISS (Zúrich ZRH) reanudaron el 1 de julio de 2026; Eurowings (Hamburgo HAM, Düsseldorf DUS — nuevas rutas) reanudó a mediados de julio de 2026; airBaltic (Riga RIX) reanudó en julio de 2026. British Airways permanece suspendida. Consulta siempre el sitio web oficial de la aerolínea para conocer el estado operativo actual antes de reservar.'
   - question: '¿Está Emirates volando a Israel?'
     answer: 'No. Emirates canceló permanentemente todos los vuelos a Tel Aviv en 2024 y no ha anunciado ninguna reanudación. Para las conexiones de Dubái, usa FlyDubai, que opera vuelos directos frecuentes DXB–TLV. Para Abu Dabi, Etihad opera hasta 6 vuelos diarios AUH–TLV a mediados de 2026.'
 ---
 
-**Última verificación: 26 de julio de 2026.** El panorama de aerolíneas a Israel ha cambiado significativamente desde 2024. Esta página hace un seguimiento de qué portadoras están volando activamente, cuáles están suspendidas y cuáles tienen previsto regresar. La situación de la aviación continúa evolucionando — **verifica siempre directamente con la aerolínea antes de comprar billetes.**
+**Última verificación: 2 de agosto de 2026.** El panorama de aerolíneas a Israel ha cambiado significativamente desde 2024. Esta página hace un seguimiento de qué portadoras están volando activamente, cuáles están suspendidas y cuáles tienen previsto regresar. La situación de la aviación continúa evolucionando — **verifica siempre directamente con la aerolínea antes de comprar billetes.**
 
 ---
 
@@ -40,13 +40,13 @@ faqs:
 | Aerolínea | Ruta | Notas |
 | --- | --- | --- |
 | **El Al** | Nueva York JFK, Los Ángeles LAX, Miami MIA, Chicago ORD, Washington IAD, San Francisco SFO (nuevo en oct. 2026) | Mayor frecuencia de cualquier portadora; San Francisco es una nueva incorporación en la costa oeste |
-| **Delta** | Nueva York JFK | Vuelo directo diario reanudado en septiembre de 2025; servicio todo el año |
+| **Delta** | Nueva York JFK, Atlanta ATL | JFK: vuelo directo diario, reanudado en septiembre de 2025. ATL: 3×/semana (mié./vie./dom.) en A350-900, lanzado el 15 de abril de 2026 |
 | **United** | Newark EWR, Chicago ORD, Washington IAD | Newark reanudado en marzo de 2025; ORD e IAD añadidos en noviembre de 2025 — consulta united.com para horarios estacionales |
 | **Israir** | Nueva York JFK | Primer vuelo directo low cost israelí a EEUU; lanzado en agosto de 2026 con Airbus A330; compara los precios totales incluyendo el equipaje |
 | **American Airlines** | Miami MIA | Estacional; consulta aa.com para fechas exactas |
 | **Air Canada** | Montreal YUL | Estacional jun.–oct. 2026 (vie./dom.); consulta aircanada.com para el horario |
 
-**Nota sobre Delta:** Las rutas planificadas Atlanta–Tel Aviv y Boston–Tel Aviv permanecen suspendidas. Atlanta está aplazada hasta al menos diciembre de 2026; Boston indefinidamente. Solo el vuelo directo JFK–TLV está operativo.
+**Nota sobre Delta:** Atlanta–Tel Aviv (ATL, 3×/semana mié./vie./dom., A350-900) se lanzó el 15 de abril de 2026 y ya está operativa. Boston–Tel Aviv (BOS, diario, A330-900neo) está prevista para el 24 de octubre de 2026 — confirma en delta.com antes de reservar.
 
 ### Europa
 
@@ -86,8 +86,7 @@ faqs:
 | **Turkish Airlines** | Suspendida. No se ha anunciado fecha de reanudación | turkishairlines.com |
 | **Emirates** | Suspensión permanente; no hay reanudación prevista | emirates.com |
 | **easyJet** | Suspendida. La reanudación prevista para marzo de 2026 no ocurrió. Próxima reanudación planificada: finales de octubre de 2026 — **la fecha puede volver a cambiar; verifica en easyjet.com antes de reservar** | easyjet.com |
-| **Delta Atlanta (ATL)** | Suspendida al menos hasta diciembre de 2026 | delta.com |
-| **Delta Boston (BOS)** | Aplazada indefinidamente | delta.com |
+| **Delta Boston (BOS)** | Lanzamiento 24 de octubre de 2026 (diario, A330-900neo) — confirma en delta.com | delta.com |
 
 ---
 
@@ -96,6 +95,7 @@ faqs:
 **Reanudaciones (mediados de 2026):** Tras la escalada Israel–Irán de principios de 2026, la mayoría de las principales portadoras fueron restaurando gradualmente el servicio. En julio de 2026, Air France, Lufthansa, SWISS, ITA Airways, Eurowings y airBaltic habían reanudado todas. La mayor parte de las interrupciones de horario en Europa se han resuelto, pero la situación tras cualquier futuro acontecimiento regional deberá volverse a verificar con cada aerolínea.
 
 **Nuevas rutas lanzadas en 2026:**
+- **Delta ATL–TLV** (15 de abril de 2026): Atlanta–Tel Aviv 3×/semana (mié./vie./dom.) en A350-900. La segunda puerta de entrada de Delta en EEUU junto a JFK.
 - **Israir JFK–TLV** (agosto de 2026): El primer vuelo directo low cost de una portadora estadounidense, compitiendo directamente con El Al en tarifas.
 - **El Al SFO–TLV** (octubre de 2026): Primer servicio directo costa oeste de EEUU–Israel.
 - **Arkia TLV–NRT** (octubre de 2026): Primer servicio directo Israel–Japón, abriendo las rutas del este asiático.
@@ -103,10 +103,13 @@ faqs:
 - **Eurowings HAM/DUS** (julio de 2026): Nuevas rutas LCC alemanas.
 - **Air Canada YUL–TLV** (estacional jun.–oct. 2026): Servicio Montreal–Tel Aviv, los viernes y domingos. Primer enlace directo Canadá–Israel en 2026.
 
+**Próximas (aún no lanzadas):**
+- **Delta BOS–TLV** (previsto 24 de octubre de 2026): Vuelo diario Boston–Tel Aviv en A330-900neo — confirma en delta.com antes de reservar.
+
 **Suspensión y reanudación de KLM:** KLM suspendió su servicio Ámsterdam–TLV desde el 1 de marzo de 2026 (tras nuevas preocupaciones de seguridad) y lo reanudó el 26 de julio de 2026. Los viajeros que reservaron KLM vía Ámsterdam entre marzo y julio de 2026 fueron reubicados o reembolsados. El servicio está ahora activo.
 
 **Siguen sin volar:**
-- British Airways, Ryanair, Turkish Airlines, Emirates y easyJet siguen ausentes del mercado TLV a julio de 2026.
+- British Airways, Ryanair, Turkish Airlines, Emirates y easyJet siguen ausentes del mercado TLV a agosto de 2026.
 
 ---
 
