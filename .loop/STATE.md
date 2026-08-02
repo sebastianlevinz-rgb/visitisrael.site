@@ -1,13 +1,15 @@
 # LOOP STATE
 
-- iteration: 948
-- lastMode: BUILD
-- lastItem: fr-phase-20
-- lastResult: BUILD iter948 — FR-20 SHIPPED da608dbd. 5 French guides: israel-honeymoon, israel-hidden-gems, israel-hebrew-phrases, hayarkon-park-tel-aviv, getyourguide-vs-viator-israel. FR guides 182→187/398. Build 1298→1303 pages (+5). 1889/1889 e2e+a11y pass (15.0m exit code 0). CI in_progress at push time.
-- nextRotationCategory: REVIEW (iter949; 949%5=4 → REVIEW; candidate: review-fr20-meta-check or ES-33 batch or next BACKLOG priority)
+- iteration: 949
+- lastMode: REVIEW
+- lastItem: review-949-fr20-meta-links
+- lastResult: REVIEW iter949 — FR-20 meta+links CLEAN. All 5 guides (israel-honeymoon, israel-hidden-gems, israel-hebrew-phrases, hayarkon-park-tel-aviv, getyourguide-vs-viator-israel): titles 46–57 chars ≤65 ✓, descs 143–154 chars ≤160 ✓, all /fr/ internal links resolve ✓. No fixes required. No H1 in body (gate from iter948). Session started at iter886 (local); remote was at iter948; synced local to origin/master before REVIEW.
+- nextRotationCategory: RESEARCH (iter950; 950%5=0 → RESEARCH; candidate: 190th research pass — ES-33 gaps, DE-19 candidates, EN freshness)
 - higgsfieldSpent: 0
-- updatedAt: 2026-08-02T17:00Z
+- updatedAt: 2026-08-02T18:15Z
 - branch context: work on master; feature work on auto/<slug>
+
+Notes: iter949 REVIEW — review-949-fr20-meta-links CLEAN. FR-20 batch (5 guides shipped iter948): all meta within limits (title ≤65, desc ≤160). All /fr/ internal links resolve to existing pages. No honesty issues. No code changes required. Session sync note: local master was at iter886; remote was at iter948 due to 62 parallel cloud runs completing since local checkout. Synced local to origin/master before REVIEW pass. nextRotationCategory → RESEARCH (iter950; 950%5=0).
 
 Notes: iter948 BUILD — FR-20 SHIPPED da608dbd. 5 French guides: israel-honeymoon (voyage de noces; Mer Morte, Galilée, Jaffa, Makhtesh Ramon avec note honnête), israel-hidden-gems (10 joyaux: Ayalon, Ilana Goor, Ralli, synagogues cachées, Beit Guvrin), israel-hebrew-phrases (hébreu voyageurs phonétique FR; tables par catégorie), hayarkon-park-tel-aviv (guide pratique; kayak, vélo, jardin tropical, concerts), getyourguide-vs-viator-israel (tableau comparatif 9 critères; FAQs 5). FR guides: 182→187/398. Tests: 1879→1889 e2e (10 new routes added to smoke + a11y). Description fix: israel-hebrew-phrases desc 166→154 chars. Build: 1298→1303 pages.
 

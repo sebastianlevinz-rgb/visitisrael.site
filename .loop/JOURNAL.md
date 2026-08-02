@@ -14343,3 +14343,26 @@ Also added 5 routes to smoke.spec.ts and a11y.spec.ts (10 new test assertions).
 **FR progress:** 187/398 guides (11 remaining from FR-20: none — all 5 shipped). Next FR batch: FR-21 TBD (candidates from ongoing research).
 
 **Next:** iter949 → REVIEW (949%5=4 → REVIEW). Candidates: review-fr20-meta-check (verify new FR-20 guides have ≤65 title / ≤160 desc — likely clean since authored with those constraints), or ES-33 batch, or next BACKLOG priority.
+
+## 2026-08-02 · iter 949 · REVIEW (fr20-meta-links)
+
+**Mode:** REVIEW (iter949; 949%5=4 → REVIEW)
+**Item:** review-949-fr20-meta-links — meta length + internal link audit of FR-20 batch
+
+**Session context:** Session started with local master at iter886. Remote master was at iter948 (62 cloud runs completed since local checkout). Synced local to origin/master before executing REVIEW pass.
+
+**Audit — FR-20 (5 guides from iter948):**
+
+| Guide | Title (chars) | Desc (chars) | /fr/ links |
+|---|---|---|---|
+| israel-honeymoon | 49 ✓ | 153 ✓ | all resolve ✓ |
+| israel-hidden-gems | 52 ✓ | 143 ✓ | all resolve ✓ |
+| israel-hebrew-phrases | 56 ✓ | 154 ✓ | all resolve ✓ |
+| hayarkon-park-tel-aviv | 46 ✓ | 151 ✓ | all resolve ✓ |
+| getyourguide-vs-viator-israel | 57 ✓ | 154 ✓ | all resolve ✓ |
+
+**Result:** CLEAN — no fixes required. All 5 guides within title ≤65, desc ≤160. All /fr/ prefix internal links resolve to existing pages. No H1 in body (gate enforced iter948). No honesty issues found.
+
+**Ship:** No code changes — state update only.
+
+**Next:** iter950 → RESEARCH (950%5=0 → RESEARCH). Candidates: 190th research pass — ES-33 gaps, DE-19 candidates, EN freshness (Fattal Hotels pipeline, Wizz Air bases, August seasonal content).
