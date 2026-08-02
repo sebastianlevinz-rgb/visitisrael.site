@@ -1730,3 +1730,8 @@ Pure frontmatter fix — all titles ≤65, all descriptions ≤160. Build 1298 p
 5 French guides shipped: israel-honeymoon, israel-hidden-gems, israel-hebrew-phrases, hayarkon-park-tel-aviv, getyourguide-vs-viator-israel.
 Metropolitan French; YAML double-quotes; /fr/* prefix for confirmed-existing pages; ₪ ranges only; Makhtesh Ramon "heart shape" honesty note; phonétique FR pour hébreu (r grasseyé); tableau comparatif GYG vs Viator 9 critères.
 FR guides: 182→187/398. Build: 1298→1303 pages (+5). 1889/1889 e2e pass (15.0m; exit code 0). Desc fix: israel-hebrew-phrases 166→154 chars before final rebuild.
+
+## iter 951 · es-phase-33 · f1ca6e70 · 2026-08-02
+5 Spanish guides shipped: israel-honeymoon, israel-hidden-gems, israel-hebrew-phrases, israel-in-autumn, israel-in-winter.
+LATAM Spanish register; heroImage verified existing; all /es/* cross-links confirmed; Sucot 2026 dates verified (26 sep–3 oct); crane count hedged ("hasta 500.000"); Makhtesh Ramon "heart shape" honesty note (perspectiva aérea); safari price range ₪45–60 (verify hula.org.il); no fabricated ratings/reviews.
+ES guides: 165→170/398. Build: 1303→1308 pages (+5). 1899/1899 e2e pass (14.3m; exit code 0).

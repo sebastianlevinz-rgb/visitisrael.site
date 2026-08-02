@@ -14394,3 +14394,29 @@ Also added 5 routes to smoke.spec.ts and a11y.spec.ts (10 new test assertions).
 **No code changes.** State + memory files updated only.
 
 **Next:** iter951 → BUILD (951%5=1 → BUILD; priority = ES-33 batch).
+
+## 2026-08-02 · iter 951 · BUILD
+
+**Mode:** BUILD — ES-33 batch  
+**Item:** ES-33: israel-honeymoon, israel-hidden-gems, israel-hebrew-phrases, israel-in-autumn, israel-in-winter  
+**SHA:** f1ca6e70  
+**Result:** SHIPPED
+
+**5 Spanish guides created:**
+- `israel-honeymoon` — Luna de miel en Israel; Mar Muerto, Galilea, Jaffa, Néguev; 7-day itinerary; honesty note on Makhtesh Ramon "heart shape" (aerial perspective)
+- `israel-hidden-gems` — 10 joyas ocultas: Nimrod fortress, Beit Guvrín caves (UNESCO), Wadi Qelt, Herodiom, Tel Megido, Timna, Ein Hod, Rosh Piná, Mar Saba, Achziv
+- `israel-hebrew-phrases` — Hebreo para viajeros; phonetic tables adapted for Spanish speakers; 9 categories (greetings, numbers, transport, restaurant, shopping, hotel, daily, emergency)
+- `israel-in-autumn` — Otoño Oct–Nov; Sucot 2026 (26 sep–3 oct); Agamon HaHula cranes (500k grúas, peak noviembre, safari ₪45–60); Festival Tamar; hiking zones; post-Sucot quiet week
+- `israel-in-winter` — Invierno dic–feb; Navidad Belén/Nazaret; Darom Adom; Dead Sea + Eilat comfort; Hermón skiing; 9-day itinerary; budget table (Jan 30-50% cheaper Jerusalem/TLV)
+
+**Smoke + a11y spec files:** 5 new routes added to each (1889→1899 tested routes)
+
+**Gate:**
+- `pnpm check` → 0 errors ✓
+- `pnpm build` → 1308 pages (+5 from 1303) ✓
+- `pnpm test:e2e` → 1899/1899 pass (14.3m) ✓
+
+**ES guides:** 165→170/398  
+**Build pages:** 1303→1308
+
+**Next:** iter952 → BUILD (952%5=2 → BUILD; priority = FR-21: yad-vashem-visitor-guide, western-wall-guide, israel-road-trip, mitzpe-ramon-guide, israel-travel-tips)

@@ -1,12 +1,12 @@
 # LOOP STATE
 
-- iteration: 950
-- lastMode: RESEARCH
-- lastItem: research-950-fr21-de19-definitions
-- lastResult: RESEARCH iter950 — 190th research pass. Competitors scanned: touristisrael.com, TourRadar.com, abouttravel.ch, travelontoast.de, meikereist.de, reisefroh.de, konpasu.de, capitaine-rando.com, mllebougeotte.fr, voirisrael.com, ijo-reisen.de, totes-meer-urlaub.de, kuren.de, Havas Voyages, Un Monde à Deux. Defined FR-21 (yad-vashem-visitor-guide, western-wall-guide, israel-road-trip, mitzpe-ramon-guide, israel-travel-tips) + DE-19 (israel-honeymoon, israel-hidden-gems, israel-hebrew-phrases, hayarkon-park-tel-aviv, getyourguide-vs-viator-israel). All 10 confirmed MISSING via comm -23. Key gaps: zero DACH editorial for Flitterwochen/honeymoon or GetYourGuide vs Viator; FR road trip saturated (differentiate with Route 90 angle); DE hidden-gems with Northern Golan angle differentiates from thin blogs. DE count confirmed 177/398. FR 187/398. ES 165/398. No new EN freshness urgencies beyond existing BACKLOG items. 2 batches defined, 1 new BACKLOG item (DE Wellness-Totes-Meer standalone, P3/S).
-- nextRotationCategory: BUILD (iter951; 951%5=1 → BUILD; priority = ES-33: israel-honeymoon, israel-hidden-gems, israel-hebrew-phrases, israel-in-autumn, israel-in-winter)
+- iteration: 951
+- lastMode: BUILD
+- lastItem: es-phase-33
+- lastResult: ES-33 SHIPPED f1ca6e70. 5 Spanish guides: israel-honeymoon, israel-hidden-gems, israel-hebrew-phrases, israel-in-autumn, israel-in-winter. ES 165→170/398. Build 1303→1308 pages. 1899/1899 e2e pass (14.3m).
+- nextRotationCategory: BUILD (iter952; 952%5=2 → BUILD; priority = FR-21: yad-vashem-visitor-guide, western-wall-guide, israel-road-trip, mitzpe-ramon-guide, israel-travel-tips)
 - higgsfieldSpent: 0
-- updatedAt: 2026-08-02T19:15Z
+- updatedAt: 2026-08-02T20:20Z
 - branch context: work on master; feature work on auto/<slug>
 
 Notes: iter950 RESEARCH — 190th research pass. FR-21 defined (yad-vashem, western-wall-guide, israel-road-trip, mitzpe-ramon-guide, israel-travel-tips); DE-19 defined (israel-honeymoon, israel-hidden-gems, israel-hebrew-phrases, hayarkon-park-tel-aviv, getyourguide-vs-viator-israel). Zero DACH editorial competitors for honeymoon or GYG vs Viator; FR road trip saturated but Route 90 north-south spine angle differentiates; DE hidden-gems gains Golan/Northern-Israel specifics (Meshushim hexagonal pools, Hula Valley cranes, Ein Keshatot synagogue). Key honesty notes: car rental NIS ranges only (rates risen post-conflict rebound); GYG vs Viator commission rates do NOT fabricate — describe features/platform differences only. nextRotationCategory → BUILD (iter951 = ES-33).
