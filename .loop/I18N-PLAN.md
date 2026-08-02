@@ -6,18 +6,18 @@
 >
 > One bounded slice per loop iteration. NEVER bulk-translate in one shot.
 
-## Current status snapshot (2026-08-02 iter931 BUILD — ES-30 SHIPPED e3f0ecf4; next BUILD iter932 FR-17)
+## Current status snapshot (2026-08-02 iter932 BUILD — FR-17 SHIPPED 89b5dbb6; next BUILD iter933 DE-16)
 
 | Locale | Guides | Attractions | Regions | Itineraries |
 |--------|--------|-------------|---------|-------------|
 | en     | 398    | 65          | 11      | 6           |
-| fr     | 167    | 61          | 11      | 6           |
+| fr     | 172    | 61          | 11      | 6           |
 | de     | 162    | 61          | 11      | 6           |
 | es     | 155    | 61          | 11      | 6           |
 
 **Gaps to close:**
 - es guides: **243 missing** (155/398 done — Phase ES-30 SHIPPED iter931 e3f0ecf4; **Phase ES-31 TBD — next iter with ES rotation**)
-- fr guides: **231 missing** (167/398 done — Phase FR-16 SHIPPED iter927 e6d059c1; **Phase FR-17 DEFINED iter930 — haifa-tours-compared, galilee-culinary-institute-gonen, israel-by-month, israel-egypt-guide, herzliya-guide**)
+- fr guides: **226 missing** (172/398 done — Phase FR-17 SHIPPED iter932 89b5dbb6; **Phase FR-18 TBD — next iter with FR rotation**)
 - de guides: **236 missing** (162/398 done — Phase DE-15 SHIPPED iter928 75504d53; **Phase DE-16 DEFINED iter930 — eilat-nightlife, haifa-shore-excursions, how-to-hire-licensed-tour-guide-israel, israel-accessible-travel, galilee-culinary-institute-gonen**)
 - fr/de/es attractions: **4 missing each** (the 4 EN attractions added after Phase 4)
 
@@ -823,7 +823,7 @@ Quality: neutral LATAM Spanish tuteo; YAML double-quotes; /es/* prefix only for 
 | Locale | Guides | Note |
 |--------|--------|------|
 | en     | 398    | stable |
-| fr     | 167    | 231 missing — Phase FR-16 SHIPPED iter927 e6d059c1; **Phase FR-17 TBD** |
+| fr     | 172    | 226 missing — Phase FR-17 SHIPPED iter932 89b5dbb6; **Phase FR-18 TBD** |
 | de     | 162    | 236 missing — Phase DE-15 SHIPPED iter928 75504d53; **Phase DE-16 TBD** |
 | es     | 155    | 243 missing — Phase ES-30 SHIPPED iter931 e3f0ecf4; **Phase ES-31 TBD** |
 
@@ -941,7 +941,7 @@ Cross-links to verify before BUILD iteration:
 
 Quality: neutral LATAM Spanish tuteo; YAML double-quotes; /es/* cross-links only for confirmed-existing pages; no fabricated prices; Sharm safety framing = advisory reference not a recommendation; culinary institute academic/tourist programs distinction clear; eSIM price comparison in USD ranges only (current plans vary frequently).
 
-### Phase FR-17 (167 → 172/398) — DEFINED iter930 RESEARCH 2026-08-01
+### Phase FR-17 (167 → 172/398) — SHIPPED iter932 89b5dbb6 2026-08-02
 
 Guides: `haifa-tours-compared.md`, `galilee-culinary-institute-gonen.md`, `israel-by-month.md`, `israel-egypt-guide.md`, `herzliya-guide.md`
 All 5 confirmed MISSING from `src/content/guides/fr/` via `comm -23` (2026-08-01).

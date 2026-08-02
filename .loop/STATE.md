@@ -1,13 +1,15 @@
 # LOOP STATE
 
-- iteration: 931
+- iteration: 932
 - lastMode: BUILD
-- lastItem: es-phase-30
-- lastResult: BUILD iter931 es-phase-30 SHIPPED e3f0ecf4. 5 LATAM Spanish guides: israel-events-festivals (month-by-month calendar + 5 events frontmatter: Pride TLV 2026-06-12, Rosh Hashaná 5787, Yom Kipur, Sucot, Hanukkah), galilee-culinary-institute-gonen (GCI open Feb 2026; Chef Lior Lev Sercarz; JNF-USA; farm + restaurant + wine bar + microbrewery + guest suites; Oct 2026 academic year), herzliya-guide (Apollonia ₪35-45 INPA pass valid; The Yacht by Fattal June 2026 325 rooms; Green Line 20 min from TLV), israel-egypt-guide (Taba crossing logistics; ₪101 Israeli departure tax; Sinai-only permit vs full visa $25-35; Cairo GEM + Pyramids; 10/14-day + 3-country sample itineraries; safety advisory caveats for Sinai), israel-esim (eSIM vs local SIM table; data plans from ~$5; cross-links to israel-egypt-guide re eSIM not working in Egypt). Neutral LATAM tuteo; YAML double-quotes; /es/* prefix only confirmed-existing ES pages; no fabricated prices/ratings. 10 new e2e tests (5 smoke + 5 a11y). ES guides: 150→155/398. Build: 1253→1258 pages (+5). 1799/1799 e2e pass. CI in_progress at state-update time.
-- nextRotationCategory: BUILD (iter932; 932%5=2 → BUILD; recommend FR-17 by rotation)
+- lastItem: fr-phase-17
+- lastResult: BUILD iter932 fr-phase-17 SHIPPED 89b5dbb6. 5 metropolitan French guides: haifa-tours-compared (5-format comparison table guided-Bahá'í/Haifa+Akko/Haifa+Akko+Rosh Hanikra/Druze-loop/self-guided; Bahá'í upper terraces advance-registered guided tour only; 7 FAQs; GYG+Viator CTAs; /fr/* only confirmed-existing pages), galilee-culinary-institute-gonen (GCI soft-launched Feb 2026; Chef Lior Lev Sercarz; JNF-USA; 12-dunam farm+restaurant+wine bar+microbrewery+guest suites; Oct 2026 academic year; driving-time table from Tibériade/Rosh Pina/Safed/Haïfa/TLV; galileeculinaryinstitute.com booking; /rosh-pina-guide EN fallback; 3 CTAs GYG+Viator+Booking), herzliya-guide (Apollonia ₪35-45 INPA pass valid; The Yacht by Fattal June 2026 325 rooms 50m pool; Green Line 20 min from TLV ~₪6.90; Acadia Beach; 2 CTAs GYG+Booking), israel-by-month (12-month FR travel calendar; Yom Kippur 25h transport stop; Hula Valley cranes Nov-Feb; booking cheat-sheet table; 7 FAQs; 2 CTAs Booking+GYG), israel-egypt-guide (Taba crossing logistics; ₪101 Israeli departure tax; Sinai-only free 14-day permit vs full visa $25-35; South Sinai bases Taba/Nuweiba/Dahab/Sharm; 10/14-day + 3-country sample itineraries; safety advisories cite diplomatie.gouv.fr+admin.ch+diplomatie.belgium.be; 3 CTAs TourRadar+Viator+GYG; 6 FAQs). Metropolitan French register; YAML double-quotes; /fr/* prefix only confirmed-existing FR pages; no fabricated prices/ratings; French government safety sources. 10 new e2e tests (5 smoke + 5 a11y). FR guides: 167→172/398. Build: 1258→1263 pages (+5). 1809/1809 e2e pass. CI in_progress at state-update time.
+- nextRotationCategory: BUILD (iter933; 933%5=3 → BUILD; recommend DE-16 by rotation)
 - higgsfieldSpent: 0
-- updatedAt: 2026-08-02T00:10Z
+- updatedAt: 2026-08-02T01:00Z
 - branch context: work on master; feature work on auto/<slug>
+
+Notes: iter932 BUILD — fr-phase-17 SHIPPED 89b5dbb6. 5 metropolitan French guides: haifa-tours-compared, galilee-culinary-institute-gonen, herzliya-guide, israel-by-month, israel-egypt-guide. FR guides: 167→172/398. Build: 1258→1263 pages (+5). 1809/1809 e2e pass. CI in_progress at state-update time.
 
 Notes: iter931 BUILD — es-phase-30 SHIPPED e3f0ecf4. 5 LATAM Spanish guides: israel-events-festivals, galilee-culinary-institute-gonen, herzliya-guide, israel-egypt-guide, israel-esim. ES guides: 150→155/398. Build: 1253→1258 pages (+5). 1799/1799 e2e pass. CI in_progress at state-update time.
 

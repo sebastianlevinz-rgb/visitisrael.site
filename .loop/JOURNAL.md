@@ -14085,3 +14085,15 @@ All: neutral LATAM tuteo; no vosotros; YAML double-quotes on apostrophe fields; 
 Gate: pnpm check 0 errors; pnpm build 1258 pages; pnpm test:e2e 1799/1799 pass (14.5m). GREEN.
 Ship: merged to master, pushed e3f0ecf4. CI in_progress at state-update time.
 Next: iter932 → BUILD (932%5=2 → BUILD; recommend FR-17 by rotation).
+
+## 2026-08-02 · iter 932 · BUILD (i18n-FR) · fr-phase-17
+What: 5 metropolitan French guides — haifa-tours-compared, galilee-culinary-institute-gonen, herzliya-guide, israel-by-month, israel-egypt-guide.
+- haifa-tours-compared: 5-format comparison table (guided-Bahá'í $55-95/Haifa+Akko/Haifa+Akko+Rosh Hanikra/Druze-loop/self-guided); Bahá'í upper terraces advance-registered guided tour only; 7 FAQs; GYG+Viator CTAs; cross-links /fr/bahai-world-center-guide+/fr/akko-acre-guide+/fr/rosh-hanikra-guide+/fr/druze-villages-carmel+/fr/day-trips-from-haifa+/fr/haifa-travel-guide.
+- galilee-culinary-institute-gonen: GCI soft-launched Feb 2026; Chef Lior Lev Sercarz; JNF-USA; 12-dunam farm+restaurant+wine bar+microbrewery+guest suites; Oct 2026 academic year; driving-time table from Tibériade/Rosh Pina/Safed/Haïfa/TLV; galileeculinaryinstitute.com; /rosh-pina-guide EN fallback; 3 CTAs GYG+Viator+Booking.
+- herzliya-guide: Apollonia clifftop ruins (₪35-45, INPA pass valid); The Yacht by Fattal June 2026 (325 rooms, 50m pool); Green Line 20 min from TLV (~₪6.90); Acadia Beach; 2 CTAs GYG+Booking; verdictName+verdictQuery set.
+- israel-by-month: 12-month FR travel calendar; Yom Kippur 25h transport stop; Hula Valley cranes Nov-Feb; booking cheat-sheet table; 7 FAQs; 2 CTAs Booking+GYG; French government safety context.
+- israel-egypt-guide: Taba crossing logistics; ₪101 Israeli departure tax; Sinai-only free 14-day permit vs full visa $25-35; South Sinai bases Taba/Nuweiba/Dahab/Sharm; 10/14-day + 3-country sample itineraries; safety advisories cite diplomatie.gouv.fr+admin.ch+diplomatie.belgium.be; 3 CTAs TourRadar+Viator+GYG; 6 FAQs.
+All: metropolitan French register; YAML double-quotes on apostrophe fields; /fr/* prefix only confirmed-existing FR pages; no fabricated prices/ratings; French government safety sources.
+Gate: pnpm check 0 errors; pnpm build 1263 pages (+5 from 1258); pnpm test:e2e 1809/1809 pass (13.2m). GREEN.
+Ship: committed + pushed to master 89b5dbb6. CI in_progress at state-update time.
+Next: iter933 → BUILD (933%5=3 → BUILD; recommend DE-16 by rotation).
