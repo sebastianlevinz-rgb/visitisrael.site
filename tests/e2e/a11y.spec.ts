@@ -753,6 +753,11 @@ const ROUTES = [
   '/es/tel-aviv-museums',
   '/es/israel-best-scenic-drives',
   '/es/israel-in-summer',
+  '/es/israel-honeymoon',
+  '/es/israel-hidden-gems',
+  '/es/israel-hebrew-phrases',
+  '/es/israel-in-autumn',
+  '/es/israel-in-winter',
 ];
 
 for (const route of ROUTES) {
