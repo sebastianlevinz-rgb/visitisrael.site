@@ -6,17 +6,17 @@
 >
 > One bounded slice per loop iteration. NEVER bulk-translate in one shot.
 
-## Current status snapshot (2026-08-01 iter930 RESEARCH — ES-30/FR-17/DE-16 DEFINED; next BUILD iter931)
+## Current status snapshot (2026-08-02 iter931 BUILD — ES-30 SHIPPED e3f0ecf4; next BUILD iter932 FR-17)
 
 | Locale | Guides | Attractions | Regions | Itineraries |
 |--------|--------|-------------|---------|-------------|
 | en     | 398    | 65          | 11      | 6           |
 | fr     | 167    | 61          | 11      | 6           |
 | de     | 162    | 61          | 11      | 6           |
-| es     | 150    | 61          | 11      | 6           |
+| es     | 155    | 61          | 11      | 6           |
 
 **Gaps to close:**
-- es guides: **248 missing** (150/398 done — Phase ES-29 SHIPPED iter926 b9ec8b3a; **Phase ES-30 DEFINED iter930 — israel-events-festivals, galilee-culinary-institute-gonen, herzliya-guide, israel-egypt-guide, israel-esim**)
+- es guides: **243 missing** (155/398 done — Phase ES-30 SHIPPED iter931 e3f0ecf4; **Phase ES-31 TBD — next iter with ES rotation**)
 - fr guides: **231 missing** (167/398 done — Phase FR-16 SHIPPED iter927 e6d059c1; **Phase FR-17 DEFINED iter930 — haifa-tours-compared, galilee-culinary-institute-gonen, israel-by-month, israel-egypt-guide, herzliya-guide**)
 - de guides: **236 missing** (162/398 done — Phase DE-15 SHIPPED iter928 75504d53; **Phase DE-16 DEFINED iter930 — eilat-nightlife, haifa-shore-excursions, how-to-hire-licensed-tour-guide-israel, israel-accessible-travel, galilee-culinary-institute-gonen**)
 - fr/de/es attractions: **4 missing each** (the 4 EN attractions added after Phase 4)
@@ -78,7 +78,7 @@ Take the top 5 by priority (or head -5 if priority not obvious), translate each 
 
 ## Progress tracker
 
-### ES guides (95 / 397)
+### ES guides (155 / 398)
 - Phase ES-0 — DONE. iter799 shipped 5/394:
   first-time-in-israel, visa-information, best-time-to-visit-israel,
   israel-cost-budget, transportation (02b1058).
@@ -825,7 +825,7 @@ Quality: neutral LATAM Spanish tuteo; YAML double-quotes; /es/* prefix only for 
 | en     | 398    | stable |
 | fr     | 167    | 231 missing — Phase FR-16 SHIPPED iter927 e6d059c1; **Phase FR-17 TBD** |
 | de     | 162    | 236 missing — Phase DE-15 SHIPPED iter928 75504d53; **Phase DE-16 TBD** |
-| es     | 150    | 248 missing — Phase ES-29 SHIPPED iter926 b9ec8b3a; **Phase ES-30 TBD** |
+| es     | 155    | 243 missing — Phase ES-30 SHIPPED iter931 e3f0ecf4; **Phase ES-31 TBD** |
 
 **All three next phases defined iter925 (185th research pass):**
 - Phase ES-29: jerusalem-food-guide, tel-aviv-food-guide, rosh-hanikra-guide, mount-of-olives-guide, safed-tzfat-guide (all confirmed MISSING from ES via comm -23 2026-08-01)
@@ -913,7 +913,7 @@ Research agent ranking (by DACH SEO value + affiliate conversion + editorial gap
 
 Quality: Standard Hochdeutsch; YAML double-quotes; /de/* prefix only for confirmed-existing DE pages; no fabricated prices (all as Richtwertspannen); Golan Heights political status note factual/neutral (same wording as DE standard "von Israel seit 1967 kontrolliert; US-Anerkennung 2019 international umstritten"); Siedlungsweingüter-Kontext brief and neutral; cruise suspension notice for haifa-cruise-terminal-guide; Bahá'í active-site framing (Außenbereiche/Terrassen only); INPA-Pass gilt NICHT für Kabinenbahn (honesty); Dolphin Reef encounters-not-guaranteed if referenced; all prices as Richtwertspannen.
 
-### Phase ES-30 (150 → 155/398) — DEFINED iter930 RESEARCH 2026-08-01
+### Phase ES-30 (150 → 155/398) — SHIPPED iter931 e3f0ecf4 2026-08-02
 
 Guides: `israel-events-festivals.md`, `galilee-culinary-institute-gonen.md`, `herzliya-guide.md`, `israel-egypt-guide.md`, `israel-esim.md`
 All 5 confirmed MISSING from `src/content/guides/es/` via `comm -23` (2026-08-01).

@@ -1,13 +1,15 @@
 # LOOP STATE
 
-- iteration: 930
-- lastMode: RESEARCH
-- lastItem: research-930-es30-fr17-de16-definitions
-- lastResult: RESEARCH iter930 (186th research pass). Sources: civitatis.com, routard.com, urlaubsguru.de, sonnenklar.tv, travelandtourworld.com, touristisrael.com, jns.org, ynetnews.com, israelhayom.com, tripadvisor.com. Defined ES-30 (israel-events-festivals, galilee-culinary-institute-gonen, herzliya-guide, israel-egypt-guide, israel-esim), FR-17 (haifa-tours-compared, galilee-culinary-institute-gonen, israel-by-month, israel-egypt-guide, herzliya-guide), DE-16 (eilat-nightlife, haifa-shore-excursions, how-to-hire-licensed-tour-guide-israel, israel-accessible-travel, galilee-culinary-institute-gonen). All guides confirmed MISSING via comm -23. Key freshness checks: EN galilee-culinary-institute-gonen already current (open Feb 2026); eilat-beach-guide.md already covers Almog Beach city-designation; Kassland HUMAN REVIEW status unchanged (confirmed open but Ma'ale Adumim settlement = editorial decision required); Isrotel Princess still closed (future Airport City revival planned). Zero editorial ES/FR/DE competitors on any of the 15 new batch guides. No code changes — research only.
-- nextRotationCategory: BUILD (iter931; 931%5=1 → BUILD; recommend ES-30 by rotation — ES has largest gap 248 missing)
+- iteration: 931
+- lastMode: BUILD
+- lastItem: es-phase-30
+- lastResult: BUILD iter931 es-phase-30 SHIPPED e3f0ecf4. 5 LATAM Spanish guides: israel-events-festivals (month-by-month calendar + 5 events frontmatter: Pride TLV 2026-06-12, Rosh Hashaná 5787, Yom Kipur, Sucot, Hanukkah), galilee-culinary-institute-gonen (GCI open Feb 2026; Chef Lior Lev Sercarz; JNF-USA; farm + restaurant + wine bar + microbrewery + guest suites; Oct 2026 academic year), herzliya-guide (Apollonia ₪35-45 INPA pass valid; The Yacht by Fattal June 2026 325 rooms; Green Line 20 min from TLV), israel-egypt-guide (Taba crossing logistics; ₪101 Israeli departure tax; Sinai-only permit vs full visa $25-35; Cairo GEM + Pyramids; 10/14-day + 3-country sample itineraries; safety advisory caveats for Sinai), israel-esim (eSIM vs local SIM table; data plans from ~$5; cross-links to israel-egypt-guide re eSIM not working in Egypt). Neutral LATAM tuteo; YAML double-quotes; /es/* prefix only confirmed-existing ES pages; no fabricated prices/ratings. 10 new e2e tests (5 smoke + 5 a11y). ES guides: 150→155/398. Build: 1253→1258 pages (+5). 1799/1799 e2e pass. CI in_progress at state-update time.
+- nextRotationCategory: BUILD (iter932; 932%5=2 → BUILD; recommend FR-17 by rotation)
 - higgsfieldSpent: 0
-- updatedAt: 2026-08-01T23:30Z
+- updatedAt: 2026-08-02T00:10Z
 - branch context: work on master; feature work on auto/<slug>
+
+Notes: iter931 BUILD — es-phase-30 SHIPPED e3f0ecf4. 5 LATAM Spanish guides: israel-events-festivals, galilee-culinary-institute-gonen, herzliya-guide, israel-egypt-guide, israel-esim. ES guides: 150→155/398. Build: 1253→1258 pages (+5). 1799/1799 e2e pass. CI in_progress at state-update time.
 
 Notes: iter930 RESEARCH — research-930-es30-fr17-de16-definitions. 186th research pass. Defined next 3 i18n batches (ES-30 / FR-17 / DE-16). 15 guides confirmed MISSING across 3 locales. Key theme: galilee-culinary-institute-gonen appears in ALL 3 batches (open Feb 2026; zero editorial competitor in any locale). Freshness: EN guides already current for Galilee Culinary Institute and Almog Beach. Kassland HUMAN REVIEW unchanged. No code changes — research + I18N-PLAN + BACKLOG + COMPETITORS updates only.
 

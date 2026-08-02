@@ -14074,3 +14074,14 @@ BACKLOG updated: ES-29/FR-16 marked shipped; ES-30/FR-17/DE-16 added as [P1] rea
 Gate: n/a (research only — no code changes, no gate run).
 Ship: no feature commit; .loop/ memory files only. State commit to follow.
 Next: iter931 → BUILD (931%5=1 → BUILD; ES-30 by rotation — ES has largest gap 248 missing).
+
+## 2026-08-02T00:10Z · iter 931 · BUILD · es-phase-30
+Mode: BUILD (931%5=1 → BUILD; ES-30 by rotation — ES has largest gap 243 missing).
+
+5 LATAM Spanish guides created: israel-events-festivals (month-by-month calendar; 5 events frontmatter for Pride TLV, Rosh Hashaná 5787, Yom Kipur, Sucot, Hanukkah; affiliate Booking+GYG; 3 FAQs), galilee-culinary-institute-gonen (GCI fully open Feb 2026; Chef Lior Lev Sercarz + JNF-USA funding confirmed; farm + restaurant + wine bar + microbrewery + guest suites; Oct 2026 academic year; affiliate GYG+Viator+Booking; 7 FAQs; Upper Galilee circuit pairing), herzliya-guide (Apollonia ₪35-45 INPA pass valid; The Yacht by Fattal June 2026 325 rooms 50m pool; Green Line 20 min from TLV; verdictName+verdictQuery set; affiliate GYG+Booking; 5 FAQs), israel-egypt-guide (Taba crossing 4-step procedure each side; ₪101 Israeli departure tax; Sinai-only free 14-day permit vs full Egyptian visa $25-35; Cairo GEM + Pyramids via fly or drive; 10/14/18-day sample itineraries; Nuweiba Red Sea ferry Aqaba; safety advisory caveats for Sinai; affiliate TourRadar+Viator+GYG; 6 FAQs), israel-esim (eSIM vs local SIM comparison table; data plans from ~$5; eSIM not working in Egypt caveat; affiliate Airalo; 4 FAQs).
+
+All: neutral LATAM tuteo; no vosotros; YAML double-quotes on apostrophe fields; /es/* prefix only for confirmed-existing ES pages; no fabricated prices/ratings; events frontmatter schema used for israel-events-festivals.
+
+Gate: pnpm check 0 errors; pnpm build 1258 pages; pnpm test:e2e 1799/1799 pass (14.5m). GREEN.
+Ship: merged to master, pushed e3f0ecf4. CI in_progress at state-update time.
+Next: iter932 → BUILD (932%5=2 → BUILD; recommend FR-17 by rotation).

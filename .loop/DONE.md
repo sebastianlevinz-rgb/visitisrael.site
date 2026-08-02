@@ -1681,3 +1681,7 @@ DE guides: 157→162/398. Build: 1248→1253 pages. 1789/1789 e2e pass.
 
 ## iter929 · review-929-fr16-meta-trim · 4514ea88 · 2026-08-01
 REVIEW audit of FR-16 and DE-15 guides. 5 FR-16 meta description overruns (165-191 chars) trimmed to 141-160 chars. DE-15 clean. Gate: 0 errors; 1253 pages; 1789/1789 e2e pass.
+
+## iter931 · es-phase-30 · e3f0ecf4 · 2026-08-02
+5 LATAM Spanish guides: israel-events-festivals (month-by-month calendar + events frontmatter + affiliate Booking/GYG), galilee-culinary-institute-gonen (GCI open 2026; JNF-USA; Chef Lior Lev Sercarz; affiliate GYG/Viator/Booking), herzliya-guide (Apollonia clifftop ruins + Marina + Acadia Beach; The Yacht by Fattal June 2026; verdictName set; affiliate GYG/Booking), israel-egypt-guide (Taba crossing logistics; Sinai-only vs full visa; Cairo GEM; sample itineraries 10/14/18 days; affiliate TourRadar/Viator/GYG), israel-esim (eSIM vs local SIM; data plans from ~$5; Airalo affiliate; cross-link to egypt guide re eSIM not working abroad).
+ES guides: 150→155/398. Build: 1253→1258 pages. 1799/1799 e2e pass.
