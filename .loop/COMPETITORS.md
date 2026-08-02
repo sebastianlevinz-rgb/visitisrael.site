@@ -7190,3 +7190,47 @@ Sources: civitatis.com, jerusalen.com, routard.com, petitfute.com, urbanmeandere
 - Seasonal series (israel-in-*) represents a batch of 4 guides missing from all locales = 12 guides total over future iterations.
 - Museums comparison is a consistent gap across all 3 locales.
 - DE-18 closes the Jerusalem pilgrimage content gap in DE to match FR (shopping, mahane-yehuda, via-dolorosa, solo, western-wall-tunnels — all 5 shipped in FR-18).
+
+### 2026-08-02 · iter945 · RESEARCH · 189th pass · Honeymoon + hidden gems + French market + Wizz Air
+
+**Sources:** tripadvisor.com, theknot.com, honeymoonisrael.org, honeymoons.com, touristisrael.com, wewillnomad.com, newyorkjewishtravelguide.com, docteur-voyage.fr, havas-voyages.fr, guidedesvacances.fr, partirou.com, trip-planner.io/fr, aviationa2z.com, jpost.com, travelandtourworld.com
+
+**Honeymoon cluster (all competitors beat us here):**
+- touristisrael.com: 3 dedicated honeymoon URLs (/honeymoon-in-israel, /how-to-have-the-ultimate-honeymoon, /romantic-honeymoon-escapes) — highest SERP presence
+- theknot.com: "The Complete Israel Honeymoon Guide" — targets The Knot's wedding audience
+- honeymoonisrael.org: Dedicated honeymoon itinerary + specialist booking site
+- honeymoons.com: "11 Best Resorts in Israel for Honeymoon" — hotel affiliate play
+- Recurring angles: Dead Sea float + Makhtesh Ramon (heart-shaped crater) + Negev glamping + Galilee wine = the 4-pillar honeymoon content formula
+- WE ARE MISSING: Entire honeymoon/couples vertical (zero pages)
+
+**Hidden gems cluster:**
+- tripadvisor.com: "THE 10 BEST Hidden Gems in Israel (2026)" — standard content aggregation
+- wewillnomad.com: "Israel Travel Guide 2026: Hidden Gems & Costs" — comprehensive SE guide
+- newyorkjewishtravelguide.com: "Israel 2026: Secrets Only Locals Know" — insider angle
+- Gems surfacing consistently: Ayalon Institute (secret bullet factory Rehovot), Ilana Goor Museum Jaffa, Caesarea Ralli Museums, hidden Old City synagogues
+- WE HAVE: Most underlying pages (Caesarea, Beit Guvrin, etc.) — this is an aggregation/framing gap, not a coverage gap
+
+**French market competition:**
+- docteur-voyage.fr: "Voyage en Israël tout compris" — package-tour focused, no editorial depth
+- partirou.com: "Que faire et visiter en Israël" — thin generic guide
+- guidedesvacances.fr: "Peut-on voyager en Israël" — safety/entry framing only
+- trip-planner.io/fr: "Préparer son voyage en Israël 2026" — AI-generated itinerary
+- havas-voyages.fr: Package tours + "lune de miel Israël" targeting (honeymoon packages €2,900+)
+- FR market search intent: ETA-IL visa requirement (already covered by us ✓), honeymoon, cost breakdown, safety context
+- WE HAVE: FR israel-eta-guide ✓, FR israel-for-french-travelers ✓ — but missing: FR israel-honeymoon, FR israel-hidden-gems, FR israel-hebrew-phrases, FR hayarkon-park-tel-aviv, FR getyourguide-vs-viator
+
+**Wizz Air expansion (aviation freshness):**
+- aviationa2z.com + jpost.com + travelandtourworld.com: Wizz Air $1B commitment, 10 aircraft, BGA base (April 2026), Ramon Airport (ETM) base (March 2026), ~4M additional seats
+- Our guides: eilat-ramon-airport-guide already mentions Wizz Air Israel at ETM ✓; airlines guide shows BGA routes ✓; does NOT mention subsidiary/base structure or $1B investment
+- P2/S freshness update: add base/investment context to airlines-flying-israel-2026.md
+
+**i18n batch definitions (iter945):**
+- FR-20 defined: israel-honeymoon, israel-hidden-gems, israel-hebrew-phrases, hayarkon-park-tel-aviv, getyourguide-vs-viator-israel (all confirmed MISSING from FR)
+- ES-33 defined: israel-honeymoon, israel-hidden-gems, israel-hebrew-phrases, israel-in-autumn, israel-in-winter (all confirmed MISSING from ES)
+- DE-18: already defined iter940 — ready for next DE BUILD
+
+**Strategy notes (iter945):**
+- Honeymoon is the largest single content gap vs. touristisrael.com — 3 pages vs 0. P2/M EN + then FR + ES i18n.
+- Hidden gems = low-effort aggregation win that targets head-term "hidden gems" searches.
+- French market is active and competitive from package operators but thin on editorial depth — our editorial model can outrank.
+- August seasonal content gap is actionable and evergreen (events confirmed annually).

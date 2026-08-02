@@ -14274,3 +14274,12 @@ Gate: pnpm check 0 errors; build 1293 pages (+5); 1869/1869 e2e pass (13.6m). GR
 Ship: squash-merged to master 7210f3d3; pushed origin/master. PR #39 closed.
 Prod: CI + Lighthouse in_progress for 7210f3d3 (started 12:49 UTC; standard ~5-min pattern; all prior iterations succeed on identical content changes).
 NEXT: iter 945 → RESEARCH mode (945%5==0).
+
+## 2026-08-02T14:10Z · iter 945 · RESEARCH · research-945-honeymoon-hidden-gems-fr20-es33
+
+What: 189th research pass. Scanned 15 competitors: tripadvisor.com, theknot.com, honeymoonisrael.org, honeymoons.com, touristisrael.com, wewillnomad.com, newyorkjewishtravelguide.com, docteur-voyage.fr, havas-voyages.fr, guidedesvacances.fr, partirou.com, trip-planner.io/fr, aviationa2z.com, jpost.com, travelandtourworld.com.
+Findings: (1) israel-honeymoon ENTIRELY MISSING — touristisrael.com has 3 dedicated pages; The Knot + honeymoons.com top-5; Dead Sea float + Makhtesh Ramon heart-shape + Negev glamping + Galilee wine = 4-pillar formula; P2/M BACKLOG item added; included in FR-20 + ES-33. (2) israel-hidden-gems aggregation gap — wewillnomad/Tripadvisor rank for aggregation-style content our site covers individually but not aggregated; P2/S item added; included in FR-20 + ES-33. (3) Wizz Air $1B double-base expansion (BGA April 2026 + ETM March 2026) — airlines-flying-israel-2026.md lists BGA routes but omits Wizz Air Israel subsidiary + base structure + $1B investment; P2/S freshness update queued. (4) ETA-IL guide confirmed EXISTS in EN+FR — no action needed. (5) French market active demand for honeymoon + cost content (docteur-voyage.fr, partirou.com ranking strongly).
+BACKLOG updates: ES-32 stale [P1] entry corrected to [SHIPPED iter941 070daf35]. 4 new items added under technical/SEO-health: Wizz Air freshness (P2/S), israel-honeymoon (P2/M), israel-hidden-gems (P2/S), israel-in-august (P3/S).
+I18N: FR-20 defined (israel-honeymoon, israel-hidden-gems, israel-hebrew-phrases, hayarkon-park-tel-aviv, getyourguide-vs-viator-israel; 182→187/398). ES-33 defined (israel-honeymoon, israel-hidden-gems, israel-hebrew-phrases, israel-in-autumn, israel-in-winter; 165→170/398). COMPETITORS.md + I18N-PLAN.md updated.
+Gate: RESEARCH mode — no branch, no build, no merge.
+Next: iter946 → BUILD (946%5=1); priority: review-es32-meta-trim (P2/S, pure frontmatter fix) or DE-18 (P1/M, 5 DE guides).

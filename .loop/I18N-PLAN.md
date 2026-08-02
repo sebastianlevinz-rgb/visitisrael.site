@@ -1163,3 +1163,77 @@ Cross-links to verify before BUILD:
 - /de/via-dolorosa-guide ✓ (DE-18, build same batch): intra-batch cross-link — ok to include, will exist after build
 
 Quality: Standard Hochdeutsch; YAML double-quotes; /de/* cross-links only confirmed-existing (or intra-batch); no fabricated prices (Richtwertspannen); Via Dolorosa historical debate honest + respectful; Sicherheitshinweise = Auswärtiges Amt reference only; shopping no Druckverkauf for Stern Diamonds; Western Wall Tunnels paired-naming all 3 traditions; solo-travel no generalizations on safety.
+
+---
+
+## Updated status snapshot (iter945 RESEARCH 2026-08-02)
+
+| Locale | Guides | Note |
+|--------|--------|------|
+| en     | 398    | stable |
+| fr     | 182    | 216 missing — Phase FR-19 SHIPPED iter944 7210f3d3; **Phase FR-20 DEFINED iter945** |
+| de     | 172    | 226 missing — Phase DE-17 SHIPPED iter938 86c7fbed; **Phase DE-18 DEFINED iter940 (next DE BUILD)** |
+| es     | 165    | 233 missing — Phase ES-32 SHIPPED iter941 070daf35; **Phase ES-33 DEFINED iter945** |
+
+**FR-19 (iter944) shipped:** FR guides now 182/398. FR leads DE (182 vs 172).
+**DE-18 (iter940):** ready for next DE BUILD (5 guides: shopping-in-israel, mahane-yehuda-market-guide, via-dolorosa-guide, solo-travel-israel, western-wall-tunnels-guide).
+**ES-32 meta overruns (iter944 review):** P2 BACKLOG item review-es32-meta-trim — 4/5 guides have desc/title overruns; fix before next ES-32 content iteration.
+**iter945 research (189th pass):** FR-20 + ES-33 defined. Key gap discovered: israel-honeymoon ENTIRELY MISSING from site — touristisrael.com has 3 dedicated pages; P2 EN guide queued + i18n in FR-20/ES-33.
+
+### Phase FR-20 (182 → 187/398) — DEFINED iter945 RESEARCH 2026-08-02
+
+Guides: `israel-honeymoon.md`, `israel-hidden-gems.md`, `israel-hebrew-phrases.md`, `hayarkon-park-tel-aviv.md`, `getyourguide-vs-viator-israel.md`
+All 5 confirmed MISSING from `src/content/guides/fr/` via `comm -23` (2026-08-02 iter945).
+
+Research ranking (by FR search volume + editorial gap; 189th research pass):
+1. `israel-honeymoon.md` — havas-voyages.fr targets "lune de miel Israël" (package tours €2,900+); zero FR editorial; high commercial intent
+2. `getyourguide-vs-viator-israel.md` — booking comparison, commercial intent; French travelers book via both platforms; zero FR editorial comparison
+3. `israel-hidden-gems.md` — French cultural travelers love "off-the-beaten-path" content; wewillnomad + Tripadvisor rank in English; zero FR editorial
+4. `israel-hebrew-phrases.md` — practical pre-trip guide; unique to our site; high pre-departure search intent from French tourists
+5. `hayarkon-park-tel-aviv.md` — Tel Aviv's main park; French city-break visitors need practical day-out guide; pairs /fr/1-day-tel-aviv-itinerary ✓
+
+Content notes per guide:
+- `israel-honeymoon.md`: FR "Voyage de Noces en Israël : Guide Complet pour les Couples (2026)" — Mer Morte flottaison (expérience unique pour couples; minéraux bienfaisants; appliquer crème solaire avant); Makhtesh Ramon (cratère "en forme de cœur" — note honnête: la forme dépend de la perspective aérienne; glamping Beresheet Hotel or Succah in the Desert ₪ ranges; ciel étoilé exceptionnel); Route du Vin Galilée (Golan Heights Winery + Pelter + Dalton; dégustation privée; paysages); Tel Aviv romantique (hôtel Norman rooftop; Jaffa port coucher de soleil; restaurant port Jaffa); Mer de Galilée (croisière coucher de soleil; Capharnaüm spirituel); pas de prix fabriqués; 3 CTAs Booking/GYG couples tours; cross-links /fr/dead-sea-guide ✓, /fr/galilee-wine-trail ✓, /fr/jaffa-travel-guide ✓
+- `getyourguide-vs-viator-israel.md`: FR "GetYourGuide vs Viator en Israël : Lequel Choisir (2026)" — tableau comparatif (interface, politiques d'annulation, prix, types de tours, service client); GYG: tours locaux + visites guidées certifiées; Viator: plus de tours combinés + transfers; pour activités spécifiques (Masada+Mer Morte, Galilée chrétienne, Jaffa food tour): recommandation par catégorie; note honnête: prix similaires sur les deux plateformes, comparer avant de réserver; politiques COVID + annulation flexibles; 3 CTAs GYG/Viator; cross-links /fr/israel-by-month ✓, /fr/best-time-to-visit-israel ✓
+- `israel-hidden-gems.md`: FR "Joyaux Cachés d'Israël : 10 Lieux Méconnus (2026)" — Ayalon Institute Rehovot (usine secrète de balles 1948; visite guidée obligatoire); Musée Ilana Goor Jaffa (maison d'artiste 18ème s. ottoman; vue port; collection sculpture unique); Musées Ralli Caesarée (musées privés dans parc archéologique; sculpture hispano-américaine inattendue); Synagogues cachées Vieille Ville (ruelles quartier arménien + quartier juif; shtiebels 17ème-18ème s.); Grottes de Beit Guvrin à l'aube (lumière dans les cloches de craie); Jardins Bahá'ís vue nocturne (Haïfa; jardins illuminés le soir); Yam Kinneret côte est (plages sauvages kibbutz vs côte ouest touristique); 3 CTAs GYG tours culturels; cross-links /fr/israel-by-month ✓, /fr/1-day-tel-aviv-itinerary ✓
+- `israel-hebrew-phrases.md`: FR "Hébreu pour Voyageurs : Expressions Essentielles en Israël (2026)" — Phonétique approximative pour francophones; catégories: salutations (Shalom ✓; Boker Tov ✓; Ma Nishma?); restaurants + kashrut (Kosher = כָּשֵׁר; Chalav Yisrael; Glatt; comment demander menu anglais); transports (Eifo ha-takhanah? = Où est la gare?; Eize autos nosaat le...?); urgences (Hatzalah = ambulance; Mishmar = police); chiffres hébreu + alphabet phonétique; note culturelle: anglais très répandu; hébreu quelques mots = geste de respect apprécié; no fabricated phonetic errors; 2 CTAs GYG tour linguistique/Booking Israel hotels
+- `hayarkon-park-tel-aviv.md`: FR "Parc Hayarkon Tel Aviv : Guide Pratique (2026)" — plus grand parc urbain de Tel Aviv (3,5 km²); activités: location kayak + pédalos sur la rivière Yarkon (₪ ranges); amphithéâtre Yarkon (concerts estivaux; Jay-Z, Radiohead y ont joué; capacité 50 000); Jardins Tropicaux (serres gratuites; cactarium + jardin japonais); piste cyclable 7km (location vélo à l'entrée); Ganei Yehoshua (mini-zoo gratuit côté nord); conseils: matin tôt pour parkings; vendredi = foules familles israéliennes; Shabbat = parc ouvert; pique-nique autorisé; 3 CTAs GYG Tel Aviv tours/Booking TLV hotels; cross-links /fr/1-day-tel-aviv-itinerary ✓, /fr/jaffa-travel-guide ✓
+
+Cross-links to verify before BUILD:
+- /fr/dead-sea-guide ✓, /fr/galilee-wine-trail ✓, /fr/jaffa-travel-guide ✓: confirmed SHIPPED
+- /fr/israel-by-month ✓, /fr/best-time-to-visit-israel ✓, /fr/1-day-tel-aviv-itinerary ✓: confirmed SHIPPED
+- /fr/negev-desert-guide: MISSING → use EN fallback /negev-desert-guide
+- /fr/tel-aviv-beach-guide: MISSING → use EN fallback /tel-aviv-beach-guide
+- /fr/getyourguide-vs-viator-israel: building in same batch (intra-batch cross-link — ok)
+- /fr/hayarkon-park-tel-aviv: building in same batch (intra-batch cross-link — ok)
+
+Quality: metropolitan French; YAML double-quotes; /fr/* prefix only for confirmed-existing FR pages (EN fallbacks where FR missing); no fabricated prices (₪ ranges only); honeymoon — no fabricated ratings; Makhtesh Ramon "heart shape" honesty note (perspective-dependent); Ilana Goor Museum confirm opening days before shipping; Hayarkon concert capacities approximate.
+
+### Phase ES-33 (165 → 170/398) — DEFINED iter945 RESEARCH 2026-08-02
+
+Guides: `israel-honeymoon.md`, `israel-hidden-gems.md`, `israel-hebrew-phrases.md`, `israel-in-autumn.md`, `israel-in-winter.md`
+All 5 confirmed MISSING from `src/content/guides/es/` via `comm -23` (2026-08-02 iter945).
+
+Research ranking (by ES search volume + affiliate value + editorial gap):
+1. `israel-honeymoon.md` — "luna de miel en Israel" / "viaje de novios Israel" = high LATAM commercial intent; no ES editorial competitor found; LATAM couples market strong
+2. `israel-in-winter.md` — "Israel en invierno" = Eilat winter sun peak season (LATAM seeking warmth Dec-Feb); Condor/TUI fly direct in winter
+3. `israel-in-autumn.md` — "Israel en otoño" = post-Sukkot calm period; Hula Valley cranes Oct-Jan; pairs /es/israel-in-summer (ES-32)
+4. `israel-hidden-gems.md` — "secretos de Israel" / "lugares poco conocidos Israel" = aspirational editorial; aggregation of existing content
+5. `israel-hebrew-phrases.md` — "frases básicas en hebreo" = pre-trip practical; unique to our editorial model; high engagement
+
+Content notes per guide:
+- `israel-honeymoon.md`: ES "Luna de Miel en Israel: Guía Completa para Parejas (2026)" — Mar Muerto flotación (experiencia única; minerales; aplicar bloqueador solar antes); Makhtesh Ramon (cráter "en forma de corazón" — nota honesta: forma visible desde perspectiva aérea; glamping Beresheet / Succah in the Desert ₪ rangos); Ruta del Vino Galilea (bodegas Golan + Galil Mountain; cata privada; paisajes); Tel Aviv romántico (Hotel Norman azotea; restaurantes puerto Jaffa puesta de sol); Mar de Galilea (crucero atardecer; espiritualidad cristiana); no precios fabricados; 3 CTAs Booking/GYG tours parejas; cross-links /es/dead-sea-guide ✓, /es/galilee-wine-trail ✓, /es/eilat-travel-guide ✓
+- `israel-in-winter.md`: ES "Israel en Invierno (Diciembre-Febrero): Lo que Necesitas Saber (2026)" — temporada baja en TLV + Jerusalén (→ mejores precios hoteles 30-40% menos); Eilat temporada ALTA (Condor + TUI invierno directo; temp. 21-25°C día); Jerusalem lluvia + nieve ocasional (ropa abrigada esencial; Cisjordania/Belén accessible en invierno = menos multitudes); Mar Muerto invierno = IDEAL (nada de calor extremo; flotación confortable; Ein Gedi senderismo agradable); fiestas invernales: Hanukkah + Navidad Nazaret + Belén (Checkpoint 300 más fluido diciembre); vuelos: tarifas más baratas enero-febrero (evitar Navidad y Año Nuevo); 3 CTAs Booking/Skyscanner/GYG winter tours; cross-links /es/eilat-travel-guide ✓, /es/dead-sea-guide ✓, /es/is-israel-safe ✓, /es/israel-cost-budget ✓, /es/israel-by-month ✓
+- `israel-in-autumn.md`: ES "Israel en Otoño (Octubre-Noviembre): Lo que Necesitas Saber (2026)" — Clima: 18-26°C costa; 15-24°C Jerusalén; ideal senderismo; octubre = mejor mes del año post-verano; Hula Valley: grullas (Agamon HaHula; hasta 500.000 grullas; oct-ene; visita en barco ₪ rango); Sukkot 2026: 26 sep-3 oct → hoteles llenos + ambiente festivo judío; Festival Tamar Mar Muerto (oct; conciertos clásicos + jazz a -430m); Galilea del Norte: bosques de pino otoñales; Mar Muerto post-Sukkot: semana más tranquila del año; reservas: octubre = mejor relación calidad-precio del año; cross-links /es/israel-in-summer ✓, /es/dead-sea-guide ✓, /es/best-time-to-visit-israel ✓, /es/israel-by-month ✓; CTAs Booking/GYG nature tours
+- `israel-hidden-gems.md`: ES "Los 10 Mejores Secretos de Israel: Lugares Poco Conocidos (2026)" — Instituto Ayalon Rehovot (fábrica secreta de balas 1948; visita guiada obligatoria); Museo Ilana Goor Jaffa (mansión otomana s. XVIII; colección escultura única; vistas al puerto); Museos Ralli Cesarea (museos privados de escultura hispanoamericana dentro del parque arqueológico — inesperado + gratuito); sinagogas escondidas Vieja Ciudad Jerusalén (callejuelas barrio armenio + judío; shtiebels s. XVII-XVIII); Grutas de Bet Guvrin al alba (luz matutina en las campanas de tiza; UNESCO); playas salvajes Kinneret costa este (frente a playa oeste turística); 3 CTAs GYG tours culturales; cross-links /es/israel-by-month ✓, /es/1-day-tel-aviv-itinerary (confirm exists before use; use EN fallback if not)
+- `israel-hebrew-phrases.md`: ES "Hebreo para Viajeros: Frases Esenciales en Israel (2026)" — Fonética aproximada para hispanohablantes; categorías: saludos (Shalom ✓; Boker Tov = buenos días; Ma Shlomcha/Shlomech = ¿cómo estás?); restaurantes (Kasher = kosher; ¿Yesh ta'arucha be-anglit? = ¿hay menú en inglés?); transporte (Eifoh ha-takhanah? = ¿dónde está la estación?); emergencias (Hatzalah = ambulancia; Mishmar = policía); números + alfabet fonético; nota cultural: inglés muy extendido; pocas palabras en hebreo = gesto de respeto apreciado; no errores fonéticos fabricados; 2 CTAs GYG/Booking Israel hotels; cross-links /es/first-time-in-israel ✓, /es/transportation ✓
+
+Cross-links to verify before BUILD:
+- /es/dead-sea-guide ✓, /es/galilee-wine-trail ✓, /es/eilat-travel-guide ✓: confirmed SHIPPED
+- /es/israel-in-summer ✓, /es/best-time-to-visit-israel ✓, /es/israel-by-month ✓: confirmed SHIPPED
+- /es/is-israel-safe ✓, /es/israel-cost-budget ✓, /es/first-time-in-israel ✓: confirmed SHIPPED
+- /es/1-day-tel-aviv-itinerary: verify before using /es/ prefix
+- /es/israel-in-spring: MISSING → use EN fallback /israel-in-spring
+- /es/transportation: verify; likely exists as it was one of the first ES guides
+
+Quality: neutral LATAM Spanish tuteo; YAML double-quotes; /es/* prefix only for confirmed-existing ES pages; no fabricated prices (rangos only); Makhtesh Ramon "heart shape" honesty note; Sukkot dates 2026 verified (26 sep-3 oct); crane count hedged ("hasta 500.000"); Dead Sea winter framing honest (not "ideal all day" — UV lower but still apply sunscreen); Checkpoint 300 + Bethlehem West Bank neutral framing.
