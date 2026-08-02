@@ -1,13 +1,15 @@
 # LOOP STATE
 
-- iteration: 937
+- iteration: 938
 - lastMode: BUILD
-- lastItem: fr-phase-18
-- lastResult: BUILD iter937 — FR-18 SHIPPED fa22c327. 5 metropolitan French guides: solo-travel-israel, western-wall-tunnels-guide, via-dolorosa-guide, mahane-yehuda-market-guide, shopping-in-israel. FR guides: 172→177/398. Build: 1273→1278 pages (+5). 10 new e2e tests (5 smoke + 5 a11y). 1839/1839 e2e pass. CI in_progress at push time.
-- nextRotationCategory: BUILD (iter938; 938%5=3 → BUILD; DE-17 by rotation)
+- lastItem: de-phase-17
+- lastResult: BUILD iter938 — DE-17 SHIPPED 86c7fbed. 5 Standard Hochdeutsch guides: herzliya-guide, israel-eta-guide, mount-of-olives-guide, israel-egypt-guide, israel-by-month. DE guides: 167→172/398. Build: 1278→1283 pages (+5). 10 new e2e tests (5 smoke + 5 a11y). 1849/1849 e2e pass (14.7m). Broken-link fix: /de/netanya-guide removed from herzliya-guide prose.
+- nextRotationCategory: REVIEW (iter939; 939%5=4 → REVIEW)
 - higgsfieldSpent: 0
-- updatedAt: 2026-08-02T06:15Z
+- updatedAt: 2026-08-02T07:25Z
 - branch context: work on master; feature work on auto/<slug>
+
+Notes: iter938 BUILD — de-phase-17 SHIPPED 86c7fbed. 5 Standard Hochdeutsch guides: herzliya-guide (Apollonia-NP Kreuzfahrerburg ₪35–45, Marina The Yacht by Fattal Jun 2026 325 Zimmer 50-m-Pool, Acadia Beach Blau-Flagge, Tagesausflug Green-Line-Stadtbahn 20 min), israel-eta-guide (ETA-IL seit Jan 2025 Pflicht; offizielles Portal israel-entry.piba.gov.il ₪25; Scam-Warnung 30–80€ Drittanbieter; 7-Schritt-Guide; 7 FAQs), mount-of-olives-guide (Ölberg dreifache Benennung Har HaZeitim/הַר הַזֵּיתִים/Jabal az-Zaytun; Getsemani Olivenbäume 900+ Jahre; Dominus Flevit Tränenkirchlein; Sieben-Bögen-Panorama; Palm Sunday route; Verkehrshinweis Erew Pessach/Sukkot; 7 FAQs), israel-egypt-guide (Taba 24/7 ₪101 Ausreisesteuer; Sinai-only 14-Tage-Permit vs. ägyptisches Visum $25–35; South-Sinai-Basen Taba/Nuweiba/Dahab/Sharm; Cairo GEM + Pyramiden; 10- + 14-Tages-Reiserouten; Sicherheit nur per Auswärtiges Amt/BMAA/EDA; Nuweiba-Aqaba-Fähre; 7 FAQs), israel-by-month (12-Monate-Narrative: Hula-Valley-Kraniche Jan, Negev-Wildblumen Feb, Galil März, Pessach+Ostern Apr, Sweet-Spot Mai, Festival of Light Jun, Extremhitze+Massen Jul, Strände Aug, Hohe Feiertage+Yom-Kippur-25h-Transport-Stop Sep, post-Sukkot-Lull Okt, stille Küste+Kraniche Nov, Chanukka+Weihnachten Dez; Buchungs-Cheat-Sheet-Tabelle; 7 FAQs). Broken-link fix: /de/netanya-guide entfernt aus herzliya-guide Prosa. 10 neue e2e-Tests (5 smoke + 5 a11y). Links-Test initial FAIL (netanya-guide 404) → fix → rebuild → Links-Test PASS → volles e2e 1849/1849 PASS (14.7m). Gate: pnpm check 0 errors; build 1283 pages; 1849/1849 e2e pass. PR #38 auto/de-phase-17 erstellt + squash direkt auf master 86c7fbed.
 
 Notes: iter937 BUILD — fr-phase-18 SHIPPED fa22c327. 5 metropolitan French guides: solo-travel-israel (MEAE safety, Abraham Hostels, Shabbat solo, 10-day itinerary), western-wall-tunnels-guide (booking workflow israel-kotel.org.il, Warren Megalith, accessibility, photo ban), via-dolorosa-guide (14 stations, Franciscan Friday 15h procession, secular+pilgrim framing, historical debate acknowledged), mahane-yehuda-market-guide (Marzipan rugelach, Shabbat siren ritual, Machneyuda/Yudale bar transformation), shopping-in-israel (VAT refund ₪400/T3, Carmel/Jaffa flea/Arab Quarter, AHAVA/SEACRET, Mea Shearim Judaica; negotiation honest caveat). FR guides: 172→177/398. Build: 1273→1278 pages (+5). 1839/1839 e2e pass. CI in_progress.
 
