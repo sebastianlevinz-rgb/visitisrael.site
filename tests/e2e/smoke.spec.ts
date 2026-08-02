@@ -1008,6 +1008,11 @@ const ROUTES = [
   '/es/via-dolorosa-guide',
   '/es/tower-of-david-guide',
   '/es/solo-travel-israel',
+  '/es/western-wall-tunnels-guide',
+  '/es/jaffa-food-guide',
+  '/es/tel-aviv-museums',
+  '/es/israel-best-scenic-drives',
+  '/es/israel-in-summer',
 ];
 
 for (const route of ROUTES) {
