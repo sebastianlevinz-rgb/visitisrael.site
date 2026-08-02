@@ -1240,10 +1240,10 @@ Cross-links to verify before BUILD:
 
 Quality: neutral LATAM Spanish tuteo; YAML double-quotes; /es/* prefix only for confirmed-existing ES pages; no fabricated prices (rangos only); Makhtesh Ramon "heart shape" honesty note; Sukkot dates 2026 verified (26 sep-3 oct); crane count hedged ("hasta 500.000"); Dead Sea winter framing honest (not "ideal all day" — UV lower but still apply sunscreen); Checkpoint 300 + Bethlehem West Bank neutral framing.
 
-### Phase FR-21 (187 → 192/398) — DEFINED iter950 RESEARCH 2026-08-02
+### Phase FR-21 (187 → 192/398) — SHIPPED iter952 BUILD b5dfc0be 2026-08-02
 
 Guides: `yad-vashem-visitor-guide.md`, `western-wall-guide.md`, `israel-road-trip.md`, `mitzpe-ramon-guide.md`, `israel-travel-tips.md`
-All 5 confirmed MISSING from `src/content/guides/fr/` via `comm -23` (2026-08-02 iter950).
+All 5 confirmed MISSING from `src/content/guides/fr/` via `comm -23` (2026-08-02 iter950). SHIPPED 2026-08-02T21:00Z commit b5dfc0be. 1909/1909 e2e pass. Build 1313 pages. Note: western-wall-guide desc=162 chars (2 over 160) → flag iter953 REVIEW.
 
 Research ranking (by FR search volume + affiliate value + editorial gap):
 1. `yad-vashem-visitor-guide.md` — France has Europe's largest Jewish diaspora (~500–600K); "Yad Vashem visite" is a substantial FR search; critical France–Israel cultural connection; no FR editorial competitor found; pre-registration caveat essential

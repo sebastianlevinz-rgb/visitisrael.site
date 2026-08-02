@@ -1735,3 +1735,9 @@ FR guides: 182→187/398. Build: 1298→1303 pages (+5). 1889/1889 e2e pass (15.
 5 Spanish guides shipped: israel-honeymoon, israel-hidden-gems, israel-hebrew-phrases, israel-in-autumn, israel-in-winter.
 LATAM Spanish register; heroImage verified existing; all /es/* cross-links confirmed; Sucot 2026 dates verified (26 sep–3 oct); crane count hedged ("hasta 500.000"); Makhtesh Ramon "heart shape" honesty note (perspectiva aérea); safari price range ₪45–60 (verify hula.org.il); no fabricated ratings/reviews.
 ES guides: 165→170/398. Build: 1303→1308 pages (+5). 1899/1899 e2e pass (14.3m; exit code 0).
+
+## iter 952 · fr-phase-21 · b5dfc0be · 2026-08-02
+5 French guides shipped: yad-vashem-visitor-guide, western-wall-guide, israel-road-trip, mitzpe-ramon-guide, israel-travel-tips.
+Metropolitan French; YAML double-quotes; /fr/* prefix only for confirmed-existing FR pages (EN fallbacks for galilee-travel-guide); Yad Vashem pre-registration mandatory caveat; Mur des Lamentations (Kotel / הַכּוֹתֶל הַמַּעֲרָבִי) paired-naming; Makhtesh Ramon correctly cratère d'érosion (NOT météoritique/volcanique); Golan Heights political context note in road trip; car rental ₪ ranges only (no specific daily rates); 10 new e2e tests (5 smoke + 5 a11y).
+FR guides: 187→192/398. Build: 1308→1313 pages (+5). 1909/1909 e2e pass (16.8m; exit code 0).
+Note: western-wall-guide desc=162 chars (2 over 160 guideline) — flag for iter953 REVIEW.

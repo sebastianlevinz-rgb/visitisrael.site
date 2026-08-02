@@ -1,12 +1,12 @@
 # LOOP STATE
 
-- iteration: 951
+- iteration: 952
 - lastMode: BUILD
-- lastItem: es-phase-33
-- lastResult: ES-33 SHIPPED f1ca6e70. 5 Spanish guides: israel-honeymoon, israel-hidden-gems, israel-hebrew-phrases, israel-in-autumn, israel-in-winter. ES 165→170/398. Build 1303→1308 pages. 1899/1899 e2e pass (14.3m).
-- nextRotationCategory: BUILD (iter952; 952%5=2 → BUILD; priority = FR-21: yad-vashem-visitor-guide, western-wall-guide, israel-road-trip, mitzpe-ramon-guide, israel-travel-tips)
+- lastItem: fr-phase-21
+- lastResult: FR-21 SHIPPED b5dfc0be. 5 French guides: yad-vashem-visitor-guide, western-wall-guide, israel-road-trip, mitzpe-ramon-guide, israel-travel-tips. FR guides: 187→192/398. Build: 1308→1313 pages. 10 new e2e tests (5 smoke + 5 a11y). 1909/1909 e2e pass (16.8m).
+- nextRotationCategory: REVIEW (iter953; 953%5=3 → REVIEW; audit FR-21 batch: meta lengths ≤65/≤160, /fr/* links resolve, honesty framing, paired-naming Western Wall)
 - higgsfieldSpent: 0
-- updatedAt: 2026-08-02T20:20Z
+- updatedAt: 2026-08-02T21:15Z
 - branch context: work on master; feature work on auto/<slug>
 
 Notes: iter950 RESEARCH — 190th research pass. FR-21 defined (yad-vashem, western-wall-guide, israel-road-trip, mitzpe-ramon-guide, israel-travel-tips); DE-19 defined (israel-honeymoon, israel-hidden-gems, israel-hebrew-phrases, hayarkon-park-tel-aviv, getyourguide-vs-viator-israel). Zero DACH editorial competitors for honeymoon or GYG vs Viator; FR road trip saturated but Route 90 north-south spine angle differentiates; DE hidden-gems gains Golan/Northern-Israel specifics (Meshushim hexagonal pools, Hula Valley cranes, Ein Keshatot synagogue). Key honesty notes: car rental NIS ranges only (rates risen post-conflict rebound); GYG vs Viator commission rates do NOT fabricate — describe features/platform differences only. nextRotationCategory → BUILD (iter951 = ES-33).

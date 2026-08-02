@@ -14420,3 +14420,50 @@ Also added 5 routes to smoke.spec.ts and a11y.spec.ts (10 new test assertions).
 **Build pages:** 1303→1308
 
 **Next:** iter952 → BUILD (952%5=2 → BUILD; priority = FR-21: yad-vashem-visitor-guide, western-wall-guide, israel-road-trip, mitzpe-ramon-guide, israel-travel-tips)
+
+## 2026-08-02T21:15Z · iter 952 · BUILD (i18n-FR) · FR Phase FR-21
+
+**Mode:** BUILD (iter952; 952%5=2 → BUILD). FR-21 was the designated priority per STATE.md nextRotationCategory.
+
+**Startup:** Session continued from context-compressed prior run. master at commit f1ca6e70 (iter951 ES-33). Sync confirmed via git status.
+
+**Item:** FR Phase FR-21 — 5 metropolitan French guides, all confirmed MISSING via `comm -23` (iter950 RESEARCH).
+
+**What shipped (commit b5dfc0be):**
+
+1. `yad-vashem-visitor-guide.md` — "Guide de visite de Yad Vashem (2026)". Musée d'Histoire Safdie 2005 (9 galeries chronologiques); Mémorial des Enfants (5 bougies × miroirs = 1,5M étoiles); Avenue des Justes des Nations (27 000+ noms); Hall des Noms; Jardin du Mémorial; hébergement à Jérusalem via Booking. Pré-inscription obligatoire (yadvashem.org) — caveat explicite. 3 CTAs: getyourguide, booking, abraham. 7 FAQs. Cross-links: /fr/first-time-in-israel, /fr/best-tours-in-israel, /fr/western-wall-guide (building in batch), /fr/jerusalem-neighborhoods-guide, /fr/best-time-to-visit-israel.
+
+2. `western-wall-guide.md` — "Mur des Lamentations (Kotel) : Guide Complet (2026)". Paired-naming: Mur des Lamentations / ha-Kotel ha-Ma'arawi / הַכּוֹתֶל הַמַּעֲרָבִי (essential per honesty rules). 57m visibles du mur hérodien complet; 3 sections (hommes/femmes/Robinson egalitaire); tradition des billets (ramassage 2×/an, enterrement Mont des Oliviers); Kabalat Chabbat. 2 CTAs: getyourguide, viator. 7 FAQs. Cross-links: /fr/western-wall-tunnels-guide ✓. Meta desc = 162 chars (2 over 160 guideline — passed pnpm check, flag for iter953 REVIEW).
+
+3. `israel-road-trip.md` — "Road Trip en Israël : Itinéraire 7 Jours en Voiture (2026)". Itinéraire 7 jours sens horaire : Césarée → Haïfa → Akko → Galilée (mer de Galilée, Safed, Nazareth) → Golan (mont Bental, Banias) → Vallée du Jourdain → Mer Morte (Massada, Qoumrân) → Néguev (Mitzpe Ramon) → Eilat. Note politique Golan factuelle/neutre. Location voiture ₪ gammes uniquement (NE PAS citer de tarifs journaliers précis — taux augmentés post-conflit). /fr/galilee-travel-guide MISSING → EN fallback /sea-of-galilee-guide utilisé. 3 CTAs: discovercars, getyourguide, booking. 6 FAQs.
+
+4. `mitzpe-ramon-guide.md` — "Mitzpe Ramon et Makhtesh Ramon : Guide de Visite Complet". Géologie honnête : érosion (NOT météoritique/volcanique) — 5 makhteshim en Israël/Sinaï seulement. 40km × 2–10km × 500m profondeur. Circuits jeep, randonnées (sentier belvédère + descente + Ein Avdat). Ciel étoilé IDA Parc international de ciel sombre. Hébergement: Beresheet (5★), Selina Ramon, zimmer, auberge HI. 4 CTAs: getyourguide, viator, booking, discovercars. 6 FAQs. Cross-links: /fr/3-days-in-negev ✓, /fr/car-rental-israel ✓, /fr/driving-in-israel ✓.
+
+5. `israel-travel-tips.md` — "20 Conseils Pratiques pour Visiter Israël (2026)". 20 conseils: ETA-IL (depuis jan 2025; ₪25 iaa.gov.il; caveat honnête), Chabbat logistique, code vestimentaire lieux saints, cartes SIM/eSIM (Cellcom/Partner; achat aéroport TLV), pourboires (restaurants 10-12%, taxis arrondir, hôtels facultatif), eau robinet potable partout sauf désert, shekels NIS, interrogatoire sécurité Ben Gourion (normal; répondre calmement). 2 CTAs: getyourguide, booking. 5 FAQs. Cross-links: /fr/visa-information ✓, /fr/shabbat-guide ✓, /fr/is-israel-safe ✓.
+
+**10 new e2e tests** added to smoke.spec.ts + a11y.spec.ts (5 routes × 2 specs).
+
+**Startup issues resolved:**
+- `pnpm exec playwright install --with-deps chromium` failed (no internet for browser download in cloud env). Fix: pre-installed Chromium found at `/opt/pw-browsers/`; ran `PLAYWRIGHT_BROWSERS_PATH=/opt/pw-browsers pnpm test:e2e`.
+- `git pull --ff-only` failed (local master 50 commits behind origin). Fix: `git reset --hard origin/master`.
+- Squash merge showed nothing to squash (new files were untracked on master after branch switch). Fix: manual `git add` + direct commit on master.
+
+**Gate:**
+- `pnpm check` → 0 errors ✓
+- `pnpm build` → 1313 pages (+5 from 1308) ✓
+- `pnpm test:e2e` → 1909/1909 pass (16.8m) ✓
+
+**Ship:** commit b5dfc0bea3763f16e804a1da30160fbad58bf291 pushed to master. CI run #30766827345 in_progress at time of push.
+
+**FR guides:** 187→192/398. **Build pages:** 1308→1313.
+
+**Quality notes:**
+- Metropolitan French throughout; YAML double-quotes on all apostrophe fields.
+- Yad Vashem: pre-registration mandatory caveat explicit + yadvashem.org link.
+- Western Wall: paired-naming הַכּוֹתֶל הַמַּעֲרָבִי in title and opening paragraph.
+- Makhtesh Ramon: correctly described as "cratère d'érosion" (geomorphological unique formation; NOT météoritique NOT volcanique).
+- Golan Heights: political context note factual/neutral in road trip guide.
+- No fabricated prices; ₪ ranges only; no fabricated tour ratings/review counts.
+- /fr/* prefix only for confirmed-existing FR pages (EN fallback for /sea-of-galilee-guide).
+
+**Next:** iter953 → REVIEW (953%5=3 → REVIEW). Audit FR-21 batch: meta lengths (western-wall-guide desc 162 → trim to ≤160), /fr/* internal links, honesty, paired-naming.
