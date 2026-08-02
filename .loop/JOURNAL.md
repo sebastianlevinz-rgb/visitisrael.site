@@ -14153,3 +14153,15 @@ e2e tests extended: 5 new routes added to smoke.spec.ts + a11y.spec.ts (10 tests
 Gate: pnpm check 0 errors; pnpm build 1273 pages (+5 from 1268); targeted 10 new route tests 10/10 pass. GREEN.
 Ship: squash-merged to master 9d39b903, pushed. CI pending at journal-write time.
 Next: iter937 → BUILD (937%5=2 → BUILD; FR-18 by rotation).
+
+## 2026-08-02T06:15Z · iter 937 · BUILD · fr-phase-18
+What: 5 metropolitan French guides added to src/content/guides/fr/. All 5 confirmed MISSING via comm -23 before BUILD.
+- solo-travel-israel.md: MEAE vigilance renforcée safety context; Abraham Hostels Jérusalem/TLV/Haïfa/Eilat network; Shabbat solo logistics (Haïfa exception); neighbourhood safety guide (Neve Tzedek, Florentin, Colonie Allemande); 10-day itinerary table; 6 FAQs. CTAs Hostelworld/GYG/Booking.
+- western-wall-tunnels-guide.md: Booking workflow israel-kotel.org.il (1–4 weeks HS, 2–3 days off-season); Warren Megalith 570 tonnes; Herodian wall en élévation complète; photography ban inside; PMR Zone 1 only; circuit exits Via Dolorosa quartier musulman; kippa obligatoire on-site. CTAs GYG/Viator.
+- via-dolorosa-guide.md: All 14 stations with practical notes; Franciscan Friday 15h procession since 1217/1342; secular + pilgrim dual framing; historical debate on route (Prétoire likely Herod's Palace) acknowledged neutrally; no position taken. CTAs GYG/Viator.
+- mahane-yehuda-market-guide.md: Marzipan rugelach timing; Ottoman spices + halva à la découpe; burekas; café torréfié; Shabbat siren ritual (sirène 15–20 min avant coucher soleil vendredi); Machneyuda restaurant reservation + Yudale jazz bar; bars Rav Kook; timing table by profile. CTAs GYG/Viator.
+- shopping-in-israel.md: VAT refund workflow (₪400 min, formulaire vert, Terminal 3 Ben Gourion); 4 markets (Mahane Yehuda, Carmel, Jaffa flea, Arab Quarter); AHAVA + SEACRET Dead Sea cosmetics; Stern Diamond Factory framing (educational, not guaranteed bargain); Mea Shearim Judaica; negotiation honest caveat (bazars arabes uniquement). Cross-links /fr/mahane-yehuda-market-guide + /fr/jaffa-travel-guide + /fr/dead-sea-guide all confirmed-existing FR. /fr/western-wall-guide confirmed NOT existing in FR → used /western-wall-guide (EN fallback) in western-wall-tunnels-guide.md.
+Gate: pnpm check 0 errors; pnpm build 1278 pages (+5 from 1273); pnpm test:e2e 1839/1839 pass (19.4m). GREEN.
+Ship: staged and committed directly to master (squash not needed — files were untracked). Commit fa22c327. Pushed origin/master.
+CI: in_progress at push time (run ID 30735547651 CI + 30735547654 Lighthouse).
+Next: iter938 → BUILD (938%5=3 → BUILD; DE-17 by rotation: herzliya-guide, israel-by-month, israel-egypt-guide, mount-of-olives-guide, israel-eta-guide).

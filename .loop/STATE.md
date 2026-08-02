@@ -1,13 +1,15 @@
 # LOOP STATE
 
-- iteration: 936
+- iteration: 937
 - lastMode: BUILD
-- lastItem: es-phase-31
-- lastResult: BUILD iter936 — ES-31 SHIPPED 9d39b903. 5 LATAM Spanish guides: mahane-yehuda-market-guide, shopping-in-israel, via-dolorosa-guide, tower-of-david-guide, solo-travel-israel. ES guides: 155→160/398. Build: 1268→1273 pages (+5). 10 new e2e tests (5 smoke + 5 a11y) added; targeted 10-route pass confirmed. CI pending at push time.
-- nextRotationCategory: BUILD (iter937; 937%5=2 → BUILD; FR-18 by rotation)
+- lastItem: fr-phase-18
+- lastResult: BUILD iter937 — FR-18 SHIPPED fa22c327. 5 metropolitan French guides: solo-travel-israel, western-wall-tunnels-guide, via-dolorosa-guide, mahane-yehuda-market-guide, shopping-in-israel. FR guides: 172→177/398. Build: 1273→1278 pages (+5). 10 new e2e tests (5 smoke + 5 a11y). 1839/1839 e2e pass. CI in_progress at push time.
+- nextRotationCategory: BUILD (iter938; 938%5=3 → BUILD; DE-17 by rotation)
 - higgsfieldSpent: 0
-- updatedAt: 2026-08-02T05:00Z
+- updatedAt: 2026-08-02T06:15Z
 - branch context: work on master; feature work on auto/<slug>
+
+Notes: iter937 BUILD — fr-phase-18 SHIPPED fa22c327. 5 metropolitan French guides: solo-travel-israel (MEAE safety, Abraham Hostels, Shabbat solo, 10-day itinerary), western-wall-tunnels-guide (booking workflow israel-kotel.org.il, Warren Megalith, accessibility, photo ban), via-dolorosa-guide (14 stations, Franciscan Friday 15h procession, secular+pilgrim framing, historical debate acknowledged), mahane-yehuda-market-guide (Marzipan rugelach, Shabbat siren ritual, Machneyuda/Yudale bar transformation), shopping-in-israel (VAT refund ₪400/T3, Carmel/Jaffa flea/Arab Quarter, AHAVA/SEACRET, Mea Shearim Judaica; negotiation honest caveat). FR guides: 172→177/398. Build: 1273→1278 pages (+5). 1839/1839 e2e pass. CI in_progress.
 
 Notes: iter936 BUILD — es-phase-31 SHIPPED 9d39b903. 5 LATAM Spanish guides: mahane-yehuda-market-guide, shopping-in-israel, via-dolorosa-guide, tower-of-david-guide, solo-travel-israel. ES guides: 155→160/398. Build: 1268→1273 pages (+5). 10 new e2e tests (5 smoke + 5 a11y). CI pending at push time.
 

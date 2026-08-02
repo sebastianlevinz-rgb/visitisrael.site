@@ -6,18 +6,18 @@
 >
 > One bounded slice per loop iteration. NEVER bulk-translate in one shot.
 
-## Current status snapshot (2026-08-02 iter935 RESEARCH — ES-31/FR-18/DE-17 defined)
+## Current status snapshot (2026-08-02 iter937 BUILD — FR-18 SHIPPED fa22c327; ES-31 SHIPPED iter936 9d39b903)
 
 | Locale | Guides | Attractions | Regions | Itineraries |
 |--------|--------|-------------|---------|-------------|
 | en     | 398    | 65          | 11      | 6           |
-| fr     | 172    | 61          | 11      | 6           |
+| fr     | 177    | 61          | 11      | 6           |
 | de     | 167    | 61          | 11      | 6           |
-| es     | 155    | 61          | 11      | 6           |
+| es     | 160    | 61          | 11      | 6           |
 
 **Gaps to close:**
-- es guides: **243 missing** (155/398 done — Phase ES-30 SHIPPED iter931 e3f0ecf4; **Phase ES-31 defined iter935 — next ES BUILD**)
-- fr guides: **226 missing** (172/398 done — Phase FR-17 SHIPPED iter932 89b5dbb6; **Phase FR-18 defined iter935 — next FR BUILD**)
+- es guides: **238 missing** (160/398 done — Phase ES-31 SHIPPED iter936 9d39b903; **Phase ES-32 TBD — next ES BUILD**)
+- fr guides: **221 missing** (177/398 done — Phase FR-18 SHIPPED iter937 fa22c327; **Phase FR-19 TBD — next FR BUILD**)
 - de guides: **231 missing** (167/398 done — Phase DE-16 SHIPPED iter933 97be29ff; **Phase DE-17 defined iter935 — next DE BUILD**)
 - fr/de/es attractions: **4 missing each** (the 4 EN attractions added after Phase 4)
 
@@ -1024,7 +1024,7 @@ Cross-links to verify before BUILD:
 
 Quality: neutral LATAM Spanish tuteo; YAML double-quotes; /es/* cross-links only confirmed-existing; no fabricated prices; Via Dolorosa secular framing with optional religious context; Tower of David Night Spectacular advance booking honest caveat; shopping VAT refund instructions factual not guaranteed; solo travel safety framing honest (not alarmist, not dismissive).
 
-### Phase FR-18 (172 → 177/398) — DEFINED iter935 RESEARCH 2026-08-02
+### Phase FR-18 (172 → 177/398) — SHIPPED iter937 fa22c327 2026-08-02
 
 Guides: `mahane-yehuda-market-guide.md`, `via-dolorosa-guide.md`, `western-wall-tunnels-guide.md`, `solo-travel-israel.md`, `shopping-in-israel.md`
 All 5 confirmed MISSING from `src/content/guides/fr/` via `comm -23` (2026-08-02).
