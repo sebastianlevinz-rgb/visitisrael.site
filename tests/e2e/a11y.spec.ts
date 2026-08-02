@@ -708,6 +708,11 @@ const ROUTES = [
   '/fr/druze-villages-carmel',
   '/fr/rosh-hanikra-guide',
   '/fr/mount-of-olives-guide',
+  '/fr/haifa-tours-compared',
+  '/fr/galilee-culinary-institute-gonen',
+  '/fr/herzliya-guide',
+  '/fr/israel-by-month',
+  '/fr/israel-egypt-guide',
 ];
 
 for (const route of ROUTES) {
