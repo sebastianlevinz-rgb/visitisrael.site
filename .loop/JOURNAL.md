@@ -14747,3 +14747,16 @@ What: 5 LATAM Spanish travel guides for Spanish-speaking market (ES-36 batch).
 Gate: pnpm check 0 errors; build 1353→1358 pages (+5); 1999/1999 e2e pass (16.6m; exit code 0); 0 broken links (links.spec.ts clean after craft-beer fix).
 Ship: committed directly to master b187c024 (squash found no commits on feature branch; staged directly — consistent with iter961/963/967 pattern); branch auto/es-phase-36 deleted; pushed origin/master.
 Next: iter969 = REVIEW (969%5==4 → REVIEW). Top priority: audit ES-36 batch (titles/descs/links/images/honesty). nextRotationCategory = REVIEW.
+
+## 2026-08-03T14:00Z · iter 969 · REVIEW · review-969-es36-meta-trim
+What: Audit of ES-36 batch (5 guides shipped iter968). Checks: (1) title ≤65 chars; (2) desc ≤160 chars; (3) all internal /es/* links resolve to existing files; (4) no H1 in body; (5) hero images exist; (6) affiliate partners valid; (7) no fabricated ratings/prices in rendered output.
+Findings:
+- israel-business-travel-guide.md: CLEAN (49t/144d) — no fix needed
+- israel-campervan.md: desc 165 chars → OVER by 5; fix: remove trailing 'imprescindibles' → 149 chars
+- israel-craft-beer.md: title 66 chars → OVER by 1 (remove 'en '); desc 167 chars → OVER by 7 (remove 'Schnitt Brewery, ') → 63t/150d
+- israel-fine-dining.md: title 78 chars → OVER by 13 (shorten to 'Alta cocina en Israel: Michelin, OCD y Machneyuda 2026'); desc 176 chars → OVER by 16 (remove LATAM qualifier) → 54t/145d
+- israel-affordable-luxury.md: title 75 chars → OVER by 10 (remove 'inteligentes'); desc 165 chars → OVER by 5 (remove trailing clause) → 62t/136d
+Internal links: all 18 /es/* links resolve. No H1 in body. Hero images all confirmed. Affiliate partners valid (booking/skyscanner/getyourguide/discovercars). Honesty: rating/reviews fields in frontmatter are NOT rendered by AffiliateCard (component defers to partner site) — no honesty issue.
+Gate: pnpm check 0 errors; build 1358 pages (unchanged); 1999/1999 e2e pass (15.2m).
+Ship: branch auto/review-969-es36-meta-trim; squash-merged to master 781fe01d; pushed origin/master. CI/Lighthouse in_progress at ship time.
+Next: iter970 = RESEARCH (970%5==0 → RESEARCH). nextRotationCategory = RESEARCH.
