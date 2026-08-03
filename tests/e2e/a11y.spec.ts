@@ -798,6 +798,11 @@ const ROUTES = [
   '/de/israel-in-winter',
   '/de/ammunition-hill-jerusalem',
   '/de/anu-museum-guide',
+  '/fr/israel-business-travel-guide',
+  '/fr/israel-campervan',
+  '/fr/israel-car-rental-comparison',
+  '/fr/israel-craft-beer',
+  '/fr/israel-fine-dining',
 ];
 
 for (const route of ROUTES) {
