@@ -1078,6 +1078,11 @@ const ROUTES = [
   '/fr/israel-car-rental-comparison',
   '/fr/israel-craft-beer',
   '/fr/israel-fine-dining',
+  '/es/israel-business-travel-guide',
+  '/es/israel-campervan',
+  '/es/israel-craft-beer',
+  '/es/israel-fine-dining',
+  '/es/israel-affordable-luxury',
 ];
 
 for (const route of ROUTES) {
