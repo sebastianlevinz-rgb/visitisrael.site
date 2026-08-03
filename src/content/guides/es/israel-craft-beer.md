@@ -1,6 +1,6 @@
 ---
-title: "Cerveza artesanal en Israel: bares y cervecerías en Tel Aviv 2026"
-description: "Descubre la revolución de la cerveza artesanal israelí — Beer Bazaar, Schnitt Brewery, Dancing Camel y los mejores bares de Tel Aviv, con una ruta de degustación."
+title: "Cerveza artesanal en Israel: bares y cervecerías Tel Aviv 2026"
+description: "Descubre la revolución de la cerveza artesanal israelí — Beer Bazaar, Dancing Camel y los mejores bares de Tel Aviv, con una ruta de degustación."
 heroImage: /images/regions/tel-aviv/carmel-market.jpg
 category: Gastronomía
 updatedAt: 2026-08-03

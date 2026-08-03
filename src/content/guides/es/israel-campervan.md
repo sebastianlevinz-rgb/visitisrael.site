@@ -1,6 +1,6 @@
 ---
 title: "Autocaravana en Israel: ruta vanlife e itinerarios 2026"
-description: "Alquila una autocaravana en Israel, los campings legales, el mejor itinerario vanlife de 7 días, la logística del Shabat y los consejos prácticos imprescindibles."
+description: "Alquila una autocaravana en Israel, los campings legales, el mejor itinerario vanlife de 7 días, la logística del Shabat y los consejos prácticos."
 heroImage: /images/regions/negev/desert.jpg
 category: Planificación
 updatedAt: 2026-08-03

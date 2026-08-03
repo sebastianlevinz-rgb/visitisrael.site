@@ -1,6 +1,6 @@
 ---
-title: "Alta cocina en Israel: restaurantes con estrella Michelin y grandes mesas 2026"
-description: "Guía de la alta gastronomía en Israel — Shmoné con estrella Michelin, OCD Tel Aviv, Machneyuda y las mejores mesas de Jerusalén y Tel Aviv para viajeros latinoamericanos."
+title: "Alta cocina en Israel: Michelin, OCD y Machneyuda 2026"
+description: "Guía de la alta gastronomía en Israel — Shmoné con estrella Michelin, OCD Tel Aviv, Machneyuda y las mejores mesas de Jerusalén y Tel Aviv."
 heroImage: /images/regions/tel-aviv/carmel-market.jpg
 category: Gastronomía
 updatedAt: 2026-08-03

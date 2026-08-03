@@ -1,6 +1,6 @@
 ---
-title: "Lujo asequible en Israel: hoteles boutique y experiencias inteligentes 2026"
-description: "Cómo vivir Israel con estilo sin pagar precios máximos: dónde invertir, dónde ahorrar y qué hoteles boutique superan a las cadenas en cada nivel de presupuesto."
+title: "Lujo asequible en Israel: hoteles boutique y experiencias 2026"
+description: "Cómo vivir Israel con estilo sin pagar precios máximos: dónde invertir, dónde ahorrar y qué hoteles boutique superan a las cadenas."
 heroImage: /images/regions/negev/hero.jpg
 category: Planificación
 updatedAt: 2026-08-03
