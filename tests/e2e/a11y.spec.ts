@@ -783,6 +783,11 @@ const ROUTES = [
   '/fr/design-museum-holon',
   '/fr/eilat-ramon-airport-guide',
   '/fr/israel-film-tv-tourism',
+  '/fr/anu-museum-guide',
+  '/fr/ammunition-hill-jerusalem',
+  '/fr/israel-in-spring',
+  '/fr/israel-in-summer',
+  '/fr/israel-in-winter',
 ];
 
 for (const route of ROUTES) {
