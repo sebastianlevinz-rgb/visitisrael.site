@@ -14554,3 +14554,29 @@ Next: iter955 → RESEARCH (191st research pass).
 **DE count:** 177→182/398.
 
 **Next:** iter957 → BUILD (957%5=2 → BUILD). Priority: ES-34 (gamla-nature-reserve-guide, herodion-guide, gan-hashlosha-guide, eilat-ramon-airport-guide, israel-car-rental-comparison in ES).
+
+## 2026-08-03 · iter 957 · BUILD (i18n-ES) · es-phase-34
+
+**What:** 5 Spanish-language guides (ES Phase ES-34). LATAM neutral tuteo; YAML double-quoted strings; /es/* cross-links only confirmed-existing ES pages; no fabricated prices/ratings.
+
+**Guides shipped:**
+- **gamla-nature-reserve-guide** — "Gamla: Ruinas, Buitres y Cascada en el Golán (2026)". 51-char title. Griffon vulture colony (200+ birds), 51m waterfall (highest permanent in Israel), First Jewish-Roman War ruins (siege ramp 67 CE). 5km circuit with steep descent. INPA national parks pass valid. CTAs: GYG/Viator/DiscoverCars. 7 FAQs.
+- **herodion-guide** — "Herodión: La Montaña-Tumba del Rey Herodes (2026)". 49-char title. Herod's palace-fortress artificial mountain; Ehud Netzer tomb discovery 2007; Lower City excavation site; Area C West Bank — tourists can visit without special permit from Israeli side; political status note preserved exactly from EN. CTAs: GYG/Viator/Booking. 7 FAQs.
+- **gan-hashlosha-guide** — "Gan HaShlosha (Sachne): Piscinas Termales de Israel (2026)". 58-char title. 28°C year-round spring pools; capacity-controlled on busy days (parks.org.il reservations); free entry with INPA annual pass. Beit Shean Valley cluster cross-links. CTAs: DiscoverCars/Booking/GYG. 7 FAQs.
+- **eilat-ramon-airport-guide** — "Aeropuerto Ramón Eilat (ETM): Transporte y Consejos (2026)". 58-char title. 18km north of Eilat; Bus 30/50 ~₪8; Gett taxi ₪70–90; Yitzhak Rabin Border Crossing 3km (Petra connection logistics). Wizz Air Israel ETM base (March 2026) + Air Haifa route mentioned. CTAs: DiscoverCars/Booking/GYG. 7 FAQs.
+- **israel-car-rental-comparison** — "Mejores Empresas de Alquiler de Coches en Israel 2026". 53-char title. Eldan/Hertz/Avis/Sixt/Budget/Europcar comparison; price RANGES only (no fabricated daily rates); West Bank Area A prohibition universal; no debit cards; Shabbat office closures; Waze recommendation; airport surcharge ~30–45 USD. CTAs: DiscoverCars/RentalCars. 6 FAQs.
+
+**Cross-link verification:** All /es/* internal links confirmed present in src/content/guides/es/ before writing. bethlehem-tours-compared exists in ES (BACKLOG note was stale) — used as cross-link in herodion-guide.
+
+**Gate:**
+- `pnpm check`: 0 errors
+- `pnpm build`: 1323 pages (+5 from 1318)
+- `pnpm test:e2e`: 1929/1929 passed (17.0m; exit code 0)
+
+**Ship:** squash-merged auto/es-phase-34 → master 5dd62546; pushed; CI in_progress at merge time.
+
+**ES count:** 165→170/398.
+
+**Net-new e2e routes:** 10 (5 smoke + 5 a11y): /es/gamla-nature-reserve-guide, /es/herodion-guide, /es/gan-hashlosha-guide, /es/eilat-ramon-airport-guide, /es/israel-car-rental-comparison.
+
+**Next:** iter958 → BUILD (958%5=3 → BUILD = FR-22: gamla-nature-reserve-guide, herodion-guide, design-museum-holon, eilat-ramon-airport-guide, israel-film-tv-tourism in FR).

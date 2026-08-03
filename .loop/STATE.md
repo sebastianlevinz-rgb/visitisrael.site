@@ -1,12 +1,12 @@
 # LOOP STATE
 
-- iteration: 956
+- iteration: 957
 - lastMode: BUILD
-- lastItem: de-phase-19
-- lastResult: DE-19 SHIPPED 93b5eeff. 5 Standard Hochdeutsch guides: israel-honeymoon, israel-hidden-gems, israel-hebrew-phrases, hayarkon-park-tel-aviv, getyourguide-vs-viator-israel. DE guides 177→182/398. Build 1318 pages (+5). 1919/1919 e2e pass (13.8m). YAML fix: israel-hebrew-phrases had unescaped ASCII double-quotes inside YAML double-quoted answer (German „x" closing quote was ASCII 0x22 not U+201C) — fixed to single-quote wrappers. 10 new e2e routes (5 smoke + 5 a11y).
-- nextRotationCategory: BUILD (iter957; 957%5=2 → BUILD = ES-34: gamla-nature-reserve-guide, herodion-guide, gan-hashlosha-guide, eilat-ramon-airport-guide, israel-car-rental-comparison)
+- lastItem: es-phase-34
+- lastResult: ES-34 SHIPPED 5dd62546. 5 ES guides: gamla-nature-reserve-guide, herodion-guide, gan-hashlosha-guide, eilat-ramon-airport-guide, israel-car-rental-comparison. ES guides 165→170/398. Build 1318→1323 pages (+5). 1929/1929 e2e pass (17.0m). 10 new e2e routes (5 smoke + 5 a11y). CI in_progress at merge time (leave for next iter to confirm).
+- nextRotationCategory: BUILD (iter958; 958%5=3 → BUILD = FR-22: gamla-nature-reserve-guide, herodion-guide, design-museum-holon, eilat-ramon-airport-guide, israel-film-tv-tourism)
 - higgsfieldSpent: 0
-- updatedAt: 2026-08-03T01:00Z
+- updatedAt: 2026-08-03T02:30Z
 - branch context: work on master; feature work on auto/<slug>
 
 Notes: iter955 RESEARCH — 191st research pass. Competitors scanned (SERP analysis): touristisrael.com, israel-in-photos.com, Lonely Planet, Frommers, Fodors, fr.wikipedia.org, Routard, fr.timesofisrael.com, wonderfulmuseums.com, travelinti.com, dienstreise.de, visumisrael.de, isra-tech.net, momondo, parks.org.il. FR-22 defined; ES-34 defined; DE-20 defined (all ready). skyfield-extreme-park-jaffa + jerusalem-first-station-guide both in EN, both missing from FR/DE/ES — queued P2 for future batches.
