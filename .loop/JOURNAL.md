@@ -14667,3 +14667,13 @@ Gate: pnpm check 0 errors; build 1338 pages (+5 vs 1333); 1959/1959 e2e pass (13
 Ship: committed directly to master 66c00dc5 (feature branch had no commits; staged directly on master). Pushed origin master.
 Guide counts: EN=398, FR=202, DE=182, ES=180.
 Next: iter963 = BUILD (963%5=3 → BUILD: next-priority = DE-20).
+
+## 2026-08-03 · iter 963 · BUILD (i18n-DE) · de-phase-20 · 206105ed
+
+What: DE Phase DE-20 — 5 Standard Hochdeutsch guides: gamla-nature-reserve-guide, herodion-guide, israel-film-tv-tourism, israel-business-travel-guide, israel-car-rental-comparison. Defined iter955 RESEARCH. All 5 confirmed MISSING via comm -23 (2026-08-03). Priority: DE-20 queued since iter955; iter963 is 963%5=3 → BUILD; STATE said next-priority = DE-20.
+Files: src/content/guides/de/gamla-nature-reserve-guide.md, herodion-guide.md, israel-film-tv-tourism.md, israel-business-travel-guide.md, israel-car-rental-comparison.md. Tests: tests/e2e/smoke.spec.ts + a11y.spec.ts (+5 routes each = 10 new tests).
+Honesty: (1) gamla — Gänsegeier ganzjährig present; waterfall saisonal (Dez–Apr at best), INPA-check recommended; (2) herodion — Gebiet C West Bank framing explicit; neutral language for occupation context; Netzer tomb discovery 2007 scholarly consensus; (3) film-tv — no fabricated filming locations; Mea Shearim dress code + Fotografierverbot stated plainly; no glorification of surveillance methods; (4) business — GKV gap → Reisekrankenversicherung explicitly stated (DACH specific); EC-Karte limit noted; restaurant kashrut certificate caveat; no fabricated conference seat counts; (5) car-rental — West Bank Zone A prohibition explicit ("kein israelisches Mietunternehmen versichert Fahrzeuge in Zone A" = universal, no workaround); no fabricated prices — ranges/ranges-only; Road 6 Maut administrative fee honest disclosure.
+Gate: pnpm check 0 errors; build 1343 pages (+5 vs 1338); 1969/1969 e2e pass (18.7m). CI in_progress at commit time.
+Ship: committed directly to master 206105ed (squash found no commits on feature branch; staged directly). Pushed origin master.
+Guide counts: EN=398, FR=202, DE=187, ES=180.
+Next: iter964 = REVIEW (964%5=4 → REVIEW: audit a recent batch of shipped guides for meta/links/honesty).
