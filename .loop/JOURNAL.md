@@ -14677,3 +14677,16 @@ Gate: pnpm check 0 errors; build 1343 pages (+5 vs 1338); 1969/1969 e2e pass (18
 Ship: committed directly to master 206105ed (squash found no commits on feature branch; staged directly). Pushed origin master.
 Guide counts: EN=398, FR=202, DE=187, ES=180.
 Next: iter964 = REVIEW (964%5=4 → REVIEW: audit a recent batch of shipped guides for meta/links/honesty).
+
+## 2026-08-03 · iter 964 · REVIEW · review-964-de20-link-fix · 2ff5de3e
+
+What: REVIEW pass — audit DE-20 batch (5 guides: gamla-nature-reserve-guide, herodion-guide, israel-film-tv-tourism, israel-business-travel-guide, israel-car-rental-comparison).
+Checks performed: (1) titles ≤65: all pass (32–60 chars); (2) descriptions ≤160: all pass (128–151 chars); (3) hero images exist: all 4 hero images confirmed (golan/hero, jerusalem/hero, tel-aviv/hero, negev/hero); (4) CTA images: all 5 CTA images exist (+ west-bank/bethlehem/hero, galilee/hero, mahane-yehuda, banias, mount-bental); (5) internal /de/* links: 24 links across 5 guides — all resolve to real content files; (6) affiliate partners: all 7 partners used are valid (getyourguide, viator, discovercars, booking, abraham, skyscanner, rentalcars); (7) H1 in body: NONE; (8) honesty: no fabricated ratings or exact prices (all stated as ₪/USD RANGES).
+Fix: israel-business-travel-guide had 4 missing internal links to substantive existing DE pages:
+  - /de/shabbat-guide (entire Schabbat section; now cross-linked at section end)
+  - /de/best-hotels-tel-aviv + /de/best-hotels-jerusalem (hotel section; added note with both links)
+  - /de/ben-gurion-airport-guide (Ben-Gurion security bullet in transport section)
+All 4 target pages verified to exist before adding links. No other files changed.
+Gate: pnpm check 0 errors; build 1343 pages (unchanged); 1969/1969 e2e pass (14.5m).
+Ship: committed to master 2ff5de3e, pushed. CI in_progress (CI + Lighthouse workflows triggered on 2ff5de3e).
+Next: iter965 = RESEARCH (965%5=0 → RESEARCH: competitor scan, define next batch).

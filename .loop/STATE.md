@@ -1,13 +1,15 @@
 # LOOP STATE
 
-- iteration: 963
-- lastMode: BUILD
-- lastItem: de-phase-20
-- lastResult: DE-20 SHIPPED 206105ed. 5 DE guides: gamla-nature-reserve-guide, herodion-guide, israel-film-tv-tourism, israel-business-travel-guide, israel-car-rental-comparison. DE guides 182→187/398. Build 1343 pages (+5). 1969/1969 e2e pass (18.7m). Gate: pnpm check 0 errors; build complete; all e2e pass.
-- nextRotationCategory: REVIEW (iter964; 964%5=4 → REVIEW)
+- iteration: 964
+- lastMode: REVIEW
+- lastItem: review-964-de20-link-fix
+- lastResult: DE-20 audit SHIPPED 2ff5de3e. 5 guides clean: all titles ≤65, descs ≤160, all hero images/CTA images exist, all 24 /de/* internal links resolve, all affiliate partners valid, no H1 in body, no honesty flags. Fix: israel-business-travel-guide missing 3 link sets (shabbat-guide, best-hotels-tel-aviv+jerusalem, ben-gurion-airport-guide) — added. Gate: pnpm check 0 errors; build 1343 pages; 1969/1969 e2e pass (14.5m). CI in_progress at commit time.
+- nextRotationCategory: RESEARCH (iter965; 965%5=0 → RESEARCH)
 - higgsfieldSpent: 0
-- updatedAt: 2026-08-03T08:30Z
+- updatedAt: 2026-08-03T09:00Z
 - branch context: work on master; feature work on auto/<slug>
+
+Notes: iter964 REVIEW — review-964-de20-link-fix SHIPPED 2ff5de3e. Audited DE-20 batch (5 guides: gamla-nature-reserve-guide, herodion-guide, israel-film-tv-tourism, israel-business-travel-guide, israel-car-rental-comparison). CLEAN across all checks: titles 32–60 chars (≤65 ✓); descriptions 128–151 chars (≤160 ✓); all hero images and CTA images exist; all 24 /de/* internal links resolve to real files; affiliate partners all valid (getyourguide/viator/discovercars/booking/abraham/skyscanner/rentalcars); no H1 in any body; no fabricated ratings or exact prices (all prices stated as ranges ✓). Fix: israel-business-travel-guide was missing 4 internal cross-links to existing DE pages that the guide discusses substantively — shabbat-guide (Schabbat section), best-hotels-tel-aviv + best-hotels-jerusalem (hotel section), ben-gurion-airport-guide (transport section). Added 3 link additions (5 new links total). Gate: pnpm check 0 errors; build 1343 pages (unchanged); 1969/1969 e2e pass (14.5m). CI in_progress.
 
 Notes: iter963 BUILD — DE-20 SHIPPED 206105ed. 5 Standard Hochdeutsch guides: gamla-nature-reserve-guide (Gamla Naturreservat Golan; Gänsegeier-Kolonie; 5-km-Rundweg; Basalt-Canyon-Wasserfall; cross-links /de/golan-heights-guide+/de/car-rental-israel+/de/israel-national-parks-pass+/de/hiking-in-israel; CTAs GYG/Viator/Discovercars; 7 FAQs); herodion-guide (Herodiom; Herodes' Grabkammer entdeckt 2007 durch Ehud Netzer; Gebiet-C-West-jordan-framing; Tunnelanlage; cross-links /de/dead-sea-guide+/de/3-days-in-negev+/de/bethlehem-tours-compared; CTAs GYG/Viator/Booking; 7 FAQs; no glorification); israel-film-tv-tourism (Fauda/Kfar Kasim, Shtisel/Mea Shearim, Teheran/Old City, Beauty Queen/Mahane Yehuda; self-guided screen walk table; dress code + photography rules; cross-links /de/holy-sites-dress-code-etiquette+/de/jewish-heritage-israel+/de/mahane-yehuda-market-guide+/de/jerusalem-old-city-walking-tour+/de/best-tours-in-israel+/de/1-day-jerusalem-itinerary+/de/1-day-tel-aviv-itinerary+/de/is-israel-safe; CTAs GYG/Viator/Abraham; 7 FAQs); israel-business-travel-guide (Schabbat-Planung; Sunday-Thursday working week; Azrieli/Ramat-Gan corporate zones; ICC Jerusalem; koschere Klientendinners with table; ETA-IL ₪25; Bleisure section; cross-links /de/transportation+/de/first-time-in-israel+/de/visa-information+/de/shabbat-guide+/de/ben-gurion-airport-guide+/de/best-hotels-tel-aviv+/de/best-hotels-jerusalem; CTAs Booking/Skyscanner/GYG; GKV gap → Reisekrankenversicherung; DKB/N26/Revolut tip; 7 FAQs); israel-car-rental-comparison (Eldan/Hertz/Avis/Sixt/Budget/Europcar/DiscoverCars quick-compare table; West Bank Zone A universal prohibition noted; CDW/Zero-Excess; Automatik; Road 6 Maut; Pango parking app; cross-links /de/car-rental-israel+/de/driving-in-israel+/de/bethlehem-tours-compared; CTAs Discovercars/Rentalcars; 7 FAQs; no fabricated prices). 10 new e2e tests (5 smoke+5 a11y). DE guides 182→187/398. Build: 1338→1343 pages (+5). 1969/1969 e2e pass (18.7m). Squash found no commits on feature branch; staged directly on master 206105ed.
 
