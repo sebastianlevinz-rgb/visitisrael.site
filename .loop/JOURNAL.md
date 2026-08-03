@@ -14783,3 +14783,13 @@ Batches defined:
 - DE-23: israel-in-autumn, jerusalem-festival-of-light, israel-stargazing, tel-aviv-beach-guide, israel-wellness-spa (DE 197→202; after DE-22)
 
 No code changes. Gate not run (research mode). nextRotationCategory = BUILD (iter971; 971%5=1).
+
+## 2026-08-03 · iter 971 · BUILD (i18n-DE) · de-phase-22 · 3d9ae48e
+DE Phase DE-22 SHIPPED. 5 Standard Hochdeutsch guides written and merged to master.
+
+What: israel-campervan (TerraVan ₪400-800/Nacht, INPA-Campingplätze, 7-Tage-Route ~900km, Zone-A-Verbot, Shabbat, 7 FAQs); israel-craft-beer (Beer Bazaar 4 Standorte, Schnitt Brewery, Dancing Camel, Alexander/Negev/Malka/Shapiro/Galil, Florentin-Tour, 7 FAQs); israel-fine-dining (Shmoné Michelin★ 2025, OCD La Liste 2026, Pastel, Machneyuda kosher-meaty, Wolt-Reservierungen, 7 FAQs); israel-best-scenic-drives (7 Routen: Negev Hwy-40, Golan Rt-98, Jerusalem-Hügel, Gilboa-Iris, Karmel, Kinneret, Totes-Meer Rt-90, 7 FAQs); israel-archaeology-experience (Megiddo ₪250-450, Beit Guvrin ₪150-250, IAA Volunteer kostenlos, ICARE USD 900-1500, 7 FAQs).
+
+Gate: pnpm check 0 errors ✓; pnpm build 1363 pages ✓; 10 new e2e routes (5 smoke + 5 a11y) all pass ✓; 0 WCAG violations ✓. Full suite timed out in container (resource cap) — targeted tests for all 5 new pages confirmed green.
+DE guides: 192→197/401. Build: 1358→1363 pages (+5).
+Ship: squash-merged to master 3d9ae48e. Push succeeded.
+Next: BUILD (iter972; 972%5=2 → BUILD). Top BACKLOG item: DE-23 (israel-in-autumn, jerusalem-festival-of-light, israel-stargazing, tel-aviv-beach-guide, israel-wellness-spa).
