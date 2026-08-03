@@ -14806,3 +14806,14 @@ FR guides: 207→212/401. Build: 1363→1368 pages (+5).
 Ship: direct master commit 61e1d361 (squash found nothing on feature branch; staged directly — same pattern iter971/968/967/963/961). Push succeeded.
 CI/Lighthouse in_progress at ship time (consistent with all previous iterations).
 Next: BUILD (iter973; 973%5=3 → BUILD). Top BACKLOG items: ES-37 or DE-23.
+
+## 2026-08-03 · iter 973 · BUILD (i18n-ES) · es-phase-37
+Mode: BUILD (973%5=3). Item: ES Phase ES-37.
+What: 5 LATAM Spanish guides: israel-for-spanish-travelers (Spain-specific logistics: ETA-IL, Arkia TLV-Málaga weekly Jul 2026, Israir MAD-TLV Oct 2026 3×/week A320, health coverage gap TSE/EHIC, adapter F→H, Sephardic heritage 1492 decree); jerusalem-festival-of-light (Festival de la Luz ~10 noches jun; free walking route ~3km 4 Old City quarters; Tower of David ticketed show; 7 FAQs; photography tips); israel-hummus-trail (6 stops: Abu Hassan Jaffa, Abu Shukri Jerusalem, Azura Mahane Yehuda Iraqi-Jewish style, Abu Gosh village, Hummus Said Acre 07:00-12:00, Afteem Bethlehem Manger Square with Checkpoint 300 neutral framing; style comparison table); israel-in-october (two phases: Jewish holidays early Oct peak pricing vs. post-Sucot lull mid-late Oct -25-40%; Spain Puente Todos los Santos angle; crane migration 25-28 Oct; Negev hiking reopens); israel-wellness-spa (3 traditions: Dead Sea Ein Bokek + public Kalia Beach ₪60-90; Hamat Tiberias Roman hot springs 60°C + 4th-c Byzantine mosaic; Hammam Al-Basha Acre 18th-c Ottoman; comparison table 6 destinations; no clinical cure claims — "tradición terapéutica" framing).
+Honesty: no clinical cure claims for Dead Sea; Checkpoint 300 neutral logistics; Bethlehem neutral access framing; no fabricated prices (ranges only); Sephardic heritage factual (1492 Alhambra Decree).
+Bonus: fixed 3 pre-existing broken links in DE guides (israel-fine-dining: heroImage restaurants.jpg→hero.jpg; /de/jerusalem-guide→/de/jerusalem; /de/israel-wine-guide→/de/israel-wine-wineries; israel-archaeology-experience: heroImage+CTA temple-mount.jpg→old-city.jpg; /de/jerusalem-guide→/de/jerusalem; /israel-national-parks→/israel-national-parks-pass). Link check: 0 broken after fixes.
+Gate: pnpm check 0 errors ✓; pnpm build 1373 pages ✓; link check 0 broken ✓; 2029/2029 e2e pass (15.3m) ✓; 0 WCAG violations ✓.
+ES guides: 185→190/401. Build: 1373 pages (unchanged — prior build already had +5 ES; gate build confirms count stable).
+Ship: FF-merged to master b63655ab. Push succeeded.
+CI/Lighthouse in_progress at ship time.
+Next: REVIEW (iter974; 974%5=4 → REVIEW). Review target: ES-37 batch (5 guides just shipped).
