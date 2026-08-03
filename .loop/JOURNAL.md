@@ -14580,3 +14580,29 @@ Next: iter955 → RESEARCH (191st research pass).
 **Net-new e2e routes:** 10 (5 smoke + 5 a11y): /es/gamla-nature-reserve-guide, /es/herodion-guide, /es/gan-hashlosha-guide, /es/eilat-ramon-airport-guide, /es/israel-car-rental-comparison.
 
 **Next:** iter958 → BUILD (958%5=3 → BUILD = FR-22: gamla-nature-reserve-guide, herodion-guide, design-museum-holon, eilat-ramon-airport-guide, israel-film-tv-tourism in FR).
+
+## 2026-08-03 · iter 958 · BUILD (i18n-FR) · fr-phase-22
+
+**What:** 5 French-language guides (FR Phase FR-22). Metropolitan French; YAML double-quoted strings; /fr/* cross-links only confirmed-existing FR pages; no fabricated prices/ratings.
+
+**Guides shipped:**
+- **gamla-nature-reserve-guide** — "Réserve Naturelle de Gamla : Ruines, Vautours et Cascade (2026)". Griffon vulture colony, 51m waterfall, First Jewish-Roman War ruins. 5km circuit on Golan Heights. INPA pass valid. CTAs: GYG/Viator/DiscoverCars. 6 FAQs.
+- **herodion-guide** — "Hérodion : Guide de la Montagne-Tombeau d'Hérode (2026)". Artificial mountain palace-fortress; Ehud Netzer tomb discovery 2007; Area C West Bank framing preserved exactly from EN. CTAs: GYG/Viator/Booking. 6 FAQs.
+- **design-museum-holon** — "Musée de Design de Holon : Guide du Visiteur (2026)". Ron Arad corten-steel architecture; rotating exhibitions; 20-min bus from Tel Aviv. CTAs: GYG/Booking/DiscoverCars. 6 FAQs.
+- **eilat-ramon-airport-guide** — "Aéroport Ramon Eilat (ETM) : Transferts et Conseils (2026)". 18km north of Eilat; Bus 30/50; Gett taxi ₪70–90; Yitzhak Rabin crossing for Petra. CTAs: DiscoverCars/Booking/GYG. 6 FAQs.
+- **israel-film-tv-tourism** — "Tourisme Cinéma en Israël : Fauda, Shtisel, Téhéran (2026)". Kfar Kasim (Fauda), Mea She'arim lanes (Shtisel), Jerusalem Old City (Tehran). No fabricated ratings or viewer counts. CTAs: GYG/Viator/Abraham. 6 FAQs.
+
+**Cross-link verification:** All /fr/* internal links confirmed present in src/content/guides/fr/ before writing. Herodion: /fr/qumran-guide ✓, /fr/masada-dead-sea-day-trip ✓, /fr/1-day-jerusalem-itinerary ✓.
+
+**Gate:**
+- `pnpm check`: 0 errors (116 hints)
+- `pnpm build`: 1328 pages (+5 from 1323)
+- `pnpm test:e2e`: 1939/1939 passed (15.1m; exit code 0)
+
+**Ship:** direct commit on master 4bb90c36 (feature branch auto/fr-phase-22 had no commits due to prior context break; working-dir changes carried forward intact); pushed.
+
+**FR count:** 192→197/398.
+
+**Net-new e2e routes:** 10 (5 smoke + 5 a11y): /fr/gamla-nature-reserve-guide, /fr/herodion-guide, /fr/design-museum-holon, /fr/eilat-ramon-airport-guide, /fr/israel-film-tv-tourism.
+
+**Next:** iter959 → REVIEW (959%5=4 → REVIEW). Review target: FR-22 meta/links audit.
