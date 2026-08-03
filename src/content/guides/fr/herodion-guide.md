@@ -1,6 +1,6 @@
 ---
 title: "Hérodion : Guide de la Montagne-Tombeau d'Hérode (2026)"
-description: "Guide du parc national d'Hérodion : la montagne artificielle d'Hérode, la découverte de la tombe en 2007, le palais supérieur et comment y aller depuis Jérusalem."
+description: "Guide du parc d'Hérodion : la montagne artificielle d'Hérode, la découverte de la tombe en 2007, le palais supérieur et comment y aller depuis Jérusalem."
 heroImage: /images/regions/jerusalem/hero.jpg
 category: Destinations
 verdictName: "une excursion guidée à Hérodion depuis Jérusalem"
