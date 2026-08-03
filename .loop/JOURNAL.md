@@ -14888,3 +14888,10 @@ Cross-link verification: todas las /es/* cross-links confirmadas existentes ante
 Gate: pnpm check 0 errors ✓; build 1388 pages (+5) ✓; 2059/2059 e2e pass (22.0m) ✓.
 Ship: committed directly to master 1acd331c (same pattern as prior iters — staged directly). Push succeeded.
 Next: iter979 REVIEW (979%5=4 → REVIEW). Top BACKLOG item: audit recent ES batch or DE-24.
+
+## 2026-08-04T00:15Z · iter 979 · REVIEW · review-979-es38-meta-links
+What: Audited all 5 ES-38 guides (iter978 batch): israel-agritourism-guide, israel-rooftop-bars, israel-archaeology-experience, israel-medical-tourism, israel-music-festivals.
+Result: ALL CLEAN — no code changes required.
+Checks: (1) Meta — 5/5 titles ≤65 chars (50–62); 5/5 descriptions ≤160 chars (153–158); (2) Internal links — 24 /es/* links all resolve to existing files, 0 broken; (3) H1 in body — none found in any guide; (4) Hero images — all 5 exist in /public; (5) Affiliate partners — all valid (booking/getyourguide/viator/abraham); (6) Price honesty — all ₪ values are ranges with "verify directly" disclaimers; (7) Medical tourism — no cure claims, therapeutic-tradition framing throughout; (8) Music festivals — 7 date-verification disclaimers (sitio oficial/confirma/verifica); (9) pnpm check — 0 errors.
+Gate: N/A (no code changes; pnpm check 0 errors confirmed).
+Next: RESEARCH (iter980; 980%5=0).
