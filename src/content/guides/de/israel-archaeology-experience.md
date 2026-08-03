@@ -1,7 +1,7 @@
 ---
 title: "Archäologie in Israel: Ausgrabungen & Grabungstouren 2026"
 description: "Archäologie hautnah in Israel: Ausgrabungen in Tel Megiddo und Beit Guvrin, IAA-Freiwilligenprogramme und Tipps für aktive Grabungstouren 2026."
-heroImage: /images/regions/jerusalem/temple-mount.jpg
+heroImage: /images/regions/jerusalem/hero.jpg
 category: Aktivitäten
 updatedAt: 2026-08-03
 ctaHeading: "Israel Archäologie-Touren buchen"
@@ -9,7 +9,7 @@ affiliateCtas:
   - partner: getyourguide
     title: "Archäologie-Touren & Grabungen in Israel"
     description: "Geführte archäologische Touren zu Tel Megiddo, Caesarea, Beit She'an und den Qumran-Höhlen — mit Expertenführung und Eintrittsgebühren. Online buchbar."
-    image: /images/regions/jerusalem/temple-mount.jpg
+    image: /images/regions/jerusalem/hero.jpg
     query: Israel archaeology tour excavation Megiddo
     cta: Archäologie-Touren Israel ansehen
   - partner: getyourguide
@@ -125,4 +125,4 @@ Ohne Grabungsteilnahme, aber mit herausragenden Stätten:
 
 ---
 
-Für die Reisevorbereitung: [Jerusalem Reiseführer](/de/jerusalem-guide), [Galiläa 3 Tage](/de/3-days-in-galilee), [Totes Meer Guide](/de/dead-sea-guide) und [Israel Nationalparks](/israel-national-parks).
+Für die Reisevorbereitung: [Jerusalem Reiseführer](/de/1-day-jerusalem-itinerary), [Galiläa 3 Tage](/de/3-days-in-galilee), [Totes Meer Guide](/de/dead-sea-guide) und [Israel Nationalparks](/israel-national-parks-pass).
