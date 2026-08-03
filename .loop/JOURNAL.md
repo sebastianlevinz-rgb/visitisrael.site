@@ -14817,3 +14817,12 @@ ES guides: 185→190/401. Build: 1373 pages (unchanged — prior build already h
 Ship: FF-merged to master b63655ab. Push succeeded.
 CI/Lighthouse in_progress at ship time.
 Next: REVIEW (iter974; 974%5=4 → REVIEW). Review target: ES-37 batch (5 guides just shipped).
+
+## 2026-08-03T20:00Z · iter 974 · REVIEW · review-974-es37-meta-trim
+Mode: REVIEW (974%5=4). Item: audit ES-37 batch (iter973 ship).
+What: Full audit of all 5 ES-37 guides (israel-for-spanish-travelers, jerusalem-festival-of-light, israel-hummus-trail, israel-in-october, israel-wellness-spa).
+Checks: (1) meta title ≤65 / desc ≤160 — 3 overruns found; (2) 23 /es/* internal links — all resolve ✓; (3) 10 hero/CTA images — all exist in /public ✓; (4) affiliate partners — all valid (booking/getyourguide/skyscanner/viator) ✓; (5) no H1 in body — all clean ✓; (6) honesty — no fabricated prices/ratings, therapeutic framing correct for Dead Sea, Checkpoint 300 neutral, no clinical cure claims ✓.
+Fixes: israel-in-october desc 185→143 chars (removed "la migración de grullas al Valle de Hula y" sub-clause); israel-wellness-spa title 69→63 chars (removed "y spa" from heading, leaving "Bienestar en Israel") + desc 168→145 chars (removed trailing "con consejos prácticos").
+Gate: pnpm check 0 errors ✓; pnpm build 1373 pages (unchanged) ✓; 2029/2029 e2e pass (17.0m) ✓.
+Ship: commit a687d149 to master. Push succeeded.
+CI in_progress at push time (prior iter973 CI was success ✓).

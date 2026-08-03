@@ -1796,3 +1796,6 @@ ES guides: 165→170/398. Build: 1318→1323 pages (+5). 1929/1929 e2e pass (17.
 
 ## iter969 · REVIEW · review-969-es36-meta-trim · 781fe01d
 - ES-36 meta overruns fixed (4 of 5 guides): israel-campervan desc 165→149; israel-craft-beer title 66→63 + desc 167→150; israel-fine-dining title 78→54 + desc 176→145; israel-affordable-luxury title 75→62 + desc 165→136. All within title≤65 / desc≤160. Audit otherwise CLEAN: 18/18 internal links resolve; 0 H1 in body; all hero images present; all affiliate partners valid; no honesty issues. Build 1358 pages (unchanged). 1999/1999 e2e pass (15.2m). CI in_progress at ship.
+
+## iter974 · REVIEW · review-974-es37-meta-trim · a687d149
+- ES-37 audit CLEAN (5 guides): 23/23 internal /es/* links resolve; 10/10 images exist; no H1; all affiliates valid; no honesty flags. Meta overruns fixed: israel-in-october desc 185→143 chars; israel-wellness-spa title 69→63 chars + desc 168→145 chars. Build 1373 pages (unchanged). 2029/2029 e2e pass (17.0m). CI in_progress at ship.
