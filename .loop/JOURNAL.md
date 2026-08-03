@@ -14826,3 +14826,20 @@ Fixes: israel-in-october desc 185→143 chars (removed "la migración de grullas
 Gate: pnpm check 0 errors ✓; pnpm build 1373 pages (unchanged) ✓; 2029/2029 e2e pass (17.0m) ✓.
 Ship: commit a687d149 to master. Push succeeded.
 CI in_progress at push time (prior iter973 CI was success ✓).
+
+## 2026-08-03T21:00Z · iter 975 · RESEARCH · 195th research pass — FR-26/ES-38/DE-24 defined
+What: 195th research pass (iter%5==0 → RESEARCH mode). Sources: filesystem gap analysis (comm -23 EN vs FR/DE/ES), COMPETITORS.md existing corpus, EN guide content quality checks, cross-link verification against filesystem.
+Guide counts confirmed: EN=398, FR=212, DE=197, ES=190. DE-23 still the top BUILD item (iter976 next).
+Competitive gaps identified and batch definitions written:
+- israel-agritourism-guide: 13M NIS Galilee investment (travelandtourworld.com Jun 2026); zero editorial competitor in FR/DE/ES; Kfar Kedem + cherry Golan + strawberry Shefela + Medjool Arava; DACH Urlaub-auf-dem-Bauernhof resonance
+- israel-rooftop-bars: Mamilla Hotel Jerusalem + Norman TLV + Market House Jaffa; timeout.com/israel EN-only = zero FR/DE/ES competition; lifestyle/shareable content angle
+- israel-national-trail-hiking (FR): Shvil Yisrael 950km; section hiking for tourists; French GR trail culture = world's most developed per-capita; zero FR editorial
+- israel-affordable-luxury (FR): Beresheet Mitzpe Ramon + kibbutz hotels Nof Ginosar/Ein Gedi; zero FR editorial
+- israel-archaeology-experience (ES): already in DE (iter971 DE-22); LATAM Machu Picchu/Chichen Itza = same audience profile; Megiddo 26 strata + IAA Volunteer Dig; zero ES editorial
+- israel-medical-tourism: LATAM IVF demand huge (Argentina highest per-capita globally); Sheba Medical Center Newsweek top-10; ~USD 3,000–4,500/cycle vs USD 15,000–25,000 US; DACH Kur tradition (GKV angle); zero FR/DE/ES editorial
+- israel-music-festivals: Meteor Festival electronic = DACH electronic music audience (Berlin/Hamburg); Tamar Dead Sea classical; Tel Aviv Jazz; zero FR/DE/ES editorial
+- israel-kayaking (DE): Jordan River Kfar Blum + HaGoshrim; DACH water sports tourism; zero DE editorial
+Batches defined: FR-26 (5 guides, FR 212→217), ES-38 (5 guides, ES 190→195), DE-24 (5 guides, DE 202→207 after DE-23).
+Gate: not run (research mode, no code changes).
+Ship: no merge (research-only iteration).
+Next: iter976 = BUILD (976%5=1 → BUILD). Top BACKLOG item: DE-23 (israel-in-autumn, jerusalem-festival-of-light, israel-stargazing, tel-aviv-beach-guide, israel-wellness-spa). nextRotationCategory = BUILD.

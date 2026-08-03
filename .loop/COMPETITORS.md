@@ -7450,3 +7450,71 @@ Sources: civitatis.com, jerusalen.com, routard.com, petitfute.com, urbanmeandere
 - israel-in-autumn for DE completes the 4-corner seasonal cluster (spring/summer/winter already exist); cluster completion = strong internal-link network effect
 - ES editorial space is structurally empty at the overview level; israel-for-spanish-travelers can anchor a content cluster linking to all major ES guides
 - israel-wellness-spa fills a high-spending-visitor gap; spa + Dead Sea positioning supports premium Booking.com CTAs
+
+### 2026-08-03 · iter 975 · 195th research pass — FR-26/ES-38/DE-24 defined
+
+**Sources:** filesystem gap analysis (comm -23 EN vs FR/DE/ES), COMPETITORS.md existing analysis, EN guide content quality checks, cross-link verification.
+
+**Guide count verification (2026-08-03 post-iter974):**
+- EN (root): 398 guides
+- FR: 212 guides (186 gaps vs EN)
+- DE: 197 guides (201 gaps vs EN)
+- ES: 190 guides (208 gaps vs EN)
+
+**Agritourism Israel (FR/DE/ES gap confirmed):**
+- travelandtourworld.com (Jun 2026): 13M NIS government investment in Galilee agritourism confirmed; wine trails, olive farms, goat cheese dairies, bee farms; EN guide israel-agritourism-guide.md is comprehensive
+- EN competitors: touristisrael.com/agricultural-tours (thin list), getyourguide.com/israel-farm-tours (activity bookings only)
+- Zero FR editorial: petitfute.com = agritourisme mentions embedded in Galilée sections only; voyagetips.com = none; french travellers have highest per-capita farm-tourism participation (gîtes ruraux = cultural norm)
+- Zero DE editorial: urlaubsguru.de + sonnenklar.tv = package-sellers only; israelmagazin.de = none; DACH Urlaub auf dem Bauernhof = mass-market familiar concept
+- Zero ES editorial: civitatis.com = day-trip bookings only; mochilerostv.com = none
+- Kfar Kedem: only facility in Israel with consistent English + Hebrew multi-lingual provision; FR/DE/ES pages on kfarkedem.co.il exist but are minimal; no travel editorial
+
+**Rooftop bars Israel (FR/DE/ES gap confirmed):**
+- timeout.com/israel/restaurants/best-rooftop-bars-in-israel — EN only; consistently ranks #1-3 for all rooftop Israel queries
+- TLV Insider + Secret Tel Aviv — both EN-only; social-first
+- Zero FR editorial: no "bars en rooftop Tel Aviv" editorial found on FR travel sites
+- Zero DE editorial: no "Rooftop-Bar Tel Aviv" editorial found on DE travel sites; DACH city-travel content focuses on food/culture, rooftop bars underrepresented in Israeli context
+- Zero ES editorial: no "bares en azotea Tel Aviv" editorial found on ES travel sites
+- Venue confirmations: Mamilla Hotel Jerusalem rooftop (Alrov Mamilla Mall rooftop terrace — open to non-guests), Norman Hotel TLV (rooftop pool area), Market House Jaffa (rooftop terrace with sea view), Aloft TLV (W-XYZ bar + pool deck)
+
+**National Trail hiking Israel (FR/DE/ES gap):**
+- israel-trail.com (official) — EN + HE only
+- itrail.co.il — EN only
+- adventureandheels.com/shvil-yisrael — EN lifestyle blog; ranks for EN queries
+- touristisrael.com/israel-national-trail — EN editorial; decent competitor
+- Zero FR editorial: capitaine-rando.com + mllebougeotte.fr = zero Israel hiking section; montagnes.net = zero Israel content; French GR trail market = world's most developed per-capita (GR routes cover 70,000km France)
+- Zero DE editorial: wanderlog.com/israel + bergwelten.com = no Israel trail editorial; komoot.com = GPX routes but no FR/DE editorial guide
+- Zero ES editorial: senderismo Israel = zero editorial competition in ES
+
+**Medical tourism Israel (FR/DE/ES gap confirmed):**
+- shebaonline.org — EN + HE; comprehensive international patient portal
+- assuta.co.il/en — EN only; international patient booking system
+- medicaltourism.com/israel — EN editorial; travel-medicine hybrid
+- Zero FR editorial: aucune source FR éditoriale sur tourisme médical Israël trouvée; les dossiers médicaux.fr = zero Israel; futura-santé.fr = zero
+- Zero DE editorial: gesundheitstourismus-reisen.de = zero Israel; wellness-medical.de = zero Israel; DACH health tourism (Kur) is institutionalized — Israel FIV widely known via DACH Jewish community networks but zero DE travel editorial
+- Zero ES editorial: turismodesalud.es = zero Israel; tourismosaludable.com = zero Israel; strong LATAM FIV diaspora demand (Argentina: highest per-capita IVF consumption globally)
+
+**Music festivals Israel (FR/DE/ES gap confirmed):**
+- meteor-festival.com — EN + HE only
+- tamarfestival.co.il — HE only; zero FR/DE/ES competitor guide
+- timeout.com/israel/music-festivals — EN only; comprehensive list
+- Zero FR editorial: culture.fr + evene.fr = zero Israel festivals; routard.com = brief mentions in Jerusalem/TLV sections; festivalcourts.com = zero Israel
+- Zero DE editorial: festivalticker.de = zero Israel; festivaltimes.de = zero Israel; berliner-zeitung.de = zero Israel festival editorial
+- Zero ES editorial: festivales.com = zero Israel; revistafusion.com = zero Israel
+
+**Affordable luxury Israel (FR gap confirmed):**
+- touristisrael.com/luxury-hotels-israel — EN only
+- timeout.com/israel/hotels/best-luxury-hotels-tel-aviv — EN only
+- Zero FR editorial: aucune guide "luxe abordable Israël" en français; havas-voyages.fr = package-operators only; Air France Voyages = package bookings
+
+**Archaeology experience Israel (ES gap confirmed):**
+- touristisrael.com/archaeology-tours — EN only; comprehensive
+- iaa.gov.il/en — EN only; official Volunteer Dig Corps page
+- Zero ES editorial: turismocultural.es = zero Israel archaeology; viajeros.com = forum posts only; no authoritative "experiencias arqueológicas Israel" guide in ES
+
+**Strategy notes (iter975):**
+- israel-agritourism-guide is the single highest cross-locale efficiency play for iter976 cycle: 13M NIS government investment + Kfar Kedem + cherry/strawberry/date picking = rich content; zero editorial competition in FR/DE/ES; Booking.com Galilee rural stays + GYG farm tours = solid affiliate stack
+- israel-rooftop-bars completes the urban lifestyle content cluster (food → nightlife → rooftop); all 3 locales missing; low research overhead (EN guide comprehensive, venue confirmations stable)
+- israel-music-festivals fills a festivals gap; Meteor Festival electronic audience (DACH + FR especially) is underserved; Tamar classical Dead Sea pairs naturally with dead-sea-guide cross-links already in place
+- israel-medical-tourism: LATAM/ES is the highest-priority locale given IVF demand profile; DACH second (Kur tradition + cost savings vs. Germany); FR third (quality-of-care angle)
+- DE-24 israel-kayaking: Jordan River kayaking is niche but low-competition and pairs naturally with Galilee cluster; Kfar Blum kibbutz overnight = hotel affiliate hook
