@@ -768,6 +768,11 @@ const ROUTES = [
   '/es/israel-hebrew-phrases',
   '/es/israel-in-autumn',
   '/es/israel-in-winter',
+  '/es/gamla-nature-reserve-guide',
+  '/es/herodion-guide',
+  '/es/gan-hashlosha-guide',
+  '/es/eilat-ramon-airport-guide',
+  '/es/israel-car-rental-comparison',
 ];
 
 for (const route of ROUTES) {
