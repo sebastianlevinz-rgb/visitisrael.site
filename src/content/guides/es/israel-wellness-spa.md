@@ -1,6 +1,6 @@
 ---
-title: "Bienestar y spa en Israel: Mar Muerto, aguas termales y hammam (2026)"
-description: "Flotación mineral en el Mar Muerto, aguas termales de Tiberias y baños de hammam en Acre — las mejores experiencias de bienestar y spa de Israel con consejos prácticos."
+title: "Bienestar en Israel: Mar Muerto, aguas termales y hammam (2026)"
+description: "Flotación mineral en el Mar Muerto, aguas termales de Tiberias y baños de hammam en Acre — las mejores experiencias de bienestar y spa de Israel."
 heroImage: /images/regions/dead-sea/hero.jpg
 category: Planificación
 updatedAt: 2026-08-03

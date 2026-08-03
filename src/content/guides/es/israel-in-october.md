@@ -1,6 +1,6 @@
 ---
 title: "Israel en octubre: guía de viaje — eventos, clima y consejos"
-description: "Israel en octubre combina las Altas Fiestas Judías, la vendimia, la migración de grullas al Valle de Hula y un clima ideal de 22–27°C — con precios un 25–40% más bajos tras las fiestas."
+description: "Israel en octubre combina las Altas Fiestas Judías, la vendimia y un clima ideal de 22–27°C — con precios un 25–40% más bajos tras las fiestas."
 heroImage: /images/regions/galilee/hero.jpg
 category: Planificación
 updatedAt: 2026-08-03
