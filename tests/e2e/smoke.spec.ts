@@ -1103,6 +1103,11 @@ const ROUTES = [
   '/es/israel-hummus-trail',
   '/es/israel-in-october',
   '/es/israel-wellness-spa',
+  '/fr/israel-agritourism-guide',
+  '/fr/israel-rooftop-bars',
+  '/fr/israel-affordable-luxury',
+  '/fr/israel-national-trail-hiking',
+  '/fr/israel-music-festivals',
 ];
 
 for (const route of ROUTES) {
