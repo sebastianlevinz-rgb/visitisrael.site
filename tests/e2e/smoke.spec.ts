@@ -1088,6 +1088,11 @@ const ROUTES = [
   '/es/israel-craft-beer',
   '/es/israel-fine-dining',
   '/es/israel-affordable-luxury',
+  '/fr/jerusalem-festival-of-light',
+  '/fr/israel-in-october',
+  '/fr/tel-aviv-beach-guide',
+  '/fr/israel-hummus-trail',
+  '/fr/israel-wellness-spa',
 ];
 
 for (const route of ROUTES) {
