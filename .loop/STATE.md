@@ -1,12 +1,12 @@
 # LOOP STATE
 
-- iteration: 955
-- lastMode: RESEARCH
-- lastItem: research-955-fr22-es34-de20-batch-definitions
-- lastResult: 191st research pass COMPLETE. FR-22 defined (gamla-nature-reserve-guide, herodion-guide, design-museum-holon, eilat-ramon-airport-guide, israel-film-tv-tourism). ES-34 defined (gamla-nature-reserve-guide, herodion-guide, gan-hashlosha-guide, eilat-ramon-airport-guide, israel-car-rental-comparison). DE-20 defined (gamla-nature-reserve-guide, herodion-guide, israel-film-tv-tourism, israel-business-travel-guide, israel-car-rental-comparison). Key findings: (1) Gamla nature reserve = complete SERP whitespace FR/DE/ES — top priority triple-locale translation; (2) Herodion = zero FR/DE/ES visitor guide — Area C West Bank framing must carry from EN faithfully; (3) Design Museum Holon = zero FR editorial, "musée design Holon" returns only EN results; (4) Film/TV tourism (Fauda/Shtisel) = large Netflix audience in France + DACH with zero editorial location guides; (5) Israel business travel DE = only dienstreise.de basic page, no comprehensive DE digital guide; (6) Car rental comparison FR/DE/ES = only aggregators, zero editorial with Israel-specific CDW/CP/cross-Green-Line rules. New 2026 EN attractions confirmed: skyfield-extreme-park-jaffa.md ✓ + jerusalem-first-station-guide.md ✓ both MISSING from FR/DE/ES — queued P2 BACKLOG. Net-new BACKLOG items: FR-22, ES-34, DE-20 (all [P1]), skyfield+first-station FR/DE/ES bundle [P2]. 7 items appended.
-- nextRotationCategory: BUILD (iter956; 956%5=1 → BUILD = DE-19: israel-honeymoon, israel-hidden-gems, israel-hebrew-phrases, hayarkon-park-tel-aviv, getyourguide-vs-viator-israel in DE)
+- iteration: 956
+- lastMode: BUILD
+- lastItem: de-phase-19
+- lastResult: DE-19 SHIPPED 93b5eeff. 5 Standard Hochdeutsch guides: israel-honeymoon, israel-hidden-gems, israel-hebrew-phrases, hayarkon-park-tel-aviv, getyourguide-vs-viator-israel. DE guides 177→182/398. Build 1318 pages (+5). 1919/1919 e2e pass (13.8m). YAML fix: israel-hebrew-phrases had unescaped ASCII double-quotes inside YAML double-quoted answer (German „x" closing quote was ASCII 0x22 not U+201C) — fixed to single-quote wrappers. 10 new e2e routes (5 smoke + 5 a11y).
+- nextRotationCategory: BUILD (iter957; 957%5=2 → BUILD = ES-34: gamla-nature-reserve-guide, herodion-guide, gan-hashlosha-guide, eilat-ramon-airport-guide, israel-car-rental-comparison)
 - higgsfieldSpent: 0
-- updatedAt: 2026-08-02T23:47Z
+- updatedAt: 2026-08-03T01:00Z
 - branch context: work on master; feature work on auto/<slug>
 
 Notes: iter955 RESEARCH — 191st research pass. Competitors scanned (SERP analysis): touristisrael.com, israel-in-photos.com, Lonely Planet, Frommers, Fodors, fr.wikipedia.org, Routard, fr.timesofisrael.com, wonderfulmuseums.com, travelinti.com, dienstreise.de, visumisrael.de, isra-tech.net, momondo, parks.org.il. FR-22 defined; ES-34 defined; DE-20 defined (all ready). skyfield-extreme-park-jaffa + jerusalem-first-station-guide both in EN, both missing from FR/DE/ES — queued P2 for future batches.

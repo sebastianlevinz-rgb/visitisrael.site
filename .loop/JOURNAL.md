@@ -14530,3 +14530,27 @@ Next: iter955 → RESEARCH (191st research pass).
 **Gate:** N/A (RESEARCH mode — no code shipped).
 
 **Next:** iter956 → BUILD (956%5=1 → BUILD). Priority: DE-19 (israel-honeymoon, israel-hidden-gems, israel-hebrew-phrases, hayarkon-park-tel-aviv, getyourguide-vs-viator-israel in DE).
+
+## 2026-08-03 · iter 956 · BUILD (i18n-DE) · de-phase-19
+
+**What:** 5 German-language guide translations (DE Phase DE-19). Standard Hochdeutsch register; YAML double-quoted strings; /de/* cross-links; no fabricated prices/ratings.
+
+**Guides shipped:**
+- **israel-honeymoon** — "Flitterwochen in Israel: Romantische Reise als Paar (2026)". Dead Sea float, Jerusalem Old City romantic walk, Galilee/Golan Zimmer, Negev Makhtesh Ramon (herzförmig aus Vogelperspektive — honest framing), Tel Aviv rooftop dining. 7-day itinerary table. Shabbat/dress-code practical notes. CTAs: Booking/TourRadar/Abraham. 7 FAQs.
+- **israel-hidden-gems** — "10 Israel Geheimtipps: Verborgene Schätze abseits der Touristenpfade (2026)". 10 sites: Meshushim hexagonal basalt pools (Golan; guided tour obligatory; Sommer too hot — honest caveat), Hula Valley Kranichzug, Ein Keshatot 6th-c. synagogue, Ayalon Institut Rehovot (secret bullet factory 1945-48), Ilana Goor Museum Jaffa, Ralli Museums Caesarea, Nimrod Fortress, Beit Guvrin, Achziv, Rosh Pina. 2 GYG affiliateCtas. 5 FAQs.
+- **israel-hebrew-phrases** — "Hebräisch für Reisende: Wichtige Ausdrücke in Israel (2026)". Phonetic tables for German speakers (ch-sound like "Bach" familiar note), greetings, courtesy, numbers 1-10, directions, restaurant, shopping, hotel, everyday words, emergency phrases. YAML fix: unescaped ASCII `"` in answer text (closing German quote was 0x22 not U+201C) — changed to single-quote wrappers. 2 affiliateCtas GYG/Viator. 7 FAQs.
+- **hayarkon-park-tel-aviv** — "Hayarkon Park Tel Aviv: Freizeitführer (2026)". Access via Tel-O-Fun bikes + Red Line HaMuzeon station. Activities: Radwege, Bootsverleih, Vogelschutzgebiet 170+ species, Tropischer Garten, Kakteengarten, HaTsuk Kletterwand, Minigolf, Ganei Yehoshua concert venue (50,000 capacity). Seasonal table; free entry / 24h park. 3 affiliateCtas GYG/Viator/Booking. 7 FAQs.
+- **getyourguide-vs-viator-israel** — "GetYourGuide vs. Viator für Israel-Ausflüge (2026)". 9-criterion comparison table (NO fabricated commission rates — explicitly noted in honesty section). GYG strengths: free cancellation consistency, group size enforcement, DACH-friendly (Berlin-founded 2009, German customer service, German payment methods SEPA/giropay). Viator strengths: widest operator selection, Israel-Jordan combinations, private guides, faith tour variety. 5 pre-booking steps; platform-by-trip-type guide. 2 affiliateCtas GYG/Viator. 6 FAQs.
+
+**Technical issue encountered:** YAML parsing error in israel-hebrew-phrases.md. The FAQ answer on line 23 used German typographic opening quote „ (U+201E, correct) paired with closing ASCII `"` (U+0022, WRONG) — resulting in 3 unescaped double-quotes inside a YAML double-quoted scalar. js-yaml terminated the string at the first stray `"`, causing "bad indentation of a mapping entry" at line 22:387 (byte-offset counting). Fix: changed `„toda raba"` / `„boker tov"` patterns to `'toda raba'` / `'boker tov'` (single-quote wrappers, safe in YAML double-quoted strings). All other guides' YAML passed python yaml.safe_load without issues.
+
+**Gate:**
+- `pnpm check`: 0 errors (116 hints, pre-existing)
+- `pnpm build`: 1318 pages (+5 from 1313); completed in 36s
+- `pnpm test:e2e`: 1919/1919 passed (13.8m; exit code 0)
+
+**Ship:** squash-merged auto/de-phase-19 → master 93b5eeff; pushed; branch deleted.
+
+**DE count:** 177→182/398.
+
+**Next:** iter957 → BUILD (957%5=2 → BUILD). Priority: ES-34 (gamla-nature-reserve-guide, herodion-guide, gan-hashlosha-guide, eilat-ramon-airport-guide, israel-car-rental-comparison in ES).

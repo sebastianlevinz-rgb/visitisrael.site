@@ -1172,7 +1172,7 @@ Quality: Standard Hochdeutsch; YAML double-quotes; /de/* cross-links only confir
 |--------|--------|------|
 | en     | 398    | stable |
 | fr     | 187    | 211 missing — Phase FR-20 SHIPPED iter948 da608dbd; **Phase FR-21 DEFINED iter950** |
-| de     | 177    | 221 missing — Phase DE-18 SHIPPED iter946 a71356b8; **Phase DE-19 DEFINED iter950** |
+| de     | 182    | 216 missing — Phase DE-19 SHIPPED iter956 93b5eeff; **Phase DE-20 DEFINED iter955** |
 | es     | 165    | 233 missing — Phase ES-32 SHIPPED iter941 070daf35; **Phase ES-33 DEFINED iter945 (next ES BUILD)** |
 
 **FR-19 (iter944) shipped:** FR guides now 182/398. FR leads DE (182 vs 172).
@@ -1273,7 +1273,7 @@ Cross-links to verify before BUILD:
 
 Quality: metropolitan French; YAML double-quotes; /fr/* prefix only for confirmed-existing FR pages (EN fallbacks where FR missing); no fabricated prices (₪ ranges only); paired-naming on contested sites (Western Wall); Yad Vashem pre-registration requirement honest caveat; road trip car rental ranges only (do not cite specific daily NIS rates); Shabbat logistics accurate + non-alarmist.
 
-### Phase DE-19 (177 → 182/398) — DEFINED iter950 RESEARCH 2026-08-02
+### Phase DE-19 (177 → 182/398) — SHIPPED iter956 93b5eeff 2026-08-03
 
 Guides: `israel-honeymoon.md`, `israel-hidden-gems.md`, `israel-hebrew-phrases.md`, `hayarkon-park-tel-aviv.md`, `getyourguide-vs-viator-israel.md`
 All 5 confirmed MISSING from `src/content/guides/de/` via `comm -23` (2026-08-02 iter950).
