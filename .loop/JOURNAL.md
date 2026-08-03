@@ -14650,3 +14650,13 @@ New batches defined:
 Gate: not run (RESEARCH mode). Last known GREEN: build 1328 pages; 1939/1939 e2e pass (iter959 f9dfb459).
 Ship: .loop/ memory files only.
 Next: iter 961 = BUILD/i18n. Top priority: FR-23 or ES-35 (both P1, ready). nextRotationCategory = BUILD (961%5==1).
+
+## 2026-08-03 · iter 961 · BUILD (i18n-ES) · es-phase-35 · 4e1e7b5a
+
+What: ES Phase ES-35 — 5 Spanish guides: israel-film-tv-tourism, anu-museum-guide, ammunition-hill-jerusalem, israel-in-spring, design-museum-holon. Defined iter960 RESEARCH. All 5 confirmed MISSING via comm -23 (2026-08-03). Priority: ES had largest i18n gap (223 missing as of iter960).
+Files: src/content/guides/es/israel-film-tv-tourism.md, anu-museum-guide.md, ammunition-hill-jerusalem.md, israel-in-spring.md, design-museum-holon.md. Tests: tests/e2e/smoke.spec.ts + a11y.spec.ts (+5 routes each).
+Honesty: (1) film-tv — no fabricated filming locations; each location verified per production notes caveat; (2) anu-museum — price ranges only (₪60/₪45), always check anu.org.il; (3) ammunition-hill — honest military memorial, no glorification, both-sides casualties mentioned (36 Israeli, ~182 Jordanian); (4) spring — Passover price spike acknowledged (30-50%), no fabricated hotel rates; (5) design-museum — "approximately 50-60 ILS", always check dmh.org.il; no fabricated exhibition details.
+Gate: pnpm check 0 errors; build 1333 pages (+5 vs 1328); 1949/1949 e2e pass (23.4m).
+Ship: committed directly to master 4e1e7b5a (squash found no commits on feature branch; manual stage + commit). Pushed origin master.
+Guide counts: EN=398, FR=197, DE=182, ES=180.
+Next: iter962 = BUILD (962%5=2 → BUILD: next-priority = FR-23).

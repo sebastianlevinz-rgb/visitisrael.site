@@ -1,13 +1,15 @@
 # LOOP STATE
 
-- iteration: 960
-- lastMode: RESEARCH
-- lastItem: research-960-192nd-pass
-- lastResult: research-960-192nd-pass COMPLETE (no ship). 192nd research pass. Defined FR-23 (anu-museum, ammunition-hill, design-museum-holon, israel-in-summer, israel-in-spring), ES-35 (israel-film-tv-tourism, anu-museum, ammunition-hill, israel-in-spring, design-museum-holon), DE-21 (israel-in-summer, israel-in-spring, israel-in-winter, ammunition-hill, anu-museum — pending DE-20 ship). New EN P2: gay-tel-aviv guide. DE-20 status updated to "ready" (DE-19 shipped iter956). Key competitive intelligence: Gay Tel Aviv zero ES editorial; Ammunition Hill SERP whitespace FR/DE/ES; ANU Museum zero editorial FR/DE/ES; DE seasonal guides entirely missing (all 15); France = 3rd largest Israel source market 159K visitors 2025; tourism recovery +73% US/Canada June 2026. Haifa cruise terminal guide already current (May 14 2026 opening already in our guide). Guide counts: EN=398, FR=197, DE=182, ES=175.
-- nextRotationCategory: BUILD (iter961; 961%5=1 → BUILD: i18n top-priority = FR-23 or ES-35)
+- iteration: 961
+- lastMode: BUILD
+- lastItem: es-phase-35
+- lastResult: ES-35 SHIPPED 4e1e7b5a. 5 ES guides: israel-film-tv-tourism, anu-museum-guide, ammunition-hill-jerusalem, israel-in-spring, design-museum-holon. ES guides 175→180/398. Build 1333 pages (+5). 1949/1949 e2e pass (23.4m). Gate: pnpm check 0 errors; build complete; all e2e pass.
+- nextRotationCategory: BUILD (iter962; 962%5=2 → BUILD: i18n next-priority = FR-23)
 - higgsfieldSpent: 0
-- updatedAt: 2026-08-03T06:00Z
+- updatedAt: 2026-08-03T06:30Z
 - branch context: work on master; feature work on auto/<slug>
+
+Notes: iter961 BUILD — ES-35 SHIPPED 4e1e7b5a. 5 LATAM Spanish guides: israel-film-tv-tourism (Fauda/Kfar Kasim, Shtisel/Mea She'arim dress code, Tehran/Old City, La Reina del Paraíso/Mahane Yehuda, Nuestros Chicos/Jerusalem Este; 7 FAQs; CTAs GYG/Viator/Abraham; self-guided screen walk table; internal /es/ links); anu-museum-guide (Codex Sassoon $38.1M record; 4 floors: Comunidades/Éxodos/Cultura/Retorno; genealogy database; ₪60 adults/₪45 students price range; check anu.org.il; CTAs tiqets/GYG/Booking); ammunition-hill-jerusalem (honest military memorial framing; 36 Israeli/~182 Jordanian casualties; trench system; Paratroopers' Museum; free entry; Blue Line light rail; 7 FAQs; no glorification); israel-in-spring (March/April/May; Darom Adom wildflower bloom; Passover 30-50% price spike; Easter/Holy Week; Yom HaZikaron/HaAtzmaut; 7 FAQs; CTAs Booking/GYG/discovercars; 10-day sample itinerary); design-museum-holon (Ron Arad corten steel; rotating exhibitions only model; ~50-60 ILS adults/~30 ILS students; check dmh.org.il; 7 FAQs; CTAs GYG/Booking/discovercars). 10 new e2e tests (5 smoke + 5 a11y). Guide counts: EN=398, FR=197, DE=182, ES=180. Squash-merge note: files were made on feature branch but squash found no commits; manually staged + committed directly on master (4e1e7b5a).
 
 Notes: iter960 RESEARCH — 192nd research pass. Sources: touristisrael.com, travelgay.com, gay-sejour.com, gayvoyageur.com, cityzeum.com, misterbandb.com, jewishvirtuallibrary.org, anumuseum.org.il, itraveljerusalem.com, gojerusalem.com, gemsinisrael.com, tripadvisor.com, cruiseindustrynews.com, travelandtourworld.com, jpost.com, forbes.com. Defined FR-23 + ES-35 + DE-21 batches; added gay-tel-aviv EN P2; DE-20 status fixed to "ready" (DE-19 confirmed shipped iter956). Guide counts: EN=398, FR=197 (201 gaps), DE=182 (216 gaps), ES=175 (223 gaps). nextRotationCategory → BUILD (iter961; 961%5=1).
 
