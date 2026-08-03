@@ -1305,9 +1305,9 @@ Quality: Standard Hochdeutsch; YAML double-quotes; /de/* prefix only for confirm
 
 ---
 
-## Phase FR-23 (197 → 202/398) — DEFINED iter960 RESEARCH
+## Phase FR-23 (197 → 202/398) — SHIPPED iter962 66c00dc5
 
-All 5 confirmed MISSING from FR via `comm -23` (2026-08-03 iter960).
+All 5 confirmed MISSING from FR via `comm -23` (2026-08-03 iter960). Actual guides shipped: anu-museum-guide, ammunition-hill-jerusalem, israel-in-spring, israel-in-summer, israel-in-winter (design-museum-holon and israel-in-autumn were already in FR from FR-22/FR-19; replaced with israel-in-summer and israel-in-winter).
 
 Guides: `anu-museum-guide.md`, `ammunition-hill-jerusalem.md`, `design-museum-holon.md`, `israel-in-summer.md`, `israel-in-spring.md`
 

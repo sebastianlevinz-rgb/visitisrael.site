@@ -14660,3 +14660,10 @@ Gate: pnpm check 0 errors; build 1333 pages (+5 vs 1328); 1949/1949 e2e pass (23
 Ship: committed directly to master 4e1e7b5a (squash found no commits on feature branch; manual stage + commit). Pushed origin master.
 Guide counts: EN=398, FR=197, DE=182, ES=180.
 Next: iter962 = BUILD (962%5=2 → BUILD: next-priority = FR-23).
+
+## 2026-08-03 · iter 962 · BUILD (i18n-FR) · fr-phase-23
+What: 5 new Metropolitan French guides. anu-museum-guide (ANU – Musée du Peuple Juif; Codex Sassoon $38.1M record; 4 floors Communautés/Exodes/Culture/Retour; genealogy database; CTAs tiqets/GYG/Booking; cross-links /fr/tel-aviv-museums+/fr/yad-vashem-visitor-guide+/fr/jewish-heritage-israel); ammunition-hill-jerusalem (Givat HaTachmoshet – Colline des Munitions; honest memorial framing; 36 Israeli/~182 Jordanian killed; free trench entry + small museum fee; Blue Line light rail; CTAs GYG/Abraham/Booking); israel-in-spring (Mars–Mai; Darom Adom bloom; Pâques 2027 catholique 20 avril/orthodoxe 12 avril; Pessah 22–29 avril; CTAs GYG×2/Booking); israel-in-summer (Juillet–Août; heat-zone table; Dead Sea morning-only rule; TLV beach rotation; CTAs GYG×2/Booking); israel-in-winter (Décembre–Février; Noël Bethléem Checkpoint 300; Mer Morte 20–24°C; Eilat Coral Beach; Mont Hermon ski variable; Floraison Néguev; CTAs GYG×2/Booking). Note: design-museum-holon + israel-in-autumn were already in FR (FR-22/FR-19); replaced with israel-in-summer + israel-in-winter confirmed missing via comm -23. 10 new e2e tests (5 smoke.spec.ts + 5 a11y.spec.ts). Honesty: ammunition-hill = dual-casualty honest framing, no glorification; seasonal guides = historical temperature ranges, verify before travel; anu-museum = check anumuseum.org.il for current programme; no fabricated prices or ratings.
+Gate: pnpm check 0 errors; build 1338 pages (+5 vs 1333); 1959/1959 e2e pass (13.4m).
+Ship: committed directly to master 66c00dc5 (feature branch had no commits; staged directly on master). Pushed origin master.
+Guide counts: EN=398, FR=202, DE=182, ES=180.
+Next: iter963 = BUILD (963%5=3 → BUILD: next-priority = DE-20).
