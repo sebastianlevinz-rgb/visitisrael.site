@@ -14714,3 +14714,14 @@ Guide counts: EN=398, FR=202, DE=187, ES=180. Total i18n gap: ~606 pages (202+21
 Gate: not run (RESEARCH mode). Last known GREEN: build 1343 pages; 1969/1969 e2e pass (iter964 2ff5de3e).
 Ship: .loop/ memory files only.
 Next: iter966 = BUILD (966%5==1 → BUILD). Top priority: DE-21 (ready; israel-in-summer, israel-in-spring, israel-in-winter, ammunition-hill-jerusalem, anu-museum-guide). nextRotationCategory = BUILD.
+
+## 2026-08-03T11:00Z · iter 966 · BUILD (i18n-DE) · de-phase-21
+What: 5 Standard Hochdeutsch seasonal + attraction guides for DACH audiences (DE-21 batch).
+- israel-in-summer: Hitzegeographie 6 Klimazonen-Tabelle (Küste/Jerusalem/Galiläa/Totes Meer/Negev/Eilat); Morgen/Mittag/Abend-Rotationsstrategie; Condor/TUI Direktflüge; DACH-Geheimtipp See Gennesaret; 7 FAQs; CTAs GYG TLV Sommer/GYG Masada Sonnenaufgang/Booking; cross-links /de/dead-sea-guide+/de/3-days-in-galilee+/de/best-beaches-israel
+- israel-in-spring: Darom Adom Wildblüte im Negev; Ostern 2027 kath. 20.Apr/orth. 12.Apr; Pessach 22.–29.Apr 2027; Wanderzonen-Tabelle; Frühlingskalender; 7 FAQs; CTAs GYG Negev Wandern/GYG Ostern Jerusalem/Booking
+- israel-in-winter: Bethlehem/Checkpoint-300 Logistik; Totes Meer 20–24°C Hochsaison; Eilat Condor/TUI Wintercharter; Hermon Skigebiet honest caveat (check skihermon.co.il); Chanukka; 7 FAQs; CTAs GYG Bethlehem Weihnachten/GYG Totes Meer+Eilat/Booking
+- ammunition-hill-jerusalem: Givat HaTachmoshet Sechs-Tage-Krieg 5.–6. Jun 1967; 36 Israeli/~182 jordanische Gefallene; 4h Nahkampf; Grabenrundgang original Betongräben; Fallschirmjäger-Museum 22-min Dokumentarfilm; Nachtführungen; ehrliches Gedenk-Framing; DACH-FAQ BRD-Israel Diplomatische Beziehungen 1965
+- anu-museum-guide: Codex Sassoon 38,1 Mio$ Mai 2023; 4 Ebenen (Gemeinschaften/Exil/Kultur/Rückkehr); DACH-Yekkes-Sektion dt. jüd. Emigration 1930er; Leo-Baeck-Institut; MyHeritage Genealogie-Datenbank
+Gate: pnpm check 0 errors; build 1343→1348 pages (+5); 1979/1979 e2e pass (14.1m).
+Ship: squash-merge to master af0dea0c; branch auto/de-phase-21 deleted. CI/Lighthouse in_progress at ship time.
+Next: iter967 = REVIEW (967%5==2). Top priority: audit DE-21 batch (titles/descs/links/images/honesty). nextRotationCategory = REVIEW.

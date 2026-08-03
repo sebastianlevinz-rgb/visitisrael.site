@@ -1,13 +1,15 @@
 # LOOP STATE
 
-- iteration: 965
-- lastMode: RESEARCH
-- lastItem: research-965-193rd-pass
-- lastResult: RESEARCH ONLY — no code shipped. 193rd research pass. Defined 3 new batches: FR-24 (israel-business-travel-guide, israel-campervan, israel-car-rental-comparison, israel-craft-beer, israel-fine-dining), ES-36 (israel-business-travel-guide, israel-campervan, israel-craft-beer, israel-fine-dining, israel-affordable-luxury), DE-22 (israel-campervan, israel-craft-beer, israel-fine-dining, israel-best-scenic-drives, israel-archaeology-experience). All 15 guides confirmed MISSING via comm -23. Key competitive intel: zero DACH editorial for Wohnmobil Israel (rentacamper.de = booking-only); zero FR/DE/ES craft beer Israel guide; zero FR/ES fine dining Israel guide; DE archaeology gap (Biblische Archäologie = major DACH category). Guide counts: EN=398, FR=202, DE=187, ES=180. Gate: not run (RESEARCH mode). Last known GREEN: build 1343 pages; 1969/1969 e2e (iter964 2ff5de3e).
-- nextRotationCategory: BUILD (iter966; 966%5=1 → BUILD: priority = DE-21)
+- iteration: 966
+- lastMode: BUILD
+- lastItem: de-phase-21
+- lastResult: SHIPPED af0dea0c. 5 Standard Hochdeutsch guides: israel-in-summer, israel-in-spring, israel-in-winter, ammunition-hill-jerusalem, anu-museum-guide. DE guides 187→192/398. Build 1343→1348 pages (+5). 1979/1979 e2e pass (14.1m). Gate: pnpm check 0 errors; build complete; all e2e pass. CI/Lighthouse in_progress on master af0dea0c at ship time.
+- nextRotationCategory: REVIEW (iter967; 967%5=2 → REVIEW: audit DE-21 batch)
 - higgsfieldSpent: 0
-- updatedAt: 2026-08-03T10:00Z
+- updatedAt: 2026-08-03T11:00Z
 - branch context: work on master; feature work on auto/<slug>
+
+Notes: iter966 BUILD — DE-21 SHIPPED af0dea0c. 5 Standard Hochdeutsch guides: israel-in-summer (Hitzegeographie-Tabelle 6 Klimazonen; Morgen/Mittag/Abend-Rotation; DACH-Geheimtipp See Gennesaret; Condor/TUI Direktflüge; Booking-Hotel-CTA; cross-links /de/dead-sea-guide+/de/3-days-in-galilee+/de/best-beaches-israel); israel-in-spring (Darom Adom Wildblüte Negev; Ostern 2027 kath. 20.Apr/orth. 12.Apr; Pessach 22.–29.Apr 2027; Wanderzonen-Tabelle; Frühlingskalender; cross-links /de/christmas-in-israel+/de/easter-in-jerusalem+/de/1-day-jerusalem-itinerary); israel-in-winter (Bethlehem/Checkpoint-300 Logistik; Totes Meer 20–24°C; Eilat Condor/TUI Wintercharter; Hermon Skigebiet ehrliche Hinweise check skihermon.co.il; Chanukka; cross-links /de/christmas-in-israel+/de/bethlehem-tours-compared+/de/eilat-travel-guide); ammunition-hill-jerusalem (Givat HaTachmoshet; 5.–6. Juni 1967; 36 Israeli/~182 jordanische Gefallene; 4h Nahkampf; Grabenrundgang; Fallschirmjäger-Museum 22-min Film; Nachtführungen; ehrliches Gedenk-Framing; DACH-FAQ BRD-Israel Diplomatische Beziehungen 1965; cross-links /de/1-day-jerusalem-itinerary+/de/western-wall-guide+/de/yad-vashem-visitor-guide); anu-museum-guide (Codex Sassoon 38,1 Mio$ 920 n.Chr.; 4 Ebenen Gemeinschaften/Exil/Kultur/Rückkehr; DACH-Yekkes-Sektion dt. jüd. Emigration 1930er; Leo-Baeck-Institut-Kooperation; MyHeritage Genealogie-Datenbank; cross-links /de/1-day-tel-aviv-itinerary+/de/yad-vashem-visitor-guide+/de/jewish-heritage-israel). 10 neue e2e-Tests (5 smoke + 5 a11y). DE guides: 187→192/398. Build: 1343→1348 pages (+5). 1979/1979 e2e pass (14.1m). Squash-merge af0dea0c. CI/Lighthouse in_progress at ship time.
 
 Notes: iter965 RESEARCH — 193rd research pass. Sources: touristisrael.com, tripadvisor.de, sterntours.de, rentacamper.de, israelmagazin.de, vanegade.de, wanderlog.com, christravelblog.com, tourguideofisrael.com, abraham.travel, francosphere.co.il, petitfute.com, cercledesvoyages.com, fairmoove.fr, newyorkjewishtravelguide.com, slavaguide.com, nomadicmatt.com. Defined: FR-24 (5 guides), ES-36 (5 guides), DE-22 (5 guides — pending DE-21 ship). Key gaps confirmed: zero DACH editorial for "Wohnmobil Israel" (rentacamper.de = booking page only); zero FR/DE/ES craft beer Israel travel guide; zero FR editorial for Israel business travel; DE archaeology experience guide entirely absent in DACH editorial. Cross-links all verified exist in each locale. nextRotationCategory = BUILD (iter966 = DE-21).
 
