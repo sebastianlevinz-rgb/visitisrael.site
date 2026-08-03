@@ -7317,3 +7317,57 @@ Sources: civitatis.com, jerusalen.com, routard.com, petitfute.com, urbanmeandere
 - Film/TV tourism is the highest-leverage non-overlap opportunity (large existing Netflix audience converting to location searches with no FR/DE editorial serving them).
 - Business travel DE is the clearest single-language commercial gap: DACH tech travelers a major segment.
 - Car rental editorial gap exists uniformly across FR/DE/ES — aggregators rank but no editorial; our comparison guide differentiates on Israel-specific nuances (no competitors cover CDW/CP rules or cross-Green-Line vehicle restrictions in these languages).
+
+### 2026-08-03 · iter960 · RESEARCH · 192nd pass · Gay Tel Aviv + Ammunition Hill + ANU Museum + Seasonal gaps + Tourism recovery
+
+**Sources:** touristisrael.com (Gay Tel Aviv, Gaza Border Tour new offering), travelgay.com, gay-sejour.com, gayvoyageur.com, cityzeum.com, misterbandb.com, misterbandb.com/gay-guide/israel/tel-aviv-yafo, jewishvirtuallibrary.org, anumuseum.org.il, itraveljerusalem.com, gojerusalem.com, gemsinisrael.com, tripadvisor.com, cruiseindustrynews.com, cruisenews.io, travelandtourworld.com, jpost.com, forbes.com/michaelgoldstein/2026/01/11/with-13-million-visitors-tourism-to-israel-began-recovery-in-2025/, semerenkogroup.com
+
+**Gay Tel Aviv competitive landscape:**
+- touristisrael.com: /tel-aviv/gay-tel-aviv/ dedicated page + /why-tel-aviv-is-the-ultimate-lgbtq-travel-destination/ editorial — 2 dedicated LGBTQ pages; neither available in FR/DE/ES
+- travelgay.com: "Gay Tel Aviv City Guide 2026" + "Gay Israel Guide 2026" — ranking for head terms
+- misterbandb.com: "Gay Tel Aviv-Yafo 2026 Guide" (accommodation platform)
+- FR competitors: gayvoyageur.com/israel/guide-gay-tel-aviv/ + gay-sejour.com/fr/b-655/tel-aviv.html + cityzeum.com + coolisrael.fr — thin FR competition, none with practical depth of touristisrael.com
+- ES competitors: ZERO dedicated Spanish editorial (only "Tours Privados" commercial content found)
+- DE competitors: not found in this pass
+- Our site: ZERO pages on LGBTQ+ travel (DONE list says "LGBTQ" was captured but only as a sub-topic; no dedicated page)
+- Gap: need /gay-tel-aviv EN guide first; then FR+ES translations would be uncontested
+
+**Ammunition Hill FR/DE/ES landscape:**
+- itraveljerusalem.com: guided tours page (EN only)
+- gojerusalem.com: /items/230/Ammunition-Hill/ (EN only)
+- gemsinisrael.com, funinjerusalem.com, beinharimtours.com: all EN-only
+- TripAdvisor: EN reviews page (standard)
+- FR/DE/ES: zero dedicated editorial guides found — complete SERP whitespace in all 3 target languages
+- ~55K annual visitors; Six Day War 1967; trenches + tanks + documentary film; 360° Jerusalem views
+
+**ANU Museum FR/DE/ES landscape:**
+- anumuseum.org.il: has own FR (anumuseum.org.il/anu-french/) and ES (anumuseum.org.il/anu-spanish/) promo pages — museum marketing, not travel editorial
+- jewishvirtuallibrary.org: EN-only reference
+- tripadvisor.com: standard EN review aggregation
+- Zero independent FR/DE/ES travel editorial found — museum's own pages are the only FR/ES presence
+- Gap: authoritative independent editorial guide in each language outranks museum marketing page
+
+**Tourism recovery (Israel 2026 context):**
+- 1.3M tourists in 2025 (Forbes, Jan 2026); recovery from ~4.55M in 2019 (70% below pre-conflict)
+- France: ~159K visitors in 2025 (3rd largest source market after USA ~400K)
+- June 2026: US/Canada arrivals +73% YoY; January 2026: +50% foreign arrivals
+- 88% visitor satisfaction; 83% would recommend Israel (Ministry of Tourism survey)
+- $55M infrastructure investment approved; Haifa cruise terminal opened May 14 2026 (already in our guides ✓)
+- Recovery narrative = good context for freshness updates on is-israel-safe.md and airlines guides
+
+**New Tourist Israel content (2026 additions):**
+- Gaza Border Tour (Nova Site memorial + kibbutzim + memorial sites) — sensitive; HUMAN REVIEW REQUIRED; not in scope for autonomous loop
+- Tel Aviv Saturday Walking Tour Florentin + Park HaMesila — thin niche; we have tel-aviv-neighborhoods-guide covering Florentin
+- June 2026 events guide — we have israel-events-festivals (ES) and seasonal guides covering events context
+
+**Seasonal content gaps FR/DE:**
+- FR has ONLY israel-in-autumn; DE has ZERO seasonal guides (all 15 missing)
+- FR ranking competitors for seasonal queries: routard.com (thin safety advisories), partirou.com (generic), trip-planner.io/fr (AI-generated) — all thin; editorial model wins easily
+- DE seasonal gap: zero DACH editorial seasonal Israel guides found; lonelyplanet.de (climate only), marcopolo.de (brief) — but not structured seasonal guides
+
+**Strategy notes (iter960):**
+- Gay Tel Aviv EN guide is the single biggest missing LGBTQ page; high-spending segment; touristisrael.com ranks for it; no ES/FR editorial competition; add EN first, then translate
+- ANU Museum is an uncontested gap across all 3 locales: museum's own FR/ES pages are the only FR/ES competition — easily outranked with authoritative travel editorial
+- Ammunition Hill is a symmetric SERP whitespace gap in FR/DE/ES (identical to Gamla/Herodion dynamic from iter955)
+- Tourism recovery framing: consider updating is-israel-safe.md + airlines-flying-israel-2026.md intro sections with 2026 recovery context (73% US/Canada increase; 88% satisfaction) — but honesty rule: only include if verified by source
+- DE seasonal content is the largest single editorial category gap: 15 guides × 1 locale = 15 potential pages, all with near-zero competition

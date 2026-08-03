@@ -1,13 +1,15 @@
 # LOOP STATE
 
-- iteration: 959
-- lastMode: REVIEW
-- lastItem: review-959-fr22-meta-links
-- lastResult: review-959-fr22-meta-links SHIPPED f9dfb459. FR-22 audit: 4/5 meta clean; herodion-guide desc 162→153 (trimmed "national" from "parc national"); all 29 /fr/* internal links resolve; no H1 in body; all hero images exist; all affiliate partners valid; no honesty flags. Build 1328 pages; 1939/1939 e2e pass (20.3m). CI in_progress at commit time.
-- nextRotationCategory: RESEARCH (iter960; 960%5=0 → RESEARCH)
+- iteration: 960
+- lastMode: RESEARCH
+- lastItem: research-960-192nd-pass
+- lastResult: research-960-192nd-pass COMPLETE (no ship). 192nd research pass. Defined FR-23 (anu-museum, ammunition-hill, design-museum-holon, israel-in-summer, israel-in-spring), ES-35 (israel-film-tv-tourism, anu-museum, ammunition-hill, israel-in-spring, design-museum-holon), DE-21 (israel-in-summer, israel-in-spring, israel-in-winter, ammunition-hill, anu-museum — pending DE-20 ship). New EN P2: gay-tel-aviv guide. DE-20 status updated to "ready" (DE-19 shipped iter956). Key competitive intelligence: Gay Tel Aviv zero ES editorial; Ammunition Hill SERP whitespace FR/DE/ES; ANU Museum zero editorial FR/DE/ES; DE seasonal guides entirely missing (all 15); France = 3rd largest Israel source market 159K visitors 2025; tourism recovery +73% US/Canada June 2026. Haifa cruise terminal guide already current (May 14 2026 opening already in our guide). Guide counts: EN=398, FR=197, DE=182, ES=175.
+- nextRotationCategory: BUILD (iter961; 961%5=1 → BUILD: i18n top-priority = FR-23 or ES-35)
 - higgsfieldSpent: 0
-- updatedAt: 2026-08-03T04:00Z
+- updatedAt: 2026-08-03T06:00Z
 - branch context: work on master; feature work on auto/<slug>
+
+Notes: iter960 RESEARCH — 192nd research pass. Sources: touristisrael.com, travelgay.com, gay-sejour.com, gayvoyageur.com, cityzeum.com, misterbandb.com, jewishvirtuallibrary.org, anumuseum.org.il, itraveljerusalem.com, gojerusalem.com, gemsinisrael.com, tripadvisor.com, cruiseindustrynews.com, travelandtourworld.com, jpost.com, forbes.com. Defined FR-23 + ES-35 + DE-21 batches; added gay-tel-aviv EN P2; DE-20 status fixed to "ready" (DE-19 confirmed shipped iter956). Guide counts: EN=398, FR=197 (201 gaps), DE=182 (216 gaps), ES=175 (223 gaps). nextRotationCategory → BUILD (iter961; 961%5=1).
 
 Notes: iter959 REVIEW — review-959-fr22-meta-links SHIPPED f9dfb459. FR-22 audit (gamla, herodion, design-museum-holon, eilat-ramon-airport, israel-film-tv-tourism): titles all ≤65 (51–63 chars); descriptions 4/5 clean — herodion-guide was 162 chars → trimmed to 153 (removed "national" from "parc national d'Hérodion"); all 29 /fr/* internal links resolve; no H1 in body; all hero images present; all affiliate partners valid (getyourguide/viator/booking/discovercars/abraham); no honesty flags. Gate: pnpm check 0 errors; build 1328 pages; 1939/1939 e2e pass (20.3m). CI in_progress at commit time. nextRotationCategory → RESEARCH (iter960; 960%5=0).
 
@@ -51,4 +53,4 @@ Notes: iter938 BUILD — de-phase-17 SHIPPED 86c7fbed. 5 Standard Hochdeutsch gu
 
 Cron b7325b16 hourly @ :17. Loop history: 19 tools + sitemap-lastmod + link-checker(+depth) + i18n
 Phase0/1a/1b/1c/2 Batches1-18(COMPLETE) + 49 review passes + 5 technical (event-schema + meta-trim + locale-links + freshness-688 + airlines-freshness-delta-atl-bos) + 81 EN guides + 7 tools-monetization + 2 comparisons;
-research iters 5/10/20/30/35/40/45/50/55/60/65/70/75/80/85/90/95/100/105/110/115/120/125/130/135/140/145/150/155/160/165/170/175/180/185/190/195/200/205/210/215/220/225/230/235/240/245/250/255/260/265/270/275/280/285/290/295/300/305/310/315/320/325/330/335/340/345/350/355/360/365/370/375/380/385/390/395/400/405/410/420/425/430/435/440/445/450/455/460/465/470/480/485/490/495/500/505/510/515/520/525/535/540/545/550/555/560/565/570/575/580/585/590/595/600/605/610/615/620/625/630/635/640/645/650/655/660/665/670/675/680/685/690/695/700/705/710/715/720/725/730/735/740/745/750/755/760/765/775/785/790/810/815/820/825/835/840/845/850/859/864/865/870/875/880/885/890/895/900/905/910/915/920/925/930/940/945/950/955.
+research iters 5/10/20/30/35/40/45/50/55/60/65/70/75/80/85/90/95/100/105/110/115/120/125/130/135/140/145/150/155/160/165/170/175/180/185/190/195/200/205/210/215/220/225/230/235/240/245/250/255/260/265/270/275/280/285/290/295/300/305/310/315/320/325/330/335/340/345/350/355/360/365/370/375/380/385/390/395/400/405/410/420/425/430/435/440/445/450/455/460/465/470/480/485/490/495/500/505/510/515/520/525/535/540/545/550/555/560/565/570/575/580/585/590/595/600/605/610/615/620/625/630/635/640/645/650/655/660/665/670/675/680/685/690/695/700/705/710/715/720/725/730/735/740/745/750/755/760/765/775/785/790/810/815/820/825/835/840/845/850/859/864/865/870/875/880/885/890/895/900/905/910/915/920/925/930/940/945/950/955/960.

@@ -6,19 +6,19 @@
 >
 > One bounded slice per loop iteration. NEVER bulk-translate in one shot.
 
-## Current status snapshot (2026-08-02 iter944 REVIEW — FR-19 MERGED 7210f3d3; ES-32 meta overruns flagged; DE-18 DEFINED iter940)
+## Current status snapshot (2026-08-03 iter960 RESEARCH — FR-23 DEFINED; ES-35 DEFINED; DE-21 DEFINED)
 
 | Locale | Guides | Attractions | Regions | Itineraries |
 |--------|--------|-------------|---------|-------------|
 | en     | 398    | 65          | 11      | 6           |
-| fr     | 182    | 61          | 11      | 6           |
-| de     | 172    | 61          | 11      | 6           |
-| es     | 165    | 61          | 11      | 6           |
+| fr     | 197    | 61          | 11      | 6           |
+| de     | 182    | 61          | 11      | 6           |
+| es     | 175    | 61          | 11      | 6           |
 
 **Gaps to close:**
-- es guides: **233 missing** (165/398 done — Phase ES-32 SHIPPED iter941 070daf35; **Phase ES-33 TBD — next ES BUILD**; NOTE: ES-32 meta overruns flagged iter944 — P2 BACKLOG review-es32-meta-trim)
-- fr guides: **211 missing** (187/398 done — Phase FR-20 SHIPPED iter948 da608dbd; **Phase FR-21 TBD — next FR BUILD**)
-- de guides: **226 missing** (172/398 done — Phase DE-17 SHIPPED iter938 86c7fbed; **Phase DE-18 DEFINED iter940 — next DE BUILD**)
+- es guides: **223 missing** (175/398 done — Phase ES-34 SHIPPED iter957 5dd62546; **Phase ES-35 DEFINED iter960 — next ES BUILD**)
+- fr guides: **201 missing** (197/398 done — Phase FR-22 SHIPPED iter958 4bb90c36 + reviewed iter959; **Phase FR-23 DEFINED iter960 — next FR BUILD**)
+- de guides: **216 missing** (182/398 done — Phase DE-19 SHIPPED iter956 93b5eeff; **Phase DE-20 DEFINED iter955 — next DE BUILD; DE-21 DEFINED iter960 after that**)
 - fr/de/es attractions: **4 missing each** (the 4 EN attractions added after Phase 4)
 
 **Dead Sea cluster status (iter855 audit):**
@@ -1302,3 +1302,90 @@ Cross-links to verify before BUILD:
 - /de/israel-by-month: CHECK — confirmed in DE (de-phase-17 shipped it); use /de/israel-by-month ✓
 
 Quality: Standard Hochdeutsch; YAML double-quotes; /de/* prefix only for confirmed-existing DE pages (EN fallbacks where DE missing); no fabricated prices (₪ Preisspannen only); honeymoon — Makhtesh Ramon "herzförmig" honesty note (Vogelperspektive); hidden gems — Meshushim summer heat warning (Frühjahr/Herbst besser); GYG vs Viator: KEINE genauen Provisionssätze — Plattformmerkmale beschreiben; Hebräisch-Phonetik: nur bekannte/verifizierbare Ausspracheregeln, keine erfundenen Wörter.
+
+---
+
+## Phase FR-23 (197 → 202/398) — DEFINED iter960 RESEARCH
+
+All 5 confirmed MISSING from FR via `comm -23` (2026-08-03 iter960).
+
+Guides: `anu-museum-guide.md`, `ammunition-hill-jerusalem.md`, `design-museum-holon.md`, `israel-in-summer.md`, `israel-in-spring.md`
+
+### Content sketches
+
+- `anu-museum-guide.md`: FR "ANU – Le Musée du Peuple Juif : Guide du Visiteur (2026)" — campus Université Tel Aviv (Ramat Aviv); plus grand musée juif du monde (rouvert 2021 après rénovation décennale); collections permanentes: Histoire de la Haskala, immigration vers Eretz Israël, Shoah et renaissance, culture séfarade/ashkénaze; Génération (interactive: trouvez vos origines familiales); Salle des noms reliant aux 4,8M victimes de la Shoah sur Yad Vashem; restaurants casher sur campus; horaires (fermé dimanche; 10h–18h sam); ETA-IL requis pour visiteurs francophones; 3 CTAs: GYG visite guidée Yad Vashem + ANU / Booking.com hôtels TLV / Abraham Tours programme patrimonial; cross-links /fr/tel-aviv-museums ✓, /fr/yad-vashem-visitor-guide ✓, /fr/jewish-heritage-israel ✓; note honnêteté: collection en évolution permanente → "vérifiez programme actuel sur anumuseum.org.il"
+
+- `ammunition-hill-jerusalem.md`: FR "Givat HaTachmoshet – Colline des Munitions : Guide du Mémorial (2026)" — mémorial de la Bataille de Ammunition Hill (5–7 juin 1967, Guerre des Six Jours); 71 soldats israéliens tués pour reprendre le poste de la Légion jordanienne; site ouvert aux visiteurs: tranchées historiques + 3 tanks d'époque + maquette Jérusalem 1967 + musée intérieur (film documentaire 22 min, EN/HE); vues 360° sur Jérusalem depuis le sommet; visites de nuit disponibles (réserver à l'avance); entrée aux tranchées gratuite / film = petit supplément; honnêteté: framing mémoriel sobre, pas de glorification militaire; perspective de rapprochement: le mémorial commémore à la fois la bravoure et le deuil; cross-links /fr/1-day-jerusalem-itinerary ✓, /fr/western-wall-guide ✓, /fr/yad-vashem-visitor-guide ✓; 3 CTAs: GYG Jerusalem tours / Abraham Tours / Booking.com Jerusalem hotels
+
+- `design-museum-holon.md`: FR "Musée du Design Holon (Ron Arad) : Guide Pratique (2026)" — seul musée de design contemporain au Proche-Orient; Ron Arad (architecte israélo-britannique); 5 galeries à cloisons mobiles ondulantes en acier Corten; expositions temporaires 3–4×/an (design industriel, mode, typographie, UX); 10 min en bus depuis Azrieli (Dan 1 ou Sherut); non dimanche (ouvert 10h–18h sauf jeudi jusqu'à 21h); partenariats internationaux (MoMA, V&A, Pompidou); café Design Shop; entrée ≈ ₪ (vérifier tarifs actuels); HONESTY: expositions changent tous les trimestres — ne pas fabriquer de titres d'expositions précises; cross-links /fr/1-day-tel-aviv-itinerary ✓, /fr/day-trips-from-tel-aviv ✓, /fr/tel-aviv-museums ✓; 3 CTAs: GYG Tel Aviv day tour / Viator museums / Booking.com TLV
+
+- `israel-in-summer.md`: FR "Israël en Été (Juillet–Août) : Guide Pratique (2026)" — saison haute touristique; Juillet = mois le plus chaud (34–38°C en plaine; 22–26°C à Tibériade le soir; 28–32°C côte méditerranéenne); Dead Sea: visite matinale UNIQUEMENT (6h–10h; sirocco (sharav) peut dépasser 45°C à 14h); Galilée: Golan et Mont Carmel restent 5–8°C plus frais = ressourcement altitude; TLV: plages (Hilton/Frishman/Gordon/Alma) parfaites 8h–12h, sieste 13h–17h, retour plage 18h–21h; Caesarea: festivals d'été au théâtre romain (Metallica a joué 2024; BB King jadis); Kinneret: ski nautique, kitesurf, Kineret Yam plage gratuite; réservations à faire 2–3 mois à l'avance (hôtels +30–40% vs basse saison); Booking.com affiliate été; cross-links /fr/best-beaches-israel ✓, /fr/dead-sea-guide ✓, /fr/3-days-in-galilee ✓, /fr/eilat-beach-guide ✓; FAQs (Trop chaud en août? Faut-il la clim? Plages bondées le samedi?); HONESTY: températures sont des plages historiques, vérifier prévisions avant départ
+
+- `israel-in-spring.md`: FR "Israël au Printemps (Mars–Mai) : Saison Idéale (2026)" — meilleur compromis: 18–24°C, peu d'humidité, touristes encore peu nombreux sauf Pâques/Pessah; Wildflowers: anemones rouges (kalaniyot) du Néguev (pic fév–mars); cyclamens et iris sauvages Galilée (mars–avril); Pessah 2027 (22–29 avril): marchés fermés premier et dernier soir; restaurants casher "pessahdiques" servent pains azymes = contexte authentique à expérimenter; Pâques chrétienne 2027: catholique 20 avril, orthodoxe 12 avril; Via Dolorosa procession franciscaine (vendredi 15h); Feu Sacré (veille Pâques orthodoxe); basse saison tarifaire en mars; cross-links /fr/easter-in-jerusalem ✓, /fr/1-day-jerusalem-itinerary ✓, /fr/best-time-to-visit-israel ✓; Booking.com spring hotel affiliate; HONESTY: dates religieuses 2027 confirmées; Pessah = incertitude certains restaurants → "vérifiez auprès de l'établissement"
+
+Cross-links to verify before BUILD:
+- /fr/tel-aviv-museums ✓, /fr/yad-vashem-visitor-guide ✓, /fr/jewish-heritage-israel ✓: confirmed existing
+- /fr/1-day-jerusalem-itinerary ✓, /fr/western-wall-guide ✓: confirmed existing
+- /fr/1-day-tel-aviv-itinerary ✓, /fr/day-trips-from-tel-aviv ✓: confirmed existing
+- /fr/best-beaches-israel ✓, /fr/dead-sea-guide ✓, /fr/3-days-in-galilee ✓, /fr/eilat-beach-guide ✓: confirmed existing
+- /fr/easter-in-jerusalem ✓, /fr/best-time-to-visit-israel ✓: confirmed existing
+
+Quality: Metropolitan French; YAML double-quotes; /fr/* prefix only for confirmed-existing FR pages; no fabricated prices (₪ plages seulement); ammunition-hill = framing mémoriel sobre; design-museum = ne pas fabriquer titres d'expositions; seasonal = fourchettes historiques de températures uniquement.
+
+---
+
+## Phase ES-35 (175 → 180/398) — DEFINED iter960 RESEARCH
+
+All 5 confirmed MISSING from ES via `comm -23` (2026-08-03 iter960).
+
+Guides: `israel-film-tv-tourism.md`, `anu-museum-guide.md`, `ammunition-hill-jerusalem.md`, `israel-in-spring.md`, `design-museum-holon.md`
+
+### Content sketches
+
+- `israel-film-tv-tourism.md`: ES "Turismo de Cine y TV en Israel : Locaciones de Fauda, Shtisel y Teherán (2026)" — Fauda (Netflix LATAM; "Al-Hayat" en algunos mercados): Kfar Kasim Temporada 1, Ciudad Vieja de Jaffa T4, cuartel Shayetet 13 Atlit; Shtisel (Netflix): calles de Mea She'arim (arquitectura ultraortodoxa; LGBTQ cuidado al visitar barrio); Teherán: Jaffa puerto y Florentin; Fauda T1 Aldea druza Daliyat el-Carmel (combina con /es/druze-villages-carmel ✓); No fabricar anécdotas de rodaje; fuentes: producción oficial + Israel Film Commission; visita de estado Milei a Israel 2026 elevó perfil de Israel en Argentina → mayor interés LATAM en destino; 3 CTAs: GYG recorrido Fauda Jaffa / Abraham Tours Jerusalén / Booking.com TLV hoteles; cross-links /es/jaffa-travel-guide ✓, /es/1-day-jerusalem-itinerary ✓, /es/best-tours-in-israel ✓; FAQs (¿Se puede visitar Mea She'arim? ¿Hay tours de Fauda? ¿Están abiertas las locaciones?)
+
+- `anu-museum-guide.md`: ES "ANU – Museo del Pueblo Judío Tel Aviv : Guía del Visitante (2026)" — Campus Universidad de Tel Aviv (Ramat Aviv); mayor museo judío del mundo (reabierto 2021); colecciones: Historia diáspora sefardí/asquenazí; Haskala; Generación (genealogía interactiva); corredor Shoá y renacimiento; Argentina: 180K+ judíos = 3ª comunidad más grande LATAM; Brasil/México comunidades activas; ETA-IL requisito; horarios (cerrado domingo); 3 CTAs: GYG museo + judería / Booking.com TLV / Abraham Tours; cross-links /es/tel-aviv-museums ✓, /es/yad-vashem-visitor-guide ✓, /es/jewish-heritage-israel ✓; nota honestidad: "verifique programa actual en anumuseum.org.il"
+
+- `ammunition-hill-jerusalem.md`: ES "Givat HaTachmoshet – Colina de las Municiones : Guía del Memorial (2026)" — memorial de la Batalla de Givat HaTachmoshet (5–7 junio 1967, Guerra de los Seis Días); 71 soldados israelíes murieron tomando el puesto jordano; acceso libre a trincheras / costo pequeño para película 22 min; vistas 360° sobre Jerusalén; tours nocturnos (reserva previa); framing: memorial de combate y duelo; no glorificación; cross-links /es/1-day-jerusalem-itinerary ✓, /es/western-wall-guide ✓, /es/yad-vashem-visitor-guide ✓; 3 CTAs GYG / Abraham / Booking Jerusalem
+
+- `israel-in-spring.md`: ES "Israel en Primavera (Marzo–Mayo) : Guía de Temporada (2026)" — mejor relación clima/precio/aglomeración: 18–24°C; kalaniyot rojas Néguev (feb–mar); iris y ciclámenes Galilea; Pesaj 2027 (22–29 abril): cierre primer/último anochecer; Semana Santa 2027 (católica 20 abr; ortodoxa 12 abr); Vía Dolorosa procesión franciscana viernes 15h; Fuego Sagrado; Baja temporada en marzo = precios más bajos; cross-links /es/easter-in-jerusalem ✓, /es/1-day-jerusalem-itinerary ✓, /es/best-time-to-visit-israel ✓; Booking.com primavera affiliate; HONESTY: fechas religiosas 2027 confirmadas; Pesaj cierre variable según restaurante → "consulte con el establecimiento"
+
+- `design-museum-holon.md`: ES "Museo de Diseño Holon (Ron Arad) : Guía Práctica (2026)" — único museo de diseño contemporáneo Oriente Próximo; Ron Arad (arquitecto israelí-británico); exposiciones temporarias 3–4×/año; 5 galerias con paneles de acero Cor-Ten; desde Azrieli 10 min en autobús; no domingos; tienda de diseño + café; Holon = barrio industrial reconvertido + museo Mediatheque vecino; HONESTY: no fabricar títulos de exposiciones; cross-links /es/1-day-tel-aviv-itinerary ✓, /es/day-trips-from-tel-aviv ✓, /es/tel-aviv-museums ✓; 3 CTAs GYG / Viator / Booking TLV
+
+Cross-links to verify before BUILD:
+- /es/jaffa-travel-guide ✓, /es/1-day-jerusalem-itinerary ✓, /es/best-tours-in-israel ✓: confirmed existing
+- /es/tel-aviv-museums ✓, /es/yad-vashem-visitor-guide ✓, /es/jewish-heritage-israel ✓: confirmed existing
+- /es/western-wall-guide ✓: confirmed existing
+- /es/easter-in-jerusalem ✓, /es/best-time-to-visit-israel ✓: confirmed existing
+- /es/1-day-tel-aviv-itinerary ✓, /es/day-trips-from-tel-aviv ✓: confirmed existing
+
+Quality: Spanish neutro latinoamericano (tuteo); YAML double-quotes; /es/* prefix solo para páginas ES existentes; no fabricar precios (rangos en ₪ solamente); ammunition-hill = framing de memorial; design-museum = no fabricar títulos de exposiciones; film-tv = no fabricar ubicaciones de rodaje sin fuente oficial.
+
+---
+
+## Phase DE-21 (187 → 192/398) — DEFINED iter960 RESEARCH (pending DE-20 ship)
+
+All 5 confirmed MISSING from DE via `comm -23` (2026-08-03 iter960).
+
+Guides: `israel-in-summer.md`, `israel-in-spring.md`, `israel-in-winter.md`, `ammunition-hill-jerusalem.md`, `anu-museum-guide.md`
+
+### Content sketches
+
+- `israel-in-summer.md`: DE "Israel im Sommer (Juli–August) : Reiseführer (2026)" — Hochsaison; Temperaturzonen: Küste/TLV 30–33°C (Brise), Totes Meer bis 40–43°C (kein Sharav-Schatten), Golan 22–27°C (Wanderparadies); Dead-Sea-Regel: nur morgens (6–10h); Sharav (Hitzewelle) jederzeit möglich → Warnung; Galilée: Kinneret-See Wassertemperatur 28°C, Kite- und Windsurfen; TLV: Kikar Hamedina Marktviertel frühmorgens; Caesarea Amphitheater Konzerte (Sommer); Hotelbuchung 2–3 Monate früher (Preise +30–40%); Condor/TUI Direktflüge sommer; Booking.com Sommer-Affiliate; cross-links /de/dead-sea-guide ✓, /de/best-beaches-israel ✓, /de/3-days-in-galilee ✓; HONESTY: Temperaturangaben = historische Mittelwerte; aktuelles Wetter bei DWD/wetter.com prüfen
+
+- `israel-in-spring.md`: DE "Israel im Frühling (März–Mai) : Beste Reisezeit (2026)" — 18–24°C; Kalaniyot (Anemonen) im Néguev (Feb–März); Iris und Zyklamen in Galilée; Pessach 2027 (22.–29. April): Marktschließungen erster/letzter Abend; christliche Reisende: Ostern 2027 (katholisch 20. April; orthodox 12. April); Via-Dolorosa-Prozession franciscain freitags 15h; Heiliges Feuer; März = Nebensaison = günstigere Hotels; Blütezeit Gólan (Mohn + Vergissmeinnicht März–April); Booking.com Frühjahrstarife; cross-links /de/easter-in-jerusalem ✓, /de/1-day-jerusalem-itinerary ✓, /de/best-time-to-visit-israel ✓; HONESTY: Oster-/Pessach-Daten 2027 bestätigt; Restaurantschließungen Pessach variabel → "beim Restaurant anfragen"
+
+- `israel-in-winter.md`: DE "Israel im Winter (Dezember–Februar) : Weihnachten und Regen (2026)" — Weihnachten = Höhepunkt für Pilger (24./25. Dez Bethlehem Mitternachtsmesse; Checkpoint 300 Logistik; Ein Kerem Franziskanermesse); Jerus. Weihnachtsmarkt YMCA (Dez); Golan Schnee möglich ab Dez (Hermon Ski); Eilat Winter-Sonnenflucht (Condor/TUI Direktflüge Nov–März; 22°C Eilat vs 8°C Berlin); TLV: Winternächte angenehm (14–18°C); Regen hauptsächlich Galilée + Jerusalem; Preise: Heiligabend/Sylvester = Spitzenpreise; Anfang Dez + Feb = Nebensaison; Booking.com Winter Affiliate; cross-links /de/christmas-in-israel ✓, /de/bethlehem-tours-compared ✓, /de/eilat-travel-guide ✓; HONESTY: Schneemenge auf dem Hermon variiert jährlich; Checkpoint-Logistik für Bethlehem kann sich ändern → "Echtzeit-Infos des Veranstalters prüfen"
+
+- `ammunition-hill-jerusalem.md`: DE "Givat HaTachmoshet – Hügel der Munition : Gedenkstätte Jerusalem (2026)" — Gedenkstätte für die Panzerschlacht (5.–7. Juni 1967, Sechs-Tage-Krieg); 71 gefallene israelische Soldaten; Bedeutung: Deutsche-israelische Beziehungen (BRD-Israel Diplomatie 1965; Wiedergutmachungsabkommen 1952; Israelische Unabhängigkeit 1948); Gelände: Schützengräben + 3 Panzer + Modell Jerusalems 1967 + Innenmuseum (Dokumentarfilm 22 Min, EN/HE); Zutritt Gelände kostenlos; Film: kleiner Betrag; 360°-Blick über Jerusalem; Nachtführungen verfügbar (Reservierung nötig); HONESTY: Militärdenkmal — sachliche Darstellung Kampf und Verluste beider Seiten; keine Verherrlichung; cross-links /de/1-day-jerusalem-itinerary ✓, /de/western-wall-guide ✓, /de/yad-vashem-visitor-guide ✓; 3 CTAs GYG / Abraham / Booking Jerusalem
+
+- `anu-museum-guide.md`: DE "ANU – Museum des Jüdischen Volkes Tel Aviv : Besucherführer (2026)" — Campus Universität Tel Aviv (Ramat Aviv); das weltgrößte jüdische Museum; Schwerpunkte: Jeckenim (deutschsprachige Juden im Exil / Einwanderer 1930er-Eretz Israel); Haskala (Jüdische Aufklärung Berlin); Shoah und Wiedergeburt; genealogische Datenbank Generation; deutsch-jüdische Presse (Berliner Tageblatt, Jüdische Allgemeine Zeitung); Bezug zu DACH: ca. 200.000 israelische Staatsbürger mit DE-Abstammung (Aufarbeitung + Identität); Eintrittzeiten (geschlossen sonntags; 10–18h); ETA-IL; Booking.com TLV hotels; 3 CTAs GYG / Viator / Abraham; cross-links /de/tel-aviv-museums ✓, /de/yad-vashem-visitor-guide ✓, /de/jewish-heritage-israel ✓; HONESTY: "Verifizieren Sie aktuelle Ausstellungen unter anumuseum.org.il vor dem Besuch"
+
+Cross-links to verify before BUILD:
+- /de/dead-sea-guide ✓, /de/best-beaches-israel ✓, /de/3-days-in-galilee ✓: confirmed existing
+- /de/easter-in-jerusalem ✓, /de/1-day-jerusalem-itinerary ✓, /de/best-time-to-visit-israel ✓: confirmed existing
+- /de/christmas-in-israel ✓, /de/bethlehem-tours-compared ✓, /de/eilat-travel-guide ✓: confirmed existing
+- /de/western-wall-guide ✓, /de/yad-vashem-visitor-guide ✓: confirmed existing
+- /de/tel-aviv-museums ✓, /de/jewish-heritage-israel ✓: confirmed existing
+
+Quality: Standard Hochdeutsch; YAML double-quotes; /de/* prefix nur für bestätigte DE-Seiten (EN-Fallback bei fehlender DE-Version); Preisangaben als Spannen (₪); Gedenkstätten-Seiten sachlich ohne Verherrlichung; Saisonführer: historische Temperaturbänder, kein Tageswetter-Versprechen; ANU-Museum: keine fabrizierten Ausstellungstitel.

@@ -14627,3 +14627,26 @@ Next: iter955 → RESEARCH (191st research pass).
 **Ship:** squash-merged auto/review-959-fr22-meta-trim → master f9dfb459; pushed. Branch deleted.
 
 **Next:** iter960 → RESEARCH (960%5=0 → 192nd research pass). Priority: DE-20 definition confirmation + ES-35 candidate batch + FR-23 candidate batch scouting. Backlog: DE-20 ready (gamla, herodion, israel-film-tv-tourism, israel-business-travel-guide, israel-car-rental-comparison); skyfield-extreme-park-jaffa + jerusalem-first-station-guide P2 for FR/DE/ES.
+
+## 2026-08-03T06:00Z · iter 960 · RESEARCH · research-960-192nd-pass (NO SHIP)
+
+Mode: RESEARCH (960%5==0). No code changed; gate not run.
+What: 192nd research pass. Searched competitor landscape for FR-23/ES-35/DE-21 batch candidates + new EN opportunities.
+Sources: touristisrael.com, travelgay.com, gay-sejour.com, gayvoyageur.com, cityzeum.com, misterbandb.com, jewishvirtuallibrary.org, anumuseum.org.il, itraveljerusalem.com, gojerusalem.com, gemsinisrael.com, tripadvisor.com, cruiseindustrynews.com, travelandtourworld.com (multiple articles), jpost.com, forbes.com.
+
+Key findings:
+- Gay Tel Aviv: zero EN page on site; touristisrael.com + travelgay.com rank for head terms; zero ES editorial competitor; thin FR competitors (gayvoyageur.com, gay-sejour.com); high-spending LGBTQ+ segment; added P2/M BACKLOG item for EN guide (then FR/ES/DE translations)
+- Ammunition Hill: zero FR/DE/ES editorial (itraveljerusalem, gojerusalem, Bein Harim all EN-only); ~55K annual visitors; 1967 Six Day War memorial; confirmed missing comm -23 in all 3 locales → included in FR-23, ES-35, DE-21
+- ANU Museum: zero independent FR/DE/ES travel editorial; museum's own FR/ES promo pages (anumuseum.org.il/anu-french, /anu-spanish) are the only non-EN presence = easily outranked; strong diaspora angles for FR (largest European Jewish community) + ES (LATAM Jewish diaspora) + DE (Yekkes history, German Jewish emigration 1930s) → included in all 3 batches
+- Seasonal series: FR has ONLY israel-in-autumn (14 of 15 seasons missing); DE has ZERO seasonal guides; ES has autumn/summer/winter (12 missing); highest search-volume seasonal queries = summer/spring/winter → prioritized in all 3 batches
+- Tourism recovery context: Israel 1.3M visitors 2025 (France 3rd largest at 159K); +73% US/Canada June 2026; 88% satisfaction; Haifa cruise terminal $5.5M May 14 2026 → already fully in our haifa-cruise-terminal-guide.md ✓ (no freshness update needed)
+- DE-20 status corrected: DE-19 shipped iter956 (DE=182 confirmed by file count); DE-20 now "ready" (removed pending caveat)
+
+New batches defined:
+- FR-23: anu-museum-guide, ammunition-hill-jerusalem, design-museum-holon, israel-in-summer, israel-in-spring (all 5 confirmed MISSING via comm -23)
+- ES-35: israel-film-tv-tourism, anu-museum-guide, ammunition-hill-jerusalem, israel-in-spring, design-museum-holon (all 5 confirmed MISSING via comm -23)
+- DE-21: israel-in-summer, israel-in-spring, israel-in-winter, ammunition-hill-jerusalem, anu-museum-guide (all 5 confirmed MISSING via comm -23; pending DE-20 ship)
+
+Gate: not run (RESEARCH mode). Last known GREEN: build 1328 pages; 1939/1939 e2e pass (iter959 f9dfb459).
+Ship: .loop/ memory files only.
+Next: iter 961 = BUILD/i18n. Top priority: FR-23 or ES-35 (both P1, ready). nextRotationCategory = BUILD (961%5==1).
