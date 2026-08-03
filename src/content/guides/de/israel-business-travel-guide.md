@@ -62,6 +62,8 @@ Schabbat beginnt bei Sonnenuntergang am Freitag und endet nach Anbruch der Dunke
 
 Schabbat als Ressource nutzen statt als Hindernis: Ein Freitagabend in Tel Aviv ohne Geschäftsverpflichtungen ist eine ausgezeichnete Gelegenheit für ein Uferrestaurant in Jaffa, einen Spaziergang durch die Weiße Stadt oder die Vorbereitung für Sonntagsmeetings.
 
+Für alle Schabbat-Planungsdetails — Öffnungszeiten, Ausnahmen, was läuft und was nicht: [Schabbat in Israel — vollständiger Leitfaden](/de/shabbat-guide).
+
 ---
 
 ## Unterkunft: Tel Aviv oder Jerusalem?
@@ -87,6 +89,8 @@ Für Meetings mit Ministerien, NGOs oder Konferenzen am ICC Jerusalem:
 - **King David Hotel** (King David Street): historisches Flaggschiff, Standort internationaler Staatsdelegationen; Fußweg zum ICC
 - **Waldorf Astoria Jerusalem**: Moderne Luxus-Business-Einrichtungen, Jaffa-Tor-Nähe
 - **Dan Jerusalem Hotel**: Große Konferenzzentren, Jaffa-Tor-Blick
+
+Weitere Hotels nach Lage, Preis und Kategorie: [Beste Hotels in Tel Aviv](/de/best-hotels-tel-aviv) und [Beste Hotels in Jerusalem](/de/best-hotels-jerusalem).
 
 ---
 
@@ -142,7 +146,7 @@ Vollständige Transportdetails im [Israel Transport-Reiseführer](/de/transporta
 - **Bahn**: Schnell und zuverlässig zwischen Ben Gurion, Tel Aviv, Haifa, Be'ersheva — nicht Schabbat
 - **Gett**: Zuverlässige Taxi-App; Quittung per PDF; kein Preisanstieg bei Spitzenzeiten
 - **Mietwagen**: Nützlich für Jerusalem-Galilee-Tagestouren; in Tel Aviv meist unnötig
-- **Ben-Gurion-Sicherheit**: 2–3 Stunden vor internationalem Abflug einplanen; Sicherheitsbefragung ist Standard und umfangreich
+- **Ben-Gurion-Sicherheit**: 2–3 Stunden vor internationalem Abflug einplanen; Sicherheitsbefragung ist Standard und umfangreich — Details zur Flughafenlogistik im [Ben-Gurion-Flughafen-Leitfaden](/de/ben-gurion-airport-guide)
 
 ---
 
