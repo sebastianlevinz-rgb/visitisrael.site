@@ -1048,6 +1048,11 @@ const ROUTES = [
   '/es/gan-hashlosha-guide',
   '/es/eilat-ramon-airport-guide',
   '/es/israel-car-rental-comparison',
+  '/fr/gamla-nature-reserve-guide',
+  '/fr/herodion-guide',
+  '/fr/design-museum-holon',
+  '/fr/eilat-ramon-airport-guide',
+  '/fr/israel-film-tv-tourism',
 ];
 
 for (const route of ROUTES) {
