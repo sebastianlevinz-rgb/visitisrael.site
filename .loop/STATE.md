@@ -1,13 +1,15 @@
 # LOOP STATE
 
-- iteration: 964
-- lastMode: REVIEW
-- lastItem: review-964-de20-link-fix
-- lastResult: DE-20 audit SHIPPED 2ff5de3e. 5 guides clean: all titles ≤65, descs ≤160, all hero images/CTA images exist, all 24 /de/* internal links resolve, all affiliate partners valid, no H1 in body, no honesty flags. Fix: israel-business-travel-guide missing 3 link sets (shabbat-guide, best-hotels-tel-aviv+jerusalem, ben-gurion-airport-guide) — added. Gate: pnpm check 0 errors; build 1343 pages; 1969/1969 e2e pass (14.5m). CI in_progress at commit time.
-- nextRotationCategory: RESEARCH (iter965; 965%5=0 → RESEARCH)
+- iteration: 965
+- lastMode: RESEARCH
+- lastItem: research-965-193rd-pass
+- lastResult: RESEARCH ONLY — no code shipped. 193rd research pass. Defined 3 new batches: FR-24 (israel-business-travel-guide, israel-campervan, israel-car-rental-comparison, israel-craft-beer, israel-fine-dining), ES-36 (israel-business-travel-guide, israel-campervan, israel-craft-beer, israel-fine-dining, israel-affordable-luxury), DE-22 (israel-campervan, israel-craft-beer, israel-fine-dining, israel-best-scenic-drives, israel-archaeology-experience). All 15 guides confirmed MISSING via comm -23. Key competitive intel: zero DACH editorial for Wohnmobil Israel (rentacamper.de = booking-only); zero FR/DE/ES craft beer Israel guide; zero FR/ES fine dining Israel guide; DE archaeology gap (Biblische Archäologie = major DACH category). Guide counts: EN=398, FR=202, DE=187, ES=180. Gate: not run (RESEARCH mode). Last known GREEN: build 1343 pages; 1969/1969 e2e (iter964 2ff5de3e).
+- nextRotationCategory: BUILD (iter966; 966%5=1 → BUILD: priority = DE-21)
 - higgsfieldSpent: 0
-- updatedAt: 2026-08-03T09:00Z
+- updatedAt: 2026-08-03T10:00Z
 - branch context: work on master; feature work on auto/<slug>
+
+Notes: iter965 RESEARCH — 193rd research pass. Sources: touristisrael.com, tripadvisor.de, sterntours.de, rentacamper.de, israelmagazin.de, vanegade.de, wanderlog.com, christravelblog.com, tourguideofisrael.com, abraham.travel, francosphere.co.il, petitfute.com, cercledesvoyages.com, fairmoove.fr, newyorkjewishtravelguide.com, slavaguide.com, nomadicmatt.com. Defined: FR-24 (5 guides), ES-36 (5 guides), DE-22 (5 guides — pending DE-21 ship). Key gaps confirmed: zero DACH editorial for "Wohnmobil Israel" (rentacamper.de = booking page only); zero FR/DE/ES craft beer Israel travel guide; zero FR editorial for Israel business travel; DE archaeology experience guide entirely absent in DACH editorial. Cross-links all verified exist in each locale. nextRotationCategory = BUILD (iter966 = DE-21).
 
 Notes: iter964 REVIEW — review-964-de20-link-fix SHIPPED 2ff5de3e. Audited DE-20 batch (5 guides: gamla-nature-reserve-guide, herodion-guide, israel-film-tv-tourism, israel-business-travel-guide, israel-car-rental-comparison). CLEAN across all checks: titles 32–60 chars (≤65 ✓); descriptions 128–151 chars (≤160 ✓); all hero images and CTA images exist; all 24 /de/* internal links resolve to real files; affiliate partners all valid (getyourguide/viator/discovercars/booking/abraham/skyscanner/rentalcars); no H1 in any body; no fabricated ratings or exact prices (all prices stated as ranges ✓). Fix: israel-business-travel-guide was missing 4 internal cross-links to existing DE pages that the guide discusses substantively — shabbat-guide (Schabbat section), best-hotels-tel-aviv + best-hotels-jerusalem (hotel section), ben-gurion-airport-guide (transport section). Added 3 link additions (5 new links total). Gate: pnpm check 0 errors; build 1343 pages (unchanged); 1969/1969 e2e pass (14.5m). CI in_progress.
 
@@ -61,4 +63,4 @@ Notes: iter938 BUILD — de-phase-17 SHIPPED 86c7fbed. 5 Standard Hochdeutsch gu
 
 Cron b7325b16 hourly @ :17. Loop history: 19 tools + sitemap-lastmod + link-checker(+depth) + i18n
 Phase0/1a/1b/1c/2 Batches1-18(COMPLETE) + 49 review passes + 5 technical (event-schema + meta-trim + locale-links + freshness-688 + airlines-freshness-delta-atl-bos) + 81 EN guides + 7 tools-monetization + 2 comparisons;
-research iters 5/10/20/30/35/40/45/50/55/60/65/70/75/80/85/90/95/100/105/110/115/120/125/130/135/140/145/150/155/160/165/170/175/180/185/190/195/200/205/210/215/220/225/230/235/240/245/250/255/260/265/270/275/280/285/290/295/300/305/310/315/320/325/330/335/340/345/350/355/360/365/370/375/380/385/390/395/400/405/410/420/425/430/435/440/445/450/455/460/465/470/480/485/490/495/500/505/510/515/520/525/535/540/545/550/555/560/565/570/575/580/585/590/595/600/605/610/615/620/625/630/635/640/645/650/655/660/665/670/675/680/685/690/695/700/705/710/715/720/725/730/735/740/745/750/755/760/765/775/785/790/810/815/820/825/835/840/845/850/859/864/865/870/875/880/885/890/895/900/905/910/915/920/925/930/940/945/950/955/960.
+research iters 5/10/20/30/35/40/45/50/55/60/65/70/75/80/85/90/95/100/105/110/115/120/125/130/135/140/145/150/155/160/165/170/175/180/185/190/195/200/205/210/215/220/225/230/235/240/245/250/255/260/265/270/275/280/285/290/295/300/305/310/315/320/325/330/335/340/345/350/355/360/365/370/375/380/385/390/395/400/405/410/420/425/430/435/440/445/450/455/460/465/470/480/485/490/495/500/505/510/515/520/525/535/540/545/550/555/560/565/570/575/580/585/590/595/600/605/610/615/620/625/630/635/640/645/650/655/660/665/670/675/680/685/690/695/700/705/710/715/720/725/730/735/740/745/750/755/760/765/775/785/790/810/815/820/825/835/840/845/850/859/864/865/870/875/880/885/890/895/900/905/910/915/920/925/930/940/945/950/955/960/965.

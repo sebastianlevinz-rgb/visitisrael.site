@@ -14690,3 +14690,27 @@ All 4 target pages verified to exist before adding links. No other files changed
 Gate: pnpm check 0 errors; build 1343 pages (unchanged); 1969/1969 e2e pass (14.5m).
 Ship: committed to master 2ff5de3e, pushed. CI in_progress (CI + Lighthouse workflows triggered on 2ff5de3e).
 Next: iter965 = RESEARCH (965%5=0 → RESEARCH: competitor scan, define next batch).
+
+## 2026-08-03T10:00Z · iter 965 · RESEARCH · research-965-193rd-pass (NO SHIP)
+
+Mode: RESEARCH (965%5==0). No code changed; gate not run.
+What: 193rd research pass. Scanned competitors for FR/DE/ES translation gaps + new content opportunities.
+Sources: touristisrael.com, tripadvisor.de (Wohnmobil forum), sterntours.de, rentacamper.de, israelmagazin.de, vanegade.de, wanderlog.com, christravelblog.com, tourguideofisrael.com, abraham.travel/best-israeli-beer, francosphere.co.il, petitfute.com (vins d'Israël), cercledesvoyages.com, fairmoove.fr, newyorkjewishtravelguide.com, slavaguide.com, nomadicmatt.com/budget-israel-road-trip.
+
+Key findings:
+- DE campervan gap: zero DACH editorial guide "Wohnmobil Israel"; rentacamper.de = booking page; israelmagazin.de snippet only; Germany = #1 European campervan country → strong DACH demand signal
+- DE archaeology gap: zero DACH editorial Israel archaeology experience guide; Biblische Archäologie = major DACH travel interest category; Masada/Caesarea/Megiddo/Qumran/Beit Guvrin all in DE files ✓
+- FR business travel gap: France = 3rd largest source market (159K 2025); zero FR editorial for Israel business travel; Sunday–Thursday + Shabbat logistics critical
+- Craft beer gap across all 3 locales: touristisrael.com + christravelblog.com = EN-only; Dancing Camel + Beer Bazaar + Alexander/Shapiro/Negev microbreweries undercovered in FR/DE/ES
+- Fine dining gap across all 3 locales: touristisrael.com has "Best Restaurants" listicles; no comprehensive editorial fine dining guide in FR/DE/ES; Ocean Grill/Setai, Machneyuda, Alena, Eucalyptus
+- ES affordable-luxury gap: LATAM market growing; price-conscious traveler segment needs kibbutz hotels / shoulder-season / zimmer angle
+
+New batches defined:
+- FR-24: israel-business-travel-guide, israel-campervan, israel-car-rental-comparison, israel-craft-beer, israel-fine-dining (all 5 MISSING from FR; comm -23 confirmed 2026-08-03)
+- ES-36: israel-business-travel-guide, israel-campervan, israel-craft-beer, israel-fine-dining, israel-affordable-luxury (all 5 MISSING from ES; comm -23 confirmed 2026-08-03)
+- DE-22: israel-campervan, israel-craft-beer, israel-fine-dining, israel-best-scenic-drives, israel-archaeology-experience (all 5 MISSING from DE; comm -23 confirmed 2026-08-03; pending DE-21 ship)
+
+Guide counts: EN=398, FR=202, DE=187, ES=180. Total i18n gap: ~606 pages (202+211+218 missing across FR/DE/ES).
+Gate: not run (RESEARCH mode). Last known GREEN: build 1343 pages; 1969/1969 e2e pass (iter964 2ff5de3e).
+Ship: .loop/ memory files only.
+Next: iter966 = BUILD (966%5==1 → BUILD). Top priority: DE-21 (ready; israel-in-summer, israel-in-spring, israel-in-winter, ammunition-hill-jerusalem, anu-museum-guide). nextRotationCategory = BUILD.

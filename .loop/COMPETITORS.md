@@ -7371,3 +7371,41 @@ Sources: civitatis.com, jerusalen.com, routard.com, petitfute.com, urbanmeandere
 - Ammunition Hill is a symmetric SERP whitespace gap in FR/DE/ES (identical to Gamla/Herodion dynamic from iter955)
 - Tourism recovery framing: consider updating is-israel-safe.md + airlines-flying-israel-2026.md intro sections with 2026 recovery context (73% US/Canada increase; 88% satisfaction) — but honesty rule: only include if verified by source
 - DE seasonal content is the largest single editorial category gap: 15 guides × 1 locale = 15 potential pages, all with near-zero competition
+
+### 2026-08-03 · iter 965 · DACH campervan + craft beer + fine dining + locale gaps
+
+**DACH campervan landscape (Wohnmobil Israel):**
+- rentacamper.de — dedicated page "Israel: Im Wohnmobil durchs Heilige Land" but it's a booking/affiliate page with minimal editorial
+- tripadvisor.de forum — top result for "Wohnwagen/Camper mieten Israel" = forum discussion, not editorial guide
+- israelmagazin.de — brief tips article "Israel-ABC: Unterwegs mit dem Mietwagen" (car-focused, not campervan)
+- vanegade.de — niche article about shipping your own campervan to Israel (very niche, not a travel guide)
+- slavaguide.com (EN), nomadicmatt.com (EN) — comprehensive EN road trip guides; zero DACH equivalents
+- **Gap confirmed**: zero authoritative DE editorial campervan/Wohnmobil Israel guide exists; our DE `israel-campervan.md` would own this space
+
+**Craft beer Israel (FR/DE/ES landscape):**
+- christravelblog.com (EN only) — "Top places to drink craft beer in TLV, Jerusalem, Haifa" (EN editorial only)
+- touristisrael.com — "Israeli Beer" page + "Dancing Camel" attraction page (EN only)
+- tourguideofisrael.com — "Everything to Know About Beer in Israel" (EN editorial)
+- Abraham.travel/best-israeli-beer — EN blog post
+- wanderlog.com — user-list aggregators (no editorial)
+- timeout.com/israel — EN only
+- **Gap confirmed**: zero craft beer Israel editorial guide in FR, DE, or ES; all competitor content is EN-only
+
+**Fine dining Israel (FR/DE/ES landscape):**
+- touristisrael.com — "Best Restaurants in Israel 2026", "Best Restaurants in Tel Aviv 2026", "Best Restaurants in Jerusalem 2026" (list format, EN only)
+- Frommers/Lonely Planet — brief restaurant sections within city guides; no dedicated fine dining editorial
+- Petit Futé (FR) — restaurant mentions in city sections only; no dedicated fine dining guide
+- timeout.com/israel/restaurants — EN only
+- **Gap confirmed**: zero comprehensive FR/DE/ES fine dining Israel travel guide; our content would rank for "meilleures tables Israël", "Israels Feinschmecker Restaurants", "mejores restaurantes Israel"
+
+**FR business travel Israel:**
+- Zero dedicated FR editorial for Israel business travel
+- France = 3rd largest Israel source market (159K visitors 2025); Sunday–Thursday work week is a trip-planning pitfall for French executives
+- journaldunet.com, lesechos.fr mention Israel tech scene but not travel logistics
+- **Gap confirmed**: high-intent audience (FR business travelers to Israel); no FR editorial competitor
+
+**ES affordable-luxury Israel:**
+- Zero ES editorial for "lujo asequible Israel" / "Israel lujo bajo presupuesto"
+- LATAM Israel visitor numbers growing; price-conscious but aspirational demographic
+- Kibbutz hotels (Nof Ginosar, Ein Gedi), zimmer Galilee, Negev glamping = undercovered in ES
+- **Gap confirmed**: strong opportunity for ES affordable-luxury guide with Booking.com / discovercars affiliate hooks
