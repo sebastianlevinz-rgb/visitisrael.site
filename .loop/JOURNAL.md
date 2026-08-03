@@ -14873,3 +14873,18 @@ Cross-link verification: toutes les /fr/* cross-links confirmées existantes ava
 Gate: pnpm check 0 errors ✓; build 1383 pages (+5) ✓; 2049/2049 e2e pass (22.7m) ✓.
 Ship: squash-merged to master commit 26c9f044. Push succeeded. PR #42 draft created.
 Next: iter978 BUILD (978%5=3 → BUILD). Top BACKLOG item: ES-38 (israel-agritourism-guide, israel-rooftop-bars, israel-archaeology-experience, israel-medical-tourism, israel-music-festivals).
+
+## 2026-08-03T23:30Z · iter 978 · BUILD · ES-38 SHIPPED 1acd331c
+What: BUILD mode (978%5=3). Item: ES-38 (5 LATAM Spanish guides).
+Guides shipped: israel-agritourism-guide, israel-rooftop-bars, israel-archaeology-experience, israel-medical-tourism, israel-music-festivals.
+ES guides: 190→195/398. Build: 1383→1388 pages (+5).
+Details:
+- israel-agritourism-guide: Calendario cosechas (cerezas jun Golán Odem/Har Avital; fresas feb-mar Shefela; dátiles Medjool sept-oct Arava Ketura/Lotan). Kfar Kedem aldea bíblica (burros, prensa aceitunas, molino). Neot Kedumim reserva botánica. Kibutz Lavi, Ein Gev, Lotan, Sasa. Inversión 13M NIS Galilea 2026. 2 CTAs (GYG excursiones agrícolas + Booking rural). 7 FAQs.
+- israel-rooftop-bars: Norman Hotel TLV (Nahalat Binyamin edificios Eclécticos 1920s; íntimo). David Intercontinental Barby Sky Lounge piso 22 (vistas costa completa). Aloft Dizengoff piscina rooftop (ambiente social; DJ). Market House Hotel (sobre Mercado Carmel; informal). Jaffa: bares con vistas piedra histórica+Mediterráneo. Mamilla Jerusalem (vista directa Puerta Jaffa + Torre de David; formal). Mejor ventana: 30-45 min antes atardecer. 2 CTAs (GYG tours nocturnos + Booking hoteles terraza). 6 FAQs.
+- israel-archaeology-experience: Tel Megiddo 26 estratos UNESCO megiddo.tau.ac.il ₪250-450 (abr-ago). Beit Guvrin-Maresha UNESCO ₪150-250 (oct-jun). Tel Shiloh Área C nota acceso. IAA Cuerpo Voluntarios gratuito iaa.gov.il (6 meses antelación). ICARE USD 900-1500 (2 semanas). Programas universitarios HU/TAU/Bar-Ilan. Día típico excavación (5-6h mañana; espátulas/cubos/tamices). Mejor temporada: primavera (mar-jun). 3 CTAs (GYG+Viator+Booking Jerusalem). 7 FAQs.
+- israel-medical-tourism: Sheba Medical Center Ramat Gan (Newsweek top-10 mundial; shebaonline.org). Assuta TLV HaBarzel (JCI-acreditado). Sourasky/Ichilov centro TLV. Rambam Haifa (cardiología). FIV USD 3.000-4.500/ciclo vs USD 15.000-25.000 EE.UU. (ahorro 30-60%). LATAM angle (Argentina/México/Chile/Brasil mercados IVF). No visa médica separada necesaria. HONESTY: solo rangos; no promesas clínicas; verificar directamente hospitales. 4 CTAs (Booking×2 cerca Sheba+Assuta + GYG tours entre citas + Abraham excursiones). 7 FAQs.
+- israel-music-festivals: Events schema completo. Meteor Festival 2026-09-17/09-21 Makhtesh Ramon (electrónica+ambient; navettes TLV/Be'er Sheva; camping; noches <10°C). Festival de la Luz Jerusalén 2026-06-10/06-20 (ruta gratuita 3km; Torre de David pagado). Tamar 2026-10-08/10-10 Ein Bokek (clásica+mundo; Mar Muerto). Tel Aviv International Jazz 2026-05-12/05-16 (multi-salas; gratis+pago). Eilat Chamber Music 2026-12-09/12-13 (cámara; Eilat dic). HONESTY: verificar fechas en sitios oficiales. 3 CTAs (GYG+Booking+GYG Negev). 6 FAQs.
+Cross-link verification: todas las /es/* cross-links confirmadas existentes antes de escribir.
+Gate: pnpm check 0 errors ✓; build 1388 pages (+5) ✓; 2059/2059 e2e pass (22.0m) ✓.
+Ship: committed directly to master 1acd331c (same pattern as prior iters — staged directly). Push succeeded.
+Next: iter979 REVIEW (979%5=4 → REVIEW). Top BACKLOG item: audit recent ES batch or DE-24.
