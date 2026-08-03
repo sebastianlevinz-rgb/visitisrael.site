@@ -1068,6 +1068,11 @@ const ROUTES = [
   '/fr/israel-in-spring',
   '/fr/israel-in-summer',
   '/fr/israel-in-winter',
+  '/de/israel-in-summer',
+  '/de/israel-in-spring',
+  '/de/israel-in-winter',
+  '/de/ammunition-hill-jerusalem',
+  '/de/anu-museum-guide',
 ];
 
 for (const route of ROUTES) {
