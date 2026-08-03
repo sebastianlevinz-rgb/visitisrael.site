@@ -14843,3 +14843,18 @@ Batches defined: FR-26 (5 guides, FR 212→217), ES-38 (5 guides, ES 190→195),
 Gate: not run (research mode, no code changes).
 Ship: no merge (research-only iteration).
 Next: iter976 = BUILD (976%5=1 → BUILD). Top BACKLOG item: DE-23 (israel-in-autumn, jerusalem-festival-of-light, israel-stargazing, tel-aviv-beach-guide, israel-wellness-spa). nextRotationCategory = BUILD.
+
+## 2026-08-03T22:00Z · iter 976 · BUILD · DE-23 SHIPPED 977e6bb4
+What: BUILD mode (976%5=1). Item: DE-23 (5 Standard Hochdeutsch guides).
+Guides shipped: israel-in-autumn, jerusalem-festival-of-light, israel-stargazing, tel-aviv-beach-guide, israel-wellness-spa.
+DE guides: 197→202/401.
+Details:
+- israel-in-autumn: Herbst-Saisonlücke geschlossen (DE hatte spring/summer/winter, kein autumn); Post-Sukkot -20–40% Preisrückgang; Kranichzug Hula-Tal; Weinlese Golan; Category: Planung.
+- jerusalem-festival-of-light: DACH Lichtfest-Kulturresonanz (Lichtfest Leipzig, Festival of Lights Berlin); 250K Besucher; kostenloser 3km Rundgang; Davidszitadelle-Show; Category: Kultur.
+- israel-stargazing: IDA International Dark Sky Park Makhtesh Ramon (2017, erster im Nahen Osten); DACH Wissenschafts-tourismus; Bortle 2–3; Operators: Desert Prime, Deep Desert Israel, Astronomy Israel; Sommer der Sterne August 2026; Category: Outdoor.
+- tel-aviv-beach-guide: 7 Strände (Gordon, Frishman, Hilton LGBTQ+/Hunde, Banana, Jerusalem Beach Surf, Alma, Nordau); 14km Tayelet; Quallensaison; TLV Surf Club ₪80/h; Category: Reiseziele.
+- israel-wellness-spa: Kur/Wellness-Tradition (Bad Orb, Baden-Baden); Totes Meer Kalia ₪60–90 / Ein Bokek ₪100–200; Hamat Tiberias 60°C; Al-Basha Hammam Akko 18. Jh.; Category: Planung.
+Cross-link verification: /de/jerusalem-neighborhoods-guide NOT in DE (omitted from festival guide); /de/mitzpe-ramon-guide NOT in DE (omitted from stargazing guide).
+Gate: pnpm check 0 errors ✓; build 1378 pages (+5) ✓; 2039/2039 e2e pass (15.1m) ✓.
+Ship: squash-merged to master commit 977e6bb4. Push succeeded.
+Next: iter977 BUILD (977%5=2 → BUILD). Top BACKLOG item: FR-26 (israel-agritourism-guide, israel-rooftop-bars, israel-affordable-luxury, israel-national-trail-hiking, israel-music-festivals).
