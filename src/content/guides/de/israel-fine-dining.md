@@ -1,7 +1,7 @@
 ---
 title: "Fine Dining in Israel: Die besten Restaurants 2026"
 description: "Spitzenrestaurants in Israel 2026: Shmoné Jerusalem (erster Michelin-Stern), OCD Tel Aviv, Pastel und die Top-Adressen für gehobene israelische Küche."
-heroImage: /images/regions/tel-aviv/restaurants.jpg
+heroImage: /images/regions/tel-aviv/hero.jpg
 category: Küche & Genuss
 updatedAt: 2026-08-03
 ctaHeading: "Israel Restaurants & Touren buchen"
@@ -120,4 +120,4 @@ Weinbegleitung ist in den Tasting-Menüs der oben genannten Restaurants optional
 
 ---
 
-Für die kulinarische Vorbereitung: [Tel Aviv Food Guide](/de/tel-aviv-food-guide), [Jerusalem Reiseführer](/de/jerusalem-guide), [Galilee Kulinarikführer](/de/galilee-food-guide) und [Israel Wein-Guide](/de/israel-wine-guide).
+Für die kulinarische Vorbereitung: [Tel Aviv Food Guide](/de/tel-aviv-food-guide), [Jerusalem Reiseführer](/de/jerusalem), [Galilee Kulinarikführer](/de/galilee-food-guide) und [Israel Wein-Guide](/de/israel-wine-wineries).
