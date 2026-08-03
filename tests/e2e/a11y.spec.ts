@@ -833,6 +833,11 @@ const ROUTES = [
   '/fr/israel-affordable-luxury',
   '/fr/israel-national-trail-hiking',
   '/fr/israel-music-festivals',
+  '/es/israel-agritourism-guide',
+  '/es/israel-rooftop-bars',
+  '/es/israel-archaeology-experience',
+  '/es/israel-medical-tourism',
+  '/es/israel-music-festivals',
 ];
 
 for (const route of ROUTES) {
