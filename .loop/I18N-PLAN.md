@@ -6,19 +6,19 @@
 >
 > One bounded slice per loop iteration. NEVER bulk-translate in one shot.
 
-## Current status snapshot (2026-08-03 iter960 RESEARCH — FR-23 DEFINED; ES-35 DEFINED; DE-21 DEFINED)
+## Current status snapshot (2026-08-03 iter970 RESEARCH — FR-25 DEFINED; ES-37 DEFINED; DE-23 DEFINED)
 
 | Locale | Guides | Attractions | Regions | Itineraries |
 |--------|--------|-------------|---------|-------------|
-| en     | 398    | 65          | 11      | 6           |
-| fr     | 197    | 61          | 11      | 6           |
-| de     | 182    | 61          | 11      | 6           |
-| es     | 175    | 61          | 11      | 6           |
+| en     | 401    | 65          | 11      | 6           |
+| fr     | 207    | 61          | 11      | 6           |
+| de     | 192    | 61          | 11      | 6           |
+| es     | 185    | 61          | 11      | 6           |
 
 **Gaps to close:**
-- es guides: **223 missing** (175/398 done — Phase ES-34 SHIPPED iter957 5dd62546; **Phase ES-35 DEFINED iter960 — next ES BUILD**)
-- fr guides: **201 missing** (197/398 done — Phase FR-22 SHIPPED iter958 4bb90c36 + reviewed iter959; **Phase FR-23 DEFINED iter960 — next FR BUILD**)
-- de guides: **216 missing** (182/398 done — Phase DE-19 SHIPPED iter956 93b5eeff; **Phase DE-20 DEFINED iter955 — next DE BUILD; DE-21 DEFINED iter960 after that**)
+- es guides: **216 missing** (185/401 done — Phase ES-36 SHIPPED iter968 b187c024 + reviewed iter969; **Phase ES-37 DEFINED iter970 — next ES BUILD**)
+- fr guides: **194 missing** (207/401 done — Phase FR-24 SHIPPED iter967 65b10687; **Phase FR-25 DEFINED iter970 — next FR BUILD**)
+- de guides: **209 missing** (192/401 done — Phase DE-21 SHIPPED iter966 af0dea0c; **Phase DE-22 DEFINED iter965 — next DE BUILD; DE-23 DEFINED iter970 after that**)
 - fr/de/es attractions: **4 missing each** (the 4 EN attractions added after Phase 4)
 
 **Dead Sea cluster status (iter855 audit):**

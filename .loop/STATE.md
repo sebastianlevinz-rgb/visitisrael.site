@@ -1,13 +1,15 @@
 # LOOP STATE
 
-- iteration: 969
-- lastMode: REVIEW
-- lastItem: review-969-es36-meta-trim
-- lastResult: SHIPPED 781fe01d. ES-36 meta overruns fixed (4 of 5 guides had overruns): israel-campervan desc 165→149; israel-craft-beer title 66→63 + desc 167→150; israel-fine-dining title 78→54 + desc 176→145; israel-affordable-luxury title 75→62 + desc 165→136. All within title≤65 / desc≤160. Audit CLEAN on all other checks: 18 internal /es/* links all resolve; no H1 in body; all hero images exist; all affiliate partners valid; no honesty issues. Build 1358 pages (unchanged). 1999/1999 e2e pass (15.2m). CI/Lighthouse in_progress on master 781fe01d at ship time.
-- nextRotationCategory: RESEARCH (iter970; 970%5=0 → RESEARCH)
+- iteration: 970
+- lastMode: RESEARCH
+- lastItem: research-970-fr25-es37-de23
+- lastResult: RESEARCH completed — 194th research pass. FR-25/ES-37/DE-23 batches defined. DE-22 BACKLOG annotation corrected (was wrongly marked SHIPPED; DE count is 192 confirming DE-22 not yet built). Key gaps: jerusalem-festival-of-light missing FR/DE/ES; israel-in-autumn missing DE; israel-wellness-spa + israel-hummus-trail missing all 3 locales; ES editorial space near-empty. No code changes; gate not run.
+- nextRotationCategory: BUILD (iter971; 971%5=1 → BUILD)
 - higgsfieldSpent: 0
-- updatedAt: 2026-08-03T14:00Z
+- updatedAt: 2026-08-03T
 - branch context: work on master; feature work on auto/<slug>
+
+Notes: iter970 RESEARCH — 194th research pass. Sources: touristisrael.com, tripadvisor.com/fr/es/de, civitatis.com, petitfute.com, routard.com, marcopolo.de, sterntours.de, israelmagazin.de, travelandtourworld.com, visitjerusalem.com. Defined FR-25 (jerusalem-festival-of-light, israel-in-october, tel-aviv-beach-guide, israel-hummus-trail, israel-wellness-spa); ES-37 (israel-for-spanish-travelers, jerusalem-festival-of-light, israel-hummus-trail, israel-in-october, israel-wellness-spa); DE-23 (israel-in-autumn, jerusalem-festival-of-light, israel-stargazing, tel-aviv-beach-guide, israel-wellness-spa; after DE-22). Corrected BACKLOG DE-22 annotation (was wrongly "SHIPPED iter968 b187c024"; DE count is 192 confirming DE-22 not yet built; status fixed to ready). Cross-links verified against filesystem for all 3 locales. No code changes; gate not run. nextRotationCategory = BUILD (iter971; 971%5=1).
 
 Notes: iter969 REVIEW — review-969-es36-meta-trim SHIPPED 781fe01d. Audited ES-36 batch (5 guides shipped iter968). Found 4 of 5 had meta overruns; israel-business-travel-guide was already clean (49t/144d). Fixes: israel-campervan desc 165→149 (removed trailing 'imprescindibles'); israel-craft-beer title 66→63 (removed 'en ') + desc 167→150 (removed 'Schnitt Brewery, '); israel-fine-dining title 78→54 (shortened to core topics) + desc 176→145 (removed LATAM qualifier); israel-affordable-luxury title 75→62 (removed 'inteligentes') + desc 165→136 (removed trailing clause). Other audit checks all CLEAN: 18 internal /es/* links all resolve to existing files; no H1 in any body; all hero images present (tel-aviv/hero.jpg, negev/desert.jpg, negev/mitzpe-ramon.jpg, tel-aviv/carmel-market.jpg, negev/hero.jpg); affiliate partners all valid (booking/skyscanner/getyourguide/discovercars); rating/reviews fields in frontmatter are NOT rendered by AffiliateCard (no honesty issue — component explicitly defers to partner site). Gate: pnpm check 0 errors; build 1358 pages (unchanged); 1999/1999 e2e pass (15.2m). CI/Lighthouse in_progress at ship time. nextRotationCategory = RESEARCH (iter970; 970%5=0).
 

@@ -14760,3 +14760,26 @@ Internal links: all 18 /es/* links resolve. No H1 in body. Hero images all confi
 Gate: pnpm check 0 errors; build 1358 pages (unchanged); 1999/1999 e2e pass (15.2m).
 Ship: branch auto/review-969-es36-meta-trim; squash-merged to master 781fe01d; pushed origin/master. CI/Lighthouse in_progress at ship time.
 Next: iter970 = RESEARCH (970%5==0 → RESEARCH). nextRotationCategory = RESEARCH.
+
+## 2026-08-03T · iter 970 · RESEARCH · 194th research pass — FR-25/ES-37/DE-23 defined
+
+Sources: touristisrael.com, israel.travel, tripadvisor.com, lonelyplanet.com, tripadvisor.fr, routard.com, petitfute.com, tripadvisor.es, civitatis.com, voyagetips.com, marcopolo.de, tripadvisor.de, sterntours.de, israelmagazin.de, amazon.com (book search), travelandtourworld.com, timesofisrael.com, jpost.com, visitjerusalem.com.
+
+Key gaps found:
+- jerusalem-festival-of-light MISSING from ALL 3 locales simultaneously — fastest cross-locale win; festival confirmed June 2026 edition; strong EN editorial (visitjerusalem.com/lonelyplanet) but zero FR/DE/ES coverage
+- israel-in-autumn ABSENT from DE (spring/summer/winter exist from DE-21; autumn is the missing seasonal corner; DACH autumn travel = school-holiday shoulder period; zero DE editorial competition)
+- Spanish-language Israel travel editorial space near-empty (civitatis.com has thin day-trip listings; no authoritative ES guide for "Israel para viajeros hispanohablantes")
+- israel-wellness-spa MISSING from all 3 locales; Carmel Forest Spa Resort / Herods Herzliya / Isrotel Dead Sea — upscale wellness = underserved high-spending segment; Booking.com CTA-rich
+- israel-hummus-trail MISSING from FR/ES; no DE/FR/ES editorial for hummus trail / Abu Hassan / Al-Karawan; all competitor content EN-only (eater.com, food52, touristisrael.com)
+- tel-aviv-beach-guide EXISTS in ES (can be used as reference base for FR/DE versions)
+- israel-for-spanish-travelers P1 — LATAM + Spain combined market; no editorial competitor
+- Galilee agritourism: 13M NIS government investment confirmed (travelandtourworld.com Jun 2026); no FR/DE/ES agritourism guide
+
+BACKLOG correction: DE-22 annotation was WRONG (said "SHIPPED iter968 b187c024" but DE count is 192 = DE-21 brought it to 192; DE-22 not yet built); corrected to status: ready.
+
+Batches defined:
+- FR-25: jerusalem-festival-of-light, israel-in-october, tel-aviv-beach-guide, israel-hummus-trail, israel-wellness-spa (FR 207→212)
+- ES-37: israel-for-spanish-travelers, jerusalem-festival-of-light, israel-hummus-trail, israel-in-october, israel-wellness-spa (ES 185→190)
+- DE-23: israel-in-autumn, jerusalem-festival-of-light, israel-stargazing, tel-aviv-beach-guide, israel-wellness-spa (DE 197→202; after DE-22)
+
+No code changes. Gate not run (research mode). nextRotationCategory = BUILD (iter971; 971%5=1).

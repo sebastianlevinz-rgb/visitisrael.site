@@ -7409,3 +7409,44 @@ Sources: civitatis.com, jerusalen.com, routard.com, petitfute.com, urbanmeandere
 - LATAM Israel visitor numbers growing; price-conscious but aspirational demographic
 - Kibbutz hotels (Nof Ginosar, Ein Gedi), zimmer Galilee, Negev glamping = undercovered in ES
 - **Gap confirmed**: strong opportunity for ES affordable-luxury guide with Booking.com / discovercars affiliate hooks
+
+### 2026-08-03 · iter 970 · Jerusalem Festival of Light + wellness + hummus trail + ES editorial gap
+
+**Jerusalem Festival of Light (FR/DE/ES gap):**
+- visitjerusalem.com — official festival page (EN + HE only); detailed route map + event listings
+- lonelyplanet.com — "Jerusalem Festival of Light" listed in events section (EN only)
+- tripadvisor.fr/de/es — user posts only; zero editorial competitor in any of the 3 locales
+- routard.com — brief mention in Jerusalem events (no dedicated guide)
+- **Gap confirmed**: zero FR, DE, or ES editorial guide for Jerusalem Festival of Light; festival runs annually June; confirmed June 2026 edition; easy keyword win in all 3 locales simultaneously
+
+**Israel wellness spa (FR/DE/ES gap):**
+- touristisrael.com — "Best Spas in Israel" roundup (EN only)
+- israel.travel — brief spa mentions in Dead Sea + Galilee sections (EN only)
+- petitfute.com (FR) — spa mentions embedded in hotel sections only; no standalone guide
+- marcopolo.de (DE) — Dead Sea wellness travel note only; no standalone guide
+- **Gap confirmed**: zero standalone FR/DE/ES wellness/spa Israel travel guide; Carmel Forest Spa Resort (Haifa area), Herods Herzliya spa, Isrotel Dead Sea — upscale segment with strong Booking.com affiliate hooks
+
+**Israel hummus trail (FR/DE/ES gap):**
+- touristisrael.com — "Best Hummus in Israel" roundup (EN only)
+- eater.com — "Where to Eat the Best Hummus in Israel" (EN only; ranks well)
+- food52.com — hummus trail guide (EN only)
+- voyagetips.com (FR) — generic Israeli food guide; no hummus trail angle
+- **Gap confirmed**: zero FR, DE, or ES editorial for israel-hummus-trail / Abu Hassan Jaffa / Al-Karawan Akko; GYG food tour affiliate hook; strong cross-link to tel-aviv-food-guide + jaffa-food-guide
+
+**ES Israel editorial landscape (near-empty):**
+- civitatis.com — day-trip listings + activity booking (no editorial travel guide)
+- tripadvisor.es — forum posts + attraction listings (no editorial)
+- Amazon.es — "Israel para viajeros" = one paperback (not web editorial)
+- No authoritative ES web editorial for "guía Israel viajeros hispanohablantes" or "Israel para viajeros españoles/latinoamericanos"
+- **Gap confirmed**: israel-for-spanish-travelers would be the only editorial ES Israel overview guide on the open web; LATAM + Spain combined = large addressable audience
+
+**Galilee agritourism (all locales):**
+- travelandtourworld.com (Jun 2026) — 13M NIS government investment in Galilee agritourism confirmed; wine trails, olive farms, goat cheese dairies
+- No FR/DE/ES editorial covering this investment or the agritourism angle
+- **Note**: agritourism angle reinforces existing galilee-wine-guide; consider agritourism-galilee as P2 after FR-25/ES-37/DE-23 ship
+
+**Strategy notes (iter970):**
+- jerusalem-festival-of-light is the single highest-efficiency cross-locale play: one research pass, three simultaneous guides, near-zero editorial competition in any of the 3 locales
+- israel-in-autumn for DE completes the 4-corner seasonal cluster (spring/summer/winter already exist); cluster completion = strong internal-link network effect
+- ES editorial space is structurally empty at the overview level; israel-for-spanish-travelers can anchor a content cluster linking to all major ES guides
+- israel-wellness-spa fills a high-spending-visitor gap; spa + Dead Sea positioning supports premium Booking.com CTAs
