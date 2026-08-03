@@ -14606,3 +14606,24 @@ Next: iter955 → RESEARCH (191st research pass).
 **Net-new e2e routes:** 10 (5 smoke + 5 a11y): /fr/gamla-nature-reserve-guide, /fr/herodion-guide, /fr/design-museum-holon, /fr/eilat-ramon-airport-guide, /fr/israel-film-tv-tourism.
 
 **Next:** iter959 → REVIEW (959%5=4 → REVIEW). Review target: FR-22 meta/links audit.
+
+## 2026-08-03T04:00Z · iter 959 · REVIEW · review-959-fr22-meta-links
+
+**Mode:** REVIEW (iter959; 959%5=4). Audited FR-22 batch from iter958 (5 French guides: gamla-nature-reserve-guide, herodion-guide, design-museum-holon, eilat-ramon-airport-guide, israel-film-tv-tourism).
+
+**Audit results:**
+- Meta title lengths (≤65): all clean — 63, 55, 51, 58, 58 chars ✓
+- Meta descriptions (≤160): 4/5 clean; **herodion-guide was 162 chars** (2 over) → FIXED
+- Internal /fr/* links: 29 links across 5 guides; all resolve to existing FR guide files ✓
+- H1 in body: none found ✓
+- Hero images: all 5 exist on disk ✓
+- Affiliate partners: all valid — getyourguide/viator/booking/discovercars/abraham ✓
+- Honesty: no fabricated ratings, no exact prices ✓
+
+**Fix applied:** `herodion-guide.md` description trimmed 162→153 chars. Removed "national" from "parc national d'Hérodion" → "parc d'Hérodion". Meaning fully preserved; phrase "parc national" was redundant given "d'Hérodion" already identifies the site.
+
+**Gate:** pnpm check 0 errors; build 1328 pages (unchanged); 1939/1939 e2e pass (20.3m; exit code 0). CI in_progress at merge time.
+
+**Ship:** squash-merged auto/review-959-fr22-meta-trim → master f9dfb459; pushed. Branch deleted.
+
+**Next:** iter960 → RESEARCH (960%5=0 → 192nd research pass). Priority: DE-20 definition confirmation + ES-35 candidate batch + FR-23 candidate batch scouting. Backlog: DE-20 ready (gamla, herodion, israel-film-tv-tourism, israel-business-travel-guide, israel-car-rental-comparison); skyfield-extreme-park-jaffa + jerusalem-first-station-guide P2 for FR/DE/ES.

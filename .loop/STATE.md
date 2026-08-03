@@ -1,13 +1,15 @@
 # LOOP STATE
 
-- iteration: 958
-- lastMode: BUILD
-- lastItem: fr-phase-22
-- lastResult: FR-22 SHIPPED 4bb90c36. 5 FR guides: gamla-nature-reserve-guide, herodion-guide, design-museum-holon, eilat-ramon-airport-guide, israel-film-tv-tourism. FR guides 192→197/398. Build 1323→1328 pages (+5). 1939/1939 e2e pass (15.1m). 10 new e2e routes (5 smoke + 5 a11y). CI in_progress at commit time.
-- nextRotationCategory: REVIEW (iter959; 959%5=4 → REVIEW)
+- iteration: 959
+- lastMode: REVIEW
+- lastItem: review-959-fr22-meta-links
+- lastResult: review-959-fr22-meta-links SHIPPED f9dfb459. FR-22 audit: 4/5 meta clean; herodion-guide desc 162→153 (trimmed "national" from "parc national"); all 29 /fr/* internal links resolve; no H1 in body; all hero images exist; all affiliate partners valid; no honesty flags. Build 1328 pages; 1939/1939 e2e pass (20.3m). CI in_progress at commit time.
+- nextRotationCategory: RESEARCH (iter960; 960%5=0 → RESEARCH)
 - higgsfieldSpent: 0
-- updatedAt: 2026-08-03T03:00Z
+- updatedAt: 2026-08-03T04:00Z
 - branch context: work on master; feature work on auto/<slug>
+
+Notes: iter959 REVIEW — review-959-fr22-meta-links SHIPPED f9dfb459. FR-22 audit (gamla, herodion, design-museum-holon, eilat-ramon-airport, israel-film-tv-tourism): titles all ≤65 (51–63 chars); descriptions 4/5 clean — herodion-guide was 162 chars → trimmed to 153 (removed "national" from "parc national d'Hérodion"); all 29 /fr/* internal links resolve; no H1 in body; all hero images present; all affiliate partners valid (getyourguide/viator/booking/discovercars/abraham); no honesty flags. Gate: pnpm check 0 errors; build 1328 pages; 1939/1939 e2e pass (20.3m). CI in_progress at commit time. nextRotationCategory → RESEARCH (iter960; 960%5=0).
 
 Notes: iter955 RESEARCH — 191st research pass. Competitors scanned (SERP analysis): touristisrael.com, israel-in-photos.com, Lonely Planet, Frommers, Fodors, fr.wikipedia.org, Routard, fr.timesofisrael.com, wonderfulmuseums.com, travelinti.com, dienstreise.de, visumisrael.de, isra-tech.net, momondo, parks.org.il. FR-22 defined; ES-34 defined; DE-20 defined (all ready). skyfield-extreme-park-jaffa + jerusalem-first-station-guide both in EN, both missing from FR/DE/ES — queued P2 for future batches.
 
