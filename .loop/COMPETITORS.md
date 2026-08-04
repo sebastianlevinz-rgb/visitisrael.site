@@ -7668,3 +7668,31 @@ CAUTION (iter 980): celiac/gluten-free guides must use "tradition thérapeutique
 - touristisrael.com/things-to-do-in-israel-in-july: Concerts by international artists; beach weather; Masada Sunrise + Ein Gedi + Dead Sea tour as flagship package.
 - Dead Sea + desert heat warning in summer content (July/August): heat management = consistent differentiator across competitor content.
 - **Key diff opportunity**: Our monthly guides add affiliate CTAs + hotel booking angle + per-city comparison tables — stronger monetization than touristisrael.com's editorial-only format.
+
+## iter995 (2026-08-04) — 199th research pass: DE/FR/ES specialty guide competitor gaps + batch definitions
+
+**DE competitor audit (urlaubsguru.de, travelbook.de, lonelyplanet.de, wandern.de, chamaeleon-reisen.de):**
+- urlaubsguru.de: Only climate/season overview for Israel; zero editorial on museum, thermal springs, wildflowers, culinary heritage, gluten-free. OTA aggregator with thin editorial.
+- travelbook.de: "Urlaubstipps für Israel" blogpost-style with ~10 tips; zero specialty guides (museum, thermal, wildflowers). Zero competition.
+- lonelyplanet.de/reiseziele/israel-5640: General destination page; mentions Haifa German Colony; no topical specialist pages for any DE-28 batch target.
+- wandern.de/erlebnisreisen-weltweit.de: Sell group hiking tours and adventure trips to Israel (OTA/tour operators); zero editorial content pages. Confirms: organized hiking Israel is niche commercial product — a DE hiking guide (de/hiking-in-israel already SHIPPED) is our editorial gap-fill.
+- chamaeleon-reisen.de: Sells "Negev 10 Tage Erlebnis-Reise" adventure tour package; zero Israel Museum or thermal springs editorial.
+- **Verdict**: DE-28 batch (museum/thermal-springs/wildflowers/culinary-heritage/gluten-free) = 100% uncontested in German travel editorial. Confirmed unique editorial gap.
+
+**FR competitor audit (routard.com, petitfute.com, lonelyplanet.fr, voyageursdumonde.fr):**
+- routard.com/fr/guide/moyen-orient/israel-palestine: City guides for Jerusalem and Netanya; itineraries section; "Sports et loisirs" section (thin). Zero pages on Israel Museum, Hamat Gader, Darom Adom wildflowers, Gan HaShlosha, culinary heritage.
+- petitfute.com: Thin city stub pages only; zero specialty topical content for Israel.
+- lonelyplanet.fr/destinations/moyen-orient/israel: General destination overview; no pages for museum/thermal/wildflowers/biblical highway/Gan HaShlosha.
+- **Verdict**: FR-30 batch (museum/gan-hashlosha/wildflowers/thermal-springs/culinary-heritage) = 100% uncontested in French travel editorial.
+
+**ES competitor audit (civitatis.com, tripadvisor.es):**
+- civitatis.com/es/israel/: Sells tours to Israel; blog posts exist for some destinations (jerusalem, tel-aviv) — zero "Israel vs Grecia" or "Israel vs Turquía" editorial comparison guides; zero Israel Museum ES visitor guide; zero thermal springs ES guide.
+- civitatis.com tours: "Circuito 5 días por Israel desde Tel Aviv" (tour product); "Excursión a Jerusalén desde Tel Aviv" — commercial tour listings, NOT editorial travel guides.
+- tripadvisor.es: Forums only; no editorial guides.
+- **Verdict**: ES-43 batch (vs-greece/vs-turkey/museum/thermal-springs/spring-wildflowers) = 100% uncontested in LATAM Spanish travel editorial.
+
+**Key competitive insight (iter995):**
+- Turkey vs Israel comparison: civitatis.com sells both Turkey and Israel tours; LATAM travelers clearly consider both as competing destinations. "Israel vs Turquía" = high purchase-intent keyword with zero editorial comparison content in Spanish.
+- Israel Museum: Tiqets.com sells tickets (commercial); zero ES/FR/DE editorial visitor guide exists. Shrine of the Book + Dead Sea Scrolls + Holyland Model = differentiated content vs generic Jerusalem guides.
+- Thermal springs (Hamat Gader): Roman ruins + alligator park + mineral pools = unique combination; zero FR/DE/ES editorial; DACH Kur culture + French thermalisme = natural audience match.
+- Spring wildflowers (Darom Adom): Highly seasonal, photogenic, shareable — no FR/DE/ES coverage; ties into eco-tourism trend across all 3 markets.

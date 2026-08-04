@@ -6,18 +6,21 @@
 >
 > One bounded slice per loop iteration. NEVER bulk-translate in one shot.
 
-## Current status snapshot (2026-08-03 iter973 BUILD — ES-37 SHIPPED b63655ab; DE-23 DEFINED; next REVIEW iter974)
+## Current status snapshot (2026-08-04 iter995 RESEARCH — iter994 REVIEW shipped 30257c9e; next BUILD iter996 ES-41)
 
 | Locale | Guides | Attractions | Regions | Itineraries |
 |--------|--------|-------------|---------|-------------|
-| en     | 401    | 65          | 11      | 6           |
-| fr     | 212    | 61          | 11      | 6           |
-| de     | 197    | 61          | 11      | 6           |
-| es     | 185    | 61          | 11      | 6           |
+| en     | 398    | 65          | 11      | 6           |
+| fr     | 232    | 61          | 11      | 6           |
+| de     | 223    | 61          | 11      | 6           |
+| es     | 205    | 61          | 11      | 6           |
+
+**🎉 MILESTONE: FR + DE monthly guides NOW COMPLETE** (iter992/993/994 DE-26+DE-27 + iter988/991 FR-28+FR-29 — all per-month guides jan-dec now exist in both locales)
 
 **Gaps to close:**
-- es guides: **211 missing** (190/401 done — Phase ES-37 SHIPPED iter973 b63655ab; **next ES BUILD = ES-38 TBD**)
-- fr guides: **189 missing** (212/401 done — Phase FR-25 SHIPPED iter972 61e1d361; **Phase DE-23 next BUILD after REVIEW**)
+- es guides: **193 missing** (205/398 done — Phase ES-40 SHIPPED iter987 356c8976; **next ES BUILD = ES-41 (jan-may monthly) then ES-42 (jun-dec monthly) then ES-43 (specialty/comparison)**)
+- fr guides: **166 missing** (232/398 done — Phase FR-29 SHIPPED iter991 b934d657; **FR monthly coverage COMPLETE; next FR BUILD = FR-30 (specialty guides: museum/gan-hashlosha/wildflowers/thermal-springs/culinary-heritage)**)
+- de guides: **175 missing** (223/398 done — Phase DE-27 SHIPPED iter993 2df6130d; **DE monthly coverage COMPLETE; next DE BUILD = DE-28 (specialty guides: museum/thermal-springs/wildflowers/culinary-heritage/gluten-free)**)
 - de guides: **204 missing** (197/401 done — Phase DE-22 SHIPPED iter971 3d9ae48e; **Phase DE-23 DEFINED iter970 — next DE BUILD**)
 - fr/de/es attractions: **4 missing each** (the 4 EN attractions added after Phase 4)
 

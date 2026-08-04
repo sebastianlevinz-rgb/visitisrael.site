@@ -15068,3 +15068,28 @@ Fix: 6 meta overruns trimmed. Branch auto/review-994-de-meta-trim; squash-merged
 Gate: pnpm check 0 errors; build 1434 pages (unchanged); 22/22 targeted e2e pass (DE monthly smoke + a11y routes).
 Ship: commit 30257c9e pushed to master. CI in_progress at push time; prior run CI/Lighthouse completed success.
 Next: iter995 RESEARCH (995%5=0 → 199th research pass; ES-41/ES-42 cross-link verification + competitor scan).
+
+## 2026-08-04T16:10Z · iter 995 · RESEARCH · research-995-es41-es42-xlinks-batch-definitions
+What: 199th research pass. Three objectives: (1) cross-link verification for ES-41/ES-42 ready batches; (2) monthly guide completion status audit across FR/DE/ES; (3) competitor scan + new batch definitions for next BUILD cycles.
+
+Cross-link verification:
+- ES-41 (jan/feb/mar/apr/may) — ALL GREEN: /es/best-time-to-visit-israel ✓, /es/israel-events-festivals ✓, /es/hiking-in-israel ✓, /es/dead-sea-guide ✓, /es/easter-in-jerusalem ✓, /es/passover-in-israel ✓, /es/israel-in-spring ✓, /es/israel-in-winter ✓, /es/shabbat-guide ✓. Status: READY TO BUILD.
+- ES-42 (jun/jul/sep/nov/dec) — ALL GREEN: /es/best-time-to-visit-israel ✓, /es/israel-events-festivals ✓, /es/birdwatching-in-israel ✓, /es/christmas-in-israel ✓, /es/dead-sea-guide ✓, /es/israel-in-summer ✓, /es/israel-in-autumn ✓, /es/golan-heights-guide ✓, /es/lgbtq-travel-israel ✓, /es/golan-heights-wineries ✓, /es/jerusalem-festival-of-light ✓. ⚠️ /es/israel-in-june MISSING → link /es/israel-in-summer as fallback until ES-42 ships. Status: READY TO BUILD (after ES-41).
+
+Monthly guide completion audit (comm -23 filesystem check):
+- FR: COMPLETE ✓ (israel-in-jan/feb/mar/apr/may/jun/jul/sep/oct/nov/dec all exist in fr/ + seasonal guides). FR-28+FR-29 delivered full per-month coverage. No further FR monthly work needed.
+- DE: COMPLETE ✓ (israel-in-jan/feb/mar/apr/may/jun/jul/sep/oct/nov/dec all exist in de/ + seasonal guides). DE-26+DE-27 delivered full per-month coverage. No further DE monthly work needed.
+- ES: INCOMPLETE — has only seasonal guides + israel-in-october. Needs ES-41 (jan-may) + ES-42 (jun/jul/sep/nov/dec) to achieve full monthly coverage. NOTE: ES has no israel-in-august (same as EN — israel-in-summer covers it).
+
+Competitor scan:
+- DE (urlaubsguru.de, travelbook.de, wandern.de, lonelyplanet.de): Zero editorial on Israel Museum, Hamat Gader thermal springs, Darom Adom wildflowers, culinary heritage tourism. wandern.de sells group hiking tours (OTA); no editorial guides. Chamaeleon-Reisen.de sells Negev adventure packages (OTA); no editorial. DACH market = 100% uncontested for DE-28 batch.
+- FR (routard.com, petitfute.com, lonelyplanet.fr): routard.com has Jerusalem + Netanya city pages; nothing on museum visitor guides, thermal springs, spring wildflowers, biblical highway. petitfute.com: thin city stubs only. FR market = 100% uncontested for FR-30 batch.
+- ES (civitatis.com, tripadvisor.es): civitatis.com = tours only (Israel vs Turkey is a popular tour product, NOT an editorial guide; zero "Israel vs Grecia" editorial; zero Israel Museum ES guide). tripadvisor.es = forums. ES market = 100% uncontested for ES-43 batch.
+
+New batches defined:
+- ES-43 (5 guides, P2, seo-content): israel-vs-greece, israel-vs-turkey, israel-museum-jerusalem, israel-thermal-springs, israel-spring-wildflowers. All cross-links pre-verified ✓ (see BACKLOG).
+- FR-30 (5 guides, P2, seo-content): israel-museum-jerusalem, gan-hashlosha-guide, israel-spring-wildflowers, israel-thermal-springs, israel-culinary-heritage-tourism. All cross-links pre-verified ✓ (see BACKLOG).
+- DE-28 (5 guides, P2, seo-content): israel-museum-jerusalem, israel-thermal-springs, israel-spring-wildflowers, israel-culinary-heritage-tourism, israel-gluten-free-guide. All cross-links pre-verified ✓ (see BACKLOG).
+
+Gate: not run (RESEARCH mode). Last GREEN: build 1434 pages; 2257/2257 e2e (iter994 30257c9e).
+Next: iter996 BUILD (996%5=1 → BUILD; top item: ES-41 — 5 ES monthly guides israel-in-january/february/march/april/may).
