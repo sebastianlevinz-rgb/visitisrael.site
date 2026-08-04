@@ -15093,3 +15093,17 @@ New batches defined:
 
 Gate: not run (RESEARCH mode). Last GREEN: build 1434 pages; 2257/2257 e2e (iter994 30257c9e).
 Next: iter996 BUILD (996%5=1 → BUILD; top item: ES-41 — 5 ES monthly guides israel-in-january/february/march/april/may).
+
+## 2026-08-04T17:20Z · iter 996 · BUILD · es-41-monthly-jan-may
+What: 5 new ES monthly guides (ES-41): israel-in-january, israel-in-february, israel-in-march, israel-in-april, israel-in-may. All 5 confirmed MISSING from ES (had only seasonal guides + israel-in-october before this batch). ES guides 205→210/398. Build 1434→1439 pages (+5). 10 new e2e routes added to smoke.spec.ts + a11y.spec.ts.
+Content highlights:
+- israel-in-january: Eilat domestic peak season (21–24°C); Mar Muerto floating 20–22°C; Néguev hiking Mitzpe Ramón+Ein Avdat; Jerusalén quieta baja temporada; Tu BiShvat plantar árboles. heroImage /images/regions/eilat/hero.jpg. 3 CTAs Booking-Eilat+GYG-Néguev+GYG-Eilat-snorkel. 7 FAQs.
+- israel-in-february: Darom Adom kalaniot bloom Néguev (fin ene–med feb); Monte Hermón skiing (honest caveat skihermon.co.il); Mar Muerto optimal conditions; Purim 2027=13-14 mar. heroImage /images/regions/negev/hero.jpg. 3 CTAs Booking-Mar-Muerto+GYG-Néguev-flores+GYG-Hermón-ski. 7 FAQs. Weather table with 7 regions incl. Monte Hermón (alpino; nieve probable).
+- israel-in-march: Purim 2027=13-14 mar TLV+Jerusalem; last kalaniot Néguev possible mid-March; Masada sunrise prime season 14–20°C; pre-Easter quiet in Jerusalem. heroImage /images/regions/galilee/hero.jpg. 3 CTAs Booking-TLV-Purim+GYG-Néguev-flores+GYG-Masada-sunrise. 7 FAQs.
+- israel-in-april: Pésaj+Semana Santa convergence (busiest month of year); Pésaj 2026=12-19 abr, 2027=22-29 abr; Yoim HaShoá sirena 10h behavior; Ioim HaAtzmaut fuegos artificiales. heroImage /images/regions/jerusalem/old-city.jpg. 3 CTAs Booking-abril+Tourradar-Pesaj-Pascua+GYG-IndependenceDay. 7 FAQs. Note: verify exact dates chabad.org/holidays.
+- israel-in-may: shoulder-season sweet spot (prices 20–30% below June); Lag BaOmer bonfires; Mediterranean beach season opens 22–24°C; Día de Jerusalén neutral-sensitive framing; Ioim HaAtzmaut parks free entry. heroImage /images/regions/galilee/hero.jpg. 3 CTAs Booking-mayo+GYG-IndependenceDay+GYG-Galilea-spring. 7 FAQs.
+All guides: LATAM neutral español tuteo; no vosotros; YAML double-quotes; all /es/* internal links confirmed existing pre-write (/es/israel-in-june MISSING → /es/israel-in-summer fallback used); no fabricated exact prices (ranges only); no clinical cure claims; neutral political framing (Día de Jerusalén, Cisjordania references).
+Gate: pnpm check 0 errors; pnpm build 1439 pages (0 errors, 51.57s); pnpm test:e2e 2161/2161 pass (23.3m, exit code 0; PLAYWRIGHT_SKIP_BROWSER_DOWNLOAD=1 PLAYWRIGHT_BROWSERS_PATH=/opt/pw-browsers).
+Ship: direct master commit 82e393c672c83195d356b81abae1e52db24f4319 (squash found no commits on feature branch auto/es-41-monthly-jan-may; staged directly — established pattern iter961+). git push -u origin master succeeded 2026-08-04T17:19:15Z.
+Prod: CI workflow #1822 + Lighthouse #1844 in_progress at push time.
+Next: iter997 BUILD (997%5=2 → BUILD; top BACKLOG item: ES-42 — 5-6 ES monthly guides jun/jul/sep/nov/dec).

@@ -1,12 +1,12 @@
 # LOOP STATE
 
-- iteration: 995
-- lastMode: RESEARCH
-- lastItem: research-995-es41-es42-xlinks-batch-definitions
-- lastResult: RESEARCH iter995 — 199th research pass. ES-41/ES-42 cross-links fully verified. FR+DE monthly guide coverage CONFIRMED COMPLETE (FR-28+FR-29 = all FR months done; DE-26+DE-27 = all DE months done). ES monthly guides: ES-41+ES-42 ready to build (complete coverage after ship). Competitor scan: DE urlaubsguru.de/travelbook.de/lonelyplanet.de zero editorial on Israel Museum/thermal springs/wildflowers/culinary heritage; FR routard.com/lonelyplanet.fr zero competition; ES civitatis.com/tripadvisor.es zero editorial for comparison guides or specialty pages. 3 new batches defined: ES-43 (vs-greece/vs-turkey/museum/thermal-springs/spring-wildflowers); FR-30 (museum/gan-hashlosha/spring-wildflowers/thermal-springs/culinary-heritage); DE-28 (museum/thermal-springs/spring-wildflowers/culinary-heritage/gluten-free). All cross-links for new batches pre-verified ✓. Gate: not run (RESEARCH mode). Last GREEN: build 1434 pages; e2e all pass (iter994 30257c9e).
-- nextRotationCategory: BUILD (iter996; 996%5=1 → BUILD; top item: ES-41 — 5 ES monthly guides jan-feb-mar-apr-may; all cross-links verified ✓)
+- iteration: 996
+- lastMode: BUILD
+- lastItem: es-41-monthly-jan-may
+- lastResult: BUILD iter996 — ES-41 SHIPPED 82e393c6. 5 ES monthly guides created: israel-in-january (Eilat high season 21-24°C; Mar Muerto; Néguev hiking; Tu BiShvat; 7 FAQs; CTAs Booking+GYG×2); israel-in-february (Darom Adom kalaniot bloom; Monte Hermón skiing; Mar Muerto optimal; 7 FAQs; weather table 7 regions; CTAs Booking+GYG×2); israel-in-march (Purim carnival 2027=13-14 mar; last kalaniot; Masada prime; pre-Easter quiet; 7 FAQs; CTAs Booking+GYG×2); israel-in-april (Pésaj+Semana Santa convergence; Yoim HaShoá; Ioim HaAtzmaut; 7 FAQs; CTAs Booking+Tourradar+GYG); israel-in-may (shoulder-season sweet spot; Lag BaOmer; Mediterranean beach opens; Día de Jerusalén neutral; 7 FAQs; CTAs Booking+GYG×2). LATAM neutral tuteo; no fabricated prices; all /es/* cross-links pre-verified; 10 new e2e routes (5 smoke + 5 a11y). ES guides: 205→210/398. Build: 1434→1439 pages (+5). Gate: pnpm check 0 errors; build 1439 pages; 2161/2161 e2e pass (23.3m). Ship: direct master commit 82e393c6. CI in_progress at push time.
+- nextRotationCategory: BUILD (iter997; 997%5=2 → BUILD; top item: ES-42 — 5-6 ES monthly guides jun/jul/sep/nov/dec; all cross-links pre-verified ✓; /es/israel-in-june MISSING → link /es/israel-in-summer as fallback)
 - higgsfieldSpent: 0
-- updatedAt: 2026-08-04T16:10Z
+- updatedAt: 2026-08-04T17:20Z
 - branch context: work on master; feature work on auto/<slug>
 
 Notes: iter994 REVIEW — DE-26/DE-27 meta-trim SHIPPED 30257c9e. Audited 11 DE monthly guides (DE-26 jan-may iter992 + DE-27 jun-dec iter993). Found 6 meta violations and fixed: march title 67→55 (year range removed); june title 66→56 ('Jerusalem' redundant removed); november title 74→57 ('in Agamon HaHula' shortened to 'Kraniche,'); september desc 172→141 ('— vollständiger Monatsguide' removed); october desc 180→127 (verbose phrases compacted, 'Birkat Kohanim' retained as keyword); december desc 171→124 ('(Chag HaChagim)' + '— vollständiger Monatsguide' removed). Other checks clean: 76 /de/* internal links all resolve; 11/11 hero images exist; no H1 in body of any guide; affiliates valid (booking/getyourguide across all 11 guides). Gate: pnpm check 0 errors; build 1434 pages (unchanged); 22/22 targeted e2e pass (11 smoke + 11 a11y for DE monthly routes). CI in_progress at push time.

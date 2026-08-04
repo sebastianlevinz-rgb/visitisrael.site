@@ -2011,7 +2011,7 @@ Priority upgrade: israel-for-vietnamese-travelers [iter675 research] P3/S → P2
 
 - [SHIPPED iter991 b934d657] (i18n-FR, M) FR Phase FR-29 — 5 Metropolitan French monthly guides batch 2 of 2 (FR 227→232/398). Summer/autumn months. Shipped: israel-in-june, israel-in-july, israel-in-september, israel-in-november, israel-in-december. Build 1418→1423 pages (+5). 2129/2129 e2e pass (18.4m).
 
-- [P2] (i18n-ES, M) ES monthly guides batch ES-41 (ES 205→210/398). Winter/spring months. All 5 confirmed MISSING from ES: israel-in-january, israel-in-february, israel-in-march, israel-in-april, israel-in-may. ES already has: israel-in-spring, israel-in-summer, israel-in-autumn, israel-in-winter, israel-in-october. Cross-links per month: /es/best-time-to-visit-israel ✓, /es/israel-events-festivals ✓, /es/hiking-in-israel ✓, /es/dead-sea-guide ✓, /es/easter-in-jerusalem ✓. Status: ready [iter985 research]
+- [SHIPPED iter996 82e393c6] (i18n-ES, M) ES monthly guides batch ES-41 (ES 205→210/398). Winter/spring months. Shipped: israel-in-january, israel-in-february, israel-in-march, israel-in-april, israel-in-may. Build 1434→1439 pages (+5). 2161/2161 e2e pass (23.3m).
 
 - [P2] (i18n-ES, M) ES monthly guides batch ES-42 (ES 210→215/398). Summer/autumn months. All 5 confirmed MISSING from ES: israel-in-june, israel-in-july, israel-in-september, israel-in-november, israel-in-december. Cross-links: /es/best-time-to-visit-israel ✓, /es/israel-events-festivals ✓, /es/birdwatching-in-israel ✓, /es/christmas-in-israel ✓, /es/dead-sea-guide ✓. Status: ready [iter985 research]
 
