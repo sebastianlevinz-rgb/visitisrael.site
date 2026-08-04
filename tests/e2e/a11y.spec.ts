@@ -853,6 +853,11 @@ const ROUTES = [
   '/es/israel-stargazing',
   '/es/israel-after-birthright',
   '/es/israel-gluten-free-guide',
+  '/de/israel-national-trail-hiking',
+  '/de/israel-affordable-luxury',
+  '/de/israel-hummus-trail',
+  '/de/mitzpe-ramon-guide',
+  '/de/jaffa-food-guide',
 ];
 
 for (const route of ROUTES) {
