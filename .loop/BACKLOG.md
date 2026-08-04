@@ -2013,7 +2013,6 @@ Priority upgrade: israel-for-vietnamese-travelers [iter675 research] P3/S → P2
 
 - [SHIPPED iter996 82e393c6] (i18n-ES, M) ES monthly guides batch ES-41 (ES 205→210/398). Winter/spring months. Shipped: israel-in-january, israel-in-february, israel-in-march, israel-in-april, israel-in-may. Build 1434→1439 pages (+5). 2161/2161 e2e pass (23.3m).
 
-- [P2] (i18n-ES, M) ES monthly guides batch ES-42 (ES 210→215/398). Summer/autumn months. All 5 confirmed MISSING from ES: israel-in-june, israel-in-july, israel-in-september, israel-in-november, israel-in-december. Cross-links: /es/best-time-to-visit-israel ✓, /es/israel-events-festivals ✓, /es/birdwatching-in-israel ✓, /es/christmas-in-israel ✓, /es/dead-sea-guide ✓. Status: ready [iter985 research]
 
 - [SHIPPED iter992 a3e03e22] (i18n-DE, M) DE monthly guides batch DE-26 (DE 212→217/398). 5 guides: israel-in-january/february/march/april/may. Metropolitan German register. 10 e2e tests added; all pass.
 
