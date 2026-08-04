@@ -1,13 +1,15 @@
 # LOOP STATE
 
-- iteration: 1001
+- iteration: 1002
 - lastMode: BUILD
-- lastItem: es-43-specialty-guides
-- lastResult: SHIPPED 620b57bc — 5 ES specialty guides (israel-vs-greece, israel-vs-turkey, israel-museum-jerusalem, israel-thermal-springs, israel-spring-wildflowers). Broken-link fixes: /es/qumran-guide→/qumran-guide (2 places), /es/jerusalem-museums→/jerusalem-museums. Gate: pnpm check 0 errors; build 1449 pages; pnpm test:e2e 2171/2171 pass (16.9m). ES guides: 215→220/398. PR #43 (draft) created; CI in_progress at merge time.
-- nextRotationCategory: BUILD (iter1002; 1002%5=2 → BUILD; top item: ES-44 — temple-mount-visitor-guide/rosh-hashanah-in-israel/yom-kippur-in-israel/masada-tours-compared/tel-aviv-to-jerusalem)
+- lastItem: es-44-pilgrimage-holidays
+- lastResult: SHIPPED e05866d8 — 5 ES pilgrimage + holiday + transport guides (temple-mount-visitor-guide, rosh-hashanah-in-israel, yom-kippur-in-israel, masada-tours-compared, tel-aviv-to-jerusalem). Gate: pnpm check 0 errors; build 1454 pages (+5); pnpm test:e2e 2171/2171 pass (20.4m). ES guides: 220→225/398. Vercel deploy status unresolved after 5min poll — deferred to next iter start-check.
+- nextRotationCategory: REVIEW (iter1003; 1003%5=3 → REVIEW; audit slice: new ES-44 guides + cross-link integrity)
 - higgsfieldSpent: 0
-- updatedAt: 2026-08-04T22:23Z
+- updatedAt: 2026-08-04T23:12Z
 - branch context: work on master; feature work on auto/<slug>
+
+Notes: iter1002 BUILD — ES-44 pilgrimage+holidays+transport SHIPPED e05866d8. 5 ES guides: temple-mount-visitor-guide (Explanada de las Mezquitas/Monte del Templo; non-Muslim access rules; 6 FAQs), rosh-hashanah-in-israel (Año Nuevo Judío 2026 22-23 sep; Tashlij + shofar; 6 FAQs), yom-kippur-in-israel (25h empty streets; bicicletas en autopistas; Kol Nidre/Neilá; 6 FAQs), masada-tours-compared (5-format table sunrise/teleférico/privado/combo/autoguiado; verdictName sunrise; 6 FAQs), tel-aviv-to-jerusalem (tren/bus/sherut/taxi/alquiler comparison; 6 FAQs). Gate: 0 errors; 1454 pages (+5); 2171/2171 e2e pass (20.4m). Vercel deploy status deferred.
 
 Notes: iter1001 BUILD — ES-43 specialty guides SHIPPED 620b57bc. 5 ES guides: israel-vs-greece (vs Grecia comparison + 5 FAQs), israel-vs-turkey (vs Turquía comparison + 6 FAQs), israel-museum-jerusalem (Museo de Israel visitor guide + 7 FAQs), israel-thermal-springs (Hamat Gader + 7 FAQs), israel-spring-wildflowers (kalaniot/Darom Adom + 6 FAQs). Broken cross-links fixed (qumran-guide+jerusalem-museums EN fallbacks). Gate: 0 errors; 1449 pages; 2171/2171 e2e pass. PR #43 draft auto/es-43-specialty-guides.
 
