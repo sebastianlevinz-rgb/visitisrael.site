@@ -15134,3 +15134,10 @@ Other checks: 49 /es/* internal links all resolve; 5/5 hero images exist; no H1 
 Gate: pnpm check 0 errors; build 1444 pages (unchanged); 40/40 targeted e2e pass (28s).
 Ship: commit 35b87250 pushed to master. CI in_progress at push time.
 Next: iter999 REVIEW (999%5=4 → REVIEW; top item: ES-41 meta-trim — check 5 ES monthly guides jan-may for title/desc overruns).
+
+## 2026-08-04T20:00Z · iter 999 · REVIEW · review-999-es-meta-trim
+What: audited ES-41 batch (5 ES monthly guides: israel-in-january/february/march/april/may) for title/desc overruns. 3 title violations found and fixed: january 67→51 (removed 'guía de viaje — '); march 65→54 (removed ' primaveral'); april 63→47 (removed 'guía de viaje — '). february (58) and may (57) already within limit. No desc overruns on any. Other checks: 13 /es/* internal links all resolve; 4/4 hero images exist; no H1 in body; affiliates valid (booking/getyourguide/tourradar); no fabricated data.
+Gate: pnpm check 0 errors; build 1444 pages (unchanged); 2171/2171 e2e pass (21.0m).
+Ship: squash-merged to master bbb8ed17, pushed.
+Prod: CI/Lighthouse in_progress at push time (prev CI for same change type = success).
+Next: iter1000 = RESEARCH (1000%5=0); 199th research pass.

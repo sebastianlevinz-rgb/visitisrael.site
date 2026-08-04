@@ -1,12 +1,12 @@
 # LOOP STATE
 
-- iteration: 998
+- iteration: 999
 - lastMode: REVIEW
-- lastItem: review-998-es-meta-trim
-- lastResult: REVIEW iter998 — ES-42 meta-trim SHIPPED 35b87250. Audited 5 ES monthly guides (ES-42: israel-in-june/july/september/november/december). All 5 had both title and description overruns. 10 fixes applied: june title 66→50 (removed 'guía de viaje — '); june desc 160→140 (removed '(200.000+ personas)'); july title 94→52 (removed 'guía de viaje — ' + condensed); july desc 167→136 (removed 'temporada alta de la diáspora y'); september title 72→56 (removed 'guía de viaje — '); september desc 190→141 (removed filler sentence); november title 92→56 (condensed to 'Grullas del Hulá y cosecha de oliva'); november desc 229→156 (compacted, removed 'los sitios están sin aglomeraciones y'); december title 62→46 (removed 'guía de viaje — '); december desc 201→127 (restructured as keyword list). Other checks: 49 /es/* internal links all resolve; 5/5 hero images exist; no H1 in body; affiliates valid. Gate: pnpm check 0 errors; build 1444 pages (unchanged); 40/40 targeted e2e pass. CI in_progress at push time.
-- nextRotationCategory: REVIEW (iter999; 999%5=4 → REVIEW per formula; top item: review ES-41 meta-trim — check 5 ES monthly guides jan-may for title/desc overruns; then BUILD ES-43 when clean)
+- lastItem: review-999-es-meta-trim
+- lastResult: REVIEW iter999 — ES-41 meta-trim SHIPPED bbb8ed17. Audited 5 ES monthly guides (ES-41: israel-in-january/february/march/april/may). 3 title overruns found and fixed: january title 67→51 (removed 'guía de viaje — '); march title 65→54 (removed ' primaveral'); april title 63→47 (removed 'guía de viaje — '). february (58) and may (57) already within limit; no desc overruns on any. Other checks clean: 13 /es/* internal links all resolve; 4/4 hero images exist; no H1 in body; affiliates valid (booking/getyourguide/tourradar); no fabricated data. Gate: pnpm check 0 errors; build 1444 pages (unchanged); 2171/2171 e2e pass (21.0m). CI in_progress at push time.
+- nextRotationCategory: RESEARCH (iter1000; 1000%5=0 → RESEARCH per formula; 199th research pass — scan competitors for ES/FR/DE content gaps + any new high-value EN opportunities)
 - higgsfieldSpent: 0
-- updatedAt: 2026-08-04T18:37Z
+- updatedAt: 2026-08-04T20:00Z
 - branch context: work on master; feature work on auto/<slug>
 
 Notes: iter994 REVIEW — DE-26/DE-27 meta-trim SHIPPED 30257c9e. Audited 11 DE monthly guides (DE-26 jan-may iter992 + DE-27 jun-dec iter993). Found 6 meta violations and fixed: march title 67→55 (year range removed); june title 66→56 ('Jerusalem' redundant removed); november title 74→57 ('in Agamon HaHula' shortened to 'Kraniche,'); september desc 172→141 ('— vollständiger Monatsguide' removed); october desc 180→127 (verbose phrases compacted, 'Birkat Kohanim' retained as keyword); december desc 171→124 ('(Chag HaChagim)' + '— vollständiger Monatsguide' removed). Other checks clean: 76 /de/* internal links all resolve; 11/11 hero images exist; no H1 in body of any guide; affiliates valid (booking/getyourguide across all 11 guides). Gate: pnpm check 0 errors; build 1434 pages (unchanged); 22/22 targeted e2e pass (11 smoke + 11 a11y for DE monthly routes). CI in_progress at push time.
