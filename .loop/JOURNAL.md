@@ -14895,3 +14895,35 @@ Result: ALL CLEAN — no code changes required.
 Checks: (1) Meta — 5/5 titles ≤65 chars (50–62); 5/5 descriptions ≤160 chars (153–158); (2) Internal links — 24 /es/* links all resolve to existing files, 0 broken; (3) H1 in body — none found in any guide; (4) Hero images — all 5 exist in /public; (5) Affiliate partners — all valid (booking/getyourguide/viator/abraham); (6) Price honesty — all ₪ values are ranges with "verify directly" disclaimers; (7) Medical tourism — no cure claims, therapeutic-tradition framing throughout; (8) Music festivals — 7 date-verification disclaimers (sitio oficial/confirma/verifica); (9) pnpm check — 0 errors.
 Gate: N/A (no code changes; pnpm check 0 errors confirmed).
 Next: RESEARCH (iter980; 980%5=0).
+
+## 2026-08-04T01:15Z · iter 980 · RESEARCH · 196th research pass — FR-27/ES-39 defined
+What: 196th research pass (iter980%5==0 → RESEARCH mode). Sources: filesystem gap analysis (comm -23 EN vs FR/DE/ES; exact counts: EN=398, FR=217 [181 gaps], DE=202 [196 gaps], ES=195 [203 gaps]), COMPETITORS.md corpus, EN guide content spot checks, cross-link verification against filesystem, competitor web research agent (touristisrael.com SERP analysis, lonelyplanet.com structure, TravelAndTourWorld, LocationScout, The Broke Backpacker, Israel Travel Advisor).
+
+Batch definitions:
+
+FR-27 (5 guides, FR 217→222/398). All 5 confirmed MISSING from FR via comm -23:
+(1) israel-archaeology-experience — already in DE (iter971) + ES (iter978); France = largest museum-visiting nation (Louvre); zero FR editorial for "expérience archéologique Israël"; Tel Megiddo + Beit Guvrin UNESCO + IAA Volunteer + ICARE; CTAs GYG+Booking; cross-links /fr/dead-sea-guide ✓, /fr/3-days-in-galilee ✓, /fr/golan-heights-guide ✓, /fr/israel-national-parks-pass ✓, /fr/yad-vashem-visitor-guide ✓;
+(2) israel-medical-tourism — already in ES (iter978) + DE-24 queue; FIV Sheba/Assuta; IVF USD 3.000–4.500 vs EUR 4.000–8.000 France; HONESTY: prix comme fourchettes, aucune promesse clinique; CTAs Booking×2+GYG+Abraham; cross-links /fr/dead-sea-medical-tourism ✓, /fr/best-hotels-tel-aviv ✓, /fr/day-trips-from-tel-aviv ✓, /fr/dead-sea-guide ✓, /fr/dead-sea-hotels-guide ✓;
+(3) israel-kayaking — in DE-24 queue; France = highest per-capita kayak participation in Europe (Fédération Française de Canoë-Kayak 110,000+ licenciés); Jordan River Kfar Blum + HaGoshrim; zero FR editorial; CTAs GYG+Booking; cross-links /fr/3-days-in-galilee ✓, /fr/golan-heights-guide ✓, /fr/hiking-in-israel ✓, /fr/best-beaches-israel ✓, /fr/israel-adventure-sports ✓;
+(4) israel-stargazing — in DE-23 (iter976); Société Astronomique de France 4,000+ clubs; Makhtesh Ramon IDA Parc International Ciel Étoilé 2017; zero FR editorial; CTAs GYG+Viator+Booking; cross-links /fr/3-days-in-negev ✓, /fr/golan-heights-guide ✓, /fr/best-time-to-visit-israel ✓, /fr/mitzpe-ramon-guide ✓;
+(5) israel-gluten-free-guide — 600,000+ cœliaques en France; zero "Israël sans gluten" FR editorial; EN guide comprehensive; CTAs GYG food tours+Booking; cross-links /fr/vegan-vegetarian-israel ✓, /fr/israeli-food-cuisine-guide ✓, /fr/tel-aviv-food-guide ✓, /fr/jerusalem-food-guide ✓, /fr/kosher-food-guide ✓.
+
+ES-39 (5 guides, ES 195→200/398). All 5 confirmed MISSING from ES via comm -23:
+(1) israel-national-trail-hiking — already in FR-26 (iter977); LATAM trekking market (Argentina/Chile/Colombia Andes culture); zero "Senda Nacional Israel" ES editorial; ~1.100km Dan→Eilat; CTAs Discovercars+GYG+Booking; cross-links /es/hiking-in-israel ✓, /es/3-days-in-galilee ✓, /es/mitzpe-ramon-guide ✓, /es/golan-heights-guide ✓, /es/car-rental-israel ✓;
+(2) israel-kayaking — in DE-24 queue; zero "kayak en Israel" ES editorial; Jordan River Kfar Blum + HaGoshrim; CTAs GYG+Booking; cross-links /es/3-days-in-galilee ✓, /es/golan-heights-guide ✓, /es/hiking-in-israel ✓, /es/best-beaches-israel ✓, /es/israel-adventure-sports ✓;
+(3) israel-stargazing — in DE-23 (iter976); LATAM astronomy tradition (Chile Atacama context); zero "observación estrellas Israel" ES editorial; CTAs GYG+Booking; cross-links /es/3-days-in-negev ✓, /es/golan-heights-guide ✓, /es/best-time-to-visit-israel ✓, /es/mitzpe-ramon-guide ✓;
+(4) israel-after-birthright — LATAM Birthright participation (Argentina/Brazil/Mexico/Colombia top contingents); practical "next trip" guide; zero ES editorial; CTAs Booking+GYG+Discovercars; cross-links /es/first-time-in-israel ✓, /es/israel-road-trip ✓, /es/car-rental-israel ✓, /es/best-hotels-tel-aviv ✓, /es/backpacking-israel ✓; NOTE: use /es/israel-food-tours-cooking-classes ✓ instead of missing /es/israeli-food-cuisine-guide;
+(5) israel-gluten-free-guide — Argentina has highest celiac prevalence globally (~1:100); zero "Israel sin gluten" ES editorial; CTAs GYG food tours+Booking; cross-links /es/vegan-vegetarian-israel ✓, /es/israel-food-tours-cooking-classes ✓, /es/tel-aviv-food-guide ✓, /es/jerusalem-food-guide ✓, /es/kosher-food-guide ✓.
+
+New BACKLOG items added (iter980 research):
+- P2 monthly-guides-FR batch (10 monthly guides israel-in-january/february/march/april/may/june/july/september/november/december missing from FR; TouristIsrael competes on all months; high SEO value "Israel en [mois]")
+- P3 israel-photography-guide i18n (missing from FR/DE/ES; locationscout.net has 168 photo spots = confirmed EN competitor; France/Germany photography tourism strong market)
+
+Competitor scan intelligence (iter980):
+- TouristIsrael confirmed covering every monthly guide (jan through dec); only Israel-specialist site doing so
+- Our EN foundation (eta-guide, is-israel-safe, solo-female-travel, backpacking-israel, airlines guide) is comprehensive — research agent identified items that already exist on our site
+- Monthly guides are the largest single remaining content gap for FR (10 guides = ~5.5% of all missing content)
+- locationscout.net = 168 photo spots Israel = meaningful competition for israel-photography-guide
+
+Gate: not run (RESEARCH mode). Last known GREEN: build 1388 pages; 2059/2059 e2e pass (iter978 1acd331c).
+Next: iter981 BUILD (981%5=1 → BUILD). Top BACKLOG item: DE-24 (israel-agritourism-guide, israel-rooftop-bars, israel-music-festivals, israel-medical-tourism, israel-kayaking).

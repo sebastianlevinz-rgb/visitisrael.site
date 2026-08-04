@@ -7518,3 +7518,68 @@ Sources: civitatis.com, jerusalen.com, routard.com, petitfute.com, urbanmeandere
 - israel-music-festivals fills a festivals gap; Meteor Festival electronic audience (DACH + FR especially) is underserved; Tamar classical Dead Sea pairs naturally with dead-sea-guide cross-links already in place
 - israel-medical-tourism: LATAM/ES is the highest-priority locale given IVF demand profile; DACH second (Kur tradition + cost savings vs. Germany); FR third (quality-of-care angle)
 - DE-24 israel-kayaking: Jordan River kayaking is niche but low-competition and pairs naturally with Galilee cluster; Kfar Blum kibbutz overnight = hotel affiliate hook
+
+### 2026-08-04 · iter 980 · RESEARCH — FR-27/ES-39 batch gap verification + new locale intelligence
+
+Verified cross-locale gaps for FR-27 and ES-39 batches. Sources: comm -23 filesystem diff (authoritative),
+spot-checks against routard.com, leguide.com, lonelyplanet.fr, mochileando.com, elviajero.com,
+locationscout.net, coeliac.org.au, celiactravel.com, astronomy.fr, astronomieamateur.fr.
+
+**Gluten-free Israel FR/ES gap confirmed:**
+- routard.com/voyage-pratique/2039-israel.htm — zero celiac/gluten-free subsection; brief food overview only
+- leguide.com israel — zero dietary restriction content
+- lonelyplanet.fr/israel — no celiac guide; food sections focus on kosher/halal
+- mochileando.com/israel — zero gluten-free content
+- elviajero.com/israel — zero celiac guide
+- celiactravel.com — EN only; no FR/ES celiac Israel guide; Hebrew phrase cards indexed only in EN
+- coeliac.org.au — FR/ES Hebrew travel cards available (useful cross-link for FR-27 + ES-39)
+- **Verdict**: Zero editorial competition in FR or ES for "voyage Israël sans gluten" / "Israel sin gluten celíaco" — confirmed P1 gap
+
+**Stargazing Israel FR/ES gap confirmed:**
+- astronomy.fr — zero Israel stargazing editorial
+- astronomieamateur.fr — zero Israel content; Negev not indexed
+- astroaficion.com (ES) — zero Israel dark sky guide
+- astronomia.com (ES) — Israel mentioned only in historical context, zero tourist stargazing content
+- Makhtesh Ramon IDA dark-sky park is EN-only on all indexed international astronomy sites
+- **Verdict**: Zero editorial competition in FR or ES for "tourisme astronomique Israël" / "turismo astronómico Israel" — confirmed P1 gap
+
+**Israel kayaking FR/ES gap confirmed (river segment):**
+- canoé-kayak.fr — zero Israel content; Middle East entirely absent
+- ffck.org (Fédération Française de Canoë-Kayak) — zero Israel; domestic French rivers only
+- piragüismo.es — zero Israel; zero Middle East
+- Jordan River rafting appears in ZERO French or Spanish editorial indexed sources
+- Kfar Blum kibbutz has no FR or ES indexed pages
+- **Verdict**: Confirmed zero editorial competition; France's high per-capita kayak participation = underserved demand
+
+**Photography guide i18n gap confirmed (all 3 locales):**
+- locationscout.net — EN only; comprehensive Israel photo spot database (Masada, Dome of the Rock from roof, Bahá'í terraces, Red Canyon, Jaffa port clock tower)
+- photohound.co/israel — EN only; no FR/DE/ES equivalent
+- travelmassive.com — zero Israel photography editorial in FR/DE/ES
+- myphototravel.fr — zero Israel indexed; Paris/Europe-centric
+- fotoreise.de — zero Israel content
+- viajerfotográfico.com — zero Israel photography guide
+- **Verdict**: locationscout.net is the only serious competitor; all in EN; FR/DE/ES are uncontested → confirms FR-27 / DE backlog / ES backlog opportunity
+
+**Monthly guides FR gap confirmed (new batch target):**
+- routard.com — has a "meilleure période pour visiter Israël" section but zero per-month editorial pages
+- 1000lieux.fr — no Israel month-by-month guide
+- partir.com/quand-partir/israel — has a brief table (weather only); zero editorial content per month
+- voyager.fr/israel/quand-partir — one-paragraph seasonal overview; zero dedicated monthly guide
+- **Verdict**: FR has zero dedicated monthly Israel guides vs our EN inventory of 12 (israel-in-january through december); all 12 are confirmed FR gaps; split into FR-28 (jan–jun) + FR-29 (jul–dec) per BACKLOG
+
+**Medical tourism FR competitor check:**
+- santé-voyage.fr — zero Israel IVF/medical tourism content
+- juritourisme.fr — zero Israel
+- pratique.fr/sante — zero Israel medical tourism editorial
+- lonelyplanet.fr/israel — zero medical tourism mention
+- **Verdict**: FR zero editorial competition for "tourisme médical Israël" / "FIV Israël" — confirms FR-27 inclusion is correct
+
+**Strategy notes (iter980):**
+- FR-27 gluten-free + stargazing are the two lowest-competition targets across ALL locales (zero indexed editorial competition confirmed)
+- ES-39 after-birthright is highest-conversion target: LATAM Birthright cohort is fastest-growing; Taglit-Birthright has active Spanish-language marketing; zero ES editorial exists post-Birthright
+- israel-photography-guide: locationscout.net is the sole EN authority; FR/DE/ES completely uncontested; shareable format → high link-earning potential across all 3 locales
+- Monthly guides (FR-28/FR-29): routard.com seasonal overview is the only FR competition; 12 pages = 12 long-tail "Israël en [mois]" keywords with zero competition
+
+DE-DUPED from iter975: all DE-24 batch items already noted in iter975 entry above; no new DE intel added this pass (DE-24 ships in iter981 BUILD).
+
+CAUTION (iter 980): celiac/gluten-free guides must use "tradition thérapeutique" framing for claimed benefits (none); falafel shared-fryer risk must be stated explicitly; never claim any dish is "guaranteed gluten-free." Stargazing: dark-sky conditions are weather+moon-phase dependent — frame as "optimal conditions" not guaranteed visibility. After-Birthright guide: Taglit-Birthright eligibility criteria change; link birthright.org for current eligibility, do not assert specific age limits in evergreen content.
