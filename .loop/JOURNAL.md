@@ -15015,3 +15015,11 @@ All guides: Metropolitan French register; no fabricated exact prices (₪ ranges
 Gate: pnpm check 0 errors; pnpm build 1418 pages (0 errors); pnpm test:e2e 2119/2119 pass (17.0m, PLAYWRIGHT_SKIP_BROWSER_DOWNLOAD=1 PLAYWRIGHT_BROWSERS_PATH=/opt/pw-browsers).
 Ship: direct master commit 25807976 (squash found no commits on feature branch auto/fr-28-monthly-jan-may; staged directly — established pattern iter961/963/967/968/972/973/981/982/983/986/987). git push -u origin master succeeded.
 Next: iter989 REVIEW (989%5=4 → REVIEW; audit FR-28 batch meta + links).
+
+## 2026-08-04T09:58Z · iter 989 · REVIEW · review-989-fr28-meta-trim
+What: Audit of FR-28 batch (5 French monthly guides shipped iter988: israel-in-january, israel-in-february, israel-in-march, israel-in-april, israel-in-may).
+Checks: (1) Meta lengths — 4/5 titles had overruns (january 67→53, february 69→55, march 68→59, may 66→52 bytes); 2/5 descs had overruns (march 176→150, april 175→142 bytes); january desc 147 ✓; february desc 156 ✓; april title 65 ✓; may desc 150 ✓; (2) Internal /fr/* links — 19 links checked, all resolve to existing files, 0 broken; (3) H1 in body — none found in any of 5 guides; (4) Hero images — all 5 exist in /public; CTA images — all 10 exist; (5) Affiliate partners — all valid (booking/getyourguide/tourradar); (6) Honesty — no fabricated exact prices (₪ ranges only), no clinical cure claims, political framing neutral (Journée de Jérusalem handled correctly).
+Fix: 6 meta overruns trimmed — january/february/may titles: year ranges removed; march title: 'Sauvages' removed; march desc: 'carnaval de' removed + 'les foules de' removed; april desc: 'remplissent'→'à' and 'tapissent la Galilée'→'en Galilée' compacted.
+Gate: pnpm check 0 errors; build 1418 pages (unchanged); 2119/2119 e2e pass (17.6m).
+Ship: commit 11386020 pushed to master. CI/Lighthouse in_progress at push time.
+Next: iter990 RESEARCH (990%5=0 → 198th research pass; candidates: FR-29 monthly batch jun-dec, DE-26 monthly batch, ES-41 definition).
