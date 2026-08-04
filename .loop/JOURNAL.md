@@ -14971,3 +14971,11 @@ Gate: pnpm check 0 errors; pnpm build 1398→1403 pages (+5); pnpm test:e2e 2089
 Ship: squash-merge to master 5f5b22f5; pushed origin master.
 Prod: CI/Lighthouse pending at push time.
 Next: iter984 REVIEW (984%5=4 → REVIEW; audit ES-39 batch for meta lengths + cross-links + images + honesty).
+
+## 2026-08-04T05:00Z · iter 984 · REVIEW · review-984-es39-esim-link
+What: Audit of ES-39 batch (5 LATAM Spanish guides shipped iter983: israel-national-trail-hiking, israel-kayaking, israel-stargazing, israel-after-birthright, israel-gluten-free-guide).
+Checks: (1) Meta — 5/5 titles ≤65 chars (65/65/56/57/56); 5/5 descriptions ≤160 chars (145/150/157/160/155); (2) Internal links — 26 /es/* links all resolve to existing files, 0 broken; (3) H1 in body — none found in any guide; (4) Hero images — all 5 exist in /public; CTA images — all 13 exist; (5) Affiliate partners — all valid (booking/getyourguide/discovercars); (6) Price honesty — all ₪ values are ranges; no exact prices, no fabricated ratings or review counts.
+Fix (1): israel-after-birthright.md line 141 had /israel-esim (EN root) instead of /es/israel-esim — corrected to locale-correct link (/es/israel-esim confirmed existing via filesystem).
+Gate: pnpm check 0 errors; build 1403 pages (unchanged); e2e 2089/2089 passed (27.4m).
+Ship: commit 45335458 pushed to master. CI/Lighthouse in_progress at push time.
+Next: iter985 RESEARCH (985%5=0 → 197th research pass; candidates: DE-25 batch definition, monthly-guides-FR batch, ES-40 definition).
