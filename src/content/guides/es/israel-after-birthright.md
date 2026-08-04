@@ -138,7 +138,7 @@ Las visitas guiadas para tu regreso no tienen que ser días completos. Algunas d
 
 **Visado y entrada:** La mayoría de los ciudadanos latinoamericanos entran sin visado por 90 días. Consulta la [guía de visados actual](/es/visa-information) antes de reservar.
 
-**Conectividad:** Una eSIM israelí (Airalo, Holafly) o una SIM local (Hot Mobile, Partner) cuesta aproximadamente ₪30–60 para 10 a 20 GB. Necesitarás datos para la navegación, especialmente en el norte y el sur. Consulta nuestra [guía de eSIM para Israel](/israel-esim) para las opciones disponibles.
+**Conectividad:** Una eSIM israelí (Airalo, Holafly) o una SIM local (Hot Mobile, Partner) cuesta aproximadamente ₪30–60 para 10 a 20 GB. Necesitarás datos para la navegación, especialmente en el norte y el sur. Consulta nuestra [guía de eSIM para Israel](/es/israel-esim) para las opciones disponibles.
 
 **[Contexto para un primer viaje independiente](/es/first-time-in-israel):** Si viajas con alguien que nunca ha estado en Israel, nuestra guía del primer viaje cubre toda la orientación que necesitará.
 
