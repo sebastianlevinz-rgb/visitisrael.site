@@ -7583,3 +7583,56 @@ locationscout.net, coeliac.org.au, celiactravel.com, astronomy.fr, astronomieama
 DE-DUPED from iter975: all DE-24 batch items already noted in iter975 entry above; no new DE intel added this pass (DE-24 ships in iter981 BUILD).
 
 CAUTION (iter 980): celiac/gluten-free guides must use "tradition thérapeutique" framing for claimed benefits (none); falafel shared-fryer risk must be stated explicitly; never claim any dish is "guaranteed gluten-free." Stargazing: dark-sky conditions are weather+moon-phase dependent — frame as "optimal conditions" not guaranteed visibility. After-Birthright guide: Taglit-Birthright eligibility criteria change; link birthright.org for current eligibility, do not assert specific age limits in evergreen content.
+
+## iter985 · 2026-08-04 · Research pass #197 — DE-25 / FR-28 / ES-40 competitor validation
+
+**DE Hummus trail gap confirmed:**
+- de.wikivoyage.org/Hummus = no Israel-specific hummus trail page
+- israelmagazin.de — covers Israeli food generally; zero Hummus-Route editorial
+- sterntours.de, reise-expert-israel.de — zero hummus trail content
+- **Verdict**: zero DACH editorial for Israel hummus trail → DE-25 inclusion confirmed
+
+**DE Mitzpe Ramon gap confirmed:**
+- de.wikivoyage.org/Mitzpe_Ramon = stub (3 sentences on location; no visitor logistics)
+- diesenhaus.de — 1 brief mention in general Israel itinerary
+- kommwirmachendaseinfach.de — brief mention in DACH Israel overview
+- **Verdict**: zero comprehensive DE Mitzpe Ramon guide → DE-25 inclusion confirmed; guides already cross-reference it (/de/israel-stargazing, /de/3-days-in-negev)
+
+**DE Israel National Trail gap confirmed:**
+- israel-trail.com — DACH niche trekking site by Christian Seebauer; targets long-distance DACH hikers not international visitors; no section guide for 5-day visitors
+- bergsteiger.de — one brief profile article (not a section guide)
+- israelabenteurer.de — basic facts page + GPS data; not a visitor guide
+- de.wikivoyage.org/Israel_National_Trail — exists but minimal; no CTA or booking guidance
+- **Verdict**: zero visitor-oriented DE section guide (how to hike portions as an international traveler) → DE-25 inclusion confirmed
+
+**DE Jaffa food guide gap confirmed:**
+- israelmagazin.de — brief general Jaffa mention; zero dedicated food guide
+- sterntours.de — zero Jaffa food editorial
+- travelmag.de — zero Israel food page
+- **Verdict**: zero DACH editorial for Jaffa food → DE-25 inclusion confirmed; /de/jaffa-travel-guide ✓ = strong internal cross-link
+
+**FR monthly guides — per-month gap confirmed:**
+- routard.com/guide/moyen-orient/israel-palestine — has weather table only; zero per-month editorial pages
+- voyageursdumonde.fr/quand-partir/israel — 2-paragraph overview (not per-month editorial)
+- partirou.com/quand/voyager/israel — weather table only
+- 1000lieux.fr — no Israel month pages indexed
+- petitfute.com — one seasonal overview; no per-month pages
+- **Verdict**: FR has zero dedicated per-month Israel editorial pages; touristisrael.com EN has 12 (confirmed); FR-28 (jan-may) + FR-29 (jun-dec) = 10 pages covering uncontested long-tail keywords
+
+**ES wine guide gap confirmed:**
+- travesiasdigital.com/guia-de-vinos-en-israel — 1 brief article; no winery recommendations, no tour guidance
+- winetourism.com — EN-only Israel section
+- civitatis.com — tour listings only; zero wine editorial in ES
+- **Verdict**: travesiasdigital.com = only ES competitor; minimal coverage; comprehensive ES guide = significant gap → ES-40 inclusion confirmed
+
+**ES food hub gap confirmed:**
+- routard.com/gastronomie/israel — FR only (no ES equivalent)
+- civitatis.com/es/israel — tour listings; zero gastronomía editorial
+- elviajerofeliz.com — brief Israel food mention; no comprehensive guide
+- **Verdict**: zero comprehensive ES Israeli food/cuisine guide; "gastronomía israelí" keyword uncontested → ES-40 inclusion confirmed
+
+**Strategy notes (iter985):**
+- DE monthly guides (91 missing for april/dec/feb/jan/jul/jun/mar/may/nov/oct/sep = 11 months) = single largest remaining DE content cluster after DONE/defined batches; DE-26+DE-27 queued
+- ES monthly guides (10 missing: jan/feb/mar/apr/may/jun/jul/sep/nov/dec) = same pattern as FR; ES-41+ES-42 queued
+- israel-road-trip is HIGH-VALUE for DE: confirmed missing from DE; EN guide comprehensive; "Rundreise Israel DACH" = zero editorial competition on road-trip-specific pages
+- All 3 locale strategies converging: monthly guides + key remaining hubs (food/wine) fill the largest remaining SEO gaps efficiently
