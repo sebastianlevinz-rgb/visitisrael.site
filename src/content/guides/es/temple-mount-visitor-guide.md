@@ -1,6 +1,6 @@
 ---
-title: "Explanada de las Mezquitas / Monte del Templo: guía para visitantes no musulmanes (2026)"
-description: "Cómo visitar la Explanada de las Mezquitas (Monte del Templo) como no musulmán — horarios de acceso, código de vestimenta, qué se puede y qué no, zonas permitidas y consejos prácticos para 2026."
+title: "Explanada de las Mezquitas: guía para no musulmanes (2026)"
+description: "Visita la Explanada de las Mezquitas como no musulmán: horarios dom–jue, vestimenta obligatoria, qué está permitido y cómo llegar en 2026."
 heroImage: /images/regions/jerusalem/old-city.jpg
 category: Sacred Sites
 updatedAt: 2026-08-04

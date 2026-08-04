@@ -1,6 +1,6 @@
 ---
 title: "Yom Kipur en Israel 2026: el Día del Perdón para viajeros"
-description: "Cómo vivir el Yom Kipur en Israel — el día más sagrado del judaísmo: calles vacías, bicicletas en autopistas, horarios de cierre, qué se puede hacer como turista y qué no."
+description: "Cómo vivir el Yom Kipur en Israel: calles vacías, bicicletas en autopistas, horarios de cierre y qué se puede hacer como turista."
 heroImage: /images/regions/jerusalem/western-wall.jpg
 category: Planning
 updatedAt: 2026-08-04

@@ -1,6 +1,6 @@
 ---
-title: "Tours a Masada comparados: amanecer, teleférico, privado y combinado Mar Muerto (2026)"
-description: "Qué formato de tour a Masada elegir — excursión al amanecer, teleférico diurno, tour privado, combinado con el Mar Muerto o autoguiado. Comparativa honesta de operadores, precios orientativos y para quién es cada opción."
+title: "Tours a Masada 2026: amanecer, privado y Mar Muerto"
+description: "Comparativa de tours a Masada: amanecer, teleférico+Mar Muerto, privado y autoguiado. Precios orientativos y cuál elegir según tu viaje."
 heroImage: /images/sub-destinations/dead-sea/masada.jpg
 category: Tours
 updatedAt: 2026-08-04

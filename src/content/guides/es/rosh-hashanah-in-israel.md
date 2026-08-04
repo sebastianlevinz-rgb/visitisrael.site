@@ -1,6 +1,6 @@
 ---
-title: "Rosh Hashaná en Israel 2026: guía del Año Nuevo Judío para viajeros"
-description: "Viajás a Israel durante el Rosh Hashaná 2026 (22–24 sep)? Ceremonia del Tashlij, shofar en el Muro Occidental, qué cierra, dónde comer y cómo disfrutarlo como turista."
+title: "Rosh Hashaná en Israel 2026: guía para viajeros"
+description: "Rosh Hashaná 2026 en Israel (22–24 sep): Tashlij, shofar en el Muro Occidental, qué cierra, dónde comer y cómo disfrutarlo como turista."
 heroImage: /images/regions/jerusalem/western-wall.jpg
 category: Planning
 updatedAt: 2026-08-04

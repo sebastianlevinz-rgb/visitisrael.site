@@ -1,6 +1,6 @@
 ---
-title: "De Tel Aviv a Jerusalén: tren vs. bus vs. sherut vs. taxi (2026)"
-description: "Cómo ir de Tel Aviv a Jerusalén — comparativa completa del tren de alta velocidad, el bus 480, el sherut y el taxi. Tiempos, precios orientativos, horarios de Shabat y cuál elegir según tu situación."
+title: "De Tel Aviv a Jerusalén: tren, bus, sherut o taxi (2026)"
+description: "De Tel Aviv a Jerusalén en tren (35 min), bus 480, sherut y taxi. Precios orientativos, horarios de Shabat y cuál elegir según tu viaje."
 heroImage: /images/regions/jerusalem/hero.jpg
 category: Transportation
 updatedAt: 2026-08-04
