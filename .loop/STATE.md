@@ -1,13 +1,15 @@
 # LOOP STATE
 
-- iteration: 1002
-- lastMode: BUILD
-- lastItem: es-44-pilgrimage-holidays
-- lastResult: SHIPPED e05866d8 — 5 ES pilgrimage + holiday + transport guides (temple-mount-visitor-guide, rosh-hashanah-in-israel, yom-kippur-in-israel, masada-tours-compared, tel-aviv-to-jerusalem). Gate: pnpm check 0 errors; build 1454 pages (+5); pnpm test:e2e 2171/2171 pass (20.4m). ES guides: 220→225/398. Vercel deploy status unresolved after 5min poll — deferred to next iter start-check.
-- nextRotationCategory: REVIEW (iter1003; 1003%5=3 → REVIEW; audit slice: new ES-44 guides + cross-link integrity)
+- iteration: 1003
+- lastMode: REVIEW
+- lastItem: review-1003-es-meta-trim
+- lastResult: SHIPPED 87835eb8 — ES-44 meta-trim: 4 title + 5 desc fixes (temple-mount 89→58/202→138, rosh-hashanah 71→47/174→136, yom-kippur desc 180→129, masada 87→51/227→136, tel-aviv-jerusalem 65→56/206→136). Gate: pnpm check 0 errors; build 1454 pages (unchanged); 2171/2171 e2e pass (21.0m). Vercel CI in_progress at push time.
+- nextRotationCategory: REVIEW (iter1004; 1004%5=4 → REVIEW; audit slice: FR-31/DE-29 batch meta + cross-link check, or i18n-plan parity spot check)
 - higgsfieldSpent: 0
-- updatedAt: 2026-08-04T23:12Z
+- updatedAt: 2026-08-04T23:45Z
 - branch context: work on master; feature work on auto/<slug>
+
+Notes: iter1003 REVIEW — ES-44 meta-trim SHIPPED 87835eb8. Audited 5 ES-44 guides (temple-mount-visitor-guide, rosh-hashanah-in-israel, yom-kippur-in-israel, masada-tours-compared, tel-aviv-to-jerusalem). 9 meta fixes applied: 4 titles over 60 chars fixed, 5 descriptions over 160 chars fixed. Other checks: 17 /es/* internal links all resolve; 4/4 hero images exist (old-city.jpg + western-wall.jpg + masada.jpg + jerusalem/hero.jpg); no H1 in body of any guide; affiliates valid (booking/getyourguide/viator/discovercars); no fabricated prices. Gate: 0 errors; 1454 pages unchanged; 2171/2171 e2e pass (21.0m). Pushed 87835eb8.
 
 Notes: iter1002 BUILD — ES-44 pilgrimage+holidays+transport SHIPPED e05866d8. 5 ES guides: temple-mount-visitor-guide (Explanada de las Mezquitas/Monte del Templo; non-Muslim access rules; 6 FAQs), rosh-hashanah-in-israel (Año Nuevo Judío 2026 22-23 sep; Tashlij + shofar; 6 FAQs), yom-kippur-in-israel (25h empty streets; bicicletas en autopistas; Kol Nidre/Neilá; 6 FAQs), masada-tours-compared (5-format table sunrise/teleférico/privado/combo/autoguiado; verdictName sunrise; 6 FAQs), tel-aviv-to-jerusalem (tren/bus/sherut/taxi/alquiler comparison; 6 FAQs). Gate: 0 errors; 1454 pages (+5); 2171/2171 e2e pass (20.4m). Vercel deploy status deferred.
 

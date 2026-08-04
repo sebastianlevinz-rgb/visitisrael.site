@@ -15182,3 +15182,20 @@ All 15 cross-links verified before writing ✓. HONESTY: Temple Mount rules cite
 Gate: pnpm check 0 errors ✓; pnpm build 1454 pages (+5 from 1449) ✓; pnpm test:e2e 2171/2171 pass (20.4m exit code 0) ✓.
 Ship: committed to master e05866d8, pushed origin/master. No auto/* branch created (files written directly on master; gate verified before commit). Vercel deployment status unresolved after 5min poll (consistent with prior iters CI in_progress at push time) — deferred to next iter start-check.
 ES guides: 220→225/398. Next: iter1003 REVIEW (1003%5=3 → REVIEW).
+
+## 2026-08-04T23:45Z · iter 1003 · REVIEW · review-1003-es-meta-trim
+What: Audit of ES-44 batch (5 ES guides shipped iter1002: temple-mount-visitor-guide, rosh-hashanah-in-israel, yom-kippur-in-israel, masada-tours-compared, tel-aviv-to-jerusalem).
+Violations found: 4 title overruns (temple-mount 89, rosh-hashanah 71, masada 87, tel-aviv-jerusalem 65) and 5 description overruns (all 5 guides). 9 meta fixes applied:
+- temple-mount title 89→58 (removed '/ Monte del Templo' + condensed suffix)
+- temple-mount desc 202→138 (restructured as direct action phrase)
+- rosh-hashanah title 71→47 (removed 'del Año Nuevo Judío')
+- rosh-hashanah desc 174→136 (restructured with date lead)
+- yom-kippur desc 180→129 (removed 'el día más sagrado del judaísmo:')
+- masada title 87→51 (condensed; removed 'teleférico + combinado')
+- masada desc 227→136 (restructured as concise comparativa lead)
+- tel-aviv-jerusalem title 65→56 (vs.→commas; removed one 'vs.')
+- tel-aviv-jerusalem desc 206→136 (lead with key fact: tren 35 min)
+yom-kippur title (59) already within limit — no fix needed.
+Other checks: 17 /es/* internal links all resolve; 4/4 hero images exist; no H1 in body of any guide; affiliates valid (booking/getyourguide/viator/discovercars); no fabricated data.
+Gate: pnpm check 0 errors; build 1454 pages (unchanged); 2171/2171 e2e pass (21.0m). Ship: 87835eb8. CI in_progress at push time.
+Next: iter1004 REVIEW (1004%5=4 → REVIEW; audit FR-31/DE-29 meta or i18n parity spot check).
