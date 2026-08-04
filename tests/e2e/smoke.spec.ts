@@ -1153,6 +1153,12 @@ const ROUTES = [
   '/de/israel-in-march',
   '/de/israel-in-april',
   '/de/israel-in-may',
+  '/de/israel-in-june',
+  '/de/israel-in-july',
+  '/de/israel-in-september',
+  '/de/israel-in-october',
+  '/de/israel-in-november',
+  '/de/israel-in-december',
 ];
 
 for (const route of ROUTES) {
