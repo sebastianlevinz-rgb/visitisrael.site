@@ -1,6 +1,6 @@
 ---
-title: "Israel en junio: guía de viaje — Orgullo, Festival de Luz y playas"
-description: "Israel en junio: Orgullo de Tel Aviv (200.000+ personas), Festival de Luz de Jerusalén, Noche en Blanco y el Mediterráneo a 26–28°C. El mes más festivo del año."
+title: "Israel en junio: Orgullo, Festival de Luz y playas"
+description: "Israel en junio: Orgullo de Tel Aviv, Festival de Luz de Jerusalén, Noche en Blanco y el Mediterráneo a 26–28°C. El mes más festivo del año."
 heroImage: /images/regions/tel-aviv/beaches.jpg
 category: Planificación
 updatedAt: 2026-08-04

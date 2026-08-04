@@ -1,6 +1,6 @@
 ---
-title: "Israel en julio: guía de viaje — Festival de Israel, Mar de Galilea y estrategia ante el calor"
-description: "Israel en julio: el Festival de Israel en Jerusalén, el Mar de Galilea a 29°C, temporada alta de la diáspora y la estrategia esencial para el mes más caluroso del año."
+title: "Israel en julio: Festival de Israel y Mar de Galilea"
+description: "Israel en julio: el Festival de Israel en Jerusalén, el Mar de Galilea a 29°C y la estrategia esencial para el mes más caluroso del año."
 heroImage: /images/regions/tel-aviv/beaches.jpg
 category: Planificación
 updatedAt: 2026-08-04

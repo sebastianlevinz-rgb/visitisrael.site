@@ -1,6 +1,6 @@
 ---
-title: "Israel en septiembre: guía de viaje — Rosh Hashaná, Yom Kipur y vendimia"
-description: "Israel en septiembre: Rosh Hashaná, el día de las bicicletas de Yom Kipur, el Mediterráneo a 27°C en su punto máximo y la vendimia del Golán. Guía completa para el mes de las fiestas judías."
+title: "Israel en septiembre: Rosh Hashaná, Yom Kipur y vendimia"
+description: "Israel en septiembre: Rosh Hashaná, el día de las bicicletas de Yom Kipur, el Mediterráneo a 27°C en su punto máximo y la vendimia del Golán."
 heroImage: /images/regions/jerusalem/hero.jpg
 category: Planificación
 updatedAt: 2026-08-04

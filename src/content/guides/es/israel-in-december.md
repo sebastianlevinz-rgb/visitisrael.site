@@ -1,6 +1,6 @@
 ---
-title: "Israel en diciembre: guía de viaje — Hanukkah, Navidad y Eilat"
-description: "Israel en diciembre: Hanukkah ilumina Jerusalén, Belén abre sus puertas para la Navidad latina, Haifa celebra las Fiestas de las Fiestas y Eilat ofrece 26–28°C de sol invernal. Guía honesta y completa."
+title: "Israel en diciembre: Hanukkah, Navidad y Eilat"
+description: "Israel en diciembre: Hanukkah en Jerusalén, Navidad latina en Belén, Fiestas de las Fiestas en Haifa y sol de 26–28°C en Eilat."
 heroImage: /images/regions/jerusalem/hero.jpg
 category: Planificación
 updatedAt: 2026-08-04

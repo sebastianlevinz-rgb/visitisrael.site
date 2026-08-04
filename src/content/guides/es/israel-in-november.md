@@ -1,6 +1,6 @@
 ---
-title: "Israel en noviembre: guía de viaje — Migración de grullas, cosecha de oliva y temporada baja"
-description: "Israel en noviembre: la migración de grullas alcanza su punto álgido en el Valle del Hulá, la cosecha de oliva llena la Galilea, los sitios están sin aglomeraciones y los precios caen un 20–35% respecto a los festivos de octubre."
+title: "Israel en noviembre: Grullas del Hulá y cosecha de oliva"
+description: "Israel en noviembre: grullas en el Valle del Hulá (35.000–50.000), cosecha de oliva en la Galilea y precios un 20–35% por debajo de los festivos de octubre."
 heroImage: /images/regions/galilee/hero.jpg
 category: Planificación
 updatedAt: 2026-08-04
