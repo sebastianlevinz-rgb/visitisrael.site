@@ -1,5 +1,5 @@
 ---
-title: "Israel en abril: guía de viaje — Pésaj, Semana Santa y consejos"
+title: "Israel en abril: Pésaj, Semana Santa y consejos"
 description: "Abril es el mes pico de Israel: Pésaj y Semana Santa llenan Jerusalén, las flores silvestres alfombran la Galilea y el Día de la Independencia corona el mes."
 heroImage: /images/regions/jerusalem/old-city.jpg
 category: Planificación

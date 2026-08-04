@@ -1,5 +1,5 @@
 ---
-title: "Israel en marzo: flores silvestres, Purim y senderismo primaveral"
+title: "Israel en marzo: flores silvestres, Purim y senderismo"
 description: "Israel en marzo: fiesta de Purim en Tel Aviv, últimas anémonas en el Néguev, senderismo ideal en Masada y precios bajos antes de la Semana Santa."
 heroImage: /images/regions/galilee/hero.jpg
 category: Planificación

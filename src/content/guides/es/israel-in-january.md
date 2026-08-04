@@ -1,5 +1,5 @@
 ---
-title: "Israel en enero: guía de viaje — Eilat, Mar Muerto y baja temporada"
+title: "Israel en enero: Eilat, Mar Muerto y baja temporada"
 description: "Israel en enero: sol en Eilat, flote en el Mar Muerto, Néguev para senderismo y Jerusalén vacía — todo a los precios más bajos del año."
 heroImage: /images/regions/eilat/hero.jpg
 category: Planificación
