@@ -1138,6 +1138,11 @@ const ROUTES = [
   '/es/jerusalem-old-city-walking-tour',
   '/es/tel-aviv-carmel-market',
   '/es/whats-open-on-shabbat',
+  '/fr/israel-in-january',
+  '/fr/israel-in-february',
+  '/fr/israel-in-march',
+  '/fr/israel-in-april',
+  '/fr/israel-in-may',
 ];
 
 for (const route of ROUTES) {
