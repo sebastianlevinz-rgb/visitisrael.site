@@ -1123,6 +1123,11 @@ const ROUTES = [
   '/fr/israel-kayaking',
   '/fr/israel-stargazing',
   '/fr/israel-gluten-free-guide',
+  '/es/israel-national-trail-hiking',
+  '/es/israel-kayaking',
+  '/es/israel-stargazing',
+  '/es/israel-after-birthright',
+  '/es/israel-gluten-free-guide',
 ];
 
 for (const route of ROUTES) {
