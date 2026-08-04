@@ -15121,3 +15121,16 @@ Ship: squash master commit 2a63453d (feature branch auto/es-42-monthly-jun-dec).
 MILESTONE: ES monthly guides COMPLETE — all 12 months now exist in src/content/guides/es/. FR+DE+ES all have full per-month coverage.
 Prod: CI workflow in_progress at push time.
 Next: iter998 REVIEW (998%5=3 → REVIEW; ES-42 meta-trim audit).
+
+## 2026-08-04T18:37Z · iter 998 · REVIEW · review-998-es-meta-trim
+What: Audit of ES-42 batch (5 ES monthly guides shipped iter997: israel-in-june/july/september/november/december).
+All 5 had both title AND description overruns. 10 meta fixes applied:
+- june title 66→50 (removed 'guía de viaje — '); desc 160→140 (removed '(200.000+ personas)').
+- july title 94→52 (removed 'guía de viaje — ' + condensed keywords); desc 167→136 (removed 'temporada alta de la diáspora y').
+- september title 72→56 (removed 'guía de viaje — '); desc 190→141 (removed 'Guía completa para el mes de las fiestas judías.').
+- november title 92→56 (condensed to 'Grullas del Hulá y cosecha de oliva'); desc 229→156 (compacted, removed aglomeraciones clause).
+- december title 62→46 (removed 'guía de viaje — '); desc 201→127 (restructured as concise keyword list).
+Other checks: 49 /es/* internal links all resolve; 5/5 hero images exist; no H1 in body of any guide; affiliate partners valid.
+Gate: pnpm check 0 errors; build 1444 pages (unchanged); 40/40 targeted e2e pass (28s).
+Ship: commit 35b87250 pushed to master. CI in_progress at push time.
+Next: iter999 REVIEW (999%5=4 → REVIEW; top item: ES-41 meta-trim — check 5 ES monthly guides jan-may for title/desc overruns).
