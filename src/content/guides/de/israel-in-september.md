@@ -1,6 +1,6 @@
 ---
 title: "Israel im September: Rosch Haschana, Jom Kippur & Weinlese"
-description: "Israel im September: Rosch Haschana 2026 (11–13 Sept), Jom Kippur mit Fahrrad-Phänomen, Mittelmeer 27°C und Weinlese auf den Golanhöhen — vollständiger Monatsguide."
+description: "Israel im September: Rosch Haschana 2026 (11–13 Sept), Jom Kippur mit Fahrrad-Phänomen, Mittelmeer 27°C und Weinlese auf den Golanhöhen."
 heroImage: /images/regions/jerusalem/hero.jpg
 category: Planung
 updatedAt: 2026-08-04

@@ -1,6 +1,6 @@
 ---
 title: "Israel im Dezember: Chanukka, Weihnachten & Wintersonne in Eilat"
-description: "Israel im Dezember: Chanukka trifft auf Weihnachten in Jerusalem. Eilat 26°C, Haifas Fest der Feste (Chag HaChagim), Totes Meer Hochsaison — vollständiger Monatsguide."
+description: "Israel im Dezember: Chanukka trifft auf Weihnachten in Jerusalem. Eilat 26°C, Haifas Fest der Feste, Totes Meer Hochsaison."
 heroImage: /images/regions/jerusalem/old-city.jpg
 category: Planung
 updatedAt: 2026-08-04

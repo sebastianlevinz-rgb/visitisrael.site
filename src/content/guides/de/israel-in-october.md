@@ -1,6 +1,6 @@
 ---
 title: "Israel im Oktober: Sukkot, Weinlese & Post-Feiertags-Stille"
-description: "Israel im Oktober: Sukkot mit Priestersegen (Birkat Kohanim), Weinlese auf den Golanhöhen, Negev-Wandersaison und unschlagbare Post-Sukkot-Ruhe bei –25 bis –40 % Hotelpreisen."
+description: "Israel im Oktober: Sukkot, Birkat Kohanim, Weinlese Golanhöhen, Negev-Wandersaison und Post-Sukkot-Ruhe bei –25 bis –40 %."
 heroImage: /images/regions/galilee/hero.jpg
 category: Planung
 updatedAt: 2026-08-04

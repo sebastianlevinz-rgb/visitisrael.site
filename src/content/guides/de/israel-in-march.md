@@ -1,5 +1,5 @@
 ---
-title: "Israel im März: Purim, Wildblüte und Frühlingsbeginn 2026–2027"
+title: "Israel im März: Purim, Wildblüte und Frühlingsbeginn"
 description: "Israel im März: Purim-Karneval, Kalaniyot-Blüte im Negev, Masada bei Sonnenaufgang und erste Frühlingswärme — bevor die Pesach-Preise steigen."
 heroImage: /images/regions/negev/hero.jpg
 category: Planung

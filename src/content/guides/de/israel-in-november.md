@@ -1,5 +1,5 @@
 ---
-title: "Israel im November: Kraniche in Agamon HaHula, Olivenernte & Niedrigpreise"
+title: "Israel im November: Kraniche, Olivenernte & Niedrigpreise"
 description: "Israel im November: bis zu 50.000 Kraniche im Agamon HaHula, Yamei-Zayit-Olivenernte in Galiläa, keine Feiertage, Preise 20–35 % unter Oktober-Peaks."
 heroImage: /images/regions/galilee/hero.jpg
 category: Planung

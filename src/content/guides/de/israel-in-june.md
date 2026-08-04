@@ -1,5 +1,5 @@
 ---
-title: "Israel im Juni: Tel Aviv Pride, Lichterfestival Jerusalem & Strand"
+title: "Israel im Juni: Tel Aviv Pride, Lichterfestival & Strand"
 description: "Israel im Juni: Tel Aviv Pride mit 200.000 Teilnehmern, Lichterfestival Jerusalem (10 Nächte gratis), Weiße Nacht Laila Lavan, Mittelmeer 26–28°C."
 heroImage: /images/regions/tel-aviv/beaches.jpg
 category: Planung
