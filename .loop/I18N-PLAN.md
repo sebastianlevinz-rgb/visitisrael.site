@@ -6,22 +6,21 @@
 >
 > One bounded slice per loop iteration. NEVER bulk-translate in one shot.
 
-## Current status snapshot (2026-08-04 iter995 RESEARCH — iter994 REVIEW shipped 30257c9e; next BUILD iter996 ES-41)
+## Current status snapshot (2026-08-04 iter1000 RESEARCH — iter999 REVIEW shipped bbb8ed17; next BUILD iter1001 ES-43)
 
 | Locale | Guides | Attractions | Regions | Itineraries |
 |--------|--------|-------------|---------|-------------|
 | en     | 398    | 65          | 11      | 6           |
 | fr     | 232    | 61          | 11      | 6           |
 | de     | 223    | 61          | 11      | 6           |
-| es     | 205    | 61          | 11      | 6           |
+| es     | 215    | 61          | 11      | 6           |
 
-**🎉 MILESTONE: FR + DE monthly guides NOW COMPLETE** (iter992/993/994 DE-26+DE-27 + iter988/991 FR-28+FR-29 — all per-month guides jan-dec now exist in both locales)
+**🎉 MILESTONE: ES + FR + DE monthly guides ALL COMPLETE** (iter996+iter997 ES-41+ES-42 SHIPPED — all 12 per-month guides jan-dec now exist in ES, FR, and DE)
 
 **Gaps to close:**
-- es guides: **193 missing** (205/398 done — Phase ES-40 SHIPPED iter987 356c8976; **next ES BUILD = ES-41 (jan-may monthly) then ES-42 (jun-dec monthly) then ES-43 (specialty/comparison)**)
-- fr guides: **166 missing** (232/398 done — Phase FR-29 SHIPPED iter991 b934d657; **FR monthly coverage COMPLETE; next FR BUILD = FR-30 (specialty guides: museum/gan-hashlosha/wildflowers/thermal-springs/culinary-heritage)**)
-- de guides: **175 missing** (223/398 done — Phase DE-27 SHIPPED iter993 2df6130d; **DE monthly coverage COMPLETE; next DE BUILD = DE-28 (specialty guides: museum/thermal-springs/wildflowers/culinary-heritage/gluten-free)**)
-- de guides: **204 missing** (197/401 done — Phase DE-22 SHIPPED iter971 3d9ae48e; **Phase DE-23 DEFINED iter970 — next DE BUILD**)
+- es guides: **183 missing** (215/398 done — Phase ES-42 SHIPPED iter997 2a63453d; **next ES BUILD = ES-43 (specialty/comparison: vs-greece/vs-turkey/museum/thermal-springs/wildflowers) then ES-44 (pilgrimage/holidays/practical)**)
+- fr guides: **166 missing** (232/398 done — Phase FR-29 SHIPPED iter991 b934d657; **FR monthly coverage COMPLETE; next FR BUILD = FR-30 (specialty: museum/gan-hashlosha/wildflowers/thermal-springs/culinary-heritage) then FR-31 (holidays/practical)**)
+- de guides: **175 missing** (223/398 done — Phase DE-27 SHIPPED iter993 2df6130d; **DE monthly coverage COMPLETE; next DE BUILD = DE-28 (specialty: museum/thermal-springs/wildflowers/culinary-heritage/gluten-free) then DE-29 (holidays/practical/cycling)**)
 - fr/de/es attractions: **4 missing each** (the 4 EN attractions added after Phase 4)
 
 **Dead Sea cluster status (iter855 audit):**

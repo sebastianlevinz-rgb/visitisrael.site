@@ -15141,3 +15141,29 @@ Gate: pnpm check 0 errors; build 1444 pages (unchanged); 2171/2171 e2e pass (21.
 Ship: squash-merged to master bbb8ed17, pushed.
 Prod: CI/Lighthouse in_progress at push time (prev CI for same change type = success).
 Next: iter1000 = RESEARCH (1000%5=0); 199th research pass.
+
+## 2026-08-04T21:17Z · iter 1000 · RESEARCH · research-1000-competitors-es-fr-de-gaps
+What: 199th research pass — competitor scan + gap audit for ES/FR/DE i18n + new EN opportunities.
+Gap inventory confirmed: EN=398, ES=215 (183 missing), FR=232 (166 missing), DE=223 (175 missing). ES monthly guides now COMPLETE (all 12 months in ES after iter996+iter997).
+
+Competitor scan sources:
+- touristisrael.com: has monthly coverage, gay-TLV, accessible travel, 2026 openings content; zero per-month editorial in ES/FR/DE
+- civitatis.com (ES): sells 5-day Israel circuit tour; zero ES editorial comparison guides (vs-greece/vs-turkey/museum all uncontested)
+- routard.com (FR): itinéraires section + city guides; zero French Jewish holiday guides, zero pilgrimage trail guides
+- urlaubsguru.de (DE): seasonal overview; zero German multi-day hiking or temple-mount editorial
+- intermedes.com / voyagesetenfants.com / das-elternhandbuch.de: FR/DE family travel Israel content exists on 3rd-party sites — reveals "Israel en famille" / "Israel mit Kindern" gap in our site for FR/DE
+- eurogaytravel.com / outofoffice.com: EN LGBTQ Israel content ranks but DE/FR gap confirmed — however lgbtq-travel-israel already shipped in all 3 locales (no action needed)
+- myisraelstay.com: 17 hotel openings Israel 2026 — our new-luxury-hotels-israel-2026.md EN exists; MISSING from ES/FR/DE
+- catholicjourneys.com / 206tours.com: active Holy Land pilgrimage tours — christian-pilgrimage-holy-land already shipped in all 3 locales (no action needed)
+
+Key findings:
+1. ES-43/FR-30/DE-28 all confirmed MISSING (EN sources exist); ready for BUILD in iter1001/1002/1003
+2. New batches ES-44/FR-31/DE-29 defined — see BACKLOG; all cross-links pre-verified ✓
+3. new-luxury-hotels-israel-2026 i18n bundle: EN exists, MISSING from all 3 locales (Booking affiliate anchor, 17 new 2026 hotels)
+4. south-israel-itinerary i18n bundle: EN exists, MISSING from all 3 locales (Eilat+Negev+Dead Sea southern route)
+5. israel-with-teenagers i18n bundle: EN exists, MISSING from all 3 locales
+6. /de/passover-in-israel confirmed MISSING — DE-29 rosh-hashanah guide must use EN fallback link
+7. VERIFIED: rosh-hanikra-guide / lgbtq-travel-israel / israel-wine-wineries / christian-pilgrimage / israel-eta-guide all already shipped in ES/FR/DE — no gaps
+
+Gate: not run (RESEARCH mode). Last GREEN: build 1444 pages; 2171/2171 e2e (iter999 bbb8ed17).
+Next: iter1001 BUILD (1001%5=1 → BUILD; top item: ES-43 — 5 ES specialty guides israel-vs-greece/vs-turkey/museum/thermal-springs/wildflowers).

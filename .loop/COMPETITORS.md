@@ -7696,3 +7696,34 @@ CAUTION (iter 980): celiac/gluten-free guides must use "tradition thérapeutique
 - Israel Museum: Tiqets.com sells tickets (commercial); zero ES/FR/DE editorial visitor guide exists. Shrine of the Book + Dead Sea Scrolls + Holyland Model = differentiated content vs generic Jerusalem guides.
 - Thermal springs (Hamat Gader): Roman ruins + alligator park + mineral pools = unique combination; zero FR/DE/ES editorial; DACH Kur culture + French thermalisme = natural audience match.
 - Spring wildflowers (Darom Adom): Highly seasonal, photogenic, shareable — no FR/DE/ES coverage; ties into eco-tourism trend across all 3 markets.
+
+## iter1000 (2026-08-04) — 199th research pass: Jewish holidays / pilgrimage / practical / luxury-hotels competitor gaps + ES-44/FR-31/DE-29 batch definitions
+
+**ES competitor audit (civitatis.com, tripadvisor.es, travesiasdigital.com):**
+- civitatis.com/es/israel/: Sells Masada tours (sunrise/cable-car combos) but ZERO "Tours a Masada Comparados" ES editorial guide; zero "Rosh Hashaná en Israel" guide; zero "Yom Kipur en Israel" guide; "De Tel Aviv a Jerusalén" zero ES editorial transport comparison.
+- tripadvisor.es/lonelyplanet.es: Thin forum threads only; no editorial equivalents.
+- **Verdict**: ES-44 batch (temple-mount/rosh-hashanah/yom-kippur/masada-tours/tel-aviv-to-jerusalem) = 100% uncontested in LATAM Spanish travel editorial.
+
+**FR competitor audit (routard.com, petitfute.com, lonelyplanet.fr, intermedes.com):**
+- routard.com: Has itinéraires section + city guides for Jerusalem/Netanya; zero "Rosh Hashana en Israël" guide; zero "Souccot" guide; zero "Mont du Temple visiteur guide" French editorial.
+- intermedes.com / voyagesetenfants.com: French family travel Israel content exists (1 semaine en famille); zero Jewish holiday guides for travelers.
+- **Verdict**: FR-31 batch (rosh-hashana/sukkot/tel-aviv-jerusalem/masada-tours/temple-mount) = 100% uncontested in French travel editorial.
+
+**DE competitor audit (urlaubsguru.de, travelbook.de, lonelyplanet.de, das-elternhandbuch.de):**
+- urlaubsguru.de: Generic Israel seasonal overview; zero "Rosch Haschana in Israel" guide; zero IBT bike trail editorial.
+- das-elternhandbuch.de: German family travel Israel content ("Familienurlaub in Israel") exists on parenting site; zero tourist editorial equivalent.
+- **Verdict**: DE-29 batch (rosh-hashanah/tel-aviv-jerusalem/masada-tours/national-bike-trail/temple-mount) = 100% uncontested in DACH travel editorial.
+
+**Cross-market luxury hotels finding (myisraelstay.com, thejc.com):**
+- myisraelstay.com: Published "17 hotel openings shaping Israel's summer 2026" — confirms 17 new properties; confirms EN content exists and is being indexed.
+- thejc.com: "Israel plots tourism rebound with 17 luxury hotels" (2025) confirms the tourism confidence narrative.
+- Our EN guide new-luxury-hotels-israel-2026.md covers this but ES/FR/DE versions are MISSING — strong Booking.com affiliate anchor + confidence-building narrative for all 3 markets.
+- Verdict: new-luxury-hotels i18n bundle = genuine gap; high affiliate yield; short editorial effort.
+
+**LGBTQ / wine / Christian pilgrimage status (CLOSED — already shipped):**
+- Verified: lgbtq-travel-israel, israel-wine-wineries, christian-pilgrimage-holy-land, israel-eta-guide all shipped in ES/FR/DE. No action needed.
+
+**Key competitive differentiators maintained:**
+- Monthly per-month editorial guides remain 100% uncontested across ES/FR/DE (civitatis/routard/urlaubsguru all confirmed zero editorial equivalents — confirmed again this pass).
+- Jewish holidays travel guides (Rosh Hashana/Yom Kippur/Sukkot) = highly differentiated content; diaspora + curious-traveler market unclaimed.
+- Temple Mount non-Muslim visitor guide = significant practical gap; complex dual-naming requirement gives us editorial authority when done correctly.
