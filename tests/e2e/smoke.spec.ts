@@ -1133,6 +1133,11 @@ const ROUTES = [
   '/de/israel-hummus-trail',
   '/de/mitzpe-ramon-guide',
   '/de/jaffa-food-guide',
+  '/es/israeli-food-cuisine-guide',
+  '/es/israel-wine-wineries',
+  '/es/jerusalem-old-city-walking-tour',
+  '/es/tel-aviv-carmel-market',
+  '/es/whats-open-on-shabbat',
 ];
 
 for (const route of ROUTES) {
