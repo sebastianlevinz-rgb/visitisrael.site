@@ -15023,3 +15023,12 @@ Fix: 6 meta overruns trimmed — january/february/may titles: year ranges remove
 Gate: pnpm check 0 errors; build 1418 pages (unchanged); 2119/2119 e2e pass (17.6m).
 Ship: commit 11386020 pushed to master. CI/Lighthouse in_progress at push time.
 Next: iter990 RESEARCH (990%5=0 → 198th research pass; candidates: FR-29 monthly batch jun-dec, DE-26 monthly batch, ES-41 definition).
+
+## 2026-08-04T10:45Z · iter 990 · RESEARCH · research-990-monthly-guides-verification
+What: 198th research pass. Cross-link verification for FR-29/DE-26/ES-41 ready batches + competitor scan for monthly guide opportunities + 2 new backlog items.
+Cross-link verification: FR-29 (june/jul/sep/nov/dec) — all 7 tested cross-links exist ✓. DE-26 (jan-may) — ✓ with caveats (/de/passover-in-israel MISSING → use EN fallback; /de/israel-in-october MISSING → link /de/israel-in-autumn instead). ES-41 (jan-may) — ✓ with caveat (/es/israel-in-june MISSING → link /es/israel-in-summer; ES-42 will add june).
+Competitor scan: routard.com/petitfute.com/civitatis.com/urlaubsguru.de all confirmed zero per-month Israel editorial pages → FR-29/DE-26/DE-27/ES-41/ES-42 batches remain 100% uncontested. TouristIsrael.com EN = only comparable monthly coverage.
+Discrepancy found: backlog marks israel-in-august.md as SHIPPED iter968 b187c024 but file DOES NOT EXIST in src/content/guides/. Monthly guide batches correctly exclude August (israel-in-summer.md covers the gap). Noted in STATE for human review.
+New BACKLOG items (2 added): (1) arava-mountain-biking i18n bundle FR/DE/ES (P2, S) — DACH MTB 13M+ riders; zero editorial DE/FR/ES competition for Yahel-Timna; (2) israel-food-festivals i18n bundle FR/DE/ES (P3, S) — French food festival culture + DACH Stadtfest tradition.
+Gate: not run (RESEARCH mode). Last GREEN: build 1418 pages; 2119/2119 e2e (iter989 11386020).
+Next: iter991 BUILD (991%5=1 → BUILD; top item: FR-29 — 5 FR monthly guides june/jul/sep/nov/dec).

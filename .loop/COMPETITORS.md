@@ -7636,3 +7636,35 @@ CAUTION (iter 980): celiac/gluten-free guides must use "tradition thérapeutique
 - ES monthly guides (10 missing: jan/feb/mar/apr/may/jun/jul/sep/nov/dec) = same pattern as FR; ES-41+ES-42 queued
 - israel-road-trip is HIGH-VALUE for DE: confirmed missing from DE; EN guide comprehensive; "Rundreise Israel DACH" = zero editorial competition on road-trip-specific pages
 - All 3 locale strategies converging: monthly guides + key remaining hubs (food/wine) fill the largest remaining SEO gaps efficiently
+
+## iter990 (2026-08-04) — 198th research pass: Monthly guide competitor confirmation + DACH MTB gap
+
+**FR monthly guides competitor confirmation (routard.com/petitfute.com/voyageursdumonde.fr):**
+- routard.com/guide/moyen-orient/israel-palestine: Has seasonal table (summer/winter/spring/autumn overview). Zero per-month editorial pages. Confirmed again for FR-29 window.
+- petitfute.com/p155-israel/quand-partir: One-paragraph seasonal overview only; no per-month pages.
+- voyageursdumonde.fr: 2-paragraph "quand partir" overview; no per-month editorial.
+- **Verdict**: FR per-month monthly guides (june/july/sep/nov/dec = FR-29) remain 100% uncontested in French travel editorial. TouristIsrael.com EN = only comparable source.
+
+**DE monthly guides competitor confirmation (urlaubsguru.de):**
+- urlaubsguru.de/reisekalender/beste-reisezeit-israel: Has a seasonal "Beste Reisezeit" table with climate data per month. Zero editorial storytelling — no "was tun in Israel im Juni" depth, no events, no booking tips.
+- de.wikivoyage.org/Israel: Has general "Klima" section. Zero per-month editorial.
+- sonnenklar.tv/urlaub/israel: OTA aggregator; zero editorial.
+- **Verdict**: DE has zero per-month editorial competition for Israel. "Israel im Juni/Juli/August..." SERPs return only climate aggregators and OTA listing pages. DE-26 (jan-may) + DE-27 (jun-dec) are 100% uncontested.
+
+**ES monthly guides competitor confirmation (civitatis.com):**
+- civitatis.com/blog/mejores-destinos-junio: Lists Israel as a June destination in a 10-destination roundup — NOT a dedicated Israel-in-June guide.
+- civitatis.com/blog/destinos-viajar-julio: Similar roundup format; no dedicated Israel July editorial.
+- No other ES travel site has per-month Israel guides.
+- **Verdict**: ES-41 (jan-may) + ES-42 (jun-dec) = zero ES editorial competition confirmed.
+
+**DACH MTB gap (arava-mountain-biking i18n):**
+- bike-magazin.de: Zero Israel MTB editorial.
+- mtb-news.de: Zero Israel MTB editorial (aggregator/forum).
+- israelabenteurer.de: Has general Israel hiking; zero MTB/Yahel-Timna.
+- **Verdict**: Zero DACH editorial for Israel MTB/Yahel-Timna singletrack; arava-mountain-biking DE i18n confirmed new opportunity. DACH MTB market = 13M+ active riders (Germany alone); high purchase intent for adventure bike rental (DiscoverCars).
+
+**TouristIsrael.com monthly guide content notes (EN reference for FR-29 development):**
+- touristisrael.com/things-to-do-in-israel-in-june: Tel Aviv Pride (June 12th 2026 confirmed), Fattal Rock Festival Eilat June 11-13 2026 (event-specific date; verify for 2027).
+- touristisrael.com/things-to-do-in-israel-in-july: Concerts by international artists; beach weather; Masada Sunrise + Ein Gedi + Dead Sea tour as flagship package.
+- Dead Sea + desert heat warning in summer content (July/August): heat management = consistent differentiator across competitor content.
+- **Key diff opportunity**: Our monthly guides add affiliate CTAs + hotel booking angle + per-city comparison tables — stronger monetization than touristisrael.com's editorial-only format.
