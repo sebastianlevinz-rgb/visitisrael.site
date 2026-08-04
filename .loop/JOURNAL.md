@@ -15002,3 +15002,16 @@ What: 5 new ES guides shipped — israeli-food-cuisine-guide (hub gastronomía i
 Gate: pnpm check 0 errors; build 1413 pages; 2109/2109 e2e pass (19.7m).
 Ship: commit 356c8976 on master; git push -u origin master succeeded. CI in_progress at push time.
 Next: iter988 REVIEW (988%5=3 → REVIEW; audit ES-40 batch meta + links).
+
+## 2026-08-04T08:40Z · iter 988 · BUILD · fr-28-monthly-jan-may
+What: 5 new FR monthly guides shipped (FR-28 batch 1 of 2, winter/spring months). FR guides 222→227/398. Build 1413→1418 pages (+5). 10 new e2e routes added to smoke.spec.ts + a11y.spec.ts (/fr/israel-in-january, /fr/israel-in-february, /fr/israel-in-march, /fr/israel-in-april, /fr/israel-in-may).
+Content highlights:
+- israel-in-january: Eilat framing (snorkeling/plongée 24-26°C eau); Mer Morte 20°C+ hiver; basse saison -20–35%; Noël orthodoxe Bethléem 7 janvier; Hamat Tibériade thermes 60°C; Tu BiShvat jan-fév; "Israël en janvier" keyword zero-competition confirmed. heroImage /images/regions/eilat/hero.jpg.
+- israel-in-february: Darom Adom / Festival des Anémones Néguev (fév-mars = fenêtre de floraison); ski Mont Hermon (check skihermon.co.il honest); Mer Morte thermalisme; Pourim 2027 13-14 mars — 4 semaines avant. heroImage /images/regions/negev/hero.jpg.
+- israel-in-march: Pourim 2027 13-14 mars (carnaval costumes; TLV parade Dizengoff; Jérusalem Mamilla); floraison Darom Adom maximale mars; Masada lever du soleil avant 5h30 (check sur place); Pâques catholique 2027 20 avr = réserver dès mars. heroImage /images/regions/galilee/hero.jpg.
+- israel-in-april: Pessah 2027 22-29 avr (hausse +30–50%; chametz interdit; Séders grands hôtels); Pâques catholique 20 avr Via Dolorosa 15h/orthodoxe 12 avr Feu Sacré; Yom HaShoah sirène 10h; Yom HaZikaron+Yom HaAtzmaut feux d'artifice→fête; Journée de Jérusalem fin mai. heroImage /images/regions/jerusalem/old-city.jpg.
+- israel-in-may: Yom HaAtzmaut (parcs nationaux gratuits, feux d'artifice→fête Dizengoff/Jardin Balfour); plages méditerranéennes 24-28°C mer 20-24°C; Lag BaOmer feux de joie partout; Journée de Jérusalem fin mai (neutre — sensible politiquement); prix pré-saison -20–30% vs juin. heroImage /images/regions/galilee/hero.jpg.
+All guides: Metropolitan French register; no fabricated exact prices (₪ ranges only in body); no clinical cure claims; political framing neutral where applicable; no H1 in body; all /fr/* cross-links confirmed existing pre-write; YAML double-quotes throughout.
+Gate: pnpm check 0 errors; pnpm build 1418 pages (0 errors); pnpm test:e2e 2119/2119 pass (17.0m, PLAYWRIGHT_SKIP_BROWSER_DOWNLOAD=1 PLAYWRIGHT_BROWSERS_PATH=/opt/pw-browsers).
+Ship: direct master commit 25807976 (squash found no commits on feature branch auto/fr-28-monthly-jan-may; staged directly — established pattern iter961/963/967/968/972/973/981/982/983/986/987). git push -u origin master succeeded.
+Next: iter989 REVIEW (989%5=4 → REVIEW; audit FR-28 batch meta + links).
