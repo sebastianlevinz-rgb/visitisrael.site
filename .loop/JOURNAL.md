@@ -15167,3 +15167,11 @@ Key findings:
 
 Gate: not run (RESEARCH mode). Last GREEN: build 1444 pages; 2171/2171 e2e (iter999 bbb8ed17).
 Next: iter1001 BUILD (1001%5=1 → BUILD; top item: ES-43 — 5 ES specialty guides israel-vs-greece/vs-turkey/museum/thermal-springs/wildflowers).
+
+## 2026-08-04 · iter 1001 · BUILD (i18n-ES) · es-43-specialty-guides
+What: 5 new ES specialty guides — israel-vs-greece (Israel vs Grecia comparison for LATAM travelers; comparison table, 7 sections, 5 FAQs; CTAs Skyscanner+GYG+Booking), israel-vs-turkey (Israel vs Turquía; 6 FAQs; same CTA set), israel-museum-jerusalem (Museo de Israel complete visitor guide; 6 wings: Santuario del Libro, Arqueología, Bellas Artes, Jardín Billy Rose, Judaica, Modelo de Tierra Santa; 7 FAQs; CTAs Tiqets+GYG+Viator; verdictName set), israel-thermal-springs (Hamat Gader Roman ruins + crocodile park + thermal pool temp table; Tiberias + Ein Gedi sections; 7 FAQs; CTAs Booking+Discovercars+GYG), israel-spring-wildflowers (kalaniot national flower history; Negev/Darom Adom festival; Galilee species section; bloom verification via INPA; 6 FAQs; CTAs GYG×2+Booking).
+Broken-link fixes: /es/qumran-guide→/qumran-guide (in israel-vs-greece.md + israel-museum-jerusalem.md), /es/jerusalem-museums→/jerusalem-museums (israel-museum-jerusalem.md). Consistent with how other ES guides link to EN-only pages.
+Gate: pnpm check 0 errors ✓; pnpm build 1449 pages (+5 from 1444) ✓; pnpm test:e2e 2171/2171 pass (16.9m; exit code 0) ✓.
+Ship: squash-merged to master 620b57bc, pushed origin/master. PR #43 (draft) auto/es-43-specialty-guides created for visibility. CI in_progress at merge time.
+Prod: Vercel deployment triggered by master push; verification deferred (CI watching).
+ES guides: 215→220/398 (178 remaining). Next: iter1002 BUILD ES-44 (temple-mount-visitor-guide/rosh-hashanah-in-israel/yom-kippur-in-israel/masada-tours-compared/tel-aviv-to-jerusalem).

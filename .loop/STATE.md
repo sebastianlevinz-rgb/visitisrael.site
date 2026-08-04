@@ -1,13 +1,17 @@
 # LOOP STATE
 
-- iteration: 1000
-- lastMode: RESEARCH
-- lastItem: research-1000-competitors-es-fr-de-gaps
-- lastResult: RESEARCH iter1000 — 199th research pass. Gap audit: EN=398, ES=215 (183 missing), FR=232 (166 missing), DE=223 (175 missing). Competitor scan: touristisrael.com, lonelyplanet.com, civitatis.com, routard.com, urlaubsguru.de, travelbook.de, intermedes.com, voyagesetenfants.com, das-elternhandbuch.de, eurogaytravel.com, outofoffice.com, myisraelstay.com, catholicjourneys.com. Key findings: (1) next defined batches ES-43/FR-30/DE-28 all confirmed MISSING (all EN sources exist); (2) New batches defined: ES-44 (temple-mount-visitor-guide/rosh-hashanah-in-israel/yom-kippur-in-israel/masada-tours-compared/tel-aviv-to-jerusalem); FR-31 (rosh-hashanah-in-israel/sukkot-in-israel/tel-aviv-to-jerusalem/masada-tours-compared/temple-mount-visitor-guide); DE-29 (rosh-hashanah-in-israel/tel-aviv-to-jerusalem/masada-tours-compared/israel-national-bike-trail/temple-mount-visitor-guide); (3) new-luxury-hotels-israel-2026 i18n bundle: EN exists, MISSING from all 3 locales — 17 new 2026 hotel openings; Booking affiliate anchor; (4) south-israel-itinerary i18n bundle: EN exists, MISSING from all 3 locales — southern route Eilat+Negev+Dead Sea; (5) israel-with-teenagers i18n bundle: EN exists, MISSING from all 3 locales; (6) Cross-links for all new batches pre-verified ✓ (see BACKLOG); (7) Discovery: rosh-hanikra-guide/lgbtq-travel-israel/israel-wine-wineries/christian-pilgrimage-holy-land/israel-eta-guide already shipped in all 3 locales — no gap; (8) /de/passover-in-israel confirmed MISSING (use EN fallback in DE-29 rosh-hashanah guide).
-- nextRotationCategory: BUILD (iter1001; 1001%5=1 → BUILD; top item: ES-43 — 5 ES specialty guides israel-vs-greece/vs-turkey/museum/thermal-springs/wildflowers)
+- iteration: 1001
+- lastMode: BUILD
+- lastItem: es-43-specialty-guides
+- lastResult: SHIPPED 620b57bc — 5 ES specialty guides (israel-vs-greece, israel-vs-turkey, israel-museum-jerusalem, israel-thermal-springs, israel-spring-wildflowers). Broken-link fixes: /es/qumran-guide→/qumran-guide (2 places), /es/jerusalem-museums→/jerusalem-museums. Gate: pnpm check 0 errors; build 1449 pages; pnpm test:e2e 2171/2171 pass (16.9m). ES guides: 215→220/398. PR #43 (draft) created; CI in_progress at merge time.
+- nextRotationCategory: BUILD (iter1002; 1002%5=2 → BUILD; top item: ES-44 — temple-mount-visitor-guide/rosh-hashanah-in-israel/yom-kippur-in-israel/masada-tours-compared/tel-aviv-to-jerusalem)
 - higgsfieldSpent: 0
-- updatedAt: 2026-08-04T21:17Z
+- updatedAt: 2026-08-04T22:23Z
 - branch context: work on master; feature work on auto/<slug>
+
+Notes: iter1001 BUILD — ES-43 specialty guides SHIPPED 620b57bc. 5 ES guides: israel-vs-greece (vs Grecia comparison + 5 FAQs), israel-vs-turkey (vs Turquía comparison + 6 FAQs), israel-museum-jerusalem (Museo de Israel visitor guide + 7 FAQs), israel-thermal-springs (Hamat Gader + 7 FAQs), israel-spring-wildflowers (kalaniot/Darom Adom + 6 FAQs). Broken cross-links fixed (qumran-guide+jerusalem-museums EN fallbacks). Gate: 0 errors; 1449 pages; 2171/2171 e2e pass. PR #43 draft auto/es-43-specialty-guides.
+
+Notes: iter1000 RESEARCH — 199th research pass. ES=215/398, FR=232/398, DE=223/398. Confirmed ES-44/FR-31/DE-29 next batches. See BACKLOG for full findings.
 
 Notes: iter999 REVIEW — ES-41 meta-trim SHIPPED bbb8ed17. Audited 5 ES monthly guides (ES-41: israel-in-january/february/march/april/may). 3 title overruns found and fixed: january title 67→51 (removed 'guía de viaje — '); march title 65→54 (removed ' primaveral'); april title 63→47 (removed 'guía de viaje — '). february (58) and may (57) already within limit; no desc overruns on any. Other checks clean: 13 /es/* internal links all resolve; 4/4 hero images exist; no H1 in body; affiliates valid (booking/getyourguide/tourradar); no fabricated data. Gate: pnpm check 0 errors; build 1444 pages (unchanged); 2171/2171 e2e pass (21.0m). CI in_progress at push time.
 
