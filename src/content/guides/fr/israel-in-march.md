@@ -1,6 +1,6 @@
 ---
-title: "Israël en Mars : Pourim, Fleurs Sauvages et Randonnée Printanière"
-description: "Mars en Israël : carnaval de Pourim à Tel Aviv, floraison des anémones dans le Néguev, randonnée printanière avant les foules de Pâques. Météo idéale de tout le pays."
+title: "Israël en Mars : Pourim, Fleurs et Randonnée Printanière"
+description: "Mars en Israël : Pourim à Tel Aviv, floraison des anémones dans le Néguev, randonnée printanière avant Pâques. Météo idéale de tout le pays."
 heroImage: /images/regions/galilee/hero.jpg
 category: Planification
 updatedAt: 2026-08-04

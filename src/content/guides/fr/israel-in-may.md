@@ -1,5 +1,5 @@
 ---
-title: "Israël en Mai : Météo, Événements et Bons Plans (2026–2027)"
+title: "Israël en Mai : Météo, Événements et Bons Plans"
 description: "Israël en mai : Yom HaAtzmaut, Lag BaOmer, mer Méditerranée à 22°C, et prix de pré-saison avant l'afflux estival. Le mois des fêtes nationales."
 heroImage: /images/regions/galilee/hero.jpg
 category: Planification

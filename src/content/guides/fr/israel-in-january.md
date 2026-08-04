@@ -1,5 +1,5 @@
 ---
-title: "Israël en Janvier : Eilat, Mer Morte et Basse Saison (2026–2027)"
+title: "Israël en Janvier : Eilat, Mer Morte et Basse Saison"
 description: "Israël en janvier : soleil d'Eilat, flottaison en Mer Morte, Jérusalem vide et randonnées dans le Néguev — aux prix les plus bas de l'année."
 heroImage: /images/regions/eilat/hero.jpg
 category: Planification

@@ -1,5 +1,5 @@
 ---
-title: "Israël en Février : Anémones, Ski et Soleil Hivernal (2026–2027)"
+title: "Israël en Février : Anémones, Ski et Soleil Hivernal"
 description: "Israël en février : floraison des anémones dans le Néguev, ski au Mont Hermon, flottaison en Mer Morte et Eilat à 26°C. Prix les plus bas de l'année."
 heroImage: /images/regions/negev/hero.jpg
 category: Planification

@@ -1,6 +1,6 @@
 ---
 title: "Israël en Avril : Pessah, Pâques et Yom HaAtzmaut (2026–2027)"
-description: "Avril en Israël : Pessah et Pâques remplissent Jérusalem, les fleurs tapissent la Galilée, et le Jour de l'Indépendance clôt le mois. Le mois le plus animé de l'année."
+description: "Avril en Israël : Pessah et Pâques à Jérusalem, les fleurs en Galilée, et le Jour de l'Indépendance. Le mois le plus animé de l'année."
 heroImage: /images/regions/jerusalem/old-city.jpg
 category: Planification
 updatedAt: 2026-08-04
