@@ -15060,3 +15060,11 @@ Gate: pnpm check 0 errors; pnpm build 1434 pages (+6 vs 1428); 12 new e2e tests 
 Ship: direct master commit 2df6130d (squash found no commits on feature branch; staged directly — established pattern iter961+). git push -u origin master succeeded. DE guides 217→223/398.
 Prod: CI + Lighthouse in_progress at push time.
 Next: iter994 REVIEW (994%5=4 → REVIEW; top candidate: ES-41 batch review OR meta-trim audit DE-26/DE-27).
+
+## 2026-08-04T14:50Z · iter 994 · REVIEW · review-994-de-meta-trim
+What: Audit of DE-26/DE-27 batches (11 DE monthly guides shipped iter992-993: israel-in-january through israel-in-december, excluding august).
+Checks: (1) Meta lengths — 3/11 titles had overruns (march 67→55: year range removed; june 66→56: 'Jerusalem' redundant removed; november 74→57: 'in Agamon HaHula' shortened to 'Kraniche,'); 3/11 descs had overruns (september 172→141: '— vollständiger Monatsguide' removed; october 180→127: verbose phrases compacted, Birkat Kohanim retained as keyword; december 171→124: '(Chag HaChagim)' + filler removed); (2) Internal /de/* links — 76 links checked across 11 guides, all resolve to existing files, 0 broken; (3) H1 in body — none found in any guide; (4) Hero images — all 11 exist in /public; (5) Affiliate partners — all valid (booking/getyourguide).
+Fix: 6 meta overruns trimmed. Branch auto/review-994-de-meta-trim; squash-merged to master.
+Gate: pnpm check 0 errors; build 1434 pages (unchanged); 22/22 targeted e2e pass (DE monthly smoke + a11y routes).
+Ship: commit 30257c9e pushed to master. CI in_progress at push time; prior run CI/Lighthouse completed success.
+Next: iter995 RESEARCH (995%5=0 → 199th research pass; ES-41/ES-42 cross-link verification + competitor scan).
