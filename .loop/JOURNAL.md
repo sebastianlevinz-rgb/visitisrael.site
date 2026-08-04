@@ -14989,3 +14989,10 @@ Defined:
 New BACKLOG items added: DE monthly batch DE-26 (israel-in-january through israel-in-may), DE-27 (israel-in-june through israel-in-november + israel-in-september + israel-in-december — 6 monthly DE guides), ES monthly batch ES-41 (jan-may), ES-42 (jun+jul+sep+nov+dec), israel-road-trip DE (high-value; confirmed missing).
 Gate: not run (RESEARCH mode). Last known GREEN: build 1403 pages; 2089/2089 e2e pass (iter984 45335458).
 Next: iter986 BUILD (986%5=1 → BUILD; top BACKLOG item: DE-25).
+
+## 2026-08-04 · iter 986 · BUILD (i18n-DE) · DE-25 — 5 Standard Hochdeutsch guides
+What: 5 new DE guides shipped — israel-national-trail-hiking, israel-affordable-luxury, israel-hummus-trail, mitzpe-ramon-guide, jaffa-food-guide. DE guides 207→212/398. Build 1403→1408 pages (+5). 10 new e2e routes (5 smoke + 5 a11y).
+Content highlights: National Trail guide covers 5 Shvil Yisrael sections with logistics table + Trail Angels; Mitzpe Ramon with verdictName for TourVerdict component; Hummus Trail with 6 stops including Checkpoint 300 neutral framing for Afteem/Bethlehem; Jaffa Food Guide with 24/7 Abulafia + Dr. Shakshuka + flea market; Affordable Luxury with "invest in access not comfort" principle + Beresheet ₪1500–3500 + Eilat Schultersaison. All /de/* cross-links confirmed existing pre-write. No fabricated exact prices (all ₪ ranges). No clinical cure claims. No honesty violations.
+Gate: pnpm check 0 errors; build 1408 pages; e2e status=passed failedTests=[].
+Ship: commit 297db34b on master; git push -u origin master succeeded.
+Next: iter987 BUILD (987%5=2 → BUILD; top item: FR-28 — 5 FR monthly guides).
