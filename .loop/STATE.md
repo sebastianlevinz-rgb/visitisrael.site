@@ -1,12 +1,12 @@
 # LOOP STATE
 
-- iteration: 990
-- lastMode: RESEARCH
-- lastItem: research-990-monthly-guides-verification
-- lastResult: RESEARCH iter990 — 198th research pass. Verified cross-links for ready batches: FR-29 (june/jul/sep/nov/dec) all 7 tested links ✓; DE-26 (jan-may) all links ✓ with caveats (/de/passover-in-israel MISSING → use EN fallback; /de/israel-in-october MISSING → link /de/israel-in-autumn); ES-41 (jan-may) all links ✓ with caveat (/es/israel-in-june MISSING → link /es/israel-in-summer). Competitor confirmation: routard.com/petitfute.com/civitatis.com/urlaubsguru.de ALL confirmed zero per-month Israel editorial → FR-29/DE-26/DE-27/ES-41/ES-42 batches are 100% uncontested. DISCREPANCY: backlog marks israel-in-august.md as SHIPPED iter968 but file DOES NOT EXIST in src/content/guides/ — monthly batches correctly exclude August; israel-in-summer.md covers gap. New items added: arava-mountain-biking i18n bundle FR/DE/ES (P2, S) — DACH MTB market 13M+ riders, zero editorial competition; israel-food-festivals i18n bundle FR/DE/ES (P3, S) — French food festival culture + DACH Stadtfest tradition. Gate: not run (RESEARCH mode). Last known GREEN: build 1418 pages; 2119/2119 e2e pass (iter989 11386020).
-- nextRotationCategory: BUILD (iter991; 991%5=1)
+- iteration: 991
+- lastMode: BUILD
+- lastItem: fr-29-monthly-jun-jul-sep-nov-dec
+- lastResult: BUILD iter991 — FR-29 SHIPPED b934d657. 5 Metropolitan French monthly guides: israel-in-june (Tel Aviv Pride 200k+; Festival de Lumières Jérusalem 10 nuits gratuit; Nuit Blanche 70+ lieux; Shavouot; mer 26–28°C; 6 FAQs; CTAs Booking+GYG×2); israel-in-july (Festival d'Israël mi-juillet Sultan's Pool+Binyenei HaUma+Huberman+Cinémathèque; Mer de Galilée 29°C kayak/paddle; Tisha BeAv 2027=31 juil; stratégie chaleur 7–11h/17h+; 6 FAQs; CTAs Booking+GYG×2); israel-in-september (Rosh Hashana 2026=11–13 sept; Yom Kippour 2026=20–21 sept jour des vélos 25h; Souccot 2026=25 sept; vendanges Golan Yarden+Château Golan; mer pic 27°C; 6 FAQs; CTAs Booking+GYG×2); israel-in-november (Agamon HaHula 35k–50k grues cendrées Safari Lever Soleil 5h15; Jours de l'Olive/Yamei Zayit cueillette+pressage; pas de fêtes; prix –20–35% vs oct; Eilat 25–30°C; 7 FAQs; CTAs Booking+GYG×2); israel-in-december (Hanoukka 2026=4–12 déc 2027=24 déc–1 jan; Noël latin/orthodoxe/arménien; Fête des Fêtes Haïfa Wadi Nisnas interconfessionnel; Eilat 26–28°C mer 24–26°C; Mer Morte 20–24°C; 7 FAQs; CTAs Booking+GYG×2). FR guides 227→232/398. Build 1418→1423 pages (+5). 10 new e2e routes (5 smoke + 5 a11y); 2129/2129 pass (18.4m). CI/Lighthouse in_progress at push time.
+- nextRotationCategory: BUILD (iter992; 992%5=2 → BUILD; top item: DE-26 — 5 DE monthly guides jan-may)
 - higgsfieldSpent: 0
-- updatedAt: 2026-08-04T10:45Z
+- updatedAt: 2026-08-04T12:10Z
 - branch context: work on master; feature work on auto/<slug>
 
 Notes: iter990 RESEARCH — 198th research pass. FR-29/DE-26/ES-41 cross-links verified. FR-29: all 7 tested links ✓; DE-26: ✓ with /de/passover-in-israel MISSING (use EN fallback) + /de/israel-in-october MISSING (link /de/israel-in-autumn); ES-41: ✓ with /es/israel-in-june MISSING (link /es/israel-in-summer). Competitor scan: routard.com/petitfute.com/civitatis.com/urlaubsguru.de all have zero per-month Israel editorial pages → monthly guide batches 100% uncontested. New backlog items: arava-mountain-biking i18n (DE/FR/ES, P2) + israel-food-festivals i18n (DE/FR/ES, P3). DISCREPANCY: backlog marks israel-in-august.md as SHIPPED iter968 but file missing from src/content/guides/. Build/e2e unchanged from iter989 (1418 pages; 2119/2119).
