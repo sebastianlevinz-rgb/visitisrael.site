@@ -14996,3 +14996,9 @@ Content highlights: National Trail guide covers 5 Shvil Yisrael sections with lo
 Gate: pnpm check 0 errors; build 1408 pages; e2e status=passed failedTests=[].
 Ship: commit 297db34b on master; git push -u origin master succeeded.
 Next: iter987 BUILD (987%5=2 → BUILD; top item: FR-28 — 5 FR monthly guides).
+
+## 2026-08-04 · iter 987 · BUILD (i18n-ES) · ES-40 — 5 LATAM Spanish guides
+What: 5 new ES guides shipped — israeli-food-cuisine-guide (hub gastronomía israelí; diáspora orígenes; platos clave; mercados; dietética), israel-wine-wineries (5 regiones Golán/Galilea/Colinas Judea/Samaria/Néguev; Yarden+Château Golan+Castel; catas ₪40–90; LATAM wine culture angle Argentina/Chile), jerusalem-old-city-walking-tour (4 barrios Armenio/Judío/Cristiano/Musulmán; Via Dolorosa; Kotel; Temple Mount/Cúpula de la Roca paired-naming neutral; Santo Sepulcro Status Quo 6 denominaciones; itinerario sugerido), tel-aviv-carmel-market (90+ años historia; qué comer/comprar; horarios cierre viernes; mercado nocturno; mercados complementarios Levinsky+Jaffa), whats-open-on-shabbat (tabla ciudad por ciudad TLV/Jerusalem/Haifa; transporte disponible; Ben Gurion abierto; sherut; planificación viernes+sábado). ES guides 200→205/398. Build 1408→1413 pages (+5). 10 new e2e tests (5 smoke + 5 a11y). LATAM neutral Spanish tuteo; YAML double-quotes; all /es/* cross-links confirmed existing; no fabricated prices (₪ ranges only); Temple Mount dual-naming neutral; Checkpoint 300 neutral; no clinical cure claims.
+Gate: pnpm check 0 errors; build 1413 pages; 2109/2109 e2e pass (19.7m).
+Ship: commit 356c8976 on master; git push -u origin master succeeded. CI in_progress at push time.
+Next: iter988 REVIEW (988%5=3 → REVIEW; audit ES-40 batch meta + links).
