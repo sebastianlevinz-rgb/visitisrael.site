@@ -1,12 +1,12 @@
 # LOOP STATE
 
-- iteration: 1014
-- lastMode: REVIEW
-- lastItem: fr-32-meta-trim
-- lastResult: FR-32 meta-trim SHIPPED a447f1f4 — 10 fixes (5 titles 62–85→42–59 chars; 5 descs 175–211→122–150 chars). Build: 1484 pages (unchanged). Gate: pnpm check 0 errors; build 1484 pages; 2191/2191 e2e pass (17.1m). CI in_progress at push time.
-- nextRotationCategory: RESEARCH (iter1015; 1015%5=0 → RESEARCH; then iter1016 BUILD-DE-30 practical+cultural cluster)
+- iteration: 1015
+- lastMode: RESEARCH
+- lastItem: research-1015-fr33-de31-es46-batches
+- lastResult: RESEARCH pass (201st). Defined FR-33 (food+nightlife+accommodation: jerusalem-nightlife/israeli-breakfast-guide/israel-food-festivals/tel-aviv-things-to-do/kibbutz-hotels-israel), DE-31 (food+nightlife+accommodation: jerusalem-nightlife/israeli-breakfast-guide/israel-food-festivals/tel-aviv-things-to-do/new-luxury-hotels-israel-2026), ES-46 (food+street-food+tours: jerusalem-nightlife/israeli-breakfast-guide/israel-food-festivals/israeli-street-food-guide/private-tours-israel). All guides confirmed missing from target locale via comm -23. Confirmed israel-in-august.md still missing from EN (persistent P2 gap). Found nationality-guides i18n opportunity (30+ guides like israel-for-american-travelers missing from all 3 locales). No code changed.
+- nextRotationCategory: BUILD (iter1016; 1016%5=1 → BUILD; candidate DE-30 practical+cultural cluster — sea-of-galilee-boat-tour/yom-haatzmaut-guide/israel-vat-refund/israel-vs-jordan/israel-photography-guide)
 - higgsfieldSpent: 0
-- updatedAt: 2026-08-05T11:45Z
+- updatedAt: 2026-08-05T13:05Z
 - branch context: work on master; feature work on auto/<slug>
 
 Notes: iter1012 BUILD — ES-45 practical+cultural cluster SHIPPED f6e5b708. 5 ES guides: sea-of-galilee-boat-tour (Kinneret Sailing Tiberíades–Ein Gev 45–60min + Barco Jesús réplica Ginosar + Museo Yigal Alon; CTAs GYG+Viator+Booking; 6 FAQs), yom-haatzmaut-guide (Yom HaZikaron 28–29 abr 2027 + Yom Ha'atzmaut 29–30 abr 2027; sirenas 8pm/11am; aeropuerto Ben Gurion cerrado 25h; ceremonia transición Monte Herzl; espectáculo aéreo TLV; CTAs Booking+GYG; 7 FAQs), israel-vat-refund (IVA 17%; reembolso neto 5–11% tras comisiones; mín ₪400/factura/tienda; formulario ZIV-1; mostrador Ben Gurion Sala Salidas; Eilat=zona libre IVA=no reembolso; CTAs GYG+Booking; 6 FAQs), israel-vs-jordan (tabla comparativa 10 criterios; Dead Sea ambas orillas; combinación Eilat–Wadi Araba crossing + Allenby; 10-day itinerary outline; CTAs GYG+Skyscanner+Booking; 5 FAQs), israel-photography-guide (15 ubicaciones; Monte Olivos amanecer; Acueducto Cesarea; Masada + Mar Muerto alba; cráter Mitzpe Ramon; terrazas Bahá'í; kalaniot Néguev feb–mar; etiqueta sitios religiosos; drones CAAF permit; CTAs GYG×2+Booking; 6 FAQs). LATAM neutral español tuteo; YAML double-quotes; no fabricated prices/ratings; paired naming en todos los sitios sagrados; no H1 en body. ES: 225→230/398. Build: 1474→1479 pages (+5). 2191/2191 e2e pass (15.8m).

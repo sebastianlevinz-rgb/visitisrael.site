@@ -7767,3 +7767,24 @@ CAUTION (iter 980): celiac/gluten-free guides must use "tradition thérapeutique
 - Monthly per-month editorial guides: FR/DE/ES remain 100% uncontested (routard/urlaubsguru/civitatis confirmed again).
 - Interactive tools (6): zero competitor equivalent in FR/DE/ES.
 - Photography + VAT + Jordan comparison + Boat Tour = 4 proven high-value EN content types with zero multilingual editorial competitors.
+
+## iter1015 (2026-08-05) — 201st research pass: FR-33/DE-31/ES-46 batch definitions, nationality-guides gap, food/nightlife category audit
+
+**Food & Nightlife category competitive check (FR/DE/ES):**
+- jerusalem-nightlife: routard.com = 1 paragraph stub; civitatis.com = tour listing only; urlaubsguru.de = 0; zero independent FR/DE/ES editorial guide with venue detail + map + evening logistics. Our guide would lead for "vie nocturne Jérusalem / Jerusalem Nachtleben / vida nocturna Jerusalén" immediately.
+- israeli-breakfast-guide: Le Routard and Petit Futé cover Israeli food generically; zero dedicated "aruchat boker" / "israelisches Frühstück" / "desayuno israelí" editorial anywhere. French culinary audience + DACH food-tourism = natural landing page; zero competition.
+- israel-food-festivals: civitatis.com lists Eat Tel Aviv tours (commercial, no editorial); routard.com = 0; urlaubsguru.de = 0; zero FR/DE/ES editorial covering Israel's food festival calendar. Our guide carries 2027 event listings + food-tour affiliate links = distinct value.
+- tel-aviv-things-to-do: tripadvisor FR/DE/ES = UGC aggregator; Lonely Planet TLV guide = EN-only; zero dedicated FR/DE/ES editorial "que faire à Tel Aviv / Sehenswürdigkeiten Tel Aviv / qué hacer en Tel Aviv" comparable to tourist Israel's EN page. Huge organic volume potential.
+- kibbutz-hotels-israel (FR): zero editorial in French; routing through Booking.com kibbutz search only. Israel Tourism Ministry pushes kibbutz stays for authentic experience — French family travelers = target.
+- new-luxury-hotels-israel-2026 (DE): myisraelstay.com covers in EN; zero DACH editorial on 2026 openings specifically. German luxury traveler booking 6+ months ahead needs this.
+
+**Nationality guides gap:**
+- israel-for-american-travelers: EN guide current (Israir JFK Aug 2026 added iter638). FR/DE/ES versions ALL missing. touristisrael.com has "Israel for Americans" page. Zero FR/DE/ES editorial equivalents on any competitor. US market = #1 source post-recovery.
+- island-for-british-travelers: similar gap. Israel.Travel (government) has some content; zero independent editorial in FR/DE/ES for British market.
+- 30+ nationality guides in EN (see EN list) with zero FR/DE/ES equivalents across any competitor.
+
+**Key differentiators confirmed maintained:**
+- Monthly guides: all 12 months covered in FR+DE+ES (post iter996/997 milestones) EXCEPT August (EN missing too — P2 backlog). Zero editorial competition on any month in any locale.
+- 14 interactive tools: still zero competitor equivalent in any locale. No tool-level content strategy from Lonely Planet / Rough Guides / touristisrael.com in FR/DE/ES.
+- Jewish holidays cluster (Rosh Hashana/Yom Kippur/Sukkot/Purim): FR+DE+ES now covered. Civitatis = tour-listing only; zero editorial in any language from routard/petitfute/urlaubsguru/sonnenklar.
+- Accessibility guide: we have EN + translations. atij.org (specialist) ranks for EN; zero FR/DE/ES accessibility editorial from general Israel travel sites.

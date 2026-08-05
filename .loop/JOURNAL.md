@@ -15354,3 +15354,24 @@ What: Audited all 5 FR-32 guides (sea-of-galilee-boat-tour, yom-haatzmaut-guide,
 Gate: pnpm check 0 errors; build 1484 pages (unchanged); 2191/2191 e2e pass (17.1m exit code 0).
 Ship: squash-merged to master a447f1f4, pushed. Branch auto/fr-32-meta-trim deleted.
 Prod: Vercel CI in_progress at push time.
+
+## 2026-08-05T13:05Z · iter 1015 · RESEARCH (201st pass) · FR-33/DE-31/ES-46 batch definitions + nationality-guides gap
+Mode: RESEARCH (1015%5=0). No code changed; gate not run.
+Sources: WebSearch (touristisrael.com, tripadvisor.com, tourradar.com, wewillnomad.com, israel-for-family guides, accessible-tourism resources, wellness/yoga retreat aggregators, luxury hotel roundups), filesystem gap analysis (comm -23; EN=398, FR=247, DE=233, ES=230), Explore subagent (per-locale top-5 missing analysis, tools audit).
+
+Gap inventory: ES=230/398 (168 missing), FR=247/398 (151 missing), DE=233/398 (165 missing).
+
+Key findings:
+1. FR-33 BATCH DEFINED: 5 guides confirmed MISSING from FR via comm -23 — jerusalem-nightlife (Nightlife, high-traffic), israeli-breakfast-guide (Food, aruchat boker culture unique to Israel), israel-food-festivals (Food+Events, Eat Tel Aviv/wine events), tel-aviv-things-to-do (Guide, high-traffic catchall), kibbutz-hotels-israel (Accommodation, uniquely Israeli hospitality). Zero editorial FR competition confirmed.
+
+2. DE-31 BATCH DEFINED: 5 guides confirmed MISSING from DE — jerusalem-nightlife, israeli-breakfast-guide, israel-food-festivals, tel-aviv-things-to-do, new-luxury-hotels-israel-2026 (luxury/accommodation, 17 hotel openings summer 2026, high DACH booking intent). DE has kibbutz-hotels (via DE-7), so swapped in new-luxury-hotels for variety.
+
+3. ES-46 BATCH DEFINED: 5 guides confirmed MISSING from ES — jerusalem-nightlife, israeli-breakfast-guide, israel-food-festivals, israeli-street-food-guide (ES-unique miss; FR+DE already have it), private-tours-israel (ES-unique miss; FR+DE already have it; high conversion value for LATAM high-income travelers). Zero editorial ES competition confirmed for all 5.
+
+4. ISRAEL-IN-AUGUST EN GAP CONFIRMED (AGAIN): src/content/guides/israel-in-august.md still does not exist. Already in BACKLOG as P2/ready. Next seo-content BUILD slot should prioritize this — it's the only missing month from EN's otherwise-complete monthly guide series.
+
+5. NATIONALITY GUIDES OPPORTUNITY: 30+ guides like israel-for-american-travelers, israel-for-british-travelers, israel-for-chinese-travelers missing from all 3 locales. Biggest single-category gap. High search intent per market ("Israel travel tips for Americans/Germans/British"). Represents ~150+ future pages across locales. Added as P3 bundle to BACKLOG.
+
+6. COMPETITOR LANDSCAPE STABLE: touristisrael.com remains strongest competitor; no new editorial entrants for any of our core content types. Lonely Planet / Rough Guides still lack per-month Israel guides (confirmed). Zero FR/DE/ES competitors for the 3 new batches.
+
+Gate: N/A (RESEARCH mode). Next: iter1016 = BUILD (1016%5=1; candidate DE-30 practical+cultural cluster).
