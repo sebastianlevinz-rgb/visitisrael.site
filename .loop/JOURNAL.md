@@ -15468,3 +15468,14 @@ FR locale count: 252→257/398. Build: 1504→1509 pages (+5). 10 new tests (5 s
 What: Meta/quality audit of FR-34 batch (jerusalem-museums, jericho-day-trip-from-jerusalem, layover-tel-aviv, israel-trip-cost-by-style, jewish-quarter-jerusalem-guide). Found 6 violations — 2 title overruns (jericho 72 chars → 46; jewish-quarter 75 chars → 55) and 4 description overruns (jerusalem-museums 185→127; jericho 172→113; layover 185→120; cost-by-style 201→150). Other checks clean: H1-in-body 0/5, hero images 5/5 present, affiliates all valid (booking/getyourguide/viator/tiqets/tourradar/hostelworld/welcomepickups/abraham), internal /fr/* links all resolve (diplomatie.gouv.fr/fr/ external URL was a false alarm in the grep pattern — not a broken internal link). No fabricated prices; no paired-naming issues; no H1 violations.
 Gate: pnpm check 0 errors; build 1509 pages (unchanged); pnpm test:e2e 2201/2201 pass (25.5m exit code 0). GREEN.
 Merge SHA: ffd0b346. Squash-committed directly on master. CI in_progress at push time (Lighthouse workflow #1896 for SHA ffd0b346); per playbook, leaving for next iteration's start-check.
+
+## 2026-08-05T20:52Z · iter1024 · REVIEW · review-1024-es46-meta-trim
+What: Meta/quality audit of ES-46 batch (jerusalem-nightlife, israeli-breakfast-guide, israel-food-festivals, israeli-street-food-guide, private-tours-israel). Found 7 violations: 4 title overruns + 3 description overruns across 4 guides. private-tours-israel clean.
+Fixes applied (all in branch auto/review-1024-es46-meta-trim SHA bafa3061):
+  - jerusalem-nightlife: title 83→60 chars (removed 'y guía de actividades nocturnas'); desc 164→133 (trimmed preamble)
+  - israeli-breakfast-guide: title 70→52 chars (removed 'y la tradición del'); desc 171→125 (trimmed preamble)
+  - israel-food-festivals: title 81→56 chars (removed 'Eat Tel Aviv, vino y eventos culinarios'); desc 196→140 (condensed festival list)
+  - israeli-street-food-guide: title 75→58 chars (removed 'y dónde comerlos'); desc 160 chars — already at limit, no change
+Other checks CLEAN: H1-in-body 0/5; hero images 5/5 exist; 23 internal /es/* links all resolve; affiliates valid (getyourguide/booking/viator/civitatis/tourradar); no fabricated prices/ratings.
+Gate: pnpm check ✓ 0 errors; pnpm build ✓ 1509 pages (unchanged); pnpm test:e2e IN PROGRESS at stop-hook commit time (tests launched 20:36 UTC, ~15 min elapsed, expected 18–31 min total).
+Outcome: GATE_PENDING — stop-hook fired; content committed to feature branch + pushed; .loop/ state updated on master. §1a recovery: next run finds auto/review-1024-es46-meta-trim, re-runs gate, squash-merges to master if green.
