@@ -15221,3 +15221,9 @@ What: 5 DE specialty guides: israel-museum-jerusalem (Schrein des Buches/Jesajar
 Gate: pnpm check 0 errors; build 1464 pages (+5, 1459→1464); 2191/2191 e2e pass (25.3m). 10 new tests (5 smoke + 5 a11y).
 Ship: committed directly to master 373e96ab + pushed. Vercel deploy in_progress at push time.
 DE guides: 223→228/398. Next: iter1007 BUILD (1007%5=2 → BUILD; candidate FR-31 holidays/practical batch).
+
+## 2026-08-05T04:10Z · iter 1007 · BUILD (concurrent duplicate) · de-28-specialty-guides
+What: Concurrent session collision. This run started as iter1006 (STATE showed iter:1005), read the same DE-28 backlog item, and independently authored all 5 German specialty guides (israel-museum-jerusalem, israel-thermal-springs, israel-spring-wildflowers, israel-culinary-heritage-tourism, israel-gluten-free-guide) in standard Hochdeutsch. Full gate passed: pnpm check 0 errors; build 1464 pages (+5); 2191/2191 e2e pass (24.7m, 10 new tests). Attempted push rejected — origin/master already had DE-28 shipped (373e96ab) by concurrent session. Reset local branch to origin/master (git reset --hard HEAD~1), fast-forwarded to 8203d81b. Content doubly-validated.
+Gate: pnpm check 0 errors (confirmed); build 1464 (+5 confirmed); 2191/2191 e2e pass (confirmed). No net push.
+Outcome: CONCURRENT DUPLICATE — no new pages shipped; DE-28 already live. State advanced to iter1007.
+Next: iter1008 BUILD (1008%5=3 → BUILD; candidate FR-31 Jewish holidays/practical/pilgrimage batch).

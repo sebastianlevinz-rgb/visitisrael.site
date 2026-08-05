@@ -1,12 +1,12 @@
 # LOOP STATE
 
-- iteration: 1006
+- iteration: 1007
 - lastMode: BUILD
-- lastItem: de-28-specialty-guides
-- lastResult: SHIPPED 373e96ab — DE-28: 5 DE specialty guides (israel-museum-jerusalem, israel-thermal-springs, israel-spring-wildflowers, israel-culinary-heritage-tourism, israel-gluten-free-guide). Gate: pnpm check 0 errors; build 1464 pages (+5); 2191/2191 e2e pass (25.3m). Pushed master directly.
-- nextRotationCategory: BUILD (iter1007; 1007%5=2 → BUILD; candidate FR-31 specialty batch)
+- lastItem: de-28-specialty-guides (concurrent-session duplicate; verified gate 2191/2191)
+- lastResult: CONCURRENT SESSION — iter1006 already shipped DE-28 (373e96ab) by another session. This run independently authored same 5 DE guides, ran full gate (pnpm check 0 errors; build 1464+5 pages; 2191/2191 e2e pass 24.7m), then found push rejected. Reset to origin/master. No net change; DE-28 content confirmed doubly-validated.
+- nextRotationCategory: BUILD (iter1008; 1008%5=3 → BUILD; candidate FR-31 Jewish holidays/practical/pilgrimage batch)
 - higgsfieldSpent: 0
-- updatedAt: 2026-08-05T03:45Z
+- updatedAt: 2026-08-05T04:10Z
 - branch context: work on master; feature work on auto/<slug>
 
 Notes: iter1006 BUILD — DE-28 specialty guides SHIPPED 373e96ab. 5 FR guides: israel-museum-jerusalem (Sanctuaire du Livre, maquette, archéologie, tiqets/GYG/Viator CTAs), gan-hashlosha-guide (Sachne 28°C, réservation parks.org.il, INPA pass valid, Beit She'an circuit), israel-spring-wildflowers (kalaniot Néguev + cyclamens Galilée + orchidées Golan, Darom Adom festival, inpa.gov.il bloom tracker), israel-thermal-springs (Hamat Gader ruines romaines + parc alligators + Tibériade + Ein Gedi wellness circuit), israel-culinary-heritage-tourism (70 diasporas — jachnun/kubbeh/couscous, Mahané Yehuda/Carmel/Levinsky marchés, cours cuisine). Metropolitan French; YAML double-quotes; /fr/* prefix confirmed existing pages only; no fabricated prices; honesty: National Parks Pass coverage noted correctly; kalanit picking fine ₪730 disclosed; sulphur odour noted at Hamat Gader. FR: 232→237/398. Build: 1454→1459 pages (+5). 2181/2181 e2e pass (18.3m). CI in_progress at push time.
