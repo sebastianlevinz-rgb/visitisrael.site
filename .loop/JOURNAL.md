@@ -15308,3 +15308,17 @@ False leads eliminated (verified DONE or CURRENT):
 - new-luxury-hotels i18n: already P2 bundle in backlog.
 
 Gate: N/A (RESEARCH mode). Next: iter1011 = BUILD (1011%5=1; nextRotationCategory BUILD; candidate DE-29 as highest-priority ready batch).
+
+## 2026-08-05 · iter 1011 · BUILD (i18n-DE) · de-29-jewish-holidays-cycling
+What: 5 new German-language travel guides for DACH market (DE-29 batch).
+- rosh-hashanah-in-israel.md — Rosch Haschana 5787 (Sept 10-12, 2026): Kol Nidre at Western Wall, Tashlich, Musaf, apple+honey, shofar; CTAs Booking Jerusalem+GYG+Viator; 6 FAQs; cross-links /de/yom-kippur-in-israel+/de/sukkot-in-israel+/de/shabbat-guide+/de/western-wall-guide.
+- yom-kippur-in-israel.md — Jom Kippur (Sept 20-21, 2026): Ben-Gurion 25h complete closure, Ayalon Freeway cycling promenade, Kol Nidre/Neilah at Western Wall; CTAs Booking+GYG+Viator; 6 FAQs; cross-links /de/rosh-hashanah-in-israel+/de/sukkot-in-israel+/de/shabbat-guide+/de/western-wall-guide. SUBSTITUTED for masada-tours-compared (already exists in DE).
+- sukkot-in-israel.md — Sukkot (Sept 25–Oct 2, 2026): Birkat Kohanim at Western Wall (6:30am arrival, 7:30am ceremony, Zehntausende), Chol HaMoed logistics, Hula Valley crane migration; CTAs Booking+GYG+Viator; 6 FAQs; cross-links /de/yom-kippur-in-israel+/de/rosh-hashanah-in-israel+/de/shabbat-guide. SUBSTITUTED for tel-aviv-to-jerusalem (already exists in DE).
+- israel-national-bike-trail.md — IBT 1,200km Dan→Eilat: 5 landscape zones (Golan→Negev→Eilat), seasonal Negev safety (Negev May–Sept forbidden), water planning (2L/half-day Galilee, 4-5L/half-day Negev), DACH MTB market context (13M+ active MTB riders Germany); CTAs discovercars+GYG+Booking; 7 FAQs.
+- temple-mount-visitor-guide.md — Tempelberg / Haram al-Sharif: paired naming enforced throughout, WAQF jurisdiction stated accurately, Mughrabi Gate non-Muslim access only (Mon-Thu+Sat, 7:30-11:00+13:30-14:30), mosque interiors never accessible to non-Muslims, quick reference table; CTAs GYG+Viator+Abraham; 8 FAQs.
+Substitutions: masada-tours-compared and tel-aviv-to-jerusalem already existed in DE (confirmed via filesystem). Following FR-31 precedent (iter1008), substituted yom-kippur-in-israel and sukkot-in-israel (both confirmed MISSING from DE).
+All meta ≤60/160 chars. No H1 in body. /de/* cross-links verified existing only. No fabricated prices/ratings. Paired naming at contested site. WAQF honest.
+Gate: pnpm check ✓ (0 errors); pnpm build ✓ (1474 pages, +5 from 1469); pnpm test:e2e ✓ (exit code 0, ~24min).
+Ship: squash-merge to master 150dff42, pushed origin/master. PR #44 draft auto/de-29-jewish-holidays-cycling.
+DE guides: 228→233/398. Build: 1469→1474 pages.
+Next: REVIEW (iter1012; 1012%5=2).
