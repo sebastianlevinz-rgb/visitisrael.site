@@ -7788,3 +7788,27 @@ CAUTION (iter 980): celiac/gluten-free guides must use "tradition thérapeutique
 - 14 interactive tools: still zero competitor equivalent in any locale. No tool-level content strategy from Lonely Planet / Rough Guides / touristisrael.com in FR/DE/ES.
 - Jewish holidays cluster (Rosh Hashana/Yom Kippur/Sukkot/Purim): FR+DE+ES now covered. Civitatis = tour-listing only; zero editorial in any language from routard/petitfute/urlaubsguru/sonnenklar.
 - Accessibility guide: we have EN + translations. atij.org (specialist) ranks for EN; zero FR/DE/ES accessibility editorial from general Israel travel sites.
+
+## iter1020 (2026-08-05) — 202nd research pass: FR-34/DE-32 batch audit, August content gap, competitor tool landscape
+
+**FR/DE content gaps confirmed:**
+- jerusalem-museums: routard.com = 1-para stub; petitfuté.com = listing only; urlaubsguru.de = 0. Our FR-34/DE-32 guides lead immediately.
+- jericho-day-trip: routard.com = brief Jericho city article (no day-trip logistics from Jerusalem); urlaubsguru.de = 0; civitatis.com = tour-only. Our guides carry West Bank logistics (passport/ID, no Israeli rental car), cable car details, timing = uncontested.
+- layover-tel-aviv: zero FR/DE/ES editorial layover guide for TLV anywhere found. High-CPC Google vertical (business travellers). Our 4h/8h/12h tier guide = uncontested.
+- israel-trip-cost-by-style (FR): competitor israeltraveladvisor.org (EN-only) has a budget calculator; routard.com gives rough daily budgets without travel-style breakdown. Our FR guide segmenting backpacker/comfort/luxury with ₪-ranges = unique.
+- jewish-quarter-jerusalem: routard.com = 1 para mention; Lonely Planet FR = EN-only. Zero dedicated FR/DE editorial with Cardo/Hurva/Burnt House + Shabbat logistics.
+- kibbutz-hotels-israel (DE): zero DACH editorial on kibbutz hotels. booking.com = listings only, no cultural context. German eco/cooperative tourism interest = unique angle.
+
+**August content: competitor landscape:**
+- touristisrael.com ranks #1 EN for "things to do in Israel in August" — comprehensive events calendar + heat management tips. We lack EN israel-in-august.md (confirmed missing 4x: iter945/990/1010/1015/1020).
+- August 2026 key events confirmed: Safed Klezmer Festival (mid-August, 38th edition, 8 open-air stages); Red Sea Jazz Festival (late August, Eilat harbor); Jerusalem Beer Festival (late August, Sultan's Pool); White Night TLV (late August, TBC); Karmiel Dance Festival (August 4-6).
+- Sea temperature August = 27-28°C (warmest of year) → prime swimming content hook.
+
+**Tool competitive landscape:**
+- israeltraveladvisor.org: EN-only trip budget calculator. No FR/DE/ES equivalent on any competitor.
+- Our 6 existing tools remain unmatched in FR/DE/ES — zero competitor interactive tools in non-EN locales.
+- Opportunity noted: ETA-IL eligibility checker tool (S effort) — dropdown select passport → YES/NO + link to official application. High-CPC entry-requirements searches. P2 consideration.
+
+**Key differentiators maintained (202nd pass):**
+- Monthly guides: FR/DE/ES all 12 months + EN all 11 months (August still missing). Zero editorial competition in any locale from routard/urlaubsguru/civitatis.
+- FR-34 + DE-32 batches: zero editorial competition on any of the 10 combined guides from any identified competitor.

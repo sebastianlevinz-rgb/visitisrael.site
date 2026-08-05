@@ -1,12 +1,12 @@
 # LOOP STATE
 
-- iteration: 1019
-- lastMode: REVIEW
-- lastItem: de-31-meta-trim
-- lastResult: REVIEW pass. de-31-meta-trim SHIPPED cacbfa7b. 3 meta fixes across 2 DE-31 guides: israel-food-festivals title 73→53 chars + desc 162→150 chars; tel-aviv-things-to-do desc 198→148 chars. Other checks CLEAN: 25/25 /de/* cross-links resolve; 5/5 hero images exist (mahane-yehuda.jpg ×2 + carmel-market.jpg + hero.jpg ×2); no H1 in body on any guide; affiliates valid (booking/getyourguide/viator). Gate: pnpm check 0 errors; build 1499 pages (unchanged); pnpm test:e2e 2191/2191 pass (19.6m). CI in_progress at push time.
-- nextRotationCategory: RESEARCH (iter1020; 1020%5=0 → RESEARCH)
+- iteration: 1020
+- lastMode: RESEARCH
+- lastItem: research-202nd-pass-fr34-de32-batch-definitions
+- lastResult: RESEARCH pass (202nd). FR-34 + DE-32 batches defined; ES-46 confirmed still ready. Locale counts: EN=398, FR=252/398 (146 missing), DE=243/398 (155 missing), ES=230/398 (168 missing). israel-in-august confirmed missing from EN (4th consecutive confirmation, P2/ready in backlog). ETA-IL guide already exists in all 3 locales. No code shipped.
+- nextRotationCategory: BUILD i18n-ES (iter1021; 1021%5=1 → BUILD → ES-46 cluster: jerusalem-nightlife+israeli-breakfast-guide+israel-food-festivals+israeli-street-food-guide+private-tours-israel)
 - higgsfieldSpent: 0
-- updatedAt: 2026-08-05T16:00Z
+- updatedAt: 2026-08-05T18:00Z
 - branch context: work on master; feature work on auto/<slug>
 
 Notes: iter1012 BUILD — ES-45 practical+cultural cluster SHIPPED f6e5b708. 5 ES guides: sea-of-galilee-boat-tour (Kinneret Sailing Tiberíades–Ein Gev 45–60min + Barco Jesús réplica Ginosar + Museo Yigal Alon; CTAs GYG+Viator+Booking; 6 FAQs), yom-haatzmaut-guide (Yom HaZikaron 28–29 abr 2027 + Yom Ha'atzmaut 29–30 abr 2027; sirenas 8pm/11am; aeropuerto Ben Gurion cerrado 25h; ceremonia transición Monte Herzl; espectáculo aéreo TLV; CTAs Booking+GYG; 7 FAQs), israel-vat-refund (IVA 17%; reembolso neto 5–11% tras comisiones; mín ₪400/factura/tienda; formulario ZIV-1; mostrador Ben Gurion Sala Salidas; Eilat=zona libre IVA=no reembolso; CTAs GYG+Booking; 6 FAQs), israel-vs-jordan (tabla comparativa 10 criterios; Dead Sea ambas orillas; combinación Eilat–Wadi Araba crossing + Allenby; 10-day itinerary outline; CTAs GYG+Skyscanner+Booking; 5 FAQs), israel-photography-guide (15 ubicaciones; Monte Olivos amanecer; Acueducto Cesarea; Masada + Mar Muerto alba; cráter Mitzpe Ramon; terrazas Bahá'í; kalaniot Néguev feb–mar; etiqueta sitios religiosos; drones CAAF permit; CTAs GYG×2+Booking; 6 FAQs). LATAM neutral español tuteo; YAML double-quotes; no fabricated prices/ratings; paired naming en todos los sitios sagrados; no H1 en body. ES: 225→230/398. Build: 1474→1479 pages (+5). 2191/2191 e2e pass (15.8m).

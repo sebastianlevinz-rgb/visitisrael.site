@@ -15420,3 +15420,20 @@ What: Audited 5 DE-31 guides (jerusalem-nightlife, israeli-breakfast-guide, isra
 Gate: pnpm check 0 errors; build 1499 pages (unchanged); pnpm test:e2e 2191/2191 pass (19.6m).
 Merge SHA: cacbfa7b. Pushed to origin/master.
 Prod: CI in_progress at push time.
+
+## 2026-08-05T18:00Z · iter1020 · RESEARCH (202nd pass) · FR-34/DE-32 batch definitions + competitor gap audit
+Mode: RESEARCH (1020%5=0). No code changed; gate not run.
+Sources: filesystem gap analysis (comm -23 EN=398 vs FR=252/DE=243/ES=230), WebSearch (touristisrael.com, lonelyplanet.com, roughguides.com, israeleta.info, embassies.gov.il, whereandwhen.net, weather2travel.com, magnificenttravel.com, israeltraveladvisor.org, itn.co.il, safed-home.com, takeyourbackpack.com, beinharimtours.com).
+
+Gap inventory: FR=252/398 (146 missing), DE=243/398 (155 missing), ES=230/398 (168 missing).
+
+Key findings:
+1. FR-34 BATCH DEFINED: 5 guides confirmed MISSING from FR via comm -23 — jerusalem-museums (cultural hub, high-traffic heritage), jericho-day-trip-from-jerusalem (most popular West Bank day trip, tour conversion), layover-tel-aviv (ultra-practical, transit traffic), israel-trip-cost-by-style (monetization/budget planning, decision driver), jewish-quarter-jerusalem-guide (pilgrimage heritage, high-intent search). Zero FR editorial competition on any of these 5 (routard/petitfuté = stubs or absent; lonely planet FR = EN-only).
+2. DE-32 BATCH DEFINED: 5 guides confirmed MISSING from DE — jerusalem-museums (cultural heritage, "Museen Jerusalem"), jericho-day-trip-from-jerusalem ("Tagestour Jericho" zero DACH editorial), layover-tel-aviv ("Layover Tel Aviv" transit market), jewish-quarter-jerusalem-guide ("Jüdisches Viertel Jerusalem"), kibbutz-hotels-israel (DE-unique miss; FR-33 shipped this in FR; German cooperative/communal living interest angle; zero DACH editorial).
+3. ES-46 BATCH CONFIRMED STILL READY: All 5 guides defined in iter1015 confirmed still missing from ES: jerusalem-nightlife, israeli-breakfast-guide, israel-food-festivals, israeli-street-food-guide, private-tours-israel.
+4. israel-in-august.md CONFIRMED MISSING from EN (4th consecutive research pass confirmation — iter945/990/1010/1015/1020). touristisrael.com ranks dedicated August URL with Safed Klezmer Festival (mid-August), Red Sea Jazz Festival Eilat (late August), Jerusalem Beer Festival (late August), White Night TLV (late August), Karmiel Dance Festival (Aug 4-6). European school holiday peak = highest booking intent month. Status: P2/ready in backlog — prioritize in next seo-content BUILD slot.
+5. ETA-IL GUIDE STATUS: israel-eta-guide.md confirmed present in FR + ES + DE (all 3 locales). No action needed.
+6. COMPETITOR LANDSCAPE: touristisrael.com = primary EN competitor with dedicated August page + festival calendar. israeltraveladvisor.org has a budget calculator (EN-only) — our israel-trip-cost-by-style.md addresses this category with editorial framing. Zero FR/DE/ES competition on any batch items confirmed.
+
+Gate: N/A (RESEARCH mode). New items added to BACKLOG: FR-34 batch + DE-32 batch definitions (2 new items). ES-46 already in backlog.
+Next: iter1021 = BUILD (1021%5=1) → ES-46 cluster (jerusalem-nightlife + israeli-breakfast-guide + israel-food-festivals + israeli-street-food-guide + private-tours-israel).
