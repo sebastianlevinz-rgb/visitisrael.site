@@ -1,12 +1,12 @@
 # LOOP STATE
 
-- iteration: 1008
-- lastMode: BUILD
-- lastItem: fr-31-jewish-holidays
-- lastResult: SHIPPED 2fbb38d0 — 5 FR Jewish holidays + sacred site guides. Gate: pnpm check 0 errors; build 1469 pages (+5); pnpm test:e2e 2191/2191 pass (15.9m). FR: 237→242/398. Commit pushed to master; CI in_progress at ship time.
-- nextRotationCategory: REVIEW (iter1009; 1009%5=4 → REVIEW; candidate: FR-31 meta-trim audit)
+- iteration: 1009
+- lastMode: REVIEW
+- lastItem: fr-31-meta-trim
+- lastResult: SHIPPED ae0066be — 10 meta fixes (5 titles 65–74→41–45 chars; 5 descs 174–203→138–149 chars) across all 5 FR-31 guides. Other checks CLEAN: 20/20 /fr/* cross-links resolve; 3 hero images exist; no H1 in body; affiliates valid. Gate: pnpm check 0 errors; build 1469 pages (unchanged); pnpm test:e2e 2191/2191 pass (16.8m). CI in_progress at push time.
+- nextRotationCategory: RESEARCH (iter1010; 1010%5=0 → RESEARCH)
 - higgsfieldSpent: 0
-- updatedAt: 2026-08-05T05:10Z
+- updatedAt: 2026-08-05T06:02Z
 - branch context: work on master; feature work on auto/<slug>
 
 Notes: iter1008 BUILD — FR-31 Jewish holidays batch SHIPPED 2fbb38d0. 5 FR guides: rosh-hashanah-in-israel (Rosh Hashana 5787 Sept 10-12 2026; Musaf at Western Wall; Tachlich by city; booking 6-12 months ahead; CTAs Booking+GYG+Viator; 6 FAQs), sukkot-in-israel (Souccot 2026 Sept 25–Oct 2; Birkat Kohanim 6:30am arrival 7:30am ceremony; Hula Valley crane migration; CTAs Booking+GYG+Viator; 6 FAQs), temple-mount-visitor-guide (Mont du Temple / Haram al-Sharif; non-Muslim access Mon-Thu+Sat Mughrabi Gate only; plaza only no mosque interior; CTAs GYG+Viator+Abraham; 7 FAQs), yom-kippur-in-israel (Yom Kippour Sept 20-21 2026; Ben Gurion 25h complete closure; empty highways cycling promenade; CTAs Booking+GYG+Viator; 6 FAQs), purim-in-israel (Pourim 2027 Tel Aviv Mar 22 / Jerusalem Mar 23 Shushan; Dizengoff 200k-250k; Adloyada; CTAs Booking+GYG+Viator; 6 FAQs). Yom Kippur and Purim substituted for already-existing masada-tours-compared and tel-aviv-to-jerusalem (both existed in FR since batch 18). Metropolitan French; YAML double-quotes; /fr/* cross-links pre-verified; no fabricated prices/ratings; paired naming at Temple Mount; honest dress code and access restrictions. FR: 237→242/398. Build: 1464→1469 pages (+5). 2191/2191 e2e pass (15.9m).

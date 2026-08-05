@@ -15262,3 +15262,17 @@ due to context boundary — files written before context cut, recovered as untra
 
 Vercel/CI: CI in_progress at push time. Next iter REVIEW will audit the 5 FR-31 guides meta.
 FR guide count: 237→242/398.
+
+## 2026-08-05T06:02Z · iter 1009 · REVIEW · fr-31-meta-trim
+What: Audited all 5 FR-31 guides shipped in iter1008 (rosh-hashanah-in-israel, sukkot-in-israel,
+temple-mount-visitor-guide, yom-kippur-in-israel, purim-in-israel).
+Findings — 10 meta violations found and fixed:
+- 5 titles over 60 chars: rosh-hashanah (65), sukkot (63), temple-mount (74), yom-kippur (63), purim (68)
+  → fixed to 44, 41, 45, 43, 45 chars respectively
+- 5 descriptions over 160 chars: rosh-hashanah (174), sukkot (179), temple-mount (203), yom-kippur (191), purim (174)
+  → fixed to 149, 143, 138, 146, 148 chars respectively
+Other checks CLEAN: 20 /fr/* internal links all resolve; 3 hero images exist; no H1 in any guide
+body; affiliates valid (booking/getyourguide/viator/abraham); no fabricated prices or ratings.
+Gate: pnpm check 0 errors; build 1469 pages (unchanged); pnpm test:e2e 2191/2191 pass (16.8m).
+Ship: committed ae0066be to master, pushed. CI in_progress at push time.
+Next: iter1010 = RESEARCH (1010%5=0).
