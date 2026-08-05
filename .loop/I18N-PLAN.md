@@ -6,21 +6,21 @@
 >
 > One bounded slice per loop iteration. NEVER bulk-translate in one shot.
 
-## Current status snapshot (2026-08-05 iter1018 BUILD — DE-31 SHIPPED e5d673da; next REVIEW iter1019 audit DE-31)
+## Current status snapshot (2026-08-05 iter1022 BUILD — FR-34 SHIPPED 5bf30b27; next REVIEW iter1023 audit FR-34)
 
 | Locale | Guides | Attractions | Regions | Itineraries |
 |--------|--------|-------------|---------|-------------|
 | en     | 398    | 65          | 11      | 6           |
-| fr     | 252    | 61          | 11      | 6           |
+| fr     | 257    | 61          | 11      | 6           |
 | de     | 243    | 61          | 11      | 6           |
-| es     | 230    | 61          | 11      | 6           |
+| es     | 235    | 61          | 11      | 6           |
 
 **🎉 MILESTONE: ES + FR + DE monthly guides ALL COMPLETE** (iter996+iter997 ES-41+ES-42 SHIPPED — all 12 per-month guides jan-dec now exist in ES, FR, and DE)
 
 **Gaps to close:**
-- es guides: **168 missing** (230/398 done — Phase ES-45 SHIPPED iter1012 f6e5b708; **next ES BUILD = ES-46 (food+street-food+tours cluster)**)
-- fr guides: **146 missing** (252/398 done — Phase FR-33 SHIPPED iter1017 9a6534d0; **next FR BUILD = FR-34 (next batch)**)
-- de guides: **155 missing** (243/398 done — Phase DE-31 SHIPPED iter1018 e5d673da; **next DE REVIEW = DE-31 meta/quality audit iter1019**)
+- es guides: **163 missing** (235/398 done — Phase ES-46 SHIPPED iter1021 158c2423; **next ES BUILD = ES-47 (next batch)**)
+- fr guides: **141 missing** (257/398 done — Phase FR-34 SHIPPED iter1022 5bf30b27; **next FR REVIEW = FR-34 meta/quality audit iter1023**)
+- de guides: **155 missing** (243/398 done — Phase DE-31 SHIPPED iter1018 e5d673da; **next DE BUILD = DE-32 (next batch)**)
 - fr/de/es attractions: **4 missing each** (the 4 EN attractions added after Phase 4)
 
 **Dead Sea cluster status (iter855 audit):**
@@ -283,6 +283,10 @@ Take the top 5 by priority (or head -5 if priority not obvious), translate each 
   Jerusalem vs Tel Aviv departure comparison table; 6 property profiles Tiberias with decision matrix;
   Tel-O-Fun 4-step system + 4 Tel Aviv routes + Negev MTB + IBT 1200km.
   10 new e2e tests (5 smoke + 5 a11y). FR guides: 122→127/396. Build: ~1102 pages. 1495/1495 e2e pass.
+- Phase FR-34 — SHIPPED iter1022 5bf30b27:
+  jerusalem-museums, jericho-day-trip-from-jerusalem, layover-tel-aviv, israel-trip-cost-by-style, jewish-quarter-jerusalem-guide.
+  Rationale: (1) jerusalem-museums: "Musées de Jérusalem" — 7-museum circuit (Musée d'Israël, Yad Vashem, BLMJ, Tour de David, Bibliothèque nationale, Rockefeller, Musée de la Tolérance) ; zero FR comprehensive museum circuit guide; Givat Ram campus + Vieille Ville cluster ; Tiqets+GYG+Booking CTAs ; 7 FAQs; (2) jericho-day-trip-from-jerusalem: "Excursion à Jéricho" — Zone A logistique honnête (interdiction Israéliens + voiture de location) ; Tell es-Sultan/Mont de la Tentation/Palais de Hicham/Qasr el-Yahud/dattes Medjool ; GYG+Viator+Abraham CTAs ; France Diplomatie travel advisory ; 7 FAQs; (3) layover-tel-aviv: "Escale à Tel Aviv" — 4 créneaux (4h/6h/8-10h/24h) ; train Ben Gourion→HaShalom/Central/Salame ; Sarona/Jaffa/plage+Carmel/ville complète ; WelcomePickups+GYG+Booking CTAs ; tableau récapitulatif transit/sécurité/ETA-IL ; 6 FAQs; (4) israel-trip-cost-by-style: "Coût du voyage en Israël" — 3 niveaux en € (petit budget 60-90€/j, milieu 130-270€/j, luxe 370€+) ; tableaux quotidiens ; calendrier fêtes juives (Pessah/Grandes Fêtes/Noël) ; Hostelworld+Booking+TourRadar CTAs ; 7 FAQs; (5) jewish-quarter-jerusalem-guide: "Quartier juif de Jérusalem" — Musée Wohl (6 demeures hérodiennes du 1er s. av. J.-C.), Maison brûlée (70 apr. J.-C., avant-bras Katros), Centre Davidson/Arc de Robinson, Cardo, synagogue Hurva 2010, Quatre Synagogues sépharades, Grand Mur Ézéchias 8e s. av. J.-C. ; GYG+Viator+Booking CTAs ; 7 FAQs. Qualité : français métropolitain ; YAML guillemets doubles ; /fr/* pages existantes confirmées uniquement ; aucun prix ou note fabriqué ; nommage apparié Mur occidental/mont du Temple ; aucun H1 dans le corps. FR : 252→257/398. Build : 1504→1509 pages (+5). 2201/2201 e2e pass (31.8m). 10 nouveaux tests (5 smoke + 5 a11y).
+
 - Phase FR-30 — SHIPPED iter1005 c20c8c68:
   israel-museum-jerusalem, gan-hashlosha-guide, israel-spring-wildflowers,
   israel-thermal-springs, israel-culinary-heritage-tourism.

@@ -15450,3 +15450,16 @@ Gate: pnpm check 0 errors; build 1504 pages (+5 from 1499); pnpm test:e2e 2191/2
 Merge SHA: 158c2423. Pushed to origin/master directly (files staged and committed on master — feature branch had no commits of its own; equivalent to squash-merge).
 Prod: Vercel CI in_progress at push time (Lighthouse + CI runs id=31032725785/31032725400 for SHA 158c2423); per playbook, leaving for next iteration's start-check.
 ES locale count: 230→235/398. Build: 1499→1504 pages.
+
+## 2026-08-05T19:35Z · iter1022 · BUILD · fr-34-museums-jericho-layover-cost-jewish-quarter
+What: FR-34 cluster — 5 French guides, all confirmed MISSING from FR via comm -23. Metropolitan French; YAML double-quotes; /fr/* cross-links pre-verified on disk; no fabricated prices, ratings, or review counts; no H1 in body; paired naming at contested sites.
+Guides shipped:
+1. jerusalem-museums.md — "Musées de Jérusalem : les 7 incontournables en 2026" — campus Givat Ram (Musée d'Israël/BLMJ/Bibliothèque nationale) + cluster Vieille Ville (Tour de David/Rockefeller) + Yad Vashem seul ; programme 2 jours ; Night Spectacular ; Tiqets+GYG+Booking CTAs ; 7 FAQs.
+2. jericho-day-trip-from-jerusalem.md — "Excursion à Jéricho depuis Jérusalem : guide complet 2026" — Zone A logistique honnête (interdiction Israéliens + voiture de location) ; Tell es-Sultan (10 000 av. J.-C.), Mont de la Tentation/téléphérique, Palais de Hicham (mosaïque Arbre de Vie Omeyyade 8e s.), Qasr el-Yahud, marché dattes Medjool ; France Diplomatie advisory mention ; GYG+Viator+Abraham CTAs ; 7 FAQs.
+3. layover-tel-aviv.md — "Escale à Tel Aviv : que faire en 4, 6, 8 ou 24 heures" — train Ben Gourion→HaShalom/Central/Salame (20-30min) ; 4 créneaux : Sarona (4h)/Vieux-Jaffa (6h)/plage+Carmel (8-10h)/ville entière (24h) ; tampon sécurité aéroport 60-90min ; Shabbat train closure ; tableau récapitulatif ; WelcomePickups+GYG+Booking CTAs ; 6 FAQs.
+4. israel-trip-cost-by-style.md — "Coût d'un voyage en Israël selon le style de voyage (2026)" — 3 niveaux en € : petit budget 60-90€/j (auberge 22-35€, total ~350-610€/semaine), milieu 130-270€/j (hôtel 3★ 105-175€, total ~900-1900€/semaine), luxe 370€+/j (5★ 275-550€, total ~4600-9200€+/semaine) ; calendrier fêtes juives (Pessah/Grandes Fêtes/Noël/Yom Ha'Atsmaout) ; Hostelworld+Booking+TourRadar CTAs ; 7 FAQs.
+5. jewish-quarter-jerusalem-guide.md — "Quartier juif de Jérusalem : guide archéologique complet 2026" — Musée Wohl (6 demeures hérodiennes 1er s. av. J.-C., mikvaot, mosaïques) ; Maison brûlée (9 Av 70 apr. J.-C., famille Katros, avant-bras Katros in situ) ; Centre Davidson/Arc de Robinson/rue hérodienne/pierres tombées 70 apr. J.-C. ; Cardo + Carte de Madaba ; synagogue Hurva 2010 reconstruction ; Quatre Synagogues sépharades 16e s. ; Grand Mur Ézéchias 8e s. av. J.-C. ; GYG+Viator+Booking CTAs ; 7 FAQs.
+Gate: pnpm check 0 errors; build 1509 pages (+5 from 1504); pnpm test:e2e 2201/2201 pass (31.8m exit code 0). GREEN.
+Merge SHA: 5bf30b27. Pushed to origin/master directly (files staged and committed on master — feature branch had no commits; equivalent to squash-merge pattern).
+Prod: Vercel CI in_progress at push time; per playbook, leaving for next iteration's start-check.
+FR locale count: 252→257/398. Build: 1504→1509 pages (+5). 10 new tests (5 smoke + 5 a11y).
