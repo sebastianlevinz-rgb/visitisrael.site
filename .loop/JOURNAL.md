@@ -15227,3 +15227,38 @@ What: Concurrent session collision. This run started as iter1006 (STATE showed i
 Gate: pnpm check 0 errors (confirmed); build 1464 (+5 confirmed); 2191/2191 e2e pass (confirmed). No net push.
 Outcome: CONCURRENT DUPLICATE — no new pages shipped; DE-28 already live. State advanced to iter1007.
 Next: iter1008 BUILD (1008%5=3 → BUILD; candidate FR-31 Jewish holidays/practical/pilgrimage batch).
+
+## 2026-08-05 · iter 1008 · BUILD (i18n-FR) · fr-31-jewish-holidays · 2fbb38d0
+What: 5 FR Jewish holidays + sacred site guides in Metropolitan French register.
+Guides authored:
+- rosh-hashanah-in-israel: Rosh Hashana 5787 (Sept 10-12 2026); Musaf au Mur Occidental; Tachlich
+  par ville (Yarkon TLV, Kinneret TBE, Birket Mamilla JLM); booking 6-12 mois à l'avance; 6 FAQs;
+  CTAs Booking(Jerusalem)+GYG(Rosh Hashana tour)+Viator(High Holidays experience).
+- sukkot-in-israel: Souccot 2026 (Sept 25–Oct 2); Birkat Kohanim arrivée 6h30 cérémonie 7h30-8h;
+  structure semaine (Yom Tov/Chol HaMoed/Hoshana Raba/Shemini Atzeret); migration grues Hula Valley
+  oct-nov; 6 FAQs; CTAs Booking(Oct)+GYG(Souccot tours)+Viator(Hol HaMoed day trips).
+- temple-mount-visitor-guide: Mont du Temple / Haram al-Sharif; accès non-musulmans Porte des Maures
+  lun-jeu+sam seult; plaza extérieure only — aucun intérieur mosquée; tableau horaires; 7 FAQs;
+  CTAs GYG(Old City walking tour)+Viator(private Old City)+Abraham(Old City walk).
+- yom-kippur-in-israel: Yom Kippour (Sept 20-21 2026); fermeture Ben Gourion 25h complète; 
+  autoroutes vides → piste cyclable spontanée; Kol Nidre + Neilah Mur Occidental; 6 FAQs;
+  CTAs Booking(JLM+TLV)+GYG(High Holiday synagogue)+Viator(Yom Kippur Old City tour).
+- purim-in-israel: Pourim 2027 (TLV 22 mars / JLM 23 mars Shushan Pourim ville murée); Dizengoff
+  200k-250k gratuit; Adloyada Allemand/Emek Refaim; Meguila lecture Western Wall+Hourva+Abraham;
+  traditions (mishloach manot, matanot la'evyonim, hamantaschen, costume); 6 FAQs;
+  CTAs Booking(TLV Purim week)+GYG(Purim experiences)+Viator(Jewish holiday tours).
+
+Note: FR-31 backlog listed masada-tours-compared + tel-aviv-to-jerusalem as missing, but both existed
+in FR since batch 18 (commit 2dbb7b7e). Substituted yom-kippur-in-israel + purim-in-israel (confirmed
+MISSING from FR, EN guides used as reference for dates/facts). Theme cohesion maintained.
+
+Gate:
+- pnpm check: 0 errors ✓
+- pnpm build: 1469 pages (+5 from 1464) ✓
+- pnpm test:e2e: 2191/2191 pass (15.9m) ✓
+
+Ship: committed 2fbb38d0 directly to master (feature branch auto/fr-31-jewish-holidays had no commits
+due to context boundary — files written before context cut, recovered as untracked). Pushed to origin/master.
+
+Vercel/CI: CI in_progress at push time. Next iter REVIEW will audit the 5 FR-31 guides meta.
+FR guide count: 237→242/398.

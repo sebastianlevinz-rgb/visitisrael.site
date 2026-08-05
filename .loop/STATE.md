@@ -1,13 +1,15 @@
 # LOOP STATE
 
-- iteration: 1007
+- iteration: 1008
 - lastMode: BUILD
-- lastItem: de-28-specialty-guides (concurrent-session duplicate; verified gate 2191/2191)
-- lastResult: CONCURRENT SESSION — iter1006 already shipped DE-28 (373e96ab) by another session. This run independently authored same 5 DE guides, ran full gate (pnpm check 0 errors; build 1464+5 pages; 2191/2191 e2e pass 24.7m), then found push rejected. Reset to origin/master. No net change; DE-28 content confirmed doubly-validated.
-- nextRotationCategory: BUILD (iter1008; 1008%5=3 → BUILD; candidate FR-31 Jewish holidays/practical/pilgrimage batch)
+- lastItem: fr-31-jewish-holidays
+- lastResult: SHIPPED 2fbb38d0 — 5 FR Jewish holidays + sacred site guides. Gate: pnpm check 0 errors; build 1469 pages (+5); pnpm test:e2e 2191/2191 pass (15.9m). FR: 237→242/398. Commit pushed to master; CI in_progress at ship time.
+- nextRotationCategory: REVIEW (iter1009; 1009%5=4 → REVIEW; candidate: FR-31 meta-trim audit)
 - higgsfieldSpent: 0
-- updatedAt: 2026-08-05T04:10Z
+- updatedAt: 2026-08-05T05:10Z
 - branch context: work on master; feature work on auto/<slug>
+
+Notes: iter1008 BUILD — FR-31 Jewish holidays batch SHIPPED 2fbb38d0. 5 FR guides: rosh-hashanah-in-israel (Rosh Hashana 5787 Sept 10-12 2026; Musaf at Western Wall; Tachlich by city; booking 6-12 months ahead; CTAs Booking+GYG+Viator; 6 FAQs), sukkot-in-israel (Souccot 2026 Sept 25–Oct 2; Birkat Kohanim 6:30am arrival 7:30am ceremony; Hula Valley crane migration; CTAs Booking+GYG+Viator; 6 FAQs), temple-mount-visitor-guide (Mont du Temple / Haram al-Sharif; non-Muslim access Mon-Thu+Sat Mughrabi Gate only; plaza only no mosque interior; CTAs GYG+Viator+Abraham; 7 FAQs), yom-kippur-in-israel (Yom Kippour Sept 20-21 2026; Ben Gurion 25h complete closure; empty highways cycling promenade; CTAs Booking+GYG+Viator; 6 FAQs), purim-in-israel (Pourim 2027 Tel Aviv Mar 22 / Jerusalem Mar 23 Shushan; Dizengoff 200k-250k; Adloyada; CTAs Booking+GYG+Viator; 6 FAQs). Yom Kippur and Purim substituted for already-existing masada-tours-compared and tel-aviv-to-jerusalem (both existed in FR since batch 18). Metropolitan French; YAML double-quotes; /fr/* cross-links pre-verified; no fabricated prices/ratings; paired naming at Temple Mount; honest dress code and access restrictions. FR: 237→242/398. Build: 1464→1469 pages (+5). 2191/2191 e2e pass (15.9m).
 
 Notes: iter1006 BUILD — DE-28 specialty guides SHIPPED 373e96ab. 5 FR guides: israel-museum-jerusalem (Sanctuaire du Livre, maquette, archéologie, tiqets/GYG/Viator CTAs), gan-hashlosha-guide (Sachne 28°C, réservation parks.org.il, INPA pass valid, Beit She'an circuit), israel-spring-wildflowers (kalaniot Néguev + cyclamens Galilée + orchidées Golan, Darom Adom festival, inpa.gov.il bloom tracker), israel-thermal-springs (Hamat Gader ruines romaines + parc alligators + Tibériade + Ein Gedi wellness circuit), israel-culinary-heritage-tourism (70 diasporas — jachnun/kubbeh/couscous, Mahané Yehuda/Carmel/Levinsky marchés, cours cuisine). Metropolitan French; YAML double-quotes; /fr/* prefix confirmed existing pages only; no fabricated prices; honesty: National Parks Pass coverage noted correctly; kalanit picking fine ₪730 disclosed; sulphur odour noted at Hamat Gader. FR: 232→237/398. Build: 1454→1459 pages (+5). 2181/2181 e2e pass (18.3m). CI in_progress at push time.
 
