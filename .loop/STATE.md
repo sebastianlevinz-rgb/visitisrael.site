@@ -1,13 +1,15 @@
 # LOOP STATE
 
-- iteration: 1011
+- iteration: 1012
 - lastMode: BUILD
-- lastItem: de-29-jewish-holidays-cycling
-- lastResult: DE-29 SHIPPED 150dff42 — 5 new DE guides (Rosch Haschana, Jom Kippur, Sukkot, IBT cycling, Tempelberg/Haram al-Sharif). DE: 228→233/398. Build: 1469→1474 pages (+5). Gate: pnpm check 0 errors; build 1474 pages; pnpm test:e2e exit code 0. PR #44 draft auto/de-29-jewish-holidays-cycling.
-- nextRotationCategory: REVIEW (iter1012; 1012%5=2)
+- lastItem: es-45-practical-cultural-cluster
+- lastResult: ES-45 SHIPPED f6e5b708 — 5 new ES guides (Sea of Galilee boat tour, Yom HaAtzmaut, VAT refund, Israel vs Jordan, photography guide). ES: 225→230/398. Build: 1474→1479 pages (+5). Gate: pnpm check 0 errors; build 1479 pages; 2191/2191 e2e pass (15.8m). PR #45 draft auto/es-45-practical-cultural-cluster.
+- nextRotationCategory: BUILD-FR (iter1013; 1013%5=3 → BUILD; FR-32 transport/comparison batch next)
 - higgsfieldSpent: 0
-- updatedAt: 2026-08-05T08:10Z
+- updatedAt: 2026-08-05T09:12Z
 - branch context: work on master; feature work on auto/<slug>
+
+Notes: iter1012 BUILD — ES-45 practical+cultural cluster SHIPPED f6e5b708. 5 ES guides: sea-of-galilee-boat-tour (Kinneret Sailing Tiberíades–Ein Gev 45–60min + Barco Jesús réplica Ginosar + Museo Yigal Alon; CTAs GYG+Viator+Booking; 6 FAQs), yom-haatzmaut-guide (Yom HaZikaron 28–29 abr 2027 + Yom Ha'atzmaut 29–30 abr 2027; sirenas 8pm/11am; aeropuerto Ben Gurion cerrado 25h; ceremonia transición Monte Herzl; espectáculo aéreo TLV; CTAs Booking+GYG; 7 FAQs), israel-vat-refund (IVA 17%; reembolso neto 5–11% tras comisiones; mín ₪400/factura/tienda; formulario ZIV-1; mostrador Ben Gurion Sala Salidas; Eilat=zona libre IVA=no reembolso; CTAs GYG+Booking; 6 FAQs), israel-vs-jordan (tabla comparativa 10 criterios; Dead Sea ambas orillas; combinación Eilat–Wadi Araba crossing + Allenby; 10-day itinerary outline; CTAs GYG+Skyscanner+Booking; 5 FAQs), israel-photography-guide (15 ubicaciones; Monte Olivos amanecer; Acueducto Cesarea; Masada + Mar Muerto alba; cráter Mitzpe Ramon; terrazas Bahá'í; kalaniot Néguev feb–mar; etiqueta sitios religiosos; drones CAAF permit; CTAs GYG×2+Booking; 6 FAQs). LATAM neutral español tuteo; YAML double-quotes; no fabricated prices/ratings; paired naming en todos los sitios sagrados; no H1 en body. ES: 225→230/398. Build: 1474→1479 pages (+5). 2191/2191 e2e pass (15.8m).
 
 Notes: iter1010 RESEARCH — 200th research pass. FR=242/398, ES=225/398, DE=228/398. Confirmed FR-32/ES-45/DE-30 batches (practical+cultural cluster: sea-of-galilee-boat-tour, yom-haatzmaut-guide, israel-vat-refund, israel-vs-jordan, israel-photography-guide). All 5 = 100% uncontested in FR/DE/ES. israel-in-august: CONFIRMED PERSISTENT GAP — EN file does not exist on disk despite backlog "SHIPPED iter968" (that commit was ES-36). August = peak European school holiday month; zero editorial competition in any locale. Tourism recovery: North American visitors +73% YoY June 2026; American Airlines JFK nonstop restarted March 2026. See BACKLOG for full definitions.
 

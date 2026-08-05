@@ -15322,3 +15322,16 @@ Gate: pnpm check ✓ (0 errors); pnpm build ✓ (1474 pages, +5 from 1469); pnpm
 Ship: squash-merge to master 150dff42, pushed origin/master. PR #44 draft auto/de-29-jewish-holidays-cycling.
 DE guides: 228→233/398. Build: 1469→1474 pages.
 Next: REVIEW (iter1012; 1012%5=2).
+
+## 2026-08-05T09:12Z · iter 1012 · BUILD (i18n-ES) · es-45-practical-cultural-cluster
+What: 5 new ES guides — ES-45 practical + cultural cluster (all 5 = 100% uncontested in ES).
+  - sea-of-galilee-boat-tour: Kinneret Sailing Tiberíades–Ein Gev (45–60 min), Barco de Jesús réplica en Kibutz Ginosar, Museo Yigal Alon (barco s.I d.C.); CTAs GYG+Viator+Booking; 6 FAQs.
+  - yom-haatzmaut-guide: Yom HaZikaron 28–29 abr 2027 + Yom Ha'atzmaut 29–30 abr 2027; sirenas 8pm/11am; aeropuerto Ben Gurion cerrado 25h; ceremonia transición Monte Herzl; espectáculo aéreo TLV; CTAs Booking+GYG; 7 FAQs.
+  - israel-vat-refund: IVA 17%; reembolso neto 5–11% tras comisiones de gestión; mín ₪400/factura; formulario ZIV-1; mostrador Ben Gurion Sala Salidas; Eilat=zona libre=no reembolso; tabla 3 tramos de compra; CTAs GYG+Booking; 6 FAQs.
+  - israel-vs-jordan: tabla comparativa 10 criterios; Dead Sea desde ambas orillas; cruce Eilat–Wadi Araba y Allenby; esbozo itinerario 10 días; recomendación final segmentada; CTAs GYG+Skyscanner+Booking; 5 FAQs.
+  - israel-photography-guide: 15 ubicaciones (Monte Olivos, Acueducto Cesarea, Masada, Mar Muerto, Makhtesh Ramón, Bahá'í, kalaniot Néguev); hora dorada; etiqueta sitios religiosos; permisos drones CAAF; CTAs GYG×2+Booking; 6 FAQs.
+  Honesty: no precios exactos fabricados (rangos ₪ únicamente), no ratings/reviews, Explanada de las Mezquitas con nomenclatura bilingüe neutral, sin afirmaciones terapéuticas.
+Gate: pnpm check 0 errors; build 1479 pages (+5 from 1474); 2191/2191 e2e pass (15.8m exit code 0).
+Ship: squash-merged to master f6e5b708, pushed. Feature branch auto/es-45-practical-cultural-cluster deleted. PR #45 draft created.
+Prod: Vercel deployment triggered by push to master; CI build-and-test + lighthouse in_progress at ship time.
+ES: 225→230/398. Next: iter1013 = BUILD (1013%5=3) → FR-32 transport/comparison batch.
