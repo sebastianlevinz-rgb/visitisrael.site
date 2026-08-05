@@ -15375,3 +15375,16 @@ Key findings:
 6. COMPETITOR LANDSCAPE STABLE: touristisrael.com remains strongest competitor; no new editorial entrants for any of our core content types. Lonely Planet / Rough Guides still lack per-month Israel guides (confirmed). Zero FR/DE/ES competitors for the 3 new batches.
 
 Gate: N/A (RESEARCH mode). Next: iter1016 = BUILD (1016%5=1; candidate DE-30 practical+cultural cluster).
+
+## 2026-08-05T13:40Z · iter 1016 · BUILD · de-30-practical-cultural-cluster
+What: DE-30 DACH practical + cultural cluster — 5 German guides, all confirmed MISSING from DE via comm -23 (iter1010 research). Standard Hochdeutsch; YAML double-quotes; all /de/* cross-links pre-verified (15/15 ✓); no fabricated prices or ratings.
+Guides shipped:
+1. sea-of-galilee-boat-tour.md — "Bootstour auf dem See Genezareth / Kinneret" — Kinneret Sailing Tiberias–Ein Gev (₪50–90), Jesus-Boot-Replik mit Fahnenzeremonie (₪300–500), Yigal-Alon-Museum 8m-Boot aus 1. Jh. (museum kibbuz-betrieben, kein INPA-Pass); CTAs GYG+Viator+Booking; 6 FAQs; cross-links /de/sea-of-galilee-guide+tiberias-guide+best-hotels-tiberias.
+2. yom-haatzmaut-guide.md — "Jom HaZikaron & Jom HaAzma'ut 2027: Reiseführer" — HaZikaron 28-29 Apr/Ha'atzmaut 29-30 Apr 2027 (als hebräisch-variabel markiert); 2-Minuten-Sirene; Har-Herzl-Übergang; BGA 25h Sperrung; Mangal-Grillkultur; Hayarkon-Park + Luftshow TLV; Safra-Platz JLM; CTAs Booking+GYG; 7 FAQs; cross-links /de/israel-events-festivals+best-time-to-visit-israel.
+3. israel-vat-refund.md — "Mehrwertsteuererstattung Israel für Touristen" — 17% MwSt; Nettorückerstattung 5–11% nach Betreibergebühren; min ₪400/Quittung/Geschäft; ZIV-1-Formular oder Global-Blue/Planet elektronisch; versiegelter Umschlag; Erstattungsschalter BGA Concourse E vor Sicherheitskontrolle; Eilat=MwSt-freie Zone; Frühzeitig ankommen (3,5h vor Abflug); CTAs GYG+Booking; 6 FAQs; cross-links /de/ben-gurion-airport-guide+transportation+israel-cost-budget.
+4. israel-vs-jordan.md — "Israel oder Jordanien: Der große Reisevergleich" — 10-Kriterien-Vergleichstabelle (Strände, Archäologie, Kosten, Visa, Sicherheit, Englisch-Abdeckung usw.); Entscheidungsmatrix (Petra-Hauptzweck → Jordanien; historische Dichte+urbanes Leben → Israel; Kombi bei 2–3 Wochen); Eilat–Wadi-Araba Grenzübergang; 10-Tage-Kombiroute; link zu Auswärtiges Amt für Sicherheitshinweise; CTAs GYG×2+Booking; 7 FAQs; cross-links /de/dead-sea-guide+petra-from-israel+israel-jordan-itinerary+dead-sea-israel-vs-jordan.
+5. israel-photography-guide.md — "Fotoguide Israel: Die besten Fotospots und Tipps" — 15 Locations: Masada Sonnenaufgang, Totes-Meer-Spiegel, Jaffa-Hafen+Bougainvillea-Gasse, Bahá'í-Terrassen Haifa, Caesarea-Aquädukt, Ölberg-Panorama, Makhtesh-Ramon-Krater, Kalaniot Süd-Negev (Darom Adom Jan–März; Pflücken verboten ₪730 Strafe), Roter Canyon Eilat; Schabat-Fotoethik (Westmauer); CAAF-Drohnengenehmigung; Objektiv-Salz-Warnung; CTAs GYG×2+Booking; 6 FAQs; cross-links /de/hiking-in-israel+golan-heights-guide+masada-visitor-guide+best-time-to-visit-israel.
+Gate: pnpm check 0 errors; build 1489 pages (+10 vs 1479 prev — 5 guides + index variants); pnpm test:e2e 2191/2191 pass (17.3m).
+Merge SHA: 3de65030. Pushed to origin/master.
+Prod: CI+Lighthouse in_progress at push time — next iteration confirms.
+DE locale count: 233→238/398.
