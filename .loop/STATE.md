@@ -1,15 +1,15 @@
 # LOOP STATE
 
-- iteration: 1005
+- iteration: 1006
 - lastMode: BUILD
-- lastItem: fr-30-specialty-guides
-- lastResult: SHIPPED c20c8c68 — FR-30: 5 FR specialty guides (israel-museum-jerusalem, gan-hashlosha-guide, israel-spring-wildflowers, israel-thermal-springs, israel-culinary-heritage-tourism). Gate: pnpm check 0 errors; build 1459 pages (+5); 2181/2181 e2e pass (18.3m). Vercel CI in_progress at push time.
-- nextRotationCategory: RESEARCH (iter1006; 1006%5=1 → BUILD; but 201st research pass is overdue — candidate: DE-28/FR-31 specialty batch gap scan + competitor check)
+- lastItem: de-28-specialty-guides
+- lastResult: SHIPPED 373e96ab — DE-28: 5 DE specialty guides (israel-museum-jerusalem, israel-thermal-springs, israel-spring-wildflowers, israel-culinary-heritage-tourism, israel-gluten-free-guide). Gate: pnpm check 0 errors; build 1464 pages (+5); 2191/2191 e2e pass (25.3m). Pushed master directly.
+- nextRotationCategory: BUILD (iter1007; 1007%5=2 → BUILD; candidate FR-31 specialty batch)
 - higgsfieldSpent: 0
-- updatedAt: 2026-08-05T02:10Z
+- updatedAt: 2026-08-05T03:45Z
 - branch context: work on master; feature work on auto/<slug>
 
-Notes: iter1005 BUILD — FR-30 specialty guides SHIPPED c20c8c68. 5 FR guides: israel-museum-jerusalem (Sanctuaire du Livre, maquette, archéologie, tiqets/GYG/Viator CTAs), gan-hashlosha-guide (Sachne 28°C, réservation parks.org.il, INPA pass valid, Beit She'an circuit), israel-spring-wildflowers (kalaniot Néguev + cyclamens Galilée + orchidées Golan, Darom Adom festival, inpa.gov.il bloom tracker), israel-thermal-springs (Hamat Gader ruines romaines + parc alligators + Tibériade + Ein Gedi wellness circuit), israel-culinary-heritage-tourism (70 diasporas — jachnun/kubbeh/couscous, Mahané Yehuda/Carmel/Levinsky marchés, cours cuisine). Metropolitan French; YAML double-quotes; /fr/* prefix confirmed existing pages only; no fabricated prices; honesty: National Parks Pass coverage noted correctly; kalanit picking fine ₪730 disclosed; sulphur odour noted at Hamat Gader. FR: 232→237/398. Build: 1454→1459 pages (+5). 2181/2181 e2e pass (18.3m). CI in_progress at push time.
+Notes: iter1006 BUILD — DE-28 specialty guides SHIPPED 373e96ab. 5 FR guides: israel-museum-jerusalem (Sanctuaire du Livre, maquette, archéologie, tiqets/GYG/Viator CTAs), gan-hashlosha-guide (Sachne 28°C, réservation parks.org.il, INPA pass valid, Beit She'an circuit), israel-spring-wildflowers (kalaniot Néguev + cyclamens Galilée + orchidées Golan, Darom Adom festival, inpa.gov.il bloom tracker), israel-thermal-springs (Hamat Gader ruines romaines + parc alligators + Tibériade + Ein Gedi wellness circuit), israel-culinary-heritage-tourism (70 diasporas — jachnun/kubbeh/couscous, Mahané Yehuda/Carmel/Levinsky marchés, cours cuisine). Metropolitan French; YAML double-quotes; /fr/* prefix confirmed existing pages only; no fabricated prices; honesty: National Parks Pass coverage noted correctly; kalanit picking fine ₪730 disclosed; sulphur odour noted at Hamat Gader. FR: 232→237/398. Build: 1454→1459 pages (+5). 2181/2181 e2e pass (18.3m). CI in_progress at push time.
 
 Notes: iter1004 REVIEW — FR-29 meta-trim SHIPPED 815f778c. Audited 5 FR-29 guides (israel-in-june/july/september/november/december). 1 title violation found and fixed: june title 61→54 (removed 'Météo, '). Other 4 guides within limits (july 58, september 59, november 54, december 52). All 5 descriptions ≤160 chars. Other checks: 0 broken /fr/* internal links; 5/5 hero images exist; no H1 in body of any guide; affiliates valid. Gate: 0 errors; 1454 pages unchanged; 2171/2171 e2e pass (17.9m). Pushed 815f778c.
 
