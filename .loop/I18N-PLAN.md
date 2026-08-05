@@ -6,21 +6,21 @@
 >
 > One bounded slice per loop iteration. NEVER bulk-translate in one shot.
 
-## Current status snapshot (2026-08-05 iter1013 BUILD — FR-32 SHIPPED 59c61b34; next BUILD iter1015 DE-30)
+## Current status snapshot (2026-08-05 iter1018 BUILD — DE-31 SHIPPED e5d673da; next REVIEW iter1019 audit DE-31)
 
 | Locale | Guides | Attractions | Regions | Itineraries |
 |--------|--------|-------------|---------|-------------|
 | en     | 398    | 65          | 11      | 6           |
-| fr     | 247    | 61          | 11      | 6           |
-| de     | 233    | 61          | 11      | 6           |
+| fr     | 252    | 61          | 11      | 6           |
+| de     | 243    | 61          | 11      | 6           |
 | es     | 230    | 61          | 11      | 6           |
 
 **🎉 MILESTONE: ES + FR + DE monthly guides ALL COMPLETE** (iter996+iter997 ES-41+ES-42 SHIPPED — all 12 per-month guides jan-dec now exist in ES, FR, and DE)
 
 **Gaps to close:**
-- es guides: **168 missing** (230/398 done — Phase ES-45 SHIPPED iter1012 f6e5b708; **next ES BUILD = ES-46 (next batch)**)
-- fr guides: **151 missing** (247/398 done — Phase FR-32 SHIPPED iter1013 59c61b34; **next FR BUILD = FR-33 (next practical+cultural cluster)**)
-- de guides: **165 missing** (233/398 done — Phase DE-29 SHIPPED iter1011 150dff42; **next DE BUILD = DE-30 (practical+cultural cluster: sea-of-galilee-boat-tour / yom-haatzmaut-guide / israel-vat-refund / israel-vs-jordan / israel-photography-guide)**)
+- es guides: **168 missing** (230/398 done — Phase ES-45 SHIPPED iter1012 f6e5b708; **next ES BUILD = ES-46 (food+street-food+tours cluster)**)
+- fr guides: **146 missing** (252/398 done — Phase FR-33 SHIPPED iter1017 9a6534d0; **next FR BUILD = FR-34 (next batch)**)
+- de guides: **155 missing** (243/398 done — Phase DE-31 SHIPPED iter1018 e5d673da; **next DE REVIEW = DE-31 meta/quality audit iter1019**)
 - fr/de/es attractions: **4 missing each** (the 4 EN attractions added after Phase 4)
 
 **Dead Sea cluster status (iter855 audit):**
