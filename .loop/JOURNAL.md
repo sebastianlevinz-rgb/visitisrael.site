@@ -15335,3 +15335,16 @@ Gate: pnpm check 0 errors; build 1479 pages (+5 from 1474); 2191/2191 e2e pass (
 Ship: squash-merged to master f6e5b708, pushed. Feature branch auto/es-45-practical-cultural-cluster deleted. PR #45 draft created.
 Prod: Vercel deployment triggered by push to master; CI build-and-test + lighthouse in_progress at ship time.
 ES: 225→230/398. Next: iter1013 = BUILD (1013%5=3) → FR-32 transport/comparison batch.
+
+## 2026-08-05T10:58Z · iter 1013 · BUILD (i18n-FR) · fr-32-practical-cultural-cluster
+What: 5 new FR guides — FR-32 practical + cultural cluster (all 5 confirmed MISSING from FR via filesystem check).
+  - sea-of-galilee-boat-tour: Kinneret Sailing Tibériade→Ein Gev (45–60 min), Bateau de Jésus réplique Nof Ginosar (cérémonie drapeau), Musée Yigal Alon (embarcation authentique 1er s. ap. J.-C.); CTAs GYG+Viator+Booking; 6 FAQs.
+  - yom-haatzmaut-guide: Yom HaZikaron 28 avr soir–29 avr 2027 + Yom Ha'atzmaut 29 avr soir–30 avr 2027; sirènes 20h/11h; fermeture BGA 25h; cérémonie transition Har Herzl; spectacle aérien TLV; CTAs Booking+GYG; 7 FAQs.
+  - israel-vat-refund: TVA 17%; remboursement net 5–11% après frais de gestion; seuil ₪400/facture/magasin; formulaire ZIV-1; guichet BGA Salle Départs T3; Eilat=zone sans TVA=pas de remboursement; tableau 3 tranches d'achat; CTAs GYG+Booking; 6 FAQs.
+  - israel-vs-jordan: tableau comparatif 10 critères; mer Morte des deux rives; combinaison Eilat–Aqaba (Wadi Araba) + Pont Allenby; esquisse itinéraire 10j; recommandation finale segmentée; CTAs GYG+Skyscanner+Booking; 5 FAQs.
+  - israel-photography-guide: 15 spots (Mont des Oliviers, Aqueduc Césarée, Masada, mer Morte, Makhtesh Ramon, terrasses bahá'íes, kalaniot Néguev); heure dorée; éthique sites religieux; permis drones CAAF; CTAs GYG×2+Booking; 6 FAQs.
+  Honesty: pas de prix exacts fabriqués (fourchettes ₪ uniquement), pas de ratings/avis, Esplanade des Mosquées/Mont du Temple nomenclature bilingue neutre, sans allégations thérapeutiques.
+Gate: pnpm check 0 errors; build 1484 pages (+5 de 1479); 2191/2191 e2e pass (16.9m exit code 0).
+Ship: committed to master 59c61b34, pushed. Feature branch auto/fr-32-practical-cultural-cluster deleted (had no commits, files written to working tree before stage/commit).
+Prod: Vercel deployment triggered by push to master; CI build-and-test in progress.
+FR: 242→247/398. Next: iter1014 = REVIEW (1014%5=4) → audit FR-32 guides; then iter1015 BUILD → DE-30 practical+cultural cluster.

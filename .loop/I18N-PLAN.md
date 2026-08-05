@@ -6,21 +6,21 @@
 >
 > One bounded slice per loop iteration. NEVER bulk-translate in one shot.
 
-## Current status snapshot (2026-08-04 iter1000 RESEARCH — iter999 REVIEW shipped bbb8ed17; next BUILD iter1001 ES-43)
+## Current status snapshot (2026-08-05 iter1013 BUILD — FR-32 SHIPPED 59c61b34; next BUILD iter1015 DE-30)
 
 | Locale | Guides | Attractions | Regions | Itineraries |
 |--------|--------|-------------|---------|-------------|
 | en     | 398    | 65          | 11      | 6           |
-| fr     | 232    | 61          | 11      | 6           |
-| de     | 223    | 61          | 11      | 6           |
-| es     | 215    | 61          | 11      | 6           |
+| fr     | 247    | 61          | 11      | 6           |
+| de     | 233    | 61          | 11      | 6           |
+| es     | 230    | 61          | 11      | 6           |
 
 **🎉 MILESTONE: ES + FR + DE monthly guides ALL COMPLETE** (iter996+iter997 ES-41+ES-42 SHIPPED — all 12 per-month guides jan-dec now exist in ES, FR, and DE)
 
 **Gaps to close:**
-- es guides: **183 missing** (215/398 done — Phase ES-42 SHIPPED iter997 2a63453d; **next ES BUILD = ES-43 (specialty/comparison: vs-greece/vs-turkey/museum/thermal-springs/wildflowers) then ES-44 (pilgrimage/holidays/practical)**)
-- fr guides: **161 missing** (237/398 done — Phase FR-30 SHIPPED iter1005 c20c8c68; **FR monthly coverage COMPLETE; next FR BUILD = FR-31 (holidays/practical: passover-in-israel / rosh-hashanah-in-israel / yom-kippur-in-israel / temple-mount-visitor-guide / masada-tours-compared) then FR-32 (transport/comparison batch)**)
-- de guides: **175 missing** (223/398 done — Phase DE-27 SHIPPED iter993 2df6130d; **DE monthly coverage COMPLETE; next DE BUILD = DE-28 (specialty: museum/thermal-springs/wildflowers/culinary-heritage/gluten-free) then DE-29 (holidays/practical/cycling)**)
+- es guides: **168 missing** (230/398 done — Phase ES-45 SHIPPED iter1012 f6e5b708; **next ES BUILD = ES-46 (next batch)**)
+- fr guides: **151 missing** (247/398 done — Phase FR-32 SHIPPED iter1013 59c61b34; **next FR BUILD = FR-33 (next practical+cultural cluster)**)
+- de guides: **165 missing** (233/398 done — Phase DE-29 SHIPPED iter1011 150dff42; **next DE BUILD = DE-30 (practical+cultural cluster: sea-of-galilee-boat-tour / yom-haatzmaut-guide / israel-vat-refund / israel-vs-jordan / israel-photography-guide)**)
 - fr/de/es attractions: **4 missing each** (the 4 EN attractions added after Phase 4)
 
 **Dead Sea cluster status (iter855 audit):**
