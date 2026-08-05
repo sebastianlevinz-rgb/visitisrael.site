@@ -1,6 +1,6 @@
 ---
-title: "Tour en bateau sur le Lac de Tibériade (Mer de Galilée) : Kinneret et Bateau de Jésus"
-description: "Réservez une croisière sur le Lac de Tibériade — la traversée Tibériade–Ein Gev, l'expérience du Bateau de Jésus au kibboutz Nof Ginosar et le Musée Yigal Alon avec l'embarcation authentique du Ier siècle."
+title: "Croisière Lac de Tibériade — Kinneret et Bateau de Jésus"
+description: "Croisière sur le Kinneret : traversée Tibériade–Ein Gev, Bateau de Jésus à Ginosar et Musée Yigal Alon. Horaires et conseils de réservation."
 heroImage: /images/regions/galilee/sea-of-galilee.jpg
 category: Experiences
 updatedAt: 2026-08-05

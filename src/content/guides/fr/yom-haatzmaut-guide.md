@@ -1,6 +1,6 @@
 ---
-title: "Yom HaZikaron et Yom Ha'atzmaut 2027 : guide pour les visiteurs"
-description: "Vivez le Jour du Souvenir et la Fête de l'Indépendance d'Israël 2027 — les sirènes, le silence sur les autoroutes, la cérémonie de transition au Mont Herzl, les feux d'artifice et les parcs envahis de barbecues."
+title: "Yom Ha'atzmaut 2027 — le Jour du Souvenir et l'Indépendance"
+description: "Yom HaZikaron 2027 : sirènes, silence sur les autoroutes et cérémonies. Yom Ha'atzmaut : cérémonie au Mont Herzl, feux d'artifice et spectacle aérien."
 heroImage: /images/regions/jerusalem/western-wall.jpg
 category: Planning
 updatedAt: 2026-08-05

@@ -1,6 +1,6 @@
 ---
-title: "Remboursement TVA Israël pour les touristes : récupérez jusqu'à 17% (2026)"
-description: "Guide pas à pas du remboursement de TVA en Israël — achats éligibles, formulaires en magasin, procédure à l'aéroport Ben Gourion et montant réellement récupéré après déduction des frais."
+title: "Remboursement TVA en Israël : guide pas à pas 2026"
+description: "Guide TVA Israël : qui peut récupérer, montant réel (5–11%), formulaires en magasin et procédure à l'aéroport Ben Gourion."
 heroImage: /images/regions/tel-aviv/carmel-market.jpg
 category: Planning
 updatedAt: 2026-08-05

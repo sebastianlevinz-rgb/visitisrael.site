@@ -1,6 +1,6 @@
 ---
-title: "Israël ou Jordanie : guide comparatif pour bien choisir (2026)"
-description: "Israël ou Jordanie ? Comparez histoire, Petra, mer Morte, coûts, visas, sécurité et plages pour choisir la destination du Proche-Orient qui correspond le mieux à votre voyage."
+title: "Israël ou Jordanie : guide comparatif 2026"
+description: "Israël ou Jordanie ? Comparez Petra, mer Morte, coûts, visas et sécurité pour choisir la meilleure destination au Proche-Orient."
 heroImage: /images/regions/jerusalem/hero.jpg
 category: Compare
 updatedAt: 2026-08-05

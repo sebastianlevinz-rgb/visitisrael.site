@@ -1,6 +1,6 @@
 ---
-title: "Guide photo Israël : les meilleurs spots à photographier (2026)"
-description: "Aqueduc de Césarée au lever du soleil, Masada à l'aube, port de Jaffa au crépuscule, terrasses bahá'íes et cratère de Mitzpe Ramon — les meilleurs spots photo d'Israël avec conseils d'horaire et de logistique."
+title: "Guide photo Israël — meilleurs spots et conseils 2026"
+description: "Aqueduc de Césarée, Masada à l'aube, Jaffa au crépuscule et terrasses bahá'íes — les meilleurs spots photo d'Israël avec conseils d'horaire."
 heroImage: /images/regions/caesarea/aqueduct.jpg
 category: Planning
 updatedAt: 2026-08-05
