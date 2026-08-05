@@ -1,6 +1,6 @@
 ---
 title: "Musées de Jérusalem : les 7 incontournables en 2026"
-description: "Les meilleurs musées de Jérusalem — Musée d'Israël, Yad Vashem, Bible Lands Museum, Tour de David, Rockefeller et Musée de la Tolérance. Billets, horaires et conseils pratiques."
+description: "Musées de Jérusalem — Israël, Yad Vashem, Bible Lands Museum, Tour de David, Rockefeller, Tolérance. Billets et horaires."
 heroImage: /images/sub-destinations/jerusalem/israel-museum.jpg
 category: Destinations
 updatedAt: 2026-08-05

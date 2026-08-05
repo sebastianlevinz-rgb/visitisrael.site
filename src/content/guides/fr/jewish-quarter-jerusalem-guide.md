@@ -1,5 +1,5 @@
 ---
-title: "Quartier juif de Jérusalem : guide archéologique complet du visiteur 2026"
+title: "Quartier juif de Jérusalem : guide archéologique 2026"
 description: "Quartier juif de Jérusalem : Musée Wohl, Maison brûlée, Synagogue Hurva, Cardo, Grand Mur — guide complet avec horaires, tarifs et conseils pratiques."
 heroImage: /images/regions/jerusalem/hero.jpg
 category: History

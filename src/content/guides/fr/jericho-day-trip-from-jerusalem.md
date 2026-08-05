@@ -1,6 +1,6 @@
 ---
-title: "Excursion à Jéricho depuis Jérusalem : guide complet du visiteur 2026"
-description: "Excursion à Jéricho depuis Jérusalem : Tell es-Sultan, mosaïques du Palais de Hicham, téléphérique — logistique Zone A, options de transport et conseils de visite."
+title: "Excursion à Jéricho depuis Jérusalem (2026)"
+description: "Jéricho depuis Jérusalem : Tell es-Sultan, Palais de Hicham, téléphérique — Zone A, transport et conseils."
 heroImage: /images/regions/dead-sea/hero.jpg
 category: Destinations
 verdictName: "une excursion guidée à Jéricho depuis Jérusalem"

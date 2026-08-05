@@ -1,6 +1,6 @@
 ---
 title: "Coût d'un voyage en Israël selon le style de voyage (2026)"
-description: "Combien coûte Israël par jour ? Budgets pour les voyageurs petit budget, milieu de gamme et luxe — tableaux de dépenses quotidiennes, sélection d'hébergements et totaux hebdomadaires réalistes."
+description: "Combien coûte un voyage en Israël ? Budgets petit budget, milieu de gamme et luxe — dépenses quotidiennes, hébergements et totaux hebdomadaires."
 heroImage: /images/regions/jerusalem/hero.jpg
 category: Planning
 updatedAt: 2026-08-05

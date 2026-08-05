@@ -1,6 +1,6 @@
 ---
 title: "Escale à Tel Aviv : que faire en 4, 6, 8 ou 24 heures"
-description: "Profiter d'une escale à Tel Aviv depuis l'aéroport Ben Gourion — du déjeuner au port de Jaffa jusqu'à une journée de plage complète, selon des créneaux de 4h, 6h, 8-10h et 24h."
+description: "Escale à Tel Aviv depuis Ben Gourion — Jaffa, plage ou ville complète selon votre créneau : 4h, 6h, 8–10h ou 24h."
 heroImage: /images/regions/tel-aviv/hero.jpg
 category: Transport
 updatedAt: 2026-08-05
