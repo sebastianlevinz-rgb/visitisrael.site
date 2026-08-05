@@ -1,5 +1,5 @@
 ---
-title: "Israël en Juin : Météo, Pride Tel Aviv & Festival de Lumières"
+title: "Israël en Juin : Pride Tel Aviv & Festival de Lumières"
 description: "Israël en juin : Tel Aviv Pride, Nuit Blanche, Festival de Lumières de Jérusalem, mer à 26–28°C. Le mois le plus festif de l'année."
 heroImage: /images/regions/tel-aviv/beaches.jpg
 category: Planification
