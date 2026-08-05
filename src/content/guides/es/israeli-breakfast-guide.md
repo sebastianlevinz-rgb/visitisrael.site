@@ -1,6 +1,6 @@
 ---
-title: "Desayuno israelí: shakshuka, labneh y la tradición del aruchat boker"
-description: "Qué es el desayuno israelí: shakshuka, labneh y la tradición del aruchat boker — desde los orígenes en el kibbutz hasta los cafés de Tel Aviv y los bufés de hotel."
+title: "Desayuno israelí: shakshuka, labneh y aruchat boker"
+description: "Desayuno israelí: shakshuka, labneh y aruchat boker — desde el kibbutz hasta los cafés de Tel Aviv y los bufés de hotel."
 heroImage: /images/regions/jerusalem/mahane-yehuda.jpg
 category: "Food"
 updatedAt: 2026-08-05
