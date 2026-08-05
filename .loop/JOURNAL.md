@@ -15482,3 +15482,37 @@ Outcome: GATE_PENDING — stop-hook fired; content committed to feature branch +
 Gate completed: 2201/2201 e2e pass (25.7m exit code 0). GREEN.
 Merge SHA: a5131e30. Squash-committed to master and pushed. Feature branch deleted.
 Prod: CI in_progress at push time.
+
+## 2026-08-05T22:00Z · iter1025 · RESEARCH (203rd pass) · DE-32 cross-link verify + ES-47/FR-35 batch definitions
+Mode: RESEARCH (1025%5=0). No code changed; gate not run.
+Sources: filesystem gap analysis (comm -23 EN=398 vs FR=257/398 [141 missing], DE=243/398 [155 missing], ES=235/398 [163 missing]), cross-link pre-verification via file existence checks on disk.
+
+Key findings:
+1. DE-32 batch CROSS-LINK VERIFICATION COMPLETE — all 5 guides cleared:
+   - jerusalem-museums: /de/israel-museum-jerusalem ✓, /de/western-wall-guide ✓, /de/western-wall-tunnels-guide ✓, /de/jerusalem-old-city-walking-tour ✓, /de/anu-museum-guide ✓
+   - jericho-day-trip-from-jerusalem: /de/day-trips-from-jerusalem ✓, /de/dead-sea-guide ✓, /de/bethlehem-travel-guide ✓ (NOTE: /de/west-bank-travel-guide MISSING → substitute /de/day-trips-from-jerusalem + /de/bethlehem-travel-guide)
+   - layover-tel-aviv: /de/ben-gurion-airport-guide ✓, /de/ben-gurion-airport-transfers ✓, /de/tel-aviv-things-to-do ✓, /de/1-day-tel-aviv-itinerary ✓
+   - jewish-quarter-jerusalem-guide: /de/1-day-jerusalem-itinerary ✓, /de/western-wall-guide ✓, /de/city-of-david-jerusalem ✓, /de/day-trips-from-jerusalem ✓
+   - kibbutz-hotels-israel: /de/israel-accommodation-guide ✓, /de/3-days-in-galilee ✓, /de/best-hotels-sea-of-galilee ✓, /de/dead-sea-guide ✓, /de/best-time-to-visit-israel ✓
+   DE-32 CONFIRMED READY. Next DE BUILD (iter1026) = DE-32.
+
+2. ES-47 BATCH DEFINED — 5 guides all CONFIRMED MISSING from ES (comm -23 verified):
+   - israel-trip-cost-by-style (monetization, mirrors FR-34 iteration; cross-links: /es/best-time-to-visit-israel ✓, /es/israel-accommodation-guide ✓; note: /es/budget-travel-israel MISSING → use /es/israel-accommodation-guide)
+   - jericho-day-trip-from-jerusalem (tour conversion; /es/day-trips-from-jerusalem ✓, /es/dead-sea-guide ✓, /es/bethlehem-travel-guide ✓; note: /es/west-bank-travel-guide MISSING → substitute /es/day-trips-from-jerusalem)
+   - jerusalem-museums (heritage; all 4 cross-links ✓: israel-museum-jerusalem/western-wall-guide/anu-museum-guide/jerusalem-old-city-walking-tour)
+   - jewish-quarter-jerusalem-guide (pilgrimage; all 4 ✓: 1-day-jerusalem-itinerary/western-wall-guide/city-of-david-jerusalem/day-trips-from-jerusalem)
+   - layover-tel-aviv (transit; /es/ben-gurion-airport-guide ✓, /es/ben-gurion-airport-transfers ✓, /es/1-day-tel-aviv-itinerary ✓; note: /es/tel-aviv-things-to-do MISSING → use /es/1-day-tel-aviv-itinerary)
+   ES-47: ES 235→240/398. Added to BACKLOG.
+
+3. FR-35 BATCH DEFINED — 5 guides all CONFIRMED MISSING from FR (comm -23 verified):
+   - layover-jerusalem (practical transit companion to FR-34's layover-tel-aviv; all 4 cross-links ✓)
+   - museum-of-tolerance-jerusalem (heritage; pairs with FR-34's jerusalem-museums; all 4 ✓ including /fr/jerusalem-museums)
+   - israel-small-group-tours (high monetization TourRadar/Viator; all 4 ✓)
+   - israel-mediterranean-cruise-guide (seasonal cruise market; all 4 ✓)
+   - israel-photography-tours (niche commercial; /fr/israel-photography-guide ✓ + 3 others ✓)
+   FR-35: FR 257→262/398. Added to BACKLOG.
+
+4. israel-in-august.md — 5TH CONSECUTIVE CONFIRMATION MISSING from EN (and all locales). Status: P2/ready in backlog. Next seo-content BUILD slot should prioritize it.
+
+Locale snapshot: EN=398 | FR=257/398 (141 missing) | DE=243/398 (155 missing) | ES=235/398 (163 missing).
+Next: iter1026 = BUILD (1026%5=1) → DE-32 batch (jerusalem-museums + jericho-day-trip-from-jerusalem + layover-tel-aviv + jewish-quarter-jerusalem-guide + kibbutz-hotels-israel). All cross-links pre-verified.

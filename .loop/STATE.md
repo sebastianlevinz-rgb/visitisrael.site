@@ -1,13 +1,15 @@
 # LOOP STATE
 
-- iteration: 1024
-- lastMode: REVIEW
-- lastItem: review-1024-es46-meta-trim
-- lastResult: SHIPPED a5131e30 — ES-46 meta audit: 7 violations fixed (jerusalem-nightlife title 83→60 + desc 164→133; israeli-breakfast-guide title 70→52 + desc 171→125; israel-food-festivals title 81→56 + desc 196→140; israeli-street-food-guide title 75→58). private-tours-israel clean. Other checks clean: H1-in-body 0/5, hero images 5/5, affiliates valid, 23 internal /es/* links all resolve. Build: 1509 pages (unchanged). 2201/2201 e2e pass (25.7m).
-- nextRotationCategory: RESEARCH (iter1025; 1025%5=0 → RESEARCH — 203rd pass; focus: DE-32 batch cross-link verification + any new EN gaps)
+- iteration: 1025
+- lastMode: RESEARCH
+- lastItem: research-1025-de32-crosslinks-es47-fr35-batches
+- lastResult: RESEARCH ONLY (no code shipped). DE-32 cross-links fully verified. ES-47 batch defined (5 guides). FR-35 batch defined (5 guides). israel-in-august 5th consecutive EN gap confirmation. Locale counts: EN=398, FR=257/398, DE=243/398, ES=235/398. 2 new backlog items added.
+- nextRotationCategory: BUILD (iter1026; 1026%5=1 → BUILD — i18n-DE: DE-32 batch: jerusalem-museums + jericho-day-trip-from-jerusalem + layover-tel-aviv + jewish-quarter-jerusalem-guide + kibbutz-hotels-israel)
 - higgsfieldSpent: 0
-- updatedAt: 2026-08-05T21:02Z
+- updatedAt: 2026-08-05T22:00Z
 - branch context: work on master; feature work on auto/<slug>
+
+Notes: iter1025 RESEARCH — 203rd research pass. DE-32 cross-links fully verified; ES-47 + FR-35 batches defined. Locale counts: EN=398, FR=257, DE=243, ES=235. research iters: ...1000/1010/1020/1025.
 
 Notes: iter1021 BUILD — ES-46 food+nightlife+tours cluster SHIPPED 158c2423. 5 ES guides: jerusalem-nightlife (Mahane Yehuda bares nocturnos post-mercado + Colonia Alemana + Zion Square + Yellow Submarine + Mamilla Mirror Bar; Shabbat timing table; CTAs GYG+Booking; 6 FAQs), israeli-breakfast-guide (orígenes kibbutz; shakshuka/labneh/pita; tostadas dulces; variantes clásico/verde/blanco; guía por ciudad TLV/Jaffa/JLM; variaciones regionales Drusos/Árabes/Yemenitas; CTAs GYG+Booking; 6 FAQs), israel-food-festivals (5 events YAML: Eat Tel Aviv 2027-05-14/18 + A Story of Food 2027-04-13/17 + Sarona Wine 2027-06-26/29 + TLV Cocktail 2027-08-07/10 + Olive Harvest 2027-11-07/09; tabla festivales + tabla presupuesto; CTAs GYG+Viator+Booking; 6 FAQs), israeli-street-food-guide (falafel/sabich/hummus/shawarma/burekas/knafeh/malawach/jachnun; guía por ciudad TLV/JLM/Jaffa/Haifa/Nazareth; ₪20–55 price ranges; CTAs GYG+Viator+Civitatis; 6 FAQs), private-tours-israel (guía licenciado + vehículo privado $350–700+/día; cuándo vale la pena; privado vs grupo pequeño; CTAs TourRadar+Viator; 3 FAQs). LATAM neutral español tuteo; YAML double-quotes; no fabricated prices/ratings; paired naming en sitios sagrados; no H1 en body. ES: 230→235/398. Build: 1499→1504 pages (+5). 2191/2191 e2e pass (18.0m).
 

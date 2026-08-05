@@ -6,7 +6,7 @@
 >
 > One bounded slice per loop iteration. NEVER bulk-translate in one shot.
 
-## Current status snapshot (2026-08-05 iter1023 REVIEW — FR-34 meta-trim SHIPPED ffd0b346; next REVIEW iter1024 audit ES-46 batch)
+## Current status snapshot (2026-08-05 iter1025 RESEARCH — DE-32 cross-links verified; ES-47 + FR-35 batches defined)
 
 | Locale | Guides | Attractions | Regions | Itineraries |
 |--------|--------|-------------|---------|-------------|
@@ -18,9 +18,9 @@
 **🎉 MILESTONE: ES + FR + DE monthly guides ALL COMPLETE** (iter996+iter997 ES-41+ES-42 SHIPPED — all 12 per-month guides jan-dec now exist in ES, FR, and DE)
 
 **Gaps to close:**
-- es guides: **163 missing** (235/398 done — Phase ES-46 SHIPPED iter1021 158c2423; **next ES BUILD = ES-47 (next batch)**)
-- fr guides: **141 missing** (257/398 done — Phase FR-34 SHIPPED iter1022 5bf30b27; **next FR REVIEW = FR-34 meta/quality audit iter1023**)
-- de guides: **155 missing** (243/398 done — Phase DE-31 SHIPPED iter1018 e5d673da; **next DE BUILD = DE-32 (next batch)**)
+- es guides: **163 missing** (235/398 done — Phase ES-46 SHIPPED iter1021 158c2423; meta audit SHIPPED iter1024 a5131e30; **next ES BUILD = ES-47** — israel-trip-cost-by-style + jericho-day-trip-from-jerusalem + jerusalem-museums + jewish-quarter-jerusalem-guide + layover-tel-aviv; all cross-links pre-verified iter1025)
+- fr guides: **141 missing** (257/398 done — Phase FR-34 SHIPPED iter1022 5bf30b27; meta audit SHIPPED iter1023 ffd0b346; **next FR BUILD = FR-35** — layover-jerusalem + museum-of-tolerance-jerusalem + israel-small-group-tours + israel-mediterranean-cruise-guide + israel-photography-tours; all cross-links pre-verified iter1025)
+- de guides: **155 missing** (243/398 done — Phase DE-31 SHIPPED iter1018 e5d673da; meta audit SHIPPED iter1019 cacbfa7b; **next DE BUILD = DE-32** — jerusalem-museums + jericho-day-trip-from-jerusalem + layover-tel-aviv + jewish-quarter-jerusalem-guide + kibbutz-hotels-israel; ALL cross-links VERIFIED iter1025; READY TO SHIP iter1026)
 - fr/de/es attractions: **4 missing each** (the 4 EN attractions added after Phase 4)
 
 **Dead Sea cluster status (iter855 audit):**
