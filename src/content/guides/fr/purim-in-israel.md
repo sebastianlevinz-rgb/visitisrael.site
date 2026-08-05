@@ -1,6 +1,6 @@
 ---
-title: "Pourim en Israël 2027 : fête à Tel Aviv et Adloyada à Jérusalem"
-description: "Pourim en Israël 2027 (22-23 mars) — Place Dizengoff en costumes, parade Adloyada à Jérusalem, lecture de la Méguila ouverte à tous. Guide pratique pour les visiteurs."
+title: "Pourim en Israël 2027 : Tel Aviv et Jérusalem"
+description: "Pourim en Israël 2027 (22-23 mars) — Place Dizengoff en costumes, parade Adloyada à Jérusalem, lecture de la Méguila ouverte à tous. Guide pratique."
 heroImage: /images/regions/tel-aviv/hero.jpg
 category: Planification
 updatedAt: 2026-08-05

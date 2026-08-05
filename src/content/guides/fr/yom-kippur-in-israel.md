@@ -1,6 +1,6 @@
 ---
-title: "Yom Kippour en Israël 2026 : guide pratique pour les visiteurs"
-description: "Yom Kippour en Israël 2026 (20-21 sept.) — autoroutes vides transformées en pistes cyclables, Kol Nidre au Mur Occidental, fermeture de l'aéroport Ben Gourion. Tout ce qu'il faut savoir."
+title: "Yom Kippour en Israël 2026 : guide pratique"
+description: "Yom Kippour en Israël 2026 (20-21 sept.) — autoroutes vides, pistes cyclables, Kol Nidre au Mur Occidental, Ben Gourion fermé 25h. Guide pratique."
 heroImage: /images/regions/jerusalem/western-wall.jpg
 category: Planification
 updatedAt: 2026-08-05

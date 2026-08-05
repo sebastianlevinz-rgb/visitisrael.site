@@ -1,6 +1,6 @@
 ---
-title: "Mont du Temple / Haram al-Sharif : guide pour visiteurs non musulmans 2026"
-description: "Mont du Temple / Haram al-Sharif pour touristes : accès uniquement par la Porte des Maures, plaza extérieure seulement, aucun intérieur de mosquée. Horaires, code vestimentaire et conseils pratiques."
+title: "Mont du Temple / Haram al-Sharif : guide 2026"
+description: "Mont du Temple / Haram al-Sharif : accès par la Porte des Maures (non-musulmans), plaza uniquement. Horaires, tenue et conseils pratiques."
 heroImage: /images/regions/jerusalem/old-city.jpg
 category: Sites sacrés
 updatedAt: 2026-08-05

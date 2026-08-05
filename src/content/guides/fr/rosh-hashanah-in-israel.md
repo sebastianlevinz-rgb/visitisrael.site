@@ -1,6 +1,6 @@
 ---
-title: "Rosh Hashana en Israël 2026 : guide du voyageur (Nouvel An Juif)"
-description: "Rosh Hashana en Israël 2026 (10-12 sept.) — Musaf au Mur Occidental, Tachlich sur le Yarkon, challot rondes au miel. Réservez votre hébergement 6 à 12 mois à l'avance."
+title: "Rosh Hashana en Israël 2026 : Nouvel An Juif"
+description: "Rosh Hashana en Israël 2026 (10-12 sept.) — Musaf au Mur Occidental, Tachlich sur le Yarkon, challot rondes au miel. Réservez 6 à 12 mois à l'avance."
 heroImage: /images/regions/jerusalem/western-wall.jpg
 category: Planification
 updatedAt: 2026-08-05

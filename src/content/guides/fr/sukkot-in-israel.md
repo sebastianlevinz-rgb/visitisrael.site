@@ -1,6 +1,6 @@
 ---
-title: "Souccot en Israël 2026 : guide complet de la Fête des Cabanes"
-description: "Souccot en Israël 2026 (25 sept.–2 oct.) : Birkat Kohanim au Mur Occidental, Hol HaMoed, succahs en ville et migration des grues en Galilée. Réservez 2 à 3 mois à l'avance."
+title: "Souccot en Israël 2026 : Fête des Cabanes"
+description: "Souccot en Israël 2026 (25 sept.–2 oct.) : Birkat Kohanim au Mur, Hol HaMoed et migration des grues en Galilée. Réservez 2 à 3 mois à l'avance."
 heroImage: /images/regions/jerusalem/western-wall.jpg
 category: Planification
 updatedAt: 2026-08-05
