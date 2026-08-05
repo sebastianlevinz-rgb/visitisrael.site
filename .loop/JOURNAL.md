@@ -15516,3 +15516,26 @@ Key findings:
 
 Locale snapshot: EN=398 | FR=257/398 (141 missing) | DE=243/398 (155 missing) | ES=235/398 (163 missing).
 Next: iter1026 = BUILD (1026%5=1) → DE-32 batch (jerusalem-museums + jericho-day-trip-from-jerusalem + layover-tel-aviv + jewish-quarter-jerusalem-guide + kibbutz-hotels-israel). All cross-links pre-verified.
+
+## 2026-08-05T22:30Z · iter1025 (addendum) · Research agent findings — 3 new EN gaps + phantom-ship audit
+Research agent completed. Verified all 7 discovered gaps:
+
+PHANTOM-SHIPPED ITEMS (backlog says "SHIPPED iter968 b187c024" but files DO NOT EXIST on disk):
+- israel-dark-tourism.md — MISSING from src/content/guides/ (detailed backlog entry exists at ~L1026)
+- israel-multigenerational-travel.md — MISSING (detailed backlog entry exists at ~L892)
+- christian-pilgrim-guesthouses-israel.md — MISSING (detailed backlog entry exists at ~L1468)
+- extended-stay-israel.md — MISSING (detailed backlog entry exists at ~L576)
+These are all high-quality entries already in BACKLOG — they need BUILD iterations, not re-research. The iter968 bulk "SHIPPED" marking was inaccurate for these items (similar to israel-in-august pattern found iter990).
+
+GENUINELY NEW items not previously in BACKLOG (added below):
+1. israel-with-babies-toddlers.md (S, seo-content) — zero hits in BACKLOG; competitor coverage on planitisrael.com, forward.com, jessejoyner.com
+2. israel-ev-road-trip.md (S, seo-content) — first-mover; Israel EV charging infra growing 16.5% CAGR; zero competitor travel guide exists
+3. israel-trip-planner.md (L, seo-content+monetization) — "Israel trip planner" captured by tools (WanderLog, RoutePerfect) not editorial; opportunity for specialist depth guide + internal hub
+
+Items agent found but already in BACKLOG:
+- israel-dark-tourism (phantom, see above)
+- israel-multigenerational-travel (phantom, see above)
+- christian-pilgrim-guesthouses-israel (phantom, see above)
+- israel-volunteer-travel → duplicate of extended-stay-israel phantom entry
+
+Agent note: confirmed israel-business-travel-guide, israel-campervan, israel-craft-beer, israel-fine-dining, israel-affordable-luxury, israel-trip-cost-by-style ALL EXIST in src/content/guides/ (EN). These are i18n translation targets for ES only, not missing EN content.
