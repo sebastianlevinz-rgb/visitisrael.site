@@ -15348,3 +15348,9 @@ Gate: pnpm check 0 errors; build 1484 pages (+5 de 1479); 2191/2191 e2e pass (16
 Ship: committed to master 59c61b34, pushed. Feature branch auto/fr-32-practical-cultural-cluster deleted (had no commits, files written to working tree before stage/commit).
 Prod: Vercel deployment triggered by push to master; CI build-and-test in progress.
 FR: 242→247/398. Next: iter1014 = REVIEW (1014%5=4) → audit FR-32 guides; then iter1015 BUILD → DE-30 practical+cultural cluster.
+
+## 2026-08-05T11:45Z · iter1014 · REVIEW · fr-32-meta-trim
+What: Audited all 5 FR-32 guides (sea-of-galilee-boat-tour, yom-haatzmaut-guide, israel-vat-refund, israel-vs-jordan, israel-photography-guide). Found 10 meta violations (all 5 titles 62–85 chars → fixed to 42–59; all 5 descs 175–211 chars → fixed to 122–150). Other checks CLEAN: 0 /fr/* internal cross-links in bodies; all 5 hero images confirmed on disk; no H1 in any body; affiliates valid (booking/getyourguide/viator/skyscanner); no fabricated prices/ratings.
+Gate: pnpm check 0 errors; build 1484 pages (unchanged); 2191/2191 e2e pass (17.1m exit code 0).
+Ship: squash-merged to master a447f1f4, pushed. Branch auto/fr-32-meta-trim deleted.
+Prod: Vercel CI in_progress at push time.
