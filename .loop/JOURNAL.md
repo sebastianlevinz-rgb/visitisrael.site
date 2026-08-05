@@ -15479,3 +15479,6 @@ Fixes applied (all in branch auto/review-1024-es46-meta-trim SHA bafa3061):
 Other checks CLEAN: H1-in-body 0/5; hero images 5/5 exist; 23 internal /es/* links all resolve; affiliates valid (getyourguide/booking/viator/civitatis/tourradar); no fabricated prices/ratings.
 Gate: pnpm check ✓ 0 errors; pnpm build ✓ 1509 pages (unchanged); pnpm test:e2e IN PROGRESS at stop-hook commit time (tests launched 20:36 UTC, ~15 min elapsed, expected 18–31 min total).
 Outcome: GATE_PENDING — stop-hook fired; content committed to feature branch + pushed; .loop/ state updated on master. §1a recovery: next run finds auto/review-1024-es46-meta-trim, re-runs gate, squash-merges to master if green.
+Gate completed: 2201/2201 e2e pass (25.7m exit code 0). GREEN.
+Merge SHA: a5131e30. Squash-committed to master and pushed. Feature branch deleted.
+Prod: CI in_progress at push time.

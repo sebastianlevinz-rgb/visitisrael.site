@@ -3,10 +3,10 @@
 - iteration: 1024
 - lastMode: REVIEW
 - lastItem: review-1024-es46-meta-trim
-- lastResult: GATE_PENDING — branch auto/review-1024-es46-meta-trim pushed (SHA bafa3061); pnpm check ✓ 0 errors; pnpm build ✓ 1509 pages unchanged; pnpm test:e2e running at stop-hook time (tests started 20:36 UTC). §1a: next run should find the branch, re-run gate, squash-merge to master if green.
+- lastResult: SHIPPED a5131e30 — ES-46 meta audit: 7 violations fixed (jerusalem-nightlife title 83→60 + desc 164→133; israeli-breakfast-guide title 70→52 + desc 171→125; israel-food-festivals title 81→56 + desc 196→140; israeli-street-food-guide title 75→58). private-tours-israel clean. Other checks clean: H1-in-body 0/5, hero images 5/5, affiliates valid, 23 internal /es/* links all resolve. Build: 1509 pages (unchanged). 2201/2201 e2e pass (25.7m).
 - nextRotationCategory: RESEARCH (iter1025; 1025%5=0 → RESEARCH — 203rd pass; focus: DE-32 batch cross-link verification + any new EN gaps)
 - higgsfieldSpent: 0
-- updatedAt: 2026-08-05T20:52Z
+- updatedAt: 2026-08-05T21:02Z
 - branch context: work on master; feature work on auto/<slug>
 
 Notes: iter1021 BUILD — ES-46 food+nightlife+tours cluster SHIPPED 158c2423. 5 ES guides: jerusalem-nightlife (Mahane Yehuda bares nocturnos post-mercado + Colonia Alemana + Zion Square + Yellow Submarine + Mamilla Mirror Bar; Shabbat timing table; CTAs GYG+Booking; 6 FAQs), israeli-breakfast-guide (orígenes kibbutz; shakshuka/labneh/pita; tostadas dulces; variantes clásico/verde/blanco; guía por ciudad TLV/Jaffa/JLM; variaciones regionales Drusos/Árabes/Yemenitas; CTAs GYG+Booking; 6 FAQs), israel-food-festivals (5 events YAML: Eat Tel Aviv 2027-05-14/18 + A Story of Food 2027-04-13/17 + Sarona Wine 2027-06-26/29 + TLV Cocktail 2027-08-07/10 + Olive Harvest 2027-11-07/09; tabla festivales + tabla presupuesto; CTAs GYG+Viator+Booking; 6 FAQs), israeli-street-food-guide (falafel/sabich/hummus/shawarma/burekas/knafeh/malawach/jachnun; guía por ciudad TLV/JLM/Jaffa/Haifa/Nazareth; ₪20–55 price ranges; CTAs GYG+Viator+Civitatis; 6 FAQs), private-tours-israel (guía licenciado + vehículo privado $350–700+/día; cuándo vale la pena; privado vs grupo pequeño; CTAs TourRadar+Viator; 3 FAQs). LATAM neutral español tuteo; YAML double-quotes; no fabricated prices/ratings; paired naming en sitios sagrados; no H1 en body. ES: 230→235/398. Build: 1499→1504 pages (+5). 2191/2191 e2e pass (18.0m).
