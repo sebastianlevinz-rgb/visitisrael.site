@@ -1,6 +1,6 @@
 ---
-title: "Festivales gastronómicos en Israel 2027: Eat Tel Aviv, vino y eventos culinarios"
-description: "Guía de festivales gastronómicos en Israel: Eat Tel Aviv, A Story of Food, Festival de Vino de Sarona, cosecha de aceite de oliva, Festival de Cócteles de Tel Aviv. Fechas, entradas y consejos."
+title: "Festivales gastronómicos en Israel 2027: guía completa"
+description: "Eat Tel Aviv, A Story of Food, Festival de Vino de Sarona y cosecha de aceite de oliva. Fechas 2027, entradas y consejos para cada festival."
 heroImage: /images/regions/tel-aviv/carmel-market.jpg
 category: "Food"
 updatedAt: 2026-08-05

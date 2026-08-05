@@ -1,5 +1,5 @@
 ---
-title: "Comida callejera israelí: falafel, hummus, sabich y dónde comerlos (2026)"
+title: "Comida callejera israelí: falafel, sabich y hummus (2026)"
 description: "Dónde encontrar el mejor falafel, sabich, hummus y shawarma de Israel — guía ciudad a ciudad de los mejores puestos de comida callejera, mercados y locales."
 heroImage: /images/regions/tel-aviv/carmel-market.jpg
 category: "Food"

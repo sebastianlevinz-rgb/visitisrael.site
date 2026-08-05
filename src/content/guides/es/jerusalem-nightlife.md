@@ -1,6 +1,6 @@
 ---
-title: "Vida nocturna de Jerusalén: bares, música y guía de actividades nocturnas (2026)"
-description: "Guía de vida nocturna en Jerusalén: Mahane Yehuda de noche, bares de vino en la Colonia Alemana, sala Yellow Submarine, Mamilla Mirror Bar y horarios del Shabbat."
+title: "Vida nocturna en Jerusalén: bares, música y Shabbat (2026)"
+description: "Vida nocturna en Jerusalén: Mahane Yehuda de noche, bares de vino, sala Yellow Submarine, Mamilla Mirror Bar y horarios del Shabbat."
 heroImage: /images/sub-destinations/jerusalem/mahane-yehuda.jpg
 category: "Nightlife"
 updatedAt: 2026-08-05
