@@ -1,13 +1,17 @@
 # LOOP STATE
 
-- iteration: 1009
-- lastMode: REVIEW
-- lastItem: fr-31-meta-trim
-- lastResult: SHIPPED ae0066be — 10 meta fixes (5 titles 65–74→41–45 chars; 5 descs 174–203→138–149 chars) across all 5 FR-31 guides. Other checks CLEAN: 20/20 /fr/* cross-links resolve; 3 hero images exist; no H1 in body; affiliates valid. Gate: pnpm check 0 errors; build 1469 pages (unchanged); pnpm test:e2e 2191/2191 pass (16.8m). CI in_progress at push time.
-- nextRotationCategory: RESEARCH (iter1010; 1010%5=0 → RESEARCH)
+- iteration: 1010
+- lastMode: RESEARCH
+- lastItem: research-200th-pass-fr32-es45-de30
+- lastResult: RESEARCH COMPLETE — 4 new backlog items: FR-32 (sea-of-galilee-boat-tour/yom-haatzmaut/israel-vat-refund/israel-vs-jordan/israel-photography-guide); ES-45 (same 5 in LATAM Spanish); DE-30 (same 5 in Hochdeutsch); israel-in-august (P2 EN gap confirmed — file never existed despite iter968 "SHIPPED" claim). All cross-links pre-verified; all items genuinely novel.
+- nextRotationCategory: BUILD (iter1011; 1011%5=1)
 - higgsfieldSpent: 0
-- updatedAt: 2026-08-05T06:02Z
+- updatedAt: 2026-08-05T08:30Z
 - branch context: work on master; feature work on auto/<slug>
+
+Notes: iter1010 RESEARCH — 200th research pass. FR=242/398, ES=225/398, DE=228/398. Confirmed FR-32/ES-45/DE-30 batches (practical+cultural cluster: sea-of-galilee-boat-tour, yom-haatzmaut-guide, israel-vat-refund, israel-vs-jordan, israel-photography-guide). All 5 = 100% uncontested in FR/DE/ES. israel-in-august: CONFIRMED PERSISTENT GAP — EN file does not exist on disk despite backlog "SHIPPED iter968" (that commit was ES-36). August = peak European school holiday month; zero editorial competition in any locale. Tourism recovery: North American visitors +73% YoY June 2026; American Airlines JFK nonstop restarted March 2026. See BACKLOG for full definitions.
+
+Notes: iter1009 REVIEW — fr-31-meta-trim SHIPPED ae0066be — 10 meta fixes (5 titles 65–74→41–45 chars; 5 descs 174–203→138–149 chars) across all 5 FR-31 guides. Other checks CLEAN: 20/20 /fr/* cross-links resolve; 3 hero images exist; no H1 in body; affiliates valid. Gate: pnpm check 0 errors; build 1469 pages (unchanged); pnpm test:e2e 2191/2191 pass (16.8m). CI in_progress at push time.
 
 Notes: iter1008 BUILD — FR-31 Jewish holidays batch SHIPPED 2fbb38d0. 5 FR guides: rosh-hashanah-in-israel (Rosh Hashana 5787 Sept 10-12 2026; Musaf at Western Wall; Tachlich by city; booking 6-12 months ahead; CTAs Booking+GYG+Viator; 6 FAQs), sukkot-in-israel (Souccot 2026 Sept 25–Oct 2; Birkat Kohanim 6:30am arrival 7:30am ceremony; Hula Valley crane migration; CTAs Booking+GYG+Viator; 6 FAQs), temple-mount-visitor-guide (Mont du Temple / Haram al-Sharif; non-Muslim access Mon-Thu+Sat Mughrabi Gate only; plaza only no mosque interior; CTAs GYG+Viator+Abraham; 7 FAQs), yom-kippur-in-israel (Yom Kippour Sept 20-21 2026; Ben Gurion 25h complete closure; empty highways cycling promenade; CTAs Booking+GYG+Viator; 6 FAQs), purim-in-israel (Pourim 2027 Tel Aviv Mar 22 / Jerusalem Mar 23 Shushan; Dizengoff 200k-250k; Adloyada; CTAs Booking+GYG+Viator; 6 FAQs). Yom Kippur and Purim substituted for already-existing masada-tours-compared and tel-aviv-to-jerusalem (both existed in FR since batch 18). Metropolitan French; YAML double-quotes; /fr/* cross-links pre-verified; no fabricated prices/ratings; paired naming at Temple Mount; honest dress code and access restrictions. FR: 237→242/398. Build: 1464→1469 pages (+5). 2191/2191 e2e pass (15.9m).
 
@@ -35,4 +39,4 @@ Notes: iter994 REVIEW — DE-26/DE-27 meta-trim SHIPPED 30257c9e. Audited 11 DE 
 
 Cron b7325b16 hourly @ :17. Loop history: 19 tools + sitemap-lastmod + link-checker(+depth) + i18n
 Phase0/1a/1b/1c/2 Batches1-18(COMPLETE) + 50 review passes + 5 technical (event-schema + meta-trim + locale-links + freshness-688 + airlines-freshness-delta-atl-bos) + 81 EN guides + 7 tools-monetization + 2 comparisons;
-research iters 5/10/20/30/35/40/45/50/55/60/65/70/75/80/85/90/95/100/105/110/115/120/125/130/135/140/145/150/155/160/165/170/175/180/185/190/195/200/205/210/215/220/225/230/235/240/245/250/255/260/265/270/275/280/285/290/295/300/305/310/315/320/325/330/335/340/345/350/355/360/365/370/375/380/385/390/395/400/405/410/420/425/430/435/440/445/450/455/460/465/470/480/485/490/495/500/505/510/515/520/525/535/540/545/550/555/560/565/570/575/580/585/590/595/600/605/610/615/620/625/630/635/640/645/650/655/660/665/670/675/680/685/690/695/700/705/710/715/720/725/730/735/740/745/750/755/760/765/775/785/790/810/815/820/825/835/840/845/850/859/864/865/870/875/880/885/890/895/900/905/910/915/920/925/930/940/945/950/955/960/965/975/980/985/990/995/1000.
+research iters 5/10/20/30/35/40/45/50/55/60/65/70/75/80/85/90/95/100/105/110/115/120/125/130/135/140/145/150/155/160/165/170/175/180/185/190/195/200/205/210/215/220/225/230/235/240/245/250/255/260/265/270/275/280/285/290/295/300/305/310/315/320/325/330/335/340/345/350/355/360/365/370/375/380/385/390/395/400/405/410/420/425/430/435/440/445/450/455/460/465/470/480/485/490/495/500/505/510/515/520/525/535/540/545/550/555/560/565/570/575/580/585/590/595/600/605/610/615/620/625/630/635/640/645/650/655/660/665/670/675/680/685/690/695/700/705/710/715/720/725/730/735/740/745/750/755/760/765/775/785/790/810/815/820/825/835/840/845/850/859/864/865/870/875/880/885/890/895/900/905/910/915/920/925/930/940/945/950/955/960/965/975/980/985/990/995/1000/1010.

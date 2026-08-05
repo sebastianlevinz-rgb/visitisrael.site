@@ -7727,3 +7727,43 @@ CAUTION (iter 980): celiac/gluten-free guides must use "tradition thérapeutique
 - Monthly per-month editorial guides remain 100% uncontested across ES/FR/DE (civitatis/routard/urlaubsguru all confirmed zero editorial equivalents — confirmed again this pass).
 - Jewish holidays travel guides (Rosh Hashana/Yom Kippur/Sukkot) = highly differentiated content; diaspora + curious-traveler market unclaimed.
 - Temple Mount non-Muslim visitor guide = significant practical gap; complex dual-naming requirement gives us editorial authority when done correctly.
+
+## iter1010 (2026-08-05) — 200th research pass: practical+cultural cluster + peak-season gaps + batch definitions FR-32/ES-45/DE-30
+
+**Gap verification — i18n cluster (sea-of-galilee-boat-tour / yom-haatzmaut / israel-vat-refund / israel-vs-jordan / israel-photography-guide):**
+- All 5 EN guides CONFIRMED SHIPPED (iter201/273/406/648; photography guide confirmed in src/); all 5 MISSING from FR/DE/ES (comm -23 confirmed).
+- No competitor has dedicated FR/DE/ES editorial for any of these 5 in verified searches (routard.com/urlaubsguru.de/civitatis.com): zero results for "Reembolso IVA Israel", "Bootstour See Genezareth editorial", "Israel ou Jordanie comparatif", "guide photo Israël" (editorial, not tour-operator).
+- tourist Israel (EN) ranks for all 5 with dedicated pages; no non-EN equivalent on any major travel platform.
+- **Verdict**: FR-32/ES-45/DE-30 cluster = 100% uncontested across all 3 locales. High-confidence gap.
+
+**Peak season gap — israel-in-august:**
+- Tourist Israel ranks dedicated August URL ("things to do in Israel in August").
+- EN file does NOT exist on disk (backlog entry incorrectly marked SHIPPED — confirmed discrepancy iter990, re-evaluated iter1010).
+- All 3 locales also missing August (EN→FR/DE/ES all absent). ES/FR/DE monthly guide coverage: Jan–Jul + Sep–Dec, NOT Aug.
+- August = peak European school holiday month (DE/FR summer holidays); highest hotel prices; Jerusalem Food Truck Festival peak (Jul 27–Aug 20); Tel Aviv Cocktail Festival; sea 27–28°C.
+- **Verdict**: P2 gap; build EN first; competitive window = zero editorial competition.
+
+**VAT refund gap:**
+- Tourist Israel, IsraelWelcome, OttoIsrael, and official IAA/gov.il all rank for VAT refund queries in EN.
+- Zero editorial FR/DE/ES equivalent found. Practical evergreen = perennial traffic.
+- Key facts verified: 17% VAT; NIS 400 minimum; BGA Concourse E counter before security; goods must be unused at departure.
+
+**israel-vs-jordan competitor landscape:**
+- traveldrafts.com, stepintojordan.com, TripAdvisor forums rank for "Israel or Jordan"; Lonely Planet / Rough Guides have NO dedicated comparison article (only forum threads).
+- Zero FR/DE/ES editorial equivalent. LATAM + DACH + French Middle East planners all searching this.
+
+**New infrastructure (already covered in EN guides, note for freshness checks):**
+- BGA $311M Terminal 3 expansion: IAA contract July 2026 ($83M eastern wing tender, 50,000m², 30-month timeline). Already covered in ben-gurion-airport-guide.md (confirmed). No freshness action needed.
+- Haifa cruise terminal: NIS 16M upgrade opened May 2026. Already verified current iter738. No action needed.
+- new-luxury-hotels-israel-2026.md EN guide: comprehensive and current (updated 2026-07-25). i18n bundle P2 already in backlog.
+
+**Tourism recovery context (2026):**
+- North American visitors +73% YoY June 2026 (PAX News confirmed).
+- American Airlines JFK nonstop restarted March 2026; El Al expanding from US cities.
+- Israel hotel market: most active expansion in 2 decades (17+ new properties summer 2026).
+- Egypt saw 15.6% inbound growth partly as travelers shifted from Middle East volatility — this affects israel-vs-egypt framing (Egypt gaining share; frame comparison honestly).
+
+**Key differentiators maintained (200th pass confirmation):**
+- Monthly per-month editorial guides: FR/DE/ES remain 100% uncontested (routard/urlaubsguru/civitatis confirmed again).
+- Interactive tools (6): zero competitor equivalent in FR/DE/ES.
+- Photography + VAT + Jordan comparison + Boat Tour = 4 proven high-value EN content types with zero multilingual editorial competitors.

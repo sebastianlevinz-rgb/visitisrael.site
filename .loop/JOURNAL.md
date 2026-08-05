@@ -15276,3 +15276,35 @@ body; affiliates valid (booking/getyourguide/viator/abraham); no fabricated pric
 Gate: pnpm check 0 errors; build 1469 pages (unchanged); pnpm test:e2e 2191/2191 pass (16.8m).
 Ship: committed ae0066be to master, pushed. CI in_progress at push time.
 Next: iter1010 = RESEARCH (1010%5=0).
+
+## 2026-08-05T08:30Z · iter 1010 · RESEARCH (200th pass) · FR-32/ES-45/DE-30 batch definitions + israel-in-august gap
+Mode: RESEARCH (1010%5=0). No code changed; gate not run.
+Sources: WebSearch (touristisrael.com, tripadvisor.com, traveldrafts.com, photohound.co, gov.il/vat, iaa.gov.il, myisraelstay.com, travelandtourworld.com, dekeltours.com, itraveljerusalem.com, masaisrael.org), filesystem gap analysis (comm -23; EN=398, ES=225, FR=242, DE=228), research subagent (10 topics via WebSearch + WebFetch).
+
+Gap inventory: ES=225/398 (173 gaps), FR=242/398 (156 gaps), DE=228/398 (170 gaps).
+
+Key findings:
+1. CONFIRMED CLUSTER GAP: 5 EN guides (sea-of-galilee-boat-tour, yom-haatzmaut-guide, israel-vat-refund, israel-vs-jordan, israel-photography-guide) ALL SHIPPED but i18n versions MISSING from all 3 locales. No locale batch previously defined for this cluster. Zero editorial competitors in FR/DE/ES for any of these 5 (verified). Highest value: israel-vs-jordan (major travel publishers have zero dedicated comparison) + israel-vat-refund (practical evergreen, official sources rank).
+
+2. ISRAEL-IN-AUGUST PERSISTENT GAP: EN file does NOT exist (prior "SHIPPED iter968" was false — that commit was ES-36). Iter990 identified discrepancy and deferred; re-evaluated now because August = European school holiday peak month, highest booking intent, distinct content (Tel Aviv Cocktail Festival; Jerusalem Food Truck Festival Jul 27–Aug 20 peak; Karmiel Dance Festival; heat management; 27–28°C sea). All 3 locales also missing August. EN must ship first, then locale versions.
+
+3. EXISTING GUIDES CURRENT: BGA $311M expansion covered in ben-gurion-airport-guide.md (July 2026 tender section); Haifa cruise terminal verified iter738; new-luxury-hotels EN guide updated 2026-07-25 (comprehensive). No freshness actions needed.
+
+4. TOURISM RECOVERY CONTEXT: North American visitors +73% YoY June 2026; 17+ luxury hotels opening summer 2026; American Airlines JFK nonstop restarted March 2026.
+
+Items added to BACKLOG (4 items, within 6-10 cap):
+- FR-32 batch (5 guides: sea-of-galilee-boat-tour + yom-haatzmaut + israel-vat-refund + israel-vs-jordan + israel-photography-guide). FR 242→247/398.
+- ES-45 batch (same 5 guides). ES 225→230/398.
+- DE-30 batch (same 5 guides, after DE-29 ships). DE 233→238/398.
+- israel-in-august P2 standalone (EN first, then locale bundle; confirmed persistent gap).
+Note: israel-photography-guide P3 i18n (iter980 "pending batch assignment") now formally assigned to FR-32/ES-45/DE-30.
+
+False leads eliminated (verified DONE or CURRENT):
+- BGA expansion: ben-gurion-airport-guide.md already current.
+- Haifa cruise terminal: verified iter738.
+- new-luxury-hotels EN: updated 2026-07-25.
+- israel-with-teenagers i18n: already P3 bundle in backlog.
+- south-israel-itinerary i18n: already P3 bundle in backlog.
+- new-luxury-hotels i18n: already P2 bundle in backlog.
+
+Gate: N/A (RESEARCH mode). Next: iter1011 = BUILD (1011%5=1; nextRotationCategory BUILD; candidate DE-29 as highest-priority ready batch).
