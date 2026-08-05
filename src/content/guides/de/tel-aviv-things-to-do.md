@@ -1,6 +1,6 @@
 ---
 title: "Was tun in Tel Aviv: Der komplette Ausflugsführer (2026)"
-description: "Vom Alten Hafen Jaffa und Carmel Market bis zu den Bauhaus-Boulevards der Weißen Stadt und dem Florentin-Streetart — der vollständige Führer zu Sehenswürdigkeiten und Aktivitäten in Tel Aviv."
+description: "Alt-Jaffa, Weiße Stadt, Carmel Market, Strände und Nachtleben — vollständiger Reiseführer zu Aktivitäten und Sehenswürdigkeiten in Tel Aviv."
 heroImage: /images/regions/tel-aviv/hero.jpg
 category: Reiseführer
 updatedAt: 2026-08-05

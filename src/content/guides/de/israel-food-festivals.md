@@ -1,6 +1,6 @@
 ---
-title: "Kulinarische Festivals in Israel 2027: Eat Tel Aviv, Wein & Gastro-Events"
-description: "Kulinarische Festivals in Israel: Eat Tel Aviv, A Story of Food, Sarona-Weinfestival, Olivenölernte, Tel Aviv Cocktail Festival. Termine, Tickets und Reisetipps."
+title: "Kulinarische Festivals in Israel: Eat Tel Aviv & Wein"
+description: "Kulinarische Festivals in Israel: Eat Tel Aviv, A Story of Food, Sarona-Weinfestival, Olivenölernte, Tel Aviv Cocktail Festival. Termine und Tickets."
 heroImage: /images/regions/tel-aviv/carmel-market.jpg
 category: Kulinarik
 updatedAt: 2026-08-05
