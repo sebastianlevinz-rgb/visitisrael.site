@@ -19,7 +19,7 @@
 
 **Gaps to close:**
 - es guides: **183 missing** (215/398 done — Phase ES-42 SHIPPED iter997 2a63453d; **next ES BUILD = ES-43 (specialty/comparison: vs-greece/vs-turkey/museum/thermal-springs/wildflowers) then ES-44 (pilgrimage/holidays/practical)**)
-- fr guides: **166 missing** (232/398 done — Phase FR-29 SHIPPED iter991 b934d657; **FR monthly coverage COMPLETE; next FR BUILD = FR-30 (specialty: museum/gan-hashlosha/wildflowers/thermal-springs/culinary-heritage) then FR-31 (holidays/practical)**)
+- fr guides: **161 missing** (237/398 done — Phase FR-30 SHIPPED iter1005 c20c8c68; **FR monthly coverage COMPLETE; next FR BUILD = FR-31 (holidays/practical: passover-in-israel / rosh-hashanah-in-israel / yom-kippur-in-israel / temple-mount-visitor-guide / masada-tours-compared) then FR-32 (transport/comparison batch)**)
 - de guides: **175 missing** (223/398 done — Phase DE-27 SHIPPED iter993 2df6130d; **DE monthly coverage COMPLETE; next DE BUILD = DE-28 (specialty: museum/thermal-springs/wildflowers/culinary-heritage/gluten-free) then DE-29 (holidays/practical/cycling)**)
 - fr/de/es attractions: **4 missing each** (the 4 EN attractions added after Phase 4)
 
@@ -283,6 +283,15 @@ Take the top 5 by priority (or head -5 if priority not obvious), translate each 
   Jerusalem vs Tel Aviv departure comparison table; 6 property profiles Tiberias with decision matrix;
   Tel-O-Fun 4-step system + 4 Tel Aviv routes + Negev MTB + IBT 1200km.
   10 new e2e tests (5 smoke + 5 a11y). FR guides: 122→127/396. Build: ~1102 pages. 1495/1495 e2e pass.
+- Phase FR-30 — SHIPPED iter1005 c20c8c68:
+  israel-museum-jerusalem, gan-hashlosha-guide, israel-spring-wildflowers,
+  israel-thermal-springs, israel-culinary-heritage-tourism.
+  Rationale: specialty/experience guides closing FR specialty gap. Metropolitan French; YAML double-quotes;
+  /fr/* prefix confirmed existing only; no fabricated prices; INPA pass coverage accurate (Sachne=valid,
+  Israel Museum/Hamat Gader=not INPA); kalanit picking fine ₪730; sulphur odour at Hamat Gader noted;
+  National Parks Pass note for Beit Alfa (separate fee) included.
+  10 new e2e tests (5 smoke + 5 a11y). FR guides: 232→237/398. Build: 1454→1459 pages (+5). 2181/2181 e2e pass.
+
 - Phase FR-9 — SHIPPED iter873 3a3f1b1f:
   bethlehem-travel-guide, vegan-vegetarian-israel, israel-for-french-travelers,
   best-hotels-netanya, eilat-beach-guide.

@@ -15209,3 +15209,9 @@ Other checks: 0 broken /fr/* internal links; 5/5 hero images exist; no H1 in bod
 Gate: pnpm check 0 errors; build 1454 pages (unchanged); 2171/2171 e2e pass (17.9m).
 Ship: commit 815f778c pushed to master. CI in_progress at push time.
 Next: iter1005 RESEARCH (1005%5=0 → RESEARCH; 200th research pass; candidates: FR-30/DE-28 specialty batch cross-link verification + competitor gap scan).
+
+## 2026-08-05T02:10Z · iter 1005 · BUILD (i18n FR-30) · fr-30-specialty-guides
+What: 5 FR specialty guides: israel-museum-jerusalem (Sanctuaire du Livre, maquette, aile archéologie; tiqets/GYG/Viator CTAs), gan-hashlosha-guide (Sachne 28°C piscines; INPA pass valid; Beit She'an circuit; discovercars/booking/GYG CTAs), israel-spring-wildflowers (kalaniot Néguev jan–fév; cyclamens Galilée déc–mars; orchidées Golan mar–avr; Darom Adom festival; inpa.gov.il bloom tracker), israel-thermal-springs (Hamat Gader ruines romaines + alligators + bassins 30–42°C; Tibériade + Ein Gedi wellness addendum; booking/discovercars/GYG CTAs), israel-culinary-heritage-tourism (70 diasporas — jachnun yéménite, kubbeh irakien, couscous marocain, Mahané Yehuda, Carmel, Levinsky marchés; viator/GYG/Abraham CTAs). Metropolitan French; YAML double-quotes; /fr/* prefix confirmed-existing pages only; no fabricated prices; National Parks Pass coverage accurate (Sachne=INPA valid, Israel Museum=not INPA, Hamat Gader=not INPA); kalanit picking fine ₪730 disclosed; sulphur odour at Hamat Gader noted.
+Gate: pnpm check 0 errors; build 1459 pages (+5, 1454→1459); 2181/2181 e2e pass (18.3m). 10 new tests (5 smoke + 5 a11y).
+Ship: squash-merged + pushed as c20c8c68. Vercel CI in_progress at push time (>5 min wait reached; deferred to next start-check per playbook).
+FR guides: 232→237/398. Next: iter1006 BUILD (1006%5=1 → BUILD; candidates: DE-28 specialty or FR-31 holidays/practical).

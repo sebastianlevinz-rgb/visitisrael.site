@@ -1862,3 +1862,5 @@ ES guides: 165→170/398. Build: 1318→1323 pages (+5). 1929/1929 e2e pass (17.
 REVIEW: Audited ES-44 batch. 9 meta fixes: 4 title overruns (temple-mount 89→58, rosh-hashanah 71→47, masada 87→51, tel-aviv-jerusalem 65→56) + 5 description overruns (all 5 guides trimmed to ≤160 chars). All 17 internal links resolve; 4/4 hero images exist; no H1 violations; affiliates valid.
 
 - [iter1004 815f778c] (review, S) FR-29 meta-trim — 1 title fix (israel-in-june 61→54). Audited 5 FR monthly guides (jun/jul/sep/nov/dec), all other meta within limits. Gate: 0 errors; 1454 pages unchanged; 2171/2171 e2e pass.
+
+- FR-30 specialty guides — c20c8c68 (iter1005) — 5 FR guides: israel-museum-jerusalem/gan-hashlosha-guide/israel-spring-wildflowers/israel-thermal-springs/israel-culinary-heritage-tourism. FR: 232→237/398. 1459 pages.
