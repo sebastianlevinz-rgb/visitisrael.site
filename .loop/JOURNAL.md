@@ -15414,3 +15414,9 @@ Gate: pnpm check 0 errors; build 1499 pages (+5 from 1494); pnpm test:e2e 2191/2
 Merge SHA: e5d673da. Pushed to origin/master directly (squash pattern — files staged and committed on master). Feature branch auto/de-31-food-nightlife-luxury-cluster deleted.
 Prod: Vercel deployment triggered by push to master; CI status in_progress at state-write time.
 DE locale count: 238→243/398. Build: 1494→1499 pages.
+
+## 2026-08-05T16:00Z · iter1019 · REVIEW · de-31-meta-trim
+What: Audited 5 DE-31 guides (jerusalem-nightlife, israeli-breakfast-guide, israel-food-festivals, tel-aviv-things-to-do, new-luxury-hotels-israel-2026). Found 3 meta violations: israel-food-festivals title 73 chars (>65 limit) + desc 162 chars (>160 limit); tel-aviv-things-to-do desc 198 chars (>160 limit). Fixed all 3. Other checks CLEAN: 25/25 /de/* cross-links resolve; 5/5 hero images exist; no H1 in body of any guide; affiliates valid (booking/getyourguide/viator).
+Gate: pnpm check 0 errors; build 1499 pages (unchanged); pnpm test:e2e 2191/2191 pass (19.6m).
+Merge SHA: cacbfa7b. Pushed to origin/master.
+Prod: CI in_progress at push time.
