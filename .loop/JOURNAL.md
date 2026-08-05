@@ -15463,3 +15463,8 @@ Gate: pnpm check 0 errors; build 1509 pages (+5 from 1504); pnpm test:e2e 2201/2
 Merge SHA: 5bf30b27. Pushed to origin/master directly (files staged and committed on master — feature branch had no commits; equivalent to squash-merge pattern).
 Prod: Vercel CI in_progress at push time; per playbook, leaving for next iteration's start-check.
 FR locale count: 252→257/398. Build: 1504→1509 pages (+5). 10 new tests (5 smoke + 5 a11y).
+
+## 2026-08-05T20:05Z · iter1023 · REVIEW · review-1023-fr34-meta-trim
+What: Meta/quality audit of FR-34 batch (jerusalem-museums, jericho-day-trip-from-jerusalem, layover-tel-aviv, israel-trip-cost-by-style, jewish-quarter-jerusalem-guide). Found 6 violations — 2 title overruns (jericho 72 chars → 46; jewish-quarter 75 chars → 55) and 4 description overruns (jerusalem-museums 185→127; jericho 172→113; layover 185→120; cost-by-style 201→150). Other checks clean: H1-in-body 0/5, hero images 5/5 present, affiliates all valid (booking/getyourguide/viator/tiqets/tourradar/hostelworld/welcomepickups/abraham), internal /fr/* links all resolve (diplomatie.gouv.fr/fr/ external URL was a false alarm in the grep pattern — not a broken internal link). No fabricated prices; no paired-naming issues; no H1 violations.
+Gate: pnpm check 0 errors; build 1509 pages (unchanged); pnpm test:e2e 2201/2201 pass (25.5m exit code 0). GREEN.
+Merge SHA: ffd0b346. Squash-committed directly on master. CI in_progress at push time (Lighthouse workflow #1896 for SHA ffd0b346); per playbook, leaving for next iteration's start-check.

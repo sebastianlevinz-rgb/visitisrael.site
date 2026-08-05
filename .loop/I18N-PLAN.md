@@ -6,7 +6,7 @@
 >
 > One bounded slice per loop iteration. NEVER bulk-translate in one shot.
 
-## Current status snapshot (2026-08-05 iter1022 BUILD — FR-34 SHIPPED 5bf30b27; next REVIEW iter1023 audit FR-34)
+## Current status snapshot (2026-08-05 iter1023 REVIEW — FR-34 meta-trim SHIPPED ffd0b346; next REVIEW iter1024 audit ES-46 batch)
 
 | Locale | Guides | Attractions | Regions | Itineraries |
 |--------|--------|-------------|---------|-------------|
