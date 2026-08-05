@@ -1,13 +1,15 @@
 # LOOP STATE
 
-- iteration: 1003
+- iteration: 1004
 - lastMode: REVIEW
-- lastItem: review-1003-es-meta-trim
-- lastResult: SHIPPED 87835eb8 — ES-44 meta-trim: 4 title + 5 desc fixes (temple-mount 89→58/202→138, rosh-hashanah 71→47/174→136, yom-kippur desc 180→129, masada 87→51/227→136, tel-aviv-jerusalem 65→56/206→136). Gate: pnpm check 0 errors; build 1454 pages (unchanged); 2171/2171 e2e pass (21.0m). Vercel CI in_progress at push time.
-- nextRotationCategory: REVIEW (iter1004; 1004%5=4 → REVIEW; audit slice: FR-31/DE-29 batch meta + cross-link check, or i18n-plan parity spot check)
+- lastItem: review-1004-fr29-meta-trim
+- lastResult: SHIPPED 815f778c — FR-29 meta-trim: 1 title fix (israel-in-june 61→54). Gate: pnpm check 0 errors; build 1454 pages (unchanged); 2171/2171 e2e pass (17.9m). Vercel CI in_progress at push time.
+- nextRotationCategory: BUILD (iter1005; 1005%5=0 → RESEARCH; but BUILD is overdue for FR-30 — top item: FR-30 specialty guides israel-museum-jerusalem/gan-hashlosha/wildflowers/thermal-springs/culinary-heritage)
 - higgsfieldSpent: 0
-- updatedAt: 2026-08-04T23:45Z
+- updatedAt: 2026-08-05T00:30Z
 - branch context: work on master; feature work on auto/<slug>
+
+Notes: iter1004 REVIEW — FR-29 meta-trim SHIPPED 815f778c. Audited 5 FR-29 guides (israel-in-june/july/september/november/december). 1 title violation found and fixed: june title 61→54 (removed 'Météo, '). Other 4 guides within limits (july 58, september 59, november 54, december 52). All 5 descriptions ≤160 chars. Other checks: 0 broken /fr/* internal links; 5/5 hero images exist; no H1 in body of any guide; affiliates valid. Gate: 0 errors; 1454 pages unchanged; 2171/2171 e2e pass (17.9m). Pushed 815f778c.
 
 Notes: iter1003 REVIEW — ES-44 meta-trim SHIPPED 87835eb8. Audited 5 ES-44 guides (temple-mount-visitor-guide, rosh-hashanah-in-israel, yom-kippur-in-israel, masada-tours-compared, tel-aviv-to-jerusalem). 9 meta fixes applied: 4 titles over 60 chars fixed, 5 descriptions over 160 chars fixed. Other checks: 17 /es/* internal links all resolve; 4/4 hero images exist (old-city.jpg + western-wall.jpg + masada.jpg + jerusalem/hero.jpg); no H1 in body of any guide; affiliates valid (booking/getyourguide/viator/discovercars); no fabricated prices. Gate: 0 errors; 1454 pages unchanged; 2171/2171 e2e pass (21.0m). Pushed 87835eb8.
 

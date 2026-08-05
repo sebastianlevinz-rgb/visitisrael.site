@@ -15199,3 +15199,13 @@ yom-kippur title (59) already within limit — no fix needed.
 Other checks: 17 /es/* internal links all resolve; 4/4 hero images exist; no H1 in body of any guide; affiliates valid (booking/getyourguide/viator/discovercars); no fabricated data.
 Gate: pnpm check 0 errors; build 1454 pages (unchanged); 2171/2171 e2e pass (21.0m). Ship: 87835eb8. CI in_progress at push time.
 Next: iter1004 REVIEW (1004%5=4 → REVIEW; audit FR-31/DE-29 meta or i18n parity spot check).
+
+## 2026-08-05T00:30Z · iter 1004 · REVIEW · review-1004-fr29-meta-trim
+What: Audit of FR-29 batch (5 FR monthly guides shipped iter991: israel-in-june, israel-in-july, israel-in-september, israel-in-november, israel-in-december).
+1 title violation found and fixed: june title 61→54 (removed 'Météo, ').
+Other 4 guides within limits: july 58, september 59, november 54, december 52.
+All 5 descriptions within 160-char limit (131, 151, 147, 132, 129 chars respectively).
+Other checks: 0 broken /fr/* internal links; 5/5 hero images exist; no H1 in body of any guide; affiliate partners valid (booking/getyourguide/tourradar); no fabricated data.
+Gate: pnpm check 0 errors; build 1454 pages (unchanged); 2171/2171 e2e pass (17.9m).
+Ship: commit 815f778c pushed to master. CI in_progress at push time.
+Next: iter1005 RESEARCH (1005%5=0 → RESEARCH; 200th research pass; candidates: FR-30/DE-28 specialty batch cross-link verification + competitor gap scan).
