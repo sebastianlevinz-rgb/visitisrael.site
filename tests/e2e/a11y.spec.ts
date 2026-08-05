@@ -909,6 +909,11 @@ const ROUTES = [
   '/de/israel-in-october',
   '/de/israel-in-november',
   '/de/israel-in-december',
+  '/de/jerusalem-museums',
+  '/de/jericho-day-trip-from-jerusalem',
+  '/de/layover-tel-aviv',
+  '/de/jewish-quarter-jerusalem-guide',
+  '/de/kibbutz-hotels-israel',
 ];
 
 for (const route of ROUTES) {
