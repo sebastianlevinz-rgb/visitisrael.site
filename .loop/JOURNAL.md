@@ -15546,3 +15546,10 @@ Gate: pnpm check 0 errors; build 1514 pages (+5); pnpm test:e2e 2211/2211 pass (
 Ship: squash-merged to master e63ba3f, pushed. PR #46 draft auto/de-32-guides.
 DE: 243→248/398.
 Next: BUILD iter1027 — balanced rotation (monetization/seo-content/tools/technical or i18n-ES ES-47 / i18n-FR FR-35).
+
+## 2026-08-06 · iter 1027 · BUILD (i18n-ES) · es-47-israel-trip-cost-jericho-jerusalem-museums-jewish-quarter-layover-tlv
+What: 5 ES guides — israel-trip-cost-by-style (backpacker $65-100/day + mid-range $150-300/day + luxury $400+/day; hostelworld+booking+tourradar CTAs; 7 FAQs; ranges only, no fabricated prices), jericho-day-trip-from-jerusalem (Zona A logistics; sherut ₪25–30/taxi ₪80–120; Israeli citizens restriction; Tell es-Sultan; Monte de la Tentación cable car; Palacio de Hisham mosaico del Árbol de la Vida; GYG+Viator+Abraham CTAs; 7 FAQs), jerusalem-museums (7-museum circuit: Museo de Israel+Yad Vashem+BLMJ+Torre de David+BNI+Rockefeller+Tolerancia; Yad Vashem advance timed-entry mandatory; Tiqets+GYG+Booking CTAs; 7 FAQs), jewish-quarter-jerusalem-guide (Wohl herodianische mansiones; Casa Quemada; Davidson; Cardo; Hurva 2010; Cuatro Sinagogas Sefardíes; Muro Ancho; GYG+Viator+Booking CTAs; 7 FAQs), layover-tel-aviv (4h/6h/8-10h/24h tiers with practical table; Ben Gurion tren ₪15-20; Shabbat caveat; ETA-IL note; WelcomePickups+GYG+Booking CTAs; 6 FAQs). LATAM neutral español tuteo; YAML double-quotes; all prices as ranges; paired naming at religious sites; no H1 in body; no machine-translation.
+Gate: pnpm check 0 errors; build 1519 pages (+5 from 1514); e2e pass.
+Ship: squash-merged to master e5b46b90, pushed.
+ES: 235→240/398.
+Next: BUILD iter1028 (1028%5=3 → BUILD; suggest FR-35 or DE-33 batch).

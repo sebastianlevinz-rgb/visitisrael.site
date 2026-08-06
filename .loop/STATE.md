@@ -1,13 +1,15 @@
 # LOOP STATE
 
-- iteration: 1026
+- iteration: 1027
 - lastMode: BUILD
-- lastItem: de-32-jerusalem-museums-jericho-layover-jewish-quarter-kibbutz
-- lastResult: SHIPPED e63ba3f. 5 DE guides: jerusalem-museums + jericho-day-trip-from-jerusalem + layover-tel-aviv + jewish-quarter-jerusalem-guide + kibbutz-hotels-israel. DE: 243→248/398. Build: 1509→1514 pages (+5). Gate: pnpm check 0 errors; build 1514 pages; pnpm test:e2e 2211/2211 pass (34.6m). Broken link fix: /de/3-days-in-jerusalem → /de/1-day-jerusalem-itinerary in layover-tel-aviv.md.
-- nextRotationCategory: BUILD (iter1027; 1027%5=2 → BUILD — balanced rotation: consider monetization/seo-content/tools/technical; OR i18n-ES: ES-47 batch or i18n-FR: FR-35 batch if priority queue empty)
+- lastItem: es-47-israel-trip-cost-jericho-jerusalem-museums-jewish-quarter-layover-tlv
+- lastResult: SHIPPED e5b46b90. 5 ES guides: israel-trip-cost-by-style + jericho-day-trip-from-jerusalem + jerusalem-museums + jewish-quarter-jerusalem-guide + layover-tel-aviv. ES: 235→240/398. Build: 1514→1519 pages (+5). Gate: pnpm check 0 errors; build 1519 pages; e2e pass.
+- nextRotationCategory: BUILD (iter1028; 1028%5=3 → BUILD; suggest FR-35 batch or DE-33)
 - higgsfieldSpent: 0
-- updatedAt: 2026-08-05T23:50Z
+- updatedAt: 2026-08-06T00:50Z
 - branch context: work on master; feature work on auto/<slug>
+
+Notes: iter1027 BUILD — ES-47 batch SHIPPED e5b46b90. 5 ES guides: israel-trip-cost-by-style (backpacker $65-100/day + mid-range $150-300/day + luxury $400+/day; 3 CTAs hostelworld+booking+tourradar; 7 FAQs), jericho-day-trip-from-jerusalem (Area A logistics; sherut ₪25–30; Zona A restriction for Israeli citizens; Tell es-Sultan; Monte de la Tentación cable car; Palacio de Hisham mosaico; 3 CTAs GYG+Viator+Abraham; 7 FAQs), jerusalem-museums (7-museum circuit: Israel+Yad Vashem+BLMJ+Torre de David+BNI+Rockefeller+Tolerancia; Yad Vashem timed-entry mandatory; 3 CTAs Tiqets+GYG+Booking; 7 FAQs), jewish-quarter-jerusalem-guide (Wohl herodianische mansiones; Casa Quemada; Davidson; Cardo; Hurva; 4 sinagogas sefardíes; 3 CTAs GYG+Viator+Booking; 7 FAQs), layover-tel-aviv (4h/6h/8-10h/24h tiers; Ben Gurion tren ₪15-20; Shabbat caveat; ETA-IL note; 3 CTAs WelcomePickups+GYG+Booking; 6 FAQs). LATAM neutral español tuteo; no fabricated prices/ratings; paired naming at religious sites; no H1 in body. ES: 235→240/398. Build: 1514→1519 pages (+5). Gate: pnpm check 0 errors; build 1519 pages; e2e pass.
 
 Notes: iter1026 BUILD — DE-32 batch SHIPPED e63ba3f. 5 DE guides: jerusalem-museums (7-museum circuit: Israel-Museum+Yad Vashem+Bibelwelten+Davidszitadelle+Rockefeller+Toleranzmuseum; CTAs Tiqets+GYG+Booking; 7 FAQs), jericho-day-trip-from-jerusalem (Zone-A-Logistik Sherut/Taxi; Tell es-Sultan; Hischams Palast; Seilbahn Berg der Versuchung; Auswärtiges Amt link; CTAs GYG+Viator+Abraham; 7 FAQs; broken link /de/3-days-in-jerusalem→/de/1-day-jerusalem-itinerary fixed), layover-tel-aviv (4h/6h/8-10h/24h Tier-Tabelle; Jitzhak-Navon-Bahn Jerusalem 28min; Jaffa/Rothschild/Strand-Plan; CTAs WelcomePickups+GYG+Booking; 6 FAQs), jewish-quarter-jerusalem-guide (Wohl-Museum herodianische Häuser; Verbranntes Haus 9Av 70 nChr; Davidson-Zentrum; Cardo; Churva-Synagoge 2010; Vier Sephardische Synagogen; Breite Mauer; CTAs GYG+Viator+Booking; 7 FAQs), kibbutz-hotels-israel (6-Region-Auswahl: Ein Gedi Totes Meer/Nof Ginosar Kinneret/Galiläa-Gästehäuser/Golan Ein Sivan+Kfar Haruv/Lotan Negev/Ramat Rachel Jerusalem; Summer 2026 Programme Nir David+Ortal; CTAs Booking×2+GYG; 6 FAQs). Standard Hochdeutsch; YAML double-quotes; 18/18 /de/* cross-links pre-verified; no fabricated prices/ratings; paired naming; no H1 in body. DE: 243→248/398. Build: 1509→1514 pages (+5). Gate: pnpm check 0 errors; build 1514 pages; pnpm test:e2e 2211/2211 pass (34.6m). Squash-merge to master e63ba3f.
 
