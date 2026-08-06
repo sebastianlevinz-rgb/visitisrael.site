@@ -6,13 +6,13 @@
 >
 > One bounded slice per loop iteration. NEVER bulk-translate in one shot.
 
-## Current status snapshot (2026-08-06 iter1031 BUILD — ES-48 SHIPPED e5d34afb)
+## Current status snapshot (2026-08-06 iter1032 BUILD — DE-33 SHIPPED 97a6e679)
 
 | Locale | Guides | Attractions | Regions | Itineraries |
 |--------|--------|-------------|---------|-------------|
 | en     | 398    | 65          | 11      | 6           |
 | fr     | 262    | 61          | 11      | 6           |
-| de     | 248    | 61          | 11      | 6           |
+| de     | 253    | 61          | 11      | 6           |
 | es     | 245    | 61          | 11      | 6           |
 
 **🎉 MILESTONE: ES + FR + DE monthly guides ALL COMPLETE** (iter996+iter997 ES-41+ES-42 SHIPPED — all 12 per-month guides jan-dec now exist in ES, FR, and DE)
@@ -20,7 +20,7 @@
 **Gaps to close:**
 - es guides: **153 missing** (245/398 done — Phase ES-48 SHIPPED iter1031 e5d34afb; **next ES BUILD = ES-49** — define next batch at next RESEARCH iter)
 - fr guides: **136 missing** (262/398 done — Phase FR-35 SHIPPED iter1028 c540ad7c; FR meta-audit iter1029 CLEAN; **next FR BUILD = FR-36** — israel-water-parks + israel-with-teenagers + israel-yoga-retreats + israel-vs-egypt + israel-national-bike-trail; cross-links to verify at BUILD time)
-- de guides: **150 missing** (248/398 done — Phase DE-32 SHIPPED iter1026 e63ba3f; **next DE BUILD = DE-33** — israel-packing-list-guide + israel-trip-cost-by-style + israel-travel-tips + eilat-ramon-airport-guide + gan-hashlosha-guide; cross-links pre-verified iter1030)
+- de guides: **145 missing** (253/398 done — Phase DE-33 SHIPPED iter1032 97a6e679; **next DE BUILD = DE-34** — define next batch at next RESEARCH iter)
 - fr/de/es attractions: **4 missing each** (the 4 EN attractions added after Phase 4)
 
 **Dead Sea cluster status (iter855 audit):**

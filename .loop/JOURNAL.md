@@ -15591,3 +15591,10 @@ Gate: pnpm check 0 errors; build 1529 pages (+5); pnpm test:e2e 2211/2211 pass (
 Merge: squash-merge to master e5d34afb, pushed.
 Prod: Vercel deploy pending at push time; next iteration confirms.
 ES locale: 240→245/398 (153 remaining).
+
+## 2026-08-06T06:30Z · iter 1032 · BUILD (i18n-DE) · DE-33 batch
+
+What: 5 new DE guides — israel-packing-list-guide, israel-trip-cost-by-style, israel-travel-tips, eilat-ramon-airport-guide, gan-hashlosha-guide. All 22 cross-links verified against existing DE corpus. Standard Hochdeutsch; YAML double-quotes; no fabricated prices or ratings; paired naming at religious sites (Tempelberg/Haram al-Sharif); no H1 in body.
+Gate: pnpm check 0 errors; build 1534 pages (+5); pnpm test:e2e 2211/2211 pass (25.3m).
+Merge: squash-merge to master 97a6e679, pushed.
+DE locale: 248→253/398 (145 remaining).

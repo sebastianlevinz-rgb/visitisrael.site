@@ -1913,3 +1913,7 @@ REVIEW: Audited ES-44 batch. 9 meta fixes: 4 title overruns (temple-mount 89→5
 ## ES-48 — iter1031 — e5d34afb
 5 ES guides: israel-culinary-heritage-tourism + israel-small-group-tours + israel-photography-tours + israel-evening-activities + israel-base-city-guide.
 Value: LATAM culinary heritage tourism flagship; high-commercial-intent small-group comparison page; photography tour niche (growing LATAM Instagram travel market); zero-competitor "qué hacer de noche" evening activities guide; strategic first-timer base city planning guide. ES: 240→245/398.
+
+## DE-33 — iter1032 — 97a6e679
+5 DE guides: israel-packing-list-guide + israel-trip-cost-by-style + israel-travel-tips + eilat-ramon-airport-guide + gan-hashlosha-guide.
+Value: High-intent pre-trip planning cluster — packing + budget are top DE traveler searches; travel-tips flagship evergreen guide; ETM airport landing page (Eilat growing German winter-sun market); Sachne/Gan HaShlosha unique natural attraction with German tourism interest. DE: 248→253/398.
