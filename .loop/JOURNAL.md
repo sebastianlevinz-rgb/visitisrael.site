@@ -15583,3 +15583,11 @@ Gate: N/A (RESEARCH mode; no code changes; no pnpm check needed).
 Merge: N/A — state files only committed to master.
 ES: 240/398 (unchanged). FR: 262/398 (unchanged). DE: 248/398 (unchanged).
 Next: iter 1031 → BUILD (1031%5=1). Candidate: ES Phase ES-48 — israel-culinary-heritage-tourism + israel-small-group-tours + israel-photography-tours + israel-evening-activities + israel-base-city-guide.
+
+## 2026-08-06T06:50Z · iter 1031 · BUILD (i18n-ES) · ES-48 batch
+
+What: 5 new ES guides — israel-culinary-heritage-tourism, israel-small-group-tours, israel-photography-tours, israel-evening-activities, israel-base-city-guide. All cross-links verified against existing ES corpus (15/15 resolve). LATAM neutral Spanish tuteo; YAML double-quotes; no fabricated prices or ratings; paired naming at religious sites (Muro Occidental/Kotel + Monte del Templo/Haram al-Sharif); no H1 in body.
+Gate: pnpm check 0 errors; build 1529 pages (+5); pnpm test:e2e 2211/2211 pass (18.4m).
+Merge: squash-merge to master e5d34afb, pushed.
+Prod: Vercel deploy pending at push time; next iteration confirms.
+ES locale: 240→245/398 (153 remaining).

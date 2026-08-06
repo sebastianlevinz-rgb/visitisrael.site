@@ -6,19 +6,19 @@
 >
 > One bounded slice per loop iteration. NEVER bulk-translate in one shot.
 
-## Current status snapshot (2026-08-06 iter1030 RESEARCH — batch definitions ES-48/DE-33/FR-36)
+## Current status snapshot (2026-08-06 iter1031 BUILD — ES-48 SHIPPED e5d34afb)
 
 | Locale | Guides | Attractions | Regions | Itineraries |
 |--------|--------|-------------|---------|-------------|
 | en     | 398    | 65          | 11      | 6           |
 | fr     | 262    | 61          | 11      | 6           |
 | de     | 248    | 61          | 11      | 6           |
-| es     | 240    | 61          | 11      | 6           |
+| es     | 245    | 61          | 11      | 6           |
 
 **🎉 MILESTONE: ES + FR + DE monthly guides ALL COMPLETE** (iter996+iter997 ES-41+ES-42 SHIPPED — all 12 per-month guides jan-dec now exist in ES, FR, and DE)
 
 **Gaps to close:**
-- es guides: **158 missing** (240/398 done — Phase ES-47 SHIPPED iter1027 e5b46b90; **next ES BUILD = ES-48** — israel-culinary-heritage-tourism + israel-small-group-tours + israel-photography-tours + israel-evening-activities + israel-base-city-guide; cross-links pre-verified iter1030)
+- es guides: **153 missing** (245/398 done — Phase ES-48 SHIPPED iter1031 e5d34afb; **next ES BUILD = ES-49** — define next batch at next RESEARCH iter)
 - fr guides: **136 missing** (262/398 done — Phase FR-35 SHIPPED iter1028 c540ad7c; FR meta-audit iter1029 CLEAN; **next FR BUILD = FR-36** — israel-water-parks + israel-with-teenagers + israel-yoga-retreats + israel-vs-egypt + israel-national-bike-trail; cross-links to verify at BUILD time)
 - de guides: **150 missing** (248/398 done — Phase DE-32 SHIPPED iter1026 e63ba3f; **next DE BUILD = DE-33** — israel-packing-list-guide + israel-trip-cost-by-style + israel-travel-tips + eilat-ramon-airport-guide + gan-hashlosha-guide; cross-links pre-verified iter1030)
 - fr/de/es attractions: **4 missing each** (the 4 EN attractions added after Phase 4)
@@ -80,7 +80,7 @@ Take the top 5 by priority (or head -5 if priority not obvious), translate each 
 
 ## Progress tracker
 
-### ES-48 batch definition (iter1030 RESEARCH — ready for next ES BUILD)
+### ES-48 — SHIPPED iter1031 e5d34afb — 5 ES guides: israel-culinary-heritage-tourism + israel-small-group-tours + israel-photography-tours + israel-evening-activities + israel-base-city-guide. ES: 240→245/398. Build: 1529 pages (+5). Gate: pnpm check 0 errors; 2211/2211 e2e pass (18.4m).
 Guides: `israel-culinary-heritage-tourism.md`, `israel-small-group-tours.md`, `israel-photography-tours.md`, `israel-evening-activities.md`, `israel-base-city-guide.md`
 All 5 confirmed MISSING from ES via comm -23 (2026-08-06).
 - israel-culinary-heritage-tourism: LATAM food tourism flagship; 70 diasporas cluster (jachnun/kubbeh/couscous/shakshuka); FR equivalent SHIPPED iter1005; 14/15 ES cross-links ✓ (kerem-hateimanim-tel-aviv → EN fallback); GYG food-tours + Booking CTAs; natural cluster anchor for israel-food-festivals/israeli-street-food-guide/kosher-food-guide (all in ES).
