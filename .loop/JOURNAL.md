@@ -15625,3 +15625,18 @@ Gate: N/A (RESEARCH mode; no code changes).
 Merge: N/A — state files only committed to master.
 FR: 267/398 (unchanged). DE: 253/398 (unchanged). ES: 245/398 (unchanged).
 Next: iter 1036 → BUILD (i18n-ES-49): jordan-river-baptism + israel-water-parks + israel-with-teenagers + sukkot-in-israel + neve-tzedek-guide.
+
+## 2026-08-06T10:11Z · iter 1036 · BUILD · es-49-jordan-river-baptism-israel-water-parks-israel-with-teenagers-sukkot-in-israel-neve-tzedek-guide
+
+What: ES-49 batch — 5 new Spanish-language guides.
+Guides shipped:
+1. jordan-river-baptism — Yardenit vs Qasr el-Yahud comparison; paired naming (Río Jordán / Nahr al-Urdunn); NIS 25M Qasr el-Yahud renovation Feb 2026; UNESCO context; honesty note: "identificado por la tradición como" not definitive; GYG+Viator+Civitatis CTAs; 6 FAQs.
+2. israel-water-parks — Shefayim + Superland + Luna Park TLV + Gal-Gil (Sea of Galilee) + Mini Israel + Eilat beach clubs; family-of-4 budget ₪500-900; GYG+Booking+Discovercars CTAs; 7 FAQs; completes EN+FR+DE+ES cluster.
+3. israel-with-teenagers — Masada Snake Path (3:30am start), Dead Sea float, Tel Aviv surf + HaPisgah skate park, Florentin street art, water hiking (Ein Gedi, Nahal Kziv), rappelling Judean Desert (ages 12+), Sea of Galilee kayak, Nimrod Fortress, Yad Vashem (ages 14+); 7-day sample itinerary; paired naming Muro Occidental / הַכּוֹתֶל הַמַּעֲרָבִי; GYG×2+Booking CTAs; 7 FAQs.
+4. sukkot-in-israel — Sucot dates 2026/2027; Yom Tov/Jol HaMoed/Hoshana Raba/Shemini Atzeret/Simjat Torá structure; Birkat Kohanim 6:30am arrival 7:30am ceremony; Jerusalem highlights; Hula Valley crane migration Oct; 30-50% price premium warning; Booking+GYG+Viator CTAs; 6 FAQs.
+5. neve-tzedek-guide — Founded 1887, 66 families from Jaffa's Old City; Suzanne Dellal Centre (Batsheva Dance Company); Shabazi Street boutiques; Nahum Gutman Museum (₪30, ~1hr); 1887 Ottoman + International Style architecture; Orna & Ella Friday brunch; HaBasta daily-changing menu; Booking+GYG CTAs; 6 FAQs.
+Gate: pnpm check 0 errors ✓; build 1544 pages (+5) ✓; pnpm test:e2e 2211/2211 pass (24.3m) ✓.
+Merge: squash-committed directly to master (branch was empty — files created on master working tree during context switch); pushed 63d88f3c.
+Honesty checks: all prices as ranges (₪60-90, ₪100-200+, ~$10 USD, ₪30, ₪500-900); no fabricated ratings or review counts; historical uncertainty at Qasr el-Yahud explicitly acknowledged; Birkat Kohanim times noted as approximate; paired naming at Western Wall.
+ES: 245→250/398 (148 remaining).
+Next: iter 1037 → REVIEW (es-49-audit): audit all 5 ES-49 guides.

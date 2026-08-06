@@ -18,7 +18,7 @@
 **🎉 MILESTONE: ES + FR + DE monthly guides ALL COMPLETE** (iter996+iter997 ES-41+ES-42 SHIPPED — all 12 per-month guides jan-dec now exist in ES, FR, and DE)
 
 **Gaps to close:**
-- es guides: **153 missing** (245/398 done — Phase ES-48 SHIPPED iter1031 e5d34afb; **next ES BUILD = ES-49** — define next batch at next RESEARCH iter)
+- es guides: **148 missing** (250/398 done — Phase ES-49 SHIPPED iter1036 63d88f3c; **next ES BUILD = ES-50** — define next batch at next RESEARCH iter)
 - fr guides: **136 missing** (262/398 done — Phase FR-35 SHIPPED iter1028 c540ad7c; FR meta-audit iter1029 CLEAN; **next FR BUILD = FR-36** — israel-water-parks + israel-with-teenagers + israel-yoga-retreats + israel-vs-egypt + israel-national-bike-trail; cross-links to verify at BUILD time)
 - de guides: **145 missing** (253/398 done — Phase DE-33 SHIPPED iter1032 97a6e679; **next DE BUILD = DE-34** — define next batch at next RESEARCH iter)
 - fr/de/es attractions: **4 missing each** (the 4 EN attractions added after Phase 4)
@@ -1437,14 +1437,14 @@ Quality: Standard Hochdeutsch; YAML double-quotes; /de/* prefix nur für bestät
 
 ---
 
-## Updated status snapshot (iter1035 RESEARCH 2026-08-06)
+## Updated status snapshot (iter1036 BUILD 2026-08-06)
 
 | Locale | Guides | Note |
 |--------|--------|------|
 | en     | 398    | stable |
 | fr     | 267    | 131 missing — Phase FR-36 SHIPPED iter1033 fb251c60; **Phase FR-37 defined iter1035** |
 | de     | 253    | 145 missing — Phase DE-33 SHIPPED iter1032 97a6e679; **Phase DE-34 defined iter1035** |
-| es     | 245    | 153 missing — Phase ES-48 SHIPPED iter1031 e5d34afb; **Phase ES-49 defined iter1035** |
+| es     | 250    | 148 missing — Phase ES-49 SHIPPED iter1036 63d88f3c; **next ES BUILD = ES-50** |
 
 ### Phase FR-37 (267 → 272/398) — DEFINED iter1035
 
@@ -1468,7 +1468,7 @@ All 5 confirmed MISSING from `src/content/guides/de/` via `comm -23` (2026-08-06
 - neve-tzedek-guide: TLV Bauhaus UNESCO quarter (Neve Tzedek borders White City UNESCO zone); Suzanne Dellal Centre (international dance festival); Nahum Gutman Museum; Rokach House; boutique hotels; DACH cultural-design tourism (large segment); Booking CTAs; zero DE editorial (verified via rapunzel-will-raus.ch = blog only, no editorial guide)
 Quality: Standard Hochdeutsch; YAML double-quotes; /de/* prefix only for confirmed existing DE pages; no fabricated prices; Makhtesh Ramon correctly "Erosionskrater" in yoga-retreats descriptions; no H1 in body.
 
-### Phase ES-49 (245 → 250/398) — DEFINED iter1035
+### Phase ES-49 (245 → 250/398) — SHIPPED iter1036 — 63d88f3c
 
 Guides: `jordan-river-baptism.md`, `israel-water-parks.md`, `israel-with-teenagers.md`, `sukkot-in-israel.md`, `neve-tzedek-guide.md`
 All 5 confirmed MISSING from `src/content/guides/es/` via `comm -23` (2026-08-06).

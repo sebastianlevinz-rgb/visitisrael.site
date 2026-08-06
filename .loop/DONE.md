@@ -1921,3 +1921,7 @@ Value: High-intent pre-trip planning cluster — packing + budget are top DE tra
 ## FR-36 — iter1033 — fb251c60
 5 FR guides: israel-water-parks + israel-with-teenagers + israel-yoga-retreats + israel-vs-egypt + israel-national-bike-trail.
 Value: Water parks = peak-season family traffic (Shefayim+Superland+Luna Park TLV+Gal-Gil+Mini Israel); teenagers guide = under-served niche (adventure activities Masada/surf TLV/rappel/wadi); yoga retreats = wellness tourism flagship (7 centres Arava/Néguev/Galilée, Six Senses Shaharut to Desert Ashram); vs-egypt = high-intent comparison (8-criteria table, Taba crossing logistics); national-bike-trail = first-mover IBT guide FR (1 200km, 27 étapes, 5 zones, difficulty ratings). FR: 262→267/398.
+
+## ES-49 — iter1036 — 63d88f3c
+5 ES guides: jordan-river-baptism + israel-water-parks + israel-with-teenagers + sukkot-in-israel + neve-tzedek-guide.
+Value: Jordan River baptism = top LATAM Catholic pilgrimage gap (Yardenit vs Qasr el-Yahud first-mover ES guide); water parks = completes EN+FR+DE+ES family-summer cluster; teenagers = adventure-focus family guide (Masada/surf/rappel/water-hiking); Sucot = Jewish holidays cluster for LATAM market (pairs with existing rosh-hashanah/yom-kippur ES guides); Neve Tzedek = TLV's most Instagram-friendly historic neighbourhood, zero ES editorial competition. ES: 245→250/398.
