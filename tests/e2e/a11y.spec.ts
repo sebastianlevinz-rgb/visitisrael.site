@@ -918,6 +918,7 @@ const ROUTES = [
   '/fr/jaffa-hotels-guide',
   '/fr/neve-tzedek-guide',
   '/fr/tower-of-david-guide',
+  '/fr/western-galilee-guide',
 ];
 
 for (const route of ROUTES) {
