@@ -1,12 +1,12 @@
 # LOOP STATE
 
-- iteration: 1027
+- iteration: 1028
 - lastMode: BUILD
-- lastItem: es-47-israel-trip-cost-jericho-jerusalem-museums-jewish-quarter-layover-tlv
-- lastResult: SHIPPED e5b46b90. 5 ES guides: israel-trip-cost-by-style + jericho-day-trip-from-jerusalem + jerusalem-museums + jewish-quarter-jerusalem-guide + layover-tel-aviv. ES: 235→240/398. Build: 1514→1519 pages (+5). Gate: pnpm check 0 errors; build 1519 pages; e2e pass.
-- nextRotationCategory: BUILD (iter1028; 1028%5=3 → BUILD; suggest FR-35 batch or DE-33)
+- lastItem: fr-35-layover-jerusalem-museum-of-tolerance-small-group-tours-mediterranean-cruise-photography-tours
+- lastResult: SHIPPED c540ad7c. 5 FR guides: layover-jerusalem+museum-of-tolerance-jerusalem+israel-small-group-tours+israel-mediterranean-cruise-guide+israel-photography-tours. FR: 257→262/398. Build: 1519→1524 pages (+5). Gate: pnpm check 0 errors; build 1524 pages; e2e 2211/2211 pass (25.7m).
+- nextRotationCategory: REVIEW (iter1029; 1029%5=4 → REVIEW)
 - higgsfieldSpent: 0
-- updatedAt: 2026-08-06T00:50Z
+- updatedAt: 2026-08-06T02:10Z
 - branch context: work on master; feature work on auto/<slug>
 
 Notes: iter1027 BUILD — ES-47 batch SHIPPED e5b46b90. 5 ES guides: israel-trip-cost-by-style (backpacker $65-100/day + mid-range $150-300/day + luxury $400+/day; 3 CTAs hostelworld+booking+tourradar; 7 FAQs), jericho-day-trip-from-jerusalem (Area A logistics; sherut ₪25–30; Zona A restriction for Israeli citizens; Tell es-Sultan; Monte de la Tentación cable car; Palacio de Hisham mosaico; 3 CTAs GYG+Viator+Abraham; 7 FAQs), jerusalem-museums (7-museum circuit: Israel+Yad Vashem+BLMJ+Torre de David+BNI+Rockefeller+Tolerancia; Yad Vashem timed-entry mandatory; 3 CTAs Tiqets+GYG+Booking; 7 FAQs), jewish-quarter-jerusalem-guide (Wohl herodianische mansiones; Casa Quemada; Davidson; Cardo; Hurva; 4 sinagogas sefardíes; 3 CTAs GYG+Viator+Booking; 7 FAQs), layover-tel-aviv (4h/6h/8-10h/24h tiers; Ben Gurion tren ₪15-20; Shabbat caveat; ETA-IL note; 3 CTAs WelcomePickups+GYG+Booking; 6 FAQs). LATAM neutral español tuteo; no fabricated prices/ratings; paired naming at religious sites; no H1 in body. ES: 235→240/398. Build: 1514→1519 pages (+5). Gate: pnpm check 0 errors; build 1519 pages; e2e pass.
