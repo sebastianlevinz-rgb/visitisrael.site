@@ -15649,3 +15649,19 @@ Other checks CLEAN: 5/5 H1 absent in body; 5/5 hero images on disk; 39/39 /es/* 
 Gate: pnpm check 0 errors; build 1544 pages (unchanged); pnpm test:e2e 2211/2211 pass (28.4m).
 Merge: commit 82c8a9b1 on master; pushed. CI/Lighthouse in_progress at push time.
 Next: iter 1038 → BUILD (i18n-FR-37): israel-for-french-travelers + israel-packing-list-guide + jaffa-hotels-guide + neve-tzedek-guide + tower-of-david-guide.
+
+## 2026-08-06T12:45Z · iter 1038 · BUILD · i18n-FR-37
+
+What: FR phase 37 — 4 new French guides. israel-for-french-travelers already existed (shipped iter1009/1010 as a research+ship pass before FR-37 was defined at iter1035).
+
+Guides shipped:
+1. israel-packing-list-guide — Stratégie bagage à main (seulement cabine); ETA-IL ₪25 72h; adaptateur Type H (trois broches plates en Y unique à Israël); vêtements par saison + code vestimentaire sites religieux; équipement mer Morte (vieux maillot + sandales PVC); électronique; SIM/eSIM Orange Israel; ce qu'il ne faut PAS apporter; packing by trip type; 6 FAQs; Booking+GYG+SafetyWing CTAs.
+2. jaffa-hotels-guide — Gamme luxe: The Jaffa Hotel (ancien hôpital français 1879, Marriott Luxury Collection, ₪2000-4000+) + The Setai (remparts maritimes croisés, design minimaliste); Milieu de gamme: Market House Hotel (cœur quartier tour de l'horloge, ₪900-1800); Budget ₪350-700 (maisons d'hôtes port + bordures nord Neve Tzedek); calendrier réservation haute saison (Fierté juin 3-5 mois; Pessah+Souccot 2-3 mois; meilleure valeur jan-mars); 3 CTAs Booking×2+GYG; 6 FAQs.
+3. neve-tzedek-guide — Fondé 1887 par 66 familles juives fuyant Jaffa; Centre Suzanne Dellal (Ram Karmi 1989; Compagnie Batsheva Ohad Naharin; cour bougainvillées libre accès); Rue Shabazi boutiques (Maskit + créateurs mode + bijoux + céramique + Judaïca moderne; fermé Shabbat); Musée Nahum Gutman (21 rue Shimon Rokach, ₪30, ~1h, horaires prolongés jeudi soir); Shabazi 26 + Orna & Ella restaurants; promenade architecturale ottoman+style international; connexions: Jaffa 15min / Carmel 10min / Ville Blanche 20min; 6 FAQs; Booking+GYG CTAs.
+4. tower-of-david-guide — Citadelle hasmonéenne→hérodienne→byzantine→croisée→mamluke→ottomane (XVIIe minaret); honesty note: nom "Tour de David" = contresens historique, aucun lien avec roi David; Musée 1989 — spirale chronologique (cananéen→ottoman), fosse fouilles ouvertes, maquette 1:50, maçonnerie hérodienne in situ tour Phasael, salle croisée XIIe; passerelle toit vue panoramique; guide audio ₪25 14 langues; Night Spectacular son+lumière 45min projeté sur murs citadelle (la plupart des soirs; réservation impérative haute saison); exposition "Eyes on the Wall" avr2027 (60 ans réunification Jérusalem; confirmé tod.org.il); INPA non valide (géré indépendamment); billet adulte ~₪50-60; 7 FAQs; GYG+Viator CTAs.
+
+Gate: pnpm check 0 errors ✓; build 1548 pages (+4) ✓; pnpm test:e2e 2219/2219 pass (16.6m) ✓.
+Merge: squash-commit debb2b7c on master; pushed. Vercel deploy in_progress.
+Honesty checks: all prices as ranges (₪25/₪350-700/₪900-1800/₪2000-4000+/₪50-60/₪30/₪25 guide audio); no fabricated ratings/review counts; Tower of David misnomer explicitly flagged; INPA card invalidity explicitly stated; Night Spectacular schedule described as "la plupart des soirs" (not specific days to avoid staleness); ETA-IL ₪25 72h valid since Jan 2025.
+FR: 267→271/398 (127 remaining).
+Next: iter 1039 → REVIEW (fr-37-audit): audit all 4 FR-37 guides.

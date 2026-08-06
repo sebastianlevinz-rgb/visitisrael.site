@@ -6,20 +6,20 @@
 >
 > One bounded slice per loop iteration. NEVER bulk-translate in one shot.
 
-## Current status snapshot (2026-08-06 iter1032 BUILD — DE-33 SHIPPED 97a6e679)
+## Current status snapshot (2026-08-06 iter1038 BUILD — FR-37 SHIPPED debb2b7c)
 
 | Locale | Guides | Attractions | Regions | Itineraries |
 |--------|--------|-------------|---------|-------------|
 | en     | 398    | 65          | 11      | 6           |
-| fr     | 262    | 61          | 11      | 6           |
+| fr     | 271    | 61          | 11      | 6           |
 | de     | 253    | 61          | 11      | 6           |
-| es     | 245    | 61          | 11      | 6           |
+| es     | 250    | 61          | 11      | 6           |
 
 **🎉 MILESTONE: ES + FR + DE monthly guides ALL COMPLETE** (iter996+iter997 ES-41+ES-42 SHIPPED — all 12 per-month guides jan-dec now exist in ES, FR, and DE)
 
 **Gaps to close:**
 - es guides: **148 missing** (250/398 done — Phase ES-49 SHIPPED iter1036 63d88f3c; **next ES BUILD = ES-50** — define next batch at next RESEARCH iter)
-- fr guides: **136 missing** (262/398 done — Phase FR-35 SHIPPED iter1028 c540ad7c; FR meta-audit iter1029 CLEAN; **next FR BUILD = FR-36** — israel-water-parks + israel-with-teenagers + israel-yoga-retreats + israel-vs-egypt + israel-national-bike-trail; cross-links to verify at BUILD time)
+- fr guides: **127 missing** (271/398 done — Phase FR-37 SHIPPED iter1038 debb2b7c; **next FR BUILD = FR-38** — define next batch at next RESEARCH iter)
 - de guides: **145 missing** (253/398 done — Phase DE-33 SHIPPED iter1032 97a6e679; **next DE BUILD = DE-34** — define next batch at next RESEARCH iter)
 - fr/de/es attractions: **4 missing each** (the 4 EN attractions added after Phase 4)
 
@@ -1442,11 +1442,11 @@ Quality: Standard Hochdeutsch; YAML double-quotes; /de/* prefix nur für bestät
 | Locale | Guides | Note |
 |--------|--------|------|
 | en     | 398    | stable |
-| fr     | 267    | 131 missing — Phase FR-36 SHIPPED iter1033 fb251c60; **Phase FR-37 defined iter1035** |
+| fr     | 271    | 127 missing — Phase FR-37 SHIPPED iter1038 debb2b7c; **next FR BUILD = FR-38** |
 | de     | 253    | 145 missing — Phase DE-33 SHIPPED iter1032 97a6e679; **Phase DE-34 defined iter1035** |
 | es     | 250    | 148 missing — Phase ES-49 SHIPPED iter1036 63d88f3c; **next ES BUILD = ES-50** |
 
-### Phase FR-37 (267 → 272/398) — DEFINED iter1035
+### Phase FR-37 (267 → 271/398) — SHIPPED iter1038 — debb2b7c
 
 Guides: `israel-for-french-travelers.md`, `israel-packing-list-guide.md`, `jaffa-hotels-guide.md`, `neve-tzedek-guide.md`, `tower-of-david-guide.md`
 All 5 confirmed MISSING from `src/content/guides/fr/` via `comm -23` (2026-08-06).

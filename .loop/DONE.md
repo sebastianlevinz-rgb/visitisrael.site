@@ -1927,3 +1927,7 @@ Value: Water parks = peak-season family traffic (Shefayim+Superland+Luna Park TL
 Value: Jordan River baptism = top LATAM Catholic pilgrimage gap (Yardenit vs Qasr el-Yahud first-mover ES guide); water parks = completes EN+FR+DE+ES family-summer cluster; teenagers = adventure-focus family guide (Masada/surf/rappel/water-hiking); Sucot = Jewish holidays cluster for LATAM market (pairs with existing rosh-hashanah/yom-kippur ES guides); Neve Tzedek = TLV's most Instagram-friendly historic neighbourhood, zero ES editorial competition. ES: 245→250/398.
 
 - [review-1037-es-49-meta-trim] SHA 82c8a9b1 — REVIEW: ES-49 meta audit; 4 fixes applied (3 titles + 1 desc trimmed to within limits). 5/5 guides CLEAN after fix.
+
+## FR-37 — iter1038 — debb2b7c
+4 FR guides: israel-packing-list-guide + jaffa-hotels-guide + neve-tzedek-guide + tower-of-david-guide. (israel-for-french-travelers already existed from iter1009.)
+Value: packing list = practical FR travel search ("liste de bagages Israël"); jaffa-hotels = Jaffa boutique accommodation (The Jaffa Hotel + The Setai + Market House Hotel); neve-tzedek = TLV's oldest neighbourhood, zero FR editorial competition; tower-of-david = Jerusalem citadel museum + Night Spectacular, historical honesty (name misnomer disclosed). FR: 267→271/398.
