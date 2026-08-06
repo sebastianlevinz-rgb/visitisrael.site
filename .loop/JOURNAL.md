@@ -15598,3 +15598,10 @@ What: 5 new DE guides — israel-packing-list-guide, israel-trip-cost-by-style, 
 Gate: pnpm check 0 errors; build 1534 pages (+5); pnpm test:e2e 2211/2211 pass (25.3m).
 Merge: squash-merge to master 97a6e679, pushed.
 DE locale: 248→253/398 (145 remaining).
+
+## 2026-08-06T07:00Z · iter 1033 · BUILD (i18n-FR) · FR-36 batch
+
+What: 5 new FR guides — israel-water-parks, israel-with-teenagers, israel-yoga-retreats, israel-vs-egypt, israel-national-bike-trail. All cross-links verified against existing FR corpus (confirmed existing pre-write). Français métropolitain; YAML double-quotes; no fabricated prices or ratings; no H1 in body.
+Gate: pnpm check 0 errors; build 1539 pages (+5); pnpm test:e2e 2211/2211 pass.
+Merge: squash-merge to master fb251c60, pushed.
+FR locale: 262→267/398 (131 remaining).

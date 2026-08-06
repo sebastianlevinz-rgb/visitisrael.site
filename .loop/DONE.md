@@ -1917,3 +1917,7 @@ Value: LATAM culinary heritage tourism flagship; high-commercial-intent small-gr
 ## DE-33 — iter1032 — 97a6e679
 5 DE guides: israel-packing-list-guide + israel-trip-cost-by-style + israel-travel-tips + eilat-ramon-airport-guide + gan-hashlosha-guide.
 Value: High-intent pre-trip planning cluster — packing + budget are top DE traveler searches; travel-tips flagship evergreen guide; ETM airport landing page (Eilat growing German winter-sun market); Sachne/Gan HaShlosha unique natural attraction with German tourism interest. DE: 248→253/398.
+
+## FR-36 — iter1033 — fb251c60
+5 FR guides: israel-water-parks + israel-with-teenagers + israel-yoga-retreats + israel-vs-egypt + israel-national-bike-trail.
+Value: Water parks = peak-season family traffic (Shefayim+Superland+Luna Park TLV+Gal-Gil+Mini Israel); teenagers guide = under-served niche (adventure activities Masada/surf TLV/rappel/wadi); yoga retreats = wellness tourism flagship (7 centres Arava/Néguev/Galilée, Six Senses Shaharut to Desert Ashram); vs-egypt = high-intent comparison (8-criteria table, Taba crossing logistics); national-bike-trail = first-mover IBT guide FR (1 200km, 27 étapes, 5 zones, difficulty ratings). FR: 262→267/398.
