@@ -1,12 +1,12 @@
 # LOOP STATE
 
-- iteration: 1049
-- lastMode: REVIEW
-- lastItem: review-1049-es51-meta-trim
-- lastResult: SHIPPED 681392d — 4 meta fixes in 5 ES-51 guides (judean-hills-wine-trail title 66→57 + desc 170→140; northern-israel-road-trip title 68→53 + desc 157→142; sea-of-galilee-beaches desc 167→145; nazareth-tours-compared desc 205→149). Gate: pnpm check 0 errors; build 1574 pages; pnpm test:e2e 2261/2261 pass (23.1m). Vercel deploy CI pending at push time.
-- nextRotationCategory: RESEARCH (iter1050 = 1050 % 5 = 0)
+- iteration: 1050
+- lastMode: RESEARCH
+- lastItem: research-1050-205th-pass-fr39-de36-es52
+- lastResult: RESEARCH ONLY — no ship. 205th research pass. FR-39/DE-36/ES-52 batches defined (15 pages queued). Key findings: zero FR/DE/ES editorial competition for "Israel vs Turkey/Greece/France/Egypt/Cyprus" comparison pages; Turkey=DE#1 vacation destination = high-value target; israel-travel-2026.md missing from all 3 locales = timely freshness page. Locale counts: EN=401 (+3 attractions? TBC), FR=277/401, DE=263/401, ES=260/401.
+- nextRotationCategory: BUILD (iter1051 % 5 = 1 → BUILD)
 - higgsfieldSpent: 0
-- updatedAt: 2026-08-06T23:13Z
+- updatedAt: 2026-08-07T00:10Z
 - branch context: work on master; feature work on auto/<slug>
 
 Notes: iter1048 BUILD — ES-51 batch SHIPPED 1790f187. 5 ES guides: israel-vs-albania (Israel vs. Albania comparison table 12 criterios costos/playas/historia/seguridad/visa/noche/gastronomía/logística aérea; Albanian Besa/IHRA angle; "Elige Israel si…"/"Elige Albania si…" sections; 14-day combined itinerary; paired naming Muro Occidental+Domo de la Roca/Haram al-Sharif; CTAs GYG+Booking+Skyscanner; 6 FAQs), judean-hills-wine-trail (Ruta del Vino de las Colinas de Judea; Tzora/Flam/Castel/Nevo/Psagot; honest Psagot West Bank note; self-drive circuit from Jerusalem; guided-vs-self-drive comparison table; CTAs GYG+Discovercars+Booking; 6 FAQs), northern-israel-road-trip (Ruta en auto por el norte de Israel 3–4 días TLV→Cesarea→Haifa→Acre→Rosh Hanikra→Mar de Galilea→Golán→Nazaret; neutral Golan political-status note; Bahá'í exterior-only caveat; distance table; CTAs Discovercars+Booking+GYG; 6 FAQs), sea-of-galilee-beaches (Playas del Mar de Galilea; 6 beaches Gei Beach+Luna Gal+Kibbutz Ginosar+Ein Gev+Tsemach+Nahal Meshushim; water temperature table; Sovev Kinneret trail 55km/9 stages; verdictName frontmatter; CTAs GYG+Booking+Discovercars; 6 FAQs), nazareth-tours-compared (Tours a Nazaret: guía comparativa; 5-format comparison table; Basílica de la Anunciación+Fuente de María+Pueblo de Nazaret; Caná de Galilea; medio día desde Tiberias; verdictName frontmatter; CTAs GYG×2+Viator; 7 FAQs). LATAM neutral español tuteo; YAML double-quotes; /es/* cross-links pre-verified; no fabricated prices/ratings; paired naming at all contested/religious sites; no H1 in body. E2e smoke+a11y routes added for all 5 pages. ES: 255→260/401. Build: 1574 pages (+5). Gate: pnpm check 0 errors; build 1574 pages; pnpm test:e2e 2261/2261 pass (24.7m). Squash-merge 1790f187 on master.

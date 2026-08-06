@@ -7950,3 +7950,38 @@ CAUTION (iter 980): celiac/gluten-free guides must use "tradition thérapeutique
 - "Mehrtageswanderungen Negev Israel" → zero DACH editorial result
 - Israel National Trail southern section (Ramon Crater → Eilat 7-day arc) = flagship long-distance hiking product
 - Action: add negev-multi-day-hiking to DE-35
+
+## 2026-08-07 · iter1050 · 205th research pass
+
+**FR/DE/ES comparison page SERP audit**
+- "Israël vs Turquie comparaison 2026" (routard.com, voyageurs-du-monde.fr, partir.com): zero editorial comparison result; partir.com shows separate budget calculators for each destination but no side-by-side editorial comparison
+- "Israel Türkei Vergleich Urlaub 2026" (urlaubsguru.de, reisereporter.de, travelbook.de): zero editorial result from major DACH travel publishers; only aggregators (sonnenklar.tv package listings, holidayplatz.de) appear
+- "Israel vs Grecia comparacion 2026" (civitatis.com, viajejet.com, muchosol.es): zero editorial result; civitatis.com only has tour product listings, not editorial comparison content
+- Conclusion: all "Israel vs [country]" comparison pages have ZERO non-English editorial competition across FR/DE/ES. This is our strongest SERP gap.
+
+**Turkey vacation market DE relevance**
+- Turkey remains Germany's #1 outbound vacation destination by volume (Antalya, Alanya, Belek, Bodrum dominate summer)
+- 2026 Istanbul consulate attack adds safety-comparison angle; DE travelers searching "sicher Türkei 2026 Urlaub" (infranken.de covered this)
+- "Israel vs. Türkei" = highest single-page opportunity for DE SEO in current editorial gap
+
+**Israel 2026 security + recovery context**
+- US Embassy Jerusalem authorized departure of non-emergency personnel Feb 27 2026 (security risks)
+- US State Dept Level 3 advisory persisting through 2026 H1
+- Tourism arrivals: 344,900 Jan–May 2026 (down 36.9% YoY), but improving: April 35,800 → May 64,400 → recovery accelerating
+- Major tourist circuit (Jerusalem/TLV/Galilee/Dead Sea/Eilat) fully operational; all sites open
+- Haifa cruise terminal inaugurated May 14 2026 (5,500m², 28 border stations, duty-free) — MSC/Celebrity/Royal Caribbean/Mano Cruises using Haifa as homeport
+
+**Tourist Israel competitor status**
+- touristisrael.com still has ZERO comparison pages in any non-English locale
+- Their "Israel Travel 2026" EN page (touristisrael.com/israel-travel-2026) covers new tours (Gaza Border & Nova Festival tour, TLV Saturday Walking Tour); no i18n versions
+- Their August 2026 content: Tel Aviv Cocktail Festival, Jerusalem Arts & Crafts Fair, Israeli Animation Festival — no editorial competitors in FR/DE/ES for August activities
+
+**Partir.com (FR competitor) budget data**
+- partir.com shows Israel 7-day trip (self-organized): €1,120–€1,530 per person incl. flights; agency package: €1,617 per person ex-flights
+- Turkey 15-day self-organized: €1,740–€3,330; agency package: €1,020 incl. flights
+- France vs Israel cost comparison: Israel = consistent Western European level year-round; France varies widely by region
+
+**New hotel openings for freshness content**
+- TLV: Dizengoff 99 (Isrotel), Palatin Hotel (Fattal), Six Senses, Basel Complex Hotel (Isrotel), Leon Towers (Isrotel) — all 2026
+- Herzliya Marina: new luxury eco-hotel 2026
+- InterContinental Jerusalem: no confirmed open date as of Aug 2026; still "late summer 2026" per IHG listing

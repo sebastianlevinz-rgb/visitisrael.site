@@ -15775,3 +15775,20 @@ What: Audited all 5 ES-51 guides shipped in iter1048. Found 4 meta violations (2
 Gate: pnpm check 0 errors | pnpm build 1574 pages | pnpm test:e2e 2261/2261 passed (23.1m, exit code 0)
 Merge: squash-merge 681392d to master. Vercel CI pending at push time.
 Next: iter1050 → RESEARCH mode (1050 % 5 = 0).
+
+## 2026-08-07T00:10Z · iter1050 · RESEARCH · 205th research pass; FR-39/DE-36/ES-52 defined
+
+What: RESEARCH mode (1050 % 5 = 0). 205th research pass. Researched competitor landscape for FR/DE/ES comparison pages + freshness content + group travel. Sources: touristisrael.com, partir.com, routard.com, cruisemapper.com, celebritycruises.com, royalcaribbean.com, travelandtourworld.com, jetpacglobal.com, usembassy.gov, infranken.de. No code changes; gate not run (RESEARCH mode).
+
+Key findings:
+1. Zero FR/DE/ES editorial competition for "Israel vs Turkey", "Israel vs Greece", "Israel vs France", "Israel vs Egypt", "Israel vs Cyprus" — all return only tour-operator/aggregator results, no editorial comparison guides. Strong SERP opportunity.
+2. Turkey is Germany's #1 vacation destination by tourist volume — "Israel vs. Türkei" = highest-value single comparison page for DE market; 2026 Istanbul consulate attack adds safety-comparison context.
+3. israel-travel-2026.md (existing EN guide updatedAt: 2026-07-22) MISSING from all 3 locales — covers ETA-IL, new Ben Gurion Terminal 1 (July 2026), new Haifa cruise terminal (May 2026 inauguration), new TLV hotel openings (Six Senses, Leon Towers). High-intent freshness keyword in FR/DE/ES.
+4. israel-group-travel.md MISSING from FR + ES — Catholic/synagogue group pilgrimage market; France has strong religious heritage travel to Israel; LATAM group package demand high.
+5. 2026 security context: US State Dept Level 3 advisory + Feb 2026 authorized departure order; however tourist circuit (Jerusalem/TLV/Dead Sea/Galilee/Eilat) fully operational; 344,900 arrivals Jan-May 2026 (down 36.9% YoY but improving by quarter); all major sites open. Our EN is-israel-safe guide covers this; all 3 locale versions exist ✓.
+6. New Haifa cruise terminal (inaugurated May 14 2026, 5,500m², 28 border stations) — israel-homeport-cruise.md exists in EN (updatedAt: 2026-08-01) but MISSING from FR/DE/ES; queued for FR-40/DE-37/ES-53.
+7. Locale counts confirmed: FR=277/401 (124 remaining), DE=263/401 (138 remaining), ES=260/401 (141 remaining).
+
+BACKLOG additions: 3 batch definitions (FR-39/DE-36/ES-52), 5 guides each = 15 new pages queued.
+COMPETITORS.md: appended full findings.
+Next: iter1051 → BUILD (i18n) — FR-39 batch has priority (FR is the largest market; DE-35 shipped last BUILD; rotate to FR-39 first).
