@@ -15698,3 +15698,14 @@ Gate: pnpm check 0 errors; build 1554 pages (+5 over 1549 baseline); pnpm test:e
 Merge: squash-merge auto/de-34-guides → master; commit 0fabfa96ba1719495d8604766427b6d5833a3839, pushed.
 DE count: 253 → 258/398.
 Next: iter1042 → REVIEW (de-34-audit): audit all 5 DE-34 guides (titles ≤65/descs ≤160/H1/images/cross-links/affiliates) + western-galilee-guide (FR-37 5th, pending since iter1040).
+
+## 2026-08-06 · iter 1042 · REVIEW · DE-34 audit + FR-37 western-galilee
+What: audited 5 DE-34 guides (netanya-guide, passover-in-israel, israel-water-parks, israel-yoga-retreats, neve-tzedek-guide) + FR-37 western-galilee-guide (pending from iter1040).
+Fixes applied (3):
+- netanya-guide: title 69→62 chars (removed trailing " (2026)")
+- israel-yoga-retreats: title 69→64 chars (removed "2026: " prefix from subtitle)
+- neve-tzedek-guide: Karmel-Markt cross-link /de/tel-aviv-beach-guide → /de/tel-aviv-carmel-market (wrong slug, correct file confirmed on disk)
+CLEAN (no changes): passover-in-israel (55 chars, 146 chars desc, 6 cross-links ✓), israel-water-parks (64 chars, 149 chars desc, 6 cross-links ✓), western-galilee-guide (57 chars, 131 chars desc, 4 /fr/* cross-links ✓).
+Gate: pnpm check 0 errors; build 1554 pages (unchanged); pnpm test:e2e 2231/2231 pass (29.2m, exit code 0).
+Merge: commit c6aba803 on master, pushed.
+Next: iter1043 → BUILD — pick next batch from BACKLOG.

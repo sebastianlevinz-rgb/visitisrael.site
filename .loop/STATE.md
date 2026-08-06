@@ -1,12 +1,12 @@
 # LOOP STATE
 
-- iteration: 1041
-- lastMode: BUILD
-- lastItem: de-34-guides
-- lastResult: SHIPPED 0fabfa96 — 5 DE guides (netanya-guide, passover-in-israel, israel-water-parks, israel-yoga-retreats, neve-tzedek-guide). DE count 253→258/398. Gate: pnpm check 0 errors; build 1554 pages (+5); pnpm test:e2e 2231/2231 pass (14.5m). Pushed 0fabfa96 on master.
-- nextRotationCategory: REVIEW (de-34-audit) — iter1042; audit 5 DE-34 guides (titles/descs/H1/images/cross-links/affiliates) + western-galilee-guide (FR-37 5th guide, still pending from iter1040)
+- iteration: 1042
+- lastMode: REVIEW
+- lastItem: de-34-audit + fr37-western-galilee
+- lastResult: SHIPPED c6aba803 — 3 fixes across 6 audited guides (DE-34×5 + FR-37 western-galilee). netanya-guide title 69→62 chars; israel-yoga-retreats title 69→64 chars; neve-tzedek-guide Karmel-Markt cross-link /de/tel-aviv-beach-guide→/de/tel-aviv-carmel-market. Other 3 guides (passover-in-israel, israel-water-parks, western-galilee-guide) were CLEAN. Gate: pnpm check 0 errors; build 1554 pages (unchanged); pnpm test:e2e 2231/2231 pass (29.2m). Pushed c6aba803 on master.
+- nextRotationCategory: BUILD — iter1043; pick next batch from BACKLOG (DE or FR or ES)
 - higgsfieldSpent: 0
-- updatedAt: 2026-08-06T15:05Z
+- updatedAt: 2026-08-06T16:25Z
 - branch context: work on master; feature work on auto/<slug>
 
 Notes: iter1041 BUILD — DE-34 batch SHIPPED 0fabfa96. 5 DE guides: netanya-guide (Klippenpromenade, Diamantfabrik, französisches Viertel, ~40K deutschsprachige Israelis DACH-Kontext; Booking+GYG CTAs; 6 FAQs), passover-in-israel (Pessach 5787=22.–29. Apr 2027; Birkat Kohanim 26. Apr 2027; hotel Seder-Programme; Ben Gurion 25h Teilschließung; TourRadar+Booking+GYG CTAs; 6 FAQs), israel-water-parks (Shefayim+Superland+Gal-Gil+Luna Park TLV+Mini Israel; Öffnungszeiten+Ticketpreise als Spannen; GYG+Booking+Discovercars CTAs; 7 FAQs), israel-yoga-retreats (Six Senses Shaharut 400-800€+Desert Ashram 80-120€+Lev Hamidbar+Ne'ot Semadar+Mitzpe Alummot+Or HaLev+Moa Oasis 150-220€; Moa Oasis on Nabataean incense route; GYG+Booking+Discovercars CTAs; 7 FAQs), neve-tzedek-guide (gegr. 1887; Suzanne-Dellal-Zentrum; Shabazi-Boutiquen; Nahum-Gutman-Museum; Bauhaus-UNESCO-Kontext; Booking+GYG CTAs; 6 FAQs). Standard Hochdeutsch; YAML double-quotes (Ne'ot Semadar apostrophe in yoga-retreats fixed); /de/* cross-links pre-verified; no fabricated prices/ratings; no H1 in body. E2e smoke+a11y routes added for all 5 /de/ pages. DE: 253→258/398. Build: 1549→1554 pages (+5). Gate: pnpm check 0 errors; build 1554 pages; pnpm test:e2e 2231/2231 pass (14.5m). Squash-merge 0fabfa96ba1719495d8604766427b6d5833a3839 on master. Pending REVIEW: western-galilee-guide (FR-37 5th) + all 5 DE-34 guides.
