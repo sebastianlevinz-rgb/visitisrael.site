@@ -6,21 +6,21 @@
 >
 > One bounded slice per loop iteration. NEVER bulk-translate in one shot.
 
-## Current status snapshot (2026-08-06 iter1041 BUILD — DE-34 SHIPPED 0fabfa96)
+## Current status snapshot (2026-08-06 iter1046 BUILD — FR-38 SHIPPED 01daba84)
 
 | Locale | Guides | Attractions | Regions | Itineraries |
 |--------|--------|-------------|---------|-------------|
-| en     | 398    | 65          | 11      | 6           |
-| fr     | 271    | 61          | 11      | 6           |
+| en     | 401    | 65          | 11      | 6           |
+| fr     | 277    | 61          | 11      | 6           |
 | de     | 258    | 61          | 11      | 6           |
-| es     | 250    | 61          | 11      | 6           |
+| es     | 255    | 61          | 11      | 6           |
 
 **🎉 MILESTONE: ES + FR + DE monthly guides ALL COMPLETE** (iter996+iter997 ES-41+ES-42 SHIPPED — all 12 per-month guides jan-dec now exist in ES, FR, and DE)
 
 **Gaps to close:**
-- es guides: **148 missing** (250/398 done — Phase ES-49 SHIPPED iter1036 63d88f3c; **next ES BUILD = ES-50** — define next batch at next RESEARCH iter)
-- fr guides: **127 missing** (271/398 done — Phase FR-37 SHIPPED iter1038 debb2b7c; **next FR BUILD = FR-38** — define next batch at next RESEARCH iter)
-- de guides: **140 missing** (258/398 done — Phase DE-34 SHIPPED iter1041 0fabfa96; **next DE BUILD = DE-35** — define next batch at next RESEARCH iter)
+- es guides: **146 missing** (255/401 done — Phase ES-50 SHIPPED iter1043 9aa61933; **next ES BUILD = ES-51** — batch defined iter1045 research)
+- fr guides: **124 missing** (277/401 done — Phase FR-38 SHIPPED iter1046 01daba84; **next FR BUILD = FR-39** — define next batch at next RESEARCH iter)
+- de guides: **143 missing** (258/401 done — Phase DE-34 SHIPPED iter1041 0fabfa96; **next DE BUILD = DE-35** — batch defined iter1045 research)
 - fr/de/es attractions: **4 missing each** (the 4 EN attractions added after Phase 4)
 
 **Dead Sea cluster status (iter855 audit):**

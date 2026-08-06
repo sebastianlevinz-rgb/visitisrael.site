@@ -1,13 +1,15 @@
 # LOOP STATE
 
-- iteration: 1045
-- lastMode: RESEARCH
-- lastItem: research-1045-204th-pass-fr38-de35-es51-defined
-- lastResult: CLEAN — 204th research pass. Defined FR-38 (israel-vs-albania+israel-vs-cyprus+judean-hills-wine-trail+sea-of-galilee-beaches+northern-israel-road-trip), DE-35 (israel-vs-albania+judean-hills-wine-trail+northern-israel-road-trip+sea-of-galilee-beaches+negev-multi-day-hiking), ES-51 (israel-vs-albania+judean-hills-wine-trail+northern-israel-road-trip+sea-of-galilee-beaches+nazareth-tours-compared). All cross-links pre-verified. No code changed. EN=401, FR=272/401, DE=258/401, ES=255/401.
-- nextRotationCategory: BUILD — iter1046 (FR-38 priority; last BUILD was DE-34 → FR next by rotation)
+- iteration: 1046
+- lastMode: BUILD
+- lastItem: fr-38-batch
+- lastResult: SHIPPED 01daba84 — 5 FR guides (israel-vs-albania, israel-vs-cyprus, judean-hills-wine-trail, sea-of-galilee-beaches, northern-israel-road-trip). FR: 272→277/401. Build: 1564 pages. Gate: pnpm check 0 errors; build 1564 pages; pnpm test:e2e 2246/2246 passed (16.3m). Squash-merge 01daba84 to master. PR #48 draft auto/fr-38-batch.
+- nextRotationCategory: BUILD — iter1047 (DE-35 next by rotation; DE-34 was last DE batch at iter1041)
 - higgsfieldSpent: 0
-- updatedAt: 2026-08-06T18:30Z
+- updatedAt: 2026-08-06T20:20Z
 - branch context: work on master; feature work on auto/<slug>
+
+Notes: iter1046 BUILD — FR-38 batch SHIPPED 01daba84. 5 FR guides: israel-vs-albania (Israël vs Albanie comparison table, Albanian Besa/IHRA diplomatic angle, 14-day combined itinerary, 6 FAQs; CTAs getyourguide+booking+skyscanner), israel-vs-cyprus (Israël vs Chypre comparison history/beaches/gastronomy/nightlife/safety/visa; 6 FAQs; CTAs getyourguide+skyscanner+booking), judean-hills-wine-trail (Route des vins collines judéennes; Tzora/Flam/Castel/Nevo/Psagot wineries; self-drive route from Jerusalem; Psagot West Bank honesty note; 6 FAQs; CTAs getyourguide+discovercars+booking), sea-of-galilee-beaches (Plages de la mer de Galilée; 6 beaches Gei/Luna Gal/Ginosar kibbutz/Ein Gev/Tsemach/Nahal Meshushim; swimming conditions table; Kinneret trail; 6 FAQs; CTAs getyourguide+booking+discovercars), northern-israel-road-trip (Circuit en voiture nord Israël 3–4 jours; Caesarea→Haifa→Akko→Rosh Hanikra→Sea of Galilee→Golan; Bahá'í active-site framing; 6 FAQs; CTAs discovercars+booking+getyourguide). Metropolitan French; YAML double-quotes; /fr/* confirmed cross-links only; no fabricated prices/ratings; paired naming at contested sites; no H1 in body. E2e smoke+a11y routes added for all 5 pages. FR: 272→277/401. Build: 1564 pages (+5). Gate: pnpm check 0 errors; build 1564 pages; pnpm test:e2e 2246/2246 pass (16.3m). Squash-merge 01daba84 on master. PR #48 draft.
 
 Notes: iter1041 BUILD — DE-34 batch SHIPPED 0fabfa96. 5 DE guides: netanya-guide (Klippenpromenade, Diamantfabrik, französisches Viertel, ~40K deutschsprachige Israelis DACH-Kontext; Booking+GYG CTAs; 6 FAQs), passover-in-israel (Pessach 5787=22.–29. Apr 2027; Birkat Kohanim 26. Apr 2027; hotel Seder-Programme; Ben Gurion 25h Teilschließung; TourRadar+Booking+GYG CTAs; 6 FAQs), israel-water-parks (Shefayim+Superland+Gal-Gil+Luna Park TLV+Mini Israel; Öffnungszeiten+Ticketpreise als Spannen; GYG+Booking+Discovercars CTAs; 7 FAQs), israel-yoga-retreats (Six Senses Shaharut 400-800€+Desert Ashram 80-120€+Lev Hamidbar+Ne'ot Semadar+Mitzpe Alummot+Or HaLev+Moa Oasis 150-220€; Moa Oasis on Nabataean incense route; GYG+Booking+Discovercars CTAs; 7 FAQs), neve-tzedek-guide (gegr. 1887; Suzanne-Dellal-Zentrum; Shabazi-Boutiquen; Nahum-Gutman-Museum; Bauhaus-UNESCO-Kontext; Booking+GYG CTAs; 6 FAQs). Standard Hochdeutsch; YAML double-quotes (Ne'ot Semadar apostrophe in yoga-retreats fixed); /de/* cross-links pre-verified; no fabricated prices/ratings; no H1 in body. E2e smoke+a11y routes added for all 5 /de/ pages. DE: 253→258/398. Build: 1549→1554 pages (+5). Gate: pnpm check 0 errors; build 1554 pages; pnpm test:e2e 2231/2231 pass (14.5m). Squash-merge 0fabfa96ba1719495d8604766427b6d5833a3839 on master. Pending REVIEW: western-galilee-guide (FR-37 5th) + all 5 DE-34 guides.
 

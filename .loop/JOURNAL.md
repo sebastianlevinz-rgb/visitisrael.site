@@ -15751,3 +15751,9 @@ BACKLOG additions: 3 new batch definitions (FR-38, DE-35, ES-51) each covering 5
 COMPETITORS.md: appended full research findings.
 Locale counts confirmed: EN=401, FR=272/401 (129 remaining), DE=258/401 (143 remaining), ES=255/401 (146 remaining).
 Next: iter1046 → BUILD (i18n) — pick FR-38 or DE-35 (rotating; last BUILD was DE-34, so FR-38 has priority by rotation).
+
+## 2026-08-06 · iter 1046 · BUILD (i18n-FR) · fr-38-batch
+What: 5 French-language guides — israel-vs-albania (Israël vs Albanie comparison table costs/beaches/history/security/visas; Albanian Besa/IHRA diplomatic angle; 14-day combined itinerary; CTAs GYG+Booking+Skyscanner), israel-vs-cyprus (Israël vs Chypre comparison; Mediterranean beach-vs-culture angle; CTAs GYG+Skyscanner+Booking), judean-hills-wine-trail (Route des vins des collines judéennes; Tzora/Flam/Castel/Nevo/Psagot wineries; self-drive route; guided-vs-self-drive table; honest Psagot West Bank note; CTAs GYG+Discovercars+Booking), sea-of-galilee-beaches (Plages de la mer de Galilée; 6 beaches Gei/Luna Gal/Ginosar/Ein Gev/Tsemach/Nahal Meshushim; swimming conditions table; CTAs GYG+Booking+Discovercars), northern-israel-road-trip (Circuit en voiture dans le nord d'Israël; 4-day self-drive Haifa→Akko→Rosh Hanikra→Tiberias→Galilée→Golan; CTAs Discovercars+Booking+GYG). E2e smoke+a11y routes added for all 5 pages. FR: 272→277/401.
+Gate: pnpm check 0 errors | pnpm build 1564 pages | pnpm test:e2e 2246/2246 passed (16.3m, exit code 0)
+Merge: squash-merge 01daba84 to master. PR #48 draft auto/fr-38-batch.
+Next: iter1047 → BUILD — DE-35 by rotation.
