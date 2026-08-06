@@ -1209,6 +1209,11 @@ const ROUTES = [
   '/fr/judean-hills-wine-trail',
   '/fr/sea-of-galilee-beaches',
   '/fr/northern-israel-road-trip',
+  '/es/israel-vs-albania',
+  '/es/judean-hills-wine-trail',
+  '/es/northern-israel-road-trip',
+  '/es/sea-of-galilee-beaches',
+  '/es/nazareth-tours-compared',
 ];
 
 for (const route of ROUTES) {
