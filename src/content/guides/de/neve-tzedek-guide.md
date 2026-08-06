@@ -107,7 +107,7 @@ Neve Tzedek verbindet sich natürlich mit folgenden Bereichen:
 
 **[Jaffa](/de/jaffa-travel-guide):** 15 Minuten Fußweg südlich über **HaTachana** (das restaurierte osmanische Bahnhofskomplex von 1892, jetzt ein Cluster aus Restaurants, Designboutiquen und einem Wochenmarkt am südlichen Rand des Viertels). Jaffa fügt den antiken Hafen, den Flohmarkt und Abu-Hassan-Hummus zu einem Süd-Tel-Aviv-Morgen hinzu.
 
-**[Karmel-Markt](/de/tel-aviv-beach-guide):** 10 Minuten nördlich. Eine logische Kombination: Markt am Morgen, Neve-Tzedek-Boutiquen und der Dellal-Innenhof danach.
+**[Karmel-Markt](/de/tel-aviv-carmel-market):** 10 Minuten nördlich. Eine logische Kombination: Markt am Morgen, Neve-Tzedek-Boutiquen und der Dellal-Innenhof danach.
 
 **[Weiße Stadt Tel Avivs](/de/tel-aviv-white-city):** Die Internationalen-Stil-Boulevards von Rothschild und Dizengoff sind 20 Minuten nördlich zu Fuß oder eine Haltestelle der Roten Linie. Ein ganzer Tag mit Neve Tzedek, dem Karmel-Markt-Bereich und der Weißen Stadt ist eine der besten Möglichkeiten, den Bogen der jüdischen Stadtgeschichte in Tel Aviv zu verstehen.
 

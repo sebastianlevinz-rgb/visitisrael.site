@@ -1,5 +1,5 @@
 ---
-title: 'Netanya Reiseführer: Mittelmeerküste, Diamanten & Frankophonie (2026)'
+title: 'Netanya Reiseführer: Mittelmeerküste, Diamanten & Frankophonie'
 description: 'Netanya Reiseführer: Klippenpromenade, 14 km Sandstrand, Stern-Diamantfabrik, französisches Viertel und Bahnverbindung ab Tel Aviv in 45 Minuten.'
 heroImage: /images/regions/haifa/hero.jpg
 category: Destinationen

@@ -1,5 +1,5 @@
 ---
-title: 'Yoga- und Meditationsretreats in Israel 2026: Vollständiger Leitfaden'
+title: 'Yoga- und Meditationsretreats in Israel: Vollständiger Leitfaden'
 description: 'Yoga- und Meditationsretreats in Israel: Negev-Wüstenlodges, Galiläa-Heiligtümer und Arava-Ökoretreatcenters. Auswahl und Buchung erklärt.'
 heroImage: /images/regions/negev/desert.jpg
 category: Planung
