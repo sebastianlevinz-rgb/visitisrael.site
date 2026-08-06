@@ -7891,3 +7891,62 @@ CAUTION (iter 980): celiac/gluten-free guides must use "tradition thérapeutique
 **Affiliate landscape**
 - Civitatis (LATAM) continues to dominate ES-language Israel tour sales; our CTAs correctly use GYG+Viator+Abraham which are competitive
 - No change to affiliate config needed
+
+### 2026-08-06 · iter 1045 · 204th research pass · comparison pages + wine trail + road trip i18n gaps
+
+**Sources**: touristisrael.com, thejc.com/myisraelstay.com (luxury hotels), travelandtourworld.com, wewillnomad.com, atij.org (accessibility), bneimitzvahtrip.com/barmitzvahinisrael.com (Jewish travel), Thrillophilia/Broke Backpacker (adventure content), Wine Industry Advisor (Shavuot winery events).
+
+**"Israel vs [country]" comparison pages — major i18n gap**
+- Tourist Israel has ZERO comparison pages — no head-to-head vs. Albania/Cyprus/France/Greece/Turkey pages
+- Our EN site has 6 "vs" pages (albania, cyprus, france, greece, turkey, egypt, jordan) — strong moat
+- All 6 MISSING from FR; 5/6 MISSING from DE; 4/6 MISSING from ES
+- "Israël vs Albanie" / "Israel vs. Albanien" / "Israel vs. Albania" — zero editorial competition in any non-EN locale
+- Albania specifically trending: WizzAir/Eurowings added Tirana routes from DACH; Air Albania adds CDG
+- Action: FR-38 and DE-35 start with israel-vs-albania; ES-51 also includes israel-vs-albania
+
+**Judean Hills wine trail — zero non-EN editorial**
+- No FR/DE/ES editorial competitor for "route du vin judéen" / "Weinstraße Judäische Berge" / "ruta vino Montes de Judea"
+- Germany is #1 per-capita wine consumer in Europe; wine tourism a proven revenue niche
+- France has world's largest wine tourism market; Israeli wines gaining recognition (Sommeliers of France tasting)
+- Confirmed: Domaine du Castel, Clos de Gat, Flam Winery, Tzora Vineyards, Domaine de Latroun all open to visitors
+- Action: add judean-hills-wine-trail to FR-38 + DE-35 + ES-51
+
+**Northern Israel road trip — "Rundreise" keyword gap**
+- "Rundreise Nordisrael" returns no dedicated editorial result in DE (only tour operator pages)
+- "circuit voiture nord Israël" returns no editorial result in FR
+- "ruta norte Israel en coche" returns no editorial result in ES
+- All three locales have the prerequisite cross-links (/de/car-rental-israel ✓, /de/driving-in-israel ✓, etc.)
+- Action: add northern-israel-road-trip to FR-38 + DE-35 + ES-51
+
+**Luxury hotels 2026 update**
+- InterContinental Jerusalem: IHG listing is live; "late summer 2026" remains the most recent public date (no confirmed open date Aug 6 2026); re-check September 2026
+- The Yacht Herzliya (Fattal): CONFIRMED OPEN June 2026 — 325 rooms, 2 pools; our new-luxury-hotels-israel-2026.md already covers this
+- Kassland Resort (Ma'ale Adumim): CONFIRMED OPEN May 2026; HUMAN REVIEW flag unchanged (settlement location); do not ship without human review
+- new-luxury-hotels-israel-2026.md MISSING from FR and ES (only DE); lower priority than core batches — queue for FR-39/ES-52 if batches need padding
+
+**Accessibility (confirmed covered)**
+- ATIJ.org is the dominant accessible travel authority for Israel; Wheelchair Accessible Travel TouristIsrael.com
+- Our israel-accessible-travel.md exists in EN + FR + DE + ES ✓ — all 4 locales covered, no gap
+- Access Israel (aisrael.org) publishes an official accessible vacation guide; our guide correctly references Yad Sarah
+
+**Bar/Bat Mitzvah travel (confirmed covered)**
+- bar-bat-mitzvah-israel.md exists in EN + FR + DE + ES ✓ — all 4 locales covered
+- Tourist Israel does dedicated Bar Mitzvah tour packages (13-day, 10-day, 9-day, 8-day)
+- Our editorial guide covers the full spectrum (Orthodox/Conservative/Reform/interfaith); monetized via GYG/Viator/Abraham
+
+**Sea of Galilee beaches — zero non-EN editorial**
+- sea-of-galilee-beaches.md English only; cross-links /fr/sea-of-galilee-guide ✓, /de/sea-of-galilee-guide ✓, /es/sea-of-galilee-guide ✓ all ready
+- Kibbutz beach content (Nof Ginosar, Ein Gev) especially valuable for DACH Christian pilgrimage market
+- Action: add sea-of-galilee-beaches to FR-38 + DE-35 + ES-51
+
+**Nazareth tours — ES gap**
+- nazareth-tours-compared.md English only; LATAM Catholic pilgrimage market strong
+- Civitatis.com ES already lists Nazareth half-day tours from TLV (~€55-70) as top seller
+- Our comparison guide (guided day tour vs. private vs. self-drive) + honest honesty note (modern city not biblical Nazareth) = competitive advantage
+- Action: add nazareth-tours-compared to ES-51
+
+**Negev multi-day hiking — DE gap**
+- negev-multi-day-hiking.md English only; DACH hiking market (Rother Wanderführer readers) = strongest in Europe
+- "Mehrtageswanderungen Negev Israel" → zero DACH editorial result
+- Israel National Trail southern section (Ramon Crater → Eilat 7-day arc) = flagship long-distance hiking product
+- Action: add negev-multi-day-hiking to DE-35

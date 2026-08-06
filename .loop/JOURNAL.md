@@ -15731,3 +15731,23 @@ Checks: (1) Titles: 49/62/62/51/45 chars — all ≤65. (2) Descriptions: 143/15
 Gate: pnpm check 0 errors (0 warnings, 116 hints — pre-existing baseId hint unchanged).
 Result: CLEAN — no code changes required.
 Next: iter1045 → RESEARCH (204th research pass).
+
+## 2026-08-06T18:30Z · iter 1045 · RESEARCH · 204th research pass; FR-38/DE-35/ES-51 defined
+
+What: RESEARCH mode (1045 % 5 = 0). Researched 2 competitor clusters + 3 gap categories via WebSearch (touristisrael.com, thejc.com, myisraelstay.com, travelandtourworld.com, wewillnomad.com, atij.org, bneimitzvahtrip.com, Wine Industry Advisor). No code changes; gate not run (RESEARCH mode).
+
+Key findings:
+1. "Israel vs [country]" comparison pages — zero editorial competition in FR/DE/ES for all 6 variants (albania/cyprus/france/greece/turkey/egypt); Tourist Israel has no comparison pages at all; our EN moat strong; defined as highest-value item for FR-38 + DE-35 + ES-51 batches.
+2. judean-hills-wine-trail.md — MISSING from all 3 locales; Germany #1 per-capita wine consumer in Europe; "Weinstraße Judäische Berge" = zero DACH editorial; confirmed Castel/Clos de Gat/Flam/Tzora visitor access.
+3. northern-israel-road-trip.md — MISSING from all 3 locales; "Rundreise Nordisrael" / "circuit voiture nord Israël" = zero editorial competition in DE/FR; prerequisite cross-links all ✓ (car-rental/driving-in-israel/haifa/akko/tiberias/sea-of-galilee/golan in all 3 locales).
+4. sea-of-galilee-beaches.md — MISSING from all 3 locales; beach content universally needed; all 10 cross-links verified ✓ across FR/DE/ES.
+5. negev-multi-day-hiking.md — MISSING from all 3 locales; defined for DE-35 (DACH hiking market); FR/ES lower priority (FR already has strong hiking content; ES next round).
+6. nazareth-tours-compared.md — MISSING from all 3 locales; defined for ES-51 (LATAM Catholic pilgrimage; Civitatis.com dominates but editorial guide = competitive advantage).
+7. InterContinental Jerusalem: still no confirmed open date as of Aug 6 2026; re-check September 2026.
+8. new-luxury-hotels-israel-2026.md: MISSING from FR + ES (only DE has it); queued for FR-39/ES-52 if batches need padding.
+9. Accessibility + bar-bat-mitzvah: confirmed covered in all 4 locales ✓ — no gap.
+
+BACKLOG additions: 3 new batch definitions (FR-38, DE-35, ES-51) each covering 5 guides = 15 new pages queued.
+COMPETITORS.md: appended full research findings.
+Locale counts confirmed: EN=401, FR=272/401 (129 remaining), DE=258/401 (143 remaining), ES=255/401 (146 remaining).
+Next: iter1046 → BUILD (i18n) — pick FR-38 or DE-35 (rotating; last BUILD was DE-34, so FR-38 has priority by rotation).
