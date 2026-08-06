@@ -20,7 +20,7 @@
 **Gaps to close:**
 - es guides: **146 missing** (255/401 done — Phase ES-50 SHIPPED iter1043 9aa61933; **next ES BUILD = ES-51** — batch defined iter1045 research)
 - fr guides: **124 missing** (277/401 done — Phase FR-38 SHIPPED iter1046 01daba84; **next FR BUILD = FR-39** — define next batch at next RESEARCH iter)
-- de guides: **143 missing** (258/401 done — Phase DE-34 SHIPPED iter1041 0fabfa96; **next DE BUILD = DE-35** — batch defined iter1045 research)
+- de guides: **138 missing** (263/401 done — Phase DE-35 SHIPPED iter1047 9c33413c; **next DE BUILD = DE-36** — define next batch at next RESEARCH iter)
 - fr/de/es attractions: **4 missing each** (the 4 EN attractions added after Phase 4)
 
 **Dead Sea cluster status (iter855 audit):**

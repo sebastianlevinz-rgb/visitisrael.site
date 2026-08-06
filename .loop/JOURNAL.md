@@ -15757,3 +15757,9 @@ What: 5 French-language guides — israel-vs-albania (Israël vs Albanie compari
 Gate: pnpm check 0 errors | pnpm build 1564 pages | pnpm test:e2e 2246/2246 passed (16.3m, exit code 0)
 Merge: squash-merge 01daba84 to master. PR #48 draft auto/fr-38-batch.
 Next: iter1047 → BUILD — DE-35 by rotation.
+
+## 2026-08-06 · iter 1047 · BUILD (i18n-DE) · de-35-batch
+What: 5 German-language guides — israel-vs-albania (Israel vs. Albanien Direktvergleich; 14-criteria table Kosten/Strände/Geschichte/Visum/Nachtleben/Fluglogistik; "Israel wählen wenn…"/"Albanien wählen wenn…"; 14-day combination itinerary; Wizz Air route caveat; paired naming Klagemauer+Felsendom; CTAs GYG+Booking+Skyscanner; 6 FAQs), judean-hills-wine-trail (Weinstraße Judäische Berge; Tzora/Flam/Castel/Nevo/Psagot; honest Psagot West Bank note; self-drive route from Jerusalem; CTAs Discovercars+GYG+Booking; 6 FAQs), northern-israel-road-trip (Rundreise Nordisrael 4 Tage TLV→Caesarea→Haifa→Akko→Rosh Hanikra→Tiberias→Kinneret/Golan→Nazareth; neutral Golan political-status note; Bahá'í exterior-only caveat; CTAs Discovercars+Booking+GYG; 6 FAQs), sea-of-galilee-beaches (Strände am See Genezareth; 6 beaches; Kinneret-Trail 55km/9 Etappen; water temperature table; CTAs GYG+Discovercars+Booking; 6 FAQs), negev-multi-day-hiking (Mehrtageswanderungen im Negev 3–5 Tage; Makhtesh Ramon+Wadi Ardon+Ein Avdat+Sde Boker+Avdat; water-logistics tables; life-safety summer warning Mai–September; CTAs GYG+Discovercars+SafetyWing; 7 FAQs). Standard Hochdeutsch; YAML double-quotes; /de/* cross-links pre-verified; no H1 in body. E2e smoke+a11y routes added for all 5 pages. DE: 258→263/401.
+Gate: pnpm check 0 errors | pnpm build 1569 pages | pnpm test:e2e 2256/2256 passed (18.0m, exit code 0)
+Merge: squash-merge 9c33413c to master. PR #49 draft auto/de-35-batch.
+Next: iter1048 → BUILD — ES-51 by rotation.
