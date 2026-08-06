@@ -1,6 +1,6 @@
 ---
 title: "Tour de David Jérusalem : Guide du Visiteur (2026–2027)"
-description: "Tour de David à Jérusalem : ce que contient la citadelle, vues depuis les toits, le Night Spectacular et comment l'intégrer à une visite de la Vieille Ville."
+description: "Tour de David : ce que contient la citadelle, vues depuis les toits, le Night Spectacular et comment l'intégrer à une visite de la Vieille Ville."
 heroImage: /images/sub-destinations/jerusalem/tower-of-david.jpg
 category: Sacred Sites
 updatedAt: 2026-08-06
