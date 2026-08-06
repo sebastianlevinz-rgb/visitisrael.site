@@ -1434,3 +1434,47 @@ Cross-links to verify before BUILD:
 - /de/tel-aviv-museums ✓, /de/jewish-heritage-israel ✓: confirmed existing
 
 Quality: Standard Hochdeutsch; YAML double-quotes; /de/* prefix nur für bestätigte DE-Seiten (EN-Fallback bei fehlender DE-Version); Preisangaben als Spannen (₪); Gedenkstätten-Seiten sachlich ohne Verherrlichung; Saisonführer: historische Temperaturbänder, kein Tageswetter-Versprechen; ANU-Museum: keine fabrizierten Ausstellungstitel.
+
+---
+
+## Updated status snapshot (iter1035 RESEARCH 2026-08-06)
+
+| Locale | Guides | Note |
+|--------|--------|------|
+| en     | 398    | stable |
+| fr     | 267    | 131 missing — Phase FR-36 SHIPPED iter1033 fb251c60; **Phase FR-37 defined iter1035** |
+| de     | 253    | 145 missing — Phase DE-33 SHIPPED iter1032 97a6e679; **Phase DE-34 defined iter1035** |
+| es     | 245    | 153 missing — Phase ES-48 SHIPPED iter1031 e5d34afb; **Phase ES-49 defined iter1035** |
+
+### Phase FR-37 (267 → 272/398) — DEFINED iter1035
+
+Guides: `israel-for-french-travelers.md`, `israel-packing-list-guide.md`, `jaffa-hotels-guide.md`, `neve-tzedek-guide.md`, `tower-of-david-guide.md`
+All 5 confirmed MISSING from `src/content/guides/fr/` via `comm -23` (2026-08-06).
+- israel-for-french-travelers: #1 priority; France is 3rd largest Israel tourism source; ETA-IL since Jan 2025 (iaa.gov.il, ₪25, 72h, valid 2 years); Air France CDG+ORY+NCE, Transavia ORY, El Al TLV nonstop; Carte Vitale not valid abroad (assurance voyage required); Type-H adapter; time-zone table; ELEFAND; zero FR SERP competition; pairs with /fr/visa-information, /fr/first-time-in-israel, /fr/is-israel-safe (all confirmed existing)
+- israel-packing-list-guide: completes EN/DE/ES cluster (DE-33 shipped iter1032); "liste de bagages Israël" practical searches; modesty clothing for holy sites; only-carry-on strategy; Type-H adapter; Dead Sea cosmetics; Booking+GYG+SafetyWing CTAs; pairs with /fr/first-time-in-israel, /fr/is-israel-safe (confirmed existing). NOTE: no /fr/tel-aviv-travel-guide — use plain /tel-aviv link for any TLV reference
+- jaffa-hotels-guide: Jaffa boutique accommodation; /fr/jaffa-travel-guide CONFIRMED EXISTS; Old Jaffa boutique zone + Old City fringe hotels + Port area; Booking CTAs; ₪ price ranges; decision matrix by location; pairs with /fr/jaffa-travel-guide, /fr/tel-aviv-beach-guide (verify at BUILD time)
+- neve-tzedek-guide: TLV's oldest neighborhood (founded 1887); Suzanne Dellal Centre (dance + theatre); Nahum Gutman Museum; Rokach House; Shabazi Street boutiques; zero FR editorial competition (Expedia+GYG only); boutique hotels cluster; Booking CTAs. NOTE: no /fr/tel-aviv-travel-guide — use plain link /en/tel-aviv-travel-guide as EN fallback or just avoid the cross-link
+- tower-of-david-guide: Tower of David Museum in Jerusalem Citadel; Night Spectacular summer 2026; rooftop views; video mapping show; Booking+GYG+Viator CTAs; pairs with /fr/easter-in-jerusalem (CONFIRMED EXISTS), /fr/1-day-jerusalem-itinerary (confirm at BUILD time)
+Quality: metropolitan French; YAML double-quotes; /fr/* prefix only for confirmed existing FR pages; no fabricated prices or ratings; honest Night Spectacular dates (seasonal — verify intra-BUILD); no H1 in body.
+
+### Phase DE-34 (253 → 258/398) — DEFINED iter1035
+
+Guides: `netanya-guide.md`, `passover-in-israel.md`, `israel-water-parks.md`, `israel-yoga-retreats.md`, `neve-tzedek-guide.md`
+All 5 confirmed MISSING from `src/content/guides/de/` via `comm -23` (2026-08-06).
+- netanya-guide: DACH gap: ~40K German-speaking Israeli residents (German aliyah community; Germany #1 European origin country for aliyah); zero DE editorial; Cliffside promenade + Poleg Blue Flag beach + Stern Diamond Factory (commercial nature disclosed) + French Quarter (EN guide notes ~60K francophones: cross-mention for DACH context); /de/best-hotels-netanya CONFIRMED EXISTS; Booking CTAs; decision matrix; 6 FAQs
+- passover-in-israel: DACH Jewish calendar guide; Pessah 5787 April 22–29 2027; Ben Gurion 25h partial closure first/last days; hotel Seder programs; Birkat Kohanim logistics (Western Wall + Hebron is out-of-scope — use only /de/western-wall-guide reference); tourist Seder options; open/closed guide; /de/rosh-hashanah-in-israel CONFIRMED EXISTS; /de/yom-kippur-in-israel CONFIRMED EXISTS; Booking+GYG+Viator CTAs; 6 FAQs
+- israel-water-parks: family summer cluster completion in DE (already in EN+FR); Shefayim (50+ slides, Costal Road), Superland Rishon LeZion (50+ rides), Gal-Gil Nahariya (north), Luna Park TLV (seafront funfair), Mini Israel Latrun (scale models); Booking+GYG+Discovercars CTAs; 7 FAQs; pairs with /de/israel-with-kids (confirm at BUILD time)
+- israel-yoga-retreats: DACH wellness tourism (Germany = Europe's largest wellness travel market); 7 retreat centers (Six Senses Shaharut Arava 400–800€; Desert Ashram Mitzpe Ramon 80–120€; Lev Hamidbar Mitzpe Ramon 150–250€; Ne'ot Semadar Arava 70–110€; Mitzpe Alummot Galilee 130–200€; Or HaLev Pardes Hanna 120–180€; Moa Oasis Mitzpe Ramon 150–220€); seasonal calendar; 7 FAQs; GYG+Booking+Discovercars CTAs; already in EN+FR (iter1033 FR-36)
+- neve-tzedek-guide: TLV Bauhaus UNESCO quarter (Neve Tzedek borders White City UNESCO zone); Suzanne Dellal Centre (international dance festival); Nahum Gutman Museum; Rokach House; boutique hotels; DACH cultural-design tourism (large segment); Booking CTAs; zero DE editorial (verified via rapunzel-will-raus.ch = blog only, no editorial guide)
+Quality: Standard Hochdeutsch; YAML double-quotes; /de/* prefix only for confirmed existing DE pages; no fabricated prices; Makhtesh Ramon correctly "Erosionskrater" in yoga-retreats descriptions; no H1 in body.
+
+### Phase ES-49 (245 → 250/398) — DEFINED iter1035
+
+Guides: `jordan-river-baptism.md`, `israel-water-parks.md`, `israel-with-teenagers.md`, `sukkot-in-israel.md`, `neve-tzedek-guide.md`
+All 5 confirmed MISSING from `src/content/guides/es/` via `comm -23` (2026-08-06).
+- jordan-river-baptism: #1 LATAM Catholic pilgrimage gap; Yardenit (Kinneret south shore, open daily, honesty note: "popular per tradition but not authenticated historically"); Qasr el-Yahud (Jordan River actual baptism site on Wadi al-Kharrar border, West Bank Area C, free entry — pair-name with River Jordan / Nahr al-Urdunn); GYG+Abraham+Viator CTAs; 6 FAQs; pairs with /es/christian-pilgrimage-holy-land (confirm at BUILD time), /es/sea-of-galilee-guide (confirm)
+- israel-water-parks: family summer; completes EN/FR/DE/ES cluster (all 4 locales); Shefayim (50+ slides), Superland, Gal-Gil (norte), Luna Park TLV, Mini Israel Latrun; GYG+Booking+Discovercars CTAs; 7 FAQs; already in EN+FR (iter1033 FR-36); pairs with /es/israel-with-kids (confirm at BUILD time)
+- israel-with-teenagers: family cluster completion in ES; completes EN/FR/DE/ES cluster; adventure focus: Masada cable car + Dead Sea floating + surf TLV (Yaam/other schools) + rappel Wadi Aharoni + water hiking Hexagons Galilee; 13–15 vs 16–17 strategy section; 7 FAQs; GYG+Booking+Discovercars CTAs; already in EN+FR (iter1033 FR-36)
+- sukkot-in-israel: Jewish holidays cluster for ES; /es/rosh-hashanah-in-israel CONFIRMED EXISTS; /es/yom-kippur-in-israel CONFIRMED EXISTS; Sucot 2026 Sept 25–Oct 2 + Sucot 5787 Oct 13–20 2027; Birkat Kohanim (Western Wall 6:30am arrival 7:30am ceremony); Hula Valley cranes arrive Oct; Tabernacles as sukka-building experience; GYG+Booking+Viator CTAs; 6 FAQs; already in FR (iter1008 FR-31); paired-naming note: use Monte del Templo / Haram al-Sharif for any Temple Mount reference
+- neve-tzedek-guide: TLV's oldest and most fashionable neighborhood; Suzanne Dellal Centre; Nahum Gutman Museum; Rokach House; boutique hotels + Airbnb-style stays; zero ES editorial; LATAM Instagram-tourism angle (Shabazi + colorful lanes = photo-friendly); Booking CTAs; 6 FAQs; pairs with /es/jaffa-travel-guide (confirm at BUILD time), /es/tel-aviv-beach-guide (confirm)
+Quality: neutral LATAM Spanish tuteo; YAML double-quotes; /es/ prefix only for confirmed existing ES pages; no fabricated prices; Yardenit "popular pero no auténtico históricamente" honesty note (important: the actual baptism site is Qasr el-Yahud); Jordan River West Bank/Area C location noted; Sucot dates verified; no H1 in body.

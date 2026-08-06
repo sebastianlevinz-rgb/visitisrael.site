@@ -15611,3 +15611,17 @@ FR locale: 262→267/398 (131 remaining).
 What: Audited all 5 FR-36 guides (israel-water-parks, israel-with-teenagers, israel-yoga-retreats, israel-vs-egypt, israel-national-bike-trail) shipped in iter1033.
 Checks: (1) Titles all ≤65 chars (range 48–55 chars). (2) Descriptions all ≤160 chars (israel-water-parks exactly 160, others 142–156). (3) No H1 nodes in any body (awk frontmatter-aware check). (4) All 5 hero images exist in public/. (5) 19/19 internal /fr/* cross-links resolve to existing files on disk. (6) Affiliate partners getyourguide+booking+discovercars all registered valid in src/config/affiliates.ts. (7) Price claims are ranges only (no fabricated ratings, no exact prices). (8) Honesty spot-checks: Taba crossing (Rafah closed for tourists noted; South Sinai 14-day free zone vs. full Egypt e-visa distinction correct; Israeli stamp on separate document since 2013 — accurate); yoga retreat prices presented as ranges (80–120€ to 400–800€) with "consult official site" caveats; water park billets noted as "consultez le site officiel pour les tarifs actuels". (9) pnpm check: 0 errors.
 Result: CLEAN. No violations found; no fixes needed. No code changes shipped.
+
+## 2026-08-06T09:00Z · iter 1035 · RESEARCH · research-1035-gap-analysis-fr37-de34-es49
+
+What: 204th research pass. Gap analysis via `comm -23` across all 3 locales. Cross-link pre-verification for next 3 batches. Competitor scan.
+Counts: FR=267/398 (131 missing), DE=253/398 (145 missing), ES=245/398 (153 missing).
+Competitor findings: touristisrael.com now publishing Oct 7th/Nova Festival memorial site guides (Gaza Border Tour + Nova Festival small-group tour) — emerging niche not yet in our BACKLOG; Neve Tzedek has Expedia+GYG+TripAdvisor EN coverage but zero editorial in FR/DE/ES = confirmed gap; Netanya zero German editorial despite ~40K German-speaking Israeli residents (aliyah community); DACH market: rapunzel-will-raus.ch + israel-reiseleiter.com = limited coverage; no deep editorial competition in FR/DE for Neve Tzedek, tower-of-david, passover.
+FR-37 defined: israel-for-french-travelers + israel-packing-list-guide + jaffa-hotels-guide + neve-tzedek-guide + tower-of-david-guide. All 5 EN source files confirmed. Key cross-links: /fr/jaffa-travel-guide EXISTS; /fr/first-time-in-israel EXISTS; /fr/easter-in-jerusalem EXISTS; /fr/1-day-jerusalem-itinerary (to verify at BUILD time).
+DE-34 defined: netanya-guide + passover-in-israel + israel-water-parks + israel-yoga-retreats + neve-tzedek-guide. Cross-links: /de/best-hotels-netanya EXISTS; /de/rosh-hashanah-in-israel EXISTS; /de/yom-kippur-in-israel EXISTS.
+ES-49 defined: jordan-river-baptism + israel-water-parks + israel-with-teenagers + sukkot-in-israel + neve-tzedek-guide. Cross-links: /es/rosh-hashanah-in-israel EXISTS; /es/yom-kippur-in-israel EXISTS; /es/christian-pilgrimage-holy-land (to verify at BUILD time).
+Honesty notes carried forward: israel-for-french-travelers must note Carte Vitale not valid abroad; /fr/israel-packing-list-guide no /fr/tel-aviv-travel-guide exists (use plain link); neve-tzedek-guide no /fr/ or /de/ or /es/ tel-aviv-travel-guide exists (use plain link or /tel-aviv).
+Gate: N/A (RESEARCH mode; no code changes).
+Merge: N/A — state files only committed to master.
+FR: 267/398 (unchanged). DE: 253/398 (unchanged). ES: 245/398 (unchanged).
+Next: iter 1036 → BUILD (i18n-ES-49): jordan-river-baptism + israel-water-parks + israel-with-teenagers + sukkot-in-israel + neve-tzedek-guide.

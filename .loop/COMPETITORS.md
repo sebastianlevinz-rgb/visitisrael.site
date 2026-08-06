@@ -7857,3 +7857,37 @@ CAUTION (iter 980): celiac/gluten-free guides must use "tradition thérapeutique
 - 6 interactive tools: zero competitor equivalent in FR/DE/ES.
 - Comparison guides (vs Jordan/Greece/Turkey): ES has these; FR missing vs-egypt/vs-france/vs-greece/vs-turkey cluster; DE missing most comparison guides.
 - Nationality guides: 30+ EN guides; FR/DE/ES translations nearly all MISSING — enormous untapped cluster.
+
+## iter1035 · 2026-08-06 · 204th research pass
+
+**New niche emerging: Oct 7th memorial tourism (touristisrael.com)**
+- touristisrael.com published "Gaza Border Tour" + "Gaza Border & Nova Festival Small Group Tour" targeting memorial visitors
+- Zero editorial competitors in FR/DE/ES for this niche
+- Opportunity: add to BACKLOG as P3 seo-content item (sensitive — needs careful, honest framing; not appropriate until EN guide exists first)
+- Action: queue "nova-festival-supernova-memorial-guide" as EN guide first, then FR/DE/ES translation
+
+**Neve Tzedek gap confirmed across FR/DE/ES**
+- Expedia, GYG, TripAdvisor all have coverage (tours, bookings)
+- rapunzel-will-raus.ch (DE travel blog) has a single blog post, no editorial guide
+- Israel-reiseleiter.com offers city tours but no destination guide
+- Zero dedicated editorial competitor in FR/DE/ES → added to FR-37 + DE-34 + ES-49
+
+**Netanya zero editorial in DE**
+- Despite ~40K German-speaking Israeli residents (German aliyah community = largest European origin for aliyah)
+- diplo.de only has safety warnings; no German travel editorial at all
+- Confirms Netanya as high-value DE-34 priority
+
+**Competitor feature: Saturday/Florentin walking tour**
+- TouristIsrael.com added "Tel Aviv Saturday Walking Tour through Florentin and Park HaMesila"
+- We have Neve Tzedek but not Florentin specifically
+- Add Florentin/south TLV neighborhood guide to P3 BACKLOG (after Neve Tzedek ships)
+
+**Israel tourism recovery (summer 2026)**
+- North American visitors confirmed at +73% YoY through June 2026
+- American Airlines JFK nonstop restarted March 2026; Delta Boston "late 2026"
+- DACH market warming: israel-reiseleiter.com reporting increased bookings
+- Frommer's + TripAdvisor continue strong editorial coverage in EN → validate that our FR/DE/ES has no equivalents for their top-ranked pages
+
+**Affiliate landscape**
+- Civitatis (LATAM) continues to dominate ES-language Israel tour sales; our CTAs correctly use GYG+Viator+Abraham which are competitive
+- No change to affiliate config needed
