@@ -15724,3 +15724,10 @@ Gate: pnpm check 0 errors; build 1559 pages (+5 over 1554 baseline); pnpm test:e
 Merge: commit 9aa61933 on master, pushed (files were in working tree unstaged — committed directly to master after gate passed).
 ES count: 250→255/398.
 Next: iter1044 → REVIEW — audit all 5 ES-50 guides (titles ≤65/descs ≤160/H1/hero images/cross-links/affiliates).
+
+## 2026-08-06 · iter 1044 · REVIEW (ES-50 audit) · review-1044-es-50-audit
+What: audited all 5 ES-50 guides — israel-yoga-retreats, kibbutz-hotels-israel, israel-national-bike-trail, negev-makhtesh-guide, jaffa-hotels-guide.
+Checks: (1) Titles: 49/62/62/51/45 chars — all ≤65. (2) Descriptions: 143/151/147/147/155 chars — all ≤160. (3) No H1 in any body (all 5 clean via Python regex). (4) 8/8 hero images exist on disk (negev/desert.jpg ×3; galilee/sea-of-galilee.jpg; galilee/hero.jpg; dead-sea/ein-gedi.jpg; tel-aviv/jaffa.jpg ×2; negev/mitzpe-ramon.jpg). (5) 14/14 /es/* cross-links resolve: hiking-in-israel ✓, mitzpe-ramon-guide ✓, best-hotels-negev ✓, dead-sea-hotels-guide ✓, best-hotels-sea-of-galilee ✓, sea-of-galilee-guide ✓, galilee-tours-compared ✓, 3-days-in-galilee ✓, 3-days-in-negev ✓, israel-national-parks-pass ✓, jaffa-travel-guide ✓, best-hotels-tel-aviv ✓, tel-aviv-neighborhoods-guide ✓, jaffa-food-guide ✓. (6) Affiliates booking+getyourguide+discovercars all valid. (7) Price claims are ranges only — no fabricated ratings/exact prices across all 5 guides.
+Gate: pnpm check 0 errors (0 warnings, 116 hints — pre-existing baseId hint unchanged).
+Result: CLEAN — no code changes required.
+Next: iter1045 → RESEARCH (204th research pass).
