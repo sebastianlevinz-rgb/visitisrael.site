@@ -15539,3 +15539,10 @@ Items agent found but already in BACKLOG:
 - israel-volunteer-travel → duplicate of extended-stay-israel phantom entry
 
 Agent note: confirmed israel-business-travel-guide, israel-campervan, israel-craft-beer, israel-fine-dining, israel-affordable-luxury, israel-trip-cost-by-style ALL EXIST in src/content/guides/ (EN). These are i18n translation targets for ES only, not missing EN content.
+
+## 2026-08-05 · iter 1026 · BUILD (i18n-DE) · de-32-jerusalem-museums-jericho-layover-jewish-quarter-kibbutz
+What: 5 DE guides — jerusalem-museums (7-museum circuit Israelmuseum/Yad Vashem/Bibelwelten/Davidszitadelle/Rockefeller/Toleranzmuseum; Tiqets+GYG+Booking CTAs; 7 FAQs), jericho-day-trip-from-jerusalem (Zone-A-Logistik Sherut₪25-30/Taxi₪80-120; Tell es-Sultan; Hischams-Palast-Mosaik; Seilbahn; Auswärtiges Amt link; GYG+Viator+Abraham CTAs; 7 FAQs; broken link /de/3-days-in-jerusalem→/de/1-day-jerusalem-itinerary fixed after links.spec failure), layover-tel-aviv (4h/6h/8-10h/24h Stufentabelle; WelcomePickups+GYG+Booking CTAs; 6 FAQs), jewish-quarter-jerusalem-guide (Wohl-Museum+Verbranntes Haus+Davidson+Cardo+Churva+Vier Sephardische Synagogen+Breite Mauer; GYG+Viator+Booking CTAs; 7 FAQs), kibbutz-hotels-israel (6 Regionen: Ein Gedi/Nof Ginosar/Galiläa/Golan/Lotan Negev/Ramat Rachel; Summer 2026 Nir David+Ortal Programme; Booking×2+GYG CTAs; 6 FAQs). Standard Hochdeutsch; YAML double-quotes; 18/18 /de/* cross-links verified; no fabricated prices/ratings; no H1.
+Gate: pnpm check 0 errors; build 1514 pages (+5); pnpm test:e2e 2211/2211 pass (34.6m). First run failed (broken link /de/3-days-in-jerusalem); fixed + rebuilt + re-gated (2211/2211 pass).
+Ship: squash-merged to master e63ba3f, pushed. PR #46 draft auto/de-32-guides.
+DE: 243→248/398.
+Next: BUILD iter1027 — balanced rotation (monetization/seo-content/tools/technical or i18n-ES ES-47 / i18n-FR FR-35).
