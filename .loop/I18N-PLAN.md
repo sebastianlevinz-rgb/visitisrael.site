@@ -6,13 +6,13 @@
 >
 > One bounded slice per loop iteration. NEVER bulk-translate in one shot.
 
-## Current status snapshot (2026-08-06 iter1038 BUILD — FR-37 SHIPPED debb2b7c)
+## Current status snapshot (2026-08-06 iter1041 BUILD — DE-34 SHIPPED 0fabfa96)
 
 | Locale | Guides | Attractions | Regions | Itineraries |
 |--------|--------|-------------|---------|-------------|
 | en     | 398    | 65          | 11      | 6           |
 | fr     | 271    | 61          | 11      | 6           |
-| de     | 253    | 61          | 11      | 6           |
+| de     | 258    | 61          | 11      | 6           |
 | es     | 250    | 61          | 11      | 6           |
 
 **🎉 MILESTONE: ES + FR + DE monthly guides ALL COMPLETE** (iter996+iter997 ES-41+ES-42 SHIPPED — all 12 per-month guides jan-dec now exist in ES, FR, and DE)
@@ -20,7 +20,7 @@
 **Gaps to close:**
 - es guides: **148 missing** (250/398 done — Phase ES-49 SHIPPED iter1036 63d88f3c; **next ES BUILD = ES-50** — define next batch at next RESEARCH iter)
 - fr guides: **127 missing** (271/398 done — Phase FR-37 SHIPPED iter1038 debb2b7c; **next FR BUILD = FR-38** — define next batch at next RESEARCH iter)
-- de guides: **145 missing** (253/398 done — Phase DE-33 SHIPPED iter1032 97a6e679; **next DE BUILD = DE-34** — define next batch at next RESEARCH iter)
+- de guides: **140 missing** (258/398 done — Phase DE-34 SHIPPED iter1041 0fabfa96; **next DE BUILD = DE-35** — define next batch at next RESEARCH iter)
 - fr/de/es attractions: **4 missing each** (the 4 EN attractions added after Phase 4)
 
 **Dead Sea cluster status (iter855 audit):**
@@ -1457,7 +1457,7 @@ All 5 confirmed MISSING from `src/content/guides/fr/` via `comm -23` (2026-08-06
 - tower-of-david-guide: Tower of David Museum in Jerusalem Citadel; Night Spectacular summer 2026; rooftop views; video mapping show; Booking+GYG+Viator CTAs; pairs with /fr/easter-in-jerusalem (CONFIRMED EXISTS), /fr/1-day-jerusalem-itinerary (confirm at BUILD time)
 Quality: metropolitan French; YAML double-quotes; /fr/* prefix only for confirmed existing FR pages; no fabricated prices or ratings; honest Night Spectacular dates (seasonal — verify intra-BUILD); no H1 in body.
 
-### Phase DE-34 (253 → 258/398) — DEFINED iter1035
+### Phase DE-34 (253 → 258/398) — SHIPPED iter1041 — 0fabfa96
 
 Guides: `netanya-guide.md`, `passover-in-israel.md`, `israel-water-parks.md`, `israel-yoga-retreats.md`, `neve-tzedek-guide.md`
 All 5 confirmed MISSING from `src/content/guides/de/` via `comm -23` (2026-08-06).

@@ -1,13 +1,15 @@
 # LOOP STATE
 
-- iteration: 1040
-- lastMode: REVIEW
-- lastItem: review-1040-fr-37-meta-trim
-- lastResult: SHIPPED ec18693e — tower-of-david-guide FR description trimmed 161→147 chars. Audited 4/5 FR-37 guides (israel-packing-list-guide, jaffa-hotels-guide, neve-tzedek-guide, tower-of-david-guide). 1 violation found and fixed. western-galilee-guide (5th, added concurrently) still needs audit — queued for next REVIEW pass. Gate: pnpm check 0 errors; build 1548 pages; pnpm test:e2e 2219/2219 pass (17.9m). Pushed ec18693e on master.
-- nextRotationCategory: BUILD (i18n-DE-34) — iter1041; candidate: netanya-guide + passover-in-israel + israel-water-parks + israel-yoga-retreats + neve-tzedek-guide (5 DE guides defined iter1035)
+- iteration: 1041
+- lastMode: BUILD
+- lastItem: de-34-guides
+- lastResult: SHIPPED 0fabfa96 — 5 DE guides (netanya-guide, passover-in-israel, israel-water-parks, israel-yoga-retreats, neve-tzedek-guide). DE count 253→258/398. Gate: pnpm check 0 errors; build 1554 pages (+5); pnpm test:e2e 2231/2231 pass (14.5m). Pushed 0fabfa96 on master.
+- nextRotationCategory: REVIEW (de-34-audit) — iter1042; audit 5 DE-34 guides (titles/descs/H1/images/cross-links/affiliates) + western-galilee-guide (FR-37 5th guide, still pending from iter1040)
 - higgsfieldSpent: 0
-- updatedAt: 2026-08-06T14:40Z
+- updatedAt: 2026-08-06T15:05Z
 - branch context: work on master; feature work on auto/<slug>
+
+Notes: iter1041 BUILD — DE-34 batch SHIPPED 0fabfa96. 5 DE guides: netanya-guide (Klippenpromenade, Diamantfabrik, französisches Viertel, ~40K deutschsprachige Israelis DACH-Kontext; Booking+GYG CTAs; 6 FAQs), passover-in-israel (Pessach 5787=22.–29. Apr 2027; Birkat Kohanim 26. Apr 2027; hotel Seder-Programme; Ben Gurion 25h Teilschließung; TourRadar+Booking+GYG CTAs; 6 FAQs), israel-water-parks (Shefayim+Superland+Gal-Gil+Luna Park TLV+Mini Israel; Öffnungszeiten+Ticketpreise als Spannen; GYG+Booking+Discovercars CTAs; 7 FAQs), israel-yoga-retreats (Six Senses Shaharut 400-800€+Desert Ashram 80-120€+Lev Hamidbar+Ne'ot Semadar+Mitzpe Alummot+Or HaLev+Moa Oasis 150-220€; Moa Oasis on Nabataean incense route; GYG+Booking+Discovercars CTAs; 7 FAQs), neve-tzedek-guide (gegr. 1887; Suzanne-Dellal-Zentrum; Shabazi-Boutiquen; Nahum-Gutman-Museum; Bauhaus-UNESCO-Kontext; Booking+GYG CTAs; 6 FAQs). Standard Hochdeutsch; YAML double-quotes (Ne'ot Semadar apostrophe in yoga-retreats fixed); /de/* cross-links pre-verified; no fabricated prices/ratings; no H1 in body. E2e smoke+a11y routes added for all 5 /de/ pages. DE: 253→258/398. Build: 1549→1554 pages (+5). Gate: pnpm check 0 errors; build 1554 pages; pnpm test:e2e 2231/2231 pass (14.5m). Squash-merge 0fabfa96ba1719495d8604766427b6d5833a3839 on master. Pending REVIEW: western-galilee-guide (FR-37 5th) + all 5 DE-34 guides.
 
 Notes: iter1040 REVIEW — review-1040-fr-37-meta-trim SHIPPED ec18693e. Audited 4/5 FR-37 guides (israel-packing-list-guide, jaffa-hotels-guide, neve-tzedek-guide, tower-of-david-guide). Checks: (1) Titles all ≤65 chars (58/44/64/58). (2) Descriptions: 3/4 ≤160; tower-of-david-guide was 161 chars — fixed to 147 by removing "à Jérusalem" (already in title). (3) No H1 in body (all 4 clean). (4) All 4 hero images exist on disk. (5) 40/40 /fr/* cross-links resolve. (6) Affiliates booking+getyourguide+safetywing+viator all valid. (7) No fabricated ratings/review counts/exact prices. (8) pnpm check 0 errors. western-galilee-guide (5th FR-37 guide, added concurrently by iter1039 session) not yet audited — queue for next REVIEW pass. Gate: pnpm check 0 errors; build 1548 pages (unchanged); pnpm test:e2e 2219/2219 pass (17.9m). Commit: ec18693e.
 

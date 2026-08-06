@@ -15683,3 +15683,18 @@ western-galilee-guide (5th FR-37 guide, added concurrently by iter1039) not yet 
 Gate: pnpm check 0 errors; build 1548 pages (unchanged); pnpm test:e2e 2219/2219 pass (17.9m).
 Merge: commit ec18693e on master, pushed (rebased on top of iter1039 addendum commit).
 Next: iter1041 → BUILD (i18n-DE-34): netanya-guide + passover-in-israel + israel-water-parks + israel-yoga-retreats + neve-tzedek-guide (5 DE guides).
+
+## 2026-08-06 · iter 1041 · BUILD (i18n-DE-34) · de-34-guides
+What: 5 new German-language guides for the DE-34 batch (defined iter1035). All 5 confirmed MISSING from src/content/guides/de/ pre-build.
+Guides shipped:
+- netanya-guide: Klippenpromenade, Stern-Diamantfabrik (commercial nature disclosed), französisches Viertel, ~40K deutschsprachige Israelis (DACH-Kontext). Partners: Booking+GYG. 6 FAQs. Cross-links: /de/best-hotels-netanya, /de/caesarea-guide, /de/day-trips-from-tel-aviv, /de/haifa-travel-guide, /de/transportation.
+- passover-in-israel: Pessach 5787 = 22.–29. Apr 2027; Birkat Kohanim 26. Apr 2027; hotel Seder-Programme; Ben Gurion 25h Teilschließung erste/letzte Feiertage; Chametz-Regelung; touristischer Seder-Guide. Partners: TourRadar+Booking+GYG. 6 FAQs. Cross-links: /de/western-wall-guide, /de/rosh-hashanah-in-israel, /de/yom-kippur-in-israel, /de/dead-sea-guide, /de/israel-in-april, /de/car-rental-israel.
+- israel-water-parks: Shefayim (50+ Rutschen), Superland Rishon LeZion, Gal-Gil Nahariya, Luna Park TLV, Mini Israel Latrun. Öffnungszeiten+Ticketpreise als Spannen. Partners: GYG+Booking+Discovercars. 7 FAQs.
+- israel-yoga-retreats: 7 Retreat-Zentren (Six Senses Shaharut 400–800€; Desert Ashram 80–120€; Lev Hamidbar 150–250€; Ne'ot Semadar 70–110€ — YAML apostrophe fix applied; Mitzpe Alummot 130–200€; Or HaLev 120–180€; Moa Oasis 150–220€ on nabataean incense route). Saisonkalender. Partners: GYG+Booking+Discovercars. 7 FAQs. Note: /de/negev MISSING → skipped that cross-link.
+- neve-tzedek-guide: gegr. 1887; Suzanne-Dellal-Zentrum; Shabazi-Boutiquen; Nahum-Gutman-Museum ₪30; Bauhaus-UNESCO-Bezug (DACH Kulturtourismus). Partners: Booking+GYG. 6 FAQs. Cross-links: /de/jaffa-travel-guide, /de/tel-aviv-beach-guide, /de/tel-aviv-white-city, /de/transportation.
+E2e smoke+a11y routes added for all 5 new /de/ pages.
+YAML fix: israel-yoga-retreats discovercars CTA description used single-quote wrapper with Ne'ot Semadar apostrophe inside → switched to double-quote wrapper.
+Gate: pnpm check 0 errors; build 1554 pages (+5 over 1549 baseline); pnpm test:e2e 2231/2231 pass (14.5m, exit code 0).
+Merge: squash-merge auto/de-34-guides → master; commit 0fabfa96ba1719495d8604766427b6d5833a3839, pushed.
+DE count: 253 → 258/398.
+Next: iter1042 → REVIEW (de-34-audit): audit all 5 DE-34 guides (titles ≤65/descs ≤160/H1/images/cross-links/affiliates) + western-galilee-guide (FR-37 5th, pending since iter1040).
