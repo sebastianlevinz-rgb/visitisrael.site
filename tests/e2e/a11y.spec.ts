@@ -924,6 +924,11 @@ const ROUTES = [
   '/de/israel-water-parks',
   '/de/israel-yoga-retreats',
   '/de/neve-tzedek-guide',
+  '/es/israel-yoga-retreats',
+  '/es/kibbutz-hotels-israel',
+  '/es/israel-national-bike-trail',
+  '/es/negev-makhtesh-guide',
+  '/es/jaffa-hotels-guide',
 ];
 
 for (const route of ROUTES) {
