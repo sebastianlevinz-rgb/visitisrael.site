@@ -15769,3 +15769,9 @@ What: 5 Spanish-language guides — israel-vs-albania (Israel vs. Albania: ¿Cu�
 Gate: pnpm check 0 errors | pnpm build 1574 pages | pnpm test:e2e 2261/2261 passed (24.7m, exit code 0)
 Merge: squash-merge 1790f187 to master.
 Next: iter1049 → REVIEW mode (1049 % 5 = 4).
+
+## 2026-08-06 · iter 1049 · REVIEW · review-1049-es51-meta-trim
+What: Audited all 5 ES-51 guides shipped in iter1048. Found 4 meta violations (2 title overruns, 3 desc overruns — northern-israel-road-trip had both). Fixes: judean-hills-wine-trail title 66→57 + desc 170→140; northern-israel-road-trip title 68→53 + desc 157→142; sea-of-galilee-beaches desc 167→145; nazareth-tours-compared desc 205→149. israel-vs-albania was clean (title 57, desc 155). All other checks clean: no H1 in body on any of the 5 guides; all 5 hero images exist on disk; 22/22 /es/* cross-links resolve; affiliates getyourguide+booking+discovercars+viator all valid; no fabricated ratings/exact prices.
+Gate: pnpm check 0 errors | pnpm build 1574 pages | pnpm test:e2e 2261/2261 passed (23.1m, exit code 0)
+Merge: squash-merge 681392d to master. Vercel CI pending at push time.
+Next: iter1050 → RESEARCH mode (1050 % 5 = 0).
