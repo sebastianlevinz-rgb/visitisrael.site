@@ -15605,3 +15605,9 @@ What: 5 new FR guides — israel-water-parks, israel-with-teenagers, israel-yoga
 Gate: pnpm check 0 errors; build 1539 pages (+5); pnpm test:e2e 2211/2211 pass.
 Merge: squash-merge to master fb251c60, pushed.
 FR locale: 262→267/398 (131 remaining).
+
+## 2026-08-06T08:00Z · iter 1034 · REVIEW · review-1034-fr-36-audit
+
+What: Audited all 5 FR-36 guides (israel-water-parks, israel-with-teenagers, israel-yoga-retreats, israel-vs-egypt, israel-national-bike-trail) shipped in iter1033.
+Checks: (1) Titles all ≤65 chars (range 48–55 chars). (2) Descriptions all ≤160 chars (israel-water-parks exactly 160, others 142–156). (3) No H1 nodes in any body (awk frontmatter-aware check). (4) All 5 hero images exist in public/. (5) 19/19 internal /fr/* cross-links resolve to existing files on disk. (6) Affiliate partners getyourguide+booking+discovercars all registered valid in src/config/affiliates.ts. (7) Price claims are ranges only (no fabricated ratings, no exact prices). (8) Honesty spot-checks: Taba crossing (Rafah closed for tourists noted; South Sinai 14-day free zone vs. full Egypt e-visa distinction correct; Israeli stamp on separate document since 2013 — accurate); yoga retreat prices presented as ranges (80–120€ to 400–800€) with "consult official site" caveats; water park billets noted as "consultez le site officiel pour les tarifs actuels". (9) pnpm check: 0 errors.
+Result: CLEAN. No violations found; no fixes needed. No code changes shipped.
