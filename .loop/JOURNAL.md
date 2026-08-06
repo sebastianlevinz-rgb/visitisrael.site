@@ -15665,3 +15665,12 @@ Merge: squash-commit debb2b7c on master; pushed. Vercel deploy in_progress.
 Honesty checks: all prices as ranges (₪25/₪350-700/₪900-1800/₪2000-4000+/₪50-60/₪30/₪25 guide audio); no fabricated ratings/review counts; Tower of David misnomer explicitly flagged; INPA card invalidity explicitly stated; Night Spectacular schedule described as "la plupart des soirs" (not specific days to avoid staleness); ETA-IL ₪25 72h valid since Jan 2025.
 FR: 267→271/398 (127 remaining).
 Next: iter 1039 → REVIEW (fr-37-audit): audit all 4 FR-37 guides.
+
+## 2026-08-06 · iter 1039 · BUILD (fr-37-addendum) · western-galilee-guide FR
+What: 5th guide of the FR-37 batch, not shipped by the concurrent iter1038 session (which ran in parallel and shipped 4/5 guides). This session detected the collision, saved the file to /tmp, did git reset --hard origin/master, restored the file, re-ran the full gate, and shipped.
+Content: /fr/western-galilee-guide — Galilée occidentale au-delà d'Akko: Lohamei HaGeta'ot (musée gratuit, entrée libre, archivé depuis 1940), château Montfort (randonnée 45-60min AR depuis Goren Park, Ordre Teutonique 1220-1271), Nahal Kziv (randonnée aquatique mars-mai, source à 3km de la côte à Achziv), Beit She'arim UNESCO (INPA pass valide, sarcophages et grottes d'inhumation de la Mishna), Peqi'in (village multireligieux ininterrompu depuis l'Antiquité — juifs, druzes, chrétiens). Circuit 1 jour depuis Haïfa avec tableau distances/temps. CTAs: GYG "randonnée et aventure Galilée occidentale" + Viator + DiscoverCars. 6 FAQs. Cross-links: /fr/haifa-travel-guide, /fr/akko-acre-guide, /fr/3-days-in-galilee, /fr/hiking-in-israel.
+Gate: pnpm check 0 errors ✓; build 1549 pages (+1) ✓; pnpm test:e2e 2221/2221 pass (21.7m) ✓.
+Merge: commit 6a75376 on master; pushed.
+Honesty: aucun prix exact fabriqué; Beit She'arim horaires musée "vérifiez parks.org.il"; Nahal Kziv eau disponible "mars-mai" avec mise en garde débit variable; Montfort "environ ₪29" adulte avec note "vérifiez"; Lohamei HaGeta'ot entrée gratuite confirmée via gfh.org.il.
+FR: 271→272/398 (126 remaining).
+Next: iter 1040 → REVIEW (fr-37-audit): audit all 5 FR-37 guides (israel-packing-list-guide, jaffa-hotels-guide, neve-tzedek-guide, tower-of-david-guide, western-galilee-guide).

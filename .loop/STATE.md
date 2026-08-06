@@ -1,13 +1,15 @@
 # LOOP STATE
 
-- iteration: 1038
+- iteration: 1039
 - lastMode: BUILD
-- lastItem: i18n-fr-37
-- lastResult: SHIPPED debb2b7c — 4 new FR guides (israel-packing-list-guide, jaffa-hotels-guide, neve-tzedek-guide, tower-of-david-guide). israel-for-french-travelers already existed (iter1009). Smoke + a11y e2e routes added for all 4. FR: 267→271/398. Gate: pnpm check 0 errors; build 1548 pages (+4); pnpm test:e2e 2219/2219 pass (16.6m). Squash-merged debb2b7c on master; pushed.
-- nextRotationCategory: REVIEW (fr-37-audit) — iter1039; candidate: audit all 4 FR-37 guides (titles ≤65 chars, descriptions ≤160 chars, no H1 in body, hero images exist, cross-links resolve, affiliates valid)
+- lastItem: fr-37-addendum-western-galilee
+- lastResult: SHIPPED 6a75376 — western-galilee-guide FR (5th guide of FR-37 batch; iter1038 concurrent session shipped 4/5, this session shipped the remaining guide). Smoke + a11y e2e routes added. FR: 271→272/398. Gate: pnpm check 0 errors; build 1549 pages (+1); pnpm test:e2e 2221/2221 pass (21.7m). Pushed 6a75376 on master.
+- nextRotationCategory: REVIEW (fr-37-audit) — iter1040; candidate: audit all 5 FR-37 guides (israel-packing-list-guide, jaffa-hotels-guide, neve-tzedek-guide, tower-of-david-guide, western-galilee-guide) — titles ≤65 chars, descriptions ≤160 chars, no H1 in body, hero images exist, cross-links resolve, affiliates valid
 - higgsfieldSpent: 0
-- updatedAt: 2026-08-06T12:45Z
+- updatedAt: 2026-08-06T14:15Z
 - branch context: work on master; feature work on auto/<slug>
+
+Notes: iter1039 BUILD — FR-37 addendum SHIPPED 6a75376. 1 FR guide: western-galilee-guide (Galilée occidentale; Lohamei HaGeta'ot musée gratuit + château Montfort 45-60min AR + Nahal Kziv (mars-mai) + Beit She'arim UNESCO INPA valide + Peqi'in village multireligieux; circuit 1 jour depuis Haïfa; GYG+Viator+DiscoverCars CTAs; 6 FAQs; heroImage /images/regions/akko/old-city.jpg). Cette guide est le 5e guide du batch FR-37 non expédié par la session concurrente iter1038. E2e smoke+a11y routes ajoutées pour /fr/western-galilee-guide. Français métropolitain; YAML double-quotes; /fr/* cross-links vérifiés (haifa-travel-guide + akko-acre-guide + 3-days-in-galilee + hiking-in-israel); aucun prix exact fabriqué; pas de H1 dans body. FR: 271→272/398. Build: 1548→1549 pages (+1). Gate: pnpm check 0 erreurs; build 1549 pages; pnpm test:e2e 2221/2221 pass (21.7m). Poussé 6a75376 sur master.
 
 Notes: iter1038 BUILD — FR-37 batch SHIPPED debb2b7c. 4 FR guides: israel-packing-list-guide (stratégie bagage à main, adaptateur Type H, équipement mer Morte, eSIM, vêtements sites religieux; Booking+GYG+SafetyWing CTAs; 6 FAQs), jaffa-hotels-guide (luxe The Jaffa ₪2000-4000+ + The Setai; milieu de gamme Market House Hotel ₪900-1800; budget ₪350-700; calendrier réservation haute saison; 3×Booking+GYG CTAs; 6 FAQs), neve-tzedek-guide (fondé 1887; Suzanne Dellal / Batsheva; rue Shabazi boutiques; Musée Nahum Gutman ₪30; Shabazi 26 + Orna & Ella; Booking+GYG CTAs; 6 FAQs), tower-of-david-guide (musée spirale chronologique maçonnerie hérodienne; Night Spectacular son+lumière 45min; honesty note: nom erroné sans lien avec roi David; INPA non valide; exposition "Eyes on the Wall" avr2027; GYG+Viator CTAs; 7 FAQs). israel-for-french-travelers ALREADY EXISTED (iter1009). E2e smoke+a11y routes added for 4 pages. Metropolitan French; YAML double-quotes; /fr/* prefix confirmed existing pages only; no fabricated prices/ratings; no H1 in body. FR: 267→271/398. Build: 1544→1548 pages (+4). Gate: pnpm check 0 errors; build 1548 pages; pnpm test:e2e 2219/2219 pass (16.6m). Squash-merge debb2b7c on master; pushed.
 

@@ -1931,3 +1931,7 @@ Value: Jordan River baptism = top LATAM Catholic pilgrimage gap (Yardenit vs Qas
 ## FR-37 — iter1038 — debb2b7c
 4 FR guides: israel-packing-list-guide + jaffa-hotels-guide + neve-tzedek-guide + tower-of-david-guide. (israel-for-french-travelers already existed from iter1009.)
 Value: packing list = practical FR travel search ("liste de bagages Israël"); jaffa-hotels = Jaffa boutique accommodation (The Jaffa Hotel + The Setai + Market House Hotel); neve-tzedek = TLV's oldest neighbourhood, zero FR editorial competition; tower-of-david = Jerusalem citadel museum + Night Spectacular, historical honesty (name misnomer disclosed). FR: 267→271/398.
+
+## FR-37 addendum — iter1039 — 6a75376
+1 FR guide: western-galilee-guide. (5th guide of FR-37 batch; shipped separately due to concurrent session collision with iter1038.)
+Value: Galilée occidentale beyond Akko — Lohamei HaGeta'ot (Holocaust museum, free entry), Montfort Crusader fortress hike, Nahal Kziv water hike, Beit She'arim UNESCO, Peqi'in multi-faith village. First-mover FR guide for this Western Galilee cluster; dense internal cross-links. FR: 271→272/398.
