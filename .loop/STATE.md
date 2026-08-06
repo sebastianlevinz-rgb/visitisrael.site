@@ -1,12 +1,12 @@
 # LOOP STATE
 
-- iteration: 1028
-- lastMode: BUILD
-- lastItem: fr-35-layover-jerusalem-museum-of-tolerance-small-group-tours-mediterranean-cruise-photography-tours
-- lastResult: SHIPPED c540ad7c. 5 FR guides: layover-jerusalem+museum-of-tolerance-jerusalem+israel-small-group-tours+israel-mediterranean-cruise-guide+israel-photography-tours. FR: 257→262/398. Build: 1519→1524 pages (+5). Gate: pnpm check 0 errors; build 1524 pages; e2e 2211/2211 pass (25.7m).
-- nextRotationCategory: REVIEW (iter1029; 1029%5=4 → REVIEW)
+- iteration: 1029
+- lastMode: REVIEW
+- lastItem: fr-35-meta-audit (layover-jerusalem + museum-of-tolerance-jerusalem + israel-small-group-tours + israel-mediterranean-cruise-guide + israel-photography-tours)
+- lastResult: CLEAN — 0 violations found. All 5 titles ≤60 chars (51/52/57/58/58); all 5 descs ≤160 chars (120/153/147/154/152); 0 H1 in body; 4/4 hero images exist; 17/17 /fr/* cross-links resolve; affiliates valid (GYG×2 intentional per iter1028 journal); paired naming correct at Kotel/HaKotel, Haram al-Sharif/Har HaBayit, Esplanade des Mosquées/Mont du Temple; cruise suspension honesty caveat present; pnpm check 0 errors. No fixes needed — master not changed.
+- nextRotationCategory: BUILD (iter1030; 1030%5=0 → RESEARCH, but 1030%5=0 → RESEARCH mode)
 - higgsfieldSpent: 0
-- updatedAt: 2026-08-06T02:10Z
+- updatedAt: 2026-08-06T03:15Z
 - branch context: work on master; feature work on auto/<slug>
 
 Notes: iter1027 BUILD — ES-47 batch SHIPPED e5b46b90. 5 ES guides: israel-trip-cost-by-style (backpacker $65-100/day + mid-range $150-300/day + luxury $400+/day; 3 CTAs hostelworld+booking+tourradar; 7 FAQs), jericho-day-trip-from-jerusalem (Area A logistics; sherut ₪25–30; Zona A restriction for Israeli citizens; Tell es-Sultan; Monte de la Tentación cable car; Palacio de Hisham mosaico; 3 CTAs GYG+Viator+Abraham; 7 FAQs), jerusalem-museums (7-museum circuit: Israel+Yad Vashem+BLMJ+Torre de David+BNI+Rockefeller+Tolerancia; Yad Vashem timed-entry mandatory; 3 CTAs Tiqets+GYG+Booking; 7 FAQs), jewish-quarter-jerusalem-guide (Wohl herodianische mansiones; Casa Quemada; Davidson; Cardo; Hurva; 4 sinagogas sefardíes; 3 CTAs GYG+Viator+Booking; 7 FAQs), layover-tel-aviv (4h/6h/8-10h/24h tiers; Ben Gurion tren ₪15-20; Shabbat caveat; ETA-IL note; 3 CTAs WelcomePickups+GYG+Booking; 6 FAQs). LATAM neutral español tuteo; no fabricated prices/ratings; paired naming at religious sites; no H1 in body. ES: 235→240/398. Build: 1514→1519 pages (+5). Gate: pnpm check 0 errors; build 1519 pages; e2e pass.

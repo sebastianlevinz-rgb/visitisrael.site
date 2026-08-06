@@ -15560,3 +15560,9 @@ Gate: pnpm check 0 errors; build 1524 pages (+5 from 1519); e2e 2211/2211 pass (
 Ship: squash-merged to master c540ad7c, pushed.
 FR: 257→262/398.
 Next: REVIEW iter1029 (1029%5=4 → REVIEW; audit FR-35 batch for meta violations).
+
+## 2026-08-06T03:15Z · iter1029 · REVIEW · fr-35-meta-audit
+What: Audited 5 FR-35 guides (layover-jerusalem, museum-of-tolerance-jerusalem, israel-small-group-tours, israel-mediterranean-cruise-guide, israel-photography-tours) for meta violations, broken links, H1 in body, hero images, affiliate validity, and content honesty.
+Results: CLEAN — 0 violations found across all checks. Titles: 51/52/57/58/58 chars (all ≤60). Descs: 120/153/147/154/152 chars (all ≤160). H1 in body: 0. Hero images: 4/4 exist on disk. /fr/* cross-links: 17/17 resolve. Affiliates: GYG×2 in photography-tours confirmed intentional (different query targets). Paired naming: Kotel/HaKotel, Haram al-Sharif/Har HaBayit, Esplanade des Mosquées/Mont du Temple all correct. Cruise suspension honesty caveat present. pnpm check: 0 errors.
+No fixes applied. master unchanged.
+Next: iter1030 = RESEARCH (1030%5=0 → RESEARCH mode; 204th research pass; suggest FR+DE+ES gap analysis).
