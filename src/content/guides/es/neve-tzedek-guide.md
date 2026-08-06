@@ -1,5 +1,5 @@
 ---
-title: "Neve Tzedek: El Barrio Histórico y Boutique de Tel Aviv (2026)"
+title: "Neve Tzedek: Barrio Histórico y Boutique de Tel Aviv"
 description: "Explora Neve Tzedek — el primer barrio de Tel Aviv (1887): el Centro Suzanne Dellal, las boutiques de Shabazi, el Museo Nahum Gutman y dónde comer."
 heroImage: /images/sub-destinations/tel-aviv/neve-tzedek.jpg
 category: Neighbourhood

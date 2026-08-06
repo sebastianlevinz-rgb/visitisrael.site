@@ -1,5 +1,5 @@
 ---
-title: "Parques Acuáticos e Atracciones Familiares en Israel: Guía 2026"
+title: "Parques Acuáticos en Israel: Guía Familiar 2026"
 description: "Mejores parques acuáticos y de atracciones en Israel: Shefayim, Superland, Gal-Gil, Luna Park, Mini Israel. Entradas, horarios y hoteles familiares."
 heroImage: /images/regions/tel-aviv/beaches.jpg
 category: Family

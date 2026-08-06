@@ -1,6 +1,6 @@
 ---
-title: "Israel con Adolescentes: Lo que los Teens Realmente Aman (2026)"
-description: "Planifica un viaje a Israel que los adolescentes no olvidarán — subida a Masada, flotación en el Mar Muerto, surf en Tel Aviv, rappel en el desierto y arte urbano."
+title: "Israel con Adolescentes: Lo que los Teens Aman (2026)"
+description: "Planifica un viaje a Israel para adolescentes — Masada, Mar Muerto, surf en Tel Aviv, rappel en el desierto y arte urbano."
 heroImage: /images/regions/dead-sea/masada.jpg
 category: Planning
 updatedAt: 2026-07-02
