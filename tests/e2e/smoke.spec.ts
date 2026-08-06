@@ -1189,6 +1189,10 @@ const ROUTES = [
   '/de/layover-tel-aviv',
   '/de/jewish-quarter-jerusalem-guide',
   '/de/kibbutz-hotels-israel',
+  '/fr/israel-packing-list-guide',
+  '/fr/jaffa-hotels-guide',
+  '/fr/neve-tzedek-guide',
+  '/fr/tower-of-david-guide',
 ];
 
 for (const route of ROUTES) {
