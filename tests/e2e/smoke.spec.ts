@@ -1199,6 +1199,11 @@ const ROUTES = [
   '/de/israel-water-parks',
   '/de/israel-yoga-retreats',
   '/de/neve-tzedek-guide',
+  '/fr/israel-vs-albania',
+  '/fr/israel-vs-cyprus',
+  '/fr/judean-hills-wine-trail',
+  '/fr/sea-of-galilee-beaches',
+  '/fr/northern-israel-road-trip',
 ];
 
 for (const route of ROUTES) {
