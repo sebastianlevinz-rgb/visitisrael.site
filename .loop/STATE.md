@@ -1,13 +1,15 @@
 # LOOP STATE
 
-- iteration: 1039
-- lastMode: BUILD
-- lastItem: fr-37-addendum-western-galilee
-- lastResult: SHIPPED 6a75376 — western-galilee-guide FR (5th guide of FR-37 batch; iter1038 concurrent session shipped 4/5, this session shipped the remaining guide). Smoke + a11y e2e routes added. FR: 271→272/398. Gate: pnpm check 0 errors; build 1549 pages (+1); pnpm test:e2e 2221/2221 pass (21.7m). Pushed 6a75376 on master.
-- nextRotationCategory: REVIEW (fr-37-audit) — iter1040; candidate: audit all 5 FR-37 guides (israel-packing-list-guide, jaffa-hotels-guide, neve-tzedek-guide, tower-of-david-guide, western-galilee-guide) — titles ≤65 chars, descriptions ≤160 chars, no H1 in body, hero images exist, cross-links resolve, affiliates valid
+- iteration: 1040
+- lastMode: REVIEW
+- lastItem: review-1040-fr-37-meta-trim
+- lastResult: SHIPPED ec18693e — tower-of-david-guide FR description trimmed 161→147 chars. Audited 4/5 FR-37 guides (israel-packing-list-guide, jaffa-hotels-guide, neve-tzedek-guide, tower-of-david-guide). 1 violation found and fixed. western-galilee-guide (5th, added concurrently) still needs audit — queued for next REVIEW pass. Gate: pnpm check 0 errors; build 1548 pages; pnpm test:e2e 2219/2219 pass (17.9m). Pushed ec18693e on master.
+- nextRotationCategory: BUILD (i18n-DE-34) — iter1041; candidate: netanya-guide + passover-in-israel + israel-water-parks + israel-yoga-retreats + neve-tzedek-guide (5 DE guides defined iter1035)
 - higgsfieldSpent: 0
-- updatedAt: 2026-08-06T14:15Z
+- updatedAt: 2026-08-06T14:40Z
 - branch context: work on master; feature work on auto/<slug>
+
+Notes: iter1040 REVIEW — review-1040-fr-37-meta-trim SHIPPED ec18693e. Audited 4/5 FR-37 guides (israel-packing-list-guide, jaffa-hotels-guide, neve-tzedek-guide, tower-of-david-guide). Checks: (1) Titles all ≤65 chars (58/44/64/58). (2) Descriptions: 3/4 ≤160; tower-of-david-guide was 161 chars — fixed to 147 by removing "à Jérusalem" (already in title). (3) No H1 in body (all 4 clean). (4) All 4 hero images exist on disk. (5) 40/40 /fr/* cross-links resolve. (6) Affiliates booking+getyourguide+safetywing+viator all valid. (7) No fabricated ratings/review counts/exact prices. (8) pnpm check 0 errors. western-galilee-guide (5th FR-37 guide, added concurrently by iter1039 session) not yet audited — queue for next REVIEW pass. Gate: pnpm check 0 errors; build 1548 pages (unchanged); pnpm test:e2e 2219/2219 pass (17.9m). Commit: ec18693e.
 
 Notes: iter1039 BUILD — FR-37 addendum SHIPPED 6a75376. 1 FR guide: western-galilee-guide (Galilée occidentale; Lohamei HaGeta'ot musée gratuit + château Montfort 45-60min AR + Nahal Kziv (mars-mai) + Beit She'arim UNESCO INPA valide + Peqi'in village multireligieux; circuit 1 jour depuis Haïfa; GYG+Viator+DiscoverCars CTAs; 6 FAQs; heroImage /images/regions/akko/old-city.jpg). Cette guide est le 5e guide du batch FR-37 non expédié par la session concurrente iter1038. E2e smoke+a11y routes ajoutées pour /fr/western-galilee-guide. Français métropolitain; YAML double-quotes; /fr/* cross-links vérifiés (haifa-travel-guide + akko-acre-guide + 3-days-in-galilee + hiking-in-israel); aucun prix exact fabriqué; pas de H1 dans body. FR: 271→272/398. Build: 1548→1549 pages (+1). Gate: pnpm check 0 erreurs; build 1549 pages; pnpm test:e2e 2221/2221 pass (21.7m). Poussé 6a75376 sur master.
 

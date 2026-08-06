@@ -1935,3 +1935,6 @@ Value: packing list = practical FR travel search ("liste de bagages Israël"); j
 ## FR-37 addendum — iter1039 — 6a75376
 1 FR guide: western-galilee-guide. (5th guide of FR-37 batch; shipped separately due to concurrent session collision with iter1038.)
 Value: Galilée occidentale beyond Akko — Lohamei HaGeta'ot (Holocaust museum, free entry), Montfort Crusader fortress hike, Nahal Kziv water hike, Beit She'arim UNESCO, Peqi'in multi-faith village. First-mover FR guide for this Western Galilee cluster; dense internal cross-links. FR: 271→272/398.
+
+## review-1040-fr-37-meta-trim — iter1040 — ec18693e
+REVIEW: Audited 4/5 FR-37 guides. 1 fix: tower-of-david-guide FR description 161→147 chars (removed "à Jérusalem" from desc — already in title). Other 3 guides CLEAN. western-galilee-guide (5th guide, added concurrently) audit deferred to next REVIEW pass.

@@ -15674,3 +15674,12 @@ Merge: commit 6a75376 on master; pushed.
 Honesty: aucun prix exact fabriqué; Beit She'arim horaires musée "vérifiez parks.org.il"; Nahal Kziv eau disponible "mars-mai" avec mise en garde débit variable; Montfort "environ ₪29" adulte avec note "vérifiez"; Lohamei HaGeta'ot entrée gratuite confirmée via gfh.org.il.
 FR: 271→272/398 (126 remaining).
 Next: iter 1040 → REVIEW (fr-37-audit): audit all 5 FR-37 guides (israel-packing-list-guide, jaffa-hotels-guide, neve-tzedek-guide, tower-of-david-guide, western-galilee-guide).
+
+## 2026-08-06T14:40Z · iter 1040 · REVIEW · review-1040-fr-37-meta-trim
+
+What: REVIEW pass — audited 4/5 FR-37 guides (iter1038 set: israel-packing-list-guide, jaffa-hotels-guide, neve-tzedek-guide, tower-of-david-guide). Concurrent session iter1039 added western-galilee-guide which was not yet available at audit time.
+Checks: (1) Titles ≤65 chars — all pass (58/44/64/58 chars). (2) Descriptions ≤160 chars — 3/4 pass; tower-of-david-guide 161 chars (1 over limit). Fix: removed "à Jérusalem" from desc (already present in title), 161→147 chars. (3) No H1 in body — all 4 clean. (4) Hero images — all 4 exist on disk. (5) Internal /fr/* links — 40/40 resolve. (6) Affiliates — booking/getyourguide/safetywing/viator all registered valid in src/config/affiliates.ts. (7) Honesty — no fabricated ratings/review counts/exact prices (all prices are ranges). (8) pnpm check: 0 errors.
+western-galilee-guide (5th FR-37 guide, added concurrently by iter1039) not yet audited.
+Gate: pnpm check 0 errors; build 1548 pages (unchanged); pnpm test:e2e 2219/2219 pass (17.9m).
+Merge: commit ec18693e on master, pushed (rebased on top of iter1039 addendum commit).
+Next: iter1041 → BUILD (i18n-DE-34): netanya-guide + passover-in-israel + israel-water-parks + israel-yoga-retreats + neve-tzedek-guide (5 DE guides).
