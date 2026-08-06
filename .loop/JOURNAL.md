@@ -15640,3 +15640,12 @@ Merge: squash-committed directly to master (branch was empty — files created o
 Honesty checks: all prices as ranges (₪60-90, ₪100-200+, ~$10 USD, ₪30, ₪500-900); no fabricated ratings or review counts; historical uncertainty at Qasr el-Yahud explicitly acknowledged; Birkat Kohanim times noted as approximate; paired naming at Western Wall.
 ES: 245→250/398 (148 remaining).
 Next: iter 1037 → REVIEW (es-49-audit): audit all 5 ES-49 guides.
+
+## 2026-08-06T11:06Z · iter 1037 · REVIEW · review-1037-es-49-meta-trim
+
+What: REVIEW pass — audit all 5 ES-49 guides (titles ≤60 chars, descriptions ≤160 chars, no H1 in body, hero images exist, cross-links resolve, affiliates valid, price ranges honest).
+Violations found and fixed (3 guides): israel-water-parks title 63→47 chars; israel-with-teenagers title 63→53 chars + desc 163→122 chars; neve-tzedek-guide title 62→52 chars.
+Other checks CLEAN: 5/5 H1 absent in body; 5/5 hero images on disk; 39/39 /es/* internal links resolve; affiliates (getyourguide/booking/viator/civitatis/discovercars) all valid; no fabricated ratings/review counts/exact prices anywhere.
+Gate: pnpm check 0 errors; build 1544 pages (unchanged); pnpm test:e2e 2211/2211 pass (28.4m).
+Merge: commit 82c8a9b1 on master; pushed. CI/Lighthouse in_progress at push time.
+Next: iter 1038 → BUILD (i18n-FR-37): israel-for-french-travelers + israel-packing-list-guide + jaffa-hotels-guide + neve-tzedek-guide + tower-of-david-guide.

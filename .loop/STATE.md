@@ -1,12 +1,12 @@
 # LOOP STATE
 
-- iteration: 1036
-- lastMode: BUILD
-- lastItem: es-49-jordan-river-baptism-israel-water-parks-israel-with-teenagers-sukkot-in-israel-neve-tzedek-guide
-- lastResult: SHIPPED 63d88f3c — ES-49 batch: 5 ES guides (jordan-river-baptism, israel-water-parks, israel-with-teenagers, sukkot-in-israel, neve-tzedek-guide). ES: 245→250/398. Build: 1539→1544 pages (+5). Gate: pnpm check 0 errors; build 1544 pages; pnpm test:e2e 2211/2211 pass (24.3m). Pushed to master; CI/Lighthouse in_progress.
-- nextRotationCategory: REVIEW (es-49-audit) — iter1037; candidate: audit all 5 ES-49 guides (titles ≤60 chars, descriptions ≤160 chars, no H1 in body, hero images exist, cross-links resolve, affiliates valid, price ranges honest)
+- iteration: 1037
+- lastMode: REVIEW
+- lastItem: review-1037-es-49-meta-trim
+- lastResult: SHIPPED 82c8a9b1 — 4 meta fixes across 3 ES-49 guides (israel-water-parks title 63→47; israel-with-teenagers title 63→53, desc 163→122; neve-tzedek-guide title 62→52). Other 2 guides (jordan-river-baptism, sukkot-in-israel) CLEAN. All 5 H1 absent; all 5 hero images exist; 39/39 /es/* cross-links resolve; affiliates all valid; no fabricated prices. Gate: pnpm check 0 errors; build 1544 pages (unchanged); pnpm test:e2e 2211/2211 pass (28.4m). Pushed to master; CI/Lighthouse in_progress.
+- nextRotationCategory: BUILD (i18n-FR-37) — iter1038; candidate: FR-37 batch: israel-for-french-travelers + israel-packing-list-guide + jaffa-hotels-guide + neve-tzedek-guide + tower-of-david-guide
 - higgsfieldSpent: 0
-- updatedAt: 2026-08-06T10:11Z
+- updatedAt: 2026-08-06T11:06Z
 - branch context: work on master; feature work on auto/<slug>
 
 Notes: iter1034 REVIEW — review-1034-fr-36-audit CLEAN. Audited all 5 FR-36 guides (israel-water-parks, israel-with-teenagers, israel-yoga-retreats, israel-vs-egypt, israel-national-bike-trail). Titles: all ≤65 chars (range 48–55). Descriptions: all ≤160 chars (israel-water-parks exactly 160, others 142–156). No H1 in any MDX body. All 5 hero images exist on disk. 19/19 internal /fr/* cross-links resolve (car-rental-israel, eilat-diving-snorkeling, israel-cost-budget, israel-in-summer, israel-national-parks-pass, israel-with-kids, 3-days-in-galilee, hiking-in-israel, israel-adventure-sports, 3-days-in-negev, dead-sea-guide, israel-accommodation-guide, luxury-travel-israel, best-beaches-israel, border-crossings, first-time-in-israel, is-israel-safe, israel-for-french-travelers, cycling-in-israel). Partners getyourguide+booking+discovercars all registered valid affiliates. Price claims are ranges only (₪100–200+, 25–50€, 80–150€, 400–800€ etc.) — no fabricated ratings/exact prices. Taba crossing honesty: Rafah closed for tourists; South Sinai free zone visa distinction (14-day Sinai only vs full Egypt e-visa); Israeli stamp on separate document since 2013 — all accurate. No code changes. Gate: pnpm check 0 errors. 5 guides CLEAN.
