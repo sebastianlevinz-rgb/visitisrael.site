@@ -1947,3 +1947,7 @@ REVIEW: Audited 4/5 FR-37 guides. 1 fix: tower-of-david-guide FR description 161
 - 3 fixes: netanya-guide title 69→62 chars; israel-yoga-retreats title 69→64 chars; neve-tzedek-guide Karmel-Markt cross-link fixed (/de/tel-aviv-beach-guide→/de/tel-aviv-carmel-market).
 - 3 guides CLEAN: passover-in-israel, israel-water-parks, western-galilee-guide.
 - Gate: pnpm check 0 errors; build 1554 pages unchanged; pnpm test:e2e 2231/2231 pass. Commit c6aba803 on master.
+
+## ES-50 — iter1043 — 9aa61933
+5 ES guides: israel-yoga-retreats + kibbutz-hotels-israel + israel-national-bike-trail + negev-makhtesh-guide + jaffa-hotels-guide.
+Value: yoga-retreats = completes 4-locale wellness cluster (EN+FR+DE+ES) — Six Senses Shaharut to Desert Ashram; high-intent LATAM wellness tourism search; kibbutz-hotels = completes 4-locale accommodation cluster — Ein Gedi Resort + Nof Ginosar + Kibbutz Lotan eco-domes; distinctive experience differentiator vs. city hotels; IBT = completes 4-locale adventure cluster — 1,200km mountain bike route guide, first comprehensive ES resource for Aravá/Timna singletrack (2025); negev-makhtesh-guide = first-mover ES guide for HaGadol/HaKatan craters (EN source existed, zero ES editorial competition; geologically distinct from Makhtesh Ramon — two undervisited craters with free INPA entry); jaffa-hotels = completes EN+FR+ES accommodation cluster for Jaffa (The Jaffa Hotel + The Setai + Market House Hotel tiers; booking-timing table). ES: 250→255/398.
