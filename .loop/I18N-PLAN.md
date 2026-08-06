@@ -6,21 +6,21 @@
 >
 > One bounded slice per loop iteration. NEVER bulk-translate in one shot.
 
-## Current status snapshot (2026-08-06 iter1027 BUILD — ES-47 SHIPPED e5b46b90)
+## Current status snapshot (2026-08-06 iter1030 RESEARCH — batch definitions ES-48/DE-33/FR-36)
 
 | Locale | Guides | Attractions | Regions | Itineraries |
 |--------|--------|-------------|---------|-------------|
 | en     | 398    | 65          | 11      | 6           |
-| fr     | 257    | 61          | 11      | 6           |
+| fr     | 262    | 61          | 11      | 6           |
 | de     | 248    | 61          | 11      | 6           |
 | es     | 240    | 61          | 11      | 6           |
 
 **🎉 MILESTONE: ES + FR + DE monthly guides ALL COMPLETE** (iter996+iter997 ES-41+ES-42 SHIPPED — all 12 per-month guides jan-dec now exist in ES, FR, and DE)
 
 **Gaps to close:**
-- es guides: **158 missing** (240/398 done — Phase ES-47 SHIPPED iter1027 e5b46b90; **next ES BUILD = ES-48** — define 5-guide batch from remaining gaps)
-- fr guides: **141 missing** (257/398 done — Phase FR-34 SHIPPED iter1022 5bf30b27; meta audit SHIPPED iter1023 ffd0b346; **next FR BUILD = FR-35** — layover-jerusalem + museum-of-tolerance-jerusalem + israel-small-group-tours + israel-mediterranean-cruise-guide + israel-photography-tours; all cross-links pre-verified iter1025)
-- de guides: **150 missing** (248/398 done — Phase DE-32 SHIPPED iter1026 e63ba3f; **next DE BUILD = DE-33** — define 5-guide batch from remaining gaps; cross-links to verify next RESEARCH pass)
+- es guides: **158 missing** (240/398 done — Phase ES-47 SHIPPED iter1027 e5b46b90; **next ES BUILD = ES-48** — israel-culinary-heritage-tourism + israel-small-group-tours + israel-photography-tours + israel-evening-activities + israel-base-city-guide; cross-links pre-verified iter1030)
+- fr guides: **136 missing** (262/398 done — Phase FR-35 SHIPPED iter1028 c540ad7c; FR meta-audit iter1029 CLEAN; **next FR BUILD = FR-36** — israel-water-parks + israel-with-teenagers + israel-yoga-retreats + israel-vs-egypt + israel-national-bike-trail; cross-links to verify at BUILD time)
+- de guides: **150 missing** (248/398 done — Phase DE-32 SHIPPED iter1026 e63ba3f; **next DE BUILD = DE-33** — israel-packing-list-guide + israel-trip-cost-by-style + israel-travel-tips + eilat-ramon-airport-guide + gan-hashlosha-guide; cross-links pre-verified iter1030)
 - fr/de/es attractions: **4 missing each** (the 4 EN attractions added after Phase 4)
 
 **Dead Sea cluster status (iter855 audit):**
@@ -79,6 +79,36 @@ comm -23 \
 Take the top 5 by priority (or head -5 if priority not obvious), translate each one.
 
 ## Progress tracker
+
+### ES-48 batch definition (iter1030 RESEARCH — ready for next ES BUILD)
+Guides: `israel-culinary-heritage-tourism.md`, `israel-small-group-tours.md`, `israel-photography-tours.md`, `israel-evening-activities.md`, `israel-base-city-guide.md`
+All 5 confirmed MISSING from ES via comm -23 (2026-08-06).
+- israel-culinary-heritage-tourism: LATAM food tourism flagship; 70 diasporas cluster (jachnun/kubbeh/couscous/shakshuka); FR equivalent SHIPPED iter1005; 14/15 ES cross-links ✓ (kerem-hateimanim-tel-aviv → EN fallback); GYG food-tours + Booking CTAs; natural cluster anchor for israel-food-festivals/israeli-street-food-guide/kosher-food-guide (all in ES).
+- israel-small-group-tours: high commercial intent "Israel grupo pequeño"; FR equivalent SHIPPED iter1028 (FR-35); TourRadar + GYG + Viator CTAs; LATAM group travel market (families + Birthright-adjacent + church groups); pairs with /es/best-tours-in-israel + /es/best-holy-land-tours.
+- israel-photography-tours: specialty niche growing with LATAM Instagram travel market; FR equivalent SHIPPED iter1028 (FR-35); GYG photo-tours + Booking midrange CTAs; pairs with /es/israel-photography-guide (confirmed existing).
+- israel-evening-activities: practical "qué hacer de noche en Israel" — zero competitor in any locale; covers TLV Rothschild nightlife, Jerusalem post-Shabbat, Haifa Louis Promenade, Acre medina night walk, Eilat harbor evening; Booking + GYG CTAs.
+- israel-base-city-guide: strategic planning guide for first-timers: Jerusalem vs Tel Aviv vs Eilat vs Tiberias as base — decision matrix; rental car vs day trips; Booking CTAs; LATAM first-timer market (pairs with /es/first-time-in-israel + /es/israel-accommodation-guide).
+Quality: neutral LATAM Spanish tuteo; YAML double-quotes; /es/* prefix only for confirmed existing ES pages; no fabricated prices; religious-site paired naming; no H1 in body.
+
+### DE-33 batch definition (iter1030 RESEARCH — ready for next DE BUILD)
+Guides: `israel-packing-list-guide.md`, `israel-trip-cost-by-style.md`, `israel-travel-tips.md`, `eilat-ramon-airport-guide.md`, `gan-hashlosha-guide.md`
+All 5 confirmed MISSING from DE via comm -23 (2026-08-06).
+- israel-packing-list-guide: DACH thorough-planner market; practical evergreen; cross-links to israel-packing-list (interactive tool → EN only), best-time-to-visit-israel (DE ✓), visa-information (DE ✓), holy-sites-dress-code-etiquette (DE ✓); GKV not valid abroad caveat; Globetrotter/Ortlieb gear culture angle.
+- israel-trip-cost-by-style: "Israel Reisekosten" budget guide segmenting backpacker (55-85€/day) + Komfort (120-250€/day) + Luxus (350€+); FR equivalent SHIPPED iter1022; 6/7 DE cross-links ✓ (israel-trip-cost-calculator = tool → EN fallback); Hostelworld + Booking + TourRadar CTAs.
+- israel-travel-tips: 20 practical tips covering Shabbat timing, shekel ATM strategy, ETA-IL (iaa.gov.il ≥72h), Rav-Kav setup, kashrut navigation, temple-mount access, language basics, modesty clothing — all DE cross-links confirmed existing; evergreen high-traffic.
+- eilat-ramon-airport-guide: freshness-urgent (Wizz Air BGA base + Ramon mini-base confirmed spring 2026; Budapest route operating); DACH Eilat aviation market; Ramon airport logistics (no baggage trolleys, 1hr from Eilat centre, Arava taxi ~40 NIS); Wizz Air routes + low-cost angle; pairs with /de/eilat-travel-guide + /de/eilat-hotels-guide (both confirmed existing).
+- gan-hashlosha-guide: Sachne thermalbad (28°C Quelltemperatur ganzjährig); FR equivalent SHIPPED iter1005; INPA pass valid + INPA pass NOT valid at Israel Museum/Hamat Gader distinction; Beit She'an day-trip combo; DACH summer family swimming market; Booking + GYG CTAs; pairs with /de/beit-shean-guide (confirmed existing).
+Quality: Standard Hochdeutsch; YAML double-quotes; /de/* prefix only for confirmed existing DE pages; no fabricated prices; Bahá'í active-site framing; Wizz Air caveats ("schedules subject to change; verify direct with carrier").
+
+### FR-36 batch definition (iter1030 RESEARCH — ready for next FR BUILD)
+Guides: `israel-water-parks.md`, `israel-with-teenagers.md`, `israel-yoga-retreats.md`, `israel-vs-egypt.md`, `israel-national-bike-trail.md`
+All 5 confirmed MISSING from FR via comm -23 (2026-08-06).
+- israel-water-parks: French family summer tourism; Yamit (Holon, TLV metro), Kif Tzuba (Beit Shemesh, Jerusalem day-trip), Kfar Saba/Mayim park, Luna Park TLV (rides, not water); INPA parks combo angle; Booking (hotels) + GYG (family tours) CTAs; key FR cross-links ✓ (tel-aviv-beach-guide/eilat-travel-guide/haifa-travel-guide/day-trips-from-tel-aviv all confirmed existing); zero competitor FR editorial.
+- israel-with-teenagers.md: French family market; teen-specific angle: TLV street art + skateparks, Masada dawn hike, IDF Experience Museum, Kfar Kedem Nazareth, Galilee jeep tours, Ramon Crater lookout bike, Eilat kayak/snorkel; GYG family tours + Booking CTAs; pairs with /fr/israel-with-kids (confirmed existing) + /fr/day-trips-from-tel-aviv.
+- israel-yoga-retreats: French wellness tourism niche; anchors: Ne'ot Semadar (Negev eco-community + yoga), Lev Hamidbar (Arava dome retreat + vipassana), Kibbutz Harduf (Galilee spiritual), Dead Sea spa circuit; bookretreats.com = EN competitor; zero FR editorial on Israel wellness retreats; GYG + Booking CTAs.
+- israel-vs-egypt: French MENA planners comparing destinations; Israel vs Egypt comparison across 8 criteria (heritage, beaches, cost, safety, logistics, food, nightlife, practical); Egypt market gaining share (honest framing — each destination has distinct strengths); cross-links to /fr/dead-sea-guide + /fr/eilat-travel-guide + /fr/israel-jordan-itinerary (all confirmed); GYG + Skyscanner CTAs.
+- israel-national-bike-trail: French adventure cycling market (IBT = 1,200km Hermon→Eilat, 27 segments); ibt.org.il + komoot = main competitors (EN-only); trail overview + 3 recommended segments (Galilee Rim, Judean Hills, Negev South); Northbound vs Southbound logistics; Booking (support accommodation) + GYG (bike tours) + Discovercars (sag wagon) CTAs; pairs with /fr/cycling-in-israel (confirmed existing) + /fr/hiking-in-israel (confirmed existing).
+Quality: metropolitan French; YAML double-quotes; /fr/* prefix only for confirmed existing FR pages; no fabricated prices; religious-site neutral framing; IBT difficulty ratings honest; no H1 in body.
 
 ### ES guides (155 / 398)
 - Phase ES-0 — DONE. iter799 shipped 5/394:

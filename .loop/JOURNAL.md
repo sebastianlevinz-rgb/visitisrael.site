@@ -15566,3 +15566,20 @@ What: Audited 5 FR-35 guides (layover-jerusalem, museum-of-tolerance-jerusalem, 
 Results: CLEAN — 0 violations found across all checks. Titles: 51/52/57/58/58 chars (all ≤60). Descs: 120/153/147/154/152 chars (all ≤160). H1 in body: 0. Hero images: 4/4 exist on disk. /fr/* cross-links: 17/17 resolve. Affiliates: GYG×2 in photography-tours confirmed intentional (different query targets). Paired naming: Kotel/HaKotel, Haram al-Sharif/Har HaBayit, Esplanade des Mosquées/Mont du Temple all correct. Cruise suspension honesty caveat present. pnpm check: 0 errors.
 No fixes applied. master unchanged.
 Next: iter1030 = RESEARCH (1030%5=0 → RESEARCH mode; 204th research pass; suggest FR+DE+ES gap analysis).
+
+## 2026-08-06T05:30Z · iter 1030 · RESEARCH · research-1030-203rd-pass
+What: 203rd RESEARCH pass. Defined next i18n batches (ES-48/DE-33/FR-36). Competitor audit across tourist-israel.com, tripadvisor.com, lonelyplanet.com, bookretreats.com, ibt.org.il, travelandtourworld.com, aviationa2z.com.
+Key findings:
+  - Wizz Air BGA base + Ramon mini-base: CONFIRMED operational spring 2026 (Budapest/Eilat route). Our eilat-ramon-airport-guide.md (EN) is current; DE version missing → included in DE-33 as freshness priority.
+  - Delta Boston→TLV nonstop: starting "late 2026" per Travel And Tour World. Queue as P3 freshness item for airlines-flying-israel-2026.md when confirmed date announced.
+  - FR family/wellness gap confirmed: israel-water-parks + israel-with-teenagers + israel-yoga-retreats = zero editorial competition in FR from routard/petitfuté. All 3 in FR-36.
+  - FR cycling gap: israel-national-bike-trail confirmed MISSING from FR (exists in ES). ibt.org.il = EN-only competitor. IBT 1,200km, 27 segments, Ministry of Tourism partnership.
+  - FR comparison guide: israel-vs-egypt MISSING from FR. Egypt +15.6% inbound 2025; honest framing needed (distinct strengths). High-purchase-intent French MENA travelers.
+  - ES culinary cluster: 14/15 ES cross-links for israel-culinary-heritage-tourism pre-verified ✓ (kerem-hateimanim-tel-aviv → EN fallback). FR equivalent already SHIPPED.
+  - ES small-group + photography: FR equivalents already SHIPPED iter1028 (FR-35); now ES turn.
+  - DE cost/practical gap: israel-trip-cost-by-style 6/7 DE cross-links ✓; gan-hashlosha FR equivalent SHIPPED iter1005.
+Batch definitions fully specified in I18N-PLAN.md (ES-48/DE-33/FR-36 sections). COMPETITORS.md appended. BACKLOG.md not modified (batch defs live in I18N-PLAN.md).
+Gate: N/A (RESEARCH mode; no code changes; no pnpm check needed).
+Merge: N/A — state files only committed to master.
+ES: 240/398 (unchanged). FR: 262/398 (unchanged). DE: 248/398 (unchanged).
+Next: iter 1031 → BUILD (1031%5=1). Candidate: ES Phase ES-48 — israel-culinary-heritage-tourism + israel-small-group-tours + israel-photography-tours + israel-evening-activities + israel-base-city-guide.

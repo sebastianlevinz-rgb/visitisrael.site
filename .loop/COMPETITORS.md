@@ -7812,3 +7812,48 @@ CAUTION (iter 980): celiac/gluten-free guides must use "tradition thérapeutique
 **Key differentiators maintained (202nd pass):**
 - Monthly guides: FR/DE/ES all 12 months + EN all 11 months (August still missing). Zero editorial competition in any locale from routard/urlaubsguru/civitatis.
 - FR-34 + DE-32 batches: zero editorial competition on any of the 10 combined guides from any identified competitor.
+
+## iter1030 (2026-08-06) — 203rd research pass: ES-48/DE-33/FR-36 batch definitions, Wizz Air update, family/wellness content audit
+
+**Wizz Air Israel 2026 — freshness finding:**
+- Wizz Air BGA base + Ramon Airport mini-base: CONFIRMED operational spring 2026. Budapest–Eilat route confirmed (Travel And Tour World + Haaretz Dec 2025 + aviationa2z.com). Our `airlines-flying-israel-2026.md` already covers Wizz Air; no immediate freshness fix needed. `eilat-ramon-airport-guide.md` is MISSING from DE locale → included in DE-33 batch as high-priority (airport authority + Wizz Air base = genuine DACH travel-planning need).
+- Delta Boston nonstop TLV: starting "late 2026" per Travel And Tour World. Our cheapflights + airlines guide may need update when confirmed date announced. Queue as P3 freshness item.
+
+**Family / teenagers content gap (FR):**
+- Lonely Planet notes Israel as "one of the world's most kid-friendly countries" — family travel emphasis. Zero FR editorial for teens specifically.
+- `israel-with-teenagers.md` confirmed MISSING from FR; no competitor equivalent in FR (routard.com = generic Israel, no teen-specific guide). High opportunity.
+- `israel-water-parks.md` confirmed MISSING from FR. TripAdvisor FR has UGC-only. Zero editorial guide covering Yamit/Kfar Saba/Luna Park/Kif Tzuba circuit in FR. High summer conversion value.
+
+**Wellness / yoga retreat gap (FR):**
+- bookretreats.com ranks EN for "wellness retreats Israel January 2026" — EN-only site. Zero FR editorial on Israeli yoga/wellness retreats.
+- Key anchors confirmed: Ne'ot Semadar (Negev), Lev Hamidbar Center (Arava/domes), Galilee spa circuit. INPA parks + Dead Sea spa combo = natural monetization.
+- `israel-yoga-retreats.md` confirmed MISSING from FR. Estimated zero competition from routard/petitfuté on this specific query.
+
+**Adventure cycling gap (FR + DE):**
+- `israel-national-bike-trail.md` confirmed MISSING from FR (found in ES, missing from FR). ibt.org.il + komoot = main EN competitors.
+- IBT: 1,200km north-south, 27 segments, Ministry of Tourism partnership, Hermon→Eilat. DACH + French adventure cycling market significant.
+- `israel-national-bike-trail.md` also MISSING from DE. Include in subsequent DE batch (DE-34+) or alongside DE-33 depending on capacity.
+
+**Comparison guides (FR) — Egypt framing:**
+- `israel-vs-egypt.md` confirmed MISSING from FR. Last iter1010 competitor check noted Egypt gaining market share (+15.6% 2025 inbound) as travelers shifted. Honest framing = Israel vs Egypt each has distinct strengths; not zero-sum.
+- Zero FR editorial comparison (routard.com = separate Israel guide + separate Egypt guide, no combined comparison). High purchase-intent query for French MENA travelers.
+
+**ES batch status — cross-link pre-verification (iter1030):**
+- `israel-culinary-heritage-tourism.md`: 14/15 ES cross-links exist ✓ (kerem-hateimanim-tel-aviv absent → EN fallback). FR equivalent already SHIPPED (iter1005).
+- `israel-small-group-tours.md`: FR equivalent shipped (iter1028 FR-35 c540ad7c). ES cross-links TBD at BUILD time.
+- `israel-photography-tours.md`: FR equivalent shipped (iter1028 FR-35 c540ad7c). ES cross-links TBD at BUILD time.
+- `israel-evening-activities.md`: no FR/DE equivalent shipped yet. Entirely uncontested in any locale.
+- `israel-base-city-guide.md`: no FR/DE equivalent shipped yet. Practical planning guide; LATAM first-timers.
+
+**DE batch status — cross-link pre-verification (iter1030):**
+- `israel-trip-cost-by-style.md`: 6/7 DE cross-links ✓ (israel-trip-cost-calculator = tool → EN fallback). FR equivalent shipped (iter1022 FR-34).
+- `eilat-ramon-airport-guide.md`: Wizz Air BGA base and Ramon mini-base makes this freshness-relevant. ES equivalent missing too.
+- `israel-packing-list-guide.md`: DE cross-links include israel-packing-list (tool, EN only), best-time-to-visit-israel, etc. DE versions of practical guides generally complete.
+- `gan-hashlosha-guide.md`: FR equivalent shipped (iter1005 FR-30). Confirmed missing from DE.
+- `israel-travel-tips.md`: confirmed missing from DE; evergreen practical guide.
+
+**Key differentiators maintained (203rd pass):**
+- Monthly guides: FR/DE/ES all 12 months covered; EN still missing August (persistent gap, P2 backlog).
+- 6 interactive tools: zero competitor equivalent in FR/DE/ES.
+- Comparison guides (vs Jordan/Greece/Turkey): ES has these; FR missing vs-egypt/vs-france/vs-greece/vs-turkey cluster; DE missing most comparison guides.
+- Nationality guides: 30+ EN guides; FR/DE/ES translations nearly all MISSING — enormous untapped cluster.
