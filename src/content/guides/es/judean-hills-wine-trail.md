@@ -1,6 +1,6 @@
 ---
-title: "Ruta del Vino de las Colinas de Judea: excursión desde Jerusalén"
-description: "Ruta del Vino de las Colinas de Judea: bodegas Tzora, Flam, Castel y Nevo a 30–50 min de Jerusalén — circuito en auto, consejos de cata y mejores tours guiados 2026."
+title: "Vino de las Colinas de Judea: excursión desde Jerusalén"
+description: "Ruta Vinícola de las Colinas de Judea: bodegas Tzora, Flam, Castel y Nevo a 30–50 min de Jerusalén — circuito en auto y tours guiados."
 heroImage: /images/regions/jerusalem/hero.jpg
 category: Food
 updatedAt: 2026-08-06

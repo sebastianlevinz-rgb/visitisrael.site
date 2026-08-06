@@ -1,6 +1,6 @@
 ---
 title: "Tours a Nazaret: guía comparativa para elegir el mejor (2026)"
-description: "Tours a Nazaret comparados: excursión de un día desde Tel Aviv, circuito cristiano de Galilea, senderismo por el Camino de Jesús y medio día desde Tiberias — qué cubre cada opción y cómo reservar."
+description: "Tours a Nazaret comparados: excursión desde Tel Aviv, circuito cristiano de Galilea, senderismo por el Camino de Jesús y medio día desde Tiberias."
 heroImage: /images/regions/nazareth/hero.jpg
 category: Tours
 verdictName: "un tour guiado a Nazaret y el Mar de Galilea"

@@ -1,6 +1,6 @@
 ---
 title: "Playas del Mar de Galilea: guía de baño en el Kinneret 2026"
-description: "Playas del Mar de Galilea: Gei Beach, Luna Gal, Ein Gev, Tsemach y el sendero Sovev Kinneret — playas de pago y gratuitas, calidad del agua y consejos por temporada."
+description: "Playas del Mar de Galilea: Gei Beach, Luna Gal, Ein Gev, Tsemach y sendero Sovev Kinneret — playas de pago y gratuitas, consejos por temporada."
 heroImage: /images/regions/galilee/sea-of-galilee.jpg
 category: Beaches & Water
 updatedAt: 2026-08-06

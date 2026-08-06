@@ -1,6 +1,6 @@
 ---
-title: "Ruta en auto por el norte de Israel: Galilea y Golán en 3–4 días"
-description: "Self-drive por el norte de Israel en 3–4 días: Tel Aviv → Cesarea → Haifa → Acre → Rosh Hanikra → Mar de Galilea → Golán → Nazaret → TLV."
+title: "Ruta en auto por el norte de Israel: Galilea y Golán"
+description: "Self-drive norte de Israel en 3–4 días: Tel Aviv → Cesarea → Haifa → Acre → Rosh Hanikra → Mar de Galilea → Golán → Nazaret."
 heroImage: /images/regions/golan/hero.jpg
 category: Itineraries
 updatedAt: 2026-08-06
