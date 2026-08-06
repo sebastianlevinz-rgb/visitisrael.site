@@ -1194,6 +1194,11 @@ const ROUTES = [
   '/fr/neve-tzedek-guide',
   '/fr/tower-of-david-guide',
   '/fr/western-galilee-guide',
+  '/de/netanya-guide',
+  '/de/passover-in-israel',
+  '/de/israel-water-parks',
+  '/de/israel-yoga-retreats',
+  '/de/neve-tzedek-guide',
 ];
 
 for (const route of ROUTES) {
