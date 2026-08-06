@@ -929,6 +929,11 @@ const ROUTES = [
   '/es/israel-national-bike-trail',
   '/es/negev-makhtesh-guide',
   '/es/jaffa-hotels-guide',
+  '/fr/israel-vs-albania',
+  '/fr/israel-vs-cyprus',
+  '/fr/judean-hills-wine-trail',
+  '/fr/sea-of-galilee-beaches',
+  '/fr/northern-israel-road-trip',
 ];
 
 for (const route of ROUTES) {
