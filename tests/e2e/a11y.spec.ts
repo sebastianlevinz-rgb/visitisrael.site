@@ -939,6 +939,11 @@ const ROUTES = [
   '/fr/judean-hills-wine-trail',
   '/fr/sea-of-galilee-beaches',
   '/fr/northern-israel-road-trip',
+  '/fr/israel-vs-turkey',
+  '/fr/israel-vs-greece',
+  '/fr/israel-travel-2026',
+  '/fr/israel-group-travel',
+  '/fr/new-luxury-hotels-israel-2026',
 ];
 
 for (const route of ROUTES) {
