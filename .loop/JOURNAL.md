@@ -15798,3 +15798,9 @@ What: 5 French-language guides completing high-value comparison + planning clust
 Gate: pnpm check 0 errors | pnpm build 1579 pages | pnpm test:e2e 2271/2271 passed (16.0m, exit code 0)
 Merge: squash-merge e9bc80df to master. Branch auto/fr-39-batch pushed to origin.
 Next: iter1052 → BUILD mode (1052 % 5 = 2 → BUILD) — DE-36 batch priority.
+
+## 2026-08-07T02:20Z · iter1052 · BUILD (i18n-DE) · de-36-batch
+What: 5 German-language guides completing high-value comparison + freshness cluster — israel-vs-turkey (Israel vs. Türkei; 12-criteria comparison table Kosten/Strände/Geschichte/Nachtleben/Sicherheit/Visum/Gastronomie; paired naming Klagemauer/הַכּוֹתֶל הַמַּעֲרָבִי + Felsendom/Tempelberg/הַר הַבַּיִת/الحَرَم الشَّريف; CTAs GYG+Skyscanner+Booking; 7 FAQs), israel-vs-greece (Israel vs. Griechenland; Mediterranean comparison table; CTAs GYG+Skyscanner+Booking; 6 FAQs), israel-vs-egypt (Israel vs. Ägypten; Nahost comparison Kosten/Strände/Geschichte/Sicherheit/Visum/Essen; Taba crossing; CTAs GYG+Skyscanner+Booking; 7 FAQs), israel-travel-2026 (Israelreise 2026; ETA-IL ca. USD 7; Terminal 1 Ben Gurion Juli 2026; Haifa Kreuzfahrtterminal Mai 2026; neue Hotels Six Senses/Leon Towers/Isrotel Kayma; CTAs Skyscanner+Booking+GYG; 6 FAQs), israel-vs-france (Israel vs. Frankreich; cultural comparison Kosten/Strände/Geschichte/Gastronomie/Nachtleben/Sicherheit/Visum; CTAs GYG+Booking+Skyscanner; 6 FAQs). Standard Hochdeutsch; YAML double-quotes; all /de/* cross-links pre-verified; no fabricated prices/ratings; paired naming at all contested/religious sites; no H1 in body. 10 new e2e tests (5 smoke + 5 a11y). DE guides: 263→268/401. Build: 1579→1584 pages (+5).
+Gate: pnpm check 0 errors | pnpm build 1584 pages | pnpm test:e2e 2281/2281 passed (18.5m, exit code 0)
+Merge: squash-merge 4b33a126 to master. Branch auto/de-36-batch.
+Next: iter1053 → BUILD mode (1053 % 5 = 3 → BUILD) — ES-52 batch priority.
