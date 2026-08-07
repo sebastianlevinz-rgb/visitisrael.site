@@ -1,13 +1,15 @@
 # LOOP STATE
 
-- iteration: 1054
-- lastMode: REVIEW
-- lastItem: review-1054-es52-meta-trim
-- lastResult: REVIEW SHIPPED 55a72be3. Audited ES-52 batch (iter1053): 4 guides israel-vs-egypt + israel-vs-cyprus + israel-vs-france + israel-group-travel. 1 violation found and fixed: israel-group-travel description 183→155 chars. All other checks CLEAN: titles 40/47/48/52 (all ≤65); descriptions 138/151/150 (all ≤160 after fix); no H1 in any body; all 4 hero images exist; all 17 /es/* cross-links resolve; affiliates valid (getyourguide/skyscanner/booking/tourradar/viator); no fabricated ratings/exact prices; paired naming present (Muro Occidental/Kotel/הַכּוֹתֶל הַמַּעֲרָבִי + Monte del Templo/Haram al-Sharif). Gate: pnpm check 0 errors; build 1588 pages (unchanged); pnpm test:e2e 2289/2289 pass (22.2m). Commit 55a72be3 pushed to master; Lighthouse CI in_progress at push time.
-- nextRotationCategory: RESEARCH (iter1055 % 5 = 0 → RESEARCH)
+- iteration: 1055
+- lastMode: RESEARCH
+- lastItem: research-1055-specialty-i18n-bundles
+- lastResult: RESEARCH COMPLETE (no ship). 206th research pass. 5 specialty EN guides confirmed MISSING from all 3 locales (orthodox/sustainable/muslim/genealogy/wedding); 0 FR/DE/ES editorial competition on any. 8 new backlog items added: FR-40 full batch (5 guides), DE-37 full batch (5 guides), ES-53 full batch (5 guides), israel-points-miles-guide i18n bundle (FR/DE/ES), wedding-in-israel i18n FR+ES, negev-tours-compared i18n bundle (FR/DE/ES), israel-ramadan-guide i18n P3, israel-unesco-sites i18n P3. Locale counts: FR=282/401, DE=268/401, ES=264/401.
+- nextRotationCategory: BUILD (iter1056 % 5 = 1 → BUILD; FR-40 batch next)
 - higgsfieldSpent: 0
-- updatedAt: 2026-08-07T04:00Z
+- updatedAt: 2026-08-07T06:00Z
 - branch context: work on master; feature work on auto/<slug>
+
+Notes: iter1055 RESEARCH — research-1055-specialty-i18n-bundles. 206th research pass. 5 specialty EN guides confirmed MISSING from all 3 locales: israel-orthodox-jewish-travel + sustainable-travel-israel + muslim-travel-israel + jewish-genealogy-israel-trip + wedding-in-israel (zero FR/DE/ES editorial competition). Also: israel-points-miles-guide MISSING (FFP: Flying Blue/Miles & More/Iberia Plus per-locale angles), negev-tours-compared MISSING (GYG listings only, no editorial), israel-ramadan-guide MISSING, israel-unesco-sites MISSING. India e-visa July 2025 launched (98% approval) = israel-for-indian-travelers upgraded within nationality-guides-i18n-bundle. 8 new backlog items added (FR-40, DE-37, ES-53 full batches + 5 standalone bundles). No ship (research mode).
 
 Notes: iter1054 REVIEW — review-1054-es52-meta-trim SHIPPED 55a72be3. Audited 4 ES-52 guides. 1 fix: israel-group-travel description trimmed 183→155 chars. All other checks CLEAN. Gate: pnpm check 0 errors; build 1588 pages (unchanged); pnpm test:e2e 2289/2289 pass (22.2m). Lighthouse CI in_progress at push time.
 

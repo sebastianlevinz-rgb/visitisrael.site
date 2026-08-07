@@ -7985,3 +7985,24 @@ CAUTION (iter 980): celiac/gluten-free guides must use "tradition thérapeutique
 - TLV: Dizengoff 99 (Isrotel), Palatin Hotel (Fattal), Six Senses, Basel Complex Hotel (Isrotel), Leon Towers (Isrotel) — all 2026
 - Herzliya Marina: new luxury eco-hotel 2026
 - InterContinental Jerusalem: no confirmed open date as of Aug 2026; still "late summer 2026" per IHG listing
+
+## iter1055 research — 2026-08-07 — 206th research pass
+
+**Specialty i18n gaps confirmed (FR/DE/ES) — zero editorial competition**
+- "voyage responsable Israël" / "nachhaltiges Reisen Israel" / "viaje sostenible Israel" — ResponsibleTravel.com + Frommer's cover EN; Ecotourism Israel + Abraham Tours EN only; zero FR/DE/ES editorial
+- "voyage généalogie juive Israël" / "jüdische Genealogie Israel" / "genealogía judía Israel" — World Jewish Travel, israelitourismconsultants.com, MyHeritage EN-only; zero FR/DE/ES editorial
+- "mariage en Israël" / "Heiraten Israel" / "casarse en Israel" — The Knot, Honeymoons.com, Tourist Israel all EN-only; zero FR/DE/ES editorial; high-intent, high-conversion
+- "Israël musulmans" / "Israel muslime" / "Israel viajeros musulmanes" — Bein Harim/Abraham Tours have EN Muslim travel guides; zero FR/DE/ES dedicated editorial
+- "Israël juifs orthodoxes" / "Israel orthodoxe Juden" / "Israel judíos ortodoxos" — zero editorial in any non-EN locale; significant diaspora markets in France, Germany, LATAM
+- "miles points Israël" / "Meilen Punkte Israel" / "millas puntos Israel" — The Points Guy ("points-and-miles-guide-to-tel-aviv"), KosherSquared EN-only; Flying Blue/Miles & More/Iberia Plus = distinct locale angles not covered by EN competitor pages
+- "Néguev circuits comparés" / "Negev Touren Vergleich" / "tours Néguev comparados" — GYG has tour product listings, no editorial comparison format in any of these 3 languages
+
+**India outbound travel market (2026 data)**
+- Israel e-Visa launched July 1 2025 (new digital system per Israeli MFA); 98% approval rate for complete applications; single-entry 90 days; 7-10 day processing
+- "Israel for Indian travelers" = high-volume search in English; zero French/German/Spanish editorial despite growing Indian diaspora in France (350k+) and Germany (200k+)
+- Upgrade israel-for-indian-travelers within nationality-guides-i18n-bundle from P3 → P2 sub-priority for FR/DE builds
+
+**Competitor moats to note**
+- Tourist Israel has zero comparison pages ("Israel vs [country]") → our "vs" format remains a clear competitive moat
+- Tourist Israel has zero i18n specialty guides (orthodox/genealogy/sustainable/muslim/wedding) → all zero competition confirmed
+- GYG covers tour products but no editorial in any specialty niche → our editorial layer differentiates
