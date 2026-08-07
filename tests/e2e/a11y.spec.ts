@@ -958,6 +958,11 @@ const ROUTES = [
   '/fr/sustainable-travel-israel',
   '/fr/muslim-travel-israel',
   '/fr/jewish-genealogy-israel-trip',
+  '/de/israel-homeport-cruise',
+  '/de/sustainable-travel-israel',
+  '/de/israel-orthodox-jewish-travel',
+  '/de/jewish-genealogy-israel-trip',
+  '/de/wedding-in-israel',
 ];
 
 for (const route of ROUTES) {
