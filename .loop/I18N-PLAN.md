@@ -6,12 +6,12 @@
 >
 > One bounded slice per loop iteration. NEVER bulk-translate in one shot.
 
-## Current status snapshot (2026-08-07 iter1066 BUILD — ES-55 SHIPPED d2d018bc; next ES BUILD = ES-56 not yet defined / FR-42 not yet defined / DE-39 not yet defined)
+## Current status snapshot (2026-08-07 iter1067 BUILD — FR-42 SHIPPED c04046c0; next FR BUILD = FR-43 not yet defined / ES-56 not yet defined / DE-39 not yet defined)
 
 | Locale | Guides | Attractions | Regions | Itineraries |
 |--------|--------|-------------|---------|-------------|
 | en     | 398    | 65          | 11      | 6           |
-| fr     | 292    | 61          | 11      | 6           |
+| fr     | 297    | 61          | 11      | 6           |
 | de     | 278    | 61          | 11      | 6           |
 | es     | 279    | 61          | 11      | 6           |
 
@@ -19,8 +19,8 @@
 
 **Gaps to close:**
 - es guides: **119 missing** (279/398 done — Phase ES-55 SHIPPED iter1066 d2d018bc: traveling-israel-jewish-holidays + shabbat-dinner-experience + negev-jeep-tours + timna-park-guide + petra-wadi-rum-from-eilat; **next ES BUILD = ES-56** — not yet defined; queue for RESEARCH pass)
-- fr guides: **106 missing** (292/398 done — Phase FR-41 SHIPPED iter1061 e936fc5e; **next FR BUILD = FR-42** — not yet defined; see DE-38/ES-54 for parallel batches)
-- de guides: **120 missing** (278/398 done — Phase DE-38 SHIPPED iter1063 049be159: israel-points-miles-guide + israel-ramadan-guide + israel-unesco-sites + israel-visa-extension + israel-for-swiss-travelers; **next DE BUILD = DE-39** — not yet defined; REVIEW pass of DE-38 due first per iter1064 rotation)
+- fr guides: **101 missing** (297/398 done — Phase FR-42 SHIPPED iter1067 c04046c0: traveling-israel-jewish-holidays + shabbat-dinner-experience + negev-jeep-tours + timna-park-guide + petra-wadi-rum-from-eilat; **next FR BUILD = FR-43** — not yet defined)
+- de guides: **120 missing** (278/398 done — Phase DE-38 SHIPPED iter1063 049be159: israel-points-miles-guide + israel-ramadan-guide + israel-unesco-sites + israel-visa-extension + israel-for-swiss-travelers; **next DE BUILD = DE-39** — not yet defined)
 - fr/de/es attractions: **4 missing each** (the 4 EN attractions added after Phase 4)
 
 **Dead Sea cluster status (iter855 audit):**
@@ -1510,13 +1510,13 @@ All 5 confirmed MISSING from `src/content/guides/es/` via `comm -23` (2026-08-06
 - neve-tzedek-guide: TLV's oldest and most fashionable neighborhood; Suzanne Dellal Centre; Nahum Gutman Museum; Rokach House; boutique hotels + Airbnb-style stays; zero ES editorial; LATAM Instagram-tourism angle (Shabazi + colorful lanes = photo-friendly); Booking CTAs; 6 FAQs; pairs with /es/jaffa-travel-guide (confirm at BUILD time), /es/tel-aviv-beach-guide (confirm)
 Quality: neutral LATAM Spanish tuteo; YAML double-quotes; /es/ prefix only for confirmed existing ES pages; no fabricated prices; Yardenit "popular pero no auténtico históricamente" honesty note (important: the actual baptism site is Qasr el-Yahud); Jordan River West Bank/Area C location noted; Sucot dates verified; no H1 in body.
 
-## Updated status snapshot (iter1062 BUILD 2026-08-07)
+## Updated status snapshot (iter1067 BUILD 2026-08-07)
 
 | Locale | Guides | Note |
 |--------|--------|------|
 | en     | 398    | stable |
-| fr     | 292    | 106 missing — Phase FR-41 SHIPPED iter1061 e936fc5e; **next FR BUILD = FR-42** |
-| de     | 273    | 125 missing — Phase DE-37 SHIPPED iter1057 4249950e; **Phase DE-38 defined iter1060** |
+| fr     | 297    | 101 missing — Phase FR-42 SHIPPED iter1067 c04046c0; **next FR BUILD = FR-43 (not yet defined)** |
+| de     | 278    | 120 missing — Phase DE-38 SHIPPED iter1063 049be159; **next DE BUILD = DE-39 (not yet defined)** |
 | es     | 279    | 119 missing — Phase ES-55 SHIPPED iter1066 d2d018bc; **next ES BUILD = ES-56 (not yet defined)** |
 
 ### Phase FR-41 (287 → 292/398) — SHIPPED iter1061 — e936fc5e
@@ -1534,5 +1534,16 @@ All 5 shipped to master. Concurrent collision with FR-41 resolved via rebase. Se
 Guides: `traveling-israel-jewish-holidays.md`, `shabbat-dinner-experience.md`, `negev-jeep-tours.md`, `timna-park-guide.md`, `petra-wadi-rum-from-eilat.md`
 All 5 shipped to master. See DONE.md iter1066 for full detail.
 
+### Phase FR-42 (292 → 297/398) — SHIPPED iter1067 — c04046c0
+
+Guides: `traveling-israel-jewish-holidays.md`, `shabbat-dinner-experience.md`, `negev-jeep-tours.md`, `timna-park-guide.md`, `petra-wadi-rum-from-eilat.md`
+All 5 shipped to master. Mirrored ES-55 batch in Metropolitan French. verdictName+verdictQuery on negev-jeep-tours + timna-park-guide. INPA Pass honesty note on Timna. Jordan Pass purchase-before-border note on petra-wadi-rum. All /fr/* cross-links pre-verified. Gate: pnpm check 0 errors; build 1628 pages (+5); pnpm test:e2e 2369/2369 pass (33.2m). See DONE.md iter1067 for full detail.
+
 ### Phase ES-56 (279 → 284/398) — not yet defined
 Queue for next RESEARCH pass to define ES-56 batch (candidates: wedding-in-israel, israel-for-seniors, negev-tours-compared, nationality-guides-cluster-2, is-israel-safe freshness update).
+
+### Phase FR-43 (297 → 302/398) — not yet defined
+Queue for next RESEARCH pass or BUILD iteration to define FR-43 batch (candidates: sarona-market-tel-aviv, wedding-in-israel, israel-for-seniors, galilee-agritourism-cluster).
+
+### Phase DE-39 (278 → 283/398) — not yet defined
+Queue for next RESEARCH pass or BUILD iteration to define DE-39 batch (candidates: traveling-israel-jewish-holidays + shabbat-dinner-experience + negev-jeep-tours + timna-park-guide + petra-wadi-rum-from-eilat — same 5-guide parity block now exists in FR+ES).

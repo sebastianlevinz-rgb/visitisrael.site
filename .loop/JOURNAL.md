@@ -15939,3 +15939,10 @@ What: 5 new ES guides — traveling-israel-jewish-holidays, shabbat-dinner-exper
 Gate: pnpm check 0 errors; build 1623 pages (+5 vs 1618); pnpm test:e2e 2359/2359 pass (16.1m).
 Ship: committed d2d018bc on master, pushed. ES guides: 274→279/398.
 Next: iter1067 → BUILD (1067 % 5 = 2 → BUILD; FR-42 batch — 5 FR guides: traveling-israel-jewish-holidays + shabbat-dinner-experience + negev-jeep-tours + timna-park-guide + sarona-market-tel-aviv).
+
+## 2026-08-07 · iter 1067 · BUILD (i18n-FR) · fr-42-batch
+What: 5 new FR guides — traveling-israel-jewish-holidays, shabbat-dinner-experience, negev-jeep-tours, timna-park-guide, petra-wadi-rum-from-eilat. Metropolitan French (français métropolitain; not LATAM). Mirrored ES-55 batch guides to achieve locale parity. All categories: Planning, Jewish Culture, Experiences, Destinations, Tours. Paired naming at contested/religious sites; no fabricated prices/ratings; all /fr/* cross-links pre-verified (full ls check); no H1 in body. verdictName+verdictQuery on negev-jeep-tours and timna-park-guide. 10 new e2e tests (5 smoke + 5 a11y) added to tests/e2e/smoke.spec.ts and tests/e2e/a11y.spec.ts.
+Gate: pnpm check 0 errors; build 1628 pages (+5 vs 1623); pnpm test:e2e 2369/2369 pass (33.2m).
+Ship: committed c04046c0 on master (direct git add + commit — squash branch was empty since files written to worktree directly), pushed. FR guides: 292→297/398. Vercel CI in_progress at push time; all 5 prior completed runs = success; no revert triggered.
+Memory: STATE.md iter→1067, lastMode BUILD, nextRotationCategory BUILD (1068%5=3→BUILD). JOURNAL.md updated. BACKLOG.md updated (FR-42 noted; FR-43 TBD). DONE.md updated (FR-42 appended). I18N-PLAN.md updated (FR 292→297; FR-42 SHIPPED section appended).
+Next: iter1068 → BUILD (1068 % 5 = 3 → BUILD; locale priority ES > FR > DE by gap count: ES=119, DE=120, FR=101 after FR-42; next is DE-39 or ES-56 — whichever locale has larger gap at time of build; FR-43 not yet defined).
