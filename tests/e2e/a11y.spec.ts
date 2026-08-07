@@ -953,6 +953,11 @@ const ROUTES = [
   '/es/israel-vs-cyprus',
   '/es/israel-vs-france',
   '/es/israel-group-travel',
+  '/fr/israel-homeport-cruise',
+  '/fr/israel-orthodox-jewish-travel',
+  '/fr/sustainable-travel-israel',
+  '/fr/muslim-travel-israel',
+  '/fr/jewish-genealogy-israel-trip',
 ];
 
 for (const route of ROUTES) {
