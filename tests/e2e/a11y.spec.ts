@@ -944,6 +944,11 @@ const ROUTES = [
   '/fr/israel-travel-2026',
   '/fr/israel-group-travel',
   '/fr/new-luxury-hotels-israel-2026',
+  '/de/israel-vs-turkey',
+  '/de/israel-vs-greece',
+  '/de/israel-vs-egypt',
+  '/de/israel-travel-2026',
+  '/de/israel-vs-france',
 ];
 
 for (const route of ROUTES) {
