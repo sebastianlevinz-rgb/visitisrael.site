@@ -8006,3 +8006,41 @@ CAUTION (iter 980): celiac/gluten-free guides must use "tradition thérapeutique
 - Tourist Israel has zero comparison pages ("Israel vs [country]") → our "vs" format remains a clear competitive moat
 - Tourist Israel has zero i18n specialty guides (orthodox/genealogy/sustainable/muslim/wedding) → all zero competition confirmed
 - GYG covers tour products but no editorial in any specialty niche → our editorial layer differentiates
+
+### 2026-08-07 · iter1060 · Practical i18n bundles research pass
+
+Researched Ramadan, UNESCO sites, points-miles and seniors Israel content on competitor sites.
+
+**Points & miles gap:**
+- 10xtravel.com "My Favorite Ways to Fly to Israel With Points and Miles" — only English editorial; covers United MileagePlus, Flying Blue Promo Rewards, American AAdvantage, Qantas FF. Zero FR/DE/ES competitor content.
+- FlyerTalk "Earning Frequent Flyer miles in Israel" forum has 11+ pages of discussion — no authoritative editorial guide exists in any European-language market.
+- Opportunity: per-locale angles — FR=Flying Blue/Air France CDG hub; DE=Miles&More Lufthansa FRA hub; ES=LifeMiles Avianca/Iberia Plus. Each has genuine unique-value editorial differentiation from the EN guide.
+
+**UNESCO sites gap:**
+- culturalheritageonline.com: "UNESCO World Heritage Sites in Israel: the complete guide (9 sites)" — English only, thin affiliate monetization.
+- French "patrimoine mondial Israël" SERP: Wikipedia + generic blogs only; no authoritative travel editorial with affiliate CTAs.
+- German "Welterbe Israel" SERP: Wikipedia + DK Verlag only.
+- Spanish "Patrimonio Humanidad Israel" SERP: very thin; no comprehensive editorial guide.
+
+**Ramadan travel:**
+- holafly.com: general Ramadan travel tips (generic, not Israel-specific).
+- Lonely Planet: general tips only, no Israel-specific Ramadan guide.
+- semerenkogroup.com/israel-bus-ramadan: very specific but no editorial context.
+- Bus schedule adjustments: Kavim + Metropoline routes primarily affected Feb 18–Mar 18 2026.
+- All competitor Ramadan guides are generic — our EN guide + proposed FR/DE/ES guides = first comprehensive Israel-specific Ramadan editorial in these languages.
+
+**Seniors market:**
+- Bein Harim "Israel trips for seniors" and Gil Travel "Israel tours for seniors over 60" and TourRadar have senior Israel pages (English only).
+- America Israel Tours, Exclusive Israel Tours, Senior Adult Travel all have senior Israel content.
+- High monetizable audience (slow-paced, premium accommodation preference, guided tour preference = TourRadar/GYG/Booking affiliate value).
+- israel-for-seniors.md already exists in FR+DE; missing from ES only. ES-specific: Argentine/Mexican senior market (premium retirees from Buenos Aires + Mexico City).
+
+**Luxury hotels 2026:**
+- myisraelstay.com "17 hotel openings shaping Israel's summer 2026" — 17 new properties across Israel.
+- Kassland Resort & Spa (Ma'ale Adumim near Jerusalem): opened May 2026, 220 rooms, thermal spa, indoor water park — not yet profiled in our luxury content.
+- Galilee Culinary Institute: scheduled to open end 2026; working farm + fine dining + cooking programs → new attraction guide opportunity.
+
+**Tourism recovery:**
+- North American visitors +73% YoY June 2026 (34,700 visitors from US+Canada in June 2026).
+- Israel moving toward premium, diversified tourism model post-conflict recovery.
+- Faith tourism (US, LATAM, Africa pilgrimage groups) leading the return.

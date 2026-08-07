@@ -6,21 +6,21 @@
 >
 > One bounded slice per loop iteration. NEVER bulk-translate in one shot.
 
-## Current status snapshot (2026-08-07 iter1053 BUILD — ES-52 SHIPPED 32ce0971)
+## Current status snapshot (2026-08-07 iter1060 RESEARCH — next FR-41/DE-38/ES-54 defined)
 
 | Locale | Guides | Attractions | Regions | Itineraries |
 |--------|--------|-------------|---------|-------------|
-| en     | 401    | 65          | 11      | 6           |
-| fr     | 282    | 61          | 11      | 6           |
-| de     | 268    | 61          | 11      | 6           |
-| es     | 264    | 61          | 11      | 6           |
+| en     | 398    | 65          | 11      | 6           |
+| fr     | 287    | 61          | 11      | 6           |
+| de     | 273    | 61          | 11      | 6           |
+| es     | 269    | 61          | 11      | 6           |
 
 **🎉 MILESTONE: ES + FR + DE monthly guides ALL COMPLETE** (iter996+iter997 ES-41+ES-42 SHIPPED — all 12 per-month guides jan-dec now exist in ES, FR, and DE)
 
 **Gaps to close:**
-- es guides: **137 missing** (264/401 done — Phase ES-52 SHIPPED iter1053 32ce0971; **next ES BUILD = ES-53** — batch partially defined iter1050 research: israel-homeport-cruise + 4 TBD)
-- fr guides: **119 missing** (282/401 done — Phase FR-39 SHIPPED iter1051 e9bc80df; **next FR BUILD = FR-40** — batch partially defined iter1050 research: israel-homeport-cruise + 4 TBD)
-- de guides: **133 missing** (268/401 done — Phase DE-36 SHIPPED iter1052 4b33a126; **next DE BUILD = DE-37** — batch partially defined iter1050 research: israel-homeport-cruise + 4 TBD)
+- es guides: **129 missing** (269/398 done — Phase ES-53 SHIPPED iter1058 bd762ac0 + meta-trim iter1059; **next ES BUILD = ES-54** — FULLY DEFINED iter1060 research: israel-points-miles-guide + israel-ramadan-guide + israel-unesco-sites + israel-visa-extension + israel-tour-packages)
+- fr guides: **111 missing** (287/398 done — Phase FR-40 SHIPPED iter1056 686cdcf0; **next FR BUILD = FR-41** — FULLY DEFINED iter1060 research: israel-points-miles-guide + israel-ramadan-guide + israel-unesco-sites + israel-visa-extension + israel-for-swiss-travelers)
+- de guides: **125 missing** (273/398 done — Phase DE-37 SHIPPED iter1057 4249950e; **next DE BUILD = DE-38** — FULLY DEFINED iter1060 research: israel-points-miles-guide + israel-ramadan-guide + israel-unesco-sites + israel-visa-extension + israel-for-swiss-travelers)
 - fr/de/es attractions: **4 missing each** (the 4 EN attractions added after Phase 4)
 
 **Dead Sea cluster status (iter855 audit):**
@@ -109,6 +109,27 @@ All 5 confirmed MISSING from FR via comm -23 (2026-08-06).
 - israel-vs-egypt: French MENA planners comparing destinations; Israel vs Egypt comparison across 8 criteria (heritage, beaches, cost, safety, logistics, food, nightlife, practical); Egypt market gaining share (honest framing — each destination has distinct strengths); cross-links to /fr/dead-sea-guide + /fr/eilat-travel-guide + /fr/israel-jordan-itinerary (all confirmed); GYG + Skyscanner CTAs.
 - israel-national-bike-trail: French adventure cycling market (IBT = 1,200km Hermon→Eilat, 27 segments); ibt.org.il + komoot = main competitors (EN-only); trail overview + 3 recommended segments (Galilee Rim, Judean Hills, Negev South); Northbound vs Southbound logistics; Booking (support accommodation) + GYG (bike tours) + Discovercars (sag wagon) CTAs; pairs with /fr/cycling-in-israel (confirmed existing) + /fr/hiking-in-israel (confirmed existing).
 Quality: metropolitan French; YAML double-quotes; /fr/* prefix only for confirmed existing FR pages; no fabricated prices; religious-site neutral framing; IBT difficulty ratings honest; no H1 in body.
+
+### FR-41 batch definition (iter1060 RESEARCH — ready for next FR BUILD)
+Guides: `israel-points-miles-guide.md`, `israel-ramadan-guide.md`, `israel-unesco-sites.md`, `israel-visa-extension.md`, `israel-for-swiss-travelers.md`
+All 5 confirmed MISSING from FR via comm -23 (2026-08-07).
+Key angle per guide: points-miles = Flying Blue CDG angle + AMEX FR; ramadan = 6M Muslims France, Jaffa/Nazareth/Jerusalem iftar; UNESCO = UNESCO HQ Paris, 9 "Patrimoine mondial" sites INPA-Pass; visa-extension = long-stay FR digital nomads / retirees; for-swiss-travelers = 300k Romandie Swiss, SWISS LX GVA/ZRH→TLV, EDA advisory, LAMal not valid abroad.
+Cross-links: all /fr/* verified ✓ (israel-road-trip ✓ in FR). No broken cross-links for this batch.
+Status: ready [iter1060 research]
+
+### DE-38 batch definition (iter1060 RESEARCH — ready for next DE BUILD)
+Guides: `israel-points-miles-guide.md`, `israel-ramadan-guide.md`, `israel-unesco-sites.md`, `israel-visa-extension.md`, `israel-for-swiss-travelers.md`
+All 5 confirmed MISSING from DE via comm -23 (2026-08-07).
+Key angle per guide: points-miles = Miles&More Lufthansa FRA→TLV, 35M+ Mitglieder; ramadan = 5.5M+ Muslime Deutschland, türkische Gemeinschaft; UNESCO = "Welterbe" German culture, 9 Stätten; visa-extension = DACH digital nomad market; for-swiss-travelers = 4.5M Deutschschweiz, SWISS ZRH→TLV + Edelweiss, KVG not valid abroad.
+Cross-link notes: /de/israel-road-trip MISSING → use EN fallback in UNESCO guide; /de/muslim-travel-israel MISSING → use EN fallback in Ramadan guide; all other /de/* cross-links verified ✓.
+Status: ready [iter1060 research]
+
+### ES-54 batch definition (iter1060 RESEARCH — ready for next ES BUILD)
+Guides: `israel-points-miles-guide.md`, `israel-ramadan-guide.md`, `israel-unesco-sites.md`, `israel-visa-extension.md`, `israel-tour-packages.md`
+All 5 confirmed MISSING from ES via comm -23 (2026-08-07). [israel-tour-packages FR✓ DE✓ but ES✗]
+Key angle per guide: points-miles = LifeMiles Avianca / Iberia Plus LATAM angle; ramadan = Muslim communities in Argentina/Colombia/Brazil/Mexico; UNESCO = "Patrimonios de la Humanidad" high LATAM appeal; visa-extension = growing LATAM digital nomad market; tour-packages = "paquetes de viaje Israel" high commercial intent, TourRadar/Abraham/Noah Tours.
+Cross-link notes: /es/new-luxury-hotels-israel-2026 MISSING → use EN fallback in points-miles guide; all other /es/* cross-links verified ✓.
+Status: ready [iter1060 research]
 
 ### FR-39 batch definition (iter1050 RESEARCH — SHIPPED iter1051 e9bc80df)
 Guides: `israel-vs-turkey.md`, `israel-vs-greece.md`, `israel-travel-2026.md`, `israel-group-travel.md`, `new-luxury-hotels-israel-2026.md`

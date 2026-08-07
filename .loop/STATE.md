@@ -1,13 +1,15 @@
 # LOOP STATE
 
-- iteration: 1059
-- lastMode: REVIEW
-- lastItem: review-1059-es53-meta-trim
-- lastResult: SHIPPED 54e6fbbd. 5 descriptions trimmed (165→154, 175→149, 172→149, 189→149, 176→145) + typo fix "sinagogassefaradíes"→"sinagogas sefaradíes". Build: 1603 pages (unchanged). Gate: pnpm check 0 errors | build 1603 pages | pnpm test:e2e 2319/2319 pass (18.8m). CI in_progress at push time.
-- nextRotationCategory: RESEARCH (iter1060 % 5 = 0 → RESEARCH)
+- iteration: 1060
+- lastMode: RESEARCH
+- lastItem: research-1060-practical-i18n-bundles
+- lastResult: NO SHIP (research mode). 215th research pass. 4 guides confirmed MISSING from all 3 locales: israel-points-miles-guide + israel-ramadan-guide + israel-unesco-sites + israel-visa-extension. israel-for-swiss-travelers MISSING from FR+DE. israel-tour-packages MISSING from ES. 3 new locale batches defined: FR-41, DE-38, ES-54 (each = the 4 shared guides + 1 locale-specific). 3 new EN-level opportunities discovered: Galilee Culinary Institute guide (opens end 2026), Kassland Resort & Spa (opened May 2026 near Jerusalem), nationality-guides-cluster (FR/DE/ES for Filipino/Indian/Korean travelers). Cross-link notes: israel-road-trip DE✗ (use EN fallback in DE UNESCO guide); new-luxury-hotels-israel-2026 ES✗ (use EN fallback in ES points-miles guide); muslim-travel-israel DE✗ (use EN fallback in DE Ramadan guide).
+- nextRotationCategory: BUILD (iter1061 % 5 = 1 → BUILD)
 - higgsfieldSpent: 0
-- updatedAt: 2026-08-07T08:55Z
+- updatedAt: 2026-08-07T09:30Z
 - branch context: work on master; feature work on auto/<slug>
+
+Notes: iter1060 RESEARCH — research-1060-practical-i18n-bundles. 215th research pass. Researched: UNESCO sites (culturalheritageonline.com has 9-site guide, Israel well-represented), points-miles (10xtravel.com "fly to Israel with points" + FlyerTalk/Matmid forums), Ramadan 2026 (bus network adjustments Feb 17–Mar 19 2026; 2027 ≈ Feb 6–Mar 7), luxury hotels (17 new openings summer 2026 incl. Kassland Resort & Spa near Jerusalem May 2026), tourism recovery (+73% North American YoY June 2026), Galilee Culinary Institute (opens end 2026). Confirmed gaps: 4 guides missing from ALL 3 locales (israel-points-miles-guide, israel-ramadan-guide, israel-unesco-sites, israel-visa-extension); israel-for-swiss-travelers missing from FR+DE; israel-tour-packages missing from ES. Batch definitions: FR-41 (5 guides), DE-38 (5 guides), ES-54 (5 guides). Cross-link notes: israel-road-trip DE✗ → EN fallback in DE UNESCO; new-luxury-hotels-israel-2026 ES✗ → EN fallback in ES points-miles; muslim-travel-israel DE✗ → EN fallback in DE Ramadan. No ship (research mode). Locale counts: EN=398, FR=287, DE=273, ES=269.
 
 Notes: iter1059 REVIEW — review-1059-es53-meta-trim SHIPPED 54e6fbbd. Audited all 5 ES-53 guides (israel-homeport-cruise, israel-orthodox-jewish-travel, jewish-genealogy-israel-trip, muslim-travel-israel, sustainable-travel-israel). Titles: all clean (range 34–59 chars). Descriptions: all 5 over 160-char limit — trimmed: homeport-cruise 165→154, orthodox-jewish-travel 175→149 (+ typo "sinagogassefaradíes"→"sinagogas sefaradíes" fixed), genealogy-trip 172→149, muslim-travel 189→149, sustainable-travel 176→145. Other checks CLEAN: no H1 in any body; all 5 hero images exist on disk; 15/15 /es/* cross-links resolve; affiliates booking/getyourguide/viator/abraham/discovercars all valid; no fabricated prices/ratings. Gate: pnpm check 0 errors | build 1603 pages (unchanged) | pnpm test:e2e 2319/2319 pass (18.8m). CI in_progress at push time.
 

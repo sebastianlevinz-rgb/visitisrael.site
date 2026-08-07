@@ -15860,3 +15860,11 @@ What: Audited all 5 ES-53 guides (israel-homeport-cruise, israel-orthodox-jewish
 Gate: pnpm check 0 errors | build 1603 pages (unchanged) | pnpm test:e2e 2319/2319 pass (18.8m, exit code 0)
 Merge: 54e6fbbd on master. CI in_progress at push time.
 Next: iter1060 → RESEARCH (1060 % 5 = 0 → RESEARCH).
+
+## 2026-08-07T09:30Z · iter1060 · RESEARCH · research-1060-practical-i18n-bundles
+
+What: 215th research pass. Researched: (1) israel-points-miles guide — 10xtravel.com "fly to Israel with points", FlyerTalk El Al Matmid threads, United MileagePlus / Flying Blue / Miles&More / Qantas / LifeMiles angles per locale; (2) israel-ramadan-guide — Ramadan 2026 Feb 17–Mar 19 confirmed, 2027 ≈ Feb 6–Mar 7; Kavim/Metropoline bus adjustments; Damascus Gate / Nazareth / Jaffa atmosphere; (3) israel-unesco-sites — 9 UNESCO sites confirmed (Masada/Akko/White City/Biblical Tels/Incense Route/Bahá'í/Carmel Caves/Beit Guvrin/Beit She'arim); competitor: culturalheritageonline.com; (4) luxury hotels — 17 new openings summer 2026 incl. Kassland Resort & Spa (220 rooms + spa + indoor water park opened May 2026 Ma'ale Adumim); (5) tourism recovery — North American visitors +73% YoY June 2026; Galilee Culinary Institute opens end 2026; (6) seniors — multiple competitors (Gil Travel, Bein Harim, TourRadar senior Israel pages) show monetizable gap.
+Confirmed missing from ALL 3 locales: israel-points-miles-guide / israel-ramadan-guide / israel-unesco-sites / israel-visa-extension. israel-for-swiss-travelers missing from FR+DE. israel-tour-packages missing from ES. Cross-link issues: israel-road-trip DE✗; new-luxury-hotels-israel-2026 ES✗; muslim-travel-israel DE✗ — use EN fallbacks in batch implementers.
+Defined: FR-41 (points-miles + ramadan + unesco-sites + visa-extension + for-swiss-travelers), DE-38 (same 4 + for-swiss-travelers), ES-54 (same 4 + tour-packages). Added 3 new EN-level BACKLOG items: Galilee Culinary Institute, Kassland Resort & Spa, nationality-guides-cluster-2 (Filipino/Indian/Korean).
+Gate: N/A (research mode — no shipping).
+Next: iter1061 → BUILD (1061 % 5 = 1 → BUILD; FR-41 batch is top priority per rotation).
