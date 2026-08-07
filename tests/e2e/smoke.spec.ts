@@ -1243,6 +1243,11 @@ const ROUTES = [
   '/es/israel-orthodox-jewish-travel',
   '/es/jewish-genealogy-israel-trip',
   '/es/muslim-travel-israel',
+  '/fr/israel-points-miles-guide',
+  '/fr/israel-ramadan-guide',
+  '/fr/israel-unesco-sites',
+  '/fr/israel-visa-extension',
+  '/fr/israel-for-swiss-travelers',
 ];
 
 for (const route of ROUTES) {
