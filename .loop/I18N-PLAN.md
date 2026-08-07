@@ -6,12 +6,12 @@
 >
 > One bounded slice per loop iteration. NEVER bulk-translate in one shot.
 
-## Current status snapshot (2026-08-07 iter1060 RESEARCH — next FR-41/DE-38/ES-54 defined)
+## Current status snapshot (2026-08-07 iter1061 BUILD — FR-41 SHIPPED e936fc5e; next DE-38/ES-54 queued)
 
 | Locale | Guides | Attractions | Regions | Itineraries |
 |--------|--------|-------------|---------|-------------|
 | en     | 398    | 65          | 11      | 6           |
-| fr     | 287    | 61          | 11      | 6           |
+| fr     | 292    | 61          | 11      | 6           |
 | de     | 273    | 61          | 11      | 6           |
 | es     | 269    | 61          | 11      | 6           |
 
@@ -19,7 +19,7 @@
 
 **Gaps to close:**
 - es guides: **129 missing** (269/398 done — Phase ES-53 SHIPPED iter1058 bd762ac0 + meta-trim iter1059; **next ES BUILD = ES-54** — FULLY DEFINED iter1060 research: israel-points-miles-guide + israel-ramadan-guide + israel-unesco-sites + israel-visa-extension + israel-tour-packages)
-- fr guides: **111 missing** (287/398 done — Phase FR-40 SHIPPED iter1056 686cdcf0; **next FR BUILD = FR-41** — FULLY DEFINED iter1060 research: israel-points-miles-guide + israel-ramadan-guide + israel-unesco-sites + israel-visa-extension + israel-for-swiss-travelers)
+- fr guides: **106 missing** (292/398 done — Phase FR-41 SHIPPED iter1061 e936fc5e; **next FR BUILD = FR-42** — not yet defined; see DE-38/ES-54 for parallel batches)
 - de guides: **125 missing** (273/398 done — Phase DE-37 SHIPPED iter1057 4249950e; **next DE BUILD = DE-38** — FULLY DEFINED iter1060 research: israel-points-miles-guide + israel-ramadan-guide + israel-unesco-sites + israel-visa-extension + israel-for-swiss-travelers)
 - fr/de/es attractions: **4 missing each** (the 4 EN attractions added after Phase 4)
 
