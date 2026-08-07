@@ -978,6 +978,11 @@ const ROUTES = [
   '/es/israel-unesco-sites',
   '/es/israel-visa-extension',
   '/es/israel-tour-packages',
+  '/de/israel-points-miles-guide',
+  '/de/israel-ramadan-guide',
+  '/de/israel-unesco-sites',
+  '/de/israel-visa-extension',
+  '/de/israel-for-swiss-travelers',
 ];
 
 for (const route of ROUTES) {
