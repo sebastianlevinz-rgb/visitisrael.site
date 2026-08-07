@@ -998,6 +998,11 @@ const ROUTES = [
   '/de/negev-jeep-tours',
   '/de/timna-park-guide',
   '/de/sarona-market-tel-aviv',
+  '/de/muslim-travel-israel',
+  '/de/israel-road-trip',
+  '/de/tower-of-david-guide',
+  '/de/nazareth-tours-compared',
+  '/de/israel-small-group-tours',
 ];
 
 for (const route of ROUTES) {
