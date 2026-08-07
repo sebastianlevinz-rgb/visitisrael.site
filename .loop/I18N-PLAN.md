@@ -6,21 +6,21 @@
 >
 > One bounded slice per loop iteration. NEVER bulk-translate in one shot.
 
-## Current status snapshot (2026-08-06 iter1046 BUILD — FR-38 SHIPPED 01daba84)
+## Current status snapshot (2026-08-07 iter1051 BUILD — FR-39 SHIPPED e9bc80df)
 
 | Locale | Guides | Attractions | Regions | Itineraries |
 |--------|--------|-------------|---------|-------------|
 | en     | 401    | 65          | 11      | 6           |
-| fr     | 277    | 61          | 11      | 6           |
-| de     | 258    | 61          | 11      | 6           |
-| es     | 255    | 61          | 11      | 6           |
+| fr     | 282    | 61          | 11      | 6           |
+| de     | 263    | 61          | 11      | 6           |
+| es     | 260    | 61          | 11      | 6           |
 
 **🎉 MILESTONE: ES + FR + DE monthly guides ALL COMPLETE** (iter996+iter997 ES-41+ES-42 SHIPPED — all 12 per-month guides jan-dec now exist in ES, FR, and DE)
 
 **Gaps to close:**
-- es guides: **146 missing** (255/401 done — Phase ES-50 SHIPPED iter1043 9aa61933; **next ES BUILD = ES-51** — batch defined iter1045 research)
-- fr guides: **124 missing** (277/401 done — Phase FR-38 SHIPPED iter1046 01daba84; **next FR BUILD = FR-39** — define next batch at next RESEARCH iter)
-- de guides: **138 missing** (263/401 done — Phase DE-35 SHIPPED iter1047 9c33413c; **next DE BUILD = DE-36** — define next batch at next RESEARCH iter)
+- es guides: **141 missing** (260/401 done — Phase ES-51 SHIPPED iter1048 1790f187; **next ES BUILD = ES-52** — batch defined iter1050 research)
+- fr guides: **119 missing** (282/401 done — Phase FR-39 SHIPPED iter1051 e9bc80df; **next FR BUILD = FR-40** — batch partially defined iter1050 research: israel-homeport-cruise + 4 TBD)
+- de guides: **138 missing** (263/401 done — Phase DE-35 SHIPPED iter1047 9c33413c; **next DE BUILD = DE-36** — batch defined iter1050 research)
 - fr/de/es attractions: **4 missing each** (the 4 EN attractions added after Phase 4)
 
 **Dead Sea cluster status (iter855 audit):**
@@ -109,6 +109,16 @@ All 5 confirmed MISSING from FR via comm -23 (2026-08-06).
 - israel-vs-egypt: French MENA planners comparing destinations; Israel vs Egypt comparison across 8 criteria (heritage, beaches, cost, safety, logistics, food, nightlife, practical); Egypt market gaining share (honest framing — each destination has distinct strengths); cross-links to /fr/dead-sea-guide + /fr/eilat-travel-guide + /fr/israel-jordan-itinerary (all confirmed); GYG + Skyscanner CTAs.
 - israel-national-bike-trail: French adventure cycling market (IBT = 1,200km Hermon→Eilat, 27 segments); ibt.org.il + komoot = main competitors (EN-only); trail overview + 3 recommended segments (Galilee Rim, Judean Hills, Negev South); Northbound vs Southbound logistics; Booking (support accommodation) + GYG (bike tours) + Discovercars (sag wagon) CTAs; pairs with /fr/cycling-in-israel (confirmed existing) + /fr/hiking-in-israel (confirmed existing).
 Quality: metropolitan French; YAML double-quotes; /fr/* prefix only for confirmed existing FR pages; no fabricated prices; religious-site neutral framing; IBT difficulty ratings honest; no H1 in body.
+
+### FR-39 batch definition (iter1050 RESEARCH — SHIPPED iter1051 e9bc80df)
+Guides: `israel-vs-turkey.md`, `israel-vs-greece.md`, `israel-travel-2026.md`, `israel-group-travel.md`, `new-luxury-hotels-israel-2026.md`
+All 5 confirmed MISSING from FR via comm -23 (2026-08-07). All 5 SHIPPED iter1051.
+- israel-vs-turkey: Zero FR editorial competition; Turkey = France's top beach destination competing with Israel for summer tourism; 12-criteria comparison table; vols depuis Paris CDG; paired naming Mur Occidental/HaKotel + Dôme du Rocher/Esplanade des Mosquées; CTAs booking+skyscanner+getyourguide; 6 FAQs.
+- israel-vs-greece: Mediterranean comparison; zero FR editorial competition on Israel vs Greece; 5-criteria table histoire/plages/gastronomie/coûts/sécurité; circuit combiné 3 semaines; paired naming at contested sites; CTAs getyourguide+skyscanner+booking; 5 FAQs.
+- israel-travel-2026: Freshness content missing from all 3 locales; United/Delta/Israir new flight routes; Ben Gurion Terminal 1 reopened July 2026; new hotel openings (Jaffa boutique/InterContinental Jerusalem/Yacht Herzliya); Rosh Hanikra reopened; ETA-IL mandatory since Jan 2025; all /fr/* cross-links confirmed existing; CTAs skyscanner+booking+getyourguide; 6 FAQs.
+- israel-group-travel: Catholic group pilgrimage market (France has strong religious heritage travel to Israel); operators Bein Harim/Abraham/Seagull/Mazada/Egged; site access table; arc chrétien 8j / patrimoine juif 9j / culturel 10j; group visa logistics; verdictName+verdictQuery; CTAs tourradar+getyourguide+viator; 6 FAQs.
+- new-luxury-hotels-israel-2026: 2026 luxury hotel surge; Six Senses TLV + Nobu Hotel + Dizengoff 99 + Basel Complex + Leon Towers + The Yacht Herzliya + InterContinental Jerusalem rénové + Isrotel Kayma mer Morte + Herzl Beer Sheva + Canaan-Tzfat + Ein Hod boutique; tableau récapitulatif at-a-glance; sections par ville/segment; 2×booking+getyourguide CTAs; 7 FAQs.
+Gate: pnpm check 0 errors | build 1579 pages | test:e2e 2271/2271 pass (16.0m). Squash-merge e9bc80df. FR: 277→282/401.
 
 ### ES guides (155 / 398)
 - Phase ES-0 — DONE. iter799 shipped 5/394:
