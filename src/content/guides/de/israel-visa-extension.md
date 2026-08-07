@@ -1,6 +1,6 @@
 ---
 title: "Touristenvisum in Israel verlängern: Guide 2026"
-description: "Länger als 90 Tage in Israel? Visumsverlengerung beim Misrad HaPnim — Ablauf, Gebühren 200-300 ₪, Unterlagen, vier Büros und legale Langzeit-Optionen."
+description: "Länger als 90 Tage in Israel? Visumsverlängerung beim Misrad HaPnim — Ablauf, Gebühren 200-300 ₪, Unterlagen, vier Büros und legale Langzeit-Optionen."
 heroImage: /images/regions/tel-aviv/hero.jpg
 category: Planung
 updatedAt: 2026-08-07
