@@ -2154,8 +2154,9 @@ All 5 confirmed MISSING from DE via comm -23 (2026-08-07).
 Quality: Standard Hochdeutsch; YAML double-quotes; no <span> in YAML frontmatter; all /de/* cross-links pre-verified above (with noted exceptions); no fabricated prices/ratings; paired naming at all contested/religious sites; no H1 in body.
 Status: ready [iter1060 research]
 
-### ES-54 batch definition (iter1060 RESEARCH — ready for next ES BUILD)
+### ES-54 batch — SHIPPED iter1061-concurrent 4ef7a415
 Guides: `israel-points-miles-guide.md`, `israel-ramadan-guide.md`, `israel-unesco-sites.md`, `israel-visa-extension.md`, `israel-tour-packages.md`
+All 5 shipped to master. Build: 1608→1613 pages. Gate: e2e pass exit code 0. Concurrent collision with FR-41 resolved via rebase. See DONE.md iter1061-concurrent for full detail.
 All 5 confirmed MISSING from ES via comm -23 (2026-08-07). [israel-tour-packages FR✓ DE✓ but ES✗]
 - israel-points-miles-guide: LifeMiles (Avianca) = dominant LATAM FFP (Colombia/Argentina/Chile); Iberia Plus (España + LATAM Spanish market); Flying Blue LATAM angle (AF/KLM via CDG/AMS); Aerolíneas Plus (Argentina); El Al Matmid = international program open to all; LATAM Airlines LifeMiles for connections via GRU/BOG; cross-links /es/cheap-flights-to-israel ✓, /es/israel-accommodation-guide ✓; NOTE: /es/new-luxury-hotels-israel-2026 MISSING → use EN fallback; CTAs Skyscanner+Booking; 6 FAQs; LATAM neutral español tuteo.
 - israel-ramadan-guide: comunidades musulmanas en Argentina (~400k)/Colombia (~9k, subestimada)/Brasil (~1.5M)/México (~100k)/Chile (~3k); "Ramadán en Israel" zero editorial LATAM; Jaffa/Nazareth/Jerusalén atmósfera iftar; Ramadán 2027 ≈ 6 feb–7 mar; paired naming Haram al-Sharif / Monte del Templo / הַר הַבַּיִת (sin <span> en YAML); HONESTY acceso no-musulmanes esplanada variable en Ramadán — verificar antes; cross-links /es/nazareth-travel-guide ✓, /es/jaffa-travel-guide ✓, /es/akko-acre-guide ✓, /es/is-israel-safe ✓, /es/holy-sites-dress-code-etiquette ✓, /es/visa-information ✓, /es/muslim-travel-israel ✓; CTAs GYG Jaffa nocturno+Booking Jaffa+Booking Nazaret; 7 FAQs.

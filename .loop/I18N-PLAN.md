@@ -1509,3 +1509,30 @@ All 5 confirmed MISSING from `src/content/guides/es/` via `comm -23` (2026-08-06
 - sukkot-in-israel: Jewish holidays cluster for ES; /es/rosh-hashanah-in-israel CONFIRMED EXISTS; /es/yom-kippur-in-israel CONFIRMED EXISTS; Sucot 2026 Sept 25–Oct 2 + Sucot 5787 Oct 13–20 2027; Birkat Kohanim (Western Wall 6:30am arrival 7:30am ceremony); Hula Valley cranes arrive Oct; Tabernacles as sukka-building experience; GYG+Booking+Viator CTAs; 6 FAQs; already in FR (iter1008 FR-31); paired-naming note: use Monte del Templo / Haram al-Sharif for any Temple Mount reference
 - neve-tzedek-guide: TLV's oldest and most fashionable neighborhood; Suzanne Dellal Centre; Nahum Gutman Museum; Rokach House; boutique hotels + Airbnb-style stays; zero ES editorial; LATAM Instagram-tourism angle (Shabazi + colorful lanes = photo-friendly); Booking CTAs; 6 FAQs; pairs with /es/jaffa-travel-guide (confirm at BUILD time), /es/tel-aviv-beach-guide (confirm)
 Quality: neutral LATAM Spanish tuteo; YAML double-quotes; /es/ prefix only for confirmed existing ES pages; no fabricated prices; Yardenit "popular pero no auténtico históricamente" honesty note (important: the actual baptism site is Qasr el-Yahud); Jordan River West Bank/Area C location noted; Sucot dates verified; no H1 in body.
+
+## Updated status snapshot (iter1062 BUILD 2026-08-07)
+
+| Locale | Guides | Note |
+|--------|--------|------|
+| en     | 398    | stable |
+| fr     | 292    | 106 missing — Phase FR-41 SHIPPED iter1061 e936fc5e; **next FR BUILD = FR-42** |
+| de     | 273    | 125 missing — Phase DE-37 SHIPPED iter1057 4249950e; **Phase DE-38 defined iter1060** |
+| es     | 274    | 124 missing — Phase ES-54 SHIPPED iter1061-concurrent 4ef7a415; **next ES BUILD = ES-55** |
+
+### Phase FR-41 (287 → 292/398) — SHIPPED iter1061 — e936fc5e
+
+Guides: `israel-points-miles-guide.md`, `israel-ramadan-guide.md`, `israel-unesco-sites.md`, `israel-visa-extension.md`, `israel-for-swiss-travelers.md`
+All 5 shipped to master. See DONE.md iter1061 for full detail.
+
+### Phase ES-54 (269 → 274/398) — SHIPPED iter1061-concurrent — 4ef7a415
+
+Guides: `israel-points-miles-guide.md`, `israel-ramadan-guide.md`, `israel-unesco-sites.md`, `israel-visa-extension.md`, `israel-tour-packages.md`
+All 5 shipped to master. Concurrent collision with FR-41 resolved via rebase. See DONE.md iter1061-concurrent for full detail.
+
+### Phase ES-55 definition (iter1062 — ready for next ES BUILD)
+Candidates (from BACKLOG research):
+- wedding-in-israel (FR+ES only; "Casarse en Israel"; NO civil marriage for non-Jewish → symbolic ceremony as main option; Masada/Makhtesh Ramon/Galilean vineyards/Kotel Tunnels; CTAs Booking+GYG; 6 FAQs; /es/israel-accommodation-guide+/es/best-hotels-jerusalem)
+- negev-tours-compared (ES version; "Tours del Néguev comparados"; GYG tour listings but ZERO ES editorial; 5-format table: Jeep 4x4 / multi-day Makhtesh / Beduino overnight / bike / guía privado; /es/3-days-in-negev+/es/car-rental-israel)
+- israel-for-seniors (ES only still missing; Gil Travel / Bein Harim / TourRadar all rank EN senior pages; "Israel para mayores" = LATAM gap)
+- nationality-guides-cluster-2 (Filipino/Indian/Korean — high-value visa-complexity guides; "Filipinos en Israel" = growing evangelical pilgrimage market)
+- DE-38 batch (israel-points-miles-guide+israel-ramadan-guide+israel-unesco-sites+israel-visa-extension+israel-for-swiss-travelers) is the top DE BUILD priority for iter1062.
