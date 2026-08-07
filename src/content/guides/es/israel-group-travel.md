@@ -1,6 +1,6 @@
 ---
 title: "Viajes en grupo a Israel: peregrinaciones e historia"
-description: "Organiza un viaje en grupo a Israel — peregrinaciones católicas, tours de herencia judía y circuitos históricos para 15 o más personas. Operadores, acceso a sitios y logística."
+description: "Viajes en grupo a Israel — peregrinaciones, tours de herencia judía y circuitos históricos para 15+ personas. Operadores, acceso a sitios y logística."
 heroImage: /images/regions/jerusalem/old-city.jpg
 category: Tours
 updatedAt: 2026-07-12
