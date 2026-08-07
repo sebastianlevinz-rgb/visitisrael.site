@@ -1214,6 +1214,11 @@ const ROUTES = [
   '/es/northern-israel-road-trip',
   '/es/sea-of-galilee-beaches',
   '/es/nazareth-tours-compared',
+  '/fr/israel-vs-turkey',
+  '/fr/israel-vs-greece',
+  '/fr/israel-travel-2026',
+  '/fr/israel-group-travel',
+  '/fr/new-luxury-hotels-israel-2026',
 ];
 
 for (const route of ROUTES) {
