@@ -1268,6 +1268,11 @@ const ROUTES = [
   '/de/israel-unesco-sites',
   '/de/israel-visa-extension',
   '/de/israel-for-swiss-travelers',
+  '/de/traveling-israel-jewish-holidays',
+  '/de/shabbat-dinner-experience',
+  '/de/negev-jeep-tours',
+  '/de/timna-park-guide',
+  '/de/sarona-market-tel-aviv',
 ];
 
 for (const route of ROUTES) {
