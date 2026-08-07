@@ -1,6 +1,6 @@
 ---
 title: "Viaje sostenible y ecoturismo en Israel"
-description: "Ecoturismo en Israel — Kibbutz Lotan permacultura, Parque Nacional Coral Beach Eilat, humedales de Hula, senderismo responsable y operadores de turismo sostenible certificados."
+description: "Ecoturismo en Israel — Kibbutz Lotan permacultura, Coral Beach Eilat, humedales de Hula, senderismo responsable y turismo sostenible certificado."
 heroImage: /images/regions/negev/hero.jpg
 category: Experiences
 updatedAt: 2026-08-07

@@ -1,6 +1,6 @@
 ---
 title: "Viaje de genealogía judía a Israel"
-description: "Investiga tus raíces judías en Israel — Yad Vashem, Museo ANU, Biblioteca Nacional, Archivos Sionistas y registros otomanos. Itinerario de 3 días y guía práctica para 2026."
+description: "Investiga tus raíces judías en Israel — Yad Vashem, Museo ANU, Biblioteca Nacional, Archivos Sionistas y registros otomanos. Guía práctica para 2026."
 heroImage: /images/regions/jerusalem/old-city.jpg
 category: Planning
 updatedAt: 2026-08-07

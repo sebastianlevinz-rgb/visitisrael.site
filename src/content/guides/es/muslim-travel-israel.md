@@ -1,6 +1,6 @@
 ---
 title: "Guía de viaje a Israel para viajeros musulmanes"
-description: "Visitar Israel como musulmán: Al-Haram Al-Sharif / Monte del Templo, comida halal, logística de oración, consejos para el Ramadán, mezquitas y sitios islámicos en Jerusalén, Acre y Nazaret."
+description: "Visitar Israel como musulmán: Al-Haram Al-Sharif / Monte del Templo, halal, logística de oración, Ramadán, mezquitas y sitios islámicos en Jerusalén."
 heroImage: /images/regions/jerusalem/hero.jpg
 category: Planning
 updatedAt: 2026-08-07

@@ -1,6 +1,6 @@
 ---
 title: "Viajar a Israel siendo judío ortodoxo: guía práctica"
-description: "Israel para judíos ortodoxos — alojamiento kósher, sinagogassefaradíes y asquenazíes, eruv de Jerusalén, Muro Occidental (Kotel), mikve, Shabat y logística práctica para 2026."
+description: "Israel para judíos ortodoxos — alojamiento kósher, sinagogas sefaradíes y asquenazíes, eruv de Jerusalén, Kotel, mikve, Shabat y logística para 2026."
 heroImage: /images/regions/jerusalem/western-wall.jpg
 category: Planning
 updatedAt: 2026-08-07

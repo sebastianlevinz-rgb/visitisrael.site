@@ -1,6 +1,6 @@
 ---
 title: "Cruceros desde Israel: Haifa, nuevo puerto de escala (2026)"
-description: "Cruceros desde el puerto de Haifa — nuevo terminal inaugurado mayo 2026, compañías, rutas mediterráneas, traslado desde Ben Gurion y excursiones previas al embarque."
+description: "Cruceros desde el puerto de Haifa — nuevo terminal mayo 2026, compañías, rutas mediterráneas, traslado desde Ben Gurion y excursiones previas al embarque."
 heroImage: /images/regions/haifa/hero.jpg
 category: Transport
 updatedAt: 2026-08-07
