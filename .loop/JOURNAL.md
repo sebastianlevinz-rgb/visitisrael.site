@@ -15902,3 +15902,12 @@ Gate: pnpm check 0 errors | pnpm build 1618 pages | pnpm test:e2e 2349/2349 pass
 Ship: squash-merge to master 049be159; pushed to origin/master; branch auto/de-38-batch pushed.
 Memory: STATE.md iter→1063, DE 273→278, nextRotation REVIEW (1064%5=4→REVIEW). DONE.md prepended. I18N-PLAN.md DE-38 → SHIPPED.
 Next: iter1064 → REVIEW (review DE-38 batch meta + cross-links).
+
+## 2026-08-07T15:00Z · iter1064 · REVIEW · review-1064-de38-meta-audit
+
+What: REVIEW mode (1064 % 5 = 4 → REVIEW). Full audit of the 5 DE-38 batch guides (israel-points-miles-guide, israel-ramadan-guide, israel-unesco-sites, israel-visa-extension, israel-for-swiss-travelers) shipped in iter1063.
+Checks: (1) Titles ≤65 chars — all clean (46–56 chars); (2) Descriptions ≤160 chars — all clean (147–158 chars) after 1 fix; (3) Hero images exist on disk — all 5 ✓ (/images/regions/tel-aviv/hero.jpg × 2, /images/regions/jerusalem/old-city.jpg, /images/regions/akko/hero.jpg, /images/regions/jerusalem/hero.jpg); (4) No H1 in body — all 5 clean; (5) 22/22 /de/* cross-links resolve; EN fallbacks /muslim-travel-israel + /megiddo-jezreel-valley-guide both exist; (6) Affiliates all valid (booking, skyscanner, getyourguide, discovercars, safetywing); (7) No fabricated ratings/exact prices; (8) YAML clean (no <span> in frontmatter); (9) Paired naming correct at Al-Haram Al-Sharif / Tempelberg / הַר הַבַּיִת; (10) E2e coverage: 5 smoke + 5 a11y routes in tests — confirmed present in smoke.spec.ts and a11y.spec.ts.
+Defect found + fixed: typo "Visumsverlengerung" → "Visumsverlängerung" in israel-visa-extension description (ä vs. e; description length unchanged at 158 chars).
+Gate: pnpm check 0 errors | build 1618 pages (unchanged) | pnpm test:e2e 2349/2349 pass (18.9m, exit code 0)
+Merge: ca808e3 committed directly to master and pushed.
+Next: iter1065 → RESEARCH (1065 % 5 = 0 → RESEARCH). Candidate angles: wedding-in-israel FR+ES (only DE shipped), negev-tours-compared i18n bundle, nationality-guides-cluster-2 (Filipino/Indian/Korean locales), Galilee Culinary Institute, Kassland Resort coverage.
