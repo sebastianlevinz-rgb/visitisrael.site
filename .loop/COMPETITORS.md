@@ -8044,3 +8044,58 @@ Researched Ramadan, UNESCO sites, points-miles and seniors Israel content on com
 - North American visitors +73% YoY June 2026 (34,700 visitors from US+Canada in June 2026).
 - Israel moving toward premium, diversified tourism model post-conflict recovery.
 - Faith tourism (US, LATAM, Africa pilgrimage groups) leading the return.
+
+## iter1065 research — 2026-08-07 — 216th research pass
+
+### Competitor SERP analysis for 6 target queries
+
+**1. "Israel travel 2026 guide"**
+- touristisrael.com: news-format hub "Israel Travel 2026: New Flights, Hotels, Tours & More" — bullet sections on Six Senses TLV opening, resumed airline routes, new tours (Gaza Border/Nova Memorial tour), ETA-IL. Quasi-affiliate publisher (links to tour bookings).
+- LonelyPlanet: evergreen city-destination pages (Jerusalem/TLV/Nazareth) — no 2026-specific hub.
+- Tripadvisor/slavaguide: mid-tier placeholders.
+- Gap: our israel-travel-2026 guides (FR/DE/ES all shipped ✓) compete well with the news-format approach touristisrael.com uses.
+
+**2. "Israel Jewish holidays travel"**
+- Odynovotours: "Top 12 Israel Holidays" listicle (lightweight, tour CTA embedded).
+- Chabad.org: authoritative "Passover Traveler's Guide" targeting observant tourists.
+- Masa Israel: youth/young adult program promotions.
+- Hebcal: calendar utility only (no editorial).
+- Gap: nobody owns "when to visit Israel for Jewish holidays as a tourist" editorial format with affiliate CTAs. Our traveling-israel-jewish-holidays EN guide is positioned perfectly; FR/DE/ES translations = no editorial competition.
+
+**3. "Shabbat dinner Jerusalem experience"**
+- Viator: 2 top listings — "Jerusalem: Shabbat Experience" (27 reviews) and "Experience Shabbat With Dinner In Jerusalem" (~$206/pp, 4.3 stars).
+- GYG: "Old City Shabbat Experience and Walking Tour."
+- TripAdvisor: "Shabbat of a Lifetime" (authentic family dinner).
+- Eatwith: home-hosted dinner listing.
+- Abraham Tours: sightseeing version.
+- Gap: ZERO editorial guides explaining "how to experience Shabbat dinner in Jerusalem." OTA products exist; editorial content doesn't. Our shabbat-dinner-experience EN guide + i18n translations = strong affiliate gateway opportunity.
+
+**4. "Timna Park Eilat guide"**
+- Travelsetu.com: template-generated guide (thin SEO).
+- TripAdvisor: review aggregator.
+- GYG: "From Eilat: Timna Park Guided Jeep Tour" (product listing).
+- TakeYourBackpack: first-person backpacker editorial.
+- Timeout Israel: short editorial blurb.
+- Gap: no major travel authority owns a definitive standalone guide combining geology/history with "independent vs. tour" guidance. Low competition; timna-park-guide FR/DE/ES = quick wins.
+
+**5. "Negev jeep tours"**
+- ijeept.com: dedicated Negev jeep operator writing editorial to capture SEO.
+- desertecotours.com: operator with pricing from $495/private.
+- slavaguide.com: private guide company.
+- GYG: aggregator "Best Negev Desert Jeep Tours 2026."
+- TripAdvisor: "Negev Jeep" operator reviews near Sde Boker.
+- negevtrails.com, deepdesertisrael.com: small operators.
+- Gap: NO mainstream editorial roundup for "best Negev jeep tours." Our negev-jeep-tours EN guide + FR/DE/ES translations = first editorial roundup in these languages; GYG affiliate commissions on $95+/pp group and $495+/private tours.
+
+**6. "Israel for American travelers 2026"**
+- State Dept advisory + US Embassy Jerusalem security alert dominate SERP via news aggregators.
+- giltravel.com: Jewish heritage angle.
+- americaisraeltours.com: faith-based group tours.
+- Jetpac/Yonder: travel insurance/safety angle.
+- Forbes/Condé Nast/Travel+Leisure: CONSPICUOUSLY ABSENT.
+- Gap: no mainstream editorial brand owns "Israel for American travelers" in a pragmatic "should you go + what areas are open" format. Our israel-for-american-travelers EN guide is well-positioned; FR/DE/ES translations have no competition.
+
+### New competitive signals
+- US Embassy Jerusalem security alert (Aug 1 2026): il.usembassy.gov/security-alert-u-s-embassy-jerusalem-august-1-2026-2/ — "general threat warnings" — spikes safety-adjacent search queries. Our is-israel-safe content should acknowledge this in a freshness update.
+- Gaza Border / Nova Festival memorial tours now being offered by touristisrael.com — monitoring only; this is out of scope for our editorial stance.
+- israelwelcome.com running "Is Israel Safe to Travel in 2026?" — thin editorial with affiliate hotel links.

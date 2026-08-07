@@ -15911,3 +15911,25 @@ Defect found + fixed: typo "Visumsverlengerung" → "Visumsverlängerung" in isr
 Gate: pnpm check 0 errors | build 1618 pages (unchanged) | pnpm test:e2e 2349/2349 pass (18.9m, exit code 0)
 Merge: ca808e3 committed directly to master and pushed.
 Next: iter1065 → RESEARCH (1065 % 5 = 0 → RESEARCH). Candidate angles: wedding-in-israel FR+ES (only DE shipped), negev-tours-compared i18n bundle, nationality-guides-cluster-2 (Filipino/Indian/Korean locales), Galilee Culinary Institute, Kassland Resort coverage.
+
+## 2026-08-07T17:00Z · iter1065 · RESEARCH · research-1065-practical-experience-bundles
+Mode: RESEARCH (1065 % 5 = 0 → RESEARCH). 216th research pass.
+Sources: WebSearch on key SERPs (shabbat-dinner-jerusalem, negev-jeep-tours, israel-jewish-holidays-travel, timna-park-eilat, israel-for-american-travelers-2026, israel-travel-2026) + TouristIsrael / LonelyPlanet / Viator / GYG / US State Dept advisory.
+
+Key findings:
+1. OTAs (Viator $206/pp, GYG) own "shabbat dinner jerusalem experience" SERP — zero editorial competitor → strong affiliate opportunity for guide format.
+2. Negev jeep SERP owned by operators (ijeept.com, deepdesertisrael.com) but NO editorial roundup exists — pure gap.
+3. US Embassy Jerusalem security alert Aug 1 2026 + State Dept Level 3 advisory → "is israel safe 2026" spiking; our is-israel-safe guides need a freshness note.
+4. israel-travel-2026 guide already exists in FR+DE+ES ✓ (shipped in FR-39/DE-36/ES-52).
+5. touristisrael.com runs news-format 2026 hub — our israel-travel-2026 guides compete well.
+6. "Israel for American travelers 2026" — Forbes/Condé Nast absent; editorial gap with high demand urgency.
+
+New batch definitions added to BACKLOG:
+- FR-42: traveling-israel-jewish-holidays + shabbat-dinner-experience + negev-jeep-tours + timna-park-guide + sarona-market-tel-aviv. Target: FR 292→297/398.
+- DE-39: traveling-israel-jewish-holidays + shabbat-dinner-experience + negev-jeep-tours + timna-park-guide + sarona-market-tel-aviv (DACH angle: German Templar colony history unique). Target: DE 278→283/398.
+- ES-55: traveling-israel-jewish-holidays + shabbat-dinner-experience + negev-jeep-tours + timna-park-guide + petra-wadi-rum-from-eilat. Target: ES 274→279/398.
+New BACKLOG items: is-israel-safe freshness update (P1 technical/freshness, S); israel-for-american-travelers i18n bundle (P1 i18n-FR/DE/ES, M).
+Locale counts: EN=398, FR=292, DE=278, ES=274. Missing from ALL 3: 97 guides.
+No code changed; gate not run (research mode).
+Memory: STATE.md iter→1065, lastMode RESEARCH, nextRotationCategory BUILD (1066%5=1→BUILD). BACKLOG.md updated. COMPETITORS.md updated.
+Next: iter1066 → BUILD (1066 % 5 = 1 → BUILD; FR-42 batch — 5 FR guides: traveling-israel-jewish-holidays + shabbat-dinner-experience + negev-jeep-tours + timna-park-guide + sarona-market-tel-aviv).
