@@ -6,19 +6,19 @@
 >
 > One bounded slice per loop iteration. NEVER bulk-translate in one shot.
 
-## Current status snapshot (2026-08-07 iter1052 BUILD — DE-36 SHIPPED 4b33a126)
+## Current status snapshot (2026-08-07 iter1053 BUILD — ES-52 SHIPPED 32ce0971)
 
 | Locale | Guides | Attractions | Regions | Itineraries |
 |--------|--------|-------------|---------|-------------|
 | en     | 401    | 65          | 11      | 6           |
 | fr     | 282    | 61          | 11      | 6           |
 | de     | 268    | 61          | 11      | 6           |
-| es     | 260    | 61          | 11      | 6           |
+| es     | 264    | 61          | 11      | 6           |
 
 **🎉 MILESTONE: ES + FR + DE monthly guides ALL COMPLETE** (iter996+iter997 ES-41+ES-42 SHIPPED — all 12 per-month guides jan-dec now exist in ES, FR, and DE)
 
 **Gaps to close:**
-- es guides: **141 missing** (260/401 done — Phase ES-51 SHIPPED iter1048 1790f187; **next ES BUILD = ES-52** — batch defined iter1050 research)
+- es guides: **137 missing** (264/401 done — Phase ES-52 SHIPPED iter1053 32ce0971; **next ES BUILD = ES-53** — batch partially defined iter1050 research: israel-homeport-cruise + 4 TBD)
 - fr guides: **119 missing** (282/401 done — Phase FR-39 SHIPPED iter1051 e9bc80df; **next FR BUILD = FR-40** — batch partially defined iter1050 research: israel-homeport-cruise + 4 TBD)
 - de guides: **133 missing** (268/401 done — Phase DE-36 SHIPPED iter1052 4b33a126; **next DE BUILD = DE-37** — batch partially defined iter1050 research: israel-homeport-cruise + 4 TBD)
 - fr/de/es attractions: **4 missing each** (the 4 EN attractions added after Phase 4)
