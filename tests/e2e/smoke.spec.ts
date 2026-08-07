@@ -1268,6 +1268,11 @@ const ROUTES = [
   '/de/israel-unesco-sites',
   '/de/israel-visa-extension',
   '/de/israel-for-swiss-travelers',
+  '/de/muslim-travel-israel',
+  '/de/israel-road-trip',
+  '/de/tower-of-david-guide',
+  '/de/nazareth-tours-compared',
+  '/de/israel-small-group-tours',
 ];
 
 for (const route of ROUTES) {
