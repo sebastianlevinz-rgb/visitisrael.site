@@ -6,13 +6,13 @@
 >
 > One bounded slice per loop iteration. NEVER bulk-translate in one shot.
 
-## Current status snapshot (2026-08-07 iter1067 BUILD — DE-39 SHIPPED 7a95811b; FR-42 SHIPPED c04046c0 (concurrent); next FR BUILD = FR-43 not yet defined / ES-56 not yet defined / DE-40 not yet defined)
+## Current status snapshot (2026-08-07 iter1068 BUILD — DE-40 SHIPPED 9d854915; DE-39 SHIPPED 7a95811b (concurrent iter1067); FR-42 SHIPPED c04046c0; next FR BUILD = FR-43 not yet defined / ES-56 not yet defined / DE-41 not yet defined)
 
 | Locale | Guides | Attractions | Regions | Itineraries |
 |--------|--------|-------------|---------|-------------|
 | en     | 398    | 65          | 11      | 6           |
 | fr     | 297    | 61          | 11      | 6           |
-| de     | 283    | 61          | 11      | 6           |
+| de     | 288    | 61          | 11      | 6           |
 | es     | 279    | 61          | 11      | 6           |
 
 **🎉 MILESTONE: ES + FR + DE monthly guides ALL COMPLETE** (iter996+iter997 ES-41+ES-42 SHIPPED — all 12 per-month guides jan-dec now exist in ES, FR, and DE)
@@ -20,7 +20,7 @@
 **Gaps to close:**
 - es guides: **119 missing** (279/398 done — Phase ES-55 SHIPPED iter1066 d2d018bc: traveling-israel-jewish-holidays + shabbat-dinner-experience + negev-jeep-tours + timna-park-guide + petra-wadi-rum-from-eilat; **next ES BUILD = ES-56** — not yet defined; queue for RESEARCH pass)
 - fr guides: **101 missing** (297/398 done — Phase FR-42 SHIPPED iter1067 c04046c0: traveling-israel-jewish-holidays + shabbat-dinner-experience + negev-jeep-tours + timna-park-guide + petra-wadi-rum-from-eilat; **next FR BUILD = FR-43** — not yet defined)
-- de guides: **115 missing** (283/398 done — Phase DE-39 SHIPPED iter1067 7a95811b: traveling-israel-jewish-holidays + shabbat-dinner-experience + negev-jeep-tours + timna-park-guide + sarona-market-tel-aviv; **next DE BUILD = DE-40** — not yet defined)
+- de guides: **110 missing** (288/398 done — Phase DE-40 SHIPPED iter1068 9d854915: muslim-travel-israel + israel-road-trip + tower-of-david-guide + nazareth-tours-compared + israel-small-group-tours; **next DE BUILD = DE-41** — not yet defined)
 - fr/de/es attractions: **4 missing each** (the 4 EN attractions added after Phase 4)
 
 **Dead Sea cluster status (iter855 audit):**

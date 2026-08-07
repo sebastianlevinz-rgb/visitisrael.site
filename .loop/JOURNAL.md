@@ -15953,3 +15953,11 @@ Gate: pnpm check 0 errors; build 1633 pages (+5 vs 1628); pnpm test:e2e 10/10 ta
 Ship: committed 7a95811b on master (rebased atop e55bbee9 from concurrent FR-42 session), pushed. DE guides: 278→283/398.
 Memory: STATE.md iter→1068, DE 278→283, nextRotation BUILD (1068%5=3→BUILD). DONE.md prepended. I18N-PLAN.md DE-39 → SHIPPED.
 Next: iter1068 → BUILD (1068 % 5 = 3 → BUILD; locale priority DE=115 missing > ES=119 missing > FR=101 missing after this batch; next DE BUILD = DE-40 not yet defined; queue for next RESEARCH if no batch ready).
+
+## 2026-08-07 · iter 1068 · BUILD (i18n-DE) · de-40-batch
+What: 5 new DE guides — muslim-travel-israel, israel-road-trip, tower-of-david-guide, nazareth-tours-compared, israel-small-group-tours. Standard Hochdeutsch. Key DACH angles: muslim-travel-israel targets Germany's 5.5M Muslim community; israel-small-group-tours features TourRadar as DACH booking platform and notes Biblische Reisen/Studiosus/Israel Incoming for German-language tours; tower-of-david-guide explicitly states INPA Annual Pass NOT valid. Paired naming at contested sites throughout. All /de/* cross-links pre-verified; no fabricated prices/ratings; verdictName+verdictQuery on tower-of-david-guide, nazareth-tours-compared, israel-small-group-tours; no H1 in body. 10 new e2e tests (5 smoke + 5 a11y) added.
+Merge: Concurrent iter1067 session had already shipped DE-39 batch (5 different guides) to master. Rebase conflict in smoke.spec.ts+a11y.spec.ts resolved by keeping both sessions' route arrays (10 new routes total). Rebased cleanly.
+Gate: pnpm check 0 errors; build 1633 pages (pre-merge on auto/de-39-batch); pnpm test:e2e 2379/2379 pass (17.5m, exit code 0).
+Ship: squash-merge 9d854915 on master (rebased on 0e4b7f2a from iter1067 state commit), pushed. DE guides: 283→288/398.
+Memory: STATE.md iter→1069, DE 283→288, nextRotation REVIEW (1069%5=4→REVIEW). DONE.md prepended. I18N-PLAN.md DE-40→SHIPPED.
+Next: iter1069 → REVIEW (1069 % 5 = 4 → REVIEW; audit recent DE/FR/ES guides for meta-length + cross-link accuracy + description overruns).
