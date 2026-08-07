@@ -15810,3 +15810,18 @@ What: 4 Spanish-language guides (israel-travel-2026.md already existed on origin
 Gate: pnpm check 0 errors | pnpm build 1588 pages | pnpm test:e2e exit code 0
 Merge: squash-merge 32ce0971 to master. Branch auto/es-52-batch.
 Next: iter1054 → REVIEW mode (1054 % 5 = 4 → REVIEW) — audit recently shipped ES-52 guides.
+
+## 2026-08-07T04:00Z · iter1054 · REVIEW · review-1054-es52-meta-trim
+What: Audited all 4 ES-52 guides shipped in iter1053 (israel-vs-egypt, israel-vs-cyprus, israel-vs-france, israel-group-travel).
+Checks:
+  (1) Titles: 40/47/48/52 chars — all ≤65 ✓
+  (2) Descriptions: 138/151/150/183 — 1 violation: israel-group-travel 183 chars → trimmed to 155 chars ✓
+  (3) No H1 in body of any guide ✓
+  (4) All 4 hero images exist on disk (/images/regions/jerusalem/hero.jpg × 3, /images/regions/jerusalem/old-city.jpg × 1) ✓
+  (5) All 17 /es/* internal cross-links resolve ✓
+  (6) Affiliates valid: getyourguide/skyscanner/booking (compare guides), tourradar/getyourguide/viator (group-travel) ✓
+  (7) No fabricated ratings/review counts/exact prices ✓
+  (8) Paired naming present: Muro Occidental/Kotel/הַכּוֹתֶל הַמַּעֲרָבִי + Monte del Templo/Haram al-Sharif ✓
+Gate: pnpm check 0 errors | build 1588 pages (unchanged) | pnpm test:e2e 2289/2289 pass (22.2m)
+Merge: commit 55a72be3 pushed directly to master.
+Next: iter1055 → RESEARCH mode (1055 % 5 = 0 → RESEARCH) — discover new content/feature opportunities.
