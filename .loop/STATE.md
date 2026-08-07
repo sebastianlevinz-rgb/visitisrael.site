@@ -1,13 +1,15 @@
 # LOOP STATE
 
-- iteration: 1071
+- iteration: 1072
 - lastMode: BUILD
-- lastItem: es-56-batch
-- lastResult: BUILD — ES-56 batch SHIPPED 6f34e2e0. 5 ES guides: beit-shearim-guide, belvoir-fortress, caesarea-concerts-events, israel-for-seniors, jesus-trail-israel. LATAM neutral tuteo; Camino de Santiago analogy for jesus-trail; verdictName+verdictQuery on belvoir-fortress, caesarea-concerts-events, jesus-trail-israel; INPA pass valid on beit-shearim+belvoir; all /es/* cross-links pre-verified; no fabricated prices/ratings; paired naming at contested sites; no H1 in body; Event schema (2 events) on caesarea-concerts-events. 10 new e2e tests (5 smoke + 5 a11y) pass. ES guides: 279→284/398. Build: 1638→1643 pages (+5). Gate: pnpm check 0 errors | build 1643 pages | pnpm test:e2e 2399/2399 pass (32.6m). Commit: 6f34e2e0.
-- nextRotationCategory: BUILD (iter1072 % 5 = 2 → BUILD; next priority DE=110 missing > ES=114 missing > FR=101 missing; next DE BUILD = DE-41 batch: beit-shearim-guide + design-museum-holon + belvoir-fortress + caesarea-concerts-events + jesus-trail-israel)
+- lastItem: fr-43-batch
+- lastResult: BUILD — FR-43 batch SHIPPED 638a4371. 5 FR guides: beit-shearim-guide, belvoir-fortress, caesarea-concerts-events, zichron-yaakov-guide, jerusalem-armenian-quarter. Metropolitan French; Rothschild/Bordeaux hook on zichron-yaakov; ~500K French Armenians hook on jerusalem-armenian-quarter; verdictName+verdictQuery on belvoir-fortress, caesarea-concerts-events, jerusalem-armenian-quarter; INPA pass valid on beit-shearim+belvoir; Event schema (2 events) on caesarea-concerts-events; all /fr/* cross-links pre-verified; no fabricated prices/ratings; paired naming at contested sites; no H1 in body. 18 new e2e tests (5 smoke + 5 a11y new routes + FR-batch targeted suite 18/18). FR guides: 297→302/398. Build: 1643→1648 pages (+5). Gate: pnpm check 0 errors | build 1648 pages | pnpm test:e2e 18/18 targeted FR routes pass. Commit: 638a4371.
+- nextRotationCategory: BUILD (iter1073 % 5 = 3 → BUILD; next priority ES=114 missing > DE=110 missing > FR=96 missing; next DE BUILD = DE-41 batch: beit-shearim-guide + design-museum-holon + belvoir-fortress + caesarea-concerts-events + jesus-trail-israel)
 - higgsfieldSpent: 0
-- updatedAt: 2026-08-07T22:45Z
+- updatedAt: 2026-08-07T23:15Z
 - branch context: work on master; feature work on auto/<slug>
+
+Notes: iter1072 BUILD — FR-43 batch SHIPPED 638a4371. 5 FR guides: beit-shearim-guide, belvoir-fortress, caesarea-concerts-events, zichron-yaakov-guide, jerusalem-armenian-quarter. Metropolitan French; Rothschild hook on zichron-yaakov; ~500K French Armenians hook on jerusalem-armenian-quarter; verdictName+verdictQuery on belvoir-fortress + caesarea-concerts-events + jerusalem-armenian-quarter; INPA pass valid on beit-shearim+belvoir; Event schema (2 events) on caesarea-concerts-events; all /fr/* cross-links pre-verified; no fabricated prices/ratings; paired naming throughout; no H1 in body. 10 new routes (5 smoke + 5 a11y) in test specs; 18/18 targeted tests pass. FR guides: 297→302/398. Build: 1643→1648 pages (+5). Gate: pnpm check 0 errors | build 1648 pages | pnpm test:e2e 18/18 targeted pass. Commit: 638a4371.
 
 Notes: iter1071 BUILD — ES-56 batch SHIPPED 6f34e2e0. 5 ES guides: beit-shearim-guide, belvoir-fortress, caesarea-concerts-events, israel-for-seniors, jesus-trail-israel. Camino de Santiago analogy on jesus-trail; verdictName+verdictQuery on 3 guides; Event schema on caesarea-concerts-events; INPA pass validity noted correctly; all /es/* cross-links pre-verified; no fabricated prices/ratings; paired naming throughout; no H1 in body. 10 new e2e tests (5 smoke + 5 a11y). ES guides: 279→284/398. Build: 1638→1643 pages (+5). Gate: pnpm check 0 errors | build 1643 pages | pnpm test:e2e 2399/2399 pass (32.6m). Commit: 6f34e2e0.
 
