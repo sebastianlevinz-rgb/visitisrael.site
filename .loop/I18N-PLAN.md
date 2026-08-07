@@ -6,19 +6,19 @@
 >
 > One bounded slice per loop iteration. NEVER bulk-translate in one shot.
 
-## Current status snapshot (2026-08-07 iter1063 BUILD — DE-38 SHIPPED 049be159; next DE-39 not yet defined / FR-42 not yet defined)
+## Current status snapshot (2026-08-07 iter1066 BUILD — ES-55 SHIPPED d2d018bc; next ES BUILD = ES-56 not yet defined / FR-42 not yet defined / DE-39 not yet defined)
 
 | Locale | Guides | Attractions | Regions | Itineraries |
 |--------|--------|-------------|---------|-------------|
 | en     | 398    | 65          | 11      | 6           |
 | fr     | 292    | 61          | 11      | 6           |
 | de     | 278    | 61          | 11      | 6           |
-| es     | 274    | 61          | 11      | 6           |
+| es     | 279    | 61          | 11      | 6           |
 
 **🎉 MILESTONE: ES + FR + DE monthly guides ALL COMPLETE** (iter996+iter997 ES-41+ES-42 SHIPPED — all 12 per-month guides jan-dec now exist in ES, FR, and DE)
 
 **Gaps to close:**
-- es guides: **129 missing** (269/398 done — Phase ES-53 SHIPPED iter1058 bd762ac0 + meta-trim iter1059; **next ES BUILD = ES-54** — FULLY DEFINED iter1060 research: israel-points-miles-guide + israel-ramadan-guide + israel-unesco-sites + israel-visa-extension + israel-tour-packages)
+- es guides: **119 missing** (279/398 done — Phase ES-55 SHIPPED iter1066 d2d018bc: traveling-israel-jewish-holidays + shabbat-dinner-experience + negev-jeep-tours + timna-park-guide + petra-wadi-rum-from-eilat; **next ES BUILD = ES-56** — not yet defined; queue for RESEARCH pass)
 - fr guides: **106 missing** (292/398 done — Phase FR-41 SHIPPED iter1061 e936fc5e; **next FR BUILD = FR-42** — not yet defined; see DE-38/ES-54 for parallel batches)
 - de guides: **120 missing** (278/398 done — Phase DE-38 SHIPPED iter1063 049be159: israel-points-miles-guide + israel-ramadan-guide + israel-unesco-sites + israel-visa-extension + israel-for-swiss-travelers; **next DE BUILD = DE-39** — not yet defined; REVIEW pass of DE-38 due first per iter1064 rotation)
 - fr/de/es attractions: **4 missing each** (the 4 EN attractions added after Phase 4)
@@ -1517,7 +1517,7 @@ Quality: neutral LATAM Spanish tuteo; YAML double-quotes; /es/ prefix only for c
 | en     | 398    | stable |
 | fr     | 292    | 106 missing — Phase FR-41 SHIPPED iter1061 e936fc5e; **next FR BUILD = FR-42** |
 | de     | 273    | 125 missing — Phase DE-37 SHIPPED iter1057 4249950e; **Phase DE-38 defined iter1060** |
-| es     | 274    | 124 missing — Phase ES-54 SHIPPED iter1061-concurrent 4ef7a415; **next ES BUILD = ES-55** |
+| es     | 279    | 119 missing — Phase ES-55 SHIPPED iter1066 d2d018bc; **next ES BUILD = ES-56 (not yet defined)** |
 
 ### Phase FR-41 (287 → 292/398) — SHIPPED iter1061 — e936fc5e
 
@@ -1529,10 +1529,10 @@ All 5 shipped to master. See DONE.md iter1061 for full detail.
 Guides: `israel-points-miles-guide.md`, `israel-ramadan-guide.md`, `israel-unesco-sites.md`, `israel-visa-extension.md`, `israel-tour-packages.md`
 All 5 shipped to master. Concurrent collision with FR-41 resolved via rebase. See DONE.md iter1061-concurrent for full detail.
 
-### Phase ES-55 definition (iter1062 — ready for next ES BUILD)
-Candidates (from BACKLOG research):
-- wedding-in-israel (FR+ES only; "Casarse en Israel"; NO civil marriage for non-Jewish → symbolic ceremony as main option; Masada/Makhtesh Ramon/Galilean vineyards/Kotel Tunnels; CTAs Booking+GYG; 6 FAQs; /es/israel-accommodation-guide+/es/best-hotels-jerusalem)
-- negev-tours-compared (ES version; "Tours del Néguev comparados"; GYG tour listings but ZERO ES editorial; 5-format table: Jeep 4x4 / multi-day Makhtesh / Beduino overnight / bike / guía privado; /es/3-days-in-negev+/es/car-rental-israel)
-- israel-for-seniors (ES only still missing; Gil Travel / Bein Harim / TourRadar all rank EN senior pages; "Israel para mayores" = LATAM gap)
-- nationality-guides-cluster-2 (Filipino/Indian/Korean — high-value visa-complexity guides; "Filipinos en Israel" = growing evangelical pilgrimage market)
-- DE-38 batch (israel-points-miles-guide+israel-ramadan-guide+israel-unesco-sites+israel-visa-extension+israel-for-swiss-travelers) is the top DE BUILD priority for iter1062.
+### Phase ES-55 (274 → 279/398) — SHIPPED iter1066 — d2d018bc
+
+Guides: `traveling-israel-jewish-holidays.md`, `shabbat-dinner-experience.md`, `negev-jeep-tours.md`, `timna-park-guide.md`, `petra-wadi-rum-from-eilat.md`
+All 5 shipped to master. See DONE.md iter1066 for full detail.
+
+### Phase ES-56 (279 → 284/398) — not yet defined
+Queue for next RESEARCH pass to define ES-56 batch (candidates: wedding-in-israel, israel-for-seniors, negev-tours-compared, nationality-guides-cluster-2, is-israel-safe freshness update).

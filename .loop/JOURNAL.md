@@ -15933,3 +15933,9 @@ Locale counts: EN=398, FR=292, DE=278, ES=274. Missing from ALL 3: 97 guides.
 No code changed; gate not run (research mode).
 Memory: STATE.md iter→1065, lastMode RESEARCH, nextRotationCategory BUILD (1066%5=1→BUILD). BACKLOG.md updated. COMPETITORS.md updated.
 Next: iter1066 → BUILD (1066 % 5 = 1 → BUILD; FR-42 batch — 5 FR guides: traveling-israel-jewish-holidays + shabbat-dinner-experience + negev-jeep-tours + timna-park-guide + sarona-market-tel-aviv).
+
+## 2026-08-07 · iter 1066 · BUILD (i18n-ES) · es-55-batch
+What: 5 new ES guides — traveling-israel-jewish-holidays, shabbat-dinner-experience, negev-jeep-tours, timna-park-guide, petra-wadi-rum-from-eilat. LATAM neutral tuteo (no vosotros/Spain-specific). All categories: Planning, Jewish Culture, Experiences, Destinations, Tours. Paired naming at contested/religious sites; no fabricated prices/ratings; all /es/* cross-links pre-verified; no H1 in body. 10 new e2e tests (5 smoke + 5 a11y) added to tests/e2e/smoke.spec.ts and tests/e2e/a11y.spec.ts.
+Gate: pnpm check 0 errors; build 1623 pages (+5 vs 1618); pnpm test:e2e 2359/2359 pass (16.1m).
+Ship: committed d2d018bc on master, pushed. ES guides: 274→279/398.
+Next: iter1067 → BUILD (1067 % 5 = 2 → BUILD; FR-42 batch — 5 FR guides: traveling-israel-jewish-holidays + shabbat-dinner-experience + negev-jeep-tours + timna-park-guide + sarona-market-tel-aviv).
