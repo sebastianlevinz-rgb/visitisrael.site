@@ -15853,3 +15853,10 @@ LATAM neutral español tuteo; YAML double-quotes; YAML-span-fix (no <span> in YA
 Gate: pnpm check 0 errors | pnpm build 1603 pages | pnpm test:e2e 2319/2319 pass (25.0m, exit code 0)
 Merge: committed bd762ac0 directly on master (files were on working tree of master; branch auto/es-53-batch deleted). Push: origin/master bd762ac0. CI in_progress at push time.
 Next: iter1059 → REVIEW (1059 % 5 = 4 → REVIEW; candidates: es-53-batch audit or recent i18n batch meta-trim).
+
+## 2026-08-07T08:55Z · iter1059 · REVIEW · review-1059-es53-meta-trim
+
+What: Audited all 5 ES-53 guides (israel-homeport-cruise, israel-orthodox-jewish-travel, jewish-genealogy-israel-trip, muslim-travel-israel, sustainable-travel-israel). All 5 titles clean (34–59 chars). Found 5 descriptions over 160-char limit and 1 typo ("sinagogassefaradíes"). Applied fixes: homeport-cruise 165→154, orthodox-jewish-travel 175→149 (typo fixed), genealogy-trip 172→149, muslim-travel 189→149, sustainable-travel 176→145. Other checks CLEAN: no H1 in any body; 5/5 hero images exist; 15/15 /es/* cross-links resolve; affiliates booking/getyourguide/viator/abraham/discovercars all valid; no fabricated prices/ratings.
+Gate: pnpm check 0 errors | build 1603 pages (unchanged) | pnpm test:e2e 2319/2319 pass (18.8m, exit code 0)
+Merge: 54e6fbbd on master. CI in_progress at push time.
+Next: iter1060 → RESEARCH (1060 % 5 = 0 → RESEARCH).
