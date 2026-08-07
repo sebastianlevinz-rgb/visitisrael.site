@@ -1248,6 +1248,11 @@ const ROUTES = [
   '/fr/israel-unesco-sites',
   '/fr/israel-visa-extension',
   '/fr/israel-for-swiss-travelers',
+  '/es/israel-points-miles-guide',
+  '/es/israel-ramadan-guide',
+  '/es/israel-unesco-sites',
+  '/es/israel-visa-extension',
+  '/es/israel-tour-packages',
 ];
 
 for (const route of ROUTES) {
