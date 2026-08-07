@@ -8099,3 +8099,29 @@ Researched Ramadan, UNESCO sites, points-miles and seniors Israel content on com
 - US Embassy Jerusalem security alert (Aug 1 2026): il.usembassy.gov/security-alert-u-s-embassy-jerusalem-august-1-2026-2/ — "general threat warnings" — spikes safety-adjacent search queries. Our is-israel-safe content should acknowledge this in a freshness update.
 - Gaza Border / Nova Festival memorial tours now being offered by touristisrael.com — monitoring only; this is out of scope for our editorial stance.
 - israelwelcome.com running "Is Israel Safe to Travel in 2026?" — thin editorial with affiliate hotel links.
+
+### iter1070 research findings — 2026-08-07 — 217th research pass
+
+**FR locale competitive landscape (new findings):**
+- guideisrael.fr: has thin "Beit She'arim" page (no FAQs, no affiliate CTAs, low authority) → beit-shearim-guide is outrank-able in FR.
+- tresorsdumonde.fr: similar thin stub on Beit She'arim → confirms gap.
+- Routard.com: strong Ashkelon coverage → ashkelon-guide should remain skipped for FR priority batches.
+- No FR editorial guide found for: belvoir-fortress, caesarea-concerts-events, zichron-yaakov-guide, jerusalem-armenian-quarter. Zero competition confirmed.
+- diasporaarmenie.fr / armenianparis.com: cover Armenian Paris community (confirms ~500K FR audience for jerusalem-armenian-quarter).
+
+**DE locale competitive landscape (new findings):**
+- israelmagazin.de: 1 brief mention of Design Museum Holon; no dedicated guide → thin DE competition.
+- de.wikivoyage.org: has Belvoir stub entry; land-der-bibel.de has brief mention. No single authority → outrank-able.
+- land-der-bibel.de: covers Biblical Archaeology sites; Beit She'arim covered briefly but no comprehensive guide.
+- "Pilgerwanderweg Jesus Trail Nazareth Kafarnaum" in DE: only EN sources rank; zero DACH editorial found.
+- travelujah.com: EN-only despite German-sounding name; covers Beit She'arim in EN only.
+
+**ES locale competitive landscape (new findings):**
+- es.wikipedia.org: has Beit She'arim article (encyclopedic, not travel-focused); Belvoir Fortress stub.
+- No ES editorial guide found for any of the 5 ES-56 candidates (beit-shearim-guide, belvoir-fortress, israel-for-seniors, jesus-trail-israel, caesarea-concerts-events).
+- "Camino de Jesús en Galilea": zero Spanish editorial sources found — Camino de Santiago sites (caminodesantiago.consumer.es etc.) do not cover the Jesus Trail.
+- civitatis.com/es: covers Israel tour booking but no editorial "Jesus Trail" guide in ES.
+
+**Candidates SKIPPED this pass:**
+- mount-tabor: fr.wikipedia + de.wikipedia + es.wikipedia all have comprehensive articles; pilgrim sites in FR/DE/ES present. Skip all locales.
+- ashkelon: Routard.com + Petit Futé have coverage in FR. Skip for FR priority batches.

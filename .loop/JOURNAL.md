@@ -15961,3 +15961,21 @@ Gate: pnpm check 0 errors; build 1633 pages (pre-merge on auto/de-39-batch); pnp
 Ship: squash-merge 9d854915 on master (rebased on 0e4b7f2a from iter1067 state commit), pushed. DE guides: 283→288/398.
 Memory: STATE.md iter→1069, DE 283→288, nextRotation REVIEW (1069%5=4→REVIEW). DONE.md prepended. I18N-PLAN.md DE-40→SHIPPED.
 Next: iter1069 → REVIEW (1069 % 5 = 4 → REVIEW; audit recent DE/FR/ES guides for meta-length + cross-link accuracy + description overruns).
+
+## 2026-08-07 · iter 1070 · RESEARCH · research-1070-archaeology-culture-i18n-batches
+What: 217th research pass. Analyzed competitor landscape for next FR/DE/ES batch candidates. comm -23 gap confirmed: EN=398, FR=297 (101 missing), DE=288 (110 missing), ES=279 (119 missing).
+Findings:
+- beit-shearim-guide: zero ES results; very thin DE (only EN Wikipedia + travelujah); moderate FR (guideisrael.fr + tresorsdumonde.fr — thin authority). UNESCO 2015 necropolis. INPA pass valid. Gap across all 3 locales. → FR-43 #1, DE-41 #1, ES-56 #1.
+- belvoir-fortress: near-zero FR/DE/ES competition (de.wikivoyage + israelmagazin.de for DE — no single authority; es.wikipedia stub only). "Forteresse de Belvoir" Crusader/Hospitaller angle; 500m above Jordan Valley. Gap across all 3 locales. → FR-43 #2, DE-41 #3, ES-56 #2.
+- caesarea-concerts-events: zero FR/DE/ES competition on "Amphithéâtre de Césarée concerts" / "Caesarea Amphitheater Konzerte" / "Anfiteatro de Cesarea conciertos". Roman theatre 2000 years. Gap across all 3 locales. → FR-43 #3, DE-41 #4, ES-56 #5.
+- zichron-yaakov-guide: zero FR competition; Baron Edmond de Rothschild (French Jewish philanthropist, founded village 1882) = strongest possible FR hook. DE/ES skipped (lower cultural resonance). → FR-43 #4.
+- jerusalem-armenian-quarter: strong FR hook (~500K French Armenians, largest Armenian community in Western Europe). St. James Cathedral; Mardigian Museum. Zero FR editorial competition. DE/ES skipped. → FR-43 #5.
+- design-museum-holon: very thin DE (1 israelmagazin.de mention only). Ron Arad internationally known. DACH Designkultur (Bauhaus/Ulm/Vitra tradition = primed audience). → DE-41 #2.
+- jesus-trail-israel: thin DE/ES competition (mostly EN sources). "Pilgerwanderweg" Nazareth→Kapernaum for DE (Jakobsweg cultural resonance); "Camino de Jesús en Galilea" for ES (Camino de Santiago analogy = extremely familiar to LATAM/Spain audience). → DE-41 #5, ES-56 #4.
+- israel-for-seniors: MISSING from ES. High commercial value; Spain + LATAM large retiree markets. Abraham Tours + TourRadar + Booking CTAs. Accessible sites (Masada cable car, Dead Sea float). → ES-56 #3.
+- mount-tabor: SKIP all locales — well-covered by fr.wikipedia, de.wikipedia, pilgrim sites in all 3 languages.
+- ashkelon: SKIP for FR — strong Routard.com + Petit Futé competition.
+Locale counts snapshot: EN=398, FR=297, DE=288, ES=279.
+No ship (research mode). BACKLOG updated with FR-43/DE-41/ES-56 full batch definitions. COMPETITORS.md updated.
+Memory: STATE.md iter→1070, lastMode RESEARCH. nextRotationCategory BUILD (1071%5=1→BUILD).
+Next: iter1071 → BUILD (i18n priority: ES=119 missing > DE=110 missing > FR=101 missing; ES-56 batch first).
