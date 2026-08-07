@@ -6,13 +6,13 @@
 >
 > One bounded slice per loop iteration. NEVER bulk-translate in one shot.
 
-## Current status snapshot (2026-08-07 iter1072 BUILD — FR-43 SHIPPED 638a4371; ES-56 SHIPPED 6f34e2e0; DE-40 SHIPPED 9d854915; next ES BUILD = ES-57 not yet defined / next FR BUILD = FR-44 not yet defined / next DE BUILD = DE-41 defined iter1070)
+## Current status snapshot (2026-08-07 iter1073 BUILD — DE-41 SHIPPED 59b4fa20; FR-43 SHIPPED 638a4371; ES-56 SHIPPED 6f34e2e0; next ES BUILD = ES-57 not yet defined / next FR BUILD = FR-44 not yet defined / next DE BUILD = DE-42 not yet defined)
 
 | Locale | Guides | Attractions | Regions | Itineraries |
 |--------|--------|-------------|---------|-------------|
 | en     | 398    | 65          | 11      | 6           |
 | fr     | 302    | 61          | 11      | 6           |
-| de     | 288    | 61          | 11      | 6           |
+| de     | 293    | 61          | 11      | 6           |
 | es     | 284    | 61          | 11      | 6           |
 
 **🎉 MILESTONE: ES + FR + DE monthly guides ALL COMPLETE** (iter996+iter997 ES-41+ES-42 SHIPPED — all 12 per-month guides jan-dec now exist in ES, FR, and DE)
@@ -20,7 +20,7 @@
 **Gaps to close:**
 - es guides: **114 missing** (284/398 done — Phase ES-56 SHIPPED iter1071 6f34e2e0: beit-shearim-guide + belvoir-fortress + caesarea-concerts-events + israel-for-seniors + jesus-trail-israel; **next ES BUILD = ES-57** — not yet defined)
 - fr guides: **96 missing** (302/398 done — Phase FR-43 SHIPPED iter1072 638a4371: beit-shearim-guide + belvoir-fortress + caesarea-concerts-events + zichron-yaakov-guide + jerusalem-armenian-quarter; **next FR BUILD = FR-44** — not yet defined)
-- de guides: **110 missing** (288/398 done — Phase DE-40 SHIPPED iter1068 9d854915: muslim-travel-israel + israel-road-trip + tower-of-david-guide + nazareth-tours-compared + israel-small-group-tours; **next DE BUILD = DE-41** — defined iter1070)
+- de guides: **105 missing** (293/398 done — Phase DE-41 SHIPPED iter1073 59b4fa20: beit-shearim-guide + design-museum-holon + belvoir-fortress + caesarea-concerts-events + jesus-trail-israel; **next DE BUILD = DE-42** — not yet defined)
 - fr/de/es attractions: **4 missing each** (the 4 EN attractions added after Phase 4)
 
 **Dead Sea cluster status (iter855 audit):**

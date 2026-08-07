@@ -2224,8 +2224,8 @@ Quality: LATAM neutral español tuteo; YAML double-quotes; no <span> in YAML; al
 
   Quality notes: Français métropolitain; YAML double-quotes; no <span> in YAML; all /fr/* cross-links pre-verified above; no fabricated prices/ratings; paired naming at contested sites; no H1 in body. Status: ready [iter1070 research]
 
-### DE-41 batch — NOT YET SHIPPED (defined iter1070)
-- [P2] (i18n-DE, M) DE-41 batch — 5 guides targeting zero/thin German competition: beit-shearim-guide, design-museum-holon, belvoir-fortress, caesarea-concerts-events, jesus-trail-israel. Locale count will become 293/398 on ship.
+### DE-41 batch — SHIPPED iter1073 · 59b4fa20
+- [DONE] DE-41: beit-shearim-guide, design-museum-holon, belvoir-fortress, caesarea-concerts-events, jesus-trail-israel. DE guides: 288→293/398.
 
   1. **beit-shearim-guide** — "Nekropole von Beit She'arim (UNESCO): Reiseführer 2026". Very thin DE coverage (only EN Wikipedia + travelujah.com found; no DACH editorial). Biblische Archäologie = strong DACH travel tradition (land-der-bibel.de audience). UNESCO 2015; 33 Katakomben; Sanhedrin-Sitz 2.–3. Jh. CE. INPA-Pass gültig. heroImage /images/regions/haifa/hero.jpg. CTAs: GYG (Galilee day tour) + Discovercars (Haifa car rental). Cross-links: /de/3-days-in-galilee ✓, /de/haifa-travel-guide ✓, /de/israel-national-parks-pass ✓, /de/car-rental-israel ✓. 6 FAQs.
 
