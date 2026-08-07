@@ -1013,6 +1013,11 @@ const ROUTES = [
   '/de/tower-of-david-guide',
   '/de/nazareth-tours-compared',
   '/de/israel-small-group-tours',
+  '/de/beit-shearim-guide',
+  '/de/design-museum-holon',
+  '/de/belvoir-fortress',
+  '/de/caesarea-concerts-events',
+  '/de/jesus-trail-israel',
 ];
 
 for (const route of ROUTES) {
