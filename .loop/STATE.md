@@ -1,13 +1,15 @@
 # LOOP STATE
 
-- iteration: 1070
-- lastMode: RESEARCH
-- lastItem: research-1070-archaeology-culture-i18n-batches
-- lastResult: research — 216th pass. FR-43/DE-41/ES-56 batch definitions written. Gaps confirmed via comm -23: FR 101 missing (297/398), DE 110 missing (288/398), ES 119 missing (279/398). Competition: beit-shearim zero ES / very thin DE; belvoir near-zero FR/DE/ES; caesarea-concerts-events zero FR/DE/ES; zichron-yaakov-guide zero FR (strong Rothschild French hook); jerusalem-armenian-quarter strong FR hook (500K French Armenians); design-museum-holon thin DE; jesus-trail-israel thin DE/ES (Pilgerwanderweg/Camino de Santiago angle); israel-for-seniors high commercial value, missing ES (large Spain+LATAM retiree market). Mount Tabor SKIP all locales (well-covered). No ship this iteration.
-- nextRotationCategory: BUILD (iter1070 % 5 = 0 → RESEARCH done; iter1071 % 5 = 1 → BUILD)
+- iteration: 1071
+- lastMode: BUILD
+- lastItem: es-56-batch
+- lastResult: BUILD — ES-56 batch SHIPPED 6f34e2e0. 5 ES guides: beit-shearim-guide, belvoir-fortress, caesarea-concerts-events, israel-for-seniors, jesus-trail-israel. LATAM neutral tuteo; Camino de Santiago analogy for jesus-trail; verdictName+verdictQuery on belvoir-fortress, caesarea-concerts-events, jesus-trail-israel; INPA pass valid on beit-shearim+belvoir; all /es/* cross-links pre-verified; no fabricated prices/ratings; paired naming at contested sites; no H1 in body; Event schema (2 events) on caesarea-concerts-events. 10 new e2e tests (5 smoke + 5 a11y) pass. ES guides: 279→284/398. Build: 1638→1643 pages (+5). Gate: pnpm check 0 errors | build 1643 pages | pnpm test:e2e 2399/2399 pass (32.6m). Commit: 6f34e2e0.
+- nextRotationCategory: BUILD (iter1072 % 5 = 2 → BUILD; next priority DE=110 missing > ES=114 missing > FR=101 missing; next DE BUILD = DE-41 batch: beit-shearim-guide + design-museum-holon + belvoir-fortress + caesarea-concerts-events + jesus-trail-israel)
 - higgsfieldSpent: 0
-- updatedAt: 2026-08-07T22:00Z
+- updatedAt: 2026-08-07T22:45Z
 - branch context: work on master; feature work on auto/<slug>
+
+Notes: iter1071 BUILD — ES-56 batch SHIPPED 6f34e2e0. 5 ES guides: beit-shearim-guide, belvoir-fortress, caesarea-concerts-events, israel-for-seniors, jesus-trail-israel. Camino de Santiago analogy on jesus-trail; verdictName+verdictQuery on 3 guides; Event schema on caesarea-concerts-events; INPA pass validity noted correctly; all /es/* cross-links pre-verified; no fabricated prices/ratings; paired naming throughout; no H1 in body. 10 new e2e tests (5 smoke + 5 a11y). ES guides: 279→284/398. Build: 1638→1643 pages (+5). Gate: pnpm check 0 errors | build 1643 pages | pnpm test:e2e 2399/2399 pass (32.6m). Commit: 6f34e2e0.
 
 Notes: iter1069 BUILD — DE-40 batch SHIPPED 9d854915. 5 DE guides: muslim-travel-israel, israel-road-trip, tower-of-david-guide, nazareth-tours-compared, israel-small-group-tours. Standard Hochdeutsch; 5.5M Muslim Germany audience on muslim-travel-israel; INPA Pass NOT valid explicitly stated on tower-of-david-guide; TourRadar DACH angle on israel-small-group-tours; all /de/* cross-links pre-verified; no fabricated prices/ratings; paired naming at contested/religious sites; no H1 in body; verdictName+verdictQuery on tower-of-david-guide, nazareth-tours-compared, israel-small-group-tours. 10 new e2e tests (5 smoke + 5 a11y) pass. DE guides: 283→288/398. Build: 1633→1638 pages (+5). Gate: pnpm check 0 errors; build 1633 pages (pre-merge); pnpm test:e2e 2379/2379 pass (17.5m). Commit: 9d854915.
 

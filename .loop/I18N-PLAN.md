@@ -6,7 +6,7 @@
 >
 > One bounded slice per loop iteration. NEVER bulk-translate in one shot.
 
-## Current status snapshot (2026-08-07 iter1068 BUILD — DE-40 SHIPPED 9d854915; DE-39 SHIPPED 7a95811b (concurrent iter1067); FR-42 SHIPPED c04046c0; next FR BUILD = FR-43 not yet defined / ES-56 not yet defined / DE-41 not yet defined)
+## Current status snapshot (2026-08-07 iter1071 BUILD — ES-56 SHIPPED 6f34e2e0; DE-40 SHIPPED 9d854915; FR-42 SHIPPED c04046c0; next ES BUILD = ES-57 not yet defined / next FR BUILD = FR-43 not yet defined / next DE BUILD = DE-41 defined iter1070)
 
 | Locale | Guides | Attractions | Regions | Itineraries |
 |--------|--------|-------------|---------|-------------|
@@ -18,7 +18,7 @@
 **🎉 MILESTONE: ES + FR + DE monthly guides ALL COMPLETE** (iter996+iter997 ES-41+ES-42 SHIPPED — all 12 per-month guides jan-dec now exist in ES, FR, and DE)
 
 **Gaps to close:**
-- es guides: **119 missing** (279/398 done — Phase ES-55 SHIPPED iter1066 d2d018bc: traveling-israel-jewish-holidays + shabbat-dinner-experience + negev-jeep-tours + timna-park-guide + petra-wadi-rum-from-eilat; **next ES BUILD = ES-56** — not yet defined; queue for RESEARCH pass)
+- es guides: **114 missing** (284/398 done — Phase ES-56 SHIPPED iter1071 6f34e2e0: beit-shearim-guide + belvoir-fortress + caesarea-concerts-events + israel-for-seniors + jesus-trail-israel; **next ES BUILD = ES-57** — not yet defined)
 - fr guides: **101 missing** (297/398 done — Phase FR-42 SHIPPED iter1067 c04046c0: traveling-israel-jewish-holidays + shabbat-dinner-experience + negev-jeep-tours + timna-park-guide + petra-wadi-rum-from-eilat; **next FR BUILD = FR-43** — not yet defined)
 - de guides: **110 missing** (288/398 done — Phase DE-40 SHIPPED iter1068 9d854915: muslim-travel-israel + israel-road-trip + tower-of-david-guide + nazareth-tours-compared + israel-small-group-tours; **next DE BUILD = DE-41** — not yet defined)
 - fr/de/es attractions: **4 missing each** (the 4 EN attractions added after Phase 4)
@@ -1539,8 +1539,11 @@ All 5 shipped to master. See DONE.md iter1066 for full detail.
 Guides: `traveling-israel-jewish-holidays.md`, `shabbat-dinner-experience.md`, `negev-jeep-tours.md`, `timna-park-guide.md`, `petra-wadi-rum-from-eilat.md`
 All 5 shipped to master. Mirrored ES-55 batch in Metropolitan French. verdictName+verdictQuery on negev-jeep-tours + timna-park-guide. INPA Pass honesty note on Timna. Jordan Pass purchase-before-border note on petra-wadi-rum. All /fr/* cross-links pre-verified. Gate: pnpm check 0 errors; build 1628 pages (+5); pnpm test:e2e 2369/2369 pass (33.2m). See DONE.md iter1067 for full detail.
 
-### Phase ES-56 (279 → 284/398) — not yet defined
-Queue for next RESEARCH pass to define ES-56 batch (candidates: wedding-in-israel, israel-for-seniors, negev-tours-compared, nationality-guides-cluster-2, is-israel-safe freshness update).
+### Phase ES-56 (279 → 284/398) — SHIPPED iter1071 — 6f34e2e0
+5 ES guides shipped: beit-shearim-guide (UNESCO 2015 necropolis, INPA pass, 7 FAQs), belvoir-fortress (Knights Hospitaller 1168, verdictName+verdictQuery, Jordan Valley day combo), caesarea-concerts-events (4,000-seat Roman theatre, Event JSON-LD, verdictName+verdictQuery, Festival de la Luz), israel-for-seniors (cable-car accessibility, 2-3 sites/day rhythm, medical care context, price ranges only), jesus-trail-israel (65km Nazareth→Capernaum, Camino de Santiago analogy for LATAM/Spain, trail angels, verdictName+verdictQuery). LATAM neutral tuteo; all /es/* cross-links pre-verified; no fabricated prices/ratings; no H1. Gate: pnpm check 0 errors; build 1643 pages (+5); pnpm test:e2e 2399/2399 pass (32.6m). ES guides: 279→284/398.
+
+### Phase ES-57 (284 → 289/398) — not yet defined
+Queue for next BUILD iteration. Candidates: zichron-yaakov-guide (Rothschild village, wine region), ashkelon-guide, atlit-detainee-camp-guide, binyamina-guide, dead-sea-day-trip-comparison (still missing from ES).
 
 ### Phase FR-43 (297 → 302/398) — not yet defined
 Queue for next RESEARCH pass or BUILD iteration to define FR-43 batch (candidates: sarona-market-tel-aviv, wedding-in-israel, israel-for-seniors, galilee-agritourism-cluster).

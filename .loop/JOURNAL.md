@@ -15979,3 +15979,10 @@ Locale counts snapshot: EN=398, FR=297, DE=288, ES=279.
 No ship (research mode). BACKLOG updated with FR-43/DE-41/ES-56 full batch definitions. COMPETITORS.md updated.
 Memory: STATE.md iter→1070, lastMode RESEARCH. nextRotationCategory BUILD (1071%5=1→BUILD).
 Next: iter1071 → BUILD (i18n priority: ES=119 missing > DE=110 missing > FR=101 missing; ES-56 batch first).
+
+## 2026-08-07T22:45Z · iter1071 · BUILD (i18n-ES) · es-56-batch
+What: 5 new ES guides — beit-shearim-guide, belvoir-fortress, caesarea-concerts-events, israel-for-seniors, jesus-trail-israel. LATAM neutral español tuteo. Key angles: Camino de Santiago analogy on jesus-trail-israel (extremely familiar to LATAM/Spain audiences — "Camino de Jesús en Galilea"); Rothschild / knight history on belvoir with full concentric castle explanation; Event JSON-LD schema on caesarea-concerts-events (2 events: summer concert season + Festival de la Luz); practical seniors guide with accurate cable-car info and Old City paving caveats; beit-shearim UNESCO 2015 necropolis with INPA pass validity. verdictName+verdictQuery on belvoir-fortress, caesarea-concerts-events, jesus-trail-israel. All /es/* cross-links pre-verified; no fabricated prices/ratings; paired naming at contested/religious sites; no H1 in body. 10 new e2e tests (5 smoke + 5 a11y) added to tests/e2e/smoke.spec.ts and tests/e2e/a11y.spec.ts (all passed, 0 WCAG violations).
+Gate: pnpm check 0 errors | pnpm build 1643 pages (+5 vs 1638) | pnpm test:e2e 2399/2399 pass (32.6m, exit code 0).
+Ship: committed 6f34e2e0 on master, pushed to origin/master. ES guides: 279→284/398. Lighthouse CI: success. Main CI: in_progress at update time (consistent with prior successful runs).
+Memory: STATE.md iter→1071, ES 279→284, nextRotation BUILD (1072%5=2→BUILD; DE-41 batch next). DONE.md updated. BACKLOG.md ES-56 marked SHIPPED. I18N-PLAN.md ES 279→284, ES-56 SHIPPED.
+Next: iter1072 → BUILD (1072 % 5 = 2 → BUILD; locale priority DE=110 missing > ES=114 missing > FR=101 missing; next DE BUILD = DE-41 batch: beit-shearim-guide, design-museum-holon, belvoir-fortress, caesarea-concerts-events, jesus-trail-israel).

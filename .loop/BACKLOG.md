@@ -2239,8 +2239,8 @@ Quality: LATAM neutral español tuteo; YAML double-quotes; no <span> in YAML; al
 
   Quality notes: Standard Hochdeutsch; YAML double-quotes; no <span> in YAML; all /de/* cross-links pre-verified above; no fabricated prices/ratings; paired naming at contested sites; no H1 in body. Status: ready [iter1070 research]
 
-### ES-56 batch — NOT YET SHIPPED (defined iter1070)
-- [P2] (i18n-ES, M) ES-56 batch — 5 guides targeting zero/thin Spanish competition: beit-shearim-guide, belvoir-fortress, israel-for-seniors, jesus-trail-israel, caesarea-concerts-events. Locale count will become 284/398 on ship.
+### ES-56 batch — SHIPPED iter1071 · 6f34e2e0
+- [DONE] ES-56: beit-shearim-guide, belvoir-fortress, caesarea-concerts-events, israel-for-seniors, jesus-trail-israel. ES guides: 279→284/398.
 
   1. **beit-shearim-guide** — "Necrópolis de Beit She'arim (UNESCO): guía completa". Zero Spanish editorial results found (strongest gap of all 3 locales). "Necrópolis de Beit She'arim UNESCO" = clear keyword; Jewish diaspora connection relevant for LATAM Jewish communities (Argentina ~180K, Mexico ~50K). INPA pass válido. heroImage /images/regions/haifa/hero.jpg. CTAs: GYG (Galilee archaeology day tour) + Discovercars. Cross-links: /es/3-days-in-galilee ✓, /es/3-days-in-haifa ✓, /es/israel-national-parks-pass ✓, /es/car-rental-israel ✓. 6 FAQs.
 
