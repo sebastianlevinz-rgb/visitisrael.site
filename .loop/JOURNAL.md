@@ -16058,3 +16058,13 @@ Ship: committed directly to master 664d2250; pushed to origin/master.
 Prod: CI in_progress at push time — consistent with prior success pattern.
 Next: iter1079 → REVIEW (1079%5=4 → REVIEW).
 Next: iter1078 → BUILD (1078%5=3 → BUILD; ES-57 batch — same 5 guides in Spanish).
+
+## 2026-08-08T06:45Z · iter1079 · REVIEW · review-1079-es57-meta-trim
+What: Audited all 5 ES-57 guides (negev-tours-compared, mount-hermon-skiing, south-israel-itinerary, megiddo-jezreel-valley-guide, israel-military-heritage). Checks: (1) internal link verification — 2 broken links found and fixed; (2) all 5 heroImages confirmed present; (3) no fabricated prices (all ranges); (4) no H1 in body; (5) frontmatter complete; (6) meta title/desc lengths. 9 fixes applied.
+Title fixes: negev-tours-compared 75→61 chars; mount-hermon-skiing 67→60 chars; south-israel-itinerary 67→53 chars.
+Desc fixes: mount-hermon-skiing 178→151 chars; south-israel-itinerary 167→127 chars; megiddo-jezreel-valley-guide 171→133 chars; israel-military-heritage 165→135 chars.
+Broken link fixes: /jezreel-valley-guide→/megiddo-jezreel-valley-guide (EN fallback corrected); /yad-vashem-guide(×2)→/es/yad-vashem-visitor-guide (ES page exists, upgraded from EN fallback).
+Gate: pnpm check 0 errors | build 1668 pages | pnpm test:e2e 10/10 targeted pass (exit code 0).
+Ship: squash-merge 480a74b7 on master, pushed to origin/master. CI in_progress at state-write.
+Memory: STATE.md iter→1079, lastMode REVIEW, nextRotation RESEARCH (1080%5=0).
+Next: iter1080 → RESEARCH (1080 % 5 = 0 → RESEARCH mode; research pass 219).
