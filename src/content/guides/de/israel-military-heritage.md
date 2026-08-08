@@ -38,7 +38,7 @@ faqs:
   - question: "Ist das IDF History Museum in Tel Aviv kostenlos?"
     answer: "Ja. Das Beit HaHaganah (Haus der Haganah) im Stadtteil Neve Tzedek ist kostenlos und zeigt die Geschichte der Haganah von der Vorstaatlichkeit bis zur Staatsgründung 1948. Öffnungszeiten prüfen, da das Museum manchmal für Sonderveranstaltungen schließt."
   - question: "Ist Yad Vashem ein Militärmuseum?"
-    answer: "Nein. Yad Vashem ist Israels nationale Holocaust-Gedenkstätte – konzeptionell anders als ein Militärmuseum. Beide Besichtigungen lassen sich jedoch kombinieren, da Yad Vashem und Ammunition Hill beide in Jerusalem liegen. Unseren vollständigen Yad-Vashem-Reiseführer finden Sie unter [yad-vashem-guide](/yad-vashem-guide) (auf Englisch)."
+    answer: "Nein. Yad Vashem ist Israels nationale Holocaust-Gedenkstätte – konzeptionell anders als ein Militärmuseum. Beide Besichtigungen lassen sich jedoch kombinieren, da Yad Vashem und Ammunition Hill beide in Jerusalem liegen. Unseren vollständigen Yad-Vashem-Reiseführer finden Sie unter [Yad Vashem Besucherführer](/de/yad-vashem-visitor-guide)."
   - question: "Welches Museum empfehlen Sie für einen ersten Besuch?"
     answer: "Für einen schnellen Einstieg: Ammunition Hill in Jerusalem (2 Stunden, gut erreichbar, bewegende Atmosphäre). Für Militärhistoriker mit mehr Zeit: Yad LaShiryon + Luftwaffenmuseum Hatzerim als Tagesausflug in den Negev (Voranmeldung beachten). Wer Weltkriegsgeschichte liebt: Yad Mordechai im Süden, nahe der Gaza-Grenze."
 ---
@@ -86,7 +86,7 @@ Der Kibbutz **Yad Mordechai** nahe Ashkelon wurde im Mai 1948 von ägyptischen T
 ## Tagesplanung: Kombinationsrouten
 
 **Route A – Jerusalem-Tag (6–8 Stunden):**
-Ammunition Hill (Vormittag, 2 h) → Mittagessen in der Innenstadt → [Yad Vashem](/yad-vashem-guide) (Nachmittag, 3 h, auf Englisch). Beide Stätten liegen im Westen Jerusalems.
+Ammunition Hill (Vormittag, 2 h) → Mittagessen in der Innenstadt → [Yad Vashem](/de/yad-vashem-visitor-guide) (Nachmittag, 3 h). Beide Stätten liegen im Westen Jerusalems.
 
 **Route B – Negev-Museumsrunde (Ganztag):**
 Yad LaShiryon Latrun (Vormittag, 2 h, Voranmeldung nicht nötig) → Mittagspause Be'er Scheva → Luftwaffenmuseum Hatzerim (Nachmittag, 2–3 h, Voranmeldung vorab!). Ohne eigenes Fahrzeug kaum machbar – [Mietwagen empfohlen](/de/car-rental-israel).

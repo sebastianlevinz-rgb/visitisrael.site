@@ -235,4 +235,4 @@ Unterkunft in Mitzpe Ramon ist das Hauptengpass — das Angebot ist begrenzt und
 - [Negev-Wanderführer](/de/hiking-in-israel) — Wanderwege im Negev und Tipps für israelisches Wandern
 - [Mietwagen Israel](/de/car-rental-israel) — Betreibervergleich, Altersgrenzen, Mautvorschriften
 - [Israel-Nationalparkpass](/de/israel-national-parks-pass) — INPA-Pass-Abdeckung und aktuelle Preise
-- [Eilat nach Petra](/eilat-guide) — Logistik der Jordaniengrenze (EN-Seite)
+- [Eilat nach Petra](/de/eilat-travel-guide) — Logistik der Jordaniengrenze
