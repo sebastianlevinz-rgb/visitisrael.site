@@ -16,7 +16,7 @@ Guides: same 5 as FR-47. All confirmed MISSING from DE.
 - skyfield-extreme-park-jaffa: SkyField Bloomfield-Stadion Jaffa (2026); Klettersteig + 35m Bungee + Riesenschaukel; Israels erstes vollständig barrierefreies Extrempark; jaffa-travel-guide ✓, israel-adventure-sports ✓, israel-with-kids ✓ in DE.
 - tel-aviv-coffee-guide: Dritte-Welle-Spezialitätenkaffee + Botz-Tradition; Deutschland = Europa-Kaffeekultur-Heimat (DACH coffee angle); Festival Sept.; jaffa-travel-guide ✓, tel-aviv-food-guide ✓, backpacking-israel ✓ in DE; tel-aviv-things-to-do ✓ in DE.
 - tabgha-church-guide: Brotvermeherungs-Kirche (Benediktiner; 5. Jh.-Mosaik) + Kirche des Primats Petri (Franziskaner; Vulkanbasalt); DACH Pilgermarkt "Land der Bibel"; 3-days-in-galilee ✓, nazareth-travel-guide ✓, sea-of-galilee-guide ✓ in DE.
-Status: ready
+Status: SHIPPED iter1093 ee358815
 
 ### ES-60 batch definition (iter1090 RESEARCH — ready for next ES BUILD)
 Guides: same 5 as FR-47. All confirmed MISSING from ES.

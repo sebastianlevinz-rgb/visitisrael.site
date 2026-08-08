@@ -16236,3 +16236,10 @@ Gate: pnpm check 0 errors | build 1703 pages | pnpm test:e2e 10/10 targeted (5 s
 Commit: 8d3d49f5 on master; pushed to origin/master.
 CI: Lighthouse in_progress at state-write.
 Next: iter1093 BUILD — DE-45 batch (soreq-cave-guide + negev-incense-route + skyfield-extreme-park-jaffa + tel-aviv-coffee-guide + tabgha-church-guide in DE; batch defined iter1090).
+
+## 2026-08-08 · iter 1093 · BUILD (i18n-DE) · de-45-batch
+What: 5 new DE guides — soreq-cave-guide (Avshalom-Tropfsteinhöhle; INPA NOT valid per FR source, corrected from BACKLOG note; 22°C ganzjährig; 50-Min geführte Tour; Alpine karst DACH angle — Schwäbische Alb / österreichischer Karst comparison), negev-incense-route (4 nabatäische UNESCO-Städte Avdat/Mamshit/Haluza/Shivta; Self-Drive Itinerar; kein ÖPNV nach Mamshit/Shivta/Haluza; DACH Wohnmobil-Roadtrip-Nische; INPA gültig Avdat/Mamshit/Shivta; Haluza kostenlos/keine Infrastruktur), skyfield-extreme-park-jaffa (SkyField Bloomfield-Stadion Jaffa 2025-eröffnet; Klettersteig + 35m Bungee + Riesenschaukel; Israels erstes vollständig barrierefreies Extrempark; Paketpreise Einsteiger ~₪120 / Mutig ~₪360 / Alles inklusive ~₪495 als Eröffnungspreise markiert), tel-aviv-coffee-guide (Dritte Welle + Botz-Tradition; Quartiers-Tour Florentin→Neve Tzedek→Carmel-Markt→Rothschild-Boulevard→Dizengoff→Gordon Beach; 7 Röstereien profiled: Nahat/Cafelix/Caffe Tamati/Way Cup/Mae/Origem/Jera; DACH Kaffeekultur angle Wien-Melange/Berlin-Specialty), tabgha-church-guide (Brotvermehrungskirche Benediktiner + 5.Jh.-Mosaik / Petrus-Primatskirche Franziskaner / Mensa-Christi-Basaltfels; beide kostenlos; DACH Pilgermarkt "Land der Bibel").
+Gate: pnpm check 0 errors | build 1703→1708 pages (+5) | pnpm test:e2e 10/10 targeted (5 smoke + 5 a11y) pass.
+Ship: squash-merged auto/de-45-batch to master ee358815; pushed origin/master. Feature branch deleted.
+DE guides: 308→313/398. CI: status pending at push time (checked 15s post-push; webhook not yet fired).
+Next: iter1094 REVIEW (1094 % 5 = 4) — review DE-45 meta compliance: titles ≤54 chars, descriptions ≤151 chars, /de/* cross-links valid, no H1 in body.
