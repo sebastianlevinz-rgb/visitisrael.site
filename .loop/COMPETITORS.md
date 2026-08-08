@@ -8182,3 +8182,54 @@ Researched Ramadan, UNESCO sites, points-miles and seniors Israel content on com
 - Still advises against Gaza/500m border/north WB/Golan.
 - Signal: British traveler search intent for Israel will spike → israel-for-british-travelers i18n is timely.
 
+
+## iter1080 research — 2026-08-08 — 219th research pass
+
+**Pilgrimage, Golan, LGBTQ+, New Attractions batch (FR-45/DE-43/ES-58)**
+
+**1. Tel Aviv Pride 2026 (FR/DE/ES competitive landscape)**
+- secrettelaviv.com: EN-only; "Pride Month in Tel Aviv 2026" event calendar; well-ranked for "tel aviv pride 2026" EN query.
+- misterbandb.com/gay-events/israel/tel-aviv-yafo: available in FR/ES listing format only (event date/location, no editorial guide).
+- gayborhood.com: EN-only editorial event guide; "Tel Aviv Gay Pride: Friday, June 12th, 2026."
+- rainbowindex.com: EN-only; "Guide to Tel Aviv Pride 2026."
+- eurogaytravel.com: EN + limited multilingual; "Tel Aviv Gay Guide 2026."
+- touristisrael.com: EN-only; multiple pages (Gay Tel Aviv, Pride Parade, 8-day Pride tour).
+- Gap: ZERO dedicated FR/DE/ES editorial travel guide for Tel Aviv Pride confirmed. misterbandb listing ≠ editorial guide. STRONG opportunity.
+- DE angle: German Embassy officially co-hosted June 12 2026 celebration at Charles Clore Park → unique DACH hook unavailable to generic guides.
+
+**2. Mount Tabor (FR/DE/ES competitive landscape)**
+- greca.co: EN-only blog post "Mount Tabor Travel Guide: Notes for Exploring Mount Tabor 2026." Decent coverage.
+- elijahtours.com: EN-only "Visiting Mount Tabor 2026 | Transfiguration." Tour-operator editorial.
+- israel-taxi.com: EN-only "Mount Tabor In Israel - The Ultimate Visitor Guide For 2026."
+- tripadvisor.com: listing page with reviews, no editorial.
+- Gap: ZERO FR/DE/ES editorial guide for Mount Tabor confirmed. Greca/Elijah/Israel-Taxi all EN-only.
+
+**3. Wadi Qelt Monastery (FR/DE/ES competitive landscape)**
+- beinharimtours.com: EN-only; "St. George's Monastery, Wadi Qelt" tour page.
+- hoshen-tours.com: EN-only; "Wadi Qelt and St. George Monastery" destination page.
+- levyisraeltours.com: EN-only; "Discover the Magic of Wadi Qelt" blog post.
+- hike-israel.com: EN-only; "Wadi Qelt (Ein Prat) - The Complete Guide (With Maps)."
+- tripadvisor: EN-only tour reviews + listing.
+- Gap: ZERO FR/DE/ES editorial guide for Wadi Qelt confirmed.
+
+**4. Schottenstein National Campus for Archaeology (competitive landscape)**
+- iaa.org.il/en/page/touriaa: IAA EN-only open tours page; "View ancient treasures at Jerusalem's new national archeology campus" (Times of Israel, Dec 2025).
+- schottensteincampus.org: EN-only; "The Rooftop Archaeological Garden."
+- safdiearchitects.com: EN-only project page.
+- timesofisrael.com: EN news coverage of opening/tours.
+- Gap: ZERO FR/DE/ES editorial travel guide confirmed. New 2026 attraction; tours already available; full visitor centre expected 2027.
+
+**5. Valley of Tears, Golan (FR/DE/ES competitive landscape)**
+- dannythedigger.com: EN-only; "Valley of Tears 1973 Battle Site" — well-ranked authoritative guide.
+- hoshen-tours.com: EN-only; "Valley of Tears and Oz 77 Memorial."
+- slavaguide.com: EN-only; "Valley of Tears - The Battle over the Golan Heights."
+- historyskills.com: EN-only; classroom historical resource.
+- timesofisrael.com: EN news/feature coverage.
+- Gap: ZERO FR/DE/ES editorial travel guide confirmed. Netflix series "Valley of Tears" (Kan/international 2020) gives global audience awareness for the site.
+
+**6. New 2026 tourism infrastructure**
+- jweekly.com (May 2026): Green Line first section Malha→HaTurim opened July 2026; our jerusalem-light-rail-guide.md likely stale.
+- paxnews.com: Haifa new cruise terminal May 2026; 1M passenger capacity, 2 mega-ships — update haifa-cruise content.
+- tourism news: Yahel-Timna 100km MTB singletrack opened Dec 2025 — update arava-mountain-biking.
+- globalsecurity.org / pjmedia.com: Netanyahu "Bible Road" Highway 60 announcement June 18 2026 — new SEO opportunity.
+- recommend.com: North American visitor YoY +73% June 2026; LATAM and European markets recovering.

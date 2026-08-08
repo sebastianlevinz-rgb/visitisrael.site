@@ -16068,3 +16068,10 @@ Gate: pnpm check 0 errors | build 1668 pages | pnpm test:e2e 10/10 targeted pass
 Ship: squash-merge 480a74b7 on master, pushed to origin/master. CI in_progress at state-write.
 Memory: STATE.md iter→1079, lastMode REVIEW, nextRotation RESEARCH (1080%5=0).
 Next: iter1080 → RESEARCH (1080 % 5 = 0 → RESEARCH mode; research pass 219).
+
+## 2026-08-08T08:00Z · iter1080 · RESEARCH · research-1080-pilgrimage-golan-lgbtq-batches
+What: 219th research pass. Surveyed TouristIsrael, Bein Harim, Hoshen Tours, DannyTheDigger, Greca, Elijah Tours, Secret Tel Aviv, Gayborhood, MisterBandB, jweekly.com, touristisrael.com, israel-taxi.com, greca.co on competitor coverage of top missing guides. Confirmed 80 EN guides missing from all 3 locales (EN=398, FR=307/398, DE=298/398, ES=289/398).
+Batches defined: FR-45/DE-43/ES-58 — same 5 guides: tel-aviv-pride-guide (June 12 2026; zero FR/DE/ES editorial; German Embassy co-hosted for DE angle), mount-tabor-guide (Transfiguration pilgrimage; Greca/Elijah EN-only; zero FR/DE/ES editorial), wadi-qelt-monastery-guide (Wadi Qelt St. George Monastery; Bein Harim/Hoshen EN-only; zero FR/DE/ES editorial), schottenstein-campus-jerusalem (new 2026 national archaeology campus; IAA EN-only tours; zero FR/DE/ES editorial), valley-of-tears-golan (Yom Kippur War 1973; Netflix series exposure; DannyTheDigger/Hoshen EN-only; zero FR/DE/ES editorial). All heroImages confirmed on disk; all cross-links exist in each locale.
+New EN/freshness items added to BACKLOG: (1) jerusalem-light-rail-guide freshness (Green Line Malha-HaTurim section opened July 2026; TouristIsrael + transit.org cover EN, guide likely stale), (2) bible-road-highway-60-guide (Netanyahu June 2026 announcement; heritage route Be'er Sheva → Nof HaGalil; multilingual interpretation; net-new SEO opportunity), (3) haifa-cruise-terminal freshness (new terminal May 2026, 1M passengers/year, 2 mega-ships), (4) yahel-timna-mtb freshness (62-mile MTB singletrack opened Dec 2025).
+No code shipped (research mode). Memory committed and pushed.
+Next: iter1081 → BUILD (1081%5=1 → BUILD; FR-45 batch).

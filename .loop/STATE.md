@@ -1,12 +1,12 @@
 # LOOP STATE
 
-- iteration: 1079
-- lastMode: REVIEW
-- lastItem: review-1079-es57-meta-trim
-- lastResult: REVIEW — ES-57 meta-trim SHIPPED 480a74b7. 3 titles trimmed (negev-tours-compared 75→61, mount-hermon-skiing 67→60, south-israel-itinerary 67→53). 4 descs trimmed (mount-hermon-skiing 178→151, south-israel-itinerary 167→127, megiddo-jezreel-valley-guide 171→133, israel-military-heritage 165→135). 2 broken links fixed: /jezreel-valley-guide→/megiddo-jezreel-valley-guide; /yad-vashem-guide(×2)→/es/yad-vashem-visitor-guide. Gate: pnpm check 0 errors | build 1668 pages | pnpm test:e2e 10/10 targeted pass. Commit: 480a74b7.
-- nextRotationCategory: BUILD (iter1080 % 5 = 0 → RESEARCH)
+- iteration: 1080
+- lastMode: RESEARCH
+- lastItem: research-1080-pilgrimage-golan-lgbtq-batches
+- lastResult: RESEARCH — 219th research pass. Confirmed EN=398, FR=307/398 (missing 91), DE=298/398 (missing 100), ES=289/398 (missing 109). 80 guides missing from all 3 locales. Defined FR-45/DE-43/ES-58 batches (same 5 guides: tel-aviv-pride-guide + mount-tabor-guide + wadi-qelt-monastery-guide + schottenstein-campus-jerusalem + valley-of-tears-golan). All heroImages confirmed. All cross-links exist in each locale. New EN items: jerusalem-light-rail-guide freshness (Green Line Malha-HaTurim opened July 2026; P2/S), bible-road-highway-60-guide (Netanyahu June 2026 initiative; P2/M), haifa-cruise-terminal freshness (new terminal May 2026; P3/S), yahel-timna-mtb freshness (62-mile route Dec 2025; P3/S). No code shipped.
+- nextRotationCategory: BUILD (iter1081 % 5 = 1 → BUILD; FR-45 batch)
 - higgsfieldSpent: 0
-- updatedAt: 2026-08-08T06:45Z
+- updatedAt: 2026-08-08T08:00Z
 - branch context: work on master; feature work on auto/<slug>
 
 Notes: iter1078 BUILD — ES-57 batch SHIPPED 664d2250. 5 ES guides: negev-tours-compared (LATAM tuteo; comparativa 6 formatos tours; verdictName+verdictQuery; CTAs getyourguide+discovercars+viator; cross-links /es/3-days-in-negev+mitzpe-ramon-guide+car-rental-israel+hiking-in-israel+israel-national-parks-pass), mount-hermon-skiing (LATAM sorpresa-nieve hook; quick-reference tabla; reserva obligatoria skihermon.co.il; actividades verano; verdictName+verdictQuery; CTAs getyourguide+discovercars+booking), south-israel-itinerary (4–5 días Beer-Sheva→Eilat; INPA válido; Timna NOT INPA honesty; Petra extensión; CTAs discovercars+getyourguide+booking+viator; eilat-guide EN fallback), megiddo-jezreel-valley-guide (Armagedón hook LATAM católico 90%+; 26 estratos; INPA válido; circuito Jezreel tabla; verdictName+verdictQuery; CTAs getyourguide+viator+booking; jezreel-valley-guide EN fallback), israel-military-heritage (Guerra Yom Kipur 1973 LATAM media angle; Latrun 110+ tanques; Hatzerim reserva 72h mar/jue; Ammunition Hill; Beit HaHaganah gratuito; verdictName+verdictQuery; CTAs getyourguide+discovercars+booking; yad-vashem-guide EN fallback). LATAM neutral tuteo; all /es/* cross-links pre-verified; no fabricated prices/ratings; paired naming. 10 new e2e routes (5 smoke + 5 a11y). ES guides: 284→289/398. Build: 1663→1668 pages (+5). Gate: pnpm check 0 errors | build 1668 pages | pnpm test:e2e 10/10 targeted pass. Commit: 664d2250. CI in_progress at state-write (Lighthouse ✓ pending).
