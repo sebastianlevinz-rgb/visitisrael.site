@@ -1,6 +1,6 @@
 ---
-title: "Grotte d'Avshalom (Soreq) : Guide Complet du Visiteur (2026)"
-description: "Visitez la grotte d'Avshalom — la plus grande grotte calcaire d'Israël. Visites guidées, 22°C toute l'année, 40 min de Jérusalem. Billets, horaires et conseils."
+title: "Grotte d'Avshalom (Soreq) : Visites 2026"
+description: "Visitez la grotte d'Avshalom — la plus grande grotte calcaire d'Israël. Visites guidées, 22°C toute l'année, 40 min de Jérusalem. Billets et horaires."
 heroImage: /images/regions/jerusalem/hero.jpg
 category: Destinations
 updatedAt: 2026-08-08

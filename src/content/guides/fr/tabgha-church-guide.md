@@ -1,6 +1,6 @@
 ---
-title: "Tabgha : Église des Pains et des Poissons & Primat de Pierre (2026)"
-description: "Les deux églises de Tabgha sur la rive nord de la mer de Galilée : la mosaïque bénédictine des pains et des poissons et l'Église du Primat de Pierre des Franciscains."
+title: "Tabgha — Multiplication des Pains et Primat de Pierre"
+description: "Les deux églises de Tabgha sur la mer de Galilée : mosaïque bénédictine des pains et poissons et Église du Primat de Pierre des Franciscains."
 heroImage: /images/regions/galilee/capernaum.jpg
 category: Destinations
 updatedAt: 2026-08-08

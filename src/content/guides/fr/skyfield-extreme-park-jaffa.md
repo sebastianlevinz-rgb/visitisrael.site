@@ -1,6 +1,6 @@
 ---
-title: "SkyField Parc Extrême Jaffa : Via Ferrata, Saut et Vues (2026)"
-description: "SkyField au Stade Bloomfield de Jaffa : via ferrata, saut à l'élastique 35m, balançoire géante, vues sur la Méditerranée. Premier parc extrême entièrement accessible d'Israël."
+title: "SkyField Jaffa : Via Ferrata, Saut, Vues (2026)"
+description: "SkyField au Stade Bloomfield de Jaffa : via ferrata, saut élastique 35m, balançoire géante, vues Méditerranée. Parc extrême entièrement accessible."
 heroImage: /images/regions/tel-aviv/jaffa.jpg
 category: Activities
 updatedAt: 2026-08-08

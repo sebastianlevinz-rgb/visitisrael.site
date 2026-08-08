@@ -1,6 +1,6 @@
 ---
-title: "Route de l'Encens du Néguev : Guide des Villes Nabatéennes (2026)"
-description: "Les 4 villes nabatéennes UNESCO sur la Route de l'Encens du Néguev — Avdat, Mamshit, Haluza, Shivta — logistique self-drive, tarifs et conseils de visite."
+title: "Route de l'Encens du Néguev : Villes Nabatéennes"
+description: "Les 4 villes nabatéennes UNESCO sur la Route de l'Encens — Avdat, Mamshit, Haluza, Shivta — self-drive dans le Néguev, tarifs et conseils de visite."
 heroImage: /images/regions/negev/avdat.jpg
 category: Destinations
 updatedAt: 2026-08-08

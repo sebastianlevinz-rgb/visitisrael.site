@@ -1,6 +1,6 @@
 ---
-title: "Café Spécialité à Tel Aviv : Troisième Vague et Culture Botz (2026)"
-description: "Guide du café spécialité à Tel Aviv — torréfacteurs troisième vague, circuit de quartier, le botz traditionnel et les codes de la culture café dans la ville la plus caféinée d'Israël."
+title: "Café Spécialité à Tel Aviv : Troisième Vague 2026"
+description: "Cafés spécialité troisième vague, culture botz et circuit par quartier à Tel Aviv. Torréfacteurs, adresses et codes de la culture café en Israël."
 heroImage: /images/sub-destinations/tel-aviv/florentin.jpg
 category: Food
 updatedAt: 2026-08-08
