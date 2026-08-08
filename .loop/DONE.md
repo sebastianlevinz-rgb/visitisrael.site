@@ -2028,3 +2028,12 @@ INPA pass valid noted on beit-shearim-guide + belvoir-fortress.
 Event JSON-LD (2 events) on caesarea-concerts-events.
 All /de/* cross-links pre-verified; no fabricated prices/ratings; no H1 in body.
 DE guides: 288→293/398. Build: 1648→1653 pages (+5). 10 new e2e tests (5 smoke + 5 a11y) pass.
+
+## iter1074 · REVIEW · review-1074-de41-meta-trim · 2026-08-08 · commit 72997f27
+Audited DE-41 batch (5 guides). 7 meta fixes shipped:
+- beit-shearim-guide: title 74→54 chars
+- belvoir-fortress: title 72→50 chars
+- caesarea-concerts-events: title 66→49 chars, desc 165→151 chars, stale Lichterfestival event removed
+- jesus-trail-israel: title 69→51 chars, desc 162→149 chars
+- design-museum-holon: no issues (43-char title, 153-char desc, all clean)
+All 18 internal links valid. Gate: check 0 errors | build 1653 pages | 10/10 e2e pass.

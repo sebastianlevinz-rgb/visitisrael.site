@@ -16001,3 +16001,11 @@ Gate: pnpm check 0 errors | pnpm build 1653 pages (+5 vs 1648) | pnpm test:e2e 1
 Ship: squash-merge 59b4fa20 on master, pushed to origin/master. DE guides: 288→293/398.
 Memory: STATE.md iter→1073, DE 288→293, nextRotation BUILD (1074%5=4→REVIEW). DONE.md updated. BACKLOG.md DE-41→SHIPPED. I18N-PLAN.md DE 288→293, DE-41 SHIPPED.
 Next: iter1074 → REVIEW (1074 % 5 = 4 → REVIEW mode; audit recently shipped DE-41 guides or pick a review slice).
+
+## 2026-08-08T00:40Z · iter1074 · REVIEW · review-1074-de41-meta-trim
+What: Audited all 5 DE-41 guides (beit-shearim-guide, design-museum-holon, belvoir-fortress, caesarea-concerts-events, jesus-trail-israel). Checks: (1) 18 internal /de/* hrefs verified — 0 dead links; (2) all 4 heroImages confirmed present; (3) no fabricated prices (all costs presented as ranges or approximate); (4) no H1 in body content; (5) frontmatter fields complete; (6) meta title/description lengths. Found 7 fixable issues: 4 titles over 60 chars (SERP truncation risk), 2 descriptions over 155 chars, 1 stale Event schema entry. 7 fixes applied in one focused pass. design-museum-holon had no issues.
+Gate: pnpm check 0 errors | build 1653 pages | pnpm test:e2e 10/10 targeted pass.
+Ship: squash-merge 72997f27 on master, pushed to origin/master. Lighthouse CI ✓; full CI e2e in_progress at state-write time (~20-30 min runtime).
+Fixes: beit-shearim-guide title 74→54 chars; belvoir-fortress title 72→50 chars; caesarea-concerts-events title 66→49 chars + desc 165→151 chars + removed stale Lichterfestival event (endDate 2026-03-14 past); jesus-trail-israel title 69→51 chars + desc 162→149 chars.
+Memory: STATE.md iter→1074, nextRotation RESEARCH (1075%5=0).
+Next: iter1075 → RESEARCH (1075 % 5 = 0 → RESEARCH mode).
