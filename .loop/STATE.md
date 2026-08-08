@@ -1,14 +1,16 @@
 # LOOP STATE
 
-- iteration: 1095
-- lastMode: RESEARCH
-- lastItem: research-1095-fr48-de46-es61-batches
-- lastResult: RESEARCH — 225th research pass. EN=398, FR=322, DE=313, ES=299. Defined FR-48/DE-46/ES-61 batches: 5 guides each — all confirmed MISSING from all 3 locales via comm -23. Batch: jerusalem-trail (42km loop; Camino analogy FR/ES; DAV hiking angle DE), nahalat-binyamin-market-tel-aviv (200+ artisans Tue/Fri; Bauhaus architecture DACH), via-ferrata-israel (Ramim Cliff B/C + Ravid C; FR/DACH via ferrata culture; Black Canyon 2026), kerem-hateimanim-tel-aviv (Yemenite Quarter food; Sat morning jachnun/malawach), keshet-cave-guide (natural arch 48m; Nahal Kziv + Montfort; Discovercars must). Cross-links all verified (ES: tel-aviv-things-to-do/western-galilee/tel-aviv-coffee-guide → EN fallbacks noted). New individual items queued: new-luxury-hotels-israel-2026 ES (P2/S), rosh-pina-guide all3 (P2/S), national-library-israel all3 (P2/S), luxury-arava-desert all3 (P2/M). Competitor findings: touristisrael.com + AllTrails/tripadvisor own Jerusalem Trail EN SERP (zero FR/DE/ES editorial), via ferrata covered only by tour operators (adventure-israel.com, israel-extreme.com = EN-only). israel-wine-guide EN item OBSOLETE (israel-wine-wineries.md already in EN/FR/DE/ES). No code shipped (research mode).
+- iteration: 1096
+- lastMode: BUILD
+- lastItem: es-61-batch
+- lastResult: BUILD — ES-61 batch SHIPPED a64f6512. 5 ES guides: jerusalem-trail (Senda de Jerusalén 42km; Camino de Santiago analogy; 4-segment table; INPA-adjacent SPNI; GYG+booking+discovercars CTAs), nahalat-binyamin-market-tel-aviv (Mercado artesanal 200+ artesanos Tue/Fri; Carmel Market combination; civitatis+getyourguide+booking CTAs), via-ferrata-israel (Vía Ferrata Ramim B/C 1.2km + Ravid C 900m; comparison table; age 12+/14+; El Cañón Negro 2026; discovercars+getyourguide CTAs), kerem-hateimanim-tel-aviv (Barrio Yemenita 1904; jachnun/malawach/lachuch/kubbaneh/hilbe/merak; HaKovshim bar scene; getyourguide+booking CTAs), keshet-cave-guide (Cueva Keshet arco 48m; tirolesa 200m; Nahal Kziv Oct–May; Montfort Fortaleza Teutónica 1271 1km downstream; INPA Goren Park valid; zip-line separate fee; getyourguide+discovercars+booking CTAs). LATAM tuteo; all /es/* cross-links pre-verified (3 EN fallbacks: tel-aviv-things-to-do/western-galilee/tel-aviv-coffee-guide); no fabricated prices/ratings; INPA Goren Park valid (zip-line separate fee keshet-cave.co.il); no H1 in body; 10 new e2e tests (5 smoke + 5 a11y) all pass. ES guides: 299→304/398. Build: 1708→1713 pages (+5). Gate: pnpm check 0 errors | build 1713 pages | pnpm test:e2e 10/10 targeted pass. Commit: a64f6512.
 
-- nextRotationCategory: BUILD (iter1096 % 5 = 1 → BUILD; ES-61 batch — ES most behind at 299/398; 5 guides: jerusalem-trail + nahalat-binyamin + via-ferrata + kerem-hateimanim + keshet-cave)
+- nextRotationCategory: BUILD (iter1097 % 5 = 2 → BUILD; FR-48 batch — jerusalem-trail + nahalat-binyamin-market-tel-aviv + via-ferrata-israel + kerem-hateimanim-tel-aviv + keshet-cave-guide, all 5 confirmed MISSING from FR; Status: ready in BACKLOG)
 - higgsfieldSpent: 0
-- updatedAt: 2026-08-08T22:10Z
+- updatedAt: 2026-08-08T23:45Z
 - branch context: work on master; feature work on auto/<slug>
+
+Notes: iter1096 BUILD — es-61-batch SHIPPED a64f6512. 5 ES guides: jerusalem-trail + nahalat-binyamin-market-tel-aviv + via-ferrata-israel + kerem-hateimanim-tel-aviv + keshet-cave-guide. LATAM tuteo; 3 EN fallbacks (tel-aviv-things-to-do/western-galilee/tel-aviv-coffee-guide); INPA Goren Park valid (zip-line separate); no fabricated data; 10 new e2e routes (5 smoke + 5 a11y). ES guides: 299→304/398. Build: 1708→1713 (+5). Gate: check 0 | build 1713 | test:e2e 10/10. Commit: a64f6512.
 
 Notes: iter1095 RESEARCH — research-1095-fr48-de46-es61-batches. 225th research pass. FR=322/398, DE=313/398, ES=299/398. Defined FR-48/DE-46/ES-61 batches (all same 5 guides, all 3 locales): jerusalem-trail + nahalat-binyamin-market-tel-aviv + via-ferrata-israel + kerem-hateimanim-tel-aviv + keshet-cave-guide. All 5 confirmed MISSING from all 3 locales. Key market angles: FR (Camino/via ferrata/Quartier yéménite), DE (DAV wandern/Klettersteig-Heimatmarkt/Bauhaus/Jemenitisch), ES (Camino de Santiago/vía ferrata popular España/tuteo). Cross-links verified; fallbacks noted for 3 ES missing links (tel-aviv-things-to-do/western-galilee/tel-aviv-coffee-guide). 4 new individual BACKLOG items: new-luxury-hotels-2026 ES, rosh-pina all3, national-library all3, luxury-arava all3. No code shipped.
 

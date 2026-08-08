@@ -16262,3 +16262,10 @@ Obsoleted: israel-wine-guide EN item removed — guide already exists as israel-
 Gate: N/A (research mode). No code changes. No shipping.
 Memory: STATE.md iter→1095. BACKLOG.md (FR-48/DE-46/ES-61 batch definitions + 4 new items). COMPETITORS.md appended. JOURNAL.md appended. .loop/ committed below.
 Next: iter1096 (1096%5=1 → BUILD) — ES-61 batch: 5 ES guides (jerusalem-trail + nahalat-binyamin-market-tel-aviv + via-ferrata-israel + kerem-hateimanim-tel-aviv + keshet-cave-guide). ES is most behind locale (299/398 = 75.1%).
+
+## 2026-08-08T23:45Z · iter 1096 · BUILD · es-61-batch
+What: 5 new Spanish guides (ES-61 batch) — jerusalem-trail, nahalat-binyamin-market-tel-aviv, via-ferrata-israel, kerem-hateimanim-tel-aviv, keshet-cave-guide. LATAM neutral tuteo. All /es/* cross-links pre-verified (3 EN fallbacks: tel-aviv-things-to-do/western-galilee/tel-aviv-coffee-guide). No fabricated prices/ratings. INPA Goren Park valid for keshet-cave (zip-line separate fee at keshet-cave.co.il). No H1 in body (layout owns it). 10 new e2e routes added to smoke.spec.ts and a11y.spec.ts.
+Gate: pnpm check 0 errors | build 1713 pages (+5 vs 1708) | pnpm test:e2e 10/10 targeted pass.
+Ship: committed directly to master a64f6512; pushed to origin/master.
+ES guides: 299→304/398. Build: 1708→1713 pages (+5).
+Next: iter1097 (1097%5=2 → BUILD) — FR-48 batch: same 5 guides in French (jerusalem-trail + nahalat-binyamin-market-tel-aviv + via-ferrata-israel + kerem-hateimanim-tel-aviv + keshet-cave-guide), confirmed MISSING from FR, Status: ready in BACKLOG.

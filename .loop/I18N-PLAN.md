@@ -6,21 +6,21 @@
 >
 > One bounded slice per loop iteration. NEVER bulk-translate in one shot.
 
-## Current status snapshot (2026-08-08 iter1091 BUILD — FR-47 SHIPPED 5bb6a80a; next FR BUILD = FR-48 / next DE BUILD = DE-45 / next ES BUILD = ES-60)
+## Current status snapshot (2026-08-08 iter1096 BUILD — ES-61 SHIPPED a64f6512; next FR BUILD = FR-48 / next DE BUILD = DE-46 / next ES BUILD = ES-60)
 
 | Locale | Guides | Attractions | Regions | Itineraries |
 |--------|--------|-------------|---------|-------------|
 | en     | 398    | 65          | 11      | 6           |
 | fr     | 322    | 61          | 11      | 6           |
-| de     | 308    | 61          | 11      | 6           |
-| es     | 299    | 61          | 11      | 6           |
+| de     | 313    | 61          | 11      | 6           |
+| es     | 304    | 61          | 11      | 6           |
 
 **🎉 MILESTONE: ES + FR + DE monthly guides ALL COMPLETE** (iter996+iter997 ES-41+ES-42 SHIPPED — all 12 per-month guides jan-dec now exist in ES, FR, and DE)
 
 **Gaps to close:**
-- es guides: **99 missing** (299/398 done — Phase ES-59 SHIPPED iter1088 6fc532d0; **next ES BUILD = ES-60** — DEFINED iter1090: soreq-cave-guide + negev-incense-route + skyfield-extreme-park-jaffa + tel-aviv-coffee-guide + tabgha-church-guide)
-- fr guides: **76 missing** (322/398 done — Phase FR-47 SHIPPED iter1091 5bb6a80a; **next FR BUILD = FR-48** — to be defined in next RESEARCH pass)
-- de guides: **90 missing** (308/398 done — Phase DE-44 SHIPPED iter1087 ce63a750; **next DE BUILD = DE-45** — DEFINED iter1090: same 5 guides as FR-47)
+- es guides: **94 missing** (304/398 done — Phase ES-61 SHIPPED iter1096 a64f6512; **next ES BUILD = ES-60** — DEFINED iter1090: soreq-cave-guide + negev-incense-route + skyfield-extreme-park-jaffa + tel-aviv-coffee-guide + tabgha-church-guide)
+- fr guides: **76 missing** (322/398 done — Phase FR-47 SHIPPED iter1091 5bb6a80a; **next FR BUILD = FR-48** — DEFINED iter1095: jerusalem-trail + nahalat-binyamin-market-tel-aviv + via-ferrata-israel + kerem-hateimanim-tel-aviv + keshet-cave-guide)
+- de guides: **85 missing** (313/398 done — Phase DE-45 SHIPPED iter1093 ee358815; **next DE BUILD = DE-46** — DEFINED iter1095: same 5 guides as FR-48)
 - fr/de/es attractions: **4 missing each** (the 4 EN attractions added after Phase 4)
 
 ### FR-47 batch definition (iter1090 RESEARCH — ready for next FR BUILD)
