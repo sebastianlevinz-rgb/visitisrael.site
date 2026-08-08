@@ -16050,4 +16050,11 @@ What: 5 German-language guide pages — DE-42 batch (negev-tours-compared + moun
 Gate: pnpm check 0 errors; build 1663 pages (+5 from 1658); link-checker 0 broken links across 1663 pages; pnpm test:e2e 10/10 targeted new DE routes pass (exit code 0).
 Ship: squash-merged auto/de-42-batch → master 0d2e90d4; pushed to origin/master.
 Prod: CI in_progress at push time (PR #54 build-and-test + lighthouse running).
+
+## 2026-08-08T05:43Z · iter1078 · BUILD (i18n-ES) · es-57-batch
+What: 5 Spanish-language guide pages — ES-57 batch (negev-tours-compared + mount-hermon-skiing + south-israel-itinerary + megiddo-jezreel-valley-guide + israel-military-heritage). LATAM neutral tuteo register. LATAM-specific angles: nieve en Israel = sorpresa (hermon), Armagedón Catholic hook + turismo bíblico (megiddo), Guerra de Yom Kipur 1973 ampliamente cubierta en medios LATAM (military-heritage). Bug fixed: squash-merge returned "Already up to date" because files were written to working tree but never committed on the branch → staged and committed directly on master. EN fallbacks for eilat-guide + jezreel-valley-guide + yad-vashem-guide noted in prose (all missing from ES). Cross-links pre-verified against /es/* filesystem. No fabricated prices/ratings. Paired naming on contested/religious sites. No H1 in body. 10 new e2e routes (5 smoke + 5 a11y).
+Gate: pnpm check 0 errors; build 1668 pages (+5 from 1663); pnpm test:e2e 10/10 targeted new ES routes pass (exit code 0).
+Ship: committed directly to master 664d2250; pushed to origin/master.
+Prod: CI in_progress at push time — consistent with prior success pattern.
+Next: iter1079 → REVIEW (1079%5=4 → REVIEW).
 Next: iter1078 → BUILD (1078%5=3 → BUILD; ES-57 batch — same 5 guides in Spanish).

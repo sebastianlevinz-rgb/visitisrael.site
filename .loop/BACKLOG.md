@@ -2300,7 +2300,7 @@ All CONFIRMED MISSING from ES locale. All hero images verified on disk. All cros
 
   5. **israel-military-heritage** — "Museos de patrimonio militar de Israel (guía 2026)". LATAM interés en historia militar israelí (guerra de Yom Kippur, IDF, conflicto árabe-israelí ampliamente cubierto en medios LATAM). Latrun = colección de tanques de la Guerra Fría (T-34/Sherman/Centurion) de alto interés histórico. Museo de la FDI (TLV, gratuito). Museo de la aviación israelí (Hatzerim; reserva previa). yad-vashem-guide MISSING from ES → EN fallback /yad-vashem-guide. heroImage /images/regions/jerusalem/hero.jpg. CTAs: GYG (historia militar Jerusalén) + Discovercars (Latrun + Hatzerim en coche) + Booking Jerusalén. Cross-links: /es/masada-visitor-guide ✓, /es/dead-sea-guide ✓, /es/first-time-in-israel ✓, /es/car-rental-israel ✓ (+ /yad-vashem-guide EN fallback). 7 FAQs.
 
-  Quality notes: LATAM neutral español tuteo (no vosotros); YAML double-quotes; no <span> in YAML; all /es/* cross-links pre-verified above; EN fallbacks for eilat-guide + jezreel-valley-guide + yad-vashem-guide noted; no fabricated prices/ratings; paired naming at contested/religious sites; no H1 in body. Locale targets: ES 284→289/398. Status: ready [iter1075 research]
+  Quality notes: LATAM neutral español tuteo (no vosotros); YAML double-quotes; no <span> in YAML; all /es/* cross-links pre-verified above; EN fallbacks for eilat-guide + jezreel-valley-guide + yad-vashem-guide noted; no fabricated prices/ratings; paired naming at contested/religious sites; no H1 in body. Locale targets: ES 284→289/398. Status: SHIPPED iter1078 664d2250
 
 ---
 
