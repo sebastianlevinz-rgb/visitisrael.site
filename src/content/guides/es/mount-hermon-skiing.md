@@ -1,6 +1,6 @@
 ---
-title: "Monte Hermón: la única estación de esquí de Israel (guía 2026)"
-description: "Esquí en el Monte Hermón en los Altos del Golán: temporada, forfaits, pistas, escuela de esquí, actividades de verano y cómo llegar. La única estación de esquí de Israel."
+title: "Monte Hermón: esquí, pistas y actividades en Israel (2026)"
+description: "Esquí en el Monte Hermón: temporada, forfaits, pistas y escuela de esquí. Actividades de verano y cómo llegar al único centro de esquí de Israel."
 heroImage: /images/regions/golan/hero.jpg
 category: Aventura al aire libre
 verdictName: "una jornada de esquí o teleférico en el Monte Hermón"

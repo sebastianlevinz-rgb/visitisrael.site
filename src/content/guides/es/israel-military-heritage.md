@@ -1,6 +1,6 @@
 ---
 title: "Museos de patrimonio militar de Israel (guía 2026)"
-description: "Yad LaShiryon, Museo de la Fuerza Aérea Hatzerim, Ammunition Hill Jerusalén — los mejores museos militares de Israel con horarios, entradas y consejos de visita."
+description: "Yad LaShiryon, Museo de la Fuerza Aérea Hatzerim y Ammunition Hill — los mejores museos militares de Israel con horarios y consejos."
 heroImage: /images/regions/jerusalem/hero.jpg
 category: Historia
 verdictName: "los museos de patrimonio militar de Israel"
@@ -38,7 +38,7 @@ faqs:
   - question: "¿Es gratuito el Beit HaHaganah (Museo de la Haganá) en Tel Aviv?"
     answer: "Sí. El Beit HaHaganah (Casa de la Haganá) en el barrio de Neve Tzedek de Tel Aviv es de entrada gratuita y documenta la historia de la Haganá desde el período pre-estatal hasta la fundación del Estado en 1948. Comprueba los horarios antes de ir, ya que el museo a veces cierra por eventos especiales."
   - question: "¿Es Yad Vashem un museo militar?"
-    answer: "No. Yad Vashem es el Memorial Nacional del Holocausto de Israel — conceptualmente distinto a un museo militar. Sin embargo, ambas visitas se pueden combinar, ya que Yad Vashem y Ammunition Hill están en Jerusalén. Puedes consultar la guía completa en la versión inglesa: [Yad Vashem Visitor Guide](/yad-vashem-guide) (disponible en inglés hasta que la versión española esté lista)."
+    answer: "No. Yad Vashem es el Memorial Nacional del Holocausto de Israel — conceptualmente distinto a un museo militar. Sin embargo, ambas visitas se pueden combinar, ya que Yad Vashem y Ammunition Hill están en Jerusalén. Puedes consultar la guía completa en la versión inglesa: [Yad Vashem Visitor Guide](/es/yad-vashem-visitor-guide) (disponible en inglés hasta que la versión española esté lista)."
   - question: "¿Qué museo recomiendan para una primera visita?"
     answer: "Para una introducción rápida: Ammunition Hill en Jerusalén (2 horas, bien comunicado, atmósfera muy impactante). Para los aficionados a la historia militar con más tiempo: Yad LaShiryon + Museo de la Fuerza Aérea Hatzerim como excursión de día al Néguev (recuerda la reserva previa). Para los que se interesan en la Segunda Guerra Mundial y el conflicto árabe-israelí: Yad Mordechai en el sur, cerca de la frontera con Gaza."
 ---
@@ -116,7 +116,7 @@ El sitio conserva las posiciones de combate y una exposición sobre el asedio, a
 ## Combinaciones recomendadas
 
 **Día en Jerusalén (patrimonio militar + Yad Vashem):**
-- Ammunition Hill (mañana, 2h) → almuerzo en el barrio de Rehavia → Yad Vashem (tarde, 3h mínimo; consulta la guía en inglés en [/yad-vashem-guide](/yad-vashem-guide))
+- Ammunition Hill (mañana, 2h) → almuerzo en el barrio de Rehavia → Yad Vashem (tarde, 3h mínimo; consulta la guía en inglés en [/es/yad-vashem-visitor-guide](/es/yad-vashem-visitor-guide))
 
 **Excursión de día desde Tel Aviv (Latrun + Yad Mordechai):**
 - Latrun / Yad LaShiryon (mañana) → almuerzo en los alrededores → Yad Mordechai (tarde, 1h 30min)

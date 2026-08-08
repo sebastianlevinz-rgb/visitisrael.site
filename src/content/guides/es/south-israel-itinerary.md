@@ -1,6 +1,6 @@
 ---
-title: "Itinerario sur de Israel: Beer-Sheva, Néguev y Eilat (4–5 días)"
-description: "Ruta en coche por el sur de Israel en 4–5 días: Beer-Sheva, Sde Boker, Avdat, Makhtesh Ramon, Parque de Timna y Eilat en el Mar Rojo. Distancias, calor y pase INPA."
+title: "Sur de Israel: itinerario 4–5 días en coche (2026)"
+description: "Ruta en coche 4–5 días por el sur de Israel: Sde Boker, Avdat, Makhtesh Ramon, Timna y Eilat. Distancias, calor y pase INPA."
 heroImage: /images/regions/negev/hero.jpg
 category: Itinerarios
 updatedAt: 2026-08-08

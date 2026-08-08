@@ -1,6 +1,6 @@
 ---
 title: "Tel Megiddo (Armagedón): guía del sitio UNESCO (2026)"
-description: "Tel Megiddo explicado al detalle: Patrimonio Mundial UNESCO, túnel de agua de Ajab, puerta salomónica y vistas sobre el Valle de Jezreel — con consejos para la visita."
+description: "Tel Megiddo (Armagedón): UNESCO, túnel de agua de Ajab, puerta salomónica y vistas del Valle de Jezreel. Guía completa de visita."
 heroImage: /images/regions/galilee/hero.jpg
 category: Historia
 verdictName: "Tel Megiddo y un circuito por el Valle de Jezreel"
@@ -114,4 +114,4 @@ Tel Megiddo se visita mejor como parte de un día completo en el Valle de Jezree
 - **Desde Haifa**: 35 km, unos 40 minutos por las Rutas 65 y 66. Parking gratuito en el sitio.
 - **Transporte público**: tren a Afula (desde Haifa ~40 min) + taxi (~15 min, ~50–70 ₪). Para más detalles de movilidad, consulta la [guía de parques nacionales de Israel](/es/israel-national-parks-pass) y la [guía de 3 días en Galilea](/es/3-days-in-galilee).
 - **Combinaciones recomendadas**: Beit Alfa + Gan HaShlosha para el día (arriba); [guía de Haifa](/es/haifa-travel-guide) para base; [guía de Beit She'an](/es/beit-shean-guide) para un segundo día arqueológico.
-- **Valle de Jezreel** (guía EN): [jezreel-valley-guide](/jezreel-valley-guide) (disponible en inglés hasta que la versión española esté lista).
+- **Tel Megiddo** (guía EN): [megiddo-jezreel-valley-guide](/megiddo-jezreel-valley-guide) (disponible en inglés hasta que la versión española esté lista).

@@ -1,5 +1,5 @@
 ---
-title: "Tours por el Néguev comparados: Makhtesh Ramon, Beduinos y Nabateos (2026)"
+title: "Tours por el Néguev comparados: jeep, beduinos y bici (2026)"
 description: "Tours por el Néguev: jeep en el Makhtesh Ramon, circuito nabateo, noche beduina, bicicleta y guía privado. Comparativa honesta de los 5 mejores formatos."
 heroImage: /images/regions/negev/mitzpe-ramon.jpg
 category: Tours
