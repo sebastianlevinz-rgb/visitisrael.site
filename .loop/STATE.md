@@ -1,14 +1,16 @@
 # LOOP STATE
 
-- iteration: 1091
-- lastMode: BUILD
-- lastItem: fr-47-batch
-- lastResult: BUILD — FR-47 batch SHIPPED 5bb6a80a. 5 FR guides: soreq-cave-guide (Grotte d'Avshalom; INPA valide; 22°C toute l'année; combinaison Beit Guvrin; discovercars+viator+getyourguide), negev-incense-route (4 villes nabatéennes UNESCO: Avdat/Mamshit/Haluza/Shivta; circuit self-drive 2j; voiture indispensable; getyourguide+discovercars), skyfield-extreme-park-jaffa (Stade Bloomfield Jaffa 2026; via ferrata 5 parcours + élastique 35m + balançoire; premier parc extrême accessible; getyourguide+viator+booking), tel-aviv-coffee-guide (3e vague spécialité + culture botz; Florentin/Neve Tzedek/Carmel/Rothschild/Dizengoff; getyourguide+booking), tabgha-church-guide (Multiplication mosaïque 5e s. + Primat de Pierre basalte volcanique; rive nord Galilée; getyourguide+viator+booking). Metropolitan French. All /fr/* cross-links pre-verified 17/17. 10 new e2e routes (5 smoke + 5 a11y). FR guides: 317→322/398. Build: 1698→1703 pages (+5). Gate: pnpm check 0 errors | build 1703 pages | pnpm test:e2e 14/14 targeted pass.
+- iteration: 1092
+- lastMode: REVIEW
+- lastItem: review-1092-fr47-meta-trim
+- lastResult: REVIEW — review-1092-fr47-meta-trim SHIPPED 8d3d49f5. Audited 5 FR-47 guides. 9 meta fixes: 5 titles trimmed (<=54 chars; were 60-67 chars), 4 descriptions trimmed (<=151 chars; were 154-183 chars; tabgha desc already OK). 17/17 internal links valid, no broken /fr/* refs, no H1 in body, no fabricated ratings/prices. Gate: pnpm check 0 errors | build 1703 pages | pnpm test:e2e 10/10 targeted pass. CI Lighthouse in_progress at state-write.
 
-- nextRotationCategory: REVIEW (iter1092 % 5 = 2 → REVIEW; audit FR-47 guides meta)
+- nextRotationCategory: BUILD (iter1093 % 5 = 3 → BUILD; next = DE-45: soreq-cave-guide + negev-incense-route + skyfield-extreme-park-jaffa + tel-aviv-coffee-guide + tabgha-church-guide in DE — fully defined iter1090)
 - higgsfieldSpent: 0
-- updatedAt: 2026-08-08T18:41Z
+- updatedAt: 2026-08-08T19:45Z
 - branch context: work on master; feature work on auto/<slug>
+
+Notes: iter1092 REVIEW — review-1092-fr47-meta-trim SHIPPED 8d3d49f5. Audited 5 FR-47 guides. 9 meta fixes: 5 titles trimmed to <=54 chars, 4 descriptions trimmed to <=151 chars. 17/17 internal links valid, no broken /fr/* refs, no H1 in body, no fabricated prices. Gate: pnpm check 0 errors | build 1703 pages | pnpm test:e2e 10/10 targeted pass. Commit: 8d3d49f5.
 
 Notes: iter1091 BUILD — FR-47 batch SHIPPED 5bb6a80a. 5 FR guides: soreq-cave-guide + negev-incense-route + skyfield-extreme-park-jaffa + tel-aviv-coffee-guide + tabgha-church-guide. Metropolitan French; all /fr/* cross-links pre-verified; no fabricated prices/ratings; no H1 in body; 10 new e2e tests (5 smoke + 5 a11y) all pass. FR guides: 317→322/398. Build: 1698→1703 pages (+5). Gate: pnpm check 0 errors | build 1703 pages | pnpm test:e2e 14/14 targeted pass. Commit: 5bb6a80a.
 

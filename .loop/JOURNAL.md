@@ -16223,3 +16223,16 @@ Paired naming on Tabgha (non-contested but religious). No H1 in body. 10 new e2e
 Gate: pnpm check 0 errors | build 1703 pages | pnpm test:e2e 14/14 targeted pass (13.3s).
 Squash-merge to master 5bb6a80a; pushed to origin/master.
 Vercel: no GitHub status integration (consistent with all prior iterations); commit confirmed.
+
+## 2026-08-08T19:45Z · iter 1092 · REVIEW · review-1092-fr47-meta-trim
+What: Audited the 5 FR-47 guides shipped in iter1091 (soreq-cave-guide, negev-incense-route,
+skyfield-extreme-park-jaffa, tel-aviv-coffee-guide, tabgha-church-guide) for SEO meta compliance.
+Fixes applied (9 total):
+- 5 titles trimmed to ≤54 chars (soreq 60→40, negev-incense 65→48, skyfield 62→47, coffee 67→49, tabgha 67→53)
+- 4 descriptions trimmed to ≤151 chars (soreq 160→150, negev-incense 154→148, skyfield 175→147, coffee 183→145)
+- tabgha desc was 166 chars → trimmed to 141 chars
+Additional checks: 17/17 internal /fr/* links valid; no H1 in body (all 5); no ratingValue/aggregateRating in frontmatter.
+Gate: pnpm check 0 errors | build 1703 pages | pnpm test:e2e 10/10 targeted (5 smoke + 5 a11y) pass.
+Commit: 8d3d49f5 on master; pushed to origin/master.
+CI: Lighthouse in_progress at state-write.
+Next: iter1093 BUILD — DE-45 batch (soreq-cave-guide + negev-incense-route + skyfield-extreme-park-jaffa + tel-aviv-coffee-guide + tabgha-church-guide in DE; batch defined iter1090).
