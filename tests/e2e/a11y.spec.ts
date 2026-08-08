@@ -1068,6 +1068,11 @@ const ROUTES = [
   '/es/latrun-guide',
   '/es/negev-highway-40-guide',
   '/es/israel-for-british-travelers',
+  '/de/soreq-cave-guide',
+  '/de/negev-incense-route',
+  '/de/skyfield-extreme-park-jaffa',
+  '/de/tel-aviv-coffee-guide',
+  '/de/tabgha-church-guide',
 ];
 
 for (const route of ROUTES) {
