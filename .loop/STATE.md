@@ -1,13 +1,15 @@
 # LOOP STATE
 
-- iteration: 1076
+- iteration: 1077
 - lastMode: BUILD
-- lastItem: fr-44-batch
-- lastResult: BUILD — FR-44 batch SHIPPED 33cceaf5. 5 FR guides: negev-tours-compared, mount-hermon-skiing, south-israel-itinerary, megiddo-jezreel-valley-guide, israel-military-heritage. FR guides: 302→307/398. Build: 1653→1658 pages (+5). Gate: pnpm check 0 errors | build 1658 pages | pnpm test:e2e 2429/2429 pass. Commit: 33cceaf5.
-- nextRotationCategory: BUILD (iter1077 % 5 = 2 → BUILD; DE-42 batch is top priority)
+- lastItem: de-42-batch
+- lastResult: BUILD — DE-42 batch SHIPPED 0d2e90d4. 5 DE guides: negev-tours-compared, mount-hermon-skiing, south-israel-itinerary, megiddo-jezreel-valley-guide, israel-military-heritage. DE guides: 293→298/398. Build: 1658→1663 pages (+5). Gate: pnpm check 0 errors | build 1663 pages | link-checker 0 broken | pnpm test:e2e 10/10 new DE routes pass. Commit: 0d2e90d4.
+- nextRotationCategory: BUILD (iter1078 % 5 = 3 → BUILD; ES-57 batch next)
 - higgsfieldSpent: 0
-- updatedAt: 2026-08-08T06:00Z
+- updatedAt: 2026-08-08T04:30Z
 - branch context: work on master; feature work on auto/<slug>
+
+Notes: iter1077 BUILD — DE-42 batch SHIPPED 0d2e90d4. 5 DE guides: negev-tours-compared (Negev-Touren Vergleich 5 Formate Jeep/Makhtesh-Mehrtageskreis/Beduinen-Übernachtung/Fahrrad/Privatführung; verdictName+verdictQuery; DACH outdoor gap; CTAs getyourguide+viator), mount-hermon-skiing (DACH #1 Skimarkt-Winkel; 25 km Pisten 10 Lifte Jan–März; Onlinereservierung pflicht; Sommeraktivitäten; quick-reference-Tabelle; CTAs getyourguide+discovercars+booking), south-israel-itinerary (4–5 Tage Mietwagen-Roadtrip Beer-Sheva→Eilat; INPA-Pass Abdeckung+Ausnahmen Timna; Petra-Verlängerung; CTAs discovercars+getyourguide+booking+viator; eilat-guide → /de/eilat-travel-guide fix), megiddo-jezreel-valley-guide (Land-der-Bibel-Magazin Zielgruppe; 26 Zivilisationsschichten; INPA-Pass gültig; Jesreel-Tal-Rundkurs-Tabelle; verdictName+verdictQuery; CTAs getyourguide+viator+booking), israel-military-heritage (Yom-Kippur-Krieg 1973 DACH-Winkel; Latrun 110+ Panzer; IAF Hatzerim Voranmeldung; Ammunition Hill; Beit HaHaganah kostenlos; yad-vashem-guide → /de/yad-vashem-visitor-guide fix; CTAs getyourguide+discovercars+booking). Standard Hochdeutsch; YAML-ASCII-Anführungszeichen-Bug behoben („Mörser" → ‚Mörser'); all /de/* cross-links verified; eilat+yad-vashem EN-Fallbacks auf vorhandene DE-Seiten korrigiert. 10 neue e2e-Routen (5 smoke + 5 a11y). DE guides: 293→298/398. Build: 1658→1663 pages (+5). Gate: pnpm check 0 errors | build 1663 pages | link-checker 0 broken | pnpm test:e2e 10/10 targeted pass. Squash-merge to master 0d2e90d4; pushed to origin/master.
 
 Notes: iter1076 BUILD — FR-44 batch SHIPPED 33cceaf5. 5 FR guides: negev-tours-compared (comparatif 6 formats circuits désert; comparaison table jeep/quad/chameleon/rando/bedouin/autonome), mount-hermon-skiing (guide complet station Hermon Golan; quick-reference table; obligatoire réserver en ligne; activités estivales), south-israel-itinerary (road trip 4–5j Beer-Sheva→Néguev→Eilat; EN fallback sde-boker-ein-avdat-guide), megiddo-jezreel-valley-guide (UNESCO Tel Megiddo 26 strates Armageddon; circuit Jezreel; EN fallback beit-alfa-guide), israel-military-heritage (Latrun gratuit, Palmach Museum réserver 90min, IAF Hatzerim pré-inscription, Colline des Munitions, Yad Mordechai; EN fallback zionist-heritage-trail). Metropolitan French; all /fr/* cross-links pre-verified; no fabricated prices/ratings; paired naming. 10 new e2e routes (5 smoke + 5 a11y). FR guides: 302→307/398. Build: 1653→1658 pages (+5). Gate: pnpm check 0 errors | build 1658 pages | pnpm test:e2e 2429/2429 pass. Squash-merge to master 33cceaf5; pushed to origin/master.
 

@@ -6,13 +6,13 @@
 >
 > One bounded slice per loop iteration. NEVER bulk-translate in one shot.
 
-## Current status snapshot (2026-08-08 iter1076 BUILD — FR-44 SHIPPED 33cceaf5; DE-41 SHIPPED 59b4fa20; ES-56 SHIPPED 6f34e2e0; next FR BUILD = FR-45 not yet defined / next DE BUILD = DE-42 not yet defined / next ES BUILD = ES-57 not yet defined)
+## Current status snapshot (2026-08-08 iter1077 BUILD — FR-44 SHIPPED 33cceaf5; DE-42 SHIPPED 0d2e90d4; ES-56 SHIPPED 6f34e2e0; next FR BUILD = FR-45 not yet defined / next DE BUILD = DE-43 not yet defined / next ES BUILD = ES-57 READY)
 
 | Locale | Guides | Attractions | Regions | Itineraries |
 |--------|--------|-------------|---------|-------------|
 | en     | 398    | 65          | 11      | 6           |
 | fr     | 307    | 61          | 11      | 6           |
-| de     | 293    | 61          | 11      | 6           |
+| de     | 298    | 61          | 11      | 6           |
 | es     | 284    | 61          | 11      | 6           |
 
 **🎉 MILESTONE: ES + FR + DE monthly guides ALL COMPLETE** (iter996+iter997 ES-41+ES-42 SHIPPED — all 12 per-month guides jan-dec now exist in ES, FR, and DE)
@@ -20,7 +20,7 @@
 **Gaps to close:**
 - es guides: **114 missing** (284/398 done — Phase ES-56 SHIPPED iter1071 6f34e2e0: beit-shearim-guide + belvoir-fortress + caesarea-concerts-events + israel-for-seniors + jesus-trail-israel; **next ES BUILD = ES-57** — not yet defined)
 - fr guides: **91 missing** (307/398 done — Phase FR-44 SHIPPED iter1076 33cceaf5: negev-tours-compared + mount-hermon-skiing + south-israel-itinerary + megiddo-jezreel-valley-guide + israel-military-heritage; **next FR BUILD = FR-45** — not yet defined)
-- de guides: **105 missing** (293/398 done — Phase DE-41 SHIPPED iter1073 59b4fa20: beit-shearim-guide + design-museum-holon + belvoir-fortress + caesarea-concerts-events + jesus-trail-israel; **next DE BUILD = DE-42** — not yet defined)
+- de guides: **100 missing** (298/398 done — Phase DE-42 SHIPPED iter1077 0d2e90d4: negev-tours-compared + mount-hermon-skiing + south-israel-itinerary + megiddo-jezreel-valley-guide + israel-military-heritage; **next DE BUILD = DE-43** — not yet defined)
 - fr/de/es attractions: **4 missing each** (the 4 EN attractions added after Phase 4)
 
 **Dead Sea cluster status (iter855 audit):**

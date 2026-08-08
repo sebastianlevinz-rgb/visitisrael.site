@@ -2270,7 +2270,7 @@ FR guides: 302→307/398. Build: 1653→1658 pages (+5). Gate: pnpm check 0 erro
 
   Quality notes: Metropolitan French; YAML double-quotes; no <span> in YAML; all /fr/* cross-links pre-verified above; EN fallbacks for eilat-guide + jezreel-valley-guide + yad-vashem-guide noted; no fabricated prices/ratings; paired naming at contested/religious sites; no H1 in body. Locale targets: FR 302→307/398. Status: ready [iter1075 research]
 
-### DE-42 batch — READY [iter1075 research · 2026-08-08]
+### DE-42 batch — SHIPPED iter1077 · 0d2e90d4 · 2026-08-08
 **5 DE guides: negev-tours-compared + mount-hermon-skiing + south-israel-itinerary + megiddo-jezreel-valley-guide + israel-military-heritage**
 All CONFIRMED MISSING from DE locale. All hero images verified on disk. All cross-links pre-verified (EN fallbacks noted). Zero DE editorial competition found for all 5 targets.
 
@@ -2284,7 +2284,7 @@ All CONFIRMED MISSING from DE locale. All hero images verified on disk. All cros
 
   5. **israel-military-heritage** — "Militärhistorische Museen in Israel (Reiseführer 2026)". DACH angle: Yom-Kippur-Krieg 1973 = gut bekanntes Kapitel DACH-Kriegsgeschichte; Yad LaShiryon (Latrun) = 110+ Panzer inkl. T-34/Sherman/Centurion = faszinierender Panzerzoo für DACH-Militärhistoriker; Luftwaffenmuseum Hatzerim (Voranmeldung!); IDF-Geschichtsmuseum TLV (kostenlos). yad-vashem-guide MISSING from DE → EN fallback /yad-vashem-guide. heroImage /images/regions/jerusalem/hero.jpg. CTAs: GYG (Militärgeschichte Jerusalem + Führung) + Discovercars (Latrun + Hatzerim per PKW) + Booking Jerusalem. Cross-links: /de/masada-visitor-guide ✓, /de/dead-sea-guide ✓, /de/first-time-in-israel ✓, /de/car-rental-israel ✓ (+ /yad-vashem-guide EN fallback). 7 FAQs.
 
-  Quality notes: Standard Hochdeutsch; YAML double-quotes; no <span> in YAML; all /de/* cross-links pre-verified above; EN fallbacks for eilat-guide + jezreel-valley-guide + yad-vashem-guide noted; no fabricated prices/ratings; paired naming at contested/religious sites; no H1 in body. Locale targets: DE 293→298/398. Status: ready [iter1075 research]
+  Quality notes: Standard Hochdeutsch; YAML double-quotes; no <span> in YAML; all /de/* cross-links pre-verified above; EN fallbacks corrected to /de/eilat-travel-guide + /de/yad-vashem-visitor-guide (both exist); no fabricated prices/ratings; paired naming at contested/religious sites; no H1 in body. Locale targets: DE 293→298/398. Status: SHIPPED iter1077 0d2e90d4
 
 ### ES-57 batch — READY [iter1075 research · 2026-08-08]
 **5 ES guides: negev-tours-compared + mount-hermon-skiing + south-israel-itinerary + megiddo-jezreel-valley-guide + israel-military-heritage**

@@ -16044,3 +16044,10 @@ Gate: pnpm check 0 errors; build 1658 pages (+5 from 1653); pnpm test:e2e 2429/2
 Ship: squash-merged auto/fr-44 → master 33cceaf5; pushed to origin/master.
 Prod: CI in_progress at push time — consistent with prior success pattern.
 Next: iter1077 → BUILD (1077%5=2 → BUILD; DE-42 batch — same 5 guides in German).
+
+## 2026-08-08T04:30Z · iter1077 · BUILD (i18n-DE) · de-42-batch
+What: 5 German-language guide pages — DE-42 batch (negev-tours-compared + mount-hermon-skiing + south-israel-itinerary + megiddo-jezreel-valley-guide + israel-military-heritage). Standard Hochdeutsch register. DACH-specific angles: Yom-Kippur-Krieg 1973 awareness (military-heritage), Europe's #1 ski market (hermon), Land-der-Bibel-Magazin audience (megiddo), DACH Rundreisen preference (south-israel). Bug fixed: ASCII `"` inside YAML double-quoted scalar caused js-yaml parsing failure (FAQ answer „Mörser" → replaced with ‚Mörser' using single curly quotes). EN fallbacks corrected: /eilat-guide → /de/eilat-travel-guide; /yad-vashem-guide → /de/yad-vashem-visitor-guide (both DE pages confirmed exist). Cross-links pre-verified. No fabricated prices/ratings. Paired naming on contested/religious sites. No H1 in body. 10 new e2e routes (5 smoke + 5 a11y).
+Gate: pnpm check 0 errors; build 1663 pages (+5 from 1658); link-checker 0 broken links across 1663 pages; pnpm test:e2e 10/10 targeted new DE routes pass (exit code 0).
+Ship: squash-merged auto/de-42-batch → master 0d2e90d4; pushed to origin/master.
+Prod: CI in_progress at push time (PR #54 build-and-test + lighthouse running).
+Next: iter1078 → BUILD (1078%5=3 → BUILD; ES-57 batch — same 5 guides in Spanish).
