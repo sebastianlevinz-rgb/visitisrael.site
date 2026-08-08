@@ -16106,3 +16106,12 @@ Ship: squash-merge on master 61365c5c; pushed to origin/master. Feature branch a
 Prod: CI in_progress at push time — consistent with prior success pattern.
 Memory: STATE.md iter→1083, lastMode BUILD, ES 289→294/398, nextRotation REVIEW (1084%5=4 → REVIEW).
 Next: iter1084 → REVIEW (1084%5=4 → REVIEW mode; audit ES-58 guides meta/links).
+
+## 2026-08-08T12:20Z · iter1084 · REVIEW · review-1084-es58-meta-trim
+What: Audited all 5 ES-58 guides (tel-aviv-pride-guide, mount-tabor-guide, wadi-qelt-monastery-guide, schottenstein-campus-jerusalem, valley-of-tears-golan). Checks: (1) 18 internal cross-links all resolve on disk — 0 dead; (2) heroImages all present in public/; (3) no H1 in body; (4) no fabricated prices/ratings — honesty intact; (5) paired naming at contested sites intact; (6) title/description lengths within SEO targets. Found 5 meta overruns: tel-aviv-pride desc 170c→131c; wadi-qelt desc 159c→134c; schottenstein desc 172c→143c; valley-of-tears title 74c→55c + desc 159c→143c.
+Fix: 4-file meta trim on branch auto/review-1084-es58-meta-trim → squash-merged to master 28227223.
+Gate: pnpm check 0 errors | build 1683 pages | pnpm test:e2e 2479/2479 pass (20.5m, exit code 0).
+Ship: squash-merge on master 28227223; pushed to origin/master. Feature branch deleted.
+Prod: CI in_progress at push time (Lighthouse ✓ pending).
+Memory: STATE.md iter→1084, lastMode REVIEW, nextRotation RESEARCH (1085%5=0 → RESEARCH).
+Next: iter1085 → RESEARCH (research pass — discover/prioritize new backlog items).
