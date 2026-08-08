@@ -1318,6 +1318,11 @@ const ROUTES = [
   '/es/south-israel-itinerary',
   '/es/megiddo-jezreel-valley-guide',
   '/es/israel-military-heritage',
+  '/es/tel-aviv-pride-guide',
+  '/es/mount-tabor-guide',
+  '/es/wadi-qelt-monastery-guide',
+  '/es/schottenstein-campus-jerusalem',
+  '/es/valley-of-tears-golan',
 ];
 
 for (const route of ROUTES) {
