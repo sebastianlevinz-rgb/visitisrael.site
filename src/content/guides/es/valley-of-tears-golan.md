@@ -1,6 +1,6 @@
 ---
-title: "Valle de las Lágrimas: Memorial de la Guerra de Yom Kipur y Guía del Golán"
-description: "Visita Emek HaBacha (Valle de las Lágrimas) — donde carros israelíes detuvieron a 1.500 tanques sirios en 1973. Museo de tanques, Monte Bental y guía práctica."
+title: "Valle de las Lágrimas, Golán: Batalla de Yom Kipur 1973"
+description: "Emek HaBacha (Valle de las Lágrimas), Golán — 177 carros israelíes vs. 1.500 tanques sirios, Yom Kipur 1973. Museo, Monte Bental y cómo llegar."
 heroImage: "/images/regions/golan/mount-bental.jpg"
 category: "golan"
 updatedAt: 2026-07-14

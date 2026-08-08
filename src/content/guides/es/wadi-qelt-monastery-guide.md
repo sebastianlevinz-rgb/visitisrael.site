@@ -1,6 +1,6 @@
 ---
 title: "Wadi Qelt y Monasterio San Jorge: Guía Completa"
-description: "Visita el Wadi Qelt y el monasterio San Jorge en el desierto de Judea — senderismo, horarios, código de vestimenta, excursión a Jericó y consejos de seguridad."
+description: "Wadi Qelt y monasterio San Jorge en el desierto de Judea — senderismo, horarios, código de vestimenta, excursión a Jericó y seguridad."
 heroImage: /images/regions/negev/desert.jpg
 category: Hiking
 updatedAt: 2026-07-19

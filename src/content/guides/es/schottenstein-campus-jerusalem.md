@@ -1,6 +1,6 @@
 ---
 title: "Campus Schottenstein de Jerusalén: Guía del Visitante"
-description: "El Campus Nacional Schottenstein de Jerusalén: colección arqueológica de la AAI, fragmentos de manuscritos del Mar Muerto, arquitectura Safdie. Entradas, horarios y acceso."
+description: "Campus Nacional Schottenstein, Jerusalén: arqueología de la AAI, manuscritos del Mar Muerto inéditos, arquitectura Safdie. Entradas y horarios."
 heroImage: /images/sub-destinations/jerusalem/israel-museum.jpg
 category: Destinations
 updatedAt: 2026-07-18

@@ -1,6 +1,6 @@
 ---
 title: 'Tel Aviv Pride: Fechas, Recorrido y Guía de Viaje LGBTQ+'
-description: "Tel Aviv Pride 2027 — fechas, recorrido del desfile, alojamiento, playa de Hilton Beach, fiestas circuit y consejos prácticos para el mayor evento Pride de Oriente Medio."
+description: "Tel Aviv Pride 2027 — fechas, recorrido, alojamiento, Hilton Beach y fiestas circuit. Guía del mayor evento Pride de Oriente Medio."
 heroImage: /images/regions/tel-aviv/beaches.jpg
 category: Events
 updatedAt: 2026-07-17
