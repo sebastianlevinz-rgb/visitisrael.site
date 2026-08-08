@@ -16166,3 +16166,10 @@ Gate: pnpm check 0 errors | build 1693 pages (+5 from 1688) | pnpm test:e2e 10/1
 Ship: squash-merge commit ce63a750 pushed to master origin.
 Prod: Vercel deploy pending/unconfirmed (commit status API not accessible from cloud env; consistent with prior iterations).
 Next: iter1088 → BUILD (1088%5=3 → BUILD; ES-59 batch — 5 ES guides: israel-rainy-day-activities + sde-boker-ein-avdat-guide + latrun-guide + negev-highway-40-guide + israel-for-british-travelers).
+
+## 2026-08-08 · iter 1088 · BUILD (i18n-ES) · es-59-batch
+What: 5 Spanish (LATAM tuteo) guides shipped: israel-rainy-day-activities, sde-boker-ein-avdat-guide, latrun-guide, negev-highway-40-guide, israel-for-british-travelers.
+LATAM angles: rainy-day="qué hacer cuando llueve" (Israel Museum+Yad Vashem+clases cocina+spa Mar Muerto); sde-boker=Ben-Gurión figura reconocida en LATAM + canyon Ein Avdat; latrun=excursión familiar 3-en-1 (tanques+monasterio+Mini Israel); negev-highway-40=paralelo Ruta 40 Argentina explícito; israel-for-british-travelers=LATAM-UK crossover (comunidades británicas en Argentina/Chile/México).
+Gate: pnpm check 0 errors | build 1693→1698 pages (+5) | pnpm test:e2e 10/10 targeted pass.
+Ship: squash-merge to master 6fc532d0; pushed to origin/master. CI in_progress at state-write.
+Next: REVIEW pass (iter1089 % 5 = 4 → REVIEW; audit recent ES batch for meta/link quality).

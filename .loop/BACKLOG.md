@@ -28,7 +28,7 @@ Guides: `israel-rainy-day-activities.md`, `sde-boker-ein-avdat-guide.md`, `latru
 All 5 confirmed MISSING from ES via comm -23 (2026-08-08).
 Key LATAM angles per guide: rainy-day = "qué hacer en Israel cuando llueve" (tuteo; museo de Israel + Yad Vashem + clases cocina; zero LATAM editorial); sde-boker = Ben-Gurion figura histórica muy reconocida en LATAM (su decisión de vivir en el desierto es muy citada); latrun = Museo de Tanques + Monasterio Trapense + Mini Israel (excursión familiar 3-en-1); negev-highway-40 = Ruta 40 en Israel — resonates with LATAM road-trippers (Ruta 40 = iconic Argentine road; use the parallel deliberately); israel-for-british-travelers = large British community in Argentina/Chile/Mexico; LATAM-UK crossover travelers.
 Cross-link notes: national-parks-pass-calculator → EN fallback; israeli-passport-stamp → EN fallback. All other /es/* hrefs exist.
-Status: ready [iter1085 research]
+Status: SHIPPED iter1088 6fc532d0
 
 ### Individual items queued for FR-47/DE-45/ES-60 (to be defined in next RESEARCH pass):
 - soreq-cave-guide i18n (P2/S, seo-content) — Israel's most-visited family limestone cave; INPA pass valid; day-trips-from-jerusalem + israel-with-kids ✓ all 3 locales; zero FR/DE/ES editorial; "Grotte stalactites Israël" / "Stalaktitenhöhle Israel" / "Cueva de Soreq Israel" unclaimed SERPs.

@@ -6,21 +6,21 @@
 >
 > One bounded slice per loop iteration. NEVER bulk-translate in one shot.
 
-## Current status snapshot (2026-08-08 iter1086 BUILD — FR-46 SHIPPED c719dc6d; next FR BUILD = FR-47 TBD / next DE BUILD = DE-44 ready / next ES BUILD = ES-59 ready)
+## Current status snapshot (2026-08-08 iter1088 BUILD — ES-59 SHIPPED 6fc532d0; next ES BUILD = ES-60 TBD / next FR BUILD = FR-47 TBD / next DE BUILD = DE-45 TBD; next mode = REVIEW iter1089)
 
 | Locale | Guides | Attractions | Regions | Itineraries |
 |--------|--------|-------------|---------|-------------|
 | en     | 398    | 65          | 11      | 6           |
 | fr     | 317    | 61          | 11      | 6           |
 | de     | 303    | 61          | 11      | 6           |
-| es     | 294    | 61          | 11      | 6           |
+| es     | 299    | 61          | 11      | 6           |
 
 **🎉 MILESTONE: ES + FR + DE monthly guides ALL COMPLETE** (iter996+iter997 ES-41+ES-42 SHIPPED — all 12 per-month guides jan-dec now exist in ES, FR, and DE)
 
 **Gaps to close:**
-- es guides: **104 missing** (294/398 done — Phase ES-58 SHIPPED iter1083 61365c5c; **next ES BUILD = ES-59** — DEFINED iter1085: israel-rainy-day-activities + sde-boker-ein-avdat-guide + latrun-guide + negev-highway-40-guide + israel-for-british-travelers → ES 294→299/398)
+- es guides: **99 missing** (299/398 done — Phase ES-59 SHIPPED iter1088 6fc532d0; **next ES BUILD = ES-60** — TBD, define in next RESEARCH pass)
 - fr guides: **81 missing** (317/398 done — Phase FR-46 SHIPPED iter1086 c719dc6d; **next FR BUILD = FR-47** — TBD, define in next RESEARCH pass)
-- de guides: **95 missing** (303/398 done — Phase DE-43 SHIPPED iter1082 a39ae874; **next DE BUILD = DE-44** — DEFINED iter1085: same 5 guides → DE 303→308/398)
+- de guides: **90 missing** (308/398 done — Phase DE-44 SHIPPED iter1087 ce63a750; **next DE BUILD = DE-45** — TBD, define in next RESEARCH pass)
 - fr/de/es attractions: **4 missing each** (the 4 EN attractions added after Phase 4)
 
 **Dead Sea cluster status (iter855 audit):**
