@@ -1028,6 +1028,11 @@ const ROUTES = [
   '/de/south-israel-itinerary',
   '/de/megiddo-jezreel-valley-guide',
   '/de/israel-military-heritage',
+  '/es/negev-tours-compared',
+  '/es/mount-hermon-skiing',
+  '/es/south-israel-itinerary',
+  '/es/megiddo-jezreel-valley-guide',
+  '/es/israel-military-heritage',
 ];
 
 for (const route of ROUTES) {
