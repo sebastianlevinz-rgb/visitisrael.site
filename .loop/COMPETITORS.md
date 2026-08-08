@@ -8273,3 +8273,30 @@ Israel's wine industry growing rapidly (Golan Heights Winery, Galil Mountain Win
 
 ### Rosh Hanikra cable car status (2026):
 Confirmed operational/restored. 400m carved grotto route + evening illuminations. ynetnews + itinerary.expert + jfeed all confirm. Existing rosh-hanikra-guide in all 4 locales — freshness check queued as P3/S REVIEW item.
+
+### 2026-08-08 · iter 1095 · 225th research pass — FR-48/DE-46/ES-61 batch discovery
+Sources: alltrails.com, tripadvisor.com, touristisrael.com, israel-in-photos.com, adventure-israel.com, israel-extreme.com, travelandtourworld.com, travelmarketreport.com, travelpulse.com, touristisrael.com/maccabiah-games, tourteller.com.
+
+**Jerusalem Trail (Shvil Yerushalayim)**
+- AllTrails ranks #1 for "Jerusalem hiking" (492 routes indexed); tripadvisor.com "5 best Jerusalem hiking trails" ranks #2
+- Zero FR/DE/ES editorial competitor found — complete SERP whitespace
+- Hike-israel.com (EN-only) has segment descriptions; outdooractive.com (multi-language) has GPX data but no visitor guide depth
+- Opportunity: editorial guide with segment breakdown + practical logistics fills a gap that data aggregators don't cover
+
+**Via Ferrata Israel**
+- israel-extreme.com covers all 3 sites (Ramim Cliff, Ravid, Black Canyon) — EN-only operator site; booking-focused
+- adventure-israel.com has a dedicated Via Ferrata in Israel page — EN-only, tour-operator
+- Israel Extreme (israelextreme.tours) runs Via Ferrata Ravid — EN-only booking page
+- Zero DACH/FR/ES editorial guide: "Klettersteig Israel" / "via ferrata Israël" / "vía ferrata Israel" = zero SERP competition
+- The Black Canyon (Ashdot Extreme) confirmed open summer 2026 as Israel's most-exciting rappelling route
+
+**Nahalat Binyamin Market**
+- touristisrael.com ranks for "Nachalat Binyamin market" — full editorial EN page
+- israel-in-photos.com has visitor guide — EN only
+- Bein Harim EN page; frommers.com listing only; arrivalguides.com EN stub
+- Zero FR/DE/ES editorial — "marché Nahalat Binyamin" / "Nahalat Binyamin Markt" returns zero editorial results
+
+**New 2026 hotel openings (luxury segment)**
+- The Yacht on the Herzliya (325 rooms, 2 pools, spa; Fattal Hotels; opened June 2026) — our guides need this added to new-luxury-hotels-israel-2026.md (update + ES i18n)
+- Kassland Resort & Spa (220 rooms; Ma'ale Adumim near Jerusalem; May 2026) — already documented in our guides; HUMAN REVIEW flag unchanged
+- Fattal Hotels planning 8 new hotels nationwide (1,000+ rooms) — ongoing development to track
