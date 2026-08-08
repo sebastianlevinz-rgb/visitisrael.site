@@ -6,21 +6,21 @@
 >
 > One bounded slice per loop iteration. NEVER bulk-translate in one shot.
 
-## Current status snapshot (2026-08-08 iter1081 BUILD — FR-45 SHIPPED bdff652c; next FR BUILD = FR-46 not yet defined / next DE BUILD = DE-43 not yet defined / next ES BUILD = ES-58 not yet defined)
+## Current status snapshot (2026-08-08 iter1083 BUILD — ES-58 SHIPPED 61365c5c; next FR BUILD = FR-46 not yet defined / next DE BUILD = DE-43 not yet defined / next ES BUILD = ES-59 not yet defined)
 
 | Locale | Guides | Attractions | Regions | Itineraries |
 |--------|--------|-------------|---------|-------------|
 | en     | 398    | 65          | 11      | 6           |
 | fr     | 312    | 61          | 11      | 6           |
-| de     | 298    | 61          | 11      | 6           |
-| es     | 289    | 61          | 11      | 6           |
+| de     | 303    | 61          | 11      | 6           |
+| es     | 294    | 61          | 11      | 6           |
 
 **🎉 MILESTONE: ES + FR + DE monthly guides ALL COMPLETE** (iter996+iter997 ES-41+ES-42 SHIPPED — all 12 per-month guides jan-dec now exist in ES, FR, and DE)
 
 **Gaps to close:**
-- es guides: **109 missing** (289/398 done — Phase ES-57 SHIPPED iter1078 664d2250: negev-tours-compared + mount-hermon-skiing + south-israel-itinerary + megiddo-jezreel-valley-guide + israel-military-heritage; **next ES BUILD = ES-58** — tel-aviv-pride-guide + israel-for-british-travelers + 3 TBD; not yet defined)
+- es guides: **104 missing** (294/398 done — Phase ES-58 SHIPPED iter1083 61365c5c: tel-aviv-pride-guide + mount-tabor-guide + wadi-qelt-monastery-guide + schottenstein-campus-jerusalem + valley-of-tears-golan; **next ES BUILD = ES-59** — not yet defined)
 - fr guides: **86 missing** (312/398 done — Phase FR-45 SHIPPED iter1081 bdff652c: tel-aviv-pride-guide + mount-tabor-guide + wadi-qelt-monastery-guide + schottenstein-campus-jerusalem + valley-of-tears-golan; **next FR BUILD = FR-46** — not yet defined)
-- de guides: **100 missing** (298/398 done — Phase DE-42 SHIPPED iter1077 0d2e90d4: negev-tours-compared + mount-hermon-skiing + south-israel-itinerary + megiddo-jezreel-valley-guide + israel-military-heritage; **next DE BUILD = DE-43** — not yet defined)
+- de guides: **95 missing** (303/398 done — Phase DE-43 SHIPPED iter1082 a39ae874: tel-aviv-pride-guide + mount-tabor-guide + wadi-qelt-monastery-guide + schottenstein-campus-jerusalem + valley-of-tears-golan; **next DE BUILD = DE-44** — not yet defined)
 - fr/de/es attractions: **4 missing each** (the 4 EN attractions added after Phase 4)
 
 **Dead Sea cluster status (iter855 audit):**

@@ -16098,3 +16098,11 @@ Gate: pnpm check 0 errors | build 1678 pages | pnpm test:e2e 10/10 targeted pass
 Ship: squash-merge on master a39ae874, pushed to origin/master. Feature branch auto/de-43-batch deleted.
 Memory: STATE.md iter→1082 (already updated before session summary). DONE.md + BACKLOG.md updated now. .loop/ committed this session.
 Next: iter1083 → BUILD (1083%5=3 → BUILD; ES-58 batch — same 5 guides in Spanish: tel-aviv-pride-guide, mount-tabor-guide, wadi-qelt-monastery-guide, schottenstein-campus-jerusalem, valley-of-tears-golan).
+
+## 2026-08-08T11:30Z · iter1083 · BUILD (i18n-ES) · es-58-batch
+What: 5 Spanish-language guide pages — ES-58 batch (tel-aviv-pride-guide, mount-tabor-guide, wadi-qelt-monastery-guide, schottenstein-campus-jerusalem, valley-of-tears-golan). LATAM neutral tuteo register. LATAM-specific angles: Orgullo Gay Tel Aviv → Madrid Pride comparison + LATAM LGBTQ+ traveler audience (tel-aviv-pride); Camino de Santiago / Tierra Santa resonance for 90%+ Catholic LATAM demographic (mount-tabor); desierto de Judea trekking + peregrinación católica LATAM (wadi-qelt); manuscritos del Mar Muerto — academic/religious interest from Argentina/Brazil Jewish diaspora + Mexican archaeology market (schottenstein); Guerra de Yom Kipur 1973 ampliamente cubierta en medios LATAM (valley-of-tears). Cross-links pre-verified against /es/* filesystem. EN fallback for qumran-guide (/qumran-guide — no /es/qumran-guide exists). No fabricated prices/ratings. Paired naming at contested/religious sites. No H1 in body. 10 new e2e routes (5 smoke + 5 a11y).
+Gate: pnpm check 0 errors | build 1683 pages (+5 from 1678) | pnpm test:e2e 10/10 targeted new ES routes pass (exit code 0).
+Ship: squash-merge on master 61365c5c; pushed to origin/master. Feature branch auto/es-58-batch deleted.
+Prod: CI in_progress at push time — consistent with prior success pattern.
+Memory: STATE.md iter→1083, lastMode BUILD, ES 289→294/398, nextRotation REVIEW (1084%5=4 → REVIEW).
+Next: iter1084 → REVIEW (1084%5=4 → REVIEW mode; audit ES-58 guides meta/links).
