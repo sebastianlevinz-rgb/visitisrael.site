@@ -16243,3 +16243,13 @@ Gate: pnpm check 0 errors | build 1703→1708 pages (+5) | pnpm test:e2e 10/10 t
 Ship: squash-merged auto/de-45-batch to master ee358815; pushed origin/master. Feature branch deleted.
 DE guides: 308→313/398. CI: status pending at push time (checked 15s post-push; webhook not yet fired).
 Next: iter1094 REVIEW (1094 % 5 = 4) — review DE-45 meta compliance: titles ≤54 chars, descriptions ≤151 chars, /de/* cross-links valid, no H1 in body.
+
+## 2026-08-08T21:00Z · iter 1094 · REVIEW · review-1094-de45-meta-audit
+What: Audited all 5 DE-45 guides shipped in iter1093 (soreq-cave-guide, negev-incense-route, skyfield-extreme-park-jaffa, tel-aviv-coffee-guide, tabgha-church-guide).
+Result: CLEAN — no fixes required.
+Meta audit: all 5 titles within 54 chars (max: skyfield 53), all 5 descriptions within 151 chars (max: soreq 142).
+Link audit: 17/17 internal /de/* links valid — all target files confirmed present in src/content/guides/de/.
+H1 audit: 0 H1 nodes in any body (all 5 guides); heroImages all present in public/.
+Price/honesty audit: price mentions are approximate with verification directives (ca. ₪31/₪16 soreq; ~₪120/360/495 skyfield at opening prices; ₪18–28 / ₪8–12 ranges in coffee guide). No fabricated ratings, review counts, or event schemas.
+No code shipped (clean pass). State/journal updated only.
+Next: iter1095 (1095 % 5 = 0) → RESEARCH mode — define FR-48/ES-61 batches and discover new opportunities.
