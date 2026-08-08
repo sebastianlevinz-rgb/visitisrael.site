@@ -1,5 +1,5 @@
 ---
-title: "Beit Schearim: UNESCO-Nekropole & jüdische Katakomben – Besucherführer"
+title: "Beit Schearim: Jüdische Katakomben & UNESCO-Nekropole"
 description: "Beit Schearim: 33 Felskatakaten, UNESCO-Welterbe 2015, Sitz des Sanhedrins – 20 km östlich von Haifa. INPA-Pass gültig. Anreise & praktische Tipps."
 heroImage: /images/regions/haifa/hero.jpg
 category: History

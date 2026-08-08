@@ -1,5 +1,5 @@
 ---
-title: "Festung Belvoir (Kokhav HaYarden): Vollständiger Besucherführer (2026)"
+title: "Festung Belvoir (Kokhav HaYarden): Besucherführer"
 description: "Festung Belvoir besuchen – Israels besterhaltene Kreuzritterburg, 500 m über dem Jordantal. Geschichte, Tipps, Ausblicke und der Beit-Schean-Kombitag."
 heroImage: /images/regions/galilee/hero.jpg
 category: Destinations

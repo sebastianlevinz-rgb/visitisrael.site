@@ -1,6 +1,6 @@
 ---
-title: "Jesusweg: Wanderführer zum Galiläa-Pilgerweg (Nazareth–Kapernaum)"
-description: "Jesusweg-Führer: 65 km von Nazareth nach Kapernaum, 4 Etappen, Trail Angels, Unterkunft, Selbst- vs. Geführtwandern und die wichtigsten spirituellen Stationen."
+title: "Jesusweg: Galiläa-Pilgerweg Nazareth – Kapernaum"
+description: "Jesusweg-Führer: 65 km von Nazareth nach Kapernaum, 4 Etappen, Trail Angels, Unterkunft und die wichtigsten spirituellen Stationen des Galiläawegs."
 heroImage: /images/regions/galilee/hero.jpg
 category: Outdoors
 updatedAt: 2026-07-16

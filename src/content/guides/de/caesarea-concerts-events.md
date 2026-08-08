@@ -1,6 +1,6 @@
 ---
-title: "Caesarea Amphitheater: Konzerte & Veranstaltungen – Reiseführer"
-description: "Konzert im 2.000 Jahre alten Caesarea-Amphitheater besuchen: Tickets, beste Plätze, Parken, Übernachtungsoptionen in Zichron Yaakov und Kombinationsmöglichkeiten."
+title: "Caesarea Amphitheater: Konzerte & Veranstaltungen"
+description: "Konzert im antiken Caesarea-Amphitheater: Tickets, beste Plätze, Parken, Übernachtung in Zichron Yaakov und Kombinationstipps für die Konzertsaison."
 heroImage: /images/regions/caesarea/roman-theatre.jpg
 category: Culture
 updatedAt: 2026-07-18
@@ -32,13 +32,6 @@ events:
     startDate: "2026-04-15"
     endDate: "2026-10-31"
     locationName: "Römertheater (Nationalpark Caesarea)"
-    locationLocality: "Caesarea"
-    url: "/de/caesarea-concerts-events"
-  - name: "Caesarea Lichterfestival 2026"
-    description: "Winter-Licht-und-Ton-Spektakel an den Caesarea-Ruinen – Lichtinstallationen am antiken Aquädukt, Hafen und Theater, typischerweise an ausgewählten Abenden von Januar bis März."
-    startDate: "2026-01-10"
-    endDate: "2026-03-14"
-    locationName: "Nationalpark Caesarea"
     locationLocality: "Caesarea"
     url: "/de/caesarea-concerts-events"
 faqs:
