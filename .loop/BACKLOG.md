@@ -21,7 +21,7 @@ Guides: `israel-rainy-day-activities.md`, `sde-boker-ein-avdat-guide.md`, `latru
 All 5 confirmed MISSING from DE via comm -23 (2026-08-08).
 Key DACH angles per guide: rainy-day = "Was tun in Israel bei Regen" (unclaimed German SERP; Israel Museum Archäologie-Flügel particularly relevant for DACH); sde-boker = Ben-Gurion Wüsten-Kibbuz + Ein-Avdat-Canyon; latrun = Panzermuseum Yad La-Shiryon (150+ gepanzerte Fahrzeuge; DACH military-history tourism niche; Trappistenwein Latrun); negev-highway-40 = DACH top Mietwagen-Roadtrip-Markt (Wohnmobil Israel angle; km-genaue Stopptabelle; Road 40 Naturlandschaft Negev; INPA-Pass-Abdeckung); israel-for-british-travelers = UK is Germany's top outbound destination overlap + DACH expats in UK researching Israel.
 Cross-link notes: national-parks-pass-calculator → EN fallback; israeli-passport-stamp → EN fallback. All other /de/* hrefs exist.
-Status: ready [iter1085 research]
+Status: SHIPPED iter1087 ce63a750
 
 ### ES-59 batch definition (iter1085 RESEARCH — ready for next ES BUILD)
 Guides: `israel-rainy-day-activities.md`, `sde-boker-ein-avdat-guide.md`, `latrun-guide.md`, `negev-highway-40-guide.md`, `israel-for-british-travelers.md`
