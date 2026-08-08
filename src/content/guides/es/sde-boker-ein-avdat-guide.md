@@ -1,6 +1,6 @@
 ---
-title: "Sde Boker y Ein Avdat: Guía del Desierto del Néguev (2026)"
-description: "Visita la casa desértica de Ben-Gurión y senderiza el cañón de Ein Avdat con sus acantilados blancos hasta el manantial permanente. Guía completa con rutas, horarios y consejos."
+title: "Sde Boker y Ein Avdat — Guía del Néguev (2026)"
+description: "Casa desértica de Ben-Gurión y cañón de Ein Avdat en el Néguev. Rutas de senderismo, INPA, horarios y consejos de visita."
 heroImage: "/images/sub-destinations/negev/ein-avdat.jpg"
 category: "negev"
 updatedAt: 2026-07-14

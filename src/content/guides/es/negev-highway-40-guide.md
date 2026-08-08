@@ -1,6 +1,6 @@
 ---
-title: "Ruta 40 Israel: Guía Completa del Road Trip por el Néguev (2026)"
-description: "Autoconducción por la Ruta 40 de Israel a través del Néguev: Sde Boker, el cañón de Ein Avdat, las ruinas nabateas de Avdat y el cráter Mitzpe Ramon. Paradas, seguridad y consejos de combustible."
+title: "Ruta 40 Israel: Road Trip por el Néguev (2026)"
+description: "Road trip por la Ruta 40 del Néguev: Sde Boker, Ein Avdat, Avdat y Mitzpe Ramon. Paradas clave, seguridad y consejos de combustible."
 heroImage: /images/regions/negev/avdat.jpg
 category: Guides
 updatedAt: 2026-07-13

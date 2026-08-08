@@ -1,6 +1,6 @@
 ---
-title: "Qué Hacer en Israel con Lluvia: Actividades de Interior (2026)"
-description: "Las mejores actividades de interior en Israel cuando llueve: Museo de Israel, Yad Vashem, día de spa en el Mar Muerto, clases de cocina y más. Guía por ciudad."
+title: "Qué Hacer en Israel con Lluvia: Interior (2026)"
+description: "Las mejores actividades de interior en Israel cuando llueve: museos, Yad Vashem, spa en el Mar Muerto y clases de cocina."
 heroImage: /images/regions/jerusalem/yad-vashem.jpg
 category: Travel Tips
 updatedAt: 2026-07-15

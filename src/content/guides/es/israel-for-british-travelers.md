@@ -1,6 +1,6 @@
 ---
 title: "Guía de Israel para Viajeros Británicos (2026)"
-description: "Guía de Israel para visitantes del Reino Unido: consejos de la FCDO, ETA-IL, vuelos directos desde el Reino Unido, adaptadores, moneda, conducir con licencia británica y contactos de la Embajada."
+description: "Israel para viajeros del Reino Unido: FCDO, ETA-IL, vuelos directos, adaptadores Tipo H, moneda, conducir con licencia UK y Embajada."
 heroImage: /images/regions/jerusalem/hero.jpg
 category: Planning
 updatedAt: 2026-07-25

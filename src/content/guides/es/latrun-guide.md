@@ -1,6 +1,6 @@
 ---
-title: "Latrun: Museo de Tanques, Monasterio y Mini Israel (2026)"
-description: "Visita Latrun en la Ruta 1 entre Tel Aviv y Jerusalén: el museo blindado Yad La-Shiryon, la bodega del monasterio trapense y Mini Israel — una parada, tres experiencias."
+title: "Latrun: Tanques, Monasterio y Mini Israel (2026)"
+description: "Latrun en la Ruta 1: Yad La-Shiryon (200+ blindados), bodega del monasterio trapense y Mini Israel (maquetas 1:25). Guía de visita."
 heroImage: /images/regions/jerusalem/hero.jpg
 category: Destinations
 updatedAt: 2026-07-05
