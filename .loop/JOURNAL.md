@@ -16088,3 +16088,13 @@ Gate: pnpm check 0 errors | build 1673 pages | pnpm test:e2e 10/10 targeted pass
 Ship: squash-merge bdff652c on master, pushed to origin/master. Prod: Vercel deploy pending (GitHub CI status unknown/pending at time of push — next iteration will confirm).
 Memory: STATE.md iter→1081, lastMode BUILD, nextRotation REVIEW (1082%5=2 → REVIEW).
 Next: iter1082 → REVIEW (1082%5=2 → REVIEW mode; audit FR-45 guides meta/links).
+
+## 2026-08-08T10:00Z · iter1082 · BUILD (i18n-DE) · de-43-batch
+What: 5 German-language guide pages — DE-43 batch (tel-aviv-pride-guide, mount-tabor-guide, wadi-qelt-monastery-guide, schottenstein-campus-jerusalem, valley-of-tears-golan). Standard Hochdeutsch register. Mode: 1082 % 5 = 2 → BUILD (previous iter1081 journal note said REVIEW by mistake; strict rotation applied correctly).
+DACH-specific angles: tel-aviv-pride — Berlin/CSD resonance, 5M+ LGBTQ+ Reisende DACH, circuit-party Ticket-Vorwarnung, 2027-Datentabelle, Events-JSON-LD schema; mount-tabor — Franziskaner-Basilika Barluzzi 1924, DACH Pilgermarkt "Land der Bibel", verdictName+verdictQuery, INPA NOT valid explicitly, Taxi/Servee-Regel Daburiyya erklärt (₪20–30/Person Servee, ₪40–60/Wagen Rückfahrt); wadi-qelt-monastery-guide — Nahal Prat 27km, Georgskloster 5.Jh., Sturzflut-Warnung prominent, Tell es-Sultan Jericho, verdictName+verdictQuery, INPA valid Ein Prat, Area-A-Hinweis für Mietwagen; schottenstein-campus-jerusalem — IAA 2026 Givat Ram, 2 Mio. Objekte + 15.000 Qumran-Fragmente erstmals öffentlich, Safdie Jerusalem-Trilogie (Yad Vashem+Oberstes Gericht+Campus), Konservierungslabor sichtbar, verdictName+verdictQuery, INPA NOT valid; valley-of-tears-golan — Emek HaBacha 6. Oktober 1973, ~1.500 syrische Panzer vs. 180 Centurion, Panzermuseum + Berg Bental 1165m, Coffee Anan, Quneitra, verdictName+verdictQuery.
+Cross-links: all /de/* hrefs pre-verified on disk before writing. No fabricated prices/ratings. Paired naming at contested/religious sites. No H1 in body. 10 new e2e routes (5 smoke + 5 a11y).
+DE guides: 298→303/398. Build: 1673→1678 pages (+5).
+Gate: pnpm check 0 errors | build 1678 pages | pnpm test:e2e 10/10 targeted pass (exit code 0).
+Ship: squash-merge on master a39ae874, pushed to origin/master. Feature branch auto/de-43-batch deleted.
+Memory: STATE.md iter→1082 (already updated before session summary). DONE.md + BACKLOG.md updated now. .loop/ committed this session.
+Next: iter1083 → BUILD (1083%5=3 → BUILD; ES-58 batch — same 5 guides in Spanish: tel-aviv-pride-guide, mount-tabor-guide, wadi-qelt-monastery-guide, schottenstein-campus-jerusalem, valley-of-tears-golan).
