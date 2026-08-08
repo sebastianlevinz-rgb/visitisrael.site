@@ -2254,9 +2254,9 @@ Quality: LATAM neutral español tuteo; YAML double-quotes; no <span> in YAML; al
 
   Quality notes: LATAM neutral español tuteo (no vosotros/Spain-specific forms); YAML double-quotes; no <span> in YAML; all /es/* cross-links pre-verified above; no fabricated prices/ratings; paired naming at contested sites (Al-Haram al-Sharif / Monte del Templo / הַר הַבַּיִת where relevant); no H1 in body. Status: ready [iter1070 research]
 
-### FR-44 batch — READY [iter1075 research · 2026-08-08]
+### [SHIPPED iter1076 33cceaf5] FR-44 batch — SHIPPED
 **5 FR guides: negev-tours-compared + mount-hermon-skiing + south-israel-itinerary + megiddo-jezreel-valley-guide + israel-military-heritage**
-All CONFIRMED MISSING from FR locale. All hero images verified on disk. All cross-links pre-verified (EN fallbacks noted). Zero FR editorial competition found for all 5 targets.
+FR guides: 302→307/398. Build: 1653→1658 pages (+5). Gate: pnpm check 0 errors | build 1658 pages | pnpm test:e2e 2429/2429 pass.
 
   1. **negev-tours-compared** — "Tours dans le Néguev comparés : Makhtesh Ramon, Bédouins & Nabatéens (2026)". GYG/Viator have tour listings in FR but ZERO FR editorial roundup format → pure money-page SERP gap. Negev = Israel's most unique landscape differentiator; format: 5-type comparison table (Jeep 4x4 jour, circuit multi-jours Makhtesh, nuit bédouine, vélo, guide privé). heroImage /images/regions/negev/mitzpe-ramon.jpg. CTAs: GYG Negev desert tours + Discovercars (car rental for south Israel) + Abraham Tours. Cross-links: /fr/3-days-in-negev ✓, /fr/mitzpe-ramon-guide ✓, /fr/car-rental-israel ✓, /fr/hiking-in-israel ✓, /fr/israel-national-parks-pass ✓. verdictName+verdictQuery. 7 FAQs.
 

@@ -6,12 +6,12 @@
 >
 > One bounded slice per loop iteration. NEVER bulk-translate in one shot.
 
-## Current status snapshot (2026-08-07 iter1073 BUILD — DE-41 SHIPPED 59b4fa20; FR-43 SHIPPED 638a4371; ES-56 SHIPPED 6f34e2e0; next ES BUILD = ES-57 not yet defined / next FR BUILD = FR-44 not yet defined / next DE BUILD = DE-42 not yet defined)
+## Current status snapshot (2026-08-08 iter1076 BUILD — FR-44 SHIPPED 33cceaf5; DE-41 SHIPPED 59b4fa20; ES-56 SHIPPED 6f34e2e0; next FR BUILD = FR-45 not yet defined / next DE BUILD = DE-42 not yet defined / next ES BUILD = ES-57 not yet defined)
 
 | Locale | Guides | Attractions | Regions | Itineraries |
 |--------|--------|-------------|---------|-------------|
 | en     | 398    | 65          | 11      | 6           |
-| fr     | 302    | 61          | 11      | 6           |
+| fr     | 307    | 61          | 11      | 6           |
 | de     | 293    | 61          | 11      | 6           |
 | es     | 284    | 61          | 11      | 6           |
 
@@ -19,7 +19,7 @@
 
 **Gaps to close:**
 - es guides: **114 missing** (284/398 done — Phase ES-56 SHIPPED iter1071 6f34e2e0: beit-shearim-guide + belvoir-fortress + caesarea-concerts-events + israel-for-seniors + jesus-trail-israel; **next ES BUILD = ES-57** — not yet defined)
-- fr guides: **96 missing** (302/398 done — Phase FR-43 SHIPPED iter1072 638a4371: beit-shearim-guide + belvoir-fortress + caesarea-concerts-events + zichron-yaakov-guide + jerusalem-armenian-quarter; **next FR BUILD = FR-44** — not yet defined)
+- fr guides: **91 missing** (307/398 done — Phase FR-44 SHIPPED iter1076 33cceaf5: negev-tours-compared + mount-hermon-skiing + south-israel-itinerary + megiddo-jezreel-valley-guide + israel-military-heritage; **next FR BUILD = FR-45** — not yet defined)
 - de guides: **105 missing** (293/398 done — Phase DE-41 SHIPPED iter1073 59b4fa20: beit-shearim-guide + design-museum-holon + belvoir-fortress + caesarea-concerts-events + jesus-trail-israel; **next DE BUILD = DE-42** — not yet defined)
 - fr/de/es attractions: **4 missing each** (the 4 EN attractions added after Phase 4)
 

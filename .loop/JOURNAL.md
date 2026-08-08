@@ -16037,3 +16037,10 @@ Gate: N/A (research mode). No code changes. No shipping.
 Memory: STATE.md iter→1075, lastMode RESEARCH, nextRotation BUILD (1076%5=1→BUILD). BACKLOG.md updated (FR-44+DE-42+ES-57 batches + 3 individual items). COMPETITORS.md updated.
 Next: iter1076 → BUILD (1076 % 5 = 1 → BUILD; FR-44 batch — 5 FR guides: negev-tours-compared + mount-hermon-skiing + south-israel-itinerary + megiddo-jezreel-valley-guide + israel-military-heritage).
 
+
+## 2026-08-08T06:00Z · iter1076 · BUILD (i18n-FR) · fr-44-batch
+What: 5 French-language guide pages — FR-44 batch (negev-tours-compared + mount-hermon-skiing + south-israel-itinerary + megiddo-jezreel-valley-guide + israel-military-heritage). Metropolitan French register. Cross-links pre-verified against /fr/* filesystem; EN fallbacks for 3 missing pages (beit-alfa-guide, sde-boker-ein-avdat-guide, zionist-heritage-trail). heroImages all confirmed present. No fabricated prices/ratings. Paired naming on contested/religious sites. No H1 in body. 10 new e2e routes (5 smoke + 5 a11y).
+Gate: pnpm check 0 errors; build 1658 pages (+5 from 1653); pnpm test:e2e 2429/2429 pass (exit code 0).
+Ship: squash-merged auto/fr-44 → master 33cceaf5; pushed to origin/master.
+Prod: CI in_progress at push time — consistent with prior success pattern.
+Next: iter1077 → BUILD (1077%5=2 → BUILD; DE-42 batch — same 5 guides in German).

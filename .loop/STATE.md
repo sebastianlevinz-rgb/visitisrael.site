@@ -1,13 +1,15 @@
 # LOOP STATE
 
-- iteration: 1075
-- lastMode: RESEARCH
-- lastItem: research-1075-outdoor-heritage-bundles
-- lastResult: RESEARCH — 218th research pass. Confirmed EN=398, FR=302, DE=293, ES=284. 85 guides missing from all 3 locales. Defined 3 new batches: FR-44 (negev-tours-compared + mount-hermon-skiing + south-israel-itinerary + megiddo-jezreel-valley-guide + israel-military-heritage); DE-42 (same 5); ES-57 (same 5). All cross-links verified; all heroImages exist. New individual BACKLOG items: tel-aviv-pride-guide i18n bundle (P2/S), israel-for-british-travelers i18n bundle (P2/S), israel-rainy-day-activities deferred (P3/S — weak cross-links). Key competitor finding: zero FR/DE/ES editorial competition found for any of the 5 batch guides. Gate: N/A (research mode). No code changes.
-- nextRotationCategory: BUILD (iter1076 % 5 = 1 → BUILD; FR-44 batch is top priority)
+- iteration: 1076
+- lastMode: BUILD
+- lastItem: fr-44-batch
+- lastResult: BUILD — FR-44 batch SHIPPED 33cceaf5. 5 FR guides: negev-tours-compared, mount-hermon-skiing, south-israel-itinerary, megiddo-jezreel-valley-guide, israel-military-heritage. FR guides: 302→307/398. Build: 1653→1658 pages (+5). Gate: pnpm check 0 errors | build 1658 pages | pnpm test:e2e 2429/2429 pass. Commit: 33cceaf5.
+- nextRotationCategory: BUILD (iter1077 % 5 = 2 → BUILD; DE-42 batch is top priority)
 - higgsfieldSpent: 0
-- updatedAt: 2026-08-08T02:00Z
+- updatedAt: 2026-08-08T06:00Z
 - branch context: work on master; feature work on auto/<slug>
+
+Notes: iter1076 BUILD — FR-44 batch SHIPPED 33cceaf5. 5 FR guides: negev-tours-compared (comparatif 6 formats circuits désert; comparaison table jeep/quad/chameleon/rando/bedouin/autonome), mount-hermon-skiing (guide complet station Hermon Golan; quick-reference table; obligatoire réserver en ligne; activités estivales), south-israel-itinerary (road trip 4–5j Beer-Sheva→Néguev→Eilat; EN fallback sde-boker-ein-avdat-guide), megiddo-jezreel-valley-guide (UNESCO Tel Megiddo 26 strates Armageddon; circuit Jezreel; EN fallback beit-alfa-guide), israel-military-heritage (Latrun gratuit, Palmach Museum réserver 90min, IAF Hatzerim pré-inscription, Colline des Munitions, Yad Mordechai; EN fallback zionist-heritage-trail). Metropolitan French; all /fr/* cross-links pre-verified; no fabricated prices/ratings; paired naming. 10 new e2e routes (5 smoke + 5 a11y). FR guides: 302→307/398. Build: 1653→1658 pages (+5). Gate: pnpm check 0 errors | build 1658 pages | pnpm test:e2e 2429/2429 pass. Squash-merge to master 33cceaf5; pushed to origin/master.
 
 Notes: iter1075 RESEARCH — 218th research pass. Confirmed EN=398, FR=302, DE=293, ES=284 (85 guides missing from all 3). Defined FR-44/DE-42/ES-57 batches (all same 5 guides: negev-tours-compared + mount-hermon-skiing + south-israel-itinerary + megiddo-jezreel-valley-guide + israel-military-heritage). Cross-links verified; all heroImages exist; no FR/DE/ES editorial competition for any of the 5 targets. 3 new individual items added: tel-aviv-pride-guide i18n (P2/S), israel-for-british-travelers i18n (P2/S), israel-rainy-day-activities i18n deferred (P3/S). No code shipped.
 
