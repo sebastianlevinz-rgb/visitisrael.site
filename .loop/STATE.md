@@ -1,14 +1,16 @@
 # LOOP STATE
 
-- iteration: 1089
-- lastMode: REVIEW
-- lastItem: review-1089-es59-meta-trim
-- lastResult: REVIEW — ES-59 meta audit SHIPPED 7e9c990b. Audited 5 ES-59 guides (israel-rainy-day-activities, sde-boker-ein-avdat-guide, latrun-guide, negev-highway-40-guide, israel-for-british-travelers). Found 9 meta-length violations: 4 titles over 54 chars (62, 58, 57, 64), 5 descriptions over 151 chars (159, 177, 168, 195, 195). Zero broken internal links (27/27 /es/* hrefs valid). No H1 in body. No fabricated prices/ratings. No paired-naming issues. Applied focused trims: titles 62→47, 58→46, 57→48, 64→46; descs 159→121, 177→121, 168→131, 195→132, 195→133. All now within bounds. Gate: pnpm check 0 errors | build 1698 pages | pnpm test:e2e 10/10 targeted pass. Squash-merge to master 7e9c990b; pushed to origin/master. CI in_progress at state-write.
+- iteration: 1090
+- lastMode: RESEARCH
+- lastItem: research-1090-cave-incense-coffee-tabgha-jaffa-batches
+- lastResult: RESEARCH — 221st research pass. EN=398, FR=317, DE=308, ES=299 (114 guides missing from all 3). Defined FR-47/DE-45/ES-60 batch: soreq-cave-guide + negev-incense-route + skyfield-extreme-park-jaffa + tel-aviv-coffee-guide + tabgha-church-guide. All 5 confirmed MISSING from all 3 locales via filesystem comm -23. tel-megiddo-guide excluded (blocked:human-review-required since iter699). Cross-links all verified ✓ FR/DE/ES. 2 new BACKLOG items: israel-wine-guide (EN gap, P2/M) + rosh-hanikra freshness (P3/S). No code shipped.
 
-- nextRotationCategory: RESEARCH (iter1090 % 5 = 0 → RESEARCH)
+- nextRotationCategory: BUILD (iter1091 % 5 = 1 → BUILD; FR-47 batch)
 - higgsfieldSpent: 0
-- updatedAt: 2026-08-08T16:37Z
+- updatedAt: 2026-08-08T17:45Z
 - branch context: work on master; feature work on auto/<slug>
+
+Notes: iter1090 RESEARCH — 221st research pass. EN=398, FR=317, DE=308, ES=299 (114 missing from all 3). FR-47/DE-45/ES-60 batch defined: soreq-cave-guide + negev-incense-route + skyfield-extreme-park-jaffa + tel-aviv-coffee-guide + tabgha-church-guide. Cross-links all ✓ in all 3 locales. 2 new BACKLOG items added. No code shipped.
 
 Notes: iter1089 REVIEW — review-1089-es59-meta-trim SHIPPED 7e9c990b. Audited 5 ES-59 guides. 9 meta fixes: 4 titles trimmed (≤54 chars), 5 descriptions trimmed (≤151 chars). 27/27 internal links valid, no broken links, no H1 in body, no fabricated prices. Gate: pnpm check 0 errors | build 1698 pages | pnpm test:e2e 10/10 targeted pass. CI in_progress at state-write.
 
@@ -68,4 +70,4 @@ Notes: iter1000 RESEARCH — 199th research pass. ES=215/398, FR=232/398, DE=223
 
 Cron b7325b16 hourly @ :17. Loop history: 19 tools + sitemap-lastmod + link-checker(+depth) + i18n
 Phase0/1a/1b/1c/2 Batches1-18(COMPLETE) + 50 review passes + 5 technical (event-schema + meta-trim + locale-links + freshness-688 + airlines-freshness-delta-atl-bos) + 81 EN guides + 7 tools-monetization + 2 comparisons;
-research iters 5/10/20/30/35/40/45/50/55/60/65/70/75/80/85/90/95/100/105/110/115/120/125/130/135/140/145/150/155/160/165/170/175/180/185/190/195/200/205/210/215/220/225/230/235/240/245/250/255/260/265/270/275/280/285/290/295/300/305/310/315/320/325/330/335/340/345/350/355/360/365/370/375/380/385/390/395/400/405/410/420/425/430/435/440/445/450/455/460/465/470/480/485/490/495/500/505/510/515/520/525/535/540/545/550/555/560/565/570/575/580/585/590/595/600/605/610/615/620/625/630/635/640/645/650/655/660/665/670/675/680/685/690/695/700/705/710/715/720/725/730/735/740/745/750/755/760/765/775/785/790/810/815/820/825/835/840/845/850/859/864/865/870/875/880/885/890/895/900/905/910/915/920/925/930/940/945/950/955/960/965/975/980/985/990/995/1000/1010/1060/1065/1070/1075/1080/1085.
+research iters 5/10/20/30/35/40/45/50/55/60/65/70/75/80/85/90/95/100/105/110/115/120/125/130/135/140/145/150/155/160/165/170/175/180/185/190/195/200/205/210/215/220/225/230/235/240/245/250/255/260/265/270/275/280/285/290/295/300/305/310/315/320/325/330/335/340/345/350/355/360/365/370/375/380/385/390/395/400/405/410/420/425/430/435/440/445/450/455/460/465/470/480/485/490/495/500/505/510/515/520/525/535/540/545/550/555/560/565/570/575/580/585/590/595/600/605/610/615/620/625/630/635/640/645/650/655/660/665/670/675/680/685/690/695/700/705/710/715/720/725/730/735/740/745/750/755/760/765/775/785/790/810/815/820/825/835/840/845/850/859/864/865/870/875/880/885/890/895/900/905/910/915/920/925/930/940/945/950/955/960/965/975/980/985/990/995/1000/1010/1060/1065/1070/1075/1080/1085/1090.

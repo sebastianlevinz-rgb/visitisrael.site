@@ -5,6 +5,34 @@ Priorities P0 (highest) → P3. Status: ready | blocked:<reason> | in-progress.
 
 ## i18n — ready batches (next BUILD iterations)
 
+### FR-47 batch definition (iter1090 RESEARCH — ready for next FR BUILD)
+Guides: `soreq-cave-guide.md`, `negev-incense-route.md`, `skyfield-extreme-park-jaffa.md`, `tel-aviv-coffee-guide.md`, `tabgha-church-guide.md`
+All 5 confirmed MISSING from FR via comm -23 (2026-08-08).
+- soreq-cave-guide: Grotte d'Avshalom (Soreq); plus grande grotte calcaire d'Israël; INPA valide; 22°C toute l'année; visite guidée 50 min; 40 min Jérusalem / 45 min TLV; zéro éditorial FR; day-trips-from-jerusalem ✓, israel-with-kids ✓, hiking-in-israel ✓ in FR; discovercars+viator+getyourguide CTAs.
+- negev-incense-route: 4 villes nabatéennes UNESCO (Avdat, Mamshit, Haluza, Shivta); itinéraire self-drive (aucun transport en commun vers Mamshit/Shivta/Haluza); hiking-in-israel ✓, 3-days-in-negev ✓, negev-jeep-tours ✓, mitzpe-ramon-guide ✓, israel-national-parks-pass ✓ in FR; discovercars+getyourguide CTAs.
+- skyfield-extreme-park-jaffa: SkyField Stade Bloomfield Jaffa (inauguré 2026); via ferrata + saut à l'élastique 35m + balançoire géante; premier parc extrême entièrement accessible en Israël; jaffa-travel-guide ✓, israel-adventure-sports ✓, israel-with-kids ✓ in FR; getyourguide+viator+booking CTAs.
+- tel-aviv-coffee-guide: scène specialty troisième vague (Cafelix/Nahat/Coffee Lab) + tradition botz; Florentin/Neve Tzedek/Dizengoff; Festival du Café TLV sept.; zéro éditorial FR "café spécialité Tel Aviv"; jaffa-travel-guide ✓, tel-aviv-food-guide ✓, backpacking-israel ✓ in FR; getyourguide+booking CTAs.
+- tabgha-church-guide: Église de la Multiplication des Pains et des Poissons (Bénédictins; mosaïque 5e s.) + Église de la Primauté de Pierre (Franciscains; basalte volcanique); circuit nord rive Mer de Galilée; 3-days-in-galilee ✓, nazareth-travel-guide ✓, sea-of-galilee-guide ✓ in FR; getyourguide+viator+booking CTAs.
+Cross-link notes: tel-aviv-things-to-do exists in FR. No EN fallbacks needed for FR. Status: ready
+
+### DE-45 batch definition (iter1090 RESEARCH — ready for next DE BUILD)
+Guides: same 5 as FR-47. All confirmed MISSING from DE.
+- soreq-cave-guide: Avshalom-Tropfsteinhöhle; Israels größte Kalksteinhöhle; INPA-Pass gültig; 22°C ganzjährig; 50-Min geführte Tour; DACH Abenteuer-Geologie Nische; day-trips-from-jerusalem ✓, israel-with-kids ✓, hiking-in-israel ✓ in DE.
+- negev-incense-route: 4 nabatäische UNESCO-Städte (Avdat, Mamshit, Haluza, Shivta); Selbstfahrer-Itinerar (kein ÖPNV nach Mamshit/Shivta/Haluza); DACH Wohnmobil-Roadtrip-Nische; hiking-in-israel ✓, 3-days-in-negev ✓, negev-jeep-tours ✓, mitzpe-ramon-guide ✓, israel-national-parks-pass ✓ in DE.
+- skyfield-extreme-park-jaffa: SkyField Bloomfield-Stadion Jaffa (2026); Klettersteig + 35m Bungee + Riesenschaukel; Israels erstes vollständig barrierefreies Extrempark; jaffa-travel-guide ✓, israel-adventure-sports ✓, israel-with-kids ✓ in DE.
+- tel-aviv-coffee-guide: Dritte-Welle-Spezialitätenkaffee + Botz-Tradition; Deutschland = Europa-Kaffeekultur-Heimat (DACH coffee angle); Festival Sept.; jaffa-travel-guide ✓, tel-aviv-food-guide ✓, backpacking-israel ✓ in DE; tel-aviv-things-to-do ✓ in DE.
+- tabgha-church-guide: Brotvermeherungs-Kirche (Benediktiner; 5. Jh.-Mosaik) + Kirche des Primats Petri (Franziskaner; Vulkanbasalt); DACH Pilgermarkt "Land der Bibel"; 3-days-in-galilee ✓, nazareth-travel-guide ✓, sea-of-galilee-guide ✓ in DE.
+Status: ready
+
+### ES-60 batch definition (iter1090 RESEARCH — ready for next ES BUILD)
+Guides: same 5 as FR-47. All confirmed MISSING from ES.
+- soreq-cave-guide: Cueva Avshalom (Soreq); más grande cueva caliza de Israel; INPA válido; 22°C año redondo; 50-min visita guiada; turismo familiar LATAM; day-trips-from-jerusalem ✓, israel-with-kids ✓, hiking-in-israel ✓ in ES.
+- negev-incense-route: 4 ciudades nabateas UNESCO (Avdat, Mamshit, Haluza, Shivta); ruta en coche esencial (sin transporte público a Mamshit/Shivta/Haluza); turismo arqueológico LATAM; hiking-in-israel ✓, 3-days-in-negev ✓, negev-jeep-tours ✓, mitzpe-ramon-guide ✓, israel-national-parks-pass ✓ in ES.
+- skyfield-extreme-park-jaffa: SkyField Estadio Bloomfield Jaffa (inaugurado 2026); vía ferrata + salto elástico 35m + columpio gigante; parque extremo familiar; jaffa-travel-guide ✓, israel-adventure-sports ✓, israel-with-kids ✓ in ES; tel-aviv-things-to-do → EN fallback (no /es/ version yet).
+- tel-aviv-coffee-guide: café de especialidad tercera ola (Cafelix/Nahat/Coffee Lab) + cultura botz; Florentin/Neve Tzedek/Dizengoff; Festival Café sept.; jaffa-travel-guide ✓, tel-aviv-food-guide ✓, backpacking-israel ✓ in ES; tel-aviv-things-to-do → EN fallback.
+- tabgha-church-guide: Iglesia Multiplicación Panes y Peces (Benedictinos; mosaico s.V) + Iglesia Primado de Pedro (Franciscanos; basalto volcánico); turismo católico LATAM (90%+ católicos); 3-days-in-galilee ✓, nazareth-travel-guide ✓, sea-of-galilee-guide ✓ in ES.
+Status: ready
+
 ### FR-46 batch definition (iter1085 RESEARCH — ready for next FR BUILD)
 Guides: `israel-rainy-day-activities.md`, `sde-boker-ein-avdat-guide.md`, `latrun-guide.md`, `negev-highway-40-guide.md`, `israel-for-british-travelers.md`
 All 5 confirmed MISSING from FR via comm -23 (2026-08-08).
@@ -30,10 +58,10 @@ Key LATAM angles per guide: rainy-day = "qué hacer en Israel cuando llueve" (tu
 Cross-link notes: national-parks-pass-calculator → EN fallback; israeli-passport-stamp → EN fallback. All other /es/* hrefs exist.
 Status: SHIPPED iter1088 6fc532d0
 
-### Individual items queued for FR-47/DE-45/ES-60 (to be defined in next RESEARCH pass):
-- soreq-cave-guide i18n (P2/S, seo-content) — Israel's most-visited family limestone cave; INPA pass valid; day-trips-from-jerusalem + israel-with-kids ✓ all 3 locales; zero FR/DE/ES editorial; "Grotte stalactites Israël" / "Stalaktitenhöhle Israel" / "Cueva de Soreq Israel" unclaimed SERPs.
-- negev-incense-route i18n (P2/S, seo-content) — UNESCO Nabataean Incense Route (Avdat+Haluza+Mamshit+Shivta); "Route de l'Encens Néguev" / "Weihrauchroute Negev" / "Ruta del Incienso Néguev"; hiking-in-israel + 3-days-in-negev ✓ all 3; DACH Kulturreise + FR Patrimoine mondial market.
-- skyfield-extreme-park-jaffa i18n (P2/S, seo-content) — Israel's largest extreme park Bloomfield Stadium Jaffa 2026 (via ferrata, 35m bungee, giant swing); jaffa-travel-guide + israel-adventure-sports ✓ all 3; "SkyField Jaffa" zero FR/DE/ES editorial.
+### Individual items queued for FR-48/DE-46/ES-61 (to be defined in next RESEARCH pass after FR-47/DE-45/ES-60 ship):
+<!-- iter1090 RESEARCH: FR-47/DE-45/ES-60 now fully defined above. Previous pre-queued items (soreq/negev-incense/skyfield) now promoted into FR-47/DE-45/ES-60 batch. New individual items queued below for subsequent batches. -->
+- israel-wine-guide EN (P2/M, seo-content) — zero EN editorial guide at guide level (only golan-heights-wineries exists); comprehensive Israel wine regions guide: Golan Heights (bold reds + mountain whites; volcanic soil; Golan Heights Winery = Israel's most awarded; Galil Mountain Winery); Upper Galilee (fastest growing; first harvest Galil Mountain 2000); Judean Hills (terroir-driven; elevation; David Winery/Tzora/Domaine du Castel); Negev emerging (Ramat Negev high-altitude experimental); boutique appointment-only wineries → reservations required; 2h drive to Golan from TLV; cross-links: golan-heights-wineries ✓ EN+FR+DE, golan-heights-guide ✓, driving-in-israel ✓; HONESTY: no fabricated scores/medals — describe regions only; affiliate: Booking (winery-adjacent accommodation) + GYG (wine tours). Competitor gap: TripAdvisor/Frommers = listing-only; exclusiveisraeltours.com + winetours-winetasting.com = booking-only; zero editorial FR/DE/ES equivalent. FR/DE demand is high (wine cultures). status: ready
+- rosh-hanikra freshness update (P3/S, REVIEW) — cable car confirmed operational/restored 2026 (ynetnews.com + itinerary.expert/israel/rosh-ha-nikra + jfeed.com confirm); grotto path 400m carved route; illuminated evening experience; 6-min history film in northern tunnel. Existing rosh-hanikra-guide exists in EN+FR+DE+ES — check if current text still has hedge language ("closed for security", "cable car suspended") from iter855 — if so, update to reflect 2026 operational status. status: ready
 <!-- iter930 research additions — 2026-08-01 — 186th research pass. comm -23 confirmed all batch guides MISSING. Sources: civitatis.com, routard.com, urlaubsguru.de, sonnenklar.tv, travelandtourworld.com, touristisrael.com, jns.org, ynetnews.com, israelhayom.com. Key findings: Galilee Culinary Institute soft-launched Feb 2026 (academic year Oct 2026) — EN guide already current; galilee-culinary-institute-gonen MISSING from all 3 locales → priority for all 3 next batches. Eilat luxury revival (Airport City 1B NIS, Princess Hotel future revival, Almog Beach city-designated) — our guides already capture these; no immediate freshness fix needed. Kassland Resort CONFIRMED OPEN May 2026 (HUMAN REVIEW status unchanged — Ma'ale Adumim settlement framing). Routard FR travel advisory (France Ministry March 2026 state of emergency) — our is-israel-safe content stable. ES: israel-by-month ALREADY EXISTS in ES. DE: haifa-tours-compared ALREADY EXISTS in DE (DE-14). Rival landscape: Civitatis tour-only for Israel; Routard/Petit Futé thin stubs; Sonnenklar.tv / urlaubsguru.de aggregator — zero editorial competition on individual guide pages. -->
 - [SHIPPED iter926 b9ec8b3a] (i18n-ES, M) ES Phase ES-29 — jerusalem-food-guide, tel-aviv-food-guide, rosh-hanikra-guide, mount-of-olives-guide, safed-tzfat-guide. ES guides 145→150/398. 1769/1769 e2e pass.
 - [SHIPPED iter931 e3f0ecf4] (i18n-ES, M) ES Phase ES-30 — israel-events-festivals, galilee-culinary-institute-gonen, herzliya-guide, israel-egypt-guide, israel-esim. ES guides 150→155/398. 1799/1799 e2e pass.

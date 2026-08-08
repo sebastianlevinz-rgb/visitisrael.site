@@ -8252,3 +8252,24 @@ New attractions for future EN items (already in BACKLOG individual items queue):
 - Kassland Resort & Spa: 220-room thermal spa complex near Jerusalem (Ma'ale Adumim), May 2026. NOTE: Ma'ale Adumim = Israeli settlement West Bank → requires human review before featuring.
 - Galilee Culinary Institute at Kibbutz Gonen: academic year Oct 2026 launch → EN guide already exists (shipped iter522); DE/ES/FR i18n already shipped in prior batches (DE iter933, FR iter932, ES iter931) — NOT missing.
 - Rosh Hanikra cable car: reopened after security closure. All locales already have rosh-hanikra-guide — potential freshness update, not new guide.
+
+## iter1090 · 2026-08-08 · 221st research pass — cave/incense/coffee/tabgha/jaffa batch
+
+Sources consulted: touristisrael.com (Israel Travel 2026 new attractions, things-to-do-in-august); TourRadar (10 Best Israel Tours 2026/2027); GilTravel (culinary tour Israel); Masaisrael.org + Isrotel.com + Thecoffeevine.com + Tabletmag (TLV coffee culture); artandthensome.com + deadsea.com (Qumran visitor guide); TripAdvisor + Frommers + exclusiveisraeltours.com + winetours-winetasting.com (Israel wine tours Golan Galilee); ynetnews.com + itinerary.expert + jfeed.com (Rosh Hanikra 2026 reopening).
+
+### Key competitor landscape observations:
+- **touristisrael.com** continues to own monthly event guides (August 2026 things-to-do) and practical news updates (new flights, hotels, tours). Our strategy: evergreen standalone guides they don't write = our differentiation.
+- **TourRadar**: group-tour aggregator, no editorial depth. Opportunity: editorial comparison content they can't write.
+- **GilTravel/Isrotel**: culinary blog posts, no SEO-optimised guide level. "Culinary tour Israel" query = zero strong guide-level editorial.
+- **Pulled.coffee**: comprehensive coffee shop database for TLV (940 shops); no editorial travel guide. Our tel-aviv-coffee-guide fills this gap.
+- **exclusiveisraeltours.com / winetours-winetasting.com**: booking/tour aggregator for wine tours; no editorial wine regions guide in FR/DE/ES. Zero competition at editorial level.
+- **deadsea.com**: Qumran visitor guide well-ranked in EN; no FR/DE/ES equivalent.
+
+### New attraction: SkyField Bloomfield Stadium Jaffa (2026)
+Israel's first fully accessible extreme park at Bloomfield Stadium; via ferrata + 35m bungee + giant swing + Mediterranean views. Opened 2026. Zero FR/DE/ES editorial. Our skyfield-extreme-park-jaffa EN guide already exists (updatedAt 2026-07-18). FR/DE/ES batch queued in FR-47/DE-45/ES-60.
+
+### Wine tourism opportunity:
+Israel's wine industry growing rapidly (Golan Heights Winery, Galil Mountain Winery = internationally recognized). Zero EN editorial guide at the site level (only golan-heights-wineries sub-topic exists). FR/DE wine-tourism audiences are high-value. israel-wine-guide queued as P2/M BACKLOG item.
+
+### Rosh Hanikra cable car status (2026):
+Confirmed operational/restored. 400m carved grotto route + evening illuminations. ynetnews + itinerary.expert + jfeed all confirm. Existing rosh-hanikra-guide in all 4 locales — freshness check queued as P3/S REVIEW item.

@@ -6,22 +6,47 @@
 >
 > One bounded slice per loop iteration. NEVER bulk-translate in one shot.
 
-## Current status snapshot (2026-08-08 iter1088 BUILD — ES-59 SHIPPED 6fc532d0; next ES BUILD = ES-60 TBD / next FR BUILD = FR-47 TBD / next DE BUILD = DE-45 TBD; next mode = REVIEW iter1089)
+## Current status snapshot (2026-08-08 iter1090 RESEARCH — FR-47/DE-45/ES-60 batch DEFINED; next FR BUILD = FR-47 / next DE BUILD = DE-45 / next ES BUILD = ES-60)
 
 | Locale | Guides | Attractions | Regions | Itineraries |
 |--------|--------|-------------|---------|-------------|
 | en     | 398    | 65          | 11      | 6           |
 | fr     | 317    | 61          | 11      | 6           |
-| de     | 303    | 61          | 11      | 6           |
+| de     | 308    | 61          | 11      | 6           |
 | es     | 299    | 61          | 11      | 6           |
 
 **🎉 MILESTONE: ES + FR + DE monthly guides ALL COMPLETE** (iter996+iter997 ES-41+ES-42 SHIPPED — all 12 per-month guides jan-dec now exist in ES, FR, and DE)
 
 **Gaps to close:**
-- es guides: **99 missing** (299/398 done — Phase ES-59 SHIPPED iter1088 6fc532d0; **next ES BUILD = ES-60** — TBD, define in next RESEARCH pass)
-- fr guides: **81 missing** (317/398 done — Phase FR-46 SHIPPED iter1086 c719dc6d; **next FR BUILD = FR-47** — TBD, define in next RESEARCH pass)
-- de guides: **90 missing** (308/398 done — Phase DE-44 SHIPPED iter1087 ce63a750; **next DE BUILD = DE-45** — TBD, define in next RESEARCH pass)
+- es guides: **99 missing** (299/398 done — Phase ES-59 SHIPPED iter1088 6fc532d0; **next ES BUILD = ES-60** — DEFINED iter1090: soreq-cave-guide + negev-incense-route + skyfield-extreme-park-jaffa + tel-aviv-coffee-guide + tabgha-church-guide)
+- fr guides: **81 missing** (317/398 done — Phase FR-46 SHIPPED iter1086 c719dc6d; **next FR BUILD = FR-47** — DEFINED iter1090: same 5 guides as ES-60)
+- de guides: **90 missing** (308/398 done — Phase DE-44 SHIPPED iter1087 ce63a750; **next DE BUILD = DE-45** — DEFINED iter1090: same 5 guides as FR-47)
 - fr/de/es attractions: **4 missing each** (the 4 EN attractions added after Phase 4)
+
+### FR-47 batch definition (iter1090 RESEARCH — ready for next FR BUILD)
+Guides: `soreq-cave-guide.md`, `negev-incense-route.md`, `skyfield-extreme-park-jaffa.md`, `tel-aviv-coffee-guide.md`, `tabgha-church-guide.md`
+All 5 confirmed MISSING from FR via comm -23 (2026-08-08).
+- soreq-cave-guide: Grotte d'Avshalom (Soreq); INPA valide; 22°C toute l'année; guided 50-min tour; 40 min Jérusalem / 45 min TLV; day-trips-from-jerusalem ✓, israel-with-kids ✓, hiking-in-israel ✓ in FR; discovercars+viator+getyourguide CTAs
+- negev-incense-route: 4 villes nabatéennes UNESCO (Avdat, Mamshit, Haluza, Shivta); self-drive Néguev; hiking-in-israel ✓, 3-days-in-negev ✓, negev-jeep-tours ✓, mitzpe-ramon-guide ✓, israel-national-parks-pass ✓ in FR; discovercars+getyourguide CTAs
+- skyfield-extreme-park-jaffa: SkyField Stade Bloomfield Jaffa 2026; via ferrata + saut à l'élastique 35m + balançoire géante; premier parc extrême accessible en Israël; jaffa-travel-guide ✓, israel-adventure-sports ✓, israel-with-kids ✓ in FR; getyourguide+viator CTAs
+- tel-aviv-coffee-guide: scène specialty troisième vague + culture botz; Florentin, Neve Tzedek, Dizengoff; Festival du Café TLV sept; jaffa-travel-guide ✓, tel-aviv-food-guide ✓, backpacking-israel ✓ in FR; getyourguide+booking CTAs
+- tabgha-church-guide: Église de la Multiplication des Pains et des Poissons (Bénédictins) + Église de la Primauté de Pierre (Franciscains); circuit nord rive Mer de Galilée; 3-days-in-galilee ✓, nazareth-travel-guide ✓, sea-of-galilee-guide ✓ in FR; getyourguide+viator+booking CTAs
+
+### DE-45 batch definition (iter1090 RESEARCH — ready for next DE BUILD)
+Guides: same 5 as FR-47. All confirmed MISSING from DE.
+- soreq-cave-guide: Avshalom-Tropfsteinhöhle; INPA-Pass gültig; 22°C ganzjährig; 50-Min Führung; day-trips-from-jerusalem ✓, israel-with-kids ✓, hiking-in-israel ✓ in DE; DACH Abenteuer-Geologie Nische
+- negev-incense-route: 4 nabatäische UNESCO-Städte (Avdat, Mamshit, Haluza, Shivta); Selbstfahrer-Itinerar; hiking-in-israel ✓, 3-days-in-negev ✓, negev-jeep-tours ✓, mitzpe-ramon-guide ✓, israel-national-parks-pass ✓ in DE; DACH Wohnmobil-Roadtrip-Nische
+- skyfield-extreme-park-jaffa: SkyField Bloomfield-Stadion Jaffa 2026; Klettersteig + 35m Bungee + Riesenschaukel; Israels erstes vollständig barrierefreies Extrempark; jaffa-travel-guide ✓, israel-adventure-sports ✓, israel-with-kids ✓ in DE
+- tel-aviv-coffee-guide: Dritte-Welle-Spezialitätenkaffee + Botz-Tradition; DACH Kaffeekultur-Nische (Deutschland = Europa-Kaffeekultur-Heimat); Festival Sept.; jaffa-travel-guide ✓, tel-aviv-food-guide ✓, backpacking-israel ✓ in DE
+- tabgha-church-guide: Brotvermeherungs-Kirche (Benediktiner) + Kirche des Primats Petri (Franziskaner); DACH Pilgermarkt; 3-days-in-galilee ✓, nazareth-travel-guide ✓, sea-of-galilee-guide ✓ in DE
+
+### ES-60 batch definition (iter1090 RESEARCH — ready for next ES BUILD)
+Guides: same 5 as FR-47. All confirmed MISSING from ES.
+- soreq-cave-guide: Cueva de Avshalom (Soreq); INPA válido; 22°C todo el año; excursión desde Jerusalén ✓; day-trips-from-jerusalem ✓, israel-with-kids ✓, hiking-in-israel ✓ in ES; LATAM turismo familiar
+- negev-incense-route: 4 ciudades nabateas UNESCO (Avdat, Mamshit, Haluza, Shivta); ruta en coche; hiking-in-israel ✓, 3-days-in-negev ✓, negev-jeep-tours ✓, mitzpe-ramon-guide ✓, israel-national-parks-pass ✓ in ES; LATAM turismo arqueológico
+- skyfield-extreme-park-jaffa: SkyField Estadio Bloomfield Jaffa 2026; vía ferrata + salto elástico 35m + columpio gigante; parque extremo familiar; jaffa-travel-guide ✓, israel-adventure-sports ✓, israel-with-kids ✓ in ES
+- tel-aviv-coffee-guide: café de especialidad tercera ola + cultura botz; Florentin, Neve Tzedek; Festival Café sept; jaffa-travel-guide ✓, tel-aviv-food-guide ✓, backpacking-israel ✓ in ES; tel-aviv-things-to-do → EN fallback (no /es/ version)
+- tabgha-church-guide: Iglesia de la Multiplicación de los Panes y Peces + Iglesia del Primado de Pedro; LATAM turismo católico/cristiano (90%+ católicos); 3-days-in-galilee ✓, nazareth-travel-guide ✓, sea-of-galilee-guide ✓ in ES
 
 **Dead Sea cluster status (iter855 audit):**
 - ES: COMPLETE (has dead-sea-guide, dead-sea-hotels-guide, dead-sea-medical-tourism, dead-sea-tours-compared, dead-sea-vs-eilat); still missing: dead-sea-day-trip-comparison, dead-sea-israel-vs-jordan

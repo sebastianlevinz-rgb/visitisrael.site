@@ -16181,3 +16181,28 @@ Fixes: Trimmed 4 titles (62→47, 58→46, 57→48, 64→46) and 5 descriptions 
 Gate: pnpm check 0 errors | build 1698 pages | pnpm test:e2e 10/10 targeted pass (5 smoke + 5 a11y ES-59 routes).
 Ship: squash-merge to master 7e9c990b; pushed to origin/master. CI in_progress at state-write.
 Next: RESEARCH pass (iter1090 % 5 = 0 → RESEARCH; define ES-60/FR-47/DE-45 batches + discover new items).
+
+## 2026-08-08T17:45Z · iter1090 · RESEARCH · research-1090-cave-incense-coffee-tabgha-jaffa-batches
+
+Mode: RESEARCH (1090 % 5 = 0). 221st research pass.
+Sources: filesystem comm -23 gap analysis (114 guides still missing from all 3 locales; FR=317, DE=308, ES=299); WebSearch (touristisrael.com Israel 2026 new attractions + things-to-do; TourRadar/GilTravel culinary tour Israel; Masaisrael.org/Isrotel/Coffeevine/Tabletmag TLV coffee culture; artandthensome/deadsea.com Qumran visitor guide; TripAdvisor/Frommers/exclusiveisraeltours.com Israel wine tours; ynetnews/itinerary.expert/jfeed Rosh Hanikra 2026 reopening); BACKLOG.md de-dupe (tel-megiddo-guide confirmed blocked:human-review-required iter699).
+
+Key findings:
+1. soreq-cave-guide — UNBLOCKED from iter1085 queue; Avshalom Stalactite Cave (Israel's largest limestone cave, 22°C year-round, 50-min guided tour); 40 min Jerusalem / 45 min TLV; INPA valid; zero FR/DE/ES editorial; day-trips-from-jerusalem + israel-with-kids + hiking-in-israel all ✓ in all 3 locales. discovercars+viator+getyourguide CTAs.
+2. negev-incense-route — UNBLOCKED from iter1085 queue; 4 UNESCO Nabataean cities (Avdat, Mamshit, Haluza, Shivta); self-drive essential (no public transport to Mamshit/Shivta/Haluza); hiking-in-israel + 3-days-in-negev + negev-jeep-tours + mitzpe-ramon-guide + israel-national-parks-pass all ✓ in all 3.
+3. skyfield-extreme-park-jaffa — UNBLOCKED from iter1085 queue; SkyField Bloomfield Stadium Jaffa (opened 2026); via ferrata + 35m bungee + giant swing; Israel's first fully accessible extreme park; jaffa-travel-guide + israel-adventure-sports + israel-with-kids all ✓ in all 3.
+4. tel-aviv-coffee-guide — NEW addition; high search volume (TLV Coffee Festival mid-Sept; Pulled.coffee lists 940 TLV shops); third-wave specialty (Cafelix/Nahat/Coffee Lab) + botz tradition; Florentin/Neve Tzedek/Dizengoff circuit; zero FR/DE/ES editorial; jaffa-travel-guide + tel-aviv-food-guide + backpacking-israel all ✓ in all 3; tel-aviv-things-to-do → EN fallback for ES.
+5. tabgha-church-guide — NEW addition replacing tel-megiddo-guide (blocked:human-review-required iter699); Church of Multiplication (Benedictines, 5th-c mosaic floor) + Church of the Primacy of Peter (Franciscans, volcanic basalt); north-shore Galilee circuit; very strong LATAM Catholic appeal; 3-days-in-galilee + nazareth-travel-guide + sea-of-galilee-guide all ✓ in all 3.
+
+Defined batches FR-47/DE-45/ES-60 (same 5 guides each, all missing from all 3 locales confirmed via comm -23):
+soreq-cave-guide + negev-incense-route + skyfield-extreme-park-jaffa + tel-aviv-coffee-guide + tabgha-church-guide
+
+2 new BACKLOG items:
+- israel-wine-guide [P2/M, seo-content] — EN editorial gap; Golan Heights + Upper Galilee + Judean Hills + Negev wine regions; zero EN guide-level coverage; Golan Heights Winery = Israel's best known; reservations required at boutique wineries; strong FR/DE market; cross-links: golan-heights-wineries (EN+FR+DE) ✓; 2h drive to Golan region.
+- rosh-hanikra freshness update [P3/S, REVIEW] — Rosh Hanikra cable car confirmed operational/restored 2026 (ynetnews + itinerary.expert + jfeed); grotto path 400m carved route; existing EN+FR+DE+ES guides may have hedge language about cable car — REVIEW item to check + update if needed. Existing guide fully published all 4 locales.
+
+Competitor observations: TourRadar covers Israel group tours but no standalone guide depth. GilTravel/Isrotel cover culinary and coffee as blog posts only — no SEO-optimised guide level. touristisrael.com owns monthly events + practical info; our gap is the permanent evergreen experience guides. TripAdvisor/Frommers = listing-only for wine; zero editorial guide = our opportunity.
+
+Gate: N/A (research mode). No code changes. No shipping.
+Memory: STATE.md iter→1090. BACKLOG.md + I18N-PLAN.md updated. JOURNAL.md appended. .loop/ committed below.
+Next: iter1091 → BUILD (1091%5=1 → BUILD; FR-47 batch — 5 FR guides: soreq-cave-guide + negev-incense-route + skyfield-extreme-park-jaffa + tel-aviv-coffee-guide + tabgha-church-guide).
