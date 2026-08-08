@@ -1073,6 +1073,11 @@ const ROUTES = [
   '/de/skyfield-extreme-park-jaffa',
   '/de/tel-aviv-coffee-guide',
   '/de/tabgha-church-guide',
+  '/es/jerusalem-trail',
+  '/es/nahalat-binyamin-market-tel-aviv',
+  '/es/via-ferrata-israel',
+  '/es/kerem-hateimanim-tel-aviv',
+  '/es/keshet-cave-guide',
 ];
 
 for (const route of ROUTES) {
