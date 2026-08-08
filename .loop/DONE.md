@@ -2080,3 +2080,6 @@ FR guides: 307→312/398. Build: 1668→1673 pages (+5). 10 new e2e tests (5 smo
 - negev-highway-40-guide: 80km Beer Sheva→Mitzpe Ramon self-drive; km-stop table; INPA Ein Avdat+Avdat both valid
 - israel-for-british-travelers: FCDO tiered by zone; ETA-IL ₪25; UK flights; Type H adapter; Monzo/Starling; British Embassy
 Build: 1683→1688 pages (+5). Gate: 0 errors | build pass | 10/10 e2e.
+
+## iter1089 · REVIEW · review-1089-es59-meta-trim · 7e9c990b
+- Audited ES-59 batch (5 guides). 9 meta fixes applied: 4 titles over limit trimmed (≤54 chars), 5 descriptions over limit trimmed (≤151 chars). 27/27 internal links valid, no broken links, no H1 in body violations, no fabricated prices, no paired-naming issues. Gate clean; build 1698 pages; 10/10 e2e+a11y.

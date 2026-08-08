@@ -1,14 +1,16 @@
 # LOOP STATE
 
-- iteration: 1088
-- lastMode: BUILD
-- lastItem: es-59-batch
-- lastResult: BUILD — ES-59 batch SHIPPED 6fc532d0. 5 ES guides: israel-rainy-day-activities (LATAM tuteo; Israel Museum+Yad Vashem+Torre David+Tunel Muro Occidental Jerusalem; ANU+Museo Arte+Sarona+Design Museum Holon TLV; MadaTech+Tikotin Haifa; clases cocina+bodegas+spa Mar Muerto; GYG cooking+GYG Museum+Booking CTAs; 7 FAQs; cross-links /es/free-things-to-do-israel+/es/jerusalem-museums+/es/judean-hills-wine-trail+/es/dead-sea-guide+/es/best-time-to-visit-israel), sde-boker-ein-avdat-guide (Ben-Gurion figura LATAM reconocida; Kibuz+Tumba+Canyon Ein Avdat; INPA valido; sendero inferior 1.5km facil/superior 3.5km moderado+escaleras metalicas; alerta crecidas relampago; verdictName+verdictQuery; DiscoverCars+GYG+Booking CTAs; 7 FAQs; cross-links /es/israel-national-parks-pass+/es/mitzpe-ramon-guide+/es/negev-highway-40-guide+/es/south-israel-itinerary+/es/3-days-in-negev), latrun-guide (Yad La-Shiryon 200+ vehiculos blindados+1948 4 asaltos+Ruta Burma; Monasterio Trapense 1890+vino kosher+aceite oliva; Mini Israel 350 maquetas 1:25; INPA NOT valid honesty; excursion familiar 3-en-1; GYG+Viator+DiscoverCars CTAs; 7 FAQs; cross-links /es/best-tours-in-israel+/es/car-rental-israel+/es/day-trips-from-tel-aviv+/es/day-trips-from-jerusalem+/es/israel-wine-wineries+/es/israel-military-heritage+/es/transportation), negev-highway-40-guide (Ruta 40 Argentina paralelo explicito; Beer Sheva->Sde Boker->Ein Avdat->Avdat->Mitzpe Ramon 80km; Avdat combustible critico; INPA valido Ein Avdat+Avdat; Timna NOT INPA honesty; DiscoverCars+GYG+Booking CTAs; 5 FAQs; cross-links /es/car-rental-israel+/es/driving-in-israel+/es/israel-national-parks-pass+/es/sde-boker-ein-avdat-guide+/es/mitzpe-ramon-guide+/es/south-israel-itinerary+/es/3-days-in-negev), israel-for-british-travelers (FCDO tiered Zone honesty; ETA-IL 25 NIS iaa.gov.il; El Al/Jet2/Wizz Air/easyJet; BA suspension; Tipo H; Monzo/Starling; Embajada Brit. 192 HaYarkon TLV; LATAM-UK crossover; tabla referencia; Booking+GYG+DiscoverCars CTAs; 6 FAQs; cross-links /es/first-time-in-israel+/es/is-israel-safe+/es/visa-information+/es/cheap-flights-to-israel+/es/airlines-flying-israel-2026+/es/car-rental-israel+/es/driving-in-israel+/es/israel-cost-budget+/es/israel-travel-insurance+/es/israel-money-guide+/es/israel-esim+/es/ben-gurion-airport-guide+/es/israel-5-vs-7-vs-10-days). LATAM neutral tuteo; all /es/* cross-links pre-verified; no fabricated prices/ratings; paired naming; no H1 in body. 10 new e2e routes (5 smoke + 5 a11y) — 10/10 pass. Build: 1693->1698 pages (+5). Gate: pnpm check 0 errors | build 1698 pages | pnpm test:e2e 10/10 targeted pass. Squash-merge to master 6fc532d0; pushed to origin/master. CI in_progress at state-write.
+- iteration: 1089
+- lastMode: REVIEW
+- lastItem: review-1089-es59-meta-trim
+- lastResult: REVIEW — ES-59 meta audit SHIPPED 7e9c990b. Audited 5 ES-59 guides (israel-rainy-day-activities, sde-boker-ein-avdat-guide, latrun-guide, negev-highway-40-guide, israel-for-british-travelers). Found 9 meta-length violations: 4 titles over 54 chars (62, 58, 57, 64), 5 descriptions over 151 chars (159, 177, 168, 195, 195). Zero broken internal links (27/27 /es/* hrefs valid). No H1 in body. No fabricated prices/ratings. No paired-naming issues. Applied focused trims: titles 62→47, 58→46, 57→48, 64→46; descs 159→121, 177→121, 168→131, 195→132, 195→133. All now within bounds. Gate: pnpm check 0 errors | build 1698 pages | pnpm test:e2e 10/10 targeted pass. Squash-merge to master 7e9c990b; pushed to origin/master. CI in_progress at state-write.
 
-- nextRotationCategory: REVIEW (iter1089 % 5 = 4 → REVIEW)
+- nextRotationCategory: RESEARCH (iter1090 % 5 = 0 → RESEARCH)
 - higgsfieldSpent: 0
-- updatedAt: 2026-08-08T15:47Z
+- updatedAt: 2026-08-08T16:37Z
 - branch context: work on master; feature work on auto/<slug>
+
+Notes: iter1089 REVIEW — review-1089-es59-meta-trim SHIPPED 7e9c990b. Audited 5 ES-59 guides. 9 meta fixes: 4 titles trimmed (≤54 chars), 5 descriptions trimmed (≤151 chars). 27/27 internal links valid, no broken links, no H1 in body, no fabricated prices. Gate: pnpm check 0 errors | build 1698 pages | pnpm test:e2e 10/10 targeted pass. CI in_progress at state-write.
 
 Notes: iter1088 BUILD — ES-59 batch SHIPPED 6fc532d0. 5 ES guides: israel-rainy-day-activities, sde-boker-ein-avdat-guide, latrun-guide, negev-highway-40-guide, israel-for-british-travelers. ES guides: 294→299/398. Build: 1693→1698 pages (+5). See lastResult for full detail.
 

@@ -16173,3 +16173,11 @@ LATAM angles: rainy-day="qué hacer cuando llueve" (Israel Museum+Yad Vashem+cla
 Gate: pnpm check 0 errors | build 1693→1698 pages (+5) | pnpm test:e2e 10/10 targeted pass.
 Ship: squash-merge to master 6fc532d0; pushed to origin/master. CI in_progress at state-write.
 Next: REVIEW pass (iter1089 % 5 = 4 → REVIEW; audit recent ES batch for meta/link quality).
+
+## 2026-08-08T16:37Z · iter 1089 · REVIEW · review-1089-es59-meta-trim
+What: Audited the 5 ES-59 guides shipped in iter1088 (israel-rainy-day-activities, sde-boker-ein-avdat-guide, latrun-guide, negev-highway-40-guide, israel-for-british-travelers).
+Findings: 9 meta-length violations found (4 titles >54 chars, 5 descriptions >151 chars). Zero broken internal links (27/27 /es/* hrefs valid). No H1 in body on any file. No fabricated prices or ratings. No paired-naming issues (no contested/religious sites in body content).
+Fixes: Trimmed 4 titles (62→47, 58→46, 57→48, 64→46) and 5 descriptions (159→121, 177→121, 168→131, 195→132, 195→133). All now within bounds.
+Gate: pnpm check 0 errors | build 1698 pages | pnpm test:e2e 10/10 targeted pass (5 smoke + 5 a11y ES-59 routes).
+Ship: squash-merge to master 7e9c990b; pushed to origin/master. CI in_progress at state-write.
+Next: RESEARCH pass (iter1090 % 5 = 0 → RESEARCH; define ES-60/FR-47/DE-45 batches + discover new items).
