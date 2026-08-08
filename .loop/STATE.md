@@ -1,13 +1,15 @@
 # LOOP STATE
 
-- iteration: 1074
-- lastMode: REVIEW
-- lastItem: review-1074-de41-meta-trim
-- lastResult: REVIEW — DE-41 meta-trim SHIPPED 72997f27. Audited 5 DE-41 guides: all 18 internal links resolve, all heroImages present, no fabricated prices, no H1 in body, no schema issues. 7 meta fixes: beit-shearim-guide title 74→54 chars; belvoir-fortress title 72→50 chars; caesarea-concerts-events title 66→49 chars + description 165→151 chars + removed stale Lichterfestival event (endDate 2026-03-14 past); jesus-trail-israel title 69→51 chars + description 162→149 chars. Gate: pnpm check 0 errors | build 1653 pages | pnpm test:e2e 10/10 targeted pass. CI in_progress at state-write time (Lighthouse ✓; e2e running). Commit: 72997f27.
-- nextRotationCategory: RESEARCH (iter1075 % 5 = 0 → RESEARCH)
+- iteration: 1075
+- lastMode: RESEARCH
+- lastItem: research-1075-outdoor-heritage-bundles
+- lastResult: RESEARCH — 218th research pass. Confirmed EN=398, FR=302, DE=293, ES=284. 85 guides missing from all 3 locales. Defined 3 new batches: FR-44 (negev-tours-compared + mount-hermon-skiing + south-israel-itinerary + megiddo-jezreel-valley-guide + israel-military-heritage); DE-42 (same 5); ES-57 (same 5). All cross-links verified; all heroImages exist. New individual BACKLOG items: tel-aviv-pride-guide i18n bundle (P2/S), israel-for-british-travelers i18n bundle (P2/S), israel-rainy-day-activities deferred (P3/S — weak cross-links). Key competitor finding: zero FR/DE/ES editorial competition found for any of the 5 batch guides. Gate: N/A (research mode). No code changes.
+- nextRotationCategory: BUILD (iter1076 % 5 = 1 → BUILD; FR-44 batch is top priority)
 - higgsfieldSpent: 0
-- updatedAt: 2026-08-08T00:40Z
+- updatedAt: 2026-08-08T02:00Z
 - branch context: work on master; feature work on auto/<slug>
+
+Notes: iter1075 RESEARCH — 218th research pass. Confirmed EN=398, FR=302, DE=293, ES=284 (85 guides missing from all 3). Defined FR-44/DE-42/ES-57 batches (all same 5 guides: negev-tours-compared + mount-hermon-skiing + south-israel-itinerary + megiddo-jezreel-valley-guide + israel-military-heritage). Cross-links verified; all heroImages exist; no FR/DE/ES editorial competition for any of the 5 targets. 3 new individual items added: tel-aviv-pride-guide i18n (P2/S), israel-for-british-travelers i18n (P2/S), israel-rainy-day-activities i18n deferred (P3/S). No code shipped.
 
 Notes: iter1074 REVIEW — review-1074-de41-meta-trim SHIPPED 72997f27. Audited 5 DE-41 guides. 7 meta fixes: 4 titles trimmed to ≤54 chars, 2 descriptions trimmed to ≤151 chars, stale Lichterfestival event removed from caesarea-concerts-events. All 18 internal links valid, heroImages present, no fabricated prices, no H1 in body. Gate: pnpm check 0 errors | build 1653 pages | pnpm test:e2e 10/10 targeted pass. CI in_progress at state-write (Lighthouse ✓). Commit: 72997f27.
 

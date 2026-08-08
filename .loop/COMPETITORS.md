@@ -8125,3 +8125,60 @@ Researched Ramadan, UNESCO sites, points-miles and seniors Israel content on com
 **Candidates SKIPPED this pass:**
 - mount-tabor: fr.wikipedia + de.wikipedia + es.wikipedia all have comprehensive articles; pilgrim sites in FR/DE/ES present. Skip all locales.
 - ashkelon: Routard.com + Petit Futé have coverage in FR. Skip for FR priority batches.
+
+### iter1075 research findings — 2026-08-08 — 218th research pass
+
+**1. "negev tours compared" / "tours Néguev comparés" / "Negev-Touren im Vergleich" / "tours Néguev comparados"**
+- GYG (getyourguide.com): tour listings in all 4 languages but ZERO editorial roundup format.
+- TripAdvisor: tour review aggregator; no editorial comparison.
+- BackpackIsrael: EN-only editorial.
+- desertecotours.com: operator with pricing from $495/private (EN-only).
+- ijeept.com: dedicated Negev operator with SEO editorial (EN-only).
+- Gap: ZERO FR/DE/ES editorial "tours compared" format found for the Negev. Pure money-page gap in all 3 locales.
+
+**2. "station de ski Hermon" / "Skigebiet Berg Hermon" / "Monte Hermón esquí"**
+- israelmagazin.de: 1 brief German mention; no dedicated guide.
+- Snow-Forecast.com: EN-only snow report data.
+- skiresort.info: multilingual resort listing but no editorial guide.
+- timeout.com/israel: short EN editorial blurb ("5 things to do at Hermon").
+- touristisrael.com: EN-only Mount Hermon guide.
+- Gap: ZERO dedicated FR/DE/ES editorial guide for Mount Hermon skiing found. israelmagazin.de is only German-language source and is thin.
+
+**3. "Tel Megiddo Armageddon" / "Armagedón Israel"**
+- israel.travel: EN official page.
+- israel-taxi.com: EN editorial visitor guide.
+- tzurtours.com: EN tour operator guide.
+- americaisraeltours.com: EN faith-based guide.
+- levyisraeltours.com: EN editorial.
+- fr.wikipedia / de.wikipedia / es.wikipedia: encyclopedic stub articles (not travel-focused).
+- Gap: ZERO dedicated FR/DE/ES travel editorial guide found. Wikipedia stubs = outrank-able with comprehensive travel content.
+
+**4. "Israel military museums" / "musées militaires Israël" / "Militärmuseen Israel"**
+- beinharimtours.com: EN-only list guide.
+- shalomisraeltours.com: EN-only article.
+- israelinsideout.com: EN-only list.
+- tripadvisor.com: multilingual review aggregator (not editorial).
+- realjourneytravels.com: EN-only IAF Museum review.
+- Gap: ZERO dedicated FR/DE/ES editorial guide found. Only EN editorial sources.
+
+**5. "South Israel itinerary" / "itinéraire sud Israël" / "Südisrael Rundreise"**
+- notesontraveling.com: EN-only editorial itinerary (Negev + Dead Sea).
+- beinharimtours.com: EN-only tour itinerary.
+- desertecotours.com: EN-only Desert tour itinerary.
+- israeltraveladvisor.org: EN-only south Israel guide.
+- Gap: ZERO comprehensive FR/DE/ES editorial itinerary for south Israel found.
+
+**6. Tel Aviv Pride 2026 (competitive landscape)**
+- touristisrael.com: EN-only; multiple dedicated pages (Gay Tel Aviv, Tel Aviv Gay Pride 2026, Gay Pride week events). Well-ranked.
+- misterbandb.com/gay-events: multilingual (EN/FR/ES) event listing format (not editorial guide).
+- gayborhood.com: EN-only editorial event guide.
+- rainbowindex.com: EN-only Pride guide.
+- deccanchronicle.com: news article (June 2026 event coverage).
+- Gap: ZERO dedicated FR/DE/ES editorial travel guide for Tel Aviv Pride found. misterbandb event listing ≠ editorial guide.
+
+**7. UK travel advisory update (July 2026)**
+- UK Foreign Office removed Israel from blanket travel advisory (first time since June 2025 Iran war).
+- thejc.com, jewishnews.co.uk, thetraveler.org all covered the change.
+- Still advises against Gaza/500m border/north WB/Golan.
+- Signal: British traveler search intent for Israel will spike → israel-for-british-travelers i18n is timely.
+

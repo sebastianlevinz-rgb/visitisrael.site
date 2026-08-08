@@ -16009,3 +16009,31 @@ Ship: squash-merge 72997f27 on master, pushed to origin/master. Lighthouse CI �
 Fixes: beit-shearim-guide title 74→54 chars; belvoir-fortress title 72→50 chars; caesarea-concerts-events title 66→49 chars + desc 165→151 chars + removed stale Lichterfestival event (endDate 2026-03-14 past); jesus-trail-israel title 69→51 chars + desc 162→149 chars.
 Memory: STATE.md iter→1074, nextRotation RESEARCH (1075%5=0).
 Next: iter1075 → RESEARCH (1075 % 5 = 0 → RESEARCH mode).
+
+## 2026-08-08T02:00Z · iter1075 · RESEARCH · research-1075-outdoor-heritage-bundles
+
+Mode: RESEARCH (1075 % 5 = 0 → RESEARCH). 218th research pass.
+Sources: WebSearch (SERPs for Negev tours, Mount Hermon skiing, Tel Megiddo/Armageddon, Israel military heritage, South Israel itinerary, Tel Aviv Pride 2026, UK travel advisory) + competitor analysis (touristisrael.com, beinharimtours.com, shalomisraeltours.com, israelinsideout.com, gayborhood.com, misterbandb.com, notesontraveling.com) + filesystem gap analysis.
+
+Locale counts verified: EN=398, FR=302, DE=293, ES=284. Guides missing from ALL 3 locales: 85.
+
+Key findings:
+1. negev-tours-compared — GYG has tours in all 4 language UIs but ZERO FR/DE/ES editorial "tours compared" roundup → pure money-page SERP gap confirmed.
+2. mount-hermon-skiing — israelmagazin.de has 1 brief mention; zero FR/ES editorial → outrank-able in all 3 locales. French + DACH ski markets = ideal hooks.
+3. megiddo-jezreel-valley-guide — fr/de/es.wikipedia have stub articles only; zero travel-editorial competition → outrank-able.
+4. israel-military-heritage — beinharimtours.com + shalomisraeltours.com cover in EN only; zero FR/DE/ES editorial found.
+5. south-israel-itinerary — notesontraveling.com + beinharimtours.com in EN only; zero FR/DE/ES editorial roundup.
+6. Tel Aviv Pride 2026 (June 12, 2026; 250,000+ participants) — touristisrael.com dominates in EN; misterbandb has event listing (not editorial); zero dedicated FR/DE/ES editorial guide.
+7. UK travel advisory lifted June 2026 → israel-for-british-travelers i18n bundle now timely.
+8. israel-rainy-day-activities deferred: 4+ key cross-links missing from all 3 locales (yad-vashem-guide, israel-museum-guide, jerusalem-travel-guide, tel-aviv-travel-guide) → requeue for FR-46/DE-44/ES-59.
+
+Defined batches:
+- FR-44: negev-tours-compared + mount-hermon-skiing + south-israel-itinerary + megiddo-jezreel-valley-guide + israel-military-heritage. All cross-links verified; EN fallbacks for eilat-guide + jezreel-valley-guide + yad-vashem-guide. FR 302→307/398.
+- DE-42: same 5 guides. DE 293→298/398.
+- ES-57: same 5 guides. ES 284→289/398.
+New individual items: tel-aviv-pride-guide i18n (P2/S, queue FR-45/DE-43/ES-58); israel-for-british-travelers i18n (P2/S, same queue); israel-rainy-day-activities i18n deferred (P3/S).
+
+Gate: N/A (research mode). No code changes. No shipping.
+Memory: STATE.md iter→1075, lastMode RESEARCH, nextRotation BUILD (1076%5=1→BUILD). BACKLOG.md updated (FR-44+DE-42+ES-57 batches + 3 individual items). COMPETITORS.md updated.
+Next: iter1076 → BUILD (1076 % 5 = 1 → BUILD; FR-44 batch — 5 FR guides: negev-tours-compared + mount-hermon-skiing + south-israel-itinerary + megiddo-jezreel-valley-guide + israel-military-heritage).
+
