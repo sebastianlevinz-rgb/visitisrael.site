@@ -16115,3 +16115,37 @@ Ship: squash-merge on master 28227223; pushed to origin/master. Feature branch d
 Prod: CI in_progress at push time (Lighthouse ✓ pending).
 Memory: STATE.md iter→1084, lastMode REVIEW, nextRotation RESEARCH (1085%5=0 → RESEARCH).
 Next: iter1085 → RESEARCH (research pass — discover/prioritize new backlog items).
+
+## 2026-08-08T14:00Z · iter1085 · RESEARCH · research-1085-negev-british-indoor-batches
+
+Mode: RESEARCH (1085 % 5 = 0). 220th research pass.
+Sources: filesystem gap analysis (comm -23: 75 guides missing from all 3 locales; FR=312, DE=303, ES=294); WebSearch (JPost/JewishNews/etaisrael.com re UK FCDO advisory lifted June 2026; TransitGuide/TimesOfIsrael/EverythingJerusalem re Jerusalem Green Line Malha–Binyanei Hauma May 2026 opening; DannyTheDigger/BeinHarim re Latrun Yad La-Shiryon; TripAdvisor rainy-day EN-only lists; TravelPulse/TravelandTourWorld re Israel tourism 2026 new attractions); DONE.md + BACKLOG.md de-dupe to avoid repeating shipped work.
+
+Key findings:
+1. israel-rainy-day-activities — deferred since iter1075 due to missing cross-links; NOW FULLY UNBLOCKED: yad-vashem-visitor-guide + israel-museum-jerusalem + jerusalem-museums + western-wall-guide + church-holy-sepulchre-guide + israel-with-kids all confirmed in FR/DE/ES via filesystem check. Zero editorial competition in FR/DE/ES.
+2. sde-boker-ein-avdat-guide — Strong Negev cluster cross-link support (south-israel-itinerary + 3-days-in-negev + negev-jeep-tours + mitzpe-ramon-guide all in FR/DE/ES from recent batches). Hoshen Tours/Danny the Digger EN-only; zero FR/DE/ES editorial equivalent.
+3. latrun-guide — Three-for-one Route 1 stop (Yad La-Shiryon 200+ AFVs, Trappist Monastery winery, Mini Israel). Just-shipped israel-military-heritage + valley-of-tears-golan provide natural cross-links in all 3 locales. DannyTheDigger + BeinHarim EN-only; zero FR/DE/ES editorial.
+4. negev-highway-40-guide — Self-drive Beer-Sheva→Sde Boker→Ein Avdat→Avdat→Mitzpe Ramon; strong DACH/FR car-rental market appeal. car-rental-israel + driving-in-israel + 3-days-in-negev + south-israel-itinerary all confirmed in FR/DE/ES. Zero FR/DE/ES road-trip guide equivalent.
+5. israel-for-british-travelers — FCDO removed blanket "do not travel" June 2026; most of Israel now "green". HONESTY NOTE: FCDO still advises against Golan Heights (relevant for our Golan cross-links — must note). ETA-IL required for UK citizens (₪25, 2yr, multi-trip, 90d max/stay). El Al + Wizz Air + easyJet operating LHR/LGW/MAN→TLV. visa-information + cheap-flights + is-israel-safe + airlines-flying-israel-2026 all confirmed in FR/DE/ES.
+
+Defined batches:
+- FR-46: israel-rainy-day-activities + sde-boker-ein-avdat-guide + latrun-guide + negev-highway-40-guide + israel-for-british-travelers. FR 312→317/398.
+- DE-44: same 5 guides. DE 303→308/398.
+- ES-59: same 5 guides. ES 294→299/398.
+All 5 confirmed MISSING from all 3 locales via comm -23 filesystem check.
+
+Cross-links all verified per locale (FR/DE/ES ✓):
+- israel-rainy-day-activities: yad-vashem-visitor-guide ✓, israel-museum-jerusalem ✓, jerusalem-museums ✓, western-wall-guide ✓, church-holy-sepulchre-guide ✓, israel-with-kids ✓
+- sde-boker-ein-avdat-guide: 3-days-in-negev ✓, south-israel-itinerary ✓, hiking-in-israel ✓, mitzpe-ramon-guide ✓, negev-jeep-tours ✓ (national-parks-pass-calculator → EN fallback OK, tool is EN-only)
+- latrun-guide: israel-military-heritage ✓, valley-of-tears-golan ✓, day-trips-from-tel-aviv ✓, day-trips-from-jerusalem ✓
+- negev-highway-40-guide: car-rental-israel ✓, driving-in-israel ✓, 3-days-in-negev ✓, mitzpe-ramon-guide ✓, south-israel-itinerary ✓
+- israel-for-british-travelers: visa-information ✓, cheap-flights-to-israel ✓, is-israel-safe ✓, airlines-flying-israel-2026 ✓ (israeli-passport-stamp → EN fallback)
+
+3 new individual items queued for subsequent batch (FR-47/DE-45/ES-60):
+1. soreq-cave-guide i18n (P2/S, seo-content) — Israel's most-visited family cave; INPA pass valid; day-trips-from-jerusalem + israel-with-kids cross-links ✓ in all 3.
+2. negev-incense-route i18n (P2/S, seo-content) — UNESCO Nabataean Incense Route (Avdat+Haluza+Mamshit+Shivta); DACH/FR Kulturreise market; hiking-in-israel + 3-days-in-negev cross-links ✓.
+3. skyfield-extreme-park-jaffa i18n (P2/S, seo-content) — Israel's largest extreme park opened Bloomfield Stadium Jaffa 2026; jaffa-travel-guide + israel-adventure-sports ✓ in all 3.
+
+Gate: N/A (research mode). No code changes. No shipping.
+Memory: STATE.md iter→1085. BACKLOG.md + I18N-PLAN.md + COMPETITORS.md updated.
+Next: iter1086 → BUILD (1086%5=1 → BUILD; FR-46 batch — 5 FR guides: israel-rainy-day-activities + sde-boker-ein-avdat-guide + latrun-guide + negev-highway-40-guide + israel-for-british-travelers).

@@ -4,6 +4,36 @@ Format: `- [P1] (category, effort S/M/L) Title — why valuable — impl sketch 
 Priorities P0 (highest) → P3. Status: ready | blocked:<reason> | in-progress.
 
 ## i18n — ready batches (next BUILD iterations)
+
+### FR-46 batch definition (iter1085 RESEARCH — ready for next FR BUILD)
+Guides: `israel-rainy-day-activities.md`, `sde-boker-ein-avdat-guide.md`, `latrun-guide.md`, `negev-highway-40-guide.md`, `israel-for-british-travelers.md`
+All 5 confirmed MISSING from FR via comm -23 (2026-08-08).
+- israel-rainy-day-activities: UNBLOCKED (yad-vashem-visitor-guide + israel-museum-jerusalem + jerusalem-museums + western-wall-guide + church-holy-sepulchre-guide + israel-with-kids all ✓ in FR); zero FR editorial equivalent; "que faire en Israël quand il pleut" = unclaimed SERP; covers Israel Museum + Yad Vashem + cooking classes + Dead Sea spa + indoor Tel Aviv; GYG cooking class + GYG Israel Museum tour + Booking.com Jerusalem CTAs.
+- sde-boker-ein-avdat-guide: Negev cluster now strong in FR (south-israel-itinerary + 3-days-in-negev + negev-jeep-tours + mitzpe-ramon-guide all ✓); Ben-Gurion desert home + Ein Avdat canyon; zero FR editorial (hoshen-tours.com EN-only); lower trail 1.5km + upper trail 3.5km + ladder descent; INPA pass valid; discovercars+getyourguide+booking CTAs.
+- latrun-guide: israel-military-heritage + valley-of-tears-golan now in FR ✓; three-for-one Route 1 stop (Yad La-Shiryon 200+ AFVs + 1890 Trappist Monastery winery + Mini Israel 1:25 scale); free outdoor collection; DannyTheDigger+BeinHarim EN-only; verdictName+verdictQuery; day-trips-from-tel-aviv + day-trips-from-jerusalem cross-links ✓; GYG+Viator+Discovercars CTAs.
+- negev-highway-40-guide: car-rental-israel + driving-in-israel + 3-days-in-negev + mitzpe-ramon-guide + south-israel-itinerary all ✓ in FR; Beer-Sheva → Sde Boker → Ein Avdat → Avdat UNESCO → Mitzpe Ramon self-drive; INPA pass valid at multiple stops; zero FR road-trip guide equivalent; Discovercars+GYG+Booking CTAs.
+- israel-for-british-travelers: FCDO removed blanket "do not travel" June 2026 — most of Israel "green"; HONESTY: Golan Heights still cautioned by FCDO, Gaza + parts of West Bank excluded → note in guide; ETA-IL ₪25 UK citizens mandatory; El Al/Wizz Air/easyJet LHR/LGW/MAN→TLV; Type H adapter (240V identical to UK); Monzo/Revolut roaming; British Embassy 192 HaYarkon TLV; visa-information + cheap-flights + is-israel-safe + airlines-flying-israel-2026 all ✓ in FR; Booking+GYG+Discovercars CTAs.
+Cross-link notes: national-parks-pass-calculator → EN fallback (tool EN-only); israeli-passport-stamp → EN fallback (missing FR). All other /fr/* hrefs exist.
+Status: ready [iter1085 research]
+
+### DE-44 batch definition (iter1085 RESEARCH — ready for next DE BUILD)
+Guides: `israel-rainy-day-activities.md`, `sde-boker-ein-avdat-guide.md`, `latrun-guide.md`, `negev-highway-40-guide.md`, `israel-for-british-travelers.md`
+All 5 confirmed MISSING from DE via comm -23 (2026-08-08).
+Key DACH angles per guide: rainy-day = "Was tun in Israel bei Regen" (unclaimed German SERP; Israel Museum Archäologie-Flügel particularly relevant for DACH); sde-boker = Ben-Gurion Wüsten-Kibbuz + Ein-Avdat-Canyon; latrun = Panzermuseum Yad La-Shiryon (150+ gepanzerte Fahrzeuge; DACH military-history tourism niche; Trappistenwein Latrun); negev-highway-40 = DACH top Mietwagen-Roadtrip-Markt (Wohnmobil Israel angle; km-genaue Stopptabelle; Road 40 Naturlandschaft Negev; INPA-Pass-Abdeckung); israel-for-british-travelers = UK is Germany's top outbound destination overlap + DACH expats in UK researching Israel.
+Cross-link notes: national-parks-pass-calculator → EN fallback; israeli-passport-stamp → EN fallback. All other /de/* hrefs exist.
+Status: ready [iter1085 research]
+
+### ES-59 batch definition (iter1085 RESEARCH — ready for next ES BUILD)
+Guides: `israel-rainy-day-activities.md`, `sde-boker-ein-avdat-guide.md`, `latrun-guide.md`, `negev-highway-40-guide.md`, `israel-for-british-travelers.md`
+All 5 confirmed MISSING from ES via comm -23 (2026-08-08).
+Key LATAM angles per guide: rainy-day = "qué hacer en Israel cuando llueve" (tuteo; museo de Israel + Yad Vashem + clases cocina; zero LATAM editorial); sde-boker = Ben-Gurion figura histórica muy reconocida en LATAM (su decisión de vivir en el desierto es muy citada); latrun = Museo de Tanques + Monasterio Trapense + Mini Israel (excursión familiar 3-en-1); negev-highway-40 = Ruta 40 en Israel — resonates with LATAM road-trippers (Ruta 40 = iconic Argentine road; use the parallel deliberately); israel-for-british-travelers = large British community in Argentina/Chile/Mexico; LATAM-UK crossover travelers.
+Cross-link notes: national-parks-pass-calculator → EN fallback; israeli-passport-stamp → EN fallback. All other /es/* hrefs exist.
+Status: ready [iter1085 research]
+
+### Individual items queued for FR-47/DE-45/ES-60 (to be defined in next RESEARCH pass):
+- soreq-cave-guide i18n (P2/S, seo-content) — Israel's most-visited family limestone cave; INPA pass valid; day-trips-from-jerusalem + israel-with-kids ✓ all 3 locales; zero FR/DE/ES editorial; "Grotte stalactites Israël" / "Stalaktitenhöhle Israel" / "Cueva de Soreq Israel" unclaimed SERPs.
+- negev-incense-route i18n (P2/S, seo-content) — UNESCO Nabataean Incense Route (Avdat+Haluza+Mamshit+Shivta); "Route de l'Encens Néguev" / "Weihrauchroute Negev" / "Ruta del Incienso Néguev"; hiking-in-israel + 3-days-in-negev ✓ all 3; DACH Kulturreise + FR Patrimoine mondial market.
+- skyfield-extreme-park-jaffa i18n (P2/S, seo-content) — Israel's largest extreme park Bloomfield Stadium Jaffa 2026 (via ferrata, 35m bungee, giant swing); jaffa-travel-guide + israel-adventure-sports ✓ all 3; "SkyField Jaffa" zero FR/DE/ES editorial.
 <!-- iter930 research additions — 2026-08-01 — 186th research pass. comm -23 confirmed all batch guides MISSING. Sources: civitatis.com, routard.com, urlaubsguru.de, sonnenklar.tv, travelandtourworld.com, touristisrael.com, jns.org, ynetnews.com, israelhayom.com. Key findings: Galilee Culinary Institute soft-launched Feb 2026 (academic year Oct 2026) — EN guide already current; galilee-culinary-institute-gonen MISSING from all 3 locales → priority for all 3 next batches. Eilat luxury revival (Airport City 1B NIS, Princess Hotel future revival, Almog Beach city-designated) — our guides already capture these; no immediate freshness fix needed. Kassland Resort CONFIRMED OPEN May 2026 (HUMAN REVIEW status unchanged — Ma'ale Adumim settlement framing). Routard FR travel advisory (France Ministry March 2026 state of emergency) — our is-israel-safe content stable. ES: israel-by-month ALREADY EXISTS in ES. DE: haifa-tours-compared ALREADY EXISTS in DE (DE-14). Rival landscape: Civitatis tour-only for Israel; Routard/Petit Futé thin stubs; Sonnenklar.tv / urlaubsguru.de aggregator — zero editorial competition on individual guide pages. -->
 - [SHIPPED iter926 b9ec8b3a] (i18n-ES, M) ES Phase ES-29 — jerusalem-food-guide, tel-aviv-food-guide, rosh-hanikra-guide, mount-of-olives-guide, safed-tzfat-guide. ES guides 145→150/398. 1769/1769 e2e pass.
 - [SHIPPED iter931 e3f0ecf4] (i18n-ES, M) ES Phase ES-30 — israel-events-festivals, galilee-culinary-institute-gonen, herzliya-guide, israel-egypt-guide, israel-esim. ES guides 150→155/398. 1799/1799 e2e pass.

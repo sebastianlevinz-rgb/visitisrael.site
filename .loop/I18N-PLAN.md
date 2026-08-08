@@ -6,7 +6,7 @@
 >
 > One bounded slice per loop iteration. NEVER bulk-translate in one shot.
 
-## Current status snapshot (2026-08-08 iter1083 BUILD — ES-58 SHIPPED 61365c5c; next FR BUILD = FR-46 not yet defined / next DE BUILD = DE-43 not yet defined / next ES BUILD = ES-59 not yet defined)
+## Current status snapshot (2026-08-08 iter1085 RESEARCH — FR-46/DE-44/ES-59 DEFINED; next FR BUILD = FR-46 ready / next DE BUILD = DE-44 ready / next ES BUILD = ES-59 ready)
 
 | Locale | Guides | Attractions | Regions | Itineraries |
 |--------|--------|-------------|---------|-------------|
@@ -18,9 +18,9 @@
 **🎉 MILESTONE: ES + FR + DE monthly guides ALL COMPLETE** (iter996+iter997 ES-41+ES-42 SHIPPED — all 12 per-month guides jan-dec now exist in ES, FR, and DE)
 
 **Gaps to close:**
-- es guides: **104 missing** (294/398 done — Phase ES-58 SHIPPED iter1083 61365c5c: tel-aviv-pride-guide + mount-tabor-guide + wadi-qelt-monastery-guide + schottenstein-campus-jerusalem + valley-of-tears-golan; **next ES BUILD = ES-59** — not yet defined)
-- fr guides: **86 missing** (312/398 done — Phase FR-45 SHIPPED iter1081 bdff652c: tel-aviv-pride-guide + mount-tabor-guide + wadi-qelt-monastery-guide + schottenstein-campus-jerusalem + valley-of-tears-golan; **next FR BUILD = FR-46** — not yet defined)
-- de guides: **95 missing** (303/398 done — Phase DE-43 SHIPPED iter1082 a39ae874: tel-aviv-pride-guide + mount-tabor-guide + wadi-qelt-monastery-guide + schottenstein-campus-jerusalem + valley-of-tears-golan; **next DE BUILD = DE-44** — not yet defined)
+- es guides: **104 missing** (294/398 done — Phase ES-58 SHIPPED iter1083 61365c5c; **next ES BUILD = ES-59** — DEFINED iter1085: israel-rainy-day-activities + sde-boker-ein-avdat-guide + latrun-guide + negev-highway-40-guide + israel-for-british-travelers → ES 294→299/398)
+- fr guides: **86 missing** (312/398 done — Phase FR-45 SHIPPED iter1081 bdff652c; **next FR BUILD = FR-46** — DEFINED iter1085: same 5 guides → FR 312→317/398)
+- de guides: **95 missing** (303/398 done — Phase DE-43 SHIPPED iter1082 a39ae874; **next DE BUILD = DE-44** — DEFINED iter1085: same 5 guides → DE 303→308/398)
 - fr/de/es attractions: **4 missing each** (the 4 EN attractions added after Phase 4)
 
 **Dead Sea cluster status (iter855 audit):**
@@ -79,6 +79,28 @@ comm -23 \
 Take the top 5 by priority (or head -5 if priority not obvious), translate each one.
 
 ## Progress tracker
+
+### FR-46 batch definition (iter1085 RESEARCH — ready for next FR BUILD)
+Guides: `israel-rainy-day-activities.md`, `sde-boker-ein-avdat-guide.md`, `latrun-guide.md`, `negev-highway-40-guide.md`, `israel-for-british-travelers.md`
+All 5 confirmed MISSING from FR via comm -23 (2026-08-08).
+- israel-rainy-day-activities: "que faire en Israël quand il pleut" = unclaimed; UNBLOCKED — yad-vashem-visitor-guide + israel-museum-jerusalem + jerusalem-museums + western-wall-guide + church-holy-sepulchre-guide + israel-with-kids all ✓ FR; GYG cooking class + GYG museum tour + Booking CTAs.
+- sde-boker-ein-avdat-guide: Ben-Gurion's desert home + Ein Avdat canyon; 3-days-in-negev + south-israel-itinerary + mitzpe-ramon-guide ✓ FR; discovercars+getyourguide+booking CTAs; INPA pass valid.
+- latrun-guide: Yad La-Shiryon 200+ AFVs (free) + Trappist Monastery wine + Mini Israel 1:25; israel-military-heritage + valley-of-tears-golan ✓ FR (just shipped); day-trips-from-tel-aviv + day-trips-from-jerusalem ✓; GYG+Viator+Discovercars CTAs; verdictName+verdictQuery.
+- negev-highway-40-guide: Beer-Sheva → Sde Boker → Ein Avdat → Avdat → Mitzpe Ramon; car-rental-israel + driving-in-israel ✓ FR; INPA pass Sde Boker+Ein Avdat+Avdat valid; Discovercars+GYG+Booking CTAs; km-stop table.
+- israel-for-british-travelers: FCDO "green" June 2026 (HONESTY: Golan still cautioned; Gaza/West Bank exclusions stated); ETA-IL ₪25 UK mandatory; El Al/Wizz Air/easyJet routes; Type H adapter; Monzo/Revolut; British Embassy 192 HaYarkon TLV; visa-information + cheap-flights + is-israel-safe + airlines ✓ FR; Booking+GYG+Discovercars CTAs.
+EN fallbacks: national-parks-pass-calculator (tool EN-only); israeli-passport-stamp (missing FR → /israeli-passport-stamp EN).
+
+### DE-44 batch definition (iter1085 RESEARCH — ready for next DE BUILD)
+Guides: `israel-rainy-day-activities.md`, `sde-boker-ein-avdat-guide.md`, `latrun-guide.md`, `negev-highway-40-guide.md`, `israel-for-british-travelers.md`
+All 5 confirmed MISSING from DE via comm -23 (2026-08-08).
+DACH angles: rainy-day = "Was tun in Israel bei Regen" (unclaimed DACH SERP); sde-boker = Kibbutz-Wüstenleben + Ibex; latrun = Panzermuseum DACH military-history niche + Trappistenwein; negev-highway-40 = Mietwagen-Roadtrip #1 DACH market (km-Stopptabelle; Kraftstoffhinweise; INPA-Pass); israel-for-british-travelers = DACH UK expat community + German-British traveler overlap.
+EN fallbacks: national-parks-pass-calculator → EN; israeli-passport-stamp → EN. All /de/* cross-links verified ✓.
+
+### ES-59 batch definition (iter1085 RESEARCH — ready for next ES BUILD)
+Guides: `israel-rainy-day-activities.md`, `sde-boker-ein-avdat-guide.md`, `latrun-guide.md`, `negev-highway-40-guide.md`, `israel-for-british-travelers.md`
+All 5 confirmed MISSING from ES via comm -23 (2026-08-08).
+LATAM angles: rainy-day = "qué hacer en Israel cuando llueve" (tuteo; zero LATAM editorial); sde-boker = Ben-Gurion muy conocido en LATAM; latrun = Museo de Tanques + Monasterio Trapense + Mini Israel (excursión 3-en-1); negev-highway-40 = "Ruta 40 en Israel" (deliberate resonance with iconic Argentine Ruta 40); israel-for-british-travelers = comunidad británica en Argentina/Chile/México.
+EN fallbacks: national-parks-pass-calculator → EN; israeli-passport-stamp → EN. All /es/* cross-links verified ✓.
 
 ### FR-45 — SHIPPED iter1081 bdff652c — 5 FR guides: tel-aviv-pride-guide + mount-tabor-guide + wadi-qelt-monastery-guide + schottenstein-campus-jerusalem + valley-of-tears-golan. FR: 307→312/398. Build: 1673 pages (+5). Gate: pnpm check 0 errors | build 1673 pages | pnpm test:e2e 10/10 targeted pass.
 Guides: `tel-aviv-pride-guide.md`, `mount-tabor-guide.md`, `wadi-qelt-monastery-guide.md`, `schottenstein-campus-jerusalem.md`, `valley-of-tears-golan.md`

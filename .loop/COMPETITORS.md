@@ -8233,3 +8233,22 @@ Researched Ramadan, UNESCO sites, points-miles and seniors Israel content on com
 - tourism news: Yahel-Timna 100km MTB singletrack opened Dec 2025 — update arava-mountain-biking.
 - globalsecurity.org / pjmedia.com: Netanyahu "Bible Road" Highway 60 announcement June 18 2026 — new SEO opportunity.
 - recommend.com: North American visitor YoY +73% June 2026; LATAM and European markets recovering.
+
+### 2026-08-08 · iter1085 · RESEARCH · 220th pass — Negev/British/Indoor batch candidates
+Sources: JPost.com (UK advisory lifted), JewishNews.co.uk (UK tourism boost), etaisrael.com/requirements/united-kingdom (ETA-IL UK), TransitGuide.org/jerusalem-light-rail (Green Line specs), timesofisrael.com (Green Line opening), dannythedigger.com/latrun-yad-la-shiryon (Latrun EN editorial), beinharimtours.com (Latrun EN), takeyourbackpack.com/visit-sde-boker (Sde Boker EN), hoshen-tours.com/destinations/negev/sde-boker (EN), tripadvisor.com (rainy day EN lists only), travelpulse.com + travelandtourworld.com (Israel tourism 2026 infrastructure), semerenkogroup.com (Green Line tech details).
+
+Key competitor gaps confirmed for FR/DE/ES:
+- **Sde Boker/Ein Avdat**: DannyTheDigger + hoshen-tours.com + takeyourbackpack all EN-only. No FR/DE/ES editorial equivalent found in any source.
+- **Latrun/Yad La-Shiryon**: DannyTheDigger + BeinHarim + israelbylocals + slavaguide.com all EN-only. slavaguide.com has multi-language UI but thin content. Zero FR/DE/ES editorial travel guide.
+- **Israel Rainy Day Activities**: TripAdvisor EN "10 Best Indoor Things" list exists; no narrative travel guide. Zero FR/DE/ES editorial equivalent on TripAdvisor or any competitor.
+- **Negev Highway 40**: EN coverage: walkinginthere.com snippet, israel-in-photos.com EN guide. Zero FR/DE/ES editorial road-trip guide found.
+- **Israel for British Travelers**: touristisrael.com covers in EN; no FR/DE/ES equivalent found. UK advisory update (FCDO June 2026) makes this highly current. NOTE: thetraveler.org UK 2026 warnings article found but this is general advisory news, not a visitor guide.
+
+Jerusalem Green Line (not in this batch but relevant for future):
+- Green Line first section Malha–Binyanei Hauma opened May 2026; HaTurim section follow-on; full 35-station line expected 2027. 200,000 pax/day projected.
+- Zero FR/DE/ES transit guide found. Only EN Wikipedia + transitguide.org (English-only) + everythingjerusalem.com (EN). High utility for international visitors navigating Jerusalem.
+
+New attractions for future EN items (already in BACKLOG individual items queue):
+- Kassland Resort & Spa: 220-room thermal spa complex near Jerusalem (Ma'ale Adumim), May 2026. NOTE: Ma'ale Adumim = Israeli settlement West Bank → requires human review before featuring.
+- Galilee Culinary Institute at Kibbutz Gonen: academic year Oct 2026 launch → EN guide already exists (shipped iter522); DE/ES/FR i18n already shipped in prior batches (DE iter933, FR iter932, ES iter931) — NOT missing.
+- Rosh Hanikra cable car: reopened after security closure. All locales already have rosh-hanikra-guide — potential freshness update, not new guide.

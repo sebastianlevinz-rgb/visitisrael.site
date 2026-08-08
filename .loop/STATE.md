@@ -1,13 +1,15 @@
 # LOOP STATE
 
-- iteration: 1084
-- lastMode: REVIEW
-- lastItem: review-1084-es58-meta-trim
-- lastResult: REVIEW — ES-58 meta trim SHIPPED 28227223. Audited 5 ES-58 guides (tel-aviv-pride-guide, mount-tabor-guide, wadi-qelt-monastery-guide, schottenstein-campus-jerusalem, valley-of-tears-golan). All 18 cross-links valid; heroImages present; no H1 in body; no fabricated prices; paired naming intact; honesty notes intact. 5 meta fixes: tel-aviv-pride desc 170→131c; wadi-qelt desc 159→134c; schottenstein desc 172→143c; valley-of-tears title 74→55c + desc 159→143c. Gate: pnpm check 0 errors | build 1683 pages | pnpm test:e2e 2479/2479 pass (20.5m). CI in_progress at state-write (Lighthouse ✓ pending). Commit: 28227223.
-- nextRotationCategory: RESEARCH (iter1085 % 5 = 0 → RESEARCH)
+- iteration: 1085
+- lastMode: RESEARCH
+- lastItem: research-1085-negev-british-indoor-batches
+- lastResult: RESEARCH — 220th research pass. Confirmed FR=312, DE=303, ES=294 vs EN=398 (75 guides missing from all 3). Defined FR-46/DE-44/ES-59 batch: israel-rainy-day-activities (NOW UNBLOCKED — all cross-links available in FR/DE/ES) + sde-boker-ein-avdat-guide + latrun-guide + negev-highway-40-guide + israel-for-british-travelers (FCDO lifted blanket advisory June 2026, Golan still cautioned). All 5 confirmed MISSING from FR/DE/ES via comm -23. 3 new individual items queued: soreq-cave-guide i18n, negev-incense-route i18n, skyfield-extreme-park-jaffa i18n. No code shipped.
+- nextRotationCategory: BUILD (iter1086 % 5 = 1 → BUILD; FR-46 batch)
 - higgsfieldSpent: 0
-- updatedAt: 2026-08-08T12:20Z
+- updatedAt: 2026-08-08T14:00Z
 - branch context: work on master; feature work on auto/<slug>
+
+Notes: iter1085 RESEARCH — 220th research pass. EN=398, FR=312, DE=303, ES=294 (75 missing all 3). FR-46/DE-44/ES-59 batch defined: israel-rainy-day-activities (UNBLOCKED) + sde-boker-ein-avdat-guide + latrun-guide + negev-highway-40-guide + israel-for-british-travelers. Cross-links all verified in FR/DE/ES. Honesty note: FCDO advisory for israel-for-british-travelers — blanket travel warning lifted June 2026; Golan Heights still cautioned + Gaza/West Bank exclusions remain. 3 new individual items: soreq-cave-guide i18n (P2/S), negev-incense-route i18n (P2/S), skyfield-extreme-park-jaffa i18n (P2/S). BACKLOG/I18N-PLAN/COMPETITORS.md updated. No code shipped.
 
 Notes: iter1083 BUILD — ES-58 batch SHIPPED 61365c5c. 5 ES guides: tel-aviv-pride-guide (LATAM LGBTQ+ tuteo; Hilton Beach; circuit parties; Events-schema 2027-06-11), mount-tabor-guide (Camino de Santiago/Tierra Santa resonance; verdictName+verdictQuery; INPA NOT valid), wadi-qelt-monastery-guide (Nahal Prat 27km; San Jorge de Koziba; alerta crecidas; verdictName+verdictQuery; INPA valid Ein Prat), schottenstein-campus-jerusalem (IAA 2026; 2M objetos + 15K fragmentos MS Mar Muerto; Safdie trilogía; verdictName+verdictQuery; INPA NOT valid; qumran→EN fallback), valley-of-tears-golan (6 oct 1973; Yom Kipur; ~1500 tanques sirios; Monte Bental; verdictName+verdictQuery). LATAM tuteo; 10 new e2e routes; ES 289→294/398. Build 1678→1683 (+5). Gate passed. Commit 61365c5c.
 
@@ -59,4 +61,4 @@ Notes: iter1000 RESEARCH — 199th research pass. ES=215/398, FR=232/398, DE=223
 
 Cron b7325b16 hourly @ :17. Loop history: 19 tools + sitemap-lastmod + link-checker(+depth) + i18n
 Phase0/1a/1b/1c/2 Batches1-18(COMPLETE) + 50 review passes + 5 technical (event-schema + meta-trim + locale-links + freshness-688 + airlines-freshness-delta-atl-bos) + 81 EN guides + 7 tools-monetization + 2 comparisons;
-research iters 5/10/20/30/35/40/45/50/55/60/65/70/75/80/85/90/95/100/105/110/115/120/125/130/135/140/145/150/155/160/165/170/175/180/185/190/195/200/205/210/215/220/225/230/235/240/245/250/255/260/265/270/275/280/285/290/295/300/305/310/315/320/325/330/335/340/345/350/355/360/365/370/375/380/385/390/395/400/405/410/420/425/430/435/440/445/450/455/460/465/470/480/485/490/495/500/505/510/515/520/525/535/540/545/550/555/560/565/570/575/580/585/590/595/600/605/610/615/620/625/630/635/640/645/650/655/660/665/670/675/680/685/690/695/700/705/710/715/720/725/730/735/740/745/750/755/760/765/775/785/790/810/815/820/825/835/840/845/850/859/864/865/870/875/880/885/890/895/900/905/910/915/920/925/930/940/945/950/955/960/965/975/980/985/990/995/1000/1010/1060/1065/1070.
+research iters 5/10/20/30/35/40/45/50/55/60/65/70/75/80/85/90/95/100/105/110/115/120/125/130/135/140/145/150/155/160/165/170/175/180/185/190/195/200/205/210/215/220/225/230/235/240/245/250/255/260/265/270/275/280/285/290/295/300/305/310/315/320/325/330/335/340/345/350/355/360/365/370/375/380/385/390/395/400/405/410/420/425/430/435/440/445/450/455/460/465/470/480/485/490/495/500/505/510/515/520/525/535/540/545/550/555/560/565/570/575/580/585/590/595/600/605/610/615/620/625/630/635/640/645/650/655/660/665/670/675/680/685/690/695/700/705/710/715/720/725/730/735/740/745/750/755/760/765/775/785/790/810/815/820/825/835/840/845/850/859/864/865/870/875/880/885/890/895/900/905/910/915/920/925/930/940/945/950/955/960/965/975/980/985/990/995/1000/1010/1060/1065/1070/1075/1080/1085.
