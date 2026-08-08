@@ -16075,3 +16075,16 @@ Batches defined: FR-45/DE-43/ES-58 — same 5 guides: tel-aviv-pride-guide (June
 New EN/freshness items added to BACKLOG: (1) jerusalem-light-rail-guide freshness (Green Line Malha-HaTurim section opened July 2026; TouristIsrael + transit.org cover EN, guide likely stale), (2) bible-road-highway-60-guide (Netanyahu June 2026 announcement; heritage route Be'er Sheva → Nof HaGalil; multilingual interpretation; net-new SEO opportunity), (3) haifa-cruise-terminal freshness (new terminal May 2026, 1M passengers/year, 2 mega-ships), (4) yahel-timna-mtb freshness (62-mile MTB singletrack opened Dec 2025).
 No code shipped (research mode). Memory committed and pushed.
 Next: iter1081 → BUILD (1081%5=1 → BUILD; FR-45 batch).
+
+## 2026-08-08T08:47Z · iter1081 · BUILD · FR-45 batch — tel-aviv-pride, mount-tabor, wadi-qelt-monastery, schottenstein-campus, valley-of-tears
+What: 5 FR guides created — Metropolitan French, all /fr/* cross-links pre-verified existing, paired naming at contested/religious sites, no H1 in body, no fabricated prices/ratings.
+tel-aviv-pride-guide: Pride 2e vendredi juin; Hilton Beach; soirées circuit; famille Ganei Yehoshua; cross-links lgbtq-travel-israel+tel-aviv-nightlife+israel-events-festivals+best-time-to-visit.
+mount-tabor-guide: Har Tavor 575m vallée Jezreel; basilique franciscaine Barluzzi 1924; servee/taxi Daburiyya obligatoire (≈₪40-60); verdictName+verdictQuery; INPA NON valable; cross-links christian-pilgrimage+galilee-tours-compared+nazareth-travel-guide+northern-israel-road-trip.
+wadi-qelt-monastery-guide: Nahal Prat 27km; St-Georges de Khoziba Ve s.; belvédère falaise sans randonnée; alerte crues éclair; Jéricho Tell es-Sultan + Qasr al-Yahud; verdictName+verdictQuery; INPA valable Ein Prat; cross-links day-trips-from-jerusalem+hiking-in-israel.
+schottenstein-campus-jerusalem: IAA ouvert 2026 Givat Ram; 2M objets + 15 000 fragments manuscrits mer Morte inédits; laboratoire conservation observable; Safdie trilogie Jérusalem; verdictName+verdictQuery; INPA NON valable; cross-links israel-museum-jerusalem+jerusalem-museums+qumran-guide+1-day-jerusalem-itinerary.
+valley-of-tears-golan: Emek HaBacha 6 oct 1973; ~1500 chars syriens vs 180 Centurion; musée chars ciel ouvert; mont Bental 1165m; Quneitra vue; Coffee Anan; verdictName+verdictQuery; cross-links golan-heights-guide+is-israel-safe.
+10 new e2e routes (5 smoke + 5 a11y). FR guides: 307→312/398. Build: 1668→1673 pages (+5).
+Gate: pnpm check 0 errors | build 1673 pages | pnpm test:e2e 10/10 targeted pass (14.2s).
+Ship: squash-merge bdff652c on master, pushed to origin/master. Prod: Vercel deploy pending (GitHub CI status unknown/pending at time of push — next iteration will confirm).
+Memory: STATE.md iter→1081, lastMode BUILD, nextRotation REVIEW (1082%5=2 → REVIEW).
+Next: iter1082 → REVIEW (1082%5=2 → REVIEW mode; audit FR-45 guides meta/links).

@@ -2049,3 +2049,12 @@ Audited DE-41 batch (5 guides). 7 meta fixes shipped:
 - jesus-trail-israel: title 69→51 chars, desc 162→149 chars
 - design-museum-holon: no issues (43-char title, 153-char desc, all clean)
 All 18 internal links valid. Gate: check 0 errors | build 1653 pages | 10/10 e2e pass.
+
+## iter1081 · BUILD · FR-45 batch · 2026-08-08 · commit bdff652c
+5 FR guides shipped in Metropolitan French:
+- tel-aviv-pride-guide: Pride 2e vendredi juin; Hilton Beach; soirées circuit; famille Ganei Yehoshua; Events schema (2027-06-11)
+- mount-tabor-guide: Har Tavor 575m vallée Jezreel; basilique Barluzzi 1924; servee/taxi Daburiyya obligatoire; INPA NON valable; verdictName+verdictQuery
+- wadi-qelt-monastery-guide: Nahal Prat 27km; St-Georges de Khoziba Ve s.; belvédère falaise sans randonnée; alerte crues éclair; Jéricho pairing; INPA valable Ein Prat; verdictName+verdictQuery
+- schottenstein-campus-jerusalem: IAA Givat Ram ouvert 2026; 2M objets + 15K fragments manuscrits mer Morte inédits; laboratoire conservation observable; Safdie; INPA NON valable; verdictName+verdictQuery
+- valley-of-tears-golan: Emek HaBacha 6 oct 1973; ~1500 chars syriens vs 180 Centurion; musée chars; mont Bental; Quneitra; verdictName+verdictQuery
+FR guides: 307→312/398. Build: 1668→1673 pages (+5). 10 new e2e tests (5 smoke + 5 a11y) pass.

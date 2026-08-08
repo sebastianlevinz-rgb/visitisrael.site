@@ -6,12 +6,12 @@
 >
 > One bounded slice per loop iteration. NEVER bulk-translate in one shot.
 
-## Current status snapshot (2026-08-08 iter1078 BUILD — FR-44 SHIPPED 33cceaf5; DE-42 SHIPPED 0d2e90d4; ES-57 SHIPPED 664d2250; next FR BUILD = FR-45 not yet defined / next DE BUILD = DE-43 not yet defined / next ES BUILD = ES-58 not yet defined)
+## Current status snapshot (2026-08-08 iter1081 BUILD — FR-45 SHIPPED bdff652c; next FR BUILD = FR-46 not yet defined / next DE BUILD = DE-43 not yet defined / next ES BUILD = ES-58 not yet defined)
 
 | Locale | Guides | Attractions | Regions | Itineraries |
 |--------|--------|-------------|---------|-------------|
 | en     | 398    | 65          | 11      | 6           |
-| fr     | 307    | 61          | 11      | 6           |
+| fr     | 312    | 61          | 11      | 6           |
 | de     | 298    | 61          | 11      | 6           |
 | es     | 289    | 61          | 11      | 6           |
 
@@ -19,7 +19,7 @@
 
 **Gaps to close:**
 - es guides: **109 missing** (289/398 done — Phase ES-57 SHIPPED iter1078 664d2250: negev-tours-compared + mount-hermon-skiing + south-israel-itinerary + megiddo-jezreel-valley-guide + israel-military-heritage; **next ES BUILD = ES-58** — tel-aviv-pride-guide + israel-for-british-travelers + 3 TBD; not yet defined)
-- fr guides: **91 missing** (307/398 done — Phase FR-44 SHIPPED iter1076 33cceaf5: negev-tours-compared + mount-hermon-skiing + south-israel-itinerary + megiddo-jezreel-valley-guide + israel-military-heritage; **next FR BUILD = FR-45** — not yet defined)
+- fr guides: **86 missing** (312/398 done — Phase FR-45 SHIPPED iter1081 bdff652c: tel-aviv-pride-guide + mount-tabor-guide + wadi-qelt-monastery-guide + schottenstein-campus-jerusalem + valley-of-tears-golan; **next FR BUILD = FR-46** — not yet defined)
 - de guides: **100 missing** (298/398 done — Phase DE-42 SHIPPED iter1077 0d2e90d4: negev-tours-compared + mount-hermon-skiing + south-israel-itinerary + megiddo-jezreel-valley-guide + israel-military-heritage; **next DE BUILD = DE-43** — not yet defined)
 - fr/de/es attractions: **4 missing each** (the 4 EN attractions added after Phase 4)
 
@@ -79,6 +79,10 @@ comm -23 \
 Take the top 5 by priority (or head -5 if priority not obvious), translate each one.
 
 ## Progress tracker
+
+### FR-45 — SHIPPED iter1081 bdff652c — 5 FR guides: tel-aviv-pride-guide + mount-tabor-guide + wadi-qelt-monastery-guide + schottenstein-campus-jerusalem + valley-of-tears-golan. FR: 307→312/398. Build: 1673 pages (+5). Gate: pnpm check 0 errors | build 1673 pages | pnpm test:e2e 10/10 targeted pass.
+Guides: `tel-aviv-pride-guide.md`, `mount-tabor-guide.md`, `wadi-qelt-monastery-guide.md`, `schottenstein-campus-jerusalem.md`, `valley-of-tears-golan.md`
+All 5 confirmed MISSING from FR. Metropolitan French. verdictName+verdictQuery on 4/5 (all except tel-aviv-pride). Events schema on tel-aviv-pride (Event 2027-06-11). INPA validity noted correctly on all 5 (NON valable: mount-tabor, schottenstein; valable: wadi-qelt Ein Prat). All /fr/* cross-links verified existing. Paired naming at contested/religious sites. No H1 in body. No fabricated prices/ratings.
 
 ### ES-48 — SHIPPED iter1031 e5d34afb — 5 ES guides: israel-culinary-heritage-tourism + israel-small-group-tours + israel-photography-tours + israel-evening-activities + israel-base-city-guide. ES: 240→245/398. Build: 1529 pages (+5). Gate: pnpm check 0 errors; 2211/2211 e2e pass (18.4m).
 Guides: `israel-culinary-heritage-tourism.md`, `israel-small-group-tours.md`, `israel-photography-tours.md`, `israel-evening-activities.md`, `israel-base-city-guide.md`
