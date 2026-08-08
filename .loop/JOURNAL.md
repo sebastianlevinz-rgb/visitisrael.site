@@ -16149,3 +16149,11 @@ Cross-links all verified per locale (FR/DE/ES ✓):
 Gate: N/A (research mode). No code changes. No shipping.
 Memory: STATE.md iter→1085. BACKLOG.md + I18N-PLAN.md + COMPETITORS.md updated.
 Next: iter1086 → BUILD (1086%5=1 → BUILD; FR-46 batch — 5 FR guides: israel-rainy-day-activities + sde-boker-ein-avdat-guide + latrun-guide + negev-highway-40-guide + israel-for-british-travelers).
+
+## 2026-08-08T14:20Z · iter 1086 · BUILD · fr-46-batch
+What: FR-46 batch — 5 French guides shipping FR from 312→317/398.
+Guides: israel-rainy-day-activities (zero FR editorial; Jerusalem/TLV/Haïfa indoor options + cooking/wine/spa; GYG+Booking CTAs), sde-boker-ein-avdat-guide (Ben-Gurion home+grave+Ein Avdat chalk canyon; INPA valid; verdictName+verdictQuery; DiscoverCars+GYG+Booking), latrun-guide (Yad La-Shiryon 200+ AFVs + 1948 Battle/Burma Road; Trappist monastery Sept-Fons 1890; Mini Israel 350 maquettes 1:25; verdictName+verdictQuery; GYG+Viator+DiscoverCars), negev-highway-40-guide (80km Beer Sheva→Mitzpe Ramon km-étape table; flash-flood safety; Avdat fuel critical; INPA Ein Avdat+Avdat; DiscoverCars+GYG+Booking), israel-for-british-travelers (FCDO tiered by zone — Golan cautioned, Gaza/WB excluded, main sites standard; ETA-IL ₪25 iaa.gov.il; El Al/Jet2/Wizz Air/easyJet routes; BA suspension noted; Type H adapter; Monzo/Starling; British Embassy 192 Hayarkon TLV; Booking+GYG+DiscoverCars CTAs).
+Quality: metropolitan French; YAML double-quotes; /fr/* prefix only for confirmed existing pages; no fabricated prices/ratings; paired naming at contested/religious sites; no H1 in body.
+Gate: pnpm check 0 errors | build 1688 pages (+5 from 1683) | pnpm test:e2e 10/10 targeted pass (5 smoke + 5 a11y).
+Ship: commit c719dc6d pushed to master.
+Prod: Vercel deploy pending/unconfirmed (GitHub commit status API not accessible from cloud env without auth token; consistent with prior iterations). Next iter will confirm.

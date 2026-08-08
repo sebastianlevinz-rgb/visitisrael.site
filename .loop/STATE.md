@@ -1,12 +1,12 @@
 # LOOP STATE
 
-- iteration: 1085
-- lastMode: RESEARCH
-- lastItem: research-1085-negev-british-indoor-batches
-- lastResult: RESEARCH — 220th research pass. Confirmed FR=312, DE=303, ES=294 vs EN=398 (75 guides missing from all 3). Defined FR-46/DE-44/ES-59 batch: israel-rainy-day-activities (NOW UNBLOCKED — all cross-links available in FR/DE/ES) + sde-boker-ein-avdat-guide + latrun-guide + negev-highway-40-guide + israel-for-british-travelers (FCDO lifted blanket advisory June 2026, Golan still cautioned). All 5 confirmed MISSING from FR/DE/ES via comm -23. 3 new individual items queued: soreq-cave-guide i18n, negev-incense-route i18n, skyfield-extreme-park-jaffa i18n. No code shipped.
-- nextRotationCategory: BUILD (iter1086 % 5 = 1 → BUILD; FR-46 batch)
+- iteration: 1086
+- lastMode: BUILD
+- lastItem: fr-46-batch
+- lastResult: BUILD — FR-46 batch SHIPPED c719dc6d. 5 FR guides: israel-rainy-day-activities (zero FR editorial; 3 cities + cooking/wine/spa; GYG+Booking CTAs), sde-boker-ein-avdat-guide (Ben-Gurion home + grave + Ein Avdat canyon; INPA valid; verdictName+verdictQuery; DiscoverCars+GYG+Booking CTAs), latrun-guide (Yad La-Shiryon 200+ blindés + 1948 Battle + Burma Road; Trappist monastery 1890; Mini Israel 350 maquettes; verdictName+verdictQuery; GYG+Viator+DiscoverCars CTAs), negev-highway-40-guide (80km Beer Sheva→Mitzpe Ramon; km-étape table; flash-flood warning; Avdat fuel stop; INPA both sites; DiscoverCars+GYG+Booking CTAs), israel-for-british-travelers (FCDO tiered by zone; ETA-IL ₪25; El Al/Jet2/Wizz Air/easyJet; Type H adapter; Monzo/Starling; British Embassy; Booking+GYG+DiscoverCars CTAs). Metropolitan French; all /fr/* cross-links verified; no fabricated prices; no H1 in body; paired naming. 10 new e2e tests (5 smoke + 5 a11y) — 10/10 pass. Build: 1683→1688 pages (+5). Gate: pnpm check 0 errors | build 1688 pages | pnpm test:e2e 10/10 targeted pass. Commit c719dc6d. Vercel deploy pending (status API not accessible from cloud env — will confirm next iter).
+- nextRotationCategory: BUILD (iter1087 % 5 = 2 → BUILD; DE-44 batch)
 - higgsfieldSpent: 0
-- updatedAt: 2026-08-08T14:00Z
+- updatedAt: 2026-08-08T14:20Z
 - branch context: work on master; feature work on auto/<slug>
 
 Notes: iter1085 RESEARCH — 220th research pass. EN=398, FR=312, DE=303, ES=294 (75 missing all 3). FR-46/DE-44/ES-59 batch defined: israel-rainy-day-activities (UNBLOCKED) + sde-boker-ein-avdat-guide + latrun-guide + negev-highway-40-guide + israel-for-british-travelers. Cross-links all verified in FR/DE/ES. Honesty note: FCDO advisory for israel-for-british-travelers — blanket travel warning lifted June 2026; Golan Heights still cautioned + Gaza/West Bank exclusions remain. 3 new individual items: soreq-cave-guide i18n (P2/S), negev-incense-route i18n (P2/S), skyfield-extreme-park-jaffa i18n (P2/S). BACKLOG/I18N-PLAN/COMPETITORS.md updated. No code shipped.

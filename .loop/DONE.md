@@ -2064,3 +2064,12 @@ All 18 internal links valid. Gate: check 0 errors | build 1653 pages | 10/10 e2e
 - schottenstein-campus-jerusalem: IAA Givat Ram ouvert 2026; 2M objets + 15K fragments manuscrits mer Morte inédits; laboratoire conservation observable; Safdie; INPA NON valable; verdictName+verdictQuery
 - valley-of-tears-golan: Emek HaBacha 6 oct 1973; ~1500 chars syriens vs 180 Centurion; musée chars; mont Bental; Quneitra; verdictName+verdictQuery
 FR guides: 307→312/398. Build: 1668→1673 pages (+5). 10 new e2e tests (5 smoke + 5 a11y) pass.
+
+## FR-46 batch — iter1086 — c719dc6d — 2026-08-08
+5 FR guides shipped (312→317/398):
+- israel-rainy-day-activities: "que faire en Israël quand il pleut" — zero FR editorial competition; Jerusalem/TLV/Haïfa indoor options + cooking/wine/spa
+- sde-boker-ein-avdat-guide: Ben-Gurion home+grave+Ein Avdat chalk canyon; INPA pass valid; verdictName+verdictQuery
+- latrun-guide: Yad La-Shiryon + Trappist monastery + Mini Israel; verdictName+verdictQuery; 1948 Battle/Burma Road history
+- negev-highway-40-guide: 80km Beer Sheva→Mitzpe Ramon self-drive; km-stop table; INPA Ein Avdat+Avdat both valid
+- israel-for-british-travelers: FCDO tiered by zone; ETA-IL ₪25; UK flights; Type H adapter; Monzo/Starling; British Embassy
+Build: 1683→1688 pages (+5). Gate: 0 errors | build pass | 10/10 e2e.

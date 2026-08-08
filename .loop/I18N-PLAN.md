@@ -6,12 +6,12 @@
 >
 > One bounded slice per loop iteration. NEVER bulk-translate in one shot.
 
-## Current status snapshot (2026-08-08 iter1085 RESEARCH — FR-46/DE-44/ES-59 DEFINED; next FR BUILD = FR-46 ready / next DE BUILD = DE-44 ready / next ES BUILD = ES-59 ready)
+## Current status snapshot (2026-08-08 iter1086 BUILD — FR-46 SHIPPED c719dc6d; next FR BUILD = FR-47 TBD / next DE BUILD = DE-44 ready / next ES BUILD = ES-59 ready)
 
 | Locale | Guides | Attractions | Regions | Itineraries |
 |--------|--------|-------------|---------|-------------|
 | en     | 398    | 65          | 11      | 6           |
-| fr     | 312    | 61          | 11      | 6           |
+| fr     | 317    | 61          | 11      | 6           |
 | de     | 303    | 61          | 11      | 6           |
 | es     | 294    | 61          | 11      | 6           |
 
@@ -19,7 +19,7 @@
 
 **Gaps to close:**
 - es guides: **104 missing** (294/398 done — Phase ES-58 SHIPPED iter1083 61365c5c; **next ES BUILD = ES-59** — DEFINED iter1085: israel-rainy-day-activities + sde-boker-ein-avdat-guide + latrun-guide + negev-highway-40-guide + israel-for-british-travelers → ES 294→299/398)
-- fr guides: **86 missing** (312/398 done — Phase FR-45 SHIPPED iter1081 bdff652c; **next FR BUILD = FR-46** — DEFINED iter1085: same 5 guides → FR 312→317/398)
+- fr guides: **81 missing** (317/398 done — Phase FR-46 SHIPPED iter1086 c719dc6d; **next FR BUILD = FR-47** — TBD, define in next RESEARCH pass)
 - de guides: **95 missing** (303/398 done — Phase DE-43 SHIPPED iter1082 a39ae874; **next DE BUILD = DE-44** — DEFINED iter1085: same 5 guides → DE 303→308/398)
 - fr/de/es attractions: **4 missing each** (the 4 EN attractions added after Phase 4)
 
@@ -101,6 +101,8 @@ Guides: `israel-rainy-day-activities.md`, `sde-boker-ein-avdat-guide.md`, `latru
 All 5 confirmed MISSING from ES via comm -23 (2026-08-08).
 LATAM angles: rainy-day = "qué hacer en Israel cuando llueve" (tuteo; zero LATAM editorial); sde-boker = Ben-Gurion muy conocido en LATAM; latrun = Museo de Tanques + Monasterio Trapense + Mini Israel (excursión 3-en-1); negev-highway-40 = "Ruta 40 en Israel" (deliberate resonance with iconic Argentine Ruta 40); israel-for-british-travelers = comunidad británica en Argentina/Chile/México.
 EN fallbacks: national-parks-pass-calculator → EN; israeli-passport-stamp → EN. All /es/* cross-links verified ✓.
+
+### FR-46 — SHIPPED iter1086 c719dc6d — 5 FR guides: israel-rainy-day-activities + sde-boker-ein-avdat-guide + latrun-guide + negev-highway-40-guide + israel-for-british-travelers. FR: 312→317/398. Build: 1688 pages (+5). Gate: pnpm check 0 errors | build 1688 pages | pnpm test:e2e 10/10 targeted pass.
 
 ### FR-45 — SHIPPED iter1081 bdff652c — 5 FR guides: tel-aviv-pride-guide + mount-tabor-guide + wadi-qelt-monastery-guide + schottenstein-campus-jerusalem + valley-of-tears-golan. FR: 307→312/398. Build: 1673 pages (+5). Gate: pnpm check 0 errors | build 1673 pages | pnpm test:e2e 10/10 targeted pass.
 Guides: `tel-aviv-pride-guide.md`, `mount-tabor-guide.md`, `wadi-qelt-monastery-guide.md`, `schottenstein-campus-jerusalem.md`, `valley-of-tears-golan.md`

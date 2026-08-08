@@ -14,7 +14,7 @@ All 5 confirmed MISSING from FR via comm -23 (2026-08-08).
 - negev-highway-40-guide: car-rental-israel + driving-in-israel + 3-days-in-negev + mitzpe-ramon-guide + south-israel-itinerary all ✓ in FR; Beer-Sheva → Sde Boker → Ein Avdat → Avdat UNESCO → Mitzpe Ramon self-drive; INPA pass valid at multiple stops; zero FR road-trip guide equivalent; Discovercars+GYG+Booking CTAs.
 - israel-for-british-travelers: FCDO removed blanket "do not travel" June 2026 — most of Israel "green"; HONESTY: Golan Heights still cautioned by FCDO, Gaza + parts of West Bank excluded → note in guide; ETA-IL ₪25 UK citizens mandatory; El Al/Wizz Air/easyJet LHR/LGW/MAN→TLV; Type H adapter (240V identical to UK); Monzo/Revolut roaming; British Embassy 192 HaYarkon TLV; visa-information + cheap-flights + is-israel-safe + airlines-flying-israel-2026 all ✓ in FR; Booking+GYG+Discovercars CTAs.
 Cross-link notes: national-parks-pass-calculator → EN fallback (tool EN-only); israeli-passport-stamp → EN fallback (missing FR). All other /fr/* hrefs exist.
-Status: ready [iter1085 research]
+Status: SHIPPED iter1086 c719dc6d
 
 ### DE-44 batch definition (iter1085 RESEARCH — ready for next DE BUILD)
 Guides: `israel-rainy-day-activities.md`, `sde-boker-ein-avdat-guide.md`, `latrun-guide.md`, `negev-highway-40-guide.md`, `israel-for-british-travelers.md`
