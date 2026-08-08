@@ -1023,6 +1023,11 @@ const ROUTES = [
   '/de/belvoir-fortress',
   '/de/caesarea-concerts-events',
   '/de/jesus-trail-israel',
+  '/de/negev-tours-compared',
+  '/de/mount-hermon-skiing',
+  '/de/south-israel-itinerary',
+  '/de/megiddo-jezreel-valley-guide',
+  '/de/israel-military-heritage',
 ];
 
 for (const route of ROUTES) {
