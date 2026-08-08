@@ -1333,6 +1333,11 @@ const ROUTES = [
   '/es/wadi-qelt-monastery-guide',
   '/es/schottenstein-campus-jerusalem',
   '/es/valley-of-tears-golan',
+  '/es/israel-rainy-day-activities',
+  '/es/sde-boker-ein-avdat-guide',
+  '/es/latrun-guide',
+  '/es/negev-highway-40-guide',
+  '/es/israel-for-british-travelers',
 ];
 
 for (const route of ROUTES) {
