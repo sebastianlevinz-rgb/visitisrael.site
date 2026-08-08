@@ -16206,3 +16206,20 @@ Competitor observations: TourRadar covers Israel group tours but no standalone g
 Gate: N/A (research mode). No code changes. No shipping.
 Memory: STATE.md iter→1090. BACKLOG.md + I18N-PLAN.md updated. JOURNAL.md appended. .loop/ committed below.
 Next: iter1091 → BUILD (1091%5=1 → BUILD; FR-47 batch — 5 FR guides: soreq-cave-guide + negev-incense-route + skyfield-extreme-park-jaffa + tel-aviv-coffee-guide + tabgha-church-guide).
+
+## 2026-08-08T18:41Z · iter 1091 · BUILD · fr-47-batch
+
+What: 5 new FR guides — soreq-cave-guide (Grotte d'Avshalom; INPA valide; 22°C toute
+l'année; combinaison recommandée avec Beit Guvrin), negev-incense-route (4 villes nabatéennes
+UNESCO: Avdat/Mamshit/Haluza/Shivta; circuit self-drive 2 jours; voiture indispensable),
+skyfield-extreme-park-jaffa (Stade Bloomfield Jaffa; via ferrata 5 parcours + élastique 35m +
+balançoire géante; premier parc extrême entièrement accessible d'Israël), tel-aviv-coffee-guide
+(scène spécialité 3e vague + culture botz; circuit Florentin→Neve Tzedek→Carmel→Rothschild→
+Dizengoff→Gordon Beach; Metropolitan French), tabgha-church-guide (Église de la Multiplication
+mosaïque byzantine 5e s. in situ + Église du Primat de Pierre basalte volcanique; circuit rive
+nord mer de Galilée). All /fr/* cross-links pre-verified (17/17 ✓). No fabricated prices/ratings.
+Paired naming on Tabgha (non-contested but religious). No H1 in body. 10 new e2e routes (5 smoke
++ 5 a11y) — all 14/14 targeted tests pass. FR guides: 317→322/398. Build: 1698→1703 pages (+5).
+Gate: pnpm check 0 errors | build 1703 pages | pnpm test:e2e 14/14 targeted pass (13.3s).
+Squash-merge to master 5bb6a80a; pushed to origin/master.
+Vercel: no GitHub status integration (consistent with all prior iterations); commit confirmed.

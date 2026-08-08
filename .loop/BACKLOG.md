@@ -7,13 +7,7 @@ Priorities P0 (highest) → P3. Status: ready | blocked:<reason> | in-progress.
 
 ### FR-47 batch definition (iter1090 RESEARCH — ready for next FR BUILD)
 Guides: `soreq-cave-guide.md`, `negev-incense-route.md`, `skyfield-extreme-park-jaffa.md`, `tel-aviv-coffee-guide.md`, `tabgha-church-guide.md`
-All 5 confirmed MISSING from FR via comm -23 (2026-08-08).
-- soreq-cave-guide: Grotte d'Avshalom (Soreq); plus grande grotte calcaire d'Israël; INPA valide; 22°C toute l'année; visite guidée 50 min; 40 min Jérusalem / 45 min TLV; zéro éditorial FR; day-trips-from-jerusalem ✓, israel-with-kids ✓, hiking-in-israel ✓ in FR; discovercars+viator+getyourguide CTAs.
-- negev-incense-route: 4 villes nabatéennes UNESCO (Avdat, Mamshit, Haluza, Shivta); itinéraire self-drive (aucun transport en commun vers Mamshit/Shivta/Haluza); hiking-in-israel ✓, 3-days-in-negev ✓, negev-jeep-tours ✓, mitzpe-ramon-guide ✓, israel-national-parks-pass ✓ in FR; discovercars+getyourguide CTAs.
-- skyfield-extreme-park-jaffa: SkyField Stade Bloomfield Jaffa (inauguré 2026); via ferrata + saut à l'élastique 35m + balançoire géante; premier parc extrême entièrement accessible en Israël; jaffa-travel-guide ✓, israel-adventure-sports ✓, israel-with-kids ✓ in FR; getyourguide+viator+booking CTAs.
-- tel-aviv-coffee-guide: scène specialty troisième vague (Cafelix/Nahat/Coffee Lab) + tradition botz; Florentin/Neve Tzedek/Dizengoff; Festival du Café TLV sept.; zéro éditorial FR "café spécialité Tel Aviv"; jaffa-travel-guide ✓, tel-aviv-food-guide ✓, backpacking-israel ✓ in FR; getyourguide+booking CTAs.
-- tabgha-church-guide: Église de la Multiplication des Pains et des Poissons (Bénédictins; mosaïque 5e s.) + Église de la Primauté de Pierre (Franciscains; basalte volcanique); circuit nord rive Mer de Galilée; 3-days-in-galilee ✓, nazareth-travel-guide ✓, sea-of-galilee-guide ✓ in FR; getyourguide+viator+booking CTAs.
-Cross-link notes: tel-aviv-things-to-do exists in FR. No EN fallbacks needed for FR. Status: ready
+Status: SHIPPED iter1091 5bb6a80a
 
 ### DE-45 batch definition (iter1090 RESEARCH — ready for next DE BUILD)
 Guides: same 5 as FR-47. All confirmed MISSING from DE.

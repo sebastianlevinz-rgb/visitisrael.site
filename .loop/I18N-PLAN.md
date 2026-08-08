@@ -6,12 +6,12 @@
 >
 > One bounded slice per loop iteration. NEVER bulk-translate in one shot.
 
-## Current status snapshot (2026-08-08 iter1090 RESEARCH — FR-47/DE-45/ES-60 batch DEFINED; next FR BUILD = FR-47 / next DE BUILD = DE-45 / next ES BUILD = ES-60)
+## Current status snapshot (2026-08-08 iter1091 BUILD — FR-47 SHIPPED 5bb6a80a; next FR BUILD = FR-48 / next DE BUILD = DE-45 / next ES BUILD = ES-60)
 
 | Locale | Guides | Attractions | Regions | Itineraries |
 |--------|--------|-------------|---------|-------------|
 | en     | 398    | 65          | 11      | 6           |
-| fr     | 317    | 61          | 11      | 6           |
+| fr     | 322    | 61          | 11      | 6           |
 | de     | 308    | 61          | 11      | 6           |
 | es     | 299    | 61          | 11      | 6           |
 
@@ -19,7 +19,7 @@
 
 **Gaps to close:**
 - es guides: **99 missing** (299/398 done — Phase ES-59 SHIPPED iter1088 6fc532d0; **next ES BUILD = ES-60** — DEFINED iter1090: soreq-cave-guide + negev-incense-route + skyfield-extreme-park-jaffa + tel-aviv-coffee-guide + tabgha-church-guide)
-- fr guides: **81 missing** (317/398 done — Phase FR-46 SHIPPED iter1086 c719dc6d; **next FR BUILD = FR-47** — DEFINED iter1090: same 5 guides as ES-60)
+- fr guides: **76 missing** (322/398 done — Phase FR-47 SHIPPED iter1091 5bb6a80a; **next FR BUILD = FR-48** — to be defined in next RESEARCH pass)
 - de guides: **90 missing** (308/398 done — Phase DE-44 SHIPPED iter1087 ce63a750; **next DE BUILD = DE-45** — DEFINED iter1090: same 5 guides as FR-47)
 - fr/de/es attractions: **4 missing each** (the 4 EN attractions added after Phase 4)
 

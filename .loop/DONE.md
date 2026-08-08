@@ -2083,3 +2083,15 @@ Build: 1683→1688 pages (+5). Gate: 0 errors | build pass | 10/10 e2e.
 
 ## iter1089 · REVIEW · review-1089-es59-meta-trim · 7e9c990b
 - Audited ES-59 batch (5 guides). 9 meta fixes applied: 4 titles over limit trimmed (≤54 chars), 5 descriptions over limit trimmed (≤151 chars). 27/27 internal links valid, no broken links, no H1 in body violations, no fabricated prices, no paired-naming issues. Gate clean; build 1698 pages; 10/10 e2e+a11y.
+
+## iter1091 · BUILD · fr-47-batch · 5bb6a80a
+5 new FR guides shipped: soreq-cave-guide (Grotte d'Avshalom; INPA valide; 22°C toute l'année;
+combinaison Beit Guvrin; discovercars+viator+getyourguide), negev-incense-route (4 villes UNESCO
+nabatéennes: Avdat+Mamshit+Haluza+Shivta; circuit self-drive 2 jours; voiture indispensable;
+getyourguide+discovercars), skyfield-extreme-park-jaffa (Stade Bloomfield Jaffa; via ferrata + 
+élastique 35m + balançoire géante; premier parc extrême accessible d'Israël; getyourguide+viator+
+booking), tel-aviv-coffee-guide (3e vague spécialité + botz; circuit Florentin→Neve Tzedek→Carmel→
+Rothschild→Dizengoff; getyourguide+booking), tabgha-church-guide (Multiplication mosaïque 5e s. +
+Primat de Pierre basalte; rive nord Galilée; getyourguide+viator+booking). Metropolitan French.
+All /fr/* cross-links pre-verified 17/17. No fabricated prices/ratings. No H1 in body.
+FR guides: 317→322/398. Build: 1698→1703 pages (+5). Gate: 0 errors | build pass | 14/14 e2e+a11y.

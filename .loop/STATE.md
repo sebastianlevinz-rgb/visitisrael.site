@@ -1,16 +1,16 @@
 # LOOP STATE
 
-- iteration: 1090
-- lastMode: RESEARCH
-- lastItem: research-1090-cave-incense-coffee-tabgha-jaffa-batches
-- lastResult: RESEARCH — 221st research pass. EN=398, FR=317, DE=308, ES=299 (114 guides missing from all 3). Defined FR-47/DE-45/ES-60 batch: soreq-cave-guide + negev-incense-route + skyfield-extreme-park-jaffa + tel-aviv-coffee-guide + tabgha-church-guide. All 5 confirmed MISSING from all 3 locales via filesystem comm -23. tel-megiddo-guide excluded (blocked:human-review-required since iter699). Cross-links all verified ✓ FR/DE/ES. 2 new BACKLOG items: israel-wine-guide (EN gap, P2/M) + rosh-hanikra freshness (P3/S). No code shipped.
+- iteration: 1091
+- lastMode: BUILD
+- lastItem: fr-47-batch
+- lastResult: BUILD — FR-47 batch SHIPPED 5bb6a80a. 5 FR guides: soreq-cave-guide (Grotte d'Avshalom; INPA valide; 22°C toute l'année; combinaison Beit Guvrin; discovercars+viator+getyourguide), negev-incense-route (4 villes nabatéennes UNESCO: Avdat/Mamshit/Haluza/Shivta; circuit self-drive 2j; voiture indispensable; getyourguide+discovercars), skyfield-extreme-park-jaffa (Stade Bloomfield Jaffa 2026; via ferrata 5 parcours + élastique 35m + balançoire; premier parc extrême accessible; getyourguide+viator+booking), tel-aviv-coffee-guide (3e vague spécialité + culture botz; Florentin/Neve Tzedek/Carmel/Rothschild/Dizengoff; getyourguide+booking), tabgha-church-guide (Multiplication mosaïque 5e s. + Primat de Pierre basalte volcanique; rive nord Galilée; getyourguide+viator+booking). Metropolitan French. All /fr/* cross-links pre-verified 17/17. 10 new e2e routes (5 smoke + 5 a11y). FR guides: 317→322/398. Build: 1698→1703 pages (+5). Gate: pnpm check 0 errors | build 1703 pages | pnpm test:e2e 14/14 targeted pass.
 
-- nextRotationCategory: BUILD (iter1091 % 5 = 1 → BUILD; FR-47 batch)
+- nextRotationCategory: REVIEW (iter1092 % 5 = 2 → REVIEW; audit FR-47 guides meta)
 - higgsfieldSpent: 0
-- updatedAt: 2026-08-08T17:45Z
+- updatedAt: 2026-08-08T18:41Z
 - branch context: work on master; feature work on auto/<slug>
 
-Notes: iter1090 RESEARCH — 221st research pass. EN=398, FR=317, DE=308, ES=299 (114 missing from all 3). FR-47/DE-45/ES-60 batch defined: soreq-cave-guide + negev-incense-route + skyfield-extreme-park-jaffa + tel-aviv-coffee-guide + tabgha-church-guide. Cross-links all ✓ in all 3 locales. 2 new BACKLOG items added. No code shipped.
+Notes: iter1091 BUILD — FR-47 batch SHIPPED 5bb6a80a. 5 FR guides: soreq-cave-guide + negev-incense-route + skyfield-extreme-park-jaffa + tel-aviv-coffee-guide + tabgha-church-guide. Metropolitan French; all /fr/* cross-links pre-verified; no fabricated prices/ratings; no H1 in body; 10 new e2e tests (5 smoke + 5 a11y) all pass. FR guides: 317→322/398. Build: 1698→1703 pages (+5). Gate: pnpm check 0 errors | build 1703 pages | pnpm test:e2e 14/14 targeted pass. Commit: 5bb6a80a.
 
 Notes: iter1089 REVIEW — review-1089-es59-meta-trim SHIPPED 7e9c990b. Audited 5 ES-59 guides. 9 meta fixes: 4 titles trimmed (≤54 chars), 5 descriptions trimmed (≤151 chars). 27/27 internal links valid, no broken links, no H1 in body, no fabricated prices. Gate: pnpm check 0 errors | build 1698 pages | pnpm test:e2e 10/10 targeted pass. CI in_progress at state-write.
 
