@@ -1,14 +1,16 @@
 # LOOP STATE
 
-- iteration: 1104
-- lastMode: REVIEW
-- lastItem: review-1104-fr49-meta-trim
-- lastResult: REVIEW — review-1104-fr49-meta-trim SHIPPED 1bcc9f47. Audited 5 FR-49 guides (nimrod-fortress, beit-alfa, rosh-pina, national-library-israel, jerusalem-mount-zion). 4 descriptions trimmed: rosh-pina 163→139, national-library 164→142, jerusalem-mount-zion 174→127, beit-alfa 159→131. All ≤151 chars (soft) and ≤160 (hard). 11/11 /fr/* cross-links valid. HeroImages all present. No H1 in body. No fabricated data. Gate: check 0 errors | build 1728 | test:e2e 12/12 targeted pass. CI in_progress at state-write. Commit: 1bcc9f47.
+- iteration: 1105
+- lastMode: RESEARCH
+- lastItem: research-1105-fr50-de48-es63-batch
+- lastResult: RESEARCH — 232nd research pass. EN=398, FR=332/398 (66 missing), DE=318/398 (80 missing), ES=304/398 (94 missing). Missing from ALL 3: 55 guides. Defined FR-50/DE-48/ES-63 batch (same 5 guides confirmed MISSING from all 3 locales): zippori-sepphoris-guide (Mona Lisa of the Galilee; Byzantine mosaic synagogue; INPA valid; near Nazareth; zero FR/DE/ES editorial) + valley-of-elah-guide (David & Goliath battlefield; free; near Jerusalem; zero FR/DE/ES editorial) + atlit-detainee-camp-guide (British Mandate detention camp 1940s; Haganah raid 1945; near Haifa; zero FR/DE/ES editorial) + binyamina-guide (Binyamina Winery 3M+ bottles/year; Rothschild-era perfume factory; wine tourism; zero FR/DE/ES editorial) + hai-bar-yotvata-guide (3,000-acre safari; biblical-era animals; INPA valid; 35km N of Eilat; zero FR/DE/ES editorial). All cross-links verified in DE and ES. 2 new individual items added to BACKLOG. No code shipped.
 
-- nextRotationCategory: BUILD (DE-47 or ES-62 batch next)
+- nextRotationCategory: BUILD (ES-62 batch next — ES most behind at 304/398)
 - higgsfieldSpent: 0
-- updatedAt: 2026-08-09T07:50Z
+- updatedAt: 2026-08-09T09:00Z
 - branch context: work on master; feature work on auto/<slug>
+
+Notes: iter1105 RESEARCH — 232nd research pass. EN=398, FR=332/398, DE=318/398, ES=304/398. Missing from all 3: 55. Defined FR-50/DE-48/ES-63 batch: zippori-sepphoris + valley-of-elah + atlit-detainee-camp + binyamina + hai-bar-yotvata. All cross-links verified. No code shipped.
 
 Notes: iter1104 REVIEW — review-1104-fr49-meta-trim SHIPPED 1bcc9f47. 4 descriptions trimmed ≤151 chars: rosh-pina 163→139, national-library 164→142, jerusalem-mount-zion 174→127, beit-alfa 159→131. 11/11 /fr/* links valid. No H1 in body. HeroImages present. 12/12 e2e pass.
 
@@ -96,4 +98,4 @@ Notes: iter1000 RESEARCH — 199th research pass. ES=215/398, FR=232/398, DE=223
 
 Cron b7325b16 hourly @ :17. Loop history: 19 tools + sitemap-lastmod + link-checker(+depth) + i18n
 Phase0/1a/1b/1c/2 Batches1-18(COMPLETE) + 50 review passes + 5 technical (event-schema + meta-trim + locale-links + freshness-688 + airlines-freshness-delta-atl-bos) + 81 EN guides + 7 tools-monetization + 2 comparisons;
-research iters 5/10/20/30/35/40/45/50/55/60/65/70/75/80/85/90/95/100/105/110/115/120/125/130/135/140/145/150/155/160/165/170/175/180/185/190/195/200/205/210/215/220/225/230/235/240/245/250/255/260/265/270/275/280/285/290/295/300/305/310/315/320/325/330/335/340/345/350/355/360/365/370/375/380/385/390/395/400/405/410/420/425/430/435/440/445/450/455/460/465/470/480/485/490/495/500/505/510/515/520/525/535/540/545/550/555/560/565/570/575/580/585/590/595/600/605/610/615/620/625/630/635/640/645/650/655/660/665/670/675/680/685/690/695/700/705/710/715/720/725/730/735/740/745/750/755/760/765/775/785/790/810/815/820/825/835/840/845/850/859/864/865/870/875/880/885/890/895/900/905/910/915/920/925/930/940/945/950/955/960/965/975/980/985/990/995/1000/1010/1060/1065/1070/1075/1080/1085/1090.
+research iters 5/10/20/30/35/40/45/50/55/60/65/70/75/80/85/90/95/100/105/110/115/120/125/130/135/140/145/150/155/160/165/170/175/180/185/190/195/200/205/210/215/220/225/230/235/240/245/250/255/260/265/270/275/280/285/290/295/300/305/310/315/320/325/330/335/340/345/350/355/360/365/370/375/380/385/390/395/400/405/410/420/425/430/435/440/445/450/455/460/465/470/480/485/490/495/500/505/510/515/520/525/535/540/545/550/555/560/565/570/575/580/585/590/595/600/605/610/615/620/625/630/635/640/645/650/655/660/665/670/675/680/685/690/695/700/705/710/715/720/725/730/735/740/745/750/755/760/765/775/785/790/810/815/820/825/835/840/845/850/859/864/865/870/875/880/885/890/895/900/905/910/915/920/925/930/940/945/950/955/960/965/975/980/985/990/995/1000/1010/1060/1065/1070/1075/1080/1085/1090/1095/1100/1105.

@@ -8333,3 +8333,38 @@ Sources: alltrails.com, tripadvisor.com, touristisrael.com, israel-in-photos.com
 - note: megiddo-jezreel-valley-guide.md (the area guide) already in FR/DE/ES; tel-megiddo-guide.md (standalone UNESCO site guide) still missing from all 3
 
 **Dedup note**: tel-megiddo-guide.md NOT included in FR-49/DE-47/ES-62 batch (5-guide limit; nimrod+beit-alfa+rosh-pina+national-library+mount-zion chosen instead). Add tel-megiddo-guide.md as individual P2 item for all 3 locales.
+
+### 2026-08-09 · iter 1105 · 232nd research pass · FR-50/DE-48/ES-63 batch
+
+**Sites researched:** laidbacktrip.com, seetheholyland.net, myisraeliguide.com, gemsinisrael.com, beinharimtours.com, tripadvisor.com, fodors.com, lonelyplanet.com, winetourism.com, touristisrael.com, travelpulse.com, travelandtourworld.com, kommwirmachendaseinfach.de, hike-israel.com
+
+**Sepphoris/Zippori (zippori-sepphoris-guide.md):**
+- laidbacktrip.com: standalone EN guide (best competitor); seetheholyland.net + myisraeliguide.com: EN-only; tzurtours.com: tour-operator page
+- Zero FR/DE/ES editorial guide exists in any market. Confirmed editorial vacuum all 3 locales.
+- Hooks: "Mona Lisa of the Galilee" visage byzantin VIe s.; Josephus "ornement de la Galilée"; theatre romain 4500 places; INPA valid.
+
+**Valley of Elah (valley-of-elah-guide.md):**
+- gemsinisrael.com (EN, tour-operator): "The Valley of Elah — David & Goliath"; beinharimtours.com (EN): "Valley of Elah, Tel Azekah"; mukikapupstravels.com (EN personal blog)
+- Zero FR/DE/ES editorial. TripAdvisor listing = review page only.
+- Hooks: free access; David's brook still visible; spring lupines March; 40 min from Jerusalem.
+
+**Atlit Detainee Camp (atlit-detainee-camp-guide.md):**
+- touristisrael.com (EN, listing); tripadvisor.com (EN, review page); dannythedigger.com (EN, guide); jewishvirtuallibrary.org (EN reference)
+- Zero FR/DE/ES editorial.
+- Note: NOT an INPA National Parks Pass site — separate admission (~₪50); open Sun-Thu.
+- FR opportunity: "Exodus 1947" affair deeply embedded in French consciousness (Yad Kennedy memorial; film coverage in France); this guide will win the "camp Atlit" FR query cold.
+
+**Binyamina (binyamina-guide.md):**
+- tripadvisor.com (review aggregator only); winetourism.com (booking page); israelrail.com (day-trip routing article); trawellino.com (thin auto-generated content)
+- Zero FR/DE/ES editorial. Confirmed editorial vacuum all 3 locales.
+- Key data: Binyamina Winery founded 1952 (acquired by Avi Lerner & Danny Dimbort 1996); tasting in old Rothschild-era perfume factory; 3M+ bottles/year; Bar-Maor boutique (trained at Margalit). Train direct from TLV (Savidor→Binyamina ~45 min).
+
+**Hai-Bar Yotvata (hai-bar-yotvata-guide.md):**
+- fodors.com (EN listing only); lonelyplanet.com (EN attraction listing only); beinharimtours.com (EN page); trekker.co.il (EN info page); nativa.co.il (EN guide); israel-in-photos.com (EN photo guide)
+- Zero FR/DE/ES editorial guide. All sources EN-only.
+- Key data: 3,000 acres (1,214 ha); mandatory stay in car (30 km/h); open 8:30-16:00 Sun-Thu, Fri 8:30-14:00; night enclosure (cheetah/hyena/owl) requires advance reservation; INPA valid.
+
+**2026 tourism developments found:**
+- Yahel-Timna MTB route: 62+ miles (100+ km) continuous singletrack, longest in Israel, opened Dec 2025 at Arava conference. bike-israel.com has self-guided 2-day route. Covered by arava-mountain-biking.md EN — check FR/DE/ES when building that batch.
+- Red Canyon Eilat: kommwirmachendaseinfach.de (personal travel blog, not editorial) has 2024 DE content. goisrael.com/de has thin 1-pager. No dedicated editorial DE guide exists — confirmed gap. Winnable.
+- Rosh Hanikra: search results confirm cable car + grotto path fully restored 2026 (grottoes open, coastal promenade operational). Our EN/FR/DE/ES guides may still hedge — freshness check added to BACKLOG.
