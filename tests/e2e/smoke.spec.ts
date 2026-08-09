@@ -1398,6 +1398,11 @@ const ROUTES = [
   '/fr/israel-surfing',
   '/fr/jerusalem-first-station-guide',
   '/fr/nativity-trail-guide',
+  '/de/nahal-alexander-guide',
+  '/de/nahal-pratzim-guide',
+  '/de/israel-surfing',
+  '/de/jerusalem-first-station-guide',
+  '/de/nativity-trail-guide',
 ];
 
 for (const route of ROUTES) {
