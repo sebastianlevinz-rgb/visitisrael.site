@@ -16440,3 +16440,11 @@ IAA 2026 milestone: dos estatuas mármol grecorromanas "Licurgo" in binyamina-gu
 Gate: pnpm check 0 errors | build 1748→1753 pages (+5) | pnpm test:e2e 10/10 targeted pass.
 Ship: committed 5a414d8b directly to master (branch had no commits — squash-merge N/A); pushed origin/master.
 ES guides: 309→314/401. Note: iter ran across 2 cloud sessions due to context limit; continued cleanly.
+
+## 2026-08-09T17:55Z · iter 1114 · REVIEW · review-1114-es63-meta-trim
+What: Meta audit of 5 ES-63 guides (iter1113 batch): zippori-sepphoris-guide, valley-of-elah-guide, atlit-detainee-camp-guide, binyamina-guide, hai-bar-yotvata-guide.
+Fixes: 5 titles trimmed ≤54 chars (was 56–77): zippori 77→54, valley 73→49, atlit 69→48, binyamina 56→51, hai-bar 65→42.
+Fixes: 5 descriptions trimmed ≤151 chars (was 158–180): zippori 169→151, valley 158→138, atlit 176→150, binyamina 170→150, hai-bar 180→144.
+Other checks CLEAN: 19/19 /es/* cross-links valid, no H1 in body, heroImages present, no fabricated prices/ratings, INPA flags honest.
+Gate: pnpm check 0 errors | build 1753 pages | test:e2e 34/34 targeted pass.
+Merge SHA: 21c3462a. CI in_progress at state-write.
