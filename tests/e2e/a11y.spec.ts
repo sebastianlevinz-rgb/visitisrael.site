@@ -1103,6 +1103,11 @@ const ROUTES = [
   '/de/rosh-pina-guide',
   '/de/national-library-israel',
   '/de/jerusalem-mount-zion-guide',
+  '/fr/zippori-sepphoris-guide',
+  '/fr/valley-of-elah-guide',
+  '/fr/atlit-detainee-camp-guide',
+  '/fr/binyamina-guide',
+  '/fr/hai-bar-yotvata-guide',
 ];
 
 for (const route of ROUTES) {
