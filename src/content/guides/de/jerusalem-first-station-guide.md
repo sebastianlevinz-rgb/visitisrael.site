@@ -1,6 +1,6 @@
 ---
 title: 'Erster Bahnhof Jerusalem: Markt, Restaurants & Mesila'
-description: "Erster Bahnhof Jerusalem (HaTachana HaRishona): Ottomanischer Bahnhof von 1892, Wochenmarkt, Restaurants und Startpunkt des 7-km-Mesila-Trails. Tipps für DACH-Reisende."
+description: "Erster Bahnhof Jerusalem (HaTachana HaRishona): Ottomanischer Bahnhof von 1892, Wochenmarkt, Restaurants und Startpunkt des 7-km-Mesila-Trails."
 heroImage: /images/regions/jerusalem/hero.jpg
 category: Reiseziele
 updatedAt: 2026-08-09

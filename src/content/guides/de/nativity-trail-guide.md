@@ -1,6 +1,6 @@
 ---
 title: 'Geburtsweg: Pilgerwanderung Nazareth–Bethlehem'
-description: "Geburtsweg (Nativity Trail): 160 km Fußpilgerweg von Nazareth nach Bethlehem durch das Westjordanland. Etappen, Sicherheitshinweise, WalkPalestine und geführte Optionen."
+description: "Geburtsweg (Nativity Trail): 160 km Fußpilgerweg Nazareth–Bethlehem. Etappen, Checkpoints, Sicherheitshinweise und geführte Optionen."
 heroImage: /images/regions/nazareth/hero.jpg
 category: Wandern
 updatedAt: 2026-08-09
