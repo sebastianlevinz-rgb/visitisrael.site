@@ -1,6 +1,6 @@
 ---
 title: 'Biblioteca Nacional de Israel: Guía del Visitante 2026'
-description: 'Visita la Biblioteca Nacional de Israel en Jerusalén — manuscritos hebreos, archivo de Einstein, investigación genealógica y el edificio de Herzog & de Meuron.'
+description: 'Visita la Biblioteca Nacional de Israel en Jerusalén — manuscritos hebreos, archivo de Einstein, genealogía y el edificio de Herzog & de Meuron.'
 heroImage: /images/sub-destinations/jerusalem/israel-museum.jpg
 category: Planning
 updatedAt: 2026-08-09

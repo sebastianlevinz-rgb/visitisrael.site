@@ -1,5 +1,5 @@
 ---
-title: 'Fortaleza de Nimrod: Guía del Castillo Medieval del Golán (2026)'
+title: 'Fortaleza de Nimrod: Castillo del Golán (2026)'
 description: 'Fortaleza de Nimrod en el Golán: el castillo medieval más grande de Israel. Orígenes ayubíes, circuito del sitio y combinaciones con Banias y Tel Dan.'
 heroImage: /images/regions/golan/nimrod-fortress.jpg
 category: Destinations

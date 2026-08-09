@@ -1,6 +1,6 @@
 ---
-title: 'Sinagoga de Beit Alfa: Guía del Mosaico Bizantino (2026)'
-description: 'Sinagoga de Beit Alfa: el mosaico de sinagoga antigua más completo de Israel — rueda zodiacal, Sacrificio de Abraham y Arca de la Alianza. Pase INPA, horarios y consejos.'
+title: 'Sinagoga de Beit Alfa: Mosaico Bizantino (2026)'
+description: 'Sinagoga de Beit Alfa: el mosaico de sinagoga más completo de Israel — zodíaco, Sacrificio de Abraham y Arca de la Alianza. Pase INPA y horarios.'
 heroImage: /images/regions/galilee/hero.jpg
 category: History
 updatedAt: 2026-08-09

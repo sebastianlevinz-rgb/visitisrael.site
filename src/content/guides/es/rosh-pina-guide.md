@@ -1,5 +1,5 @@
 ---
-title: 'Rosh Pina: Guía del Pueblo Viticola de la Alta Galilea (2026)'
+title: 'Rosh Pina: Guía del Pueblo Vinícola de la Alta Galilea'
 description: 'Guía completa de Rosh Pina — el primer moshava sionista de Galilea: barrio Rothschild, mirador Nimrod y ruta vinícola de la Alta Galilea.'
 heroImage: /images/regions/galilee/hero.jpg
 category: Destinations

@@ -1,6 +1,6 @@
 ---
-title: 'Monte Sión Jerusalén: Cenáculo, Tumba de David y Abadía (2026)'
-description: 'Tres lugares de peregrinación en 200 m en el Monte Sión: el Cenáculo (Sala Superior), la Tumba del Rey David y la Abadía de la Dormición. Horarios, código de vestimenta y consejos de visita.'
+title: 'Monte Sión Jerusalén: Cenáculo, Tumba, Abadía'
+description: 'Monte Sión (Har Tzion): Cenáculo, Tumba de David y Abadía de la Dormición en 200 m. Horarios, vestimenta y cómo llegar.'
 heroImage: /images/regions/jerusalem/old-city.jpg
 category: Sacred Sites
 updatedAt: 2026-08-09
