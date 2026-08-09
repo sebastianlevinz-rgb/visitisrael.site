@@ -16308,3 +16308,12 @@ Gate: pnpm check 0 errors | build 1723 pages (+5 from 1718) | pnpm test:e2e 10/1
 Ship: committed 95506245 directly on master (squash-merge from auto/de-46-batch failed — files were in working tree but not committed to branch; fixed by staging and committing on master directly); pushed to origin/master.
 Prod: CI in_progress at state-write (triggered 2026-08-09T04:40:52Z).
 Next: iter1102 (1102%5=2 → REVIEW) — review the DE-46 guides (5 guides shipped iter1101 95506245) for meta title/desc length (TITLE_MAX=65, DESC_MAX=160), /de/* link validity, no H1 in body, no fabricated prices.
+
+## 2026-08-09T06:30Z · iter 1102 · REVIEW · review-1102-de46-meta-trim
+What: Meta-trim review of 5 DE-46 guides (jerusalem-trail, nahalat-binyamin-market-tel-aviv, via-ferrata-israel, kerem-hateimanim-tel-aviv, keshet-cave-guide) shipped iter1101.
+Audit findings: 4 titles over soft 54-char target; 3 descriptions over soft 151-char target (nahalat-binyamin-market also over HARD 160-char limit at 162 chars). 19/19 /de/* cross-links valid. No H1 in body. No fabricated prices/ratings.
+Fixes applied: jerusalem-trail title 62→46 chars; nahalat-binyamin-market-tel-aviv title 63→46 chars + desc 162→142 chars (hard-limit fix); via-ferrata-israel title 64→54 chars; kerem-hateimanim-tel-aviv title 55→48 chars + desc 157→128 chars; keshet-cave-guide desc 158→139 chars. 7 total frontmatter fixes across 5 files.
+Gate: pnpm check 0 errors | build 1723 pages (stable, no new pages) | pnpm test:e2e 10/10 targeted pass.
+Ship: committed d58efe3f on auto/review-1102-de46-meta-trim, squash-merged to master, pushed to origin/master.
+Prod: CI in_progress at state-write.
+Next: iter1103 (1103%5=3 → BUILD) — FR-49 or DE-47 or ES-62 batch: nimrod-fortress-guide + beit-alfa-guide + rosh-pina-guide + national-library-israel + jerusalem-mount-zion-guide. All confirmed MISSING from all 3 locales, Status: ready in BACKLOG.
