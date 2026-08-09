@@ -1,6 +1,6 @@
 ---
 title: "Bibliothèque Nationale d'Israël : Guide Visiteur"
-description: "Visitez la Bibliothèque Nationale d'Israël à Jérusalem — bâtiment Herzog & de Meuron, manuscrits hébreux rares, archive Einstein et recherche généalogique."
+description: "Bibliothèque Nationale d'Israël à Jérusalem — bâtiment Herzog & de Meuron, manuscrits hébreux rares, archive Einstein et généalogie."
 heroImage: /images/sub-destinations/jerusalem/israel-museum.jpg
 category: Planning
 updatedAt: 2026-08-09

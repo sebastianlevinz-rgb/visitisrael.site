@@ -1,6 +1,6 @@
 ---
 title: 'Mont Sion Jérusalem : Cénacle, Tombeau, Abbaye'
-description: "Trois sites de pèlerinage en 200 m sur le Mont Sion (Har Tzion) : le Cénacle, le Tombeau du roi David et l'Abbaye de la Dormition. Horaires, tenue vestimentaire et conseils."
+description: "Mont Sion (Har Tzion) : Cénacle, Tombeau de David et Abbaye de la Dormition en 200 m. Horaires, tenue et accès à Jérusalem."
 heroImage: /images/regions/jerusalem/old-city.jpg
 category: Sacred Sites
 updatedAt: 2026-08-09

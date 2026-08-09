@@ -1,6 +1,6 @@
 ---
 title: 'Roch Pina : Premier Village Sioniste de Galilée'
-description: "Guide complet de Roch Pina — plus ancien moshava de Galilée (1882), quartier de pierres de l'ère Rothschild, route des vins de Haute-Galilée et panorama Houla."
+description: "Guide de Roch Pina — premier moshava de Galilée (1882), maisons Rothschild restaurées, route des vins Haute-Galilée et panorama Houla."
 heroImage: /images/regions/galilee/hero.jpg
 category: Destinations
 updatedAt: 2026-08-09

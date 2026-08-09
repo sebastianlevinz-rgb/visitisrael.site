@@ -1,6 +1,6 @@
 ---
 title: 'Synagogue de Beit Alfa : Mosaïque Byzantine (2026)'
-description: "Guide Beit Alfa : mosaïque de synagogue byzantine du VIe siècle — zodiaque, Sacrifice d'Abraham et Arche d'Alliance. Pass INPA, horaires et circuit Jezraël."
+description: "Guide Beit Alfa : mosaïque byzantine du VIe s. — zodiaque, Sacrifice d'Abraham, Arche d'Alliance. Pass INPA et circuit Jezraël."
 heroImage: /images/regions/galilee/hero.jpg
 category: History
 updatedAt: 2026-08-09
