@@ -16276,3 +16276,10 @@ Gate: pnpm check 0 errors | build 1718 pages (+5 vs 1713) | pnpm test:e2e 10/10 
 Ship: squash-merged to master 67dd9323; pushed to origin/master. Vercel deploy in progress at state-write.
 FR guides: 322→327/398. Build: 1713→1718 pages (+5).
 Next: iter1098 (1098%5=3 → REVIEW) — review-1098-fr48-meta-audit: audit 5 FR-48 guides for title/desc length, internal link validity, no H1, no fabricated prices.
+
+## 2026-08-09T01:50Z · iter 1098 · REVIEW · review-1098-fr48-meta-trim
+What: Audited 5 FR-48 guides (jerusalem-trail, nahalat-binyamin-market-tel-aviv, via-ferrata-israel, kerem-hateimanim-tel-aviv, keshet-cave-guide) shipped in iter1097 67dd9323. Checks: (1) meta title ≤54 chars — 4 overruns found; (2) meta description ≤151 chars — 5 overruns found; (3) all /fr/* internal links validated — 20/20 OK; (4) heroImages exist on disk — 5/5 OK; (5) no H1 in body — 5/5 OK; (6) no fabricated prices/ratings — clean.
+Fixes (9 total): jerusalem-trail title 65→54, desc 154→134; nahalat-binyamin title 64→51, desc 165→145; via-ferrata desc 183→145 (title 51 already OK); kerem-hateimanim title 64→52, desc 177→141; keshet-cave title 59→49, desc 172→144.
+Gate: pnpm check 0 errors | build 1718 pages (unchanged) | pnpm test:e2e 10/10 targeted FR-48 routes pass (5 smoke + 5 a11y).
+Ship: squash-merged to master b65f7491; pushed to origin/master. CI in_progress at state-write.
+Next: iter1099 (1099%5=4 → REVIEW) — review-1099-es61-meta-audit: audit 5 ES-61 guides (same 5 guides in ES, shipped iter1096 a64f6512) for title/desc length, internal link validity, no H1, no fabricated prices.

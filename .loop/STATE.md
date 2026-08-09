@@ -1,14 +1,16 @@
 # LOOP STATE
 
-- iteration: 1097
-- lastMode: BUILD
-- lastItem: fr-48-batch
-- lastResult: BUILD — FR-48 batch SHIPPED 67dd9323. 5 FR guides: jerusalem-trail (Sentier de Jérusalem 42km boucle; 4 segments; analogy Chemin de Compostelle; GYG+Booking+Discovercars CTAs), nahalat-binyamin-market-tel-aviv (Marché artisanat 200+ créateurs Mar/Ven 10h–17h; architecture Art déco+Bauhaus; GYG+Civitatis+Booking CTAs), via-ferrata-israel (Falaise Ramim B/C 1,2km + Ravid C 900m; verdictName+verdictQuery; comparison table; age 12+/14+; GYG+Discovercars CTAs), kerem-hateimanim-tel-aviv (Quartier yéménite 1904; jachnun/malawach/lachuch/kubbaneh/hilbe/merak; scène bars Jeu/Ven; GYG+Booking CTAs), keshet-cave-guide (Arche calcaire 48m; tyrolienne 200m; Nahal Kziv Oct–May; Montfort Forteresse 1271 1km; INPA Goren Park valide; zip-line separate fee; verdictName+verdictQuery; GYG+Discovercars+Booking CTAs). Metropolitan French; all /fr/* cross-links pre-verified (20/20); no fabricated prices/ratings; no H1 in body; 10 new e2e tests (5 smoke + 5 a11y) all pass. FR guides: 322→327/398. Build: 1713→1718 pages (+5). Gate: pnpm check 0 errors | build 1718 pages | pnpm test:e2e 10/10 targeted pass. Commit: 67dd9323.
+- iteration: 1098
+- lastMode: REVIEW
+- lastItem: review-1098-fr48-meta-trim
+- lastResult: REVIEW — review-1098-fr48-meta-trim SHIPPED b65f7491. Audited 5 FR-48 guides (jerusalem-trail, nahalat-binyamin-market-tel-aviv, via-ferrata-israel, kerem-hateimanim-tel-aviv, keshet-cave-guide). Found 9 meta overruns: 4 titles over 54 chars (jerusalem-trail 65, nahalat-binyamin 64, kerem-hateimanim 64, keshet-cave 59) and 5 descriptions over 151 chars (all 5 guides). Fixed: jerusalem-trail title 65→54, desc 154→134; nahalat-binyamin title 64→51, desc 165→145; via-ferrata desc 183→145 (title 51 OK); kerem-hateimanim title 64→52, desc 177→141; keshet-cave title 59→49, desc 172→144. All 20/20 /fr/* internal links valid; heroImages exist; no H1 in body; no fabricated prices/ratings. Gate: pnpm check 0 errors | build 1718 pages | pnpm test:e2e 10/10 targeted pass. Commit: b65f7491.
 
-- nextRotationCategory: REVIEW (iter1098 % 5 = 3 → REVIEW; audit FR-48 meta titles/descriptions/internal links — same 5 guides just shipped; standard post-batch meta-trim pass)
+- nextRotationCategory: REVIEW (iter1099 % 5 = 4 → REVIEW; audit ES-61 batch meta titles/descriptions/internal links — 5 ES guides shipped iter1096 a64f6512; no meta review done for ES-61 yet)
 - higgsfieldSpent: 0
-- updatedAt: 2026-08-09T00:45Z
+- updatedAt: 2026-08-09T01:50Z
 - branch context: work on master; feature work on auto/<slug>
+
+Notes: iter1098 REVIEW — review-1098-fr48-meta-trim SHIPPED b65f7491. 9 meta fixes: 4 titles trimmed (≤54 chars), 5 descriptions trimmed (≤151 chars). All 20/20 /fr/* links valid. No H1 in body. No fabricated prices. Gate: check 0 | build 1718 | test:e2e 10/10 targeted. CI in_progress at state-write. Commit: b65f7491.
 
 Notes: iter1097 BUILD — fr-48-batch SHIPPED 67dd9323. 5 FR guides: jerusalem-trail + nahalat-binyamin-market-tel-aviv + via-ferrata-israel + kerem-hateimanim-tel-aviv + keshet-cave-guide. Metropolitan French; 20/20 cross-links verified; no EN fallbacks needed (all /fr/* exist); no fabricated data; verdictName+verdictQuery on via-ferrata+keshet-cave; INPA Goren Park valid (zip-line separate); no H1 in body; 10 new e2e routes (5 smoke + 5 a11y). FR guides: 322→327/398. Build: 1713→1718 (+5). Gate: check 0 | build 1718 | test:e2e 10/10. Commit: 67dd9323.
 
