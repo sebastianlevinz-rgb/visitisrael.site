@@ -8368,3 +8368,33 @@ Sources: alltrails.com, tripadvisor.com, touristisrael.com, israel-in-photos.com
 - Yahel-Timna MTB route: 62+ miles (100+ km) continuous singletrack, longest in Israel, opened Dec 2025 at Arava conference. bike-israel.com has self-guided 2-day route. Covered by arava-mountain-biking.md EN — check FR/DE/ES when building that batch.
 - Red Canyon Eilat: kommwirmachendaseinfach.de (personal travel blog, not editorial) has 2024 DE content. goisrael.com/de has thin 1-pager. No dedicated editorial DE guide exists — confirmed gap. Winnable.
 - Rosh Hanikra: search results confirm cable car + grotto path fully restored 2026 (grottoes open, coastal promenade operational). Our EN/FR/DE/ES guides may still hedge — freshness check added to BACKLOG.
+
+## iter1110 — 2026-08-09 · Research: Markets, Surfing, Nature Niches
+
+**GYG bestsellers in Israel (new finds):**
+- HaTikva Market food tasting tour: bestselling TLV experience on GYG ($80/person, 2.5h, 4.9★); harrysbaked.com runs private tours; no editorial guide in any language on any competitor — this is a clean gap. Carmel Market / Nahalat Binyamin competitors exist; HaTikva does not. Queue new EN guide + eventual i18n.
+- Levinsky Market: harrysbaked.com has dedicated editorial guide; touristisrael.com roundup. We don't have a dedicated Levinsky guide either — lower priority than HaTikva since harrysbaked.com already wins that SERP.
+- Jerusalem First Station (HaTachana): DannyTheDigger + Timeout Israel + iTravelJerusalem cover in EN. Zero FR/DE/ES editorial competition. We have EN guide; need all 3 locales.
+
+**Surfing in Israel (confirmed editorial gap):**
+- surfertoday.com: Has "best surf spots in Israel" article (EN). No FR/DE/ES equivalent anywhere.
+- surfline.com: Spot Check Israel (EN). No i18n competitors.
+- stormrider.surf: Israel country page (EN). No FR/DE/ES.
+- chargers.org.il (Israeli surf association): Hebrew + EN, no FR/DE/ES.
+- nomadsurfers.com: Israel page (EN). No i18n.
+- SERP gap: "surfen in Israel", "surf en Israël", "surf en Israel" = uncontested. Medium effort, high uniqueness.
+
+**Nature/ecotourism (confirmed editorial gaps):**
+- Nahal Alexander: Lonely Planet has a listing entry (EN, thin). touristisrael.com has a basic stub. hikingintheholyland.com has a trail report (EN). gonetanya.com (local city site) has visitor page. Zero FR/DE/ES editorial.
+- Nahal Pratzim: Viator/TripAdvisor surface it as top Mitzpe Ramon activity. Deep Desert Israel runs licensed tours. backpackisrael.com covers Mitzpe Ramon but not Pratzim specifically. Zero FR/DE/ES editorial.
+
+**Armenian Quarter (multi-market gap):**
+- itraveljerusalem.com has EN Armenian Quarter page.
+- Timeout Israel has EN content.
+- We have FR (iter1072 shipped 638a4371). DE + ES = zero editorial competition. German-Armenian and LATAM-Armenian diaspora demographics confirm high relevance.
+
+**Tourism news 2026 (no new backlog items needed):**
+- Schottenstein National Campus (IAA): Visitor Experience center expected to open early 2027; Leon Levy Center for National Treasures (sub-component) expected mid-2026. We have schottenstein-campus-jerusalem.md in EN + ES already (iter1083). May need freshness update when it fully opens.
+- Almog Beach Eilat expansion (new city-designated beach): monitor for 2027 content update.
+- Fattal Hotels: 8 new properties nationwide, 1,000+ rooms. Covered by new-luxury-hotels-israel-2026.md.
+- TouristIsrael added Gaza Border & Nova Festival Small Group Tour guide (Oct 7 memorial tourism). This is legitimate remembrance tourism with tens of thousands of visitors; we do NOT have a guide. Flagged as human-review item — sensitive content, out of scope for autonomous loop (PLAYBOOK rule 9). Do not auto-ship.

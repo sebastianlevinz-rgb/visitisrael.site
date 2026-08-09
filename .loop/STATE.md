@@ -1,14 +1,16 @@
 # LOOP STATE
 
-- iteration: 1109
-- lastMode: REVIEW
-- lastItem: review-1109-es62-meta-trim
-- lastResult: REVIEW — review-1109-es62-meta-trim SHIPPED abc7ab79. Audited 5 ES-62 guides (nimrod-fortress, beit-alfa, rosh-pina, national-library-israel, jerusalem-mount-zion). 7 fixes: 4 titles trimmed ≤54 (nimrod 64→46, beit-alfa 56→47, rosh-pina 61→54 + spelling "Viticola"→"Vinícola", mount-zion 62→45); 3 descriptions trimmed ≤151 (beit-alfa 170→145 OVER HARD; national-library 159→144; mount-zion 190→119 OVER HARD + Har Tzion paired naming added to match FR/DE pattern). 14/14 /es/* links valid. No H1 in body. All heroImages present. No fabricated prices. verdictName+verdictQuery on 3/5 (nimrod, national-library, mount-zion) — consistent with FR/DE. Gate: pnpm check 0 errors | build 1738 | test:e2e 10/10 targeted. Commit: abc7ab79. CI in_progress at state-write.
+- iteration: 1110
+- lastMode: RESEARCH
+- lastItem: research-1110-markets-surfing-nature-gaps
+- lastResult: RESEARCH — 233rd research pass. EN=398, FR=332/398, DE=323/398, ES=309/398. Missing from all 3: ~50. Competitor research: GYG bestselling Israel food tours surface HaTikva Market as high-demand gap (no editorial guide in any locale); Jerusalem First Station editorial zero in FR/DE/ES; Israel surfing unclaimed in all 3; Nahal Alexander softshell turtles niche gap; jerusalem-armenian-quarter exists in FR but missing DE+ES; Nahal Pratzim canyoning confirmed valid (Viator/TripAdvisor top Mitzpe Ramon activity). Sources: GYG Israel/TLV, TripAdvisor Israel, touristisrael.com, harrysbaked.com, surfertoday.com, surfline.com, stormrider.surf, hikingintheholyland.com, gonetanya.com, parks.org.il, dannythedigger.com. 6 new BACKLOG items added. No code shipped.
 
-- nextRotationCategory: RESEARCH (1110 % 5 = 0 → RESEARCH; FR-50/DE-48/ES-63 batch ready: zippori-sepphoris+valley-of-elah+atlit-detainee-camp+binyamina+hai-bar-yotvata; also rosh-hanikra freshness check ready)
+- nextRotationCategory: BUILD (1111 % 5 = 1 → BUILD; FR-50 batch ready: zippori-sepphoris+valley-of-elah+atlit-detainee-camp+binyamina+hai-bar-yotvata; also DE-48/ES-63 same batch)
 - higgsfieldSpent: 0
-- updatedAt: 2026-08-09T12:44Z
+- updatedAt: 2026-08-09T14:00Z
 - branch context: work on master; feature work on auto/<slug>
+
+Notes: iter1110 RESEARCH — 233rd research pass. EN=398, FR=332/398, DE=323/398, ES=309/398. Missing from all 3 ~50. Competitor scan: GYG Israel food tour bestsellers → HaTikva Market (Iraqi/Yemenite; ~90 years old; $80/person 2.5h GYG food tour) = zero editorial guide in any locale. Jerusalem First Station (HaTachana 1892→2013 cultural hub; Thu/Fri farmers market; 15+ restaurants; 1km from Old City) = zero FR/DE/ES. Israel surfing (Mediterranean: Hilton Beach TLV + Haifa Backdoor reef break + Caesarea Arubot; surfertoday.com/surfline.com cover EN only) = zero FR/DE/ES. Nahal Alexander (INPA valid Alexander Stream NP; softshell turtles up to 1.2m/50kg; 2.7km River Trail; Turtle Bridge) = zero FR/DE/ES. Nahal Pratzim canyoning (Ramon Crater sector; INPA-licenced operators; Viator/TripAdvisor top Mitzpe Ramon activity) = zero FR/DE/ES. jerusalem-armenian-quarter: exists EN+FR (iter1072) but MISSING from DE+ES. 6 items added to BACKLOG. No code shipped.
 
 Notes: iter1109 REVIEW — review-1109-es62-meta-trim SHIPPED abc7ab79. 7 fixes across 5 ES-62 guides: 4 titles trimmed ≤54 (nimrod 64→46, beit-alfa 56→47, rosh-pina 61→54 + "Viticola"→"Vinícola", mount-zion 62→45); 3 descs trimmed ≤151 (beit-alfa 170→145 OVER HARD; national-library 159→144; mount-zion 190→119 OVER HARD). mount-zion desc rewritten to structured FR/DE pattern + Har Tzion paired naming. 14/14 /es/* links valid. No H1 in body. HeroImages present. No fabricated prices. CI in_progress at state-write.
 

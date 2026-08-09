@@ -16373,3 +16373,19 @@ Fixes applied: nimrod title 64→46 ("Guía del Castillo Medieval del" removed);
 Gate: pnpm check 0 errors | build 1738 | test:e2e 10/10 targeted pass (10s).
 Ship: committed abc7ab79 directly on master; pushed to origin/master. CI in_progress at state-write.
 Next: iter1110 (1110%5=0 → RESEARCH). Research 233rd pass: confirm FR=332/401, DE=323/401, ES=304/401; also check rosh-hanikra freshness (cable car 2026 reopening) and identify any new EN gaps.
+
+## 2026-08-09T14:00Z · iter 1110 · RESEARCH · research-1110-markets-surfing-nature-gaps
+Mode: RESEARCH (1110%5=0). 233rd research pass. No code shipped.
+Locale counts (filesystem verified): EN=398, FR=332/398 (66 missing), DE=323/398 (75 missing), ES=309/398 (89 missing). Missing from ALL 3 ~50.
+Competitor research sources: GYG Israel/TLV, TripAdvisor Israel top activities, touristisrael.com, harrysbaked.com, surfertoday.com, surfline.com, stormrider.surf, hikingintheholyland.com, gonetanya.com, INPA parks.org.il, dannythedigger.com, itraveljerusalem.com.
+Key findings:
+  1. HaTikva Market Tel Aviv — GYG has bestselling food tasting tours ($80/pp 2.5h 4.9★) targeting this 90-year Iraqi/Yemenite neighborhood market; harrysbaked.com private tours EN-only; touristisrael.com roundup only; zero dedicated editorial in any locale. We cover Carmel + Nahalat Binyamin + Sarona + Mahane Yehuda but NOT HaTikva. New EN guide needed first.
+  2. Jerusalem First Station (HaTachana Harishona) — 1892 Ottoman terminus → 2013 cultural hub; Thu/Fri farmers market; craft beer + 15+ restaurants; 1km SW Old City; DannyTheDigger + iTravelJerusalem EN-only; zero FR/DE/ES editorial. Exists in EN guide already (src/content/guides/jerusalem-first-station-guide.md); missing from all 3 locales.
+  3. Israel surfing (Mediterranean) — Hilton Beach TLV surfing capital; Haifa Backdoor reef break (best winter waves); Caesarea Arubot Beach uncrowded; surfertoday.com + surfline.com + stormrider.surf all EN-only. Exists in EN (israel-surfing.md); zero FR/DE/ES editorial; "surfer en Israël" / "Surfen in Israel" / "surf en Israel" = unclaimed SERPs.
+  4. Nahal Alexander Nature Reserve — Alexander Stream National Park (INPA valid Bet Yanai Beach sector); 2.7km River Trail; Turtle Bridge (softshell turtles up to 1.2m/50kg year-round); Lonely Planet + touristisrael.com cover EN only; zero FR/DE/ES. EN guide exists (nahal-alexander-guide.md); all 3 locales missing.
+  5. Jerusalem Armenian Quarter for DE+ES — exists in EN+FR (iter1072); ~1.2M German Armenians + Bundestag 2016 recognition → strong DACH resonance; ~100K Argentine + ~80K Uruguayan Armenians → LATAM niche. Confirmed missing from both DE and ES.
+  6. Nahal Pratzim guide for all 3 — INPA-adjacent Ramon Nature Reserve sector; dry canyoning + rappelling (45-200m); Viator + TripAdvisor top Mitzpe Ramon adventure activity; Deep Desert Israel + licensed operators; zero FR/DE/ES editorial. EN guide exists (nahal-pratzim-guide.md); all 3 locales missing.
+  Additional note: rosh-hanikra cable car + grotto path confirmed fully reopened 2026 (confirmed by search results) — check existing EN/FR/DE/ES guides for stale "suspended" hedge language (already in BACKLOG as individual item).
+Gate: N/A (research mode). No code changes.
+Memory: STATE.md iter→1110. BACKLOG.md (6 items appended). COMPETITORS.md appended. JOURNAL.md appended. .loop/ committed below.
+Next: iter1111 (1111%5=1 → BUILD) — FR-50 batch: zippori-sepphoris-guide + valley-of-elah-guide + atlit-detainee-camp-guide + binyamina-guide + hai-bar-yotvata-guide (all 5 confirmed MISSING from FR; cross-links pre-verified in BACKLOG). FR is most behind after ES.
