@@ -1118,6 +1118,11 @@ const ROUTES = [
   '/es/atlit-detainee-camp-guide',
   '/es/binyamina-guide',
   '/es/hai-bar-yotvata-guide',
+  '/fr/nahal-alexander-guide',
+  '/fr/nahal-pratzim-guide',
+  '/fr/israel-surfing',
+  '/fr/jerusalem-first-station-guide',
+  '/fr/nativity-trail-guide',
 ];
 
 for (const route of ROUTES) {
