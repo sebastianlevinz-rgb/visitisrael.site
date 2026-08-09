@@ -1098,6 +1098,11 @@ const ROUTES = [
   '/fr/rosh-pina-guide',
   '/fr/national-library-israel',
   '/fr/jerusalem-mount-zion-guide',
+  '/de/nimrod-fortress-guide',
+  '/de/beit-alfa-guide',
+  '/de/rosh-pina-guide',
+  '/de/national-library-israel',
+  '/de/jerusalem-mount-zion-guide',
 ];
 
 for (const route of ROUTES) {
