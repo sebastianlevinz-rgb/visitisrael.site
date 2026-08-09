@@ -54,7 +54,7 @@ Guides: same 5 as FR-49 — all confirmed MISSING from DE via comm -23 (2026-08-
 - rosh-pina-guide: Rosh Pina — erstes Galilaea-Kibbuz der Zionisten (1882); Rothschild-Häuser restauriert; Kopfsteinpflaster-Gassen; Boutique-B&Bs; Kinneretpanorama-Steg; INPA NON-valide (Privatortschaft); DACH Weinberg + Naturresort-Nische; cross-links: /de/3-days-in-galilee ✓, /de/golan-heights-guide ✓, /de/galilee-food-guide ✓; GYG Galilää + Booking.com Boutique-Unterkunft CTAs.
 - national-library-israel: Neue Nationalbibliothek Israel (eröffnet 2023); Architektur Herzog & de Meuron (selbes Büro wie Tate Modern + Elbphilharmonie → DACH-Resonanz); 5M+ Objekte; Digitalisierte Teile der Schriftrollen vom Toten Meer; freie Dauerausstellung; cross-links: /de/israel-museum-jerusalem ✓, /de/1-day-jerusalem-itinerary ✓; Tiqets + GYG Jerusalem + Booking.com Jerusalem CTAs.
 - jerusalem-mount-zion-guide: Berg Zion — Davidsgrub + Abendmahlssaal (Coenaculum) + Dormitio-Abtei (Benediktiner); multireligiöser Ort (jüdisch/christlich/franziskanisch/armenisch); INPA NON-valide; DACH Pilgermarkt (größter Outbound-Pilgermarkt Europa); cross-links: /de/western-wall-guide ✓, /de/church-holy-sepulchre-guide ✓, /de/1-day-jerusalem-itinerary ✓; GYG Mount Zion + Viator CTAs.
-Status: ready
+Status: SHIPPED iter1107 c3712613
 
 ### ES-62 batch definition (iter1100 RESEARCH — ready for next ES BUILD after ES-60 + ES-61 SHIPPED)
 Guides: same 5 as FR-49/DE-47 — all confirmed MISSING from ES via comm -23 (2026-08-09). Cross-links all verified in ES.
