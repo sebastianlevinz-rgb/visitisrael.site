@@ -8398,3 +8398,30 @@ Sources: alltrails.com, tripadvisor.com, touristisrael.com, israel-in-photos.com
 - Almog Beach Eilat expansion (new city-designated beach): monitor for 2027 content update.
 - Fattal Hotels: 8 new properties nationwide, 1,000+ rooms. Covered by new-luxury-hotels-israel-2026.md.
 - TouristIsrael added Gaza Border & Nova Festival Small Group Tour guide (Oct 7 memorial tourism). This is legitimate remembrance tourism with tens of thousands of visitors; we do NOT have a guide. Flagged as human-review item — sensitive content, out of scope for autonomous loop (PLAYBOOK rule 9). Do not auto-ship.
+
+## 2026-08-09 · iter1115 RESEARCH — 234th pass
+
+**Sources checked:** stormrider.surf, mywavefinder.com, surfertoday.com, Vice Germany (vice.com/de), hikingintheholyland.com (2019), gonetanya.com, trippinginisrael.co, TripAdvisor Jerusalem First Station, airial.travel, wanderboat.ai, getyourguide.com Israel, touristisrael.com, lonelyplanet.com/israel, roughguides.com/israel.
+
+### Surfing (israel-surfing.md i18n)
+- **FR competition = ZERO**: "surfer en Israël guide complet" returns stormrider.surf (EN), surfertoday.com (EN), mywavefinder.com (EN). Vice Germany has one article in DE but no structured visitor guide. No FR-native Israel surf editorial exists. First-mover opportunity in French confirmed.
+- **DE competition**: Vice.com/de has 1 editorial; stormrider.surf/surfertoday all EN. "Surfen Israel Reiseführer" = unclaimed.
+- **ES competition**: Zero. "surf en Israel Mediterráneo" = unclaimed SERP.
+
+### Jerusalem First Station
+- **Primary competition**: TripAdvisor listing (not editorial); airial.travel and wanderboat.ai (AI-generated thin pages). No established travel publisher has a quality 2026 guide. "Jerusalem First Station guide 2026" = winnable SERP.
+
+### Nahal Alexander
+- **Competition**: hikingintheholyland.com (2019 — outdated, pre-INPA expansion); gonetanya.com (local directory); trippinginisrael.co (thin); INPA official (not editorial). Zero FR/DE/ES competitor. 2025 record 160+ Caretta caretta nests = timely hook unavailable to 2019-era competitors.
+
+### Nativity Trail
+- **FR/DE/ES competition**: Zero dedicated editorial guides in any of the 3 languages. WalkPalestine.com (EN-only operator site). camino-de-santiago.co.uk published comparison article (EN). Thin Wikipedia stubs in FR/DE. First-mover in all 3.
+
+### GYG Bestseller Gap — Ramat Gan Diamond Exchange
+- GYG lists "Israel Diamond Exchange Private Tour" as a top Israel experience. We have israel-diamonds-jewelry.md (general shopping) but zero visitor-experience guide. No major travel publisher has a standalone Diamond Exchange guide. Bursa.co.il (official) + israel21c.org (editorial) = only substantive EN content; zero FR/DE/ES.
+
+### Galilee Culinary Institute
+- Oct 2026 full academic programs now active. Competitors: zero standalone travel guides anywhere. Our EN guide (galilee-culinary-institute-gonen.md) is ahead of all competition. i18n now "ready" (was queued for end-2026).
+
+### Lonely Planet / Rough Guides
+- No new 2026 Israel edition from either. LP Israel page not freshly updated. Window for 2026-dated editorial to outrank on new-attraction searches remains open.

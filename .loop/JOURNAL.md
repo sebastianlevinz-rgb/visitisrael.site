@@ -16448,3 +16448,23 @@ Fixes: 5 descriptions trimmed ≤151 chars (was 158–180): zippori 169→151, v
 Other checks CLEAN: 19/19 /es/* cross-links valid, no H1 in body, heroImages present, no fabricated prices/ratings, INPA flags honest.
 Gate: pnpm check 0 errors | build 1753 pages | test:e2e 34/34 targeted pass.
 Merge SHA: 21c3462a. CI in_progress at state-write.
+
+## 2026-08-09T18:45Z · iter 1115 · RESEARCH · research-1115-fr51-de49-es64-batch
+Mode: RESEARCH (1115%5=0). 234th research pass. No code shipped.
+Locale counts (filesystem verified): EN=398, FR=337/398 (61 missing), DE=328/398 (70 missing), ES=314/398 (84 missing). Missing from all 3: 50 guides.
+Batch defined — FR-51/DE-49/ES-64 (same 5 guides all 3 locales):
+  1. nahal-alexander-guide — Alexander Stream NP (INPA valid); softshell turtles up to 1.2m/50kg; 2.7km River Trail; Turtle Bridge; 2025 record 160+ Caretta caretta nests = timely 2026 hook; all cross-links verified in all 3 locales.
+  2. nahal-pratzim-guide — dry canyoning + rappelling 45–200m in Negev sandstone; INPA-licenced operators (Deep Desert Israel); Mitzpe Ramon; all cross-links verified in all 3 locales.
+  3. israel-surfing — Hilton Beach TLV + Haifa Backdoor reef break + Caesarea Arubot; zero FR-native competitor (stormrider.surf/surfertoday = EN-only); all cross-links verified in all 3 locales.
+  4. jerusalem-first-station-guide — 1892 Ottoman station; renovated April 2026 (7 restaurants, 2,000-person venue); competition = AI-generated only (airial.travel, wanderboat.ai) = beatable; /fr/1-day-jerusalem-itinerary+/fr/day-trips-from-jerusalem verified; all cross-links OK in all 3.
+  5. nativity-trail-guide — 160km Nazareth→Bethlehem pilgrimage route; WalkPalestine.com Oct–Nov annual guided walks; strong FR/DE/ES Christian pilgrimage market; FR fallback: /fr/3-days-in-galilee (jesus-trail MISSING from FR; DE/ES have it ✓); West Bank framing required (safety advisory links); all cross-links verified.
+Competitor research:
+  - Surfing: stormrider.surf + surfertoday.com + mywavefinder.com (all EN); Vice Germany has one article but no guide; zero FR-native Israel surf guide = first-mover opportunity.
+  - Jerusalem First Station: TripAdvisor + AI-generated pages (airial.travel, wanderboat.ai) = no quality editorial competition.
+  - Nahal Alexander: hikingintheholyland.com (2019 — outdated), gonetanya.com (local), INPA (official) — all EN, all thin. 2025 record nesting season hook available.
+  - GYG bestseller gap: Ramat Gan Diamond Exchange private tour (world's largest diamond bourse; GYG bestseller) = zero standalone editorial guide; distinct from existing israel-diamonds-jewelry.md (general shopping guide).
+  - Galilee Culinary Institute: Oct 2026 full academic programs now active; prior BACKLOG status was "queue for end-2026" → upgraded to ready.
+New BACKLOG items: 1 new P-tagged item added (ramat-gan-diamond-exchange-guide P2/M); galilee-culinary-institute-gonen status updated to ready.
+Gate: N/A (research mode). No code changes.
+Memory: STATE.md iter→1115. BACKLOG.md (FR-51/DE-49/ES-64 batch defined + 1 new item). COMPETITORS.md appended. JOURNAL.md appended. .loop/ committed below.
+Next: iter1116 (1116%5=1 → BUILD) — FR-51 batch: nahal-alexander-guide + nahal-pratzim-guide + israel-surfing + jerusalem-first-station-guide + nativity-trail-guide (all 5 confirmed MISSING from FR; cross-links pre-verified).
