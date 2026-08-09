@@ -16290,3 +16290,14 @@ Fixes: none — audit CLEAN.
 Gate: no code changes; no gate run needed.
 Ship: nothing shipped.
 Next: iter1100 (1100%5=0 → RESEARCH) — 231st research pass; assess FR/DE/ES locale gaps, define next 3-locale batch.
+
+## 2026-08-09T08:20Z · iter 1100 · RESEARCH · research-1100-fr49-de47-es62-batch
+What: 231st research pass. Locale count audit + competitor analysis + batch definition for next 3-locale BUILD.
+Locale counts: EN=401 (4 new guides since iter1095: arava-mountain-biking, air-haifa-haifa-airport-guide, maccabiah-games-2026, ashkelon-guide — all missing from FR/DE/ES), FR=327/401 (74 missing), DE=313/401 (88 missing), ES=304/401 (97 missing).
+Competitor findings: Lonely Planet has no standalone site guides for Nimrod/Beit Alfa/Megiddo — exploitable editorial gap; Nomadic Matt skips north Israel/Galilee entirely; Nimrod Fortress has weak mid-tier competition (laidbacktrip.com, israel-in-photos.com, dannythedigger.com) — winnable; Beit Alfa is low-competition ("4-5 thin competitors") — easy top-3; Tel Megiddo Armageddon has strong Christian pilgrimage intent + high affiliate value (private-taxi tours, Christian group packages).
+Defined FR-49/DE-47/ES-62 batch (5 guides, all confirmed MISSING from all 3 locales, all cross-links verified): nimrod-fortress-guide + beit-alfa-guide + rosh-pina-guide + national-library-israel + jerusalem-mount-zion-guide.
+6 individual BACKLOG items added (layover-jerusalem DE+ES, museum-of-tolerance-jerusalem DE+ES, arava-mountain-biking all3, air-haifa-haifa-airport-guide all3, maccabiah-games-2026 all3, ashkelon-guide all3).
+Gate: no code changes; no gate run needed (RESEARCH mode).
+Ship: nothing shipped.
+Memory: STATE.md iter→1100. BACKLOG.md (FR-49/DE-47/ES-62 batch + 6 individual items). COMPETITORS.md appended. I18N-PLAN.md updated. JOURNAL.md appended. .loop/ committed below.
+Next: iter1101 (1101%5=1 → BUILD) — DE-46 batch: 5 DE guides (jerusalem-trail + nahalat-binyamin-market-tel-aviv + via-ferrata-israel + kerem-hateimanim-tel-aviv + keshet-cave-guide), confirmed MISSING from DE, Status: ready in BACKLOG. DE is most behind after ES.

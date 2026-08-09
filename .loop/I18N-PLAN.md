@@ -6,22 +6,48 @@
 >
 > One bounded slice per loop iteration. NEVER bulk-translate in one shot.
 
-## Current status snapshot (2026-08-08 iter1096 BUILD — ES-61 SHIPPED a64f6512; next FR BUILD = FR-48 / next DE BUILD = DE-46 / next ES BUILD = ES-60)
+## Current status snapshot (2026-08-09 iter1100 RESEARCH — FR-48 SHIPPED iter1097 67dd9323; next FR BUILD = FR-49 / next DE BUILD = DE-46 [queue: DE-47 defined] / next ES BUILD = ES-60 [queue: ES-62 defined])
 
 | Locale | Guides | Attractions | Regions | Itineraries |
 |--------|--------|-------------|---------|-------------|
-| en     | 398    | 65          | 11      | 6           |
-| fr     | 322    | 61          | 11      | 6           |
+| en     | 401    | 65          | 11      | 6           |
+| fr     | 327    | 61          | 11      | 6           |
 | de     | 313    | 61          | 11      | 6           |
 | es     | 304    | 61          | 11      | 6           |
 
 **🎉 MILESTONE: ES + FR + DE monthly guides ALL COMPLETE** (iter996+iter997 ES-41+ES-42 SHIPPED — all 12 per-month guides jan-dec now exist in ES, FR, and DE)
 
 **Gaps to close:**
-- es guides: **94 missing** (304/398 done — Phase ES-61 SHIPPED iter1096 a64f6512; **next ES BUILD = ES-60** — DEFINED iter1090: soreq-cave-guide + negev-incense-route + skyfield-extreme-park-jaffa + tel-aviv-coffee-guide + tabgha-church-guide)
-- fr guides: **76 missing** (322/398 done — Phase FR-47 SHIPPED iter1091 5bb6a80a; **next FR BUILD = FR-48** — DEFINED iter1095: jerusalem-trail + nahalat-binyamin-market-tel-aviv + via-ferrata-israel + kerem-hateimanim-tel-aviv + keshet-cave-guide)
-- de guides: **85 missing** (313/398 done — Phase DE-45 SHIPPED iter1093 ee358815; **next DE BUILD = DE-46** — DEFINED iter1095: same 5 guides as FR-48)
+- es guides: **97 missing** (304/401 done — Phase ES-61 SHIPPED iter1096 a64f6512; **next ES BUILD = ES-60** — DEFINED iter1090: soreq-cave-guide + negev-incense-route + skyfield-extreme-park-jaffa + tel-aviv-coffee-guide + tabgha-church-guide; **next-next = ES-62** — DEFINED iter1100: nimrod-fortress-guide + beit-alfa-guide + rosh-pina-guide + national-library-israel + jerusalem-mount-zion-guide)
+- fr guides: **74 missing** (327/401 done — Phase FR-48 SHIPPED iter1097 67dd9323; **next FR BUILD = FR-49** — DEFINED iter1100: nimrod-fortress-guide + beit-alfa-guide + rosh-pina-guide + national-library-israel + jerusalem-mount-zion-guide)
+- de guides: **88 missing** (313/401 done — Phase DE-45 SHIPPED iter1093 ee358815; **next DE BUILD = DE-46** — DEFINED iter1095: jerusalem-trail + nahalat-binyamin-market-tel-aviv + via-ferrata-israel + kerem-hateimanim-tel-aviv + keshet-cave-guide; **next-next = DE-47** — DEFINED iter1100: same 5 as FR-49)
 - fr/de/es attractions: **4 missing each** (the 4 EN attractions added after Phase 4)
+- 4 new EN-only guides (no locale version yet): arava-mountain-biking + air-haifa-haifa-airport-guide + maccabiah-games-2026 + ashkelon-guide
+
+### FR-49 batch definition (iter1100 RESEARCH — ready for next FR BUILD after FR-48 SHIPPED)
+Guides: `nimrod-fortress-guide.md`, `beit-alfa-guide.md`, `rosh-pina-guide.md`, `national-library-israel.md`, `jerusalem-mount-zion-guide.md`
+All 5 confirmed MISSING from FR via comm -23 (2026-08-09). All cross-links verified in FR.
+- nimrod-fortress-guide: Forteresse de Nimrod (Qal'at Namrud); Golan; château croisé 13e s.; INPA valide; vue Mont Hermon; 2h randonnée boucle; /fr/golan-heights-guide ✓, /fr/hiking-in-israel ✓, /fr/car-rental-israel ✓; GYG+Discovercars+Booking.com CTAs; zéro concurrent FR éditorial
+- beit-alfa-guide: Synagogue de Beit Alfa; mosaïque byzantine 5e s. (zodiaque + Sacrifice d'Abraham + Arche); INPA valide; beit-shean-national-park MISSING → EN fallback; /fr/gan-hashlosha-guide ✓, /fr/israel-national-parks-pass ✓; GYG+Discovercars CTAs; zéro concurrent FR/DE/ES
+- rosh-pina-guide: Roch Pina — premier village sioniste Galilée (1882); Baron de Rothschild; B&Bs boutique; porte Golan; INPA NON valide; /fr/3-days-in-galilee ✓, /fr/golan-heights-guide ✓, /fr/galilee-food-guide ✓; GYG+Booking.com boutique CTAs
+- national-library-israel: Bibliothèque Nationale Israël (inaugurée 2023); Herzog & de Meuron (Tate Modern); 5M+ items; manuscrits mer Morte numérisés; /fr/israel-museum-jerusalem ✓, /fr/1-day-jerusalem-itinerary ✓; Tiqets+GYG+Booking.com CTAs
+- jerusalem-mount-zion-guide: Mont Sion — Tombeau de David + Cénacle + Dormition; multireligieux; INPA NON valide; /fr/western-wall-guide ✓, /fr/church-holy-sepulchre-guide ✓, /fr/1-day-jerusalem-itinerary ✓; GYG+Viator CTAs
+
+### DE-47 batch definition (iter1100 RESEARCH — ready for next DE BUILD after DE-46 SHIPPED)
+Guides: same 5 as FR-49 — all confirmed MISSING from DE via comm -23 (2026-08-09). All cross-links verified in DE.
+- nimrod-fortress-guide: Festung Nimrod; Golan; Kreuzfahrer-Burg 13. Jh.; INPA-Pass gültig; DACH Abenteuer-Geschichte-Nische; /de/golan-heights-guide ✓, /de/hiking-in-israel ✓, /de/car-rental-israel ✓; GYG+Discovercars CTAs; null DACH-Konkurrenz
+- beit-alfa-guide: Synagoge Beit Alfa; byzantinischer Mosaikboden 5. Jh.; INPA-Pass gültig; beit-shean-national-park MISSING → EN fallback; /de/gan-hashlosha-guide ✓, /de/israel-national-parks-pass ✓; null DACH-Konkurrenz
+- rosh-pina-guide: Rosh Pina — erstes Galiläa-Dorf der Zionisten (1882); Rothschild-Häuser; Boutique-B&Bs; INPA NON-valide; /de/3-days-in-galilee ✓, /de/golan-heights-guide ✓, /de/galilee-food-guide ✓
+- national-library-israel: Neue Nationalbibliothek Israel (2023); Herzog & de Meuron (Elbphilharmonie-Büro → DACH-Resonanz); 5M+ Objekte; /de/israel-museum-jerusalem ✓, /de/1-day-jerusalem-itinerary ✓
+- jerusalem-mount-zion-guide: Berg Zion — Davidsgrub + Abendmahlssaal + Dormitio; DACH Pilgermarkt; INPA NON-valide; /de/western-wall-guide ✓, /de/church-holy-sepulchre-guide ✓, /de/1-day-jerusalem-itinerary ✓
+
+### ES-62 batch definition (iter1100 RESEARCH — ready for next ES BUILD after ES-60 SHIPPED)
+Guides: same 5 as FR-49/DE-47 — all confirmed MISSING from ES via comm -23 (2026-08-09). All cross-links verified in ES.
+- nimrod-fortress-guide: Fortaleza de Nimrod; Golán; castillo cruzado s.XIII; INPA válido; LATAM aventura + historia; /es/golan-heights-guide ✓, /es/hiking-in-israel ✓, /es/car-rental-israel ✓; GYG+Discovercars+Booking.com CTAs; cero editorial LATAM
+- beit-alfa-guide: Sinagoga de Beit Alfa; mosaico bizantino s.V; INPA válido; beit-shean-national-park MISSING → EN fallback; /es/gan-hashlosha-guide ✓, /es/israel-national-parks-pass ✓; cero LATAM editorial; tuteo
+- rosh-pina-guide: Rosh Pina (1882); Rothschild; turismo rural LATAM; INPA NO válido; /es/3-days-in-galilee ✓, /es/golan-heights-guide ✓, /es/galilee-food-guide ✓
+- national-library-israel: Biblioteca Nacional Israel (2023); arquitectura Herzog & de Meuron; 5M+ ítems; /es/israel-museum-jerusalem ✓, /es/1-day-jerusalem-itinerary ✓
+- jerusalem-mount-zion-guide: Monte Sión — Tumba de David + Cenáculo + Abadía; turismo católico LATAM; INPA NO válido; /es/western-wall-guide ✓, /es/church-holy-sepulchre-guide ✓, /es/1-day-jerusalem-itinerary ✓; tuteo
 
 ### FR-47 batch definition (iter1090 RESEARCH — ready for next FR BUILD)
 Guides: `soreq-cave-guide.md`, `negev-incense-route.md`, `skyfield-extreme-park-jaffa.md`, `tel-aviv-coffee-guide.md`, `tabgha-church-guide.md`

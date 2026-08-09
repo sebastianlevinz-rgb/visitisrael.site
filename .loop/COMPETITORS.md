@@ -8300,3 +8300,36 @@ Sources: alltrails.com, tripadvisor.com, touristisrael.com, israel-in-photos.com
 - The Yacht on the Herzliya (325 rooms, 2 pools, spa; Fattal Hotels; opened June 2026) — our guides need this added to new-luxury-hotels-israel-2026.md (update + ES i18n)
 - Kassland Resort & Spa (220 rooms; Ma'ale Adumim near Jerusalem; May 2026) — already documented in our guides; HUMAN REVIEW flag unchanged
 - Fattal Hotels planning 8 new hotels nationwide (1,000+ rooms) — ongoing development to track
+
+### 2026-08-09 · iter 1100 · research-1100-fr49-de47-es62 · Lonely Planet + Nomadic Matt scan
+
+**Lonely Planet Israel**
+- LP covers Israel via broad regional hubs (Jerusalem, Tel Aviv, Galilee, Dead Sea, Negev) — guidebook-style overviews, NOT intent-driven standalone site guides
+- Zero standalone pages for Nimrod Fortress, Beit Alfa, Tel Megiddo, National Library, Mount Zion — all are exploitable gaps
+- LP also lacks: airport transfer guides, family adventure pages, road trip itineraries — we have these
+- Opportunity: deep editorial site guides with visiting logistics + INPA pass info + affiliate CTAs outrank LP's regional hubs for long-tail queries
+
+**Nomadic Matt Israel**
+- Has 4 pages: budget road trip guide, best tour companies roundup, 11 things to do listicle, best TLV hostels guide; tour prices $28–$375 indicating GYG/Viator affiliate potential
+- Missing: daily budget breakdown, multi-day itineraries (5d/10d), Ben Gurion airport guide, any north Israel/Galilee content
+- LATAM/FR/DE editorial gap in Galilee confirmed — no multi-language competitors for Nazareth/Sea of Galilee/Jesus Trail depth
+
+**Nimrod Fortress competitive scan**
+- Mid-tier competitors ranking: laidbacktrip.com, israel-in-photos.com, dannythedigger.com, tzurtours.com, Expedia listing
+- No Lonely Planet or TripAdvisor editorial page — confirmed winnable with comprehensive guide
+- All 3 competitor pages are EN-only; zero FR/DE/ES editorial exists — SERP whitespace in all 3 locales
+- INPA National Park pass valid; combine with Golan Heights day trip hub for broader cluster capture
+
+**Beit Alfa Synagogue competitive scan**
+- Only 4-5 thin competitors: laidbacktrip.com, israel-in-photos.com, tzurtours.com, Wikipedia
+- Content sparse — easy top-3 ranking path
+- Zero FR/DE/ES editorial — "synagogue de Beit Alfa" / "Beit Alfa Synagoge" / "sinagoga de Beit Alfa" = zero SERP competition
+- UNESCO Jezreel Valley; INPA valid; pairs with Gan Hashlosha/Sachne for day-trip cluster
+
+**Tel Megiddo / Armageddon competitive scan**
+- Strong Christian pilgrimage search intent ("Armageddon Israel guide", "Tel Megiddo visitor guide")
+- israel-taxi.com + tzurtours.com + dannythedigger.com + americaisraeltours.com rank; private-taxi/tour model = high commissions
+- US evangelical traveler is primary buyer; LATAM Catholic pilgrimage secondary
+- note: megiddo-jezreel-valley-guide.md (the area guide) already in FR/DE/ES; tel-megiddo-guide.md (standalone UNESCO site guide) still missing from all 3
+
+**Dedup note**: tel-megiddo-guide.md NOT included in FR-49/DE-47/ES-62 batch (5-guide limit; nimrod+beit-alfa+rosh-pina+national-library+mount-zion chosen instead). Add tel-megiddo-guide.md as individual P2 item for all 3 locales.
