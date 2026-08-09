@@ -1,14 +1,16 @@
 # LOOP STATE
 
-- iteration: 1105
-- lastMode: RESEARCH
-- lastItem: research-1105-fr50-de48-es63-batch
-- lastResult: RESEARCH — 232nd research pass. EN=398, FR=332/398 (66 missing), DE=318/398 (80 missing), ES=304/398 (94 missing). Missing from ALL 3: 55 guides. Defined FR-50/DE-48/ES-63 batch (same 5 guides confirmed MISSING from all 3 locales): zippori-sepphoris-guide (Mona Lisa of the Galilee; Byzantine mosaic synagogue; INPA valid; near Nazareth; zero FR/DE/ES editorial) + valley-of-elah-guide (David & Goliath battlefield; free; near Jerusalem; zero FR/DE/ES editorial) + atlit-detainee-camp-guide (British Mandate detention camp 1940s; Haganah raid 1945; near Haifa; zero FR/DE/ES editorial) + binyamina-guide (Binyamina Winery 3M+ bottles/year; Rothschild-era perfume factory; wine tourism; zero FR/DE/ES editorial) + hai-bar-yotvata-guide (3,000-acre safari; biblical-era animals; INPA valid; 35km N of Eilat; zero FR/DE/ES editorial). All cross-links verified in DE and ES. 2 new individual items added to BACKLOG. No code shipped.
+- iteration: 1106
+- lastMode: BUILD
+- lastItem: es-62-batch
+- lastResult: BUILD — es-62-batch SHIPPED 27080c27. 5 ES guides: nimrod-fortress-guide (Golán; ayubí-mameluco 1229; INPA válido; verdictName+verdictQuery; LATAM aventura+historia; /es/golan-heights-guide+/es/hiking-in-israel+/es/car-rental-israel), beit-alfa-guide (sinagoga byzantine s.VI; zodíaco+Akeidat+Arca de la Alianza firmados Marianos+Janina; INPA válido; beit-shean-national-park EN fallback; /es/gan-hashlosha-guide+/es/israel-national-parks-pass; cero editorial LATAM), rosh-pina-guide (1882 primer moshava Galilea; Baron Edmond de Rothschild; turismo rural; INPA NO válido; ruta vinícola Alta Galilea; /es/3-days-in-galilee+/es/golan-heights-guide+/es/galilee-food-guide), national-library-israel (Herzog & de Meuron 2023; 5M+ ítems; archivo Einstein; genealogía; verdictName+verdictQuery; /es/israel-museum-jerusalem+/es/1-day-jerusalem-itinerary; cero editorial LATAM), jerusalem-mount-zion-guide (Cenáculo+Tumba David+Abadía Dormición; turismo católico LATAM 90%+; INPA NO válido; honest archaeology (Tumba medieval, Cenáculo no verificado); verdictName+verdictQuery; /es/western-wall-guide+/es/church-holy-sepulchre-guide+/es/1-day-jerusalem-itinerary). LATAM tuteo; no fabricated prices/ratings; no H1 in body; 10 new e2e routes (5 smoke + 5 a11y) all pass. ES guides: 304→309/401. Build: 1728→1733 pages (+5). Gate: pnpm check 0 errors | build 1733 | test:e2e 10/10 targeted. CI in_progress at state-write. Commit: 27080c27.
 
-- nextRotationCategory: BUILD (ES-62 batch next — ES most behind at 304/398)
+- nextRotationCategory: BUILD (DE-47 batch next — same 5 guides as FR-49/ES-62: nimrod-fortress+beit-alfa+rosh-pina+national-library+jerusalem-mount-zion; DE=318/401 second most behind)
 - higgsfieldSpent: 0
-- updatedAt: 2026-08-09T09:00Z
+- updatedAt: 2026-08-09T09:50Z
 - branch context: work on master; feature work on auto/<slug>
+
+Notes: iter1106 BUILD — es-62-batch SHIPPED 27080c27. 5 ES guides: nimrod-fortress-guide + beit-alfa-guide + rosh-pina-guide + national-library-israel + jerusalem-mount-zion-guide. LATAM tuteo; INPA válido (nimrod+beit-alfa), NOT valid (rosh-pina+national-library+mount-zion); verdictName+verdictQuery on 3/5; no fabricated prices/ratings; honest archaeology; no H1 in body; 10 new e2e routes (5 smoke + 5 a11y) all pass. ES guides: 304→309/401. Build: 1728→1733 pages (+5). Gate: pnpm check 0 errors | build 1733 | test:e2e 10/10 targeted. CI in_progress at state-write. Commit: 27080c27.
 
 Notes: iter1105 RESEARCH — 232nd research pass. EN=398, FR=332/398, DE=318/398, ES=304/398. Missing from all 3: 55. Defined FR-50/DE-48/ES-63 batch: zippori-sepphoris + valley-of-elah + atlit-detainee-camp + binyamina + hai-bar-yotvata. All cross-links verified. No code shipped.
 
