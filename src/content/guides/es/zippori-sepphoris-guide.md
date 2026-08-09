@@ -1,6 +1,6 @@
 ---
-title: "Parque Nacional Tsipori (Séforis): mosaicos romanos y guía de visita (2026)"
-description: "Parque Nacional Tsipori (Séforis): la Mona Lisa de la Galilea, mosaico sinagogal bizantino, teatro romano y ciudadela cruzada. 10 minutos de Nazaret. Pase INPA válido."
+title: "Tsipori (Séforis): mosaicos romanos y guía de visita"
+description: "Tsipori (Séforis): la Mona Lisa de la Galilea. Mosaico sinagogal bizantino, teatro romano y ciudadela cruzada. A 10 min de Nazaret. Pase INPA válido."
 heroImage: /images/regions/galilee/hero.jpg
 category: Destinos
 updatedAt: 2026-08-09

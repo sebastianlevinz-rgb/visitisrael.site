@@ -1,6 +1,6 @@
 ---
-title: "Reserva Natural Hai-Bar Yotvata: guía del safari bíblico (2026)"
-description: "Hai-Bar Yotvata: safari en coche propio con animales bíblicos a 35 km de Eilat — oryx árabe, onagro, avestruz. Tour nocturno de depredadores e información práctica de visita."
+title: "Hai-Bar Yotvata: guía del safari bíblico"
+description: "Hai-Bar Yotvata: safari en coche con oryx árabe, onagro y avestruz. A 35 km de Eilat; tour nocturno depredadores disponible. Pase INPA válido."
 heroImage: /images/regions/eilat/hero.jpg
 category: Outdoor
 updatedAt: 2026-08-09

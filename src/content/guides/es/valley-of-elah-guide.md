@@ -1,6 +1,6 @@
 ---
-title: "Valle de Ela (David y Goliat): guía del campo de batalla bíblico (2026)"
-description: "Valle de Ela (Emek HaElah): escenario del combate David contra Goliat — Nahal Ela, Tel Azeka, Khirbet Qeiyafa. Media jornada desde Jerusalén, acceso libre."
+title: "Valle de Ela: guía del campo de batalla bíblico"
+description: "Valle de Ela (Emek HaElah): campo de batalla de David y Goliat. Tel Azeka, Khirbet Qeiyafa. Media jornada desde Jerusalén, entrada libre."
 heroImage: /images/regions/jerusalem/hero.jpg
 category: Historia
 updatedAt: 2026-08-09

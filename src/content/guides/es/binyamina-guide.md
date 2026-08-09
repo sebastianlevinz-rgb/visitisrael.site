@@ -1,6 +1,6 @@
 ---
-title: "Binyamina: excursión vinícola y guía de visita (2026)"
-description: "Binyamina, pueblo vitivinícola de Rothschild: Bodega Binyamina, Domaine Tishbi, jardines de Ramat Hanadiv y acceso en tren desde Tel Aviv o Haifa. 15 minutos de Cesarea."
+title: "Binyamina: excursión vinícola — guía de visita"
+description: "Binyamina, pueblo vitivinícola de Rothschild: Bodega Binyamina, Domaine Tishbi y jardines de Ramat Hanadiv. Tren desde Tel Aviv. A 15 min de Cesarea."
 heroImage: /images/regions/haifa/carmel.jpg
 category: Destinos
 updatedAt: 2026-08-09

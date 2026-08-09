@@ -1,6 +1,6 @@
 ---
-title: "Campo de detención de Atlit: guía histórica para visitantes (2026)"
-description: "Campo de detención de Atlit (Atlit ha-Olim): 16.000 prisioneros judíos bajo el Mandato británico. Barco de inmigrantes reconstruido, raid del Palmaj, información de visita."
+title: "Campo de detención de Atlit — guía de visita"
+description: "Atlit (Atlit ha-Olim): campo británico para inmigrantes judíos 1940–48. Barco reconstruido, raid del Palmaj, visita reconstituida. 20 km de Haifa."
 heroImage: /images/regions/haifa/hero.jpg
 category: Historia
 updatedAt: 2026-08-09
