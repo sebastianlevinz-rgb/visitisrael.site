@@ -8425,3 +8425,50 @@ Sources: alltrails.com, tripadvisor.com, touristisrael.com, israel-in-photos.com
 
 ### Lonely Planet / Rough Guides
 - No new 2026 Israel edition from either. LP Israel page not freshly updated. Window for 2026-dated editorial to outrank on new-attraction searches remains open.
+
+## iter1120 RESEARCH — 2026-08-10 — 235th research pass
+
+### Nova Festival Memorial / Gaza Border Tours (NEW HIGH-VALUE GAP)
+- **TouristIsrael**: Actively promoting "Gaza Border & Nova Festival Small Group Tour" as a featured new 2026 product. Small-group tour to Re'im memorial + kibbutzim + Sderot.
+- **Amazing Jerusalem**: Private tour "Gaza Border Tour with Nova Survivor" ₪630 per person; 4.9★ on TripAdvisor. Includes survivor testimony.
+- **GuideAndGo**: Gaza Border Tour listing in TLV section.
+- **My Israel Guide**: "Nova, Sderot and Gaza Border Private Tour" package.
+- **Exclusive Israel Tours**: Standalone Gaza/Sderot tour page.
+- **World Jewish Travel**: Standalone listings for Nova Memorial site + Gaza Envelope.
+- **slavaguide.com**: "Gaza Envelope Tours 2026: October 7th Geopolitics, Resilience & Art."
+- **Our editorial gap**: ZERO standalone editorial guide in any locale. israel-military-heritage.md and is-israel-safe.md only tangentially reference Oct 7; no dedicated memorial site guide.
+- **Verdict**: P1/M opportunity for nova-festival-memorial-guide (EN-new). High search intent. Winnable SERP. Requires careful, respectful honesty framing (no fabricated victim counts — reference official Hostages and Missing Persons Forum / Nova Memorial Foundation sources only; safety context: site is accessible, ~70km from Gaza fence, no active conflict risk at memorial; guided tour recommended; Sderot lookout honest framing).
+
+### French Market — FR editorial competitors
+- **voirisrael.com**: Francophone Israel tour guide directory (local guides only, not editorial content).
+- **alexguideisrael.com**: Individual licensed FR guide (not editorial).
+- **partirou.com**: Basic FR Israel overview (budget estimates, no site-specific guides).
+- **docteur-voyage.fr**: Guidebook comparison page (2026 ranking) — lists Lonely Planet, Le Petit Futé.
+- **Verdict**: Zero serious FR editorial competitor for individual site guides. partirou.com is weakest category: no Nahal Alexander, no Nahal Pratzim, no Nativity Trail, no First Station Jerusalem content.
+
+### German Market — DE editorial competitors
+- **stormrider.surf / surfertoday.com / mywavefinder.com**: All EN-only, no DE version. Zero DACH editorial for Israel surfing.
+- **Vice.com/de**: One editorial article on Israel surfing (uncurrent). Not a guide.
+- **Verdict**: "Surfen Israel 2026" SERP = unclaimed in DE. Our de/israel-surfing.md (shipped iter1118) is first-mover.
+
+### Spanish/LATAM Market — ES editorial competitors
+- **israelturismo.com**: Spanish-language tour operator (not editorial content).
+- **info.goisrael.com/es**: Official Israel tourism site — atracciones listing only, no narrative guides.
+- **tourradar-viajes.com**: Tour packages listing (no editorial guides).
+- **Verdict**: Zero LATAM/ES editorial competitor for individual Israel site guides. Every ES guide we ship is first-mover.
+
+### Palmahim Beach (confirmed 2026 INPA status)
+- **TripAdvisor**: Palmahim Beach National Park listing; Boxthorn Trail + Rampart Trail marked by INPA.
+- **AllTrails**: "Palmahim Beach and Yavne Yam Ruins" route listing (3 reviews, minimal editorial).
+- **inandaroundisrael.com**: Basic listing (no guide quality).
+- **Timeout Israel**: Brief attraction listing.
+- **Verdict**: Zero editorial guide on major travel site. Yavne Yam ruins + beach = distinct angle from best-beaches-israel.md (which only mentions Palmahim in passing). INPA pass valid. Ready for FR-52/DE-50/ES-65 batch.
+
+### Galilee Culinary Institute (confirmed opening)
+- **travelmarketreport.com** (2026): "Galilee Culinary Institute by JNF is slated to open by end of 2026 and will offer day and weeklong programs; on-site cafe, fine-dining restaurant, and working farm." Confirms readiness for i18n.
+- **Zero competitor editorial**: No FR/DE/ES travel guide covers this.
+
+### Tel Megiddo (confirmed INPA resumption)
+- **manilatimes.net** (Jun 2026): INPA resumed operations at Tel Megiddo among other heritage sites.
+- **Frommer's / LP**: No dedicated Tel Megiddo page (only Megiddo listed as archaeological site mention).
+- **Verdict**: tel-megiddo-guide.md (EN shipped) is ahead of major publishers. i18n in FR-52/DE-50/ES-65 will fill gap.

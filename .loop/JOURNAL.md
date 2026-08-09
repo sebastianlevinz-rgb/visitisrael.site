@@ -16522,3 +16522,38 @@ Other checks: 25/25 /de/* cross-links valid. No H1 in body. HeroImages present (
 Gate: pnpm check 0 violations | build 1763 pages | test:e2e 10/10 targeted pass (13.1s).
 Ship: committed c0d85648 directly on master; pushed to origin/master. CI triggered.
 Next: iter1120 (1120%5=0 → RESEARCH) — 235th research pass: check ES-64 batch readiness + scan for EN guides missing from all 3 locales.
+
+## 2026-08-10T00:10Z · iter 1120 · RESEARCH · research-1120-es64-fr52-de50-batch-definition
+
+Mode: RESEARCH (1120%5=0). 235th research pass. No code shipped.
+Locale counts (filesystem verified): EN=398, FR=342/398 (56 missing), DE=333/398 (65 missing), ES=314/398 (84 missing). Missing from all 3: 99.
+
+ES-64 batch confirmed ready (same 5 guides as FR-51/DE-49):
+  1. nahal-alexander-guide — MISSING from ES ✓; all cross-links exist in ES (/es/caesarea-guide, /es/day-trips-from-tel-aviv, /es/birdwatching-in-israel, /es/israel-national-parks-pass, /es/israel-with-kids). No EN fallbacks needed.
+  2. nahal-pratzim-guide — MISSING from ES ✓; all cross-links exist in ES (/es/mitzpe-ramon-guide, /es/hiking-in-israel, /es/israel-adventure-sports, /es/3-days-in-negev).
+  3. israel-surfing — MISSING from ES ✓; all cross-links exist in ES (/es/best-beaches-israel, /es/israel-adventure-sports, /es/eilat-diving-snorkeling).
+  4. jerusalem-first-station-guide — MISSING from ES ✓; all cross-links exist in ES (/es/1-day-jerusalem-itinerary, /es/day-trips-from-jerusalem).
+  5. nativity-trail-guide — MISSING from ES ✓; /es/jesus-trail-israel EXISTS ✓ (no fallback needed, unlike FR); all cross-links exist in ES (/es/3-days-in-galilee, /es/christian-pilgrimage-holy-land, /es/nazareth-travel-guide, /es/jesus-trail-israel).
+  FR-51 SHIPPED iter1116 (091eaa68) + REVIEWED iter1117 (e0635d6d). DE-49 SHIPPED iter1118 (5c4da252) + REVIEWED iter1119 (c0d85648).
+  ⚠ NOTE: ES-60 batch (iter1090 RESEARCH) still PENDING — must ship BEFORE ES-64. See below.
+
+CRITICAL BUG: ES-60 batch skipped. Filesystem check confirms 5 guides (soreq-cave-guide, negev-incense-route, skyfield-extreme-park-jaffa, tel-aviv-coffee-guide, tabgha-church-guide) still MISSING from ES despite FR+DE shipped since iter1091/1093. Loop shipped ES-61 (iter1096), ES-62 (iter1106), ES-63 (iter1113) before ES-60. Next ES BUILD MUST be ES-60, not ES-64.
+
+FR-52/DE-50/ES-65 batch defined (5 guides, all confirmed MISSING from all 3 locales, all EN guides exist):
+  1. tel-megiddo-guide — UNESCO Tell Megiddo; INPA resumed operations 2026; 26 strata; Armageddon hook; cross-links all 3: /megiddo-jezreel-valley-guide ✓, /israel-national-parks-pass ✓, /day-trips-from-jerusalem ✓, /car-rental-israel ✓.
+  2. arava-mountain-biking — Yahel-Timna singletrack 100km+ (₪20M 2025); DACH #1 MTB market; FR VTT; ES ciclismo; cross-links all 3: /eilat-travel-guide ✓, /car-rental-israel ✓, /hiking-in-israel ✓, /3-days-in-negev ✓.
+  3. palmahim-beach-guide — INPA national park; Boxthorn+Rampart Trails; Yavne Yam cliff ruins; cross-links all 3: /best-beaches-israel ✓, /day-trips-from-tel-aviv ✓, /israel-with-kids ✓.
+  4. galilee-culinary-institute-gonen — JNF Culinary Institute confirmed opening late 2026; on-site farm + fine-dining + cafe; cross-links all 3: /galilee-food-guide ✓, /3-days-in-galilee ✓, /sea-of-galilee-guide ✓.
+  5. red-canyon-eilat — classic Eilat red sandstone canyon; cross-links all 3: /eilat-travel-guide ✓, /day-trips-from-eilat ✓, /hiking-in-israel ✓, /timna-park-guide ✓.
+
+Competitor research:
+  - TouristIsrael promoted "Gaza Border & Nova Festival Small Group Tour" as new 2026 product. Multiple operators: Amazing Jerusalem (₪630 private), GuideAndGo, My Israel Guide, Exclusive Israel Tours, World Jewish Travel, slavaguide.com. ZERO editorial guide on any major travel site. High-intent P1 opportunity → nova-festival-memorial-guide (EN-new, M effort).
+  - FR market: voirisrael.com + alexguideisrael.com = local FR tour guides only (not editorial). partirou.com has basic FR Israel overview. No serious FR editorial competitor for niche guides.
+  - ES market: israelturismo.com (Spanish tour operator, not editorial). info.goisrael.com/es = official site (atracciones listing only). TourRadar has tour listings. Zero LATAM editorial competitor for individual site guides.
+  - Galilee Culinary Institute: confirmed by travelmarketreport.com — "slated to open by end of 2026; day and weeklong programs; on-site cafe, fine-dining restaurant, working farm." Ready to i18n.
+  - Haifa cruise terminal: paxnews.com confirms opened May 2026, 2 mega-ships simultaneously, 1M passengers/year capacity. Update our haifa-cruise-terminal-guide.md if hedge language present.
+
+New BACKLOG items: nova-festival-memorial-guide (P1/M, EN-new). FR-52/DE-50/ES-65 batch defined.
+Gate: N/A (research mode). No code changes.
+Memory: STATE.md iter→1120. BACKLOG.md updated (FR-52/DE-50/ES-65 batch + nova item + ES-64 status clarified). COMPETITORS.md appended. JOURNAL.md appended. .loop/ committed below.
+Next: iter1121 (1121%5=1 → BUILD) — SHIP ES-60 FIRST (soreq-cave-guide + negev-incense-route + skyfield-extreme-park-jaffa + tel-aviv-coffee-guide + tabgha-church-guide).
