@@ -1,6 +1,6 @@
 ---
-title: 'Marché Nahalat Binyamin Tel Aviv : Guide Arts & Artisanat (2026)'
-description: "Guide du marché Nahalat Binyamin : artisanat israélien fait main les mardis et vendredis, quoi acheter, comment combiner avec le Carmel Market et conseils pratiques."
+title: 'Marché Nahalat Binyamin : Artisanat Tel Aviv (2026)'
+description: "Guide du marché Nahalat Binyamin : artisanat israélien fait main les mardis et vendredis. Quoi acheter et comment combiner avec le Carmel Market."
 heroImage: /images/sub-destinations/tel-aviv/carmel-market.jpg
 category: Shopping
 updatedAt: 2026-08-09

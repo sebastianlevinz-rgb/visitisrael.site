@@ -1,6 +1,6 @@
 ---
 title: 'Via Ferrata en Israël : Guide Ramim et Ravid (2026)'
-description: "Les deux via ferratas d'Israël : Falaise Ramim (Galilée supérieure, niveau B/C, 1,2 km) vs Via Ferrata Ravid (Galilée inférieure, niveau C, 900 m). Réservation, équipement et saisons."
+description: "Via ferratas en Israël : Falaise Ramim (Galilée supérieure, B/C) vs Ravid (Galilée inférieure, C). Équipement, réservation et meilleures saisons."
 heroImage: /images/regions/galilee/hero.jpg
 category: Adventure
 updatedAt: 2026-08-09

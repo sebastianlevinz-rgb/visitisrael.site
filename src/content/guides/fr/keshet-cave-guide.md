@@ -1,6 +1,6 @@
 ---
-title: "Grotte Keshet : Arche Naturelle et Canyon Nahal Kziv (2026)"
-description: "Guide de la Grotte Keshet : marchez sous l'arche calcaire naturelle de 48 m, tyrolisez au-dessus du canyon et randonnez jusqu'à la Forteresse de Montfort. Près de Nahariya."
+title: "Grotte Keshet : Arche et Canyon Nahal Kziv (2026)"
+description: "Grotte Keshet : marchez sous l'arche calcaire de 48 m, tyrolisez au-dessus du canyon Nahal Kziv et randonnez jusqu'à Montfort. Près de Nahariya."
 heroImage: /images/regions/akko/hero.jpg
 category: Nature & Hiking
 updatedAt: 2026-08-09

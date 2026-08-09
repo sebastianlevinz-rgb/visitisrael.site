@@ -1,6 +1,6 @@
 ---
-title: 'Sentier de Jérusalem : Guide Complet du Shvil Yerushalayim (2026)'
-description: "Randonnez le Sentier de Jérusalem — boucle balisée de 42 km ceinturant la ville en 4 segments. Points de départ, panoramas, saisons et conseils pratiques."
+title: 'Sentier de Jérusalem : Guide Shvil Yerushalayim (2026)'
+description: "Randonnez le Sentier de Jérusalem — boucle balisée de 42 km en 4 segments. Points de départ, panoramas, saisons et conseils pratiques."
 heroImage: /images/regions/jerusalem/hero.jpg
 category: Hiking
 updatedAt: 2026-08-09

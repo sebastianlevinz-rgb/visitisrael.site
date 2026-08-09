@@ -1,6 +1,6 @@
 ---
-title: "Kerem HaTeimanim : Guide du Quartier Yéménite de Tel Aviv (2026)"
-description: "Kerem HaTeimanim — le Quartier yéménite de Tel Aviv : jachnun et malawach dans des ruelles blanchies à la chaux historiques, et une scène de bars créatifs près du Carmel Market."
+title: "Kerem HaTeimanim : Quartier Yéménite Tel Aviv (2026)"
+description: "Kerem HaTeimanim — Quartier yéménite de Tel Aviv : jachnun, malawach et ruelles blanchies historiques. Scène de bars créatifs près du Carmel."
 heroImage: /images/sub-destinations/tel-aviv/carmel-market.jpg
 category: Food
 updatedAt: 2026-08-09
