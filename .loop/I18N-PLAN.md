@@ -6,13 +6,13 @@
 >
 > One bounded slice per loop iteration. NEVER bulk-translate in one shot.
 
-## Current status snapshot (2026-08-09 iter1100 RESEARCH — FR-48 SHIPPED iter1097 67dd9323; next FR BUILD = FR-49 / next DE BUILD = DE-46 [queue: DE-47 defined] / next ES BUILD = ES-60 [queue: ES-62 defined])
+## Current status snapshot (2026-08-09 iter1101 BUILD — DE-46 SHIPPED iter1101 95506245; next FR BUILD = FR-49 / next DE BUILD = DE-47 [queue: DE-47 defined] / next ES BUILD = ES-60 [queue: ES-62 defined])
 
 | Locale | Guides | Attractions | Regions | Itineraries |
 |--------|--------|-------------|---------|-------------|
 | en     | 401    | 65          | 11      | 6           |
 | fr     | 327    | 61          | 11      | 6           |
-| de     | 313    | 61          | 11      | 6           |
+| de     | 318    | 61          | 11      | 6           |
 | es     | 304    | 61          | 11      | 6           |
 
 **🎉 MILESTONE: ES + FR + DE monthly guides ALL COMPLETE** (iter996+iter997 ES-41+ES-42 SHIPPED — all 12 per-month guides jan-dec now exist in ES, FR, and DE)
@@ -20,7 +20,7 @@
 **Gaps to close:**
 - es guides: **97 missing** (304/401 done — Phase ES-61 SHIPPED iter1096 a64f6512; **next ES BUILD = ES-60** — DEFINED iter1090: soreq-cave-guide + negev-incense-route + skyfield-extreme-park-jaffa + tel-aviv-coffee-guide + tabgha-church-guide; **next-next = ES-62** — DEFINED iter1100: nimrod-fortress-guide + beit-alfa-guide + rosh-pina-guide + national-library-israel + jerusalem-mount-zion-guide)
 - fr guides: **74 missing** (327/401 done — Phase FR-48 SHIPPED iter1097 67dd9323; **next FR BUILD = FR-49** — DEFINED iter1100: nimrod-fortress-guide + beit-alfa-guide + rosh-pina-guide + national-library-israel + jerusalem-mount-zion-guide)
-- de guides: **88 missing** (313/401 done — Phase DE-45 SHIPPED iter1093 ee358815; **next DE BUILD = DE-46** — DEFINED iter1095: jerusalem-trail + nahalat-binyamin-market-tel-aviv + via-ferrata-israel + kerem-hateimanim-tel-aviv + keshet-cave-guide; **next-next = DE-47** — DEFINED iter1100: same 5 as FR-49)
+- de guides: **83 missing** (318/401 done — Phase DE-46 SHIPPED iter1101 95506245; **next DE BUILD = DE-47** — DEFINED iter1100: nimrod-fortress-guide + beit-alfa-guide + rosh-pina-guide + national-library-israel + jerusalem-mount-zion-guide)
 - fr/de/es attractions: **4 missing each** (the 4 EN attractions added after Phase 4)
 - 4 new EN-only guides (no locale version yet): arava-mountain-biking + air-haifa-haifa-airport-guide + maccabiah-games-2026 + ashkelon-guide
 
