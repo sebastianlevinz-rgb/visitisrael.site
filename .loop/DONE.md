@@ -2149,3 +2149,9 @@ FR guides: 317→322/398. Build: 1698→1703 pages (+5). Gate: 0 errors | build 
 
 ## iter1117 · REVIEW · review-1117-fr51-meta-trim · e0635d6d
 - FR-51 meta-trim SHIPPED: 7 fixes across 5 FR-51 guides. 3 titles trimmed ≤54 chars (nahal-alexander 58→50, jerusalem-first-station 64→51, nativity-trail 62→52). 4 descriptions trimmed ≤151 chars (3 were OVER HARD limit ≥160): nahal-alexander 161→139, nahal-pratzim 153→136, jerusalem-first-station 167→145, nativity-trail 173→130. israel-surfing CLEAN (no changes). 20/20 /fr/* links valid. Gate: check 0 | build 1758 | test:e2e 16/16 targeted.
+
+## iter1118 · BUILD · de-49-batch · 5c4da252
+- DE-49 batch SHIPPED: 5 German-language destination guides. nahal-alexander-guide (Weichschildkröten + Küstenwanderweg; INPA gültig), nahal-pratzim-guide (Salzkanyons Totes Meer; INPA NICHT gültig freier Zugang), israel-surfing (Windguru Surfmarkt; Mittelmeerküste Spots), jerusalem-first-station-guide (HaTachana; Württembergische Templer 1873 DACH angle), nativity-trail-guide (Jakobsweg-Analogie; West Bank Sicherheitshinweise). DE guides: 328→333/401. Build: 1758→1763 (+5). Gate: check 0 | build 1763 | test:e2e 2639/2639.
+
+## iter1119 · REVIEW · review-1119-de49-meta-trim · c0d85648
+- DE-49 meta-trim SHIPPED: 2 description fixes (both OVER HARD 160 limit). jerusalem-first-station desc 169→143 chars; nativity-trail desc 171→137 chars. All 5 titles ≤54 (max 53). All 5 descs ≤151 (max 143). 25/25 /de/* cross-links valid. No H1 in body. HeroImages present. No fabricated prices. Gate: check 0 | build 1763 | test:e2e 10/10 targeted.

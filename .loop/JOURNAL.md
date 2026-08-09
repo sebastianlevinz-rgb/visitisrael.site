@@ -16506,3 +16506,19 @@ Gate: pnpm check 0 errors | build 1763 pages (+5 from 1758) | test:e2e 2639/2639
 Ship: squash-merged to master 5c4da252; pushed to origin/master.
 DE guides: 328→333/401. Build: 1758→1763 pages (+5).
 Next: iter1119 (1119%5=4 → REVIEW) — de-49-meta-trim: audit all 5 DE-49 guides; PRIORITY trim jerusalem-first-station desc 168→≤151 + nativity-trail desc 169→≤151; check all titles ≤54, /de/* links valid, no H1 in body, heroImages present, no fabricated prices.
+
+## 2026-08-09T23:05Z · iter 1119 · REVIEW · review-1119-de49-meta-trim
+
+What: Audited all 5 DE-49 guides (nahal-alexander-guide, nahal-pratzim-guide, israel-surfing, jerusalem-first-station-guide, nativity-trail-guide).
+Findings:
+  2 fixes applied (both OVER hard 160 limit):
+  - jerusalem-first-station desc: 169 chars → 143 chars (dropped " Tipps für DACH-Reisende." suffix)
+  - nativity-trail desc: 171 chars → 137 chars (restructured: "… Nazareth–Bethlehem. Etappen, Checkpoints, Sicherheitshinweise und geführte Optionen.")
+  3 guides CLEAN (no fixes needed):
+  - nahal-alexander: title 49 ≤54 ✓, desc 146 ≤151 ✓
+  - nahal-pratzim: title 53 ≤54 ✓, desc 136 ≤151 ✓
+  - israel-surfing: title 49 ≤54 ✓, desc 139 ≤151 ✓
+Other checks: 25/25 /de/* cross-links valid. No H1 in body. HeroImages present (tel-aviv/beaches.jpg × 2, dead-sea/hero.jpg × 1, jerusalem/hero.jpg × 1, nazareth/hero.jpg × 1). Price ranges only (₪30–50 in nahal-alexander). No fabricated exact prices/ratings.
+Gate: pnpm check 0 violations | build 1763 pages | test:e2e 10/10 targeted pass (13.1s).
+Ship: committed c0d85648 directly on master; pushed to origin/master. CI triggered.
+Next: iter1120 (1120%5=0 → RESEARCH) — 235th research pass: check ES-64 batch readiness + scan for EN guides missing from all 3 locales.

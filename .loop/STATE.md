@@ -1,13 +1,13 @@
 # LOOP STATE
 
-- iteration: 1118
-- lastMode: BUILD
-- lastItem: de-49-batch
-- lastResult: iter1118 BUILD — de-49-batch SHIPPED 5c4da252. 5 DE guides (Standard Hochdeutsch): nahal-alexander-guide (INPA gültig; Schildkröten 2025-Rekordsaison 160+ Nester; Weichschildkröte vs. Europäische Sumpfschildkröte DACH-Winkel; NABU/BUND-Parallele; discovercars+getyourguide+booking; /de/caesarea-guide+/de/day-trips-from-tel-aviv+/de/birdwatching-in-israel), nahal-pratzim-guide (INPA NICHT gültig — freier Zugang, keine Kasse; Salz-Canyon-Geologie; Mietwagen-Pflicht; Hochwasser-Warnung; discovercars+booking; /de/dead-sea-guide+/de/hiking-in-israel), israel-surfing (Windguru DACH-Surfmarkt-Winkel; Bograshov+Bat Yam+Herzliya+Haifa; 3/2mm-Neopren Saison-Tabelle; getyourguide+viator+booking; /de/best-beaches-israel+/de/israel-adventure-sports), jerusalem-first-station-guide (Württembergische Templer-Kolonie 1873 DACH-Verbindung; Mesila-Trail-Kopf 7km; getyourguide+viator+booking; /de/mahane-yehuda-market-guide+/de/shabbat-guide — ⚠ desc 168 chars OVER hard 160 limit → REVIEW iter1119), nativity-trail-guide (Jakobsweg-Analogie; verdictName+verdictQuery; auswärtiges-amt.de+bmeia.gv.at+eda.admin.ch West-Bank-Hinweise; getyourguide+viator+booking; /de/jesus-trail-israel+/de/christian-pilgrimage-holy-land — ⚠ desc 169 chars OVER hard 160 limit → REVIEW iter1119). All /de/* cross-links pre-verified; no fabricated prices/ratings; INPA flags honest; no H1 in body; YAML-ASCII apostrophes. 10 new e2e routes (5 smoke + 5 a11y). DE guides: 328→333/401. Build: 1758→1763 pages (+5). Gate: pnpm check 0 errors | build 1763 | test:e2e 2639/2639 pass (28.2m). Squash-merge to master 5c4da252; pushed to origin/master.
+- iteration: 1119
+- lastMode: REVIEW
+- lastItem: review-1119-de49-meta-trim
+- lastResult: iter1119 REVIEW — review-1119-de49-meta-trim SHIPPED c0d85648. Audited all 5 DE-49 guides (nahal-alexander-guide, nahal-pratzim-guide, israel-surfing, jerusalem-first-station-guide, nativity-trail-guide). 2 fixes applied: jerusalem-first-station desc 169→143 chars (OVER HARD 160 → now ≤151); nativity-trail desc 171→137 chars (OVER HARD 160 → now ≤151). All 5 titles ≤54 (max 53: nahal-pratzim). All 5 descs ≤151 (max 143: jerusalem-first-station). 25/25 /de/* cross-links valid. No H1 in body. HeroImages present. Price ranges only (₪30–50 in nahal-alexander). No fabricated prices/ratings. Gate: pnpm check 0 violations | build 1763 | test:e2e 10/10 targeted pass. Committed c0d85648; pushed to origin/master.
 
-- nextRotationCategory: REVIEW (1119 % 5 = 4 → REVIEW de-49-meta-trim; PRIORITY: trim jerusalem-first-station desc 168→≤151 + nativity-trail desc 169→≤151; then audit all 5 DE-49 guides for title ≤54, /de/* links, no H1, heroImages, no fabricated prices)
+- nextRotationCategory: BUILD (1120 % 5 = 0 → RESEARCH; next = 235th research pass: check ES-64 batch status + scan for new EN guides missing from all 3 locales + competitor finds)
 - higgsfieldSpent: 0
-- updatedAt: 2026-08-09T22:30Z
+- updatedAt: 2026-08-09T23:05Z
 - branch context: work on master; feature work on auto/<slug>
 
 Notes: iter1115 RESEARCH — 234th research pass. EN=398, FR=337/398, DE=328/398, ES=314/398. Missing from all 3: 50. Defined FR-51/DE-49/ES-64 batch: nahal-alexander-guide + nahal-pratzim-guide + israel-surfing + jerusalem-first-station-guide + nativity-trail-guide. All confirmed missing from all 3 locales. Cross-links verified (FR fallback /3-days-in-galilee for missing jesus-trail). Competitor finds: zero FR competitor for Israel surf guide (stormrider/surfertoday EN-only); Jerusalem First Station has only AI-generated rivals; Nahal Alexander 2025 record 160+ turtle nests = timely 2026 hook. Galilee Culinary Institute Oct 2026 programs now open → ready upgrade. 1 new BACKLOG item: ramat-gan-diamond-exchange-guide (P2/M).
