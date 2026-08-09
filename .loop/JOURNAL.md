@@ -16363,3 +16363,13 @@ Gate: pnpm check 0 errors | build 1738 | test:e2e 10/10 targeted pass (14s).
 Ship: committed c7975ad directly on master; pushed to origin/master.
 Prod: push confirmed to origin.
 Next: iter1109 (1109%5=4 → REVIEW per playbook, or BUILD FR-50-batch). Recommend BUILD FR-50: zippori-sepphoris+valley-of-elah+atlit-detainee-camp+binyamina+hai-bar-yotvata (all 5 confirmed MISSING from FR; cross-links pre-verified in BACKLOG).
+
+## 2026-08-09T12:44Z · iter 1109 · REVIEW · review-1109-es62-meta-trim
+What: Audited all 5 ES-62 guides (nimrod-fortress-guide, beit-alfa-guide, rosh-pina-guide, national-library-israel, jerusalem-mount-zion-guide) shipped in iter1106.
+Checks: title ≤54 chars, desc ≤151 chars, /es/* link validity, no H1 in body, heroImages present, no fabricated prices, INPA honesty, verdictName+verdictQuery flags, paired naming at contested sites.
+Findings: 7 fixes needed — 4 titles over soft limit; 2 descs OVER HARD (beit-alfa 170, mount-zion 190 — both ≥160 hard limit); 1 desc OVER SOFT (national-library 159); mount-zion missing Har Tzion paired naming.
+Fixes applied: nimrod title 64→46 ("Guía del Castillo Medieval del" removed); beit-alfa title 56→47 ("Guía del" removed) + desc 170→145 (zodíaco shortform; "horarios y consejos"→"y horarios"); rosh-pina title 61→54 ("(2026)" dropped + "Viticola"→"Vinícola" spelling fix); national-library desc 159→144 ("investigación genealógica"→"genealogía"); mount-zion title 62→45 ("(2026)"+"de David y" dropped) + desc 190→119 (rewritten to FR/DE structured pattern "Monte Sión (Har Tzion): Cenáculo, Tumba de David..." + Har Tzion paired naming added).
+14/14 /es/* links valid. No H1 in body. All heroImages present. No fabricated prices (₪ ranges with "aproximadamente" fine). verdictName+verdictQuery on 3/5 (nimrod, national-library, mount-zion) — consistent with FR/DE pattern.
+Gate: pnpm check 0 errors | build 1738 | test:e2e 10/10 targeted pass (10s).
+Ship: committed abc7ab79 directly on master; pushed to origin/master. CI in_progress at state-write.
+Next: iter1110 (1110%5=0 → RESEARCH). Research 233rd pass: confirm FR=332/401, DE=323/401, ES=304/401; also check rosh-hanikra freshness (cable car 2026 reopening) and identify any new EN gaps.

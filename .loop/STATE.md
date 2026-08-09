@@ -1,14 +1,16 @@
 # LOOP STATE
 
-- iteration: 1108
+- iteration: 1109
 - lastMode: REVIEW
-- lastItem: review-1108-de47-meta-trim
-- lastResult: REVIEW — review-1108-de47-meta-trim SHIPPED c7975ad. Audited 5 DE-47 guides (nimrod-fortress, beit-alfa, rosh-pina, national-library-israel, jerusalem-mount-zion). 1 fix: jerusalem-mount-zion title 58→48 chars ("Jerusalem" removed to fit ≤54 limit; "Berg Zion: Abendmahlssaal, Davidsgrab, Dormition"). 4/5 titles clean (nimrod 48, beit-alfa 48, rosh-pina 51, national-library 51). All 5 descriptions ≤151 (max 138). 11/11 internal /de/* links valid. No H1 in body. All heroImages present. No fabricated prices (range estimates only). INPA honesty correct. verdictName+verdictQuery on 3/5. Paired naming at contested sites (Har Tzion / Jabal Sahyun). Gate: pnpm check 0 errors | build 1738 | test:e2e 10/10 targeted. Commit: c7975ad.
+- lastItem: review-1109-es62-meta-trim
+- lastResult: REVIEW — review-1109-es62-meta-trim SHIPPED abc7ab79. Audited 5 ES-62 guides (nimrod-fortress, beit-alfa, rosh-pina, national-library-israel, jerusalem-mount-zion). 7 fixes: 4 titles trimmed ≤54 (nimrod 64→46, beit-alfa 56→47, rosh-pina 61→54 + spelling "Viticola"→"Vinícola", mount-zion 62→45); 3 descriptions trimmed ≤151 (beit-alfa 170→145 OVER HARD; national-library 159→144; mount-zion 190→119 OVER HARD + Har Tzion paired naming added to match FR/DE pattern). 14/14 /es/* links valid. No H1 in body. All heroImages present. No fabricated prices. verdictName+verdictQuery on 3/5 (nimrod, national-library, mount-zion) — consistent with FR/DE. Gate: pnpm check 0 errors | build 1738 | test:e2e 10/10 targeted. Commit: abc7ab79. CI in_progress at state-write.
 
-- nextRotationCategory: BUILD (FR-50 batch next — zippori-sepphoris+valley-of-elah+atlit-detainee-camp+binyamina+hai-bar-yotvata; 1109 % 5 = 4 → per strict playbook REVIEW, but ES-62 batch already clean per audit patterns; recommend FR-50 BUILD)
+- nextRotationCategory: RESEARCH (1110 % 5 = 0 → RESEARCH; FR-50/DE-48/ES-63 batch ready: zippori-sepphoris+valley-of-elah+atlit-detainee-camp+binyamina+hai-bar-yotvata; also rosh-hanikra freshness check ready)
 - higgsfieldSpent: 0
-- updatedAt: 2026-08-09T11:41Z
+- updatedAt: 2026-08-09T12:44Z
 - branch context: work on master; feature work on auto/<slug>
+
+Notes: iter1109 REVIEW — review-1109-es62-meta-trim SHIPPED abc7ab79. 7 fixes across 5 ES-62 guides: 4 titles trimmed ≤54 (nimrod 64→46, beit-alfa 56→47, rosh-pina 61→54 + "Viticola"→"Vinícola", mount-zion 62→45); 3 descs trimmed ≤151 (beit-alfa 170→145 OVER HARD; national-library 159→144; mount-zion 190→119 OVER HARD). mount-zion desc rewritten to structured FR/DE pattern + Har Tzion paired naming. 14/14 /es/* links valid. No H1 in body. HeroImages present. No fabricated prices. CI in_progress at state-write.
 
 Notes: iter1108 REVIEW — review-1108-de47-meta-trim SHIPPED c7975ad. 1 fix: jerusalem-mount-zion title 58→48 chars. All other checks clean (4 titles ≤51, 5 descs ≤138, 11/11 links valid, no H1, heroImages present, honest pricing, correct INPA/verdict flags). Gate: check 0 | build 1738 | test:e2e 10/10 targeted.
 
