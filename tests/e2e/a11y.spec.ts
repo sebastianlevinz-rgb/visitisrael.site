@@ -1083,6 +1083,11 @@ const ROUTES = [
   '/fr/via-ferrata-israel',
   '/fr/kerem-hateimanim-tel-aviv',
   '/fr/keshet-cave-guide',
+  '/de/jerusalem-trail',
+  '/de/nahalat-binyamin-market-tel-aviv',
+  '/de/via-ferrata-israel',
+  '/de/kerem-hateimanim-tel-aviv',
+  '/de/keshet-cave-guide',
 ];
 
 for (const route of ROUTES) {
