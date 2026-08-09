@@ -13,7 +13,7 @@ All 5 confirmed MISSING from FR via comm -23 (2026-08-09). Cross-links all verif
 - rosh-pina-guide: Roch Pina — premier village sioniste de Galilée (1882); maisons Baron de Rothschild restaurées; rues pavées; B&Bs et lodges de charme; passerelle de vue Kinneret; porte d'entrée Golan depuis Galilée; INPA NON valide (village privé); cross-links: /fr/3-days-in-galilee ✓, /fr/golan-heights-guide ✓, /fr/galilee-food-guide ✓; GYG Galilee tour + Booking.com boutique hébergement CTAs; zéro concurrent FR éditorial.
 - national-library-israel: Nouvelle Bibliothèque Nationale d'Israël (inaugurée 2023); architecture Herzog & de Meuron (même cabinet que Tate Modern Paris); 5M+ items; Manuscrits de la Mer Morte (sections numérisées); expositions gratuites; cross-links: /fr/israel-museum-jerusalem ✓, /fr/1-day-jerusalem-itinerary ✓; Tiqets + GYG Jerusalem + Booking.com Jérusalem CTAs; LP = zéro page dédiée.
 - jerusalem-mount-zion-guide: Mont Sion — Tombeau de David + Cénacle (Chambre Haute) + Abbaye de la Dormition; site multireligieux (juif/chrétien/franciscain/arménien); INPA NON valide (gestion BNI/franciscaine/municipale); hors murs de la Vieille Ville; cross-links: /fr/western-wall-guide ✓, /fr/church-holy-sepulchre-guide ✓, /fr/1-day-jerusalem-itinerary ✓; GYG Mount Zion walking tour + Viator CTAs; pélerinage catholique.
-Status: ready
+Status: SHIPPED iter1103 79dce6ed
 
 ### DE-47 batch definition (iter1100 RESEARCH — ready for next DE BUILD after DE-46 SHIPPED)
 Guides: same 5 as FR-49 — all confirmed MISSING from DE via comm -23 (2026-08-09). Cross-links all verified in DE.

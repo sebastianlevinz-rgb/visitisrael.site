@@ -1,14 +1,16 @@
 # LOOP STATE
 
-- iteration: 1102
-- lastMode: REVIEW
-- lastItem: review-1102-de46-meta-trim
-- lastResult: REVIEW — review-1102-de46-meta-trim SHIPPED d58efe3f. Audited 5 DE-46 guides: 4 titles trimmed (≤54 chars), 3 descriptions trimmed (≤151 chars). Fixes: nahalat-binyamin-market-tel-aviv title (63→46 chars), via-ferrata-israel title (64→54 chars), kerem-hateimanim-tel-aviv title (55→48 chars), jerusalem-trail title (62→46 chars); nahalat-binjamin-market-tel-aviv desc (162→142 — was OVER hard 160 limit), kerem-hateimanim-tel-aviv desc (157→128), keshet-cave-guide desc (158→139). 19/19 /de/* cross-links valid. No H1 in body. No fabricated prices/ratings. Gate: check 0 | build 1723 | test:e2e 10/10. CI in_progress at state-write. Commit: d58efe3f.
+- iteration: 1103
+- lastMode: BUILD
+- lastItem: fr-49-batch
+- lastResult: BUILD — fr-49-batch SHIPPED 79dce6ed. 5 FR guides: nimrod-fortress-guide (château ayyoubide-mamelouk Golan; INPA valide; GYG+Discovercars+Booking CTAs; verdictName+verdictQuery; cross-links /fr/golan-heights-guide+/fr/hiking-in-israel+/fr/car-rental-israel), beit-alfa-guide (synagogue byzantine VIe s.; zodiaque+Akeidat+Arche Torah; Marianos+Hanina signés; INPA valide; GYG+Discovercars+Booking CTAs; cross-links /fr/gan-hashlosha-guide+/fr/israel-national-parks-pass), rosh-pina-guide (premier moshava Galilée 1882; Rothschild; Belvédère Nimrod 3km; route des vins Haute-Galilée; analogie Luberon/Provence; GYG+Viator+Booking CTAs; cross-links /fr/3-days-in-galilee+/fr/golan-heights-guide+/fr/galilee-food-guide), national-library-israel (Herzog & de Meuron 2023; archive Einstein; Scholem; généalogie; verdictName+verdictQuery; YAML apostrophe fix; GYG+Booking+Abraham CTAs; cross-links /fr/israel-museum-jerusalem+/fr/1-day-jerusalem-itinerary), jerusalem-mount-zion-guide (Har Tzion/Jabal Sahyun; Cénacle+Tombeau David+Dormition; honnêteté archéologique; code vestimentaire; verdictName+verdictQuery; GYG+Viator+Booking CTAs; cross-links /fr/western-wall-guide+/fr/church-holy-sepulchre-guide+/fr/1-day-jerusalem-itinerary). Metropolitan French. FR guides: 327→332/401. Build: 1723→1728 (+5). Gate: check 0 errors | build 1728 | test:e2e 10/10 targeted pass. CI in_progress at state-write. Commit: 79dce6ed.
 
-- nextRotationCategory: BUILD (FR-49 or DE-47 or ES-62 batch next)
+- nextRotationCategory: BUILD (DE-47 or ES-62 batch next)
 - higgsfieldSpent: 0
-- updatedAt: 2026-08-09T06:30Z
+- updatedAt: 2026-08-09T07:00Z
 - branch context: work on master; feature work on auto/<slug>
+
+Notes: iter1103 BUILD — fr-49-batch SHIPPED 79dce6ed. 5 FR guides: nimrod-fortress-guide (Golan; ayyoubide-mamelouk 1229; INPA valide; verdictName+verdictQuery), beit-alfa-guide (byzantine VIe s.; zodiaque+Akeidat+Arche Torah; INPA valide), rosh-pina-guide (1882 premier moshava Galilée; Rothschild; Belvédère Nimrod 3km; vins Haute-Galilée; analogie Luberon FR), national-library-israel (Herzog & de Meuron 2023; archive Einstein; généalogie; verdictName+verdictQuery; YAML apostrophe fix), jerusalem-mount-zion-guide (Har Tzion/Jabal Sahyun; Cénacle+Tombeau David+Dormition; honnêteté archéologique; verdictName+verdictQuery). FR guides: 327→332/401. Build: 1723→1728. Gate: check 0 | build 1728 | test:e2e 10/10.
 
 Notes: iter1102 REVIEW — review-1102-de46-meta-trim SHIPPED d58efe3f. 4 titles trimmed ≤54 chars (jerusalem-trail 62→46, nahalat-binyamin-market 63→46, via-ferrata-israel 64→54, kerem-hateimanim 55→48). 3 descriptions trimmed ≤151 chars (nahalat-binyamin 162→142 [was over hard 160 limit], kerem-hateimanim 157→128, keshet-cave 158→139). 19/19 /de/* links valid. No H1 in body. Gate: check 0 | build 1723 | test:e2e 10/10.
 
