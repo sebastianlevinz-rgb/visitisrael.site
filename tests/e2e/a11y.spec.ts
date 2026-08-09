@@ -1113,6 +1113,11 @@ const ROUTES = [
   '/de/atlit-detainee-camp-guide',
   '/de/binyamina-guide',
   '/de/hai-bar-yotvata-guide',
+  '/es/zippori-sepphoris-guide',
+  '/es/valley-of-elah-guide',
+  '/es/atlit-detainee-camp-guide',
+  '/es/binyamina-guide',
+  '/es/hai-bar-yotvata-guide',
 ];
 
 for (const route of ROUTES) {
