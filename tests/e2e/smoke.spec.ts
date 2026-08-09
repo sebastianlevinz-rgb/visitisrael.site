@@ -1363,6 +1363,11 @@ const ROUTES = [
   '/de/via-ferrata-israel',
   '/de/kerem-hateimanim-tel-aviv',
   '/de/keshet-cave-guide',
+  '/fr/nimrod-fortress-guide',
+  '/fr/beit-alfa-guide',
+  '/fr/rosh-pina-guide',
+  '/fr/national-library-israel',
+  '/fr/jerusalem-mount-zion-guide',
 ];
 
 for (const route of ROUTES) {
