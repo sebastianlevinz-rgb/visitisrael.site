@@ -1,5 +1,5 @@
 ---
-title: "Berg Zion Jerusalem: Abendmahlssaal, Davidsgrab, Dormition"
+title: "Berg Zion: Abendmahlssaal, Davidsgrab, Dormition"
 description: "Berg Zion (Har Tzion): Abendmahlssaal, Davidsgrab und Dormitio-Abtei in 200 m. Öffnungszeiten, Dresscode und Anreise Jerusalem."
 heroImage: /images/regions/jerusalem/old-city.jpg
 category: Sacred Sites
