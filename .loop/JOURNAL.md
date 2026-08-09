@@ -16429,3 +16429,14 @@ Gate: pnpm check 0 errors (strict TS) | pnpm build 1748 pages (+5 from 1743) | p
 Ship: git merge --squash auto/de-48-batch; committed 9095c27d; pushed to origin/master.
 DE guides: 323→328/401 (73 missing). FR=337/401 (64 missing). ES=309/401 (92 missing).
 Next: iter1113 (1113%5=3 → BUILD) — ES-63 batch: same 5 guides in Spanish (LATAM tuteo). DEFINED iter1105. Cross-links pre-verified in BACKLOG.
+
+## 2026-08-09 · iter 1113 · BUILD (i18n-ES) · es-63-batch
+What: 5 Spanish (LATAM tuteo) destination guides — same 5 as FR-50 (iter1111) and DE-48 (iter1112): zippori-sepphoris-guide, valley-of-elah-guide, atlit-detainee-camp-guide, binyamina-guide, hai-bar-yotvata-guide. All confirmed MISSING from ES via prior research. LATAM market angles: mariological hook for Tsipori (ciudad natal de la Virgen — no canónico pero amplia devoción LATAM), David+Goliat resonancia masiva LATAM 90%+ católico/evangélico (valley-of-elah), diáspora judía latinoamericana Argentina+México+Brasil (atlit), Ruta del Vino israelí segmento LATAM creciente (binyamina), safari del desierto + animales bíblicos — ángulo único LATAM sin competencia editorial (hai-bar).
+INPA: válido en zippori-sepphoris + hai-bar-yotvata; N/A para valley-of-elah (acceso libre), atlit, binyamina.
+verdictName+verdictQuery on 2/5 (zippori-sepphoris + hai-bar-yotvata), matching DE pattern.
+EN fallback: /zichron-yaakov-guide for binyamina (ES version not yet shipped).
+IAA 2026 milestone: dos estatuas mármol grecorromanas "Licurgo" in binyamina-guide.
+2026 wildlife milestone: 33 crías oryx árabe + raro oryx de cimitarra in hai-bar-yotvata-guide.
+Gate: pnpm check 0 errors | build 1748→1753 pages (+5) | pnpm test:e2e 10/10 targeted pass.
+Ship: committed 5a414d8b directly to master (branch had no commits — squash-merge N/A); pushed origin/master.
+ES guides: 309→314/401. Note: iter ran across 2 cloud sessions due to context limit; continued cleanly.
