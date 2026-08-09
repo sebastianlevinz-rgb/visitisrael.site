@@ -16269,3 +16269,10 @@ Gate: pnpm check 0 errors | build 1713 pages (+5 vs 1708) | pnpm test:e2e 10/10 
 Ship: committed directly to master a64f6512; pushed to origin/master.
 ES guides: 299→304/398. Build: 1708→1713 pages (+5).
 Next: iter1097 (1097%5=2 → BUILD) — FR-48 batch: same 5 guides in French (jerusalem-trail + nahalat-binyamin-market-tel-aviv + via-ferrata-israel + kerem-hateimanim-tel-aviv + keshet-cave-guide), confirmed MISSING from FR, Status: ready in BACKLOG.
+
+## 2026-08-09T00:45Z · iter 1097 · BUILD · fr-48-batch
+What: 5 new French guides (FR-48 batch) — jerusalem-trail, nahalat-binyamin-market-tel-aviv, via-ferrata-israel, kerem-hateimanim-tel-aviv, keshet-cave-guide. Metropolitan French. All /fr/* cross-links pre-verified (20/20; no EN fallbacks needed — all /fr/ targets exist). No fabricated prices/ratings. INPA Goren Park valid for keshet-cave (zip-line separate fee). verdictName+verdictQuery on via-ferrata-israel + keshet-cave-guide. No H1 in body (layout owns it). 10 new e2e routes added to smoke.spec.ts and a11y.spec.ts.
+Gate: pnpm check 0 errors | build 1718 pages (+5 vs 1713) | pnpm test:e2e 10/10 targeted pass.
+Ship: squash-merged to master 67dd9323; pushed to origin/master. Vercel deploy in progress at state-write.
+FR guides: 322→327/398. Build: 1713→1718 pages (+5).
+Next: iter1098 (1098%5=3 → REVIEW) — review-1098-fr48-meta-audit: audit 5 FR-48 guides for title/desc length, internal link validity, no H1, no fabricated prices.

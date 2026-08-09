@@ -54,13 +54,7 @@ Status: SHIPPED iter1088 6fc532d0
 
 ### FR-48 batch definition (iter1095 RESEARCH — ready for next FR BUILD)
 Guides: `jerusalem-trail.md`, `nahalat-binyamin-market-tel-aviv.md`, `via-ferrata-israel.md`, `kerem-hateimanim-tel-aviv.md`, `keshet-cave-guide.md`
-All 5 confirmed MISSING from FR via comm -23 (2026-08-08).
-- jerusalem-trail: Sentier de Jérusalem — boucle balisée 42km ceinturant la ville; 4 segments; Camino de Santiago analogy for French audience; INPA-adjacent (SPNI/KKL partnership); Judean Hills wildflowers (March–May); GYG guided Jerusalem hiking tours + Booking.com Jerusalem + Discovercars CTAs; cross-links: /fr/hiking-in-israel ✓, /fr/1-day-jerusalem-itinerary ✓, /fr/day-trips-from-jerusalem ✓, /fr/best-tours-in-israel ✓.
-- nahalat-binyamin-market-tel-aviv: Marché d'artisanat Nahalat Binyamin — 200+ créateurs Mardi et Vendredi 10h-17h (19h été); combiné Carmel Market voisin; architecture Art Déco + Bauhaus; Civitatis/GYG food-and-market walking tour CTAs + Booking.com Neve Tzedek/Florentin hotels; cross-links: /fr/1-day-tel-aviv-itinerary ✓, /fr/tel-aviv-food-guide ✓, /fr/jaffa-food-guide ✓, /fr/shopping-in-israel ✓, /fr/tel-aviv-carmel-market ✓, /fr/backpacking-israel ✓.
-- via-ferrata-israel: Via Ferrata en Israël — Falaise Ramim (Galilée Supérieure, niveau B/C, 1,2km boucle, tyrolienne) vs Via Ferrata Ravid (Galilée inférieure, niveau C, 900m, vues Kinneret + Golan); via ferrata très populaire en France (Alpes, Pyrénées, Vercors); zero FR editorial competitor; GYG outdoor Galilée + Discovercars CTAs; cross-links: /fr/hiking-in-israel ✓, /fr/israel-adventure-sports ✓, /fr/western-galilee-guide ✓, /fr/3-days-in-galilee ✓, /fr/sea-of-galilee-guide ✓.
-- kerem-hateimanim-tel-aviv: Kerem HaTeimanim — Quartier yéménite de Tel Aviv (Vignoble des Yéménites); jachnun + malawach + lachuch le samedi matin; ruelles whitewashed + balcons en fer forgé; bar scene Jeudi/Vendredi soir; GYG visite guidée gastronomique quartier + Booking.com hôtels TLV central; cross-links: /fr/1-day-tel-aviv-itinerary ✓, /fr/tel-aviv-food-guide ✓, /fr/jaffa-food-guide ✓, /fr/tel-aviv-carmel-market ✓, /fr/tel-aviv-coffee-guide ✓. NOTE: /fr/tel-aviv-things-to-do ✓ exists in FR.
-- keshet-cave-guide: Grotte Keshet — arc calcaire naturel (48m de portée) + canyon Nahal Kziv; Montfort Fortress combinable; tyrolienne optionnelle; nord Israël près Nahariya; Discovercars location voiture (pas de transport en commun adapté) + Booking.com Nahariya/Akko base; cross-links: /fr/akko-acre-guide ✓, /fr/rosh-hanikra-guide ✓, /fr/western-galilee-guide ✓, /fr/car-rental-israel ✓, /fr/israel-car-rental-comparison ✓.
-Status: ready
+Status: SHIPPED iter1097 67dd9323
 
 ### DE-46 batch definition (iter1095 RESEARCH — ready for next DE BUILD)
 Guides: same 5 as FR-48 — all confirmed MISSING from DE via comm -23 (2026-08-08).
