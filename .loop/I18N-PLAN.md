@@ -6,21 +6,21 @@
 >
 > One bounded slice per loop iteration. NEVER bulk-translate in one shot.
 
-## Current status snapshot (2026-08-09 iter1111 BUILD — FR-50 SHIPPED iter1111 77ff8b4f; next FR BUILD = FR-51 TBD / next DE BUILD = DE-48 [queue: DEFINED iter1105 — same 5 guides] / next ES BUILD = ES-63 [queue: DEFINED iter1105 — same 5 guides])
+## Current status snapshot (2026-08-09 iter1118 BUILD — DE-49 SHIPPED iter1118 5c4da252; next DE REVIEW = iter1119 de-49-meta-trim [⚠ 2 descs OVER hard limit]; FR-51 SHIPPED iter1116 091eaa68 REVIEW iter1117 e0635d6d; ES-63 SHIPPED iter1113 5a414d8b REVIEW iter1114 21c3462a)
 
 | Locale | Guides | Attractions | Regions | Itineraries |
 |--------|--------|-------------|---------|-------------|
 | en     | 401    | 65          | 11      | 6           |
-| fr     | 337    | 61          | 11      | 6           |
-| de     | 323    | 61          | 11      | 6           |
-| es     | 309    | 61          | 11      | 6           |
+| fr     | 342    | 61          | 11      | 6           |
+| de     | 333    | 61          | 11      | 6           |
+| es     | 314    | 61          | 11      | 6           |
 
 **🎉 MILESTONE: ES + FR + DE monthly guides ALL COMPLETE** (iter996+iter997 ES-41+ES-42 SHIPPED — all 12 per-month guides jan-dec now exist in ES, FR, and DE)
 
 **Gaps to close:**
-- es guides: **92 missing** (309/401 done — Phase ES-62 SHIPPED iter1106 27080c27 + REVIEW iter1109 abc7ab79; **next ES BUILD = ES-63** — DEFINED iter1105: zippori-sepphoris-guide + valley-of-elah-guide + atlit-detainee-camp-guide + binyamina-guide + hai-bar-yotvata-guide)
-- fr guides: **64 missing** (337/401 done — Phase FR-50 SHIPPED iter1111 77ff8b4f; **next FR BUILD = FR-51** — TBD, to be defined in next RESEARCH iteration)
-- de guides: **78 missing** (323/401 done — Phase DE-47 SHIPPED iter1107 c3712613 + REVIEW iter1108 c7975ad; **next DE BUILD = DE-48** — DEFINED iter1105: zippori-sepphoris-guide + valley-of-elah-guide + atlit-detainee-camp-guide + binyamina-guide + hai-bar-yotvata-guide)
+- es guides: **87 missing** (314/401 done — Phase ES-63 SHIPPED iter1113 5a414d8b + REVIEW iter1114 21c3462a; **next ES BUILD = ES-64** — TBD in next RESEARCH iteration; same 5 guides as FR-51/DE-49: nahal-alexander-guide + nahal-pratzim-guide + israel-surfing + jerusalem-first-station-guide + nativity-trail-guide)
+- fr guides: **59 missing** (342/401 done — Phase FR-51 SHIPPED iter1116 091eaa68 + REVIEW iter1117 e0635d6d; **next FR BUILD = FR-52** — TBD in next RESEARCH iteration)
+- de guides: **68 missing** (333/401 done — Phase DE-49 SHIPPED iter1118 5c4da252; **next DE REVIEW = iter1119** de-49-meta-trim [PRIORITY: jerusalem-first-station desc 168→≤151, nativity-trail desc 169→≤151]; **next DE BUILD = DE-50** — TBD)
 - fr/de/es attractions: **4 missing each** (the 4 EN attractions added after Phase 4)
 - 4 new EN-only guides (no locale version yet): arava-mountain-biking + air-haifa-haifa-airport-guide + maccabiah-games-2026 + ashkelon-guide
 

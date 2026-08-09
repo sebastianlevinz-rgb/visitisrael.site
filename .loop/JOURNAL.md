@@ -16490,3 +16490,19 @@ Other checks CLEAN: 20/20 /fr/* links valid, no H1 in body, all heroImages prese
 Gate: pnpm check 0 errors | build 1758 pages | test:e2e 16/16 targeted pass (15.0s).
 Ship: committed e0635d6d directly on master; pushed to origin/master. CI triggered.
 Next: iter1118 (1118%5=3 → BUILD) — DE-49 batch: nahal-alexander-guide + nahal-pratzim-guide + israel-surfing + jerusalem-first-station-guide + nativity-trail-guide in German (Hochdeutsch). All 5 confirmed MISSING from DE per iter1115 RESEARCH. BACKLOG entry ready.
+
+## 2026-08-09T22:30Z · iter 1118 · BUILD · de-49-batch
+
+What: 5 new DE guides (Standard Hochdeutsch) — nahal-alexander-guide, nahal-pratzim-guide, israel-surfing, jerusalem-first-station-guide, nativity-trail-guide.
+Market angles:
+  nahal-alexander: Weichschildkröten (Nilschildkröte — größte Süßwasserschildkröte Israels bis 1.2m/50kg) vs. Europäische Sumpfschildkröte DACH-vertraut; 2025 Rekordsaison 160+ Meeresschildkrötennester; NABU/BUND Naturschutz-Parallele.
+  nahal-pratzim: Salz-Canyon-Geologie (30M+ Jahre; kein Eintritt unlike Berchtesgaden/Königssee); DACH-Wanderkultur + Hochwasser-Warnung; Mietwagen-Pflicht.
+  israel-surfing: Windguru als Standard DACH-Surf-Wettervorhersage; 3/2mm Neopren Saisonführer; Portugal/Kanaren/Biarritz → Israel Überraschungswinkel; Mittelmeer als Grundswell-Lieferant.
+  jerusalem-first-station: Württembergische Tempelgesellschaft 1873 — deutsches Kulturerbe mitten in Jerusalem; Markt + Kulinarik DACH-Winkel; Mesila-Bahnradweg.
+  nativity-trail: Jakobsweg/Camino de Santiago Analogie; DACH = Europas größter Pilgermarkt; auswärtiges-amt.de + bmeia.gv.at + eda.admin.ch Sicherheitshinweise West Bank.
+Honesty notes: INPA gültig (nahal-alexander); INPA NICHT gültig und freier Zugang (nahal-pratzim); kein exakter Preis; Westjordanland-Sicherheitshinweis mit offiziellen Quellen verlinkt; keine KI-Konkurrenzinhalte repliziert; keine fabricated ratings/reviews.
+⚠ Two description overruns detected post-gate: jerusalem-first-station desc 168 chars (hard limit 160); nativity-trail desc 169 chars (hard limit 160). Build passed because Astro doesn't enforce meta limits; flagged for REVIEW iter1119.
+Gate: pnpm check 0 errors | build 1763 pages (+5 from 1758) | test:e2e 2639/2639 pass (28.2m).
+Ship: squash-merged to master 5c4da252; pushed to origin/master.
+DE guides: 328→333/401. Build: 1758→1763 pages (+5).
+Next: iter1119 (1119%5=4 → REVIEW) — de-49-meta-trim: audit all 5 DE-49 guides; PRIORITY trim jerusalem-first-station desc 168→≤151 + nativity-trail desc 169→≤151; check all titles ≤54, /de/* links valid, no H1 in body, heroImages present, no fabricated prices.
