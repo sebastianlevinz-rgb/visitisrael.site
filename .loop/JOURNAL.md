@@ -16354,3 +16354,12 @@ Gate: pnpm check 0 errors | build 1738 pages (+5 from 1733) | pnpm test:e2e 10/1
 Ship: squash-merged auto/de-47-batch → master; committed c3712613; pushed to origin/master.
 Prod: CI triggered at push.
 Next: iter1108 (1108%5=3 → REVIEW) — review-1108-de47-meta-audit: audit 5 DE-47 guides for meta title ≤65 chars, desc ≤160 chars, /de/* link validity, no H1 in body, no fabricated prices/ratings.
+
+## 2026-08-09T11:41Z · iter 1108 · REVIEW · review-1108-de47-meta-trim
+What: Audited all 5 DE-47 guides (nimrod-fortress-guide, beit-alfa-guide, rosh-pina-guide, national-library-israel, jerusalem-mount-zion-guide) shipped in iter1107.
+Checks: title ≤54 chars, desc ≤151 chars, /de/* link validity, no H1 in body, heroImages present, no fabricated prices, INPA honesty, verdictName+verdictQuery flags, paired naming at contested sites.
+Findings: 1 fix — jerusalem-mount-zion title 58→48 chars ("Berg Zion Jerusalem: Abendmahlssaal, Davidsgrab, Dormition" → "Berg Zion: Abendmahlssaal, Davidsgrab, Dormition"). All other checks clean: nimrod(48) beit-alfa(48) rosh-pina(51) national-library(51) all ≤54; all 5 descs ≤138; 11/11 /de/* links valid; no H1 in body; all heroImages present; range-only pricing ("etwa ₪35–45" fine); INPA honesty correct (nimrod+beit-alfa valid, others NOT); verdictName+verdictQuery on 3/5.
+Gate: pnpm check 0 errors | build 1738 | test:e2e 10/10 targeted pass (14s).
+Ship: committed c7975ad directly on master; pushed to origin/master.
+Prod: push confirmed to origin.
+Next: iter1109 (1109%5=4 → REVIEW per playbook, or BUILD FR-50-batch). Recommend BUILD FR-50: zippori-sepphoris+valley-of-elah+atlit-detainee-camp+binyamina+hai-bar-yotvata (all 5 confirmed MISSING from FR; cross-links pre-verified in BACKLOG).

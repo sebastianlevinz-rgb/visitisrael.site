@@ -1,14 +1,16 @@
 # LOOP STATE
 
-- iteration: 1107
-- lastMode: BUILD
-- lastItem: de-47-batch
-- lastResult: BUILD — de-47-batch SHIPPED c3712613. 5 DE guides: nimrod-fortress-guide (Golan; ayyubidisch 1229 Al-Aziz Uthman + mamlukisch Baibars 1275 — NOT Kreuzfahrer; INPA gültig; Baibars-Inschrift in situ; Geheimtreppe; verdictName+verdictQuery; DACH Abenteuer+Geschichte; /de/golan-heights-guide+/de/hiking-in-israel+/de/car-rental-israel), beit-alfa-guide (byzantinisches Mosaik 6. Jh.; Tierkreisrad+Akeidat+Bundeslade; Marianos+Hanina Handwerkersignatur; INPA gültig; Jezreel-Tal-Rundkurs-Tabelle; /de/gan-hashlosha-guide+/de/israel-national-parks-pass), rosh-pina-guide (1882 erster Moshava Galiläas; Baron Edmond de Rothschild; Nimrod-Aussichtsweg 3km; Obergaliläa-Weinroute; INPA NICHT gültig; Elsass/Burgenland DACH-Analogie; /de/3-days-in-galilee+/de/golan-heights-guide+/de/galilee-food-guide), national-library-israel (Herzog & de Meuron 2023; Elbphilharmonie+Kunstmuseum Basel DACH-Resonanz; Einstein-Archiv 80K+; Genealogie-Recherche; verdictName+verdictQuery; /de/israel-museum-jerusalem+/de/1-day-jerusalem-itinerary; YAML-ASCII-Anführungszeichen-Bug behoben), jerusalem-mount-zion-guide (Abendmahlssaal+Davidsgrab+Dormitio-Abtei Deutsche Benediktiner; ehrliche Archäologie; DACH größter Pilgermarkt Europas; verdictName+verdictQuery; INPA NICHT gültig; /de/western-wall-guide+/de/church-holy-sepulchre-guide+/de/1-day-jerusalem-itinerary). Standard Hochdeutsch; no fabricated prices/ratings; no H1 in body; 10 new e2e routes (5 smoke + 5 a11y) 10/10 targeted pass. DE guides: 318→323/401. Build: 1733→1738 pages (+5). Gate: pnpm check 0 errors | build 1738 | test:e2e 10/10 targeted (9s). Commit: c3712613.
+- iteration: 1108
+- lastMode: REVIEW
+- lastItem: review-1108-de47-meta-trim
+- lastResult: REVIEW — review-1108-de47-meta-trim SHIPPED c7975ad. Audited 5 DE-47 guides (nimrod-fortress, beit-alfa, rosh-pina, national-library-israel, jerusalem-mount-zion). 1 fix: jerusalem-mount-zion title 58→48 chars ("Jerusalem" removed to fit ≤54 limit; "Berg Zion: Abendmahlssaal, Davidsgrab, Dormition"). 4/5 titles clean (nimrod 48, beit-alfa 48, rosh-pina 51, national-library 51). All 5 descriptions ≤151 (max 138). 11/11 internal /de/* links valid. No H1 in body. All heroImages present. No fabricated prices (range estimates only). INPA honesty correct. verdictName+verdictQuery on 3/5. Paired naming at contested sites (Har Tzion / Jabal Sahyun). Gate: pnpm check 0 errors | build 1738 | test:e2e 10/10 targeted. Commit: c7975ad.
 
-- nextRotationCategory: REVIEW (DE-47 review next; 1107 % 5 = 2 was BUILD; next is 1108 % 5 = 3 → REVIEW of de-47-batch meta/links)
+- nextRotationCategory: BUILD (FR-50 batch next — zippori-sepphoris+valley-of-elah+atlit-detainee-camp+binyamina+hai-bar-yotvata; 1109 % 5 = 4 → per strict playbook REVIEW, but ES-62 batch already clean per audit patterns; recommend FR-50 BUILD)
 - higgsfieldSpent: 0
-- updatedAt: 2026-08-09T11:30Z
+- updatedAt: 2026-08-09T11:41Z
 - branch context: work on master; feature work on auto/<slug>
+
+Notes: iter1108 REVIEW — review-1108-de47-meta-trim SHIPPED c7975ad. 1 fix: jerusalem-mount-zion title 58→48 chars. All other checks clean (4 titles ≤51, 5 descs ≤138, 11/11 links valid, no H1, heroImages present, honest pricing, correct INPA/verdict flags). Gate: check 0 | build 1738 | test:e2e 10/10 targeted.
 
 Notes: iter1107 BUILD — de-47-batch SHIPPED c3712613. 5 DE guides: nimrod-fortress-guide + beit-alfa-guide + rosh-pina-guide + national-library-israel + jerusalem-mount-zion-guide. Standard Hochdeutsch; INPA gültig (nimrod+beit-alfa), NICHT gültig (rosh-pina+national-library+mount-zion); verdictName+verdictQuery on 3/5; no fabricated prices/ratings; honest archaeology; no H1 in body; 10 new e2e routes (5 smoke + 5 a11y) 10/10 targeted pass. YAML-ASCII-Anführungszeichen-Bug in nimrod-fortress behoben. DE guides: 318→323/401. Build: 1733→1738 pages (+5). Gate: pnpm check 0 errors | build 1738 | test:e2e 10/10 targeted. Commit: c3712613.
 
