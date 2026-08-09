@@ -1,14 +1,16 @@
 # LOOP STATE
 
-- iteration: 1110
-- lastMode: RESEARCH
-- lastItem: research-1110-markets-surfing-nature-gaps
-- lastResult: RESEARCH — 233rd research pass. EN=398, FR=332/398, DE=323/398, ES=309/398. Missing from all 3: ~50. Competitor research: GYG bestselling Israel food tours surface HaTikva Market as high-demand gap (no editorial guide in any locale); Jerusalem First Station editorial zero in FR/DE/ES; Israel surfing unclaimed in all 3; Nahal Alexander softshell turtles niche gap; jerusalem-armenian-quarter exists in FR but missing DE+ES; Nahal Pratzim canyoning confirmed valid (Viator/TripAdvisor top Mitzpe Ramon activity). Sources: GYG Israel/TLV, TripAdvisor Israel, touristisrael.com, harrysbaked.com, surfertoday.com, surfline.com, stormrider.surf, hikingintheholyland.com, gonetanya.com, parks.org.il, dannythedigger.com. 6 new BACKLOG items added. No code shipped.
+- iteration: 1111
+- lastMode: BUILD
+- lastItem: fr-50-batch
+- lastResult: FR-50 SHIPPED 77ff8b4f. 5 FR guides: zippori-sepphoris-guide (Tsipori/Sepphoris; "Joconde de la Galilée"; INPA valide; verdictName+verdictQuery), valley-of-elah-guide (David-Goliath battlefield; accès libre; GYG CTAs), atlit-detainee-camp-guide (camp britannique 1940–48; Palmach raid 1945; Exodus 1947 angle FR), binyamina-guide (Rothschild wine angle FR; Cave Binyamina + Tishbi; IAA 2026 marbre Lycurgue), hai-bar-yotvata-guide (safari oryx/addax/autruche/onagre; INPA valide; verdictName+verdictQuery; 2026 milestone 33 oryx calves). Metropolitan French; no H1 in body; all /fr/* cross-links pre-verified (23/23); no fabricated prices; honest INPA flags; paired naming where applicable. 10 new e2e routes (5 smoke + 5 a11y) — 14/14 targeted pass. FR guides: 332→337/401. Build: 1738→1743 pages (+5). Gate: pnpm check 0 errors | build 1743 | test:e2e 14/14 targeted. Vercel: CI status unreported (0 GitHub statuses at state-write — deploy in progress or via Vercel webhook only).
 
-- nextRotationCategory: BUILD (1111 % 5 = 1 → BUILD; FR-50 batch ready: zippori-sepphoris+valley-of-elah+atlit-detainee-camp+binyamina+hai-bar-yotvata; also DE-48/ES-63 same batch)
+- nextRotationCategory: BUILD (1112 % 5 = 2 → BUILD; DE-48 batch ready: same 5 guides in DE — zippori-sepphoris+valley-of-elah+atlit-detainee-camp+binyamina+hai-bar-yotvata; also ES-63 same batch)
 - higgsfieldSpent: 0
-- updatedAt: 2026-08-09T14:00Z
+- updatedAt: 2026-08-09T15:00Z
 - branch context: work on master; feature work on auto/<slug>
+
+Notes: iter1111 BUILD — fr-50-batch SHIPPED 77ff8b4f. 5 FR guides (zippori-sepphoris-guide, valley-of-elah-guide, atlit-detainee-camp-guide, binyamina-guide, hai-bar-yotvata-guide). Metropolitan French; all /fr/* cross-links pre-verified; no fabricated prices/ratings; INPA flags honest; no H1 in body; verdictName+verdictQuery on zippori-sepphoris + hai-bar-yotvata; Rothschild/Exodus-1947/Palmach FR-market angles; IAA July 2026 marble Lycurgue in binyamina. 14/14 e2e targeted pass. FR guides: 332→337/401. Build: 1738→1743 (+5). Gate: check 0 | build 1743 | test:e2e 14/14 targeted. Squash-merge 77ff8b4f to master; pushed to origin/master. Vercel deploy: CI status unreported at state-write (deploy in progress).
 
 Notes: iter1110 RESEARCH — 233rd research pass. EN=398, FR=332/398, DE=323/398, ES=309/398. Missing from all 3 ~50. Competitor scan: GYG Israel food tour bestsellers → HaTikva Market (Iraqi/Yemenite; ~90 years old; $80/person 2.5h GYG food tour) = zero editorial guide in any locale. Jerusalem First Station (HaTachana 1892→2013 cultural hub; Thu/Fri farmers market; 15+ restaurants; 1km from Old City) = zero FR/DE/ES. Israel surfing (Mediterranean: Hilton Beach TLV + Haifa Backdoor reef break + Caesarea Arubot; surfertoday.com/surfline.com cover EN only) = zero FR/DE/ES. Nahal Alexander (INPA valid Alexander Stream NP; softshell turtles up to 1.2m/50kg; 2.7km River Trail; Turtle Bridge) = zero FR/DE/ES. Nahal Pratzim canyoning (Ramon Crater sector; INPA-licenced operators; Viator/TripAdvisor top Mitzpe Ramon activity) = zero FR/DE/ES. jerusalem-armenian-quarter: exists EN+FR (iter1072) but MISSING from DE+ES. 6 items added to BACKLOG. No code shipped.
 

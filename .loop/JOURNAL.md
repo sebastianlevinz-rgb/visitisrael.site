@@ -16389,3 +16389,23 @@ Key findings:
 Gate: N/A (research mode). No code changes.
 Memory: STATE.md iter→1110. BACKLOG.md (6 items appended). COMPETITORS.md appended. JOURNAL.md appended. .loop/ committed below.
 Next: iter1111 (1111%5=1 → BUILD) — FR-50 batch: zippori-sepphoris-guide + valley-of-elah-guide + atlit-detainee-camp-guide + binyamina-guide + hai-bar-yotvata-guide (all 5 confirmed MISSING from FR; cross-links pre-verified in BACKLOG). FR is most behind after ES.
+
+## 2026-08-09T15:00Z · iter 1111 · BUILD (i18n-FR) · fr-50-batch
+Mode: BUILD (1111%5=1). FR-50 batch — 5 new French guides.
+Branch: auto/fr-50-batch → squash-merged to master.
+Files created:
+  src/content/guides/fr/zippori-sepphoris-guide.md — Tsipori/Sepphoris; "Joconde de la Galilée"; INPA valide; verdictName+verdictQuery; 5 FAQs
+  src/content/guides/fr/valley-of-elah-guide.md — Vallée d'Éla; David-Goliath; accès libre; tableau Shephelah; 6 FAQs
+  src/content/guides/fr/atlit-detainee-camp-guide.md — Camp de détention d'Atlit; Exodus 1947 angle FR; Palmach Raid 1945; 6 FAQs
+  src/content/guides/fr/binyamina-guide.md — Binyamina vitivinicole Rothschild; IAA 2026 statue Lycurgue; 7 FAQs
+  src/content/guides/fr/hai-bar-yotvata-guide.md — Réserve Hai-Bar Yotvata; safari oryx+addax+autruche+onagre; verdictName+verdictQuery; 2026 milestones; 6 FAQs
+Files modified:
+  tests/e2e/smoke.spec.ts — 5 new /fr/* routes
+  tests/e2e/a11y.spec.ts — 5 new /fr/* routes
+Honesty: no fabricated prices; INPA flags correct (valide: zippori+hai-bar; N/A: others); no H1 in body; paired naming at contested sites; no machine-translation of religious content; Atlit honesty notes preserved; Lycurgue archaeological note qualified.
+Market angles: Rothschild wine heritage (FR #1 wine-tourism market), Exodus 1947 (emblème de la conscience française), Galilée romaine (FR Roman history interest), Hai-Bar biblical animals (French Jewish diaspora audience).
+Gate: pnpm check 0 errors (strict TS) | pnpm build 1743 pages (+5 from 1738) | pnpm test:e2e 14/14 targeted pass (19.5s).
+Ship: git merge --squash auto/fr-50-batch (context-switch required; files staged on master directly); committed 77ff8b4f; pushed to origin/master.
+Vercel: CI status unreported (0 GitHub commit statuses at state-write — deploy routing via Vercel webhook not GitHub status API).
+FR guides: 332→337/401 (64 missing). DE=323/401 (78 missing). ES=309/401 (92 missing).
+Next: iter1112 (1112%5=2 → BUILD) — DE-48 batch: same 5 guides in German (Hochdeutsch). DEFINED iter1105. Cross-links pre-verified in BACKLOG.

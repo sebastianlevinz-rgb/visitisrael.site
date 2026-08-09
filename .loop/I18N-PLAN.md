@@ -6,21 +6,21 @@
 >
 > One bounded slice per loop iteration. NEVER bulk-translate in one shot.
 
-## Current status snapshot (2026-08-09 iter1106 BUILD — ES-62 SHIPPED iter1106 27080c27; next FR BUILD = FR-50 / next DE BUILD = DE-47 [queue: DE-47 defined] / next ES BUILD = ES-63 [queue: ES-63 defined])
+## Current status snapshot (2026-08-09 iter1111 BUILD — FR-50 SHIPPED iter1111 77ff8b4f; next FR BUILD = FR-51 TBD / next DE BUILD = DE-48 [queue: DEFINED iter1105 — same 5 guides] / next ES BUILD = ES-63 [queue: DEFINED iter1105 — same 5 guides])
 
 | Locale | Guides | Attractions | Regions | Itineraries |
 |--------|--------|-------------|---------|-------------|
 | en     | 401    | 65          | 11      | 6           |
-| fr     | 332    | 61          | 11      | 6           |
-| de     | 318    | 61          | 11      | 6           |
+| fr     | 337    | 61          | 11      | 6           |
+| de     | 323    | 61          | 11      | 6           |
 | es     | 309    | 61          | 11      | 6           |
 
 **🎉 MILESTONE: ES + FR + DE monthly guides ALL COMPLETE** (iter996+iter997 ES-41+ES-42 SHIPPED — all 12 per-month guides jan-dec now exist in ES, FR, and DE)
 
 **Gaps to close:**
-- es guides: **92 missing** (309/401 done — Phase ES-62 SHIPPED iter1106 27080c27; **next ES BUILD = ES-63** — DEFINED iter1105: zippori-sepphoris-guide + valley-of-elah-guide + atlit-detainee-camp-guide + binyamina-guide + hai-bar-yotvata-guide)
-- fr guides: **69 missing** (332/401 done — Phase FR-49 SHIPPED iter1103 79dce6ed; **next FR BUILD = FR-50** — DEFINED iter1105: zippori-sepphoris-guide + valley-of-elah-guide + atlit-detainee-camp-guide + binyamina-guide + hai-bar-yotvata-guide)
-- de guides: **83 missing** (318/401 done — Phase DE-46 SHIPPED iter1101 95506245; **next DE BUILD = DE-47** — DEFINED iter1100: nimrod-fortress-guide + beit-alfa-guide + rosh-pina-guide + national-library-israel + jerusalem-mount-zion-guide)
+- es guides: **92 missing** (309/401 done — Phase ES-62 SHIPPED iter1106 27080c27 + REVIEW iter1109 abc7ab79; **next ES BUILD = ES-63** — DEFINED iter1105: zippori-sepphoris-guide + valley-of-elah-guide + atlit-detainee-camp-guide + binyamina-guide + hai-bar-yotvata-guide)
+- fr guides: **64 missing** (337/401 done — Phase FR-50 SHIPPED iter1111 77ff8b4f; **next FR BUILD = FR-51** — TBD, to be defined in next RESEARCH iteration)
+- de guides: **78 missing** (323/401 done — Phase DE-47 SHIPPED iter1107 c3712613 + REVIEW iter1108 c7975ad; **next DE BUILD = DE-48** — DEFINED iter1105: zippori-sepphoris-guide + valley-of-elah-guide + atlit-detainee-camp-guide + binyamina-guide + hai-bar-yotvata-guide)
 - fr/de/es attractions: **4 missing each** (the 4 EN attractions added after Phase 4)
 - 4 new EN-only guides (no locale version yet): arava-mountain-biking + air-haifa-haifa-airport-guide + maccabiah-games-2026 + ashkelon-guide
 
@@ -32,6 +32,7 @@ All 5 confirmed MISSING from FR via comm -23 (2026-08-09). All cross-links verif
 - rosh-pina-guide: Roch Pina — premier village sioniste Galilée (1882); Baron de Rothschild; B&Bs boutique; porte Golan; INPA NON valide; /fr/3-days-in-galilee ✓, /fr/golan-heights-guide ✓, /fr/galilee-food-guide ✓; GYG+Booking.com boutique CTAs
 - national-library-israel: Bibliothèque Nationale Israël (inaugurée 2023); Herzog & de Meuron (Tate Modern); 5M+ items; manuscrits mer Morte numérisés; /fr/israel-museum-jerusalem ✓, /fr/1-day-jerusalem-itinerary ✓; Tiqets+GYG+Booking.com CTAs
 - jerusalem-mount-zion-guide: Mont Sion — Tombeau de David + Cénacle + Dormition; multireligieux; INPA NON valide; /fr/western-wall-guide ✓, /fr/church-holy-sepulchre-guide ✓, /fr/1-day-jerusalem-itinerary ✓; GYG+Viator CTAs
+Status: SHIPPED iter1103 79dce6ed; REVIEW iter1104 1bcc9f47
 
 ### DE-47 batch definition (iter1100 RESEARCH — ready for next DE BUILD after DE-46 SHIPPED)
 Guides: same 5 as FR-49 — all confirmed MISSING from DE via comm -23 (2026-08-09). All cross-links verified in DE.
@@ -40,6 +41,7 @@ Guides: same 5 as FR-49 — all confirmed MISSING from DE via comm -23 (2026-08-
 - rosh-pina-guide: Rosh Pina — erstes Galiläa-Dorf der Zionisten (1882); Rothschild-Häuser; Boutique-B&Bs; INPA NON-valide; /de/3-days-in-galilee ✓, /de/golan-heights-guide ✓, /de/galilee-food-guide ✓
 - national-library-israel: Neue Nationalbibliothek Israel (2023); Herzog & de Meuron (Elbphilharmonie-Büro → DACH-Resonanz); 5M+ Objekte; /de/israel-museum-jerusalem ✓, /de/1-day-jerusalem-itinerary ✓
 - jerusalem-mount-zion-guide: Berg Zion — Davidsgrub + Abendmahlssaal + Dormitio; DACH Pilgermarkt; INPA NON-valide; /de/western-wall-guide ✓, /de/church-holy-sepulchre-guide ✓, /de/1-day-jerusalem-itinerary ✓
+Status: SHIPPED iter1107 c3712613; REVIEW iter1108 c7975ad
 
 ### ES-62 batch definition (iter1100 RESEARCH — ready for next ES BUILD after ES-60 SHIPPED)
 Guides: same 5 as FR-49/DE-47 — all confirmed MISSING from ES via comm -23 (2026-08-09). All cross-links verified in ES.
