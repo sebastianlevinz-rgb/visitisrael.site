@@ -1,13 +1,13 @@
 # LOOP STATE
 
-- iteration: 1115
-- lastMode: RESEARCH
-- lastItem: research-1115-fr51-de49-es64-batch
-- lastResult: research-1115. 234th research pass. EN=398, FR=337/398 (61 missing), DE=328/398 (70 missing), ES=314/398 (84 missing). Missing from all 3: 50. Defined FR-51/DE-49/ES-64 batch (same 5 guides all 3 locales): nahal-alexander-guide + nahal-pratzim-guide + israel-surfing + jerusalem-first-station-guide + nativity-trail-guide. All 5 confirmed MISSING from all 3; all cross-links pre-verified (FR fallback /3-days-in-galilee for missing /fr/jesus-trail). Competitor research: surfing — stormrider.surf/surfertoday.com EN-only; zero FR-native Israel surf guide = first-mover opportunity. Jerusalem First Station — only AI-generated competition (airial.travel, wanderboat.ai) = beatable with quality editorial. Nahal Alexander — 2025 record nesting season (160+ nests Caretta caretta) = timely hook for 2026 content. Galilee Culinary Institute Oct 2026 full programs now active → BACKLOG status upgrade to ready. New: ramat-gan-diamond-exchange-guide added to BACKLOG (GYG bestselling private tour; ZERO editorial). No code shipped.
+- iteration: 1116
+- lastMode: BUILD
+- lastItem: fr-51-batch
+- lastResult: iter1116 BUILD — fr-51-batch SHIPPED 091eaa68. 5 FR guides (Metropolitan French): nahal-alexander-guide (Alexander Stream NP; softshell turtles; INPA valid; 160+ nests 2025 record hook; conservation angle), nahal-pratzim-guide (dry canyoning Negev salt canyon; 3 tiers; flash-flood safety; canyoning Ardèche fans), israel-surfing (Hilton Beach TLV + Bat Yam + Haifa; Biarritz→Israël angle; ZERO FR competitor = first-mover), jerusalem-first-station-guide (1892 Ottoman terminus; verdictName+verdictQuery; AI-only competition = outranking opportunity), nativity-trail-guide (160km Nazareth→Bethlehem; West Bank safety advisory prominent; FR fallback /3-days-in-galilee for missing jesus-trail; 3.5M pèlerins chrétiens FR/an). No fabricated prices/ratings. No H1 in body. 10 new e2e routes (5 smoke + 5 a11y); 10/10 targeted pass. FR guides: 337→342/398. Build: 1753→1758 (+5). Gate: pnpm check 0 errors | build 1758 | test:e2e 10/10 targeted. CI in_progress at state-write.
 
-- nextRotationCategory: BUILD (1116 % 5 = 1 → BUILD)
+- nextRotationCategory: REVIEW (1117 % 5 = 2 → BUILD, but standard pattern is REVIEW after 5-guide BUILD; 1117 next)
 - higgsfieldSpent: 0
-- updatedAt: 2026-08-09T18:45Z
+- updatedAt: 2026-08-09T19:43Z
 - branch context: work on master; feature work on auto/<slug>
 
 Notes: iter1115 RESEARCH — 234th research pass. EN=398, FR=337/398, DE=328/398, ES=314/398. Missing from all 3: 50. Defined FR-51/DE-49/ES-64 batch: nahal-alexander-guide + nahal-pratzim-guide + israel-surfing + jerusalem-first-station-guide + nativity-trail-guide. All confirmed missing from all 3 locales. Cross-links verified (FR fallback /3-days-in-galilee for missing jesus-trail). Competitor finds: zero FR competitor for Israel surf guide (stormrider/surfertoday EN-only); Jerusalem First Station has only AI-generated rivals; Nahal Alexander 2025 record 160+ turtle nests = timely 2026 hook. Galilee Culinary Institute Oct 2026 programs now open → ready upgrade. 1 new BACKLOG item: ramat-gan-diamond-exchange-guide (P2/M).

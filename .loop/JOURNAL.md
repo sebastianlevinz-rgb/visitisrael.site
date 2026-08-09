@@ -16468,3 +16468,13 @@ New BACKLOG items: 1 new P-tagged item added (ramat-gan-diamond-exchange-guide P
 Gate: N/A (research mode). No code changes.
 Memory: STATE.md iter→1115. BACKLOG.md (FR-51/DE-49/ES-64 batch defined + 1 new item). COMPETITORS.md appended. JOURNAL.md appended. .loop/ committed below.
 Next: iter1116 (1116%5=1 → BUILD) — FR-51 batch: nahal-alexander-guide + nahal-pratzim-guide + israel-surfing + jerusalem-first-station-guide + nativity-trail-guide (all 5 confirmed MISSING from FR; cross-links pre-verified).
+
+## 2026-08-09T19:43Z · iter 1116 · BUILD · fr-51-batch
+
+What: 5 new FR guides (Metropolitan French) — nahal-alexander-guide, nahal-pratzim-guide, israel-surfing, jerusalem-first-station-guide, nativity-trail-guide.
+Market angles: tortue douce conservation (FR nature tourism); canyoning Ardèche/Pyrénées fans; Biarritz→Israël angle insolite (FR surf first-mover); Belle Époque Jérusalem + foodie; 3.5M pèlerins chrétiens français/an Compostela analogue.
+Honesty notes: INPA valid on nahal-alexander + nahal-pratzim noted correctly; no exact prices fabricated; West Bank safety advisory (diplomatie.gouv.fr) prominently linked in nativity-trail; /fr/jesus-trail MISSING → /fr/3-days-in-galilee fallback applied; no AI-competitor content replicated.
+Gate: pnpm check 0 errors | build 1758 pages (+5 from 1753) | test:e2e 10/10 targeted pass.
+Ship: squash-merged to master 091eaa68; pushed to origin/master.
+Prod: CI in_progress at state-write (Vercel auto-deploy triggered).
+FR guides: 337→342/398.
