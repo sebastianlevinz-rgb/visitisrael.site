@@ -16283,3 +16283,10 @@ Fixes (9 total): jerusalem-trail title 65→54, desc 154→134; nahalat-binyamin
 Gate: pnpm check 0 errors | build 1718 pages (unchanged) | pnpm test:e2e 10/10 targeted FR-48 routes pass (5 smoke + 5 a11y).
 Ship: squash-merged to master b65f7491; pushed to origin/master. CI in_progress at state-write.
 Next: iter1099 (1099%5=4 → REVIEW) — review-1099-es61-meta-audit: audit 5 ES-61 guides (same 5 guides in ES, shipped iter1096 a64f6512) for title/desc length, internal link validity, no H1, no fabricated prices.
+
+## 2026-08-09T03:30Z · iter 1099 · REVIEW · review-1099-es61-meta-audit
+What: Audited 5 ES-61 guides (jerusalem-trail, nahalat-binyamin-market-tel-aviv, via-ferrata-israel, kerem-hateimanim-tel-aviv, keshet-cave-guide) shipped in iter1096 a64f6512. Checks: (1) meta title ≤65 chars (TITLE_MAX) — all pass, max 54 chars; (2) meta description ≤160 chars (DESC_MAX) — all pass, max 159 chars (keshet-cave); (3) all /es/* internal links validated — 22/22 OK; (4) heroImages exist on disk — 5/5 OK; (5) no H1 in body — 5/5 OK; (6) no fabricated prices/ratings — all prices are ranges or approximations.
+Fixes: none — audit CLEAN.
+Gate: no code changes; no gate run needed.
+Ship: nothing shipped.
+Next: iter1100 (1100%5=0 → RESEARCH) — 231st research pass; assess FR/DE/ES locale gaps, define next 3-locale batch.
