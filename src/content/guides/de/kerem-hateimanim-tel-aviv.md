@@ -1,6 +1,6 @@
 ---
-title: "Kerem HaTeimanim: Jemenitisches Viertel Tel Aviv (2026)"
-description: "Kerem HaTeimanim — Jemenitisches Viertel Tel Aviv: Jachnun, Malawach und historische Gassen beim Karmel-Markt. Kreative Bar-Szene donnerstags und freitags."
+title: "Kerem HaTeimanim: Jemenitisches Viertel Tel Aviv"
+description: "Kerem HaTeimanim — Jemenitisches Viertel Tel Aviv: Jachnun, Malawach und historische Gassen. Bar-Szene donnerstags und freitags."
 heroImage: /images/sub-destinations/tel-aviv/carmel-market.jpg
 category: Essen & Trinken
 updatedAt: 2026-08-09

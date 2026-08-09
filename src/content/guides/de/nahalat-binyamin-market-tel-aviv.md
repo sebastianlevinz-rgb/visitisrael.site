@@ -1,6 +1,6 @@
 ---
-title: 'Nahalat-Binjamin-Markt Tel Aviv: Kunsthandwerk & Bauhaus (2026)'
-description: "Nahalat-Binjamin-Markt Tel Aviv: 200+ israelische Kunsthandwerker dienstags und freitags. Bauhaus-Architektur, Kombination mit dem Karmel-Markt und Einkaufstipps."
+title: 'Nahalat-Binjamin-Markt Tel Aviv: Kunsthandwerk'
+description: "Nahalat-Binjamin-Markt Tel Aviv: 200+ Kunsthandwerker dienstags und freitags. Bauhaus-Architektur, Karmel-Markt-Kombination und Einkaufstipps."
 heroImage: /images/sub-destinations/tel-aviv/carmel-market.jpg
 category: Einkaufen
 updatedAt: 2026-08-09

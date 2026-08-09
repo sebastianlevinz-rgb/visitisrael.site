@@ -1,5 +1,5 @@
 ---
-title: 'Jerusalem Wanderweg: Shvil Yerushalayim Komplettführer (2026)'
+title: 'Jerusalem Wanderweg: Shvil Yerushalayim (2026)'
 description: "Jerusalem Wanderweg (Shvil Yerushalayim): 42-km-Rundweg um die Stadt in 4 Etappen. Startpunkte, Panoramen, Jahreszeiten und praktische Tipps."
 heroImage: /images/regions/jerusalem/hero.jpg
 category: Wandern

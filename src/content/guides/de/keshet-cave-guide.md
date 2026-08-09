@@ -1,6 +1,6 @@
 ---
 title: "Keshet-Höhle: Naturbogen und Nahal-Kziv-Canyon (2026)"
-description: "Keshet-Höhle: Gehen Sie unter dem 48-m-Kalksteinbogen hindurch, rutschen Sie über den Nahal-Kziv-Canyon und wandern Sie zur Montfort-Festung. Nahe Nahariya."
+description: "Keshet-Höhle: Wandern unter dem 48-m-Kalksteinbogen, Seilrutsche über den Nahal-Kziv-Canyon, Wanderung zur Montfort-Festung. Nahe Nahariya."
 heroImage: /images/regions/akko/hero.jpg
 category: Natur & Wandern
 updatedAt: 2026-08-09

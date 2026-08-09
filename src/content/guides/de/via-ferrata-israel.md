@@ -1,5 +1,5 @@
 ---
-title: 'Klettersteig in Israel: Ramim-Cliff und Via Ferrata Ravid (2026)'
+title: 'Klettersteig Israel: Ramim Cliff und Via Ferrata Ravid'
 description: "Klettersteige in Israel: Ramim Cliff (Oberes Galiläa, B/C) vs. Via Ferrata Ravid (Unteres Galiläa, C). Ausrüstung, Buchung und beste Jahreszeit."
 heroImage: /images/regions/galilee/hero.jpg
 category: Abenteuer
