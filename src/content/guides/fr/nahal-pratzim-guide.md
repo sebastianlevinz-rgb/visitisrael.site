@@ -1,6 +1,6 @@
 ---
 title: 'Nahal Pratzim : Canyoning dans le Néguev (2026)'
-description: "Nahal Pratzim, Néguev : canyon sec dans le sel de la montagne Sodom, Grotte Farine et pilier de Lot — niveaux de randonnée, logistique et sécurité crues."
+description: "Nahal Pratzim, Néguev : canyon sec dans le sel de la montagne Sodom, Grotte Farine et pilier de Lot — randonnée, logistique et sécurité."
 heroImage: /images/regions/negev/hero.jpg
 category: Activities
 updatedAt: 2026-08-09

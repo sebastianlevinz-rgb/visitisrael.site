@@ -1,6 +1,6 @@
 ---
-title: 'La Première Gare de Jérusalem : Guide HaTachana HaRishona (2026)'
-description: "HaTachana HaRishona : terminus ferroviaire ottoman de 1892 restauré en marché artisanal, restaurants et espace concerts. Quartier allemand, sentier Mesila, logistique."
+title: 'La Première Gare de Jérusalem : HaTachana HaRishona'
+description: "HaTachana HaRishona : terminus ferroviaire ottoman 1892 restauré en marché artisanal, restaurants et concerts. Quartier allemand, sentier Mesila."
 heroImage: /images/regions/jerusalem/hero.jpg
 category: Destinations
 updatedAt: 2026-08-09

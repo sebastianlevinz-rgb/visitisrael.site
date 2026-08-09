@@ -1,6 +1,6 @@
 ---
-title: 'Nahal Alexander : Tortues Géantes et Sentier Côtier (2026)'
-description: "Réserve naturelle Nahal Alexander : tortues molles du Nil géantes au Pont des Tortues, sentier de 3 km jusqu'à la plage Hof Bet Yanai. Pass INPA, accès, saisons."
+title: 'Nahal Alexander : Tortues et Sentier Côtier (2026)'
+description: "Réserve naturelle Nahal Alexander : tortues molles du Nil géantes au Pont des Tortues, sentier 3 km jusqu'à la plage. INPA, accès, saisons."
 heroImage: /images/regions/tel-aviv/beaches.jpg
 category: Nature
 updatedAt: 2026-08-09

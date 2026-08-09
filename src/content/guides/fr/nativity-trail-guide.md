@@ -1,6 +1,6 @@
 ---
-title: "Le Chemin de Nativité : Guide du Pèlerin (Nazareth → Bethléem)"
-description: "Chemin de Nativité : 160 km de Nazareth à Bethléem — étapes, conseils de sécurité en Cisjordanie, logistique WalkPalestine et options guidées pour les pèlerins francophones."
+title: "Chemin de Nativité : Guide Pèlerin Nazareth–Bethléem"
+description: "Chemin de Nativité : 160 km de Nazareth à Bethléem — étapes, sécurité en Cisjordanie, logistique WalkPalestine et options guidées."
 heroImage: /images/regions/nazareth/hero.jpg
 category: Outdoors
 updatedAt: 2026-08-09
