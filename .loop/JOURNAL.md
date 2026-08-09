@@ -16478,3 +16478,15 @@ Gate: pnpm check 0 errors | build 1758 pages (+5 from 1753) | test:e2e 10/10 tar
 Ship: squash-merged to master 091eaa68; pushed to origin/master.
 Prod: CI in_progress at state-write (Vercel auto-deploy triggered).
 FR guides: 337→342/398.
+
+## 2026-08-09T20:45Z · iter 1117 · REVIEW · review-1117-fr51-meta-trim
+What: Meta audit of 5 FR-51 guides shipped in iter1116 (nahal-alexander-guide, nahal-pratzim-guide, israel-surfing, jerusalem-first-station-guide, nativity-trail-guide).
+Checks: title ≤54 chars, desc ≤151 chars (hard ≤160), /fr/* link validity, no H1 in body, heroImages present, no fabricated prices, INPA honesty, verdictName+verdictQuery flags, paired naming.
+Findings — 7 fixes applied:
+  Titles: nahal-alexander 58→50 (dropped 'Géantes'); jerusalem-first-station 64→51 (dropped 'Guide' + '(2026)'); nativity-trail 62→52 (dropped 'Le … du Pèlerin', added en-dash form).
+  Descs: nahal-alexander 161→139 (HARD→OK); nahal-pratzim 153→136 (SOFT→OK); jerusalem-first-station 167→145 (HARD→OK); nativity-trail 173→130 (HARD→OK).
+  israel-surfing CLEAN: title 47, desc 146 — no changes.
+Other checks CLEAN: 20/20 /fr/* links valid, no H1 in body, all heroImages present, no fabricated prices, INPA flags correct, verdictName+verdictQuery on jerusalem-first-station+nativity-trail.
+Gate: pnpm check 0 errors | build 1758 pages | test:e2e 16/16 targeted pass (15.0s).
+Ship: committed e0635d6d directly on master; pushed to origin/master. CI triggered.
+Next: iter1118 (1118%5=3 → BUILD) — DE-49 batch: nahal-alexander-guide + nahal-pratzim-guide + israel-surfing + jerusalem-first-station-guide + nativity-trail-guide in German (Hochdeutsch). All 5 confirmed MISSING from DE per iter1115 RESEARCH. BACKLOG entry ready.

@@ -2143,3 +2143,6 @@ FR guides: 317→322/398. Build: 1698→1703 pages (+5). Gate: 0 errors | build 
 
 ## iter1104 · REVIEW · review-1104-fr49-meta-trim · 1bcc9f47
 - Trimmed 4 FR-49 descriptions over limits: rosh-pina 163→139, national-library 164→142, jerusalem-mount-zion 174→127, beit-alfa 159→131. All 11/11 /fr/* cross-links valid; heroImages present; no H1; no fabricated data. Gate: check 0 | build 1728 | test:e2e 12/12.
+
+## iter1117 · REVIEW · review-1117-fr51-meta-trim · e0635d6d
+- FR-51 meta-trim SHIPPED: 7 fixes across 5 FR-51 guides. 3 titles trimmed ≤54 chars (nahal-alexander 58→50, jerusalem-first-station 64→51, nativity-trail 62→52). 4 descriptions trimmed ≤151 chars (3 were OVER HARD limit ≥160): nahal-alexander 161→139, nahal-pratzim 153→136, jerusalem-first-station 167→145, nativity-trail 173→130. israel-surfing CLEAN (no changes). 20/20 /fr/* links valid. Gate: check 0 | build 1758 | test:e2e 16/16 targeted.
