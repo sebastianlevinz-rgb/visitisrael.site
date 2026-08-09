@@ -16324,3 +16324,9 @@ Gate: pnpm check 0 errors | build 1728 pages (+5 from 1723) | pnpm test:e2e 10/1
 Ship: committed 79dce6ed directly on master; pushed to origin/master.
 Prod: CI in_progress at state-write (triggered 2026-08-09T06:50:52Z — runs 31299795061 CI + 31299795039 Lighthouse both in_progress).
 Next: iter1104 (1104%5=4 → REVIEW) — review-1104-fr49-meta-audit: audit 5 FR-49 guides (nimrod-fortress-guide, beit-alfa-guide, rosh-pina-guide, national-library-israel, jerusalem-mount-zion-guide) for meta title ≤54 chars, desc ≤151 chars, /fr/* link validity, no H1 in body, no fabricated prices.
+
+## 2026-08-09T07:50Z · iter 1104 · REVIEW · review-1104-fr49-meta-trim
+What: Audited the iter1103 FR-49 batch (5 FR guides). Found 4 descriptions over limits — 3 over the 160-char hard limit (rosh-pina 163, national-library 164, jerusalem-mount-zion 174) and 1 over the 151-char soft limit (beit-alfa 159). Trimmed all 4 to ≤151 chars. Cross-check: 11/11 /fr/* internal links valid; all 5 heroImages present in public/; no H1 in body; no fabricated prices or ratings detected.
+Gate: pnpm check 0 errors | build 1728 pages (unchanged) | pnpm test:e2e 12/12 targeted (6 smoke + 6 a11y) pass.
+Ship: squash-merged to master 1bcc9f47; pushed to origin/master. CI in_progress at state-write.
+Next: BUILD — DE-47 batch (nimrod-fortress+beit-alfa+rosh-pina+national-library+jerusalem-mount-zion in DE).

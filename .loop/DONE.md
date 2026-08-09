@@ -2116,3 +2116,6 @@ FR guides: 317→322/398. Build: 1698→1703 pages (+5). Gate: 0 errors | build 
 
 ## iter1098 · REVIEW · review-1098-fr48-meta-trim · b65f7491
 - FR-48 batch meta audit CLEAN after 9 fixes: 4 titles trimmed (≤54 chars), 5 descriptions trimmed (≤151 chars). All 20/20 /fr/* internal links valid. heroImages exist (5/5). No H1 in body (5/5). No fabricated prices/ratings. Guides: jerusalem-trail (title 65→54, desc 154→134), nahalat-binyamin-market-tel-aviv (title 64→51, desc 165→145), via-ferrata-israel (desc 183→145; title 51 OK), kerem-hateimanim-tel-aviv (title 64→52, desc 177→141), keshet-cave-guide (title 59→49, desc 172→144). Gate: pnpm check 0 errors | build 1718 pages | pnpm test:e2e 10/10 targeted pass. Committed to master b65f7491; pushed to origin/master.
+
+## iter1104 · REVIEW · review-1104-fr49-meta-trim · 1bcc9f47
+- Trimmed 4 FR-49 descriptions over limits: rosh-pina 163→139, national-library 164→142, jerusalem-mount-zion 174→127, beit-alfa 159→131. All 11/11 /fr/* cross-links valid; heroImages present; no H1; no fabricated data. Gate: check 0 | build 1728 | test:e2e 12/12.
