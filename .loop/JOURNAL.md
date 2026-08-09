@@ -16409,3 +16409,23 @@ Ship: git merge --squash auto/fr-50-batch (context-switch required; files staged
 Vercel: CI status unreported (0 GitHub commit statuses at state-write — deploy routing via Vercel webhook not GitHub status API).
 FR guides: 332→337/401 (64 missing). DE=323/401 (78 missing). ES=309/401 (92 missing).
 Next: iter1112 (1112%5=2 → BUILD) — DE-48 batch: same 5 guides in German (Hochdeutsch). DEFINED iter1105. Cross-links pre-verified in BACKLOG.
+
+## 2026-08-09T16:00Z · iter 1112 · BUILD (i18n-DE) · de-48-batch
+Mode: BUILD (1112%5=2). DE-48 batch — 5 new German guides.
+Branch: auto/de-48-batch → squash-merged to master.
+Files created:
+  src/content/guides/de/zippori-sepphoris-guide.md — Tsipori/Sepphoris; Römer/Byzantinistik DACH-Nische; INPA gültig; verdictName+verdictQuery; 5 FAQs
+  src/content/guides/de/valley-of-elah-guide.md — Tal der Terebinthen; Bibelarchäologie DACH; freier Eintritt; Khirbet Qeiyafa; 6 FAQs; YAML fix „zwei Tore"→'zwei Tore'
+  src/content/guides/de/atlit-detainee-camp-guide.md — Internierungslager Atlit; WWII-Bildungstourismus DACH; Palmach-Raid 1945; 6 FAQs
+  src/content/guides/de/binyamina-guide.md — Binjamina Rothschild-Weinort; IAA 2026 Marmor Lycurgus; 7 FAQs; YAML fix „Lycurgus"→'Lycurgus'
+  src/content/guides/de/hai-bar-yotvata-guide.md — Hai-Bar Yotvata 1200ha; Safari+Bibel DACH-Nische; INPA gültig; verdictName+verdictQuery; 2026: 33 Oryx-Kälber; 6 FAQs
+Files modified:
+  tests/e2e/smoke.spec.ts — 5 new /de/* routes
+  tests/e2e/a11y.spec.ts — 5 new /de/* routes
+Honesty: no fabricated prices; INPA flags correct (gültig: zippori+hai-bar; N/A: others); no H1 in body; paired naming at contested sites; no machine-translation of religious content; YAML-ASCII-Anführungszeichen-Bug fixed in 2/5 guides (binyamina + valley-of-elah); archaeological honesty on Khirbet Qeiyafa (judäische IIA, nicht philistäische Identität per Garfinkel HU).
+Market angles: DACH Römer/Byzantinistik niche (Tsipori), Bibelarchäologie-Tourismus (Tal der Terebinthen), WWII-Bildungstourismus Mandatszeit (Atlit), Rothschild-Weinreisenische (Binjamina), Safari+Bibeltourismus DACH (Hai-Bar).
+YAML bugs: context-compaction revealed 2 German typographic quote bugs (U+201D inside double-quoted YAML scalars). Fixed per CLAUDE.md YAML-ASCII-Anführungszeichen-Bug pattern.
+Gate: pnpm check 0 errors (strict TS) | pnpm build 1748 pages (+5 from 1743) | pnpm test:e2e 10/10 targeted pass (9.1s).
+Ship: git merge --squash auto/de-48-batch; committed 9095c27d; pushed to origin/master.
+DE guides: 323→328/401 (73 missing). FR=337/401 (64 missing). ES=309/401 (92 missing).
+Next: iter1113 (1113%5=3 → BUILD) — ES-63 batch: same 5 guides in Spanish (LATAM tuteo). DEFINED iter1105. Cross-links pre-verified in BACKLOG.
