@@ -16651,3 +16651,16 @@ tel-megiddo-guide was fully clean (title 48, desc 140 — both within limits).
 Gate: pnpm check 0 errors | build 1788 | test:e2e 10/10 targeted PASS.
 Ship: squash-merged to master a4989124; pushed to origin/master.
 Prod: CI in_progress at state-write.
+
+## 2026-08-10T09:30Z · iter 1130 · RESEARCH · research-1130-fr54-de52-es67-batch
+Mode: RESEARCH (1130 % 5 = 0). 244th research pass. No code shipped.
+Startup: fresh cloud clone; git reset --hard origin/master to a4989124. pnpm install 10.1s clean.
+What: Competitor scan (Tourist Israel, GuruWalk, Nat Geo, BackpackIsrael, BringFido, transitguide.org, goisraelcard.com, TripAdvisor); FR-53/DE-51/ES-66 batch cross-link verification; FR-54/DE-52/ES-67 batch definition; 4 new individual BACKLOG items.
+Locale counts: EN=398 actual, FR=347/398 (51 missing), DE=338/398 (60 missing), ES=329/398 (69 missing). Missing from all 3: 40.
+FR-53/DE-51/ES-66 batch verified READY: jerusalem-pilgrimage-road + israel-paragliding-guide + yam-caesarea-guide + zionist-heritage-trail + luxury-arava-desert. All 5 missing all 3. All cross-links ✓ in FR + DE. ES fallbacks: water-hiking-israel → EN fallback; tel-aviv-white-city → EN fallback.
+FR-54/DE-52/ES-67 batch DEFINED: yam-lyam-sea-to-sea-hike (89km Med→Sea of Galilee; Nat Geo featured; zero FR/DE/ES) + terminal-park-eilat (150k sqm former airport park; all cross-links ✓) + tel-aviv-street-art (Florentin murals; self-guided; ES: tel-aviv-white-city → EN fallback) + jerusalem-light-rail-guide (Green Line July 2026 partial opening; ES: rav-kav+tel-aviv-light-rail → EN fallbacks) + pet-friendly-israel (dog/cat import; Tel Aviv dog beaches; all cross-links ✓). All 5 missing all 3 locales; all cross-links verified.
+Competitor findings: zero FR/DE/ES editorial on any of the 5 batch targets. Jerusalem Green Line first section (Malha→HaTurim) confirmed opened July 2026. Beit Nova permanent memorial center inaugurated Jan 2026 near Netanya. Nova festival site: open 24/7, free, 7k daily visitors — BACKLOG P1/M spec remains accurate, still requires HUMAN REVIEW before autonomous ship.
+New BACKLOG items (2): sports-events-israel FR+DE+ES (P2/S) + tel-aviv-bachelorette FR+DE+ES (P3/S). All cross-links verified in all 3 locales.
+Gate: N/A (RESEARCH mode, no code).
+Ship: N/A (memory-only; .loop/ files committed to master).
+Next: iter 1131 = BUILD (1131 % 5 = 1). nextRotationCategory = FR-53 batch (jerusalem-pilgrimage-road + israel-paragliding-guide + yam-caesarea-guide + zionist-heritage-trail + luxury-arava-desert).

@@ -6,23 +6,35 @@
 >
 > One bounded slice per loop iteration. NEVER bulk-translate in one shot.
 
-## Current status snapshot (2026-08-10 iter1127 BUILD — DE-50 SHIPPED iter1127 6a45c0a5; FR-52 SHIPPED iter1126 4bcb1de7; ES-64 SHIPPED iter1123 8006b865; DE-49 SHIPPED iter1118 5c4da252)
+## Current status snapshot (2026-08-10 iter1130 RESEARCH — ES-65 SHIPPED iter1129 a4989124 review; FR-52 SHIPPED iter1126 4bcb1de7; DE-50 SHIPPED iter1127 6a45c0a5; ES-65 SHIPPED iter1128 b5af5194)
 
 | Locale | Guides | Attractions | Regions | Itineraries |
 |--------|--------|-------------|---------|-------------|
-| en     | 401    | 65          | 11      | 6           |
+| en     | 398    | 65          | 11      | 6           |
 | fr     | 347    | 61          | 11      | 6           |
 | de     | 338    | 61          | 11      | 6           |
-| es     | 324    | 61          | 11      | 6           |
+| es     | 329    | 61          | 11      | 6           |
+
+Note: EN=398 actual guide files; I18N-PLAN previously said 401 (includes 3 queued items not yet materialized as guide files).
 
 **🎉 MILESTONE: ES + FR + DE monthly guides ALL COMPLETE** (iter996+iter997 ES-41+ES-42 SHIPPED — all 12 per-month guides jan-dec now exist in ES, FR, and DE)
 
 **Gaps to close:**
-- es guides: **77 missing** (324/401 done — ES-64 SHIPPED iter1123 8006b865; **next ES BUILD = ES-65** — tel-megiddo-guide + arava-mountain-biking + palmahim-beach-guide + galilee-culinary-institute-gonen + red-canyon-eilat [per iter1125 RESEARCH])
-- fr guides: **54 missing** (347/401 done — FR-52 SHIPPED iter1126 4bcb1de7; **next FR BUILD = FR-53** — jerusalem-pilgrimage-road + israel-paragliding-guide + yam-caesarea-guide + zionist-heritage-trail + luxury-arava-desert [iter1125 RESEARCH])
-- de guides: **63 missing** (338/401 done — DE-50 SHIPPED iter1127 6a45c0a5; **next DE BUILD = DE-51** — jerusalem-pilgrimage-road + israel-paragliding-guide + yam-caesarea-guide + zionist-heritage-trail + luxury-arava-desert [same as FR-53; all 5 confirmed missing from DE per iter1125 RESEARCH])
+- es guides: **69 missing** (329/398 done — ES-65 SHIPPED iter1128 b5af5194; **next ES BUILD = ES-66** — jerusalem-pilgrimage-road + israel-paragliding-guide + yam-caesarea-guide + zionist-heritage-trail + luxury-arava-desert [iter1125 RESEARCH; cross-links verified iter1130])
+- fr guides: **51 missing** (347/398 done — FR-52 SHIPPED iter1126 4bcb1de7; **next FR BUILD = FR-53** — jerusalem-pilgrimage-road + israel-paragliding-guide + yam-caesarea-guide + zionist-heritage-trail + luxury-arava-desert [iter1125 RESEARCH; all cross-links verified iter1130])
+- de guides: **60 missing** (338/398 done — DE-50 SHIPPED iter1127 6a45c0a5; **next DE BUILD = DE-51** — jerusalem-pilgrimage-road + israel-paragliding-guide + yam-caesarea-guide + zionist-heritage-trail + luxury-arava-desert [same as FR-53; all cross-links verified iter1130])
 - fr/de/es attractions: **4 missing each** (the 4 EN attractions added after Phase 4)
-- 2 remaining new EN-only guides (no locale version yet): air-haifa-haifa-airport-guide + maccabiah-games-2026
+- Next batch after FR-53/DE-51/ES-66: FR-54/DE-52/ES-67 — yam-lyam-sea-to-sea-hike + terminal-park-eilat + tel-aviv-street-art + jerusalem-light-rail-guide + pet-friendly-israel [defined iter1130; all cross-links verified]
+
+### FR-54/DE-52/ES-67 batch definition (iter1130 RESEARCH — ready after FR-53/DE-51/ES-66 SHIPPED)
+Guides: `yam-lyam-sea-to-sea-hike.md`, `terminal-park-eilat.md`, `tel-aviv-street-art.md`, `jerusalem-light-rail-guide.md`, `pet-friendly-israel.md`
+All 5 confirmed MISSING from all 3 locales (2026-08-10). All cross-links pre-verified in FR/DE/ES.
+- yam-lyam-sea-to-sea-hike: 89km Nahariya/Achziv → Capernaum/Ginosar; Galilée haute + Galilée occidentale; 3–5 jours Oct–Mai; Montfort (Crusader castle) + villages druzes + mont Méron (1208m) + Safed; day-pack hiking guesthouses; all cross-links ✓ (FR: /fr/akko-acre-guide, /fr/hiking-in-israel, /fr/tiberias-guide, /fr/sea-of-galilee-guide, /fr/golan-heights-guide; /fr/jesus-trail-israel MISSING → EN fallback; DE: all ✓; ES: all ✓). GYG Galilée + Discovercars + Booking.com Nahariya/Tiberias CTAs. Zero FR/DE/ES editorial (Nat Geo + BackpackIsrael + Tourist Israel EN only).
+- terminal-park-eilat: 150,000 m² former airport site; grande roue + pools écologiques + cascade + promenade ombragée + amphithéâtre + mist plaza + food trucks; vues Mer Rouge + Édom; all cross-links ✓ in all 3 (/eilat-travel-guide, /eilat-beach-guide, /red-canyon-eilat, /eilat-hotels-guide). Zero FR/DE/ES editorial.
+- tel-aviv-street-art: Florentin quartier (rues Frenkel + Vital; plus haute densité graffiti TLV; œuvres municipales commissionnées) + zone Jaffa; parcours auto-guidé; partageabilité max photos. Cross-links: FR/DE ✓ (/tel-aviv-white-city, /tel-aviv-neighborhoods-guide, /jaffa-travel-guide, /tel-aviv-nightlife, /tel-aviv-carmel-market); ES: /es/tel-aviv-white-city MISSING → EN fallback. Zero FR/DE/ES editorial (GuruWalk + Israel-in-Photos EN only).
+- jerusalem-light-rail-guide: Tramway Jérusalem — Ligne Rouge + Ligne Verte (première section Malha→HaTurim ouverte juillet 2026); billetterie Rav-Kav; arrêts touristiques clés (Mahane Yehuda, Damascus Gate, Yad Vashem); horaires Shabbat. Cross-links: FR/DE ✓ (/jerusalem-food-guide, /rav-kav-israel, /israel-esim, /tel-aviv-light-rail, /transportation, /yad-vashem-visitor-guide); ES: /es/rav-kav-israel + /es/tel-aviv-light-rail MISSING → EN fallbacks. Zero FR/DE/ES editorial.
+- pet-friendly-israel: Import chien/chat (passeport vétérinaire UE; puce; rage; antiparasitaire 48–120h); plages canines Tel Aviv (Hilton Beach section chiens + Gordon Beach); parcs canins (Hayarkon Park); hôtels pet-friendly (Atlas Boutique TLV: gratuit); vétérinaires urgence 24h; transport: voiture uniquement (pas d'animaux train/bus). All cross-links ✓ in all 3 (/tel-aviv-beach-guide, /hayarkon-park-tel-aviv, /car-rental-israel, /driving-in-israel, /israel-accommodation-guide, /israel-cost-budget, /first-time-in-israel, /best-time-to-visit-israel). Zero FR/DE/ES editorial (BringFido EN only).
+Status: ready (iter1130 RESEARCH; all 5 cross-links verified; heroImages exist; no fabricated prices needed)
 
 ### FR-49 batch definition (iter1100 RESEARCH — ready for next FR BUILD after FR-48 SHIPPED)
 Guides: `nimrod-fortress-guide.md`, `beit-alfa-guide.md`, `rosh-pina-guide.md`, `national-library-israel.md`, `jerusalem-mount-zion-guide.md`

@@ -8521,3 +8521,65 @@ Sources: alltrails.com, tripadvisor.com, touristisrael.com, israel-in-photos.com
 - DE market: zero DACH editorial competitor for Israel niche guides. israel-reiseleiter.com = thin blog only.
 - ES market: israelturismo.com (tour operator), info.goisrael.com/es (official listing). Zero LATAM editorial competitor for individual guide pages.
 - Every guide in FR/DE/ES we ship is first-mover in its search vertical.
+
+### iter1130 RESEARCH — 244th pass (2026-08-10)
+
+#### Yam l'Yam (Sea to Sea Trail) competitor landscape
+- Tourist Israel: touristisrael.com/yam-lyam-hike/5621/ — solid EN overview, logistics, guided tour CTA
+- Nat Geo: Walking in footsteps of pilgrims (nationalgeographic.com) — EN feature, strong branding, no FR/DE/ES
+- BackpackIsrael: backpackisrael.com — EN trail guide with logistics, no FR/DE/ES
+- Wikivoyage: en.wikivoyage.org/wiki/Sea_to_Sea_(Yam_el_Yam) — EN only
+- Israel Tour Guide (Shmuel Browns): israel-tourguide.info — EN blog
+- GoBackpacking.com: EN only
+- Hike Israel (inntoinn.com): EN guided option with luggage transfer
+- Zero FR/DE/ES editorial competition confirmed.
+
+#### Jerusalem Light Rail Green Line update
+- Green Line first section (Malha → HaTurim) opened July 2026 per jweekly.com + transitguide.org.
+- transitguide.org/jerusalem-light-rail/ — EN only, comprehensive map
+- goisraelcard.com/guide-tel-aviv-light-rail/ — EN only
+- Tourist Israel has basic guide in EN only.
+- Zero FR/DE/ES editorial competitor for full tourist-facing guide.
+
+#### Terminal Park Eilat
+- travelandtourworld.com: "Terminal Park Brings New Energy to Eilat" — EN only
+- Dan Hotels: mentions Terminal Park in Eilat attractions list
+- Expedia + Frommer's: mention Eilat park generally but no dedicated guide
+- Zero FR/DE/ES editorial.
+
+#### Tel Aviv Street Art / Florentin
+- GuruWalk: guruwalk.com/walks/46611 — Florentin street art tour (EN)
+- slavaguide.com: EN guide to Florentin graffiti
+- Israel-in-Photos: israel-in-photos.com — EN self-tour
+- Dror Hadadi / miasivan.com: EN artist portfolios
+- Tourist Israel: no dedicated street art guide (only general neighborhoods content)
+- Zero FR/DE/ES editorial competitor.
+
+#### Pet-Friendly Israel
+- BringFido: bringfido.com/lodging/country/israel/ — comprehensive EN only
+- TripAdvisor: pet-friendly hotel listings EN only
+- Expedia: generic listing no guide
+- Zero FR/DE/ES editorial guide for travelers bringing pets.
+
+#### Nova Festival Memorial Site (competitive update)
+- slavaguide.com/en/sites/nova-music-festival-site-memorial-reim — EN guide
+- Danny the Digger (dannythedigger.com) — EN independent guide
+- World Jewish Travel: worldjewishtravel.org listing
+- Bein Harim: beinharimtours.com/nova-music-festival-memorial-site/
+- Exclusive Israel Tours: exclusiveisraeltours.com
+- TripAdvisor: 23 reviews, 5.0/5.0 — very high intent traveler segment
+- Beit Nova: permanent healing center near Netanya inaugurated Jan 2026 (thej.ca/2026/01/17)
+- KKL-JNF NIS 4M investment in site improvements (accessible pathways, restrooms, educational spaces, memorial grove)
+- Site declared country's most visited (7,000/day avg Oct 2024–Feb 2025 per ToI)
+- Still zero standalone editorial guide in FR, DE, or ES.
+- BACKLOG P1/M item (iter1120 spec) still accurate; HUMAN REVIEW required before autonomous ship.
+
+#### Sports Events Israel (i18n gap)
+- sports-events-israel.md SHIPPED EN iter496; missing from FR/DE/ES.
+- Zero FR/DE/ES editorial on Israeli Premier League, Maccabi TLV basketball, marathons, Maccabiah Games.
+- Maccabiah 2026 (June 30 – July 13) attracted 10,000+ athletes from 80 countries — builds evergreen context.
+
+#### Tel Aviv Bachelorette (i18n gap)
+- tel-aviv-bachelorette.md SHIPPED EN iter476; missing from FR/DE/ES.
+- Zero FR/DE/ES editorial for "JGA Tel Aviv" / "enterrement de vie de jeune fille Tel Aviv" / "despedida de soltera Tel Aviv".
+- High-intent niche with strong group booking affiliate potential.
