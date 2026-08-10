@@ -1,6 +1,6 @@
 ---
 title: 'Red Canyon Eilat: guía del slot canyon (2026)'
-description: 'Red Canyon Eilat: senderismo gratuito en un slot canyon en las montañas de Eilat — descripción del trail, seguridad ante crecidas, mejor época y cómo llegar.'
+description: 'Red Canyon Eilat: senderismo gratuito en un slot canyon — descripción del trail, seguridad ante crecidas, mejor época y cómo llegar.'
 heroImage: /images/sub-destinations/eilat/red-canyon.jpg
 category: Outdoor
 updatedAt: 2026-08-10

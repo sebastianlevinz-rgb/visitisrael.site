@@ -1,6 +1,6 @@
 ---
 title: 'Playa Palmahim: guía completa del Parque Nacional'
-description: 'Palmahim Beach: reserva costera INPA a 30 km al sur de Tel Aviv — dunas de kurkar, tortugas Caretta caretta, natación vigilada, acampada y consejos prácticos. Pase INPA válido.'
+description: 'Playa Palmahim: Parque Nacional INPA a 30 km de Tel Aviv. Dunas de kurkar, tortugas Caretta caretta, baño vigilado y acampada. Pase INPA válido.'
 heroImage: /images/regions/tel-aviv/beaches.jpg
 category: Nature
 updatedAt: 2026-08-10

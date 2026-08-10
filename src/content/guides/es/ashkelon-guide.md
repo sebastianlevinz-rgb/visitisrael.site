@@ -1,6 +1,6 @@
 ---
-title: 'Guía de viaje de Ashkelon: ruinas antiguas y playa mediterránea'
-description: 'Guía de Ashkelon: puerta de arco canaanita ~1800 a.C., ruinas filisteas, foro romano y playa mediterránea. El destino costero más subestimado de Israel. Pase INPA válido.'
+title: 'Ashkelon: arco canaanita, ruinas y playa mediterránea'
+description: 'Ashkelon: arco canaanita ~1800 a.C., foro romano, ruinas filisteas y playa mediterránea. Costa sur de Israel. Pase INPA válido.'
 heroImage: /images/regions/tel-aviv/beaches.jpg
 category: Destinations
 updatedAt: 2026-08-10

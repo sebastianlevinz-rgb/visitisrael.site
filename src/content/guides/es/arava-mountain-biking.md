@@ -1,6 +1,6 @@
 ---
 title: 'MTB en el Valle Aravá: Singletrack Yahel–Timna (2026)'
-description: 'Guía de ciclismo de montaña en el Valle Aravá: el singletrack de 100+ km Yahel–Timna por crestas de basalto volcánico y wadis de piedra caliza en el desierto del Néguev.'
+description: 'MTB en el Valle Aravá: singletrack Yahel–Timna (100+ km) por crestas de basalto volcánico y wadis de piedra caliza en el Néguev.'
 heroImage: /images/regions/eilat/timna-park.jpg
 category: Outdoor
 updatedAt: 2026-08-10
