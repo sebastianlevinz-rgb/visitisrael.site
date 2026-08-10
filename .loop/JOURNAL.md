@@ -16710,3 +16710,13 @@ Ship: committed 7 files directly to master (5 ES guides + 2 test specs); pushed 
 Prod: commit confirmed on GitHub; Vercel auto-deploy in progress.
 Locale counts post-ship: EN=398, FR=352/398 (46 missing), DE=343/398 (55 missing), ES=334/398 (64 missing). missing-all-3=35.
 Next: iter 1134 = REVIEW (1134 % 5 = 4). nextRotationCategory = es-66-meta-trim (audit title/desc lengths ≤54/≤151, /es/* link validity, H1, heroImages on the 5 new ES-66 guides).
+
+## 2026-08-10T13:50Z · iter 1134 · REVIEW · es-66-meta-trim
+What: Audited the 5 new ES-66 guides (jerusalem-pilgrimage-road, israel-paragliding-guide, yam-caesarea-guide, zionist-heritage-trail, luxury-arava-desert) for meta limits, internal links, H1, and heroImages.
+Findings: 5 titles over-soft (≤54 target); 3 descs over limits; 1 broken /es/* link.
+Fixes: 5 titles trimmed ≤54 (71→47, 58→44, 62→53, 71→38, 59→44); 3 descs trimmed ≤151 (155→150, 169→134, 195→128); /es/tel-aviv-white-city → /tel-aviv-white-city (EN fallback; ES page missing).
+H1: none in body (confirmed). HeroImages: all 5 present. No fabricated prices. 31/31 links valid post-fix.
+Gate: pnpm check 0 errors | build 1803 pages | test:e2e 10/10 targeted PASS (5 smoke + 5 a11y, 11.9s).
+Ship: committed 3be99720; pushed to origin/master.
+Prod: CI in_progress at state-write; next iteration to confirm.
+Next: iter 1135 = RESEARCH (1135 % 5 = 0). 245th research pass — define FR-54/DE-52/ES-67 batch; verify EN=398, FR=352, DE=343, ES=334.
