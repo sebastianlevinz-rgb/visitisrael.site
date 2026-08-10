@@ -16635,3 +16635,10 @@ Gate: pnpm check 0 errors | build 1783 pages (+5 from 1778) | test:e2e 10/10 tar
 Ship: squash-merged to master 6a45c0a5; pushed to origin/master.
 Prod: Vercel auto-deploy triggered from master push.
 DE guides: 333→338/401. Build +5 pages.
+
+## 2026-08-10T08:00Z · iter 1128 · BUILD · es-65-batch
+What: 5 ES guides (LATAM tuteo) — tel-megiddo-guide, arava-mountain-biking, palmahim-beach-guide, ashkelon-guide, red-canyon-eilat. Same batch as FR-52 (iter1126) and DE-50 (iter1127), now completing ES. verdictName+verdictQuery on tel-megiddo (UNESCO Armagedón hook LATAM), red-canyon (gratuito aventura desierto), palmahim (sin verdict — playa+naturaleza); INPA válido noted per guide (gratuito/kein-INPA on red-canyon; NOT INPA on arava-mtb); puerta canaanita más antigua del mundo + cementerio perros JAS 2011 on ashkelon; honest Gaza 20km advertencia; comprehensive sección crecidas+fallecidos on red-canyon; Caretta caretta mayo–agosto nidificación on palmahim; flash flood safety on arava-mtb. LATAM tuteo throughout; no H1 in body; YAML-ASCII clean; all /es/* cross-links pre-verified; no fabricated prices/ratings.
+Gate: pnpm check 0 errors | build 1788 pages (+5 from 1783) | test:e2e 10/10 targeted PASS.
+Ship: squash-merged to master b5af5194; pushed to origin/master.
+Prod: Lighthouse CI + CI workflows in_progress at state-write (gate passed locally; no failures detected).
+ES guides: 324→329/401. Build +5 pages. FR-52/DE-50/ES-65 batch fully complete across all 3 locales.

@@ -73,11 +73,11 @@ Status: SHIPPED iter1106 27080c27
 ### Individual items for subsequent batches (iter1100 RESEARCH — new discoveries):
 - layover-jerusalem.md for DE+ES (P2/S, i18n-DE+ES) — exists in FR (already shipped) but MISSING from both DE+ES; "Stopover Jerusalem" practical guide; Allenby Bridge + Ben Gurion to Jerusalem transit; verdictName 8h+ layover; WelcomePickups + GYG + Booking CTAs; /de/1-day-jerusalem-itinerary ✓, /de/ben-gurion-airport-guide ✓ in DE; same in ES. status: ready
 - museum-of-tolerance-jerusalem.md for DE+ES (P2/S, i18n-DE+ES) — exists in FR (already shipped) but MISSING from both DE+ES; Simon Wiesenthal Center; Tolerance Museum + Carta Gallery; DACH Holocaust education niche; LATAM JMJM angle; Tiqets + GYG + Booking CTAs; /de/yad-vashem-visitor-guide ✓, /de/1-day-jerusalem-itinerary ✓ in DE; same in ES. status: ready
-- arava-mountain-biking.md for all 3 (P2/M, i18n-all) — SHIPPED FR iter1126 4bcb1de7; SHIPPED DE iter1127 6a45c0a5; ES still MISSING (in es-65 batch per iter1125 RESEARCH). status: partially-shipped
+- arava-mountain-biking.md for all 3 (P2/M, i18n-all) — SHIPPED FR iter1126 4bcb1de7; SHIPPED DE iter1127 6a45c0a5; SHIPPED ES iter1128 b5af5194. status: fully-shipped
 - air-haifa-haifa-airport-guide.md for all 3 (P2/S, i18n-all) — NEW EN guide added Aug 2026 (all 3 locales MISSING); Haifa airport (ICAO LLHA) reopened with Air Haifa domestic routes 2026; BGA→Haifa route; practical airport guide; very low competition in all 3 locales; /de/haifa-travel-guide ✓ etc. status: ready
 - maccabiah-games-2026.md for all 3 (P3/S, i18n-all) — NEW EN guide; Maccabiah 2026 (July 2026); "Jewish Olympics"; 10,000+ athletes; sports events tourism niche; time-sensitive but builds evergreen sports-tourism pillar; LATAM Jewish diaspora (Argentina/Brazil); DACH Jewish sports community; Booking.com TLV CTAs. status: ready
-- ashkelon-guide.md for all 3 (P3/M, i18n-all) — SHIPPED FR iter1126 4bcb1de7; SHIPPED DE iter1127 6a45c0a5; ES still MISSING. status: partially-shipped
-- tel-megiddo-guide.md for all 3 (P2/M, i18n-all) — SHIPPED FR iter1126 4bcb1de7; SHIPPED DE iter1127 6a45c0a5; ES still MISSING (in es-65 batch per iter1125 RESEARCH). status: partially-shipped
+- ashkelon-guide.md for all 3 (P3/M, i18n-all) — SHIPPED FR iter1126 4bcb1de7; SHIPPED DE iter1127 6a45c0a5; SHIPPED ES iter1128 b5af5194. status: fully-shipped
+- tel-megiddo-guide.md for all 3 (P2/M, i18n-all) — SHIPPED FR iter1126 4bcb1de7; SHIPPED DE iter1127 6a45c0a5; SHIPPED ES iter1128 b5af5194. status: fully-shipped
 
 ### FR-47 batch definition (iter1090 RESEARCH — ready for next FR BUILD)
 Guides: `soreq-cave-guide.md`, `negev-incense-route.md`, `skyfield-extreme-park-jaffa.md`, `tel-aviv-coffee-guide.md`, `tabgha-church-guide.md`
@@ -2555,7 +2555,7 @@ Market angles per locale:
 - DE-50: Tel Megiddo "26 Schichten Zivilisation" DACH Bible/archaeology; Yahel-Timna MTB DACH biggest market; Palmahim Jaffa day-trip DACH family; Ashkelon älteste Stadtmauer Welt DACH archaeology; Roter Canyon Eilat Klettersteig/Wandern DACH.
 - ES-65: Tel Megiddo "Armagedón" LATAM Catholic+Evangélico; Arava MTB Colombia/México ciclismo; Palmahim playa+ruinas LATAM; Ascalón Canaanita+Romano LATAM historia antigua; Cañón Rojo Eilat LATAM aventura.
 
-Status: FR SHIPPED iter1126 4bcb1de7 [corrected iter1125: ashkelon-guide replaces galilee-culinary-institute-gonen (already in all 3 locales)]; DE-50 + ES-65 pending
+Status: FR-52 SHIPPED iter1126 4bcb1de7; DE-50 SHIPPED iter1127 6a45c0a5; ES-65 SHIPPED iter1128 b5af5194 [ashkelon-guide replaced galilee-culinary-institute-gonen per iter1125 correction — already translated]
 
 ### FR-53/DE-51/ES-66 batch definition (iter1125 RESEARCH — next batch after FR-52/DE-50/ES-65)
 All 5 guides confirmed MISSING from all 3 locales (FR, DE, ES) via filesystem comm -23 (2026-08-10). All EN guides exist. All FR/DE/ES cross-links pre-verified. ES fallbacks noted.
