@@ -16593,3 +16593,5 @@ Ship: commit 8006b865 on master, pushed to origin/master (rebased over ffaccef1 
 Branch auto/es-64-batch retained locally (squash anomaly — files committed directly to master after rebase).
 ES guides: 319→324/401.
 Next: iter1124 REVIEW (1124%5=4) — review-1124-es64-meta-trim: audit 5 ES-64 guides for title ≤54, desc ≤151, /es/* cross-link validity, no H1 in body, heroImages present, no fabricated prices/ratings. Also check nativity-trail description length (may be slightly over 151).
+
+stopped: STOP flag
