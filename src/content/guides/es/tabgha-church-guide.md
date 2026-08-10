@@ -1,6 +1,6 @@
 ---
 title: 'Iglesias de Tabgha: Panes, Peces y San Pedro (2026)'
-description: "Las dos iglesias del Mar de Galilea en Tabgha: el suelo de mosaico paleocristiano de la Multiplicación y la Iglesia del Primado de Pedro junto a la orilla."
+description: "Tabgha, Mar de Galilea: la Iglesia de la Multiplicación (mosaico s. V) y la Iglesia del Primado de Pedro. Entrada gratuita, horarios y cómo llegar."
 heroImage: /images/regions/galilee/capernaum.jpg
 category: Destinations
 updatedAt: 2026-08-10

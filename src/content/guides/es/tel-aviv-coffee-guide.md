@@ -1,6 +1,6 @@
 ---
-title: 'Café de Especialidad en Tel Aviv: Tercera Ola y Cultura Botz (2026)'
-description: "Guía del café de especialidad en Tel Aviv — tostadores de tercera ola, circuito por barrios, el tradicional botz y consejos de cultura cafetera en la ciudad más cafeinada de Israel."
+title: 'Café Tel Aviv: Especialidad, Tercera Ola y Botz (2026)'
+description: "Café de especialidad en Tel Aviv: tostadores de tercera ola, circuito Florentin→Dizengoff, la tradición del botz y los mejores cafés por barrios."
 heroImage: /images/sub-destinations/tel-aviv/florentin.jpg
 category: Food
 updatedAt: 2026-08-10

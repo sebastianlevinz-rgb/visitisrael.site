@@ -1,6 +1,6 @@
 ---
-title: 'Cueva Avshalom (Soreq): Guía de Visita Completa (2026)'
-description: "Visita la Cueva Avshalom (Soreq) — la cueva caliza más grande de Israel. Tours guiados, 22 °C todo el año, a 40 min de Jerusalén. Entradas, horarios y consejos."
+title: 'Cueva Avshalom (Soreq): Tours y Entradas (2026)'
+description: "Cueva Avshalom (Soreq): la mayor cueva caliza de Israel. Tours guiados, 22 °C todo el año, a 40 min de Jerusalén. Entradas y horarios."
 heroImage: /images/regions/jerusalem/hero.jpg
 category: Destinations
 updatedAt: 2026-08-10

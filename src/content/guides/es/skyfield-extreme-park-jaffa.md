@@ -1,6 +1,6 @@
 ---
-title: 'SkyField Parque Extremo Jaffa: Vía Ferrata, Bungee y Vistas (2026)'
-description: "SkyField Estadio Bloomfield Jaffa: vía ferrata, salto en bungee de 35 m, columpio gigante, vistas al Mediterráneo. El primer parque extremo totalmente accesible de Israel."
+title: 'SkyField Jaffa: Ferrata, Bungee, Columpio (2026)'
+description: "SkyField Estadio Bloomfield Jaffa: vía ferrata, bungee 35 m, columpio gigante y vistas al Mediterráneo. El primer parque extremo accesible de Israel."
 heroImage: /images/regions/tel-aviv/jaffa.jpg
 category: Activities
 updatedAt: 2026-08-10

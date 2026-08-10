@@ -1,6 +1,6 @@
 ---
-title: 'Ruta del Incienso del Néguev: Ciudades Nabateas UNESCO (2026)'
-description: "Las 4 ciudades nabateas UNESCO de la Ruta del Incienso del Néguev — Avdat, Mamshit, Haluza, Shivta — logística en coche, entradas y consejos de visita."
+title: 'Ruta del Incienso del Néguev: 4 Ciudades UNESCO (2026)'
+description: "Ruta del Incienso del Néguev: Avdat, Mamshit, Haluza y Shivta — las 4 ciudades nabateas UNESCO. Itinerario en coche, entradas y consejos."
 heroImage: /images/regions/negev/avdat.jpg
 category: Destinations
 updatedAt: 2026-08-10
