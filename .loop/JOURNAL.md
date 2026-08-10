@@ -16694,3 +16694,19 @@ Ship: squash-merged to master 6d049925; pushed to origin/master.
 Prod: commit confirmed on GitHub; Vercel auto-deploy in progress (CI in_progress at state-write).
 Locale counts post-ship: EN=398, FR=352/398 (46 missing), DE=343/398 (55 missing), ES=329/398 (69 missing). Missing from all 3: 35.
 Next: iter 1133 = BUILD (1133 % 5 = 3). nextRotationCategory = ES-66 batch (same 5 guides in Spanish).
+
+## 2026-08-10T13:10Z · iter 1133 · BUILD · es-66-batch
+Mode: BUILD (1133 % 5 = 3).
+Startup: resumed from context-compacted session; 5 ES guide files written in prior context window; pnpm check 0 errors confirmed; pnpm build ran in background (baj8i5rk1, completed 12:54:35, 1803 pages).
+What: 5 ES guides (LATAM tuteo) for ES-66 batch — completing the FR-53 (iter1131) + DE-51 (iter1132) guides in Spanish:
+  1. jerusalem-pilgrimage-road — Camino de Peregrinación: escalinata herodiana 600m; inaugurada septiembre 2025, abierta al público enero 2026; Pileta de Siloé Juan 9:6-7 (ángulo LATAM católico/evangélico); contexto político Silwan/Elad incluido honestamente; verdictName+verdictQuery; GYG+Booking CTAs; 6 FAQs; 7 cross-links /es/*.
+  2. israel-paragliding-guide — 3 zonas geográficas: Costa del Carmel/Atlit (brisa marina oct-jun), Galilea/Golán (Katzrin, vientos de primavera+otoño), Cráter Ramón (térmicas mar-may/sep-nov); 2 operadores certificados CAAI (adventure-israel.com + paragliding-israel.com); sin precios exactos; verdictName+verdictQuery; GYG+Viator+Abraham CTAs; 7 FAQs; 5 cross-links /es/*.
+  3. yam-caesarea-guide — primer Parque Marino Nacional de Israel designado INPA 25 nov 2024; 108ha; puerto Sebastos herodes ~20 a.C. con hormigón hidráulico puzolánico; 4 rutas codificadas por color (azul+amarillo=snorkel, verde+rojo=buceo); Old Caesarea Diving Center único operador autorizado INPA; pase INPA cubre solo entrada terrestre; nota HONESTY sobre variabilidad vida marina; GYG+Discovercars CTAs; 5 FAQs; 6 cross-links /es/* + 1 EN fallback (/water-hiking-israel).
+  4. zionist-heritage-trail — Ruta del Patrimonio Sionista: 6 sitios (Monte Herzl/Jerusalén + Salón de la Independencia TLV cerrado renovación jul 2026 notado + Rishon LeZion 1882 + Sde Boker tumba Ben Gurión + Degania Aleph primer kibutz 1910 + Tel Hai Trumpeldor 1920); ángulo diáspora judía latinoamericana (Argentina, México, Brasil); circuito 4 días tabla logística; verdictName+verdictQuery; GYG+Viator+Discovercars CTAs; 7 FAQs; 8 cross-links /es/*. YAML bug fixed (be\'ad→be-ad).
+  5. luxury-arava-desert — Six Senses Shaharut: MICHELIN Selected, Condé Nast Traveller; 60 suites/villas; rango $900–1400/noche (fuente EN); cielos oscuros protocolo SPNI — Vía Láctea visible; Sleep & Recovery Programme; tratamientos herbales beduinos; Parque Timna entrada separada (timna-park.co.il, NO INPA) honestamente anotado; extensión Petra vía Eilat 45 min; ángulo bienestar+astronomía LATAM; verdictName+verdictQuery; Booking+GYG+Discovercars CTAs; 7 FAQs; 5 cross-links /es/*.
+Test specs: 5 routes added to smoke.spec.ts + a11y.spec.ts after /es/red-canyon-eilat entry.
+Gate: pnpm check 0 errors | build 1803 pages (+5 from 1798) | pnpm test:e2e 10/10 targeted PASS (5 smoke + 5 a11y, 20.6s).
+Ship: committed 7 files directly to master (5 ES guides + 2 test specs); pushed to origin/master 8556f268.
+Prod: commit confirmed on GitHub; Vercel auto-deploy in progress.
+Locale counts post-ship: EN=398, FR=352/398 (46 missing), DE=343/398 (55 missing), ES=334/398 (64 missing). missing-all-3=35.
+Next: iter 1134 = REVIEW (1134 % 5 = 4). nextRotationCategory = es-66-meta-trim (audit title/desc lengths ≤54/≤151, /es/* link validity, H1, heroImages on the 5 new ES-66 guides).
