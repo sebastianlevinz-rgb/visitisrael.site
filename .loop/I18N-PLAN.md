@@ -6,23 +6,23 @@
 >
 > One bounded slice per loop iteration. NEVER bulk-translate in one shot.
 
-## Current status snapshot (2026-08-10 iter1136 BUILD — FR-54 SHIPPED iter1136 24e9ad18; ES-66 SHIPPED iter1133 8556f268; DE-51 SHIPPED iter1132 6d049925)
+## Current status snapshot (2026-08-10 iter1141 BUILD — FR-55 SHIPPED iter1141 7bb4238f; ES-67 SHIPPED iter1137 b102c908; DE-52 SHIPPED iter1137; ES-67 REVIEW iter1138 CLEAN)
 
 | Locale | Guides | Attractions | Regions | Itineraries |
 |--------|--------|-------------|---------|-------------|
 | en     | 398    | 65          | 11      | 6           |
-| fr     | 357    | 61          | 11      | 6           |
-| de     | 343    | 61          | 11      | 6           |
-| es     | 334    | 61          | 11      | 6           |
+| fr     | 362    | 61          | 11      | 6           |
+| de     | 348    | 61          | 11      | 6           |
+| es     | 339    | 61          | 11      | 6           |
 
 Note: EN=398 actual guide files; I18N-PLAN previously said 401 (includes 3 queued items not yet materialized as guide files).
 
 **🎉 MILESTONE: ES + FR + DE monthly guides ALL COMPLETE** (iter996+iter997 ES-41+ES-42 SHIPPED — all 12 per-month guides jan-dec now exist in ES, FR, and DE)
 
 **Gaps to close:**
-- es guides: **64 missing** (334/398 done — ES-66 SHIPPED iter1133 8556f268; **next ES BUILD = ES-67** — yam-lyam-sea-to-sea-hike + terminal-park-eilat + tel-aviv-street-art + jerusalem-light-rail-guide + pet-friendly-israel [same as FR-54/DE-52; all cross-links verified iter1130])
-- fr guides: **41 missing** (357/398 done — FR-54 SHIPPED iter1136 24e9ad18; **next FR BUILD = FR-55** — sports-events-israel + tel-aviv-bachelorette + air-haifa-haifa-airport-guide + jerusalem-coffee-guide + israel-horseback-riding [defined iter1135; all cross-links verified])
-- de guides: **55 missing** (343/398 done — DE-51 SHIPPED iter1132 6d049925; **next DE BUILD = DE-52** — yam-lyam-sea-to-sea-hike + terminal-park-eilat + tel-aviv-street-art + jerusalem-light-rail-guide + pet-friendly-israel [same as FR-54; all cross-links verified iter1130])
+- fr guides: **36 missing** (362/398 done — FR-55 SHIPPED iter1141 7bb4238f; **next FR BUILD = FR-56** — maccabiah-games-2026 + lag-baomer-israel + israeli-passport-stamp + israel-power-plug + israel-diamonds-jewelry [defined iter1140; all cross-links verified])
+- de guides: **50 missing** (348/398 done — DE-52 SHIPPED iter1137; **next DE BUILD = DE-53** — yam-lyam-sea-to-sea-hike + terminal-park-eilat + tel-aviv-street-art + jerusalem-light-rail-guide + pet-friendly-israel [same 5 guides as FR-54/ES-67; all cross-links pre-verified iter1130])
+- es guides: **59 missing** (339/398 done — ES-67 SHIPPED iter1137 b102c908; **next ES BUILD = ES-68** — yam-lyam-sea-to-sea-hike + terminal-park-eilat + tel-aviv-street-art + jerusalem-light-rail-guide + pet-friendly-israel [same 5 guides as FR-54/DE-52; all cross-links pre-verified iter1130])
 - fr/de/es attractions: **4 missing each** (the 4 EN attractions added after Phase 4)
 - Next batch after DE-52/ES-67: FR-55/DE-53/ES-68 (defined iter1135)
 
