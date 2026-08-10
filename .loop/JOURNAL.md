@@ -16570,3 +16570,6 @@ Gate: pnpm check 0 errors | build 1768 pages (+5) | test:e2e 2649/2649 PASS (30.
 Ship: squash-merged auto/es-60-batch → master, pushed to origin/master.
 ES guides: 314→319/398.
 Next: iter1122 REVIEW (1122%5=2) — es-60-meta-trim: audit 5 ES-60 guides for title ≤54, desc ≤151, cross-link validity.
+
+## 2026-08-10 · iter 1122 · REVIEW · review-1122-es60-meta-trim (PENDING)
+Next: audit 5 ES-60 guides (soreq-cave-guide, negev-incense-route, skyfield-extreme-park-jaffa, tel-aviv-coffee-guide, tabgha-church-guide) for title ≤54, desc ≤151, /es/* cross-link validity, no H1 in body, heroImages present, no fabricated prices/ratings. 1122%5=2 → REVIEW mode.

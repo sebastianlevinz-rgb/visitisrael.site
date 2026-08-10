@@ -87,14 +87,14 @@ Guides: same 5 as FR-47. All confirmed MISSING from DE.
 - tabgha-church-guide: Brotvermeherungs-Kirche (Benediktiner; 5. Jh.-Mosaik) + Kirche des Primats Petri (Franziskaner; Vulkanbasalt); DACH Pilgermarkt "Land der Bibel"; 3-days-in-galilee ✓, nazareth-travel-guide ✓, sea-of-galilee-guide ✓ in DE.
 Status: SHIPPED iter1093 ee358815
 
-### ES-60 batch definition (iter1090 RESEARCH — ready for next ES BUILD)
+### ES-60 batch definition (iter1090 RESEARCH — SHIPPED iter1121 fc8aabd6)
 Guides: same 5 as FR-47. All confirmed MISSING from ES.
 - soreq-cave-guide: Cueva Avshalom (Soreq); más grande cueva caliza de Israel; INPA válido; 22°C año redondo; 50-min visita guiada; turismo familiar LATAM; day-trips-from-jerusalem ✓, israel-with-kids ✓, hiking-in-israel ✓ in ES.
 - negev-incense-route: 4 ciudades nabateas UNESCO (Avdat, Mamshit, Haluza, Shivta); ruta en coche esencial (sin transporte público a Mamshit/Shivta/Haluza); turismo arqueológico LATAM; hiking-in-israel ✓, 3-days-in-negev ✓, negev-jeep-tours ✓, mitzpe-ramon-guide ✓, israel-national-parks-pass ✓ in ES.
 - skyfield-extreme-park-jaffa: SkyField Estadio Bloomfield Jaffa (inaugurado 2026); vía ferrata + salto elástico 35m + columpio gigante; parque extremo familiar; jaffa-travel-guide ✓, israel-adventure-sports ✓, israel-with-kids ✓ in ES; tel-aviv-things-to-do → EN fallback (no /es/ version yet).
 - tel-aviv-coffee-guide: café de especialidad tercera ola (Cafelix/Nahat/Coffee Lab) + cultura botz; Florentin/Neve Tzedek/Dizengoff; Festival Café sept.; jaffa-travel-guide ✓, tel-aviv-food-guide ✓, backpacking-israel ✓ in ES; tel-aviv-things-to-do → EN fallback.
 - tabgha-church-guide: Iglesia Multiplicación Panes y Peces (Benedictinos; mosaico s.V) + Iglesia Primado de Pedro (Franciscanos; basalto volcánico); turismo católico LATAM (90%+ católicos); 3-days-in-galilee ✓, nazareth-travel-guide ✓, sea-of-galilee-guide ✓ in ES.
-Status: ready
+Status: SHIPPED iter1121 fc8aabd6 — 5 ES guides merged to master 2026-08-10
 
 ### FR-46 batch definition (iter1085 RESEARCH — ready for next FR BUILD)
 Guides: `israel-rainy-day-activities.md`, `sde-boker-ein-avdat-guide.md`, `latrun-guide.md`, `negev-highway-40-guide.md`, `israel-for-british-travelers.md`
@@ -2524,7 +2524,7 @@ ES-60 batch (soreq-cave-guide, negev-incense-route, skyfield-extreme-park-jaffa,
 - skyfield-extreme-park-jaffa: /es/jaffa-travel-guide ✓, /es/israel-adventure-sports ✓, /es/israel-with-kids ✓. NOTE: /es/tel-aviv-things-to-do MISSING → use EN fallback.
 - tel-aviv-coffee-guide: /es/jaffa-travel-guide ✓, /es/tel-aviv-food-guide ✓, /es/backpacking-israel ✓. NOTE: /es/tel-aviv-things-to-do MISSING → use EN fallback.
 - tabgha-church-guide: /es/3-days-in-galilee ✓, /es/nazareth-travel-guide ✓, /es/sea-of-galilee-guide ✓.
-See ES-60 batch definition above (still Status: ready).
+See ES-60 batch definition above — SHIPPED iter1121 fc8aabd6.
 
 ### ES-64 batch definition (iter1115 RESEARCH — ready, but SHIP AFTER ES-60)
 All 5 confirmed MISSING from ES. FR SHIPPED iter1116. DE SHIPPED iter1118. ES pending.

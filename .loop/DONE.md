@@ -2155,3 +2155,6 @@ FR guides: 317→322/398. Build: 1698→1703 pages (+5). Gate: 0 errors | build 
 
 ## iter1119 · REVIEW · review-1119-de49-meta-trim · c0d85648
 - DE-49 meta-trim SHIPPED: 2 description fixes (both OVER HARD 160 limit). jerusalem-first-station desc 169→143 chars; nativity-trail desc 171→137 chars. All 5 titles ≤54 (max 53). All 5 descs ≤151 (max 143). 25/25 /de/* cross-links valid. No H1 in body. HeroImages present. No fabricated prices. Gate: check 0 | build 1763 | test:e2e 10/10 targeted.
+
+## iter1121 · BUILD · es-60-batch · fc8aabd6
+- ES-60 batch SHIPPED: 5 LATAM Spanish (tuteo) destination guides. soreq-cave-guide (Cueva Avshalom; INPA NOT valid; 22°C; verdictName+verdictQuery), negev-incense-route (4 UNESCO Nabataean cities Avdat/Mamshit/Haluza/Shivta; car required; 40°C+ summer warning; INPA covers 3/4), skyfield-extreme-park-jaffa (SkyField Bloomfield Stadium; 5 via ferrata routes; 35m bungee; giant swing; Israel's first fully accessible extreme park), tel-aviv-coffee-guide (botz + third-wave specialty; 60+ roasters; neighborhood circuit Florentin→Gordon Beach; 7 roasters profiled), tabgha-church-guide (Church of Multiplication Benedictine free 5th-c mosaic; Church of Primacy of St Peter Franciscan free Mensa Christi; both open 08:00-17:00). ES guides: 314→319/398. Build: 1763→1768 (+5). Gate: check 0 | build 1768 | test:e2e 2649/2649 PASS (30.6m).
