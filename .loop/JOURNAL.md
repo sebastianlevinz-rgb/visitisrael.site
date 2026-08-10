@@ -16679,3 +16679,18 @@ Ship: squash-merged to master 160673b8; pushed to origin/master.
 Prod: commit confirmed on GitHub; Vercel auto-deploy in progress.
 Locale counts post-ship: EN=398, FR=352/398 (46 missing), DE=338/398 (60 missing), ES=329/398 (69 missing). Missing from all 3: 35.
 Next: iter 1132 = BUILD (1132 % 5 = 2). nextRotationCategory = DE-51 batch (same 5 guides in German).
+
+## 2026-08-10T11:45Z · iter 1132 · BUILD · de-51-batch
+Mode: BUILD (1132 % 5 = 2).
+Startup: resumed from context-compacted session; 5 DE guide files already written in prior context window; e2e gate already passed; commit 6d049925 already on origin/master.
+What: 5 DE guides for DE-51 batch shipped:
+  1. jerusalem-pilgrimage-road — 600m herodianische Stufenstraße seit Januar 2026 öffentlich; Siloahteich Ausgangspunkt; archäologische Tunneldistinktion (Pilgerstraßentunnel vs. Hezekiah-Tunnel); Silwan/Elad-politischer Kontext; verdictName+verdictQuery; GYG+Booking CTAs; 5 FAQs.
+  2. israel-paragliding-guide — 3 Flugzonen: Karmel/Atlit (Meeresbrise; Okt–Jun), Galiläa/Golan (Katzrin; Frühjahr+Herbst), Ramon-Krater (Thermik; Frühjahr+Herbst); CAAI-Zulassungspflicht; 2 Anbieter adventure-israel.com + paragliding-israel.com namentlich; keine Preise fabriziert; verdictName+verdictQuery; GYG+Viator+Abraham CTAs; 6 FAQs.
+  3. yam-caesarea-guide — Israels erstes Nationales Meeresschutzgebiet ausgewiesen 25. Nov. 2024 INPA; 108ha; Sebastos-Hafen Herodes ~20 v. Chr. Hydraulikbeton-Technik; 4 markierte Pfade (blau+gelb=Schnorcheln, grün+rot=Tauchen); einziger INPA-Betreiber caesarea-diving.com; INPA-Pass nur Landeintritt / Schnorcheln separat; kein verdictWidget; GYG+Discovercars CTAs; 5 FAQs.
+  4. zionist-heritage-trail — 6 Stätten: Herzl-Berg (Herzl als Wiener Journalist → DACH-Resonanz) + Unabhängigkeitssaal (Renovierungsschließung Juli 2026 ausdrücklich vermerkt) + Rishon LeZion 1882 + Sde Boker Ben-Gurion-Haus + Degania Aleph (1. Kibbuz 1910; syrischer Panzer 1948) + Tel Hai (Trumpeldor 1920); 4-Tages-Rundreise-Tabelle; verdictName+verdictQuery; GYG+Viator+Discovercars CTAs; 6 FAQs.
+  5. luxury-arava-desert — Six Senses Shaharut MICHELIN Selected 2025; 900–1400 USD/Nacht Spanne (aus EN-Quelle); Dunkelhimmel SPNI-Protokoll; Schlaf-&-Erholung-Programm; Beduinen-Kräuterbehandlungen; Timna Park separates Ticket (nicht INPA); Petra-Verlängerung via Eilat (45km); verdictName+verdictQuery; Booking+GYG+Discovercars CTAs; 7 FAQs.
+Gate: pnpm check 0 errors | build 1798 pages (+5) | test:e2e 10/10 targeted PASS (5 smoke DE + 5 a11y DE).
+Ship: squash-merged to master 6d049925; pushed to origin/master.
+Prod: commit confirmed on GitHub; Vercel auto-deploy in progress (CI in_progress at state-write).
+Locale counts post-ship: EN=398, FR=352/398 (46 missing), DE=343/398 (55 missing), ES=329/398 (69 missing). Missing from all 3: 35.
+Next: iter 1133 = BUILD (1133 % 5 = 3). nextRotationCategory = ES-66 batch (same 5 guides in Spanish).

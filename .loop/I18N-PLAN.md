@@ -6,13 +6,13 @@
 >
 > One bounded slice per loop iteration. NEVER bulk-translate in one shot.
 
-## Current status snapshot (2026-08-10 iter1131 BUILD — FR-53 SHIPPED iter1131 160673b8; ES-65 SHIPPED iter1128 b5af5194; DE-50 SHIPPED iter1127 6a45c0a5)
+## Current status snapshot (2026-08-10 iter1132 BUILD — DE-51 SHIPPED iter1132 6d049925; FR-53 SHIPPED iter1131 160673b8; ES-65 SHIPPED iter1128 b5af5194)
 
 | Locale | Guides | Attractions | Regions | Itineraries |
 |--------|--------|-------------|---------|-------------|
 | en     | 398    | 65          | 11      | 6           |
 | fr     | 352    | 61          | 11      | 6           |
-| de     | 338    | 61          | 11      | 6           |
+| de     | 343    | 61          | 11      | 6           |
 | es     | 329    | 61          | 11      | 6           |
 
 Note: EN=398 actual guide files; I18N-PLAN previously said 401 (includes 3 queued items not yet materialized as guide files).
@@ -22,9 +22,9 @@ Note: EN=398 actual guide files; I18N-PLAN previously said 401 (includes 3 queue
 **Gaps to close:**
 - es guides: **69 missing** (329/398 done — ES-65 SHIPPED iter1128 b5af5194; **next ES BUILD = ES-66** — jerusalem-pilgrimage-road + israel-paragliding-guide + yam-caesarea-guide + zionist-heritage-trail + luxury-arava-desert [iter1125 RESEARCH; cross-links verified iter1130])
 - fr guides: **46 missing** (352/398 done — FR-53 SHIPPED iter1131 160673b8; **next FR BUILD = FR-54** — yam-lyam-sea-to-sea-hike + terminal-park-eilat + tel-aviv-street-art + jerusalem-light-rail-guide + pet-friendly-israel [defined iter1130; all cross-links verified])
-- de guides: **60 missing** (338/398 done — DE-50 SHIPPED iter1127 6a45c0a5; **next DE BUILD = DE-51** — jerusalem-pilgrimage-road + israel-paragliding-guide + yam-caesarea-guide + zionist-heritage-trail + luxury-arava-desert [same as FR-53; all cross-links verified iter1130])
+- de guides: **55 missing** (343/398 done — DE-51 SHIPPED iter1132 6d049925; **next DE BUILD = DE-52** — yam-lyam-sea-to-sea-hike + terminal-park-eilat + tel-aviv-street-art + jerusalem-light-rail-guide + pet-friendly-israel [same as FR-54; all cross-links verified iter1130])
 - fr/de/es attractions: **4 missing each** (the 4 EN attractions added after Phase 4)
-- Next batch after DE-51/ES-66: DE-52/ES-67 = FR-54 set — yam-lyam-sea-to-sea-hike + terminal-park-eilat + tel-aviv-street-art + jerusalem-light-rail-guide + pet-friendly-israel [defined iter1130; all cross-links verified]
+- Next batch after ES-66: DE-52/ES-67 = FR-54 set — yam-lyam-sea-to-sea-hike + terminal-park-eilat + tel-aviv-street-art + jerusalem-light-rail-guide + pet-friendly-israel [defined iter1130; all cross-links verified]
 
 ### FR-54/DE-52/ES-67 batch definition (iter1130 RESEARCH — ready after FR-53/DE-51/ES-66 SHIPPED)
 Guides: `yam-lyam-sea-to-sea-hike.md`, `terminal-park-eilat.md`, `tel-aviv-street-art.md`, `jerusalem-light-rail-guide.md`, `pet-friendly-israel.md`
