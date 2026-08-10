@@ -1183,6 +1183,11 @@ const ROUTES = [
   '/es/tel-aviv-street-art',
   '/es/jerusalem-light-rail-guide',
   '/es/pet-friendly-israel',
+  '/fr/sports-events-israel',
+  '/fr/tel-aviv-bachelorette',
+  '/fr/air-haifa-haifa-airport-guide',
+  '/fr/jerusalem-coffee-guide',
+  '/fr/israel-horseback-riding',
 ];
 
 for (const route of ROUTES) {
