@@ -6,12 +6,12 @@
 >
 > One bounded slice per loop iteration. NEVER bulk-translate in one shot.
 
-## Current status snapshot (2026-08-10 iter1133 BUILD — ES-66 SHIPPED iter1133 8556f268; DE-51 SHIPPED iter1132 6d049925; FR-53 SHIPPED iter1131 160673b8)
+## Current status snapshot (2026-08-10 iter1136 BUILD — FR-54 SHIPPED iter1136 24e9ad18; ES-66 SHIPPED iter1133 8556f268; DE-51 SHIPPED iter1132 6d049925)
 
 | Locale | Guides | Attractions | Regions | Itineraries |
 |--------|--------|-------------|---------|-------------|
 | en     | 398    | 65          | 11      | 6           |
-| fr     | 352    | 61          | 11      | 6           |
+| fr     | 357    | 61          | 11      | 6           |
 | de     | 343    | 61          | 11      | 6           |
 | es     | 334    | 61          | 11      | 6           |
 
@@ -21,10 +21,10 @@ Note: EN=398 actual guide files; I18N-PLAN previously said 401 (includes 3 queue
 
 **Gaps to close:**
 - es guides: **64 missing** (334/398 done — ES-66 SHIPPED iter1133 8556f268; **next ES BUILD = ES-67** — yam-lyam-sea-to-sea-hike + terminal-park-eilat + tel-aviv-street-art + jerusalem-light-rail-guide + pet-friendly-israel [same as FR-54/DE-52; all cross-links verified iter1130])
-- fr guides: **46 missing** (352/398 done — FR-53 SHIPPED iter1131 160673b8; **next FR BUILD = FR-54** — yam-lyam-sea-to-sea-hike + terminal-park-eilat + tel-aviv-street-art + jerusalem-light-rail-guide + pet-friendly-israel [defined iter1130; all cross-links verified])
+- fr guides: **41 missing** (357/398 done — FR-54 SHIPPED iter1136 24e9ad18; **next FR BUILD = FR-55** — sports-events-israel + tel-aviv-bachelorette + air-haifa-haifa-airport-guide + jerusalem-coffee-guide + israel-horseback-riding [defined iter1135; all cross-links verified])
 - de guides: **55 missing** (343/398 done — DE-51 SHIPPED iter1132 6d049925; **next DE BUILD = DE-52** — yam-lyam-sea-to-sea-hike + terminal-park-eilat + tel-aviv-street-art + jerusalem-light-rail-guide + pet-friendly-israel [same as FR-54; all cross-links verified iter1130])
 - fr/de/es attractions: **4 missing each** (the 4 EN attractions added after Phase 4)
-- Next batch after ES-67: FR-55/DE-53/ES-68 (to be defined in next RESEARCH iteration)
+- Next batch after DE-52/ES-67: FR-55/DE-53/ES-68 (defined iter1135)
 
 ### FR-54/DE-52/ES-67 batch definition (iter1130 RESEARCH — ready after FR-53/DE-51/ES-66 SHIPPED)
 Guides: `yam-lyam-sea-to-sea-hike.md`, `terminal-park-eilat.md`, `tel-aviv-street-art.md`, `jerusalem-light-rail-guide.md`, `pet-friendly-israel.md`
@@ -34,7 +34,7 @@ All 5 confirmed MISSING from all 3 locales (2026-08-10). All cross-links pre-ver
 - tel-aviv-street-art: Florentin quartier (rues Frenkel + Vital; plus haute densité graffiti TLV; œuvres municipales commissionnées) + zone Jaffa; parcours auto-guidé; partageabilité max photos. Cross-links: FR/DE ✓ (/tel-aviv-white-city, /tel-aviv-neighborhoods-guide, /jaffa-travel-guide, /tel-aviv-nightlife, /tel-aviv-carmel-market); ES: /es/tel-aviv-white-city MISSING → EN fallback. Zero FR/DE/ES editorial (GuruWalk + Israel-in-Photos EN only).
 - jerusalem-light-rail-guide: Tramway Jérusalem — Ligne Rouge + Ligne Verte (première section Malha→HaTurim ouverte juillet 2026); billetterie Rav-Kav; arrêts touristiques clés (Mahane Yehuda, Damascus Gate, Yad Vashem); horaires Shabbat. Cross-links: FR/DE ✓ (/jerusalem-food-guide, /rav-kav-israel, /israel-esim, /tel-aviv-light-rail, /transportation, /yad-vashem-visitor-guide); ES: /es/rav-kav-israel + /es/tel-aviv-light-rail MISSING → EN fallbacks. Zero FR/DE/ES editorial.
 - pet-friendly-israel: Import chien/chat (passeport vétérinaire UE; puce; rage; antiparasitaire 48–120h); plages canines Tel Aviv (Hilton Beach section chiens + Gordon Beach); parcs canins (Hayarkon Park); hôtels pet-friendly (Atlas Boutique TLV: gratuit); vétérinaires urgence 24h; transport: voiture uniquement (pas d'animaux train/bus). All cross-links ✓ in all 3 (/tel-aviv-beach-guide, /hayarkon-park-tel-aviv, /car-rental-israel, /driving-in-israel, /israel-accommodation-guide, /israel-cost-budget, /first-time-in-israel, /best-time-to-visit-israel). Zero FR/DE/ES editorial (BringFido EN only).
-Status: ready (iter1130 RESEARCH; all 5 cross-links verified; heroImages exist; no fabricated prices needed)
+Status: FR-54 SHIPPED iter1136 24e9ad18 (FR 352→357/398); DE-52 and ES-67 pending
 
 ### FR-49 batch definition (iter1100 RESEARCH — ready for next FR BUILD after FR-48 SHIPPED)
 Guides: `nimrod-fortress-guide.md`, `beit-alfa-guide.md`, `rosh-pina-guide.md`, `national-library-israel.md`, `jerusalem-mount-zion-guide.md`

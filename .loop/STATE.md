@@ -1,14 +1,16 @@
 # LOOP STATE
 
-- iteration: 1135
-- lastMode: RESEARCH
-- lastItem: research-1135-fr55-de53-es68-batch (sports-events-israel + tel-aviv-bachelorette + air-haifa-haifa-airport-guide + jerusalem-coffee-guide + israel-horseback-riding)
-- lastResult: iter1135 RESEARCH — 245th research pass. EN=398, FR=352/398, DE=343/398, ES=334/398; missing-all-3=35. FR-54/DE-52/ES-67 batch already defined (iter1130); this pass defines FR-55/DE-53/ES-68 batch: sports-events-israel (all cross-links ✓ FR/DE; ES /es/tel-aviv-things-to-do MISSING → EN fallback) + tel-aviv-bachelorette (all cross-links ✓ all 3) + air-haifa-haifa-airport-guide (all cross-links ✓ all 3) + jerusalem-coffee-guide (FR/ES ✓; DE /de/jerusalem-neighborhoods-guide MISSING → use /de/jerusalem-food-guide) + israel-horseback-riding (all cross-links ✓ all 3). Competitor scan: jerusalem-coffee zero FR/DE/ES editorial; horseback-riding DE partially covered by tour operators (pferdreiter.de) but zero editorial; sports-events zero all 3; tel-aviv-bachelorette zero all 3; air-haifa zero all 3. 2 new BACKLOG items: national-campus-archaeology-jerusalem (2026 IAA opening; zero FR/DE/ES), bible-road-highway-60 (Highway 60 heritage rebrand; zero FR/DE/ES). No code shipped.
+- iteration: 1136
+- lastMode: BUILD
+- lastItem: fr-54-batch (yam-lyam-sea-to-sea-hike + terminal-park-eilat + tel-aviv-street-art + jerusalem-light-rail-guide + pet-friendly-israel)
+- lastResult: iter1136 BUILD FR-54 SHIPPED 24e9ad18. 5 FR guides. Gate: pnpm check 0 errors | build 1808 pages (+5 from 1803) | test:e2e 10/10 targeted PASS. FR 352→357/398 (41 missing). EN=398, FR=357/398, DE=343/398, ES=334/398. missing-all-3=35.
 
-- nextRotationCategory: BUILD (1136 % 5 = 1 → FR-55 batch — sports-events-israel + tel-aviv-bachelorette + air-haifa-haifa-airport-guide + jerusalem-coffee-guide + israel-horseback-riding)
+- nextRotationCategory: BUILD (1137 % 5 = 2 → DE-52 batch — yam-lyam-sea-to-sea-hike + terminal-park-eilat + tel-aviv-street-art + jerusalem-light-rail-guide + pet-friendly-israel in German)
 - higgsfieldSpent: 0
-- updatedAt: 2026-08-10T14:15Z
-- branch context: master at c321195c; EN=398, FR=352/398, DE=343/398, ES=334/398; missing-all-3=35
+- updatedAt: 2026-08-10T15:55Z
+- branch context: master at 24e9ad18; EN=398, FR=357/398, DE=343/398, ES=334/398; missing-all-3=35
+
+Notes: iter1136 BUILD — FR-54 SHIPPED 24e9ad18. 5 FR guides: yam-lyam-sea-to-sea-hike (89km Nahariya/Achziv→Ginosar; Galilée haute+occidentale; Montfort 13e s.; villages druzes; mont Méron 1208m; Safed; 4-day table; GYG+Discovercars+Booking CTAs; 6 FAQs), terminal-park-eilat (150 000 m² ex-piste aéroport Oumeïda; grande roue + eco pools + cascade + mist plaza + food trucks; vues Mer Rouge + Édom; GYG+Discovercars+Booking CTAs; 6 FAQs), tel-aviv-street-art (Florentin — rues Frenkel+Vital; Belleville/Oberkampf analogy; zone Jaffa Hassan Bek; GYG+Booking CTAs; 6 FAQs), jerusalem-light-rail-guide (Ligne Rouge 23.5km + Ligne Verte Malha→HaTurim juillet 2026; Rav-Kav; arrêts clés; horaires Shabbat; connection Ben Gurion via Malha; GYG+Booking CTAs; 6 FAQs), pet-friendly-israel (EU pet passport + microchip + rage 21j + antiparasitaire 48–120h; Hilton Beach section chiens + Gordon Beach + Hayarkon Park; Atlas Boutique TLV; voiture uniquement; Vetimédik 24h; GYG+Discovercars+Booking CTAs; 6 FAQs). Metropolitan French; YAML-ASCII clean; all /fr/* cross-links pre-verified; no fabricated prices/ratings; no H1 in body; 10 new e2e routes (5 smoke + 5 a11y) — 10/10 targeted pass. FR guides: 352→357/398. Build: 1803→1808 pages (+5). Gate: pnpm check 0 errors | build 1808 | test:e2e 10/10 targeted.
 
 Notes: iter1135 RESEARCH — 245th research pass. EN=398, FR=352/398, DE=343/398, ES=334/398. Missing from all 3: 35. CORRECTION: FR-54/DE-52/ES-67 batch was already defined in iter1130; this pass defines FR-55/DE-53/ES-68 batch (sports-events-israel + tel-aviv-bachelorette + air-haifa-haifa-airport-guide + jerusalem-coffee-guide + israel-horseback-riding; all 5 confirmed missing all 3 via comm -23 2026-08-10). Competitor scan: Jerusalem coffee zero FR/DE/ES editorial; horseback riding DE partially served by tour operators only; sports events zero editorial all 3. 2 new individual BACKLOG items: national-campus-archaeology-jerusalem (IAA 2026 opening) + bible-road-highway-60 (Highway 60 heritage rebrand). No code shipped.
 

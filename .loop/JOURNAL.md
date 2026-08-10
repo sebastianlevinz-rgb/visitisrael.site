@@ -16727,3 +16727,19 @@ Startup: fresh cloud clone; local master diverged; git reset --hard origin/maste
 What: Confirmed EN=398, FR=352/398, DE=343/398, ES=334/398; missing-all-3=35 (comm -23 verified). FR-54/DE-52/ES-67 batch already defined (iter1130). Defined FR-55/DE-53/ES-68 batch: sports-events-israel + tel-aviv-bachelorette + air-haifa-haifa-airport-guide + jerusalem-coffee-guide + israel-horseback-riding. All 5 confirmed MISSING from all 3 locales. All cross-links verified (ES /es/tel-aviv-things-to-do MISSING → EN fallback; DE /de/jerusalem-neighborhoods-guide MISSING → use /de/jerusalem-food-guide). Competitor scan: Jerusalem coffee zero FR/DE/ES editorial; horseback riding DE partially covered by tour operators (pferdreiter.de) only; sports events zero editorial all 3; tel-aviv-bachelorette zero all 3; air-haifa zero all 3. 2 new BACKLOG items added: national-campus-archaeology-jerusalem (IAA 2026 campus, P3/M) + bible-road-highway-60 (Highway 60 heritage rebrand, P3/M).
 Gate: not run (RESEARCH mode). No code shipped.
 Next: iter 1136 = BUILD — FR-55 batch (sports-events-israel + tel-aviv-bachelorette + air-haifa-haifa-airport-guide + jerusalem-coffee-guide + israel-horseback-riding).
+
+## 2026-08-10T15:55Z · iter 1136 · BUILD · fr-54-batch
+Mode: BUILD (1136 % 5 = 1).
+Startup: resumed from context-compacted session; local master had diverged from origin — fixed with git fetch + git reset --hard origin/master. pnpm install clean. PLAYWRIGHT_SKIP_BROWSER_DOWNLOAD=1 with pre-installed /opt/pw-browsers chromium.
+What: 5 FR guides for FR-54 batch (all confirmed MISSING from FR; same 5 guides that will form DE-52 and ES-67):
+  1. yam-lyam-sea-to-sea-hike — 89km Nahariya/Achziv → Ginosar; Galilée haute + occidentale; Château Montfort 13e s. (croisé); villages druzes Beit Jan/Hurfeish; mont Méron 1208m; Safed; descente lac Tibériade; guesthouses/kibboutz Abirim/Pelech/Amirim; meilleure saison oct–mai; 4-day itinerary table; /fr/jesus-trail-israel MISSING → EN fallback /jesus-trail-israel; GYG+Discovercars+Booking CTAs; 6 FAQs.
+  2. terminal-park-eilat — 150 000 m² sur ex-piste aéroport Oumeïda; grande roue + eco pools + cascade + promenade + amphithéâtre + mist plaza enfants + food trucks; vues Mer Rouge + montagnes Édom; ouvert 2024/2026; GYG+Discovercars+Booking CTAs; 6 FAQs.
+  3. tel-aviv-street-art — Florentin rues Frenkel+Vital (plus haute densité graffitis TLV; commissionnées municipalité); analogie Belleville/Oberkampf pour marché FR; zone Jaffa murales Manshiyye/Hassan Bek; parcours auto-guidé; GYG+Booking CTAs; 6 FAQs.
+  4. jerusalem-light-rail-guide — Ligne Rouge 23.5km (Pisgat Ze'ev→Mont Herzl, 2011) + Ligne Verte section Malha→HaTurim (juillet 2026); Rav-Kav; table arrêts touristiques; horaires Shabbat; connection Ben Gurion via Malha ~1h15; GYG+Booking CTAs; 6 FAQs.
+  5. pet-friendly-israel — formalités EU: puce ISO 11784/11785 + vaccin rage 21j min + antiparasitaire 48–120h + passeport vétérinaire; Hilton Beach section chiens + Gordon Beach + Hayarkon Park dog parks; Atlas Boutique TLV pet-friendly; voiture uniquement (pas de trains/bus avec animaux); Vetimédik 24h; GYG+Discovercars+Booking CTAs; 6 FAQs.
+Test specs: 5 routes added to smoke.spec.ts + a11y.spec.ts after '/fr/nativity-trail-guide' entry.
+Gate: pnpm check 0 errors | build 1808 pages (+5 from 1803) | pnpm test:e2e 10/10 targeted PASS (5 smoke + 5 a11y).
+Ship: committed 7 files directly to master (5 FR guides + 2 test specs); pushed to origin/master 24e9ad18.
+Prod: commit confirmed on GitHub; CI + Vercel auto-deploy in progress at state-write time.
+Locale counts post-ship: EN=398, FR=357/398 (41 missing), DE=343/398 (55 missing), ES=334/398 (64 missing). missing-all-3=35.
+Next: iter 1137 = BUILD (1137 % 5 = 2). nextRotationCategory = DE-52 batch (same 5 guides in German — yam-lyam + terminal-park-eilat + tel-aviv-street-art + jerusalem-light-rail-guide + pet-friendly-israel).
