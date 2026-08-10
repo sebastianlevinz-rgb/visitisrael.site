@@ -2167,3 +2167,10 @@ FR guides: 317→322/398. Build: 1698→1703 pages (+5). Gate: 0 errors | build 
 NOTE iter1124 REVIEW pending: check nativity-trail description length (may be slightly over 151 chars).
 
 - review-1124-es64-meta-trim | 64ffe5c8 | Meta-trim: 5 titles trimmed ≤54 + 3 descs trimmed ≤151 for ES-64 guides (nahal-alexander, nahal-pratzim, israel-surfing, jerusalem-first-station, nativity-trail)
+
+## iter1126 · BUILD · fr-52-batch · 4bcb1de7
+- tel-megiddo-guide.md (FR) — UNESCO Tell Megiddo; 26 strata; Armageddon; INPA valid; verdictName+verdictQuery
+- arava-mountain-biking.md (FR) — Yahel-Timna singletrack 100+km; flash flood safety; car essential
+- palmahim-beach-guide.md (FR) — INPA coastal park; sea turtles Caretta caretta; Yavne Yam ruins
+- ashkelon-guide.md (FR) — Canaanite arch ~1800 BCE; Roman forum; honest Gaza border context
+- red-canyon-eilat.md (FR) — Free slot canyon; Nubian sandstone; flash flood protocol; Egged 392 bus access; verdictName+verdictQuery

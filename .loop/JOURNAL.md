@@ -16621,3 +16621,10 @@ What: (1) Locale count verification: EN=398, FR=342/398, DE=333/398, ES=324/398.
 Gate: N/A (research mode). No code changes.
 Memory: STATE.md iter→1125. BACKLOG.md updated (batch 52 fix + batch 53 definition). COMPETITORS.md appended. JOURNAL.md appended. .loop/ to be committed.
 Next: iter1126 (1126%5=1 → BUILD) — SHIP FR-52 batch (tel-megiddo + arava-mountain-biking + palmahim-beach + red-canyon-eilat + ashkelon-guide) in Metropolitan French.
+
+## 2026-08-10T06:00Z · iter 1126 · BUILD · fr-52-batch
+What: 5 FR guides — tel-megiddo-guide, arava-mountain-biking, palmahim-beach-guide, ashkelon-guide, red-canyon-eilat. Metropolitan French; verdictName+verdictQuery on tel-megiddo+red-canyon; INPA valid noted per guide; no fabricated prices; flash flood safety protocols on arava-mtb+red-canyon; honest Gaza border context on ashkelon.
+Gate: pnpm check 0 errors | build 1778 pages | test:e2e 10/10 targeted PASS.
+Ship: squash-merged to master 4bcb1de7; pushed to origin/master.
+Prod: status pending at state-write (GitHub commit status API returned no statuses; next iteration will confirm).
+FR guides: 342→347/401. Build +5 pages.

@@ -1,14 +1,14 @@
 # LOOP STATE
 
-- iteration: 1125
-- lastMode: RESEARCH
-- lastItem: research-1125-fr52-correction-fr53-de51-es66-definition
-- lastResult: iter1125 RESEARCH (236th pass) — No code shipped. CRITICAL BUG FIX: FR-52/DE-50/ES-65 batch had galilee-culinary-institute-gonen.md as item #4, but that guide is ALREADY translated into all 3 locales (iter931/932/933). Corrected item #4 → ashkelon-guide.md (confirmed missing all 3; all cross-links verified). NEW: FR-53/DE-51/ES-66 batch defined: jerusalem-pilgrimage-road + israel-paragliding-guide + yam-caesarea-guide + zionist-heritage-trail + luxury-arava-desert. All 5 verified missing all 3; all cross-links confirmed (ES fallbacks: water-hiking-israel→EN, tel-aviv-white-city→EN). COMPETITORS: zero editorial competitor in FR/DE/ES for any batch 52/53 targets. Tourism stats: US #1 market 35.2%; France #2; 1.3M visitors 2025. BACKLOG updated (batch 52 fix + batch 53 definition). JOURNAL + COMPETITORS appended.
+- iteration: 1126
+- lastMode: BUILD
+- lastItem: fr-52-batch (tel-megiddo-guide + arava-mountain-biking + palmahim-beach-guide + ashkelon-guide + red-canyon-eilat)
+- lastResult: iter1126 BUILD — FR-52 batch SHIPPED 4bcb1de7. 5 FR guides: tel-megiddo-guide (UNESCO Tell Megiddo 26 strates; tunnel d'eau Achab; Porte Salomonique; verdictName+verdictQuery; "Armageddon Terre Sainte" FR Catholic hook; GYG+Discovercars+Booking CTAs), arava-mountain-biking (singletrack Yahel-Timna 100+km; basalte volcanique + wadi; VTT désert Arava = zéro concurrent FR; sécurité crues soudaines; Discovercars+GYG+Booking CTAs), palmahim-beach-guide (INPA valide; tortues caouannes nidification mai-août; dunes kurkar; ruines Yavne Yam; Discovercars+Booking+GYG CTAs), ashkelon-guide (arche cananéenne ~1800 av.J.-C.; forum romain + basilique; mosaïques byzantines; cimetière chiens perse; INPA valide; GYG+Discovercars+Booking CTAs), red-canyon-eilat (slot canyon grès nubien; gratuit pas INPA; circuit 2km; sécurité crues soudaines; verdictName+verdictQuery; Discovercars+GYG CTAs). Metropolitan French; no H1 in body; all /fr/* cross-links pre-verified; no fabricated prices/ratings. 10 new e2e routes (5 smoke + 5 a11y): 10/10 pass. FR guides: 342→347/401. Build: 1778 pages. Gate: check 0 | build 1778 | test:e2e 10/10 targeted. Commit: 4bcb1de7. Prod deploy: pending at state-write.
 
-- nextRotationCategory: BUILD (1126 % 5 = 1 → BUILD: fr-52 batch recommended — tel-megiddo + arava-mountain-biking + palmahim-beach + red-canyon-eilat + ashkelon-guide)
+- nextRotationCategory: REVIEW (1127 % 5 = 2 → BUILD: de-50-batch recommended — same 5 guides in DE; or meta-review of FR-52 guides)
 - higgsfieldSpent: 0
-- updatedAt: 2026-08-10T04:55Z
-- branch context: master at adc9f920; EN=398 FR=342/398 DE=333/398 ES=324/398; missing-all-3=45
+- updatedAt: 2026-08-10T06:00Z
+- branch context: master at 4bcb1de7; EN=401 FR=347/401 DE=333/401 ES=324/401; missing-all-3=40
 
 Notes: iter1125 RESEARCH — 236th research pass. EN=398, FR=342/398, DE=333/398, ES=324/398. Missing from all 3: 45. CORRECTION: FR-52/DE-50/ES-65 batch item #4 was galilee-culinary-institute-gonen (already in all 3 locales since iter931/932/933) → replaced with ashkelon-guide.md (confirmed missing all 3). NEW: FR-53/DE-51/ES-66 batch defined (jerusalem-pilgrimage-road + israel-paragliding-guide + yam-caesarea-guide + zionist-heritage-trail + luxury-arava-desert; all 5 missing all 3; ES fallbacks: water-hiking-israel, tel-aviv-white-city). nova-festival-memorial-guide confirmed P1/M ready in BACKLOG (iter1120). Tourism stats: US 35.2% inbound market, France #2, 1.3M total 2025 visitors. No code shipped.
 

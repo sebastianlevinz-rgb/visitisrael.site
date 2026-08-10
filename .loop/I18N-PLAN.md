@@ -6,12 +6,12 @@
 >
 > One bounded slice per loop iteration. NEVER bulk-translate in one shot.
 
-## Current status snapshot (2026-08-10 iter1123 BUILD — ES-64 SHIPPED iter1123 8006b865; iter1122 REVIEW es-60-meta-trim SHIPPED ef2abed0; DE-49 SHIPPED iter1118 5c4da252; FR-51 SHIPPED iter1116 091eaa68)
+## Current status snapshot (2026-08-10 iter1126 BUILD — FR-52 SHIPPED iter1126 4bcb1de7; ES-64 SHIPPED iter1123 8006b865; iter1122 REVIEW es-60-meta-trim SHIPPED ef2abed0; DE-49 SHIPPED iter1118 5c4da252)
 
 | Locale | Guides | Attractions | Regions | Itineraries |
 |--------|--------|-------------|---------|-------------|
 | en     | 401    | 65          | 11      | 6           |
-| fr     | 342    | 61          | 11      | 6           |
+| fr     | 347    | 61          | 11      | 6           |
 | de     | 333    | 61          | 11      | 6           |
 | es     | 324    | 61          | 11      | 6           |
 
@@ -19,7 +19,7 @@
 
 **Gaps to close:**
 - es guides: **77 missing** (324/401 done — ES-64 SHIPPED iter1123 8006b865 + REVIEW iter1124 pending; **next ES BUILD = ES-65** — tel-megiddo-guide + arava-mountain-biking + palmahim-beach-guide + galilee-culinary-institute-gonen + red-canyon-eilat [per iter1120 RESEARCH])
-- fr guides: **59 missing** (342/401 done — Phase FR-51 SHIPPED iter1116 091eaa68 + REVIEW iter1117 e0635d6d; **next FR BUILD = FR-52** — TBD in next RESEARCH iteration)
+- fr guides: **54 missing** (347/401 done — FR-52 SHIPPED iter1126 4bcb1de7; **next FR BUILD = FR-53** — jerusalem-pilgrimage-road + israel-paragliding-guide + yam-caesarea-guide + zionist-heritage-trail + luxury-arava-desert [iter1125 RESEARCH])
 - de guides: **68 missing** (333/401 done — Phase DE-49 SHIPPED iter1118 5c4da252; **next DE REVIEW = iter1119** de-49-meta-trim [PRIORITY: jerusalem-first-station desc 168→≤151, nativity-trail desc 169→≤151]; **next DE BUILD = DE-50** — TBD)
 - fr/de/es attractions: **4 missing each** (the 4 EN attractions added after Phase 4)
 - 4 new EN-only guides (no locale version yet): arava-mountain-biking + air-haifa-haifa-airport-guide + maccabiah-games-2026 + ashkelon-guide

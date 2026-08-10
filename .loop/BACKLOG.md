@@ -2550,7 +2550,7 @@ Market angles per locale:
 - DE-50: Tel Megiddo "26 Schichten Zivilisation" DACH Bible/archaeology; Yahel-Timna MTB DACH biggest market; Palmahim Jaffa day-trip DACH family; Ashkelon älteste Stadtmauer Welt DACH archaeology; Roter Canyon Eilat Klettersteig/Wandern DACH.
 - ES-65: Tel Megiddo "Armagedón" LATAM Catholic+Evangélico; Arava MTB Colombia/México ciclismo; Palmahim playa+ruinas LATAM; Ascalón Canaanita+Romano LATAM historia antigua; Cañón Rojo Eilat LATAM aventura.
 
-Status: ready [iter1120 research — corrected iter1125: ashkelon-guide replaces galilee-culinary-institute-gonen (already in all 3 locales)]
+Status: FR SHIPPED iter1126 4bcb1de7 [corrected iter1125: ashkelon-guide replaces galilee-culinary-institute-gonen (already in all 3 locales)]; DE-50 + ES-65 pending
 
 ### FR-53/DE-51/ES-66 batch definition (iter1125 RESEARCH — next batch after FR-52/DE-50/ES-65)
 All 5 guides confirmed MISSING from all 3 locales (FR, DE, ES) via filesystem comm -23 (2026-08-10). All EN guides exist. All FR/DE/ES cross-links pre-verified. ES fallbacks noted.
