@@ -16557,3 +16557,16 @@ New BACKLOG items: nova-festival-memorial-guide (P1/M, EN-new). FR-52/DE-50/ES-6
 Gate: N/A (research mode). No code changes.
 Memory: STATE.md iter→1120. BACKLOG.md updated (FR-52/DE-50/ES-65 batch + nova item + ES-64 status clarified). COMPETITORS.md appended. JOURNAL.md appended. .loop/ committed below.
 Next: iter1121 (1121%5=1 → BUILD) — SHIP ES-60 FIRST (soreq-cave-guide + negev-incense-route + skyfield-extreme-park-jaffa + tel-aviv-coffee-guide + tabgha-church-guide).
+
+## 2026-08-10 · iter 1121 · BUILD · es-60-batch (IN PROGRESS)
+What: 5 LATAM Spanish ES guides (ES-60 batch — pending since iter1090, now finally shipping):
+  - soreq-cave-guide: Cueva Avshalom, 22°C, mandatory guided tours, INPA NOT valid (charges independently), verdictName+verdictQuery
+  - negev-incense-route: 4 UNESCO Nabataean cities (Avdat/Mamshit/Haluza/Shivta), car required, 40°C+ summer warning, INPA covers 3/4
+  - skyfield-extreme-park-jaffa: SkyField Bloomfield Stadium, 5 via ferrata routes, 35m bungee, giant swing, Israel's first fully accessible extreme park, min age 12
+  - tel-aviv-coffee-guide: botz tradition + third-wave specialty, 60+ roasters, neighborhood circuit Florentin→Gordon Beach, 7 roasters profiled
+  - tabgha-church-guide: Church of Multiplication (Benedictine, free, 5th-c mosaic in situ) + Church of Primacy of St Peter (Franciscan, free, Mensa Christi rock), both open 08:00-17:00
+
+10 new e2e routes added to smoke.spec.ts + a11y.spec.ts.
+Build: 1768 pages (+5 ES). pnpm check: 0 errors. pnpm build: PASSED. pnpm test:e2e: IN PROGRESS at session end.
+Branch: auto/es-60-batch pushed to origin (commit 175c857c).
+Status: GATE IN PROGRESS — next run must squash-merge auto/es-60-batch → master once e2e confirms green.
