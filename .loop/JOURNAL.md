@@ -16805,3 +16805,15 @@ Gate: pnpm check 0 errors; build 1823 pages (+5 from 1818); pnpm test:e2e 10/10 
 Ship: committed 7bb4238f to master, pushed to origin/master. CI pending at state-write.
 FR guides: 357->362/398. Build: 1818->1823 pages (+5). Remaining FR gap: 36 guides.
 Next: iter 1142 = BUILD (1142 % 5 = 2) -- DE-53/ES-68 batch (yam-lyam-sea-to-sea-hike + terminal-park-eilat + tel-aviv-street-art + jerusalem-light-rail-guide + pet-friendly-israel).
+
+## 2026-08-10 · iter 1142 · BUILD (i18n-DE) · de-53-batch
+What: 5 new DE guides — sports-events-israel, tel-aviv-bachelorette, air-haifa-haifa-airport-guide, jerusalem-coffee-guide, israel-horseback-riding. All confirmed missing from DE locale pre-creation. Standard Hochdeutsch; DACH-specific angles (Maccabiah Games 2026 as "olympische Spiele der jüdischen Welt" + DACH Diaspora Germany; JGA Wochenende; Air Haifa as HFA saves 90min Ben-Gurion-Transfer; Jerusalem Schabbat-Kaffeekultur; Vered HaGalil gegr. 1961 Galiläisches Meer Panorama). All /de/* cross-links pre-verified (note: /de/jerusalem-neighborhoods-guide MISSING → /de/jerusalem-food-guide used as fallback). No fabricated prices/ratings. No H1 in body. YAML-ASCII clean. 10 new e2e routes (5 smoke + 5 a11y) added to test specs.
+  - sports-events-israel: EuroLeague Maccabi TLV Menora Mivtachim Arena 11.700 Plätze; Jerusalem-Marathon März 42.2km; Samsung TLV-Marathon Feb; Ligat HaAl; 22. Maccabiah 2026; Israel Open ATP 250.
+  - tel-aviv-bachelorette: JGA 3-Nächte-Programm Neve Tzedek→Florentin→Tayelet; LGBTQ+-Hinweise; €150-280/Nacht Spanne; Totes Meer Spa.
+  - air-haifa-haifa-airport-guide: IATA HFA; Air Haifa Sep 2024; HFA→ETM 60min; Sommer-International Zypern+Griechenland; Taxi ₪50-70/Bus 23 ₪8/Kiwitaxi.
+  - jerusalem-coffee-guide: Power CoffeeWorks+Birma+Tmol Shilshom+Sybaris+Coffee Mill; Rundweg 2.5-3km; Schabbat+Kaschrut ehrlich erklärt; ₪18-28 Espresso-Spanne.
+  - israel-horseback-riding: Vered HaGalil+Habokrim Ranch+Moshav Ramot+Kibbutz Ein Dor; verdictName "Ausritt in Galiläa"; ₪150-400 Spanne; Saison-Tabelle.
+Gate: pnpm check 0 errors; build 1828 pages (+5 from 1823); pnpm test:e2e 10/10 targeted (5 smoke + 5 a11y — 0 WCAG violations). GREEN.
+Ship: committed b33614af to master, pushed to origin/master. CI pending at state-write.
+DE guides: 348->353/398. Build: 1823->1828 pages (+5). Remaining DE gap: 45 guides.
+Next: iter 1143 = BUILD (1143 % 5 = 3) -- ES-68 batch (sports-events-israel + tel-aviv-bachelorette + air-haifa-haifa-airport-guide + jerusalem-coffee-guide + israel-horseback-riding in Spanish).
