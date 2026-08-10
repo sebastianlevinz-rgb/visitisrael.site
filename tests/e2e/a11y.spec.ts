@@ -1188,6 +1188,11 @@ const ROUTES = [
   '/fr/air-haifa-haifa-airport-guide',
   '/fr/jerusalem-coffee-guide',
   '/fr/israel-horseback-riding',
+  '/de/sports-events-israel',
+  '/de/tel-aviv-bachelorette',
+  '/de/air-haifa-haifa-airport-guide',
+  '/de/jerusalem-coffee-guide',
+  '/de/israel-horseback-riding',
 ];
 
 for (const route of ROUTES) {
