@@ -1423,6 +1423,11 @@ const ROUTES = [
   '/de/palmahim-beach-guide',
   '/de/ashkelon-guide',
   '/de/red-canyon-eilat',
+  '/es/tel-megiddo-guide',
+  '/es/arava-mountain-biking',
+  '/es/palmahim-beach-guide',
+  '/es/ashkelon-guide',
+  '/es/red-canyon-eilat',
 ];
 
 for (const route of ROUTES) {
