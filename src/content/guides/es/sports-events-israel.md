@@ -1,5 +1,5 @@
 ---
-title: "Deporte en vivo en Israel: Guía de eventos (2026–2027)"
+title: "Deporte en vivo en Israel: Eventos 2026–2027"
 description: "Deporte en vivo en Israel: Maccabi Tel Aviv basketball EuroLeague, maratones de Jerusalén y Tel Aviv, fútbol Ligat HaAl y los Juegos Maccabiah."
 heroImage: /images/regions/tel-aviv/hero.jpg
 category: Experiences

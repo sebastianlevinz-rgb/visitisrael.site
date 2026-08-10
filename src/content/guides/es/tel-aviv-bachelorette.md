@@ -1,6 +1,6 @@
 ---
-title: "Despedida de soltera en Tel Aviv: Guía de planificación"
-description: "Planifica tu despedida de soltera en Tel Aviv: hoteles boutique, días de playa, clases de cocina, cócteles en Florentin y spas para una escapada de chicas inolvidable."
+title: "Despedida de soltera en Tel Aviv: Guía 2026"
+description: "Despedida de soltera en Tel Aviv: hoteles boutique, playa, clases de cocina, cócteles en Florentin y spas. Guía completa para grupos de chicas."
 heroImage: /images/sub-destinations/tel-aviv/florentin.jpg
 category: Travel Tips
 region: tel-aviv

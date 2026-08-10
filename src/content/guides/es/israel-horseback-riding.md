@@ -1,6 +1,6 @@
 ---
 title: "Montar a caballo en Israel: Galilea y Golán (2026)"
-description: "Los mejores lugares para montar a caballo en Israel — Vered HaGalil, ranchos del Golán, rutas a caballo en Galilea para todos los niveles. Consejos de reserva, qué esperar y mejor época."
+description: "Montar a caballo en Israel: Vered HaGalil, ranchos del Golán y rutas en Galilea. Consejos de reserva, temporadas y qué esperar en cada operador."
 heroImage: /images/regions/galilee/hero.jpg
 category: Outdoor
 region: galilee

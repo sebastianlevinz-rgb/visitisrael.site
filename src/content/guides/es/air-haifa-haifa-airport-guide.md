@@ -1,6 +1,6 @@
 ---
 title: "Aeropuerto de Haifa (HFA) y Air Haifa: Guía 2026"
-description: "Aeropuerto de Haifa HFA y Air Haifa: vuelos nacionales a Eilat, Chipre y Grecia. HFA te ahorra el trayecto de 90 minutos desde Ben Gurion si visitas el norte de Israel."
+description: "Aeropuerto de Haifa (HFA) y Air Haifa: vuelos a Eilat, Chipre y Grecia. Evita 90 min al aeropuerto Ben Gurion si visitas el norte de Israel."
 heroImage: /images/regions/haifa/hero.jpg
 category: Transport
 region: haifa

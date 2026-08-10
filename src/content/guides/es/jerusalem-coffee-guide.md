@@ -1,6 +1,6 @@
 ---
-title: "Cafés de especialidad en Jerusalén: Tercera Ola (2026)"
-description: "Guía de cafés de especialidad en Jerusalén: tostadores del Mercado Mahane Yehuda, cafés del barrio Emek Refaim, cultura del café kosher y horarios de Shabat explicados."
+title: "Cafés de especialidad en Jerusalén: Tercera Ola"
+description: "Cafés de especialidad en Jerusalén: tostadores Mahane Yehuda, barrio Emek Refaim, café kosher y horarios de Shabat explicados."
 heroImage: /images/regions/jerusalem/mahane-yehuda.jpg
 category: Food
 region: jerusalem
