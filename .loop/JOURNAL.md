@@ -16830,3 +16830,21 @@ Gate: pnpm check 0 errors; build 1833 pages (+5 from 1828); pnpm test:e2e 10/10 
 Ship: committed dca28d3c to master, pushed to origin/master. CI pending at state-write.
 ES guides: 339->344/398. Build: 1828->1833 pages (+5). Remaining ES gap: 54 guides.
 Next: iter 1144 = REVIEW (1144 % 5 = 4).
+
+## 2026-08-10T23:38Z · iter 1144 · REVIEW · review-1144-es68-meta-trim SHIPPED 10862339
+Mode: REVIEW (1144 % 5 = 4).
+Startup: fresh cloud clone; git fetch + git reset --hard origin/master → 8d6bdb21. pnpm install clean (7.2s). Playwright pre-installed at /opt/pw-browsers (download skipped).
+What: Audited all 5 ES-68 guides (sports-events-israel, tel-aviv-bachelorette, air-haifa-haifa-airport-guide, jerusalem-coffee-guide, israel-horseback-riding) for meta limits, internal links, H1 presence, heroImages, and honesty.
+Findings:
+  Titles BEFORE: sports-events-israel 57 ✗, tel-aviv-bachelorette 57 ✗, air-haifa-haifa-airport-guide 49 ✓, jerusalem-coffee-guide 56 ✗, israel-horseback-riding 51 ✓.
+  Descs BEFORE: sports-events-israel 145 ✓, tel-aviv-bachelorette 169 ✗ (OVER HARD 160), air-haifa-haifa-airport-guide 168 ✗ (OVER HARD 160), jerusalem-coffee-guide 173 ✗ (OVER HARD 160), israel-horseback-riding 191 ✗ (OVER HARD 160).
+  Internal links: 23/23 /es/* links valid. ✓
+  H1 in body: none (all 5 guides). ✓
+  HeroImages: all 5 image paths present on disk. ✓
+  Honesty: no ratingValue/aggregateRating/reviewCount/exact prices — clean. ✓
+Fixes applied:
+  3 titles trimmed ≤54 chars: sports-events-israel 57→46, tel-aviv-bachelorette 57→44, jerusalem-coffee-guide 56→49.
+  4 descriptions trimmed ≤151 chars: tel-aviv-bachelorette 169→145, air-haifa-haifa-airport-guide 168→140, jerusalem-coffee-guide 173→129, israel-horseback-riding 191→146.
+Gate: pnpm check 0 errors | build 1833 pages | pnpm test:e2e 10/10 targeted (5 smoke + 5 a11y — 0 WCAG violations). GREEN.
+Ship: committed 10862339 to master, pushed to origin/master. CI in_progress at state-write.
+Next: iter 1145 = RESEARCH (1145 % 5 = 0 → 251st research pass; confirm locale counts; define FR-56/DE-54/ES-69 batch from BACKLOG).

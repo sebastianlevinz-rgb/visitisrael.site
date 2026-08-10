@@ -2211,3 +2211,6 @@ NOTE iter1124 REVIEW pending: check nativity-trail description length (may be sl
 - luxury-arava-desert: title 59→44, desc 195→128.
 - H1: none in body. HeroImages: present. 31/31 links valid post-fix.
 - Gate: check 0 | build 1803 | test:e2e 10/10 targeted PASS.
+
+## iter1144 · REVIEW · review-1144-es68-meta-trim · 10862339
+- 7 meta fixes across 5 ES-68 guides: 3 titles trimmed ≤54 chars (sports-events-israel 57→46, tel-aviv-bachelorette 57→44, jerusalem-coffee-guide 56→49); 4 descriptions trimmed ≤151 chars (tel-aviv-bachelorette 169→145, air-haifa-haifa-airport-guide 168→140, jerusalem-coffee-guide 173→129, israel-horseback-riding 191→146). All 23/23 /es/* links valid, no H1 in body, heroImages present, no fabricated prices/ratings. Gate: check 0 | build 1833 | test:e2e 10/10 targeted. Committed 10862339; pushed to origin/master.
