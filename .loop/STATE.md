@@ -1,14 +1,16 @@
 # LOOP STATE
 
-- iteration: 1134
-- lastMode: REVIEW
-- lastItem: review-1134-es66-meta-trim (jerusalem-pilgrimage-road + israel-paragliding-guide + yam-caesarea-guide + zionist-heritage-trail + luxury-arava-desert)
-- lastResult: iter1134 REVIEW — es-66-meta-trim SHIPPED 3be99720. 5 titles trimmed ≤54 (jerusalem-pilgrimage-road 71→47, israel-paragliding-guide 58→44, yam-caesarea-guide 62→53, zionist-heritage-trail 71→38, luxury-arava-desert 59→44); 4 descs trimmed ≤151 (jerusalem-pilgrimage-road 155→150, zionist-heritage-trail 169→134, luxury-arava-desert 195→128; israel-paragliding-guide + yam-caesarea-guide were already OK). 1 broken link fixed: /es/tel-aviv-white-city → /tel-aviv-white-city (EN fallback, ES guide missing) in zionist-heritage-trail. 27/28 /es/* links valid (tel-aviv-white-city now EN fallback). No H1 in body (confirmed). HeroImages present (confirmed). No fabricated prices. Gate: pnpm check 0 errors | build 1803 | test:e2e 10/10 targeted. CI in_progress at state-write.
+- iteration: 1135
+- lastMode: RESEARCH
+- lastItem: research-1135-fr55-de53-es68-batch (sports-events-israel + tel-aviv-bachelorette + air-haifa-haifa-airport-guide + jerusalem-coffee-guide + israel-horseback-riding)
+- lastResult: iter1135 RESEARCH — 245th research pass. EN=398, FR=352/398, DE=343/398, ES=334/398; missing-all-3=35. FR-54/DE-52/ES-67 batch already defined (iter1130); this pass defines FR-55/DE-53/ES-68 batch: sports-events-israel (all cross-links ✓ FR/DE; ES /es/tel-aviv-things-to-do MISSING → EN fallback) + tel-aviv-bachelorette (all cross-links ✓ all 3) + air-haifa-haifa-airport-guide (all cross-links ✓ all 3) + jerusalem-coffee-guide (FR/ES ✓; DE /de/jerusalem-neighborhoods-guide MISSING → use /de/jerusalem-food-guide) + israel-horseback-riding (all cross-links ✓ all 3). Competitor scan: jerusalem-coffee zero FR/DE/ES editorial; horseback-riding DE partially covered by tour operators (pferdreiter.de) but zero editorial; sports-events zero all 3; tel-aviv-bachelorette zero all 3; air-haifa zero all 3. 2 new BACKLOG items: national-campus-archaeology-jerusalem (2026 IAA opening; zero FR/DE/ES), bible-road-highway-60 (Highway 60 heritage rebrand; zero FR/DE/ES). No code shipped.
 
-- nextRotationCategory: RESEARCH (1135 % 5 = 0 → 245th research pass — define FR-54/DE-52/ES-67 batch; confirm gaps vs current EN=398, FR=352, DE=343, ES=334)
+- nextRotationCategory: BUILD (1136 % 5 = 1 → FR-55 batch — sports-events-israel + tel-aviv-bachelorette + air-haifa-haifa-airport-guide + jerusalem-coffee-guide + israel-horseback-riding)
 - higgsfieldSpent: 0
-- updatedAt: 2026-08-10T13:50Z
-- branch context: master at 3be99720; EN=398, FR=352/398, DE=343/398, ES=334/398; missing-all-3=35
+- updatedAt: 2026-08-10T14:15Z
+- branch context: master at c321195c; EN=398, FR=352/398, DE=343/398, ES=334/398; missing-all-3=35
+
+Notes: iter1135 RESEARCH — 245th research pass. EN=398, FR=352/398, DE=343/398, ES=334/398. Missing from all 3: 35. CORRECTION: FR-54/DE-52/ES-67 batch was already defined in iter1130; this pass defines FR-55/DE-53/ES-68 batch (sports-events-israel + tel-aviv-bachelorette + air-haifa-haifa-airport-guide + jerusalem-coffee-guide + israel-horseback-riding; all 5 confirmed missing all 3 via comm -23 2026-08-10). Competitor scan: Jerusalem coffee zero FR/DE/ES editorial; horseback riding DE partially served by tour operators only; sports events zero editorial all 3. 2 new individual BACKLOG items: national-campus-archaeology-jerusalem (IAA 2026 opening) + bible-road-highway-60 (Highway 60 heritage rebrand). No code shipped.
 
 Notes: iter1132 BUILD — DE-51 batch SHIPPED 6d049925. 5 DE guides: jerusalem-pilgrimage-road (600m herodianische Stufenstraße seit Jan 2026; Siloahteich-Ausgangspunkt; Tunneldistinktion; Silwan/Elad-politischer Kontext; GYG+Booking CTAs; 5 FAQs), israel-paragliding-guide (3 Zonen: Karmel/Atlit + Galiläa/Golan Katzrin + Ramon-Krater Thermik; CAAI-Zulassung; GYG+Viator+Abraham CTAs; 6 FAQs), yam-caesarea-guide (Israels erstes Meeresschutzgebiet 25. Nov 2024; 108ha; Sebastos-Hafen ~20 v. Chr.; 4 Pfade; caesarea-diving.com; INPA-Pass nur Landeintritt; GYG+Discovercars CTAs; 5 FAQs), zionist-heritage-trail (6 Stätten Rundreise; DACH Herzl-Wiener-Journalist-Winkel; 4-Tages-Tabelle; GYG+Viator+Discovercars CTAs; 6 FAQs), luxury-arava-desert (Six Senses Shaharut MICHELIN; 900–1400 USD/Nacht; Dunkelhimmel; Timna separates Ticket; Booking+GYG+Discovercars CTAs; 7 FAQs). DE guides: 338→343/398. Build: 1793→1798 (+5). Gate: check 0 | build 1798 | test:e2e 10/10.
 

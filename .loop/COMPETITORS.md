@@ -8583,3 +8583,31 @@ Sources: alltrails.com, tripadvisor.com, touristisrael.com, israel-in-photos.com
 - tel-aviv-bachelorette.md SHIPPED EN iter476; missing from FR/DE/ES.
 - Zero FR/DE/ES editorial for "JGA Tel Aviv" / "enterrement de vie de jeune fille Tel Aviv" / "despedida de soltera Tel Aviv".
 - High-intent niche with strong group booking affiliate potential.
+
+## iter1135 RESEARCH (2026-08-10) — 245th pass: FR/DE/ES gaps for FR-55 batch
+Scan sources: menufretin.fr, pferdreiter.de, ampascachi.com, routard.com, touristisrael.com, americaisraeltours.com, travelpulse.com
+
+**Jerusalem coffee guide (FR/DE/ES)**
+- menufretin.fr: one thin article on "café arabe" / Ottoman coffee — no specialty coverage
+- routard.com: brief mention of café culture in cuisine/boissons section only
+- Zero FR/DE/ES editorial covering Power CoffeeWorks / Emek Refaim cluster / Shabbat café hours
+- Verdict: our guide would be THE reference in all 3 locales
+
+**Horseback riding Israel (FR/DE/ES)**
+- pferdreiter.de: German tour operator page covering Israel equestrian — commercial, not editorial
+- ampascachi.com: German blog post on Israel horseback riding — thin content, no specific trail data
+- Zero French editorial coverage (no "randonnée équestre Israël" editorial)
+- Zero Spanish/Latin American editorial coverage
+- Verdict: strong gap; our guide with Vered HaGalil + Habokrim Ranch detail would dominate
+
+**Sports events Israel (FR/DE/ES)**
+- lonelyplanet.com: brief list entry only, no dedicated guide
+- Zero FR editorial for "événements sportifs Israël" / "matchs de foot Israël"
+- Zero DE editorial for "Sport in Israel" / "Fußball Israel"
+- Zero ES editorial for "eventos deportivos Israel" / "fútbol Israel Bloomfield"
+- Verdict: very wide gap across all 3 locales
+
+**2026 new openings (all markets)**
+- touristisrael.com/americaisraeltours.com: English roundups of 2026 hotel + experience openings
+- Zero FR/DE/ES editorial on new attractions 2026 (National Campus Archaeology, Galilee Culinary Institute)
+- Bible Road Highway 60 rebrand: zero coverage in any language including EN
