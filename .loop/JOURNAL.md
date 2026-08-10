@@ -16595,3 +16595,10 @@ ES guides: 319→324/401.
 Next: iter1124 REVIEW (1124%5=4) — review-1124-es64-meta-trim: audit 5 ES-64 guides for title ≤54, desc ≤151, /es/* cross-link validity, no H1 in body, heroImages present, no fabricated prices/ratings. Also check nativity-trail description length (may be slightly over 151).
 
 stopped: STOP flag
+
+## 2026-08-10T03:35Z · iter 1124 · REVIEW · review-1124-es64-meta-trim SHIPPED
+What: Meta-trim audit of 5 ES-64 guides (nahal-alexander-guide, nahal-pratzim-guide, israel-surfing, jerusalem-first-station-guide, nativity-trail-guide).
+Fixes: 5 titles trimmed ≤54 (nahal-alexander 59→50, nahal-pratzim 58→54, israel-surfing 55→47, jerusalem-first-station 58→48, nativity-trail 55→50); 3 descriptions trimmed ≤151 (nahal-pratzim 157→146, israel-surfing 157→138, nativity-trail 162→139). 15/15 /es/* cross-links valid. No H1 in body. HeroImages present. No fabricated prices (price ranges unchanged).
+Gate: pnpm check 0 errors | build 1773 pages | test:e2e 10/10 targeted pass.
+Ship: commit 64ffe5c8 on master, pushed to origin/master.
+Next: iter1125 RESEARCH (1125%5=0) — scan for FR-52/DE-50/ES-65 batch definitions, new EN guides, competitor gap analysis.
