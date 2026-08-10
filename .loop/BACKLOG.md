@@ -2526,8 +2526,8 @@ ES-60 batch (soreq-cave-guide, negev-incense-route, skyfield-extreme-park-jaffa,
 - tabgha-church-guide: /es/3-days-in-galilee ✓, /es/nazareth-travel-guide ✓, /es/sea-of-galilee-guide ✓.
 See ES-60 batch definition above — SHIPPED iter1121 fc8aabd6.
 
-### ES-64 batch definition (iter1115 RESEARCH — ready, but SHIP AFTER ES-60)
-All 5 confirmed MISSING from ES. FR SHIPPED iter1116. DE SHIPPED iter1118. ES pending.
+### ES-64 batch definition (iter1115 RESEARCH — SHIPPED iter1123 · commit 8006b865)
+All 5 confirmed MISSING from ES. FR SHIPPED iter1116. DE SHIPPED iter1118. ES SHIPPED iter1123.
 Cross-links all verified in ES locale (iter1120 verification):
 - nahal-alexander-guide: /es/caesarea-guide ✓, /es/day-trips-from-tel-aviv ✓, /es/birdwatching-in-israel ✓, /es/israel-national-parks-pass ✓, /es/israel-with-kids ✓.
 - nahal-pratzim-guide: /es/mitzpe-ramon-guide ✓, /es/hiking-in-israel ✓, /es/israel-adventure-sports ✓, /es/3-days-in-negev ✓.

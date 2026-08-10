@@ -6,19 +6,19 @@
 >
 > One bounded slice per loop iteration. NEVER bulk-translate in one shot.
 
-## Current status snapshot (2026-08-09 iter1118 BUILD — DE-49 SHIPPED iter1118 5c4da252; next DE REVIEW = iter1119 de-49-meta-trim [⚠ 2 descs OVER hard limit]; FR-51 SHIPPED iter1116 091eaa68 REVIEW iter1117 e0635d6d; ES-63 SHIPPED iter1113 5a414d8b REVIEW iter1114 21c3462a)
+## Current status snapshot (2026-08-10 iter1123 BUILD — ES-64 SHIPPED iter1123 8006b865; iter1122 REVIEW es-60-meta-trim SHIPPED ef2abed0; DE-49 SHIPPED iter1118 5c4da252; FR-51 SHIPPED iter1116 091eaa68)
 
 | Locale | Guides | Attractions | Regions | Itineraries |
 |--------|--------|-------------|---------|-------------|
 | en     | 401    | 65          | 11      | 6           |
 | fr     | 342    | 61          | 11      | 6           |
 | de     | 333    | 61          | 11      | 6           |
-| es     | 314    | 61          | 11      | 6           |
+| es     | 324    | 61          | 11      | 6           |
 
 **🎉 MILESTONE: ES + FR + DE monthly guides ALL COMPLETE** (iter996+iter997 ES-41+ES-42 SHIPPED — all 12 per-month guides jan-dec now exist in ES, FR, and DE)
 
 **Gaps to close:**
-- es guides: **87 missing** (314/401 done — Phase ES-63 SHIPPED iter1113 5a414d8b + REVIEW iter1114 21c3462a; **next ES BUILD = ES-64** — TBD in next RESEARCH iteration; same 5 guides as FR-51/DE-49: nahal-alexander-guide + nahal-pratzim-guide + israel-surfing + jerusalem-first-station-guide + nativity-trail-guide)
+- es guides: **77 missing** (324/401 done — ES-64 SHIPPED iter1123 8006b865 + REVIEW iter1124 pending; **next ES BUILD = ES-65** — tel-megiddo-guide + arava-mountain-biking + palmahim-beach-guide + galilee-culinary-institute-gonen + red-canyon-eilat [per iter1120 RESEARCH])
 - fr guides: **59 missing** (342/401 done — Phase FR-51 SHIPPED iter1116 091eaa68 + REVIEW iter1117 e0635d6d; **next FR BUILD = FR-52** — TBD in next RESEARCH iteration)
 - de guides: **68 missing** (333/401 done — Phase DE-49 SHIPPED iter1118 5c4da252; **next DE REVIEW = iter1119** de-49-meta-trim [PRIORITY: jerusalem-first-station desc 168→≤151, nativity-trail desc 169→≤151]; **next DE BUILD = DE-50** — TBD)
 - fr/de/es attractions: **4 missing each** (the 4 EN attractions added after Phase 4)

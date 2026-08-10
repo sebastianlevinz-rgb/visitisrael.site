@@ -16579,3 +16579,17 @@ What: Meta-trim audit of 5 ES-60 guides. All titles trimmed to ≤54 (max 54), a
 Gate: pnpm check 0 errors. No build/e2e needed (metadata-only changes).
 Ship: commit ef2abed0 on master, pushed.
 Next: iter1123 BUILD (1123%5=3) — fr-52 or de-50 or es-64 batch per BACKLOG.
+
+## 2026-08-10 · iter 1123 · BUILD · es-64-batch SHIPPED
+What: 5 LATAM Spanish ES guides (ES-64 batch — same as FR-51/DE-49):
+  - nahal-alexander-guide: Nile soft-shelled turtles (Trionyx triunguis), Turtle Bridge (Gesher HaTzabim), 3km riverside trail, Hof Bet Yanai beach; INPA trail free/beach covered/parking separate; 40km north TLV near Netanya; verdictName+verdictQuery absent (topic doesn't need booking CTA)
+  - nahal-pratzim-guide: Mount Sodom salt diapir, Flour Cave (calcium-sulfate dust), Nahal Pratzim slot canyon; 3 trail options (15min/1.5km loop/20km hard); no INPA fee (free); flash-flood safety section; Lot's Wife labeled geological; Route 90 km 193-194
+  - israel-surfing: Mediterranean surf culture; Jerusalem Beach/Bat Yam/Jaffa South/Herzliya Pier/Haifa Bat Galim spots; Oct-Mar peak; group lesson ₪100-180 / board hire ₪60-80 hour (ranges only); Windguru/Magicseaweed/ISRA references; no big-wave hype (honest: beginners+intermediates); Eilat no-surf note
+  - jerusalem-first-station-guide: HaTachana HaRishona 1892 Ottoman terminus (first in Levant), 4,000sqm complex renovated 2013, Thu/Fri artisan market, Lechem Basar, Park HaMesila 7km trail, German Colony; Shabbat closure clear; kosher info; meal ranges ₪80-180
+  - nativity-trail-guide: 160km Nazareth→Bethlehem 8-10 days; PA Zone A+B safety advisory; WalkPalestine+ATG operator refs; Burqin/Sebastiyya/Nablus/Jericho/Bethlehem; LATAM gov links (Spain/Mexico/Argentina/Colombia); verdictName+verdictQuery included
+10 new e2e routes added to smoke.spec.ts + a11y.spec.ts.
+Gate: pnpm check 0 errors | build 1773 pages (+5 from 1768) | test:e2e 10/10 PASS (9.8s).
+Ship: commit 8006b865 on master, pushed to origin/master (rebased over ffaccef1 review advance).
+Branch auto/es-64-batch retained locally (squash anomaly — files committed directly to master after rebase).
+ES guides: 319→324/401.
+Next: iter1124 REVIEW (1124%5=4) — review-1124-es64-meta-trim: audit 5 ES-64 guides for title ≤54, desc ≤151, /es/* cross-link validity, no H1 in body, heroImages present, no fabricated prices/ratings. Also check nativity-trail description length (may be slightly over 151).
