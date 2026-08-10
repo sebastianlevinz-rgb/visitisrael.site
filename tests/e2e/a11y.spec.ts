@@ -1178,6 +1178,11 @@ const ROUTES = [
   '/es/yam-caesarea-guide',
   '/es/zionist-heritage-trail',
   '/es/luxury-arava-desert',
+  '/es/yam-lyam-sea-to-sea-hike',
+  '/es/terminal-park-eilat',
+  '/es/tel-aviv-street-art',
+  '/es/jerusalem-light-rail-guide',
+  '/es/pet-friendly-israel',
 ];
 
 for (const route of ROUTES) {
