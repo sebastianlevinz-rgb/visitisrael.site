@@ -16770,3 +16770,17 @@ Gate: pnpm check 0 errors | build 1818 pages (+5 desde 1813) | test:e2e 10/10 ta
 EN=398, FR=357/398, DE=348/398, ES 334→339/398. missing-all-3=25.
 Commit: b102c908. Pushed to origin/master.
 Next: iter 1139 = REVIEW (1139 % 5 = 4) — meta-trim audit pass for ES-67 guides (title ≤54 chars, desc ≤151 chars, link validity, no H1 in body).
+
+## 2026-08-10T19:15Z · iter 1139 · REVIEW · review-1139-es67-meta-audit CLEAN
+Mode: REVIEW (1139 % 5 = 4).
+Startup: fresh cloud clone; git fetch + git reset --hard origin/master → 1824be8d. pnpm install clean (7.3s). No e2e run needed (no code changes).
+What: Audited all 5 ES-67 guides (yam-lyam-sea-to-sea-hike, terminal-park-eilat, tel-aviv-street-art, jerusalem-light-rail-guide, pet-friendly-israel) for meta limits, internal links, H1 presence, heroImages, and honesty.
+Findings:
+  Titles: all ≤54 chars — yam-lyam 47, terminal-park 47, street-art 42, light-rail 44, pet-friendly 44. ✓
+  Descs: all ≤151 chars — yam-lyam 143, terminal-park 145, street-art 142, light-rail 150, pet-friendly 131. ✓
+  Internal links: 25/25 /es/* links valid. ✓
+  H1 in body: none (all 5 guides). ✓
+  HeroImages: all 4 image paths present on disk (/images/regions/galilee/hero.jpg, /images/regions/eilat/hero.jpg, /images/regions/tel-aviv/hero.jpg, /images/regions/jerusalem/hero.jpg). ✓
+  Honesty: no ratingValue/aggregateRating/reviewCount/exact prices — clean. ✓
+Result: CLEAN — no fixes required. No code shipped.
+Next: iter 1140 = RESEARCH (1140 % 5 = 0 → 250th research pass; confirm locale counts; define FR-56/DE-54/ES-69 batch from BACKLOG FR-55/DE-53/ES-68 or discover next batch).
