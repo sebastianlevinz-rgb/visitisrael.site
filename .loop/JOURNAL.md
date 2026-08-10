@@ -16573,3 +16573,9 @@ Next: iter1122 REVIEW (1122%5=2) — es-60-meta-trim: audit 5 ES-60 guides for t
 
 ## 2026-08-10 · iter 1122 · REVIEW · review-1122-es60-meta-trim (PENDING)
 Next: audit 5 ES-60 guides (soreq-cave-guide, negev-incense-route, skyfield-extreme-park-jaffa, tel-aviv-coffee-guide, tabgha-church-guide) for title ≤54, desc ≤151, /es/* cross-link validity, no H1 in body, heroImages present, no fabricated prices/ratings. 1122%5=2 → REVIEW mode.
+
+## 2026-08-10 · iter 1122 · REVIEW · review-1122-es60-meta-trim SHIPPED
+What: Meta-trim audit of 5 ES-60 guides. All titles trimmed to ≤54 (max 54), all descs trimmed to ≤151 (max 149). 18/18 /es/* cross-links valid. No H1 in body. HeroImages present. No fabricated prices/ratings.
+Gate: pnpm check 0 errors. No build/e2e needed (metadata-only changes).
+Ship: commit ef2abed0 on master, pushed.
+Next: iter1123 BUILD (1123%5=3) — fr-52 or de-50 or es-64 batch per BACKLOG.
