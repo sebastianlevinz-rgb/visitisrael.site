@@ -16642,3 +16642,12 @@ Gate: pnpm check 0 errors | build 1788 pages (+5 from 1783) | test:e2e 10/10 tar
 Ship: squash-merged to master b5af5194; pushed to origin/master.
 Prod: Lighthouse CI + CI workflows in_progress at state-write (gate passed locally; no failures detected).
 ES guides: 324→329/401. Build +5 pages. FR-52/DE-50/ES-65 batch fully complete across all 3 locales.
+
+## 2026-08-10T08:45Z · iter 1129 · REVIEW · review-1129-es65-meta-trim
+What: Audited the 5 ES-65 guides for meta overruns, link validity, H1, heroImages, honesty, INPA flags.
+Clean: 10/10 /es/* internal links valid. No H1 in body. All heroImages present. No fabricated prices/ratings. INPA flags correctly noted. verdictName+verdictQuery present on 3/5 as intended.
+Meta fixes (5 issues found): arava-mountain-biking desc 169→128 chars (OVER_HARD); palmahim-beach-guide desc 176→144 (OVER_HARD); ashkelon-guide title 63→53 (OVER_OPT), desc 170→127 (OVER_HARD); red-canyon-eilat desc 157→132 (OVER_OPT).
+tel-megiddo-guide was fully clean (title 48, desc 140 — both within limits).
+Gate: pnpm check 0 errors | build 1788 | test:e2e 10/10 targeted PASS.
+Ship: squash-merged to master a4989124; pushed to origin/master.
+Prod: CI in_progress at state-write.
