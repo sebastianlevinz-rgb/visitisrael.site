@@ -1,14 +1,14 @@
 # LOOP STATE
 
-- iteration: 1139
-- lastMode: REVIEW
-- lastItem: review-1139-es67-meta-audit (meta-trim audit of 5 ES-67 guides)
-- lastResult: iter1139 REVIEW es-67-meta-audit CLEAN. All 5 titles ≤54 (42–47 chars). All 5 descs ≤151 (131–150 chars). 25/25 /es/* links valid. No H1 in body. All 4 heroImages present. No fabricated prices/ratings. No code shipped.
+- iteration: 1140
+- lastMode: RESEARCH
+- lastItem: research-1140-fr56-de54-es69-batch (250th research pass; FR-56/DE-54/ES-69 batch defined; locale counts verified)
+- lastResult: iter1140 RESEARCH — 250th research pass. Verified EN=398, FR=357/398 (41 missing), DE=348/398 (50 missing), ES=339/398 (59 missing). Actual missing-all-3 = 30 (corrected from STATE estimate of 25). FR-55/DE-53/ES-68 batch already defined (iter1135) and confirmed in BACKLOG. Defined FR-56/DE-54/ES-69 batch: maccabiah-games-2026 + lag-baomer-israel + israeli-passport-stamp + israel-power-plug + israel-diamonds-jewelry. All 5 confirmed MISSING from all 3 locales. All cross-links pre-verified (maccabiah: /sports-events-israel MISSING all 3 → EN fallback; israeli-passport-stamp: ES /petra-from-eilat-vs-amman MISSING → /es/petra-wadi-rum-from-eilat). No code shipped.
 
-- nextRotationCategory: RESEARCH (1140 % 5 = 0 → 250th research pass; define FR-56/DE-54/ES-69 batch; verify locale counts)
+- nextRotationCategory: BUILD (1141 % 5 = 1 → FR-55 batch: sports-events-israel + tel-aviv-bachelorette + air-haifa-haifa-airport-guide + jerusalem-coffee-guide + israel-horseback-riding)
 - higgsfieldSpent: 0
-- updatedAt: 2026-08-10T19:15Z
-- branch context: master at 1824be8d; EN=398, FR=357/398, DE=348/398, ES=339/398; missing-all-3=25
+- updatedAt: 2026-08-10T19:45Z
+- branch context: master at 5a2b9e5f; EN=398, FR=357/398, DE=348/398, ES=339/398; missing-all-3=30
 
 Notes: iter1137 BUILD — DE-52 SHIPPED. 5 DE guides: yam-lyam-sea-to-sea-hike (89km Nahariya/Achziv→Ginosar; Galiläa; Montfort Deutschritter 13. Jh.; Druze-Dörfer Beit Jan+Hurfeish; Mt. Meron 1208m höchster Gipfel Israels; Safed Kabbala; 4-Tages-Tabelle; GYG+Discovercars+Booking CTAs; 6 FAQs; DAV-Wandermarkt DACH-Winkel), terminal-park-eilat (150.000 m² Ex-Landebahn Flughafen Omeida; Riesenrad + Naturbecken + Wasserfall + Nebelplatz + Food Trucks; Rotes Meer + Edom-Berge-Panorama; GYG+Discovercars+Booking CTAs; 6 FAQs), tel-aviv-street-art (Florentin — Frenkel+Vitalstraße; Berlin-Friedrichshain/Wien-Gürtel-Analogie; Jaffa Hassan-Bek/Manshiyye; GYG+Booking CTAs; 6 FAQs), jerusalem-light-rail-guide (Rote Linie 23.5km + Grüne Linie Malha→HaTurim Juli 2026; Rav-Kav; Schlüsselhaltestellen; Schabbat-Sperrung; Ben-Gurion-Anschluss via Malha; GYG+Booking CTAs; 6 FAQs), pet-friendly-israel (EU-Heimtierausweis + Mikrochip ISO 11784/11785 + Tollwut 21 Tage vor Einreise + Ektoparasiten 48–120h; Hilton Beach Hundestrand + Gordon Beach + Hayarkon Park; Atlas Boutique Hotels TLV; Mietwagen Pflicht; Vetimédik 24h; GYG+Discovercars+Booking CTAs; 6 FAQs). Standard Hochdeutsch; YAML-ASCII-Anführungszeichen sauber; alle /de/* Cross-Links vorab verifiziert; keine fabrizierten Preise/Bewertungen; kein H1 im Body; 10 neue e2e-Routen (5 smoke + 5 a11y). DE guides: 343→348/398. Build: 1808→1813 pages (+5). Gate: pnpm check 0 errors | build 1813 | test:e2e PASS.
 
