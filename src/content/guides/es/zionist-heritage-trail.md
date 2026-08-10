@@ -1,6 +1,6 @@
 ---
-title: 'Ruta del Patrimonio Sionista: Sitios Fundacionales del Estado de Israel'
-description: 'Recorre los orígenes del Estado de Israel — el Monte Herzl, Sde Boker, el primer kibutz en Degania y el memorial de Tel Hai. Circuito en coche para viajeros de historia.'
+title: 'Ruta del Patrimonio Sionista en Israel'
+description: 'Monte Herzl, Sde Boker, Degania y Tel Hai: los sitios fundacionales del Estado de Israel. Circuito en coche para viajeros de historia.'
 heroImage: /images/regions/jerusalem/hero.jpg
 category: History
 updatedAt: 2026-08-10
@@ -69,7 +69,7 @@ El 14 de mayo de 1948, David Ben Gurión se puso de pie en este edificio del Bou
 
 La sala ha sido conservada en su estado de 1948: sillas de madera, un retrato de Herzl en la pared, un podio. **Nota (actualizada julio de 2026): el Salón de la Independencia lleva cerrado por reforma desde 2024 y no tiene fecha de reapertura publicada.** El exterior sobre el Boulevard Rotschild sigue siendo visible y merece una parada en cualquier paseo por la Ciudad Blanca. Comprueba el estado actual en el sitio web del municipio de Tel Aviv antes de planificar una visita específica para entrar. El **Pabellón de la Democracia** (instalación interactiva gratuita en el Boulevard Rotschild) está abierto y ofrece la experiencia de historia sobre la fundación del estado mientras el interior permanece cerrado.
 
-El propio Boulevard Rotschild — donde se firmó la Declaración — merece un paseo lento. La [Ciudad Blanca de Tel Aviv](/es/tel-aviv-white-city) con edificios Bauhaus e Internacionales empieza aquí.
+El propio Boulevard Rotschild — donde se firmó la Declaración — merece un paseo lento. La [Ciudad Blanca de Tel Aviv](/tel-aviv-white-city) con edificios Bauhaus e Internacionales empieza aquí.
 
 ---
 

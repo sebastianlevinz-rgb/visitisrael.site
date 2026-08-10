@@ -1,5 +1,5 @@
 ---
-title: 'Yam Caesarea: Guía del Primer Parque Marino Nacional de Israel'
+title: 'Yam Caesarea: Primer Parque Marino Nacional de Israel'
 description: 'Guía de Yam Caesarea: el primer parque marino nacional de Israel, el puerto herodiano sumergido, rutas de snórkel y cómo visitar.'
 heroImage: /images/regions/caesarea/hero.jpg
 category: Destinations

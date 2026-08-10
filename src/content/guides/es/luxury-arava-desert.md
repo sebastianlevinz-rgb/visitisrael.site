@@ -1,6 +1,6 @@
 ---
-title: 'Six Senses Shaharut: Retiro de Lujo en el Desierto de Aravá'
-description: 'Six Senses Shaharut: el resort de lujo en el desierto israelí con certificación MICHELIN en el Valle de Aravá. Arquitectura desértica, spa de bienestar y observación astronómica a 45 km de Eilat.'
+title: 'Six Senses Shaharut: Retiro de Lujo en Aravá'
+description: 'Six Senses Shaharut, resort MICHELIN en el Valle de Aravá. Bienestar, arquitectura desértica y cielos oscuros, a 45 km de Eilat.'
 heroImage: /images/regions/negev/hero.jpg
 category: Accommodation
 updatedAt: 2026-08-10

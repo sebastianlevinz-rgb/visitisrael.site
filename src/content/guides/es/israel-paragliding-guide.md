@@ -1,5 +1,5 @@
 ---
-title: 'Parapente en Israel: Vuelos Tándem y Zonas de Vuelo (2026)'
+title: 'Parapente en Israel: Tándem y Zonas de Vuelo'
 description: 'Guía de parapente en Israel — vuelos tándem sobre el Mediterráneo, Galilea y el Cráter Ramón. Zonas de vuelo, operadores, mejores épocas y reservas.'
 heroImage: /images/regions/haifa/carmel.jpg
 category: Outdoor

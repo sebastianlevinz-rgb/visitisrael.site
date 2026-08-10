@@ -1,6 +1,6 @@
 ---
-title: 'Camino de Peregrinación de Jerusalén: Calle Escalonada Herodiana (2026)'
-description: 'Guía del Camino de Peregrinación de Jerusalén: la calle escalonada de 2.000 años desde la Pileta de Siloé hasta el Monte del Templo, abierta en enero 2026.'
+title: 'Camino de Peregrinación de Jerusalén: Guía 2026'
+description: 'Camino de Peregrinación de Jerusalén: calle escalonada herodiana de 2.000 años desde la Pileta de Siloé hasta el Monte del Templo, inaugurada en 2026.'
 heroImage: /images/sub-destinations/jerusalem/city-of-david.jpg
 category: Archaeological Sites
 updatedAt: 2026-08-10
