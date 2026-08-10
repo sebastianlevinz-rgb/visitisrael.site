@@ -2589,7 +2589,7 @@ Market angles per locale:
 - DE-51: Pilgerstraße Jerusalem + Paragleiten Israel DACH + Unterwasserarchäologie + Herzl österreichisch DACH-Resonanz + Luxus-Wellness-Wüste.
 - ES-66: Camino de la Peregrinación Jerusalén cristiano LATAM + parapente aventura + buceo arqueológico + sionismo LATAM diáspora + lujo eco-desierto LATAM.
 
-Status: ready [iter1125 research — all verified 2026-08-10; ES fallbacks noted above]
+Status: FR-53 SHIPPED iter1131 160673b8 (2026-08-10); DE-51 + ES-66 still READY
 
 ### New EN items [iter1120 research · 2026-08-10]
 

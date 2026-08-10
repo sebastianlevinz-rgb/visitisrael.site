@@ -16664,3 +16664,18 @@ New BACKLOG items (2): sports-events-israel FR+DE+ES (P2/S) + tel-aviv-bachelore
 Gate: N/A (RESEARCH mode, no code).
 Ship: N/A (memory-only; .loop/ files committed to master).
 Next: iter 1131 = BUILD (1131 % 5 = 1). nextRotationCategory = FR-53 batch (jerusalem-pilgrimage-road + israel-paragliding-guide + yam-caesarea-guide + zionist-heritage-trail + luxury-arava-desert).
+
+## 2026-08-10T11:05Z · iter 1131 · BUILD · fr-53-batch
+Mode: BUILD (1131 % 5 = 1).
+Startup: resumed from context-compacted session on branch auto/fr-53-batch; 5 FR guide files already written; description overrun in luxury-arava-desert (174→153 chars) fixed before gate.
+What: 5 FR guides for FR-53 batch shipped:
+  1. jerusalem-pilgrimage-road — rue à marches hérodienne 600m; Piscine de Siloé → Mont du Temple; inaug sept 2025; public jan 2026; Silwan/Elad political context; verdictName+verdictQuery; GYG+Booking CTAs; 5 FAQs.
+  2. israel-paragliding-guide — 3 sites: Carmel/Atlit (brise marine; oct–juin), Galilée/Golan (Katzrin; printemps+automne), cratère Ramon (thermiques; printemps+automne); 2 opérateurs agréés CAAI (Adventure Israel + Paragliding Israel); no exact prices; verdictName+verdictQuery; GYG+Viator+Abraham CTAs; 6 FAQs.
+  3. yam-caesarea-guide — premier parc marin national Israël désigné 25 nov 2024; 108ha; port Sébaste Hérode ~20 BCE béton hydraulique; 4 sentiers balisés (bleu+jaune = apnée, vert+rouge = plongée); sole INPA operator caesarea-diving.com; INPA pass land-side only; GYG+Discovercars CTAs; 5 FAQs.
+  4. zionist-heritage-trail — 6 sites: Mont Herzl (tombe Herzl + cimetière militaire + Musée Herzl) + Salle Indépendance TLV (fermée rénovation 2024 — notée) + Rishon LeZion (1882; Rothschild hook FR angle) + Sde Boker (maison Ben Gourion; canyon Nahal Zin) + Degania Aleph (1er kibboutz 1910; char syrien 1948) + Tel Haï (Trumpeldor 1920; Lion rugissant); 4-day circuit table; GYG+Viator+Discovercars CTAs; 6 FAQs.
+  5. luxury-arava-desert — Six Senses Shaharut MICHELIN Selected; $900–1400/nuit range (from EN source); dark-sky SPNI protocol; Sleep & Recovery programme; Bedouin herbal treatments; Timna Park separate ticketing (timna-park.co.il not INPA); Petra extension; 90 min Eilat airport; Booking+GYG+Discovercars CTAs; 6 FAQs.
+Gate: pnpm check 0 errors | build 1793 pages (+5) | test:e2e 10/10 targeted PASS.
+Ship: squash-merged to master 160673b8; pushed to origin/master.
+Prod: commit confirmed on GitHub; Vercel auto-deploy in progress.
+Locale counts post-ship: EN=398, FR=352/398 (46 missing), DE=338/398 (60 missing), ES=329/398 (69 missing). Missing from all 3: 35.
+Next: iter 1132 = BUILD (1132 % 5 = 2). nextRotationCategory = DE-51 batch (same 5 guides in German).
