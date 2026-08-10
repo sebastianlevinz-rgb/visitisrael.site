@@ -6,23 +6,23 @@
 >
 > One bounded slice per loop iteration. NEVER bulk-translate in one shot.
 
-## Current status snapshot (2026-08-10 iter1126 BUILD — FR-52 SHIPPED iter1126 4bcb1de7; ES-64 SHIPPED iter1123 8006b865; iter1122 REVIEW es-60-meta-trim SHIPPED ef2abed0; DE-49 SHIPPED iter1118 5c4da252)
+## Current status snapshot (2026-08-10 iter1127 BUILD — DE-50 SHIPPED iter1127 6a45c0a5; FR-52 SHIPPED iter1126 4bcb1de7; ES-64 SHIPPED iter1123 8006b865; DE-49 SHIPPED iter1118 5c4da252)
 
 | Locale | Guides | Attractions | Regions | Itineraries |
 |--------|--------|-------------|---------|-------------|
 | en     | 401    | 65          | 11      | 6           |
 | fr     | 347    | 61          | 11      | 6           |
-| de     | 333    | 61          | 11      | 6           |
+| de     | 338    | 61          | 11      | 6           |
 | es     | 324    | 61          | 11      | 6           |
 
 **🎉 MILESTONE: ES + FR + DE monthly guides ALL COMPLETE** (iter996+iter997 ES-41+ES-42 SHIPPED — all 12 per-month guides jan-dec now exist in ES, FR, and DE)
 
 **Gaps to close:**
-- es guides: **77 missing** (324/401 done — ES-64 SHIPPED iter1123 8006b865 + REVIEW iter1124 pending; **next ES BUILD = ES-65** — tel-megiddo-guide + arava-mountain-biking + palmahim-beach-guide + galilee-culinary-institute-gonen + red-canyon-eilat [per iter1120 RESEARCH])
+- es guides: **77 missing** (324/401 done — ES-64 SHIPPED iter1123 8006b865; **next ES BUILD = ES-65** — tel-megiddo-guide + arava-mountain-biking + palmahim-beach-guide + galilee-culinary-institute-gonen + red-canyon-eilat [per iter1125 RESEARCH])
 - fr guides: **54 missing** (347/401 done — FR-52 SHIPPED iter1126 4bcb1de7; **next FR BUILD = FR-53** — jerusalem-pilgrimage-road + israel-paragliding-guide + yam-caesarea-guide + zionist-heritage-trail + luxury-arava-desert [iter1125 RESEARCH])
-- de guides: **68 missing** (333/401 done — Phase DE-49 SHIPPED iter1118 5c4da252; **next DE REVIEW = iter1119** de-49-meta-trim [PRIORITY: jerusalem-first-station desc 168→≤151, nativity-trail desc 169→≤151]; **next DE BUILD = DE-50** — TBD)
+- de guides: **63 missing** (338/401 done — DE-50 SHIPPED iter1127 6a45c0a5; **next DE BUILD = DE-51** — jerusalem-pilgrimage-road + israel-paragliding-guide + yam-caesarea-guide + zionist-heritage-trail + luxury-arava-desert [same as FR-53; all 5 confirmed missing from DE per iter1125 RESEARCH])
 - fr/de/es attractions: **4 missing each** (the 4 EN attractions added after Phase 4)
-- 4 new EN-only guides (no locale version yet): arava-mountain-biking + air-haifa-haifa-airport-guide + maccabiah-games-2026 + ashkelon-guide
+- 2 remaining new EN-only guides (no locale version yet): air-haifa-haifa-airport-guide + maccabiah-games-2026
 
 ### FR-49 batch definition (iter1100 RESEARCH — ready for next FR BUILD after FR-48 SHIPPED)
 Guides: `nimrod-fortress-guide.md`, `beit-alfa-guide.md`, `rosh-pina-guide.md`, `national-library-israel.md`, `jerusalem-mount-zion-guide.md`

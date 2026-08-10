@@ -16628,3 +16628,10 @@ Gate: pnpm check 0 errors | build 1778 pages | test:e2e 10/10 targeted PASS.
 Ship: squash-merged to master 4bcb1de7; pushed to origin/master.
 Prod: status pending at state-write (GitHub commit status API returned no statuses; next iteration will confirm).
 FR guides: 342→347/401. Build +5 pages.
+
+## 2026-08-10T07:00Z · iter 1127 · BUILD · de-50-batch
+What: 5 DE guides — tel-megiddo-guide, arava-mountain-biking, palmahim-beach-guide, ashkelon-guide, red-canyon-eilat. Standard Hochdeutsch; verdictName+verdictQuery on tel-megiddo+red-canyon; INPA-Pass gültig noted per guide (kostenlos + kein INPA on red-canyon; NICHT INPA on arava-mtb); DACH Bibelarchäologie hook on tel-megiddo; Deutschland = Europas größter Fahrradmarkt hook on arava-mtb; Caretta-Schildkröten Mai–Aug on palmahim; Auswärtiges Amt Sicherheitshinweis on ashkelon; comprehensive Sturzflut-Sicherheitsabschnitt with fatalities note on red-canyon; YAML-ASCII-Anführungszeichen clean; no fabricated prices; no H1 in body.
+Gate: pnpm check 0 errors | build 1783 pages (+5 from 1778) | test:e2e 10/10 targeted PASS.
+Ship: squash-merged to master 6a45c0a5; pushed to origin/master.
+Prod: Vercel auto-deploy triggered from master push.
+DE guides: 333→338/401. Build +5 pages.

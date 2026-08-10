@@ -5,6 +5,11 @@ Priorities P0 (highest) → P3. Status: ready | blocked:<reason> | in-progress.
 
 ## i18n — ready batches (next BUILD iterations)
 
+### DE-50 batch definition (iter1125 RESEARCH recommendation — same 5 guides as FR-52)
+Guides: `tel-megiddo-guide.md`, `arava-mountain-biking.md`, `palmahim-beach-guide.md`, `ashkelon-guide.md`, `red-canyon-eilat.md`
+All 5 confirmed MISSING from DE. Cross-links verified in DE.
+Status: SHIPPED iter1127 6a45c0a5
+
 ### FR-50 batch definition (iter1105 RESEARCH — ready for next FR BUILD after FR-49 SHIPPED)
 Guides: `zippori-sepphoris-guide.md`, `valley-of-elah-guide.md`, `atlit-detainee-camp-guide.md`, `binyamina-guide.md`, `hai-bar-yotvata-guide.md`
 All 5 confirmed MISSING from FR via comm -23 (2026-08-09). Cross-links all verified in FR.
@@ -68,11 +73,11 @@ Status: SHIPPED iter1106 27080c27
 ### Individual items for subsequent batches (iter1100 RESEARCH — new discoveries):
 - layover-jerusalem.md for DE+ES (P2/S, i18n-DE+ES) — exists in FR (already shipped) but MISSING from both DE+ES; "Stopover Jerusalem" practical guide; Allenby Bridge + Ben Gurion to Jerusalem transit; verdictName 8h+ layover; WelcomePickups + GYG + Booking CTAs; /de/1-day-jerusalem-itinerary ✓, /de/ben-gurion-airport-guide ✓ in DE; same in ES. status: ready
 - museum-of-tolerance-jerusalem.md for DE+ES (P2/S, i18n-DE+ES) — exists in FR (already shipped) but MISSING from both DE+ES; Simon Wiesenthal Center; Tolerance Museum + Carta Gallery; DACH Holocaust education niche; LATAM JMJM angle; Tiqets + GYG + Booking CTAs; /de/yad-vashem-visitor-guide ✓, /de/1-day-jerusalem-itinerary ✓ in DE; same in ES. status: ready
-- arava-mountain-biking.md for all 3 (P2/M, i18n-all) — NEW EN guide added Aug 2026 (all 3 locales MISSING); Arava desert mountain biking; SPNI trail network; Timna + Wadi Pratzim MTB circuits; Eilat MTB trail; DACH cycling market = top Europe; FR gravel/VTT niche; ES ciclismo de montaña; honesty note: requires Discovercars + GYG + Booking.com Eilat CTAs; /de/eilat-travel-guide ✓, /de/car-rental-israel ✓ etc. status: ready
+- arava-mountain-biking.md for all 3 (P2/M, i18n-all) — SHIPPED FR iter1126 4bcb1de7; SHIPPED DE iter1127 6a45c0a5; ES still MISSING (in es-65 batch per iter1125 RESEARCH). status: partially-shipped
 - air-haifa-haifa-airport-guide.md for all 3 (P2/S, i18n-all) — NEW EN guide added Aug 2026 (all 3 locales MISSING); Haifa airport (ICAO LLHA) reopened with Air Haifa domestic routes 2026; BGA→Haifa route; practical airport guide; very low competition in all 3 locales; /de/haifa-travel-guide ✓ etc. status: ready
 - maccabiah-games-2026.md for all 3 (P3/S, i18n-all) — NEW EN guide; Maccabiah 2026 (July 2026); "Jewish Olympics"; 10,000+ athletes; sports events tourism niche; time-sensitive but builds evergreen sports-tourism pillar; LATAM Jewish diaspora (Argentina/Brazil); DACH Jewish sports community; Booking.com TLV CTAs. status: ready
-- ashkelon-guide.md for all 3 (P3/M, i18n-all) — NEW EN guide added Aug 2026 (all 3 locales MISSING); coastal city south of TLV; Ashkelon National Park (Philistine-era ruins; INPA valid); Marina; Barnea beach; city gateway to the south; /es/israel-national-parks-pass ✓ etc. status: ready
-- tel-megiddo-guide.md for all 3 (P2/M, i18n-all) — existing EN guide, MISSING from all 3; UNESCO Tell Megiddo (26 civilization strata); "Armageddon" pilgrimage hook; Christian evangelical + Catholic LATAM buyer intent; pairs with existing megiddo-jezreel-valley-guide.md (area guide) + beit-alfa-guide.md (Jezreel cluster); israel-taxi.com / tzurtours.com rank with private-tour model = high commissions; /de/megiddo-jezreel-valley-guide ✓, /de/israel-national-parks-pass ✓ in all 3; GYG Tel Megiddo + Viator private tour CTAs. status: ready
+- ashkelon-guide.md for all 3 (P3/M, i18n-all) — SHIPPED FR iter1126 4bcb1de7; SHIPPED DE iter1127 6a45c0a5; ES still MISSING. status: partially-shipped
+- tel-megiddo-guide.md for all 3 (P2/M, i18n-all) — SHIPPED FR iter1126 4bcb1de7; SHIPPED DE iter1127 6a45c0a5; ES still MISSING (in es-65 batch per iter1125 RESEARCH). status: partially-shipped
 
 ### FR-47 batch definition (iter1090 RESEARCH — ready for next FR BUILD)
 Guides: `soreq-cave-guide.md`, `negev-incense-route.md`, `skyfield-extreme-park-jaffa.md`, `tel-aviv-coffee-guide.md`, `tabgha-church-guide.md`
