@@ -1,14 +1,16 @@
 # LOOP STATE
 
-- iteration: 1124
-- lastMode: REVIEW
-- lastItem: review-1124-es64-meta-trim
-- lastResult: iter1124 REVIEW SHIPPED 64ffe5c8 — review-1124-es64-meta-trim. 5 titles trimmed ≤54 (nahal-alexander 59→50, nahal-pratzim 58→54, israel-surfing 55→47, jerusalem-first-station 58→48, nativity-trail 55→50); 3 descs trimmed ≤151 (nahal-pratzim 157→146, israel-surfing 157→138, nativity-trail 162→139); 15/15 /es/* cross-links valid; no H1; heroImages present; no fabricated prices. Gate: pnpm check 0 errors | build 1773 | test:e2e 10/10 targeted PASS.
+- iteration: 1125
+- lastMode: RESEARCH
+- lastItem: research-1125-fr52-correction-fr53-de51-es66-definition
+- lastResult: iter1125 RESEARCH (236th pass) — No code shipped. CRITICAL BUG FIX: FR-52/DE-50/ES-65 batch had galilee-culinary-institute-gonen.md as item #4, but that guide is ALREADY translated into all 3 locales (iter931/932/933). Corrected item #4 → ashkelon-guide.md (confirmed missing all 3; all cross-links verified). NEW: FR-53/DE-51/ES-66 batch defined: jerusalem-pilgrimage-road + israel-paragliding-guide + yam-caesarea-guide + zionist-heritage-trail + luxury-arava-desert. All 5 verified missing all 3; all cross-links confirmed (ES fallbacks: water-hiking-israel→EN, tel-aviv-white-city→EN). COMPETITORS: zero editorial competitor in FR/DE/ES for any batch 52/53 targets. Tourism stats: US #1 market 35.2%; France #2; 1.3M visitors 2025. BACKLOG updated (batch 52 fix + batch 53 definition). JOURNAL + COMPETITORS appended.
 
-- nextRotationCategory: RESEARCH (1125 % 5 = 0 → research pass: check FR-52/DE-50/ES-65 batch definitions, scan for new EN guides, competitor gap analysis)
+- nextRotationCategory: BUILD (1126 % 5 = 1 → BUILD: fr-52 batch recommended — tel-megiddo + arava-mountain-biking + palmahim-beach + red-canyon-eilat + ashkelon-guide)
 - higgsfieldSpent: 0
-- updatedAt: 2026-08-10T03:35Z
-- branch context: master at 64ffe5c8; ES guides 324/401
+- updatedAt: 2026-08-10T04:55Z
+- branch context: master at adc9f920; EN=398 FR=342/398 DE=333/398 ES=324/398; missing-all-3=45
+
+Notes: iter1125 RESEARCH — 236th research pass. EN=398, FR=342/398, DE=333/398, ES=324/398. Missing from all 3: 45. CORRECTION: FR-52/DE-50/ES-65 batch item #4 was galilee-culinary-institute-gonen (already in all 3 locales since iter931/932/933) → replaced with ashkelon-guide.md (confirmed missing all 3). NEW: FR-53/DE-51/ES-66 batch defined (jerusalem-pilgrimage-road + israel-paragliding-guide + yam-caesarea-guide + zionist-heritage-trail + luxury-arava-desert; all 5 missing all 3; ES fallbacks: water-hiking-israel, tel-aviv-white-city). nova-festival-memorial-guide confirmed P1/M ready in BACKLOG (iter1120). Tourism stats: US 35.2% inbound market, France #2, 1.3M total 2025 visitors. No code shipped.
 
 Notes: iter1115 RESEARCH — 234th research pass. EN=398, FR=337/398, DE=328/398, ES=314/398. Missing from all 3: 50. Defined FR-51/DE-49/ES-64 batch: nahal-alexander-guide + nahal-pratzim-guide + israel-surfing + jerusalem-first-station-guide + nativity-trail-guide. All confirmed missing from all 3 locales. Cross-links verified (FR fallback /3-days-in-galilee for missing jesus-trail). Competitor finds: zero FR competitor for Israel surf guide (stormrider/surfertoday EN-only); Jerusalem First Station has only AI-generated rivals; Nahal Alexander 2025 record 160+ turtle nests = timely 2026 hook. Galilee Culinary Institute Oct 2026 programs now open → ready upgrade. 1 new BACKLOG item: ramat-gan-diamond-exchange-guide (P2/M).
 

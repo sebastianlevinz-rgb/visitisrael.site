@@ -8472,3 +8472,52 @@ Sources: alltrails.com, tripadvisor.com, touristisrael.com, israel-in-photos.com
 - **manilatimes.net** (Jun 2026): INPA resumed operations at Tel Megiddo among other heritage sites.
 - **Frommer's / LP**: No dedicated Tel Megiddo page (only Megiddo listed as archaeological site mention).
 - **Verdict**: tel-megiddo-guide.md (EN shipped) is ahead of major publishers. i18n in FR-52/DE-50/ES-65 will fill gap.
+
+## iter1125 RESEARCH — 2026-08-10 — 236th research pass
+
+### Locale count verification (filesystem, 2026-08-10)
+- EN: 398 root guides
+- FR: 342/398 (56 missing)
+- DE: 333/398 (65 missing)
+- ES: 324/398 (74 missing)
+- Missing from all 3: 45 guides
+
+### FR-52/DE-50/ES-65 batch correction
+- galilee-culinary-institute-gonen.md was listed as item #4 in the iter1120 batch definition but is ALREADY translated into all 3 locales (iter931 ES, iter932 FR, iter933 DE). Filesystem confirmed: fr/ ✓, de/ ✓, es/ ✓.
+- Replacement: ashkelon-guide.md — confirmed MISSING from all 3 locales. Key links: /day-trips-from-tel-aviv ✓, /israel-national-parks-pass ✓, /israel-military-heritage ✓ all 3. No EN fallbacks needed. heroImage: /images/regions/tel-aviv/beaches.jpg.
+- Batch is corrected in BACKLOG.md: tel-megiddo, arava-mountain-biking, palmahim-beach, red-canyon-eilat, ashkelon-guide — all 5 verified missing all 3.
+
+### FR-53/DE-51/ES-66 batch (new definition)
+- 5 guides confirmed missing from all 3 (filesystem comm -23 verified):
+  1. jerusalem-pilgrimage-road — January 2026 opened; all FR/DE/ES cross-links ✓
+  2. israel-paragliding-guide — parapente/Paragleiten/parapente; all FR/DE/ES ✓
+  3. yam-caesarea-guide — marine NP; FR/DE ✓; ES: water-hiking-israel → EN fallback
+  4. zionist-heritage-trail — Herzl/Degania/Sde Boker; FR/DE ✓; ES: tel-aviv-white-city → EN fallback
+  5. luxury-arava-desert — Six Senses Shaharut MICHELIN; all FR/DE/ES ✓
+- Zero competitor editorial in any of FR/DE/ES for these 5 targets.
+
+### Nova Festival Memorial — competitor landscape update
+- KKL-JNF confirmed site is Israel's most visited (200K visitors/month Oct 2024–Feb 2025; ynetnews.com + ToI).
+- Major tour operators now running dedicated tours: Amazing Jerusalem, Bein Harim, Exclusive Israel Tours, slavaguide.com, World Jewish Travel, GuideAndGo, My Israel Guide.
+- Zero standalone editorial guide on any major travel platform in EN, FR, DE, or ES.
+- nova-festival-memorial-guide already in BACKLOG as P1/M ready [iter1120].
+
+### Tourism recovery statistics (Aug 2026)
+- 1.3M international tourists visited Israel in 2025 (Forbes, Jan 2026).
+- Top source markets: US 400K (35.2%), France ~159K, UK ~95K.
+- Jan 2026: 120K–125K visitors, +50% vs Jan 2025.
+- Hotel overnight stays +70% YoY.
+- Jan–May 2026: 344,900 international tourists, 36.9% YoY decline (airspace disruptions).
+- Source: travelandtourworld.com, nomadlawyer.org, itn.co.il, Forbes.
+
+### Rosh Hanikra cable car (current status)
+- Cable car "restored to operation in 2025" — our rosh-hanikra-guide.md already reflects this (updatedAt 2026-07-30). No update needed.
+
+### Schottenstein National Campus (current status)
+- Jay & Jeanie Schottenstein Campus opened 2026; Leon Levy Visitor Center (national treasures + Dead Sea Scrolls) expected early 2027. Our schottenstein-campus-jerusalem.md already up to date (updatedAt 2026-07-18). No update needed.
+
+### Competitor editorial gap landscape
+- FR market: partirou.com (thin overview), voirisrael.com (guides directory), alexguideisrael.com (individual guide). Zero serious FR editorial competitor for individual site guides.
+- DE market: zero DACH editorial competitor for Israel niche guides. israel-reiseleiter.com = thin blog only.
+- ES market: israelturismo.com (tour operator), info.goisrael.com/es (official listing). Zero LATAM editorial competitor for individual guide pages.
+- Every guide in FR/DE/ES we ship is first-mover in its search vertical.

@@ -16602,3 +16602,22 @@ Fixes: 5 titles trimmed ≤54 (nahal-alexander 59→50, nahal-pratzim 58→54, i
 Gate: pnpm check 0 errors | build 1773 pages | test:e2e 10/10 targeted pass.
 Ship: commit 64ffe5c8 on master, pushed to origin/master.
 Next: iter1125 RESEARCH (1125%5=0) — scan for FR-52/DE-50/ES-65 batch definitions, new EN guides, competitor gap analysis.
+
+## 2026-08-10T04:55Z · iter 1125 · RESEARCH · research-1125-fr52-correction-fr53-de51-es66-definition
+
+Mode: RESEARCH (1125%5=0). 236th research pass. No code shipped.
+
+What: (1) Locale count verification: EN=398, FR=342/398, DE=333/398, ES=324/398. Missing from all 3: 45 guides.
+(2) CRITICAL BATCH BUG FIX — FR-52/DE-50/ES-65 batch item #4 galilee-culinary-institute-gonen.md was already translated into all 3 locales (iter931 ES, iter932 FR, iter933 DE). Filesystem confirmed fr/ ✓, de/ ✓, es/ ✓. Replaced with ashkelon-guide.md (confirmed missing all 3; all key cross-links verified in all 3 locales: /day-trips-from-tel-aviv ✓, /israel-national-parks-pass ✓, /israel-military-heritage ✓). BACKLOG.md corrected.
+(3) NEW BATCH FR-53/DE-51/ES-66 — 5 guides all confirmed missing from all 3 locales via filesystem comm -23:
+  - jerusalem-pilgrimage-road (Jan 2026 opened; all FR/DE/ES cross-links ✓)
+  - israel-paragliding-guide (FR parapente / DE Paragleiten / ES parapente; all cross-links ✓)
+  - yam-caesarea-guide (marine NP; FR/DE ✓; ES: water-hiking-israel → EN fallback)
+  - zionist-heritage-trail (Herzl/Degania/Sde Boker; FR/DE ✓; ES: tel-aviv-white-city → EN fallback)
+  - luxury-arava-desert (Six Senses Shaharut MICHELIN; all cross-links ✓)
+  Zero competitor editorial in FR/DE/ES for any of these 5. Definitions + market angles added to BACKLOG.md.
+(4) Competitor research: Nova memorial confirmed KKL-JNF #1 most visited site (200K/month); zero standalone editorial guide anywhere. nova-festival-memorial-guide already in BACKLOG as P1/M ready. Tourism recovery: US #1 market (35.2%/400K), France #2 (~159K); 1.3M total 2025. Rosh Hanikra + Schottenstein guides already current (no freshness update needed).
+
+Gate: N/A (research mode). No code changes.
+Memory: STATE.md iter→1125. BACKLOG.md updated (batch 52 fix + batch 53 definition). COMPETITORS.md appended. JOURNAL.md appended. .loop/ to be committed.
+Next: iter1126 (1126%5=1 → BUILD) — SHIP FR-52 batch (tel-megiddo + arava-mountain-biking + palmahim-beach + red-canyon-eilat + ashkelon-guide) in Metropolitan French.
