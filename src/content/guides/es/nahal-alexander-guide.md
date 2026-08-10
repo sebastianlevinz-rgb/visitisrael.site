@@ -1,5 +1,5 @@
 ---
-title: 'Nahal Alexander: Tortugas Gigantes y Reserva Natural (2026)'
+title: 'Nahal Alexander: Reserva Natural y Tortugas (2026)'
 description: 'Reserva Natural Nahal Alexander: tortugas de río gigantes en el Puente de las Tortugas, sendero ribereño y playa. Pase INPA, cómo llegar y mejor época.'
 heroImage: /images/regions/tel-aviv/beaches.jpg
 category: Nature

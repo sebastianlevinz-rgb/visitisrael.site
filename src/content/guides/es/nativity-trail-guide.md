@@ -1,6 +1,6 @@
 ---
-title: 'Ruta de la Natividad: Nazaret a Belén a Pie (Guía 2026)'
-description: 'Guía de la Ruta de la Natividad: 160 km de peregrinación a pie de Nazaret a Belén por Cisjordania — etapas, aviso de seguridad, WalkPalestine y opciones con guía.'
+title: 'Ruta de la Natividad: Nazaret a Belén a Pie (2026)'
+description: 'Ruta de la Natividad: 160 km a pie de Nazaret a Belén por Cisjordania — etapas, aviso de seguridad en Zona A/B, WalkPalestine y operadores.'
 heroImage: /images/regions/nazareth/hero.jpg
 category: Outdoors
 updatedAt: 2026-08-10

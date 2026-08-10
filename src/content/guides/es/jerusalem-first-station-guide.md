@@ -1,5 +1,5 @@
 ---
-title: 'Primera Estación de Jerusalén — HaTachana HaRishona (2026)'
+title: 'Primera Estación de Jerusalén — HaTachana (2026)'
 description: 'Visita la terminal ferroviaria otomana de 1892 de Jerusalén — HaTachana HaRishona. Mercado artesanal, restaurantes, conciertos y el sendero Mesila.'
 heroImage: /images/regions/jerusalem/hero.jpg
 category: Destinations

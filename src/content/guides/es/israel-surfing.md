@@ -1,6 +1,6 @@
 ---
-title: 'Surf en Israel: Olas en Tel Aviv, Spots y Clases (2026)'
-description: 'Surf en Israel: mejores spots desde Gordon Beach hasta Bat Yam, escuelas de surf, condiciones por temporada y consejos para principiantes en el Mediterráneo.'
+title: 'Surf en Israel: Tel Aviv, Spots y Clases (2026)'
+description: 'Surf en Israel: mejores spots desde Gordon Beach hasta Bat Yam, escuelas de surf, condiciones por temporada y consejos para principiantes.'
 heroImage: /images/regions/tel-aviv/beaches.jpg
 category: Outdoor
 updatedAt: 2026-08-10

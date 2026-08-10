@@ -1,6 +1,6 @@
 ---
-title: 'Nahal Pratzim y la Cueva de la Harina: Monte Sodoma (2026)'
-description: 'Senderismo en los cañones blancos de sal del Monte Sodoma junto al Mar Muerto. Cueva de la Harina, cañón Nahal Pratzim y la Mujer de Lot — rutas y logística.'
+title: 'Nahal Pratzim: Cueva de la Harina, Monte Sodoma (2026)'
+description: 'Senderismo en los cañones de sal del Monte Sodoma. Cueva de la Harina, Nahal Pratzim y la Mujer de Lot — rutas, seguridad flash-flood y logística.'
 heroImage: /images/regions/dead-sea/hero.jpg
 category: Activities
 updatedAt: 2026-08-10
