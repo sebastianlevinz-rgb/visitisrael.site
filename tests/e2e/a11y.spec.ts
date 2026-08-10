@@ -1138,6 +1138,11 @@ const ROUTES = [
   '/es/israel-surfing',
   '/es/jerusalem-first-station-guide',
   '/es/nativity-trail-guide',
+  '/fr/tel-megiddo-guide',
+  '/fr/arava-mountain-biking',
+  '/fr/palmahim-beach-guide',
+  '/fr/ashkelon-guide',
+  '/fr/red-canyon-eilat',
 ];
 
 for (const route of ROUTES) {
