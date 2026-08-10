@@ -1163,6 +1163,11 @@ const ROUTES = [
   '/es/palmahim-beach-guide',
   '/es/ashkelon-guide',
   '/es/red-canyon-eilat',
+  '/es/jerusalem-pilgrimage-road',
+  '/es/israel-paragliding-guide',
+  '/es/yam-caesarea-guide',
+  '/es/zionist-heritage-trail',
+  '/es/luxury-arava-desert',
 ];
 
 for (const route of ROUTES) {
