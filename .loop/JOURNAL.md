@@ -16743,3 +16743,19 @@ Ship: committed 7 files directly to master (5 FR guides + 2 test specs); pushed 
 Prod: commit confirmed on GitHub; CI + Vercel auto-deploy in progress at state-write time.
 Locale counts post-ship: EN=398, FR=357/398 (41 missing), DE=343/398 (55 missing), ES=334/398 (64 missing). missing-all-3=35.
 Next: iter 1137 = BUILD (1137 % 5 = 2). nextRotationCategory = DE-52 batch (same 5 guides in German — yam-lyam + terminal-park-eilat + tel-aviv-street-art + jerusalem-light-rail-guide + pet-friendly-israel).
+
+## 2026-08-10T17:38Z · iter 1137 · BUILD · de-52-batch
+Mode: BUILD (1137 % 5 = 2).
+Startup: resumed from context-compacted session (iter1136 had built FR-54 batch); local branch auto/de-52-batch; existing 5 DE guide files untracked + 2 test specs modified + STATE.md updated. pnpm install already clean. PLAYWRIGHT_SKIP_BROWSER_DOWNLOAD=1 with pre-installed /opt/pw-browsers chromium.
+What: 5 DE guides for DE-52 batch (same 5 topics as FR-54, now in German — Standard-Hochdeutsch, DACH market angle):
+  1. yam-lyam-sea-to-sea-hike — 89km Nahariya→See Genezareth; DAV/Alpenverein market angle; Montfort Deutschritter (Teutonic Order, 13. Jh.); Druze-Dörfer Beit Jan+Hurfeish; Meron 1208m (höchster Gipfel Israels); Safed Kabbala; Kibbuz Abirim/Pelech/Amirim Gästehäuser; 4-Etappen-Tabelle; /de/jesus-trail-israel verified MISSING → /jesus-trail-israel EN-fallback; GYG+Discovercars+Booking CTAs; 6 FAQs.
+  2. terminal-park-eilat — 150.000 m² ex-Startbahn Omeida-Flughafen; Riesenrad, Naturbecken, Wasserfall, Nebelplatz (Kinder), Food Trucks, Amphitheater; Rotes Meer + Edom-Bergpanorama; Eröffnung 2024/2026; GYG+Discovercars+Booking CTAs; 6 FAQs.
+  3. tel-aviv-street-art — Florentin Frenkel+Vitalstraße (commissionierte Murals + spontane Graffiti); analogie Berlin Friedrichshain/Gürtel Wien für DACH-Markt; Jaffa Hassan-Bek-Moschee/Manshiyye politische Murals; Tages-Itinerar-Tabelle; GYG+Booking CTAs; 6 FAQs.
+  4. jerusalem-light-rail-guide — Rote Linie 23,5km (Pisgat Ze'ev→Har Herzl); Grüne Linie Abschnitt 1 Malha→HaTurim (Juli 2026); Rav-Kav ~5,5–6 ILS/Fahrt; Schabbat-Zeiten; Ben-Gurion-Verbindung via Malha ~1:15h; GYG+Booking CTAs; 6 FAQs.
+  5. pet-friendly-israel — EU-Heimtierausweis + Mikrochip ISO 11784/11785 + Tollwutimpfung 21 Tage vor Einreise + Ektoparasiten-Behandlung 48–120h; GKV/PKV gilt nicht im Ausland (Zusatzversicherung); Hilton Beach Hundebereich + Gordon Beach + Hayarkon-Park Hundeparks; Atlas Boutique Hotels Tel Aviv haustierfreundlich; Mietwagen Pflicht (kein Zug/Bus für Tiere); Vetimédik 24h-Kliniken; GYG+Discovercars+Booking CTAs; 6 FAQs.
+Test specs: 5 routes added to smoke.spec.ts + a11y.spec.ts after '/de/nativity-trail-guide' entry.
+Gate: pnpm check 0 errors | build 1813 pages (+5 from 1808) | pnpm test:e2e 2739 passed (24.2m) ✓ exit 0.
+Ship: squash-merged auto/de-52-batch → master (05bf227d); pushed to origin/master.
+Prod: push confirmed; CI + Vercel auto-deploy in progress at state-write time.
+Locale counts post-ship: EN=398, FR=357/398 (41 missing), DE=348/398 (50 missing), ES=334/398 (64 missing). missing-all-3=35.
+Next: iter 1138 = BUILD (1138 % 5 = 3). nextRotationCategory = ES-67 batch (same 5 guides in Spanish — yam-lyam + terminal-park-eilat + tel-aviv-street-art + jerusalem-light-rail-guide + pet-friendly-israel).
