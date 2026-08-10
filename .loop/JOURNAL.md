@@ -16558,10 +16558,15 @@ Gate: N/A (research mode). No code changes.
 Memory: STATE.md iter→1120. BACKLOG.md updated (FR-52/DE-50/ES-65 batch + nova item + ES-64 status clarified). COMPETITORS.md appended. JOURNAL.md appended. .loop/ committed below.
 Next: iter1121 (1121%5=1 → BUILD) — SHIP ES-60 FIRST (soreq-cave-guide + negev-incense-route + skyfield-extreme-park-jaffa + tel-aviv-coffee-guide + tabgha-church-guide).
 
-## 2026-08-10 · iter 1121 · BUILD · es-60-batch (IN PROGRESS — gate running at session end)
-What: 5 LATAM Spanish ES guides (ES-60 batch — pending since iter1090, now created):
-  soreq-cave-guide, negev-incense-route, skyfield-extreme-park-jaffa, tel-aviv-coffee-guide, tabgha-church-guide
-  + 10 new e2e routes (smoke + a11y).
-Gate: pnpm check PASS (0 errors). pnpm build PASS (1768 pages +5). pnpm test:e2e RUNNING at session end.
-Branch: auto/es-60-batch on origin/auto/es-60-batch (commit 28dff406).
-Next: squash-merge auto/es-60-batch → master once gate confirmed green; mark ES-60 SHIPPED.
+## 2026-08-10 · iter 1121 · BUILD · es-60-batch SHIPPED
+What: 5 LATAM Spanish ES guides (ES-60 batch — pending since iter1090):
+  - soreq-cave-guide: Cueva Avshalom, 22°C, mandatory guided tours, INPA NOT valid (charges independently), verdictName+verdictQuery
+  - negev-incense-route: 4 UNESCO Nabataean cities (Avdat/Mamshit/Haluza/Shivta), car required, 40°C+ summer warning, INPA covers 3/4
+  - skyfield-extreme-park-jaffa: SkyField Bloomfield Stadium, 5 via ferrata routes, 35m bungee, giant swing, Israel's first fully accessible extreme park, min age 12
+  - tel-aviv-coffee-guide: botz tradition + third-wave specialty, 60+ roasters, neighborhood circuit Florentin→Gordon Beach, 7 roasters profiled
+  - tabgha-church-guide: Church of Multiplication (Benedictine, free, 5th-c mosaic in situ) + Church of Primacy of St Peter (Franciscan, free, Mensa Christi rock), both open 08:00-17:00
+10 new e2e routes added to smoke.spec.ts + a11y.spec.ts.
+Gate: pnpm check 0 errors | build 1768 pages (+5) | test:e2e 2649/2649 PASS (30.6m).
+Ship: squash-merged auto/es-60-batch → master, pushed to origin/master.
+ES guides: 314→319/398.
+Next: iter1122 REVIEW (1122%5=2) — es-60-meta-trim: audit 5 ES-60 guides for title ≤54, desc ≤151, cross-link validity.
