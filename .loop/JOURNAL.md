@@ -16817,3 +16817,16 @@ Gate: pnpm check 0 errors; build 1828 pages (+5 from 1823); pnpm test:e2e 10/10 
 Ship: committed b33614af to master, pushed to origin/master. CI pending at state-write.
 DE guides: 348->353/398. Build: 1823->1828 pages (+5). Remaining DE gap: 45 guides.
 Next: iter 1143 = BUILD (1143 % 5 = 3) -- ES-68 batch (sports-events-israel + tel-aviv-bachelorette + air-haifa-haifa-airport-guide + jerusalem-coffee-guide + israel-horseback-riding in Spanish).
+
+## 2026-08-10T22:42Z · iter 1143 · BUILD · es-68-batch
+Mode: BUILD (1143 % 5 = 3). Item: ES-68 batch (5 ES guides — same set as FR-55/DE-53).
+Created:
+  - sports-events-israel: EuroLeague Maccabi TLV Arena Menora Mivtachim 11.700 localidades; Maratón Jerusalén mar 42.2km; Maratón Samsung TLV feb 40.000+ participantes; Ligat HaAl; Juegos Maccabiah 2026 LATAM ángulo Argentina/Brasil/México; Israel Open ATP 250; GYG+Booking CTAs; 7 FAQs; EN fallback /tel-aviv-things-to-do.
+  - tel-aviv-bachelorette: despedida soltera 3 noches Florentin+Mar Muerto+Jaffa; verdictName+verdictQuery; LGBTQ+ friendly; €150-280/noche rango; Booking+GYG+Viator CTAs; 7 FAQs.
+  - air-haifa-haifa-airport-guide: IATA HFA 4km centro Haifa; Air Haifa sep 2024; HFA→ETM 60min; Chipre+Grecia verano; Taxi ₪50-70 Bus 23 ₪8 Kiwitaxi; 7 FAQs.
+  - jerusalem-coffee-guide: Power CoffeeWorks+Birma+Tmol Shilshom+Sybaris+Coffee Mill; recorrido 2.5-3km; Shabat+kashrut; ₪18-28; GYG+Booking CTAs; 7 FAQs.
+  - israel-horseback-riding: Vered HaGalil+Habokrim Ranch+Moshav Ramot+Kibbutz Ein Dor; verdictName "Paseo a caballo en Galilea"; ₪150-400 Spanne; tabla temporadas; 6 FAQs.
+Gate: pnpm check 0 errors; build 1833 pages (+5 from 1828); pnpm test:e2e 10/10 targeted (5 smoke + 5 a11y — 0 WCAG violations). GREEN.
+Ship: committed dca28d3c to master, pushed to origin/master. CI pending at state-write.
+ES guides: 339->344/398. Build: 1828->1833 pages (+5). Remaining ES gap: 54 guides.
+Next: iter 1144 = REVIEW (1144 % 5 = 4).
