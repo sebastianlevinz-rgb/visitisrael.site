@@ -8736,3 +8736,14 @@ Researched FR/DE/ES competition for the 5 guides in the next batch (negev-multi-
 - Italian traveler guides: Routard.com has an "Italie" section but no "Israel for Italians" — confirms the gap.
 - Gulf travelers (FR): guidedesvacances.fr has a general France↔Israel travel advisory piece — no Gulf-specific guide.
 - The "for [nationality] travelers" format has near-zero editorial competition across all 3 locales for any nationality — confirmed structural gap in FR/DE/ES Israel travel publishing.
+
+## 2026-08-11 · iter1165 RESEARCH — national-audience guides competitor scan
+Checked: Routard, Petit Futé, Lonely Planet, ADAC, Trescher Verlag, Dumont, Viel Unterwegs, touristisrael.com, goisrael.com, guide-israel.info (FR), viel-unterwegs.de/israel.
+Finding: ZERO audience-segmented Israel travel editorial in FR/DE/ES for any of: American, Korean, South African, Portuguese, or Nordic travelers. All 5 locales are uncontested.
+- Routard.com/Israel: generic country guide, no nationality-specific subpages.
+- Trescher Verlag Israel+Palästina: comprehensive print guide, no online nationality segments.
+- guide-israel.info (FR): generic FR guide, no US/Korean/SA/Nordic/Portuguese subpages.
+- touristisrael.com: EN-only, no FR/DE/ES nationality-specific pages.
+- goisrael.com (official Israel tourism): country-level generic guides; no audience segments in FR/DE/ES.
+Pattern confirmed: audience-segmented guides (nationality X → Israel → language Y) are an editorial white space across all major competitors. Our growing "israel-for-X-travelers" series has zero competition in all 3 i18n locales.
+Additional observation: Routard covers "Israel pour Américains" as zero search results; LP has no "Israel for Koreans" subpage even in English beyond a brief mention. This gap persists even in EN for Korean, Nordic, and South African audiences.
