@@ -1,14 +1,16 @@
 # LOOP STATE
 
-- iteration: 1145
-- lastMode: RESEARCH
-- lastItem: research-1145-fr56-de54-es69-batch
-- lastResult: iter1145 RESEARCH — 251st research pass. EN=398, FR=362/398, DE=353/398, ES=344/398. Missing from all 3 locales: 25 (comm -23 verified 2026-08-11). Defined FR-56/DE-54/ES-69 batch: lag-baomer-israel + israeli-passport-stamp + israel-tour-operators-guide + israel-craft-spirits + tel-arad-guide. All 5 confirmed missing all 3 locales. All heroImages exist on disk. Cross-links: lag-baomer all-3 ✓; israeli-passport-stamp: /petra-from-eilat-vs-amman missing ES → EN fallback; israel-tour-operators-guide: /petra-tours-compared + /tel-aviv-tours-compared missing ES → EN fallbacks; israel-craft-spirits all-3 ✓; tel-arad-guide all-3 ✓. Competitor research: zero FR/DE/ES editorial for all 5 topics. No code shipped.
+- iteration: 1146
+- lastMode: BUILD
+- lastItem: fr-56-batch
+- lastResult: iter1146 BUILD — FR-56 SHIPPED 91c2978c. 5 FR guides (Metropolitan French): lag-baomer-israel (feux de joie Méron 2027-05-04, events schema, Safed alternative, 7 FAQs; GYG+Booking CTAs), israeli-passport-stamp (slip d'entrée papier, frontières terrestres Allenby/Wadi Araba/Taba, ETA-IL, 7 FAQs; Booking+GYG+SafetyWing CTAs), israel-tour-operators-guide (comparaison 5 formats Abraham Tours/Bein Harim/GYG/Viator/IMTA, verdictName+verdictQuery, 6 FAQs, comparison table; GYG+Viator+Abraham CTAs), israel-craft-spirits (distillerie M&H Tel Aviv, gin artisanal, arak, category Gastronomie, 7 FAQs; GYG+Booking CTAs), tel-arad-guide (cité cananéenne Bronze Age + temple israélite 10 forteresses superposées, region=negev, INPA valide, verdictName+verdictQuery, 6 FAQs; GYG+Viator+Discovercars CTAs). All /fr/* cross-links pre-verified; no fabricated prices/ratings; no H1 in body; YAML-ASCII clean. +10 e2e routes (5 smoke + 5 a11y). FR guides: 362→367/398. Build: 1833→1838 pages (+5). Gate: pnpm check 0 errors | build 1838 pages | test:e2e 2789/2789 pass (23.7m). Squash-merged to master 91c2978c; pushed to origin/master.
 
-- nextRotationCategory: BUILD (1146 % 5 = 1)
+- nextRotationCategory: BUILD (1147 % 5 = 2)
 - higgsfieldSpent: 0
-- updatedAt: 2026-08-11T00:00Z
-- branch context: master at 384a9c61; EN=398, FR=362/398, DE=353/398, ES=344/398; missing-all-3=25 (comm -23 verified)
+- updatedAt: 2026-08-11T02:00Z
+- branch context: master at 91c2978c; EN=398, FR=367/398, DE=353/398, ES=344/398; missing-all-3=20 (approx)
+
+Notes: iter1146 BUILD — FR-56 SHIPPED 91c2978c. 5 FR guides (Metropolitan French): lag-baomer-israel (feux de joie Méron 2027-05-04, events schema, 7 FAQs), israeli-passport-stamp (slip papier, frontières terrestres, ETA-IL, 7 FAQs), israel-tour-operators-guide (comparaison 5 formats, verdictName+verdictQuery, 6 FAQs), israel-craft-spirits (M&H distillerie TLV, Gastronomie, 7 FAQs), tel-arad-guide (cité cananéenne, region=negev, INPA valide, verdictName+verdictQuery, 6 FAQs). All meta ≤hard limits (title ≤65, desc ≤160); all /fr/* cross-links verified; no fabricated data; no H1 in body; +10 e2e routes. FR: 362→367/398. Build: 1833→1838 pages (+5). Gate: pnpm check 0 | build 1838 | test:e2e 2789/2789. Squash-merged 91c2978c; pushed to origin/master.
 
 Notes: iter1145 RESEARCH — 251st research pass. EN=398, FR=362/398, DE=353/398, ES=344/398. Missing from all 3: 25 (comm -23 2026-08-11). Defined FR-56/DE-54/ES-69 batch (lag-baomer-israel + israeli-passport-stamp + israel-tour-operators-guide + israel-craft-spirits + tel-arad-guide; all confirmed missing all 3; heroImages all present; lag-baomer+craft-spirits+tel-arad all cross-links ✓ all 3; passport-stamp: /petra-from-eilat-vs-amman ES → EN fallback; tour-operators: /petra-tours-compared+/tel-aviv-tours-compared ES → EN fallbacks). Competitor research: FR zero editorial for all 5; DE zero; ES zero. 2 previously noted BACKLOG items confirmed still open: national-campus-archaeology-jerusalem (IAA 2026 opening) + bible-road-highway-60 (Highway 60 heritage rebrand). No code shipped.
 

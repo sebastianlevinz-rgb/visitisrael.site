@@ -16861,3 +16861,10 @@ Batch defined FR-56/DE-54/ES-69:
   5. tel-arad-guide — UNESCO Biblical Tels 2005; unique extra-muros Israelite temple with 4-horned altar; 91 Arad Ostraca (paleo-Hebrew); INPA valid; verdictName "a visit to Tel Arad National Park"; zero FR/DE/ES editorial; all cross-links ✓ all 3 locales.
 Competitor research findings appended to COMPETITORS.md.
 No code shipped (RESEARCH mode). Next: iter 1146 = BUILD (1146 % 5 = 1 → FR-56 batch or next BUILD item).
+
+## 2026-08-11 · iter 1146 · BUILD (i18n-FR) · fr-56-batch
+What: 5 FR guides — lag-baomer-israel, israeli-passport-stamp, israel-tour-operators-guide, israel-craft-spirits, tel-arad-guide. Metropolitan French; re-authored (not translated). Events schema on lag-baomer (Méron 2027-05-04). verdictName+verdictQuery on tour-operators + tel-arad. INPA valide on tel-arad. region=negev on tel-arad. category=Gastronomie on craft-spirits. All meta within hard limits (title ≤55, desc ≤149). +10 e2e routes (5 smoke + 5 a11y).
+Gate: pnpm check 0 errors ✓ | pnpm build 1838 pages ✓ | pnpm test:e2e 2789/2789 pass (23.7m) ✓
+Ship: squash-merged to master 91c2978c; pushed to origin/master; local branch deleted.
+Vercel: CI in_progress at state-write (build-and-test + lighthouse running).
+FR count: 362 → 367 / 398. Next: DE-54 batch (same 5 guides in Standard German).
