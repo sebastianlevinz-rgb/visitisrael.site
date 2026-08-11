@@ -16990,3 +16990,10 @@ Gate: pnpm check 0 errors | build 1868 pages (+5) | test:e2e 10/10 targeted.
 Ship: direct commit to master ad2c9a2c; pushed to origin/master.
 DE guides: 363→368/398. Build pages: 1863→1868.
 Next: iter 1158 = ES-71 (same 5 guides in LATAM tuteo).
+
+## 2026-08-11T14:05Z · iter 1158 · BUILD · es-71-batch
+What: 5 LATAM Spanish (tuteo) guides — western-galilee-guide, israel-mediterranean-cruise-guide, museum-of-tolerance-jerusalem, zichron-yaakov-guide, jerusalem-armenian-quarter. Completing FR-57(SHIPPED)/DE-56(SHIPPED)/ES-71 trilogy. LATAM angles: Galilea Occidental ruta complementaria a Akko (western-galilee), España #3 mercado cruceros Europa + Costa Cruceros/MSC salidas (cruise), Buenos Aires AMIA + Wiesenthal Oficina Latinoamérica (tolerance museum), Rothschild resonancia LATAM via Baron de Hirsch colonización agrícola Argentina (zichron-yaakov), 500K armenios en LATAM + Buenos Aires comunidad armenia (armenian-quarter). verdictName+verdictQuery on israel-mediterranean-cruise-guide + jerusalem-armenian-quarter. No EN fallbacks needed (all /es/* cross-links pre-verified). YAML ASCII clean. No fabricated prices/ratings. No H1 in body. 10 new e2e routes (5 smoke + 5 a11y) — 10/10 targeted pass.
+Gate: pnpm check 0 errors | build 1873 pages (+5) | test:e2e 10/10 targeted.
+Ship: squash-merged to master 9c2ae850; pushed to origin/master. Branch auto/es-71-batch deleted.
+ES guides: 354→359/398. Build pages: 1868→1873. FR=372/398 DE=368/398 ES=359/398.
+Next: iter 1159 = REVIEW (1159 % 5 = 4 → audit ES-71 batch meta: titles ≤65, descs ≤160, /es/* links valid, no H1, no fabricated prices).
