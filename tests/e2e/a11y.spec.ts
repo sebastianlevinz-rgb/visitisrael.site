@@ -1228,6 +1228,11 @@ const ROUTES = [
   '/es/tel-afek-guide',
   '/es/israel-diamonds-jewelry',
   '/es/tel-gezer-guide',
+  '/de/western-galilee-guide',
+  '/de/israel-mediterranean-cruise-guide',
+  '/de/museum-of-tolerance-jerusalem',
+  '/de/zichron-yaakov-guide',
+  '/de/jerusalem-armenian-quarter',
 ];
 
 for (const route of ROUTES) {
