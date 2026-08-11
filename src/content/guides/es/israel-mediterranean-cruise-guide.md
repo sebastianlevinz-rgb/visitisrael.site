@@ -74,7 +74,7 @@ El nuevo terminal esta muy cerca de la estacion central de tren de Haifa (Haifa 
 
 ## Ashdod — el puerto para Jerusalem y Tel Aviv
 
-Ashdod es el puerto crucerista del sur de Israel, con la ventaja geografica de su cercania a la Ciudad Vieja de Jerusalem — el destino individual mas visitado en las excursiones de crucero en Israel. El terminal es funcional pero mas pequeno que el nuevo edificio de Haifa; los taxis y autobuses privados esperan en la salida. La guia completa del puerto esta en [Puerto de cruceros de Ashdod](/ashdod-cruise-port-guide).
+Ashdod es el puerto crucerista del sur de Israel, con la ventaja geografica de su cercania a la Ciudad Vieja de Jerusalem — el destino individual mas visitado en las excursiones de crucero en Israel. El terminal es funcional pero mas pequeno que el nuevo edificio de Haifa; los taxis y autobuses privados esperan en la salida. La guia completa del puerto esta en [Puerto de cruceros de Ashdod](/es/ashdod-cruise-port-excursions).
 
 ### Que ver desde Ashdod
 
