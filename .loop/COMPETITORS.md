@@ -8650,3 +8650,35 @@ Scan sources: menufretin.fr, pferdreiter.de, ampascachi.com, routard.com, touris
 - chabad.org: EN-only religious explanation
 - Zero FR/DE/ES editorial guide on experiencing Lag BaOmer as a visitor to Israel
 - Verdict: zero competition in all 3 locales. The Meron pilgrimage + Safed alternative + national bonfire night angle gives strong content hooks for culturally curious travelers.
+
+---
+
+## iter1150 RESEARCH — 252nd research pass (2026-08-11)
+
+Scan sources: ou-et-quand.net, quelle-prise-electrique.fr, weltstecker.de, reise-stecker.de, maccabifrance.fr, fr.timesofisrael.com, sportschau.de, juedische-allgemeine.de, land-der-bibel.de, de.wikivoyage.org, infos-israel.news, tagesspiegel.de, parks.org.il, nativa.co.il
+
+**Israel Power Plug (FR/DE)**
+- FR: WEAK — 7–8 niche aggregator sites dominate (ou-et-quand.net, quelle-prise-electrique.fr, prise-voyage.com etc.); all are thin programmatic plug-type pages; zero narrative editorial; zero major travel brand (no Routard, Geo.fr, LP FR).
+- DE: WEAK — mirror image; weltstecker.de, reise-stecker.de, bezahlen.net + one blog post (flashpacker-travelguide.de, skr.de); no Urlaubsguru/ADAC Reise/LP DE.
+- ES: expected ZERO.
+- Verdict: our guide (narrative visitor context + Type C compatibility note + dual-voltage practical check + which-appliances-need-converter) = ONLY editorial in all 3 locales.
+
+**Maccabiah Games 2026 (FR/DE)**
+- FR: ZERO travel editorial; maccabifrance.fr = community history; fr.timesofisrael.com = news only; israelvalley.com = news.
+- DE: ZERO travel editorial; sportschau.de (ARD public broadcaster) reported cancellation due to Iran war then retracted = news only; juedische-allgemeine.de = news; fokus-jerusalem.tv = news. NOTABLE: "Makkabiade abgesagt" before reversal = useful evergreen hook.
+- Verdict: absolute gap across both locales; tourist-israel.com indexed in EN only.
+
+**Tel Afek National Park (FR/DE)**
+- FR: ZERO — every result is EN-language (nativa.co.il, parks.org.il, beinharimtours.com, israel-in-photos.com). Not a single French-language page of any kind.
+- DE: ZERO — identical pattern. No German-language page exists.
+- Verdict: completely open territory. Easiest gap of the batch.
+
+**Israel Diamonds & Jewelry (FR/DE)**
+- FR: ZERO travel editorial; infos-israel.news = diamond trade news; i-diamants.com = retailer; trouverenisrael.co.il = French business directory. None cover tourist shopping.
+- DE: WEAK — Tagesspiegel.de feature (journalism, not visitor guide) + Jüdische Allgemeine feature. diamanten-infos.com = aggregator. No Netanya shopping guide. No travel editorial brand.
+- Verdict: strong gap in FR; editorial gap in DE (journalism ≠ visitor guide); our piece = first full travel editorial guide in both locales.
+
+**Tel Gezer (FR/DE)**
+- FR: ZERO travel editorial; fr.timesofisrael.com has one news article on Gezer fortress. No visitor guide. tourist-israel indexed EN only.
+- DE: WEAK/MODERATE — de.wikivoyage.org has a stub entry; land-der-bibel.de has a dedicated German archaeological page; archaeologie-online.de has academic coverage; israelmalanders.de references it in tour packages. No major travel editorial brand. Our guide would be the first editorial visitor guide with INPA access, directions, and Solomonic gate context.
+- Verdict: weakest gap of batch in DE but still no editorial visitor guide competing.

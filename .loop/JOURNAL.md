@@ -16908,3 +16908,18 @@ Checks: (1) title lengths — 51/53/47/54/46 chars (all ≤54 soft target ✓); 
 Gate result: CLEAN — no fixes needed.
 Merge SHA: none (no code shipped).
 Next: iter1150 = RESEARCH mode (1150 % 5 = 0). Next BUILD = ES-69 batch (lag-baomer, passport-stamp, tour-operators, craft-spirits, tel-arad in ES).
+
+## 2026-08-11T07:00Z · iter 1150 · RESEARCH · research-1150-fr57-de55-es70-batch
+Mode: RESEARCH (1150 % 5 = 0 → 252nd research pass).
+Startup: fresh cloud clone; git reset --hard origin/master → d8bc7f53. pnpm install clean (13.5s). Playwright pre-installed at /opt/pw-browsers.
+Locale counts confirmed via comm -23: EN=398, FR=367/398 (31 missing), DE=358/398 (40 missing), ES=344/398 (54 missing). Missing from ALL 3: 20 guides.
+Batch defined FR-57/DE-55/ES-70 (5 guides, all confirmed missing all 3 via comm -23):
+  1. israel-power-plug — Type H socket unique to Israel; 230V/50Hz; adapter guide; Category: Planning. FR/DE: WEAK niche aggregator competition (programmatic plug pages — no Routard/Urlaubsguru/LP editorial); ES: ZERO. Cross-links: /visa-information, /transportation, /israel-esim, /israel-money-guide all ✓ all 3.
+  2. maccabiah-games-2026 — 22nd Maccabiah Games 2026 spectator guide; Teddy Kollek/Wingate/Bloomfield venues; French Jewish community 500K, DACH 200K, LATAM Argentina 180K+Brazil 100K+ diaspora audiences. FR/DE: ZERO travel editorial (news only). ES: ZERO. verdictName+verdictQuery in ES. Cross-links: /sports-events-israel, /israel-events-festivals, /israel-travel-2026 all ✓; /tel-aviv-things-to-do ✓ FR/DE, → EN fallback ES.
+  3. tel-afek-guide — Antipatris INPA park 40km TLV; Canaanite/Roman/Ottoman layers; Yarkon springs; spring bird migration observatory (500M+ birds/year). FR/DE: ZERO (not a single page in either language). ES: ZERO. verdictName+verdictQuery (from EN). Cross-links: /hiking-in-israel, /israel-national-parks-pass, /day-trips-from-tel-aviv, /birdwatching-in-israel all ✓ all 3.
+  4. israel-diamonds-jewelry — Ramat Gan Diamond Exchange (3rd world exporter); Eilat Stone unique mineral; VAT refund guidance; anti-scam tips. FR: ZERO. DE: WEAK (Tagesspiegel/Jüdische Allgemeine journalism only). ES: ZERO. Cross-links: /shopping-in-israel, /netanya-guide, /israel-vat-refund, /israel-money-guide all ✓ all 3.
+  5. tel-gezer-guide — UNESCO Biblical Tels 2021; Route 1 midpoint TLV-Jerusalem; Solomonic 6-chamber gate; Gezer Calendar (oldest Hebrew inscription). FR: ZERO. DE: WEAK-MODERATE (de.wikivoyage.org stub + land-der-bibel.de specialist — no editorial visitor guide). ES: ZERO. verdictName+verdictQuery. Cross-links: /israel-national-parks-pass, /day-trips-from-tel-aviv, /latrun-guide, /tel-megiddo-guide all ✓ all 3.
+Competitor research sources: ou-et-quand.net, quelle-prise-electrique.fr, weltstecker.de, maccabifrance.fr, fr.timesofisrael.com, sportschau.de, land-der-bibel.de, de.wikivoyage.org, infos-israel.news, tagesspiegel.de, parks.org.il.
+3 new individual BACKLOG items: israel-for-italian-travelers all 3 (P3/S), israel-for-portuguese-travelers ES (P3/S), israel-for-nordic-travelers DE (P3/S).
+No code shipped (RESEARCH mode). BACKLOG + COMPETITORS.md + STATE.md updated.
+Next: iter 1151 = BUILD (1151 % 5 = 1 → ES-69 batch: lag-baomer, passport-stamp, tour-operators, craft-spirits, tel-arad in Spanish).
