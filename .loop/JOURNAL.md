@@ -16901,3 +16901,10 @@ Audit findings:
 Gate: pnpm check 0 errors | build 1843 pages | 6/6 targeted e2e pass.
 Ship: squash-merged b102cfce to master; pushed to origin/master.
 Next: iter 1149 = REVIEW (1149 % 5 = 4).
+
+## 2026-08-11T05:15Z · iter 1149 · REVIEW · review-1149-fr56-meta
+What: Audited FR-56 batch (5 guides shipped iter1146): lag-baomer-israel, israeli-passport-stamp, israel-tour-operators-guide, israel-craft-spirits, tel-arad-guide.
+Checks: (1) title lengths — 51/53/47/54/46 chars (all ≤54 soft target ✓); (2) desc lengths — 130/146/142/137/137 chars (all ≤151 soft target ✓); (3) 27/27 /fr/* cross-links valid (python resolved all slugs in content tree) ✓; (4) no H1 in body ✓; (5) heroImages all present on disk ✓; (6) no fabricated prices/ratings — all ₪/€ mentions use explicit approximate qualifiers ("approximativement", "environ", "~", ranges) and direct readers to verify current prices ✓; (7) partners valid (getyourguide, booking, viator, safetywing, abraham) ✓.
+Gate result: CLEAN — no fixes needed.
+Merge SHA: none (no code shipped).
+Next: iter1150 = RESEARCH mode (1150 % 5 = 0). Next BUILD = ES-69 batch (lag-baomer, passport-stamp, tour-operators, craft-spirits, tel-arad in ES).
