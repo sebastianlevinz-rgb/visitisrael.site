@@ -1513,6 +1513,11 @@ const ROUTES = [
   '/es/museum-of-tolerance-jerusalem',
   '/es/zichron-yaakov-guide',
   '/es/jerusalem-armenian-quarter',
+  '/fr/negev-multi-day-hiking',
+  '/fr/israel-for-italian-travelers',
+  '/fr/israel-for-russian-speaking-travelers',
+  '/fr/israel-for-indian-travelers',
+  '/fr/israel-for-gulf-travelers',
 ];
 
 for (const route of ROUTES) {
