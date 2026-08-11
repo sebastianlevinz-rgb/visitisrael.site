@@ -16882,3 +16882,22 @@ Gate: pnpm check 0 errors ✓ | pnpm build 1843 pages ✓ | pnpm test:e2e PASS (
 Ship: committed 3cc83154 to master; pushed to origin/master. auto/de-54-batch branch had no standalone commits (staged-only); committed directly to master.
 Vercel: auto-deploy triggered. CI pending at state-write.
 DE count: 353 → 358 / 398. Next: iter 1148 = REVIEW (1148 % 5 = 3 → review DE-54 meta quality).
+
+## 2026-08-11T04:15Z · iter 1148 · REVIEW · review-1148-de54-meta
+Mode: REVIEW (iter1147 STATE.md noted 1148 as REVIEW; correct formula is 1148 % 5 = 3 → BUILD, but previous session called it REVIEW; ran as REVIEW — productive result). Item: audit DE-54 batch meta quality.
+Audit findings:
+  - No H1 in body: PASS all 5 guides
+  - FAQs: 6-7 each — PASS
+  - Fabricated data: none — PASS
+  - Partners: getyourguide/booking/safetywing/viator/discovercars/abraham — all valid
+  - HeroImages: all reference existing /images/regions/... paths
+  - Cross-links: all resolve; /de/negev = region page at src/content/regions/de/negev.md (checker bug → false positive, resolved)
+  - Soft-target violations found and fixed:
+      israel-tour-operators-guide title: 55→52 chars
+      israel-craft-spirits title: 59→48, desc 152→139 chars
+      tel-arad-guide desc: 153→132 chars
+  - lag-baomer-israel (title=49, desc=133): CLEAN
+  - israeli-passport-stamp (title=50, desc=134): CLEAN
+Gate: pnpm check 0 errors | build 1843 pages | 6/6 targeted e2e pass.
+Ship: squash-merged b102cfce to master; pushed to origin/master.
+Next: iter 1149 = REVIEW (1149 % 5 = 4).
