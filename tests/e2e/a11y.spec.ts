@@ -1233,6 +1233,11 @@ const ROUTES = [
   '/de/museum-of-tolerance-jerusalem',
   '/de/zichron-yaakov-guide',
   '/de/jerusalem-armenian-quarter',
+  '/es/western-galilee-guide',
+  '/es/israel-mediterranean-cruise-guide',
+  '/es/museum-of-tolerance-jerusalem',
+  '/es/zichron-yaakov-guide',
+  '/es/jerusalem-armenian-quarter',
 ];
 
 for (const route of ROUTES) {
