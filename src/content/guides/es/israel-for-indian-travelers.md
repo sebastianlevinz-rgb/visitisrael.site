@@ -143,4 +143,4 @@ En Israel se conduce por la derecha.
 - [Transporte en Israel](/es/transportation) — tren, autobús y taxi
 - [La mejor época para visitar Israel](/es/best-time-to-visit-israel) — clima y temporadas
 - [Itinerario de un día en Jerusalén](/es/1-day-jerusalem-itinerary) — la Ciudad Vieja y sus barrios
-- [Gastronomía de Israel](/israel-food-guide) — mercados, hummus y la cocina israelí contemporánea
+- [Gastronomía y cocina israelí](/es/israeli-food-cuisine-guide) — mercados, hummus y la cocina israelí contemporánea
