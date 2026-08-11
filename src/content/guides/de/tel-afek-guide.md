@@ -1,6 +1,6 @@
 ---
-title: "Tel Afek: Antipatris, Osmanische Burg und Yarkon-Quellen"
-description: "Tel Afek / Antipatris: INPA-Nationalpark 40 km von Tel Aviv mit kanaanaeischen, roemischen und osmanischen Ruinen, den Yarkon-Quellen und einer Vogelwarte."
+title: "Tel Afek: Antipatris, Osmanische Burg und Vogelzug"
+description: "Tel Afek: INPA-Nationalpark 40 km von Tel Aviv mit kanaanaeischen, roemischen und osmanischen Ruinen, Yarkon-Quellen und Vogelwarte."
 heroImage: /images/regions/caesarea/hero.jpg
 category: Reiseziele
 updatedAt: 2026-08-11

@@ -1,6 +1,6 @@
 ---
-title: "Steckdosen in Israel: Typ H und welcher Adapter ins Gepaeck kommt"
-description: "Israel nutzt den weltweit einzigartigen Typ-H-Stecker (3 runde Stifte, V-Form). Welcher Adapter fuer Reisende aus Deutschland, Oesterreich und der Schweiz — und was es mit der Spannung auf sich hat."
+title: "Steckdose Israel: Typ H — Adapter fuer DACH-Reisende"
+description: "Israel verwendet Typ H (3 runde Stifte). DACH-Reisende brauchen nur einen Stecker-Adapter, keinen Spannungswandler. Wo kaufen, welche Geraete pruefen."
 heroImage: /images/regions/tel-aviv/hero.jpg
 category: Planung
 updatedAt: 2026-08-11

@@ -1,5 +1,5 @@
 ---
-title: "Diamanten und Schmuck in Israel kaufen: Ramat Gan und Eilat-Stein"
+title: "Diamanten in Israel: Ramat Gan, Eilat-Stein und VAT"
 description: "Israels Diamantenbörse in Ramat Gan, Eilat-Stein, Jemenitisches Silberfiligran und VAT-Erstattung — der Einkaufsratgeber für DACH-Reisende."
 heroImage: /images/regions/tel-aviv/hero.jpg
 category: Shopping

@@ -1,6 +1,6 @@
 ---
-title: "Makkabiade 2026: Zuschauer-Leitfaden zu den Juedischen Olympischen Spielen"
-description: "Leitfaden zu den 22. Makkabiadespielen 2026 — Zuschauer-Zugang, Veranstaltungsstaedte, Unterkunft, Anreise und Ehrenamt bei den Juedischen Olympischen Spielen."
+title: "Makkabiade 2026: Zuschauer-Leitfaden Israel"
+description: "Leitfaden zu den 22. Makkabiadespielen 2026 — Zuschauer-Zugang, Veranstaltungsstaedte, Unterkunft, Anreise und Ehrenamt."
 heroImage: /images/regions/tel-aviv/hero.jpg
 category: Veranstaltungen
 updatedAt: 2026-08-11

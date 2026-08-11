@@ -1,6 +1,6 @@
 ---
-title: "Tel Gezer: salomonisches Stadttor und kanaanaeisches Wassersystem"
-description: "Tel Gezer — UNESCO-Welterbe 2021 — vereint ein salomonisches Sechskammertor, 26 Besiedlungsschichten und den Gezer-Kalender. Reisefuehrer fuer DACH-Besucher."
+title: "Tel Gezer: UNESCO-Welterbe und salomonisches Tor"
+description: "Tel Gezer — UNESCO-Welterbe 2021 — salomonisches Sechskammertor, 26 Besiedlungsschichten und Gezer-Kalender. DACH-Reisefuehrer."
 heroImage: /images/regions/negev/hero.jpg
 category: Reiseziele
 updatedAt: 2026-08-11
