@@ -16848,3 +16848,16 @@ Fixes applied:
 Gate: pnpm check 0 errors | build 1833 pages | pnpm test:e2e 10/10 targeted (5 smoke + 5 a11y — 0 WCAG violations). GREEN.
 Ship: committed 10862339 to master, pushed to origin/master. CI in_progress at state-write.
 Next: iter 1145 = RESEARCH (1145 % 5 = 0 → 251st research pass; confirm locale counts; define FR-56/DE-54/ES-69 batch from BACKLOG).
+
+## 2026-08-11T00:00Z · iter 1145 · RESEARCH · research-1145-fr56-de54-es69-batch
+Mode: RESEARCH (1145 % 5 = 0 → 251st research pass).
+Startup: fresh cloud clone; git reset --hard origin/master → 384a9c61. pnpm v10.33.0 pre-installed (no install needed for research). Playwright pre-installed at /opt/pw-browsers.
+Locale counts confirmed via comm -23: EN=398, FR=362/398 (36 missing), DE=353/398 (45 missing), ES=344/398 (54 missing). Missing from ALL 3: 25 guides.
+Batch defined FR-56/DE-54/ES-69:
+  1. lag-baomer-israel — cultural festival guide; Lag BaOmer fire night + Meron pilgrimage + Safed alternative; 2027 date 4–5 May; zero FR/DE/ES editorial competitor; all cross-links present in all 3 locales ✓.
+  2. israeli-passport-stamp — practical high-intent guide; paper slip since 2013; land border nuance; ETA-IL interaction; which-countries-restrict with honesty caveats; FR: routard.com covers basics only; DE/ES: zero editorial; ES fallback: /petra-from-eilat-vs-amman → EN.
+  3. israel-tour-operators-guide — commercial comparison guide; verdictName "Israel tour operators"; Abraham Tours vs Bein Harim vs GYG vs Viator vs IMTA private guide vs TourRadar; DE: TourRadar.de = booking platform not editorial; zero FR/DE/ES independent editorial; ES fallbacks: /petra-tours-compared + /tel-aviv-tours-compared → EN.
+  4. israel-craft-spirits — M&H Distillery Tel Aviv; World's Best Single Malt WWA 2023; guided tours by appointment; Apex limited editions; craft gin + pomelo gin; bars: Satchmo+Port Said+Gordon Beach; zero FR travel editorial (klac.fr = retailer; whiskymag.fr = product article); zero DE/ES.
+  5. tel-arad-guide — UNESCO Biblical Tels 2005; unique extra-muros Israelite temple with 4-horned altar; 91 Arad Ostraca (paleo-Hebrew); INPA valid; verdictName "a visit to Tel Arad National Park"; zero FR/DE/ES editorial; all cross-links ✓ all 3 locales.
+Competitor research findings appended to COMPETITORS.md.
+No code shipped (RESEARCH mode). Next: iter 1146 = BUILD (1146 % 5 = 1 → FR-56 batch or next BUILD item).

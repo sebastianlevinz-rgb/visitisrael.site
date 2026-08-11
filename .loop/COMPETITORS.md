@@ -8611,3 +8611,42 @@ Scan sources: menufretin.fr, pferdreiter.de, ampascachi.com, routard.com, touris
 - touristisrael.com/americaisraeltours.com: English roundups of 2026 hotel + experience openings
 - Zero FR/DE/ES editorial on new attractions 2026 (National Campus Archaeology, Galilee Culinary Institute)
 - Bible Road Highway 60 rebrand: zero coverage in any language including EN
+
+---
+
+## iter1145 RESEARCH — 251st research pass (2026-08-11)
+
+**Israeli passport stamp (FR market)**
+- diplomatie.gouv.fr: official FR government entry requirements — covers basics (no stamp since 2013, paper slip, ETA-IL required Jan 2025) but NOT a comprehensive traveler guide
+- routard.com/fr: entry formalities page — brief paragraph on paper slip; no coverage of land borders, implications for other-country travel, or which countries restrict
+- tourismesnlg.fr: article "quels pays refusent l'entrée après tampon Israël" — thin, list-focused, no practical depth
+- voyageursdumonde.fr: operational note on formalités only
+- Verdict: our guide is the ONLY comprehensive editorial on this topic in FR (paper slip mechanics + land border nuance + ETA-IL interaction + which-countries-restrict with honesty caveats + visit-Israel-last strategy). Same gap confirmed for DE and ES.
+
+**Israel tour operators (DE market)**
+- TourRadar.com/de: "Die 10 Besten Israel Heiliges Land Reiseveranstalter" — booking platform listing, NOT editorial comparison of operator types
+- sonnenklar.TV: package booking site for Israel Rundreisen; German-speaking guides angle but no format comparison
+- diesenhaus.de: DE-language Israel specialist operator; self-promotional only; resumes Classic Round Trips Sep 2026
+- studienreisen.de: study trips listings; no operator format comparison
+- Verdict: zero DE editorial comparing operator TYPES (Abraham Tours vs GYG vs private IMTA guide); our guide would uniquely help German-speaking independent travelers navigate the landscape. Same gap confirmed for FR (Voyageurs du Monde = commercial, not editorial) and ES.
+
+**M&H Whisky / Craft spirits Israel (FR market)**
+- klac.fr: spirits retailer page for M&H — product listing, not a traveler guide
+- whiskymag.fr: feature article on M&H spirits — product/award focus, not how-to-visit
+- senioractu.com: news item on M&H awards — zero travel context
+- dearwhisky.com/fr: distillery database entry — basic factual listing
+- Verdict: zero FR editorial travel guide for visiting M&H Distillery or experiencing Israeli craft spirits scene as tourist. Same gap in DE (whisky.com/de = fiche basique) and ES (nothing).
+
+**Tel Arad National Park (DE/FR/ES)**
+- en.wikivoyage.org: EN-only; brief mention in Arad (Israel) article
+- lonelyplanet.com: EN listing only — "Tel Arad National Park" as attraction (no dedicated guide)
+- dannythedigger.com: EN private guide blog — good content but EN only
+- enjoyingisrael.com: EN only
+- Verdict: absolute zero in FR/DE/ES. UNESCO Biblical Tels classification (2005), unique Israelite temple with four-horned altar (no other extra-muros Judean temple known), Arad Ostraca (91 paleo-Hebrew sherds) = genuinely educational content with no editorial competition in any of the 3 locales.
+
+**Lag BaOmer Israel (FR/DE/ES)**
+- touristisrael.com: EN-only coverage of Lag BaOmer events
+- amia.org.ar: Argentine Jewish community — simple event calendar listing, no travel guide
+- chabad.org: EN-only religious explanation
+- Zero FR/DE/ES editorial guide on experiencing Lag BaOmer as a visitor to Israel
+- Verdict: zero competition in all 3 locales. The Meron pilgrimage + Safed alternative + national bonfire night angle gives strong content hooks for culturally curious travelers.
