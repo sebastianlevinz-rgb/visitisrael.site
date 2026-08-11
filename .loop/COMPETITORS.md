@@ -8720,3 +8720,19 @@ Scan sources: touristisrael.com, tripadvisor.com, cruisecritic.com, beinharimtou
 - Haifa Port dual-ship cruise terminal inaugurated May 2026 (cite in cruise guide).
 - National Campus for the Archaeology of Israel (Schottenstein): visitor experience center fully built by end-2026; opens to public early 2027. Ready-now for authoring with evergreen framing ("opening early 2027"). Moshe Safdie design; Leon Levy National Treasures center; Museum Row Jerusalem.
 - Tower of David Museum: $40M renovation ongoing; Night Spectacular seasonal show continuing; expansion of galleries confirmed.
+
+### 2026-08-11 · iter 1160 · 261st research pass · FR-58/DE-57/ES-72 batch competitor scan
+Researched FR/DE/ES competition for the 5 guides in the next batch (negev-multi-day-hiking, italy/russia/india/gulf traveler guides).
+
+**Negev multi-day hiking (FR):** akaoka.fr has a "circuit trek du sud de l'Israël" page — this is a TOUR OPERATOR PACKAGE, not editorial self-guided content. Tirawa and Nomade Aventure similarly have package tours. Routard.com has a general "Désert du Néguev" overview but no self-guided multi-day hike guide. Verdict: zero editorial self-guided FR competitor. Our guide = first editorial self-guided multi-day Negev hiking guide in French.
+
+**Negev multi-day hiking (DE/ES):** DE search yielded studienreisen.de (tour packages) and general Israel tour operators — zero editorial hiking guide. monoviajero.com (ES) = general Israel ES guide, no Negev hiking content. ES search yielded only mochileros blog (brief personal travel notes) + tour operator sites. Verdict: zero editorial competitors in DE or ES.
+
+**Israel for Russian-speaking travelers (DE):** DE search yielded: visumisrael.de (visa aggregator), auswärtiges-amt.de (official advisory), tourradar.com (tours), sonnenklar.tv (package tours) — zero editorial Russian-speaking traveler guide. Verdict: zero DACH editorial.
+
+**Israel for Italian/Indian/Gulf travelers (FR/DE/ES):** All searches returned tour operator sites, general Israel travel sites, visa aggregators, or official government pages — zero editorial "Israel for X travelers" guide in any of FR/DE/ES for these three nationalities. monoviajero.com and similar have general Israel guides but no nationality-specific traveler guides.
+
+**New patterns noted:**
+- Italian traveler guides: Routard.com has an "Italie" section but no "Israel for Italians" — confirms the gap.
+- Gulf travelers (FR): guidedesvacances.fr has a general France↔Israel travel advisory piece — no Gulf-specific guide.
+- The "for [nationality] travelers" format has near-zero editorial competition across all 3 locales for any nationality — confirmed structural gap in FR/DE/ES Israel travel publishing.

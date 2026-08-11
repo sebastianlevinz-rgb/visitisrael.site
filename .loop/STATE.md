@@ -1,14 +1,14 @@
 # LOOP STATE
 
-- iteration: 1159
-- lastMode: REVIEW
-- lastItem: review-1159-es71-meta
-- lastResult: iter1159 REVIEW — review-1159-es71-meta SHIPPED bcd8a0a1. Full meta audit of ES-71 batch (5 guides). PASS: all 5 titles ≤65 hard/≤55 actual; all 5 descs ≤151 soft/≤143 actual; 22/22 /es/* links valid; 0 H1 in body; 5/5 heroImages present; INPA flags honest; verdictName+verdictQuery on cruise+armenian-quarter. FIX: 1 broken link in israel-mediterranean-cruise-guide.md — /ashdod-cruise-port-guide (non-existent) corrected to /es/ashdod-cruise-port-excursions (ES guide exists). Gate: pnpm check 0 errors | build 1873 pages | test:e2e 10/10 targeted. CI in_progress at state-write.
+- iteration: 1160
+- lastMode: RESEARCH
+- lastItem: research-1160-fr58-de57-es72-batch
+- lastResult: iter1160 RESEARCH — 261st research pass. EN=398, FR=372/398, DE=368/398, ES=359/398. missing-FR=26, missing-DE=30, missing-ES=39. 15 guides confirmed MISSING from all 3 locales via comm -23. Defined FR-58/DE-57/ES-72 batch (negev-multi-day-hiking + israel-for-italian-travelers + israel-for-russian-speaking-travelers + israel-for-indian-travelers + israel-for-gulf-travelers; all 5 confirmed missing all 3 locales; all heroImages on disk; all cross-links pre-verified). Competitor research: FR zero editorial Negev multi-day hiking (akaoka.fr/Tirawa = tour operator packages only; Routard = general overview); zero FR/DE/ES editorial for russian-speaking/indian/gulf/italian traveler guides; monoviajero.com = general Israel ES guide, no Negev hiking. 5 new individual BACKLOG items noted. No code shipped.
 
-- nextRotationCategory: RESEARCH — iter1160 (1160 % 5 = 0 → RESEARCH/DISCOVERY): web-research competitors for profitable features/content we lack; define next FR-58/DE-57/ES-72 batch (5 guides missing from all 3 locales)
+- nextRotationCategory: BUILD — iter1161 (1161 % 5 = 1 → BUILD): ship FR-58 batch (negev-multi-day-hiking + israel-for-italian-travelers + israel-for-russian-speaking-travelers + israel-for-indian-travelers + israel-for-gulf-travelers) as 5 FR guides (Metropolitan French)
 - higgsfieldSpent: 0
-- updatedAt: 2026-08-11T15:05Z
-- branch context: master at bcd8a0a1; EN=398, FR=372/398, DE=368/398, ES=359/398; missing-FR=26, missing-DE=30, missing-ES=39
+- updatedAt: 2026-08-11T16:20Z
+- branch context: master at 7c444630; EN=398, FR=372/398, DE=368/398, ES=359/398; missing-FR=26, missing-DE=30, missing-ES=39
 
 Notes: iter1158 BUILD — ES-71 SHIPPED 9c2ae850. 5 ES guides (LATAM tuteo): western-galilee-guide (Lohamei HaGeta'ot 1949 + Montfort Crusader castle + Beit Shearim UNESCO INPA valid + Nahal Kziv 4km + Peqi'in + Rosh HaNikra; GYG+Viator+Discovercars CTAs; 6 FAQs; cross-links /es/akko-acre-guide+/es/hiking-in-israel+/es/beit-shearim-guide+/es/haifa-travel-guide+/es/car-rental-israel+/es/galilee-tours-compared), israel-mediterranean-cruise-guide (verdictName+verdictQuery; Spain #3 cruise market Europe; Costa/MSC departures; dual-ship terminal Haifa May 2026; Ashdod EN fallback; GYG+Viator+Booking CTAs; 6 FAQs), museum-of-tolerance-jerusalem (Buenos Aires AMIA + Wiesenthal Latin American office LATAM angle; 3 exhibition floors; Yad Vashem distinction; NOT INPA; GYG+Booking CTAs; 6 FAQs), zichron-yaakov-guide (Baron de Hirsch Argentina resonance; Carmel Winery ₪35-60; Ramat HaNadiv NOT INPA honesty; NILI museum; Tishbi Estate; GYG+Discovercars+Booking CTAs; 6 FAQs), jerusalem-armenian-quarter (500K Armenians LATAM + Buenos Aires diaspora; St. James Cathedral 15:00 window; Mardigian Museum only public Armenian Genocide museum Middle East; Balian ceramics; verdictName+verdictQuery; 2xGYG CTAs; 6 FAQs; cross-links /es/western-wall-guide+/es/jewish-quarter-jerusalem-guide+/es/1-day-jerusalem-itinerary+/es/church-holy-sepulchre-guide+/es/jerusalem-old-city-walking-tour+/es/jerusalem-museums+/es/jerusalem-neighborhoods-guide). LATAM tuteo; YAML ASCII clean; all /es/* cross-links pre-verified; no fabricated prices/ratings; no H1 in body; 10 new e2e routes (5 smoke + 5 a11y) — 10/10 targeted pass. ES guides: 354→359/398. Build: 1868→1873 pages (+5). Gate: pnpm check 0 errors | build 1873 | test:e2e 10/10 targeted. Committed 9c2ae850; pushed to origin/master.
 
