@@ -16976,3 +16976,10 @@ Competitor scan sources: touristisrael.com, tripadvisor.com, beinharimtours.com,
 2 new BACKLOG items: national-campus-archaeology-jerusalem opening updated to early 2027 (P2/M/ready); haifa-port-upgrade freshness note for cruise guide.
 No code shipped (RESEARCH mode). .loop/ files committed and pushed.
 Next: iter 1156 = BUILD (1156 % 5 = 1 → ES-70 batch: 5 guides in LATAM Spanish tuteo).
+
+## 2026-08-11T12:05Z · iter 1156 · BUILD · es-70-batch
+What: 5 LATAM Spanish (tuteo) guides — israel-power-plug, maccabiah-games-2026, tel-afek-guide, israel-diamonds-jewelry, tel-gezer-guide. Completing FR-57/DE-55/ES-70 trilogy. LATAM angles: LATAM Tipo A/B adapter need (power plug), Argentine/Brazilian/Mexican diaspora (Maccabiah), INPA-valid day-trip 40km from TLV (Tel Afek), Ramat Gan Diamond Exchange + Eilat Stone unique to Israel (diamonds), UNESCO Biblical Tels 2021 + Solomonic gate (Tel Gezer). verdictName+verdictQuery on tel-afek + tel-gezer. 1 EN fallback: /tel-aviv-things-to-do for maccabiah. All /es/* cross-links pre-verified. YAML ASCII clean. No fabricated prices/ratings. No H1 in body. 10 new e2e routes (5 smoke + 5 a11y) — 10/10 targeted pass.
+Gate: pnpm check 0 errors | build 1863 pages (+5) | test:e2e 10/10 targeted.
+Ship: squash-merged to master 202b4f45; pushed to origin/master.
+Prod: CI in_progress at state-write (run ID 31488366754).
+ES guides: 349→354/398. Build pages: 1858→1863.
