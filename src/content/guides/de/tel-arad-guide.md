@@ -1,6 +1,6 @@
 ---
 title: "Tel Arad: Kanaanäische Stadt und israelitischer Tempel"
-description: "Nationalpark Tel Arad — kanaanäische Bronzezeitstadt und israelitischer Tempel mit Hörneraltar. UNESCO-Kontext, INPA-Pass und Besuchstipps für den Negev."
+description: "Nationalpark Tel Arad — Bronzezeitstadt, israelitischer Tempel mit Hörneraltar, UNESCO-Kontext, INPA-Pass und Besuchstipps im Negev."
 heroImage: /images/regions/negev/desert.jpg
 category: Reiseziele
 region: negev

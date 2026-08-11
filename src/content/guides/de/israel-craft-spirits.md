@@ -1,6 +1,6 @@
 ---
-title: "Israelischer Whisky und Craft Spirits: M&H Distillery Guide"
-description: "Israelischer Whisky, Craft Gin und Arak — M&H Distillery Tel Aviv, Spirituosenläden und Bars. Für Liebhaber aus Deutschland, Österreich und der Schweiz."
+title: "Israelischer Whisky und Craft Spirits: M&H Guide"
+description: "Israelischer Whisky, Craft Gin und Arak — M&H Distillery Tel Aviv, Spirituosenläden und Bars. Für Liebhaber aus Deutschland und Österreich."
 heroImage: /images/regions/tel-aviv/carmel-market.jpg
 category: Gastronomie
 updatedAt: 2026-08-11

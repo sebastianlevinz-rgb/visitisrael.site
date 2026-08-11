@@ -1,5 +1,5 @@
 ---
-title: "Reiseveranstalter in Israel: Vergleich und Empfehlungen"
+title: "Reiseveranstalter Israel: Vergleich und Empfehlungen"
 description: "Abraham Tours, Bein Harim, GetYourGuide, Viator oder IMTA-Privatguide? Ehrlicher Vergleich der Reiseveranstalter in Israel für DACH-Reisende."
 heroImage: /images/regions/jerusalem/hero.jpg
 category: Touren
