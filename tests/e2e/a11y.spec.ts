@@ -1243,6 +1243,10 @@ const ROUTES = [
   '/fr/israel-for-russian-speaking-travelers',
   '/fr/israel-for-indian-travelers',
   '/fr/israel-for-gulf-travelers',
+  '/de/israel-for-italian-travelers',
+  '/de/israel-for-russian-speaking-travelers',
+  '/de/israel-for-indian-travelers',
+  '/de/israel-for-gulf-travelers',
 ];
 
 for (const route of ROUTES) {
