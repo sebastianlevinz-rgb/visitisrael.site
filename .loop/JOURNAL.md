@@ -17050,3 +17050,10 @@ Next: iter1162 = BUILD (DE-57 batch — same 5 guides in Standard Hochdeutsch).
 
 ## 2026-08-11T19:45Z · iter 1163 · hotfix · es-72-broken-link
 What: iter1163 ES-72 was shipped by concurrent session (commit 1713dcee). Post-ship links.spec.ts caught 1 broken internal link: /es/israel-for-indian-travelers → /israel-food-guide (slug does not exist in EN or ES). Fixed to /es/israeli-food-cuisine-guide (present in ES). Committed ab13699e directly to master; pushed. PR #57 (branch auto/es-72-batch) closed — content already on master. No .loop/ state changes required.
+
+## 2026-08-11 · iter 1164 · REVIEW · review-1164-es72-meta-audit
+What: audited all 5 ES-72 guides (negev-multi-day-hiking, israel-for-italian-travelers, israel-for-russian-speaking-travelers, israel-for-indian-travelers, israel-for-gulf-travelers).
+Checks: (1) titles ≤65 chars — all pass (max 57); (2) descriptions ≤160 chars — all pass (max 152); (3) heroImages on disk — all 5 confirmed; (4) no H1 in body — all 5 clean; (5) internal links — 57 total links checked against correct slug resolution (EN content at guides root, not en/ subdir); all valid; (6) honesty — no fabricated ratings/reviews/exact-prices in body text; no raw affiliate URLs; (7) test coverage — all 5 /es/* routes confirmed in smoke.spec.ts (lines 1525-1529) and a11y.spec.ts (lines 1250-1254).
+Minor note: israel-for-italian-travelers.md affiliateCta has unused rating:4.9 + reviews:2800 fields — schema-valid, not rendered by AffiliateCard, not a user-facing honesty issue.
+Result: CLEAN. No code changes shipped.
+Next: iter 1165 (1165%5=0 → RESEARCH): competitor scan, define next FR/DE/ES batch.
