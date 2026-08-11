@@ -17047,3 +17047,6 @@ Ship: squash-merged to master 690e05be; pushed origin/master; branch auto/fr-58-
 Prod: CI in_progress at state-write (GitHub Actions running).
 FR guide count: 372→377/398. missing-FR: 26→21.
 Next: iter1162 = BUILD (DE-57 batch — same 5 guides in Standard Hochdeutsch).
+
+## 2026-08-11T19:45Z · iter 1163 · hotfix · es-72-broken-link
+What: iter1163 ES-72 was shipped by concurrent session (commit 1713dcee). Post-ship links.spec.ts caught 1 broken internal link: /es/israel-for-indian-travelers → /israel-food-guide (slug does not exist in EN or ES). Fixed to /es/israeli-food-cuisine-guide (present in ES). Committed ab13699e directly to master; pushed. PR #57 (branch auto/es-72-batch) closed — content already on master. No .loop/ state changes required.
