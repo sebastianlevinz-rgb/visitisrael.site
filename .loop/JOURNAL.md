@@ -16923,3 +16923,16 @@ Competitor research sources: ou-et-quand.net, quelle-prise-electrique.fr, weltst
 3 new individual BACKLOG items: israel-for-italian-travelers all 3 (P3/S), israel-for-portuguese-travelers ES (P3/S), israel-for-nordic-travelers DE (P3/S).
 No code shipped (RESEARCH mode). BACKLOG + COMPETITORS.md + STATE.md updated.
 Next: iter 1151 = BUILD (1151 % 5 = 1 → ES-69 batch: lag-baomer, passport-stamp, tour-operators, craft-spirits, tel-arad in Spanish).
+
+## 2026-08-11T07:30Z · iter 1151 · BUILD (i18n-ES) · es-69-batch
+Mode: BUILD (1151 % 5 = 1). Item: ES-69 batch — 5 Spanish guides (LATAM tuteo).
+What shipped:
+  1. lag-baomer-israel.md — Lag BaOmer en Israel; hogueras nacionales; peregrinación Monte Merón 2027-05-04; alternativa Safed; events schema; diaspora LATAM hook; 7 FAQs; GYG+Booking CTAs
+  2. israeli-passport-stamp.md — Israel no sella pasaportes; volante papel; fronteras terrestres; ETA-IL; visitar Israel al final; 7 FAQs; Booking+GYG+SafetyWing CTAs; 1 EN fallback
+  3. israel-tour-operators-guide.md — Abraham/Bein Harim/GYG/Viator/IMTA comparativa; verdictName+verdictQuery; tabla 6 filas; 6 FAQs; GYG+Viator+Abraham CTAs; 2 EN fallbacks
+  4. israel-craft-spirits.md — M&H Distillery fundada 2012; WWA 2023 World's Best Single Malt; Golani/Levant/Dead Sea gins; Dr. Whisky Bar+Beer Bazaar; 7 FAQs; GYG+Booking CTAs; category Gastronomia
+  5. tel-arad-guide.md — ciudad cananea 3000-2650 a.C.; único templo israelita extra-muros; UNESCO Biblical Tels; INPA válido; region=negev; verdictName+verdictQuery; 6 FAQs; GYG+Viator+Discovercars CTAs
+Gate: pnpm check 0 errors | pnpm build 1848 pages (+5 from 1843) | pnpm test:e2e 10/10 targeted.
+10 new e2e routes added (5 smoke + 5 a11y). YAML-ASCII clean. No fabricated data. No H1 in body.
+Commit: 47a6538d pushed to origin/master. ES guides: 344→349/398.
+Next: iter 1152 = BUILD (1152 % 5 = 2 → FR-57/DE-55/ES-70 batch: israel-power-plug + maccabiah-games-2026 + tel-afek-guide + israel-diamonds-jewelry + tel-gezer-guide; start with whichever locale is furthest behind).
