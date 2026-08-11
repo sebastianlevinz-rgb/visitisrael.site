@@ -1684,3 +1684,33 @@ Same 5 guides as DE-56: `western-galilee-guide.md`, `israel-mediterranean-cruise
 All 5 confirmed IN FR; MISSING from ES (comm -23 verified 2026-08-11). Full content specs + cross-links in BACKLOG.md.
 Quality: LATAM tuteo; YAML-ASCII clean; /es/* prefix only for confirmed existing ES pages; /jerusalem-neighborhoods-guide ✓ ES (unlike DE); no fabricated prices/ratings; LATAM Armenian diaspora Buenos Aires angle on armenian-quarter; Rothschild LATAM colonial agriculture angle on zichron-yaakov; no H1 in body; +10 e2e routes.
 Status: pending.
+
+## Updated status snapshot (iter1161 BUILD 2026-08-11)
+
+| Locale | Guides | Note |
+|--------|--------|------|
+| en     | 398    | stable |
+| fr     | 377    | 21 missing — FR-58 SHIPPED iter1161 690e05be; **next FR BUILD = FR-59 (after DE-57+ES-72)** |
+| de     | 368    | 30 missing — DE-56 SHIPPED iter1159; **next DE BUILD = DE-57 (IMMEDIATE iter1162)** |
+| es     | 359    | 39 missing — ES-71 SHIPPED iter1158 9c2ae850; **next ES BUILD = ES-72 (after DE-57)** |
+
+### Phase FR-58 (372 → 377/398) — SHIPPED iter1161 690e05be
+
+Guides: `negev-multi-day-hiking.md`, `israel-for-italian-travelers.md`, `israel-for-russian-speaking-travelers.md`, `israel-for-indian-travelers.md`, `israel-for-gulf-travelers.md`
+All 5 confirmed were MISSING from FR; now shipped. Metropolitan French; YAML-ASCII clean; verdictName+verdictQuery on negev-multi-day-hiking; all /fr/* cross-links pre-verified; no fabricated prices/ratings; no H1 in body; +10 e2e routes (5 smoke + 5 a11y) — 10/10 targeted pass.
+Build: 1873→1878 (+5). Gate: pnpm check 0 errors | build 1878 | test:e2e 10/10 targeted.
+Status: COMPLETE.
+
+### Phase DE-57 (368 → 373/398) — NEXT BUILD (iter1162)
+
+Guides: `negev-multi-day-hiking.md`, `israel-for-italian-travelers.md`, `israel-for-russian-speaking-travelers.md`, `israel-for-indian-travelers.md`, `israel-for-gulf-travelers.md`
+Same 5 guides as FR-58; all confirmed MISSING from DE (comm -23 verified 2026-08-11). Full content specs in BACKLOG.md.
+Quality: Standard Hochdeutsch; YAML double-quotes; /de/* prefix only for confirmed existing DE pages; DACH angles (DAV Wandergemeinschaft for Negev hiking; 700K+ Italians in Germany; 2M+ Russian-speaking Germans Aussiedler; 200K+ Indian Fachkräfte in Germany; 4M+ Muslims in Germany Gulf guide); no fabricated prices/ratings; no H1 in body; +10 e2e routes.
+Status: pending — ready to ship.
+
+### Phase ES-72 (359 → 364/398) — BUILD after DE-57
+
+Same 5 guides as FR-58/DE-57: `negev-multi-day-hiking.md`, `israel-for-italian-travelers.md`, `israel-for-russian-speaking-travelers.md`, `israel-for-indian-travelers.md`, `israel-for-gulf-travelers.md`
+All confirmed MISSING from ES (comm -23 verified 2026-08-11). Full content specs in BACKLOG.md.
+Quality: LATAM tuteo; YAML-ASCII clean; /es/* prefix only for confirmed existing ES pages; LATAM angles (Camino de Santiago resonance for Negev hiking; Italian-Argentines 3.5M + Italian-Brazilians 20M+ for italian guide; ~100K Russian speakers Spain for russian guide; Indian community Spain + LATAM Trinidad/Suriname/Guyana for indian guide; ~2M Muslims Spain Moroccan normalization angle for gulf guide); /petra-from-eilat-vs-amman MISSING ES → EN fallback; no fabricated prices/ratings; no H1 in body; +10 e2e routes.
+Status: pending.

@@ -2258,3 +2258,8 @@ NOTE iter1124 REVIEW pending: check nativity-trail description length (may be sl
 Full meta audit ES-71 batch — 1 broken link fixed in israel-mediterranean-cruise-guide.md
 (/ashdod-cruise-port-guide → /es/ashdod-cruise-port-excursions). All 5 guides pass
 title/desc hard limits, internal link validity, H1, heroImage, INPA, verdict checks.
+
+## iter1161 · 2026-08-11 · FR-58 batch · BUILD
+5 FR guides (Metropolitan French) shipped as commit 690e05be.
+Guides: negev-multi-day-hiking.md, israel-for-italian-travelers.md, israel-for-russian-speaking-travelers.md, israel-for-indian-travelers.md, israel-for-gulf-travelers.md.
+FR: 372→377/398. Build: 1873→1878 (+5). Gate: check 0 | build 1878 | e2e 10/10 targeted.
