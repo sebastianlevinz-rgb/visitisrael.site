@@ -1247,6 +1247,11 @@ const ROUTES = [
   '/de/israel-for-russian-speaking-travelers',
   '/de/israel-for-indian-travelers',
   '/de/israel-for-gulf-travelers',
+  '/es/negev-multi-day-hiking',
+  '/es/israel-for-italian-travelers',
+  '/es/israel-for-russian-speaking-travelers',
+  '/es/israel-for-indian-travelers',
+  '/es/israel-for-gulf-travelers',
 ];
 
 for (const route of ROUTES) {
