@@ -1488,6 +1488,11 @@ const ROUTES = [
   '/es/israel-tour-operators-guide',
   '/es/israel-craft-spirits',
   '/es/tel-arad-guide',
+  '/fr/israel-power-plug',
+  '/fr/maccabiah-games-2026',
+  '/fr/tel-afek-guide',
+  '/fr/israel-diamonds-jewelry',
+  '/fr/tel-gezer-guide',
 ];
 
 for (const route of ROUTES) {
