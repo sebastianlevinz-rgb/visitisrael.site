@@ -16960,3 +16960,19 @@ Findings: 2 HARD LIMIT violations (israel-power-plug desc 198→160 char breach;
 Gate: pnpm check 0 errors | build 1858 pages | test:e2e 10/10 targeted pass.
 Ship: fa123260 squash-merged to master; pushed.
 Prod: CI in_progress at state-write (Lighthouse+CI running for fa123260).
+
+## 2026-08-11T10:30Z · iter 1155 · RESEARCH · research-1155-de56-es71-batch
+Mode: RESEARCH (1155 % 5 = 0 → 253rd research pass).
+Startup: fresh cloud clone; git reset --hard origin/master → fa123260 (forced-update from diverged prior state). pnpm install clean. Playwright pre-installed at /opt/pw-browsers/chromium.
+Locale counts via comm -23: EN=398, FR=372/398 (26 missing), DE=363/398 (35 missing), ES=349/398 (49 missing). Missing from ALL 3: 15 guides (all nationality-specific: israel-for-american-travelers + israel-for-chinese-travelers + israel-for-czech-travelers + israel-for-filipino-travelers + israel-for-gulf-travelers + israel-for-indian-travelers + israel-for-irish-travelers + israel-for-italian-travelers + israel-for-korean-travelers + israel-for-nordic-travelers + israel-for-portuguese-travelers + israel-for-russian-speaking-travelers + israel-for-serbian-travelers + israel-for-south-african-travelers + israel-anzac-heritage).
+ES-70 status: israel-power-plug + maccabiah-games-2026 + tel-afek-guide + israel-diamonds-jewelry + tel-gezer-guide confirmed in FR+DE but NOT ES (comm -23 verified). → Queued as next BUILD (iter1156).
+Batch defined DE-56/ES-71 (5 guides all IN FR, MISSING from both DE+ES):
+  1. western-galilee-guide — Lohamei HaGeta'ot + Montfort + Nahal Kziv + Peqi'in; DE/ES cross-links all ✓; GYG+Viator+Discovercars; zero DE/ES editorial
+  2. israel-mediterranean-cruise-guide — Haifa (new dual-ship terminal May 2026) + Ashdod ports; DE/ES cross-links ✓ (ashdod-cruise-port-guide → EN fallback); DACH #2 cruise market; zero DE/ES editorial
+  3. museum-of-tolerance-jerusalem — Wiesenthal Center Jerusalem; DE/ES cross-links ✓; strong DACH resonance (Wiesenthal Austrian); LATAM Buenos Aires Armenian+AMIA connection; zero DE/ES editorial
+  4. zichron-yaakov-guide — Rothschild wine village 1882; Carmel Winery; Ramat HaNadiv; DE/ES cross-links ✓ (/israel-wine-wineries used instead of missing /wine-in-israel); zero DE/ES editorial
+  5. jerusalem-armenian-quarter — St. James Cathedral 15:00-15:30; Mardigian Museum 09:00-16:00; /jerusalem-neighborhoods-guide → EN fallback for DE (✓ in ES); Armenian genocide DACH memory culture + LATAM Armenian diaspora Buenos Aires; zero DE/ES editorial
+Competitor scan sources: touristisrael.com, tripadvisor.com, beinharimtours.com, seetheholyland.net, cruisecritic.com, mukikapupstravels.com, museumoftolerance.com, iaa.org.il (National Campus opening early 2027 confirmed), travelandtourworld.com (Haifa cruise terminal May 2026 confirmed), thej.ca.
+2 new BACKLOG items: national-campus-archaeology-jerusalem opening updated to early 2027 (P2/M/ready); haifa-port-upgrade freshness note for cruise guide.
+No code shipped (RESEARCH mode). .loop/ files committed and pushed.
+Next: iter 1156 = BUILD (1156 % 5 = 1 → ES-70 batch: 5 guides in LATAM Spanish tuteo).

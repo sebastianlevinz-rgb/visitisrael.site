@@ -8682,3 +8682,41 @@ Scan sources: ou-et-quand.net, quelle-prise-electrique.fr, weltstecker.de, reise
 - FR: ZERO travel editorial; fr.timesofisrael.com has one news article on Gezer fortress. No visitor guide. tourist-israel indexed EN only.
 - DE: WEAK/MODERATE — de.wikivoyage.org has a stub entry; land-der-bibel.de has a dedicated German archaeological page; archaeologie-online.de has academic coverage; israelmalanders.de references it in tour packages. No major travel editorial brand. Our guide would be the first editorial visitor guide with INPA access, directions, and Solomonic gate context.
 - Verdict: weakest gap of batch in DE but still no editorial visitor guide competing.
+
+## iter1155 RESEARCH — 253rd research pass (2026-08-11)
+
+Scan sources: touristisrael.com, tripadvisor.com, cruisecritic.com, beinharimtours.com, seetheholyland.net, mukikapupstravels.com, nomadicniko.com, museumoftolerance.com/motj, iaa.org.il, travelandtourworld.com, thej.ca, israeltourism.gov.il
+
+**Western Galilee (DE/ES)**
+- DE: de.wikivoyage.org = thin stub only covering Nahariya; no German editorial guide for Western Galilee as a tourism region (not Urlaubsguru, not ADAC Reise, not LP DE). Bein Harim has EN-only page. Our guide = first editorial DE travel guide for the region.
+- ES: ZERO — not a single Spanish-language editorial guide exists for Western Galilee. "Galilea Occidental" unoccupied in ES SERP.
+- Verdict: full gap in both locales; strong for DACH hikers (Geheimtipp framing) and ES family tourists.
+
+**Mediterranean Cruise Israel (DE/ES)**
+- cruisecritic.com: largest English-language cruise community; comprehensive Haifa + Ashdod port pages; zero DE/ES editorial equivalent.
+- DE: TUI Cruises (DACH-specific brand) and AIDA (DACH brand) both call Haifa on Eastern Med itineraries but no German travel editorial guide covers Israel cruise port logistics comprehensively. Meinkreuzfahrt.de = booking listings only. Our guide = first complete DE editorial.
+- ES: Costa Cruceros has Spanish-language cruise product in Israel but no editorial visitor guide in ES. Our guide = first complete ES editorial.
+- Key 2026 development: Haifa Port dual-ship cruise terminal inaugurated May 2026 (upgraded check-in, security, border control; can process passengers from 2 large ships simultaneously) — cite in guide body.
+
+**Museum of Tolerance Jerusalem (DE/ES)**
+- DE: ZERO editorial visitor guide; museumoftolerance.com = EN+HE only; seetheholyland.net = EN only; thej.ca = news article; no Urlaubsguru/Travelbook.de/LP DE coverage.
+- ES: ZERO editorial visitor guide; Wikipedia ES = brief mention only; no editorial.
+- FR guide (iter-untracked) references Simon Wiesenthal's Austrian origins as DACH angle — confirmed strong resonance in DACH memory culture.
+- Note: Museum opened 2023; still "new" enough to be timely without being stale.
+
+**Zichron Yaakov (DE/ES)**
+- DE: de.wikipedia.org = biographical article on Baron Rothschild with passing mention; no DE travel editorial for Zichron Yaakov wine village. "Zichron Jaakow" (German spelling) has ZERO tourist guide hits.
+- ES: ZERO — not a single Spanish-language travel editorial for Zichron Yaakov exists anywhere. "Zichron Yaakov vinos" = zero results.
+- TripAdvisor EN: Carmel Winery = top-10 attraction in Haifa District with 500+ reviews. Proves demand; we capture in editorial DE/ES guide.
+- Tishbi Estate Winery (5 min from Zichron): family winery, broader kosher + boutique portfolio; include as secondary mention alongside Carmel.
+
+**Jerusalem Armenian Quarter (DE/ES)**
+- DE: ZERO German-language editorial guide for the Armenian Quarter specifically (de.wikivoyage.org Jerusalem = one sentence on the quarter); beinharimtours.com/armenian-quarter = EN only.
+- ES: ZERO Spanish-language editorial; mukikapupstravels.com Armenian Quarter guide = EN only. nomadicniko.com = EN only.
+- FR guide (iter1072) used 500K French Armenians angle (France has world's 3rd largest Armenian diaspora) — proven model. DE: 50K+ German Armenians; ES: LATAM Armenian diaspora ~400K (Argentina alone ~130K, Uruguay, Brazil).
+- Mardigian Museum confirmed open Mon–Sat 09:00–16:00; multilingual materials (FR+HE+EN+AR+Armenian confirmed from museumoftolerance-adjacent sources). St. James Cathedral 15:00–15:30 + 06:30–07:30 windows confirmed stable (no closures reported).
+
+**New infrastructure items (2026)**
+- Haifa Port dual-ship cruise terminal inaugurated May 2026 (cite in cruise guide).
+- National Campus for the Archaeology of Israel (Schottenstein): visitor experience center fully built by end-2026; opens to public early 2027. Ready-now for authoring with evergreen framing ("opening early 2027"). Moshe Safdie design; Leon Levy National Treasures center; Museum Row Jerusalem.
+- Tower of David Museum: $40M renovation ongoing; Night Spectacular seasonal show continuing; expansion of galleries confirmed.

@@ -1651,3 +1651,36 @@ Queue for next RESEARCH pass to define FR-44 batch (candidates: sarona-market-te
 
 ### Phase DE-39 (278 → 283/398) — not yet defined
 Queue for next RESEARCH pass or BUILD iteration to define DE-39 batch (candidates: traveling-israel-jewish-holidays + shabbat-dinner-experience + negev-jeep-tours + timna-park-guide + petra-wadi-rum-from-eilat — same 5-guide parity block now exists in FR+ES).
+
+## Updated status snapshot (iter1155 RESEARCH 2026-08-11)
+
+| Locale | Guides | Note |
+|--------|--------|------|
+| en     | 398    | stable |
+| fr     | 372    | 26 missing — FR-57 SHIPPED iter1152 74c4bf76; **next FR BUILD = FR-58 (DE-56 same 5 guides first)** |
+| de     | 363    | 35 missing — DE-55 SHIPPED iter1153 2c4f9328; **next DE BUILD = DE-56 (after ES-70)** |
+| es     | 349    | 49 missing — ES-69 SHIPPED iter1151 47a6538d; **next ES BUILD = ES-70 (IMMEDIATE)** |
+
+### Phase ES-70 (349 → 354/398) — NEXT BUILD (iter1156)
+
+Guides: `israel-power-plug.md`, `maccabiah-games-2026.md`, `tel-afek-guide.md`, `israel-diamonds-jewelry.md`, `tel-gezer-guide.md`
+All 5 confirmed IN FR+DE already; confirmed MISSING from ES (comm -23 verified 2026-08-11).
+Batch defined iter1150 (252nd research pass). Full content specs in BACKLOG.md.
+Cross-links pre-verified in ES: /es/visa-information ✓, /es/transportation ✓, /es/israel-esim ✓, /es/israel-money-guide ✓, /es/sports-events-israel ✓, /es/israel-events-festivals ✓, /es/israel-travel-2026 ✓, /es/hiking-in-israel ✓, /es/israel-national-parks-pass ✓, /es/day-trips-from-tel-aviv ✓, /es/birdwatching-in-israel ✓, /es/shopping-in-israel ✓, /es/netanya-guide ✓, /es/israel-vat-refund ✓, /es/latrun-guide ✓, /es/tel-megiddo-guide ✓.
+Note: /es/tel-aviv-things-to-do MISSING for maccabiah → EN fallback; /es/petra-from-eilat-vs-amman already in ES ✓.
+LATAM tuteo; YAML-ASCII clean; verdictName+verdictQuery on maccabiah-games-2026 (verdictQuery: "Maccabiah Games 2026 Israel spectator tickets"), tel-afek-guide, tel-gezer-guide; INPA valid on tel-afek + tel-gezer. +10 e2e routes (5 smoke + 5 a11y).
+Status: pending — ready to ship.
+
+### Phase DE-56 (363 → 368/398) — BUILD after ES-70
+
+Guides: `western-galilee-guide.md`, `israel-mediterranean-cruise-guide.md`, `museum-of-tolerance-jerusalem.md`, `zichron-yaakov-guide.md`, `jerusalem-armenian-quarter.md`
+All 5 confirmed IN FR; MISSING from DE (comm -23 verified 2026-08-11). Full content specs + cross-links in BACKLOG.md.
+Quality: Standard Hochdeutsch; YAML double-quotes; /de/* prefix only for confirmed existing DE pages (fallbacks noted in BACKLOG); no fabricated prices/ratings; verdictName+verdictQuery on jerusalem-armenian-quarter; Haifa Port dual-ship terminal May 2026 to be cited in cruise guide; no H1 in body; +10 e2e routes.
+Status: pending.
+
+### Phase ES-71 (354 → 359/398) — BUILD after DE-56
+
+Same 5 guides as DE-56: `western-galilee-guide.md`, `israel-mediterranean-cruise-guide.md`, `museum-of-tolerance-jerusalem.md`, `zichron-yaakov-guide.md`, `jerusalem-armenian-quarter.md`
+All 5 confirmed IN FR; MISSING from ES (comm -23 verified 2026-08-11). Full content specs + cross-links in BACKLOG.md.
+Quality: LATAM tuteo; YAML-ASCII clean; /es/* prefix only for confirmed existing ES pages; /jerusalem-neighborhoods-guide ✓ ES (unlike DE); no fabricated prices/ratings; LATAM Armenian diaspora Buenos Aires angle on armenian-quarter; Rothschild LATAM colonial agriculture angle on zichron-yaakov; no H1 in body; +10 e2e routes.
+Status: pending.
