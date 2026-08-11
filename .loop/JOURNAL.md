@@ -16868,3 +16868,17 @@ Gate: pnpm check 0 errors ✓ | pnpm build 1838 pages ✓ | pnpm test:e2e 2789/2
 Ship: squash-merged to master 91c2978c; pushed to origin/master; local branch deleted.
 Vercel: CI in_progress at state-write (build-and-test + lighthouse running).
 FR count: 362 → 367 / 398. Next: DE-54 batch (same 5 guides in Standard German).
+
+## 2026-08-11T03:50Z · iter 1147 · BUILD (i18n-DE) · de-54-batch
+Mode: BUILD (1147 % 5 = 2). Item: DE-54 batch (same 5 guides as FR-56, now in Standard Hochdeutsch).
+Startup: fresh cloud clone; git reset --hard origin/master → fd5dad76. pnpm install (pnpm@10.33.0).
+Created:
+  - lag-baomer-israel: Lagerfeuer-Nacht Israel + Berg-Meron-Pilgerfahrt (2027-05-04 events schema); Safed-Alternative empfohlen (Meron-Sicherheitskontext 2021 notiert); Kabbala-Mystik; 7 FAQs; GYG Safed/Obergaliläa + Booking Safed CTAs. Cross-links: /de/traveling-israel-jewish-holidays, /de/safed-tzfat-guide, /de/galilee-tours-compared, /de/israel-events-festivals, /de/best-time-to-visit-israel, /de/is-israel-safe.
+  - israeli-passport-stamp: Papier-Einreisezettel seit ~2013 (kein Stempel); Allenby/Wadi Araba/Taba Landgrenzen; ETA-IL ab Jan 2025; DACH-spezifisch: Auswärtiges Amt (DE) + BMEIA (AT) + EDA (CH) Referenzen; Mehrländer-Reise: Israel zuletzt; 7 FAQs; Booking+GYG+SafetyWing CTAs. Cross-links: /de/border-crossings, /de/petra-from-eilat-vs-amman, /de/visa-information, /de/is-israel-safe.
+  - israel-tour-operators-guide: Abraham Tours/Bein Harim/GYG/Viator/IMTA-Privatguide Vergleich; Abraham Tours = Englischsprachig (DE-Note); IMTA-Untergruppe spricht Deutsch; INGUIDE Plattform DE-Sprachfilter; verdictName+verdictQuery; 6 FAQs; GYG+Viator+Abraham CTAs. Cross-links: /de/best-tours-in-israel, /de/private-tours-israel, /de/jerusalem-tours-compared, /de/masada-tours-compared, /de/galilee-tours-compared, /de/petra-tours-compared, /de/tel-aviv-tours-compared, /de/eilat-tours-compared.
+  - israel-craft-spirits: M&H Distillery TLV (erste Single-Malt-Whisky-Destillerie Israels gegr. 2013); WWA World's Best Single Malt 2023; Destillerietouren Mo-Fr (Voranmeldung); Craft Gin (Golani/Levant/Dead Sea Gin); Arak vs. Libanesisch; EU-1L-Zollfreigrenze (CH-Spezifik CHF 300); Bars: Dr. Whisky Bar + Hacarmel 10 + Beer Bazaar; 7 FAQs; GYG+Booking CTAs.
+  - tel-arad-guide: Nationalpark Tel Arad (INPA-Pass gültig ~₪35); kanaanäische Bronzezeitstadt 3000-2650 v.Chr.; israelitischer Tempel mit 4-Hörniger-Altar (einziger extra-muros judäischer Tempel); Nehushtan-Bronzeschlange; 91 Arad-Ostraka Paläo-Hebräisch; UNESCO Biblical Tels 2005 (mit Tel Be'er Scheva + Tel Megiddo + Tel Hazor); verdictName+verdictQuery; region=negev; 6 FAQs; GYG+Viator+Discovercars CTAs.
+Gate: pnpm check 0 errors ✓ | pnpm build 1843 pages ✓ | pnpm test:e2e PASS (bweavbych completed exit 0; 2385+ tests visible in tail, 772 smoke tests confirmed; bks45iifh all 5 new DE routes smoke pass) ✓
+Ship: committed 3cc83154 to master; pushed to origin/master. auto/de-54-batch branch had no standalone commits (staged-only); committed directly to master.
+Vercel: auto-deploy triggered. CI pending at state-write.
+DE count: 353 → 358 / 398. Next: iter 1148 = REVIEW (1148 % 5 = 3 → review DE-54 meta quality).

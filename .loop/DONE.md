@@ -2217,3 +2217,11 @@ NOTE iter1124 REVIEW pending: check nativity-trail description length (may be sl
 
 ## iter1144 · REVIEW · review-1144-es68-meta-trim · 10862339
 - 7 meta fixes across 5 ES-68 guides: 3 titles trimmed ≤54 chars (sports-events-israel 57→46, tel-aviv-bachelorette 57→44, jerusalem-coffee-guide 56→49); 4 descriptions trimmed ≤151 chars (tel-aviv-bachelorette 169→145, air-haifa-haifa-airport-guide 168→140, jerusalem-coffee-guide 173→129, israel-horseback-riding 191→146). All 23/23 /es/* links valid, no H1 in body, heroImages present, no fabricated prices/ratings. Gate: check 0 | build 1833 | test:e2e 10/10 targeted. Committed 10862339; pushed to origin/master.
+
+## iter1147 · BUILD (i18n-DE) · de-54-batch · 3cc83154
+- lag-baomer-israel.md (DE) — Lagerfeuer-Nacht + Berg-Meron 2027-05-04; Safed-Alternative; 7 FAQs; events schema
+- israeli-passport-stamp.md (DE) — Papier-Einreisezettel; Allenby/Wadi Araba/Taba; ETA-IL; DACH Auswärtiges Amt/BMEIA/EDA; 7 FAQs
+- israel-tour-operators-guide.md (DE) — Abraham/Bein Harim/GYG/Viator/IMTA; INGUIDE DE-Filter; verdictName+verdictQuery; 6 FAQs
+- israel-craft-spirits.md (DE) — M&H Distillery TLV; WWA 2023; Craft Gin; EU-Zollgrenzen; 7 FAQs
+- tel-arad-guide.md (DE) — Kanaanäische Bronzezeitstadt + israelitischer Tempel; UNESCO Biblical Tels; INPA; region=negev; verdictName+verdictQuery; 6 FAQs
+- Gate: check 0 | build 1843 (+5) | test:e2e PASS (exit 0). Committed 3cc83154; pushed to origin/master.

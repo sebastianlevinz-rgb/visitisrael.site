@@ -1,14 +1,14 @@
 # LOOP STATE
 
-- iteration: 1146
+- iteration: 1147
 - lastMode: BUILD
-- lastItem: fr-56-batch
-- lastResult: iter1146 BUILD — FR-56 SHIPPED 91c2978c. 5 FR guides (Metropolitan French): lag-baomer-israel (feux de joie Méron 2027-05-04, events schema, Safed alternative, 7 FAQs; GYG+Booking CTAs), israeli-passport-stamp (slip d'entrée papier, frontières terrestres Allenby/Wadi Araba/Taba, ETA-IL, 7 FAQs; Booking+GYG+SafetyWing CTAs), israel-tour-operators-guide (comparaison 5 formats Abraham Tours/Bein Harim/GYG/Viator/IMTA, verdictName+verdictQuery, 6 FAQs, comparison table; GYG+Viator+Abraham CTAs), israel-craft-spirits (distillerie M&H Tel Aviv, gin artisanal, arak, category Gastronomie, 7 FAQs; GYG+Booking CTAs), tel-arad-guide (cité cananéenne Bronze Age + temple israélite 10 forteresses superposées, region=negev, INPA valide, verdictName+verdictQuery, 6 FAQs; GYG+Viator+Discovercars CTAs). All /fr/* cross-links pre-verified; no fabricated prices/ratings; no H1 in body; YAML-ASCII clean. +10 e2e routes (5 smoke + 5 a11y). FR guides: 362→367/398. Build: 1833→1838 pages (+5). Gate: pnpm check 0 errors | build 1838 pages | test:e2e 2789/2789 pass (23.7m). Squash-merged to master 91c2978c; pushed to origin/master.
+- lastItem: de-54-batch
+- lastResult: iter1147 BUILD — DE-54 SHIPPED 3cc83154. 5 DE guides (Standard Hochdeutsch; DACH angles): lag-baomer-israel (Lagerfeuer-Nacht + Berg-Meron-Pilgerfahrt 2027-05-04; events schema; Safed-Alternative; 7 FAQs; GYG+Booking CTAs), israeli-passport-stamp (Papier-Einreisezettel seit 2013; Allenby/Wadi Araba/Taba Landgrenzen; ETA-IL; Auswärtiges Amt/BMEIA/EDA refs; 7 FAQs; Booking+GYG+SafetyWing CTAs), israel-tour-operators-guide (Abraham Tours/Bein Harim/GYG/Viator/IMTA-Privatguide; INGUIDE DE-Filter; verdictName+verdictQuery; 6 FAQs; GYG+Viator+Abraham CTAs), israel-craft-spirits (M&H Distillery TLV; WWA World's Best Single Malt 2023; Craft Gin; Arak; EU-Zollgrenzen; 7 FAQs; GYG+Booking CTAs), tel-arad-guide (Kanaanäische Bronzezeitstadt + israelitischer Tempel Hörneraltar; UNESCO Biblical Tels; INPA-Pass; region=negev; verdictName+verdictQuery; 6 FAQs; GYG+Viator+Discovercars CTAs). All /de/* cross-links pre-verified; no fabricated prices/ratings; no H1 in body; YAML-ASCII clean. +10 e2e routes (5 smoke + 5 a11y). DE guides: 353→358/398. Build: 1838→1843 pages (+5). Gate: pnpm check 0 errors | build 1843 pages | test:e2e PASS (bweavbych exit 0, 2385+ tests). Committed to master 3cc83154; pushed to origin/master.
 
-- nextRotationCategory: BUILD (1147 % 5 = 2)
+- nextRotationCategory: REVIEW (1148 % 5 = 3)
 - higgsfieldSpent: 0
-- updatedAt: 2026-08-11T02:00Z
-- branch context: master at 91c2978c; EN=398, FR=367/398, DE=353/398, ES=344/398; missing-all-3=20 (approx)
+- updatedAt: 2026-08-11T03:50Z
+- branch context: master at 3cc83154; EN=398, FR=367/398, DE=358/398, ES=344/398; missing-all-3=20 (approx)
 
 Notes: iter1146 BUILD — FR-56 SHIPPED 91c2978c. 5 FR guides (Metropolitan French): lag-baomer-israel (feux de joie Méron 2027-05-04, events schema, 7 FAQs), israeli-passport-stamp (slip papier, frontières terrestres, ETA-IL, 7 FAQs), israel-tour-operators-guide (comparaison 5 formats, verdictName+verdictQuery, 6 FAQs), israel-craft-spirits (M&H distillerie TLV, Gastronomie, 7 FAQs), tel-arad-guide (cité cananéenne, region=negev, INPA valide, verdictName+verdictQuery, 6 FAQs). All meta ≤hard limits (title ≤65, desc ≤160); all /fr/* cross-links verified; no fabricated data; no H1 in body; +10 e2e routes. FR: 362→367/398. Build: 1833→1838 pages (+5). Gate: pnpm check 0 | build 1838 | test:e2e 2789/2789. Squash-merged 91c2978c; pushed to origin/master.
 
