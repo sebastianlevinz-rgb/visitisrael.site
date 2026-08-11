@@ -1223,6 +1223,11 @@ const ROUTES = [
   '/de/tel-afek-guide',
   '/de/israel-diamonds-jewelry',
   '/de/tel-gezer-guide',
+  '/es/israel-power-plug',
+  '/es/maccabiah-games-2026',
+  '/es/tel-afek-guide',
+  '/es/israel-diamonds-jewelry',
+  '/es/tel-gezer-guide',
 ];
 
 for (const route of ROUTES) {
