@@ -55,6 +55,13 @@ Gate: pnpm check 0 errors; build 146 pages; 49/49 e2e+a11y pass.
 Ship: squash-merged to master 0a682c7, pushed. Prod: success; live link verified.
 Next: iter 5 = RESEARCH mode.
 
+## 2026-08-11 · iter 1162 · BUILD (i18n-DE) · de-57-batch · 0d2fe61b
+What: 4 new DE guides — israel-for-italian-travelers (Italian diaspora 800K DACH; ETA-IL seit 2025 ₪25 ≥72h; ITA Airways FCO+MXP→TLV direkt; Typ-L→H Adapter; TEAM-Karte ungültig; Franziskanerische Kustodie seit 1342; judäo-ital. Erbe Maimonides-Grabmal Tiberias; 6 FAQs; GYG+Booking+Discovercars CTAs), israel-for-russian-speaking-travelers (2M+ russischsprachige Deutsche Aussiedler/Kontingentflüchtlinge; RU-Pass kein ETA-IL → Botschaftsvisum; kein RU→TLV seit Feb 2022; via Turkish Airlines IST; Ashdod/Netanya/Kikar HaMedina; Jad Vaschem Russisch-Audioguide; 6 FAQs; GYG Russian-speaking-guides+Booking+Discovercars CTAs), israel-for-indian-travelers (180K+ Inder in DE IT-Fachkräfte; Indien NICHT auf ETA-IL-Liste → eVisa-B2 seit Jul 2025 embassies.gov.il/india ₪50 mind. 3 Wochen Bearbeitung; El Al DEL→TLV Direktflug ~7h; vegetarisch/jainistisch; christliche Pilgerreise Kerala/Tamil Nadu/Goa; UPI nicht akzeptiert; 6 FAQs; Booking+GYG+Discovercars CTAs), israel-for-gulf-travelers (Abraham-Abkommen VAE+Bahrain Sep 2020 + Marokko Dez 2020; ETA-IL erforderlich; Etihad 6 tägl. AUH→TLV; Al-Aqsa Nicht-Muslime eingeschränkte Zeiten Innere nicht zugänglich — ehrlich verfasst; Halal-Zonen Nazareth/Ostjerusalem/Akko; 7 FAQs; GYG+Booking CTAs). Note: negev-multi-day-hiking bereits in DE von iter1133 → 4 statt 5 neue Guides.
+Gate: pnpm check 0 errors | build 1882 pages (+4) | test:e2e 8/8 targeted routes pass.
+Ship: committed 0d2fe61b; pushed to origin/master. DE guides: 368→372/398.
+Prod: CI in progress at memory-update time; Vercel auto-deploy on master push.
+Next: iter 1163 (1163%5=3 → BUILD): ES-72 batch (5 ES guides).
+
 ## 2026-06-22 · iter 5 · RESEARCH · Tourist Israel + head-term SERP scan (NO SHIP)
 Researched touristisrael.com taxonomy + "best things to do/bucket list", "entry requirements 2026",
 "what to pack" SERPs (TripAdvisor/Viator/Bein Harim/Broke Backpacker). Appended 6 de-duped items
