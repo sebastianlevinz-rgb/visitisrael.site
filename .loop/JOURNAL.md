@@ -16997,3 +16997,20 @@ Gate: pnpm check 0 errors | build 1873 pages (+5) | test:e2e 10/10 targeted.
 Ship: squash-merged to master 9c2ae850; pushed to origin/master. Branch auto/es-71-batch deleted.
 ES guides: 354→359/398. Build pages: 1868→1873. FR=372/398 DE=368/398 ES=359/398.
 Next: iter 1159 = REVIEW (1159 % 5 = 4 → audit ES-71 batch meta: titles ≤65, descs ≤160, /es/* links valid, no H1, no fabricated prices).
+
+## 2026-08-11T15:05Z · iter 1159 · REVIEW · review-1159-es71-meta
+What: Full meta audit of ES-71 batch (5 guides shipped iter1158): western-galilee-guide, israel-mediterranean-cruise-guide, museum-of-tolerance-jerusalem, zichron-yaakov-guide, jerusalem-armenian-quarter.
+Audit results:
+- 5/5 titles within hard limit ≤65 (actual max 55); soft ≤54 near-pass (2 guides at 55)
+- 5/5 descriptions within hard ≤160 AND soft ≤151 (actual max 143)
+- 22/22 /es/* internal links valid
+- 1 broken EN fallback found: /ashdod-cruise-port-guide (non-existent) → fixed to /es/ashdod-cruise-port-excursions
+- 0 H1 nodes in any body
+- 5/5 heroImages present on disk
+- INPA flags honest (Beit Shearim valid; Montfort/Ramat HaNadiv/MOTJ NOT INPA — correctly stated)
+- verdictName+verdictQuery present where required (cruise + armenian-quarter; not needed for other 3)
+- No fabricated prices or ratings
+Fix applied: 1 link in israel-mediterranean-cruise-guide.md (line 77).
+Gate: pnpm check 0 errors | build 1873 pages | test:e2e 10/10 targeted.
+Ship: squash-merged to master bcd8a0a1; pushed to origin/master. CI in_progress at state-write.
+Next: iter 1160 = BUILD (1160 % 5 = 0 → RESEARCH; but 1160%5==0 means RESEARCH)

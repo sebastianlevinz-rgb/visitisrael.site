@@ -2253,3 +2253,8 @@ NOTE iter1124 REVIEW pending: check nativity-trail description length (may be sl
 - src/content/guides/de/museum-of-tolerance-jerusalem.md
 - src/content/guides/de/zichron-yaakov-guide.md
 - src/content/guides/de/jerusalem-armenian-quarter.md
+
+## iter1159 REVIEW — review-1159-es71-meta (bcd8a0a1)
+Full meta audit ES-71 batch — 1 broken link fixed in israel-mediterranean-cruise-guide.md
+(/ashdod-cruise-port-guide → /es/ashdod-cruise-port-excursions). All 5 guides pass
+title/desc hard limits, internal link validity, H1, heroImage, INPA, verdict checks.
