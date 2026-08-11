@@ -74,7 +74,7 @@ Der neue Terminal liegt in unmittelbarer Naethe des Haifaer Zentralbahnhofs (Hai
 
 ## Ashdod — der Hafen fuer Jerusalem und Tel Aviv
 
-Ashdod ist Israels suedlicher Kreuzfahrthafen, geografisch privilegiert durch die Naehe zu Jerusalems Altstadt — dem meistbesuchten Einzelziel aller Israel-Kreuzfahrtausfluege. Das Hafenterminal ist funktional, aber kleiner als der neue Haifaer Bau; Taxis und Privatbusse warten am Ausgang. Den ausfuehrlichen Hafenratgeber finden Sie unter [Ashdod Kreuzfahrthafen-Leitfaden](/ashdod-cruise-port-guide).
+Ashdod ist Israels suedlicher Kreuzfahrthafen, geografisch privilegiert durch die Naehe zu Jerusalems Altstadt — dem meistbesuchten Einzelziel aller Israel-Kreuzfahrtausfluege. Das Hafenterminal ist funktional, aber kleiner als der neue Haifaer Bau; Taxis und Privatbusse warten am Ausgang. Den ausfuehrlichen Ausflugratgeber finden Sie unter [Ashdod Kreuzfahrthafen — Ausflüge und Transfers](/de/ashdod-cruise-port-excursions).
 
 ### Was von Ashdod aus zu sehen ist
 
