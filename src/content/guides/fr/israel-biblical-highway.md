@@ -158,6 +158,6 @@ Shiloh est le site de tourisme de foi le plus développé de manière complète 
 
 ## Où séjourner
 
-Jérusalem est la base naturelle pour l'ensemble du circuit de la Route biblique. Les pensions de la Vieille Ville (Centre Notre Dame, Hospice autrichien, Guesthouse Christ Church) conviennent aux voyageurs de pèlerinage ; la partie occidentale de la ville a une gamme complète d'hôtels 3 à 5 étoiles. [Consultez les hôtels de Jérusalem →](/fr/where-to-stay/jerusalem)
+Jérusalem est la base naturelle pour l'ensemble du circuit de la Route biblique. Les pensions de la Vieille Ville (Centre Notre Dame, Hospice autrichien, Guesthouse Christ Church) conviennent aux voyageurs de pèlerinage ; la partie occidentale de la ville a une gamme complète d'hôtels 3 à 5 étoiles. [Consultez les hôtels de Jérusalem →](/fr/best-hotels-jerusalem)
 
 Pour une extension dans le Néguev, Beer Sheva et Mitzpe Ramon ont des hôtels et des hébergements de charme ; consultez notre [guide de Mitzpe Ramon](/fr/mitzpe-ramon-guide) pour les options.
