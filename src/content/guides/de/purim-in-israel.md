@@ -1,6 +1,6 @@
 ---
 title: 'Purim in Israel 2027: Strassenfest Tel Aviv & Jerusalem'
-description: 'Purim in Israel 2027 (22.–23. März) erleben — Dizengoff-Platz-Kostümfest, Jerusalemer Adloyada-Parade, Megilla-Lesungen und praktische Tipps für Besuchende.'
+description: 'Purim in Israel 2027 (22.–23. März) erleben — Dizengoff-Platz-Kostümfest, Adloyada-Parade, Megilla-Lesungen und praktische Tipps für Besuchende.'
 heroImage: /images/regions/tel-aviv/hero.jpg
 category: Planung
 updatedAt: 2026-07-15

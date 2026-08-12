@@ -1,6 +1,6 @@
 ---
 title: 'Jerusalemer Stadtviertel: Beste Lagen & Wohngebiete 2026'
-description: 'Jerusalemer Stadtviertel im Überblick — Altstadtquartiere, Deutsche Kolonie, Mahane Jehuda und Mamilla. Wo Sie am besten übernachten und wie Sie sich fortbewegen.'
+description: 'Jerusalemer Stadtviertel im Überblick — Altstadtquartiere, Deutsche Kolonie, Mahane Jehuda und Mamilla. Unterkunfts- und Orientierungstipps.'
 heroImage: /images/regions/jerusalem/old-city.jpg
 category: Reiseziele
 updatedAt: 2026-07-02
