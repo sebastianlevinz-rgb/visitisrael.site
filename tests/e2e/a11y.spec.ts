@@ -1311,6 +1311,10 @@ const ROUTES = [
   '/de/israel-for-spanish-travelers',
   '/de/israel-for-french-travelers',
   '/de/israel-biblical-highway',
+  '/de/israel-group-travel',
+  '/de/israel-with-teenagers',
+  '/de/israel-photography-tours',
+  '/de/petra-wadi-rum-from-eilat',
 ];
 
 for (const route of ROUTES) {
