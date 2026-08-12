@@ -17211,3 +17211,9 @@ Gate: pnpm check 0 errors | build 1932 pages (unchanged) | test:e2e 10/10 target
 Ship: committed d0dcca89 "fix(review-de60): trim 2 DE-60 descriptions over hard limit"; pushed to origin/master.
 Prod: CI in_progress at state-write; Vercel auto-deploy on master push.
 Next: iter1180 (1180%5=0 → RESEARCH): 253rd research pass — define FR-62/DE-61/ES-76 batch.
+
+## 2026-08-12T14:10Z · iter 1179 · HOTFIX (links) · es-broken-links · 68d5a5b1
+What: discovered 2 broken internal links in /es/tel-aviv-things-to-do via full links.spec.ts run (pre-existing since iter1176 ES-75 batch; blocked CI on iter1178).
+Fix: /es/tel-aviv-light-rail → /tel-aviv-light-rail (EN fallback); /es/tel-aviv-tours-compared → /tel-aviv-tours-compared (EN fallback). Both EN pages confirmed to exist.
+Gate: pnpm check 0 errors | build 1932 pages | links.spec.ts PASS + smoke + a11y on affected route — 3/3 pass.
+Ship: committed 68d5a5b1 "fix(es): replace 2 broken /es/ links in tel-aviv-things-to-do"; pushed to origin/master.
