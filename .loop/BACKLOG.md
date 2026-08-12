@@ -3,6 +3,10 @@
 Format: `- [P1] (category, effort S/M/L) Title — why valuable — impl sketch — status`
 Priorities P0 (highest) → P3. Status: ready | blocked:<reason> | in-progress.
 
+## P0 — Broken internal links (discovered iter1184 REVIEW; links.spec.ts failing on master)
+
+- [P0] (technical, S) Fix 3 broken /fr/* internal links in FR-62 guides — links.spec.ts fails on master; bad for SEO/crawlability — 3 fixes needed: (1) /fr/israel-biblical-highway links to /fr/where-to-stay/jerusalem (does not exist; change to /where-to-stay/jerusalem EN fallback or /fr/best-hotels-jerusalem); (2) /fr/israel-for-spanish-travelers links to /fr/7-days-in-israel (does not exist in FR; change to EN fallback /7-days-in-israel); (3) /fr/israel-for-spanish-travelers links to /fr/10-days-in-israel (does not exist in FR; change to EN fallback /10-days-in-israel). All 3 were shipped in FR-62 (iter1182) and predate the DE-61-review change. — status: ready.
+
 ## i18n — ready batches (next BUILD iterations)
 
 ### FR-62/DE-61/ES-76 batch definition (iter1180 RESEARCH — 253rd research pass)

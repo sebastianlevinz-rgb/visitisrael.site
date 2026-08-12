@@ -17260,3 +17260,11 @@ Fix: 3 files patched (title trim for biblical-highway; description trims for arg
 Gate: pnpm check 0 errors | build 1946 pages | 35/35 targeted smoke.spec+a11y.spec PASS.
 Ship: squash-merged to master 0fee7618, pushed to origin/master. CI was pre-existing red on base branch (3c007e32 + 7031cd47 both show CI=failure before this change); Lighthouse in_progress.
 Next: iter1185 — 1185%5=0 → RESEARCH mode (or i18n-DE BUILD if rotating — DE-62 candidates: israel-group-travel + israel-with-teenagers + israel-photography-tours + petra-wadi-rum-from-eilat).
+
+## 2026-08-12T18:58Z · iter 1184 · ADDENDUM · broken-link discovery
+Full e2e suite (background task, completed after state commit) revealed 3 broken /fr/* internal links — all pre-existing in FR-62 (iter1182), confirmed by CI=failure on prior master (3c007e32):
+  /fr/israel-biblical-highway → /fr/where-to-stay/jerusalem (page does not exist in FR)
+  /fr/israel-for-spanish-travelers → /fr/7-days-in-israel (does not exist in FR)
+  /fr/israel-for-spanish-travelers → /fr/10-days-in-israel (does not exist in FR)
+My change (0fee7618 = title/desc trims on 3 DE files) does not cause any of these failures.
+Filed as P0 BACKLOG item for next iteration to fix before anything else ships.
