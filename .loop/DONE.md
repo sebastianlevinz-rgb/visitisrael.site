@@ -2317,3 +2317,9 @@ FR: 382→387/398. Build: 1902→1907 (+5). Gate: check 0 | build 1907 | e2e 10/
 ## iter1172 · 2026-08-12 · DE-59 batch · BUILD · 02cd4bcf
 5 DE guides (Standard Hochdeutsch) shipped. Guides: israel-for-chinese-travelers.md, israel-for-filipino-travelers.md, israel-for-irish-travelers.md, israel-for-czech-travelers.md, israel-anzac-heritage.md.
 DE: 377→382/398. Build: 1907→1912 (+5). Gate: check 0 | build 1912 | e2e 10/10 targeted.
+
+## iter1181 · 2026-08-12 · ES-76 batch (partial: 4/5) · BUILD · 7c30ae83
+4 ES guides (LATAM tuteo) shipped as commit 7c30ae83.
+Guides: tel-aviv-white-city.md, sarona-market-tel-aviv.md, nazareth-sea-of-galilee-day-trip.md, wedding-in-israel.md.
+Note: petra-wadi-rum-from-eilat.md already existed — skipped.
+ES: 379→383/401. Build: 1932→1936 (+4). Gate: check 0 | build 1936 | e2e 8/8 targeted.

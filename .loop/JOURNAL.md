@@ -17223,3 +17223,11 @@ What: RESEARCH pass. EN count corrected to 401 (STATE said 398; 3+ guides added 
 Batch definitions: FR-62 (israel-for-argentinian-travelers + israel-for-spanish-travelers + israel-for-german-travelers + israel-vs-france + israel-biblical-highway; all cross-links ✓; FR 392→397/401); DE-61 (negev-makhtesh-guide + israel-for-argentinian-travelers + israel-for-spanish-travelers + israel-for-french-travelers + israel-biblical-highway; all cross-links ✓; DE 387→392/401); ES-76 (tel-aviv-white-city + wedding-in-israel + sarona-market-tel-aviv + nazareth-sea-of-galilee-day-trip + petra-wadi-rum-from-eilat; cross-links ✓; ES 379→384/401).
 8 new individual BACKLOG items added. No code shipped (RESEARCH mode).
 Next: iter1181 BUILD (1181%5=1) — ES-76 batch.
+
+## 2026-08-12T16:30Z · iter 1181 · BUILD (i18n-ES) · es-76-batch
+What: ES-76 batch — 4 new ES guides in LATAM tuteo register: tel-aviv-white-city (Ciudad Blanca Bauhaus; LATAM angle: arquitectura Bauhaus familiar para estudiantes LATAM vía Niemeyer/racionalismo mexicano; cross-links /es/tel-aviv-neighborhoods-guide, /es/tel-aviv-food-guide, /es/tel-aviv-street-art, /es/transportation), sarona-market-tel-aviv (colonia templaria alemana 1871 → mercado gourmet; LATAM angle: Mercado San Telmo BSAS / Mercado Roma CDMX; comparison table Carmel vs Sarona), nazareth-sea-of-galilee-day-trip (circuito cristiano: Nazaret + Cafarnaún + Monte Bienaventuranzas + Tabgha + Yardenit; LATAM angle: mayor mercado católico/evangélico fuera Europa; cost range $98-108 USD; 3 affiliate CTAs: GYG+Viator+Booking), wedding-in-israel (boda destino: marco legal civil inexistente / ceremonia simbólica + registro civil en origen; venues: fincas vinícolas Galilea/Golán, piedra Jaffa/Akko/Jerusalén, Cráter Ramón, kibutz; LATAM angle: 300K+ judíos Argentina + 40K+ México).
+Note: petra-wadi-rum-from-eilat.md already existed from prior iteration — skipped. Only 4 of 5 planned guides created.
+Gate: pnpm check 0 errors | pnpm build 1936 pages (+4) | targeted e2e 8/8 PASS (smoke+a11y on 4 new routes).
+Ship: committed directly to master SHA 7c30ae83; pushed to origin/master.
+ES: 379→383/401. Missing-ES: 19→18 (corrected; 401-383=18).
+CI status: in_progress at state-write.

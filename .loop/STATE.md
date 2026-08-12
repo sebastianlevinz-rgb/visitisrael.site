@@ -1,16 +1,16 @@
 # LOOP STATE
 
-- iteration: 1180
-- lastMode: RESEARCH
-- lastItem: 253rd-research-pass
-- lastResult: iter1180 RESEARCH — 253rd research pass. EN count corrected to 401 (was 398 in STATE; 3+ new guides added in prior iterations without STATE update: israel-for-argentinian-travelers + israel-for-spanish-travelers + israel-vs-france confirmed via git log). Defined FR-62 (5 guides: israel-for-argentinian-travelers + israel-for-spanish-travelers + israel-for-german-travelers + israel-vs-france + israel-biblical-highway; FR 392→397/401), DE-61 (5 guides: negev-makhtesh-guide + israel-for-argentinian-travelers + israel-for-spanish-travelers + israel-for-french-travelers + israel-biblical-highway; DE 387→392/401), ES-76 (5 guides: tel-aviv-white-city + wedding-in-israel + sarona-market-tel-aviv + nazareth-sea-of-galilee-day-trip + petra-wadi-rum-from-eilat; ES 379→384/401). All cross-links verified per locale. 8 new individual BACKLOG items added (DE: israel-group-travel + israel-with-teenagers + israel-photography-tours + petra-wadi-rum-from-eilat; ES: israel-for-swiss-travelers + israel-travel-apps + jerusalem-bethlehem-day-trip + luxury-travel-israel). Competitor research: touristisrael.com ranks luxury hotels + group travel strongly; DE-language editorial gap confirmed for group/teen/photography guides. No code shipped.
+- iteration: 1181
+- lastMode: BUILD
+- lastItem: es-76-batch
+- lastResult: iter1181 BUILD (i18n-ES) — ES-76 batch SHIPPED SHA 7c30ae83. Delivered 4 new ES guides: tel-aviv-white-city + sarona-market-tel-aviv + nazareth-sea-of-galilee-day-trip + wedding-in-israel (LATAM tuteo register). petra-wadi-rum-from-eilat already existed in prior iteration — skipped. Smoke.spec + a11y.spec extended with 4 routes. Build: 1932→1936 pages (+4). Gate: pnpm check 0 errors | build 1936 | targeted e2e 8/8 PASS. Committed directly to master 7c30ae83; pushed origin/master. CI in_progress at state-write.
 
-- nextRotationCategory: BUILD (i18n-ES) — iter1181 (1181%5=1 → BUILD): ES-76 batch (tel-aviv-white-city + wedding-in-israel + sarona-market-tel-aviv + nazareth-sea-of-galilee-day-trip + petra-wadi-rum-from-eilat; cross-links all pre-verified)
+- nextRotationCategory: BUILD (i18n-FR) — iter1182 (1182%5=2 → BUILD): FR-62 batch (israel-for-argentinian-travelers + israel-for-spanish-travelers + israel-for-german-travelers + israel-vs-france + israel-biblical-highway; all cross-links pre-verified in iter1180 RESEARCH; FR 392→397/401)
 - higgsfieldSpent: 0
-- updatedAt: 2026-08-12T15:00Z
-- branch context: master at ceae7822; EN=401, FR=392/401, DE=387/401, ES=379/401; missing-FR=6, missing-DE=11, missing-ES=19; missing-all-3=1 (israel-for-serbian-travelers P3)
+- updatedAt: 2026-08-12T16:30Z
+- branch context: master at 7c30ae83; EN=401, FR=392/401, DE=387/401, ES=383/401; missing-FR=6, missing-DE=11, missing-ES=18; missing-all-3=1 (israel-for-serbian-travelers P3)
 
-Notes: iter1180 RESEARCH — 253rd research pass. Batch FR-62/DE-61/ES-76 defined. After FR-62 ships: FR=397/401 (only israel-for-serbian-travelers missing = P3). After DE-61 ships: DE=392/401 (israel-group-travel + israel-photography-tours + israel-vs-cypress + israel-with-teenagers + petra-wadi-rum-from-eilat remaining). After ES-76 ships: ES=384/401 (14 still missing).
+Notes: iter1181 BUILD — ES-76 batch (4 of 5 guides created; petra-wadi-rum already present). ES: 379→383/401. After FR-62 ships: FR=397/401 (only israel-for-serbian-travelers missing = P3). After DE-61 ships: DE=392/401 (israel-group-travel + israel-photography-tours + israel-vs-cypress + israel-with-teenagers + petra-wadi-rum-from-eilat remaining). ES still needs: israel-for-swiss-travelers + israel-travel-apps + jerusalem-bethlehem-day-trip + luxury-travel-israel + negev-makhtesh-guide + israel-for-french-travelers + israel-for-german-travelers + israel-for-italian-travelers + israel-for-russian-speaking-travelers + israel-for-indian-travelers + israel-for-gulf-travelers + israel-for-serbian-travelers + israel-biblical-highway + israel-vs-france + israel-for-argentinian-travelers + israel-for-spanish-travelers + israel-group-travel + israel-with-teenagers (18 missing).
 
 Notes: iter1179 REVIEW — DE-60 meta-audit SHIPPED d0dcca89. Audited 5 DE-60 guides: 2 descriptions OVER hard limit fixed (jerusalem-neighborhoods-guide/de 162→140; purim-in-israel/de 156→144). 3 titles over soft limit only (56/59/55 chars; under hard limit 65; no change). All 25 /de/* cross-links valid. No H1 in body on any of 5 guides. No fabricated prices/ratings in content (rating/reviews frontmatter fields schema-optional per AffiliateCard design, not rendered). Gate: pnpm check 0 errors | build 1932 | test:e2e 10/10 targeted pass. Committed d0dcca89; pushed origin/master. CI in_progress at state-write.
 

@@ -6,16 +6,16 @@
 >
 > One bounded slice per loop iteration. NEVER bulk-translate in one shot.
 
-## Current status snapshot (2026-08-12 iter1180 RESEARCH — FR-62/DE-61/ES-76 defined; EN=401, FR=392/401, DE=387/401, ES=379/401)
+## Current status snapshot (2026-08-12 iter1181 BUILD — ES-76 SHIPPED; EN=401, FR=392/401, DE=387/401, ES=383/401)
 
 | Locale | Guides | Attractions | Regions | Itineraries |
 |--------|--------|-------------|---------|-------------|
 | en     | 401    | 65          | 11      | 6           |
 | fr     | 392    | 61          | 11      | 6           |
 | de     | 387    | 61          | 11      | 6           |
-| es     | 379    | 61          | 11      | 6           |
+| es     | 383    | 61          | 11      | 6           |
 
-Note: EN=401 corrected (was 398 in iter1178 STATE; 3+ guides added in prior iterations without STATE update: israel-for-argentinian-travelers + israel-for-spanish-travelers + israel-vs-france + israel-for-german-travelers + israel-for-french-travelers + israel-for-swiss-travelers and others). FR-61/DE-60 SHIPPED (iter1177/1178). Missing-all-3 = 1 (israel-for-serbian-travelers P3). FR-62/DE-61/ES-76 batch defined iter1180.
+Note: EN=401 corrected (was 398 in iter1178 STATE; 3+ guides added in prior iterations without STATE update: israel-for-argentinian-travelers + israel-for-spanish-travelers + israel-vs-france + israel-for-german-travelers + israel-for-french-travelers + israel-for-swiss-travelers and others). FR-61/DE-60 SHIPPED (iter1177/1178). ES-76 SHIPPED iter1181 7c30ae83 (4 of 5 guides: tel-aviv-white-city + sarona-market-tel-aviv + nazareth-sea-of-galilee-day-trip + wedding-in-israel; petra-wadi-rum-from-eilat already existed). Missing-all-3 = 1 (israel-for-serbian-travelers P3). FR-62/DE-61 batch pending.
 
 **🎉 MILESTONE: ES + FR + DE monthly guides ALL COMPLETE** (iter996+iter997 ES-41+ES-42 SHIPPED — all 12 per-month guides jan-dec now exist in ES, FR, and DE)
 **🎉 MILESTONE: FR-60/DE-59/ES-74 trilogy COMPLETE** (iter1171-1173; audience-segmented "for-nationality" guides batch fully shipped)
@@ -23,7 +23,7 @@ Note: EN=401 corrected (was 398 in iter1178 STATE; 3+ guides added in prior iter
 **Gaps to close (2026-08-12):**
 - fr guides: **6 missing** (392/401 — FR-61 SHIPPED iter1177 b56ccee2; **next FR BUILD = FR-62** — defined iter1180 below)
 - de guides: **11 missing** (387/401 — DE-60 SHIPPED iter1178 6484ee03; **next DE BUILD = DE-61** — defined iter1180 below)
-- es guides: **19 missing** (379/401 — ES-75 SHIPPED iter1176 dfe6d954; **next ES BUILD = ES-76** — defined iter1180 below)
+- es guides: **18 missing** (383/401 — ES-76 SHIPPED iter1181 7c30ae83; **next ES BUILD = ES-77** — see BACKLOG for candidates)
 - fr/de/es attractions: **4 missing each** (the 4 EN attractions added after Phase 4)
 
 ### FR-62 batch definition (iter1180 RESEARCH — ready for next FR BUILD)
@@ -46,7 +46,7 @@ All 5 confirmed MISSING from DE via `comm -23` (2026-08-12). All cross-links ver
 - israel-biblical-highway: Biblische Route — Highway 60 — Beer-Scheba bis Nazareth — same scope as FR-62 (exclude Hebron per PROJECT.md; cover Beer-Sheva → Jerusalem corridor → Beit El → Shilo → Afula → Nazareth); DACH Bibelarchäologie-Reisenische very strong (land-der-bibel.de = academic only; zero DACH travel editorial); all DE cross-links ✓ (beer-sheva-guide, 1-day-jerusalem-itinerary, nazareth-travel-guide, car-rental-israel, driving-in-israel, israel-national-parks-pass). Partners: DiscoverCars + GYG. Effort: M.
 Competitor audit: zero DACH editorial competitor for all 5; Makhtesh craters confirmed zero DACH travel coverage; Argentina/Spain/France traveler guides = zero DACH editorial.
 
-### ES-76 batch definition (iter1180 RESEARCH — ready for next ES BUILD)
+### ES-76 batch — SHIPPED iter1181 7c30ae83 (4/5: tel-aviv-white-city + sarona-market-tel-aviv + nazareth-sea-of-galilee-day-trip + wedding-in-israel; petra-wadi-rum-from-eilat already existed)
 Guides: `tel-aviv-white-city.md`, `wedding-in-israel.md`, `sarona-market-tel-aviv.md`, `nazareth-sea-of-galilee-day-trip.md`, `petra-wadi-rum-from-eilat.md`
 All 5 confirmed MISSING from ES via `comm -23` (2026-08-12). Cross-links verified in ES.
 - tel-aviv-white-city: Ciudad Blanca de Tel Aviv — UNESCO Bauhaus 2003 — MAYOR hub page referenced as EN fallback in 3+ shipped ES guides (tel-aviv-street-art, sarona-market-tel-aviv, tel-aviv-light-rail); White City Tour (Bauhaus Center; Dizengoff Square round building Dov Karmi 1938; 4,000 Bauhaus structures; guided tours Sat 11:00 free; Palmach Street + Bialik Street concentration). LATAM angle: Bauhaus = Walter Gropius = known to LATAM architecture students; UNESCO distinction resonates. Cross-links ES ✓: tel-aviv-food-guide, tel-aviv-nightlife, tel-aviv-street-art, transportation; tel-aviv-light-rail MISSING → EN fallback. Partners: GYG (White City Bauhaus tour) + Booking. Zero ES editorial. Effort: S.
