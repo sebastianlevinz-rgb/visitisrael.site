@@ -17092,3 +17092,12 @@ Gate: pnpm check 0 errors | build 1902 pages (+5 from 1897) | pnpm test:e2e 2917
 Ship: squash-merged branch auto/es-73-batch to master 1bc008e1; pushed origin/master. CI in_progress at state-write (normal).
 ES guide count: 364->369/398. missing-ES: 34->29. missing-all-3: 11->6 (FR-59+DE-58+ES-73 trilogy complete).
 Next: iter1169 = REVIEW (1169%5=4->REVIEW): meta-audit review pass of ES-73 batch (and ES-72 if needed).
+
+## 2026-08-12 · iter 1169 · REVIEW · review-1169-es73-es72-meta-trim · f8e167fc
+What: Meta-audit review pass of 10 ES guides from es-73 (american+korean+south-african+portuguese+nordic) and es-72 (negev-multi-day-hiking+italian+russian+indian+gulf) batches.
+Checks run: title length (hard ≤65, soft ≤54), desc length (hard ≤160, soft ≤151), H1 in body, heroImages on disk, /es/* internal link validity (verified against guides+itineraries+regions+pages; 0 broken), no fabricated prices/ratings.
+Findings: 2 HARD LIMIT violations (desc>160) + 6 soft limit overruns (desc>151 or title>54). 4 guides fully clean.
+Fixes (8 total): american-travelers desc 167->118; nordic-travelers desc 181->117; negev-multi-day-hiking desc 154->130; italian-travelers desc 155->112; russian-speaking-travelers desc 154->133; indian-travelers title 57->47 + desc 155->134.
+Gate: pnpm check 0 errors | build 1902 (unchanged) | test:e2e 20/20 targeted (10 smoke + 10 a11y).
+Ship: committed f8e167fc to master; pushed origin/master. CI in_progress at state-write (normal).
+Next: iter1170 = RESEARCH (1170%5=0->RESEARCH): 263rd pass; scout missing-all-3 candidates for next batch.
