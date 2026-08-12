@@ -1581,6 +1581,11 @@ const ROUTES = [
   '/de/tel-aviv-museums',
   '/de/purim-in-israel',
   '/de/jaffa-hotels-guide',
+  '/de/negev-makhtesh-guide',
+  '/de/israel-for-argentinian-travelers',
+  '/de/israel-for-spanish-travelers',
+  '/de/israel-for-french-travelers',
+  '/de/israel-biblical-highway',
 ];
 
 for (const route of ROUTES) {
