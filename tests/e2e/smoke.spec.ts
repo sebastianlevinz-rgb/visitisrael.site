@@ -1567,6 +1567,11 @@ const ROUTES = [
   '/fr/negev-makhtesh-guide',
   '/fr/sarona-market-tel-aviv',
   '/fr/wedding-in-israel',
+  '/de/jerusalem-neighborhoods-guide',
+  '/de/layover-jerusalem',
+  '/de/tel-aviv-museums',
+  '/de/purim-in-israel',
+  '/de/jaffa-hotels-guide',
 ];
 
 for (const route of ROUTES) {
