@@ -1282,6 +1282,11 @@ const ROUTES = [
   '/es/israel-for-irish-travelers',
   '/es/israel-for-czech-travelers',
   '/es/israel-anzac-heritage',
+  '/es/tel-aviv-things-to-do',
+  '/es/solo-female-travel-israel',
+  '/es/petra-tours-compared',
+  '/es/purim-in-israel',
+  '/es/rav-kav-israel',
 ];
 
 for (const route of ROUTES) {
