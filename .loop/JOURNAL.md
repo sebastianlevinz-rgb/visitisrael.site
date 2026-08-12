@@ -17237,3 +17237,19 @@ What: 5 new FR guides (Metropolitan French) — israel-for-argentinian-travelers
 Gate: pnpm check 0 errors | build 1941 pages (+5) | test:e2e 10/10 targeted pass.
 Ship: committed directly to master 3b0ddd4b; pushed to origin/master. CI in_progress at state-write (normal).
 FR: 392→397/401. Missing-FR: 6→1 (only israel-for-serbian-travelers P3). Next: iter1183 BUILD DE-61 batch.
+
+## 2026-08-12 · iter 1183 · BUILD (i18n-DE-61)
+
+**Batch:** DE-61 — 5 Standard Hochdeutsch guides
+**SHA:** 7031cd47
+**Gate:** pnpm check 0 errors | build pass | targeted e2e 10/10 PASS
+**DE count:** 387→392/401
+
+Files shipped:
+1. `src/content/guides/de/negev-makhtesh-guide.md` — Makhtesh HaGadol (14×6km, near Yeruham) & HaKatan (5×7km, near Dimona); erosion craters not volcanic/meteor; INPA pass; colored sands; 3 CTAs (DiscoverCars/GYG/Booking); 8 FAQs; comparison + season tables
+2. `src/content/guides/de/israel-for-argentinian-travelers.md` — El Al EZE→TLV direct Nov 29, 2026 (2×/week); PAMI nicht gültig; ARS nicht tauschbar; Type I→H adapter; Yad Vashem + Alte Stadt jüdisches Erbe; 3 CTAs (GYG/Booking/SafetyWing); 7 FAQs
+3. `src/content/guides/de/israel-for-spanish-travelers.md` — Arkia TLV↔Málaga wöchentlich ab Juli 2026; Israir MAD↔TLV 3×/Woche ab 25. Okt 2026; TSE/EHIC nicht gültig; Bizum funktioniert nicht; sephardisches Erbe 1492; 3 CTAs (Booking/GYG/DiscoverCars); 7 FAQs
+4. `src/content/guides/de/israel-for-french-travelers.md` — Air France CDG→TLV 3-4 täglich; Assurance Maladie/CEAM nicht gültig; Lydia/PayLib/Lyf Pay nicht kompatibel; Notre-Dame de France Jerusalem; Frankreich größte jüdische Gemeinschaft Europas; 3 CTAs (Booking/GYG/DiscoverCars); 7 FAQs
+5. `src/content/guides/de/israel-biblical-highway.md` — Derech HaTanach (Route 60) inauguriert 18. Juni 2026 Netanyahu+Huckabee; Tel Be'er Scheva UNESCO; Bethlehem Area A; Beit El Area C; Tel Schilo Stiftshütte-Rekonstruktion; Hebron explicitly excluded; 3 CTAs (DiscoverCars/GYG/Booking); 7 FAQs
+
+Session context: resumed from compaction; git divergence recovery was needed in prior sub-session; branch auto/de-61-batch squash-merged to master.
