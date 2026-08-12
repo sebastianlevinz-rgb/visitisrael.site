@@ -6,14 +6,14 @@
 >
 > One bounded slice per loop iteration. NEVER bulk-translate in one shot.
 
-## Current status snapshot (2026-08-12 iter1175 RESEARCH — 252nd pass; EN=398, FR=387/398, DE=382/398, ES=374/398)
+## Current status snapshot (2026-08-12 iter1177 BUILD — FR-61 SHIPPED; EN=398, FR=392/398, DE=382/398, ES=379/398)
 
 | Locale | Guides | Attractions | Regions | Itineraries |
 |--------|--------|-------------|---------|-------------|
 | en     | 398    | 65          | 11      | 6           |
-| fr     | 387    | 61          | 11      | 6           |
+| fr     | 392    | 61          | 11      | 6           |
 | de     | 382    | 61          | 11      | 6           |
-| es     | 374    | 61          | 11      | 6           |
+| es     | 379    | 61          | 11      | 6           |
 
 Note: EN=398 confirmed via `find src/content/guides -maxdepth 1 -name "*.md"`. FR-60/DE-59/ES-74 trilogy COMPLETE (iter1173/1174). Missing-all-3 reduced to 1 (israel-for-serbian-travelers P3).
 
@@ -21,9 +21,9 @@ Note: EN=398 confirmed via `find src/content/guides -maxdepth 1 -name "*.md"`. F
 **🎉 MILESTONE: FR-60/DE-59/ES-74 trilogy COMPLETE** (iter1171-1173; audience-segmented "for-nationality" guides batch fully shipped)
 
 **Gaps to close (2026-08-12):**
-- fr guides: **11 missing** (387/398 done — FR-60 SHIPPED; **next FR BUILD = FR-61** — jesus-trail-israel + nazareth-tours-compared + negev-makhtesh-guide + sarona-market-tel-aviv + wedding-in-israel [defined iter1175; all cross-links verified])
+- fr guides: **6 missing** (392/398 done — FR-61 SHIPPED iter1177 b56ccee2; **next FR BUILD = FR-62** — [to be defined in next RESEARCH iteration])
 - de guides: **16 missing** (382/398 done — DE-59 SHIPPED; **next DE BUILD = DE-60** — jerusalem-neighborhoods-guide + layover-jerusalem + tel-aviv-museums + purim-in-israel + jaffa-hotels-guide [defined iter1175; all cross-links verified])
-- es guides: **24 missing** (374/398 done — ES-74 SHIPPED; **next ES BUILD = ES-75** — tel-aviv-things-to-do + solo-female-travel-israel + petra-tours-compared + purim-in-israel + rav-kav-israel [defined iter1175; cross-links verified; 1 EN fallback: /es/tel-aviv-white-city missing → EN fallback for tel-aviv-things-to-do])
+- es guides: **19 missing** (379/398 done — ES-75 SHIPPED iter1176 dfe6d954; **next ES BUILD = ES-76** — [to be defined in next RESEARCH iteration])
 - fr/de/es attractions: **4 missing each** (the 4 EN attractions added after Phase 4)
 
 ### FR-61 batch definition (iter1175 RESEARCH — ready for next FR BUILD)
