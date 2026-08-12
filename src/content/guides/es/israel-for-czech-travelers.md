@@ -1,6 +1,6 @@
 ---
 title: "Guia de Israel para Turistas Checos (2026)"
-description: "Israel para viajeros checos: ETA-IL disponible, vuelos El Al y Wizz Air desde Praga, seguro de salud y la conexion historica Checoslovaquia-Israel de 1948."
+description: "Israel para viajeros checos: ETA-IL disponible, vuelos El Al y Wizz Air desde Praga, seguro obligatorio y lazos historicos Checoslovaquia-Israel 1948."
 heroImage: /images/regions/jerusalem/hero.jpg
 category: Planning
 updatedAt: 2026-08-12

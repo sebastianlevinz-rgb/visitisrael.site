@@ -1,6 +1,6 @@
 ---
 title: "Guia de Israel para Turistas Irlandeses (2026)"
-description: "Israel para viajeros de Irlanda: ETA-IL obligatoria, vuelos Ryanair y Aer Lingus, EHIC no valido en Israel, circuito de peregrinacion y contactos de la Embajada."
+description: "Israel para viajeros de Irlanda: ETA-IL obligatoria, vuelos Ryanair y Aer Lingus, EHIC no valido en Israel y circuito de peregrinacion cristiana."
 heroImage: /images/regions/jerusalem/hero.jpg
 category: Planning
 updatedAt: 2026-08-12

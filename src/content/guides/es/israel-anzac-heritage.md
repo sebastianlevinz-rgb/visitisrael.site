@@ -1,6 +1,6 @@
 ---
 title: "Herencia ANZAC en Israel: La Carga de Beersheba 1917"
-description: "Guia completa del patrimonio ANZAC en Israel: cementerio de Beersheba, la carga de caballeria de 1917, cementerios CWGC en Haifa y Ramla, y la ceremonia del amanecer ANZAC."
+description: "Patrimonio ANZAC en Israel: la Carga de Beersheba (1917), cementerios CWGC en Beer-Sheva, Ramla y Haifa, y la ceremonia del amanecer."
 heroImage: /images/regions/negev/hero.jpg
 category: History
 updatedAt: 2026-08-12
