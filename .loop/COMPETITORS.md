@@ -8747,3 +8747,43 @@ Finding: ZERO audience-segmented Israel travel editorial in FR/DE/ES for any of:
 - goisrael.com (official Israel tourism): country-level generic guides; no audience segments in FR/DE/ES.
 Pattern confirmed: audience-segmented guides (nationality X → Israel → language Y) are an editorial white space across all major competitors. Our growing "israel-for-X-travelers" series has zero competition in all 3 i18n locales.
 Additional observation: Routard covers "Israel pour Américains" as zero search results; LP has no "Israel for Koreans" subpage even in English beyond a brief mention. This gap persists even in EN for Korean, Nordic, and South African audiences.
+
+### 2026-08-12 · iter 1170 · 263rd research pass · FR-60/DE-59/ES-74 batch competitor scan
+Researched FR/DE/ES competition for the 5 guides in the next batch (chinese/filipino/irish/czech travelers + anzac-heritage).
+
+**Israel for Chinese travelers (FR/DE/ES):**
+- Routard.com: no "Israël pour les Chinois" or nationality-segmented guide. General Chine→Israel section nonexistent.
+- ADAC Reisemagazin: covers Israel as destination; zero "Israel für chinesische Reisende" content.
+- Wikivoyage DE/FR/ES: generic Israel guides only; no Chinese traveler subpage in any language.
+- LP FR: generic Israël guide; no "Voyager en Israël depuis la Chine" section.
+- guide-israel.info (FR): generic FR guide; zero Chinese traveler content.
+- Verdict: ZERO editorial competition in FR/DE/ES for Chinese travelers specifically. Additional angle: the B/2 visa vs ETA-IL distinction (Chinese passport NOT on ETA-IL list) = high-value practical differentiation missed by all competitors.
+
+**Israel for Filipino travelers (FR/DE/ES):**
+- Wikivoyage FR/DE/ES: no Filipino traveler-specific section.
+- Routard.com: no "Israël pour Philippins" section.
+- touristisrael.com/goisrael.com: EN-only; no Filipino-specific content even in EN.
+- Verdict: ZERO editorial competition in all 3 locales. OFW (Overseas Filipino Workers) angle unique; strong Catholic pilgrimage tradition = unserved audience.
+
+**Israel for Irish travelers (FR/DE/ES):**
+- Wikivoyage DE: "Israel" article has no Irish-specific section.
+- LP DE/FR: generic Israel guides; no Irish traveler section.
+- touristisrael.com: EN-only; brief "for UK travellers" section but no Ireland-specific guide.
+- Verdict: ZERO editorial in FR/DE/ES. Irish College Jerusalem = unique angle no competitor has touched.
+
+**Israel for Czech travelers (FR/DE/ES):**
+- Wikivoyage FR/DE: no Czech traveler-specific Israel section.
+- ADAC: no Czech traveler segment.
+- Průvodce Izraelem (CZ): Czech-language only; zero FR/DE/ES Czech traveler content.
+- Verdict: ZERO editorial. Prague Josefov → Jerusalem Jewish Quarter historical connection = unique cultural bridge available.
+
+**Israel ANZAC heritage (FR/DE/ES):**
+- Wikivoyage FR/DE/ES: no ANZAC heritage trail page for Israel.
+- LP FR: covers Israel WW1 sites briefly within general guides; no dedicated ANZAC guide.
+- Routard.com: no "Mémorial ANZAC en Israël" or "sites de la Première Guerre mondiale" Israel guide in FR.
+- Australian War Memorial website: EN only; no FR/DE/ES content on Palestine Campaign.
+- RSL Australia/NZ: EN-only; no translated content.
+- Verdict: ZERO editorial for ANZAC heritage tourism in FR/DE/ES. High-authority gap: Beer-Sheva CWGC ceremony (31 Oct each year) = annually recurring events hook; AUS/NZ diaspora in FR (English-speaking expats reading FR sites) = secondary audience.
+
+**Pattern confirmation:**
+The "for [nationality] travelers" and ANZAC/WW1 heritage formats remain a structural editorial white space across all major FR/DE/ES Israel travel publishers. Now confirmed across 15+ nationality segments (American, Korean, South African, Portuguese, Nordic, Italian, Russian-speaking, Indian, Gulf, British, Chinese, Filipino, Irish, Czech) plus ANZAC heritage — zero competition in any of the 3 locales for any of these segments. Our series is first-to-field in FR/DE/ES for all of them.
