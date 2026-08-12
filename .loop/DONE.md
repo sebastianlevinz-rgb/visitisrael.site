@@ -2291,3 +2291,14 @@ FR: 377→382/398. Build: 1887→1892 (+5). Gate: check 0 | build 1892 | e2e 10/
 5 DE guides (Standard Hochdeutsch) shipped as commit ab57a9ec.
 Guides: israel-for-american-travelers.md, israel-for-korean-travelers.md, israel-for-south-african-travelers.md, israel-for-portuguese-travelers.md, israel-for-nordic-travelers.md.
 DE: 372→377/398. Build: 1892→1897 (+5). Gate: check 0 | build 1897 | e2e 10/10 targeted.
+
+## iter1168 · 2026-08-12 · ES-73 meta-trim review · f8e167fc
+Full meta audit 10 ES guides (american+korean+south-african+portuguese+nordic+negev+italian+russian+indian+gulf). 8 fixes. Gate: check 0 | build 1902 | e2e 20/20 targeted.
+
+## iter1171 · 2026-08-12 · FR-60 batch · BUILD · a3e104b4
+5 FR guides (Metropolitan French) shipped. Guides: israel-for-chinese-travelers.md, israel-for-filipino-travelers.md, israel-for-irish-travelers.md, israel-for-czech-travelers.md, israel-anzac-heritage.md.
+FR: 382→387/398. Build: 1902→1907 (+5). Gate: check 0 | build 1907 | e2e 10/10 targeted.
+
+## iter1172 · 2026-08-12 · DE-59 batch · BUILD · 02cd4bcf
+5 DE guides (Standard Hochdeutsch) shipped. Guides: israel-for-chinese-travelers.md, israel-for-filipino-travelers.md, israel-for-irish-travelers.md, israel-for-czech-travelers.md, israel-anzac-heritage.md.
+DE: 377→382/398. Build: 1907→1912 (+5). Gate: check 0 | build 1912 | e2e 10/10 targeted.
