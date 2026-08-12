@@ -1,6 +1,6 @@
 ---
 title: "Gruppenreisen nach Israel: Kirchen- und Synagogentouren planen"
-description: "Gruppenreisen nach Israel planen — Kirchengruppen, Synagogentouren und Erbe-Reisen für 15 und mehr Personen: Operatoren, Stätten, Buchungsfristen, Logistik."
+description: "Gruppenreisen Israel planen — Kirchengruppen, Synagogentouren und Erbe-Reisen ab 15 Personen: Operatoren, Stätten, Buchungsfristen, Logistik."
 heroImage: /images/regions/jerusalem/old-city.jpg
 category: Touren
 updatedAt: 2026-08-12

@@ -1,6 +1,6 @@
 ---
 title: "Israel mit Teenagern: Was Jugendliche wirklich begeistert (2026)"
-description: "Israel-Reise für Teenager planen — Masada Schlangenweg, Totes-Meer-Schwimmen, Tel Aviv Surfen, Judäische-Wüste-Abseilen, Street Art und Abenteuerparks."
+description: "Israel-Reise für Teenager planen — Masada Schlangenweg, Totes-Meer-Schwimmen, Tel Aviv Surfen, Wüsten-Abseilen, Street Art und Abenteuerparks."
 heroImage: /images/regions/dead-sea/masada.jpg
 category: Planung
 updatedAt: 2026-08-12

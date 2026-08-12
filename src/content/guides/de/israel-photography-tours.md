@@ -1,6 +1,6 @@
 ---
 title: "Israel Fotoworkshops & geführte Fotoexkursionen 2026"
-description: "Geführte Fototouren in Israel: Negev-Wüsten-Morgendämmerungsshoots, Jerusalem Goldene-Stunde-Spaziergänge, Tel-Aviv-Streetfotowalks und Galiläa-Wildlife-Sessions."
+description: "Fototouren Israel: Negev-Morgendämmerungsshoots, Jerusalem Goldene-Stunde-Walks, Tel-Aviv-Streetfotowalks und Galiläa-Wildlife-Fotografie."
 heroImage: /images/regions/negev/desert.jpg
 category: Planung
 updatedAt: 2026-08-12
