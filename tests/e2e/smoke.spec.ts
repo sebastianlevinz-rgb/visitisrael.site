@@ -1562,6 +1562,11 @@ const ROUTES = [
   '/es/petra-tours-compared',
   '/es/purim-in-israel',
   '/es/rav-kav-israel',
+  '/fr/jesus-trail-israel',
+  '/fr/nazareth-tours-compared',
+  '/fr/negev-makhtesh-guide',
+  '/fr/sarona-market-tel-aviv',
+  '/fr/wedding-in-israel',
 ];
 
 for (const route of ROUTES) {
