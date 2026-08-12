@@ -1552,6 +1552,11 @@ const ROUTES = [
   '/de/israel-for-irish-travelers',
   '/de/israel-for-czech-travelers',
   '/de/israel-anzac-heritage',
+  '/es/israel-for-chinese-travelers',
+  '/es/israel-for-filipino-travelers',
+  '/es/israel-for-irish-travelers',
+  '/es/israel-for-czech-travelers',
+  '/es/israel-anzac-heritage',
 ];
 
 for (const route of ROUTES) {
