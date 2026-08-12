@@ -1,14 +1,14 @@
 # LOOP STATE
 
-- iteration: 1175
-- lastMode: RESEARCH
-- lastItem: research-1175-fr61-de60-es75-batches
-- lastResult: iter1175 RESEARCH — 252nd research pass. EN=398 (confirmed 398 guide files). FR=387/398 (11 missing), DE=382/398 (16 missing), ES=374/398 (24 missing). Missing-all-3=1 (israel-for-serbian-travelers P3 low priority; no change). Defined FR-61/DE-60/ES-75 batches (5 guides each, all cross-links pre-verified). Competitor research: Jesus Trail → Tourist Israel has walking trail + tour pages but no standalone editorial guide; Purim → Tourist Israel has date-event pages, no comprehensive planning editorial; TLV things-to-do → OTA dominance (GYG/TripAdvisor); Jerusalem neighborhoods → Tourist Israel "Best Area to Stay in Jerusalem" page exists but shallow. No code shipped.
+- iteration: 1176
+- lastMode: BUILD
+- lastItem: es-75-batch
+- lastResult: iter1176 BUILD — ES-75 SHIPPED dfe6d954. 5 ES guides (LATAM tuteo): tel-aviv-things-to-do (Jaffa/Playas/Ciudad Blanca/Barrios/Gastronomía/Museos/Vida nocturna/Excursiones; EN fallback /tel-aviv-white-city; GYG free tour+Viator highlights+Booking CTAs; 6 FAQs), solo-female-travel-israel (Panorama seguridad TLV/Jerusalem/Haifa/Eilat; Abraham Hostels; código vestimenta; Booking+GYG+Abraham CTAs; 6 FAQs), petra-tours-compared (excursión día Eilat+pernocta+guía privado; tabla comparativa; verdictName+verdictQuery; EN fallback /petra-from-eilat-vs-amman; GYG+Viator+TourRadar CTAs; 5 FAQs), purim-in-israel (Purim 2027; Plaza Dizengoff TLV+Adloyada Jerusalem; megilla+disfraces+mishloach manot; tabla ciudades; Booking+GYG+Viator CTAs; 7 FAQs), rav-kav-israel (tarjeta transporte israelí; anónima vs nominal; tap-once buses vs tap-on+tap-off trenes; transferencia 90min; tabla tarifas; llegada Ben Gurion; WelcomePickups+DiscoverCars+GYG CTAs; 6 FAQs). Gate: pnpm check 0 errors | build 1922 pages (+5) | test:e2e 22/22 targeted pass. ES: 374→379/398.
 
-- nextRotationCategory: BUILD — iter1176 (1176%5=1 → BUILD): i18n ES-75 batch (tel-aviv-things-to-do + solo-female-travel-israel + petra-tours-compared + purim-in-israel + rav-kav-israel; all cross-links verified; ES=374→379/398)
+- nextRotationCategory: BUILD — iter1177 (1177%5=2 → BUILD): i18n FR-61 batch (jesus-trail-israel + nazareth-tours-compared + negev-makhtesh-guide + sarona-market-tel-aviv + wedding-in-israel; FR=387→392/398)
 - higgsfieldSpent: 0
-- updatedAt: 2026-08-12T10:00Z
-- branch context: master at 3cb844da; EN=398, FR=387/398, DE=382/398, ES=374/398; missing-FR=11, missing-DE=16, missing-ES=24; missing-all-3=1 (israel-for-serbian-travelers P3 individual BACKLOG item)
+- updatedAt: 2026-08-12T10:52Z
+- branch context: master at dfe6d954; EN=398, FR=387/398, DE=382/398, ES=379/398; missing-FR=11, missing-DE=16, missing-ES=19; missing-all-3=1 (israel-for-serbian-travelers P3 individual BACKLOG item)
 
 Notes: iter1174 REVIEW — ES-74 meta-audit SHIPPED 6e96b39f. Audited 5 ES-74 guides: all 5 titles pass (max 52 chars ≤54 soft ≤65 hard). 2 descriptions were OVER hard limit (160): ireland 161→145 FIXED, anzac 172→133 FIXED. 1 description over soft limit (151): czech 155→150 FIXED. All 25 /es/* cross-links valid. No H1 in body on any of 5 guides. No fabricated prices/ratings in content (rating/reviews frontmatter fields are schema-optional, not rendered to users per AffiliateCard design). No code changes beyond 3 description trims. Gate: pnpm check 0 errors | build 1917 | test:e2e 10/10 targeted pass. Committed 6e96b39f; pushed to origin/master. CI success on prior commit (same content type).
 

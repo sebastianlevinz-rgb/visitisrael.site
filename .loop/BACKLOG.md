@@ -14,7 +14,7 @@ Guides differ per locale (each locale has a different set of missing guides at t
 
 **ES-75** (5 guides; ES=374→379/398): `tel-aviv-things-to-do.md` + `solo-female-travel-israel.md` + `petra-tours-compared.md` + `purim-in-israel.md` + `rav-kav-israel.md`. All ES cross-links ✓ except /es/tel-aviv-white-city (EN fallback for tel-aviv-things-to-do). Full detail in I18N-PLAN.md.
 
-Status: ready — all cross-links verified 2026-08-12.
+Status: ES-75 SHIPPED iter1176 dfe6d954 (ES 374→379/398). FR-61 + DE-60 pending.
 
 ### FR-60/DE-59/ES-74 batch definition (iter1170 RESEARCH — 263rd research pass — SHIPPED iter1171/1172/1173)
 Guides: `israel-for-chinese-travelers.md`, `israel-for-filipino-travelers.md`, `israel-for-irish-travelers.md`, `israel-for-czech-travelers.md`, `israel-anzac-heritage.md`
