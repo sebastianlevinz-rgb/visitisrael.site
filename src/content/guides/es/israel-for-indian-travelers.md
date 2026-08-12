@@ -1,6 +1,6 @@
 ---
-title: "Israel para viajeros indios: visa, vuelos y consejos 2026"
-description: "Israel para ciudadanos de India: eVisa-B2 obligatoria (no ETA-IL), vuelo El Al Delhi–TLV, comida vegetariana, UPI no funciona y peregrinación cristiana."
+title: "Israel para viajeros indios: visa y vuelos 2026"
+description: "Israel para ciudadanos de India: eVisa-B2 (no ETA-IL), El Al Delhi–TLV, comida vegetariana, UPI no funciona y peregrinación cristiana."
 heroImage: /images/regions/jerusalem/hero.jpg
 category: Planning
 updatedAt: 2026-08-11

@@ -1,6 +1,6 @@
 ---
 title: "Senderismo multi-día en el Néguev: guía 3 a 5 días"
-description: "Ruta de trekking autoguiada en el Néguev: Makhtesh Ramon, Ein Avdat, Avdat y Sde Boker. Logística del agua, campamentos INPA y seguridad en el desierto."
+description: "Ruta de trekking autoguiada en el Néguev: Makhtesh Ramon, Ein Avdat y Sde Boker. Logística del agua, campamentos INPA y seguridad."
 heroImage: /images/regions/negev/desert.jpg
 category: Outdoor
 updatedAt: 2026-08-11

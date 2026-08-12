@@ -1,6 +1,6 @@
 ---
 title: "Israel para hispanohablantes de habla rusa: guía 2026"
-description: "Israel para rusos y rusohablantes: ETA-IL, vuelos con escala vía Estambul o Dubái, comunidades de habla rusa en Israel y consejos prácticos de entrada."
+description: "Israel para rusos y rusohablantes: ETA-IL, vuelos con escala vía Estambul o Dubái, comunidades rusas en Israel y consejos de entrada."
 heroImage: /images/regions/tel-aviv/hero.jpg
 category: Planning
 updatedAt: 2026-08-11

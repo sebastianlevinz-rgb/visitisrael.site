@@ -1,6 +1,6 @@
 ---
 title: "Guia de Viaje a Israel para Viajeros Nordicos (2026)"
-description: "Israel para suecos, noruegos, daneses, finlandeses e islandeses: ETA-IL, vuelos directos SAS y airBaltic, seguros de salud nordicos no validos, pagos moviles y contactos consulares."
+description: "Israel para viajeros nordicos: ETA-IL, vuelos SAS y airBaltic, seguros de salud no validos en Israel y pagos moviles."
 heroImage: /images/regions/tel-aviv/hero.jpg
 category: Planning
 updatedAt: 2026-08-12

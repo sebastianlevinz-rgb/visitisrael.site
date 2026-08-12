@@ -1,6 +1,6 @@
 ---
 title: "Guia de Viaje a Israel para Estadounidenses (2026)"
-description: "Israel para viajeros de EE. UU.: avisos del Departamento de Estado, ETA-IL vs. ESTA, vuelos directos desde EE. UU., tarjetas sin comisiones y contactos de la Embajada."
+description: "Israel para viajeros de EE. UU.: ETA-IL vs. ESTA, vuelos directos, tarjetas sin comisiones y contactos de la Embajada."
 heroImage: /images/regions/jerusalem/hero.jpg
 category: Planning
 updatedAt: 2026-08-12

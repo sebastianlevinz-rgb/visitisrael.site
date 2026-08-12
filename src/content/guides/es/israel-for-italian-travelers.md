@@ -1,6 +1,6 @@
 ---
 title: "Israel para viajeros italianos: guía práctica 2026"
-description: "Israel para italianos: ETA-IL, vuelos ITA Airways Roma–TLV, adaptador Tipo L a H, tarjeta TEAM no válida, herencia judeo-italiana y consejos prácticos."
+description: "Israel para italianos: ETA-IL, vuelos ITA Airways Roma–TLV, adaptador Tipo L–H, TEAM no válida y herencia judía."
 heroImage: /images/regions/jerusalem/hero.jpg
 category: Planning
 updatedAt: 2026-08-11
