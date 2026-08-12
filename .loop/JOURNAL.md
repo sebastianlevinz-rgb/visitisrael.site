@@ -17147,3 +17147,10 @@ Ship: committed f77592e0 "feat(es-74): ship 5 ES audience-segmented Israel guide
 ES guides: 369→374/398. missing-ES: 29→24. missing-all-3: 6→1 (only israel-for-serbian-travelers P3 remains from the 6 identified in iter1170 RESEARCH).
 FR-60/DE-59/ES-74 trilogy COMPLETE: all 5 guides (chinese, filipino, irish, czech, anzac-heritage) now live in EN+FR+DE+ES.
 Next: iter1174 (1174%5=4 → REVIEW): meta-audit review pass of ES-74 batch — title ≤65/soft ≤54, desc ≤160/soft ≤151, H1 check, /es/* cross-links, no fabricated prices.
+
+## 2026-08-12T09:00Z · iter 1174 · REVIEW · review-1174-es74-meta-trim · 6e96b39f
+What: meta-audit of ES-74 batch (5 guides: israel-for-chinese-travelers, israel-for-filipino-travelers, israel-for-irish-travelers, israel-for-czech-travelers, israel-anzac-heritage).
+Findings: titles all pass (max 52 chars ≤54 soft ≤65 hard). 2 descs OVER hard limit (160): ireland 161→145, anzac 172→133. 1 desc over soft (151): czech 155→150. All 25 /es/* cross-links verified valid. No H1 in body on any guide. No fabricated prices/ratings in content.
+Gate: pnpm check 0 errors | build 1917 pages | test:e2e 10/10 targeted (5 smoke + 5 a11y ES-74 routes) pass.
+Ship: squash-merged 6e96b39f to master; pushed to origin/master. CI was green on prior commit 071c1ea6; deploy expected success.
+Next: iter 1175 (1175%5=0 → RESEARCH): orient next BUILD batches, define FR-61/DE-60/ES-75.
