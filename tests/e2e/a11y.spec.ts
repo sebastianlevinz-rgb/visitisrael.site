@@ -1315,6 +1315,11 @@ const ROUTES = [
   '/de/israel-with-teenagers',
   '/de/israel-photography-tours',
   '/de/petra-wadi-rum-from-eilat',
+  '/es/israel-for-swiss-travelers',
+  '/es/israel-travel-apps',
+  '/es/jerusalem-bethlehem-day-trip',
+  '/es/luxury-travel-israel',
+  '/es/israel-for-french-travelers',
 ];
 
 for (const route of ROUTES) {
