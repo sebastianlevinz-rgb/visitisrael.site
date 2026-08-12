@@ -2272,3 +2272,13 @@ title/desc hard limits, internal link validity, H1, heroImage, INPA, verdict che
 5 FR guides (Metropolitan French) shipped as commit 690e05be.
 Guides: negev-multi-day-hiking.md, israel-for-italian-travelers.md, israel-for-russian-speaking-travelers.md, israel-for-indian-travelers.md, israel-for-gulf-travelers.md.
 FR: 372→377/398. Build: 1873→1878 (+5). Gate: check 0 | build 1878 | e2e 10/10 targeted.
+
+## iter1166 · 2026-08-11 · FR-59 batch · BUILD
+5 FR guides (Metropolitan French) shipped as commit 66a3cf75.
+Guides: israel-for-american-travelers.md, israel-for-korean-travelers.md, israel-for-south-african-travelers.md, israel-for-portuguese-travelers.md, israel-for-nordic-travelers.md.
+FR: 377→382/398. Build: 1887→1892 (+5). Gate: check 0 | build 1892 | e2e 10/10 targeted.
+
+## iter1167 · 2026-08-12 · DE-58 batch · BUILD
+5 DE guides (Standard Hochdeutsch) shipped as commit ab57a9ec.
+Guides: israel-for-american-travelers.md, israel-for-korean-travelers.md, israel-for-south-african-travelers.md, israel-for-portuguese-travelers.md, israel-for-nordic-travelers.md.
+DE: 372→377/398. Build: 1892→1897 (+5). Gate: check 0 | build 1897 | e2e 10/10 targeted.

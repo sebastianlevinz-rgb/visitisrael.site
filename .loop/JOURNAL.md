@@ -17073,3 +17073,9 @@ Gate: pnpm check 0 errors | build 1892 pages (+5 from 1887) | pnpm test:e2e 10/1
 Ship: squash-merged to master 66a3cf75; pushed origin/master. CI+Lighthouse workflows in_progress at state-write (normal).
 FR guide count: 377→382/398. missing-FR: 21→16.
 Next: iter1167 = BUILD (1167%5=2 → BUILD): DE-58 batch — same 5 guides for American/Korean/South African/Portuguese/Nordic travelers in Standard Hochdeutsch.
+
+## 2026-08-12T01:00Z · iter 1167 · BUILD · de-58-batch
+What: 5 Hochdeutsch guides — israel-for-american-travelers, israel-for-korean-travelers, israel-for-south-african-travelers, israel-for-portuguese-travelers, israel-for-nordic-travelers. Completing FR-59(SHIPPED)/DE-58/ES-73 trilogy. DE angles: State Dept Level 3 advisory + ETA-IL vs ESTA distinction + Direktflüge-Tabelle + 230V voltage + STEP (american); 29% christliches Korea + El Al ICN→TLV ab 27. März 2027 + NHIS ungültig (korean); ~70K Litvak-Juden + SA-Botschaft 2018 geschlossen → Amman + ZAR nicht tauschbar (south-african); Sephardisches Erbe 1496-1497 + Belmonte Krypto-Judentum + TAP Air + CESD ungültig + MB Way nicht akzeptiert (portuguese); SAS CPH→TLV Nonstop Okt. 2025 + airBaltic RIX→TLV 1. Juli 2026 + Swish/Vipps/MobilePay ungültig + lutheranische Pilgerschaft + Bauhaus Tel Aviv + nordische Botschaften (nordic). All /de/* cross-links pre-verified. YAML ASCII clean. No fabricated prices/ratings. No H1 in body. 10 new e2e routes (5 smoke + 5 a11y) — 10/10 targeted pass.
+Gate: pnpm check 0 errors | build 1897 pages (+5) | test:e2e 10/10 targeted.
+Ship: squash-merged to master ab57a9ec; pushed to origin/master.
+DE guides: 372→377/398. Build pages: 1892→1897.
