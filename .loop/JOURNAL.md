@@ -17307,3 +17307,10 @@ What: Meta-audit of 5 ES-77 guides shipped iter1187 (israel-for-swiss-travelers 
 Gate: pnpm check 0 errors | build 1955 pages (no change from iter1187 baseline) — PASS.
 Result: AUDIT CLEAN. No code changes required. No branch/merge (no deliverable to ship).
 Memory updated only; next iter1189 (1189%5=4 → REVIEW): de-62-review meta-audit for 4 DE guides from iter1186.
+
+## 2026-08-12T23:55Z · iter 1189 · REVIEW · de-62-review-meta-audit · 8173afe2
+What: Meta-audit of 4 DE-62 guides shipped iter1186 — israel-group-travel, israel-with-teenagers, israel-photography-tours, petra-wadi-rum-from-eilat (all DE).
+Findings: 1 description OVER hard limit (photography-tours 162→138 FIXED); 2 over soft limit (group-travel 156→141 FIXED, with-teenagers 151→142 FIXED); petra OK (149). 3 titles over soft limit but under hard (62/64/60 chars ≤65) — no fix per pattern. All 26 /de/* cross-links valid (galilee+negev are region pages). No H1 in body. No fabricated prices. No rating/reviews frontmatter.
+Gate: pnpm check 0 errors | build 1955 pages (no change) | targeted e2e 23/23 PASS.
+Ship: Committed 8173afe2; pushed origin/master. CI in_progress at state-write (normal).
+Next: iter1190 (1190%5=0 → RESEARCH).

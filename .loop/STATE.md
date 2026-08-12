@@ -1,14 +1,14 @@
 # LOOP STATE
 
-- iteration: 1188
-- lastMode: BUILD (es-77-review)
-- lastItem: es-77-review-meta-audit
-- lastResult: iter1188 BUILD (es-77-review-meta-audit) — AUDIT CLEAN. 5 ES-77 guides audited: israel-for-swiss-travelers + israel-travel-apps + jerusalem-bethlehem-day-trip + luxury-travel-israel + israel-for-french-travelers. Titles: max 57 chars (luxury-travel-israel); all ≤65 hard limit; luxury 57>54 soft, no fix per pattern. Descriptions: max 143 chars; all ≤160 hard limit ≤150 soft. H1 in body: none (AUD-008 compliant). Cross-links: 24 /es/* links all verified valid. Prices: all ranges only (OK). rating/reviews frontmatter: 2 guides (swiss+french-travelers) have rating/reviews fields; schema-optional, not rendered per AffiliateCard design (OK per iter1174 pattern). No code changes needed. Master health: pnpm check 0 errors | build 1955 pages (no change).
+- iteration: 1189
+- lastMode: REVIEW (de-62-review-meta-audit)
+- lastItem: de-62-review-meta-audit
+- lastResult: iter1189 REVIEW (de-62-review-meta-audit) — 4 DE-62 guides audited: israel-group-travel + israel-with-teenagers + israel-photography-tours + petra-wadi-rum-from-eilat. Titles: max 64 chars (israel-with-teenagers); all ≤65 hard limit; 3 guides over soft 54 (group-travel 62, with-teenagers 64, petra 60) — no fix per pattern. Descriptions: 1 OVER-HARD (israel-photography-tours 162→138 FIXED), 2 OVER-SOFT (group-travel 156→141 FIXED, with-teenagers 151→142 FIXED), 1 OK (petra 149). Cross-links: all 26 /de/* links valid (galilee+negev verified as region pages served from src/pages/de/[region]/index.astro). H1 in body: none (AUD-008 compliant). Prices: all ranges or official published prices — no fabricated values. rating/reviews: none in any of 4 guides. Gate: pnpm check 0 errors | build 1955 pages (no change) | targeted e2e 23/23 PASS. Committed 8173afe2; pushed origin/master. CI in_progress at state-write.
 
-- nextRotationCategory: REVIEW — iter1189 (1189%5=4 → REVIEW): de-62-review meta-audit (check title/desc lengths + cross-links for 4 DE-62 guides shipped iter1186: israel-group-travel + israel-with-teenagers + israel-photography-tours + petra-wadi-rum-from-eilat in DE)
+- nextRotationCategory: RESEARCH — iter1190 (1190%5=0 → RESEARCH)
 - higgsfieldSpent: 0
-- updatedAt: 2026-08-12T22:36Z
-- branch context: master at 38ac1843; EN=401, FR=397/401, DE=396/401, ES=388/401; missing-FR=1 (israel-for-serbian-travelers P3), missing-DE=2 (israel-vs-cypress + 1 unknown), missing-ES=13 (known: israel-for-german-travelers + israel-for-serbian-travelers + 11 others); missing-all-3=1 (israel-for-serbian-travelers P3). P0 broken links FIXED.
+- updatedAt: 2026-08-12T23:55Z
+- branch context: master at 8173afe2; EN=401, FR=397/401, DE=396/401, ES=388/401; missing-FR=1 (israel-for-serbian-travelers P3), missing-DE=2 (israel-vs-cypress + 1 unknown), missing-ES=13 (known: israel-for-german-travelers + israel-for-serbian-travelers + 11 others); missing-all-3=1 (israel-for-serbian-travelers P3). P0 broken links FIXED.
 
 Notes: iter1186 BUILD — DE-62 batch SHIPPED 60065fae. 4 DE guides (Standard Hochdeutsch): israel-group-travel + israel-with-teenagers + israel-photography-tours + petra-wadi-rum-from-eilat. All /de/* cross-links pre-verified. Gate: pnpm check 0 errors | build 1946→1950 pages (+4) | test:e2e 23/23 targeted smoke+a11y PASS. Squash-merged to master 60065fae; pushed origin/master. CI in_progress at state-write. DE: 392→396/401. missing-DE reduced from 6 to 2 (israel-vs-cypress + 1 unknown).
 
