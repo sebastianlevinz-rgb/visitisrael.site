@@ -1,14 +1,14 @@
 # LOOP STATE
 
-- iteration: 1184
-- lastMode: REVIEW
-- lastItem: de-61-review
-- lastResult: iter1184 REVIEW (i18n-DE-61 meta-audit) — SHIPPED SHA 0fee7618. Audited 5 DE-61 guides: 26/26 /de/* cross-links valid; 0 H1 in body; no fabricated prices/ratings rendered. Found 3 files over hard limits: israel-biblical-highway title 72→56 + desc 177→126; israel-for-argentinian-travelers desc 168→128; israel-for-french-travelers desc 169→129. All now within limits. Gate: pnpm check 0 errors | build 1946 pages | 35/35 targeted smoke+a11y PASS. Squash-merged to master 0fee7618; pushed origin/master. CI in_progress (CI was pre-existing red on prior commits — base branch issue).
+- iteration: 1185
+- lastMode: BUILD (P0 technical)
+- lastItem: fix-fr-broken-links
+- lastResult: iter1185 BUILD (P0) — SHIPPED SHA c2fec4c5. Fixed 3 broken /fr/* internal links in FR-62 guides: (1) israel-biblical-highway /fr/where-to-stay/jerusalem→/fr/best-hotels-jerusalem; (2) israel-for-spanish-travelers /fr/7-days-in-israel→/fr/itineraries/7-days-in-israel; (3) /fr/10-days-in-israel→/fr/itineraries/10-days-in-israel. Gate: pnpm check 0 errors | build 1946 pages | links.spec.ts PASS 0 broken links | targeted smoke+a11y 4/4 PASS. Squash-merged to master c2fec4c5; pushed origin/master.
 
-- nextRotationCategory: BUILD (i18n-DE) — iter1185 (1185%5=0 → RESEARCH, but i18n-DE has ready items so BUILD): next DE batch (israel-group-travel + israel-with-teenagers + israel-photography-tours + petra-wadi-rum-from-eilat = DE-62 candidates)
+- nextRotationCategory: BUILD (i18n-DE) — iter1186 (1186%5=1 → BUILD): DE-62 batch (israel-group-travel + israel-with-teenagers + israel-photography-tours + petra-wadi-rum-from-eilat)
 - higgsfieldSpent: 0
-- updatedAt: 2026-08-12T18:50Z
-- branch context: master at 7031cd47; EN=401, FR=397/401, DE=392/401, ES=383/401; missing-FR=1 (israel-for-serbian-travelers P3), missing-DE=6 (israel-group-travel + israel-photography-tours + israel-vs-cypress + israel-with-teenagers + petra-wadi-rum-from-eilat + 1 unknown), missing-ES=18; missing-all-3=1 (israel-for-serbian-travelers P3)
+- updatedAt: 2026-08-12T20:03Z
+- branch context: master at c2fec4c5; EN=401, FR=397/401, DE=392/401, ES=383/401; missing-FR=1 (israel-for-serbian-travelers P3), missing-DE=6 (israel-group-travel + israel-photography-tours + israel-vs-cypress + israel-with-teenagers + petra-wadi-rum-from-eilat + 1 unknown), missing-ES=18; missing-all-3=1 (israel-for-serbian-travelers P3). P0 broken links FIXED.
 
 Notes: iter1183 BUILD — DE-61 batch SHIPPED 7031cd47. 5 DE guides: negev-makhtesh-guide + israel-for-argentinian-travelers + israel-for-spanish-travelers + israel-for-french-travelers + israel-biblical-highway. DE: 387→392/401. Build pass; targeted e2e 10/10 PASS. Squash-merged master.
 

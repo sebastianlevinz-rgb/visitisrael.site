@@ -17268,3 +17268,12 @@ Full e2e suite (background task, completed after state commit) revealed 3 broken
   /fr/israel-for-spanish-travelers → /fr/10-days-in-israel (does not exist in FR)
 My change (0fee7618 = title/desc trims on 3 DE files) does not cause any of these failures.
 Filed as P0 BACKLOG item for next iteration to fix before anything else ships.
+
+## 2026-08-12T20:03Z · iter 1185 · BUILD (P0 technical) · fix-fr-broken-links · c2fec4c5
+What: Fixed 3 broken /fr/* internal links in FR-62 guides (P0 BACKLOG item; links.spec.ts was failing on master):
+  (1) israel-biblical-highway.md: /fr/where-to-stay/jerusalem → /fr/best-hotels-jerusalem (FR where-to-stay/* route does not exist; /fr/best-hotels-jerusalem guide exists)
+  (2) israel-for-spanish-travelers.md: /fr/7-days-in-israel → /fr/itineraries/7-days-in-israel (FR itinerary route pattern is /fr/itineraries/[slug])
+  (3) israel-for-spanish-travelers.md: /fr/10-days-in-israel → /fr/itineraries/10-days-in-israel (same fix pattern)
+Gate: pnpm check 0 errors | build 1946 pages | links.spec.ts PASS (0 broken links across 1946 pages) | targeted smoke.spec+a11y.spec 4/4 PASS for modified pages.
+Ship: squash-merged to master c2fec4c5, pushed to origin/master. CI auto-deploys to Vercel.
+Next: iter1186 (1186%5=1 → BUILD): i18n-DE BUILD — DE-62 batch (israel-group-travel + israel-with-teenagers + israel-photography-tours + petra-wadi-rum-from-eilat).
