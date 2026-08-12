@@ -6,23 +6,23 @@
 >
 > One bounded slice per loop iteration. NEVER bulk-translate in one shot.
 
-## Current status snapshot (2026-08-12 iter1177 BUILD — FR-61 SHIPPED; EN=398, FR=392/398, DE=382/398, ES=379/398)
+## Current status snapshot (2026-08-12 iter1178 BUILD — DE-60 SHIPPED; EN=398, FR=392/398, DE=387/398, ES=379/398)
 
 | Locale | Guides | Attractions | Regions | Itineraries |
 |--------|--------|-------------|---------|-------------|
 | en     | 398    | 65          | 11      | 6           |
 | fr     | 392    | 61          | 11      | 6           |
-| de     | 382    | 61          | 11      | 6           |
+| de     | 387    | 61          | 11      | 6           |
 | es     | 379    | 61          | 11      | 6           |
 
-Note: EN=398 confirmed via `find src/content/guides -maxdepth 1 -name "*.md"`. FR-60/DE-59/ES-74 trilogy COMPLETE (iter1173/1174). Missing-all-3 reduced to 1 (israel-for-serbian-travelers P3).
+Note: EN=398 confirmed via `find src/content/guides -maxdepth 1 -name "*.md"`. FR-60/DE-59/ES-74 trilogy COMPLETE (iter1173/1174). FR-61/DE-60 SHIPPED (iter1177/1178). Missing-all-3 reduced to 1 (israel-for-serbian-travelers P3).
 
 **🎉 MILESTONE: ES + FR + DE monthly guides ALL COMPLETE** (iter996+iter997 ES-41+ES-42 SHIPPED — all 12 per-month guides jan-dec now exist in ES, FR, and DE)
 **🎉 MILESTONE: FR-60/DE-59/ES-74 trilogy COMPLETE** (iter1171-1173; audience-segmented "for-nationality" guides batch fully shipped)
 
 **Gaps to close (2026-08-12):**
 - fr guides: **6 missing** (392/398 done — FR-61 SHIPPED iter1177 b56ccee2; **next FR BUILD = FR-62** — [to be defined in next RESEARCH iteration])
-- de guides: **16 missing** (382/398 done — DE-59 SHIPPED; **next DE BUILD = DE-60** — jerusalem-neighborhoods-guide + layover-jerusalem + tel-aviv-museums + purim-in-israel + jaffa-hotels-guide [defined iter1175; all cross-links verified])
+- de guides: **11 missing** (387/398 done — DE-60 SHIPPED iter1178 6484ee03; **next DE BUILD = DE-61** — [to be defined in next RESEARCH iteration])
 - es guides: **19 missing** (379/398 done — ES-75 SHIPPED iter1176 dfe6d954; **next ES BUILD = ES-76** — [to be defined in next RESEARCH iteration])
 - fr/de/es attractions: **4 missing each** (the 4 EN attractions added after Phase 4)
 

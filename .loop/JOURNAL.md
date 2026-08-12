@@ -17184,3 +17184,21 @@ Gate: pnpm check 0 errors | build 1922 pages (+5) | test:e2e 22/22 targeted pass
 Ship: committed dfe6d954; pushed to origin/master. ES guides: 374→379/398.
 Prod: CI in_progress at memory-update time; Vercel auto-deploy on master push.
 Next: iter1177 BUILD — FR-61 batch (jesus-trail-israel + nazareth-tours-compared + negev-makhtesh-guide + sarona-market-tel-aviv + wedding-in-israel; FR=387→392/398).
+
+## 2026-08-12T11:00Z · iter 1177 · BUILD (i18n-FR) · fr-61-batch · b56ccee2
+What: 5 new FR guides (Metropolitan French) — jesus-trail-israel, nazareth-tours-compared, negev-makhtesh-guide, sarona-market-tel-aviv, wedding-in-israel.
+Files shipped: src/content/guides/fr/jesus-trail-israel.md, nazareth-tours-compared.md, negev-makhtesh-guide.md, sarona-market-tel-aviv.md, wedding-in-israel.md. Tests: +5 routes smoke + +5 routes a11y.
+Key content: jesus-trail-israel (Sentier de Jésus 65km Nazareth→Capharnaüm 4 étapes; verdictName+verdictQuery; GYG+Discovercars+Booking CTAs; 6 FAQs; 10 /fr/* cross-links incl. nazareth-tours-compared reciprocal within batch), nazareth-tours-compared (circuits Galilée comparés; verdictName+verdictQuery; GYG+Viator CTAs; 6 FAQs; 10 /fr/* cross-links), negev-makhtesh-guide (Makhtesh HaGadol+HaKatan Yeruham+Dimona géologie érosion unique INPA valide; DiscoverCars+GYG CTAs; 5 FAQs; 5 /fr/* cross-links), sarona-market-tel-aviv (halle gastronomique colonie templière allemande 1871; GYG+Booking CTAs; 5 FAQs; 6 /fr/* cross-links), wedding-in-israel (mariage destination Israël vignobles Galilée+Jaffa historique+Néguev désert; Booking+GYG CTAs; 6 FAQs; 11 /fr/* cross-links). Metropolitan French; YAML-ASCII clean; all /fr/* cross-links pre-verified (nazareth-tours↔jesus-trail resolved at build time); no fabricated prices/ratings; no H1 in body; 10 new e2e routes (5 smoke + 5 a11y) — 10/10 targeted pass. Duplicate faqs key bug in jesus-trail-israel YAML fixed during gate.
+Gate: pnpm check 0 errors | pnpm build 1927 pages (1922→+5) | pnpm test:e2e 10/10 targeted pass.
+Ship: squash-merged b56ccee2 to master; pushed to origin/master.
+FR guides: 387→392/398. missing-FR: 11→6.
+Next: iter1178 (1178%5=3 → BUILD): DE-60 batch — jerusalem-neighborhoods-guide + layover-jerusalem + tel-aviv-museums + purim-in-israel + jaffa-hotels-guide.
+
+## 2026-08-12T12:55Z · iter 1178 · BUILD (i18n-DE) · de-60-batch · 6484ee03
+What: 5 new DE guides (Standard Hochdeutsch) — jerusalem-neighborhoods-guide, layover-jerusalem, tel-aviv-museums, purim-in-israel, jaffa-hotels-guide.
+Files shipped: src/content/guides/de/jerusalem-neighborhoods-guide.md, layover-jerusalem.md, tel-aviv-museums.md, purim-in-israel.md, jaffa-hotels-guide.md. Tests: +5 routes smoke + +5 routes a11y.
+Key content: jerusalem-neighborhoods-guide (Altstadtquartiere + Deutsche Kolonie/Emek Refaim DACH angle Tempelgesellschaft 1873 + Mahane Jehuda + Mamilla; Booking+GYG+Viator CTAs; 6 FAQs; 7 /de/* cross-links), layover-jerusalem (ehrliche Transitzeiten 6/8/10/24h Ben Gurion; Schabbat-Hinweise; Zugzeit 28min Navon; GYG+WelcomePickups+Booking CTAs; 6 FAQs; 11 /de/* cross-links), tel-aviv-museums (ANU+Eretz-Israel+Design Holon+Ben-Gurion-Haus+Unabhängigkeitshaus geschlossen Hinweis; DACH Museumskultur-Hook; GYG+Booking+DiscoverCars CTAs; 6 FAQs; 7 /de/* cross-links), purim-in-israel (Purim 2027 22.-23. März; Dizengoff-Platz 200K+ Kostümfest; Adloyada Jerusalem; Hamantaschen; große jüd. Gemeinschaft Deutschland 200K+; Booking+GYG+Viator CTAs; 6 FAQs; 5 /de/* cross-links), jaffa-hotels-guide (Boutique Alt-Jaffa The Jaffa Hotel + Setai + Market House; Preisklassen 350-4000+ ₪; DACH Boutique-Reisemarkt; 2x Booking+GYG CTAs; 5 FAQs; 5 /de/* cross-links). Standard Hochdeutsch; YAML-ASCII clean; alle /de/* Cross-Links vorab verifiziert (32/32); keine fabrizierten Preise/Bewertungen; kein H1 im Body; 10 neue e2e-Routen (5 smoke + 5 a11y) — 10/10 targeted pass. Branch auto/de-60-batch had no commits (files in working tree); committed directly on master after confirmed gate pass.
+Gate: pnpm check 0 errors | pnpm build 1932 pages (1927→+5) | pnpm test:e2e 10/10 targeted pass.
+Ship: committed 6484ee03 "feat(de-60): add 5 DE guides [auto-loop]" → pushed to origin/master.
+DE guides: 382→387/398. missing-DE: 16→11.
+Next: iter1179 (1179%5=4 → REVIEW): meta-audit DE-60 batch — title/desc length, cross-links valid, no H1, no fabricated data.
