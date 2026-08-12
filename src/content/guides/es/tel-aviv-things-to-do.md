@@ -175,7 +175,7 @@ Más opciones de excursiones y logística: [excursiones de un día desde Tel Avi
 
 **Bicicletas:** Tel Aviv tiene un sistema de bicicletas de alquiler muy usado (Tel-O-Fun) y carriles bici dedicados en los principales bulevares.
 
-Detalle completo de transporte: [guía del Tranvía de Tel Aviv](/es/tel-aviv-light-rail).
+Detalle completo de transporte: [guía del Tranvía de Tel Aviv](/tel-aviv-light-rail).
 
 ---
 
@@ -185,4 +185,4 @@ Si solo tienes un día, el [itinerario de un día en Tel Aviv](/es/1-day-tel-avi
 
 Si estás decidiendo entre Tel Aviv y Jerusalén para la asignación de tiempo, la [comparativa Tel Aviv vs Jerusalén](/es/tel-aviv-vs-jerusalem) presenta la comparación de forma honesta.
 
-Para opciones guiadas en todas las categorías anteriores — tours a pie, clases de cocina, excursiones de un día, paseos en barco y más — consulta la [comparativa de tours de Tel Aviv](/es/tel-aviv-tours-compared).
+Para opciones guiadas en todas las categorías anteriores — tours a pie, clases de cocina, excursiones de un día, paseos en barco y más — consulta la [comparativa de tours de Tel Aviv](/tel-aviv-tours-compared).
