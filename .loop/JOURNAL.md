@@ -17154,3 +17154,20 @@ Findings: titles all pass (max 52 chars ≤54 soft ≤65 hard). 2 descs OVER har
 Gate: pnpm check 0 errors | build 1917 pages | test:e2e 10/10 targeted (5 smoke + 5 a11y ES-74 routes) pass.
 Ship: squash-merged 6e96b39f to master; pushed to origin/master. CI was green on prior commit 071c1ea6; deploy expected success.
 Next: iter 1175 (1175%5=0 → RESEARCH): orient next BUILD batches, define FR-61/DE-60/ES-75.
+
+## 2026-08-12 · iter 1175 · RESEARCH · research-1175-fr61-de60-es75-batches
+252nd research pass. Locale counts verified via `find src/content/guides` + `comm -23`:
+EN=398, FR=387/398 (11 missing), DE=382/398 (16 missing), ES=374/398 (24 missing). Missing-all-3=1 (israel-for-serbian-travelers; P3, tiny market, no change).
+
+Defined FR-61/DE-60/ES-75 batches — all cross-links pre-verified in each locale:
+- FR-61: jesus-trail-israel + nazareth-tours-compared + negev-makhtesh-guide + sarona-market-tel-aviv + wedding-in-israel. Note: nazareth-tours↔jesus-trail reciprocal within batch (both missing from FR; resolved at build time since both added together). All other FR cross-links ✓.
+- DE-60: jerusalem-neighborhoods-guide + layover-jerusalem + tel-aviv-museums + purim-in-israel + jaffa-hotels-guide. All DE cross-links ✓ (verified including layover-jerusalem: transportation, ben-gurion-airport-transfers, rav-kav-israel, western-wall-guide, holy-sites-dress-code-etiquette, western-wall-tunnels-guide, tower-of-david-guide, yad-vashem-visitor-guide, layover-tel-aviv — all DE ✓).
+- ES-75: tel-aviv-things-to-do + solo-female-travel-israel + petra-tours-compared + purim-in-israel + rav-kav-israel. All ES cross-links ✓ except /es/tel-aviv-white-city (missing from ES → EN fallback for tel-aviv-things-to-do at BUILD time).
+
+Competitor research (via WebSearch):
+- Jesus Trail: Tourist Israel has Sea of Galilee walking trail + Galilee Christian tour pages but NO standalone editorial Jesus Trail guide. Our editorial would fill a real gap.
+- Purim: Tourist Israel has date-event pages (touristisrael.com/purim-in-israel, /purim-in-tel-aviv, /purim-in-jerusalem); no comprehensive planning editorial with FAQs.
+- TLV things-to-do: OTA dominance (GYG, TripAdvisor, Klook, Expedia); no strong LP/Rough Guides/Tourist Israel editorial standalone guide. High-value head term.
+- Jerusalem neighborhoods: Tourist Israel has "Best Area to Stay in Jerusalem" page but shallow; our guide with DE-angle (Emek Refaim German Colony) would add editorial depth.
+
+No code shipped. Memory updated; committing to persist state.

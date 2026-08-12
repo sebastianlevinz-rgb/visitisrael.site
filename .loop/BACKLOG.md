@@ -5,7 +5,18 @@ Priorities P0 (highest) → P3. Status: ready | blocked:<reason> | in-progress.
 
 ## i18n — ready batches (next BUILD iterations)
 
-### FR-60/DE-59/ES-74 batch definition (iter1170 RESEARCH — 263rd research pass)
+### FR-61/DE-60/ES-75 batch definition (iter1175 RESEARCH — 252nd research pass)
+Guides differ per locale (each locale has a different set of missing guides at this stage):
+
+**FR-61** (5 guides; FR=387→392/398): `jesus-trail-israel.md` + `nazareth-tours-compared.md` + `negev-makhtesh-guide.md` + `sarona-market-tel-aviv.md` + `wedding-in-israel.md`. All FR cross-links ✓ (nazareth-tours↔jesus-trail reciprocal within batch, resolved at build time). Full detail in I18N-PLAN.md.
+
+**DE-60** (5 guides; DE=382→387/398): `jerusalem-neighborhoods-guide.md` + `layover-jerusalem.md` + `tel-aviv-museums.md` + `purim-in-israel.md` + `jaffa-hotels-guide.md`. All DE cross-links ✓. Full detail in I18N-PLAN.md.
+
+**ES-75** (5 guides; ES=374→379/398): `tel-aviv-things-to-do.md` + `solo-female-travel-israel.md` + `petra-tours-compared.md` + `purim-in-israel.md` + `rav-kav-israel.md`. All ES cross-links ✓ except /es/tel-aviv-white-city (EN fallback for tel-aviv-things-to-do). Full detail in I18N-PLAN.md.
+
+Status: ready — all cross-links verified 2026-08-12.
+
+### FR-60/DE-59/ES-74 batch definition (iter1170 RESEARCH — 263rd research pass — SHIPPED iter1171/1172/1173)
 Guides: `israel-for-chinese-travelers.md`, `israel-for-filipino-travelers.md`, `israel-for-irish-travelers.md`, `israel-for-czech-travelers.md`, `israel-anzac-heritage.md`
 All 5 confirmed MISSING from all 3 locales (comm -23 verified 2026-08-12). Cross-links all pre-verified below. HeroImages all exist on disk. Competitor audit: zero FR/DE/ES editorial for any of the 5 topics — confirmed via targeted web research this pass (Routard, Petit Futé, LP, Wikivoyage FR; Wikivoyage DE, de.wikipedia.org; LP ES, Wikivoyage ES all searched).
 

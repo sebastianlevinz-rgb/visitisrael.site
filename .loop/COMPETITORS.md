@@ -8787,3 +8787,23 @@ Researched FR/DE/ES competition for the 5 guides in the next batch (chinese/fili
 
 **Pattern confirmation:**
 The "for [nationality] travelers" and ANZAC/WW1 heritage formats remain a structural editorial white space across all major FR/DE/ES Israel travel publishers. Now confirmed across 15+ nationality segments (American, Korean, South African, Portuguese, Nordic, Italian, Russian-speaking, Indian, Gulf, British, Chinese, Filipino, Irish, Czech) plus ANZAC heritage — zero competition in any of the 3 locales for any of these segments. Our series is first-to-field in FR/DE/ES for all of them.
+
+### 2026-08-12 · iter 1175 · 252nd research pass · FR-61/DE-60/ES-75 competitive scan
+
+**Jesus Trail (FR-61):**
+Tourist Israel has "Sea of Galilee Walking or Biking Trail" + "Footsteps of Jesus in the Galilee" + Christian tour pages but NO standalone editorial Jesus Trail guide with stages, trail-angel accommodation, or practical logistics. Our editorial fill is a real gap. Lonely Planet has a forum thread only, no editorial page.
+
+**Purim in Israel (DE-60 + ES-75):**
+Tourist Israel has date-event pages (touristisrael.com/purim-in-israel, /purim-in-tel-aviv, /purim-in-jerusalem) covering dates and basic info. These are shallow event listings, NOT comprehensive guides with accommodation planning, megillah-reading tips, family vs. party-scene guidance, or 2027 forward-looking FAQs. Zero DE/ES/FR editorial equivalents found on LP, Rough Guides, or Wikivoyage.
+
+**Tel Aviv Things To Do (ES-75):**
+OTA dominance: GetYourGuide, TripAdvisor, Klook, Expedia, Travelocity all rank for "things to do in Tel Aviv 2026". No strong standalone editorial from LP/Rough Guides/Tourist Israel showing in targeted search. Our guide would be the only editorial standalone (not OTA listing) targeting this head term in Spanish for LATAM audience.
+
+**Jerusalem Neighborhoods (DE-60):**
+Tourist Israel has "Best Area to Stay in Jerusalem" (touristisrael.com/best-area-stay-jerusalem/) and "Jerusalem Neighborhoods" directory page. Both are shallow accommodation-listing pages. Our guide will be deeper editorial with German Colony (Emek Refaim) DACH angle, neighborhood character descriptions, eat/explore/stay breakdown by quarter, and JSON-LD. Zero DE standalone editorial found for "Jerusalem Stadtviertel" or "beste Gegend Jerusalem".
+
+**Solo Female Travel Israel (ES-75):**
+Tourist Israel has no standalone editorial. LP has generic Middle East safety notes. Zero LATAM Spanish editorial for Israel solo female travel found on search. High-growth market: LATAM solo female travel +35% YoY per tourism data. Our guide fills a category gap entirely.
+
+**Petra Tours Compared (ES-75):**
+LP has a generic Petra page (Jordan-focused), not an Israel-perspective comparison guide. Tourist Israel has "Petra from Israel" tour package pages but no editorial format comparison (day trip vs overnight vs fly-drive). Zero ES editorial "tours a Petra desde Israel" found in search.

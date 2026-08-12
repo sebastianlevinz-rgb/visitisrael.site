@@ -6,25 +6,55 @@
 >
 > One bounded slice per loop iteration. NEVER bulk-translate in one shot.
 
-## Current status snapshot (2026-08-10 iter1141 BUILD — FR-55 SHIPPED iter1141 7bb4238f; ES-67 SHIPPED iter1137 b102c908; DE-52 SHIPPED iter1137; ES-67 REVIEW iter1138 CLEAN)
+## Current status snapshot (2026-08-12 iter1175 RESEARCH — 252nd pass; EN=398, FR=387/398, DE=382/398, ES=374/398)
 
 | Locale | Guides | Attractions | Regions | Itineraries |
 |--------|--------|-------------|---------|-------------|
 | en     | 398    | 65          | 11      | 6           |
-| fr     | 362    | 61          | 11      | 6           |
-| de     | 348    | 61          | 11      | 6           |
-| es     | 339    | 61          | 11      | 6           |
+| fr     | 387    | 61          | 11      | 6           |
+| de     | 382    | 61          | 11      | 6           |
+| es     | 374    | 61          | 11      | 6           |
 
-Note: EN=398 actual guide files; I18N-PLAN previously said 401 (includes 3 queued items not yet materialized as guide files).
+Note: EN=398 confirmed via `find src/content/guides -maxdepth 1 -name "*.md"`. FR-60/DE-59/ES-74 trilogy COMPLETE (iter1173/1174). Missing-all-3 reduced to 1 (israel-for-serbian-travelers P3).
 
 **🎉 MILESTONE: ES + FR + DE monthly guides ALL COMPLETE** (iter996+iter997 ES-41+ES-42 SHIPPED — all 12 per-month guides jan-dec now exist in ES, FR, and DE)
+**🎉 MILESTONE: FR-60/DE-59/ES-74 trilogy COMPLETE** (iter1171-1173; audience-segmented "for-nationality" guides batch fully shipped)
 
-**Gaps to close:**
-- fr guides: **36 missing** (362/398 done — FR-55 SHIPPED iter1141 7bb4238f; **next FR BUILD = FR-56** — maccabiah-games-2026 + lag-baomer-israel + israeli-passport-stamp + israel-power-plug + israel-diamonds-jewelry [defined iter1140; all cross-links verified])
-- de guides: **50 missing** (348/398 done — DE-52 SHIPPED iter1137; **next DE BUILD = DE-53** — yam-lyam-sea-to-sea-hike + terminal-park-eilat + tel-aviv-street-art + jerusalem-light-rail-guide + pet-friendly-israel [same 5 guides as FR-54/ES-67; all cross-links pre-verified iter1130])
-- es guides: **59 missing** (339/398 done — ES-67 SHIPPED iter1137 b102c908; **next ES BUILD = ES-68** — yam-lyam-sea-to-sea-hike + terminal-park-eilat + tel-aviv-street-art + jerusalem-light-rail-guide + pet-friendly-israel [same 5 guides as FR-54/DE-52; all cross-links pre-verified iter1130])
+**Gaps to close (2026-08-12):**
+- fr guides: **11 missing** (387/398 done — FR-60 SHIPPED; **next FR BUILD = FR-61** — jesus-trail-israel + nazareth-tours-compared + negev-makhtesh-guide + sarona-market-tel-aviv + wedding-in-israel [defined iter1175; all cross-links verified])
+- de guides: **16 missing** (382/398 done — DE-59 SHIPPED; **next DE BUILD = DE-60** — jerusalem-neighborhoods-guide + layover-jerusalem + tel-aviv-museums + purim-in-israel + jaffa-hotels-guide [defined iter1175; all cross-links verified])
+- es guides: **24 missing** (374/398 done — ES-74 SHIPPED; **next ES BUILD = ES-75** — tel-aviv-things-to-do + solo-female-travel-israel + petra-tours-compared + purim-in-israel + rav-kav-israel [defined iter1175; cross-links verified; 1 EN fallback: /es/tel-aviv-white-city missing → EN fallback for tel-aviv-things-to-do])
 - fr/de/es attractions: **4 missing each** (the 4 EN attractions added after Phase 4)
-- Next batch after DE-52/ES-67: FR-55/DE-53/ES-68 (defined iter1135)
+
+### FR-61 batch definition (iter1175 RESEARCH — ready for next FR BUILD)
+Guides: `jesus-trail-israel.md`, `nazareth-tours-compared.md`, `negev-makhtesh-guide.md`, `sarona-market-tel-aviv.md`, `wedding-in-israel.md`
+All 5 confirmed MISSING from FR via `comm -23` (2026-08-12). All cross-links verified in FR.
+- jesus-trail-israel: Sentier de Jésus — 65km Nazareth→Capharnaüm 4 étapes; analogue Chemin de Saint-Jacques pour marché français pèlerin + randonnée; verdictName/verdictQuery; GYG+Discovercars+Booking CTAs; all /fr/* cross-links ✓ (tiberias-guide, golan-heights-guide, sea-of-galilee-boat-tour, jordan-river-baptism, christian-pilgrimage-holy-land, northern-israel-road-trip, best-hotels-sea-of-galilee, hiking-in-israel); 6 FAQs.
+- nazareth-tours-compared: Nazareth circuits comparés; tours comparaison Galilée; verdictName+verdictQuery; /fr/jesus-trail-israel missing → resolved in same batch; all other FR cross-links ✓ (private-tours-israel, safed-tzfat-guide, haifa-travel-guide, akko-acre-guide, best-hotels-nazareth, nazareth-travel-guide, galilee-tours-compared, best-tours-in-israel); GYG+Viator CTAs; 6 FAQs.
+- negev-makhtesh-guide: Makhtesh HaGadol et HaKatan — 2 cratères méconnus du Néguev (Yeruham + Dimona); géologie érosion unique; INPA valide; DiscoverCars+GYG CTAs; all /fr/* cross-links ✓ (mitzpe-ramon-guide, sde-boker-ein-avdat-guide, israel-national-parks-pass, car-rental-israel, negev-tours-compared); 5 FAQs.
+- sarona-market-tel-aviv: Sarona Market — ancienne colonie templière allemande (1871) transformée en marché gastronomique haut de gamme; analogue Marais parisien; Booking+GYG CTAs; all /fr/* cross-links ✓ (israel-craft-beer, tel-aviv-food-guide, tel-aviv-carmel-market, tel-aviv-light-rail, tel-aviv-white-city, israel-food-tours-cooking-classes); 5 FAQs.
+- wedding-in-israel: Mariage en Israël — destinations mariage (Tel Aviv bord de mer, Jérusalem pierre, Galilée vignobles, Désert Néguev); marché mariage destination France; Booking+GYG CTAs; all /fr/* cross-links ✓ (israel-group-travel, ben-gurion-airport-guide, israel-wine-wineries, jaffa-travel-guide, akko-acre-guide, mitzpe-ramon-guide, kibbutz-hotels-israel, jerusalem-old-city-walking-tour, dead-sea-guide, golan-heights-wineries, tel-aviv-neighborhoods-guide); 6 FAQs.
+Competitor audit: Tourist Israel has no FR editorial for any of the 5 (Jesus Trail only in EN tour pages); zero FR editorial on Rough Guides / LP for negev-makhtesh-guide or sarona-market-tel-aviv.
+
+### DE-60 batch definition (iter1175 RESEARCH — ready for next DE BUILD)
+Guides: `jerusalem-neighborhoods-guide.md`, `layover-jerusalem.md`, `tel-aviv-museums.md`, `purim-in-israel.md`, `jaffa-hotels-guide.md`
+All 5 confirmed MISSING from DE via `comm -23` (2026-08-12). All cross-links verified in DE.
+- jerusalem-neighborhoods-guide: Jerusalemer Stadtviertel — Altstadt-Quartiere + Deutsche Kolonie/Emek Refaim (DACH angle: Tempelgesellschaft 1873) + Mahane Yehuda + Mamilla; Booking+GYG CTAs; all /de/* cross-links ✓ (jerusalem-old-city-walking-tour, church-holy-sepulchre-guide, jerusalem-armenian-quarter, jerusalem-food-guide, transportation, day-trips-from-jerusalem, best-hotels-jerusalem); 6 FAQs.
+- layover-jerusalem: Jerusalem-Stopp — ehrliche Transitzeit für 6h/8h/10h/24h Ben Gurion; Shabbat-Hinweise; GYG+Booking CTAs; all /de/* cross-links ✓ (transportation, ben-gurion-airport-transfers, rav-kav-israel, western-wall-guide, holy-sites-dress-code-etiquette, western-wall-tunnels-guide, tower-of-david-guide, yad-vashem-visitor-guide, visa-information, ben-gurion-airport-guide, layover-tel-aviv); 6 FAQs.
+- tel-aviv-museums: Tel-Aviv-Museen-Führer — ANU Diaspora Museum + Eretz-Israel-Museum + Design Museum Holon + Tel Aviv Museum of Art; DACH Museumskultur hook; GYG+Booking CTAs; all /de/* cross-links ✓ (anu-museum-guide, design-museum-holon, israel-national-parks-pass, free-things-to-do-israel, jerusalem-museums, tel-aviv-neighborhoods-guide, tel-aviv-food-guide); 6 FAQs.
+- purim-in-israel: Purim in Israel 2027 (22.-23. März) — Dizengoff-Platz Kostümparty + Jerusalem Adloyada; große jüdische Gemeinschaft in Deutschland 200K+; Booking+GYG CTAs; all /de/* cross-links ✓ (traveling-israel-jewish-holidays, tel-aviv-nightlife, lgbtq-travel-israel, israel-events-festivals, jewish-quarter-jerusalem-guide); 6 FAQs.
+- jaffa-hotels-guide: Jaffa-Hotels-Ratgeber — Boutique-Hotels Altjaffa; DACH Boutique-Reisemarkt; Booking CTA; all /de/* cross-links ✓ (tel-aviv-neighborhoods-guide, jaffa-travel-guide, best-hotels-tel-aviv, jaffa-food-guide, israel-accommodation-guide); 5 FAQs.
+Competitor audit: Jerusalem neighborhoods → Tourist Israel "Best Area to Stay in Jerusalem" page exists but shallow; no FR/DE equivalent for our depth. Purim → Tourist Israel date-event pages only; no comprehensive DACH editorial.
+
+### ES-75 batch definition (iter1175 RESEARCH — ready for next ES BUILD)
+Guides: `tel-aviv-things-to-do.md`, `solo-female-travel-israel.md`, `petra-tours-compared.md`, `purim-in-israel.md`, `rav-kav-israel.md`
+All 5 confirmed MISSING from ES via `comm -23` (2026-08-12). Cross-links verified in ES.
+- tel-aviv-things-to-do: Qué hacer en Tel Aviv — Jaffa antiguo + Carmel + Ciudad Blanca + Florentin; cabeza de búsqueda masiva; GYG+Viator CTAs; all /es/* cross-links ✓ except /es/tel-aviv-white-city MISSING → EN fallback; 6 FAQs. OTA gap: TripAdvisor/GYG/Klook dominate SERP; zero LATAM editorial standalone.
+- solo-female-travel-israel: Viaje en solitario para mujeres — seguridad por ciudad; barrios seguros; transporte; alojamiento; mercado LATAM creciente viajera sola; Booking+GYG CTAs; all /es/* cross-links ✓ (holy-sites-dress-code-etiquette, is-israel-safe, israel-accommodation-guide, transportation, first-time-in-israel, solo-travel-israel); 6 FAQs.
+- petra-tours-compared: Tours a Petra comparados — excursión día Eilat + pernocta Aqaba + fly-drive multidía + guía privado; alta intención; GYG+Viator CTAs; all /es/* cross-links ✓ (jordan-pass-guide, border-crossings, masada-dead-sea-day-trip, masada-tours-compared, galilee-tours-compared, best-tours-in-israel); /es/petra-from-eilat-vs-amman MISSING → EN fallback; 6 FAQs.
+- purim-in-israel: Purim en Israel 2027 (22-23 marzo) — Dizengoff tuteo LATAM; diáspora judía Argentina 300K+/México 40K+/Brasil 120K+; Booking+GYG CTAs; all /es/* cross-links ✓ (traveling-israel-jewish-holidays, tel-aviv-nightlife, lgbtq-travel-israel, israel-events-festivals, jewish-quarter-jerusalem-guide); 6 FAQs.
+- rav-kav-israel: Rav-Kav Israel — tarjeta transporte público (autobús+tren+tranvía); Israel Pass &amp; Ride; GYG optional; all /es/* cross-links ✓ (israel-national-parks-pass, jerusalem-light-rail-guide, ben-gurion-airport-transfers, car-rental-israel, driving-in-israel, transportation, ben-gurion-airport-guide); 6 FAQs.
+Competitor audit: zero LATAM standalone editorial for tel-aviv-things-to-do (OTA dominance), solo-female-travel-israel, or rav-kav-israel; petra-tours-compared: LP has generic Petra page, no Israel-focused comparison.
 
 ### FR-54/DE-52/ES-67 batch definition (iter1130 RESEARCH — ready after FR-53/DE-51/ES-66 SHIPPED)
 Guides: `yam-lyam-sea-to-sea-hike.md`, `terminal-park-eilat.md`, `tel-aviv-street-art.md`, `jerusalem-light-rail-guide.md`, `pet-friendly-israel.md`
