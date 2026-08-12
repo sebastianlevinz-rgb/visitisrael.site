@@ -102,7 +102,7 @@ Israel ist das Herzland des christlichen Glaubens. Für koreanische Christen –
 - **Bethlehem**: Geburtskirche (West Bank; separater Checkpoint)
 - **Jordanfluss (Yardenit)**: Beliebte Taufstätte
 
-Ein christlicher Galiliäa-Circuit lässt sich in **2–3 Tagen** ab Tiberias gut abfahren. Ein privater englischsprachiger Reiseleiter mit Spezialisierung auf christliche Pilgerstätten ist empfehlenswert – buchen Sie vorab über [GetYourGuide](/de/israel-tours).
+Ein christlicher Galiliäa-Circuit lässt sich in **2–3 Tagen** ab Tiberias gut abfahren. Ein privater englischsprachiger Reiseleiter mit Spezialisierung auf christliche Pilgerstätten ist empfehlenswert – buchen Sie vorab über [GetYourGuide](/de/best-tours-in-israel).
 
 ### Adapter und Strom
 
