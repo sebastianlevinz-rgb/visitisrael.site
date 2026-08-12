@@ -17288,3 +17288,16 @@ Gate: pnpm check 0 errors | build 1946→1950 pages (+4) | test:e2e 23/23 target
 Ship: squash-merged to master 60065fae, pushed to origin/master. CI in_progress at state-write.
 DE: 392→396/401 (missing-DE reduced from 6 to 2: israel-vs-cypress + 1 unknown).
 Next: iter1187 (1187%5=2 → BUILD): ES-77 batch — top 5 ES missing guides: israel-for-swiss-travelers + israel-travel-apps + jerusalem-bethlehem-day-trip + luxury-travel-israel + negev-makhtesh-guide.
+
+## 2026-08-12T21:50Z · iter 1187 · BUILD (i18n-ES) · es-77-batch · 38ac1843
+What: 5 ES guides (LATAM tuteo) shipped:
+  (1) israel-for-swiss-travelers — SWISS ZRH→TLV daily ~4h; EDA/FDFA advisory; OKP/AOS NOT valid in Israel; Tipo J→H adapter (SEV-1011 unique to Switzerland); Twint CH-domestic only; ITINERIS registration link; SafetyWing+GYG Jerusalem tour priceFrom:49+Booking CTAs; 6 FAQs; 8 /es/* cross-links.
+  (2) israel-travel-apps — Moovit + Waze (founded Israel) + Gett (outside TLV) + Uber (TLV only) + Pango (parking) + WhatsApp (universal) + Rav-Kav Online (caveat re foreign cards) + Lime (e-scooters); download checklist table; no CTAs; 6 FAQs; 5 /es/* cross-links.
+  (3) jerusalem-bethlehem-day-trip — Iglesia Natividad + Area A West Bank + Israeli rental car insurance gap + Arab bus 231; 4 tour options comparison table; GYG half-day+Viator full-day+Jericho+Abraham dual-narrative CTAs; 6 FAQs; 6 /es/* cross-links.
+  (4) luxury-travel-israel — Waldorf Astoria/King David/Norman/Setai/Kempinski/Herods/Isrotel; licensed guides $350-700+/day; fine dining Ouzeria/Taizu/Mul Yam/Machneyuda; Golan wineries; VIP archaeological access; TourRadar luxury+Abraham private+Booking CTAs; 5 FAQs; 6 /es/* cross-links.
+  (5) israel-for-french-travelers — Air France CDG→TLV 3-4 daily ~4h30m; Assurance Maladie/CEAM/carte vitale NOT valid; Lydia/PayLib France-domestic only; Tipo E→H adapter same 230V; Sephardic heritage (Mahane Yehuda, ANU Museum, Safed synagogues); Notre-Dame de France Jerusalem (Padres Asunción 1887); Embajada Francia 112 Herbert Samuel Promenade TLV +972-3-520-8500; Ariane registration; Booking+GYG+DiscoverCars CTAs; 7 FAQs; 7 /es/* cross-links. Substituted for negev-makhtesh-guide (already existed in ES).
+Note: all 24 unique /es/* paths pre-verified before commit; no fabricated prices/ratings; no H1 in body; LATAM tuteo throughout.
+Gate: pnpm check 0 errors | build 1950→1955 (+5) | test:e2e 10/10 targeted smoke+a11y PASS (0 WCAG violations).
+Ship: squash-merged to master 38ac1843; pushed to origin/master. CI in_progress at state-write.
+ES: 383→388/401. missing-ES reduced from 18 to 13.
+Next: iter1188 (1188%5=3 → BUILD): es-77-review meta-audit — check title/desc lengths + cross-links for the 5 ES-77 guides.

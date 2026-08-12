@@ -21,10 +21,11 @@ Status: ES-76 SHIPPED iter1181 7c30ae83 (ES 379→383/401 — 4/5 guides; petra-
 - [P2] israel-with-teenagers.md for DE — SHIPPED iter1186 60065fae
 - [P2] israel-photography-tours.md for DE — SHIPPED iter1186 60065fae
 - [P2] petra-wadi-rum-from-eilat.md for DE — SHIPPED iter1186 60065fae
-- [P2] israel-for-swiss-travelers.md for ES (i18n-ES, S) — confirmed MISSING from ES (EN+FR+DE have it); Switzerland 8.5M; EDA/FDFA advisory; SWISS flights ZRH→TLV; Type J plug adapter (unique Swiss); Twint NOT accepted in Israel; zero ES editorial; ES cross-links ✓ (first-time-in-israel, is-israel-safe, visa-information, cheap-flights-to-israel, israel-travel-insurance, israel-esim, israel-money-guide). Effort: S. status: ready.
-- [P2] israel-travel-apps.md for ES (i18n-ES, S) — confirmed MISSING from ES (EN+FR+DE have it); Moovit + Waze + Gett + Pango apps guide; zero LATAM-Spanish editorial (Backpack Israel EN only); high utility for LATAM visitors; ES cross-links ✓ (transportation, rav-kav-israel, ben-gurion-airport-guide, jerusalem-light-rail-guide, driving-in-israel). Effort: S. status: ready.
-- [P2] jerusalem-bethlehem-day-trip.md for ES (i18n-ES, S) — confirmed MISSING from ES (EN+FR+DE have it; referenced as EN fallback in multiple shipped ES guides); Christian pilgrimage circuit; LATAM Catholic market very strong; Church of Nativity + Manger Square + Milk Grotto; West Bank logistics (checkpoint etiquette; taxi + tour options); ES cross-links ✓ (christian-pilgrimage-holy-land, 1-day-jerusalem-itinerary, day-trips-from-jerusalem, bethlehem-travel-guide, church-holy-sepulchre-guide, is-israel-safe, border-crossings). Effort: S. status: ready.
-- [P2] luxury-travel-israel.md for ES (i18n-ES, S) — confirmed MISSING from ES (EN+FR+DE have it); luxury hotels + private guide days + VIP archaeological access; touristisrael.com ranks EN for "best luxury hotels Israel"; zero LATAM editorial competitor; LATAM high-end travel segment growing; ES cross-links ✓ (best-hotels-tel-aviv, best-hotels-jerusalem, dead-sea-guide, private-tours-israel, israel-wine-wineries, best-tours-in-israel). Effort: S. status: ready.
+- [P2] israel-for-swiss-travelers.md for ES — SHIPPED iter1187 38ac1843
+- [P2] israel-travel-apps.md for ES — SHIPPED iter1187 38ac1843
+- [P2] jerusalem-bethlehem-day-trip.md for ES — SHIPPED iter1187 38ac1843
+- [P2] luxury-travel-israel.md for ES — SHIPPED iter1187 38ac1843
+- [P2] israel-for-french-travelers.md for ES (substituted for negev-makhtesh-guide which pre-existed) — SHIPPED iter1187 38ac1843
 
 ### FR-61/DE-60/ES-75 batch definition (iter1175 RESEARCH — 252nd research pass)
 Guides differ per locale (each locale has a different set of missing guides at this stage):
