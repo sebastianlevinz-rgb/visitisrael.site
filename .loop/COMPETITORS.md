@@ -8807,3 +8807,19 @@ Tourist Israel has no standalone editorial. LP has generic Middle East safety no
 
 **Petra Tours Compared (ES-75):**
 LP has a generic Petra page (Jordan-focused), not an Israel-perspective comparison guide. Tourist Israel has "Petra from Israel" tour package pages but no editorial format comparison (day trip vs overnight vs fly-drive). Zero ES editorial "tours a Petra desde Israel" found in search.
+
+### 2026-08-12 · iter 1180 · 253rd research pass — i18n gap audit + competitor check
+
+**touristisrael.com:** Confirmed ranking strongly for luxury hotels ("Best Luxury Hotels Israel"), group travel, teen travel ("Israel with Teenagers"), and new hotel openings. Content pattern: dedicated roundup/listing pages (not just hub pages). touristisrael.com "Israel Travel 2026" roundup page ranks top 3 for 2026-specific queries. visitisrael.site absent from all of these SERPs — confirms priority for translating our existing EN guides (luxury-travel-israel, israel-group-travel, israel-with-teenagers, new-luxury-hotels-israel-2026) to DE/ES.
+
+**German (DE) editorial gap confirmed:** israel-group-travel, israel-photography-tours, israel-with-teenagers, israel-vs-cyprus, petra-wadi-rum-from-eilat all confirmed MISSING from DE. Zero DACH editorial competitors for any of these (only tour operator landing pages or EN-only editorial). Translation to DE = clear ranking opportunity.
+
+**LATAM (ES) editorial gap confirmed:** israel-travel-apps (Moovit/Waze/Gett), israel-for-swiss-travelers, jerusalem-bethlehem-day-trip, luxury-travel-israel all MISSING from ES. Competitor landscape: Backpack Israel (EN only), J.Weekly (EN only), 0 LATAM-Spanish coverage. israel-zimmer-guide, tel-aviv-tours-compared, layover-jerusalem also MISSING from ES — operator pages rank but no editorial guides in Spanish.
+
+**Israel travel apps:** J.Weekly and Backpack Israel rank EN; visitisrael.site has EN guide (israel-travel-apps.md) that needs DE/ES translations. Low competition in non-English SERPs.
+
+**Luxury hotels / new openings:** myisraelstay.com, Travel Market Report rank for "new hotels Israel 2026" with editorial roundups covering 17 openings (InterContinental Jerusalem, Yacht Hotel Herzliya). Our new-luxury-hotels-israel-2026.md exists in EN+FR+DE but MISSING from ES — confirmed ES opportunity.
+
+**Petra + Wadi Rum from Eilat:** petra-wadi-rum-from-eilat.md exists in EN but MISSING from DE+ES. This is a HIGH-VOLUME query (Jordan tours = largest ancillary revenue stream for Eilat tourism). Competitor landscape: only tour operators (Abraham Tours, Viator) rank; no editorial travel guides in DE/ES. Both locale translations needed.
+
+**EN count correction noted:** EN=401 (was 398 in STATE). The 3+ additional guides were added in earlier iterations without updating EN count in STATE. New guides include israel-for-argentinian-travelers, israel-for-spanish-travelers, israel-vs-france, israel-for-german-travelers, israel-for-french-travelers, israel-for-swiss-travelers, and others. All now reflected in STATE.

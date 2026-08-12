@@ -17217,3 +17217,9 @@ What: discovered 2 broken internal links in /es/tel-aviv-things-to-do via full l
 Fix: /es/tel-aviv-light-rail → /tel-aviv-light-rail (EN fallback); /es/tel-aviv-tours-compared → /tel-aviv-tours-compared (EN fallback). Both EN pages confirmed to exist.
 Gate: pnpm check 0 errors | build 1932 pages | links.spec.ts PASS + smoke + a11y on affected route — 3/3 pass.
 Ship: committed 68d5a5b1 "fix(es): replace 2 broken /es/ links in tel-aviv-things-to-do"; pushed to origin/master.
+
+## 2026-08-12T15:00Z · iter 1180 · RESEARCH · 253rd-research-pass
+What: RESEARCH pass. EN count corrected to 401 (STATE said 398; 3+ guides added in prior iterations: israel-for-argentinian-travelers [feat/641] + israel-for-spanish-travelers [feat/718] + israel-vs-france [seo-content iter~1025]). Comprehensive missing-guide audit via comm -23 across all 3 locales. Competitor research: touristisrael.com ranks luxury hotels/group-travel/teen-travel; confirmed DE editorial gap for group/teen/photography; LATAM (ES) editorial gap confirmed for travel-apps/swiss-travelers.
+Batch definitions: FR-62 (israel-for-argentinian-travelers + israel-for-spanish-travelers + israel-for-german-travelers + israel-vs-france + israel-biblical-highway; all cross-links ✓; FR 392→397/401); DE-61 (negev-makhtesh-guide + israel-for-argentinian-travelers + israel-for-spanish-travelers + israel-for-french-travelers + israel-biblical-highway; all cross-links ✓; DE 387→392/401); ES-76 (tel-aviv-white-city + wedding-in-israel + sarona-market-tel-aviv + nazareth-sea-of-galilee-day-trip + petra-wadi-rum-from-eilat; cross-links ✓; ES 379→384/401).
+8 new individual BACKLOG items added. No code shipped (RESEARCH mode).
+Next: iter1181 BUILD (1181%5=1) — ES-76 batch.

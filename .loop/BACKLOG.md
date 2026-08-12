@@ -5,6 +5,27 @@ Priorities P0 (highest) → P3. Status: ready | blocked:<reason> | in-progress.
 
 ## i18n — ready batches (next BUILD iterations)
 
+### FR-62/DE-61/ES-76 batch definition (iter1180 RESEARCH — 253rd research pass)
+EN=401, FR=392/401 (6 missing), DE=387/401 (11 missing), ES=379/401 (19 missing). All cross-links pre-verified per locale. Full detail in I18N-PLAN.md.
+
+**FR-62** (5 guides; FR=392→397/401): `israel-for-argentinian-travelers.md` + `israel-for-spanish-travelers.md` + `israel-for-german-travelers.md` + `israel-vs-france.md` + `israel-biblical-highway.md`. All FR cross-links ✓. After ship: only israel-for-serbian-travelers missing from FR (P3).
+
+**DE-61** (5 guides; DE=387→392/401): `negev-makhtesh-guide.md` + `israel-for-argentinian-travelers.md` + `israel-for-spanish-travelers.md` + `israel-for-french-travelers.md` + `israel-biblical-highway.md`. All DE cross-links ✓.
+
+**ES-76** (5 guides; ES=379→384/401): `tel-aviv-white-city.md` + `wedding-in-israel.md` + `sarona-market-tel-aviv.md` + `nazareth-sea-of-galilee-day-trip.md` + `petra-wadi-rum-from-eilat.md`. All ES cross-links ✓ (tel-aviv-light-rail → EN fallback in 2 guides; petra-from-eilat-vs-amman → EN fallback in 1 guide). Within-batch: sarona→tel-aviv-white-city resolved.
+
+Status: ready — all 3 locales queued; next BUILD = ES-76 (iter1181 1181%5=1).
+
+### Individual items — new discoveries (iter1180 RESEARCH):
+- [P2] israel-group-travel.md for DE (i18n-DE, S) — confirmed MISSING from DE (FR+ES have it); church/synagogue group Israel tours; DACH evangelical + Jewish community group travel market; zero DACH editorial competitor; DE cross-links ✓ (ben-gurion-airport-guide, private-tours-israel, israel-5-vs-7-vs-10-days, best-tours-in-israel, visa-information, is-israel-safe). Effort: S. status: ready.
+- [P2] israel-with-teenagers.md for DE (i18n-DE, S) — confirmed MISSING from DE (FR+ES have it); teen-friendly Israel guide; DACH family travel market; touristisrael.com ranks EN only; zero DACH editorial; DE cross-links ✓ (masada-visitor-guide, dead-sea-guide, eilat-travel-guide, israel-adventure-sports, is-israel-safe, transportation). Effort: S. status: ready.
+- [P2] israel-photography-tours.md for DE (i18n-DE, S) — confirmed MISSING from DE (FR+ES have it); photography workshops Israel; DACH strong photography culture (DGPh society); israelphotographytour.com ranks EN only; zero DACH editorial; DE cross-links ✓ (negev, galilee, mitzpe-ramon-guide, car-rental-israel, best-time-to-visit-israel). Effort: S. status: ready.
+- [P2] petra-wadi-rum-from-eilat.md for DE (i18n-DE, S) — confirmed MISSING from DE (FR+ES have it); 2-day/3-day Jordan tour from Eilat; high commercial value; zero DACH editorial; DE cross-links ✓ (aqaba-from-eilat, border-crossings, eilat-travel-guide, israel-jordan-itinerary, jordan-pass-guide, petra-from-israel). Effort: S. status: ready.
+- [P2] israel-for-swiss-travelers.md for ES (i18n-ES, S) — confirmed MISSING from ES (EN+FR+DE have it); Switzerland 8.5M; EDA/FDFA advisory; SWISS flights ZRH→TLV; Type J plug adapter (unique Swiss); Twint NOT accepted in Israel; zero ES editorial; ES cross-links ✓ (first-time-in-israel, is-israel-safe, visa-information, cheap-flights-to-israel, israel-travel-insurance, israel-esim, israel-money-guide). Effort: S. status: ready.
+- [P2] israel-travel-apps.md for ES (i18n-ES, S) — confirmed MISSING from ES (EN+FR+DE have it); Moovit + Waze + Gett + Pango apps guide; zero LATAM-Spanish editorial (Backpack Israel EN only); high utility for LATAM visitors; ES cross-links ✓ (transportation, rav-kav-israel, ben-gurion-airport-guide, jerusalem-light-rail-guide, driving-in-israel). Effort: S. status: ready.
+- [P2] jerusalem-bethlehem-day-trip.md for ES (i18n-ES, S) — confirmed MISSING from ES (EN+FR+DE have it; referenced as EN fallback in multiple shipped ES guides); Christian pilgrimage circuit; LATAM Catholic market very strong; Church of Nativity + Manger Square + Milk Grotto; West Bank logistics (checkpoint etiquette; taxi + tour options); ES cross-links ✓ (christian-pilgrimage-holy-land, 1-day-jerusalem-itinerary, day-trips-from-jerusalem, bethlehem-travel-guide, church-holy-sepulchre-guide, is-israel-safe, border-crossings). Effort: S. status: ready.
+- [P2] luxury-travel-israel.md for ES (i18n-ES, S) — confirmed MISSING from ES (EN+FR+DE have it); luxury hotels + private guide days + VIP archaeological access; touristisrael.com ranks EN for "best luxury hotels Israel"; zero LATAM editorial competitor; LATAM high-end travel segment growing; ES cross-links ✓ (best-hotels-tel-aviv, best-hotels-jerusalem, dead-sea-guide, private-tours-israel, israel-wine-wineries, best-tours-in-israel). Effort: S. status: ready.
+
 ### FR-61/DE-60/ES-75 batch definition (iter1175 RESEARCH — 252nd research pass)
 Guides differ per locale (each locale has a different set of missing guides at this stage):
 
