@@ -2323,3 +2323,8 @@ DE: 377→382/398. Build: 1907→1912 (+5). Gate: check 0 | build 1912 | e2e 10/
 Guides: tel-aviv-white-city.md, sarona-market-tel-aviv.md, nazareth-sea-of-galilee-day-trip.md, wedding-in-israel.md.
 Note: petra-wadi-rum-from-eilat.md already existed — skipped.
 ES: 379→383/401. Build: 1932→1936 (+4). Gate: check 0 | build 1936 | e2e 8/8 targeted.
+
+## iter1182 · 2026-08-12 · FR-62 batch · BUILD · 3b0ddd4b
+5 FR guides (Metropolitan French) shipped as commit 3b0ddd4b.
+Guides: israel-for-argentinian-travelers.md, israel-for-spanish-travelers.md, israel-for-german-travelers.md, israel-vs-france.md, israel-biblical-highway.md.
+FR: 392→397/401. Build: 1936→1941 (+5). Gate: check 0 | build 1941 | e2e 10/10 targeted.

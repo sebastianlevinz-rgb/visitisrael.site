@@ -14,7 +14,7 @@ EN=401, FR=392/401 (6 missing), DE=387/401 (11 missing), ES=379/401 (19 missing)
 
 **ES-76** (5 guides; ES=379→384/401): `tel-aviv-white-city.md` + `wedding-in-israel.md` + `sarona-market-tel-aviv.md` + `nazareth-sea-of-galilee-day-trip.md` + `petra-wadi-rum-from-eilat.md`. All ES cross-links ✓ (tel-aviv-light-rail → EN fallback in 2 guides; petra-from-eilat-vs-amman → EN fallback in 1 guide). Within-batch: sarona→tel-aviv-white-city resolved.
 
-Status: ready — all 3 locales queued; next BUILD = ES-76 (iter1181 1181%5=1).
+Status: ES-76 SHIPPED iter1181 7c30ae83 (ES 379→383/401 — 4/5 guides; petra-wadi-rum-from-eilat pre-existed) | FR-62 SHIPPED iter1182 3b0ddd4b (FR 392→397/401) | DE-61 next BUILD iter1183.
 
 ### Individual items — new discoveries (iter1180 RESEARCH):
 - [P2] israel-group-travel.md for DE (i18n-DE, S) — confirmed MISSING from DE (FR+ES have it); church/synagogue group Israel tours; DACH evangelical + Jewish community group travel market; zero DACH editorial competitor; DE cross-links ✓ (ben-gurion-airport-guide, private-tours-israel, israel-5-vs-7-vs-10-days, best-tours-in-israel, visa-information, is-israel-safe). Effort: S. status: ready.
