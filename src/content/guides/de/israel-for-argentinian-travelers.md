@@ -1,6 +1,6 @@
 ---
 title: "Israel-Reiseführer für argentinische Besucher (2026)"
-description: "Israel-Reiseführer für argentinische Touristen: ETA-IL, El Al Direktflug Buenos Aires–Tel Aviv, jüdisches Kulturerbe, katholische Pilgerreise und praktische Tipps."
+description: "Israel für argentinische Touristen: ETA-IL, El Al Buenos Aires–Tel Aviv, jüdisches Kulturerbe, Pilgerreise und praktische Tipps."
 heroImage: /images/regions/jerusalem/hero.jpg
 category: Planning
 updatedAt: 2026-08-12

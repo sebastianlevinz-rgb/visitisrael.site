@@ -1,6 +1,6 @@
 ---
 title: "Israel für französische Reisende: Flüge, ETA-IL, Tipps (2026)"
-description: "Frankreich nach Israel: ETA-IL-Anforderungen, Air-France- und Transavia-Strecken, Versicherungslücken (Carte Vitale nicht gültig), Steckeradapter und praktische Tipps."
+description: "Frankreich nach Israel: ETA-IL, Air France und Transavia, Versicherungslücken (Carte Vitale ungültig), Steckeradapter und Tipps."
 heroImage: /images/regions/jerusalem/hero.jpg
 category: Planning
 updatedAt: 2026-08-12
