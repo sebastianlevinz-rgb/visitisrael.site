@@ -2337,3 +2337,13 @@ FR: 392→397/401. Build: 1936→1941 (+5). Gate: check 0 | build 1941 | e2e 10/
 
 ## iter1184 · REVIEW (i18n-DE-61 meta-audit) · de-61-review · 0fee7618
 - DE-61 meta-audit SHIPPED: Audited 5 DE-61 guides (negev-makhtesh-guide + israel-for-argentinian-travelers + israel-for-spanish-travelers + israel-for-french-travelers + israel-biblical-highway). 26/26 /de/* cross-links valid; 0 H1 in body on any guide; no fabricated prices/ratings rendered. 3 descriptions OVER hard limit fixed (argentinian 168→128; french 169→129; biblical-highway 177→126). 1 title over hard limit fixed (biblical-highway 72→56). Titles over soft limit only (negev 57, spanish 60, french 64; under hard 65; no change needed). Gate: pnpm check 0 errors | build 1946 | test:e2e 35/35 targeted pass. Committed 0fee7618; pushed origin/master.
+
+## iter1185 · BUILD (P0 technical) · fix-fr-broken-links · c2fec4c5
+- P0 fix SHIPPED: 3 broken /fr/* internal links in FR-62 guides fixed:
+  (1) israel-biblical-highway.md: /fr/where-to-stay/jerusalem → /fr/best-hotels-jerusalem
+  (2) israel-for-spanish-travelers.md: /fr/7-days-in-israel → /fr/itineraries/7-days-in-israel
+  (3) israel-for-spanish-travelers.md: /fr/10-days-in-israel → /fr/itineraries/10-days-in-israel
+  links.spec.ts now 0 broken links across 1946 pages. Gate: pnpm check 0 errors | build 1946 | targeted smoke+a11y 4/4 PASS.
+
+## iter1186 · BUILD (i18n-DE) · de-62-batch · 60065fae
+- DE-62 SHIPPED: israel-group-travel (Kirchengruppen + Synagogentouren; IITOA operators; advance-booking table; 3 itinerary arcs; Visa/ETA-IL; verdictName/Query; 6 FAQs; 6 /de/* cross-links), israel-with-teenagers (Masada Schlangenweg; Totes Meer; Tel Aviv Surfen HaPisgah Skatepark; Florentin Street Art; Wasserwandern; Abseilen Judäische Wüste; Galiläa Kajak; Yad Vashem 14+; Beispiel-7-Tage-Reiseplan; 7 FAQs; 6 /de/* cross-links), israel-photography-tours (DGPh angle; Negev+Makhtesh-Ramon; Jerusalem Goldene/Blaue Stunde; Tel Aviv Bauhaus; Hulatal-Kraniche; Eilat Greifvogel-Durchzug; Astrofotografie; Erfahrungsstufen; Saisonale Tabelle; 7 FAQs; 5 /de/* cross-links), petra-wadi-rum-from-eilat (2-Tage + 3-Tage Reisepläne mit Stunden-Tabellen; Jordan Pass vor Grenzübergang; Paket vs. DIY Kostenvergleich; Grenzlogistik ETA-IL; Wüsten-Packliste; 6 FAQs; 6 /de/* cross-links). Standard Hochdeutsch; alle /de/* Cross-Links vorgeprüft; keine fabrizierten Preise/Bewertungen; kein H1 im Body; 8 neue e2e-Routen (4 smoke + 4 a11y) — 23/23 targeted pass. DE guides: 392→396/401. Build: 1946→1950 pages. Gate: pnpm check 0 errors | build 1950 | test:e2e 23/23 targeted PASS.

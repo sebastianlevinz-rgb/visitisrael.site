@@ -17277,3 +17277,14 @@ What: Fixed 3 broken /fr/* internal links in FR-62 guides (P0 BACKLOG item; link
 Gate: pnpm check 0 errors | build 1946 pages | links.spec.ts PASS (0 broken links across 1946 pages) | targeted smoke.spec+a11y.spec 4/4 PASS for modified pages.
 Ship: squash-merged to master c2fec4c5, pushed to origin/master. CI auto-deploys to Vercel.
 Next: iter1186 (1186%5=1 → BUILD): i18n-DE BUILD — DE-62 batch (israel-group-travel + israel-with-teenagers + israel-photography-tours + petra-wadi-rum-from-eilat).
+
+## 2026-08-12T20:50Z · iter 1186 · BUILD (i18n-DE) · de-62-batch · 60065fae
+What: 4 DE guides (Standard Hochdeutsch) shipped:
+  (1) israel-group-travel.md — Kirchengruppen + Synagogentouren; DACH evangelical + Jewish community group travel; IITOA operators; site-by-site advance booking table; itinerary arcs (Christian pilgrimage, Jewish heritage, cultural-historical). Cross-links: /de/ben-gurion-airport-guide, /de/private-tours-israel, /de/israel-5-vs-7-vs-10-days, /de/best-tours-in-israel, /de/visa-information, /de/is-israel-safe.
+  (2) israel-with-teenagers.md — Teen-friendly Israel; DACH family travel; Masada Schlangenweg, Totes Meer, Tel Aviv Surfen, Florentin Street Art, Wasserwandern, Abseilen. Cross-links: /de/masada-visitor-guide, /de/dead-sea-guide, /de/eilat-travel-guide, /de/israel-adventure-sports, /de/is-israel-safe, /de/transportation.
+  (3) israel-photography-tours.md — Photography workshops + guided foto-tours; DGPh culture angle; Negev, Jerusalem Goldene Stunde, Tel Aviv Bauhaus, Hulatal-Kraniche, Astrofotografie. Cross-links: /de/negev, /de/galilee, /de/mitzpe-ramon-guide, /de/car-rental-israel, /de/best-time-to-visit-israel.
+  (4) petra-wadi-rum-from-eilat.md — 2-Tage/3-Tage Jordan tour; Jordan Pass vor Grenze kaufen; Paket vs. DIY Kostenvergleich; Grenzlogistik; Wüsten-Packliste. Cross-links: /de/aqaba-from-eilat, /de/border-crossings, /de/eilat-travel-guide, /de/israel-jordan-itinerary, /de/jordan-pass-guide, /de/petra-from-israel.
+Gate: pnpm check 0 errors | build 1946→1950 pages (+4) | test:e2e 23/23 targeted smoke.spec+a11y.spec PASS (0 WCAG violations).
+Ship: squash-merged to master 60065fae, pushed to origin/master. CI in_progress at state-write.
+DE: 392→396/401 (missing-DE reduced from 6 to 2: israel-vs-cypress + 1 unknown).
+Next: iter1187 (1187%5=2 → BUILD): ES-77 batch — top 5 ES missing guides: israel-for-swiss-travelers + israel-travel-apps + jerusalem-bethlehem-day-trip + luxury-travel-israel + negev-makhtesh-guide.
