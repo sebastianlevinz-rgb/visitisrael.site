@@ -17253,3 +17253,10 @@ Files shipped:
 5. `src/content/guides/de/israel-biblical-highway.md` — Derech HaTanach (Route 60) inauguriert 18. Juni 2026 Netanyahu+Huckabee; Tel Be'er Scheva UNESCO; Bethlehem Area A; Beit El Area C; Tel Schilo Stiftshütte-Rekonstruktion; Hebron explicitly excluded; 3 CTAs (DiscoverCars/GYG/Booking); 7 FAQs
 
 Session context: resumed from compaction; git divergence recovery was needed in prior sub-session; branch auto/de-61-batch squash-merged to master.
+
+## 2026-08-12T18:50Z · iter 1184 · REVIEW · de-61-review · 0fee7618
+What: meta-audit of the 5 DE-61 guides shipped in iter1183 (negev-makhtesh-guide + israel-for-argentinian-travelers + israel-for-spanish-travelers + israel-for-french-travelers + israel-biblical-highway). Checks: (1) 26 /de/* cross-links — all 26 resolve ✓; (2) H1 in body — 0/5 have any H1 in body ✓; (3) rating/reviews in affiliateCtas — not rendered to users (AffiliateCard confirmed) ✓; (4) title length: negev-makhtesh 57 (soft+), argentinian 54 (OK), spanish 60 (soft+), french 64 (soft+), biblical-highway 72 → OVER hard 65 ❌ FIXED to 56; (5) description length: negev-makhtesh 148 OK, argentinian 168 → OVER hard 160 ❌ FIXED to 128, spanish 142 OK, french 169 → OVER hard 160 ❌ FIXED to 129, biblical-highway 177 → OVER hard 160 ❌ FIXED to 126.
+Fix: 3 files patched (title trim for biblical-highway; description trims for argentinian + french + biblical-highway). No content or cross-link changes.
+Gate: pnpm check 0 errors | build 1946 pages | 35/35 targeted smoke.spec+a11y.spec PASS.
+Ship: squash-merged to master 0fee7618, pushed to origin/master. CI was pre-existing red on base branch (3c007e32 + 7031cd47 both show CI=failure before this change); Lighthouse in_progress.
+Next: iter1185 — 1185%5=0 → RESEARCH mode (or i18n-DE BUILD if rotating — DE-62 candidates: israel-group-travel + israel-with-teenagers + israel-photography-tours + petra-wadi-rum-from-eilat).
