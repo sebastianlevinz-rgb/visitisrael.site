@@ -17375,3 +17375,19 @@ Findings and fixes:
 Gate: pnpm check 0 errors | build 1965 pages (no change from iter1193 baseline) | test:e2e 8/8 targeted smoke+a11y PASS (0 WCAG violations).
 Ship: committed a06b9618 to master; pushed origin/master. CI in_progress at state-write.
 Next: iter1195 (1195%5=0 → RESEARCH).
+
+## 2026-08-13T06:15Z · iter1195 · RESEARCH · iter1195-research-competitor-gap
+
+**255th research pass.** Searched: touristisrael.com, tripadvisor.com, lonelyplanet.com, travelandtourworld.com, ynetnews.com, israeltraveladvisor.org, secrettelaviv.com, debbestfood.com, misterbandb.com, atij.org, exclusiveisraeltours.com, itraveljerusalem.com, levyisraeltours.com, takeyourbackpack.com, hinterlandtravel.com, mitzpe-ramon.co.il.
+
+**Key findings:**
+1. **Israir TLV-MAD (Madrid)** launching Oct 25 2026 (3x/week, A320) — NOT in airlines-flying-israel-2026.md. Arkia TLV-NRT already in guide. Airlines guide needs Madrid entry under European routes. → new BACKLOG: airlines-freshness-israir-madrid (technical, S)
+2. **Tower of David Museum** — $40M renovation complete with Angelina Della Rache Entrance Pavilion + 10 immersive permanent galleries + contemporary art in ancient cisterns + VR time-travel. Reopened 2023. Our tower-of-david-guide.md may be pre-renovation. → new BACKLOG: tower-of-david-freshness-2026 (technical, S)
+3. **Gay Tel Aviv** — No dedicated /gay-tel-aviv page. Tel Aviv Pride June 2026 drew 250K+. TLVFest October 2026. Hilton Beach gay strip. touristisrael.com, misterbandb.com, travelgay.com all rank. iter960 confirmed P2 gap; still missing from content. → new BACKLOG: gay-tel-aviv (seo-content+monetization, P2, S)
+4. **Australia travel advisory**: DFAT lowered to Level 3 (reconsider travel but not "do not travel"), making Israel travel more viable for Australians. israel-for-australian-travelers confirmed MISSING from content. Strong ANZAC heritage angle (Beersheba, CWGC cemeteries). Qantas/Emirates/Singapore Air routing. → new BACKLOG: israel-for-australian-travelers (P2, S, upgrade from P3)
+5. **Haifa Cable Car** — Bat Galim → Stella Maris 5-min aerial tramway; Haifa Bay panorama; adjacent Clandestine Immigration & Navy Museum. Tourist Israel, TripAdvisor, GetYourGuide, thingstodoinhaifa.com all rank dedicated pages. No standalone guide on site (haifa-travel-guide mentions it briefly). → new BACKLOG: haifa-cable-car-guide (seo-content, P3, S)
+6. **israel-vs-dubai** — Confirmed MISSING from content despite "SHIPPED iter968" tag in BACKLOG. Abraham Accords + direct El Al + FlyDubai = growing comparison audience. → BACKLOG INTEGRITY: treat as ready P2
+7. **israel-for-canadian-travelers** — Confirmed MISSING from content. El Al YYZ, Air Canada YUL seasonal, strong French-Canadian + Jewish Canadian community. → BACKLOG: upgrade P3→P2
+8. **BACKLOG INTEGRITY ISSUE**: ~50+ items tagged "SHIPPED iter968" in BACKLOG.md do NOT exist in src/content/guides/. iter968 was ES-36 (5 ES business/food guides). The nationality/vs-X guides tagged as "SHIPPED iter968" were never actually merged. All should be treated as active "ready" items. This is a data-only issue (BACKLOG annotations wrong); no content is lost; files simply need to be built.
+
+**7 new BACKLOG items appended** (see BACKLOG.md below). No code changes; no gate run needed. Memory commit follows.

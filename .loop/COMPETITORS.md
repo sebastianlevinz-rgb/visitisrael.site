@@ -8847,3 +8847,19 @@ LP has a generic Petra page (Jordan-focused), not an Israel-perspective comparis
 - El Al direct ICN→TLV launching March 2027 (3×/week B787-9) — Korean market opportunity
 - "Whycation" wellness travel trend — Dead Sea + spa + longevity; some coverage but no dedicated Israel guide
 - Galilee Culinary Institute opening late 2026 — zero editorial coverage
+
+### 2026-08-13 · iter 1195 · 255th research pass — competitor gap + freshness audit
+
+**Israir TLV-MAD:** Israir launching Madrid (MAD) TLV service 3x/week from Oct 25 2026 (A320). travelandtourworld.com confirmed announcement. Our airlines-flying-israel-2026.md lacks this; israel-for-spanish-travelers.md (DE) already mentions it. Quick airlines guide update needed.
+
+**Tower of David Museum:** $40M renovation complete (reopened 2023). Angelina Della Rache Entrance Pavilion (modern glass-steel building integrating ticketing + cafes + interactive galleries); 10 new permanent galleries using holographic displays + artifacts + interactive exhibits tracing Jerusalem across 3,000 years; contemporary art in ancient cisterns; VR time-travel. itraveljerusalem.com, jpost.com, timesofisrael.com coverage. TripAdvisor top Jerusalem attraction 2026. Our tower-of-david-guide.md should be updated with post-renovation specifics.
+
+**Gay Tel Aviv gap:** touristisrael.com ("Gay Tel Aviv"), misterbandb.com ("Gay Israel Guide 2026"), travelgay.com, exclusiveisraeltours.com ("LGBTQ Tourism Israel Guide April 2026") all rank dedicated pages for "gay tel aviv guide." Our lgbtq-travel-israel.md is a general guide; we have NO dedicated /gay-tel-aviv page. Tel Aviv Pride June 2026: 250K+ attendees. TLVFest Oct 2026. High-spending segment. Zero editorial competitor for "gay tel aviv guide" beyond Tourist Israel.
+
+**Australia travel advisory downgrade:** Australian DFAT lowered Israel advisory to Level 3 (reconsider travel), which is a step more permissive than Level 4 (do not travel). smartraveller.gov.au/destinations/middle-east/israel. This increases Australian inbound travel propensity. hinterlandtravel.com has a thin "Traveling to Israel from Australia 2026" page with ETA-IL info but no full guide. Zero competitor editorial for "Israel travel guide Australians 2026."
+
+**Canada travel market:** Canadian government advisory at Level 3 for Israel. travel.gc.ca/destinations/israel. Air Canada YUL→TLV seasonal resumed (Fri/Sun Jun-Oct 2026). El Al YYZ routes active. hinterlandtravel.com has "how to visit israel from canada" (thin). Zero editorial competitor guide for Canadian travelers to Israel.
+
+**Israel vs Dubai gap:** viatravelers.com, tripbase.com, theworldtravelindex.com have TLV-vs-Dubai comparison pages. Zero editorial on major travel brands (LP, Rough Guides, Tourist Israel). touristisrael.com has a "how to visit Dubai from Israel" logistics page but no travel-decision comparison. Our site has no /israel-vs-dubai page despite it being confirmed missing (BACKLOG "SHIPPED iter968" annotation was incorrect — file never created).
+
+**Haifa Cable Car:** Tourist Israel (touristisrael.com/haifa-cable-cars), TripAdvisor, GetYourGuide, thingstodoinhaifa.com, trek.zone, wanderboat.ai all rank dedicated Haifa Cable Car pages. Our haifa-travel-guide.md mentions the cable car briefly but has no standalone attraction guide. Missing SEO target: "Haifa cable car guide 2026."
