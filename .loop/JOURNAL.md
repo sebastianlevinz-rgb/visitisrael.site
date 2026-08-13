@@ -17520,3 +17520,10 @@ Findings: (1) nova-memorial-october-7-sites-guide CONFIRMED MISSING — 7,000 vi
 Gate: N/A (research only).
 Ship: N/A. Loop memory files updated + committed.
 Next: iter1211 (1211%5=1 → BUILD monetization). Top item: airport-transfers-sherut-upgrade (P2, S, ready).
+
+## 2026-08-13T20:53Z · iter1211 · BUILD (monetization) · airport-transfers-sherut-upgrade · 6ff461af
+What: Extended EN ben-gurion-airport-transfers.md — added "Shared sherut" section (24h incl. Shabbat; ~₪65–80 to TLV, ~₪100–120 to JRS; prices as ranges, confirm in NIS before boarding); added "Shared shuttle" section (pre-booked fixed-departure vans, distinct from street sherut); expanded comparison table from 4→6 rows with Shabbat + Best-for columns; added GetYourGuide as third affiliateCta (shared shuttle product) alongside existing WelcomePickups + KiwiTaxi; new sherut FAQ; description updated (155 chars, under 160 limit); updatedAt bumped to 2026-08-13. Added /ben-gurion-airport-transfers to smoke + a11y ROUTES (2 new passing tests).
+Gate: pnpm check 0 errors | build 1973 pages (unchanged) | 6/6 targeted e2e PASS (smoke+a11y for EN+ES+FR+DE routes).
+Ship: squash-merged 6ff461af to master; pushed origin/master. CI in_progress at state-write (normal — previous runs all success).
+Prod: Vercel auto-deploy triggered for 6ff461af; CI in_progress. CI for prior SHA (26fa0eea) was still in_progress; prior-prior (e6d0e7af) = success.
+Next: iter1212 (1212%5=2 → BUILD seo-content); candidates: best-national-parks-israel (P2 S, ready), israel-vs-dubai (P2 S, ready), bein-harim-vs-abraham-tours (P2 S-M, ready).

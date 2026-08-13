@@ -1,5 +1,16 @@
 # DONE (shipped — do NOT re-do; basis for REVIEW mode)
 
+## iter1211 · BUILD (monetization) · airport-transfers-sherut-upgrade · 6ff461af
+- Extended ben-gurion-airport-transfers.md (EN only; other locales not modified): added "Shared sherut" section (24h incl. Shabbat; ~₪65–80 to TLV, ~₪100–120 to JRS; prices as ranges; confirm in NIS); added "Shared shuttle" section (pre-booked fixed-departure vans, distinct from street sherut); expanded comparison table from 4→6 rows adding Shabbat + Best-for columns; added GetYourGuide as third affiliateCta (shared shuttle product) alongside WelcomePickups + KiwiTaxi; new sherut FAQ; description updated; updatedAt bumped 2026-08-13. Added /ben-gurion-airport-transfers to smoke + a11y ROUTES (2 new tests). Gate: pnpm check 0 errors | build 1973 pages (unchanged) | 6/6 targeted e2e PASS. Squash-merged 6ff461af; pushed origin/master. CI in_progress.
+
+## iter1209 · REVIEW · dead-sea-promenade-expansion-callout · e6d0e7af
+
+## iter1208 · BUILD (technical) · tower-of-david-freshness-2026 · 53bed10b
+
+## iter1207 · BUILD (seo-content) · best-markets-in-israel · e339bad5
+
+## iter1206 · BUILD (monetization) · travel-insurance-comparison-upgrade · 8692b876
+
 ## iter1202 · BUILD (tools) · trip-cost-calculator-enhanced · c180f3b1
 
 ## iter1204 · REVIEW · airlines-updatedat-fix · b7135b05
