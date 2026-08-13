@@ -3,7 +3,7 @@ title: "Davidsturm Jerusalem: Museum und Night Spectacular (2026–2027)"
 description: "Davidsturm Jerusalem — was die Zitadelle zeigt, Dachterrassenpanorama, das Night Spectacular und wie Sie den Besuch in einen Altstadt-Tag integrieren."
 heroImage: /images/sub-destinations/jerusalem/tower-of-david.jpg
 category: Sakrale Stätten
-updatedAt: 2026-08-07
+updatedAt: 2026-08-13
 verdictName: "einen Davidsturm-Besuch (Museum oder Night Spectacular)"
 verdictQuery: "Davidsturm Jerusalem geführte Tour Eintrittskarte"
 ctaHeading: "Davidsturm-Erlebnis buchen"
@@ -24,7 +24,7 @@ faqs:
   - question: "Was ist der Davidsturm in Jerusalem?"
     answer: "Der Davidsturm ist eine mittelalterliche Zitadelle, die auf hasmonäischen und herodianischen Fundamenten erbaut wurde und am Jaffator der Altstadt von Jerusalem liegt. Heute beherbergt sie ein Museum, das 4.000 Jahre Jerusalemer Geschichte durch die im Bauwerk selbst sichtbaren archäologischen Schichten abbildet. Der Name ist ein historisches Missverständnis — das Bauwerk hat keine Verbindung zu König David; es wurde Jahrhunderte später errichtet und die Bezeichnung 'Davidsturm' wurde von frühen Christen verwendet und durch die Kreuzfahrer populär gemacht."
   - question: "Wie viel Zeit sollte ich für das Davidsturm-Museum einplanen?"
-    answer: "Planen Sie 45–75 Minuten für das Museum, je nach dem wie ausführlich Sie die Exponate studieren möchten. Der chronologische Rundweg führt durch die Zitadellentürme hinauf und endet auf der Dachterrasse, die einen der besten Panoramablicke über die Altstadt bietet. Mit Audioguide (ca. ₪25 Aufpreis, in 14 Sprachen) rechnen Sie 20–30 Minuten mehr. Zusammen mit dem Night Spectacular planen Sie einen Abend von 2–3 Stunden."
+    answer: "Nach der umfassenden Renovierung 2023 sollten Sie 75–105 Minuten für das vollständige Museum einplanen — die 10 neuen permanenten Galerien, VR-Zeitreiseerlebnisse und die Zisternen-Kunstinstallationen erfordern mehr Zeit als früher. Mit Audioguide (ca. ₪25 Aufpreis, in 14 Sprachen) rechnen Sie 20–30 Minuten mehr. Zusammen mit dem Night Spectacular planen Sie einen Abend von 2–3 Stunden."
   - question: "Sind Dauerausstellung und Night Spectacular dasselbe Ticket?"
     answer: "Nein. Das Tagesmuseum und das Night Spectacular werden als separate Tickets verkauft. Einige Kombi-Pakete umfassen beide Angebote — aktuelle Optionen auf der offiziellen Website (tod.org.il) prüfen. Beachten Sie: Das Tagesmuseum schließt in der Regel einige Stunden vor Beginn des Night Specta­culars."
   - question: "Wann findet das Night Spectacular statt?"
@@ -55,12 +55,18 @@ Die Zitadelle am Jaffator wurde zunächst in der **hasmonäischen Periode** (2. 
 
 ## Das Museum
 
-Das Davidsturm-Museum führt Besucher auf einem chronologischen Rundweg durch die archäologischen Schichten der Zitadelle selbst — von der kanaanäischen Periode über herodianische Überreste und byzantinische Umbauten bis zu kreuzfahrerzeitlichen Gewölben und osmanischen Strukturen. Jede Schicht ist markiert und kontextualisiert; die Ausstellung endet auf der Dachterrasse mit einem der besten Panoramablicke der Altstadt.
+Das Davidsturm-Museum durchlief 2023 eine grundlegende **40-Millionen-Dollar-Renovierung**, die es zu einem der führenden Geschichtsmuseen im Nahen Osten gemacht hat.
+
+### Die Renovierung 2023: Was neu ist
+
+Die Renovierung fügte den **Angelica-Della-Rache-Eingangs­pavillon** hinzu — ein neues Eingangsgebäude mit Ticketverkauf, Orientierungsausstellung und einem dramatischen Blick nach unten in die hasmonäischen Ausgrabungsschichten unter dem Zitadellenhof. Es ist das Erste, was Besucher erleben, und setzt den interpretiven Ton für den gesamten Besuch.
+
+Außerdem wurden **10 neue permanente Galerien** eingerichtet, jede einer bestimmten Epoche der Stadtgeschichte gewidmet, mit Projektionsinstallationen, interaktiven Touchscreens und — in den Schwerpunkträumen — **VR-Zeitreiseerlebnissen**, die wichtige Epochen als immersive Umgebungen darstellen. In den zuvor wenig genutzten **Zisternen unter der Zitadelle** zeigt das Museum nun zeitgenössische Kunstinstallationen israelischer und internationaler Künstler, die auf die Vielschichtigkeit des Ortes reagieren.
 
 **Praktisch:**
-- Öffnungszeiten und Eintrittpreise: tod.org.il (schwanken saisonal; INPA-Pass gilt nicht)
+- Öffnungszeiten und Eintrittspreise: tod.org.il (schwanken saisonal; INPA-Pass gilt nicht)
 - Audioguide: ca. ₪25 Aufpreis; in 14 Sprachen verfügbar
-- Dauer: 45–75 Minuten für den Rundweg; mehr mit Audioguide
+- Dauer: 75–105 Minuten nach der Renovierung; mehr mit Audioguide
 - Erreichbarkeit: Direkt am Jaffator, Eingang westlich des Torbogens
 
 Für eine geführte Kombination aus Museum und Altstadt: GYG-Touren verbinden beides in einem halben Tag — sinnvoll für Erstbesucher, die den historischen Kontext des Museums mit der lebendigen Stadt verknüpfen möchten.

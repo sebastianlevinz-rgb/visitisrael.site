@@ -3,7 +3,7 @@ title: "Tour de David Jérusalem : Guide du Visiteur (2026–2027)"
 description: "Tour de David : ce que contient la citadelle, vues depuis les toits, le Night Spectacular et comment l'intégrer à une visite de la Vieille Ville."
 heroImage: /images/sub-destinations/jerusalem/tower-of-david.jpg
 category: Sacred Sites
-updatedAt: 2026-08-06
+updatedAt: 2026-08-13
 verdictName: "une visite à la Tour de David (musée ou Night Spectacular)"
 verdictQuery: "Tower of David Jerusalem guided tour"
 ctaHeading: "Réservez votre expérience à la Tour de David"
@@ -24,7 +24,7 @@ faqs:
   - question: "Qu'est-ce que la Tour de David à Jérusalem ?"
     answer: "La Tour de David est une citadelle médiévale construite sur des fondations hasmonéennes et hérodiennes, située à la Porte de Jaffa dans la Vieille Ville de Jérusalem. Elle abrite aujourd'hui un musée couvrant 4 000 ans d'histoire de Jérusalem à travers les couches archéologiques visibles dans la citadelle elle-même. Le nom est un contresens historique — la structure n'a aucun lien avec le roi David ; elle a été construite des siècles plus tard, et l'étiquette 'Tour de David' a été appliquée par les premiers chrétiens et popularisée par les Croisés."
   - question: "Combien de temps prend le musée de la Tour de David ?"
-    answer: "Prévoyez 45 à 75 minutes pour le musée, selon la façon dont vous lisez les expositions. Le parcours chronologique monte à travers les tours de la citadelle et se termine sur le toit, qui offre l'une des meilleures vues aériennes sur le panorama de la Vieille Ville. Si vous utilisez le guide audio (₪25 supplémentaires, disponible en 14 langues), ajoutez 20 à 30 minutes. Combiné avec le Night Spectacular, prévoyez une soirée de 2 à 3 heures."
+    answer: "Après la rénovation de 2023, prévoyez 75 à 105 minutes pour le musée complet — les 10 nouvelles galeries permanentes, les expériences de voyage dans le temps en VR et les installations artistiques dans les citernes ajoutent du temps par rapport à l'ancienne estimation de 45 à 75 minutes. Si vous utilisez le guide audio (₪25 supplémentaires, disponible en 14 langues), ajoutez 20 à 30 minutes. Combiné avec le Night Spectacular, prévoyez une soirée de 2 à 3 heures."
   - question: "Le musée et le Night Spectacular sont-ils le même billet ?"
     answer: "Non. Le musée de jour et le Night Spectacular sont vendus comme des billets séparés. Certains forfaits combinés sont disponibles incluant la visite du musée et l'accès au Night Spectacular — consultez le site officiel de la Tour de David (tod.org.il) pour les options actuelles. Si vous visitez en soirée, notez que le musée de jour ferme généralement bien avant le début du Night Spectacular."
   - question: "Quand le Night Spectacular de la Tour de David a-t-il lieu ?"
@@ -55,13 +55,25 @@ Le roi David, qui régnait à Jérusalem vers le Xe siècle av. J.-C., n'avait a
 
 ## Le musée
 
-Le musée de la Tour de David a ouvert en 1989 et a été systématiquement agrandi depuis. Il couvre **4 000 ans d'histoire de Jérusalem** à travers des expositions installées dans les propres couches archéologiques de la citadelle — un format qui rend la chronologie viscéralement lisible.
+Le musée de la Tour de David a ouvert en 1989 et a fait l'objet d'une **rénovation majeure de 40 millions de dollars** — achevée en 2023 — qui en a fait l'un des musées d'histoire de référence au Moyen-Orient.
+
+### La rénovation de 2023 : les nouveautés
+
+La rénovation a ajouté le **Pavillon d'Entrée Angelica Della Rache** — une nouvelle porte d'entrée qui intègre la billetterie, des expositions d'orientation et une vue dramatique sur les couches archéologiques de la période hasmonéenne sous la cour de la citadelle. C'est la première chose que les visiteurs rencontrent et qui donne le ton interprétatif pour toute la visite.
+
+La rénovation a également installé **10 nouvelles galeries permanentes**, chacune dédiée à une époque spécifique de l'histoire de Jérusalem, utilisant des projections, des écrans tactiles interactifs et — dans les salles phares — un **voyage dans le temps en VR** rendant des époques clés de la ville sous forme d'environnements immersifs. Dans les citernes souterraines autrefois peu utilisées, le musée présente désormais des **installations d'art contemporain** d'artistes israéliens et internationaux répondant à l'histoire stratifiée du site.
 
 ### Le parcours
 
-Le musée suit une **spirale chronologique** : vous entrez à la période cananéenne (implantation de l'Âge du Bronze) et remontez à travers les périodes israélite, hasmonéenne, hérodienne, romaine, byzantine, islamique primitive, croisée, mamluke et ottomane, chaque niveau construisant sur le précédent. À des moments clés, vous pouvez regarder vers le bas dans des fosses de fouilles ouvertes où les couches archéologiques réelles sont exposées.
+Le musée suit une **spirale chronologique** : vous entrez à la période cananéenne (implantation de l'Âge du Bronze) et remontez à travers les périodes israélite, hasmonéenne, hérodienne, romaine, byzantine, islamique primitive, croisée, mamluke et ottomane, chaque galerie construisant sur la précédente. À des moments clés, vous pouvez regarder vers le bas dans des fosses de fouilles ouvertes où les couches archéologiques réelles sont exposées.
 
 **Points forts à rechercher :**
+
+- **Le Pavillon Della Rache** : la nouvelle zone d'orientation au niveau de la cour, avec vue sur la fosse de fouilles hasmonéenne, met l'échelle du site en perspective avant la montée.
+
+- **Les galeries VR** : certaines époques sont rendues en environnements 3D — utile pour visualiser la ville du Ier siècle (avant la destruction du Temple) et la citadelle de la période croisée.
+
+- **L'art contemporain dans les citernes** : les citernes souterraines accueillent des commissions tournantes d'artistes répondant au palimpseste d'occupations du site. Consultez tod.org.il pour l'installation actuelle.
 
 - **La maquette à l'échelle** dans la cour d'entrée : une reconstruction à l'échelle 1:50 de Jérusalem telle qu'elle apparaissait au Ier siècle de notre ère, avant la destruction romaine du Temple.
 

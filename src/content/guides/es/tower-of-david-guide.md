@@ -3,7 +3,7 @@ title: "Torre de David Jerusalén: Guía del Visitante (2026–2027)"
 description: "Torre de David en Jerusalén — qué esconde la ciudadela, vistas desde la azotea, el Night Spectacular y cómo integrarla en una visita a la Ciudad Vieja."
 heroImage: /images/sub-destinations/jerusalem/tower-of-david.jpg
 category: Sitios Sagrados
-updatedAt: 2026-08-02
+updatedAt: 2026-08-13
 verdictName: "una visita a la Torre de David (museo o Night Spectacular)"
 verdictQuery: "Tower of David Jerusalem guided tour"
 ctaHeading: "Reserva tu experiencia en la Torre de David"
@@ -30,7 +30,7 @@ faqs:
   - question: "¿Qué es la Torre de David en Jerusalén?"
     answer: "La Torre de David es una ciudadela medieval construida sobre cimientos asmoneos y herodianos, ubicada en la Puerta de Jaffa de la Ciudad Vieja de Jerusalén. Hoy alberga un museo que cubre 4.000 años de historia de Jerusalén a través de las capas arqueológicas visibles en la propia ciudadela. El nombre es un error histórico — la estructura no tiene ninguna relación con el Rey David; fue construida siglos después y el nombre 'Torre de David' fue aplicado por los primeros cristianos y popularizado por los cruzados."
   - question: "¿Cuánto tiempo lleva visitar el Museo Torre de David?"
-    answer: "Calcula entre 45 y 75 minutos para el museo, dependiendo de cómo leas las exposiciones. La ruta cronológica asciende por las torres de la ciudadela y termina en la azotea, que ofrece una de las mejores vistas aéreas del horizonte de la Ciudad Vieja. Si usas la audioguía (₪25 adicionales, disponible en 14 idiomas), añade entre 20 y 30 minutos. Combinado con el Night Spectacular, planifica una tarde de 2–3 horas."
+    answer: "Tras la renovación de 2023, calcula entre 75 y 105 minutos para el museo completo — las 10 nuevas galerías permanentes, las experiencias de viaje en el tiempo con RV y las instalaciones artísticas en las cisternas añaden tiempo a la estimación anterior de 45–75 minutos. Si usas la audioguía (₪25 adicionales, disponible en 14 idiomas), añade entre 20 y 30 minutos. Combinado con el Night Spectacular, planifica una tarde de 2–3 horas."
   - question: "¿El museo diurno y el Night Spectacular son la misma entrada?"
     answer: "No. El museo diurno y el Night Spectacular se venden como entradas separadas. Existen algunos paquetes combinados que incluyen tanto la visita al museo como la admisión al Night Spectacular — consulta la web oficial de la Torre de David (tod.org.il) para las opciones actuales. Si visitas por la tarde, ten en cuenta que el museo diurno suele cerrar bastante antes de que comience el Night Spectacular."
   - question: "¿Cuándo se celebra el Night Spectacular de la Torre de David?"
@@ -67,17 +67,29 @@ Las **torres herodianas** — tres macizas torres que Herodes llamó en honor a 
 
 ## El museo
 
-El Museo Torre de David abrió en 1989 y ha sido sistemáticamente ampliado desde entonces. Cubre **4.000 años de historia de Jerusalén** a través de exposiciones situadas en las propias capas arqueológicas de la ciudadela — un formato que hace el recorrido temporal visceralmente legible.
+El Museo Torre de David abrió en 1989 y fue sometido a una **renovación integral de 40 millones de dólares** — concluida en 2023 — que lo ha convertido en uno de los museos de historia más destacados de Oriente Medio.
+
+### La renovación de 2023: novedades
+
+La renovación añadió el **Pabellón de Entrada Angelica Della Rache** — una nueva puerta de acceso que integra la taquilla, exposiciones de orientación y una vista dramática hacia las capas arqueológicas del período asmoneo bajo el patio de la ciudadela. Es lo primero que encuentran los visitantes y establece el tono interpretativo de toda la visita.
+
+La renovación también instaló **10 nuevas galerías permanentes**, cada una dedicada a un período específico de la historia de Jerusalén, con proyecciones, pantallas táctiles interactivas y — en las salas principales — **viajes en el tiempo con realidad virtual** que recrean épocas clave de la ciudad como entornos inmersivos. En las cisternas subterráneas anteriormente infrautilizadas, el museo presenta ahora **instalaciones de arte contemporáneo** de artistas israelíes e internacionales que responden a la historia estratificada del lugar.
 
 ### La ruta
 
-El museo sigue una **espiral cronológica**: entras en el período cananeo (asentamiento de la Edad de Bronce) y asciendes a través de los períodos israelita, asmoneo, herodiano, romano, bizantino, islámico temprano, cruzado, mameluco y otomano, con cada planta apoyada en la anterior. En los puntos clave, puedes mirar hacia abajo a pozos de excavación abiertos donde las capas arqueológicas reales están expuestas — la exposición no describe la historia; estás de pie dentro de ella.
+El museo sigue una **espiral cronológica**: entras en el período cananeo (asentamiento de la Edad de Bronce) y asciendes a través de los períodos israelita, asmoneo, herodiano, romano, bizantino, islámico temprano, cruzado, mameluco y otomano, con cada galería apoyada en la anterior. En los puntos clave, puedes mirar hacia abajo a pozos de excavación abiertos donde las capas arqueológicas reales están expuestas — la exposición no describe la historia; estás de pie dentro de ella.
 
 **Destacados a no perderse:**
 
-- **La maqueta a escala** en el patio de entrada: una reconstrucción a escala 1:50 de Jerusalén tal como apareció en el siglo I e.c., antes de la destrucción romana del Templo. Fue creada con extraordinario cuidado y actualizada a medida que nuevos descubrimientos arqueológicos refinaron la comprensión de la ciudad. La mayoría de los visitantes pasan aquí más tiempo del que habían planeado.
+- **El Pabellón Della Rache**: la nueva zona de orientación a nivel del patio, con vista al pozo de excavación asmoneo, pone en perspectiva la escala del lugar antes de ascender.
 
-- **Mampostería herodiana in situ**: en la base de la Torre de Fasael, puedes tocar piedra colocada por los constructores de Herodes en el siglo I a.e.c. La precisión del labrado — caras perfectamente planas, mínimo mortero, márgenes idénticos — la hace inconfundiblemente herodiana y claramente distinta de la mampostería más tosca de todos los períodos posteriores.
+- **Las galerías de realidad virtual**: determinadas épocas se recrean como entornos 3D — útil para visualizar la ciudad del siglo I (antes de la destrucción del Templo) y la ciudadela cruzada del siglo XII.
+
+- **Arte contemporáneo en las cisternas**: las cisternas subterráneas acogen encargos rotativos de artistas que responden al palimpsesto de ocupaciones del lugar. Consulta tod.org.il para la instalación actual.
+
+- **La maqueta a escala** en el patio de entrada: una reconstrucción a escala 1:50 de Jerusalén tal como apareció en el siglo I e.c., antes de la destrucción romana del Templo. La mayoría de los visitantes pasan aquí más tiempo del que habían planeado.
+
+- **Mampostería herodiana in situ**: en la base de la Torre de Fasael, puedes tocar piedra colocada por los constructores de Herodes en el siglo I a.e.c. La precisión del labrado la hace inconfundiblemente herodiana y claramente distinta de la mampostería más tosca de todos los períodos posteriores.
 
 - **La sala cruzada**: el Museo Torre de David incorpora los restos de una sala cruzada del siglo XII, con arcos apuntados y techos abovedados característicos. El período cruzado en Jerusalén duró menos de 90 años (1099–1187) pero dejó una huella física en la ciudadela que sobrevivió al reino.
 
@@ -147,9 +159,10 @@ El Pase Anual del INPA no aplica — el Museo Torre de David es gestionado de fo
 
 **Visita el museo diurno si:**
 - Pasas más de un día completo en Jerusalén y quieres profundidad, no solo sights
-- Tienes niños que se enganchan a la historia interactiva (la maqueta a escala es genuinamente fascinante para los pequeños)
+- Tienes niños que se enganchan a la historia interactiva (la maqueta a escala es genuinamente fascinante para los pequeños y las galerías de RV captan la atención de todas las edades)
 - Es tu primera visita y quieres el resumen cronológico antes de sumergirte en los sitios específicos de la Ciudad Vieja
 - Te interesa la Jerusalén medieval o la arquitectura del período islámico
+- Ya visitaste antes de 2023 — la renovación de 40 millones de dólares transformó sustancialmente la experiencia; merece la pena una segunda visita
 
 **Visita el Night Spectacular si:**
 - Quieres una actividad vespertina en Jerusalén que no sea ir de bares o cenar en el hotel

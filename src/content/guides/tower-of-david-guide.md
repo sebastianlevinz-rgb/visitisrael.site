@@ -3,7 +3,7 @@ title: 'Tower of David Museum Jerusalem: Visitor Guide (2026–2027)'
 description: "Tower of David Museum in Jerusalem — what the citadel holds, rooftop views, the Night Spectacular, and how to work it into an Old City visit."
 heroImage: /images/sub-destinations/jerusalem/tower-of-david.jpg
 category: Sacred Sites
-updatedAt: 2026-07-20
+updatedAt: 2026-08-13
 verdictName: 'a Tower of David visit (museum or Night Spectacular)'
 verdictQuery: 'Tower of David Jerusalem guided tour'
 ctaHeading: 'Book your Tower of David experience'
@@ -30,7 +30,7 @@ faqs:
   - question: What is the Tower of David in Jerusalem?
     answer: "The Tower of David is a medieval citadel built on Hasmonean and Herodian foundations, located at Jaffa Gate in the Old City of Jerusalem. Today it houses a museum covering 4,000 years of Jerusalem's history through the archaeological layers visible in the citadel itself. The name is a historical misnomer — the structure has no connection to King David; it was built centuries later, and the 'Tower of David' label was applied by early Christians and popularised by the Crusaders."
   - question: How much time does the Tower of David Museum take?
-    answer: "Plan 45–75 minutes for the museum, depending on how carefully you read the exhibits. The chronological route winds up through the citadel towers and ends on the rooftop, which offers one of the best aerial views of the Old City skyline. If you use the audio guide (₪25 extra, available in 14 languages), add another 20–30 minutes. Combined with the Night Spectacular, plan an evening of 2–3 hours."
+    answer: "Following the 2023 renovation, plan 75–105 minutes for the full museum — the 10 new permanent galleries, VR time-travel experiences, and cistern art installations add meaningful time to the previous 45–75 minute estimate. If you use the audio guide (₪25 extra, available in 14 languages), add another 20–30 minutes. Combined with the Night Spectacular, plan an evening of 2–3 hours."
   - question: Are the Tower of David Museum and the Night Spectacular the same ticket?
     answer: "No. The daytime museum and the Night Spectacular are sold as separate tickets. Some combined packages are available that include both the museum visit and a Night Spectacular admission — check the official Tower of David website (tod.org.il) for current options. If you are visiting in the evening, be aware that the daytime museum typically closes well before the Night Spectacular begins."
   - question: When does the Tower of David Night Spectacular run?
@@ -67,19 +67,33 @@ The **Herodian towers** — three massive towers Herod named after his wife Mari
 
 ## The museum
 
-The Tower of David Museum opened in 1989 and has been systematically expanded since. It covers **4,000 years of Jerusalem's history** through exhibits set within the citadel's own archaeological layers — a format that makes the timeline viscerally legible.
+The Tower of David Museum opened in 1989 and underwent a major **$40 million renovation** — completed in 2023 — that transformed it from a well-regarded local institution into one of the leading history museums in the Middle East.
+
+### The 2023 renovation: what's new
+
+The renovation added the **Angelica Della Rache Entrance Pavilion** — a new gateway that integrates ticketing, orientation exhibits, and a dramatic ground-level view down into the Hasmonean-period archaeological layers beneath the citadel courtyard. The pavilion, designed in sympathy with the citadel's stonework, is the first thing visitors encounter and sets the interpretive tone for the full visit.
+
+The renovation also installed **10 new permanent galleries**, each dedicated to a specific period of Jerusalem's history, using a mix of projection mapping, interactive touchscreens, scale models, and — in the highlights rooms — **VR time-travel** that renders key periods of the city's past as immersive environments. The galleries do not replace the archaeological site itself; they layer curated context over the physical space. In what were previously underused cisterns beneath the citadel, the museum now presents **contemporary art installations** commissioned to respond to the site's layered history — a quietly powerful contrast between ancient stone and living artistic practice.
+
+The overall effect is a museum that is legible to first-time visitors without being simplistic for those who know the material. Plan for the time estimates below; if you are thorough in the new galleries, the upper end of the range is realistic.
 
 ### The route
 
-The museum follows a **chronological spiral**: you enter at the Canaanite period (Bronze Age settlement) and work upward through Israelite, Hasmonean, Herodian, Roman, Byzantine, Early Islamic, Crusader, Mamluk, and Ottoman periods, each floor building on the last. At key points, you can look down into open excavation pits where the actual archaeological layers are exposed — the exhibit is not describing the history; you are standing inside it.
+The museum follows a **chronological spiral**: you enter at the Canaanite period (Bronze Age settlement) and work upward through Israelite, Hasmonean, Herodian, Roman, Byzantine, Early Islamic, Crusader, Mamluk, and Ottoman periods, each gallery building on the last. At key points, you can look down into open excavation pits where the actual archaeological layers are exposed — the exhibit is not describing the history; you are standing inside it.
 
 **Highlights to look for:**
 
-- **The scale model** in the entrance courtyard: a 1:50 scale reconstruction of Jerusalem as it appeared in the 1st century CE, before the Roman destruction of the Temple. It was created with extraordinary care and updated as new archaeological discoveries refined understanding of the city. Most visitors spend more time here than they planned.
+- **The Della Rache Pavilion entrance**: the new courtyard-level orientation space, with views into the Hasmonean excavation pit, sets the scale of the site before you ascend.
+
+- **The VR time-travel galleries**: select periods are rendered as 3D environments — useful for visualising the 1st-century CE city (before the Temple's destruction) and the Crusader-period citadel as it would have appeared in the 12th century.
+
+- **Contemporary art in the cisterns**: the underground cisterns now host rotating commissions from Israeli and international artists responding to the site's palimpsest of occupation. Check tod.org.il for the current installation.
+
+- **The scale model** in the entrance courtyard: a 1:50 scale reconstruction of Jerusalem as it appeared in the 1st century CE. Created with archaeological precision and updated as new discoveries refine understanding of the city. Most visitors spend more time here than they planned.
 
 - **Herodian masonry in situ**: at the base of the Phasael Tower, you can touch stone laid by Herod's builders in the 1st century BCE. The precision of the dressing — perfectly flat faces, minimal mortar, identical margins — makes it unmistakably Herodian and unmistakably distinctive from the rougher stonework of every later period above it.
 
-- **The Crusader hall**: the Museum of the Tower of David incorporates the remains of a 12th-century Crusader hall, with characteristic pointed arches and vaulted ceilings. The Crusader period in Jerusalem lasted less than 90 years (1099–1187) but left a physical mark on the citadel that outlasted the kingdom.
+- **The Crusader hall**: the museum incorporates the remains of a 12th-century Crusader hall, with characteristic pointed arches and vaulted ceilings. The Crusader period in Jerusalem lasted less than 90 years (1099–1187) but left a physical mark on the citadel that outlasted the kingdom.
 
 - **Ottoman cannon and garrison rooms**: the upper floors of the existing citadel are Ottoman-period garrison structures, some still holding period artillery. The contrast between the scale of Herod's ambition and the domestic pragmatism of the Ottoman military barracks is quietly striking.
 
@@ -150,9 +164,10 @@ The INPA Annual Pass does not apply — the Tower of David Museum is independent
 
 **Visit the daytime museum if:**
 - You are spending more than one full day in Jerusalem and want depth, not just sights
-- You have children who engage with hands-on history (the scale model is genuinely compelling for kids)
+- You have children who engage with hands-on history (the scale model is genuinely compelling for kids, and the VR galleries hold attention across age groups)
 - This is a first visit and you want the chronological overview before diving into the Old City's specific sites
 - You are interested in medieval Jerusalem or Islamic-period architecture — the Ottoman citadel is a well-preserved example
+- You visited before 2023 — the $40M renovation substantially transformed the experience; it is worth a second visit
 
 **Visit the Night Spectacular if:**
 - You want an evening activity in Jerusalem that is not bar-hopping or hotel dining
