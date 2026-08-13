@@ -1,13 +1,14 @@
 # LOOP STATE
 
-- iteration: 1189
-- lastMode: REVIEW (de-62-review-meta-audit)
-- lastItem: de-62-review-meta-audit
-- lastResult: iter1189 REVIEW (de-62-review-meta-audit) — 4 DE-62 guides audited: israel-group-travel + israel-with-teenagers + israel-photography-tours + petra-wadi-rum-from-eilat. Titles: max 64 chars (israel-with-teenagers); all ≤65 hard limit; 3 guides over soft 54 (group-travel 62, with-teenagers 64, petra 60) — no fix per pattern. Descriptions: 1 OVER-HARD (israel-photography-tours 162→138 FIXED), 2 OVER-SOFT (group-travel 156→141 FIXED, with-teenagers 151→142 FIXED), 1 OK (petra 149). Cross-links: all 26 /de/* links valid (galilee+negev verified as region pages served from src/pages/de/[region]/index.astro). H1 in body: none (AUD-008 compliant). Prices: all ranges or official published prices — no fabricated values. rating/reviews: none in any of 4 guides. Gate: pnpm check 0 errors | build 1955 pages (no change) | targeted e2e 23/23 PASS. Committed 8173afe2; pushed origin/master. CI in_progress at state-write.
+- iteration: 1190
+- lastMode: RESEARCH (research-iter1190)
+- lastItem: research-iter1190
+- lastResult: iter1190 RESEARCH — Verified actual locale counts: EN=398, FR=397, DE=396, ES=388. Missing: FR=1 (P3), DE=2 (israel-vs-cyprus + P3), ES=10 (9 non-P3). Defined ES-78 batch (5 guides: tel-aviv-tours-compared + qumran-guide + water-hiking-israel + layover-jerusalem + tel-aviv-light-rail; all ES cross-links verified). Defined DE-63 mini-batch (1 guide: israel-vs-cypress; all DE cross-links verified). Competitor research: Civitatis dominates ES SERPs transactionally but editorial is wide open; israeltraveladvisor.org has trip cost calculator; 2026 "safe alternative" trend drives demand for israel-vs-italy/portugal/spain/morocco/croatia. Added 6 new BACKLOG items.
 
-- nextRotationCategory: RESEARCH — iter1190 (1190%5=0 → RESEARCH)
+- nextRotationCategory: BUILD — iter1191 (1191%5=1 → BUILD): ES-78 batch (tel-aviv-tours-compared + qumran-guide + water-hiking-israel + layover-jerusalem + tel-aviv-light-rail)
 - higgsfieldSpent: 0
-- updatedAt: 2026-08-12T23:55Z
+- updatedAt: 2026-08-13T00:00Z
+- branch context: master at 3ee18854; EN=398, FR=397/398, DE=396/398, ES=388/398; missing-FR=1 (israel-for-serbian-travelers P3), missing-DE=2 (israel-vs-cypress + P3), missing-ES=10 (9 non-P3 + P3)
 - branch context: master at 8173afe2; EN=401, FR=397/401, DE=396/401, ES=388/401; missing-FR=1 (israel-for-serbian-travelers P3), missing-DE=2 (israel-vs-cypress + 1 unknown), missing-ES=13 (known: israel-for-german-travelers + israel-for-serbian-travelers + 11 others); missing-all-3=1 (israel-for-serbian-travelers P3). P0 broken links FIXED.
 
 Notes: iter1186 BUILD — DE-62 batch SHIPPED 60065fae. 4 DE guides (Standard Hochdeutsch): israel-group-travel + israel-with-teenagers + israel-photography-tours + petra-wadi-rum-from-eilat. All /de/* cross-links pre-verified. Gate: pnpm check 0 errors | build 1946→1950 pages (+4) | test:e2e 23/23 targeted smoke+a11y PASS. Squash-merged to master 60065fae; pushed origin/master. CI in_progress at state-write. DE: 392→396/401. missing-DE reduced from 6 to 2 (israel-vs-cypress + 1 unknown).

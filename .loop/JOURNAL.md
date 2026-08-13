@@ -17314,3 +17314,33 @@ Findings: 1 description OVER hard limit (photography-tours 162→138 FIXED); 2 o
 Gate: pnpm check 0 errors | build 1955 pages (no change) | targeted e2e 23/23 PASS.
 Ship: Committed 8173afe2; pushed origin/master. CI in_progress at state-write (normal).
 Next: iter1190 (1190%5=0 → RESEARCH).
+
+## 2026-08-13T00:00Z · iter 1190 · RESEARCH · research-iter1190
+
+**Actual locale counts confirmed:** EN=398, FR=397/398, DE=396/398, ES=388/398
+- FR missing: 1 (israel-for-serbian-travelers — P3)
+- DE missing: 2 (israel-vs-cyprus + israel-for-serbian-travelers P3)
+- ES missing: 10 (israel-for-german-travelers + israel-for-serbian-travelers P3 + israel-zimmer-guide + layover-jerusalem + new-luxury-hotels-israel-2026 + petra-from-eilat-vs-amman + qumran-guide + tel-aviv-light-rail + tel-aviv-tours-compared + water-hiking-israel)
+
+**ES-78 batch defined** (next ES BUILD iter1191):
+- tel-aviv-tours-compared.md (S) — comparison/commercial intent; all ES cross-links ✓
+- qumran-guide.md (S) — Dead Sea adjacent archaeology destination; all ES cross-links ✓
+- water-hiking-israel.md (S) — nahal hikes/swimming holes activity; all ES cross-links ✓
+- layover-jerusalem.md (S) — high-intent layover travel; all ES cross-links ✓
+- tel-aviv-light-rail.md (S) — practical transport guide; all ES cross-links ✓
+After ship: ES=393/398.
+
+**DE-63 mini-batch defined** (next DE BUILD after ES-78):
+- israel-vs-cyprus.md (S) — only non-P3 DE missing guide; all DE cross-links ✓
+After ship: DE=397/398 (only P3 remaining).
+
+**Competitor research findings:**
+- Civitatis.com dominates ES Israel SERPs transactionally; editorial space completely open — no Spanish-language Israel travel editorial site has authoritative content at scale
+- israeltraveladvisor.org has a trip cost calculator with duration/style/group sliders — competes for "how much does israel cost 2026" queries
+- 2026 "safe alternative to Israel" narrative driving demand for israel-vs-italy, israel-vs-portugal, israel-vs-spain, israel-vs-morocco, israel-vs-croatia (zero editorial competitor for any of these)
+- Portugal = #1 trending "safe alternative" per Travel & Tour World + Outlook Traveller 2026 reporting — highest priority new vs-X guide
+- Italy = most searched alternative by European travelers comparing Mediterranean destinations
+
+**New BACKLOG items added** (6): israel-vs-italy + israel-vs-portugal + israel-vs-spain + israel-vs-morocco + israel-vs-croatia (all EN P2 S seo-content) + trip-cost-calculator-enhanced (tools P2 M).
+
+No code changes, no gate needed. Memory updated; push follows.

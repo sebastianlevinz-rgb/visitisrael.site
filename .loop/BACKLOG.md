@@ -3,7 +3,44 @@
 Format: `- [P1] (category, effort S/M/L) Title — why valuable — impl sketch — status`
 Priorities P0 (highest) → P3. Status: ready | blocked:<reason> | in-progress.
 
+## New items — iter1190 RESEARCH discoveries (2026-08-13)
+
+### New EN comparison guides — "safe alternative" 2026 trend
+- [P2] (seo-content, S) **israel-vs-portugal.md** (EN new guide) — Portugal = #1 European "safe alternative" to Israel per 2026 travel media; zero editorial competitor for "israel vs portugal"; overlapping warm-weather/culture/beach audience; 2026 travel surge driving high-intent searches. Partners: GYG + Booking + DiscoverCars. Cross-links: is-israel-safe, best-time-to-visit-israel, israel-cost-budget, visa-information, dead-sea-guide, best-beaches-israel, israel-vs-spain, israel-vs-greece, first-time-in-israel. Effort: S. Status: ready.
+- [P2] (seo-content, S) **israel-vs-italy.md** (EN new guide) — Italy most-searched Mediterranean alternative to Israel 2026; "italy vs israel travel" = zero editorial competitor; civilizational depth comparison (Jerusalem vs Rome) strong content angle; Italian-Argentine diaspora ties (3.5M Italian-Argentines = LATAM ES angle once localized). Partners: GYG + Booking. Cross-links: is-israel-safe, best-time-to-visit-israel, israel-cost-budget, dead-sea-guide, tel-aviv-nightlife, israeli-food-cuisine-guide, israel-vs-greece, israel-vs-turkey, first-time-in-israel, visa-information. Effort: S. Status: ready.
+- [P2] (seo-content, S) **israel-vs-spain.md** (EN new guide) — Spain rising as "safe alternative" in 2026 travel media; pairs with israel-for-spanish-travelers audience (travelers comparing both destinations); Sephardic heritage 1492 expulsion = unique Israel angle; zero editorial competitor. Partners: GYG + Booking + DiscoverCars. Cross-links: is-israel-safe, best-time-to-visit-israel, israel-cost-budget, israel-vs-portugal, israel-vs-greece, israel-for-spanish-travelers, first-time-in-israel, visa-information. Effort: S. Status: ready.
+- [P2] (seo-content, S) **israel-vs-morocco.md** (EN new guide) — Morocco Abraham Accords normalization in progress + overlapping warm-weather/culture audience; Morocco positioned as "safe alternative" in 2026; zero editorial competitor for "israel vs morocco"; both = ancient civilizations + souks/markets/street food comparison angle. Partners: GYG + Booking. Cross-links: is-israel-safe, israel-cost-budget, best-time-to-visit-israel, israel-vs-egypt, israel-vs-turkey, first-time-in-israel, visa-information. Effort: S. Status: ready.
+- [P2] (seo-content, S) **israel-vs-croatia.md** (EN new guide) — Croatia = top Mediterranean beach/history destination; "israel vs croatia" = zero editorial competitor; similar climate/summer-beach/history traveler profile; Adriatic vs Mediterranean comparison. Partners: GYG + Booking + DiscoverCars. Cross-links: is-israel-safe, best-time-to-visit-israel, israel-cost-budget, best-beaches-israel, israel-vs-greece, israel-vs-turkey, first-time-in-israel, visa-information. Effort: S. Status: ready.
+
+### New tool
+- [P2] (tools, M) **trip-cost-calculator-enhanced** — Dedicated Israel trip cost calculator page with JS sliders: trip duration (5–21 days), travel style (budget/mid/luxury), group size (solo/couple/family 2+1); outputs per-day + total cost estimate broken down by accommodation/food/transport/activities/tours (ranges, never exact); directly competes with israeltraveladvisor.org for "how much does israel cost 2026" queries. Vanilla JS island; on-brand design; Playwright test required. Link from /israel-cost-budget and /israel-trip-cost-by-style. Effort: M. Status: ready.
+
 ## i18n — ready batches (next BUILD iterations)
+
+### ES-78 batch definition (iter1190 RESEARCH — 254th research pass)
+Guides: `tel-aviv-tours-compared.md` + `qumran-guide.md` + `water-hiking-israel.md` + `layover-jerusalem.md` + `tel-aviv-light-rail.md`
+All 5 confirmed MISSING from ES. All ES cross-links pre-verified. After ship: ES=393/398.
+- tel-aviv-tours-compared: Circuitos por Tel Aviv comparados — Jaffa, Bauhaus y tours nocturnos (2026) — GYG (Old Jaffa & Tel Aviv Walking Tours) + Viator (Food & Carmel Market Tours) + Civitatis (Night & Nightlife Tours) CTAs; 6 /es/* cross-links all ✓ (best-tours-in-israel, day-trips-from-tel-aviv, israel-food-tours-cooking-classes, jerusalem-tours-compared, tel-aviv-food-guide, tel-aviv-nightlife). Effort: S.
+- qumran-guide: Visitar Qumrán — Donde se encontraron los Rollos del Mar Muerto (2026) — GYG (Dead Sea & Qumran Day Tours from Jerusalem) + Abraham (Judean Desert & Dead Sea) + Viator (Private Qumran & Dead Sea Tours) CTAs; 4 /es/* cross-links all ✓ (car-rental-israel, israel-archaeology-experience, israel-museum-jerusalem, israel-national-parks-pass). Cross-links to dead-sea sub-pages (/dead-sea/ein-gedi) → use /es/ein-gedi-guide ✓. Effort: S.
+- water-hiking-israel: Senderismo acuático en Israel — Senderos nahal y pozas naturales — GYG (Ein Gedi & Dead Sea Day Tours) + Abraham (Guided Hikes in the Judean Desert) CTAs; all /es/* cross-links ✓ (is-israel-safe, israel-national-parks-pass, gan-hashlosha-guide, wadi-qelt-monastery-guide, nahal-alexander-guide, israel-kayaking, ein-gedi-guide, masada-dead-sea-day-trip). Effort: S.
+- layover-jerusalem: Escala en Jerusalén — Visitar la Ciudad Vieja entre vuelos — GYG (Jerusalem Layover Tours) + welcomepickups (Airport–Jerusalem Transfer) + Booking (Overnight Layover Hotels) CTAs; 8 /es/* cross-links all ✓ (ben-gurion-airport-guide, ben-gurion-airport-transfers, holy-sites-dress-code-etiquette, jerusalem-old-city-walking-tour, layover-tel-aviv, tower-of-david-guide, transportation, visa-information). Cross-link /1-day-jerusalem-itinerary ✓. Effort: S.
+- tel-aviv-light-rail: Tren Ligero de Tel Aviv (Línea Roja) — Guía turística 2026 — Airalo (Israel eSIM) + welcomepickups (Tel Aviv Airport Transfer) + GYG (Tel Aviv Walking Tour) CTAs; 5 /es/* cross-links all ✓ (ben-gurion-airport-guide, day-trips-from-tel-aviv, israel-travel-apps, shabbat-guide, transportation). Effort: S.
+Status: ready for next ES BUILD (iter1191).
+
+### DE-63 mini-batch definition (iter1190 RESEARCH — ready for next DE BUILD after ES-78)
+Guides: `israel-vs-cyprus.md` (1 guide only; israel-for-serbian-travelers P3 deferred)
+Confirmed MISSING from DE; all DE cross-links pre-verified (akko✓, best-time-to-visit-israel✓, caesarea✓, dead-sea-guide✓, eilat-snorkeling-guide✓, first-time-in-israel✓, is-israel-safe✓, israel-cost-budget✓, israel-vs-egypt✓, israel-vs-greece✓, israel-vs-jordan✓, israel-vs-turkey✓, israel-vs-france✓, israeli-food-cuisine-guide✓, qumran-guide✓, tel-aviv-nightlife✓, visa-information✓).
+- israel-vs-cyprus: Israel oder Zypern? — Reisevergleich 2026 — Standard Hochdeutsch; Mittelmeer-Strand + Geschichte-Vergleich; GYG + Booking CTAs. After ship: DE=397/398 (only P3 remaining). Effort: S.
+Status: ready for DE BUILD after ES-78.
+
+### ES-79 batch definition (iter1190 RESEARCH — items remaining after ES-78)
+4 non-P3 ES guides still missing after ES-78 ships:
+- israel-for-german-travelers.md (S) — cross-links: car-rental-israel✓, cheap-flights-to-israel✓, driving-in-israel✓, first-time-in-israel✓, is-israel-safe✓, israel-5-vs-7-vs-10-days✓, israel-cost-budget✓, israel-money-guide✓, israel-travel-insurance✓, visa-information✓, yad-vashem-visitor-guide✓. Effort: S.
+- israel-zimmer-guide.md (S) — cross-links: car-rental-israel✓, driving-in-israel✓, hiking-in-israel✓, safed-tzfat-guide✓, tiberias-guide✓; /where-to-stay/jerusalem MISSING in ES → use /es/best-hotels-jerusalem ✓. Effort: S.
+- new-luxury-hotels-israel-2026.md (S) — cross-links need ES verification before authoring. Effort: S.
+- petra-from-eilat-vs-amman.md (S) — short guide (43 lines); cross-links: border-crossings✓, eilat-tours-compared✓, petra-wadi-rum-from-eilat✓. Effort: S.
+5th guide for ES-79 batch: israel-for-serbian-travelers (P3) OR one new vs-X guide (israel-vs-italy or israel-vs-portugal once EN ships). After ES-79 ships: ES=397/398 (or 398/398 if P3 included).
+Status: pre-defined; not yet ready (awaiting ES-78 to ship first).
 
 ### FR-62/DE-61/ES-76 batch definition (iter1180 RESEARCH — 253rd research pass)
 EN=401, FR=392/401 (6 missing), DE=387/401 (11 missing), ES=379/401 (19 missing). All cross-links pre-verified per locale. Full detail in I18N-PLAN.md.

@@ -8823,3 +8823,27 @@ LP has a generic Petra page (Jordan-focused), not an Israel-perspective comparis
 **Petra + Wadi Rum from Eilat:** petra-wadi-rum-from-eilat.md exists in EN but MISSING from DE+ES. This is a HIGH-VOLUME query (Jordan tours = largest ancillary revenue stream for Eilat tourism). Competitor landscape: only tour operators (Abraham Tours, Viator) rank; no editorial travel guides in DE/ES. Both locale translations needed.
 
 **EN count correction noted:** EN=401 (was 398 in STATE). The 3+ additional guides were added in earlier iterations without updating EN count in STATE. New guides include israel-for-argentinian-travelers, israel-for-spanish-travelers, israel-vs-france, israel-for-german-travelers, israel-for-french-travelers, israel-for-swiss-travelers, and others. All now reflected in STATE.
+
+### 2026-08-13 · iter 1190 · 254th research pass — ES gap final audit + competitor discovery
+
+**Actual locale counts corrected:** EN=398 (not 401; STATE had over-counted). FR=397/398, DE=396/398, ES=388/398. I18N effort nearing completion.
+
+**Civitatis.com (ES):** Dominates Spanish Israel SERPs transactionally (tour booking pages for Jerusalem, Tel Aviv, Dead Sea). NO editorial content. The Spanish-language Israel travel editorial space is essentially uncontested — only monoviajero.com has a thin general guide. visitisrael.site's ES guides face minimal editorial competition.
+
+**israeltraveladvisor.org:** Has an interactive Israel trip budget calculator with duration/travel-style/group-size sliders — ranks for "how much does israel cost 2026." visitisrael.site has /israel-cost-budget and /israel-trip-cost-by-style but no interactive calculator widget. Gap: a trip-cost-calculator-enhanced page with sliders would directly displace this.
+
+**"Safe Alternative" 2026 trend:** Major travel media (Travel & Tour World, Outlook Traveller, TravelPulse) running articles on Portugal/Spain/Italy/Croatia as alternatives to Israel. This creates high-intent comparative search demand. Competitor editorial for each: ZERO. All "israel-vs-X" pairs below are uncontested:
+- israel-vs-portugal — Portugal = #1 mentioned 2026 alternative; travelcostcalculator.org only result for comparisons
+- israel-vs-italy — Italy = most-searched Mediterranean alternative; zero editorial competitor
+- israel-vs-spain — Spain surge narrative driving searches; zero editorial competitor
+- israel-vs-morocco — Abraham Accords + overlapping culture destination; zero editorial competitor
+- israel-vs-croatia — Croatia Adriatic beach alternative; zero editorial competitor
+
+**National Geographic Viajes ES (viajes.nationalgeographic.com.es/p/israel):** Thin Israel destination page, no depth. Minimal competition.
+
+**2026 Israel tourism trends identified:**
+- US/Canada visitors up 73% YoY (per touristisrael.com + TravelPulse)
+- New luxury hotel openings: Six Senses Tel Aviv, Nobu Hotel, Yacht Hotel Herzliya, Kassland Resort Ma'ale Adumim (May 2026 open)
+- El Al direct ICN→TLV launching March 2027 (3×/week B787-9) — Korean market opportunity
+- "Whycation" wellness travel trend — Dead Sea + spa + longevity; some coverage but no dedicated Israel guide
+- Galilee Culinary Institute opening late 2026 — zero editorial coverage
