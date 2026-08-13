@@ -2399,3 +2399,6 @@ Corrected Israir TLV-MAD launch tense in israel-vs-spain (EN + ES): "launched 20
 
 ## iter1206 · BUILD (monetization) · travel-insurance-comparison-upgrade · 8692b876
 - Added InsureMyTrip + Squaremouth as first-class Partner types in affiliates.ts; upgraded israel-travel-insurance.md from 1 (SafetyWing-only) to 3 affiliate CTAs; added "Comparison portals vs. subscription products" guide section to serve mainstream trip-cancellation insurance audience. New revenue stream beyond backpacker-medical niche.
+
+## iter1207 · BUILD (seo-content) · best-markets-in-israel · e339bad5
+- best-markets-in-israel SHIPPED. New /best-markets-in-israel hub page: quick-comparison table for 8 Israeli markets (Mahane Yehuda, Carmel Market, Levinsky, Sarona, Nahalat Binyamin, Talpiot Haifa, Ramle, Akko Old City); per-market subsections with character, what-to-buy, best-time, insider-tip; 7 FAQs; GYG + Booking CTAs; cross-links to 4 existing market guides. Internal-link hub value: links from mahane-yehuda-market-guide + tel-aviv-carmel-market + sarona-market-tel-aviv + nahalat-binyamin-market-tel-aviv now have a canonical hub to point back to. 2 e2e tests (smoke + a11y) both pass. Build: 1972→1973 pages. Squash-merged e339bad5; pushed origin/master.

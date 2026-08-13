@@ -17490,3 +17490,9 @@ Gate: pnpm check 0 errors | build 1972 pages (unchanged count) | 8/8 targeted e2
 Ship: squash-merged 8692b876 to master; pushed origin/master. CI in_progress at state-write (normal).
 Prod: Vercel auto-deploy triggered; CI/Lighthouse in_progress for 8692b876. Previous iteration's CI state: success (d37f615b).
 Next: iter1207 (1207%5=2 → BUILD seo-content); candidate: bein-harim-vs-abraham-tours (P2, S-M, ready) or best-markets-in-israel (P2, S, ready).
+
+## 2026-08-13T17:43Z · iter1207 · BUILD (seo-content) · best-markets-in-israel · e339bad5
+What: New /best-markets-in-israel hub guide — the confirmed-missing hub page linking all 4 individual market guides. Covers 8 markets with a quick-comparison table (name/city/best-for/best-time/crowd-level): Mahane Yehuda Jerusalem, Carmel Market TLV, Levinsky Market TLV (spice district), Sarona Market TLV (indoor gourmet), Nahalat Binyamin TLV (crafts, Tue+Fri only), Talpiot Market Haifa (Druze food focus), Ramle Market (off-beaten-path mixed culture), Akko Old City Market. Each market gets a dedicated subsection with character, what-to-buy, best-time, and insider tip. 7 FAQs. GYG market food tours + Booking.com CTAs. Dense cross-links to mahane-yehuda-market-guide, tel-aviv-carmel-market, sarona-market-tel-aviv, nahalat-binyamin-market-tel-aviv, israel-food-tours-cooking-classes, haifa-food-guide, tel-aviv-food-guide. No fabricated prices/ratings. No H1 in body. YAML uses double-quotes for ctaHeading (Israel's apostrophe). 2 new e2e tests added (smoke + a11y). Build: 1972→1973 pages.
+Gate: pnpm check 0 errors | build 1973 pages (+1) | 2/2 targeted e2e PASS.
+Ship: squash-merged e339bad5 to master; pushed origin/master. CI in_progress at state-write.
+Next: iter1208 (1208%5=3 → BUILD tools); candidates: bein-harim-vs-abraham-tours (P2 seo-content+monetization) or airport-transfers-sherut-upgrade (P2 monetization).

@@ -1,14 +1,14 @@
 # LOOP STATE
 
-- iteration: 1206
+- iteration: 1207
 - lastMode: BUILD
-- lastItem: travel-insurance-comparison-upgrade
-- lastResult: iter1206 BUILD (monetization) — SHIPPED 8692b876. Extended israel-travel-insurance.md: added InsureMyTrip + Squaremouth as first-class Partner types in affiliates.ts (AFFILIATE_IDS, Partner union, PARTNERS, affiliateUrl()); converted the page from 1 CTA (SafetyWing only) to a 3-card comparison section (InsureMyTrip comparison portal + Squaremouth zero-commission comparison + SafetyWing subscription medical). Added "Comparison portals vs. subscription products" section to guide body. No fabricated prices/ratings/reviews. Gate: pnpm check 0 errors | build 1972 pages | 8/8 targeted e2e PASS. Pushed 8692b876; CI in_progress at state-write.
+- lastItem: best-markets-in-israel
+- lastResult: iter1207 BUILD (seo-content) — SHIPPED e339bad5. New /best-markets-in-israel hub guide: 8-market comparison table (Mahane Yehuda Jerusalem, Carmel Market TLV, Levinsky Market TLV, Sarona Market TLV, Nahalat Binyamin TLV, Talpiot Haifa, Ramle Market, Akko Old City Market); per-market subsections with insider tips; 7 FAQs; GYG+Booking CTAs; cross-links to all 4 existing market guides + israel-food-tours-cooking-classes + haifa-food-guide + tel-aviv-food-guide. No fabricated prices/ratings; no H1 in body; YAML apostrophe fix (double-quotes on ctaHeading). 2 e2e tests added (smoke + a11y). Gate: pnpm check 0 errors | build 1973 pages (+1) | 2/2 targeted e2e PASS. Pushed e339bad5; CI in_progress at state-write.
 
-- nextRotationCategory: seo-content (iter1207 → BUILD seo-content; 1208 → BUILD tools; 1209 → BUILD technical; 1210 → RESEARCH; 1211 → BUILD monetization)
+- nextRotationCategory: tools (iter1208 → BUILD tools; 1209 → BUILD technical; 1210 → RESEARCH; 1211 → BUILD monetization; 1212 → BUILD seo-content)
 - higgsfieldSpent: 0
-- updatedAt: 2026-08-13T17:17Z
-- branch context: master at 8692b876; EN=402/402, FR=397/401, DE=397/401, ES=400/401; missing-FR=1 (israel-for-serbian-travelers P3), missing-DE=1 (israel-for-serbian-travelers P3), missing-ES=1 (israel-for-serbian-travelers P3 ONLY)
+- updatedAt: 2026-08-13T17:43Z
+- branch context: master at e339bad5; EN=403/402 (best-markets-in-israel adds to hub count), FR=397/401, DE=397/401, ES=400/401; missing-FR=1 (israel-for-serbian-travelers P3), missing-DE=1 (israel-for-serbian-travelers P3), missing-ES=1 (israel-for-serbian-travelers P3 ONLY)
 
 Notes: iter1200 RESEARCH — 256th research pass. Searched touristisrael.com, lonelyplanet.com, roughguides.com, tripadvisor.com, viator.com, getyourguide.com, nomadlist.com, digitalnomads.world, travelandtourworld.com, aviationa2z.com, igoogledisrael.com, harrysbaked.com, atly.com, israel21c.org, deadsea.com, giltravel.com, ynetnews.com, jfeed.com. Key findings: (1) best-markets-in-israel — confirmed missing; we have 4 individual market guides but no hub comparison page; onevasco.com + harrysbaked.com + atly.com + israel21c.org all rank for "best markets Israel"; high internal-link hub value → 6 individual market pages. (2) best-national-parks-israel — confirmed missing; we have israel-national-parks-pass.md + individual park guides but no "best 10-12 national parks" hub; Tourist Israel + TripAdvisor rank for this; 40+ parks in Israel; hub would link to masada-visitor-guide + dead-sea-guide + gamla-nature-reserve-guide + qumran-guide + israel-national-parks-pass etc. (3) Wizz Air hub expansion — airlines guide Wizz Air entry is minimal ("London Luton, Budapest, Vienna, Bucharest, and others"); reality: Wizz Air opened full hub at Ben Gurion May 2026, 21 routes (expanding to 50), based aircraft + TLV-Ramon domestic service launched, new routes: Bratislava, Palermo, Naples, Venice, doubled Milan (14x/week). Ryanair out permanently; easyJet March 2026 restart failed (planned late Oct 2026). (4) Rosh Hanikra: cable car closed 18 months (security); reopened May 2025 via tunnel first, cable car status now back; guide needs freshness update. 6 new BACKLOG items appended. No code changes; no gate run needed. Memory commit follows.
 
