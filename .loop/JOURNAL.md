@@ -17483,3 +17483,10 @@ Ship: squash-merged 165a88d3; pushed origin/master. CI in_progress.
 **6 new BACKLOG items appended.** No code changes; no gate run needed.
 Gate: N/A (RESEARCH iteration — no shipping).
 Next: iter1206 (1206%5=1 → BUILD): monetization category; recommend travel-insurance-comparison-upgrade (P2, S, ready) or airport-transfers-sherut-upgrade (P2, S, ready).
+
+## 2026-08-13T17:17Z · iter1206 · BUILD (monetization) · travel-insurance-comparison-upgrade · 8692b876
+What: Extended israel-travel-insurance.md from a single SafetyWing CTA (backpacker-focused travel medical subscription) to a 3-card affiliate section serving the mainstream 2-week holiday visitor. Added InsureMyTrip and Squaremouth as first-class Partner types in src/config/affiliates.ts (AFFILIATE_IDS, Partner union, PARTNERS record, affiliateUrl() cases). Added a new "Comparison portals vs. subscription products" guide section explaining the structural difference between one-off trip-cancellation policies (InsureMyTrip/Squaremouth serve this) and ongoing medical subscriptions (SafetyWing). SafetyWing CTA updated to correctly reflect its niche. No fabricated prices, ratings, or review counts. Updated ctaHeading to "Compare and buy travel insurance for Israel". updatedAt bumped to 2026-08-13.
+Gate: pnpm check 0 errors | build 1972 pages (unchanged count) | 8/8 targeted e2e (smoke+a11y on /israel-travel-insurance + all locale variants) PASS.
+Ship: squash-merged 8692b876 to master; pushed origin/master. CI in_progress at state-write (normal).
+Prod: Vercel auto-deploy triggered; CI/Lighthouse in_progress for 8692b876. Previous iteration's CI state: success (d37f615b).
+Next: iter1207 (1207%5=2 → BUILD seo-content); candidate: bein-harim-vs-abraham-tours (P2, S-M, ready) or best-markets-in-israel (P2, S, ready).
