@@ -17460,3 +17460,8 @@ Fix: applied via auto/airlines-updatedat-fix branch — 3-file frontmatter corre
 Gate: pnpm check 0 errors | build 1972 pages (unchanged) | test:e2e 12/12 targeted PASS (4 smoke + 4 a11y across EN/DE/FR/ES airlines + calculator + gay-tel-aviv).
 Ship: squash-merged b7135b05; pushed origin/master. CI in_progress at state-write.
 Next: iter1205 (1205%5=0 → RESEARCH): competitor discovery pass; after research next BUILD = monetization.
+
+## 2026-08-13T15:15Z · iter1204b · BUG-FIX (addendum) · keyboard-test-calculator · 165a88d3
+What: Full e2e suite (run in background during iter1204 REVIEW) returned exit code 1 — 1 failure in keyboard.spec.ts:21 "cost calculator: #days input is Tab-reachable and updates total". Root cause: iter1202 (trip-cost-calculator-enhanced) converted #days from text input to type="range" slider and renamed #total → #total-range, but the keyboard test was not updated — it still used Ctrl+A+type("14") (incompatible with range inputs) and checked locator('#total') (selector no longer exists). Fix: updated interaction to ArrowRight keypress (correct for range sliders) + changed locator to #total-range.
+Gate: pnpm check 0 errors | test:e2e 12/12 targeted (keyboard + tools calculator tests) PASS.
+Ship: squash-merged 165a88d3; pushed origin/master. CI in_progress.
