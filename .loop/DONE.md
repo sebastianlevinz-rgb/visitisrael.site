@@ -2390,3 +2390,6 @@ Corrected Israir TLV-MAD launch tense in israel-vs-spain (EN + ES): "launched 20
 
 ## iter1201 · BUILD (seo-content) · gay-tel-aviv · e8756b36
 - gay-tel-aviv SHIPPED: /gay-tel-aviv dedicated LGBTQ+ guide for Tel Aviv — Hilton Beach, bar/club scene by quarter (Florentin/city-centre/northern), Pride + TLVFest + White Night events, gay-friendly hotel zones, practical logistics. 6 FAQs, 14 cross-links, 2 e2e tests. Build 1971→1972 pages.
+
+## iter1203 · 2026-08-13 · 284517aa
+**wizz-air-hub-freshness** (technical, S) — Expanded Wizz Air entry in airlines-flying-israel-2026.md (EN/DE/FR/ES) from 4-word stub to full TLV hub detail: 10+ named routes with IATA codes, hub context (~21 active/~50 target), TLV↔Ramon domestic service, per-locale Key changes paragraph. All 4 locale variants updated; gate: 0 errors, build unchanged 1972 pages, 8/8 e2e targeted pass.

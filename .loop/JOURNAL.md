@@ -17447,3 +17447,9 @@ What: Enhanced existing /israel-trip-cost-calculator page. Changed days number i
 Gate: pnpm check 0 errors | build 1972 pages (unchanged — calculator was existing page) | test:e2e 11/11 targeted pass.
 Ship: squash-merged c180f3b1; pushed origin/master. CI in_progress at state-write (normal — Vercel auto-deploy from master push).
 Next: iter1203 (1203%5=3 → BUILD, technical): wizz-air-hub-freshness (P2, S).
+
+## 2026-08-13T13:55Z · iter1203 · BUILD (technical) · wizz-air-hub-freshness · 284517aa
+What: Expanded Wizz Air section in airlines-flying-israel-2026.md across all 4 locales (EN/DE/FR/ES). The previous Wizz Air entry was a 4-word stub ("London Luton, Budapest, Vienna, Bucharest, and others | Low-cost; base fares exclude luggage") — too minimal given Wizz Air launched a full TLV hub in spring 2026 and is now Israel's dominant budget carrier. Changes: (1) European table: expanded route list to 10+ named routes with IATA codes (LTN, BUD, VIE, OTP, Bratislava BTS from May 2026, Milan MXP up to 14×/week summer 2026, Rome FCO, Naples NAP, Palermo PMO, Venice VCE); added ~21 active routes / ~50 long-term target; added TLV↔Ramon Airport (ETH) domestic service note; added wizzair.com verification prompt. (2) Key changes section: new "Wizz Air TLV hub (spring 2026)" paragraph across all 4 locales — hub launch context, route expansion detail, domestic service note, verification note. All changes include honest caveats; no fabricated data.
+Gate: pnpm check 0 errors | build 1972 pages (unchanged — content-only update) | test:e2e 8/8 targeted smoke+a11y PASS (0 WCAG violations — all 4 locale variants).
+Ship: committed 284517aa to master; pushed origin/master. CI in_progress at state-write (normal — Vercel auto-deploy from master push).
+Next: iter1204 (1204%5=4 → REVIEW): audit a batch of recently shipped guides or wizz-air freshness accuracy.
