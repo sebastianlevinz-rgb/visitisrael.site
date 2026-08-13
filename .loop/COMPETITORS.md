@@ -8905,3 +8905,36 @@ LP has a generic Petra page (Jordan-focused), not an Israel-perspective comparis
 - Insurance comparison is the largest uncaptured affiliate category. SafetyWing-only positioning misses mainstream 2-week-holiday visitor segment.
 - Airport transfers sherut gap is a quick win: budget travelers search this and find competitors ranking with GYG bookable links.
 - Our tour operator content is strong on editorial but thin on affiliate density at the conversion point (product-level CTAs vs. category-level CTAs).
+
+### 2026-08-13 · iter1210 · RESEARCH pass — Nova Memorial + new 2026 attractions
+
+**Sources consulted:** Times of Israel, Tourist Israel (search result summaries), Bein Harim, Exclusive Israel Tours, TripAdvisor, TravelPulse, TravelMarketReport, JewishLink News, CruiseIndustryNews, JPost, JPost (Skyfield), Leon Levy Foundation / Wikipedia (National Campus Archaeology), israelhayom.com (Kassland), embassies.gov.il / il.usembassy.gov (ETA-IL), MASA Israel, Volunteer World.
+
+**Key findings:**
+
+**Nova Memorial (MOST VISITED site in Israel — confirmed content gap):**
+- Times of Israel confirms Nova Music Festival Memorial near Kibbutz Re'im = KKL-JNF's most visited site: 7,000 visitors/day, 200,000/month.
+- Tourist Israel has a full guide ("How To Visit the Nova Site and the October 7th Kibbutzim").
+- Bein Harim has a dedicated landing page with tour booking + kibbutz context.
+- Exclusive Israel Tours offers dedicated Nova Festival Memorial Tour.
+- GYG/Viator: multiple commissionable group tours (~$140/person) and private (~$800).
+- WE HAVE ZERO COVERAGE. Added nova-memorial-october-7-sites-guide to BACKLOG (P2, M).
+
+**Kibbutz Volunteer Guide (confirmed gap):**
+- MASA Israel, Volunteer World, Birthright Israel Volunteer, kibbutzulpan.org rank for "kibbutz volunteer Israel".
+- No file exists on our site. Added israel-kibbutz-volunteer-guide to BACKLOG (P2, S).
+
+**ETA-IL Visa Checker / interactive tool:** We already have `israel-visa-eta-checker.astro`. NOT a gap.
+
+**New 2026 attractions/infrastructure (already covered or too early):**
+- SkyField Extreme Park Jaffa: `skyfield-extreme-park-jaffa.md` already exists (updatedAt 2026-07-18). No action needed.
+- Haifa cruise terminal ($5.5M, opened May 14 2026): `haifa-cruise-terminal-guide.md` already exists (updatedAt 2026-08-01). No action needed.
+- Kassland Resort Ma'ale Adumim: West Bank settlement (Ma'ale Adumim); politically sensitive; omit per project scope caution.
+- National Campus for Archaeology of Israel: opening delayed to early 2027 (not 2026); added as P3 XS freshness note to BACKLOG.
+
+**Accessible travel 2026:** tourist sites like Skyfield are confirmed accessible; israel-accessible-travel.md likely needs minor 2026 update (added P3 S to BACKLOG).
+
+**Competitor moat observations (iter1210):**
+- Tourist Israel, Bein Harim, Exclusive Israel Tours have major ADVANTAGE in dark/memorial tourism content that we completely lack. The Nova Memorial is arguably the highest-interest new site in Israel since 2023. Our gap here is material.
+- Our tooling advantage (22 interactive tools vs. Tourist Israel's zero) remains strong.
+- Kibbutz volunteer niche: MASA Israel dominates program pages; we can rank for DIY/comparison/planning intent.

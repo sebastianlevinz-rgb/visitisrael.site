@@ -2408,3 +2408,6 @@ Corrected Israir TLV-MAD launch tense in israel-vs-spain (EN + ES): "launched 20
 
 ## iter1209 · REVIEW · dead-sea-promenade-expansion-callout · e6d0e7af · 2026-08-13
 Added "2026 Ein Bokek expansion — ongoing construction" blockquote callout to dead-sea-guide.md and dead-sea-hotels-guide.md. NIS 1B+ development context for travelers visiting Ein Bokek 2026–2027; honest framing (existing strip unaffected, no fabricated dates). Value: freshness/accuracy for one of site's highest-traffic destination guides.
+
+## iter1210 · RESEARCH · nova-memorial-kibbutz-volunteer research pass · no-ship · 2026-08-13
+Research-only pass (no code shipped). Key discovery: Nova Memorial = most visited Israel site (7,000/day); we had zero coverage; added P2 M nova-memorial guide to BACKLOG. Kibbutz volunteer guide also confirmed missing → P2 S. 4 BACKLOG items added total. Loop memory updated.

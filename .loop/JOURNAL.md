@@ -17513,3 +17513,10 @@ What: REVIEW pass identified freshness gap: dead-sea-guide.md and dead-sea-hotel
 Gate: pnpm check 0 errors | build 1973 pages (unchanged) | 85/85 dead-sea targeted e2e PASS (smoke+a11y).
 Ship: committed e6d0e7af to master; pushed origin/master. CI in_progress at state-write.
 Next: iter1210 (1210%5=0 → RESEARCH); candidates: best-national-parks-israel hub (P2 seo-content, ready), israel-for-australian-travelers (P2 seo-content+monetization), israel-vs-dubai (P2 seo-content), bein-harim-vs-abraham-tours (P2 seo-content+monetization).
+
+## 2026-08-13T20:30Z · iter1210 · RESEARCH · nova-memorial-kibbutz-volunteer-oct7
+What: 261st research pass. Searched Tourist Israel, Bein Harim, Exclusive Israel Tours, Times of Israel, TravelPulse, JewishLink News, CruiseIndustryNews, JPost, MASA Israel, Volunteer World, embassies.gov.il.
+Findings: (1) nova-memorial-october-7-sites-guide CONFIRMED MISSING — 7,000 visitors/day (Times of Israel: KKL-JNF most visited site); Tourist Israel, Bein Harim, Exclusive Israel Tours rank; GYG $140/person tours; zero coverage on our site. (2) israel-kibbutz-volunteer-guide CONFIRMED MISSING — MASA, Volunteer World rank for gap-year/diaspora audience. (3) ETA-IL checker, SkyField, Haifa cruise guide all already exist. (4) National Campus Archaeology: opening delayed early 2027 → XS freshness note added to BACKLOG. (5) Accessible travel 2026 updates (SkyField accessible + cruise terminal) → P3 S freshness note added. 4 new BACKLOG items total. No code changes.
+Gate: N/A (research only).
+Ship: N/A. Loop memory files updated + committed.
+Next: iter1211 (1211%5=1 → BUILD monetization). Top item: airport-transfers-sherut-upgrade (P2, S, ready).
