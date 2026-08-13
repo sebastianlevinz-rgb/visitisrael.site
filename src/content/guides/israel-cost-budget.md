@@ -50,3 +50,5 @@ Travel in the **shoulder seasons** (see our [best-time guide](/best-time-to-visi
 **Reclaim Israel's 17% VAT.** Tourists who spend ₪400 or more on a single receipt at a participating city store can reclaim a portion of the VAT at Ben Gurion Airport before departure. The net return is typically 5–11% of the purchase price — worthwhile on Dead Sea cosmetics or Judaica. See the [Israel VAT refund guide](/israel-vat-refund).
 
 Comparing Israel with another destination on cost? See the [Israel vs Turkey comparison guide](/israel-vs-turkey) for a side-by-side on costs, beaches, history and visas.
+
+Want a personalised estimate? Use the [Israel trip cost calculator](/israel-trip-cost-calculator) — set your trip length, group size and accommodation tier to get a cost range broken down by category in dollars and shekels.

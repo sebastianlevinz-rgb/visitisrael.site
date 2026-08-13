@@ -1,54 +1,56 @@
 import { test, expect } from '@playwright/test';
 
 test.describe('Trip cost calculator v2', () => {
-  test('computes a total and reacts to inputs', async ({ page }) => {
+  // Helpers for parsing range text like "$1,100 – $1,500"
+  const rangeLow = (s: string | null) => {
+    const m = (s || '').match(/\$([\d,]+)/);
+    return m ? parseInt(m[1].replace(/,/g, ''), 10) : 0;
+  };
+
+  test('computes a range total and reacts to inputs', async ({ page }) => {
     await page.goto('/israel-trip-cost-calculator');
-    const total = page.locator('#total');
-    await expect(total).not.toHaveText('$0');
-    const before = await total.textContent();
-    // More days → larger total.
+    const rangeEl = page.locator('#total-range');
+    await expect(rangeEl).toBeVisible();
+    const before = await rangeEl.textContent();
+    expect(rangeLow(before)).toBeGreaterThan(0);
+    // More days → larger range low end.
     await page.locator('#days').fill('14');
-    await page.waitForTimeout(700); // count-up animation settles
-    const after = await total.textContent();
-    const n = (s: string | null) => Number((s || '').replace(/[^0-9]/g, ''));
-    expect(n(after)).toBeGreaterThan(n(before));
+    await page.locator('#days').dispatchEvent('input');
+    const after = await rangeEl.textContent();
+    expect(rangeLow(after)).toBeGreaterThan(rangeLow(before));
     await expect(page.locator('#breakdown tr')).not.toHaveCount(0);
   });
 
-  test('accommodation tier changes total, quick presets set days', async ({ page }) => {
+  test('accommodation tier changes range, quick presets set days', async ({ page }) => {
     await page.goto('/israel-trip-cost-calculator');
-    const total = page.locator('#total');
-    const n = (s: string | null) => Number((s || '').replace(/[^0-9]/g, ''));
+    const rangeEl = page.locator('#total-range');
 
-    // Switch to luxury hotel — total should increase vs mid-range default.
-    const midTotal = n(await total.textContent());
+    // Switch to luxury hotel — range low should increase vs mid-range default.
+    const midLow = rangeLow(await rangeEl.textContent());
     await page.locator('#accom-tier').selectOption('luxury_hotel');
-    await page.waitForTimeout(600);
-    const luxuryTotal = n(await total.textContent());
-    expect(luxuryTotal).toBeGreaterThan(midTotal);
+    await page.locator('#accom-tier').dispatchEvent('input');
+    const luxuryLow = rangeLow(await rangeEl.textContent());
+    expect(luxuryLow).toBeGreaterThan(midLow);
 
-    // Switch to hostel — total should be less than mid-range.
+    // Switch to hostel — range low should drop below mid-range.
     await page.locator('#accom-tier').selectOption('hostel');
-    await page.waitForTimeout(600);
-    const hostelTotal = n(await total.textContent());
-    expect(hostelTotal).toBeLessThan(midTotal);
+    await page.locator('#accom-tier').dispatchEvent('input');
+    const hostelLow = rangeLow(await rangeEl.textContent());
+    expect(hostelLow).toBeLessThan(midLow);
 
-    // Quick day preset: click "10 days" → days input updates.
+    // Quick day preset: click "10 days" → slider updates.
     await page.locator('.day-preset[data-days="10"]').click();
     await expect(page.locator('#days')).toHaveValue('10');
-    await page.waitForTimeout(600);
-    const tenDayTotal = n(await total.textContent());
-    // 10 days > default 7 days at same style.
-    const sevenDayPresetTotal = hostelTotal; // was at 7 days
-    expect(tenDayTotal).toBeGreaterThan(sevenDayPresetTotal);
+    const tenDayLow = rangeLow(await rangeEl.textContent());
+    expect(tenDayLow).toBeGreaterThan(hostelLow);
   });
 
-  test('breakdown table has daily and total columns', async ({ page }) => {
+  test('breakdown table has daily and range columns', async ({ page }) => {
     await page.goto('/israel-trip-cost-calculator');
-    // Table header should show "Per day" and "Total" columns.
+    // Table header should show "Per day" and "Range" columns.
     await expect(page.locator('#breakdown-table thead th').nth(1)).toContainText(/per day/i);
-    await expect(page.locator('#breakdown-table thead th').nth(2)).toContainText(/total/i);
-    // Accommodation row has a per-day cost.
+    await expect(page.locator('#breakdown-table thead th').nth(2)).toContainText(/range/i);
+    // Accommodation row has a per-day cost and a range.
     await expect(page.locator('#breakdown tr').first()).toContainText('$');
   });
 
@@ -1059,5 +1061,67 @@ test.describe('Israel transport cost estimator', () => {
     await page.goto('/');
     const link = page.locator('a[href="/israel-transport-cost-estimator"]').first();
     await expect(link).toBeVisible();
+  });
+});
+
+test.describe('Israel trip cost calculator — enhanced', () => {
+  test('page loads with range slider and group-size select', async ({ page }) => {
+    await page.goto('/israel-trip-cost-calculator');
+    await expect(page.locator('#days')).toHaveAttribute('type', 'range');
+    await expect(page.locator('#group-size')).toBeVisible();
+  });
+
+  test('default result shows a cost range in total-range element', async ({ page }) => {
+    await page.goto('/israel-trip-cost-calculator');
+    const rangeEl = page.locator('#total-range');
+    await expect(rangeEl).toBeVisible();
+    const text = await rangeEl.textContent();
+    // Should contain "–" separator and "$" signs
+    expect(text).toMatch(/\$[\d,]+ – \$[\d,]+/);
+  });
+
+  test('days slider updates displayed value and preset button highlight', async ({ page }) => {
+    await page.goto('/israel-trip-cost-calculator');
+    await page.locator('#days').fill('10');
+    await page.locator('#days').dispatchEvent('input');
+    await expect(page.locator('#days-val')).toHaveText('10');
+    await expect(page.locator('.day-preset.active[data-days="10"]')).toBeVisible();
+  });
+
+  test('21-day preset button sets slider to 21', async ({ page }) => {
+    await page.goto('/israel-trip-cost-calculator');
+    await page.locator('.day-preset[data-days="21"]').click();
+    await expect(page.locator('#days')).toHaveValue('21');
+    await expect(page.locator('#days-val')).toHaveText('21');
+  });
+
+  test('switching group size to solo reduces range low end', async ({ page }) => {
+    await page.goto('/israel-trip-cost-calculator');
+    const parseRange = async () => {
+      const t = (await page.locator('#total-range').textContent()) || '';
+      const m = t.match(/\$([\d,]+)/g);
+      return m ? parseInt(m[0].replace(/[$,]/g, ''), 10) : 0;
+    };
+    await page.locator('#group-size').selectOption('2');
+    await page.locator('#group-size').dispatchEvent('input');
+    const coupleLow = await parseRange();
+    await page.locator('#group-size').selectOption('1');
+    await page.locator('#group-size').dispatchEvent('input');
+    const soloLow = await parseRange();
+    expect(soloLow).toBeLessThan(coupleLow);
+  });
+
+  test('breakdown table rows contain range format', async ({ page }) => {
+    await page.goto('/israel-trip-cost-calculator');
+    const firstDataCell = page.locator('#breakdown tr').first().locator('td').last();
+    const text = await firstDataCell.textContent();
+    expect(text).toMatch(/\$[\d,]+ – \$[\d,]+/);
+  });
+
+  test('cost-budget guide links to trip cost calculator', async ({ page }) => {
+    await page.goto('/israel-cost-budget');
+    // Locate the content-body link (not the sidebar nav link which may be hidden on this viewport).
+    const link = page.locator('main a[href="/israel-trip-cost-calculator"], article a[href="/israel-trip-cost-calculator"], .prose a[href="/israel-trip-cost-calculator"]');
+    await expect(link.first()).toBeVisible();
   });
 });

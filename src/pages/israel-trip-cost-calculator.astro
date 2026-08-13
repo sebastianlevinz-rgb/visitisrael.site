@@ -7,7 +7,7 @@ import { breadcrumbList, faqPage } from '@/lib/schema';
 
 const title = 'Israel Trip Cost Calculator — Estimate Your Budget';
 const description =
-  'Free interactive Israel trip budget planner. Choose your accommodation tier, travel style and trip length to get a daily + total breakdown in USD and shekels — with a save-to-PDF summary.';
+  'Free interactive Israel trip budget planner. Adjust trip length, group size and travel style to get a cost range breakdown in USD and shekels — updated for 2026.';
 
 const crumbs = [
   { name: 'Home', path: '/' },
@@ -18,7 +18,7 @@ const faqs = [
   {
     question: 'How much does a trip to Israel cost?',
     answer:
-      'Budget travellers (hostel, street food, free sites) spend around $70–90 per person per day. Mid-range travellers with a comfortable hotel and sit-down meals pay $150–220. Luxury travellers can spend $400+ per day. A typical 7-day mid-range trip lands around $1,200–1,600 per person, excluding international flights. Use the calculator to build your own estimate.',
+      'Budget travellers (hostel, street food, free sites) spend around $70–90 per person per day. Mid-range travellers with a comfortable hotel and sit-down meals pay $150–220. Luxury travellers can spend $400+ per day. A typical 7-day mid-range trip for two lands around $2,200–3,000, excluding international flights. Use the calculator above to build your own estimate.',
   },
   {
     question: 'Is Israel expensive to visit?',
@@ -29,6 +29,11 @@ const faqs = [
     question: 'What currency is used in Israel?',
     answer:
       'The Israeli new shekel (₪, ILS). Cards are accepted almost everywhere; keep some cash for markets and small vendors. The calculator shows estimates in both US dollars and shekels at an approximate rate.',
+  },
+  {
+    question: 'Why does the calculator show ranges rather than exact figures?',
+    answer:
+      'Hotel rates, restaurant bills and tour prices all vary day to day — sometimes by 30–40%. A range (e.g. $1,100–$1,500) gives a more honest picture of what you might actually spend than a false-precision single number. The midpoint of the range is the calculator\'s central estimate; the band reflects typical real-world variation.',
   },
   {
     question: 'How can I save my budget estimate?',
@@ -50,8 +55,8 @@ const schema = [breadcrumbList(crumbs), faqPage(faqs)];
   <JsonLd schema={schema} slot="head" />
   <Hero
     image="/images/regions/tel-aviv/hero.jpg"
-    title="Israel Trip Budget Planner"
-    subtitle="Choose your accommodation tier, travel style and trip length — get a daily and total breakdown in dollars and shekels."
+    title="Israel Trip Cost Calculator"
+    subtitle="Set your trip length, group size and comfort level — get an honest cost range in dollars and shekels, updated for 2026."
     alt="Tel Aviv seafront at golden hour — planning a trip to Israel"
   />
   <Breadcrumbs items={crumbs} />
@@ -62,8 +67,9 @@ const schema = [breadcrumbList(crumbs), faqPage(faqs)];
       Build your estimate
     </h2>
     <p class="mt-2 max-w-2xl text-ink-muted" data-reveal>
-      Figures are grounded in 2026 on-the-ground prices. Everything updates as
-      you type. See our full
+      Figures are grounded in 2026 on-the-ground prices. The calculator shows a
+      cost <strong>range</strong> rather than a single figure — prices genuinely
+      vary by season, booking lead-time and personal choices. See our full
       <a href="/israel-cost-budget" class="font-semibold text-primary"
         >cost &amp; budget guide</a
       > for the detail behind these numbers.
@@ -86,31 +92,44 @@ const schema = [breadcrumbList(crumbs), faqPage(faqs)];
             <button type="button" class="day-preset" data-days="7">7 days</button>
             <button type="button" class="day-preset" data-days="10">10 days</button>
             <button type="button" class="day-preset" data-days="14">14 days</button>
+            <button type="button" class="day-preset" data-days="21">21 days</button>
           </div>
         </div>
 
-        <div class="mt-4 grid grid-cols-2 gap-4">
+        <!-- Duration slider -->
+        <div class="mt-4">
           <label class="block">
-            <span class="text-sm font-semibold text-ink">Days</span>
+            <span class="text-sm font-semibold text-ink">
+              Days: <span id="days-val" class="text-primary">7</span>
+            </span>
             <input
-              type="number"
+              type="range"
               id="days"
-              min="1"
-              max="60"
+              min="5"
+              max="21"
               value="7"
-              class="mt-1 w-full rounded-btn border border-border bg-sand px-3 py-2 text-ink"
+              step="1"
+              class="mt-2 w-full accent-primary"
+              aria-label="Trip duration in days"
             />
+            <div class="mt-0.5 flex justify-between text-xs text-ink-muted select-none">
+              <span>5 days</span><span>21 days</span>
+            </div>
           </label>
+        </div>
+
+        <!-- Group size -->
+        <div class="mt-4">
           <label class="block">
-            <span class="text-sm font-semibold text-ink">Travellers</span>
-            <input
-              type="number"
-              id="travellers"
-              min="1"
-              max="20"
-              value="2"
+            <span class="text-sm font-semibold text-ink">Group size</span>
+            <select
+              id="group-size"
               class="mt-1 w-full rounded-btn border border-border bg-sand px-3 py-2 text-ink"
-            />
+            >
+              <option value="1">Solo traveller</option>
+              <option value="2" selected>Couple (2 people)</option>
+              <option value="3">Family (2 adults + 1 child)</option>
+            </select>
           </label>
         </div>
 
@@ -206,15 +225,15 @@ const schema = [breadcrumbList(crumbs), faqPage(faqs)];
           <p id="print-meta" class="mt-1 text-sm text-ink-muted"></p>
         </div>
 
-        <p class="eyebrow">Estimated total</p>
+        <p class="eyebrow">Estimated cost range</p>
         <p class="mt-1">
-          <span id="total" class="tabular font-display text-5xl font-bold text-ink"
-            >$0</span
+          <span id="total-range" class="font-display text-4xl font-bold text-ink leading-none"
+            >$0 – $0</span
           >
-          <span id="total-ils" class="ml-1 text-ink-muted">≈ ₪0</span>
         </p>
+        <p id="total-ils" class="mt-1 text-sm text-ink-muted">≈ ₪0 – ₪0</p>
         <p id="perperson" class="mt-1 text-sm text-ink-muted">
-          for your group · $0 per person · $0 per person / day
+          for your group · $0 per person (mid estimate)
         </p>
 
         <table class="mt-6 w-full text-sm" id="breakdown-table">
@@ -222,7 +241,7 @@ const schema = [breadcrumbList(crumbs), faqPage(faqs)];
             <tr class="border-b-2 border-border">
               <th class="pb-2 text-left text-xs font-semibold uppercase tracking-wide text-ink-muted">Category</th>
               <th class="pb-2 text-right text-xs font-semibold uppercase tracking-wide text-ink-muted">Per day</th>
-              <th class="pb-2 text-right text-xs font-semibold uppercase tracking-wide text-ink-muted">Total</th>
+              <th class="pb-2 text-right text-xs font-semibold uppercase tracking-wide text-ink-muted">Range</th>
             </tr>
           </thead>
           <tbody id="breakdown" class="tabular">
@@ -239,8 +258,9 @@ const schema = [breadcrumbList(crumbs), faqPage(faqs)];
           </button>
         </div>
         <p class="mt-4 text-xs text-ink-muted">
-          Estimates only, excluding travel insurance and shopping. Shekel
-          figures use an approximate rate of ₪3.7 = $1.
+          Ranges reflect typical price variation (±15%). Excludes travel
+          insurance and shopping. Shekel conversion uses an approximate rate of
+          ₪3.7 = $1.
         </p>
       </div>
     </div>
@@ -267,6 +287,7 @@ const schema = [breadcrumbList(crumbs), faqPage(faqs)];
   <section class="mx-auto max-w-3xl px-4 pb-16 pt-10 no-print">
     <p class="text-sm text-ink-muted">
       Also useful: <a href="/israel-cost-budget" class="font-semibold text-primary">Israel cost &amp; budget guide</a>
+      · <a href="/israel-trip-cost-by-style" class="font-semibold text-primary">Cost by travel style</a>
       · <a href="/israel-tipping-currency" class="font-semibold text-primary">Currency &amp; tipping</a>
       · <a href="/israel-how-many-days" class="font-semibold text-primary">How many days do I need?</a>
     </p>
@@ -327,6 +348,12 @@ const schema = [breadcrumbList(crumbs), faqPage(faqs)];
     outline-offset: 2px;
   }
 
+  input[type='range'] {
+    height: 4px;
+    border-radius: 9999px;
+    cursor: pointer;
+  }
+
   @media print {
     .no-print { display: none !important; }
     .print-only { display: block !important; }
@@ -342,12 +369,12 @@ const schema = [breadcrumbList(crumbs), faqPage(faqs)];
 
 <script is:inline>
   (function () {
-    var RATE = 3.7; // ILS per USD (approx)
-    var FLIGHT = 750; // pp rough
+    var RATE = 3.7;    // ILS per USD (approx)
+    var FLIGHT = 750;  // pp rough
     var DAYTRIP = 110; // pp each
-    var CAR = 55; // per day, shared
+    var CAR = 55;      // per day, shared
+    var BAND = 0.15;   // ±15% range band
 
-    // Accommodation cost per person per night
     var ACCOMS = {
       hostel:       22,
       guesthouse:   55,
@@ -357,7 +384,6 @@ const schema = [breadcrumbList(crumbs), faqPage(faqs)];
       luxury_hotel: 380,
     };
 
-    // Per-person, per-day for non-accom costs by style
     var STYLE = {
       budget: { 'Food & drink': 22, 'Local transport': 5,  Activities: 10 },
       mid:    { 'Food & drink': 50, 'Local transport': 12, Activities: 25 },
@@ -365,34 +391,24 @@ const schema = [breadcrumbList(crumbs), faqPage(faqs)];
     };
 
     var $ = function (id) { return document.getElementById(id); };
-    var num = function (id, d) {
-      var v = parseFloat($(id).value);
-      return isNaN(v) || v < 0 ? d : v;
-    };
-    var money = function (n) {
-      return '$' + Math.round(n).toLocaleString('en-US');
-    };
 
-    var reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
-    var prevTotal = 0;
-    function animateTotal(el, to) {
-      if (reduce) { el.textContent = money(to); prevTotal = to; return; }
-      var from = prevTotal;
-      prevTotal = to;
-      var start = null;
-      var dur = 450;
-      if (el._raf) cancelAnimationFrame(el._raf);
-      function step(ts) {
-        if (start === null) start = ts;
-        var p = Math.min(1, (ts - start) / dur);
-        var eased = 0.5 - Math.cos(p * Math.PI) / 2;
-        el.textContent = money(from + (to - from) * eased);
-        if (p < 1) el._raf = requestAnimationFrame(step);
-      }
-      el._raf = requestAnimationFrame(step);
+    function money(n) {
+      return '$' + Math.round(n).toLocaleString('en-US');
     }
 
-    function style() {
+    function rangeFmt(mid) {
+      var lo = Math.round(mid * (1 - BAND) / 10) * 10;
+      var hi = Math.round(mid * (1 + BAND) / 10) * 10;
+      return money(lo) + ' – ' + money(hi);
+    }
+
+    function rangeFmtILS(mid) {
+      var lo = Math.round(mid * RATE * (1 - BAND) / 10) * 10;
+      var hi = Math.round(mid * RATE * (1 + BAND) / 10) * 10;
+      return '≈ ₪' + lo.toLocaleString('en-US') + ' – ₪' + hi.toLocaleString('en-US');
+    }
+
+    function getStyle() {
       var el = document.querySelector('input[name="style"]:checked');
       return el ? el.value : 'mid';
     }
@@ -400,6 +416,17 @@ const schema = [breadcrumbList(crumbs), faqPage(faqs)];
     function accomRate() {
       var sel = $('accom-tier');
       return ACCOMS[sel ? sel.value : 'mid_hotel'] || 120;
+    }
+
+    function getPax() {
+      var sel = $('group-size');
+      return parseInt(sel ? sel.value : '2', 10) || 2;
+    }
+
+    function getDays() {
+      var el = $('days');
+      var v = parseInt(el ? el.value : '7', 10) || 7;
+      return Math.min(21, Math.max(5, v));
     }
 
     function updatePresetButtons(days) {
@@ -410,25 +437,24 @@ const schema = [breadcrumbList(crumbs), faqPage(faqs)];
     }
 
     function compute() {
-      var days = Math.max(1, num('days', 7));
-      var pax = Math.max(1, num('travellers', 2));
-      var daytrips = num('daytrips', 0);
-      var cardays = num('cardays', 0);
+      var days = getDays();
+      var pax = getPax();
+      var daytrips = Math.max(0, parseInt($('daytrips').value, 10) || 0);
+      var cardays = Math.max(0, parseInt($('cardays').value, 10) || 0);
       var flights = $('flights').checked;
-      var s = STYLE[style()];
+      var s = STYLE[getStyle()];
       var ppn = accomRate();
 
+      var daysVal = $('days-val');
+      if (daysVal) daysVal.textContent = days;
       updatePresetButtons(days);
 
-      // rows: [label, perPersonPerDay, total]
       var rows = [];
       var accomTotal = ppn * days * pax;
       rows.push(['Accommodation', ppn, accomTotal]);
 
-      var perPersonDaily = 0;
       for (var k in s) {
         var ppd = s[k];
-        perPersonDaily += ppd;
         rows.push([k, ppd, ppd * days * pax]);
       }
 
@@ -437,25 +463,28 @@ const schema = [breadcrumbList(crumbs), faqPage(faqs)];
       var carCost = cardays * CAR;
       if (carCost) rows.push(['Rental car', null, carCost]);
       var flightCost = flights ? FLIGHT * pax : 0;
-      if (flightCost) rows.push(['Flights', null, flightCost]);
+      if (flightCost) rows.push(['Flights (rough estimate)', null, flightCost]);
 
-      var total = rows.reduce(function (a, r) { return a + r[2]; }, 0);
+      var midTotal = rows.reduce(function (a, r) { return a + r[2]; }, 0);
 
-      animateTotal($('total'), total);
-      $('total-ils').textContent = '≈ ₪' + Math.round(total * RATE).toLocaleString('en-US');
-      var perPerson = total / pax;
-      var perPersonPerDay = perPerson / days;
-      $('perperson').textContent =
-        'for ' + pax + (pax > 1 ? ' travellers' : ' traveller') +
-        ' · ' + money(perPerson) + ' per person · ' +
-        money(perPersonPerDay) + ' per person / day';
+      var totalRangeEl = $('total-range');
+      if (totalRangeEl) totalRangeEl.textContent = rangeFmt(midTotal);
+      var totalIlsEl = $('total-ils');
+      if (totalIlsEl) totalIlsEl.textContent = rangeFmtILS(midTotal);
 
-      // Update print meta
+      var perPerson = midTotal / pax;
+      var groupLabel = pax === 1 ? '1 traveller' : pax + ' travellers';
+      var perpersonEl = $('perperson');
+      if (perpersonEl) perpersonEl.textContent =
+        groupLabel + ' · ' + money(perPerson) + ' per person (mid estimate)';
+
       var accomSel = $('accom-tier');
-      var accomLabel = accomSel ? accomSel.options[accomSel.selectedIndex].text.split(' —')[0] : 'Mid-range hotel';
-      $('print-meta').textContent =
-        days + ' days · ' + pax + (pax > 1 ? ' travellers' : ' traveller') +
-        ' · ' + accomLabel + ' · ' + style() + ' travel style';
+      var accomLabel = accomSel
+        ? accomSel.options[accomSel.selectedIndex].text.split(' —')[0]
+        : 'Mid-range hotel';
+      var printMeta = $('print-meta');
+      if (printMeta) printMeta.textContent =
+        days + ' days · ' + groupLabel + ' · ' + accomLabel + ' · ' + getStyle() + ' travel style';
 
       var tb = $('breakdown');
       tb.innerHTML = '';
@@ -470,21 +499,21 @@ const schema = [breadcrumbList(crumbs), faqPage(faqs)];
         td2.textContent = r[1] !== null ? money(r[1]) + '/day' : '—';
         var td3 = document.createElement('td');
         td3.className = 'py-2 text-right font-semibold text-ink';
-        td3.textContent = money(r[2]);
+        td3.textContent = rangeFmt(r[2]);
         tr.appendChild(td1); tr.appendChild(td2); tr.appendChild(td3);
         tb.appendChild(tr);
       });
-      // Total row
+
       var trTotal = document.createElement('tr');
       trTotal.className = 'font-bold';
       var tdLabel = document.createElement('td');
       tdLabel.className = 'pt-3 text-ink';
-      tdLabel.textContent = 'Total';
+      tdLabel.textContent = 'Total estimate';
       var tdEmpty = document.createElement('td');
-      var tdTotal = document.createElement('td');
-      tdTotal.className = 'pt-3 text-right text-ink';
-      tdTotal.textContent = money(total);
-      trTotal.appendChild(tdLabel); trTotal.appendChild(tdEmpty); trTotal.appendChild(tdTotal);
+      var tdTotalCell = document.createElement('td');
+      tdTotalCell.className = 'pt-3 text-right text-ink';
+      tdTotalCell.textContent = rangeFmt(midTotal);
+      trTotal.appendChild(tdLabel); trTotal.appendChild(tdEmpty); trTotal.appendChild(tdTotalCell);
       tb.appendChild(trTotal);
     }
 
