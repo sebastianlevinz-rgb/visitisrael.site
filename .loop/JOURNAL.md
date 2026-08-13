@@ -17405,3 +17405,9 @@ Gate: pnpm check 0 errors | build 1971 pages (+3 from 1968) | test:e2e 6/6 targe
 Ship: committed 0881044a to master; pushed origin/master. CI in_progress at state-write (normal).
 ES: 397→400/401. Missing-ES: 1 (israel-for-serbian-travelers P3 ONLY — ES parity EFFECTIVELY COMPLETE).
 Next: iter1198 (1198%5=3 → BUILD): seo-content (gay-tel-aviv P2 or israel-for-australian-travelers P2) or technical (airlines-freshness-israir-madrid S).
+
+## 2026-08-13T08:37Z · iter 1198 · BUILD · airlines-freshness-israir-madrid · a3e9de83
+What: Freshness update to EN airlines-flying-israel-2026.md — added Israir Tel Aviv–Madrid (MAD) route launching 25 October 2026 (3×/week, A320). Changes: (1) European routes table: new Israir row with "Launching 25 October 2026" caveat + israir.com verification note; (2) Key changes / Upcoming section: Israir TLV–MAD bullet alongside Delta BOS–TLV; (3) New FAQ: "Is Israir flying from Spain to Israel in 2026?" (targets high-intent Spain-Israel aviation query, mentions low-cost LCC caveats); (4) updatedAt: 2026-08-02 → 2026-08-13; "Last verified" prose updated. No fabricated data; caveats on launch dates. No new page (existing guide updated).
+Gate: pnpm check 0 errors | build 1971 pages (unchanged, content update only) | test:e2e 8/8 targeted PASS (4 smoke + 4 a11y across EN+DE+FR+ES locale variants; 0 WCAG violations).
+Ship: committed a3e9de83 to master; pushed origin/master. CI in_progress at state-write (normal — Vercel auto-deploy in progress).
+Next: iter1199 (1199%5=4 → REVIEW): audit a slice of shipped content. Good candidates: review the israel-vs-* comparison guides (EN+ES 3 pairs), or audit internal links in the airlines guide.

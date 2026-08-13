@@ -6,7 +6,6 @@ Priorities P0 (highest) → P3. Status: ready | blocked:<reason> | in-progress.
 ## New items — iter1195 RESEARCH discoveries (2026-08-13)
 
 ### Technical freshness updates
-- [P2] (technical, S) **airlines-freshness-israir-madrid** — Israir launching TLV↔MAD (Madrid) 3×/week starting Oct 25, 2026 (A320). airlines-flying-israel-2026.md has Arkia TLV-NRT but NOT Israir MAD. Add under European routes table. Note: israel-for-spanish-travelers.md (DE locale) already mentions it but main EN airlines guide is missing it. Quick targeted edit: add row to European routes table + FAQ update. Status: ready.
 - [P2] (technical, S) **tower-of-david-freshness-2026** — Tower of David Museum $40M renovation completed 2023 with Angelina Della Rache Entrance Pavilion, 10 new immersive permanent galleries (using innovative technology, interactive exhibits, VR time-travel), and contemporary art in ancient cisterns. tower-of-david-guide.md may be pre-renovation. Read existing guide; if it doesn't mention Della Rache pavilion or 10-gallery layout, update description, hours context, and booking recommendation. Status: ready.
 
 ### Seo-content: new EN guides (confirmed missing from content directory)

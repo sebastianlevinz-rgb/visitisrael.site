@@ -2375,3 +2375,6 @@ FR: 392→397/401. Build: 1936→1941 (+5). Gate: check 0 | build 1941 | e2e 10/
 - **ES: israel-vs-italy** — LATAM tuteo; Jerusalén vs Roma civilisacional; 9 vs 58 UNESCO; conexión sefardí Arco de Tito; 7 FAQs; GYG+Booking CTAs
 - **ES: israel-vs-portugal** — LATAM tuteo; 1497 conversión forzada + ley retorno 2015; Atlántico vs Mar Rojo; 7 FAQs; GYG+Booking+DiscoverCars CTAs
 - **ES: israel-vs-spain** — LATAM tuteo; 1492 Decreto Alhambra; Alhambra/Mezquita vs Ciudad Vieja; Israir TLV-MAD; 7 FAQs; GYG+Booking+DiscoverCars CTAs
+
+## iter1198 · 2026-08-13 · a3e9de83
+**airlines-freshness-israir-madrid** (technical, S) — Updated EN airlines-flying-israel-2026.md with Israir TLV–MAD (Madrid) route launching 25 October 2026 (3×/week, A320). Added to European routes table, Upcoming section, and new FAQ targeting "Is Israir flying from Spain to Israel?" query. Improves freshness signal and Spain-Israel aviation coverage.
