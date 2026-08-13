@@ -17527,3 +17527,9 @@ Gate: pnpm check 0 errors | build 1973 pages (unchanged) | 6/6 targeted e2e PASS
 Ship: squash-merged 6ff461af to master; pushed origin/master. CI in_progress at state-write (normal — previous runs all success).
 Prod: Vercel auto-deploy triggered for 6ff461af; CI in_progress. CI for prior SHA (26fa0eea) was still in_progress; prior-prior (e6d0e7af) = success.
 Next: iter1212 (1212%5=2 → BUILD seo-content); candidates: best-national-parks-israel (P2 S, ready), israel-vs-dubai (P2 S, ready), bein-harim-vs-abraham-tours (P2 S-M, ready).
+
+## 2026-08-13T21:50Z · iter 1212 · BUILD (seo-content) · best-national-parks-israel · 91a15e20
+What: new /best-national-parks-israel hub guide ranking 11 INPA parks in a comparison table (Masada, Ein Gedi, Caesarea, Gamla, Banias, Qumran, Beit She'an, Tel Be'er Sheva, Tel Megiddo, Nimrod Fortress, Timna Park). Columns: UNESCO / INPA pass / best-for / typical visit duration. Each park gets a detail section (history + practical). 7 FAQs (pass coverage, car hire, accessibility, seasonal, Masada-Ein Gedi day trip, cable car, Vercel deploy note). DiscoverCars + GYG CTAs. 12 dense cross-links. 2 new e2e routes added (smoke + a11y).
+Gate: pnpm check 0 errors | build 1973→1974 pages | test:e2e 2/2 targeted PASS.
+Ship: squash-merged 91a15e20; pushed origin/master. CI in_progress at state-write (normal Vercel pattern).
+Next: iter1213 (1213%5=3 → BUILD tools).
